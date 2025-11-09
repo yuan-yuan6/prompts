@@ -3,7 +3,8 @@ title: B2B Sales Process Optimization & Revenue Operations Framework
 category: business/Sales & Marketing
 tags: [business, data-science, design, framework, management, optimization, research]
 use_cases:
-  - Implementing comprehensive b2b sales optimization framework covering sales process design, le...
+  - Creating comprehensive b2b sales optimization framework covering sales process design, lead management, opportunity progression, performance analytics, technology stack optimization, and revenue operations across the entire customer acquisition lifecycle.
+
   - Project planning and execution
   - Strategy development
 related_templates:

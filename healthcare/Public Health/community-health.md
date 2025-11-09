@@ -3,7 +3,7 @@ title: Community Health Programs Template
 category: healthcare/Public Health
 tags: [data-science, design, healthcare, marketing, research, template]
 use_cases:
-  - Implementing create comprehensive community health initiatives, prevention programs, health e...
+  - Creating comprehensive community health initiatives, prevention programs, health education campaigns, and population health interventions that address social determinants of health and improve health outcomes at the community level.
   - Project planning and execution
   - Strategy development
 related_templates:

@@ -3,7 +3,8 @@ title: Documentation, Lineage & Governance Template
 category: data-analytics/Analytics Engineering
 tags: [automation, data-analytics, design, documentation, machine-learning, management, security, strategy]
 use_cases:
-  - Implementing design comprehensive data governance frameworks including data lineage tracking ...
+  - Creating design comprehensive data governance frameworks including data lineage tracking systems, data dictionary management, schema documentation automation, metadata management, and enterprise data governance programs for modern data platforms.
+
   - Project planning and execution
   - Strategy development
 related_templates:
@@ -976,29 +977,29 @@ class SchemaDocumentationEngine:
         Create schema overview documentation template
         """
         template = """
-# Schema Documentation: {{schema_name}}
+# Schema Documentation: {[SCHEMA_NAME]}
 
 ## Overview
-**Schema Name:** {{schema_name}}
-**Description:** {{description}}
-**Owner:** {{owner}}
-**Business Contact:** {{business_contact}}
-**Technical Contact:** {{technical_contact}}
-**Last Updated:** {{last_updated}}
+**Schema Name:** {[SCHEMA_NAME]}
+**Description:** {[DESCRIPTION]}
+**Owner:** {[OWNER]}
+**Business Contact:** {[BUSINESS_CONTACT]}
+**Technical Contact:** {[TECHNICAL_CONTACT]}
+**Last Updated:** {[LAST_UPDATED]}
 
 ## Purpose and Context
-{{purpose}}
+{[PURPOSE]}
 
 ## Business Context
-{{business_context}}
+{[BUSINESS_CONTEXT]}
 
 ## Schema Statistics
-- **Total Tables:** {{table_count}}
-- **Total Views:** {{view_count}}
-- **Total Functions:** {{function_count}}
-- **Total Procedures:** {{procedure_count}}
-- **Total Storage Size:** {{total_size_mb}} MB
-- **Estimated Row Count:** {{total_rows}}
+- **Total Tables:** {[TABLE_COUNT]}
+- **Total Views:** {[VIEW_COUNT]}
+- **Total Functions:** {[FUNCTION_COUNT]}
+- **Total Procedures:** {[PROCEDURE_COUNT]}
+- **Total Storage Size:** {[TOTAL_SIZE_MB]} MB
+- **Estimated Row Count:** {[TOTAL_ROWS]}
 
 ## Tables Overview
 | Table Name | Description | Row Count | Size (MB) | Last Modified |
@@ -1008,7 +1009,7 @@ class SchemaDocumentationEngine:
 {% endfor %}
 
 ## Relationships
-{{relationship_diagram}}
+{[RELATIONSHIP_DIAGRAM]}
 
 ## Dependencies
 ### Upstream Dependencies
@@ -1030,13 +1031,13 @@ class SchemaDocumentationEngine:
 {% endfor %}
 
 ## Security and Compliance
-- **Classification Level:** {{classification_level}}
-- **Access Restrictions:** {{access_restrictions}}
-- **Compliance Requirements:** {{compliance_requirements}}
-- **Data Retention:** {{retention_policy}}
+- **Classification Level:** {[CLASSIFICATION_LEVEL]}
+- **Access Restrictions:** {[ACCESS_RESTRICTIONS]}
+- **Compliance Requirements:** {[COMPLIANCE_REQUIREMENTS]}
+- **Data Retention:** {[RETENTION_POLICY]}
 
 ## Usage Guidelines
-{{usage_guidelines}}
+{[USAGE_GUIDELINES]}
 
 ## Change History
 | Date | Version | Change Description | Author |
@@ -1046,9 +1047,9 @@ class SchemaDocumentationEngine:
 {% endfor %}
 
 ## Contact Information
-- **Schema Owner:** {{owner_contact}}
-- **Data Steward:** {{steward_contact}}
-- **Technical Lead:** {{technical_lead_contact}}
+- **Schema Owner:** {[OWNER_CONTACT]}
+- **Data Steward:** {[STEWARD_CONTACT]}
+- **Technical Lead:** {[TECHNICAL_LEAD_CONTACT]}
 """
         return template
 ```

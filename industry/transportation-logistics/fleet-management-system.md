@@ -3,7 +3,8 @@ title: Fleet Management & Vehicle Operations Framework
 category: industry/transportation-logistics
 tags: [framework, industry, management, optimization, security]
 use_cases:
-  - Implementing comprehensive framework for managing vehicle fleets including asset tracking, ma...
+  - Creating comprehensive framework for managing vehicle fleets including asset tracking, maintenance scheduling, driver management, route optimization, compliance monitoring, and operational efficiency for transportation and logistics operations.
+
   - Project planning and execution
   - Strategy development
 last_updated: 2025-11-09

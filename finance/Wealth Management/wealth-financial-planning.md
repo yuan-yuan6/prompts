@@ -3,7 +3,7 @@ title: Financial Planning Template
 category: finance/Wealth Management
 tags: [data-science, finance, management, research, strategy, template]
 use_cases:
-  - Implementing create comprehensive financial planning strategies, wealth management frameworks...
+  - Creating comprehensive financial planning strategies, wealth management frameworks, investment portfolios, and retirement plans that optimize financial outcomes, minimize taxes, and achieve long-term wealth preservation and growth objectives.
   - Project planning and execution
   - Strategy development
 related_templates:

@@ -3,7 +3,7 @@ title: Epidemiological Surveillance Template
 category: healthcare/Public Health
 tags: [data-science, design, healthcare, optimization, research, security, template]
 use_cases:
-  - Implementing create comprehensive disease surveillance systems, outbreak investigation protoc...
+  - Creating comprehensive disease surveillance systems, outbreak investigation protocols, epidemiological analysis frameworks, and public health monitoring programs that detect, track, and respond to health threats in populations.
   - Project planning and execution
   - Strategy development
 related_templates:

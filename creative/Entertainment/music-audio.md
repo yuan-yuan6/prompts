@@ -3,7 +3,7 @@ title: Music & Audio Template
 category: creative/Entertainment
 tags: [communication, creative, design, template, testing]
 use_cases:
-  - Implementing create comprehensive music and audio content including lyrics, compositions, and...
+  - Creating comprehensive music and audio content including lyrics, compositions, and sound design for various media formats and musical applications across genres and styles.
   - Project planning and execution
   - Strategy development
 related_templates:

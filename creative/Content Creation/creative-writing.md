@@ -3,7 +3,8 @@ title: Creative Writing Template
 category: creative/Content Creation
 tags: [automation, communication, creative, design, development, template]
 use_cases:
-  - Implementing generate compelling creative writing including stories, scripts, poetry, novels,...
+  - Creating generate compelling creative writing including stories, scripts, poetry, novels, and fictional content with engaging narratives, character development, and literary techniques.
+
   - Project planning and execution
   - Strategy development
 related_templates:
@@ -20,114 +21,114 @@ Generate compelling creative writing including stories, scripts, poetry, novels,
 ## Template Structure
 
 ### Writing Project Overview
-- **Project Title**: {project_title}
-- **Writing Type**: {writing_type}
-- **Genre**: {genre}
-- **Target Audience**: {target_audience}
-- **Length**: {content_length}
-- **Deadline**: {deadline}
-- **Purpose**: {writing_purpose}
-- **Platform**: {publication_platform}
-- **Budget**: {writing_budget}
-- **Style Requirements**: {style_requirements}
+- **Project Title**: [PROJECT_TITLE]
+- **Writing Type**: [WRITING_TYPE]
+- **Genre**: [GENRE]
+- **Target Audience**: [TARGET_AUDIENCE]
+- **Length**: [CONTENT_LENGTH]
+- **Deadline**: [DEADLINE]
+- **Purpose**: [WRITING_PURPOSE]
+- **Platform**: [PUBLICATION_PLATFORM]
+- **Budget**: [WRITING_BUDGET]
+- **Style Requirements**: [STYLE_REQUIREMENTS]
 
 ### Story Elements
-- **Theme**: {theme}
-- **Setting**: {setting}
-- **Time Period**: {time_period}
-- **Location**: {location}
-- **Atmosphere**: {atmosphere}
-- **Mood**: {mood}
-- **Tone**: {tone}
-- **Point of View**: {point_of_view}
-- **Narrative Style**: {narrative_style}
-- **Literary Devices**: {literary_devices}
+- **Theme**: [THEME]
+- **Setting**: [SETTING]
+- **Time Period**: [TIME_PERIOD]
+- **Location**: [LOCATION]
+- **Atmosphere**: [ATMOSPHERE]
+- **Mood**: [MOOD]
+- **Tone**: [TONE]
+- **Point of View**: [POINT_OF_VIEW]
+- **Narrative Style**: [NARRATIVE_STYLE]
+- **Literary Devices**: [LITERARY_DEVICES]
 
 ### Character Development
-- **Main Characters**: {main_characters}
-- **Supporting Characters**: {supporting_characters}
-- **Character Arcs**: {character_arcs}
-- **Personality Traits**: {personality_traits}
-- **Background Stories**: {background_stories}
-- **Motivations**: {character_motivations}
-- **Conflicts**: {character_conflicts}
-- **Relationships**: {character_relationships}
-- **Dialogue Style**: {dialogue_style}
-- **Character Voice**: {character_voice}
+- **Main Characters**: [MAIN_CHARACTERS]
+- **Supporting Characters**: [SUPPORTING_CHARACTERS]
+- **Character Arcs**: [CHARACTER_ARCS]
+- **Personality Traits**: [PERSONALITY_TRAITS]
+- **Background Stories**: [BACKGROUND_STORIES]
+- **Motivations**: [CHARACTER_MOTIVATIONS]
+- **Conflicts**: [CHARACTER_CONFLICTS]
+- **Relationships**: [CHARACTER_RELATIONSHIPS]
+- **Dialogue Style**: [DIALOGUE_STYLE]
+- **Character Voice**: [CHARACTER_VOICE]
 
 ### Plot Structure
-- **Plot Outline**: {plot_outline}
-- **Opening Hook**: {opening_hook}
-- **Rising Action**: {rising_action}
-- **Climax**: {climax}
-- **Falling Action**: {falling_action}
-- **Resolution**: {resolution}
-- **Subplots**: {subplots}
-- **Plot Twists**: {plot_twists}
-- **Pacing**: {pacing}
-- **Tension**: {tension}
+- **Plot Outline**: [PLOT_OUTLINE]
+- **Opening Hook**: [OPENING_HOOK]
+- **Rising Action**: [RISING_ACTION]
+- **Climax**: [CLIMAX]
+- **Falling Action**: [FALLING_ACTION]
+- **Resolution**: [RESOLUTION]
+- **Subplots**: [SUBPLOTS]
+- **Plot Twists**: [PLOT_TWISTS]
+- **Pacing**: [PACING]
+- **Tension**: [TENSION]
 
 ### Writing Techniques
-- **Writing Style**: {writing_style}
-- **Language Level**: {language_level}
-- **Vocabulary**: {vocabulary}
-- **Sentence Structure**: {sentence_structure}
-- **Paragraph Flow**: {paragraph_flow}
-- **Transitions**: {transitions}
-- **Show vs Tell**: {show_vs_tell}
-- **Imagery**: {imagery}
-- **Symbolism**: {symbolism}
-- **Metaphors**: {metaphors}
+- **Writing Style**: [WRITING_STYLE]
+- **Language Level**: [LANGUAGE_LEVEL]
+- **Vocabulary**: [VOCABULARY]
+- **Sentence Structure**: [SENTENCE_STRUCTURE]
+- **Paragraph Flow**: [PARAGRAPH_FLOW]
+- **Transitions**: [TRANSITIONS]
+- **Show vs Tell**: [SHOW_VS_TELL]
+- **Imagery**: [IMAGERY]
+- **Symbolism**: [SYMBOLISM]
+- **Metaphors**: [METAPHORS]
 
 ### Creative Elements
-- **Creativity Level**: {creativity_level}
-- **Originality**: {originality}
-- **Innovation**: {innovation}
-- **Unique Angles**: {unique_angles}
-- **Fresh Perspectives**: {fresh_perspectives}
-- **Artistic Vision**: {artistic_vision}
-- **Creative Risks**: {creative_risks}
-- **Experimental Techniques**: {experimental_techniques}
-- **Genre Blending**: {genre_blending}
-- **Creative Constraints**: {creative_constraints}
+- **Creativity Level**: [CREATIVITY_LEVEL]
+- **Originality**: [ORIGINALITY]
+- **Innovation**: [INNOVATION]
+- **Unique Angles**: [UNIQUE_ANGLES]
+- **Fresh Perspectives**: [FRESH_PERSPECTIVES]
+- **Artistic Vision**: [ARTISTIC_VISION]
+- **Creative Risks**: [CREATIVE_RISKS]
+- **Experimental Techniques**: [EXPERIMENTAL_TECHNIQUES]
+- **Genre Blending**: [GENRE_BLENDING]
+- **Creative Constraints**: [CREATIVE_CONSTRAINTS]
 
 ## Prompt Template
 
-Create {writing_type} in {genre} genre for {target_audience} with {content_length} targeting {publication_platform}. The writing should explore {theme} themes and maintain {tone} tone throughout.
+Create [WRITING_TYPE] in [GENRE] genre for [TARGET_AUDIENCE] with [CONTENT_LENGTH] targeting [PUBLICATION_PLATFORM]. The writing should explore [THEME] themes and maintain [TONE] tone throughout.
 
 **Story Foundation:**
-- Set in {setting} during {time_period} with {atmosphere} atmosphere
-- Use {point_of_view} perspective with {narrative_style} style
-- Incorporate {literary_devices} and maintain {mood} mood
-- Create {location} settings that enhance the story
+- Set in [SETTING] during [TIME_PERIOD] with [ATMOSPHERE] atmosphere
+- Use [POINT_OF_VIEW] perspective with [NARRATIVE_STYLE] style
+- Incorporate [LITERARY_DEVICES] and maintain [MOOD] mood
+- Create [LOCATION] settings that enhance the story
 
 **Character Development:**
-- Feature {main_characters} as protagonists with {character_arcs}
-- Include {supporting_characters} with distinct {personality_traits}
-- Develop {character_motivations} and {character_conflicts}
-- Show {character_relationships} through {dialogue_style}
-- Give each character unique {character_voice}
+- Feature [MAIN_CHARACTERS] as protagonists with [CHARACTER_ARCS]
+- Include [SUPPORTING_CHARACTERS] with distinct [PERSONALITY_TRAITS]
+- Develop [CHARACTER_MOTIVATIONS] and [CHARACTER_CONFLICTS]
+- Show [CHARACTER_RELATIONSHIPS] through [DIALOGUE_STYLE]
+- Give each character unique [CHARACTER_VOICE]
 
 **Plot Structure:**
-- Open with compelling {opening_hook} that draws readers in
-- Build {rising_action} leading to powerful {climax}
-- Include {subplots} and unexpected {plot_twists}
-- Maintain proper {pacing} with sustained {tension}
-- Conclude with satisfying {resolution}
+- Open with compelling [OPENING_HOOK] that draws readers in
+- Build [RISING_ACTION] leading to powerful [CLIMAX]
+- Include [SUBPLOTS] and unexpected [PLOT_TWISTS]
+- Maintain proper [PACING] with sustained [TENSION]
+- Conclude with satisfying [RESOLUTION]
 
 **Writing Style:**
-- Use {language_level} language appropriate for audience
-- Employ varied {sentence_structure} and smooth {paragraph_flow}
-- Balance {show_vs_tell} with vivid {imagery}
-- Include meaningful {symbolism} and effective {metaphors}
-- Ensure natural {transitions} between scenes
+- Use [LANGUAGE_LEVEL] language appropriate for audience
+- Employ varied [SENTENCE_STRUCTURE] and smooth [PARAGRAPH_FLOW]
+- Balance [SHOW_VS_TELL] with vivid [IMAGERY]
+- Include meaningful [SYMBOLISM] and effective [METAPHORS]
+- Ensure natural [TRANSITIONS] between scenes
 
 **Creative Requirements:**
-- Demonstrate {creativity_level} and {originality}
-- Bring {fresh_perspectives} and {unique_angles}
-- Take appropriate {creative_risks} within genre conventions
-- Consider {genre_blending} opportunities
-- Work within {creative_constraints} while maximizing impact
+- Demonstrate [CREATIVITY_LEVEL] and [ORIGINALITY]
+- Bring [FRESH_PERSPECTIVES] and [UNIQUE_ANGLES]
+- Take appropriate [CREATIVE_RISKS] within genre conventions
+- Consider [GENRE_BLENDING] opportunities
+- Work within [CREATIVE_CONSTRAINTS] while maximizing impact
 
 Please provide engaging, well-crafted creative writing that demonstrates strong literary technique, compelling storytelling, and artistic vision appropriate for the specified audience and platform.
 
@@ -162,66 +163,66 @@ Character Development:
 
 | Variable | Description | Example |
 |----------|-------------|----------|
-| `{project_title}` | Specify the project title | "[specify value]" |
-| `{writing_type}` | Specify the writing type | "Standard" |
-| `{genre}` | Specify the genre | "[specify value]" |
-| `{target_audience}` | Specify the target audience | "[specify value]" |
-| `{content_length}` | Specify the content length | "[specify value]" |
-| `{deadline}` | Specify the deadline | "[specify value]" |
-| `{writing_purpose}` | Specify the writing purpose | "[specify value]" |
-| `{publication_platform}` | Specify the publication platform | "[specify value]" |
-| `{writing_budget}` | Specify the writing budget | "$500,000" |
-| `{style_requirements}` | Specify the style requirements | "[specify value]" |
-| `{theme}` | Specify the theme | "[specify value]" |
-| `{setting}` | Specify the setting | "[specify value]" |
-| `{time_period}` | Specify the time period | "[specify value]" |
-| `{location}` | Specify the location | "North America" |
-| `{atmosphere}` | Specify the atmosphere | "[specify value]" |
-| `{mood}` | Specify the mood | "[specify value]" |
-| `{tone}` | Specify the tone | "[specify value]" |
-| `{point_of_view}` | Specify the point of view | "[specify value]" |
-| `{narrative_style}` | Specify the narrative style | "[specify value]" |
-| `{literary_devices}` | Specify the literary devices | "[specify value]" |
-| `{main_characters}` | Specify the main characters | "[specify value]" |
-| `{supporting_characters}` | Specify the supporting characters | "[specify value]" |
-| `{character_arcs}` | Specify the character arcs | "[specify value]" |
-| `{personality_traits}` | Specify the personality traits | "[specify value]" |
-| `{background_stories}` | Specify the background stories | "[specify value]" |
-| `{character_motivations}` | Specify the character motivations | "[specify value]" |
-| `{character_conflicts}` | Specify the character conflicts | "[specify value]" |
-| `{character_relationships}` | Specify the character relationships | "[specify value]" |
-| `{dialogue_style}` | Specify the dialogue style | "[specify value]" |
-| `{character_voice}` | Specify the character voice | "[specify value]" |
-| `{plot_outline}` | Specify the plot outline | "[specify value]" |
-| `{opening_hook}` | Specify the opening hook | "[specify value]" |
-| `{rising_action}` | Specify the rising action | "[specify value]" |
-| `{climax}` | Specify the climax | "[specify value]" |
-| `{falling_action}` | Specify the falling action | "[specify value]" |
-| `{resolution}` | Specify the resolution | "[specify value]" |
-| `{subplots}` | Specify the subplots | "[specify value]" |
-| `{plot_twists}` | Specify the plot twists | "[specify value]" |
-| `{pacing}` | Specify the pacing | "[specify value]" |
-| `{tension}` | Specify the tension | "[specify value]" |
-| `{writing_style}` | Specify the writing style | "[specify value]" |
-| `{language_level}` | Specify the language level | "[specify value]" |
-| `{vocabulary}` | Specify the vocabulary | "[specify value]" |
-| `{sentence_structure}` | Specify the sentence structure | "[specify value]" |
-| `{paragraph_flow}` | Specify the paragraph flow | "[specify value]" |
-| `{transitions}` | Specify the transitions | "[specify value]" |
-| `{show_vs_tell}` | Specify the show vs tell | "[specify value]" |
-| `{imagery}` | Specify the imagery | "[specify value]" |
-| `{symbolism}` | Specify the symbolism | "[specify value]" |
-| `{metaphors}` | Specify the metaphors | "[specify value]" |
-| `{creativity_level}` | Specify the creativity level | "[specify value]" |
-| `{originality}` | Specify the originality | "[specify value]" |
-| `{innovation}` | Specify the innovation | "[specify value]" |
-| `{unique_angles}` | Specify the unique angles | "[specify value]" |
-| `{fresh_perspectives}` | Specify the fresh perspectives | "[specify value]" |
-| `{artistic_vision}` | Specify the artistic vision | "[specify value]" |
-| `{creative_risks}` | Specify the creative risks | "[specify value]" |
-| `{experimental_techniques}` | Specify the experimental techniques | "[specify value]" |
-| `{genre_blending}` | Specify the genre blending | "[specify value]" |
-| `{creative_constraints}` | Specify the creative constraints | "[specify value]" |
+| `[PROJECT_TITLE]` | Specify the project title | "[specify value]" |
+| `[WRITING_TYPE]` | Specify the writing type | "Standard" |
+| `[GENRE]` | Specify the genre | "[specify value]" |
+| `[TARGET_AUDIENCE]` | Specify the target audience | "[specify value]" |
+| `[CONTENT_LENGTH]` | Specify the content length | "[specify value]" |
+| `[DEADLINE]` | Specify the deadline | "[specify value]" |
+| `[WRITING_PURPOSE]` | Specify the writing purpose | "[specify value]" |
+| `[PUBLICATION_PLATFORM]` | Specify the publication platform | "[specify value]" |
+| `[WRITING_BUDGET]` | Specify the writing budget | "$500,000" |
+| `[STYLE_REQUIREMENTS]` | Specify the style requirements | "[specify value]" |
+| `[THEME]` | Specify the theme | "[specify value]" |
+| `[SETTING]` | Specify the setting | "[specify value]" |
+| `[TIME_PERIOD]` | Specify the time period | "[specify value]" |
+| `[LOCATION]` | Specify the location | "North America" |
+| `[ATMOSPHERE]` | Specify the atmosphere | "[specify value]" |
+| `[MOOD]` | Specify the mood | "[specify value]" |
+| `[TONE]` | Specify the tone | "[specify value]" |
+| `[POINT_OF_VIEW]` | Specify the point of view | "[specify value]" |
+| `[NARRATIVE_STYLE]` | Specify the narrative style | "[specify value]" |
+| `[LITERARY_DEVICES]` | Specify the literary devices | "[specify value]" |
+| `[MAIN_CHARACTERS]` | Specify the main characters | "[specify value]" |
+| `[SUPPORTING_CHARACTERS]` | Specify the supporting characters | "[specify value]" |
+| `[CHARACTER_ARCS]` | Specify the character arcs | "[specify value]" |
+| `[PERSONALITY_TRAITS]` | Specify the personality traits | "[specify value]" |
+| `[BACKGROUND_STORIES]` | Specify the background stories | "[specify value]" |
+| `[CHARACTER_MOTIVATIONS]` | Specify the character motivations | "[specify value]" |
+| `[CHARACTER_CONFLICTS]` | Specify the character conflicts | "[specify value]" |
+| `[CHARACTER_RELATIONSHIPS]` | Specify the character relationships | "[specify value]" |
+| `[DIALOGUE_STYLE]` | Specify the dialogue style | "[specify value]" |
+| `[CHARACTER_VOICE]` | Specify the character voice | "[specify value]" |
+| `[PLOT_OUTLINE]` | Specify the plot outline | "[specify value]" |
+| `[OPENING_HOOK]` | Specify the opening hook | "[specify value]" |
+| `[RISING_ACTION]` | Specify the rising action | "[specify value]" |
+| `[CLIMAX]` | Specify the climax | "[specify value]" |
+| `[FALLING_ACTION]` | Specify the falling action | "[specify value]" |
+| `[RESOLUTION]` | Specify the resolution | "[specify value]" |
+| `[SUBPLOTS]` | Specify the subplots | "[specify value]" |
+| `[PLOT_TWISTS]` | Specify the plot twists | "[specify value]" |
+| `[PACING]` | Specify the pacing | "[specify value]" |
+| `[TENSION]` | Specify the tension | "[specify value]" |
+| `[WRITING_STYLE]` | Specify the writing style | "[specify value]" |
+| `[LANGUAGE_LEVEL]` | Specify the language level | "[specify value]" |
+| `[VOCABULARY]` | Specify the vocabulary | "[specify value]" |
+| `[SENTENCE_STRUCTURE]` | Specify the sentence structure | "[specify value]" |
+| `[PARAGRAPH_FLOW]` | Specify the paragraph flow | "[specify value]" |
+| `[TRANSITIONS]` | Specify the transitions | "[specify value]" |
+| `[SHOW_VS_TELL]` | Specify the show vs tell | "[specify value]" |
+| `[IMAGERY]` | Specify the imagery | "[specify value]" |
+| `[SYMBOLISM]` | Specify the symbolism | "[specify value]" |
+| `[METAPHORS]` | Specify the metaphors | "[specify value]" |
+| `[CREATIVITY_LEVEL]` | Specify the creativity level | "[specify value]" |
+| `[ORIGINALITY]` | Specify the originality | "[specify value]" |
+| `[INNOVATION]` | Specify the innovation | "[specify value]" |
+| `[UNIQUE_ANGLES]` | Specify the unique angles | "[specify value]" |
+| `[FRESH_PERSPECTIVES]` | Specify the fresh perspectives | "[specify value]" |
+| `[ARTISTIC_VISION]` | Specify the artistic vision | "[specify value]" |
+| `[CREATIVE_RISKS]` | Specify the creative risks | "[specify value]" |
+| `[EXPERIMENTAL_TECHNIQUES]` | Specify the experimental techniques | "[specify value]" |
+| `[GENRE_BLENDING]` | Specify the genre blending | "[specify value]" |
+| `[CREATIVE_CONSTRAINTS]` | Specify the creative constraints | "[specify value]" |
 
 
 

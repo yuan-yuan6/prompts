@@ -3,7 +3,8 @@ title: Supply Chain Optimization & Management Framework
 category: industry/manufacturing/Supply Chain
 tags: [design, development, framework, industry, management, optimization, strategy]
 use_cases:
-  - Implementing comprehensive framework for optimizing manufacturing supply chains including sup...
+  - Creating comprehensive framework for optimizing manufacturing supply chains including supplier management, inventory optimization, logistics coordination, risk mitigation, and end-to-end visibility strategies.
+
   - Project planning and execution
   - Strategy development
 related_templates:

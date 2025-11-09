@@ -3,7 +3,8 @@ title: CI/CD Pipelines Template
 category: technology/DevOps & Cloud
 tags: [automation, design, management, optimization, security, strategy, technology, template]
 use_cases:
-  - Implementing design and implement comprehensive ci/cd pipelines for automated build, test, an...
+  - Creating design and implement comprehensive ci/cd pipelines for automated build, test, and deployment processes with quality gates, security scanning, and deployment strategies.
+
   - Project planning and execution
   - Strategy development
 related_templates:
@@ -21,76 +22,76 @@ Design and implement comprehensive CI/CD pipelines for automated build, test, an
 ## Template Structure
 
 ### Pipeline Overview
-- **Pipeline Name**: {pipeline_name}
-- **Application Type**: {application_type}
-- **Technology Stack**: {pipeline_technology_stack}
-- **Deployment Environment**: {deployment_environment}
-- **Pipeline Strategy**: {pipeline_strategy}
-- **Team**: {pipeline_team}
-- **Business Requirements**: {business_requirements}
-- **Compliance Requirements**: {pipeline_compliance}
-- **Performance Requirements**: {pipeline_performance}
-- **Security Requirements**: {pipeline_security}
+- **Pipeline Name**: [PIPELINE_NAME]
+- **Application Type**: [APPLICATION_TYPE]
+- **Technology Stack**: [PIPELINE_TECHNOLOGY_STACK]
+- **Deployment Environment**: [DEPLOYMENT_ENVIRONMENT]
+- **Pipeline Strategy**: [PIPELINE_STRATEGY]
+- **Team**: [PIPELINE_TEAM]
+- **Business Requirements**: [BUSINESS_REQUIREMENTS]
+- **Compliance Requirements**: [PIPELINE_COMPLIANCE]
+- **Performance Requirements**: [PIPELINE_PERFORMANCE]
+- **Security Requirements**: [PIPELINE_SECURITY]
 
 ### Source Control Integration
-- **Version Control System**: {version_control_system}
-- **Branching Strategy**: {branching_strategy}
-- **Merge Strategy**: {merge_strategy}
-- **Code Review Process**: {code_review_process}
-- **Commit Standards**: {commit_standards}
-- **Trigger Conditions**: {trigger_conditions}
-- **Webhook Configuration**: {webhook_configuration}
-- **Branch Protection**: {branch_protection}
-- **Access Controls**: {source_access_controls}
-- **Audit Logging**: {source_audit_logging}
+- **Version Control System**: [VERSION_CONTROL_SYSTEM]
+- **Branching Strategy**: [BRANCHING_STRATEGY]
+- **Merge Strategy**: [MERGE_STRATEGY]
+- **Code Review Process**: [CODE_REVIEW_PROCESS]
+- **Commit Standards**: [COMMIT_STANDARDS]
+- **Trigger Conditions**: [TRIGGER_CONDITIONS]
+- **Webhook Configuration**: [WEBHOOK_CONFIGURATION]
+- **Branch Protection**: [BRANCH_PROTECTION]
+- **Access Controls**: [SOURCE_ACCESS_CONTROLS]
+- **Audit Logging**: [SOURCE_AUDIT_LOGGING]
 
 ### Build Process
-- **Build Tools**: {build_tools}
-- **Build Environment**: {build_environment}
-- **Dependency Management**: {dependency_management}
-- **Artifact Generation**: {artifact_generation}
-- **Build Optimization**: {build_optimization}
-- **Caching Strategy**: {build_caching}
-- **Parallel Builds**: {parallel_builds}
-- **Build Notifications**: {build_notifications}
-- **Build Metrics**: {build_metrics}
-- **Failure Handling**: {build_failure_handling}
+- **Build Tools**: [BUILD_TOOLS]
+- **Build Environment**: [BUILD_ENVIRONMENT]
+- **Dependency Management**: [DEPENDENCY_MANAGEMENT]
+- **Artifact Generation**: [ARTIFACT_GENERATION]
+- **Build Optimization**: [BUILD_OPTIMIZATION]
+- **Caching Strategy**: [BUILD_CACHING]
+- **Parallel Builds**: [PARALLEL_BUILDS]
+- **Build Notifications**: [BUILD_NOTIFICATIONS]
+- **Build Metrics**: [BUILD_METRICS]
+- **Failure Handling**: [BUILD_FAILURE_HANDLING]
 
 ### Testing Strategy
-- **Testing Framework**: {testing_framework}
-- **Unit Testing**: {unit_testing}
-- **Integration Testing**: {integration_testing}
-- **End-to-End Testing**: {e2e_testing}
-- **Performance Testing**: {performance_testing}
-- **Security Testing**: {security_testing}
-- **Test Data Management**: {test_data_management}
-- **Test Environment**: {test_environment}
-- **Test Reporting**: {test_reporting}
-- **Coverage Requirements**: {coverage_requirements}
+- **Testing Framework**: [TESTING_FRAMEWORK]
+- **Unit Testing**: [UNIT_TESTING]
+- **Integration Testing**: [INTEGRATION_TESTING]
+- **End-to-End Testing**: [E2E_TESTING]
+- **Performance Testing**: [PERFORMANCE_TESTING]
+- **Security Testing**: [SECURITY_TESTING]
+- **Test Data Management**: [TEST_DATA_MANAGEMENT]
+- **Test Environment**: [TEST_ENVIRONMENT]
+- **Test Reporting**: [TEST_REPORTING]
+- **Coverage Requirements**: [COVERAGE_REQUIREMENTS]
 
 ### Quality Gates
-- **Gate Criteria**: {gate_criteria}
-- **Code Quality**: {code_quality}
-- **Security Scanning**: {security_scanning}
-- **Vulnerability Assessment**: {vulnerability_assessment}
-- **Compliance Checks**: {compliance_checks}
-- **Performance Benchmarks**: {performance_benchmarks}
-- **Approval Process**: {approval_process}
-- **Override Procedures**: {override_procedures}
-- **Gate Reporting**: {gate_reporting}
-- **Metrics Collection**: {gate_metrics}
+- **Gate Criteria**: [GATE_CRITERIA]
+- **Code Quality**: [CODE_QUALITY]
+- **Security Scanning**: [SECURITY_SCANNING]
+- **Vulnerability Assessment**: [VULNERABILITY_ASSESSMENT]
+- **Compliance Checks**: [COMPLIANCE_CHECKS]
+- **Performance Benchmarks**: [PERFORMANCE_BENCHMARKS]
+- **Approval Process**: [APPROVAL_PROCESS]
+- **Override Procedures**: [OVERRIDE_PROCEDURES]
+- **Gate Reporting**: [GATE_REPORTING]
+- **Metrics Collection**: [GATE_METRICS]
 
 ### Deployment Strategy
-- **Deployment Model**: {deployment_model}
-- **Environment Promotion**: {environment_promotion}
-- **Blue-Green Deployment**: {blue_green_deployment}
-- **Canary Deployment**: {canary_deployment}
-- **Rolling Updates**: {rolling_updates}
-- **Feature Flags**: {feature_flags}
-- **Rollback Strategy**: {rollback_strategy}
-- **Smoke Testing**: {smoke_testing}
-- **Health Checks**: {deployment_health_checks}
-- **Deployment Notifications**: {deployment_notifications}
+- **Deployment Model**: [DEPLOYMENT_MODEL]
+- **Environment Promotion**: [ENVIRONMENT_PROMOTION]
+- **Blue-Green Deployment**: [BLUE_GREEN_DEPLOYMENT]
+- **Canary Deployment**: [CANARY_DEPLOYMENT]
+- **Rolling Updates**: [ROLLING_UPDATES]
+- **Feature Flags**: [FEATURE_FLAGS]
+- **Rollback Strategy**: [ROLLBACK_STRATEGY]
+- **Smoke Testing**: [SMOKE_TESTING]
+- **Health Checks**: [DEPLOYMENT_HEALTH_CHECKS]
+- **Deployment Notifications**: [DEPLOYMENT_NOTIFICATIONS]
 
 Please provide detailed pipeline configurations, testing strategies, quality gates, and deployment procedures.
 
@@ -133,66 +134,66 @@ Build Process:
 
 | Variable | Description | Example |
 |----------|-------------|----------|
-| `{pipeline_name}` | Specify the pipeline name | "John Smith" |
-| `{application_type}` | Specify the application type | "Standard" |
-| `{pipeline_technology_stack}` | Specify the pipeline technology stack | "[specify value]" |
-| `{deployment_environment}` | Specify the deployment environment | "[specify value]" |
-| `{pipeline_strategy}` | Specify the pipeline strategy | "[specify value]" |
-| `{pipeline_team}` | Specify the pipeline team | "[specify value]" |
-| `{business_requirements}` | Specify the business requirements | "[specify value]" |
-| `{pipeline_compliance}` | Specify the pipeline compliance | "[specify value]" |
-| `{pipeline_performance}` | Specify the pipeline performance | "[specify value]" |
-| `{pipeline_security}` | Specify the pipeline security | "[specify value]" |
-| `{version_control_system}` | Specify the version control system | "[specify value]" |
-| `{branching_strategy}` | Specify the branching strategy | "[specify value]" |
-| `{merge_strategy}` | Specify the merge strategy | "[specify value]" |
-| `{code_review_process}` | Specify the code review process | "[specify value]" |
-| `{commit_standards}` | Specify the commit standards | "[specify value]" |
-| `{trigger_conditions}` | Specify the trigger conditions | "[specify value]" |
-| `{webhook_configuration}` | Specify the webhook configuration | "[specify value]" |
-| `{branch_protection}` | Specify the branch protection | "[specify value]" |
-| `{source_access_controls}` | Specify the source access controls | "[specify value]" |
-| `{source_audit_logging}` | Specify the source audit logging | "[specify value]" |
-| `{build_tools}` | Specify the build tools | "[specify value]" |
-| `{build_environment}` | Specify the build environment | "[specify value]" |
-| `{dependency_management}` | Specify the dependency management | "[specify value]" |
-| `{artifact_generation}` | Specify the artifact generation | "[specify value]" |
-| `{build_optimization}` | Specify the build optimization | "[specify value]" |
-| `{build_caching}` | Specify the build caching | "[specify value]" |
-| `{parallel_builds}` | Specify the parallel builds | "[specify value]" |
-| `{build_notifications}` | Specify the build notifications | "[specify value]" |
-| `{build_metrics}` | Specify the build metrics | "[specify value]" |
-| `{build_failure_handling}` | Specify the build failure handling | "[specify value]" |
-| `{testing_framework}` | Specify the testing framework | "[specify value]" |
-| `{unit_testing}` | Specify the unit testing | "[specify value]" |
-| `{integration_testing}` | Specify the integration testing | "[specify value]" |
-| `{e2e_testing}` | Specify the e2e testing | "[specify value]" |
-| `{performance_testing}` | Specify the performance testing | "[specify value]" |
-| `{security_testing}` | Specify the security testing | "[specify value]" |
-| `{test_data_management}` | Specify the test data management | "[specify value]" |
-| `{test_environment}` | Specify the test environment | "[specify value]" |
-| `{test_reporting}` | Specify the test reporting | "[specify value]" |
-| `{coverage_requirements}` | Specify the coverage requirements | "[specify value]" |
-| `{gate_criteria}` | Specify the gate criteria | "[specify value]" |
-| `{code_quality}` | Specify the code quality | "[specify value]" |
-| `{security_scanning}` | Specify the security scanning | "[specify value]" |
-| `{vulnerability_assessment}` | Specify the vulnerability assessment | "[specify value]" |
-| `{compliance_checks}` | Specify the compliance checks | "[specify value]" |
-| `{performance_benchmarks}` | Specify the performance benchmarks | "[specify value]" |
-| `{approval_process}` | Specify the approval process | "[specify value]" |
-| `{override_procedures}` | Specify the override procedures | "[specify value]" |
-| `{gate_reporting}` | Specify the gate reporting | "[specify value]" |
-| `{gate_metrics}` | Specify the gate metrics | "[specify value]" |
-| `{deployment_model}` | Specify the deployment model | "[specify value]" |
-| `{environment_promotion}` | Specify the environment promotion | "[specify value]" |
-| `{blue_green_deployment}` | Specify the blue green deployment | "[specify value]" |
-| `{canary_deployment}` | Specify the canary deployment | "[specify value]" |
-| `{rolling_updates}` | Specify the rolling updates | "2025-01-15" |
-| `{feature_flags}` | Specify the feature flags | "[specify value]" |
-| `{rollback_strategy}` | Specify the rollback strategy | "[specify value]" |
-| `{smoke_testing}` | Specify the smoke testing | "[specify value]" |
-| `{deployment_health_checks}` | Specify the deployment health checks | "[specify value]" |
-| `{deployment_notifications}` | Specify the deployment notifications | "[specify value]" |
+| `[PIPELINE_NAME]` | Specify the pipeline name | "John Smith" |
+| `[APPLICATION_TYPE]` | Specify the application type | "Standard" |
+| `[PIPELINE_TECHNOLOGY_STACK]` | Specify the pipeline technology stack | "[specify value]" |
+| `[DEPLOYMENT_ENVIRONMENT]` | Specify the deployment environment | "[specify value]" |
+| `[PIPELINE_STRATEGY]` | Specify the pipeline strategy | "[specify value]" |
+| `[PIPELINE_TEAM]` | Specify the pipeline team | "[specify value]" |
+| `[BUSINESS_REQUIREMENTS]` | Specify the business requirements | "[specify value]" |
+| `[PIPELINE_COMPLIANCE]` | Specify the pipeline compliance | "[specify value]" |
+| `[PIPELINE_PERFORMANCE]` | Specify the pipeline performance | "[specify value]" |
+| `[PIPELINE_SECURITY]` | Specify the pipeline security | "[specify value]" |
+| `[VERSION_CONTROL_SYSTEM]` | Specify the version control system | "[specify value]" |
+| `[BRANCHING_STRATEGY]` | Specify the branching strategy | "[specify value]" |
+| `[MERGE_STRATEGY]` | Specify the merge strategy | "[specify value]" |
+| `[CODE_REVIEW_PROCESS]` | Specify the code review process | "[specify value]" |
+| `[COMMIT_STANDARDS]` | Specify the commit standards | "[specify value]" |
+| `[TRIGGER_CONDITIONS]` | Specify the trigger conditions | "[specify value]" |
+| `[WEBHOOK_CONFIGURATION]` | Specify the webhook configuration | "[specify value]" |
+| `[BRANCH_PROTECTION]` | Specify the branch protection | "[specify value]" |
+| `[SOURCE_ACCESS_CONTROLS]` | Specify the source access controls | "[specify value]" |
+| `[SOURCE_AUDIT_LOGGING]` | Specify the source audit logging | "[specify value]" |
+| `[BUILD_TOOLS]` | Specify the build tools | "[specify value]" |
+| `[BUILD_ENVIRONMENT]` | Specify the build environment | "[specify value]" |
+| `[DEPENDENCY_MANAGEMENT]` | Specify the dependency management | "[specify value]" |
+| `[ARTIFACT_GENERATION]` | Specify the artifact generation | "[specify value]" |
+| `[BUILD_OPTIMIZATION]` | Specify the build optimization | "[specify value]" |
+| `[BUILD_CACHING]` | Specify the build caching | "[specify value]" |
+| `[PARALLEL_BUILDS]` | Specify the parallel builds | "[specify value]" |
+| `[BUILD_NOTIFICATIONS]` | Specify the build notifications | "[specify value]" |
+| `[BUILD_METRICS]` | Specify the build metrics | "[specify value]" |
+| `[BUILD_FAILURE_HANDLING]` | Specify the build failure handling | "[specify value]" |
+| `[TESTING_FRAMEWORK]` | Specify the testing framework | "[specify value]" |
+| `[UNIT_TESTING]` | Specify the unit testing | "[specify value]" |
+| `[INTEGRATION_TESTING]` | Specify the integration testing | "[specify value]" |
+| `[E2E_TESTING]` | Specify the e2e testing | "[specify value]" |
+| `[PERFORMANCE_TESTING]` | Specify the performance testing | "[specify value]" |
+| `[SECURITY_TESTING]` | Specify the security testing | "[specify value]" |
+| `[TEST_DATA_MANAGEMENT]` | Specify the test data management | "[specify value]" |
+| `[TEST_ENVIRONMENT]` | Specify the test environment | "[specify value]" |
+| `[TEST_REPORTING]` | Specify the test reporting | "[specify value]" |
+| `[COVERAGE_REQUIREMENTS]` | Specify the coverage requirements | "[specify value]" |
+| `[GATE_CRITERIA]` | Specify the gate criteria | "[specify value]" |
+| `[CODE_QUALITY]` | Specify the code quality | "[specify value]" |
+| `[SECURITY_SCANNING]` | Specify the security scanning | "[specify value]" |
+| `[VULNERABILITY_ASSESSMENT]` | Specify the vulnerability assessment | "[specify value]" |
+| `[COMPLIANCE_CHECKS]` | Specify the compliance checks | "[specify value]" |
+| `[PERFORMANCE_BENCHMARKS]` | Specify the performance benchmarks | "[specify value]" |
+| `[APPROVAL_PROCESS]` | Specify the approval process | "[specify value]" |
+| `[OVERRIDE_PROCEDURES]` | Specify the override procedures | "[specify value]" |
+| `[GATE_REPORTING]` | Specify the gate reporting | "[specify value]" |
+| `[GATE_METRICS]` | Specify the gate metrics | "[specify value]" |
+| `[DEPLOYMENT_MODEL]` | Specify the deployment model | "[specify value]" |
+| `[ENVIRONMENT_PROMOTION]` | Specify the environment promotion | "[specify value]" |
+| `[BLUE_GREEN_DEPLOYMENT]` | Specify the blue green deployment | "[specify value]" |
+| `[CANARY_DEPLOYMENT]` | Specify the canary deployment | "[specify value]" |
+| `[ROLLING_UPDATES]` | Specify the rolling updates | "2025-01-15" |
+| `[FEATURE_FLAGS]` | Specify the feature flags | "[specify value]" |
+| `[ROLLBACK_STRATEGY]` | Specify the rollback strategy | "[specify value]" |
+| `[SMOKE_TESTING]` | Specify the smoke testing | "[specify value]" |
+| `[DEPLOYMENT_HEALTH_CHECKS]` | Specify the deployment health checks | "[specify value]" |
+| `[DEPLOYMENT_NOTIFICATIONS]` | Specify the deployment notifications | "[specify value]" |
 
 
 

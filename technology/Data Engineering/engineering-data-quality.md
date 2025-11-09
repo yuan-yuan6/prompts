@@ -3,7 +3,8 @@ title: Data Quality Template
 category: technology/Data Engineering
 tags: [data-science, design, research, security, strategy, technology, template, testing]
 use_cases:
-  - Implementing implement comprehensive data quality frameworks including validation, cleansing,...
+  - Creating implement comprehensive data quality frameworks including validation, cleansing, monitoring, profiling, and governance to ensure high-quality, reliable, and trustworthy data across enterprise systems.
+
   - Project planning and execution
   - Strategy development
 related_templates:
@@ -21,267 +22,267 @@ Implement comprehensive data quality frameworks including validation, cleansing,
 ## Template Structure
 
 ### Data Quality Overview
-- **Data Domain**: {data_domain}
-- **Quality Scope**: {quality_scope}
-- **Business Context**: {business_context}
-- **Stakeholders**: {stakeholders}
-- **Quality Objectives**: {quality_objectives}
-- **Success Metrics**: {success_metrics}
-- **Quality Standards**: {quality_standards}
-- **Compliance Requirements**: {compliance_requirements}
-- **Budget**: {quality_budget}
-- **Timeline**: {quality_timeline}
+- **Data Domain**: [DATA_DOMAIN]
+- **Quality Scope**: [QUALITY_SCOPE]
+- **Business Context**: [BUSINESS_CONTEXT]
+- **Stakeholders**: [STAKEHOLDERS]
+- **Quality Objectives**: [QUALITY_OBJECTIVES]
+- **Success Metrics**: [SUCCESS_METRICS]
+- **Quality Standards**: [QUALITY_STANDARDS]
+- **Compliance Requirements**: [COMPLIANCE_REQUIREMENTS]
+- **Budget**: [QUALITY_BUDGET]
+- **Timeline**: [QUALITY_TIMELINE]
 
 ### Data Quality Dimensions
-- **Accuracy**: {accuracy}
-- **Completeness**: {completeness}
-- **Consistency**: {consistency}
-- **Validity**: {validity}
-- **Uniqueness**: {uniqueness}
-- **Timeliness**: {timeliness}
-- **Integrity**: {integrity}
-- **Conformity**: {conformity}
-- **Precision**: {precision}
-- **Reliability**: {reliability}
+- **Accuracy**: [ACCURACY]
+- **Completeness**: [COMPLETENESS]
+- **Consistency**: [CONSISTENCY]
+- **Validity**: [VALIDITY]
+- **Uniqueness**: [UNIQUENESS]
+- **Timeliness**: [TIMELINESS]
+- **Integrity**: [INTEGRITY]
+- **Conformity**: [CONFORMITY]
+- **Precision**: [PRECISION]
+- **Reliability**: [RELIABILITY]
 
 ### Data Profiling
-- **Profiling Strategy**: {profiling_strategy}
-- **Profiling Tools**: {profiling_tools}
-- **Profiling Scope**: {profiling_scope}
-- **Statistical Analysis**: {statistical_analysis}
-- **Pattern Analysis**: {pattern_analysis}
-- **Distribution Analysis**: {distribution_analysis}
-- **Relationship Analysis**: {relationship_analysis}
-- **Anomaly Detection**: {anomaly_detection}
-- **Metadata Discovery**: {metadata_discovery}
-- **Profiling Schedule**: {profiling_schedule}
+- **Profiling Strategy**: [PROFILING_STRATEGY]
+- **Profiling Tools**: [PROFILING_TOOLS]
+- **Profiling Scope**: [PROFILING_SCOPE]
+- **Statistical Analysis**: [STATISTICAL_ANALYSIS]
+- **Pattern Analysis**: [PATTERN_ANALYSIS]
+- **Distribution Analysis**: [DISTRIBUTION_ANALYSIS]
+- **Relationship Analysis**: [RELATIONSHIP_ANALYSIS]
+- **Anomaly Detection**: [ANOMALY_DETECTION]
+- **Metadata Discovery**: [METADATA_DISCOVERY]
+- **Profiling Schedule**: [PROFILING_SCHEDULE]
 
 ### Data Validation
-- **Validation Rules**: {validation_rules}
-- **Business Rules**: {business_rules}
-- **Data Types**: {data_type_validation}
-- **Format Validation**: {format_validation}
-- **Range Validation**: {range_validation}
-- **List Validation**: {list_validation}
-- **Cross-Field Validation**: {cross_field_validation}
-- **Referential Integrity**: {referential_integrity}
-- **Custom Validations**: {custom_validations}
-- **Validation Framework**: {validation_framework}
+- **Validation Rules**: [VALIDATION_RULES]
+- **Business Rules**: [BUSINESS_RULES]
+- **Data Types**: [DATA_TYPE_VALIDATION]
+- **Format Validation**: [FORMAT_VALIDATION]
+- **Range Validation**: [RANGE_VALIDATION]
+- **List Validation**: [LIST_VALIDATION]
+- **Cross-Field Validation**: [CROSS_FIELD_VALIDATION]
+- **Referential Integrity**: [REFERENTIAL_INTEGRITY]
+- **Custom Validations**: [CUSTOM_VALIDATIONS]
+- **Validation Framework**: [VALIDATION_FRAMEWORK]
 
 ### Data Cleansing
-- **Cleansing Strategy**: {cleansing_strategy}
-- **Standardization**: {standardization}
-- **Normalization**: {normalization}
-- **Deduplication**: {deduplication}
-- **Missing Value Treatment**: {missing_value_treatment}
-- **Outlier Treatment**: {outlier_treatment}
-- **Format Correction**: {format_correction}
-- **Data Enrichment**: {data_enrichment}
-- **Error Correction**: {error_correction}
-- **Transformation Rules**: {transformation_rules}
+- **Cleansing Strategy**: [CLEANSING_STRATEGY]
+- **Standardization**: [STANDARDIZATION]
+- **Normalization**: [NORMALIZATION]
+- **Deduplication**: [DEDUPLICATION]
+- **Missing Value Treatment**: [MISSING_VALUE_TREATMENT]
+- **Outlier Treatment**: [OUTLIER_TREATMENT]
+- **Format Correction**: [FORMAT_CORRECTION]
+- **Data Enrichment**: [DATA_ENRICHMENT]
+- **Error Correction**: [ERROR_CORRECTION]
+- **Transformation Rules**: [TRANSFORMATION_RULES]
 
 ### Quality Monitoring
-- **Monitoring Framework**: {monitoring_framework}
-- **Quality Metrics**: {quality_metrics}
-- **KPI Definitions**: {kpi_definitions}
-- **Threshold Settings**: {threshold_settings}
-- **Alert Configuration**: {alert_configuration}
-- **Dashboard Design**: {dashboard_design}
-- **Reporting Schedule**: {reporting_schedule}
-- **Trend Analysis**: {trend_analysis}
-- **Root Cause Analysis**: {root_cause_analysis}
-- **Continuous Monitoring**: {continuous_monitoring}
+- **Monitoring Framework**: [MONITORING_FRAMEWORK]
+- **Quality Metrics**: [QUALITY_METRICS]
+- **KPI Definitions**: [KPI_DEFINITIONS]
+- **Threshold Settings**: [THRESHOLD_SETTINGS]
+- **Alert Configuration**: [ALERT_CONFIGURATION]
+- **Dashboard Design**: [DASHBOARD_DESIGN]
+- **Reporting Schedule**: [REPORTING_SCHEDULE]
+- **Trend Analysis**: [TREND_ANALYSIS]
+- **Root Cause Analysis**: [ROOT_CAUSE_ANALYSIS]
+- **Continuous Monitoring**: [CONTINUOUS_MONITORING]
 
 ### Quality Assessment
-- **Assessment Methodology**: {assessment_methodology}
-- **Scoring Models**: {scoring_models}
-- **Benchmarking**: {benchmarking}
-- **Quality Scorecards**: {quality_scorecards}
-- **Maturity Assessment**: {maturity_assessment}
-- **Gap Analysis**: {gap_analysis}
-- **Risk Assessment**: {risk_assessment}
-- **Impact Analysis**: {impact_analysis}
-- **Improvement Roadmap**: {improvement_roadmap}
-- **Priority Matrix**: {priority_matrix}
+- **Assessment Methodology**: [ASSESSMENT_METHODOLOGY]
+- **Scoring Models**: [SCORING_MODELS]
+- **Benchmarking**: [BENCHMARKING]
+- **Quality Scorecards**: [QUALITY_SCORECARDS]
+- **Maturity Assessment**: [MATURITY_ASSESSMENT]
+- **Gap Analysis**: [GAP_ANALYSIS]
+- **Risk Assessment**: [RISK_ASSESSMENT]
+- **Impact Analysis**: [IMPACT_ANALYSIS]
+- **Improvement Roadmap**: [IMPROVEMENT_ROADMAP]
+- **Priority Matrix**: [PRIORITY_MATRIX]
 
 ### Issue Management
-- **Issue Classification**: {issue_classification}
-- **Issue Tracking**: {issue_tracking}
-- **Escalation Process**: {escalation_process}
-- **Resolution Workflow**: {resolution_workflow}
-- **Priority Assignment**: {priority_assignment}
-- **SLA Management**: {sla_management}
-- **Communication Plan**: {communication_plan}
-- **Status Reporting**: {status_reporting}
-- **Closure Criteria**: {closure_criteria}
-- **Lessons Learned**: {lessons_learned}
+- **Issue Classification**: [ISSUE_CLASSIFICATION]
+- **Issue Tracking**: [ISSUE_TRACKING]
+- **Escalation Process**: [ESCALATION_PROCESS]
+- **Resolution Workflow**: [RESOLUTION_WORKFLOW]
+- **Priority Assignment**: [PRIORITY_ASSIGNMENT]
+- **SLA Management**: [SLA_MANAGEMENT]
+- **Communication Plan**: [COMMUNICATION_PLAN]
+- **Status Reporting**: [STATUS_REPORTING]
+- **Closure Criteria**: [CLOSURE_CRITERIA]
+- **Lessons Learned**: [LESSONS_LEARNED]
 
 ### Data Governance
-- **Governance Framework**: {governance_framework}
-- **Data Ownership**: {data_ownership}
-- **Data Stewardship**: {data_stewardship}
-- **Quality Policies**: {quality_policies}
-- **Standards Definition**: {standards_definition}
-- **Roles and Responsibilities**: {roles_responsibilities}
-- **Decision Framework**: {decision_framework}
-- **Change Management**: {change_management}
-- **Compliance Monitoring**: {compliance_monitoring}
-- **Audit Procedures**: {audit_procedures}
+- **Governance Framework**: [GOVERNANCE_FRAMEWORK]
+- **Data Ownership**: [DATA_OWNERSHIP]
+- **Data Stewardship**: [DATA_STEWARDSHIP]
+- **Quality Policies**: [QUALITY_POLICIES]
+- **Standards Definition**: [STANDARDS_DEFINITION]
+- **Roles and Responsibilities**: [ROLES_RESPONSIBILITIES]
+- **Decision Framework**: [DECISION_FRAMEWORK]
+- **Change Management**: [CHANGE_MANAGEMENT]
+- **Compliance Monitoring**: [COMPLIANCE_MONITORING]
+- **Audit Procedures**: [AUDIT_PROCEDURES]
 
 ### Quality Controls
-- **Preventive Controls**: {preventive_controls}
-- **Detective Controls**: {detective_controls}
-- **Corrective Controls**: {corrective_controls}
-- **Automated Controls**: {automated_controls}
-- **Manual Controls**: {manual_controls}
-- **Control Testing**: {control_testing}
-- **Control Monitoring**: {control_monitoring}
-- **Control Documentation**: {control_documentation}
-- **Control Effectiveness**: {control_effectiveness}
-- **Control Updates**: {control_updates}
+- **Preventive Controls**: [PREVENTIVE_CONTROLS]
+- **Detective Controls**: [DETECTIVE_CONTROLS]
+- **Corrective Controls**: [CORRECTIVE_CONTROLS]
+- **Automated Controls**: [AUTOMATED_CONTROLS]
+- **Manual Controls**: [MANUAL_CONTROLS]
+- **Control Testing**: [CONTROL_TESTING]
+- **Control Monitoring**: [CONTROL_MONITORING]
+- **Control Documentation**: [CONTROL_DOCUMENTATION]
+- **Control Effectiveness**: [CONTROL_EFFECTIVENESS]
+- **Control Updates**: [CONTROL_UPDATES]
 
 ### Data Lineage
-- **Lineage Tracking**: {lineage_tracking}
-- **Source Identification**: {source_identification}
-- **Transformation Tracking**: {transformation_tracking}
-- **Impact Analysis**: {lineage_impact_analysis}
-- **Dependency Mapping**: {dependency_mapping}
-- **Change Impact**: {change_impact}
-- **Data Flow Documentation**: {data_flow_documentation}
-- **Lineage Visualization**: {lineage_visualization}
-- **Metadata Management**: {metadata_management}
-- **Lineage Automation**: {lineage_automation}
+- **Lineage Tracking**: [LINEAGE_TRACKING]
+- **Source Identification**: [SOURCE_IDENTIFICATION]
+- **Transformation Tracking**: [TRANSFORMATION_TRACKING]
+- **Impact Analysis**: [LINEAGE_IMPACT_ANALYSIS]
+- **Dependency Mapping**: [DEPENDENCY_MAPPING]
+- **Change Impact**: [CHANGE_IMPACT]
+- **Data Flow Documentation**: [DATA_FLOW_DOCUMENTATION]
+- **Lineage Visualization**: [LINEAGE_VISUALIZATION]
+- **Metadata Management**: [METADATA_MANAGEMENT]
+- **Lineage Automation**: [LINEAGE_AUTOMATION]
 
 ### Quality Testing
-- **Test Strategy**: {test_strategy}
-- **Test Cases**: {test_cases}
-- **Test Data**: {test_data}
-- **Test Automation**: {test_automation}
-- **Regression Testing**: {regression_testing}
-- **Performance Testing**: {quality_performance_testing}
-- **Volume Testing**: {volume_testing}
-- **Boundary Testing**: {boundary_testing}
-- **Integration Testing**: {quality_integration_testing}
-- **User Acceptance Testing**: {user_acceptance_testing}
+- **Test Strategy**: [TEST_STRATEGY]
+- **Test Cases**: [TEST_CASES]
+- **Test Data**: [TEST_DATA]
+- **Test Automation**: [TEST_AUTOMATION]
+- **Regression Testing**: [REGRESSION_TESTING]
+- **Performance Testing**: [QUALITY_PERFORMANCE_TESTING]
+- **Volume Testing**: [VOLUME_TESTING]
+- **Boundary Testing**: [BOUNDARY_TESTING]
+- **Integration Testing**: [QUALITY_INTEGRATION_TESTING]
+- **User Acceptance Testing**: [USER_ACCEPTANCE_TESTING]
 
 ### Remediation Framework
-- **Remediation Strategy**: {remediation_strategy}
-- **Action Plans**: {action_plans}
-- **Fix Procedures**: {fix_procedures}
-- **Data Recovery**: {data_recovery}
-- **Reprocessing**: {reprocessing}
-- **Manual Corrections**: {manual_corrections}
-- **Automated Fixes**: {automated_fixes}
-- **Validation Post-Fix**: {validation_post_fix}
-- **Impact Assessment**: {remediation_impact_assessment}
-- **Communication**: {remediation_communication}
+- **Remediation Strategy**: [REMEDIATION_STRATEGY]
+- **Action Plans**: [ACTION_PLANS]
+- **Fix Procedures**: [FIX_PROCEDURES]
+- **Data Recovery**: [DATA_RECOVERY]
+- **Reprocessing**: [REPROCESSING]
+- **Manual Corrections**: [MANUAL_CORRECTIONS]
+- **Automated Fixes**: [AUTOMATED_FIXES]
+- **Validation Post-Fix**: [VALIDATION_POST_FIX]
+- **Impact Assessment**: [REMEDIATION_IMPACT_ASSESSMENT]
+- **Communication**: [REMEDIATION_COMMUNICATION]
 
 ### Tools and Technologies
-- **Quality Tools**: {quality_tools}
-- **Profiling Tools**: {profiling_tools_tech}
-- **Validation Tools**: {validation_tools}
-- **Cleansing Tools**: {cleansing_tools}
-- **Monitoring Tools**: {monitoring_tools}
-- **Reporting Tools**: {reporting_tools}
-- **Workflow Tools**: {workflow_tools}
-- **Integration Tools**: {integration_tools}
-- **Metadata Tools**: {metadata_tools}
-- **Automation Tools**: {automation_tools}
+- **Quality Tools**: [QUALITY_TOOLS]
+- **Profiling Tools**: [PROFILING_TOOLS_TECH]
+- **Validation Tools**: [VALIDATION_TOOLS]
+- **Cleansing Tools**: [CLEANSING_TOOLS]
+- **Monitoring Tools**: [MONITORING_TOOLS]
+- **Reporting Tools**: [REPORTING_TOOLS]
+- **Workflow Tools**: [WORKFLOW_TOOLS]
+- **Integration Tools**: [INTEGRATION_TOOLS]
+- **Metadata Tools**: [METADATA_TOOLS]
+- **Automation Tools**: [AUTOMATION_TOOLS]
 
 ### Metrics and KPIs
-- **Quality Metrics**: {quality_metrics_detail}
-- **Business KPIs**: {business_kpis}
-- **Technical KPIs**: {technical_kpis}
-- **Process KPIs**: {process_kpis}
-- **Cost Metrics**: {cost_metrics}
-- **Efficiency Metrics**: {efficiency_metrics}
-- **User Satisfaction**: {user_satisfaction}
-- **Compliance Metrics**: {compliance_metrics}
-- **Trend Metrics**: {trend_metrics}
-- **Comparative Metrics**: {comparative_metrics}
+- **Quality Metrics**: [QUALITY_METRICS_DETAIL]
+- **Business KPIs**: [BUSINESS_KPIS]
+- **Technical KPIs**: [TECHNICAL_KPIS]
+- **Process KPIs**: [PROCESS_KPIS]
+- **Cost Metrics**: [COST_METRICS]
+- **Efficiency Metrics**: [EFFICIENCY_METRICS]
+- **User Satisfaction**: [USER_SATISFACTION]
+- **Compliance Metrics**: [COMPLIANCE_METRICS]
+- **Trend Metrics**: [TREND_METRICS]
+- **Comparative Metrics**: [COMPARATIVE_METRICS]
 
 ### Training and Adoption
-- **Training Strategy**: {training_strategy}
-- **Role-Based Training**: {role_based_training}
-- **Tool Training**: {tool_training}
-- **Process Training**: {process_training}
-- **Awareness Programs**: {awareness_programs}
-- **Certification Programs**: {certification_programs}
-- **Knowledge Management**: {knowledge_management}
-- **Best Practices Sharing**: {best_practices_sharing}
-- **Change Management**: {adoption_change_management}
-- **User Support**: {user_support}
+- **Training Strategy**: [TRAINING_STRATEGY]
+- **Role-Based Training**: [ROLE_BASED_TRAINING]
+- **Tool Training**: [TOOL_TRAINING]
+- **Process Training**: [PROCESS_TRAINING]
+- **Awareness Programs**: [AWARENESS_PROGRAMS]
+- **Certification Programs**: [CERTIFICATION_PROGRAMS]
+- **Knowledge Management**: [KNOWLEDGE_MANAGEMENT]
+- **Best Practices Sharing**: [BEST_PRACTICES_SHARING]
+- **Change Management**: [ADOPTION_CHANGE_MANAGEMENT]
+- **User Support**: [USER_SUPPORT]
 
 ### Cost-Benefit Analysis
-- **Cost Categories**: {cost_categories}
-- **Implementation Costs**: {implementation_costs}
-- **Operational Costs**: {operational_costs}
-- **Resource Costs**: {resource_costs}
-- **Technology Costs**: {technology_costs}
-- **Benefit Categories**: {benefit_categories}
-- **Revenue Benefits**: {revenue_benefits}
-- **Cost Savings**: {cost_savings}
-- **Risk Reduction**: {risk_reduction}
-- **ROI Calculation**: {roi_calculation}
+- **Cost Categories**: [COST_CATEGORIES]
+- **Implementation Costs**: [IMPLEMENTATION_COSTS]
+- **Operational Costs**: [OPERATIONAL_COSTS]
+- **Resource Costs**: [RESOURCE_COSTS]
+- **Technology Costs**: [TECHNOLOGY_COSTS]
+- **Benefit Categories**: [BENEFIT_CATEGORIES]
+- **Revenue Benefits**: [REVENUE_BENEFITS]
+- **Cost Savings**: [COST_SAVINGS]
+- **Risk Reduction**: [RISK_REDUCTION]
+- **ROI Calculation**: [ROI_CALCULATION]
 
 ## Prompt Template
 
-Implement comprehensive data quality framework for {data_domain} covering {quality_scope} to achieve {quality_objectives} for {stakeholders}. Meet {quality_standards} and ensure {compliance_requirements} compliance within {quality_budget} budget and {quality_timeline} timeline.
+Implement comprehensive data quality framework for [DATA_DOMAIN] covering [QUALITY_SCOPE] to achieve [QUALITY_OBJECTIVES] for [STAKEHOLDERS]. Meet [QUALITY_STANDARDS] and ensure [COMPLIANCE_REQUIREMENTS] compliance within [QUALITY_BUDGET] budget and [QUALITY_TIMELINE] timeline.
 
 **Quality Dimensions:**
-- Ensure {accuracy}% accuracy and {completeness}% completeness
-- Maintain {consistency} across systems and {validity} per business rules
-- Achieve {uniqueness} without duplicates and {timeliness} for real-time needs
-- Verify {integrity}, {conformity}, {precision}, and {reliability}
+- Ensure [ACCURACY]% accuracy and [COMPLETENESS]% completeness
+- Maintain [CONSISTENCY] across systems and [VALIDITY] per business rules
+- Achieve [UNIQUENESS] without duplicates and [TIMELINESS] for real-time needs
+- Verify [INTEGRITY], [CONFORMITY], [PRECISION], and [RELIABILITY]
 
 **Data Profiling:**
-- Use {profiling_tools} for {profiling_scope} analysis
-- Perform {statistical_analysis} and {pattern_analysis}
-- Conduct {distribution_analysis} and {relationship_analysis}
-- Implement {anomaly_detection} and {metadata_discovery}
-- Schedule {profiling_schedule} automated profiling
+- Use [PROFILING_TOOLS] for [PROFILING_SCOPE] analysis
+- Perform [STATISTICAL_ANALYSIS] and [PATTERN_ANALYSIS]
+- Conduct [DISTRIBUTION_ANALYSIS] and [RELATIONSHIP_ANALYSIS]
+- Implement [ANOMALY_DETECTION] and [METADATA_DISCOVERY]
+- Schedule [PROFILING_SCHEDULE] automated profiling
 
 **Validation Framework:**
-- Define {validation_rules} and {business_rules}
-- Implement {data_type_validation} and {format_validation}
-- Set up {range_validation} and {list_validation}
-- Configure {cross_field_validation} and {referential_integrity}
-- Deploy {validation_framework} with {custom_validations}
+- Define [VALIDATION_RULES] and [BUSINESS_RULES]
+- Implement [DATA_TYPE_VALIDATION] and [FORMAT_VALIDATION]
+- Set up [RANGE_VALIDATION] and [LIST_VALIDATION]
+- Configure [CROSS_FIELD_VALIDATION] and [REFERENTIAL_INTEGRITY]
+- Deploy [VALIDATION_FRAMEWORK] with [CUSTOM_VALIDATIONS]
 
 **Cleansing Strategy:**
-- Apply {standardization} and {normalization} rules
-- Implement {deduplication} and {missing_value_treatment}
-- Handle {outlier_treatment} and {format_correction}
-- Perform {data_enrichment} and {error_correction}
-- Execute {transformation_rules} automatically
+- Apply [STANDARDIZATION] and [NORMALIZATION] rules
+- Implement [DEDUPLICATION] and [MISSING_VALUE_TREATMENT]
+- Handle [OUTLIER_TREATMENT] and [FORMAT_CORRECTION]
+- Perform [DATA_ENRICHMENT] and [ERROR_CORRECTION]
+- Execute [TRANSFORMATION_RULES] automatically
 
 **Monitoring and Alerting:**
-- Track {quality_metrics} and {kpi_definitions}
-- Set {threshold_settings} with {alert_configuration}
-- Create {dashboard_design} for {reporting_schedule}
-- Perform {trend_analysis} and {root_cause_analysis}
-- Enable {continuous_monitoring} capabilities
+- Track [QUALITY_METRICS] and [KPI_DEFINITIONS]
+- Set [THRESHOLD_SETTINGS] with [ALERT_CONFIGURATION]
+- Create [DASHBOARD_DESIGN] for [REPORTING_SCHEDULE]
+- Perform [TREND_ANALYSIS] and [ROOT_CAUSE_ANALYSIS]
+- Enable [CONTINUOUS_MONITORING] capabilities
 
 **Governance Framework:**
-- Establish {data_ownership} and {data_stewardship}
-- Define {quality_policies} and {standards_definition}
-- Assign {roles_responsibilities} and {decision_framework}
-- Implement {change_management} and {compliance_monitoring}
-- Set up {audit_procedures} for oversight
+- Establish [DATA_OWNERSHIP] and [DATA_STEWARDSHIP]
+- Define [QUALITY_POLICIES] and [STANDARDS_DEFINITION]
+- Assign [ROLES_RESPONSIBILITIES] and [DECISION_FRAMEWORK]
+- Implement [CHANGE_MANAGEMENT] and [COMPLIANCE_MONITORING]
+- Set up [AUDIT_PROCEDURES] for oversight
 
 **Issue Management:**
-- Classify issues using {issue_classification}
-- Track with {issue_tracking} and {escalation_process}
-- Follow {resolution_workflow} with {priority_assignment}
-- Monitor {sla_management} and execute {communication_plan}
-- Document {lessons_learned} and {closure_criteria}
+- Classify issues using [ISSUE_CLASSIFICATION]
+- Track with [ISSUE_TRACKING] and [ESCALATION_PROCESS]
+- Follow [RESOLUTION_WORKFLOW] with [PRIORITY_ASSIGNMENT]
+- Monitor [SLA_MANAGEMENT] and execute [COMMUNICATION_PLAN]
+- Document [LESSONS_LEARNED] and [CLOSURE_CRITERIA]
 
 **Technology Stack:**
-- Deploy {quality_tools} for overall management
-- Use {validation_tools} and {cleansing_tools}
-- Implement {monitoring_tools} and {reporting_tools}
-- Integrate {workflow_tools} and {automation_tools}
-- Manage {metadata_tools} for lineage tracking
+- Deploy [QUALITY_TOOLS] for overall management
+- Use [VALIDATION_TOOLS] and [CLEANSING_TOOLS]
+- Implement [MONITORING_TOOLS] and [REPORTING_TOOLS]
+- Integrate [WORKFLOW_TOOLS] and [AUTOMATION_TOOLS]
+- Manage [METADATA_TOOLS] for lineage tracking
 
 Please provide implementation roadmap, tool configurations, process definitions, training materials, and success metrics with specific recommendations for achieving data quality objectives.
 
@@ -323,176 +324,176 @@ Data Profiling:
 
 | Variable | Description | Example |
 |----------|-------------|----------|
-| `{data_domain}` | Specify the data domain | "[specify value]" |
-| `{quality_scope}` | Specify the quality scope | "[specify value]" |
-| `{business_context}` | Specify the business context | "[specify value]" |
-| `{stakeholders}` | Specify the stakeholders | "[specify value]" |
-| `{quality_objectives}` | Specify the quality objectives | "Increase efficiency by 30%" |
-| `{success_metrics}` | Specify the success metrics | "[specify value]" |
-| `{quality_standards}` | Specify the quality standards | "[specify value]" |
-| `{compliance_requirements}` | Specify the compliance requirements | "[specify value]" |
-| `{quality_budget}` | Specify the quality budget | "$500,000" |
-| `{quality_timeline}` | Specify the quality timeline | "6 months" |
-| `{accuracy}` | Specify the accuracy | "[specify value]" |
-| `{completeness}` | Specify the completeness | "[specify value]" |
-| `{consistency}` | Specify the consistency | "[specify value]" |
-| `{validity}` | Specify the validity | "[specify value]" |
-| `{uniqueness}` | Specify the uniqueness | "[specify value]" |
-| `{timeliness}` | Specify the timeliness | "6 months" |
-| `{integrity}` | Specify the integrity | "[specify value]" |
-| `{conformity}` | Specify the conformity | "[specify value]" |
-| `{precision}` | Specify the precision | "[specify value]" |
-| `{reliability}` | Specify the reliability | "[specify value]" |
-| `{profiling_strategy}` | Specify the profiling strategy | "[specify value]" |
-| `{profiling_tools}` | Specify the profiling tools | "[specify value]" |
-| `{profiling_scope}` | Specify the profiling scope | "[specify value]" |
-| `{statistical_analysis}` | Specify the statistical analysis | "[specify value]" |
-| `{pattern_analysis}` | Specify the pattern analysis | "[specify value]" |
-| `{distribution_analysis}` | Specify the distribution analysis | "[specify value]" |
-| `{relationship_analysis}` | Specify the relationship analysis | "[specify value]" |
-| `{anomaly_detection}` | Specify the anomaly detection | "[specify value]" |
-| `{metadata_discovery}` | Specify the metadata discovery | "[specify value]" |
-| `{profiling_schedule}` | Specify the profiling schedule | "[specify value]" |
-| `{validation_rules}` | Specify the validation rules | "[specify value]" |
-| `{business_rules}` | Specify the business rules | "[specify value]" |
-| `{data_type_validation}` | Specify the data type validation | "Standard" |
-| `{format_validation}` | Specify the format validation | "[specify value]" |
-| `{range_validation}` | Specify the range validation | "[specify value]" |
-| `{list_validation}` | Specify the list validation | "[specify value]" |
-| `{cross_field_validation}` | Specify the cross field validation | "[specify value]" |
-| `{referential_integrity}` | Specify the referential integrity | "[specify value]" |
-| `{custom_validations}` | Specify the custom validations | "[specify value]" |
-| `{validation_framework}` | Specify the validation framework | "[specify value]" |
-| `{cleansing_strategy}` | Specify the cleansing strategy | "[specify value]" |
-| `{standardization}` | Specify the standardization | "[specify value]" |
-| `{normalization}` | Specify the normalization | "[specify value]" |
-| `{deduplication}` | Specify the deduplication | "[specify value]" |
-| `{missing_value_treatment}` | Specify the missing value treatment | "[specify value]" |
-| `{outlier_treatment}` | Specify the outlier treatment | "[specify value]" |
-| `{format_correction}` | Specify the format correction | "[specify value]" |
-| `{data_enrichment}` | Specify the data enrichment | "[specify value]" |
-| `{error_correction}` | Specify the error correction | "[specify value]" |
-| `{transformation_rules}` | Specify the transformation rules | "[specify value]" |
-| `{monitoring_framework}` | Specify the monitoring framework | "[specify value]" |
-| `{quality_metrics}` | Specify the quality metrics | "[specify value]" |
-| `{kpi_definitions}` | Specify the kpi definitions | "[specify value]" |
-| `{threshold_settings}` | Specify the threshold settings | "[specify value]" |
-| `{alert_configuration}` | Specify the alert configuration | "[specify value]" |
-| `{dashboard_design}` | Specify the dashboard design | "[specify value]" |
-| `{reporting_schedule}` | Specify the reporting schedule | "[specify value]" |
-| `{trend_analysis}` | Specify the trend analysis | "[specify value]" |
-| `{root_cause_analysis}` | Specify the root cause analysis | "[specify value]" |
-| `{continuous_monitoring}` | Specify the continuous monitoring | "[specify value]" |
-| `{assessment_methodology}` | Specify the assessment methodology | "[specify value]" |
-| `{scoring_models}` | Specify the scoring models | "[specify value]" |
-| `{benchmarking}` | Specify the benchmarking | "[specify value]" |
-| `{quality_scorecards}` | Specify the quality scorecards | "[specify value]" |
-| `{maturity_assessment}` | Specify the maturity assessment | "[specify value]" |
-| `{gap_analysis}` | Specify the gap analysis | "[specify value]" |
-| `{risk_assessment}` | Specify the risk assessment | "[specify value]" |
-| `{impact_analysis}` | Specify the impact analysis | "[specify value]" |
-| `{improvement_roadmap}` | Specify the improvement roadmap | "[specify value]" |
-| `{priority_matrix}` | Specify the priority matrix | "High" |
-| `{issue_classification}` | Specify the issue classification | "[specify value]" |
-| `{issue_tracking}` | Specify the issue tracking | "[specify value]" |
-| `{escalation_process}` | Specify the escalation process | "[specify value]" |
-| `{resolution_workflow}` | Specify the resolution workflow | "[specify value]" |
-| `{priority_assignment}` | Specify the priority assignment | "High" |
-| `{sla_management}` | Specify the sla management | "[specify value]" |
-| `{communication_plan}` | Specify the communication plan | "[specify value]" |
-| `{status_reporting}` | Specify the status reporting | "In Progress" |
-| `{closure_criteria}` | Specify the closure criteria | "[specify value]" |
-| `{lessons_learned}` | Specify the lessons learned | "[specify value]" |
-| `{governance_framework}` | Specify the governance framework | "[specify value]" |
-| `{data_ownership}` | Specify the data ownership | "[specify value]" |
-| `{data_stewardship}` | Specify the data stewardship | "[specify value]" |
-| `{quality_policies}` | Specify the quality policies | "[specify value]" |
-| `{standards_definition}` | Specify the standards definition | "[specify value]" |
-| `{roles_responsibilities}` | Specify the roles responsibilities | "[specify value]" |
-| `{decision_framework}` | Specify the decision framework | "[specify value]" |
-| `{change_management}` | Specify the change management | "[specify value]" |
-| `{compliance_monitoring}` | Specify the compliance monitoring | "[specify value]" |
-| `{audit_procedures}` | Specify the audit procedures | "[specify value]" |
-| `{preventive_controls}` | Specify the preventive controls | "[specify value]" |
-| `{detective_controls}` | Specify the detective controls | "[specify value]" |
-| `{corrective_controls}` | Specify the corrective controls | "[specify value]" |
-| `{automated_controls}` | Specify the automated controls | "[specify value]" |
-| `{manual_controls}` | Specify the manual controls | "[specify value]" |
-| `{control_testing}` | Specify the control testing | "[specify value]" |
-| `{control_monitoring}` | Specify the control monitoring | "[specify value]" |
-| `{control_documentation}` | Specify the control documentation | "[specify value]" |
-| `{control_effectiveness}` | Specify the control effectiveness | "[specify value]" |
-| `{control_updates}` | Specify the control updates | "2025-01-15" |
-| `{lineage_tracking}` | Specify the lineage tracking | "[specify value]" |
-| `{source_identification}` | Specify the source identification | "[specify value]" |
-| `{transformation_tracking}` | Specify the transformation tracking | "[specify value]" |
-| `{lineage_impact_analysis}` | Specify the lineage impact analysis | "[specify value]" |
-| `{dependency_mapping}` | Specify the dependency mapping | "[specify value]" |
-| `{change_impact}` | Specify the change impact | "[specify value]" |
-| `{data_flow_documentation}` | Specify the data flow documentation | "[specify value]" |
-| `{lineage_visualization}` | Specify the lineage visualization | "[specify value]" |
-| `{metadata_management}` | Specify the metadata management | "[specify value]" |
-| `{lineage_automation}` | Specify the lineage automation | "[specify value]" |
-| `{test_strategy}` | Specify the test strategy | "[specify value]" |
-| `{test_cases}` | Specify the test cases | "[specify value]" |
-| `{test_data}` | Specify the test data | "[specify value]" |
-| `{test_automation}` | Specify the test automation | "[specify value]" |
-| `{regression_testing}` | Specify the regression testing | "[specify value]" |
-| `{quality_performance_testing}` | Specify the quality performance testing | "[specify value]" |
-| `{volume_testing}` | Specify the volume testing | "[specify value]" |
-| `{boundary_testing}` | Specify the boundary testing | "[specify value]" |
-| `{quality_integration_testing}` | Specify the quality integration testing | "[specify value]" |
-| `{user_acceptance_testing}` | Specify the user acceptance testing | "[specify value]" |
-| `{remediation_strategy}` | Specify the remediation strategy | "[specify value]" |
-| `{action_plans}` | Specify the action plans | "[specify value]" |
-| `{fix_procedures}` | Specify the fix procedures | "[specify value]" |
-| `{data_recovery}` | Specify the data recovery | "[specify value]" |
-| `{reprocessing}` | Specify the reprocessing | "[specify value]" |
-| `{manual_corrections}` | Specify the manual corrections | "[specify value]" |
-| `{automated_fixes}` | Specify the automated fixes | "[specify value]" |
-| `{validation_post_fix}` | Specify the validation post fix | "[specify value]" |
-| `{remediation_impact_assessment}` | Specify the remediation impact assessment | "[specify value]" |
-| `{remediation_communication}` | Specify the remediation communication | "[specify value]" |
-| `{quality_tools}` | Specify the quality tools | "[specify value]" |
-| `{profiling_tools_tech}` | Specify the profiling tools tech | "[specify value]" |
-| `{validation_tools}` | Specify the validation tools | "[specify value]" |
-| `{cleansing_tools}` | Specify the cleansing tools | "[specify value]" |
-| `{monitoring_tools}` | Specify the monitoring tools | "[specify value]" |
-| `{reporting_tools}` | Specify the reporting tools | "[specify value]" |
-| `{workflow_tools}` | Specify the workflow tools | "[specify value]" |
-| `{integration_tools}` | Specify the integration tools | "[specify value]" |
-| `{metadata_tools}` | Specify the metadata tools | "[specify value]" |
-| `{automation_tools}` | Specify the automation tools | "[specify value]" |
-| `{quality_metrics_detail}` | Specify the quality metrics detail | "[specify value]" |
-| `{business_kpis}` | Specify the business kpis | "[specify value]" |
-| `{technical_kpis}` | Specify the technical kpis | "[specify value]" |
-| `{process_kpis}` | Specify the process kpis | "[specify value]" |
-| `{cost_metrics}` | Specify the cost metrics | "[specify value]" |
-| `{efficiency_metrics}` | Specify the efficiency metrics | "[specify value]" |
-| `{user_satisfaction}` | Specify the user satisfaction | "[specify value]" |
-| `{compliance_metrics}` | Specify the compliance metrics | "[specify value]" |
-| `{trend_metrics}` | Specify the trend metrics | "[specify value]" |
-| `{comparative_metrics}` | Specify the comparative metrics | "[specify value]" |
-| `{training_strategy}` | Specify the training strategy | "[specify value]" |
-| `{role_based_training}` | Specify the role based training | "[specify value]" |
-| `{tool_training}` | Specify the tool training | "[specify value]" |
-| `{process_training}` | Specify the process training | "[specify value]" |
-| `{awareness_programs}` | Specify the awareness programs | "[specify value]" |
-| `{certification_programs}` | Specify the certification programs | "[specify value]" |
-| `{knowledge_management}` | Specify the knowledge management | "[specify value]" |
-| `{best_practices_sharing}` | Specify the best practices sharing | "[specify value]" |
-| `{adoption_change_management}` | Specify the adoption change management | "[specify value]" |
-| `{user_support}` | Specify the user support | "[specify value]" |
-| `{cost_categories}` | Specify the cost categories | "[specify value]" |
-| `{implementation_costs}` | Specify the implementation costs | "[specify value]" |
-| `{operational_costs}` | Specify the operational costs | "[specify value]" |
-| `{resource_costs}` | Specify the resource costs | "[specify value]" |
-| `{technology_costs}` | Specify the technology costs | "[specify value]" |
-| `{benefit_categories}` | Specify the benefit categories | "[specify value]" |
-| `{revenue_benefits}` | Specify the revenue benefits | "[specify value]" |
-| `{cost_savings}` | Specify the cost savings | "[specify value]" |
-| `{risk_reduction}` | Specify the risk reduction | "[specify value]" |
-| `{roi_calculation}` | Specify the roi calculation | "[specify value]" |
+| `[DATA_DOMAIN]` | Specify the data domain | "[specify value]" |
+| `[QUALITY_SCOPE]` | Specify the quality scope | "[specify value]" |
+| `[BUSINESS_CONTEXT]` | Specify the business context | "[specify value]" |
+| `[STAKEHOLDERS]` | Specify the stakeholders | "[specify value]" |
+| `[QUALITY_OBJECTIVES]` | Specify the quality objectives | "Increase efficiency by 30%" |
+| `[SUCCESS_METRICS]` | Specify the success metrics | "[specify value]" |
+| `[QUALITY_STANDARDS]` | Specify the quality standards | "[specify value]" |
+| `[COMPLIANCE_REQUIREMENTS]` | Specify the compliance requirements | "[specify value]" |
+| `[QUALITY_BUDGET]` | Specify the quality budget | "$500,000" |
+| `[QUALITY_TIMELINE]` | Specify the quality timeline | "6 months" |
+| `[ACCURACY]` | Specify the accuracy | "[specify value]" |
+| `[COMPLETENESS]` | Specify the completeness | "[specify value]" |
+| `[CONSISTENCY]` | Specify the consistency | "[specify value]" |
+| `[VALIDITY]` | Specify the validity | "[specify value]" |
+| `[UNIQUENESS]` | Specify the uniqueness | "[specify value]" |
+| `[TIMELINESS]` | Specify the timeliness | "6 months" |
+| `[INTEGRITY]` | Specify the integrity | "[specify value]" |
+| `[CONFORMITY]` | Specify the conformity | "[specify value]" |
+| `[PRECISION]` | Specify the precision | "[specify value]" |
+| `[RELIABILITY]` | Specify the reliability | "[specify value]" |
+| `[PROFILING_STRATEGY]` | Specify the profiling strategy | "[specify value]" |
+| `[PROFILING_TOOLS]` | Specify the profiling tools | "[specify value]" |
+| `[PROFILING_SCOPE]` | Specify the profiling scope | "[specify value]" |
+| `[STATISTICAL_ANALYSIS]` | Specify the statistical analysis | "[specify value]" |
+| `[PATTERN_ANALYSIS]` | Specify the pattern analysis | "[specify value]" |
+| `[DISTRIBUTION_ANALYSIS]` | Specify the distribution analysis | "[specify value]" |
+| `[RELATIONSHIP_ANALYSIS]` | Specify the relationship analysis | "[specify value]" |
+| `[ANOMALY_DETECTION]` | Specify the anomaly detection | "[specify value]" |
+| `[METADATA_DISCOVERY]` | Specify the metadata discovery | "[specify value]" |
+| `[PROFILING_SCHEDULE]` | Specify the profiling schedule | "[specify value]" |
+| `[VALIDATION_RULES]` | Specify the validation rules | "[specify value]" |
+| `[BUSINESS_RULES]` | Specify the business rules | "[specify value]" |
+| `[DATA_TYPE_VALIDATION]` | Specify the data type validation | "Standard" |
+| `[FORMAT_VALIDATION]` | Specify the format validation | "[specify value]" |
+| `[RANGE_VALIDATION]` | Specify the range validation | "[specify value]" |
+| `[LIST_VALIDATION]` | Specify the list validation | "[specify value]" |
+| `[CROSS_FIELD_VALIDATION]` | Specify the cross field validation | "[specify value]" |
+| `[REFERENTIAL_INTEGRITY]` | Specify the referential integrity | "[specify value]" |
+| `[CUSTOM_VALIDATIONS]` | Specify the custom validations | "[specify value]" |
+| `[VALIDATION_FRAMEWORK]` | Specify the validation framework | "[specify value]" |
+| `[CLEANSING_STRATEGY]` | Specify the cleansing strategy | "[specify value]" |
+| `[STANDARDIZATION]` | Specify the standardization | "[specify value]" |
+| `[NORMALIZATION]` | Specify the normalization | "[specify value]" |
+| `[DEDUPLICATION]` | Specify the deduplication | "[specify value]" |
+| `[MISSING_VALUE_TREATMENT]` | Specify the missing value treatment | "[specify value]" |
+| `[OUTLIER_TREATMENT]` | Specify the outlier treatment | "[specify value]" |
+| `[FORMAT_CORRECTION]` | Specify the format correction | "[specify value]" |
+| `[DATA_ENRICHMENT]` | Specify the data enrichment | "[specify value]" |
+| `[ERROR_CORRECTION]` | Specify the error correction | "[specify value]" |
+| `[TRANSFORMATION_RULES]` | Specify the transformation rules | "[specify value]" |
+| `[MONITORING_FRAMEWORK]` | Specify the monitoring framework | "[specify value]" |
+| `[QUALITY_METRICS]` | Specify the quality metrics | "[specify value]" |
+| `[KPI_DEFINITIONS]` | Specify the kpi definitions | "[specify value]" |
+| `[THRESHOLD_SETTINGS]` | Specify the threshold settings | "[specify value]" |
+| `[ALERT_CONFIGURATION]` | Specify the alert configuration | "[specify value]" |
+| `[DASHBOARD_DESIGN]` | Specify the dashboard design | "[specify value]" |
+| `[REPORTING_SCHEDULE]` | Specify the reporting schedule | "[specify value]" |
+| `[TREND_ANALYSIS]` | Specify the trend analysis | "[specify value]" |
+| `[ROOT_CAUSE_ANALYSIS]` | Specify the root cause analysis | "[specify value]" |
+| `[CONTINUOUS_MONITORING]` | Specify the continuous monitoring | "[specify value]" |
+| `[ASSESSMENT_METHODOLOGY]` | Specify the assessment methodology | "[specify value]" |
+| `[SCORING_MODELS]` | Specify the scoring models | "[specify value]" |
+| `[BENCHMARKING]` | Specify the benchmarking | "[specify value]" |
+| `[QUALITY_SCORECARDS]` | Specify the quality scorecards | "[specify value]" |
+| `[MATURITY_ASSESSMENT]` | Specify the maturity assessment | "[specify value]" |
+| `[GAP_ANALYSIS]` | Specify the gap analysis | "[specify value]" |
+| `[RISK_ASSESSMENT]` | Specify the risk assessment | "[specify value]" |
+| `[IMPACT_ANALYSIS]` | Specify the impact analysis | "[specify value]" |
+| `[IMPROVEMENT_ROADMAP]` | Specify the improvement roadmap | "[specify value]" |
+| `[PRIORITY_MATRIX]` | Specify the priority matrix | "High" |
+| `[ISSUE_CLASSIFICATION]` | Specify the issue classification | "[specify value]" |
+| `[ISSUE_TRACKING]` | Specify the issue tracking | "[specify value]" |
+| `[ESCALATION_PROCESS]` | Specify the escalation process | "[specify value]" |
+| `[RESOLUTION_WORKFLOW]` | Specify the resolution workflow | "[specify value]" |
+| `[PRIORITY_ASSIGNMENT]` | Specify the priority assignment | "High" |
+| `[SLA_MANAGEMENT]` | Specify the sla management | "[specify value]" |
+| `[COMMUNICATION_PLAN]` | Specify the communication plan | "[specify value]" |
+| `[STATUS_REPORTING]` | Specify the status reporting | "In Progress" |
+| `[CLOSURE_CRITERIA]` | Specify the closure criteria | "[specify value]" |
+| `[LESSONS_LEARNED]` | Specify the lessons learned | "[specify value]" |
+| `[GOVERNANCE_FRAMEWORK]` | Specify the governance framework | "[specify value]" |
+| `[DATA_OWNERSHIP]` | Specify the data ownership | "[specify value]" |
+| `[DATA_STEWARDSHIP]` | Specify the data stewardship | "[specify value]" |
+| `[QUALITY_POLICIES]` | Specify the quality policies | "[specify value]" |
+| `[STANDARDS_DEFINITION]` | Specify the standards definition | "[specify value]" |
+| `[ROLES_RESPONSIBILITIES]` | Specify the roles responsibilities | "[specify value]" |
+| `[DECISION_FRAMEWORK]` | Specify the decision framework | "[specify value]" |
+| `[CHANGE_MANAGEMENT]` | Specify the change management | "[specify value]" |
+| `[COMPLIANCE_MONITORING]` | Specify the compliance monitoring | "[specify value]" |
+| `[AUDIT_PROCEDURES]` | Specify the audit procedures | "[specify value]" |
+| `[PREVENTIVE_CONTROLS]` | Specify the preventive controls | "[specify value]" |
+| `[DETECTIVE_CONTROLS]` | Specify the detective controls | "[specify value]" |
+| `[CORRECTIVE_CONTROLS]` | Specify the corrective controls | "[specify value]" |
+| `[AUTOMATED_CONTROLS]` | Specify the automated controls | "[specify value]" |
+| `[MANUAL_CONTROLS]` | Specify the manual controls | "[specify value]" |
+| `[CONTROL_TESTING]` | Specify the control testing | "[specify value]" |
+| `[CONTROL_MONITORING]` | Specify the control monitoring | "[specify value]" |
+| `[CONTROL_DOCUMENTATION]` | Specify the control documentation | "[specify value]" |
+| `[CONTROL_EFFECTIVENESS]` | Specify the control effectiveness | "[specify value]" |
+| `[CONTROL_UPDATES]` | Specify the control updates | "2025-01-15" |
+| `[LINEAGE_TRACKING]` | Specify the lineage tracking | "[specify value]" |
+| `[SOURCE_IDENTIFICATION]` | Specify the source identification | "[specify value]" |
+| `[TRANSFORMATION_TRACKING]` | Specify the transformation tracking | "[specify value]" |
+| `[LINEAGE_IMPACT_ANALYSIS]` | Specify the lineage impact analysis | "[specify value]" |
+| `[DEPENDENCY_MAPPING]` | Specify the dependency mapping | "[specify value]" |
+| `[CHANGE_IMPACT]` | Specify the change impact | "[specify value]" |
+| `[DATA_FLOW_DOCUMENTATION]` | Specify the data flow documentation | "[specify value]" |
+| `[LINEAGE_VISUALIZATION]` | Specify the lineage visualization | "[specify value]" |
+| `[METADATA_MANAGEMENT]` | Specify the metadata management | "[specify value]" |
+| `[LINEAGE_AUTOMATION]` | Specify the lineage automation | "[specify value]" |
+| `[TEST_STRATEGY]` | Specify the test strategy | "[specify value]" |
+| `[TEST_CASES]` | Specify the test cases | "[specify value]" |
+| `[TEST_DATA]` | Specify the test data | "[specify value]" |
+| `[TEST_AUTOMATION]` | Specify the test automation | "[specify value]" |
+| `[REGRESSION_TESTING]` | Specify the regression testing | "[specify value]" |
+| `[QUALITY_PERFORMANCE_TESTING]` | Specify the quality performance testing | "[specify value]" |
+| `[VOLUME_TESTING]` | Specify the volume testing | "[specify value]" |
+| `[BOUNDARY_TESTING]` | Specify the boundary testing | "[specify value]" |
+| `[QUALITY_INTEGRATION_TESTING]` | Specify the quality integration testing | "[specify value]" |
+| `[USER_ACCEPTANCE_TESTING]` | Specify the user acceptance testing | "[specify value]" |
+| `[REMEDIATION_STRATEGY]` | Specify the remediation strategy | "[specify value]" |
+| `[ACTION_PLANS]` | Specify the action plans | "[specify value]" |
+| `[FIX_PROCEDURES]` | Specify the fix procedures | "[specify value]" |
+| `[DATA_RECOVERY]` | Specify the data recovery | "[specify value]" |
+| `[REPROCESSING]` | Specify the reprocessing | "[specify value]" |
+| `[MANUAL_CORRECTIONS]` | Specify the manual corrections | "[specify value]" |
+| `[AUTOMATED_FIXES]` | Specify the automated fixes | "[specify value]" |
+| `[VALIDATION_POST_FIX]` | Specify the validation post fix | "[specify value]" |
+| `[REMEDIATION_IMPACT_ASSESSMENT]` | Specify the remediation impact assessment | "[specify value]" |
+| `[REMEDIATION_COMMUNICATION]` | Specify the remediation communication | "[specify value]" |
+| `[QUALITY_TOOLS]` | Specify the quality tools | "[specify value]" |
+| `[PROFILING_TOOLS_TECH]` | Specify the profiling tools tech | "[specify value]" |
+| `[VALIDATION_TOOLS]` | Specify the validation tools | "[specify value]" |
+| `[CLEANSING_TOOLS]` | Specify the cleansing tools | "[specify value]" |
+| `[MONITORING_TOOLS]` | Specify the monitoring tools | "[specify value]" |
+| `[REPORTING_TOOLS]` | Specify the reporting tools | "[specify value]" |
+| `[WORKFLOW_TOOLS]` | Specify the workflow tools | "[specify value]" |
+| `[INTEGRATION_TOOLS]` | Specify the integration tools | "[specify value]" |
+| `[METADATA_TOOLS]` | Specify the metadata tools | "[specify value]" |
+| `[AUTOMATION_TOOLS]` | Specify the automation tools | "[specify value]" |
+| `[QUALITY_METRICS_DETAIL]` | Specify the quality metrics detail | "[specify value]" |
+| `[BUSINESS_KPIS]` | Specify the business kpis | "[specify value]" |
+| `[TECHNICAL_KPIS]` | Specify the technical kpis | "[specify value]" |
+| `[PROCESS_KPIS]` | Specify the process kpis | "[specify value]" |
+| `[COST_METRICS]` | Specify the cost metrics | "[specify value]" |
+| `[EFFICIENCY_METRICS]` | Specify the efficiency metrics | "[specify value]" |
+| `[USER_SATISFACTION]` | Specify the user satisfaction | "[specify value]" |
+| `[COMPLIANCE_METRICS]` | Specify the compliance metrics | "[specify value]" |
+| `[TREND_METRICS]` | Specify the trend metrics | "[specify value]" |
+| `[COMPARATIVE_METRICS]` | Specify the comparative metrics | "[specify value]" |
+| `[TRAINING_STRATEGY]` | Specify the training strategy | "[specify value]" |
+| `[ROLE_BASED_TRAINING]` | Specify the role based training | "[specify value]" |
+| `[TOOL_TRAINING]` | Specify the tool training | "[specify value]" |
+| `[PROCESS_TRAINING]` | Specify the process training | "[specify value]" |
+| `[AWARENESS_PROGRAMS]` | Specify the awareness programs | "[specify value]" |
+| `[CERTIFICATION_PROGRAMS]` | Specify the certification programs | "[specify value]" |
+| `[KNOWLEDGE_MANAGEMENT]` | Specify the knowledge management | "[specify value]" |
+| `[BEST_PRACTICES_SHARING]` | Specify the best practices sharing | "[specify value]" |
+| `[ADOPTION_CHANGE_MANAGEMENT]` | Specify the adoption change management | "[specify value]" |
+| `[USER_SUPPORT]` | Specify the user support | "[specify value]" |
+| `[COST_CATEGORIES]` | Specify the cost categories | "[specify value]" |
+| `[IMPLEMENTATION_COSTS]` | Specify the implementation costs | "[specify value]" |
+| `[OPERATIONAL_COSTS]` | Specify the operational costs | "[specify value]" |
+| `[RESOURCE_COSTS]` | Specify the resource costs | "[specify value]" |
+| `[TECHNOLOGY_COSTS]` | Specify the technology costs | "[specify value]" |
+| `[BENEFIT_CATEGORIES]` | Specify the benefit categories | "[specify value]" |
+| `[REVENUE_BENEFITS]` | Specify the revenue benefits | "[specify value]" |
+| `[COST_SAVINGS]` | Specify the cost savings | "[specify value]" |
+| `[RISK_REDUCTION]` | Specify the risk reduction | "[specify value]" |
+| `[ROI_CALCULATION]` | Specify the roi calculation | "[specify value]" |
 
 
 

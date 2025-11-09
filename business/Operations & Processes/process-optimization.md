@@ -3,7 +3,7 @@ title: Process Optimization Template Generator
 category: business/Operations & Processes
 tags: [automation, business, data-science, design, machine-learning, optimization, research, security]
 use_cases:
-  - Implementing create comprehensive process optimization frameworks covering workflows, automat...
+  - Creating comprehensive process optimization frameworks covering workflows, automation opportunities, and efficiency improvements to enhance operational performance.
   - Project planning and execution
   - Strategy development
 related_templates:

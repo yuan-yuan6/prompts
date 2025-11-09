@@ -3,7 +3,7 @@ title: Site Analysis Template
 category: industry/real-estate/Property Development
 tags: [data-science, design, development, industry, research, strategy, template]
 use_cases:
-  - Implementing create comprehensive site analysis reports, feasibility studies, development pot...
+  - Creating comprehensive site analysis reports, feasibility studies, development potential assessments, and investment evaluations that inform strategic real estate development decisions and maximize property value.
   - Project planning and execution
   - Strategy development
 related_templates:

@@ -3,7 +3,8 @@ title: Research Papers & Manuscripts Template
 category: education/Scientific Communication
 tags: [automation, communication, data-science, design, development, education, optimization, research]
 use_cases:
-  - Implementing design comprehensive frameworks for structuring, writing, and revising scientifi...
+  - Creating design comprehensive frameworks for structuring, writing, and revising scientific research papers across disciplines with systematic approaches to argumentation, evidence presentation, and scholarly communication.
+
   - Project planning and execution
   - Strategy development
 related_templates:

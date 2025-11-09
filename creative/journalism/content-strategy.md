@@ -3,7 +3,7 @@ title: Content Strategy Template
 category: creative/journalism
 tags: [creative, data-science, design, machine-learning, management, marketing, optimization, research]
 use_cases:
-  - Implementing create comprehensive content strategy frameworks, editorial planning systems, au...
+  - Creating comprehensive content strategy frameworks, editorial planning systems, audience engagement strategies, and multi-platform publishing approaches that drive audience growth, enhance brand authority, optimize content performance, and support sustainable journalism business models in the digital media landscape.
   - Project planning and execution
   - Strategy development
 related_templates:

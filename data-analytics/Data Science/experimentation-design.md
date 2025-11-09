@@ -3,7 +3,8 @@ title: A/B Testing & Experimentation Design Framework
 category: data-analytics/Data Science
 tags: [data-analytics, data-science, design, development, framework, research, strategy, testing]
 use_cases:
-  - Implementing comprehensive framework for designing and executing controlled experiments inclu...
+  - Creating comprehensive framework for designing and executing controlled experiments including a/b testing, multivariate testing, statistical analysis, power calculations, and decision-making based on experimental results.
+
   - Project planning and execution
   - Strategy development
 related_templates:

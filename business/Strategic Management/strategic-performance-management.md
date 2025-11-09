@@ -3,7 +3,7 @@ title: Performance Management Template Generator
 category: business/Strategic Management
 tags: [business, design, development, machine-learning, management, optimization, strategy, template]
 use_cases:
-  - Implementing create comprehensive performance management systems including kpis, okrs, and da...
+  - Creating comprehensive performance management systems including KPIs, OKRs, and dashboards to track organizational performance and drive strategic execution.
   - Project planning and execution
   - Strategy development
 related_templates:

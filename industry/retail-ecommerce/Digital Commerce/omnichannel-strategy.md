@@ -3,7 +3,8 @@ title: Omnichannel Retail Strategy & Integration Framework
 category: industry/retail-ecommerce/Digital Commerce
 tags: [design, framework, industry, optimization, research, strategy, testing]
 use_cases:
-  - Implementing comprehensive framework for developing and implementing omnichannel retail strat...
+  - Creating comprehensive framework for developing and implementing omnichannel retail strategies including channel integration, inventory synchronization, customer journey optimization, technology infrastructure, and unified commerce experiences.
+
   - Project planning and execution
   - Strategy development
 related_templates:

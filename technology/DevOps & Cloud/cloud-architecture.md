@@ -3,7 +3,8 @@ title: Cloud Architecture Template
 category: technology/DevOps & Cloud
 tags: [data-science, design, machine-learning, management, optimization, security, strategy, technology]
 use_cases:
-  - Implementing design comprehensive cloud architecture patterns for aws, azure, gcp including m...
+  - Creating design comprehensive cloud architecture patterns for aws, azure, gcp including multi-cloud, hybrid, and cloud-native solutions with scalability, security, and cost optimization.
+
   - Project planning and execution
   - Strategy development
 related_templates:
@@ -21,88 +22,88 @@ Design comprehensive cloud architecture patterns for AWS, Azure, GCP including m
 ## Template Structure
 
 ### Architecture Overview
-- **Architecture Name**: {architecture_name}
-- **Cloud Provider**: {cloud_provider}
-- **Architecture Type**: {architecture_type}
-- **Deployment Model**: {deployment_model}
-- **Business Objectives**: {business_objectives}
-- **Technical Requirements**: {technical_requirements}
-- **Compliance Requirements**: {cloud_compliance}
-- **Budget**: {cloud_budget}
-- **Timeline**: {architecture_timeline}
-- **Stakeholders**: {cloud_stakeholders}
+- **Architecture Name**: [ARCHITECTURE_NAME]
+- **Cloud Provider**: [CLOUD_PROVIDER]
+- **Architecture Type**: [ARCHITECTURE_TYPE]
+- **Deployment Model**: [DEPLOYMENT_MODEL]
+- **Business Objectives**: [BUSINESS_OBJECTIVES]
+- **Technical Requirements**: [TECHNICAL_REQUIREMENTS]
+- **Compliance Requirements**: [CLOUD_COMPLIANCE]
+- **Budget**: [CLOUD_BUDGET]
+- **Timeline**: [ARCHITECTURE_TIMELINE]
+- **Stakeholders**: [CLOUD_STAKEHOLDERS]
 
 ### Cloud Strategy
-- **Cloud Model**: {cloud_model}
-- **Service Model**: {service_model}
-- **Multi-Cloud Strategy**: {multi_cloud_strategy}
-- **Hybrid Strategy**: {hybrid_strategy}
-- **Migration Strategy**: {cloud_migration_strategy}
-- **Vendor Strategy**: {vendor_strategy}
-- **Exit Strategy**: {exit_strategy}
-- **Governance Model**: {cloud_governance}
-- **Cost Strategy**: {cloud_cost_strategy}
-- **Skills Strategy**: {skills_strategy}
+- **Cloud Model**: [CLOUD_MODEL]
+- **Service Model**: [SERVICE_MODEL]
+- **Multi-Cloud Strategy**: [MULTI_CLOUD_STRATEGY]
+- **Hybrid Strategy**: [HYBRID_STRATEGY]
+- **Migration Strategy**: [CLOUD_MIGRATION_STRATEGY]
+- **Vendor Strategy**: [VENDOR_STRATEGY]
+- **Exit Strategy**: [EXIT_STRATEGY]
+- **Governance Model**: [CLOUD_GOVERNANCE]
+- **Cost Strategy**: [CLOUD_COST_STRATEGY]
+- **Skills Strategy**: [SKILLS_STRATEGY]
 
 ### Infrastructure Design
-- **Compute Services**: {compute_services}
-- **Storage Services**: {storage_services}
-- **Network Services**: {network_services}
-- **Database Services**: {database_services}
-- **Integration Services**: {integration_services}
-- **Security Services**: {security_services}
-- **Monitoring Services**: {monitoring_services}
-- **Management Services**: {management_services}
-- **AI/ML Services**: {aiml_services}
-- **Analytics Services**: {analytics_services}
+- **Compute Services**: [COMPUTE_SERVICES]
+- **Storage Services**: [STORAGE_SERVICES]
+- **Network Services**: [NETWORK_SERVICES]
+- **Database Services**: [DATABASE_SERVICES]
+- **Integration Services**: [INTEGRATION_SERVICES]
+- **Security Services**: [SECURITY_SERVICES]
+- **Monitoring Services**: [MONITORING_SERVICES]
+- **Management Services**: [MANAGEMENT_SERVICES]
+- **AI/ML Services**: [AIML_SERVICES]
+- **Analytics Services**: [ANALYTICS_SERVICES]
 
 ### Network Architecture
-- **Network Design**: {network_design}
-- **VPC Configuration**: {vpc_configuration}
-- **Subnet Strategy**: {subnet_strategy}
-- **Routing Configuration**: {routing_configuration}
-- **Security Groups**: {security_groups}
-- **Load Balancing**: {cloud_load_balancing}
-- **CDN Configuration**: {cdn_configuration}
-- **DNS Strategy**: {dns_strategy}
-- **VPN Configuration**: {vpn_configuration}
-- **Direct Connect**: {direct_connect}
+- **Network Design**: [NETWORK_DESIGN]
+- **VPC Configuration**: [VPC_CONFIGURATION]
+- **Subnet Strategy**: [SUBNET_STRATEGY]
+- **Routing Configuration**: [ROUTING_CONFIGURATION]
+- **Security Groups**: [SECURITY_GROUPS]
+- **Load Balancing**: [CLOUD_LOAD_BALANCING]
+- **CDN Configuration**: [CDN_CONFIGURATION]
+- **DNS Strategy**: [DNS_STRATEGY]
+- **VPN Configuration**: [VPN_CONFIGURATION]
+- **Direct Connect**: [DIRECT_CONNECT]
 
 ### Security Architecture
-- **Security Framework**: {cloud_security_framework}
-- **Identity Management**: {cloud_identity_management}
-- **Access Control**: {cloud_access_control}
-- **Data Protection**: {cloud_data_protection}
-- **Network Security**: {cloud_network_security}
-- **Application Security**: {cloud_application_security}
-- **Monitoring Security**: {cloud_monitoring_security}
-- **Compliance Controls**: {compliance_controls}
-- **Key Management**: {cloud_key_management}
-- **Threat Detection**: {threat_detection}
+- **Security Framework**: [CLOUD_SECURITY_FRAMEWORK]
+- **Identity Management**: [CLOUD_IDENTITY_MANAGEMENT]
+- **Access Control**: [CLOUD_ACCESS_CONTROL]
+- **Data Protection**: [CLOUD_DATA_PROTECTION]
+- **Network Security**: [CLOUD_NETWORK_SECURITY]
+- **Application Security**: [CLOUD_APPLICATION_SECURITY]
+- **Monitoring Security**: [CLOUD_MONITORING_SECURITY]
+- **Compliance Controls**: [COMPLIANCE_CONTROLS]
+- **Key Management**: [CLOUD_KEY_MANAGEMENT]
+- **Threat Detection**: [THREAT_DETECTION]
 
 ### High Availability
-- **Availability Design**: {availability_design}
-- **Redundancy Strategy**: {redundancy_strategy}
-- **Failover Mechanisms**: {failover_mechanisms}
-- **Load Distribution**: {load_distribution}
-- **Geographic Distribution**: {geographic_distribution}
-- **Backup Strategy**: {cloud_backup_strategy}
-- **Disaster Recovery**: {cloud_disaster_recovery}
-- **Business Continuity**: {cloud_business_continuity}
-- **RTO/RPO Targets**: {rto_rpo_targets}
-- **Testing Strategy**: {availability_testing}
+- **Availability Design**: [AVAILABILITY_DESIGN]
+- **Redundancy Strategy**: [REDUNDANCY_STRATEGY]
+- **Failover Mechanisms**: [FAILOVER_MECHANISMS]
+- **Load Distribution**: [LOAD_DISTRIBUTION]
+- **Geographic Distribution**: [GEOGRAPHIC_DISTRIBUTION]
+- **Backup Strategy**: [CLOUD_BACKUP_STRATEGY]
+- **Disaster Recovery**: [CLOUD_DISASTER_RECOVERY]
+- **Business Continuity**: [CLOUD_BUSINESS_CONTINUITY]
+- **RTO/RPO Targets**: [RTO_RPO_TARGETS]
+- **Testing Strategy**: [AVAILABILITY_TESTING]
 
 ### Scalability Design
-- **Scaling Strategy**: {cloud_scaling_strategy}
-- **Auto Scaling**: {cloud_auto_scaling}
-- **Performance Optimization**: {cloud_performance_optimization}
-- **Capacity Planning**: {cloud_capacity_planning}
-- **Resource Management**: {cloud_resource_management}
-- **Monitoring Strategy**: {cloud_monitoring_strategy}
-- **Alerting Configuration**: {cloud_alerting}
-- **Performance Testing**: {cloud_performance_testing}
-- **Optimization Recommendations**: {cloud_optimization}
-- **Cost Management**: {cloud_cost_management}
+- **Scaling Strategy**: [CLOUD_SCALING_STRATEGY]
+- **Auto Scaling**: [CLOUD_AUTO_SCALING]
+- **Performance Optimization**: [CLOUD_PERFORMANCE_OPTIMIZATION]
+- **Capacity Planning**: [CLOUD_CAPACITY_PLANNING]
+- **Resource Management**: [CLOUD_RESOURCE_MANAGEMENT]
+- **Monitoring Strategy**: [CLOUD_MONITORING_STRATEGY]
+- **Alerting Configuration**: [CLOUD_ALERTING]
+- **Performance Testing**: [CLOUD_PERFORMANCE_TESTING]
+- **Optimization Recommendations**: [CLOUD_OPTIMIZATION]
+- **Cost Management**: [CLOUD_COST_MANAGEMENT]
 
 Please provide detailed architecture diagrams, service configurations, best practices, and implementation guides.
 
@@ -149,76 +150,76 @@ Infrastructure Design:
 
 | Variable | Description | Example |
 |----------|-------------|----------|
-| `{architecture_name}` | Specify the architecture name | "John Smith" |
-| `{cloud_provider}` | Specify the cloud provider | "[specify value]" |
-| `{architecture_type}` | Specify the architecture type | "Standard" |
-| `{deployment_model}` | Specify the deployment model | "[specify value]" |
-| `{business_objectives}` | Specify the business objectives | "Increase efficiency by 30%" |
-| `{technical_requirements}` | Specify the technical requirements | "[specify value]" |
-| `{cloud_compliance}` | Specify the cloud compliance | "[specify value]" |
-| `{cloud_budget}` | Specify the cloud budget | "$500,000" |
-| `{architecture_timeline}` | Specify the architecture timeline | "6 months" |
-| `{cloud_stakeholders}` | Specify the cloud stakeholders | "[specify value]" |
-| `{cloud_model}` | Specify the cloud model | "[specify value]" |
-| `{service_model}` | Specify the service model | "[specify value]" |
-| `{multi_cloud_strategy}` | Specify the multi cloud strategy | "[specify value]" |
-| `{hybrid_strategy}` | Specify the hybrid strategy | "[specify value]" |
-| `{cloud_migration_strategy}` | Specify the cloud migration strategy | "[specify value]" |
-| `{vendor_strategy}` | Specify the vendor strategy | "[specify value]" |
-| `{exit_strategy}` | Specify the exit strategy | "[specify value]" |
-| `{cloud_governance}` | Specify the cloud governance | "[specify value]" |
-| `{cloud_cost_strategy}` | Specify the cloud cost strategy | "[specify value]" |
-| `{skills_strategy}` | Specify the skills strategy | "[specify value]" |
-| `{compute_services}` | Specify the compute services | "[specify value]" |
-| `{storage_services}` | Specify the storage services | "[specify value]" |
-| `{network_services}` | Specify the network services | "[specify value]" |
-| `{database_services}` | Specify the database services | "[specify value]" |
-| `{integration_services}` | Specify the integration services | "[specify value]" |
-| `{security_services}` | Specify the security services | "[specify value]" |
-| `{monitoring_services}` | Specify the monitoring services | "[specify value]" |
-| `{management_services}` | Specify the management services | "[specify value]" |
-| `{aiml_services}` | Specify the aiml services | "[specify value]" |
-| `{analytics_services}` | Specify the analytics services | "[specify value]" |
-| `{network_design}` | Specify the network design | "[specify value]" |
-| `{vpc_configuration}` | Specify the vpc configuration | "[specify value]" |
-| `{subnet_strategy}` | Specify the subnet strategy | "[specify value]" |
-| `{routing_configuration}` | Specify the routing configuration | "[specify value]" |
-| `{security_groups}` | Specify the security groups | "[specify value]" |
-| `{cloud_load_balancing}` | Specify the cloud load balancing | "[specify value]" |
-| `{cdn_configuration}` | Specify the cdn configuration | "[specify value]" |
-| `{dns_strategy}` | Specify the dns strategy | "[specify value]" |
-| `{vpn_configuration}` | Specify the vpn configuration | "[specify value]" |
-| `{direct_connect}` | Specify the direct connect | "[specify value]" |
-| `{cloud_security_framework}` | Specify the cloud security framework | "[specify value]" |
-| `{cloud_identity_management}` | Specify the cloud identity management | "[specify value]" |
-| `{cloud_access_control}` | Specify the cloud access control | "[specify value]" |
-| `{cloud_data_protection}` | Specify the cloud data protection | "[specify value]" |
-| `{cloud_network_security}` | Specify the cloud network security | "[specify value]" |
-| `{cloud_application_security}` | Specify the cloud application security | "[specify value]" |
-| `{cloud_monitoring_security}` | Specify the cloud monitoring security | "[specify value]" |
-| `{compliance_controls}` | Specify the compliance controls | "[specify value]" |
-| `{cloud_key_management}` | Specify the cloud key management | "[specify value]" |
-| `{threat_detection}` | Specify the threat detection | "[specify value]" |
-| `{availability_design}` | Specify the availability design | "[specify value]" |
-| `{redundancy_strategy}` | Specify the redundancy strategy | "[specify value]" |
-| `{failover_mechanisms}` | Specify the failover mechanisms | "[specify value]" |
-| `{load_distribution}` | Specify the load distribution | "[specify value]" |
-| `{geographic_distribution}` | Specify the geographic distribution | "[specify value]" |
-| `{cloud_backup_strategy}` | Specify the cloud backup strategy | "[specify value]" |
-| `{cloud_disaster_recovery}` | Specify the cloud disaster recovery | "[specify value]" |
-| `{cloud_business_continuity}` | Specify the cloud business continuity | "[specify value]" |
-| `{rto_rpo_targets}` | Specify the rto rpo targets | "[specify value]" |
-| `{availability_testing}` | Specify the availability testing | "[specify value]" |
-| `{cloud_scaling_strategy}` | Specify the cloud scaling strategy | "[specify value]" |
-| `{cloud_auto_scaling}` | Specify the cloud auto scaling | "[specify value]" |
-| `{cloud_performance_optimization}` | Specify the cloud performance optimization | "[specify value]" |
-| `{cloud_capacity_planning}` | Specify the cloud capacity planning | "[specify value]" |
-| `{cloud_resource_management}` | Specify the cloud resource management | "[specify value]" |
-| `{cloud_monitoring_strategy}` | Specify the cloud monitoring strategy | "[specify value]" |
-| `{cloud_alerting}` | Specify the cloud alerting | "[specify value]" |
-| `{cloud_performance_testing}` | Specify the cloud performance testing | "[specify value]" |
-| `{cloud_optimization}` | Specify the cloud optimization | "[specify value]" |
-| `{cloud_cost_management}` | Specify the cloud cost management | "[specify value]" |
+| `[ARCHITECTURE_NAME]` | Specify the architecture name | "John Smith" |
+| `[CLOUD_PROVIDER]` | Specify the cloud provider | "[specify value]" |
+| `[ARCHITECTURE_TYPE]` | Specify the architecture type | "Standard" |
+| `[DEPLOYMENT_MODEL]` | Specify the deployment model | "[specify value]" |
+| `[BUSINESS_OBJECTIVES]` | Specify the business objectives | "Increase efficiency by 30%" |
+| `[TECHNICAL_REQUIREMENTS]` | Specify the technical requirements | "[specify value]" |
+| `[CLOUD_COMPLIANCE]` | Specify the cloud compliance | "[specify value]" |
+| `[CLOUD_BUDGET]` | Specify the cloud budget | "$500,000" |
+| `[ARCHITECTURE_TIMELINE]` | Specify the architecture timeline | "6 months" |
+| `[CLOUD_STAKEHOLDERS]` | Specify the cloud stakeholders | "[specify value]" |
+| `[CLOUD_MODEL]` | Specify the cloud model | "[specify value]" |
+| `[SERVICE_MODEL]` | Specify the service model | "[specify value]" |
+| `[MULTI_CLOUD_STRATEGY]` | Specify the multi cloud strategy | "[specify value]" |
+| `[HYBRID_STRATEGY]` | Specify the hybrid strategy | "[specify value]" |
+| `[CLOUD_MIGRATION_STRATEGY]` | Specify the cloud migration strategy | "[specify value]" |
+| `[VENDOR_STRATEGY]` | Specify the vendor strategy | "[specify value]" |
+| `[EXIT_STRATEGY]` | Specify the exit strategy | "[specify value]" |
+| `[CLOUD_GOVERNANCE]` | Specify the cloud governance | "[specify value]" |
+| `[CLOUD_COST_STRATEGY]` | Specify the cloud cost strategy | "[specify value]" |
+| `[SKILLS_STRATEGY]` | Specify the skills strategy | "[specify value]" |
+| `[COMPUTE_SERVICES]` | Specify the compute services | "[specify value]" |
+| `[STORAGE_SERVICES]` | Specify the storage services | "[specify value]" |
+| `[NETWORK_SERVICES]` | Specify the network services | "[specify value]" |
+| `[DATABASE_SERVICES]` | Specify the database services | "[specify value]" |
+| `[INTEGRATION_SERVICES]` | Specify the integration services | "[specify value]" |
+| `[SECURITY_SERVICES]` | Specify the security services | "[specify value]" |
+| `[MONITORING_SERVICES]` | Specify the monitoring services | "[specify value]" |
+| `[MANAGEMENT_SERVICES]` | Specify the management services | "[specify value]" |
+| `[AIML_SERVICES]` | Specify the aiml services | "[specify value]" |
+| `[ANALYTICS_SERVICES]` | Specify the analytics services | "[specify value]" |
+| `[NETWORK_DESIGN]` | Specify the network design | "[specify value]" |
+| `[VPC_CONFIGURATION]` | Specify the vpc configuration | "[specify value]" |
+| `[SUBNET_STRATEGY]` | Specify the subnet strategy | "[specify value]" |
+| `[ROUTING_CONFIGURATION]` | Specify the routing configuration | "[specify value]" |
+| `[SECURITY_GROUPS]` | Specify the security groups | "[specify value]" |
+| `[CLOUD_LOAD_BALANCING]` | Specify the cloud load balancing | "[specify value]" |
+| `[CDN_CONFIGURATION]` | Specify the cdn configuration | "[specify value]" |
+| `[DNS_STRATEGY]` | Specify the dns strategy | "[specify value]" |
+| `[VPN_CONFIGURATION]` | Specify the vpn configuration | "[specify value]" |
+| `[DIRECT_CONNECT]` | Specify the direct connect | "[specify value]" |
+| `[CLOUD_SECURITY_FRAMEWORK]` | Specify the cloud security framework | "[specify value]" |
+| `[CLOUD_IDENTITY_MANAGEMENT]` | Specify the cloud identity management | "[specify value]" |
+| `[CLOUD_ACCESS_CONTROL]` | Specify the cloud access control | "[specify value]" |
+| `[CLOUD_DATA_PROTECTION]` | Specify the cloud data protection | "[specify value]" |
+| `[CLOUD_NETWORK_SECURITY]` | Specify the cloud network security | "[specify value]" |
+| `[CLOUD_APPLICATION_SECURITY]` | Specify the cloud application security | "[specify value]" |
+| `[CLOUD_MONITORING_SECURITY]` | Specify the cloud monitoring security | "[specify value]" |
+| `[COMPLIANCE_CONTROLS]` | Specify the compliance controls | "[specify value]" |
+| `[CLOUD_KEY_MANAGEMENT]` | Specify the cloud key management | "[specify value]" |
+| `[THREAT_DETECTION]` | Specify the threat detection | "[specify value]" |
+| `[AVAILABILITY_DESIGN]` | Specify the availability design | "[specify value]" |
+| `[REDUNDANCY_STRATEGY]` | Specify the redundancy strategy | "[specify value]" |
+| `[FAILOVER_MECHANISMS]` | Specify the failover mechanisms | "[specify value]" |
+| `[LOAD_DISTRIBUTION]` | Specify the load distribution | "[specify value]" |
+| `[GEOGRAPHIC_DISTRIBUTION]` | Specify the geographic distribution | "[specify value]" |
+| `[CLOUD_BACKUP_STRATEGY]` | Specify the cloud backup strategy | "[specify value]" |
+| `[CLOUD_DISASTER_RECOVERY]` | Specify the cloud disaster recovery | "[specify value]" |
+| `[CLOUD_BUSINESS_CONTINUITY]` | Specify the cloud business continuity | "[specify value]" |
+| `[RTO_RPO_TARGETS]` | Specify the rto rpo targets | "[specify value]" |
+| `[AVAILABILITY_TESTING]` | Specify the availability testing | "[specify value]" |
+| `[CLOUD_SCALING_STRATEGY]` | Specify the cloud scaling strategy | "[specify value]" |
+| `[CLOUD_AUTO_SCALING]` | Specify the cloud auto scaling | "[specify value]" |
+| `[CLOUD_PERFORMANCE_OPTIMIZATION]` | Specify the cloud performance optimization | "[specify value]" |
+| `[CLOUD_CAPACITY_PLANNING]` | Specify the cloud capacity planning | "[specify value]" |
+| `[CLOUD_RESOURCE_MANAGEMENT]` | Specify the cloud resource management | "[specify value]" |
+| `[CLOUD_MONITORING_STRATEGY]` | Specify the cloud monitoring strategy | "[specify value]" |
+| `[CLOUD_ALERTING]` | Specify the cloud alerting | "[specify value]" |
+| `[CLOUD_PERFORMANCE_TESTING]` | Specify the cloud performance testing | "[specify value]" |
+| `[CLOUD_OPTIMIZATION]` | Specify the cloud optimization | "[specify value]" |
+| `[CLOUD_COST_MANAGEMENT]` | Specify the cloud cost management | "[specify value]" |
 
 
 

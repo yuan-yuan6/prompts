@@ -3,7 +3,8 @@ title: Energy Efficiency Programs & Demand Side Management
 category: industry/energy-utilities/Customer Services
 tags: [design, development, industry, management, optimization]
 use_cases:
-  - Implementing comprehensive framework for designing, implementing, and evaluating energy effic...
+  - Creating comprehensive framework for designing, implementing, and evaluating energy efficiency programs, demand-side management initiatives, and customer engagement strategies for utilities and energy service companies.
+
   - Project planning and execution
   - Strategy development
 related_templates:

@@ -3,7 +3,8 @@ title: Special Education Services & IEP Management Framework
 category: education/K-12 Education
 tags: [development, education, framework, management, security]
 use_cases:
-  - Implementing comprehensive framework for managing special education services, iep development...
+  - Creating comprehensive framework for managing special education services, iep development and implementation, accommodations, modifications, progress monitoring, and compliance with idea regulations.
+
   - Project planning and execution
   - Strategy development
 related_templates:

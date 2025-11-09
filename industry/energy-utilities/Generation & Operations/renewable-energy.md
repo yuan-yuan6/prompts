@@ -3,7 +3,8 @@ title: Renewable Energy System Optimization
 category: industry/energy-utilities/Generation & Operations
 tags: [data-science, industry, optimization, research, strategy]
 use_cases:
-  - Implementing comprehensive renewable energy planning, deployment, and optimization framework ...
+  - Creating comprehensive renewable energy planning, deployment, and optimization framework for solar, wind, hydro, and emerging renewable technologies.
+
   - Project planning and execution
   - Strategy development
 related_templates:

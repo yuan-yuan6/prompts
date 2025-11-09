@@ -3,7 +3,8 @@ title: Healthcare Revenue Cycle Management Framework
 category: healthcare/Healthcare Operations
 tags: [framework, healthcare, management, optimization, testing]
 use_cases:
-  - Implementing comprehensive framework for optimizing healthcare revenue cycle operations inclu...
+  - Creating comprehensive framework for optimizing healthcare revenue cycle operations including patient registration, insurance verification, coding, billing, collections, and denial management to maximize reimbursement and cash flow.
+
   - Project planning and execution
   - Strategy development
 related_templates:

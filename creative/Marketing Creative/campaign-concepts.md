@@ -3,7 +3,8 @@ title: Campaign Concepts Template
 category: creative/Marketing Creative
 tags: [automation, communication, creative, development, marketing, strategy, template]
 use_cases:
-  - Implementing develop comprehensive marketing campaign concepts including themes, messaging, a...
+  - Creating develop comprehensive marketing campaign concepts including themes, messaging, and creative strategies that drive brand engagement and achieve business objectives across multiple channels.
+
   - Project planning and execution
   - Strategy development
 related_templates:

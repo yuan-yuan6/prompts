@@ -3,7 +3,8 @@ title: Data Visualization & Figures Template
 category: education/Scientific Communication
 tags: [communication, design, development, education, research, strategy, template, testing]
 use_cases:
-  - Implementing create compelling, accurate scientific visualizations including charts, graphs, ...
+  - Creating compelling, accurate scientific visualizations including charts, graphs, infographics, and visual abstracts that effectively communicate complex data, enhance understanding, and meet publication standards across diverse research disciplines.
+
   - Project planning and execution
   - Strategy development
 related_templates:

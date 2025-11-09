@@ -3,7 +3,8 @@ title: Feature Engineering & Selection Template
 category: data-analytics/Data Science
 tags: [automation, data-analytics, data-science, design, machine-learning, optimization, research, template]
 use_cases:
-  - Implementing design and implement comprehensive feature engineering strategies to create, tra...
+  - Creating design and implement comprehensive feature engineering strategies to create, transform, and select optimal features that improve model performance, interpretability, and business value.
+
   - Project planning and execution
   - Strategy development
 related_templates:

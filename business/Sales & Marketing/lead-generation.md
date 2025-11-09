@@ -3,7 +3,7 @@ title: Lead Generation Template Generator
 category: business/Sales & Marketing
 tags: [automation, business, design, machine-learning, marketing, optimization, template, testing]
 use_cases:
-  - Implementing create comprehensive lead generation strategies covering prospecting, qualificat...
+  - Creating comprehensive lead generation strategies covering prospecting, qualification, and nurturing to build a robust sales pipeline and drive revenue growth.
   - Project planning and execution
   - Strategy development
 related_templates:

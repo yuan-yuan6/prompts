@@ -3,7 +3,8 @@ title: Pipeline Development & Orchestration Template
 category: data-analytics/Analytics Engineering
 tags: [automation, data-analytics, design, development, machine-learning, security, strategy, template]
 use_cases:
-  - Implementing design comprehensive etl/elt pipeline development strategies including data inge...
+  - Creating design comprehensive etl/elt pipeline development strategies including data ingestion, transformation processing, orchestration workflows, monitoring systems, and automation frameworks for enterprise data platforms.
+
   - Project planning and execution
   - Strategy development
 related_templates:
@@ -113,7 +114,7 @@ def extract_[SOURCE_1_SHORT]_data(
         )
         
         # Initial validation
-        assert len(df) > 0, f"No data extracted for {extraction_date}"
+        assert len(df) > 0, f"No data extracted for [EXTRACTION_DATE]"
         assert not df.duplicated([PRIMARY_KEY_COLUMNS]).any(), "Duplicate records found"
         
         # Add extraction metadata
@@ -197,7 +198,7 @@ def load_to_staging(df: DataFrame, staging_table: str) -> dict:
         
         # Truncate/append strategy based on requirements
         if [LOAD_STRATEGY] == 'FULL_REFRESH':
-            staging_conn.execute(f"TRUNCATE TABLE {staging_table}")
+            staging_conn.execute(f"TRUNCATE TABLE [STAGING_TABLE]")
         
         # Bulk load with error handling
         load_stats = df.to_sql(
@@ -211,10 +212,10 @@ def load_to_staging(df: DataFrame, staging_table: str) -> dict:
         
         # Post-load validation
         loaded_count = staging_conn.execute(
-            f"SELECT COUNT(*) FROM {staging_table} WHERE [BATCH_COLUMN] = '[CURRENT_BATCH]'"
+            f"SELECT COUNT(*) FROM [STAGING_TABLE] WHERE [BATCH_COLUMN] = '[CURRENT_BATCH]'"
         ).fetchone()[0]
         
-        assert loaded_count == len(df), f"Load count mismatch: expected {len(df)}, got {loaded_count}"
+        assert loaded_count == len(df), f"Load count mismatch: expected {len(df)}, got [LOADED_COUNT]"
         
         # Update control table
         [CONTROL_TABLE_MANAGER].update_load_status(
@@ -730,7 +731,7 @@ class AdvancedTransformations:
         change_detected = False
         for col in scd_columns:
             change_detected |= (
-                changed_records[f'{col}_new'] != changed_records[f'{col}_current']
+                changed_records[f'[COL]_new'] != changed_records[f'[COL]_current']
             )
         
         # Expire current versions
@@ -1119,13 +1120,13 @@ class PipelineMonitor:
         """
         pipeline_id = metrics['pipeline_id']
         duration = metrics.get('duration', 0)
-        sla_threshold = self.thresholds.get(f'{pipeline_id}_sla_minutes', [DEFAULT_SLA_MINUTES])
+        sla_threshold = self.thresholds.get(f'[PIPELINE_ID]_sla_minutes', [DEFAULT_SLA_MINUTES])
         
         if duration > sla_threshold * 60:  # Convert minutes to seconds
             self.alert_manager.send_alert(
                 alert_type='SLA_BREACH',
                 severity='HIGH',
-                message=f'Pipeline {pipeline_id} exceeded SLA: {duration/60:.2f} minutes > {sla_threshold} minutes',
+                message=f'Pipeline [PIPELINE_ID] exceeded SLA: {duration/60:.2f} minutes > [SLA_THRESHOLD] minutes',
                 pipeline_id=pipeline_id,
                 metadata={'duration': duration, 'sla_threshold': sla_threshold}
             )
@@ -1140,13 +1141,13 @@ class PipelineMonitor:
         
         if records_processed > 0:
             failure_rate = records_failed / records_processed
-            failure_threshold = self.thresholds.get(f'{pipeline_id}_failure_rate', [DEFAULT_FAILURE_RATE])
+            failure_threshold = self.thresholds.get(f'[PIPELINE_ID]_failure_rate', [DEFAULT_FAILURE_RATE])
             
             if failure_rate > failure_threshold:
                 self.alert_manager.send_alert(
                     alert_type='DATA_QUALITY_BREACH',
                     severity='MEDIUM',
-                    message=f'Pipeline {pipeline_id} data quality threshold breached: {failure_rate:.2%} > {failure_threshold:.2%}',
+                    message=f'Pipeline [PIPELINE_ID] data quality threshold breached: {failure_rate:.2%} > {failure_threshold:.2%}',
                     pipeline_id=pipeline_id,
                     metadata={'failure_rate': failure_rate, 'threshold': failure_threshold}
                 )
@@ -1234,7 +1235,7 @@ class StreamingPipelineMonitor:
             error_count,
             backlog_size
         FROM {[METRICS_TABLE]}
-        WHERE stream_name = '{stream_name}'
+        WHERE stream_name = '[STREAM_NAME]'
         AND window_end >= NOW() - INTERVAL '[MONITORING_WINDOW]'
         """
         
@@ -1340,7 +1341,7 @@ class PipelineErrorHandler:
         self.error_store.store_error(error_details)
         
         # Log error
-        self.logger.error(f"Pipeline error {error_id}: {error_details}")
+        self.logger.error(f"Pipeline error [ERROR_ID]: [ERROR_DETAILS]")
         
         # Determine recovery strategy
         recovery_strategy = self.determine_recovery_strategy(error_details)
@@ -1419,7 +1420,7 @@ class PipelineErrorHandler:
                     error_details['retry_count']
                 )
                 recovery_result['next_retry_time'] = [CURRENT_TIME] + retry_delay
-                recovery_result['actions_taken'].append(f'Scheduled retry in {retry_delay} seconds')
+                recovery_result['actions_taken'].append(f'Scheduled retry in [RETRY_DELAY] seconds')
                 recovery_result['success'] = True
                 
             elif strategy == 'QUARANTINE_AND_CONTINUE':
@@ -1435,7 +1436,7 @@ class PipelineErrorHandler:
                 new_batch_size = self.calculate_reduced_batch_size(
                     context.get('current_batch_size', [DEFAULT_BATCH_SIZE])
                 )
-                recovery_result['actions_taken'].append(f'Reduced batch size to {new_batch_size}')
+                recovery_result['actions_taken'].append(f'Reduced batch size to [NEW_BATCH_SIZE]')
                 recovery_result['success'] = True
                 
             elif strategy == 'DEAD_LETTER_QUEUE':
@@ -1455,7 +1456,7 @@ class PipelineErrorHandler:
                 
         except Exception as recovery_error:
             recovery_result['recovery_error'] = str(recovery_error)
-            self.logger.error(f"Recovery strategy {strategy} failed: {recovery_error}")
+            self.logger.error(f"Recovery strategy [STRATEGY] failed: [RECOVERY_ERROR]")
         
         return recovery_result
     
@@ -1468,7 +1469,7 @@ class PipelineErrorHandler:
             
             # Move bad records to quarantine
             quarantine_query = f"""
-            INSERT INTO {quarantine_table}
+            INSERT INTO [QUARANTINE_TABLE]
             SELECT *, 
                    '{error_details['error_id']}' as error_id,
                    '{error_details['error_message']}' as error_reason,

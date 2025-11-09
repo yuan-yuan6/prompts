@@ -3,7 +3,8 @@ title: Dynamic Pricing & Revenue Optimization Framework
 category: industry/retail-ecommerce
 tags: [data-science, design, framework, industry, management, marketing, optimization, research]
 use_cases:
-  - Implementing comprehensive framework for developing and implementing dynamic pricing strategi...
+  - Creating comprehensive framework for developing and implementing dynamic pricing strategies including competitive analysis, price optimization algorithms, psychological pricing tactics, promotional planning, and revenue management for retail and e-commerce businesses.
+
   - Project planning and execution
   - Strategy development
 last_updated: 2025-11-09

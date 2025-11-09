@@ -3,7 +3,8 @@ title: Enterprise Risk Management (ERM) Framework
 category: finance/Risk Management
 tags: [design, finance, framework, management, security]
 use_cases:
-  - Implementing comprehensive framework for implementing enterprise risk management including ri...
+  - Creating comprehensive framework for implementing enterprise risk management including risk identification, assessment, mitigation strategies, regulatory compliance, and governance structures for financial institutions.
+
   - Project planning and execution
   - Strategy development
 related_templates:

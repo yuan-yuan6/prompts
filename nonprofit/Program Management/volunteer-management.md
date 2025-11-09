@@ -3,7 +3,8 @@ title: Volunteer Management & Engagement System
 category: nonprofit/Program Management
 tags: [design, management, nonprofit, strategy, testing]
 use_cases:
-  - Implementing comprehensive framework for recruiting, training, managing, and retaining volunt...
+  - Creating comprehensive framework for recruiting, training, managing, and retaining volunteers across nonprofit organizations, including coordination, recognition, and impact measurement of volunteer programs.
+
   - Project planning and execution
   - Strategy development
 related_templates:

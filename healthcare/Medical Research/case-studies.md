@@ -3,7 +3,7 @@ title: Case Studies Template
 category: healthcare/Medical Research
 tags: [automation, data-science, healthcare, management, research, template, testing]
 use_cases:
-  - Implementing create comprehensive medical case studies including case reports, case series, a...
+  - Creating comprehensive medical case studies including case reports, case series, and clinical presentations for education, publication, and knowledge sharing in healthcare settings.
   - Project planning and execution
   - Strategy development
 related_templates:

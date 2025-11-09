@@ -3,7 +3,7 @@ title: Employee Relations Template Generator
 category: business/Human Resources
 tags: [business, communication, development, management, strategy, template]
 use_cases:
-  - Implementing create comprehensive employee relations strategies covering communication, cultu...
+  - Creating comprehensive employee relations strategies covering communication, culture development, and engagement initiatives to build positive workplace relationships and organizational effectiveness.
   - Project planning and execution
   - Strategy development
 related_templates:

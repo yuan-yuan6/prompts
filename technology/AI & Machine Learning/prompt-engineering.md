@@ -3,7 +3,8 @@ title: Prompt Engineering Template
 category: technology/AI & Machine Learning
 tags: [communication, design, machine-learning, management, optimization, strategy, technology, template]
 use_cases:
-  - Implementing design and optimize prompts for large language models including prompt templates...
+  - Creating design and optimize prompts for large language models including prompt templates, chains, agents, and advanced techniques for reliable, consistent, and effective ai interactions.
+
   - Project planning and execution
   - Strategy development
 related_templates:
@@ -21,52 +22,52 @@ Design and optimize prompts for large language models including prompt templates
 ## Template Structure
 
 ### Prompt Overview
-- **Prompt Name**: {prompt_name}
-- **Use Case**: {use_case}
-- **Target Model**: {target_model}
-- **Objective**: {prompt_objective}
-- **Output Format**: {output_format}
-- **Success Criteria**: {success_criteria}
-- **Complexity Level**: {complexity_level}
-- **Domain**: {domain}
-- **Language**: {language}
-- **Context Length**: {context_length}
+- **Prompt Name**: [PROMPT_NAME]
+- **Use Case**: [USE_CASE]
+- **Target Model**: [TARGET_MODEL]
+- **Objective**: [PROMPT_OBJECTIVE]
+- **Output Format**: [OUTPUT_FORMAT]
+- **Success Criteria**: [SUCCESS_CRITERIA]
+- **Complexity Level**: [COMPLEXITY_LEVEL]
+- **Domain**: [DOMAIN]
+- **Language**: [LANGUAGE]
+- **Context Length**: [CONTEXT_LENGTH]
 
 ### Prompt Design
-- **Prompt Structure**: {prompt_structure}
-- **Instructions**: {instructions}
-- **Context**: {context}
-- **Examples**: {examples}
-- **Constraints**: {constraints}
-- **Format Requirements**: {format_requirements}
-- **Persona**: {persona}
-- **Tone**: {tone}
-- **Style**: {style}
-- **Variables**: {variables}
+- **Prompt Structure**: [PROMPT_STRUCTURE]
+- **Instructions**: [INSTRUCTIONS]
+- **Context**: [CONTEXT]
+- **Examples**: [EXAMPLES]
+- **Constraints**: [CONSTRAINTS]
+- **Format Requirements**: [FORMAT_REQUIREMENTS]
+- **Persona**: [PERSONA]
+- **Tone**: [TONE]
+- **Style**: [STYLE]
+- **Variables**: [VARIABLES]
 
 ### Chain Engineering
-- **Chain Type**: {chain_type}
-- **Chain Components**: {chain_components}
-- **Sequential Logic**: {sequential_logic}
-- **Branching Logic**: {branching_logic}
-- **Error Handling**: {chain_error_handling}
-- **Memory Management**: {memory_management}
-- **State Management**: {state_management}
-- **Data Flow**: {data_flow}
-- **Integration Points**: {integration_points}
-- **Performance Optimization**: {chain_optimization}
+- **Chain Type**: [CHAIN_TYPE]
+- **Chain Components**: [CHAIN_COMPONENTS]
+- **Sequential Logic**: [SEQUENTIAL_LOGIC]
+- **Branching Logic**: [BRANCHING_LOGIC]
+- **Error Handling**: [CHAIN_ERROR_HANDLING]
+- **Memory Management**: [MEMORY_MANAGEMENT]
+- **State Management**: [STATE_MANAGEMENT]
+- **Data Flow**: [DATA_FLOW]
+- **Integration Points**: [INTEGRATION_POINTS]
+- **Performance Optimization**: [CHAIN_OPTIMIZATION]
 
 ### Agent Architecture
-- **Agent Type**: {agent_type}
-- **Agent Capabilities**: {agent_capabilities}
-- **Tool Integration**: {tool_integration}
-- **Decision Making**: {decision_making}
-- **Planning**: {planning}
-- **Execution**: {execution}
-- **Feedback Loop**: {feedback_loop}
-- **Learning Mechanism**: {learning_mechanism}
-- **Safety Measures**: {safety_measures}
-- **Monitoring**: {agent_monitoring}
+- **Agent Type**: [AGENT_TYPE]
+- **Agent Capabilities**: [AGENT_CAPABILITIES]
+- **Tool Integration**: [TOOL_INTEGRATION]
+- **Decision Making**: [DECISION_MAKING]
+- **Planning**: [PLANNING]
+- **Execution**: [EXECUTION]
+- **Feedback Loop**: [FEEDBACK_LOOP]
+- **Learning Mechanism**: [LEARNING_MECHANISM]
+- **Safety Measures**: [SAFETY_MEASURES]
+- **Monitoring**: [AGENT_MONITORING]
 
 Please provide detailed prompt examples, testing strategies, optimization techniques, and performance metrics.
 
@@ -84,62 +85,62 @@ Prompt Structure:
 - Output format with markdown structure
 
 Variables:
-- {topic}, {keywords}, {target_audience}
-- {brand_voice}, {call_to_action}
-- {seo_requirements}, {word_count}
+- [TOPIC], [KEYWORDS], [TARGET_AUDIENCE]
+- [BRAND_VOICE], [CALL_TO_ACTION]
+- [SEO_REQUIREMENTS], [WORD_COUNT]
 ```
 
 ## Variables
 
 | Variable | Description | Example |
 |----------|-------------|----------|
-| `{prompt_name}` | Specify the prompt name | "John Smith" |
-| `{use_case}` | Specify the use case | "[specify value]" |
-| `{target_model}` | Specify the target model | "[specify value]" |
-| `{prompt_objective}` | Specify the prompt objective | "Increase efficiency by 30%" |
-| `{output_format}` | Specify the output format | "[specify value]" |
-| `{success_criteria}` | Specify the success criteria | "[specify value]" |
-| `{complexity_level}` | Specify the complexity level | "[specify value]" |
-| `{domain}` | Specify the domain | "[specify value]" |
-| `{language}` | Specify the language | "[specify value]" |
-| `{context_length}` | Specify the context length | "[specify value]" |
-| `{prompt_structure}` | Specify the prompt structure | "[specify value]" |
-| `{instructions}` | Specify the instructions | "[specify value]" |
-| `{context}` | Specify the context | "[specify value]" |
-| `{examples}` | Specify the examples | "[specify value]" |
-| `{constraints}` | Specify the constraints | "[specify value]" |
-| `{format_requirements}` | Specify the format requirements | "[specify value]" |
-| `{persona}` | Specify the persona | "[specify value]" |
-| `{tone}` | Specify the tone | "[specify value]" |
-| `{style}` | Specify the style | "[specify value]" |
-| `{variables}` | Specify the variables | "[specify value]" |
-| `{chain_type}` | Specify the chain type | "Standard" |
-| `{chain_components}` | Specify the chain components | "[specify value]" |
-| `{sequential_logic}` | Specify the sequential logic | "[specify value]" |
-| `{branching_logic}` | Specify the branching logic | "[specify value]" |
-| `{chain_error_handling}` | Specify the chain error handling | "[specify value]" |
-| `{memory_management}` | Specify the memory management | "[specify value]" |
-| `{state_management}` | Specify the state management | "[specify value]" |
-| `{data_flow}` | Specify the data flow | "[specify value]" |
-| `{integration_points}` | Specify the integration points | "[specify value]" |
-| `{chain_optimization}` | Specify the chain optimization | "[specify value]" |
-| `{agent_type}` | Specify the agent type | "Standard" |
-| `{agent_capabilities}` | Specify the agent capabilities | "[specify value]" |
-| `{tool_integration}` | Specify the tool integration | "[specify value]" |
-| `{decision_making}` | Specify the decision making | "[specify value]" |
-| `{planning}` | Specify the planning | "[specify value]" |
-| `{execution}` | Specify the execution | "[specify value]" |
-| `{feedback_loop}` | Specify the feedback loop | "[specify value]" |
-| `{learning_mechanism}` | Specify the learning mechanism | "[specify value]" |
-| `{safety_measures}` | Specify the safety measures | "[specify value]" |
-| `{agent_monitoring}` | Specify the agent monitoring | "[specify value]" |
-| `{topic}` | Specify the topic | "[specify value]" |
-| `{keywords}` | Specify the keywords | "[specify value]" |
-| `{target_audience}` | Specify the target audience | "[specify value]" |
-| `{brand_voice}` | Specify the brand voice | "[specify value]" |
-| `{call_to_action}` | Specify the call to action | "[specify value]" |
-| `{seo_requirements}` | Specify the seo requirements | "[specify value]" |
-| `{word_count}` | Specify the word count | "10" |
+| `[PROMPT_NAME]` | Specify the prompt name | "John Smith" |
+| `[USE_CASE]` | Specify the use case | "[specify value]" |
+| `[TARGET_MODEL]` | Specify the target model | "[specify value]" |
+| `[PROMPT_OBJECTIVE]` | Specify the prompt objective | "Increase efficiency by 30%" |
+| `[OUTPUT_FORMAT]` | Specify the output format | "[specify value]" |
+| `[SUCCESS_CRITERIA]` | Specify the success criteria | "[specify value]" |
+| `[COMPLEXITY_LEVEL]` | Specify the complexity level | "[specify value]" |
+| `[DOMAIN]` | Specify the domain | "[specify value]" |
+| `[LANGUAGE]` | Specify the language | "[specify value]" |
+| `[CONTEXT_LENGTH]` | Specify the context length | "[specify value]" |
+| `[PROMPT_STRUCTURE]` | Specify the prompt structure | "[specify value]" |
+| `[INSTRUCTIONS]` | Specify the instructions | "[specify value]" |
+| `[CONTEXT]` | Specify the context | "[specify value]" |
+| `[EXAMPLES]` | Specify the examples | "[specify value]" |
+| `[CONSTRAINTS]` | Specify the constraints | "[specify value]" |
+| `[FORMAT_REQUIREMENTS]` | Specify the format requirements | "[specify value]" |
+| `[PERSONA]` | Specify the persona | "[specify value]" |
+| `[TONE]` | Specify the tone | "[specify value]" |
+| `[STYLE]` | Specify the style | "[specify value]" |
+| `[VARIABLES]` | Specify the variables | "[specify value]" |
+| `[CHAIN_TYPE]` | Specify the chain type | "Standard" |
+| `[CHAIN_COMPONENTS]` | Specify the chain components | "[specify value]" |
+| `[SEQUENTIAL_LOGIC]` | Specify the sequential logic | "[specify value]" |
+| `[BRANCHING_LOGIC]` | Specify the branching logic | "[specify value]" |
+| `[CHAIN_ERROR_HANDLING]` | Specify the chain error handling | "[specify value]" |
+| `[MEMORY_MANAGEMENT]` | Specify the memory management | "[specify value]" |
+| `[STATE_MANAGEMENT]` | Specify the state management | "[specify value]" |
+| `[DATA_FLOW]` | Specify the data flow | "[specify value]" |
+| `[INTEGRATION_POINTS]` | Specify the integration points | "[specify value]" |
+| `[CHAIN_OPTIMIZATION]` | Specify the chain optimization | "[specify value]" |
+| `[AGENT_TYPE]` | Specify the agent type | "Standard" |
+| `[AGENT_CAPABILITIES]` | Specify the agent capabilities | "[specify value]" |
+| `[TOOL_INTEGRATION]` | Specify the tool integration | "[specify value]" |
+| `[DECISION_MAKING]` | Specify the decision making | "[specify value]" |
+| `[PLANNING]` | Specify the planning | "[specify value]" |
+| `[EXECUTION]` | Specify the execution | "[specify value]" |
+| `[FEEDBACK_LOOP]` | Specify the feedback loop | "[specify value]" |
+| `[LEARNING_MECHANISM]` | Specify the learning mechanism | "[specify value]" |
+| `[SAFETY_MEASURES]` | Specify the safety measures | "[specify value]" |
+| `[AGENT_MONITORING]` | Specify the agent monitoring | "[specify value]" |
+| `[TOPIC]` | Specify the topic | "[specify value]" |
+| `[KEYWORDS]` | Specify the keywords | "[specify value]" |
+| `[TARGET_AUDIENCE]` | Specify the target audience | "[specify value]" |
+| `[BRAND_VOICE]` | Specify the brand voice | "[specify value]" |
+| `[CALL_TO_ACTION]` | Specify the call to action | "[specify value]" |
+| `[SEO_REQUIREMENTS]` | Specify the seo requirements | "[specify value]" |
+| `[WORD_COUNT]` | Specify the word count | "10" |
 
 
 

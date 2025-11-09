@@ -3,7 +3,8 @@ title: Investment Portfolio Management & Strategy Framework
 category: finance
 tags: [finance, framework, management, optimization, strategy]
 use_cases:
-  - Implementing comprehensive investment portfolio management framework covering asset allocatio...
+  - Creating comprehensive investment portfolio management framework covering asset allocation, risk management, performance optimization, esg integration, and wealth preservation strategies across diverse investment vehicles and market conditions.
+
   - Project planning and execution
   - Strategy development
 last_updated: 2025-11-09

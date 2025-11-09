@@ -3,7 +3,8 @@ title: Electric Vehicle Strategy & Mobility Transformation Framework
 category: industry/automotive/Electric Vehicles
 tags: [design, development, framework, industry, management, strategy]
 use_cases:
-  - Implementing comprehensive framework for electric vehicle adoption, charging infrastructure d...
+  - Creating comprehensive framework for electric vehicle adoption, charging infrastructure development, fleet electrification, battery management, and sustainable mobility transformation across automotive and transportation sectors.
+
   - Project planning and execution
   - Strategy development
 related_templates:

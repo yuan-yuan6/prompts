@@ -3,7 +3,7 @@ title: Property Valuation & Appraisal Template
 category: industry/real-estate/Property Transactions
 tags: [automation, data-science, industry, research, template]
 use_cases:
-  - Implementing create comprehensive property valuation reports, appraisal analyses, market asse...
+  - Creating comprehensive property valuation reports, appraisal analyses, market assessments, and investment evaluations that establish accurate market values for residential, commercial, and specialty properties using industry-standard methodologies.
   - Project planning and execution
   - Strategy development
 related_templates:

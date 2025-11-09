@@ -3,7 +3,7 @@ title: Compensation & Benefits Template Generator
 category: business/Human Resources
 tags: [business, data-science, design, optimization, research, security, strategy, template]
 use_cases:
-  - Implementing create comprehensive compensation and benefits strategies covering analysis, pla...
+  - Creating comprehensive compensation and benefits strategies covering analysis, planning, and administration to ensure competitive, equitable, and sustainable reward systems that attract, retain, and motivate talent.
   - Project planning and execution
   - Strategy development
 related_templates:

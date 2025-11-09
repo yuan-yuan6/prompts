@@ -3,7 +3,8 @@ title: Interactive Media Template
 category: creative/Entertainment
 tags: [creative, design, development, optimization, security, template]
 use_cases:
-  - Implementing create immersive interactive media experiences including ar/vr applications, int...
+  - Creating immersive interactive media experiences including AR/VR applications, interactive installations, and digital experiences that engage users through innovative technology and compelling content.
+
   - Project planning and execution
   - Strategy development
 related_templates:

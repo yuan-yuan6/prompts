@@ -3,7 +3,8 @@ title: Patient Communication Template
 category: healthcare/Clinical Practice
 tags: [communication, healthcare, template]
 use_cases:
-  - Implementing develop effective patient communication strategies including education, instruct...
+  - Creating develop effective patient communication strategies including education, instructions, and counseling to improve health outcomes, adherence, and patient satisfaction.
+
   - Project planning and execution
   - Strategy development
 related_templates:

@@ -3,7 +3,8 @@ title: Renewable Energy Strategy & Implementation Framework
 category: industry/energy-utilities/Renewable Energy
 tags: [design, development, framework, industry, machine-learning, optimization, strategy]
 use_cases:
-  - Implementing comprehensive framework for developing renewable energy strategies including tec...
+  - Creating comprehensive framework for developing renewable energy strategies including technology assessment, project development, grid integration, energy storage, sustainability metrics, and economic modeling for utilities and enterprises.
+
   - Project planning and execution
   - Strategy development
 related_templates:

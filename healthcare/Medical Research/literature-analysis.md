@@ -3,7 +3,8 @@ title: Literature Analysis Template
 category: healthcare/Medical Research
 tags: [data-science, healthcare, management, research, template]
 use_cases:
-  - Implementing conduct comprehensive literature reviews, meta-analyses, and systematic reviews ...
+  - Creating conduct comprehensive literature reviews, meta-analyses, and systematic reviews to synthesize medical evidence and inform clinical practice, research, and healthcare policy decisions.
+
   - Project planning and execution
   - Strategy development
 related_templates:

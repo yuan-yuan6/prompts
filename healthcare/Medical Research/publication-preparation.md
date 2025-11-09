@@ -3,7 +3,7 @@ title: Publication Preparation Template
 category: healthcare/Medical Research
 tags: [automation, communication, design, documentation, healthcare, research, template]
 use_cases:
-  - Implementing create comprehensive manuscripts, abstracts, posters, and presentations for medi...
+  - Creating comprehensive manuscripts, abstracts, posters, and presentations for medical publications including journal articles, conference materials, and scientific communications following publication guidelines and standards.
   - Project planning and execution
   - Strategy development
 related_templates:

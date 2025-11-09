@@ -3,7 +3,7 @@ title: Risk Management Framework Template Generator
 category: finance
 tags: [design, finance, framework, machine-learning, management, optimization, security, strategy]
 use_cases:
-  - Implementing create comprehensive risk management strategies covering credit risk, market ris...
+  - Creating comprehensive risk management strategies covering credit risk, market risk, operational risk, regulatory compliance, stress testing, and BASEL framework implementation to ensure financial stability, regulatory adherence, and strategic risk optimization while protecting stakeholder interests and maximizing risk-adjusted returns.
   - Project planning and execution
   - Strategy development
 last_updated: 2025-11-09

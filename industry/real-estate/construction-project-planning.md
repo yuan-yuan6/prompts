@@ -3,7 +3,8 @@ title: Construction Project Planning & Management Framework
 category: industry/real-estate
 tags: [design, development, framework, industry, management, strategy, testing]
 use_cases:
-  - Implementing comprehensive framework for planning and executing construction projects includi...
+  - Creating comprehensive framework for planning and executing construction projects including scheduling, resource allocation, cost control, quality management, safety protocols, and stakeholder coordination for successful project delivery.
+
   - Project planning and execution
   - Strategy development
 last_updated: 2025-11-09

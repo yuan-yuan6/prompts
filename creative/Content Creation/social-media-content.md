@@ -3,7 +3,8 @@ title: Social Media Content Template
 category: creative/Content Creation
 tags: [creative, design, documentation, management, marketing, optimization, strategy, template]
 use_cases:
-  - Implementing create engaging social media content including posts, campaigns, and engagement ...
+  - Creating engaging social media content including posts, campaigns, and engagement strategies across platforms with optimized formatting, hashtags, and audience targeting.
+
   - Project planning and execution
   - Strategy development
 related_templates:
@@ -20,77 +21,77 @@ Create engaging social media content including posts, campaigns, and engagement 
 ## Template Structure
 
 ### Content Overview
-- **Platform**: {platform}
-- **Content Type**: {content_type}
-- **Campaign**: {campaign_name}
-- **Objective**: {content_objective}
-- **Target Audience**: {social_target_audience}
-- **Brand Voice**: {brand_voice}
-- **Content Pillars**: {content_pillars}
-- **Posting Schedule**: {posting_schedule}
-- **Budget**: {social_budget}
-- **KPIs**: {social_kpis}
+- **Platform**: [PLATFORM]
+- **Content Type**: [CONTENT_TYPE]
+- **Campaign**: [CAMPAIGN_NAME]
+- **Objective**: [CONTENT_OBJECTIVE]
+- **Target Audience**: [SOCIAL_TARGET_AUDIENCE]
+- **Brand Voice**: [BRAND_VOICE]
+- **Content Pillars**: [CONTENT_PILLARS]
+- **Posting Schedule**: [POSTING_SCHEDULE]
+- **Budget**: [SOCIAL_BUDGET]
+- **KPIs**: [SOCIAL_KPIS]
 
 ### Content Strategy
-- **Content Theme**: {content_theme}
-- **Key Message**: {key_message}
-- **Value Proposition**: {value_proposition}
-- **Content Format**: {content_format}
-- **Visual Style**: {visual_style}
-- **Hashtag Strategy**: {hashtag_strategy}
-- **Engagement Tactics**: {engagement_tactics}
-- **Call-to-Action**: {social_cta}
-- **Cross-Platform Strategy**: {cross_platform_strategy}
-- **Content Series**: {content_series}
+- **Content Theme**: [CONTENT_THEME]
+- **Key Message**: [KEY_MESSAGE]
+- **Value Proposition**: [VALUE_PROPOSITION]
+- **Content Format**: [CONTENT_FORMAT]
+- **Visual Style**: [VISUAL_STYLE]
+- **Hashtag Strategy**: [HASHTAG_STRATEGY]
+- **Engagement Tactics**: [ENGAGEMENT_TACTICS]
+- **Call-to-Action**: [SOCIAL_CTA]
+- **Cross-Platform Strategy**: [CROSS_PLATFORM_STRATEGY]
+- **Content Series**: [CONTENT_SERIES]
 
 ### Platform Optimization
-- **Character Limits**: {character_limits}
-- **Image Specifications**: {image_specs}
-- **Video Requirements**: {video_requirements}
-- **Posting Times**: {optimal_posting_times}
-- **Platform Features**: {platform_features}
-- **Algorithm Considerations**: {algorithm_considerations}
-- **Trending Topics**: {trending_topics}
-- **Platform-Specific Language**: {platform_language}
-- **Community Guidelines**: {community_guidelines}
-- **Accessibility Features**: {accessibility_features}
+- **Character Limits**: [CHARACTER_LIMITS]
+- **Image Specifications**: [IMAGE_SPECS]
+- **Video Requirements**: [VIDEO_REQUIREMENTS]
+- **Posting Times**: [OPTIMAL_POSTING_TIMES]
+- **Platform Features**: [PLATFORM_FEATURES]
+- **Algorithm Considerations**: [ALGORITHM_CONSIDERATIONS]
+- **Trending Topics**: [TRENDING_TOPICS]
+- **Platform-Specific Language**: [PLATFORM_LANGUAGE]
+- **Community Guidelines**: [COMMUNITY_GUIDELINES]
+- **Accessibility Features**: [ACCESSIBILITY_FEATURES]
 
 ### Engagement Strategy
-- **Engagement Goals**: {engagement_goals}
-- **Community Management**: {community_management}
-- **Response Strategy**: {response_strategy}
-- **User-Generated Content**: {user_generated_content}
-- **Influencer Collaboration**: {influencer_collaboration}
-- **Contest Strategy**: {contest_strategy}
-- **Polling Strategy**: {polling_strategy}
-- **Live Content**: {live_content}
-- **Story Strategy**: {story_strategy}
-- **Comment Moderation**: {comment_moderation}
+- **Engagement Goals**: [ENGAGEMENT_GOALS]
+- **Community Management**: [COMMUNITY_MANAGEMENT]
+- **Response Strategy**: [RESPONSE_STRATEGY]
+- **User-Generated Content**: [USER_GENERATED_CONTENT]
+- **Influencer Collaboration**: [INFLUENCER_COLLABORATION]
+- **Contest Strategy**: [CONTEST_STRATEGY]
+- **Polling Strategy**: [POLLING_STRATEGY]
+- **Live Content**: [LIVE_CONTENT]
+- **Story Strategy**: [STORY_STRATEGY]
+- **Comment Moderation**: [COMMENT_MODERATION]
 
 ## Prompt Template
 
-Create {content_type} for {platform} targeting {social_target_audience} with {content_objective} goal. Use {brand_voice} voice and focus on {content_theme} theme with {key_message} message.
+Create [CONTENT_TYPE] for [PLATFORM] targeting [SOCIAL_TARGET_AUDIENCE] with [CONTENT_OBJECTIVE] goal. Use [BRAND_VOICE] voice and focus on [CONTENT_THEME] theme with [KEY_MESSAGE] message.
 
 **Content Requirements:**
-- Format for {platform} with {character_limits} and {image_specs}
-- Include {hashtag_strategy} and optimize for {optimal_posting_times}
-- Use {content_format} format with {visual_style} aesthetic
-- Incorporate {platform_features} and consider {algorithm_considerations}
-- Add compelling {social_cta} that drives action
+- Format for [PLATFORM] with [CHARACTER_LIMITS] and [IMAGE_SPECS]
+- Include [HASHTAG_STRATEGY] and optimize for [OPTIMAL_POSTING_TIMES]
+- Use [CONTENT_FORMAT] format with [VISUAL_STYLE] aesthetic
+- Incorporate [PLATFORM_FEATURES] and consider [ALGORITHM_CONSIDERATIONS]
+- Add compelling [SOCIAL_CTA] that drives action
 
 **Engagement Strategy:**
-- Apply {engagement_tactics} to boost interaction
-- Encourage {user_generated_content} participation  
-- Use {polling_strategy} and {contest_strategy} when appropriate
-- Plan {response_strategy} for community management
-- Cross-promote with {cross_platform_strategy}
+- Apply [ENGAGEMENT_TACTICS] to boost interaction
+- Encourage [USER_GENERATED_CONTENT] participation  
+- Use [POLLING_STRATEGY] and [CONTEST_STRATEGY] when appropriate
+- Plan [RESPONSE_STRATEGY] for community management
+- Cross-promote with [CROSS_PLATFORM_STRATEGY]
 
 **Performance Optimization:**
-- Target {social_kpis} metrics
-- Leverage {trending_topics} and current events
-- Ensure {accessibility_features} compliance
-- Follow {community_guidelines} requirements
-- Plan {content_series} for sustained engagement
+- Target [SOCIAL_KPIS] metrics
+- Leverage [TRENDING_TOPICS] and current events
+- Ensure [ACCESSIBILITY_FEATURES] compliance
+- Follow [COMMUNITY_GUIDELINES] requirements
+- Plan [CONTENT_SERIES] for sustained engagement
 
 ## Usage Examples
 
@@ -117,46 +118,46 @@ Engagement Strategy:
 
 | Variable | Description | Example |
 |----------|-------------|----------|
-| `{platform}` | Specify the platform | "[specify value]" |
-| `{content_type}` | Specify the content type | "Standard" |
-| `{campaign_name}` | Specify the campaign name | "John Smith" |
-| `{content_objective}` | Specify the content objective | "Increase efficiency by 30%" |
-| `{social_target_audience}` | Specify the social target audience | "[specify value]" |
-| `{brand_voice}` | Specify the brand voice | "[specify value]" |
-| `{content_pillars}` | Specify the content pillars | "[specify value]" |
-| `{posting_schedule}` | Specify the posting schedule | "[specify value]" |
-| `{social_budget}` | Specify the social budget | "$500,000" |
-| `{social_kpis}` | Specify the social kpis | "[specify value]" |
-| `{content_theme}` | Specify the content theme | "[specify value]" |
-| `{key_message}` | Specify the key message | "[specify value]" |
-| `{value_proposition}` | Specify the value proposition | "[specify value]" |
-| `{content_format}` | Specify the content format | "[specify value]" |
-| `{visual_style}` | Specify the visual style | "[specify value]" |
-| `{hashtag_strategy}` | Specify the hashtag strategy | "[specify value]" |
-| `{engagement_tactics}` | Specify the engagement tactics | "[specify value]" |
-| `{social_cta}` | Specify the social cta | "[specify value]" |
-| `{cross_platform_strategy}` | Specify the cross platform strategy | "[specify value]" |
-| `{content_series}` | Specify the content series | "[specify value]" |
-| `{character_limits}` | Specify the character limits | "[specify value]" |
-| `{image_specs}` | Specify the image specs | "[specify value]" |
-| `{video_requirements}` | Specify the video requirements | "[specify value]" |
-| `{optimal_posting_times}` | Specify the optimal posting times | "[specify value]" |
-| `{platform_features}` | Specify the platform features | "[specify value]" |
-| `{algorithm_considerations}` | Specify the algorithm considerations | "[specify value]" |
-| `{trending_topics}` | Specify the trending topics | "[specify value]" |
-| `{platform_language}` | Specify the platform language | "[specify value]" |
-| `{community_guidelines}` | Specify the community guidelines | "[specify value]" |
-| `{accessibility_features}` | Specify the accessibility features | "[specify value]" |
-| `{engagement_goals}` | Specify the engagement goals | "Increase efficiency by 30%" |
-| `{community_management}` | Specify the community management | "[specify value]" |
-| `{response_strategy}` | Specify the response strategy | "[specify value]" |
-| `{user_generated_content}` | Specify the user generated content | "[specify value]" |
-| `{influencer_collaboration}` | Specify the influencer collaboration | "[specify value]" |
-| `{contest_strategy}` | Specify the contest strategy | "[specify value]" |
-| `{polling_strategy}` | Specify the polling strategy | "[specify value]" |
-| `{live_content}` | Specify the live content | "[specify value]" |
-| `{story_strategy}` | Specify the story strategy | "[specify value]" |
-| `{comment_moderation}` | Specify the comment moderation | "[specify value]" |
+| `[PLATFORM]` | Specify the platform | "[specify value]" |
+| `[CONTENT_TYPE]` | Specify the content type | "Standard" |
+| `[CAMPAIGN_NAME]` | Specify the campaign name | "John Smith" |
+| `[CONTENT_OBJECTIVE]` | Specify the content objective | "Increase efficiency by 30%" |
+| `[SOCIAL_TARGET_AUDIENCE]` | Specify the social target audience | "[specify value]" |
+| `[BRAND_VOICE]` | Specify the brand voice | "[specify value]" |
+| `[CONTENT_PILLARS]` | Specify the content pillars | "[specify value]" |
+| `[POSTING_SCHEDULE]` | Specify the posting schedule | "[specify value]" |
+| `[SOCIAL_BUDGET]` | Specify the social budget | "$500,000" |
+| `[SOCIAL_KPIS]` | Specify the social kpis | "[specify value]" |
+| `[CONTENT_THEME]` | Specify the content theme | "[specify value]" |
+| `[KEY_MESSAGE]` | Specify the key message | "[specify value]" |
+| `[VALUE_PROPOSITION]` | Specify the value proposition | "[specify value]" |
+| `[CONTENT_FORMAT]` | Specify the content format | "[specify value]" |
+| `[VISUAL_STYLE]` | Specify the visual style | "[specify value]" |
+| `[HASHTAG_STRATEGY]` | Specify the hashtag strategy | "[specify value]" |
+| `[ENGAGEMENT_TACTICS]` | Specify the engagement tactics | "[specify value]" |
+| `[SOCIAL_CTA]` | Specify the social cta | "[specify value]" |
+| `[CROSS_PLATFORM_STRATEGY]` | Specify the cross platform strategy | "[specify value]" |
+| `[CONTENT_SERIES]` | Specify the content series | "[specify value]" |
+| `[CHARACTER_LIMITS]` | Specify the character limits | "[specify value]" |
+| `[IMAGE_SPECS]` | Specify the image specs | "[specify value]" |
+| `[VIDEO_REQUIREMENTS]` | Specify the video requirements | "[specify value]" |
+| `[OPTIMAL_POSTING_TIMES]` | Specify the optimal posting times | "[specify value]" |
+| `[PLATFORM_FEATURES]` | Specify the platform features | "[specify value]" |
+| `[ALGORITHM_CONSIDERATIONS]` | Specify the algorithm considerations | "[specify value]" |
+| `[TRENDING_TOPICS]` | Specify the trending topics | "[specify value]" |
+| `[PLATFORM_LANGUAGE]` | Specify the platform language | "[specify value]" |
+| `[COMMUNITY_GUIDELINES]` | Specify the community guidelines | "[specify value]" |
+| `[ACCESSIBILITY_FEATURES]` | Specify the accessibility features | "[specify value]" |
+| `[ENGAGEMENT_GOALS]` | Specify the engagement goals | "Increase efficiency by 30%" |
+| `[COMMUNITY_MANAGEMENT]` | Specify the community management | "[specify value]" |
+| `[RESPONSE_STRATEGY]` | Specify the response strategy | "[specify value]" |
+| `[USER_GENERATED_CONTENT]` | Specify the user generated content | "[specify value]" |
+| `[INFLUENCER_COLLABORATION]` | Specify the influencer collaboration | "[specify value]" |
+| `[CONTEST_STRATEGY]` | Specify the contest strategy | "[specify value]" |
+| `[POLLING_STRATEGY]` | Specify the polling strategy | "[specify value]" |
+| `[LIVE_CONTENT]` | Specify the live content | "[specify value]" |
+| `[STORY_STRATEGY]` | Specify the story strategy | "[specify value]" |
+| `[COMMENT_MODERATION]` | Specify the comment moderation | "[specify value]" |
 
 
 

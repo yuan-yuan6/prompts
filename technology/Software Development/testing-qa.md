@@ -3,7 +3,8 @@ title: Testing & QA Template
 category: technology/Software Development
 tags: [automation, design, documentation, optimization, security, strategy, technology, template]
 use_cases:
-  - Implementing design comprehensive testing strategies including unit tests, integration tests,...
+  - Creating design comprehensive testing strategies including unit tests, integration tests, end-to-end tests, performance testing, security testing, and automated quality assurance processes.
+
   - Project planning and execution
   - Strategy development
 related_templates:
@@ -21,292 +22,292 @@ Design comprehensive testing strategies including unit tests, integration tests,
 ## Template Structure
 
 ### Testing Strategy Overview
-- **Application Type**: {application_type}
-- **Testing Approach**: {testing_approach}
-- **Testing Philosophy**: {testing_philosophy}
-- **Quality Standards**: {quality_standards}
-- **Testing Budget**: {testing_budget}
-- **Timeline**: {testing_timeline}
-- **Team Structure**: {team_structure}
-- **Risk Assessment**: {risk_assessment}
-- **Success Criteria**: {success_criteria}
-- **Reporting Requirements**: {reporting_requirements}
+- **Application Type**: [APPLICATION_TYPE]
+- **Testing Approach**: [TESTING_APPROACH]
+- **Testing Philosophy**: [TESTING_PHILOSOPHY]
+- **Quality Standards**: [QUALITY_STANDARDS]
+- **Testing Budget**: [TESTING_BUDGET]
+- **Timeline**: [TESTING_TIMELINE]
+- **Team Structure**: [TEAM_STRUCTURE]
+- **Risk Assessment**: [RISK_ASSESSMENT]
+- **Success Criteria**: [SUCCESS_CRITERIA]
+- **Reporting Requirements**: [REPORTING_REQUIREMENTS]
 
 ### Test Planning
-- **Test Scope**: {test_scope}
-- **Test Objectives**: {test_objectives}
-- **Testing Types**: {testing_types}
-- **Test Environment**: {test_environment}
-- **Test Data Requirements**: {test_data_requirements}
-- **Entry Criteria**: {entry_criteria}
-- **Exit Criteria**: {exit_criteria}
-- **Suspension Criteria**: {suspension_criteria}
-- **Resumption Criteria**: {resumption_criteria}
-- **Test Deliverables**: {test_deliverables}
+- **Test Scope**: [TEST_SCOPE]
+- **Test Objectives**: [TEST_OBJECTIVES]
+- **Testing Types**: [TESTING_TYPES]
+- **Test Environment**: [TEST_ENVIRONMENT]
+- **Test Data Requirements**: [TEST_DATA_REQUIREMENTS]
+- **Entry Criteria**: [ENTRY_CRITERIA]
+- **Exit Criteria**: [EXIT_CRITERIA]
+- **Suspension Criteria**: [SUSPENSION_CRITERIA]
+- **Resumption Criteria**: [RESUMPTION_CRITERIA]
+- **Test Deliverables**: [TEST_DELIVERABLES]
 
 ### Unit Testing
-- **Testing Framework**: {unit_testing_framework}
-- **Test Coverage Target**: {unit_coverage_target}
-- **Mocking Strategy**: {mocking_strategy}
-- **Test Data Setup**: {unit_test_data}
-- **Assertion Library**: {assertion_library}
-- **Test Organization**: {test_organization}
-- **Naming Conventions**: {test_naming_conventions}
-- **Test Documentation**: {unit_test_documentation}
-- **Continuous Integration**: {unit_ci_integration}
-- **Code Coverage Tools**: {coverage_tools}
+- **Testing Framework**: [UNIT_TESTING_FRAMEWORK]
+- **Test Coverage Target**: [UNIT_COVERAGE_TARGET]
+- **Mocking Strategy**: [MOCKING_STRATEGY]
+- **Test Data Setup**: [UNIT_TEST_DATA]
+- **Assertion Library**: [ASSERTION_LIBRARY]
+- **Test Organization**: [TEST_ORGANIZATION]
+- **Naming Conventions**: [TEST_NAMING_CONVENTIONS]
+- **Test Documentation**: [UNIT_TEST_DOCUMENTATION]
+- **Continuous Integration**: [UNIT_CI_INTEGRATION]
+- **Code Coverage Tools**: [COVERAGE_TOOLS]
 
 ### Integration Testing
-- **Integration Strategy**: {integration_strategy}
-- **Integration Points**: {integration_points}
-- **API Testing**: {api_testing}
-- **Database Testing**: {database_testing}
-- **External Service Testing**: {external_service_testing}
-- **Message Queue Testing**: {message_queue_testing}
-- **File System Testing**: {file_system_testing}
-- **Network Testing**: {network_testing}
-- **Configuration Testing**: {configuration_testing}
-- **Environment Setup**: {integration_environment}
+- **Integration Strategy**: [INTEGRATION_STRATEGY]
+- **Integration Points**: [INTEGRATION_POINTS]
+- **API Testing**: [API_TESTING]
+- **Database Testing**: [DATABASE_TESTING]
+- **External Service Testing**: [EXTERNAL_SERVICE_TESTING]
+- **Message Queue Testing**: [MESSAGE_QUEUE_TESTING]
+- **File System Testing**: [FILE_SYSTEM_TESTING]
+- **Network Testing**: [NETWORK_TESTING]
+- **Configuration Testing**: [CONFIGURATION_TESTING]
+- **Environment Setup**: [INTEGRATION_ENVIRONMENT]
 
 ### End-to-End Testing
-- **E2E Framework**: {e2e_framework}
-- **Browser Support**: {browser_support}
-- **Device Testing**: {device_testing}
-- **User Journey Testing**: {user_journey_testing}
-- **Cross-Platform Testing**: {cross_platform_testing}
-- **Accessibility Testing**: {accessibility_testing}
-- **Visual Regression Testing**: {visual_regression_testing}
-- **Mobile Testing**: {mobile_testing}
-- **Performance Monitoring**: {e2e_performance_monitoring}
-- **Test Data Management**: {e2e_test_data}
+- **E2E Framework**: [E2E_FRAMEWORK]
+- **Browser Support**: [BROWSER_SUPPORT]
+- **Device Testing**: [DEVICE_TESTING]
+- **User Journey Testing**: [USER_JOURNEY_TESTING]
+- **Cross-Platform Testing**: [CROSS_PLATFORM_TESTING]
+- **Accessibility Testing**: [ACCESSIBILITY_TESTING]
+- **Visual Regression Testing**: [VISUAL_REGRESSION_TESTING]
+- **Mobile Testing**: [MOBILE_TESTING]
+- **Performance Monitoring**: [E2E_PERFORMANCE_MONITORING]
+- **Test Data Management**: [E2E_TEST_DATA]
 
 ### Performance Testing
-- **Performance Requirements**: {performance_requirements}
-- **Load Testing**: {load_testing}
-- **Stress Testing**: {stress_testing}
-- **Volume Testing**: {volume_testing}
-- **Spike Testing**: {spike_testing}
-- **Endurance Testing**: {endurance_testing}
-- **Scalability Testing**: {scalability_testing}
-- **Capacity Testing**: {capacity_testing}
-- **Resource Utilization**: {resource_utilization}
-- **Response Time Targets**: {response_time_targets}
+- **Performance Requirements**: [PERFORMANCE_REQUIREMENTS]
+- **Load Testing**: [LOAD_TESTING]
+- **Stress Testing**: [STRESS_TESTING]
+- **Volume Testing**: [VOLUME_TESTING]
+- **Spike Testing**: [SPIKE_TESTING]
+- **Endurance Testing**: [ENDURANCE_TESTING]
+- **Scalability Testing**: [SCALABILITY_TESTING]
+- **Capacity Testing**: [CAPACITY_TESTING]
+- **Resource Utilization**: [RESOURCE_UTILIZATION]
+- **Response Time Targets**: [RESPONSE_TIME_TARGETS]
 
 ### Security Testing
-- **Security Framework**: {security_framework}
-- **Vulnerability Assessment**: {vulnerability_assessment}
-- **Penetration Testing**: {penetration_testing}
-- **Authentication Testing**: {authentication_testing}
-- **Authorization Testing**: {authorization_testing}
-- **Session Management**: {session_management_testing}
-- **Input Validation**: {input_validation_testing}
-- **SQL Injection Testing**: {sql_injection_testing}
-- **XSS Testing**: {xss_testing}
-- **CSRF Testing**: {csrf_testing}
+- **Security Framework**: [SECURITY_FRAMEWORK]
+- **Vulnerability Assessment**: [VULNERABILITY_ASSESSMENT]
+- **Penetration Testing**: [PENETRATION_TESTING]
+- **Authentication Testing**: [AUTHENTICATION_TESTING]
+- **Authorization Testing**: [AUTHORIZATION_TESTING]
+- **Session Management**: [SESSION_MANAGEMENT_TESTING]
+- **Input Validation**: [INPUT_VALIDATION_TESTING]
+- **SQL Injection Testing**: [SQL_INJECTION_TESTING]
+- **XSS Testing**: [XSS_TESTING]
+- **CSRF Testing**: [CSRF_TESTING]
 
 ### Automated Testing
-- **Automation Strategy**: {automation_strategy}
-- **Tool Selection**: {automation_tools}
-- **Test Automation Framework**: {automation_framework}
-- **CI/CD Integration**: {cicd_integration}
-- **Automated Test Suite**: {automated_test_suite}
-- **Test Execution**: {test_execution}
-- **Result Analysis**: {result_analysis}
-- **Maintenance Strategy**: {maintenance_strategy}
-- **ROI Metrics**: {automation_roi}
-- **Skill Requirements**: {automation_skills}
+- **Automation Strategy**: [AUTOMATION_STRATEGY]
+- **Tool Selection**: [AUTOMATION_TOOLS]
+- **Test Automation Framework**: [AUTOMATION_FRAMEWORK]
+- **CI/CD Integration**: [CICD_INTEGRATION]
+- **Automated Test Suite**: [AUTOMATED_TEST_SUITE]
+- **Test Execution**: [TEST_EXECUTION]
+- **Result Analysis**: [RESULT_ANALYSIS]
+- **Maintenance Strategy**: [MAINTENANCE_STRATEGY]
+- **ROI Metrics**: [AUTOMATION_ROI]
+- **Skill Requirements**: [AUTOMATION_SKILLS]
 
 ### API Testing
-- **API Testing Tools**: {api_testing_tools}
-- **Request Testing**: {request_testing}
-- **Response Validation**: {response_validation}
-- **Status Code Testing**: {status_code_testing}
-- **Header Testing**: {header_testing}
-- **Payload Testing**: {payload_testing}
-- **Authentication Testing**: {api_authentication_testing}
-- **Rate Limiting Testing**: {rate_limiting_testing}
-- **Error Handling Testing**: {error_handling_testing}
-- **Contract Testing**: {contract_testing}
+- **API Testing Tools**: [API_TESTING_TOOLS]
+- **Request Testing**: [REQUEST_TESTING]
+- **Response Validation**: [RESPONSE_VALIDATION]
+- **Status Code Testing**: [STATUS_CODE_TESTING]
+- **Header Testing**: [HEADER_TESTING]
+- **Payload Testing**: [PAYLOAD_TESTING]
+- **Authentication Testing**: [API_AUTHENTICATION_TESTING]
+- **Rate Limiting Testing**: [RATE_LIMITING_TESTING]
+- **Error Handling Testing**: [ERROR_HANDLING_TESTING]
+- **Contract Testing**: [CONTRACT_TESTING]
 
 ### Database Testing
-- **Database Testing Strategy**: {database_testing_strategy}
-- **Data Integrity Testing**: {data_integrity_testing}
-- **Transaction Testing**: {transaction_testing}
-- **Concurrency Testing**: {concurrency_testing}
-- **Backup/Recovery Testing**: {backup_recovery_testing}
-- **Migration Testing**: {migration_testing}
-- **Performance Testing**: {db_performance_testing}
-- **Security Testing**: {db_security_testing}
-- **Referential Integrity**: {referential_integrity}
-- **Constraint Testing**: {constraint_testing}
+- **Database Testing Strategy**: [DATABASE_TESTING_STRATEGY]
+- **Data Integrity Testing**: [DATA_INTEGRITY_TESTING]
+- **Transaction Testing**: [TRANSACTION_TESTING]
+- **Concurrency Testing**: [CONCURRENCY_TESTING]
+- **Backup/Recovery Testing**: [BACKUP_RECOVERY_TESTING]
+- **Migration Testing**: [MIGRATION_TESTING]
+- **Performance Testing**: [DB_PERFORMANCE_TESTING]
+- **Security Testing**: [DB_SECURITY_TESTING]
+- **Referential Integrity**: [REFERENTIAL_INTEGRITY]
+- **Constraint Testing**: [CONSTRAINT_TESTING]
 
 ### Mobile Testing
-- **Mobile Testing Strategy**: {mobile_testing_strategy}
-- **Device Coverage**: {device_coverage}
-- **Operating System Testing**: {os_testing}
-- **App Store Testing**: {app_store_testing}
-- **Offline Testing**: {offline_testing}
-- **Battery Testing**: {battery_testing}
-- **Memory Testing**: {memory_testing}
-- **Network Testing**: {mobile_network_testing}
-- **Usability Testing**: {mobile_usability_testing}
-- **Push Notification Testing**: {push_notification_testing}
+- **Mobile Testing Strategy**: [MOBILE_TESTING_STRATEGY]
+- **Device Coverage**: [DEVICE_COVERAGE]
+- **Operating System Testing**: [OS_TESTING]
+- **App Store Testing**: [APP_STORE_TESTING]
+- **Offline Testing**: [OFFLINE_TESTING]
+- **Battery Testing**: [BATTERY_TESTING]
+- **Memory Testing**: [MEMORY_TESTING]
+- **Network Testing**: [MOBILE_NETWORK_TESTING]
+- **Usability Testing**: [MOBILE_USABILITY_TESTING]
+- **Push Notification Testing**: [PUSH_NOTIFICATION_TESTING]
 
 ### Accessibility Testing
-- **Accessibility Standards**: {accessibility_standards}
-- **Screen Reader Testing**: {screen_reader_testing}
-- **Keyboard Navigation**: {keyboard_navigation_testing}
-- **Color Contrast Testing**: {color_contrast_testing}
-- **Alt Text Testing**: {alt_text_testing}
-- **Focus Management**: {focus_management_testing}
-- **ARIA Testing**: {aria_testing}
-- **Responsive Design**: {responsive_design_testing}
-- **Video/Audio Testing**: {media_testing}
-- **Form Testing**: {form_accessibility_testing}
+- **Accessibility Standards**: [ACCESSIBILITY_STANDARDS]
+- **Screen Reader Testing**: [SCREEN_READER_TESTING]
+- **Keyboard Navigation**: [KEYBOARD_NAVIGATION_TESTING]
+- **Color Contrast Testing**: [COLOR_CONTRAST_TESTING]
+- **Alt Text Testing**: [ALT_TEXT_TESTING]
+- **Focus Management**: [FOCUS_MANAGEMENT_TESTING]
+- **ARIA Testing**: [ARIA_TESTING]
+- **Responsive Design**: [RESPONSIVE_DESIGN_TESTING]
+- **Video/Audio Testing**: [MEDIA_TESTING]
+- **Form Testing**: [FORM_ACCESSIBILITY_TESTING]
 
 ### Test Data Management
-- **Test Data Strategy**: {test_data_strategy}
-- **Data Generation**: {data_generation}
-- **Data Masking**: {data_masking}
-- **Data Privacy**: {data_privacy}
-- **Synthetic Data**: {synthetic_data}
-- **Data Refresh**: {data_refresh}
-- **Data Versioning**: {data_versioning}
-- **Data Cleanup**: {data_cleanup}
-- **Data Backup**: {data_backup}
-- **Data Compliance**: {data_compliance}
+- **Test Data Strategy**: [TEST_DATA_STRATEGY]
+- **Data Generation**: [DATA_GENERATION]
+- **Data Masking**: [DATA_MASKING]
+- **Data Privacy**: [DATA_PRIVACY]
+- **Synthetic Data**: [SYNTHETIC_DATA]
+- **Data Refresh**: [DATA_REFRESH]
+- **Data Versioning**: [DATA_VERSIONING]
+- **Data Cleanup**: [DATA_CLEANUP]
+- **Data Backup**: [DATA_BACKUP]
+- **Data Compliance**: [DATA_COMPLIANCE]
 
 ### Test Environment Management
-- **Environment Strategy**: {environment_strategy}
-- **Environment Types**: {environment_types}
-- **Environment Setup**: {environment_setup}
-- **Configuration Management**: {config_management}
-- **Deployment Pipeline**: {deployment_pipeline}
-- **Environment Monitoring**: {environment_monitoring}
-- **Resource Management**: {resource_management}
-- **Access Control**: {access_control}
-- **Environment Refresh**: {environment_refresh}
-- **Troubleshooting**: {environment_troubleshooting}
+- **Environment Strategy**: [ENVIRONMENT_STRATEGY]
+- **Environment Types**: [ENVIRONMENT_TYPES]
+- **Environment Setup**: [ENVIRONMENT_SETUP]
+- **Configuration Management**: [CONFIG_MANAGEMENT]
+- **Deployment Pipeline**: [DEPLOYMENT_PIPELINE]
+- **Environment Monitoring**: [ENVIRONMENT_MONITORING]
+- **Resource Management**: [RESOURCE_MANAGEMENT]
+- **Access Control**: [ACCESS_CONTROL]
+- **Environment Refresh**: [ENVIRONMENT_REFRESH]
+- **Troubleshooting**: [ENVIRONMENT_TROUBLESHOOTING]
 
 ### Defect Management
-- **Defect Lifecycle**: {defect_lifecycle}
-- **Bug Tracking Tool**: {bug_tracking_tool}
-- **Severity Classification**: {severity_classification}
-- **Priority Classification**: {priority_classification}
-- **Escalation Process**: {escalation_process}
-- **Root Cause Analysis**: {root_cause_analysis}
-- **Regression Testing**: {regression_testing}
-- **Defect Metrics**: {defect_metrics}
-- **Quality Gates**: {quality_gates}
-- **Release Criteria**: {release_criteria}
+- **Defect Lifecycle**: [DEFECT_LIFECYCLE]
+- **Bug Tracking Tool**: [BUG_TRACKING_TOOL]
+- **Severity Classification**: [SEVERITY_CLASSIFICATION]
+- **Priority Classification**: [PRIORITY_CLASSIFICATION]
+- **Escalation Process**: [ESCALATION_PROCESS]
+- **Root Cause Analysis**: [ROOT_CAUSE_ANALYSIS]
+- **Regression Testing**: [REGRESSION_TESTING]
+- **Defect Metrics**: [DEFECT_METRICS]
+- **Quality Gates**: [QUALITY_GATES]
+- **Release Criteria**: [RELEASE_CRITERIA]
 
 ### Test Reporting
-- **Reporting Framework**: {reporting_framework}
-- **Test Metrics**: {test_metrics}
-- **Coverage Reports**: {coverage_reports}
-- **Performance Reports**: {performance_reports}
-- **Defect Reports**: {defect_reports}
-- **Dashboard Design**: {dashboard_design}
-- **Stakeholder Reports**: {stakeholder_reports}
-- **Executive Summary**: {executive_summary}
-- **Trend Analysis**: {trend_analysis}
-- **Risk Assessment**: {risk_assessment_reporting}
+- **Reporting Framework**: [REPORTING_FRAMEWORK]
+- **Test Metrics**: [TEST_METRICS]
+- **Coverage Reports**: [COVERAGE_REPORTS]
+- **Performance Reports**: [PERFORMANCE_REPORTS]
+- **Defect Reports**: [DEFECT_REPORTS]
+- **Dashboard Design**: [DASHBOARD_DESIGN]
+- **Stakeholder Reports**: [STAKEHOLDER_REPORTS]
+- **Executive Summary**: [EXECUTIVE_SUMMARY]
+- **Trend Analysis**: [TREND_ANALYSIS]
+- **Risk Assessment**: [RISK_ASSESSMENT_REPORTING]
 
 ### Quality Assurance Process
-- **QA Methodology**: {qa_methodology}
-- **Review Process**: {review_process}
-- **Code Review**: {code_review_process}
-- **Test Review**: {test_review_process}
-- **Documentation Review**: {documentation_review}
-- **Process Improvement**: {process_improvement}
-- **Best Practices**: {best_practices}
-- **Training Requirements**: {training_requirements}
-- **Certification Requirements**: {certification_requirements}
-- **Knowledge Management**: {knowledge_management}
+- **QA Methodology**: [QA_METHODOLOGY]
+- **Review Process**: [REVIEW_PROCESS]
+- **Code Review**: [CODE_REVIEW_PROCESS]
+- **Test Review**: [TEST_REVIEW_PROCESS]
+- **Documentation Review**: [DOCUMENTATION_REVIEW]
+- **Process Improvement**: [PROCESS_IMPROVEMENT]
+- **Best Practices**: [BEST_PRACTICES]
+- **Training Requirements**: [TRAINING_REQUIREMENTS]
+- **Certification Requirements**: [CERTIFICATION_REQUIREMENTS]
+- **Knowledge Management**: [KNOWLEDGE_MANAGEMENT]
 
 ### Risk-Based Testing
-- **Risk Identification**: {risk_identification}
-- **Risk Assessment**: {risk_assessment_process}
-- **Risk Mitigation**: {risk_mitigation}
-- **Test Prioritization**: {test_prioritization}
-- **Critical Path Testing**: {critical_path_testing}
-- **Business Impact**: {business_impact}
-- **Technical Risk**: {technical_risk}
-- **Schedule Risk**: {schedule_risk}
-- **Resource Risk**: {resource_risk}
-- **Quality Risk**: {quality_risk}
+- **Risk Identification**: [RISK_IDENTIFICATION]
+- **Risk Assessment**: [RISK_ASSESSMENT_PROCESS]
+- **Risk Mitigation**: [RISK_MITIGATION]
+- **Test Prioritization**: [TEST_PRIORITIZATION]
+- **Critical Path Testing**: [CRITICAL_PATH_TESTING]
+- **Business Impact**: [BUSINESS_IMPACT]
+- **Technical Risk**: [TECHNICAL_RISK]
+- **Schedule Risk**: [SCHEDULE_RISK]
+- **Resource Risk**: [RESOURCE_RISK]
+- **Quality Risk**: [QUALITY_RISK]
 
 ### Continuous Testing
-- **CI/CD Integration**: {continuous_integration}
-- **Pipeline Testing**: {pipeline_testing}
-- **Shift-Left Testing**: {shift_left_testing}
-- **Test Automation**: {continuous_automation}
-- **Feedback Loops**: {feedback_loops}
-- **Quality Gates**: {continuous_quality_gates}
-- **Monitoring Integration**: {monitoring_integration}
-- **DevOps Collaboration**: {devops_collaboration}
-- **Tool Integration**: {tool_integration}
-- **Metrics Collection**: {continuous_metrics}
+- **CI/CD Integration**: [CONTINUOUS_INTEGRATION]
+- **Pipeline Testing**: [PIPELINE_TESTING]
+- **Shift-Left Testing**: [SHIFT_LEFT_TESTING]
+- **Test Automation**: [CONTINUOUS_AUTOMATION]
+- **Feedback Loops**: [FEEDBACK_LOOPS]
+- **Quality Gates**: [CONTINUOUS_QUALITY_GATES]
+- **Monitoring Integration**: [MONITORING_INTEGRATION]
+- **DevOps Collaboration**: [DEVOPS_COLLABORATION]
+- **Tool Integration**: [TOOL_INTEGRATION]
+- **Metrics Collection**: [CONTINUOUS_METRICS]
 
 ## Prompt Template
 
-Design a comprehensive testing strategy for {application_type} using {testing_approach} methodology. The testing should achieve {unit_coverage_target}% code coverage and meet {quality_standards} quality requirements.
+Design a comprehensive testing strategy for [APPLICATION_TYPE] using [TESTING_APPROACH] methodology. The testing should achieve [UNIT_COVERAGE_TARGET]% code coverage and meet [QUALITY_STANDARDS] quality requirements.
 
 **Testing Framework Setup:**
-- Implement {unit_testing_framework} for unit testing with {mocking_strategy}
-- Use {e2e_framework} for end-to-end testing across {browser_support}
-- Set up {api_testing_tools} for API testing with {contract_testing}
-- Configure {automation_framework} for test automation
-- Integrate with {cicd_integration} pipeline
+- Implement [UNIT_TESTING_FRAMEWORK] for unit testing with [MOCKING_STRATEGY]
+- Use [E2E_FRAMEWORK] for end-to-end testing across [BROWSER_SUPPORT]
+- Set up [API_TESTING_TOOLS] for API testing with [CONTRACT_TESTING]
+- Configure [AUTOMATION_FRAMEWORK] for test automation
+- Integrate with [CICD_INTEGRATION] pipeline
 
 **Test Coverage Requirements:**
-- Unit tests covering {test_scope} with {assertion_library}
-- Integration tests for {integration_points} including {api_testing}
-- End-to-end tests covering {user_journey_testing} scenarios
-- Performance tests meeting {performance_requirements}
-- Security tests including {vulnerability_assessment}
+- Unit tests covering [TEST_SCOPE] with [ASSERTION_LIBRARY]
+- Integration tests for [INTEGRATION_POINTS] including [API_TESTING]
+- End-to-end tests covering [USER_JOURNEY_TESTING] scenarios
+- Performance tests meeting [PERFORMANCE_REQUIREMENTS]
+- Security tests including [VULNERABILITY_ASSESSMENT]
 
 **Quality Assurance Process:**
-- Implement {qa_methodology} with {review_process}
-- Use {bug_tracking_tool} for defect management
-- Apply {severity_classification} and {priority_classification}
-- Set up {quality_gates} and {release_criteria}
-- Create {reporting_framework} with {test_metrics}
+- Implement [QA_METHODOLOGY] with [REVIEW_PROCESS]
+- Use [BUG_TRACKING_TOOL] for defect management
+- Apply [SEVERITY_CLASSIFICATION] and [PRIORITY_CLASSIFICATION]
+- Set up [QUALITY_GATES] and [RELEASE_CRITERIA]
+- Create [REPORTING_FRAMEWORK] with [TEST_METRICS]
 
 **Test Environment Setup:**
-- Configure {environment_types} environments
-- Implement {test_data_strategy} with {data_generation}
-- Set up {config_management} for environment consistency
-- Use {deployment_pipeline} for automated deployments
-- Monitor environments with {environment_monitoring}
+- Configure [ENVIRONMENT_TYPES] environments
+- Implement [TEST_DATA_STRATEGY] with [DATA_GENERATION]
+- Set up [CONFIG_MANAGEMENT] for environment consistency
+- Use [DEPLOYMENT_PIPELINE] for automated deployments
+- Monitor environments with [ENVIRONMENT_MONITORING]
 
 **Automated Testing Pipeline:**
-- Design {automation_strategy} with {tool_integration}
-- Implement {continuous_automation} in CI/CD
-- Set up {pipeline_testing} with {quality_gates}
-- Configure {feedback_loops} for rapid iteration
-- Monitor {continuous_metrics} for improvement
+- Design [AUTOMATION_STRATEGY] with [TOOL_INTEGRATION]
+- Implement [CONTINUOUS_AUTOMATION] in CI/CD
+- Set up [PIPELINE_TESTING] with [QUALITY_GATES]
+- Configure [FEEDBACK_LOOPS] for rapid iteration
+- Monitor [CONTINUOUS_METRICS] for improvement
 
 **Performance Testing Strategy:**
-- Conduct {load_testing} up to {response_time_targets}
-- Perform {stress_testing} and {scalability_testing}
-- Monitor {resource_utilization} during tests
-- Test {spike_testing} and {endurance_testing} scenarios
-- Validate {capacity_testing} requirements
+- Conduct [LOAD_TESTING] up to [RESPONSE_TIME_TARGETS]
+- Perform [STRESS_TESTING] and [SCALABILITY_TESTING]
+- Monitor [RESOURCE_UTILIZATION] during tests
+- Test [SPIKE_TESTING] and [ENDURANCE_TESTING] scenarios
+- Validate [CAPACITY_TESTING] requirements
 
 **Security Testing Implementation:**
-- Perform {penetration_testing} and {vulnerability_assessment}
-- Test {authentication_testing} and {authorization_testing}
-- Validate {input_validation_testing} and {sql_injection_testing}
-- Check {xss_testing} and {csrf_testing} vulnerabilities
-- Implement {session_management_testing}
+- Perform [PENETRATION_TESTING] and [VULNERABILITY_ASSESSMENT]
+- Test [AUTHENTICATION_TESTING] and [AUTHORIZATION_TESTING]
+- Validate [INPUT_VALIDATION_TESTING] and [SQL_INJECTION_TESTING]
+- Check [XSS_TESTING] and [CSRF_TESTING] vulnerabilities
+- Implement [SESSION_MANAGEMENT_TESTING]
 
 **Risk Management:**
-- Apply {risk_identification} and {risk_assessment_process}
-- Prioritize testing with {test_prioritization} based on {business_impact}
-- Focus on {critical_path_testing} for high-risk areas
-- Implement {risk_mitigation} strategies
-- Monitor {technical_risk} and {schedule_risk}
+- Apply [RISK_IDENTIFICATION] and [RISK_ASSESSMENT_PROCESS]
+- Prioritize testing with [TEST_PRIORITIZATION] based on [BUSINESS_IMPACT]
+- Focus on [CRITICAL_PATH_TESTING] for high-risk areas
+- Implement [RISK_MITIGATION] strategies
+- Monitor [TECHNICAL_RISK] and [SCHEDULE_RISK]
 
 Please provide detailed test plans, automation scripts, performance benchmarks, security test cases, and comprehensive reporting mechanisms. Include test data requirements, environment setup guides, and continuous improvement processes.
 
@@ -342,196 +343,196 @@ Test Coverage Requirements:
 
 | Variable | Description | Example |
 |----------|-------------|----------|
-| `{application_type}` | Specify the application type | "Standard" |
-| `{testing_approach}` | Specify the testing approach | "[specify value]" |
-| `{testing_philosophy}` | Specify the testing philosophy | "[specify value]" |
-| `{quality_standards}` | Specify the quality standards | "[specify value]" |
-| `{testing_budget}` | Specify the testing budget | "$500,000" |
-| `{testing_timeline}` | Specify the testing timeline | "6 months" |
-| `{team_structure}` | Specify the team structure | "[specify value]" |
-| `{risk_assessment}` | Specify the risk assessment | "[specify value]" |
-| `{success_criteria}` | Specify the success criteria | "[specify value]" |
-| `{reporting_requirements}` | Specify the reporting requirements | "[specify value]" |
-| `{test_scope}` | Specify the test scope | "[specify value]" |
-| `{test_objectives}` | Specify the test objectives | "Increase efficiency by 30%" |
-| `{testing_types}` | Specify the testing types | "Standard" |
-| `{test_environment}` | Specify the test environment | "[specify value]" |
-| `{test_data_requirements}` | Specify the test data requirements | "[specify value]" |
-| `{entry_criteria}` | Specify the entry criteria | "[specify value]" |
-| `{exit_criteria}` | Specify the exit criteria | "[specify value]" |
-| `{suspension_criteria}` | Specify the suspension criteria | "[specify value]" |
-| `{resumption_criteria}` | Specify the resumption criteria | "[specify value]" |
-| `{test_deliverables}` | Specify the test deliverables | "[specify value]" |
-| `{unit_testing_framework}` | Specify the unit testing framework | "[specify value]" |
-| `{unit_coverage_target}` | Specify the unit coverage target | "[specify value]" |
-| `{mocking_strategy}` | Specify the mocking strategy | "[specify value]" |
-| `{unit_test_data}` | Specify the unit test data | "[specify value]" |
-| `{assertion_library}` | Specify the assertion library | "[specify value]" |
-| `{test_organization}` | Specify the test organization | "[specify value]" |
-| `{test_naming_conventions}` | Specify the test naming conventions | "[specify value]" |
-| `{unit_test_documentation}` | Specify the unit test documentation | "[specify value]" |
-| `{unit_ci_integration}` | Specify the unit ci integration | "[specify value]" |
-| `{coverage_tools}` | Specify the coverage tools | "[specify value]" |
-| `{integration_strategy}` | Specify the integration strategy | "[specify value]" |
-| `{integration_points}` | Specify the integration points | "[specify value]" |
-| `{api_testing}` | Specify the api testing | "[specify value]" |
-| `{database_testing}` | Specify the database testing | "[specify value]" |
-| `{external_service_testing}` | Specify the external service testing | "[specify value]" |
-| `{message_queue_testing}` | Specify the message queue testing | "[specify value]" |
-| `{file_system_testing}` | Specify the file system testing | "[specify value]" |
-| `{network_testing}` | Specify the network testing | "[specify value]" |
-| `{configuration_testing}` | Specify the configuration testing | "[specify value]" |
-| `{integration_environment}` | Specify the integration environment | "[specify value]" |
-| `{e2e_framework}` | Specify the e2e framework | "[specify value]" |
-| `{browser_support}` | Specify the browser support | "[specify value]" |
-| `{device_testing}` | Specify the device testing | "[specify value]" |
-| `{user_journey_testing}` | Specify the user journey testing | "[specify value]" |
-| `{cross_platform_testing}` | Specify the cross platform testing | "[specify value]" |
-| `{accessibility_testing}` | Specify the accessibility testing | "[specify value]" |
-| `{visual_regression_testing}` | Specify the visual regression testing | "[specify value]" |
-| `{mobile_testing}` | Specify the mobile testing | "[specify value]" |
-| `{e2e_performance_monitoring}` | Specify the e2e performance monitoring | "[specify value]" |
-| `{e2e_test_data}` | Specify the e2e test data | "[specify value]" |
-| `{performance_requirements}` | Specify the performance requirements | "[specify value]" |
-| `{load_testing}` | Specify the load testing | "[specify value]" |
-| `{stress_testing}` | Specify the stress testing | "[specify value]" |
-| `{volume_testing}` | Specify the volume testing | "[specify value]" |
-| `{spike_testing}` | Specify the spike testing | "[specify value]" |
-| `{endurance_testing}` | Specify the endurance testing | "[specify value]" |
-| `{scalability_testing}` | Specify the scalability testing | "[specify value]" |
-| `{capacity_testing}` | Specify the capacity testing | "[specify value]" |
-| `{resource_utilization}` | Specify the resource utilization | "[specify value]" |
-| `{response_time_targets}` | Specify the response time targets | "[specify value]" |
-| `{security_framework}` | Specify the security framework | "[specify value]" |
-| `{vulnerability_assessment}` | Specify the vulnerability assessment | "[specify value]" |
-| `{penetration_testing}` | Specify the penetration testing | "[specify value]" |
-| `{authentication_testing}` | Specify the authentication testing | "[specify value]" |
-| `{authorization_testing}` | Specify the authorization testing | "[specify value]" |
-| `{session_management_testing}` | Specify the session management testing | "[specify value]" |
-| `{input_validation_testing}` | Specify the input validation testing | "[specify value]" |
-| `{sql_injection_testing}` | Specify the sql injection testing | "[specify value]" |
-| `{xss_testing}` | Specify the xss testing | "[specify value]" |
-| `{csrf_testing}` | Specify the csrf testing | "[specify value]" |
-| `{automation_strategy}` | Specify the automation strategy | "[specify value]" |
-| `{automation_tools}` | Specify the automation tools | "[specify value]" |
-| `{automation_framework}` | Specify the automation framework | "[specify value]" |
-| `{cicd_integration}` | Specify the cicd integration | "[specify value]" |
-| `{automated_test_suite}` | Specify the automated test suite | "[specify value]" |
-| `{test_execution}` | Specify the test execution | "[specify value]" |
-| `{result_analysis}` | Specify the result analysis | "[specify value]" |
-| `{maintenance_strategy}` | Specify the maintenance strategy | "[specify value]" |
-| `{automation_roi}` | Specify the automation roi | "[specify value]" |
-| `{automation_skills}` | Specify the automation skills | "[specify value]" |
-| `{api_testing_tools}` | Specify the api testing tools | "[specify value]" |
-| `{request_testing}` | Specify the request testing | "[specify value]" |
-| `{response_validation}` | Specify the response validation | "[specify value]" |
-| `{status_code_testing}` | Specify the status code testing | "In Progress" |
-| `{header_testing}` | Specify the header testing | "[specify value]" |
-| `{payload_testing}` | Specify the payload testing | "[specify value]" |
-| `{api_authentication_testing}` | Specify the api authentication testing | "[specify value]" |
-| `{rate_limiting_testing}` | Specify the rate limiting testing | "[specify value]" |
-| `{error_handling_testing}` | Specify the error handling testing | "[specify value]" |
-| `{contract_testing}` | Specify the contract testing | "[specify value]" |
-| `{database_testing_strategy}` | Specify the database testing strategy | "[specify value]" |
-| `{data_integrity_testing}` | Specify the data integrity testing | "[specify value]" |
-| `{transaction_testing}` | Specify the transaction testing | "[specify value]" |
-| `{concurrency_testing}` | Specify the concurrency testing | "[specify value]" |
-| `{backup_recovery_testing}` | Specify the backup recovery testing | "[specify value]" |
-| `{migration_testing}` | Specify the migration testing | "[specify value]" |
-| `{db_performance_testing}` | Specify the db performance testing | "[specify value]" |
-| `{db_security_testing}` | Specify the db security testing | "[specify value]" |
-| `{referential_integrity}` | Specify the referential integrity | "[specify value]" |
-| `{constraint_testing}` | Specify the constraint testing | "[specify value]" |
-| `{mobile_testing_strategy}` | Specify the mobile testing strategy | "[specify value]" |
-| `{device_coverage}` | Specify the device coverage | "[specify value]" |
-| `{os_testing}` | Specify the os testing | "[specify value]" |
-| `{app_store_testing}` | Specify the app store testing | "[specify value]" |
-| `{offline_testing}` | Specify the offline testing | "[specify value]" |
-| `{battery_testing}` | Specify the battery testing | "[specify value]" |
-| `{memory_testing}` | Specify the memory testing | "[specify value]" |
-| `{mobile_network_testing}` | Specify the mobile network testing | "[specify value]" |
-| `{mobile_usability_testing}` | Specify the mobile usability testing | "[specify value]" |
-| `{push_notification_testing}` | Specify the push notification testing | "[specify value]" |
-| `{accessibility_standards}` | Specify the accessibility standards | "[specify value]" |
-| `{screen_reader_testing}` | Specify the screen reader testing | "[specify value]" |
-| `{keyboard_navigation_testing}` | Specify the keyboard navigation testing | "[specify value]" |
-| `{color_contrast_testing}` | Specify the color contrast testing | "[specify value]" |
-| `{alt_text_testing}` | Specify the alt text testing | "[specify value]" |
-| `{focus_management_testing}` | Specify the focus management testing | "[specify value]" |
-| `{aria_testing}` | Specify the aria testing | "[specify value]" |
-| `{responsive_design_testing}` | Specify the responsive design testing | "[specify value]" |
-| `{media_testing}` | Specify the media testing | "[specify value]" |
-| `{form_accessibility_testing}` | Specify the form accessibility testing | "[specify value]" |
-| `{test_data_strategy}` | Specify the test data strategy | "[specify value]" |
-| `{data_generation}` | Specify the data generation | "[specify value]" |
-| `{data_masking}` | Specify the data masking | "[specify value]" |
-| `{data_privacy}` | Specify the data privacy | "[specify value]" |
-| `{synthetic_data}` | Specify the synthetic data | "[specify value]" |
-| `{data_refresh}` | Specify the data refresh | "[specify value]" |
-| `{data_versioning}` | Specify the data versioning | "[specify value]" |
-| `{data_cleanup}` | Specify the data cleanup | "[specify value]" |
-| `{data_backup}` | Specify the data backup | "[specify value]" |
-| `{data_compliance}` | Specify the data compliance | "[specify value]" |
-| `{environment_strategy}` | Specify the environment strategy | "[specify value]" |
-| `{environment_types}` | Specify the environment types | "Standard" |
-| `{environment_setup}` | Specify the environment setup | "[specify value]" |
-| `{config_management}` | Specify the config management | "[specify value]" |
-| `{deployment_pipeline}` | Specify the deployment pipeline | "[specify value]" |
-| `{environment_monitoring}` | Specify the environment monitoring | "[specify value]" |
-| `{resource_management}` | Specify the resource management | "[specify value]" |
-| `{access_control}` | Specify the access control | "[specify value]" |
-| `{environment_refresh}` | Specify the environment refresh | "[specify value]" |
-| `{environment_troubleshooting}` | Specify the environment troubleshooting | "[specify value]" |
-| `{defect_lifecycle}` | Specify the defect lifecycle | "[specify value]" |
-| `{bug_tracking_tool}` | Specify the bug tracking tool | "[specify value]" |
-| `{severity_classification}` | Specify the severity classification | "[specify value]" |
-| `{priority_classification}` | Specify the priority classification | "High" |
-| `{escalation_process}` | Specify the escalation process | "[specify value]" |
-| `{root_cause_analysis}` | Specify the root cause analysis | "[specify value]" |
-| `{regression_testing}` | Specify the regression testing | "[specify value]" |
-| `{defect_metrics}` | Specify the defect metrics | "[specify value]" |
-| `{quality_gates}` | Specify the quality gates | "[specify value]" |
-| `{release_criteria}` | Specify the release criteria | "[specify value]" |
-| `{reporting_framework}` | Specify the reporting framework | "[specify value]" |
-| `{test_metrics}` | Specify the test metrics | "[specify value]" |
-| `{coverage_reports}` | Specify the coverage reports | "[specify value]" |
-| `{performance_reports}` | Specify the performance reports | "[specify value]" |
-| `{defect_reports}` | Specify the defect reports | "[specify value]" |
-| `{dashboard_design}` | Specify the dashboard design | "[specify value]" |
-| `{stakeholder_reports}` | Specify the stakeholder reports | "[specify value]" |
-| `{executive_summary}` | Specify the executive summary | "[specify value]" |
-| `{trend_analysis}` | Specify the trend analysis | "[specify value]" |
-| `{risk_assessment_reporting}` | Specify the risk assessment reporting | "[specify value]" |
-| `{qa_methodology}` | Specify the qa methodology | "[specify value]" |
-| `{review_process}` | Specify the review process | "[specify value]" |
-| `{code_review_process}` | Specify the code review process | "[specify value]" |
-| `{test_review_process}` | Specify the test review process | "[specify value]" |
-| `{documentation_review}` | Specify the documentation review | "[specify value]" |
-| `{process_improvement}` | Specify the process improvement | "[specify value]" |
-| `{best_practices}` | Specify the best practices | "[specify value]" |
-| `{training_requirements}` | Specify the training requirements | "[specify value]" |
-| `{certification_requirements}` | Specify the certification requirements | "[specify value]" |
-| `{knowledge_management}` | Specify the knowledge management | "[specify value]" |
-| `{risk_identification}` | Specify the risk identification | "[specify value]" |
-| `{risk_assessment_process}` | Specify the risk assessment process | "[specify value]" |
-| `{risk_mitigation}` | Specify the risk mitigation | "[specify value]" |
-| `{test_prioritization}` | Specify the test prioritization | "[specify value]" |
-| `{critical_path_testing}` | Specify the critical path testing | "[specify value]" |
-| `{business_impact}` | Specify the business impact | "[specify value]" |
-| `{technical_risk}` | Specify the technical risk | "[specify value]" |
-| `{schedule_risk}` | Specify the schedule risk | "[specify value]" |
-| `{resource_risk}` | Specify the resource risk | "[specify value]" |
-| `{quality_risk}` | Specify the quality risk | "[specify value]" |
-| `{continuous_integration}` | Specify the continuous integration | "[specify value]" |
-| `{pipeline_testing}` | Specify the pipeline testing | "[specify value]" |
-| `{shift_left_testing}` | Specify the shift left testing | "[specify value]" |
-| `{continuous_automation}` | Specify the continuous automation | "[specify value]" |
-| `{feedback_loops}` | Specify the feedback loops | "[specify value]" |
-| `{continuous_quality_gates}` | Specify the continuous quality gates | "[specify value]" |
-| `{monitoring_integration}` | Specify the monitoring integration | "[specify value]" |
-| `{devops_collaboration}` | Specify the devops collaboration | "[specify value]" |
-| `{tool_integration}` | Specify the tool integration | "[specify value]" |
-| `{continuous_metrics}` | Specify the continuous metrics | "[specify value]" |
+| `[APPLICATION_TYPE]` | Specify the application type | "Standard" |
+| `[TESTING_APPROACH]` | Specify the testing approach | "[specify value]" |
+| `[TESTING_PHILOSOPHY]` | Specify the testing philosophy | "[specify value]" |
+| `[QUALITY_STANDARDS]` | Specify the quality standards | "[specify value]" |
+| `[TESTING_BUDGET]` | Specify the testing budget | "$500,000" |
+| `[TESTING_TIMELINE]` | Specify the testing timeline | "6 months" |
+| `[TEAM_STRUCTURE]` | Specify the team structure | "[specify value]" |
+| `[RISK_ASSESSMENT]` | Specify the risk assessment | "[specify value]" |
+| `[SUCCESS_CRITERIA]` | Specify the success criteria | "[specify value]" |
+| `[REPORTING_REQUIREMENTS]` | Specify the reporting requirements | "[specify value]" |
+| `[TEST_SCOPE]` | Specify the test scope | "[specify value]" |
+| `[TEST_OBJECTIVES]` | Specify the test objectives | "Increase efficiency by 30%" |
+| `[TESTING_TYPES]` | Specify the testing types | "Standard" |
+| `[TEST_ENVIRONMENT]` | Specify the test environment | "[specify value]" |
+| `[TEST_DATA_REQUIREMENTS]` | Specify the test data requirements | "[specify value]" |
+| `[ENTRY_CRITERIA]` | Specify the entry criteria | "[specify value]" |
+| `[EXIT_CRITERIA]` | Specify the exit criteria | "[specify value]" |
+| `[SUSPENSION_CRITERIA]` | Specify the suspension criteria | "[specify value]" |
+| `[RESUMPTION_CRITERIA]` | Specify the resumption criteria | "[specify value]" |
+| `[TEST_DELIVERABLES]` | Specify the test deliverables | "[specify value]" |
+| `[UNIT_TESTING_FRAMEWORK]` | Specify the unit testing framework | "[specify value]" |
+| `[UNIT_COVERAGE_TARGET]` | Specify the unit coverage target | "[specify value]" |
+| `[MOCKING_STRATEGY]` | Specify the mocking strategy | "[specify value]" |
+| `[UNIT_TEST_DATA]` | Specify the unit test data | "[specify value]" |
+| `[ASSERTION_LIBRARY]` | Specify the assertion library | "[specify value]" |
+| `[TEST_ORGANIZATION]` | Specify the test organization | "[specify value]" |
+| `[TEST_NAMING_CONVENTIONS]` | Specify the test naming conventions | "[specify value]" |
+| `[UNIT_TEST_DOCUMENTATION]` | Specify the unit test documentation | "[specify value]" |
+| `[UNIT_CI_INTEGRATION]` | Specify the unit ci integration | "[specify value]" |
+| `[COVERAGE_TOOLS]` | Specify the coverage tools | "[specify value]" |
+| `[INTEGRATION_STRATEGY]` | Specify the integration strategy | "[specify value]" |
+| `[INTEGRATION_POINTS]` | Specify the integration points | "[specify value]" |
+| `[API_TESTING]` | Specify the api testing | "[specify value]" |
+| `[DATABASE_TESTING]` | Specify the database testing | "[specify value]" |
+| `[EXTERNAL_SERVICE_TESTING]` | Specify the external service testing | "[specify value]" |
+| `[MESSAGE_QUEUE_TESTING]` | Specify the message queue testing | "[specify value]" |
+| `[FILE_SYSTEM_TESTING]` | Specify the file system testing | "[specify value]" |
+| `[NETWORK_TESTING]` | Specify the network testing | "[specify value]" |
+| `[CONFIGURATION_TESTING]` | Specify the configuration testing | "[specify value]" |
+| `[INTEGRATION_ENVIRONMENT]` | Specify the integration environment | "[specify value]" |
+| `[E2E_FRAMEWORK]` | Specify the e2e framework | "[specify value]" |
+| `[BROWSER_SUPPORT]` | Specify the browser support | "[specify value]" |
+| `[DEVICE_TESTING]` | Specify the device testing | "[specify value]" |
+| `[USER_JOURNEY_TESTING]` | Specify the user journey testing | "[specify value]" |
+| `[CROSS_PLATFORM_TESTING]` | Specify the cross platform testing | "[specify value]" |
+| `[ACCESSIBILITY_TESTING]` | Specify the accessibility testing | "[specify value]" |
+| `[VISUAL_REGRESSION_TESTING]` | Specify the visual regression testing | "[specify value]" |
+| `[MOBILE_TESTING]` | Specify the mobile testing | "[specify value]" |
+| `[E2E_PERFORMANCE_MONITORING]` | Specify the e2e performance monitoring | "[specify value]" |
+| `[E2E_TEST_DATA]` | Specify the e2e test data | "[specify value]" |
+| `[PERFORMANCE_REQUIREMENTS]` | Specify the performance requirements | "[specify value]" |
+| `[LOAD_TESTING]` | Specify the load testing | "[specify value]" |
+| `[STRESS_TESTING]` | Specify the stress testing | "[specify value]" |
+| `[VOLUME_TESTING]` | Specify the volume testing | "[specify value]" |
+| `[SPIKE_TESTING]` | Specify the spike testing | "[specify value]" |
+| `[ENDURANCE_TESTING]` | Specify the endurance testing | "[specify value]" |
+| `[SCALABILITY_TESTING]` | Specify the scalability testing | "[specify value]" |
+| `[CAPACITY_TESTING]` | Specify the capacity testing | "[specify value]" |
+| `[RESOURCE_UTILIZATION]` | Specify the resource utilization | "[specify value]" |
+| `[RESPONSE_TIME_TARGETS]` | Specify the response time targets | "[specify value]" |
+| `[SECURITY_FRAMEWORK]` | Specify the security framework | "[specify value]" |
+| `[VULNERABILITY_ASSESSMENT]` | Specify the vulnerability assessment | "[specify value]" |
+| `[PENETRATION_TESTING]` | Specify the penetration testing | "[specify value]" |
+| `[AUTHENTICATION_TESTING]` | Specify the authentication testing | "[specify value]" |
+| `[AUTHORIZATION_TESTING]` | Specify the authorization testing | "[specify value]" |
+| `[SESSION_MANAGEMENT_TESTING]` | Specify the session management testing | "[specify value]" |
+| `[INPUT_VALIDATION_TESTING]` | Specify the input validation testing | "[specify value]" |
+| `[SQL_INJECTION_TESTING]` | Specify the sql injection testing | "[specify value]" |
+| `[XSS_TESTING]` | Specify the xss testing | "[specify value]" |
+| `[CSRF_TESTING]` | Specify the csrf testing | "[specify value]" |
+| `[AUTOMATION_STRATEGY]` | Specify the automation strategy | "[specify value]" |
+| `[AUTOMATION_TOOLS]` | Specify the automation tools | "[specify value]" |
+| `[AUTOMATION_FRAMEWORK]` | Specify the automation framework | "[specify value]" |
+| `[CICD_INTEGRATION]` | Specify the cicd integration | "[specify value]" |
+| `[AUTOMATED_TEST_SUITE]` | Specify the automated test suite | "[specify value]" |
+| `[TEST_EXECUTION]` | Specify the test execution | "[specify value]" |
+| `[RESULT_ANALYSIS]` | Specify the result analysis | "[specify value]" |
+| `[MAINTENANCE_STRATEGY]` | Specify the maintenance strategy | "[specify value]" |
+| `[AUTOMATION_ROI]` | Specify the automation roi | "[specify value]" |
+| `[AUTOMATION_SKILLS]` | Specify the automation skills | "[specify value]" |
+| `[API_TESTING_TOOLS]` | Specify the api testing tools | "[specify value]" |
+| `[REQUEST_TESTING]` | Specify the request testing | "[specify value]" |
+| `[RESPONSE_VALIDATION]` | Specify the response validation | "[specify value]" |
+| `[STATUS_CODE_TESTING]` | Specify the status code testing | "In Progress" |
+| `[HEADER_TESTING]` | Specify the header testing | "[specify value]" |
+| `[PAYLOAD_TESTING]` | Specify the payload testing | "[specify value]" |
+| `[API_AUTHENTICATION_TESTING]` | Specify the api authentication testing | "[specify value]" |
+| `[RATE_LIMITING_TESTING]` | Specify the rate limiting testing | "[specify value]" |
+| `[ERROR_HANDLING_TESTING]` | Specify the error handling testing | "[specify value]" |
+| `[CONTRACT_TESTING]` | Specify the contract testing | "[specify value]" |
+| `[DATABASE_TESTING_STRATEGY]` | Specify the database testing strategy | "[specify value]" |
+| `[DATA_INTEGRITY_TESTING]` | Specify the data integrity testing | "[specify value]" |
+| `[TRANSACTION_TESTING]` | Specify the transaction testing | "[specify value]" |
+| `[CONCURRENCY_TESTING]` | Specify the concurrency testing | "[specify value]" |
+| `[BACKUP_RECOVERY_TESTING]` | Specify the backup recovery testing | "[specify value]" |
+| `[MIGRATION_TESTING]` | Specify the migration testing | "[specify value]" |
+| `[DB_PERFORMANCE_TESTING]` | Specify the db performance testing | "[specify value]" |
+| `[DB_SECURITY_TESTING]` | Specify the db security testing | "[specify value]" |
+| `[REFERENTIAL_INTEGRITY]` | Specify the referential integrity | "[specify value]" |
+| `[CONSTRAINT_TESTING]` | Specify the constraint testing | "[specify value]" |
+| `[MOBILE_TESTING_STRATEGY]` | Specify the mobile testing strategy | "[specify value]" |
+| `[DEVICE_COVERAGE]` | Specify the device coverage | "[specify value]" |
+| `[OS_TESTING]` | Specify the os testing | "[specify value]" |
+| `[APP_STORE_TESTING]` | Specify the app store testing | "[specify value]" |
+| `[OFFLINE_TESTING]` | Specify the offline testing | "[specify value]" |
+| `[BATTERY_TESTING]` | Specify the battery testing | "[specify value]" |
+| `[MEMORY_TESTING]` | Specify the memory testing | "[specify value]" |
+| `[MOBILE_NETWORK_TESTING]` | Specify the mobile network testing | "[specify value]" |
+| `[MOBILE_USABILITY_TESTING]` | Specify the mobile usability testing | "[specify value]" |
+| `[PUSH_NOTIFICATION_TESTING]` | Specify the push notification testing | "[specify value]" |
+| `[ACCESSIBILITY_STANDARDS]` | Specify the accessibility standards | "[specify value]" |
+| `[SCREEN_READER_TESTING]` | Specify the screen reader testing | "[specify value]" |
+| `[KEYBOARD_NAVIGATION_TESTING]` | Specify the keyboard navigation testing | "[specify value]" |
+| `[COLOR_CONTRAST_TESTING]` | Specify the color contrast testing | "[specify value]" |
+| `[ALT_TEXT_TESTING]` | Specify the alt text testing | "[specify value]" |
+| `[FOCUS_MANAGEMENT_TESTING]` | Specify the focus management testing | "[specify value]" |
+| `[ARIA_TESTING]` | Specify the aria testing | "[specify value]" |
+| `[RESPONSIVE_DESIGN_TESTING]` | Specify the responsive design testing | "[specify value]" |
+| `[MEDIA_TESTING]` | Specify the media testing | "[specify value]" |
+| `[FORM_ACCESSIBILITY_TESTING]` | Specify the form accessibility testing | "[specify value]" |
+| `[TEST_DATA_STRATEGY]` | Specify the test data strategy | "[specify value]" |
+| `[DATA_GENERATION]` | Specify the data generation | "[specify value]" |
+| `[DATA_MASKING]` | Specify the data masking | "[specify value]" |
+| `[DATA_PRIVACY]` | Specify the data privacy | "[specify value]" |
+| `[SYNTHETIC_DATA]` | Specify the synthetic data | "[specify value]" |
+| `[DATA_REFRESH]` | Specify the data refresh | "[specify value]" |
+| `[DATA_VERSIONING]` | Specify the data versioning | "[specify value]" |
+| `[DATA_CLEANUP]` | Specify the data cleanup | "[specify value]" |
+| `[DATA_BACKUP]` | Specify the data backup | "[specify value]" |
+| `[DATA_COMPLIANCE]` | Specify the data compliance | "[specify value]" |
+| `[ENVIRONMENT_STRATEGY]` | Specify the environment strategy | "[specify value]" |
+| `[ENVIRONMENT_TYPES]` | Specify the environment types | "Standard" |
+| `[ENVIRONMENT_SETUP]` | Specify the environment setup | "[specify value]" |
+| `[CONFIG_MANAGEMENT]` | Specify the config management | "[specify value]" |
+| `[DEPLOYMENT_PIPELINE]` | Specify the deployment pipeline | "[specify value]" |
+| `[ENVIRONMENT_MONITORING]` | Specify the environment monitoring | "[specify value]" |
+| `[RESOURCE_MANAGEMENT]` | Specify the resource management | "[specify value]" |
+| `[ACCESS_CONTROL]` | Specify the access control | "[specify value]" |
+| `[ENVIRONMENT_REFRESH]` | Specify the environment refresh | "[specify value]" |
+| `[ENVIRONMENT_TROUBLESHOOTING]` | Specify the environment troubleshooting | "[specify value]" |
+| `[DEFECT_LIFECYCLE]` | Specify the defect lifecycle | "[specify value]" |
+| `[BUG_TRACKING_TOOL]` | Specify the bug tracking tool | "[specify value]" |
+| `[SEVERITY_CLASSIFICATION]` | Specify the severity classification | "[specify value]" |
+| `[PRIORITY_CLASSIFICATION]` | Specify the priority classification | "High" |
+| `[ESCALATION_PROCESS]` | Specify the escalation process | "[specify value]" |
+| `[ROOT_CAUSE_ANALYSIS]` | Specify the root cause analysis | "[specify value]" |
+| `[REGRESSION_TESTING]` | Specify the regression testing | "[specify value]" |
+| `[DEFECT_METRICS]` | Specify the defect metrics | "[specify value]" |
+| `[QUALITY_GATES]` | Specify the quality gates | "[specify value]" |
+| `[RELEASE_CRITERIA]` | Specify the release criteria | "[specify value]" |
+| `[REPORTING_FRAMEWORK]` | Specify the reporting framework | "[specify value]" |
+| `[TEST_METRICS]` | Specify the test metrics | "[specify value]" |
+| `[COVERAGE_REPORTS]` | Specify the coverage reports | "[specify value]" |
+| `[PERFORMANCE_REPORTS]` | Specify the performance reports | "[specify value]" |
+| `[DEFECT_REPORTS]` | Specify the defect reports | "[specify value]" |
+| `[DASHBOARD_DESIGN]` | Specify the dashboard design | "[specify value]" |
+| `[STAKEHOLDER_REPORTS]` | Specify the stakeholder reports | "[specify value]" |
+| `[EXECUTIVE_SUMMARY]` | Specify the executive summary | "[specify value]" |
+| `[TREND_ANALYSIS]` | Specify the trend analysis | "[specify value]" |
+| `[RISK_ASSESSMENT_REPORTING]` | Specify the risk assessment reporting | "[specify value]" |
+| `[QA_METHODOLOGY]` | Specify the qa methodology | "[specify value]" |
+| `[REVIEW_PROCESS]` | Specify the review process | "[specify value]" |
+| `[CODE_REVIEW_PROCESS]` | Specify the code review process | "[specify value]" |
+| `[TEST_REVIEW_PROCESS]` | Specify the test review process | "[specify value]" |
+| `[DOCUMENTATION_REVIEW]` | Specify the documentation review | "[specify value]" |
+| `[PROCESS_IMPROVEMENT]` | Specify the process improvement | "[specify value]" |
+| `[BEST_PRACTICES]` | Specify the best practices | "[specify value]" |
+| `[TRAINING_REQUIREMENTS]` | Specify the training requirements | "[specify value]" |
+| `[CERTIFICATION_REQUIREMENTS]` | Specify the certification requirements | "[specify value]" |
+| `[KNOWLEDGE_MANAGEMENT]` | Specify the knowledge management | "[specify value]" |
+| `[RISK_IDENTIFICATION]` | Specify the risk identification | "[specify value]" |
+| `[RISK_ASSESSMENT_PROCESS]` | Specify the risk assessment process | "[specify value]" |
+| `[RISK_MITIGATION]` | Specify the risk mitigation | "[specify value]" |
+| `[TEST_PRIORITIZATION]` | Specify the test prioritization | "[specify value]" |
+| `[CRITICAL_PATH_TESTING]` | Specify the critical path testing | "[specify value]" |
+| `[BUSINESS_IMPACT]` | Specify the business impact | "[specify value]" |
+| `[TECHNICAL_RISK]` | Specify the technical risk | "[specify value]" |
+| `[SCHEDULE_RISK]` | Specify the schedule risk | "[specify value]" |
+| `[RESOURCE_RISK]` | Specify the resource risk | "[specify value]" |
+| `[QUALITY_RISK]` | Specify the quality risk | "[specify value]" |
+| `[CONTINUOUS_INTEGRATION]` | Specify the continuous integration | "[specify value]" |
+| `[PIPELINE_TESTING]` | Specify the pipeline testing | "[specify value]" |
+| `[SHIFT_LEFT_TESTING]` | Specify the shift left testing | "[specify value]" |
+| `[CONTINUOUS_AUTOMATION]` | Specify the continuous automation | "[specify value]" |
+| `[FEEDBACK_LOOPS]` | Specify the feedback loops | "[specify value]" |
+| `[CONTINUOUS_QUALITY_GATES]` | Specify the continuous quality gates | "[specify value]" |
+| `[MONITORING_INTEGRATION]` | Specify the monitoring integration | "[specify value]" |
+| `[DEVOPS_COLLABORATION]` | Specify the devops collaboration | "[specify value]" |
+| `[TOOL_INTEGRATION]` | Specify the tool integration | "[specify value]" |
+| `[CONTINUOUS_METRICS]` | Specify the continuous metrics | "[specify value]" |
 
 
 

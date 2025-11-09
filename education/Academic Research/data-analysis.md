@@ -3,7 +3,7 @@ title: Data Analysis Methods Generator
 category: education/Academic Research
 tags: [data-science, design, education, research]
 use_cases:
-  - Implementing create comprehensive data analysis plans covering statistical analysis, qualitat...
+  - Creating comprehensive data analysis plans covering statistical analysis, qualitative analysis, and mixed methods approaches for academic research projects.
   - Project planning and execution
   - Strategy development
 related_templates:

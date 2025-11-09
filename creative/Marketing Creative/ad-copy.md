@@ -3,9 +3,9 @@ title: Ad Copy Template
 category: creative/Marketing Creative
 tags: [automation, communication, creative, data-science, documentation, marketing, research, template]
 use_cases:
-  - Implementing create compelling advertising copy for digital, print, and broadcast media that ...
-  - Project planning and execution
-  - Strategy development
+  - Write A/B test variations for Facebook/Google ads (15-30 min for 3-5 versions)
+  - Create platform-specific ad copy for multi-channel campaign launch
+  - Develop compelling headlines and CTAs that improve click-through rates
 related_templates:
   - creative-writing-framework.md
   - video-production-pipeline.md
@@ -407,16 +407,11 @@ OUTPUT: Deliver comprehensive ad copy with:
 
 ## Best Practices
 
-1. **Start with clear objectives** - Define what success looks like before beginning
-2. **Use data to inform decisions** - Base choices on evidence and measurable outcomes
-3. **Iterate and improve continuously** - Treat implementation as an ongoing process
-4. **Engage stakeholders early** - Include key participants in planning and execution
-5. **Document thoroughly** - Maintain clear records for reference and knowledge transfer
-6. **Communicate regularly** - Keep all parties informed of progress and changes
-7. **Address challenges proactively** - Identify potential issues before they become problems
-8. **Celebrate milestones** - Recognize achievements to maintain motivation
-9. **Learn from experience** - Reflect on what works and adjust accordingly
-10. **Stay flexible** - Be ready to adapt based on feedback and changing circumstances
+1. **Lead with the outcome, not the process** - "Lost 20 lbs" beats "Science-backed weight loss program"
+2. **Test multiple angles for same offer** - Problem-focused vs. benefit-focused vs. fear-based can all work for different audiences
+3. **Front-load the value in headlines** - Users decide in 2 seconds; buried benefits = lost clicks
+4. **Quantify whenever possible** - "Save time" is vague; "Cut meeting prep from 2 hours to 15 minutes" sells
+5. **Match sophistication to audience awareness** - Aware audiences need proof, unaware need education first
 
 ## Tips for Success
 

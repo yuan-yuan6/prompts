@@ -3,7 +3,8 @@ title: Talent Acquisition & Recruitment Strategy Framework
 category: professional-services/human-resources
 tags: [automation, data-science, development, framework, marketing, optimization, professional-services, research]
 use_cases:
-  - Implementing comprehensive framework for developing and executing talent acquisition strategi...
+  - Creating comprehensive framework for developing and executing talent acquisition strategies including workforce planning, employer branding, sourcing strategies, candidate experience optimization, and recruitment analytics for building high-performing teams.
+
   - Project planning and execution
   - Strategy development
 last_updated: 2025-11-09

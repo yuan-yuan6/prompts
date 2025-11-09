@@ -3,7 +3,7 @@ title: Contract Drafting Template
 category: professional-services/legal-compliance/Contract Management
 tags: [design, professional-services, template]
 use_cases:
-  - Implementing create comprehensive legal contracts, agreements, terms of service, and binding ...
+  - Creating comprehensive legal contracts, agreements, terms of service, and binding documents with proper structure, protective clauses, and enforceable provisions that protect interests while maintaining clarity and legal validity.
   - Project planning and execution
   - Strategy development
 related_templates:

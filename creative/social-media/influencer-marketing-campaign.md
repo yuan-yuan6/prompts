@@ -3,7 +3,8 @@ title: Influencer Marketing Campaign & Creator Economy Framework
 category: creative/social-media
 tags: [creative, design, development, framework, marketing, optimization, strategy]
 use_cases:
-  - Implementing comprehensive framework for designing and executing influencer marketing campaig...
+  - Creating comprehensive framework for designing and executing influencer marketing campaigns including creator identification, campaign strategy, content collaboration, performance tracking, roi measurement, and long-term partnership development in the creator economy.
+
   - Project planning and execution
   - Strategy development
 related_templates:

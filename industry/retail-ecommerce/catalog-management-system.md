@@ -3,7 +3,8 @@ title: Catalog Management & Product Information Framework
 category: industry/retail-ecommerce
 tags: [design, framework, industry, machine-learning, management, marketing, optimization, security]
 use_cases:
-  - Implementing comprehensive framework for managing product catalogs including product informat...
+  - Creating comprehensive framework for managing product catalogs including product information management (pim), content creation, categorization, seo optimization, and multi-channel distribution for retail and e-commerce operations.
+
   - Project planning and execution
   - Strategy development
 last_updated: 2025-11-09

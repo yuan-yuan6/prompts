@@ -3,7 +3,8 @@ title: Code Generation Template
 category: technology/Software Development
 tags: [design, documentation, optimization, security, technology, template, testing]
 use_cases:
-  - Implementing generate high-quality code including functions, classes, algorithms, and complet...
+  - Creating generate high-quality code including functions, classes, algorithms, and complete applications with comprehensive documentation and best practices.
+
   - Project planning and execution
   - Strategy development
 related_templates:
@@ -21,244 +22,244 @@ Generate high-quality code including functions, classes, algorithms, and complet
 ## Template Structure
 
 ### Project Context
-- **Programming Language**: {programming_language}
-- **Framework/Library**: {framework}
-- **Version**: {version}
-- **Target Platform**: {target_platform}
-- **Architecture Pattern**: {architecture_pattern}
-- **Code Style Guide**: {style_guide}
-- **Testing Framework**: {testing_framework}
-- **Documentation Standard**: {documentation_standard}
+- **Programming Language**: [PROGRAMMING_LANGUAGE]
+- **Framework/Library**: [FRAMEWORK]
+- **Version**: [VERSION]
+- **Target Platform**: [TARGET_PLATFORM]
+- **Architecture Pattern**: [ARCHITECTURE_PATTERN]
+- **Code Style Guide**: [STYLE_GUIDE]
+- **Testing Framework**: [TESTING_FRAMEWORK]
+- **Documentation Standard**: [DOCUMENTATION_STANDARD]
 
 ### Requirements Specification
-- **Primary Functionality**: {primary_functionality}
-- **Business Logic**: {business_logic}
-- **Performance Requirements**: {performance_requirements}
-- **Security Requirements**: {security_requirements}
-- **Scalability Requirements**: {scalability_requirements}
-- **Integration Requirements**: {integration_requirements}
-- **Compliance Requirements**: {compliance_requirements}
-- **Accessibility Requirements**: {accessibility_requirements}
+- **Primary Functionality**: [PRIMARY_FUNCTIONALITY]
+- **Business Logic**: [BUSINESS_LOGIC]
+- **Performance Requirements**: [PERFORMANCE_REQUIREMENTS]
+- **Security Requirements**: [SECURITY_REQUIREMENTS]
+- **Scalability Requirements**: [SCALABILITY_REQUIREMENTS]
+- **Integration Requirements**: [INTEGRATION_REQUIREMENTS]
+- **Compliance Requirements**: [COMPLIANCE_REQUIREMENTS]
+- **Accessibility Requirements**: [ACCESSIBILITY_REQUIREMENTS]
 
 ### Function/Method Generation
-- **Function Name**: {function_name}
-- **Purpose**: {function_purpose}
-- **Input Parameters**: {input_parameters}
-- **Parameter Types**: {parameter_types}
-- **Parameter Validation**: {parameter_validation}
-- **Return Type**: {return_type}
-- **Return Value**: {return_value}
-- **Exception Handling**: {exception_handling}
-- **Error Messages**: {error_messages}
-- **Logging Level**: {logging_level}
-- **Performance Considerations**: {performance_considerations}
+- **Function Name**: [FUNCTION_NAME]
+- **Purpose**: [FUNCTION_PURPOSE]
+- **Input Parameters**: [INPUT_PARAMETERS]
+- **Parameter Types**: [PARAMETER_TYPES]
+- **Parameter Validation**: [PARAMETER_VALIDATION]
+- **Return Type**: [RETURN_TYPE]
+- **Return Value**: [RETURN_VALUE]
+- **Exception Handling**: [EXCEPTION_HANDLING]
+- **Error Messages**: [ERROR_MESSAGES]
+- **Logging Level**: [LOGGING_LEVEL]
+- **Performance Considerations**: [PERFORMANCE_CONSIDERATIONS]
 
 ### Class/Object Generation
-- **Class Name**: {class_name}
-- **Class Purpose**: {class_purpose}
-- **Inheritance**: {inheritance}
-- **Interfaces/Protocols**: {interfaces}
-- **Properties**: {properties}
-- **Property Types**: {property_types}
-- **Constructor Parameters**: {constructor_parameters}
-- **Methods**: {methods}
-- **Static Methods**: {static_methods}
-- **Private Methods**: {private_methods}
-- **Abstract Methods**: {abstract_methods}
-- **Method Visibility**: {method_visibility}
+- **Class Name**: [CLASS_NAME]
+- **Class Purpose**: [CLASS_PURPOSE]
+- **Inheritance**: [INHERITANCE]
+- **Interfaces/Protocols**: [INTERFACES]
+- **Properties**: [PROPERTIES]
+- **Property Types**: [PROPERTY_TYPES]
+- **Constructor Parameters**: [CONSTRUCTOR_PARAMETERS]
+- **Methods**: [METHODS]
+- **Static Methods**: [STATIC_METHODS]
+- **Private Methods**: [PRIVATE_METHODS]
+- **Abstract Methods**: [ABSTRACT_METHODS]
+- **Method Visibility**: [METHOD_VISIBILITY]
 
 ### Algorithm Implementation
-- **Algorithm Type**: {algorithm_type}
-- **Complexity Requirements**: {complexity_requirements}
-- **Time Complexity**: {time_complexity}
-- **Space Complexity**: {space_complexity}
-- **Input Size**: {input_size}
-- **Data Structures**: {data_structures}
-- **Optimization Strategy**: {optimization_strategy}
-- **Edge Cases**: {edge_cases}
-- **Mathematical Formulas**: {mathematical_formulas}
-- **Pseudocode**: {pseudocode}
+- **Algorithm Type**: [ALGORITHM_TYPE]
+- **Complexity Requirements**: [COMPLEXITY_REQUIREMENTS]
+- **Time Complexity**: [TIME_COMPLEXITY]
+- **Space Complexity**: [SPACE_COMPLEXITY]
+- **Input Size**: [INPUT_SIZE]
+- **Data Structures**: [DATA_STRUCTURES]
+- **Optimization Strategy**: [OPTIMIZATION_STRATEGY]
+- **Edge Cases**: [EDGE_CASES]
+- **Mathematical Formulas**: [MATHEMATICAL_FORMULAS]
+- **Pseudocode**: [PSEUDOCODE]
 
 ### Code Quality Standards
-- **Naming Conventions**: {naming_conventions}
-- **Code Formatting**: {code_formatting}
-- **Comment Style**: {comment_style}
-- **Documentation Strings**: {documentation_strings}
-- **Type Hints**: {type_hints}
-- **Code Coverage**: {code_coverage}
-- **Static Analysis**: {static_analysis}
-- **Linting Rules**: {linting_rules}
-- **Code Metrics**: {code_metrics}
-- **Technical Debt**: {technical_debt}
+- **Naming Conventions**: [NAMING_CONVENTIONS]
+- **Code Formatting**: [CODE_FORMATTING]
+- **Comment Style**: [COMMENT_STYLE]
+- **Documentation Strings**: [DOCUMENTATION_STRINGS]
+- **Type Hints**: [TYPE_HINTS]
+- **Code Coverage**: [CODE_COVERAGE]
+- **Static Analysis**: [STATIC_ANALYSIS]
+- **Linting Rules**: [LINTING_RULES]
+- **Code Metrics**: [CODE_METRICS]
+- **Technical Debt**: [TECHNICAL_DEBT]
 
 ### Testing Specifications
-- **Unit Test Requirements**: {unit_test_requirements}
-- **Test Cases**: {test_cases}
-- **Mock Objects**: {mock_objects}
-- **Test Data**: {test_data}
-- **Assertion Types**: {assertion_types}
-- **Edge Case Tests**: {edge_case_tests}
-- **Performance Tests**: {performance_tests}
-- **Integration Tests**: {integration_tests}
-- **Regression Tests**: {regression_tests}
-- **Coverage Targets**: {coverage_targets}
+- **Unit Test Requirements**: [UNIT_TEST_REQUIREMENTS]
+- **Test Cases**: [TEST_CASES]
+- **Mock Objects**: [MOCK_OBJECTS]
+- **Test Data**: [TEST_DATA]
+- **Assertion Types**: [ASSERTION_TYPES]
+- **Edge Case Tests**: [EDGE_CASE_TESTS]
+- **Performance Tests**: [PERFORMANCE_TESTS]
+- **Integration Tests**: [INTEGRATION_TESTS]
+- **Regression Tests**: [REGRESSION_TESTS]
+- **Coverage Targets**: [COVERAGE_TARGETS]
 
 ### Documentation Requirements
-- **API Documentation**: {api_documentation}
-- **Code Comments**: {code_comments}
-- **Usage Examples**: {usage_examples}
-- **Installation Guide**: {installation_guide}
-- **Configuration Guide**: {configuration_guide}
-- **Troubleshooting Guide**: {troubleshooting_guide}
-- **Change Log**: {change_log}
-- **License Information**: {license_information}
-- **Contributing Guidelines**: {contributing_guidelines}
-- **Code Examples**: {code_examples}
+- **API Documentation**: [API_DOCUMENTATION]
+- **Code Comments**: [CODE_COMMENTS]
+- **Usage Examples**: [USAGE_EXAMPLES]
+- **Installation Guide**: [INSTALLATION_GUIDE]
+- **Configuration Guide**: [CONFIGURATION_GUIDE]
+- **Troubleshooting Guide**: [TROUBLESHOOTING_GUIDE]
+- **Change Log**: [CHANGE_LOG]
+- **License Information**: [LICENSE_INFORMATION]
+- **Contributing Guidelines**: [CONTRIBUTING_GUIDELINES]
+- **Code Examples**: [CODE_EXAMPLES]
 
 ### Database Integration
-- **Database Type**: {database_type}
-- **Connection String**: {connection_string}
-- **Query Language**: {query_language}
-- **ORM Framework**: {orm_framework}
-- **Database Schema**: {database_schema}
-- **Table Names**: {table_names}
-- **Column Names**: {column_names}
-- **Relationships**: {relationships}
-- **Indexes**: {indexes}
-- **Transactions**: {transactions}
+- **Database Type**: [DATABASE_TYPE]
+- **Connection String**: [CONNECTION_STRING]
+- **Query Language**: [QUERY_LANGUAGE]
+- **ORM Framework**: [ORM_FRAMEWORK]
+- **Database Schema**: [DATABASE_SCHEMA]
+- **Table Names**: [TABLE_NAMES]
+- **Column Names**: [COLUMN_NAMES]
+- **Relationships**: [RELATIONSHIPS]
+- **Indexes**: [INDEXES]
+- **Transactions**: [TRANSACTIONS]
 
 ### API Integration
-- **API Type**: {api_type}
-- **API Version**: {api_version}
-- **Authentication Method**: {authentication_method}
-- **API Key**: {api_key}
-- **Endpoints**: {endpoints}
-- **HTTP Methods**: {http_methods}
-- **Request Headers**: {request_headers}
-- **Request Body**: {request_body}
-- **Response Format**: {response_format}
-- **Error Handling**: {api_error_handling}
+- **API Type**: [API_TYPE]
+- **API Version**: [API_VERSION]
+- **Authentication Method**: [AUTHENTICATION_METHOD]
+- **API Key**: [API_KEY]
+- **Endpoints**: [ENDPOINTS]
+- **HTTP Methods**: [HTTP_METHODS]
+- **Request Headers**: [REQUEST_HEADERS]
+- **Request Body**: [REQUEST_BODY]
+- **Response Format**: [RESPONSE_FORMAT]
+- **Error Handling**: [API_ERROR_HANDLING]
 
 ### User Interface Components
-- **UI Framework**: {ui_framework}
-- **Component Type**: {component_type}
-- **Component Properties**: {component_properties}
-- **Event Handlers**: {event_handlers}
-- **State Management**: {state_management}
-- **Styling Approach**: {styling_approach}
-- **Responsive Design**: {responsive_design}
-- **Accessibility Features**: {accessibility_features}
-- **Browser Support**: {browser_support}
-- **Mobile Support**: {mobile_support}
+- **UI Framework**: [UI_FRAMEWORK]
+- **Component Type**: [COMPONENT_TYPE]
+- **Component Properties**: [COMPONENT_PROPERTIES]
+- **Event Handlers**: [EVENT_HANDLERS]
+- **State Management**: [STATE_MANAGEMENT]
+- **Styling Approach**: [STYLING_APPROACH]
+- **Responsive Design**: [RESPONSIVE_DESIGN]
+- **Accessibility Features**: [ACCESSIBILITY_FEATURES]
+- **Browser Support**: [BROWSER_SUPPORT]
+- **Mobile Support**: [MOBILE_SUPPORT]
 
 ### Configuration Management
-- **Configuration Files**: {configuration_files}
-- **Environment Variables**: {environment_variables}
-- **Default Values**: {default_values}
-- **Configuration Validation**: {configuration_validation}
-- **Runtime Configuration**: {runtime_configuration}
-- **Feature Flags**: {feature_flags}
-- **Logging Configuration**: {logging_configuration}
-- **Security Configuration**: {security_configuration}
-- **Performance Configuration**: {performance_configuration}
-- **Debug Settings**: {debug_settings}
+- **Configuration Files**: [CONFIGURATION_FILES]
+- **Environment Variables**: [ENVIRONMENT_VARIABLES]
+- **Default Values**: [DEFAULT_VALUES]
+- **Configuration Validation**: [CONFIGURATION_VALIDATION]
+- **Runtime Configuration**: [RUNTIME_CONFIGURATION]
+- **Feature Flags**: [FEATURE_FLAGS]
+- **Logging Configuration**: [LOGGING_CONFIGURATION]
+- **Security Configuration**: [SECURITY_CONFIGURATION]
+- **Performance Configuration**: [PERFORMANCE_CONFIGURATION]
+- **Debug Settings**: [DEBUG_SETTINGS]
 
 ### Security Implementation
-- **Authentication**: {authentication}
-- **Authorization**: {authorization}
-- **Input Validation**: {input_validation}
-- **Output Encoding**: {output_encoding}
-- **SQL Injection Prevention**: {sql_injection_prevention}
-- **XSS Prevention**: {xss_prevention}
-- **CSRF Protection**: {csrf_protection}
-- **Encryption Methods**: {encryption_methods}
-- **Secure Communications**: {secure_communications}
-- **Audit Logging**: {audit_logging}
+- **Authentication**: [AUTHENTICATION]
+- **Authorization**: [AUTHORIZATION]
+- **Input Validation**: [INPUT_VALIDATION]
+- **Output Encoding**: [OUTPUT_ENCODING]
+- **SQL Injection Prevention**: [SQL_INJECTION_PREVENTION]
+- **XSS Prevention**: [XSS_PREVENTION]
+- **CSRF Protection**: [CSRF_PROTECTION]
+- **Encryption Methods**: [ENCRYPTION_METHODS]
+- **Secure Communications**: [SECURE_COMMUNICATIONS]
+- **Audit Logging**: [AUDIT_LOGGING]
 
 ### Performance Optimization
-- **Caching Strategy**: {caching_strategy}
-- **Memory Management**: {memory_management}
-- **CPU Optimization**: {cpu_optimization}
-- **I/O Optimization**: {io_optimization}
-- **Database Optimization**: {database_optimization}
-- **Network Optimization**: {network_optimization}
-- **Lazy Loading**: {lazy_loading}
-- **Parallel Processing**: {parallel_processing}
-- **Asynchronous Processing**: {asynchronous_processing}
-- **Resource Pooling**: {resource_pooling}
+- **Caching Strategy**: [CACHING_STRATEGY]
+- **Memory Management**: [MEMORY_MANAGEMENT]
+- **CPU Optimization**: [CPU_OPTIMIZATION]
+- **I/O Optimization**: [IO_OPTIMIZATION]
+- **Database Optimization**: [DATABASE_OPTIMIZATION]
+- **Network Optimization**: [NETWORK_OPTIMIZATION]
+- **Lazy Loading**: [LAZY_LOADING]
+- **Parallel Processing**: [PARALLEL_PROCESSING]
+- **Asynchronous Processing**: [ASYNCHRONOUS_PROCESSING]
+- **Resource Pooling**: [RESOURCE_POOLING]
 
 ### Deployment Configuration
-- **Deployment Environment**: {deployment_environment}
-- **Build Process**: {build_process}
-- **Package Management**: {package_management}
-- **Dependency Management**: {dependency_management}
-- **Version Control**: {version_control}
-- **CI/CD Pipeline**: {cicd_pipeline}
-- **Container Configuration**: {container_configuration}
-- **Load Balancing**: {load_balancing}
-- **Monitoring Setup**: {monitoring_setup}
-- **Backup Strategy**: {backup_strategy}
+- **Deployment Environment**: [DEPLOYMENT_ENVIRONMENT]
+- **Build Process**: [BUILD_PROCESS]
+- **Package Management**: [PACKAGE_MANAGEMENT]
+- **Dependency Management**: [DEPENDENCY_MANAGEMENT]
+- **Version Control**: [VERSION_CONTROL]
+- **CI/CD Pipeline**: [CICD_PIPELINE]
+- **Container Configuration**: [CONTAINER_CONFIGURATION]
+- **Load Balancing**: [LOAD_BALANCING]
+- **Monitoring Setup**: [MONITORING_SETUP]
+- **Backup Strategy**: [BACKUP_STRATEGY]
 
 ### Maintenance and Support
-- **Code Maintainability**: {code_maintainability}
-- **Refactoring Guidelines**: {refactoring_guidelines}
-- **Bug Tracking**: {bug_tracking}
-- **Issue Resolution**: {issue_resolution}
-- **Code Reviews**: {code_reviews}
-- **Knowledge Transfer**: {knowledge_transfer}
-- **Support Documentation**: {support_documentation}
-- **Training Materials**: {training_materials}
-- **User Feedback**: {user_feedback}
-- **Continuous Improvement**: {continuous_improvement}
+- **Code Maintainability**: [CODE_MAINTAINABILITY]
+- **Refactoring Guidelines**: [REFACTORING_GUIDELINES]
+- **Bug Tracking**: [BUG_TRACKING]
+- **Issue Resolution**: [ISSUE_RESOLUTION]
+- **Code Reviews**: [CODE_REVIEWS]
+- **Knowledge Transfer**: [KNOWLEDGE_TRANSFER]
+- **Support Documentation**: [SUPPORT_DOCUMENTATION]
+- **Training Materials**: [TRAINING_MATERIALS]
+- **User Feedback**: [USER_FEEDBACK]
+- **Continuous Improvement**: [CONTINUOUS_IMPROVEMENT]
 
 ## Prompt Template
 
-Generate {programming_language} code for {primary_functionality} using {framework} framework. The code should implement {algorithm_type} with {time_complexity} time complexity and include:
+Generate [PROGRAMMING_LANGUAGE] code for [PRIMARY_FUNCTIONALITY] using [FRAMEWORK] framework. The code should implement [ALGORITHM_TYPE] with [TIME_COMPLEXITY] time complexity and include:
 
 **Core Implementation:**
-- {function_name} function that {function_purpose}
-- Input parameters: {input_parameters} of types {parameter_types}
-- Return type: {return_type} with {return_value}
-- Handle {edge_cases} and implement {exception_handling}
+- [FUNCTION_NAME] function that [FUNCTION_PURPOSE]
+- Input parameters: [INPUT_PARAMETERS] of types [PARAMETER_TYPES]
+- Return type: [RETURN_TYPE] with [RETURN_VALUE]
+- Handle [EDGE_CASES] and implement [EXCEPTION_HANDLING]
 
 **Class Structure:** (if applicable)
-- {class_name} class inheriting from {inheritance}
-- Properties: {properties} with types {property_types}
-- Methods: {methods} with {method_visibility}
-- Constructor accepting {constructor_parameters}
+- [CLASS_NAME] class inheriting from [INHERITANCE]
+- Properties: [PROPERTIES] with types [PROPERTY_TYPES]
+- Methods: [METHODS] with [METHOD_VISIBILITY]
+- Constructor accepting [CONSTRUCTOR_PARAMETERS]
 
 **Quality Requirements:**
-- Follow {style_guide} coding standards
-- Include {documentation_strings} documentation
-- Add {code_comments} for complex logic
-- Implement {unit_test_requirements} unit tests
-- Achieve {code_coverage}% test coverage
+- Follow [STYLE_GUIDE] coding standards
+- Include [DOCUMENTATION_STRINGS] documentation
+- Add [CODE_COMMENTS] for complex logic
+- Implement [UNIT_TEST_REQUIREMENTS] unit tests
+- Achieve [CODE_COVERAGE]% test coverage
 
 **Integration Requirements:**
-- Connect to {database_type} database using {orm_framework}
-- Integrate with {api_type} API using {authentication_method}
-- Handle {request_headers} and {response_format}
-- Implement {caching_strategy} for performance
+- Connect to [DATABASE_TYPE] database using [ORM_FRAMEWORK]
+- Integrate with [API_TYPE] API using [AUTHENTICATION_METHOD]
+- Handle [REQUEST_HEADERS] and [RESPONSE_FORMAT]
+- Implement [CACHING_STRATEGY] for performance
 
 **Security Implementation:**
-- Add {input_validation} for all inputs
-- Implement {authentication} and {authorization}
-- Prevent {sql_injection_prevention} and {xss_prevention}
-- Use {encryption_methods} for sensitive data
+- Add [INPUT_VALIDATION] for all inputs
+- Implement [AUTHENTICATION] and [AUTHORIZATION]
+- Prevent [SQL_INJECTION_PREVENTION] and [XSS_PREVENTION]
+- Use [ENCRYPTION_METHODS] for sensitive data
 
 **Performance Optimization:**
-- Implement {optimization_strategy} for efficiency
-- Use {parallel_processing} where appropriate
-- Add {memory_management} for resource efficiency
-- Include {logging_level} logging with {audit_logging}
+- Implement [OPTIMIZATION_STRATEGY] for efficiency
+- Use [PARALLEL_PROCESSING] where appropriate
+- Add [MEMORY_MANAGEMENT] for resource efficiency
+- Include [LOGGING_LEVEL] logging with [AUDIT_LOGGING]
 
 **Documentation:**
-- Generate {api_documentation} with examples
-- Include {usage_examples} and {installation_guide}
-- Add {troubleshooting_guide} for common issues
-- Create {configuration_guide} for setup
+- Generate [API_DOCUMENTATION] with examples
+- Include [USAGE_EXAMPLES] and [INSTALLATION_GUIDE]
+- Add [TROUBLESHOOTING_GUIDE] for common issues
+- Create [CONFIGURATION_GUIDE] for setup
 
-Please ensure the code is production-ready, follows {compliance_requirements}, supports {target_platform}, and includes comprehensive error handling with meaningful {error_messages}. The implementation should be scalable to handle {scalability_requirements} and maintain {performance_requirements}.
+Please ensure the code is production-ready, follows [COMPLIANCE_REQUIREMENTS], supports [TARGET_PLATFORM], and includes comprehensive error handling with meaningful [ERROR_MESSAGES]. The implementation should be scalable to handle [SCALABILITY_REQUIREMENTS] and maintain [PERFORMANCE_REQUIREMENTS].
 
 ## Usage Examples
 
@@ -284,165 +285,165 @@ Quality Requirements:
 
 | Variable | Description | Example |
 |----------|-------------|----------|
-| `{programming_language}` | Specify the programming language | "[specify value]" |
-| `{framework}` | Specify the framework | "[specify value]" |
-| `{version}` | Specify the version | "[specify value]" |
-| `{target_platform}` | Specify the target platform | "[specify value]" |
-| `{architecture_pattern}` | Specify the architecture pattern | "[specify value]" |
-| `{style_guide}` | Specify the style guide | "[specify value]" |
-| `{testing_framework}` | Specify the testing framework | "[specify value]" |
-| `{documentation_standard}` | Specify the documentation standard | "[specify value]" |
-| `{primary_functionality}` | Specify the primary functionality | "[specify value]" |
-| `{business_logic}` | Specify the business logic | "[specify value]" |
-| `{performance_requirements}` | Specify the performance requirements | "[specify value]" |
-| `{security_requirements}` | Specify the security requirements | "[specify value]" |
-| `{scalability_requirements}` | Specify the scalability requirements | "[specify value]" |
-| `{integration_requirements}` | Specify the integration requirements | "[specify value]" |
-| `{compliance_requirements}` | Specify the compliance requirements | "[specify value]" |
-| `{accessibility_requirements}` | Specify the accessibility requirements | "[specify value]" |
-| `{function_name}` | Specify the function name | "John Smith" |
-| `{function_purpose}` | Specify the function purpose | "[specify value]" |
-| `{input_parameters}` | Specify the input parameters | "[specify value]" |
-| `{parameter_types}` | Specify the parameter types | "Standard" |
-| `{parameter_validation}` | Specify the parameter validation | "[specify value]" |
-| `{return_type}` | Specify the return type | "Standard" |
-| `{return_value}` | Specify the return value | "[specify value]" |
-| `{exception_handling}` | Specify the exception handling | "[specify value]" |
-| `{error_messages}` | Specify the error messages | "[specify value]" |
-| `{logging_level}` | Specify the logging level | "[specify value]" |
-| `{performance_considerations}` | Specify the performance considerations | "[specify value]" |
-| `{class_name}` | Specify the class name | "John Smith" |
-| `{class_purpose}` | Specify the class purpose | "[specify value]" |
-| `{inheritance}` | Specify the inheritance | "[specify value]" |
-| `{interfaces}` | Specify the interfaces | "[specify value]" |
-| `{properties}` | Specify the properties | "[specify value]" |
-| `{property_types}` | Specify the property types | "Standard" |
-| `{constructor_parameters}` | Specify the constructor parameters | "[specify value]" |
-| `{methods}` | Specify the methods | "[specify value]" |
-| `{static_methods}` | Specify the static methods | "[specify value]" |
-| `{private_methods}` | Specify the private methods | "[specify value]" |
-| `{abstract_methods}` | Specify the abstract methods | "[specify value]" |
-| `{method_visibility}` | Specify the method visibility | "[specify value]" |
-| `{algorithm_type}` | Specify the algorithm type | "Standard" |
-| `{complexity_requirements}` | Specify the complexity requirements | "[specify value]" |
-| `{time_complexity}` | Specify the time complexity | "[specify value]" |
-| `{space_complexity}` | Specify the space complexity | "[specify value]" |
-| `{input_size}` | Specify the input size | "[specify value]" |
-| `{data_structures}` | Specify the data structures | "[specify value]" |
-| `{optimization_strategy}` | Specify the optimization strategy | "[specify value]" |
-| `{edge_cases}` | Specify the edge cases | "[specify value]" |
-| `{mathematical_formulas}` | Specify the mathematical formulas | "[specify value]" |
-| `{pseudocode}` | Specify the pseudocode | "[specify value]" |
-| `{naming_conventions}` | Specify the naming conventions | "[specify value]" |
-| `{code_formatting}` | Specify the code formatting | "[specify value]" |
-| `{comment_style}` | Specify the comment style | "[specify value]" |
-| `{documentation_strings}` | Specify the documentation strings | "[specify value]" |
-| `{type_hints}` | Specify the type hints | "Standard" |
-| `{code_coverage}` | Specify the code coverage | "[specify value]" |
-| `{static_analysis}` | Specify the static analysis | "[specify value]" |
-| `{linting_rules}` | Specify the linting rules | "[specify value]" |
-| `{code_metrics}` | Specify the code metrics | "[specify value]" |
-| `{technical_debt}` | Specify the technical debt | "[specify value]" |
-| `{unit_test_requirements}` | Specify the unit test requirements | "[specify value]" |
-| `{test_cases}` | Specify the test cases | "[specify value]" |
-| `{mock_objects}` | Specify the mock objects | "[specify value]" |
-| `{test_data}` | Specify the test data | "[specify value]" |
-| `{assertion_types}` | Specify the assertion types | "Standard" |
-| `{edge_case_tests}` | Specify the edge case tests | "[specify value]" |
-| `{performance_tests}` | Specify the performance tests | "[specify value]" |
-| `{integration_tests}` | Specify the integration tests | "[specify value]" |
-| `{regression_tests}` | Specify the regression tests | "[specify value]" |
-| `{coverage_targets}` | Specify the coverage targets | "[specify value]" |
-| `{api_documentation}` | Specify the api documentation | "[specify value]" |
-| `{code_comments}` | Specify the code comments | "[specify value]" |
-| `{usage_examples}` | Specify the usage examples | "[specify value]" |
-| `{installation_guide}` | Specify the installation guide | "[specify value]" |
-| `{configuration_guide}` | Specify the configuration guide | "[specify value]" |
-| `{troubleshooting_guide}` | Specify the troubleshooting guide | "[specify value]" |
-| `{change_log}` | Specify the change log | "[specify value]" |
-| `{license_information}` | Specify the license information | "[specify value]" |
-| `{contributing_guidelines}` | Specify the contributing guidelines | "[specify value]" |
-| `{code_examples}` | Specify the code examples | "[specify value]" |
-| `{database_type}` | Specify the database type | "Standard" |
-| `{connection_string}` | Specify the connection string | "[specify value]" |
-| `{query_language}` | Specify the query language | "[specify value]" |
-| `{orm_framework}` | Specify the orm framework | "[specify value]" |
-| `{database_schema}` | Specify the database schema | "[specify value]" |
-| `{table_names}` | Specify the table names | "John Smith" |
-| `{column_names}` | Specify the column names | "John Smith" |
-| `{relationships}` | Specify the relationships | "[specify value]" |
-| `{indexes}` | Specify the indexes | "[specify value]" |
-| `{transactions}` | Specify the transactions | "[specify value]" |
-| `{api_type}` | Specify the api type | "Standard" |
-| `{api_version}` | Specify the api version | "[specify value]" |
-| `{authentication_method}` | Specify the authentication method | "[specify value]" |
-| `{api_key}` | Specify the api key | "[specify value]" |
-| `{endpoints}` | Specify the endpoints | "[specify value]" |
-| `{http_methods}` | Specify the http methods | "[specify value]" |
-| `{request_headers}` | Specify the request headers | "[specify value]" |
-| `{request_body}` | Specify the request body | "[specify value]" |
-| `{response_format}` | Specify the response format | "[specify value]" |
-| `{api_error_handling}` | Specify the api error handling | "[specify value]" |
-| `{ui_framework}` | Specify the ui framework | "[specify value]" |
-| `{component_type}` | Specify the component type | "Standard" |
-| `{component_properties}` | Specify the component properties | "[specify value]" |
-| `{event_handlers}` | Specify the event handlers | "[specify value]" |
-| `{state_management}` | Specify the state management | "[specify value]" |
-| `{styling_approach}` | Specify the styling approach | "[specify value]" |
-| `{responsive_design}` | Specify the responsive design | "[specify value]" |
-| `{accessibility_features}` | Specify the accessibility features | "[specify value]" |
-| `{browser_support}` | Specify the browser support | "[specify value]" |
-| `{mobile_support}` | Specify the mobile support | "[specify value]" |
-| `{configuration_files}` | Specify the configuration files | "[specify value]" |
-| `{environment_variables}` | Specify the environment variables | "[specify value]" |
-| `{default_values}` | Specify the default values | "[specify value]" |
-| `{configuration_validation}` | Specify the configuration validation | "[specify value]" |
-| `{runtime_configuration}` | Specify the runtime configuration | "[specify value]" |
-| `{feature_flags}` | Specify the feature flags | "[specify value]" |
-| `{logging_configuration}` | Specify the logging configuration | "[specify value]" |
-| `{security_configuration}` | Specify the security configuration | "[specify value]" |
-| `{performance_configuration}` | Specify the performance configuration | "[specify value]" |
-| `{debug_settings}` | Specify the debug settings | "[specify value]" |
-| `{authentication}` | Specify the authentication | "[specify value]" |
-| `{authorization}` | Specify the authorization | "[specify value]" |
-| `{input_validation}` | Specify the input validation | "[specify value]" |
-| `{output_encoding}` | Specify the output encoding | "[specify value]" |
-| `{sql_injection_prevention}` | Specify the sql injection prevention | "[specify value]" |
-| `{xss_prevention}` | Specify the xss prevention | "[specify value]" |
-| `{csrf_protection}` | Specify the csrf protection | "[specify value]" |
-| `{encryption_methods}` | Specify the encryption methods | "[specify value]" |
-| `{secure_communications}` | Specify the secure communications | "[specify value]" |
-| `{audit_logging}` | Specify the audit logging | "[specify value]" |
-| `{caching_strategy}` | Specify the caching strategy | "[specify value]" |
-| `{memory_management}` | Specify the memory management | "[specify value]" |
-| `{cpu_optimization}` | Specify the cpu optimization | "[specify value]" |
-| `{io_optimization}` | Specify the io optimization | "[specify value]" |
-| `{database_optimization}` | Specify the database optimization | "[specify value]" |
-| `{network_optimization}` | Specify the network optimization | "[specify value]" |
-| `{lazy_loading}` | Specify the lazy loading | "[specify value]" |
-| `{parallel_processing}` | Specify the parallel processing | "[specify value]" |
-| `{asynchronous_processing}` | Specify the asynchronous processing | "[specify value]" |
-| `{resource_pooling}` | Specify the resource pooling | "[specify value]" |
-| `{deployment_environment}` | Specify the deployment environment | "[specify value]" |
-| `{build_process}` | Specify the build process | "[specify value]" |
-| `{package_management}` | Specify the package management | "[specify value]" |
-| `{dependency_management}` | Specify the dependency management | "[specify value]" |
-| `{version_control}` | Specify the version control | "[specify value]" |
-| `{cicd_pipeline}` | Specify the cicd pipeline | "[specify value]" |
-| `{container_configuration}` | Specify the container configuration | "[specify value]" |
-| `{load_balancing}` | Specify the load balancing | "[specify value]" |
-| `{monitoring_setup}` | Specify the monitoring setup | "[specify value]" |
-| `{backup_strategy}` | Specify the backup strategy | "[specify value]" |
-| `{code_maintainability}` | Specify the code maintainability | "[specify value]" |
-| `{refactoring_guidelines}` | Specify the refactoring guidelines | "[specify value]" |
-| `{bug_tracking}` | Specify the bug tracking | "[specify value]" |
-| `{issue_resolution}` | Specify the issue resolution | "[specify value]" |
-| `{code_reviews}` | Specify the code reviews | "[specify value]" |
-| `{knowledge_transfer}` | Specify the knowledge transfer | "[specify value]" |
-| `{support_documentation}` | Specify the support documentation | "[specify value]" |
-| `{training_materials}` | Specify the training materials | "[specify value]" |
-| `{user_feedback}` | Specify the user feedback | "[specify value]" |
-| `{continuous_improvement}` | Specify the continuous improvement | "[specify value]" |
+| `[PROGRAMMING_LANGUAGE]` | Specify the programming language | "[specify value]" |
+| `[FRAMEWORK]` | Specify the framework | "[specify value]" |
+| `[VERSION]` | Specify the version | "[specify value]" |
+| `[TARGET_PLATFORM]` | Specify the target platform | "[specify value]" |
+| `[ARCHITECTURE_PATTERN]` | Specify the architecture pattern | "[specify value]" |
+| `[STYLE_GUIDE]` | Specify the style guide | "[specify value]" |
+| `[TESTING_FRAMEWORK]` | Specify the testing framework | "[specify value]" |
+| `[DOCUMENTATION_STANDARD]` | Specify the documentation standard | "[specify value]" |
+| `[PRIMARY_FUNCTIONALITY]` | Specify the primary functionality | "[specify value]" |
+| `[BUSINESS_LOGIC]` | Specify the business logic | "[specify value]" |
+| `[PERFORMANCE_REQUIREMENTS]` | Specify the performance requirements | "[specify value]" |
+| `[SECURITY_REQUIREMENTS]` | Specify the security requirements | "[specify value]" |
+| `[SCALABILITY_REQUIREMENTS]` | Specify the scalability requirements | "[specify value]" |
+| `[INTEGRATION_REQUIREMENTS]` | Specify the integration requirements | "[specify value]" |
+| `[COMPLIANCE_REQUIREMENTS]` | Specify the compliance requirements | "[specify value]" |
+| `[ACCESSIBILITY_REQUIREMENTS]` | Specify the accessibility requirements | "[specify value]" |
+| `[FUNCTION_NAME]` | Specify the function name | "John Smith" |
+| `[FUNCTION_PURPOSE]` | Specify the function purpose | "[specify value]" |
+| `[INPUT_PARAMETERS]` | Specify the input parameters | "[specify value]" |
+| `[PARAMETER_TYPES]` | Specify the parameter types | "Standard" |
+| `[PARAMETER_VALIDATION]` | Specify the parameter validation | "[specify value]" |
+| `[RETURN_TYPE]` | Specify the return type | "Standard" |
+| `[RETURN_VALUE]` | Specify the return value | "[specify value]" |
+| `[EXCEPTION_HANDLING]` | Specify the exception handling | "[specify value]" |
+| `[ERROR_MESSAGES]` | Specify the error messages | "[specify value]" |
+| `[LOGGING_LEVEL]` | Specify the logging level | "[specify value]" |
+| `[PERFORMANCE_CONSIDERATIONS]` | Specify the performance considerations | "[specify value]" |
+| `[CLASS_NAME]` | Specify the class name | "John Smith" |
+| `[CLASS_PURPOSE]` | Specify the class purpose | "[specify value]" |
+| `[INHERITANCE]` | Specify the inheritance | "[specify value]" |
+| `[INTERFACES]` | Specify the interfaces | "[specify value]" |
+| `[PROPERTIES]` | Specify the properties | "[specify value]" |
+| `[PROPERTY_TYPES]` | Specify the property types | "Standard" |
+| `[CONSTRUCTOR_PARAMETERS]` | Specify the constructor parameters | "[specify value]" |
+| `[METHODS]` | Specify the methods | "[specify value]" |
+| `[STATIC_METHODS]` | Specify the static methods | "[specify value]" |
+| `[PRIVATE_METHODS]` | Specify the private methods | "[specify value]" |
+| `[ABSTRACT_METHODS]` | Specify the abstract methods | "[specify value]" |
+| `[METHOD_VISIBILITY]` | Specify the method visibility | "[specify value]" |
+| `[ALGORITHM_TYPE]` | Specify the algorithm type | "Standard" |
+| `[COMPLEXITY_REQUIREMENTS]` | Specify the complexity requirements | "[specify value]" |
+| `[TIME_COMPLEXITY]` | Specify the time complexity | "[specify value]" |
+| `[SPACE_COMPLEXITY]` | Specify the space complexity | "[specify value]" |
+| `[INPUT_SIZE]` | Specify the input size | "[specify value]" |
+| `[DATA_STRUCTURES]` | Specify the data structures | "[specify value]" |
+| `[OPTIMIZATION_STRATEGY]` | Specify the optimization strategy | "[specify value]" |
+| `[EDGE_CASES]` | Specify the edge cases | "[specify value]" |
+| `[MATHEMATICAL_FORMULAS]` | Specify the mathematical formulas | "[specify value]" |
+| `[PSEUDOCODE]` | Specify the pseudocode | "[specify value]" |
+| `[NAMING_CONVENTIONS]` | Specify the naming conventions | "[specify value]" |
+| `[CODE_FORMATTING]` | Specify the code formatting | "[specify value]" |
+| `[COMMENT_STYLE]` | Specify the comment style | "[specify value]" |
+| `[DOCUMENTATION_STRINGS]` | Specify the documentation strings | "[specify value]" |
+| `[TYPE_HINTS]` | Specify the type hints | "Standard" |
+| `[CODE_COVERAGE]` | Specify the code coverage | "[specify value]" |
+| `[STATIC_ANALYSIS]` | Specify the static analysis | "[specify value]" |
+| `[LINTING_RULES]` | Specify the linting rules | "[specify value]" |
+| `[CODE_METRICS]` | Specify the code metrics | "[specify value]" |
+| `[TECHNICAL_DEBT]` | Specify the technical debt | "[specify value]" |
+| `[UNIT_TEST_REQUIREMENTS]` | Specify the unit test requirements | "[specify value]" |
+| `[TEST_CASES]` | Specify the test cases | "[specify value]" |
+| `[MOCK_OBJECTS]` | Specify the mock objects | "[specify value]" |
+| `[TEST_DATA]` | Specify the test data | "[specify value]" |
+| `[ASSERTION_TYPES]` | Specify the assertion types | "Standard" |
+| `[EDGE_CASE_TESTS]` | Specify the edge case tests | "[specify value]" |
+| `[PERFORMANCE_TESTS]` | Specify the performance tests | "[specify value]" |
+| `[INTEGRATION_TESTS]` | Specify the integration tests | "[specify value]" |
+| `[REGRESSION_TESTS]` | Specify the regression tests | "[specify value]" |
+| `[COVERAGE_TARGETS]` | Specify the coverage targets | "[specify value]" |
+| `[API_DOCUMENTATION]` | Specify the api documentation | "[specify value]" |
+| `[CODE_COMMENTS]` | Specify the code comments | "[specify value]" |
+| `[USAGE_EXAMPLES]` | Specify the usage examples | "[specify value]" |
+| `[INSTALLATION_GUIDE]` | Specify the installation guide | "[specify value]" |
+| `[CONFIGURATION_GUIDE]` | Specify the configuration guide | "[specify value]" |
+| `[TROUBLESHOOTING_GUIDE]` | Specify the troubleshooting guide | "[specify value]" |
+| `[CHANGE_LOG]` | Specify the change log | "[specify value]" |
+| `[LICENSE_INFORMATION]` | Specify the license information | "[specify value]" |
+| `[CONTRIBUTING_GUIDELINES]` | Specify the contributing guidelines | "[specify value]" |
+| `[CODE_EXAMPLES]` | Specify the code examples | "[specify value]" |
+| `[DATABASE_TYPE]` | Specify the database type | "Standard" |
+| `[CONNECTION_STRING]` | Specify the connection string | "[specify value]" |
+| `[QUERY_LANGUAGE]` | Specify the query language | "[specify value]" |
+| `[ORM_FRAMEWORK]` | Specify the orm framework | "[specify value]" |
+| `[DATABASE_SCHEMA]` | Specify the database schema | "[specify value]" |
+| `[TABLE_NAMES]` | Specify the table names | "John Smith" |
+| `[COLUMN_NAMES]` | Specify the column names | "John Smith" |
+| `[RELATIONSHIPS]` | Specify the relationships | "[specify value]" |
+| `[INDEXES]` | Specify the indexes | "[specify value]" |
+| `[TRANSACTIONS]` | Specify the transactions | "[specify value]" |
+| `[API_TYPE]` | Specify the api type | "Standard" |
+| `[API_VERSION]` | Specify the api version | "[specify value]" |
+| `[AUTHENTICATION_METHOD]` | Specify the authentication method | "[specify value]" |
+| `[API_KEY]` | Specify the api key | "[specify value]" |
+| `[ENDPOINTS]` | Specify the endpoints | "[specify value]" |
+| `[HTTP_METHODS]` | Specify the http methods | "[specify value]" |
+| `[REQUEST_HEADERS]` | Specify the request headers | "[specify value]" |
+| `[REQUEST_BODY]` | Specify the request body | "[specify value]" |
+| `[RESPONSE_FORMAT]` | Specify the response format | "[specify value]" |
+| `[API_ERROR_HANDLING]` | Specify the api error handling | "[specify value]" |
+| `[UI_FRAMEWORK]` | Specify the ui framework | "[specify value]" |
+| `[COMPONENT_TYPE]` | Specify the component type | "Standard" |
+| `[COMPONENT_PROPERTIES]` | Specify the component properties | "[specify value]" |
+| `[EVENT_HANDLERS]` | Specify the event handlers | "[specify value]" |
+| `[STATE_MANAGEMENT]` | Specify the state management | "[specify value]" |
+| `[STYLING_APPROACH]` | Specify the styling approach | "[specify value]" |
+| `[RESPONSIVE_DESIGN]` | Specify the responsive design | "[specify value]" |
+| `[ACCESSIBILITY_FEATURES]` | Specify the accessibility features | "[specify value]" |
+| `[BROWSER_SUPPORT]` | Specify the browser support | "[specify value]" |
+| `[MOBILE_SUPPORT]` | Specify the mobile support | "[specify value]" |
+| `[CONFIGURATION_FILES]` | Specify the configuration files | "[specify value]" |
+| `[ENVIRONMENT_VARIABLES]` | Specify the environment variables | "[specify value]" |
+| `[DEFAULT_VALUES]` | Specify the default values | "[specify value]" |
+| `[CONFIGURATION_VALIDATION]` | Specify the configuration validation | "[specify value]" |
+| `[RUNTIME_CONFIGURATION]` | Specify the runtime configuration | "[specify value]" |
+| `[FEATURE_FLAGS]` | Specify the feature flags | "[specify value]" |
+| `[LOGGING_CONFIGURATION]` | Specify the logging configuration | "[specify value]" |
+| `[SECURITY_CONFIGURATION]` | Specify the security configuration | "[specify value]" |
+| `[PERFORMANCE_CONFIGURATION]` | Specify the performance configuration | "[specify value]" |
+| `[DEBUG_SETTINGS]` | Specify the debug settings | "[specify value]" |
+| `[AUTHENTICATION]` | Specify the authentication | "[specify value]" |
+| `[AUTHORIZATION]` | Specify the authorization | "[specify value]" |
+| `[INPUT_VALIDATION]` | Specify the input validation | "[specify value]" |
+| `[OUTPUT_ENCODING]` | Specify the output encoding | "[specify value]" |
+| `[SQL_INJECTION_PREVENTION]` | Specify the sql injection prevention | "[specify value]" |
+| `[XSS_PREVENTION]` | Specify the xss prevention | "[specify value]" |
+| `[CSRF_PROTECTION]` | Specify the csrf protection | "[specify value]" |
+| `[ENCRYPTION_METHODS]` | Specify the encryption methods | "[specify value]" |
+| `[SECURE_COMMUNICATIONS]` | Specify the secure communications | "[specify value]" |
+| `[AUDIT_LOGGING]` | Specify the audit logging | "[specify value]" |
+| `[CACHING_STRATEGY]` | Specify the caching strategy | "[specify value]" |
+| `[MEMORY_MANAGEMENT]` | Specify the memory management | "[specify value]" |
+| `[CPU_OPTIMIZATION]` | Specify the cpu optimization | "[specify value]" |
+| `[IO_OPTIMIZATION]` | Specify the io optimization | "[specify value]" |
+| `[DATABASE_OPTIMIZATION]` | Specify the database optimization | "[specify value]" |
+| `[NETWORK_OPTIMIZATION]` | Specify the network optimization | "[specify value]" |
+| `[LAZY_LOADING]` | Specify the lazy loading | "[specify value]" |
+| `[PARALLEL_PROCESSING]` | Specify the parallel processing | "[specify value]" |
+| `[ASYNCHRONOUS_PROCESSING]` | Specify the asynchronous processing | "[specify value]" |
+| `[RESOURCE_POOLING]` | Specify the resource pooling | "[specify value]" |
+| `[DEPLOYMENT_ENVIRONMENT]` | Specify the deployment environment | "[specify value]" |
+| `[BUILD_PROCESS]` | Specify the build process | "[specify value]" |
+| `[PACKAGE_MANAGEMENT]` | Specify the package management | "[specify value]" |
+| `[DEPENDENCY_MANAGEMENT]` | Specify the dependency management | "[specify value]" |
+| `[VERSION_CONTROL]` | Specify the version control | "[specify value]" |
+| `[CICD_PIPELINE]` | Specify the cicd pipeline | "[specify value]" |
+| `[CONTAINER_CONFIGURATION]` | Specify the container configuration | "[specify value]" |
+| `[LOAD_BALANCING]` | Specify the load balancing | "[specify value]" |
+| `[MONITORING_SETUP]` | Specify the monitoring setup | "[specify value]" |
+| `[BACKUP_STRATEGY]` | Specify the backup strategy | "[specify value]" |
+| `[CODE_MAINTAINABILITY]` | Specify the code maintainability | "[specify value]" |
+| `[REFACTORING_GUIDELINES]` | Specify the refactoring guidelines | "[specify value]" |
+| `[BUG_TRACKING]` | Specify the bug tracking | "[specify value]" |
+| `[ISSUE_RESOLUTION]` | Specify the issue resolution | "[specify value]" |
+| `[CODE_REVIEWS]` | Specify the code reviews | "[specify value]" |
+| `[KNOWLEDGE_TRANSFER]` | Specify the knowledge transfer | "[specify value]" |
+| `[SUPPORT_DOCUMENTATION]` | Specify the support documentation | "[specify value]" |
+| `[TRAINING_MATERIALS]` | Specify the training materials | "[specify value]" |
+| `[USER_FEEDBACK]` | Specify the user feedback | "[specify value]" |
+| `[CONTINUOUS_IMPROVEMENT]` | Specify the continuous improvement | "[specify value]" |
 
 
 

@@ -3,7 +3,8 @@ title: Investigative Reporting Framework
 category: creative/journalism/News Production
 tags: [communication, creative, data-science, development, documentation, framework, management, research]
 use_cases:
-  - Implementing comprehensive framework for conducting investigative journalism including source...
+  - Creating comprehensive framework for conducting investigative journalism including source development, document analysis, fact verification, legal considerations, data journalism techniques, and publication strategies.
+
   - Project planning and execution
   - Strategy development
 related_templates:

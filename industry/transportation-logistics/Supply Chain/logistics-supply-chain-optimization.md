@@ -3,7 +3,8 @@ title: Supply Chain Optimization & Network Design
 category: industry/transportation-logistics/Supply Chain
 tags: [data-science, design, industry, machine-learning, management, optimization, research, strategy]
 use_cases:
-  - Implementing advanced framework for end-to-end supply chain optimization, network design, inv...
+  - Creating advanced framework for end-to-end supply chain optimization, network design, inventory management, demand planning, and logistics coordination across global supply networks.
+
   - Project planning and execution
   - Strategy development
 related_templates:

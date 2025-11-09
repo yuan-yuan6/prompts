@@ -3,7 +3,8 @@ title: Game Design & Development Framework
 category: industry/entertainment-gaming/Game Development
 tags: [automation, design, development, framework, industry, machine-learning, management, optimization]
 use_cases:
-  - Implementing comprehensive framework for game design, development pipeline management, player...
+  - Creating comprehensive framework for game design, development pipeline management, player experience optimization, monetization strategies, and live operations for video game projects.
+
   - Project planning and execution
   - Strategy development
 related_templates:

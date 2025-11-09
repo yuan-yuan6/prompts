@@ -3,7 +3,8 @@ title: Property Management & Tenant Operations Framework
 category: industry/real-estate/Property Management
 tags: [framework, industry, management, optimization, security, testing]
 use_cases:
-  - Implementing comprehensive framework for managing residential and commercial properties inclu...
+  - Creating comprehensive framework for managing residential and commercial properties including tenant relations, maintenance operations, financial management, compliance, and portfolio optimization.
+
   - Project planning and execution
   - Strategy development
 related_templates:

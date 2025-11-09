@@ -3,9 +3,9 @@ title: Business Planning Template Generator
 category: business/Strategic Management
 tags: [business, data-science, design, documentation, machine-learning, optimization, research, strategy]
 use_cases:
-  - Implementing create comprehensive business plans that cover strategy, roadmaps, and vision st...
-  - Project planning and execution
-  - Strategy development
+  - Draft a business plan outline for investor presentation (3-4 hours)
+  - Create strategic roadmap for new product launch
+  - Develop annual business plan for existing division or business unit
 related_templates:
   - okr-implementation-framework.md
   - digital-transformation-roadmap.md
@@ -417,11 +417,9 @@ Generate a comprehensive business plan that includes:
 ## Usage Example
 Use this template for strategic planning sessions, investor presentations, loan applications, board meetings, or comprehensive business strategy development.
 
-## Customization Tips
-- Adjust detail level based on audience needs
-- Include industry-specific metrics and benchmarks
-- Add visual elements like charts and graphs
-- Tailor financial projections to business model
-- Include relevant case studies or examples
-- Consider regulatory or compliance requirements
-- Update regularly as business evolves
+## Best Practices
+- **Start with executive summary, not company history** - Investors decide in 5 minutes; put your best case upfront
+- **Show traction before projections** - One real customer validates more than perfect spreadsheets
+- **Be specific about use of funds** - "Marketing" is vague; "3 sales reps at $120K each" shows clear thinking
+- **Address obvious risks directly** - Ignoring competition or challenges kills credibility
+- **Keep financial projections realistic** - Hockey stick growth projections signal inexperience; show how you'll actually scale

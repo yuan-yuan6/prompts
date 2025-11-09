@@ -3,7 +3,7 @@ title: Comedy Writing Comprehensive Template Generator
 category: creative/Entertainment
 tags: [communication, comprehensive, creative, data-science, optimization, research, template]
 use_cases:
-  - Implementing create comprehensive comedy writing solutions covering jokes, sketches, standup ...
+  - Creating comprehensive comedy writing solutions covering jokes, sketches, standup routines, satire, memes, roasts, and comedic content across all formats and platforms.
   - Project planning and execution
   - Strategy development
 related_templates:

@@ -3,7 +3,7 @@ title: Referrals and Consultations Template
 category: healthcare/Clinical Practice
 tags: [communication, healthcare, management, template]
 use_cases:
-  - Implementing create comprehensive referral letters, consultation summaries, and specialist co...
+  - Creating comprehensive referral letters, consultation summaries, and specialist communication to ensure effective care coordination and optimal patient outcomes.
   - Project planning and execution
   - Strategy development
 related_templates:

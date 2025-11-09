@@ -3,7 +3,8 @@ title: Major Gifts Fundraising Strategy Framework
 category: nonprofit/Fundraising & Development
 tags: [framework, management, marketing, nonprofit, research, strategy, testing]
 use_cases:
-  - Implementing comprehensive framework for developing and managing major gift programs includin...
+  - Creating comprehensive framework for developing and managing major gift programs including donor identification, cultivation strategies, solicitation planning, stewardship programs, and moves management systems for nonprofit organizations.
+
   - Project planning and execution
   - Strategy development
 related_templates:

@@ -3,7 +3,8 @@ title: Landing Pages Template
 category: creative/Marketing Creative
 tags: [creative, data-science, design, marketing, optimization, research, strategy, template]
 use_cases:
-  - Implementing create high-converting landing pages with compelling copy, optimized structure, ...
+  - Creating high-converting landing pages with compelling copy, optimized structure, and conversion-focused design that drive specific actions and maximize campaign performance.
+
   - Project planning and execution
   - Strategy development
 related_templates:
