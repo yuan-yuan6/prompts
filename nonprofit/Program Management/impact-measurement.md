@@ -3,7 +3,8 @@ title: Social Impact Measurement & Evaluation Framework
 category: nonprofit/Program Management
 tags: [automation, design, development, framework, machine-learning, nonprofit]
 use_cases:
-  - Implementing comprehensive system for measuring, evaluating, and reporting social impact acro...
+  - Creating comprehensive system for measuring, evaluating, and reporting social impact across nonprofit programs, including theory of change development, outcome tracking, and stakeholder reporting.
+
   - Project planning and execution
   - Strategy development
 related_templates:

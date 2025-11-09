@@ -3,7 +3,8 @@ title: Comedy Writing Template
 category: creative/Entertainment
 tags: [automation, communication, creative, data-science, design, development, optimization, research]
 use_cases:
-  - Implementing create engaging comedy content including jokes, sketches, and standup material t...
+  - Creating engaging comedy content including jokes, sketches, and standup material that generates laughter and entertainment across various formats and comedy styles.
+
   - Project planning and execution
   - Strategy development
 related_templates:

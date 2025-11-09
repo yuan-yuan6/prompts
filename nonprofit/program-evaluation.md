@@ -3,7 +3,7 @@ title: Program Evaluation Template
 category: nonprofit
 tags: [automation, data-science, design, documentation, nonprofit, research, strategy, template]
 use_cases:
-  - Implementing create comprehensive program evaluation frameworks, impact assessment methodolog...
+  - Creating comprehensive program evaluation frameworks, impact assessment methodologies, social return on investment analyses, and outcome measurement systems that demonstrate nonprofit effectiveness, guide strategic decision-making, and strengthen organizational accountability to stakeholders and beneficiaries.
   - Project planning and execution
   - Strategy development
 last_updated: 2025-11-09

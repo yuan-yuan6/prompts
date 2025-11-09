@@ -3,7 +3,8 @@ title: Video Production Pipeline & Content Creation Framework
 category: creative
 tags: [automation, communication, creative, design, development, framework, machine-learning, management]
 use_cases:
-  - Implementing comprehensive framework for professional video production including pre-producti...
+  - Creating comprehensive framework for professional video production including pre-production planning, shooting protocols, post-production workflows, distribution strategies, team coordination, and quality control for creating high-impact video content.
+
   - Project planning and execution
   - Strategy development
 last_updated: 2025-11-09

@@ -3,7 +3,8 @@ title: Product Sourcing & Supplier Management Framework
 category: industry/retail-ecommerce
 tags: [data-science, design, development, framework, industry, management, research, strategy]
 use_cases:
-  - Implementing comprehensive framework for developing product sourcing strategies including sup...
+  - Creating comprehensive framework for developing product sourcing strategies including supplier identification, evaluation, negotiation, quality control, and relationship management for retail and e-commerce businesses.
+
   - Project planning and execution
   - Strategy development
 last_updated: 2025-11-09

@@ -3,7 +3,8 @@ title: Clinical Trials Template
 category: healthcare/Medical Research
 tags: [automation, data-science, design, healthcare, machine-learning, research, template]
 use_cases:
-  - Implementing design comprehensive clinical trial protocols, consent forms, and analysis plans...
+  - Creating design comprehensive clinical trial protocols, consent forms, and analysis plans for conducting ethical, scientifically rigorous research studies to advance medical knowledge and patient care.
+
   - Project planning and execution
   - Strategy development
 related_templates:

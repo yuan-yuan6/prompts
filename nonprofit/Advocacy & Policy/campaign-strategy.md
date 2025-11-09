@@ -3,7 +3,8 @@ title: Advocacy Campaign Strategy Framework
 category: nonprofit/Advocacy & Policy
 tags: [data-science, design, development, framework, management, marketing, nonprofit, research]
 use_cases:
-  - Implementing comprehensive framework for developing and executing advocacy campaigns includin...
+  - Creating comprehensive framework for developing and executing advocacy campaigns including policy analysis, coalition building, grassroots mobilization, media strategy, and legislative engagement for social change.
+
   - Project planning and execution
   - Strategy development
 related_templates:

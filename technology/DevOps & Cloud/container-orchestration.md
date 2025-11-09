@@ -3,7 +3,8 @@ title: Container Orchestration Template
 category: technology/DevOps & Cloud
 tags: [design, machine-learning, strategy, technology, template]
 use_cases:
-  - Implementing design and implement container orchestration strategies using kubernetes, docker...
+  - Creating design and implement container orchestration strategies using kubernetes, docker swarm, or other platforms to manage containerized applications at scale.
+
   - Project planning and execution
   - Strategy development
 related_templates:
@@ -662,11 +663,11 @@ Generate a comprehensive container orchestration implementation:
            apiVersion: snapshot.storage.k8s.io/v1
            kind: VolumeSnapshot
            metadata:
-             name: {pvc_name}-snapshot
+             name: [PVC_NAME]-snapshot
            spec:
              volumeSnapshotClassName: csi-snapclass
              source:
-               persistentVolumeClaimName: {pvc_name}
+               persistentVolumeClaimName: [PVC_NAME]
            '''
            return snapshot_config
    ```

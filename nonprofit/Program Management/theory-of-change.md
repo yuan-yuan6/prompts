@@ -3,7 +3,8 @@ title: Theory of Change Development Framework
 category: nonprofit/Program Management
 tags: [data-science, development, framework, machine-learning, nonprofit, research]
 use_cases:
-  - Implementing comprehensive framework for developing theory of change models including logic m...
+  - Creating comprehensive framework for developing theory of change models including logic models, outcome mapping, impact pathways, stakeholder analysis, and evaluation frameworks for social impact programs.
+
   - Project planning and execution
   - Strategy development
 related_templates:

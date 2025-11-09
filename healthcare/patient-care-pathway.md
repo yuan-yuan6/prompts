@@ -3,7 +3,7 @@ title: Patient Care Pathway Template
 category: healthcare
 tags: [data-science, design, healthcare, machine-learning, management, optimization, research, template]
 use_cases:
-  - Implementing create comprehensive patient care pathway designs, clinical workflow optimizatio...
+  - Creating comprehensive patient care pathway designs, clinical workflow optimization plans, care coordination frameworks, and patient-centered treatment protocols that improve health outcomes, reduce costs, enhance patient experience, and ensure evidence-based care delivery across the healthcare continuum.
   - Project planning and execution
   - Strategy development
 last_updated: 2025-11-09

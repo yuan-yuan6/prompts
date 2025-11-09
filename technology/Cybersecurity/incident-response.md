@@ -3,7 +3,8 @@ title: Incident Response Template
 category: technology/Cybersecurity
 tags: [communication, data-science, design, management, research, security, strategy, technology]
 use_cases:
-  - Implementing comprehensive incident response planning including detection, analysis, containm...
+  - Creating comprehensive incident response planning including detection, analysis, containment, eradication, recovery, and lessons learned for effective cybersecurity incident management.
+
   - Project planning and execution
   - Strategy development
 related_templates:
@@ -21,76 +22,76 @@ Comprehensive incident response planning including detection, analysis, containm
 ## Template Structure
 
 ### Incident Overview
-- **Incident ID**: {incident_id}
-- **Incident Type**: {incident_type}
-- **Severity Level**: {severity_level}
-- **Affected Systems**: {affected_systems}
-- **Discovery Method**: {discovery_method}
-- **Discovery Time**: {discovery_time}
-- **Reporting Time**: {reporting_time}
-- **Initial Reporter**: {initial_reporter}
-- **Business Impact**: {business_impact}
-- **Estimated Loss**: {estimated_loss}
+- **Incident ID**: [INCIDENT_ID]
+- **Incident Type**: [INCIDENT_TYPE]
+- **Severity Level**: [SEVERITY_LEVEL]
+- **Affected Systems**: [AFFECTED_SYSTEMS]
+- **Discovery Method**: [DISCOVERY_METHOD]
+- **Discovery Time**: [DISCOVERY_TIME]
+- **Reporting Time**: [REPORTING_TIME]
+- **Initial Reporter**: [INITIAL_REPORTER]
+- **Business Impact**: [BUSINESS_IMPACT]
+- **Estimated Loss**: [ESTIMATED_LOSS]
 
 ### Response Team
-- **Incident Commander**: {incident_commander}
-- **Security Team**: {security_team}
-- **IT Operations**: {it_operations}
-- **Legal Team**: {legal_team}
-- **Communications**: {communications_team}
-- **External Resources**: {external_resources}
-- **Escalation Path**: {escalation_path}
-- **Contact Information**: {contact_information}
-- **Roles and Responsibilities**: {roles_responsibilities}
-- **Authority Levels**: {authority_levels}
+- **Incident Commander**: [INCIDENT_COMMANDER]
+- **Security Team**: [SECURITY_TEAM]
+- **IT Operations**: [IT_OPERATIONS]
+- **Legal Team**: [LEGAL_TEAM]
+- **Communications**: [COMMUNICATIONS_TEAM]
+- **External Resources**: [EXTERNAL_RESOURCES]
+- **Escalation Path**: [ESCALATION_PATH]
+- **Contact Information**: [CONTACT_INFORMATION]
+- **Roles and Responsibilities**: [ROLES_RESPONSIBILITIES]
+- **Authority Levels**: [AUTHORITY_LEVELS]
 
 ### Detection and Analysis
-- **Detection Sources**: {detection_sources}
-- **Alert Correlation**: {alert_correlation}
-- **Evidence Collection**: {evidence_collection}
-- **Forensic Analysis**: {forensic_analysis}
-- **IOC Identification**: {ioc_identification}
-- **Attack Timeline**: {attack_timeline}
-- **Attribution Analysis**: {attribution_analysis}
-- **Scope Assessment**: {scope_assessment}
-- **Impact Analysis**: {impact_analysis}
-- **Root Cause Analysis**: {root_cause_analysis}
+- **Detection Sources**: [DETECTION_SOURCES]
+- **Alert Correlation**: [ALERT_CORRELATION]
+- **Evidence Collection**: [EVIDENCE_COLLECTION]
+- **Forensic Analysis**: [FORENSIC_ANALYSIS]
+- **IOC Identification**: [IOC_IDENTIFICATION]
+- **Attack Timeline**: [ATTACK_TIMELINE]
+- **Attribution Analysis**: [ATTRIBUTION_ANALYSIS]
+- **Scope Assessment**: [SCOPE_ASSESSMENT]
+- **Impact Analysis**: [IMPACT_ANALYSIS]
+- **Root Cause Analysis**: [ROOT_CAUSE_ANALYSIS]
 
 ### Containment Strategy
-- **Short-term Containment**: {short_term_containment}
-- **Long-term Containment**: {long_term_containment}
-- **System Isolation**: {system_isolation}
-- **Network Segmentation**: {network_segmentation}
-- **Access Restrictions**: {access_restrictions}
-- **Service Disruption**: {service_disruption}
-- **Business Continuity**: {business_continuity}
-- **Communication Plan**: {containment_communication}
-- **Monitoring Enhancement**: {monitoring_enhancement}
-- **Evidence Preservation**: {evidence_preservation}
+- **Short-term Containment**: [SHORT_TERM_CONTAINMENT]
+- **Long-term Containment**: [LONG_TERM_CONTAINMENT]
+- **System Isolation**: [SYSTEM_ISOLATION]
+- **Network Segmentation**: [NETWORK_SEGMENTATION]
+- **Access Restrictions**: [ACCESS_RESTRICTIONS]
+- **Service Disruption**: [SERVICE_DISRUPTION]
+- **Business Continuity**: [BUSINESS_CONTINUITY]
+- **Communication Plan**: [CONTAINMENT_COMMUNICATION]
+- **Monitoring Enhancement**: [MONITORING_ENHANCEMENT]
+- **Evidence Preservation**: [EVIDENCE_PRESERVATION]
 
 ### Eradication and Recovery
-- **Threat Elimination**: {threat_elimination}
-- **System Hardening**: {system_hardening}
-- **Patch Management**: {patch_management}
-- **Configuration Changes**: {configuration_changes}
-- **Recovery Planning**: {recovery_planning}
-- **Data Restoration**: {data_restoration}
-- **Service Restoration**: {service_restoration}
-- **Monitoring Restoration**: {monitoring_restoration}
-- **Validation Testing**: {validation_testing}
-- **Return to Operations**: {return_to_operations}
+- **Threat Elimination**: [THREAT_ELIMINATION]
+- **System Hardening**: [SYSTEM_HARDENING]
+- **Patch Management**: [PATCH_MANAGEMENT]
+- **Configuration Changes**: [CONFIGURATION_CHANGES]
+- **Recovery Planning**: [RECOVERY_PLANNING]
+- **Data Restoration**: [DATA_RESTORATION]
+- **Service Restoration**: [SERVICE_RESTORATION]
+- **Monitoring Restoration**: [MONITORING_RESTORATION]
+- **Validation Testing**: [VALIDATION_TESTING]
+- **Return to Operations**: [RETURN_TO_OPERATIONS]
 
 ### Communication and Reporting
-- **Internal Communications**: {internal_communications}
-- **External Communications**: {external_communications}
-- **Regulatory Reporting**: {regulatory_reporting}
-- **Customer Notifications**: {customer_notifications}
-- **Media Relations**: {media_relations}
-- **Legal Notifications**: {legal_notifications}
-- **Stakeholder Updates**: {stakeholder_updates}
-- **Status Reports**: {status_reports}
-- **Final Report**: {final_report}
-- **Documentation**: {incident_documentation}
+- **Internal Communications**: [INTERNAL_COMMUNICATIONS]
+- **External Communications**: [EXTERNAL_COMMUNICATIONS]
+- **Regulatory Reporting**: [REGULATORY_REPORTING]
+- **Customer Notifications**: [CUSTOMER_NOTIFICATIONS]
+- **Media Relations**: [MEDIA_RELATIONS]
+- **Legal Notifications**: [LEGAL_NOTIFICATIONS]
+- **Stakeholder Updates**: [STAKEHOLDER_UPDATES]
+- **Status Reports**: [STATUS_REPORTS]
+- **Final Report**: [FINAL_REPORT]
+- **Documentation**: [INCIDENT_DOCUMENTATION]
 
 Please provide detailed response procedures, communication templates, forensic workflows, and recovery plans.
 
@@ -133,66 +134,66 @@ Detection and Analysis:
 
 | Variable | Description | Example |
 |----------|-------------|----------|
-| `{incident_id}` | Specify the incident id | "[specify value]" |
-| `{incident_type}` | Specify the incident type | "Standard" |
-| `{severity_level}` | Specify the severity level | "[specify value]" |
-| `{affected_systems}` | Specify the affected systems | "[specify value]" |
-| `{discovery_method}` | Specify the discovery method | "[specify value]" |
-| `{discovery_time}` | Specify the discovery time | "[specify value]" |
-| `{reporting_time}` | Specify the reporting time | "[specify value]" |
-| `{initial_reporter}` | Specify the initial reporter | "[specify value]" |
-| `{business_impact}` | Specify the business impact | "[specify value]" |
-| `{estimated_loss}` | Specify the estimated loss | "[specify value]" |
-| `{incident_commander}` | Specify the incident commander | "[specify value]" |
-| `{security_team}` | Specify the security team | "[specify value]" |
-| `{it_operations}` | Specify the it operations | "[specify value]" |
-| `{legal_team}` | Specify the legal team | "[specify value]" |
-| `{communications_team}` | Specify the communications team | "[specify value]" |
-| `{external_resources}` | Specify the external resources | "[specify value]" |
-| `{escalation_path}` | Specify the escalation path | "[specify value]" |
-| `{contact_information}` | Specify the contact information | "[specify value]" |
-| `{roles_responsibilities}` | Specify the roles responsibilities | "[specify value]" |
-| `{authority_levels}` | Specify the authority levels | "[specify value]" |
-| `{detection_sources}` | Specify the detection sources | "[specify value]" |
-| `{alert_correlation}` | Specify the alert correlation | "[specify value]" |
-| `{evidence_collection}` | Specify the evidence collection | "[specify value]" |
-| `{forensic_analysis}` | Specify the forensic analysis | "[specify value]" |
-| `{ioc_identification}` | Specify the ioc identification | "[specify value]" |
-| `{attack_timeline}` | Specify the attack timeline | "6 months" |
-| `{attribution_analysis}` | Specify the attribution analysis | "[specify value]" |
-| `{scope_assessment}` | Specify the scope assessment | "[specify value]" |
-| `{impact_analysis}` | Specify the impact analysis | "[specify value]" |
-| `{root_cause_analysis}` | Specify the root cause analysis | "[specify value]" |
-| `{short_term_containment}` | Specify the short term containment | "[specify value]" |
-| `{long_term_containment}` | Specify the long term containment | "[specify value]" |
-| `{system_isolation}` | Specify the system isolation | "[specify value]" |
-| `{network_segmentation}` | Specify the network segmentation | "[specify value]" |
-| `{access_restrictions}` | Specify the access restrictions | "[specify value]" |
-| `{service_disruption}` | Specify the service disruption | "[specify value]" |
-| `{business_continuity}` | Specify the business continuity | "[specify value]" |
-| `{containment_communication}` | Specify the containment communication | "[specify value]" |
-| `{monitoring_enhancement}` | Specify the monitoring enhancement | "[specify value]" |
-| `{evidence_preservation}` | Specify the evidence preservation | "[specify value]" |
-| `{threat_elimination}` | Specify the threat elimination | "[specify value]" |
-| `{system_hardening}` | Specify the system hardening | "[specify value]" |
-| `{patch_management}` | Specify the patch management | "[specify value]" |
-| `{configuration_changes}` | Specify the configuration changes | "[specify value]" |
-| `{recovery_planning}` | Specify the recovery planning | "[specify value]" |
-| `{data_restoration}` | Specify the data restoration | "[specify value]" |
-| `{service_restoration}` | Specify the service restoration | "[specify value]" |
-| `{monitoring_restoration}` | Specify the monitoring restoration | "[specify value]" |
-| `{validation_testing}` | Specify the validation testing | "[specify value]" |
-| `{return_to_operations}` | Specify the return to operations | "[specify value]" |
-| `{internal_communications}` | Specify the internal communications | "[specify value]" |
-| `{external_communications}` | Specify the external communications | "[specify value]" |
-| `{regulatory_reporting}` | Specify the regulatory reporting | "[specify value]" |
-| `{customer_notifications}` | Specify the customer notifications | "[specify value]" |
-| `{media_relations}` | Specify the media relations | "[specify value]" |
-| `{legal_notifications}` | Specify the legal notifications | "[specify value]" |
-| `{stakeholder_updates}` | Specify the stakeholder updates | "2025-01-15" |
-| `{status_reports}` | Specify the status reports | "In Progress" |
-| `{final_report}` | Specify the final report | "[specify value]" |
-| `{incident_documentation}` | Specify the incident documentation | "[specify value]" |
+| `[INCIDENT_ID]` | Specify the incident id | "[specify value]" |
+| `[INCIDENT_TYPE]` | Specify the incident type | "Standard" |
+| `[SEVERITY_LEVEL]` | Specify the severity level | "[specify value]" |
+| `[AFFECTED_SYSTEMS]` | Specify the affected systems | "[specify value]" |
+| `[DISCOVERY_METHOD]` | Specify the discovery method | "[specify value]" |
+| `[DISCOVERY_TIME]` | Specify the discovery time | "[specify value]" |
+| `[REPORTING_TIME]` | Specify the reporting time | "[specify value]" |
+| `[INITIAL_REPORTER]` | Specify the initial reporter | "[specify value]" |
+| `[BUSINESS_IMPACT]` | Specify the business impact | "[specify value]" |
+| `[ESTIMATED_LOSS]` | Specify the estimated loss | "[specify value]" |
+| `[INCIDENT_COMMANDER]` | Specify the incident commander | "[specify value]" |
+| `[SECURITY_TEAM]` | Specify the security team | "[specify value]" |
+| `[IT_OPERATIONS]` | Specify the it operations | "[specify value]" |
+| `[LEGAL_TEAM]` | Specify the legal team | "[specify value]" |
+| `[COMMUNICATIONS_TEAM]` | Specify the communications team | "[specify value]" |
+| `[EXTERNAL_RESOURCES]` | Specify the external resources | "[specify value]" |
+| `[ESCALATION_PATH]` | Specify the escalation path | "[specify value]" |
+| `[CONTACT_INFORMATION]` | Specify the contact information | "[specify value]" |
+| `[ROLES_RESPONSIBILITIES]` | Specify the roles responsibilities | "[specify value]" |
+| `[AUTHORITY_LEVELS]` | Specify the authority levels | "[specify value]" |
+| `[DETECTION_SOURCES]` | Specify the detection sources | "[specify value]" |
+| `[ALERT_CORRELATION]` | Specify the alert correlation | "[specify value]" |
+| `[EVIDENCE_COLLECTION]` | Specify the evidence collection | "[specify value]" |
+| `[FORENSIC_ANALYSIS]` | Specify the forensic analysis | "[specify value]" |
+| `[IOC_IDENTIFICATION]` | Specify the ioc identification | "[specify value]" |
+| `[ATTACK_TIMELINE]` | Specify the attack timeline | "6 months" |
+| `[ATTRIBUTION_ANALYSIS]` | Specify the attribution analysis | "[specify value]" |
+| `[SCOPE_ASSESSMENT]` | Specify the scope assessment | "[specify value]" |
+| `[IMPACT_ANALYSIS]` | Specify the impact analysis | "[specify value]" |
+| `[ROOT_CAUSE_ANALYSIS]` | Specify the root cause analysis | "[specify value]" |
+| `[SHORT_TERM_CONTAINMENT]` | Specify the short term containment | "[specify value]" |
+| `[LONG_TERM_CONTAINMENT]` | Specify the long term containment | "[specify value]" |
+| `[SYSTEM_ISOLATION]` | Specify the system isolation | "[specify value]" |
+| `[NETWORK_SEGMENTATION]` | Specify the network segmentation | "[specify value]" |
+| `[ACCESS_RESTRICTIONS]` | Specify the access restrictions | "[specify value]" |
+| `[SERVICE_DISRUPTION]` | Specify the service disruption | "[specify value]" |
+| `[BUSINESS_CONTINUITY]` | Specify the business continuity | "[specify value]" |
+| `[CONTAINMENT_COMMUNICATION]` | Specify the containment communication | "[specify value]" |
+| `[MONITORING_ENHANCEMENT]` | Specify the monitoring enhancement | "[specify value]" |
+| `[EVIDENCE_PRESERVATION]` | Specify the evidence preservation | "[specify value]" |
+| `[THREAT_ELIMINATION]` | Specify the threat elimination | "[specify value]" |
+| `[SYSTEM_HARDENING]` | Specify the system hardening | "[specify value]" |
+| `[PATCH_MANAGEMENT]` | Specify the patch management | "[specify value]" |
+| `[CONFIGURATION_CHANGES]` | Specify the configuration changes | "[specify value]" |
+| `[RECOVERY_PLANNING]` | Specify the recovery planning | "[specify value]" |
+| `[DATA_RESTORATION]` | Specify the data restoration | "[specify value]" |
+| `[SERVICE_RESTORATION]` | Specify the service restoration | "[specify value]" |
+| `[MONITORING_RESTORATION]` | Specify the monitoring restoration | "[specify value]" |
+| `[VALIDATION_TESTING]` | Specify the validation testing | "[specify value]" |
+| `[RETURN_TO_OPERATIONS]` | Specify the return to operations | "[specify value]" |
+| `[INTERNAL_COMMUNICATIONS]` | Specify the internal communications | "[specify value]" |
+| `[EXTERNAL_COMMUNICATIONS]` | Specify the external communications | "[specify value]" |
+| `[REGULATORY_REPORTING]` | Specify the regulatory reporting | "[specify value]" |
+| `[CUSTOMER_NOTIFICATIONS]` | Specify the customer notifications | "[specify value]" |
+| `[MEDIA_RELATIONS]` | Specify the media relations | "[specify value]" |
+| `[LEGAL_NOTIFICATIONS]` | Specify the legal notifications | "[specify value]" |
+| `[STAKEHOLDER_UPDATES]` | Specify the stakeholder updates | "2025-01-15" |
+| `[STATUS_REPORTS]` | Specify the status reports | "In Progress" |
+| `[FINAL_REPORT]` | Specify the final report | "[specify value]" |
+| `[INCIDENT_DOCUMENTATION]` | Specify the incident documentation | "[specify value]" |
 
 
 

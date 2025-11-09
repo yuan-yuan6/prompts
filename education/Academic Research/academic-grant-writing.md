@@ -3,7 +3,7 @@ title: Grant Writing & Proposals Generator
 category: education/Academic Research
 tags: [automation, communication, design, education, research]
 use_cases:
-  - Implementing create comprehensive grant proposals, funding applications, budget justification...
+  - Creating comprehensive grant proposals, funding applications, budget justifications, and impact statements for academic research funding opportunities.
   - Project planning and execution
   - Strategy development
 related_templates:

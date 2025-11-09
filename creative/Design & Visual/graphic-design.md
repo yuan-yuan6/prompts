@@ -3,7 +3,7 @@ title: Graphic Design Template
 category: creative/Design & Visual
 tags: [creative, design, documentation, marketing, strategy, template]
 use_cases:
-  - Implementing create comprehensive graphic design solutions including layouts, branding, and v...
+  - Creating comprehensive graphic design solutions including layouts, branding, and visuals for both digital and print media across various applications.
   - Project planning and execution
   - Strategy development
 related_templates:

@@ -3,7 +3,8 @@ title: Telemedicine & Virtual Care Delivery Framework
 category: healthcare/Digital Health
 tags: [design, framework, healthcare, security, testing]
 use_cases:
-  - Implementing comprehensive framework for implementing and optimizing telemedicine programs in...
+  - Creating comprehensive framework for implementing and optimizing telemedicine programs including platform selection, clinical workflows, patient engagement, regulatory compliance, and outcome measurement for virtual healthcare delivery.
+
   - Project planning and execution
   - Strategy development
 related_templates:

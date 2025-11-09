@@ -3,7 +3,7 @@ title: Clinical Decision Support Template
 category: healthcare/Clinical Practice
 tags: [documentation, healthcare, template]
 use_cases:
-  - Implementing create comprehensive clinical decision support tools including diagnostic algori...
+  - Creating comprehensive clinical decision support tools including diagnostic algorithms, treatment guidelines, risk assessments, and evidence-based recommendations to enhance clinical judgment and improve patient outcomes.
   - Project planning and execution
   - Strategy development
 related_templates:

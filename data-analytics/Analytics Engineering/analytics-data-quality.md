@@ -3,7 +3,8 @@ title: Data Quality & Validation Template
 category: data-analytics/Analytics Engineering
 tags: [automation, data-analytics, design, machine-learning, management, security, strategy, template]
 use_cases:
-  - Implementing design comprehensive data quality validation frameworks including data profiling...
+  - Creating design comprehensive data quality validation frameworks including data profiling methodologies, validation rule engines, data cleansing processes, quality monitoring systems, and automated data quality management for enterprise data platforms.
+
   - Project planning and execution
   - Strategy development
 related_templates:
@@ -475,7 +476,7 @@ class DataValidationEngine:
                 
                 # Evaluate rule condition
                 if rule_type == 'CONSTRAINT':
-                    violations = dataset.query(f"not ({rule_condition})")
+                    violations = dataset.query(f"not ([RULE_CONDITION])")
                     violation_count = len(violations)
                     
                     if violation_count == 0:
@@ -505,7 +506,7 @@ class DataValidationEngine:
                 elif rule_type == 'AGGREGATION':
                     # Validate aggregation-based rules
                     aggregate_condition = rule['aggregate_condition']
-                    agg_result = eval(f"dataset.{aggregate_condition}")
+                    agg_result = eval(f"dataset.[AGGREGATE_CONDITION]")
                     
                     if agg_result:
                         business_results['tests_passed'] += 1
@@ -611,7 +612,7 @@ class DataValidationEngine:
                 rule_parameters = rule.get('parameters', {})
                 
                 # Execute custom validation function
-                validation_result = eval(f"{rule_function}(dataset, **{rule_parameters})")
+                validation_result = eval(f"[RULE_FUNCTION](dataset, **[RULE_PARAMETERS])")
                 
                 if validation_result['status'] == 'PASS':
                     custom_results['tests_passed'] += 1
@@ -937,7 +938,7 @@ class DataCleansingEngine:
             key_columns = self.config.get('key_columns', None)
             if key_columns:
                 dataset = dataset.drop_duplicates(subset=key_columns, keep='last')
-                duplicate_results['duplicate_strategy'] = f'KEY_COLUMNS: {key_columns}'
+                duplicate_results['duplicate_strategy'] = f'KEY_COLUMNS: [KEY_COLUMNS]'
             else:
                 dataset = dataset.drop_duplicates()
                 duplicate_results['duplicate_strategy'] = 'EXACT_DUPLICATES_ONLY'
@@ -1241,7 +1242,7 @@ class DataQualityMonitor:
         Create interactive data quality dashboard configuration
         """
         dashboard_config = {
-            'dashboard_name': f'Data Quality Dashboard - {data_source}',
+            'dashboard_name': f'Data Quality Dashboard - [DATA_SOURCE]',
             'data_source': data_source,
             'refresh_interval': [DASHBOARD_REFRESH_INTERVAL],
             'widgets': [
@@ -1418,7 +1419,7 @@ class QualityRemediationEngine:
                 else:
                     remediation_results['issues_unresolved'].append({
                         'issue': issue,
-                        'reason': f'Issue not eligible for auto-remediation at {remediation_level} level'
+                        'reason': f'Issue not eligible for auto-remediation at [REMEDIATION_LEVEL] level'
                     })
                     
             except Exception as e:

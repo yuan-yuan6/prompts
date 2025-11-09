@@ -3,7 +3,8 @@ title: Investment Portfolio Optimization & Asset Management Framework
 category: finance/economics
 tags: [data-science, design, finance, framework, management, optimization, research, strategy]
 use_cases:
-  - Implementing comprehensive framework for optimizing investment portfolios including asset all...
+  - Creating comprehensive framework for optimizing investment portfolios including asset allocation, risk management, performance analysis, rebalancing strategies, tax optimization, and alternative investments for maximizing risk-adjusted returns.
+
   - Project planning and execution
   - Strategy development
 related_templates:

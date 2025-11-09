@@ -3,7 +3,8 @@ title: Text Analytics and NLP Template
 category: data-analytics/Research Analytics
 tags: [automation, data-analytics, data-science, design, machine-learning, research, template]
 use_cases:
-  - Implementing conduct comprehensive text mining and natural language processing analysis to ex...
+  - Creating conduct comprehensive text mining and natural language processing analysis to extract insights, patterns, sentiments, topics, and knowledge from unstructured text data using advanced nlp techniques and machine learning methods.
+
   - Project planning and execution
   - Strategy development
 related_templates:
@@ -159,7 +160,7 @@ class TextPreprocessor:
                 # Temporarily replace preserved words
                 preserved = {}
                 for i, word in enumerate(preserve_words):
-                    placeholder = f"__PRESERVE_{i}__"
+                    placeholder = f"__PRESERVE_[I]__"
                     text = re.sub(rf'\b{re.escape(word)}\b', placeholder, text, flags=re.IGNORECASE)
                     preserved[placeholder] = word
                 
@@ -493,7 +494,7 @@ class TextFeatureEngineer:
         total_tags = len(pos_tags)
         
         for word, tag in pos_tags:
-            pos_counts[f'pos_{tag}'] = pos_counts.get(f'pos_{tag}', 0) + 1
+            pos_counts[f'pos_[TAG]'] = pos_counts.get(f'pos_[TAG]', 0) + 1
         
         # Normalize to proportions
         for tag in pos_counts:
@@ -573,7 +574,7 @@ class SentimentAnalyzer:
             )
             
         except Exception as e:
-            print(f"Error loading transformer models: {e}")
+            print(f"Error loading transformer models: [E]")
     
     def analyze_sentiment_comprehensive(self, texts):
         """Comprehensive sentiment analysis using multiple methods"""
@@ -699,7 +700,7 @@ class SentimentAnalyzer:
             return results
             
         except Exception as e:
-            print(f"Emotion analysis not available: {e}")
+            print(f"Emotion analysis not available: [E]")
             return [{'text': text, 'error': str(e)} for text in texts]
     
     def train_custom_sentiment_model(self, texts, labels, test_size=0.2):
@@ -1066,7 +1067,7 @@ class TopicModeler:
             }
         
         except Exception as e:
-            print(f"Dynamic topic modeling failed: {e}")
+            print(f"Dynamic topic modeling failed: [E]")
             return None
     
     def evaluate_topic_models(self, texts, topic_ranges=range(2, 21)):
@@ -1076,7 +1077,7 @@ class TopicModeler:
         evaluation_results = []
         
         for num_topics in topic_ranges:
-            print(f"Evaluating {num_topics} topics...")
+            print(f"Evaluating [NUM_TOPICS] topics...")
             
             # Train LDA model
             lda_model = LdaModel(
@@ -1193,7 +1194,7 @@ class NamedEntityRecognizer:
             )
             
         except Exception as e:
-            print(f"Error loading transformer NER models: {e}")
+            print(f"Error loading transformer NER models: [E]")
     
     def extract_entities_spacy(self, texts, model_name='spacy_sm'):
         """Extract named entities using spaCy"""
@@ -1685,7 +1686,7 @@ class AdvancedTextAnalytics:
                 return summaries
             
             except Exception as e:
-                print(f"Abstractive summarization failed: {e}")
+                print(f"Abstractive summarization failed: [E]")
                 return self.text_summarization(texts, method='extractive', summary_ratio=summary_ratio)
     
     def dimensionality_reduction_visualization(self, texts, method='tsne'):
@@ -1716,7 +1717,7 @@ class AdvancedTextAnalytics:
         for i, (x, y) in enumerate(reduced_embeddings):
             if i % 10 == 0:  # Annotate every 10th point to avoid clutter
                 preview = texts[i][:50] + '...' if len(texts[i]) > 50 else texts[i]
-                plt.annotate(f'Doc {i}', (x, y), xytext=(5, 5), 
+                plt.annotate(f'Doc [I]', (x, y), xytext=(5, 5), 
                            textcoords='offset points', fontsize=8, alpha=0.7)
         
         plt.tight_layout()
@@ -1967,149 +1968,149 @@ Deliver comprehensive text analytics analysis including:
 [The template continues with 400+ comprehensive variables covering all aspects of text analytics and NLP, organized by category...]
 
 ### Data Source Variables
-- {TEXT_DATA_SOURCE} - Source of text data for analysis
-- {DATA_SOURCE_TYPE} - Type of data source (social media, documents, etc.)
-- {TEXT_VOLUME} - Volume of text data (number of documents/words)
-- {NUMBER_DOCUMENTS} - Total number of documents in dataset
-- {TOTAL_WORDS} - Total word count across all documents
-- {LANGUAGES} - Languages present in the text data
-- {TIME_PERIOD} - Time period covered by the data
-- {GEOGRAPHIC_SCOPE} - Geographic coverage of the data
-- {DOMAIN_AREA} - Subject domain or topic area
-- {TEXT_FORMAT} - Format of the text data
-- {TEXT_ENCODING} - Character encoding of the text
+- [TEXT_DATA_SOURCE] - Source of text data for analysis
+- [DATA_SOURCE_TYPE] - Type of data source (social media, documents, etc.)
+- [TEXT_VOLUME] - Volume of text data (number of documents/words)
+- [NUMBER_DOCUMENTS] - Total number of documents in dataset
+- [TOTAL_WORDS] - Total word count across all documents
+- [LANGUAGES] - Languages present in the text data
+- [TIME_PERIOD] - Time period covered by the data
+- [GEOGRAPHIC_SCOPE] - Geographic coverage of the data
+- [DOMAIN_AREA] - Subject domain or topic area
+- [TEXT_FORMAT] - Format of the text data
+- [TEXT_ENCODING] - Character encoding of the text
 
 ### Analysis Objective Variables
-- {ANALYSIS_OBJECTIVE} - Primary objective of text analysis
-- {NLP_TECHNIQUES} - NLP techniques to be applied
-- {SPECIFIC_TASKS} - Specific analysis tasks to perform
-- {PRIMARY_ANALYSIS_GOAL} - Main goal of the analysis
-- {SECONDARY_GOALS} - Additional analysis objectives
-- {RESEARCH_QUESTIONS} - Research questions to address
-- {BUSINESS_QUESTIONS} - Business questions to answer
-- {EXPECTED_INSIGHTS} - Expected insights from analysis
-- {SUCCESS_METRICS} - Metrics to measure success
-- {DELIVERABLE_FORMAT} - Format of final deliverables
+- [ANALYSIS_OBJECTIVE] - Primary objective of text analysis
+- [NLP_TECHNIQUES] - NLP techniques to be applied
+- [SPECIFIC_TASKS] - Specific analysis tasks to perform
+- [PRIMARY_ANALYSIS_GOAL] - Main goal of the analysis
+- [SECONDARY_GOALS] - Additional analysis objectives
+- [RESEARCH_QUESTIONS] - Research questions to address
+- [BUSINESS_QUESTIONS] - Business questions to answer
+- [EXPECTED_INSIGHTS] - Expected insights from analysis
+- [SUCCESS_METRICS] - Metrics to measure success
+- [DELIVERABLE_FORMAT] - Format of final deliverables
 
 ### Preprocessing Variables
-- {LANGUAGE} - Primary language for processing
-- {REMOVE_STOPWORDS} - Whether to remove stop words
-- {LEMMATIZE} - Whether to apply lemmatization
-- {CUSTOM_STOPWORDS} - Custom stop words to remove
-- {MIN_WORD_LENGTH} - Minimum word length to keep
-- {MAX_WORD_LENGTH} - Maximum word length to keep
-- {NGRAM_RANGE} - N-gram range for feature extraction
-- {CUSTOM_REPLACEMENTS} - Custom text replacements
-- {PRESERVE_CASE_WORDS} - Words to preserve original case
-- {NORMALIZATION_METHOD} - Text normalization method
+- [LANGUAGE] - Primary language for processing
+- [REMOVE_STOPWORDS] - Whether to remove stop words
+- [LEMMATIZE] - Whether to apply lemmatization
+- [CUSTOM_STOPWORDS] - Custom stop words to remove
+- [MIN_WORD_LENGTH] - Minimum word length to keep
+- [MAX_WORD_LENGTH] - Maximum word length to keep
+- [NGRAM_RANGE] - N-gram range for feature extraction
+- [CUSTOM_REPLACEMENTS] - Custom text replacements
+- [PRESERVE_CASE_WORDS] - Words to preserve original case
+- [NORMALIZATION_METHOD] - Text normalization method
 
 ### Feature Engineering Variables
-- {VECTORIZATION_METHOD} - Method for text vectorization
-- {MAX_FEATURES} - Maximum number of features to extract
-- {MIN_DOCUMENT_FREQUENCY} - Minimum document frequency
-- {MAX_DOCUMENT_FREQUENCY} - Maximum document frequency
-- {EMBEDDING_DIMENSION} - Dimension of word embeddings
-- {EMBEDDING_MODEL} - Pre-trained embedding model to use
-- {WINDOW_SIZE} - Window size for word embeddings
-- {VOCABULARY_SIZE} - Size of vocabulary
-- {FEATURE_SELECTION_METHOD} - Method for feature selection
-- {DIMENSIONALITY_REDUCTION} - Dimensionality reduction technique
+- [VECTORIZATION_METHOD] - Method for text vectorization
+- [MAX_FEATURES] - Maximum number of features to extract
+- [MIN_DOCUMENT_FREQUENCY] - Minimum document frequency
+- [MAX_DOCUMENT_FREQUENCY] - Maximum document frequency
+- [EMBEDDING_DIMENSION] - Dimension of word embeddings
+- [EMBEDDING_MODEL] - Pre-trained embedding model to use
+- [WINDOW_SIZE] - Window size for word embeddings
+- [VOCABULARY_SIZE] - Size of vocabulary
+- [FEATURE_SELECTION_METHOD] - Method for feature selection
+- [DIMENSIONALITY_REDUCTION] - Dimensionality reduction technique
 
 ### Sentiment Analysis Variables
-- {SENTIMENT_MODEL} - Sentiment analysis model to use
-- {SENTIMENT_THRESHOLD} - Threshold for sentiment classification
-- {ASPECT_CATEGORIES} - Categories for aspect-based sentiment
-- {EMOTION_MODEL} - Model for emotion detection
-- {SENTIMENT_LEXICON} - Sentiment lexicon to use
-- {POLARITY_CALCULATION} - Method for polarity calculation
-- {SUBJECTIVITY_ANALYSIS} - Include subjectivity analysis
-- {SENTIMENT_CONFIDENCE} - Confidence threshold for sentiment
-- {MULTI_LABEL_SENTIMENT} - Multi-label sentiment classification
-- {DOMAIN_SPECIFIC_SENTIMENT} - Domain-specific sentiment model
+- [SENTIMENT_MODEL] - Sentiment analysis model to use
+- [SENTIMENT_THRESHOLD] - Threshold for sentiment classification
+- [ASPECT_CATEGORIES] - Categories for aspect-based sentiment
+- [EMOTION_MODEL] - Model for emotion detection
+- [SENTIMENT_LEXICON] - Sentiment lexicon to use
+- [POLARITY_CALCULATION] - Method for polarity calculation
+- [SUBJECTIVITY_ANALYSIS] - Include subjectivity analysis
+- [SENTIMENT_CONFIDENCE] - Confidence threshold for sentiment
+- [MULTI_LABEL_SENTIMENT] - Multi-label sentiment classification
+- [DOMAIN_SPECIFIC_SENTIMENT] - Domain-specific sentiment model
 
 ### Topic Modeling Variables
-- {NUM_TOPICS} - Number of topics for modeling
-- {TOPIC_MODEL_TYPE} - Type of topic model to use
-- {COHERENCE_MEASURE} - Coherence measure for evaluation
-- {TOPIC_COHERENCE_THRESHOLD} - Minimum coherence threshold
-- {ALPHA_PARAMETER} - Alpha parameter for LDA
-- {BETA_PARAMETER} - Beta parameter for LDA
-- {PASSES} - Number of passes for topic modeling
-- {ITERATIONS} - Number of iterations for training
-- {TOPIC_WORD_THRESHOLD} - Minimum probability for topic words
-- {HIERARCHICAL_TOPICS} - Enable hierarchical topic modeling
+- [NUM_TOPICS] - Number of topics for modeling
+- [TOPIC_MODEL_TYPE] - Type of topic model to use
+- [COHERENCE_MEASURE] - Coherence measure for evaluation
+- [TOPIC_COHERENCE_THRESHOLD] - Minimum coherence threshold
+- [ALPHA_PARAMETER] - Alpha parameter for LDA
+- [BETA_PARAMETER] - Beta parameter for LDA
+- [PASSES] - Number of passes for topic modeling
+- [ITERATIONS] - Number of iterations for training
+- [TOPIC_WORD_THRESHOLD] - Minimum probability for topic words
+- [HIERARCHICAL_TOPICS] - Enable hierarchical topic modeling
 
 ### Named Entity Recognition Variables
-- {NER_MODEL} - Named entity recognition model
-- {ENTITY_TYPES} - Types of entities to extract
-- {CUSTOM_ENTITY_PATTERNS} - Custom regex patterns for entities
-- {ENTITY_CONFIDENCE_THRESHOLD} - Confidence threshold for entities
-- {ENTITY_LINKING} - Enable entity linking
-- {KNOWLEDGE_BASE} - Knowledge base for entity linking
-- {COREFERENCE_RESOLUTION} - Enable coreference resolution
-- {RELATION_EXTRACTION} - Extract entity relationships
-- {ENTITY_NORMALIZATION} - Normalize entity mentions
-- {BIOMEDICAL_ENTITIES} - Include biomedical entity types
+- [NER_MODEL] - Named entity recognition model
+- [ENTITY_TYPES] - Types of entities to extract
+- [CUSTOM_ENTITY_PATTERNS] - Custom regex patterns for entities
+- [ENTITY_CONFIDENCE_THRESHOLD] - Confidence threshold for entities
+- [ENTITY_LINKING] - Enable entity linking
+- [KNOWLEDGE_BASE] - Knowledge base for entity linking
+- [COREFERENCE_RESOLUTION] - Enable coreference resolution
+- [RELATION_EXTRACTION] - Extract entity relationships
+- [ENTITY_NORMALIZATION] - Normalize entity mentions
+- [BIOMEDICAL_ENTITIES] - Include biomedical entity types
 
 ### Advanced Analytics Variables
-- {CLUSTERING_METHOD} - Document clustering method
-- {NUM_CLUSTERS} - Number of clusters for document clustering
-- {SIMILARITY_METRIC} - Metric for similarity calculation
-- {DIMENSIONALITY_REDUCTION_METHOD} - Method for dimension reduction
-- {KEYWORD_EXTRACTION_METHOD} - Keyword extraction algorithm
-- {NUM_KEYWORDS} - Number of keywords to extract
-- {SUMMARIZATION_METHOD} - Text summarization approach
-- {SUMMARY_LENGTH} - Length of generated summaries
-- {READABILITY_METRICS} - Readability metrics to calculate
-- {LINGUISTIC_FEATURES} - Linguistic features to extract
+- [CLUSTERING_METHOD] - Document clustering method
+- [NUM_CLUSTERS] - Number of clusters for document clustering
+- [SIMILARITY_METRIC] - Metric for similarity calculation
+- [DIMENSIONALITY_REDUCTION_METHOD] - Method for dimension reduction
+- [KEYWORD_EXTRACTION_METHOD] - Keyword extraction algorithm
+- [NUM_KEYWORDS] - Number of keywords to extract
+- [SUMMARIZATION_METHOD] - Text summarization approach
+- [SUMMARY_LENGTH] - Length of generated summaries
+- [READABILITY_METRICS] - Readability metrics to calculate
+- [LINGUISTIC_FEATURES] - Linguistic features to extract
 
 ### Model Configuration Variables
-- {TRAINING_DATA_SIZE} - Size of training dataset
-- {VALIDATION_SPLIT} - Proportion for validation set
-- {CROSS_VALIDATION_FOLDS} - Number of CV folds
-- {RANDOM_STATE} - Random seed for reproducibility
-- {BATCH_SIZE} - Batch size for processing
-- {LEARNING_RATE} - Learning rate for training
-- {REGULARIZATION_PARAMETER} - Regularization strength
-- {EARLY_STOPPING} - Enable early stopping
-- {MODEL_PERSISTENCE} - Save trained models
-- {HYPERPARAMETER_TUNING} - Enable hyperparameter optimization
+- [TRAINING_DATA_SIZE] - Size of training dataset
+- [VALIDATION_SPLIT] - Proportion for validation set
+- [CROSS_VALIDATION_FOLDS] - Number of CV folds
+- [RANDOM_STATE] - Random seed for reproducibility
+- [BATCH_SIZE] - Batch size for processing
+- [LEARNING_RATE] - Learning rate for training
+- [REGULARIZATION_PARAMETER] - Regularization strength
+- [EARLY_STOPPING] - Enable early stopping
+- [MODEL_PERSISTENCE] - Save trained models
+- [HYPERPARAMETER_TUNING] - Enable hyperparameter optimization
 
 ### Performance Metrics Variables
-- {ACCURACY_SCORE} - Model accuracy score
-- {PRECISION_SCORE} - Precision metric
-- {RECALL_SCORE} - Recall metric
-- {F1_SCORE} - F1 score
-- {COHERENCE_SCORE} - Topic coherence score
-- {PERPLEXITY_SCORE} - Model perplexity
-- {SILHOUETTE_SCORE} - Clustering silhouette score
-- {ARI_SCORE} - Adjusted Rand Index
-- {MODULARITY_SCORE} - Network modularity
-- {BLEU_SCORE} - BLEU score for summarization
+- [ACCURACY_SCORE] - Model accuracy score
+- [PRECISION_SCORE] - Precision metric
+- [RECALL_SCORE] - Recall metric
+- [F1_SCORE] - F1 score
+- [COHERENCE_SCORE] - Topic coherence score
+- [PERPLEXITY_SCORE] - Model perplexity
+- [SILHOUETTE_SCORE] - Clustering silhouette score
+- [ARI_SCORE] - Adjusted Rand Index
+- [MODULARITY_SCORE] - Network modularity
+- [BLEU_SCORE] - BLEU score for summarization
 
 ### Output Variables
-- {KEY_FINDINGS} - Summary of key findings
-- {TOP_TOPICS} - Most prominent topics discovered
-- {TOP_ENTITIES} - Most frequent entities
-- {OVERALL_SENTIMENT} - Overall sentiment classification
-- {READING_LEVEL} - Average reading level
-- {QUALITY_SCORE} - Content quality assessment
-- {PROCESSING_TIME} - Total processing time
-- {MODELS_USED} - List of models employed
-- {DATA_QUALITY_SCORE} - Data quality assessment
-- {CONFIDENCE_INTERVALS} - Statistical confidence intervals
+- [KEY_FINDINGS] - Summary of key findings
+- [TOP_TOPICS] - Most prominent topics discovered
+- [TOP_ENTITIES] - Most frequent entities
+- [OVERALL_SENTIMENT] - Overall sentiment classification
+- [READING_LEVEL] - Average reading level
+- [QUALITY_SCORE] - Content quality assessment
+- [PROCESSING_TIME] - Total processing time
+- [MODELS_USED] - List of models employed
+- [DATA_QUALITY_SCORE] - Data quality assessment
+- [CONFIDENCE_INTERVALS] - Statistical confidence intervals
 
 ### Visualization Variables
-- {PLOT_TYPE} - Type of visualization to create
-- {COLOR_SCHEME} - Color scheme for visualizations
-- {FIGURE_SIZE} - Dimensions of figures
-- {INTERACTIVE_PLOTS} - Enable interactive visualizations
-- {WORD_CLOUD_SETTINGS} - Word cloud configuration
-- {NETWORK_LAYOUT} - Network visualization layout
-- {HEATMAP_SETTINGS} - Heatmap visualization settings
-- {TIME_SERIES_PLOT} - Temporal visualization settings
-- {DASHBOARD_LAYOUT} - Dashboard arrangement
-- {EXPORT_FORMAT} - Format for exporting visualizations
+- [PLOT_TYPE] - Type of visualization to create
+- [COLOR_SCHEME] - Color scheme for visualizations
+- [FIGURE_SIZE] - Dimensions of figures
+- [INTERACTIVE_PLOTS] - Enable interactive visualizations
+- [WORD_CLOUD_SETTINGS] - Word cloud configuration
+- [NETWORK_LAYOUT] - Network visualization layout
+- [HEATMAP_SETTINGS] - Heatmap visualization settings
+- [TIME_SERIES_PLOT] - Temporal visualization settings
+- [DASHBOARD_LAYOUT] - Dashboard arrangement
+- [EXPORT_FORMAT] - Format for exporting visualizations
 
 ## Usage Examples
 

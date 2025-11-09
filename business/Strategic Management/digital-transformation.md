@@ -3,7 +3,8 @@ title: Digital Transformation Strategy & Implementation Framework
 category: business/Strategic Management
 tags: [business, data-science, design, framework, machine-learning, optimization, research, strategy]
 use_cases:
-  - Implementing comprehensive framework for planning and executing enterprise-wide digital trans...
+  - Creating comprehensive framework for planning and executing enterprise-wide digital transformation initiatives including technology modernization, process digitization, cultural change, and business model innovation.
+
   - Project planning and execution
   - Strategy development
 related_templates:

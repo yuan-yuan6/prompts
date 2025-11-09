@@ -3,7 +3,8 @@ title: Cloud Architecture & Multi-Cloud Strategy Framework
 category: technology
 tags: [data-science, design, development, framework, optimization, security, strategy, technology]
 use_cases:
-  - Implementing comprehensive framework for designing and implementing cloud architecture soluti...
+  - Creating comprehensive framework for designing and implementing cloud architecture solutions including aws, azure, gcp deployments, multi-cloud strategies, hybrid cloud patterns, cost optimization, and cloud-native application design for scalable enterprise systems.
+
   - Project planning and execution
   - Strategy development
 last_updated: 2025-11-09

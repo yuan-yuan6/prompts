@@ -3,7 +3,7 @@ title: Patient Safety Programs Template
 category: healthcare/Healthcare Administration
 tags: [communication, design, healthcare, management, template, testing]
 use_cases:
-  - Implementing create comprehensive patient safety initiatives, error prevention systems, safet...
+  - Creating comprehensive patient safety initiatives, error prevention systems, safety culture assessments, and incident response protocols that minimize patient harm and promote a culture of safety throughout healthcare organizations.
   - Project planning and execution
   - Strategy development
 related_templates:

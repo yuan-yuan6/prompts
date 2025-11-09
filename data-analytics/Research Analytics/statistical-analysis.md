@@ -3,7 +3,8 @@ title: Statistical Analysis and Inference Template
 category: data-analytics/Research Analytics
 tags: [data-analytics, data-science, design, machine-learning, research, template]
 use_cases:
-  - Implementing conduct comprehensive statistical analysis and inference to test hypotheses, est...
+  - Creating conduct comprehensive statistical analysis and inference to test hypotheses, estimate parameters, make predictions, and draw valid conclusions from data using advanced statistical methods and frameworks.
+
   - Project planning and execution
   - Strategy development
 related_templates:
@@ -255,7 +256,7 @@ def test_normality_comprehensive(data, variables, groups=None):
                 if len(subset) < 3:
                     continue
                     
-                results[f"{var}_{group}"] = {
+                results[f"[VAR]_[GROUP]"] = {
                     'shapiro_w': shapiro(subset)[0],
                     'shapiro_p': shapiro(subset)[1],
                     'dagostino_k2': normaltest(subset)[0],
@@ -484,7 +485,7 @@ def oneway_anova(data, outcome_var, group_var):
 def twoway_anova(data, outcome_var, factor1, factor2):
     """Two-way ANOVA with interaction"""
     # Create model formula
-    formula = f'{outcome_var} ~ C({factor1}) + C({factor2}) + C({factor1}):C({factor2})'
+    formula = f'[OUTCOME_VAR] ~ C([FACTOR1]) + C([FACTOR2]) + C([FACTOR1]):C([FACTOR2])'
     
     # Fit model
     model = ols(formula, data=data).fit()
@@ -541,11 +542,11 @@ def multiple_regression(data, outcome_var, predictor_vars, categorical_vars=None
     # Prepare formula
     predictors = ' + '.join(predictor_vars)
     if categorical_vars:
-        cat_terms = [f'C({var})' for var in categorical_vars if var in predictor_vars]
+        cat_terms = [f'C([VAR])' for var in categorical_vars if var in predictor_vars]
         cont_terms = [var for var in predictor_vars if var not in categorical_vars]
         predictors = ' + '.join(cont_terms + cat_terms)
     
-    formula = f'{outcome_var} ~ {predictors}'
+    formula = f'[OUTCOME_VAR] ~ [PREDICTORS]'
     
     # Fit model
     model = smf.ols(formula, data=data).fit()
@@ -603,7 +604,7 @@ def logistic_regression(data, outcome_var, predictor_vars):
     """Logistic regression analysis"""
     # Prepare formula
     predictors = ' + '.join(predictor_vars)
-    formula = f'{outcome_var} ~ {predictors}'
+    formula = f'[OUTCOME_VAR] ~ [PREDICTORS]'
     
     # Fit model
     model = smf.logit(formula, data=data).fit()
@@ -1132,9 +1133,9 @@ def assumption_check_report(data, test_type):
         report.append("1. Normality: ")
         for var, results in normality_results.items():
             if results['shapiro_p'] > 0.05:
-                report.append(f"   - {var}: Normal (Shapiro-Wilk p = {results['shapiro_p']:.3f})")
+                report.append(f"   - [VAR]: Normal (Shapiro-Wilk p = {results['shapiro_p']:.3f})")
             else:
-                report.append(f"   - {var}: Non-normal (Shapiro-Wilk p = {results['shapiro_p']:.3f})")
+                report.append(f"   - [VAR]: Non-normal (Shapiro-Wilk p = {results['shapiro_p']:.3f})")
     
     if test_type in ['ttest_ind', 'anova']:
         # Check homogeneity of variance
@@ -1175,7 +1176,7 @@ def create_statistical_plots(data, results, plot_type):
         # Histogram overlay
         for i, group in enumerate(data[group_var].unique()):
             subset = data[data[group_var] == group][outcome_var]
-            axes[0, 2].hist(subset, alpha=0.7, label=f'Group {group}', bins=20)
+            axes[0, 2].hist(subset, alpha=0.7, label=f'Group [GROUP]', bins=20)
         axes[0, 2].legend()
         axes[0, 2].set_title('Distribution Overlay')
         
@@ -1184,7 +1185,7 @@ def create_statistical_plots(data, results, plot_type):
         groups = data.groupby(group_var)
         for i, (name, group) in enumerate(groups):
             probplot(group[outcome_var], dist="norm", plot=axes[1, i])
-            axes[1, i].set_title(f'Q-Q Plot: {name}')
+            axes[1, i].set_title(f'Q-Q Plot: [NAME]')
         
         # Effect size visualization
         effect_size = results['cohens_d']
@@ -1216,7 +1217,7 @@ def create_statistical_plots(data, results, plot_type):
         for n in sample_sizes:
             power_values = power_analysis.solve_power(effect_size=effect_sizes, 
                                                      nobs=n, alpha=0.05)
-            axes[0, 0].plot(effect_sizes, power_values, label=f'n={n}')
+            axes[0, 0].plot(effect_sizes, power_values, label=f'n=[N]')
         
         axes[0, 0].axhline(y=0.8, color='red', linestyle='--', label='Power=0.8')
         axes[0, 0].set_xlabel('Effect Size (Cohen\'s d)')
@@ -1232,7 +1233,7 @@ def create_statistical_plots(data, results, plot_type):
         for es in effect_sizes_power:
             power_values = power_analysis.solve_power(effect_size=es, 
                                                      nobs=sample_sizes, alpha=0.05)
-            axes[0, 1].plot(sample_sizes, power_values, label=f'd={es}')
+            axes[0, 1].plot(sample_sizes, power_values, label=f'd=[ES]')
         
         axes[0, 1].axhline(y=0.8, color='red', linestyle='--', label='Power=0.8')
         axes[0, 1].set_xlabel('Sample Size per Group')
@@ -1320,292 +1321,292 @@ Deliver comprehensive statistical analysis including:
 ## Variables
 
 ### Research Design Variables
-- {RESEARCH_OBJECTIVE} - Primary research objective and goal
-- {STUDY_TYPE} - Type of study design (experimental, observational, etc.)
-- {DESIGN_TYPE} - Specific design methodology (RCT, cohort, etc.)
-- {TARGET_POPULATION} - Population of interest for inference
-- {SAMPLING_FRAME} - Accessible population for sampling
-- {UNIT_OF_ANALYSIS} - Unit being analyzed (individuals, groups, etc.)
-- {TIME_HORIZON} - Temporal scope of the study
-- {PRIMARY_RESEARCH_QUESTION} - Main research question
-- {STATISTICAL_HYPOTHESES} - Statistical hypotheses formulation
-- {NULL_HYPOTHESIS} - Null hypothesis statement
-- {ALTERNATIVE_HYPOTHESIS} - Alternative hypothesis statement
-- {HYPOTHESIS_DIRECTION} - One-tailed or two-tailed test
-- {ALPHA_LEVEL} - Type I error rate (significance level)
-- {BETA_LEVEL} - Type II error rate
-- {STATISTICAL_POWER} - Statistical power (1 - β)
+- [RESEARCH_OBJECTIVE] - Primary research objective and goal
+- [STUDY_TYPE] - Type of study design (experimental, observational, etc.)
+- [DESIGN_TYPE] - Specific design methodology (RCT, cohort, etc.)
+- [TARGET_POPULATION] - Population of interest for inference
+- [SAMPLING_FRAME] - Accessible population for sampling
+- [UNIT_OF_ANALYSIS] - Unit being analyzed (individuals, groups, etc.)
+- [TIME_HORIZON] - Temporal scope of the study
+- [PRIMARY_RESEARCH_QUESTION] - Main research question
+- [STATISTICAL_HYPOTHESES] - Statistical hypotheses formulation
+- [NULL_HYPOTHESIS] - Null hypothesis statement
+- [ALTERNATIVE_HYPOTHESIS] - Alternative hypothesis statement
+- [HYPOTHESIS_DIRECTION] - One-tailed or two-tailed test
+- [ALPHA_LEVEL] - Type I error rate (significance level)
+- [BETA_LEVEL] - Type II error rate
+- [STATISTICAL_POWER] - Statistical power (1 - β)
 
 ### Variable Definitions
-- {PRIMARY_OUTCOME} - Primary dependent variable
-- {SECONDARY_OUTCOMES} - Secondary outcome measures
-- {PRIMARY_PREDICTOR} - Main independent variable
-- {COVARIATES} - Control variables
-- {CONFOUNDERS} - Confounding variables
-- {MEDIATORS} - Mediating variables
-- {MODERATORS} - Moderating variables
-- {STRATIFICATION_VARS} - Variables for stratification
-- {CONTINUOUS_VARIABLES} - List of continuous variables
-- {CATEGORICAL_VARIABLES} - List of categorical variables
-- {GROUP_VARIABLE} - Grouping variable for comparisons
-- {OUTCOME_VARIABLE} - Primary outcome variable name
+- [PRIMARY_OUTCOME] - Primary dependent variable
+- [SECONDARY_OUTCOMES] - Secondary outcome measures
+- [PRIMARY_PREDICTOR] - Main independent variable
+- [COVARIATES] - Control variables
+- [CONFOUNDERS] - Confounding variables
+- [MEDIATORS] - Mediating variables
+- [MODERATORS] - Moderating variables
+- [STRATIFICATION_VARS] - Variables for stratification
+- [CONTINUOUS_VARIABLES] - List of continuous variables
+- [CATEGORICAL_VARIABLES] - List of categorical variables
+- [GROUP_VARIABLE] - Grouping variable for comparisons
+- [OUTCOME_VARIABLE] - Primary outcome variable name
 
 ### Sample Size and Power
-- {EFFECT_SIZE_COHENS_D} - Expected Cohen's d effect size
-- {EFFECT_SIZE_F} - Expected f effect size for ANOVA
-- {EFFECT_SIZE_F2} - Expected f² effect size for regression
-- {EFFECT_SIZE_H} - Expected h effect size for proportions
-- {EFFECT_SIZE_W} - Expected w effect size for chi-square
-- {SAMPLE_SIZE_PER_GROUP} - Sample size per group
-- {NUMBER_OF_GROUPS} - Number of groups in analysis
-- {TOTAL_SAMPLE_SIZE} - Total sample size
-- {NUMERATOR_DF} - Numerator degrees of freedom
-- {DENOMINATOR_DF} - Denominator degrees of freedom
-- {CORRELATION_COEFFICIENT} - Expected correlation
-- {MINIMUM_EFFECT} - Minimum detectable effect size
-- {EXPECTED_EFFECT_SIZE} - Expected effect size
-- {REQUIRED_N} - Required sample size
-- {PLANNED_N} - Planned sample size
-- {ATTRITION_RATE} - Expected attrition rate
-- {FINAL_N} - Final sample size accounting for attrition
-- {ACHIEVED_POWER} - Achieved statistical power
-- {CONFIDENCE_INTERVAL_WIDTH} - Precision requirement
+- [EFFECT_SIZE_COHENS_D] - Expected Cohen's d effect size
+- [EFFECT_SIZE_F] - Expected f effect size for ANOVA
+- [EFFECT_SIZE_F2] - Expected f² effect size for regression
+- [EFFECT_SIZE_H] - Expected h effect size for proportions
+- [EFFECT_SIZE_W] - Expected w effect size for chi-square
+- [SAMPLE_SIZE_PER_GROUP] - Sample size per group
+- [NUMBER_OF_GROUPS] - Number of groups in analysis
+- [TOTAL_SAMPLE_SIZE] - Total sample size
+- [NUMERATOR_DF] - Numerator degrees of freedom
+- [DENOMINATOR_DF] - Denominator degrees of freedom
+- [CORRELATION_COEFFICIENT] - Expected correlation
+- [MINIMUM_EFFECT] - Minimum detectable effect size
+- [EXPECTED_EFFECT_SIZE] - Expected effect size
+- [REQUIRED_N] - Required sample size
+- [PLANNED_N] - Planned sample size
+- [ATTRITION_RATE] - Expected attrition rate
+- [FINAL_N] - Final sample size accounting for attrition
+- [ACHIEVED_POWER] - Achieved statistical power
+- [CONFIDENCE_INTERVAL_WIDTH] - Precision requirement
 
 ### Test Parameters
-- {TEST_TYPE} - Type of statistical test
-- {ALTERNATIVE} - Alternative hypothesis direction
-- {DEGREES_OF_FREEDOM} - Degrees of freedom
-- {EQUAL_VAR_ASSUMED} - Whether equal variance assumed
-- {CONFIDENCE_LEVEL} - Confidence level (e.g., 0.95)
-- {BOOTSTRAP_SAMPLES} - Number of bootstrap samples
-- {MCMC_SAMPLES} - Number of MCMC samples
-- {MCMC_CHAINS} - Number of MCMC chains
-- {BURN_IN} - Burn-in samples for MCMC
+- [TEST_TYPE] - Type of statistical test
+- [ALTERNATIVE] - Alternative hypothesis direction
+- [DEGREES_OF_FREEDOM] - Degrees of freedom
+- [EQUAL_VAR_ASSUMED] - Whether equal variance assumed
+- [CONFIDENCE_LEVEL] - Confidence level (e.g., 0.95)
+- [BOOTSTRAP_SAMPLES] - Number of bootstrap samples
+- [MCMC_SAMPLES] - Number of MCMC samples
+- [MCMC_CHAINS] - Number of MCMC chains
+- [BURN_IN] - Burn-in samples for MCMC
 
 ### Descriptive Statistics
-- {SAMPLE_SIZE} - Sample size
-- {MEAN} - Sample mean
-- {MEDIAN} - Sample median
-- {MODE} - Sample mode
-- {STANDARD_DEVIATION} - Sample standard deviation
-- {VARIANCE} - Sample variance
-- {MINIMUM} - Minimum value
-- {MAXIMUM} - Maximum value
-- {RANGE} - Data range
-- {Q1} - First quartile
-- {Q3} - Third quartile
-- {IQR} - Interquartile range
-- {SKEWNESS} - Skewness measure
-- {KURTOSIS} - Kurtosis measure
-- {CV} - Coefficient of variation
-- {SEM} - Standard error of the mean
-- {CI_95_LOWER} - 95% CI lower bound
-- {CI_95_UPPER} - 95% CI upper bound
+- [SAMPLE_SIZE] - Sample size
+- [MEAN] - Sample mean
+- [MEDIAN] - Sample median
+- [MODE] - Sample mode
+- [STANDARD_DEVIATION] - Sample standard deviation
+- [VARIANCE] - Sample variance
+- [MINIMUM] - Minimum value
+- [MAXIMUM] - Maximum value
+- [RANGE] - Data range
+- [Q1] - First quartile
+- [Q3] - Third quartile
+- [IQR] - Interquartile range
+- [SKEWNESS] - Skewness measure
+- [KURTOSIS] - Kurtosis measure
+- [CV] - Coefficient of variation
+- [SEM] - Standard error of the mean
+- [CI_95_LOWER] - 95% CI lower bound
+- [CI_95_UPPER] - 95% CI upper bound
 
 ### Test Results
-- {TEST_STATISTIC} - Test statistic value
-- {P_VALUE} - P-value
-- {T_STATISTIC} - T-test statistic
-- {F_STATISTIC} - F-test statistic
-- {CHI_SQUARE_STATISTIC} - Chi-square statistic
-- {U_STATISTIC} - Mann-Whitney U statistic
-- {W_STATISTIC} - Wilcoxon W statistic
-- {H_STATISTIC} - Kruskal-Wallis H statistic
-- {Z_STATISTIC} - Z-test statistic
-- {CRITICAL_VALUE} - Critical value
-- {DEGREES_OF_FREEDOM_NUM} - Numerator DF
-- {DEGREES_OF_FREEDOM_DEN} - Denominator DF
+- [TEST_STATISTIC] - Test statistic value
+- [P_VALUE] - P-value
+- [T_STATISTIC] - T-test statistic
+- [F_STATISTIC] - F-test statistic
+- [CHI_SQUARE_STATISTIC] - Chi-square statistic
+- [U_STATISTIC] - Mann-Whitney U statistic
+- [W_STATISTIC] - Wilcoxon W statistic
+- [H_STATISTIC] - Kruskal-Wallis H statistic
+- [Z_STATISTIC] - Z-test statistic
+- [CRITICAL_VALUE] - Critical value
+- [DEGREES_OF_FREEDOM_NUM] - Numerator DF
+- [DEGREES_OF_FREEDOM_DEN] - Denominator DF
 
 ### Effect Sizes
-- {COHENS_D} - Cohen's d effect size
-- {HEDGES_G} - Hedges' g effect size
-- {GLASS_DELTA} - Glass's delta effect size
-- {ETA_SQUARED} - Eta-squared effect size
-- {PARTIAL_ETA_SQUARED} - Partial eta-squared
-- {OMEGA_SQUARED} - Omega-squared effect size
-- {COHENS_F} - Cohen's f effect size
-- {R_SQUARED} - R-squared (coefficient of determination)
-- {ADJUSTED_R_SQUARED} - Adjusted R-squared
-- {PARTIAL_R_SQUARED} - Partial R-squared
-- {SEMIPARTIAL_R_SQUARED} - Semipartial R-squared
-- {RANK_BISERIAL_R} - Rank-biserial correlation
-- {COMMON_LANGUAGE_ES} - Common language effect size
-- {PROBABILITY_SUPERIORITY} - Probability of superiority
-- {HODGES_LEHMANN} - Hodges-Lehmann estimator
+- [COHENS_D] - Cohen's d effect size
+- [HEDGES_G] - Hedges' g effect size
+- [GLASS_DELTA] - Glass's delta effect size
+- [ETA_SQUARED] - Eta-squared effect size
+- [PARTIAL_ETA_SQUARED] - Partial eta-squared
+- [OMEGA_SQUARED] - Omega-squared effect size
+- [COHENS_F] - Cohen's f effect size
+- [R_SQUARED] - R-squared (coefficient of determination)
+- [ADJUSTED_R_SQUARED] - Adjusted R-squared
+- [PARTIAL_R_SQUARED] - Partial R-squared
+- [SEMIPARTIAL_R_SQUARED] - Semipartial R-squared
+- [RANK_BISERIAL_R] - Rank-biserial correlation
+- [COMMON_LANGUAGE_ES] - Common language effect size
+- [PROBABILITY_SUPERIORITY] - Probability of superiority
+- [HODGES_LEHMANN] - Hodges-Lehmann estimator
 
 ### Confidence Intervals
-- {CI_LOWER} - Confidence interval lower bound
-- {CI_UPPER} - Confidence interval upper bound
-- {CI_WIDTH} - Confidence interval width
-- {MARGIN_ERROR} - Margin of error
-- {BOOTSTRAP_CI_LOWER} - Bootstrap CI lower bound
-- {BOOTSTRAP_CI_UPPER} - Bootstrap CI upper bound
-- {BAYESIAN_CI_LOWER} - Bayesian credible interval lower
-- {BAYESIAN_CI_UPPER} - Bayesian credible interval upper
-- {ROBUST_CI_LOWER} - Robust CI lower bound
-- {ROBUST_CI_UPPER} - Robust CI upper bound
+- [CI_LOWER] - Confidence interval lower bound
+- [CI_UPPER] - Confidence interval upper bound
+- [CI_WIDTH] - Confidence interval width
+- [MARGIN_ERROR] - Margin of error
+- [BOOTSTRAP_CI_LOWER] - Bootstrap CI lower bound
+- [BOOTSTRAP_CI_UPPER] - Bootstrap CI upper bound
+- [BAYESIAN_CI_LOWER] - Bayesian credible interval lower
+- [BAYESIAN_CI_UPPER] - Bayesian credible interval upper
+- [ROBUST_CI_LOWER] - Robust CI lower bound
+- [ROBUST_CI_UPPER] - Robust CI upper bound
 
 ### Assumption Testing
-- {NORMALITY_TEST} - Normality test used
-- {NORMALITY_STATISTIC} - Normality test statistic
-- {NORMALITY_P_VALUE} - Normality test p-value
-- {SHAPIRO_W} - Shapiro-Wilk W statistic
-- {SHAPIRO_P} - Shapiro-Wilk p-value
-- {KOLMOGOROV_D} - Kolmogorov-Smirnov D statistic
-- {KOLMOGOROV_P} - Kolmogorov-Smirnov p-value
-- {ANDERSON_A2} - Anderson-Darling A² statistic
-- {JARQUE_BERA_JB} - Jarque-Bera JB statistic
-- {JARQUE_BERA_P} - Jarque-Bera p-value
-- {LEVENE_STATISTIC} - Levene's test statistic
-- {LEVENE_P_VALUE} - Levene's test p-value
-- {BARTLETT_STATISTIC} - Bartlett's test statistic
-- {BARTLETT_P_VALUE} - Bartlett's test p-value
-- {FLIGNER_STATISTIC} - Fligner-Killeen statistic
-- {FLIGNER_P_VALUE} - Fligner-Killeen p-value
-- {DURBIN_WATSON} - Durbin-Watson statistic
-- {BREUSCH_PAGAN_P} - Breusch-Pagan test p-value
-- {WHITE_TEST_P} - White's test p-value
+- [NORMALITY_TEST] - Normality test used
+- [NORMALITY_STATISTIC] - Normality test statistic
+- [NORMALITY_P_VALUE] - Normality test p-value
+- [SHAPIRO_W] - Shapiro-Wilk W statistic
+- [SHAPIRO_P] - Shapiro-Wilk p-value
+- [KOLMOGOROV_D] - Kolmogorov-Smirnov D statistic
+- [KOLMOGOROV_P] - Kolmogorov-Smirnov p-value
+- [ANDERSON_A2] - Anderson-Darling A² statistic
+- [JARQUE_BERA_JB] - Jarque-Bera JB statistic
+- [JARQUE_BERA_P] - Jarque-Bera p-value
+- [LEVENE_STATISTIC] - Levene's test statistic
+- [LEVENE_P_VALUE] - Levene's test p-value
+- [BARTLETT_STATISTIC] - Bartlett's test statistic
+- [BARTLETT_P_VALUE] - Bartlett's test p-value
+- [FLIGNER_STATISTIC] - Fligner-Killeen statistic
+- [FLIGNER_P_VALUE] - Fligner-Killeen p-value
+- [DURBIN_WATSON] - Durbin-Watson statistic
+- [BREUSCH_PAGAN_P] - Breusch-Pagan test p-value
+- [WHITE_TEST_P] - White's test p-value
 
 ### Multiple Testing
-- {BONFERRONI_ALPHA} - Bonferroni corrected alpha
-- {HOLM_ALPHA} - Holm corrected alpha
-- {FDR_Q_VALUE} - False discovery rate q-value
-- {BENJAMINI_HOCHBERG_P} - B-H corrected p-values
-- {SIDAK_ALPHA} - Šidák corrected alpha
-- {NUM_COMPARISONS} - Number of comparisons
-- {FAMILY_WISE_ERROR} - Family-wise error rate
-- {FALSE_DISCOVERY_RATE} - False discovery rate
-- {NUM_REJECTED} - Number of rejected hypotheses
+- [BONFERRONI_ALPHA] - Bonferroni corrected alpha
+- [HOLM_ALPHA] - Holm corrected alpha
+- [FDR_Q_VALUE] - False discovery rate q-value
+- [BENJAMINI_HOCHBERG_P] - B-H corrected p-values
+- [SIDAK_ALPHA] - Šidák corrected alpha
+- [NUM_COMPARISONS] - Number of comparisons
+- [FAMILY_WISE_ERROR] - Family-wise error rate
+- [FALSE_DISCOVERY_RATE] - False discovery rate
+- [NUM_REJECTED] - Number of rejected hypotheses
 
 ### Regression Variables
-- {REGRESSION_FORMULA} - Regression model formula
-- {PREDICTOR_VARIABLES} - List of predictor variables
-- {INTERCEPT} - Regression intercept
-- {SLOPE_COEFFICIENT} - Slope coefficient
-- {REGRESSION_COEFFICIENTS} - All regression coefficients
-- {STANDARD_ERRORS} - Standard errors of coefficients
-- {T_VALUES} - T-values for coefficients
-- {COEFFICIENT_P_VALUES} - P-values for coefficients
-- {VIF_VALUES} - Variance inflation factors
-- {RESIDUALS} - Model residuals
-- {FITTED_VALUES} - Fitted values
-- {STANDARDIZED_RESIDUALS} - Standardized residuals
-- {COOK_DISTANCES} - Cook's distances
-- {LEVERAGE_VALUES} - Leverage values
-- {DFBETAS} - DFBETAS values
-- {MODEL_AIC} - Akaike Information Criterion
-- {MODEL_BIC} - Bayesian Information Criterion
-- {LOG_LIKELIHOOD} - Log-likelihood
-- {PSEUDO_R_SQUARED} - Pseudo R-squared (logistic)
+- [REGRESSION_FORMULA] - Regression model formula
+- [PREDICTOR_VARIABLES] - List of predictor variables
+- [INTERCEPT] - Regression intercept
+- [SLOPE_COEFFICIENT] - Slope coefficient
+- [REGRESSION_COEFFICIENTS] - All regression coefficients
+- [STANDARD_ERRORS] - Standard errors of coefficients
+- [T_VALUES] - T-values for coefficients
+- [COEFFICIENT_P_VALUES] - P-values for coefficients
+- [VIF_VALUES] - Variance inflation factors
+- [RESIDUALS] - Model residuals
+- [FITTED_VALUES] - Fitted values
+- [STANDARDIZED_RESIDUALS] - Standardized residuals
+- [COOK_DISTANCES] - Cook's distances
+- [LEVERAGE_VALUES] - Leverage values
+- [DFBETAS] - DFBETAS values
+- [MODEL_AIC] - Akaike Information Criterion
+- [MODEL_BIC] - Bayesian Information Criterion
+- [LOG_LIKELIHOOD] - Log-likelihood
+- [PSEUDO_R_SQUARED] - Pseudo R-squared (logistic)
 
 ### Bayesian Analysis
-- {PRIOR_DISTRIBUTION} - Prior distribution specification
-- {POSTERIOR_DISTRIBUTION} - Posterior distribution
-- {POSTERIOR_MEAN} - Posterior mean
-- {POSTERIOR_MEDIAN} - Posterior median
-- {POSTERIOR_MODE} - Posterior mode
-- {POSTERIOR_SD} - Posterior standard deviation
-- {CREDIBLE_INTERVAL_LOWER} - Credible interval lower bound
-- {CREDIBLE_INTERVAL_UPPER} - Credible interval upper bound
-- {BAYES_FACTOR} - Bayes factor
-- {POSTERIOR_PROBABILITY} - Posterior probability
-- {PRIOR_ODDS} - Prior odds
-- {POSTERIOR_ODDS} - Posterior odds
-- {EVIDENCE} - Model evidence
-- {DIC} - Deviance Information Criterion
-- {WAIC} - Watanabe-Akaike Information Criterion
-- {RHAT} - R-hat convergence diagnostic
-- {EFFECTIVE_SAMPLE_SIZE} - Effective sample size
-- {MCMC_DIAGNOSTICS} - MCMC diagnostics summary
+- [PRIOR_DISTRIBUTION] - Prior distribution specification
+- [POSTERIOR_DISTRIBUTION] - Posterior distribution
+- [POSTERIOR_MEAN] - Posterior mean
+- [POSTERIOR_MEDIAN] - Posterior median
+- [POSTERIOR_MODE] - Posterior mode
+- [POSTERIOR_SD] - Posterior standard deviation
+- [CREDIBLE_INTERVAL_LOWER] - Credible interval lower bound
+- [CREDIBLE_INTERVAL_UPPER] - Credible interval upper bound
+- [BAYES_FACTOR] - Bayes factor
+- [POSTERIOR_PROBABILITY] - Posterior probability
+- [PRIOR_ODDS] - Prior odds
+- [POSTERIOR_ODDS] - Posterior odds
+- [EVIDENCE] - Model evidence
+- [DIC] - Deviance Information Criterion
+- [WAIC] - Watanabe-Akaike Information Criterion
+- [RHAT] - R-hat convergence diagnostic
+- [EFFECTIVE_SAMPLE_SIZE] - Effective sample size
+- [MCMC_DIAGNOSTICS] - MCMC diagnostics summary
 
 ### Non-parametric Tests
-- {MANN_WHITNEY_U} - Mann-Whitney U statistic
-- {WILCOXON_W} - Wilcoxon W statistic
-- {KRUSKAL_WALLIS_H} - Kruskal-Wallis H statistic
-- {FRIEDMAN_STATISTIC} - Friedman test statistic
-- {SIGN_TEST_STATISTIC} - Sign test statistic
-- {RUNS_TEST_STATISTIC} - Runs test statistic
-- {MEDIAN_TEST_STATISTIC} - Median test statistic
-- {EPSILON_SQUARED} - Epsilon-squared effect size
-- {RANK_SUM_1} - Rank sum for group 1
-- {RANK_SUM_2} - Rank sum for group 2
-- {TIED_RANKS} - Number of tied ranks
-- {CONTINUITY_CORRECTION} - Continuity correction applied
+- [MANN_WHITNEY_U] - Mann-Whitney U statistic
+- [WILCOXON_W] - Wilcoxon W statistic
+- [KRUSKAL_WALLIS_H] - Kruskal-Wallis H statistic
+- [FRIEDMAN_STATISTIC] - Friedman test statistic
+- [SIGN_TEST_STATISTIC] - Sign test statistic
+- [RUNS_TEST_STATISTIC] - Runs test statistic
+- [MEDIAN_TEST_STATISTIC] - Median test statistic
+- [EPSILON_SQUARED] - Epsilon-squared effect size
+- [RANK_SUM_1] - Rank sum for group 1
+- [RANK_SUM_2] - Rank sum for group 2
+- [TIED_RANKS] - Number of tied ranks
+- [CONTINUITY_CORRECTION] - Continuity correction applied
 
 ### Outlier Detection
-- {OUTLIERS_IQR} - Number of IQR-based outliers
-- {OUTLIERS_Z_SCORE} - Number of z-score outliers
-- {OUTLIERS_MODIFIED_Z} - Modified z-score outliers
-- {OUTLIER_THRESHOLD} - Outlier detection threshold
-- {OUTLIER_METHOD} - Outlier detection method
-- {EXTREME_VALUES} - Extreme values identified
-- {INFLUENTIAL_POINTS} - Influential data points
-- {LEVERAGE_CUTOFF} - Leverage cutoff value
-- {COOK_CUTOFF} - Cook's distance cutoff
+- [OUTLIERS_IQR] - Number of IQR-based outliers
+- [OUTLIERS_Z_SCORE] - Number of z-score outliers
+- [OUTLIERS_MODIFIED_Z] - Modified z-score outliers
+- [OUTLIER_THRESHOLD] - Outlier detection threshold
+- [OUTLIER_METHOD] - Outlier detection method
+- [EXTREME_VALUES] - Extreme values identified
+- [INFLUENTIAL_POINTS] - Influential data points
+- [LEVERAGE_CUTOFF] - Leverage cutoff value
+- [COOK_CUTOFF] - Cook's distance cutoff
 
 ### Missing Data
-- {MISSING_PATTERN} - Missing data pattern
-- {MISSING_MECHANISM} - Missing data mechanism
-- {LISTWISE_N} - Listwise deletion sample size
-- {PAIRWISE_N} - Pairwise deletion sample size
-- {IMPUTATION_METHOD} - Imputation method used
-- {MULTIPLE_IMPUTATIONS} - Number of imputations
-- {IMPUTATION_CONVERGENCE} - Imputation convergence
-- {MICE_ITERATIONS} - MICE algorithm iterations
+- [MISSING_PATTERN] - Missing data pattern
+- [MISSING_MECHANISM] - Missing data mechanism
+- [LISTWISE_N] - Listwise deletion sample size
+- [PAIRWISE_N] - Pairwise deletion sample size
+- [IMPUTATION_METHOD] - Imputation method used
+- [MULTIPLE_IMPUTATIONS] - Number of imputations
+- [IMPUTATION_CONVERGENCE] - Imputation convergence
+- [MICE_ITERATIONS] - MICE algorithm iterations
 
 ### Sensitivity Analysis
-- {SENSITIVITY_METHODS} - Sensitivity analysis methods
-- {ROBUST_RESULTS} - Robust analysis results
-- {ALTERNATIVE_TESTS} - Alternative test results
-- {BOOTSTRAP_RESULTS} - Bootstrap analysis results
-- {JACKKNIFE_RESULTS} - Jackknife analysis results
-- {LEAVE_ONE_OUT} - Leave-one-out analysis
-- {INFLUENCE_MEASURES} - Influence measures
-- {STABILITY_CHECK} - Stability check results
+- [SENSITIVITY_METHODS] - Sensitivity analysis methods
+- [ROBUST_RESULTS] - Robust analysis results
+- [ALTERNATIVE_TESTS] - Alternative test results
+- [BOOTSTRAP_RESULTS] - Bootstrap analysis results
+- [JACKKNIFE_RESULTS] - Jackknife analysis results
+- [LEAVE_ONE_OUT] - Leave-one-out analysis
+- [INFLUENCE_MEASURES] - Influence measures
+- [STABILITY_CHECK] - Stability check results
 
 ### Model Diagnostics
-- {RESIDUAL_PLOTS} - Residual plot assessments
-- {QQ_PLOT_ASSESSMENT} - Q-Q plot assessment
-- {HOMOSCEDASTICITY} - Homoscedasticity assessment
-- {LINEARITY_CHECK} - Linearity assumption check
-- {INDEPENDENCE_CHECK} - Independence assumption check
-- {MULTICOLLINEARITY} - Multicollinearity assessment
-- {MODEL_ADEQUACY} - Overall model adequacy
-- {GOODNESS_OF_FIT} - Goodness of fit measures
-- {DEVIANCE_RESIDUALS} - Deviance residuals
-- {PEARSON_RESIDUALS} - Pearson residuals
+- [RESIDUAL_PLOTS] - Residual plot assessments
+- [QQ_PLOT_ASSESSMENT] - Q-Q plot assessment
+- [HOMOSCEDASTICITY] - Homoscedasticity assessment
+- [LINEARITY_CHECK] - Linearity assumption check
+- [INDEPENDENCE_CHECK] - Independence assumption check
+- [MULTICOLLINEARITY] - Multicollinearity assessment
+- [MODEL_ADEQUACY] - Overall model adequacy
+- [GOODNESS_OF_FIT] - Goodness of fit measures
+- [DEVIANCE_RESIDUALS] - Deviance residuals
+- [PEARSON_RESIDUALS] - Pearson residuals
 
 ### Reporting Variables
-- {RESULTS_SUMMARY} - Summary of main results
-- {STATISTICAL_CONCLUSION} - Statistical conclusion
-- {PRACTICAL_SIGNIFICANCE} - Practical significance assessment
-- {CLINICAL_SIGNIFICANCE} - Clinical significance assessment
-- {LIMITATIONS} - Study limitations
-- {ASSUMPTIONS_MET} - Assumptions met/violated
-- {ALTERNATIVE_APPROACHES} - Alternative analysis approaches
-- {FUTURE_RESEARCH} - Future research recommendations
-- {PUBLICATION_STATEMENT} - Publication-ready results statement
+- [RESULTS_SUMMARY] - Summary of main results
+- [STATISTICAL_CONCLUSION] - Statistical conclusion
+- [PRACTICAL_SIGNIFICANCE] - Practical significance assessment
+- [CLINICAL_SIGNIFICANCE] - Clinical significance assessment
+- [LIMITATIONS] - Study limitations
+- [ASSUMPTIONS_MET] - Assumptions met/violated
+- [ALTERNATIVE_APPROACHES] - Alternative analysis approaches
+- [FUTURE_RESEARCH] - Future research recommendations
+- [PUBLICATION_STATEMENT] - Publication-ready results statement
 
 ### Visualization Variables
-- {PLOT_TITLE} - Plot title
-- {X_AXIS_LABEL} - X-axis label
-- {Y_AXIS_LABEL} - Y-axis label
-- {LEGEND_LABELS} - Legend labels
-- {COLOR_SCHEME} - Color scheme for plots
-- {PLOT_THEME} - Plot theme/style
-- {FIGURE_SIZE} - Figure dimensions
-- {DPI_SETTING} - Figure resolution
-- {ANNOTATION_TEXT} - Plot annotations
+- [PLOT_TITLE] - Plot title
+- [X_AXIS_LABEL] - X-axis label
+- [Y_AXIS_LABEL] - Y-axis label
+- [LEGEND_LABELS] - Legend labels
+- [COLOR_SCHEME] - Color scheme for plots
+- [PLOT_THEME] - Plot theme/style
+- [FIGURE_SIZE] - Figure dimensions
+- [DPI_SETTING] - Figure resolution
+- [ANNOTATION_TEXT] - Plot annotations
 
 ### Quality Control
-- {DATA_QUALITY_CHECKS} - Data quality assessments
-- {RANGE_CHECKS} - Variable range checks
-- {CONSISTENCY_CHECKS} - Data consistency checks
-- {VALIDATION_RESULTS} - Cross-validation results
-- {REPLICATION_CHECK} - Result replication check
-- {CODE_REVIEW_STATUS} - Code review status
-- {PEER_REVIEW_STATUS} - Peer review status
-- {DOCUMENTATION_COMPLETE} - Documentation completeness
+- [DATA_QUALITY_CHECKS] - Data quality assessments
+- [RANGE_CHECKS] - Variable range checks
+- [CONSISTENCY_CHECKS] - Data consistency checks
+- [VALIDATION_RESULTS] - Cross-validation results
+- [REPLICATION_CHECK] - Result replication check
+- [CODE_REVIEW_STATUS] - Code review status
+- [PEER_REVIEW_STATUS] - Peer review status
+- [DOCUMENTATION_COMPLETE] - Documentation completeness
 
 ## Usage Examples
 

@@ -3,7 +3,8 @@ title: Experimental Design and Testing Template
 category: data-analytics/Research Analytics
 tags: [automation, data-analytics, data-science, design, machine-learning, research, security, template]
 use_cases:
-  - Implementing design, implement, and analyze controlled experiments including a/b testing, ran...
+  - Creating design, implement, and analyze controlled experiments including a/b testing, randomized controlled trials, and causal inference studies to establish causal relationships and measure treatment effects with statistical rigor.
+
   - Project planning and execution
   - Strategy development
 related_templates:
@@ -110,7 +111,7 @@ class ExperimentalDesigner:
         if stratification_vars:
             for var in stratification_vars:
                 participants[var] = np.random.choice(
-                    [f'{var}_low', f'{var}_high'], 
+                    [f'[VAR]_low', f'[VAR]_high'], 
                     size=n_participants
                 )
         
@@ -637,7 +638,7 @@ class PowerAnalyzer:
         elif test_type == 'regression':
             return self.regression_power_analysis(effect_size, alpha, power, **kwargs)
         else:
-            raise ValueError(f"Unknown test type: {test_type}")
+            raise ValueError(f"Unknown test type: [TEST_TYPE]")
     
     def ttest_power_analysis(self, effect_size, alpha=0.05, power=0.8, 
                            test_type='two-sample', alternative='two-sided'):
@@ -1095,18 +1096,18 @@ class TreatmentEffectAnalyzer:
         
         # Linear dose-response
         if covariates:
-            formula = f'{outcome_var} ~ {dose_var} + ' + ' + '.join(covariates)
+            formula = f'[OUTCOME_VAR] ~ [DOSE_VAR] + ' + ' + '.join(covariates)
         else:
-            formula = f'{outcome_var} ~ {dose_var}'
+            formula = f'[OUTCOME_VAR] ~ [DOSE_VAR]'
         
         linear_model = ols(formula, data=self.data).fit()
         
         # Quadratic dose-response
         self.data['dose_squared'] = self.data[dose_var] ** 2
         if covariates:
-            quad_formula = f'{outcome_var} ~ {dose_var} + dose_squared + ' + ' + '.join(covariates)
+            quad_formula = f'[OUTCOME_VAR] ~ [DOSE_VAR] + dose_squared + ' + ' + '.join(covariates)
         else:
-            quad_formula = f'{outcome_var} ~ {dose_var} + dose_squared'
+            quad_formula = f'[OUTCOME_VAR] ~ [DOSE_VAR] + dose_squared'
         
         quadratic_model = ols(quad_formula, data=self.data).fit()
         
@@ -1182,7 +1183,7 @@ class TreatmentEffectAnalyzer:
     def _regression_adjusted_itt(self, outcome_var, treatment_var, covariates):
         """Regression-adjusted ITT analysis"""
         
-        formula = f'{outcome_var} ~ {treatment_var} + ' + ' + '.join(covariates)
+        formula = f'[OUTCOME_VAR] ~ [TREATMENT_VAR] + ' + ' + '.join(covariates)
         model = ols(formula, data=self.data).fit()
         
         return {
@@ -1197,7 +1198,7 @@ class TreatmentEffectAnalyzer:
     def _calculate_first_stage_f(self, instrument_var, treatment_var):
         """Calculate first stage F-statistic"""
         
-        formula = f'{treatment_var} ~ {instrument_var}'
+        formula = f'[TREATMENT_VAR] ~ [INSTRUMENT_VAR]'
         first_stage_model = ols(formula, data=self.data).fit()
         
         return first_stage_model.fvalue
@@ -1218,7 +1219,7 @@ class TreatmentEffectAnalyzer:
     def _test_subgroup_interaction(self, outcome_var, treatment_var, subgroup_var):
         """Test for treatment by subgroup interaction"""
         
-        formula = f'{outcome_var} ~ {treatment_var} * C({subgroup_var})'
+        formula = f'[OUTCOME_VAR] ~ [TREATMENT_VAR] * C([SUBGROUP_VAR])'
         model = ols(formula, data=self.data).fit()
         
         # Find interaction term p-value
@@ -1415,7 +1416,7 @@ class ExperimentalValidityChecker:
                         std_diff = 0
                     
                     balance_table.append({
-                        'variable': f'{var}_{category}',
+                        'variable': f'[VAR]_[CATEGORY]',
                         'treatment_proportion': p_treat,
                         'control_proportion': p_control,
                         'standardized_difference': std_diff,
@@ -1764,141 +1765,141 @@ Deliver comprehensive experimental analysis including:
 [The template includes 400+ comprehensive variables covering all aspects of experimental design and analysis...]
 
 ### Research Design Variables
-- {RESEARCH_OBJECTIVE} - Primary research objective
-- {PRIMARY_HYPOTHESIS} - Main hypothesis being tested
-- {SECONDARY_HYPOTHESES} - Additional hypotheses
-- {RESEARCH_QUESTION} - Core research question
-- {CAUSAL_QUESTION} - Specific causal question
-- {TARGET_POPULATION} - Population of interest
-- {EXPERIMENTAL_CONTEXT} - Context/setting of experiment
-- {STUDY_DURATION} - Duration of the study
-- {BUDGET_LIMITATIONS} - Budget constraints
+- [RESEARCH_OBJECTIVE] - Primary research objective
+- [PRIMARY_HYPOTHESIS] - Main hypothesis being tested
+- [SECONDARY_HYPOTHESES] - Additional hypotheses
+- [RESEARCH_QUESTION] - Core research question
+- [CAUSAL_QUESTION] - Specific causal question
+- [TARGET_POPULATION] - Population of interest
+- [EXPERIMENTAL_CONTEXT] - Context/setting of experiment
+- [STUDY_DURATION] - Duration of the study
+- [BUDGET_LIMITATIONS] - Budget constraints
 
 ### Treatment Variables
-- {TREATMENT_VARIABLE} - Name of treatment variable
-- {TREATMENT_LEVELS} - Levels of treatment
-- {CONTROL_CONDITION} - Description of control condition
-- {TREATMENT_DESCRIPTION} - Detailed treatment description
-- {TREATMENT_INTENSITY} - Intensity/dosage of treatment
-- {TREATMENT_DURATION} - Duration of treatment exposure
-- {DELIVERY_METHOD} - Method of treatment delivery
-- {COMPLIANCE_TRACKING} - Compliance monitoring approach
+- [TREATMENT_VARIABLE] - Name of treatment variable
+- [TREATMENT_LEVELS] - Levels of treatment
+- [CONTROL_CONDITION] - Description of control condition
+- [TREATMENT_DESCRIPTION] - Detailed treatment description
+- [TREATMENT_INTENSITY] - Intensity/dosage of treatment
+- [TREATMENT_DURATION] - Duration of treatment exposure
+- [DELIVERY_METHOD] - Method of treatment delivery
+- [COMPLIANCE_TRACKING] - Compliance monitoring approach
 
 ### Design Configuration Variables
-- {DESIGN_TYPE} - Type of experimental design
-- {N_PARTICIPANTS} - Number of participants
-- {TREATMENT_RATIO} - Treatment allocation ratio
-- {STRATIFICATION_VARS} - Variables for stratification
-- {N_USERS} - Number of users (for digital experiments)
-- {VARIANTS} - Different variants in experiment
-- {TRAFFIC_ALLOCATION} - Traffic allocation percentages
-- {FACTORS} - Factors in factorial design
-- {FACTOR_LEVELS} - Levels for each factor
-- {N_PER_CELL} - Participants per condition
+- [DESIGN_TYPE] - Type of experimental design
+- [N_PARTICIPANTS] - Number of participants
+- [TREATMENT_RATIO] - Treatment allocation ratio
+- [STRATIFICATION_VARS] - Variables for stratification
+- [N_USERS] - Number of users (for digital experiments)
+- [VARIANTS] - Different variants in experiment
+- [TRAFFIC_ALLOCATION] - Traffic allocation percentages
+- [FACTORS] - Factors in factorial design
+- [FACTOR_LEVELS] - Levels for each factor
+- [N_PER_CELL] - Participants per condition
 
 ### Randomization Variables
-- {RANDOMIZATION_METHOD} - Randomization method used
-- {RANDOM_SEED} - Seed for reproducible randomization
-- {ALLOCATION_RATIO} - Treatment allocation ratio
-- {BLOCK_SIZE} - Block size for block randomization
-- {RANDOMIZATION_UNIT} - Unit of randomization
-- {STRATIFICATION_VARIABLES} - Variables for stratified randomization
-- {CLUSTER_VARIABLE} - Variable defining clusters
-- {MINIMIZATION_FACTORS} - Factors for minimization algorithm
+- [RANDOMIZATION_METHOD] - Randomization method used
+- [RANDOM_SEED] - Seed for reproducible randomization
+- [ALLOCATION_RATIO] - Treatment allocation ratio
+- [BLOCK_SIZE] - Block size for block randomization
+- [RANDOMIZATION_UNIT] - Unit of randomization
+- [STRATIFICATION_VARIABLES] - Variables for stratified randomization
+- [CLUSTER_VARIABLE] - Variable defining clusters
+- [MINIMIZATION_FACTORS] - Factors for minimization algorithm
 
 ### Power Analysis Variables
-- {TEST_TYPE} - Type of statistical test for power analysis
-- {EFFECT_SIZE} - Expected effect size
-- {ALPHA_LEVEL} - Type I error rate
-- {STATISTICAL_POWER} - Desired statistical power
-- {SAMPLE_SIZE} - Sample size for power calculation
-- {MDE} - Minimum detectable effect
-- {CORRECTION_METHOD} - Multiple testing correction method
-- {POWER_ANALYSIS_METHOD} - Method for power calculation
+- [TEST_TYPE] - Type of statistical test for power analysis
+- [EFFECT_SIZE] - Expected effect size
+- [ALPHA_LEVEL] - Type I error rate
+- [STATISTICAL_POWER] - Desired statistical power
+- [SAMPLE_SIZE] - Sample size for power calculation
+- [MDE] - Minimum detectable effect
+- [CORRECTION_METHOD] - Multiple testing correction method
+- [POWER_ANALYSIS_METHOD] - Method for power calculation
 
 ### Outcome Variables
-- {PRIMARY_OUTCOME} - Primary outcome measure
-- {SECONDARY_OUTCOMES} - Secondary outcome measures
-- {OUTCOME_VARIABLE} - Main outcome variable name
-- {OUTCOME_TYPE} - Type of outcome (continuous, binary, etc.)
-- {OUTCOME_SCALE} - Scale of measurement
-- {BASELINE_OUTCOME} - Baseline measurement of outcome
-- {FOLLOW_UP_PERIODS} - Follow-up time points
-- {COMPOSITE_OUTCOMES} - Composite outcome measures
+- [PRIMARY_OUTCOME] - Primary outcome measure
+- [SECONDARY_OUTCOMES] - Secondary outcome measures
+- [OUTCOME_VARIABLE] - Main outcome variable name
+- [OUTCOME_TYPE] - Type of outcome (continuous, binary, etc.)
+- [OUTCOME_SCALE] - Scale of measurement
+- [BASELINE_OUTCOME] - Baseline measurement of outcome
+- [FOLLOW_UP_PERIODS] - Follow-up time points
+- [COMPOSITE_OUTCOMES] - Composite outcome measures
 
 ### Validity Variables
-- {BASELINE_VARIABLES} - Baseline covariates for balance checking
-- {COMPLIANCE_VARIABLE} - Variable indicating compliance
-- {ATTRITION_INDICATOR} - Variable indicating study dropout
-- {TIMESTAMP_VARIABLE} - Variable with timestamp information
-- {BLINDING_TYPE} - Type of blinding implemented
-- {ALLOCATION_CONCEALMENT} - Allocation concealment method
-- {PROTOCOL_DEVIATIONS} - Number/type of protocol deviations
+- [BASELINE_VARIABLES] - Baseline covariates for balance checking
+- [COMPLIANCE_VARIABLE] - Variable indicating compliance
+- [ATTRITION_INDICATOR] - Variable indicating study dropout
+- [TIMESTAMP_VARIABLE] - Variable with timestamp information
+- [BLINDING_TYPE] - Type of blinding implemented
+- [ALLOCATION_CONCEALMENT] - Allocation concealment method
+- [PROTOCOL_DEVIATIONS] - Number/type of protocol deviations
 
 ### Analysis Variables
-- {ANALYSIS_POPULATION} - Population for primary analysis
-- {COVARIATES} - Covariates for adjustment
-- {SUBGROUP_VARIABLES} - Variables defining subgroups
-- {INTERACTION_TERMS} - Interaction terms to test
-- {MISSING_DATA_METHOD} - Method for handling missing data
-- {OUTLIER_HANDLING} - Method for handling outliers
-- {TRANSFORMATION_METHOD} - Data transformation method
+- [ANALYSIS_POPULATION] - Population for primary analysis
+- [COVARIATES] - Covariates for adjustment
+- [SUBGROUP_VARIABLES] - Variables defining subgroups
+- [INTERACTION_TERMS] - Interaction terms to test
+- [MISSING_DATA_METHOD] - Method for handling missing data
+- [OUTLIER_HANDLING] - Method for handling outliers
+- [TRANSFORMATION_METHOD] - Data transformation method
 
 ### Causal Inference Variables
-- {IDENTIFICATION_STRATEGY} - Causal identification strategy
-- {INSTRUMENTAL_VARIABLE} - Instrumental variable (if applicable)
-- {MEDIATOR_VARIABLES} - Variables that mediate the effect
-- {MODERATOR_VARIABLES} - Variables that moderate the effect
-- {CONFOUNDING_VARIABLES} - Potential confounding variables
-- {ASSIGNMENT_MECHANISM} - Treatment assignment mechanism
-- {SELECTION_BIAS_CONTROLS} - Controls for selection bias
+- [IDENTIFICATION_STRATEGY] - Causal identification strategy
+- [INSTRUMENTAL_VARIABLE] - Instrumental variable (if applicable)
+- [MEDIATOR_VARIABLES] - Variables that mediate the effect
+- [MODERATOR_VARIABLES] - Variables that moderate the effect
+- [CONFOUNDING_VARIABLES] - Potential confounding variables
+- [ASSIGNMENT_MECHANISM] - Treatment assignment mechanism
+- [SELECTION_BIAS_CONTROLS] - Controls for selection bias
 
 ### Implementation Variables
-- {RECRUITMENT_METHOD} - Method for participant recruitment
-- {ELIGIBILITY_CRITERIA} - Inclusion/exclusion criteria
-- {CONSENT_PROCESS} - Informed consent process
-- {DATA_COLLECTION_METHOD} - Method for data collection
-- {QUALITY_ASSURANCE} - Quality assurance procedures
-- {ADVERSE_EVENT_MONITORING} - Adverse event monitoring
-- {PROTOCOL_ADHERENCE} - Protocol adherence monitoring
+- [RECRUITMENT_METHOD] - Method for participant recruitment
+- [ELIGIBILITY_CRITERIA] - Inclusion/exclusion criteria
+- [CONSENT_PROCESS] - Informed consent process
+- [DATA_COLLECTION_METHOD] - Method for data collection
+- [QUALITY_ASSURANCE] - Quality assurance procedures
+- [ADVERSE_EVENT_MONITORING] - Adverse event monitoring
+- [PROTOCOL_ADHERENCE] - Protocol adherence monitoring
 
 ### Temporal Variables
-- {BASELINE_PERIOD} - Baseline measurement period
-- {INTERVENTION_PERIOD} - Intervention/treatment period
-- {WASHOUT_PERIOD} - Washout period (for crossover)
-- {FOLLOW_UP_DURATION} - Duration of follow-up
-- {MEASUREMENT_SCHEDULE} - Schedule of measurements
-- {SEASONAL_EFFECTS} - Consideration of seasonal effects
-- {TIME_VARYING_EFFECTS} - Time-varying treatment effects
+- [BASELINE_PERIOD] - Baseline measurement period
+- [INTERVENTION_PERIOD] - Intervention/treatment period
+- [WASHOUT_PERIOD] - Washout period (for crossover)
+- [FOLLOW_UP_DURATION] - Duration of follow-up
+- [MEASUREMENT_SCHEDULE] - Schedule of measurements
+- [SEASONAL_EFFECTS] - Consideration of seasonal effects
+- [TIME_VARYING_EFFECTS] - Time-varying treatment effects
 
 ### Statistical Variables
-- {STATISTICAL_MODEL} - Statistical model specification
-- {ESTIMATOR_TYPE} - Type of estimator used
-- {STANDARD_ERROR_METHOD} - Method for standard error calculation
-- {CONFIDENCE_LEVEL} - Confidence level for intervals
-- {HYPOTHESIS_TEST_TYPE} - Type of hypothesis test
-- {TAIL_TYPE} - One-tailed or two-tailed test
-- {ROBUST_METHODS} - Use of robust statistical methods
-- {BAYESIAN_METHODS} - Use of Bayesian methods
+- [STATISTICAL_MODEL] - Statistical model specification
+- [ESTIMATOR_TYPE] - Type of estimator used
+- [STANDARD_ERROR_METHOD] - Method for standard error calculation
+- [CONFIDENCE_LEVEL] - Confidence level for intervals
+- [HYPOTHESIS_TEST_TYPE] - Type of hypothesis test
+- [TAIL_TYPE] - One-tailed or two-tailed test
+- [ROBUST_METHODS] - Use of robust statistical methods
+- [BAYESIAN_METHODS] - Use of Bayesian methods
 
 ### Quality Control Variables
-- {DATA_MONITORING_COMMITTEE} - Data monitoring committee
-- {INTERIM_ANALYSES} - Interim analysis schedule
-- {STOPPING_RULES} - Rules for early stopping
-- {SAFETY_MONITORING} - Safety monitoring procedures
-- {DATA_QUALITY_CHECKS} - Data quality assurance checks
-- {AUDIT_PROCEDURES} - Audit procedures implemented
-- {REGULATORY_COMPLIANCE} - Regulatory compliance requirements
+- [DATA_MONITORING_COMMITTEE] - Data monitoring committee
+- [INTERIM_ANALYSES] - Interim analysis schedule
+- [STOPPING_RULES] - Rules for early stopping
+- [SAFETY_MONITORING] - Safety monitoring procedures
+- [DATA_QUALITY_CHECKS] - Data quality assurance checks
+- [AUDIT_PROCEDURES] - Audit procedures implemented
+- [REGULATORY_COMPLIANCE] - Regulatory compliance requirements
 
 ### Reporting Variables
-- {PRIMARY_ANALYSIS_RESULTS} - Primary analysis results summary
-- {EFFECT_SIZE_ESTIMATE} - Estimated effect size
-- {CONFIDENCE_INTERVAL} - Confidence interval for effect
-- {P_VALUE} - P-value from primary test
-- {CLINICAL_SIGNIFICANCE} - Clinical significance assessment
-- {PRACTICAL_SIGNIFICANCE} - Practical significance assessment
-- {ADVERSE_EVENTS} - Summary of adverse events
-- {PROTOCOL_VIOLATIONS} - Protocol violations summary
+- [PRIMARY_ANALYSIS_RESULTS] - Primary analysis results summary
+- [EFFECT_SIZE_ESTIMATE] - Estimated effect size
+- [CONFIDENCE_INTERVAL] - Confidence interval for effect
+- [P_VALUE] - P-value from primary test
+- [CLINICAL_SIGNIFICANCE] - Clinical significance assessment
+- [PRACTICAL_SIGNIFICANCE] - Practical significance assessment
+- [ADVERSE_EVENTS] - Summary of adverse events
+- [PROTOCOL_VIOLATIONS] - Protocol violations summary
 
 ## Usage Examples
 

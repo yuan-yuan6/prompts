@@ -3,7 +3,8 @@ title: Grant Writing & Proposal Development Framework
 category: nonprofit/Fundraising & Development
 tags: [communication, data-science, design, development, framework, management, nonprofit, research]
 use_cases:
-  - Implementing comprehensive system for researching, writing, and managing grant proposals for ...
+  - Creating comprehensive system for researching, writing, and managing grant proposals for nonprofit organizations, including federal, state, foundation, and corporate grant applications.
+
   - Project planning and execution
   - Strategy development
 related_templates:

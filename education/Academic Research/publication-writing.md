@@ -3,7 +3,7 @@ title: Academic Publication Writing Generator
 category: education/Academic Research
 tags: [automation, communication, design, development, education, machine-learning, optimization, research]
 use_cases:
-  - Implementing create comprehensive academic papers, abstracts, conference presentations, and p...
+  - Creating comprehensive academic papers, abstracts, conference presentations, and peer review responses for scholarly publication and dissemination.
   - Project planning and execution
   - Strategy development
 related_templates:

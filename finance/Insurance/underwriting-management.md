@@ -3,7 +3,8 @@ title: Insurance Underwriting & Risk Assessment Framework
 category: finance/Insurance
 tags: [automation, communication, documentation, finance, framework, management, optimization, testing]
 use_cases:
-  - Implementing comprehensive framework for insurance underwriting operations including risk ass...
+  - Creating comprehensive framework for insurance underwriting operations including risk assessment, pricing, portfolio management, automation strategies, and profitability optimization across multiple lines of business.
+
   - Project planning and execution
   - Strategy development
 related_templates:

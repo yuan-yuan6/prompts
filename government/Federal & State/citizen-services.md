@@ -3,7 +3,8 @@ title: Citizen Services & Digital Government Framework
 category: government/Federal & State
 tags: [automation, data-science, design, development, framework, government, optimization, research]
 use_cases:
-  - Implementing comprehensive framework for designing and implementing citizen-centric governmen...
+  - Creating comprehensive framework for designing and implementing citizen-centric government services including digital transformation, service delivery optimization, citizen engagement platforms, and public service modernization.
+
   - Project planning and execution
   - Strategy development
 related_templates:

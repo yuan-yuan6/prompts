@@ -3,7 +3,7 @@ title: Brand Storytelling Comprehensive Template Generator
 category: creative/Marketing Creative
 tags: [communication, comprehensive, creative, design, development, marketing, strategy, template]
 use_cases:
-  - Implementing create comprehensive brand storytelling solutions covering narratives, voice dev...
+  - Creating comprehensive brand storytelling solutions covering narratives, voice development, personality expression, values communication, purpose articulation, and heritage preservation across all brand touchpoints and communications.
   - Project planning and execution
   - Strategy development
 related_templates:

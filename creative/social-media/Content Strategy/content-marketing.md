@@ -3,7 +3,8 @@ title: Content Marketing & Social Media Strategy Framework
 category: creative/social-media/Content Strategy
 tags: [creative, design, development, framework, management, marketing, optimization, strategy]
 use_cases:
-  - Implementing comprehensive framework for content marketing strategy, social media management,...
+  - Creating comprehensive framework for content marketing strategy, social media management, influencer partnerships, community building, content production workflows, and digital engagement optimization.
+
   - Project planning and execution
   - Strategy development
 related_templates:

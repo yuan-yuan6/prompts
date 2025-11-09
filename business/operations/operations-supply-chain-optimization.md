@@ -3,7 +3,8 @@ title: Supply Chain Optimization & Logistics Management Framework
 category: business/operations
 tags: [business, data-science, design, framework, management, optimization, research]
 use_cases:
-  - Implementing comprehensive framework for optimizing supply chain operations including invento...
+  - Creating comprehensive framework for optimizing supply chain operations including inventory management, demand forecasting, logistics coordination, vendor management, risk mitigation, and digital transformation for operational excellence and cost efficiency.
+
   - Project planning and execution
   - Strategy development
 related_templates:

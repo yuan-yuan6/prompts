@@ -3,7 +3,8 @@ title: Enterprise Digital Transformation Roadmap & Execution Framework
 category: business/Strategic Management
 tags: [business, framework, machine-learning, optimization, strategy]
 use_cases:
-  - Implementing comprehensive enterprise-wide digital transformation roadmap framework covering ...
+  - Creating comprehensive enterprise-wide digital transformation roadmap framework covering strategic planning, technology modernization, process digitization, organizational change, culture transformation, and value creation across all business functions and customer touchpoints.
+
   - Project planning and execution
   - Strategy development
 related_templates:

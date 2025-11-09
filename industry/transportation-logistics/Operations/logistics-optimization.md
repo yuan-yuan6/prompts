@@ -3,7 +3,8 @@ title: Logistics Optimization & Supply Chain Transportation Framework
 category: industry/transportation-logistics/Operations
 tags: [design, framework, industry, management, optimization, strategy]
 use_cases:
-  - Implementing comprehensive framework for optimizing logistics operations including route plan...
+  - Creating comprehensive framework for optimizing logistics operations including route planning, fleet management, warehouse operations, last-mile delivery, multimodal transportation, and supply chain visibility.
+
   - Project planning and execution
   - Strategy development
 related_templates:

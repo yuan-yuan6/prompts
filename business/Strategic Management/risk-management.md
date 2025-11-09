@@ -3,7 +3,7 @@ title: Risk Management Template Generator
 category: business/Strategic Management
 tags: [business, design, machine-learning, management, optimization, security, strategy, template]
 use_cases:
-  - Implementing create comprehensive risk management frameworks covering risk assessment, mitiga...
+  - Creating comprehensive risk management frameworks covering risk assessment, mitigation strategies, and compliance requirements to protect organizational value and ensure business continuity.
   - Project planning and execution
   - Strategy development
 related_templates:

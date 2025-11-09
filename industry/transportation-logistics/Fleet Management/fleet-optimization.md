@@ -3,7 +3,8 @@ title: Fleet Optimization & Management System
 category: industry/transportation-logistics/Fleet Management
 tags: [data-science, industry, management, optimization, research, strategy]
 use_cases:
-  - Implementing comprehensive framework for fleet operations management, vehicle optimization, r...
+  - Creating comprehensive framework for fleet operations management, vehicle optimization, route planning, maintenance scheduling, and total cost of ownership analysis for commercial and logistics fleets.
+
   - Project planning and execution
   - Strategy development
 related_templates:

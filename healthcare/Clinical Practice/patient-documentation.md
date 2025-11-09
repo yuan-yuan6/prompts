@@ -3,7 +3,7 @@ title: Patient Documentation Template
 category: healthcare/Clinical Practice
 tags: [documentation, healthcare, template]
 use_cases:
-  - Implementing create comprehensive patient documentation including medical histories, clinical...
+  - Creating comprehensive patient documentation including medical histories, clinical notes, assessments, progress reports, and discharge summaries that meet regulatory requirements and support continuity of care.
   - Project planning and execution
   - Strategy development
 related_templates:

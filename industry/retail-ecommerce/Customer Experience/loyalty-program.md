@@ -3,7 +3,8 @@ title: Customer Loyalty & Rewards Program Framework
 category: industry/retail-ecommerce/Customer Experience
 tags: [design, development, framework, industry]
 use_cases:
-  - Implementing comprehensive framework for designing, implementing, and optimizing customer loy...
+  - Creating comprehensive framework for designing, implementing, and optimizing customer loyalty programs including rewards structures, tier systems, engagement strategies, personalization tactics, and roi measurement.
+
   - Project planning and execution
   - Strategy development
 related_templates:

@@ -3,9 +3,12 @@ title: Investment Portfolio Management Framework
 category: finance/Investment Management
 tags: [data-science, finance, framework, management, optimization, research, security, strategy]
 use_cases:
-  - Implementing comprehensive framework for professional investment portfolio management includi...
-  - Project planning and execution
-  - Strategy development
+  - Build diversified investment portfolio for client based on risk tolerance (3-4 hours)
+  - Rebalance existing portfolio to align with target asset allocation
+  - Create investment policy statement for institutional or individual investor
+  - Implementing comprehensive framework for professional investment portfolio management including asset allocation and risk analysis
+  - Portfolio optimization and performance measurement
+  - Client management and regulatory compliance
 related_templates:
   - investment-portfolio-management.md
   - digital-banking-strategy.md
@@ -18,579 +21,401 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for professional investment portfolio management including asset allocation, risk analysis, performance measurement, client management, and regulatory compliance for institutional and retail portfolios.
 
+## Strategic Approach
+
+### Portfolio Management Philosophy
+
+Effective portfolio management balances three critical imperatives: meeting client objectives, managing risk appropriately, and maintaining operational discipline. Begin by deeply understanding your client's true risk tolerance—not just stated preferences, but behavioral capacity to withstand volatility. This foundation drives all subsequent decisions.
+
+**Asset allocation is your primary value driver.** Research consistently shows that strategic asset allocation explains 80-90% of portfolio return variation over time. Security selection and tactical timing matter, but getting the strategic allocation right is paramount. Build your allocation framework on:
+
+- **Time horizon realities**: Longer horizons enable equity risk-taking; shorter horizons demand capital preservation
+- **Liquidity constraints**: Known withdrawals require defensive positioning; flexible capital allows opportunistic choices
+- **Tax efficiency**: Asset location and realization timing can add 50-100 basis points annually
+- **Risk capacity vs. risk tolerance**: Bridge the gap between what clients can afford to lose and what they can emotionally withstand
+
+### Risk Management Framework
+
+Modern portfolio risk extends far beyond volatility. Your risk framework must address:
+
+1. **Market risk** (systematic exposure to equity, fixed income, currency factors)
+2. **Concentration risk** (position, sector, geographic, factor exposures)
+3. **Liquidity risk** (ability to exit positions without material impact)
+4. **Operational risk** (counterparty, custody, settlement, technology failures)
+5. **Regulatory risk** (compliance violations, changing standards)
+
+Implement continuous monitoring with clear escalation protocols. Define risk budgets at portfolio inception and maintain discipline through market cycles. Most portfolio failures stem from risk management breakdowns during periods of calm—overconfidence erodes discipline precisely when vigilance matters most.
+
+### Rebalancing Strategy
+
+Systematic rebalancing controls risk and can enhance returns through disciplined contrarian action. Choose your approach based on portfolio characteristics:
+
+- **Calendar rebalancing** (quarterly/semi-annual): Simple, predictable, but may miss significant drift
+- **Threshold rebalancing** (5-10% bands): More responsive, potentially tax-efficient, requires monitoring
+- **Risk-based rebalancing**: Adjusts when portfolio risk deviates from target, most sophisticated
+- **Opportunistic rebalancing**: Combines thresholds with market insights, requires expertise
+
+Consider transaction costs, tax implications, and market conditions. The "best" frequency balances rebalancing benefits against friction costs—typically quarterly for taxable accounts, more frequent for tax-advantaged.
+
 ## Template
 
-Manage investment portfolio for [CLIENT_TYPE] with $[AUM_SIZE] AUM, [RISK_PROFILE] risk profile, [RETURN_TARGET]% return objective, [TIME_HORIZON] investment horizon, [LIQUIDITY_NEEDS] liquidity requirements, and [BENCHMARK] benchmark.
+Manage investment portfolio for [CLIENT_TYPE] with $[AUM] assets under management, [RISK_PROFILE] risk profile, [RETURN_OBJECTIVE]% annual return objective, [TIME_HORIZON] investment horizon, and [BENCHMARK] performance benchmark.
 
-### 1. Investment Policy Statement (IPS)
+### 1. Investment Policy Statement
 
-| **IPS Component** | **Current Policy** | **Proposed Changes** | **Rationale** | **Impact Analysis** | **Approval Required** |
-|------------------|------------------|-------------------|-------------|-------------------|---------------------|
-| Return Objectives | [RETURN_CURRENT] | [RETURN_PROPOSED] | [RETURN_RATIONALE] | [RETURN_IMPACT] | [RETURN_APPROVAL] |
-| Risk Tolerance | [RISK_CURRENT] | [RISK_PROPOSED] | [RISK_RATIONALE] | [RISK_IMPACT] | [RISK_APPROVAL] |
-| Time Horizon | [TIME_CURRENT] | [TIME_PROPOSED] | [TIME_RATIONALE] | [TIME_IMPACT] | [TIME_APPROVAL] |
-| Liquidity Constraints | [LIQ_CURRENT] | [LIQ_PROPOSED] | [LIQ_RATIONALE] | [LIQ_IMPACT] | [LIQ_APPROVAL] |
-| Tax Considerations | [TAX_CURRENT] | [TAX_PROPOSED] | [TAX_RATIONALE] | [TAX_IMPACT] | [TAX_APPROVAL] |
-| Legal/Regulatory | [LEGAL_CURRENT] | [LEGAL_PROPOSED] | [LEGAL_RATIONALE] | [LEGAL_IMPACT] | [LEGAL_APPROVAL] |
+**Return Objectives:**
+- Target return: [RETURN_TARGET]% annually
+- Minimum acceptable: [RETURN_MINIMUM]%
+- Expected real return: [REAL_RETURN]% (after inflation)
+- Income requirement: [INCOME_NEED]% of portfolio value
+- Growth emphasis: [GROWTH_EMPHASIS] (high/moderate/low)
+
+**Risk Parameters:**
+- Maximum drawdown tolerance: [MAX_DRAWDOWN]%
+- Volatility target: [VOLATILITY_TARGET]% (standard deviation)
+- Tracking error budget: [TRACKING_ERROR]% vs. benchmark
+- Value-at-Risk (95%): [VAR_95]% of portfolio
+- Beta target: [BETA_TARGET] relative to benchmark
+
+**Constraints:**
+- Liquidity needs: [LIQUIDITY_NEEDS] accessible within [LIQUIDITY_TIMEFRAME]
+- Time horizon: [TIME_HORIZON]
+- Tax considerations: [TAX_STATUS] - [TAX_STRATEGY]
+- Regulatory requirements: [REGULATORY_CONSTRAINTS]
+- ESG restrictions: [ESG_REQUIREMENTS]
 
 ### 2. Strategic Asset Allocation
 
-**Asset Allocation Framework:**
+**Target Allocation:**
+
 ```
-Target Allocation:
-Equity Allocation:
-- Domestic Equity: [DOM_EQUITY]%
-- International Developed: [INT_DEV]%
-- Emerging Markets: [EMERG_MKT]%
-- Small/Mid Cap: [SMALL_MID]%
-- Sector Allocation: [SECTOR_ALLOC]
+EQUITIES ([EQUITY_TOTAL]%)
+  Domestic Large Cap: [DOMESTIC_LARGE]%
+  Domestic Small/Mid Cap: [DOMESTIC_SMALL]%
+  International Developed: [INTL_DEVELOPED]%
+  Emerging Markets: [EMERGING_MARKETS]%
 
-Fixed Income:
-- Government Bonds: [GOVT_BONDS]%
-- Corporate Bonds: [CORP_BONDS]%
-- High Yield: [HIGH_YIELD]%
-- International Bonds: [INT_BONDS]%
-- Duration Target: [DURATION] years
+FIXED INCOME ([FIXED_INCOME_TOTAL]%)
+  Government Bonds: [GOVT_BONDS]%
+  Investment Grade Corporate: [IG_CORPORATE]%
+  High Yield: [HIGH_YIELD]%
+  International Bonds: [INTL_BONDS]%
+  Target Duration: [DURATION] years
 
-### Alternative Investments
-- Real Estate: [REAL_ESTATE]%
-- Private Equity: [PRIV_EQUITY]%
-- Hedge Funds: [HEDGE_FUNDS]%
-- Commodities: [COMMODITIES]%
-- Infrastructure: [INFRASTRUCTURE]%
+ALTERNATIVES ([ALTERNATIVES_TOTAL]%)
+  Real Estate (REITs/Direct): [REAL_ESTATE]%
+  Private Equity: [PRIVATE_EQUITY]%
+  Hedge Funds: [HEDGE_FUNDS]%
+  Commodities: [COMMODITIES]%
 
-### Cash & Equivalents
-- Operating Cash: [OP_CASH]%
-- Strategic Cash: [STRAT_CASH]%
-- Money Markets: [MONEY_MKT]%
-- Short-term Securities: [SHORT_SEC]%
+CASH & EQUIVALENTS ([CASH_TOTAL]%)
+  Operating cash: [OPERATING_CASH]%
+  Strategic reserves: [STRATEGIC_CASH]%
 ```
+
+**Rebalancing Bands:**
+- Equity: ±[EQUITY_BAND]% from target
+- Fixed Income: ±[FIXED_BAND]% from target
+- Alternatives: ±[ALT_BAND]% from target
+- Review frequency: [REBAL_FREQUENCY]
+
+### 3. Risk Management
+
+**Portfolio Risk Metrics:**
+- Current portfolio beta: [CURRENT_BETA]
+- Sharpe ratio target: [SHARPE_TARGET]
+- Maximum single position: [MAX_POSITION]% of portfolio
+- Maximum sector exposure: [MAX_SECTOR]%
+- Geographic concentration limit: [GEO_LIMIT]%
+
+**Stress Test Scenarios:**
+- Market crash (-20%): Estimated impact $[CRASH_IMPACT]
+- Interest rate shock (+200bp): Estimated impact $[RATE_SHOCK_IMPACT]
+- Credit spread widening (+300bp): Estimated impact $[CREDIT_IMPACT]
+- Currency crisis: Estimated impact $[CURRENCY_IMPACT]
+
+**Risk Mitigation:**
+- Hedging strategy: [HEDGING_APPROACH]
+- Derivatives usage: [DERIVATIVES_POLICY]
+- Stop-loss protocols: [STOP_LOSS_RULES]
+- Position sizing rules: [POSITION_SIZING_METHOD]
+
+### 4. Performance Measurement
+
+**Return Analysis:**
+- Current YTD return: [YTD_RETURN]% (Benchmark: [BENCH_YTD]%)
+- 1-year return: [ONE_YEAR]% (Benchmark: [BENCH_1Y]%)
+- 3-year annualized: [THREE_YEAR]% (Benchmark: [BENCH_3Y]%)
+- 5-year annualized: [FIVE_YEAR]% (Benchmark: [BENCH_5Y]%)
+- Since inception: [INCEPTION]% (Benchmark: [BENCH_INCEP]%)
+
+**Risk-Adjusted Performance:**
+- Current Sharpe ratio: [CURRENT_SHARPE]
+- Information ratio: [INFO_RATIO]
+- Tracking error: [TRACKING_ERROR_ACTUAL]%
+- Maximum drawdown: [ACTUAL_DRAWDOWN]%
+- Downside capture: [DOWNSIDE_CAPTURE]%
+- Upside capture: [UPSIDE_CAPTURE]%
+
+**Attribution Analysis:**
+- Asset allocation effect: [ALLOCATION_EFFECT]%
+- Security selection effect: [SELECTION_EFFECT]%
+- Interaction effect: [INTERACTION_EFFECT]%
+- Trading/rebalancing impact: [TRADING_IMPACT]%
+
+### 5. Client Reporting & Communication
+
+**Reporting Schedule:**
+- Performance reports: [PERF_FREQUENCY]
+- Holdings summary: [HOLDINGS_FREQUENCY]
+- Risk analysis: [RISK_REPORT_FREQUENCY]
+- Market commentary: [COMMENTARY_FREQUENCY]
+- Face-to-face reviews: [MEETING_FREQUENCY]
+
+**Report Components:**
+- Portfolio valuation and performance vs. benchmark
+- Asset allocation vs. targets with drift analysis
+- Top 10 holdings with position commentary
+- Risk metrics and compliance status
+- Transaction summary and cost analysis
+- Market outlook and strategy updates
+
+### 6. Regulatory Compliance
+
+**Compliance Framework:**
+- Investment guidelines: [GUIDELINES_STATUS] - Reviewed [REVIEW_DATE]
+- Fiduciary standards: [FIDUCIARY_COMPLIANCE]
+- Custody requirements: [CUSTODY_ARRANGEMENT]
+- Reporting obligations: [REPORTING_REQUIREMENTS]
+- Best execution policy: [EXECUTION_POLICY]
+
+**Monitoring:**
+- Daily compliance checks: [DAILY_CHECKS]
+- Exception reporting: [EXCEPTION_PROCESS]
+- Violation remediation: [REMEDIATION_PROTOCOL]
+- Audit schedule: [AUDIT_FREQUENCY]
+
+### 7. Technology & Operations
+
+**Portfolio Management Systems:**
+- Portfolio management: [PMS_SYSTEM]
+- Order management: [OMS_SYSTEM]
+- Risk analytics: [RISK_PLATFORM]
+- Performance attribution: [ATTRIBUTION_SYSTEM]
+- Client reporting: [REPORTING_PLATFORM]
+
+**Data & Analytics:**
+- Market data provider: [MARKET_DATA_VENDOR]
+- Pricing sources: [PRICING_SOURCES]
+- Analytics tools: [ANALYTICS_TOOLS]
+- Automation level: [AUTOMATION_PERCENTAGE]%
 
 ## Variables
 
 | Variable | Description | Example |
-|----------|-------------|----------|
-| `[CLIENT_TYPE]` | Type or category of client | "Standard" |
-| `[AUM_SIZE]` | Specify the aum size | "[specify value]" |
-| `[RISK_PROFILE]` | Specify the risk profile | "[specify value]" |
-| `[RETURN_TARGET]` | Target or intended return | "[specify value]" |
-| `[TIME_HORIZON]` | Specify the time horizon | "[specify value]" |
-| `[LIQUIDITY_NEEDS]` | Specify the liquidity needs | "[specify value]" |
-| `[BENCHMARK]` | Specify the benchmark | "[specify value]" |
-| `[RETURN_CURRENT]` | Specify the return current | "[specify value]" |
-| `[RETURN_PROPOSED]` | Specify the return proposed | "[specify value]" |
-| `[RETURN_RATIONALE]` | Specify the return rationale | "[specify value]" |
-| `[RETURN_IMPACT]` | Specify the return impact | "[specify value]" |
-| `[RETURN_APPROVAL]` | Specify the return approval | "[specify value]" |
-| `[RISK_CURRENT]` | Specify the risk current | "[specify value]" |
-| `[RISK_PROPOSED]` | Specify the risk proposed | "[specify value]" |
-| `[RISK_RATIONALE]` | Specify the risk rationale | "[specify value]" |
-| `[RISK_IMPACT]` | Specify the risk impact | "[specify value]" |
-| `[RISK_APPROVAL]` | Specify the risk approval | "[specify value]" |
-| `[TIME_CURRENT]` | Specify the time current | "[specify value]" |
-| `[TIME_PROPOSED]` | Specify the time proposed | "[specify value]" |
-| `[TIME_RATIONALE]` | Specify the time rationale | "[specify value]" |
-| `[TIME_IMPACT]` | Specify the time impact | "[specify value]" |
-| `[TIME_APPROVAL]` | Specify the time approval | "[specify value]" |
-| `[LIQ_CURRENT]` | Specify the liq current | "[specify value]" |
-| `[LIQ_PROPOSED]` | Specify the liq proposed | "[specify value]" |
-| `[LIQ_RATIONALE]` | Specify the liq rationale | "[specify value]" |
-| `[LIQ_IMPACT]` | Specify the liq impact | "[specify value]" |
-| `[LIQ_APPROVAL]` | Specify the liq approval | "[specify value]" |
-| `[TAX_CURRENT]` | Specify the tax current | "[specify value]" |
-| `[TAX_PROPOSED]` | Specify the tax proposed | "[specify value]" |
-| `[TAX_RATIONALE]` | Specify the tax rationale | "[specify value]" |
-| `[TAX_IMPACT]` | Specify the tax impact | "[specify value]" |
-| `[TAX_APPROVAL]` | Specify the tax approval | "[specify value]" |
-| `[LEGAL_CURRENT]` | Specify the legal current | "[specify value]" |
-| `[LEGAL_PROPOSED]` | Specify the legal proposed | "[specify value]" |
-| `[LEGAL_RATIONALE]` | Specify the legal rationale | "[specify value]" |
-| `[LEGAL_IMPACT]` | Specify the legal impact | "[specify value]" |
-| `[LEGAL_APPROVAL]` | Specify the legal approval | "[specify value]" |
-| `[DOM_EQUITY]` | Specify the dom equity | "[specify value]" |
-| `[INT_DEV]` | Specify the int dev | "[specify value]" |
-| `[EMERG_MKT]` | Specify the emerg mkt | "[specify value]" |
-| `[SMALL_MID]` | Specify the small mid | "[specify value]" |
-| `[SECTOR_ALLOC]` | Specify the sector alloc | "[specify value]" |
-| `[GOVT_BONDS]` | Specify the govt bonds | "[specify value]" |
-| `[CORP_BONDS]` | Specify the corp bonds | "[specify value]" |
-| `[HIGH_YIELD]` | Specify the high yield | "[specify value]" |
-| `[INT_BONDS]` | Specify the int bonds | "[specify value]" |
-| `[DURATION]` | Specify the duration | "6 months" |
-| `[REAL_ESTATE]` | Specify the real estate | "[specify value]" |
-| `[PRIV_EQUITY]` | Specify the priv equity | "[specify value]" |
-| `[HEDGE_FUNDS]` | Specify the hedge funds | "[specify value]" |
-| `[COMMODITIES]` | Specify the commodities | "[specify value]" |
-| `[INFRASTRUCTURE]` | Specify the infrastructure | "[specify value]" |
-| `[OP_CASH]` | Specify the op cash | "[specify value]" |
-| `[STRAT_CASH]` | Specify the strat cash | "[specify value]" |
-| `[MONEY_MKT]` | Specify the money mkt | "[specify value]" |
-| `[SHORT_SEC]` | Specify the short sec | "[specify value]" |
-| `[CURRENT_RETURN]` | Specify the current return | "[specify value]" |
-| `[OPTIMAL_RETURN]` | Specify the optimal return | "[specify value]" |
-| `[RETURN_CONSTRAINT]` | Specify the return constraint | "[specify value]" |
-| `[RETURN_REBAL]` | Specify the return rebal | "[specify value]" |
-| `[RETURN_IMPROVE]` | Specify the return improve | "[specify value]" |
-| `[CURRENT_RISK]` | Specify the current risk | "[specify value]" |
-| `[OPTIMAL_RISK]` | Specify the optimal risk | "[specify value]" |
-| `[RISK_CONSTRAINT]` | Specify the risk constraint | "[specify value]" |
-| `[RISK_REBAL]` | Specify the risk rebal | "[specify value]" |
-| `[RISK_IMPROVE]` | Specify the risk improve | "[specify value]" |
-| `[CURRENT_SHARPE]` | Specify the current sharpe | "[specify value]" |
-| `[OPTIMAL_SHARPE]` | Specify the optimal sharpe | "[specify value]" |
-| `[SHARPE_CONSTRAINT]` | Specify the sharpe constraint | "[specify value]" |
-| `[SHARPE_REBAL]` | Specify the sharpe rebal | "[specify value]" |
-| `[SHARPE_IMPROVE]` | Specify the sharpe improve | "[specify value]" |
-| `[CURRENT_TRACK]` | Specify the current track | "[specify value]" |
-| `[OPTIMAL_TRACK]` | Specify the optimal track | "[specify value]" |
-| `[TRACK_CONSTRAINT]` | Specify the track constraint | "[specify value]" |
-| `[TRACK_REBAL]` | Specify the track rebal | "[specify value]" |
-| `[TRACK_IMPROVE]` | Specify the track improve | "[specify value]" |
-| `[CURRENT_CONC]` | Specify the current conc | "[specify value]" |
-| `[OPTIMAL_CONC]` | Specify the optimal conc | "[specify value]" |
-| `[CONC_CONSTRAINT]` | Specify the conc constraint | "[specify value]" |
-| `[CONC_REBAL]` | Specify the conc rebal | "[specify value]" |
-| `[CONC_IMPROVE]` | Specify the conc improve | "[specify value]" |
-| `[CURRENT_FACTOR]` | Specify the current factor | "[specify value]" |
-| `[OPTIMAL_FACTOR]` | Specify the optimal factor | "[specify value]" |
-| `[FACTOR_CONSTRAINT]` | Specify the factor constraint | "[specify value]" |
-| `[FACTOR_REBAL]` | Specify the factor rebal | "[specify value]" |
-| `[FACTOR_IMPROVE]` | Specify the factor improve | "[specify value]" |
-| `[PORT_BETA]` | Specify the port beta | "[specify value]" |
-| `[VAR_95]` | Specify the var 95 | "[specify value]" |
-| `[CVAR_95]` | Specify the cvar 95 | "[specify value]" |
-| `[MAX_DRAW]` | Specify the max draw | "[specify value]" |
-| `[VOLATILITY]` | Specify the volatility | "[specify value]" |
-| `[SYSTEMATIC]` | Specify the systematic | "[specify value]" |
-| `[IDIO]` | Specify the idio | "[specify value]" |
-| `[FACTOR_RISK]` | Specify the factor risk | "[specify value]" |
-| `[CURRENCY]` | Specify the currency | "[specify value]" |
-| `[INT_RATE]` | Specify the int rate | "[specify value]" |
-| `[CRASH_IMPACT]` | Specify the crash impact | "[specify value]" |
-| `[RATE_IMPACT]` | Specify the rate impact | "[specify value]" |
-| `[CREDIT_IMPACT]` | Specify the credit impact | "[specify value]" |
-| `[GEO_IMPACT]` | Specify the geo impact | "[specify value]" |
-| `[HEDGE_STRATEGY]` | Strategy or approach for hedge | "[specify value]" |
-| `[DERIV_USE]` | Specify the deriv use | "[specify value]" |
-| `[STOP_LOSS]` | Specify the stop loss | "[specify value]" |
-| `[POS_LIMITS]` | Specify the pos limits | "[specify value]" |
-| `[DIVERS_RULES]` | Specify the divers rules | "[specify value]" |
-| `[EQUITY_CRITERIA]` | Specify the equity criteria | "[specify value]" |
-| `[EQUITY_DD]` | Specify the equity dd | "[specify value]" |
-| `[EQUITY_MONITOR]` | Specify the equity monitor | "[specify value]" |
-| `[EQUITY_EXIT]` | Specify the equity exit | "[specify value]" |
-| `[EQUITY_HOLDINGS]` | Specify the equity holdings | "[specify value]" |
-| `[FI_CRITERIA]` | Specify the fi criteria | "[specify value]" |
-| `[FI_DD]` | Specify the fi dd | "[specify value]" |
-| `[FI_MONITOR]` | Specify the fi monitor | "[specify value]" |
-| `[FI_EXIT]` | Specify the fi exit | "[specify value]" |
-| `[FI_HOLDINGS]` | Specify the fi holdings | "[specify value]" |
-| `[MF_CRITERIA]` | Specify the mf criteria | "[specify value]" |
-| `[MF_DD]` | Specify the mf dd | "[specify value]" |
-| `[MF_MONITOR]` | Specify the mf monitor | "[specify value]" |
-| `[MF_EXIT]` | Specify the mf exit | "[specify value]" |
-| `[MF_HOLDINGS]` | Specify the mf holdings | "[specify value]" |
-| `[ETF_CRITERIA]` | Specify the etf criteria | "[specify value]" |
-| `[ETF_DD]` | Specify the etf dd | "[specify value]" |
-| `[ETF_MONITOR]` | Specify the etf monitor | "[specify value]" |
-| `[ETF_EXIT]` | Specify the etf exit | "[specify value]" |
-| `[ETF_HOLDINGS]` | Specify the etf holdings | "[specify value]" |
-| `[ALT_CRITERIA]` | Specify the alt criteria | "[specify value]" |
-| `[ALT_DD]` | Specify the alt dd | "[specify value]" |
-| `[ALT_MONITOR]` | Specify the alt monitor | "[specify value]" |
-| `[ALT_EXIT]` | Specify the alt exit | "[specify value]" |
-| `[ALT_HOLDINGS]` | Specify the alt holdings | "[specify value]" |
-| `[DERIV_CRITERIA]` | Specify the deriv criteria | "[specify value]" |
-| `[DERIV_DD]` | Specify the deriv dd | "[specify value]" |
-| `[DERIV_MONITOR]` | Specify the deriv monitor | "[specify value]" |
-| `[DERIV_EXIT]` | Specify the deriv exit | "[specify value]" |
-| `[DERIV_HOLDINGS]` | Specify the deriv holdings | "[specify value]" |
-| `[PORT_YTD]` | Specify the port ytd | "[specify value]" |
-| `[BENCH_YTD]` | Specify the bench ytd | "[specify value]" |
-| `[EXCESS_YTD]` | Specify the excess ytd | "[specify value]" |
-| `[ATTR_YTD]` | Specify the attr ytd | "[specify value]" |
-| `[RANK_YTD]` | Specify the rank ytd | "[specify value]" |
-| `[PORT_1Y]` | Specify the port 1y | "[specify value]" |
-| `[BENCH_1Y]` | Specify the bench 1y | "[specify value]" |
-| `[EXCESS_1Y]` | Specify the excess 1y | "[specify value]" |
-| `[ATTR_1Y]` | Specify the attr 1y | "[specify value]" |
-| `[RANK_1Y]` | Specify the rank 1y | "[specify value]" |
-| `[PORT_3Y]` | Specify the port 3y | "[specify value]" |
-| `[BENCH_3Y]` | Specify the bench 3y | "[specify value]" |
-| `[EXCESS_3Y]` | Specify the excess 3y | "[specify value]" |
-| `[ATTR_3Y]` | Specify the attr 3y | "[specify value]" |
-| `[RANK_3Y]` | Specify the rank 3y | "[specify value]" |
-| `[PORT_5Y]` | Specify the port 5y | "[specify value]" |
-| `[BENCH_5Y]` | Specify the bench 5y | "[specify value]" |
-| `[EXCESS_5Y]` | Specify the excess 5y | "[specify value]" |
-| `[ATTR_5Y]` | Specify the attr 5y | "[specify value]" |
-| `[RANK_5Y]` | Specify the rank 5y | "[specify value]" |
-| `[PORT_INCEP]` | Specify the port incep | "[specify value]" |
-| `[BENCH_INCEP]` | Specify the bench incep | "[specify value]" |
-| `[EXCESS_INCEP]` | Specify the excess incep | "[specify value]" |
-| `[ATTR_INCEP]` | Specify the attr incep | "[specify value]" |
-| `[RANK_INCEP]` | Specify the rank incep | "[specify value]" |
-| `[PORT_RISK_ADJ]` | Specify the port risk adj | "[specify value]" |
-| `[BENCH_RISK_ADJ]` | Specify the bench risk adj | "[specify value]" |
-| `[EXCESS_RISK_ADJ]` | Specify the excess risk adj | "[specify value]" |
-| `[ATTR_RISK_ADJ]` | Specify the attr risk adj | "[specify value]" |
-| `[RANK_RISK_ADJ]` | Specify the rank risk adj | "[specify value]" |
-| `[CALENDAR_REBAL]` | Specify the calendar rebal | "[specify value]" |
-| `[THRESHOLD_REBAL]` | Specify the threshold rebal | "[specify value]" |
-| `[VOL_REBAL]` | Specify the vol rebal | "[specify value]" |
-| `[OPP_REBAL]` | Specify the opp rebal | "[specify value]" |
-| `[PRE_TRADE]` | Specify the pre trade | "[specify value]" |
-| `[ORDER_MGMT]` | Specify the order mgmt | "[specify value]" |
-| `[EXEC_STRATEGY]` | Strategy or approach for exec | "[specify value]" |
-| `[BEST_EXEC]` | Specify the best exec | "[specify value]" |
-| `[POST_TRADE]` | Specify the post trade | "[specify value]" |
-| `[BROKER_FEES]` | Specify the broker fees | "[specify value]" |
-| `[MARKET_IMPACT]` | Specify the market impact | "[specify value]" |
-| `[SPREAD_COSTS]` | Specify the spread costs | "[specify value]" |
-| `[OPP_COST]` | Specify the opp cost | "[specify value]" |
-| `[TOTAL_COST]` | Specify the total cost | "[specify value]" |
-| `[TAX_HARVEST]` | Specify the tax harvest | "[specify value]" |
-| `[GAIN_DEFER]` | Specify the gain defer | "[specify value]" |
-| `[ASSET_LOCATION]` | Specify the asset location | "North America" |
-| `[TAX_EFFICIENCY]` | Specify the tax efficiency | "[specify value]" |
-| `[AFTER_TAX]` | Specify the after tax | "[specify value]" |
-| `[PERF_FREQ]` | Specify the perf freq | "[specify value]" |
-| `[PERF_CONTENT]` | Specify the perf content | "[specify value]" |
-| `[PERF_DIST]` | Specify the perf dist | "[specify value]" |
-| `[PERF_CUSTOM]` | Specify the perf custom | "[specify value]" |
-| `[PERF_COMPLY]` | Specify the perf comply | "[specify value]" |
-| `[RISK_FREQ]` | Specify the risk freq | "[specify value]" |
-| `[RISK_CONTENT]` | Specify the risk content | "[specify value]" |
-| `[RISK_DIST]` | Specify the risk dist | "[specify value]" |
-| `[RISK_CUSTOM]` | Specify the risk custom | "[specify value]" |
-| `[RISK_COMPLY]` | Specify the risk comply | "[specify value]" |
-| `[HOLD_FREQ]` | Specify the hold freq | "[specify value]" |
-| `[HOLD_CONTENT]` | Specify the hold content | "[specify value]" |
-| `[HOLD_DIST]` | Specify the hold dist | "[specify value]" |
-| `[HOLD_CUSTOM]` | Specify the hold custom | "[specify value]" |
-| `[HOLD_COMPLY]` | Specify the hold comply | "[specify value]" |
-| `[TRANS_FREQ]` | Specify the trans freq | "[specify value]" |
-| `[TRANS_CONTENT]` | Specify the trans content | "[specify value]" |
-| `[TRANS_DIST]` | Specify the trans dist | "[specify value]" |
-| `[TRANS_CUSTOM]` | Specify the trans custom | "[specify value]" |
-| `[TRANS_COMPLY]` | Specify the trans comply | "[specify value]" |
-| `[MARKET_FREQ]` | Specify the market freq | "[specify value]" |
-| `[MARKET_CONTENT]` | Specify the market content | "[specify value]" |
-| `[MARKET_DIST]` | Specify the market dist | "[specify value]" |
-| `[MARKET_CUSTOM]` | Specify the market custom | "[specify value]" |
-| `[MARKET_COMPLY]` | Specify the market comply | "[specify value]" |
-| `[REG_FREQ]` | Specify the reg freq | "[specify value]" |
-| `[REG_CONTENT]` | Specify the reg content | "[specify value]" |
-| `[REG_DIST]` | Specify the reg dist | "[specify value]" |
-| `[REG_CUSTOM]` | Specify the reg custom | "[specify value]" |
-| `[REG_COMPLY]` | Specify the reg comply | "[specify value]" |
-| `[GUIDE_REQ]` | Specify the guide req | "[specify value]" |
-| `[GUIDE_STATUS]` | Specify the guide status | "In Progress" |
-| `[GUIDE_MONITOR]` | Specify the guide monitor | "[specify value]" |
-| `[GUIDE_VIOLATE]` | Specify the guide violate | "[specify value]" |
-| `[GUIDE_REMEDY]` | Specify the guide remedy | "[specify value]" |
-| `[PROSP_REQ]` | Specify the prosp req | "[specify value]" |
-| `[PROSP_STATUS]` | Specify the prosp status | "In Progress" |
-| `[PROSP_MONITOR]` | Specify the prosp monitor | "[specify value]" |
-| `[PROSP_VIOLATE]` | Specify the prosp violate | "[specify value]" |
-| `[PROSP_REMEDY]` | Specify the prosp remedy | "[specify value]" |
-| `[SEC_REQ]` | Specify the sec req | "[specify value]" |
-| `[SEC_STATUS]` | Specify the sec status | "In Progress" |
-| `[SEC_MONITOR]` | Specify the sec monitor | "[specify value]" |
-| `[SEC_VIOLATE]` | Specify the sec violate | "[specify value]" |
-| `[SEC_REMEDY]` | Specify the sec remedy | "[specify value]" |
-| `[MIFID_REQ]` | Specify the mifid req | "[specify value]" |
-| `[MIFID_STATUS]` | Specify the mifid status | "In Progress" |
-| `[MIFID_MONITOR]` | Specify the mifid monitor | "[specify value]" |
-| `[MIFID_VIOLATE]` | Specify the mifid violate | "[specify value]" |
-| `[MIFID_REMEDY]` | Specify the mifid remedy | "[specify value]" |
-| `[BEST_REQ]` | Specify the best req | "[specify value]" |
-| `[BEST_STATUS]` | Specify the best status | "In Progress" |
-| `[BEST_MONITOR]` | Specify the best monitor | "[specify value]" |
-| `[BEST_VIOLATE]` | Specify the best violate | "[specify value]" |
-| `[BEST_REMEDY]` | Specify the best remedy | "[specify value]" |
-| `[FID_REQ]` | Specify the fid req | "[specify value]" |
-| `[FID_STATUS]` | Specify the fid status | "In Progress" |
-| `[FID_MONITOR]` | Specify the fid monitor | "[specify value]" |
-| `[FID_VIOLATE]` | Specify the fid violate | "[specify value]" |
-| `[FID_REMEDY]` | Specify the fid remedy | "[specify value]" |
-| `[PMS_SYSTEM]` | Specify the pms system | "[specify value]" |
-| `[OMS_SYSTEM]` | Specify the oms system | "[specify value]" |
-| `[RISK_SYSTEM]` | Specify the risk system | "[specify value]" |
-| `[PERF_SYSTEM]` | Specify the perf system | "[specify value]" |
-| `[REPORT_SYSTEM]` | Specify the report system | "[specify value]" |
-| `[MARKET_DATA]` | Specify the market data | "[specify value]" |
-| `[REF_DATA]` | Specify the ref data | "[specify value]" |
-| `[PRICE_DATA]` | Specify the price data | "[specify value]" |
-| `[CORP_ACTIONS]` | Specify the corp actions | "[specify value]" |
-| `[DATA_QUALITY]` | Specify the data quality | "[specify value]" |
-| `[ML_TOOLS]` | Specify the ml tools | "[specify value]" |
-| `[QUANT_MODELS]` | Specify the quant models | "[specify value]" |
-| `[FACTOR_MODELS]` | Specify the factor models | "[specify value]" |
-| `[OPT_TOOLS]` | Specify the opt tools | "[specify value]" |
-| `[BACKTEST]` | Specify the backtest | "[specify value]" |
-| `[API_CONNECT]` | Specify the api connect | "[specify value]" |
-| `[STP_LEVEL]` | Specify the stp level | "[specify value]" |
-| `[AUTO_LEVEL]` | Specify the auto level | "[specify value]" |
-| `[UPTIME]` | Specify the uptime | "[specify value]" |
-| `[DR_PLAN]` | Specify the dr plan | "[specify value]" |
-
-
-
-### 3. Portfolio Construction & Optimization
-
-| **Optimization Factor** | **Current Portfolio** | **Optimal Portfolio** | **Constraints** | **Rebalancing Cost** | **Expected Improvement** |
-|-----------------------|---------------------|---------------------|---------------|--------------------|-----------------------|
-| Expected Return | [CURRENT_RETURN]% | [OPTIMAL_RETURN]% | [RETURN_CONSTRAINT] | $[RETURN_REBAL] | +[RETURN_IMPROVE]% |
-| Portfolio Risk | [CURRENT_RISK]% | [OPTIMAL_RISK]% | [RISK_CONSTRAINT] | $[RISK_REBAL] | -[RISK_IMPROVE]% |
-| Sharpe Ratio | [CURRENT_SHARPE] | [OPTIMAL_SHARPE] | [SHARPE_CONSTRAINT] | $[SHARPE_REBAL] | +[SHARPE_IMPROVE] |
-| Tracking Error | [CURRENT_TRACK]% | [OPTIMAL_TRACK]% | [TRACK_CONSTRAINT] | $[TRACK_REBAL] | [TRACK_IMPROVE]% |
-| Concentration | [CURRENT_CONC] | [OPTIMAL_CONC] | [CONC_CONSTRAINT] | $[CONC_REBAL] | [CONC_IMPROVE] |
-| Factor Exposure | [CURRENT_FACTOR] | [OPTIMAL_FACTOR] | [FACTOR_CONSTRAINT] | $[FACTOR_REBAL] | [FACTOR_IMPROVE] |
-
-### 4. Risk Management & Analysis
-
-```
-Risk Analytics:
-Market Risk Measures:
-- Portfolio Beta: [PORT_BETA]
-- Value at Risk (95%): $[VAR_95]
-- CVaR (95%): $[CVAR_95]
-- Maximum Drawdown: [MAX_DRAW]%
-- Volatility: [VOLATILITY]%
-
-Risk Decomposition:
-- Systematic Risk: [SYSTEMATIC]%
-- Idiosyncratic Risk: [IDIO]%
-- Factor Risk: [FACTOR_RISK]%
-- Currency Risk: [CURRENCY]%
-- Interest Rate Risk: [INT_RATE]%
-
-### Stress Testing
-- Market Crash (-20%): $[CRASH_IMPACT]
-- Interest Rate Shock: $[RATE_IMPACT]
-- Credit Spread Widening: $[CREDIT_IMPACT]
-- Liquidity Crisis: $[LIQ_IMPACT]
-- Geopolitical Event: $[GEO_IMPACT]
-
-### Risk Mitigation
-- Hedging Strategy: [HEDGE_STRATEGY]
-- Derivatives Usage: [DERIV_USE]
-- Stop-Loss Rules: [STOP_LOSS]
-- Position Limits: [POS_LIMITS]
-- Diversification Rules: [DIVERS_RULES]
-```
-
-### 5. Security Selection & Due Diligence
-
-| **Asset Class** | **Selection Criteria** | **Due Diligence Process** | **Monitoring Frequency** | **Exit Criteria** | **Current Holdings** |
-|----------------|---------------------|------------------------|----------------------|-----------------|-------------------|
-| Equities | [EQUITY_CRITERIA] | [EQUITY_DD] | [EQUITY_MONITOR] | [EQUITY_EXIT] | [EQUITY_HOLDINGS] |
-| Fixed Income | [FI_CRITERIA] | [FI_DD] | [FI_MONITOR] | [FI_EXIT] | [FI_HOLDINGS] |
-| Mutual Funds | [MF_CRITERIA] | [MF_DD] | [MF_MONITOR] | [MF_EXIT] | [MF_HOLDINGS] |
-| ETFs | [ETF_CRITERIA] | [ETF_DD] | [ETF_MONITOR] | [ETF_EXIT] | [ETF_HOLDINGS] |
-| Alternatives | [ALT_CRITERIA] | [ALT_DD] | [ALT_MONITOR] | [ALT_EXIT] | [ALT_HOLDINGS] |
-| Derivatives | [DERIV_CRITERIA] | [DERIV_DD] | [DERIV_MONITOR] | [DERIV_EXIT] | [DERIV_HOLDINGS] |
-
-### 6. Performance Measurement & Attribution
-
-**Performance Analytics:**
-| **Performance Metric** | **Portfolio** | **Benchmark** | **Excess Return** | **Attribution** | **Ranking** |
-|----------------------|-------------|-------------|----------------|---------------|-----------|
-| Total Return (YTD) | [PORT_YTD]% | [BENCH_YTD]% | [EXCESS_YTD]% | [ATTR_YTD] | [RANK_YTD] |
-| 1-Year Return | [PORT_1Y]% | [BENCH_1Y]% | [EXCESS_1Y]% | [ATTR_1Y] | [RANK_1Y] |
-| 3-Year Return | [PORT_3Y]% | [BENCH_3Y]% | [EXCESS_3Y]% | [ATTR_3Y] | [RANK_3Y] |
-| 5-Year Return | [PORT_5Y]% | [BENCH_5Y]% | [EXCESS_5Y]% | [ATTR_5Y] | [RANK_5Y] |
-| Since Inception | [PORT_INCEP]% | [BENCH_INCEP]% | [EXCESS_INCEP]% | [ATTR_INCEP] | [RANK_INCEP] |
-| Risk-Adjusted | [PORT_RISK_ADJ] | [BENCH_RISK_ADJ] | [EXCESS_RISK_ADJ] | [ATTR_RISK_ADJ] | [RANK_RISK_ADJ] |
-
-### 7. Rebalancing & Trading
-
-```
-Rebalancing Framework:
-Rebalancing Triggers:
-- Calendar: [CALENDAR_REBAL]
-- Threshold: [THRESHOLD_REBAL]%
-- Volatility-Based: [VOL_REBAL]
-- Opportunistic: [OPP_REBAL]
-- Risk-Based: [RISK_REBAL]
-
-Trading Process:
-- Pre-Trade Analysis: [PRE_TRADE]
-- Order Management: [ORDER_MGMT]
-- Execution Strategy: [EXEC_STRATEGY]
-- Best Execution: [BEST_EXEC]
-- Post-Trade Analysis: [POST_TRADE]
-
-### Transaction Costs
-- Brokerage Fees: [BROKER_FEES] bps
-- Market Impact: [MARKET_IMPACT] bps
-- Spread Costs: [SPREAD_COSTS] bps
-- Opportunity Cost: [OPP_COST] bps
-- Total Cost: [TOTAL_COST] bps
-
-### Tax Management
-- Tax Loss Harvesting: $[TAX_HARVEST]
-- Gain Deferral: $[GAIN_DEFER]
-- Asset Location: [ASSET_LOCATION]
-- Tax Efficiency: [TAX_EFFICIENCY]%
-- After-Tax Return: [AFTER_TAX]%
-```
-
-### 8. Client Reporting & Communication
-
-| **Report Type** | **Frequency** | **Content** | **Distribution** | **Customization** | **Compliance Check** |
-|---------------|-------------|-----------|----------------|-----------------|-------------------|
-| Performance Report | [PERF_FREQ] | [PERF_CONTENT] | [PERF_DIST] | [PERF_CUSTOM] | [PERF_COMPLY] |
-| Risk Report | [RISK_FREQ] | [RISK_CONTENT] | [RISK_DIST] | [RISK_CUSTOM] | [RISK_COMPLY] |
-| Holdings Report | [HOLD_FREQ] | [HOLD_CONTENT] | [HOLD_DIST] | [HOLD_CUSTOM] | [HOLD_COMPLY] |
-| Transaction Report | [TRANS_FREQ] | [TRANS_CONTENT] | [TRANS_DIST] | [TRANS_CUSTOM] | [TRANS_COMPLY] |
-| Market Commentary | [MARKET_FREQ] | [MARKET_CONTENT] | [MARKET_DIST] | [MARKET_CUSTOM] | [MARKET_COMPLY] |
-| Regulatory Filing | [REG_FREQ] | [REG_CONTENT] | [REG_DIST] | [REG_CUSTOM] | [REG_COMPLY] |
-
-### 9. Compliance & Regulatory
-
-**Regulatory Compliance Framework:**
-| **Regulation** | **Requirements** | **Current Status** | **Monitoring Process** | **Violations** | **Remediation** |
-|--------------|----------------|------------------|---------------------|--------------|---------------|
-| Investment Guidelines | [GUIDE_REQ] | [GUIDE_STATUS] | [GUIDE_MONITOR] | [GUIDE_VIOLATE] | [GUIDE_REMEDY] |
-| Prospectus Compliance | [PROSP_REQ] | [PROSP_STATUS] | [PROSP_MONITOR] | [PROSP_VIOLATE] | [PROSP_REMEDY] |
-| SEC/FINRA Rules | [SEC_REQ] | [SEC_STATUS] | [SEC_MONITOR] | [SEC_VIOLATE] | [SEC_REMEDY] |
-| MiFID II | [MIFID_REQ] | [MIFID_STATUS] | [MIFID_MONITOR] | [MIFID_VIOLATE] | [MIFID_REMEDY] |
-| Best Execution | [BEST_REQ] | [BEST_STATUS] | [BEST_MONITOR] | [BEST_VIOLATE] | [BEST_REMEDY] |
-| Fiduciary Standards | [FID_REQ] | [FID_STATUS] | [FID_MONITOR] | [FID_VIOLATE] | [FID_REMEDY] |
-
-### 10. Technology & Systems
-
-```
-Portfolio Management Technology:
-Core Systems:
-- Portfolio Management: [PMS_SYSTEM]
-- Order Management: [OMS_SYSTEM]
-- Risk Management: [RISK_SYSTEM]
-- Performance Analytics: [PERF_SYSTEM]
-- Client Reporting: [REPORT_SYSTEM]
-
-Data Management:
-- Market Data Feeds: [MARKET_DATA]
-- Reference Data: [REF_DATA]
-- Pricing Sources: [PRICE_DATA]
-- Corporate Actions: [CORP_ACTIONS]
-- Data Quality: [DATA_QUALITY]%
-
-### Advanced Analytics
-- Machine Learning: [ML_TOOLS]
-- Quantitative Models: [QUANT_MODELS]
-- Factor Models: [FACTOR_MODELS]
-- Optimization Tools: [OPT_TOOLS]
-- Backtesting Platform: [BACKTEST]
-
-### Integration
-- API Connectivity: [API_CONNECT]
-- Straight-Through Processing: [STP_LEVEL]%
-- Automation Level: [AUTO_LEVEL]%
-- System Uptime: [UPTIME]%
-- Disaster Recovery: [DR_PLAN]
-```
+|----------|-------------|---------|
+| `[CLIENT_TYPE]` | Type of client or portfolio | "Corporate pension fund" |
+| `[AUM]` | Assets under management | "500 million" |
+| `[RISK_PROFILE]` | Overall risk tolerance | "Moderate conservative" |
+| `[RETURN_OBJECTIVE]` | Target annual return | "7.5" |
+| `[TIME_HORIZON]` | Investment timeframe | "15-20 years" |
+| `[BENCHMARK]` | Performance benchmark | "60% S&P 500 / 40% Bloomberg Aggregate" |
+| `[RETURN_TARGET]` | Specific return target | "7.5" |
+| `[RETURN_MINIMUM]` | Minimum acceptable return | "4.0" |
+| `[REAL_RETURN]` | After-inflation target | "5.0" |
+| `[INCOME_NEED]` | Required portfolio income | "3.5" |
+| `[GROWTH_EMPHASIS]` | Growth vs income focus | "Moderate" |
+| `[MAX_DRAWDOWN]` | Maximum tolerable loss | "25" |
+| `[VOLATILITY_TARGET]` | Target volatility level | "12" |
+| `[TRACKING_ERROR]` | Tracking error budget | "3-5" |
+| `[VAR_95]` | Value at risk 95% confidence | "18" |
+| `[BETA_TARGET]` | Target portfolio beta | "0.85" |
+| `[LIQUIDITY_NEEDS]` | Liquidity requirement amount | "$5 million" |
+| `[LIQUIDITY_TIMEFRAME]` | Liquidity access timeframe | "30 days" |
+| `[TAX_STATUS]` | Tax status of account | "Tax-exempt" |
+| `[TAX_STRATEGY]` | Tax management approach | "Minimize turnover" |
+| `[REGULATORY_CONSTRAINTS]` | Applicable regulations | "ERISA, DOL guidelines" |
+| `[ESG_REQUIREMENTS]` | ESG investment criteria | "No tobacco, firearms" |
+| `[EQUITY_TOTAL]` | Total equity allocation | "60" |
+| `[DOMESTIC_LARGE]` | Domestic large cap stocks | "35" |
+| `[DOMESTIC_SMALL]` | Domestic small/mid cap | "10" |
+| `[INTL_DEVELOPED]` | International developed markets | "12" |
+| `[EMERGING_MARKETS]` | Emerging markets equity | "3" |
+| `[FIXED_INCOME_TOTAL]` | Total fixed income | "35" |
+| `[GOVT_BONDS]` | Government bonds | "15" |
+| `[IG_CORPORATE]` | Investment grade corporate | "12" |
+| `[HIGH_YIELD]` | High yield bonds | "3" |
+| `[INTL_BONDS]` | International bonds | "5" |
+| `[DURATION]` | Fixed income duration | "5.5" |
+| `[ALTERNATIVES_TOTAL]` | Total alternatives | "5" |
+| `[REAL_ESTATE]` | Real estate allocation | "3" |
+| `[PRIVATE_EQUITY]` | Private equity allocation | "2" |
+| `[HEDGE_FUNDS]` | Hedge fund allocation | "0" |
+| `[COMMODITIES]` | Commodities allocation | "0" |
+| `[CASH_TOTAL]` | Total cash allocation | "0" |
+| `[OPERATING_CASH]` | Operating cash | "0" |
+| `[STRATEGIC_CASH]` | Strategic cash reserves | "0" |
+| `[EQUITY_BAND]` | Equity rebalancing band | "5" |
+| `[FIXED_BAND]` | Fixed income rebalancing band | "5" |
+| `[ALT_BAND]` | Alternatives rebalancing band | "3" |
+| `[REBAL_FREQUENCY]` | Rebalancing frequency | "Quarterly" |
+| `[CURRENT_BETA]` | Current portfolio beta | "0.92" |
+| `[SHARPE_TARGET]` | Target Sharpe ratio | "0.75" |
+| `[MAX_POSITION]` | Maximum single position size | "5" |
+| `[MAX_SECTOR]` | Maximum sector exposure | "25" |
+| `[GEO_LIMIT]` | Geographic concentration limit | "30" |
+| `[CRASH_IMPACT]` | Market crash impact estimate | "85 million" |
+| `[RATE_SHOCK_IMPACT]` | Rate shock impact | "12 million" |
+| `[CREDIT_IMPACT]` | Credit spread impact | "8 million" |
+| `[CURRENCY_IMPACT]` | Currency crisis impact | "5 million" |
+| `[HEDGING_APPROACH]` | Risk hedging strategy | "Options on 20% of equity" |
+| `[DERIVATIVES_POLICY]` | Derivatives usage policy | "Hedging only, no speculation" |
+| `[STOP_LOSS_RULES]` | Stop-loss protocols | "Review if position down 15%" |
+| `[POSITION_SIZING_METHOD]` | Position sizing methodology | "Risk parity adjusted" |
+| `[YTD_RETURN]` | Year-to-date return | "8.2" |
+| `[BENCH_YTD]` | Benchmark YTD return | "7.8" |
+| `[ONE_YEAR]` | One-year return | "12.5" |
+| `[BENCH_1Y]` | Benchmark 1-year return | "11.8" |
+| `[THREE_YEAR]` | Three-year annualized return | "9.3" |
+| `[BENCH_3Y]` | Benchmark 3-year return | "8.9" |
+| `[FIVE_YEAR]` | Five-year annualized return | "10.1" |
+| `[BENCH_5Y]` | Benchmark 5-year return | "9.5" |
+| `[INCEPTION]` | Since inception return | "8.7" |
+| `[BENCH_INCEP]` | Benchmark since inception | "8.2" |
+| `[CURRENT_SHARPE]` | Current Sharpe ratio | "0.82" |
+| `[INFO_RATIO]` | Information ratio | "0.45" |
+| `[TRACKING_ERROR_ACTUAL]` | Actual tracking error | "2.8" |
+| `[ACTUAL_DRAWDOWN]` | Actual maximum drawdown | "18.5" |
+| `[DOWNSIDE_CAPTURE]` | Downside capture ratio | "85" |
+| `[UPSIDE_CAPTURE]` | Upside capture ratio | "105" |
+| `[ALLOCATION_EFFECT]` | Asset allocation attribution | "0.8" |
+| `[SELECTION_EFFECT]` | Security selection attribution | "0.4" |
+| `[INTERACTION_EFFECT]` | Interaction effect | "0.1" |
+| `[TRADING_IMPACT]` | Trading/rebalancing impact | "-0.2" |
+| `[PERF_FREQUENCY]` | Performance reporting frequency | "Monthly" |
+| `[HOLDINGS_FREQUENCY]` | Holdings report frequency | "Quarterly" |
+| `[RISK_REPORT_FREQUENCY]` | Risk report frequency | "Monthly" |
+| `[COMMENTARY_FREQUENCY]` | Market commentary frequency | "Quarterly" |
+| `[MEETING_FREQUENCY]` | Client meeting frequency | "Quarterly" |
+| `[GUIDELINES_STATUS]` | Investment guidelines status | "Compliant" |
+| `[REVIEW_DATE]` | Last guidelines review | "2025-01-15" |
+| `[FIDUCIARY_COMPLIANCE]` | Fiduciary compliance status | "Full compliance" |
+| `[CUSTODY_ARRANGEMENT]` | Custody arrangement | "Third-party institutional custodian" |
+| `[REPORTING_REQUIREMENTS]` | Regulatory reporting obligations | "Quarterly to trustees" |
+| `[EXECUTION_POLICY]` | Best execution policy | "Multi-broker, VWAP benchmark" |
+| `[DAILY_CHECKS]` | Daily compliance checks | "Automated position limits" |
+| `[EXCEPTION_PROCESS]` | Exception handling process | "Email alerts, same-day review" |
+| `[REMEDIATION_PROTOCOL]` | Violation remediation | "Immediate rebalancing within 2 days" |
+| `[AUDIT_FREQUENCY]` | Audit schedule | "Annual external audit" |
+| `[PMS_SYSTEM]` | Portfolio management system | "Bloomberg AIM" |
+| `[OMS_SYSTEM]` | Order management system | "Charles River OMS" |
+| `[RISK_PLATFORM]` | Risk analytics platform | "MSCI Barra" |
+| `[ATTRIBUTION_SYSTEM]` | Performance attribution system | "FactSet PA" |
+| `[REPORTING_PLATFORM]` | Client reporting platform | "Black Diamond" |
+| `[MARKET_DATA_VENDOR]` | Market data provider | "Bloomberg, Refinitiv" |
+| `[PRICING_SOURCES]` | Securities pricing sources | "IDC, Bloomberg composite" |
+| `[ANALYTICS_TOOLS]` | Portfolio analytics tools | "Morningstar Direct, FactSet" |
+| `[AUTOMATION_PERCENTAGE]` | Automation level | "75" |
 
 ## Usage Examples
 
+### Example 1: Corporate Pension Fund
+```
+CLIENT_TYPE: "Defined benefit pension fund"
+AUM: "5 billion"
+RISK_PROFILE: "Moderate conservative"
+RETURN_OBJECTIVE: "7.0"
+TIME_HORIZON: "Perpetual (liability-driven)"
+BENCHMARK: "Custom liability benchmark"
 
+ALLOCATION:
+- Equities 55% (liability hedge-adjusted)
+- Fixed Income 40% (duration-matched to liabilities)
+- Alternatives 5% (real assets for inflation protection)
+
+FOCUS AREAS:
+- Liability-driven investing framework
+- Funded status optimization
+- Glide path toward de-risking as funded status improves
+- Monthly contribution/benefit cash flows
+```
+
+### Example 2: University Endowment
+```
+CLIENT_TYPE: "University endowment"
+AUM: "800 million"
+RISK_PROFILE: "Moderate aggressive"
+RETURN_OBJECTIVE: "8.5"
+TIME_HORIZON: "Perpetual"
+BENCHMARK: "CPI + 5.5%"
+
+ALLOCATION:
+- Public Equities 35%
+- Fixed Income 15%
+- Private Equity 25%
+- Real Assets 15%
+- Hedge Funds 10%
+
+FOCUS AREAS:
+- 5% annual spending rule sustainability
+- Illiquidity premium capture
+- Inflation protection
+- Intergenerational equity
+```
+
+### Example 3: High Net Worth Family
+```
+CLIENT_TYPE: "Ultra-high net worth family office"
+AUM: "250 million"
+RISK_PROFILE: "Moderate"
+RETURN_OBJECTIVE: "6.0"
+TIME_HORIZON: "Multi-generational (30+ years)"
+BENCHMARK: "60/30/10 Global Equity/Fixed/Alternatives"
+
+ALLOCATION:
+- Global Equities 60% (tax-efficient index core + active satellite)
+- Municipal Bonds 25% (tax-advantaged)
+- Private Investments 10% (direct investments, co-investments)
+- Real Estate 5% (direct property holdings)
+
+FOCUS AREAS:
+- After-tax return optimization
+- Tax-loss harvesting (target $2M+ annual)
+- Philanthropic planning integration
+- Next-generation wealth transfer planning
+```
 
 ## Best Practices
 
-1. **Start with clear objectives** - Define what success looks like before beginning
-2. **Use data to inform decisions** - Base choices on evidence and measurable outcomes
-3. **Iterate and improve continuously** - Treat implementation as an ongoing process
-4. **Engage stakeholders early** - Include key participants in planning and execution
-5. **Document thoroughly** - Maintain clear records for reference and knowledge transfer
-6. **Communicate regularly** - Keep all parties informed of progress and changes
-7. **Address challenges proactively** - Identify potential issues before they become problems
-8. **Celebrate milestones** - Recognize achievements to maintain motivation
-9. **Learn from experience** - Reflect on what works and adjust accordingly
-10. **Stay flexible** - Be ready to adapt based on feedback and changing circumstances
+1. **Establish clear investment policy first** - Never invest without a documented IPS that defines objectives, constraints, and decision-making authority. Review and update annually or when circumstances change materially.
+
+2. **Focus on asset allocation, not security selection** - Spend 80% of your time on strategic allocation decisions and 20% on implementation. Asset allocation drives long-term results far more than individual security choices.
+
+3. **Implement systematic rebalancing discipline** - Emotional decision-making destroys value. Define rebalancing rules in advance and execute mechanically. The best rebalancing happens when it feels most uncomfortable.
+
+4. **Understand true risk tolerance through stress testing** - Show clients what a 30% drawdown means in dollar terms, not percentages. "Your $1 million portfolio would be worth $700,000" creates understanding that "30% decline" does not.
+
+5. **Minimize costs relentlessly** - Every basis point of fees is a basis point of performance you must overcome. Use low-cost index funds for core exposures, reserve active management for less efficient markets.
+
+6. **Tax efficiency adds real value in taxable accounts** - Asset location, tax-loss harvesting, and holding period management can add 50-100 basis points annually. This compounds dramatically over decades.
+
+7. **Monitor risk continuously, not just returns** - Risk metrics are forward-looking; returns are backward-looking. Track concentration, correlations, and stress scenarios monthly, not quarterly.
+
+8. **Document all investment decisions** - Maintain decision logs explaining rationale at the time of action. This protects against hindsight bias and supports fiduciary obligations.
+
+9. **Separate market views from client needs** - Your macro outlook is less important than client-specific objectives. Resist the temptation to make large tactical bets based on market predictions.
+
+10. **Communicate proactively during volatility** - Clients most need guidance when markets are stressed. Reach out before they call you, explaining how the portfolio is performing as designed.
 
 ## Tips for Success
 
-- Break complex tasks into manageable steps with clear milestones
-- Set realistic timelines that account for dependencies and constraints
-- Allocate sufficient resources including time, budget, and personnel
-- Use templates and frameworks to ensure consistency and quality
-- Seek feedback from users and stakeholders throughout the process
-- Build in checkpoints to assess progress and make adjustments
-- Maintain quality standards while remaining practical and efficient
-- Document lessons learned for future reference and improvement
-- Foster collaboration across teams and departments
-- Stay current with industry best practices and emerging trends
-### Example 1: Pension Fund
-```
-Client: Corporate pension
-AUM: $5 billion
-Allocation: 60/40 equity/fixed
-Risk: Moderate conservative
-Return Target: CPI + 4%
-Constraints: Liability-driven
-Rebalancing: Quarterly
-Reporting: Board quarterly
-```
-
-### Example 2: Family Office
-```
-Client: Ultra-high net worth
-AUM: $500 million
-Allocation: Multi-asset diversified
-Alternatives: 30% allocation
-Tax Focus: After-tax optimization
-Liquidity: 20% within 30 days
-Customization: ESG integration
-Legacy Planning: Multi-generational
-```
-
-### Example 3: Mutual Fund
-```
-Fund Type: Large-cap growth
-AUM: $2 billion
-Strategy: Active management
-Benchmark: S&P 500 Growth
-Tracking Error: 3-5%
-Turnover: 40% annual
-Fee Structure: 0.75% expense ratio
-Distribution: Multiple channels
-```
-
-## Customization Options
-
-### 1. Client Type
-- Institutional
-- High Net Worth
-- Retail
-- Sovereign Wealth
-- Endowment/Foundation
-
-### 2. Investment Style
-- Active Management
-- Passive/Index
-- Smart Beta
-- Quantitative
-- Alternative
-
-### 3. Risk Profile
-- Conservative
-- Moderate
-- Aggressive
-- Absolute Return
-- Risk Parity
-
-### 4. Geographic Focus
-- Domestic Only
-- Developed Markets
-- Emerging Markets
-- Global
-- Frontier Markets
-
-### 5. Asset Classes
-- Traditional Only
-- Multi-Asset
-- Alternatives Heavy
-- Real Assets
-- Digital Assets
+- **Build implementation around low-cost index core**: Use broad market index funds for 60-80% of portfolio, active management only where skill can be demonstrated
+- **Create clear escalation protocols**: Define trigger points for client communication, committee review, and rebalancing action
+- **Leverage technology for compliance**: Automate position limit monitoring, guideline compliance, and exception reporting to prevent violations
+- **Maintain detailed performance attribution**: Understand precisely where returns come from—allocation, selection, or timing—to improve future decisions
+- **Establish peer group benchmarks**: Compare performance not just to index benchmarks but to peer portfolios with similar objectives and constraints
+- **Review manager performance over full market cycles**: Evaluate active managers over 3-5 year periods including both up and down markets
+- **Build liquidity tiers**: Classify holdings by liquidity (daily, monthly, quarterly, annual+) to manage withdrawal capacity
+- **Stress test with multiple scenarios**: Don't rely on single stress tests; evaluate portfolio under various market, credit, and liquidity crises
+- **Document investment committee meetings**: Maintain detailed minutes capturing discussion, dissenting views, and decision rationale
+- **Stay current with regulatory changes**: Subscribe to regulatory updates and maintain relationships with compliance experts in your jurisdiction

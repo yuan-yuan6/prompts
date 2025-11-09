@@ -3,7 +3,7 @@ title: Performance Review Template Generator
 category: business/Human Resources
 tags: [business, development, management, optimization, strategy, template]
 use_cases:
-  - Implementing create comprehensive performance review systems covering evaluations, feedback d...
+  - Creating comprehensive performance review systems covering evaluations, feedback delivery, development planning, and performance management to enhance employee development and organizational effectiveness.
   - Project planning and execution
   - Strategy development
 related_templates:

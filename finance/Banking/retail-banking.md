@@ -3,7 +3,8 @@ title: Retail Banking Operations & Customer Management Framework
 category: finance/Banking
 tags: [data-science, finance, framework, management, optimization, research]
 use_cases:
-  - Implementing comprehensive framework for managing retail banking operations including account...
+  - Creating comprehensive framework for managing retail banking operations including account management, lending products, digital banking services, branch operations, and customer experience optimization.
+
   - Project planning and execution
   - Strategy development
 related_templates:

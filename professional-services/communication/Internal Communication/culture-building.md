@@ -3,7 +3,8 @@ title: Culture Building & Engagement Prompt Template
 category: professional-services/communication/Internal Communication
 tags: [communication, design, development, machine-learning, optimization, professional-services, strategy, template]
 use_cases:
-  - Implementing comprehensive framework for strengthening organizational culture, reinforcing va...
+  - Creating comprehensive framework for strengthening organizational culture, reinforcing values, implementing recognition programs, and driving employee engagement initiatives that create a positive, productive, and aligned workplace environment.
+
   - Project planning and execution
   - Strategy development
 related_templates:
@@ -25,410 +26,410 @@ I need to create comprehensive culture building and employee engagement strategi
 ## ORGANIZATIONAL CONTEXT
 
 ### Current Culture Assessment
-- Organization size: {employee_count_structure_levels}
-- Industry context: {sector_market_competitive_environment}
-- Organizational maturity: {startup_growth_established_enterprise}
-- Geographic distribution: {locations_regions_cultural_diversity}
-- Workforce demographics: {age_tenure_role_diversity}
-- Current culture strength: {alignment_consistency_clarity_level}
-- Leadership engagement: {executive_commitment_modeling_visibility}
-- Change readiness: {adaptability_openness_flexibility_capacity}
+- Organization size: [EMPLOYEE_COUNT_STRUCTURE_LEVELS]
+- Industry context: [SECTOR_MARKET_COMPETITIVE_ENVIRONMENT]
+- Organizational maturity: [STARTUP_GROWTH_ESTABLISHED_ENTERPRISE]
+- Geographic distribution: [LOCATIONS_REGIONS_CULTURAL_DIVERSITY]
+- Workforce demographics: [AGE_TENURE_ROLE_DIVERSITY]
+- Current culture strength: [ALIGNMENT_CONSISTENCY_CLARITY_LEVEL]
+- Leadership engagement: [EXECUTIVE_COMMITMENT_MODELING_VISIBILITY]
+- Change readiness: [ADAPTABILITY_OPENNESS_FLEXIBILITY_CAPACITY]
 
 ### Culture Baseline
-- Existing values: {stated_actual_observed_practiced}
-- Cultural strengths: {positive_elements_advantages_assets}
-- Cultural challenges: {gaps_weaknesses_obstacles_barriers}
-- Employee sentiment: {engagement_satisfaction_morale_commitment}
-- Behavioral patterns: {norms_practices_interactions_dynamics}
-- Communication culture: {openness_transparency_feedback_dialogue}
-- Performance culture: {excellence_accountability_recognition_standards}
-- Innovation culture: {creativity_risk_taking_learning_experimentation}
+- Existing values: [STATED_ACTUAL_OBSERVED_PRACTICED]
+- Cultural strengths: [POSITIVE_ELEMENTS_ADVANTAGES_ASSETS]
+- Cultural challenges: [GAPS_WEAKNESSES_OBSTACLES_BARRIERS]
+- Employee sentiment: [ENGAGEMENT_SATISFACTION_MORALE_COMMITMENT]
+- Behavioral patterns: [NORMS_PRACTICES_INTERACTIONS_DYNAMICS]
+- Communication culture: [OPENNESS_TRANSPARENCY_FEEDBACK_DIALOGUE]
+- Performance culture: [EXCELLENCE_ACCOUNTABILITY_RECOGNITION_STANDARDS]
+- Innovation culture: [CREATIVITY_RISK_TAKING_LEARNING_EXPERIMENTATION]
 
 ### Strategic Alignment
-- Business strategy: {objectives_priorities_direction_focus}
-- Values alignment: {consistency_integration_reinforcement_needs}
-- Performance expectations: {standards_goals_achievements_measures}
-- Stakeholder expectations: {employee_customer_investor_community}
-- Competitive advantage: {differentiation_unique_value_strengths}
-- Future vision: {aspirations_goals_transformation_evolution}
-- Change initiatives: {concurrent_planned_transformation_efforts}
-- Success metrics: {measurement_indicators_benchmarks_targets}
+- Business strategy: [OBJECTIVES_PRIORITIES_DIRECTION_FOCUS]
+- Values alignment: [CONSISTENCY_INTEGRATION_REINFORCEMENT_NEEDS]
+- Performance expectations: [STANDARDS_GOALS_ACHIEVEMENTS_MEASURES]
+- Stakeholder expectations: [EMPLOYEE_CUSTOMER_INVESTOR_COMMUNITY]
+- Competitive advantage: [DIFFERENTIATION_UNIQUE_VALUE_STRENGTHS]
+- Future vision: [ASPIRATIONS_GOALS_TRANSFORMATION_EVOLUTION]
+- Change initiatives: [CONCURRENT_PLANNED_TRANSFORMATION_EFFORTS]
+- Success metrics: [MEASUREMENT_INDICATORS_BENCHMARKS_TARGETS]
 
 ## VALUES & CULTURE FRAMEWORK
 
 ### Core Values Architecture
 
 1. **Values Definition & Articulation**
-   - Value statements: {clear_concise_meaningful_expressions}
-   - Behavioral descriptors: {specific_observable_actionable_examples}
-   - Decision criteria: {choice_framework_guidance_principles}
-   - Cultural manifestations: {visible_symbols_practices_rituals}
-   - Success indicators: {measurement_evidence_demonstration_signs}
-   - Story integration: {narrative_examples_case_studies}
-   - Language embedding: {terminology_communication_expression}
-   - Evolution planning: {adaptation_growth_refinement_development}
+   - Value statements: [CLEAR_CONCISE_MEANINGFUL_EXPRESSIONS]
+   - Behavioral descriptors: [SPECIFIC_OBSERVABLE_ACTIONABLE_EXAMPLES]
+   - Decision criteria: [CHOICE_FRAMEWORK_GUIDANCE_PRINCIPLES]
+   - Cultural manifestations: [VISIBLE_SYMBOLS_PRACTICES_RITUALS]
+   - Success indicators: [MEASUREMENT_EVIDENCE_DEMONSTRATION_SIGNS]
+   - Story integration: [NARRATIVE_EXAMPLES_CASE_STUDIES]
+   - Language embedding: [TERMINOLOGY_COMMUNICATION_EXPRESSION]
+   - Evolution planning: [ADAPTATION_GROWTH_REFINEMENT_DEVELOPMENT]
 
 2. **Values Communication Strategy**
-   - Message development: {compelling_relevant_memorable_content}
-   - Audience segmentation: {role_level_department_customization}
-   - Channel optimization: {medium_frequency_format_effectiveness}
-   - Leadership messaging: {executive_sponsor_champion_communication}
-   - Cascade approach: {management_chain_distribution_reinforcement}
-   - Story telling: {narrative_personal_relatable_examples}
-   - Visual identity: {branding_symbolism_representation_elements}
-   - Feedback integration: {input_dialogue_refinement_adjustment}
+   - Message development: [COMPELLING_RELEVANT_MEMORABLE_CONTENT]
+   - Audience segmentation: [ROLE_LEVEL_DEPARTMENT_CUSTOMIZATION]
+   - Channel optimization: [MEDIUM_FREQUENCY_FORMAT_EFFECTIVENESS]
+   - Leadership messaging: [EXECUTIVE_SPONSOR_CHAMPION_COMMUNICATION]
+   - Cascade approach: [MANAGEMENT_CHAIN_DISTRIBUTION_REINFORCEMENT]
+   - Story telling: [NARRATIVE_PERSONAL_RELATABLE_EXAMPLES]
+   - Visual identity: [BRANDING_SYMBOLISM_REPRESENTATION_ELEMENTS]
+   - Feedback integration: [INPUT_DIALOGUE_REFINEMENT_ADJUSTMENT]
 
 3. **Values Integration**
-   - Hiring alignment: {recruitment_selection_onboarding_integration}
-   - Performance management: {evaluation_feedback_development_connection}
-   - Decision making: {choice_process_criteria_value_application}
-   - Policy alignment: {rule_procedure_guideline_consistency}
-   - Resource allocation: {investment_priority_value_reflection}
-   - Recognition systems: {reward_acknowledgment_celebration_connection}
-   - Learning programs: {training_development_skill_value_integration}
-   - Communication practices: {interaction_dialogue_relationship_alignment}
+   - Hiring alignment: [RECRUITMENT_SELECTION_ONBOARDING_INTEGRATION]
+   - Performance management: [EVALUATION_FEEDBACK_DEVELOPMENT_CONNECTION]
+   - Decision making: [CHOICE_PROCESS_CRITERIA_VALUE_APPLICATION]
+   - Policy alignment: [RULE_PROCEDURE_GUIDELINE_CONSISTENCY]
+   - Resource allocation: [INVESTMENT_PRIORITY_VALUE_REFLECTION]
+   - Recognition systems: [REWARD_ACKNOWLEDGMENT_CELEBRATION_CONNECTION]
+   - Learning programs: [TRAINING_DEVELOPMENT_SKILL_VALUE_INTEGRATION]
+   - Communication practices: [INTERACTION_DIALOGUE_RELATIONSHIP_ALIGNMENT]
 
 ### Cultural Reinforcement
 
 1. **Behavioral Expectations**
-   - Expected behaviors: {specific_observable_measurable_actions}
-   - Behavioral standards: {quality_consistency_excellence_requirements}
-   - Role modeling: {leadership_demonstration_example_setting}
-   - Peer accountability: {colleague_responsibility_support_expectation}
-   - Feedback culture: {constructive_regular_developmental_communication}
-   - Continuous improvement: {learning_growth_enhancement_mindset}
-   - Collaboration norms: {teamwork_cooperation_communication_standards}
-   - Innovation behaviors: {creativity_risk_taking_experimentation_encouragement}
+   - Expected behaviors: [SPECIFIC_OBSERVABLE_MEASURABLE_ACTIONS]
+   - Behavioral standards: [QUALITY_CONSISTENCY_EXCELLENCE_REQUIREMENTS]
+   - Role modeling: [LEADERSHIP_DEMONSTRATION_EXAMPLE_SETTING]
+   - Peer accountability: [COLLEAGUE_RESPONSIBILITY_SUPPORT_EXPECTATION]
+   - Feedback culture: [CONSTRUCTIVE_REGULAR_DEVELOPMENTAL_COMMUNICATION]
+   - Continuous improvement: [LEARNING_GROWTH_ENHANCEMENT_MINDSET]
+   - Collaboration norms: [TEAMWORK_COOPERATION_COMMUNICATION_STANDARDS]
+   - Innovation behaviors: [CREATIVITY_RISK_TAKING_EXPERIMENTATION_ENCOURAGEMENT]
 
 2. **Cultural Rituals & Practices**
-   - Regular ceremonies: {celebration_milestone_recognition_events}
-   - Meeting practices: {interaction_decision_communication_norms}
-   - Workspace design: {physical_virtual_environment_culture_reflection}
-   - Communication rituals: {check_ins_updates_sharing_routines}
-   - Learning traditions: {knowledge_sharing_development_practices}
-   - Social interactions: {relationship_building_connection_activities}
-   - Success celebrations: {achievement_recognition_appreciation_events}
-   - Reflection practices: {retrospective_learning_improvement_sessions}
+   - Regular ceremonies: [CELEBRATION_MILESTONE_RECOGNITION_EVENTS]
+   - Meeting practices: [INTERACTION_DECISION_COMMUNICATION_NORMS]
+   - Workspace design: [PHYSICAL_VIRTUAL_ENVIRONMENT_CULTURE_REFLECTION]
+   - Communication rituals: [CHECK_INS_UPDATES_SHARING_ROUTINES]
+   - Learning traditions: [KNOWLEDGE_SHARING_DEVELOPMENT_PRACTICES]
+   - Social interactions: [RELATIONSHIP_BUILDING_CONNECTION_ACTIVITIES]
+   - Success celebrations: [ACHIEVEMENT_RECOGNITION_APPRECIATION_EVENTS]
+   - Reflection practices: [RETROSPECTIVE_LEARNING_IMPROVEMENT_SESSIONS]
 
 3. **Symbol & Artifact Management**
-   - Visual symbols: {logo_imagery_representation_elements}
-   - Physical artifacts: {workspace_objects_displays_reminders}
-   - Language artifacts: {terminology_phrases_expressions_vocabulary}
-   - Digital artifacts: {intranet_systems_platform_culture_integration}
-   - Storytelling artifacts: {narrative_case_study_example_collection}
-   - Recognition artifacts: {awards_certificates_symbols_acknowledgment}
-   - Communication artifacts: {newsletter_presentation_material_culture}
-   - Learning artifacts: {training_development_resource_culture_connection}
+   - Visual symbols: [LOGO_IMAGERY_REPRESENTATION_ELEMENTS]
+   - Physical artifacts: [WORKSPACE_OBJECTS_DISPLAYS_REMINDERS]
+   - Language artifacts: [TERMINOLOGY_PHRASES_EXPRESSIONS_VOCABULARY]
+   - Digital artifacts: [INTRANET_SYSTEMS_PLATFORM_CULTURE_INTEGRATION]
+   - Storytelling artifacts: [NARRATIVE_CASE_STUDY_EXAMPLE_COLLECTION]
+   - Recognition artifacts: [AWARDS_CERTIFICATES_SYMBOLS_ACKNOWLEDGMENT]
+   - Communication artifacts: [NEWSLETTER_PRESENTATION_MATERIAL_CULTURE]
+   - Learning artifacts: [TRAINING_DEVELOPMENT_RESOURCE_CULTURE_CONNECTION]
 
 ## EMPLOYEE ENGAGEMENT STRATEGY
 
 ### Engagement Framework
 
 1. **Engagement Dimensions**
-   - Emotional engagement: {passion_commitment_connection_feeling}
-   - Cognitive engagement: {focus_attention_involvement_thinking}
-   - Physical engagement: {energy_effort_action_participation}
-   - Social engagement: {relationship_collaboration_community_belonging}
-   - Intellectual engagement: {challenge_learning_growth_development}
-   - Purpose engagement: {meaning_mission_contribution_significance}
-   - Autonomy engagement: {independence_control_choice_freedom}
-   - Mastery engagement: {competence_expertise_achievement_progress}
+   - Emotional engagement: [PASSION_COMMITMENT_CONNECTION_FEELING]
+   - Cognitive engagement: [FOCUS_ATTENTION_INVOLVEMENT_THINKING]
+   - Physical engagement: [ENERGY_EFFORT_ACTION_PARTICIPATION]
+   - Social engagement: [RELATIONSHIP_COLLABORATION_COMMUNITY_BELONGING]
+   - Intellectual engagement: [CHALLENGE_LEARNING_GROWTH_DEVELOPMENT]
+   - Purpose engagement: [MEANING_MISSION_CONTRIBUTION_SIGNIFICANCE]
+   - Autonomy engagement: [INDEPENDENCE_CONTROL_CHOICE_FREEDOM]
+   - Mastery engagement: [COMPETENCE_EXPERTISE_ACHIEVEMENT_PROGRESS]
 
 2. **Engagement Drivers**
-   - Leadership quality: {trust_support_communication_development}
-   - Job design: {challenge_variety_autonomy_significance}
-   - Career development: {growth_opportunity_advancement_learning}
-   - Recognition appreciation: {acknowledgment_gratitude_celebration_value}
-   - Work environment: {culture_climate_safety_support}
-   - Compensation fairness: {equity_competitiveness_transparency}
-   - Work-life integration: {balance_flexibility_well_being}
-   - Organizational purpose: {mission_vision_impact_contribution}
+   - Leadership quality: [TRUST_SUPPORT_COMMUNICATION_DEVELOPMENT]
+   - Job design: [CHALLENGE_VARIETY_AUTONOMY_SIGNIFICANCE]
+   - Career development: [GROWTH_OPPORTUNITY_ADVANCEMENT_LEARNING]
+   - Recognition appreciation: [ACKNOWLEDGMENT_GRATITUDE_CELEBRATION_VALUE]
+   - Work environment: [CULTURE_CLIMATE_SAFETY_SUPPORT]
+   - Compensation fairness: [EQUITY_COMPETITIVENESS_TRANSPARENCY]
+   - Work-life integration: [BALANCE_FLEXIBILITY_WELL_BEING]
+   - Organizational purpose: [MISSION_VISION_IMPACT_CONTRIBUTION]
 
 3. **Engagement Measurement**
-   - Quantitative metrics: {survey_score_participation_retention_rates}
-   - Qualitative indicators: {feedback_observation_story_sentiment}
-   - Behavioral measures: {participation_contribution_initiative_involvement}
-   - Performance correlation: {productivity_quality_innovation_outcomes}
-   - Relationship measures: {trust_collaboration_communication_quality}
-   - Well-being indicators: {stress_satisfaction_health_balance}
-   - Growth measures: {development_advancement_skill_capability}
-   - Cultural measures: {alignment_behavior_value_demonstration}
+   - Quantitative metrics: [SURVEY_SCORE_PARTICIPATION_RETENTION_RATES]
+   - Qualitative indicators: [FEEDBACK_OBSERVATION_STORY_SENTIMENT]
+   - Behavioral measures: [PARTICIPATION_CONTRIBUTION_INITIATIVE_INVOLVEMENT]
+   - Performance correlation: [PRODUCTIVITY_QUALITY_INNOVATION_OUTCOMES]
+   - Relationship measures: [TRUST_COLLABORATION_COMMUNICATION_QUALITY]
+   - Well-being indicators: [STRESS_SATISFACTION_HEALTH_BALANCE]
+   - Growth measures: [DEVELOPMENT_ADVANCEMENT_SKILL_CAPABILITY]
+   - Cultural measures: [ALIGNMENT_BEHAVIOR_VALUE_DEMONSTRATION]
 
 ### Engagement Initiatives
 
 1. **Communication Enhancement**
-   - Transparent communication: {open_honest_frequent_clear}
-   - Two-way dialogue: {listening_feedback_conversation_exchange}
-   - Regular updates: {progress_change_decision_information}
-   - Leadership accessibility: {availability_approachability_interaction}
-   - Team communication: {collaboration_coordination_sharing}
-   - Cross-functional sharing: {department_project_knowledge_exchange}
-   - Innovation forums: {idea_creativity_suggestion_platforms}
-   - Feedback systems: {input_response_improvement_action}
+   - Transparent communication: [OPEN_HONEST_FREQUENT_CLEAR]
+   - Two-way dialogue: [LISTENING_FEEDBACK_CONVERSATION_EXCHANGE]
+   - Regular updates: [PROGRESS_CHANGE_DECISION_INFORMATION]
+   - Leadership accessibility: [AVAILABILITY_APPROACHABILITY_INTERACTION]
+   - Team communication: [COLLABORATION_COORDINATION_SHARING]
+   - Cross-functional sharing: [DEPARTMENT_PROJECT_KNOWLEDGE_EXCHANGE]
+   - Innovation forums: [IDEA_CREATIVITY_SUGGESTION_PLATFORMS]
+   - Feedback systems: [INPUT_RESPONSE_IMPROVEMENT_ACTION]
 
 2. **Development Programs**
-   - Skill building: {training_education_capability_enhancement}
-   - Career planning: {path_progression_opportunity_guidance}
-   - Mentoring programs: {guidance_support_relationship_development}
-   - Leadership development: {management_capability_succession_preparation}
-   - Cross-training: {versatility_understanding_flexibility_building}
-   - External learning: {conference_course_certification_support}
-   - Innovation projects: {creativity_experimentation_initiative_opportunities}
-   - Knowledge sharing: {expertise_best_practice_lesson_distribution}
+   - Skill building: [TRAINING_EDUCATION_CAPABILITY_ENHANCEMENT]
+   - Career planning: [PATH_PROGRESSION_OPPORTUNITY_GUIDANCE]
+   - Mentoring programs: [GUIDANCE_SUPPORT_RELATIONSHIP_DEVELOPMENT]
+   - Leadership development: [MANAGEMENT_CAPABILITY_SUCCESSION_PREPARATION]
+   - Cross-training: [VERSATILITY_UNDERSTANDING_FLEXIBILITY_BUILDING]
+   - External learning: [CONFERENCE_COURSE_CERTIFICATION_SUPPORT]
+   - Innovation projects: [CREATIVITY_EXPERIMENTATION_INITIATIVE_OPPORTUNITIES]
+   - Knowledge sharing: [EXPERTISE_BEST_PRACTICE_LESSON_DISTRIBUTION]
 
 3. **Workplace Experience**
-   - Physical environment: {comfort_functionality_inspiration_design}
-   - Technology provision: {tool_system_resource_enablement}
-   - Flexibility options: {schedule_location_method_choice}
-   - Wellness programs: {health_fitness_mental_support}
-   - Social activities: {team_building_celebration_connection_events}
-   - Resource access: {information_support_assistance_availability}
-   - Safety measures: {physical_psychological_emotional_protection}
-   - Comfort amenities: {convenience_enjoyment_quality_enhancement}
+   - Physical environment: [COMFORT_FUNCTIONALITY_INSPIRATION_DESIGN]
+   - Technology provision: [TOOL_SYSTEM_RESOURCE_ENABLEMENT]
+   - Flexibility options: [SCHEDULE_LOCATION_METHOD_CHOICE]
+   - Wellness programs: [HEALTH_FITNESS_MENTAL_SUPPORT]
+   - Social activities: [TEAM_BUILDING_CELEBRATION_CONNECTION_EVENTS]
+   - Resource access: [INFORMATION_SUPPORT_ASSISTANCE_AVAILABILITY]
+   - Safety measures: [PHYSICAL_PSYCHOLOGICAL_EMOTIONAL_PROTECTION]
+   - Comfort amenities: [CONVENIENCE_ENJOYMENT_QUALITY_ENHANCEMENT]
 
 ## RECOGNITION & REWARD SYSTEMS
 
 ### Recognition Philosophy
 
 1. **Recognition Principles**
-   - Alignment focus: {value_behavior_performance_connection}
-   - Timeliness emphasis: {immediate_prompt_relevant_acknowledgment}
-   - Specificity requirement: {detailed_clear_meaningful_feedback}
-   - Authenticity standard: {genuine_sincere_heartfelt_appreciation}
-   - Inclusivity commitment: {fair_equitable_accessible_opportunity}
-   - Consistency expectation: {regular_reliable_predictable_practice}
-   - Personalization approach: {individual_preference_customized_recognition}
-   - Impact measurement: {effect_outcome_influence_assessment}
+   - Alignment focus: [VALUE_BEHAVIOR_PERFORMANCE_CONNECTION]
+   - Timeliness emphasis: [IMMEDIATE_PROMPT_RELEVANT_ACKNOWLEDGMENT]
+   - Specificity requirement: [DETAILED_CLEAR_MEANINGFUL_FEEDBACK]
+   - Authenticity standard: [GENUINE_SINCERE_HEARTFELT_APPRECIATION]
+   - Inclusivity commitment: [FAIR_EQUITABLE_ACCESSIBLE_OPPORTUNITY]
+   - Consistency expectation: [REGULAR_RELIABLE_PREDICTABLE_PRACTICE]
+   - Personalization approach: [INDIVIDUAL_PREFERENCE_CUSTOMIZED_RECOGNITION]
+   - Impact measurement: [EFFECT_OUTCOME_INFLUENCE_ASSESSMENT]
 
 2. **Recognition Types**
-   - Formal recognition: {official_structured_systematic_programs}
-   - Informal recognition: {spontaneous_casual_peer_appreciation}
-   - Individual recognition: {personal_achievement_contribution_acknowledgment}
-   - Team recognition: {group_collaboration_collective_success}
-   - Public recognition: {visible_shared_celebrated_acknowledgment}
-   - Private recognition: {personal_intimate_confidential_appreciation}
-   - Monetary recognition: {financial_bonus_incentive_reward}
-   - Non-monetary recognition: {appreciation_symbol_experience_gift}
+   - Formal recognition: [OFFICIAL_STRUCTURED_SYSTEMATIC_PROGRAMS]
+   - Informal recognition: [SPONTANEOUS_CASUAL_PEER_APPRECIATION]
+   - Individual recognition: [PERSONAL_ACHIEVEMENT_CONTRIBUTION_ACKNOWLEDGMENT]
+   - Team recognition: [GROUP_COLLABORATION_COLLECTIVE_SUCCESS]
+   - Public recognition: [VISIBLE_SHARED_CELEBRATED_ACKNOWLEDGMENT]
+   - Private recognition: [PERSONAL_INTIMATE_CONFIDENTIAL_APPRECIATION]
+   - Monetary recognition: [FINANCIAL_BONUS_INCENTIVE_REWARD]
+   - Non-monetary recognition: [APPRECIATION_SYMBOL_EXPERIENCE_GIFT]
 
 3. **Recognition Framework**
-   - Achievement categories: {performance_behavior_innovation_collaboration}
-   - Nomination process: {identification_selection_evaluation_procedure}
-   - Evaluation criteria: {standard_measurement_assessment_guideline}
-   - Award levels: {tier_scale_magnitude_significance}
-   - Presentation methods: {ceremony_communication_delivery_approach}
-   - Follow-up actions: {documentation_sharing_reinforcement_continuation}
-   - Program evolution: {improvement_adaptation_enhancement_development}
-   - Impact tracking: {measurement_evaluation_effectiveness_assessment}
+   - Achievement categories: [PERFORMANCE_BEHAVIOR_INNOVATION_COLLABORATION]
+   - Nomination process: [IDENTIFICATION_SELECTION_EVALUATION_PROCEDURE]
+   - Evaluation criteria: [STANDARD_MEASUREMENT_ASSESSMENT_GUIDELINE]
+   - Award levels: [TIER_SCALE_MAGNITUDE_SIGNIFICANCE]
+   - Presentation methods: [CEREMONY_COMMUNICATION_DELIVERY_APPROACH]
+   - Follow-up actions: [DOCUMENTATION_SHARING_REINFORCEMENT_CONTINUATION]
+   - Program evolution: [IMPROVEMENT_ADAPTATION_ENHANCEMENT_DEVELOPMENT]
+   - Impact tracking: [MEASUREMENT_EVALUATION_EFFECTIVENESS_ASSESSMENT]
 
 ### Program Implementation
 
 1. **Peer Recognition Programs**
-   - Peer nomination: {colleague_identification_appreciation_system}
-   - Spot recognition: {immediate_spontaneous_moment_acknowledgment}
-   - Team appreciation: {group_acknowledgment_collective_gratitude}
-   - Cross-department recognition: {inter_unit_collaboration_appreciation}
-   - Innovation recognition: {creativity_improvement_idea_acknowledgment}
-   - Values demonstration: {behavior_principle_embodiment_recognition}
-   - Milestone celebration: {achievement_anniversary_progress_acknowledgment}
-   - Story sharing: {success_example_inspiration_narrative_distribution}
+   - Peer nomination: [COLLEAGUE_IDENTIFICATION_APPRECIATION_SYSTEM]
+   - Spot recognition: [IMMEDIATE_SPONTANEOUS_MOMENT_ACKNOWLEDGMENT]
+   - Team appreciation: [GROUP_ACKNOWLEDGMENT_COLLECTIVE_GRATITUDE]
+   - Cross-department recognition: [INTER_UNIT_COLLABORATION_APPRECIATION]
+   - Innovation recognition: [CREATIVITY_IMPROVEMENT_IDEA_ACKNOWLEDGMENT]
+   - Values demonstration: [BEHAVIOR_PRINCIPLE_EMBODIMENT_RECOGNITION]
+   - Milestone celebration: [ACHIEVEMENT_ANNIVERSARY_PROGRESS_ACKNOWLEDGMENT]
+   - Story sharing: [SUCCESS_EXAMPLE_INSPIRATION_NARRATIVE_DISTRIBUTION]
 
 2. **Leadership Recognition**
-   - Executive appreciation: {senior_leader_acknowledgment_gratitude}
-   - Manager recognition: {supervisor_feedback_appreciation_communication}
-   - Skip-level recognition: {higher_authority_acknowledgment_validation}
-   - Public acknowledgment: {visible_shared_celebrated_appreciation}
-   - Personal communication: {direct_individual_private_recognition}
-   - Development opportunity: {growth_advancement_investment_recognition}
-   - Special assignment: {trust_confidence_capability_demonstration}
-   - Mentoring invitation: {expertise_guidance_sharing_opportunity}
+   - Executive appreciation: [SENIOR_LEADER_ACKNOWLEDGMENT_GRATITUDE]
+   - Manager recognition: [SUPERVISOR_FEEDBACK_APPRECIATION_COMMUNICATION]
+   - Skip-level recognition: [HIGHER_AUTHORITY_ACKNOWLEDGMENT_VALIDATION]
+   - Public acknowledgment: [VISIBLE_SHARED_CELEBRATED_APPRECIATION]
+   - Personal communication: [DIRECT_INDIVIDUAL_PRIVATE_RECOGNITION]
+   - Development opportunity: [GROWTH_ADVANCEMENT_INVESTMENT_RECOGNITION]
+   - Special assignment: [TRUST_CONFIDENCE_CAPABILITY_DEMONSTRATION]
+   - Mentoring invitation: [EXPERTISE_GUIDANCE_SHARING_OPPORTUNITY]
 
 3. **Organizational Recognition**
-   - Company-wide awards: {enterprise_level_prestigious_recognition}
-   - Annual celebrations: {yearly_achievement_milestone_ceremony}
-   - Newsletter features: {publication_sharing_visibility_recognition}
-   - Website recognition: {digital_platform_appreciation_showcase}
-   - Customer recognition: {external_stakeholder_appreciation_sharing}
-   - Industry nominations: {external_competition_award_submission}
-   - Media recognition: {public_relations_visibility_acknowledgment}
-   - Alumni networks: {former_employee_continued_connection_recognition}
+   - Company-wide awards: [ENTERPRISE_LEVEL_PRESTIGIOUS_RECOGNITION]
+   - Annual celebrations: [YEARLY_ACHIEVEMENT_MILESTONE_CEREMONY]
+   - Newsletter features: [PUBLICATION_SHARING_VISIBILITY_RECOGNITION]
+   - Website recognition: [DIGITAL_PLATFORM_APPRECIATION_SHOWCASE]
+   - Customer recognition: [EXTERNAL_STAKEHOLDER_APPRECIATION_SHARING]
+   - Industry nominations: [EXTERNAL_COMPETITION_AWARD_SUBMISSION]
+   - Media recognition: [PUBLIC_RELATIONS_VISIBILITY_ACKNOWLEDGMENT]
+   - Alumni networks: [FORMER_EMPLOYEE_CONTINUED_CONNECTION_RECOGNITION]
 
 ## COMMUNICATION & FEEDBACK SYSTEMS
 
 ### Internal Communication Framework
 
 1. **Communication Strategy**
-   - Message clarity: {simple_understandable_actionable_content}
-   - Audience relevance: {targeted_personalized_meaningful_communication}
-   - Channel effectiveness: {medium_selection_optimization_utilization}
-   - Frequency optimization: {regular_appropriate_non_overwhelming_timing}
-   - Feedback integration: {two_way_responsive_adaptive_dialogue}
-   - Consistency maintenance: {aligned_unified_coordinated_messaging}
-   - Cultural alignment: {value_behavior_norm_consistent_communication}
-   - Impact measurement: {effectiveness_reach_engagement_assessment}
+   - Message clarity: [SIMPLE_UNDERSTANDABLE_ACTIONABLE_CONTENT]
+   - Audience relevance: [TARGETED_PERSONALIZED_MEANINGFUL_COMMUNICATION]
+   - Channel effectiveness: [MEDIUM_SELECTION_OPTIMIZATION_UTILIZATION]
+   - Frequency optimization: [REGULAR_APPROPRIATE_NON_OVERWHELMING_TIMING]
+   - Feedback integration: [TWO_WAY_RESPONSIVE_ADAPTIVE_DIALOGUE]
+   - Consistency maintenance: [ALIGNED_UNIFIED_COORDINATED_MESSAGING]
+   - Cultural alignment: [VALUE_BEHAVIOR_NORM_CONSISTENT_COMMUNICATION]
+   - Impact measurement: [EFFECTIVENESS_REACH_ENGAGEMENT_ASSESSMENT]
 
 2. **Communication Channels**
-   - Formal channels: {official_structured_systematic_communication}
-   - Informal channels: {casual_spontaneous_personal_interaction}
-   - Digital platforms: {technology_enabled_online_virtual_communication}
-   - Face-to-face meetings: {in_person_direct_personal_interaction}
-   - Written communication: {document_email_message_correspondence}
-   - Visual communication: {presentation_infographic_video_material}
-   - Interactive forums: {discussion_dialogue_exchange_platform}
-   - Feedback systems: {input_collection_response_mechanism}
+   - Formal channels: [OFFICIAL_STRUCTURED_SYSTEMATIC_COMMUNICATION]
+   - Informal channels: [CASUAL_SPONTANEOUS_PERSONAL_INTERACTION]
+   - Digital platforms: [TECHNOLOGY_ENABLED_ONLINE_VIRTUAL_COMMUNICATION]
+   - Face-to-face meetings: [IN_PERSON_DIRECT_PERSONAL_INTERACTION]
+   - Written communication: [DOCUMENT_EMAIL_MESSAGE_CORRESPONDENCE]
+   - Visual communication: [PRESENTATION_INFOGRAPHIC_VIDEO_MATERIAL]
+   - Interactive forums: [DISCUSSION_DIALOGUE_EXCHANGE_PLATFORM]
+   - Feedback systems: [INPUT_COLLECTION_RESPONSE_MECHANISM]
 
 3. **Leadership Communication**
-   - Vision sharing: {future_direction_aspiration_communication}
-   - Strategy communication: {plan_objective_priority_sharing}
-   - Performance updates: {progress_result_achievement_reporting}
-   - Change communication: {transformation_adaptation_evolution_discussion}
-   - Recognition delivery: {appreciation_acknowledgment_celebration_communication}
-   - Problem addressing: {challenge_issue_concern_discussion}
-   - Value reinforcement: {principle_belief_standard_emphasis}
-   - Culture modeling: {behavior_demonstration_example_setting}
+   - Vision sharing: [FUTURE_DIRECTION_ASPIRATION_COMMUNICATION]
+   - Strategy communication: [PLAN_OBJECTIVE_PRIORITY_SHARING]
+   - Performance updates: [PROGRESS_RESULT_ACHIEVEMENT_REPORTING]
+   - Change communication: [TRANSFORMATION_ADAPTATION_EVOLUTION_DISCUSSION]
+   - Recognition delivery: [APPRECIATION_ACKNOWLEDGMENT_CELEBRATION_COMMUNICATION]
+   - Problem addressing: [CHALLENGE_ISSUE_CONCERN_DISCUSSION]
+   - Value reinforcement: [PRINCIPLE_BELIEF_STANDARD_EMPHASIS]
+   - Culture modeling: [BEHAVIOR_DEMONSTRATION_EXAMPLE_SETTING]
 
 ### Feedback Culture
 
 1. **Feedback Philosophy**
-   - Growth orientation: {development_improvement_learning_focus}
-   - Continuous approach: {regular_ongoing_frequent_practice}
-   - Constructive nature: {helpful_supportive_developmental_intent}
-   - Two-way exchange: {mutual_reciprocal_dialogue_communication}
-   - Specific focus: {detailed_clear_actionable_guidance}
-   - Timely delivery: {immediate_prompt_relevant_timing}
-   - Safe environment: {trust_respect_psychological_safety}
-   - Action orientation: {implementation_change_improvement_emphasis}
+   - Growth orientation: [DEVELOPMENT_IMPROVEMENT_LEARNING_FOCUS]
+   - Continuous approach: [REGULAR_ONGOING_FREQUENT_PRACTICE]
+   - Constructive nature: [HELPFUL_SUPPORTIVE_DEVELOPMENTAL_INTENT]
+   - Two-way exchange: [MUTUAL_RECIPROCAL_DIALOGUE_COMMUNICATION]
+   - Specific focus: [DETAILED_CLEAR_ACTIONABLE_GUIDANCE]
+   - Timely delivery: [IMMEDIATE_PROMPT_RELEVANT_TIMING]
+   - Safe environment: [TRUST_RESPECT_PSYCHOLOGICAL_SAFETY]
+   - Action orientation: [IMPLEMENTATION_CHANGE_IMPROVEMENT_EMPHASIS]
 
 2. **Feedback Mechanisms**
-   - Regular check-ins: {scheduled_consistent_structured_conversation}
-   - 360-degree feedback: {multi_source_comprehensive_evaluation}
-   - Pulse surveys: {frequent_brief_targeted_assessment}
-   - Exit interviews: {departure_insight_learning_collection}
-   - Focus groups: {group_discussion_deep_dive_exploration}
-   - Suggestion systems: {idea_recommendation_improvement_input}
-   - Open forums: {discussion_dialogue_question_platform}
-   - Anonymous channels: {confidential_safe_honest_communication}
+   - Regular check-ins: [SCHEDULED_CONSISTENT_STRUCTURED_CONVERSATION]
+   - 360-degree feedback: [MULTI_SOURCE_COMPREHENSIVE_EVALUATION]
+   - Pulse surveys: [FREQUENT_BRIEF_TARGETED_ASSESSMENT]
+   - Exit interviews: [DEPARTURE_INSIGHT_LEARNING_COLLECTION]
+   - Focus groups: [GROUP_DISCUSSION_DEEP_DIVE_EXPLORATION]
+   - Suggestion systems: [IDEA_RECOMMENDATION_IMPROVEMENT_INPUT]
+   - Open forums: [DISCUSSION_DIALOGUE_QUESTION_PLATFORM]
+   - Anonymous channels: [CONFIDENTIAL_SAFE_HONEST_COMMUNICATION]
 
 3. **Feedback Integration**
-   - Input analysis: {data_pattern_insight_evaluation}
-   - Action planning: {response_improvement_change_strategy}
-   - Communication back: {update_response_progress_sharing}
-   - Implementation tracking: {action_progress_outcome_monitoring}
-   - Culture improvement: {environment_practice_norm_enhancement}
-   - System enhancement: {process_mechanism_tool_improvement}
-   - Training adjustment: {program_content_method_modification}
-   - Recognition adaptation: {appreciation_acknowledgment_program_refinement}
+   - Input analysis: [DATA_PATTERN_INSIGHT_EVALUATION]
+   - Action planning: [RESPONSE_IMPROVEMENT_CHANGE_STRATEGY]
+   - Communication back: [UPDATE_RESPONSE_PROGRESS_SHARING]
+   - Implementation tracking: [ACTION_PROGRESS_OUTCOME_MONITORING]
+   - Culture improvement: [ENVIRONMENT_PRACTICE_NORM_ENHANCEMENT]
+   - System enhancement: [PROCESS_MECHANISM_TOOL_IMPROVEMENT]
+   - Training adjustment: [PROGRAM_CONTENT_METHOD_MODIFICATION]
+   - Recognition adaptation: [APPRECIATION_ACKNOWLEDGMENT_PROGRAM_REFINEMENT]
 
 ## TEAM BUILDING & COLLABORATION
 
 ### Team Development Framework
 
 1. **Team Formation**
-   - Team composition: {skill_diversity_complementary_strength}
-   - Role clarity: {responsibility_accountability_expectation_definition}
-   - Goal alignment: {objective_purpose_direction_unity}
-   - Norm establishment: {behavior_interaction_communication_standard}
-   - Relationship building: {trust_rapport_connection_development}
-   - Communication protocol: {interaction_exchange_dialogue_framework}
-   - Decision process: {choice_method_authority_procedure}
-   - Conflict resolution: {disagreement_tension_issue_management}
+   - Team composition: [SKILL_DIVERSITY_COMPLEMENTARY_STRENGTH]
+   - Role clarity: [RESPONSIBILITY_ACCOUNTABILITY_EXPECTATION_DEFINITION]
+   - Goal alignment: [OBJECTIVE_PURPOSE_DIRECTION_UNITY]
+   - Norm establishment: [BEHAVIOR_INTERACTION_COMMUNICATION_STANDARD]
+   - Relationship building: [TRUST_RAPPORT_CONNECTION_DEVELOPMENT]
+   - Communication protocol: [INTERACTION_EXCHANGE_DIALOGUE_FRAMEWORK]
+   - Decision process: [CHOICE_METHOD_AUTHORITY_PROCEDURE]
+   - Conflict resolution: [DISAGREEMENT_TENSION_ISSUE_MANAGEMENT]
 
 2. **Collaboration Enhancement**
-   - Shared purpose: {common_goal_mission_objective_focus}
-   - Mutual accountability: {responsibility_ownership_commitment_expectation}
-   - Collective responsibility: {team_outcome_success_ownership}
-   - Knowledge sharing: {expertise_information_insight_distribution}
-   - Resource sharing: {asset_capability_support_exchange}
-   - Innovation collaboration: {creativity_idea_solution_development}
-   - Problem solving: {challenge_issue_obstacle_resolution}
-   - Success celebration: {achievement_milestone_accomplishment_recognition}
+   - Shared purpose: [COMMON_GOAL_MISSION_OBJECTIVE_FOCUS]
+   - Mutual accountability: [RESPONSIBILITY_OWNERSHIP_COMMITMENT_EXPECTATION]
+   - Collective responsibility: [TEAM_OUTCOME_SUCCESS_OWNERSHIP]
+   - Knowledge sharing: [EXPERTISE_INFORMATION_INSIGHT_DISTRIBUTION]
+   - Resource sharing: [ASSET_CAPABILITY_SUPPORT_EXCHANGE]
+   - Innovation collaboration: [CREATIVITY_IDEA_SOLUTION_DEVELOPMENT]
+   - Problem solving: [CHALLENGE_ISSUE_OBSTACLE_RESOLUTION]
+   - Success celebration: [ACHIEVEMENT_MILESTONE_ACCOMPLISHMENT_RECOGNITION]
 
 3. **Team Activities**
-   - Team building events: {relationship_trust_connection_activities}
-   - Collaboration workshops: {skill_building_process_improvement_sessions}
-   - Problem-solving sessions: {challenge_resolution_innovation_meetings}
-   - Strategy planning: {goal_objective_direction_development}
-   - Learning sessions: {knowledge_skill_capability_development}
-   - Social gatherings: {relationship_culture_connection_events}
-   - Recognition ceremonies: {appreciation_acknowledgment_celebration_gatherings}
-   - Reflection meetings: {review_learning_improvement_discussion}
+   - Team building events: [RELATIONSHIP_TRUST_CONNECTION_ACTIVITIES]
+   - Collaboration workshops: [SKILL_BUILDING_PROCESS_IMPROVEMENT_SESSIONS]
+   - Problem-solving sessions: [CHALLENGE_RESOLUTION_INNOVATION_MEETINGS]
+   - Strategy planning: [GOAL_OBJECTIVE_DIRECTION_DEVELOPMENT]
+   - Learning sessions: [KNOWLEDGE_SKILL_CAPABILITY_DEVELOPMENT]
+   - Social gatherings: [RELATIONSHIP_CULTURE_CONNECTION_EVENTS]
+   - Recognition ceremonies: [APPRECIATION_ACKNOWLEDGMENT_CELEBRATION_GATHERINGS]
+   - Reflection meetings: [REVIEW_LEARNING_IMPROVEMENT_DISCUSSION]
 
 ### Community Building
 
 1. **Organizational Community**
-   - Shared identity: {common_belonging_connection_sense}
-   - Collective purpose: {unified_mission_goal_direction}
-   - Mutual support: {assistance_help_care_provision}
-   - Knowledge community: {learning_expertise_wisdom_sharing}
-   - Innovation community: {creativity_experimentation_improvement_culture}
-   - Social community: {relationship_friendship_connection_network}
-   - Professional community: {career_development_advancement_support}
-   - Values community: {principle_belief_standard_alignment}
+   - Shared identity: [COMMON_BELONGING_CONNECTION_SENSE]
+   - Collective purpose: [UNIFIED_MISSION_GOAL_DIRECTION]
+   - Mutual support: [ASSISTANCE_HELP_CARE_PROVISION]
+   - Knowledge community: [LEARNING_EXPERTISE_WISDOM_SHARING]
+   - Innovation community: [CREATIVITY_EXPERIMENTATION_IMPROVEMENT_CULTURE]
+   - Social community: [RELATIONSHIP_FRIENDSHIP_CONNECTION_NETWORK]
+   - Professional community: [CAREER_DEVELOPMENT_ADVANCEMENT_SUPPORT]
+   - Values community: [PRINCIPLE_BELIEF_STANDARD_ALIGNMENT]
 
 2. **Community Activities**
-   - Interest groups: {hobby_passion_affinity_gathering}
-   - Professional networks: {career_skill_industry_connection}
-   - Volunteer programs: {service_contribution_giving_opportunity}
-   - Learning circles: {education_development_knowledge_sharing}
-   - Innovation labs: {creativity_experimentation_project_space}
-   - Wellness groups: {health_fitness_well_being_support}
-   - Diversity networks: {inclusion_representation_support_community}
-   - Social committees: {event_activity_celebration_organization}
+   - Interest groups: [HOBBY_PASSION_AFFINITY_GATHERING]
+   - Professional networks: [CAREER_SKILL_INDUSTRY_CONNECTION]
+   - Volunteer programs: [SERVICE_CONTRIBUTION_GIVING_OPPORTUNITY]
+   - Learning circles: [EDUCATION_DEVELOPMENT_KNOWLEDGE_SHARING]
+   - Innovation labs: [CREATIVITY_EXPERIMENTATION_PROJECT_SPACE]
+   - Wellness groups: [HEALTH_FITNESS_WELL_BEING_SUPPORT]
+   - Diversity networks: [INCLUSION_REPRESENTATION_SUPPORT_COMMUNITY]
+   - Social committees: [EVENT_ACTIVITY_CELEBRATION_ORGANIZATION]
 
 ## MEASUREMENT & CONTINUOUS IMPROVEMENT
 
 ### Culture Assessment Framework
 
 1. **Culture Metrics**
-   - Cultural alignment: {value_behavior_norm_consistency_measurement}
-   - Employee engagement: {involvement_commitment_satisfaction_level}
-   - Leadership effectiveness: {trust_support_communication_quality}
-   - Communication quality: {clarity_frequency_effectiveness_assessment}
-   - Recognition impact: {appreciation_acknowledgment_program_effectiveness}
-   - Team collaboration: {cooperation_coordination_synergy_measurement}
-   - Innovation culture: {creativity_risk_taking_learning_indicators}
-   - Performance culture: {excellence_accountability_achievement_standards}
+   - Cultural alignment: [VALUE_BEHAVIOR_NORM_CONSISTENCY_MEASUREMENT]
+   - Employee engagement: [INVOLVEMENT_COMMITMENT_SATISFACTION_LEVEL]
+   - Leadership effectiveness: [TRUST_SUPPORT_COMMUNICATION_QUALITY]
+   - Communication quality: [CLARITY_FREQUENCY_EFFECTIVENESS_ASSESSMENT]
+   - Recognition impact: [APPRECIATION_ACKNOWLEDGMENT_PROGRAM_EFFECTIVENESS]
+   - Team collaboration: [COOPERATION_COORDINATION_SYNERGY_MEASUREMENT]
+   - Innovation culture: [CREATIVITY_RISK_TAKING_LEARNING_INDICATORS]
+   - Performance culture: [EXCELLENCE_ACCOUNTABILITY_ACHIEVEMENT_STANDARDS]
 
 2. **Assessment Methods**
-   - Culture surveys: {comprehensive_periodic_assessment_evaluation}
-   - Engagement surveys: {involvement_commitment_satisfaction_measurement}
-   - 360-degree assessments: {multi_source_feedback_evaluation}
-   - Focus groups: {discussion_dialogue_insight_collection}
-   - Observation studies: {behavior_interaction_practice_analysis}
-   - Exit interviews: {departure_reason_experience_insight}
-   - Stay interviews: {retention_satisfaction_motivation_understanding}
-   - Pulse checks: {frequent_brief_targeted_assessment}
+   - Culture surveys: [COMPREHENSIVE_PERIODIC_ASSESSMENT_EVALUATION]
+   - Engagement surveys: [INVOLVEMENT_COMMITMENT_SATISFACTION_MEASUREMENT]
+   - 360-degree assessments: [MULTI_SOURCE_FEEDBACK_EVALUATION]
+   - Focus groups: [DISCUSSION_DIALOGUE_INSIGHT_COLLECTION]
+   - Observation studies: [BEHAVIOR_INTERACTION_PRACTICE_ANALYSIS]
+   - Exit interviews: [DEPARTURE_REASON_EXPERIENCE_INSIGHT]
+   - Stay interviews: [RETENTION_SATISFACTION_MOTIVATION_UNDERSTANDING]
+   - Pulse checks: [FREQUENT_BRIEF_TARGETED_ASSESSMENT]
 
 3. **Data Analysis**
-   - Trend analysis: {pattern_direction_change_evaluation}
-   - Benchmark comparison: {standard_best_practice_reference}
-   - Correlation analysis: {relationship_connection_influence_assessment}
-   - Segment analysis: {group_demographic_role_comparison}
-   - Gap identification: {shortfall_opportunity_improvement_area}
-   - Root cause analysis: {underlying_factor_issue_investigation}
-   - Impact assessment: {effect_outcome_consequence_evaluation}
-   - Predictive modeling: {future_trend_risk_opportunity_projection}
+   - Trend analysis: [PATTERN_DIRECTION_CHANGE_EVALUATION]
+   - Benchmark comparison: [STANDARD_BEST_PRACTICE_REFERENCE]
+   - Correlation analysis: [RELATIONSHIP_CONNECTION_INFLUENCE_ASSESSMENT]
+   - Segment analysis: [GROUP_DEMOGRAPHIC_ROLE_COMPARISON]
+   - Gap identification: [SHORTFALL_OPPORTUNITY_IMPROVEMENT_AREA]
+   - Root cause analysis: [UNDERLYING_FACTOR_ISSUE_INVESTIGATION]
+   - Impact assessment: [EFFECT_OUTCOME_CONSEQUENCE_EVALUATION]
+   - Predictive modeling: [FUTURE_TREND_RISK_OPPORTUNITY_PROJECTION]
 
 ### Improvement Planning
 
 1. **Action Planning**
-   - Priority identification: {critical_important_urgent_focus}
-   - Goal setting: {objective_target_outcome_definition}
-   - Strategy development: {approach_method_tactic_design}
-   - Resource allocation: {budget_personnel_time_investment}
-   - Timeline planning: {schedule_milestone_deadline_framework}
-   - Responsibility assignment: {ownership_accountability_role_definition}
-   - Risk management: {threat_obstacle_mitigation_planning}
-   - Success measurement: {indicator_metric_evaluation_method}
+   - Priority identification: [CRITICAL_IMPORTANT_URGENT_FOCUS]
+   - Goal setting: [OBJECTIVE_TARGET_OUTCOME_DEFINITION]
+   - Strategy development: [APPROACH_METHOD_TACTIC_DESIGN]
+   - Resource allocation: [BUDGET_PERSONNEL_TIME_INVESTMENT]
+   - Timeline planning: [SCHEDULE_MILESTONE_DEADLINE_FRAMEWORK]
+   - Responsibility assignment: [OWNERSHIP_ACCOUNTABILITY_ROLE_DEFINITION]
+   - Risk management: [THREAT_OBSTACLE_MITIGATION_PLANNING]
+   - Success measurement: [INDICATOR_METRIC_EVALUATION_METHOD]
 
 2. **Implementation Management**
-   - Project management: {planning_execution_monitoring_control}
-   - Change management: {transition_adaptation_transformation_support}
-   - Communication planning: {awareness_update_engagement_strategy}
-   - Training provision: {skill_knowledge_capability_development}
-   - Support systems: {assistance_resource_help_availability}
-   - Progress monitoring: {tracking_assessment_evaluation_process}
-   - Adjustment planning: {course_correction_modification_flexibility}
-   - Success celebration: {achievement_milestone_recognition_acknowledgment}
+   - Project management: [PLANNING_EXECUTION_MONITORING_CONTROL]
+   - Change management: [TRANSITION_ADAPTATION_TRANSFORMATION_SUPPORT]
+   - Communication planning: [AWARENESS_UPDATE_ENGAGEMENT_STRATEGY]
+   - Training provision: [SKILL_KNOWLEDGE_CAPABILITY_DEVELOPMENT]
+   - Support systems: [ASSISTANCE_RESOURCE_HELP_AVAILABILITY]
+   - Progress monitoring: [TRACKING_ASSESSMENT_EVALUATION_PROCESS]
+   - Adjustment planning: [COURSE_CORRECTION_MODIFICATION_FLEXIBILITY]
+   - Success celebration: [ACHIEVEMENT_MILESTONE_RECOGNITION_ACKNOWLEDGMENT]
 
 Please provide a comprehensive culture building and employee engagement strategy based on this framework, including specific initiatives, programs, and measurement approaches for strengthening organizational culture and driving employee engagement.
 ```
@@ -437,301 +438,301 @@ Please provide a comprehensive culture building and employee engagement strategy
 
 | Variable | Description | Example |
 |----------|-------------|----------|
-| `{employee_count_structure_levels}` | Specify the employee count structure levels | "10" |
-| `{sector_market_competitive_environment}` | Specify the sector market competitive environment | "[specify value]" |
-| `{startup_growth_established_enterprise}` | Specify the startup growth established enterprise | "[specify value]" |
-| `{locations_regions_cultural_diversity}` | Specify the locations regions cultural diversity | "North America" |
-| `{age_tenure_role_diversity}` | Specify the age tenure role diversity | "[specify value]" |
-| `{alignment_consistency_clarity_level}` | Specify the alignment consistency clarity level | "[specify value]" |
-| `{executive_commitment_modeling_visibility}` | Specify the executive commitment modeling visibility | "[specify value]" |
-| `{adaptability_openness_flexibility_capacity}` | Specify the adaptability openness flexibility capacity | "[specify value]" |
-| `{stated_actual_observed_practiced}` | Specify the stated actual observed practiced | "[specify value]" |
-| `{positive_elements_advantages_assets}` | Specify the positive elements advantages assets | "[specify value]" |
-| `{gaps_weaknesses_obstacles_barriers}` | Specify the gaps weaknesses obstacles barriers | "[specify value]" |
-| `{engagement_satisfaction_morale_commitment}` | Specify the engagement satisfaction morale commitment | "[specify value]" |
-| `{norms_practices_interactions_dynamics}` | Specify the norms practices interactions dynamics | "[specify value]" |
-| `{openness_transparency_feedback_dialogue}` | Specify the openness transparency feedback dialogue | "[specify value]" |
-| `{excellence_accountability_recognition_standards}` | Specify the excellence accountability recognition standards | "10" |
-| `{creativity_risk_taking_learning_experimentation}` | Specify the creativity risk taking learning experimentation | "[specify value]" |
-| `{objectives_priorities_direction_focus}` | Specify the objectives priorities direction focus | "Increase efficiency by 30%" |
-| `{consistency_integration_reinforcement_needs}` | Specify the consistency integration reinforcement needs | "[specify value]" |
-| `{standards_goals_achievements_measures}` | Specify the standards goals achievements measures | "Increase efficiency by 30%" |
-| `{employee_customer_investor_community}` | Specify the employee customer investor community | "[specify value]" |
-| `{differentiation_unique_value_strengths}` | Specify the differentiation unique value strengths | "[specify value]" |
-| `{aspirations_goals_transformation_evolution}` | Specify the aspirations goals transformation evolution | "Increase efficiency by 30%" |
-| `{concurrent_planned_transformation_efforts}` | Specify the concurrent planned transformation efforts | "[specify value]" |
-| `{measurement_indicators_benchmarks_targets}` | Specify the measurement indicators benchmarks targets | "[specify value]" |
-| `{clear_concise_meaningful_expressions}` | Specify the clear concise meaningful expressions | "[specify value]" |
-| `{specific_observable_actionable_examples}` | Specify the specific observable actionable examples | "[specify value]" |
-| `{choice_framework_guidance_principles}` | Specify the choice framework guidance principles | "[specify value]" |
-| `{visible_symbols_practices_rituals}` | Specify the visible symbols practices rituals | "[specify value]" |
-| `{measurement_evidence_demonstration_signs}` | Specify the measurement evidence demonstration signs | "[specify value]" |
-| `{narrative_examples_case_studies}` | Specify the narrative examples case studies | "[specify value]" |
-| `{terminology_communication_expression}` | Specify the terminology communication expression | "[specify value]" |
-| `{adaptation_growth_refinement_development}` | Specify the adaptation growth refinement development | "[specify value]" |
-| `{compelling_relevant_memorable_content}` | Specify the compelling relevant memorable content | "[specify value]" |
-| `{role_level_department_customization}` | Specify the role level department customization | "Marketing" |
-| `{medium_frequency_format_effectiveness}` | Specify the medium frequency format effectiveness | "[specify value]" |
-| `{executive_sponsor_champion_communication}` | Specify the executive sponsor champion communication | "[specify value]" |
-| `{management_chain_distribution_reinforcement}` | Specify the management chain distribution reinforcement | "[specify value]" |
-| `{narrative_personal_relatable_examples}` | Specify the narrative personal relatable examples | "[specify value]" |
-| `{branding_symbolism_representation_elements}` | Specify the branding symbolism representation elements | "[specify value]" |
-| `{input_dialogue_refinement_adjustment}` | Specify the input dialogue refinement adjustment | "[specify value]" |
-| `{recruitment_selection_onboarding_integration}` | Specify the recruitment selection onboarding integration | "[specify value]" |
-| `{evaluation_feedback_development_connection}` | Specify the evaluation feedback development connection | "[specify value]" |
-| `{choice_process_criteria_value_application}` | Specify the choice process criteria value application | "[specify value]" |
-| `{rule_procedure_guideline_consistency}` | Specify the rule procedure guideline consistency | "[specify value]" |
-| `{investment_priority_value_reflection}` | Specify the investment priority value reflection | "High" |
-| `{reward_acknowledgment_celebration_connection}` | Specify the reward acknowledgment celebration connection | "[specify value]" |
-| `{training_development_skill_value_integration}` | Specify the training development skill value integration | "[specify value]" |
-| `{interaction_dialogue_relationship_alignment}` | Specify the interaction dialogue relationship alignment | "[specify value]" |
-| `{specific_observable_measurable_actions}` | Specify the specific observable measurable actions | "[specify value]" |
-| `{quality_consistency_excellence_requirements}` | Specify the quality consistency excellence requirements | "[specify value]" |
-| `{leadership_demonstration_example_setting}` | Specify the leadership demonstration example setting | "[specify value]" |
-| `{colleague_responsibility_support_expectation}` | Specify the colleague responsibility support expectation | "[specify value]" |
-| `{constructive_regular_developmental_communication}` | Specify the constructive regular developmental communication | "[specify value]" |
-| `{learning_growth_enhancement_mindset}` | Specify the learning growth enhancement mindset | "[specify value]" |
-| `{teamwork_cooperation_communication_standards}` | Specify the teamwork cooperation communication standards | "[specify value]" |
-| `{creativity_risk_taking_experimentation_encouragement}` | Specify the creativity risk taking experimentation encouragement | "[specify value]" |
-| `{celebration_milestone_recognition_events}` | Specify the celebration milestone recognition events | "[specify value]" |
-| `{interaction_decision_communication_norms}` | Specify the interaction decision communication norms | "[specify value]" |
-| `{physical_virtual_environment_culture_reflection}` | Specify the physical virtual environment culture reflection | "[specify value]" |
-| `{check_ins_updates_sharing_routines}` | Specify the check ins updates sharing routines | "2025-01-15" |
-| `{knowledge_sharing_development_practices}` | Specify the knowledge sharing development practices | "[specify value]" |
-| `{relationship_building_connection_activities}` | Specify the relationship building connection activities | "[specify value]" |
-| `{achievement_recognition_appreciation_events}` | Specify the achievement recognition appreciation events | "[specify value]" |
-| `{retrospective_learning_improvement_sessions}` | Specify the retrospective learning improvement sessions | "[specify value]" |
-| `{logo_imagery_representation_elements}` | Specify the logo imagery representation elements | "[specify value]" |
-| `{workspace_objects_displays_reminders}` | Specify the workspace objects displays reminders | "[specify value]" |
-| `{terminology_phrases_expressions_vocabulary}` | Specify the terminology phrases expressions vocabulary | "[specify value]" |
-| `{intranet_systems_platform_culture_integration}` | Specify the intranet systems platform culture integration | "[specify value]" |
-| `{narrative_case_study_example_collection}` | Specify the narrative case study example collection | "[specify value]" |
-| `{awards_certificates_symbols_acknowledgment}` | Specify the awards certificates symbols acknowledgment | "[specify value]" |
-| `{newsletter_presentation_material_culture}` | Specify the newsletter presentation material culture | "[specify value]" |
-| `{training_development_resource_culture_connection}` | Specify the training development resource culture connection | "[specify value]" |
-| `{passion_commitment_connection_feeling}` | Specify the passion commitment connection feeling | "[specify value]" |
-| `{focus_attention_involvement_thinking}` | Specify the focus attention involvement thinking | "[specify value]" |
-| `{energy_effort_action_participation}` | Specify the energy effort action participation | "[specify value]" |
-| `{relationship_collaboration_community_belonging}` | Specify the relationship collaboration community belonging | "[specify value]" |
-| `{challenge_learning_growth_development}` | Specify the challenge learning growth development | "[specify value]" |
-| `{meaning_mission_contribution_significance}` | Specify the meaning mission contribution significance | "[specify value]" |
-| `{independence_control_choice_freedom}` | Specify the independence control choice freedom | "[specify value]" |
-| `{competence_expertise_achievement_progress}` | Specify the competence expertise achievement progress | "[specify value]" |
-| `{trust_support_communication_development}` | Specify the trust support communication development | "[specify value]" |
-| `{challenge_variety_autonomy_significance}` | Specify the challenge variety autonomy significance | "[specify value]" |
-| `{growth_opportunity_advancement_learning}` | Specify the growth opportunity advancement learning | "[specify value]" |
-| `{acknowledgment_gratitude_celebration_value}` | Specify the acknowledgment gratitude celebration value | "[specify value]" |
-| `{culture_climate_safety_support}` | Specify the culture climate safety support | "[specify value]" |
-| `{equity_competitiveness_transparency}` | Specify the equity competitiveness transparency | "[specify value]" |
-| `{balance_flexibility_well_being}` | Specify the balance flexibility well being | "[specify value]" |
-| `{mission_vision_impact_contribution}` | Specify the mission vision impact contribution | "[specify value]" |
-| `{survey_score_participation_retention_rates}` | Specify the survey score participation retention rates | "[specify value]" |
-| `{feedback_observation_story_sentiment}` | Specify the feedback observation story sentiment | "[specify value]" |
-| `{participation_contribution_initiative_involvement}` | Specify the participation contribution initiative involvement | "[specify value]" |
-| `{productivity_quality_innovation_outcomes}` | Specify the productivity quality innovation outcomes | "[specify value]" |
-| `{trust_collaboration_communication_quality}` | Specify the trust collaboration communication quality | "[specify value]" |
-| `{stress_satisfaction_health_balance}` | Specify the stress satisfaction health balance | "[specify value]" |
-| `{development_advancement_skill_capability}` | Specify the development advancement skill capability | "[specify value]" |
-| `{alignment_behavior_value_demonstration}` | Specify the alignment behavior value demonstration | "[specify value]" |
-| `{open_honest_frequent_clear}` | Specify the open honest frequent clear | "[specify value]" |
-| `{listening_feedback_conversation_exchange}` | Specify the listening feedback conversation exchange | "[specify value]" |
-| `{progress_change_decision_information}` | Specify the progress change decision information | "[specify value]" |
-| `{availability_approachability_interaction}` | Specify the availability approachability interaction | "[specify value]" |
-| `{collaboration_coordination_sharing}` | Specify the collaboration coordination sharing | "[specify value]" |
-| `{department_project_knowledge_exchange}` | Specify the department project knowledge exchange | "Marketing" |
-| `{idea_creativity_suggestion_platforms}` | Specify the idea creativity suggestion platforms | "[specify value]" |
-| `{input_response_improvement_action}` | Specify the input response improvement action | "[specify value]" |
-| `{training_education_capability_enhancement}` | Specify the training education capability enhancement | "[specify value]" |
-| `{path_progression_opportunity_guidance}` | Specify the path progression opportunity guidance | "[specify value]" |
-| `{guidance_support_relationship_development}` | Specify the guidance support relationship development | "[specify value]" |
-| `{management_capability_succession_preparation}` | Specify the management capability succession preparation | "[specify value]" |
-| `{versatility_understanding_flexibility_building}` | Specify the versatility understanding flexibility building | "[specify value]" |
-| `{conference_course_certification_support}` | Specify the conference course certification support | "[specify value]" |
-| `{creativity_experimentation_initiative_opportunities}` | Specify the creativity experimentation initiative opportunities | "[specify value]" |
-| `{expertise_best_practice_lesson_distribution}` | Specify the expertise best practice lesson distribution | "[specify value]" |
-| `{comfort_functionality_inspiration_design}` | Specify the comfort functionality inspiration design | "[specify value]" |
-| `{tool_system_resource_enablement}` | Specify the tool system resource enablement | "[specify value]" |
-| `{schedule_location_method_choice}` | Specify the schedule location method choice | "North America" |
-| `{health_fitness_mental_support}` | Specify the health fitness mental support | "[specify value]" |
-| `{team_building_celebration_connection_events}` | Specify the team building celebration connection events | "[specify value]" |
-| `{information_support_assistance_availability}` | Specify the information support assistance availability | "[specify value]" |
-| `{physical_psychological_emotional_protection}` | Specify the physical psychological emotional protection | "[specify value]" |
-| `{convenience_enjoyment_quality_enhancement}` | Specify the convenience enjoyment quality enhancement | "[specify value]" |
-| `{value_behavior_performance_connection}` | Specify the value behavior performance connection | "[specify value]" |
-| `{immediate_prompt_relevant_acknowledgment}` | Specify the immediate prompt relevant acknowledgment | "[specify value]" |
-| `{detailed_clear_meaningful_feedback}` | Specify the detailed clear meaningful feedback | "[specify value]" |
-| `{genuine_sincere_heartfelt_appreciation}` | Specify the genuine sincere heartfelt appreciation | "[specify value]" |
-| `{fair_equitable_accessible_opportunity}` | Specify the fair equitable accessible opportunity | "[specify value]" |
-| `{regular_reliable_predictable_practice}` | Specify the regular reliable predictable practice | "[specify value]" |
-| `{individual_preference_customized_recognition}` | Specify the individual preference customized recognition | "[specify value]" |
-| `{effect_outcome_influence_assessment}` | Specify the effect outcome influence assessment | "[specify value]" |
-| `{official_structured_systematic_programs}` | Specify the official structured systematic programs | "[specify value]" |
-| `{spontaneous_casual_peer_appreciation}` | Specify the spontaneous casual peer appreciation | "[specify value]" |
-| `{personal_achievement_contribution_acknowledgment}` | Specify the personal achievement contribution acknowledgment | "[specify value]" |
-| `{group_collaboration_collective_success}` | Specify the group collaboration collective success | "[specify value]" |
-| `{visible_shared_celebrated_acknowledgment}` | Specify the visible shared celebrated acknowledgment | "[specify value]" |
-| `{personal_intimate_confidential_appreciation}` | Specify the personal intimate confidential appreciation | "[specify value]" |
-| `{financial_bonus_incentive_reward}` | Specify the financial bonus incentive reward | "[specify value]" |
-| `{appreciation_symbol_experience_gift}` | Specify the appreciation symbol experience gift | "[specify value]" |
-| `{performance_behavior_innovation_collaboration}` | Specify the performance behavior innovation collaboration | "[specify value]" |
-| `{identification_selection_evaluation_procedure}` | Specify the identification selection evaluation procedure | "[specify value]" |
-| `{standard_measurement_assessment_guideline}` | Specify the standard measurement assessment guideline | "[specify value]" |
-| `{tier_scale_magnitude_significance}` | Specify the tier scale magnitude significance | "[specify value]" |
-| `{ceremony_communication_delivery_approach}` | Specify the ceremony communication delivery approach | "[specify value]" |
-| `{documentation_sharing_reinforcement_continuation}` | Specify the documentation sharing reinforcement continuation | "[specify value]" |
-| `{improvement_adaptation_enhancement_development}` | Specify the improvement adaptation enhancement development | "[specify value]" |
-| `{measurement_evaluation_effectiveness_assessment}` | Specify the measurement evaluation effectiveness assessment | "[specify value]" |
-| `{colleague_identification_appreciation_system}` | Specify the colleague identification appreciation system | "[specify value]" |
-| `{immediate_spontaneous_moment_acknowledgment}` | Specify the immediate spontaneous moment acknowledgment | "[specify value]" |
-| `{group_acknowledgment_collective_gratitude}` | Specify the group acknowledgment collective gratitude | "[specify value]" |
-| `{inter_unit_collaboration_appreciation}` | Specify the inter unit collaboration appreciation | "[specify value]" |
-| `{creativity_improvement_idea_acknowledgment}` | Specify the creativity improvement idea acknowledgment | "[specify value]" |
-| `{behavior_principle_embodiment_recognition}` | Specify the behavior principle embodiment recognition | "[specify value]" |
-| `{achievement_anniversary_progress_acknowledgment}` | Specify the achievement anniversary progress acknowledgment | "[specify value]" |
-| `{success_example_inspiration_narrative_distribution}` | Specify the success example inspiration narrative distribution | "[specify value]" |
-| `{senior_leader_acknowledgment_gratitude}` | Specify the senior leader acknowledgment gratitude | "[specify value]" |
-| `{supervisor_feedback_appreciation_communication}` | Specify the supervisor feedback appreciation communication | "[specify value]" |
-| `{higher_authority_acknowledgment_validation}` | Specify the higher authority acknowledgment validation | "[specify value]" |
-| `{visible_shared_celebrated_appreciation}` | Specify the visible shared celebrated appreciation | "[specify value]" |
-| `{direct_individual_private_recognition}` | Specify the direct individual private recognition | "[specify value]" |
-| `{growth_advancement_investment_recognition}` | Specify the growth advancement investment recognition | "[specify value]" |
-| `{trust_confidence_capability_demonstration}` | Specify the trust confidence capability demonstration | "[specify value]" |
-| `{expertise_guidance_sharing_opportunity}` | Specify the expertise guidance sharing opportunity | "[specify value]" |
-| `{enterprise_level_prestigious_recognition}` | Specify the enterprise level prestigious recognition | "[specify value]" |
-| `{yearly_achievement_milestone_ceremony}` | Specify the yearly achievement milestone ceremony | "[specify value]" |
-| `{publication_sharing_visibility_recognition}` | Specify the publication sharing visibility recognition | "[specify value]" |
-| `{digital_platform_appreciation_showcase}` | Specify the digital platform appreciation showcase | "[specify value]" |
-| `{external_stakeholder_appreciation_sharing}` | Specify the external stakeholder appreciation sharing | "[specify value]" |
-| `{external_competition_award_submission}` | Specify the external competition award submission | "[specify value]" |
-| `{public_relations_visibility_acknowledgment}` | Specify the public relations visibility acknowledgment | "[specify value]" |
-| `{former_employee_continued_connection_recognition}` | Specify the former employee continued connection recognition | "[specify value]" |
-| `{simple_understandable_actionable_content}` | Specify the simple understandable actionable content | "[specify value]" |
-| `{targeted_personalized_meaningful_communication}` | Specify the targeted personalized meaningful communication | "[specify value]" |
-| `{medium_selection_optimization_utilization}` | Specify the medium selection optimization utilization | "[specify value]" |
-| `{regular_appropriate_non_overwhelming_timing}` | Specify the regular appropriate non overwhelming timing | "[specify value]" |
-| `{two_way_responsive_adaptive_dialogue}` | Specify the two way responsive adaptive dialogue | "[specify value]" |
-| `{aligned_unified_coordinated_messaging}` | Specify the aligned unified coordinated messaging | "[specify value]" |
-| `{value_behavior_norm_consistent_communication}` | Specify the value behavior norm consistent communication | "[specify value]" |
-| `{effectiveness_reach_engagement_assessment}` | Specify the effectiveness reach engagement assessment | "[specify value]" |
-| `{official_structured_systematic_communication}` | Specify the official structured systematic communication | "[specify value]" |
-| `{casual_spontaneous_personal_interaction}` | Specify the casual spontaneous personal interaction | "[specify value]" |
-| `{technology_enabled_online_virtual_communication}` | Specify the technology enabled online virtual communication | "[specify value]" |
-| `{in_person_direct_personal_interaction}` | Specify the in person direct personal interaction | "[specify value]" |
-| `{document_email_message_correspondence}` | Specify the document email message correspondence | "john.smith@example.com" |
-| `{presentation_infographic_video_material}` | Specify the presentation infographic video material | "[specify value]" |
-| `{discussion_dialogue_exchange_platform}` | Specify the discussion dialogue exchange platform | "[specify value]" |
-| `{input_collection_response_mechanism}` | Specify the input collection response mechanism | "[specify value]" |
-| `{future_direction_aspiration_communication}` | Specify the future direction aspiration communication | "[specify value]" |
-| `{plan_objective_priority_sharing}` | Specify the plan objective priority sharing | "Increase efficiency by 30%" |
-| `{progress_result_achievement_reporting}` | Specify the progress result achievement reporting | "[specify value]" |
-| `{transformation_adaptation_evolution_discussion}` | Specify the transformation adaptation evolution discussion | "[specify value]" |
-| `{appreciation_acknowledgment_celebration_communication}` | Specify the appreciation acknowledgment celebration communication | "[specify value]" |
-| `{challenge_issue_concern_discussion}` | Specify the challenge issue concern discussion | "[specify value]" |
-| `{principle_belief_standard_emphasis}` | Specify the principle belief standard emphasis | "[specify value]" |
-| `{behavior_demonstration_example_setting}` | Specify the behavior demonstration example setting | "[specify value]" |
-| `{development_improvement_learning_focus}` | Specify the development improvement learning focus | "[specify value]" |
-| `{regular_ongoing_frequent_practice}` | Specify the regular ongoing frequent practice | "[specify value]" |
-| `{helpful_supportive_developmental_intent}` | Specify the helpful supportive developmental intent | "[specify value]" |
-| `{mutual_reciprocal_dialogue_communication}` | Specify the mutual reciprocal dialogue communication | "[specify value]" |
-| `{detailed_clear_actionable_guidance}` | Specify the detailed clear actionable guidance | "[specify value]" |
-| `{immediate_prompt_relevant_timing}` | Specify the immediate prompt relevant timing | "[specify value]" |
-| `{trust_respect_psychological_safety}` | Specify the trust respect psychological safety | "[specify value]" |
-| `{implementation_change_improvement_emphasis}` | Specify the implementation change improvement emphasis | "[specify value]" |
-| `{scheduled_consistent_structured_conversation}` | Specify the scheduled consistent structured conversation | "[specify value]" |
-| `{multi_source_comprehensive_evaluation}` | Specify the multi source comprehensive evaluation | "[specify value]" |
-| `{frequent_brief_targeted_assessment}` | Specify the frequent brief targeted assessment | "[specify value]" |
-| `{departure_insight_learning_collection}` | Specify the departure insight learning collection | "[specify value]" |
-| `{group_discussion_deep_dive_exploration}` | Specify the group discussion deep dive exploration | "[specify value]" |
-| `{idea_recommendation_improvement_input}` | Specify the idea recommendation improvement input | "[specify value]" |
-| `{discussion_dialogue_question_platform}` | Specify the discussion dialogue question platform | "[specify value]" |
-| `{confidential_safe_honest_communication}` | Specify the confidential safe honest communication | "[specify value]" |
-| `{data_pattern_insight_evaluation}` | Specify the data pattern insight evaluation | "[specify value]" |
-| `{response_improvement_change_strategy}` | Specify the response improvement change strategy | "[specify value]" |
-| `{update_response_progress_sharing}` | Specify the update response progress sharing | "2025-01-15" |
-| `{action_progress_outcome_monitoring}` | Specify the action progress outcome monitoring | "[specify value]" |
-| `{environment_practice_norm_enhancement}` | Specify the environment practice norm enhancement | "[specify value]" |
-| `{process_mechanism_tool_improvement}` | Specify the process mechanism tool improvement | "[specify value]" |
-| `{program_content_method_modification}` | Specify the program content method modification | "[specify value]" |
-| `{appreciation_acknowledgment_program_refinement}` | Specify the appreciation acknowledgment program refinement | "[specify value]" |
-| `{skill_diversity_complementary_strength}` | Specify the skill diversity complementary strength | "[specify value]" |
-| `{responsibility_accountability_expectation_definition}` | Specify the responsibility accountability expectation definition | "10" |
-| `{objective_purpose_direction_unity}` | Specify the objective purpose direction unity | "Increase efficiency by 30%" |
-| `{behavior_interaction_communication_standard}` | Specify the behavior interaction communication standard | "[specify value]" |
-| `{trust_rapport_connection_development}` | Specify the trust rapport connection development | "[specify value]" |
-| `{interaction_exchange_dialogue_framework}` | Specify the interaction exchange dialogue framework | "[specify value]" |
-| `{choice_method_authority_procedure}` | Specify the choice method authority procedure | "[specify value]" |
-| `{disagreement_tension_issue_management}` | Specify the disagreement tension issue management | "[specify value]" |
-| `{common_goal_mission_objective_focus}` | Specify the common goal mission objective focus | "Increase efficiency by 30%" |
-| `{responsibility_ownership_commitment_expectation}` | Specify the responsibility ownership commitment expectation | "[specify value]" |
-| `{team_outcome_success_ownership}` | Specify the team outcome success ownership | "[specify value]" |
-| `{expertise_information_insight_distribution}` | Specify the expertise information insight distribution | "[specify value]" |
-| `{asset_capability_support_exchange}` | Specify the asset capability support exchange | "[specify value]" |
-| `{creativity_idea_solution_development}` | Specify the creativity idea solution development | "[specify value]" |
-| `{challenge_issue_obstacle_resolution}` | Specify the challenge issue obstacle resolution | "[specify value]" |
-| `{achievement_milestone_accomplishment_recognition}` | Specify the achievement milestone accomplishment recognition | "[specify value]" |
-| `{relationship_trust_connection_activities}` | Specify the relationship trust connection activities | "[specify value]" |
-| `{skill_building_process_improvement_sessions}` | Specify the skill building process improvement sessions | "[specify value]" |
-| `{challenge_resolution_innovation_meetings}` | Specify the challenge resolution innovation meetings | "[specify value]" |
-| `{goal_objective_direction_development}` | Specify the goal objective direction development | "Increase efficiency by 30%" |
-| `{knowledge_skill_capability_development}` | Specify the knowledge skill capability development | "[specify value]" |
-| `{relationship_culture_connection_events}` | Specify the relationship culture connection events | "[specify value]" |
-| `{appreciation_acknowledgment_celebration_gatherings}` | Specify the appreciation acknowledgment celebration gatherings | "[specify value]" |
-| `{review_learning_improvement_discussion}` | Specify the review learning improvement discussion | "[specify value]" |
-| `{common_belonging_connection_sense}` | Specify the common belonging connection sense | "[specify value]" |
-| `{unified_mission_goal_direction}` | Specify the unified mission goal direction | "Increase efficiency by 30%" |
-| `{assistance_help_care_provision}` | Specify the assistance help care provision | "[specify value]" |
-| `{learning_expertise_wisdom_sharing}` | Specify the learning expertise wisdom sharing | "[specify value]" |
-| `{creativity_experimentation_improvement_culture}` | Specify the creativity experimentation improvement culture | "[specify value]" |
-| `{relationship_friendship_connection_network}` | Specify the relationship friendship connection network | "[specify value]" |
-| `{career_development_advancement_support}` | Specify the career development advancement support | "[specify value]" |
-| `{principle_belief_standard_alignment}` | Specify the principle belief standard alignment | "[specify value]" |
-| `{hobby_passion_affinity_gathering}` | Specify the hobby passion affinity gathering | "[specify value]" |
-| `{career_skill_industry_connection}` | Specify the career skill industry connection | "Technology" |
-| `{service_contribution_giving_opportunity}` | Specify the service contribution giving opportunity | "[specify value]" |
-| `{education_development_knowledge_sharing}` | Specify the education development knowledge sharing | "[specify value]" |
-| `{creativity_experimentation_project_space}` | Specify the creativity experimentation project space | "[specify value]" |
-| `{health_fitness_well_being_support}` | Specify the health fitness well being support | "[specify value]" |
-| `{inclusion_representation_support_community}` | Specify the inclusion representation support community | "[specify value]" |
-| `{event_activity_celebration_organization}` | Specify the event activity celebration organization | "[specify value]" |
-| `{value_behavior_norm_consistency_measurement}` | Specify the value behavior norm consistency measurement | "[specify value]" |
-| `{involvement_commitment_satisfaction_level}` | Specify the involvement commitment satisfaction level | "[specify value]" |
-| `{trust_support_communication_quality}` | Specify the trust support communication quality | "[specify value]" |
-| `{clarity_frequency_effectiveness_assessment}` | Specify the clarity frequency effectiveness assessment | "[specify value]" |
-| `{appreciation_acknowledgment_program_effectiveness}` | Specify the appreciation acknowledgment program effectiveness | "[specify value]" |
-| `{cooperation_coordination_synergy_measurement}` | Specify the cooperation coordination synergy measurement | "[specify value]" |
-| `{creativity_risk_taking_learning_indicators}` | Specify the creativity risk taking learning indicators | "[specify value]" |
-| `{excellence_accountability_achievement_standards}` | Specify the excellence accountability achievement standards | "10" |
-| `{comprehensive_periodic_assessment_evaluation}` | Specify the comprehensive periodic assessment evaluation | "[specify value]" |
-| `{involvement_commitment_satisfaction_measurement}` | Specify the involvement commitment satisfaction measurement | "[specify value]" |
-| `{multi_source_feedback_evaluation}` | Specify the multi source feedback evaluation | "[specify value]" |
-| `{discussion_dialogue_insight_collection}` | Specify the discussion dialogue insight collection | "[specify value]" |
-| `{behavior_interaction_practice_analysis}` | Specify the behavior interaction practice analysis | "[specify value]" |
-| `{departure_reason_experience_insight}` | Specify the departure reason experience insight | "[specify value]" |
-| `{retention_satisfaction_motivation_understanding}` | Specify the retention satisfaction motivation understanding | "[specify value]" |
-| `{pattern_direction_change_evaluation}` | Specify the pattern direction change evaluation | "[specify value]" |
-| `{standard_best_practice_reference}` | Specify the standard best practice reference | "[specify value]" |
-| `{relationship_connection_influence_assessment}` | Specify the relationship connection influence assessment | "[specify value]" |
-| `{group_demographic_role_comparison}` | Specify the group demographic role comparison | "[specify value]" |
-| `{shortfall_opportunity_improvement_area}` | Specify the shortfall opportunity improvement area | "[specify value]" |
-| `{underlying_factor_issue_investigation}` | Specify the underlying factor issue investigation | "[specify value]" |
-| `{effect_outcome_consequence_evaluation}` | Specify the effect outcome consequence evaluation | "[specify value]" |
-| `{future_trend_risk_opportunity_projection}` | Specify the future trend risk opportunity projection | "[specify value]" |
-| `{critical_important_urgent_focus}` | Specify the critical important urgent focus | "[specify value]" |
-| `{objective_target_outcome_definition}` | Specify the objective target outcome definition | "Increase efficiency by 30%" |
-| `{approach_method_tactic_design}` | Specify the approach method tactic design | "[specify value]" |
-| `{budget_personnel_time_investment}` | Specify the budget personnel time investment | "$500,000" |
-| `{schedule_milestone_deadline_framework}` | Specify the schedule milestone deadline framework | "[specify value]" |
-| `{ownership_accountability_role_definition}` | Specify the ownership accountability role definition | "10" |
-| `{threat_obstacle_mitigation_planning}` | Specify the threat obstacle mitigation planning | "[specify value]" |
-| `{indicator_metric_evaluation_method}` | Specify the indicator metric evaluation method | "[specify value]" |
-| `{planning_execution_monitoring_control}` | Specify the planning execution monitoring control | "[specify value]" |
-| `{transition_adaptation_transformation_support}` | Specify the transition adaptation transformation support | "[specify value]" |
-| `{awareness_update_engagement_strategy}` | Specify the awareness update engagement strategy | "2025-01-15" |
-| `{skill_knowledge_capability_development}` | Specify the skill knowledge capability development | "[specify value]" |
-| `{assistance_resource_help_availability}` | Specify the assistance resource help availability | "[specify value]" |
-| `{tracking_assessment_evaluation_process}` | Specify the tracking assessment evaluation process | "[specify value]" |
-| `{course_correction_modification_flexibility}` | Specify the course correction modification flexibility | "[specify value]" |
-| `{achievement_milestone_recognition_acknowledgment}` | Specify the achievement milestone recognition acknowledgment | "[specify value]" |
+| `[EMPLOYEE_COUNT_STRUCTURE_LEVELS]` | Specify the employee count structure levels | "10" |
+| `[SECTOR_MARKET_COMPETITIVE_ENVIRONMENT]` | Specify the sector market competitive environment | "[specify value]" |
+| `[STARTUP_GROWTH_ESTABLISHED_ENTERPRISE]` | Specify the startup growth established enterprise | "[specify value]" |
+| `[LOCATIONS_REGIONS_CULTURAL_DIVERSITY]` | Specify the locations regions cultural diversity | "North America" |
+| `[AGE_TENURE_ROLE_DIVERSITY]` | Specify the age tenure role diversity | "[specify value]" |
+| `[ALIGNMENT_CONSISTENCY_CLARITY_LEVEL]` | Specify the alignment consistency clarity level | "[specify value]" |
+| `[EXECUTIVE_COMMITMENT_MODELING_VISIBILITY]` | Specify the executive commitment modeling visibility | "[specify value]" |
+| `[ADAPTABILITY_OPENNESS_FLEXIBILITY_CAPACITY]` | Specify the adaptability openness flexibility capacity | "[specify value]" |
+| `[STATED_ACTUAL_OBSERVED_PRACTICED]` | Specify the stated actual observed practiced | "[specify value]" |
+| `[POSITIVE_ELEMENTS_ADVANTAGES_ASSETS]` | Specify the positive elements advantages assets | "[specify value]" |
+| `[GAPS_WEAKNESSES_OBSTACLES_BARRIERS]` | Specify the gaps weaknesses obstacles barriers | "[specify value]" |
+| `[ENGAGEMENT_SATISFACTION_MORALE_COMMITMENT]` | Specify the engagement satisfaction morale commitment | "[specify value]" |
+| `[NORMS_PRACTICES_INTERACTIONS_DYNAMICS]` | Specify the norms practices interactions dynamics | "[specify value]" |
+| `[OPENNESS_TRANSPARENCY_FEEDBACK_DIALOGUE]` | Specify the openness transparency feedback dialogue | "[specify value]" |
+| `[EXCELLENCE_ACCOUNTABILITY_RECOGNITION_STANDARDS]` | Specify the excellence accountability recognition standards | "10" |
+| `[CREATIVITY_RISK_TAKING_LEARNING_EXPERIMENTATION]` | Specify the creativity risk taking learning experimentation | "[specify value]" |
+| `[OBJECTIVES_PRIORITIES_DIRECTION_FOCUS]` | Specify the objectives priorities direction focus | "Increase efficiency by 30%" |
+| `[CONSISTENCY_INTEGRATION_REINFORCEMENT_NEEDS]` | Specify the consistency integration reinforcement needs | "[specify value]" |
+| `[STANDARDS_GOALS_ACHIEVEMENTS_MEASURES]` | Specify the standards goals achievements measures | "Increase efficiency by 30%" |
+| `[EMPLOYEE_CUSTOMER_INVESTOR_COMMUNITY]` | Specify the employee customer investor community | "[specify value]" |
+| `[DIFFERENTIATION_UNIQUE_VALUE_STRENGTHS]` | Specify the differentiation unique value strengths | "[specify value]" |
+| `[ASPIRATIONS_GOALS_TRANSFORMATION_EVOLUTION]` | Specify the aspirations goals transformation evolution | "Increase efficiency by 30%" |
+| `[CONCURRENT_PLANNED_TRANSFORMATION_EFFORTS]` | Specify the concurrent planned transformation efforts | "[specify value]" |
+| `[MEASUREMENT_INDICATORS_BENCHMARKS_TARGETS]` | Specify the measurement indicators benchmarks targets | "[specify value]" |
+| `[CLEAR_CONCISE_MEANINGFUL_EXPRESSIONS]` | Specify the clear concise meaningful expressions | "[specify value]" |
+| `[SPECIFIC_OBSERVABLE_ACTIONABLE_EXAMPLES]` | Specify the specific observable actionable examples | "[specify value]" |
+| `[CHOICE_FRAMEWORK_GUIDANCE_PRINCIPLES]` | Specify the choice framework guidance principles | "[specify value]" |
+| `[VISIBLE_SYMBOLS_PRACTICES_RITUALS]` | Specify the visible symbols practices rituals | "[specify value]" |
+| `[MEASUREMENT_EVIDENCE_DEMONSTRATION_SIGNS]` | Specify the measurement evidence demonstration signs | "[specify value]" |
+| `[NARRATIVE_EXAMPLES_CASE_STUDIES]` | Specify the narrative examples case studies | "[specify value]" |
+| `[TERMINOLOGY_COMMUNICATION_EXPRESSION]` | Specify the terminology communication expression | "[specify value]" |
+| `[ADAPTATION_GROWTH_REFINEMENT_DEVELOPMENT]` | Specify the adaptation growth refinement development | "[specify value]" |
+| `[COMPELLING_RELEVANT_MEMORABLE_CONTENT]` | Specify the compelling relevant memorable content | "[specify value]" |
+| `[ROLE_LEVEL_DEPARTMENT_CUSTOMIZATION]` | Specify the role level department customization | "Marketing" |
+| `[MEDIUM_FREQUENCY_FORMAT_EFFECTIVENESS]` | Specify the medium frequency format effectiveness | "[specify value]" |
+| `[EXECUTIVE_SPONSOR_CHAMPION_COMMUNICATION]` | Specify the executive sponsor champion communication | "[specify value]" |
+| `[MANAGEMENT_CHAIN_DISTRIBUTION_REINFORCEMENT]` | Specify the management chain distribution reinforcement | "[specify value]" |
+| `[NARRATIVE_PERSONAL_RELATABLE_EXAMPLES]` | Specify the narrative personal relatable examples | "[specify value]" |
+| `[BRANDING_SYMBOLISM_REPRESENTATION_ELEMENTS]` | Specify the branding symbolism representation elements | "[specify value]" |
+| `[INPUT_DIALOGUE_REFINEMENT_ADJUSTMENT]` | Specify the input dialogue refinement adjustment | "[specify value]" |
+| `[RECRUITMENT_SELECTION_ONBOARDING_INTEGRATION]` | Specify the recruitment selection onboarding integration | "[specify value]" |
+| `[EVALUATION_FEEDBACK_DEVELOPMENT_CONNECTION]` | Specify the evaluation feedback development connection | "[specify value]" |
+| `[CHOICE_PROCESS_CRITERIA_VALUE_APPLICATION]` | Specify the choice process criteria value application | "[specify value]" |
+| `[RULE_PROCEDURE_GUIDELINE_CONSISTENCY]` | Specify the rule procedure guideline consistency | "[specify value]" |
+| `[INVESTMENT_PRIORITY_VALUE_REFLECTION]` | Specify the investment priority value reflection | "High" |
+| `[REWARD_ACKNOWLEDGMENT_CELEBRATION_CONNECTION]` | Specify the reward acknowledgment celebration connection | "[specify value]" |
+| `[TRAINING_DEVELOPMENT_SKILL_VALUE_INTEGRATION]` | Specify the training development skill value integration | "[specify value]" |
+| `[INTERACTION_DIALOGUE_RELATIONSHIP_ALIGNMENT]` | Specify the interaction dialogue relationship alignment | "[specify value]" |
+| `[SPECIFIC_OBSERVABLE_MEASURABLE_ACTIONS]` | Specify the specific observable measurable actions | "[specify value]" |
+| `[QUALITY_CONSISTENCY_EXCELLENCE_REQUIREMENTS]` | Specify the quality consistency excellence requirements | "[specify value]" |
+| `[LEADERSHIP_DEMONSTRATION_EXAMPLE_SETTING]` | Specify the leadership demonstration example setting | "[specify value]" |
+| `[COLLEAGUE_RESPONSIBILITY_SUPPORT_EXPECTATION]` | Specify the colleague responsibility support expectation | "[specify value]" |
+| `[CONSTRUCTIVE_REGULAR_DEVELOPMENTAL_COMMUNICATION]` | Specify the constructive regular developmental communication | "[specify value]" |
+| `[LEARNING_GROWTH_ENHANCEMENT_MINDSET]` | Specify the learning growth enhancement mindset | "[specify value]" |
+| `[TEAMWORK_COOPERATION_COMMUNICATION_STANDARDS]` | Specify the teamwork cooperation communication standards | "[specify value]" |
+| `[CREATIVITY_RISK_TAKING_EXPERIMENTATION_ENCOURAGEMENT]` | Specify the creativity risk taking experimentation encouragement | "[specify value]" |
+| `[CELEBRATION_MILESTONE_RECOGNITION_EVENTS]` | Specify the celebration milestone recognition events | "[specify value]" |
+| `[INTERACTION_DECISION_COMMUNICATION_NORMS]` | Specify the interaction decision communication norms | "[specify value]" |
+| `[PHYSICAL_VIRTUAL_ENVIRONMENT_CULTURE_REFLECTION]` | Specify the physical virtual environment culture reflection | "[specify value]" |
+| `[CHECK_INS_UPDATES_SHARING_ROUTINES]` | Specify the check ins updates sharing routines | "2025-01-15" |
+| `[KNOWLEDGE_SHARING_DEVELOPMENT_PRACTICES]` | Specify the knowledge sharing development practices | "[specify value]" |
+| `[RELATIONSHIP_BUILDING_CONNECTION_ACTIVITIES]` | Specify the relationship building connection activities | "[specify value]" |
+| `[ACHIEVEMENT_RECOGNITION_APPRECIATION_EVENTS]` | Specify the achievement recognition appreciation events | "[specify value]" |
+| `[RETROSPECTIVE_LEARNING_IMPROVEMENT_SESSIONS]` | Specify the retrospective learning improvement sessions | "[specify value]" |
+| `[LOGO_IMAGERY_REPRESENTATION_ELEMENTS]` | Specify the logo imagery representation elements | "[specify value]" |
+| `[WORKSPACE_OBJECTS_DISPLAYS_REMINDERS]` | Specify the workspace objects displays reminders | "[specify value]" |
+| `[TERMINOLOGY_PHRASES_EXPRESSIONS_VOCABULARY]` | Specify the terminology phrases expressions vocabulary | "[specify value]" |
+| `[INTRANET_SYSTEMS_PLATFORM_CULTURE_INTEGRATION]` | Specify the intranet systems platform culture integration | "[specify value]" |
+| `[NARRATIVE_CASE_STUDY_EXAMPLE_COLLECTION]` | Specify the narrative case study example collection | "[specify value]" |
+| `[AWARDS_CERTIFICATES_SYMBOLS_ACKNOWLEDGMENT]` | Specify the awards certificates symbols acknowledgment | "[specify value]" |
+| `[NEWSLETTER_PRESENTATION_MATERIAL_CULTURE]` | Specify the newsletter presentation material culture | "[specify value]" |
+| `[TRAINING_DEVELOPMENT_RESOURCE_CULTURE_CONNECTION]` | Specify the training development resource culture connection | "[specify value]" |
+| `[PASSION_COMMITMENT_CONNECTION_FEELING]` | Specify the passion commitment connection feeling | "[specify value]" |
+| `[FOCUS_ATTENTION_INVOLVEMENT_THINKING]` | Specify the focus attention involvement thinking | "[specify value]" |
+| `[ENERGY_EFFORT_ACTION_PARTICIPATION]` | Specify the energy effort action participation | "[specify value]" |
+| `[RELATIONSHIP_COLLABORATION_COMMUNITY_BELONGING]` | Specify the relationship collaboration community belonging | "[specify value]" |
+| `[CHALLENGE_LEARNING_GROWTH_DEVELOPMENT]` | Specify the challenge learning growth development | "[specify value]" |
+| `[MEANING_MISSION_CONTRIBUTION_SIGNIFICANCE]` | Specify the meaning mission contribution significance | "[specify value]" |
+| `[INDEPENDENCE_CONTROL_CHOICE_FREEDOM]` | Specify the independence control choice freedom | "[specify value]" |
+| `[COMPETENCE_EXPERTISE_ACHIEVEMENT_PROGRESS]` | Specify the competence expertise achievement progress | "[specify value]" |
+| `[TRUST_SUPPORT_COMMUNICATION_DEVELOPMENT]` | Specify the trust support communication development | "[specify value]" |
+| `[CHALLENGE_VARIETY_AUTONOMY_SIGNIFICANCE]` | Specify the challenge variety autonomy significance | "[specify value]" |
+| `[GROWTH_OPPORTUNITY_ADVANCEMENT_LEARNING]` | Specify the growth opportunity advancement learning | "[specify value]" |
+| `[ACKNOWLEDGMENT_GRATITUDE_CELEBRATION_VALUE]` | Specify the acknowledgment gratitude celebration value | "[specify value]" |
+| `[CULTURE_CLIMATE_SAFETY_SUPPORT]` | Specify the culture climate safety support | "[specify value]" |
+| `[EQUITY_COMPETITIVENESS_TRANSPARENCY]` | Specify the equity competitiveness transparency | "[specify value]" |
+| `[BALANCE_FLEXIBILITY_WELL_BEING]` | Specify the balance flexibility well being | "[specify value]" |
+| `[MISSION_VISION_IMPACT_CONTRIBUTION]` | Specify the mission vision impact contribution | "[specify value]" |
+| `[SURVEY_SCORE_PARTICIPATION_RETENTION_RATES]` | Specify the survey score participation retention rates | "[specify value]" |
+| `[FEEDBACK_OBSERVATION_STORY_SENTIMENT]` | Specify the feedback observation story sentiment | "[specify value]" |
+| `[PARTICIPATION_CONTRIBUTION_INITIATIVE_INVOLVEMENT]` | Specify the participation contribution initiative involvement | "[specify value]" |
+| `[PRODUCTIVITY_QUALITY_INNOVATION_OUTCOMES]` | Specify the productivity quality innovation outcomes | "[specify value]" |
+| `[TRUST_COLLABORATION_COMMUNICATION_QUALITY]` | Specify the trust collaboration communication quality | "[specify value]" |
+| `[STRESS_SATISFACTION_HEALTH_BALANCE]` | Specify the stress satisfaction health balance | "[specify value]" |
+| `[DEVELOPMENT_ADVANCEMENT_SKILL_CAPABILITY]` | Specify the development advancement skill capability | "[specify value]" |
+| `[ALIGNMENT_BEHAVIOR_VALUE_DEMONSTRATION]` | Specify the alignment behavior value demonstration | "[specify value]" |
+| `[OPEN_HONEST_FREQUENT_CLEAR]` | Specify the open honest frequent clear | "[specify value]" |
+| `[LISTENING_FEEDBACK_CONVERSATION_EXCHANGE]` | Specify the listening feedback conversation exchange | "[specify value]" |
+| `[PROGRESS_CHANGE_DECISION_INFORMATION]` | Specify the progress change decision information | "[specify value]" |
+| `[AVAILABILITY_APPROACHABILITY_INTERACTION]` | Specify the availability approachability interaction | "[specify value]" |
+| `[COLLABORATION_COORDINATION_SHARING]` | Specify the collaboration coordination sharing | "[specify value]" |
+| `[DEPARTMENT_PROJECT_KNOWLEDGE_EXCHANGE]` | Specify the department project knowledge exchange | "Marketing" |
+| `[IDEA_CREATIVITY_SUGGESTION_PLATFORMS]` | Specify the idea creativity suggestion platforms | "[specify value]" |
+| `[INPUT_RESPONSE_IMPROVEMENT_ACTION]` | Specify the input response improvement action | "[specify value]" |
+| `[TRAINING_EDUCATION_CAPABILITY_ENHANCEMENT]` | Specify the training education capability enhancement | "[specify value]" |
+| `[PATH_PROGRESSION_OPPORTUNITY_GUIDANCE]` | Specify the path progression opportunity guidance | "[specify value]" |
+| `[GUIDANCE_SUPPORT_RELATIONSHIP_DEVELOPMENT]` | Specify the guidance support relationship development | "[specify value]" |
+| `[MANAGEMENT_CAPABILITY_SUCCESSION_PREPARATION]` | Specify the management capability succession preparation | "[specify value]" |
+| `[VERSATILITY_UNDERSTANDING_FLEXIBILITY_BUILDING]` | Specify the versatility understanding flexibility building | "[specify value]" |
+| `[CONFERENCE_COURSE_CERTIFICATION_SUPPORT]` | Specify the conference course certification support | "[specify value]" |
+| `[CREATIVITY_EXPERIMENTATION_INITIATIVE_OPPORTUNITIES]` | Specify the creativity experimentation initiative opportunities | "[specify value]" |
+| `[EXPERTISE_BEST_PRACTICE_LESSON_DISTRIBUTION]` | Specify the expertise best practice lesson distribution | "[specify value]" |
+| `[COMFORT_FUNCTIONALITY_INSPIRATION_DESIGN]` | Specify the comfort functionality inspiration design | "[specify value]" |
+| `[TOOL_SYSTEM_RESOURCE_ENABLEMENT]` | Specify the tool system resource enablement | "[specify value]" |
+| `[SCHEDULE_LOCATION_METHOD_CHOICE]` | Specify the schedule location method choice | "North America" |
+| `[HEALTH_FITNESS_MENTAL_SUPPORT]` | Specify the health fitness mental support | "[specify value]" |
+| `[TEAM_BUILDING_CELEBRATION_CONNECTION_EVENTS]` | Specify the team building celebration connection events | "[specify value]" |
+| `[INFORMATION_SUPPORT_ASSISTANCE_AVAILABILITY]` | Specify the information support assistance availability | "[specify value]" |
+| `[PHYSICAL_PSYCHOLOGICAL_EMOTIONAL_PROTECTION]` | Specify the physical psychological emotional protection | "[specify value]" |
+| `[CONVENIENCE_ENJOYMENT_QUALITY_ENHANCEMENT]` | Specify the convenience enjoyment quality enhancement | "[specify value]" |
+| `[VALUE_BEHAVIOR_PERFORMANCE_CONNECTION]` | Specify the value behavior performance connection | "[specify value]" |
+| `[IMMEDIATE_PROMPT_RELEVANT_ACKNOWLEDGMENT]` | Specify the immediate prompt relevant acknowledgment | "[specify value]" |
+| `[DETAILED_CLEAR_MEANINGFUL_FEEDBACK]` | Specify the detailed clear meaningful feedback | "[specify value]" |
+| `[GENUINE_SINCERE_HEARTFELT_APPRECIATION]` | Specify the genuine sincere heartfelt appreciation | "[specify value]" |
+| `[FAIR_EQUITABLE_ACCESSIBLE_OPPORTUNITY]` | Specify the fair equitable accessible opportunity | "[specify value]" |
+| `[REGULAR_RELIABLE_PREDICTABLE_PRACTICE]` | Specify the regular reliable predictable practice | "[specify value]" |
+| `[INDIVIDUAL_PREFERENCE_CUSTOMIZED_RECOGNITION]` | Specify the individual preference customized recognition | "[specify value]" |
+| `[EFFECT_OUTCOME_INFLUENCE_ASSESSMENT]` | Specify the effect outcome influence assessment | "[specify value]" |
+| `[OFFICIAL_STRUCTURED_SYSTEMATIC_PROGRAMS]` | Specify the official structured systematic programs | "[specify value]" |
+| `[SPONTANEOUS_CASUAL_PEER_APPRECIATION]` | Specify the spontaneous casual peer appreciation | "[specify value]" |
+| `[PERSONAL_ACHIEVEMENT_CONTRIBUTION_ACKNOWLEDGMENT]` | Specify the personal achievement contribution acknowledgment | "[specify value]" |
+| `[GROUP_COLLABORATION_COLLECTIVE_SUCCESS]` | Specify the group collaboration collective success | "[specify value]" |
+| `[VISIBLE_SHARED_CELEBRATED_ACKNOWLEDGMENT]` | Specify the visible shared celebrated acknowledgment | "[specify value]" |
+| `[PERSONAL_INTIMATE_CONFIDENTIAL_APPRECIATION]` | Specify the personal intimate confidential appreciation | "[specify value]" |
+| `[FINANCIAL_BONUS_INCENTIVE_REWARD]` | Specify the financial bonus incentive reward | "[specify value]" |
+| `[APPRECIATION_SYMBOL_EXPERIENCE_GIFT]` | Specify the appreciation symbol experience gift | "[specify value]" |
+| `[PERFORMANCE_BEHAVIOR_INNOVATION_COLLABORATION]` | Specify the performance behavior innovation collaboration | "[specify value]" |
+| `[IDENTIFICATION_SELECTION_EVALUATION_PROCEDURE]` | Specify the identification selection evaluation procedure | "[specify value]" |
+| `[STANDARD_MEASUREMENT_ASSESSMENT_GUIDELINE]` | Specify the standard measurement assessment guideline | "[specify value]" |
+| `[TIER_SCALE_MAGNITUDE_SIGNIFICANCE]` | Specify the tier scale magnitude significance | "[specify value]" |
+| `[CEREMONY_COMMUNICATION_DELIVERY_APPROACH]` | Specify the ceremony communication delivery approach | "[specify value]" |
+| `[DOCUMENTATION_SHARING_REINFORCEMENT_CONTINUATION]` | Specify the documentation sharing reinforcement continuation | "[specify value]" |
+| `[IMPROVEMENT_ADAPTATION_ENHANCEMENT_DEVELOPMENT]` | Specify the improvement adaptation enhancement development | "[specify value]" |
+| `[MEASUREMENT_EVALUATION_EFFECTIVENESS_ASSESSMENT]` | Specify the measurement evaluation effectiveness assessment | "[specify value]" |
+| `[COLLEAGUE_IDENTIFICATION_APPRECIATION_SYSTEM]` | Specify the colleague identification appreciation system | "[specify value]" |
+| `[IMMEDIATE_SPONTANEOUS_MOMENT_ACKNOWLEDGMENT]` | Specify the immediate spontaneous moment acknowledgment | "[specify value]" |
+| `[GROUP_ACKNOWLEDGMENT_COLLECTIVE_GRATITUDE]` | Specify the group acknowledgment collective gratitude | "[specify value]" |
+| `[INTER_UNIT_COLLABORATION_APPRECIATION]` | Specify the inter unit collaboration appreciation | "[specify value]" |
+| `[CREATIVITY_IMPROVEMENT_IDEA_ACKNOWLEDGMENT]` | Specify the creativity improvement idea acknowledgment | "[specify value]" |
+| `[BEHAVIOR_PRINCIPLE_EMBODIMENT_RECOGNITION]` | Specify the behavior principle embodiment recognition | "[specify value]" |
+| `[ACHIEVEMENT_ANNIVERSARY_PROGRESS_ACKNOWLEDGMENT]` | Specify the achievement anniversary progress acknowledgment | "[specify value]" |
+| `[SUCCESS_EXAMPLE_INSPIRATION_NARRATIVE_DISTRIBUTION]` | Specify the success example inspiration narrative distribution | "[specify value]" |
+| `[SENIOR_LEADER_ACKNOWLEDGMENT_GRATITUDE]` | Specify the senior leader acknowledgment gratitude | "[specify value]" |
+| `[SUPERVISOR_FEEDBACK_APPRECIATION_COMMUNICATION]` | Specify the supervisor feedback appreciation communication | "[specify value]" |
+| `[HIGHER_AUTHORITY_ACKNOWLEDGMENT_VALIDATION]` | Specify the higher authority acknowledgment validation | "[specify value]" |
+| `[VISIBLE_SHARED_CELEBRATED_APPRECIATION]` | Specify the visible shared celebrated appreciation | "[specify value]" |
+| `[DIRECT_INDIVIDUAL_PRIVATE_RECOGNITION]` | Specify the direct individual private recognition | "[specify value]" |
+| `[GROWTH_ADVANCEMENT_INVESTMENT_RECOGNITION]` | Specify the growth advancement investment recognition | "[specify value]" |
+| `[TRUST_CONFIDENCE_CAPABILITY_DEMONSTRATION]` | Specify the trust confidence capability demonstration | "[specify value]" |
+| `[EXPERTISE_GUIDANCE_SHARING_OPPORTUNITY]` | Specify the expertise guidance sharing opportunity | "[specify value]" |
+| `[ENTERPRISE_LEVEL_PRESTIGIOUS_RECOGNITION]` | Specify the enterprise level prestigious recognition | "[specify value]" |
+| `[YEARLY_ACHIEVEMENT_MILESTONE_CEREMONY]` | Specify the yearly achievement milestone ceremony | "[specify value]" |
+| `[PUBLICATION_SHARING_VISIBILITY_RECOGNITION]` | Specify the publication sharing visibility recognition | "[specify value]" |
+| `[DIGITAL_PLATFORM_APPRECIATION_SHOWCASE]` | Specify the digital platform appreciation showcase | "[specify value]" |
+| `[EXTERNAL_STAKEHOLDER_APPRECIATION_SHARING]` | Specify the external stakeholder appreciation sharing | "[specify value]" |
+| `[EXTERNAL_COMPETITION_AWARD_SUBMISSION]` | Specify the external competition award submission | "[specify value]" |
+| `[PUBLIC_RELATIONS_VISIBILITY_ACKNOWLEDGMENT]` | Specify the public relations visibility acknowledgment | "[specify value]" |
+| `[FORMER_EMPLOYEE_CONTINUED_CONNECTION_RECOGNITION]` | Specify the former employee continued connection recognition | "[specify value]" |
+| `[SIMPLE_UNDERSTANDABLE_ACTIONABLE_CONTENT]` | Specify the simple understandable actionable content | "[specify value]" |
+| `[TARGETED_PERSONALIZED_MEANINGFUL_COMMUNICATION]` | Specify the targeted personalized meaningful communication | "[specify value]" |
+| `[MEDIUM_SELECTION_OPTIMIZATION_UTILIZATION]` | Specify the medium selection optimization utilization | "[specify value]" |
+| `[REGULAR_APPROPRIATE_NON_OVERWHELMING_TIMING]` | Specify the regular appropriate non overwhelming timing | "[specify value]" |
+| `[TWO_WAY_RESPONSIVE_ADAPTIVE_DIALOGUE]` | Specify the two way responsive adaptive dialogue | "[specify value]" |
+| `[ALIGNED_UNIFIED_COORDINATED_MESSAGING]` | Specify the aligned unified coordinated messaging | "[specify value]" |
+| `[VALUE_BEHAVIOR_NORM_CONSISTENT_COMMUNICATION]` | Specify the value behavior norm consistent communication | "[specify value]" |
+| `[EFFECTIVENESS_REACH_ENGAGEMENT_ASSESSMENT]` | Specify the effectiveness reach engagement assessment | "[specify value]" |
+| `[OFFICIAL_STRUCTURED_SYSTEMATIC_COMMUNICATION]` | Specify the official structured systematic communication | "[specify value]" |
+| `[CASUAL_SPONTANEOUS_PERSONAL_INTERACTION]` | Specify the casual spontaneous personal interaction | "[specify value]" |
+| `[TECHNOLOGY_ENABLED_ONLINE_VIRTUAL_COMMUNICATION]` | Specify the technology enabled online virtual communication | "[specify value]" |
+| `[IN_PERSON_DIRECT_PERSONAL_INTERACTION]` | Specify the in person direct personal interaction | "[specify value]" |
+| `[DOCUMENT_EMAIL_MESSAGE_CORRESPONDENCE]` | Specify the document email message correspondence | "john.smith@example.com" |
+| `[PRESENTATION_INFOGRAPHIC_VIDEO_MATERIAL]` | Specify the presentation infographic video material | "[specify value]" |
+| `[DISCUSSION_DIALOGUE_EXCHANGE_PLATFORM]` | Specify the discussion dialogue exchange platform | "[specify value]" |
+| `[INPUT_COLLECTION_RESPONSE_MECHANISM]` | Specify the input collection response mechanism | "[specify value]" |
+| `[FUTURE_DIRECTION_ASPIRATION_COMMUNICATION]` | Specify the future direction aspiration communication | "[specify value]" |
+| `[PLAN_OBJECTIVE_PRIORITY_SHARING]` | Specify the plan objective priority sharing | "Increase efficiency by 30%" |
+| `[PROGRESS_RESULT_ACHIEVEMENT_REPORTING]` | Specify the progress result achievement reporting | "[specify value]" |
+| `[TRANSFORMATION_ADAPTATION_EVOLUTION_DISCUSSION]` | Specify the transformation adaptation evolution discussion | "[specify value]" |
+| `[APPRECIATION_ACKNOWLEDGMENT_CELEBRATION_COMMUNICATION]` | Specify the appreciation acknowledgment celebration communication | "[specify value]" |
+| `[CHALLENGE_ISSUE_CONCERN_DISCUSSION]` | Specify the challenge issue concern discussion | "[specify value]" |
+| `[PRINCIPLE_BELIEF_STANDARD_EMPHASIS]` | Specify the principle belief standard emphasis | "[specify value]" |
+| `[BEHAVIOR_DEMONSTRATION_EXAMPLE_SETTING]` | Specify the behavior demonstration example setting | "[specify value]" |
+| `[DEVELOPMENT_IMPROVEMENT_LEARNING_FOCUS]` | Specify the development improvement learning focus | "[specify value]" |
+| `[REGULAR_ONGOING_FREQUENT_PRACTICE]` | Specify the regular ongoing frequent practice | "[specify value]" |
+| `[HELPFUL_SUPPORTIVE_DEVELOPMENTAL_INTENT]` | Specify the helpful supportive developmental intent | "[specify value]" |
+| `[MUTUAL_RECIPROCAL_DIALOGUE_COMMUNICATION]` | Specify the mutual reciprocal dialogue communication | "[specify value]" |
+| `[DETAILED_CLEAR_ACTIONABLE_GUIDANCE]` | Specify the detailed clear actionable guidance | "[specify value]" |
+| `[IMMEDIATE_PROMPT_RELEVANT_TIMING]` | Specify the immediate prompt relevant timing | "[specify value]" |
+| `[TRUST_RESPECT_PSYCHOLOGICAL_SAFETY]` | Specify the trust respect psychological safety | "[specify value]" |
+| `[IMPLEMENTATION_CHANGE_IMPROVEMENT_EMPHASIS]` | Specify the implementation change improvement emphasis | "[specify value]" |
+| `[SCHEDULED_CONSISTENT_STRUCTURED_CONVERSATION]` | Specify the scheduled consistent structured conversation | "[specify value]" |
+| `[MULTI_SOURCE_COMPREHENSIVE_EVALUATION]` | Specify the multi source comprehensive evaluation | "[specify value]" |
+| `[FREQUENT_BRIEF_TARGETED_ASSESSMENT]` | Specify the frequent brief targeted assessment | "[specify value]" |
+| `[DEPARTURE_INSIGHT_LEARNING_COLLECTION]` | Specify the departure insight learning collection | "[specify value]" |
+| `[GROUP_DISCUSSION_DEEP_DIVE_EXPLORATION]` | Specify the group discussion deep dive exploration | "[specify value]" |
+| `[IDEA_RECOMMENDATION_IMPROVEMENT_INPUT]` | Specify the idea recommendation improvement input | "[specify value]" |
+| `[DISCUSSION_DIALOGUE_QUESTION_PLATFORM]` | Specify the discussion dialogue question platform | "[specify value]" |
+| `[CONFIDENTIAL_SAFE_HONEST_COMMUNICATION]` | Specify the confidential safe honest communication | "[specify value]" |
+| `[DATA_PATTERN_INSIGHT_EVALUATION]` | Specify the data pattern insight evaluation | "[specify value]" |
+| `[RESPONSE_IMPROVEMENT_CHANGE_STRATEGY]` | Specify the response improvement change strategy | "[specify value]" |
+| `[UPDATE_RESPONSE_PROGRESS_SHARING]` | Specify the update response progress sharing | "2025-01-15" |
+| `[ACTION_PROGRESS_OUTCOME_MONITORING]` | Specify the action progress outcome monitoring | "[specify value]" |
+| `[ENVIRONMENT_PRACTICE_NORM_ENHANCEMENT]` | Specify the environment practice norm enhancement | "[specify value]" |
+| `[PROCESS_MECHANISM_TOOL_IMPROVEMENT]` | Specify the process mechanism tool improvement | "[specify value]" |
+| `[PROGRAM_CONTENT_METHOD_MODIFICATION]` | Specify the program content method modification | "[specify value]" |
+| `[APPRECIATION_ACKNOWLEDGMENT_PROGRAM_REFINEMENT]` | Specify the appreciation acknowledgment program refinement | "[specify value]" |
+| `[SKILL_DIVERSITY_COMPLEMENTARY_STRENGTH]` | Specify the skill diversity complementary strength | "[specify value]" |
+| `[RESPONSIBILITY_ACCOUNTABILITY_EXPECTATION_DEFINITION]` | Specify the responsibility accountability expectation definition | "10" |
+| `[OBJECTIVE_PURPOSE_DIRECTION_UNITY]` | Specify the objective purpose direction unity | "Increase efficiency by 30%" |
+| `[BEHAVIOR_INTERACTION_COMMUNICATION_STANDARD]` | Specify the behavior interaction communication standard | "[specify value]" |
+| `[TRUST_RAPPORT_CONNECTION_DEVELOPMENT]` | Specify the trust rapport connection development | "[specify value]" |
+| `[INTERACTION_EXCHANGE_DIALOGUE_FRAMEWORK]` | Specify the interaction exchange dialogue framework | "[specify value]" |
+| `[CHOICE_METHOD_AUTHORITY_PROCEDURE]` | Specify the choice method authority procedure | "[specify value]" |
+| `[DISAGREEMENT_TENSION_ISSUE_MANAGEMENT]` | Specify the disagreement tension issue management | "[specify value]" |
+| `[COMMON_GOAL_MISSION_OBJECTIVE_FOCUS]` | Specify the common goal mission objective focus | "Increase efficiency by 30%" |
+| `[RESPONSIBILITY_OWNERSHIP_COMMITMENT_EXPECTATION]` | Specify the responsibility ownership commitment expectation | "[specify value]" |
+| `[TEAM_OUTCOME_SUCCESS_OWNERSHIP]` | Specify the team outcome success ownership | "[specify value]" |
+| `[EXPERTISE_INFORMATION_INSIGHT_DISTRIBUTION]` | Specify the expertise information insight distribution | "[specify value]" |
+| `[ASSET_CAPABILITY_SUPPORT_EXCHANGE]` | Specify the asset capability support exchange | "[specify value]" |
+| `[CREATIVITY_IDEA_SOLUTION_DEVELOPMENT]` | Specify the creativity idea solution development | "[specify value]" |
+| `[CHALLENGE_ISSUE_OBSTACLE_RESOLUTION]` | Specify the challenge issue obstacle resolution | "[specify value]" |
+| `[ACHIEVEMENT_MILESTONE_ACCOMPLISHMENT_RECOGNITION]` | Specify the achievement milestone accomplishment recognition | "[specify value]" |
+| `[RELATIONSHIP_TRUST_CONNECTION_ACTIVITIES]` | Specify the relationship trust connection activities | "[specify value]" |
+| `[SKILL_BUILDING_PROCESS_IMPROVEMENT_SESSIONS]` | Specify the skill building process improvement sessions | "[specify value]" |
+| `[CHALLENGE_RESOLUTION_INNOVATION_MEETINGS]` | Specify the challenge resolution innovation meetings | "[specify value]" |
+| `[GOAL_OBJECTIVE_DIRECTION_DEVELOPMENT]` | Specify the goal objective direction development | "Increase efficiency by 30%" |
+| `[KNOWLEDGE_SKILL_CAPABILITY_DEVELOPMENT]` | Specify the knowledge skill capability development | "[specify value]" |
+| `[RELATIONSHIP_CULTURE_CONNECTION_EVENTS]` | Specify the relationship culture connection events | "[specify value]" |
+| `[APPRECIATION_ACKNOWLEDGMENT_CELEBRATION_GATHERINGS]` | Specify the appreciation acknowledgment celebration gatherings | "[specify value]" |
+| `[REVIEW_LEARNING_IMPROVEMENT_DISCUSSION]` | Specify the review learning improvement discussion | "[specify value]" |
+| `[COMMON_BELONGING_CONNECTION_SENSE]` | Specify the common belonging connection sense | "[specify value]" |
+| `[UNIFIED_MISSION_GOAL_DIRECTION]` | Specify the unified mission goal direction | "Increase efficiency by 30%" |
+| `[ASSISTANCE_HELP_CARE_PROVISION]` | Specify the assistance help care provision | "[specify value]" |
+| `[LEARNING_EXPERTISE_WISDOM_SHARING]` | Specify the learning expertise wisdom sharing | "[specify value]" |
+| `[CREATIVITY_EXPERIMENTATION_IMPROVEMENT_CULTURE]` | Specify the creativity experimentation improvement culture | "[specify value]" |
+| `[RELATIONSHIP_FRIENDSHIP_CONNECTION_NETWORK]` | Specify the relationship friendship connection network | "[specify value]" |
+| `[CAREER_DEVELOPMENT_ADVANCEMENT_SUPPORT]` | Specify the career development advancement support | "[specify value]" |
+| `[PRINCIPLE_BELIEF_STANDARD_ALIGNMENT]` | Specify the principle belief standard alignment | "[specify value]" |
+| `[HOBBY_PASSION_AFFINITY_GATHERING]` | Specify the hobby passion affinity gathering | "[specify value]" |
+| `[CAREER_SKILL_INDUSTRY_CONNECTION]` | Specify the career skill industry connection | "Technology" |
+| `[SERVICE_CONTRIBUTION_GIVING_OPPORTUNITY]` | Specify the service contribution giving opportunity | "[specify value]" |
+| `[EDUCATION_DEVELOPMENT_KNOWLEDGE_SHARING]` | Specify the education development knowledge sharing | "[specify value]" |
+| `[CREATIVITY_EXPERIMENTATION_PROJECT_SPACE]` | Specify the creativity experimentation project space | "[specify value]" |
+| `[HEALTH_FITNESS_WELL_BEING_SUPPORT]` | Specify the health fitness well being support | "[specify value]" |
+| `[INCLUSION_REPRESENTATION_SUPPORT_COMMUNITY]` | Specify the inclusion representation support community | "[specify value]" |
+| `[EVENT_ACTIVITY_CELEBRATION_ORGANIZATION]` | Specify the event activity celebration organization | "[specify value]" |
+| `[VALUE_BEHAVIOR_NORM_CONSISTENCY_MEASUREMENT]` | Specify the value behavior norm consistency measurement | "[specify value]" |
+| `[INVOLVEMENT_COMMITMENT_SATISFACTION_LEVEL]` | Specify the involvement commitment satisfaction level | "[specify value]" |
+| `[TRUST_SUPPORT_COMMUNICATION_QUALITY]` | Specify the trust support communication quality | "[specify value]" |
+| `[CLARITY_FREQUENCY_EFFECTIVENESS_ASSESSMENT]` | Specify the clarity frequency effectiveness assessment | "[specify value]" |
+| `[APPRECIATION_ACKNOWLEDGMENT_PROGRAM_EFFECTIVENESS]` | Specify the appreciation acknowledgment program effectiveness | "[specify value]" |
+| `[COOPERATION_COORDINATION_SYNERGY_MEASUREMENT]` | Specify the cooperation coordination synergy measurement | "[specify value]" |
+| `[CREATIVITY_RISK_TAKING_LEARNING_INDICATORS]` | Specify the creativity risk taking learning indicators | "[specify value]" |
+| `[EXCELLENCE_ACCOUNTABILITY_ACHIEVEMENT_STANDARDS]` | Specify the excellence accountability achievement standards | "10" |
+| `[COMPREHENSIVE_PERIODIC_ASSESSMENT_EVALUATION]` | Specify the comprehensive periodic assessment evaluation | "[specify value]" |
+| `[INVOLVEMENT_COMMITMENT_SATISFACTION_MEASUREMENT]` | Specify the involvement commitment satisfaction measurement | "[specify value]" |
+| `[MULTI_SOURCE_FEEDBACK_EVALUATION]` | Specify the multi source feedback evaluation | "[specify value]" |
+| `[DISCUSSION_DIALOGUE_INSIGHT_COLLECTION]` | Specify the discussion dialogue insight collection | "[specify value]" |
+| `[BEHAVIOR_INTERACTION_PRACTICE_ANALYSIS]` | Specify the behavior interaction practice analysis | "[specify value]" |
+| `[DEPARTURE_REASON_EXPERIENCE_INSIGHT]` | Specify the departure reason experience insight | "[specify value]" |
+| `[RETENTION_SATISFACTION_MOTIVATION_UNDERSTANDING]` | Specify the retention satisfaction motivation understanding | "[specify value]" |
+| `[PATTERN_DIRECTION_CHANGE_EVALUATION]` | Specify the pattern direction change evaluation | "[specify value]" |
+| `[STANDARD_BEST_PRACTICE_REFERENCE]` | Specify the standard best practice reference | "[specify value]" |
+| `[RELATIONSHIP_CONNECTION_INFLUENCE_ASSESSMENT]` | Specify the relationship connection influence assessment | "[specify value]" |
+| `[GROUP_DEMOGRAPHIC_ROLE_COMPARISON]` | Specify the group demographic role comparison | "[specify value]" |
+| `[SHORTFALL_OPPORTUNITY_IMPROVEMENT_AREA]` | Specify the shortfall opportunity improvement area | "[specify value]" |
+| `[UNDERLYING_FACTOR_ISSUE_INVESTIGATION]` | Specify the underlying factor issue investigation | "[specify value]" |
+| `[EFFECT_OUTCOME_CONSEQUENCE_EVALUATION]` | Specify the effect outcome consequence evaluation | "[specify value]" |
+| `[FUTURE_TREND_RISK_OPPORTUNITY_PROJECTION]` | Specify the future trend risk opportunity projection | "[specify value]" |
+| `[CRITICAL_IMPORTANT_URGENT_FOCUS]` | Specify the critical important urgent focus | "[specify value]" |
+| `[OBJECTIVE_TARGET_OUTCOME_DEFINITION]` | Specify the objective target outcome definition | "Increase efficiency by 30%" |
+| `[APPROACH_METHOD_TACTIC_DESIGN]` | Specify the approach method tactic design | "[specify value]" |
+| `[BUDGET_PERSONNEL_TIME_INVESTMENT]` | Specify the budget personnel time investment | "$500,000" |
+| `[SCHEDULE_MILESTONE_DEADLINE_FRAMEWORK]` | Specify the schedule milestone deadline framework | "[specify value]" |
+| `[OWNERSHIP_ACCOUNTABILITY_ROLE_DEFINITION]` | Specify the ownership accountability role definition | "10" |
+| `[THREAT_OBSTACLE_MITIGATION_PLANNING]` | Specify the threat obstacle mitigation planning | "[specify value]" |
+| `[INDICATOR_METRIC_EVALUATION_METHOD]` | Specify the indicator metric evaluation method | "[specify value]" |
+| `[PLANNING_EXECUTION_MONITORING_CONTROL]` | Specify the planning execution monitoring control | "[specify value]" |
+| `[TRANSITION_ADAPTATION_TRANSFORMATION_SUPPORT]` | Specify the transition adaptation transformation support | "[specify value]" |
+| `[AWARENESS_UPDATE_ENGAGEMENT_STRATEGY]` | Specify the awareness update engagement strategy | "2025-01-15" |
+| `[SKILL_KNOWLEDGE_CAPABILITY_DEVELOPMENT]` | Specify the skill knowledge capability development | "[specify value]" |
+| `[ASSISTANCE_RESOURCE_HELP_AVAILABILITY]` | Specify the assistance resource help availability | "[specify value]" |
+| `[TRACKING_ASSESSMENT_EVALUATION_PROCESS]` | Specify the tracking assessment evaluation process | "[specify value]" |
+| `[COURSE_CORRECTION_MODIFICATION_FLEXIBILITY]` | Specify the course correction modification flexibility | "[specify value]" |
+| `[ACHIEVEMENT_MILESTONE_RECOGNITION_ACKNOWLEDGMENT]` | Specify the achievement milestone recognition acknowledgment | "[specify value]" |
 
 
 

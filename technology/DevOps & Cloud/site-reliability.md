@@ -3,7 +3,8 @@ title: Site Reliability Engineering Template
 category: technology/DevOps & Cloud
 tags: [communication, design, documentation, management, strategy, technology, template]
 use_cases:
-  - Implementing implement comprehensive sre practices including slo/sli definition, error budget...
+  - Creating implement comprehensive sre practices including slo/sli definition, error budgets, incident management, monitoring, alerting, and reliability engineering for production systems.
+
   - Project planning and execution
   - Strategy development
 related_templates:
@@ -21,88 +22,88 @@ Implement comprehensive SRE practices including SLO/SLI definition, error budget
 ## Template Structure
 
 ### SRE Overview
-- **Service Name**: {service_name}
-- **Service Type**: {service_type}
-- **Business Criticality**: {business_criticality}
-- **User Base**: {user_base}
-- **Traffic Pattern**: {traffic_pattern}
-- **Reliability Requirements**: {reliability_requirements}
-- **Team Structure**: {sre_team_structure}
-- **Responsibilities**: {sre_responsibilities}
-- **Tools and Technologies**: {sre_tools}
-- **Budget**: {sre_budget}
+- **Service Name**: [SERVICE_NAME]
+- **Service Type**: [SERVICE_TYPE]
+- **Business Criticality**: [BUSINESS_CRITICALITY]
+- **User Base**: [USER_BASE]
+- **Traffic Pattern**: [TRAFFIC_PATTERN]
+- **Reliability Requirements**: [RELIABILITY_REQUIREMENTS]
+- **Team Structure**: [SRE_TEAM_STRUCTURE]
+- **Responsibilities**: [SRE_RESPONSIBILITIES]
+- **Tools and Technologies**: [SRE_TOOLS]
+- **Budget**: [SRE_BUDGET]
 
 ### Service Level Objectives
-- **SLI Definitions**: {sli_definitions}
-- **SLO Targets**: {slo_targets}
-- **Measurement Methods**: {measurement_methods}
-- **Data Sources**: {data_sources}
-- **Calculation Logic**: {calculation_logic}
-- **Reporting Period**: {reporting_period}
-- **SLO Review Process**: {slo_review_process}
-- **Stakeholder Agreement**: {stakeholder_agreement}
-- **SLO Documentation**: {slo_documentation}
-- **Communication Plan**: {slo_communication}
+- **SLI Definitions**: [SLI_DEFINITIONS]
+- **SLO Targets**: [SLO_TARGETS]
+- **Measurement Methods**: [MEASUREMENT_METHODS]
+- **Data Sources**: [DATA_SOURCES]
+- **Calculation Logic**: [CALCULATION_LOGIC]
+- **Reporting Period**: [REPORTING_PERIOD]
+- **SLO Review Process**: [SLO_REVIEW_PROCESS]
+- **Stakeholder Agreement**: [STAKEHOLDER_AGREEMENT]
+- **SLO Documentation**: [SLO_DOCUMENTATION]
+- **Communication Plan**: [SLO_COMMUNICATION]
 
 ### Error Budget Management
-- **Error Budget Definition**: {error_budget_definition}
-- **Budget Calculation**: {budget_calculation}
-- **Burn Rate**: {burn_rate}
-- **Budget Tracking**: {budget_tracking}
-- **Budget Alerts**: {budget_alerts}
-- **Budget Policies**: {budget_policies}
-- **Escalation Triggers**: {escalation_triggers}
-- **Feature Release Gates**: {release_gates}
-- **Budget Reporting**: {budget_reporting}
-- **Recovery Actions**: {recovery_actions}
+- **Error Budget Definition**: [ERROR_BUDGET_DEFINITION]
+- **Budget Calculation**: [BUDGET_CALCULATION]
+- **Burn Rate**: [BURN_RATE]
+- **Budget Tracking**: [BUDGET_TRACKING]
+- **Budget Alerts**: [BUDGET_ALERTS]
+- **Budget Policies**: [BUDGET_POLICIES]
+- **Escalation Triggers**: [ESCALATION_TRIGGERS]
+- **Feature Release Gates**: [RELEASE_GATES]
+- **Budget Reporting**: [BUDGET_REPORTING]
+- **Recovery Actions**: [RECOVERY_ACTIONS]
 
 ### Monitoring and Observability
-- **Monitoring Strategy**: {sre_monitoring_strategy}
-- **Metrics Collection**: {sre_metrics_collection}
-- **Log Management**: {sre_log_management}
-- **Distributed Tracing**: {sre_distributed_tracing}
-- **Dashboard Design**: {sre_dashboard_design}
-- **Alerting Strategy**: {sre_alerting_strategy}
-- **On-Call Management**: {oncall_management}
-- **Runbook Creation**: {runbook_creation}
-- **Playbook Development**: {playbook_development}
-- **Tool Integration**: {sre_tool_integration}
+- **Monitoring Strategy**: [SRE_MONITORING_STRATEGY]
+- **Metrics Collection**: [SRE_METRICS_COLLECTION]
+- **Log Management**: [SRE_LOG_MANAGEMENT]
+- **Distributed Tracing**: [SRE_DISTRIBUTED_TRACING]
+- **Dashboard Design**: [SRE_DASHBOARD_DESIGN]
+- **Alerting Strategy**: [SRE_ALERTING_STRATEGY]
+- **On-Call Management**: [ONCALL_MANAGEMENT]
+- **Runbook Creation**: [RUNBOOK_CREATION]
+- **Playbook Development**: [PLAYBOOK_DEVELOPMENT]
+- **Tool Integration**: [SRE_TOOL_INTEGRATION]
 
 ### Incident Management
-- **Incident Classification**: {incident_classification}
-- **Response Procedures**: {response_procedures}
-- **Escalation Matrix**: {escalation_matrix}
-- **Communication Plan**: {incident_communication}
-- **Status Page Management**: {status_page}
-- **Postmortem Process**: {postmortem_process}
-- **Action Item Tracking**: {action_item_tracking}
-- **Lessons Learned**: {lessons_learned}
-- **Process Improvement**: {incident_process_improvement}
-- **Training Requirements**: {incident_training}
+- **Incident Classification**: [INCIDENT_CLASSIFICATION]
+- **Response Procedures**: [RESPONSE_PROCEDURES]
+- **Escalation Matrix**: [ESCALATION_MATRIX]
+- **Communication Plan**: [INCIDENT_COMMUNICATION]
+- **Status Page Management**: [STATUS_PAGE]
+- **Postmortem Process**: [POSTMORTEM_PROCESS]
+- **Action Item Tracking**: [ACTION_ITEM_TRACKING]
+- **Lessons Learned**: [LESSONS_LEARNED]
+- **Process Improvement**: [INCIDENT_PROCESS_IMPROVEMENT]
+- **Training Requirements**: [INCIDENT_TRAINING]
 
 ### Capacity Planning
-- **Capacity Modeling**: {capacity_modeling}
-- **Growth Projections**: {growth_projections}
-- **Resource Planning**: {resource_planning}
-- **Performance Testing**: {sre_performance_testing}
-- **Load Testing**: {sre_load_testing}
-- **Stress Testing**: {sre_stress_testing}
-- **Capacity Monitoring**: {capacity_monitoring}
-- **Scaling Policies**: {sre_scaling_policies}
-- **Cost Optimization**: {sre_cost_optimization}
-- **Procurement Planning**: {procurement_planning}
+- **Capacity Modeling**: [CAPACITY_MODELING]
+- **Growth Projections**: [GROWTH_PROJECTIONS]
+- **Resource Planning**: [RESOURCE_PLANNING]
+- **Performance Testing**: [SRE_PERFORMANCE_TESTING]
+- **Load Testing**: [SRE_LOAD_TESTING]
+- **Stress Testing**: [SRE_STRESS_TESTING]
+- **Capacity Monitoring**: [CAPACITY_MONITORING]
+- **Scaling Policies**: [SRE_SCALING_POLICIES]
+- **Cost Optimization**: [SRE_COST_OPTIMIZATION]
+- **Procurement Planning**: [PROCUREMENT_PLANNING]
 
 ### Reliability Engineering
-- **Reliability Principles**: {reliability_principles}
-- **Fault Tolerance**: {fault_tolerance}
-- **Circuit Breakers**: {sre_circuit_breakers}
-- **Retry Logic**: {sre_retry_logic}
-- **Graceful Degradation**: {graceful_degradation}
-- **Chaos Engineering**: {chaos_engineering}
-- **Disaster Recovery**: {sre_disaster_recovery}
-- **Backup Strategy**: {sre_backup_strategy}
-- **Testing Strategy**: {sre_testing_strategy}
-- **Release Engineering**: {release_engineering}
+- **Reliability Principles**: [RELIABILITY_PRINCIPLES]
+- **Fault Tolerance**: [FAULT_TOLERANCE]
+- **Circuit Breakers**: [SRE_CIRCUIT_BREAKERS]
+- **Retry Logic**: [SRE_RETRY_LOGIC]
+- **Graceful Degradation**: [GRACEFUL_DEGRADATION]
+- **Chaos Engineering**: [CHAOS_ENGINEERING]
+- **Disaster Recovery**: [SRE_DISASTER_RECOVERY]
+- **Backup Strategy**: [SRE_BACKUP_STRATEGY]
+- **Testing Strategy**: [SRE_TESTING_STRATEGY]
+- **Release Engineering**: [RELEASE_ENGINEERING]
 
 Please provide detailed SLO definitions, monitoring setups, incident procedures, and reliability practices.
 
@@ -145,76 +146,76 @@ Error Budget Management:
 
 | Variable | Description | Example |
 |----------|-------------|----------|
-| `{service_name}` | Specify the service name | "John Smith" |
-| `{service_type}` | Specify the service type | "Standard" |
-| `{business_criticality}` | Specify the business criticality | "[specify value]" |
-| `{user_base}` | Specify the user base | "[specify value]" |
-| `{traffic_pattern}` | Specify the traffic pattern | "[specify value]" |
-| `{reliability_requirements}` | Specify the reliability requirements | "[specify value]" |
-| `{sre_team_structure}` | Specify the sre team structure | "[specify value]" |
-| `{sre_responsibilities}` | Specify the sre responsibilities | "[specify value]" |
-| `{sre_tools}` | Specify the sre tools | "[specify value]" |
-| `{sre_budget}` | Specify the sre budget | "$500,000" |
-| `{sli_definitions}` | Specify the sli definitions | "[specify value]" |
-| `{slo_targets}` | Specify the slo targets | "[specify value]" |
-| `{measurement_methods}` | Specify the measurement methods | "[specify value]" |
-| `{data_sources}` | Specify the data sources | "[specify value]" |
-| `{calculation_logic}` | Specify the calculation logic | "[specify value]" |
-| `{reporting_period}` | Specify the reporting period | "[specify value]" |
-| `{slo_review_process}` | Specify the slo review process | "[specify value]" |
-| `{stakeholder_agreement}` | Specify the stakeholder agreement | "[specify value]" |
-| `{slo_documentation}` | Specify the slo documentation | "[specify value]" |
-| `{slo_communication}` | Specify the slo communication | "[specify value]" |
-| `{error_budget_definition}` | Specify the error budget definition | "$500,000" |
-| `{budget_calculation}` | Specify the budget calculation | "$500,000" |
-| `{burn_rate}` | Specify the burn rate | "[specify value]" |
-| `{budget_tracking}` | Specify the budget tracking | "$500,000" |
-| `{budget_alerts}` | Specify the budget alerts | "$500,000" |
-| `{budget_policies}` | Specify the budget policies | "$500,000" |
-| `{escalation_triggers}` | Specify the escalation triggers | "[specify value]" |
-| `{release_gates}` | Specify the release gates | "[specify value]" |
-| `{budget_reporting}` | Specify the budget reporting | "$500,000" |
-| `{recovery_actions}` | Specify the recovery actions | "[specify value]" |
-| `{sre_monitoring_strategy}` | Specify the sre monitoring strategy | "[specify value]" |
-| `{sre_metrics_collection}` | Specify the sre metrics collection | "[specify value]" |
-| `{sre_log_management}` | Specify the sre log management | "[specify value]" |
-| `{sre_distributed_tracing}` | Specify the sre distributed tracing | "[specify value]" |
-| `{sre_dashboard_design}` | Specify the sre dashboard design | "[specify value]" |
-| `{sre_alerting_strategy}` | Specify the sre alerting strategy | "[specify value]" |
-| `{oncall_management}` | Specify the oncall management | "[specify value]" |
-| `{runbook_creation}` | Specify the runbook creation | "[specify value]" |
-| `{playbook_development}` | Specify the playbook development | "[specify value]" |
-| `{sre_tool_integration}` | Specify the sre tool integration | "[specify value]" |
-| `{incident_classification}` | Specify the incident classification | "[specify value]" |
-| `{response_procedures}` | Specify the response procedures | "[specify value]" |
-| `{escalation_matrix}` | Specify the escalation matrix | "[specify value]" |
-| `{incident_communication}` | Specify the incident communication | "[specify value]" |
-| `{status_page}` | Specify the status page | "In Progress" |
-| `{postmortem_process}` | Specify the postmortem process | "[specify value]" |
-| `{action_item_tracking}` | Specify the action item tracking | "[specify value]" |
-| `{lessons_learned}` | Specify the lessons learned | "[specify value]" |
-| `{incident_process_improvement}` | Specify the incident process improvement | "[specify value]" |
-| `{incident_training}` | Specify the incident training | "[specify value]" |
-| `{capacity_modeling}` | Specify the capacity modeling | "[specify value]" |
-| `{growth_projections}` | Specify the growth projections | "[specify value]" |
-| `{resource_planning}` | Specify the resource planning | "[specify value]" |
-| `{sre_performance_testing}` | Specify the sre performance testing | "[specify value]" |
-| `{sre_load_testing}` | Specify the sre load testing | "[specify value]" |
-| `{sre_stress_testing}` | Specify the sre stress testing | "[specify value]" |
-| `{capacity_monitoring}` | Specify the capacity monitoring | "[specify value]" |
-| `{sre_scaling_policies}` | Specify the sre scaling policies | "[specify value]" |
-| `{sre_cost_optimization}` | Specify the sre cost optimization | "[specify value]" |
-| `{procurement_planning}` | Specify the procurement planning | "[specify value]" |
-| `{reliability_principles}` | Specify the reliability principles | "[specify value]" |
-| `{fault_tolerance}` | Specify the fault tolerance | "[specify value]" |
-| `{sre_circuit_breakers}` | Specify the sre circuit breakers | "[specify value]" |
-| `{sre_retry_logic}` | Specify the sre retry logic | "[specify value]" |
-| `{graceful_degradation}` | Specify the graceful degradation | "[specify value]" |
-| `{chaos_engineering}` | Specify the chaos engineering | "[specify value]" |
-| `{sre_disaster_recovery}` | Specify the sre disaster recovery | "[specify value]" |
-| `{sre_backup_strategy}` | Specify the sre backup strategy | "[specify value]" |
-| `{sre_testing_strategy}` | Specify the sre testing strategy | "[specify value]" |
-| `{release_engineering}` | Specify the release engineering | "[specify value]" |
+| `[SERVICE_NAME]` | Specify the service name | "John Smith" |
+| `[SERVICE_TYPE]` | Specify the service type | "Standard" |
+| `[BUSINESS_CRITICALITY]` | Specify the business criticality | "[specify value]" |
+| `[USER_BASE]` | Specify the user base | "[specify value]" |
+| `[TRAFFIC_PATTERN]` | Specify the traffic pattern | "[specify value]" |
+| `[RELIABILITY_REQUIREMENTS]` | Specify the reliability requirements | "[specify value]" |
+| `[SRE_TEAM_STRUCTURE]` | Specify the sre team structure | "[specify value]" |
+| `[SRE_RESPONSIBILITIES]` | Specify the sre responsibilities | "[specify value]" |
+| `[SRE_TOOLS]` | Specify the sre tools | "[specify value]" |
+| `[SRE_BUDGET]` | Specify the sre budget | "$500,000" |
+| `[SLI_DEFINITIONS]` | Specify the sli definitions | "[specify value]" |
+| `[SLO_TARGETS]` | Specify the slo targets | "[specify value]" |
+| `[MEASUREMENT_METHODS]` | Specify the measurement methods | "[specify value]" |
+| `[DATA_SOURCES]` | Specify the data sources | "[specify value]" |
+| `[CALCULATION_LOGIC]` | Specify the calculation logic | "[specify value]" |
+| `[REPORTING_PERIOD]` | Specify the reporting period | "[specify value]" |
+| `[SLO_REVIEW_PROCESS]` | Specify the slo review process | "[specify value]" |
+| `[STAKEHOLDER_AGREEMENT]` | Specify the stakeholder agreement | "[specify value]" |
+| `[SLO_DOCUMENTATION]` | Specify the slo documentation | "[specify value]" |
+| `[SLO_COMMUNICATION]` | Specify the slo communication | "[specify value]" |
+| `[ERROR_BUDGET_DEFINITION]` | Specify the error budget definition | "$500,000" |
+| `[BUDGET_CALCULATION]` | Specify the budget calculation | "$500,000" |
+| `[BURN_RATE]` | Specify the burn rate | "[specify value]" |
+| `[BUDGET_TRACKING]` | Specify the budget tracking | "$500,000" |
+| `[BUDGET_ALERTS]` | Specify the budget alerts | "$500,000" |
+| `[BUDGET_POLICIES]` | Specify the budget policies | "$500,000" |
+| `[ESCALATION_TRIGGERS]` | Specify the escalation triggers | "[specify value]" |
+| `[RELEASE_GATES]` | Specify the release gates | "[specify value]" |
+| `[BUDGET_REPORTING]` | Specify the budget reporting | "$500,000" |
+| `[RECOVERY_ACTIONS]` | Specify the recovery actions | "[specify value]" |
+| `[SRE_MONITORING_STRATEGY]` | Specify the sre monitoring strategy | "[specify value]" |
+| `[SRE_METRICS_COLLECTION]` | Specify the sre metrics collection | "[specify value]" |
+| `[SRE_LOG_MANAGEMENT]` | Specify the sre log management | "[specify value]" |
+| `[SRE_DISTRIBUTED_TRACING]` | Specify the sre distributed tracing | "[specify value]" |
+| `[SRE_DASHBOARD_DESIGN]` | Specify the sre dashboard design | "[specify value]" |
+| `[SRE_ALERTING_STRATEGY]` | Specify the sre alerting strategy | "[specify value]" |
+| `[ONCALL_MANAGEMENT]` | Specify the oncall management | "[specify value]" |
+| `[RUNBOOK_CREATION]` | Specify the runbook creation | "[specify value]" |
+| `[PLAYBOOK_DEVELOPMENT]` | Specify the playbook development | "[specify value]" |
+| `[SRE_TOOL_INTEGRATION]` | Specify the sre tool integration | "[specify value]" |
+| `[INCIDENT_CLASSIFICATION]` | Specify the incident classification | "[specify value]" |
+| `[RESPONSE_PROCEDURES]` | Specify the response procedures | "[specify value]" |
+| `[ESCALATION_MATRIX]` | Specify the escalation matrix | "[specify value]" |
+| `[INCIDENT_COMMUNICATION]` | Specify the incident communication | "[specify value]" |
+| `[STATUS_PAGE]` | Specify the status page | "In Progress" |
+| `[POSTMORTEM_PROCESS]` | Specify the postmortem process | "[specify value]" |
+| `[ACTION_ITEM_TRACKING]` | Specify the action item tracking | "[specify value]" |
+| `[LESSONS_LEARNED]` | Specify the lessons learned | "[specify value]" |
+| `[INCIDENT_PROCESS_IMPROVEMENT]` | Specify the incident process improvement | "[specify value]" |
+| `[INCIDENT_TRAINING]` | Specify the incident training | "[specify value]" |
+| `[CAPACITY_MODELING]` | Specify the capacity modeling | "[specify value]" |
+| `[GROWTH_PROJECTIONS]` | Specify the growth projections | "[specify value]" |
+| `[RESOURCE_PLANNING]` | Specify the resource planning | "[specify value]" |
+| `[SRE_PERFORMANCE_TESTING]` | Specify the sre performance testing | "[specify value]" |
+| `[SRE_LOAD_TESTING]` | Specify the sre load testing | "[specify value]" |
+| `[SRE_STRESS_TESTING]` | Specify the sre stress testing | "[specify value]" |
+| `[CAPACITY_MONITORING]` | Specify the capacity monitoring | "[specify value]" |
+| `[SRE_SCALING_POLICIES]` | Specify the sre scaling policies | "[specify value]" |
+| `[SRE_COST_OPTIMIZATION]` | Specify the sre cost optimization | "[specify value]" |
+| `[PROCUREMENT_PLANNING]` | Specify the procurement planning | "[specify value]" |
+| `[RELIABILITY_PRINCIPLES]` | Specify the reliability principles | "[specify value]" |
+| `[FAULT_TOLERANCE]` | Specify the fault tolerance | "[specify value]" |
+| `[SRE_CIRCUIT_BREAKERS]` | Specify the sre circuit breakers | "[specify value]" |
+| `[SRE_RETRY_LOGIC]` | Specify the sre retry logic | "[specify value]" |
+| `[GRACEFUL_DEGRADATION]` | Specify the graceful degradation | "[specify value]" |
+| `[CHAOS_ENGINEERING]` | Specify the chaos engineering | "[specify value]" |
+| `[SRE_DISASTER_RECOVERY]` | Specify the sre disaster recovery | "[specify value]" |
+| `[SRE_BACKUP_STRATEGY]` | Specify the sre backup strategy | "[specify value]" |
+| `[SRE_TESTING_STRATEGY]` | Specify the sre testing strategy | "[specify value]" |
+| `[RELEASE_ENGINEERING]` | Specify the release engineering | "[specify value]" |
 
 
 

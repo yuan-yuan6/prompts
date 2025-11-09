@@ -3,7 +3,8 @@ title: Data Preparation Template
 category: technology/AI & Machine Learning
 tags: [design, documentation, machine-learning, security, strategy, technology, template, testing]
 use_cases:
-  - Implementing comprehensive data preparation for machine learning including feature engineerin...
+  - Creating comprehensive data preparation for machine learning including feature engineering, data labeling, augmentation, preprocessing, and quality assurance for robust model training.
+
   - Project planning and execution
   - Strategy development
 related_templates:
@@ -21,64 +22,64 @@ Comprehensive data preparation for machine learning including feature engineerin
 ## Template Structure
 
 ### Data Overview
-- **Dataset Name**: {dataset_name}
-- **Data Source**: {data_source}
-- **Data Type**: {data_type}
-- **Data Size**: {data_size}
-- **Domain**: {data_domain}
-- **Quality Level**: {quality_level}
-- **Collection Method**: {collection_method}
-- **Update Frequency**: {update_frequency}
-- **Privacy Level**: {privacy_level}
-- **Compliance Requirements**: {compliance_requirements}
+- **Dataset Name**: [DATASET_NAME]
+- **Data Source**: [DATA_SOURCE]
+- **Data Type**: [DATA_TYPE]
+- **Data Size**: [DATA_SIZE]
+- **Domain**: [DATA_DOMAIN]
+- **Quality Level**: [QUALITY_LEVEL]
+- **Collection Method**: [COLLECTION_METHOD]
+- **Update Frequency**: [UPDATE_FREQUENCY]
+- **Privacy Level**: [PRIVACY_LEVEL]
+- **Compliance Requirements**: [COMPLIANCE_REQUIREMENTS]
 
 ### Data Collection
-- **Collection Strategy**: {collection_strategy}
-- **Data Sources**: {data_sources}
-- **Acquisition Methods**: {acquisition_methods}
-- **Sampling Strategy**: {sampling_strategy}
-- **Collection Tools**: {collection_tools}
-- **Quality Control**: {collection_quality_control}
-- **Validation Rules**: {validation_rules}
-- **Error Handling**: {collection_error_handling}
-- **Storage Format**: {storage_format}
-- **Metadata Capture**: {metadata_capture}
+- **Collection Strategy**: [COLLECTION_STRATEGY]
+- **Data Sources**: [DATA_SOURCES]
+- **Acquisition Methods**: [ACQUISITION_METHODS]
+- **Sampling Strategy**: [SAMPLING_STRATEGY]
+- **Collection Tools**: [COLLECTION_TOOLS]
+- **Quality Control**: [COLLECTION_QUALITY_CONTROL]
+- **Validation Rules**: [VALIDATION_RULES]
+- **Error Handling**: [COLLECTION_ERROR_HANDLING]
+- **Storage Format**: [STORAGE_FORMAT]
+- **Metadata Capture**: [METADATA_CAPTURE]
 
 ### Feature Engineering
-- **Feature Types**: {feature_types}
-- **Feature Creation**: {feature_creation}
-- **Feature Selection**: {feature_selection}
-- **Feature Transformation**: {feature_transformation}
-- **Encoding Methods**: {encoding_methods}
-- **Scaling Techniques**: {scaling_techniques}
-- **Dimensionality Reduction**: {dimensionality_reduction}
-- **Feature Interaction**: {feature_interaction}
-- **Temporal Features**: {temporal_features}
-- **Domain Features**: {domain_features}
+- **Feature Types**: [FEATURE_TYPES]
+- **Feature Creation**: [FEATURE_CREATION]
+- **Feature Selection**: [FEATURE_SELECTION]
+- **Feature Transformation**: [FEATURE_TRANSFORMATION]
+- **Encoding Methods**: [ENCODING_METHODS]
+- **Scaling Techniques**: [SCALING_TECHNIQUES]
+- **Dimensionality Reduction**: [DIMENSIONALITY_REDUCTION]
+- **Feature Interaction**: [FEATURE_INTERACTION]
+- **Temporal Features**: [TEMPORAL_FEATURES]
+- **Domain Features**: [DOMAIN_FEATURES]
 
 ### Data Labeling
-- **Labeling Strategy**: {labeling_strategy}
-- **Annotation Guidelines**: {annotation_guidelines}
-- **Labeling Tools**: {labeling_tools}
-- **Quality Assurance**: {labeling_qa}
-- **Inter-annotator Agreement**: {inter_annotator_agreement}
-- **Active Learning**: {active_learning}
-- **Semi-supervised Learning**: {semi_supervised_learning}
-- **Weak Supervision**: {weak_supervision}
-- **Label Noise Handling**: {label_noise_handling}
-- **Version Control**: {label_version_control}
+- **Labeling Strategy**: [LABELING_STRATEGY]
+- **Annotation Guidelines**: [ANNOTATION_GUIDELINES]
+- **Labeling Tools**: [LABELING_TOOLS]
+- **Quality Assurance**: [LABELING_QA]
+- **Inter-annotator Agreement**: [INTER_ANNOTATOR_AGREEMENT]
+- **Active Learning**: [ACTIVE_LEARNING]
+- **Semi-supervised Learning**: [SEMI_SUPERVISED_LEARNING]
+- **Weak Supervision**: [WEAK_SUPERVISION]
+- **Label Noise Handling**: [LABEL_NOISE_HANDLING]
+- **Version Control**: [LABEL_VERSION_CONTROL]
 
 ### Data Augmentation
-- **Augmentation Strategy**: {augmentation_strategy}
-- **Augmentation Techniques**: {augmentation_techniques}
-- **Synthetic Data Generation**: {synthetic_data_generation}
-- **Balance Strategy**: {balance_strategy}
-- **Augmentation Pipeline**: {augmentation_pipeline}
-- **Quality Control**: {augmentation_quality}
-- **Performance Impact**: {augmentation_impact}
-- **Domain Constraints**: {augmentation_constraints}
-- **Evaluation Methods**: {augmentation_evaluation}
-- **Tool Integration**: {augmentation_tools}
+- **Augmentation Strategy**: [AUGMENTATION_STRATEGY]
+- **Augmentation Techniques**: [AUGMENTATION_TECHNIQUES]
+- **Synthetic Data Generation**: [SYNTHETIC_DATA_GENERATION]
+- **Balance Strategy**: [BALANCE_STRATEGY]
+- **Augmentation Pipeline**: [AUGMENTATION_PIPELINE]
+- **Quality Control**: [AUGMENTATION_QUALITY]
+- **Performance Impact**: [AUGMENTATION_IMPACT]
+- **Domain Constraints**: [AUGMENTATION_CONSTRAINTS]
+- **Evaluation Methods**: [AUGMENTATION_EVALUATION]
+- **Tool Integration**: [AUGMENTATION_TOOLS]
 
 Please provide detailed preprocessing pipelines, feature engineering code, labeling workflows, and quality metrics.
 
@@ -113,56 +114,56 @@ Feature Engineering:
 
 | Variable | Description | Example |
 |----------|-------------|----------|
-| `{dataset_name}` | Specify the dataset name | "John Smith" |
-| `{data_source}` | Specify the data source | "[specify value]" |
-| `{data_type}` | Specify the data type | "Standard" |
-| `{data_size}` | Specify the data size | "[specify value]" |
-| `{data_domain}` | Specify the data domain | "[specify value]" |
-| `{quality_level}` | Specify the quality level | "[specify value]" |
-| `{collection_method}` | Specify the collection method | "[specify value]" |
-| `{update_frequency}` | Specify the update frequency | "2025-01-15" |
-| `{privacy_level}` | Specify the privacy level | "[specify value]" |
-| `{compliance_requirements}` | Specify the compliance requirements | "[specify value]" |
-| `{collection_strategy}` | Specify the collection strategy | "[specify value]" |
-| `{data_sources}` | Specify the data sources | "[specify value]" |
-| `{acquisition_methods}` | Specify the acquisition methods | "[specify value]" |
-| `{sampling_strategy}` | Specify the sampling strategy | "[specify value]" |
-| `{collection_tools}` | Specify the collection tools | "[specify value]" |
-| `{collection_quality_control}` | Specify the collection quality control | "[specify value]" |
-| `{validation_rules}` | Specify the validation rules | "[specify value]" |
-| `{collection_error_handling}` | Specify the collection error handling | "[specify value]" |
-| `{storage_format}` | Specify the storage format | "[specify value]" |
-| `{metadata_capture}` | Specify the metadata capture | "[specify value]" |
-| `{feature_types}` | Specify the feature types | "Standard" |
-| `{feature_creation}` | Specify the feature creation | "[specify value]" |
-| `{feature_selection}` | Specify the feature selection | "[specify value]" |
-| `{feature_transformation}` | Specify the feature transformation | "[specify value]" |
-| `{encoding_methods}` | Specify the encoding methods | "[specify value]" |
-| `{scaling_techniques}` | Specify the scaling techniques | "[specify value]" |
-| `{dimensionality_reduction}` | Specify the dimensionality reduction | "[specify value]" |
-| `{feature_interaction}` | Specify the feature interaction | "[specify value]" |
-| `{temporal_features}` | Specify the temporal features | "[specify value]" |
-| `{domain_features}` | Specify the domain features | "[specify value]" |
-| `{labeling_strategy}` | Specify the labeling strategy | "[specify value]" |
-| `{annotation_guidelines}` | Specify the annotation guidelines | "[specify value]" |
-| `{labeling_tools}` | Specify the labeling tools | "[specify value]" |
-| `{labeling_qa}` | Specify the labeling qa | "[specify value]" |
-| `{inter_annotator_agreement}` | Specify the inter annotator agreement | "[specify value]" |
-| `{active_learning}` | Specify the active learning | "[specify value]" |
-| `{semi_supervised_learning}` | Specify the semi supervised learning | "[specify value]" |
-| `{weak_supervision}` | Specify the weak supervision | "[specify value]" |
-| `{label_noise_handling}` | Specify the label noise handling | "[specify value]" |
-| `{label_version_control}` | Specify the label version control | "[specify value]" |
-| `{augmentation_strategy}` | Specify the augmentation strategy | "[specify value]" |
-| `{augmentation_techniques}` | Specify the augmentation techniques | "[specify value]" |
-| `{synthetic_data_generation}` | Specify the synthetic data generation | "[specify value]" |
-| `{balance_strategy}` | Specify the balance strategy | "[specify value]" |
-| `{augmentation_pipeline}` | Specify the augmentation pipeline | "[specify value]" |
-| `{augmentation_quality}` | Specify the augmentation quality | "[specify value]" |
-| `{augmentation_impact}` | Specify the augmentation impact | "[specify value]" |
-| `{augmentation_constraints}` | Specify the augmentation constraints | "[specify value]" |
-| `{augmentation_evaluation}` | Specify the augmentation evaluation | "[specify value]" |
-| `{augmentation_tools}` | Specify the augmentation tools | "[specify value]" |
+| `[DATASET_NAME]` | Specify the dataset name | "John Smith" |
+| `[DATA_SOURCE]` | Specify the data source | "[specify value]" |
+| `[DATA_TYPE]` | Specify the data type | "Standard" |
+| `[DATA_SIZE]` | Specify the data size | "[specify value]" |
+| `[DATA_DOMAIN]` | Specify the data domain | "[specify value]" |
+| `[QUALITY_LEVEL]` | Specify the quality level | "[specify value]" |
+| `[COLLECTION_METHOD]` | Specify the collection method | "[specify value]" |
+| `[UPDATE_FREQUENCY]` | Specify the update frequency | "2025-01-15" |
+| `[PRIVACY_LEVEL]` | Specify the privacy level | "[specify value]" |
+| `[COMPLIANCE_REQUIREMENTS]` | Specify the compliance requirements | "[specify value]" |
+| `[COLLECTION_STRATEGY]` | Specify the collection strategy | "[specify value]" |
+| `[DATA_SOURCES]` | Specify the data sources | "[specify value]" |
+| `[ACQUISITION_METHODS]` | Specify the acquisition methods | "[specify value]" |
+| `[SAMPLING_STRATEGY]` | Specify the sampling strategy | "[specify value]" |
+| `[COLLECTION_TOOLS]` | Specify the collection tools | "[specify value]" |
+| `[COLLECTION_QUALITY_CONTROL]` | Specify the collection quality control | "[specify value]" |
+| `[VALIDATION_RULES]` | Specify the validation rules | "[specify value]" |
+| `[COLLECTION_ERROR_HANDLING]` | Specify the collection error handling | "[specify value]" |
+| `[STORAGE_FORMAT]` | Specify the storage format | "[specify value]" |
+| `[METADATA_CAPTURE]` | Specify the metadata capture | "[specify value]" |
+| `[FEATURE_TYPES]` | Specify the feature types | "Standard" |
+| `[FEATURE_CREATION]` | Specify the feature creation | "[specify value]" |
+| `[FEATURE_SELECTION]` | Specify the feature selection | "[specify value]" |
+| `[FEATURE_TRANSFORMATION]` | Specify the feature transformation | "[specify value]" |
+| `[ENCODING_METHODS]` | Specify the encoding methods | "[specify value]" |
+| `[SCALING_TECHNIQUES]` | Specify the scaling techniques | "[specify value]" |
+| `[DIMENSIONALITY_REDUCTION]` | Specify the dimensionality reduction | "[specify value]" |
+| `[FEATURE_INTERACTION]` | Specify the feature interaction | "[specify value]" |
+| `[TEMPORAL_FEATURES]` | Specify the temporal features | "[specify value]" |
+| `[DOMAIN_FEATURES]` | Specify the domain features | "[specify value]" |
+| `[LABELING_STRATEGY]` | Specify the labeling strategy | "[specify value]" |
+| `[ANNOTATION_GUIDELINES]` | Specify the annotation guidelines | "[specify value]" |
+| `[LABELING_TOOLS]` | Specify the labeling tools | "[specify value]" |
+| `[LABELING_QA]` | Specify the labeling qa | "[specify value]" |
+| `[INTER_ANNOTATOR_AGREEMENT]` | Specify the inter annotator agreement | "[specify value]" |
+| `[ACTIVE_LEARNING]` | Specify the active learning | "[specify value]" |
+| `[SEMI_SUPERVISED_LEARNING]` | Specify the semi supervised learning | "[specify value]" |
+| `[WEAK_SUPERVISION]` | Specify the weak supervision | "[specify value]" |
+| `[LABEL_NOISE_HANDLING]` | Specify the label noise handling | "[specify value]" |
+| `[LABEL_VERSION_CONTROL]` | Specify the label version control | "[specify value]" |
+| `[AUGMENTATION_STRATEGY]` | Specify the augmentation strategy | "[specify value]" |
+| `[AUGMENTATION_TECHNIQUES]` | Specify the augmentation techniques | "[specify value]" |
+| `[SYNTHETIC_DATA_GENERATION]` | Specify the synthetic data generation | "[specify value]" |
+| `[BALANCE_STRATEGY]` | Specify the balance strategy | "[specify value]" |
+| `[AUGMENTATION_PIPELINE]` | Specify the augmentation pipeline | "[specify value]" |
+| `[AUGMENTATION_QUALITY]` | Specify the augmentation quality | "[specify value]" |
+| `[AUGMENTATION_IMPACT]` | Specify the augmentation impact | "[specify value]" |
+| `[AUGMENTATION_CONSTRAINTS]` | Specify the augmentation constraints | "[specify value]" |
+| `[AUGMENTATION_EVALUATION]` | Specify the augmentation evaluation | "[specify value]" |
+| `[AUGMENTATION_TOOLS]` | Specify the augmentation tools | "[specify value]" |
 
 
 

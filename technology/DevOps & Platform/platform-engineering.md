@@ -3,7 +3,8 @@ title: Platform Engineering & Developer Experience Framework
 category: technology/DevOps & Platform
 tags: [automation, design, development, documentation, framework, management, security, strategy]
 use_cases:
-  - Implementing comprehensive framework for building and managing internal developer platforms, ...
+  - Creating comprehensive framework for building and managing internal developer platforms, self-service infrastructure, golden paths, developer productivity tools, and platform-as-a-product approaches.
+
   - Project planning and execution
   - Strategy development
 related_templates:

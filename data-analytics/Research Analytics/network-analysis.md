@@ -3,7 +3,8 @@ title: Network Analysis and Graphs Template
 category: data-analytics/Research Analytics
 tags: [data-analytics, data-science, design, machine-learning, research, template]
 use_cases:
-  - Implementing perform comprehensive network analysis and graph analytics to understand relatio...
+  - Creating perform comprehensive network analysis and graph analytics to understand relationships, identify communities, analyze social structures, and extract insights from interconnected data using advanced graph theory and network science methods.
+
   - Project planning and execution
   - Strategy development
 related_templates:
@@ -129,7 +130,7 @@ class NetworkPreprocessor:
         if remove_self_loops:
             num_self_loops = nx.number_of_selfloops(G)
             G.remove_edges_from(nx.selfloop_edges(G))
-            cleaning_log.append(f"Removed {num_self_loops} self loops")
+            cleaning_log.append(f"Removed [NUM_SELF_LOOPS] self loops")
         
         # Remove isolated nodes
         if remove_isolated:
@@ -170,7 +171,7 @@ class NetworkPreprocessor:
             for i, component in enumerate(components):
                 if len(component) >= kwargs.get('min_size', 3):
                     subG = G.subgraph(component).copy()
-                    subnetworks[f'component_{i}'] = subG
+                    subnetworks[f'component_[I]'] = subG
         
         elif method == 'k_core':
             # Extract k-core
@@ -186,7 +187,7 @@ class NetworkPreprocessor:
             for node in nodes:
                 if node in G:
                     ego_G = nx.ego_graph(G, node, radius=radius)
-                    subnetworks[f'ego_{node}'] = ego_G
+                    subnetworks[f'ego_[NODE]'] = ego_G
         
         elif method == 'attribute_based':
             # Extract subnetworks based on node attributes
@@ -198,7 +199,7 @@ class NetworkPreprocessor:
                     nodes = [n for n, d in G.nodes(data=True) if d.get(attribute) == value]
                     if len(nodes) >= kwargs.get('min_size', 3):
                         subG = G.subgraph(nodes).copy()
-                        subnetworks[f'{attribute}_{value}'] = subG
+                        subnetworks[f'[ATTRIBUTE]_[VALUE]'] = subG
         
         self.networks.update(subnetworks)
         return subnetworks
@@ -240,7 +241,7 @@ class NetworkPreprocessor:
         for i, (start_time, end_time, edges) in enumerate(time_windows):
             temp_G = nx.Graph() if not nx.is_directed(G) else nx.DiGraph()
             temp_G.add_edges_from([edge[0] for edge in edges])
-            temporal_networks[f'time_{i}'] = temp_G
+            temporal_networks[f'time_[I]'] = temp_G
         
         self.networks.update(temporal_networks)
         return temporal_networks
@@ -517,7 +518,7 @@ class CentralityAnalyzer:
         """Identify top nodes by centrality measure"""
         
         if centrality_measure not in self.centrality_scores:
-            raise ValueError(f"Centrality measure '{centrality_measure}' not calculated")
+            raise ValueError(f"Centrality measure '[CENTRALITY_MEASURE]' not calculated")
         
         scores = self.centrality_scores[centrality_measure]
         top_nodes = sorted(scores.items(), key=lambda x: x[1], reverse=True)[:top_k]
@@ -634,7 +635,7 @@ class CommunityDetector:
             louvain_communities = community_louvain.best_partition(G)
             methods['louvain'] = self._partition_to_communities(louvain_communities)
         except Exception as e:
-            print(f"    Error in Louvain: {e}")
+            print(f"    Error in Louvain: [E]")
             methods['louvain'] = []
         
         # 2. Leiden Algorithm (if available)
@@ -650,7 +651,7 @@ class CommunityDetector:
         except ImportError:
             print("    Leiden algorithm not available (install leidenalg)")
         except Exception as e:
-            print(f"    Error in Leiden: {e}")
+            print(f"    Error in Leiden: [E]")
         
         # 3. Girvan-Newman Algorithm
         print("  - Girvan-Newman algorithm")
@@ -671,7 +672,7 @@ class CommunityDetector:
                 
                 methods['girvan_newman'] = list(best_partition) if best_partition else []
             except Exception as e:
-                print(f"    Error in Girvan-Newman: {e}")
+                print(f"    Error in Girvan-Newman: [E]")
         else:
             print("    Skipping Girvan-Newman (too many nodes)")
         
@@ -681,7 +682,7 @@ class CommunityDetector:
             lp_communities = community.label_propagation_communities(G)
             methods['label_propagation'] = [list(comm) for comm in lp_communities]
         except Exception as e:
-            print(f"    Error in Label Propagation: {e}")
+            print(f"    Error in Label Propagation: [E]")
         
         # 5. Greedy Modularity Maximization
         print("  - Greedy modularity maximization")
@@ -689,14 +690,14 @@ class CommunityDetector:
             greedy_communities = community.greedy_modularity_communities(G)
             methods['greedy_modularity'] = [list(comm) for comm in greedy_communities]
         except Exception as e:
-            print(f"    Error in Greedy Modularity: {e}")
+            print(f"    Error in Greedy Modularity: [E]")
         
         # 6. Spectral Clustering
         print("  - Spectral clustering")
         try:
             methods['spectral'] = self._spectral_clustering(G, n_clusters=[NUM_COMMUNITIES])
         except Exception as e:
-            print(f"    Error in Spectral Clustering: {e}")
+            print(f"    Error in Spectral Clustering: [E]")
         
         # 7. Infomap (if available)
         try:
@@ -706,7 +707,7 @@ class CommunityDetector:
         except ImportError:
             print("    Infomap not available")
         except Exception as e:
-            print(f"    Error in Infomap: {e}")
+            print(f"    Error in Infomap: [E]")
         
         self.communities = methods
         return methods
@@ -782,7 +783,7 @@ class CommunityDetector:
             if not communities:
                 continue
                 
-            print(f"Evaluating {method} communities...")
+            print(f"Evaluating [METHOD] communities...")
             
             # Modularity
             modularity = community.modularity(G, communities)
@@ -861,7 +862,7 @@ class CommunityDetector:
             method = comparison.index[0]
         
         if method not in self.communities:
-            raise ValueError(f"Method {method} not found in detected communities")
+            raise ValueError(f"Method [METHOD] not found in detected communities")
         
         G = self.network
         communities = self.communities[method]
@@ -935,7 +936,7 @@ class CommunityDetector:
         level = 0
         
         while current_level_graphs and level < max_levels:
-            print(f"Detecting communities at level {level}")
+            print(f"Detecting communities at level [LEVEL]")
             
             next_level_graphs = []
             level_communities = []
@@ -1337,7 +1338,7 @@ class TemporalNetworkAnalyzer:
         }
         
         for t, G in enumerate(self.networks_sequence):
-            print(f"Analyzing time point {t+1}/{time_points}")
+            print(f"Analyzing time point {t+1}/[TIME_POINTS]")
             
             # Basic metrics
             metrics['num_nodes'].append(G.number_of_nodes())
@@ -1842,7 +1843,7 @@ class NetworkVisualizer:
             
             # Node info
             adjacencies = list(G.neighbors(node))
-            node_text.append(f'Node: {node}<br>Degree: {len(adjacencies)}<br>Neighbors: {", ".join(map(str, adjacencies[:5]))}')
+            node_text.append(f'Node: [NODE]<br>Degree: {len(adjacencies)}<br>Neighbors: {", ".join(map(str, adjacencies[:5]))}')
             node_colors.append(len(adjacencies))
         
         node_trace = go.Scatter(x=node_x, y=node_y,
@@ -2003,125 +2004,125 @@ Deliver comprehensive network analysis including:
 [The template includes 400+ comprehensive variables covering all aspects of network analysis, organized by category...]
 
 ### Network Data Variables
-- {NETWORK_DATA_SOURCE} - Source of network data
-- {DATA_SOURCE_TYPE} - Type of network data source
-- {NETWORK_TYPE} - Type of network (directed, weighted, etc.)
-- {NETWORK_SCALE} - Scale description of the network
-- {NODE_COUNT} - Number of nodes in the network
-- {EDGE_COUNT} - Number of edges in the network
-- {TIME_PERIOD} - Time period covered by network data
-- {NETWORK_DOMAIN} - Domain or context of the network
-- {DATA_FORMAT} - Format of the input data
-- {EDGE_ATTRIBUTES} - Attributes associated with edges
-- {NODE_ATTRIBUTES} - Attributes associated with nodes
+- [NETWORK_DATA_SOURCE] - Source of network data
+- [DATA_SOURCE_TYPE] - Type of network data source
+- [NETWORK_TYPE] - Type of network (directed, weighted, etc.)
+- [NETWORK_SCALE] - Scale description of the network
+- [NODE_COUNT] - Number of nodes in the network
+- [EDGE_COUNT] - Number of edges in the network
+- [TIME_PERIOD] - Time period covered by network data
+- [NETWORK_DOMAIN] - Domain or context of the network
+- [DATA_FORMAT] - Format of the input data
+- [EDGE_ATTRIBUTES] - Attributes associated with edges
+- [NODE_ATTRIBUTES] - Attributes associated with nodes
 
 ### Analysis Objectives Variables
-- {PRIMARY_ANALYSIS_GOAL} - Main goal of network analysis
-- {NETWORK_QUESTIONS} - Specific questions to address
-- {STRUCTURAL_PATTERNS} - Structural patterns of interest
-- {COMMUNITY_ANALYSIS} - Community analysis objectives
-- {CENTRALITY_MEASURES} - Centrality measures to calculate
-- {PATH_ANALYSIS} - Path analysis requirements
-- {TEMPORAL_ANALYSIS} - Temporal analysis objectives
-- {RESEARCH_QUESTIONS} - Research questions to investigate
-- {NETWORK_PROPERTIES} - Network properties to analyze
-- {GRAPH_ANALYTICS_METHODS} - Graph analytics methods to use
+- [PRIMARY_ANALYSIS_GOAL] - Main goal of network analysis
+- [NETWORK_QUESTIONS] - Specific questions to address
+- [STRUCTURAL_PATTERNS] - Structural patterns of interest
+- [COMMUNITY_ANALYSIS] - Community analysis objectives
+- [CENTRALITY_MEASURES] - Centrality measures to calculate
+- [PATH_ANALYSIS] - Path analysis requirements
+- [TEMPORAL_ANALYSIS] - Temporal analysis objectives
+- [RESEARCH_QUESTIONS] - Research questions to investigate
+- [NETWORK_PROPERTIES] - Network properties to analyze
+- [GRAPH_ANALYTICS_METHODS] - Graph analytics methods to use
 
 ### Network Configuration Variables
-- {DIRECTED} - Whether the network is directed
-- {WEIGHTED} - Whether the network has weighted edges
-- {REMOVE_SELF_LOOPS} - Remove self-loops from network
-- {REMOVE_ISOLATED} - Remove isolated nodes
-- {MIN_DEGREE} - Minimum degree threshold
-- {MAX_DEGREE} - Maximum degree threshold
-- {SOURCE_COLUMN} - Source node column name
-- {TARGET_COLUMN} - Target node column name
-- {WEIGHT_COLUMN} - Edge weight column name
-- {TIME_WINDOW} - Time window for temporal analysis
+- [DIRECTED] - Whether the network is directed
+- [WEIGHTED] - Whether the network has weighted edges
+- [REMOVE_SELF_LOOPS] - Remove self-loops from network
+- [REMOVE_ISOLATED] - Remove isolated nodes
+- [MIN_DEGREE] - Minimum degree threshold
+- [MAX_DEGREE] - Maximum degree threshold
+- [SOURCE_COLUMN] - Source node column name
+- [TARGET_COLUMN] - Target node column name
+- [WEIGHT_COLUMN] - Edge weight column name
+- [TIME_WINDOW] - Time window for temporal analysis
 
 ### Centrality Analysis Variables
-- {CENTRALITY_NORMALIZATION} - Normalize centrality measures
-- {BETWEENNESS_SAMPLE_SIZE} - Sample size for betweenness centrality
-- {PAGERANK_ALPHA} - Alpha parameter for PageRank
-- {KATZ_ALPHA} - Alpha parameter for Katz centrality
-- {EIGENVECTOR_MAX_ITER} - Maximum iterations for eigenvector centrality
-- {TOP_K_NODES} - Number of top nodes to identify
-- {CENTRALITY_CORRELATION_THRESHOLD} - Threshold for centrality correlations
-- {POWER_LAW_THRESHOLD} - Threshold for power law testing
-- {CONCENTRATION_RATIO} - Concentration ratio calculation
+- [CENTRALITY_NORMALIZATION] - Normalize centrality measures
+- [BETWEENNESS_SAMPLE_SIZE] - Sample size for betweenness centrality
+- [PAGERANK_ALPHA] - Alpha parameter for PageRank
+- [KATZ_ALPHA] - Alpha parameter for Katz centrality
+- [EIGENVECTOR_MAX_ITER] - Maximum iterations for eigenvector centrality
+- [TOP_K_NODES] - Number of top nodes to identify
+- [CENTRALITY_CORRELATION_THRESHOLD] - Threshold for centrality correlations
+- [POWER_LAW_THRESHOLD] - Threshold for power law testing
+- [CONCENTRATION_RATIO] - Concentration ratio calculation
 
 ### Community Detection Variables
-- {NUM_COMMUNITIES} - Target number of communities
-- {COMMUNITY_ALGORITHM} - Community detection algorithm
-- {RESOLUTION_PARAMETER} - Resolution parameter for modularity
-- {MIN_COMMUNITY_SIZE} - Minimum community size
-- {MAX_COMMUNITY_SIZE} - Maximum community size
-- {HIERARCHICAL_LEVELS} - Number of hierarchical levels
-- {COMMUNITY_QUALITY_METRIC} - Metric for community quality
-- {LEIDEN_ITERATIONS} - Iterations for Leiden algorithm
-- {MODULARITY_THRESHOLD} - Modularity threshold
+- [NUM_COMMUNITIES] - Target number of communities
+- [COMMUNITY_ALGORITHM] - Community detection algorithm
+- [RESOLUTION_PARAMETER] - Resolution parameter for modularity
+- [MIN_COMMUNITY_SIZE] - Minimum community size
+- [MAX_COMMUNITY_SIZE] - Maximum community size
+- [HIERARCHICAL_LEVELS] - Number of hierarchical levels
+- [COMMUNITY_QUALITY_METRIC] - Metric for community quality
+- [LEIDEN_ITERATIONS] - Iterations for Leiden algorithm
+- [MODULARITY_THRESHOLD] - Modularity threshold
 
 ### Path Analysis Variables
-- {SAMPLE_SIZE} - Sample size for path analysis
-- {MAX_PATH_LENGTH} - Maximum path length to consider
-- {SHORTEST_PATH_METHOD} - Method for shortest path calculation
-- {DIAMETER_APPROXIMATION} - Use approximation for diameter
-- {EFFICIENCY_CALCULATION} - Calculate efficiency measures
-- {ROBUSTNESS_ATTACK_FRACTION} - Fraction for robustness testing
-- {K_SHORTEST_PATHS} - Number of k-shortest paths
-- {PATH_WEIGHT_ATTRIBUTE} - Attribute for weighted paths
+- [SAMPLE_SIZE] - Sample size for path analysis
+- [MAX_PATH_LENGTH] - Maximum path length to consider
+- [SHORTEST_PATH_METHOD] - Method for shortest path calculation
+- [DIAMETER_APPROXIMATION] - Use approximation for diameter
+- [EFFICIENCY_CALCULATION] - Calculate efficiency measures
+- [ROBUSTNESS_ATTACK_FRACTION] - Fraction for robustness testing
+- [K_SHORTEST_PATHS] - Number of k-shortest paths
+- [PATH_WEIGHT_ATTRIBUTE] - Attribute for weighted paths
 
 ### Temporal Analysis Variables
-- {TEMPORAL_DATA} - Whether temporal data is available
-- {TEMPORAL_NETWORKS} - List of temporal network snapshots
-- {TIME_AGGREGATION} - Time aggregation method
-- {SNAPSHOT_INTERVAL} - Interval between snapshots
-- {TEMPORAL_WINDOW_SIZE} - Size of temporal windows
-- {STABILITY_THRESHOLD} - Threshold for stability analysis
-- {EVOLUTION_METRICS} - Metrics for evolution analysis
-- {LIFECYCLE_ANALYSIS} - Perform node lifecycle analysis
+- [TEMPORAL_DATA] - Whether temporal data is available
+- [TEMPORAL_NETWORKS] - List of temporal network snapshots
+- [TIME_AGGREGATION] - Time aggregation method
+- [SNAPSHOT_INTERVAL] - Interval between snapshots
+- [TEMPORAL_WINDOW_SIZE] - Size of temporal windows
+- [STABILITY_THRESHOLD] - Threshold for stability analysis
+- [EVOLUTION_METRICS] - Metrics for evolution analysis
+- [LIFECYCLE_ANALYSIS] - Perform node lifecycle analysis
 
 ### Visualization Variables
-- {LAYOUT_ALGORITHM} - Network layout algorithm
-- {NODE_SIZE_ATTRIBUTE} - Attribute for node sizing
-- {NODE_COLOR_ATTRIBUTE} - Attribute for node coloring
-- {EDGE_WIDTH_ATTRIBUTE} - Attribute for edge width
-- {INTERACTIVE_VISUALIZATION} - Create interactive plots
-- {COLOR_SCHEME} - Color scheme for visualizations
-- {FIGURE_SIZE} - Size of visualization figures
-- {LABEL_NODES} - Whether to label nodes
-- {SHOW_EDGE_LABELS} - Whether to show edge labels
+- [LAYOUT_ALGORITHM] - Network layout algorithm
+- [NODE_SIZE_ATTRIBUTE] - Attribute for node sizing
+- [NODE_COLOR_ATTRIBUTE] - Attribute for node coloring
+- [EDGE_WIDTH_ATTRIBUTE] - Attribute for edge width
+- [INTERACTIVE_VISUALIZATION] - Create interactive plots
+- [COLOR_SCHEME] - Color scheme for visualizations
+- [FIGURE_SIZE] - Size of visualization figures
+- [LABEL_NODES] - Whether to label nodes
+- [SHOW_EDGE_LABELS] - Whether to show edge labels
 
 ### Performance Variables
-- {COMPUTATION_LIMIT} - Computational limit for algorithms
-- {MEMORY_LIMIT} - Memory limit for large networks
-- {PARALLEL_PROCESSING} - Use parallel processing
-- {APPROXIMATION_METHODS} - Use approximation methods
-- {SAMPLING_STRATEGY} - Sampling strategy for large networks
-- {OPTIMIZATION_LEVEL} - Level of optimization to apply
-- {CACHE_RESULTS} - Cache intermediate results
-- {PROGRESS_REPORTING} - Report analysis progress
+- [COMPUTATION_LIMIT] - Computational limit for algorithms
+- [MEMORY_LIMIT] - Memory limit for large networks
+- [PARALLEL_PROCESSING] - Use parallel processing
+- [APPROXIMATION_METHODS] - Use approximation methods
+- [SAMPLING_STRATEGY] - Sampling strategy for large networks
+- [OPTIMIZATION_LEVEL] - Level of optimization to apply
+- [CACHE_RESULTS] - Cache intermediate results
+- [PROGRESS_REPORTING] - Report analysis progress
 
 ### Quality Metrics Variables
-- {MODULARITY_SCORE} - Network modularity score
-- {CLUSTERING_COEFFICIENT} - Average clustering coefficient
-- {SMALL_WORLD_COEFFICIENT} - Small world coefficient
-- {ASSORTATIVITY} - Degree assortativity
-- {TRANSITIVITY} - Network transitivity
-- {GLOBAL_EFFICIENCY} - Global efficiency measure
-- {LOCAL_EFFICIENCY} - Local efficiency measure
-- {RICH_CLUB_COEFFICIENT} - Rich club coefficient
+- [MODULARITY_SCORE] - Network modularity score
+- [CLUSTERING_COEFFICIENT] - Average clustering coefficient
+- [SMALL_WORLD_COEFFICIENT] - Small world coefficient
+- [ASSORTATIVITY] - Degree assortativity
+- [TRANSITIVITY] - Network transitivity
+- [GLOBAL_EFFICIENCY] - Global efficiency measure
+- [LOCAL_EFFICIENCY] - Local efficiency measure
+- [RICH_CLUB_COEFFICIENT] - Rich club coefficient
 
 ### Output Variables
-- {ANALYSIS_SUMMARY} - Summary of analysis results
-- {KEY_FINDINGS} - Key findings from analysis
-- {TOP_CENTRAL_NODES} - Most central nodes identified
-- {COMMUNITY_STRUCTURE} - Description of community structure
-- {NETWORK_STATISTICS} - Comprehensive network statistics
-- {STRUCTURAL_PROPERTIES} - Structural properties summary
-- {RECOMMENDATIONS} - Strategic recommendations
-- {VISUALIZATION_OUTPUTS} - Generated visualizations
-- {REPORT_SECTIONS} - Sections of the analysis report
+- [ANALYSIS_SUMMARY] - Summary of analysis results
+- [KEY_FINDINGS] - Key findings from analysis
+- [TOP_CENTRAL_NODES] - Most central nodes identified
+- [COMMUNITY_STRUCTURE] - Description of community structure
+- [NETWORK_STATISTICS] - Comprehensive network statistics
+- [STRUCTURAL_PROPERTIES] - Structural properties summary
+- [RECOMMENDATIONS] - Strategic recommendations
+- [VISUALIZATION_OUTPUTS] - Generated visualizations
+- [REPORT_SECTIONS] - Sections of the analysis report
 
 ## Usage Examples
 

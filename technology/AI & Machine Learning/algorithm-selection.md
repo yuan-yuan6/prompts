@@ -3,7 +3,8 @@ title: Algorithm Selection Template
 category: technology/AI & Machine Learning
 tags: [data-science, design, machine-learning, optimization, research, technology, template]
 use_cases:
-  - Implementing systematic approach to selecting optimal machine learning algorithms for classif...
+  - Creating systematic approach to selecting optimal machine learning algorithms for classification, regression, clustering, and other ml tasks based on data characteristics, business requirements, and performance constraints.
+
   - Project planning and execution
   - Strategy development
 related_templates:
@@ -21,64 +22,64 @@ Systematic approach to selecting optimal machine learning algorithms for classif
 ## Template Structure
 
 ### Problem Definition
-- **Problem Type**: {problem_type}
-- **Business Objective**: {business_objective}
-- **Success Metrics**: {success_metrics}
-- **Data Characteristics**: {data_characteristics}
-- **Performance Requirements**: {performance_requirements}
-- **Resource Constraints**: {resource_constraints}
-- **Interpretability Requirements**: {interpretability_requirements}
-- **Deployment Constraints**: {deployment_constraints}
-- **Timeline**: {selection_timeline}
-- **Budget**: {selection_budget}
+- **Problem Type**: [PROBLEM_TYPE]
+- **Business Objective**: [BUSINESS_OBJECTIVE]
+- **Success Metrics**: [SUCCESS_METRICS]
+- **Data Characteristics**: [DATA_CHARACTERISTICS]
+- **Performance Requirements**: [PERFORMANCE_REQUIREMENTS]
+- **Resource Constraints**: [RESOURCE_CONSTRAINTS]
+- **Interpretability Requirements**: [INTERPRETABILITY_REQUIREMENTS]
+- **Deployment Constraints**: [DEPLOYMENT_CONSTRAINTS]
+- **Timeline**: [SELECTION_TIMELINE]
+- **Budget**: [SELECTION_BUDGET]
 
 ### Data Analysis
-- **Dataset Size**: {dataset_size}
-- **Feature Count**: {feature_count}
-- **Data Types**: {data_types}
-- **Missing Values**: {missing_values}
-- **Noise Level**: {noise_level}
-- **Outliers**: {outliers}
-- **Class Distribution**: {class_distribution}
-- **Feature Correlation**: {feature_correlation}
-- **Dimensionality**: {dimensionality}
-- **Temporal Aspects**: {temporal_aspects}
+- **Dataset Size**: [DATASET_SIZE]
+- **Feature Count**: [FEATURE_COUNT]
+- **Data Types**: [DATA_TYPES]
+- **Missing Values**: [MISSING_VALUES]
+- **Noise Level**: [NOISE_LEVEL]
+- **Outliers**: [OUTLIERS]
+- **Class Distribution**: [CLASS_DISTRIBUTION]
+- **Feature Correlation**: [FEATURE_CORRELATION]
+- **Dimensionality**: [DIMENSIONALITY]
+- **Temporal Aspects**: [TEMPORAL_ASPECTS]
 
 ### Algorithm Categories
-- **Supervised Learning**: {supervised_algorithms}
-- **Unsupervised Learning**: {unsupervised_algorithms}
-- **Semi-supervised Learning**: {semi_supervised_algorithms}
-- **Reinforcement Learning**: {reinforcement_algorithms}
-- **Deep Learning**: {deep_learning_algorithms}
-- **Ensemble Methods**: {ensemble_methods}
-- **Online Learning**: {online_learning_algorithms}
-- **Transfer Learning**: {transfer_learning}
-- **Few-shot Learning**: {few_shot_learning}
-- **Meta Learning**: {meta_learning}
+- **Supervised Learning**: [SUPERVISED_ALGORITHMS]
+- **Unsupervised Learning**: [UNSUPERVISED_ALGORITHMS]
+- **Semi-supervised Learning**: [SEMI_SUPERVISED_ALGORITHMS]
+- **Reinforcement Learning**: [REINFORCEMENT_ALGORITHMS]
+- **Deep Learning**: [DEEP_LEARNING_ALGORITHMS]
+- **Ensemble Methods**: [ENSEMBLE_METHODS]
+- **Online Learning**: [ONLINE_LEARNING_ALGORITHMS]
+- **Transfer Learning**: [TRANSFER_LEARNING]
+- **Few-shot Learning**: [FEW_SHOT_LEARNING]
+- **Meta Learning**: [META_LEARNING]
 
 ### Selection Criteria
-- **Accuracy Requirements**: {accuracy_requirements}
-- **Training Time**: {training_time_constraints}
-- **Inference Time**: {inference_time_constraints}
-- **Memory Requirements**: {memory_requirements}
-- **Interpretability**: {interpretability_needs}
-- **Scalability**: {scalability_requirements}
-- **Robustness**: {robustness_requirements}
-- **Implementation Complexity**: {implementation_complexity}
-- **Maintenance Effort**: {maintenance_effort}
-- **Cost Constraints**: {cost_constraints}
+- **Accuracy Requirements**: [ACCURACY_REQUIREMENTS]
+- **Training Time**: [TRAINING_TIME_CONSTRAINTS]
+- **Inference Time**: [INFERENCE_TIME_CONSTRAINTS]
+- **Memory Requirements**: [MEMORY_REQUIREMENTS]
+- **Interpretability**: [INTERPRETABILITY_NEEDS]
+- **Scalability**: [SCALABILITY_REQUIREMENTS]
+- **Robustness**: [ROBUSTNESS_REQUIREMENTS]
+- **Implementation Complexity**: [IMPLEMENTATION_COMPLEXITY]
+- **Maintenance Effort**: [MAINTENANCE_EFFORT]
+- **Cost Constraints**: [COST_CONSTRAINTS]
 
 ### Evaluation Framework
-- **Evaluation Metrics**: {evaluation_metrics}
-- **Cross Validation**: {cross_validation_strategy}
-- **Train/Validation/Test Split**: {data_split_strategy}
-- **Baseline Models**: {baseline_models}
-- **Statistical Tests**: {statistical_tests}
-- **A/B Testing**: {ab_testing_strategy}
-- **Performance Benchmarks**: {performance_benchmarks}
-- **Bias Evaluation**: {bias_evaluation}
-- **Fairness Metrics**: {fairness_metrics}
-- **Robustness Testing**: {robustness_testing}
+- **Evaluation Metrics**: [EVALUATION_METRICS]
+- **Cross Validation**: [CROSS_VALIDATION_STRATEGY]
+- **Train/Validation/Test Split**: [DATA_SPLIT_STRATEGY]
+- **Baseline Models**: [BASELINE_MODELS]
+- **Statistical Tests**: [STATISTICAL_TESTS]
+- **A/B Testing**: [AB_TESTING_STRATEGY]
+- **Performance Benchmarks**: [PERFORMANCE_BENCHMARKS]
+- **Bias Evaluation**: [BIAS_EVALUATION]
+- **Fairness Metrics**: [FAIRNESS_METRICS]
+- **Robustness Testing**: [ROBUSTNESS_TESTING]
 
 Please provide detailed comparison matrices, evaluation frameworks, implementation examples, and decision trees for algorithm selection.
 
@@ -120,56 +121,56 @@ Data Analysis:
 
 | Variable | Description | Example |
 |----------|-------------|----------|
-| `{problem_type}` | Specify the problem type | "Standard" |
-| `{business_objective}` | Specify the business objective | "Increase efficiency by 30%" |
-| `{success_metrics}` | Specify the success metrics | "[specify value]" |
-| `{data_characteristics}` | Specify the data characteristics | "[specify value]" |
-| `{performance_requirements}` | Specify the performance requirements | "[specify value]" |
-| `{resource_constraints}` | Specify the resource constraints | "[specify value]" |
-| `{interpretability_requirements}` | Specify the interpretability requirements | "[specify value]" |
-| `{deployment_constraints}` | Specify the deployment constraints | "[specify value]" |
-| `{selection_timeline}` | Specify the selection timeline | "6 months" |
-| `{selection_budget}` | Specify the selection budget | "$500,000" |
-| `{dataset_size}` | Specify the dataset size | "[specify value]" |
-| `{feature_count}` | Specify the feature count | "10" |
-| `{data_types}` | Specify the data types | "Standard" |
-| `{missing_values}` | Specify the missing values | "[specify value]" |
-| `{noise_level}` | Specify the noise level | "[specify value]" |
-| `{outliers}` | Specify the outliers | "[specify value]" |
-| `{class_distribution}` | Specify the class distribution | "[specify value]" |
-| `{feature_correlation}` | Specify the feature correlation | "[specify value]" |
-| `{dimensionality}` | Specify the dimensionality | "[specify value]" |
-| `{temporal_aspects}` | Specify the temporal aspects | "[specify value]" |
-| `{supervised_algorithms}` | Specify the supervised algorithms | "[specify value]" |
-| `{unsupervised_algorithms}` | Specify the unsupervised algorithms | "[specify value]" |
-| `{semi_supervised_algorithms}` | Specify the semi supervised algorithms | "[specify value]" |
-| `{reinforcement_algorithms}` | Specify the reinforcement algorithms | "[specify value]" |
-| `{deep_learning_algorithms}` | Specify the deep learning algorithms | "[specify value]" |
-| `{ensemble_methods}` | Specify the ensemble methods | "[specify value]" |
-| `{online_learning_algorithms}` | Specify the online learning algorithms | "[specify value]" |
-| `{transfer_learning}` | Specify the transfer learning | "[specify value]" |
-| `{few_shot_learning}` | Specify the few shot learning | "[specify value]" |
-| `{meta_learning}` | Specify the meta learning | "[specify value]" |
-| `{accuracy_requirements}` | Specify the accuracy requirements | "[specify value]" |
-| `{training_time_constraints}` | Specify the training time constraints | "[specify value]" |
-| `{inference_time_constraints}` | Specify the inference time constraints | "[specify value]" |
-| `{memory_requirements}` | Specify the memory requirements | "[specify value]" |
-| `{interpretability_needs}` | Specify the interpretability needs | "[specify value]" |
-| `{scalability_requirements}` | Specify the scalability requirements | "[specify value]" |
-| `{robustness_requirements}` | Specify the robustness requirements | "[specify value]" |
-| `{implementation_complexity}` | Specify the implementation complexity | "[specify value]" |
-| `{maintenance_effort}` | Specify the maintenance effort | "[specify value]" |
-| `{cost_constraints}` | Specify the cost constraints | "[specify value]" |
-| `{evaluation_metrics}` | Specify the evaluation metrics | "[specify value]" |
-| `{cross_validation_strategy}` | Specify the cross validation strategy | "[specify value]" |
-| `{data_split_strategy}` | Specify the data split strategy | "[specify value]" |
-| `{baseline_models}` | Specify the baseline models | "[specify value]" |
-| `{statistical_tests}` | Specify the statistical tests | "[specify value]" |
-| `{ab_testing_strategy}` | Specify the ab testing strategy | "[specify value]" |
-| `{performance_benchmarks}` | Specify the performance benchmarks | "[specify value]" |
-| `{bias_evaluation}` | Specify the bias evaluation | "[specify value]" |
-| `{fairness_metrics}` | Specify the fairness metrics | "[specify value]" |
-| `{robustness_testing}` | Specify the robustness testing | "[specify value]" |
+| `[PROBLEM_TYPE]` | Specify the problem type | "Standard" |
+| `[BUSINESS_OBJECTIVE]` | Specify the business objective | "Increase efficiency by 30%" |
+| `[SUCCESS_METRICS]` | Specify the success metrics | "[specify value]" |
+| `[DATA_CHARACTERISTICS]` | Specify the data characteristics | "[specify value]" |
+| `[PERFORMANCE_REQUIREMENTS]` | Specify the performance requirements | "[specify value]" |
+| `[RESOURCE_CONSTRAINTS]` | Specify the resource constraints | "[specify value]" |
+| `[INTERPRETABILITY_REQUIREMENTS]` | Specify the interpretability requirements | "[specify value]" |
+| `[DEPLOYMENT_CONSTRAINTS]` | Specify the deployment constraints | "[specify value]" |
+| `[SELECTION_TIMELINE]` | Specify the selection timeline | "6 months" |
+| `[SELECTION_BUDGET]` | Specify the selection budget | "$500,000" |
+| `[DATASET_SIZE]` | Specify the dataset size | "[specify value]" |
+| `[FEATURE_COUNT]` | Specify the feature count | "10" |
+| `[DATA_TYPES]` | Specify the data types | "Standard" |
+| `[MISSING_VALUES]` | Specify the missing values | "[specify value]" |
+| `[NOISE_LEVEL]` | Specify the noise level | "[specify value]" |
+| `[OUTLIERS]` | Specify the outliers | "[specify value]" |
+| `[CLASS_DISTRIBUTION]` | Specify the class distribution | "[specify value]" |
+| `[FEATURE_CORRELATION]` | Specify the feature correlation | "[specify value]" |
+| `[DIMENSIONALITY]` | Specify the dimensionality | "[specify value]" |
+| `[TEMPORAL_ASPECTS]` | Specify the temporal aspects | "[specify value]" |
+| `[SUPERVISED_ALGORITHMS]` | Specify the supervised algorithms | "[specify value]" |
+| `[UNSUPERVISED_ALGORITHMS]` | Specify the unsupervised algorithms | "[specify value]" |
+| `[SEMI_SUPERVISED_ALGORITHMS]` | Specify the semi supervised algorithms | "[specify value]" |
+| `[REINFORCEMENT_ALGORITHMS]` | Specify the reinforcement algorithms | "[specify value]" |
+| `[DEEP_LEARNING_ALGORITHMS]` | Specify the deep learning algorithms | "[specify value]" |
+| `[ENSEMBLE_METHODS]` | Specify the ensemble methods | "[specify value]" |
+| `[ONLINE_LEARNING_ALGORITHMS]` | Specify the online learning algorithms | "[specify value]" |
+| `[TRANSFER_LEARNING]` | Specify the transfer learning | "[specify value]" |
+| `[FEW_SHOT_LEARNING]` | Specify the few shot learning | "[specify value]" |
+| `[META_LEARNING]` | Specify the meta learning | "[specify value]" |
+| `[ACCURACY_REQUIREMENTS]` | Specify the accuracy requirements | "[specify value]" |
+| `[TRAINING_TIME_CONSTRAINTS]` | Specify the training time constraints | "[specify value]" |
+| `[INFERENCE_TIME_CONSTRAINTS]` | Specify the inference time constraints | "[specify value]" |
+| `[MEMORY_REQUIREMENTS]` | Specify the memory requirements | "[specify value]" |
+| `[INTERPRETABILITY_NEEDS]` | Specify the interpretability needs | "[specify value]" |
+| `[SCALABILITY_REQUIREMENTS]` | Specify the scalability requirements | "[specify value]" |
+| `[ROBUSTNESS_REQUIREMENTS]` | Specify the robustness requirements | "[specify value]" |
+| `[IMPLEMENTATION_COMPLEXITY]` | Specify the implementation complexity | "[specify value]" |
+| `[MAINTENANCE_EFFORT]` | Specify the maintenance effort | "[specify value]" |
+| `[COST_CONSTRAINTS]` | Specify the cost constraints | "[specify value]" |
+| `[EVALUATION_METRICS]` | Specify the evaluation metrics | "[specify value]" |
+| `[CROSS_VALIDATION_STRATEGY]` | Specify the cross validation strategy | "[specify value]" |
+| `[DATA_SPLIT_STRATEGY]` | Specify the data split strategy | "[specify value]" |
+| `[BASELINE_MODELS]` | Specify the baseline models | "[specify value]" |
+| `[STATISTICAL_TESTS]` | Specify the statistical tests | "[specify value]" |
+| `[AB_TESTING_STRATEGY]` | Specify the ab testing strategy | "[specify value]" |
+| `[PERFORMANCE_BENCHMARKS]` | Specify the performance benchmarks | "[specify value]" |
+| `[BIAS_EVALUATION]` | Specify the bias evaluation | "[specify value]" |
+| `[FAIRNESS_METRICS]` | Specify the fairness metrics | "[specify value]" |
+| `[ROBUSTNESS_TESTING]` | Specify the robustness testing | "[specify value]" |
 
 
 

@@ -3,7 +3,8 @@ title: Article Writing Template
 category: creative/Content Creation
 tags: [communication, creative, design, documentation, optimization, research, strategy, template]
 use_cases:
-  - Implementing create compelling articles, blog posts, news stories, and feature pieces with en...
+  - Creating compelling articles, blog posts, news stories, and feature pieces with engaging hooks, structured content, and clear calls-to-action for various publications and platforms.
+
   - Project planning and execution
   - Strategy development
 related_templates:
@@ -20,89 +21,89 @@ Create compelling articles, blog posts, news stories, and feature pieces with en
 ## Template Structure
 
 ### Article Overview
-- **Article Title**: {article_title}
-- **Article Type**: {article_type}
-- **Topic**: {topic}
-- **Target Audience**: {target_audience}
-- **Publication**: {publication}
-- **Word Count**: {word_count}
-- **Deadline**: {article_deadline}
-- **SEO Requirements**: {seo_requirements}
-- **Content Goals**: {content_goals}
-- **Editorial Guidelines**: {editorial_guidelines}
+- **Article Title**: [ARTICLE_TITLE]
+- **Article Type**: [ARTICLE_TYPE]
+- **Topic**: [TOPIC]
+- **Target Audience**: [TARGET_AUDIENCE]
+- **Publication**: [PUBLICATION]
+- **Word Count**: [WORD_COUNT]
+- **Deadline**: [ARTICLE_DEADLINE]
+- **SEO Requirements**: [SEO_REQUIREMENTS]
+- **Content Goals**: [CONTENT_GOALS]
+- **Editorial Guidelines**: [EDITORIAL_GUIDELINES]
 
 ### Content Strategy
-- **Main Angle**: {main_angle}
-- **Key Messages**: {key_messages}
-- **Unique Value Proposition**: {unique_value_proposition}
-- **Supporting Arguments**: {supporting_arguments}
-- **Evidence Types**: {evidence_types}
-- **Expert Sources**: {expert_sources}
-- **Research Requirements**: {research_requirements}
-- **Data Sources**: {data_sources}
-- **Fact-Checking**: {fact_checking}
-- **Citation Style**: {citation_style}
+- **Main Angle**: [MAIN_ANGLE]
+- **Key Messages**: [KEY_MESSAGES]
+- **Unique Value Proposition**: [UNIQUE_VALUE_PROPOSITION]
+- **Supporting Arguments**: [SUPPORTING_ARGUMENTS]
+- **Evidence Types**: [EVIDENCE_TYPES]
+- **Expert Sources**: [EXPERT_SOURCES]
+- **Research Requirements**: [RESEARCH_REQUIREMENTS]
+- **Data Sources**: [DATA_SOURCES]
+- **Fact-Checking**: [FACT_CHECKING]
+- **Citation Style**: [CITATION_STYLE]
 
 ### Structure and Format
-- **Article Structure**: {article_structure}
-- **Hook Type**: {hook_type}
-- **Introduction Style**: {introduction_style}
-- **Body Organization**: {body_organization}
-- **Conclusion Style**: {conclusion_style}
-- **Call-to-Action**: {call_to_action}
-- **Subheadings**: {subheadings}
-- **Bullet Points**: {bullet_points}
-- **Visual Elements**: {visual_elements}
-- **Formatting Style**: {formatting_style}
+- **Article Structure**: [ARTICLE_STRUCTURE]
+- **Hook Type**: [HOOK_TYPE]
+- **Introduction Style**: [INTRODUCTION_STYLE]
+- **Body Organization**: [BODY_ORGANIZATION]
+- **Conclusion Style**: [CONCLUSION_STYLE]
+- **Call-to-Action**: [CALL_TO_ACTION]
+- **Subheadings**: [SUBHEADINGS]
+- **Bullet Points**: [BULLET_POINTS]
+- **Visual Elements**: [VISUAL_ELEMENTS]
+- **Formatting Style**: [FORMATTING_STYLE]
 
 ### Writing Style
-- **Tone**: {article_tone}
-- **Voice**: {article_voice}
-- **Writing Style**: {article_writing_style}
-- **Language Level**: {article_language_level}
-- **Sentence Length**: {sentence_length}
-- **Paragraph Length**: {paragraph_length}
-- **Readability Score**: {readability_score}
-- **Industry Jargon**: {industry_jargon}
-- **Humor Level**: {humor_level}
-- **Personal Experience**: {personal_experience}
+- **Tone**: [ARTICLE_TONE]
+- **Voice**: [ARTICLE_VOICE]
+- **Writing Style**: [ARTICLE_WRITING_STYLE]
+- **Language Level**: [ARTICLE_LANGUAGE_LEVEL]
+- **Sentence Length**: [SENTENCE_LENGTH]
+- **Paragraph Length**: [PARAGRAPH_LENGTH]
+- **Readability Score**: [READABILITY_SCORE]
+- **Industry Jargon**: [INDUSTRY_JARGON]
+- **Humor Level**: [HUMOR_LEVEL]
+- **Personal Experience**: [PERSONAL_EXPERIENCE]
 
 ### SEO Optimization
-- **Primary Keywords**: {primary_keywords}
-- **Secondary Keywords**: {secondary_keywords}
-- **Long-tail Keywords**: {long_tail_keywords}
-- **Keyword Density**: {keyword_density}
-- **Meta Description**: {meta_description}
-- **Title Tag**: {title_tag}
-- **Header Tags**: {header_tags}
-- **Internal Links**: {internal_links}
-- **External Links**: {external_links}
-- **Image Alt Text**: {image_alt_text}
+- **Primary Keywords**: [PRIMARY_KEYWORDS]
+- **Secondary Keywords**: [SECONDARY_KEYWORDS]
+- **Long-tail Keywords**: [LONG_TAIL_KEYWORDS]
+- **Keyword Density**: [KEYWORD_DENSITY]
+- **Meta Description**: [META_DESCRIPTION]
+- **Title Tag**: [TITLE_TAG]
+- **Header Tags**: [HEADER_TAGS]
+- **Internal Links**: [INTERNAL_LINKS]
+- **External Links**: [EXTERNAL_LINKS]
+- **Image Alt Text**: [IMAGE_ALT_TEXT]
 
 ## Prompt Template
 
-Write {article_type} about {topic} for {target_audience} with {word_count} words for {publication}. Focus on {main_angle} with {article_tone} tone and include {key_messages}.
+Write [ARTICLE_TYPE] about [TOPIC] for [TARGET_AUDIENCE] with [WORD_COUNT] words for [PUBLICATION]. Focus on [MAIN_ANGLE] with [ARTICLE_TONE] tone and include [KEY_MESSAGES].
 
 **Content Requirements:**
-- Open with {hook_type} that captures attention immediately
-- Structure with {article_structure} and {body_organization}
-- Support arguments with {evidence_types} and {expert_sources}
-- Include {research_requirements} and verify with {fact_checking}
-- Conclude with {conclusion_style} and clear {call_to_action}
+- Open with [HOOK_TYPE] that captures attention immediately
+- Structure with [ARTICLE_STRUCTURE] and [BODY_ORGANIZATION]
+- Support arguments with [EVIDENCE_TYPES] and [EXPERT_SOURCES]
+- Include [RESEARCH_REQUIREMENTS] and verify with [FACT_CHECKING]
+- Conclude with [CONCLUSION_STYLE] and clear [CALL_TO_ACTION]
 
 **Writing Style:**
-- Maintain {article_voice} voice with {article_writing_style}
-- Use {language_level} language and {sentence_length} sentences
-- Target {readability_score} readability score
-- Include appropriate {industry_jargon} and {humor_level}
-- Incorporate {personal_experience} where relevant
+- Maintain [ARTICLE_VOICE] voice with [ARTICLE_WRITING_STYLE]
+- Use [LANGUAGE_LEVEL] language and [SENTENCE_LENGTH] sentences
+- Target [READABILITY_SCORE] readability score
+- Include appropriate [INDUSTRY_JARGON] and [HUMOR_LEVEL]
+- Incorporate [PERSONAL_EXPERIENCE] where relevant
 
 **SEO Optimization:**
-- Include {primary_keywords} naturally throughout
-- Use {secondary_keywords} in subheadings
-- Optimize {meta_description} and {title_tag}
-- Add {internal_links} and authoritative {external_links}
-- Structure with proper {header_tags}
+- Include [PRIMARY_KEYWORDS] naturally throughout
+- Use [SECONDARY_KEYWORDS] in subheadings
+- Optimize [META_DESCRIPTION] and [TITLE_TAG]
+- Add [INTERNAL_LINKS] and authoritative [EXTERNAL_LINKS]
+- Structure with proper [HEADER_TAGS]
 
 Please create engaging, well-researched article that provides value to readers while meeting publication standards and SEO requirements.
 
@@ -137,57 +138,57 @@ Writing Style:
 
 | Variable | Description | Example |
 |----------|-------------|----------|
-| `{article_title}` | Specify the article title | "[specify value]" |
-| `{article_type}` | Specify the article type | "Standard" |
-| `{topic}` | Specify the topic | "[specify value]" |
-| `{target_audience}` | Specify the target audience | "[specify value]" |
-| `{publication}` | Specify the publication | "[specify value]" |
-| `{word_count}` | Specify the word count | "10" |
-| `{article_deadline}` | Specify the article deadline | "[specify value]" |
-| `{seo_requirements}` | Specify the seo requirements | "[specify value]" |
-| `{content_goals}` | Specify the content goals | "Increase efficiency by 30%" |
-| `{editorial_guidelines}` | Specify the editorial guidelines | "[specify value]" |
-| `{main_angle}` | Specify the main angle | "[specify value]" |
-| `{key_messages}` | Specify the key messages | "[specify value]" |
-| `{unique_value_proposition}` | Specify the unique value proposition | "[specify value]" |
-| `{supporting_arguments}` | Specify the supporting arguments | "[specify value]" |
-| `{evidence_types}` | Specify the evidence types | "Standard" |
-| `{expert_sources}` | Specify the expert sources | "[specify value]" |
-| `{research_requirements}` | Specify the research requirements | "[specify value]" |
-| `{data_sources}` | Specify the data sources | "[specify value]" |
-| `{fact_checking}` | Specify the fact checking | "[specify value]" |
-| `{citation_style}` | Specify the citation style | "[specify value]" |
-| `{article_structure}` | Specify the article structure | "[specify value]" |
-| `{hook_type}` | Specify the hook type | "Standard" |
-| `{introduction_style}` | Specify the introduction style | "[specify value]" |
-| `{body_organization}` | Specify the body organization | "[specify value]" |
-| `{conclusion_style}` | Specify the conclusion style | "[specify value]" |
-| `{call_to_action}` | Specify the call to action | "[specify value]" |
-| `{subheadings}` | Specify the subheadings | "[specify value]" |
-| `{bullet_points}` | Specify the bullet points | "[specify value]" |
-| `{visual_elements}` | Specify the visual elements | "[specify value]" |
-| `{formatting_style}` | Specify the formatting style | "[specify value]" |
-| `{article_tone}` | Specify the article tone | "[specify value]" |
-| `{article_voice}` | Specify the article voice | "[specify value]" |
-| `{article_writing_style}` | Specify the article writing style | "[specify value]" |
-| `{article_language_level}` | Specify the article language level | "[specify value]" |
-| `{sentence_length}` | Specify the sentence length | "[specify value]" |
-| `{paragraph_length}` | Specify the paragraph length | "[specify value]" |
-| `{readability_score}` | Specify the readability score | "[specify value]" |
-| `{industry_jargon}` | Specify the industry jargon | "Technology" |
-| `{humor_level}` | Specify the humor level | "[specify value]" |
-| `{personal_experience}` | Specify the personal experience | "[specify value]" |
-| `{primary_keywords}` | Specify the primary keywords | "[specify value]" |
-| `{secondary_keywords}` | Specify the secondary keywords | "[specify value]" |
-| `{long_tail_keywords}` | Specify the long tail keywords | "[specify value]" |
-| `{keyword_density}` | Specify the keyword density | "[specify value]" |
-| `{meta_description}` | Specify the meta description | "[specify value]" |
-| `{title_tag}` | Specify the title tag | "[specify value]" |
-| `{header_tags}` | Specify the header tags | "[specify value]" |
-| `{internal_links}` | Specify the internal links | "https://example.com" |
-| `{external_links}` | Specify the external links | "https://example.com" |
-| `{image_alt_text}` | Specify the image alt text | "[specify value]" |
-| `{language_level}` | Specify the language level | "[specify value]" |
+| `[ARTICLE_TITLE]` | Specify the article title | "[specify value]" |
+| `[ARTICLE_TYPE]` | Specify the article type | "Standard" |
+| `[TOPIC]` | Specify the topic | "[specify value]" |
+| `[TARGET_AUDIENCE]` | Specify the target audience | "[specify value]" |
+| `[PUBLICATION]` | Specify the publication | "[specify value]" |
+| `[WORD_COUNT]` | Specify the word count | "10" |
+| `[ARTICLE_DEADLINE]` | Specify the article deadline | "[specify value]" |
+| `[SEO_REQUIREMENTS]` | Specify the seo requirements | "[specify value]" |
+| `[CONTENT_GOALS]` | Specify the content goals | "Increase efficiency by 30%" |
+| `[EDITORIAL_GUIDELINES]` | Specify the editorial guidelines | "[specify value]" |
+| `[MAIN_ANGLE]` | Specify the main angle | "[specify value]" |
+| `[KEY_MESSAGES]` | Specify the key messages | "[specify value]" |
+| `[UNIQUE_VALUE_PROPOSITION]` | Specify the unique value proposition | "[specify value]" |
+| `[SUPPORTING_ARGUMENTS]` | Specify the supporting arguments | "[specify value]" |
+| `[EVIDENCE_TYPES]` | Specify the evidence types | "Standard" |
+| `[EXPERT_SOURCES]` | Specify the expert sources | "[specify value]" |
+| `[RESEARCH_REQUIREMENTS]` | Specify the research requirements | "[specify value]" |
+| `[DATA_SOURCES]` | Specify the data sources | "[specify value]" |
+| `[FACT_CHECKING]` | Specify the fact checking | "[specify value]" |
+| `[CITATION_STYLE]` | Specify the citation style | "[specify value]" |
+| `[ARTICLE_STRUCTURE]` | Specify the article structure | "[specify value]" |
+| `[HOOK_TYPE]` | Specify the hook type | "Standard" |
+| `[INTRODUCTION_STYLE]` | Specify the introduction style | "[specify value]" |
+| `[BODY_ORGANIZATION]` | Specify the body organization | "[specify value]" |
+| `[CONCLUSION_STYLE]` | Specify the conclusion style | "[specify value]" |
+| `[CALL_TO_ACTION]` | Specify the call to action | "[specify value]" |
+| `[SUBHEADINGS]` | Specify the subheadings | "[specify value]" |
+| `[BULLET_POINTS]` | Specify the bullet points | "[specify value]" |
+| `[VISUAL_ELEMENTS]` | Specify the visual elements | "[specify value]" |
+| `[FORMATTING_STYLE]` | Specify the formatting style | "[specify value]" |
+| `[ARTICLE_TONE]` | Specify the article tone | "[specify value]" |
+| `[ARTICLE_VOICE]` | Specify the article voice | "[specify value]" |
+| `[ARTICLE_WRITING_STYLE]` | Specify the article writing style | "[specify value]" |
+| `[ARTICLE_LANGUAGE_LEVEL]` | Specify the article language level | "[specify value]" |
+| `[SENTENCE_LENGTH]` | Specify the sentence length | "[specify value]" |
+| `[PARAGRAPH_LENGTH]` | Specify the paragraph length | "[specify value]" |
+| `[READABILITY_SCORE]` | Specify the readability score | "[specify value]" |
+| `[INDUSTRY_JARGON]` | Specify the industry jargon | "Technology" |
+| `[HUMOR_LEVEL]` | Specify the humor level | "[specify value]" |
+| `[PERSONAL_EXPERIENCE]` | Specify the personal experience | "[specify value]" |
+| `[PRIMARY_KEYWORDS]` | Specify the primary keywords | "[specify value]" |
+| `[SECONDARY_KEYWORDS]` | Specify the secondary keywords | "[specify value]" |
+| `[LONG_TAIL_KEYWORDS]` | Specify the long tail keywords | "[specify value]" |
+| `[KEYWORD_DENSITY]` | Specify the keyword density | "[specify value]" |
+| `[META_DESCRIPTION]` | Specify the meta description | "[specify value]" |
+| `[TITLE_TAG]` | Specify the title tag | "[specify value]" |
+| `[HEADER_TAGS]` | Specify the header tags | "[specify value]" |
+| `[INTERNAL_LINKS]` | Specify the internal links | "https://example.com" |
+| `[EXTERNAL_LINKS]` | Specify the external links | "https://example.com" |
+| `[IMAGE_ALT_TEXT]` | Specify the image alt text | "[specify value]" |
+| `[LANGUAGE_LEVEL]` | Specify the language level | "[specify value]" |
 
 
 

@@ -3,7 +3,7 @@ title: Content Curation & Libraries Management Framework Generator
 category: education/Knowledge Management
 tags: [data-science, design, development, education, framework, machine-learning, management, security]
 use_cases:
-  - Implementing create comprehensive frameworks for resource collection, digital library managem...
+  - Creating comprehensive frameworks for resource collection, digital library management, content curation, knowledge repositories, and information resource organization systems for academic, corporate, and public institutions.
   - Project planning and execution
   - Strategy development
 related_templates:

@@ -3,7 +3,8 @@ title: Survey Analysis and Design Template
 category: data-analytics/Research Analytics
 tags: [data-analytics, data-science, design, development, research, strategy, template, testing]
 use_cases:
-  - Implementing design, implement, and analyze comprehensive surveys with proper sampling method...
+  - Creating design, implement, and analyze comprehensive surveys with proper sampling methodologies, questionnaire development, response analysis, and statistical validation to ensure reliable and valid research findings.
+
   - Project planning and execution
   - Strategy development
 related_templates:
@@ -310,7 +311,7 @@ def semantic_differential_scale(concept, bipolar_pairs):
         'scale_points': 7,  # Standard for semantic differential
         'bipolar_pairs': bipolar_pairs,
         'randomization': 'Randomize direction of positive pole',
-        'instructions': f'Rate {concept} on each of the following scales'
+        'instructions': f'Rate [CONCEPT] on each of the following scales'
     }
     
     return scale_structure
@@ -526,14 +527,14 @@ class SurveyDataProcessor:
         if 'test_flag' in data.columns:
             test_responses = data['test_flag'].sum()
             data = data[data['test_flag'] != 1]
-            self.cleaning_log.append(f"Removed {test_responses} test responses")
+            self.cleaning_log.append(f"Removed [TEST_RESPONSES] test responses")
         
         # 2. Remove incomplete responses
         completion_threshold = 0.75  # 75% completion required
         completion_rate = data.count(axis=1) / len(data.columns)
         incomplete = (completion_rate < completion_threshold).sum()
         data = data[completion_rate >= completion_threshold]
-        self.cleaning_log.append(f"Removed {incomplete} incomplete responses")
+        self.cleaning_log.append(f"Removed [INCOMPLETE] incomplete responses")
         
         # 3. Response time filtering
         if 'response_time' in data.columns:
@@ -547,7 +548,7 @@ class SurveyDataProcessor:
             too_slow = (data['response_time'] > slow_cutoff).sum()
             data = data[data['response_time'] <= slow_cutoff]
             
-            self.cleaning_log.append(f"Removed {too_fast} too fast and {too_slow} too slow responses")
+            self.cleaning_log.append(f"Removed [TOO_FAST] too fast and [TOO_SLOW] too slow responses")
         
         # 4. Straight-lining detection
         scale_columns = [col for col in data.columns if col.startswith('scale_')]
@@ -557,7 +558,7 @@ class SurveyDataProcessor:
             straight_line_threshold = 0.1
             straight_liners = (scale_variance < straight_line_threshold).sum()
             data = data[scale_variance >= straight_line_threshold]
-            self.cleaning_log.append(f"Removed {straight_liners} straight-line responses")
+            self.cleaning_log.append(f"Removed [STRAIGHT_LINERS] straight-line responses")
         
         # 5. Outlier detection for continuous variables
         continuous_vars = data.select_dtypes(include=[np.number]).columns
@@ -575,13 +576,13 @@ class SurveyDataProcessor:
             outliers = ((data[var] < lower_bound) | (data[var] > upper_bound)).sum()
             outlier_count += outliers
         
-        self.cleaning_log.append(f"Identified {outlier_count} outlier values across variables")
+        self.cleaning_log.append(f"Identified [OUTLIER_COUNT] outlier values across variables")
         
         # 6. Duplicate response detection
         if 'email' in data.columns:
             duplicates = data.duplicated(subset=['email']).sum()
             data = data.drop_duplicates(subset=['email'])
-            self.cleaning_log.append(f"Removed {duplicates} duplicate responses")
+            self.cleaning_log.append(f"Removed [DUPLICATES] duplicate responses")
         
         self.cleaned_data = data
         return data, self.cleaning_log
@@ -603,8 +604,8 @@ class SurveyDataProcessor:
         # Calculate scale means
         for scale_name, items in scale_groups.items():
             if len(items) > 1:  # Only create scales with multiple items
-                data[f'{scale_name}_mean'] = data[items].mean(axis=1)
-                data[f'{scale_name}_count'] = data[items].count(axis=1)
+                data[f'[SCALE_NAME]_mean'] = data[items].mean(axis=1)
+                data[f'[SCALE_NAME]_count'] = data[items].count(axis=1)
         
         # 2. Create demographic categories
         if 'age' in data.columns:
@@ -771,8 +772,8 @@ class SurveyAnalysis:
                         n = len(self.data[var].dropna())
                         se = np.sqrt(prop * (1 - prop) / n)
                         ci = stats.norm.interval(0.95, loc=prop, scale=se)
-                        stats_dict[f'{category}_ci_lower'] = ci[0]
-                        stats_dict[f'{category}_ci_upper'] = ci[1]
+                        stats_dict[f'[CATEGORY]_ci_lower'] = ci[0]
+                        stats_dict[f'[CATEGORY]_ci_upper'] = ci[1]
                 
                 results[var] = stats_dict
         
@@ -1063,7 +1064,7 @@ def create_descriptive_visualizations(results, data):
         for i, var in enumerate(continuous_vars[:4]):
             row, col = i // 2, i % 2
             data[var].hist(bins=30, ax=axes[row, col], alpha=0.7)
-            axes[row, col].set_title(f'Distribution of {var}')
+            axes[row, col].set_title(f'Distribution of [VAR]')
             axes[row, col].axvline(data[var].mean(), color='red', 
                                   linestyle='--', label=f'Mean: {data[var].mean():.2f}')
             axes[row, col].legend()
@@ -1081,7 +1082,7 @@ def create_descriptive_visualizations(results, data):
         for i, var in enumerate(categorical_vars[:n_cats]):
             value_counts = data[var].value_counts()
             value_counts.plot(kind='bar', ax=axes[i])
-            axes[i].set_title(f'Distribution of {var}')
+            axes[i].set_title(f'Distribution of [VAR]')
             axes[i].tick_params(axis='x', rotation=45)
         
         plt.tight_layout()
@@ -1221,186 +1222,186 @@ Deliver comprehensive survey analysis including:
 ## Variables
 
 ### Research Design Variables
-- {RESEARCH_PURPOSE} - Primary purpose of the survey research
-- {TARGET_POPULATION} - Population of interest for the survey
-- {RESEARCH_QUESTIONS} - List of research questions to address
-- {SURVEY_METHODOLOGY} - Overall survey methodology approach
-- {PRIMARY_OBJECTIVE} - Main research objective
-- {SECONDARY_OBJECTIVES} - Additional research objectives
-- {RESEARCH_HYPOTHESES} - Research hypotheses to test
-- {EXPECTED_OUTCOMES} - Expected findings or outcomes
-- {PRACTICAL_IMPLICATIONS} - Real-world applications of findings
-- {POPULATION_DEFINITION} - Precise definition of target population
-- {GEOGRAPHIC_SCOPE} - Geographic boundaries of the study
-- {TARGET_DEMOGRAPHICS} - Demographic characteristics of interest
-- {INCLUSION_CRITERIA} - Criteria for including participants
-- {EXCLUSION_CRITERIA} - Criteria for excluding participants
-- {POPULATION_SIZE} - Estimated size of target population
-- {POPULATION_ACCESSIBILITY} - Level of access to target population
+- [RESEARCH_PURPOSE] - Primary purpose of the survey research
+- [TARGET_POPULATION] - Population of interest for the survey
+- [RESEARCH_QUESTIONS] - List of research questions to address
+- [SURVEY_METHODOLOGY] - Overall survey methodology approach
+- [PRIMARY_OBJECTIVE] - Main research objective
+- [SECONDARY_OBJECTIVES] - Additional research objectives
+- [RESEARCH_HYPOTHESES] - Research hypotheses to test
+- [EXPECTED_OUTCOMES] - Expected findings or outcomes
+- [PRACTICAL_IMPLICATIONS] - Real-world applications of findings
+- [POPULATION_DEFINITION] - Precise definition of target population
+- [GEOGRAPHIC_SCOPE] - Geographic boundaries of the study
+- [TARGET_DEMOGRAPHICS] - Demographic characteristics of interest
+- [INCLUSION_CRITERIA] - Criteria for including participants
+- [EXCLUSION_CRITERIA] - Criteria for excluding participants
+- [POPULATION_SIZE] - Estimated size of target population
+- [POPULATION_ACCESSIBILITY] - Level of access to target population
 
 ### Sampling Variables
-- {SAMPLING_METHOD} - Primary sampling method used
-- {SAMPLING_FRAME} - List or source for sampling
-- {SAMPLING_UNITS} - Units being sampled (individuals, households, etc.)
-- {STRATIFICATION_VARS} - Variables used for stratification
-- {CLUSTER_VARS} - Variables defining clusters
-- {MULTISTAGE_DESIGN} - Multi-stage sampling design details
-- {TARGET_SAMPLE_SIZE} - Desired sample size
-- {MARGIN_OF_ERROR} - Acceptable margin of error
-- {CONFIDENCE_LEVEL} - Statistical confidence level
-- {EXPECTED_PROPORTION} - Expected response proportion for calculations
-- {EXPECTED_RESPONSE_RATE} - Anticipated response rate
-- {DESIGN_EFFECT} - Design effect due to sampling method
-- {OVERSAMPLING_FACTOR} - Factor for oversampling specific groups
-- {FINAL_SAMPLE_SIZE} - Final required sample size accounting for all factors
-- {SAMPLING_FRACTION} - Proportion of population sampled
-- {REPLACEMENT_STRATEGY} - Strategy for replacement sampling
+- [SAMPLING_METHOD] - Primary sampling method used
+- [SAMPLING_FRAME] - List or source for sampling
+- [SAMPLING_UNITS] - Units being sampled (individuals, households, etc.)
+- [STRATIFICATION_VARS] - Variables used for stratification
+- [CLUSTER_VARS] - Variables defining clusters
+- [MULTISTAGE_DESIGN] - Multi-stage sampling design details
+- [TARGET_SAMPLE_SIZE] - Desired sample size
+- [MARGIN_OF_ERROR] - Acceptable margin of error
+- [CONFIDENCE_LEVEL] - Statistical confidence level
+- [EXPECTED_PROPORTION] - Expected response proportion for calculations
+- [EXPECTED_RESPONSE_RATE] - Anticipated response rate
+- [DESIGN_EFFECT] - Design effect due to sampling method
+- [OVERSAMPLING_FACTOR] - Factor for oversampling specific groups
+- [FINAL_SAMPLE_SIZE] - Final required sample size accounting for all factors
+- [SAMPLING_FRACTION] - Proportion of population sampled
+- [REPLACEMENT_STRATEGY] - Strategy for replacement sampling
 
 ### Questionnaire Design Variables
-- {TOTAL_QUESTIONS} - Total number of questions in survey
-- {DEMOGRAPHIC_QUESTIONS} - Number of demographic questions
-- {CORE_QUESTIONS} - Number of core content questions
-- {SCREENING_QUESTIONS} - Number of screening questions
-- {OPEN_ENDED_QUESTIONS} - Number of open-ended questions
-- {SCALE_QUESTIONS} - Number of scaled response questions
-- {COMPLETION_TIME} - Estimated completion time in minutes
-- {QUESTION_TYPES} - Types of questions included
-- {SCALE_TYPE} - Types of scales used (Likert, semantic differential, etc.)
-- {RESPONSE_OPTIONS} - Response option formats
-- {SKIP_LOGIC} - Skip pattern complexity
-- {RANDOMIZATION} - Question or option randomization used
-- {COGNITIVE_TESTING} - Cognitive testing procedures performed
-- {PILOT_TESTING} - Pilot testing procedures and results
-- {QUESTION_ORDER} - Question ordering strategy
-- {VISUAL_DESIGN} - Visual design elements and layout
+- [TOTAL_QUESTIONS] - Total number of questions in survey
+- [DEMOGRAPHIC_QUESTIONS] - Number of demographic questions
+- [CORE_QUESTIONS] - Number of core content questions
+- [SCREENING_QUESTIONS] - Number of screening questions
+- [OPEN_ENDED_QUESTIONS] - Number of open-ended questions
+- [SCALE_QUESTIONS] - Number of scaled response questions
+- [COMPLETION_TIME] - Estimated completion time in minutes
+- [QUESTION_TYPES] - Types of questions included
+- [SCALE_TYPE] - Types of scales used (Likert, semantic differential, etc.)
+- [RESPONSE_OPTIONS] - Response option formats
+- [SKIP_LOGIC] - Skip pattern complexity
+- [RANDOMIZATION] - Question or option randomization used
+- [COGNITIVE_TESTING] - Cognitive testing procedures performed
+- [PILOT_TESTING] - Pilot testing procedures and results
+- [QUESTION_ORDER] - Question ordering strategy
+- [VISUAL_DESIGN] - Visual design elements and layout
 
 ### Data Collection Variables
-- {SURVEY_MODE} - Primary data collection mode
-- {MIXED_MODE_DESIGN} - Mixed-mode data collection approach
-- {CONTACT_STRATEGY} - Strategy for contacting respondents
-- {REMINDER_SCHEDULE} - Schedule for follow-up reminders
-- {INCENTIVE_STRUCTURE} - Incentive strategy used
-- {FIELD_PERIOD} - Duration of data collection period
-- {INTERVIEWER_TRAINING} - Interviewer training procedures
-- {QUALITY_CONTROL} - Quality control measures implemented
-- {RESPONSE_MONITORING} - Real-time response monitoring procedures
-- {DATA_SECURITY} - Data security and privacy measures
-- {PLATFORM_TECHNOLOGY} - Technology platform used
-- {MOBILE_OPTIMIZATION} - Mobile device optimization level
-- {ACCESSIBILITY_FEATURES} - Accessibility accommodations provided
-- {LANGUAGE_VERSIONS} - Languages in which survey is available
-- {PRETEST_RESULTS} - Results from pretesting procedures
+- [SURVEY_MODE] - Primary data collection mode
+- [MIXED_MODE_DESIGN] - Mixed-mode data collection approach
+- [CONTACT_STRATEGY] - Strategy for contacting respondents
+- [REMINDER_SCHEDULE] - Schedule for follow-up reminders
+- [INCENTIVE_STRUCTURE] - Incentive strategy used
+- [FIELD_PERIOD] - Duration of data collection period
+- [INTERVIEWER_TRAINING] - Interviewer training procedures
+- [QUALITY_CONTROL] - Quality control measures implemented
+- [RESPONSE_MONITORING] - Real-time response monitoring procedures
+- [DATA_SECURITY] - Data security and privacy measures
+- [PLATFORM_TECHNOLOGY] - Technology platform used
+- [MOBILE_OPTIMIZATION] - Mobile device optimization level
+- [ACCESSIBILITY_FEATURES] - Accessibility accommodations provided
+- [LANGUAGE_VERSIONS] - Languages in which survey is available
+- [PRETEST_RESULTS] - Results from pretesting procedures
 
 ### Response Analysis Variables
-- {TOTAL_RESPONSES} - Total number of responses received
-- {COMPLETE_RESPONSES} - Number of complete responses
-- {PARTIAL_RESPONSES} - Number of partial responses
-- {RESPONSE_RATE} - Overall response rate percentage
-- {COMPLETION_RATE} - Survey completion rate percentage
-- {DROPOUT_RATE} - Survey dropout rate percentage
-- {MEDIAN_RESPONSE_TIME} - Median time to complete survey
-- {RESPONSE_QUALITY} - Assessment of response quality
-- {STRAIGHT_LINING} - Incidence of straight-line responses
-- {ITEM_NONRESPONSE} - Item-level nonresponse rates
-- {SATISFICING_INDICATORS} - Indicators of satisficing behavior
-- {DATA_CLEANING_STEPS} - Data cleaning procedures performed
-- {OUTLIER_DETECTION} - Outlier detection and handling methods
-- {MISSING_DATA_PATTERN} - Pattern of missing data
-- {IMPUTATION_METHOD} - Missing data imputation methods used
+- [TOTAL_RESPONSES] - Total number of responses received
+- [COMPLETE_RESPONSES] - Number of complete responses
+- [PARTIAL_RESPONSES] - Number of partial responses
+- [RESPONSE_RATE] - Overall response rate percentage
+- [COMPLETION_RATE] - Survey completion rate percentage
+- [DROPOUT_RATE] - Survey dropout rate percentage
+- [MEDIAN_RESPONSE_TIME] - Median time to complete survey
+- [RESPONSE_QUALITY] - Assessment of response quality
+- [STRAIGHT_LINING] - Incidence of straight-line responses
+- [ITEM_NONRESPONSE] - Item-level nonresponse rates
+- [SATISFICING_INDICATORS] - Indicators of satisficing behavior
+- [DATA_CLEANING_STEPS] - Data cleaning procedures performed
+- [OUTLIER_DETECTION] - Outlier detection and handling methods
+- [MISSING_DATA_PATTERN] - Pattern of missing data
+- [IMPUTATION_METHOD] - Missing data imputation methods used
 
 ### Weighting Variables
-- {WEIGHTING_METHOD} - Method used for calculating weights
-- {POPULATION_BENCHMARKS} - Population benchmarks for weighting
-- {POST_STRATIFICATION} - Post-stratification variables and procedures
-- {WEIGHT_TRIMMING} - Weight trimming procedures applied
-- {CALIBRATION_VARIABLES} - Variables used for calibration weighting
-- {NONRESPONSE_ADJUSTMENT} - Nonresponse bias adjustment procedures
-- {COVERAGE_ADJUSTMENT} - Coverage bias adjustment procedures
-- {WEIGHT_DIAGNOSTICS} - Weight diagnostic measures and results
-- {EFFECTIVE_SAMPLE_SIZE} - Effective sample size after weighting
-- {DESIGN_EFFECTS_WEIGHTS} - Design effects due to weighting
-- {VARIANCE_INFLATION} - Variance inflation due to weighting
-- {WEIGHT_DISTRIBUTION} - Distribution characteristics of final weights
+- [WEIGHTING_METHOD] - Method used for calculating weights
+- [POPULATION_BENCHMARKS] - Population benchmarks for weighting
+- [POST_STRATIFICATION] - Post-stratification variables and procedures
+- [WEIGHT_TRIMMING] - Weight trimming procedures applied
+- [CALIBRATION_VARIABLES] - Variables used for calibration weighting
+- [NONRESPONSE_ADJUSTMENT] - Nonresponse bias adjustment procedures
+- [COVERAGE_ADJUSTMENT] - Coverage bias adjustment procedures
+- [WEIGHT_DIAGNOSTICS] - Weight diagnostic measures and results
+- [EFFECTIVE_SAMPLE_SIZE] - Effective sample size after weighting
+- [DESIGN_EFFECTS_WEIGHTS] - Design effects due to weighting
+- [VARIANCE_INFLATION] - Variance inflation due to weighting
+- [WEIGHT_DISTRIBUTION] - Distribution characteristics of final weights
 
 ### Statistical Analysis Variables
-- {ANALYSIS_PLAN} - Statistical analysis plan overview
-- {SIGNIFICANCE_LEVEL} - Statistical significance level used
-- {CONFIDENCE_INTERVALS} - Confidence interval levels reported
-- {EFFECT_SIZE_MEASURES} - Effect size measures calculated
-- {MULTIPLE_TESTING} - Multiple testing correction procedures
-- {COMPLEX_SAMPLE_METHODS} - Methods accounting for complex sample design
-- {VARIANCE_ESTIMATION} - Variance estimation procedures
-- {CLUSTERING_ADJUSTMENT} - Adjustments for clustering effects
-- {STRATIFICATION_EFFECTS} - Effects of stratification on estimates
-- {DESIGN_BASED_ANALYSIS} - Design-based analysis procedures
-- {MODEL_BASED_ANALYSIS} - Model-based analysis procedures
-- {SUBGROUP_ANALYSIS} - Subgroup analysis procedures
-- {TREND_ANALYSIS} - Trend analysis methods (if longitudinal)
-- {COMPARATIVE_ANALYSIS} - Comparative analysis across groups
+- [ANALYSIS_PLAN] - Statistical analysis plan overview
+- [SIGNIFICANCE_LEVEL] - Statistical significance level used
+- [CONFIDENCE_INTERVALS] - Confidence interval levels reported
+- [EFFECT_SIZE_MEASURES] - Effect size measures calculated
+- [MULTIPLE_TESTING] - Multiple testing correction procedures
+- [COMPLEX_SAMPLE_METHODS] - Methods accounting for complex sample design
+- [VARIANCE_ESTIMATION] - Variance estimation procedures
+- [CLUSTERING_ADJUSTMENT] - Adjustments for clustering effects
+- [STRATIFICATION_EFFECTS] - Effects of stratification on estimates
+- [DESIGN_BASED_ANALYSIS] - Design-based analysis procedures
+- [MODEL_BASED_ANALYSIS] - Model-based analysis procedures
+- [SUBGROUP_ANALYSIS] - Subgroup analysis procedures
+- [TREND_ANALYSIS] - Trend analysis methods (if longitudinal)
+- [COMPARATIVE_ANALYSIS] - Comparative analysis across groups
 
 ### Scale Development Variables
-- {SCALE_CONSTRUCTION} - Scale construction methodology
-- {ITEM_DEVELOPMENT} - Item development procedures
-- {SCALE_VALIDATION} - Scale validation procedures
-- {RELIABILITY_MEASURES} - Reliability measures calculated
-- {VALIDITY_EVIDENCE} - Types of validity evidence collected
-- {FACTOR_ANALYSIS} - Factor analysis procedures and results
-- {ITEM_ANALYSIS} - Item analysis procedures and results
-- {SCALE_SCORING} - Scale scoring procedures
-- {NORM_DEVELOPMENT} - Norm development procedures (if applicable)
-- {PSYCHOMETRIC_PROPERTIES} - Summary of psychometric properties
-- {SCALE_INTERPRETATION} - Guidelines for scale interpretation
-- {CUT_POINTS} - Meaningful cut points or categories
-- {RELIABILITY_COEFFICIENTS} - Specific reliability coefficients
-- {CONSTRUCT_VALIDITY} - Construct validity evidence
+- [SCALE_CONSTRUCTION] - Scale construction methodology
+- [ITEM_DEVELOPMENT] - Item development procedures
+- [SCALE_VALIDATION] - Scale validation procedures
+- [RELIABILITY_MEASURES] - Reliability measures calculated
+- [VALIDITY_EVIDENCE] - Types of validity evidence collected
+- [FACTOR_ANALYSIS] - Factor analysis procedures and results
+- [ITEM_ANALYSIS] - Item analysis procedures and results
+- [SCALE_SCORING] - Scale scoring procedures
+- [NORM_DEVELOPMENT] - Norm development procedures (if applicable)
+- [PSYCHOMETRIC_PROPERTIES] - Summary of psychometric properties
+- [SCALE_INTERPRETATION] - Guidelines for scale interpretation
+- [CUT_POINTS] - Meaningful cut points or categories
+- [RELIABILITY_COEFFICIENTS] - Specific reliability coefficients
+- [CONSTRUCT_VALIDITY] - Construct validity evidence
 
 ### Reporting Variables
-- {KEY_FINDINGS} - Summary of key research findings
-- {STATISTICAL_RESULTS} - Major statistical results
-- {PRACTICAL_SIGNIFICANCE} - Assessment of practical significance
-- {POLICY_IMPLICATIONS} - Policy implications of findings
-- {LIMITATIONS} - Study limitations and constraints
-- {BIAS_ASSESSMENT} - Assessment of potential biases
-- {GENERALIZABILITY} - Generalizability of findings
-- {RECOMMENDATIONS} - Recommendations based on findings
-- {FUTURE_RESEARCH} - Suggestions for future research
-- {METHODOLOGICAL_LESSONS} - Methodological lessons learned
-- {DATA_AVAILABILITY} - Data availability and sharing information
-- {REPLICATION_INFORMATION} - Information needed for replication
-- {SUPPLEMENTARY_MATERIALS} - Additional materials provided
-- {FUNDING_SOURCE} - Funding source and potential conflicts
+- [KEY_FINDINGS] - Summary of key research findings
+- [STATISTICAL_RESULTS] - Major statistical results
+- [PRACTICAL_SIGNIFICANCE] - Assessment of practical significance
+- [POLICY_IMPLICATIONS] - Policy implications of findings
+- [LIMITATIONS] - Study limitations and constraints
+- [BIAS_ASSESSMENT] - Assessment of potential biases
+- [GENERALIZABILITY] - Generalizability of findings
+- [RECOMMENDATIONS] - Recommendations based on findings
+- [FUTURE_RESEARCH] - Suggestions for future research
+- [METHODOLOGICAL_LESSONS] - Methodological lessons learned
+- [DATA_AVAILABILITY] - Data availability and sharing information
+- [REPLICATION_INFORMATION] - Information needed for replication
+- [SUPPLEMENTARY_MATERIALS] - Additional materials provided
+- [FUNDING_SOURCE] - Funding source and potential conflicts
 
 ### Quality Indicators
-- {DATA_QUALITY_SCORE} - Overall data quality assessment score
-- {MEASUREMENT_ERROR} - Assessment of measurement error
-- {COVERAGE_ERROR} - Assessment of coverage error
-- {NONRESPONSE_BIAS} - Assessment of nonresponse bias
-- {SAMPLING_ERROR} - Sampling error estimates
-- {TOTAL_SURVEY_ERROR} - Total survey error assessment
-- {QUALITY_INDICATORS} - Specific quality indicators monitored
-- {PARADATA_ANALYSIS} - Analysis of process data (paradata)
-- {INTERVIEWER_EFFECTS} - Assessment of interviewer effects
-- {MODE_EFFECTS} - Assessment of mode effects (if mixed-mode)
-- {QUESTION_EFFECTS} - Assessment of question wording/order effects
-- {SOCIAL_DESIRABILITY} - Assessment of social desirability bias
-- {ACQUIESCENCE_BIAS} - Assessment of acquiescence response bias
-- {EXTREME_RESPONSE_BIAS} - Assessment of extreme response bias
+- [DATA_QUALITY_SCORE] - Overall data quality assessment score
+- [MEASUREMENT_ERROR] - Assessment of measurement error
+- [COVERAGE_ERROR] - Assessment of coverage error
+- [NONRESPONSE_BIAS] - Assessment of nonresponse bias
+- [SAMPLING_ERROR] - Sampling error estimates
+- [TOTAL_SURVEY_ERROR] - Total survey error assessment
+- [QUALITY_INDICATORS] - Specific quality indicators monitored
+- [PARADATA_ANALYSIS] - Analysis of process data (paradata)
+- [INTERVIEWER_EFFECTS] - Assessment of interviewer effects
+- [MODE_EFFECTS] - Assessment of mode effects (if mixed-mode)
+- [QUESTION_EFFECTS] - Assessment of question wording/order effects
+- [SOCIAL_DESIRABILITY] - Assessment of social desirability bias
+- [ACQUIESCENCE_BIAS] - Assessment of acquiescence response bias
+- [EXTREME_RESPONSE_BIAS] - Assessment of extreme response bias
 
 ### Technical Variables
-- {SOFTWARE_USED} - Statistical software packages used
-- {PROGRAMMING_LANGUAGES} - Programming languages used for analysis
-- {VERSION_CONTROL} - Version control procedures
-- {REPRODUCIBILITY} - Reproducibility measures implemented
-- {COMPUTATIONAL_ENVIRONMENT} - Computational environment details
-- {DATA_MANAGEMENT} - Data management procedures
-- {SECURITY_MEASURES} - Data security measures implemented
-- {BACKUP_PROCEDURES} - Data backup procedures
-- {DOCUMENTATION_LEVEL} - Level of documentation provided
-- {CODE_REVIEW} - Code review procedures implemented
-- {PEER_REVIEW} - Peer review procedures implemented
-- {VALIDATION_CHECKS} - Validation checks performed
-- {ERROR_CHECKING} - Error checking procedures
-- {AUDIT_TRAIL} - Audit trail maintenance procedures
+- [SOFTWARE_USED] - Statistical software packages used
+- [PROGRAMMING_LANGUAGES] - Programming languages used for analysis
+- [VERSION_CONTROL] - Version control procedures
+- [REPRODUCIBILITY] - Reproducibility measures implemented
+- [COMPUTATIONAL_ENVIRONMENT] - Computational environment details
+- [DATA_MANAGEMENT] - Data management procedures
+- [SECURITY_MEASURES] - Data security measures implemented
+- [BACKUP_PROCEDURES] - Data backup procedures
+- [DOCUMENTATION_LEVEL] - Level of documentation provided
+- [CODE_REVIEW] - Code review procedures implemented
+- [PEER_REVIEW] - Peer review procedures implemented
+- [VALIDATION_CHECKS] - Validation checks performed
+- [ERROR_CHECKING] - Error checking procedures
+- [AUDIT_TRAIL] - Audit trail maintenance procedures
 
 ## Usage Examples
 

@@ -3,7 +3,7 @@ title: Dashboard Design Patterns Template Generator
 category: data-analytics
 tags: [data-analytics, data-science, design, development, machine-learning, optimization, security, strategy]
 use_cases:
-  - Implementing create comprehensive dashboard design strategies covering kpi visualization, dat...
+  - Creating comprehensive dashboard design strategies covering KPI visualization, data presentation patterns, user experience optimization, self-service analytics, mobile responsiveness, and real-time data integration to enable effective decision-making through intuitive and actionable business intelligence interfaces.
   - Project planning and execution
   - Strategy development
 last_updated: 2025-11-09

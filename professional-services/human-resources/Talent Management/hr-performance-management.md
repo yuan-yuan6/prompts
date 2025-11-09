@@ -3,7 +3,8 @@ title: Performance Management & Employee Development Framework
 category: professional-services/human-resources/Talent Management
 tags: [design, development, documentation, framework, management, optimization, professional-services, strategy]
 use_cases:
-  - Implementing comprehensive framework for designing and implementing performance management sy...
+  - Creating comprehensive framework for designing and implementing performance management systems, employee development programs, succession planning, talent assessment, and career progression strategies.
+
   - Project planning and execution
   - Strategy development
 related_templates:

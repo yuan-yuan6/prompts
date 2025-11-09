@@ -3,7 +3,7 @@ title: Investment Evaluation Template Generator
 category: business/Finance & Accounting
 tags: [automation, business, data-science, development, machine-learning, management, optimization, research]
 use_cases:
-  - Implementing create comprehensive investment evaluation strategies covering roi analysis, npv...
+  - Creating comprehensive investment evaluation strategies covering ROI analysis, NPV calculations, and risk assessment to support informed investment decisions and capital allocation optimization.
   - Project planning and execution
   - Strategy development
 related_templates:

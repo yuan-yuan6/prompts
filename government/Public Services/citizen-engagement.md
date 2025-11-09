@@ -3,7 +3,8 @@ title: Citizen Engagement Template
 category: government/Public Services
 tags: [design, government, strategy, template]
 use_cases:
-  - Implementing design comprehensive citizen engagement strategies, participatory governance fra...
+  - Creating design comprehensive citizen engagement strategies, participatory governance frameworks, community consultation processes, and public feedback systems that foster inclusive decision-making and strengthen democratic participation.
+
   - Project planning and execution
   - Strategy development
 related_templates:

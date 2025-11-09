@@ -3,7 +3,7 @@ title: Regulatory Submissions Template
 category: healthcare/Medical Research
 tags: [documentation, healthcare, research, security, template]
 use_cases:
-  - Implementing create comprehensive regulatory submissions including fda applications, irb prot...
+  - Creating comprehensive regulatory submissions including FDA applications, IRB protocols, compliance documents, and safety reports that meet regulatory requirements for clinical research and drug/device approval.
   - Project planning and execution
   - Strategy development
 related_templates:

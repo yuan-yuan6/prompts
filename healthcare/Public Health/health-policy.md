@@ -3,7 +3,7 @@ title: Health Policy & Advocacy Template
 category: healthcare/Public Health
 tags: [communication, data-science, design, healthcare, marketing, research, strategy, template]
 use_cases:
-  - Implementing create comprehensive health policy proposals, advocacy campaigns, legislative st...
+  - Creating comprehensive health policy proposals, advocacy campaigns, legislative strategies, and stakeholder engagement plans that advance public health priorities through policy change and systems transformation.
   - Project planning and execution
   - Strategy development
 related_templates:

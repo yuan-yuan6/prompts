@@ -3,7 +3,7 @@ title: Email Marketing Template
 category: creative/Marketing Creative
 tags: [communication, creative, data-science, design, documentation, marketing, research, strategy]
 use_cases:
-  - Implementing create comprehensive email marketing campaigns including newsletters, drip seque...
+  - Creating comprehensive email marketing campaigns including newsletters, drip sequences, and promotional emails that drive engagement, conversions, and customer retention.
   - Project planning and execution
   - Strategy development
 related_templates:

@@ -3,7 +3,8 @@ title: SWOT Analysis Strategic Assessment Framework
 category: business
 tags: [business, data-science, framework, marketing, research, strategy, testing]
 use_cases:
-  - Implementing comprehensive framework for conducting swot analysis including strengths assessm...
+  - Creating comprehensive framework for conducting swot analysis including strengths assessment, weaknesses identification, opportunities exploration, threats evaluation, and strategic action planning for competitive positioning and decision-making.
+
   - Project planning and execution
   - Strategy development
 last_updated: 2025-11-09

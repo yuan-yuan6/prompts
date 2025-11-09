@@ -3,7 +3,7 @@ title: Market Research Template Generator
 category: business/Sales & Marketing
 tags: [business, data-science, research, template]
 use_cases:
-  - Implementing create comprehensive market research strategies covering surveys, analysis, and ...
+  - Creating comprehensive market research strategies covering surveys, analysis, and insights generation to understand market dynamics, customer behavior, competitive landscape, and business opportunities.
   - Project planning and execution
   - Strategy development
 related_templates:

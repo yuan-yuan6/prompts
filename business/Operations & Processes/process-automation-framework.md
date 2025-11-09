@@ -3,7 +3,8 @@ title: Process Automation Framework & Implementation Strategy
 category: business/Operations & Processes
 tags: [automation, business, data-science, framework, marketing, optimization, research, strategy]
 use_cases:
-  - Implementing comprehensive process automation framework covering process analysis, automation...
+  - Creating comprehensive process automation framework covering process analysis, automation opportunity assessment, technology selection, implementation planning, and continuous optimization across all business functions and operational workflows.
+
   - Project planning and execution
   - Strategy development
 related_templates:

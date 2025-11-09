@@ -3,7 +3,8 @@ title: Content Strategy & Editorial Planning Framework
 category: creative/journalism/Content Production
 tags: [creative, data-science, framework, management, optimization, research, strategy]
 use_cases:
-  - Implementing comprehensive system for developing, executing, and managing content strategies ...
+  - Creating comprehensive system for developing, executing, and managing content strategies across multiple media channels, including editorial calendars, content workflows, and performance optimization.
+
   - Project planning and execution
   - Strategy development
 related_templates:

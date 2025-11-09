@@ -3,7 +3,7 @@ title: Curriculum Development Template
 category: education
 tags: [data-science, design, development, education, research, template]
 use_cases:
-  - Implementing create comprehensive curriculum development frameworks, instructional design str...
+  - Creating comprehensive curriculum development frameworks, instructional design strategies, learning pathway architectures, and educational program blueprints that align with learning objectives, industry standards, and student outcomes while incorporating modern pedagogical approaches and assessment methodologies.
   - Project planning and execution
   - Strategy development
 last_updated: 2025-11-09

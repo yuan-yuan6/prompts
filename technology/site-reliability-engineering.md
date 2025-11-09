@@ -3,7 +3,8 @@ title: Site Reliability Engineering & Observability Framework
 category: technology
 tags: [design, development, framework, management, optimization, technology, testing]
 use_cases:
-  - Implementing comprehensive framework for implementing site reliability engineering practices ...
+  - Creating comprehensive framework for implementing site reliability engineering practices including monitoring systems, alerting strategies, incident management, slo/sli definition, chaos engineering, and building resilient systems for maximum uptime and performance.
+
   - Project planning and execution
   - Strategy development
 last_updated: 2025-11-09

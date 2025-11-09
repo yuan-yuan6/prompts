@@ -3,7 +3,7 @@ title: Product Design Template
 category: creative/Design & Visual
 tags: [automation, creative, data-science, design, development, documentation, research, template]
 use_cases:
-  - Implementing create comprehensive product design documentation including concepts, specificat...
+  - Creating comprehensive product design documentation including concepts, specifications, and iterations for physical and digital products throughout the development lifecycle.
   - Project planning and execution
   - Strategy development
 related_templates:

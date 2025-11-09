@@ -3,7 +3,7 @@ title: Motion Graphics Comprehensive Template Generator
 category: creative/Design & Visual
 tags: [comprehensive, creative, design, marketing, template, testing]
 use_cases:
-  - Implementing create comprehensive motion graphics solutions covering animations, effects, tra...
+  - Creating comprehensive motion graphics solutions covering animations, effects, transitions, kinetic typography, explainer videos, and dynamic visual experiences across all platforms and applications.
   - Project planning and execution
   - Strategy development
 related_templates:

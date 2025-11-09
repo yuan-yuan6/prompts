@@ -3,7 +3,7 @@ title: Student Assessment Template Generator
 category: education/Teaching & Instruction
 tags: [communication, data-science, design, development, education, optimization, strategy, template]
 use_cases:
-  - Implementing create comprehensive student assessment strategies covering formative and summat...
+  - Creating comprehensive student assessment strategies covering formative and summative evaluation methods, rubric development, feedback systems, and performance measurement to enhance learning outcomes and provide meaningful evaluation of student progress and achievement.
   - Project planning and execution
   - Strategy development
 related_templates:
