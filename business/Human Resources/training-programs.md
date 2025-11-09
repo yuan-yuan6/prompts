@@ -1,3 +1,18 @@
+---
+title: Training Programs Template Generator
+category: business/Human Resources
+tags: [business, design, development, optimization, security, strategy, template]
+use_cases:
+  - Implementing create comprehensive training program strategies covering onboarding, skills dev...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - okr-implementation-framework.md
+  - digital-transformation-roadmap.md
+  - lean-six-sigma-implementation.md
+last_updated: 2025-11-09
+---
+
 # Training Programs Template Generator
 
 ## Purpose

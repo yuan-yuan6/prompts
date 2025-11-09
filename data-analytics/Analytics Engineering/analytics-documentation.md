@@ -1,3 +1,18 @@
+---
+title: Documentation, Lineage & Governance Template
+category: data-analytics/Analytics Engineering
+tags: [automation, data-analytics, design, documentation, machine-learning, management, security, strategy]
+use_cases:
+  - Implementing design comprehensive data governance frameworks including data lineage tracking ...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - dashboard-design-patterns.md
+  - data-governance-framework.md
+  - predictive-modeling-framework.md
+last_updated: 2025-11-09
+---
+
 # Documentation, Lineage & Governance Template
 
 ## Purpose

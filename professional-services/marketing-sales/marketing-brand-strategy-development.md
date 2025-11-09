@@ -1,3 +1,14 @@
+---
+title: Brand Strategy Development & Identity Framework
+category: professional-services/marketing-sales
+tags: [communication, data-science, design, development, framework, marketing, professional-services, research]
+use_cases:
+  - Implementing comprehensive framework for developing and implementing brand strategies includi...
+  - Project planning and execution
+  - Strategy development
+last_updated: 2025-11-09
+---
+
 # Brand Strategy Development & Identity Framework
 
 ## Purpose
@@ -55,6 +66,302 @@ Value Proposition:
 - Economic Value: [ECONOMIC_VALUE]
 - Experiential Value: [EXPERIENTIAL_VALUE]
 ```
+
+## Variables
+
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `[BRAND_NAME]` | Name of the brand | "John Smith" |
+| `[MARKET_SIZE]` | Specify the market size | "[specify value]" |
+| `[BRAND_AWARENESS]` | Specify the brand awareness | "[specify value]" |
+| `[MARKET_SHARE]` | Specify the market share | "[specify value]" |
+| `[BRAND_VALUE]` | Specify the brand value | "[specify value]" |
+| `[NPS_SCORE]` | Specify the nps score | "[specify value]" |
+| `[REVENUE_IMPACT]` | Specify the revenue impact | "[specify value]" |
+| `[AWARE_CURRENT]` | Specify the aware current | "[specify value]" |
+| `[AWARE_COMPETITOR]` | Specify the aware competitor | "[specify value]" |
+| `[AWARE_TARGET]` | Target or intended aware | "[specify value]" |
+| `[AWARE_GAP]` | Specify the aware gap | "[specify value]" |
+| `[AWARE_ACTIONS]` | Specify the aware actions | "[specify value]" |
+| `[PERCEPT_CURRENT]` | Specify the percept current | "[specify value]" |
+| `[PERCEPT_COMPETITOR]` | Specify the percept competitor | "[specify value]" |
+| `[PERCEPT_TARGET]` | Target or intended percept | "[specify value]" |
+| `[PERCEPT_GAP]` | Specify the percept gap | "[specify value]" |
+| `[PERCEPT_ACTIONS]` | Specify the percept actions | "[specify value]" |
+| `[POSITION_CURRENT]` | Specify the position current | "[specify value]" |
+| `[POSITION_COMPETITOR]` | Specify the position competitor | "[specify value]" |
+| `[POSITION_TARGET]` | Target or intended position | "[specify value]" |
+| `[POSITION_GAP]` | Specify the position gap | "[specify value]" |
+| `[POSITION_ACTIONS]` | Specify the position actions | "[specify value]" |
+| `[LOYALTY_CURRENT]` | Specify the loyalty current | "[specify value]" |
+| `[LOYALTY_COMPETITOR]` | Specify the loyalty competitor | "[specify value]" |
+| `[LOYALTY_TARGET]` | Target or intended loyalty | "[specify value]" |
+| `[LOYALTY_GAP]` | Specify the loyalty gap | "[specify value]" |
+| `[LOYALTY_ACTIONS]` | Specify the loyalty actions | "[specify value]" |
+| `[EQUITY_CURRENT]` | Specify the equity current | "[specify value]" |
+| `[EQUITY_COMPETITOR]` | Specify the equity competitor | "[specify value]" |
+| `[EQUITY_TARGET]` | Target or intended equity | "[specify value]" |
+| `[EQUITY_GAP]` | Specify the equity gap | "[specify value]" |
+| `[EQUITY_ACTIONS]` | Specify the equity actions | "[specify value]" |
+| `[DIGITAL_CURRENT]` | Specify the digital current | "[specify value]" |
+| `[DIGITAL_COMPETITOR]` | Specify the digital competitor | "[specify value]" |
+| `[DIGITAL_TARGET]` | Target or intended digital | "[specify value]" |
+| `[DIGITAL_GAP]` | Specify the digital gap | "[specify value]" |
+| `[DIGITAL_ACTIONS]` | Specify the digital actions | "[specify value]" |
+| `[MISSION_STATEMENT]` | Specify the mission statement | "[specify value]" |
+| `[VISION_STATEMENT]` | Specify the vision statement | "[specify value]" |
+| `[CORE_VALUES]` | Specify the core values | "[specify value]" |
+| `[BRAND_PROMISE]` | Specify the brand promise | "[specify value]" |
+| `[REASON_BELIEVE]` | Specify the reason believe | "[specify value]" |
+| `[BRAND_MANIFESTO]` | Specify the brand manifesto | "[specify value]" |
+| `[TARGET_AUDIENCE]` | Target or intended audience | "[specify value]" |
+| `[CATEGORY_DEF]` | Specify the category def | "[specify value]" |
+| `[COMPETITIVE_FRAME]` | Specify the competitive frame | "[specify value]" |
+| `[POINTS_DIFFERENCE]` | Specify the points difference | "[specify value]" |
+| `[POINTS_PARITY]` | Specify the points parity | "[specify value]" |
+| `[POSITION_STATEMENT]` | Specify the position statement | "[specify value]" |
+| `[MASTER_BRAND]` | Specify the master brand | "[specify value]" |
+| `[SUB_BRANDS]` | Specify the sub brands | "[specify value]" |
+| `[PRODUCT_BRANDS]` | Specify the product brands | "[specify value]" |
+| `[ENDORSED_BRANDS]` | Specify the endorsed brands | "[specify value]" |
+| `[CO_BRANDS]` | Specify the co brands | "[specify value]" |
+| `[BRAND_PORTFOLIO]` | Specify the brand portfolio | "[specify value]" |
+| `[FUNCTIONAL_BENEFITS]` | Specify the functional benefits | "[specify value]" |
+| `[EMOTIONAL_BENEFITS]` | Specify the emotional benefits | "[specify value]" |
+| `[SELF_EXPRESS]` | Specify the self express | "[specify value]" |
+| `[SOCIAL_BENEFITS]` | Specify the social benefits | "[specify value]" |
+| `[ECONOMIC_VALUE]` | Specify the economic value | "[specify value]" |
+| `[EXPERIENTIAL_VALUE]` | Specify the experiential value | "[specify value]" |
+| `[LOGO_DIRECTION]` | Specify the logo direction | "[specify value]" |
+| `[LOGO_GUIDELINES]` | Specify the logo guidelines | "[specify value]" |
+| `[LOGO_SCENARIOS]` | Specify the logo scenarios | "[specify value]" |
+| `[LOGO_STANDARDS]` | Specify the logo standards | "[specify value]" |
+| `[LOGO_COST]` | Specify the logo cost | "[specify value]" |
+| `[COLOR_DIRECTION]` | Specify the color direction | "[specify value]" |
+| `[COLOR_GUIDELINES]` | Specify the color guidelines | "[specify value]" |
+| `[COLOR_SCENARIOS]` | Specify the color scenarios | "[specify value]" |
+| `[COLOR_STANDARDS]` | Specify the color standards | "[specify value]" |
+| `[COLOR_COST]` | Specify the color cost | "[specify value]" |
+| `[TYPE_DIRECTION]` | Type or category of direction | "Standard" |
+| `[TYPE_GUIDELINES]` | Type or category of guidelines | "Standard" |
+| `[TYPE_SCENARIOS]` | Type or category of scenarios | "Standard" |
+| `[TYPE_STANDARDS]` | Type or category of standards | "Standard" |
+| `[TYPE_COST]` | Type or category of cost | "Standard" |
+| `[VISUAL_DIRECTION]` | Specify the visual direction | "[specify value]" |
+| `[VISUAL_GUIDELINES]` | Specify the visual guidelines | "[specify value]" |
+| `[VISUAL_SCENARIOS]` | Specify the visual scenarios | "[specify value]" |
+| `[VISUAL_STANDARDS]` | Specify the visual standards | "[specify value]" |
+| `[VISUAL_COST]` | Specify the visual cost | "[specify value]" |
+| `[PHOTO_DIRECTION]` | Specify the photo direction | "[specify value]" |
+| `[PHOTO_GUIDELINES]` | Specify the photo guidelines | "[specify value]" |
+| `[PHOTO_SCENARIOS]` | Specify the photo scenarios | "[specify value]" |
+| `[PHOTO_STANDARDS]` | Specify the photo standards | "[specify value]" |
+| `[PHOTO_COST]` | Specify the photo cost | "[specify value]" |
+| `[ICON_DIRECTION]` | Specify the icon direction | "[specify value]" |
+| `[ICON_GUIDELINES]` | Specify the icon guidelines | "[specify value]" |
+| `[ICON_SCENARIOS]` | Specify the icon scenarios | "[specify value]" |
+| `[ICON_STANDARDS]` | Specify the icon standards | "[specify value]" |
+| `[ICON_COST]` | Specify the icon cost | "[specify value]" |
+| `[TONE_ATTRIBUTES]` | Specify the tone attributes | "[specify value]" |
+| `[PERSONALITY_TRAITS]` | Specify the personality traits | "[specify value]" |
+| `[COMM_STYLE]` | Specify the comm style | "[specify value]" |
+| `[LANGUAGE_GUIDE]` | Specify the language guide | "[specify value]" |
+| `[DOS_DONTS]` | Specify the dos donts | "[specify value]" |
+| `[VOICE_EXAMPLES]` | Specify the voice examples | "[specify value]" |
+| `[ELEVATOR_PITCH]` | Specify the elevator pitch | "[specify value]" |
+| `[BRAND_STORY]` | Specify the brand story | "[specify value]" |
+| `[ORIGIN_STORY]` | Specify the origin story | "[specify value]" |
+| `[CUSTOMER_STORIES]` | Specify the customer stories | "[specify value]" |
+| `[PRODUCT_MESSAGES]` | Specify the product messages | "[specify value]" |
+| `[CORPORATE_MESSAGES]` | Specify the corporate messages | "[specify value]" |
+| `[CONTENT_PILLAR_1]` | Specify the content pillar 1 | "[specify value]" |
+| `[CONTENT_PILLAR_2]` | Specify the content pillar 2 | "[specify value]" |
+| `[CONTENT_PILLAR_3]` | Specify the content pillar 3 | "[specify value]" |
+| `[CONTENT_PILLAR_4]` | Specify the content pillar 4 | "[specify value]" |
+| `[CONTENT_MIX]` | Specify the content mix | "[specify value]" |
+| `[EDITORIAL_CALENDAR]` | Specify the editorial calendar | "[specify value]" |
+| `[MASTER_TAGLINE]` | Specify the master tagline | "[specify value]" |
+| `[CAMPAIGN_SLOGANS]` | Specify the campaign slogans | "[specify value]" |
+| `[PRODUCT_TAGLINES]` | Specify the product taglines | "[specify value]" |
+| `[REGIONAL_VARIATIONS]` | Specify the regional variations | "North America" |
+| `[SEASONAL_MESSAGES]` | Specify the seasonal messages | "[specify value]" |
+| `[CALL_TO_ACTIONS]` | Specify the call to actions | "[specify value]" |
+| `[DISCOVER_CURRENT]` | Specify the discover current | "[specify value]" |
+| `[DISCOVER_DESIRED]` | Specify the discover desired | "[specify value]" |
+| `[DISCOVER_STRATEGY]` | Strategy or approach for discover | "[specify value]" |
+| `[DISCOVER_INVEST]` | Specify the discover invest | "[specify value]" |
+| `[DISCOVER_IMPACT]` | Specify the discover impact | "[specify value]" |
+| `[CONSIDER_CURRENT]` | Specify the consider current | "[specify value]" |
+| `[CONSIDER_DESIRED]` | Specify the consider desired | "[specify value]" |
+| `[CONSIDER_STRATEGY]` | Strategy or approach for consider | "[specify value]" |
+| `[CONSIDER_INVEST]` | Specify the consider invest | "[specify value]" |
+| `[CONSIDER_IMPACT]` | Specify the consider impact | "[specify value]" |
+| `[PURCHASE_CURRENT]` | Specify the purchase current | "[specify value]" |
+| `[PURCHASE_DESIRED]` | Specify the purchase desired | "[specify value]" |
+| `[PURCHASE_STRATEGY]` | Strategy or approach for purchase | "[specify value]" |
+| `[PURCHASE_INVEST]` | Specify the purchase invest | "[specify value]" |
+| `[PURCHASE_IMPACT]` | Specify the purchase impact | "[specify value]" |
+| `[ONBOARD_CURRENT]` | Specify the onboard current | "[specify value]" |
+| `[ONBOARD_DESIRED]` | Specify the onboard desired | "[specify value]" |
+| `[ONBOARD_STRATEGY]` | Strategy or approach for onboard | "[specify value]" |
+| `[ONBOARD_INVEST]` | Specify the onboard invest | "[specify value]" |
+| `[ONBOARD_IMPACT]` | Specify the onboard impact | "[specify value]" |
+| `[SUPPORT_CURRENT]` | Specify the support current | "[specify value]" |
+| `[SUPPORT_DESIRED]` | Specify the support desired | "[specify value]" |
+| `[SUPPORT_STRATEGY]` | Strategy or approach for support | "[specify value]" |
+| `[SUPPORT_INVEST]` | Specify the support invest | "[specify value]" |
+| `[SUPPORT_IMPACT]` | Specify the support impact | "[specify value]" |
+| `[ADVOCACY_CURRENT]` | Specify the advocacy current | "[specify value]" |
+| `[ADVOCACY_DESIRED]` | Specify the advocacy desired | "[specify value]" |
+| `[ADVOCACY_STRATEGY]` | Strategy or approach for advocacy | "[specify value]" |
+| `[ADVOCACY_INVEST]` | Specify the advocacy invest | "[specify value]" |
+| `[ADVOCACY_IMPACT]` | Specify the advocacy impact | "[specify value]" |
+| `[WEB_STRATEGY]` | Strategy or approach for web | "[specify value]" |
+| `[WEB_CONTENT]` | Specify the web content | "[specify value]" |
+| `[WEB_ENGAGEMENT]` | Specify the web engagement | "[specify value]" |
+| `[WEB_METRICS]` | Specify the web metrics | "[specify value]" |
+| `[WEB_BUDGET]` | Budget allocation for web | "$500,000" |
+| `[SOCIAL_STRATEGY]` | Strategy or approach for social | "[specify value]" |
+| `[SOCIAL_CONTENT]` | Specify the social content | "[specify value]" |
+| `[SOCIAL_ENGAGEMENT]` | Specify the social engagement | "[specify value]" |
+| `[SOCIAL_METRICS]` | Specify the social metrics | "[specify value]" |
+| `[SOCIAL_BUDGET]` | Budget allocation for social | "$500,000" |
+| `[EMAIL_STRATEGY]` | Strategy or approach for email | "john.smith@example.com" |
+| `[EMAIL_CONTENT]` | Specify the email content | "john.smith@example.com" |
+| `[EMAIL_ENGAGEMENT]` | Specify the email engagement | "john.smith@example.com" |
+| `[EMAIL_METRICS]` | Specify the email metrics | "john.smith@example.com" |
+| `[EMAIL_BUDGET]` | Budget allocation for email | "john.smith@example.com" |
+| `[MOBILE_STRATEGY]` | Strategy or approach for mobile | "[specify value]" |
+| `[MOBILE_CONTENT]` | Specify the mobile content | "[specify value]" |
+| `[MOBILE_ENGAGEMENT]` | Specify the mobile engagement | "[specify value]" |
+| `[MOBILE_METRICS]` | Specify the mobile metrics | "[specify value]" |
+| `[MOBILE_BUDGET]` | Budget allocation for mobile | "$500,000" |
+| `[CONTENT_STRATEGY]` | Strategy or approach for content | "[specify value]" |
+| `[CONTENT_CONTENT]` | Specify the content content | "[specify value]" |
+| `[CONTENT_ENGAGEMENT]` | Specify the content engagement | "[specify value]" |
+| `[CONTENT_METRICS]` | Specify the content metrics | "[specify value]" |
+| `[CONTENT_BUDGET]` | Budget allocation for content | "$500,000" |
+| `[PAID_STRATEGY]` | Strategy or approach for paid | "[specify value]" |
+| `[PAID_CONTENT]` | Specify the paid content | "[specify value]" |
+| `[PAID_ENGAGEMENT]` | Specify the paid engagement | "[specify value]" |
+| `[PAID_METRICS]` | Specify the paid metrics | "[specify value]" |
+| `[PAID_BUDGET]` | Budget allocation for paid | "$500,000" |
+| `[DIRECT_COMPETITORS]` | Specify the direct competitors | "[specify value]" |
+| `[INDIRECT_COMPETITORS]` | Specify the indirect competitors | "[specify value]" |
+| `[SUBSTITUTE_PRODUCTS]` | Specify the substitute products | "[specify value]" |
+| `[MARKET_LEADERS]` | Specify the market leaders | "[specify value]" |
+| `[EMERGING_PLAYERS]` | Specify the emerging players | "[specify value]" |
+| `[MARKET_DYNAMICS]` | Specify the market dynamics | "[specify value]" |
+| `[UNIQUE_VALUE]` | Specify the unique value | "[specify value]" |
+| `[COMPETITIVE_ADV]` | Specify the competitive adv | "[specify value]" |
+| `[MARKET_GAPS]` | Specify the market gaps | "[specify value]" |
+| `[INNOVATION_AREAS]` | Specify the innovation areas | "[specify value]" |
+| `[PARTNERSHIP_OPP]` | Specify the partnership opp | "[specify value]" |
+| `[DISRUPTION_POT]` | Specify the disruption pot | "[specify value]" |
+| `[PRICE_POSITION]` | Specify the price position | "[specify value]" |
+| `[QUALITY_POSITION]` | Specify the quality position | "[specify value]" |
+| `[INNOVATION_POSITION]` | Specify the innovation position | "[specify value]" |
+| `[SERVICE_POSITION]` | Specify the service position | "[specify value]" |
+| `[EXPERIENCE_POSITION]` | Specify the experience position | "[specify value]" |
+| `[VALUES_POSITION]` | Specify the values position | "[specify value]" |
+| `[BRAND_MOATS]` | Specify the brand moats | "[specify value]" |
+| `[SWITCHING_COSTS]` | Specify the switching costs | "[specify value]" |
+| `[NETWORK_EFFECTS]` | Specify the network effects | "[specify value]" |
+| `[BRAND_LOYALTY_DEF]` | Specify the brand loyalty def | "[specify value]" |
+| `[PATENT_PROTECT]` | Specify the patent protect | "[specify value]" |
+| `[SHARE_DEFENSE]` | Specify the share defense | "[specify value]" |
+| `[LAUNCH_OBJECTIVES]` | Primary objective or goal for launch s | "Increase efficiency by 30%" |
+| `[LAUNCH_AUDIENCE]` | Specify the launch audience | "[specify value]" |
+| `[LAUNCH_MESSAGES]` | Specify the launch messages | "[specify value]" |
+| `[LAUNCH_CHANNELS]` | Specify the launch channels | "[specify value]" |
+| `[LAUNCH_METRICS]` | Specify the launch metrics | "[specify value]" |
+| `[AWARE_OBJECTIVES]` | Primary objective or goal for aware s | "Increase efficiency by 30%" |
+| `[AWARE_AUDIENCE]` | Specify the aware audience | "[specify value]" |
+| `[AWARE_MESSAGES]` | Specify the aware messages | "[specify value]" |
+| `[AWARE_CHANNELS]` | Specify the aware channels | "[specify value]" |
+| `[AWARE_METRICS]` | Specify the aware metrics | "[specify value]" |
+| `[ENGAGE_OBJECTIVES]` | Primary objective or goal for engage s | "Increase efficiency by 30%" |
+| `[ENGAGE_AUDIENCE]` | Specify the engage audience | "[specify value]" |
+| `[ENGAGE_MESSAGES]` | Specify the engage messages | "[specify value]" |
+| `[ENGAGE_CHANNELS]` | Specify the engage channels | "[specify value]" |
+| `[ENGAGE_METRICS]` | Specify the engage metrics | "[specify value]" |
+| `[CONVERT_OBJECTIVES]` | Primary objective or goal for convert s | "Increase efficiency by 30%" |
+| `[CONVERT_AUDIENCE]` | Specify the convert audience | "[specify value]" |
+| `[CONVERT_MESSAGES]` | Specify the convert messages | "[specify value]" |
+| `[CONVERT_CHANNELS]` | Specify the convert channels | "[specify value]" |
+| `[CONVERT_METRICS]` | Specify the convert metrics | "[specify value]" |
+| `[LOYAL_OBJECTIVES]` | Primary objective or goal for loyal s | "Increase efficiency by 30%" |
+| `[LOYAL_AUDIENCE]` | Specify the loyal audience | "[specify value]" |
+| `[LOYAL_MESSAGES]` | Specify the loyal messages | "[specify value]" |
+| `[LOYAL_CHANNELS]` | Specify the loyal channels | "[specify value]" |
+| `[LOYAL_METRICS]` | Specify the loyal metrics | "[specify value]" |
+| `[REBRAND_OBJECTIVES]` | Primary objective or goal for rebrand s | "Increase efficiency by 30%" |
+| `[REBRAND_AUDIENCE]` | Specify the rebrand audience | "[specify value]" |
+| `[REBRAND_MESSAGES]` | Specify the rebrand messages | "[specify value]" |
+| `[REBRAND_CHANNELS]` | Specify the rebrand channels | "[specify value]" |
+| `[REBRAND_METRICS]` | Specify the rebrand metrics | "[specify value]" |
+| `[GUIDE_POLICIES]` | Specify the guide policies | "[specify value]" |
+| `[GUIDE_PROCESSES]` | Specify the guide processes | "[specify value]" |
+| `[GUIDE_RESPONSIBILITIES]` | Specify the guide responsibilities | "[specify value]" |
+| `[GUIDE_COMPLIANCE]` | Specify the guide compliance | "[specify value]" |
+| `[GUIDE_REVIEW]` | Specify the guide review | "[specify value]" |
+| `[APPROVAL_POLICIES]` | Specify the approval policies | "[specify value]" |
+| `[APPROVAL_PROCESSES]` | Specify the approval processes | "[specify value]" |
+| `[APPROVAL_RESPONSIBILITIES]` | Specify the approval responsibilities | "[specify value]" |
+| `[APPROVAL_COMPLIANCE]` | Specify the approval compliance | "[specify value]" |
+| `[APPROVAL_REVIEW]` | Specify the approval review | "[specify value]" |
+| `[QUALITY_POLICIES]` | Specify the quality policies | "[specify value]" |
+| `[QUALITY_PROCESSES]` | Specify the quality processes | "[specify value]" |
+| `[QUALITY_RESPONSIBILITIES]` | Specify the quality responsibilities | "[specify value]" |
+| `[QUALITY_COMPLIANCE]` | Specify the quality compliance | "[specify value]" |
+| `[QUALITY_REVIEW]` | Specify the quality review | "[specify value]" |
+| `[LEGAL_POLICIES]` | Specify the legal policies | "[specify value]" |
+| `[LEGAL_PROCESSES]` | Specify the legal processes | "[specify value]" |
+| `[LEGAL_RESPONSIBILITIES]` | Specify the legal responsibilities | "[specify value]" |
+| `[LEGAL_COMPLIANCE]` | Specify the legal compliance | "[specify value]" |
+| `[LEGAL_REVIEW]` | Specify the legal review | "[specify value]" |
+| `[CRISIS_POLICIES]` | Specify the crisis policies | "[specify value]" |
+| `[CRISIS_PROCESSES]` | Specify the crisis processes | "[specify value]" |
+| `[CRISIS_RESPONSIBILITIES]` | Specify the crisis responsibilities | "[specify value]" |
+| `[CRISIS_COMPLIANCE]` | Specify the crisis compliance | "[specify value]" |
+| `[CRISIS_REVIEW]` | Specify the crisis review | "[specify value]" |
+| `[EVOLVE_POLICIES]` | Specify the evolve policies | "[specify value]" |
+| `[EVOLVE_PROCESSES]` | Specify the evolve processes | "[specify value]" |
+| `[EVOLVE_RESPONSIBILITIES]` | Specify the evolve responsibilities | "[specify value]" |
+| `[EVOLVE_COMPLIANCE]` | Specify the evolve compliance | "[specify value]" |
+| `[EVOLVE_REVIEW]` | Specify the evolve review | "[specify value]" |
+| `[AWARENESS_METRIC]` | Specify the awareness metric | "[specify value]" |
+| `[CONSIDERATION_METRIC]` | Specify the consideration metric | "[specify value]" |
+| `[PREFERENCE_METRIC]` | Specify the preference metric | "[specify value]" |
+| `[LOYALTY_METRIC]` | Specify the loyalty metric | "[specify value]" |
+| `[NPS_METRIC]` | Specify the nps metric | "[specify value]" |
+| `[EQUITY_INDEX]` | Specify the equity index | "[specify value]" |
+| `[REVENUE_ATTRIBUTION]` | Specify the revenue attribution | "[specify value]" |
+| `[MARKET_SHARE_METRIC]` | Specify the market share metric | "[specify value]" |
+| `[ACQUISITION_METRIC]` | Specify the acquisition metric | "[specify value]" |
+| `[RETENTION_METRIC]` | Specify the retention metric | "[specify value]" |
+| `[LTV_METRIC]` | Specify the ltv metric | "[specify value]" |
+| `[PRICE_PREMIUM]` | Specify the price premium | "[specify value]" |
+| `[WEB_TRAFFIC]` | Specify the web traffic | "[specify value]" |
+| `[SOCIAL_ENGAGE]` | Specify the social engage | "[specify value]" |
+| `[CONTENT_PERFORM]` | Specify the content perform | "[specify value]" |
+| `[SEO_RANKINGS]` | Specify the seo rankings | "[specify value]" |
+| `[CONVERSION_RATE]` | Specify the conversion rate | "[specify value]" |
+| `[DIGITAL_SOV]` | Specify the digital sov | "[specify value]" |
+| `[CAMPAIGN_REACH]` | Specify the campaign reach | "[specify value]" |
+| `[ENGAGEMENT_RATE]` | Specify the engagement rate | "[specify value]" |
+| `[CPA]` | Specify the cpa | "[specify value]" |
+| `[ROAS]` | Specify the roas | "[specify value]" |
+| `[BRAND_LIFT]` | Specify the brand lift | "[specify value]" |
+| `[SALES_IMPACT]` | Specify the sales impact | "[specify value]" |
+| `[TOTAL_INVESTMENT]` | Specify the total investment | "[specify value]" |
+| `[VALUE_GROWTH]` | Specify the value growth | "[specify value]" |
+| `[BRAND_ROI]` | Specify the brand roi | "[specify value]" |
+| `[PAYBACK_PERIOD]` | Specify the payback period | "[specify value]" |
+| `[MARKET_CAP_IMPACT]` | Specify the market cap impact | "[specify value]" |
+| `[SHAREHOLDER_VALUE]` | Specify the shareholder value | "[specify value]" |
+
+
 
 ### 3. Brand Identity & Visual System
 

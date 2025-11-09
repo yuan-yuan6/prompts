@@ -1,3 +1,18 @@
+---
+title: Financial Analysis Template Generator
+category: business/Finance & Accounting
+tags: [business, data-science, machine-learning, optimization, research, template]
+use_cases:
+  - Implementing create comprehensive financial analysis reports covering financial statements, f...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - okr-implementation-framework.md
+  - digital-transformation-roadmap.md
+  - lean-six-sigma-implementation.md
+last_updated: 2025-11-09
+---
+
 # Financial Analysis Template Generator
 
 ## Purpose

@@ -1,3 +1,17 @@
+---
+title: Graphic Design Template
+category: creative/Design & Visual
+tags: [creative, design, documentation, marketing, strategy, template]
+use_cases:
+  - Implementing create comprehensive graphic design solutions including layouts, branding, and v...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - creative-writing-framework.md
+  - video-production-pipeline.md
+last_updated: 2025-11-09
+---
+
 # Graphic Design Template
 
 ## Purpose

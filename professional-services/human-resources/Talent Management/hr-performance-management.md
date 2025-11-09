@@ -1,3 +1,18 @@
+---
+title: Performance Management & Employee Development Framework
+category: professional-services/human-resources/Talent Management
+tags: [design, development, documentation, framework, management, optimization, professional-services, strategy]
+use_cases:
+  - Implementing comprehensive framework for designing and implementing performance management sy...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - performance-review-system.md
+  - employee-engagement-program.md
+  - talent-acquisition-strategy.md
+last_updated: 2025-11-09
+---
+
 # Performance Management & Employee Development Framework
 
 ## Purpose
@@ -50,6 +65,266 @@ Goal Management:
 - Achievement Tracking: [ACHIEVE_TRACK]
 - Alignment Score: [ALIGN_SCORE]%
 ```
+
+## Variables
+
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `[ORGANIZATION_NAME]` | Name of the organization | "John Smith" |
+| `[EMPLOYEE_COUNT]` | Specify the employee count | "10" |
+| `[DEPARTMENT_COUNT]` | Specify the department count | "Marketing" |
+| `[ENGAGEMENT_TARGET]` | Target or intended engagement | "[specify value]" |
+| `[RETENTION_TARGET]` | Target or intended retention | "[specify value]" |
+| `[PERFORMANCE_IMPROVEMENT]` | Specify the performance improvement | "[specify value]" |
+| `[GOAL_CURRENT]` | Specify the goal current | "Increase efficiency by 30%" |
+| `[GOAL_TARGET]` | Target or intended goal | "Increase efficiency by 30%" |
+| `[GOAL_ADOPT]` | Specify the goal adopt | "Increase efficiency by 30%" |
+| `[GOAL_EFFECT]` | Specify the goal effect | "Increase efficiency by 30%" |
+| `[GOAL_SAT]` | Specify the goal sat | "Increase efficiency by 30%" |
+| `[CHECK_CURRENT]` | Specify the check current | "[specify value]" |
+| `[CHECK_TARGET]` | Target or intended check | "[specify value]" |
+| `[CHECK_ADOPT]` | Specify the check adopt | "[specify value]" |
+| `[CHECK_EFFECT]` | Specify the check effect | "[specify value]" |
+| `[CHECK_SAT]` | Specify the check sat | "[specify value]" |
+| `[REVIEW_CURRENT]` | Specify the review current | "[specify value]" |
+| `[REVIEW_TARGET]` | Target or intended review | "[specify value]" |
+| `[REVIEW_ADOPT]` | Specify the review adopt | "[specify value]" |
+| `[REVIEW_EFFECT]` | Specify the review effect | "[specify value]" |
+| `[REVIEW_SAT]` | Specify the review sat | "[specify value]" |
+| `[DEV_CURRENT]` | Specify the dev current | "[specify value]" |
+| `[DEV_TARGET]` | Target or intended dev | "[specify value]" |
+| `[DEV_ADOPT]` | Specify the dev adopt | "[specify value]" |
+| `[DEV_EFFECT]` | Specify the dev effect | "[specify value]" |
+| `[DEV_SAT]` | Specify the dev sat | "[specify value]" |
+| `[RECOG_CURRENT]` | Specify the recog current | "[specify value]" |
+| `[RECOG_TARGET]` | Target or intended recog | "[specify value]" |
+| `[RECOG_ADOPT]` | Specify the recog adopt | "[specify value]" |
+| `[RECOG_EFFECT]` | Specify the recog effect | "[specify value]" |
+| `[RECOG_SAT]` | Specify the recog sat | "[specify value]" |
+| `[REVIEW_PERIOD]` | Specify the review period | "[specify value]" |
+| `[SELF_ASSESS]` | Specify the self assess | "[specify value]" |
+| `[MGR_ASSESS]` | Specify the mgr assess | "[specify value]" |
+| `[CALIBRATION]` | Specify the calibration | "[specify value]" |
+| `[APPROVAL_PROCESS]` | Specify the approval process | "[specify value]" |
+| `[RATING_SCALE]` | Specify the rating scale | "[specify value]" |
+| `[DISTRIBUTION]` | Specify the distribution | "[specify value]" |
+| `[EXCEEDS]` | Specify the exceeds | "[specify value]" |
+| `[MEETS]` | Specify the meets | "[specify value]" |
+| `[BELOW]` | Specify the below | "[specify value]" |
+| `[CHECKIN_FREQ]` | Specify the checkin freq | "[specify value]" |
+| `[FEEDBACK_TOOLS]` | Specify the feedback tools | "[specify value]" |
+| `[DOCUMENTATION]` | Specify the documentation | "[specify value]" |
+| `[REALTIME_RECOG]` | Specify the realtime recog | "[specify value]" |
+| `[COACHING_FREQ]` | Specify the coaching freq | "[specify value]" |
+| `[GOAL_TYPES]` | Type or category of goal s | "Increase efficiency by 30%" |
+| `[CASCADE_PROCESS]` | Specify the cascade process | "[specify value]" |
+| `[UPDATE_FREQ]` | Specify the update freq | "2025-01-15" |
+| `[ACHIEVE_TRACK]` | Specify the achieve track | "[specify value]" |
+| `[ALIGN_SCORE]` | Specify the align score | "[specify value]" |
+| `[ENTRY_TECH]` | Specify the entry tech | "[specify value]" |
+| `[ENTRY_LEAD]` | Specify the entry lead | "[specify value]" |
+| `[ENTRY_BEHAV]` | Specify the entry behav | "[specify value]" |
+| `[ENTRY_ASSESS]` | Specify the entry assess | "[specify value]" |
+| `[ENTRY_PATH]` | Specify the entry path | "[specify value]" |
+| `[PROF_TECH]` | Specify the prof tech | "[specify value]" |
+| `[PROF_LEAD]` | Specify the prof lead | "[specify value]" |
+| `[PROF_BEHAV]` | Specify the prof behav | "[specify value]" |
+| `[PROF_ASSESS]` | Specify the prof assess | "[specify value]" |
+| `[PROF_PATH]` | Specify the prof path | "[specify value]" |
+| `[SENIOR_TECH]` | Specify the senior tech | "[specify value]" |
+| `[SENIOR_LEAD]` | Specify the senior lead | "[specify value]" |
+| `[SENIOR_BEHAV]` | Specify the senior behav | "[specify value]" |
+| `[SENIOR_ASSESS]` | Specify the senior assess | "[specify value]" |
+| `[SENIOR_PATH]` | Specify the senior path | "[specify value]" |
+| `[MGR_TECH]` | Specify the mgr tech | "[specify value]" |
+| `[MGR_LEAD]` | Specify the mgr lead | "[specify value]" |
+| `[MGR_BEHAV]` | Specify the mgr behav | "[specify value]" |
+| `[MGR_PATH]` | Specify the mgr path | "[specify value]" |
+| `[SR_MGR_TECH]` | Specify the sr mgr tech | "[specify value]" |
+| `[SR_MGR_LEAD]` | Specify the sr mgr lead | "[specify value]" |
+| `[SR_MGR_BEHAV]` | Specify the sr mgr behav | "[specify value]" |
+| `[SR_MGR_ASSESS]` | Specify the sr mgr assess | "[specify value]" |
+| `[SR_MGR_PATH]` | Specify the sr mgr path | "[specify value]" |
+| `[EXEC_TECH]` | Specify the exec tech | "[specify value]" |
+| `[EXEC_LEAD]` | Specify the exec lead | "[specify value]" |
+| `[EXEC_BEHAV]` | Specify the exec behav | "[specify value]" |
+| `[EXEC_ASSESS]` | Specify the exec assess | "[specify value]" |
+| `[EXEC_PATH]` | Specify the exec path | "[specify value]" |
+| `[LOW_HIGH]` | Specify the low high | "[specify value]" |
+| `[LH_COUNT]` | Specify the lh count | "10" |
+| `[LH_PCT]` | Specify the lh pct | "25%" |
+| `[MOD_HIGH]` | Specify the mod high | "[specify value]" |
+| `[MH_COUNT]` | Specify the mh count | "10" |
+| `[MH_PCT]` | Specify the mh pct | "25%" |
+| `[HIGH_HIGH]` | Specify the high high | "[specify value]" |
+| `[HH_COUNT]` | Specify the hh count | "10" |
+| `[HH_PCT]` | Specify the hh pct | "25%" |
+| `[LOW_MOD]` | Specify the low mod | "[specify value]" |
+| `[LM_COUNT]` | Specify the lm count | "10" |
+| `[LM_PCT]` | Specify the lm pct | "25%" |
+| `[MOD_MOD]` | Specify the mod mod | "[specify value]" |
+| `[MM_COUNT]` | Specify the mm count | "10" |
+| `[MM_PCT]` | Specify the mm pct | "25%" |
+| `[HIGH_MOD]` | Specify the high mod | "[specify value]" |
+| `[HM_COUNT]` | Specify the hm count | "10" |
+| `[HM_PCT]` | Specify the hm pct | "25%" |
+| `[LOW_LOW]` | Specify the low low | "[specify value]" |
+| `[LL_COUNT]` | Specify the ll count | "10" |
+| `[LL_PCT]` | Specify the ll pct | "25%" |
+| `[MOD_LOW]` | Specify the mod low | "[specify value]" |
+| `[ML_COUNT]` | Specify the ml count | "10" |
+| `[ML_PCT]` | Specify the ml pct | "25%" |
+| `[HIGH_LOW]` | Specify the high low | "[specify value]" |
+| `[HL_COUNT]` | Specify the hl count | "10" |
+| `[HL_PCT]` | Specify the hl pct | "25%" |
+| `[EMERGE_PROGRAM]` | Specify the emerge program | "[specify value]" |
+| `[EMERGE_COUNT]` | Specify the emerge count | "10" |
+| `[EMERGE_DURATION]` | Specify the emerge duration | "6 months" |
+| `[EMERGE_ROI]` | Specify the emerge roi | "[specify value]" |
+| `[MID_PROGRAM]` | Specify the mid program | "[specify value]" |
+| `[MID_COUNT]` | Specify the mid count | "10" |
+| `[MID_DURATION]` | Specify the mid duration | "6 months" |
+| `[MID_ROI]` | Specify the mid roi | "[specify value]" |
+| `[EXEC_PROGRAM]` | Specify the exec program | "[specify value]" |
+| `[EXEC_COUNT]` | Specify the exec count | "10" |
+| `[EXEC_DURATION]` | Specify the exec duration | "6 months" |
+| `[EXEC_ROI]` | Specify the exec roi | "[specify value]" |
+| `[SKILL_CATEGORIES]` | Specify the skill categories | "[specify value]" |
+| `[TRAIN_HOURS]` | Specify the train hours | "[specify value]" |
+| `[CERT_PROGRAMS]` | Specify the cert programs | "[specify value]" |
+| `[COMPLETE_RATE]` | Specify the complete rate | "[specify value]" |
+| `[GAP_CLOSURE]` | Specify the gap closure | "[specify value]" |
+| `[COMM_TRAINING]` | Specify the comm training | "[specify value]" |
+| `[COLLAB_TRAINING]` | Specify the collab training | "[specify value]" |
+| `[CRITICAL_TRAINING]` | Specify the critical training | "[specify value]" |
+| `[CREATE_TRAINING]` | Specify the create training | "[specify value]" |
+| `[EI_TRAINING]` | Specify the ei training | "[specify value]" |
+| `[ROLE_1]` | Specify the role 1 | "[specify value]" |
+| `[INCUMBENT_1]` | Specify the incumbent 1 | "[specify value]" |
+| `[READY_NOW_1]` | Specify the ready now 1 | "[specify value]" |
+| `[READY_1YR_1]` | Specify the ready 1yr 1 | "[specify value]" |
+| `[READY_3YR_1]` | Specify the ready 3yr 1 | "[specify value]" |
+| `[RISK_1]` | Specify the risk 1 | "[specify value]" |
+| `[ROLE_2]` | Specify the role 2 | "[specify value]" |
+| `[INCUMBENT_2]` | Specify the incumbent 2 | "[specify value]" |
+| `[READY_NOW_2]` | Specify the ready now 2 | "[specify value]" |
+| `[READY_1YR_2]` | Specify the ready 1yr 2 | "[specify value]" |
+| `[READY_3YR_2]` | Specify the ready 3yr 2 | "[specify value]" |
+| `[RISK_2]` | Specify the risk 2 | "[specify value]" |
+| `[ROLE_3]` | Specify the role 3 | "[specify value]" |
+| `[INCUMBENT_3]` | Specify the incumbent 3 | "[specify value]" |
+| `[READY_NOW_3]` | Specify the ready now 3 | "[specify value]" |
+| `[READY_1YR_3]` | Specify the ready 1yr 3 | "[specify value]" |
+| `[READY_3YR_3]` | Specify the ready 3yr 3 | "[specify value]" |
+| `[RISK_3]` | Specify the risk 3 | "[specify value]" |
+| `[ROLE_4]` | Specify the role 4 | "[specify value]" |
+| `[INCUMBENT_4]` | Specify the incumbent 4 | "[specify value]" |
+| `[READY_NOW_4]` | Specify the ready now 4 | "[specify value]" |
+| `[READY_1YR_4]` | Specify the ready 1yr 4 | "[specify value]" |
+| `[READY_3YR_4]` | Specify the ready 3yr 4 | "[specify value]" |
+| `[RISK_4]` | Specify the risk 4 | "[specify value]" |
+| `[ROLE_5]` | Specify the role 5 | "[specify value]" |
+| `[INCUMBENT_5]` | Specify the incumbent 5 | "[specify value]" |
+| `[READY_NOW_5]` | Specify the ready now 5 | "[specify value]" |
+| `[READY_1YR_5]` | Specify the ready 1yr 5 | "[specify value]" |
+| `[READY_3YR_5]` | Specify the ready 3yr 5 | "[specify value]" |
+| `[RISK_5]` | Specify the risk 5 | "[specify value]" |
+| `[TECH_LEVELS]` | Specify the tech levels | "[specify value]" |
+| `[TECH_TIME]` | Specify the tech time | "[specify value]" |
+| `[TECH_MOBILITY]` | Specify the tech mobility | "[specify value]" |
+| `[TECH_SUPPORT]` | Specify the tech support | "[specify value]" |
+| `[TECH_SUCCESS]` | Specify the tech success | "[specify value]" |
+| `[MGT_LEVELS]` | Specify the mgt levels | "[specify value]" |
+| `[MGT_TIME]` | Specify the mgt time | "[specify value]" |
+| `[MGT_MOBILITY]` | Specify the mgt mobility | "[specify value]" |
+| `[MGT_SUPPORT]` | Specify the mgt support | "[specify value]" |
+| `[MGT_SUCCESS]` | Specify the mgt success | "[specify value]" |
+| `[LEAD_LEVELS]` | Specify the lead levels | "[specify value]" |
+| `[LEAD_TIME]` | Specify the lead time | "[specify value]" |
+| `[LEAD_MOBILITY]` | Specify the lead mobility | "[specify value]" |
+| `[LEAD_SUPPORT]` | Specify the lead support | "[specify value]" |
+| `[LEAD_SUCCESS]` | Specify the lead success | "[specify value]" |
+| `[SPEC_LEVELS]` | Specify the spec levels | "[specify value]" |
+| `[SPEC_TIME]` | Specify the spec time | "[specify value]" |
+| `[SPEC_MOBILITY]` | Specify the spec mobility | "[specify value]" |
+| `[SPEC_SUPPORT]` | Specify the spec support | "[specify value]" |
+| `[SPEC_SUCCESS]` | Specify the spec success | "[specify value]" |
+| `[CROSS_LEVELS]` | Specify the cross levels | "[specify value]" |
+| `[CROSS_TIME]` | Specify the cross time | "[specify value]" |
+| `[CROSS_MOBILITY]` | Specify the cross mobility | "[specify value]" |
+| `[CROSS_SUPPORT]` | Specify the cross support | "[specify value]" |
+| `[CROSS_SUCCESS]` | Specify the cross success | "[specify value]" |
+| `[SPOT_BUDGET]` | Budget allocation for spot | "$500,000" |
+| `[SPOT_AVG]` | Specify the spot avg | "[specify value]" |
+| `[PERF_BUDGET]` | Budget allocation for perf | "$500,000" |
+| `[PERF_ELIGIBLE]` | Specify the perf eligible | "[specify value]" |
+| `[LTI_BUDGET]` | Budget allocation for lti | "$500,000" |
+| `[PROFIT_SHARE]` | Specify the profit share | "[specify value]" |
+| `[MERIT_BUDGET]` | Budget allocation for merit | "$500,000" |
+| `[EOM_PROGRAM]` | Specify the eom program | "[specify value]" |
+| `[PEER_PROGRAM]` | Specify the peer program | "[specify value]" |
+| `[PUBLIC_RECOG]` | Specify the public recog | "[specify value]" |
+| `[CAREER_OPPS]` | Specify the career opps | "[specify value]" |
+| `[FLEX_BENEFITS]` | Specify the flex benefits | "[specify value]" |
+| `[PART_RATE]` | Specify the part rate | "[specify value]" |
+| `[RECOG_RETENTION]` | Specify the recog retention | "[specify value]" |
+| `[RECOG_ENGAGE]` | Specify the recog engage | "[specify value]" |
+| `[RECOG_ROI]` | Specify the recog roi | "[specify value]" |
+| `[INFORMAL_COUNT]` | Specify the informal count | "10" |
+| `[INFORMAL_DUR]` | Specify the informal dur | "[specify value]" |
+| `[INFORMAL_SUCCESS]` | Specify the informal success | "[specify value]" |
+| `[INFORMAL_SUPPORT]` | Specify the informal support | "[specify value]" |
+| `[INFORMAL_EXIT]` | Specify the informal exit | "[specify value]" |
+| `[FORMAL_COUNT]` | Specify the formal count | "10" |
+| `[FORMAL_DUR]` | Specify the formal dur | "[specify value]" |
+| `[FORMAL_SUCCESS]` | Specify the formal success | "[specify value]" |
+| `[FORMAL_SUPPORT]` | Specify the formal support | "[specify value]" |
+| `[FORMAL_EXIT]` | Specify the formal exit | "[specify value]" |
+| `[FINAL_COUNT]` | Specify the final count | "10" |
+| `[FINAL_DUR]` | Specify the final dur | "[specify value]" |
+| `[FINAL_SUCCESS]` | Specify the final success | "[specify value]" |
+| `[FINAL_SUPPORT]` | Specify the final support | "[specify value]" |
+| `[FINAL_EXIT]` | Specify the final exit | "[specify value]" |
+| `[REMED_COUNT]` | Specify the remed count | "10" |
+| `[REMED_DUR]` | Specify the remed dur | "[specify value]" |
+| `[REMED_SUCCESS]` | Specify the remed success | "[specify value]" |
+| `[REMED_SUPPORT]` | Specify the remed support | "[specify value]" |
+| `[REMED_EXIT]` | Specify the remed exit | "[specify value]" |
+| `[TRANS_COUNT]` | Specify the trans count | "10" |
+| `[TRANS_DUR]` | Specify the trans dur | "[specify value]" |
+| `[TRANS_SUPPORT]` | Specify the trans support | "[specify value]" |
+| `[TRANS_EXIT]` | Specify the trans exit | "[specify value]" |
+| `[PERF_DIST]` | Specify the perf dist | "[specify value]" |
+| `[PERF_DIST_TARGET]` | Target or intended perf dist | "[specify value]" |
+| `[PERF_TREND]` | Specify the perf trend | "[specify value]" |
+| `[PERF_ACTION]` | Specify the perf action | "[specify value]" |
+| `[PERF_REVIEW]` | Specify the perf review | "[specify value]" |
+| `[GOAL_ACHIEVE]` | Specify the goal achieve | "Increase efficiency by 30%" |
+| `[GOAL_TREND]` | Specify the goal trend | "Increase efficiency by 30%" |
+| `[GOAL_ACTION]` | Specify the goal action | "Increase efficiency by 30%" |
+| `[GOAL_REVIEW]` | Specify the goal review | "Increase efficiency by 30%" |
+| `[MGR_EFFECT]` | Specify the mgr effect | "[specify value]" |
+| `[MGR_TARGET]` | Target or intended mgr | "[specify value]" |
+| `[MGR_TREND]` | Specify the mgr trend | "[specify value]" |
+| `[MGR_ACTION]` | Specify the mgr action | "[specify value]" |
+| `[MGR_REVIEW]` | Specify the mgr review | "[specify value]" |
+| `[DEV_ROI]` | Specify the dev roi | "[specify value]" |
+| `[DEV_ROI_TARGET]` | Target or intended dev roi | "[specify value]" |
+| `[DEV_TREND]` | Specify the dev trend | "[specify value]" |
+| `[DEV_ACTION]` | Specify the dev action | "[specify value]" |
+| `[DEV_REVIEW]` | Specify the dev review | "[specify value]" |
+| `[SUCC_READY]` | Specify the succ ready | "[specify value]" |
+| `[SUCC_TARGET]` | Target or intended succ | "[specify value]" |
+| `[SUCC_TREND]` | Specify the succ trend | "[specify value]" |
+| `[SUCC_ACTION]` | Specify the succ action | "[specify value]" |
+| `[SUCC_REVIEW]` | Specify the succ review | "[specify value]" |
+| `[RETAIN]` | Specify the retain | "[specify value]" |
+| `[RETAIN_TARGET]` | Target or intended retain | "[specify value]" |
+| `[RETAIN_TREND]` | Specify the retain trend | "[specify value]" |
+| `[RETAIN_ACTION]` | Specify the retain action | "[specify value]" |
+| `[RETAIN_REVIEW]` | Specify the retain review | "[specify value]" |
+
+
 
 ### 3. Competency Framework
 

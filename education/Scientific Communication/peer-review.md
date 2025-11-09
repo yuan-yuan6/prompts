@@ -1,3 +1,17 @@
+---
+title: Peer Review & Critiques Template
+category: education/Scientific Communication
+tags: [automation, communication, data-science, education, marketing, research, security, strategy]
+use_cases:
+  - Implementing conduct comprehensive, constructive peer reviews that maintain scientific rigor ...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - curriculum-development.md
+  - curriculum-development-framework.md
+last_updated: 2025-11-09
+---
+
 # Peer Review & Critiques Template
 
 ## Purpose

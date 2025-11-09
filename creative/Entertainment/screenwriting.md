@@ -1,3 +1,17 @@
+---
+title: Screenwriting Template
+category: creative/Entertainment
+tags: [communication, creative, design, template]
+use_cases:
+  - Implementing create compelling screenplays for films, tv series, and web content with profess...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - creative-writing-framework.md
+  - video-production-pipeline.md
+last_updated: 2025-11-09
+---
+
 # Screenwriting Template
 
 ## Purpose

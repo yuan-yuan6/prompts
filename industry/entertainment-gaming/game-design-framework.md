@@ -1,3 +1,14 @@
+---
+title: Game Design & Development Framework
+category: industry/entertainment-gaming
+tags: [design, development, framework, industry, optimization, strategy, testing]
+use_cases:
+  - Implementing comprehensive framework for designing and developing video games including conce...
+  - Project planning and execution
+  - Strategy development
+last_updated: 2025-11-09
+---
+
 # Game Design & Development Framework
 
 ## Purpose
@@ -63,6 +74,305 @@ Social Features:
 - Communication Tools: [COMM_TOOLS]
 - Leaderboards: [LEADERBOARDS]
 ```
+
+## Variables
+
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `[GAME_TITLE]` | Specify the game title | "[specify value]" |
+| `[GENRE]` | Specify the genre | "[specify value]" |
+| `[TARGET_PLATFORM]` | Target or intended platform | "[specify value]" |
+| `[AUDIENCE_DEMOGRAPHIC]` | Specify the audience demographic | "[specify value]" |
+| `[DEVELOPMENT_BUDGET]` | Budget allocation for development | "$500,000" |
+| `[TEAM_SIZE]` | Specify the team size | "[specify value]" |
+| `[DEVELOPMENT_TIMELINE]` | Timeline or schedule for development | "6 months" |
+| `[PLAYER_RETENTION]` | Specify the player retention | "[specify value]" |
+| `[MONETIZATION_TARGET]` | Target or intended monetization | "[specify value]" |
+| `[METACRITIC_TARGET]` | Target or intended metacritic | "[specify value]" |
+| `[CORE_LOOP]` | Specify the core loop | "[specify value]" |
+| `[LOOP_FEATURES]` | Specify the loop features | "[specify value]" |
+| `[LOOP_MARKET]` | Specify the loop market | "[specify value]" |
+| `[LOOP_METRICS]` | Specify the loop metrics | "[specify value]" |
+| `[LOOP_RISKS]` | Specify the loop risks | "[specify value]" |
+| `[GENRE_INNOVATION]` | Specify the genre innovation | "[specify value]" |
+| `[GENRE_FEATURES]` | Specify the genre features | "[specify value]" |
+| `[GENRE_MARKET]` | Specify the genre market | "[specify value]" |
+| `[GENRE_METRICS]` | Specify the genre metrics | "[specify value]" |
+| `[GENRE_RISKS]` | Specify the genre risks | "[specify value]" |
+| `[VISUAL_STYLE]` | Specify the visual style | "[specify value]" |
+| `[VISUAL_FEATURES]` | Specify the visual features | "[specify value]" |
+| `[VISUAL_MARKET]` | Specify the visual market | "[specify value]" |
+| `[VISUAL_METRICS]` | Specify the visual metrics | "[specify value]" |
+| `[VISUAL_RISKS]` | Specify the visual risks | "[specify value]" |
+| `[TARGET_EXPERIENCE]` | Target or intended experience | "[specify value]" |
+| `[EXPERIENCE_FEATURES]` | Specify the experience features | "[specify value]" |
+| `[EXPERIENCE_MARKET]` | Specify the experience market | "[specify value]" |
+| `[EXPERIENCE_METRICS]` | Specify the experience metrics | "[specify value]" |
+| `[EXPERIENCE_RISKS]` | Specify the experience risks | "[specify value]" |
+| `[PLATFORM_STRATEGY]` | Strategy or approach for platform | "[specify value]" |
+| `[PLATFORM_FEATURES]` | Specify the platform features | "[specify value]" |
+| `[PLATFORM_MARKET]` | Specify the platform market | "[specify value]" |
+| `[PLATFORM_METRICS]` | Specify the platform metrics | "[specify value]" |
+| `[PLATFORM_RISKS]` | Specify the platform risks | "[specify value]" |
+| `[COMPETITIVE_EDGE]` | Specify the competitive edge | "[specify value]" |
+| `[EDGE_FEATURES]` | Specify the edge features | "[specify value]" |
+| `[EDGE_MARKET]` | Specify the edge market | "[specify value]" |
+| `[EDGE_METRICS]` | Specify the edge metrics | "[specify value]" |
+| `[EDGE_RISKS]` | Specify the edge risks | "[specify value]" |
+| `[CHARACTER_MOVEMENT]` | Specify the character movement | "[specify value]" |
+| `[CAMERA_SYSTEM]` | Specify the camera system | "[specify value]" |
+| `[INPUT_MAPPING]` | Specify the input mapping | "[specify value]" |
+| `[RESPONSE_TIME]` | Specify the response time | "[specify value]" |
+| `[CONTROL_SCHEMES]` | Specify the control schemes | "[specify value]" |
+| `[ACCESSIBILITY]` | Specify the accessibility | "[specify value]" |
+| `[COMBAT_MECHANICS]` | Specify the combat mechanics | "[specify value]" |
+| `[WEAPON_SYSTEMS]` | Specify the weapon systems | "[specify value]" |
+| `[ABILITY_FRAMEWORK]` | Specify the ability framework | "[specify value]" |
+| `[COMBO_SYSTEM]` | Specify the combo system | "[specify value]" |
+| `[DAMAGE_CALC]` | Specify the damage calc | "[specify value]" |
+| `[AI_BEHAVIOR]` | Specify the ai behavior | "[specify value]" |
+| `[LEVELING_MECHANICS]` | Specify the leveling mechanics | "[specify value]" |
+| `[SKILL_TREES]` | Specify the skill trees | "[specify value]" |
+| `[CHARACTER_CUSTOM]` | Specify the character custom | "[specify value]" |
+| `[EQUIPMENT_SYSTEM]` | Specify the equipment system | "[specify value]" |
+| `[UPGRADE_PATHS]` | Specify the upgrade paths | "[specify value]" |
+| `[ACHIEVEMENTS]` | Specify the achievements | "[specify value]" |
+| `[CURRENCY_SYSTEMS]` | Specify the currency systems | "[specify value]" |
+| `[INVENTORY_MGMT]` | Specify the inventory mgmt | "[specify value]" |
+| `[CRAFTING_MECHANICS]` | Specify the crafting mechanics | "[specify value]" |
+| `[RESOURCE_GEN]` | Specify the resource gen | "[specify value]" |
+| `[TRADING_SYSTEMS]` | Specify the trading systems | "[specify value]" |
+| `[ECONOMY_BALANCE]` | Specify the economy balance | "[specify value]" |
+| `[MULTIPLAYER_MODES]` | Specify the multiplayer modes | "[specify value]" |
+| `[COOP_MECHANICS]` | Specify the coop mechanics | "[specify value]" |
+| `[PVP_SYSTEMS]` | Specify the pvp systems | "[specify value]" |
+| `[GUILD_FEATURES]` | Specify the guild features | "[specify value]" |
+| `[COMM_TOOLS]` | Specify the comm tools | "[specify value]" |
+| `[LEADERBOARDS]` | Specify the leaderboards | "[specify value]" |
+| `[MAIN_STORY_APPROACH]` | Specify the main story approach | "[specify value]" |
+| `[MAIN_STORY_VOLUME]` | Specify the main story volume | "[specify value]" |
+| `[MAIN_STORY_INTEGRATION]` | Specify the main story integration | "[specify value]" |
+| `[MAIN_STORY_AGENCY]` | Specify the main story agency | "[specify value]" |
+| `[MAIN_STORY_LOCALIZATION]` | Specify the main story localization | "[specify value]" |
+| `[SIDE_QUEST_APPROACH]` | Specify the side quest approach | "[specify value]" |
+| `[SIDE_QUEST_VOLUME]` | Specify the side quest volume | "[specify value]" |
+| `[SIDE_QUEST_INTEGRATION]` | Specify the side quest integration | "[specify value]" |
+| `[SIDE_QUEST_AGENCY]` | Specify the side quest agency | "[specify value]" |
+| `[SIDE_QUEST_LOCALIZATION]` | Specify the side quest localization | "[specify value]" |
+| `[CHARACTER_APPROACH]` | Specify the character approach | "[specify value]" |
+| `[CHARACTER_VOLUME]` | Specify the character volume | "[specify value]" |
+| `[CHARACTER_INTEGRATION]` | Specify the character integration | "[specify value]" |
+| `[CHARACTER_AGENCY]` | Specify the character agency | "[specify value]" |
+| `[CHARACTER_LOCALIZATION]` | Specify the character localization | "[specify value]" |
+| `[LORE_APPROACH]` | Specify the lore approach | "[specify value]" |
+| `[LORE_VOLUME]` | Specify the lore volume | "[specify value]" |
+| `[LORE_INTEGRATION]` | Specify the lore integration | "[specify value]" |
+| `[LORE_AGENCY]` | Specify the lore agency | "[specify value]" |
+| `[LORE_LOCALIZATION]` | Specify the lore localization | "[specify value]" |
+| `[DIALOGUE_APPROACH]` | Specify the dialogue approach | "[specify value]" |
+| `[DIALOGUE_VOLUME]` | Specify the dialogue volume | "[specify value]" |
+| `[DIALOGUE_INTEGRATION]` | Specify the dialogue integration | "[specify value]" |
+| `[DIALOGUE_AGENCY]` | Specify the dialogue agency | "[specify value]" |
+| `[DIALOGUE_LOCALIZATION]` | Specify the dialogue localization | "[specify value]" |
+| `[ENV_APPROACH]` | Specify the env approach | "[specify value]" |
+| `[ENV_VOLUME]` | Specify the env volume | "[specify value]" |
+| `[ENV_INTEGRATION]` | Specify the env integration | "[specify value]" |
+| `[ENV_AGENCY]` | Specify the env agency | "[specify value]" |
+| `[ENV_LOCALIZATION]` | Specify the env localization | "[specify value]" |
+| `[LEVEL_FLOW]` | Specify the level flow | "[specify value]" |
+| `[PACING_STRUCTURE]` | Specify the pacing structure | "[specify value]" |
+| `[DIFFICULTY_CURVE]` | Specify the difficulty curve | "[specify value]" |
+| `[PLAYER_GUIDANCE]` | Specify the player guidance | "[specify value]" |
+| `[EXPLORATION_REWARDS]` | Specify the exploration rewards | "[specify value]" |
+| `[REPLAYABILITY]` | Specify the replayability | "[specify value]" |
+| `[HUB_WORLDS]` | Specify the hub worlds | "[specify value]" |
+| `[LINEAR_LEVELS]` | Specify the linear levels | "[specify value]" |
+| `[OPEN_WORLD]` | Specify the open world | "[specify value]" |
+| `[DUNGEONS]` | Specify the dungeons | "[specify value]" |
+| `[PVP_ARENAS]` | Specify the pvp arenas | "[specify value]" |
+| `[TUTORIAL_ZONES]` | Specify the tutorial zones | "[specify value]" |
+| `[ART_DIRECTION]` | Specify the art direction | "[specify value]" |
+| `[COLOR_PALETTES]` | Specify the color palettes | "[specify value]" |
+| `[LIGHTING_DESIGN]` | Specify the lighting design | "[specify value]" |
+| `[ENV_EFFECTS]` | Specify the env effects | "[specify value]" |
+| `[ASSET_LIBRARIES]` | Specify the asset libraries | "[specify value]" |
+| `[PERFORMANCE_TARGETS]` | Target or intended performance s | "[specify value]" |
+| `[DESTRUCTIBLES]` | Specify the destructibles | "[specify value]" |
+| `[ENV_HAZARDS]` | Specify the env hazards | "[specify value]" |
+| `[HIDDEN_SECRETS]` | Specify the hidden secrets | "[specify value]" |
+| `[PUZZLE_ELEMENTS]` | Specify the puzzle elements | "[specify value]" |
+| `[DYNAMIC_EVENTS]` | Specify the dynamic events | "[specify value]" |
+| `[NPC_PLACEMENT]` | Specify the npc placement | "[specify value]" |
+| `[DIFF_INITIAL]` | Specify the diff initial | "[specify value]" |
+| `[DIFF_TESTING]` | Specify the diff testing | "[specify value]" |
+| `[DIFF_CRITERIA]` | Specify the diff criteria | "[specify value]" |
+| `[DIFF_METRICS]` | Specify the diff metrics | "[specify value]" |
+| `[DIFF_VALIDATION]` | Specify the diff validation | "[specify value]" |
+| `[ECON_INITIAL]` | Specify the econ initial | "[specify value]" |
+| `[ECON_TESTING]` | Specify the econ testing | "[specify value]" |
+| `[ECON_CRITERIA]` | Specify the econ criteria | "[specify value]" |
+| `[ECON_METRICS]` | Specify the econ metrics | "[specify value]" |
+| `[ECON_VALIDATION]` | Specify the econ validation | "[specify value]" |
+| `[COMBAT_INITIAL]` | Specify the combat initial | "[specify value]" |
+| `[COMBAT_TESTING]` | Specify the combat testing | "[specify value]" |
+| `[COMBAT_CRITERIA]` | Specify the combat criteria | "[specify value]" |
+| `[COMBAT_METRICS]` | Specify the combat metrics | "[specify value]" |
+| `[COMBAT_VALIDATION]` | Specify the combat validation | "[specify value]" |
+| `[PROG_INITIAL]` | Specify the prog initial | "[specify value]" |
+| `[PROG_TESTING]` | Specify the prog testing | "[specify value]" |
+| `[PROG_CRITERIA]` | Specify the prog criteria | "[specify value]" |
+| `[PROG_METRICS]` | Specify the prog metrics | "[specify value]" |
+| `[PROG_VALIDATION]` | Specify the prog validation | "[specify value]" |
+| `[REWARD_INITIAL]` | Specify the reward initial | "[specify value]" |
+| `[REWARD_TESTING]` | Specify the reward testing | "[specify value]" |
+| `[REWARD_CRITERIA]` | Specify the reward criteria | "[specify value]" |
+| `[REWARD_METRICS]` | Specify the reward metrics | "[specify value]" |
+| `[REWARD_VALIDATION]` | Specify the reward validation | "[specify value]" |
+| `[MP_INITIAL]` | Specify the mp initial | "[specify value]" |
+| `[MP_TESTING]` | Specify the mp testing | "[specify value]" |
+| `[MP_CRITERIA]` | Specify the mp criteria | "[specify value]" |
+| `[MP_METRICS]` | Specify the mp metrics | "[specify value]" |
+| `[MP_VALIDATION]` | Specify the mp validation | "[specify value]" |
+| `[BASE_IMPLEMENTATION]` | Specify the base implementation | "[specify value]" |
+| `[BASE_PRICE]` | Specify the base price | "[specify value]" |
+| `[BASE_CONVERSION]` | Specify the base conversion | "[specify value]" |
+| `[BASE_ARPU]` | Specify the base arpu | "[specify value]" |
+| `[BASE_ETHICS]` | Specify the base ethics | "[specify value]" |
+| `[DLC_IMPLEMENTATION]` | Specify the dlc implementation | "[specify value]" |
+| `[DLC_PRICE]` | Specify the dlc price | "[specify value]" |
+| `[DLC_CONVERSION]` | Specify the dlc conversion | "[specify value]" |
+| `[DLC_ARPU]` | Specify the dlc arpu | "[specify value]" |
+| `[DLC_ETHICS]` | Specify the dlc ethics | "[specify value]" |
+| `[IAP_IMPLEMENTATION]` | Specify the iap implementation | "[specify value]" |
+| `[IAP_PRICE]` | Specify the iap price | "[specify value]" |
+| `[IAP_CONVERSION]` | Specify the iap conversion | "[specify value]" |
+| `[IAP_ARPU]` | Specify the iap arpu | "[specify value]" |
+| `[IAP_ETHICS]` | Specify the iap ethics | "[specify value]" |
+| `[SEASON_IMPLEMENTATION]` | Specify the season implementation | "[specify value]" |
+| `[SEASON_PRICE]` | Specify the season price | "[specify value]" |
+| `[SEASON_CONVERSION]` | Specify the season conversion | "[specify value]" |
+| `[SEASON_ARPU]` | Specify the season arpu | "[specify value]" |
+| `[SEASON_ETHICS]` | Specify the season ethics | "[specify value]" |
+| `[COSMETIC_IMPLEMENTATION]` | Specify the cosmetic implementation | "[specify value]" |
+| `[COSMETIC_PRICE]` | Specify the cosmetic price | "[specify value]" |
+| `[COSMETIC_CONVERSION]` | Specify the cosmetic conversion | "[specify value]" |
+| `[COSMETIC_ARPU]` | Specify the cosmetic arpu | "[specify value]" |
+| `[COSMETIC_ETHICS]` | Specify the cosmetic ethics | "[specify value]" |
+| `[SUB_IMPLEMENTATION]` | Specify the sub implementation | "[specify value]" |
+| `[SUB_PRICE]` | Specify the sub price | "[specify value]" |
+| `[SUB_CONVERSION]` | Specify the sub conversion | "[specify value]" |
+| `[SUB_ARPU]` | Specify the sub arpu | "[specify value]" |
+| `[SUB_ETHICS]` | Specify the sub ethics | "[specify value]" |
+| `[ENGINE_CHOICE]` | Specify the engine choice | "[specify value]" |
+| `[VERSION_CONTROL]` | Specify the version control | "[specify value]" |
+| `[BUILD_PIPELINE]` | Specify the build pipeline | "[specify value]" |
+| `[ASSET_PIPELINE]` | Specify the asset pipeline | "[specify value]" |
+| `[TESTING_FRAMEWORK]` | Specify the testing framework | "[specify value]" |
+| `[DEPLOYMENT_SYSTEM]` | Specify the deployment system | "[specify value]" |
+| `[TARGET_FPS]` | Target or intended fps | "[specify value]" |
+| `[RESOLUTION_SUPPORT]` | Specify the resolution support | "[specify value]" |
+| `[MEMORY_MGMT]` | Specify the memory mgmt | "[specify value]" |
+| `[LOADING_OPT]` | Specify the loading opt | "[specify value]" |
+| `[NETWORK_ARCH]` | Specify the network arch | "[specify value]" |
+| `[SCALABILITY_PLAN]` | Specify the scalability plan | "[specify value]" |
+| `[MIN_SPECS]` | Specify the min specs | "[specify value]" |
+| `[REC_SPECS]` | Specify the rec specs | "[specify value]" |
+| `[CONSOLE_CERT]` | Specify the console cert | "[specify value]" |
+| `[MOBILE_OPT]` | Specify the mobile opt | "[specify value]" |
+| `[CLOUD_GAMING]` | Specify the cloud gaming | "[specify value]" |
+| `[CROSS_PLATFORM]` | Specify the cross platform | "[specify value]" |
+| `[SERVER_ARCH]` | Specify the server arch | "[specify value]" |
+| `[DATABASE_DESIGN]` | Specify the database design | "[specify value]" |
+| `[USER_AUTH]` | Specify the user auth | "[specify value]" |
+| `[ANALYTICS_INT]` | Specify the analytics int | "[specify value]" |
+| `[PAYMENT_PROCESS]` | Specify the payment process | "[specify value]" |
+| `[ANTI_CHEAT]` | Specify the anti cheat | "[specify value]" |
+| `[DAILY_IMPLEMENTATION]` | Specify the daily implementation | "[specify value]" |
+| `[DAILY_FREQUENCY]` | Specify the daily frequency | "[specify value]" |
+| `[DAILY_REWARDS]` | Specify the daily rewards | "[specify value]" |
+| `[DAILY_RETENTION]` | Specify the daily retention | "[specify value]" |
+| `[DAILY_FEEDBACK]` | Specify the daily feedback | "[specify value]" |
+| `[EVENT_IMPLEMENTATION]` | Specify the event implementation | "[specify value]" |
+| `[EVENT_FREQUENCY]` | Specify the event frequency | "[specify value]" |
+| `[EVENT_REWARDS]` | Specify the event rewards | "[specify value]" |
+| `[EVENT_RETENTION]` | Specify the event retention | "[specify value]" |
+| `[EVENT_FEEDBACK]` | Specify the event feedback | "[specify value]" |
+| `[PASS_IMPLEMENTATION]` | Specify the pass implementation | "[specify value]" |
+| `[PASS_FREQUENCY]` | Specify the pass frequency | "[specify value]" |
+| `[PASS_REWARDS]` | Specify the pass rewards | "[specify value]" |
+| `[PASS_RETENTION]` | Specify the pass retention | "[specify value]" |
+| `[PASS_FEEDBACK]` | Specify the pass feedback | "[specify value]" |
+| `[SOCIAL_IMPLEMENTATION]` | Specify the social implementation | "[specify value]" |
+| `[SOCIAL_FREQUENCY]` | Specify the social frequency | "[specify value]" |
+| `[SOCIAL_REWARDS]` | Specify the social rewards | "[specify value]" |
+| `[SOCIAL_RETENTION]` | Specify the social retention | "[specify value]" |
+| `[SOCIAL_FEEDBACK]` | Specify the social feedback | "[specify value]" |
+| `[COMP_IMPLEMENTATION]` | Specify the comp implementation | "[specify value]" |
+| `[COMP_FREQUENCY]` | Specify the comp frequency | "[specify value]" |
+| `[COMP_REWARDS]` | Specify the comp rewards | "[specify value]" |
+| `[COMP_RETENTION]` | Specify the comp retention | "[specify value]" |
+| `[COMP_FEEDBACK]` | Specify the comp feedback | "[specify value]" |
+| `[UPDATE_IMPLEMENTATION]` | Specify the update implementation | "2025-01-15" |
+| `[UPDATE_FREQUENCY]` | Specify the update frequency | "2025-01-15" |
+| `[UPDATE_REWARDS]` | Specify the update rewards | "2025-01-15" |
+| `[UPDATE_RETENTION]` | Specify the update retention | "2025-01-15" |
+| `[UPDATE_FEEDBACK]` | Specify the update feedback | "2025-01-15" |
+| `[SOCIAL_BUDGET]` | Budget allocation for social | "$500,000" |
+| `[SOCIAL_REACH]` | Specify the social reach | "[specify value]" |
+| `[SOCIAL_CONVERSION]` | Specify the social conversion | "[specify value]" |
+| `[SOCIAL_CAC]` | Specify the social cac | "[specify value]" |
+| `[SOCIAL_LTV]` | Specify the social ltv | "[specify value]" |
+| `[INFLUENCER_BUDGET]` | Budget allocation for influencer | "$500,000" |
+| `[INFLUENCER_REACH]` | Specify the influencer reach | "[specify value]" |
+| `[INFLUENCER_CONVERSION]` | Specify the influencer conversion | "[specify value]" |
+| `[INFLUENCER_CAC]` | Specify the influencer cac | "[specify value]" |
+| `[INFLUENCER_LTV]` | Specify the influencer ltv | "[specify value]" |
+| `[ADS_BUDGET]` | Budget allocation for ads | "$500,000" |
+| `[ADS_REACH]` | Specify the ads reach | "[specify value]" |
+| `[ADS_CONVERSION]` | Specify the ads conversion | "[specify value]" |
+| `[ADS_CAC]` | Specify the ads cac | "[specify value]" |
+| `[ADS_LTV]` | Specify the ads ltv | "[specify value]" |
+| `[PR_BUDGET]` | Budget allocation for pr | "$500,000" |
+| `[PR_REACH]` | Specify the pr reach | "[specify value]" |
+| `[PR_CONVERSION]` | Specify the pr conversion | "[specify value]" |
+| `[PR_CAC]` | Specify the pr cac | "[specify value]" |
+| `[PR_LTV]` | Specify the pr ltv | "[specify value]" |
+| `[EVENT_BUDGET]` | Budget allocation for event | "$500,000" |
+| `[EVENT_REACH]` | Specify the event reach | "[specify value]" |
+| `[EVENT_CONVERSION]` | Specify the event conversion | "[specify value]" |
+| `[EVENT_CAC]` | Specify the event cac | "[specify value]" |
+| `[EVENT_LTV]` | Specify the event ltv | "[specify value]" |
+| `[PLATFORM_BUDGET]` | Budget allocation for platform | "$500,000" |
+| `[PLATFORM_REACH]` | Specify the platform reach | "[specify value]" |
+| `[PLATFORM_CONVERSION]` | Specify the platform conversion | "[specify value]" |
+| `[PLATFORM_CAC]` | Specify the platform cac | "[specify value]" |
+| `[PLATFORM_LTV]` | Specify the platform ltv | "[specify value]" |
+| `[CONTENT_MONTH_1_3]` | Specify the content month 1 3 | "[specify value]" |
+| `[CONTENT_MONTH_4_6]` | Specify the content month 4 6 | "[specify value]" |
+| `[CONTENT_MONTH_7_12]` | Specify the content month 7 12 | "[specify value]" |
+| `[CONTENT_YEAR_2]` | Specify the content year 2 | "[specify value]" |
+| `[LONGTERM_VISION]` | Specify the longterm vision | "[specify value]" |
+| `[EOL_PLAN]` | Specify the eol plan | "[specify value]" |
+| `[HOTFIX_SCHEDULE]` | Specify the hotfix schedule | "[specify value]" |
+| `[BALANCE_SCHEDULE]` | Specify the balance schedule | "[specify value]" |
+| `[CONTENT_SCHEDULE]` | Specify the content schedule | "[specify value]" |
+| `[MAJOR_SCHEDULE]` | Specify the major schedule | "[specify value]" |
+| `[SEASONAL_SCHEDULE]` | Specify the seasonal schedule | "[specify value]" |
+| `[EXPANSION_SCHEDULE]` | Specify the expansion schedule | "[specify value]" |
+| `[CUSTOMER_SERVICE]` | Specify the customer service | "[specify value]" |
+| `[BUG_REPORTING]` | Specify the bug reporting | "[specify value]" |
+| `[FEEDBACK_COLLECTION]` | Specify the feedback collection | "[specify value]" |
+| `[COMMUNITY_MGMT]` | Specify the community mgmt | "[specify value]" |
+| `[FORUM_MODERATION]` | Specify the forum moderation | "[specify value]" |
+| `[SOCIAL_RESPONSE]` | Specify the social response | "[specify value]" |
+| `[PLAYER_METRICS]` | Specify the player metrics | "[specify value]" |
+| `[REVENUE_TRACKING]` | Specify the revenue tracking | "[specify value]" |
+| `[BUG_TRACKING]` | Specify the bug tracking | "[specify value]" |
+| `[SERVER_MONITORING]` | Specify the server monitoring | "[specify value]" |
+| `[REVIEW_ANALYSIS]` | Specify the review analysis | "[specify value]" |
+| `[COMPETITOR_ANALYSIS]` | Specify the competitor analysis | "[specify value]" |
+
+
 
 ### 3. Narrative & World Building
 

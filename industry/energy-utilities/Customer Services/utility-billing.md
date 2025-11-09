@@ -1,3 +1,17 @@
+---
+title: Utility Billing & Customer Management System
+category: industry/energy-utilities/Customer Services
+tags: [data-science, design, industry, management, optimization, research, strategy]
+use_cases:
+  - Implementing comprehensive framework for utility billing operations, customer service managem...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - plant-operations-management.md
+  - smart-grid-implementation.md
+last_updated: 2025-11-09
+---
+
 # Utility Billing & Customer Management System
 
 ## Purpose
@@ -41,6 +55,270 @@ Mobile App: [MOBILE_SYSTEM]
 Integration Method: [INTEGRATION]
 Data Warehouse: [DW_SYSTEM]
 ```
+
+## Variables
+
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `[UTILITY_NAME]` | Name of the utility | "John Smith" |
+| `[CUSTOMER_COUNT]` | Specify the customer count | "10" |
+| `[ANNUAL_REVENUE]` | Specify the annual revenue | "[specify value]" |
+| `[BILL_COUNT]` | Specify the bill count | "10" |
+| `[RES_ACCOUNTS]` | Specify the res accounts | "10" |
+| `[RES_REVENUE]` | Specify the res revenue | "[specify value]" |
+| `[RES_PATTERN]` | Specify the res pattern | "[specify value]" |
+| `[RES_PAYMENT]` | Specify the res payment | "[specify value]" |
+| `[RES_NEEDS]` | Specify the res needs | "[specify value]" |
+| `[SC_ACCOUNTS]` | Specify the sc accounts | "10" |
+| `[SC_REVENUE]` | Specify the sc revenue | "[specify value]" |
+| `[SC_PATTERN]` | Specify the sc pattern | "[specify value]" |
+| `[SC_PAYMENT]` | Specify the sc payment | "[specify value]" |
+| `[SC_NEEDS]` | Specify the sc needs | "[specify value]" |
+| `[LC_ACCOUNTS]` | Specify the lc accounts | "10" |
+| `[LC_REVENUE]` | Specify the lc revenue | "[specify value]" |
+| `[LC_PATTERN]` | Specify the lc pattern | "[specify value]" |
+| `[LC_PAYMENT]` | Specify the lc payment | "[specify value]" |
+| `[LC_NEEDS]` | Specify the lc needs | "[specify value]" |
+| `[IND_ACCOUNTS]` | Specify the ind accounts | "10" |
+| `[IND_REVENUE]` | Specify the ind revenue | "[specify value]" |
+| `[IND_PATTERN]` | Specify the ind pattern | "[specify value]" |
+| `[IND_PAYMENT]` | Specify the ind payment | "[specify value]" |
+| `[IND_NEEDS]` | Specify the ind needs | "[specify value]" |
+| `[GOV_ACCOUNTS]` | Specify the gov accounts | "10" |
+| `[GOV_REVENUE]` | Specify the gov revenue | "[specify value]" |
+| `[GOV_PATTERN]` | Specify the gov pattern | "[specify value]" |
+| `[GOV_PAYMENT]` | Specify the gov payment | "[specify value]" |
+| `[GOV_NEEDS]` | Specify the gov needs | "[specify value]" |
+| `[RATE_1]` | Specify the rate 1 | "[specify value]" |
+| `[FIXED_1]` | Specify the fixed 1 | "[specify value]" |
+| `[ENERGY_1]` | Specify the energy 1 | "[specify value]" |
+| `[DEMAND_1]` | Specify the demand 1 | "[specify value]" |
+| `[TOU_1]` | Specify the tou 1 | "[specify value]" |
+| `[RIDERS_1]` | Specify the riders 1 | "[specify value]" |
+| `[RATE_2]` | Specify the rate 2 | "[specify value]" |
+| `[FIXED_2]` | Specify the fixed 2 | "[specify value]" |
+| `[ENERGY_2]` | Specify the energy 2 | "[specify value]" |
+| `[DEMAND_2]` | Specify the demand 2 | "[specify value]" |
+| `[TOU_2]` | Specify the tou 2 | "[specify value]" |
+| `[RIDERS_2]` | Specify the riders 2 | "[specify value]" |
+| `[RATE_3]` | Specify the rate 3 | "[specify value]" |
+| `[FIXED_3]` | Specify the fixed 3 | "[specify value]" |
+| `[ENERGY_3]` | Specify the energy 3 | "[specify value]" |
+| `[DEMAND_3]` | Specify the demand 3 | "[specify value]" |
+| `[TOU_3]` | Specify the tou 3 | "[specify value]" |
+| `[RIDERS_3]` | Specify the riders 3 | "[specify value]" |
+| `[RATE_4]` | Specify the rate 4 | "[specify value]" |
+| `[FIXED_4]` | Specify the fixed 4 | "[specify value]" |
+| `[ENERGY_4]` | Specify the energy 4 | "[specify value]" |
+| `[DEMAND_4]` | Specify the demand 4 | "[specify value]" |
+| `[TOU_4]` | Specify the tou 4 | "[specify value]" |
+| `[RIDERS_4]` | Specify the riders 4 | "[specify value]" |
+| `[RATE_5]` | Specify the rate 5 | "[specify value]" |
+| `[FIXED_5]` | Specify the fixed 5 | "[specify value]" |
+| `[ENERGY_5]` | Specify the energy 5 | "[specify value]" |
+| `[DEMAND_5]` | Specify the demand 5 | "[specify value]" |
+| `[TOU_5]` | Specify the tou 5 | "[specify value]" |
+| `[RIDERS_5]` | Specify the riders 5 | "[specify value]" |
+| `[CIS_SYSTEM]` | Specify the cis system | "[specify value]" |
+| `[MDM_SYSTEM]` | Specify the mdm system | "[specify value]" |
+| `[BILL_SYSTEM]` | Specify the bill system | "[specify value]" |
+| `[PAYMENT_SYSTEM]` | Specify the payment system | "[specify value]" |
+| `[PORTAL_SYSTEM]` | Specify the portal system | "[specify value]" |
+| `[MOBILE_SYSTEM]` | Specify the mobile system | "[specify value]" |
+| `[INTEGRATION]` | Specify the integration | "[specify value]" |
+| `[DW_SYSTEM]` | Specify the dw system | "[specify value]" |
+| `[CYCLE_1]` | Specify the cycle 1 | "[specify value]" |
+| `[ACCOUNTS_1]` | Specify the accounts 1 | "10" |
+| `[READ_1]` | Specify the read 1 | "[specify value]" |
+| `[BILL_1]` | Specify the bill 1 | "[specify value]" |
+| `[DUE_1]` | Specify the due 1 | "[specify value]" |
+| `[TIME_1]` | Specify the time 1 | "[specify value]" |
+| `[CYCLE_2]` | Specify the cycle 2 | "[specify value]" |
+| `[ACCOUNTS_2]` | Specify the accounts 2 | "10" |
+| `[READ_2]` | Specify the read 2 | "[specify value]" |
+| `[BILL_2]` | Specify the bill 2 | "[specify value]" |
+| `[DUE_2]` | Specify the due 2 | "[specify value]" |
+| `[TIME_2]` | Specify the time 2 | "[specify value]" |
+| `[CYCLE_3]` | Specify the cycle 3 | "[specify value]" |
+| `[ACCOUNTS_3]` | Specify the accounts 3 | "10" |
+| `[READ_3]` | Specify the read 3 | "[specify value]" |
+| `[BILL_3]` | Specify the bill 3 | "[specify value]" |
+| `[DUE_3]` | Specify the due 3 | "[specify value]" |
+| `[TIME_3]` | Specify the time 3 | "[specify value]" |
+| `[CYCLE_4]` | Specify the cycle 4 | "[specify value]" |
+| `[ACCOUNTS_4]` | Specify the accounts 4 | "10" |
+| `[READ_4]` | Specify the read 4 | "[specify value]" |
+| `[BILL_4]` | Specify the bill 4 | "[specify value]" |
+| `[DUE_4]` | Specify the due 4 | "[specify value]" |
+| `[TIME_4]` | Specify the time 4 | "[specify value]" |
+| `[ONLINE_VOL]` | Specify the online vol | "[specify value]" |
+| `[ONLINE_COST]` | Specify the online cost | "[specify value]" |
+| `[ONLINE_SUCCESS]` | Specify the online success | "[specify value]" |
+| `[ONLINE_SAT]` | Specify the online sat | "[specify value]" |
+| `[ONLINE_ENHANCE]` | Specify the online enhance | "[specify value]" |
+| `[MOBILE_VOL]` | Specify the mobile vol | "[specify value]" |
+| `[MOBILE_COST]` | Specify the mobile cost | "[specify value]" |
+| `[MOBILE_SUCCESS]` | Specify the mobile success | "[specify value]" |
+| `[MOBILE_SAT]` | Specify the mobile sat | "[specify value]" |
+| `[MOBILE_ENHANCE]` | Specify the mobile enhance | "[specify value]" |
+| `[AUTO_VOL]` | Specify the auto vol | "[specify value]" |
+| `[AUTO_COST]` | Specify the auto cost | "[specify value]" |
+| `[AUTO_SUCCESS]` | Specify the auto success | "[specify value]" |
+| `[AUTO_SAT]` | Specify the auto sat | "[specify value]" |
+| `[AUTO_ENHANCE]` | Specify the auto enhance | "[specify value]" |
+| `[IVR_VOL]` | Specify the ivr vol | "[specify value]" |
+| `[IVR_COST]` | Specify the ivr cost | "[specify value]" |
+| `[IVR_SUCCESS]` | Specify the ivr success | "[specify value]" |
+| `[IVR_SAT]` | Specify the ivr sat | "[specify value]" |
+| `[IVR_ENHANCE]` | Specify the ivr enhance | "[specify value]" |
+| `[WALKIN_VOL]` | Specify the walkin vol | "[specify value]" |
+| `[WALKIN_COST]` | Specify the walkin cost | "[specify value]" |
+| `[WALKIN_SUCCESS]` | Specify the walkin success | "[specify value]" |
+| `[WALKIN_SAT]` | Specify the walkin sat | "[specify value]" |
+| `[WALKIN_ENHANCE]` | Specify the walkin enhance | "[specify value]" |
+| `[MAIL_VOL]` | Specify the mail vol | "[specify value]" |
+| `[MAIL_COST]` | Specify the mail cost | "[specify value]" |
+| `[MAIL_SUCCESS]` | Specify the mail success | "[specify value]" |
+| `[MAIL_SAT]` | Specify the mail sat | "[specify value]" |
+| `[MAIL_ENHANCE]` | Specify the mail enhance | "[specify value]" |
+| `[CURRENT_AMT]` | Specify the current amt | "[specify value]" |
+| `[CURRENT_ACC]` | Specify the current acc | "[specify value]" |
+| `[CURRENT_PCT]` | Specify the current pct | "25%" |
+| `[CURRENT_COLL]` | Specify the current coll | "[specify value]" |
+| `[CURRENT_STRAT]` | Specify the current strat | "[specify value]" |
+| `[EARLY_ACTION]` | Specify the early action | "[specify value]" |
+| `[FIRST_NOTICE]` | Specify the first notice | "[specify value]" |
+| `[SECOND_NOTICE]` | Specify the second notice | "[specify value]" |
+| `[FINAL_NOTICE]` | Specify the final notice | "[specify value]" |
+| `[DISCONNECT_WARNING]` | Specify the disconnect warning | "[specify value]" |
+| `[DISCONNECT_ACTION]` | Specify the disconnect action | "[specify value]" |
+| `[WRITEOFF_THRESHOLD]` | Specify the writeoff threshold | "[specify value]" |
+| `[AGENCY_TRIGGER]` | Specify the agency trigger | "[specify value]" |
+| `[PHONE_VOL]` | Specify the phone vol | "[specify value]" |
+| `[PHONE_AHT]` | Specify the phone aht | "[specify value]" |
+| `[PHONE_FCR]` | Specify the phone fcr | "[specify value]" |
+| `[PHONE_CSAT]` | Specify the phone csat | "[specify value]" |
+| `[PHONE_COST]` | Specify the phone cost | "[specify value]" |
+| `[EMAIL_VOL]` | Specify the email vol | "john.smith@example.com" |
+| `[EMAIL_AHT]` | Specify the email aht | "john.smith@example.com" |
+| `[EMAIL_FCR]` | Specify the email fcr | "john.smith@example.com" |
+| `[EMAIL_CSAT]` | Specify the email csat | "john.smith@example.com" |
+| `[EMAIL_COST]` | Specify the email cost | "john.smith@example.com" |
+| `[CHAT_VOL]` | Specify the chat vol | "[specify value]" |
+| `[CHAT_AHT]` | Specify the chat aht | "[specify value]" |
+| `[CHAT_FCR]` | Specify the chat fcr | "[specify value]" |
+| `[CHAT_CSAT]` | Specify the chat csat | "[specify value]" |
+| `[CHAT_COST]` | Specify the chat cost | "[specify value]" |
+| `[SOCIAL_VOL]` | Specify the social vol | "[specify value]" |
+| `[SOCIAL_AHT]` | Specify the social aht | "[specify value]" |
+| `[SOCIAL_FCR]` | Specify the social fcr | "[specify value]" |
+| `[SOCIAL_CSAT]` | Specify the social csat | "[specify value]" |
+| `[SOCIAL_COST]` | Specify the social cost | "[specify value]" |
+| `[SELF_VOL]` | Specify the self vol | "[specify value]" |
+| `[SELF_FCR]` | Specify the self fcr | "[specify value]" |
+| `[SELF_CSAT]` | Specify the self csat | "[specify value]" |
+| `[SELF_COST]` | Specify the self cost | "[specify value]" |
+| `[METER_VOL]` | Specify the meter vol | "[specify value]" |
+| `[METER_CAUSE]` | Specify the meter cause | "[specify value]" |
+| `[METER_TIME]` | Specify the meter time | "[specify value]" |
+| `[METER_PREVENT]` | Specify the meter prevent | "[specify value]" |
+| `[METER_IMPACT]` | Specify the meter impact | "[specify value]" |
+| `[RATE_VOL]` | Specify the rate vol | "[specify value]" |
+| `[RATE_CAUSE]` | Specify the rate cause | "[specify value]" |
+| `[RATE_TIME]` | Specify the rate time | "[specify value]" |
+| `[RATE_PREVENT]` | Specify the rate prevent | "[specify value]" |
+| `[RATE_IMPACT]` | Specify the rate impact | "[specify value]" |
+| `[HIGH_VOL]` | Specify the high vol | "[specify value]" |
+| `[HIGH_CAUSE]` | Specify the high cause | "[specify value]" |
+| `[HIGH_TIME]` | Specify the high time | "[specify value]" |
+| `[HIGH_PREVENT]` | Specify the high prevent | "[specify value]" |
+| `[HIGH_IMPACT]` | Specify the high impact | "[specify value]" |
+| `[ZERO_VOL]` | Specify the zero vol | "[specify value]" |
+| `[ZERO_CAUSE]` | Specify the zero cause | "[specify value]" |
+| `[ZERO_TIME]` | Specify the zero time | "[specify value]" |
+| `[ZERO_PREVENT]` | Specify the zero prevent | "[specify value]" |
+| `[ZERO_IMPACT]` | Specify the zero impact | "[specify value]" |
+| `[PAY_VOL]` | Specify the pay vol | "[specify value]" |
+| `[PAY_CAUSE]` | Specify the pay cause | "[specify value]" |
+| `[PAY_TIME]` | Specify the pay time | "[specify value]" |
+| `[PAY_PREVENT]` | Specify the pay prevent | "[specify value]" |
+| `[PAY_IMPACT]` | Specify the pay impact | "[specify value]" |
+| `[ASSIST_1]` | Specify the assist 1 | "[specify value]" |
+| `[ELIG_1]` | Specify the elig 1 | "[specify value]" |
+| `[ENROLL_1]` | Specify the enroll 1 | "[specify value]" |
+| `[BENEFIT_1]` | Specify the benefit 1 | "[specify value]" |
+| `[COST_1]` | Specify the cost 1 | "[specify value]" |
+| `[SUCCESS_1]` | Specify the success 1 | "[specify value]" |
+| `[ASSIST_2]` | Specify the assist 2 | "[specify value]" |
+| `[ELIG_2]` | Specify the elig 2 | "[specify value]" |
+| `[ENROLL_2]` | Specify the enroll 2 | "[specify value]" |
+| `[BENEFIT_2]` | Specify the benefit 2 | "[specify value]" |
+| `[COST_2]` | Specify the cost 2 | "[specify value]" |
+| `[SUCCESS_2]` | Specify the success 2 | "[specify value]" |
+| `[ASSIST_3]` | Specify the assist 3 | "[specify value]" |
+| `[ELIG_3]` | Specify the elig 3 | "[specify value]" |
+| `[ENROLL_3]` | Specify the enroll 3 | "[specify value]" |
+| `[BENEFIT_3]` | Specify the benefit 3 | "[specify value]" |
+| `[COST_3]` | Specify the cost 3 | "[specify value]" |
+| `[SUCCESS_3]` | Specify the success 3 | "[specify value]" |
+| `[ASSIST_4]` | Specify the assist 4 | "[specify value]" |
+| `[ELIG_4]` | Specify the elig 4 | "[specify value]" |
+| `[ENROLL_4]` | Specify the enroll 4 | "[specify value]" |
+| `[BENEFIT_4]` | Specify the benefit 4 | "[specify value]" |
+| `[COST_4]` | Specify the cost 4 | "[specify value]" |
+| `[SUCCESS_4]` | Specify the success 4 | "[specify value]" |
+| `[ASSIST_5]` | Specify the assist 5 | "[specify value]" |
+| `[ELIG_5]` | Specify the elig 5 | "[specify value]" |
+| `[ENROLL_5]` | Specify the enroll 5 | "[specify value]" |
+| `[BENEFIT_5]` | Specify the benefit 5 | "[specify value]" |
+| `[COST_5]` | Specify the cost 5 | "[specify value]" |
+| `[SUCCESS_5]` | Specify the success 5 | "[specify value]" |
+| `[ONLINE_ADOPT]` | Specify the online adopt | "[specify value]" |
+| `[ONLINE_USAT]` | Specify the online usat | "[specify value]" |
+| `[ONLINE_SAVE]` | Specify the online save | "[specify value]" |
+| `[ONLINE_NEXT]` | Specify the online next | "[specify value]" |
+| `[APP_ADOPT]` | Specify the app adopt | "[specify value]" |
+| `[APP_USAT]` | Specify the app usat | "[specify value]" |
+| `[APP_SAVE]` | Specify the app save | "[specify value]" |
+| `[APP_NEXT]` | Specify the app next | "[specify value]" |
+| `[EBILL_ADOPT]` | Specify the ebill adopt | "[specify value]" |
+| `[EBILL_USAT]` | Specify the ebill usat | "[specify value]" |
+| `[EBILL_SAVE]` | Specify the ebill save | "[specify value]" |
+| `[EBILL_NEXT]` | Specify the ebill next | "[specify value]" |
+| `[ALERT_ADOPT]` | Specify the alert adopt | "[specify value]" |
+| `[ALERT_USAT]` | Specify the alert usat | "[specify value]" |
+| `[ALERT_SAVE]` | Specify the alert save | "[specify value]" |
+| `[ALERT_NEXT]` | Specify the alert next | "[specify value]" |
+| `[VA_ADOPT]` | Specify the va adopt | "[specify value]" |
+| `[VA_USAT]` | Specify the va usat | "[specify value]" |
+| `[VA_SAVE]` | Specify the va save | "[specify value]" |
+| `[VA_NEXT]` | Specify the va next | "[specify value]" |
+| `[ACCURACY]` | Specify the accuracy | "[specify value]" |
+| `[ACC_TARGET]` | Target or intended acc | "[specify value]" |
+| `[ACC_BENCH]` | Specify the acc bench | "[specify value]" |
+| `[ACC_PLAN]` | Specify the acc plan | "[specify value]" |
+| `[ONTIME]` | Specify the ontime | "[specify value]" |
+| `[ONTIME_TARGET]` | Target or intended ontime | "[specify value]" |
+| `[ONTIME_BENCH]` | Specify the ontime bench | "[specify value]" |
+| `[ONTIME_PLAN]` | Specify the ontime plan | "[specify value]" |
+| `[DSO_CURRENT]` | Specify the dso current | "[specify value]" |
+| `[DSO_TARGET]` | Target or intended dso | "[specify value]" |
+| `[DSO_BENCH]` | Specify the dso bench | "[specify value]" |
+| `[DSO_PLAN]` | Specify the dso plan | "[specify value]" |
+| `[BADDEBT]` | Specify the baddebt | "[specify value]" |
+| `[BD_TARGET]` | Target or intended bd | "[specify value]" |
+| `[BD_BENCH]` | Specify the bd bench | "[specify value]" |
+| `[BD_PLAN]` | Specify the bd plan | "[specify value]" |
+| `[CTS_CURRENT]` | Specify the cts current | "[specify value]" |
+| `[CTS_TARGET]` | Target or intended cts | "[specify value]" |
+| `[CTS_BENCH]` | Specify the cts bench | "[specify value]" |
+| `[CTS_PLAN]` | Specify the cts plan | "[specify value]" |
+| `[CSAT_CURRENT]` | Specify the csat current | "[specify value]" |
+| `[CSAT_TARGET]` | Target or intended csat | "[specify value]" |
+| `[CSAT_BENCH]` | Specify the csat bench | "[specify value]" |
+| `[CSAT_PLAN]` | Specify the csat plan | "[specify value]" |
+
+
 
 **Billing Cycle Management:**
 | **Cycle** | **Accounts** | **Read Date** | **Bill Date** | **Due Date** | **Cycle Time** |

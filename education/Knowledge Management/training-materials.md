@@ -1,3 +1,17 @@
+---
+title: Training Materials Development Framework Generator
+category: education/Knowledge Management
+tags: [data-science, design, development, documentation, education, framework, machine-learning, optimization]
+use_cases:
+  - Implementing create comprehensive frameworks for developing training manuals, tutorials, work...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - curriculum-development.md
+  - curriculum-development-framework.md
+last_updated: 2025-11-09
+---
+
 # Training Materials Development Framework Generator
 
 ## Purpose

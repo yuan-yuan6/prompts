@@ -1,3 +1,16 @@
+---
+title: Content Marketing & Social Media Strategy Framework
+category: creative/social-media/Content Strategy
+tags: [creative, design, development, framework, management, marketing, optimization, strategy]
+use_cases:
+  - Implementing comprehensive framework for content marketing strategy, social media management,...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - influencer-marketing-campaign.md
+last_updated: 2025-11-09
+---
+
 # Content Marketing & Social Media Strategy Framework
 
 ## Purpose
@@ -60,6 +73,296 @@ Twitter/X:
 - Retweet Rate: [TW_RETWEET]%
 - Thread Strategy: [TW_THREADS]
 ```
+
+## Variables
+
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `[BRAND_NAME]` | Name of the brand | "John Smith" |
+| `[AUDIENCE_SIZE]` | Specify the audience size | "[specify value]" |
+| `[PLATFORM_COUNT]` | Specify the platform count | "10" |
+| `[CONTENT_VOLUME]` | Specify the content volume | "[specify value]" |
+| `[ENGAGEMENT_TARGET]` | Target or intended engagement | "[specify value]" |
+| `[GROWTH_TARGET]` | Target or intended growth | "[specify value]" |
+| `[ROI_TARGET]` | Target or intended roi | "[specify value]" |
+| `[EDU_MIX]` | Specify the edu mix | "[specify value]" |
+| `[EDU_FREQ]` | Specify the edu freq | "[specify value]" |
+| `[EDU_ENGAGE]` | Specify the edu engage | "[specify value]" |
+| `[EDU_CONVERT]` | Specify the edu convert | "[specify value]" |
+| `[EDU_COST]` | Specify the edu cost | "[specify value]" |
+| `[ENT_MIX]` | Specify the ent mix | "[specify value]" |
+| `[ENT_FREQ]` | Specify the ent freq | "[specify value]" |
+| `[ENT_ENGAGE]` | Specify the ent engage | "[specify value]" |
+| `[ENT_CONVERT]` | Specify the ent convert | "[specify value]" |
+| `[ENT_COST]` | Specify the ent cost | "[specify value]" |
+| `[INSP_MIX]` | Specify the insp mix | "[specify value]" |
+| `[INSP_FREQ]` | Specify the insp freq | "[specify value]" |
+| `[INSP_ENGAGE]` | Specify the insp engage | "[specify value]" |
+| `[INSP_CONVERT]` | Specify the insp convert | "[specify value]" |
+| `[INSP_COST]` | Specify the insp cost | "[specify value]" |
+| `[PROMO_MIX]` | Specify the promo mix | "[specify value]" |
+| `[PROMO_FREQ]` | Specify the promo freq | "[specify value]" |
+| `[PROMO_ENGAGE]` | Specify the promo engage | "[specify value]" |
+| `[PROMO_CONVERT]` | Specify the promo convert | "[specify value]" |
+| `[PROMO_COST]` | Specify the promo cost | "[specify value]" |
+| `[UGC_MIX]` | Specify the ugc mix | "[specify value]" |
+| `[UGC_FREQ]` | Specify the ugc freq | "[specify value]" |
+| `[UGC_ENGAGE]` | Specify the ugc engage | "[specify value]" |
+| `[UGC_CONVERT]` | Specify the ugc convert | "[specify value]" |
+| `[UGC_COST]` | Specify the ugc cost | "[specify value]" |
+| `[BTS_MIX]` | Specify the bts mix | "[specify value]" |
+| `[BTS_FREQ]` | Specify the bts freq | "[specify value]" |
+| `[BTS_ENGAGE]` | Specify the bts engage | "[specify value]" |
+| `[BTS_CONVERT]` | Specify the bts convert | "[specify value]" |
+| `[BTS_COST]` | Specify the bts cost | "[specify value]" |
+| `[IG_FOLLOWERS]` | Specify the ig followers | "[specify value]" |
+| `[IG_GROWTH]` | Specify the ig growth | "[specify value]" |
+| `[IG_ENGAGE]` | Specify the ig engage | "[specify value]" |
+| `[IG_CONTENT]` | Specify the ig content | "[specify value]" |
+| `[IG_SCHEDULE]` | Specify the ig schedule | "[specify value]" |
+| `[IG_BESTTIME]` | Specify the ig besttime | "[specify value]" |
+| `[TT_FOLLOWERS]` | Specify the tt followers | "[specify value]" |
+| `[TT_GROWTH]` | Specify the tt growth | "[specify value]" |
+| `[TT_VIEWS]` | Specify the tt views | "[specify value]" |
+| `[TT_STRATEGY]` | Strategy or approach for tt | "[specify value]" |
+| `[TT_VIRAL]` | Specify the tt viral | "[specify value]" |
+| `[TT_EARNINGS]` | Specify the tt earnings | "[specify value]" |
+| `[LI_CONNECTIONS]` | Specify the li connections | "[specify value]" |
+| `[LI_ENGAGE]` | Specify the li engage | "[specify value]" |
+| `[LI_FOCUS]` | Specify the li focus | "[specify value]" |
+| `[LI_PUBLISH]` | Specify the li publish | "[specify value]" |
+| `[LI_LEADS]` | Specify the li leads | "[specify value]" |
+| `[YT_SUBS]` | Specify the yt subs | "[specify value]" |
+| `[YT_WATCH]` | Specify the yt watch | "[specify value]" |
+| `[YT_SCHEDULE]` | Specify the yt schedule | "[specify value]" |
+| `[YT_REVENUE]` | Specify the yt revenue | "[specify value]" |
+| `[YT_CTR]` | Specify the yt ctr | "[specify value]" |
+| `[TW_FOLLOWERS]` | Specify the tw followers | "[specify value]" |
+| `[TW_IMPRESS]` | Specify the tw impress | "[specify value]" |
+| `[TW_REPLY]` | Specify the tw reply | "[specify value]" |
+| `[TW_RETWEET]` | Specify the tw retweet | "[specify value]" |
+| `[TW_THREADS]` | Specify the tw threads | "[specify value]" |
+| `[IDEA_TEAM]` | Specify the idea team | "[specify value]" |
+| `[IDEA_TIME]` | Specify the idea time | "[specify value]" |
+| `[IDEA_TOOLS]` | Specify the idea tools | "[specify value]" |
+| `[IDEA_OUTPUT]` | Specify the idea output | "[specify value]" |
+| `[IDEA_QUALITY]` | Specify the idea quality | "[specify value]" |
+| `[CREATE_TEAM]` | Specify the create team | "[specify value]" |
+| `[CREATE_TIME]` | Specify the create time | "[specify value]" |
+| `[CREATE_TOOLS]` | Specify the create tools | "[specify value]" |
+| `[CREATE_OUTPUT]` | Specify the create output | "[specify value]" |
+| `[CREATE_QUALITY]` | Specify the create quality | "[specify value]" |
+| `[WRITE_TEAM]` | Specify the write team | "[specify value]" |
+| `[WRITE_TIME]` | Specify the write time | "[specify value]" |
+| `[WRITE_TOOLS]` | Specify the write tools | "[specify value]" |
+| `[WRITE_OUTPUT]` | Specify the write output | "[specify value]" |
+| `[WRITE_QUALITY]` | Specify the write quality | "[specify value]" |
+| `[VIDEO_TEAM]` | Specify the video team | "[specify value]" |
+| `[VIDEO_TIME]` | Specify the video time | "[specify value]" |
+| `[VIDEO_TOOLS]` | Specify the video tools | "[specify value]" |
+| `[VIDEO_OUTPUT]` | Specify the video output | "[specify value]" |
+| `[VIDEO_QUALITY]` | Specify the video quality | "[specify value]" |
+| `[EDIT_TEAM]` | Specify the edit team | "[specify value]" |
+| `[EDIT_TIME]` | Specify the edit time | "[specify value]" |
+| `[EDIT_TOOLS]` | Specify the edit tools | "[specify value]" |
+| `[EDIT_OUTPUT]` | Specify the edit output | "[specify value]" |
+| `[EDIT_QUALITY]` | Specify the edit quality | "[specify value]" |
+| `[PUB_TEAM]` | Specify the pub team | "[specify value]" |
+| `[PUB_TIME]` | Specify the pub time | "[specify value]" |
+| `[PUB_TOOLS]` | Specify the pub tools | "[specify value]" |
+| `[PUB_OUTPUT]` | Specify the pub output | "[specify value]" |
+| `[PUB_QUALITY]` | Specify the pub quality | "[specify value]" |
+| `[AGE1_PCT]` | Specify the age1 pct | "25%" |
+| `[AGE1_ENGAGE]` | Specify the age1 engage | "[specify value]" |
+| `[AGE1_PREF]` | Specify the age1 pref | "[specify value]" |
+| `[AGE1_POWER]` | Specify the age1 power | "[specify value]" |
+| `[AGE1_GROWTH]` | Specify the age1 growth | "[specify value]" |
+| `[AGE2_PCT]` | Specify the age2 pct | "25%" |
+| `[AGE2_ENGAGE]` | Specify the age2 engage | "[specify value]" |
+| `[AGE2_PREF]` | Specify the age2 pref | "[specify value]" |
+| `[AGE2_POWER]` | Specify the age2 power | "[specify value]" |
+| `[AGE2_GROWTH]` | Specify the age2 growth | "[specify value]" |
+| `[AGE3_PCT]` | Specify the age3 pct | "25%" |
+| `[AGE3_ENGAGE]` | Specify the age3 engage | "[specify value]" |
+| `[AGE3_PREF]` | Specify the age3 pref | "[specify value]" |
+| `[AGE3_POWER]` | Specify the age3 power | "[specify value]" |
+| `[AGE3_GROWTH]` | Specify the age3 growth | "[specify value]" |
+| `[AGE4_PCT]` | Specify the age4 pct | "25%" |
+| `[AGE4_ENGAGE]` | Specify the age4 engage | "[specify value]" |
+| `[AGE4_PREF]` | Specify the age4 pref | "[specify value]" |
+| `[AGE4_POWER]` | Specify the age4 power | "[specify value]" |
+| `[AGE4_GROWTH]` | Specify the age4 growth | "[specify value]" |
+| `[AGE5_PCT]` | Specify the age5 pct | "25%" |
+| `[AGE5_ENGAGE]` | Specify the age5 engage | "[specify value]" |
+| `[AGE5_PREF]` | Specify the age5 pref | "[specify value]" |
+| `[AGE5_POWER]` | Specify the age5 power | "[specify value]" |
+| `[AGE5_GROWTH]` | Specify the age5 growth | "[specify value]" |
+| `[MEGA_COUNT]` | Specify the mega count | "10" |
+| `[MEGA_INVEST]` | Specify the mega invest | "[specify value]" |
+| `[MEGA_REACH]` | Specify the mega reach | "[specify value]" |
+| `[MEGA_ENGAGE]` | Specify the mega engage | "[specify value]" |
+| `[MEGA_ROI]` | Specify the mega roi | "[specify value]" |
+| `[MACRO_COUNT]` | Specify the macro count | "10" |
+| `[MACRO_INVEST]` | Specify the macro invest | "[specify value]" |
+| `[MACRO_REACH]` | Specify the macro reach | "[specify value]" |
+| `[MACRO_ENGAGE]` | Specify the macro engage | "[specify value]" |
+| `[MACRO_ROI]` | Specify the macro roi | "[specify value]" |
+| `[MICRO_COUNT]` | Specify the micro count | "10" |
+| `[MICRO_INVEST]` | Specify the micro invest | "[specify value]" |
+| `[MICRO_REACH]` | Specify the micro reach | "[specify value]" |
+| `[MICRO_ENGAGE]` | Specify the micro engage | "[specify value]" |
+| `[MICRO_ROI]` | Specify the micro roi | "[specify value]" |
+| `[NANO_COUNT]` | Specify the nano count | "10" |
+| `[NANO_INVEST]` | Specify the nano invest | "[specify value]" |
+| `[NANO_REACH]` | Specify the nano reach | "[specify value]" |
+| `[NANO_ENGAGE]` | Specify the nano engage | "[specify value]" |
+| `[NANO_ROI]` | Specify the nano roi | "[specify value]" |
+| `[AMBASS_COUNT]` | Specify the ambass count | "10" |
+| `[AMBASS_COST]` | Specify the ambass cost | "[specify value]" |
+| `[AMBASS_CONTENT]` | Specify the ambass content | "[specify value]" |
+| `[AMBASS_SALES]` | Specify the ambass sales | "[specify value]" |
+| `[RESP_CURRENT]` | Specify the resp current | "[specify value]" |
+| `[RESP_TARGET]` | Target or intended resp | "[specify value]" |
+| `[RESP_STRATEGY]` | Strategy or approach for resp | "[specify value]" |
+| `[RESP_RESOURCE]` | Specify the resp resource | "[specify value]" |
+| `[RESP_MEASURE]` | Specify the resp measure | "[specify value]" |
+| `[SENT_CURRENT]` | Specify the sent current | "[specify value]" |
+| `[SENT_TARGET]` | Target or intended sent | "[specify value]" |
+| `[SENT_STRATEGY]` | Strategy or approach for sent | "[specify value]" |
+| `[SENT_RESOURCE]` | Specify the sent resource | "[specify value]" |
+| `[SENT_MEASURE]` | Specify the sent measure | "[specify value]" |
+| `[COMM_CURRENT]` | Specify the comm current | "[specify value]" |
+| `[COMM_TARGET]` | Target or intended comm | "[specify value]" |
+| `[COMM_STRATEGY]` | Strategy or approach for comm | "[specify value]" |
+| `[COMM_RESOURCE]` | Specify the comm resource | "[specify value]" |
+| `[COMM_MEASURE]` | Specify the comm measure | "[specify value]" |
+| `[ACTIVE_CURRENT]` | Specify the active current | "[specify value]" |
+| `[ACTIVE_TARGET]` | Target or intended active | "[specify value]" |
+| `[ACTIVE_STRATEGY]` | Strategy or approach for active | "[specify value]" |
+| `[ACTIVE_RESOURCE]` | Specify the active resource | "[specify value]" |
+| `[ACTIVE_MEASURE]` | Specify the active measure | "[specify value]" |
+| `[UGC_CURRENT]` | Specify the ugc current | "[specify value]" |
+| `[UGC_TARGET]` | Target or intended ugc | "[specify value]" |
+| `[UGC_STRATEGY]` | Strategy or approach for ugc | "[specify value]" |
+| `[UGC_RESOURCE]` | Specify the ugc resource | "[specify value]" |
+| `[UGC_MEASURE]` | Specify the ugc measure | "[specify value]" |
+| `[ADV_CURRENT]` | Specify the adv current | "[specify value]" |
+| `[ADV_TARGET]` | Target or intended adv | "[specify value]" |
+| `[ADV_STRATEGY]` | Strategy or approach for adv | "[specify value]" |
+| `[ADV_RESOURCE]` | Specify the adv resource | "[specify value]" |
+| `[ADV_MEASURE]` | Specify the adv measure | "[specify value]" |
+| `[PHOTO_VIEWS]` | Specify the photo views | "[specify value]" |
+| `[PHOTO_ENGAGE]` | Specify the photo engage | "[specify value]" |
+| `[PHOTO_SHARE]` | Specify the photo share | "[specify value]" |
+| `[PHOTO_SAVE]` | Specify the photo save | "[specify value]" |
+| `[PHOTO_CONVERT]` | Specify the photo convert | "[specify value]" |
+| `[VIDEO_VIEWS]` | Specify the video views | "[specify value]" |
+| `[VIDEO_ENGAGE]` | Specify the video engage | "[specify value]" |
+| `[VIDEO_SHARE]` | Specify the video share | "[specify value]" |
+| `[VIDEO_SAVE]` | Specify the video save | "[specify value]" |
+| `[VIDEO_CONVERT]` | Specify the video convert | "[specify value]" |
+| `[STORY_VIEWS]` | Specify the story views | "[specify value]" |
+| `[STORY_ENGAGE]` | Specify the story engage | "[specify value]" |
+| `[STORY_SHARE]` | Specify the story share | "[specify value]" |
+| `[STORY_SAVE]` | Specify the story save | "[specify value]" |
+| `[STORY_CONVERT]` | Specify the story convert | "[specify value]" |
+| `[REEL_VIEWS]` | Specify the reel views | "[specify value]" |
+| `[REEL_ENGAGE]` | Specify the reel engage | "[specify value]" |
+| `[REEL_SHARE]` | Specify the reel share | "[specify value]" |
+| `[REEL_SAVE]` | Specify the reel save | "[specify value]" |
+| `[REEL_CONVERT]` | Specify the reel convert | "[specify value]" |
+| `[LIVE_VIEWS]` | Specify the live views | "[specify value]" |
+| `[LIVE_ENGAGE]` | Specify the live engage | "[specify value]" |
+| `[LIVE_SHARE]` | Specify the live share | "[specify value]" |
+| `[LIVE_CONVERT]` | Specify the live convert | "[specify value]" |
+| `[BLOG_VIEWS]` | Specify the blog views | "[specify value]" |
+| `[BLOG_ENGAGE]` | Specify the blog engage | "[specify value]" |
+| `[BLOG_SHARE]` | Specify the blog share | "[specify value]" |
+| `[BLOG_SAVE]` | Specify the blog save | "[specify value]" |
+| `[BLOG_CONVERT]` | Specify the blog convert | "[specify value]" |
+| `[AWARE_SPEND]` | Specify the aware spend | "[specify value]" |
+| `[AWARE_REACH]` | Specify the aware reach | "[specify value]" |
+| `[AWARE_CPM]` | Specify the aware cpm | "[specify value]" |
+| `[AWARE_LIFT]` | Specify the aware lift | "[specify value]" |
+| `[ENGAGE_SPEND]` | Specify the engage spend | "[specify value]" |
+| `[ENGAGE_COUNT]` | Specify the engage count | "10" |
+| `[ENGAGE_CPE]` | Specify the engage cpe | "[specify value]" |
+| `[ENGAGE_QUALITY]` | Specify the engage quality | "[specify value]" |
+| `[CONV_SPEND]` | Specify the conv spend | "[specify value]" |
+| `[CONV_COUNT]` | Specify the conv count | "10" |
+| `[CONV_CPA]` | Specify the conv cpa | "[specify value]" |
+| `[CONV_ROAS]` | Specify the conv roas | "[specify value]" |
+| `[RETARGET_SPEND]` | Target or intended retarget spend | "[specify value]" |
+| `[RETARGET_SIZE]` | Target or intended retarget size | "[specify value]" |
+| `[RETARGET_CONV]` | Target or intended retarget conv | "[specify value]" |
+| `[RETARGET_ROI]` | Target or intended retarget roi | "[specify value]" |
+| `[STATIC_PERFORM]` | Specify the static perform | "[specify value]" |
+| `[CAROUSEL_PERFORM]` | Specify the carousel perform | "[specify value]" |
+| `[VIDEO_PERFORM]` | Specify the video perform | "[specify value]" |
+| `[COLLECT_PERFORM]` | Specify the collect perform | "[specify value]" |
+| `[DYNAMIC_PERFORM]` | Specify the dynamic perform | "[specify value]" |
+| `[ORGANIC_CURRENT]` | Specify the organic current | "[specify value]" |
+| `[ORGANIC_TARGET]` | Target or intended organic | "[specify value]" |
+| `[ORGANIC_GAP]` | Specify the organic gap | "[specify value]" |
+| `[ORGANIC_STRATEGY]` | Strategy or approach for organic | "[specify value]" |
+| `[ORGANIC_TIME]` | Specify the organic time | "[specify value]" |
+| `[KEYWORD_CURRENT]` | Specify the keyword current | "[specify value]" |
+| `[KEYWORD_TARGET]` | Target or intended keyword | "[specify value]" |
+| `[KEYWORD_GAP]` | Specify the keyword gap | "[specify value]" |
+| `[KEYWORD_STRATEGY]` | Strategy or approach for keyword | "[specify value]" |
+| `[KEYWORD_TIME]` | Specify the keyword time | "[specify value]" |
+| `[DA_CURRENT]` | Specify the da current | "[specify value]" |
+| `[DA_TARGET]` | Target or intended da | "[specify value]" |
+| `[DA_GAP]` | Specify the da gap | "[specify value]" |
+| `[DA_STRATEGY]` | Strategy or approach for da | "[specify value]" |
+| `[DA_TIME]` | Specify the da time | "[specify value]" |
+| `[BACKLINK_CURRENT]` | Specify the backlink current | "https://example.com" |
+| `[BACKLINK_TARGET]` | Target or intended backlink | "https://example.com" |
+| `[BACKLINK_GAP]` | Specify the backlink gap | "https://example.com" |
+| `[BACKLINK_STRATEGY]` | Strategy or approach for backlink | "https://example.com" |
+| `[BACKLINK_TIME]` | Specify the backlink time | "https://example.com" |
+| `[SPEED_CURRENT]` | Specify the speed current | "[specify value]" |
+| `[SPEED_TARGET]` | Target or intended speed | "[specify value]" |
+| `[SPEED_GAP]` | Specify the speed gap | "[specify value]" |
+| `[SPEED_STRATEGY]` | Strategy or approach for speed | "[specify value]" |
+| `[SPEED_TIME]` | Specify the speed time | "[specify value]" |
+| `[VITAL_CURRENT]` | Specify the vital current | "[specify value]" |
+| `[VITAL_TARGET]` | Target or intended vital | "[specify value]" |
+| `[VITAL_GAP]` | Specify the vital gap | "[specify value]" |
+| `[VITAL_STRATEGY]` | Strategy or approach for vital | "[specify value]" |
+| `[VITAL_TIME]` | Specify the vital time | "[specify value]" |
+| `[DIRECT_ATTR]` | Specify the direct attr | "[specify value]" |
+| `[DIRECT_REV]` | Specify the direct rev | "[specify value]" |
+| `[DIRECT_COST]` | Specify the direct cost | "[specify value]" |
+| `[DIRECT_PROFIT]` | Specify the direct profit | "[specify value]" |
+| `[DIRECT_ROI]` | Specify the direct roi | "[specify value]" |
+| `[LEAD_ATTR]` | Specify the lead attr | "[specify value]" |
+| `[LEAD_REV]` | Specify the lead rev | "[specify value]" |
+| `[LEAD_COST]` | Specify the lead cost | "[specify value]" |
+| `[LEAD_PROFIT]` | Specify the lead profit | "[specify value]" |
+| `[LEAD_ROI]` | Specify the lead roi | "[specify value]" |
+| `[PARTNER_ATTR]` | Specify the partner attr | "[specify value]" |
+| `[PARTNER_REV]` | Specify the partner rev | "[specify value]" |
+| `[PARTNER_COST]` | Specify the partner cost | "[specify value]" |
+| `[PARTNER_PROFIT]` | Specify the partner profit | "[specify value]" |
+| `[PARTNER_ROI]` | Specify the partner roi | "[specify value]" |
+| `[AFFILIATE_ATTR]` | Specify the affiliate attr | "[specify value]" |
+| `[AFFILIATE_REV]` | Specify the affiliate rev | "[specify value]" |
+| `[AFFILIATE_COST]` | Specify the affiliate cost | "[specify value]" |
+| `[AFFILIATE_PROFIT]` | Specify the affiliate profit | "[specify value]" |
+| `[AFFILIATE_ROI]` | Specify the affiliate roi | "[specify value]" |
+| `[AD_ATTR]` | Specify the ad attr | "[specify value]" |
+| `[AD_REV]` | Specify the ad rev | "[specify value]" |
+| `[AD_COST]` | Specify the ad cost | "[specify value]" |
+| `[AD_PROFIT]` | Specify the ad profit | "[specify value]" |
+| `[AD_ROI]` | Specify the ad roi | "[specify value]" |
+| `[PRODUCT_ATTR]` | Specify the product attr | "[specify value]" |
+| `[PRODUCT_REV]` | Specify the product rev | "[specify value]" |
+| `[PRODUCT_COST]` | Specify the product cost | "[specify value]" |
+| `[PRODUCT_PROFIT]` | Specify the product profit | "[specify value]" |
+| `[PRODUCT_ROI]` | Specify the product roi | "[specify value]" |
+
+
 
 ### 3. Content Production Workflow
 

@@ -1,3 +1,18 @@
+---
+title: Infrastructure as Code (IaC) Development Template
+category: technology/DevOps & Cloud
+tags: [design, development, machine-learning, management, security, strategy, technology, template]
+use_cases:
+  - General application
+  - Professional use
+  - Project implementation
+related_templates:
+  - cloud-architecture-framework.md
+  - site-reliability-engineering.md
+  - cloud-migration-strategy.md
+last_updated: 2025-11-09
+---
+
 # Infrastructure as Code (IaC) Development Template
 
 ## Overview
@@ -440,3 +455,257 @@ Customize based on organizational maturity:
 ---
 
 *This Infrastructure as Code template provides a comprehensive framework for organizations to implement robust, scalable, and secure infrastructure automation. Each variable should be carefully considered and customized based on specific organizational requirements, technical constraints, and business objectives.*
+
+## Variables
+
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `[ORGANIZATION_NAME]` | Name of the organization | "John Smith" |
+| `[PRIMARY_CLOUD_PROVIDER]` | Specify the primary cloud provider | "[specify value]" |
+| `[SECONDARY_CLOUD_PROVIDERS]` | Specify the secondary cloud providers | "[specify value]" |
+| `[INFRASTRUCTURE_SCALE]` | Specify the infrastructure scale | "[specify value]" |
+| `[ENVIRONMENT_COUNT]` | Specify the environment count | "10" |
+| `[CUSTOM_ENVIRONMENTS]` | Specify the custom environments | "[specify value]" |
+| `[TARGET_REGIONS]` | Target or intended regions | "North America" |
+| `[COMPLIANCE_STANDARDS]` | Specify the compliance standards | "[specify value]" |
+| `[CUSTOM_COMPLIANCE]` | Specify the custom compliance | "[specify value]" |
+| `[BUDGET_RANGE]` | Budget allocation for range | "$500,000" |
+| `[PROJECT_TIMELINE]` | Timeline or schedule for project | "6 months" |
+| `[NETWORK_ARCHITECTURE]` | Specify the network architecture | "[specify value]" |
+| `[CUSTOM_TOPOLOGY]` | Specify the custom topology | "[specify value]" |
+| `[COMPUTE_TYPES]` | Type or category of compute s | "Standard" |
+| `[HYBRID_COMPUTE]` | Specify the hybrid compute | "[specify value]" |
+| `[STORAGE_TYPES]` | Type or category of storage s | "Standard" |
+| `[CUSTOM_STORAGE]` | Specify the custom storage | "[specify value]" |
+| `[LOAD_BALANCER_TYPE]` | Type or category of load balancer | "Standard" |
+| `[CUSTOM_LB]` | Specify the custom lb | "[specify value]" |
+| `[SECURITY_GROUP_STRATEGY]` | Strategy or approach for security group | "[specify value]" |
+| `[DNS_PROVIDER]` | Specify the dns provider | "[specify value]" |
+| `[CUSTOM_DNS]` | Specify the custom dns | "[specify value]" |
+| `[CDN_PROVIDER]` | Specify the cdn provider | "[specify value]" |
+| `[CUSTOM_CDN]` | Specify the custom cdn | "[specify value]" |
+| `[MONITORING_TOOLS]` | Specify the monitoring tools | "[specify value]" |
+| `[CUSTOM_MONITORING]` | Specify the custom monitoring | "[specify value]" |
+| `[IDENTITY_PROVIDER]` | Specify the identity provider | "[specify value]" |
+| `[CUSTOM_IDENTITY]` | Specify the custom identity | "[specify value]" |
+| `[ACCESS_CONTROL_MODEL]` | Specify the access control model | "[specify value]" |
+| `[CUSTOM_ACCESS]` | Specify the custom access | "[specify value]" |
+| `[ENCRYPTION_REQUIREMENTS]` | Specify the encryption requirements | "[specify value]" |
+| `[CUSTOM_ENCRYPTION]` | Specify the custom encryption | "[specify value]" |
+| `[BACKUP_APPROACH]` | Specify the backup approach | "[specify value]" |
+| `[CUSTOM_BACKUP]` | Specify the custom backup | "[specify value]" |
+| `[DR_STRATEGY]` | Strategy or approach for dr | "[specify value]" |
+| `[CUSTOM_DR]` | Specify the custom dr | "[specify value]" |
+| `[COST_OPTIMIZATION_METHODS]` | Specify the cost optimization methods | "[specify value]" |
+| `[TAGGING_STRATEGY]` | Strategy or approach for tagging | "[specify value]" |
+| `[RESOURCE_LIFECYCLE_POLICY]` | Specify the resource lifecycle policy | "[specify value]" |
+| `[PRIMARY_IAC_TOOL]` | Specify the primary iac tool | "[specify value]" |
+| `[SECONDARY_IAC_TOOLS]` | Specify the secondary iac tools | "[specify value]" |
+| `[CONFIG_MGMT_TOOL]` | Specify the config mgmt tool | "[specify value]" |
+| `[CONTAINER_PLATFORM]` | Specify the container platform | "[specify value]" |
+| `[SERVICE_MESH]` | Specify the service mesh | "[specify value]" |
+| `[CUSTOM_MESH]` | Specify the custom mesh | "[specify value]" |
+| `[CICD_PLATFORM]` | Specify the cicd platform | "[specify value]" |
+| `[TERRAFORM_PROVIDER_VERSIONS]` | Specify the terraform provider versions | "[specify value]" |
+| `[STATE_BACKEND]` | Specify the state backend | "[specify value]" |
+| `[MODULE_ORGANIZATION]` | Specify the module organization | "[specify value]" |
+| `[WORKSPACE_STRATEGY]` | Strategy or approach for workspace | "[specify value]" |
+| `[VARIABLE_MANAGEMENT_APPROACH]` | Specify the variable management approach | "[specify value]" |
+| `[SECRET_MANAGEMENT]` | Specify the secret management | "[specify value]" |
+| `[CUSTOM_SECRET_MGR]` | Specify the custom secret mgr | "[specify value]" |
+| `[REMOTE_EXECUTION_PLATFORM]` | Specify the remote execution platform | "[specify value]" |
+| `[STATE_LOCKING_MECHANISM]` | Specify the state locking mechanism | "[specify value]" |
+| `[CF_TEMPLATE_FORMAT]` | Specify the cf template format | "[specify value]" |
+| `[STACK_ORGANIZATION_STRATEGY]` | Strategy or approach for stack organization | "[specify value]" |
+| `[CF_PARAMETER_STRATEGY]` | Strategy or approach for cf parameter | "[specify value]" |
+| `[CROSS_STACK_REFERENCE_APPROACH]` | Specify the cross stack reference approach | "[specify value]" |
+| `[NESTED_STACK_STRATEGY]` | Strategy or approach for nested stack | "[specify value]" |
+| `[CHANGE_SET_POLICY]` | Specify the change set policy | "[specify value]" |
+| `[STACK_PROTECTION_POLICIES]` | Specify the stack protection policies | "[specify value]" |
+| `[ROLLBACK_STRATEGY]` | Strategy or approach for rollback | "[specify value]" |
+| `[PROJECT_NAME]` | Name of the project | "Digital Transformation Initiative" |
+| `[ENVIRONMENT_FOLDERS]` | Specify the environment folders | "[specify value]" |
+| `[MODULE_DIRECTORIES]` | Specify the module directories | "[specify value]" |
+| `[SHARED_COMPONENTS]` | Specify the shared components | "[specify value]" |
+| `[CONFIGURATION_FILES]` | Specify the configuration files | "[specify value]" |
+| `[DOCUMENTATION_PATH]` | Specify the documentation path | "[specify value]" |
+| `[MODULE_NAMING_CONVENTION]` | Specify the module naming convention | "[specify value]" |
+| `[INPUT_VARIABLE_STANDARDS]` | Specify the input variable standards | "[specify value]" |
+| `[OUTPUT_SPECIFICATIONS]` | Specify the output specifications | "[specify value]" |
+| `[MODULE_DOCUMENTATION_REQUIREMENTS]` | Specify the module documentation requirements | "[specify value]" |
+| `[MODULE_TESTING_FRAMEWORK]` | Specify the module testing framework | "[specify value]" |
+| `[CUSTOM_TESTING]` | Specify the custom testing | "[specify value]" |
+| `[MODULE_VERSIONING_STRATEGY]` | Strategy or approach for module versioning | "[specify value]" |
+| `[MODULE_REGISTRY]` | Specify the module registry | "[specify value]" |
+| `[CUSTOM_REGISTRY]` | Specify the custom registry | "[specify value]" |
+| `[DEPENDENCY_MANAGEMENT_APPROACH]` | Specify the dependency management approach | "[specify value]" |
+| `[DEV_ENVIRONMENT_CONFIG]` | Specify the dev environment config | "[specify value]" |
+| `[STAGING_ENVIRONMENT_CONFIG]` | Specify the staging environment config | "[specify value]" |
+| `[PROD_ENVIRONMENT_CONFIG]` | Specify the prod environment config | "[specify value]" |
+| `[CUSTOM_ENVIRONMENT_CONFIGS]` | Specify the custom environment configs | "[specify value]" |
+| `[VARIABLE_PRECEDENCE_ORDER]` | Specify the variable precedence order | "[specify value]" |
+| `[CONFIG_VALIDATION_RULES]` | Specify the config validation rules | "[specify value]" |
+| `[ENVIRONMENT_PROMOTION_PROCESS]` | Specify the environment promotion process | "[specify value]" |
+| `[DRIFT_DETECTION_STRATEGY]` | Strategy or approach for drift detection | "[specify value]" |
+| `[SECURITY_BASELINE_STANDARDS]` | Specify the security baseline standards | "[specify value]" |
+| `[NETWORK_SEGMENTATION_STRATEGY]` | Strategy or approach for network segmentation | "[specify value]" |
+| `[ACCESS_CONTROL_IMPLEMENTATION]` | Specify the access control implementation | "[specify value]" |
+| `[KEY_MANAGEMENT_STRATEGY]` | Strategy or approach for key management | "[specify value]" |
+| `[CERTIFICATE_MANAGEMENT_APPROACH]` | Specify the certificate management approach | "[specify value]" |
+| `[VULNERABILITY_SCANNING_TOOLS]` | Specify the vulnerability scanning tools | "[specify value]" |
+| `[SECURITY_MONITORING_SOLUTIONS]` | Specify the security monitoring solutions | "[specify value]" |
+| `[IR_INTEGRATION_APPROACH]` | Specify the ir integration approach | "[specify value]" |
+| `[SPECIFIC_REGULATORY_REQUIREMENTS]` | Specify the specific regulatory requirements | "[specify value]" |
+| `[AUDIT_TRAIL_REQUIREMENTS]` | Specify the audit trail requirements | "[specify value]" |
+| `[DATA_RESIDENCY_REQUIREMENTS]` | Specify the data residency requirements | "[specify value]" |
+| `[DATA_RETENTION_POLICIES]` | Specify the data retention policies | "[specify value]" |
+| `[PRIVACY_CONTROL_IMPLEMENTATION]` | Specify the privacy control implementation | "[specify value]" |
+| `[COMPLIANCE_MONITORING_TOOLS]` | Specify the compliance monitoring tools | "[specify value]" |
+| `[COMPLIANCE_REPORTING_AUTOMATION]` | Specify the compliance reporting automation | "[specify value]" |
+| `[COMPLIANCE_REMEDIATION_PROCESSES]` | Specify the compliance remediation processes | "[specify value]" |
+| `[POLICY_DEFINITION_LANGUAGE]` | Specify the policy definition language | "[specify value]" |
+| `[CUSTOM_POLICY]` | Specify the custom policy | "[specify value]" |
+| `[POLICY_ENFORCEMENT_POINTS]` | Specify the policy enforcement points | "[specify value]" |
+| `[POLICY_TESTING_FRAMEWORK]` | Specify the policy testing framework | "[specify value]" |
+| `[POLICY_VERSION_CONTROL]` | Specify the policy version control | "[specify value]" |
+| `[POLICY_EXCEPTION_PROCESS]` | Specify the policy exception process | "[specify value]" |
+| `[POLICY_MONITORING_APPROACH]` | Specify the policy monitoring approach | "[specify value]" |
+| `[POLICY_VIOLATION_RESPONSES]` | Specify the policy violation responses | "[specify value]" |
+| `[GOVERNANCE_INTEGRATION_STRATEGY]` | Strategy or approach for governance integration | "[specify value]" |
+| `[SOURCE_CONTROL_SYSTEM]` | Specify the source control system | "[specify value]" |
+| `[CUSTOM_VCS]` | Specify the custom vcs | "[specify value]" |
+| `[BRANCHING_STRATEGY]` | Strategy or approach for branching | "[specify value]" |
+| `[CUSTOM_BRANCHING]` | Specify the custom branching | "[specify value]" |
+| `[PIPELINE_TRIGGERS]` | Specify the pipeline triggers | "[specify value]" |
+| `[BUILD_STAGE_CONFIGURATION]` | Specify the build stage configuration | "[specify value]" |
+| `[TESTING_PHASE_CONFIGURATION]` | Specify the testing phase configuration | "[specify value]" |
+| `[DEPLOYMENT_STAGE_CONFIGURATION]` | Specify the deployment stage configuration | "[specify value]" |
+| `[APPROVAL_PROCESS_REQUIREMENTS]` | Specify the approval process requirements | "[specify value]" |
+| `[ROLLBACK_AUTOMATION_STRATEGY]` | Strategy or approach for rollback automation | "[specify value]" |
+| `[BLUE_GREEN_IMPLEMENTATION]` | Specify the blue green implementation | "[specify value]" |
+| `[CANARY_DEPLOYMENT_STRATEGY]` | Strategy or approach for canary deployment | "[specify value]" |
+| `[ROLLING_UPDATE_CONFIGURATION]` | Specify the rolling update configuration | "2025-01-15" |
+| `[IMMUTABLE_INFRA_APPROACH]` | Specify the immutable infra approach | "[specify value]" |
+| `[MULTI_ENV_PROMOTION_PROCESS]` | Specify the multi env promotion process | "[specify value]" |
+| `[FEATURE_FLAG_INTEGRATION]` | Specify the feature flag integration | "[specify value]" |
+| `[DEPLOYMENT_VALIDATION_TESTS]` | Specify the deployment validation tests | "[specify value]" |
+| `[HEALTH_CHECK_CONFIGURATION]` | Specify the health check configuration | "[specify value]" |
+| `[WORKFLOW_ORCHESTRATION_TOOL]` | Specify the workflow orchestration tool | "[specify value]" |
+| `[JOB_SCHEDULING_SYSTEM]` | Specify the job scheduling system | "[specify value]" |
+| `[EVENT_DRIVEN_AUTOMATION]` | Specify the event driven automation | "[specify value]" |
+| `[DEPENDENCY_RESOLUTION]` | Specify the dependency resolution | "[specify value]" |
+| `[PARALLEL_EXECUTION_STRATEGY]` | Strategy or approach for parallel execution | "[specify value]" |
+| `[ERROR_HANDLING_PROCEDURES]` | Specify the error handling procedures | "[specify value]" |
+| `[NOTIFICATION_INTEGRATION]` | Specify the notification integration | "[specify value]" |
+| `[METRICS_COLLECTION_STRATEGY]` | Strategy or approach for metrics collection | "[specify value]" |
+| `[STATE_BACKEND_CHOICE]` | Specify the state backend choice | "[specify value]" |
+| `[STATE_ENCRYPTION_METHOD]` | Specify the state encryption method | "[specify value]" |
+| `[STATE_VERSIONING_APPROACH]` | Specify the state versioning approach | "[specify value]" |
+| `[CONCURRENT_ACCESS_CONTROL]` | Specify the concurrent access control | "[specify value]" |
+| `[STATE_BACKUP_STRATEGY]` | Strategy or approach for state backup | "[specify value]" |
+| `[STATE_RECOVERY_PROCEDURES]` | Specify the state recovery procedures | "[specify value]" |
+| `[STATE_MIGRATION_PROCESS]` | Specify the state migration process | "[specify value]" |
+| `[STATE_VALIDATION_CHECKS]` | Specify the state validation checks | "[specify value]" |
+| `[DATABASE_PROVISIONING_STRATEGY]` | Strategy or approach for database provisioning | "[specify value]" |
+| `[DATA_MIGRATION_APPROACH]` | Specify the data migration approach | "[specify value]" |
+| `[BACKUP_AUTOMATION_CONFIGURATION]` | Specify the backup automation configuration | "[specify value]" |
+| `[PITR_IMPLEMENTATION]` | Specify the pitr implementation | "[specify value]" |
+| `[CROSS_REGION_REPLICATION]` | Specify the cross region replication | "North America" |
+| `[DATA_ARCHIVAL_STRATEGY]` | Strategy or approach for data archival | "[specify value]" |
+| `[DATA_LIFECYCLE_MANAGEMENT]` | Specify the data lifecycle management | "[specify value]" |
+| `[DATABASE_PERFORMANCE_OPTIMIZATION]` | Specify the database performance optimization | "[specify value]" |
+| `[METRICS_COLLECTION_TOOLS]` | Specify the metrics collection tools | "[specify value]" |
+| `[LOG_AGGREGATION_SOLUTION]` | Specify the log aggregation solution | "[specify value]" |
+| `[DISTRIBUTED_TRACING_IMPLEMENTATION]` | Specify the distributed tracing implementation | "[specify value]" |
+| `[DASHBOARD_SETUP_REQUIREMENTS]` | Specify the dashboard setup requirements | "[specify value]" |
+| `[ALERTING_RULE_CONFIGURATION]` | Specify the alerting rule configuration | "[specify value]" |
+| `[SLA_DEFINITIONS]` | Specify the sla definitions | "[specify value]" |
+| `[PERFORMANCE_BASELINE_METRICS]` | Specify the performance baseline metrics | "[specify value]" |
+| `[CAPACITY_PLANNING_METRICS]` | Specify the capacity planning metrics | "[specify value]" |
+| `[COST_MONITORING_IMPLEMENTATION]` | Specify the cost monitoring implementation | "[specify value]" |
+| `[RESOURCE_UTILIZATION_TRACKING]` | Specify the resource utilization tracking | "[specify value]" |
+| `[PERFORMANCE_ANALYTICS_TOOLS]` | Specify the performance analytics tools | "[specify value]" |
+| `[TREND_ANALYSIS_CONFIGURATION]` | Specify the trend analysis configuration | "[specify value]" |
+| `[ANOMALY_DETECTION_SETUP]` | Specify the anomaly detection setup | "[specify value]" |
+| `[PREDICTIVE_ANALYTICS_IMPLEMENTATION]` | Specify the predictive analytics implementation | "[specify value]" |
+| `[BUSINESS_METRICS_INTEGRATION]` | Specify the business metrics integration | "[specify value]" |
+| `[ROI_TRACKING_METHODOLOGY]` | Specify the roi tracking methodology | "[specify value]" |
+| `[INCIDENT_DETECTION_MECHANISMS]` | Specify the incident detection mechanisms | "[specify value]" |
+| `[ESCALATION_PROCEDURES]` | Specify the escalation procedures | "[specify value]" |
+| `[RESPONSE_AUTOMATION_WORKFLOWS]` | Specify the response automation workflows | "[specify value]" |
+| `[INCIDENT_COMMUNICATION_PROTOCOLS]` | Specify the incident communication protocols | "[specify value]" |
+| `[POST_INCIDENT_ANALYSIS_PROCESS]` | Specify the post incident analysis process | "[specify value]" |
+| `[CONTINUOUS_IMPROVEMENT_PROCESS]` | Specify the continuous improvement process | "[specify value]" |
+| `[INCIDENT_DOCUMENTATION_REQUIREMENTS]` | Specify the incident documentation requirements | "[specify value]" |
+| `[INCIDENT_RESPONSE_TRAINING]` | Specify the incident response training | "[specify value]" |
+| `[UNIT_TESTING_APPROACH]` | Specify the unit testing approach | "[specify value]" |
+| `[INTEGRATION_TESTING_STRATEGY]` | Strategy or approach for integration testing | "[specify value]" |
+| `[E2E_TESTING_FRAMEWORK]` | Specify the e2e testing framework | "[specify value]" |
+| `[PERFORMANCE_TESTING_TOOLS]` | Specify the performance testing tools | "[specify value]" |
+| `[SECURITY_TESTING_INTEGRATION]` | Specify the security testing integration | "[specify value]" |
+| `[COMPLIANCE_TESTING_AUTOMATION]` | Specify the compliance testing automation | "[specify value]" |
+| `[DR_TESTING_PROCEDURES]` | Specify the dr testing procedures | "[specify value]" |
+| `[CHAOS_ENGINEERING_IMPLEMENTATION]` | Specify the chaos engineering implementation | "[specify value]" |
+| `[SYNTAX_VALIDATION_TOOLS]` | Specify the syntax validation tools | "[specify value]" |
+| `[PLAN_REVIEW_PROCESS]` | Specify the plan review process | "[specify value]" |
+| `[COST_ESTIMATION_VALIDATION]` | Specify the cost estimation validation | "[specify value]" |
+| `[SECURITY_SCANNING_INTEGRATION]` | Specify the security scanning integration | "[specify value]" |
+| `[COMPLIANCE_CHECKING_AUTOMATION]` | Specify the compliance checking automation | "[specify value]" |
+| `[RESOURCE_LIMIT_VALIDATION]` | Specify the resource limit validation | "[specify value]" |
+| `[DEPENDENCY_VERIFICATION_PROCESS]` | Specify the dependency verification process | "[specify value]" |
+| `[ENVIRONMENT_READINESS_CHECKS]` | Specify the environment readiness checks | "[specify value]" |
+| `[CODE_REVIEW_STANDARDS]` | Specify the code review standards | "[specify value]" |
+| `[DOCUMENTATION_REVIEW_PROCESS]` | Specify the documentation review process | "[specify value]" |
+| `[PERFORMANCE_BENCHMARK_CRITERIA]` | Specify the performance benchmark criteria | "[specify value]" |
+| `[RELIABILITY_TESTING_METHODOLOGY]` | Specify the reliability testing methodology | "[specify value]" |
+| `[SCALABILITY_VALIDATION_APPROACH]` | Specify the scalability validation approach | "[specify value]" |
+| `[MAINTAINABILITY_ASSESSMENT_CRITERIA]` | Specify the maintainability assessment criteria | "[specify value]" |
+| `[TECHNICAL_DEBT_TRACKING]` | Specify the technical debt tracking | "[specify value]" |
+| `[QUALITY_METRICS_COLLECTION]` | Specify the quality metrics collection | "[specify value]" |
+| `[RIGHT_SIZING_ANALYSIS_APPROACH]` | Specify the right sizing analysis approach | "[specify value]" |
+| `[RESERVED_INSTANCE_STRATEGY]` | Strategy or approach for reserved instance | "[specify value]" |
+| `[SPOT_INSTANCE_UTILIZATION]` | Specify the spot instance utilization | "[specify value]" |
+| `[AUTO_SCALING_OPTIMIZATION]` | Specify the auto scaling optimization | "[specify value]" |
+| `[STORAGE_OPTIMIZATION_STRATEGY]` | Strategy or approach for storage optimization | "[specify value]" |
+| `[NETWORK_COST_OPTIMIZATION]` | Specify the network cost optimization | "[specify value]" |
+| `[RESOURCE_SCHEDULING_AUTOMATION]` | Specify the resource scheduling automation | "[specify value]" |
+| `[RESOURCE_LIFECYCLE_OPTIMIZATION]` | Specify the resource lifecycle optimization | "[specify value]" |
+| `[COMPUTE_PERFORMANCE_OPTIMIZATION]` | Specify the compute performance optimization | "[specify value]" |
+| `[STORAGE_PERFORMANCE_TUNING]` | Specify the storage performance tuning | "[specify value]" |
+| `[NETWORK_PERFORMANCE_OPTIMIZATION]` | Specify the network performance optimization | "[specify value]" |
+| `[DATABASE_PERFORMANCE_TUNING]` | Specify the database performance tuning | "[specify value]" |
+| `[CACHING_IMPLEMENTATION_STRATEGY]` | Strategy or approach for caching implementation | "[specify value]" |
+| `[CDN_OPTIMIZATION_CONFIGURATION]` | Specify the cdn optimization configuration | "[specify value]" |
+| `[LOAD_BALANCING_OPTIMIZATION]` | Specify the load balancing optimization | "[specify value]" |
+| `[REGIONAL_DISTRIBUTION_OPTIMIZATION]` | Specify the regional distribution optimization | "North America" |
+| `[RESOURCE_GOVERNANCE_FRAMEWORK]` | Specify the resource governance framework | "[specify value]" |
+| `[RESOURCE_NAMING_CONVENTIONS]` | Specify the resource naming conventions | "[specify value]" |
+| `[RESOURCE_TAGGING_STANDARDS]` | Specify the resource tagging standards | "[specify value]" |
+| `[ACCESS_GOVERNANCE_POLICIES]` | Specify the access governance policies | "[specify value]" |
+| `[CHANGE_MANAGEMENT_PROCESS]` | Specify the change management process | "[specify value]" |
+| `[DOCUMENTATION_STANDARDS]` | Specify the documentation standards | "[specify value]" |
+| `[TRAINING_REQUIREMENTS]` | Specify the training requirements | "[specify value]" |
+| `[CERTIFICATION_TRACKING_SYSTEM]` | Specify the certification tracking system | "[specify value]" |
+| `[CURRENT_STATE_ASSESSMENT_APPROACH]` | Specify the current state assessment approach | "[specify value]" |
+| `[MIGRATION_PLANNING_METHODOLOGY]` | Specify the migration planning methodology | "[specify value]" |
+| `[PHASED_MIGRATION_STRATEGY]` | Strategy or approach for phased migration | "[specify value]" |
+| `[APPLICATION_MIGRATION_STRATEGY]` | Strategy or approach for application migration | "[specify value]" |
+| `[MIGRATION_TESTING_STRATEGY]` | Strategy or approach for migration testing | "[specify value]" |
+| `[MIGRATION_ROLLBACK_PLANNING]` | Specify the migration rollback planning | "[specify value]" |
+| `[GO_LIVE_PROCEDURES]` | Specify the go live procedures | "[specify value]" |
+| `[ARCHITECTURE_MODERNIZATION_APPROACH]` | Specify the architecture modernization approach | "[specify value]" |
+| `[TECHNOLOGY_STACK_MODERNIZATION]` | Specify the technology stack modernization | "[specify value]" |
+| `[PROCESS_MODERNIZATION_STRATEGY]` | Strategy or approach for process modernization | "[specify value]" |
+| `[TEAM_SKILL_DEVELOPMENT_PLAN]` | Specify the team skill development plan | "[specify value]" |
+| `[TOOL_MODERNIZATION_ROADMAP]` | Specify the tool modernization roadmap | "[specify value]" |
+| `[AUTOMATION_ENHANCEMENT_PLAN]` | Specify the automation enhancement plan | "[specify value]" |
+| `[INTEGRATION_MODERNIZATION_APPROACH]` | Specify the integration modernization approach | "[specify value]" |
+| `[SECURITY_MODERNIZATION_STRATEGY]` | Strategy or approach for security modernization | "[specify value]" |
+| `[FEEDBACK_LOOP_IMPLEMENTATION]` | Specify the feedback loop implementation | "[specify value]" |
+| `[PERFORMANCE_METRICS_TRACKING]` | Specify the performance metrics tracking | "[specify value]" |
+| `[INNOVATION_PIPELINE_PROCESS]` | Specify the innovation pipeline process | "[specify value]" |
+| `[TECHNOLOGY_EVALUATION_PROCESS]` | Specify the technology evaluation process | "[specify value]" |
+| `[BEST_PRACTICE_SHARING_MECHANISMS]` | Specify the best practice sharing mechanisms | "[specify value]" |
+| `[COMMUNITY_ENGAGEMENT_STRATEGY]` | Strategy or approach for community engagement | "[specify value]" |
+| `[VENDOR_RELATIONSHIP_MANAGEMENT]` | Specify the vendor relationship management | "[specify value]" |
+| `[FUTURE_ROADMAP_PLANNING]` | Specify the future roadmap planning | "[specify value]" |

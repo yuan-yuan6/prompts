@@ -1,3 +1,14 @@
+---
+title: Negotiation Template
+category: personal/Communication Skills
+tags: [communication, data-science, development, personal, research, strategy, template]
+use_cases:
+  - Implementing develop effective negotiation strategies, tactics, and communication approaches ...
+  - Project planning and execution
+  - Strategy development
+last_updated: 2025-11-09
+---
+
 # Negotiation Template
 
 ## Purpose

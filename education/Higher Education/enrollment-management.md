@@ -1,3 +1,17 @@
+---
+title: Enrollment Management Template Generator
+category: education/Higher Education
+tags: [data-science, education, management, marketing, optimization, security, strategy, template]
+use_cases:
+  - Implementing create comprehensive enrollment management strategies covering student recruitme...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - curriculum-development.md
+  - curriculum-development-framework.md
+last_updated: 2025-11-09
+---
+
 # Enrollment Management Template Generator
 
 ## Purpose

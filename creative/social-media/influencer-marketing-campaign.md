@@ -1,3 +1,17 @@
+---
+title: Influencer Marketing Campaign & Creator Economy Framework
+category: creative/social-media
+tags: [creative, design, development, framework, marketing, optimization, strategy]
+use_cases:
+  - Implementing comprehensive framework for designing and executing influencer marketing campaig...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - creative-writing-framework.md
+  - video-production-pipeline.md
+last_updated: 2025-11-09
+---
+
 # Influencer Marketing Campaign & Creator Economy Framework
 
 ## Purpose
@@ -63,6 +77,303 @@ Vetting Criteria:
 - Past Performance: [PAST_PERFORM]
 - Risk Assessment: [RISK_ASSESS]
 ```
+
+## Variables
+
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `[BRAND_NAME]` | Name of the brand | "John Smith" |
+| `[AUDIENCE_SIZE]` | Specify the audience size | "[specify value]" |
+| `[ENGAGEMENT_TARGET]` | Target or intended engagement | "[specify value]" |
+| `[INFLUENCER_COUNT]` | Specify the influencer count | "10" |
+| `[CAMPAIGN_BUDGET]` | Budget allocation for campaign | "$500,000" |
+| `[CONVERSION_TARGET]` | Target or intended conversion | "[specify value]" |
+| `[ROI_TARGET]` | Target or intended roi | "[specify value]" |
+| `[BRAND_LIFT]` | Specify the brand lift | "[specify value]" |
+| `[AWARE_BASELINE]` | Specify the aware baseline | "[specify value]" |
+| `[AWARE_TARGET]` | Target or intended aware | "[specify value]" |
+| `[AWARE_METRICS]` | Specify the aware metrics | "[specify value]" |
+| `[AWARE_BUDGET]` | Budget allocation for aware | "$500,000" |
+| `[AWARE_TIME]` | Specify the aware time | "[specify value]" |
+| `[ENGAGE_BASELINE]` | Specify the engage baseline | "[specify value]" |
+| `[ENGAGE_TARGET]` | Target or intended engage | "[specify value]" |
+| `[ENGAGE_METRICS]` | Specify the engage metrics | "[specify value]" |
+| `[ENGAGE_BUDGET]` | Budget allocation for engage | "$500,000" |
+| `[ENGAGE_TIME]` | Specify the engage time | "[specify value]" |
+| `[CONVERT_BASELINE]` | Specify the convert baseline | "[specify value]" |
+| `[CONVERT_TARGET]` | Target or intended convert | "[specify value]" |
+| `[CONVERT_METRICS]` | Specify the convert metrics | "[specify value]" |
+| `[CONVERT_BUDGET]` | Budget allocation for convert | "$500,000" |
+| `[CONVERT_TIME]` | Specify the convert time | "[specify value]" |
+| `[CONTENT_BASELINE]` | Specify the content baseline | "[specify value]" |
+| `[CONTENT_TARGET]` | Target or intended content | "[specify value]" |
+| `[CONTENT_METRICS]` | Specify the content metrics | "[specify value]" |
+| `[CONTENT_BUDGET]` | Budget allocation for content | "$500,000" |
+| `[CONTENT_TIME]` | Specify the content time | "[specify value]" |
+| `[COMMUNITY_BASELINE]` | Specify the community baseline | "[specify value]" |
+| `[COMMUNITY_TARGET]` | Target or intended community | "[specify value]" |
+| `[COMMUNITY_METRICS]` | Specify the community metrics | "[specify value]" |
+| `[COMMUNITY_BUDGET]` | Budget allocation for community | "$500,000" |
+| `[COMMUNITY_TIME]` | Specify the community time | "[specify value]" |
+| `[SENTIMENT_BASELINE]` | Specify the sentiment baseline | "[specify value]" |
+| `[SENTIMENT_TARGET]` | Target or intended sentiment | "[specify value]" |
+| `[SENTIMENT_METRICS]` | Specify the sentiment metrics | "[specify value]" |
+| `[SENTIMENT_BUDGET]` | Budget allocation for sentiment | "$500,000" |
+| `[SENTIMENT_TIME]` | Specify the sentiment time | "[specify value]" |
+| `[MEGA_PLATFORMS]` | Specify the mega platforms | "[specify value]" |
+| `[MEGA_FOLLOWERS]` | Specify the mega followers | "[specify value]" |
+| `[MEGA_ENGAGEMENT]` | Specify the mega engagement | "[specify value]" |
+| `[MEGA_STYLE]` | Specify the mega style | "[specify value]" |
+| `[MEGA_COMP]` | Specify the mega comp | "[specify value]" |
+| `[MEGA_PARTNERSHIP]` | Specify the mega partnership | "[specify value]" |
+| `[MACRO_PLATFORMS]` | Specify the macro platforms | "[specify value]" |
+| `[MACRO_FOLLOWERS]` | Specify the macro followers | "[specify value]" |
+| `[MACRO_ENGAGEMENT]` | Specify the macro engagement | "[specify value]" |
+| `[MACRO_QUALITY]` | Specify the macro quality | "[specify value]" |
+| `[MACRO_COMP]` | Specify the macro comp | "[specify value]" |
+| `[MACRO_COLLAB]` | Specify the macro collab | "[specify value]" |
+| `[MID_NICHE]` | Specify the mid niche | "[specify value]" |
+| `[MID_FOLLOWERS]` | Specify the mid followers | "[specify value]" |
+| `[MID_ENGAGEMENT]` | Specify the mid engagement | "[specify value]" |
+| `[MID_AUTHENTIC]` | Specify the mid authentic | "[specify value]" |
+| `[MID_COMP]` | Specify the mid comp | "[specify value]" |
+| `[MID_FREQUENCY]` | Specify the mid frequency | "[specify value]" |
+| `[MICRO_COMMUNITY]` | Specify the micro community | "[specify value]" |
+| `[MICRO_FOLLOWERS]` | Specify the micro followers | "[specify value]" |
+| `[MICRO_ENGAGEMENT]` | Specify the micro engagement | "[specify value]" |
+| `[MICRO_LOCAL]` | Specify the micro local | "[specify value]" |
+| `[MICRO_COMP]` | Specify the micro comp | "[specify value]" |
+| `[MICRO_VOLUME]` | Specify the micro volume | "[specify value]" |
+| `[AUDIENCE_DEMO]` | Specify the audience demo | "[specify value]" |
+| `[BRAND_ALIGN]` | Specify the brand align | "[specify value]" |
+| `[CONTENT_QUAL]` | Specify the content qual | "[specify value]" |
+| `[ENGAGE_AUTH]` | Specify the engage auth | "[specify value]" |
+| `[PAST_PERFORM]` | Specify the past perform | "[specify value]" |
+| `[RISK_ASSESS]` | Specify the risk assess | "[specify value]" |
+| `[IG_AUDIENCE]` | Specify the ig audience | "[specify value]" |
+| `[IG_CONTENT]` | Specify the ig content | "[specify value]" |
+| `[IG_FREQUENCY]` | Specify the ig frequency | "[specify value]" |
+| `[IG_ENGAGEMENT]` | Specify the ig engagement | "[specify value]" |
+| `[IG_GOALS]` | Specify the ig goals | "Increase efficiency by 30%" |
+| `[TT_AUDIENCE]` | Specify the tt audience | "[specify value]" |
+| `[TT_CONTENT]` | Specify the tt content | "[specify value]" |
+| `[TT_FREQUENCY]` | Specify the tt frequency | "[specify value]" |
+| `[TT_ENGAGEMENT]` | Specify the tt engagement | "[specify value]" |
+| `[TT_GOALS]` | Specify the tt goals | "Increase efficiency by 30%" |
+| `[YT_AUDIENCE]` | Specify the yt audience | "[specify value]" |
+| `[YT_CONTENT]` | Specify the yt content | "[specify value]" |
+| `[YT_FREQUENCY]` | Specify the yt frequency | "[specify value]" |
+| `[YT_ENGAGEMENT]` | Specify the yt engagement | "[specify value]" |
+| `[YT_GOALS]` | Specify the yt goals | "Increase efficiency by 30%" |
+| `[TW_AUDIENCE]` | Specify the tw audience | "[specify value]" |
+| `[TW_CONTENT]` | Specify the tw content | "[specify value]" |
+| `[TW_FREQUENCY]` | Specify the tw frequency | "[specify value]" |
+| `[TW_ENGAGEMENT]` | Specify the tw engagement | "[specify value]" |
+| `[TW_GOALS]` | Specify the tw goals | "Increase efficiency by 30%" |
+| `[LI_AUDIENCE]` | Specify the li audience | "[specify value]" |
+| `[LI_CONTENT]` | Specify the li content | "[specify value]" |
+| `[LI_FREQUENCY]` | Specify the li frequency | "[specify value]" |
+| `[LI_ENGAGEMENT]` | Specify the li engagement | "[specify value]" |
+| `[LI_GOALS]` | Specify the li goals | "Increase efficiency by 30%" |
+| `[EMERGE_AUDIENCE]` | Specify the emerge audience | "[specify value]" |
+| `[EMERGE_CONTENT]` | Specify the emerge content | "[specify value]" |
+| `[EMERGE_FREQUENCY]` | Specify the emerge frequency | "[specify value]" |
+| `[EMERGE_ENGAGEMENT]` | Specify the emerge engagement | "[specify value]" |
+| `[EMERGE_GOALS]` | Specify the emerge goals | "Increase efficiency by 30%" |
+| `[VIDEO_FORMATS]` | Specify the video formats | "[specify value]" |
+| `[PHOTO_FORMATS]` | Specify the photo formats | "[specify value]" |
+| `[STORY_FORMATS]` | Specify the story formats | "[specify value]" |
+| `[LIVE_FORMATS]` | Specify the live formats | "[specify value]" |
+| `[UGC_FORMATS]` | Specify the ugc formats | "[specify value]" |
+| `[CROSS_FORMATS]` | Specify the cross formats | "[specify value]" |
+| `[BRAND_GUIDE]` | Specify the brand guide | "[specify value]" |
+| `[VISUAL_STANDARDS]` | Specify the visual standards | "[specify value]" |
+| `[MESSAGE_FRAME]` | Specify the message frame | "[specify value]" |
+| `[TONE_VOICE]` | Specify the tone voice | "[specify value]" |
+| `[CREATIVE_FREEDOM]` | Specify the creative freedom | "[specify value]" |
+| `[APPROVAL_PROCESS]` | Specify the approval process | "[specify value]" |
+| `[LAUNCH_CONTENT]` | Specify the launch content | "[specify value]" |
+| `[SUSTAIN_CONTENT]` | Specify the sustain content | "[specify value]" |
+| `[PEAK_CONTENT]` | Specify the peak content | "[specify value]" |
+| `[ALWAYS_CONTENT]` | Specify the always content | "[specify value]" |
+| `[SEASONAL_CONTENT]` | Specify the seasonal content | "[specify value]" |
+| `[CRISIS_CONTENT]` | Specify the crisis content | "[specify value]" |
+| `[CREATIVE_RESOURCES]` | Specify the creative resources | "[specify value]" |
+| `[PRODUCTION_BUDGET]` | Budget allocation for production | "$500,000" |
+| `[EQUIPMENT_TOOLS]` | Specify the equipment tools | "[specify value]" |
+| `[LOCATIONS_SETS]` | Specify the locations sets | "North America" |
+| `[POST_PRODUCTION]` | Specify the post production | "[specify value]" |
+| `[ASSET_MGMT]` | Specify the asset mgmt | "[specify value]" |
+| `[FLAT_STRUCTURE]` | Specify the flat structure | "[specify value]" |
+| `[FLAT_DELIVER]` | Specify the flat deliver | "[specify value]" |
+| `[FLAT_RIGHTS]` | Specify the flat rights | "[specify value]" |
+| `[FLAT_BONUS]` | Specify the flat bonus | "[specify value]" |
+| `[FLAT_VALUE]` | Specify the flat value | "[specify value]" |
+| `[PERF_STRUCTURE]` | Specify the perf structure | "[specify value]" |
+| `[PERF_DELIVER]` | Specify the perf deliver | "[specify value]" |
+| `[PERF_RIGHTS]` | Specify the perf rights | "[specify value]" |
+| `[PERF_BONUS]` | Specify the perf bonus | "[specify value]" |
+| `[PERF_VALUE]` | Specify the perf value | "[specify value]" |
+| `[HYBRID_STRUCTURE]` | Specify the hybrid structure | "[specify value]" |
+| `[HYBRID_DELIVER]` | Specify the hybrid deliver | "[specify value]" |
+| `[HYBRID_RIGHTS]` | Specify the hybrid rights | "[specify value]" |
+| `[HYBRID_BONUS]` | Specify the hybrid bonus | "[specify value]" |
+| `[HYBRID_VALUE]` | Specify the hybrid value | "[specify value]" |
+| `[GIFT_STRUCTURE]` | Specify the gift structure | "[specify value]" |
+| `[GIFT_DELIVER]` | Specify the gift deliver | "[specify value]" |
+| `[GIFT_RIGHTS]` | Specify the gift rights | "[specify value]" |
+| `[GIFT_BONUS]` | Specify the gift bonus | "[specify value]" |
+| `[GIFT_VALUE]` | Specify the gift value | "[specify value]" |
+| `[AFF_STRUCTURE]` | Specify the aff structure | "[specify value]" |
+| `[AFF_DELIVER]` | Specify the aff deliver | "[specify value]" |
+| `[AFF_RIGHTS]` | Specify the aff rights | "[specify value]" |
+| `[AFF_BONUS]` | Specify the aff bonus | "[specify value]" |
+| `[AFF_VALUE]` | Specify the aff value | "[specify value]" |
+| `[EQUITY_STRUCTURE]` | Specify the equity structure | "[specify value]" |
+| `[EQUITY_DELIVER]` | Specify the equity deliver | "[specify value]" |
+| `[EQUITY_RIGHTS]` | Specify the equity rights | "[specify value]" |
+| `[EQUITY_BONUS]` | Specify the equity bonus | "[specify value]" |
+| `[EQUITY_VALUE]` | Specify the equity value | "[specify value]" |
+| `[PRE_DURATION]` | Specify the pre duration | "6 months" |
+| `[PRE_ACTIVITIES]` | Specify the pre activities | "[specify value]" |
+| `[PRE_VOLUME]` | Specify the pre volume | "[specify value]" |
+| `[PRE_SPEND]` | Specify the pre spend | "[specify value]" |
+| `[PRE_INDICATORS]` | Specify the pre indicators | "[specify value]" |
+| `[SOFT_DURATION]` | Specify the soft duration | "6 months" |
+| `[SOFT_ACTIVITIES]` | Specify the soft activities | "[specify value]" |
+| `[SOFT_VOLUME]` | Specify the soft volume | "[specify value]" |
+| `[SOFT_SPEND]` | Specify the soft spend | "[specify value]" |
+| `[SOFT_INDICATORS]` | Specify the soft indicators | "[specify value]" |
+| `[MAIN_DURATION]` | Specify the main duration | "6 months" |
+| `[MAIN_ACTIVITIES]` | Specify the main activities | "[specify value]" |
+| `[MAIN_VOLUME]` | Specify the main volume | "[specify value]" |
+| `[MAIN_SPEND]` | Specify the main spend | "[specify value]" |
+| `[MAIN_INDICATORS]` | Specify the main indicators | "[specify value]" |
+| `[SUSTAIN_DURATION]` | Specify the sustain duration | "6 months" |
+| `[SUSTAIN_ACTIVITIES]` | Specify the sustain activities | "[specify value]" |
+| `[SUSTAIN_VOLUME]` | Specify the sustain volume | "[specify value]" |
+| `[SUSTAIN_SPEND]` | Specify the sustain spend | "[specify value]" |
+| `[SUSTAIN_INDICATORS]` | Specify the sustain indicators | "[specify value]" |
+| `[AMP_DURATION]` | Specify the amp duration | "6 months" |
+| `[AMP_ACTIVITIES]` | Specify the amp activities | "[specify value]" |
+| `[AMP_VOLUME]` | Specify the amp volume | "[specify value]" |
+| `[AMP_SPEND]` | Specify the amp spend | "[specify value]" |
+| `[AMP_INDICATORS]` | Specify the amp indicators | "[specify value]" |
+| `[WRAP_DURATION]` | Specify the wrap duration | "6 months" |
+| `[WRAP_ACTIVITIES]` | Specify the wrap activities | "[specify value]" |
+| `[WRAP_VOLUME]` | Specify the wrap volume | "[specify value]" |
+| `[WRAP_SPEND]` | Specify the wrap spend | "[specify value]" |
+| `[WRAP_INDICATORS]` | Specify the wrap indicators | "[specify value]" |
+| `[RESPONSE_TIME]` | Specify the response time | "[specify value]" |
+| `[ENGAGE_RATE]` | Specify the engage rate | "[specify value]" |
+| `[COMMENT_MGMT]` | Specify the comment mgmt | "[specify value]" |
+| `[DM_STRATEGY]` | Strategy or approach for dm | "[specify value]" |
+| `[UGC_STRATEGY]` | Strategy or approach for ugc | "[specify value]" |
+| `[COMMUNITY_GUIDE]` | Specify the community guide | "[specify value]" |
+| `[CONTEST_STRATEGY]` | Strategy or approach for contest | "[specify value]" |
+| `[CHALLENGE_STRATEGY]` | Strategy or approach for challenge | "[specify value]" |
+| `[HASHTAG_STRATEGY]` | Strategy or approach for hashtag | "[specify value]" |
+| `[COCREATE_STRATEGY]` | Strategy or approach for cocreate | "[specify value]" |
+| `[AMBASSADOR_PROG]` | Specify the ambassador prog | "[specify value]" |
+| `[LOYALTY_REWARDS]` | Specify the loyalty rewards | "[specify value]" |
+| `[INFLUENCER_COLLAB]` | Specify the influencer collab | "[specify value]" |
+| `[BRAND_PARTNER]` | Specify the brand partner | "[specify value]" |
+| `[MEDIA_INTEGRATE]` | Specify the media integrate | "[specify value]" |
+| `[EVENT_ACTIVATE]` | Specify the event activate | "[specify value]" |
+| `[PR_AMPLIFY]` | Specify the pr amplify | "[specify value]" |
+| `[PAID_SUPPORT]` | Specify the paid support | "[specify value]" |
+| `[MONITOR_TOOLS]` | Specify the monitor tools | "[specify value]" |
+| `[SENTIMENT_ANALYSIS]` | Specify the sentiment analysis | "[specify value]" |
+| `[CRISIS_PROTOCOL]` | Specify the crisis protocol | "[specify value]" |
+| `[POSITIVE_REINFORCE]` | Specify the positive reinforce | "[specify value]" |
+| `[ISSUE_RESOLVE]` | Specify the issue resolve | "[specify value]" |
+| `[REPUTATION_MGMT]` | Specify the reputation mgmt | "[specify value]" |
+| `[REACH_KPIS]` | Specify the reach kpis | "[specify value]" |
+| `[REACH_TOOLS]` | Specify the reach tools | "[specify value]" |
+| `[REACH_FREQUENCY]` | Specify the reach frequency | "[specify value]" |
+| `[REACH_BENCHMARK]` | Specify the reach benchmark | "[specify value]" |
+| `[REACH_ACTION]` | Specify the reach action | "[specify value]" |
+| `[ENGAGE_KPIS]` | Specify the engage kpis | "[specify value]" |
+| `[ENGAGE_TOOLS]` | Specify the engage tools | "[specify value]" |
+| `[ENGAGE_FREQUENCY]` | Specify the engage frequency | "[specify value]" |
+| `[ENGAGE_BENCHMARK]` | Specify the engage benchmark | "[specify value]" |
+| `[ENGAGE_ACTION]` | Specify the engage action | "[specify value]" |
+| `[CONVERT_KPIS]` | Specify the convert kpis | "[specify value]" |
+| `[CONVERT_TOOLS]` | Specify the convert tools | "[specify value]" |
+| `[CONVERT_FREQUENCY]` | Specify the convert frequency | "[specify value]" |
+| `[CONVERT_BENCHMARK]` | Specify the convert benchmark | "[specify value]" |
+| `[CONVERT_ACTION]` | Specify the convert action | "[specify value]" |
+| `[BRAND_KPIS]` | Specify the brand kpis | "[specify value]" |
+| `[BRAND_TOOLS]` | Specify the brand tools | "[specify value]" |
+| `[BRAND_FREQUENCY]` | Specify the brand frequency | "[specify value]" |
+| `[BRAND_BENCHMARK]` | Specify the brand benchmark | "[specify value]" |
+| `[BRAND_ACTION]` | Specify the brand action | "[specify value]" |
+| `[CONTENT_KPIS]` | Specify the content kpis | "[specify value]" |
+| `[CONTENT_TOOLS]` | Specify the content tools | "[specify value]" |
+| `[CONTENT_FREQUENCY]` | Specify the content frequency | "[specify value]" |
+| `[CONTENT_BENCHMARK]` | Specify the content benchmark | "[specify value]" |
+| `[CONTENT_ACTION]` | Specify the content action | "[specify value]" |
+| `[ROI_KPIS]` | Specify the roi kpis | "[specify value]" |
+| `[ROI_TOOLS]` | Specify the roi tools | "[specify value]" |
+| `[ROI_FREQUENCY]` | Specify the roi frequency | "[specify value]" |
+| `[ROI_BENCHMARK]` | Specify the roi benchmark | "[specify value]" |
+| `[ROI_ACTION]` | Specify the roi action | "[specify value]" |
+| `[FTC_REQUIRE]` | Specify the ftc require | "[specify value]" |
+| `[FTC_IMPLEMENT]` | Specify the ftc implement | "[specify value]" |
+| `[FTC_MONITOR]` | Specify the ftc monitor | "[specify value]" |
+| `[FTC_RESPONSE]` | Specify the ftc response | "[specify value]" |
+| `[FTC_DOCUMENT]` | Specify the ftc document | "[specify value]" |
+| `[PLATFORM_REQUIRE]` | Specify the platform require | "[specify value]" |
+| `[PLATFORM_IMPLEMENT]` | Specify the platform implement | "[specify value]" |
+| `[PLATFORM_MONITOR]` | Specify the platform monitor | "[specify value]" |
+| `[PLATFORM_RESPONSE]` | Specify the platform response | "[specify value]" |
+| `[PLATFORM_DOCUMENT]` | Specify the platform document | "[specify value]" |
+| `[PRIVACY_REQUIRE]` | Specify the privacy require | "[specify value]" |
+| `[PRIVACY_IMPLEMENT]` | Specify the privacy implement | "[specify value]" |
+| `[PRIVACY_MONITOR]` | Specify the privacy monitor | "[specify value]" |
+| `[PRIVACY_RESPONSE]` | Specify the privacy response | "[specify value]" |
+| `[PRIVACY_DOCUMENT]` | Specify the privacy document | "[specify value]" |
+| `[IP_REQUIRE]` | Specify the ip require | "[specify value]" |
+| `[IP_IMPLEMENT]` | Specify the ip implement | "[specify value]" |
+| `[IP_MONITOR]` | Specify the ip monitor | "[specify value]" |
+| `[IP_RESPONSE]` | Specify the ip response | "[specify value]" |
+| `[IP_DOCUMENT]` | Specify the ip document | "[specify value]" |
+| `[SAFETY_REQUIRE]` | Specify the safety require | "[specify value]" |
+| `[SAFETY_IMPLEMENT]` | Specify the safety implement | "[specify value]" |
+| `[SAFETY_MONITOR]` | Specify the safety monitor | "[specify value]" |
+| `[SAFETY_RESPONSE]` | Specify the safety response | "[specify value]" |
+| `[SAFETY_DOCUMENT]` | Specify the safety document | "[specify value]" |
+| `[CRISIS_REQUIRE]` | Specify the crisis require | "[specify value]" |
+| `[CRISIS_IMPLEMENT]` | Specify the crisis implement | "[specify value]" |
+| `[CRISIS_MONITOR]` | Specify the crisis monitor | "[specify value]" |
+| `[CRISIS_RESPONSE]` | Specify the crisis response | "[specify value]" |
+| `[CRISIS_DOCUMENT]` | Specify the crisis document | "[specify value]" |
+| `[INITIAL_ENGAGE]` | Specify the initial engage | "[specify value]" |
+| `[TRUST_DEVELOP]` | Specify the trust develop | "[specify value]" |
+| `[COMM_CADENCE]` | Specify the comm cadence | "[specify value]" |
+| `[FEEDBACK_LOOPS]` | Specify the feedback loops | "[specify value]" |
+| `[PERFORM_REVIEWS]` | Specify the perform reviews | "[specify value]" |
+| `[RELATION_SCORE]` | Specify the relation score | "[specify value]" |
+| `[AMBASSADOR_SELECT]` | Specify the ambassador select | "[specify value]" |
+| `[EXCLUSIVE_BENEFITS]` | Specify the exclusive benefits | "[specify value]" |
+| `[COCREATE_OPP]` | Specify the cocreate opp | "[specify value]" |
+| `[PRODUCT_DEV]` | Specify the product dev | "[specify value]" |
+| `[EVENT_PART]` | Specify the event part | "[specify value]" |
+| `[REVENUE_SHARE]` | Specify the revenue share | "[specify value]" |
+| `[TIER_PROGRESS]` | Specify the tier progress | "[specify value]" |
+| `[GEO_EXPAND]` | Specify the geo expand | "[specify value]" |
+| `[PLATFORM_DIVERSE]` | Specify the platform diverse | "[specify value]" |
+| `[CONTENT_EVOLVE]` | Specify the content evolve | "[specify value]" |
+| `[AUDIENCE_GROW]` | Specify the audience grow | "[specify value]" |
+| `[BRAND_INTEGRATE]` | Specify the brand integrate | "[specify value]" |
+| `[MONEY_VALUE]` | Specify the money value | "[specify value]" |
+| `[PRODUCT_VALUE]` | Specify the product value | "[specify value]" |
+| `[EXPERIENCE_VALUE]` | Specify the experience value | "[specify value]" |
+| `[CAREER_VALUE]` | Specify the career value | "[specify value]" |
+| `[NETWORK_VALUE]` | Specify the network value | "[specify value]" |
+| `[SECURITY_VALUE]` | Specify the security value | "[specify value]" |
+
+
 
 ### 3. Platform Strategy & Content Mix
 

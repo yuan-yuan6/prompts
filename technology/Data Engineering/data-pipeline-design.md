@@ -1,3 +1,18 @@
+---
+title: Data Pipeline Design Document Generator
+category: technology/Data Engineering
+tags: [automation, design, optimization, technology, testing]
+use_cases:
+  - Implementing create comprehensive data pipeline design documents that define the architecture...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - cloud-architecture-framework.md
+  - site-reliability-engineering.md
+  - cloud-migration-strategy.md
+last_updated: 2025-11-09
+---
+
 # Data Pipeline Design Document Generator
 
 ## Purpose

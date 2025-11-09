@@ -1,3 +1,17 @@
+---
+title: Game Design Template
+category: creative/Entertainment
+tags: [automation, creative, data-science, design, development, machine-learning, research, strategy]
+use_cases:
+  - Implementing create comprehensive game design documents including narratives, mechanics, and ...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - creative-writing-framework.md
+  - video-production-pipeline.md
+last_updated: 2025-11-09
+---
+
 # Game Design Template
 
 ## Purpose

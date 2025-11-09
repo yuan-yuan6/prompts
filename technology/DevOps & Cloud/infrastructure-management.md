@@ -1,3 +1,18 @@
+---
+title: Infrastructure Management Template
+category: technology/DevOps & Cloud
+tags: [design, management, optimization, strategy, technology, template]
+use_cases:
+  - Implementing comprehensive infrastructure management including provisioning, scaling, monitor...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - cloud-architecture-framework.md
+  - site-reliability-engineering.md
+  - cloud-migration-strategy.md
+last_updated: 2025-11-09
+---
+
 # Infrastructure Management Template
 
 ## Purpose
@@ -94,6 +109,63 @@ Monitoring Strategy:
 - Alert via PagerDuty, Slack infrastructure alerting
 - Visualize with Grafana dashboards, CloudWatch logs infrastructure logging
 ```
+
+## Variables
+
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `{infrastructure_name}` | Specify the infrastructure name | "John Smith" |
+| `{infrastructure_type}` | Specify the infrastructure type | "Standard" |
+| `{infrastructure_environment}` | Specify the infrastructure environment | "[specify value]" |
+| `{infrastructure_scale}` | Specify the infrastructure scale | "[specify value]" |
+| `{infrastructure_technology_stack}` | Specify the infrastructure technology stack | "[specify value]" |
+| `{cloud_provider}` | Specify the cloud provider | "[specify value]" |
+| `{management_approach}` | Specify the management approach | "[specify value]" |
+| `{infrastructure_team}` | Specify the infrastructure team | "[specify value]" |
+| `{infrastructure_budget}` | Specify the infrastructure budget | "$500,000" |
+| `{sla_requirements}` | Specify the sla requirements | "[specify value]" |
+| `{provisioning_method}` | Specify the provisioning method | "[specify value]" |
+| `{infrastructure_as_code}` | Specify the infrastructure as code | "[specify value]" |
+| `{template_management}` | Specify the template management | "[specify value]" |
+| `{resource_organization}` | Specify the resource organization | "[specify value]" |
+| `{configuration_management}` | Specify the configuration management | "[specify value]" |
+| `{environment_management}` | Specify the environment management | "[specify value]" |
+| `{infrastructure_version_control}` | Specify the infrastructure version control | "[specify value]" |
+| `{infrastructure_change_management}` | Specify the infrastructure change management | "[specify value]" |
+| `{approval_workflows}` | Specify the approval workflows | "[specify value]" |
+| `{infrastructure_rollback}` | Specify the infrastructure rollback | "[specify value]" |
+| `{scaling_strategy}` | Specify the scaling strategy | "[specify value]" |
+| `{auto_scaling}` | Specify the auto scaling | "[specify value]" |
+| `{horizontal_scaling}` | Specify the horizontal scaling | "[specify value]" |
+| `{vertical_scaling}` | Specify the vertical scaling | "[specify value]" |
+| `{scaling_metrics}` | Specify the scaling metrics | "[specify value]" |
+| `{scaling_policies}` | Specify the scaling policies | "[specify value]" |
+| `{load_balancing}` | Specify the load balancing | "[specify value]" |
+| `{capacity_planning}` | Specify the capacity planning | "[specify value]" |
+| `{performance_optimization}` | Specify the performance optimization | "[specify value]" |
+| `{infrastructure_cost_optimization}` | Specify the infrastructure cost optimization | "[specify value]" |
+| `{monitoring_strategy}` | Specify the monitoring strategy | "[specify value]" |
+| `{infrastructure_monitoring}` | Specify the infrastructure monitoring | "[specify value]" |
+| `{application_monitoring}` | Specify the application monitoring | "[specify value]" |
+| `{infrastructure_performance_monitoring}` | Specify the infrastructure performance monitoring | "[specify value]" |
+| `{infrastructure_health_checks}` | Specify the infrastructure health checks | "[specify value]" |
+| `{infrastructure_alerting}` | Specify the infrastructure alerting | "[specify value]" |
+| `{infrastructure_dashboards}` | Specify the infrastructure dashboards | "[specify value]" |
+| `{infrastructure_logging}` | Specify the infrastructure logging | "[specify value]" |
+| `{infrastructure_metrics}` | Specify the infrastructure metrics | "[specify value]" |
+| `{infrastructure_tracing}` | Specify the infrastructure tracing | "[specify value]" |
+| `{maintenance_strategy}` | Specify the maintenance strategy | "[specify value]" |
+| `{patch_management}` | Specify the patch management | "[specify value]" |
+| `{update_procedures}` | Specify the update procedures | "2025-01-15" |
+| `{infrastructure_backup}` | Specify the infrastructure backup | "[specify value]" |
+| `{infrastructure_recovery}` | Specify the infrastructure recovery | "[specify value]" |
+| `{security_updates}` | Specify the security updates | "2025-01-15" |
+| `{performance_tuning}` | Specify the performance tuning | "[specify value]" |
+| `{capacity_management}` | Specify the capacity management | "[specify value]" |
+| `{infrastructure_incident_response}` | Specify the infrastructure incident response | "[specify value]" |
+| `{change_windows}` | Specify the change windows | "[specify value]" |
+
+
 
 ## Best Practices
 

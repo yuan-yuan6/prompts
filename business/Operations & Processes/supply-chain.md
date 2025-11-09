@@ -1,3 +1,18 @@
+---
+title: Supply Chain Management Template Generator
+category: business/Operations & Processes
+tags: [business, design, machine-learning, management, optimization, strategy, template]
+use_cases:
+  - Implementing create comprehensive supply chain management strategies covering logistics optim...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - okr-implementation-framework.md
+  - digital-transformation-roadmap.md
+  - lean-six-sigma-implementation.md
+last_updated: 2025-11-09
+---
+
 # Supply Chain Management Template Generator
 
 ## Purpose

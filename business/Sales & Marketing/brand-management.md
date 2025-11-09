@@ -1,3 +1,18 @@
+---
+title: Brand Management Template Generator
+category: business/Sales & Marketing
+tags: [business, communication, design, development, machine-learning, management, marketing, optimization]
+use_cases:
+  - Implementing create comprehensive brand management strategies covering brand positioning, mes...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - okr-implementation-framework.md
+  - digital-transformation-roadmap.md
+  - lean-six-sigma-implementation.md
+last_updated: 2025-11-09
+---
+
 # Brand Management Template Generator
 
 ## Purpose

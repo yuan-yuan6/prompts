@@ -1,3 +1,18 @@
+---
+title: M&A Support Template
+category: professional-services/legal-compliance/Corporate Legal
+tags: [design, documentation, management, professional-services, strategy, template]
+use_cases:
+  - Implementing create comprehensive merger and acquisition documentation, due diligence framewo...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - regulatory-compliance-framework.md
+  - contract-drafting-template.md
+  - intellectual-property-management.md
+last_updated: 2025-11-09
+---
+
 # M&A Support Template
 
 ## Purpose

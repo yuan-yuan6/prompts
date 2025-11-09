@@ -1,3 +1,17 @@
+---
+title: Renewable Energy System Optimization
+category: industry/energy-utilities/Generation & Operations
+tags: [data-science, industry, optimization, research, strategy]
+use_cases:
+  - Implementing comprehensive renewable energy planning, deployment, and optimization framework ...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - plant-operations-management.md
+  - smart-grid-implementation.md
+last_updated: 2025-11-09
+---
+
 # Renewable Energy System Optimization
 
 ## Purpose
@@ -94,6 +108,232 @@ Financial Metrics:
 - LCOE: $[LCOE]/MWh
 - Debt Service Coverage: [DSCR]x
 ```
+
+## Variables
+
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `[PROJECT_NAME]` | Name of the project | "Digital Transformation Initiative" |
+| `[LOCATION]` | Specify the location | "North America" |
+| `[CAPACITY_MW]` | Specify the capacity mw | "[specify value]" |
+| `[BUDGET]` | Budget allocation for  | "$500,000" |
+| `[DNI_VALUE]` | Specify the dni value | "[specify value]" |
+| `[SOLAR_CF]` | Specify the solar cf | "[specify value]" |
+| `[SOLAR_SEASONAL]` | Specify the solar seasonal | "[specify value]" |
+| `[SOLAR_POTENTIAL]` | Specify the solar potential | "[specify value]" |
+| `[WIND_SPEED]` | Specify the wind speed | "[specify value]" |
+| `[HEIGHT]` | Specify the height | "[specify value]" |
+| `[WIND_CF]` | Specify the wind cf | "[specify value]" |
+| `[WIND_SEASONAL]` | Specify the wind seasonal | "[specify value]" |
+| `[WIND_POTENTIAL]` | Specify the wind potential | "[specify value]" |
+| `[FLOW_RATE]` | Specify the flow rate | "[specify value]" |
+| `[HYDRO_CF]` | Specify the hydro cf | "[specify value]" |
+| `[HYDRO_SEASONAL]` | Specify the hydro seasonal | "[specify value]" |
+| `[HYDRO_POTENTIAL]` | Specify the hydro potential | "[specify value]" |
+| `[BIOMASS_TONS]` | Specify the biomass tons | "[specify value]" |
+| `[BIOMASS_CF]` | Specify the biomass cf | "[specify value]" |
+| `[BIOMASS_SEASONAL]` | Specify the biomass seasonal | "[specify value]" |
+| `[BIOMASS_POTENTIAL]` | Specify the biomass potential | "[specify value]" |
+| `[TEMP_GRADIENT]` | Specify the temp gradient | "[specify value]" |
+| `[GEO_CF]` | Specify the geo cf | "[specify value]" |
+| `[GEO_SEASONAL]` | Specify the geo seasonal | "[specify value]" |
+| `[GEO_POTENTIAL]` | Specify the geo potential | "[specify value]" |
+| `[TECH_1]` | Specify the tech 1 | "[specify value]" |
+| `[LCOE_1]` | Specify the lcoe 1 | "[specify value]" |
+| `[CAPEX_1]` | Specify the capex 1 | "[specify value]" |
+| `[OPEX_1]` | Specify the opex 1 | "[specify value]" |
+| `[LIFETIME_1]` | Specify the lifetime 1 | "[specify value]" |
+| `[SCORE_1]` | Specify the score 1 | "[specify value]" |
+| `[TECH_2]` | Specify the tech 2 | "[specify value]" |
+| `[LCOE_2]` | Specify the lcoe 2 | "[specify value]" |
+| `[CAPEX_2]` | Specify the capex 2 | "[specify value]" |
+| `[OPEX_2]` | Specify the opex 2 | "[specify value]" |
+| `[LIFETIME_2]` | Specify the lifetime 2 | "[specify value]" |
+| `[SCORE_2]` | Specify the score 2 | "[specify value]" |
+| `[TECH_3]` | Specify the tech 3 | "[specify value]" |
+| `[LCOE_3]` | Specify the lcoe 3 | "[specify value]" |
+| `[CAPEX_3]` | Specify the capex 3 | "[specify value]" |
+| `[OPEX_3]` | Specify the opex 3 | "[specify value]" |
+| `[LIFETIME_3]` | Specify the lifetime 3 | "[specify value]" |
+| `[SCORE_3]` | Specify the score 3 | "[specify value]" |
+| `[TECH_4]` | Specify the tech 4 | "[specify value]" |
+| `[LCOE_4]` | Specify the lcoe 4 | "[specify value]" |
+| `[CAPEX_4]` | Specify the capex 4 | "[specify value]" |
+| `[OPEX_4]` | Specify the opex 4 | "[specify value]" |
+| `[LIFETIME_4]` | Specify the lifetime 4 | "[specify value]" |
+| `[SCORE_4]` | Specify the score 4 | "[specify value]" |
+| `[TECH_5]` | Specify the tech 5 | "[specify value]" |
+| `[LCOE_5]` | Specify the lcoe 5 | "[specify value]" |
+| `[CAPEX_5]` | Specify the capex 5 | "[specify value]" |
+| `[OPEX_5]` | Specify the opex 5 | "[specify value]" |
+| `[LIFETIME_5]` | Specify the lifetime 5 | "[specify value]" |
+| `[SCORE_5]` | Specify the score 5 | "[specify value]" |
+| `[POC_LOCATION]` | Specify the poc location | "North America" |
+| `[VOLTAGE_KV]` | Specify the voltage kv | "[specify value]" |
+| `[GRID_CAPACITY]` | Specify the grid capacity | "[specify value]" |
+| `[GRID_UPGRADES]` | Specify the grid upgrades | "[specify value]" |
+| `[INTERCONNECTION_COST]` | Specify the interconnection cost | "[specify value]" |
+| `[FREQ_CURRENT]` | Specify the freq current | "[specify value]" |
+| `[FREQ_PROJECTED]` | Specify the freq projected | "[specify value]" |
+| `[FREQ_IMPACT]` | Specify the freq impact | "[specify value]" |
+| `[FREQ_MITIGATION]` | Specify the freq mitigation | "[specify value]" |
+| `[VOLT_CURRENT]` | Specify the volt current | "[specify value]" |
+| `[VOLT_PROJECTED]` | Specify the volt projected | "[specify value]" |
+| `[VOLT_IMPACT]` | Specify the volt impact | "[specify value]" |
+| `[VOLT_MITIGATION]` | Specify the volt mitigation | "[specify value]" |
+| `[INERTIA_CURRENT]` | Specify the inertia current | "[specify value]" |
+| `[INERTIA_PROJECTED]` | Specify the inertia projected | "[specify value]" |
+| `[INERTIA_IMPACT]` | Specify the inertia impact | "[specify value]" |
+| `[INERTIA_MITIGATION]` | Specify the inertia mitigation | "[specify value]" |
+| `[FAULT_CURRENT]` | Specify the fault current | "[specify value]" |
+| `[FAULT_PROJECTED]` | Specify the fault projected | "[specify value]" |
+| `[FAULT_IMPACT]` | Specify the fault impact | "[specify value]" |
+| `[FAULT_MITIGATION]` | Specify the fault mitigation | "[specify value]" |
+| `[THD_CURRENT]` | Specify the thd current | "[specify value]" |
+| `[THD_PROJECTED]` | Specify the thd projected | "[specify value]" |
+| `[THD_IMPACT]` | Specify the thd impact | "[specify value]" |
+| `[THD_MITIGATION]` | Specify the thd mitigation | "[specify value]" |
+| `[STORAGE_1]` | Specify the storage 1 | "[specify value]" |
+| `[CAPACITY_1]` | Specify the capacity 1 | "[specify value]" |
+| `[POWER_1]` | Specify the power 1 | "[specify value]" |
+| `[DURATION_1]` | Specify the duration 1 | "6 months" |
+| `[EFF_1]` | Specify the eff 1 | "[specify value]" |
+| `[USE_1]` | Specify the use 1 | "[specify value]" |
+| `[STORAGE_2]` | Specify the storage 2 | "[specify value]" |
+| `[CAPACITY_2]` | Specify the capacity 2 | "[specify value]" |
+| `[POWER_2]` | Specify the power 2 | "[specify value]" |
+| `[DURATION_2]` | Specify the duration 2 | "6 months" |
+| `[EFF_2]` | Specify the eff 2 | "[specify value]" |
+| `[USE_2]` | Specify the use 2 | "[specify value]" |
+| `[STORAGE_3]` | Specify the storage 3 | "[specify value]" |
+| `[CAPACITY_3]` | Specify the capacity 3 | "[specify value]" |
+| `[POWER_3]` | Specify the power 3 | "[specify value]" |
+| `[DURATION_3]` | Specify the duration 3 | "6 months" |
+| `[EFF_3]` | Specify the eff 3 | "[specify value]" |
+| `[USE_3]` | Specify the use 3 | "[specify value]" |
+| `[BASELINE_CO2]` | Specify the baseline co2 | "[specify value]" |
+| `[PROJECT_CO2]` | Specify the project co2 | "[specify value]" |
+| `[NET_REDUCTION]` | Specify the net reduction | "[specify value]" |
+| `[PAYBACK_YEARS]` | Specify the payback years | "[specify value]" |
+| `[LAND_AREA]` | Specify the land area | "[specify value]" |
+| `[LAND_MITIGATION]` | Specify the land mitigation | "[specify value]" |
+| `[LAND_MONITORING]` | Specify the land monitoring | "[specify value]" |
+| `[WILDLIFE_IMPACT]` | Specify the wildlife impact | "[specify value]" |
+| `[WILDLIFE_MITIGATION]` | Specify the wildlife mitigation | "[specify value]" |
+| `[WILDLIFE_MONITORING]` | Specify the wildlife monitoring | "[specify value]" |
+| `[WATER_IMPACT]` | Specify the water impact | "[specify value]" |
+| `[WATER_MITIGATION]` | Specify the water mitigation | "[specify value]" |
+| `[WATER_MONITORING]` | Specify the water monitoring | "[specify value]" |
+| `[NOISE_LEVEL]` | Specify the noise level | "[specify value]" |
+| `[NOISE_MITIGATION]` | Specify the noise mitigation | "[specify value]" |
+| `[NOISE_MONITORING]` | Specify the noise monitoring | "[specify value]" |
+| `[VISUAL_IMPACT]` | Specify the visual impact | "[specify value]" |
+| `[VISUAL_MITIGATION]` | Specify the visual mitigation | "[specify value]" |
+| `[VISUAL_MONITORING]` | Specify the visual monitoring | "[specify value]" |
+| `[INITIAL_INVESTMENT]` | Specify the initial investment | "[specify value]" |
+| `[EQUIPMENT_COST]` | Specify the equipment cost | "[specify value]" |
+| `[INSTALLATION_COST]` | Specify the installation cost | "[specify value]" |
+| `[GRID_COST]` | Specify the grid cost | "[specify value]" |
+| `[DEVELOPMENT_COST]` | Specify the development cost | "[specify value]" |
+| `[CONTINGENCY]` | Specify the contingency | "[specify value]" |
+| `[ENERGY_REVENUE]` | Specify the energy revenue | "[specify value]" |
+| `[CAPACITY_REVENUE]` | Specify the capacity revenue | "[specify value]" |
+| `[REC_REVENUE]` | Specify the rec revenue | "[specify value]" |
+| `[ANCILLARY_REVENUE]` | Specify the ancillary revenue | "[specify value]" |
+| `[NPV]` | Specify the npv | "[specify value]" |
+| `[IRR]` | Specify the irr | "[specify value]" |
+| `[PAYBACK]` | Specify the payback | "[specify value]" |
+| `[LCOE]` | Specify the lcoe | "[specify value]" |
+| `[DSCR]` | Specify the dscr | "[specify value]" |
+| `[FREQ_1]` | Specify the freq 1 | "[specify value]" |
+| `[COST_1]` | Specify the cost 1 | "[specify value]" |
+| `[CONTRACTOR_1]` | Specify the contractor 1 | "[specify value]" |
+| `[FREQ_2]` | Specify the freq 2 | "[specify value]" |
+| `[COST_2]` | Specify the cost 2 | "[specify value]" |
+| `[CONTRACTOR_2]` | Specify the contractor 2 | "[specify value]" |
+| `[FREQ_3]` | Specify the freq 3 | "[specify value]" |
+| `[COST_3]` | Specify the cost 3 | "[specify value]" |
+| `[CONTRACTOR_3]` | Specify the contractor 3 | "[specify value]" |
+| `[FREQ_4]` | Specify the freq 4 | "[specify value]" |
+| `[DURATION_4]` | Specify the duration 4 | "6 months" |
+| `[COST_4]` | Specify the cost 4 | "[specify value]" |
+| `[CONTRACTOR_4]` | Specify the contractor 4 | "[specify value]" |
+| `[FREQ_5]` | Specify the freq 5 | "[specify value]" |
+| `[DURATION_5]` | Specify the duration 5 | "6 months" |
+| `[COST_5]` | Specify the cost 5 | "[specify value]" |
+| `[CONTRACTOR_5]` | Specify the contractor 5 | "[specify value]" |
+| `[AVAIL_TARGET]` | Target or intended avail | "[specify value]" |
+| `[AVAIL_CURRENT]` | Specify the avail current | "[specify value]" |
+| `[AVAIL_TREND]` | Specify the avail trend | "[specify value]" |
+| `[AVAIL_ACTION]` | Specify the avail action | "[specify value]" |
+| `[PR_TARGET]` | Target or intended pr | "[specify value]" |
+| `[PR_CURRENT]` | Specify the pr current | "[specify value]" |
+| `[PR_TREND]` | Specify the pr trend | "[specify value]" |
+| `[PR_ACTION]` | Specify the pr action | "[specify value]" |
+| `[CF_TARGET]` | Target or intended cf | "[specify value]" |
+| `[CF_CURRENT]` | Specify the cf current | "[specify value]" |
+| `[CF_TREND]` | Specify the cf trend | "[specify value]" |
+| `[CF_ACTION]` | Specify the cf action | "[specify value]" |
+| `[YIELD_TARGET]` | Target or intended yield | "[specify value]" |
+| `[YIELD_CURRENT]` | Specify the yield current | "[specify value]" |
+| `[YIELD_TREND]` | Specify the yield trend | "[specify value]" |
+| `[YIELD_ACTION]` | Specify the yield action | "[specify value]" |
+| `[OM_TARGET]` | Target or intended om | "[specify value]" |
+| `[OM_CURRENT]` | Specify the om current | "[specify value]" |
+| `[OM_TREND]` | Specify the om trend | "[specify value]" |
+| `[OM_ACTION]` | Specify the om action | "[specify value]" |
+| `[RISK_1]` | Specify the risk 1 | "[specify value]" |
+| `[PROB_1]` | Specify the prob 1 | "[specify value]" |
+| `[IMPACT_1]` | Specify the impact 1 | "[specify value]" |
+| `[MITIGATE_1]` | Specify the mitigate 1 | "[specify value]" |
+| `[CONTINGENCY_1]` | Specify the contingency 1 | "[specify value]" |
+| `[RISK_2]` | Specify the risk 2 | "[specify value]" |
+| `[PROB_2]` | Specify the prob 2 | "[specify value]" |
+| `[IMPACT_2]` | Specify the impact 2 | "[specify value]" |
+| `[MITIGATE_2]` | Specify the mitigate 2 | "[specify value]" |
+| `[CONTINGENCY_2]` | Specify the contingency 2 | "[specify value]" |
+| `[RISK_3]` | Specify the risk 3 | "[specify value]" |
+| `[PROB_3]` | Specify the prob 3 | "[specify value]" |
+| `[IMPACT_3]` | Specify the impact 3 | "[specify value]" |
+| `[MITIGATE_3]` | Specify the mitigate 3 | "[specify value]" |
+| `[CONTINGENCY_3]` | Specify the contingency 3 | "[specify value]" |
+| `[RISK_4]` | Specify the risk 4 | "[specify value]" |
+| `[PROB_4]` | Specify the prob 4 | "[specify value]" |
+| `[IMPACT_4]` | Specify the impact 4 | "[specify value]" |
+| `[MITIGATE_4]` | Specify the mitigate 4 | "[specify value]" |
+| `[CONTINGENCY_4]` | Specify the contingency 4 | "[specify value]" |
+| `[RISK_5]` | Specify the risk 5 | "[specify value]" |
+| `[PROB_5]` | Specify the prob 5 | "[specify value]" |
+| `[IMPACT_5]` | Specify the impact 5 | "[specify value]" |
+| `[MITIGATE_5]` | Specify the mitigate 5 | "[specify value]" |
+| `[CONTINGENCY_5]` | Specify the contingency 5 | "[specify value]" |
+| `[PERMIT_1]` | Specify the permit 1 | "[specify value]" |
+| `[AUTHORITY_1]` | Specify the authority 1 | "[specify value]" |
+| `[STATUS_1]` | Specify the status 1 | "In Progress" |
+| `[SUBMIT_1]` | Specify the submit 1 | "[specify value]" |
+| `[APPROVAL_1]` | Specify the approval 1 | "[specify value]" |
+| `[PERMIT_2]` | Specify the permit 2 | "[specify value]" |
+| `[AUTHORITY_2]` | Specify the authority 2 | "[specify value]" |
+| `[STATUS_2]` | Specify the status 2 | "In Progress" |
+| `[SUBMIT_2]` | Specify the submit 2 | "[specify value]" |
+| `[APPROVAL_2]` | Specify the approval 2 | "[specify value]" |
+| `[PERMIT_3]` | Specify the permit 3 | "[specify value]" |
+| `[AUTHORITY_3]` | Specify the authority 3 | "[specify value]" |
+| `[STATUS_3]` | Specify the status 3 | "In Progress" |
+| `[SUBMIT_3]` | Specify the submit 3 | "[specify value]" |
+| `[APPROVAL_3]` | Specify the approval 3 | "[specify value]" |
+| `[PERMIT_4]` | Specify the permit 4 | "[specify value]" |
+| `[AUTHORITY_4]` | Specify the authority 4 | "[specify value]" |
+| `[STATUS_4]` | Specify the status 4 | "In Progress" |
+| `[SUBMIT_4]` | Specify the submit 4 | "[specify value]" |
+| `[APPROVAL_4]` | Specify the approval 4 | "[specify value]" |
+| `[PERMIT_5]` | Specify the permit 5 | "[specify value]" |
+| `[AUTHORITY_5]` | Specify the authority 5 | "[specify value]" |
+| `[STATUS_5]` | Specify the status 5 | "In Progress" |
+| `[SUBMIT_5]` | Specify the submit 5 | "[specify value]" |
+| `[APPROVAL_5]` | Specify the approval 5 | "[specify value]" |
+
+
 
 ### 7. Operations & Maintenance Plan
 

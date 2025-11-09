@@ -1,3 +1,17 @@
+---
+title: Literature Reviews Template Generator
+category: education/Academic Research
+tags: [communication, data-science, education, research, strategy, template, testing]
+use_cases:
+  - Implementing create comprehensive literature reviews covering systematic reviews, narrative r...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - curriculum-development.md
+  - curriculum-development-framework.md
+last_updated: 2025-11-09
+---
+
 # Literature Reviews Template Generator
 
 ## Purpose

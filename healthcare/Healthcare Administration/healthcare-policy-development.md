@@ -1,3 +1,18 @@
+---
+title: Healthcare Policy Development Template
+category: healthcare/Healthcare Administration
+tags: [design, development, documentation, healthcare, optimization, security, template, testing]
+use_cases:
+  - Implementing create comprehensive healthcare policies, procedures, guidelines, and governance...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - telemedicine-platform-design.md
+  - patient-care-pathway.md
+  - clinical-trials-management.md
+last_updated: 2025-11-09
+---
+
 # Healthcare Policy Development Template
 
 ## Purpose

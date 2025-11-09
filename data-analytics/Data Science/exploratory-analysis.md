@@ -1,3 +1,18 @@
+---
+title: Exploratory Data Analysis Framework Template
+category: data-analytics/Data Science
+tags: [automation, data-analytics, data-science, design, framework, machine-learning, research, template]
+use_cases:
+  - Implementing conduct comprehensive exploratory data analysis to understand data characteristi...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - dashboard-design-patterns.md
+  - data-governance-framework.md
+  - predictive-modeling-framework.md
+last_updated: 2025-11-09
+---
+
 # Exploratory Data Analysis Framework Template
 
 ## Purpose

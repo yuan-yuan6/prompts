@@ -1,3 +1,17 @@
+---
+title: Product Design Template
+category: creative/Design & Visual
+tags: [automation, creative, data-science, design, development, documentation, research, template]
+use_cases:
+  - Implementing create comprehensive product design documentation including concepts, specificat...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - creative-writing-framework.md
+  - video-production-pipeline.md
+last_updated: 2025-11-09
+---
+
 # Product Design Template
 
 ## Purpose

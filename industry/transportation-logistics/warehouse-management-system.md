@@ -1,3 +1,14 @@
+---
+title: Warehouse Management & Distribution Center Framework
+category: industry/transportation-logistics
+tags: [automation, data-science, design, framework, industry, management, optimization, research]
+use_cases:
+  - Implementing comprehensive framework for managing warehouse operations including inventory co...
+  - Project planning and execution
+  - Strategy development
+last_updated: 2025-11-09
+---
+
 # Warehouse Management & Distribution Center Framework
 
 ## Purpose
@@ -63,6 +74,307 @@ Inventory Visibility:
 - Location Accuracy: [LOCATION_ACCURACY]%
 - System Integration: [SYSTEM_INTEGRATION]
 ```
+
+## Variables
+
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `[WAREHOUSE_SIZE]` | Specify the warehouse size | "[specify value]" |
+| `[SKU_COUNT]` | Specify the sku count | "10" |
+| `[ORDER_VOLUME]` | Specify the order volume | "[specify value]" |
+| `[INVENTORY_VALUE]` | Specify the inventory value | "[specify value]" |
+| `[ACCURACY_TARGET]` | Target or intended accuracy | "[specify value]" |
+| `[PICK_RATE]` | Specify the pick rate | "[specify value]" |
+| `[FILL_RATE]` | Specify the fill rate | "[specify value]" |
+| `[LABOR_PRODUCTIVITY]` | Specify the labor productivity | "[specify value]" |
+| `[ROI_TARGET]` | Target or intended roi | "[specify value]" |
+| `[RECEIVING_SQFT]` | Specify the receiving sqft | "[specify value]" |
+| `[RECEIVING_CAPACITY]` | Specify the receiving capacity | "[specify value]" |
+| `[RECEIVING_THROUGHPUT]` | Specify the receiving throughput | "[specify value]" |
+| `[RECEIVING_EQUIPMENT]` | Specify the receiving equipment | "[specify value]" |
+| `[RECEIVING_STAFF]` | Specify the receiving staff | "[specify value]" |
+| `[BULK_SQFT]` | Specify the bulk sqft | "[specify value]" |
+| `[BULK_CAPACITY]` | Specify the bulk capacity | "[specify value]" |
+| `[BULK_THROUGHPUT]` | Specify the bulk throughput | "[specify value]" |
+| `[BULK_EQUIPMENT]` | Specify the bulk equipment | "[specify value]" |
+| `[BULK_STAFF]` | Specify the bulk staff | "[specify value]" |
+| `[PICK_SQFT]` | Specify the pick sqft | "[specify value]" |
+| `[PICK_CAPACITY]` | Specify the pick capacity | "[specify value]" |
+| `[PICK_THROUGHPUT]` | Specify the pick throughput | "[specify value]" |
+| `[PICK_EQUIPMENT]` | Specify the pick equipment | "[specify value]" |
+| `[PICK_STAFF]` | Specify the pick staff | "[specify value]" |
+| `[PACK_SQFT]` | Specify the pack sqft | "[specify value]" |
+| `[PACK_CAPACITY]` | Specify the pack capacity | "[specify value]" |
+| `[PACK_THROUGHPUT]` | Specify the pack throughput | "[specify value]" |
+| `[PACK_EQUIPMENT]` | Specify the pack equipment | "[specify value]" |
+| `[PACK_STAFF]` | Specify the pack staff | "[specify value]" |
+| `[SHIP_SQFT]` | Specify the ship sqft | "[specify value]" |
+| `[SHIP_CAPACITY]` | Specify the ship capacity | "[specify value]" |
+| `[SHIP_THROUGHPUT]` | Specify the ship throughput | "[specify value]" |
+| `[SHIP_EQUIPMENT]` | Specify the ship equipment | "[specify value]" |
+| `[SHIP_STAFF]` | Specify the ship staff | "[specify value]" |
+| `[RETURNS_SQFT]` | Specify the returns sqft | "[specify value]" |
+| `[RETURNS_CAPACITY]` | Specify the returns capacity | "[specify value]" |
+| `[RETURNS_THROUGHPUT]` | Specify the returns throughput | "[specify value]" |
+| `[RETURNS_EQUIPMENT]` | Specify the returns equipment | "[specify value]" |
+| `[RETURNS_STAFF]` | Specify the returns staff | "[specify value]" |
+| `[RANDOM_STORAGE]` | Specify the random storage | "[specify value]" |
+| `[FIXED_LOCATION]` | Specify the fixed location | "North America" |
+| `[ZONE_STORAGE]` | Specify the zone storage | "[specify value]" |
+| `[CLASS_STORAGE]` | Specify the class storage | "[specify value]" |
+| `[DYNAMIC_SLOTTING]` | Specify the dynamic slotting | "[specify value]" |
+| `[CROSS_DOCKING]` | Specify the cross docking | "[specify value]" |
+| `[A_ITEMS]` | Specify the a items | "[specify value]" |
+| `[B_ITEMS]` | Specify the b items | "[specify value]" |
+| `[C_ITEMS]` | Specify the c items | "[specify value]" |
+| `[D_ITEMS]` | Specify the d items | "[specify value]" |
+| `[VELOCITY_CLASS]` | Specify the velocity class | "[specify value]" |
+| `[CUBE_MOVEMENT]` | Specify the cube movement | "[specify value]" |
+| `[COUNT_FREQUENCY]` | Specify the count frequency | "10" |
+| `[ABC_SCHEDULE]` | Specify the abc schedule | "[specify value]" |
+| `[ACCURACY_TARGETS]` | Target or intended accuracy s | "[specify value]" |
+| `[DISCREPANCY_PROCESS]` | Specify the discrepancy process | "[specify value]" |
+| `[ROOT_CAUSE]` | Specify the root cause | "[specify value]" |
+| `[IMPROVEMENT_PROCESS]` | Specify the improvement process | "[specify value]" |
+| `[REORDER_POINTS]` | Specify the reorder points | "[specify value]" |
+| `[SAFETY_STOCK]` | Specify the safety stock | "[specify value]" |
+| `[LEAD_TIME]` | Specify the lead time | "[specify value]" |
+| `[MIN_MAX_LEVELS]` | Specify the min max levels | "[specify value]" |
+| `[LOT_TRACKING]` | Specify the lot tracking | "[specify value]" |
+| `[EXPIRATION_MGMT]` | Specify the expiration mgmt | "[specify value]" |
+| `[REALTIME_TRACKING]` | Specify the realtime tracking | "[specify value]" |
+| `[RFID_IMPLEMENTATION]` | Specify the rfid implementation | "[specify value]" |
+| `[BARCODE_SYSTEMS]` | Specify the barcode systems | "[specify value]" |
+| `[SERIAL_TRACKING]` | Specify the serial tracking | "[specify value]" |
+| `[LOCATION_ACCURACY]` | Specify the location accuracy | "North America" |
+| `[SYSTEM_INTEGRATION]` | Specify the system integration | "[specify value]" |
+| `[RECEIPT_TIME]` | Specify the receipt time | "[specify value]" |
+| `[RECEIPT_TARGET]` | Target or intended receipt | "[specify value]" |
+| `[RECEIPT_ACCURACY]` | Specify the receipt accuracy | "[specify value]" |
+| `[RECEIPT_TECH]` | Specify the receipt tech | "[specify value]" |
+| `[RECEIPT_OPPORTUNITY]` | Specify the receipt opportunity | "[specify value]" |
+| `[ALLOCATION_TIME]` | Specify the allocation time | "North America" |
+| `[ALLOCATION_TARGET]` | Target or intended allocation | "North America" |
+| `[ALLOCATION_ACCURACY]` | Specify the allocation accuracy | "North America" |
+| `[ALLOCATION_TECH]` | Specify the allocation tech | "North America" |
+| `[ALLOCATION_OPPORTUNITY]` | Specify the allocation opportunity | "North America" |
+| `[PICKLIST_TIME]` | Specify the picklist time | "[specify value]" |
+| `[PICKLIST_TARGET]` | Target or intended picklist | "[specify value]" |
+| `[PICKLIST_ACCURACY]` | Specify the picklist accuracy | "[specify value]" |
+| `[PICKLIST_TECH]` | Specify the picklist tech | "[specify value]" |
+| `[PICKLIST_OPPORTUNITY]` | Specify the picklist opportunity | "[specify value]" |
+| `[PICKING_TIME]` | Specify the picking time | "[specify value]" |
+| `[PICKING_TARGET]` | Target or intended picking | "[specify value]" |
+| `[PICKING_ACCURACY]` | Specify the picking accuracy | "[specify value]" |
+| `[PICKING_TECH]` | Specify the picking tech | "[specify value]" |
+| `[PICKING_OPPORTUNITY]` | Specify the picking opportunity | "[specify value]" |
+| `[QC_TIME]` | Specify the qc time | "[specify value]" |
+| `[QC_TARGET]` | Target or intended qc | "[specify value]" |
+| `[QC_ACCURACY]` | Specify the qc accuracy | "[specify value]" |
+| `[QC_TECH]` | Specify the qc tech | "[specify value]" |
+| `[QC_OPPORTUNITY]` | Specify the qc opportunity | "[specify value]" |
+| `[SHIPPING_TIME]` | Specify the shipping time | "[specify value]" |
+| `[SHIPPING_TARGET]` | Target or intended shipping | "[specify value]" |
+| `[SHIPPING_ACCURACY]` | Specify the shipping accuracy | "[specify value]" |
+| `[SHIPPING_TECH]` | Specify the shipping tech | "[specify value]" |
+| `[SHIPPING_OPPORTUNITY]` | Specify the shipping opportunity | "[specify value]" |
+| `[SINGLE_PICKING]` | Specify the single picking | "[specify value]" |
+| `[BATCH_PICKING]` | Specify the batch picking | "[specify value]" |
+| `[ZONE_PICKING]` | Specify the zone picking | "[specify value]" |
+| `[WAVE_PICKING]` | Specify the wave picking | "[specify value]" |
+| `[CLUSTER_PICKING]` | Specify the cluster picking | "[specify value]" |
+| `[PICK_TO_LIGHT]` | Specify the pick to light | "[specify value]" |
+| `[SHORTEST_PATH]` | Specify the shortest path | "[specify value]" |
+| `[S_SHAPE]` | Specify the s shape | "[specify value]" |
+| `[RETURN_ROUTING]` | Specify the return routing | "[specify value]" |
+| `[MIDPOINT_ROUTING]` | Specify the midpoint routing | "[specify value]" |
+| `[LARGEST_GAP]` | Specify the largest gap | "[specify value]" |
+| `[DYNAMIC_ROUTING]` | Specify the dynamic routing | "[specify value]" |
+| `[RF_SCANNING]` | Specify the rf scanning | "[specify value]" |
+| `[VOICE_PICKING]` | Specify the voice picking | "[specify value]" |
+| `[PTL_SYSTEMS]` | Specify the ptl systems | "[specify value]" |
+| `[AR_PICKING]` | Specify the ar picking | "[specify value]" |
+| `[ROBOTIC_PICKING]` | Specify the robotic picking | "[specify value]" |
+| `[AUTOMATED_STORAGE]` | Specify the automated storage | "[specify value]" |
+| `[PICKS_PER_HOUR]` | Specify the picks per hour | "[specify value]" |
+| `[LINES_PER_ORDER]` | Specify the lines per order | "[specify value]" |
+| `[TRAVEL_TIME]` | Specify the travel time | "[specify value]" |
+| `[ERROR_RATE]` | Specify the error rate | "[specify value]" |
+| `[PRODUCTIVITY_INDEX]` | Specify the productivity index | "[specify value]" |
+| `[COST_PER_PICK]` | Specify the cost per pick | "[specify value]" |
+| `[CONVEYOR_COST]` | Specify the conveyor cost | "[specify value]" |
+| `[CONVEYOR_TIME]` | Specify the conveyor time | "[specify value]" |
+| `[CONVEYOR_ROI]` | Specify the conveyor roi | "[specify value]" |
+| `[CONVEYOR_EFFICIENCY]` | Specify the conveyor efficiency | "[specify value]" |
+| `[CONVEYOR_ERROR]` | Specify the conveyor error | "[specify value]" |
+| `[ASRS_COST]` | Specify the asrs cost | "[specify value]" |
+| `[ASRS_TIME]` | Specify the asrs time | "[specify value]" |
+| `[ASRS_ROI]` | Specify the asrs roi | "[specify value]" |
+| `[ASRS_EFFICIENCY]` | Specify the asrs efficiency | "[specify value]" |
+| `[ASRS_ERROR]` | Specify the asrs error | "[specify value]" |
+| `[AGV_COST]` | Specify the agv cost | "[specify value]" |
+| `[AGV_TIME]` | Specify the agv time | "[specify value]" |
+| `[AGV_ROI]` | Specify the agv roi | "[specify value]" |
+| `[AGV_EFFICIENCY]` | Specify the agv efficiency | "[specify value]" |
+| `[AGV_ERROR]` | Specify the agv error | "[specify value]" |
+| `[SORT_COST]` | Specify the sort cost | "[specify value]" |
+| `[SORT_TIME]` | Specify the sort time | "[specify value]" |
+| `[SORT_ROI]` | Specify the sort roi | "[specify value]" |
+| `[SORT_EFFICIENCY]` | Specify the sort efficiency | "[specify value]" |
+| `[SORT_ERROR]` | Specify the sort error | "[specify value]" |
+| `[PACKAGE_COST]` | Specify the package cost | "[specify value]" |
+| `[PACKAGE_TIME]` | Specify the package time | "[specify value]" |
+| `[PACKAGE_ROI]` | Specify the package roi | "[specify value]" |
+| `[PACKAGE_EFFICIENCY]` | Specify the package efficiency | "[specify value]" |
+| `[PACKAGE_ERROR]` | Specify the package error | "[specify value]" |
+| `[PALLET_COST]` | Specify the pallet cost | "[specify value]" |
+| `[PALLET_TIME]` | Specify the pallet time | "[specify value]" |
+| `[PALLET_ROI]` | Specify the pallet roi | "[specify value]" |
+| `[PALLET_EFFICIENCY]` | Specify the pallet efficiency | "[specify value]" |
+| `[PALLET_ERROR]` | Specify the pallet error | "[specify value]" |
+| `[RECEIVE_HC]` | Specify the receive hc | "[specify value]" |
+| `[RECEIVE_PRODUCTIVITY]` | Specify the receive productivity | "[specify value]" |
+| `[RECEIVE_TRAINING]` | Specify the receive training | "[specify value]" |
+| `[RECEIVE_SCORE]` | Specify the receive score | "[specify value]" |
+| `[RECEIVE_COST]` | Specify the receive cost | "[specify value]" |
+| `[INVENTORY_HC]` | Specify the inventory hc | "[specify value]" |
+| `[INVENTORY_PRODUCTIVITY]` | Specify the inventory productivity | "[specify value]" |
+| `[INVENTORY_TRAINING]` | Specify the inventory training | "[specify value]" |
+| `[INVENTORY_SCORE]` | Specify the inventory score | "[specify value]" |
+| `[INVENTORY_COST]` | Specify the inventory cost | "[specify value]" |
+| `[PICKER_HC]` | Specify the picker hc | "[specify value]" |
+| `[PICKER_PRODUCTIVITY]` | Specify the picker productivity | "[specify value]" |
+| `[PICKER_TRAINING]` | Specify the picker training | "[specify value]" |
+| `[PICKER_SCORE]` | Specify the picker score | "[specify value]" |
+| `[PICKER_COST]` | Specify the picker cost | "[specify value]" |
+| `[PACKER_HC]` | Specify the packer hc | "[specify value]" |
+| `[PACKER_PRODUCTIVITY]` | Specify the packer productivity | "[specify value]" |
+| `[PACKER_TRAINING]` | Specify the packer training | "[specify value]" |
+| `[PACKER_SCORE]` | Specify the packer score | "[specify value]" |
+| `[PACKER_COST]` | Specify the packer cost | "[specify value]" |
+| `[SHIPPING_HC]` | Specify the shipping hc | "[specify value]" |
+| `[SHIPPING_PRODUCTIVITY]` | Specify the shipping productivity | "[specify value]" |
+| `[SHIPPING_TRAINING]` | Specify the shipping training | "[specify value]" |
+| `[SHIPPING_SCORE]` | Specify the shipping score | "[specify value]" |
+| `[SHIPPING_COST]` | Specify the shipping cost | "[specify value]" |
+| `[SUPERVISOR_HC]` | Specify the supervisor hc | "[specify value]" |
+| `[SUPERVISOR_PRODUCTIVITY]` | Specify the supervisor productivity | "[specify value]" |
+| `[SUPERVISOR_TRAINING]` | Specify the supervisor training | "[specify value]" |
+| `[SUPERVISOR_SCORE]` | Specify the supervisor score | "[specify value]" |
+| `[SUPERVISOR_COST]` | Specify the supervisor cost | "[specify value]" |
+| `[VENDOR_COMPLIANCE]` | Specify the vendor compliance | "[specify value]" |
+| `[INSPECTION_RATE]` | Specify the inspection rate | "[specify value]" |
+| `[DAMAGE_DETECTION]` | Specify the damage detection | "[specify value]" |
+| `[COUNT_VERIFICATION]` | Specify the count verification | "10" |
+| `[DOC_ACCURACY]` | Specify the doc accuracy | "[specify value]" |
+| `[PUTAWAY_CONFIRMATION]` | Specify the putaway confirmation | "[specify value]" |
+| `[QUANTITY_ACCURACY]` | Specify the quantity accuracy | "[specify value]" |
+| `[SKU_ACCURACY]` | Specify the sku accuracy | "[specify value]" |
+| `[LOT_ACCURACY]` | Specify the lot accuracy | "[specify value]" |
+| `[SYSTEM_PHYSICAL]` | Specify the system physical | "[specify value]" |
+| `[ADJUSTMENT_FREQ]` | Specify the adjustment freq | "[specify value]" |
+| `[PICK_ACCURACY]` | Specify the pick accuracy | "[specify value]" |
+| `[PACK_ACCURACY]` | Specify the pack accuracy | "[specify value]" |
+| `[SHIP_ACCURACY]` | Specify the ship accuracy | "[specify value]" |
+| `[ORDER_DOC_ACCURACY]` | Specify the order doc accuracy | "[specify value]" |
+| `[ADDRESS_VERIFICATION]` | Specify the address verification | "[specify value]" |
+| `[CARRIER_ACCURACY]` | Specify the carrier accuracy | "[specify value]" |
+| `[RETURN_RATE]` | Specify the return rate | "[specify value]" |
+| `[RETURN_TIME]` | Specify the return time | "[specify value]" |
+| `[RETURN_INSPECTION]` | Specify the return inspection | "[specify value]" |
+| `[RESTOCK_RATE]` | Specify the restock rate | "[specify value]" |
+| `[CREDIT_ACCURACY]` | Specify the credit accuracy | "[specify value]" |
+| `[RETURN_ROOT_CAUSE]` | Specify the return root cause | "[specify value]" |
+| `[PARCEL_VOLUME]` | Specify the parcel volume | "[specify value]" |
+| `[PARCEL_CARRIERS]` | Specify the parcel carriers | "[specify value]" |
+| `[PARCEL_COST]` | Specify the parcel cost | "[specify value]" |
+| `[PARCEL_TRANSIT]` | Specify the parcel transit | "[specify value]" |
+| `[PARCEL_SERVICE]` | Specify the parcel service | "[specify value]" |
+| `[LTL_VOLUME]` | Specify the ltl volume | "[specify value]" |
+| `[LTL_CARRIERS]` | Specify the ltl carriers | "[specify value]" |
+| `[LTL_COST]` | Specify the ltl cost | "[specify value]" |
+| `[LTL_TRANSIT]` | Specify the ltl transit | "[specify value]" |
+| `[LTL_SERVICE]` | Specify the ltl service | "[specify value]" |
+| `[FTL_VOLUME]` | Specify the ftl volume | "[specify value]" |
+| `[FTL_CARRIERS]` | Specify the ftl carriers | "[specify value]" |
+| `[FTL_COST]` | Specify the ftl cost | "[specify value]" |
+| `[FTL_TRANSIT]` | Specify the ftl transit | "[specify value]" |
+| `[FTL_SERVICE]` | Specify the ftl service | "[specify value]" |
+| `[EXPRESS_VOLUME]` | Specify the express volume | "[specify value]" |
+| `[EXPRESS_CARRIERS]` | Specify the express carriers | "[specify value]" |
+| `[EXPRESS_COST]` | Specify the express cost | "[specify value]" |
+| `[EXPRESS_TRANSIT]` | Specify the express transit | "[specify value]" |
+| `[EXPRESS_SERVICE]` | Specify the express service | "[specify value]" |
+| `[WHITE_VOLUME]` | Specify the white volume | "[specify value]" |
+| `[WHITE_CARRIERS]` | Specify the white carriers | "[specify value]" |
+| `[WHITE_COST]` | Specify the white cost | "[specify value]" |
+| `[WHITE_TRANSIT]` | Specify the white transit | "[specify value]" |
+| `[WHITE_SERVICE]` | Specify the white service | "[specify value]" |
+| `[INTL_VOLUME]` | Specify the intl volume | "[specify value]" |
+| `[INTL_CARRIERS]` | Specify the intl carriers | "[specify value]" |
+| `[INTL_COST]` | Specify the intl cost | "[specify value]" |
+| `[INTL_TRANSIT]` | Specify the intl transit | "[specify value]" |
+| `[INTL_SERVICE]` | Specify the intl service | "[specify value]" |
+| `[WMS_SOLUTION]` | Specify the wms solution | "[specify value]" |
+| `[WMS_INTEGRATION]` | Specify the wms integration | "[specify value]" |
+| `[WMS_DATA]` | Specify the wms data | "[specify value]" |
+| `[WMS_PERFORMANCE]` | Specify the wms performance | "[specify value]" |
+| `[WMS_UPGRADE]` | Specify the wms upgrade | "[specify value]" |
+| `[INV_SOLUTION]` | Specify the inv solution | "[specify value]" |
+| `[INV_INTEGRATION]` | Specify the inv integration | "[specify value]" |
+| `[INV_DATA]` | Specify the inv data | "[specify value]" |
+| `[INV_PERFORMANCE]` | Specify the inv performance | "[specify value]" |
+| `[INV_UPGRADE]` | Specify the inv upgrade | "[specify value]" |
+| `[OMS_SOLUTION]` | Specify the oms solution | "[specify value]" |
+| `[OMS_INTEGRATION]` | Specify the oms integration | "[specify value]" |
+| `[OMS_DATA]` | Specify the oms data | "[specify value]" |
+| `[OMS_PERFORMANCE]` | Specify the oms performance | "[specify value]" |
+| `[OMS_UPGRADE]` | Specify the oms upgrade | "[specify value]" |
+| `[LMS_SOLUTION]` | Specify the lms solution | "[specify value]" |
+| `[LMS_INTEGRATION]` | Specify the lms integration | "[specify value]" |
+| `[LMS_DATA]` | Specify the lms data | "[specify value]" |
+| `[LMS_PERFORMANCE]` | Specify the lms performance | "[specify value]" |
+| `[LMS_UPGRADE]` | Specify the lms upgrade | "[specify value]" |
+| `[TMS_SOLUTION]` | Specify the tms solution | "[specify value]" |
+| `[TMS_INTEGRATION]` | Specify the tms integration | "[specify value]" |
+| `[TMS_DATA]` | Specify the tms data | "[specify value]" |
+| `[TMS_PERFORMANCE]` | Specify the tms performance | "[specify value]" |
+| `[TMS_UPGRADE]` | Specify the tms upgrade | "[specify value]" |
+| `[ANALYTICS_SOLUTION]` | Specify the analytics solution | "[specify value]" |
+| `[ANALYTICS_INTEGRATION]` | Specify the analytics integration | "[specify value]" |
+| `[ANALYTICS_DATA]` | Specify the analytics data | "[specify value]" |
+| `[ANALYTICS_PERFORMANCE]` | Specify the analytics performance | "[specify value]" |
+| `[ANALYTICS_UPGRADE]` | Specify the analytics upgrade | "[specify value]" |
+| `[ORDERS_SHIPPED]` | Specify the orders shipped | "[specify value]" |
+| `[LINES_PICKED]` | Specify the lines picked | "[specify value]" |
+| `[UNITS_PROCESSED]` | Specify the units processed | "[specify value]" |
+| `[DOCK_TO_STOCK]` | Specify the dock to stock | "[specify value]" |
+| `[ORDER_CYCLE]` | Specify the order cycle | "[specify value]" |
+| `[INVENTORY_TURNS]` | Specify the inventory turns | "[specify value]" |
+| `[PICKS_HOUR]` | Specify the picks hour | "[specify value]" |
+| `[ORDERS_HOUR]` | Specify the orders hour | "[specify value]" |
+| `[LINES_HOUR]` | Specify the lines hour | "[specify value]" |
+| `[LABOR_UTILIZATION]` | Specify the labor utilization | "[specify value]" |
+| `[EQUIPMENT_UTILIZATION]` | Specify the equipment utilization | "[specify value]" |
+| `[SPACE_UTILIZATION]` | Specify the space utilization | "[specify value]" |
+| `[ORDER_ACCURACY]` | Specify the order accuracy | "[specify value]" |
+| `[INV_ACCURACY]` | Specify the inv accuracy | "[specify value]" |
+| `[ONTIME_SHIP]` | Specify the ontime ship | "[specify value]" |
+| `[PERFECT_ORDER]` | Specify the perfect order | "[specify value]" |
+| `[DAMAGE_RATE]` | Specify the damage rate | "[specify value]" |
+| `[COMPLAINTS]` | Specify the complaints | "[specify value]" |
+| `[COST_ORDER]` | Specify the cost order | "[specify value]" |
+| `[COST_LINE]` | Specify the cost line | "[specify value]" |
+| `[COST_UNIT]` | Specify the cost unit | "[specify value]" |
+| `[STORAGE_COST]` | Specify the storage cost | "[specify value]" |
+| `[LABOR_COST]` | Specify the labor cost | "[specify value]" |
+| `[TOTAL_COST]` | Specify the total cost | "[specify value]" |
+| `[BACKORDER_RATE]` | Specify the backorder rate | "[specify value]" |
+| `[SAME_DAY]` | Specify the same day | "[specify value]" |
+| `[CSAT_SCORE]` | Specify the csat score | "[specify value]" |
+| `[NPS_SCORE]` | Specify the nps score | "[specify value]" |
+
+
 
 ### 3. Order Fulfillment Process
 

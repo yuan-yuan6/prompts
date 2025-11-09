@@ -1,3 +1,14 @@
+---
+title: Social Activities Template
+category: personal/Lifestyle & Hobbies
+tags: [development, personal, strategy, template]
+use_cases:
+  - Implementing develop engaging social activity plans including events, group participation, an...
+  - Project planning and execution
+  - Strategy development
+last_updated: 2025-11-09
+---
+
 # Social Activities Template
 
 ## Purpose

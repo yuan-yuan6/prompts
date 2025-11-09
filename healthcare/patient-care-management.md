@@ -1,3 +1,14 @@
+---
+title: Patient Care Management & Clinical Documentation Framework
+category: healthcare
+tags: [documentation, framework, healthcare, management, optimization, security, strategy, testing]
+use_cases:
+  - Implementing comprehensive framework for managing patient care including documentation system...
+  - Project planning and execution
+  - Strategy development
+last_updated: 2025-11-09
+---
+
 # Patient Care Management & Clinical Documentation Framework
 
 ## Purpose
@@ -55,6 +66,303 @@ Treatment Modalities:
 - Palliative Care: [PALLIATIVE_CARE]
 - Alternative Therapies: [ALTERNATIVE_THERAPIES]
 ```
+
+## Variables
+
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `[FACILITY_NAME]` | Name of the facility | "John Smith" |
+| `[PATIENT_VOLUME]` | Specify the patient volume | "[specify value]" |
+| `[PROVIDER_COUNT]` | Specify the provider count | "10" |
+| `[SPECIALTY_AREAS]` | Specify the specialty areas | "[specify value]" |
+| `[PATIENT_SATISFACTION]` | Specify the patient satisfaction | "[specify value]" |
+| `[CLINICAL_OUTCOMES]` | Specify the clinical outcomes | "[specify value]" |
+| `[READMISSION_RATE]` | Specify the readmission rate | "[specify value]" |
+| `[DOCUMENTATION_COMPLIANCE]` | Specify the documentation compliance | "[specify value]" |
+| `[CARE_QUALITY_SCORE]` | Specify the care quality score | "[specify value]" |
+| `[HISTORY_COMPLIANCE]` | Specify the history compliance | "[specify value]" |
+| `[HISTORY_FREQUENCY]` | Specify the history frequency | "[specify value]" |
+| `[HISTORY_ACCESS]` | Specify the history access | "[specify value]" |
+| `[HISTORY_QUALITY]` | Specify the history quality | "[specify value]" |
+| `[HISTORY_INTEGRATION]` | Specify the history integration | "[specify value]" |
+| `[NOTES_COMPLIANCE]` | Specify the notes compliance | "[specify value]" |
+| `[NOTES_FREQUENCY]` | Specify the notes frequency | "[specify value]" |
+| `[NOTES_ACCESS]` | Specify the notes access | "[specify value]" |
+| `[NOTES_QUALITY]` | Specify the notes quality | "[specify value]" |
+| `[NOTES_INTEGRATION]` | Specify the notes integration | "[specify value]" |
+| `[ASSESSMENT_COMPLIANCE]` | Specify the assessment compliance | "[specify value]" |
+| `[ASSESSMENT_FREQUENCY]` | Specify the assessment frequency | "[specify value]" |
+| `[ASSESSMENT_ACCESS]` | Specify the assessment access | "[specify value]" |
+| `[ASSESSMENT_QUALITY]` | Specify the assessment quality | "[specify value]" |
+| `[ASSESSMENT_INTEGRATION]` | Specify the assessment integration | "[specify value]" |
+| `[CARE_COMPLIANCE]` | Specify the care compliance | "[specify value]" |
+| `[CARE_FREQUENCY]` | Specify the care frequency | "[specify value]" |
+| `[CARE_ACCESS]` | Specify the care access | "[specify value]" |
+| `[CARE_QUALITY]` | Specify the care quality | "[specify value]" |
+| `[CARE_INTEGRATION]` | Specify the care integration | "[specify value]" |
+| `[DISCHARGE_COMPLIANCE]` | Specify the discharge compliance | "[specify value]" |
+| `[DISCHARGE_FREQUENCY]` | Specify the discharge frequency | "[specify value]" |
+| `[DISCHARGE_ACCESS]` | Specify the discharge access | "[specify value]" |
+| `[DISCHARGE_QUALITY]` | Specify the discharge quality | "[specify value]" |
+| `[DISCHARGE_INTEGRATION]` | Specify the discharge integration | "[specify value]" |
+| `[MED_COMPLIANCE]` | Specify the med compliance | "[specify value]" |
+| `[MED_FREQUENCY]` | Specify the med frequency | "[specify value]" |
+| `[MED_ACCESS]` | Specify the med access | "[specify value]" |
+| `[MED_QUALITY]` | Specify the med quality | "[specify value]" |
+| `[MED_INTEGRATION]` | Specify the med integration | "[specify value]" |
+| `[DISEASE_PROTOCOLS]` | Specify the disease protocols | "[specify value]" |
+| `[SOP_PROCEDURES]` | Specify the sop procedures | "[specify value]" |
+| `[CLINICAL_PATHWAYS]` | Specify the clinical pathways | "[specify value]" |
+| `[BEST_PRACTICES]` | Specify the best practices | "[specify value]" |
+| `[QUALITY_INDICATORS]` | Specify the quality indicators | "[specify value]" |
+| `[OUTCOME_MEASURES]` | Specify the outcome measures | "[specify value]" |
+| `[GENETIC_TESTING]` | Specify the genetic testing | "[specify value]" |
+| `[BIOMARKER_ANALYSIS]` | Specify the biomarker analysis | "[specify value]" |
+| `[RISK_STRATIFICATION]` | Specify the risk stratification | "[specify value]" |
+| `[PRECISION_THERAPY]` | Specify the precision therapy | "[specify value]" |
+| `[PHARMACOGENOMICS]` | Specify the pharmacogenomics | "[specify value]" |
+| `[INDIVIDUAL_PLANS]` | Specify the individual plans | "[specify value]" |
+| `[TEAM_COMPOSITION]` | Specify the team composition | "[specify value]" |
+| `[CONSULTATIONS]` | Specify the consultations | "[specify value]" |
+| `[TEAM_MEETINGS]` | Specify the team meetings | "[specify value]" |
+| `[CASE_CONFERENCES]` | Specify the case conferences | "[specify value]" |
+| `[COLLABORATIVE_PLANNING]` | Specify the collaborative planning | "[specify value]" |
+| `[COMM_PROTOCOLS]` | Specify the comm protocols | "[specify value]" |
+| `[MEDICAL_MANAGEMENT]` | Specify the medical management | "[specify value]" |
+| `[SURGICAL_INTERVENTIONS]` | Specify the surgical interventions | "[specify value]" |
+| `[REHAB_SERVICES]` | Specify the rehab services | "[specify value]" |
+| `[PREVENTIVE_CARE]` | Specify the preventive care | "[specify value]" |
+| `[PALLIATIVE_CARE]` | Specify the palliative care | "[specify value]" |
+| `[ALTERNATIVE_THERAPIES]` | Specify the alternative therapies | "[specify value]" |
+| `[DIAG_APPLICATION]` | Specify the diag application | "[specify value]" |
+| `[DIAG_EVIDENCE]` | Specify the diag evidence | "[specify value]" |
+| `[DIAG_ALERTS]` | Specify the diag alerts | "[specify value]" |
+| `[DIAG_ADOPTION]` | Specify the diag adoption | "[specify value]" |
+| `[DIAG_IMPACT]` | Specify the diag impact | "[specify value]" |
+| `[DRUG_APPLICATION]` | Specify the drug application | "[specify value]" |
+| `[DRUG_EVIDENCE]` | Specify the drug evidence | "[specify value]" |
+| `[DRUG_ALERTS]` | Specify the drug alerts | "[specify value]" |
+| `[DRUG_ADOPTION]` | Specify the drug adoption | "[specify value]" |
+| `[DRUG_IMPACT]` | Specify the drug impact | "[specify value]" |
+| `[ALERT_APPLICATION]` | Specify the alert application | "[specify value]" |
+| `[ALERT_EVIDENCE]` | Specify the alert evidence | "[specify value]" |
+| `[ALERT_ALERTS]` | Specify the alert alerts | "[specify value]" |
+| `[ALERT_ADOPTION]` | Specify the alert adoption | "[specify value]" |
+| `[ALERT_IMPACT]` | Specify the alert impact | "[specify value]" |
+| `[EVIDENCE_APPLICATION]` | Specify the evidence application | "[specify value]" |
+| `[EVIDENCE_EVIDENCE]` | Specify the evidence evidence | "[specify value]" |
+| `[EVIDENCE_ALERTS]` | Specify the evidence alerts | "[specify value]" |
+| `[EVIDENCE_ADOPTION]` | Specify the evidence adoption | "[specify value]" |
+| `[EVIDENCE_IMPACT]` | Specify the evidence impact | "[specify value]" |
+| `[AI_APPLICATION]` | Specify the ai application | "[specify value]" |
+| `[AI_EVIDENCE]` | Specify the ai evidence | "[specify value]" |
+| `[AI_ALERTS]` | Specify the ai alerts | "[specify value]" |
+| `[AI_ADOPTION]` | Specify the ai adoption | "[specify value]" |
+| `[AI_IMPACT]` | Specify the ai impact | "[specify value]" |
+| `[RISK_APPLICATION]` | Specify the risk application | "[specify value]" |
+| `[RISK_EVIDENCE]` | Specify the risk evidence | "[specify value]" |
+| `[RISK_ALERTS]` | Specify the risk alerts | "[specify value]" |
+| `[RISK_ADOPTION]` | Specify the risk adoption | "[specify value]" |
+| `[RISK_IMPACT]` | Specify the risk impact | "[specify value]" |
+| `[HEALTH_LITERACY]` | Specify the health literacy | "[specify value]" |
+| `[DISEASE_EDUCATION]` | Specify the disease education | "[specify value]" |
+| `[MED_COUNSELING]` | Specify the med counseling | "[specify value]" |
+| `[LIFESTYLE_MOD]` | Specify the lifestyle mod | "[specify value]" |
+| `[SELF_MANAGEMENT]` | Specify the self management | "[specify value]" |
+| `[SUPPORT_GROUPS]` | Specify the support groups | "[specify value]" |
+| `[PATIENT_PORTALS]` | Specify the patient portals | "[specify value]" |
+| `[SECURE_MESSAGING]` | Specify the secure messaging | "[specify value]" |
+| `[TELEHEALTH]` | Specify the telehealth | "[specify value]" |
+| `[MOBILE_APPS]` | Specify the mobile apps | "[specify value]" |
+| `[TEXT_REMINDERS]` | Specify the text reminders | "[specify value]" |
+| `[VOICE_CALLS]` | Specify the voice calls | "[specify value]" |
+| `[DISCHARGE_INSTRUCTIONS]` | Specify the discharge instructions | "[specify value]" |
+| `[MED_GUIDELINES]` | Specify the med guidelines | "[specify value]" |
+| `[FOLLOWUP_SCHEDULES]` | Specify the followup schedules | "[specify value]" |
+| `[WARNING_SIGNS]` | Specify the warning signs | "[specify value]" |
+| `[EMERGENCY_CONTACTS]` | Specify the emergency contacts | "[specify value]" |
+| `[RESOURCE_MATERIALS]` | Specify the resource materials | "[specify value]" |
+| `[SATISFACTION_SURVEYS]` | Specify the satisfaction surveys | "[specify value]" |
+| `[FEEDBACK_MECHANISMS]` | Specify the feedback mechanisms | "[specify value]" |
+| `[COMPLAINT_RESOLUTION]` | Specify the complaint resolution | "[specify value]" |
+| `[SERVICE_RECOVERY]` | Specify the service recovery | "[specify value]" |
+| `[PATIENT_ADVOCACY]` | Specify the patient advocacy | "[specify value]" |
+| `[EXPERIENCE_METRICS]` | Specify the experience metrics | "[specify value]" |
+| `[ADMIT_FLOW]` | Specify the admit flow | "[specify value]" |
+| `[ADMIT_COMM]` | Specify the admit comm | "[specify value]" |
+| `[ADMIT_HANDOFF]` | Specify the admit handoff | "[specify value]" |
+| `[ADMIT_QUALITY]` | Specify the admit quality | "[specify value]" |
+| `[ADMIT_TRACKING]` | Specify the admit tracking | "[specify value]" |
+| `[TRANSFER_FLOW]` | Specify the transfer flow | "[specify value]" |
+| `[TRANSFER_COMM]` | Specify the transfer comm | "[specify value]" |
+| `[TRANSFER_HANDOFF]` | Specify the transfer handoff | "[specify value]" |
+| `[TRANSFER_QUALITY]` | Specify the transfer quality | "[specify value]" |
+| `[TRANSFER_TRACKING]` | Specify the transfer tracking | "[specify value]" |
+| `[REFERRAL_FLOW]` | Specify the referral flow | "[specify value]" |
+| `[REFERRAL_COMM]` | Specify the referral comm | "[specify value]" |
+| `[REFERRAL_HANDOFF]` | Specify the referral handoff | "[specify value]" |
+| `[REFERRAL_QUALITY]` | Specify the referral quality | "[specify value]" |
+| `[REFERRAL_TRACKING]` | Specify the referral tracking | "[specify value]" |
+| `[DISCHARGE_FLOW]` | Specify the discharge flow | "[specify value]" |
+| `[DISCHARGE_COMM]` | Specify the discharge comm | "[specify value]" |
+| `[DISCHARGE_HANDOFF]` | Specify the discharge handoff | "[specify value]" |
+| `[DISCHARGE_TRACKING]` | Specify the discharge tracking | "[specify value]" |
+| `[POST_FLOW]` | Specify the post flow | "[specify value]" |
+| `[POST_COMM]` | Specify the post comm | "[specify value]" |
+| `[POST_HANDOFF]` | Specify the post handoff | "[specify value]" |
+| `[POST_QUALITY]` | Specify the post quality | "[specify value]" |
+| `[POST_TRACKING]` | Specify the post tracking | "[specify value]" |
+| `[TRANSITION_FLOW]` | Specify the transition flow | "[specify value]" |
+| `[TRANSITION_COMM]` | Specify the transition comm | "[specify value]" |
+| `[TRANSITION_HANDOFF]` | Specify the transition handoff | "[specify value]" |
+| `[TRANSITION_QUALITY]` | Specify the transition quality | "[specify value]" |
+| `[TRANSITION_TRACKING]` | Specify the transition tracking | "[specify value]" |
+| `[OUTCOME_CURRENT]` | Specify the outcome current | "[specify value]" |
+| `[OUTCOME_TARGET]` | Target or intended outcome | "[specify value]" |
+| `[OUTCOME_STRATEGY]` | Strategy or approach for outcome | "[specify value]" |
+| `[OUTCOME_MONITORING]` | Specify the outcome monitoring | "[specify value]" |
+| `[OUTCOME_REPORTING]` | Specify the outcome reporting | "[specify value]" |
+| `[SAFETY_CURRENT]` | Specify the safety current | "[specify value]" |
+| `[SAFETY_TARGET]` | Target or intended safety | "[specify value]" |
+| `[SAFETY_STRATEGY]` | Strategy or approach for safety | "[specify value]" |
+| `[SAFETY_MONITORING]` | Specify the safety monitoring | "[specify value]" |
+| `[SAFETY_REPORTING]` | Specify the safety reporting | "[specify value]" |
+| `[INFECTION_CURRENT]` | Specify the infection current | "[specify value]" |
+| `[INFECTION_TARGET]` | Target or intended infection | "[specify value]" |
+| `[INFECTION_STRATEGY]` | Strategy or approach for infection | "[specify value]" |
+| `[INFECTION_MONITORING]` | Specify the infection monitoring | "[specify value]" |
+| `[INFECTION_REPORTING]` | Specify the infection reporting | "[specify value]" |
+| `[MED_SAFETY_CURRENT]` | Specify the med safety current | "[specify value]" |
+| `[MED_SAFETY_TARGET]` | Target or intended med safety | "[specify value]" |
+| `[MED_SAFETY_STRATEGY]` | Strategy or approach for med safety | "[specify value]" |
+| `[MED_SAFETY_MONITORING]` | Specify the med safety monitoring | "[specify value]" |
+| `[MED_SAFETY_REPORTING]` | Specify the med safety reporting | "[specify value]" |
+| `[COMPLIANCE_CURRENT]` | Specify the compliance current | "[specify value]" |
+| `[COMPLIANCE_TARGET]` | Target or intended compliance | "[specify value]" |
+| `[COMPLIANCE_STRATEGY]` | Strategy or approach for compliance | "[specify value]" |
+| `[COMPLIANCE_MONITORING]` | Specify the compliance monitoring | "[specify value]" |
+| `[COMPLIANCE_REPORTING]` | Specify the compliance reporting | "[specify value]" |
+| `[READMIT_CURRENT]` | Specify the readmit current | "[specify value]" |
+| `[READMIT_TARGET]` | Target or intended readmit | "[specify value]" |
+| `[READMIT_STRATEGY]` | Strategy or approach for readmit | "[specify value]" |
+| `[READMIT_MONITORING]` | Specify the readmit monitoring | "[specify value]" |
+| `[READMIT_REPORTING]` | Specify the readmit reporting | "[specify value]" |
+| `[HIGH_RISK_PATIENTS]` | Specify the high risk patients | "[specify value]" |
+| `[CHRONIC_CONDITIONS]` | Specify the chronic conditions | "[specify value]" |
+| `[PREVENTIVE_GAPS]` | Specify the preventive gaps | "[specify value]" |
+| `[SOCIAL_DETERMINANTS]` | Specify the social determinants | "[specify value]" |
+| `[PREDICTIVE_MODELS]` | Specify the predictive models | "[specify value]" |
+| `[INTERVENTION_TRIGGERS]` | Specify the intervention triggers | "[specify value]" |
+| `[DIABETES_PROGRAM]` | Specify the diabetes program | "[specify value]" |
+| `[CARDIAC_PROGRAM]` | Specify the cardiac program | "[specify value]" |
+| `[COPD_PROGRAM]` | Specify the copd program | "[specify value]" |
+| `[MENTAL_HEALTH_PROGRAM]` | Specify the mental health program | "[specify value]" |
+| `[CANCER_PROGRAM]` | Specify the cancer program | "[specify value]" |
+| `[PAIN_PROGRAM]` | Specify the pain program | "[specify value]" |
+| `[SCREENING_PROGRAMS]` | Specify the screening programs | "[specify value]" |
+| `[IMMUNIZATION_PROGRAMS]` | Specify the immunization programs | "[specify value]" |
+| `[WELLNESS_VISITS]` | Specify the wellness visits | "[specify value]" |
+| `[HEALTH_ASSESSMENTS]` | Specify the health assessments | "[specify value]" |
+| `[RISK_REDUCTION]` | Specify the risk reduction | "[specify value]" |
+| `[COMMUNITY_OUTREACH]` | Specify the community outreach | "[specify value]" |
+| `[CASE_MANAGEMENT]` | Specify the case management | "[specify value]" |
+| `[CARE_COORDINATION]` | Specify the care coordination | "[specify value]" |
+| `[UTILIZATION_REVIEW]` | Specify the utilization review | "[specify value]" |
+| `[DISCHARGE_PLANNING]` | Specify the discharge planning | "[specify value]" |
+| `[TRANSITION_SUPPORT]` | Specify the transition support | "[specify value]" |
+| `[FOLLOWUP_PROGRAMS]` | Specify the followup programs | "[specify value]" |
+| `[EHR_PLATFORM]` | Specify the ehr platform | "[specify value]" |
+| `[EHR_INTEGRATION]` | Specify the ehr integration | "[specify value]" |
+| `[EHR_EXCHANGE]` | Specify the ehr exchange | "[specify value]" |
+| `[EHR_TRAINING]` | Specify the ehr training | "[specify value]" |
+| `[EHR_ROI]` | Specify the ehr roi | "[specify value]" |
+| `[LAB_PLATFORM]` | Specify the lab platform | "[specify value]" |
+| `[LAB_INTEGRATION]` | Specify the lab integration | "[specify value]" |
+| `[LAB_EXCHANGE]` | Specify the lab exchange | "[specify value]" |
+| `[LAB_TRAINING]` | Specify the lab training | "[specify value]" |
+| `[LAB_ROI]` | Specify the lab roi | "[specify value]" |
+| `[IMAGING_PLATFORM]` | Specify the imaging platform | "[specify value]" |
+| `[IMAGING_INTEGRATION]` | Specify the imaging integration | "[specify value]" |
+| `[IMAGING_EXCHANGE]` | Specify the imaging exchange | "[specify value]" |
+| `[IMAGING_TRAINING]` | Specify the imaging training | "[specify value]" |
+| `[IMAGING_ROI]` | Specify the imaging roi | "[specify value]" |
+| `[PHARMACY_PLATFORM]` | Specify the pharmacy platform | "[specify value]" |
+| `[PHARMACY_INTEGRATION]` | Specify the pharmacy integration | "[specify value]" |
+| `[PHARMACY_EXCHANGE]` | Specify the pharmacy exchange | "[specify value]" |
+| `[PHARMACY_TRAINING]` | Specify the pharmacy training | "[specify value]" |
+| `[PHARMACY_ROI]` | Specify the pharmacy roi | "[specify value]" |
+| `[TELE_PLATFORM]` | Specify the tele platform | "[specify value]" |
+| `[TELE_INTEGRATION]` | Specify the tele integration | "[specify value]" |
+| `[TELE_EXCHANGE]` | Specify the tele exchange | "[specify value]" |
+| `[TELE_TRAINING]` | Specify the tele training | "[specify value]" |
+| `[TELE_ROI]` | Specify the tele roi | "[specify value]" |
+| `[ANALYTICS_PLATFORM]` | Specify the analytics platform | "[specify value]" |
+| `[ANALYTICS_INTEGRATION]` | Specify the analytics integration | "[specify value]" |
+| `[ANALYTICS_EXCHANGE]` | Specify the analytics exchange | "[specify value]" |
+| `[ANALYTICS_TRAINING]` | Specify the analytics training | "[specify value]" |
+| `[ANALYTICS_ROI]` | Specify the analytics roi | "[specify value]" |
+| `[HIPAA_REQUIREMENTS]` | Specify the hipaa requirements | "[specify value]" |
+| `[HIPAA_STANDARDS]` | Specify the hipaa standards | "[specify value]" |
+| `[HIPAA_AUDIT]` | Specify the hipaa audit | "[specify value]" |
+| `[HIPAA_RATE]` | Specify the hipaa rate | "[specify value]" |
+| `[HIPAA_REMEDIATION]` | Specify the hipaa remediation | "[specify value]" |
+| `[CMS_REQUIREMENTS]` | Specify the cms requirements | "[specify value]" |
+| `[CMS_STANDARDS]` | Specify the cms standards | "[specify value]" |
+| `[CMS_AUDIT]` | Specify the cms audit | "[specify value]" |
+| `[CMS_RATE]` | Specify the cms rate | "[specify value]" |
+| `[CMS_REMEDIATION]` | Specify the cms remediation | "[specify value]" |
+| `[TJC_REQUIREMENTS]` | Specify the tjc requirements | "[specify value]" |
+| `[TJC_STANDARDS]` | Specify the tjc standards | "[specify value]" |
+| `[TJC_AUDIT]` | Specify the tjc audit | "[specify value]" |
+| `[TJC_RATE]` | Specify the tjc rate | "[specify value]" |
+| `[TJC_REMEDIATION]` | Specify the tjc remediation | "[specify value]" |
+| `[STATE_REQUIREMENTS]` | Specify the state requirements | "[specify value]" |
+| `[STATE_STANDARDS]` | Specify the state standards | "[specify value]" |
+| `[STATE_AUDIT]` | Specify the state audit | "[specify value]" |
+| `[STATE_RATE]` | Specify the state rate | "[specify value]" |
+| `[STATE_REMEDIATION]` | Specify the state remediation | "[specify value]" |
+| `[TRIAL_REQUIREMENTS]` | Specify the trial requirements | "[specify value]" |
+| `[TRIAL_STANDARDS]` | Specify the trial standards | "[specify value]" |
+| `[TRIAL_AUDIT]` | Specify the trial audit | "[specify value]" |
+| `[TRIAL_RATE]` | Specify the trial rate | "[specify value]" |
+| `[TRIAL_REMEDIATION]` | Specify the trial remediation | "[specify value]" |
+| `[QUALITY_REQUIREMENTS]` | Specify the quality requirements | "[specify value]" |
+| `[QUALITY_STANDARDS]` | Specify the quality standards | "[specify value]" |
+| `[QUALITY_AUDIT]` | Specify the quality audit | "[specify value]" |
+| `[QUALITY_RATE]` | Specify the quality rate | "[specify value]" |
+| `[QUALITY_REMEDIATION]` | Specify the quality remediation | "[specify value]" |
+| `[PATIENT_VOLUME_METRICS]` | Specify the patient volume metrics | "[specify value]" |
+| `[LOS_METRICS]` | Specify the los metrics | "[specify value]" |
+| `[BED_UTILIZATION]` | Specify the bed utilization | "[specify value]" |
+| `[ED_METRICS]` | Specify the ed metrics | "[specify value]" |
+| `[SURGERY_METRICS]` | Specify the surgery metrics | "[specify value]" |
+| `[ACCESS_METRICS]` | Specify the access metrics | "[specify value]" |
+| `[CLINICAL_OUTCOME_METRICS]` | Specify the clinical outcome metrics | "[specify value]" |
+| `[SAFETY_METRICS]` | Specify the safety metrics | "[specify value]" |
+| `[HAI_METRICS]` | Specify the hai metrics | "[specify value]" |
+| `[MORTALITY_METRICS]` | Specify the mortality metrics | "[specify value]" |
+| `[COMPLICATION_METRICS]` | Specify the complication metrics | "[specify value]" |
+| `[CORE_MEASURES]` | Specify the core measures | "[specify value]" |
+| `[REVENUE_METRICS]` | Specify the revenue metrics | "[specify value]" |
+| `[COST_METRICS]` | Specify the cost metrics | "[specify value]" |
+| `[PAYER_MIX]` | Specify the payer mix | "[specify value]" |
+| `[DENIAL_METRICS]` | Specify the denial metrics | "[specify value]" |
+| `[COLLECTIONS_METRICS]` | Specify the collections metrics | "[specify value]" |
+| `[MARGIN_METRICS]` | Specify the margin metrics | "[specify value]" |
+| `[HCAHPS_SCORES]` | Specify the hcahps scores | "[specify value]" |
+| `[NPS_SCORE]` | Specify the nps score | "[specify value]" |
+| `[COMPLAINT_METRICS]` | Specify the complaint metrics | "[specify value]" |
+| `[WAIT_TIME_METRICS]` | Specify the wait time metrics | "[specify value]" |
+| `[COMM_SCORES]` | Specify the comm scores | "[specify value]" |
+| `[OVERALL_RATING]` | Specify the overall rating | "[specify value]" |
+| `[PRODUCTIVITY_METRICS]` | Specify the productivity metrics | "[specify value]" |
+| `[EFFICIENCY_METRICS]` | Specify the efficiency metrics | "[specify value]" |
+| `[DOC_QUALITY_METRICS]` | Specify the doc quality metrics | "[specify value]" |
+| `[TRAINING_METRICS]` | Specify the training metrics | "[specify value]" |
+| `[TURNOVER_METRICS]` | Specify the turnover metrics | "[specify value]" |
+| `[ENGAGEMENT_METRICS]` | Specify the engagement metrics | "[specify value]" |
+
+
 
 ### 3. Clinical Decision Support Systems
 

@@ -1,3 +1,17 @@
+---
+title: 3D Design Template
+category: creative/Design & Visual
+tags: [creative, design, development, machine-learning, optimization, template]
+use_cases:
+  - Implementing create comprehensive 3d design projects including models, renders, and environme...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - creative-writing-framework.md
+  - video-production-pipeline.md
+last_updated: 2025-11-09
+---
+
 # 3D Design Template
 
 ## Purpose

@@ -1,3 +1,16 @@
+---
+title: Podcasting Strategy & Production Framework
+category: creative/journalism/Digital Media
+tags: [creative, data-science, development, framework, machine-learning, marketing, research, strategy]
+use_cases:
+  - Implementing comprehensive framework for developing and producing podcasts including content ...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - content-strategy.md
+last_updated: 2025-11-09
+---
+
 # Podcasting Strategy & Production Framework
 
 ## Purpose
@@ -53,6 +66,286 @@ Quality Standards:
 - Audio Standards: [AUDIO_STANDARDS]
 - Accessibility: [ACCESSIBILITY]
 ```
+
+## Variables
+
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `[PODCAST_NAME]` | Name of the podcast | "John Smith" |
+| `[AUDIENCE_SIZE]` | Specify the audience size | "[specify value]" |
+| `[EPISODE_COUNT]` | Specify the episode count | "10" |
+| `[FREQUENCY]` | Specify the frequency | "[specify value]" |
+| `[FORMAT_TYPE]` | Type or category of format | "Standard" |
+| `[DOWNLOAD_TARGET]` | Target or intended download | "[specify value]" |
+| `[REVENUE_TARGET]` | Target or intended revenue | "[specify value]" |
+| `[GROWTH_RATE]` | Specify the growth rate | "[specify value]" |
+| `[CORE_TOPIC]` | Specify the core topic | "[specify value]" |
+| `[TOPIC_MARKET]` | Specify the topic market | "[specify value]" |
+| `[TOPIC_DIFF]` | Specify the topic diff | "[specify value]" |
+| `[TOPIC_METRICS]` | Specify the topic metrics | "[specify value]" |
+| `[TOPIC_RISK]` | Specify the topic risk | "[specify value]" |
+| `[FORMAT_STYLE]` | Specify the format style | "[specify value]" |
+| `[FORMAT_MARKET]` | Specify the format market | "[specify value]" |
+| `[FORMAT_DIFF]` | Specify the format diff | "[specify value]" |
+| `[FORMAT_METRICS]` | Specify the format metrics | "[specify value]" |
+| `[FORMAT_RISK]` | Specify the format risk | "[specify value]" |
+| `[TARGET_AUDIENCE]` | Target or intended audience | "[specify value]" |
+| `[AUDIENCE_MARKET]` | Specify the audience market | "[specify value]" |
+| `[AUDIENCE_DIFF]` | Specify the audience diff | "[specify value]" |
+| `[AUDIENCE_METRICS]` | Specify the audience metrics | "[specify value]" |
+| `[AUDIENCE_RISK]` | Specify the audience risk | "[specify value]" |
+| `[EPISODE_LENGTH]` | Specify the episode length | "[specify value]" |
+| `[LENGTH_MARKET]` | Specify the length market | "[specify value]" |
+| `[LENGTH_DIFF]` | Specify the length diff | "[specify value]" |
+| `[LENGTH_METRICS]` | Specify the length metrics | "[specify value]" |
+| `[LENGTH_RISK]` | Specify the length risk | "[specify value]" |
+| `[RELEASE_SCHEDULE]` | Specify the release schedule | "[specify value]" |
+| `[SCHEDULE_MARKET]` | Specify the schedule market | "[specify value]" |
+| `[SCHEDULE_DIFF]` | Specify the schedule diff | "[specify value]" |
+| `[SCHEDULE_METRICS]` | Specify the schedule metrics | "[specify value]" |
+| `[SCHEDULE_RISK]` | Specify the schedule risk | "[specify value]" |
+| `[BRAND_VOICE]` | Specify the brand voice | "[specify value]" |
+| `[VOICE_MARKET]` | Specify the voice market | "[specify value]" |
+| `[VOICE_DIFF]` | Specify the voice diff | "[specify value]" |
+| `[VOICE_METRICS]` | Specify the voice metrics | "[specify value]" |
+| `[VOICE_RISK]` | Specify the voice risk | "[specify value]" |
+| `[PRIMARY_THEME]` | Specify the primary theme | "[specify value]" |
+| `[SECONDARY_TOPICS]` | Specify the secondary topics | "[specify value]" |
+| `[RECURRING_SEGMENTS]` | Specify the recurring segments | "[specify value]" |
+| `[SPECIAL_SERIES]` | Specify the special series | "[specify value]" |
+| `[EVERGREEN_CONTENT]` | Specify the evergreen content | "[specify value]" |
+| `[SEASONAL_CONTENT]` | Specify the seasonal content | "[specify value]" |
+| `[INTERVIEW_PERCENT]` | Specify the interview percent | "25%" |
+| `[SOLO_PERCENT]` | Specify the solo percent | "25%" |
+| `[PANEL_PERCENT]` | Specify the panel percent | "25%" |
+| `[NARRATIVE_PERCENT]` | Specify the narrative percent | "25%" |
+| `[QA_PERCENT]` | Specify the qa percent | "25%" |
+| `[SPECIAL_PERCENT]` | Specify the special percent | "25%" |
+| `[SEASON_PLAN]` | Specify the season plan | "[specify value]" |
+| `[EPISODE_PIPELINE]` | Specify the episode pipeline | "[specify value]" |
+| `[GUEST_BOOKING]` | Specify the guest booking | "[specify value]" |
+| `[RESEARCH_TIME]` | Specify the research time | "[specify value]" |
+| `[PRODUCTION_SCHED]` | Specify the production sched | "[specify value]" |
+| `[BUFFER_EPISODES]` | Specify the buffer episodes | "[specify value]" |
+| `[RESEARCH_DEPTH]` | Specify the research depth | "[specify value]" |
+| `[FACT_CHECK]` | Specify the fact check | "[specify value]" |
+| `[EDITORIAL_REVIEW]` | Specify the editorial review | "[specify value]" |
+| `[AUDIO_STANDARDS]` | Specify the audio standards | "[specify value]" |
+| `[ACCESSIBILITY]` | Specify the accessibility | "[specify value]" |
+| `[PRE_TIME]` | Specify the pre time | "[specify value]" |
+| `[PRE_RESOURCES]` | Specify the pre resources | "[specify value]" |
+| `[PRE_CHECKS]` | Specify the pre checks | "[specify value]" |
+| `[PRE_DELIVER]` | Specify the pre deliver | "[specify value]" |
+| `[PRE_CONTINGENCY]` | Specify the pre contingency | "[specify value]" |
+| `[REC_TIME]` | Specify the rec time | "[specify value]" |
+| `[REC_RESOURCES]` | Specify the rec resources | "[specify value]" |
+| `[REC_CHECKS]` | Specify the rec checks | "[specify value]" |
+| `[REC_DELIVER]` | Specify the rec deliver | "[specify value]" |
+| `[REC_CONTINGENCY]` | Specify the rec contingency | "[specify value]" |
+| `[EDIT_TIME]` | Specify the edit time | "[specify value]" |
+| `[EDIT_RESOURCES]` | Specify the edit resources | "[specify value]" |
+| `[EDIT_CHECKS]` | Specify the edit checks | "[specify value]" |
+| `[EDIT_DELIVER]` | Specify the edit deliver | "[specify value]" |
+| `[EDIT_CONTINGENCY]` | Specify the edit contingency | "[specify value]" |
+| `[POST_TIME]` | Specify the post time | "[specify value]" |
+| `[POST_RESOURCES]` | Specify the post resources | "[specify value]" |
+| `[POST_CHECKS]` | Specify the post checks | "[specify value]" |
+| `[POST_DELIVER]` | Specify the post deliver | "[specify value]" |
+| `[POST_CONTINGENCY]` | Specify the post contingency | "[specify value]" |
+| `[PUB_TIME]` | Specify the pub time | "[specify value]" |
+| `[PUB_RESOURCES]` | Specify the pub resources | "[specify value]" |
+| `[PUB_CHECKS]` | Specify the pub checks | "[specify value]" |
+| `[PUB_DELIVER]` | Specify the pub deliver | "[specify value]" |
+| `[PUB_CONTINGENCY]` | Specify the pub contingency | "[specify value]" |
+| `[PROMO_TIME]` | Specify the promo time | "[specify value]" |
+| `[PROMO_RESOURCES]` | Specify the promo resources | "[specify value]" |
+| `[PROMO_CHECKS]` | Specify the promo checks | "[specify value]" |
+| `[PROMO_DELIVER]` | Specify the promo deliver | "[specify value]" |
+| `[PROMO_CONTINGENCY]` | Specify the promo contingency | "[specify value]" |
+| `[MIC_SETUP]` | Specify the mic setup | "[specify value]" |
+| `[AUDIO_INTERFACE]` | Specify the audio interface | "[specify value]" |
+| `[HEADPHONES]` | Specify the headphones | "[specify value]" |
+| `[ACOUSTIC_TREAT]` | Specify the acoustic treat | "[specify value]" |
+| `[BACKUP_EQUIP]` | Specify the backup equip | "[specify value]" |
+| `[REMOTE_SETUP]` | Specify the remote setup | "[specify value]" |
+| `[DAW_SOFTWARE]` | Specify the daw software | "[specify value]" |
+| `[RECORD_PLATFORM]` | Specify the record platform | "[specify value]" |
+| `[EDIT_TOOLS]` | Specify the edit tools | "[specify value]" |
+| `[AUDIO_PROCESS]` | Specify the audio process | "[specify value]" |
+| `[COLLAB_TOOLS]` | Specify the collab tools | "[specify value]" |
+| `[ASSET_MGMT]` | Specify the asset mgmt | "[specify value]" |
+| `[AUDIO_FORMAT]` | Specify the audio format | "[specify value]" |
+| `[SAMPLE_RATE]` | Specify the sample rate | "[specify value]" |
+| `[BIT_DEPTH]` | Specify the bit depth | "[specify value]" |
+| `[LOUDNESS_STD]` | Specify the loudness std | "[specify value]" |
+| `[FILE_FORMATS]` | Specify the file formats | "[specify value]" |
+| `[BACKUP_SYSTEM]` | Specify the backup system | "[specify value]" |
+| `[EXPERT_BOOKING]` | Specify the expert booking | "[specify value]" |
+| `[EXPERT_PREP]` | Specify the expert prep | "[specify value]" |
+| `[EXPERT_STYLE]` | Specify the expert style | "[specify value]" |
+| `[EXPERT_FOLLOW]` | Specify the expert follow | "[specify value]" |
+| `[EXPERT_RELATION]` | Specify the expert relation | "[specify value]" |
+| `[CELEB_BOOKING]` | Specify the celeb booking | "[specify value]" |
+| `[CELEB_PREP]` | Specify the celeb prep | "[specify value]" |
+| `[CELEB_STYLE]` | Specify the celeb style | "[specify value]" |
+| `[CELEB_FOLLOW]` | Specify the celeb follow | "[specify value]" |
+| `[CELEB_RELATION]` | Specify the celeb relation | "[specify value]" |
+| `[LEADER_BOOKING]` | Specify the leader booking | "[specify value]" |
+| `[LEADER_PREP]` | Specify the leader prep | "[specify value]" |
+| `[LEADER_STYLE]` | Specify the leader style | "[specify value]" |
+| `[LEADER_FOLLOW]` | Specify the leader follow | "[specify value]" |
+| `[LEADER_RELATION]` | Specify the leader relation | "[specify value]" |
+| `[COMM_BOOKING]` | Specify the comm booking | "[specify value]" |
+| `[COMM_PREP]` | Specify the comm prep | "[specify value]" |
+| `[COMM_STYLE]` | Specify the comm style | "[specify value]" |
+| `[COMM_FOLLOW]` | Specify the comm follow | "[specify value]" |
+| `[COMM_RELATION]` | Specify the comm relation | "[specify value]" |
+| `[RECUR_BOOKING]` | Specify the recur booking | "[specify value]" |
+| `[RECUR_PREP]` | Specify the recur prep | "[specify value]" |
+| `[RECUR_STYLE]` | Specify the recur style | "[specify value]" |
+| `[RECUR_FOLLOW]` | Specify the recur follow | "[specify value]" |
+| `[RECUR_RELATION]` | Specify the recur relation | "[specify value]" |
+| `[INTL_BOOKING]` | Specify the intl booking | "[specify value]" |
+| `[INTL_PREP]` | Specify the intl prep | "[specify value]" |
+| `[INTL_STYLE]` | Specify the intl style | "[specify value]" |
+| `[INTL_FOLLOW]` | Specify the intl follow | "[specify value]" |
+| `[INTL_RELATION]` | Specify the intl relation | "[specify value]" |
+| `[APPLE_PRIORITY]` | Specify the apple priority | "High" |
+| `[APPLE_OPTIMIZE]` | Specify the apple optimize | "[specify value]" |
+| `[APPLE_SHARE]` | Specify the apple share | "[specify value]" |
+| `[APPLE_GROWTH]` | Specify the apple growth | "[specify value]" |
+| `[APPLE_MONETIZE]` | Specify the apple monetize | "[specify value]" |
+| `[SPOTIFY_PRIORITY]` | Specify the spotify priority | "High" |
+| `[SPOTIFY_OPTIMIZE]` | Specify the spotify optimize | "[specify value]" |
+| `[SPOTIFY_SHARE]` | Specify the spotify share | "[specify value]" |
+| `[SPOTIFY_GROWTH]` | Specify the spotify growth | "[specify value]" |
+| `[SPOTIFY_MONETIZE]` | Specify the spotify monetize | "[specify value]" |
+| `[YOUTUBE_PRIORITY]` | Specify the youtube priority | "High" |
+| `[YOUTUBE_OPTIMIZE]` | Specify the youtube optimize | "[specify value]" |
+| `[YOUTUBE_SHARE]` | Specify the youtube share | "[specify value]" |
+| `[YOUTUBE_GROWTH]` | Specify the youtube growth | "[specify value]" |
+| `[YOUTUBE_MONETIZE]` | Specify the youtube monetize | "[specify value]" |
+| `[GOOGLE_PRIORITY]` | Specify the google priority | "High" |
+| `[GOOGLE_OPTIMIZE]` | Specify the google optimize | "[specify value]" |
+| `[GOOGLE_SHARE]` | Specify the google share | "[specify value]" |
+| `[GOOGLE_GROWTH]` | Specify the google growth | "[specify value]" |
+| `[GOOGLE_MONETIZE]` | Specify the google monetize | "[specify value]" |
+| `[WEB_PRIORITY]` | Specify the web priority | "High" |
+| `[WEB_OPTIMIZE]` | Specify the web optimize | "[specify value]" |
+| `[WEB_SHARE]` | Specify the web share | "[specify value]" |
+| `[WEB_GROWTH]` | Specify the web growth | "[specify value]" |
+| `[WEB_MONETIZE]` | Specify the web monetize | "[specify value]" |
+| `[SOCIAL_PRIORITY]` | Specify the social priority | "High" |
+| `[SOCIAL_OPTIMIZE]` | Specify the social optimize | "[specify value]" |
+| `[SOCIAL_SHARE]` | Specify the social share | "[specify value]" |
+| `[SOCIAL_GROWTH]` | Specify the social growth | "[specify value]" |
+| `[SOCIAL_MONETIZE]` | Specify the social monetize | "[specify value]" |
+| `[SEO_STRATEGY]` | Strategy or approach for seo | "[specify value]" |
+| `[SOCIAL_STRATEGY]` | Strategy or approach for social | "[specify value]" |
+| `[COMMUNITY_BUILD]` | Specify the community build | "[specify value]" |
+| `[CROSS_PROMO]` | Specify the cross promo | "[specify value]" |
+| `[GUEST_AUDIENCE]` | Specify the guest audience | "[specify value]" |
+| `[WORD_MOUTH]` | Specify the word mouth | "[specify value]" |
+| `[PODCAST_ADS]` | Specify the podcast ads | "[specify value]" |
+| `[SOCIAL_ADS]` | Specify the social ads | "[specify value]" |
+| `[INFLUENCER_COST]` | Specify the influencer cost | "[specify value]" |
+| `[PR_CAMPAIGNS]` | Specify the pr campaigns | "[specify value]" |
+| `[EVENT_SPONSOR]` | Specify the event sponsor | "[specify value]" |
+| `[PROMO_BUDGET]` | Budget allocation for promo | "$500,000" |
+| `[LIVE_EPISODES]` | Specify the live episodes | "[specify value]" |
+| `[QA_SESSIONS]` | Specify the qa sessions | "[specify value]" |
+| `[COMMUNITY_FORUMS]` | Specify the community forums | "[specify value]" |
+| `[NEWSLETTER]` | Specify the newsletter | "[specify value]" |
+| `[EXCLUSIVE_CONTENT]` | Specify the exclusive content | "[specify value]" |
+| `[LISTENER_SURVEY]` | Specify the listener survey | "[specify value]" |
+| `[EPISODE_CONSIST]` | Specify the episode consist | "[specify value]" |
+| `[QUALITY_MAINT]` | Specify the quality maint | "[specify value]" |
+| `[AUDIENCE_FEEDBACK]` | Specify the audience feedback | "[specify value]" |
+| `[PERSONAL_CONNECT]` | Specify the personal connect | "[specify value]" |
+| `[VALUE_DELIVERY]` | Specify the value delivery | "[specify value]" |
+| `[LOYALTY_PROGRAM]` | Specify the loyalty program | "[specify value]" |
+| `[SPONSOR_IMPL]` | Specify the sponsor impl | "[specify value]" |
+| `[SPONSOR_REQ]` | Specify the sponsor req | "[specify value]" |
+| `[SPONSOR_REVENUE]` | Specify the sponsor revenue | "[specify value]" |
+| `[SPONSOR_TIME]` | Specify the sponsor time | "[specify value]" |
+| `[SPONSOR_METRICS]` | Specify the sponsor metrics | "[specify value]" |
+| `[DYNAMIC_IMPL]` | Specify the dynamic impl | "[specify value]" |
+| `[DYNAMIC_REQ]` | Specify the dynamic req | "[specify value]" |
+| `[DYNAMIC_REVENUE]` | Specify the dynamic revenue | "[specify value]" |
+| `[DYNAMIC_TIME]` | Specify the dynamic time | "[specify value]" |
+| `[DYNAMIC_METRICS]` | Specify the dynamic metrics | "[specify value]" |
+| `[PREMIUM_IMPL]` | Specify the premium impl | "[specify value]" |
+| `[PREMIUM_REQ]` | Specify the premium req | "[specify value]" |
+| `[PREMIUM_REVENUE]` | Specify the premium revenue | "[specify value]" |
+| `[PREMIUM_TIME]` | Specify the premium time | "[specify value]" |
+| `[PREMIUM_METRICS]` | Specify the premium metrics | "[specify value]" |
+| `[MERCH_IMPL]` | Specify the merch impl | "[specify value]" |
+| `[MERCH_REQ]` | Specify the merch req | "[specify value]" |
+| `[MERCH_REVENUE]` | Specify the merch revenue | "[specify value]" |
+| `[MERCH_TIME]` | Specify the merch time | "[specify value]" |
+| `[MERCH_METRICS]` | Specify the merch metrics | "[specify value]" |
+| `[EVENT_IMPL]` | Specify the event impl | "[specify value]" |
+| `[EVENT_REQ]` | Specify the event req | "[specify value]" |
+| `[EVENT_REVENUE]` | Specify the event revenue | "[specify value]" |
+| `[EVENT_TIME]` | Specify the event time | "[specify value]" |
+| `[EVENT_METRICS]` | Specify the event metrics | "[specify value]" |
+| `[CROWD_IMPL]` | Specify the crowd impl | "[specify value]" |
+| `[CROWD_REQ]` | Specify the crowd req | "[specify value]" |
+| `[CROWD_REVENUE]` | Specify the crowd revenue | "[specify value]" |
+| `[CROWD_TIME]` | Specify the crowd time | "[specify value]" |
+| `[CROWD_METRICS]` | Specify the crowd metrics | "[specify value]" |
+| `[DOWN_KPI]` | Specify the down kpi | "[specify value]" |
+| `[DOWN_CURRENT]` | Specify the down current | "[specify value]" |
+| `[DOWN_TARGET]` | Target or intended down | "[specify value]" |
+| `[DOWN_BENCH]` | Specify the down bench | "[specify value]" |
+| `[DOWN_OPTIMIZE]` | Specify the down optimize | "[specify value]" |
+| `[UNIQUE_KPI]` | Specify the unique kpi | "[specify value]" |
+| `[UNIQUE_CURRENT]` | Specify the unique current | "[specify value]" |
+| `[UNIQUE_TARGET]` | Target or intended unique | "[specify value]" |
+| `[UNIQUE_BENCH]` | Specify the unique bench | "[specify value]" |
+| `[UNIQUE_OPTIMIZE]` | Specify the unique optimize | "[specify value]" |
+| `[COMP_KPI]` | Specify the comp kpi | "[specify value]" |
+| `[COMP_CURRENT]` | Specify the comp current | "[specify value]" |
+| `[COMP_TARGET]` | Target or intended comp | "[specify value]" |
+| `[COMP_BENCH]` | Specify the comp bench | "[specify value]" |
+| `[COMP_OPTIMIZE]` | Specify the comp optimize | "[specify value]" |
+| `[SUB_KPI]` | Specify the sub kpi | "[specify value]" |
+| `[SUB_CURRENT]` | Specify the sub current | "[specify value]" |
+| `[SUB_TARGET]` | Target or intended sub | "[specify value]" |
+| `[SUB_BENCH]` | Specify the sub bench | "[specify value]" |
+| `[SUB_OPTIMIZE]` | Specify the sub optimize | "[specify value]" |
+| `[ENGAGE_KPI]` | Specify the engage kpi | "[specify value]" |
+| `[ENGAGE_CURRENT]` | Specify the engage current | "[specify value]" |
+| `[ENGAGE_TARGET]` | Target or intended engage | "[specify value]" |
+| `[ENGAGE_BENCH]` | Specify the engage bench | "[specify value]" |
+| `[ENGAGE_OPTIMIZE]` | Specify the engage optimize | "[specify value]" |
+| `[REV_KPI]` | Specify the rev kpi | "[specify value]" |
+| `[REV_CURRENT]` | Specify the rev current | "[specify value]" |
+| `[REV_TARGET]` | Target or intended rev | "[specify value]" |
+| `[REV_BENCH]` | Specify the rev bench | "[specify value]" |
+| `[REV_OPTIMIZE]` | Specify the rev optimize | "[specify value]" |
+| `[Y1_EPISODES]` | Specify the y1 episodes | "[specify value]" |
+| `[Y1_DOWNLOADS]` | Specify the y1 downloads | "[specify value]" |
+| `[Y1_SUBSCRIBERS]` | Specify the y1 subscribers | "[specify value]" |
+| `[Y1_REVENUE]` | Specify the y1 revenue | "[specify value]" |
+| `[Y1_TEAM]` | Specify the y1 team | "[specify value]" |
+| `[ADD_SHOWS]` | Specify the add shows | "[specify value]" |
+| `[SPINOFF_CONTENT]` | Specify the spinoff content | "[specify value]" |
+| `[VIDEO_EXPAND]` | Specify the video expand | "[specify value]" |
+| `[INTERNATIONAL]` | Specify the international | "[specify value]" |
+| `[LIVE_TOURS]` | Specify the live tours | "[specify value]" |
+| `[BOOK_DEALS]` | Specify the book deals | "[specify value]" |
+| `[TV_FILM]` | Specify the tv film | "[specify value]" |
+| `[EDU_COURSES]` | Specify the edu courses | "[specify value]" |
+| `[CONSULTING]` | Specify the consulting | "[specify value]" |
+| `[SPEAKING]` | Specify the speaking | "[specify value]" |
+| `[NETWORK_ACQ]` | Specify the network acq | "[specify value]" |
+| `[SHOW_LICENSE]` | Specify the show license | "[specify value]" |
+| `[IP_SALE]` | Specify the ip sale | "[specify value]" |
+| `[ACQUIHIRE]` | Specify the acquihire | "[specify value]" |
+| `[FRANCHISE]` | Specify the franchise | "[specify value]" |
+
+
 
 ### 3. Production Workflow
 

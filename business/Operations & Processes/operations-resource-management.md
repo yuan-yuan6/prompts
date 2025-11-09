@@ -1,3 +1,18 @@
+---
+title: Resource Management Template Generator
+category: business/Operations & Processes
+tags: [business, design, machine-learning, management, optimization, strategy, template, testing]
+use_cases:
+  - Implementing create comprehensive resource management frameworks covering resource allocation...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - okr-implementation-framework.md
+  - digital-transformation-roadmap.md
+  - lean-six-sigma-implementation.md
+last_updated: 2025-11-09
+---
+
 # Resource Management Template Generator
 
 ## Purpose

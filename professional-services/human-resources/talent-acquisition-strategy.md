@@ -1,3 +1,14 @@
+---
+title: Talent Acquisition & Recruitment Strategy Framework
+category: professional-services/human-resources
+tags: [automation, data-science, development, framework, marketing, optimization, professional-services, research]
+use_cases:
+  - Implementing comprehensive framework for developing and executing talent acquisition strategi...
+  - Project planning and execution
+  - Strategy development
+last_updated: 2025-11-09
+---
+
 # Talent Acquisition & Recruitment Strategy Framework
 
 ## Purpose
@@ -55,6 +66,302 @@ Content Strategy:
 - Success Stories: [SUCCESS_STORIES]
 - Behind-the-Scenes: [BEHIND_SCENES]
 ```
+
+## Variables
+
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `[ORGANIZATION_NAME]` | Name of the organization | "John Smith" |
+| `[ANNUAL_HIRES]` | Specify the annual hires | "[specify value]" |
+| `[TIME_TO_FILL]` | Specify the time to fill | "[specify value]" |
+| `[QUALITY_OF_HIRE]` | Specify the quality of hire | "[specify value]" |
+| `[OFFER_ACCEPTANCE]` | Specify the offer acceptance | "[specify value]" |
+| `[DIVERSITY_TARGET]` | Target or intended diversity | "[specify value]" |
+| `[COST_PER_HIRE]` | Specify the cost per hire | "[specify value]" |
+| `[HEAD_CURRENT]` | Specify the head current | "[specify value]" |
+| `[HEAD_FUTURE]` | Specify the head future | "[specify value]" |
+| `[HEAD_GAP]` | Specify the head gap | "[specify value]" |
+| `[HEAD_STRATEGY]` | Strategy or approach for head | "[specify value]" |
+| `[HEAD_METRICS]` | Specify the head metrics | "[specify value]" |
+| `[SKILLS_CURRENT]` | Specify the skills current | "[specify value]" |
+| `[SKILLS_FUTURE]` | Specify the skills future | "[specify value]" |
+| `[SKILLS_GAP]` | Specify the skills gap | "[specify value]" |
+| `[SKILLS_STRATEGY]` | Strategy or approach for skills | "[specify value]" |
+| `[SKILLS_METRICS]` | Specify the skills metrics | "[specify value]" |
+| `[SUCCESS_CURRENT]` | Specify the success current | "[specify value]" |
+| `[SUCCESS_FUTURE]` | Specify the success future | "[specify value]" |
+| `[SUCCESS_GAP]` | Specify the success gap | "[specify value]" |
+| `[SUCCESS_STRATEGY]` | Strategy or approach for success | "[specify value]" |
+| `[SUCCESS_METRICS]` | Specify the success metrics | "[specify value]" |
+| `[CRITICAL_CURRENT]` | Specify the critical current | "[specify value]" |
+| `[CRITICAL_FUTURE]` | Specify the critical future | "[specify value]" |
+| `[CRITICAL_GAP]` | Specify the critical gap | "[specify value]" |
+| `[CRITICAL_STRATEGY]` | Strategy or approach for critical | "[specify value]" |
+| `[CRITICAL_METRICS]` | Specify the critical metrics | "[specify value]" |
+| `[CONTINGENT_CURRENT]` | Specify the contingent current | "[specify value]" |
+| `[CONTINGENT_FUTURE]` | Specify the contingent future | "[specify value]" |
+| `[CONTINGENT_GAP]` | Specify the contingent gap | "[specify value]" |
+| `[CONTINGENT_STRATEGY]` | Strategy or approach for contingent | "[specify value]" |
+| `[CONTINGENT_METRICS]` | Specify the contingent metrics | "[specify value]" |
+| `[LOCATION_CURRENT]` | Specify the location current | "North America" |
+| `[LOCATION_FUTURE]` | Specify the location future | "North America" |
+| `[LOCATION_GAP]` | Specify the location gap | "North America" |
+| `[LOCATION_STRATEGY]` | Strategy or approach for location | "North America" |
+| `[LOCATION_METRICS]` | Specify the location metrics | "North America" |
+| `[MISSION_MESSAGE]` | Specify the mission message | "[specify value]" |
+| `[CULTURE_PROMISE]` | Specify the culture promise | "[specify value]" |
+| `[CAREER_MESSAGE]` | Specify the career message | "[specify value]" |
+| `[COMP_MESSAGE]` | Specify the comp message | "[specify value]" |
+| `[BALANCE_MESSAGE]` | Specify the balance message | "[specify value]" |
+| `[IMPACT_MESSAGE]` | Specify the impact message | "[specify value]" |
+| `[EARLY_CAREER_EVP]` | Specify the early career evp | "[specify value]" |
+| `[EXPERIENCED_EVP]` | Specify the experienced evp | "[specify value]" |
+| `[TECHNICAL_EVP]` | Specify the technical evp | "[specify value]" |
+| `[LEADERSHIP_EVP]` | Specify the leadership evp | "[specify value]" |
+| `[DIVERSE_EVP]` | Specify the diverse evp | "[specify value]" |
+| `[PASSIVE_EVP]` | Specify the passive evp | "[specify value]" |
+| `[CAREER_SITE]` | Specify the career site | "[specify value]" |
+| `[SOCIAL_CHANNELS]` | Specify the social channels | "[specify value]" |
+| `[EMPLOYEE_ADVOCACY]` | Specify the employee advocacy | "[specify value]" |
+| `[UNIVERSITY_REL]` | Specify the university rel | "[specify value]" |
+| `[PROF_NETWORKS]` | Specify the prof networks | "[specify value]" |
+| `[INDUSTRY_EVENTS]` | Specify the industry events | "Technology" |
+| `[EMPLOYEE_STORIES]` | Specify the employee stories | "[specify value]" |
+| `[CULTURE_VIDEOS]` | Specify the culture videos | "[specify value]" |
+| `[DAY_IN_LIFE]` | Specify the day in life | "[specify value]" |
+| `[LEADER_MESSAGES]` | Specify the leader messages | "[specify value]" |
+| `[SUCCESS_STORIES]` | Specify the success stories | "[specify value]" |
+| `[BEHIND_SCENES]` | Specify the behind scenes | "[specify value]" |
+| `[DIRECT_ROLES]` | Specify the direct roles | "[specify value]" |
+| `[DIRECT_VOLUME]` | Specify the direct volume | "[specify value]" |
+| `[DIRECT_QUALITY]` | Specify the direct quality | "[specify value]" |
+| `[DIRECT_COST]` | Specify the direct cost | "[specify value]" |
+| `[DIRECT_CONVERT]` | Specify the direct convert | "[specify value]" |
+| `[REFERRAL_ROLES]` | Specify the referral roles | "[specify value]" |
+| `[REFERRAL_VOLUME]` | Specify the referral volume | "[specify value]" |
+| `[REFERRAL_QUALITY]` | Specify the referral quality | "[specify value]" |
+| `[REFERRAL_COST]` | Specify the referral cost | "[specify value]" |
+| `[REFERRAL_CONVERT]` | Specify the referral convert | "[specify value]" |
+| `[BOARD_ROLES]` | Specify the board roles | "[specify value]" |
+| `[BOARD_VOLUME]` | Specify the board volume | "[specify value]" |
+| `[BOARD_QUALITY]` | Specify the board quality | "[specify value]" |
+| `[BOARD_COST]` | Specify the board cost | "[specify value]" |
+| `[BOARD_CONVERT]` | Specify the board convert | "[specify value]" |
+| `[SOCIAL_ROLES]` | Specify the social roles | "[specify value]" |
+| `[SOCIAL_VOLUME]` | Specify the social volume | "[specify value]" |
+| `[SOCIAL_QUALITY]` | Specify the social quality | "[specify value]" |
+| `[SOCIAL_COST]` | Specify the social cost | "[specify value]" |
+| `[SOCIAL_CONVERT]` | Specify the social convert | "[specify value]" |
+| `[CAMPUS_ROLES]` | Specify the campus roles | "[specify value]" |
+| `[CAMPUS_VOLUME]` | Specify the campus volume | "[specify value]" |
+| `[CAMPUS_QUALITY]` | Specify the campus quality | "[specify value]" |
+| `[CAMPUS_COST]` | Specify the campus cost | "[specify value]" |
+| `[CAMPUS_CONVERT]` | Specify the campus convert | "[specify value]" |
+| `[AGENCY_ROLES]` | Specify the agency roles | "[specify value]" |
+| `[AGENCY_VOLUME]` | Specify the agency volume | "[specify value]" |
+| `[AGENCY_QUALITY]` | Specify the agency quality | "[specify value]" |
+| `[AGENCY_COST]` | Specify the agency cost | "[specify value]" |
+| `[AGENCY_CONVERT]` | Specify the agency convert | "[specify value]" |
+| `[JOB_DISCOVERY]` | Specify the job discovery | "[specify value]" |
+| `[RESEARCH_PHASE]` | Specify the research phase | "[specify value]" |
+| `[INITIAL_INTEREST]` | Specify the initial interest | "[specify value]" |
+| `[INFO_GATHER]` | Specify the info gather | "[specify value]" |
+| `[APPLY_DECISION]` | Specify the apply decision | "[specify value]" |
+| `[APP_PREP]` | Specify the app prep | "[specify value]" |
+| `[APP_TIME]` | Specify the app time | "[specify value]" |
+| `[MOBILE_OPT]` | Specify the mobile opt | "[specify value]" |
+| `[FORM_FIELDS]` | Specify the form fields | "[specify value]" |
+| `[DOC_UPLOAD]` | Specify the doc upload | "[specify value]" |
+| `[SAVE_PROGRESS]` | Specify the save progress | "[specify value]" |
+| `[CONFIRMATION]` | Specify the confirmation | "[specify value]" |
+| `[INITIAL_REVIEW]` | Specify the initial review | "[specify value]" |
+| `[PHONE_SCREEN]` | Specify the phone screen | "[specify value]" |
+| `[TECH_ASSESS]` | Specify the tech assess | "[specify value]" |
+| `[CULTURE_FIT]` | Specify the culture fit | "[specify value]" |
+| `[BACKGROUND]` | Specify the background | "[specify value]" |
+| `[REFERENCE]` | Specify the reference | "[specify value]" |
+| `[INTERVIEW_ROUNDS]` | Specify the interview rounds | "[specify value]" |
+| `[PANEL_COMP]` | Specify the panel comp | "[specify value]" |
+| `[VIRTUAL_OPTIONS]` | Specify the virtual options | "[specify value]" |
+| `[PREP_SUPPORT]` | Specify the prep support | "[specify value]" |
+| `[FEEDBACK_TIME]` | Specify the feedback time | "[specify value]" |
+| `[CANDIDATE_CARE]` | Specify the candidate care | "2025-01-15" |
+| `[DECISION_TIME]` | Specify the decision time | "[specify value]" |
+| `[OFFER_PROCESS]` | Specify the offer process | "[specify value]" |
+| `[NEGOTIATION]` | Specify the negotiation | "[specify value]" |
+| `[ACCEPTANCE]` | Specify the acceptance | "[specify value]" |
+| `[DECLINE_ANALYSIS]` | Specify the decline analysis | "[specify value]" |
+| `[COUNTER_OFFER]` | Specify the counter offer | "10" |
+| `[RESUME_ROLES]` | Specify the resume roles | "[specify value]" |
+| `[RESUME_VALIDITY]` | Specify the resume validity | "[specify value]" |
+| `[RESUME_RELIABILITY]` | Specify the resume reliability | "[specify value]" |
+| `[RESUME_EXPERIENCE]` | Specify the resume experience | "[specify value]" |
+| `[RESUME_IMPLEMENT]` | Specify the resume implement | "[specify value]" |
+| `[BEHAV_ROLES]` | Specify the behav roles | "[specify value]" |
+| `[BEHAV_VALIDITY]` | Specify the behav validity | "[specify value]" |
+| `[BEHAV_RELIABILITY]` | Specify the behav reliability | "[specify value]" |
+| `[BEHAV_EXPERIENCE]` | Specify the behav experience | "[specify value]" |
+| `[BEHAV_IMPLEMENT]` | Specify the behav implement | "[specify value]" |
+| `[TECH_ROLES]` | Specify the tech roles | "[specify value]" |
+| `[TECH_VALIDITY]` | Specify the tech validity | "[specify value]" |
+| `[TECH_RELIABILITY]` | Specify the tech reliability | "[specify value]" |
+| `[TECH_EXPERIENCE]` | Specify the tech experience | "[specify value]" |
+| `[TECH_IMPLEMENT]` | Specify the tech implement | "[specify value]" |
+| `[CASE_ROLES]` | Specify the case roles | "[specify value]" |
+| `[CASE_VALIDITY]` | Specify the case validity | "[specify value]" |
+| `[CASE_RELIABILITY]` | Specify the case reliability | "[specify value]" |
+| `[CASE_EXPERIENCE]` | Specify the case experience | "[specify value]" |
+| `[CASE_IMPLEMENT]` | Specify the case implement | "[specify value]" |
+| `[PSYCH_ROLES]` | Specify the psych roles | "[specify value]" |
+| `[PSYCH_VALIDITY]` | Specify the psych validity | "[specify value]" |
+| `[PSYCH_RELIABILITY]` | Specify the psych reliability | "[specify value]" |
+| `[PSYCH_EXPERIENCE]` | Specify the psych experience | "[specify value]" |
+| `[PSYCH_IMPLEMENT]` | Specify the psych implement | "[specify value]" |
+| `[SAMPLE_ROLES]` | Specify the sample roles | "[specify value]" |
+| `[SAMPLE_VALIDITY]` | Specify the sample validity | "[specify value]" |
+| `[SAMPLE_RELIABILITY]` | Specify the sample reliability | "[specify value]" |
+| `[SAMPLE_EXPERIENCE]` | Specify the sample experience | "[specify value]" |
+| `[SAMPLE_IMPLEMENT]` | Specify the sample implement | "[specify value]" |
+| `[GENDER_CURRENT]` | Specify the gender current | "[specify value]" |
+| `[GENDER_TARGET]` | Target or intended gender | "[specify value]" |
+| `[GENDER_STRATEGY]` | Strategy or approach for gender | "[specify value]" |
+| `[GENDER_MEASURE]` | Specify the gender measure | "[specify value]" |
+| `[GENDER_ACCOUNT]` | Specify the gender account | "10" |
+| `[ETHNIC_CURRENT]` | Specify the ethnic current | "[specify value]" |
+| `[ETHNIC_TARGET]` | Target or intended ethnic | "[specify value]" |
+| `[ETHNIC_STRATEGY]` | Strategy or approach for ethnic | "[specify value]" |
+| `[ETHNIC_MEASURE]` | Specify the ethnic measure | "[specify value]" |
+| `[ETHNIC_ACCOUNT]` | Specify the ethnic account | "10" |
+| `[DISABILITY_CURRENT]` | Specify the disability current | "[specify value]" |
+| `[DISABILITY_TARGET]` | Target or intended disability | "[specify value]" |
+| `[DISABILITY_STRATEGY]` | Strategy or approach for disability | "[specify value]" |
+| `[DISABILITY_MEASURE]` | Specify the disability measure | "[specify value]" |
+| `[DISABILITY_ACCOUNT]` | Specify the disability account | "10" |
+| `[VETERAN_CURRENT]` | Specify the veteran current | "[specify value]" |
+| `[VETERAN_TARGET]` | Target or intended veteran | "[specify value]" |
+| `[VETERAN_STRATEGY]` | Strategy or approach for veteran | "[specify value]" |
+| `[VETERAN_MEASURE]` | Specify the veteran measure | "[specify value]" |
+| `[VETERAN_ACCOUNT]` | Specify the veteran account | "10" |
+| `[AGE_CURRENT]` | Specify the age current | "[specify value]" |
+| `[AGE_TARGET]` | Target or intended age | "[specify value]" |
+| `[AGE_STRATEGY]` | Strategy or approach for age | "[specify value]" |
+| `[AGE_MEASURE]` | Specify the age measure | "[specify value]" |
+| `[AGE_ACCOUNT]` | Specify the age account | "10" |
+| `[LGBTQ_CURRENT]` | Specify the lgbtq current | "[specify value]" |
+| `[LGBTQ_TARGET]` | Target or intended lgbtq | "[specify value]" |
+| `[LGBTQ_STRATEGY]` | Strategy or approach for lgbtq | "[specify value]" |
+| `[LGBTQ_MEASURE]` | Specify the lgbtq measure | "[specify value]" |
+| `[LGBTQ_ACCOUNT]` | Specify the lgbtq account | "10" |
+| `[ATS_NAME]` | Name of the ats | "John Smith" |
+| `[ATS_FEATURES]` | Specify the ats features | "[specify value]" |
+| `[ATS_INTEGRATION]` | Specify the ats integration | "[specify value]" |
+| `[ATS_AUTOMATION]` | Specify the ats automation | "[specify value]" |
+| `[ATS_UX]` | Specify the ats ux | "[specify value]" |
+| `[ATS_REPORTING]` | Specify the ats reporting | "[specify value]" |
+| `[BOOLEAN_TOOLS]` | Specify the boolean tools | "[specify value]" |
+| `[CHROME_EXT]` | Specify the chrome ext | "[specify value]" |
+| `[CONTACT_FIND]` | Specify the contact find | "[specify value]" |
+| `[SOCIAL_AGG]` | Specify the social agg | "[specify value]" |
+| `[TALENT_CRM]` | Specify the talent crm | "[specify value]" |
+| `[AI_SOURCING]` | Specify the ai sourcing | "[specify value]" |
+| `[VIDEO_PLATFORM]` | Specify the video platform | "[specify value]" |
+| `[SKILLS_PLATFORM]` | Specify the skills platform | "[specify value]" |
+| `[CODING_PLATFORM]` | Specify the coding platform | "[specify value]" |
+| `[PERSONALITY_PLATFORM]` | Specify the personality platform | "[specify value]" |
+| `[REFERENCE_PLATFORM]` | Specify the reference platform | "[specify value]" |
+| `[BACKGROUND_PLATFORM]` | Specify the background platform | "[specify value]" |
+| `[DASHBOARD_TOOLS]` | Specify the dashboard tools | "[specify value]" |
+| `[PREDICTIVE_TOOLS]` | Specify the predictive tools | "[specify value]" |
+| `[MARKET_INTEL]` | Specify the market intel | "[specify value]" |
+| `[COMPETITOR_TOOLS]` | Specify the competitor tools | "[specify value]" |
+| `[ROI_TOOLS]` | Specify the roi tools | "[specify value]" |
+| `[CUSTOM_REPORTS]` | Specify the custom reports | "[specify value]" |
+| `[SOURCE_TRAINING]` | Specify the source training | "[specify value]" |
+| `[SOURCE_FREQ]` | Specify the source freq | "[specify value]" |
+| `[SOURCE_CERT]` | Specify the source cert | "[specify value]" |
+| `[SOURCE_STANDARD]` | Specify the source standard | "[specify value]" |
+| `[SOURCE_RESOURCES]` | Specify the source resources | "[specify value]" |
+| `[INTERVIEW_TRAINING]` | Specify the interview training | "[specify value]" |
+| `[INTERVIEW_FREQ]` | Specify the interview freq | "[specify value]" |
+| `[INTERVIEW_CERT]` | Specify the interview cert | "[specify value]" |
+| `[INTERVIEW_STANDARD]` | Specify the interview standard | "[specify value]" |
+| `[INTERVIEW_RESOURCES]` | Specify the interview resources | "[specify value]" |
+| `[NEGO_TRAINING]` | Specify the nego training | "[specify value]" |
+| `[NEGO_FREQ]` | Specify the nego freq | "[specify value]" |
+| `[NEGO_CERT]` | Specify the nego cert | "[specify value]" |
+| `[NEGO_STANDARD]` | Specify the nego standard | "[specify value]" |
+| `[NEGO_RESOURCES]` | Specify the nego resources | "[specify value]" |
+| `[DEI_TRAINING]` | Specify the dei training | "[specify value]" |
+| `[DEI_FREQ]` | Specify the dei freq | "[specify value]" |
+| `[DEI_CERT]` | Specify the dei cert | "[specify value]" |
+| `[DEI_STANDARD]` | Specify the dei standard | "[specify value]" |
+| `[DEI_RESOURCES]` | Specify the dei resources | "[specify value]" |
+| `[TECH_TRAINING]` | Specify the tech training | "[specify value]" |
+| `[TECH_FREQ]` | Specify the tech freq | "[specify value]" |
+| `[TECH_CERT]` | Specify the tech cert | "[specify value]" |
+| `[TECH_STANDARD]` | Specify the tech standard | "[specify value]" |
+| `[TECH_RESOURCES]` | Specify the tech resources | "[specify value]" |
+| `[MARKET_TRAINING]` | Specify the market training | "[specify value]" |
+| `[MARKET_FREQ]` | Specify the market freq | "[specify value]" |
+| `[MARKET_CERT]` | Specify the market cert | "[specify value]" |
+| `[MARKET_STANDARD]` | Specify the market standard | "[specify value]" |
+| `[MARKET_RESOURCES]` | Specify the market resources | "[specify value]" |
+| `[TTF_CURRENT]` | Specify the ttf current | "[specify value]" |
+| `[TTF_TARGET]` | Target or intended ttf | "[specify value]" |
+| `[TTF_BENCHMARK]` | Specify the ttf benchmark | "[specify value]" |
+| `[TTF_ACTION]` | Specify the ttf action | "[specify value]" |
+| `[QOH_CURRENT]` | Specify the qoh current | "[specify value]" |
+| `[QOH_TARGET]` | Target or intended qoh | "[specify value]" |
+| `[QOH_BENCHMARK]` | Specify the qoh benchmark | "[specify value]" |
+| `[QOH_ACTION]` | Specify the qoh action | "[specify value]" |
+| `[CPH_CURRENT]` | Specify the cph current | "[specify value]" |
+| `[CPH_TARGET]` | Target or intended cph | "[specify value]" |
+| `[CPH_BENCHMARK]` | Specify the cph benchmark | "[specify value]" |
+| `[CPH_ACTION]` | Specify the cph action | "[specify value]" |
+| `[REQ_CURRENT]` | Specify the req current | "[specify value]" |
+| `[REQ_TARGET]` | Target or intended req | "[specify value]" |
+| `[REQ_BENCHMARK]` | Specify the req benchmark | "[specify value]" |
+| `[REQ_ACTION]` | Specify the req action | "[specify value]" |
+| `[NPS_CURRENT]` | Specify the nps current | "[specify value]" |
+| `[NPS_TARGET]` | Target or intended nps | "[specify value]" |
+| `[NPS_BENCHMARK]` | Specify the nps benchmark | "[specify value]" |
+| `[NPS_ACTION]` | Specify the nps action | "[specify value]" |
+| `[DIV_CURRENT]` | Specify the div current | "[specify value]" |
+| `[DIV_TARGET]` | Target or intended div | "[specify value]" |
+| `[DIV_BENCHMARK]` | Specify the div benchmark | "[specify value]" |
+| `[DIV_ACTION]` | Specify the div action | "[specify value]" |
+| `[WELCOME_PACKAGE]` | Specify the welcome package | "[specify value]" |
+| `[PAPERWORK]` | Specify the paperwork | "[specify value]" |
+| `[IT_SETUP]` | Specify the it setup | "[specify value]" |
+| `[WORKSPACE_PREP]` | Specify the workspace prep | "[specify value]" |
+| `[TEAM_INTRO]` | Specify the team intro | "[specify value]" |
+| `[PREBOARD_PORTAL]` | Specify the preboard portal | "[specify value]" |
+| `[ORIENTATION]` | Specify the orientation | "[specify value]" |
+| `[COMPANY_OVERVIEW]` | Specify the company overview | "[specify value]" |
+| `[ROLE_CLARITY]` | Specify the role clarity | "[specify value]" |
+| `[MEET_GREET]` | Specify the meet greet | "[specify value]" |
+| `[ADMIN_TASKS]` | Specify the admin tasks | "[specify value]" |
+| `[FIRST_ASSIGN]` | Specify the first assign | "[specify value]" |
+| `[TRAINING_SCHED]` | Specify the training sched | "[specify value]" |
+| `[MENTOR_ASSIGN]` | Specify the mentor assign | "[specify value]" |
+| `[SYSTEM_ACCESS]` | Specify the system access | "[specify value]" |
+| `[TEAM_INTEGRATE]` | Specify the team integrate | "[specify value]" |
+| `[CULTURE_IMMERSE]` | Specify the culture immerse | "[specify value]" |
+| `[FEEDBACK_CHECK]` | Specify the feedback check | "[specify value]" |
+| `[PERF_GOALS_30]` | Specify the perf goals 30 | "Increase efficiency by 30%" |
+| `[TRAINING_30]` | Specify the training 30 | "[specify value]" |
+| `[RELATIONSHIP_30]` | Specify the relationship 30 | "[specify value]" |
+| `[PROJECTS_30]` | Specify the projects 30 | "[specify value]" |
+| `[MANAGER_30]` | Specify the manager 30 | "[specify value]" |
+| `[SUPPORT_30]` | Specify the support 30 | "[specify value]" |
+| `[REVIEW_90]` | Specify the review 90 | "[specify value]" |
+| `[GOALS_90]` | Specify the goals 90 | "Increase efficiency by 30%" |
+| `[CULTURE_90]` | Specify the culture 90 | "[specify value]" |
+| `[PRODUCTIVITY_90]` | Specify the productivity 90 | "[specify value]" |
+| `[RETENTION_90]` | Specify the retention 90 | "[specify value]" |
+| `[DEVELOPMENT_90]` | Specify the development 90 | "[specify value]" |
+
+
 
 ### 3. Sourcing & Pipeline Development
 

@@ -1,3 +1,17 @@
+---
+title: Music & Audio Comprehensive Template Generator
+category: creative/Entertainment
+tags: [communication, comprehensive, creative, design, optimization, template, testing]
+use_cases:
+  - Implementing create comprehensive music and audio solutions covering lyrics composition, musi...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - creative-writing-framework.md
+  - video-production-pipeline.md
+last_updated: 2025-11-09
+---
+
 # Music & Audio Comprehensive Template Generator
 
 ## Purpose

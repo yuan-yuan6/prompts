@@ -1,3 +1,18 @@
+---
+title: A/B Testing & Experimentation Design Framework
+category: data-analytics/Data Science
+tags: [data-analytics, data-science, design, development, framework, research, strategy, testing]
+use_cases:
+  - Implementing comprehensive framework for designing and executing controlled experiments inclu...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - dashboard-design-patterns.md
+  - data-governance-framework.md
+  - predictive-modeling-framework.md
+last_updated: 2025-11-09
+---
+
 # A/B Testing & Experimentation Design Framework
 
 ## Purpose
@@ -53,6 +68,292 @@ Multiple Testing Correction:
 - Family-wise Error Rate: [FWER]
 - False Discovery Rate: [FDR]
 ```
+
+## Variables
+
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `[EXPERIMENT_NAME]` | Name of the experiment | "John Smith" |
+| `[HYPOTHESIS]` | Specify the hypothesis | "[specify value]" |
+| `[SAMPLE_SIZE]` | Specify the sample size | "[specify value]" |
+| `[VARIANT_COUNT]` | Specify the variant count | "10" |
+| `[DURATION]` | Specify the duration | "6 months" |
+| `[SIGNIFICANCE_LEVEL]` | Specify the significance level | "[specify value]" |
+| `[POWER_TARGET]` | Target or intended power | "[specify value]" |
+| `[MDE]` | Specify the mde | "[specify value]" |
+| `[PRIMARY_CURRENT]` | Specify the primary current | "[specify value]" |
+| `[PRIMARY_HYPOTHESIS]` | Specify the primary hypothesis | "[specify value]" |
+| `[PRIMARY_IMPACT]` | Specify the primary impact | "[specify value]" |
+| `[PRIMARY_RISK]` | Specify the primary risk | "[specify value]" |
+| `[PRIMARY_SUCCESS]` | Specify the primary success | "[specify value]" |
+| `[SECONDARY_CURRENT]` | Specify the secondary current | "[specify value]" |
+| `[SECONDARY_HYPOTHESIS]` | Specify the secondary hypothesis | "[specify value]" |
+| `[SECONDARY_IMPACT]` | Specify the secondary impact | "[specify value]" |
+| `[SECONDARY_RISK]` | Specify the secondary risk | "[specify value]" |
+| `[SECONDARY_SUCCESS]` | Specify the secondary success | "[specify value]" |
+| `[GUARDRAIL_CURRENT]` | Specify the guardrail current | "[specify value]" |
+| `[GUARDRAIL_HYPOTHESIS]` | Specify the guardrail hypothesis | "[specify value]" |
+| `[GUARDRAIL_IMPACT]` | Specify the guardrail impact | "[specify value]" |
+| `[GUARDRAIL_RISK]` | Specify the guardrail risk | "[specify value]" |
+| `[GUARDRAIL_SUCCESS]` | Specify the guardrail success | "[specify value]" |
+| `[UX_CURRENT]` | Specify the ux current | "[specify value]" |
+| `[UX_HYPOTHESIS]` | Specify the ux hypothesis | "[specify value]" |
+| `[UX_IMPACT]` | Specify the ux impact | "[specify value]" |
+| `[UX_RISK]` | Specify the ux risk | "[specify value]" |
+| `[UX_SUCCESS]` | Specify the ux success | "[specify value]" |
+| `[BUSINESS_CURRENT]` | Specify the business current | "[specify value]" |
+| `[BUSINESS_HYPOTHESIS]` | Specify the business hypothesis | "[specify value]" |
+| `[BUSINESS_IMPACT]` | Specify the business impact | "[specify value]" |
+| `[BUSINESS_RISK]` | Specify the business risk | "[specify value]" |
+| `[BUSINESS_SUCCESS]` | Specify the business success | "[specify value]" |
+| `[TECH_CURRENT]` | Specify the tech current | "[specify value]" |
+| `[TECH_HYPOTHESIS]` | Specify the tech hypothesis | "[specify value]" |
+| `[TECH_IMPACT]` | Specify the tech impact | "[specify value]" |
+| `[TECH_RISK]` | Specify the tech risk | "[specify value]" |
+| `[TECH_SUCCESS]` | Specify the tech success | "[specify value]" |
+| `[BASELINE_RATE]` | Specify the baseline rate | "[specify value]" |
+| `[POWER]` | Specify the power | "[specify value]" |
+| `[ALPHA]` | Specify the alpha | "[specify value]" |
+| `[TEST_TYPE]` | Type or category of test | "Standard" |
+| `[RANDOM_UNIT]` | Specify the random unit | "[specify value]" |
+| `[ASSIGN_METHOD]` | Specify the assign method | "[specify value]" |
+| `[STRATIFY_VARS]` | Specify the stratify vars | "[specify value]" |
+| `[BLOCK_RANDOM]` | Specify the block random | "[specify value]" |
+| `[BALANCE_CHECKS]` | Specify the balance checks | "[specify value]" |
+| `[SPILLOVER_CONTROL]` | Specify the spillover control | "[specify value]" |
+| `[MIN_DURATION]` | Specify the min duration | "6 months" |
+| `[MAX_DURATION]` | Specify the max duration | "6 months" |
+| `[WEEKLY_SAMPLE]` | Specify the weekly sample | "[specify value]" |
+| `[SEASONALITY]` | Specify the seasonality | "[specify value]" |
+| `[EARLY_STOP]` | Specify the early stop | "[specify value]" |
+| `[EXTENSION_CRITERIA]` | Specify the extension criteria | "[specify value]" |
+| `[NUM_COMPARISONS]` | Specify the num comparisons | "[specify value]" |
+| `[CORRECTION_METHOD]` | Specify the correction method | "[specify value]" |
+| `[ADJUSTED_ALPHA]` | Specify the adjusted alpha | "[specify value]" |
+| `[FWER]` | Specify the fwer | "[specify value]" |
+| `[FDR]` | Specify the fdr | "[specify value]" |
+| `[CONTROL_DESC]` | Specify the control desc | "[specify value]" |
+| `[CONTROL_CHANGES]` | Specify the control changes | "[specify value]" |
+| `[CONTROL_IMPL]` | Specify the control impl | "[specify value]" |
+| `[CONTROL_TRACK]` | Specify the control track | "[specify value]" |
+| `[CONTROL_QA]` | Specify the control qa | "[specify value]" |
+| `[VARIANT_A_DESC]` | Specify the variant a desc | "[specify value]" |
+| `[VARIANT_A_CHANGES]` | Specify the variant a changes | "[specify value]" |
+| `[VARIANT_A_IMPL]` | Specify the variant a impl | "[specify value]" |
+| `[VARIANT_A_TRACK]` | Specify the variant a track | "[specify value]" |
+| `[VARIANT_A_QA]` | Specify the variant a qa | "[specify value]" |
+| `[VARIANT_B_DESC]` | Specify the variant b desc | "[specify value]" |
+| `[VARIANT_B_CHANGES]` | Specify the variant b changes | "[specify value]" |
+| `[VARIANT_B_IMPL]` | Specify the variant b impl | "[specify value]" |
+| `[VARIANT_B_TRACK]` | Specify the variant b track | "[specify value]" |
+| `[VARIANT_B_QA]` | Specify the variant b qa | "[specify value]" |
+| `[VARIANT_C_DESC]` | Specify the variant c desc | "[specify value]" |
+| `[VARIANT_C_CHANGES]` | Specify the variant c changes | "[specify value]" |
+| `[VARIANT_C_IMPL]` | Specify the variant c impl | "[specify value]" |
+| `[VARIANT_C_TRACK]` | Specify the variant c track | "[specify value]" |
+| `[VARIANT_C_QA]` | Specify the variant c qa | "[specify value]" |
+| `[VARIANT_D_DESC]` | Specify the variant d desc | "[specify value]" |
+| `[VARIANT_D_CHANGES]` | Specify the variant d changes | "[specify value]" |
+| `[VARIANT_D_IMPL]` | Specify the variant d impl | "[specify value]" |
+| `[VARIANT_D_TRACK]` | Specify the variant d track | "[specify value]" |
+| `[VARIANT_D_QA]` | Specify the variant d qa | "[specify value]" |
+| `[HOLDOUT_DESC]` | Specify the holdout desc | "[specify value]" |
+| `[HOLDOUT_CHANGES]` | Specify the holdout changes | "[specify value]" |
+| `[HOLDOUT_IMPL]` | Specify the holdout impl | "[specify value]" |
+| `[HOLDOUT_TRACK]` | Specify the holdout track | "[specify value]" |
+| `[HOLDOUT_QA]` | Specify the holdout qa | "[specify value]" |
+| `[PRIMARY_DEFINITION]` | Specify the primary definition | "[specify value]" |
+| `[PRIMARY_CALC]` | Specify the primary calc | "[specify value]" |
+| `[PRIMARY_SOURCE]` | Specify the primary source | "[specify value]" |
+| `[PRIMARY_WINDOW]` | Specify the primary window | "[specify value]" |
+| `[PRIMARY_THRESHOLD]` | Specify the primary threshold | "[specify value]" |
+| `[PRIMARY_TEST]` | Specify the primary test | "[specify value]" |
+| `[ENGAGE_METRICS]` | Specify the engage metrics | "[specify value]" |
+| `[REVENUE_METRICS]` | Specify the revenue metrics | "[specify value]" |
+| `[RETENTION_METRICS]` | Specify the retention metrics | "[specify value]" |
+| `[QUALITY_METRICS]` | Specify the quality metrics | "[specify value]" |
+| `[OPERATIONAL_METRICS]` | Specify the operational metrics | "[specify value]" |
+| `[SATISFACTION_METRICS]` | Specify the satisfaction metrics | "[specify value]" |
+| `[PERF_GUARDRAIL]` | Specify the perf guardrail | "[specify value]" |
+| `[ERROR_GUARDRAIL]` | Specify the error guardrail | "[specify value]" |
+| `[UX_GUARDRAIL]` | Specify the ux guardrail | "[specify value]" |
+| `[REVENUE_GUARDRAIL]` | Specify the revenue guardrail | "[specify value]" |
+| `[COMPLIANCE_GUARDRAIL]` | Specify the compliance guardrail | "[specify value]" |
+| `[GUARDRAIL_LIMITS]` | Specify the guardrail limits | "[specify value]" |
+| `[VALIDATION_RULES]` | Specify the validation rules | "[specify value]" |
+| `[MISSING_DATA]` | Specify the missing data | "[specify value]" |
+| `[OUTLIER_TREATMENT]` | Specify the outlier treatment | "[specify value]" |
+| `[DATA_FRESHNESS]` | Specify the data freshness | "[specify value]" |
+| `[LOGGING_ACCURACY]` | Specify the logging accuracy | "[specify value]" |
+| `[NEW_CRITERIA]` | Specify the new criteria | "[specify value]" |
+| `[NEW_SAMPLE]` | Specify the new sample | "[specify value]" |
+| `[NEW_RANDOM]` | Specify the new random | "[specify value]" |
+| `[NEW_BEHAVIOR]` | Specify the new behavior | "[specify value]" |
+| `[NEW_ANALYSIS]` | Specify the new analysis | "[specify value]" |
+| `[ACTIVE_CRITERIA]` | Specify the active criteria | "[specify value]" |
+| `[ACTIVE_SAMPLE]` | Specify the active sample | "[specify value]" |
+| `[ACTIVE_RANDOM]` | Specify the active random | "[specify value]" |
+| `[ACTIVE_BEHAVIOR]` | Specify the active behavior | "[specify value]" |
+| `[ACTIVE_ANALYSIS]` | Specify the active analysis | "[specify value]" |
+| `[POWER_CRITERIA]` | Specify the power criteria | "[specify value]" |
+| `[POWER_SAMPLE]` | Specify the power sample | "[specify value]" |
+| `[POWER_RANDOM]` | Specify the power random | "[specify value]" |
+| `[POWER_BEHAVIOR]` | Specify the power behavior | "[specify value]" |
+| `[POWER_ANALYSIS]` | Specify the power analysis | "[specify value]" |
+| `[MOBILE_CRITERIA]` | Specify the mobile criteria | "[specify value]" |
+| `[MOBILE_SAMPLE]` | Specify the mobile sample | "[specify value]" |
+| `[MOBILE_RANDOM]` | Specify the mobile random | "[specify value]" |
+| `[MOBILE_BEHAVIOR]` | Specify the mobile behavior | "[specify value]" |
+| `[MOBILE_ANALYSIS]` | Specify the mobile analysis | "[specify value]" |
+| `[GEO_CRITERIA]` | Specify the geo criteria | "[specify value]" |
+| `[GEO_SAMPLE]` | Specify the geo sample | "[specify value]" |
+| `[GEO_RANDOM]` | Specify the geo random | "[specify value]" |
+| `[GEO_BEHAVIOR]` | Specify the geo behavior | "[specify value]" |
+| `[GEO_ANALYSIS]` | Specify the geo analysis | "[specify value]" |
+| `[CUSTOM_CRITERIA]` | Specify the custom criteria | "[specify value]" |
+| `[CUSTOM_SAMPLE]` | Specify the custom sample | "[specify value]" |
+| `[CUSTOM_RANDOM]` | Specify the custom random | "[specify value]" |
+| `[CUSTOM_BEHAVIOR]` | Specify the custom behavior | "[specify value]" |
+| `[CUSTOM_ANALYSIS]` | Specify the custom analysis | "[specify value]" |
+| `[PRE_TIMELINE]` | Timeline or schedule for pre | "6 months" |
+| `[PRE_ACTIVITIES]` | Specify the pre activities | "[specify value]" |
+| `[PRE_CHECKS]` | Specify the pre checks | "[specify value]" |
+| `[PRE_CRITERIA]` | Specify the pre criteria | "[specify value]" |
+| `[PRE_ROLLBACK]` | Specify the pre rollback | "[specify value]" |
+| `[SOFT_TIMELINE]` | Timeline or schedule for soft | "6 months" |
+| `[SOFT_ACTIVITIES]` | Specify the soft activities | "[specify value]" |
+| `[SOFT_CHECKS]` | Specify the soft checks | "[specify value]" |
+| `[SOFT_CRITERIA]` | Specify the soft criteria | "[specify value]" |
+| `[SOFT_ROLLBACK]` | Specify the soft rollback | "[specify value]" |
+| `[RAMP_TIMELINE]` | Timeline or schedule for ramp | "6 months" |
+| `[RAMP_ACTIVITIES]` | Specify the ramp activities | "[specify value]" |
+| `[RAMP_CHECKS]` | Specify the ramp checks | "[specify value]" |
+| `[RAMP_CRITERIA]` | Specify the ramp criteria | "[specify value]" |
+| `[RAMP_ROLLBACK]` | Specify the ramp rollback | "[specify value]" |
+| `[FULL_TIMELINE]` | Timeline or schedule for full | "6 months" |
+| `[FULL_ACTIVITIES]` | Specify the full activities | "[specify value]" |
+| `[FULL_CHECKS]` | Specify the full checks | "[specify value]" |
+| `[FULL_CRITERIA]` | Specify the full criteria | "[specify value]" |
+| `[FULL_ROLLBACK]` | Specify the full rollback | "[specify value]" |
+| `[MONITOR_TIMELINE]` | Timeline or schedule for monitor | "6 months" |
+| `[MONITOR_ACTIVITIES]` | Specify the monitor activities | "[specify value]" |
+| `[MONITOR_CHECKS]` | Specify the monitor checks | "[specify value]" |
+| `[MONITOR_CRITERIA]` | Specify the monitor criteria | "[specify value]" |
+| `[MONITOR_ROLLBACK]` | Specify the monitor rollback | "[specify value]" |
+| `[CONCLUDE_TIMELINE]` | Timeline or schedule for conclude | "6 months" |
+| `[CONCLUDE_ACTIVITIES]` | Specify the conclude activities | "[specify value]" |
+| `[CONCLUDE_CHECKS]` | Specify the conclude checks | "[specify value]" |
+| `[CONCLUDE_CRITERIA]` | Specify the conclude criteria | "[specify value]" |
+| `[CONCLUDE_ROLLBACK]` | Specify the conclude rollback | "[specify value]" |
+| `[PRIMARY_STAT_TEST]` | Specify the primary stat test | "[specify value]" |
+| `[EFFECT_SIZE]` | Specify the effect size | "[specify value]" |
+| `[CONFIDENCE_INT]` | Specify the confidence int | "[specify value]" |
+| `[P_VALUE_THRESH]` | Specify the p value thresh | "[specify value]" |
+| `[PRACTICAL_SIG]` | Specify the practical sig | "[specify value]" |
+| `[PRIMARY_INTERPRET]` | Specify the primary interpret | "[specify value]" |
+| `[SUBGROUP_ANALYSIS]` | Specify the subgroup analysis | "[specify value]" |
+| `[INTERACTION_EFFECTS]` | Specify the interaction effects | "[specify value]" |
+| `[TIME_SERIES]` | Specify the time series | "[specify value]" |
+| `[COHORT_ANALYSIS]` | Specify the cohort analysis | "[specify value]" |
+| `[FUNNEL_ANALYSIS]` | Specify the funnel analysis | "[specify value]" |
+| `[LONGTERM_EFFECTS]` | Specify the longterm effects | "[specify value]" |
+| `[BAYESIAN_ANALYSIS]` | Specify the bayesian analysis | "[specify value]" |
+| `[SEQUENTIAL_TEST]` | Specify the sequential test | "[specify value]" |
+| `[VARIANCE_REDUCE]` | Specify the variance reduce | "[specify value]" |
+| `[CAUSAL_INFERENCE]` | Specify the causal inference | "[specify value]" |
+| `[ML_METHODS]` | Specify the ml methods | "[specify value]" |
+| `[NETWORK_EFFECTS]` | Specify the network effects | "[specify value]" |
+| `[SENSITIVITY]` | Specify the sensitivity | "[specify value]" |
+| `[BALANCE_TESTS]` | Specify the balance tests | "[specify value]" |
+| `[MANIPULATION]` | Specify the manipulation | "[specify value]" |
+| `[SRM_CHECK]` | Specify the srm check | "[specify value]" |
+| `[NOVELTY_CHECK]` | Specify the novelty check | "[specify value]" |
+| `[SELECTION_CHECK]` | Specify the selection check | "[specify value]" |
+| `[SYSTEM_METRICS]` | Specify the system metrics | "[specify value]" |
+| `[SYSTEM_THRESH]` | Specify the system thresh | "[specify value]" |
+| `[SYSTEM_ALERTS]` | Specify the system alerts | "[specify value]" |
+| `[SYSTEM_RESPONSE]` | Specify the system response | "[specify value]" |
+| `[SYSTEM_ESCALATE]` | Specify the system escalate | "[specify value]" |
+| `[DATA_METRICS]` | Specify the data metrics | "[specify value]" |
+| `[DATA_THRESH]` | Specify the data thresh | "[specify value]" |
+| `[DATA_ALERTS]` | Specify the data alerts | "[specify value]" |
+| `[DATA_RESPONSE]` | Specify the data response | "[specify value]" |
+| `[DATA_ESCALATE]` | Specify the data escalate | "[specify value]" |
+| `[UX_METRICS]` | Specify the ux metrics | "[specify value]" |
+| `[UX_THRESH]` | Specify the ux thresh | "[specify value]" |
+| `[UX_ALERTS]` | Specify the ux alerts | "[specify value]" |
+| `[UX_RESPONSE]` | Specify the ux response | "[specify value]" |
+| `[UX_ESCALATE]` | Specify the ux escalate | "[specify value]" |
+| `[STAT_METRICS]` | Specify the stat metrics | "[specify value]" |
+| `[STAT_THRESH]` | Specify the stat thresh | "[specify value]" |
+| `[STAT_ALERTS]` | Specify the stat alerts | "[specify value]" |
+| `[STAT_RESPONSE]` | Specify the stat response | "[specify value]" |
+| `[STAT_ESCALATE]` | Specify the stat escalate | "[specify value]" |
+| `[BUS_METRICS]` | Specify the bus metrics | "[specify value]" |
+| `[BUS_THRESH]` | Specify the bus thresh | "[specify value]" |
+| `[BUS_ALERTS]` | Specify the bus alerts | "[specify value]" |
+| `[BUS_RESPONSE]` | Specify the bus response | "[specify value]" |
+| `[BUS_ESCALATE]` | Specify the bus escalate | "[specify value]" |
+| `[ETHICAL_METRICS]` | Specify the ethical metrics | "[specify value]" |
+| `[ETHICAL_THRESH]` | Specify the ethical thresh | "[specify value]" |
+| `[ETHICAL_ALERTS]` | Specify the ethical alerts | "[specify value]" |
+| `[ETHICAL_RESPONSE]` | Specify the ethical response | "[specify value]" |
+| `[ETHICAL_ESCALATE]` | Specify the ethical escalate | "[specify value]" |
+| `[LAUNCH_CRITERIA]` | Specify the launch criteria | "[specify value]" |
+| `[LAUNCH_STAKE]` | Specify the launch stake | "[specify value]" |
+| `[LAUNCH_DATA]` | Specify the launch data | "[specify value]" |
+| `[LAUNCH_TIME]` | Specify the launch time | "[specify value]" |
+| `[LAUNCH_DOC]` | Specify the launch doc | "[specify value]" |
+| `[EARLY_CRITERIA]` | Specify the early criteria | "[specify value]" |
+| `[EARLY_STAKE]` | Specify the early stake | "[specify value]" |
+| `[EARLY_DATA]` | Specify the early data | "[specify value]" |
+| `[EARLY_TIME]` | Specify the early time | "[specify value]" |
+| `[EARLY_DOC]` | Specify the early doc | "[specify value]" |
+| `[ROLLOUT_CRITERIA]` | Specify the rollout criteria | "[specify value]" |
+| `[ROLLOUT_STAKE]` | Specify the rollout stake | "[specify value]" |
+| `[ROLLOUT_DATA]` | Specify the rollout data | "[specify value]" |
+| `[ROLLOUT_TIME]` | Specify the rollout time | "[specify value]" |
+| `[ROLLOUT_DOC]` | Specify the rollout doc | "[specify value]" |
+| `[ITERATE_CRITERIA]` | Specify the iterate criteria | "[specify value]" |
+| `[ITERATE_STAKE]` | Specify the iterate stake | "[specify value]" |
+| `[ITERATE_DATA]` | Specify the iterate data | "[specify value]" |
+| `[ITERATE_TIME]` | Specify the iterate time | "[specify value]" |
+| `[ITERATE_DOC]` | Specify the iterate doc | "[specify value]" |
+| `[SCALE_CRITERIA]` | Specify the scale criteria | "[specify value]" |
+| `[SCALE_STAKE]` | Specify the scale stake | "[specify value]" |
+| `[SCALE_DATA]` | Specify the scale data | "[specify value]" |
+| `[SCALE_TIME]` | Specify the scale time | "[specify value]" |
+| `[SCALE_DOC]` | Specify the scale doc | "[specify value]" |
+| `[SUNSET_CRITERIA]` | Specify the sunset criteria | "[specify value]" |
+| `[SUNSET_STAKE]` | Specify the sunset stake | "[specify value]" |
+| `[SUNSET_DATA]` | Specify the sunset data | "[specify value]" |
+| `[SUNSET_TIME]` | Specify the sunset time | "[specify value]" |
+| `[SUNSET_DOC]` | Specify the sunset doc | "[specify value]" |
+| `[HYPOTHESIS_REG]` | Specify the hypothesis reg | "[specify value]" |
+| `[DESIGN_DOCS]` | Specify the design docs | "[specify value]" |
+| `[ANALYSIS_CODE]` | Specify the analysis code | "[specify value]" |
+| `[RESULTS_REPO]` | Specify the results repo | "[specify value]" |
+| `[DECISION_LOG]` | Specify the decision log | "[specify value]" |
+| `[LESSONS]` | Specify the lessons | "[specify value]" |
+| `[WIKI_UPDATES]` | Specify the wiki updates | "2025-01-15" |
+| `[PRESENTATIONS]` | Specify the presentations | "[specify value]" |
+| `[BEST_PRACTICES]` | Specify the best practices | "[specify value]" |
+| `[FAILURE_ANALYSIS]` | Specify the failure analysis | "[specify value]" |
+| `[SUCCESS_PATTERNS]` | Specify the success patterns | "[specify value]" |
+| `[TRAINING_MAT]` | Specify the training mat | "[specify value]" |
+| `[CROSS_LEARNING]` | Specify the cross learning | "[specify value]" |
+| `[PATTERN_RECOG]` | Specify the pattern recog | "[specify value]" |
+| `[EFFECT_DATABASE]` | Specify the effect database | "[specify value]" |
+| `[VELOCITY_METRICS]` | Specify the velocity metrics | "[specify value]" |
+| `[WIN_RATE]` | Specify the win rate | "[specify value]" |
+| `[ROI_ANALYSIS]` | Specify the roi analysis | "[specify value]" |
+| `[EXP_VELOCITY]` | Specify the exp velocity | "[specify value]" |
+| `[TOOL_OPTIMIZE]` | Specify the tool optimize | "[specify value]" |
+| `[TEAM_EFFICIENCY]` | Specify the team efficiency | "[specify value]" |
+| `[STAKE_SATISFY]` | Specify the stake satisfy | "[specify value]" |
+| `[INNOVATION_INDEX]` | Specify the innovation index | "[specify value]" |
+
+
 
 ### 3. Variant Design & Implementation
 

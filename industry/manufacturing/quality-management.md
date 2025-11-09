@@ -1,3 +1,14 @@
+---
+title: Quality Management Template
+category: industry/manufacturing
+tags: [data-science, design, documentation, industry, management, optimization, research, security]
+use_cases:
+  - Implementing create comprehensive quality management systems, manufacturing excellence framew...
+  - Project planning and execution
+  - Strategy development
+last_updated: 2025-11-09
+---
+
 # Quality Management Template
 
 ## Purpose

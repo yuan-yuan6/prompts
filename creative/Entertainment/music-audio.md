@@ -1,3 +1,17 @@
+---
+title: Music & Audio Template
+category: creative/Entertainment
+tags: [communication, creative, design, template, testing]
+use_cases:
+  - Implementing create comprehensive music and audio content including lyrics, compositions, and...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - creative-writing-framework.md
+  - video-production-pipeline.md
+last_updated: 2025-11-09
+---
+
 # Music & Audio Template
 
 ## Purpose

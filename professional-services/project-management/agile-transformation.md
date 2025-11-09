@@ -1,3 +1,14 @@
+---
+title: Agile Transformation & Organizational Change Framework
+category: professional-services/project-management
+tags: [data-science, design, framework, optimization, professional-services, research, strategy, testing]
+use_cases:
+  - Implementing comprehensive framework for implementing agile transformation including methodol...
+  - Project planning and execution
+  - Strategy development
+last_updated: 2025-11-09
+---
+
 # Agile Transformation & Organizational Change Framework
 
 ## Purpose
@@ -55,6 +66,299 @@ Hybrid Approaches:
 - Integration Points: [INTEGRATION_POINTS]
 - Governance Model: [GOVERNANCE_MODEL]
 ```
+
+## Variables
+
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `[ORGANIZATION_NAME]` | Name of the organization | "John Smith" |
+| `[TEAM_COUNT]` | Specify the team count | "10" |
+| `[EMPLOYEE_COUNT]` | Specify the employee count | "10" |
+| `[VELOCITY_INCREASE]` | Specify the velocity increase | "[specify value]" |
+| `[TIME_TO_MARKET]` | Specify the time to market | "[specify value]" |
+| `[QUALITY_IMPROVEMENT]` | Specify the quality improvement | "[specify value]" |
+| `[EMPLOYEE_ENGAGEMENT]` | Specify the employee engagement | "[specify value]" |
+| `[PRACTICE_CURRENT]` | Specify the practice current | "[specify value]" |
+| `[PRACTICE_BENCHMARK]` | Specify the practice benchmark | "[specify value]" |
+| `[PRACTICE_TARGET]` | Target or intended practice | "[specify value]" |
+| `[PRACTICE_GAP]` | Specify the practice gap | "[specify value]" |
+| `[PRACTICE_PRIORITY]` | Specify the practice priority | "High" |
+| `[TEAM_CURRENT]` | Specify the team current | "[specify value]" |
+| `[TEAM_BENCHMARK]` | Specify the team benchmark | "[specify value]" |
+| `[TEAM_TARGET]` | Target or intended team | "[specify value]" |
+| `[TEAM_GAP]` | Specify the team gap | "[specify value]" |
+| `[TEAM_PRIORITY]` | Specify the team priority | "High" |
+| `[LEADER_CURRENT]` | Specify the leader current | "[specify value]" |
+| `[LEADER_BENCHMARK]` | Specify the leader benchmark | "[specify value]" |
+| `[LEADER_TARGET]` | Target or intended leader | "[specify value]" |
+| `[LEADER_GAP]` | Specify the leader gap | "[specify value]" |
+| `[LEADER_PRIORITY]` | Specify the leader priority | "High" |
+| `[TECH_CURRENT]` | Specify the tech current | "[specify value]" |
+| `[TECH_BENCHMARK]` | Specify the tech benchmark | "[specify value]" |
+| `[TECH_TARGET]` | Target or intended tech | "[specify value]" |
+| `[TECH_GAP]` | Specify the tech gap | "[specify value]" |
+| `[TECH_PRIORITY]` | Specify the tech priority | "High" |
+| `[CULTURE_CURRENT]` | Specify the culture current | "[specify value]" |
+| `[CULTURE_BENCHMARK]` | Specify the culture benchmark | "[specify value]" |
+| `[CULTURE_TARGET]` | Target or intended culture | "[specify value]" |
+| `[CULTURE_GAP]` | Specify the culture gap | "[specify value]" |
+| `[CULTURE_PRIORITY]` | Specify the culture priority | "High" |
+| `[DELIVERY_CURRENT]` | Specify the delivery current | "[specify value]" |
+| `[DELIVERY_BENCHMARK]` | Specify the delivery benchmark | "[specify value]" |
+| `[DELIVERY_TARGET]` | Target or intended delivery | "[specify value]" |
+| `[DELIVERY_GAP]` | Specify the delivery gap | "[specify value]" |
+| `[DELIVERY_PRIORITY]` | Specify the delivery priority | "High" |
+| `[SPRINT_DURATION]` | Specify the sprint duration | "6 months" |
+| `[SCRUM_TEAM_SIZE]` | Specify the scrum team size | "[specify value]" |
+| `[SCRUM_ROLES]` | Specify the scrum roles | "[specify value]" |
+| `[SCRUM_CEREMONIES]` | Specify the scrum ceremonies | "[specify value]" |
+| `[SCRUM_ARTIFACTS]` | Specify the scrum artifacts | "[specify value]" |
+| `[SCRUM_METRICS]` | Specify the scrum metrics | "[specify value]" |
+| `[WIP_LIMITS]` | Specify the wip limits | "[specify value]" |
+| `[FLOW_METRICS]` | Specify the flow metrics | "[specify value]" |
+| `[BOARD_DESIGN]` | Specify the board design | "[specify value]" |
+| `[PULL_SYSTEM]` | Specify the pull system | "[specify value]" |
+| `[CONTINUOUS_FLOW]` | Specify the continuous flow | "[specify value]" |
+| `[KANBAN_OPTIMIZE]` | Specify the kanban optimize | "[specify value]" |
+| `[PORTFOLIO_LEVEL]` | Specify the portfolio level | "[specify value]" |
+| `[PROGRAM_LEVEL]` | Specify the program level | "[specify value]" |
+| `[TEAM_LEVEL]` | Specify the team level | "[specify value]" |
+| `[PI_PLANNING]` | Specify the pi planning | "[specify value]" |
+| `[VALUE_STREAMS]` | Specify the value streams | "[specify value]" |
+| `[RELEASE_TRAINS]` | Specify the release trains | "[specify value]" |
+| `[SCRUMBAN_APPROACH]` | Specify the scrumban approach | "[specify value]" |
+| `[WATER_SCRUM_FALL]` | Specify the water scrum fall | "[specify value]" |
+| `[DISCIPLINED_AGILE]` | Specify the disciplined agile | "[specify value]" |
+| `[CUSTOM_FRAMEWORK]` | Specify the custom framework | "[specify value]" |
+| `[INTEGRATION_POINTS]` | Specify the integration points | "[specify value]" |
+| `[GOVERNANCE_MODEL]` | Specify the governance model | "[specify value]" |
+| `[FEATURE_CURRENT]` | Specify the feature current | "[specify value]" |
+| `[FEATURE_TARGET]` | Target or intended feature | "[specify value]" |
+| `[FEATURE_TRANSITION]` | Specify the feature transition | "[specify value]" |
+| `[FEATURE_SKILLS]` | Specify the feature skills | "[specify value]" |
+| `[FEATURE_SUCCESS]` | Specify the feature success | "[specify value]" |
+| `[COMPONENT_CURRENT]` | Specify the component current | "[specify value]" |
+| `[COMPONENT_TARGET]` | Target or intended component | "[specify value]" |
+| `[COMPONENT_TRANSITION]` | Specify the component transition | "[specify value]" |
+| `[COMPONENT_SKILLS]` | Specify the component skills | "[specify value]" |
+| `[COMPONENT_SUCCESS]` | Specify the component success | "[specify value]" |
+| `[PLATFORM_CURRENT]` | Specify the platform current | "[specify value]" |
+| `[PLATFORM_TARGET]` | Target or intended platform | "[specify value]" |
+| `[PLATFORM_TRANSITION]` | Specify the platform transition | "[specify value]" |
+| `[PLATFORM_SKILLS]` | Specify the platform skills | "[specify value]" |
+| `[PLATFORM_SUCCESS]` | Specify the platform success | "[specify value]" |
+| `[DEVOPS_CURRENT]` | Specify the devops current | "[specify value]" |
+| `[DEVOPS_TARGET]` | Target or intended devops | "[specify value]" |
+| `[DEVOPS_TRANSITION]` | Specify the devops transition | "[specify value]" |
+| `[DEVOPS_SKILLS]` | Specify the devops skills | "[specify value]" |
+| `[DEVOPS_SUCCESS]` | Specify the devops success | "[specify value]" |
+| `[SUPPORT_CURRENT]` | Specify the support current | "[specify value]" |
+| `[SUPPORT_TARGET]` | Target or intended support | "[specify value]" |
+| `[SUPPORT_TRANSITION]` | Specify the support transition | "[specify value]" |
+| `[SUPPORT_SKILLS]` | Specify the support skills | "[specify value]" |
+| `[SUPPORT_SUCCESS]` | Specify the support success | "[specify value]" |
+| `[LEADER_TRANSITION]` | Specify the leader transition | "[specify value]" |
+| `[LEADER_SKILLS]` | Specify the leader skills | "[specify value]" |
+| `[LEADER_SUCCESS]` | Specify the leader success | "[specify value]" |
+| `[INDIVIDUALS_VALUE]` | Specify the individuals value | "[specify value]" |
+| `[SOFTWARE_VALUE]` | Specify the software value | "[specify value]" |
+| `[CUSTOMER_VALUE]` | Specify the customer value | "[specify value]" |
+| `[CHANGE_VALUE]` | Specify the change value | "[specify value]" |
+| `[LEARNING_VALUE]` | Specify the learning value | "[specify value]" |
+| `[EMPOWERMENT_VALUE]` | Specify the empowerment value | "[specify value]" |
+| `[COMMAND_TO_COACH]` | Specify the command to coach | "[specify value]" |
+| `[SILOS_TO_COLLAB]` | Specify the silos to collab | "[specify value]" |
+| `[PERFECT_TO_PROGRESS]` | Specify the perfect to progress | "[specify value]" |
+| `[BLAME_TO_LEARNING]` | Specify the blame to learning | "[specify value]" |
+| `[INDIVIDUAL_TO_TEAM]` | Specify the individual to team | "[specify value]" |
+| `[OUTPUT_TO_OUTCOME]` | Specify the output to outcome | "[specify value]" |
+| `[DECISION_BEHAVIOR]` | Specify the decision behavior | "[specify value]" |
+| `[RISK_BEHAVIOR]` | Specify the risk behavior | "[specify value]" |
+| `[EXPERIMENT_BEHAVIOR]` | Specify the experiment behavior | "[specify value]" |
+| `[TRANSPARENCY_BEHAVIOR]` | Specify the transparency behavior | "[specify value]" |
+| `[FEEDBACK_BEHAVIOR]` | Specify the feedback behavior | "[specify value]" |
+| `[IMPROVEMENT_BEHAVIOR]` | Specify the improvement behavior | "[specify value]" |
+| `[COMM_PLAN]` | Specify the comm plan | "[specify value]" |
+| `[RESISTANCE_MGMT]` | Specify the resistance mgmt | "[specify value]" |
+| `[CHAMPION_NETWORK]` | Specify the champion network | "[specify value]" |
+| `[QUICK_WINS]` | Specify the quick wins | "[specify value]" |
+| `[CELEBRATION]` | Specify the celebration | "[specify value]" |
+| `[REINFORCEMENT]` | Specify the reinforcement | "[specify value]" |
+| `[SPRINT_PHASE]` | Specify the sprint phase | "[specify value]" |
+| `[SPRINT_TRAINING]` | Specify the sprint training | "[specify value]" |
+| `[SPRINT_TOOLS]` | Specify the sprint tools | "[specify value]" |
+| `[SPRINT_TIMELINE]` | Timeline or schedule for sprint | "6 months" |
+| `[SPRINT_METRICS]` | Specify the sprint metrics | "[specify value]" |
+| `[DAILY_PHASE]` | Specify the daily phase | "[specify value]" |
+| `[DAILY_TRAINING]` | Specify the daily training | "[specify value]" |
+| `[DAILY_TOOLS]` | Specify the daily tools | "[specify value]" |
+| `[DAILY_TIMELINE]` | Timeline or schedule for daily | "6 months" |
+| `[DAILY_METRICS]` | Specify the daily metrics | "[specify value]" |
+| `[REVIEW_PHASE]` | Specify the review phase | "[specify value]" |
+| `[REVIEW_TRAINING]` | Specify the review training | "[specify value]" |
+| `[REVIEW_TOOLS]` | Specify the review tools | "[specify value]" |
+| `[REVIEW_TIMELINE]` | Timeline or schedule for review | "6 months" |
+| `[REVIEW_METRICS]` | Specify the review metrics | "[specify value]" |
+| `[RETRO_PHASE]` | Specify the retro phase | "[specify value]" |
+| `[RETRO_TRAINING]` | Specify the retro training | "[specify value]" |
+| `[RETRO_TOOLS]` | Specify the retro tools | "[specify value]" |
+| `[RETRO_TIMELINE]` | Timeline or schedule for retro | "6 months" |
+| `[RETRO_METRICS]` | Specify the retro metrics | "[specify value]" |
+| `[BACKLOG_PHASE]` | Specify the backlog phase | "[specify value]" |
+| `[BACKLOG_TRAINING]` | Specify the backlog training | "[specify value]" |
+| `[BACKLOG_TOOLS]` | Specify the backlog tools | "[specify value]" |
+| `[BACKLOG_TIMELINE]` | Timeline or schedule for backlog | "6 months" |
+| `[BACKLOG_METRICS]` | Specify the backlog metrics | "[specify value]" |
+| `[STORY_PHASE]` | Specify the story phase | "[specify value]" |
+| `[STORY_TRAINING]` | Specify the story training | "[specify value]" |
+| `[STORY_TOOLS]` | Specify the story tools | "[specify value]" |
+| `[STORY_TIMELINE]` | Timeline or schedule for story | "6 months" |
+| `[STORY_METRICS]` | Specify the story metrics | "[specify value]" |
+| `[CI_CURRENT]` | Specify the ci current | "[specify value]" |
+| `[CI_TARGET]` | Target or intended ci | "[specify value]" |
+| `[CI_STEPS]` | Specify the ci steps | "[specify value]" |
+| `[CI_INVEST]` | Specify the ci invest | "[specify value]" |
+| `[CI_BENEFITS]` | Specify the ci benefits | "[specify value]" |
+| `[CD_CURRENT]` | Specify the cd current | "[specify value]" |
+| `[CD_TARGET]` | Target or intended cd | "[specify value]" |
+| `[CD_STEPS]` | Specify the cd steps | "[specify value]" |
+| `[CD_INVEST]` | Specify the cd invest | "[specify value]" |
+| `[CD_BENEFITS]` | Specify the cd benefits | "[specify value]" |
+| `[TEST_CURRENT]` | Specify the test current | "[specify value]" |
+| `[TEST_TARGET]` | Target or intended test | "[specify value]" |
+| `[TEST_STEPS]` | Specify the test steps | "[specify value]" |
+| `[TEST_INVEST]` | Specify the test invest | "[specify value]" |
+| `[TEST_BENEFITS]` | Specify the test benefits | "[specify value]" |
+| `[IAC_CURRENT]` | Specify the iac current | "[specify value]" |
+| `[IAC_TARGET]` | Target or intended iac | "[specify value]" |
+| `[IAC_STEPS]` | Specify the iac steps | "[specify value]" |
+| `[IAC_INVEST]` | Specify the iac invest | "[specify value]" |
+| `[IAC_BENEFITS]` | Specify the iac benefits | "[specify value]" |
+| `[MONITOR_CURRENT]` | Specify the monitor current | "[specify value]" |
+| `[MONITOR_TARGET]` | Target or intended monitor | "[specify value]" |
+| `[MONITOR_STEPS]` | Specify the monitor steps | "[specify value]" |
+| `[MONITOR_INVEST]` | Specify the monitor invest | "[specify value]" |
+| `[MONITOR_BENEFITS]` | Specify the monitor benefits | "[specify value]" |
+| `[SECURITY_CURRENT]` | Specify the security current | "[specify value]" |
+| `[SECURITY_TARGET]` | Target or intended security | "[specify value]" |
+| `[SECURITY_STEPS]` | Specify the security steps | "[specify value]" |
+| `[SECURITY_INVEST]` | Specify the security invest | "[specify value]" |
+| `[SECURITY_BENEFITS]` | Specify the security benefits | "[specify value]" |
+| `[FUNDAMENTALS_TRAINING]` | Specify the fundamentals training | "[specify value]" |
+| `[ROLE_TRAINING]` | Specify the role training | "[specify value]" |
+| `[TOOL_TRAINING]` | Specify the tool training | "[specify value]" |
+| `[TECHNICAL_TRAINING]` | Specify the technical training | "[specify value]" |
+| `[LEADERSHIP_TRAINING]` | Specify the leadership training | "[specify value]" |
+| `[CERTIFICATION_PROG]` | Specify the certification prog | "[specify value]" |
+| `[ENTERPRISE_COACHES]` | Specify the enterprise coaches | "[specify value]" |
+| `[TEAM_COACHES]` | Specify the team coaches | "[specify value]" |
+| `[TECHNICAL_COACHES]` | Specify the technical coaches | "[specify value]" |
+| `[COACHING_CADENCE]` | Specify the coaching cadence | "[specify value]" |
+| `[COACHING_METRICS]` | Specify the coaching metrics | "[specify value]" |
+| `[COACH_DEVELOPMENT]` | Specify the coach development | "[specify value]" |
+| `[CLASSROOM_FORMAT]` | Specify the classroom format | "[specify value]" |
+| `[ONLINE_FORMAT]` | Specify the online format | "[specify value]" |
+| `[WORKSHOP_FORMAT]` | Specify the workshop format | "[specify value]" |
+| `[COP_FORMAT]` | Specify the cop format | "[specify value]" |
+| `[MENTORING_FORMAT]` | Specify the mentoring format | "[specify value]" |
+| `[SELF_SERVICE]` | Specify the self service | "[specify value]" |
+| `[BEST_PRACTICES]` | Specify the best practices | "[specify value]" |
+| `[PLAYBOOKS]` | Specify the playbooks | "[specify value]" |
+| `[SUCCESS_STORIES]` | Specify the success stories | "[specify value]" |
+| `[LESSONS_LEARNED]` | Specify the lessons learned | "[specify value]" |
+| `[INTERNAL_WIKI]` | Specify the internal wiki | "[specify value]" |
+| `[EXTERNAL_RESOURCES]` | Specify the external resources | "[specify value]" |
+| `[PM_CURRENT]` | Specify the pm current | "[specify value]" |
+| `[PM_TARGET]` | Target or intended pm | "[specify value]" |
+| `[PM_MIGRATION]` | Specify the pm migration | "[specify value]" |
+| `[PM_TRAINING]` | Specify the pm training | "[specify value]" |
+| `[PM_COST]` | Specify the pm cost | "[specify value]" |
+| `[COLLAB_CURRENT]` | Specify the collab current | "[specify value]" |
+| `[COLLAB_TARGET]` | Target or intended collab | "[specify value]" |
+| `[COLLAB_MIGRATION]` | Specify the collab migration | "[specify value]" |
+| `[COLLAB_TRAINING]` | Specify the collab training | "[specify value]" |
+| `[COLLAB_COST]` | Specify the collab cost | "[specify value]" |
+| `[DEV_CURRENT]` | Specify the dev current | "[specify value]" |
+| `[DEV_TARGET]` | Target or intended dev | "[specify value]" |
+| `[DEV_MIGRATION]` | Specify the dev migration | "[specify value]" |
+| `[DEV_TRAINING]` | Specify the dev training | "[specify value]" |
+| `[DEV_COST]` | Specify the dev cost | "[specify value]" |
+| `[TEST_CURRENT_TOOLS]` | Specify the test current tools | "[specify value]" |
+| `[TEST_TARGET_TOOLS]` | Target or intended test  tools | "[specify value]" |
+| `[TEST_MIGRATION]` | Specify the test migration | "[specify value]" |
+| `[TEST_TRAINING_NEEDS]` | Specify the test training needs | "[specify value]" |
+| `[TEST_COST]` | Specify the test cost | "[specify value]" |
+| `[CICD_CURRENT]` | Specify the cicd current | "[specify value]" |
+| `[CICD_TARGET]` | Target or intended cicd | "[specify value]" |
+| `[CICD_MIGRATION]` | Specify the cicd migration | "[specify value]" |
+| `[CICD_TRAINING]` | Specify the cicd training | "[specify value]" |
+| `[CICD_COST]` | Specify the cicd cost | "[specify value]" |
+| `[ANALYTICS_CURRENT]` | Specify the analytics current | "[specify value]" |
+| `[ANALYTICS_TARGET]` | Target or intended analytics | "[specify value]" |
+| `[ANALYTICS_MIGRATION]` | Specify the analytics migration | "[specify value]" |
+| `[ANALYTICS_TRAINING]` | Specify the analytics training | "[specify value]" |
+| `[ANALYTICS_COST]` | Specify the analytics cost | "[specify value]" |
+| `[PORTFOLIO_RIGHTS]` | Specify the portfolio rights | "[specify value]" |
+| `[PORTFOLIO_REVIEW]` | Specify the portfolio review | "[specify value]" |
+| `[PORTFOLIO_ESCALATE]` | Specify the portfolio escalate | "[specify value]" |
+| `[PORTFOLIO_METRICS]` | Specify the portfolio metrics | "[specify value]" |
+| `[PORTFOLIO_IMPROVE]` | Specify the portfolio improve | "[specify value]" |
+| `[PROGRAM_RIGHTS]` | Specify the program rights | "[specify value]" |
+| `[PROGRAM_REVIEW]` | Specify the program review | "[specify value]" |
+| `[PROGRAM_ESCALATE]` | Specify the program escalate | "[specify value]" |
+| `[PROGRAM_METRICS]` | Specify the program metrics | "[specify value]" |
+| `[PROGRAM_IMPROVE]` | Specify the program improve | "[specify value]" |
+| `[TEAM_RIGHTS]` | Specify the team rights | "[specify value]" |
+| `[TEAM_REVIEW]` | Specify the team review | "[specify value]" |
+| `[TEAM_ESCALATE]` | Specify the team escalate | "[specify value]" |
+| `[TEAM_METRICS]` | Specify the team metrics | "[specify value]" |
+| `[TEAM_IMPROVE]` | Specify the team improve | "[specify value]" |
+| `[TECH_RIGHTS]` | Specify the tech rights | "[specify value]" |
+| `[TECH_REVIEW]` | Specify the tech review | "[specify value]" |
+| `[TECH_ESCALATE]` | Specify the tech escalate | "[specify value]" |
+| `[TECH_METRICS]` | Specify the tech metrics | "[specify value]" |
+| `[TECH_IMPROVE]` | Specify the tech improve | "[specify value]" |
+| `[QUALITY_RIGHTS]` | Specify the quality rights | "[specify value]" |
+| `[QUALITY_REVIEW]` | Specify the quality review | "[specify value]" |
+| `[QUALITY_ESCALATE]` | Specify the quality escalate | "[specify value]" |
+| `[QUALITY_METRICS]` | Specify the quality metrics | "[specify value]" |
+| `[QUALITY_IMPROVE]` | Specify the quality improve | "[specify value]" |
+| `[RISK_RIGHTS]` | Specify the risk rights | "[specify value]" |
+| `[RISK_REVIEW]` | Specify the risk review | "[specify value]" |
+| `[RISK_ESCALATE]` | Specify the risk escalate | "[specify value]" |
+| `[RISK_METRICS]` | Specify the risk metrics | "[specify value]" |
+| `[RISK_IMPROVE]` | Specify the risk improve | "[specify value]" |
+| `[VELOCITY_TREND]` | Specify the velocity trend | "[specify value]" |
+| `[CYCLE_TIME]` | Specify the cycle time | "[specify value]" |
+| `[LEAD_TIME]` | Specify the lead time | "[specify value]" |
+| `[THROUGHPUT]` | Specify the throughput | "[specify value]" |
+| `[PREDICTABILITY]` | Specify the predictability | "[specify value]" |
+| `[DEFECT_DENSITY]` | Specify the defect density | "[specify value]" |
+| `[ESCAPED_DEFECTS]` | Specify the escaped defects | "[specify value]" |
+| `[TEST_COVERAGE]` | Specify the test coverage | "[specify value]" |
+| `[TECHNICAL_DEBT]` | Specify the technical debt | "[specify value]" |
+| `[CODE_QUALITY]` | Specify the code quality | "[specify value]" |
+| `[QUALITY_CSAT]` | Specify the quality csat | "[specify value]" |
+| `[TEAM_HAPPINESS]` | Specify the team happiness | "[specify value]" |
+| `[ENGAGEMENT_SCORE]` | Specify the engagement score | "[specify value]" |
+| `[RETENTION_RATE]` | Specify the retention rate | "[specify value]" |
+| `[SKILLS_GROWTH]` | Specify the skills growth | "[specify value]" |
+| `[COLLABORATION_INDEX]` | Specify the collaboration index | "[specify value]" |
+| `[INNOVATION_RATE]` | Specify the innovation rate | "[specify value]" |
+| `[REVENUE_IMPACT]` | Specify the revenue impact | "[specify value]" |
+| `[COST_REDUCTION]` | Specify the cost reduction | "[specify value]" |
+| `[CUSTOMER_NPS]` | Specify the customer nps | "[specify value]" |
+| `[MARKET_RESPONSE]` | Specify the market response | "[specify value]" |
+| `[INNOVATION_PIPELINE]` | Specify the innovation pipeline | "[specify value]" |
+| `[COMPETITIVE_ADV]` | Specify the competitive adv | "[specify value]" |
+| `[TRANSFORM_INVEST]` | Specify the transform invest | "[specify value]" |
+| `[PRODUCTIVITY_GAINS]` | Specify the productivity gains | "[specify value]" |
+| `[QUALITY_SAVINGS]` | Specify the quality savings | "[specify value]" |
+| `[TTM_VALUE]` | Specify the ttm value | "[specify value]" |
+| `[TOTAL_BENEFITS]` | Specify the total benefits | "[specify value]" |
+| `[TRANSFORMATION_ROI]` | Specify the transformation roi | "[specify value]" |
+
+
 
 ### 3. Team Structure & Organization
 

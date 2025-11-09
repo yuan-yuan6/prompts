@@ -1,3 +1,18 @@
+---
+title: Architecture Design Template
+category: technology/Software Development
+tags: [communication, design, security, technology, template]
+use_cases:
+  - Implementing design comprehensive system architectures including distributed systems, apis, d...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - cloud-architecture-framework.md
+  - site-reliability-engineering.md
+  - cloud-migration-strategy.md
+last_updated: 2025-11-09
+---
+
 # Architecture Design Template
 
 ## Purpose
@@ -315,6 +330,203 @@ Security Implementation:
 - Follow PCI DSS compliance requirements
 - Include SIEM monitoring and threat detection measures
 ```
+
+## Variables
+
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `{system_name}` | Specify the system name | "John Smith" |
+| `{system_purpose}` | Specify the system purpose | "[specify value]" |
+| `{business_domain}` | Specify the business domain | "[specify value]" |
+| `{target_users}` | Specify the target users | "[specify value]" |
+| `{expected_load}` | Specify the expected load | "[specify value]" |
+| `{geographic_distribution}` | Specify the geographic distribution | "[specify value]" |
+| `{regulatory_requirements}` | Specify the regulatory requirements | "[specify value]" |
+| `{budget_constraints}` | Specify the budget constraints | "$500,000" |
+| `{timeline}` | Specify the timeline | "6 months" |
+| `{success_metrics}` | Specify the success metrics | "[specify value]" |
+| `{primary_pattern}` | Specify the primary pattern | "[specify value]" |
+| `{secondary_patterns}` | Specify the secondary patterns | "[specify value]" |
+| `{design_principles}` | Specify the design principles | "[specify value]" |
+| `{architecture_style}` | Specify the architecture style | "[specify value]" |
+| `{communication_pattern}` | Specify the communication pattern | "[specify value]" |
+| `{data_flow_pattern}` | Specify the data flow pattern | "[specify value]" |
+| `{integration_pattern}` | Specify the integration pattern | "[specify value]" |
+| `{deployment_pattern}` | Specify the deployment pattern | "[specify value]" |
+| `{security_pattern}` | Specify the security pattern | "[specify value]" |
+| `{resilience_pattern}` | Specify the resilience pattern | "[specify value]" |
+| `{frontend_components}` | Specify the frontend components | "[specify value]" |
+| `{backend_services}` | Specify the backend services | "[specify value]" |
+| `{database_layer}` | Specify the database layer | "[specify value]" |
+| `{cache_layer}` | Specify the cache layer | "[specify value]" |
+| `{message_queue}` | Specify the message queue | "[specify value]" |
+| `{api_gateway}` | Specify the api gateway | "[specify value]" |
+| `{load_balancer}` | Specify the load balancer | "[specify value]" |
+| `{service_mesh}` | Specify the service mesh | "[specify value]" |
+| `{monitoring_system}` | Specify the monitoring system | "[specify value]" |
+| `{security_components}` | Specify the security components | "[specify value]" |
+| `{programming_languages}` | Specify the programming languages | "[specify value]" |
+| `{frontend_framework}` | Specify the frontend framework | "[specify value]" |
+| `{backend_framework}` | Specify the backend framework | "[specify value]" |
+| `{database_technology}` | Specify the database technology | "[specify value]" |
+| `{caching_solution}` | Specify the caching solution | "[specify value]" |
+| `{message_broker}` | Specify the message broker | "[specify value]" |
+| `{container_platform}` | Specify the container platform | "[specify value]" |
+| `{orchestration_tool}` | Specify the orchestration tool | "[specify value]" |
+| `{cloud_provider}` | Specify the cloud provider | "[specify value]" |
+| `{development_tools}` | Specify the development tools | "[specify value]" |
+| `{horizontal_scaling}` | Specify the horizontal scaling | "[specify value]" |
+| `{vertical_scaling}` | Specify the vertical scaling | "[specify value]" |
+| `{auto_scaling}` | Specify the auto scaling | "[specify value]" |
+| `{load_distribution}` | Specify the load distribution | "[specify value]" |
+| `{caching_strategy}` | Specify the caching strategy | "[specify value]" |
+| `{database_sharding}` | Specify the database sharding | "[specify value]" |
+| `{cdn_strategy}` | Specify the cdn strategy | "[specify value]" |
+| `{resource_optimization}` | Specify the resource optimization | "[specify value]" |
+| `{performance_targets}` | Specify the performance targets | "[specify value]" |
+| `{capacity_planning}` | Specify the capacity planning | "[specify value]" |
+| `{authentication_method}` | Specify the authentication method | "[specify value]" |
+| `{authorization_model}` | Specify the authorization model | "[specify value]" |
+| `{data_encryption}` | Specify the data encryption | "[specify value]" |
+| `{network_security}` | Specify the network security | "[specify value]" |
+| `{api_security}` | Specify the api security | "[specify value]" |
+| `{database_security}` | Specify the database security | "[specify value]" |
+| `{infrastructure_security}` | Specify the infrastructure security | "[specify value]" |
+| `{application_security}` | Specify the application security | "[specify value]" |
+| `{monitoring_security}` | Specify the monitoring security | "[specify value]" |
+| `{compliance_framework}` | Specify the compliance framework | "[specify value]" |
+| `{data_model}` | Specify the data model | "[specify value]" |
+| `{database_design}` | Specify the database design | "[specify value]" |
+| `{data_storage}` | Specify the data storage | "[specify value]" |
+| `{data_processing}` | Specify the data processing | "[specify value]" |
+| `{data_integration}` | Specify the data integration | "[specify value]" |
+| `{data_governance}` | Specify the data governance | "[specify value]" |
+| `{data_quality}` | Specify the data quality | "[specify value]" |
+| `{data_backup}` | Specify the data backup | "[specify value]" |
+| `{data_recovery}` | Specify the data recovery | "[specify value]" |
+| `{data_archival}` | Specify the data archival | "[specify value]" |
+| `{api_architecture}` | Specify the api architecture | "[specify value]" |
+| `{api_protocol}` | Specify the api protocol | "[specify value]" |
+| `{api_versioning}` | Specify the api versioning | "[specify value]" |
+| `{api_documentation}` | Specify the api documentation | "[specify value]" |
+| `{rate_limiting}` | Specify the rate limiting | "[specify value]" |
+| `{api_testing}` | Specify the api testing | "[specify value]" |
+| `{api_monitoring}` | Specify the api monitoring | "[specify value]" |
+| `{api_security_measures}` | Specify the api security measures | "[specify value]" |
+| `{api_error_handling}` | Specify the api error handling | "[specify value]" |
+| `{api_response_format}` | Specify the api response format | "[specify value]" |
+| `{service_boundaries}` | Specify the service boundaries | "[specify value]" |
+| `{service_communication}` | Specify the service communication | "[specify value]" |
+| `{service_discovery}` | Specify the service discovery | "[specify value]" |
+| `{circuit_breaker}` | Specify the circuit breaker | "[specify value]" |
+| `{service_mesh_implementation}` | Specify the service mesh implementation | "[specify value]" |
+| `{event_sourcing}` | Specify the event sourcing | "[specify value]" |
+| `{cqrs_pattern}` | Specify the cqrs pattern | "[specify value]" |
+| `{saga_pattern}` | Specify the saga pattern | "[specify value]" |
+| `{bulkhead_pattern}` | Specify the bulkhead pattern | "[specify value]" |
+| `{retry_logic}` | Specify the retry logic | "[specify value]" |
+| `{cloud_architecture}` | Specify the cloud architecture | "[specify value]" |
+| `{network_topology}` | Specify the network topology | "[specify value]" |
+| `{server_configuration}` | Specify the server configuration | "[specify value]" |
+| `{container_strategy}` | Specify the container strategy | "[specify value]" |
+| `{storage_architecture}` | Specify the storage architecture | "[specify value]" |
+| `{backup_strategy}` | Specify the backup strategy | "[specify value]" |
+| `{disaster_recovery}` | Specify the disaster recovery | "[specify value]" |
+| `{high_availability}` | Specify the high availability | "[specify value]" |
+| `{fault_tolerance}` | Specify the fault tolerance | "[specify value]" |
+| `{resource_management}` | Specify the resource management | "[specify value]" |
+| `{deployment_strategy}` | Specify the deployment strategy | "[specify value]" |
+| `{environment_setup}` | Specify the environment setup | "[specify value]" |
+| `{cicd_pipeline_design}` | Specify the cicd pipeline design | "[specify value]" |
+| `{release_management}` | Specify the release management | "[specify value]" |
+| `{blue_green_deployment}` | Specify the blue green deployment | "[specify value]" |
+| `{canary_deployment}` | Specify the canary deployment | "[specify value]" |
+| `{rolling_updates}` | Specify the rolling updates | "2025-01-15" |
+| `{rollback_strategy}` | Specify the rollback strategy | "[specify value]" |
+| `{configuration_management}` | Specify the configuration management | "[specify value]" |
+| `{secrets_management}` | Specify the secrets management | "[specify value]" |
+| `{logging_strategy}` | Specify the logging strategy | "[specify value]" |
+| `{metrics_collection}` | Specify the metrics collection | "[specify value]" |
+| `{distributed_tracing}` | Specify the distributed tracing | "[specify value]" |
+| `{health_checks}` | Specify the health checks | "[specify value]" |
+| `{alerting_system}` | Specify the alerting system | "[specify value]" |
+| `{dashboard_design}` | Specify the dashboard design | "[specify value]" |
+| `{sla_monitoring}` | Specify the sla monitoring | "[specify value]" |
+| `{performance_monitoring}` | Specify the performance monitoring | "[specify value]" |
+| `{error_tracking}` | Specify the error tracking | "[specify value]" |
+| `{business_metrics}` | Specify the business metrics | "[specify value]" |
+| `{external_integrations}` | Specify the external integrations | "[specify value]" |
+| `{third_party_apis}` | Specify the third party apis | "[specify value]" |
+| `{data_synchronization}` | Specify the data synchronization | "[specify value]" |
+| `{event_driven_architecture}` | Specify the event driven architecture | "[specify value]" |
+| `{message_patterns}` | Specify the message patterns | "[specify value]" |
+| `{webhook_management}` | Specify the webhook management | "[specify value]" |
+| `{file_transfer}` | Specify the file transfer | "[specify value]" |
+| `{realtime_communication}` | Specify the realtime communication | "[specify value]" |
+| `{batch_processing}` | Specify the batch processing | "[specify value]" |
+| `{stream_processing}` | Specify the stream processing | "[specify value]" |
+| `{caching_layers}` | Specify the caching layers | "[specify value]" |
+| `{database_optimization}` | Specify the database optimization | "[specify value]" |
+| `{query_optimization}` | Specify the query optimization | "[specify value]" |
+| `{connection_pooling}` | Specify the connection pooling | "[specify value]" |
+| `{lazy_loading}` | Specify the lazy loading | "[specify value]" |
+| `{compression}` | Specify the compression | "[specify value]" |
+| `{minification}` | Specify the minification | "[specify value]" |
+| `{image_optimization}` | Specify the image optimization | "[specify value]" |
+| `{content_delivery}` | Specify the content delivery | "[specify value]" |
+| `{resource_bundling}` | Specify the resource bundling | "[specify value]" |
+| `{availability}` | Specify the availability | "[specify value]" |
+| `{reliability}` | Specify the reliability | "[specify value]" |
+| `{scalability}` | Specify the scalability | "[specify value]" |
+| `{performance}` | Specify the performance | "[specify value]" |
+| `{security}` | Specify the security | "[specify value]" |
+| `{maintainability}` | Specify the maintainability | "[specify value]" |
+| `{testability}` | Specify the testability | "[specify value]" |
+| `{usability}` | Specify the usability | "[specify value]" |
+| `{portability}` | Specify the portability | "[specify value]" |
+| `{interoperability}` | Specify the interoperability | "[specify value]" |
+| `{technical_risks}` | Specify the technical risks | "[specify value]" |
+| `{security_risks}` | Specify the security risks | "[specify value]" |
+| `{performance_risks}` | Specify the performance risks | "[specify value]" |
+| `{scalability_risks}` | Specify the scalability risks | "[specify value]" |
+| `{integration_risks}` | Specify the integration risks | "[specify value]" |
+| `{operational_risks}` | Specify the operational risks | "[specify value]" |
+| `{business_risks}` | Specify the business risks | "[specify value]" |
+| `{mitigation_strategies}` | Specify the mitigation strategies | "[specify value]" |
+| `{contingency_plans}` | Specify the contingency plans | "[specify value]" |
+| `{risk_monitoring}` | Specify the risk monitoring | "[specify value]" |
+| `{architecture_documentation}` | Specify the architecture documentation | "[specify value]" |
+| `{design_decisions}` | Specify the design decisions | "[specify value]" |
+| `{tradeoff_analysis}` | Specify the tradeoff analysis | "[specify value]" |
+| `{implementation_guide}` | Specify the implementation guide | "[specify value]" |
+| `{deployment_guide}` | Specify the deployment guide | "[specify value]" |
+| `{operations_manual}` | Specify the operations manual | "[specify value]" |
+| `{troubleshooting_guide}` | Specify the troubleshooting guide | "[specify value]" |
+| `{api_documentation_details}` | Specify the api documentation details | "[specify value]" |
+| `{database_schema}` | Specify the database schema | "[specify value]" |
+| `{security_guidelines}` | Specify the security guidelines | "[specify value]" |
+| `{unit_testing}` | Specify the unit testing | "[specify value]" |
+| `{integration_testing}` | Specify the integration testing | "[specify value]" |
+| `{end_to_end_testing}` | Specify the end to end testing | "[specify value]" |
+| `{performance_testing}` | Specify the performance testing | "[specify value]" |
+| `{security_testing}` | Specify the security testing | "[specify value]" |
+| `{load_testing}` | Specify the load testing | "[specify value]" |
+| `{stress_testing}` | Specify the stress testing | "[specify value]" |
+| `{chaos_engineering}` | Specify the chaos engineering | "[specify value]" |
+| `{ab_testing}` | Specify the ab testing | "[specify value]" |
+| `{test_automation}` | Specify the test automation | "[specify value]" |
+| `{migration_approach}` | Specify the migration approach | "[specify value]" |
+| `{legacy_system}` | Specify the legacy system | "[specify value]" |
+| `{migration_timeline}` | Specify the migration timeline | "6 months" |
+| `{data_migration}` | Specify the data migration | "[specify value]" |
+| `{cutover_strategy}` | Specify the cutover strategy | "[specify value]" |
+| `{rollback_plan}` | Specify the rollback plan | "[specify value]" |
+| `{parallel_running}` | Specify the parallel running | "[specify value]" |
+| `{user_training}` | Specify the user training | "[specify value]" |
+| `{change_management}` | Specify the change management | "[specify value]" |
+| `{success_criteria}` | Specify the success criteria | "[specify value]" |
+
+
 
 ### Healthcare System Architecture
 ```

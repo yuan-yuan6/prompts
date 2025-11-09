@@ -1,3 +1,17 @@
+---
+title: Ad Copy Template
+category: creative/Marketing Creative
+tags: [automation, communication, creative, data-science, documentation, marketing, research, template]
+use_cases:
+  - Implementing create compelling advertising copy for digital, print, and broadcast media that ...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - creative-writing-framework.md
+  - video-production-pipeline.md
+last_updated: 2025-11-09
+---
+
 # Ad Copy Template
 
 ## Purpose

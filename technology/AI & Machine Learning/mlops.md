@@ -1,3 +1,18 @@
+---
+title: MLOps Template
+category: technology/AI & Machine Learning
+tags: [automation, design, development, machine-learning, management, optimization, security, strategy]
+use_cases:
+  - Implementing implement comprehensive mlops practices including ci/cd pipelines, model monitor...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - cloud-architecture-framework.md
+  - site-reliability-engineering.md
+  - cloud-migration-strategy.md
+last_updated: 2025-11-09
+---
+
 # MLOps Template
 
 ## Purpose
@@ -94,6 +109,63 @@ Infrastructure:
 - Scale with HPA scaling strategy based on CPU/memory
 - Optimize costs with spot instances cost optimization
 ```
+
+## Variables
+
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `{mlops_maturity}` | Specify the mlops maturity | "[specify value]" |
+| `{organization_size}` | Specify the organization size | "[specify value]" |
+| `{mlops_use_cases}` | Specify the mlops use cases | "[specify value]" |
+| `{technology_stack}` | Specify the technology stack | "[specify value]" |
+| `{team_structure}` | Specify the team structure | "[specify value]" |
+| `{mlops_budget}` | Specify the mlops budget | "$500,000" |
+| `{implementation_timeline}` | Specify the implementation timeline | "6 months" |
+| `{mlops_success_metrics}` | Specify the mlops success metrics | "[specify value]" |
+| `{governance_model}` | Specify the governance model | "[specify value]" |
+| `{mlops_compliance}` | Specify the mlops compliance | "[specify value]" |
+| `{experimentation}` | Specify the experimentation | "[specify value]" |
+| `{model_development}` | Specify the model development | "[specify value]" |
+| `{training_pipeline}` | Specify the training pipeline | "[specify value]" |
+| `{validation_pipeline}` | Specify the validation pipeline | "[specify value]" |
+| `{deployment_pipeline}` | Specify the deployment pipeline | "[specify value]" |
+| `{monitoring_pipeline}` | Specify the monitoring pipeline | "[specify value]" |
+| `{retraining_pipeline}` | Specify the retraining pipeline | "[specify value]" |
+| `{model_retirement}` | Specify the model retirement | "[specify value]" |
+| `{lifecycle_versioning}` | Specify the lifecycle versioning | "[specify value]" |
+| `{lifecycle_governance}` | Specify the lifecycle governance | "[specify value]" |
+| `{version_control_system}` | Specify the version control system | "[specify value]" |
+| `{build_process}` | Specify the build process | "[specify value]" |
+| `{testing_strategy}` | Specify the testing strategy | "[specify value]" |
+| `{deployment_strategy}` | Specify the deployment strategy | "[specify value]" |
+| `{environment_management}` | Specify the environment management | "[specify value]" |
+| `{artifact_management}` | Specify the artifact management | "[specify value]" |
+| `{release_management}` | Specify the release management | "[specify value]" |
+| `{rollback_strategy}` | Specify the rollback strategy | "[specify value]" |
+| `{quality_gates}` | Specify the quality gates | "[specify value]" |
+| `{automation_level}` | Specify the automation level | "[specify value]" |
+| `{performance_monitoring}` | Specify the performance monitoring | "[specify value]" |
+| `{data_drift_detection}` | Specify the data drift detection | "[specify value]" |
+| `{model_drift_detection}` | Specify the model drift detection | "[specify value]" |
+| `{feature_monitoring}` | Specify the feature monitoring | "[specify value]" |
+| `{bias_monitoring}` | Specify the bias monitoring | "[specify value]" |
+| `{fairness_monitoring}` | Specify the fairness monitoring | "[specify value]" |
+| `{explainability_monitoring}` | Specify the explainability monitoring | "[specify value]" |
+| `{alert_system}` | Specify the alert system | "[specify value]" |
+| `{monitoring_dashboard}` | Specify the monitoring dashboard | "[specify value]" |
+| `{monitoring_reporting}` | Specify the monitoring reporting | "[specify value]" |
+| `{compute_infrastructure}` | Specify the compute infrastructure | "[specify value]" |
+| `{storage_infrastructure}` | Specify the storage infrastructure | "[specify value]" |
+| `{model_serving}` | Specify the model serving | "[specify value]" |
+| `{scaling_strategy}` | Specify the scaling strategy | "[specify value]" |
+| `{resource_management}` | Specify the resource management | "[specify value]" |
+| `{cost_optimization}` | Specify the cost optimization | "[specify value]" |
+| `{infrastructure_security}` | Specify the infrastructure security | "[specify value]" |
+| `{networking}` | Specify the networking | "[specify value]" |
+| `{backup_strategy}` | Specify the backup strategy | "[specify value]" |
+| `{disaster_recovery}` | Specify the disaster recovery | "[specify value]" |
+
+
 
 ## Best Practices
 

@@ -1,3 +1,14 @@
+---
+title: Risk Management Framework Template Generator
+category: finance
+tags: [design, finance, framework, machine-learning, management, optimization, security, strategy]
+use_cases:
+  - Implementing create comprehensive risk management strategies covering credit risk, market ris...
+  - Project planning and execution
+  - Strategy development
+last_updated: 2025-11-09
+---
+
 # Risk Management Framework Template Generator
 
 ## Purpose

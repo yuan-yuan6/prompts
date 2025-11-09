@@ -1,3 +1,18 @@
+---
+title: Network Analysis and Graphs Template
+category: data-analytics/Research Analytics
+tags: [data-analytics, data-science, design, machine-learning, research, template]
+use_cases:
+  - Implementing perform comprehensive network analysis and graph analytics to understand relatio...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - dashboard-design-patterns.md
+  - data-governance-framework.md
+  - predictive-modeling-framework.md
+last_updated: 2025-11-09
+---
+
 # Network Analysis and Graphs Template
 
 ## Purpose

@@ -1,3 +1,14 @@
+---
+title: Goal Setting Template
+category: personal/Personal Development
+tags: [automation, data-science, development, optimization, personal, research, strategy, template]
+use_cases:
+  - Implementing create comprehensive goal-setting frameworks including objectives, action plans,...
+  - Project planning and execution
+  - Strategy development
+last_updated: 2025-11-09
+---
+
 # Goal Setting Template
 
 ## Purpose

@@ -1,3 +1,17 @@
+---
+title: Digital Exhibition & Virtual Museum Curation Framework
+category: creative/arts-culture
+tags: [creative, design, development, framework, machine-learning, security, strategy, testing]
+use_cases:
+  - Implementing comprehensive framework for curating digital exhibitions and virtual museum expe...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - creative-writing-framework.md
+  - video-production-pipeline.md
+last_updated: 2025-11-09
+---
+
 # Digital Exhibition & Virtual Museum Curation Framework
 
 ## Purpose
@@ -55,6 +69,296 @@ Written Content:
 - Multilingual Content: [MULTILINGUAL]
 - Accessibility Text: [ACCESS_TEXT]
 ```
+
+## Variables
+
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `[INSTITUTION_NAME]` | Name of the institution | "John Smith" |
+| `[COLLECTION_SIZE]` | Specify the collection size | "[specify value]" |
+| `[EXHIBITION_THEME]` | Specify the exhibition theme | "[specify value]" |
+| `[VISITOR_TARGET]` | Target or intended visitor | "[specify value]" |
+| `[ENGAGEMENT_TIME]` | Specify the engagement time | "[specify value]" |
+| `[ACCESSIBILITY_SCORE]` | Specify the accessibility score | "[specify value]" |
+| `[EDUCATIONAL_IMPACT]` | Specify the educational impact | "[specify value]" |
+| `[THEME_CONCEPT]` | Specify the theme concept | "[specify value]" |
+| `[THEME_CONTENT]` | Specify the theme content | "[specify value]" |
+| `[THEME_JOURNEY]` | Specify the theme journey | "[specify value]" |
+| `[THEME_LEARNING]` | Specify the theme learning | "[specify value]" |
+| `[THEME_METRICS]` | Specify the theme metrics | "[specify value]" |
+| `[STORY_CONCEPT]` | Specify the story concept | "[specify value]" |
+| `[STORY_CONTENT]` | Specify the story content | "[specify value]" |
+| `[STORY_JOURNEY]` | Specify the story journey | "[specify value]" |
+| `[STORY_LEARNING]` | Specify the story learning | "[specify value]" |
+| `[STORY_METRICS]` | Specify the story metrics | "[specify value]" |
+| `[SUB_CONCEPT]` | Specify the sub concept | "[specify value]" |
+| `[SUB_CONTENT]` | Specify the sub content | "[specify value]" |
+| `[SUB_JOURNEY]` | Specify the sub journey | "[specify value]" |
+| `[SUB_LEARNING]` | Specify the sub learning | "[specify value]" |
+| `[SUB_METRICS]` | Specify the sub metrics | "[specify value]" |
+| `[CULTURE_CONCEPT]` | Specify the culture concept | "[specify value]" |
+| `[CULTURE_CONTENT]` | Specify the culture content | "[specify value]" |
+| `[CULTURE_JOURNEY]` | Specify the culture journey | "[specify value]" |
+| `[CULTURE_LEARNING]` | Specify the culture learning | "[specify value]" |
+| `[CULTURE_METRICS]` | Specify the culture metrics | "[specify value]" |
+| `[TIMELINE_CONCEPT]` | Timeline or schedule for concept | "6 months" |
+| `[TIMELINE_CONTENT]` | Timeline or schedule for content | "6 months" |
+| `[TIMELINE_JOURNEY]` | Timeline or schedule for journey | "6 months" |
+| `[TIMELINE_LEARNING]` | Timeline or schedule for learning | "6 months" |
+| `[TIMELINE_METRICS]` | Timeline or schedule for metrics | "6 months" |
+| `[CONTEMP_CONCEPT]` | Specify the contemp concept | "[specify value]" |
+| `[CONTEMP_CONTENT]` | Specify the contemp content | "[specify value]" |
+| `[CONTEMP_JOURNEY]` | Specify the contemp journey | "[specify value]" |
+| `[CONTEMP_LEARNING]` | Specify the contemp learning | "[specify value]" |
+| `[CONTEMP_METRICS]` | Specify the contemp metrics | "[specify value]" |
+| `[SCAN_RESOLUTION]` | Specify the scan resolution | "[specify value]" |
+| `[POLYGON_COUNT]` | Specify the polygon count | "10" |
+| `[TEXTURE_QUALITY]` | Specify the texture quality | "[specify value]" |
+| `[FILE_FORMATS]` | Specify the file formats | "[specify value]" |
+| `[METADATA_STANDARDS]` | Specify the metadata standards | "[specify value]" |
+| `[PRESERVATION_PROTO]` | Specify the preservation proto | "[specify value]" |
+| `[IMAGE_RESOLUTION]` | Specify the image resolution | "[specify value]" |
+| `[COLOR_CALIBRATE]` | Specify the color calibrate | "[specify value]" |
+| `[MULTI_ANGLE]` | Specify the multi angle | "[specify value]" |
+| `[GIGAPIXEL]` | Specify the gigapixel | "[specify value]" |
+| `[RTI_IMAGING]` | Specify the rti imaging | "[specify value]" |
+| `[ARCHIVE_STANDARDS]` | Specify the archive standards | "[specify value]" |
+| `[DOCUMENTARY]` | Specify the documentary | "[specify value]" |
+| `[INTERVIEWS]` | Specify the interviews | "[specify value]" |
+| `[CURATOR_TALKS]` | Specify the curator talks | "[specify value]" |
+| `[AUDIO_GUIDES]` | Specify the audio guides | "[specify value]" |
+| `[SOUND_DESIGN]` | Specify the sound design | "[specify value]" |
+| `[MUSIC_COMP]` | Specify the music comp | "[specify value]" |
+| `[OBJECT_LABELS]` | Specify the object labels | "[specify value]" |
+| `[EXTENDED_DESC]` | Specify the extended desc | "[specify value]" |
+| `[SCHOLARLY_ESSAYS]` | Specify the scholarly essays | "[specify value]" |
+| `[EDU_MATERIALS]` | Specify the edu materials | "[specify value]" |
+| `[MULTILINGUAL]` | Specify the multilingual | "[specify value]" |
+| `[ACCESS_TEXT]` | Specify the access text | "[specify value]" |
+| `[NAV_DESIGN]` | Specify the nav design | "[specify value]" |
+| `[NAV_INTERACTION]` | Specify the nav interaction | "[specify value]" |
+| `[NAV_TECH]` | Specify the nav tech | "[specify value]" |
+| `[NAV_TESTING]` | Specify the nav testing | "[specify value]" |
+| `[NAV_OPTIMIZE]` | Specify the nav optimize | "[specify value]" |
+| `[GALLERY_DESIGN]` | Specify the gallery design | "[specify value]" |
+| `[GALLERY_INTERACTION]` | Specify the gallery interaction | "[specify value]" |
+| `[GALLERY_TECH]` | Specify the gallery tech | "[specify value]" |
+| `[GALLERY_TESTING]` | Specify the gallery testing | "[specify value]" |
+| `[GALLERY_OPTIMIZE]` | Specify the gallery optimize | "[specify value]" |
+| `[OBJECT_DESIGN]` | Specify the object design | "[specify value]" |
+| `[OBJECT_INTERACTION]` | Specify the object interaction | "[specify value]" |
+| `[OBJECT_TECH]` | Specify the object tech | "[specify value]" |
+| `[OBJECT_TESTING]` | Specify the object testing | "[specify value]" |
+| `[OBJECT_OPTIMIZE]` | Specify the object optimize | "[specify value]" |
+| `[INFO_DESIGN]` | Specify the info design | "[specify value]" |
+| `[INFO_INTERACTION]` | Specify the info interaction | "[specify value]" |
+| `[INFO_TECH]` | Specify the info tech | "[specify value]" |
+| `[INFO_TESTING]` | Specify the info testing | "[specify value]" |
+| `[INFO_OPTIMIZE]` | Specify the info optimize | "[specify value]" |
+| `[SEARCH_DESIGN]` | Specify the search design | "[specify value]" |
+| `[SEARCH_INTERACTION]` | Specify the search interaction | "[specify value]" |
+| `[SEARCH_TECH]` | Specify the search tech | "[specify value]" |
+| `[SEARCH_TESTING]` | Specify the search testing | "[specify value]" |
+| `[SEARCH_OPTIMIZE]` | Specify the search optimize | "[specify value]" |
+| `[SOCIAL_DESIGN]` | Specify the social design | "[specify value]" |
+| `[SOCIAL_INTERACTION]` | Specify the social interaction | "[specify value]" |
+| `[SOCIAL_TECH]` | Specify the social tech | "[specify value]" |
+| `[SOCIAL_TESTING]` | Specify the social testing | "[specify value]" |
+| `[SOCIAL_OPTIMIZE]` | Specify the social optimize | "[specify value]" |
+| `[VR_ENVIRONMENT]` | Specify the vr environment | "[specify value]" |
+| `[VR_AUDIO]` | Specify the vr audio | "[specify value]" |
+| `[VR_HANDS]` | Specify the vr hands | "[specify value]" |
+| `[VR_MOVEMENT]` | Specify the vr movement | "[specify value]" |
+| `[VR_COMFORT]` | Specify the vr comfort | "[specify value]" |
+| `[VR_PLATFORMS]` | Specify the vr platforms | "[specify value]" |
+| `[AR_PLACEMENT]` | Specify the ar placement | "[specify value]" |
+| `[AR_MARKERS]` | Specify the ar markers | "[specify value]" |
+| `[AR_SURFACES]` | Specify the ar surfaces | "[specify value]" |
+| `[AR_SCALE]` | Specify the ar scale | "[specify value]" |
+| `[AR_OVERLAY]` | Specify the ar overlay | "[specify value]" |
+| `[AR_MOBILE]` | Specify the ar mobile | "[specify value]" |
+| `[MR_HOLOGRAPHIC]` | Specify the mr holographic | "[specify value]" |
+| `[MR_SPATIAL]` | Specify the mr spatial | "[specify value]" |
+| `[MR_GESTURES]` | Specify the mr gestures | "[specify value]" |
+| `[MR_EYETRACK]` | Specify the mr eyetrack | "[specify value]" |
+| `[MR_COLLAB]` | Specify the mr collab | "[specify value]" |
+| `[MR_REMOTE]` | Specify the mr remote | "[specify value]" |
+| `[AI_TOURS]` | Specify the ai tours | "[specify value]" |
+| `[AI_RECOMMEND]` | Specify the ai recommend | "[specify value]" |
+| `[AI_LANGUAGE]` | Specify the ai language | "[specify value]" |
+| `[AI_VISUAL]` | Specify the ai visual | "[specify value]" |
+| `[AI_ANALYTICS]` | Specify the ai analytics | "[specify value]" |
+| `[AI_CHATBOT]` | Specify the ai chatbot | "[specify value]" |
+| `[SCHOOL_AUDIENCE]` | Specify the school audience | "[specify value]" |
+| `[SCHOOL_METHOD]` | Specify the school method | "[specify value]" |
+| `[SCHOOL_FORMAT]` | Specify the school format | "[specify value]" |
+| `[SCHOOL_ASSESS]` | Specify the school assess | "[specify value]" |
+| `[SCHOOL_OUTCOMES]` | Specify the school outcomes | "[specify value]" |
+| `[UNI_AUDIENCE]` | Specify the uni audience | "[specify value]" |
+| `[UNI_METHOD]` | Specify the uni method | "[specify value]" |
+| `[UNI_FORMAT]` | Specify the uni format | "[specify value]" |
+| `[UNI_ASSESS]` | Specify the uni assess | "[specify value]" |
+| `[UNI_OUTCOMES]` | Specify the uni outcomes | "[specify value]" |
+| `[PUBLIC_AUDIENCE]` | Specify the public audience | "[specify value]" |
+| `[PUBLIC_METHOD]` | Specify the public method | "[specify value]" |
+| `[PUBLIC_FORMAT]` | Specify the public format | "[specify value]" |
+| `[PUBLIC_ASSESS]` | Specify the public assess | "[specify value]" |
+| `[PUBLIC_OUTCOMES]` | Specify the public outcomes | "[specify value]" |
+| `[PROF_AUDIENCE]` | Specify the prof audience | "[specify value]" |
+| `[PROF_METHOD]` | Specify the prof method | "[specify value]" |
+| `[PROF_FORMAT]` | Specify the prof format | "[specify value]" |
+| `[PROF_ASSESS]` | Specify the prof assess | "[specify value]" |
+| `[PROF_OUTCOMES]` | Specify the prof outcomes | "[specify value]" |
+| `[FAMILY_AUDIENCE]` | Specify the family audience | "[specify value]" |
+| `[FAMILY_METHOD]` | Specify the family method | "[specify value]" |
+| `[FAMILY_FORMAT]` | Specify the family format | "[specify value]" |
+| `[FAMILY_ASSESS]` | Specify the family assess | "[specify value]" |
+| `[FAMILY_OUTCOMES]` | Specify the family outcomes | "[specify value]" |
+| `[RESEARCH_AUDIENCE]` | Specify the research audience | "[specify value]" |
+| `[RESEARCH_METHOD]` | Specify the research method | "[specify value]" |
+| `[RESEARCH_FORMAT]` | Specify the research format | "[specify value]" |
+| `[RESEARCH_ASSESS]` | Specify the research assess | "[specify value]" |
+| `[RESEARCH_OUTCOMES]` | Specify the research outcomes | "[specify value]" |
+| `[VISUAL_WCAG]` | Specify the visual wcag | "[specify value]" |
+| `[VISUAL_IMPLEMENT]` | Specify the visual implement | "[specify value]" |
+| `[VISUAL_USERS]` | Specify the visual users | "[specify value]" |
+| `[VISUAL_TEST]` | Specify the visual test | "[specify value]" |
+| `[VISUAL_IMPROVE]` | Specify the visual improve | "[specify value]" |
+| `[AUDIO_WCAG]` | Specify the audio wcag | "[specify value]" |
+| `[AUDIO_IMPLEMENT]` | Specify the audio implement | "[specify value]" |
+| `[AUDIO_USERS]` | Specify the audio users | "[specify value]" |
+| `[AUDIO_TEST]` | Specify the audio test | "[specify value]" |
+| `[AUDIO_IMPROVE]` | Specify the audio improve | "[specify value]" |
+| `[MOTOR_WCAG]` | Specify the motor wcag | "[specify value]" |
+| `[MOTOR_IMPLEMENT]` | Specify the motor implement | "[specify value]" |
+| `[MOTOR_USERS]` | Specify the motor users | "[specify value]" |
+| `[MOTOR_TEST]` | Specify the motor test | "[specify value]" |
+| `[MOTOR_IMPROVE]` | Specify the motor improve | "[specify value]" |
+| `[COGNITIVE_WCAG]` | Specify the cognitive wcag | "[specify value]" |
+| `[COGNITIVE_IMPLEMENT]` | Specify the cognitive implement | "[specify value]" |
+| `[COGNITIVE_USERS]` | Specify the cognitive users | "[specify value]" |
+| `[COGNITIVE_TEST]` | Specify the cognitive test | "[specify value]" |
+| `[COGNITIVE_IMPROVE]` | Specify the cognitive improve | "[specify value]" |
+| `[LANGUAGE_WCAG]` | Specify the language wcag | "[specify value]" |
+| `[LANGUAGE_IMPLEMENT]` | Specify the language implement | "[specify value]" |
+| `[LANGUAGE_USERS]` | Specify the language users | "[specify value]" |
+| `[LANGUAGE_TEST]` | Specify the language test | "[specify value]" |
+| `[LANGUAGE_IMPROVE]` | Specify the language improve | "[specify value]" |
+| `[TECH_WCAG]` | Specify the tech wcag | "[specify value]" |
+| `[TECH_IMPLEMENT]` | Specify the tech implement | "[specify value]" |
+| `[TECH_USERS]` | Specify the tech users | "[specify value]" |
+| `[TECH_TEST]` | Specify the tech test | "[specify value]" |
+| `[TECH_IMPROVE]` | Specify the tech improve | "[specify value]" |
+| `[STORY_SHARING]` | Specify the story sharing | "[specify value]" |
+| `[PHOTO_SUBMIT]` | Specify the photo submit | "[specify value]" |
+| `[MEMORY_COLLECT]` | Specify the memory collect | "[specify value]" |
+| `[COMMUNITY_CURATE]` | Specify the community curate | "[specify value]" |
+| `[CROWDSOURCE]` | Specify the crowdsource | "[specify value]" |
+| `[WIKI_CONTRIB]` | Specify the wiki contrib | "[specify value]" |
+| `[FORUMS]` | Specify the forums | "[specify value]" |
+| `[COMMENTS]` | Specify the comments | "[specify value]" |
+| `[SOCIAL_SHARE]` | Specify the social share | "[specify value]" |
+| `[LIVE_EVENTS]` | Specify the live events | "[specify value]" |
+| `[VIRTUAL_TOURS]` | Specify the virtual tours | "[specify value]" |
+| `[COLLAB_PROJECTS]` | Specify the collab projects | "[specify value]" |
+| `[COMMUNITY_PARTNERS]` | Specify the community partners | "[specify value]" |
+| `[SCHOOL_PARTNERS]` | Specify the school partners | "[specify value]" |
+| `[CULTURAL_ORGS]` | Specify the cultural orgs | "[specify value]" |
+| `[INTL_COLLAB]` | Specify the intl collab | "[specify value]" |
+| `[ARTIST_RESIDENT]` | Specify the artist resident | "[specify value]" |
+| `[VOLUNTEER_PROG]` | Specify the volunteer prog | "[specify value]" |
+| `[VISITOR_SURVEYS]` | Specify the visitor surveys | "[specify value]" |
+| `[ANALYTICS_TRACK]` | Specify the analytics track | "[specify value]" |
+| `[FOCUS_GROUPS]` | Specify the focus groups | "[specify value]" |
+| `[BETA_TEST]` | Specify the beta test | "[specify value]" |
+| `[ADVISORY_BOARDS]` | Specify the advisory boards | "[specify value]" |
+| `[CONTINUOUS_DIALOG]` | Specify the continuous dialog | "[specify value]" |
+| `[CMS_ARCH]` | Specify the cms arch | "[specify value]" |
+| `[CMS_PERFORM]` | Specify the cms perform | "[specify value]" |
+| `[CMS_SCALE]` | Specify the cms scale | "[specify value]" |
+| `[CMS_SECURITY]` | Specify the cms security | "[specify value]" |
+| `[CMS_MAINTAIN]` | Specify the cms maintain | "[specify value]" |
+| `[MEDIA_ARCH]` | Specify the media arch | "[specify value]" |
+| `[MEDIA_PERFORM]` | Specify the media perform | "[specify value]" |
+| `[MEDIA_SCALE]` | Specify the media scale | "[specify value]" |
+| `[MEDIA_SECURITY]` | Specify the media security | "[specify value]" |
+| `[MEDIA_MAINTAIN]` | Specify the media maintain | "[specify value]" |
+| `[DB_ARCH]` | Specify the db arch | "[specify value]" |
+| `[DB_PERFORM]` | Specify the db perform | "[specify value]" |
+| `[DB_SCALE]` | Specify the db scale | "[specify value]" |
+| `[DB_SECURITY]` | Specify the db security | "[specify value]" |
+| `[DB_MAINTAIN]` | Specify the db maintain | "[specify value]" |
+| `[API_ARCH]` | Specify the api arch | "[specify value]" |
+| `[API_PERFORM]` | Specify the api perform | "[specify value]" |
+| `[API_SCALE]` | Specify the api scale | "[specify value]" |
+| `[API_SECURITY]` | Specify the api security | "[specify value]" |
+| `[API_MAINTAIN]` | Specify the api maintain | "[specify value]" |
+| `[CLOUD_ARCH]` | Specify the cloud arch | "[specify value]" |
+| `[CLOUD_PERFORM]` | Specify the cloud perform | "[specify value]" |
+| `[CLOUD_SCALE]` | Specify the cloud scale | "[specify value]" |
+| `[CLOUD_SECURITY]` | Specify the cloud security | "[specify value]" |
+| `[CLOUD_MAINTAIN]` | Specify the cloud maintain | "[specify value]" |
+| `[MOBILE_ARCH]` | Specify the mobile arch | "[specify value]" |
+| `[MOBILE_PERFORM]` | Specify the mobile perform | "[specify value]" |
+| `[MOBILE_SCALE]` | Specify the mobile scale | "[specify value]" |
+| `[MOBILE_SECURITY]` | Specify the mobile security | "[specify value]" |
+| `[MOBILE_MAINTAIN]` | Specify the mobile maintain | "[specify value]" |
+| `[DIGITAL_DEMO]` | Specify the digital demo | "[specify value]" |
+| `[DIGITAL_CONTENT]` | Specify the digital content | "[specify value]" |
+| `[DIGITAL_BUDGET]` | Budget allocation for digital | "$500,000" |
+| `[DIGITAL_GOALS]` | Specify the digital goals | "Increase efficiency by 30%" |
+| `[DIGITAL_ROI]` | Specify the digital roi | "[specify value]" |
+| `[SOCIAL_DEMO]` | Specify the social demo | "[specify value]" |
+| `[SOCIAL_CONTENT]` | Specify the social content | "[specify value]" |
+| `[SOCIAL_BUDGET]` | Budget allocation for social | "$500,000" |
+| `[SOCIAL_GOALS]` | Specify the social goals | "Increase efficiency by 30%" |
+| `[SOCIAL_ROI]` | Specify the social roi | "[specify value]" |
+| `[EMAIL_DEMO]` | Specify the email demo | "john.smith@example.com" |
+| `[EMAIL_CONTENT]` | Specify the email content | "john.smith@example.com" |
+| `[EMAIL_BUDGET]` | Budget allocation for email | "john.smith@example.com" |
+| `[EMAIL_GOALS]` | Specify the email goals | "john.smith@example.com" |
+| `[EMAIL_ROI]` | Specify the email roi | "john.smith@example.com" |
+| `[PARTNER_DEMO]` | Specify the partner demo | "[specify value]" |
+| `[PARTNER_CONTENT]` | Specify the partner content | "[specify value]" |
+| `[PARTNER_BUDGET]` | Budget allocation for partner | "$500,000" |
+| `[PARTNER_GOALS]` | Specify the partner goals | "Increase efficiency by 30%" |
+| `[PARTNER_ROI]` | Specify the partner roi | "[specify value]" |
+| `[PRESS_DEMO]` | Specify the press demo | "[specify value]" |
+| `[PRESS_CONTENT]` | Specify the press content | "[specify value]" |
+| `[PRESS_BUDGET]` | Budget allocation for press | "$500,000" |
+| `[PRESS_GOALS]` | Specify the press goals | "Increase efficiency by 30%" |
+| `[PRESS_ROI]` | Specify the press roi | "[specify value]" |
+| `[INFLUENCER_DEMO]` | Specify the influencer demo | "[specify value]" |
+| `[INFLUENCER_CONTENT]` | Specify the influencer content | "[specify value]" |
+| `[INFLUENCER_BUDGET]` | Budget allocation for influencer | "$500,000" |
+| `[INFLUENCER_GOALS]` | Specify the influencer goals | "Increase efficiency by 30%" |
+| `[INFLUENCER_ROI]` | Specify the influencer roi | "[specify value]" |
+| `[FORMAT_STANDARDS]` | Specify the format standards | "[specify value]" |
+| `[MIGRATION_PLAN]` | Specify the migration plan | "[specify value]" |
+| `[REDUNDANCY]` | Specify the redundancy | "[specify value]" |
+| `[VERSION_CONTROL]` | Specify the version control | "[specify value]" |
+| `[METADATA_PRESERVE]` | Specify the metadata preserve | "[specify value]" |
+| `[LONGTERM_STORAGE]` | Specify the longterm storage | "[specify value]" |
+| `[REVENUE_MODELS]` | Specify the revenue models | "[specify value]" |
+| `[SPONSORSHIP]` | Specify the sponsorship | "[specify value]" |
+| `[MEMBERSHIP]` | Specify the membership | "[specify value]" |
+| `[GRANT_FUNDING]` | Specify the grant funding | "[specify value]" |
+| `[MERCHANDISE]` | Specify the merchandise | "[specify value]" |
+| `[LICENSING]` | Specify the licensing | "[specify value]" |
+| `[REFRESH_SCHEDULE]` | Specify the refresh schedule | "[specify value]" |
+| `[NEW_ACQUISITIONS]` | Specify the new acquisitions | "[specify value]" |
+| `[ROTATING_EXHIBITS]` | Specify the rotating exhibits | "[specify value]" |
+| `[SEASONAL_PROG]` | Specify the seasonal prog | "[specify value]" |
+| `[TECH_UPDATES]` | Specify the tech updates | "2025-01-15" |
+| `[PLATFORM_EVOLVE]` | Specify the platform evolve | "[specify value]" |
+| `[VISITOR_ANALYTICS]` | Specify the visitor analytics | "[specify value]" |
+| `[LEARNING_ASSESS]` | Specify the learning assess | "[specify value]" |
+| `[CULTURAL_IMPACT]` | Specify the cultural impact | "[specify value]" |
+| `[ECONOMIC_VALUE]` | Specify the economic value | "[specify value]" |
+| `[SOCIAL_BENEFITS]` | Specify the social benefits | "[specify value]" |
+| `[RESEARCH_CONTRIB]` | Specify the research contrib | "[specify value]" |
+
+
 
 ### 3. Interactive Design & User Experience
 

@@ -1,3 +1,18 @@
+---
+title: Algorithm Selection Template
+category: technology/AI & Machine Learning
+tags: [data-science, design, machine-learning, optimization, research, technology, template]
+use_cases:
+  - Implementing systematic approach to selecting optimal machine learning algorithms for classif...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - cloud-architecture-framework.md
+  - site-reliability-engineering.md
+  - cloud-migration-strategy.md
+last_updated: 2025-11-09
+---
+
 # Algorithm Selection Template
 
 ## Purpose
@@ -100,6 +115,63 @@ Selection Criteria:
 - Scale to 10M+ users scalability requirements
 - Handle new users/items robustness requirements
 ```
+
+## Variables
+
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `{problem_type}` | Specify the problem type | "Standard" |
+| `{business_objective}` | Specify the business objective | "Increase efficiency by 30%" |
+| `{success_metrics}` | Specify the success metrics | "[specify value]" |
+| `{data_characteristics}` | Specify the data characteristics | "[specify value]" |
+| `{performance_requirements}` | Specify the performance requirements | "[specify value]" |
+| `{resource_constraints}` | Specify the resource constraints | "[specify value]" |
+| `{interpretability_requirements}` | Specify the interpretability requirements | "[specify value]" |
+| `{deployment_constraints}` | Specify the deployment constraints | "[specify value]" |
+| `{selection_timeline}` | Specify the selection timeline | "6 months" |
+| `{selection_budget}` | Specify the selection budget | "$500,000" |
+| `{dataset_size}` | Specify the dataset size | "[specify value]" |
+| `{feature_count}` | Specify the feature count | "10" |
+| `{data_types}` | Specify the data types | "Standard" |
+| `{missing_values}` | Specify the missing values | "[specify value]" |
+| `{noise_level}` | Specify the noise level | "[specify value]" |
+| `{outliers}` | Specify the outliers | "[specify value]" |
+| `{class_distribution}` | Specify the class distribution | "[specify value]" |
+| `{feature_correlation}` | Specify the feature correlation | "[specify value]" |
+| `{dimensionality}` | Specify the dimensionality | "[specify value]" |
+| `{temporal_aspects}` | Specify the temporal aspects | "[specify value]" |
+| `{supervised_algorithms}` | Specify the supervised algorithms | "[specify value]" |
+| `{unsupervised_algorithms}` | Specify the unsupervised algorithms | "[specify value]" |
+| `{semi_supervised_algorithms}` | Specify the semi supervised algorithms | "[specify value]" |
+| `{reinforcement_algorithms}` | Specify the reinforcement algorithms | "[specify value]" |
+| `{deep_learning_algorithms}` | Specify the deep learning algorithms | "[specify value]" |
+| `{ensemble_methods}` | Specify the ensemble methods | "[specify value]" |
+| `{online_learning_algorithms}` | Specify the online learning algorithms | "[specify value]" |
+| `{transfer_learning}` | Specify the transfer learning | "[specify value]" |
+| `{few_shot_learning}` | Specify the few shot learning | "[specify value]" |
+| `{meta_learning}` | Specify the meta learning | "[specify value]" |
+| `{accuracy_requirements}` | Specify the accuracy requirements | "[specify value]" |
+| `{training_time_constraints}` | Specify the training time constraints | "[specify value]" |
+| `{inference_time_constraints}` | Specify the inference time constraints | "[specify value]" |
+| `{memory_requirements}` | Specify the memory requirements | "[specify value]" |
+| `{interpretability_needs}` | Specify the interpretability needs | "[specify value]" |
+| `{scalability_requirements}` | Specify the scalability requirements | "[specify value]" |
+| `{robustness_requirements}` | Specify the robustness requirements | "[specify value]" |
+| `{implementation_complexity}` | Specify the implementation complexity | "[specify value]" |
+| `{maintenance_effort}` | Specify the maintenance effort | "[specify value]" |
+| `{cost_constraints}` | Specify the cost constraints | "[specify value]" |
+| `{evaluation_metrics}` | Specify the evaluation metrics | "[specify value]" |
+| `{cross_validation_strategy}` | Specify the cross validation strategy | "[specify value]" |
+| `{data_split_strategy}` | Specify the data split strategy | "[specify value]" |
+| `{baseline_models}` | Specify the baseline models | "[specify value]" |
+| `{statistical_tests}` | Specify the statistical tests | "[specify value]" |
+| `{ab_testing_strategy}` | Specify the ab testing strategy | "[specify value]" |
+| `{performance_benchmarks}` | Specify the performance benchmarks | "[specify value]" |
+| `{bias_evaluation}` | Specify the bias evaluation | "[specify value]" |
+| `{fairness_metrics}` | Specify the fairness metrics | "[specify value]" |
+| `{robustness_testing}` | Specify the robustness testing | "[specify value]" |
+
+
 
 ## Best Practices
 

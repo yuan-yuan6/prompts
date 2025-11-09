@@ -1,3 +1,18 @@
+---
+title: Publication Preparation Template
+category: healthcare/Medical Research
+tags: [automation, communication, design, documentation, healthcare, research, template]
+use_cases:
+  - Implementing create comprehensive manuscripts, abstracts, posters, and presentations for medi...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - telemedicine-platform-design.md
+  - patient-care-pathway.md
+  - clinical-trials-management.md
+last_updated: 2025-11-09
+---
+
 # Publication Preparation Template
 
 ## Purpose

@@ -1,3 +1,17 @@
+---
+title: Email Marketing Comprehensive Template Generator
+category: creative/Marketing Creative
+tags: [automation, comprehensive, creative, management, marketing, optimization, security, strategy]
+use_cases:
+  - Implementing create comprehensive email marketing solutions covering newsletters, drip campai...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - creative-writing-framework.md
+  - video-production-pipeline.md
+last_updated: 2025-11-09
+---
+
 # Email Marketing Comprehensive Template Generator
 
 ## Purpose

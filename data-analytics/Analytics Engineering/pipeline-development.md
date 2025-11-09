@@ -1,3 +1,18 @@
+---
+title: Pipeline Development & Orchestration Template
+category: data-analytics/Analytics Engineering
+tags: [automation, data-analytics, design, development, machine-learning, security, strategy, template]
+use_cases:
+  - Implementing design comprehensive etl/elt pipeline development strategies including data inge...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - dashboard-design-patterns.md
+  - data-governance-framework.md
+  - predictive-modeling-framework.md
+last_updated: 2025-11-09
+---
+
 # Pipeline Development & Orchestration Template
 
 ## Purpose

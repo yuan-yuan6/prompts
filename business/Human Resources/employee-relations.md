@@ -1,3 +1,18 @@
+---
+title: Employee Relations Template Generator
+category: business/Human Resources
+tags: [business, communication, development, management, strategy, template]
+use_cases:
+  - Implementing create comprehensive employee relations strategies covering communication, cultu...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - okr-implementation-framework.md
+  - digital-transformation-roadmap.md
+  - lean-six-sigma-implementation.md
+last_updated: 2025-11-09
+---
+
 # Employee Relations Template Generator
 
 ## Purpose

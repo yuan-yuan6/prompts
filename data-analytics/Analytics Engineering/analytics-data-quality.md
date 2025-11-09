@@ -1,3 +1,18 @@
+---
+title: Data Quality & Validation Template
+category: data-analytics/Analytics Engineering
+tags: [automation, data-analytics, design, machine-learning, management, security, strategy, template]
+use_cases:
+  - Implementing design comprehensive data quality validation frameworks including data profiling...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - dashboard-design-patterns.md
+  - data-governance-framework.md
+  - predictive-modeling-framework.md
+last_updated: 2025-11-09
+---
+
 # Data Quality & Validation Template
 
 ## Purpose

@@ -1,3 +1,17 @@
+---
+title: Article Writing Template
+category: creative/Content Creation
+tags: [communication, creative, design, documentation, optimization, research, strategy, template]
+use_cases:
+  - Implementing create compelling articles, blog posts, news stories, and feature pieces with en...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - creative-writing-framework.md
+  - video-production-pipeline.md
+last_updated: 2025-11-09
+---
+
 # Article Writing Template
 
 ## Purpose
@@ -118,6 +132,64 @@ SEO Optimization:
 - Optimize "Learn how to successfully implement AI in your business with proven strategies" meta description
 - Add links to related articles internal links and AI vendor sites external links
 ```
+
+## Variables
+
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `{article_title}` | Specify the article title | "[specify value]" |
+| `{article_type}` | Specify the article type | "Standard" |
+| `{topic}` | Specify the topic | "[specify value]" |
+| `{target_audience}` | Specify the target audience | "[specify value]" |
+| `{publication}` | Specify the publication | "[specify value]" |
+| `{word_count}` | Specify the word count | "10" |
+| `{article_deadline}` | Specify the article deadline | "[specify value]" |
+| `{seo_requirements}` | Specify the seo requirements | "[specify value]" |
+| `{content_goals}` | Specify the content goals | "Increase efficiency by 30%" |
+| `{editorial_guidelines}` | Specify the editorial guidelines | "[specify value]" |
+| `{main_angle}` | Specify the main angle | "[specify value]" |
+| `{key_messages}` | Specify the key messages | "[specify value]" |
+| `{unique_value_proposition}` | Specify the unique value proposition | "[specify value]" |
+| `{supporting_arguments}` | Specify the supporting arguments | "[specify value]" |
+| `{evidence_types}` | Specify the evidence types | "Standard" |
+| `{expert_sources}` | Specify the expert sources | "[specify value]" |
+| `{research_requirements}` | Specify the research requirements | "[specify value]" |
+| `{data_sources}` | Specify the data sources | "[specify value]" |
+| `{fact_checking}` | Specify the fact checking | "[specify value]" |
+| `{citation_style}` | Specify the citation style | "[specify value]" |
+| `{article_structure}` | Specify the article structure | "[specify value]" |
+| `{hook_type}` | Specify the hook type | "Standard" |
+| `{introduction_style}` | Specify the introduction style | "[specify value]" |
+| `{body_organization}` | Specify the body organization | "[specify value]" |
+| `{conclusion_style}` | Specify the conclusion style | "[specify value]" |
+| `{call_to_action}` | Specify the call to action | "[specify value]" |
+| `{subheadings}` | Specify the subheadings | "[specify value]" |
+| `{bullet_points}` | Specify the bullet points | "[specify value]" |
+| `{visual_elements}` | Specify the visual elements | "[specify value]" |
+| `{formatting_style}` | Specify the formatting style | "[specify value]" |
+| `{article_tone}` | Specify the article tone | "[specify value]" |
+| `{article_voice}` | Specify the article voice | "[specify value]" |
+| `{article_writing_style}` | Specify the article writing style | "[specify value]" |
+| `{article_language_level}` | Specify the article language level | "[specify value]" |
+| `{sentence_length}` | Specify the sentence length | "[specify value]" |
+| `{paragraph_length}` | Specify the paragraph length | "[specify value]" |
+| `{readability_score}` | Specify the readability score | "[specify value]" |
+| `{industry_jargon}` | Specify the industry jargon | "Technology" |
+| `{humor_level}` | Specify the humor level | "[specify value]" |
+| `{personal_experience}` | Specify the personal experience | "[specify value]" |
+| `{primary_keywords}` | Specify the primary keywords | "[specify value]" |
+| `{secondary_keywords}` | Specify the secondary keywords | "[specify value]" |
+| `{long_tail_keywords}` | Specify the long tail keywords | "[specify value]" |
+| `{keyword_density}` | Specify the keyword density | "[specify value]" |
+| `{meta_description}` | Specify the meta description | "[specify value]" |
+| `{title_tag}` | Specify the title tag | "[specify value]" |
+| `{header_tags}` | Specify the header tags | "[specify value]" |
+| `{internal_links}` | Specify the internal links | "https://example.com" |
+| `{external_links}` | Specify the external links | "https://example.com" |
+| `{image_alt_text}` | Specify the image alt text | "[specify value]" |
+| `{language_level}` | Specify the language level | "[specify value]" |
+
+
 
 ## Best Practices
 

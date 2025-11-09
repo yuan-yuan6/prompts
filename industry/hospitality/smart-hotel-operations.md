@@ -1,3 +1,14 @@
+---
+title: Smart Hotel Operations & Guest Experience Framework
+category: industry/hospitality
+tags: [automation, framework, industry, management, optimization, security, strategy]
+use_cases:
+  - Implementing comprehensive framework for implementing smart hotel technologies and operations...
+  - Project planning and execution
+  - Strategy development
+last_updated: 2025-11-09
+---
+
 # Smart Hotel Operations & Guest Experience Framework
 
 ## Purpose
@@ -55,6 +66,295 @@ Check-Out & Post-Stay:
 - Return Booking: [RETURN_BOOK]
 - Social Sharing: [SOCIAL_SHARE]
 ```
+
+## Variables
+
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `[PROPERTY_NAME]` | Name of the property | "John Smith" |
+| `[ROOM_COUNT]` | Specify the room count | "10" |
+| `[OCCUPANCY_TARGET]` | Target or intended occupancy | "[specify value]" |
+| `[TECH_STACK]` | Specify the tech stack | "[specify value]" |
+| `[GUEST_SATISFACTION]` | Specify the guest satisfaction | "[specify value]" |
+| `[REVENUE_INCREASE]` | Specify the revenue increase | "[specify value]" |
+| `[OPERATIONAL_EFFICIENCY]` | Specify the operational efficiency | "[specify value]" |
+| `[CONTROL_CURRENT]` | Specify the control current | "[specify value]" |
+| `[CONTROL_SMART]` | Specify the control smart | "[specify value]" |
+| `[CONTROL_BENEFITS]` | Specify the control benefits | "[specify value]" |
+| `[CONTROL_IMPACT]` | Specify the control impact | "[specify value]" |
+| `[CONTROL_ROI]` | Specify the control roi | "[specify value]" |
+| `[CLIMATE_CURRENT]` | Specify the climate current | "[specify value]" |
+| `[CLIMATE_SMART]` | Specify the climate smart | "[specify value]" |
+| `[CLIMATE_BENEFITS]` | Specify the climate benefits | "[specify value]" |
+| `[CLIMATE_IMPACT]` | Specify the climate impact | "[specify value]" |
+| `[CLIMATE_ROI]` | Specify the climate roi | "[specify value]" |
+| `[ENTERTAIN_CURRENT]` | Specify the entertain current | "[specify value]" |
+| `[ENTERTAIN_SMART]` | Specify the entertain smart | "[specify value]" |
+| `[ENTERTAIN_BENEFITS]` | Specify the entertain benefits | "[specify value]" |
+| `[ENTERTAIN_IMPACT]` | Specify the entertain impact | "[specify value]" |
+| `[ENTERTAIN_ROI]` | Specify the entertain roi | "[specify value]" |
+| `[LIGHTING_CURRENT]` | Specify the lighting current | "[specify value]" |
+| `[LIGHTING_SMART]` | Specify the lighting smart | "[specify value]" |
+| `[LIGHTING_BENEFITS]` | Specify the lighting benefits | "[specify value]" |
+| `[LIGHTING_IMPACT]` | Specify the lighting impact | "[specify value]" |
+| `[LIGHTING_ROI]` | Specify the lighting roi | "[specify value]" |
+| `[SECURITY_CURRENT]` | Specify the security current | "[specify value]" |
+| `[SECURITY_SMART]` | Specify the security smart | "[specify value]" |
+| `[SECURITY_BENEFITS]` | Specify the security benefits | "[specify value]" |
+| `[SECURITY_IMPACT]` | Specify the security impact | "[specify value]" |
+| `[SECURITY_ROI]` | Specify the security roi | "[specify value]" |
+| `[VOICE_CURRENT]` | Specify the voice current | "[specify value]" |
+| `[VOICE_SMART]` | Specify the voice smart | "[specify value]" |
+| `[VOICE_BENEFITS]` | Specify the voice benefits | "[specify value]" |
+| `[VOICE_IMPACT]` | Specify the voice impact | "[specify value]" |
+| `[VOICE_ROI]` | Specify the voice roi | "[specify value]" |
+| `[DYNAMIC_PRICING]` | Specify the dynamic pricing | "[specify value]" |
+| `[PERSONAL_AI]` | Specify the personal ai | "[specify value]" |
+| `[VIRTUAL_TOURS]` | Specify the virtual tours | "[specify value]" |
+| `[UPSELL_PLATFORM]` | Specify the upsell platform | "[specify value]" |
+| `[TRAVEL_PLAN]` | Specify the travel plan | "[specify value]" |
+| `[PREF_COLLECT]` | Specify the pref collect | "[specify value]" |
+| `[MOBILE_CHECKIN]` | Specify the mobile checkin | "[specify value]" |
+| `[KIOSK_SYSTEM]` | Specify the kiosk system | "[specify value]" |
+| `[DIGITAL_KEYS]` | Specify the digital keys | "[specify value]" |
+| `[ID_VERIFY]` | Specify the id verify | "[specify value]" |
+| `[ROOM_SELECT]` | Specify the room select | "[specify value]" |
+| `[EXPRESS_PROCESS]` | Specify the express process | "[specify value]" |
+| `[MOBILE_CONCIERGE]` | Specify the mobile concierge | "[specify value]" |
+| `[ROOM_SERVICE_APP]` | Specify the room service app | "[specify value]" |
+| `[ACTIVITY_BOOK]` | Specify the activity book | "[specify value]" |
+| `[SPA_RESTAURANT]` | Specify the spa restaurant | "[specify value]" |
+| `[HOUSEKEEP_REQUEST]` | Specify the housekeep request | "[specify value]" |
+| `[MAINTENANCE_ALERT]` | Specify the maintenance alert | "[specify value]" |
+| `[EXPRESS_CHECKOUT]` | Specify the express checkout | "[specify value]" |
+| `[DIGITAL_RECEIPT]` | Specify the digital receipt | "[specify value]" |
+| `[LOYALTY_POINTS]` | Specify the loyalty points | "[specify value]" |
+| `[FEEDBACK_COLLECT]` | Specify the feedback collect | "[specify value]" |
+| `[RETURN_BOOK]` | Specify the return book | "[specify value]" |
+| `[SOCIAL_SHARE]` | Specify the social share | "[specify value]" |
+| `[ROOM_CURRENT]` | Specify the room current | "[specify value]" |
+| `[ROOM_STRATEGY]` | Strategy or approach for room | "[specify value]" |
+| `[ROOM_TOOLS]` | Specify the room tools | "[specify value]" |
+| `[ROOM_TARGET]` | Target or intended room | "[specify value]" |
+| `[ROOM_COST]` | Specify the room cost | "[specify value]" |
+| `[FB_CURRENT]` | Specify the fb current | "[specify value]" |
+| `[FB_STRATEGY]` | Strategy or approach for fb | "[specify value]" |
+| `[FB_TOOLS]` | Specify the fb tools | "[specify value]" |
+| `[FB_TARGET]` | Target or intended fb | "[specify value]" |
+| `[FB_COST]` | Specify the fb cost | "[specify value]" |
+| `[EVENT_CURRENT]` | Specify the event current | "[specify value]" |
+| `[EVENT_STRATEGY]` | Strategy or approach for event | "[specify value]" |
+| `[EVENT_TOOLS]` | Specify the event tools | "[specify value]" |
+| `[EVENT_TARGET]` | Target or intended event | "[specify value]" |
+| `[EVENT_COST]` | Specify the event cost | "[specify value]" |
+| `[SPA_CURRENT]` | Specify the spa current | "[specify value]" |
+| `[SPA_STRATEGY]` | Strategy or approach for spa | "[specify value]" |
+| `[SPA_TOOLS]` | Specify the spa tools | "[specify value]" |
+| `[SPA_TARGET]` | Target or intended spa | "[specify value]" |
+| `[SPA_COST]` | Specify the spa cost | "[specify value]" |
+| `[ANCILLARY_CURRENT]` | Specify the ancillary current | "[specify value]" |
+| `[ANCILLARY_STRATEGY]` | Strategy or approach for ancillary | "[specify value]" |
+| `[ANCILLARY_TOOLS]` | Specify the ancillary tools | "[specify value]" |
+| `[ANCILLARY_TARGET]` | Target or intended ancillary | "[specify value]" |
+| `[ANCILLARY_COST]` | Specify the ancillary cost | "[specify value]" |
+| `[RETAIL_CURRENT]` | Specify the retail current | "[specify value]" |
+| `[RETAIL_STRATEGY]` | Strategy or approach for retail | "[specify value]" |
+| `[RETAIL_TOOLS]` | Specify the retail tools | "[specify value]" |
+| `[RETAIL_TARGET]` | Target or intended retail | "[specify value]" |
+| `[RETAIL_COST]` | Specify the retail cost | "[specify value]" |
+| `[PMS_SELECTION]` | Specify the pms selection | "[specify value]" |
+| `[CLOUD_ARCH]` | Specify the cloud arch | "[specify value]" |
+| `[API_INTEGRATE]` | Specify the api integrate | "[specify value]" |
+| `[DATA_MANAGE]` | Specify the data manage | "[specify value]" |
+| `[SECURITY_PROTO]` | Specify the security proto | "[specify value]" |
+| `[BACKUP_SYSTEM]` | Specify the backup system | "[specify value]" |
+| `[OTA_CONNECT]` | Specify the ota connect | "[specify value]" |
+| `[DIRECT_BOOK]` | Specify the direct book | "[specify value]" |
+| `[GDS_INTEGRATE]` | Specify the gds integrate | "[specify value]" |
+| `[METASEARCH]` | Specify the metasearch | "[specify value]" |
+| `[SOCIAL_CHANNELS]` | Specify the social channels | "[specify value]" |
+| `[RATE_PARITY]` | Specify the rate parity | "[specify value]" |
+| `[HOUSEKEEP_SYSTEM]` | Specify the housekeep system | "[specify value]" |
+| `[MAINTAIN_MANAGE]` | Specify the maintain manage | "[specify value]" |
+| `[INVENTORY_CONTROL]` | Specify the inventory control | "[specify value]" |
+| `[STAFF_SCHEDULE]` | Specify the staff schedule | "[specify value]" |
+| `[ENERGY_MANAGE]` | Specify the energy manage | "[specify value]" |
+| `[SECURITY_SYSTEMS]` | Specify the security systems | "[specify value]" |
+| `[POS_INTEGRATE]` | Specify the pos integrate | "[specify value]" |
+| `[ACCOUNTING_SOFT]` | Specify the accounting soft | "10" |
+| `[PAYMENT_PROCESS]` | Specify the payment process | "[specify value]" |
+| `[REVENUE_ANALYTICS]` | Specify the revenue analytics | "[specify value]" |
+| `[BUDGET_MANAGE]` | Budget allocation for manage | "$500,000" |
+| `[REPORT_DASHBOARD]` | Specify the report dashboard | "[specify value]" |
+| `[FRONT_CURRENT]` | Specify the front current | "[specify value]" |
+| `[FRONT_DIGITAL]` | Specify the front digital | "[specify value]" |
+| `[FRONT_TRAINING]` | Specify the front training | "[specify value]" |
+| `[FRONT_EFFICIENCY]` | Specify the front efficiency | "[specify value]" |
+| `[FRONT_SERVICE]` | Specify the front service | "[specify value]" |
+| `[HOUSE_CURRENT]` | Specify the house current | "[specify value]" |
+| `[HOUSE_DIGITAL]` | Specify the house digital | "[specify value]" |
+| `[HOUSE_TRAINING]` | Specify the house training | "[specify value]" |
+| `[HOUSE_EFFICIENCY]` | Specify the house efficiency | "[specify value]" |
+| `[HOUSE_SERVICE]` | Specify the house service | "[specify value]" |
+| `[FB_DIGITAL]` | Specify the fb digital | "[specify value]" |
+| `[FB_TRAINING]` | Specify the fb training | "[specify value]" |
+| `[FB_EFFICIENCY]` | Specify the fb efficiency | "[specify value]" |
+| `[FB_SERVICE]` | Specify the fb service | "[specify value]" |
+| `[MAINT_CURRENT]` | Specify the maint current | "[specify value]" |
+| `[MAINT_DIGITAL]` | Specify the maint digital | "[specify value]" |
+| `[MAINT_TRAINING]` | Specify the maint training | "[specify value]" |
+| `[MAINT_EFFICIENCY]` | Specify the maint efficiency | "[specify value]" |
+| `[MAINT_SERVICE]` | Specify the maint service | "[specify value]" |
+| `[CONC_CURRENT]` | Specify the conc current | "[specify value]" |
+| `[CONC_DIGITAL]` | Specify the conc digital | "[specify value]" |
+| `[CONC_TRAINING]` | Specify the conc training | "[specify value]" |
+| `[CONC_EFFICIENCY]` | Specify the conc efficiency | "[specify value]" |
+| `[CONC_SERVICE]` | Specify the conc service | "[specify value]" |
+| `[MGMT_CURRENT]` | Specify the mgmt current | "[specify value]" |
+| `[MGMT_DIGITAL]` | Specify the mgmt digital | "[specify value]" |
+| `[MGMT_TRAINING]` | Specify the mgmt training | "[specify value]" |
+| `[MGMT_EFFICIENCY]` | Specify the mgmt efficiency | "[specify value]" |
+| `[MGMT_SERVICE]` | Specify the mgmt service | "[specify value]" |
+| `[ENERGY_CURRENT]` | Specify the energy current | "[specify value]" |
+| `[ENERGY_SMART]` | Specify the energy smart | "[specify value]" |
+| `[ENERGY_TARGET]` | Target or intended energy | "[specify value]" |
+| `[ENERGY_SAVINGS]` | Specify the energy savings | "[specify value]" |
+| `[ENERGY_ENGAGE]` | Specify the energy engage | "[specify value]" |
+| `[WATER_CURRENT]` | Specify the water current | "[specify value]" |
+| `[WATER_SMART]` | Specify the water smart | "[specify value]" |
+| `[WATER_TARGET]` | Target or intended water | "[specify value]" |
+| `[WATER_SAVINGS]` | Specify the water savings | "[specify value]" |
+| `[WATER_ENGAGE]` | Specify the water engage | "[specify value]" |
+| `[WASTE_CURRENT]` | Specify the waste current | "[specify value]" |
+| `[WASTE_SMART]` | Specify the waste smart | "[specify value]" |
+| `[WASTE_TARGET]` | Target or intended waste | "[specify value]" |
+| `[WASTE_SAVINGS]` | Specify the waste savings | "[specify value]" |
+| `[WASTE_ENGAGE]` | Specify the waste engage | "[specify value]" |
+| `[CARBON_CURRENT]` | Specify the carbon current | "[specify value]" |
+| `[CARBON_SMART]` | Specify the carbon smart | "[specify value]" |
+| `[CARBON_TARGET]` | Target or intended carbon | "[specify value]" |
+| `[CARBON_SAVINGS]` | Specify the carbon savings | "[specify value]" |
+| `[CARBON_ENGAGE]` | Specify the carbon engage | "[specify value]" |
+| `[FOOD_CURRENT]` | Specify the food current | "[specify value]" |
+| `[FOOD_SMART]` | Specify the food smart | "[specify value]" |
+| `[FOOD_TARGET]` | Target or intended food | "[specify value]" |
+| `[FOOD_SAVINGS]` | Specify the food savings | "[specify value]" |
+| `[FOOD_ENGAGE]` | Specify the food engage | "[specify value]" |
+| `[SUPPLY_CURRENT]` | Specify the supply current | "[specify value]" |
+| `[SUPPLY_SMART]` | Specify the supply smart | "[specify value]" |
+| `[SUPPLY_TARGET]` | Target or intended supply | "[specify value]" |
+| `[SUPPLY_SAVINGS]` | Specify the supply savings | "[specify value]" |
+| `[SUPPLY_ENGAGE]` | Specify the supply engage | "[specify value]" |
+| `[PREF_TRACKING]` | Specify the pref tracking | "[specify value]" |
+| `[BEHAVIOR_ANALYTICS]` | Specify the behavior analytics | "[specify value]" |
+| `[SEGMENT_ENGINE]` | Specify the segment engine | "[specify value]" |
+| `[PREDICT_MODEL]` | Specify the predict model | "[specify value]" |
+| `[LIFETIME_VALUE]` | Specify the lifetime value | "[specify value]" |
+| `[CHURN_PREVENT]` | Specify the churn prevent | "[specify value]" |
+| `[ROOM_PERSONAL]` | Specify the room personal | "[specify value]" |
+| `[SERVICE_CUSTOM]` | Specify the service custom | "[specify value]" |
+| `[COMM_STYLE]` | Specify the comm style | "[specify value]" |
+| `[OFFER_TARGET]` | Target or intended offer | "[specify value]" |
+| `[EXPERIENCE_CURATE]` | Specify the experience curate | "[specify value]" |
+| `[LOYALTY_RECOG]` | Specify the loyalty recog | "[specify value]" |
+| `[GDPR_COMPLY]` | Specify the gdpr comply | "[specify value]" |
+| `[DATA_SECURITY]` | Specify the data security | "[specify value]" |
+| `[CONSENT_MANAGE]` | Specify the consent manage | "[specify value]" |
+| `[ACCESS_CONTROL]` | Specify the access control | "[specify value]" |
+| `[AUDIT_TRAILS]` | Specify the audit trails | "[specify value]" |
+| `[DATA_RETENTION]` | Specify the data retention | "[specify value]" |
+| `[EMAIL_CAMPAIGN]` | Specify the email campaign | "john.smith@example.com" |
+| `[SMS_MARKETING]` | Specify the sms marketing | "[specify value]" |
+| `[PUSH_NOTIFY]` | Specify the push notify | "[specify value]" |
+| `[RETARGETING]` | Target or intended retargeting | "[specify value]" |
+| `[SOCIAL_MEDIA]` | Specify the social media | "[specify value]" |
+| `[REVIEW_MANAGE]` | Specify the review manage | "[specify value]" |
+| `[HEALTH_TRADITIONAL]` | Specify the health traditional | "[specify value]" |
+| `[HEALTH_SMART]` | Specify the health smart | "[specify value]" |
+| `[HEALTH_MONITOR]` | Specify the health monitor | "[specify value]" |
+| `[HEALTH_RESPONSE]` | Specify the health response | "[specify value]" |
+| `[HEALTH_COMPLY]` | Specify the health comply | "[specify value]" |
+| `[CONTACT_TRADITIONAL]` | Specify the contact traditional | "[specify value]" |
+| `[CONTACT_SMART]` | Specify the contact smart | "[specify value]" |
+| `[CONTACT_MONITOR]` | Specify the contact monitor | "[specify value]" |
+| `[CONTACT_RESPONSE]` | Specify the contact response | "[specify value]" |
+| `[CONTACT_COMPLY]` | Specify the contact comply | "[specify value]" |
+| `[AIR_TRADITIONAL]` | Specify the air traditional | "[specify value]" |
+| `[AIR_SMART]` | Specify the air smart | "[specify value]" |
+| `[AIR_MONITOR]` | Specify the air monitor | "[specify value]" |
+| `[AIR_RESPONSE]` | Specify the air response | "[specify value]" |
+| `[AIR_COMPLY]` | Specify the air comply | "[specify value]" |
+| `[SANIT_TRADITIONAL]` | Specify the sanit traditional | "[specify value]" |
+| `[SANIT_SMART]` | Specify the sanit smart | "[specify value]" |
+| `[SANIT_MONITOR]` | Specify the sanit monitor | "[specify value]" |
+| `[SANIT_RESPONSE]` | Specify the sanit response | "[specify value]" |
+| `[SANIT_COMPLY]` | Specify the sanit comply | "[specify value]" |
+| `[EMERG_TRADITIONAL]` | Specify the emerg traditional | "[specify value]" |
+| `[EMERG_SMART]` | Specify the emerg smart | "[specify value]" |
+| `[EMERG_MONITOR]` | Specify the emerg monitor | "[specify value]" |
+| `[EMERG_RESPONSE]` | Specify the emerg response | "[specify value]" |
+| `[EMERG_COMPLY]` | Specify the emerg comply | "[specify value]" |
+| `[CROWD_TRADITIONAL]` | Specify the crowd traditional | "[specify value]" |
+| `[CROWD_SMART]` | Specify the crowd smart | "[specify value]" |
+| `[CROWD_MONITOR]` | Specify the crowd monitor | "[specify value]" |
+| `[CROWD_RESPONSE]` | Specify the crowd response | "[specify value]" |
+| `[CROWD_COMPLY]` | Specify the crowd comply | "[specify value]" |
+| `[BOOK_BASIC]` | Specify the book basic | "[specify value]" |
+| `[BOOK_SMART]` | Specify the book smart | "[specify value]" |
+| `[BOOK_EXPERIENCE]` | Specify the book experience | "[specify value]" |
+| `[BOOK_BENEFITS]` | Specify the book benefits | "[specify value]" |
+| `[BOOK_REVENUE]` | Specify the book revenue | "[specify value]" |
+| `[AV_BASIC]` | Specify the av basic | "[specify value]" |
+| `[AV_SMART]` | Specify the av smart | "[specify value]" |
+| `[AV_EXPERIENCE]` | Specify the av experience | "[specify value]" |
+| `[AV_BENEFITS]` | Specify the av benefits | "[specify value]" |
+| `[AV_REVENUE]` | Specify the av revenue | "[specify value]" |
+| `[HYBRID_BASIC]` | Specify the hybrid basic | "[specify value]" |
+| `[HYBRID_SMART]` | Specify the hybrid smart | "[specify value]" |
+| `[HYBRID_EXPERIENCE]` | Specify the hybrid experience | "[specify value]" |
+| `[HYBRID_BENEFITS]` | Specify the hybrid benefits | "[specify value]" |
+| `[HYBRID_REVENUE]` | Specify the hybrid revenue | "[specify value]" |
+| `[REG_BASIC]` | Specify the reg basic | "[specify value]" |
+| `[REG_SMART]` | Specify the reg smart | "[specify value]" |
+| `[REG_EXPERIENCE]` | Specify the reg experience | "[specify value]" |
+| `[REG_BENEFITS]` | Specify the reg benefits | "[specify value]" |
+| `[REG_REVENUE]` | Specify the reg revenue | "[specify value]" |
+| `[NET_BASIC]` | Specify the net basic | "[specify value]" |
+| `[NET_SMART]` | Specify the net smart | "[specify value]" |
+| `[NET_EXPERIENCE]` | Specify the net experience | "[specify value]" |
+| `[NET_BENEFITS]` | Specify the net benefits | "[specify value]" |
+| `[NET_REVENUE]` | Specify the net revenue | "[specify value]" |
+| `[ANALYTICS_BASIC]` | Specify the analytics basic | "[specify value]" |
+| `[ANALYTICS_SMART]` | Specify the analytics smart | "[specify value]" |
+| `[ANALYTICS_EXPERIENCE]` | Specify the analytics experience | "[specify value]" |
+| `[ANALYTICS_BENEFITS]` | Specify the analytics benefits | "[specify value]" |
+| `[ANALYTICS_REVENUE]` | Specify the analytics revenue | "[specify value]" |
+| `[OCCUPANCY_RATE]` | Specify the occupancy rate | "[specify value]" |
+| `[REVPAR]` | Specify the revpar | "[specify value]" |
+| `[ADR]` | Specify the adr | "[specify value]" |
+| `[LABOR_RATIO]` | Specify the labor ratio | "[specify value]" |
+| `[ENERGY_PER_ROOM]` | Specify the energy per room | "[specify value]" |
+| `[MAINT_RESPONSE]` | Specify the maint response | "[specify value]" |
+| `[OVERALL_SCORE]` | Specify the overall score | "[specify value]" |
+| `[NPS_SCORE]` | Specify the nps score | "[specify value]" |
+| `[ONLINE_REVIEWS]` | Specify the online reviews | "[specify value]" |
+| `[COMPLAINT_RES]` | Specify the complaint res | "[specify value]" |
+| `[REPEAT_RATE]` | Specify the repeat rate | "[specify value]" |
+| `[REFERRAL_RATE]` | Specify the referral rate | "[specify value]" |
+| `[TOTAL_REVENUE]` | Specify the total revenue | "[specify value]" |
+| `[GOP_MARGIN]` | Specify the gop margin | "[specify value]" |
+| `[EBITDA]` | Specify the ebitda | "[specify value]" |
+| `[CPOR]` | Specify the cpor | "[specify value]" |
+| `[FB_MARGIN]` | Specify the fb margin | "[specify value]" |
+| `[TECH_ROI]` | Specify the tech roi | "[specify value]" |
+| `[DIRECT_RATE]` | Specify the direct rate | "[specify value]" |
+| `[MOBILE_ADOPT]` | Specify the mobile adopt | "[specify value]" |
+| `[DIGITAL_USE]` | Specify the digital use | "[specify value]" |
+| `[APP_ENGAGE]` | Specify the app engage | "[specify value]" |
+| `[WEB_CONVERT]` | Specify the web convert | "[specify value]" |
+| `[SOCIAL_REACH]` | Specify the social reach | "[specify value]" |
+
+
 
 ### 3. Revenue Management & Optimization
 

@@ -1,3 +1,18 @@
+---
+title: Patent Applications Template
+category: professional-services/legal-compliance/Intellectual Property
+tags: [automation, data-science, professional-services, research, security, strategy, template]
+use_cases:
+  - Implementing create comprehensive patent applications, claims drafting, prior art analysis, a...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - regulatory-compliance-framework.md
+  - contract-drafting-template.md
+  - intellectual-property-management.md
+last_updated: 2025-11-09
+---
+
 # Patent Applications Template
 
 ## Purpose

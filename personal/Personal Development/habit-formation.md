@@ -1,3 +1,14 @@
+---
+title: Habit Formation Template
+category: personal/Personal Development
+tags: [automation, data-science, design, optimization, personal, research, template]
+use_cases:
+  - Implementing create comprehensive habit formation systems, behavioral change protocols, routi...
+  - Project planning and execution
+  - Strategy development
+last_updated: 2025-11-09
+---
+
 # Habit Formation Template
 
 ## Purpose

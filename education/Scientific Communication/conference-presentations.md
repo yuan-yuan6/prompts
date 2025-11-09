@@ -1,3 +1,17 @@
+---
+title: Conference Presentations & Posters Template
+category: education/Scientific Communication
+tags: [communication, design, education, research, strategy, template]
+use_cases:
+  - Implementing create compelling academic conference presentations, posters, and talks that eff...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - curriculum-development.md
+  - curriculum-development-framework.md
+last_updated: 2025-11-09
+---
+
 # Conference Presentations & Posters Template
 
 ## Purpose

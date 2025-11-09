@@ -1,3 +1,14 @@
+---
+title: Sleep Optimization Template
+category: personal/Health & Wellness
+tags: [data-science, development, optimization, personal, research, template, testing]
+use_cases:
+  - Implementing develop comprehensive sleep improvement strategies including sleep hygiene proto...
+  - Project planning and execution
+  - Strategy development
+last_updated: 2025-11-09
+---
+
 # Sleep Optimization Template
 
 ## Purpose

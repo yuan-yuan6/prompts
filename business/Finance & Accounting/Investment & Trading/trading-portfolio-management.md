@@ -1,3 +1,18 @@
+---
+title: Portfolio Management Template
+category: business/Finance & Accounting/Investment & Trading
+tags: [business, design, management, optimization, template]
+use_cases:
+  - General application
+  - Professional use
+  - Project implementation
+related_templates:
+  - treasury-management.md
+  - financial-analysis.md
+  - investment-evaluation.md
+last_updated: 2025-11-09
+---
+
 # Portfolio Management Template
 
 ## Overview
@@ -45,6 +60,361 @@ Constraints and Preferences:
 - Tax considerations: [TAX_SITUATION] with [TAX_BRACKET_PERCENTAGE]% marginal rate
 - Regulatory constraints: [REGULATORY_RESTRICTIONS]
 ```
+
+## Variables
+
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `[PORTFOLIO_MANAGER_ROLE]` | Specify the portfolio manager role | "[specify value]" |
+| `[CERTIFICATION_TYPE]` | Type or category of certification | "Standard" |
+| `[INVESTMENT_FIRM_TYPE]` | Type or category of investment firm | "Standard" |
+| `[YEARS_EXPERIENCE]` | Specify the years experience | "[specify value]" |
+| `[CLIENT_TYPE]` | Type or category of client | "Standard" |
+| `[INVESTMENT_OBJECTIVE_PRIMARY]` | Primary objective or goal for investment  primary | "Increase efficiency by 30%" |
+| `[RISK_TOLERANCE_LEVEL]` | Specify the risk tolerance level | "[specify value]" |
+| `[CLIENT_AGE]` | Specify the client age | "[specify value]" |
+| `[CLIENT_GENDER]` | Specify the client gender | "[specify value]" |
+| `[CLIENT_MARITAL_STATUS]` | Specify the client marital status | "In Progress" |
+| `[CLIENT_DEPENDENTS_NUMBER]` | Specify the client dependents number | "10" |
+| `[CLIENT_LOCATION]` | Specify the client location | "North America" |
+| `[CLIENT_CITIZENSHIP_STATUS]` | Specify the client citizenship status | "In Progress" |
+| `[TOTAL_INVESTABLE_ASSETS]` | Specify the total investable assets | "[specify value]" |
+| `[ANNUAL_INCOME]` | Specify the annual income | "[specify value]" |
+| `[MONTHLY_EXPENSES]` | Specify the monthly expenses | "[specify value]" |
+| `[SAVINGS_RATE_PERCENTAGE]` | Specify the savings rate percentage | "25%" |
+| `[EXISTING_DEBT_AMOUNT]` | Specify the existing debt amount | "[specify value]" |
+| `[EMERGENCY_FUND_AMOUNT]` | Specify the emergency fund amount | "[specify value]" |
+| `[EMERGENCY_FUND_MONTHS]` | Specify the emergency fund months | "[specify value]" |
+| `[OTHER_ASSETS_LIST]` | Specify the other assets list | "[specify value]" |
+| `[INVESTMENT_EXPERIENCE_LEVEL]` | Specify the investment experience level | "[specify value]" |
+| `[HISTORICAL_RETURNS]` | Specify the historical returns | "[specify value]" |
+| `[KNOWLEDGE_ASSESSMENT_SCORE]` | Specify the knowledge assessment score | "[specify value]" |
+| `[PREFERRED_INVESTMENTS]` | Specify the preferred investments | "[specify value]" |
+| `[RISK_SCORE]` | Specify the risk score | "[specify value]" |
+| `[RISK_CAPACITY_ASSESSMENT]` | Specify the risk capacity assessment | "[specify value]" |
+| `[TIME_HORIZON_YEARS]` | Specify the time horizon years | "[specify value]" |
+| `[LIQUIDITY_REQUIREMENTS]` | Specify the liquidity requirements | "[specify value]" |
+| `[BEHAVIORAL_BIAS_1]` | Specify the behavioral bias 1 | "[specify value]" |
+| `[BEHAVIORAL_BIAS_2]` | Specify the behavioral bias 2 | "[specify value]" |
+| `[BEHAVIORAL_BIAS_3]` | Specify the behavioral bias 3 | "[specify value]" |
+| `[PRIMARY_INVESTMENT_GOAL]` | Specify the primary investment goal | "Increase efficiency by 30%" |
+| `[SECONDARY_GOAL_1]` | Specify the secondary goal 1 | "Increase efficiency by 30%" |
+| `[SECONDARY_GOAL_2]` | Specify the secondary goal 2 | "Increase efficiency by 30%" |
+| `[TARGET_RETURN_PERCENTAGE]` | Target or intended return percentage | "25%" |
+| `[MAX_DRAWDOWN_PERCENTAGE]` | Specify the max drawdown percentage | "25%" |
+| `[INCOME_REQUIREMENT_ANNUAL]` | Specify the income requirement annual | "[specify value]" |
+| `[ESG_PREFERENCE_LEVEL]` | Specify the esg preference level | "[specify value]" |
+| `[RESTRICTED_SECTORS]` | Specify the restricted sectors | "[specify value]" |
+| `[GEOGRAPHIC_ALLOCATION_PREFERENCE]` | Specify the geographic allocation preference | "North America" |
+| `[TAX_SITUATION]` | Specify the tax situation | "[specify value]" |
+| `[TAX_BRACKET_PERCENTAGE]` | Specify the tax bracket percentage | "25%" |
+| `[REGULATORY_RESTRICTIONS]` | Specify the regulatory restrictions | "[specify value]" |
+| `[ALLOCATION_STRATEGY_TYPE]` | Type or category of allocation strategy | "Standard" |
+| `[ALLOCATION_METHODOLOGY]` | Specify the allocation methodology | "North America" |
+| `[EQUITY_ALLOCATION_PERCENTAGE]` | Specify the equity allocation percentage | "25%" |
+| `[EQUITY_ALLOCATION_AMOUNT]` | Specify the equity allocation amount | "North America" |
+| `[DOMESTIC_EQUITY_PERCENTAGE]` | Specify the domestic equity percentage | "25%" |
+| `[DOMESTIC_EQUITY_STYLE]` | Specify the domestic equity style | "[specify value]" |
+| `[INTL_DEVELOPED_PERCENTAGE]` | Specify the intl developed percentage | "25%" |
+| `[EMERGING_MARKETS_PERCENTAGE]` | Specify the emerging markets percentage | "25%" |
+| `[SMALL_CAP_PERCENTAGE]` | Specify the small cap percentage | "25%" |
+| `[MID_CAP_PERCENTAGE]` | Specify the mid cap percentage | "25%" |
+| `[LARGE_CAP_PERCENTAGE]` | Specify the large cap percentage | "25%" |
+| `[FIXED_INCOME_ALLOCATION_PERCENTAGE]` | Specify the fixed income allocation percentage | "25%" |
+| `[FIXED_INCOME_ALLOCATION_AMOUNT]` | Specify the fixed income allocation amount | "North America" |
+| `[GOVERNMENT_BOND_PERCENTAGE]` | Specify the government bond percentage | "25%" |
+| `[CORPORATE_BOND_PERCENTAGE]` | Specify the corporate bond percentage | "25%" |
+| `[HIGH_YIELD_PERCENTAGE]` | Specify the high yield percentage | "25%" |
+| `[INTL_BOND_PERCENTAGE]` | Specify the intl bond percentage | "25%" |
+| `[DURATION_TARGET]` | Target or intended duration | "6 months" |
+| `[CREDIT_QUALITY_TARGET]` | Target or intended credit quality | "[specify value]" |
+| `[ALTERNATIVE_ALLOCATION_PERCENTAGE]` | Specify the alternative allocation percentage | "25%" |
+| `[ALTERNATIVE_ALLOCATION_AMOUNT]` | Specify the alternative allocation amount | "North America" |
+| `[REIT_PERCENTAGE]` | Specify the reit percentage | "25%" |
+| `[COMMODITY_PERCENTAGE]` | Specify the commodity percentage | "25%" |
+| `[PRIVATE_EQUITY_PERCENTAGE]` | Specify the private equity percentage | "25%" |
+| `[HEDGE_FUND_PERCENTAGE]` | Specify the hedge fund percentage | "25%" |
+| `[INFRASTRUCTURE_PERCENTAGE]` | Specify the infrastructure percentage | "25%" |
+| `[CASH_ALLOCATION_PERCENTAGE]` | Specify the cash allocation percentage | "25%" |
+| `[CASH_ALLOCATION_AMOUNT]` | Specify the cash allocation amount | "North America" |
+| `[MONEY_MARKET_PERCENTAGE]` | Specify the money market percentage | "25%" |
+| `[CD_PERCENTAGE]` | Specify the cd percentage | "25%" |
+| `[TBILL_PERCENTAGE]` | Specify the tbill percentage | "25%" |
+| `[EXPECTED_RETURN_PERCENTAGE]` | Specify the expected return percentage | "25%" |
+| `[PORTFOLIO_VOLATILITY_PERCENTAGE]` | Specify the portfolio volatility percentage | "25%" |
+| `[TARGET_SHARPE_RATIO]` | Target or intended sharpe ratio | "[specify value]" |
+| `[MAX_CORRELATION_LIMIT]` | Specify the max correlation limit | "[specify value]" |
+| `[TARGET_BETA]` | Target or intended beta | "[specify value]" |
+| `[PE_RATIO_MIN]` | Specify the pe ratio min | "[specify value]" |
+| `[PE_RATIO_MAX]` | Specify the pe ratio max | "[specify value]" |
+| `[REVENUE_GROWTH_MIN]` | Specify the revenue growth min | "[specify value]" |
+| `[PROFIT_MARGIN_MIN]` | Specify the profit margin min | "[specify value]" |
+| `[ROE_TARGET]` | Target or intended roe | "[specify value]" |
+| `[MAX_DEBT_EQUITY_RATIO]` | Specify the max debt equity ratio | "[specify value]" |
+| `[FCF_YIELD_MIN]` | Specify the fcf yield min | "[specify value]" |
+| `[MOMENTUM_CRITERIA]` | Specify the momentum criteria | "[specify value]" |
+| `[VOLUME_ANALYSIS_REQUIREMENTS]` | Specify the volume analysis requirements | "[specify value]" |
+| `[TECHNICAL_LEVELS]` | Specify the technical levels | "[specify value]" |
+| `[MA_SIGNAL_CRITERIA]` | Specify the ma signal criteria | "[specify value]" |
+| `[MANAGEMENT_ASSESSMENT_CRITERIA]` | Specify the management assessment criteria | "[specify value]" |
+| `[COMPETITIVE_ANALYSIS_FACTORS]` | Specify the competitive analysis factors | "[specify value]" |
+| `[INDUSTRY_ANALYSIS_REQUIREMENTS]` | Specify the industry analysis requirements | "Technology" |
+| `[ESG_SCORING_CRITERIA]` | Specify the esg scoring criteria | "[specify value]" |
+| `[MIN_CREDIT_RATING]` | Specify the min credit rating | "[specify value]" |
+| `[MAX_SINGLE_ISSUER_PERCENTAGE]` | Specify the max single issuer percentage | "25%" |
+| `[SECTOR_DIVERSIFICATION_REQUIREMENTS]` | Specify the sector diversification requirements | "[specify value]" |
+| `[MATURITY_LADDER_STRUCTURE]` | Specify the maturity ladder structure | "[specify value]" |
+| `[DURATION_POSITIONING_STRATEGY]` | Strategy or approach for duration positioning | "6 months" |
+| `[YIELD_CURVE_STRATEGY]` | Strategy or approach for yield curve | "[specify value]" |
+| `[CREDIT_SPREAD_TARGETS]` | Target or intended credit spread s | "[specify value]" |
+| `[INFLATION_HEDGING_STRATEGY]` | Strategy or approach for inflation hedging | "[specify value]" |
+| `[REIT_SELECTION_CRITERIA]` | Specify the reit selection criteria | "[specify value]" |
+| `[COMMODITY_SELECTION_APPROACH]` | Specify the commodity selection approach | "[specify value]" |
+| `[PRIVATE_MARKET_DUE_DILIGENCE]` | Specify the private market due diligence | "[specify value]" |
+| `[HEDGE_FUND_SELECTION_PROCESS]` | Specify the hedge fund selection process | "[specify value]" |
+| `[TRACK_RECORD_YEARS]` | Specify the track record years | "[specify value]" |
+| `[ALPHA_REQUIREMENTS]` | Specify the alpha requirements | "[specify value]" |
+| `[RISK_ADJUSTED_CRITERIA]` | Specify the risk adjusted criteria | "[specify value]" |
+| `[MIN_AUM]` | Specify the min aum | "[specify value]" |
+| `[MAX_AUM]` | Specify the max aum | "[specify value]" |
+| `[MAX_EXPENSE_RATIO]` | Specify the max expense ratio | "[specify value]" |
+| `[RISK_MANAGEMENT_PHILOSOPHY]` | Specify the risk management philosophy | "[specify value]" |
+| `[MAX_SINGLE_POSITION_PERCENTAGE]` | Specify the max single position percentage | "25%" |
+| `[MAX_SECTOR_PERCENTAGE]` | Specify the max sector percentage | "25%" |
+| `[MAX_COUNTRY_PERCENTAGE]` | Specify the max country percentage | "25%" |
+| `[MAX_MANAGER_PERCENTAGE]` | Specify the max manager percentage | "25%" |
+| `[CORE_PERCENTAGE]` | Specify the core percentage | "25%" |
+| `[SATELLITE_PERCENTAGE]` | Specify the satellite percentage | "25%" |
+| `[TOTAL_RISK_BUDGET]` | Budget allocation for total risk | "$500,000" |
+| `[EQUITY_RISK_PERCENTAGE]` | Specify the equity risk percentage | "25%" |
+| `[FI_RISK_PERCENTAGE]` | Specify the fi risk percentage | "25%" |
+| `[ALT_RISK_PERCENTAGE]` | Specify the alt risk percentage | "25%" |
+| `[ACTIVE_RISK_BUDGET]` | Budget allocation for active risk | "$500,000" |
+| `[MAX_CORRELATION]` | Specify the max correlation | "[specify value]" |
+| `[CORRELATION_MONITORING_FREQUENCY]` | Specify the correlation monitoring frequency | "[specify value]" |
+| `[STRESS_TEST_SCENARIOS]` | Specify the stress test scenarios | "[specify value]" |
+| `[TAIL_RISK_METRICS]` | Specify the tail risk metrics | "[specify value]" |
+| `[CURRENCY_HEDGING_PERCENTAGE]` | Specify the currency hedging percentage | "25%" |
+| `[INTEREST_RATE_HEDGING_STRATEGY]` | Strategy or approach for interest rate hedging | "[specify value]" |
+| `[EQUITY_HEDGING_APPROACH]` | Specify the equity hedging approach | "[specify value]" |
+| `[VOLATILITY_MANAGEMENT_TOOLS]` | Specify the volatility management tools | "[specify value]" |
+| `[DAILY_LIQUIDITY_PERCENTAGE]` | Specify the daily liquidity percentage | "25%" |
+| `[WEEKLY_LIQUIDITY_PERCENTAGE]` | Specify the weekly liquidity percentage | "25%" |
+| `[MONTHLY_LIQUIDITY_PERCENTAGE]` | Specify the monthly liquidity percentage | "25%" |
+| `[ILLIQUID_INVESTMENT_MAX]` | Specify the illiquid investment max | "[specify value]" |
+| `[VAR_METHODOLOGY]` | Specify the var methodology | "[specify value]" |
+| `[VAR_CONFIDENCE_LEVEL]` | Specify the var confidence level | "[specify value]" |
+| `[EXPECTED_SHORTFALL_TARGET]` | Target or intended expected shortfall | "[specify value]" |
+| `[DRAWDOWN_MONITORING_PROTOCOL]` | Specify the drawdown monitoring protocol | "[specify value]" |
+| `[RISK_REPORTING_FREQUENCY]` | Specify the risk reporting frequency | "[specify value]" |
+| `[IMPLEMENTATION_STRATEGY]` | Strategy or approach for implementation | "[specify value]" |
+| `[IMPLEMENTATION_TIMEFRAME]` | Specify the implementation timeframe | "[specify value]" |
+| `[EXECUTION_STYLE]` | Specify the execution style | "[specify value]" |
+| `[EXECUTION_BENCHMARK]` | Specify the execution benchmark | "[specify value]" |
+| `[EXECUTION_TARGETS]` | Target or intended execution s | "[specify value]" |
+| `[MARKET_IMPACT_STRATEGY]` | Strategy or approach for market impact | "[specify value]" |
+| `[TIMING_STRATEGY]` | Strategy or approach for timing | "[specify value]" |
+| `[PRIMARY_BROKER]` | Specify the primary broker | "[specify value]" |
+| `[SECONDARY_BROKER_LIST]` | Specify the secondary broker list | "[specify value]" |
+| `[EXECUTION_QUALITY_MEASURES]` | Specify the execution quality measures | "[specify value]" |
+| `[COMMISSION_STRUCTURE]` | Specify the commission structure | "[specify value]" |
+| `[RESEARCH_SERVICE_REQUIREMENTS]` | Specify the research service requirements | "[specify value]" |
+| `[EXPECTED_TRANSACTION_COSTS]` | Specify the expected transaction costs | "[specify value]" |
+| `[IMPLEMENTATION_SHORTFALL_MEASURES]` | Specify the implementation shortfall measures | "[specify value]" |
+| `[MARKET_TIMING_COST_ANALYSIS]` | Specify the market timing cost analysis | "[specify value]" |
+| `[OPPORTUNITY_COST_FRAMEWORK]` | Specify the opportunity cost framework | "[specify value]" |
+| `[PHASE_1_DURATION]` | Specify the phase 1 duration | "6 months" |
+| `[PHASE_1_ACTIVITIES]` | Specify the phase 1 activities | "[specify value]" |
+| `[CORE_POSITION_IMPLEMENTATION]` | Specify the core position implementation | "[specify value]" |
+| `[RISK_FRAMEWORK_IMPLEMENTATION]` | Specify the risk framework implementation | "[specify value]" |
+| `[INITIAL_ALLOCATION_PERCENTAGE]` | Specify the initial allocation percentage | "25%" |
+| `[PHASE_2_DURATION]` | Specify the phase 2 duration | "6 months" |
+| `[PHASE_2_ACTIVITIES]` | Specify the phase 2 activities | "[specify value]" |
+| `[SATELLITE_POSITION_IMPLEMENTATION]` | Specify the satellite position implementation | "[specify value]" |
+| `[ALPHA_STRATEGY_IMPLEMENTATION]` | Strategy or approach for alpha  implementation | "[specify value]" |
+| `[REMAINING_ALLOCATION_PERCENTAGE]` | Specify the remaining allocation percentage | "25%" |
+| `[PHASE_3_DURATION]` | Specify the phase 3 duration | "6 months" |
+| `[PHASE_3_ACTIVITIES]` | Specify the phase 3 activities | "[specify value]" |
+| `[FINE_TUNING_ACTIVITIES]` | Specify the fine tuning activities | "[specify value]" |
+| `[OPTIMIZATION_ACTIVITIES]` | Specify the optimization activities | "[specify value]" |
+| `[TAX_LOSS_HARVESTING_STRATEGY]` | Strategy or approach for tax loss harvesting | "[specify value]" |
+| `[ASSET_LOCATION_STRATEGY]` | Strategy or approach for asset location | "North America" |
+| `[TAX_EFFICIENT_FUND_SELECTION]` | Specify the tax efficient fund selection | "[specify value]" |
+| `[MUNICIPAL_BOND_ANALYSIS]` | Specify the municipal bond analysis | "[specify value]" |
+| `[WASH_SALE_PREVENTION]` | Specify the wash sale prevention | "[specify value]" |
+| `[PRIMARY_BENCHMARK]` | Specify the primary benchmark | "[specify value]" |
+| `[SECONDARY_BENCHMARK]` | Specify the secondary benchmark | "[specify value]" |
+| `[BENCHMARK_COMPOSITION_DETAILS]` | Specify the benchmark composition details | "[specify value]" |
+| `[BENCHMARK_REBALANCING_FREQUENCY]` | Specify the benchmark rebalancing frequency | "[specify value]" |
+| `[CUSTOM_BENCHMARK_WEIGHTS]` | Specify the custom benchmark weights | "[specify value]" |
+| `[TWR_CALCULATION_METHOD]` | Specify the twr calculation method | "[specify value]" |
+| `[MWR_CALCULATION_APPROACH]` | Specify the mwr calculation approach | "[specify value]" |
+| `[RISK_ADJUSTED_METRICS]` | Specify the risk adjusted metrics | "[specify value]" |
+| `[AFTER_TAX_CALCULATION]` | Specify the after tax calculation | "[specify value]" |
+| `[INFLATION_ADJUSTED_RETURNS]` | Specify the inflation adjusted returns | "[specify value]" |
+| `[ASSET_ALLOCATION_ATTRIBUTION]` | Specify the asset allocation attribution | "North America" |
+| `[STRATEGIC_ATTRIBUTION]` | Specify the strategic attribution | "[specify value]" |
+| `[TACTICAL_ATTRIBUTION]` | Specify the tactical attribution | "[specify value]" |
+| `[REBALANCING_ATTRIBUTION]` | Specify the rebalancing attribution | "[specify value]" |
+| `[SECURITY_SELECTION_ATTRIBUTION]` | Specify the security selection attribution | "[specify value]" |
+| `[EQUITY_SELECTION_ATTRIBUTION]` | Specify the equity selection attribution | "[specify value]" |
+| `[FI_SELECTION_ATTRIBUTION]` | Specify the fi selection attribution | "[specify value]" |
+| `[ALT_SELECTION_ATTRIBUTION]` | Specify the alt selection attribution | "[specify value]" |
+| `[INTERACTION_EFFECT]` | Specify the interaction effect | "[specify value]" |
+| `[TOTAL_ACTIVE_RETURN]` | Specify the total active return | "[specify value]" |
+| `[TRACKING_ERROR]` | Specify the tracking error | "[specify value]" |
+| `[TARGET_TRACKING_ERROR]` | Target or intended tracking error | "[specify value]" |
+| `[INFORMATION_RATIO]` | Specify the information ratio | "[specify value]" |
+| `[TARGET_INFO_RATIO]` | Target or intended info ratio | "[specify value]" |
+| `[SHARPE_RATIO]` | Specify the sharpe ratio | "[specify value]" |
+| `[BENCHMARK_SHARPE]` | Specify the benchmark sharpe | "[specify value]" |
+| `[PORTFOLIO_ALPHA]` | Specify the portfolio alpha | "[specify value]" |
+| `[TARGET_ALPHA]` | Target or intended alpha | "[specify value]" |
+| `[PORTFOLIO_BETA]` | Specify the portfolio beta | "[specify value]" |
+| `[TARGET_BETA_RANGE]` | Target or intended beta range | "[specify value]" |
+| `[MAX_DRAWDOWN]` | Specify the max drawdown | "[specify value]" |
+| `[AVERAGE_DRAWDOWN]` | Specify the average drawdown | "[specify value]" |
+| `[RECOVERY_TIME_AVERAGE]` | Specify the recovery time average | "[specify value]" |
+| `[DOWNSIDE_DEVIATION]` | Specify the downside deviation | "[specify value]" |
+| `[SORTINO_RATIO]` | Specify the sortino ratio | "[specify value]" |
+| `[MONTHLY_REPORTING_DETAILS]` | Specify the monthly reporting details | "[specify value]" |
+| `[QUARTERLY_ATTRIBUTION_ANALYSIS]` | Specify the quarterly attribution analysis | "[specify value]" |
+| `[ANNUAL_PERFORMANCE_REVIEW]` | Specify the annual performance review | "[specify value]" |
+| `[CLIENT_REPORTING_FREQUENCY]` | Specify the client reporting frequency | "[specify value]" |
+| `[CLIENT_REPORTING_FORMAT]` | Specify the client reporting format | "[specify value]" |
+| `[REBALANCING_APPROACH]` | Specify the rebalancing approach | "[specify value]" |
+| `[REBALANCING_THRESHOLD]` | Specify the rebalancing threshold | "[specify value]" |
+| `[CALENDAR_REBALANCING_FREQUENCY]` | Specify the calendar rebalancing frequency | "[specify value]" |
+| `[VOLATILITY_TRIGGER_LEVEL]` | Specify the volatility trigger level | "[specify value]" |
+| `[CORRELATION_DRIFT_THRESHOLD]` | Specify the correlation drift threshold | "[specify value]" |
+| `[TAA_RANGE_PERCENTAGE]` | Specify the taa range percentage | "25%" |
+| `[TAA_DECISION_FRAMEWORK]` | Specify the taa decision framework | "[specify value]" |
+| `[TAA_SIGNAL_SOURCES]` | Specify the taa signal sources | "[specify value]" |
+| `[TAA_IMPLEMENTATION_TIMELINE]` | Timeline or schedule for taa implementation | "6 months" |
+| `[VALUATION_INDICATORS]` | Specify the valuation indicators | "[specify value]" |
+| `[ECONOMIC_INDICATORS]` | Specify the economic indicators | "[specify value]" |
+| `[TECHNICAL_INDICATORS]` | Specify the technical indicators | "[specify value]" |
+| `[SENTIMENT_INDICATORS]` | Specify the sentiment indicators | "[specify value]" |
+| `[TRADE_SIZE_OPTIMIZATION]` | Specify the trade size optimization | "[specify value]" |
+| `[CASH_FLOW_REBALANCING]` | Specify the cash flow rebalancing | "[specify value]" |
+| `[TAX_AWARE_REBALANCING]` | Specify the tax aware rebalancing | "[specify value]" |
+| `[REBALANCING_COST_ANALYSIS]` | Specify the rebalancing cost analysis | "[specify value]" |
+| `[BULL_MARKET_ADJUSTMENTS]` | Specify the bull market adjustments | "[specify value]" |
+| `[BULL_MARKET_RISK_POSITION]` | Specify the bull market risk position | "[specify value]" |
+| `[BULL_MARKET_SECTOR_TILTS]` | Specify the bull market sector tilts | "[specify value]" |
+| `[BULL_MARKET_STYLE_TILTS]` | Specify the bull market style tilts | "[specify value]" |
+| `[BEAR_MARKET_ADJUSTMENTS]` | Specify the bear market adjustments | "[specify value]" |
+| `[BEAR_MARKET_DEFENSIVE_STRATEGY]` | Strategy or approach for bear market defensive | "[specify value]" |
+| `[BEAR_MARKET_QUALITY_FOCUS]` | Specify the bear market quality focus | "[specify value]" |
+| `[BEAR_MARKET_LIQUIDITY_STRATEGY]` | Strategy or approach for bear market liquidity | "[specify value]" |
+| `[VOLATILE_MARKET_ADJUSTMENTS]` | Specify the volatile market adjustments | "[specify value]" |
+| `[VOLATILITY_HARVESTING_STRATEGY]` | Strategy or approach for volatility harvesting | "[specify value]" |
+| `[VOLATILITY_OPTION_STRATEGIES]` | Specify the volatility option strategies | "[specify value]" |
+| `[VOLATILE_MARKET_REBALANCING]` | Specify the volatile market rebalancing | "[specify value]" |
+| `[COMMUNICATION_STRATEGY]` | Strategy or approach for communication | "[specify value]" |
+| `[MONTHLY_PERFORMANCE_HIGHLIGHTS]` | Specify the monthly performance highlights | "[specify value]" |
+| `[MONTHLY_ALLOCATION_REVIEW]` | Specify the monthly allocation review | "North America" |
+| `[MONTHLY_MARKET_COMMENTARY]` | Specify the monthly market commentary | "[specify value]" |
+| `[MONTHLY_TRANSACTION_SUMMARY]` | Specify the monthly transaction summary | "[specify value]" |
+| `[MONTHLY_REPORT_FORMAT]` | Specify the monthly report format | "[specify value]" |
+| `[QUARTERLY_PERFORMANCE_ANALYSIS]` | Specify the quarterly performance analysis | "[specify value]" |
+| `[QUARTERLY_ATTRIBUTION_DETAIL]` | Specify the quarterly attribution detail | "[specify value]" |
+| `[QUARTERLY_RISK_REVIEW]` | Specify the quarterly risk review | "[specify value]" |
+| `[QUARTERLY_STRATEGY_OUTLOOK]` | Strategy or approach for quarterly  outlook | "[specify value]" |
+| `[QUARTERLY_REPORT_FORMAT]` | Specify the quarterly report format | "[specify value]" |
+| `[ANNUAL_PERFORMANCE_COMPREHENSIVE]` | Specify the annual performance comprehensive | "[specify value]" |
+| `[ANNUAL_GOAL_ASSESSMENT]` | Specify the annual goal assessment | "Increase efficiency by 30%" |
+| `[ANNUAL_STRATEGY_REVIEW]` | Strategy or approach for annual  review | "[specify value]" |
+| `[ANNUAL_TAX_REPORTING]` | Specify the annual tax reporting | "[specify value]" |
+| `[ANNUAL_REPORT_FORMAT]` | Specify the annual report format | "[specify value]" |
+| `[VOLATILITY_COMMUNICATION_PROTOCOL]` | Specify the volatility communication protocol | "[specify value]" |
+| `[VOLATILITY_COMMUNICATION_TRIGGER]` | Specify the volatility communication trigger | "[specify value]" |
+| `[VOLATILITY_COMMUNICATION_METHOD]` | Specify the volatility communication method | "[specify value]" |
+| `[VOLATILITY_COMMUNICATION_CONTENT]` | Specify the volatility communication content | "[specify value]" |
+| `[SIGNIFICANT_EVENT_COMMUNICATION]` | Specify the significant event communication | "[specify value]" |
+| `[CORPORATE_ACTION_COMMUNICATION]` | Specify the corporate action communication | "[specify value]" |
+| `[STRATEGY_CHANGE_COMMUNICATION]` | Strategy or approach for change communication | "[specify value]" |
+| `[MANAGER_CHANGE_COMMUNICATION]` | Specify the manager change communication | "[specify value]" |
+| `[CLIENT_MEETING_FREQUENCY]` | Specify the client meeting frequency | "[specify value]" |
+| `[CLIENT_MEETING_AGENDA]` | Specify the client meeting agenda | "[specify value]" |
+| `[PERFORMANCE_DISCUSSION_APPROACH]` | Specify the performance discussion approach | "[specify value]" |
+| `[STRATEGY_REVIEW_PROCESS]` | Strategy or approach for review process | "[specify value]" |
+| `[ONLINE_PORTAL_FEATURES]` | Specify the online portal features | "[specify value]" |
+| `[MOBILE_APP_FEATURES]` | Specify the mobile app features | "[specify value]" |
+| `[REAL_TIME_ACCESS_FEATURES]` | Specify the real time access features | "[specify value]" |
+| `[DOCUMENT_LIBRARY_CONTENTS]` | Specify the document library contents | "[specify value]" |
+| `[REGULATORY_JURISDICTION]` | Specify the regulatory jurisdiction | "[specify value]" |
+| `[FIDUCIARY_DUTY_PROTOCOLS]` | Specify the fiduciary duty protocols | "[specify value]" |
+| `[BEST_INTEREST_PROCEDURES]` | Specify the best interest procedures | "[specify value]" |
+| `[CONFLICT_MANAGEMENT_PROCEDURES]` | Specify the conflict management procedures | "[specify value]" |
+| `[FIDUCIARY_DOCUMENTATION]` | Specify the fiduciary documentation | "[specify value]" |
+| `[REGISTRATION_COMPLIANCE]` | Specify the registration compliance | "[specify value]" |
+| `[CUSTODY_COMPLIANCE]` | Specify the custody compliance | "[specify value]" |
+| `[VALUATION_PROCEDURES]` | Specify the valuation procedures | "[specify value]" |
+| `[BOARD_OVERSIGHT_REQUIREMENTS]` | Specify the board oversight requirements | "[specify value]" |
+| `[PRUDENT_PERSON_COMPLIANCE]` | Specify the prudent person compliance | "[specify value]" |
+| `[PLAN_DOCUMENT_REQUIREMENTS]` | Specify the plan document requirements | "[specify value]" |
+| `[PROHIBITED_TRANSACTION_PROCEDURES]` | Specify the prohibited transaction procedures | "[specify value]" |
+| `[ERISA_FEE_DISCLOSURE]` | Specify the erisa fee disclosure | "[specify value]" |
+| `[KYC_PROCEDURES]` | Specify the kyc procedures | "[specify value]" |
+| `[SAR_MONITORING]` | Specify the sar monitoring | "[specify value]" |
+| `[AML_RECORD_KEEPING]` | Specify the aml record keeping | "[specify value]" |
+| `[AML_TRAINING]` | Specify the aml training | "[specify value]" |
+| `[DATA_PROTECTION_MEASURES]` | Specify the data protection measures | "[specify value]" |
+| `[INFORMATION_SHARING_PROTOCOLS]` | Specify the information sharing protocols | "[specify value]" |
+| `[CYBERSECURITY_FRAMEWORK]` | Specify the cybersecurity framework | "[specify value]" |
+| `[DATA_BREACH_RESPONSE]` | Specify the data breach response | "[specify value]" |
+| `[BEST_EXECUTION_PROCEDURES]` | Specify the best execution procedures | "[specify value]" |
+| `[TRADE_ALLOCATION_PROCEDURES]` | Specify the trade allocation procedures | "North America" |
+| `[PERSONAL_TRADING_RESTRICTIONS]` | Specify the personal trading restrictions | "[specify value]" |
+| `[INSIDER_TRADING_COMPLIANCE]` | Specify the insider trading compliance | "[specify value]" |
+| `[DECISION_DOCUMENTATION]` | Specify the decision documentation | "[specify value]" |
+| `[COMMUNICATION_RECORDS]` | Specify the communication records | "[specify value]" |
+| `[TRADE_RECORD_RETENTION]` | Specify the trade record retention | "[specify value]" |
+| `[COMPLIANCE_MONITORING_PROCEDURES]` | Specify the compliance monitoring procedures | "[specify value]" |
+| `[PMS_PLATFORM_NAME]` | Name of the pms platform | "John Smith" |
+| `[ORDER_MANAGEMENT_FEATURES]` | Specify the order management features | "[specify value]" |
+| `[RISK_MANAGEMENT_INTEGRATION]` | Specify the risk management integration | "[specify value]" |
+| `[ATTRIBUTION_CAPABILITIES]` | Specify the attribution capabilities | "[specify value]" |
+| `[REBALANCING_AUTOMATION]` | Specify the rebalancing automation | "[specify value]" |
+| `[COMPLIANCE_INTEGRATION]` | Specify the compliance integration | "[specify value]" |
+| `[MARKET_DATA_SOURCES]` | Specify the market data sources | "[specify value]" |
+| `[REAL_TIME_DATA_COVERAGE]` | Specify the real time data coverage | "[specify value]" |
+| `[HISTORICAL_DATA_DEPTH]` | Specify the historical data depth | "[specify value]" |
+| `[CORPORATE_ACTION_DATA]` | Specify the corporate action data | "[specify value]" |
+| `[ECONOMIC_DATA_SOURCES]` | Specify the economic data sources | "[specify value]" |
+| `[RESEARCH_PLATFORM_ACCESS]` | Specify the research platform access | "[specify value]" |
+| `[EQUITY_RESEARCH_SOURCES]` | Specify the equity research sources | "[specify value]" |
+| `[FI_RESEARCH_SOURCES]` | Specify the fi research sources | "[specify value]" |
+| `[ALTERNATIVE_RESEARCH_SOURCES]` | Specify the alternative research sources | "[specify value]" |
+| `[QUANTITATIVE_RESEARCH_TOOLS]` | Specify the quantitative research tools | "[specify value]" |
+| `[RISK_MANAGEMENT_SYSTEM]` | Specify the risk management system | "[specify value]" |
+| `[VAR_SYSTEM_CAPABILITIES]` | Specify the var system capabilities | "[specify value]" |
+| `[STRESS_TEST_AUTOMATION]` | Specify the stress test automation | "[specify value]" |
+| `[ATTRIBUTION_SYSTEM_FEATURES]` | Specify the attribution system features | "[specify value]" |
+| `[REGULATORY_REPORTING_AUTOMATION]` | Specify the regulatory reporting automation | "[specify value]" |
+| `[REPORTING_PLATFORM_NAME]` | Name of the reporting platform | "John Smith" |
+| `[REPORT_AUTOMATION_FEATURES]` | Specify the report automation features | "[specify value]" |
+| `[REPORT_CUSTOMIZATION_OPTIONS]` | Specify the report customization options | "[specify value]" |
+| `[CLIENT_PORTAL_FEATURES]` | Specify the client portal features | "[specify value]" |
+| `[MOBILE_REPORTING_FEATURES]` | Specify the mobile reporting features | "[specify value]" |
+| `[SETTLEMENT_PROCEDURES]` | Specify the settlement procedures | "[specify value]" |
+| `[TRADE_MATCHING_PROCESS]` | Specify the trade matching process | "[specify value]" |
+| `[TRADE_FAIL_PROCEDURES]` | Specify the trade fail procedures | "[specify value]" |
+| `[CORPORATE_ACTION_PROCESSING]` | Specify the corporate action processing | "[specify value]" |
+| `[CASH_MANAGEMENT_PROCEDURES]` | Specify the cash management procedures | "[specify value]" |
+| `[PRIMARY_CUSTODIAN_NAME]` | Name of the primary custodian | "John Smith" |
+| `[ASSET_SAFEKEEPING_PROCEDURES]` | Specify the asset safekeeping procedures | "[specify value]" |
+| `[SETTLEMENT_SERVICES]` | Specify the settlement services | "[specify value]" |
+| `[CUSTODIAN_REPORTING_SERVICES]` | Specify the custodian reporting services | "[specify value]" |
+| `[CUSTODIAN_TECH_INTEGRATION]` | Specify the custodian tech integration | "[specify value]" |
+| `[DISASTER_RECOVERY_PROCEDURES]` | Specify the disaster recovery procedures | "[specify value]" |
+| `[DATA_BACKUP_PROCEDURES]` | Specify the data backup procedures | "[specify value]" |
+| `[SYSTEM_REDUNDANCY_MEASURES]` | Specify the system redundancy measures | "[specify value]" |
+| `[REMOTE_ACCESS_CAPABILITIES]` | Specify the remote access capabilities | "[specify value]" |
+| `[RTO_TARGETS]` | Target or intended rto s | "[specify value]" |
+
+
 
 ### 2. Strategic Asset Allocation Framework
 

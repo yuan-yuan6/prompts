@@ -1,3 +1,17 @@
+---
+title: Real Estate Investment Analysis Framework
+category: industry/real-estate/Property Transactions
+tags: [data-science, development, framework, industry, machine-learning, management, optimization, research]
+use_cases:
+  - Implementing comprehensive framework for analyzing real estate investment opportunities inclu...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - property-management-system.md
+  - construction-project-planning.md
+last_updated: 2025-11-09
+---
+
 # Real Estate Investment Analysis Framework
 
 ## Purpose
@@ -50,6 +64,286 @@ After-Tax Cash Flow: $[ATCF_Y1]
 - Year 5 NOI: $[NOI_Y5]
 - Terminal Value: $[TERMINAL_VALUE]
 ```
+
+## Variables
+
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `[PROPERTY_TYPE]` | Type or category of property | "Standard" |
+| `[LOCATION]` | Specify the location | "North America" |
+| `[PROPERTY_SIZE]` | Specify the property size | "[specify value]" |
+| `[PURCHASE_PRICE]` | Specify the purchase price | "[specify value]" |
+| `[IRR_TARGET]` | Target or intended irr | "[specify value]" |
+| `[CAP_RATE_TARGET]` | Target or intended cap rate | "[specify value]" |
+| `[HOLD_PERIOD]` | Specify the hold period | "[specify value]" |
+| `[EQUITY_MULTIPLE]` | Specify the equity multiple | "[specify value]" |
+| `[LOCATION_STATUS]` | Specify the location status | "In Progress" |
+| `[LOCATION_COMP]` | Specify the location comp | "North America" |
+| `[LOCATION_GROWTH]` | Specify the location growth | "North America" |
+| `[LOCATION_RISK]` | Specify the location risk | "North America" |
+| `[LOCATION_SCORE]` | Specify the location score | "North America" |
+| `[CONDITION_STATUS]` | Specify the condition status | "In Progress" |
+| `[CONDITION_COMP]` | Specify the condition comp | "[specify value]" |
+| `[CONDITION_GROWTH]` | Specify the condition growth | "[specify value]" |
+| `[CONDITION_RISK]` | Specify the condition risk | "[specify value]" |
+| `[CONDITION_SCORE]` | Specify the condition score | "[specify value]" |
+| `[MARKET_STATUS]` | Specify the market status | "In Progress" |
+| `[MARKET_COMP]` | Specify the market comp | "[specify value]" |
+| `[MARKET_GROWTH]` | Specify the market growth | "[specify value]" |
+| `[MARKET_RISK]` | Specify the market risk | "[specify value]" |
+| `[MARKET_SCORE]` | Specify the market score | "[specify value]" |
+| `[TENANT_STATUS]` | Specify the tenant status | "In Progress" |
+| `[TENANT_COMP]` | Specify the tenant comp | "[specify value]" |
+| `[TENANT_GROWTH]` | Specify the tenant growth | "[specify value]" |
+| `[TENANT_RISK]` | Specify the tenant risk | "[specify value]" |
+| `[TENANT_SCORE]` | Specify the tenant score | "[specify value]" |
+| `[COMP_STATUS]` | Specify the comp status | "In Progress" |
+| `[COMP_COMP]` | Specify the comp comp | "[specify value]" |
+| `[COMP_GROWTH]` | Specify the comp growth | "[specify value]" |
+| `[COMP_RISK]` | Specify the comp risk | "[specify value]" |
+| `[COMP_SCORE]` | Specify the comp score | "[specify value]" |
+| `[ECON_STATUS]` | Specify the econ status | "In Progress" |
+| `[ECON_COMP]` | Specify the econ comp | "[specify value]" |
+| `[ECON_GROWTH]` | Specify the econ growth | "[specify value]" |
+| `[ECON_RISK]` | Specify the econ risk | "[specify value]" |
+| `[ECON_SCORE]` | Specify the econ score | "[specify value]" |
+| `[GROSS_RENT_Y1]` | Specify the gross rent y1 | "[specify value]" |
+| `[OTHER_INCOME_Y1]` | Specify the other income y1 | "[specify value]" |
+| `[VACANCY_Y1]` | Specify the vacancy y1 | "[specify value]" |
+| `[EGI_Y1]` | Specify the egi y1 | "[specify value]" |
+| `[MGMT_Y1]` | Specify the mgmt y1 | "[specify value]" |
+| `[MAINT_Y1]` | Specify the maint y1 | "[specify value]" |
+| `[TAX_Y1]` | Specify the tax y1 | "[specify value]" |
+| `[INSURANCE_Y1]` | Specify the insurance y1 | "[specify value]" |
+| `[UTILITIES_Y1]` | Specify the utilities y1 | "[specify value]" |
+| `[OTHER_OPEX_Y1]` | Specify the other opex y1 | "[specify value]" |
+| `[TOTAL_OPEX_Y1]` | Specify the total opex y1 | "[specify value]" |
+| `[NOI_Y1]` | Specify the noi y1 | "[specify value]" |
+| `[DEBT_SERVICE_Y1]` | Specify the debt service y1 | "[specify value]" |
+| `[BTCF_Y1]` | Specify the btcf y1 | "[specify value]" |
+| `[ATCF_Y1]` | Specify the atcf y1 | "[specify value]" |
+| `[NOI_Y2]` | Specify the noi y2 | "[specify value]" |
+| `[NOI_Y3]` | Specify the noi y3 | "[specify value]" |
+| `[NOI_Y4]` | Specify the noi y4 | "[specify value]" |
+| `[NOI_Y5]` | Specify the noi y5 | "[specify value]" |
+| `[TERMINAL_VALUE]` | Specify the terminal value | "[specify value]" |
+| `[CAP_RATE]` | Specify the cap rate | "[specify value]" |
+| `[CAP_TARGET]` | Target or intended cap | "[specify value]" |
+| `[CAP_MARKET]` | Specify the cap market | "[specify value]" |
+| `[CAP_ADJUSTED]` | Specify the cap adjusted | "[specify value]" |
+| `[CAP_DECISION]` | Specify the cap decision | "[specify value]" |
+| `[COC_RATE]` | Specify the coc rate | "[specify value]" |
+| `[COC_TARGET]` | Target or intended coc | "[specify value]" |
+| `[COC_MARKET]` | Specify the coc market | "[specify value]" |
+| `[COC_ADJUSTED]` | Specify the coc adjusted | "[specify value]" |
+| `[COC_DECISION]` | Specify the coc decision | "[specify value]" |
+| `[IRR_UNLEV]` | Specify the irr unlev | "[specify value]" |
+| `[IRR_UNLEV_TARGET]` | Target or intended irr unlev | "[specify value]" |
+| `[IRR_UNLEV_MARKET]` | Specify the irr unlev market | "[specify value]" |
+| `[IRR_UNLEV_ADJ]` | Specify the irr unlev adj | "[specify value]" |
+| `[IRR_UNLEV_DEC]` | Specify the irr unlev dec | "[specify value]" |
+| `[IRR_LEV]` | Specify the irr lev | "[specify value]" |
+| `[IRR_LEV_TARGET]` | Target or intended irr lev | "[specify value]" |
+| `[IRR_LEV_MARKET]` | Specify the irr lev market | "[specify value]" |
+| `[IRR_LEV_ADJ]` | Specify the irr lev adj | "[specify value]" |
+| `[IRR_LEV_DEC]` | Specify the irr lev dec | "[specify value]" |
+| `[EQUITY_MULT]` | Specify the equity mult | "[specify value]" |
+| `[EQUITY_TARGET]` | Target or intended equity | "[specify value]" |
+| `[EQUITY_MARKET]` | Specify the equity market | "[specify value]" |
+| `[EQUITY_ADJ]` | Specify the equity adj | "[specify value]" |
+| `[EQUITY_DEC]` | Specify the equity dec | "[specify value]" |
+| `[PAYBACK]` | Specify the payback | "[specify value]" |
+| `[PAYBACK_TARGET]` | Target or intended payback | "[specify value]" |
+| `[PAYBACK_MARKET]` | Specify the payback market | "[specify value]" |
+| `[PAYBACK_ADJ]` | Specify the payback adj | "[specify value]" |
+| `[PAYBACK_DEC]` | Specify the payback dec | "[specify value]" |
+| `[SENIOR_AMOUNT]` | Specify the senior amount | "[specify value]" |
+| `[SENIOR_LTV]` | Specify the senior ltv | "[specify value]" |
+| `[SENIOR_RATE]` | Specify the senior rate | "[specify value]" |
+| `[SENIOR_TERM]` | Specify the senior term | "[specify value]" |
+| `[SENIOR_AMORT]` | Specify the senior amort | "[specify value]" |
+| `[SENIOR_SERVICE]` | Specify the senior service | "[specify value]" |
+| `[MEZZ_AMOUNT]` | Specify the mezz amount | "[specify value]" |
+| `[MEZZ_RATE]` | Specify the mezz rate | "[specify value]" |
+| `[MEZZ_TERM]` | Specify the mezz term | "[specify value]" |
+| `[MEZZ_PAYMENT]` | Specify the mezz payment | "[specify value]" |
+| `[MEZZ_SECURITY]` | Specify the mezz security | "[specify value]" |
+| `[LP_EQUITY]` | Specify the lp equity | "[specify value]" |
+| `[GP_EQUITY]` | Specify the gp equity | "[specify value]" |
+| `[TOTAL_EQUITY]` | Specify the total equity | "[specify value]" |
+| `[EQUITY_SPLIT]` | Specify the equity split | "[specify value]" |
+| `[PREF_RETURN]` | Specify the pref return | "[specify value]" |
+| `[PROMOTE]` | Specify the promote | "[specify value]" |
+| `[DEBT_TOTAL]` | Specify the debt total | "[specify value]" |
+| `[EQUITY_TOTAL]` | Specify the equity total | "[specify value]" |
+| `[TOTAL_SOURCES]` | Specify the total sources | "[specify value]" |
+| `[PURCHASE]` | Specify the purchase | "[specify value]" |
+| `[CLOSING]` | Specify the closing | "[specify value]" |
+| `[RENOVATION]` | Specify the renovation | "[specify value]" |
+| `[RESERVES]` | Specify the reserves | "[specify value]" |
+| `[TOTAL_USES]` | Specify the total uses | "[specify value]" |
+| `[MARKET_PROB]` | Specify the market prob | "[specify value]" |
+| `[MARKET_IMPACT]` | Specify the market impact | "[specify value]" |
+| `[MARKET_MITIGATE]` | Specify the market mitigate | "[specify value]" |
+| `[MARKET_CONTINGENCY]` | Specify the market contingency | "[specify value]" |
+| `[TENANT_PROB]` | Specify the tenant prob | "[specify value]" |
+| `[TENANT_IMPACT]` | Specify the tenant impact | "[specify value]" |
+| `[TENANT_MITIGATE]` | Specify the tenant mitigate | "[specify value]" |
+| `[TENANT_CONTINGENCY]` | Specify the tenant contingency | "[specify value]" |
+| `[OP_PROB]` | Specify the op prob | "[specify value]" |
+| `[OP_IMPACT]` | Specify the op impact | "[specify value]" |
+| `[OP_SCORE]` | Specify the op score | "[specify value]" |
+| `[OP_MITIGATE]` | Specify the op mitigate | "[specify value]" |
+| `[OP_CONTINGENCY]` | Specify the op contingency | "[specify value]" |
+| `[FIN_PROB]` | Specify the fin prob | "[specify value]" |
+| `[FIN_IMPACT]` | Specify the fin impact | "[specify value]" |
+| `[FIN_SCORE]` | Specify the fin score | "[specify value]" |
+| `[FIN_MITIGATE]` | Specify the fin mitigate | "[specify value]" |
+| `[FIN_CONTINGENCY]` | Specify the fin contingency | "[specify value]" |
+| `[REG_PROB]` | Specify the reg prob | "[specify value]" |
+| `[REG_IMPACT]` | Specify the reg impact | "[specify value]" |
+| `[REG_SCORE]` | Specify the reg score | "[specify value]" |
+| `[REG_MITIGATE]` | Specify the reg mitigate | "[specify value]" |
+| `[REG_CONTINGENCY]` | Specify the reg contingency | "[specify value]" |
+| `[ENV_PROB]` | Specify the env prob | "[specify value]" |
+| `[ENV_IMPACT]` | Specify the env impact | "[specify value]" |
+| `[ENV_SCORE]` | Specify the env score | "[specify value]" |
+| `[ENV_MITIGATE]` | Specify the env mitigate | "[specify value]" |
+| `[ENV_CONTINGENCY]` | Specify the env contingency | "[specify value]" |
+| `[RENT_BASE]` | Specify the rent base | "[specify value]" |
+| `[RENT_DOWN]` | Specify the rent down | "[specify value]" |
+| `[RENT_UP]` | Specify the rent up | "[specify value]" |
+| `[RENT_IRR_IMPACT]` | Specify the rent irr impact | "[specify value]" |
+| `[RENT_BREAKEVEN]` | Specify the rent breakeven | "[specify value]" |
+| `[OCC_BASE]` | Specify the occ base | "[specify value]" |
+| `[OCC_DOWN]` | Specify the occ down | "[specify value]" |
+| `[OCC_UP]` | Specify the occ up | "[specify value]" |
+| `[OCC_IRR_IMPACT]` | Specify the occ irr impact | "[specify value]" |
+| `[OCC_BREAKEVEN]` | Specify the occ breakeven | "[specify value]" |
+| `[OPEX_BASE]` | Specify the opex base | "[specify value]" |
+| `[OPEX_DOWN]` | Specify the opex down | "[specify value]" |
+| `[OPEX_UP]` | Specify the opex up | "[specify value]" |
+| `[OPEX_IRR_IMPACT]` | Specify the opex irr impact | "[specify value]" |
+| `[OPEX_BREAKEVEN]` | Specify the opex breakeven | "[specify value]" |
+| `[EXIT_BASE]` | Specify the exit base | "[specify value]" |
+| `[EXIT_DOWN]` | Specify the exit down | "[specify value]" |
+| `[EXIT_UP]` | Specify the exit up | "[specify value]" |
+| `[EXIT_IRR_IMPACT]` | Specify the exit irr impact | "[specify value]" |
+| `[EXIT_BREAKEVEN]` | Specify the exit breakeven | "[specify value]" |
+| `[INT_BASE]` | Specify the int base | "[specify value]" |
+| `[INT_DOWN]` | Specify the int down | "[specify value]" |
+| `[INT_UP]` | Specify the int up | "[specify value]" |
+| `[INT_IRR_IMPACT]` | Specify the int irr impact | "[specify value]" |
+| `[INT_BREAKEVEN]` | Specify the int breakeven | "[specify value]" |
+| `[RENO_BASE]` | Specify the reno base | "[specify value]" |
+| `[RENO_DOWN]` | Specify the reno down | "[specify value]" |
+| `[RENO_UP]` | Specify the reno up | "[specify value]" |
+| `[RENO_IRR_IMPACT]` | Specify the reno irr impact | "[specify value]" |
+| `[RENO_BREAKEVEN]` | Specify the reno breakeven | "[specify value]" |
+| `[CAPEX_IMPROVE]` | Specify the capex improve | "[specify value]" |
+| `[UNIT_RENO]` | Specify the unit reno | "[specify value]" |
+| `[AMENITY_UPGRADE]` | Specify the amenity upgrade | "[specify value]" |
+| `[CURB_APPEAL]` | Specify the curb appeal | "[specify value]" |
+| `[IMPROVE_ROI]` | Specify the improve roi | "[specify value]" |
+| `[MGMT_CHANGE]` | Specify the mgmt change | "[specify value]" |
+| `[EXPENSE_REDUCE]` | Specify the expense reduce | "[specify value]" |
+| `[REV_MGMT]` | Specify the rev mgmt | "[specify value]" |
+| `[ANCILLARY]` | Specify the ancillary | "[specify value]" |
+| `[OP_ROI]` | Specify the op roi | "[specify value]" |
+| `[TENANT_MIX]` | Specify the tenant mix | "[specify value]" |
+| `[REBRAND]` | Specify the rebrand | "[specify value]" |
+| `[MARKET_POSITION]` | Specify the market position | "[specify value]" |
+| `[RENT_PREMIUM]` | Specify the rent premium | "[specify value]" |
+| `[STABILIZE_TIME]` | Specify the stabilize time | "[specify value]" |
+| `[PROPTECH]` | Specify the proptech | "[specify value]" |
+| `[AUTOMATION]` | Specify the automation | "[specify value]" |
+| `[ENERGY_EFF]` | Specify the energy eff | "[specify value]" |
+| `[SMART_BUILD]` | Specify the smart build | "[specify value]" |
+| `[TECH_ROI]` | Specify the tech roi | "[specify value]" |
+| `[INST_TIME]` | Specify the inst time | "[specify value]" |
+| `[INST_VALUE]` | Specify the inst value | "[specify value]" |
+| `[INST_PROCEEDS]` | Specify the inst proceeds | "[specify value]" |
+| `[INST_IRR]` | Specify the inst irr | "[specify value]" |
+| `[INST_PROB]` | Specify the inst prob | "[specify value]" |
+| `[PRIV_TIME]` | Specify the priv time | "[specify value]" |
+| `[PRIV_VALUE]` | Specify the priv value | "[specify value]" |
+| `[PRIV_PROCEEDS]` | Specify the priv proceeds | "[specify value]" |
+| `[PRIV_IRR]` | Specify the priv irr | "[specify value]" |
+| `[PRIV_PROB]` | Specify the priv prob | "[specify value]" |
+| `[REFI_TIME]` | Specify the refi time | "[specify value]" |
+| `[REFI_VALUE]` | Specify the refi value | "[specify value]" |
+| `[REFI_PROCEEDS]` | Specify the refi proceeds | "[specify value]" |
+| `[REFI_IRR]` | Specify the refi irr | "[specify value]" |
+| `[REFI_PROB]` | Specify the refi prob | "[specify value]" |
+| `[PART_TIME]` | Specify the part time | "[specify value]" |
+| `[PART_VALUE]` | Specify the part value | "[specify value]" |
+| `[PART_PROCEEDS]` | Specify the part proceeds | "[specify value]" |
+| `[PART_IRR]` | Specify the part irr | "[specify value]" |
+| `[PART_PROB]` | Specify the part prob | "[specify value]" |
+| `[REIT_TIME]` | Specify the reit time | "[specify value]" |
+| `[REIT_VALUE]` | Specify the reit value | "[specify value]" |
+| `[REIT_PROCEEDS]` | Specify the reit proceeds | "[specify value]" |
+| `[REIT_IRR]` | Specify the reit irr | "[specify value]" |
+| `[REIT_PROB]` | Specify the reit prob | "[specify value]" |
+| `[EXCH_TIME]` | Specify the exch time | "[specify value]" |
+| `[EXCH_VALUE]` | Specify the exch value | "[specify value]" |
+| `[EXCH_PROCEEDS]` | Specify the exch proceeds | "[specify value]" |
+| `[EXCH_IRR]` | Specify the exch irr | "[specify value]" |
+| `[EXCH_PROB]` | Specify the exch prob | "[specify value]" |
+| `[FIN_STATUS]` | Specify the fin status | "In Progress" |
+| `[FIN_FINDINGS]` | Specify the fin findings | "[specify value]" |
+| `[FIN_FLAGS]` | Specify the fin flags | "[specify value]" |
+| `[FIN_COST]` | Specify the fin cost | "[specify value]" |
+| `[FIN_DEAL]` | Specify the fin deal | "[specify value]" |
+| `[PHYS_STATUS]` | Specify the phys status | "In Progress" |
+| `[PHYS_FINDINGS]` | Specify the phys findings | "[specify value]" |
+| `[PHYS_FLAGS]` | Specify the phys flags | "[specify value]" |
+| `[PHYS_COST]` | Specify the phys cost | "[specify value]" |
+| `[PHYS_DEAL]` | Specify the phys deal | "[specify value]" |
+| `[ENV_STATUS]` | Specify the env status | "In Progress" |
+| `[ENV_FINDINGS]` | Specify the env findings | "[specify value]" |
+| `[ENV_FLAGS]` | Specify the env flags | "[specify value]" |
+| `[ENV_COST]` | Specify the env cost | "[specify value]" |
+| `[ENV_DEAL]` | Specify the env deal | "[specify value]" |
+| `[LEGAL_STATUS]` | Specify the legal status | "In Progress" |
+| `[LEGAL_FINDINGS]` | Specify the legal findings | "[specify value]" |
+| `[LEGAL_FLAGS]` | Specify the legal flags | "[specify value]" |
+| `[LEGAL_COST]` | Specify the legal cost | "[specify value]" |
+| `[LEGAL_DEAL]` | Specify the legal deal | "[specify value]" |
+| `[MARKET_FINDINGS]` | Specify the market findings | "[specify value]" |
+| `[MARKET_FLAGS]` | Specify the market flags | "[specify value]" |
+| `[MARKET_COST]` | Specify the market cost | "[specify value]" |
+| `[MARKET_DEAL]` | Specify the market deal | "[specify value]" |
+| `[TENANT_FINDINGS]` | Specify the tenant findings | "[specify value]" |
+| `[TENANT_FLAGS]` | Specify the tenant flags | "[specify value]" |
+| `[TENANT_COST]` | Specify the tenant cost | "[specify value]" |
+| `[TENANT_DEAL]` | Specify the tenant deal | "[specify value]" |
+| `[CORE_STRATEGY]` | Strategy or approach for core | "[specify value]" |
+| `[VALUE_DRIVERS]` | Specify the value drivers | "[specify value]" |
+| `[COMP_ADVANTAGES]` | Specify the comp advantages | "[specify value]" |
+| `[RISK_RETURN]` | Specify the risk return | "[specify value]" |
+| `[INVEST_PERIOD]` | Specify the invest period | "[specify value]" |
+| `[PURCHASE_SUMMARY]` | Specify the purchase summary | "[specify value]" |
+| `[ALLIN_BASIS]` | Specify the allin basis | "[specify value]" |
+| `[TARGET_IRR]` | Target or intended irr | "[specify value]" |
+| `[TARGET_MULTIPLE]` | Target or intended multiple | "[specify value]" |
+| `[HOLD_SUMMARY]` | Specify the hold summary | "[specify value]" |
+| `[HIGHLIGHT_1]` | Specify the highlight 1 | "[specify value]" |
+| `[HIGHLIGHT_2]` | Specify the highlight 2 | "[specify value]" |
+| `[HIGHLIGHT_3]` | Specify the highlight 3 | "[specify value]" |
+| `[HIGHLIGHT_4]` | Specify the highlight 4 | "[specify value]" |
+| `[HIGHLIGHT_5]` | Specify the highlight 5 | "[specify value]" |
+| `[RISK_1]` | Specify the risk 1 | "[specify value]" |
+| `[RISK_2]` | Specify the risk 2 | "[specify value]" |
+| `[RISK_3]` | Specify the risk 3 | "[specify value]" |
+| `[RISK_4]` | Specify the risk 4 | "[specify value]" |
+| `[RISK_5]` | Specify the risk 5 | "[specify value]" |
+| `[RECOMMEND_DECISION]` | Specify the recommend decision | "[specify value]" |
+| `[RECOMMEND_CONDITIONS]` | Specify the recommend conditions | "[specify value]" |
+| `[RECOMMEND_TIMELINE]` | Timeline or schedule for recommend | "6 months" |
+| `[RECOMMEND_NEXT]` | Specify the recommend next | "[specify value]" |
+
+
 
 ### 3. Return Metrics & Investment Criteria
 

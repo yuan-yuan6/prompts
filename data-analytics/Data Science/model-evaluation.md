@@ -1,3 +1,18 @@
+---
+title: Model Evaluation & Validation Framework Template
+category: data-analytics/Data Science
+tags: [data-analytics, data-science, design, framework, machine-learning, optimization, research, security]
+use_cases:
+  - Implementing design and implement comprehensive model evaluation and validation frameworks to...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - dashboard-design-patterns.md
+  - data-governance-framework.md
+  - predictive-modeling-framework.md
+last_updated: 2025-11-09
+---
+
 # Model Evaluation & Validation Framework Template
 
 ## Purpose

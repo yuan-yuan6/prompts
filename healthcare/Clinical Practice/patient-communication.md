@@ -1,3 +1,18 @@
+---
+title: Patient Communication Template
+category: healthcare/Clinical Practice
+tags: [communication, healthcare, template]
+use_cases:
+  - Implementing develop effective patient communication strategies including education, instruct...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - telemedicine-platform-design.md
+  - patient-care-pathway.md
+  - clinical-trials-management.md
+last_updated: 2025-11-09
+---
+
 # Patient Communication Template
 
 ## Purpose

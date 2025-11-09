@@ -1,3 +1,18 @@
+---
+title: Contract Management Template Generator
+category: professional-services/legal-compliance/Contract Management
+tags: [design, documentation, machine-learning, management, optimization, professional-services, security, strategy]
+use_cases:
+  - Implementing create comprehensive contract management strategies covering contract lifecycle ...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - regulatory-compliance-framework.md
+  - contract-drafting-template.md
+  - intellectual-property-management.md
+last_updated: 2025-11-09
+---
+
 # Contract Management Template Generator
 
 ## Purpose

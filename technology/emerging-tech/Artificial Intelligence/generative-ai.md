@@ -1,3 +1,16 @@
+---
+title: Generative AI Template
+category: technology/emerging-tech/Artificial Intelligence
+tags: [design, machine-learning, optimization, security, technology, template]
+use_cases:
+  - Implementing design comprehensive generative ai systems, large language model implementations...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - generative-ai-implementation.md
+last_updated: 2025-11-09
+---
+
 # Generative AI Template
 
 ## Purpose

@@ -1,3 +1,14 @@
+---
+title: Tax Planning Template
+category: personal/Financial Management
+tags: [data-science, management, optimization, personal, research, security, strategy, template]
+use_cases:
+  - Implementing develop comprehensive tax strategies including deduction optimization, complianc...
+  - Project planning and execution
+  - Strategy development
+last_updated: 2025-11-09
+---
+
 # Tax Planning Template
 
 ## Purpose

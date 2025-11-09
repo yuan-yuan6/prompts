@@ -1,3 +1,14 @@
+---
+title: Learning Projects Template
+category: personal/Lifestyle & Hobbies
+tags: [communication, design, development, optimization, personal, research, template]
+use_cases:
+  - Implementing develop structured learning initiatives including language acquisition, skill de...
+  - Project planning and execution
+  - Strategy development
+last_updated: 2025-11-09
+---
+
 # Learning Projects Template
 
 ## Purpose

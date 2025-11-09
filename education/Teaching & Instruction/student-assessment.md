@@ -1,3 +1,17 @@
+---
+title: Student Assessment Template Generator
+category: education/Teaching & Instruction
+tags: [communication, data-science, design, development, education, optimization, strategy, template]
+use_cases:
+  - Implementing create comprehensive student assessment strategies covering formative and summat...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - curriculum-development.md
+  - curriculum-development-framework.md
+last_updated: 2025-11-09
+---
+
 # Student Assessment Template Generator
 
 ## Purpose

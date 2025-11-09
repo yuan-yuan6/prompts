@@ -1,3 +1,18 @@
+---
+title: Business Planning Template Generator
+category: business/Strategic Management
+tags: [business, data-science, design, documentation, machine-learning, optimization, research, strategy]
+use_cases:
+  - Implementing create comprehensive business plans that cover strategy, roadmaps, and vision st...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - okr-implementation-framework.md
+  - digital-transformation-roadmap.md
+  - lean-six-sigma-implementation.md
+last_updated: 2025-11-09
+---
+
 # Business Planning Template Generator
 
 ## Purpose

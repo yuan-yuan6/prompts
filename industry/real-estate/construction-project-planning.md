@@ -1,3 +1,14 @@
+---
+title: Construction Project Planning & Management Framework
+category: industry/real-estate
+tags: [design, development, framework, industry, management, strategy, testing]
+use_cases:
+  - Implementing comprehensive framework for planning and executing construction projects includi...
+  - Project planning and execution
+  - Strategy development
+last_updated: 2025-11-09
+---
+
 # Construction Project Planning & Management Framework
 
 ## Purpose
@@ -55,6 +66,297 @@ Schedule Controls:
 - Change Management: [CHANGE_MANAGEMENT]
 - Reporting Frequency: [REPORTING_FREQUENCY]
 ```
+
+## Variables
+
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `[PROJECT_NAME]` | Name of the project | "Digital Transformation Initiative" |
+| `[PROJECT_VALUE]` | Specify the project value | "[specify value]" |
+| `[PROJECT_DURATION]` | Specify the project duration | "6 months" |
+| `[SQUARE_FOOTAGE]` | Specify the square footage | "[specify value]" |
+| `[COMPLEXITY_LEVEL]` | Specify the complexity level | "[specify value]" |
+| `[CONTRACTOR_COUNT]` | Specify the contractor count | "10" |
+| `[WORKER_COUNT]` | Specify the worker count | "10" |
+| `[QUALITY_STANDARD]` | Specify the quality standard | "[specify value]" |
+| `[SAFETY_TARGET]` | Target or intended safety | "[specify value]" |
+| `[COMPLETION_DATE]` | Specify the completion date | "2025-01-15" |
+| `[PRECON_SCOPE]` | Scope or boundaries of precon | "[specify value]" |
+| `[PRECON_DURATION]` | Specify the precon duration | "6 months" |
+| `[PRECON_BUDGET]` | Budget allocation for precon | "$500,000" |
+| `[PRECON_DELIVERABLES]` | Specify the precon deliverables | "[specify value]" |
+| `[PRECON_CRITERIA]` | Specify the precon criteria | "[specify value]" |
+| `[SITE_SCOPE]` | Scope or boundaries of site | "[specify value]" |
+| `[SITE_DURATION]` | Specify the site duration | "6 months" |
+| `[SITE_BUDGET]` | Budget allocation for site | "$500,000" |
+| `[SITE_DELIVERABLES]` | Specify the site deliverables | "[specify value]" |
+| `[SITE_CRITERIA]` | Specify the site criteria | "[specify value]" |
+| `[FOUNDATION_SCOPE]` | Scope or boundaries of foundation | "[specify value]" |
+| `[FOUNDATION_DURATION]` | Specify the foundation duration | "6 months" |
+| `[FOUNDATION_BUDGET]` | Budget allocation for foundation | "$500,000" |
+| `[FOUNDATION_DELIVERABLES]` | Specify the foundation deliverables | "[specify value]" |
+| `[FOUNDATION_CRITERIA]` | Specify the foundation criteria | "[specify value]" |
+| `[STRUCTURAL_SCOPE]` | Scope or boundaries of structural | "[specify value]" |
+| `[STRUCTURAL_DURATION]` | Specify the structural duration | "6 months" |
+| `[STRUCTURAL_BUDGET]` | Budget allocation for structural | "$500,000" |
+| `[STRUCTURAL_DELIVERABLES]` | Specify the structural deliverables | "[specify value]" |
+| `[STRUCTURAL_CRITERIA]` | Specify the structural criteria | "[specify value]" |
+| `[MEP_SCOPE]` | Scope or boundaries of mep | "[specify value]" |
+| `[MEP_DURATION]` | Specify the mep duration | "6 months" |
+| `[MEP_BUDGET]` | Budget allocation for mep | "$500,000" |
+| `[MEP_DELIVERABLES]` | Specify the mep deliverables | "[specify value]" |
+| `[MEP_CRITERIA]` | Specify the mep criteria | "[specify value]" |
+| `[FINISHING_SCOPE]` | Scope or boundaries of finishing | "[specify value]" |
+| `[FINISHING_DURATION]` | Specify the finishing duration | "6 months" |
+| `[FINISHING_BUDGET]` | Budget allocation for finishing | "$500,000" |
+| `[FINISHING_DELIVERABLES]` | Specify the finishing deliverables | "[specify value]" |
+| `[FINISHING_CRITERIA]` | Specify the finishing criteria | "[specify value]" |
+| `[START_DATE]` | Specify the start date | "2025-01-15" |
+| `[PERMIT_DATE]` | Specify the permit date | "2025-01-15" |
+| `[FOUNDATION_DATE]` | Specify the foundation date | "2025-01-15" |
+| `[STRUCTURE_DATE]` | Specify the structure date | "2025-01-15" |
+| `[MEP_ROUGHIN_DATE]` | Specify the mep roughin date | "2025-01-15" |
+| `[SUBSTANTIAL_DATE]` | Specify the substantial date | "2025-01-15" |
+| `[PREDECESSOR_ACTIVITIES]` | Specify the predecessor activities | "[specify value]" |
+| `[SUCCESSOR_ACTIVITIES]` | Specify the successor activities | "[specify value]" |
+| `[PARALLEL_ACTIVITIES]` | Specify the parallel activities | "[specify value]" |
+| `[FLOAT_ANALYSIS]` | Specify the float analysis | "[specify value]" |
+| `[CRITICAL_ACTIVITIES]` | Specify the critical activities | "[specify value]" |
+| `[BUFFER_MANAGEMENT]` | Specify the buffer management | "[specify value]" |
+| `[LABOR_DISTRIBUTION]` | Specify the labor distribution | "[specify value]" |
+| `[EQUIPMENT_SCHEDULING]` | Specify the equipment scheduling | "[specify value]" |
+| `[MATERIAL_DELIVERY]` | Specify the material delivery | "[specify value]" |
+| `[SUB_COORDINATION]` | Specify the sub coordination | "[specify value]" |
+| `[PEAK_RESOURCES]` | Specify the peak resources | "[specify value]" |
+| `[RESOURCE_CONFLICTS]` | Specify the resource conflicts | "[specify value]" |
+| `[PROGRESS_TRACKING]` | Specify the progress tracking | "[specify value]" |
+| `[EVA_ANALYSIS]` | Specify the eva analysis | "[specify value]" |
+| `[SCHEDULE_VARIANCE]` | Specify the schedule variance | "[specify value]" |
+| `[RECOVERY_PLANS]` | Specify the recovery plans | "[specify value]" |
+| `[CHANGE_MANAGEMENT]` | Specify the change management | "[specify value]" |
+| `[REPORTING_FREQUENCY]` | Specify the reporting frequency | "[specify value]" |
+| `[LABOR_ESTIMATE]` | Specify the labor estimate | "[specify value]" |
+| `[LABOR_ACTUAL]` | Specify the labor actual | "[specify value]" |
+| `[LABOR_VARIANCE]` | Specify the labor variance | "[specify value]" |
+| `[LABOR_PERCENT]` | Specify the labor percent | "25%" |
+| `[LABOR_CONTROLS]` | Specify the labor controls | "[specify value]" |
+| `[MATERIAL_ESTIMATE]` | Specify the material estimate | "[specify value]" |
+| `[MATERIAL_ACTUAL]` | Specify the material actual | "[specify value]" |
+| `[MATERIAL_VARIANCE]` | Specify the material variance | "[specify value]" |
+| `[MATERIAL_PERCENT]` | Specify the material percent | "25%" |
+| `[MATERIAL_CONTROLS]` | Specify the material controls | "[specify value]" |
+| `[EQUIPMENT_ESTIMATE]` | Specify the equipment estimate | "[specify value]" |
+| `[EQUIPMENT_ACTUAL]` | Specify the equipment actual | "[specify value]" |
+| `[EQUIPMENT_VARIANCE]` | Specify the equipment variance | "[specify value]" |
+| `[EQUIPMENT_PERCENT]` | Specify the equipment percent | "25%" |
+| `[EQUIPMENT_CONTROLS]` | Specify the equipment controls | "[specify value]" |
+| `[SUB_ESTIMATE]` | Specify the sub estimate | "[specify value]" |
+| `[SUB_ACTUAL]` | Specify the sub actual | "[specify value]" |
+| `[SUB_VARIANCE]` | Specify the sub variance | "[specify value]" |
+| `[SUB_PERCENT]` | Specify the sub percent | "25%" |
+| `[SUB_CONTROLS]` | Specify the sub controls | "[specify value]" |
+| `[OVERHEAD_ESTIMATE]` | Specify the overhead estimate | "[specify value]" |
+| `[OVERHEAD_ACTUAL]` | Specify the overhead actual | "[specify value]" |
+| `[OVERHEAD_VARIANCE]` | Specify the overhead variance | "[specify value]" |
+| `[OVERHEAD_PERCENT]` | Specify the overhead percent | "25%" |
+| `[OVERHEAD_CONTROLS]` | Specify the overhead controls | "[specify value]" |
+| `[CONTINGENCY_ESTIMATE]` | Specify the contingency estimate | "[specify value]" |
+| `[CONTINGENCY_ACTUAL]` | Specify the contingency actual | "[specify value]" |
+| `[CONTINGENCY_VARIANCE]` | Specify the contingency variance | "[specify value]" |
+| `[CONTINGENCY_PERCENT]` | Specify the contingency percent | "25%" |
+| `[CONTINGENCY_CONTROLS]` | Specify the contingency controls | "[specify value]" |
+| `[PM_COUNT]` | Specify the pm count | "10" |
+| `[SUPERVISOR_COUNT]` | Specify the supervisor count | "10" |
+| `[SKILLED_COUNT]` | Specify the skilled count | "10" |
+| `[GENERAL_COUNT]` | Specify the general count | "10" |
+| `[SPECIALIST_COUNT]` | Specify the specialist count | "10" |
+| `[SUPPORT_COUNT]` | Specify the support count | "10" |
+| `[HEAVY_EQUIPMENT]` | Specify the heavy equipment | "[specify value]" |
+| `[POWER_TOOLS]` | Specify the power tools | "[specify value]" |
+| `[SAFETY_EQUIPMENT]` | Specify the safety equipment | "[specify value]" |
+| `[TEMP_STRUCTURES]` | Specify the temp structures | "[specify value]" |
+| `[TRANSPORTATION]` | Specify the transportation | "[specify value]" |
+| `[TECH_TOOLS]` | Specify the tech tools | "[specify value]" |
+| `[PROCUREMENT_SCHEDULE]` | Specify the procurement schedule | "[specify value]" |
+| `[SUPPLIER_CONTRACTS]` | Specify the supplier contracts | "[specify value]" |
+| `[INVENTORY_CONTROL]` | Specify the inventory control | "[specify value]" |
+| `[STORAGE_FACILITIES]` | Specify the storage facilities | "[specify value]" |
+| `[JIT_DELIVERY]` | Specify the jit delivery | "[specify value]" |
+| `[WASTE_MANAGEMENT]` | Specify the waste management | "[specify value]" |
+| `[SUB_SELECTION]` | Specify the sub selection | "[specify value]" |
+| `[SUB_CONTRACTS]` | Specify the sub contracts | "[specify value]" |
+| `[SUB_STANDARDS]` | Specify the sub standards | "[specify value]" |
+| `[SUB_PAYMENTS]` | Specify the sub payments | "[specify value]" |
+| `[SUB_QUALITY]` | Specify the sub quality | "[specify value]" |
+| `[SUB_INTEGRATION]` | Specify the sub integration | "[specify value]" |
+| `[DESIGN_STANDARDS]` | Specify the design standards | "[specify value]" |
+| `[DESIGN_INSPECTION]` | Specify the design inspection | "[specify value]" |
+| `[DESIGN_FREQUENCY]` | Specify the design frequency | "[specify value]" |
+| `[DESIGN_CRITERIA]` | Specify the design criteria | "[specify value]" |
+| `[DESIGN_ACTIONS]` | Specify the design actions | "[specify value]" |
+| `[MATERIAL_STANDARDS]` | Specify the material standards | "[specify value]" |
+| `[MATERIAL_INSPECTION]` | Specify the material inspection | "[specify value]" |
+| `[MATERIAL_FREQUENCY]` | Specify the material frequency | "[specify value]" |
+| `[MATERIAL_CRITERIA]` | Specify the material criteria | "[specify value]" |
+| `[MATERIAL_ACTIONS]` | Specify the material actions | "[specify value]" |
+| `[WORK_STANDARDS]` | Specify the work standards | "[specify value]" |
+| `[WORK_INSPECTION]` | Specify the work inspection | "[specify value]" |
+| `[WORK_FREQUENCY]` | Specify the work frequency | "[specify value]" |
+| `[WORK_CRITERIA]` | Specify the work criteria | "[specify value]" |
+| `[WORK_ACTIONS]` | Specify the work actions | "[specify value]" |
+| `[STRUCTURAL_STANDARDS]` | Specify the structural standards | "[specify value]" |
+| `[STRUCTURAL_INSPECTION]` | Specify the structural inspection | "[specify value]" |
+| `[STRUCTURAL_FREQUENCY]` | Specify the structural frequency | "[specify value]" |
+| `[STRUCTURAL_ACTIONS]` | Specify the structural actions | "[specify value]" |
+| `[MEP_STANDARDS]` | Specify the mep standards | "[specify value]" |
+| `[MEP_INSPECTION]` | Specify the mep inspection | "[specify value]" |
+| `[MEP_FREQUENCY]` | Specify the mep frequency | "[specify value]" |
+| `[MEP_ACTIONS]` | Specify the mep actions | "[specify value]" |
+| `[FINAL_STANDARDS]` | Specify the final standards | "[specify value]" |
+| `[FINAL_INSPECTION]` | Specify the final inspection | "[specify value]" |
+| `[FINAL_FREQUENCY]` | Specify the final frequency | "[specify value]" |
+| `[FINAL_CRITERIA]` | Specify the final criteria | "[specify value]" |
+| `[FINAL_ACTIONS]` | Specify the final actions | "[specify value]" |
+| `[SAFETY_PLAN_REQ]` | Specify the safety plan req | "[specify value]" |
+| `[SAFETY_PLAN_IMPL]` | Specify the safety plan impl | "[specify value]" |
+| `[SAFETY_PLAN_MONITOR]` | Specify the safety plan monitor | "[specify value]" |
+| `[SAFETY_PLAN_TRAINING]` | Specify the safety plan training | "[specify value]" |
+| `[SAFETY_PLAN_COMPLIANCE]` | Specify the safety plan compliance | "[specify value]" |
+| `[PPE_REQ]` | Specify the ppe req | "[specify value]" |
+| `[PPE_IMPL]` | Specify the ppe impl | "[specify value]" |
+| `[PPE_MONITOR]` | Specify the ppe monitor | "[specify value]" |
+| `[PPE_TRAINING]` | Specify the ppe training | "[specify value]" |
+| `[PPE_COMPLIANCE]` | Specify the ppe compliance | "[specify value]" |
+| `[FALL_REQ]` | Specify the fall req | "[specify value]" |
+| `[FALL_IMPL]` | Specify the fall impl | "[specify value]" |
+| `[FALL_MONITOR]` | Specify the fall monitor | "[specify value]" |
+| `[FALL_TRAINING]` | Specify the fall training | "[specify value]" |
+| `[FALL_COMPLIANCE]` | Specify the fall compliance | "[specify value]" |
+| `[HAZCOM_REQ]` | Specify the hazcom req | "[specify value]" |
+| `[HAZCOM_IMPL]` | Specify the hazcom impl | "[specify value]" |
+| `[HAZCOM_MONITOR]` | Specify the hazcom monitor | "[specify value]" |
+| `[HAZCOM_TRAINING]` | Specify the hazcom training | "[specify value]" |
+| `[HAZCOM_COMPLIANCE]` | Specify the hazcom compliance | "[specify value]" |
+| `[EQUIPMENT_REQ]` | Specify the equipment req | "[specify value]" |
+| `[EQUIPMENT_IMPL]` | Specify the equipment impl | "[specify value]" |
+| `[EQUIPMENT_MONITOR]` | Specify the equipment monitor | "[specify value]" |
+| `[EQUIPMENT_TRAINING]` | Specify the equipment training | "[specify value]" |
+| `[EQUIPMENT_COMPLIANCE]` | Specify the equipment compliance | "[specify value]" |
+| `[EMERGENCY_REQ]` | Specify the emergency req | "[specify value]" |
+| `[EMERGENCY_IMPL]` | Specify the emergency impl | "[specify value]" |
+| `[EMERGENCY_MONITOR]` | Specify the emergency monitor | "[specify value]" |
+| `[EMERGENCY_TRAINING]` | Specify the emergency training | "[specify value]" |
+| `[EMERGENCY_COMPLIANCE]` | Specify the emergency compliance | "[specify value]" |
+| `[OWNER_COMM_PLAN]` | Specify the owner comm plan | "[specify value]" |
+| `[OWNER_REPORTS]` | Specify the owner reports | "[specify value]" |
+| `[OWNER_DECISIONS]` | Specify the owner decisions | "[specify value]" |
+| `[OWNER_CHANGES]` | Specify the owner changes | "[specify value]" |
+| `[OWNER_APPROVALS]` | Specify the owner approvals | "[specify value]" |
+| `[OWNER_SATISFACTION]` | Specify the owner satisfaction | "[specify value]" |
+| `[ARCHITECT_COORD]` | Specify the architect coord | "[specify value]" |
+| `[ENGINEER_COLLAB]` | Specify the engineer collab | "[specify value]" |
+| `[DESIGN_REVIEWS]` | Specify the design reviews | "[specify value]" |
+| `[RFI_MANAGEMENT]` | Specify the rfi management | "[specify value]" |
+| `[SHOP_DRAWINGS]` | Specify the shop drawings | "[specify value]" |
+| `[ASBUILT_DOCS]` | Specify the asbuilt docs | "[specify value]" |
+| `[PERMIT_APPS]` | Specify the permit apps | "[specify value]" |
+| `[INSPECTION_SCHEDULE]` | Specify the inspection schedule | "[specify value]" |
+| `[CODE_COMPLIANCE]` | Specify the code compliance | "[specify value]" |
+| `[VARIANCE_REQUESTS]` | Specify the variance requests | "[specify value]" |
+| `[OCCUPANCY_CERTS]` | Specify the occupancy certs | "[specify value]" |
+| `[ENV_COMPLIANCE]` | Specify the env compliance | "[specify value]" |
+| `[NEIGHBOR_NOTICE]` | Specify the neighbor notice | "[specify value]" |
+| `[TRAFFIC_MGMT]` | Specify the traffic mgmt | "[specify value]" |
+| `[NOISE_CONTROL]` | Specify the noise control | "[specify value]" |
+| `[DUST_MITIGATION]` | Specify the dust mitigation | "[specify value]" |
+| `[PUBLIC_SAFETY]` | Specify the public safety | "[specify value]" |
+| `[COMMUNITY_BENEFITS]` | Specify the community benefits | "[specify value]" |
+| `[WEATHER_PROB]` | Specify the weather prob | "[specify value]" |
+| `[WEATHER_IMPACT]` | Specify the weather impact | "[specify value]" |
+| `[WEATHER_SCORE]` | Specify the weather score | "[specify value]" |
+| `[WEATHER_MITIGATION]` | Specify the weather mitigation | "[specify value]" |
+| `[WEATHER_CONTINGENCY]` | Specify the weather contingency | "[specify value]" |
+| `[MATERIAL_PROB]` | Specify the material prob | "[specify value]" |
+| `[MATERIAL_IMPACT]` | Specify the material impact | "[specify value]" |
+| `[MATERIAL_SCORE]` | Specify the material score | "[specify value]" |
+| `[MATERIAL_MITIGATION]` | Specify the material mitigation | "[specify value]" |
+| `[MATERIAL_CONTINGENCY]` | Specify the material contingency | "[specify value]" |
+| `[LABOR_PROB]` | Specify the labor prob | "[specify value]" |
+| `[LABOR_IMPACT]` | Specify the labor impact | "[specify value]" |
+| `[LABOR_SCORE]` | Specify the labor score | "[specify value]" |
+| `[LABOR_MITIGATION]` | Specify the labor mitigation | "[specify value]" |
+| `[LABOR_CONTINGENCY]` | Specify the labor contingency | "[specify value]" |
+| `[DESIGN_PROB]` | Specify the design prob | "[specify value]" |
+| `[DESIGN_IMPACT]` | Specify the design impact | "[specify value]" |
+| `[DESIGN_SCORE]` | Specify the design score | "[specify value]" |
+| `[DESIGN_MITIGATION]` | Specify the design mitigation | "[specify value]" |
+| `[DESIGN_CONTINGENCY]` | Specify the design contingency | "[specify value]" |
+| `[SITE_PROB]` | Specify the site prob | "[specify value]" |
+| `[SITE_IMPACT]` | Specify the site impact | "[specify value]" |
+| `[SITE_SCORE]` | Specify the site score | "[specify value]" |
+| `[SITE_MITIGATION]` | Specify the site mitigation | "[specify value]" |
+| `[SITE_CONTINGENCY]` | Specify the site contingency | "[specify value]" |
+| `[REG_PROB]` | Specify the reg prob | "[specify value]" |
+| `[REG_IMPACT]` | Specify the reg impact | "[specify value]" |
+| `[REG_SCORE]` | Specify the reg score | "[specify value]" |
+| `[REG_MITIGATION]` | Specify the reg mitigation | "[specify value]" |
+| `[REG_CONTINGENCY]` | Specify the reg contingency | "[specify value]" |
+| `[BIM_APPLICATION]` | Specify the bim application | "[specify value]" |
+| `[BIM_INVESTMENT]` | Specify the bim investment | "[specify value]" |
+| `[BIM_TRAINING]` | Specify the bim training | "[specify value]" |
+| `[BIM_BENEFITS]` | Specify the bim benefits | "[specify value]" |
+| `[BIM_ROI]` | Specify the bim roi | "[specify value]" |
+| `[PM_APPLICATION]` | Specify the pm application | "[specify value]" |
+| `[PM_INVESTMENT]` | Specify the pm investment | "[specify value]" |
+| `[PM_TRAINING]` | Specify the pm training | "[specify value]" |
+| `[PM_BENEFITS]` | Specify the pm benefits | "[specify value]" |
+| `[PM_ROI]` | Specify the pm roi | "[specify value]" |
+| `[DRONE_APPLICATION]` | Specify the drone application | "[specify value]" |
+| `[DRONE_INVESTMENT]` | Specify the drone investment | "[specify value]" |
+| `[DRONE_TRAINING]` | Specify the drone training | "[specify value]" |
+| `[DRONE_BENEFITS]` | Specify the drone benefits | "[specify value]" |
+| `[DRONE_ROI]` | Specify the drone roi | "[specify value]" |
+| `[IOT_APPLICATION]` | Specify the iot application | "[specify value]" |
+| `[IOT_INVESTMENT]` | Specify the iot investment | "[specify value]" |
+| `[IOT_TRAINING]` | Specify the iot training | "[specify value]" |
+| `[IOT_BENEFITS]` | Specify the iot benefits | "[specify value]" |
+| `[IOT_ROI]` | Specify the iot roi | "[specify value]" |
+| `[MOBILE_APPLICATION]` | Specify the mobile application | "[specify value]" |
+| `[MOBILE_INVESTMENT]` | Specify the mobile investment | "[specify value]" |
+| `[MOBILE_TRAINING]` | Specify the mobile training | "[specify value]" |
+| `[MOBILE_BENEFITS]` | Specify the mobile benefits | "[specify value]" |
+| `[MOBILE_ROI]` | Specify the mobile roi | "[specify value]" |
+| `[PREFAB_APPLICATION]` | Specify the prefab application | "[specify value]" |
+| `[PREFAB_INVESTMENT]` | Specify the prefab investment | "[specify value]" |
+| `[PREFAB_TRAINING]` | Specify the prefab training | "[specify value]" |
+| `[PREFAB_BENEFITS]` | Specify the prefab benefits | "[specify value]" |
+| `[PREFAB_ROI]` | Specify the prefab roi | "[specify value]" |
+| `[ASBUILT_DRAWINGS]` | Specify the asbuilt drawings | "[specify value]" |
+| `[OM_MANUALS]` | Specify the om manuals | "[specify value]" |
+| `[WARRANTY_DOCS]` | Specify the warranty docs | "[specify value]" |
+| `[INSPECTION_REPORTS]` | Specify the inspection reports | "[specify value]" |
+| `[COMPLIANCE_CERTS]` | Specify the compliance certs | "[specify value]" |
+| `[PROJECT_ARCHIVES]` | Specify the project archives | "[specify value]" |
+| `[PUNCH_LIST]` | Specify the punch list | "[specify value]" |
+| `[FINAL_WALKTHROUGH]` | Specify the final walkthrough | "[specify value]" |
+| `[SYSTEM_TESTING]` | Specify the system testing | "[specify value]" |
+| `[COMMISSIONING]` | Specify the commissioning | "[specify value]" |
+| `[AUTHORITY_INSPECT]` | Specify the authority inspect | "[specify value]" |
+| `[CLIENT_ACCEPTANCE]` | Specify the client acceptance | "[specify value]" |
+| `[FINAL_BILLING]` | Specify the final billing | "[specify value]" |
+| `[RETENTION_RELEASE]` | Specify the retention release | "[specify value]" |
+| `[LIEN_WAIVERS]` | Specify the lien waivers | "[specify value]" |
+| `[CO_RECONCILIATION]` | Specify the co reconciliation | "[specify value]" |
+| `[CLAIMS_RESOLUTION]` | Specify the claims resolution | "[specify value]" |
+| `[FINAL_ACCOUNTING]` | Specify the final accounting | "10" |
+| `[TRAINING_PROGRAMS]` | Specify the training programs | "[specify value]" |
+| `[MAINT_PROCEDURES]` | Specify the maint procedures | "[specify value]" |
+| `[SYSTEM_OPERATIONS]` | Specify the system operations | "[specify value]" |
+| `[EMERGENCY_PROCEDURES]` | Specify the emergency procedures | "[specify value]" |
+| `[CONTACT_INFO]` | Specify the contact info | "[specify value]" |
+| `[LESSONS_LEARNED]` | Specify the lessons learned | "[specify value]" |
+
+
 
 ### 3. Cost Estimation & Budget Control
 

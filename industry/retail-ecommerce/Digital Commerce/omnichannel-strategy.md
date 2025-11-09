@@ -1,3 +1,18 @@
+---
+title: Omnichannel Retail Strategy & Integration Framework
+category: industry/retail-ecommerce/Digital Commerce
+tags: [design, framework, industry, optimization, research, strategy, testing]
+use_cases:
+  - Implementing comprehensive framework for developing and implementing omnichannel retail strat...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - customer-experience-optimization.md
+  - dynamic-pricing-strategy.md
+  - product-sourcing-strategy.md
+last_updated: 2025-11-09
+---
+
 # Omnichannel Retail Strategy & Integration Framework
 
 ## Purpose
@@ -50,6 +65,268 @@ Post-Purchase:
 - Loyalty Engagement: [LOYALTY_ENGAGE]
 - Repeat Purchase: [REPEAT_CHANNEL]
 ```
+
+## Variables
+
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `[COMPANY_NAME]` | Name of the company | "Acme Corporation" |
+| `[CHANNEL_COUNT]` | Specify the channel count | "10" |
+| `[CUSTOMER_BASE]` | Specify the customer base | "[specify value]" |
+| `[SKU_COUNT]` | Specify the sku count | "10" |
+| `[CONVERSION_TARGET]` | Target or intended conversion | "[specify value]" |
+| `[CSAT_TARGET]` | Target or intended csat | "[specify value]" |
+| `[REVENUE_TARGET]` | Target or intended revenue | "[specify value]" |
+| `[STORE_PERF]` | Specify the store perf | "[specify value]" |
+| `[STORE_INT]` | Specify the store int | "[specify value]" |
+| `[STORE_USAGE]` | Specify the store usage | "[specify value]" |
+| `[STORE_REVENUE]` | Specify the store revenue | "[specify value]" |
+| `[STORE_PRIORITY]` | Specify the store priority | "High" |
+| `[WEB_PERF]` | Specify the web perf | "[specify value]" |
+| `[WEB_INT]` | Specify the web int | "[specify value]" |
+| `[WEB_USAGE]` | Specify the web usage | "[specify value]" |
+| `[WEB_REVENUE]` | Specify the web revenue | "[specify value]" |
+| `[WEB_PRIORITY]` | Specify the web priority | "High" |
+| `[APP_PERF]` | Specify the app perf | "[specify value]" |
+| `[APP_INT]` | Specify the app int | "[specify value]" |
+| `[APP_USAGE]` | Specify the app usage | "[specify value]" |
+| `[APP_REVENUE]` | Specify the app revenue | "[specify value]" |
+| `[APP_PRIORITY]` | Specify the app priority | "High" |
+| `[MARKET_PERF]` | Specify the market perf | "[specify value]" |
+| `[MARKET_INT]` | Specify the market int | "[specify value]" |
+| `[MARKET_USAGE]` | Specify the market usage | "[specify value]" |
+| `[MARKET_REVENUE]` | Specify the market revenue | "[specify value]" |
+| `[MARKET_PRIORITY]` | Specify the market priority | "High" |
+| `[SOCIAL_PERF]` | Specify the social perf | "[specify value]" |
+| `[SOCIAL_INT]` | Specify the social int | "[specify value]" |
+| `[SOCIAL_USAGE]` | Specify the social usage | "[specify value]" |
+| `[SOCIAL_REVENUE]` | Specify the social revenue | "[specify value]" |
+| `[SOCIAL_PRIORITY]` | Specify the social priority | "High" |
+| `[CALL_PERF]` | Specify the call perf | "[specify value]" |
+| `[CALL_INT]` | Specify the call int | "[specify value]" |
+| `[CALL_USAGE]` | Specify the call usage | "[specify value]" |
+| `[CALL_REVENUE]` | Specify the call revenue | "[specify value]" |
+| `[CALL_PRIORITY]` | Specify the call priority | "High" |
+| `[ONLINE_DISCOVERY]` | Specify the online discovery | "[specify value]" |
+| `[STORE_DISCOVERY]` | Specify the store discovery | "[specify value]" |
+| `[SOCIAL_DISCOVERY]` | Specify the social discovery | "[specify value]" |
+| `[MOBILE_DISCOVERY]` | Specify the mobile discovery | "[specify value]" |
+| `[DISCOVERY_SWITCH]` | Specify the discovery switch | "[specify value]" |
+| `[PRODUCT_COMPARE]` | Specify the product compare | "[specify value]" |
+| `[REVIEW_BEHAVIOR]` | Specify the review behavior | "[specify value]" |
+| `[PRICE_CHECK]` | Specify the price check | "[specify value]" |
+| `[STORE_VALIDATE]` | Specify the store validate | "2025-01-15" |
+| `[CONSIDER_CHANNEL]` | Specify the consider channel | "[specify value]" |
+| `[ONLINE_PURCHASE]` | Specify the online purchase | "[specify value]" |
+| `[STORE_PURCHASE]` | Specify the store purchase | "[specify value]" |
+| `[APP_PURCHASE]` | Specify the app purchase | "[specify value]" |
+| `[BOPIS_USAGE]` | Specify the bopis usage | "[specify value]" |
+| `[PURCHASE_ATTR]` | Specify the purchase attr | "[specify value]" |
+| `[DELIVERY_OPTIONS]` | Specify the delivery options | "[specify value]" |
+| `[RETURN_CHANNELS]` | Specify the return channels | "[specify value]" |
+| `[SUPPORT_CHANNELS]` | Specify the support channels | "[specify value]" |
+| `[LOYALTY_ENGAGE]` | Specify the loyalty engage | "[specify value]" |
+| `[REPEAT_CHANNEL]` | Specify the repeat channel | "[specify value]" |
+| `[SFS_CURRENT]` | Specify the sfs current | "[specify value]" |
+| `[SFS_TARGET]` | Target or intended sfs | "[specify value]" |
+| `[SFS_TECH]` | Specify the sfs tech | "[specify value]" |
+| `[SFS_COST]` | Specify the sfs cost | "[specify value]" |
+| `[SFS_CX]` | Specify the sfs cx | "[specify value]" |
+| `[BOPIS_CURRENT]` | Specify the bopis current | "[specify value]" |
+| `[BOPIS_TARGET]` | Target or intended bopis | "[specify value]" |
+| `[BOPIS_TECH]` | Specify the bopis tech | "[specify value]" |
+| `[BOPIS_COST]` | Specify the bopis cost | "[specify value]" |
+| `[BOPIS_CX]` | Specify the bopis cx | "[specify value]" |
+| `[CURB_CURRENT]` | Specify the curb current | "[specify value]" |
+| `[CURB_TARGET]` | Target or intended curb | "[specify value]" |
+| `[CURB_TECH]` | Specify the curb tech | "[specify value]" |
+| `[CURB_COST]` | Specify the curb cost | "[specify value]" |
+| `[CURB_CX]` | Specify the curb cx | "[specify value]" |
+| `[SAME_DAY_CURRENT]` | Specify the same day current | "[specify value]" |
+| `[SAME_DAY_TARGET]` | Target or intended same day | "[specify value]" |
+| `[SAME_DAY_TECH]` | Specify the same day tech | "[specify value]" |
+| `[SAME_DAY_COST]` | Specify the same day cost | "[specify value]" |
+| `[SAME_DAY_CX]` | Specify the same day cx | "[specify value]" |
+| `[STS_CURRENT]` | Specify the sts current | "[specify value]" |
+| `[STS_TARGET]` | Target or intended sts | "[specify value]" |
+| `[STS_TECH]` | Specify the sts tech | "[specify value]" |
+| `[STS_COST]` | Specify the sts cost | "[specify value]" |
+| `[STS_CX]` | Specify the sts cx | "[specify value]" |
+| `[ENDLESS_CURRENT]` | Specify the endless current | "[specify value]" |
+| `[ENDLESS_TARGET]` | Target or intended endless | "[specify value]" |
+| `[ENDLESS_TECH]` | Specify the endless tech | "[specify value]" |
+| `[ENDLESS_COST]` | Specify the endless cost | "[specify value]" |
+| `[ENDLESS_CX]` | Specify the endless cx | "[specify value]" |
+| `[COMMERCE_PLATFORM]` | Specify the commerce platform | "[specify value]" |
+| `[OMS_SYSTEM]` | Specify the oms system | "[specify value]" |
+| `[IMS_SYSTEM]` | Specify the ims system | "[specify value]" |
+| `[CRM_SYSTEM]` | Specify the crm system | "[specify value]" |
+| `[POS_SYSTEM]` | Specify the pos system | "[specify value]" |
+| `[API_GATEWAY]` | Specify the api gateway | "[specify value]" |
+| `[DATA_SYNC]` | Specify the data sync | "[specify value]" |
+| `[REALTIME_TECH]` | Specify the realtime tech | "[specify value]" |
+| `[MESSAGE_QUEUE]` | Specify the message queue | "[specify value]" |
+| `[EVENT_STREAM]` | Specify the event stream | "[specify value]" |
+| `[IDENTITY_TECH]` | Specify the identity tech | "[specify value]" |
+| `[PROFILE_TECH]` | Specify the profile tech | "[specify value]" |
+| `[BEHAVIOR_TECH]` | Specify the behavior tech | "[specify value]" |
+| `[PREF_TECH]` | Specify the pref tech | "[specify value]" |
+| `[PRIVACY_TECH]` | Specify the privacy tech | "[specify value]" |
+| `[BI_PLATFORM]` | Specify the bi platform | "[specify value]" |
+| `[CUSTOMER_ANALYTICS]` | Specify the customer analytics | "[specify value]" |
+| `[PREDICTIVE_TECH]` | Specify the predictive tech | "[specify value]" |
+| `[ATTRIBUTION_TECH]` | Specify the attribution tech | "[specify value]" |
+| `[MONITOR_TECH]` | Specify the monitor tech | "[specify value]" |
+| `[PRODUCT_CURRENT]` | Specify the product current | "[specify value]" |
+| `[PRODUCT_VISION]` | Specify the product vision | "[specify value]" |
+| `[PRODUCT_STEPS]` | Specify the product steps | "[specify value]" |
+| `[PRODUCT_METRICS]` | Specify the product metrics | "[specify value]" |
+| `[PRODUCT_TIME]` | Specify the product time | "[specify value]" |
+| `[PRICE_CURRENT]` | Specify the price current | "[specify value]" |
+| `[PRICE_VISION]` | Specify the price vision | "[specify value]" |
+| `[PRICE_STEPS]` | Specify the price steps | "[specify value]" |
+| `[PRICE_METRICS]` | Specify the price metrics | "[specify value]" |
+| `[PRICE_TIME]` | Specify the price time | "[specify value]" |
+| `[SERVICE_CURRENT]` | Specify the service current | "[specify value]" |
+| `[SERVICE_VISION]` | Specify the service vision | "[specify value]" |
+| `[SERVICE_STEPS]` | Specify the service steps | "[specify value]" |
+| `[SERVICE_METRICS]` | Specify the service metrics | "[specify value]" |
+| `[SERVICE_TIME]` | Specify the service time | "[specify value]" |
+| `[PAYMENT_CURRENT]` | Specify the payment current | "[specify value]" |
+| `[PAYMENT_VISION]` | Specify the payment vision | "[specify value]" |
+| `[PAYMENT_STEPS]` | Specify the payment steps | "[specify value]" |
+| `[PAYMENT_METRICS]` | Specify the payment metrics | "[specify value]" |
+| `[PAYMENT_TIME]` | Specify the payment time | "[specify value]" |
+| `[LOYALTY_CURRENT]` | Specify the loyalty current | "[specify value]" |
+| `[LOYALTY_VISION]` | Specify the loyalty vision | "[specify value]" |
+| `[LOYALTY_STEPS]` | Specify the loyalty steps | "[specify value]" |
+| `[LOYALTY_METRICS]` | Specify the loyalty metrics | "[specify value]" |
+| `[LOYALTY_TIME]` | Specify the loyalty time | "[specify value]" |
+| `[RETURNS_CURRENT]` | Specify the returns current | "[specify value]" |
+| `[RETURNS_VISION]` | Specify the returns vision | "[specify value]" |
+| `[RETURNS_STEPS]` | Specify the returns steps | "[specify value]" |
+| `[RETURNS_METRICS]` | Specify the returns metrics | "[specify value]" |
+| `[RETURNS_TIME]` | Specify the returns time | "[specify value]" |
+| `[MPOS_PURPOSE]` | Specify the mpos purpose | "[specify value]" |
+| `[MPOS_CUSTOMER]` | Specify the mpos customer | "[specify value]" |
+| `[MPOS_STAFF]` | Specify the mpos staff | "[specify value]" |
+| `[MPOS_ROI]` | Specify the mpos roi | "[specify value]" |
+| `[MPOS_ROLLOUT]` | Specify the mpos rollout | "[specify value]" |
+| `[SIGN_PURPOSE]` | Specify the sign purpose | "[specify value]" |
+| `[SIGN_CUSTOMER]` | Specify the sign customer | "[specify value]" |
+| `[SIGN_STAFF]` | Specify the sign staff | "[specify value]" |
+| `[SIGN_ROI]` | Specify the sign roi | "[specify value]" |
+| `[SIGN_ROLLOUT]` | Specify the sign rollout | "[specify value]" |
+| `[FIT_PURPOSE]` | Specify the fit purpose | "[specify value]" |
+| `[FIT_CUSTOMER]` | Specify the fit customer | "[specify value]" |
+| `[FIT_STAFF]` | Specify the fit staff | "[specify value]" |
+| `[FIT_ROI]` | Specify the fit roi | "[specify value]" |
+| `[FIT_ROLLOUT]` | Specify the fit rollout | "[specify value]" |
+| `[CLIENT_PURPOSE]` | Specify the client purpose | "[specify value]" |
+| `[CLIENT_CUSTOMER]` | Specify the client customer | "[specify value]" |
+| `[CLIENT_STAFF]` | Specify the client staff | "[specify value]" |
+| `[CLIENT_ROI]` | Specify the client roi | "[specify value]" |
+| `[CLIENT_ROLLOUT]` | Specify the client rollout | "[specify value]" |
+| `[AR_PURPOSE]` | Specify the ar purpose | "[specify value]" |
+| `[AR_CUSTOMER]` | Specify the ar customer | "[specify value]" |
+| `[AR_STAFF]` | Specify the ar staff | "[specify value]" |
+| `[AR_ROI]` | Specify the ar roi | "[specify value]" |
+| `[AR_ROLLOUT]` | Specify the ar rollout | "[specify value]" |
+| `[IOT_PURPOSE]` | Specify the iot purpose | "[specify value]" |
+| `[IOT_CUSTOMER]` | Specify the iot customer | "[specify value]" |
+| `[IOT_STAFF]` | Specify the iot staff | "[specify value]" |
+| `[IOT_ROI]` | Specify the iot roi | "[specify value]" |
+| `[IOT_ROLLOUT]` | Specify the iot rollout | "[specify value]" |
+| `[ONLINE_DATA]` | Specify the online data | "[specify value]" |
+| `[STORE_DATA]` | Specify the store data | "[specify value]" |
+| `[TRANS_DATA]` | Specify the trans data | "[specify value]" |
+| `[FEEDBACK_DATA]` | Specify the feedback data | "[specify value]" |
+| `[EXTERNAL_DATA]` | Specify the external data | "[specify value]" |
+| `[CUSTOMER_360]` | Specify the customer 360 | "[specify value]" |
+| `[JOURNEY_ANALYTICS]` | Specify the journey analytics | "[specify value]" |
+| `[ATTRIBUTION_MODEL]` | Specify the attribution model | "[specify value]" |
+| `[PREDICTIVE_ANAL]` | Specify the predictive anal | "[specify value]" |
+| `[REALTIME_INSIGHTS]` | Specify the realtime insights | "[specify value]" |
+| `[CROSS_CONV]` | Specify the cross conv | "[specify value]" |
+| `[CHANNEL_ATTR]` | Specify the channel attr | "[specify value]" |
+| `[OMNI_LTV]` | Specify the omni ltv | "[specify value]" |
+| `[CHANNEL_PROFIT]` | Specify the channel profit | "[specify value]" |
+| `[INV_TURNOVER]` | Specify the inv turnover | "[specify value]" |
+| `[LEAD_CURRENT]` | Specify the lead current | "[specify value]" |
+| `[LEAD_CHANGES]` | Specify the lead changes | "[specify value]" |
+| `[LEAD_GAP]` | Specify the lead gap | "[specify value]" |
+| `[LEAD_TRAINING]` | Specify the lead training | "[specify value]" |
+| `[LEAD_CHANGE]` | Specify the lead change | "[specify value]" |
+| `[STORE_OP_CURRENT]` | Specify the store op current | "[specify value]" |
+| `[STORE_OP_CHANGES]` | Specify the store op changes | "[specify value]" |
+| `[STORE_OP_GAP]` | Specify the store op gap | "[specify value]" |
+| `[STORE_OP_TRAINING]` | Specify the store op training | "[specify value]" |
+| `[STORE_OP_CHANGE]` | Specify the store op change | "[specify value]" |
+| `[DIGITAL_CURRENT]` | Specify the digital current | "[specify value]" |
+| `[DIGITAL_CHANGES]` | Specify the digital changes | "[specify value]" |
+| `[DIGITAL_GAP]` | Specify the digital gap | "[specify value]" |
+| `[DIGITAL_TRAINING]` | Specify the digital training | "[specify value]" |
+| `[DIGITAL_CHANGE]` | Specify the digital change | "[specify value]" |
+| `[SUPPLY_CURRENT]` | Specify the supply current | "[specify value]" |
+| `[SUPPLY_CHANGES]` | Specify the supply changes | "[specify value]" |
+| `[SUPPLY_GAP]` | Specify the supply gap | "[specify value]" |
+| `[SUPPLY_TRAINING]` | Specify the supply training | "[specify value]" |
+| `[SUPPLY_CHANGE]` | Specify the supply change | "[specify value]" |
+| `[CS_CURRENT]` | Specify the cs current | "[specify value]" |
+| `[CS_CHANGES]` | Specify the cs changes | "[specify value]" |
+| `[CS_GAP]` | Specify the cs gap | "[specify value]" |
+| `[CS_TRAINING]` | Specify the cs training | "[specify value]" |
+| `[CS_CHANGE]` | Specify the cs change | "[specify value]" |
+| `[IT_CURRENT]` | Specify the it current | "[specify value]" |
+| `[IT_CHANGES]` | Specify the it changes | "[specify value]" |
+| `[IT_GAP]` | Specify the it gap | "[specify value]" |
+| `[IT_TRAINING]` | Specify the it training | "[specify value]" |
+| `[IT_CHANGE]` | Specify the it change | "[specify value]" |
+| `[EMAIL_PERSONAL]` | Specify the email personal | "john.smith@example.com" |
+| `[EMAIL_CONTENT]` | Specify the email content | "john.smith@example.com" |
+| `[EMAIL_AUTO]` | Specify the email auto | "john.smith@example.com" |
+| `[EMAIL_ATTR]` | Specify the email attr | "john.smith@example.com" |
+| `[EMAIL_PERF]` | Specify the email perf | "john.smith@example.com" |
+| `[SOCIAL_PERSONAL]` | Specify the social personal | "[specify value]" |
+| `[SOCIAL_CONTENT]` | Specify the social content | "[specify value]" |
+| `[SOCIAL_AUTO]` | Specify the social auto | "[specify value]" |
+| `[SOCIAL_ATTR]` | Specify the social attr | "[specify value]" |
+| `[PAID_PERSONAL]` | Specify the paid personal | "[specify value]" |
+| `[PAID_CONTENT]` | Specify the paid content | "[specify value]" |
+| `[PAID_AUTO]` | Specify the paid auto | "[specify value]" |
+| `[PAID_ATTR]` | Specify the paid attr | "[specify value]" |
+| `[PAID_PERF]` | Specify the paid perf | "[specify value]" |
+| `[STORE_PERSONAL]` | Specify the store personal | "[specify value]" |
+| `[STORE_CONTENT]` | Specify the store content | "[specify value]" |
+| `[STORE_AUTO]` | Specify the store auto | "[specify value]" |
+| `[STORE_ATTR]` | Specify the store attr | "[specify value]" |
+| `[PUSH_PERSONAL]` | Specify the push personal | "[specify value]" |
+| `[PUSH_CONTENT]` | Specify the push content | "[specify value]" |
+| `[PUSH_AUTO]` | Specify the push auto | "[specify value]" |
+| `[PUSH_ATTR]` | Specify the push attr | "[specify value]" |
+| `[PUSH_PERF]` | Specify the push perf | "[specify value]" |
+| `[MAIL_PERSONAL]` | Specify the mail personal | "[specify value]" |
+| `[MAIL_CONTENT]` | Specify the mail content | "[specify value]" |
+| `[MAIL_AUTO]` | Specify the mail auto | "[specify value]" |
+| `[MAIL_ATTR]` | Specify the mail attr | "[specify value]" |
+| `[MAIL_PERF]` | Specify the mail perf | "[specify value]" |
+| `[OMNI_CUSTOMERS]` | Specify the omni customers | "[specify value]" |
+| `[CROSS_USAGE]` | Specify the cross usage | "[specify value]" |
+| `[OMNI_CSAT]` | Specify the omni csat | "[specify value]" |
+| `[OMNI_NPS]` | Specify the omni nps | "[specify value]" |
+| `[OMNI_CES]` | Specify the omni ces | "[specify value]" |
+| `[INV_ACCURACY]` | Specify the inv accuracy | "[specify value]" |
+| `[FULFILL_RATE]` | Specify the fulfill rate | "[specify value]" |
+| `[PERFECT_ORDER]` | Specify the perfect order | "[specify value]" |
+| `[RETURN_RATE]` | Specify the return rate | "[specify value]" |
+| `[COST_SERVE]` | Specify the cost serve | "[specify value]" |
+| `[OMNI_REVENUE]` | Specify the omni revenue | "[specify value]" |
+| `[CHANNEL_PROF]` | Specify the channel prof | "[specify value]" |
+| `[OMNI_CONV]` | Specify the omni conv | "[specify value]" |
+| `[OMNI_AOV]` | Specify the omni aov | "[specify value]" |
+| `[OMNI_ROI]` | Specify the omni roi | "[specify value]" |
+
+
 
 ### 3. Inventory & Fulfillment Strategy
 

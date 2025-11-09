@@ -1,3 +1,18 @@
+---
+title: Inventory Management & Supply Chain Optimization Framework
+category: industry/retail-ecommerce/Product Management
+tags: [data-science, documentation, framework, industry, machine-learning, management, optimization, research]
+use_cases:
+  - Implementing comprehensive framework for managing retail inventory across channels, optimizin...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - customer-experience-optimization.md
+  - dynamic-pricing-strategy.md
+  - product-sourcing-strategy.md
+last_updated: 2025-11-09
+---
+
 # Inventory Management & Supply Chain Optimization Framework
 
 ## Purpose
@@ -41,6 +56,272 @@ Forecasting Methods:
 - Manual Adjustments: [MANUAL_ADJ]%
 - Collaborative Planning: [COLLAB_PLAN]
 ```
+
+## Variables
+
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `[COMPANY_NAME]` | Name of the company | "Acme Corporation" |
+| `[SKU_COUNT]` | Specify the sku count | "10" |
+| `[LOCATION_COUNT]` | Specify the location count | "North America" |
+| `[INVENTORY_VALUE]` | Specify the inventory value | "[specify value]" |
+| `[TURNOVER_TARGET]` | Target or intended turnover | "[specify value]" |
+| `[STOCKOUT_TARGET]` | Target or intended stockout | "[specify value]" |
+| `[FAST_SKUS]` | Specify the fast skus | "[specify value]" |
+| `[FAST_VALUE]` | Specify the fast value | "[specify value]" |
+| `[FAST_TURN]` | Specify the fast turn | "[specify value]" |
+| `[FAST_MARGIN]` | Specify the fast margin | "[specify value]" |
+| `[FAST_STOCK]` | Specify the fast stock | "[specify value]" |
+| `[FAST_EXCESS]` | Specify the fast excess | "[specify value]" |
+| `[REG_SKUS]` | Specify the reg skus | "[specify value]" |
+| `[REG_VALUE]` | Specify the reg value | "[specify value]" |
+| `[REG_TURN]` | Specify the reg turn | "[specify value]" |
+| `[REG_MARGIN]` | Specify the reg margin | "[specify value]" |
+| `[REG_STOCK]` | Specify the reg stock | "[specify value]" |
+| `[REG_EXCESS]` | Specify the reg excess | "[specify value]" |
+| `[SLOW_SKUS]` | Specify the slow skus | "[specify value]" |
+| `[SLOW_VALUE]` | Specify the slow value | "[specify value]" |
+| `[SLOW_TURN]` | Specify the slow turn | "[specify value]" |
+| `[SLOW_MARGIN]` | Specify the slow margin | "[specify value]" |
+| `[SLOW_STOCK]` | Specify the slow stock | "[specify value]" |
+| `[SLOW_EXCESS]` | Specify the slow excess | "[specify value]" |
+| `[SEAS_SKUS]` | Specify the seas skus | "[specify value]" |
+| `[SEAS_VALUE]` | Specify the seas value | "[specify value]" |
+| `[SEAS_TURN]` | Specify the seas turn | "[specify value]" |
+| `[SEAS_MARGIN]` | Specify the seas margin | "[specify value]" |
+| `[SEAS_STOCK]` | Specify the seas stock | "[specify value]" |
+| `[SEAS_EXCESS]` | Specify the seas excess | "[specify value]" |
+| `[NEW_SKUS]` | Specify the new skus | "[specify value]" |
+| `[NEW_VALUE]` | Specify the new value | "[specify value]" |
+| `[NEW_TURN]` | Specify the new turn | "[specify value]" |
+| `[NEW_MARGIN]` | Specify the new margin | "[specify value]" |
+| `[NEW_STOCK]` | Specify the new stock | "[specify value]" |
+| `[NEW_EXCESS]` | Specify the new excess | "[specify value]" |
+| `[MAPE_OVERALL]` | Specify the mape overall | "[specify value]" |
+| `[BIAS]` | Specify the bias | "[specify value]" |
+| `[HORIZON]` | Specify the horizon | "[specify value]" |
+| `[UPDATE_FREQ]` | Specify the update freq | "2025-01-15" |
+| `[FASHION_ACC]` | Specify the fashion acc | "[specify value]" |
+| `[ELEC_ACC]` | Specify the elec acc | "[specify value]" |
+| `[HOME_ACC]` | Specify the home acc | "[specify value]" |
+| `[FOOD_ACC]` | Specify the food acc | "[specify value]" |
+| `[HEALTH_ACC]` | Specify the health acc | "[specify value]" |
+| `[STAT_MODELS]` | Specify the stat models | "[specify value]" |
+| `[ML_ALGO]` | Specify the ml algo | "[specify value]" |
+| `[EXT_FACTORS]` | Specify the ext factors | "[specify value]" |
+| `[MANUAL_ADJ]` | Specify the manual adj | "[specify value]" |
+| `[COLLAB_PLAN]` | Specify the collab plan | "[specify value]" |
+| `[DC_SAFETY]` | Specify the dc safety | "[specify value]" |
+| `[DC_REORDER]` | Specify the dc reorder | "[specify value]" |
+| `[DC_ORDER]` | Specify the dc order | "[specify value]" |
+| `[DC_LEAD]` | Specify the dc lead | "[specify value]" |
+| `[DC_SERVICE]` | Specify the dc service | "[specify value]" |
+| `[RW_SAFETY]` | Specify the rw safety | "[specify value]" |
+| `[RW_REORDER]` | Specify the rw reorder | "[specify value]" |
+| `[RW_ORDER]` | Specify the rw order | "[specify value]" |
+| `[RW_LEAD]` | Specify the rw lead | "[specify value]" |
+| `[RW_SERVICE]` | Specify the rw service | "[specify value]" |
+| `[RS_SAFETY]` | Specify the rs safety | "[specify value]" |
+| `[RS_REORDER]` | Specify the rs reorder | "[specify value]" |
+| `[RS_ORDER]` | Specify the rs order | "[specify value]" |
+| `[RS_LEAD]` | Specify the rs lead | "[specify value]" |
+| `[RS_SERVICE]` | Specify the rs service | "[specify value]" |
+| `[EC_SAFETY]` | Specify the ec safety | "[specify value]" |
+| `[EC_REORDER]` | Specify the ec reorder | "[specify value]" |
+| `[EC_ORDER]` | Specify the ec order | "[specify value]" |
+| `[EC_LEAD]` | Specify the ec lead | "[specify value]" |
+| `[EC_SERVICE]` | Specify the ec service | "[specify value]" |
+| `[DS_REORDER]` | Specify the ds reorder | "[specify value]" |
+| `[DS_ORDER]` | Specify the ds order | "[specify value]" |
+| `[DS_LEAD]` | Specify the ds lead | "[specify value]" |
+| `[DS_SERVICE]` | Specify the ds service | "[specify value]" |
+| `[SUPPLIER_1]` | Specify the supplier 1 | "[specify value]" |
+| `[SUP1_SKUS]` | Specify the sup1 skus | "[specify value]" |
+| `[SUP1_VOL]` | Specify the sup1 vol | "[specify value]" |
+| `[SUP1_OTD]` | Specify the sup1 otd | "[specify value]" |
+| `[SUP1_QUAL]` | Specify the sup1 qual | "[specify value]" |
+| `[SUP1_COST]` | Specify the sup1 cost | "[specify value]" |
+| `[SUP1_RISK]` | Specify the sup1 risk | "[specify value]" |
+| `[SUPPLIER_2]` | Specify the supplier 2 | "[specify value]" |
+| `[SUP2_SKUS]` | Specify the sup2 skus | "[specify value]" |
+| `[SUP2_VOL]` | Specify the sup2 vol | "[specify value]" |
+| `[SUP2_OTD]` | Specify the sup2 otd | "[specify value]" |
+| `[SUP2_QUAL]` | Specify the sup2 qual | "[specify value]" |
+| `[SUP2_COST]` | Specify the sup2 cost | "[specify value]" |
+| `[SUP2_RISK]` | Specify the sup2 risk | "[specify value]" |
+| `[SUPPLIER_3]` | Specify the supplier 3 | "[specify value]" |
+| `[SUP3_SKUS]` | Specify the sup3 skus | "[specify value]" |
+| `[SUP3_VOL]` | Specify the sup3 vol | "[specify value]" |
+| `[SUP3_OTD]` | Specify the sup3 otd | "[specify value]" |
+| `[SUP3_QUAL]` | Specify the sup3 qual | "[specify value]" |
+| `[SUP3_COST]` | Specify the sup3 cost | "[specify value]" |
+| `[SUP3_RISK]` | Specify the sup3 risk | "[specify value]" |
+| `[SUPPLIER_4]` | Specify the supplier 4 | "[specify value]" |
+| `[SUP4_SKUS]` | Specify the sup4 skus | "[specify value]" |
+| `[SUP4_VOL]` | Specify the sup4 vol | "[specify value]" |
+| `[SUP4_OTD]` | Specify the sup4 otd | "[specify value]" |
+| `[SUP4_QUAL]` | Specify the sup4 qual | "[specify value]" |
+| `[SUP4_COST]` | Specify the sup4 cost | "[specify value]" |
+| `[SUP4_RISK]` | Specify the sup4 risk | "[specify value]" |
+| `[SUPPLIER_5]` | Specify the supplier 5 | "[specify value]" |
+| `[SUP5_SKUS]` | Specify the sup5 skus | "[specify value]" |
+| `[SUP5_VOL]` | Specify the sup5 vol | "[specify value]" |
+| `[SUP5_OTD]` | Specify the sup5 otd | "[specify value]" |
+| `[SUP5_QUAL]` | Specify the sup5 qual | "[specify value]" |
+| `[SUP5_COST]` | Specify the sup5 cost | "[specify value]" |
+| `[SUP5_RISK]` | Specify the sup5 risk | "[specify value]" |
+| `[RETAIL_INV]` | Specify the retail inv | "[specify value]" |
+| `[RETAIL_VALUE]` | Specify the retail value | "[specify value]" |
+| `[ECOMM_INV]` | Specify the ecomm inv | "[specify value]" |
+| `[ECOMM_VALUE]` | Specify the ecomm value | "[specify value]" |
+| `[WHOLE_INV]` | Specify the whole inv | "[specify value]" |
+| `[WHOLE_VALUE]` | Specify the whole value | "[specify value]" |
+| `[MARKET_INV]` | Specify the market inv | "[specify value]" |
+| `[MARKET_VALUE]` | Specify the market value | "[specify value]" |
+| `[RESERVE_INV]` | Specify the reserve inv | "[specify value]" |
+| `[RESERVE_VALUE]` | Specify the reserve value | "[specify value]" |
+| `[STORE_VEL]` | Specify the store vel | "[specify value]" |
+| `[STORE_PROF]` | Specify the store prof | "[specify value]" |
+| `[STORE_FULFILL]` | Specify the store fulfill | "[specify value]" |
+| `[STORE_SAT]` | Specify the store sat | "[specify value]" |
+| `[ONLINE_VEL]` | Specify the online vel | "[specify value]" |
+| `[ONLINE_PROF]` | Specify the online prof | "[specify value]" |
+| `[ONLINE_FULFILL]` | Specify the online fulfill | "[specify value]" |
+| `[ONLINE_SAT]` | Specify the online sat | "[specify value]" |
+| `[WHOLE_VEL]` | Specify the whole vel | "[specify value]" |
+| `[WHOLE_PROF]` | Specify the whole prof | "[specify value]" |
+| `[WHOLE_FULFILL]` | Specify the whole fulfill | "[specify value]" |
+| `[WHOLE_SAT]` | Specify the whole sat | "[specify value]" |
+| `[MKT_VEL]` | Specify the mkt vel | "[specify value]" |
+| `[MKT_PROF]` | Specify the mkt prof | "[specify value]" |
+| `[MKT_FULFILL]` | Specify the mkt fulfill | "[specify value]" |
+| `[MKT_SAT]` | Specify the mkt sat | "[specify value]" |
+| `[CARRY_COST]` | Specify the carry cost | "[specify value]" |
+| `[CARRY_PCT]` | Specify the carry pct | "25%" |
+| `[CARRY_CHANGE]` | Specify the carry change | "[specify value]" |
+| `[CARRY_OPP]` | Specify the carry opp | "[specify value]" |
+| `[ORDER_COST]` | Specify the order cost | "[specify value]" |
+| `[ORDER_PCT]` | Specify the order pct | "25%" |
+| `[ORDER_CHANGE]` | Specify the order change | "[specify value]" |
+| `[ORDER_OPP]` | Specify the order opp | "[specify value]" |
+| `[STOCK_COST]` | Specify the stock cost | "[specify value]" |
+| `[STOCK_PCT]` | Specify the stock pct | "25%" |
+| `[STOCK_CHANGE]` | Specify the stock change | "[specify value]" |
+| `[STOCK_OPP]` | Specify the stock opp | "[specify value]" |
+| `[OBSOL_COST]` | Specify the obsol cost | "[specify value]" |
+| `[OBSOL_PCT]` | Specify the obsol pct | "25%" |
+| `[OBSOL_CHANGE]` | Specify the obsol change | "[specify value]" |
+| `[OBSOL_OPP]` | Specify the obsol opp | "[specify value]" |
+| `[WARE_COST]` | Specify the ware cost | "[specify value]" |
+| `[WARE_PCT]` | Specify the ware pct | "25%" |
+| `[WARE_CHANGE]` | Specify the ware change | "[specify value]" |
+| `[WARE_OPP]` | Specify the ware opp | "[specify value]" |
+| `[TRANS_COST]` | Specify the trans cost | "[specify value]" |
+| `[TRANS_PCT]` | Specify the trans pct | "25%" |
+| `[TRANS_CHANGE]` | Specify the trans change | "[specify value]" |
+| `[TRANS_OPP]` | Specify the trans opp | "[specify value]" |
+| `[SEASON_1]` | Specify the season 1 | "[specify value]" |
+| `[S1_START]` | Specify the s1 start | "[specify value]" |
+| `[S1_PEAK]` | Specify the s1 peak | "[specify value]" |
+| `[S1_END]` | Specify the s1 end | "[specify value]" |
+| `[S1_BUILD]` | Specify the s1 build | "[specify value]" |
+| `[S1_MARKDOWN]` | Specify the s1 markdown | "[specify value]" |
+| `[SEASON_2]` | Specify the season 2 | "[specify value]" |
+| `[S2_START]` | Specify the s2 start | "[specify value]" |
+| `[S2_PEAK]` | Specify the s2 peak | "[specify value]" |
+| `[S2_END]` | Specify the s2 end | "[specify value]" |
+| `[S2_BUILD]` | Specify the s2 build | "[specify value]" |
+| `[S2_MARKDOWN]` | Specify the s2 markdown | "[specify value]" |
+| `[SEASON_3]` | Specify the season 3 | "[specify value]" |
+| `[S3_START]` | Specify the s3 start | "[specify value]" |
+| `[S3_PEAK]` | Specify the s3 peak | "[specify value]" |
+| `[S3_END]` | Specify the s3 end | "[specify value]" |
+| `[S3_BUILD]` | Specify the s3 build | "[specify value]" |
+| `[S3_MARKDOWN]` | Specify the s3 markdown | "[specify value]" |
+| `[SEASON_4]` | Specify the season 4 | "[specify value]" |
+| `[S4_START]` | Specify the s4 start | "[specify value]" |
+| `[S4_PEAK]` | Specify the s4 peak | "[specify value]" |
+| `[S4_END]` | Specify the s4 end | "[specify value]" |
+| `[S4_BUILD]` | Specify the s4 build | "[specify value]" |
+| `[S4_MARKDOWN]` | Specify the s4 markdown | "[specify value]" |
+| `[SEASON_5]` | Specify the season 5 | "[specify value]" |
+| `[S5_START]` | Specify the s5 start | "[specify value]" |
+| `[S5_PEAK]` | Specify the s5 peak | "[specify value]" |
+| `[S5_END]` | Specify the s5 end | "[specify value]" |
+| `[S5_BUILD]` | Specify the s5 build | "[specify value]" |
+| `[S5_MARKDOWN]` | Specify the s5 markdown | "[specify value]" |
+| `[ERP_SYSTEM]` | Specify the erp system | "[specify value]" |
+| `[WMS_SYSTEM]` | Specify the wms system | "[specify value]" |
+| `[OMS_SYSTEM]` | Specify the oms system | "[specify value]" |
+| `[POS_SYSTEM]` | Specify the pos system | "[specify value]" |
+| `[ECOMM_PLATFORM]` | Specify the ecomm platform | "[specify value]" |
+| `[RFID_COVERAGE]` | Specify the rfid coverage | "[specify value]" |
+| `[REALTIME_VIS]` | Specify the realtime vis | "[specify value]" |
+| `[AUTO_REPLEN]` | Specify the auto replen | "[specify value]" |
+| `[AI_FORECAST]` | Specify the ai forecast | "[specify value]" |
+| `[BLOCKCHAIN]` | Specify the blockchain | "[specify value]" |
+| `[INTEGRATION]` | Specify the integration | "[specify value]" |
+| `[DATA_ACC]` | Specify the data acc | "[specify value]" |
+| `[SYNC_FREQ]` | Specify the sync freq | "[specify value]" |
+| `[ERROR_RATE]` | Specify the error rate | "[specify value]" |
+| `[MANUAL_PROC]` | Specify the manual proc | "[specify value]" |
+| `[TURN_CURRENT]` | Specify the turn current | "[specify value]" |
+| `[TURN_TARGET]` | Target or intended turn | "[specify value]" |
+| `[TURN_BEST]` | Specify the turn best | "[specify value]" |
+| `[TURN_GAP]` | Specify the turn gap | "[specify value]" |
+| `[TURN_ACTION]` | Specify the turn action | "[specify value]" |
+| `[GMROI_CURRENT]` | Specify the gmroi current | "[specify value]" |
+| `[GMROI_TARGET]` | Target or intended gmroi | "[specify value]" |
+| `[GMROI_BEST]` | Specify the gmroi best | "[specify value]" |
+| `[GMROI_GAP]` | Specify the gmroi gap | "[specify value]" |
+| `[GMROI_ACTION]` | Specify the gmroi action | "[specify value]" |
+| `[FILL_CURRENT]` | Specify the fill current | "[specify value]" |
+| `[FILL_TARGET]` | Target or intended fill | "[specify value]" |
+| `[FILL_BEST]` | Specify the fill best | "[specify value]" |
+| `[FILL_GAP]` | Specify the fill gap | "[specify value]" |
+| `[FILL_ACTION]` | Specify the fill action | "[specify value]" |
+| `[PERFECT_CURRENT]` | Specify the perfect current | "[specify value]" |
+| `[PERFECT_TARGET]` | Target or intended perfect | "[specify value]" |
+| `[PERFECT_BEST]` | Specify the perfect best | "[specify value]" |
+| `[PERFECT_GAP]` | Specify the perfect gap | "[specify value]" |
+| `[PERFECT_ACTION]` | Specify the perfect action | "[specify value]" |
+| `[DOS_CURRENT]` | Specify the dos current | "[specify value]" |
+| `[DOS_TARGET]` | Target or intended dos | "[specify value]" |
+| `[DOS_BEST]` | Specify the dos best | "[specify value]" |
+| `[DOS_GAP]` | Specify the dos gap | "[specify value]" |
+| `[DOS_ACTION]` | Specify the dos action | "[specify value]" |
+| `[SHRINK_CURRENT]` | Specify the shrink current | "[specify value]" |
+| `[SHRINK_TARGET]` | Target or intended shrink | "[specify value]" |
+| `[SHRINK_BEST]` | Specify the shrink best | "[specify value]" |
+| `[SHRINK_GAP]` | Specify the shrink gap | "[specify value]" |
+| `[SHRINK_ACTION]` | Specify the shrink action | "[specify value]" |
+| `[ABC_INVEST]` | Specify the abc invest | "[specify value]" |
+| `[ABC_TIME]` | Specify the abc time | "[specify value]" |
+| `[ABC_SAVE]` | Specify the abc save | "[specify value]" |
+| `[ABC_ROI]` | Specify the abc roi | "[specify value]" |
+| `[ABC_RISK]` | Specify the abc risk | "[specify value]" |
+| `[VMI_INVEST]` | Specify the vmi invest | "[specify value]" |
+| `[VMI_TIME]` | Specify the vmi time | "[specify value]" |
+| `[VMI_SAVE]` | Specify the vmi save | "[specify value]" |
+| `[VMI_ROI]` | Specify the vmi roi | "[specify value]" |
+| `[VMI_RISK]` | Specify the vmi risk | "[specify value]" |
+| `[CROSS_INVEST]` | Specify the cross invest | "[specify value]" |
+| `[CROSS_TIME]` | Specify the cross time | "[specify value]" |
+| `[CROSS_SAVE]` | Specify the cross save | "[specify value]" |
+| `[CROSS_ROI]` | Specify the cross roi | "[specify value]" |
+| `[CROSS_RISK]` | Specify the cross risk | "[specify value]" |
+| `[CONSIGN_INVEST]` | Specify the consign invest | "[specify value]" |
+| `[CONSIGN_TIME]` | Specify the consign time | "[specify value]" |
+| `[CONSIGN_SAVE]` | Specify the consign save | "[specify value]" |
+| `[CONSIGN_ROI]` | Specify the consign roi | "[specify value]" |
+| `[CONSIGN_RISK]` | Specify the consign risk | "[specify value]" |
+| `[AI_INVEST]` | Specify the ai invest | "[specify value]" |
+| `[AI_TIME]` | Specify the ai time | "[specify value]" |
+| `[AI_SAVE]` | Specify the ai save | "[specify value]" |
+| `[AI_ROI]` | Specify the ai roi | "[specify value]" |
+| `[AI_RISK]` | Specify the ai risk | "[specify value]" |
+
+
 
 ### 3. Stock Level Optimization
 

@@ -1,3 +1,18 @@
+---
+title: Referrals and Consultations Template
+category: healthcare/Clinical Practice
+tags: [communication, healthcare, management, template]
+use_cases:
+  - Implementing create comprehensive referral letters, consultation summaries, and specialist co...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - telemedicine-platform-design.md
+  - patient-care-pathway.md
+  - clinical-trials-management.md
+last_updated: 2025-11-09
+---
+
 # Referrals and Consultations Template
 
 ## Purpose

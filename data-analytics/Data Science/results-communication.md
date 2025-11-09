@@ -1,3 +1,18 @@
+---
+title: Results Communication & Insights Template
+category: data-analytics/Data Science
+tags: [communication, data-analytics, data-science, design, research, strategy, template]
+use_cases:
+  - Implementing design and deliver comprehensive communication strategies to effectively present...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - dashboard-design-patterns.md
+  - data-governance-framework.md
+  - predictive-modeling-framework.md
+last_updated: 2025-11-09
+---
+
 # Results Communication & Insights Template
 
 ## Purpose

@@ -1,3 +1,18 @@
+---
+title: Project Management Template Generator
+category: business/Operations & Processes
+tags: [business, management, optimization, security, strategy, template, testing]
+use_cases:
+  - Implementing create comprehensive project management frameworks covering project planning, tr...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - okr-implementation-framework.md
+  - digital-transformation-roadmap.md
+  - lean-six-sigma-implementation.md
+last_updated: 2025-11-09
+---
+
 # Project Management Template Generator
 
 ## Purpose

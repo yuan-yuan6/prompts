@@ -1,3 +1,18 @@
+---
+title: Game Design & Development Framework
+category: industry/entertainment-gaming/Game Development
+tags: [automation, design, development, framework, industry, machine-learning, management, optimization]
+use_cases:
+  - Implementing comprehensive framework for game design, development pipeline management, player...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - game-design-framework.md
+  - game-development-pipeline.md
+  - content-production-framework.md
+last_updated: 2025-11-09
+---
+
 # Game Design & Development Framework
 
 ## Purpose
@@ -49,6 +64,265 @@ Asset Pipeline:
 - Version Control: [VERSION_CONTROL]
 - Build System: [BUILD_SYSTEM]
 ```
+
+## Variables
+
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `[GAME_TITLE]` | Specify the game title | "[specify value]" |
+| `[GENRE]` | Specify the genre | "[specify value]" |
+| `[PLATFORM_LIST]` | Specify the platform list | "[specify value]" |
+| `[TEAM_SIZE]` | Specify the team size | "[specify value]" |
+| `[BUDGET]` | Budget allocation for  | "$500,000" |
+| `[TIMELINE]` | Timeline or schedule for  | "6 months" |
+| `[PLAYER_COUNT]` | Specify the player count | "10" |
+| `[REVENUE_TARGET]` | Target or intended revenue | "[specify value]" |
+| `[GENRE_THEME]` | Specify the genre theme | "[specify value]" |
+| `[TARGET_DEMO]` | Target or intended demo | "[specify value]" |
+| `[UNIQUE_FEAT]` | Specify the unique feat | "[specify value]" |
+| `[COMPETITORS]` | Specify the competitors | "[specify value]" |
+| `[SUCCESS_METRICS]` | Specify the success metrics | "[specify value]" |
+| `[CORE_LOOP]` | Specify the core loop | "[specify value]" |
+| `[LOOP_AUDIENCE]` | Specify the loop audience | "[specify value]" |
+| `[LOOP_UNIQUE]` | Specify the loop unique | "[specify value]" |
+| `[LOOP_COMP]` | Specify the loop comp | "[specify value]" |
+| `[LOOP_METRICS]` | Specify the loop metrics | "[specify value]" |
+| `[PROGRESSION]` | Specify the progression | "[specify value]" |
+| `[PROG_AUDIENCE]` | Specify the prog audience | "[specify value]" |
+| `[PROG_UNIQUE]` | Specify the prog unique | "[specify value]" |
+| `[PROG_COMP]` | Specify the prog comp | "[specify value]" |
+| `[PROG_METRICS]` | Specify the prog metrics | "[specify value]" |
+| `[SOCIAL_FEAT]` | Specify the social feat | "[specify value]" |
+| `[SOCIAL_AUDIENCE]` | Specify the social audience | "[specify value]" |
+| `[SOCIAL_UNIQUE]` | Specify the social unique | "[specify value]" |
+| `[SOCIAL_COMP]` | Specify the social comp | "[specify value]" |
+| `[SOCIAL_METRICS]` | Specify the social metrics | "[specify value]" |
+| `[MONETIZE_MODEL]` | Specify the monetize model | "[specify value]" |
+| `[MONETIZE_AUDIENCE]` | Specify the monetize audience | "[specify value]" |
+| `[MONETIZE_UNIQUE]` | Specify the monetize unique | "[specify value]" |
+| `[MONETIZE_COMP]` | Specify the monetize comp | "[specify value]" |
+| `[MONETIZE_METRICS]` | Specify the monetize metrics | "[specify value]" |
+| `[ENGINE_CHOICE]` | Specify the engine choice | "[specify value]" |
+| `[ENGINE_VERSION]` | Specify the engine version | "[specify value]" |
+| `[PLATFORM_SUPPORT]` | Specify the platform support | "[specify value]" |
+| `[PERF_TARGET]` | Target or intended perf | "[specify value]" |
+| `[RESOLUTION_SUPPORT]` | Specify the resolution support | "[specify value]" |
+| `[SERVER_ARCH]` | Specify the server arch | "[specify value]" |
+| `[DATABASE_TYPE]` | Type or category of database | "Standard" |
+| `[API_FRAMEWORK]` | Specify the api framework | "[specify value]" |
+| `[CLOUD_PROVIDER]` | Specify the cloud provider | "[specify value]" |
+| `[CDN_SOLUTION]` | Specify the cdn solution | "[specify value]" |
+| `[NET_PROTOCOL]` | Specify the net protocol | "[specify value]" |
+| `[PLAYER_CAP]` | Specify the player cap | "[specify value]" |
+| `[LATENCY_TARGET]` | Target or intended latency | "[specify value]" |
+| `[ANTICHEAT_SYSTEM]` | Specify the anticheat system | "[specify value]" |
+| `[MATCHMAKING_ALGO]` | Specify the matchmaking algo | "[specify value]" |
+| `[ART_PIPELINE]` | Specify the art pipeline | "[specify value]" |
+| `[AUDIO_SYSTEM]` | Specify the audio system | "[specify value]" |
+| `[ANIM_TOOLS]` | Specify the anim tools | "[specify value]" |
+| `[VERSION_CONTROL]` | Specify the version control | "[specify value]" |
+| `[BUILD_SYSTEM]` | Specify the build system | "[specify value]" |
+| `[FTUE_TARGET]` | Target or intended ftue | "[specify value]" |
+| `[FTUE_CURRENT]` | Specify the ftue current | "[specify value]" |
+| `[FTUE_PLAN]` | Specify the ftue plan | "[specify value]" |
+| `[FTUE_TEST]` | Specify the ftue test | "[specify value]" |
+| `[FTUE_SUCCESS]` | Specify the ftue success | "[specify value]" |
+| `[D1_TARGET]` | Target or intended d1 | "[specify value]" |
+| `[D1_CURRENT]` | Specify the d1 current | "[specify value]" |
+| `[D1_PLAN]` | Specify the d1 plan | "[specify value]" |
+| `[D1_TEST]` | Specify the d1 test | "[specify value]" |
+| `[D1_SUCCESS]` | Specify the d1 success | "[specify value]" |
+| `[D7_TARGET]` | Target or intended d7 | "[specify value]" |
+| `[D7_CURRENT]` | Specify the d7 current | "[specify value]" |
+| `[D7_PLAN]` | Specify the d7 plan | "[specify value]" |
+| `[D7_TEST]` | Specify the d7 test | "[specify value]" |
+| `[D7_SUCCESS]` | Specify the d7 success | "[specify value]" |
+| `[D30_TARGET]` | Target or intended d30 | "[specify value]" |
+| `[D30_CURRENT]` | Specify the d30 current | "[specify value]" |
+| `[D30_PLAN]` | Specify the d30 plan | "[specify value]" |
+| `[D30_TEST]` | Specify the d30 test | "[specify value]" |
+| `[D30_SUCCESS]` | Specify the d30 success | "[specify value]" |
+| `[SESSION_TARGET]` | Target or intended session | "[specify value]" |
+| `[SESSION_CURRENT]` | Specify the session current | "[specify value]" |
+| `[SESSION_PLAN]` | Specify the session plan | "[specify value]" |
+| `[SESSION_TEST]` | Specify the session test | "[specify value]" |
+| `[SESSION_SUCCESS]` | Specify the session success | "[specify value]" |
+| `[DAU_TARGET]` | Target or intended dau | "[specify value]" |
+| `[DAU_CURRENT]` | Specify the dau current | "[specify value]" |
+| `[DAU_PLAN]` | Specify the dau plan | "[specify value]" |
+| `[DAU_TEST]` | Specify the dau test | "[specify value]" |
+| `[DAU_SUCCESS]` | Specify the dau success | "[specify value]" |
+| `[LEVEL_COUNT]` | Specify the level count | "10" |
+| `[LEVEL_RATE]` | Specify the level rate | "[specify value]" |
+| `[LEVEL_QUALITY]` | Specify the level quality | "[specify value]" |
+| `[LEVEL_REVIEW]` | Specify the level review | "[specify value]" |
+| `[LEVEL_CADENCE]` | Specify the level cadence | "[specify value]" |
+| `[CHAR_COUNT]` | Specify the char count | "10" |
+| `[CHAR_RATE]` | Specify the char rate | "[specify value]" |
+| `[CHAR_QUALITY]` | Specify the char quality | "[specify value]" |
+| `[CHAR_REVIEW]` | Specify the char review | "[specify value]" |
+| `[CHAR_CADENCE]` | Specify the char cadence | "[specify value]" |
+| `[ITEM_COUNT]` | Specify the item count | "10" |
+| `[ITEM_RATE]` | Specify the item rate | "[specify value]" |
+| `[ITEM_QUALITY]` | Specify the item quality | "[specify value]" |
+| `[ITEM_REVIEW]` | Specify the item review | "[specify value]" |
+| `[ITEM_CADENCE]` | Specify the item cadence | "[specify value]" |
+| `[STORY_COUNT]` | Specify the story count | "10" |
+| `[STORY_RATE]` | Specify the story rate | "[specify value]" |
+| `[STORY_QUALITY]` | Specify the story quality | "[specify value]" |
+| `[STORY_REVIEW]` | Specify the story review | "[specify value]" |
+| `[STORY_CADENCE]` | Specify the story cadence | "[specify value]" |
+| `[EVENT_COUNT]` | Specify the event count | "10" |
+| `[EVENT_RATE]` | Specify the event rate | "[specify value]" |
+| `[EVENT_QUALITY]` | Specify the event quality | "[specify value]" |
+| `[EVENT_REVIEW]` | Specify the event review | "[specify value]" |
+| `[EVENT_CADENCE]` | Specify the event cadence | "[specify value]" |
+| `[BASE_PRICE]` | Specify the base price | "[specify value]" |
+| `[DLC_STRATEGY]` | Strategy or approach for dlc | "[specify value]" |
+| `[SEASON_PRICE]` | Specify the season price | "[specify value]" |
+| `[SPECIAL_EDITIONS]` | Specify the special editions | "[specify value]" |
+| `[PLATFORM_SPLIT]` | Specify the platform split | "[specify value]" |
+| `[IAP_CATEGORIES]` | Specify the iap categories | "[specify value]" |
+| `[PRICE_POINTS]` | Specify the price points | "[specify value]" |
+| `[CONVERSION]` | Specify the conversion | "[specify value]" |
+| `[ARPPU]` | Specify the arppu | "[specify value]" |
+| `[LTV]` | Specify the ltv | "[specify value]" |
+| `[SOFT_CURRENCY]` | Specify the soft currency | "[specify value]" |
+| `[HARD_CURRENCY]` | Specify the hard currency | "[specify value]" |
+| `[EXCHANGE_RATE]` | Specify the exchange rate | "[specify value]" |
+| `[ECONOMY_BALANCE]` | Specify the economy balance | "[specify value]" |
+| `[INFLATION_CONTROL]` | Specify the inflation control | "[specify value]" |
+| `[PASS_PRICE]` | Specify the pass price | "[specify value]" |
+| `[PASS_DURATION]` | Specify the pass duration | "6 months" |
+| `[PASS_TIERS]` | Specify the pass tiers | "[specify value]" |
+| `[PASS_COMPLETE]` | Specify the pass complete | "[specify value]" |
+| `[PASS_RENEWAL]` | Specify the pass renewal | "[specify value]" |
+| `[SOCIAL_BUDGET]` | Budget allocation for social | "$500,000" |
+| `[SOCIAL_CPI]` | Specify the social cpi | "[specify value]" |
+| `[SOCIAL_VOLUME]` | Specify the social volume | "[specify value]" |
+| `[SOCIAL_ROI]` | Specify the social roi | "[specify value]" |
+| `[SOCIAL_CREATIVE]` | Specify the social creative | "[specify value]" |
+| `[SEARCH_BUDGET]` | Budget allocation for search | "$500,000" |
+| `[SEARCH_CPI]` | Specify the search cpi | "[specify value]" |
+| `[SEARCH_VOLUME]` | Specify the search volume | "[specify value]" |
+| `[SEARCH_ROI]` | Specify the search roi | "[specify value]" |
+| `[SEARCH_CREATIVE]` | Specify the search creative | "[specify value]" |
+| `[INFLUENCER_BUDGET]` | Budget allocation for influencer | "$500,000" |
+| `[INFLUENCER_CPI]` | Specify the influencer cpi | "[specify value]" |
+| `[INFLUENCER_VOLUME]` | Specify the influencer volume | "[specify value]" |
+| `[INFLUENCER_ROI]` | Specify the influencer roi | "[specify value]" |
+| `[INFLUENCER_CREATIVE]` | Specify the influencer creative | "[specify value]" |
+| `[ORGANIC_BUDGET]` | Budget allocation for organic | "$500,000" |
+| `[ORGANIC_CPI]` | Specify the organic cpi | "[specify value]" |
+| `[ORGANIC_VOLUME]` | Specify the organic volume | "[specify value]" |
+| `[ORGANIC_ROI]` | Specify the organic roi | "[specify value]" |
+| `[ORGANIC_CREATIVE]` | Specify the organic creative | "[specify value]" |
+| `[CROSS_BUDGET]` | Budget allocation for cross | "$500,000" |
+| `[CROSS_CPI]` | Specify the cross cpi | "[specify value]" |
+| `[CROSS_VOLUME]` | Specify the cross volume | "[specify value]" |
+| `[CROSS_ROI]` | Specify the cross roi | "[specify value]" |
+| `[CROSS_CREATIVE]` | Specify the cross creative | "[specify value]" |
+| `[SEASONAL_FREQ]` | Specify the seasonal freq | "[specify value]" |
+| `[SEASONAL_DUR]` | Specify the seasonal dur | "[specify value]" |
+| `[SEASONAL_REV]` | Specify the seasonal rev | "[specify value]" |
+| `[SEASONAL_ENGAGE]` | Specify the seasonal engage | "[specify value]" |
+| `[SEASONAL_COST]` | Specify the seasonal cost | "[specify value]" |
+| `[LTO_FREQ]` | Specify the lto freq | "[specify value]" |
+| `[LTO_DUR]` | Specify the lto dur | "[specify value]" |
+| `[LTO_REV]` | Specify the lto rev | "[specify value]" |
+| `[LTO_ENGAGE]` | Specify the lto engage | "[specify value]" |
+| `[LTO_COST]` | Specify the lto cost | "[specify value]" |
+| `[TOURN_FREQ]` | Specify the tourn freq | "[specify value]" |
+| `[TOURN_DUR]` | Specify the tourn dur | "[specify value]" |
+| `[TOURN_REV]` | Specify the tourn rev | "[specify value]" |
+| `[TOURN_ENGAGE]` | Specify the tourn engage | "[specify value]" |
+| `[TOURN_COST]` | Specify the tourn cost | "[specify value]" |
+| `[COLLAB_FREQ]` | Specify the collab freq | "[specify value]" |
+| `[COLLAB_DUR]` | Specify the collab dur | "[specify value]" |
+| `[COLLAB_REV]` | Specify the collab rev | "[specify value]" |
+| `[COLLAB_ENGAGE]` | Specify the collab engage | "[specify value]" |
+| `[COLLAB_COST]` | Specify the collab cost | "[specify value]" |
+| `[UPDATE_FREQ]` | Specify the update freq | "2025-01-15" |
+| `[UPDATE_DUR]` | Specify the update dur | "2025-01-15" |
+| `[UPDATE_REV]` | Specify the update rev | "2025-01-15" |
+| `[UPDATE_ENGAGE]` | Specify the update engage | "2025-01-15" |
+| `[UPDATE_COST]` | Specify the update cost | "2025-01-15" |
+| `[ALPHA_DURATION]` | Specify the alpha duration | "6 months" |
+| `[ALPHA_TESTERS]` | Specify the alpha testers | "[specify value]" |
+| `[ALPHA_FOCUS]` | Specify the alpha focus | "[specify value]" |
+| `[BETA_DURATION]` | Specify the beta duration | "6 months" |
+| `[BETA_TESTERS]` | Specify the beta testers | "[specify value]" |
+| `[BETA_PLATFORMS]` | Specify the beta platforms | "[specify value]" |
+| `[PERF_DURATION]` | Specify the perf duration | "6 months" |
+| `[PERF_BENCHMARKS]` | Specify the perf benchmarks | "[specify value]" |
+| `[PERF_OPTIMIZE]` | Specify the perf optimize | "[specify value]" |
+| `[CRITICAL_BUGS]` | Specify the critical bugs | "[specify value]" |
+| `[MAJOR_BUGS]` | Specify the major bugs | "[specify value]" |
+| `[MINOR_BUGS]` | Specify the minor bugs | "[specify value]" |
+| `[KNOWN_ISSUES]` | Specify the known issues | "[specify value]" |
+| `[FIX_RATE]` | Specify the fix rate | "[specify value]" |
+| `[REVIEW_TARGET]` | Target or intended review | "[specify value]" |
+| `[RESPONSE_TIME]` | Specify the response time | "[specify value]" |
+| `[SENTIMENT]` | Specify the sentiment | "[specify value]" |
+| `[FEATURE_REQUESTS]` | Specify the feature requests | "[specify value]" |
+| `[IMPLEMENT_RATE]` | Specify the implement rate | "[specify value]" |
+| `[BEHAVIOR_KPIS]` | Specify the behavior kpis | "[specify value]" |
+| `[BEHAVIOR_CURRENT]` | Specify the behavior current | "[specify value]" |
+| `[BEHAVIOR_TARGET]` | Target or intended behavior | "[specify value]" |
+| `[BEHAVIOR_TRIGGERS]` | Specify the behavior triggers | "[specify value]" |
+| `[BEHAVIOR_OPT]` | Specify the behavior opt | "[specify value]" |
+| `[TECH_KPIS]` | Specify the tech kpis | "[specify value]" |
+| `[TECH_CURRENT]` | Specify the tech current | "[specify value]" |
+| `[TECH_TARGET]` | Target or intended tech | "[specify value]" |
+| `[TECH_TRIGGERS]` | Specify the tech triggers | "[specify value]" |
+| `[TECH_OPT]` | Specify the tech opt | "[specify value]" |
+| `[MONETIZE_KPIS]` | Specify the monetize kpis | "[specify value]" |
+| `[MONETIZE_CURRENT]` | Specify the monetize current | "[specify value]" |
+| `[MONETIZE_TARGET]` | Target or intended monetize | "[specify value]" |
+| `[MONETIZE_TRIGGERS]` | Specify the monetize triggers | "[specify value]" |
+| `[MONETIZE_OPT]` | Specify the monetize opt | "[specify value]" |
+| `[SOCIAL_KPIS]` | Specify the social kpis | "[specify value]" |
+| `[SOCIAL_CURRENT]` | Specify the social current | "[specify value]" |
+| `[SOCIAL_TARGET]` | Target or intended social | "[specify value]" |
+| `[SOCIAL_TRIGGERS]` | Specify the social triggers | "[specify value]" |
+| `[SOCIAL_OPT]` | Specify the social opt | "[specify value]" |
+| `[CONTENT_KPIS]` | Specify the content kpis | "[specify value]" |
+| `[CONTENT_CURRENT]` | Specify the content current | "[specify value]" |
+| `[CONTENT_TARGET]` | Target or intended content | "[specify value]" |
+| `[CONTENT_TRIGGERS]` | Specify the content triggers | "[specify value]" |
+| `[CONTENT_OPT]` | Specify the content opt | "[specify value]" |
+| `[PROG_SIZE]` | Specify the prog size | "[specify value]" |
+| `[PROG_LEAD]` | Specify the prog lead | "[specify value]" |
+| `[PROG_DELIVER]` | Specify the prog deliver | "[specify value]" |
+| `[PROG_VELOCITY]` | Specify the prog velocity | "[specify value]" |
+| `[PROG_BUDGET]` | Budget allocation for prog | "$500,000" |
+| `[ART_SIZE]` | Specify the art size | "[specify value]" |
+| `[ART_LEAD]` | Specify the art lead | "[specify value]" |
+| `[ART_DELIVER]` | Specify the art deliver | "[specify value]" |
+| `[ART_VELOCITY]` | Specify the art velocity | "[specify value]" |
+| `[ART_BUDGET]` | Budget allocation for art | "$500,000" |
+| `[DESIGN_SIZE]` | Specify the design size | "[specify value]" |
+| `[DESIGN_LEAD]` | Specify the design lead | "[specify value]" |
+| `[DESIGN_DELIVER]` | Specify the design deliver | "[specify value]" |
+| `[DESIGN_VELOCITY]` | Specify the design velocity | "[specify value]" |
+| `[DESIGN_BUDGET]` | Budget allocation for design | "$500,000" |
+| `[QA_SIZE]` | Specify the qa size | "[specify value]" |
+| `[QA_LEAD]` | Specify the qa lead | "[specify value]" |
+| `[QA_DELIVER]` | Specify the qa deliver | "[specify value]" |
+| `[QA_VELOCITY]` | Specify the qa velocity | "[specify value]" |
+| `[QA_BUDGET]` | Budget allocation for qa | "$500,000" |
+| `[PROD_SIZE]` | Specify the prod size | "[specify value]" |
+| `[PROD_LEAD]` | Specify the prod lead | "[specify value]" |
+| `[PROD_DELIVER]` | Specify the prod deliver | "[specify value]" |
+| `[PROD_VELOCITY]` | Specify the prod velocity | "[specify value]" |
+| `[PROD_BUDGET]` | Budget allocation for prod | "$500,000" |
+| `[LIVE_SIZE]` | Specify the live size | "[specify value]" |
+| `[LIVE_LEAD]` | Specify the live lead | "[specify value]" |
+| `[LIVE_DELIVER]` | Specify the live deliver | "[specify value]" |
+| `[LIVE_VELOCITY]` | Specify the live velocity | "[specify value]" |
+| `[LIVE_BUDGET]` | Budget allocation for live | "$500,000" |
+
+
 
 ### 3. Player Experience & Engagement
 

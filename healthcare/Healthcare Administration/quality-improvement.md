@@ -1,3 +1,18 @@
+---
+title: Quality Improvement Programs Template
+category: healthcare/Healthcare Administration
+tags: [data-science, design, healthcare, machine-learning, optimization, research, template, testing]
+use_cases:
+  - Implementing create comprehensive quality improvement initiatives, performance metrics, proce...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - telemedicine-platform-design.md
+  - patient-care-pathway.md
+  - clinical-trials-management.md
+last_updated: 2025-11-09
+---
+
 # Quality Improvement Programs Template
 
 ## Purpose

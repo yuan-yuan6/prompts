@@ -1,3 +1,17 @@
+---
+title: Screenwriting Comprehensive Template Generator
+category: creative/Entertainment
+tags: [automation, communication, comprehensive, creative, design, development, template]
+use_cases:
+  - Implementing create comprehensive screenwriting solutions covering films, television, web ser...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - creative-writing-framework.md
+  - video-production-pipeline.md
+last_updated: 2025-11-09
+---
+
 # Screenwriting Comprehensive Template Generator
 
 ## Purpose

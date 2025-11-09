@@ -1,3 +1,18 @@
+---
+title: Resource Management Optimization Template
+category: healthcare/Healthcare Administration
+tags: [data-science, design, healthcare, management, optimization, research, strategy, template]
+use_cases:
+  - Implementing create comprehensive resource management strategies, capacity planning systems, ...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - telemedicine-platform-design.md
+  - patient-care-pathway.md
+  - clinical-trials-management.md
+last_updated: 2025-11-09
+---
+
 # Resource Management Optimization Template
 
 ## Purpose

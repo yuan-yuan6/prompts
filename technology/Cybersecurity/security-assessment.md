@@ -1,3 +1,18 @@
+---
+title: Security Assessment Template
+category: technology/Cybersecurity
+tags: [data-science, design, machine-learning, research, security, strategy, technology, template]
+use_cases:
+  - Implementing comprehensive security assessment including vulnerability scanning, penetration ...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - cloud-architecture-framework.md
+  - site-reliability-engineering.md
+  - cloud-migration-strategy.md
+last_updated: 2025-11-09
+---
+
 # Security Assessment Template
 
 ## Purpose
@@ -94,6 +109,63 @@ Penetration Testing:
 - Use Metasploit, custom scripts, manual testing tools
 - Test SQL injection, XSS, broken authentication attack scenarios
 ```
+
+## Variables
+
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `{assessment_name}` | Specify the assessment name | "John Smith" |
+| `{assessment_type}` | Specify the assessment type | "Standard" |
+| `{assessment_scope}` | Specify the assessment scope | "[specify value]" |
+| `{target_systems}` | Specify the target systems | "[specify value]" |
+| `{assessment_methodology}` | Specify the assessment methodology | "[specify value]" |
+| `{assessment_timeline}` | Specify the assessment timeline | "6 months" |
+| `{assessment_team}` | Specify the assessment team | "[specify value]" |
+| `{stakeholders}` | Specify the stakeholders | "[specify value]" |
+| `{business_context}` | Specify the business context | "[specify value]" |
+| `{compliance_requirements}` | Specify the compliance requirements | "[specify value]" |
+| `{asset_identification}` | Specify the asset identification | "[specify value]" |
+| `{threat_actors}` | Specify the threat actors | "[specify value]" |
+| `{attack_vectors}` | Specify the attack vectors | "[specify value]" |
+| `{threat_scenarios}` | Specify the threat scenarios | "[specify value]" |
+| `{impact_analysis}` | Specify the impact analysis | "[specify value]" |
+| `{likelihood_assessment}` | Specify the likelihood assessment | "[specify value]" |
+| `{risk_rating}` | Specify the risk rating | "[specify value]" |
+| `{threat_intelligence}` | Specify the threat intelligence | "[specify value]" |
+| `{attack_surface}` | Specify the attack surface | "[specify value]" |
+| `{trust_boundaries}` | Specify the trust boundaries | "[specify value]" |
+| `{scanning_tools}` | Specify the scanning tools | "[specify value]" |
+| `{scanning_scope}` | Specify the scanning scope | "[specify value]" |
+| `{vulnerability_categories}` | Specify the vulnerability categories | "[specify value]" |
+| `{cvss_scoring}` | Specify the cvss scoring | "[specify value]" |
+| `{false_positive_analysis}` | Specify the false positive analysis | "[specify value]" |
+| `{vulnerability_prioritization}` | Specify the vulnerability prioritization | "[specify value]" |
+| `{remediation_timeline}` | Specify the remediation timeline | "6 months" |
+| `{compensating_controls}` | Specify the compensating controls | "[specify value]" |
+| `{vulnerability_tracking}` | Specify the vulnerability tracking | "[specify value]" |
+| `{vulnerability_reporting}` | Specify the vulnerability reporting | "[specify value]" |
+| `{testing_methodology}` | Specify the testing methodology | "[specify value]" |
+| `{penetration_scope}` | Specify the penetration scope | "[specify value]" |
+| `{rules_of_engagement}` | Specify the rules of engagement | "[specify value]" |
+| `{penetration_tools}` | Specify the penetration tools | "[specify value]" |
+| `{attack_scenarios}` | Specify the attack scenarios | "[specify value]" |
+| `{exploitation_techniques}` | Specify the exploitation techniques | "[specify value]" |
+| `{privilege_escalation}` | Specify the privilege escalation | "[specify value]" |
+| `{lateral_movement}` | Specify the lateral movement | "[specify value]" |
+| `{data_exfiltration}` | Specify the data exfiltration | "[specify value]" |
+| `{persistence_methods}` | Specify the persistence methods | "[specify value]" |
+| `{control_framework}` | Specify the control framework | "[specify value]" |
+| `{administrative_controls}` | Specify the administrative controls | "[specify value]" |
+| `{technical_controls}` | Specify the technical controls | "[specify value]" |
+| `{physical_controls}` | Specify the physical controls | "[specify value]" |
+| `{preventive_controls}` | Specify the preventive controls | "[specify value]" |
+| `{detective_controls}` | Specify the detective controls | "[specify value]" |
+| `{corrective_controls}` | Specify the corrective controls | "[specify value]" |
+| `{control_effectiveness}` | Specify the control effectiveness | "[specify value]" |
+| `{control_gaps}` | Specify the control gaps | "[specify value]" |
+| `{control_recommendations}` | Specify the control recommendations | "[specify value]" |
+
+
 
 ## Best Practices
 

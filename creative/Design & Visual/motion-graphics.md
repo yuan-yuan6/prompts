@@ -1,3 +1,17 @@
+---
+title: Motion Graphics Template
+category: creative/Design & Visual
+tags: [creative, design, development, documentation, marketing, template]
+use_cases:
+  - Implementing create comprehensive motion graphics projects including animations, effects, and...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - creative-writing-framework.md
+  - video-production-pipeline.md
+last_updated: 2025-11-09
+---
+
 # Motion Graphics Template
 
 ## Purpose

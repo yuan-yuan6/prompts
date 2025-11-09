@@ -1,3 +1,14 @@
+---
+title: Life Optimization & Personal Excellence Framework
+category: personal/development
+tags: [design, development, framework, management, optimization, personal, strategy]
+use_cases:
+  - Implementing comprehensive framework for personal development and life optimization including...
+  - Project planning and execution
+  - Strategy development
+last_updated: 2025-11-09
+---
+
 # Life Optimization & Personal Excellence Framework
 
 ## Purpose
@@ -55,6 +66,302 @@ Keystone Habits:
 - Creative Expression: [CREATIVE_HABIT]
 - Social Connection: [SOCIAL_HABIT]
 ```
+
+## Variables
+
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `[INDIVIDUAL_PROFILE]` | Specify the individual profile | "[specify value]" |
+| `[LIFE_GOALS]` | Specify the life goals | "Increase efficiency by 30%" |
+| `[TIME_HORIZON]` | Specify the time horizon | "[specify value]" |
+| `[SUCCESS_METRICS]` | Specify the success metrics | "[specify value]" |
+| `[BALANCE_SCORE]` | Specify the balance score | "[specify value]" |
+| `[HAPPINESS_INDEX]` | Specify the happiness index | "[specify value]" |
+| `[GROWTH_RATE]` | Specify the growth rate | "[specify value]" |
+| `[CAREER_CURRENT]` | Specify the career current | "[specify value]" |
+| `[CAREER_VISION]` | Specify the career vision | "[specify value]" |
+| `[CAREER_MILESTONES]` | Specify the career milestones | "[specify value]" |
+| `[CAREER_ACTIONS]` | Specify the career actions | "[specify value]" |
+| `[CAREER_METRICS]` | Specify the career metrics | "[specify value]" |
+| `[HEALTH_CURRENT]` | Specify the health current | "[specify value]" |
+| `[HEALTH_VISION]` | Specify the health vision | "[specify value]" |
+| `[HEALTH_MILESTONES]` | Specify the health milestones | "[specify value]" |
+| `[HEALTH_ACTIONS]` | Specify the health actions | "[specify value]" |
+| `[HEALTH_METRICS]` | Specify the health metrics | "[specify value]" |
+| `[FINANCE_CURRENT]` | Specify the finance current | "[specify value]" |
+| `[FINANCE_VISION]` | Specify the finance vision | "[specify value]" |
+| `[FINANCE_MILESTONES]` | Specify the finance milestones | "[specify value]" |
+| `[FINANCE_ACTIONS]` | Specify the finance actions | "[specify value]" |
+| `[FINANCE_METRICS]` | Specify the finance metrics | "[specify value]" |
+| `[RELATION_CURRENT]` | Specify the relation current | "[specify value]" |
+| `[RELATION_VISION]` | Specify the relation vision | "[specify value]" |
+| `[RELATION_MILESTONES]` | Specify the relation milestones | "[specify value]" |
+| `[RELATION_ACTIONS]` | Specify the relation actions | "[specify value]" |
+| `[RELATION_METRICS]` | Specify the relation metrics | "[specify value]" |
+| `[GROWTH_CURRENT]` | Specify the growth current | "[specify value]" |
+| `[GROWTH_VISION]` | Specify the growth vision | "[specify value]" |
+| `[GROWTH_MILESTONES]` | Specify the growth milestones | "[specify value]" |
+| `[GROWTH_ACTIONS]` | Specify the growth actions | "[specify value]" |
+| `[GROWTH_METRICS]` | Specify the growth metrics | "[specify value]" |
+| `[LEGACY_CURRENT]` | Specify the legacy current | "[specify value]" |
+| `[LEGACY_VISION]` | Specify the legacy vision | "[specify value]" |
+| `[LEGACY_MILESTONES]` | Specify the legacy milestones | "[specify value]" |
+| `[LEGACY_ACTIONS]` | Specify the legacy actions | "[specify value]" |
+| `[LEGACY_METRICS]` | Specify the legacy metrics | "[specify value]" |
+| `[SLEEP_SCHEDULE]` | Specify the sleep schedule | "[specify value]" |
+| `[WAKE_TIME]` | Specify the wake time | "[specify value]" |
+| `[MORNING_RITUAL]` | Specify the morning ritual | "[specify value]" |
+| `[HYDRATION]` | Specify the hydration | "[specify value]" |
+| `[MORNING_MOVEMENT]` | Specify the morning movement | "[specify value]" |
+| `[MORNING_MINDFUL]` | Specify the morning mindful | "[specify value]" |
+| `[DEEP_WORK]` | Specify the deep work | "[specify value]" |
+| `[FOCUS_SESSIONS]` | Specify the focus sessions | "[specify value]" |
+| `[ENERGY_MANAGE]` | Specify the energy manage | "[specify value]" |
+| `[BREAK_INTERVALS]` | Specify the break intervals | "[specify value]" |
+| `[NUTRITION_TIME]` | Specify the nutrition time | "[specify value]" |
+| `[COGNITIVE_ENHANCE]` | Specify the cognitive enhance | "[specify value]" |
+| `[WIND_DOWN]` | Specify the wind down | "[specify value]" |
+| `[REFLECTION]` | Specify the reflection | "[specify value]" |
+| `[GRATITUDE]` | Specify the gratitude | "[specify value]" |
+| `[PLANNING]` | Specify the planning | "[specify value]" |
+| `[DIGITAL_SUNSET]` | Specify the digital sunset | "[specify value]" |
+| `[SLEEP_OPTIMIZE]` | Specify the sleep optimize | "[specify value]" |
+| `[EXERCISE_HABIT]` | Specify the exercise habit | "[specify value]" |
+| `[READING_HABIT]` | Specify the reading habit | "[specify value]" |
+| `[MEDITATION_HABIT]` | Specify the meditation habit | "[specify value]" |
+| `[LEARNING_HABIT]` | Specify the learning habit | "[specify value]" |
+| `[CREATIVE_HABIT]` | Specify the creative habit | "[specify value]" |
+| `[SOCIAL_HABIT]` | Specify the social habit | "[specify value]" |
+| `[TASK_CURRENT]` | Specify the task current | "[specify value]" |
+| `[TASK_OPTIMIZED]` | Specify the task optimized | "[specify value]" |
+| `[TASK_TOOLS]` | Specify the task tools | "[specify value]" |
+| `[TASK_SAVED]` | Specify the task saved | "[specify value]" |
+| `[TASK_INCREASE]` | Specify the task increase | "[specify value]" |
+| `[PROJECT_CURRENT]` | Specify the project current | "[specify value]" |
+| `[PROJECT_OPTIMIZED]` | Specify the project optimized | "[specify value]" |
+| `[PROJECT_TOOLS]` | Specify the project tools | "[specify value]" |
+| `[PROJECT_SAVED]` | Specify the project saved | "[specify value]" |
+| `[PROJECT_INCREASE]` | Specify the project increase | "[specify value]" |
+| `[EMAIL_CURRENT]` | Specify the email current | "john.smith@example.com" |
+| `[EMAIL_OPTIMIZED]` | Specify the email optimized | "john.smith@example.com" |
+| `[EMAIL_TOOLS]` | Specify the email tools | "john.smith@example.com" |
+| `[EMAIL_SAVED]` | Specify the email saved | "john.smith@example.com" |
+| `[EMAIL_INCREASE]` | Specify the email increase | "john.smith@example.com" |
+| `[MEETING_CURRENT]` | Specify the meeting current | "[specify value]" |
+| `[MEETING_OPTIMIZED]` | Specify the meeting optimized | "[specify value]" |
+| `[MEETING_TOOLS]` | Specify the meeting tools | "[specify value]" |
+| `[MEETING_SAVED]` | Specify the meeting saved | "[specify value]" |
+| `[MEETING_INCREASE]` | Specify the meeting increase | "[specify value]" |
+| `[FOCUS_CURRENT]` | Specify the focus current | "[specify value]" |
+| `[FOCUS_OPTIMIZED]` | Specify the focus optimized | "[specify value]" |
+| `[FOCUS_TOOLS]` | Specify the focus tools | "[specify value]" |
+| `[FOCUS_SAVED]` | Specify the focus saved | "[specify value]" |
+| `[FOCUS_INCREASE]` | Specify the focus increase | "[specify value]" |
+| `[AUTO_CURRENT]` | Specify the auto current | "[specify value]" |
+| `[AUTO_OPTIMIZED]` | Specify the auto optimized | "[specify value]" |
+| `[AUTO_TOOLS]` | Specify the auto tools | "[specify value]" |
+| `[AUTO_SAVED]` | Specify the auto saved | "[specify value]" |
+| `[AUTO_INCREASE]` | Specify the auto increase | "[specify value]" |
+| `[STRESS_TRIGGERS]` | Specify the stress triggers | "[specify value]" |
+| `[COPING_MECH]` | Specify the coping mech | "[specify value]" |
+| `[RESILIENCE]` | Specify the resilience | "[specify value]" |
+| `[RECOVERY]` | Specify the recovery | "[specify value]" |
+| `[SUPPORT_SYSTEMS]` | Specify the support systems | "[specify value]" |
+| `[PROF_HELP]` | Specify the prof help | "[specify value]" |
+| `[SELF_AWARE]` | Specify the self aware | "[specify value]" |
+| `[SELF_REGULATE]` | Specify the self regulate | "[specify value]" |
+| `[MOTIVATION]` | Specify the motivation | "[specify value]" |
+| `[EMPATHY]` | Specify the empathy | "[specify value]" |
+| `[SOCIAL_SKILLS]` | Specify the social skills | "[specify value]" |
+| `[RELATIONSHIP_IQ]` | Specify the relationship iq | "[specify value]" |
+| `[GROWTH_MINDSET]` | Specify the growth mindset | "[specify value]" |
+| `[LIMITING_BELIEFS]` | Specify the limiting beliefs | "[specify value]" |
+| `[COGNITIVE_REFRAME]` | Specify the cognitive reframe | "[specify value]" |
+| `[POSITIVE_PSYCH]` | Specify the positive psych | "[specify value]" |
+| `[MENTAL_MODELS]` | Specify the mental models | "[specify value]" |
+| `[DECISION_FRAME]` | Specify the decision frame | "[specify value]" |
+| `[THERAPY_COACH]` | Specify the therapy coach | "[specify value]" |
+| `[MEDITATION_PRACT]` | Specify the meditation pract | "[specify value]" |
+| `[JOURNALING]` | Specify the journaling | "[specify value]" |
+| `[DIGITAL_DETOX]` | Specify the digital detox | "[specify value]" |
+| `[NATURE_EXPOSE]` | Specify the nature expose | "[specify value]" |
+| `[CREATIVE_OUTLETS]` | Specify the creative outlets | "[specify value]" |
+| `[FITNESS_CURRENT]` | Specify the fitness current | "[specify value]" |
+| `[FITNESS_TARGET]` | Target or intended fitness | "[specify value]" |
+| `[FITNESS_PROTOCOL]` | Specify the fitness protocol | "[specify value]" |
+| `[FITNESS_TRACK]` | Specify the fitness track | "[specify value]" |
+| `[FITNESS_PROGRESS]` | Specify the fitness progress | "[specify value]" |
+| `[NUTRITION_CURRENT]` | Specify the nutrition current | "[specify value]" |
+| `[NUTRITION_TARGET]` | Target or intended nutrition | "[specify value]" |
+| `[NUTRITION_PROTOCOL]` | Specify the nutrition protocol | "[specify value]" |
+| `[NUTRITION_TRACK]` | Specify the nutrition track | "[specify value]" |
+| `[NUTRITION_PROGRESS]` | Specify the nutrition progress | "[specify value]" |
+| `[SLEEP_CURRENT]` | Specify the sleep current | "[specify value]" |
+| `[SLEEP_TARGET]` | Target or intended sleep | "[specify value]" |
+| `[SLEEP_PROTOCOL]` | Specify the sleep protocol | "[specify value]" |
+| `[SLEEP_TRACK]` | Specify the sleep track | "[specify value]" |
+| `[SLEEP_PROGRESS]` | Specify the sleep progress | "[specify value]" |
+| `[ENERGY_CURRENT]` | Specify the energy current | "[specify value]" |
+| `[ENERGY_TARGET]` | Target or intended energy | "[specify value]" |
+| `[ENERGY_PROTOCOL]` | Specify the energy protocol | "[specify value]" |
+| `[ENERGY_TRACK]` | Specify the energy track | "[specify value]" |
+| `[ENERGY_PROGRESS]` | Specify the energy progress | "[specify value]" |
+| `[BIO_CURRENT]` | Specify the bio current | "[specify value]" |
+| `[BIO_TARGET]` | Target or intended bio | "[specify value]" |
+| `[BIO_PROTOCOL]` | Specify the bio protocol | "[specify value]" |
+| `[BIO_TRACK]` | Specify the bio track | "[specify value]" |
+| `[BIO_PROGRESS]` | Specify the bio progress | "[specify value]" |
+| `[LONGEVITY_CURRENT]` | Specify the longevity current | "[specify value]" |
+| `[LONGEVITY_TARGET]` | Target or intended longevity | "[specify value]" |
+| `[LONGEVITY_PROTOCOL]` | Specify the longevity protocol | "[specify value]" |
+| `[LONGEVITY_TRACK]` | Specify the longevity track | "[specify value]" |
+| `[LONGEVITY_PROGRESS]` | Specify the longevity progress | "[specify value]" |
+| `[INCOME_CURRENT]` | Specify the income current | "[specify value]" |
+| `[INCOME_TARGET]` | Target or intended income | "[specify value]" |
+| `[INCOME_STRATEGY]` | Strategy or approach for income | "[specify value]" |
+| `[INCOME_ACTION]` | Specify the income action | "[specify value]" |
+| `[INCOME_REVIEW]` | Specify the income review | "[specify value]" |
+| `[EXPENSE_CURRENT]` | Specify the expense current | "[specify value]" |
+| `[EXPENSE_TARGET]` | Target or intended expense | "[specify value]" |
+| `[EXPENSE_STRATEGY]` | Strategy or approach for expense | "[specify value]" |
+| `[EXPENSE_ACTION]` | Specify the expense action | "[specify value]" |
+| `[EXPENSE_REVIEW]` | Specify the expense review | "[specify value]" |
+| `[INVEST_CURRENT]` | Specify the invest current | "[specify value]" |
+| `[INVEST_TARGET]` | Target or intended invest | "[specify value]" |
+| `[INVEST_STRATEGY]` | Strategy or approach for invest | "[specify value]" |
+| `[INVEST_ACTION]` | Specify the invest action | "[specify value]" |
+| `[INVEST_REVIEW]` | Specify the invest review | "[specify value]" |
+| `[EMERGENCY_CURRENT]` | Specify the emergency current | "[specify value]" |
+| `[EMERGENCY_TARGET]` | Target or intended emergency | "[specify value]" |
+| `[EMERGENCY_STRATEGY]` | Strategy or approach for emergency | "[specify value]" |
+| `[EMERGENCY_ACTION]` | Specify the emergency action | "[specify value]" |
+| `[EMERGENCY_REVIEW]` | Specify the emergency review | "[specify value]" |
+| `[DEBT_CURRENT]` | Specify the debt current | "[specify value]" |
+| `[DEBT_TARGET]` | Target or intended debt | "[specify value]" |
+| `[DEBT_STRATEGY]` | Strategy or approach for debt | "[specify value]" |
+| `[DEBT_ACTION]` | Specify the debt action | "[specify value]" |
+| `[DEBT_REVIEW]` | Specify the debt review | "[specify value]" |
+| `[PASSIVE_CURRENT]` | Specify the passive current | "[specify value]" |
+| `[PASSIVE_TARGET]` | Target or intended passive | "[specify value]" |
+| `[PASSIVE_STRATEGY]` | Strategy or approach for passive | "[specify value]" |
+| `[PASSIVE_ACTION]` | Specify the passive action | "[specify value]" |
+| `[PASSIVE_REVIEW]` | Specify the passive review | "[specify value]" |
+| `[PRIORITY_SKILLS]` | Specify the priority skills | "High" |
+| `[LEARN_METHODS]` | Specify the learn methods | "[specify value]" |
+| `[TIME_INVEST]` | Specify the time invest | "[specify value]" |
+| `[PRACTICE_SCHED]` | Specify the practice sched | "[specify value]" |
+| `[FEEDBACK_LOOPS]` | Specify the feedback loops | "[specify value]" |
+| `[MASTERY_TIME]` | Specify the mastery time | "[specify value]" |
+| `[READING_GOALS]` | Specify the reading goals | "Increase efficiency by 30%" |
+| `[COURSE_COMPLETE]` | Specify the course complete | "[specify value]" |
+| `[PODCAST_AUDIO]` | Specify the podcast audio | "[specify value]" |
+| `[NOTE_SYSTEM]` | Specify the note system | "[specify value]" |
+| `[KNOWLEDGE_BASE]` | Specify the knowledge base | "[specify value]" |
+| `[TEACHING_OTHERS]` | Specify the teaching others | "[specify value]" |
+| `[CERTIFICATIONS]` | Specify the certifications | "[specify value]" |
+| `[INDUSTRY_EVENTS]` | Specify the industry events | "Technology" |
+| `[NETWORK_GOALS]` | Specify the network goals | "Increase efficiency by 30%" |
+| `[MENTORSHIP]` | Specify the mentorship | "[specify value]" |
+| `[PERSONAL_BOARD]` | Specify the personal board | "[specify value]" |
+| `[THOUGHT_LEADER]` | Specify the thought leader | "[specify value]" |
+| `[CREATIVE_PROJECTS]` | Specify the creative projects | "[specify value]" |
+| `[ARTISTIC_PRACTICE]` | Specify the artistic practice | "[specify value]" |
+| `[WRITING_GOALS]` | Specify the writing goals | "Increase efficiency by 30%" |
+| `[CONTENT_CREATE]` | Specify the content create | "[specify value]" |
+| `[INNOVATION_TIME]` | Specify the innovation time | "[specify value]" |
+| `[EXPERIMENTATION]` | Specify the experimentation | "[specify value]" |
+| `[INTIMATE_QUALITY]` | Specify the intimate quality | "[specify value]" |
+| `[INTIMATE_PRIORITY]` | Specify the intimate priority | "High" |
+| `[INTIMATE_FREQ]` | Specify the intimate freq | "[specify value]" |
+| `[INTIMATE_ACTIVITIES]` | Specify the intimate activities | "[specify value]" |
+| `[INTIMATE_VALUE]` | Specify the intimate value | "[specify value]" |
+| `[FAMILY_QUALITY]` | Specify the family quality | "[specify value]" |
+| `[FAMILY_PRIORITY]` | Specify the family priority | "High" |
+| `[FAMILY_FREQ]` | Specify the family freq | "[specify value]" |
+| `[FAMILY_ACTIVITIES]` | Specify the family activities | "[specify value]" |
+| `[FAMILY_VALUE]` | Specify the family value | "[specify value]" |
+| `[FRIEND_QUALITY]` | Specify the friend quality | "[specify value]" |
+| `[FRIEND_PRIORITY]` | Specify the friend priority | "High" |
+| `[FRIEND_FREQ]` | Specify the friend freq | "[specify value]" |
+| `[FRIEND_ACTIVITIES]` | Specify the friend activities | "[specify value]" |
+| `[FRIEND_VALUE]` | Specify the friend value | "[specify value]" |
+| `[PROF_QUALITY]` | Specify the prof quality | "[specify value]" |
+| `[PROF_PRIORITY]` | Specify the prof priority | "High" |
+| `[PROF_FREQ]` | Specify the prof freq | "[specify value]" |
+| `[PROF_ACTIVITIES]` | Specify the prof activities | "[specify value]" |
+| `[PROF_VALUE]` | Specify the prof value | "[specify value]" |
+| `[COMMUNITY_QUALITY]` | Specify the community quality | "[specify value]" |
+| `[COMMUNITY_PRIORITY]` | Specify the community priority | "High" |
+| `[COMMUNITY_FREQ]` | Specify the community freq | "[specify value]" |
+| `[COMMUNITY_ACTIVITIES]` | Specify the community activities | "[specify value]" |
+| `[COMMUNITY_VALUE]` | Specify the community value | "[specify value]" |
+| `[MENTOR_QUALITY]` | Specify the mentor quality | "[specify value]" |
+| `[MENTOR_PRIORITY]` | Specify the mentor priority | "High" |
+| `[MENTOR_FREQ]` | Specify the mentor freq | "[specify value]" |
+| `[MENTOR_ACTIVITIES]` | Specify the mentor activities | "[specify value]" |
+| `[MENTOR_VALUE]` | Specify the mentor value | "[specify value]" |
+| `[PROF_IMPACT]` | Specify the prof impact | "[specify value]" |
+| `[PROF_VISION]` | Specify the prof vision | "[specify value]" |
+| `[PROF_PLAN]` | Specify the prof plan | "[specify value]" |
+| `[PROF_MEASURE]` | Specify the prof measure | "[specify value]" |
+| `[PROF_LEGACY]` | Specify the prof legacy | "[specify value]" |
+| `[COMM_IMPACT]` | Specify the comm impact | "[specify value]" |
+| `[COMM_VISION]` | Specify the comm vision | "[specify value]" |
+| `[COMM_PLAN]` | Specify the comm plan | "[specify value]" |
+| `[COMM_MEASURE]` | Specify the comm measure | "[specify value]" |
+| `[COMM_LEGACY]` | Specify the comm legacy | "[specify value]" |
+| `[ENV_IMPACT]` | Specify the env impact | "[specify value]" |
+| `[ENV_VISION]` | Specify the env vision | "[specify value]" |
+| `[ENV_PLAN]` | Specify the env plan | "[specify value]" |
+| `[ENV_MEASURE]` | Specify the env measure | "[specify value]" |
+| `[ENV_LEGACY]` | Specify the env legacy | "[specify value]" |
+| `[KNOW_IMPACT]` | Specify the know impact | "[specify value]" |
+| `[KNOW_VISION]` | Specify the know vision | "[specify value]" |
+| `[KNOW_PLAN]` | Specify the know plan | "[specify value]" |
+| `[KNOW_MEASURE]` | Specify the know measure | "[specify value]" |
+| `[KNOW_LEGACY]` | Specify the know legacy | "[specify value]" |
+| `[PHIL_IMPACT]` | Specify the phil impact | "[specify value]" |
+| `[PHIL_VISION]` | Specify the phil vision | "[specify value]" |
+| `[PHIL_PLAN]` | Specify the phil plan | "[specify value]" |
+| `[PHIL_MEASURE]` | Specify the phil measure | "[specify value]" |
+| `[PHIL_LEGACY]` | Specify the phil legacy | "[specify value]" |
+| `[CREATE_IMPACT]` | Specify the create impact | "[specify value]" |
+| `[CREATE_VISION]` | Specify the create vision | "[specify value]" |
+| `[CREATE_PLAN]` | Specify the create plan | "[specify value]" |
+| `[CREATE_MEASURE]` | Specify the create measure | "[specify value]" |
+| `[CREATE_LEGACY]` | Specify the create legacy | "[specify value]" |
+| `[MORNING_PLAN]` | Specify the morning plan | "[specify value]" |
+| `[EVENING_REFLECT]` | Specify the evening reflect | "[specify value]" |
+| `[WIN_DOCUMENT]` | Specify the win document | "[specify value]" |
+| `[LESSON_CAPTURE]` | Specify the lesson capture | "[specify value]" |
+| `[TOMORROW_PREP]` | Specify the tomorrow prep | "[specify value]" |
+| `[GRATITUDE_PRACT]` | Specify the gratitude pract | "[specify value]" |
+| `[WEEKLY_GOALS]` | Specify the weekly goals | "Increase efficiency by 30%" |
+| `[WEEKLY_HABITS]` | Specify the weekly habits | "[specify value]" |
+| `[WEEKLY_TIME]` | Specify the weekly time | "[specify value]" |
+| `[WEEKLY_ENERGY]` | Specify the weekly energy | "[specify value]" |
+| `[WEEKLY_RELATION]` | Specify the weekly relation | "[specify value]" |
+| `[WEEKLY_CORRECT]` | Specify the weekly correct | "[specify value]" |
+| `[MONTHLY_KPI]` | Specify the monthly kpi | "[specify value]" |
+| `[MONTHLY_FINANCE]` | Specify the monthly finance | "[specify value]" |
+| `[MONTHLY_HEALTH]` | Specify the monthly health | "[specify value]" |
+| `[MONTHLY_LEARN]` | Specify the monthly learn | "[specify value]" |
+| `[MONTHLY_PROJECT]` | Specify the monthly project | "[specify value]" |
+| `[MONTHLY_BALANCE]` | Specify the monthly balance | "[specify value]" |
+| `[QUARTERLY_VISION]` | Specify the quarterly vision | "[specify value]" |
+| `[QUARTERLY_GOALS]` | Specify the quarterly goals | "Increase efficiency by 30%" |
+| `[QUARTERLY_STRATEGY]` | Strategy or approach for quarterly | "[specify value]" |
+| `[QUARTERLY_SYSTEM]` | Specify the quarterly system | "[specify value]" |
+| `[QUARTERLY_NETWORK]` | Specify the quarterly network | "[specify value]" |
+| `[QUARTERLY_CELEBRATE]` | Specify the quarterly celebrate | "[specify value]" |
+| `[ANNUAL_AUDIT]` | Specify the annual audit | "[specify value]" |
+| `[ANNUAL_VISION]` | Specify the annual vision | "[specify value]" |
+| `[ANNUAL_DECISIONS]` | Specify the annual decisions | "[specify value]" |
+| `[ANNUAL_RELATIONS]` | Specify the annual relations | "[specify value]" |
+| `[ANNUAL_LEGACY]` | Specify the annual legacy | "[specify value]" |
+| `[ANNUAL_PLANNING]` | Specify the annual planning | "[specify value]" |
+
+
 
 ### 3. Productivity & Time Mastery
 

@@ -1,3 +1,14 @@
+---
+title: Fleet Management & Vehicle Operations Framework
+category: industry/transportation-logistics
+tags: [framework, industry, management, optimization, security]
+use_cases:
+  - Implementing comprehensive framework for managing vehicle fleets including asset tracking, ma...
+  - Project planning and execution
+  - Strategy development
+last_updated: 2025-11-09
+---
+
 # Fleet Management & Vehicle Operations Framework
 
 ## Purpose
@@ -55,6 +66,309 @@ Environmental Monitoring:
 - Shock/Vibration: [SHOCK_MONITORING]
 - Security Alerts: [SECURITY_MONITORING]
 ```
+
+## Variables
+
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `[FLEET_SIZE]` | Specify the fleet size | "[specify value]" |
+| `[LOCATION_COUNT]` | Specify the location count | "North America" |
+| `[DRIVER_COUNT]` | Specify the driver count | "10" |
+| `[DAILY_MILES]` | Specify the daily miles | "[specify value]" |
+| `[UTILIZATION_TARGET]` | Target or intended utilization | "[specify value]" |
+| `[FUEL_EFFICIENCY]` | Specify the fuel efficiency | "[specify value]" |
+| `[MAINTENANCE_COST]` | Specify the maintenance cost | "[specify value]" |
+| `[COMPLIANCE_RATE]` | Specify the compliance rate | "[specify value]" |
+| `[UPTIME_TARGET]` | Target or intended uptime | "[specify value]" |
+| `[LIGHT_INVENTORY]` | Specify the light inventory | "[specify value]" |
+| `[LIGHT_UTILIZATION]` | Specify the light utilization | "[specify value]" |
+| `[LIGHT_LIFECYCLE]` | Specify the light lifecycle | "[specify value]" |
+| `[LIGHT_REPLACEMENT]` | Specify the light replacement | "[specify value]" |
+| `[LIGHT_INVESTMENT]` | Specify the light investment | "[specify value]" |
+| `[MEDIUM_INVENTORY]` | Specify the medium inventory | "[specify value]" |
+| `[MEDIUM_UTILIZATION]` | Specify the medium utilization | "[specify value]" |
+| `[MEDIUM_LIFECYCLE]` | Specify the medium lifecycle | "[specify value]" |
+| `[MEDIUM_REPLACEMENT]` | Specify the medium replacement | "[specify value]" |
+| `[MEDIUM_INVESTMENT]` | Specify the medium investment | "[specify value]" |
+| `[HEAVY_INVENTORY]` | Specify the heavy inventory | "[specify value]" |
+| `[HEAVY_UTILIZATION]` | Specify the heavy utilization | "[specify value]" |
+| `[HEAVY_LIFECYCLE]` | Specify the heavy lifecycle | "[specify value]" |
+| `[HEAVY_REPLACEMENT]` | Specify the heavy replacement | "[specify value]" |
+| `[HEAVY_INVESTMENT]` | Specify the heavy investment | "[specify value]" |
+| `[SPECIAL_INVENTORY]` | Specify the special inventory | "[specify value]" |
+| `[SPECIAL_UTILIZATION]` | Specify the special utilization | "[specify value]" |
+| `[SPECIAL_LIFECYCLE]` | Specify the special lifecycle | "[specify value]" |
+| `[SPECIAL_REPLACEMENT]` | Specify the special replacement | "[specify value]" |
+| `[SPECIAL_INVESTMENT]` | Specify the special investment | "[specify value]" |
+| `[TRAILER_INVENTORY]` | Specify the trailer inventory | "[specify value]" |
+| `[TRAILER_UTILIZATION]` | Specify the trailer utilization | "[specify value]" |
+| `[TRAILER_LIFECYCLE]` | Specify the trailer lifecycle | "[specify value]" |
+| `[TRAILER_REPLACEMENT]` | Specify the trailer replacement | "[specify value]" |
+| `[TRAILER_INVESTMENT]` | Specify the trailer investment | "[specify value]" |
+| `[SUPPORT_INVENTORY]` | Specify the support inventory | "[specify value]" |
+| `[SUPPORT_UTILIZATION]` | Specify the support utilization | "[specify value]" |
+| `[SUPPORT_LIFECYCLE]` | Specify the support lifecycle | "[specify value]" |
+| `[SUPPORT_REPLACEMENT]` | Specify the support replacement | "[specify value]" |
+| `[SUPPORT_INVESTMENT]` | Specify the support investment | "[specify value]" |
+| `[GPS_ACCURACY]` | Specify the gps accuracy | "[specify value]" |
+| `[UPDATE_FREQUENCY]` | Specify the update frequency | "2025-01-15" |
+| `[COVERAGE_AREA]` | Specify the coverage area | "[specify value]" |
+| `[DEAD_RECKONING]` | Specify the dead reckoning | "[specify value]" |
+| `[GEOFENCE_ZONES]` | Specify the geofence zones | "[specify value]" |
+| `[HISTORICAL_DAYS]` | Specify the historical days | "[specify value]" |
+| `[ENGINE_PARAMS]` | Specify the engine params | "[specify value]" |
+| `[FUEL_MONITORING]` | Specify the fuel monitoring | "[specify value]" |
+| `[TIRE_MONITORING]` | Specify the tire monitoring | "[specify value]" |
+| `[TEMP_MONITORING]` | Specify the temp monitoring | "[specify value]" |
+| `[BATTERY_MONITORING]` | Specify the battery monitoring | "[specify value]" |
+| `[FAULT_MONITORING]` | Specify the fault monitoring | "[specify value]" |
+| `[SPEED_MONITORING]` | Specify the speed monitoring | "[specify value]" |
+| `[BRAKE_MONITORING]` | Specify the brake monitoring | "[specify value]" |
+| `[ACCEL_MONITORING]` | Specify the accel monitoring | "[specify value]" |
+| `[CORNER_MONITORING]` | Specify the corner monitoring | "[specify value]" |
+| `[IDLE_MONITORING]` | Specify the idle monitoring | "[specify value]" |
+| `[SEATBELT_MONITORING]` | Specify the seatbelt monitoring | "[specify value]" |
+| `[CARGO_TEMP]` | Specify the cargo temp | "[specify value]" |
+| `[HUMIDITY_MONITOR]` | Specify the humidity monitor | "[specify value]" |
+| `[DOOR_MONITORING]` | Specify the door monitoring | "[specify value]" |
+| `[WEIGHT_MONITORING]` | Specify the weight monitoring | "[specify value]" |
+| `[SHOCK_MONITORING]` | Specify the shock monitoring | "[specify value]" |
+| `[SECURITY_MONITORING]` | Specify the security monitoring | "[specify value]" |
+| `[OIL_INTERVAL]` | Specify the oil interval | "[specify value]" |
+| `[OIL_COST]` | Specify the oil cost | "[specify value]" |
+| `[OIL_DOWNTIME]` | Specify the oil downtime | "[specify value]" |
+| `[OIL_COMPLIANCE]` | Specify the oil compliance | "[specify value]" |
+| `[OIL_PREVENTION]` | Specify the oil prevention | "[specify value]" |
+| `[TIRE_INTERVAL]` | Specify the tire interval | "[specify value]" |
+| `[TIRE_COST]` | Specify the tire cost | "[specify value]" |
+| `[TIRE_DOWNTIME]` | Specify the tire downtime | "[specify value]" |
+| `[TIRE_COMPLIANCE]` | Specify the tire compliance | "[specify value]" |
+| `[TIRE_PREVENTION]` | Specify the tire prevention | "[specify value]" |
+| `[BRAKE_INTERVAL]` | Specify the brake interval | "[specify value]" |
+| `[BRAKE_COST]` | Specify the brake cost | "[specify value]" |
+| `[BRAKE_DOWNTIME]` | Specify the brake downtime | "[specify value]" |
+| `[BRAKE_COMPLIANCE]` | Specify the brake compliance | "[specify value]" |
+| `[BRAKE_PREVENTION]` | Specify the brake prevention | "[specify value]" |
+| `[ENGINE_INTERVAL]` | Specify the engine interval | "[specify value]" |
+| `[ENGINE_COST]` | Specify the engine cost | "[specify value]" |
+| `[ENGINE_DOWNTIME]` | Specify the engine downtime | "[specify value]" |
+| `[ENGINE_COMPLIANCE]` | Specify the engine compliance | "[specify value]" |
+| `[ENGINE_PREVENTION]` | Specify the engine prevention | "[specify value]" |
+| `[TRANS_INTERVAL]` | Specify the trans interval | "[specify value]" |
+| `[TRANS_COST]` | Specify the trans cost | "[specify value]" |
+| `[TRANS_DOWNTIME]` | Specify the trans downtime | "[specify value]" |
+| `[TRANS_COMPLIANCE]` | Specify the trans compliance | "[specify value]" |
+| `[TRANS_PREVENTION]` | Specify the trans prevention | "[specify value]" |
+| `[SAFETY_INTERVAL]` | Specify the safety interval | "[specify value]" |
+| `[SAFETY_COST]` | Specify the safety cost | "[specify value]" |
+| `[SAFETY_DOWNTIME]` | Specify the safety downtime | "[specify value]" |
+| `[SAFETY_COMPLIANCE]` | Specify the safety compliance | "[specify value]" |
+| `[SAFETY_PREVENTION]` | Specify the safety prevention | "[specify value]" |
+| `[LICENSE_VERIFICATION]` | Specify the license verification | "[specify value]" |
+| `[CERT_TRACKING]` | Specify the cert tracking | "[specify value]" |
+| `[MEDICAL_TRACKING]` | Specify the medical tracking | "[specify value]" |
+| `[TRAINING_HISTORY]` | Specify the training history | "[specify value]" |
+| `[PERFORMANCE_SCORES]` | Specify the performance scores | "[specify value]" |
+| `[VIOLATION_RECORDS]` | Specify the violation records | "[specify value]" |
+| `[SHIFT_PLANNING]` | Specify the shift planning | "[specify value]" |
+| `[HOS_TRACKING]` | Specify the hos tracking | "[specify value]" |
+| `[ROUTE_ASSIGNMENTS]` | Specify the route assignments | "[specify value]" |
+| `[BREAK_MANAGEMENT]` | Specify the break management | "[specify value]" |
+| `[OVERTIME_TRACKING]` | Specify the overtime tracking | "[specify value]" |
+| `[AVAILABILITY_TRACKING]` | Specify the availability tracking | "[specify value]" |
+| `[SAFETY_SCORE]` | Specify the safety score | "[specify value]" |
+| `[ONTIME_DELIVERY]` | Specify the ontime delivery | "[specify value]" |
+| `[CUSTOMER_RATING]` | Specify the customer rating | "[specify value]" |
+| `[MILES_DRIVEN]` | Specify the miles driven | "[specify value]" |
+| `[INCIDENT_RATE]` | Specify the incident rate | "[specify value]" |
+| `[ONBOARDING_PROGRAM]` | Specify the onboarding program | "[specify value]" |
+| `[SAFETY_TRAINING]` | Specify the safety training | "[specify value]" |
+| `[DEFENSIVE_TRAINING]` | Specify the defensive training | "[specify value]" |
+| `[VEHICLE_TRAINING]` | Specify the vehicle training | "[specify value]" |
+| `[COMPLIANCE_TRAINING]` | Specify the compliance training | "[specify value]" |
+| `[CONTINUOUS_TRAINING]` | Specify the continuous training | "[specify value]" |
+| `[BASE_SALARY]` | Specify the base salary | "[specify value]" |
+| `[MILEAGE_RATE]` | Specify the mileage rate | "[specify value]" |
+| `[PERFORMANCE_BONUS]` | Specify the performance bonus | "[specify value]" |
+| `[SAFETY_INCENTIVES]` | Specify the safety incentives | "[specify value]" |
+| `[OVERTIME_RATES]` | Specify the overtime rates | "[specify value]" |
+| `[BENEFITS_PACKAGE]` | Specify the benefits package | "[specify value]" |
+| `[CURRENT_DISTANCE]` | Specify the current distance | "[specify value]" |
+| `[TARGET_DISTANCE]` | Target or intended distance | "[specify value]" |
+| `[DISTANCE_ALGORITHM]` | Specify the distance algorithm | "[specify value]" |
+| `[DISTANCE_CONSTRAINTS]` | Specify the distance constraints | "[specify value]" |
+| `[DISTANCE_SAVINGS]` | Specify the distance savings | "[specify value]" |
+| `[CURRENT_TIME]` | Specify the current time | "[specify value]" |
+| `[TARGET_TIME]` | Target or intended time | "[specify value]" |
+| `[TIME_ALGORITHM]` | Specify the time algorithm | "[specify value]" |
+| `[TIME_CONSTRAINTS]` | Specify the time constraints | "[specify value]" |
+| `[TIME_SAVINGS]` | Specify the time savings | "[specify value]" |
+| `[CURRENT_FUEL]` | Specify the current fuel | "[specify value]" |
+| `[TARGET_FUEL]` | Target or intended fuel | "[specify value]" |
+| `[FUEL_ALGORITHM]` | Specify the fuel algorithm | "[specify value]" |
+| `[FUEL_CONSTRAINTS]` | Specify the fuel constraints | "[specify value]" |
+| `[FUEL_SAVINGS]` | Specify the fuel savings | "[specify value]" |
+| `[CURRENT_STOPS]` | Specify the current stops | "[specify value]" |
+| `[TARGET_STOPS]` | Target or intended stops | "[specify value]" |
+| `[STOPS_ALGORITHM]` | Specify the stops algorithm | "[specify value]" |
+| `[STOPS_CONSTRAINTS]` | Specify the stops constraints | "[specify value]" |
+| `[STOPS_EFFICIENCY]` | Specify the stops efficiency | "[specify value]" |
+| `[CURRENT_CAPACITY]` | Specify the current capacity | "[specify value]" |
+| `[TARGET_CAPACITY]` | Target or intended capacity | "[specify value]" |
+| `[CAPACITY_ALGORITHM]` | Specify the capacity algorithm | "[specify value]" |
+| `[CAPACITY_CONSTRAINTS]` | Specify the capacity constraints | "[specify value]" |
+| `[CAPACITY_IMPROVEMENT]` | Specify the capacity improvement | "[specify value]" |
+| `[CURRENT_WINDOWS]` | Specify the current windows | "[specify value]" |
+| `[TARGET_WINDOWS]` | Target or intended windows | "[specify value]" |
+| `[WINDOWS_ALGORITHM]` | Specify the windows algorithm | "[specify value]" |
+| `[WINDOWS_CONSTRAINTS]` | Specify the windows constraints | "[specify value]" |
+| `[WINDOWS_IMPROVEMENT]` | Specify the windows improvement | "[specify value]" |
+| `[CURRENT_PURCHASE]` | Specify the current purchase | "[specify value]" |
+| `[TARGET_PURCHASE]` | Target or intended purchase | "[specify value]" |
+| `[PURCHASE_STRATEGY]` | Strategy or approach for purchase | "[specify value]" |
+| `[PURCHASE_TECH]` | Specify the purchase tech | "[specify value]" |
+| `[PURCHASE_SAVINGS]` | Specify the purchase savings | "[specify value]" |
+| `[CURRENT_CARDS]` | Specify the current cards | "[specify value]" |
+| `[TARGET_CARDS]` | Target or intended cards | "[specify value]" |
+| `[CARD_STRATEGY]` | Strategy or approach for card | "[specify value]" |
+| `[CARD_TECH]` | Specify the card tech | "[specify value]" |
+| `[CARD_SAVINGS]` | Specify the card savings | "[specify value]" |
+| `[CURRENT_EFFICIENCY]` | Specify the current efficiency | "[specify value]" |
+| `[TARGET_EFFICIENCY]` | Target or intended efficiency | "[specify value]" |
+| `[EFFICIENCY_STRATEGY]` | Strategy or approach for efficiency | "[specify value]" |
+| `[EFFICIENCY_TECH]` | Specify the efficiency tech | "[specify value]" |
+| `[EFFICIENCY_SAVINGS]` | Specify the efficiency savings | "[specify value]" |
+| `[CURRENT_IDLE]` | Specify the current idle | "[specify value]" |
+| `[TARGET_IDLE]` | Target or intended idle | "[specify value]" |
+| `[IDLE_STRATEGY]` | Strategy or approach for idle | "[specify value]" |
+| `[IDLE_TECH]` | Specify the idle tech | "[specify value]" |
+| `[IDLE_SAVINGS]` | Specify the idle savings | "[specify value]" |
+| `[CURRENT_BEHAVIOR]` | Specify the current behavior | "[specify value]" |
+| `[TARGET_BEHAVIOR]` | Target or intended behavior | "[specify value]" |
+| `[BEHAVIOR_STRATEGY]` | Strategy or approach for behavior | "[specify value]" |
+| `[BEHAVIOR_TECH]` | Specify the behavior tech | "[specify value]" |
+| `[BEHAVIOR_SAVINGS]` | Specify the behavior savings | "[specify value]" |
+| `[CURRENT_ALT]` | Specify the current alt | "[specify value]" |
+| `[TARGET_ALT]` | Target or intended alt | "[specify value]" |
+| `[ALT_STRATEGY]` | Strategy or approach for alt | "[specify value]" |
+| `[ALT_TECH]` | Specify the alt tech | "[specify value]" |
+| `[ALT_SAVINGS]` | Specify the alt savings | "[specify value]" |
+| `[HOS_COMPLIANCE]` | Specify the hos compliance | "[specify value]" |
+| `[ELD_COMPLIANCE]` | Specify the eld compliance | "[specify value]" |
+| `[DQF_COMPLIANCE]` | Specify the dqf compliance | "[specify value]" |
+| `[INSPECTION_COMPLIANCE]` | Specify the inspection compliance | "[specify value]" |
+| `[ACCIDENT_COMPLIANCE]` | Specify the accident compliance | "[specify value]" |
+| `[TESTING_COMPLIANCE]` | Specify the testing compliance | "[specify value]" |
+| `[CSA_SCORES]` | Specify the csa scores | "[specify value]" |
+| `[SAFETY_RATING]` | Specify the safety rating | "[specify value]" |
+| `[OOS_RATE]` | Specify the oos rate | "[specify value]" |
+| `[VIOLATION_HISTORY]` | Specify the violation history | "[specify value]" |
+| `[CORRECTIVE_ACTIONS]` | Specify the corrective actions | "[specify value]" |
+| `[SAFETY_AUDITS]` | Specify the safety audits | "[specify value]" |
+| `[EMISSIONS_COMPLIANCE]` | Specify the emissions compliance | "[specify value]" |
+| `[IDLE_COMPLIANCE]` | Specify the idle compliance | "[specify value]" |
+| `[HAZMAT_COMPLIANCE]` | Specify the hazmat compliance | "[specify value]" |
+| `[WASTE_COMPLIANCE]` | Specify the waste compliance | "[specify value]" |
+| `[NOISE_COMPLIANCE]` | Specify the noise compliance | "[specify value]" |
+| `[GREEN_COMPLIANCE]` | Specify the green compliance | "[specify value]" |
+| `[INSURANCE_COVERAGE]` | Specify the insurance coverage | "[specify value]" |
+| `[CLAIMS_HISTORY]` | Specify the claims history | "[specify value]" |
+| `[RISK_ASSESSMENT]` | Specify the risk assessment | "[specify value]" |
+| `[PREMIUM_MANAGEMENT]` | Specify the premium management | "[specify value]" |
+| `[CERTIFICATE_TRACKING]` | Specify the certificate tracking | "[specify value]" |
+| `[INCIDENT_MANAGEMENT]` | Specify the incident management | "[specify value]" |
+| `[FUEL_BUDGET]` | Budget allocation for fuel | "$500,000" |
+| `[FUEL_ACTUAL]` | Specify the fuel actual | "[specify value]" |
+| `[FUEL_VARIANCE]` | Specify the fuel variance | "[specify value]" |
+| `[FUEL_CPM]` | Specify the fuel cpm | "[specify value]" |
+| `[FUEL_OPPORTUNITY]` | Specify the fuel opportunity | "[specify value]" |
+| `[MAINT_BUDGET]` | Budget allocation for maint | "$500,000" |
+| `[MAINT_ACTUAL]` | Specify the maint actual | "[specify value]" |
+| `[MAINT_VARIANCE]` | Specify the maint variance | "[specify value]" |
+| `[MAINT_CPM]` | Specify the maint cpm | "[specify value]" |
+| `[MAINT_OPPORTUNITY]` | Specify the maint opportunity | "[specify value]" |
+| `[INSURANCE_BUDGET]` | Budget allocation for insurance | "$500,000" |
+| `[INSURANCE_ACTUAL]` | Specify the insurance actual | "[specify value]" |
+| `[INSURANCE_VARIANCE]` | Specify the insurance variance | "[specify value]" |
+| `[INSURANCE_CPM]` | Specify the insurance cpm | "[specify value]" |
+| `[INSURANCE_OPPORTUNITY]` | Specify the insurance opportunity | "[specify value]" |
+| `[DEPREC_BUDGET]` | Budget allocation for deprec | "$500,000" |
+| `[DEPREC_ACTUAL]` | Specify the deprec actual | "[specify value]" |
+| `[DEPREC_VARIANCE]` | Specify the deprec variance | "[specify value]" |
+| `[DEPREC_CPM]` | Specify the deprec cpm | "[specify value]" |
+| `[DEPREC_OPPORTUNITY]` | Specify the deprec opportunity | "[specify value]" |
+| `[LABOR_BUDGET]` | Budget allocation for labor | "$500,000" |
+| `[LABOR_ACTUAL]` | Specify the labor actual | "[specify value]" |
+| `[LABOR_VARIANCE]` | Specify the labor variance | "[specify value]" |
+| `[LABOR_CPM]` | Specify the labor cpm | "[specify value]" |
+| `[LABOR_OPPORTUNITY]` | Specify the labor opportunity | "[specify value]" |
+| `[ADMIN_BUDGET]` | Budget allocation for admin | "$500,000" |
+| `[ADMIN_ACTUAL]` | Specify the admin actual | "[specify value]" |
+| `[ADMIN_VARIANCE]` | Specify the admin variance | "[specify value]" |
+| `[ADMIN_CPM]` | Specify the admin cpm | "[specify value]" |
+| `[ADMIN_OPPORTUNITY]` | Specify the admin opportunity | "[specify value]" |
+| `[FMS_SOLUTION]` | Specify the fms solution | "[specify value]" |
+| `[FMS_INTEGRATION]` | Specify the fms integration | "[specify value]" |
+| `[FMS_DATA]` | Specify the fms data | "[specify value]" |
+| `[FMS_API]` | Specify the fms api | "[specify value]" |
+| `[FMS_UPGRADE]` | Specify the fms upgrade | "[specify value]" |
+| `[GPS_SOLUTION]` | Specify the gps solution | "[specify value]" |
+| `[GPS_INTEGRATION]` | Specify the gps integration | "[specify value]" |
+| `[GPS_DATA]` | Specify the gps data | "[specify value]" |
+| `[GPS_API]` | Specify the gps api | "[specify value]" |
+| `[GPS_UPGRADE]` | Specify the gps upgrade | "[specify value]" |
+| `[MAINT_SOLUTION]` | Specify the maint solution | "[specify value]" |
+| `[MAINT_INTEGRATION]` | Specify the maint integration | "[specify value]" |
+| `[MAINT_DATA]` | Specify the maint data | "[specify value]" |
+| `[MAINT_API]` | Specify the maint api | "[specify value]" |
+| `[MAINT_UPGRADE]` | Specify the maint upgrade | "[specify value]" |
+| `[FUEL_SOLUTION]` | Specify the fuel solution | "[specify value]" |
+| `[FUEL_INTEGRATION]` | Specify the fuel integration | "[specify value]" |
+| `[FUEL_DATA]` | Specify the fuel data | "[specify value]" |
+| `[FUEL_API]` | Specify the fuel api | "[specify value]" |
+| `[FUEL_UPGRADE]` | Specify the fuel upgrade | "[specify value]" |
+| `[DRIVER_SOLUTION]` | Specify the driver solution | "[specify value]" |
+| `[DRIVER_INTEGRATION]` | Specify the driver integration | "[specify value]" |
+| `[DRIVER_DATA]` | Specify the driver data | "[specify value]" |
+| `[DRIVER_API]` | Specify the driver api | "[specify value]" |
+| `[DRIVER_UPGRADE]` | Specify the driver upgrade | "[specify value]" |
+| `[ANALYTICS_SOLUTION]` | Specify the analytics solution | "[specify value]" |
+| `[ANALYTICS_INTEGRATION]` | Specify the analytics integration | "[specify value]" |
+| `[ANALYTICS_DATA]` | Specify the analytics data | "[specify value]" |
+| `[ANALYTICS_API]` | Specify the analytics api | "[specify value]" |
+| `[ANALYTICS_UPGRADE]` | Specify the analytics upgrade | "[specify value]" |
+| `[UTILIZATION_KPI]` | Specify the utilization kpi | "[specify value]" |
+| `[ONTIME_KPI]` | Specify the ontime kpi | "[specify value]" |
+| `[MILES_KPI]` | Specify the miles kpi | "[specify value]" |
+| `[REVENUE_KPI]` | Specify the revenue kpi | "[specify value]" |
+| `[COST_KPI]` | Specify the cost kpi | "[specify value]" |
+| `[MARGIN_KPI]` | Specify the margin kpi | "[specify value]" |
+| `[ACCIDENT_KPI]` | Specify the accident kpi | "[specify value]" |
+| `[SAFETY_KPI]` | Specify the safety kpi | "[specify value]" |
+| `[VIOLATION_KPI]` | Specify the violation kpi | "[specify value]" |
+| `[CLAIMS_KPI]` | Specify the claims kpi | "[specify value]" |
+| `[TRAINING_KPI]` | Specify the training kpi | "[specify value]" |
+| `[SEVERITY_KPI]` | Specify the severity kpi | "[specify value]" |
+| `[UPTIME_KPI]` | Specify the uptime kpi | "[specify value]" |
+| `[BREAKDOWN_KPI]` | Specify the breakdown kpi | "[specify value]" |
+| `[PM_KPI]` | Specify the pm kpi | "[specify value]" |
+| `[REPAIR_KPI]` | Specify the repair kpi | "[specify value]" |
+| `[PARTS_KPI]` | Specify the parts kpi | "[specify value]" |
+| `[WARRANTY_KPI]` | Specify the warranty kpi | "[specify value]" |
+| `[TCO_KPI]` | Specify the tco kpi | "[specify value]" |
+| `[ROI_KPI]` | Specify the roi kpi | "[specify value]" |
+| `[BUDGET_KPI]` | Budget allocation for kpi | "$500,000" |
+| `[CASHFLOW_KPI]` | Specify the cashflow kpi | "[specify value]" |
+| `[ASSET_KPI]` | Specify the asset kpi | "[specify value]" |
+| `[DEPRECIATION_KPI]` | Specify the depreciation kpi | "[specify value]" |
+| `[DELIVERY_KPI]` | Specify the delivery kpi | "[specify value]" |
+| `[DAMAGE_KPI]` | Specify the damage kpi | "[specify value]" |
+| `[COMPLAINT_KPI]` | Specify the complaint kpi | "[specify value]" |
+| `[SERVICE_KPI]` | Specify the service kpi | "[specify value]" |
+| `[NPS_KPI]` | Specify the nps kpi | "[specify value]" |
+| `[RETENTION_KPI]` | Specify the retention kpi | "[specify value]" |
+
+
 
 ### 3. Preventive Maintenance Program
 

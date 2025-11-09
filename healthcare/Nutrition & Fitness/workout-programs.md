@@ -1,3 +1,18 @@
+---
+title: Workout Programs Template
+category: healthcare/Nutrition & Fitness
+tags: [design, development, healthcare, optimization, template]
+use_cases:
+  - General application
+  - Professional use
+  - Project implementation
+related_templates:
+  - telemedicine-platform-design.md
+  - patient-care-pathway.md
+  - clinical-trials-management.md
+last_updated: 2025-11-09
+---
+
 # Workout Programs Template
 
 ## Overview
@@ -39,6 +54,412 @@ Psychological Factors: Motivation level [MOTIVATION_ASSESSMENT], Exercise barrie
 
 Goal Specifications: Primary goal [PRIMARY_GOAL_SPECIFIC], Secondary goals [SECONDARY_GOALS_LIST], Timeline [GOAL_TIMELINE], Success metrics [SUCCESS_MEASUREMENTS], Lifestyle integration [INTEGRATION_PRIORITIES].
 ```
+
+## Variables
+
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `[FITNESS_PROFESSIONAL_ROLE]` | Specify the fitness professional role | "[specify value]" |
+| `[CERTIFICATION_TYPE]` | Type or category of certification | "Standard" |
+| `[FACILITY_TYPE]` | Type or category of facility | "Standard" |
+| `[YEARS_EXPERIENCE]` | Specify the years experience | "[specify value]" |
+| `[CLIENT_AGE]` | Specify the client age | "[specify value]" |
+| `[CLIENT_GENDER]` | Specify the client gender | "[specify value]" |
+| `[CLIENT_ETHNICITY]` | Specify the client ethnicity | "[specify value]" |
+| `[PRIMARY_FITNESS_GOAL]` | Specify the primary fitness goal | "Increase efficiency by 30%" |
+| `[HEIGHT_MEASUREMENT]` | Specify the height measurement | "[specify value]" |
+| `[CURRENT_WEIGHT]` | Specify the current weight | "[specify value]" |
+| `[BMI_CALCULATION]` | Specify the bmi calculation | "[specify value]" |
+| `[BODY_FAT_PERCENTAGE]` | Specify the body fat percentage | "25%" |
+| `[MUSCLE_MASS_MEASUREMENT]` | Specify the muscle mass measurement | "[specify value]" |
+| `[BONE_DENSITY_SCORE]` | Specify the bone density score | "[specify value]" |
+| `[RESTING_HR]` | Specify the resting hr | "[specify value]" |
+| `[BP_READING]` | Specify the bp reading | "[specify value]" |
+| `[VO2_MAX_ESTIMATE]` | Specify the vo2 max estimate | "[specify value]" |
+| `[FITNESS_TEST_RESULT]` | Specify the fitness test result | "[specify value]" |
+| `[RECOVERY_HR_TIME]` | Specify the recovery hr time | "[specify value]" |
+| `[FLEXIBILITY_TEST_RESULTS]` | Specify the flexibility test results | "[specify value]" |
+| `[CORE_STABILITY_ASSESSMENT]` | Specify the core stability assessment | "[specify value]" |
+| `[BALANCE_TEST_SCORES]` | Specify the balance test scores | "[specify value]" |
+| `[POSTURAL_ASSESSMENT]` | Specify the postural assessment | "[specify value]" |
+| `[MOVEMENT_SCREEN_RESULTS]` | Specify the movement screen results | "[specify value]" |
+| `[MOBILITY_LIMITATIONS]` | Specify the mobility limitations | "[specify value]" |
+| `[BENCH_PRESS_1RM]` | Specify the bench press 1rm | "[specify value]" |
+| `[PULLUP_MAX]` | Specify the pullup max | "[specify value]" |
+| `[SHOULDER_PRESS_1RM]` | Specify the shoulder press 1rm | "[specify value]" |
+| `[SQUAT_1RM]` | Specify the squat 1rm | "[specify value]" |
+| `[DEADLIFT_1RM]` | Specify the deadlift 1rm | "[specify value]" |
+| `[LEG_PRESS_1RM]` | Specify the leg press 1rm | "[specify value]" |
+| `[PLANK_TIME]` | Specify the plank time | "[specify value]" |
+| `[DEAD_BUG_REPS]` | Specify the dead bug reps | "[specify value]" |
+| `[GRIP_STRENGTH_MEASUREMENT]` | Specify the grip strength measurement | "[specify value]" |
+| `[PRIMARY_MEDICAL_CONDITIONS]` | Specify the primary medical conditions | "[specify value]" |
+| `[ORTHOPEDIC_INJURIES]` | Specify the orthopedic injuries | "[specify value]" |
+| `[CARDIOVASCULAR_CONDITIONS]` | Specify the cardiovascular conditions | "[specify value]" |
+| `[MEDICATION_LIST]` | Specify the medication list | "[specify value]" |
+| `[PHYSICAL_LIMITATIONS]` | Specify the physical limitations | "[specify value]" |
+| `[PAIN_AREAS]` | Specify the pain areas | "[specify value]" |
+| `[SURGERY_HISTORY]` | Specify the surgery history | "[specify value]" |
+| `[CHRONIC_CONDITIONS]` | Specify the chronic conditions | "[specify value]" |
+| `[EXERCISE_EXPERIENCE_LEVEL]` | Specify the exercise experience level | "[specify value]" |
+| `[PREFERRED_ACTIVITIES]` | Specify the preferred activities | "[specify value]" |
+| `[EXERCISE_INJURY_HISTORY]` | Specify the exercise injury history | "[specify value]" |
+| `[CURRENT_ACTIVITY_FREQUENCY]` | Specify the current activity frequency | "[specify value]" |
+| `[SPORTS_BACKGROUND]` | Specify the sports background | "[specify value]" |
+| `[WORK_SCHEDULE_TYPE]` | Type or category of work schedule | "Standard" |
+| `[AVAILABLE_DAYS_PER_WEEK]` | Specify the available days per week | "[specify value]" |
+| `[PREFERRED_SESSION_LENGTH]` | Specify the preferred session length | "[specify value]" |
+| `[EQUIPMENT_AVAILABILITY]` | Specify the equipment availability | "[specify value]" |
+| `[BUDGET_CONSTRAINTS]` | Budget allocation for constraints | "$500,000" |
+| `[MOTIVATION_ASSESSMENT]` | Specify the motivation assessment | "[specify value]" |
+| `[BARRIER_IDENTIFICATION]` | Specify the barrier identification | "[specify value]" |
+| `[SUPPORT_SYSTEM_STRENGTH]` | Specify the support system strength | "[specify value]" |
+| `[ADHERENCE_HISTORY]` | Specify the adherence history | "[specify value]" |
+| `[CONFIDENCE_LEVEL]` | Specify the confidence level | "[specify value]" |
+| `[PRIMARY_GOAL_SPECIFIC]` | Specify the primary goal specific | "Increase efficiency by 30%" |
+| `[SECONDARY_GOALS_LIST]` | Specify the secondary goals list | "Increase efficiency by 30%" |
+| `[GOAL_TIMELINE]` | Timeline or schedule for goal | "6 months" |
+| `[SUCCESS_MEASUREMENTS]` | Specify the success measurements | "[specify value]" |
+| `[INTEGRATION_PRIORITIES]` | Specify the integration priorities | "[specify value]" |
+| `[PROGRAM_NAME]` | Name of the program | "John Smith" |
+| `[PROGRAM_DURATION_WEEKS]` | Specify the program duration weeks | "6 months" |
+| `[PHASE_1_NAME]` | Name of the phase 1 | "John Smith" |
+| `[PHASE_1_DURATION]` | Specify the phase 1 duration | "6 months" |
+| `[PHASE_2_NAME]` | Name of the phase 2 | "John Smith" |
+| `[PHASE_2_DURATION]` | Specify the phase 2 duration | "6 months" |
+| `[PHASE_3_NAME]` | Name of the phase 3 | "John Smith" |
+| `[PHASE_3_DURATION]` | Specify the phase 3 duration | "6 months" |
+| `[SESSIONS_PER_WEEK]` | Specify the sessions per week | "[specify value]" |
+| `[AVERAGE_SESSION_DURATION]` | Specify the average session duration | "6 months" |
+| `[PERIODIZATION_TYPE]` | Type or category of periodization | "Standard" |
+| `[MACROCYCLE_GOAL]` | Specify the macrocycle goal | "Increase efficiency by 30%" |
+| `[MACROCYCLE_DURATION]` | Specify the macrocycle duration | "6 months" |
+| `[MESOCYCLE_1_FOCUS]` | Specify the mesocycle 1 focus | "[specify value]" |
+| `[MESOCYCLE_2_FOCUS]` | Specify the mesocycle 2 focus | "[specify value]" |
+| `[MESOCYCLE_3_FOCUS]` | Specify the mesocycle 3 focus | "[specify value]" |
+| `[WEEKLY_STRUCTURE]` | Specify the weekly structure | "[specify value]" |
+| `[RECOVERY_FREQUENCY]` | Specify the recovery frequency | "[specify value]" |
+| `[INITIAL_VOLUME_SETS]` | Specify the initial volume sets | "[specify value]" |
+| `[INITIAL_VOLUME_REPS]` | Specify the initial volume reps | "[specify value]" |
+| `[PROGRESSION_VOLUME_SETS]` | Specify the progression volume sets | "[specify value]" |
+| `[PROGRESSION_VOLUME_REPS]` | Specify the progression volume reps | "[specify value]" |
+| `[INITIAL_INTENSITY_PERCENTAGE]` | Specify the initial intensity percentage | "25%" |
+| `[PROGRESSION_INTENSITY_PERCENTAGE]` | Specify the progression intensity percentage | "25%" |
+| `[EXERCISE_FREQUENCY_PER_WEEK]` | Specify the exercise frequency per week | "[specify value]" |
+| `[REST_PERIOD_STRENGTH]` | Specify the rest period strength | "[specify value]" |
+| `[REST_PERIOD_HYPERTROPHY]` | Specify the rest period hypertrophy | "[specify value]" |
+| `[MOVEMENT_PATTERN_1]` | Specify the movement pattern 1 | "[specify value]" |
+| `[MOVEMENT_PATTERN_2]` | Specify the movement pattern 2 | "[specify value]" |
+| `[MOVEMENT_PATTERN_3]` | Specify the movement pattern 3 | "[specify value]" |
+| `[PUSH_PULL_RATIO]` | Specify the push pull ratio | "[specify value]" |
+| `[UPPER_LOWER_RATIO]` | Specify the upper lower ratio | "[specify value]" |
+| `[SAGITTAL_PLANE_EXERCISES]` | Specify the sagittal plane exercises | "[specify value]" |
+| `[FRONTAL_PLANE_EXERCISES]` | Specify the frontal plane exercises | "[specify value]" |
+| `[TRANSVERSE_PLANE_EXERCISES]` | Specify the transverse plane exercises | "[specify value]" |
+| `[BASIC_MOVEMENTS_PERCENTAGE]` | Specify the basic movements percentage | "25%" |
+| `[INTERMEDIATE_MOVEMENTS_PERCENTAGE]` | Specify the intermediate movements percentage | "25%" |
+| `[ADVANCED_MOVEMENTS_PERCENTAGE]` | Specify the advanced movements percentage | "25%" |
+| `[AEROBIC_TRAINING_PERCENTAGE]` | Specify the aerobic training percentage | "25%" |
+| `[ANAEROBIC_TRAINING_PERCENTAGE]` | Specify the anaerobic training percentage | "25%" |
+| `[ACTIVE_RECOVERY_METHODS]` | Specify the active recovery methods | "[specify value]" |
+| `[PASSIVE_RECOVERY_METHODS]` | Specify the passive recovery methods | "[specify value]" |
+| `[TRAINING_SPLIT_TYPE]` | Type or category of training split | "Standard" |
+| `[MONDAY_FOCUS]` | Specify the monday focus | "[specify value]" |
+| `[MONDAY_MUSCLES]` | Specify the monday muscles | "[specify value]" |
+| `[MONDAY_SESSION_TYPE]` | Type or category of monday session | "Standard" |
+| `[MONDAY_DURATION]` | Specify the monday duration | "6 months" |
+| `[MONDAY_INTENSITY_LEVEL]` | Specify the monday intensity level | "[specify value]" |
+| `[TUESDAY_FOCUS]` | Specify the tuesday focus | "[specify value]" |
+| `[TUESDAY_MUSCLES]` | Specify the tuesday muscles | "[specify value]" |
+| `[TUESDAY_SESSION_TYPE]` | Type or category of tuesday session | "Standard" |
+| `[TUESDAY_DURATION]` | Specify the tuesday duration | "6 months" |
+| `[TUESDAY_INTENSITY_LEVEL]` | Specify the tuesday intensity level | "[specify value]" |
+| `[WEDNESDAY_FOCUS]` | Specify the wednesday focus | "[specify value]" |
+| `[WEDNESDAY_ACTIVITY]` | Specify the wednesday activity | "[specify value]" |
+| `[WEDNESDAY_PURPOSE]` | Specify the wednesday purpose | "[specify value]" |
+| `[WEDNESDAY_DURATION]` | Specify the wednesday duration | "6 months" |
+| `[WEDNESDAY_INTENSITY_LEVEL]` | Specify the wednesday intensity level | "[specify value]" |
+| `[THURSDAY_FOCUS]` | Specify the thursday focus | "[specify value]" |
+| `[THURSDAY_MUSCLES]` | Specify the thursday muscles | "[specify value]" |
+| `[THURSDAY_SESSION_TYPE]` | Type or category of thursday session | "Standard" |
+| `[THURSDAY_DURATION]` | Specify the thursday duration | "6 months" |
+| `[THURSDAY_INTENSITY_LEVEL]` | Specify the thursday intensity level | "[specify value]" |
+| `[FRIDAY_FOCUS]` | Specify the friday focus | "[specify value]" |
+| `[FRIDAY_MUSCLES]` | Specify the friday muscles | "[specify value]" |
+| `[FRIDAY_SESSION_TYPE]` | Type or category of friday session | "Standard" |
+| `[FRIDAY_DURATION]` | Specify the friday duration | "6 months" |
+| `[FRIDAY_INTENSITY_LEVEL]` | Specify the friday intensity level | "[specify value]" |
+| `[SATURDAY_FOCUS]` | Specify the saturday focus | "[specify value]" |
+| `[SATURDAY_ACTIVITY]` | Specify the saturday activity | "[specify value]" |
+| `[SATURDAY_PURPOSE]` | Specify the saturday purpose | "[specify value]" |
+| `[SATURDAY_DURATION]` | Specify the saturday duration | "6 months" |
+| `[SATURDAY_INTENSITY_LEVEL]` | Specify the saturday intensity level | "[specify value]" |
+| `[SUNDAY_FOCUS]` | Specify the sunday focus | "[specify value]" |
+| `[SUNDAY_ACTIVITY]` | Specify the sunday activity | "[specify value]" |
+| `[SUNDAY_PURPOSE]` | Specify the sunday purpose | "[specify value]" |
+| `[SUNDAY_DURATION]` | Specify the sunday duration | "6 months" |
+| `[TOTAL_WEEKLY_MINUTES]` | Specify the total weekly minutes | "[specify value]" |
+| `[STRENGTH_MINUTES]` | Specify the strength minutes | "[specify value]" |
+| `[STRENGTH_PERCENTAGE]` | Specify the strength percentage | "25%" |
+| `[CARDIO_MINUTES]` | Specify the cardio minutes | "[specify value]" |
+| `[CARDIO_PERCENTAGE]` | Specify the cardio percentage | "25%" |
+| `[FLEXIBILITY_MINUTES]` | Specify the flexibility minutes | "[specify value]" |
+| `[FLEXIBILITY_PERCENTAGE]` | Specify the flexibility percentage | "25%" |
+| `[RECOVERY_MINUTES]` | Specify the recovery minutes | "[specify value]" |
+| `[RECOVERY_PERCENTAGE]` | Specify the recovery percentage | "25%" |
+| `[COMPOUND_EXERCISE_1]` | Specify the compound exercise 1 | "[specify value]" |
+| `[EXERCISE_1_SETS]` | Specify the exercise 1 sets | "[specify value]" |
+| `[EXERCISE_1_REPS]` | Specify the exercise 1 reps | "[specify value]" |
+| `[EXERCISE_1_LOAD_PERCENTAGE]` | Specify the exercise 1 load percentage | "25%" |
+| `[EXERCISE_1_WEIGHT]` | Specify the exercise 1 weight | "[specify value]" |
+| `[EXERCISE_1_REST_SECONDS]` | Specify the exercise 1 rest seconds | "[specify value]" |
+| `[EXERCISE_1_TEMPO]` | Specify the exercise 1 tempo | "[specify value]" |
+| `[EXERCISE_1_PROGRESSION_METHOD]` | Specify the exercise 1 progression method | "[specify value]" |
+| `[COMPOUND_EXERCISE_2]` | Specify the compound exercise 2 | "[specify value]" |
+| `[EXERCISE_2_SETS]` | Specify the exercise 2 sets | "[specify value]" |
+| `[EXERCISE_2_REPS]` | Specify the exercise 2 reps | "[specify value]" |
+| `[EXERCISE_2_LOAD_PERCENTAGE]` | Specify the exercise 2 load percentage | "25%" |
+| `[EXERCISE_2_WEIGHT]` | Specify the exercise 2 weight | "[specify value]" |
+| `[EXERCISE_2_REST_SECONDS]` | Specify the exercise 2 rest seconds | "[specify value]" |
+| `[EXERCISE_2_TEMPO]` | Specify the exercise 2 tempo | "[specify value]" |
+| `[EXERCISE_2_PROGRESSION_METHOD]` | Specify the exercise 2 progression method | "[specify value]" |
+| `[ACCESSORY_EXERCISE_1]` | Specify the accessory exercise 1 | "[specify value]" |
+| `[ACCESSORY_1_SETS]` | Specify the accessory 1 sets | "[specify value]" |
+| `[ACCESSORY_1_REPS]` | Specify the accessory 1 reps | "[specify value]" |
+| `[ACCESSORY_1_LOAD]` | Specify the accessory 1 load | "[specify value]" |
+| `[ACCESSORY_1_RPE]` | Specify the accessory 1 rpe | "[specify value]" |
+| `[ACCESSORY_1_REST_SECONDS]` | Specify the accessory 1 rest seconds | "[specify value]" |
+| `[ACCESSORY_1_FOCUS_AREA]` | Specify the accessory 1 focus area | "[specify value]" |
+| `[ACCESSORY_EXERCISE_2]` | Specify the accessory exercise 2 | "[specify value]" |
+| `[ACCESSORY_2_SETS]` | Specify the accessory 2 sets | "[specify value]" |
+| `[ACCESSORY_2_REPS]` | Specify the accessory 2 reps | "[specify value]" |
+| `[ACCESSORY_2_LOAD]` | Specify the accessory 2 load | "[specify value]" |
+| `[ACCESSORY_2_RPE]` | Specify the accessory 2 rpe | "[specify value]" |
+| `[ACCESSORY_2_REST_SECONDS]` | Specify the accessory 2 rest seconds | "[specify value]" |
+| `[ACCESSORY_2_FOCUS_AREA]` | Specify the accessory 2 focus area | "[specify value]" |
+| `[ZONE_1_HR_RANGE]` | Specify the zone 1 hr range | "[specify value]" |
+| `[ZONE_1_DURATION]` | Specify the zone 1 duration | "6 months" |
+| `[ZONE_1_FREQUENCY]` | Specify the zone 1 frequency | "[specify value]" |
+| `[ZONE_2_HR_RANGE]` | Specify the zone 2 hr range | "[specify value]" |
+| `[ZONE_2_DURATION]` | Specify the zone 2 duration | "6 months" |
+| `[ZONE_2_FREQUENCY]` | Specify the zone 2 frequency | "[specify value]" |
+| `[ZONE_3_HR_RANGE]` | Specify the zone 3 hr range | "[specify value]" |
+| `[ZONE_3_DURATION]` | Specify the zone 3 duration | "6 months" |
+| `[ZONE_3_FREQUENCY]` | Specify the zone 3 frequency | "[specify value]" |
+| `[ZONE_4_HR_RANGE]` | Specify the zone 4 hr range | "[specify value]" |
+| `[ZONE_4_DURATION]` | Specify the zone 4 duration | "6 months" |
+| `[ZONE_4_FREQUENCY]` | Specify the zone 4 frequency | "[specify value]" |
+| `[ZONE_5_HR_RANGE]` | Specify the zone 5 hr range | "[specify value]" |
+| `[ZONE_5_DURATION]` | Specify the zone 5 duration | "6 months" |
+| `[ZONE_5_FREQUENCY]` | Specify the zone 5 frequency | "[specify value]" |
+| `[DAILY_MOBILITY_EXERCISES]` | Specify the daily mobility exercises | "[specify value]" |
+| `[DAILY_MOBILITY_DURATION]` | Specify the daily mobility duration | "6 months" |
+| `[DYNAMIC_WARMUP_EXERCISES]` | Specify the dynamic warmup exercises | "[specify value]" |
+| `[WARMUP_DURATION]` | Specify the warmup duration | "6 months" |
+| `[STATIC_STRETCH_EXERCISES]` | Specify the static stretch exercises | "[specify value]" |
+| `[STRETCHING_DURATION]` | Specify the stretching duration | "6 months" |
+| `[WEEKLY_MOBILITY_FOCUS]` | Specify the weekly mobility focus | "[specify value]" |
+| `[MOBILITY_SESSION_DURATION]` | Specify the mobility session duration | "6 months" |
+| `[PRIMARY_PROGRESSION_METHOD]` | Specify the primary progression method | "[specify value]" |
+| `[PROGRESSION_WEEK_1_2]` | Specify the progression week 1 2 | "[specify value]" |
+| `[PROGRESSION_WEEK_3_4]` | Specify the progression week 3 4 | "[specify value]" |
+| `[PROGRESSION_WEEK_5_6]` | Specify the progression week 5 6 | "[specify value]" |
+| `[PROGRESSION_WEEK_7_8]` | Specify the progression week 7 8 | "[specify value]" |
+| `[SETS_INCREASE_RATE]` | Specify the sets increase rate | "[specify value]" |
+| `[SETS_INCREASE_FREQUENCY]` | Specify the sets increase frequency | "[specify value]" |
+| `[REPS_INCREASE_RATE]` | Specify the reps increase rate | "[specify value]" |
+| `[REPS_INCREASE_FREQUENCY]` | Specify the reps increase frequency | "[specify value]" |
+| `[FREQUENCY_INCREASE_RATE]` | Specify the frequency increase rate | "[specify value]" |
+| `[FREQUENCY_INCREASE_TIMELINE]` | Timeline or schedule for frequency increase | "6 months" |
+| `[LOAD_INCREASE_PERCENTAGE]` | Specify the load increase percentage | "25%" |
+| `[LOAD_INCREASE_FREQUENCY]` | Specify the load increase frequency | "[specify value]" |
+| `[STARTING_RPE]` | Specify the starting rpe | "[specify value]" |
+| `[TARGET_RPE]` | Target or intended rpe | "[specify value]" |
+| `[RM_TEST_FREQUENCY]` | Specify the rm test frequency | "[specify value]" |
+| `[PERFORMANCE_METRIC_1]` | Specify the performance metric 1 | "[specify value]" |
+| `[PERFORMANCE_METRIC_2]` | Specify the performance metric 2 | "[specify value]" |
+| `[PERFORMANCE_METRIC_3]` | Specify the performance metric 3 | "[specify value]" |
+| `[SUBJECTIVE_MEASURE_1]` | Specify the subjective measure 1 | "[specify value]" |
+| `[SUBJECTIVE_MEASURE_2]` | Specify the subjective measure 2 | "[specify value]" |
+| `[SUBJECTIVE_MEASURE_3]` | Specify the subjective measure 3 | "[specify value]" |
+| `[RECOVERY_INDICATOR_1]` | Specify the recovery indicator 1 | "[specify value]" |
+| `[RECOVERY_INDICATOR_2]` | Specify the recovery indicator 2 | "[specify value]" |
+| `[RECOVERY_INDICATOR_3]` | Specify the recovery indicator 3 | "[specify value]" |
+| `[PLATEAU_CRITERIA_1]` | Specify the plateau criteria 1 | "[specify value]" |
+| `[PLATEAU_CRITERIA_2]` | Specify the plateau criteria 2 | "[specify value]" |
+| `[DELOAD_FREQUENCY]` | Specify the deload frequency | "[specify value]" |
+| `[DELOAD_METHOD_1]` | Specify the deload method 1 | "[specify value]" |
+| `[DELOAD_METHOD_2]` | Specify the deload method 2 | "[specify value]" |
+| `[DELOAD_VOLUME_REDUCTION]` | Specify the deload volume reduction | "[specify value]" |
+| `[DELOAD_INTENSITY_REDUCTION]` | Specify the deload intensity reduction | "[specify value]" |
+| `[ACTIVE_RECOVERY_ACTIVITIES]` | Specify the active recovery activities | "[specify value]" |
+| `[EXERCISE_VARIATION_STRATEGY]` | Strategy or approach for exercise variation | "[specify value]" |
+| `[REP_RANGE_MODIFICATION]` | Specify the rep range modification | "[specify value]" |
+| `[TRAINING_METHOD_CHANGES]` | Specify the training method changes | "[specify value]" |
+| `[RECOVERY_ENHANCEMENT_METHODS]` | Specify the recovery enhancement methods | "[specify value]" |
+| `[HIGH_RISK_AREA_1]` | Specify the high risk area 1 | "[specify value]" |
+| `[HIGH_RISK_AREA_2]` | Specify the high risk area 2 | "[specify value]" |
+| `[HIGH_RISK_AREA_3]` | Specify the high risk area 3 | "[specify value]" |
+| `[PREVIOUS_INJURY_1]` | Specify the previous injury 1 | "[specify value]" |
+| `[PREVIOUS_INJURY_2]` | Specify the previous injury 2 | "[specify value]" |
+| `[MOVEMENT_LIMITATION_1]` | Specify the movement limitation 1 | "[specify value]" |
+| `[MOVEMENT_LIMITATION_2]` | Specify the movement limitation 2 | "[specify value]" |
+| `[PAIN_ASSESSMENT_PROTOCOL]` | Specify the pain assessment protocol | "[specify value]" |
+| `[PREHAB_EXERCISE_1]` | Specify the prehab exercise 1 | "[specify value]" |
+| `[PREHAB_EXERCISE_2]` | Specify the prehab exercise 2 | "[specify value]" |
+| `[PREHAB_EXERCISE_3]` | Specify the prehab exercise 3 | "[specify value]" |
+| `[PREHAB_FREQUENCY]` | Specify the prehab frequency | "[specify value]" |
+| `[PREHAB_DURATION]` | Specify the prehab duration | "6 months" |
+| `[PREHAB_FOCUS_AREA_1]` | Specify the prehab focus area 1 | "[specify value]" |
+| `[PREHAB_FOCUS_AREA_2]` | Specify the prehab focus area 2 | "[specify value]" |
+| `[FORM_CHECKPOINT_1]` | Specify the form checkpoint 1 | "[specify value]" |
+| `[FORM_CHECKPOINT_2]` | Specify the form checkpoint 2 | "[specify value]" |
+| `[FORM_CHECKPOINT_3]` | Specify the form checkpoint 3 | "[specify value]" |
+| `[VIDEO_ANALYSIS_FREQUENCY]` | Specify the video analysis frequency | "[specify value]" |
+| `[CORRECTIVE_EXERCISE_1]` | Specify the corrective exercise 1 | "[specify value]" |
+| `[CORRECTIVE_EXERCISE_2]` | Specify the corrective exercise 2 | "[specify value]" |
+| `[PATTERN_REINFORCEMENT_METHOD]` | Specify the pattern reinforcement method | "[specify value]" |
+| `[LOAD_MONITORING_METHOD]` | Specify the load monitoring method | "[specify value]" |
+| `[ACWR_TARGET_RANGE]` | Target or intended acwr  range | "[specify value]" |
+| `[WARNING_SIGN_1]` | Specify the warning sign 1 | "[specify value]" |
+| `[WARNING_SIGN_2]` | Specify the warning sign 2 | "[specify value]" |
+| `[WARNING_SIGN_3]` | Specify the warning sign 3 | "[specify value]" |
+| `[MODIFICATION_PROTOCOL_1]` | Specify the modification protocol 1 | "[specify value]" |
+| `[MODIFICATION_PROTOCOL_2]` | Specify the modification protocol 2 | "[specify value]" |
+| `[SLEEP_DURATION]` | Specify the sleep duration | "6 months" |
+| `[SLEEP_HYGIENE_PRACTICES]` | Specify the sleep hygiene practices | "[specify value]" |
+| `[PRE_WORKOUT_NUTRITION]` | Specify the pre workout nutrition | "[specify value]" |
+| `[POST_WORKOUT_NUTRITION]` | Specify the post workout nutrition | "[specify value]" |
+| `[HYDRATION_PROTOCOL]` | Specify the hydration protocol | "[specify value]" |
+| `[STRESS_MANAGEMENT_TECHNIQUES]` | Specify the stress management techniques | "[specify value]" |
+| `[ACUTE_INJURY_PROTOCOL]` | Specify the acute injury protocol | "[specify value]" |
+| `[STOP_EXERCISE_CRITERIA]` | Specify the stop exercise criteria | "[specify value]" |
+| `[REFERRAL_CRITERIA]` | Specify the referral criteria | "[specify value]" |
+| `[RETURN_TO_EXERCISE_PROTOCOL]` | Specify the return to exercise protocol | "[specify value]" |
+| `[STRENGTH_TEST_1]` | Specify the strength test 1 | "[specify value]" |
+| `[STRENGTH_TEST_FREQUENCY]` | Specify the strength test frequency | "[specify value]" |
+| `[CARDIO_TEST_1]` | Specify the cardio test 1 | "[specify value]" |
+| `[CARDIO_TEST_FREQUENCY]` | Specify the cardio test frequency | "[specify value]" |
+| `[BODY_COMP_METHOD]` | Specify the body comp method | "[specify value]" |
+| `[BODY_COMP_FREQUENCY]` | Specify the body comp frequency | "[specify value]" |
+| `[FLEXIBILITY_TEST]` | Specify the flexibility test | "[specify value]" |
+| `[FLEXIBILITY_TEST_FREQUENCY]` | Specify the flexibility test frequency | "[specify value]" |
+| `[BALANCE_TEST]` | Specify the balance test | "[specify value]" |
+| `[BALANCE_TEST_FREQUENCY]` | Specify the balance test frequency | "[specify value]" |
+| `[ENERGY_SCALE]` | Specify the energy scale | "[specify value]" |
+| `[SORENESS_SCALE]` | Specify the soreness scale | "[specify value]" |
+| `[SLEEP_QUALITY_SCALE]` | Specify the sleep quality scale | "[specify value]" |
+| `[MOTIVATION_SCALE]` | Specify the motivation scale | "[specify value]" |
+| `[WELLBEING_SCALE]` | Specify the wellbeing scale | "[specify value]" |
+| `[LOG_FORMAT]` | Specify the log format | "[specify value]" |
+| `[METRIC_1]` | Specify the metric 1 | "[specify value]" |
+| `[METRIC_2]` | Specify the metric 2 | "[specify value]" |
+| `[METRIC_3]` | Specify the metric 3 | "[specify value]" |
+| `[METRIC_4]` | Specify the metric 4 | "[specify value]" |
+| `[PHOTO_FREQUENCY]` | Specify the photo frequency | "[specify value]" |
+| `[MEASUREMENT_FREQUENCY]` | Specify the measurement frequency | "[specify value]" |
+| `[WEARABLE_DEVICE_TYPE]` | Type or category of wearable device | "Standard" |
+| `[FITNESS_APP_NAME]` | Name of the fitness app | "John Smith" |
+| `[HR_MONITORING_PROTOCOL]` | Specify the hr monitoring protocol | "[specify value]" |
+| `[GPS_TRACKING_USE]` | Specify the gps tracking use | "[specify value]" |
+| `[RECOVERY_METRIC_TRACKING]` | Specify the recovery metric tracking | "[specify value]" |
+| `[WEEKLY_REVIEW_PROTOCOL]` | Specify the weekly review protocol | "[specify value]" |
+| `[MONTHLY_ASSESSMENT_PROTOCOL]` | Specify the monthly assessment protocol | "[specify value]" |
+| `[QUARTERLY_EVALUATION_PROTOCOL]` | Specify the quarterly evaluation protocol | "[specify value]" |
+| `[ANNUAL_REVIEW_PROTOCOL]` | Specify the annual review protocol | "[specify value]" |
+| `[SHORT_TERM_INDICATOR_1]` | Specify the short term indicator 1 | "[specify value]" |
+| `[SHORT_TERM_INDICATOR_2]` | Specify the short term indicator 2 | "[specify value]" |
+| `[MEDIUM_TERM_INDICATOR_1]` | Specify the medium term indicator 1 | "[specify value]" |
+| `[MEDIUM_TERM_INDICATOR_2]` | Specify the medium term indicator 2 | "[specify value]" |
+| `[LONG_TERM_INDICATOR_1]` | Specify the long term indicator 1 | "[specify value]" |
+| `[LONG_TERM_INDICATOR_2]` | Specify the long term indicator 2 | "[specify value]" |
+| `[KEYSTONE_HABIT_1]` | Specify the keystone habit 1 | "[specify value]" |
+| `[KEYSTONE_HABIT_2]` | Specify the keystone habit 2 | "[specify value]" |
+| `[HABIT_STACK_EXAMPLE]` | Specify the habit stack example | "[specify value]" |
+| `[ENVIRONMENT_MODIFICATION_1]` | Specify the environment modification 1 | "[specify value]" |
+| `[ENVIRONMENT_MODIFICATION_2]` | Specify the environment modification 2 | "[specify value]" |
+| `[SOCIAL_SUPPORT_STRATEGY]` | Strategy or approach for social support | "[specify value]" |
+| `[WORKOUT_TIME_CONSISTENCY]` | Specify the workout time consistency | "[specify value]" |
+| `[PREP_TIME_ALLOCATION]` | Specify the prep time allocation | "North America" |
+| `[TRAVEL_WORKOUT_PLAN]` | Specify the travel workout plan | "[specify value]" |
+| `[ABBREVIATED_WORKOUT_OPTIONS]` | Specify the abbreviated workout options | "[specify value]" |
+| `[INTRINSIC_MOTIVATOR_1]` | Specify the intrinsic motivator 1 | "[specify value]" |
+| `[INTRINSIC_MOTIVATOR_2]` | Specify the intrinsic motivator 2 | "[specify value]" |
+| `[REWARD_SYSTEM_1]` | Specify the reward system 1 | "[specify value]" |
+| `[REWARD_SYSTEM_2]` | Specify the reward system 2 | "[specify value]" |
+| `[GOAL_SETTING_METHOD]` | Specify the goal setting method | "Increase efficiency by 30%" |
+| `[CELEBRATION_MILESTONES]` | Specify the celebration milestones | "[specify value]" |
+| `[BARRIER_1]` | Specify the barrier 1 | "[specify value]" |
+| `[BARRIER_2]` | Specify the barrier 2 | "[specify value]" |
+| `[BARRIER_3]` | Specify the barrier 3 | "[specify value]" |
+| `[SOLUTION_1]` | Specify the solution 1 | "[specify value]" |
+| `[SOLUTION_2]` | Specify the solution 2 | "[specify value]" |
+| `[SOLUTION_3]` | Specify the solution 3 | "[specify value]" |
+| `[CONTINGENCY_PLAN_1]` | Specify the contingency plan 1 | "[specify value]" |
+| `[CONTINGENCY_PLAN_2]` | Specify the contingency plan 2 | "[specify value]" |
+| `[SUPPORT_ACTIVATION_PROTOCOL]` | Specify the support activation protocol | "[specify value]" |
+| `[EVOLUTION_PLAN]` | Specify the evolution plan | "[specify value]" |
+| `[SKILL_DEVELOPMENT_GOALS]` | Specify the skill development goals | "Increase efficiency by 30%" |
+| `[INDEPENDENCE_STRATEGY]` | Strategy or approach for independence | "[specify value]" |
+| `[MAINTENANCE_PLAN]` | Specify the maintenance plan | "[specify value]" |
+| `[YOUTH_AGE_RANGE]` | Specify the youth age range | "[specify value]" |
+| `[YOUTH_DEVELOPMENT_FACTORS]` | Specify the youth development factors | "[specify value]" |
+| `[YOUTH_APPROPRIATE_EXERCISES]` | Specify the youth appropriate exercises | "[specify value]" |
+| `[YOUTH_TRAINING_LIMITS]` | Specify the youth training limits | "[specify value]" |
+| `[YOUTH_SKILL_PRIORITIES]` | Specify the youth skill priorities | "[specify value]" |
+| `[MIDDLE_AGE_RANGE]` | Specify the middle age range | "[specify value]" |
+| `[MIDDLE_AGE_SCREENING_REQUIREMENTS]` | Specify the middle age screening requirements | "[specify value]" |
+| `[JOINT_FRIENDLY_ALTERNATIVES]` | Specify the joint friendly alternatives | "[specify value]" |
+| `[MIDDLE_AGE_RECOVERY_NEEDS]` | Specify the middle age recovery needs | "[specify value]" |
+| `[MIDDLE_AGE_LIFESTYLE_FACTORS]` | Specify the middle age lifestyle factors | "[specify value]" |
+| `[SENIOR_AGE_RANGE]` | Specify the senior age range | "[specify value]" |
+| `[FALL_PREVENTION_EXERCISES]` | Specify the fall prevention exercises | "[specify value]" |
+| `[FUNCTIONAL_EXERCISE_PRIORITIES]` | Specify the functional exercise priorities | "[specify value]" |
+| `[MEDICAL_CLEARANCE_REQUIREMENTS]` | Specify the medical clearance requirements | "[specify value]" |
+| `[SENIOR_SOCIAL_CONSIDERATIONS]` | Specify the senior social considerations | "[specify value]" |
+| `[DIABETES_EXERCISE_MODIFICATIONS]` | Specify the diabetes exercise modifications | "[specify value]" |
+| `[HYPERTENSION_CONSIDERATIONS]` | Specify the hypertension considerations | "[specify value]" |
+| `[ARTHRITIS_ADAPTATIONS]` | Specify the arthritis adaptations | "[specify value]" |
+| `[CARDIAC_EXERCISE_PROTOCOLS]` | Specify the cardiac exercise protocols | "[specify value]" |
+| `[BONE_HEALTH_EXERCISES]` | Specify the bone health exercises | "[specify value]" |
+| `[BEGINNER_PROGRAM_CHARACTERISTICS]` | Specify the beginner program characteristics | "[specify value]" |
+| `[INTERMEDIATE_PROGRAM_FEATURES]` | Specify the intermediate program features | "[specify value]" |
+| `[ADVANCED_PROGRAM_ELEMENTS]` | Specify the advanced program elements | "[specify value]" |
+| `[ATHLETE_SPECIFIC_CONSIDERATIONS]` | Specify the athlete specific considerations | "[specify value]" |
+| `[FEMALE_PROGRAM_CONSIDERATIONS]` | Specify the female program considerations | "[specify value]" |
+| `[MALE_PROGRAM_CONSIDERATIONS]` | Specify the male program considerations | "[specify value]" |
+| `[HORMONAL_ADAPTATION_FACTORS]` | Specify the hormonal adaptation factors | "[specify value]" |
+| `[PRE_WORKOUT_MEAL_TIMING]` | Specify the pre workout meal timing | "[specify value]" |
+| `[PRE_WORKOUT_MACROS]` | Specify the pre workout macros | "[specify value]" |
+| `[INTRA_WORKOUT_NUTRITION]` | Specify the intra workout nutrition | "[specify value]" |
+| `[LONG_SESSION_DURATION]` | Specify the long session duration | "6 months" |
+| `[POST_WORKOUT_MEAL_TIMING]` | Specify the post workout meal timing | "[specify value]" |
+| `[POST_WORKOUT_MACROS]` | Specify the post workout macros | "[specify value]" |
+| `[DAILY_NUTRITION_EXERCISE_ALIGNMENT]` | Specify the daily nutrition exercise alignment | "[specify value]" |
+| `[DAILY_HYDRATION_TARGET]` | Target or intended daily hydration | "[specify value]" |
+| `[PRE_EXERCISE_HYDRATION]` | Specify the pre exercise hydration | "[specify value]" |
+| `[DURING_EXERCISE_HYDRATION]` | Specify the during exercise hydration | "[specify value]" |
+| `[POST_EXERCISE_HYDRATION]` | Specify the post exercise hydration | "[specify value]" |
+| `[ELECTROLYTE_REPLACEMENT_STRATEGY]` | Strategy or approach for electrolyte replacement | "[specify value]" |
+| `[SLEEP_DURATION_TARGET]` | Target or intended sleep duration | "6 months" |
+| `[SLEEP_QUALITY_FACTORS]` | Specify the sleep quality factors | "[specify value]" |
+| `[PERFORMANCE_SUPPLEMENT_1]` | Specify the performance supplement 1 | "[specify value]" |
+| `[PERFORMANCE_SUPPLEMENT_2]` | Specify the performance supplement 2 | "[specify value]" |
+| `[RECOVERY_SUPPLEMENT_1]` | Specify the recovery supplement 1 | "[specify value]" |
+| `[RECOVERY_SUPPLEMENT_2]` | Specify the recovery supplement 2 | "[specify value]" |
+| `[SUPPLEMENT_TIMING_1]` | Specify the supplement timing 1 | "[specify value]" |
+| `[SUPPLEMENT_TIMING_2]` | Specify the supplement timing 2 | "[specify value]" |
+| `[SUPPLEMENT_SAFETY_FACTORS]` | Specify the supplement safety factors | "[specify value]" |
+| `[RECOVERY_METRIC_1]` | Specify the recovery metric 1 | "[specify value]" |
+| `[RECOVERY_METRIC_2]` | Specify the recovery metric 2 | "[specify value]" |
+| `[RECOVERY_METRIC_3]` | Specify the recovery metric 3 | "[specify value]" |
+| `[OVERTRAINING_SIGN_1]` | Specify the overtraining sign 1 | "[specify value]" |
+| `[OVERTRAINING_SIGN_2]` | Specify the overtraining sign 2 | "[specify value]" |
+| `[RECOVERY_INTERVENTION_1]` | Specify the recovery intervention 1 | "[specify value]" |
+| `[RECOVERY_INTERVENTION_2]` | Specify the recovery intervention 2 | "[specify value]" |
+| `[PROFESSIONAL_RECOVERY_SERVICES]` | Specify the professional recovery services | "[specify value]" |
+
+
 
 ### 2. Program Design and Periodization
 

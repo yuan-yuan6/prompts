@@ -1,3 +1,17 @@
+---
+title: Best Practices & Standards Documentation Framework Generator
+category: education/Knowledge Management
+tags: [design, development, documentation, education, framework, machine-learning, management, optimization]
+use_cases:
+  - Implementing create comprehensive frameworks for documenting organizational standards, guidel...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - curriculum-development.md
+  - curriculum-development-framework.md
+last_updated: 2025-11-09
+---
+
 # Best Practices & Standards Documentation Framework Generator
 
 ## Purpose

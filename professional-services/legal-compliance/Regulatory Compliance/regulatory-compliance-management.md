@@ -1,3 +1,18 @@
+---
+title: Compliance Management Template Generator
+category: professional-services/legal-compliance/Regulatory Compliance
+tags: [design, development, documentation, machine-learning, management, professional-services, security, strategy]
+use_cases:
+  - Implementing create comprehensive compliance management strategies covering regulatory framew...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - regulatory-compliance-framework.md
+  - contract-drafting-template.md
+  - intellectual-property-management.md
+last_updated: 2025-11-09
+---
+
 # Compliance Management Template Generator
 
 ## Purpose

@@ -1,3 +1,14 @@
+---
+title: SWOT Analysis Strategic Assessment Framework
+category: business
+tags: [business, data-science, framework, marketing, research, strategy, testing]
+use_cases:
+  - Implementing comprehensive framework for conducting swot analysis including strengths assessm...
+  - Project planning and execution
+  - Strategy development
+last_updated: 2025-11-09
+---
+
 # SWOT Analysis Strategic Assessment Framework
 
 ## Purpose
@@ -55,6 +66,289 @@ Market Weaknesses:
 - Pricing Disadvantages: [PRICING_DISADVANTAGES]
 - Competitive Gaps: [COMPETITIVE_GAPS]
 ```
+
+## Variables
+
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `[ORGANIZATION_NAME]` | Name of the organization | "John Smith" |
+| `[INDUSTRY_SECTOR]` | Specify the industry sector | "Technology" |
+| `[ANALYSIS_SCOPE]` | Scope or boundaries of analysis | "[specify value]" |
+| `[TIME_HORIZON]` | Specify the time horizon | "[specify value]" |
+| `[STRATEGIC_OBJECTIVES]` | Primary objective or goal for strategic s | "Increase efficiency by 30%" |
+| `[STAKEHOLDER_COUNT]` | Specify the stakeholder count | "10" |
+| `[ACTION_ITEMS]` | Specify the action items | "[specify value]" |
+| `[ROI_EXPECTATION]` | Specify the roi expectation | "[specify value]" |
+| `[CORE_COMPETENCIES]` | Specify the core competencies | "[specify value]" |
+| `[CORE_ADVANTAGE]` | Specify the core advantage | "[specify value]" |
+| `[CORE_VALUE]` | Specify the core value | "[specify value]" |
+| `[CORE_SUSTAINABILITY]` | Specify the core sustainability | "[specify value]" |
+| `[CORE_ENHANCEMENT]` | Specify the core enhancement | "[specify value]" |
+| `[MARKET_POSITION]` | Specify the market position | "[specify value]" |
+| `[MARKET_ADVANTAGE]` | Specify the market advantage | "[specify value]" |
+| `[MARKET_VALUE]` | Specify the market value | "[specify value]" |
+| `[MARKET_SUSTAINABILITY]` | Specify the market sustainability | "[specify value]" |
+| `[MARKET_ENHANCEMENT]` | Specify the market enhancement | "[specify value]" |
+| `[FINANCIAL_RESOURCES]` | Specify the financial resources | "[specify value]" |
+| `[FINANCIAL_ADVANTAGE]` | Specify the financial advantage | "[specify value]" |
+| `[FINANCIAL_VALUE]` | Specify the financial value | "[specify value]" |
+| `[FINANCIAL_SUSTAINABILITY]` | Specify the financial sustainability | "[specify value]" |
+| `[FINANCIAL_ENHANCEMENT]` | Specify the financial enhancement | "[specify value]" |
+| `[HUMAN_CAPITAL]` | Specify the human capital | "[specify value]" |
+| `[HUMAN_ADVANTAGE]` | Specify the human advantage | "[specify value]" |
+| `[HUMAN_VALUE]` | Specify the human value | "[specify value]" |
+| `[HUMAN_SUSTAINABILITY]` | Specify the human sustainability | "[specify value]" |
+| `[HUMAN_ENHANCEMENT]` | Specify the human enhancement | "[specify value]" |
+| `[TECH_ASSETS]` | Specify the tech assets | "[specify value]" |
+| `[TECH_ADVANTAGE]` | Specify the tech advantage | "[specify value]" |
+| `[TECH_VALUE]` | Specify the tech value | "[specify value]" |
+| `[TECH_SUSTAINABILITY]` | Specify the tech sustainability | "[specify value]" |
+| `[TECH_ENHANCEMENT]` | Specify the tech enhancement | "[specify value]" |
+| `[BRAND_EQUITY]` | Specify the brand equity | "[specify value]" |
+| `[BRAND_ADVANTAGE]` | Specify the brand advantage | "[specify value]" |
+| `[BRAND_VALUE]` | Specify the brand value | "[specify value]" |
+| `[BRAND_SUSTAINABILITY]` | Specify the brand sustainability | "[specify value]" |
+| `[BRAND_ENHANCEMENT]` | Specify the brand enhancement | "[specify value]" |
+| `[WORKFLOW_BOTTLENECKS]` | Specify the workflow bottlenecks | "[specify value]" |
+| `[QUALITY_ISSUES]` | Specify the quality issues | "[specify value]" |
+| `[COST_OVERRUNS]` | Specify the cost overruns | "[specify value]" |
+| `[TIME_DELAYS]` | Specify the time delays | "[specify value]" |
+| `[RESOURCE_WASTE]` | Specify the resource waste | "[specify value]" |
+| `[SYSTEM_FAILURES]` | Specify the system failures | "[specify value]" |
+| `[SKILL_SHORTAGES]` | Specify the skill shortages | "[specify value]" |
+| `[TECH_DEFICITS]` | Specify the tech deficits | "[specify value]" |
+| `[KNOWLEDGE_GAPS]` | Specify the knowledge gaps | "[specify value]" |
+| `[EXPERIENCE_LIMITS]` | Specify the experience limits | "[specify value]" |
+| `[TRAINING_NEEDS]` | Specify the training needs | "[specify value]" |
+| `[LEADERSHIP_GAPS]` | Specify the leadership gaps | "[specify value]" |
+| `[BUDGET_LIMITS]` | Budget allocation for limits | "$500,000" |
+| `[STAFF_SHORTAGES]` | Specify the staff shortages | "[specify value]" |
+| `[EQUIPMENT_DEFICITS]` | Specify the equipment deficits | "[specify value]" |
+| `[INFRASTRUCTURE_GAPS]` | Specify the infrastructure gaps | "[specify value]" |
+| `[CAPITAL_CONSTRAINTS]` | Specify the capital constraints | "[specify value]" |
+| `[TIME_PRESSURES]` | Specify the time pressures | "[specify value]" |
+| `[MARKET_SHARE_LOSS]` | Specify the market share loss | "[specify value]" |
+| `[CUSTOMER_DISSATISFACTION]` | Specify the customer dissatisfaction | "[specify value]" |
+| `[BRAND_ISSUES]` | Specify the brand issues | "[specify value]" |
+| `[DISTRIBUTION_LIMITS]` | Specify the distribution limits | "[specify value]" |
+| `[PRICING_DISADVANTAGES]` | Specify the pricing disadvantages | "[specify value]" |
+| `[COMPETITIVE_GAPS]` | Specify the competitive gaps | "[specify value]" |
+| `[EXPANSION_POTENTIAL]` | Specify the expansion potential | "[specify value]" |
+| `[EXPANSION_RESOURCES]` | Specify the expansion resources | "[specify value]" |
+| `[EXPANSION_TIME]` | Specify the expansion time | "[specify value]" |
+| `[EXPANSION_PROBABILITY]` | Specify the expansion probability | "[specify value]" |
+| `[EXPANSION_FIT]` | Specify the expansion fit | "[specify value]" |
+| `[INNOVATION_POTENTIAL]` | Specify the innovation potential | "[specify value]" |
+| `[INNOVATION_RESOURCES]` | Specify the innovation resources | "[specify value]" |
+| `[INNOVATION_TIME]` | Specify the innovation time | "[specify value]" |
+| `[INNOVATION_PROBABILITY]` | Specify the innovation probability | "[specify value]" |
+| `[INNOVATION_FIT]` | Specify the innovation fit | "[specify value]" |
+| `[DIGITAL_POTENTIAL]` | Specify the digital potential | "[specify value]" |
+| `[DIGITAL_RESOURCES]` | Specify the digital resources | "[specify value]" |
+| `[DIGITAL_TIME]` | Specify the digital time | "[specify value]" |
+| `[DIGITAL_PROBABILITY]` | Specify the digital probability | "[specify value]" |
+| `[DIGITAL_FIT]` | Specify the digital fit | "[specify value]" |
+| `[PARTNERSHIP_POTENTIAL]` | Specify the partnership potential | "[specify value]" |
+| `[PARTNERSHIP_RESOURCES]` | Specify the partnership resources | "[specify value]" |
+| `[PARTNERSHIP_TIME]` | Specify the partnership time | "[specify value]" |
+| `[PARTNERSHIP_PROBABILITY]` | Specify the partnership probability | "[specify value]" |
+| `[PARTNERSHIP_FIT]` | Specify the partnership fit | "[specify value]" |
+| `[SEGMENT_POTENTIAL]` | Specify the segment potential | "[specify value]" |
+| `[SEGMENT_RESOURCES]` | Specify the segment resources | "[specify value]" |
+| `[SEGMENT_TIME]` | Specify the segment time | "[specify value]" |
+| `[SEGMENT_PROBABILITY]` | Specify the segment probability | "[specify value]" |
+| `[SEGMENT_FIT]` | Specify the segment fit | "[specify value]" |
+| `[GEO_POTENTIAL]` | Specify the geo potential | "[specify value]" |
+| `[GEO_RESOURCES]` | Specify the geo resources | "[specify value]" |
+| `[GEO_TIME]` | Specify the geo time | "[specify value]" |
+| `[GEO_PROBABILITY]` | Specify the geo probability | "[specify value]" |
+| `[GEO_FIT]` | Specify the geo fit | "[specify value]" |
+| `[NEW_ENTRANTS]` | Specify the new entrants | "[specify value]" |
+| `[SUBSTITUTE_PRODUCTS]` | Specify the substitute products | "[specify value]" |
+| `[PRICE_COMPETITION]` | Specify the price competition | "[specify value]" |
+| `[SHARE_EROSION]` | Specify the share erosion | "[specify value]" |
+| `[TECH_DISRUPTION]` | Specify the tech disruption | "[specify value]" |
+| `[INNOVATION_GAP]` | Specify the innovation gap | "[specify value]" |
+| `[DEMAND_DECLINE]` | Specify the demand decline | "[specify value]" |
+| `[CUSTOMER_SHIFT]` | Specify the customer shift | "[specify value]" |
+| `[ECONOMIC_DOWNTURN]` | Specify the economic downturn | "[specify value]" |
+| `[MARKET_SATURATION]` | Specify the market saturation | "[specify value]" |
+| `[TREND_CHANGES]` | Specify the trend changes | "[specify value]" |
+| `[DEMOGRAPHIC_SHIFTS]` | Specify the demographic shifts | "[specify value]" |
+| `[COMPLIANCE_CHANGES]` | Specify the compliance changes | "[specify value]" |
+| `[LEGAL_CHALLENGES]` | Specify the legal challenges | "[specify value]" |
+| `[TAX_IMPLICATIONS]` | Specify the tax implications | "[specify value]" |
+| `[TRADE_RESTRICTIONS]` | Specify the trade restrictions | "[specify value]" |
+| `[ENVIRONMENTAL_REGS]` | Specify the environmental regs | "[specify value]" |
+| `[INDUSTRY_STANDARDS]` | Specify the industry standards | "Technology" |
+| `[SUPPLY_DISRUPTION]` | Specify the supply disruption | "[specify value]" |
+| `[CYBER_RISKS]` | Specify the cyber risks | "[specify value]" |
+| `[NATURAL_DISASTERS]` | Specify the natural disasters | "[specify value]" |
+| `[PANDEMIC_IMPACT]` | Specify the pandemic impact | "[specify value]" |
+| `[INFRASTRUCTURE_FAIL]` | Specify the infrastructure fail | "[specify value]" |
+| `[TALENT_LOSS]` | Specify the talent loss | "[specify value]" |
+| `[SO_IMPLICATIONS]` | Specify the so implications | "[specify value]" |
+| `[SO_PRIORITY]` | Specify the so priority | "High" |
+| `[SO_RESOURCES]` | Specify the so resources | "[specify value]" |
+| `[SO_TIMELINE]` | Timeline or schedule for so | "6 months" |
+| `[SO_METRICS]` | Specify the so metrics | "[specify value]" |
+| `[ST_IMPLICATIONS]` | Specify the st implications | "[specify value]" |
+| `[ST_PRIORITY]` | Specify the st priority | "High" |
+| `[ST_RESOURCES]` | Specify the st resources | "[specify value]" |
+| `[ST_TIMELINE]` | Timeline or schedule for st | "6 months" |
+| `[ST_METRICS]` | Specify the st metrics | "[specify value]" |
+| `[WO_IMPLICATIONS]` | Specify the wo implications | "[specify value]" |
+| `[WO_PRIORITY]` | Specify the wo priority | "High" |
+| `[WO_RESOURCES]` | Specify the wo resources | "[specify value]" |
+| `[WO_TIMELINE]` | Timeline or schedule for wo | "6 months" |
+| `[WO_METRICS]` | Specify the wo metrics | "[specify value]" |
+| `[WT_IMPLICATIONS]` | Specify the wt implications | "[specify value]" |
+| `[WT_PRIORITY]` | Specify the wt priority | "High" |
+| `[WT_RESOURCES]` | Specify the wt resources | "[specify value]" |
+| `[WT_TIMELINE]` | Timeline or schedule for wt | "6 months" |
+| `[WT_METRICS]` | Specify the wt metrics | "[specify value]" |
+| `[CORE_STRATEGIES]` | Specify the core strategies | "[specify value]" |
+| `[CORE_PRIORITY]` | Specify the core priority | "High" |
+| `[CORE_RESOURCES]` | Specify the core resources | "[specify value]" |
+| `[CORE_TIMELINE]` | Timeline or schedule for core | "6 months" |
+| `[CORE_METRICS]` | Specify the core metrics | "[specify value]" |
+| `[RISK_MITIGATION]` | Specify the risk mitigation | "[specify value]" |
+| `[RISK_PRIORITY]` | Specify the risk priority | "High" |
+| `[RISK_RESOURCES]` | Specify the risk resources | "[specify value]" |
+| `[RISK_TIMELINE]` | Timeline or schedule for risk | "6 months" |
+| `[RISK_METRICS]` | Specify the risk metrics | "[specify value]" |
+| `[OFFENSIVE_ACTIONS]` | Specify the offensive actions | "[specify value]" |
+| `[OFFENSIVE_RESPONSIBLE]` | Specify the offensive responsible | "[specify value]" |
+| `[OFFENSIVE_RESOURCES]` | Specify the offensive resources | "[specify value]" |
+| `[OFFENSIVE_MILESTONES]` | Specify the offensive milestones | "[specify value]" |
+| `[OFFENSIVE_KPIS]` | Specify the offensive kpis | "[specify value]" |
+| `[DEFENSIVE_ACTIONS]` | Specify the defensive actions | "[specify value]" |
+| `[DEFENSIVE_RESPONSIBLE]` | Specify the defensive responsible | "[specify value]" |
+| `[DEFENSIVE_RESOURCES]` | Specify the defensive resources | "[specify value]" |
+| `[DEFENSIVE_MILESTONES]` | Specify the defensive milestones | "[specify value]" |
+| `[DEFENSIVE_KPIS]` | Specify the defensive kpis | "[specify value]" |
+| `[ADAPTIVE_ACTIONS]` | Specify the adaptive actions | "[specify value]" |
+| `[ADAPTIVE_RESPONSIBLE]` | Specify the adaptive responsible | "[specify value]" |
+| `[ADAPTIVE_RESOURCES]` | Specify the adaptive resources | "[specify value]" |
+| `[ADAPTIVE_MILESTONES]` | Specify the adaptive milestones | "[specify value]" |
+| `[ADAPTIVE_KPIS]` | Specify the adaptive kpis | "[specify value]" |
+| `[SURVIVAL_ACTIONS]` | Specify the survival actions | "[specify value]" |
+| `[SURVIVAL_RESPONSIBLE]` | Specify the survival responsible | "[specify value]" |
+| `[SURVIVAL_RESOURCES]` | Specify the survival resources | "[specify value]" |
+| `[SURVIVAL_MILESTONES]` | Specify the survival milestones | "[specify value]" |
+| `[SURVIVAL_KPIS]` | Specify the survival kpis | "[specify value]" |
+| `[GROWTH_ACTIONS]` | Specify the growth actions | "[specify value]" |
+| `[GROWTH_RESPONSIBLE]` | Specify the growth responsible | "[specify value]" |
+| `[GROWTH_RESOURCES]` | Specify the growth resources | "[specify value]" |
+| `[GROWTH_MILESTONES]` | Specify the growth milestones | "[specify value]" |
+| `[GROWTH_KPIS]` | Specify the growth kpis | "[specify value]" |
+| `[TRANSFORM_ACTIONS]` | Specify the transform actions | "[specify value]" |
+| `[TRANSFORM_RESPONSIBLE]` | Specify the transform responsible | "[specify value]" |
+| `[TRANSFORM_RESOURCES]` | Specify the transform resources | "[specify value]" |
+| `[TRANSFORM_MILESTONES]` | Specify the transform milestones | "[specify value]" |
+| `[TRANSFORM_KPIS]` | Specify the transform kpis | "[specify value]" |
+| `[UNIQUE_VALUE_PROP]` | Specify the unique value prop | "[specify value]" |
+| `[CORE_DIFFERENTIATORS]` | Specify the core differentiators | "[specify value]" |
+| `[MARKET_LEADERSHIP]` | Specify the market leadership | "[specify value]" |
+| `[INNOVATION_EDGE]` | Specify the innovation edge | "[specify value]" |
+| `[CUSTOMER_LOYALTY]` | Specify the customer loyalty | "[specify value]" |
+| `[OPERATIONAL_EXCELLENCE]` | Specify the operational excellence | "[specify value]" |
+| `[PERFORMANCE_GAPS]` | Specify the performance gaps | "[specify value]" |
+| `[FEATURE_GAPS]` | Specify the feature gaps | "[specify value]" |
+| `[SERVICE_GAPS]` | Specify the service gaps | "[specify value]" |
+| `[PRICE_GAPS]` | Specify the price gaps | "[specify value]" |
+| `[QUALITY_GAPS]` | Specify the quality gaps | "[specify value]" |
+| `[TECHNOLOGY_GAPS]` | Specify the technology gaps | "[specify value]" |
+| `[MARKET_SEGMENTS]` | Specify the market segments | "[specify value]" |
+| `[VALUE_CHAINS]` | Specify the value chains | "[specify value]" |
+| `[DISTRIBUTION_CHANNELS]` | Specify the distribution channels | "[specify value]" |
+| `[CUSTOMER_RELATIONSHIPS]` | Specify the customer relationships | "[specify value]" |
+| `[REVENUE_STREAMS]` | Specify the revenue streams | "[specify value]" |
+| `[COST_STRUCTURES]` | Specify the cost structures | "[specify value]" |
+| `[STRATEGIC_IMPACT]` | Specify the strategic impact | "[specify value]" |
+| `[STRATEGIC_PROB]` | Specify the strategic prob | "[specify value]" |
+| `[STRATEGIC_SCORE]` | Specify the strategic score | "[specify value]" |
+| `[STRATEGIC_MITIGATION]` | Specify the strategic mitigation | "[specify value]" |
+| `[STRATEGIC_CONTINGENCY]` | Specify the strategic contingency | "[specify value]" |
+| `[OPERATIONAL_IMPACT]` | Specify the operational impact | "[specify value]" |
+| `[OPERATIONAL_PROB]` | Specify the operational prob | "[specify value]" |
+| `[OPERATIONAL_SCORE]` | Specify the operational score | "[specify value]" |
+| `[OPERATIONAL_MITIGATION]` | Specify the operational mitigation | "[specify value]" |
+| `[OPERATIONAL_CONTINGENCY]` | Specify the operational contingency | "[specify value]" |
+| `[FINANCIAL_IMPACT]` | Specify the financial impact | "[specify value]" |
+| `[FINANCIAL_PROB]` | Specify the financial prob | "[specify value]" |
+| `[FINANCIAL_SCORE]` | Specify the financial score | "[specify value]" |
+| `[FINANCIAL_MITIGATION]` | Specify the financial mitigation | "[specify value]" |
+| `[FINANCIAL_CONTINGENCY]` | Specify the financial contingency | "[specify value]" |
+| `[COMPLIANCE_IMPACT]` | Specify the compliance impact | "[specify value]" |
+| `[COMPLIANCE_PROB]` | Specify the compliance prob | "[specify value]" |
+| `[COMPLIANCE_SCORE]` | Specify the compliance score | "[specify value]" |
+| `[COMPLIANCE_MITIGATION]` | Specify the compliance mitigation | "[specify value]" |
+| `[COMPLIANCE_CONTINGENCY]` | Specify the compliance contingency | "[specify value]" |
+| `[REPUTATION_IMPACT]` | Specify the reputation impact | "[specify value]" |
+| `[REPUTATION_PROB]` | Specify the reputation prob | "[specify value]" |
+| `[REPUTATION_SCORE]` | Specify the reputation score | "[specify value]" |
+| `[REPUTATION_MITIGATION]` | Specify the reputation mitigation | "[specify value]" |
+| `[REPUTATION_CONTINGENCY]` | Specify the reputation contingency | "[specify value]" |
+| `[TECH_IMPACT]` | Specify the tech impact | "[specify value]" |
+| `[TECH_PROB]` | Specify the tech prob | "[specify value]" |
+| `[TECH_SCORE]` | Specify the tech score | "[specify value]" |
+| `[TECH_MITIGATION]` | Specify the tech mitigation | "[specify value]" |
+| `[TECH_CONTINGENCY]` | Specify the tech contingency | "[specify value]" |
+| `[ASSESS_DURATION]` | Specify the assess duration | "6 months" |
+| `[ASSESS_ACTIVITIES]` | Specify the assess activities | "[specify value]" |
+| `[ASSESS_DELIVERABLES]` | Specify the assess deliverables | "[specify value]" |
+| `[ASSESS_CRITERIA]` | Specify the assess criteria | "[specify value]" |
+| `[ASSESS_REVIEW]` | Specify the assess review | "[specify value]" |
+| `[PLAN_DURATION]` | Specify the plan duration | "6 months" |
+| `[PLAN_ACTIVITIES]` | Specify the plan activities | "[specify value]" |
+| `[PLAN_DELIVERABLES]` | Specify the plan deliverables | "[specify value]" |
+| `[PLAN_CRITERIA]` | Specify the plan criteria | "[specify value]" |
+| `[PLAN_REVIEW]` | Specify the plan review | "[specify value]" |
+| `[QUICK_DURATION]` | Specify the quick duration | "6 months" |
+| `[QUICK_ACTIVITIES]` | Specify the quick activities | "[specify value]" |
+| `[QUICK_DELIVERABLES]` | Specify the quick deliverables | "[specify value]" |
+| `[QUICK_CRITERIA]` | Specify the quick criteria | "[specify value]" |
+| `[QUICK_REVIEW]` | Specify the quick review | "[specify value]" |
+| `[CORE_DURATION]` | Specify the core duration | "6 months" |
+| `[CORE_ACTIVITIES]` | Specify the core activities | "[specify value]" |
+| `[CORE_DELIVERABLES]` | Specify the core deliverables | "[specify value]" |
+| `[CORE_CRITERIA]` | Specify the core criteria | "[specify value]" |
+| `[CORE_REVIEW]` | Specify the core review | "[specify value]" |
+| `[OPTIMIZE_DURATION]` | Specify the optimize duration | "6 months" |
+| `[OPTIMIZE_ACTIVITIES]` | Specify the optimize activities | "[specify value]" |
+| `[OPTIMIZE_DELIVERABLES]` | Specify the optimize deliverables | "[specify value]" |
+| `[OPTIMIZE_CRITERIA]` | Specify the optimize criteria | "[specify value]" |
+| `[OPTIMIZE_REVIEW]` | Specify the optimize review | "[specify value]" |
+| `[MONITOR_DURATION]` | Specify the monitor duration | "6 months" |
+| `[MONITOR_ACTIVITIES]` | Specify the monitor activities | "[specify value]" |
+| `[MONITOR_DELIVERABLES]` | Specify the monitor deliverables | "[specify value]" |
+| `[MONITOR_CRITERIA]` | Specify the monitor criteria | "[specify value]" |
+| `[MONITOR_REVIEW]` | Specify the monitor review | "[specify value]" |
+| `[REVENUE_GROWTH]` | Specify the revenue growth | "[specify value]" |
+| `[COST_REDUCTION]` | Specify the cost reduction | "[specify value]" |
+| `[PROFIT_MARGIN]` | Specify the profit margin | "[specify value]" |
+| `[ROI_METRIC]` | Specify the roi metric | "[specify value]" |
+| `[CASH_FLOW]` | Specify the cash flow | "[specify value]" |
+| `[MARKET_SHARE]` | Specify the market share | "[specify value]" |
+| `[CUSTOMER_ACQUISITION]` | Specify the customer acquisition | "[specify value]" |
+| `[CUSTOMER_RETENTION]` | Specify the customer retention | "[specify value]" |
+| `[NPS_SCORE]` | Specify the nps score | "[specify value]" |
+| `[COMPETITIVE_POSITION]` | Specify the competitive position | "[specify value]" |
+| `[EFFICIENCY_GAINS]` | Specify the efficiency gains | "[specify value]" |
+| `[QUALITY_IMPROVEMENT]` | Specify the quality improvement | "[specify value]" |
+| `[TIME_TO_MARKET]` | Specify the time to market | "[specify value]" |
+| `[INNOVATION_INDEX]` | Specify the innovation index | "[specify value]" |
+| `[EMPLOYEE_ENGAGEMENT]` | Specify the employee engagement | "[specify value]" |
+| `[PROCESS_MATURITY]` | Specify the process maturity | "[specify value]" |
+| `[GOAL_ACHIEVEMENT]` | Specify the goal achievement | "Increase efficiency by 30%" |
+| `[STRATEGY_EXECUTION]` | Strategy or approach for execution | "[specify value]" |
+| `[RISK_REDUCTION]` | Specify the risk reduction | "[specify value]" |
+| `[CAPABILITY_DEV]` | Specify the capability dev | "[specify value]" |
+| `[TRANSFORMATION]` | Specify the transformation | "[specify value]" |
+| `[STAKEHOLDER_VALUE]` | Specify the stakeholder value | "[specify value]" |
+
+
 
 ### 3. Opportunities Exploration
 

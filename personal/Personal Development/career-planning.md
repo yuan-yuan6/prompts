@@ -1,3 +1,14 @@
+---
+title: Career Planning Template
+category: personal/Personal Development
+tags: [data-science, development, personal, research, strategy, template]
+use_cases:
+  - Implementing create comprehensive career development strategies, professional growth roadmaps...
+  - Project planning and execution
+  - Strategy development
+last_updated: 2025-11-09
+---
+
 # Career Planning Template
 
 ## Purpose

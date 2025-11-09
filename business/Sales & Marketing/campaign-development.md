@@ -1,3 +1,18 @@
+---
+title: Campaign Development Template Generator
+category: business/Sales & Marketing
+tags: [business, development, machine-learning, marketing, optimization, strategy, template]
+use_cases:
+  - Implementing create comprehensive marketing campaign strategies covering creative development...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - okr-implementation-framework.md
+  - digital-transformation-roadmap.md
+  - lean-six-sigma-implementation.md
+last_updated: 2025-11-09
+---
+
 # Campaign Development Template Generator
 
 ## Purpose

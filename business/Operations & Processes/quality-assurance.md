@@ -1,3 +1,18 @@
+---
+title: Quality Assurance Framework Template Generator
+category: business/Operations & Processes
+tags: [business, framework, machine-learning, management, optimization, security, template, testing]
+use_cases:
+  - Implementing create comprehensive quality assurance programs covering quality standards, test...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - okr-implementation-framework.md
+  - digital-transformation-roadmap.md
+  - lean-six-sigma-implementation.md
+last_updated: 2025-11-09
+---
+
 # Quality Assurance Framework Template Generator
 
 ## Purpose

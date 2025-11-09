@@ -1,3 +1,18 @@
+---
+title: Supply Chain Optimization & Network Design
+category: industry/transportation-logistics/Supply Chain
+tags: [data-science, design, industry, machine-learning, management, optimization, research, strategy]
+use_cases:
+  - Implementing advanced framework for end-to-end supply chain optimization, network design, inv...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - route-optimization-framework.md
+  - warehouse-management-system.md
+  - fleet-management-system.md
+last_updated: 2025-11-09
+---
+
 # Supply Chain Optimization & Network Design
 
 ## Purpose
@@ -43,6 +58,300 @@ Demand Segmentation:
 - Seasonal: [SEASONAL_PCT]%
 - Trend: [TREND_PCT]%
 ```
+
+## Variables
+
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `[COMPANY_NAME]` | Name of the company | "Acme Corporation" |
+| `[SKU_COUNT]` | Specify the sku count | "10" |
+| `[SUPPLIER_COUNT]` | Specify the supplier count | "10" |
+| `[DC_COUNT]` | Specify the dc count | "10" |
+| `[CUSTOMER_COUNT]` | Specify the customer count | "10" |
+| `[VOLUME]` | Specify the volume | "[specify value]" |
+| `[SUPP_LOC]` | Specify the supp loc | "[specify value]" |
+| `[SUPP_CAP]` | Specify the supp cap | "[specify value]" |
+| `[SUPP_THROUGH]` | Specify the supp through | "[specify value]" |
+| `[SUPP_LEAD]` | Specify the supp lead | "[specify value]" |
+| `[SUPP_COST]` | Specify the supp cost | "[specify value]" |
+| `[MFG_LOC]` | Specify the mfg loc | "[specify value]" |
+| `[MFG_CAP]` | Specify the mfg cap | "[specify value]" |
+| `[MFG_THROUGH]` | Specify the mfg through | "[specify value]" |
+| `[MFG_LEAD]` | Specify the mfg lead | "[specify value]" |
+| `[MFG_COST]` | Specify the mfg cost | "[specify value]" |
+| `[DC_LOC]` | Specify the dc loc | "[specify value]" |
+| `[DC_CAP]` | Specify the dc cap | "[specify value]" |
+| `[DC_THROUGH]` | Specify the dc through | "[specify value]" |
+| `[DC_LEAD]` | Specify the dc lead | "[specify value]" |
+| `[DC_COST]` | Specify the dc cost | "[specify value]" |
+| `[CD_LOC]` | Specify the cd loc | "[specify value]" |
+| `[CD_CAP]` | Specify the cd cap | "[specify value]" |
+| `[CD_THROUGH]` | Specify the cd through | "[specify value]" |
+| `[CD_LEAD]` | Specify the cd lead | "[specify value]" |
+| `[CD_COST]` | Specify the cd cost | "[specify value]" |
+| `[RETAIL_LOC]` | Specify the retail loc | "[specify value]" |
+| `[RETAIL_THROUGH]` | Specify the retail through | "[specify value]" |
+| `[RETAIL_LEAD]` | Specify the retail lead | "[specify value]" |
+| `[RETAIL_COST]` | Specify the retail cost | "[specify value]" |
+| `[CATEGORY_1]` | Specify the category 1 | "[specify value]" |
+| `[METHOD_1]` | Specify the method 1 | "[specify value]" |
+| `[MAPE_1]` | Specify the mape 1 | "[specify value]" |
+| `[BIAS_1]` | Specify the bias 1 | "[specify value]" |
+| `[HORIZON_1]` | Specify the horizon 1 | "[specify value]" |
+| `[FREQ_1]` | Specify the freq 1 | "[specify value]" |
+| `[CATEGORY_2]` | Specify the category 2 | "[specify value]" |
+| `[METHOD_2]` | Specify the method 2 | "[specify value]" |
+| `[MAPE_2]` | Specify the mape 2 | "[specify value]" |
+| `[BIAS_2]` | Specify the bias 2 | "[specify value]" |
+| `[HORIZON_2]` | Specify the horizon 2 | "[specify value]" |
+| `[FREQ_2]` | Specify the freq 2 | "[specify value]" |
+| `[CATEGORY_3]` | Specify the category 3 | "[specify value]" |
+| `[METHOD_3]` | Specify the method 3 | "[specify value]" |
+| `[MAPE_3]` | Specify the mape 3 | "[specify value]" |
+| `[BIAS_3]` | Specify the bias 3 | "[specify value]" |
+| `[HORIZON_3]` | Specify the horizon 3 | "[specify value]" |
+| `[FREQ_3]` | Specify the freq 3 | "[specify value]" |
+| `[CATEGORY_4]` | Specify the category 4 | "[specify value]" |
+| `[METHOD_4]` | Specify the method 4 | "[specify value]" |
+| `[MAPE_4]` | Specify the mape 4 | "[specify value]" |
+| `[BIAS_4]` | Specify the bias 4 | "[specify value]" |
+| `[HORIZON_4]` | Specify the horizon 4 | "[specify value]" |
+| `[FREQ_4]` | Specify the freq 4 | "[specify value]" |
+| `[CATEGORY_5]` | Specify the category 5 | "[specify value]" |
+| `[METHOD_5]` | Specify the method 5 | "[specify value]" |
+| `[MAPE_5]` | Specify the mape 5 | "[specify value]" |
+| `[BIAS_5]` | Specify the bias 5 | "[specify value]" |
+| `[HORIZON_5]` | Specify the horizon 5 | "[specify value]" |
+| `[FREQ_5]` | Specify the freq 5 | "[specify value]" |
+| `[PEAK_MONTHS]` | Specify the peak months | "[specify value]" |
+| `[PEAK_MULT]` | Specify the peak mult | "[specify value]" |
+| `[LOW_MONTHS]` | Specify the low months | "[specify value]" |
+| `[LOW_MULT]` | Specify the low mult | "[specify value]" |
+| `[PROMO_LIFT]` | Specify the promo lift | "[specify value]" |
+| `[WEATHER_CORR]` | Specify the weather corr | "[specify value]" |
+| `[BASE_PCT]` | Specify the base pct | "25%" |
+| `[PROMO_PCT]` | Specify the promo pct | "25%" |
+| `[SEASONAL_PCT]` | Specify the seasonal pct | "25%" |
+| `[TREND_PCT]` | Specify the trend pct | "25%" |
+| `[RAW_VALUE]` | Specify the raw value | "[specify value]" |
+| `[RAW_TURNS]` | Specify the raw turns | "[specify value]" |
+| `[RAW_DOH]` | Specify the raw doh | "[specify value]" |
+| `[RAW_SL]` | Specify the raw sl | "[specify value]" |
+| `[RAW_METHOD]` | Specify the raw method | "[specify value]" |
+| `[WIP_VALUE]` | Specify the wip value | "[specify value]" |
+| `[WIP_TURNS]` | Specify the wip turns | "[specify value]" |
+| `[WIP_DOH]` | Specify the wip doh | "[specify value]" |
+| `[WIP_METHOD]` | Specify the wip method | "[specify value]" |
+| `[FG_VALUE]` | Specify the fg value | "[specify value]" |
+| `[FG_TURNS]` | Specify the fg turns | "[specify value]" |
+| `[FG_DOH]` | Specify the fg doh | "[specify value]" |
+| `[FG_SL]` | Specify the fg sl | "[specify value]" |
+| `[FG_METHOD]` | Specify the fg method | "[specify value]" |
+| `[MRO_VALUE]` | Specify the mro value | "[specify value]" |
+| `[MRO_TURNS]` | Specify the mro turns | "[specify value]" |
+| `[MRO_DOH]` | Specify the mro doh | "[specify value]" |
+| `[MRO_SL]` | Specify the mro sl | "[specify value]" |
+| `[MRO_METHOD]` | Specify the mro method | "[specify value]" |
+| `[SAFETY_VALUE]` | Specify the safety value | "[specify value]" |
+| `[SAFETY_DOH]` | Specify the safety doh | "[specify value]" |
+| `[SAFETY_SL]` | Specify the safety sl | "[specify value]" |
+| `[SAFETY_METHOD]` | Specify the safety method | "[specify value]" |
+| `[OCEAN_VOL]` | Specify the ocean vol | "[specify value]" |
+| `[OCEAN_COST]` | Specify the ocean cost | "[specify value]" |
+| `[OCEAN_TIME]` | Specify the ocean time | "[specify value]" |
+| `[OCEAN_REL]` | Specify the ocean rel | "[specify value]" |
+| `[OCEAN_CO2]` | Specify the ocean co2 | "[specify value]" |
+| `[AIR_VOL]` | Specify the air vol | "[specify value]" |
+| `[AIR_COST]` | Specify the air cost | "[specify value]" |
+| `[AIR_TIME]` | Specify the air time | "[specify value]" |
+| `[AIR_REL]` | Specify the air rel | "[specify value]" |
+| `[AIR_CO2]` | Specify the air co2 | "[specify value]" |
+| `[RAIL_VOL]` | Specify the rail vol | "[specify value]" |
+| `[RAIL_COST]` | Specify the rail cost | "[specify value]" |
+| `[RAIL_TIME]` | Specify the rail time | "[specify value]" |
+| `[RAIL_REL]` | Specify the rail rel | "[specify value]" |
+| `[RAIL_CO2]` | Specify the rail co2 | "[specify value]" |
+| `[FTL_VOL]` | Specify the ftl vol | "[specify value]" |
+| `[FTL_COST]` | Specify the ftl cost | "[specify value]" |
+| `[FTL_TIME]` | Specify the ftl time | "[specify value]" |
+| `[FTL_REL]` | Specify the ftl rel | "[specify value]" |
+| `[FTL_CO2]` | Specify the ftl co2 | "[specify value]" |
+| `[LTL_VOL]` | Specify the ltl vol | "[specify value]" |
+| `[LTL_COST]` | Specify the ltl cost | "[specify value]" |
+| `[LTL_TIME]` | Specify the ltl time | "[specify value]" |
+| `[LTL_REL]` | Specify the ltl rel | "[specify value]" |
+| `[LTL_CO2]` | Specify the ltl co2 | "[specify value]" |
+| `[PARCEL_VOL]` | Specify the parcel vol | "[specify value]" |
+| `[PARCEL_COST]` | Specify the parcel cost | "[specify value]" |
+| `[PARCEL_TIME]` | Specify the parcel time | "[specify value]" |
+| `[PARCEL_REL]` | Specify the parcel rel | "[specify value]" |
+| `[PARCEL_CO2]` | Specify the parcel co2 | "[specify value]" |
+| `[STRAT_COUNT]` | Specify the strat count | "10" |
+| `[STRAT_OTD]` | Specify the strat otd | "[specify value]" |
+| `[STRAT_QUAL]` | Specify the strat qual | "[specify value]" |
+| `[STRAT_COST]` | Specify the strat cost | "[specify value]" |
+| `[STRAT_RISK]` | Specify the strat risk | "[specify value]" |
+| `[PREF_COUNT]` | Specify the pref count | "10" |
+| `[PREF_OTD]` | Specify the pref otd | "[specify value]" |
+| `[PREF_QUAL]` | Specify the pref qual | "[specify value]" |
+| `[PREF_COST]` | Specify the pref cost | "[specify value]" |
+| `[PREF_RISK]` | Specify the pref risk | "[specify value]" |
+| `[APPR_COUNT]` | Specify the appr count | "10" |
+| `[APPR_OTD]` | Specify the appr otd | "[specify value]" |
+| `[APPR_QUAL]` | Specify the appr qual | "[specify value]" |
+| `[APPR_COST]` | Specify the appr cost | "[specify value]" |
+| `[APPR_RISK]` | Specify the appr risk | "[specify value]" |
+| `[BACK_COUNT]` | Specify the back count | "10" |
+| `[BACK_OTD]` | Specify the back otd | "[specify value]" |
+| `[BACK_QUAL]` | Specify the back qual | "[specify value]" |
+| `[BACK_COST]` | Specify the back cost | "[specify value]" |
+| `[BACK_RISK]` | Specify the back risk | "[specify value]" |
+| `[REVIEW_COUNT]` | Specify the review count | "10" |
+| `[REVIEW_OTD]` | Specify the review otd | "[specify value]" |
+| `[REVIEW_QUAL]` | Specify the review qual | "[specify value]" |
+| `[REVIEW_COST]` | Specify the review cost | "[specify value]" |
+| `[REVIEW_RISK]` | Specify the review risk | "[specify value]" |
+| `[WH_1]` | Specify the wh 1 | "[specify value]" |
+| `[SIZE_1]` | Specify the size 1 | "[specify value]" |
+| `[THROUGH_1]` | Specify the through 1 | "[specify value]" |
+| `[ACC_1]` | Specify the acc 1 | "[specify value]" |
+| `[COST_1]` | Specify the cost 1 | "[specify value]" |
+| `[PROD_1]` | Specify the prod 1 | "[specify value]" |
+| `[WH_2]` | Specify the wh 2 | "[specify value]" |
+| `[SIZE_2]` | Specify the size 2 | "[specify value]" |
+| `[THROUGH_2]` | Specify the through 2 | "[specify value]" |
+| `[ACC_2]` | Specify the acc 2 | "[specify value]" |
+| `[COST_2]` | Specify the cost 2 | "[specify value]" |
+| `[PROD_2]` | Specify the prod 2 | "[specify value]" |
+| `[WH_3]` | Specify the wh 3 | "[specify value]" |
+| `[SIZE_3]` | Specify the size 3 | "[specify value]" |
+| `[THROUGH_3]` | Specify the through 3 | "[specify value]" |
+| `[ACC_3]` | Specify the acc 3 | "[specify value]" |
+| `[COST_3]` | Specify the cost 3 | "[specify value]" |
+| `[PROD_3]` | Specify the prod 3 | "[specify value]" |
+| `[WH_4]` | Specify the wh 4 | "[specify value]" |
+| `[SIZE_4]` | Specify the size 4 | "[specify value]" |
+| `[THROUGH_4]` | Specify the through 4 | "[specify value]" |
+| `[ACC_4]` | Specify the acc 4 | "[specify value]" |
+| `[COST_4]` | Specify the cost 4 | "[specify value]" |
+| `[PROD_4]` | Specify the prod 4 | "[specify value]" |
+| `[RECEIVE_TIME]` | Specify the receive time | "[specify value]" |
+| `[RECEIVE_ACC]` | Specify the receive acc | "[specify value]" |
+| `[RECEIVE_COST]` | Specify the receive cost | "[specify value]" |
+| `[PICK_RATE]` | Specify the pick rate | "[specify value]" |
+| `[PICK_ACC]` | Specify the pick acc | "[specify value]" |
+| `[PICK_METHOD]` | Specify the pick method | "[specify value]" |
+| `[PACK_RATE]` | Specify the pack rate | "[specify value]" |
+| `[SHIP_ACC]` | Specify the ship acc | "[specify value]" |
+| `[SHIP_OT]` | Specify the ship ot | "[specify value]" |
+| `[SUPP_PROB]` | Specify the supp prob | "[specify value]" |
+| `[SUPP_IMP]` | Specify the supp imp | "[specify value]" |
+| `[SUPP_DET]` | Specify the supp det | "[specify value]" |
+| `[SUPP_MIT]` | Specify the supp mit | "[specify value]" |
+| `[SUPP_CONT]` | Specify the supp cont | "[specify value]" |
+| `[DEM_PROB]` | Specify the dem prob | "[specify value]" |
+| `[DEM_IMP]` | Specify the dem imp | "[specify value]" |
+| `[DEM_DET]` | Specify the dem det | "[specify value]" |
+| `[DEM_MIT]` | Specify the dem mit | "[specify value]" |
+| `[DEM_CONT]` | Specify the dem cont | "[specify value]" |
+| `[TRANS_PROB]` | Specify the trans prob | "[specify value]" |
+| `[TRANS_IMP]` | Specify the trans imp | "[specify value]" |
+| `[TRANS_DET]` | Specify the trans det | "[specify value]" |
+| `[TRANS_MIT]` | Specify the trans mit | "[specify value]" |
+| `[TRANS_CONT]` | Specify the trans cont | "[specify value]" |
+| `[QUAL_PROB]` | Specify the qual prob | "[specify value]" |
+| `[QUAL_IMP]` | Specify the qual imp | "[specify value]" |
+| `[QUAL_DET]` | Specify the qual det | "[specify value]" |
+| `[QUAL_MIT]` | Specify the qual mit | "[specify value]" |
+| `[QUAL_CONT]` | Specify the qual cont | "[specify value]" |
+| `[REG_PROB]` | Specify the reg prob | "[specify value]" |
+| `[REG_IMP]` | Specify the reg imp | "[specify value]" |
+| `[REG_DET]` | Specify the reg det | "[specify value]" |
+| `[REG_MIT]` | Specify the reg mit | "[specify value]" |
+| `[REG_CONT]` | Specify the reg cont | "[specify value]" |
+| `[CYBER_PROB]` | Specify the cyber prob | "[specify value]" |
+| `[CYBER_IMP]` | Specify the cyber imp | "[specify value]" |
+| `[CYBER_DET]` | Specify the cyber det | "[specify value]" |
+| `[CYBER_MIT]` | Specify the cyber mit | "[specify value]" |
+| `[CYBER_CONT]` | Specify the cyber cont | "[specify value]" |
+| `[ERP_FUNC]` | Specify the erp func | "[specify value]" |
+| `[ERP_INT]` | Specify the erp int | "[specify value]" |
+| `[ERP_QUAL]` | Specify the erp qual | "[specify value]" |
+| `[ERP_ADOPT]` | Specify the erp adopt | "[specify value]" |
+| `[ERP_ROI]` | Specify the erp roi | "[specify value]" |
+| `[WMS_FUNC]` | Specify the wms func | "[specify value]" |
+| `[WMS_INT]` | Specify the wms int | "[specify value]" |
+| `[WMS_QUAL]` | Specify the wms qual | "[specify value]" |
+| `[WMS_ADOPT]` | Specify the wms adopt | "[specify value]" |
+| `[WMS_ROI]` | Specify the wms roi | "[specify value]" |
+| `[TMS_FUNC]` | Specify the tms func | "[specify value]" |
+| `[TMS_INT]` | Specify the tms int | "[specify value]" |
+| `[TMS_QUAL]` | Specify the tms qual | "[specify value]" |
+| `[TMS_ADOPT]` | Specify the tms adopt | "[specify value]" |
+| `[TMS_ROI]` | Specify the tms roi | "[specify value]" |
+| `[PLAN_FUNC]` | Specify the plan func | "[specify value]" |
+| `[PLAN_INT]` | Specify the plan int | "[specify value]" |
+| `[PLAN_QUAL]` | Specify the plan qual | "[specify value]" |
+| `[PLAN_ADOPT]` | Specify the plan adopt | "[specify value]" |
+| `[PLAN_ROI]` | Specify the plan roi | "[specify value]" |
+| `[BI_FUNC]` | Specify the bi func | "[specify value]" |
+| `[BI_INT]` | Specify the bi int | "[specify value]" |
+| `[BI_QUAL]` | Specify the bi qual | "[specify value]" |
+| `[BI_ADOPT]` | Specify the bi adopt | "[specify value]" |
+| `[BI_ROI]` | Specify the bi roi | "[specify value]" |
+| `[IOT_FUNC]` | Specify the iot func | "[specify value]" |
+| `[IOT_INT]` | Specify the iot int | "[specify value]" |
+| `[IOT_QUAL]` | Specify the iot qual | "[specify value]" |
+| `[IOT_ADOPT]` | Specify the iot adopt | "[specify value]" |
+| `[IOT_ROI]` | Specify the iot roi | "[specify value]" |
+| `[SEGMENT_1]` | Specify the segment 1 | "[specify value]" |
+| `[REV_1]` | Specify the rev 1 | "[specify value]" |
+| `[MARGIN_1]` | Specify the margin 1 | "[specify value]" |
+| `[CTS_1]` | Specify the cts 1 | "[specify value]" |
+| `[PROFIT_1]` | Specify the profit 1 | "[specify value]" |
+| `[STRATEGY_1]` | Strategy or approach for 1 | "[specify value]" |
+| `[SEGMENT_2]` | Specify the segment 2 | "[specify value]" |
+| `[REV_2]` | Specify the rev 2 | "[specify value]" |
+| `[MARGIN_2]` | Specify the margin 2 | "[specify value]" |
+| `[CTS_2]` | Specify the cts 2 | "[specify value]" |
+| `[PROFIT_2]` | Specify the profit 2 | "[specify value]" |
+| `[STRATEGY_2]` | Strategy or approach for 2 | "[specify value]" |
+| `[SEGMENT_3]` | Specify the segment 3 | "[specify value]" |
+| `[REV_3]` | Specify the rev 3 | "[specify value]" |
+| `[MARGIN_3]` | Specify the margin 3 | "[specify value]" |
+| `[CTS_3]` | Specify the cts 3 | "[specify value]" |
+| `[PROFIT_3]` | Specify the profit 3 | "[specify value]" |
+| `[STRATEGY_3]` | Strategy or approach for 3 | "[specify value]" |
+| `[SEGMENT_4]` | Specify the segment 4 | "[specify value]" |
+| `[REV_4]` | Specify the rev 4 | "[specify value]" |
+| `[MARGIN_4]` | Specify the margin 4 | "[specify value]" |
+| `[CTS_4]` | Specify the cts 4 | "[specify value]" |
+| `[PROFIT_4]` | Specify the profit 4 | "[specify value]" |
+| `[STRATEGY_4]` | Strategy or approach for 4 | "[specify value]" |
+| `[SEGMENT_5]` | Specify the segment 5 | "[specify value]" |
+| `[REV_5]` | Specify the rev 5 | "[specify value]" |
+| `[MARGIN_5]` | Specify the margin 5 | "[specify value]" |
+| `[CTS_5]` | Specify the cts 5 | "[specify value]" |
+| `[PROFIT_5]` | Specify the profit 5 | "[specify value]" |
+| `[STRATEGY_5]` | Strategy or approach for 5 | "[specify value]" |
+| `[PERFECT_ORDER]` | Specify the perfect order | "[specify value]" |
+| `[FILL_RATE]` | Specify the fill rate | "[specify value]" |
+| `[OTD]` | Specify the otd | "[specify value]" |
+| `[CYCLE_TIME]` | Specify the cycle time | "[specify value]" |
+| `[TSC_COST]` | Specify the tsc cost | "[specify value]" |
+| `[LOG_COST]` | Specify the log cost | "[specify value]" |
+| `[CARRY_COST]` | Specify the carry cost | "[specify value]" |
+| `[C2C]` | Specify the c2c | "[specify value]" |
+| `[INV_TURNS]` | Specify the inv turns | "[specify value]" |
+| `[ASSET_UTIL]` | Specify the asset util | "[specify value]" |
+| `[WC_REV]` | Specify the wc rev | "[specify value]" |
+| `[ROIC]` | Specify the roic | "[specify value]" |
+| `[UPSIDE_FLEX]` | Specify the upside flex | "[specify value]" |
+| `[DOWN_ADAPT]` | Specify the down adapt | "[specify value]" |
+| `[SC_CYCLE]` | Specify the sc cycle | "[specify value]" |
+| `[TTM]` | Specify the ttm | "[specify value]" |
+
+
 
 ### 3. Inventory Optimization Strategy
 

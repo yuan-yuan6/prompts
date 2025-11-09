@@ -1,3 +1,18 @@
+---
+title: Compliance Management Template
+category: technology/Cybersecurity
+tags: [communication, design, management, security, technology, template, testing]
+use_cases:
+  - Implementing comprehensive compliance management for regulatory frameworks including policies...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - cloud-architecture-framework.md
+  - site-reliability-engineering.md
+  - cloud-migration-strategy.md
+last_updated: 2025-11-09
+---
+
 # Compliance Management Template
 
 ## Purpose
@@ -101,6 +116,63 @@ Risk Management:
 - Monitor through privacy dashboards, KPIs risk monitoring
 - Report quarterly to board, regulators risk reporting
 ```
+
+## Variables
+
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `{regulatory_framework}` | Specify the regulatory framework | "[specify value]" |
+| `{compliance_scope}` | Specify the compliance scope | "[specify value]" |
+| `{applicable_standards}` | Specify the applicable standards | "[specify value]" |
+| `{business_context}` | Specify the business context | "[specify value]" |
+| `{geographic_jurisdiction}` | Specify the geographic jurisdiction | "[specify value]" |
+| `{industry_sector}` | Specify the industry sector | "Technology" |
+| `{compliance_timeline}` | Specify the compliance timeline | "6 months" |
+| `{compliance_budget}` | Specify the compliance budget | "$500,000" |
+| `{compliance_stakeholders}` | Specify the compliance stakeholders | "[specify value]" |
+| `{risk_tolerance}` | Specify the risk tolerance | "[specify value]" |
+| `{policy_structure}` | Specify the policy structure | "[specify value]" |
+| `{policy_categories}` | Specify the policy categories | "[specify value]" |
+| `{policy_approval}` | Specify the policy approval | "[specify value]" |
+| `{policy_communication}` | Specify the policy communication | "[specify value]" |
+| `{policy_training}` | Specify the policy training | "[specify value]" |
+| `{policy_review_cycle}` | Specify the policy review cycle | "[specify value]" |
+| `{policy_updates}` | Specify the policy updates | "2025-01-15" |
+| `{policy_exceptions}` | Specify the policy exceptions | "[specify value]" |
+| `{policy_enforcement}` | Specify the policy enforcement | "[specify value]" |
+| `{policy_metrics}` | Specify the policy metrics | "[specify value]" |
+| `{control_framework}` | Specify the control framework | "[specify value]" |
+| `{control_categories}` | Specify the control categories | "[specify value]" |
+| `{control_design}` | Specify the control design | "[specify value]" |
+| `{control_implementation}` | Specify the control implementation | "[specify value]" |
+| `{control_testing}` | Specify the control testing | "[specify value]" |
+| `{control_monitoring}` | Specify the control monitoring | "[specify value]" |
+| `{control_reporting}` | Specify the control reporting | "[specify value]" |
+| `{control_exceptions}` | Specify the control exceptions | "[specify value]" |
+| `{control_remediation}` | Specify the control remediation | "[specify value]" |
+| `{control_effectiveness}` | Specify the control effectiveness | "[specify value]" |
+| `{risk_assessment}` | Specify the risk assessment | "[specify value]" |
+| `{risk_register}` | Specify the risk register | "[specify value]" |
+| `{risk_treatment}` | Specify the risk treatment | "[specify value]" |
+| `{risk_monitoring}` | Specify the risk monitoring | "[specify value]" |
+| `{risk_reporting}` | Specify the risk reporting | "[specify value]" |
+| `{risk_communication}` | Specify the risk communication | "[specify value]" |
+| `{risk_appetite}` | Specify the risk appetite | "[specify value]" |
+| `{compliance_risk_tolerance}` | Specify the compliance risk tolerance | "[specify value]" |
+| `{risk_mitigation}` | Specify the risk mitigation | "[specify value]" |
+| `{residual_risk}` | Specify the residual risk | "[specify value]" |
+| `{audit_planning}` | Specify the audit planning | "[specify value]" |
+| `{audit_execution}` | Specify the audit execution | "[specify value]" |
+| `{audit_evidence}` | Specify the audit evidence | "[specify value]" |
+| `{finding_management}` | Specify the finding management | "[specify value]" |
+| `{remediation_planning}` | Specify the remediation planning | "[specify value]" |
+| `{remediation_tracking}` | Specify the remediation tracking | "[specify value]" |
+| `{management_response}` | Specify the management response | "[specify value]" |
+| `{external_audits}` | Specify the external audits | "[specify value]" |
+| `{continuous_monitoring}` | Specify the continuous monitoring | "[specify value]" |
+| `{audit_documentation}` | Specify the audit documentation | "[specify value]" |
+
+
 
 ## Best Practices
 

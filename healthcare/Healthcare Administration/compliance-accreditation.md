@@ -1,3 +1,18 @@
+---
+title: Compliance & Accreditation Management Template
+category: healthcare/Healthcare Administration
+tags: [data-science, design, healthcare, management, research, security, template, testing]
+use_cases:
+  - Implementing create comprehensive compliance programs, accreditation preparation systems, reg...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - telemedicine-platform-design.md
+  - patient-care-pathway.md
+  - clinical-trials-management.md
+last_updated: 2025-11-09
+---
+
 # Compliance & Accreditation Management Template
 
 ## Purpose

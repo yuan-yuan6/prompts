@@ -1,3 +1,18 @@
+---
+title: Medical Diagnosis Template
+category: healthcare/Medical & Clinical
+tags: [automation, design, documentation, healthcare, template, testing]
+use_cases:
+  - General application
+  - Professional use
+  - Project implementation
+related_templates:
+  - telemedicine-platform-design.md
+  - patient-care-pathway.md
+  - clinical-trials-management.md
+last_updated: 2025-11-09
+---
+
 # Medical Diagnosis Template
 
 ## Overview
@@ -25,6 +40,378 @@ Social History: [TOBACCO_USE_STATUS], [ALCOHOL_CONSUMPTION_PATTERN], [ILLICIT_DR
 
 Family History: [MATERNAL_FAMILY_HISTORY], [PATERNAL_FAMILY_HISTORY], [GENETIC_CONDITIONS], [HEREDITARY_DISEASES], [AGE_OF_ONSET_PATTERNS].
 ```
+
+## Variables
+
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `[HEALTHCARE_PROVIDER_TYPE]` | Type or category of healthcare provider | "Standard" |
+| `[SPECIALIZATION_AREA]` | Specify the specialization area | "[specify value]" |
+| `[CLINICAL_SETTING]` | Specify the clinical setting | "[specify value]" |
+| `[YEARS_OF_EXPERIENCE]` | Specify the years of experience | "[specify value]" |
+| `[PATIENT_AGE]` | Specify the patient age | "[specify value]" |
+| `[PATIENT_GENDER]` | Specify the patient gender | "[specify value]" |
+| `[PATIENT_ETHNICITY]` | Specify the patient ethnicity | "[specify value]" |
+| `[PRIMARY_SYMPTOM]` | Specify the primary symptom | "[specify value]" |
+| `[SYMPTOM_DURATION]` | Specify the symptom duration | "6 months" |
+| `[ONSET_DESCRIPTION]` | Detailed description of onset | "[specify value]" |
+| `[SYMPTOM_QUALITY]` | Specify the symptom quality | "[specify value]" |
+| `[SYMPTOM_SEVERITY_SCALE]` | Specify the symptom severity scale | "[specify value]" |
+| `[SYMPTOM_LOCATION]` | Specify the symptom location | "North America" |
+| `[RADIATION_PATTERN]` | Specify the radiation pattern | "[specify value]" |
+| `[AGGRAVATING_FACTORS]` | Specify the aggravating factors | "[specify value]" |
+| `[SPECIFIC_TRIGGERS]` | Specify the specific triggers | "[specify value]" |
+| `[ALLEVIATING_FACTORS]` | Specify the alleviating factors | "[specify value]" |
+| `[RELIEF_METHODS]` | Specify the relief methods | "[specify value]" |
+| `[ASSOCIATED_SYMPTOM_1]` | Specify the associated symptom 1 | "[specify value]" |
+| `[ASSOCIATED_SYMPTOM_2]` | Specify the associated symptom 2 | "[specify value]" |
+| `[ASSOCIATED_SYMPTOM_3]` | Specify the associated symptom 3 | "[specify value]" |
+| `[ASSOCIATED_SYMPTOM_4]` | Specify the associated symptom 4 | "[specify value]" |
+| `[ASSOCIATED_SYMPTOM_5]` | Specify the associated symptom 5 | "[specify value]" |
+| `[PERTINENT_NEGATIVE_1]` | Specify the pertinent negative 1 | "[specify value]" |
+| `[PERTINENT_NEGATIVE_2]` | Specify the pertinent negative 2 | "[specify value]" |
+| `[PERTINENT_NEGATIVE_3]` | Specify the pertinent negative 3 | "[specify value]" |
+| `[CONSTITUTIONAL_SYMPTOMS]` | Specify the constitutional symptoms | "[specify value]" |
+| `[CARDIOVASCULAR_SYMPTOMS]` | Specify the cardiovascular symptoms | "[specify value]" |
+| `[PULMONARY_SYMPTOMS]` | Specify the pulmonary symptoms | "[specify value]" |
+| `[GASTROINTESTINAL_SYMPTOMS]` | Specify the gastrointestinal symptoms | "[specify value]" |
+| `[GENITOURINARY_SYMPTOMS]` | Specify the genitourinary symptoms | "[specify value]" |
+| `[MUSCULOSKELETAL_SYMPTOMS]` | Specify the musculoskeletal symptoms | "[specify value]" |
+| `[NEUROLOGICAL_SYMPTOMS]` | Specify the neurological symptoms | "[specify value]" |
+| `[PSYCHIATRIC_SYMPTOMS]` | Specify the psychiatric symptoms | "[specify value]" |
+| `[ENDOCRINE_SYMPTOMS]` | Specify the endocrine symptoms | "[specify value]" |
+| `[HEMATOLOGIC_SYMPTOMS]` | Specify the hematologic symptoms | "[specify value]" |
+| `[INTEGUMENTARY_SYMPTOMS]` | Specify the integumentary symptoms | "[specify value]" |
+| `[CHRONIC_CONDITIONS_LIST]` | Specify the chronic conditions list | "[specify value]" |
+| `[PREVIOUS_HOSPITALIZATIONS]` | Specify the previous hospitalizations | "[specify value]" |
+| `[SURGICAL_HISTORY]` | Specify the surgical history | "[specify value]" |
+| `[MEDICATION_ALLERGIES]` | Specify the medication allergies | "[specify value]" |
+| `[ENVIRONMENTAL_ALLERGIES]` | Specify the environmental allergies | "[specify value]" |
+| `[ADVERSE_DRUG_REACTIONS]` | Specify the adverse drug reactions | "[specify value]" |
+| `[PRESCRIPTION_MEDICATION_1]` | Specify the prescription medication 1 | "[specify value]" |
+| `[DOSE_1]` | Specify the dose 1 | "[specify value]" |
+| `[FREQUENCY_1]` | Specify the frequency 1 | "[specify value]" |
+| `[PRESCRIPTION_MEDICATION_2]` | Specify the prescription medication 2 | "[specify value]" |
+| `[DOSE_2]` | Specify the dose 2 | "[specify value]" |
+| `[FREQUENCY_2]` | Specify the frequency 2 | "[specify value]" |
+| `[OTC_MEDICATIONS]` | Specify the otc medications | "[specify value]" |
+| `[HERBAL_SUPPLEMENTS]` | Specify the herbal supplements | "[specify value]" |
+| `[VITAMINS_MINERALS]` | Specify the vitamins minerals | "[specify value]" |
+| `[TOBACCO_USE_STATUS]` | Specify the tobacco use status | "In Progress" |
+| `[ALCOHOL_CONSUMPTION_PATTERN]` | Specify the alcohol consumption pattern | "[specify value]" |
+| `[ILLICIT_DRUG_USE]` | Specify the illicit drug use | "[specify value]" |
+| `[OCCUPATION_EXPOSURES]` | Specify the occupation exposures | "[specify value]" |
+| `[TRAVEL_HISTORY_RECENT]` | Specify the travel history recent | "[specify value]" |
+| `[SEXUAL_HISTORY_RELEVANT]` | Specify the sexual history relevant | "[specify value]" |
+| `[LIVING_SITUATION]` | Specify the living situation | "[specify value]" |
+| `[SUPPORT_SYSTEM]` | Specify the support system | "[specify value]" |
+| `[MATERNAL_FAMILY_HISTORY]` | Specify the maternal family history | "[specify value]" |
+| `[PATERNAL_FAMILY_HISTORY]` | Specify the paternal family history | "[specify value]" |
+| `[GENETIC_CONDITIONS]` | Specify the genetic conditions | "[specify value]" |
+| `[HEREDITARY_DISEASES]` | Specify the hereditary diseases | "[specify value]" |
+| `[AGE_OF_ONSET_PATTERNS]` | Specify the age of onset patterns | "[specify value]" |
+| `[TEMPERATURE_VALUE]` | Specify the temperature value | "[specify value]" |
+| `[SYSTOLIC_BP]` | Specify the systolic bp | "[specify value]" |
+| `[DIASTOLIC_BP]` | Specify the diastolic bp | "[specify value]" |
+| `[HEART_RATE_VALUE]` | Specify the heart rate value | "[specify value]" |
+| `[RESPIRATORY_RATE_VALUE]` | Specify the respiratory rate value | "[specify value]" |
+| `[O2_SAT_VALUE]` | Specify the o2 sat value | "[specify value]" |
+| `[OXYGEN_DELIVERY_METHOD]` | Specify the oxygen delivery method | "[specify value]" |
+| `[HEIGHT_MEASUREMENT]` | Specify the height measurement | "[specify value]" |
+| `[WEIGHT_MEASUREMENT]` | Specify the weight measurement | "[specify value]" |
+| `[BMI_CALCULATION]` | Specify the bmi calculation | "[specify value]" |
+| `[OVERALL_APPEARANCE]` | Specify the overall appearance | "[specify value]" |
+| `[DISTRESS_LEVEL]` | Specify the distress level | "[specify value]" |
+| `[NUTRITIONAL_STATUS]` | Specify the nutritional status | "In Progress" |
+| `[HYDRATION_STATUS]` | Specify the hydration status | "In Progress" |
+| `[MENTAL_STATUS_DESCRIPTION]` | Detailed description of mental status | "In Progress" |
+| `[HEAD_EXAMINATION_FINDINGS]` | Specify the head examination findings | "[specify value]" |
+| `[EYE_EXAMINATION_DETAILS]` | Specify the eye examination details | "[specify value]" |
+| `[PUPIL_EXAMINATION]` | Specify the pupil examination | "[specify value]" |
+| `[FUNDOSCOPIC_FINDINGS]` | Specify the fundoscopic findings | "[specify value]" |
+| `[EAR_EXAMINATION_RESULTS]` | Specify the ear examination results | "[specify value]" |
+| `[NASAL_EXAMINATION]` | Specify the nasal examination | "[specify value]" |
+| `[THROAT_EXAMINATION]` | Specify the throat examination | "[specify value]" |
+| `[NECK_EXAMINATION]` | Specify the neck examination | "[specify value]" |
+| `[LYMPH_NODE_ASSESSMENT]` | Specify the lymph node assessment | "[specify value]" |
+| `[HEART_SOUNDS_DESCRIPTION]` | Detailed description of heart sounds | "[specify value]" |
+| `[MURMUR_PRESENCE]` | Specify the murmur presence | "[specify value]" |
+| `[PERIPHERAL_PULSES_ASSESSMENT]` | Specify the peripheral pulses assessment | "[specify value]" |
+| `[CAPILLARY_REFILL_TIME]` | Specify the capillary refill time | "[specify value]" |
+| `[JUGULAR_VENOUS_DISTENSION]` | Specify the jugular venous distension | "[specify value]" |
+| `[EDEMA_ASSESSMENT]` | Specify the edema assessment | "[specify value]" |
+| `[EXTREMITY_EXAMINATION]` | Specify the extremity examination | "[specify value]" |
+| `[CHEST_WALL_INSPECTION]` | Specify the chest wall inspection | "[specify value]" |
+| `[PERCUSSION_FINDINGS]` | Specify the percussion findings | "[specify value]" |
+| `[AUSCULTATION_RESULTS]` | Specify the auscultation results | "[specify value]" |
+| `[BREATH_SOUNDS_QUALITY]` | Specify the breath sounds quality | "[specify value]" |
+| `[ADVENTITIOUS_SOUNDS]` | Specify the adventitious sounds | "[specify value]" |
+| `[RESPIRATORY_EFFORT_DESCRIPTION]` | Detailed description of respiratory effort | "[specify value]" |
+| `[INSPECTION_FINDINGS]` | Specify the inspection findings | "[specify value]" |
+| `[AUSCULTATION_BOWEL_SOUNDS]` | Specify the auscultation bowel sounds | "[specify value]" |
+| `[PERCUSSION_RESULTS]` | Specify the percussion results | "[specify value]" |
+| `[PALPATION_FINDINGS]` | Specify the palpation findings | "[specify value]" |
+| `[ORGAN_ENLARGEMENT]` | Specify the organ enlargement | "[specify value]" |
+| `[TENDERNESS_LOCATION]` | Specify the tenderness location | "North America" |
+| `[GUARDING_REBOUND]` | Specify the guarding rebound | "[specify value]" |
+| `[SPECIAL_MANEUVERS]` | Specify the special maneuvers | "[specify value]" |
+| `[JOINT_EXAMINATION]` | Specify the joint examination | "[specify value]" |
+| `[RANGE_OF_MOTION_ASSESSMENT]` | Specify the range of motion assessment | "[specify value]" |
+| `[MUSCLE_STRENGTH_TESTING]` | Specify the muscle strength testing | "[specify value]" |
+| `[DEFORMITY_PRESENCE]` | Specify the deformity presence | "[specify value]" |
+| `[SPINE_EXAMINATION]` | Specify the spine examination | "[specify value]" |
+| `[GAIT_ASSESSMENT]` | Specify the gait assessment | "[specify value]" |
+| `[MENTAL_STATUS_EXAM]` | Specify the mental status exam | "In Progress" |
+| `[CRANIAL_NERVE_ASSESSMENT]` | Specify the cranial nerve assessment | "[specify value]" |
+| `[MOTOR_EXAMINATION]` | Specify the motor examination | "[specify value]" |
+| `[SENSORY_EXAMINATION]` | Specify the sensory examination | "[specify value]" |
+| `[REFLEX_TESTING]` | Specify the reflex testing | "[specify value]" |
+| `[CEREBELLAR_FUNCTION]` | Specify the cerebellar function | "[specify value]" |
+| `[COORDINATION_TESTING]` | Specify the coordination testing | "[specify value]" |
+| `[SKIN_COLOR_TEXTURE]` | Specify the skin color texture | "[specify value]" |
+| `[LESION_DESCRIPTION]` | Detailed description of lesion | "[specify value]" |
+| `[RASH_CHARACTERISTICS]` | Specify the rash characteristics | "[specify value]" |
+| `[NAIL_EXAMINATION]` | Specify the nail examination | "[specify value]" |
+| `[HAIR_ASSESSMENT]` | Specify the hair assessment | "[specify value]" |
+| `[CHIEF_COMPLAINT]` | Specify the chief complaint | "[specify value]" |
+| `[PATIENT_DEMOGRAPHIC]` | Specify the patient demographic | "[specify value]" |
+| `[KEY_RISK_FACTORS]` | Specify the key risk factors | "[specify value]" |
+| `[MOST_LIKELY_DIAGNOSIS]` | Specify the most likely diagnosis | "[specify value]" |
+| `[LIKELIHOOD_PERCENTAGE]` | Specify the likelihood percentage | "25%" |
+| `[SUPPORTING_SYMPTOM_1]` | Specify the supporting symptom 1 | "[specify value]" |
+| `[SUPPORTING_SIGN_1]` | Specify the supporting sign 1 | "[specify value]" |
+| `[SUPPORTING_HISTORY_1]` | Specify the supporting history 1 | "[specify value]" |
+| `[CONTRADICTING_FACTOR_1]` | Specify the contradicting factor 1 | "[specify value]" |
+| `[SECOND_LIKELY_DIAGNOSIS]` | Specify the second likely diagnosis | "[specify value]" |
+| `[LIKELIHOOD_PERCENTAGE_2]` | Specify the likelihood percentage 2 | "25%" |
+| `[SUPPORTING_SYMPTOM_2]` | Specify the supporting symptom 2 | "[specify value]" |
+| `[SUPPORTING_SIGN_2]` | Specify the supporting sign 2 | "[specify value]" |
+| `[SUPPORTING_HISTORY_2]` | Specify the supporting history 2 | "[specify value]" |
+| `[CONTRADICTING_FACTOR_2]` | Specify the contradicting factor 2 | "[specify value]" |
+| `[THIRD_LIKELY_DIAGNOSIS]` | Specify the third likely diagnosis | "[specify value]" |
+| `[LIKELIHOOD_PERCENTAGE_3]` | Specify the likelihood percentage 3 | "25%" |
+| `[SUPPORTING_SYMPTOM_3]` | Specify the supporting symptom 3 | "[specify value]" |
+| `[SUPPORTING_SIGN_3]` | Specify the supporting sign 3 | "[specify value]" |
+| `[SUPPORTING_HISTORY_3]` | Specify the supporting history 3 | "[specify value]" |
+| `[CONTRADICTING_FACTOR_3]` | Specify the contradicting factor 3 | "[specify value]" |
+| `[ALTERNATIVE_DIAGNOSIS_1]` | Specify the alternative diagnosis 1 | "[specify value]" |
+| `[REASONING_1]` | Specify the reasoning 1 | "[specify value]" |
+| `[ALTERNATIVE_DIAGNOSIS_2]` | Specify the alternative diagnosis 2 | "[specify value]" |
+| `[REASONING_2]` | Specify the reasoning 2 | "[specify value]" |
+| `[ALTERNATIVE_DIAGNOSIS_3]` | Specify the alternative diagnosis 3 | "[specify value]" |
+| `[REASONING_3]` | Specify the reasoning 3 | "[specify value]" |
+| `[EMERGENCY_CONDITION_1]` | Specify the emergency condition 1 | "[specify value]" |
+| `[URGENT_TEST_1]` | Specify the urgent test 1 | "[specify value]" |
+| `[EMERGENCY_CONDITION_2]` | Specify the emergency condition 2 | "[specify value]" |
+| `[URGENT_TEST_2]` | Specify the urgent test 2 | "[specify value]" |
+| `[EMERGENCY_CONDITION_3]` | Specify the emergency condition 3 | "[specify value]" |
+| `[URGENT_TEST_3]` | Specify the urgent test 3 | "[specify value]" |
+| `[RED_FLAG_SYMPTOM_1]` | Specify the red flag symptom 1 | "[specify value]" |
+| `[RED_FLAG_SYMPTOM_2]` | Specify the red flag symptom 2 | "[specify value]" |
+| `[RED_FLAG_SYMPTOM_3]` | Specify the red flag symptom 3 | "[specify value]" |
+| `[DECISION_RULE_1]` | Specify the decision rule 1 | "[specify value]" |
+| `[SCORE_1]` | Specify the score 1 | "[specify value]" |
+| `[DECISION_RULE_2]` | Specify the decision rule 2 | "[specify value]" |
+| `[RESULT_2]` | Specify the result 2 | "[specify value]" |
+| `[LAB_TEST_1]` | Specify the lab test 1 | "[specify value]" |
+| `[EXPECTED_RANGE_1]` | Specify the expected range 1 | "[specify value]" |
+| `[SIGNIFICANCE_1]` | Specify the significance 1 | "[specify value]" |
+| `[LAB_TEST_2]` | Specify the lab test 2 | "[specify value]" |
+| `[EXPECTED_RANGE_2]` | Specify the expected range 2 | "[specify value]" |
+| `[SIGNIFICANCE_2]` | Specify the significance 2 | "[specify value]" |
+| `[LAB_TEST_3]` | Specify the lab test 3 | "[specify value]" |
+| `[EXPECTED_RANGE_3]` | Specify the expected range 3 | "[specify value]" |
+| `[SIGNIFICANCE_3]` | Specify the significance 3 | "[specify value]" |
+| `[SPECIAL_LAB_TEST]` | Specify the special lab test | "[specify value]" |
+| `[CONDITION_TESTED]` | Specify the condition tested | "[specify value]" |
+| `[SENSITIVITY_PERCENTAGE]` | Specify the sensitivity percentage | "25%" |
+| `[SPECIFICITY_PERCENTAGE]` | Specify the specificity percentage | "25%" |
+| `[IMAGING_MODALITY_1]` | Specify the imaging modality 1 | "[specify value]" |
+| `[INDICATION_1]` | Specify the indication 1 | "[specify value]" |
+| `[EXPECTED_FINDINGS_1]` | Specify the expected findings 1 | "[specify value]" |
+| `[IMAGING_MODALITY_2]` | Specify the imaging modality 2 | "[specify value]" |
+| `[INDICATION_2]` | Specify the indication 2 | "[specify value]" |
+| `[EXPECTED_FINDINGS_2]` | Specify the expected findings 2 | "[specify value]" |
+| `[CONTRAST_STUDY]` | Specify the contrast study | "[specify value]" |
+| `[CONTRAST_CONTRAINDICATIONS]` | Specify the contrast contraindications | "[specify value]" |
+| `[PRE_MEDICATION_PROTOCOL]` | Specify the pre medication protocol | "[specify value]" |
+| `[FUNCTIONAL_TEST_1]` | Specify the functional test 1 | "[specify value]" |
+| `[TEST_PURPOSE_1]` | Specify the test purpose 1 | "[specify value]" |
+| `[PATIENT_PREPARATION_1]` | Specify the patient preparation 1 | "[specify value]" |
+| `[BIOPSY_PROCEDURE]` | Specify the biopsy procedure | "[specify value]" |
+| `[BIOPSY_SITE]` | Specify the biopsy site | "[specify value]" |
+| `[BIOPSY_METHOD]` | Specify the biopsy method | "[specify value]" |
+| `[PATHOLOGY_FOCUS]` | Specify the pathology focus | "[specify value]" |
+| `[CARDIAC_TESTING]` | Specify the cardiac testing | "[specify value]" |
+| `[CARDIAC_TEST_TYPE]` | Type or category of cardiac test | "Standard" |
+| `[CARDIAC_INDICATION]` | Specify the cardiac indication | "[specify value]" |
+| `[CARDIAC_CONTRAINDICATIONS]` | Specify the cardiac contraindications | "[specify value]" |
+| `[CULTURE_TYPE_1]` | Type or category of culture  1 | "Standard" |
+| `[SPECIMEN_SOURCE_1]` | Specify the specimen source 1 | "[specify value]" |
+| `[EXPECTED_ORGANISMS_1]` | Specify the expected organisms 1 | "[specify value]" |
+| `[MOLECULAR_TEST]` | Specify the molecular test | "[specify value]" |
+| `[TARGET_PATHOGEN]` | Target or intended pathogen | "[specify value]" |
+| `[RESULT_TIMEFRAME]` | Specify the result timeframe | "[specify value]" |
+| `[SEROLOGY_TEST]` | Specify the serology test | "[specify value]" |
+| `[SEROLOGY_TARGET]` | Target or intended serology | "[specify value]" |
+| `[RESULT_INTERPRETATION]` | Specify the result interpretation | "[specify value]" |
+| `[POC_TEST_1]` | Specify the poc test 1 | "[specify value]" |
+| `[IMMEDIATE_RESULT_1]` | Specify the immediate result 1 | "[specify value]" |
+| `[CLINICAL_ACTION_1]` | Specify the clinical action 1 | "[specify value]" |
+| `[BEDSIDE_ULTRASOUND]` | Specify the bedside ultrasound | "[specify value]" |
+| `[ULTRASOUND_TARGET]` | Target or intended ultrasound | "[specify value]" |
+| `[ULTRASOUND_FINDINGS]` | Specify the ultrasound findings | "[specify value]" |
+| `[STAT_TESTS]` | Specify the stat tests | "[specify value]" |
+| `[URGENT_TESTS]` | Specify the urgent tests | "[specify value]" |
+| `[URGENT_TIMEFRAME]` | Specify the urgent timeframe | "[specify value]" |
+| `[ROUTINE_TESTS]` | Specify the routine tests | "[specify value]" |
+| `[LAB_RESULT_1]` | Specify the lab result 1 | "[specify value]" |
+| `[ACTUAL_VALUE_1]` | Specify the actual value 1 | "[specify value]" |
+| `[REFERENCE_RANGE_1]` | Specify the reference range 1 | "[specify value]" |
+| `[CLINICAL_INTERPRETATION_1]` | Specify the clinical interpretation 1 | "[specify value]" |
+| `[LAB_RESULT_2]` | Specify the lab result 2 | "[specify value]" |
+| `[ACTUAL_VALUE_2]` | Specify the actual value 2 | "[specify value]" |
+| `[REFERENCE_RANGE_2]` | Specify the reference range 2 | "[specify value]" |
+| `[CLINICAL_INTERPRETATION_2]` | Specify the clinical interpretation 2 | "[specify value]" |
+| `[CRITICAL_VALUE_ALERT]` | Specify the critical value alert | "[specify value]" |
+| `[CRITICAL_LAB_VALUE]` | Specify the critical lab value | "[specify value]" |
+| `[IMMEDIATE_ACTION_REQUIRED]` | Specify the immediate action required | "[specify value]" |
+| `[IMAGING_FINDING_1]` | Specify the imaging finding 1 | "[specify value]" |
+| `[IMAGING_STUDY_1]` | Specify the imaging study 1 | "[specify value]" |
+| `[PATHOLOGY_SUGGESTED_1]` | Specify the pathology suggested 1 | "[specify value]" |
+| `[IMAGING_FINDING_2]` | Specify the imaging finding 2 | "[specify value]" |
+| `[ABNORMALITY_DESCRIPTION]` | Detailed description of abnormality | "[specify value]" |
+| `[MEASUREMENT_VALUE]` | Specify the measurement value | "[specify value]" |
+| `[INCIDENTAL_FINDING]` | Specify the incidental finding | "[specify value]" |
+| `[FINDING_DESCRIPTION]` | Detailed description of finding | "[specify value]" |
+| `[FOLLOW_UP_RECOMMENDATION]` | Specify the follow up recommendation | "[specify value]" |
+| `[DIAGNOSTIC_CONFIDENCE_LEVEL]` | Specify the diagnostic confidence level | "[specify value]" |
+| `[SUPPORTING_EVIDENCE_WEIGHT]` | Specify the supporting evidence weight | "[specify value]" |
+| `[CONFLICTING_INFORMATION_ANALYSIS]` | Specify the conflicting information analysis | "[specify value]" |
+| `[ADDITIONAL_TESTS_RATIONALE]` | Specify the additional tests rationale | "[specify value]" |
+| `[DEFINITIVE_DIAGNOSIS_CRITERIA]` | Specify the definitive diagnosis criteria | "[specify value]" |
+| `[PROBABLE_DIAGNOSIS_FEATURES]` | Specify the probable diagnosis features | "[specify value]" |
+| `[POSSIBLE_DIAGNOSIS_UNCERTAINTY]` | Specify the possible diagnosis uncertainty | "[specify value]" |
+| `[ALTERNATIVE_EXPLANATIONS_NEEDED]` | Specify the alternative explanations needed | "[specify value]" |
+| `[SPECIALIST_TYPE_1]` | Type or category of specialist  1 | "Standard" |
+| `[CONSULTATION_PURPOSE_1]` | Specify the consultation purpose 1 | "[specify value]" |
+| `[CLINICAL_QUESTION_1]` | Specify the clinical question 1 | "[specify value]" |
+| `[CONSULTATION_URGENCY_1]` | Specify the consultation urgency 1 | "[specify value]" |
+| `[SPECIALIST_EXPERTISE_1]` | Specify the specialist expertise 1 | "[specify value]" |
+| `[SPECIALIST_TYPE_2]` | Type or category of specialist  2 | "Standard" |
+| `[CONSULTATION_PURPOSE_2]` | Specify the consultation purpose 2 | "[specify value]" |
+| `[CLINICAL_QUESTION_2]` | Specify the clinical question 2 | "[specify value]" |
+| `[CONSULTATION_URGENCY_2]` | Specify the consultation urgency 2 | "[specify value]" |
+| `[SPECIALIST_EXPERTISE_2]` | Specify the specialist expertise 2 | "[specify value]" |
+| `[TEAM_MEMBER_1]` | Specify the team member 1 | "[specify value]" |
+| `[TEAM_MEMBER_2]` | Specify the team member 2 | "[specify value]" |
+| `[TEAM_MEMBER_3]` | Specify the team member 3 | "[specify value]" |
+| `[TEAM_MEMBER_4]` | Specify the team member 4 | "[specify value]" |
+| `[PRESENTATION_FOCUS_AREAS]` | Specify the presentation focus areas | "[specify value]" |
+| `[CONSENSUS_METHOD]` | Specify the consensus method | "[specify value]" |
+| `[DECISION_DOCUMENTATION_PROCESS]` | Specify the decision documentation process | "[specify value]" |
+| `[COMPLEXITY_ASSESSMENT]` | Specify the complexity assessment | "[specify value]" |
+| `[CONSEQUENCE_ANALYSIS]` | Specify the consequence analysis | "[specify value]" |
+| `[PATIENT_PREFERENCE_CONSIDERATION]` | Specify the patient preference consideration | "[specify value]" |
+| `[POLICY_REQUIREMENTS]` | Specify the policy requirements | "[specify value]" |
+| `[TELEHEALTH_PLATFORM]` | Specify the telehealth platform | "[specify value]" |
+| `[TECHNICAL_SETUP]` | Specify the technical setup | "[specify value]" |
+| `[DATA_SHARING_PROTOCOL]` | Specify the data sharing protocol | "[specify value]" |
+| `[TELEMEDICINE_DOCUMENTATION]` | Specify the telemedicine documentation | "[specify value]" |
+| `[DIAGNOSTIC_TEST_1]` | Specify the diagnostic test 1 | "[specify value]" |
+| `[SENSITIVITY_VALUE_1]` | Specify the sensitivity value 1 | "[specify value]" |
+| `[SPECIFICITY_VALUE_1]` | Specify the specificity value 1 | "[specify value]" |
+| `[PPV_VALUE_1]` | Specify the ppv value 1 | "[specify value]" |
+| `[NPV_VALUE_1]` | Specify the npv value 1 | "[specify value]" |
+| `[DIAGNOSTIC_TEST_2]` | Specify the diagnostic test 2 | "[specify value]" |
+| `[SENSITIVITY_VALUE_2]` | Specify the sensitivity value 2 | "[specify value]" |
+| `[SPECIFICITY_VALUE_2]` | Specify the specificity value 2 | "[specify value]" |
+| `[PPV_VALUE_2]` | Specify the ppv value 2 | "[specify value]" |
+| `[NPV_VALUE_2]` | Specify the npv value 2 | "[specify value]" |
+| `[PRETEST_PROBABILITY]` | Specify the pretest probability | "[specify value]" |
+| `[POSTTEST_PROBABILITY]` | Specify the posttest probability | "[specify value]" |
+| `[PREDICTION_RULE_1]` | Specify the prediction rule 1 | "[specify value]" |
+| `[RULE_SCORE_1]` | Specify the rule score 1 | "[specify value]" |
+| `[RISK_CATEGORY_1]` | Specify the risk category 1 | "[specify value]" |
+| `[PREDICTION_RULE_2]` | Specify the prediction rule 2 | "[specify value]" |
+| `[CRITERIA_MET_2]` | Specify the criteria met 2 | "[specify value]" |
+| `[RULE_RECOMMENDATION_2]` | Specify the rule recommendation 2 | "[specify value]" |
+| `[RULE_VALIDATION_STATUS]` | Specify the rule validation status | "In Progress" |
+| `[DIAGNOSIS_TIME_HOURS]` | Specify the diagnosis time hours | "[specify value]" |
+| `[TOTAL_TESTS_ORDERED]` | Specify the total tests ordered | "[specify value]" |
+| `[DIAGNOSTIC_COST]` | Specify the diagnostic cost | "[specify value]" |
+| `[OUTCOME_MEASURE]` | Specify the outcome measure | "[specify value]" |
+| `[SATISFACTION_SCORE]` | Specify the satisfaction score | "[specify value]" |
+| `[ACCURACY_PERCENTAGE]` | Specify the accuracy percentage | "25%" |
+| `[BIAS_TYPE_1]` | Type or category of bias  1 | "Standard" |
+| `[BIAS_TYPE_2]` | Type or category of bias  2 | "Standard" |
+| `[BIAS_TYPE_3]` | Type or category of bias  3 | "Standard" |
+| `[SAFETY_MECHANISM_1]` | Specify the safety mechanism 1 | "[specify value]" |
+| `[SAFETY_MECHANISM_2]` | Specify the safety mechanism 2 | "[specify value]" |
+| `[FEEDBACK_SYSTEM_1]` | Specify the feedback system 1 | "[specify value]" |
+| `[FEEDBACK_SYSTEM_2]` | Specify the feedback system 2 | "[specify value]" |
+| `[FINAL_DIAGNOSIS]` | Specify the final diagnosis | "[specify value]" |
+| `[URGENT_TREATMENT_1]` | Specify the urgent treatment 1 | "[specify value]" |
+| `[URGENT_TREATMENT_2]` | Specify the urgent treatment 2 | "[specify value]" |
+| `[MONITORING_PARAMETER_1]` | Specify the monitoring parameter 1 | "[specify value]" |
+| `[MONITORING_PARAMETER_2]` | Specify the monitoring parameter 2 | "[specify value]" |
+| `[SAFETY_CONCERN_1]` | Specify the safety concern 1 | "[specify value]" |
+| `[SAFETY_CONCERN_2]` | Specify the safety concern 2 | "[specify value]" |
+| `[PRIMARY_TREATMENT_OPTION]` | Specify the primary treatment option | "[specify value]" |
+| `[EXPECTED_RESPONSE_TIME]` | Specify the expected response time | "[specify value]" |
+| `[ALTERNATIVE_TREATMENT_1]` | Specify the alternative treatment 1 | "[specify value]" |
+| `[ALTERNATIVE_TREATMENT_2]` | Specify the alternative treatment 2 | "[specify value]" |
+| `[TREATMENT_CONTRAINDICATION_1]` | Specify the treatment contraindication 1 | "[specify value]" |
+| `[TREATMENT_CONTRAINDICATION_2]` | Specify the treatment contraindication 2 | "[specify value]" |
+| `[SHORT_TERM_PROGNOSIS]` | Specify the short term prognosis | "[specify value]" |
+| `[LONG_TERM_PROGNOSIS]` | Specify the long term prognosis | "[specify value]" |
+| `[PROGNOSTIC_FACTOR_1]` | Specify the prognostic factor 1 | "[specify value]" |
+| `[PROGNOSTIC_FACTOR_2]` | Specify the prognostic factor 2 | "[specify value]" |
+| `[FOLLOW_UP_TIMEFRAME]` | Specify the follow up timeframe | "[specify value]" |
+| `[MONITORING_SCHEDULE]` | Specify the monitoring schedule | "[specify value]" |
+| `[RESPONSE_CRITERIA]` | Specify the response criteria | "[specify value]" |
+| `[WARNING_SIGNS_LIST]` | Specify the warning signs list | "[specify value]" |
+| `[LITERACY_ASSESSMENT]` | Specify the literacy assessment | "[specify value]" |
+| `[COMMUNICATION_PREFERENCE]` | Specify the communication preference | "[specify value]" |
+| `[LANGUAGE_ACCOMMODATION]` | Specify the language accommodation | "[specify value]" |
+| `[CULTURAL_CONSIDERATIONS]` | Specify the cultural considerations | "[specify value]" |
+| `[DIAGNOSIS_IN_LAYMAN_TERMS]` | Specify the diagnosis in layman terms | "[specify value]" |
+| `[CONDITION_EXPLANATION]` | Specify the condition explanation | "[specify value]" |
+| `[CAUSATION_EXPLANATION]` | Specify the causation explanation | "[specify value]" |
+| `[EXPECTATION_SETTING]` | Specify the expectation setting | "[specify value]" |
+| `[TREATMENT_RATIONALE]` | Specify the treatment rationale | "[specify value]" |
+| `[ABSOLUTE_RISK_PERCENTAGE]` | Specify the absolute risk percentage | "25%" |
+| `[RELATIVE_RISK_COMPARISON]` | Specify the relative risk comparison | "[specify value]" |
+| `[NNT_VALUE]` | Specify the nnt value | "[specify value]" |
+| `[RISK_COMMUNICATION_TOOLS]` | Specify the risk communication tools | "[specify value]" |
+| `[OPTION_1]` | Specify the option 1 | "[specify value]" |
+| `[OPTION_2]` | Specify the option 2 | "[specify value]" |
+| `[OPTION_3]` | Specify the option 3 | "[specify value]" |
+| `[PATIENT_VALUES_1]` | Specify the patient values 1 | "[specify value]" |
+| `[PATIENT_VALUES_2]` | Specify the patient values 2 | "[specify value]" |
+| `[PATIENT_PREFERENCE]` | Specify the patient preference | "[specify value]" |
+| `[DECISION_AID_USED]` | Specify the decision aid used | "[specify value]" |
+| `[AGREED_TREATMENT_PLAN]` | Specify the agreed treatment plan | "[specify value]" |
+| `[DOCUMENTED_CHIEF_COMPLAINT]` | Specify the documented chief complaint | "[specify value]" |
+| `[HISTORY_DOCUMENTATION_COMPLETENESS]` | Specify the history documentation completeness | "[specify value]" |
+| `[PHYSICAL_EXAM_THOROUGHNESS]` | Specify the physical exam thoroughness | "[specify value]" |
+| `[CLINICAL_ASSESSMENT_CLARITY]` | Specify the clinical assessment clarity | "[specify value]" |
+| `[TREATMENT_PLAN_SPECIFICITY]` | Specify the treatment plan specificity | "[specify value]" |
+| `[DOCUMENTED_DIFFERENTIALS]` | Specify the documented differentials | "[specify value]" |
+| `[TEST_JUSTIFICATION]` | Specify the test justification | "[specify value]" |
+| `[INTERPRETATION_DOCUMENTATION]` | Specify the interpretation documentation | "[specify value]" |
+| `[CORRELATION_EXPLANATION]` | Specify the correlation explanation | "[specify value]" |
+| `[CONSENT_DOCUMENTATION]` | Specify the consent documentation | "[specify value]" |
+| `[RISK_COMMUNICATION_RECORD]` | Specify the risk communication record | "[specify value]" |
+| `[COMPREHENSION_VERIFICATION]` | Specify the comprehension verification | "[specify value]" |
+| `[SECOND_OPINION_DOCUMENTATION]` | Specify the second opinion documentation | "[specify value]" |
+| `[STANDARD_COMPLIANCE]` | Specify the standard compliance | "[specify value]" |
+| `[REVIEW_CRITERIA_MET]` | Specify the review criteria met | "[specify value]" |
+| `[OUTCOME_MONITORING_PLAN]` | Specify the outcome monitoring plan | "[specify value]" |
+| `[IMPROVEMENT_OPPORTUNITIES]` | Specify the improvement opportunities | "[specify value]" |
+| `[SAFETY_EVENT_DOCUMENTATION]` | Specify the safety event documentation | "[specify value]" |
+
+
 
 ### 2. Physical Examination and Clinical Assessment
 

@@ -1,3 +1,17 @@
+---
+title: Documentation & Wikis Knowledge Framework Generator
+category: education/Knowledge Management
+tags: [design, documentation, education, framework, machine-learning, management, strategy, testing]
+use_cases:
+  - Implementing create comprehensive frameworks for wikis, knowledge bases, faqs, documentation ...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - curriculum-development.md
+  - curriculum-development-framework.md
+last_updated: 2025-11-09
+---
+
 # Documentation & Wikis Knowledge Framework Generator
 
 ## Purpose

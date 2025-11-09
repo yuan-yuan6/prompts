@@ -1,3 +1,18 @@
+---
+title: Budget Management Template Generator
+category: business/Finance & Accounting
+tags: [business, data-science, design, development, machine-learning, management, marketing, optimization]
+use_cases:
+  - Implementing create comprehensive budget management strategies covering planning, tracking, a...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - okr-implementation-framework.md
+  - digital-transformation-roadmap.md
+  - lean-six-sigma-implementation.md
+last_updated: 2025-11-09
+---
+
 # Budget Management Template Generator
 
 ## Purpose

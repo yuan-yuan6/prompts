@@ -1,3 +1,17 @@
+---
+title: Educational Content Creation Template
+category: education/Teaching & Instruction
+tags: [design, development, documentation, education, research, template, testing]
+use_cases:
+  - Implementing create comprehensive educational materials including textbooks, study guides, le...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - curriculum-development.md
+  - curriculum-development-framework.md
+last_updated: 2025-11-09
+---
+
 # Educational Content Creation Template
 
 ## Purpose

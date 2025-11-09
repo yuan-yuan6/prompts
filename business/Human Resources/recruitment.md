@@ -1,3 +1,18 @@
+---
+title: Recruitment Template Generator
+category: business/Human Resources
+tags: [automation, business, design, development, marketing, strategy, template]
+use_cases:
+  - Implementing create comprehensive recruitment strategies covering job descriptions, candidate...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - okr-implementation-framework.md
+  - digital-transformation-roadmap.md
+  - lean-six-sigma-implementation.md
+last_updated: 2025-11-09
+---
+
 # Recruitment Template Generator
 
 ## Purpose

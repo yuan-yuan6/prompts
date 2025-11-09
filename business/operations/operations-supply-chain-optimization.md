@@ -1,3 +1,18 @@
+---
+title: Supply Chain Optimization & Logistics Management Framework
+category: business/operations
+tags: [business, data-science, design, framework, management, optimization, research]
+use_cases:
+  - Implementing comprehensive framework for optimizing supply chain operations including invento...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - okr-implementation-framework.md
+  - digital-transformation-roadmap.md
+  - lean-six-sigma-implementation.md
+last_updated: 2025-11-09
+---
+
 # Supply Chain Optimization & Logistics Management Framework
 
 ## Purpose
@@ -55,6 +70,301 @@ Flow Optimization:
 - Cross-Border Flow: [CROSSBORDER_FLOW]
 - Direct Shipment: [DIRECT_SHIPMENT]
 ```
+
+## Variables
+
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `[ORGANIZATION_NAME]` | Name of the organization | "John Smith" |
+| `[SKU_COUNT]` | Specify the sku count | "10" |
+| `[SUPPLIER_COUNT]` | Specify the supplier count | "10" |
+| `[DISTRIBUTION_CENTERS]` | Specify the distribution centers | "[specify value]" |
+| `[COST_REDUCTION]` | Specify the cost reduction | "[specify value]" |
+| `[SERVICE_LEVEL]` | Specify the service level | "[specify value]" |
+| `[INVENTORY_TURNS]` | Specify the inventory turns | "[specify value]" |
+| `[LEAD_TIME_REDUCTION]` | Specify the lead time reduction | "[specify value]" |
+| `[INVENTORY_CURRENT]` | Specify the inventory current | "[specify value]" |
+| `[INVENTORY_BENCHMARK]` | Specify the inventory benchmark | "[specify value]" |
+| `[INVENTORY_TARGET]` | Target or intended inventory | "[specify value]" |
+| `[INVENTORY_GAP]` | Specify the inventory gap | "[specify value]" |
+| `[INVENTORY_POTENTIAL]` | Specify the inventory potential | "[specify value]" |
+| `[FULFILL_CURRENT]` | Specify the fulfill current | "[specify value]" |
+| `[FULFILL_BENCHMARK]` | Specify the fulfill benchmark | "[specify value]" |
+| `[FULFILL_TARGET]` | Target or intended fulfill | "[specify value]" |
+| `[FULFILL_GAP]` | Specify the fulfill gap | "[specify value]" |
+| `[FULFILL_POTENTIAL]` | Specify the fulfill potential | "[specify value]" |
+| `[TRANSPORT_CURRENT]` | Specify the transport current | "[specify value]" |
+| `[TRANSPORT_BENCHMARK]` | Specify the transport benchmark | "[specify value]" |
+| `[TRANSPORT_TARGET]` | Target or intended transport | "[specify value]" |
+| `[TRANSPORT_GAP]` | Specify the transport gap | "[specify value]" |
+| `[TRANSPORT_POTENTIAL]` | Specify the transport potential | "[specify value]" |
+| `[WAREHOUSE_CURRENT]` | Specify the warehouse current | "[specify value]" |
+| `[WAREHOUSE_BENCHMARK]` | Specify the warehouse benchmark | "[specify value]" |
+| `[WAREHOUSE_TARGET]` | Target or intended warehouse | "[specify value]" |
+| `[WAREHOUSE_GAP]` | Specify the warehouse gap | "[specify value]" |
+| `[WAREHOUSE_POTENTIAL]` | Specify the warehouse potential | "[specify value]" |
+| `[SUPPLIER_CURRENT]` | Specify the supplier current | "[specify value]" |
+| `[SUPPLIER_BENCHMARK]` | Specify the supplier benchmark | "[specify value]" |
+| `[SUPPLIER_TARGET]` | Target or intended supplier | "[specify value]" |
+| `[SUPPLIER_GAP]` | Specify the supplier gap | "[specify value]" |
+| `[SUPPLIER_POTENTIAL]` | Specify the supplier potential | "[specify value]" |
+| `[TECH_CURRENT]` | Specify the tech current | "[specify value]" |
+| `[TECH_BENCHMARK]` | Specify the tech benchmark | "[specify value]" |
+| `[TECH_TARGET]` | Target or intended tech | "[specify value]" |
+| `[TECH_GAP]` | Specify the tech gap | "[specify value]" |
+| `[TECH_POTENTIAL]` | Specify the tech potential | "[specify value]" |
+| `[TIER1_SUPPLIERS]` | Specify the tier1 suppliers | "[specify value]" |
+| `[TIER2_SUPPLIERS]` | Specify the tier2 suppliers | "[specify value]" |
+| `[MANUFACTURING_SITES]` | Specify the manufacturing sites | "[specify value]" |
+| `[CONTRACT_MFG]` | Specify the contract mfg | "[specify value]" |
+| `[RAW_SOURCES]` | Specify the raw sources | "[specify value]" |
+| `[COMPONENT_SUPPLIERS]` | Specify the component suppliers | "[specify value]" |
+| `[DC_LOCATIONS]` | Specify the dc locations | "North America" |
+| `[REGIONAL_WAREHOUSES]` | Specify the regional warehouses | "North America" |
+| `[CROSSDOCK_FACILITIES]` | Specify the crossdock facilities | "[specify value]" |
+| `[HUB_LOCATIONS]` | Specify the hub locations | "North America" |
+| `[LASTMILE_CENTERS]` | Specify the lastmile centers | "[specify value]" |
+| `[RETURNS_CENTERS]` | Specify the returns centers | "[specify value]" |
+| `[OCEAN_FREIGHT]` | Specify the ocean freight | "[specify value]" |
+| `[AIR_FREIGHT]` | Specify the air freight | "[specify value]" |
+| `[RAIL_TRANSPORT]` | Specify the rail transport | "[specify value]" |
+| `[TRUCK_TRANSPORT]` | Specify the truck transport | "[specify value]" |
+| `[INTERMODAL]` | Specify the intermodal | "[specify value]" |
+| `[LASTMILE_DELIVERY]` | Specify the lastmile delivery | "[specify value]" |
+| `[INBOUND_FLOW]` | Specify the inbound flow | "[specify value]" |
+| `[PRODUCTION_FLOW]` | Specify the production flow | "[specify value]" |
+| `[OUTBOUND_FLOW]` | Specify the outbound flow | "[specify value]" |
+| `[REVERSE_LOGISTICS]` | Specify the reverse logistics | "[specify value]" |
+| `[CROSSBORDER_FLOW]` | Specify the crossborder flow | "[specify value]" |
+| `[DIRECT_SHIPMENT]` | Specify the direct shipment | "[specify value]" |
+| `[RAW_CURRENT]` | Specify the raw current | "[specify value]" |
+| `[RAW_OPTIMAL]` | Specify the raw optimal | "[specify value]" |
+| `[RAW_CARRYING]` | Specify the raw carrying | "[specify value]" |
+| `[RAW_SERVICE]` | Specify the raw service | "[specify value]" |
+| `[RAW_STRATEGY]` | Strategy or approach for raw | "[specify value]" |
+| `[WIP_CURRENT]` | Specify the wip current | "[specify value]" |
+| `[WIP_OPTIMAL]` | Specify the wip optimal | "[specify value]" |
+| `[WIP_CARRYING]` | Specify the wip carrying | "[specify value]" |
+| `[WIP_SERVICE]` | Specify the wip service | "[specify value]" |
+| `[WIP_STRATEGY]` | Strategy or approach for wip | "[specify value]" |
+| `[FG_CURRENT]` | Specify the fg current | "[specify value]" |
+| `[FG_OPTIMAL]` | Specify the fg optimal | "[specify value]" |
+| `[FG_CARRYING]` | Specify the fg carrying | "[specify value]" |
+| `[FG_SERVICE]` | Specify the fg service | "[specify value]" |
+| `[FG_STRATEGY]` | Strategy or approach for fg | "[specify value]" |
+| `[SAFETY_CURRENT]` | Specify the safety current | "[specify value]" |
+| `[SAFETY_OPTIMAL]` | Specify the safety optimal | "[specify value]" |
+| `[SAFETY_CARRYING]` | Specify the safety carrying | "[specify value]" |
+| `[SAFETY_SERVICE]` | Specify the safety service | "[specify value]" |
+| `[SAFETY_STRATEGY]` | Strategy or approach for safety | "[specify value]" |
+| `[SEASONAL_CURRENT]` | Specify the seasonal current | "[specify value]" |
+| `[SEASONAL_OPTIMAL]` | Specify the seasonal optimal | "[specify value]" |
+| `[SEASONAL_CARRYING]` | Specify the seasonal carrying | "[specify value]" |
+| `[SEASONAL_SERVICE]` | Specify the seasonal service | "[specify value]" |
+| `[SEASONAL_STRATEGY]` | Strategy or approach for seasonal | "[specify value]" |
+| `[OBSOLETE_CURRENT]` | Specify the obsolete current | "[specify value]" |
+| `[OBSOLETE_OPTIMAL]` | Specify the obsolete optimal | "[specify value]" |
+| `[OBSOLETE_CARRYING]` | Specify the obsolete carrying | "[specify value]" |
+| `[OBSOLETE_SERVICE]` | Specify the obsolete service | "[specify value]" |
+| `[OBSOLETE_STRATEGY]` | Strategy or approach for obsolete | "[specify value]" |
+| `[STATISTICAL_METHOD]` | Specify the statistical method | "[specify value]" |
+| `[ML_METHOD]` | Specify the ml method | "[specify value]" |
+| `[COLLABORATIVE_METHOD]` | Specify the collaborative method | "[specify value]" |
+| `[MARKET_INTEL_METHOD]` | Specify the market intel method | "[specify value]" |
+| `[CUSTOMER_INPUT_METHOD]` | Specify the customer input method | "[specify value]" |
+| `[PREDICTIVE_METHOD]` | Specify the predictive method | "[specify value]" |
+| `[MAD_METRIC]` | Specify the mad metric | "[specify value]" |
+| `[MAPE_METRIC]` | Specify the mape metric | "[specify value]" |
+| `[FORECAST_BIAS]` | Specify the forecast bias | "[specify value]" |
+| `[TRACKING_SIGNAL]` | Specify the tracking signal | "[specify value]" |
+| `[HIT_RATE]` | Specify the hit rate | "[specify value]" |
+| `[SERVICE_ACHIEVE]` | Specify the service achieve | "[specify value]" |
+| `[STRATEGIC_HORIZON]` | Specify the strategic horizon | "[specify value]" |
+| `[TACTICAL_HORIZON]` | Specify the tactical horizon | "[specify value]" |
+| `[OPERATIONAL_HORIZON]` | Specify the operational horizon | "[specify value]" |
+| `[SHORT_TERM_HORIZON]` | Specify the short term horizon | "[specify value]" |
+| `[REALTIME_HORIZON]` | Specify the realtime horizon | "[specify value]" |
+| `[SCENARIO_HORIZON]` | Specify the scenario horizon | "[specify value]" |
+| `[DEMAND_REVIEW]` | Specify the demand review | "[specify value]" |
+| `[SUPPLY_REVIEW]` | Specify the supply review | "[specify value]" |
+| `[FINANCIAL_RECON]` | Specify the financial recon | "[specify value]" |
+| `[EXECUTIVE_REVIEW]` | Specify the executive review | "[specify value]" |
+| `[PLAN_AUTH]` | Specify the plan auth | "[specify value]" |
+| `[PERFORMANCE_TRACK]` | Specify the performance track | "[specify value]" |
+| `[STRATEGIC_SCORE]` | Specify the strategic score | "[specify value]" |
+| `[STRATEGIC_RISK]` | Specify the strategic risk | "[specify value]" |
+| `[STRATEGIC_COST]` | Specify the strategic cost | "[specify value]" |
+| `[STRATEGIC_INNOVATION]` | Specify the strategic innovation | "[specify value]" |
+| `[STRATEGIC_IMPORTANCE]` | Specify the strategic importance | "[specify value]" |
+| `[PREFERRED_SCORE]` | Specify the preferred score | "[specify value]" |
+| `[PREFERRED_RISK]` | Specify the preferred risk | "[specify value]" |
+| `[PREFERRED_COST]` | Specify the preferred cost | "[specify value]" |
+| `[PREFERRED_INNOVATION]` | Specify the preferred innovation | "[specify value]" |
+| `[PREFERRED_IMPORTANCE]` | Specify the preferred importance | "[specify value]" |
+| `[APPROVED_SCORE]` | Specify the approved score | "[specify value]" |
+| `[APPROVED_RISK]` | Specify the approved risk | "[specify value]" |
+| `[APPROVED_COST]` | Specify the approved cost | "[specify value]" |
+| `[APPROVED_INNOVATION]` | Specify the approved innovation | "[specify value]" |
+| `[APPROVED_IMPORTANCE]` | Specify the approved importance | "[specify value]" |
+| `[COMMODITY_SCORE]` | Specify the commodity score | "[specify value]" |
+| `[COMMODITY_RISK]` | Specify the commodity risk | "[specify value]" |
+| `[COMMODITY_COST]` | Specify the commodity cost | "[specify value]" |
+| `[COMMODITY_INNOVATION]` | Specify the commodity innovation | "[specify value]" |
+| `[COMMODITY_IMPORTANCE]` | Specify the commodity importance | "[specify value]" |
+| `[BACKUP_SCORE]` | Specify the backup score | "[specify value]" |
+| `[BACKUP_RISK]` | Specify the backup risk | "[specify value]" |
+| `[BACKUP_COST]` | Specify the backup cost | "[specify value]" |
+| `[BACKUP_INNOVATION]` | Specify the backup innovation | "[specify value]" |
+| `[BACKUP_IMPORTANCE]` | Specify the backup importance | "[specify value]" |
+| `[NEW_SCORE]` | Specify the new score | "[specify value]" |
+| `[NEW_RISK]` | Specify the new risk | "[specify value]" |
+| `[NEW_COST]` | Specify the new cost | "[specify value]" |
+| `[NEW_INNOVATION]` | Specify the new innovation | "[specify value]" |
+| `[NEW_IMPORTANCE]` | Specify the new importance | "[specify value]" |
+| `[FTL_VOLUME]` | Specify the ftl volume | "[specify value]" |
+| `[FTL_COST]` | Specify the ftl cost | "[specify value]" |
+| `[FTL_TIME]` | Specify the ftl time | "[specify value]" |
+| `[FTL_RELIABILITY]` | Specify the ftl reliability | "[specify value]" |
+| `[FTL_CARBON]` | Specify the ftl carbon | "[specify value]" |
+| `[LTL_VOLUME]` | Specify the ltl volume | "[specify value]" |
+| `[LTL_COST]` | Specify the ltl cost | "[specify value]" |
+| `[LTL_TIME]` | Specify the ltl time | "[specify value]" |
+| `[LTL_RELIABILITY]` | Specify the ltl reliability | "[specify value]" |
+| `[LTL_CARBON]` | Specify the ltl carbon | "[specify value]" |
+| `[PARCEL_VOLUME]` | Specify the parcel volume | "[specify value]" |
+| `[PARCEL_COST]` | Specify the parcel cost | "[specify value]" |
+| `[PARCEL_TIME]` | Specify the parcel time | "[specify value]" |
+| `[PARCEL_RELIABILITY]` | Specify the parcel reliability | "[specify value]" |
+| `[PARCEL_CARBON]` | Specify the parcel carbon | "[specify value]" |
+| `[OCEAN_FCL_VOLUME]` | Specify the ocean fcl volume | "[specify value]" |
+| `[OCEAN_FCL_COST]` | Specify the ocean fcl cost | "[specify value]" |
+| `[OCEAN_FCL_TIME]` | Specify the ocean fcl time | "[specify value]" |
+| `[OCEAN_FCL_RELIABILITY]` | Specify the ocean fcl reliability | "[specify value]" |
+| `[OCEAN_FCL_CARBON]` | Specify the ocean fcl carbon | "[specify value]" |
+| `[OCEAN_LCL_VOLUME]` | Specify the ocean lcl volume | "[specify value]" |
+| `[OCEAN_LCL_COST]` | Specify the ocean lcl cost | "[specify value]" |
+| `[OCEAN_LCL_TIME]` | Specify the ocean lcl time | "[specify value]" |
+| `[OCEAN_LCL_RELIABILITY]` | Specify the ocean lcl reliability | "[specify value]" |
+| `[OCEAN_LCL_CARBON]` | Specify the ocean lcl carbon | "[specify value]" |
+| `[AIR_VOLUME]` | Specify the air volume | "[specify value]" |
+| `[AIR_COST]` | Specify the air cost | "[specify value]" |
+| `[AIR_TIME]` | Specify the air time | "[specify value]" |
+| `[AIR_RELIABILITY]` | Specify the air reliability | "[specify value]" |
+| `[AIR_CARBON]` | Specify the air carbon | "[specify value]" |
+| `[RECEIVING_LAYOUT]` | Specify the receiving layout | "[specify value]" |
+| `[STORAGE_CONFIG]` | Specify the storage config | "[specify value]" |
+| `[PICKING_ZONES]` | Specify the picking zones | "[specify value]" |
+| `[PACKING_STATIONS]` | Specify the packing stations | "[specify value]" |
+| `[SHIPPING_DOCKS]` | Specify the shipping docks | "[specify value]" |
+| `[CROSSDOCK_AREA]` | Specify the crossdock area | "[specify value]" |
+| `[WMS_SYSTEM]` | Specify the wms system | "[specify value]" |
+| `[ROBOTICS_AGV]` | Specify the robotics agv | "[specify value]" |
+| `[ASRS_SYSTEMS]` | Specify the asrs systems | "[specify value]" |
+| `[VOICE_PICKING]` | Specify the voice picking | "[specify value]" |
+| `[RFID_TECH]` | Specify the rfid tech | "[specify value]" |
+| `[CONVEYOR_SYSTEMS]` | Specify the conveyor systems | "[specify value]" |
+| `[PICKS_PER_HOUR]` | Specify the picks per hour | "[specify value]" |
+| `[ORDER_ACCURACY]` | Specify the order accuracy | "[specify value]" |
+| `[INVENTORY_ACCURACY]` | Specify the inventory accuracy | "[specify value]" |
+| `[SPACE_UTILIZATION]` | Specify the space utilization | "[specify value]" |
+| `[LABOR_PRODUCTIVITY]` | Specify the labor productivity | "[specify value]" |
+| `[EQUIPMENT_UTIL]` | Specify the equipment util | "[specify value]" |
+| `[LABOR_COST]` | Specify the labor cost | "[specify value]" |
+| `[SPACE_COST]` | Specify the space cost | "[specify value]" |
+| `[EQUIPMENT_COST]` | Specify the equipment cost | "[specify value]" |
+| `[TECHNOLOGY_COST]` | Specify the technology cost | "[specify value]" |
+| `[UTILITIES_COST]` | Specify the utilities cost | "[specify value]" |
+| `[TOTAL_UNIT_COST]` | Specify the total unit cost | "[specify value]" |
+| `[SUPPLY_PROB]` | Specify the supply prob | "[specify value]" |
+| `[SUPPLY_IMPACT]` | Specify the supply impact | "[specify value]" |
+| `[SUPPLY_SCORE]` | Specify the supply score | "[specify value]" |
+| `[SUPPLY_MITIGATION]` | Specify the supply mitigation | "[specify value]" |
+| `[SUPPLY_CONTINGENCY]` | Specify the supply contingency | "[specify value]" |
+| `[DEMAND_PROB]` | Specify the demand prob | "[specify value]" |
+| `[DEMAND_IMPACT]` | Specify the demand impact | "[specify value]" |
+| `[DEMAND_SCORE]` | Specify the demand score | "[specify value]" |
+| `[DEMAND_MITIGATION]` | Specify the demand mitigation | "[specify value]" |
+| `[DEMAND_CONTINGENCY]` | Specify the demand contingency | "[specify value]" |
+| `[TRANS_PROB]` | Specify the trans prob | "[specify value]" |
+| `[TRANS_IMPACT]` | Specify the trans impact | "[specify value]" |
+| `[TRANS_SCORE]` | Specify the trans score | "[specify value]" |
+| `[TRANS_MITIGATION]` | Specify the trans mitigation | "[specify value]" |
+| `[TRANS_CONTINGENCY]` | Specify the trans contingency | "[specify value]" |
+| `[QUALITY_PROB]` | Specify the quality prob | "[specify value]" |
+| `[QUALITY_IMPACT]` | Specify the quality impact | "[specify value]" |
+| `[QUALITY_SCORE]` | Specify the quality score | "[specify value]" |
+| `[QUALITY_MITIGATION]` | Specify the quality mitigation | "[specify value]" |
+| `[QUALITY_CONTINGENCY]` | Specify the quality contingency | "[specify value]" |
+| `[CYBER_PROB]` | Specify the cyber prob | "[specify value]" |
+| `[CYBER_IMPACT]` | Specify the cyber impact | "[specify value]" |
+| `[CYBER_SCORE]` | Specify the cyber score | "[specify value]" |
+| `[CYBER_MITIGATION]` | Specify the cyber mitigation | "[specify value]" |
+| `[CYBER_CONTINGENCY]` | Specify the cyber contingency | "[specify value]" |
+| `[REG_PROB]` | Specify the reg prob | "[specify value]" |
+| `[REG_IMPACT]` | Specify the reg impact | "[specify value]" |
+| `[REG_SCORE]` | Specify the reg score | "[specify value]" |
+| `[REG_MITIGATION]` | Specify the reg mitigation | "[specify value]" |
+| `[REG_CONTINGENCY]` | Specify the reg contingency | "[specify value]" |
+| `[PLAN_CURRENT]` | Specify the plan current | "[specify value]" |
+| `[PLAN_IMPLEMENT]` | Specify the plan implement | "[specify value]" |
+| `[PLAN_INVEST]` | Specify the plan invest | "[specify value]" |
+| `[PLAN_BENEFITS]` | Specify the plan benefits | "[specify value]" |
+| `[PLAN_ROI]` | Specify the plan roi | "[specify value]" |
+| `[IOT_CURRENT]` | Specify the iot current | "[specify value]" |
+| `[IOT_IMPLEMENT]` | Specify the iot implement | "[specify value]" |
+| `[IOT_INVEST]` | Specify the iot invest | "[specify value]" |
+| `[IOT_BENEFITS]` | Specify the iot benefits | "[specify value]" |
+| `[IOT_ROI]` | Specify the iot roi | "[specify value]" |
+| `[BLOCKCHAIN_CURRENT]` | Specify the blockchain current | "[specify value]" |
+| `[BLOCKCHAIN_IMPLEMENT]` | Specify the blockchain implement | "[specify value]" |
+| `[BLOCKCHAIN_INVEST]` | Specify the blockchain invest | "[specify value]" |
+| `[BLOCKCHAIN_BENEFITS]` | Specify the blockchain benefits | "[specify value]" |
+| `[BLOCKCHAIN_ROI]` | Specify the blockchain roi | "[specify value]" |
+| `[AI_CURRENT]` | Specify the ai current | "[specify value]" |
+| `[AI_IMPLEMENT]` | Specify the ai implement | "[specify value]" |
+| `[AI_INVEST]` | Specify the ai invest | "[specify value]" |
+| `[AI_BENEFITS]` | Specify the ai benefits | "[specify value]" |
+| `[AI_ROI]` | Specify the ai roi | "[specify value]" |
+| `[TOWER_CURRENT]` | Specify the tower current | "[specify value]" |
+| `[TOWER_IMPLEMENT]` | Specify the tower implement | "[specify value]" |
+| `[TOWER_INVEST]` | Specify the tower invest | "[specify value]" |
+| `[TOWER_BENEFITS]` | Specify the tower benefits | "[specify value]" |
+| `[TOWER_ROI]` | Specify the tower roi | "[specify value]" |
+| `[RPA_CURRENT]` | Specify the rpa current | "[specify value]" |
+| `[RPA_IMPLEMENT]` | Specify the rpa implement | "[specify value]" |
+| `[RPA_INVEST]` | Specify the rpa invest | "[specify value]" |
+| `[RPA_BENEFITS]` | Specify the rpa benefits | "[specify value]" |
+| `[RPA_ROI]` | Specify the rpa roi | "[specify value]" |
+| `[TOTAL_SC_COST]` | Specify the total sc cost | "[specify value]" |
+| `[COST_TO_SERVE]` | Specify the cost to serve | "[specify value]" |
+| `[LOGISTICS_COST]` | Specify the logistics cost | "[specify value]" |
+| `[CARRYING_COST]` | Specify the carrying cost | "[specify value]" |
+| `[PROCUREMENT_SAVINGS]` | Specify the procurement savings | "[specify value]" |
+| `[OTD]` | Specify the otd | "[specify value]" |
+| `[FILL_RATE]` | Specify the fill rate | "[specify value]" |
+| `[PERFECT_ORDER]` | Specify the perfect order | "[specify value]" |
+| `[CSAT_SCORE]` | Specify the csat score | "[specify value]" |
+| `[CYCLE_TIME]` | Specify the cycle time | "[specify value]" |
+| `[BACKORDER_RATE]` | Specify the backorder rate | "[specify value]" |
+| `[C2C_CYCLE]` | Specify the c2c cycle | "[specify value]" |
+| `[ASSET_UTIL]` | Specify the asset util | "[specify value]" |
+| `[FORECAST_ACCURACY]` | Specify the forecast accuracy | "[specify value]" |
+| `[SC_VELOCITY]` | Specify the sc velocity | "[specify value]" |
+| `[WORKING_CAPITAL]` | Specify the working capital | "[specify value]" |
+| `[CARBON_EMISSIONS]` | Specify the carbon emissions | "[specify value]" |
+| `[WASTE_REDUCTION]` | Specify the waste reduction | "[specify value]" |
+| `[SUSTAINABLE_SOURCE]` | Specify the sustainable source | "[specify value]" |
+| `[ENERGY_EFFICIENCY]` | Specify the energy efficiency | "[specify value]" |
+| `[CIRCULAR_ECONOMY]` | Specify the circular economy | "[specify value]" |
+| `[GREEN_LOGISTICS]` | Specify the green logistics | "[specify value]" |
+| `[AGILITY_SCORE]` | Specify the agility score | "[specify value]" |
+| `[RISK_EXPOSURE]` | Specify the risk exposure | "[specify value]" |
+| `[INNOVATION_INDEX]` | Specify the innovation index | "[specify value]" |
+| `[DIGITAL_MATURITY]` | Specify the digital maturity | "[specify value]" |
+| `[SUPPLIER_COLLAB]` | Specify the supplier collab | "[specify value]" |
+| `[NETWORK_FLEX]` | Specify the network flex | "[specify value]" |
+
+
 
 ### 3. Inventory Management & Planning
 

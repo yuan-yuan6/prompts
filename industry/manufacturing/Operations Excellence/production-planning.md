@@ -1,3 +1,16 @@
+---
+title: Production Planning & Scheduling Framework
+category: industry/manufacturing/Operations Excellence
+tags: [design, framework, industry, management, optimization, strategy, testing]
+use_cases:
+  - Implementing comprehensive framework for manufacturing production planning including capacity...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - quality-management.md
+last_updated: 2025-11-09
+---
+
 # Production Planning & Scheduling Framework
 
 ## Purpose
@@ -51,6 +64,280 @@ MPS Parameters:
 - Update Frequency: [MPS_UPDATE]
 - Accuracy Target: [MPS_ACCURACY]%
 ```
+
+## Variables
+
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `[COMPANY_NAME]` | Name of the company | "Acme Corporation" |
+| `[PRODUCT_LINES]` | Specify the product lines | "[specify value]" |
+| `[PRODUCTION_VOLUME]` | Specify the production volume | "[specify value]" |
+| `[MACHINE_COUNT]` | Specify the machine count | "10" |
+| `[OEE_TARGET]` | Target or intended oee | "[specify value]" |
+| `[THROUGHPUT_TARGET]` | Target or intended throughput | "[specify value]" |
+| `[COST_REDUCTION]` | Specify the cost reduction | "[specify value]" |
+| `[MACHINE_CURRENT]` | Specify the machine current | "[specify value]" |
+| `[MACHINE_REQUIRED]` | Specify the machine required | "[specify value]" |
+| `[MACHINE_UTIL]` | Specify the machine util | "[specify value]" |
+| `[MACHINE_EFF]` | Specify the machine eff | "[specify value]" |
+| `[MACHINE_PLAN]` | Specify the machine plan | "[specify value]" |
+| `[LABOR_CURRENT]` | Specify the labor current | "[specify value]" |
+| `[LABOR_REQUIRED]` | Specify the labor required | "[specify value]" |
+| `[LABOR_UTIL]` | Specify the labor util | "[specify value]" |
+| `[LABOR_EFF]` | Specify the labor eff | "[specify value]" |
+| `[LABOR_PLAN]` | Specify the labor plan | "[specify value]" |
+| `[LINE_CURRENT]` | Specify the line current | "[specify value]" |
+| `[LINE_REQUIRED]` | Specify the line required | "[specify value]" |
+| `[LINE_UTIL]` | Specify the line util | "[specify value]" |
+| `[LINE_EFF]` | Specify the line eff | "[specify value]" |
+| `[LINE_PLAN]` | Specify the line plan | "[specify value]" |
+| `[TOOL_CURRENT]` | Specify the tool current | "[specify value]" |
+| `[TOOL_REQUIRED]` | Specify the tool required | "[specify value]" |
+| `[TOOL_UTIL]` | Specify the tool util | "[specify value]" |
+| `[TOOL_EFF]` | Specify the tool eff | "[specify value]" |
+| `[TOOL_PLAN]` | Specify the tool plan | "[specify value]" |
+| `[MATERIAL_CURRENT]` | Specify the material current | "[specify value]" |
+| `[MATERIAL_REQUIRED]` | Specify the material required | "[specify value]" |
+| `[MATERIAL_UTIL]` | Specify the material util | "[specify value]" |
+| `[MATERIAL_EFF]` | Specify the material eff | "[specify value]" |
+| `[MATERIAL_PLAN]` | Specify the material plan | "[specify value]" |
+| `[QC_CURRENT]` | Specify the qc current | "[specify value]" |
+| `[QC_REQUIRED]` | Specify the qc required | "[specify value]" |
+| `[QC_UTIL]` | Specify the qc util | "[specify value]" |
+| `[QC_EFF]` | Specify the qc eff | "[specify value]" |
+| `[QC_PLAN]` | Specify the qc plan | "[specify value]" |
+| `[LONG_CAPACITY]` | Specify the long capacity | "[specify value]" |
+| `[LONG_MIX]` | Specify the long mix | "[specify value]" |
+| `[LONG_CAPEX]` | Specify the long capex | "[specify value]" |
+| `[LONG_WORKFORCE]` | Specify the long workforce | "[specify value]" |
+| `[LONG_TECH]` | Specify the long tech | "[specify value]" |
+| `[MED_AGGREGATE]` | Specify the med aggregate | "[specify value]" |
+| `[MED_RESOURCE]` | Specify the med resource | "[specify value]" |
+| `[MED_INVENTORY]` | Specify the med inventory | "[specify value]" |
+| `[MED_SEASONAL]` | Specify the med seasonal | "[specify value]" |
+| `[MED_MAINT]` | Specify the med maint | "[specify value]" |
+| `[SHORT_WEEKLY]` | Specify the short weekly | "[specify value]" |
+| `[SHORT_DAILY]` | Specify the short daily | "[specify value]" |
+| `[SHORT_PRIORITY]` | Specify the short priority | "High" |
+| `[SHORT_EXPEDITE]` | Specify the short expedite | "[specify value]" |
+| `[SHORT_REALTIME]` | Specify the short realtime | "[specify value]" |
+| `[MPS_HORIZON]` | Specify the mps horizon | "[specify value]" |
+| `[MPS_FROZEN]` | Specify the mps frozen | "[specify value]" |
+| `[MPS_BUCKETS]` | Specify the mps buckets | "[specify value]" |
+| `[MPS_UPDATE]` | Specify the mps update | "2025-01-15" |
+| `[MPS_ACCURACY]` | Specify the mps accuracy | "[specify value]" |
+| `[FORWARD_APP]` | Specify the forward app | "[specify value]" |
+| `[FORWARD_COMPLEX]` | Specify the forward complex | "[specify value]" |
+| `[FORWARD_PERF]` | Specify the forward perf | "[specify value]" |
+| `[FORWARD_FLEX]` | Specify the forward flex | "[specify value]" |
+| `[FORWARD_IMPL]` | Specify the forward impl | "[specify value]" |
+| `[BACKWARD_APP]` | Specify the backward app | "[specify value]" |
+| `[BACKWARD_COMPLEX]` | Specify the backward complex | "[specify value]" |
+| `[BACKWARD_PERF]` | Specify the backward perf | "[specify value]" |
+| `[BACKWARD_FLEX]` | Specify the backward flex | "[specify value]" |
+| `[BACKWARD_IMPL]` | Specify the backward impl | "[specify value]" |
+| `[FINITE_APP]` | Specify the finite app | "[specify value]" |
+| `[FINITE_COMPLEX]` | Specify the finite complex | "[specify value]" |
+| `[FINITE_PERF]` | Specify the finite perf | "[specify value]" |
+| `[FINITE_FLEX]` | Specify the finite flex | "[specify value]" |
+| `[FINITE_IMPL]` | Specify the finite impl | "[specify value]" |
+| `[TOC_APP]` | Specify the toc app | "[specify value]" |
+| `[TOC_COMPLEX]` | Specify the toc complex | "[specify value]" |
+| `[TOC_PERF]` | Specify the toc perf | "[specify value]" |
+| `[TOC_FLEX]` | Specify the toc flex | "[specify value]" |
+| `[TOC_IMPL]` | Specify the toc impl | "[specify value]" |
+| `[APS_APP]` | Specify the aps app | "[specify value]" |
+| `[APS_COMPLEX]` | Specify the aps complex | "[specify value]" |
+| `[APS_PERF]` | Specify the aps perf | "[specify value]" |
+| `[APS_FLEX]` | Specify the aps flex | "[specify value]" |
+| `[APS_IMPL]` | Specify the aps impl | "[specify value]" |
+| `[REALTIME_APP]` | Specify the realtime app | "[specify value]" |
+| `[REALTIME_COMPLEX]` | Specify the realtime complex | "[specify value]" |
+| `[REALTIME_PERF]` | Specify the realtime perf | "[specify value]" |
+| `[REALTIME_FLEX]` | Specify the realtime flex | "[specify value]" |
+| `[REALTIME_IMPL]` | Specify the realtime impl | "[specify value]" |
+| `[TOTAL_MACHINES]` | Specify the total machines | "[specify value]" |
+| `[CRITICAL_MACHINES]` | Specify the critical machines | "[specify value]" |
+| `[BOTTLENECK_ANALYSIS]` | Specify the bottleneck analysis | "[specify value]" |
+| `[PREVENT_MAINT]` | Specify the prevent maint | "[specify value]" |
+| `[SPARE_CAPACITY]` | Specify the spare capacity | "[specify value]" |
+| `[DIRECT_LABOR]` | Specify the direct labor | "[specify value]" |
+| `[INDIRECT_LABOR]` | Specify the indirect labor | "[specify value]" |
+| `[SKILL_MATRIX]` | Specify the skill matrix | "[specify value]" |
+| `[CROSS_TRAIN]` | Specify the cross train | "[specify value]" |
+| `[OVERTIME_PLAN]` | Specify the overtime plan | "[specify value]" |
+| `[RAW_MATERIAL]` | Specify the raw material | "[specify value]" |
+| `[COMPONENT_AVAIL]` | Specify the component avail | "[specify value]" |
+| `[BUFFER_MGMT]` | Specify the buffer mgmt | "[specify value]" |
+| `[SUPPLIER_COORD]` | Specify the supplier coord | "[specify value]" |
+| `[MATERIAL_FLOW]` | Specify the material flow | "[specify value]" |
+| `[TOOL_INVENTORY]` | Specify the tool inventory | "[specify value]" |
+| `[SETUP_OPT]` | Specify the setup opt | "[specify value]" |
+| `[CHANGEOVER_MATRIX]` | Specify the changeover matrix | "[specify value]" |
+| `[TOOL_LIFE]` | Specify the tool life | "[specify value]" |
+| `[CALIBRATION]` | Specify the calibration | "[specify value]" |
+| `[ASSY1_CURRENT]` | Specify the assy1 current | "[specify value]" |
+| `[ASSY1_TARGET]` | Target or intended assy1 | "[specify value]" |
+| `[ASSY1_BOTTLE]` | Specify the assy1 bottle | "[specify value]" |
+| `[ASSY1_BALANCE]` | Specify the assy1 balance | "[specify value]" |
+| `[ASSY1_ACTIONS]` | Specify the assy1 actions | "[specify value]" |
+| `[ASSY2_CURRENT]` | Specify the assy2 current | "[specify value]" |
+| `[ASSY2_TARGET]` | Target or intended assy2 | "[specify value]" |
+| `[ASSY2_BOTTLE]` | Specify the assy2 bottle | "[specify value]" |
+| `[ASSY2_BALANCE]` | Specify the assy2 balance | "[specify value]" |
+| `[ASSY2_ACTIONS]` | Specify the assy2 actions | "[specify value]" |
+| `[MACH_CURRENT]` | Specify the mach current | "[specify value]" |
+| `[MACH_TARGET]` | Target or intended mach | "[specify value]" |
+| `[MACH_BOTTLE]` | Specify the mach bottle | "[specify value]" |
+| `[MACH_BALANCE]` | Specify the mach balance | "[specify value]" |
+| `[MACH_ACTIONS]` | Specify the mach actions | "[specify value]" |
+| `[PACK_CURRENT]` | Specify the pack current | "[specify value]" |
+| `[PACK_TARGET]` | Target or intended pack | "[specify value]" |
+| `[PACK_BOTTLE]` | Specify the pack bottle | "[specify value]" |
+| `[PACK_BALANCE]` | Specify the pack balance | "[specify value]" |
+| `[PACK_ACTIONS]` | Specify the pack actions | "[specify value]" |
+| `[TEST_CURRENT]` | Specify the test current | "[specify value]" |
+| `[TEST_TARGET]` | Target or intended test | "[specify value]" |
+| `[TEST_BOTTLE]` | Specify the test bottle | "[specify value]" |
+| `[TEST_BALANCE]` | Specify the test balance | "[specify value]" |
+| `[TEST_ACTIONS]` | Specify the test actions | "[specify value]" |
+| `[FINISH_CURRENT]` | Specify the finish current | "[specify value]" |
+| `[FINISH_TARGET]` | Target or intended finish | "[specify value]" |
+| `[FINISH_BOTTLE]` | Specify the finish bottle | "[specify value]" |
+| `[FINISH_BALANCE]` | Specify the finish balance | "[specify value]" |
+| `[FINISH_ACTIONS]` | Specify the finish actions | "[specify value]" |
+| `[INCOMING_METHOD]` | Specify the incoming method | "[specify value]" |
+| `[INCOMING_FREQ]` | Specify the incoming freq | "[specify value]" |
+| `[INCOMING_ACCEPT]` | Specify the incoming accept | "[specify value]" |
+| `[INCOMING_FAIL]` | Specify the incoming fail | "[specify value]" |
+| `[INCOMING_RESPONSE]` | Specify the incoming response | "[specify value]" |
+| `[PROCESS_METHOD]` | Specify the process method | "[specify value]" |
+| `[PROCESS_FREQ]` | Specify the process freq | "[specify value]" |
+| `[PROCESS_ACCEPT]` | Specify the process accept | "[specify value]" |
+| `[PROCESS_FAIL]` | Specify the process fail | "[specify value]" |
+| `[PROCESS_RESPONSE]` | Specify the process response | "[specify value]" |
+| `[FINAL_METHOD]` | Specify the final method | "[specify value]" |
+| `[FINAL_FREQ]` | Specify the final freq | "[specify value]" |
+| `[FINAL_ACCEPT]` | Specify the final accept | "[specify value]" |
+| `[FINAL_FAIL]` | Specify the final fail | "[specify value]" |
+| `[FINAL_RESPONSE]` | Specify the final response | "[specify value]" |
+| `[SPC_METHOD]` | Specify the spc method | "[specify value]" |
+| `[SPC_FREQ]` | Specify the spc freq | "[specify value]" |
+| `[SPC_ACCEPT]` | Specify the spc accept | "[specify value]" |
+| `[SPC_FAIL]` | Specify the spc fail | "[specify value]" |
+| `[SPC_RESPONSE]` | Specify the spc response | "[specify value]" |
+| `[AUTO_METHOD]` | Specify the auto method | "[specify value]" |
+| `[AUTO_FREQ]` | Specify the auto freq | "[specify value]" |
+| `[AUTO_ACCEPT]` | Specify the auto accept | "[specify value]" |
+| `[AUTO_FAIL]` | Specify the auto fail | "[specify value]" |
+| `[AUTO_RESPONSE]` | Specify the auto response | "[specify value]" |
+| `[AUDIT_METHOD]` | Specify the audit method | "[specify value]" |
+| `[AUDIT_FREQ]` | Specify the audit freq | "[specify value]" |
+| `[AUDIT_ACCEPT]` | Specify the audit accept | "[specify value]" |
+| `[AUDIT_FAIL]` | Specify the audit fail | "[specify value]" |
+| `[AUDIT_RESPONSE]` | Specify the audit response | "[specify value]" |
+| `[CURRENT_SETUP]` | Specify the current setup | "[specify value]" |
+| `[SETUPS_DAY]` | Specify the setups day | "[specify value]" |
+| `[SETUP_LOSS]` | Specify the setup loss | "[specify value]" |
+| `[FIRST_GOOD]` | Specify the first good | "[specify value]" |
+| `[SETUP_CREW]` | Specify the setup crew | "[specify value]" |
+| `[TARGET_SETUP]` | Target or intended setup | "[specify value]" |
+| `[QUICK_GOAL]` | Specify the quick goal | "Increase efficiency by 30%" |
+| `[EXTERNAL_SETUP]` | Specify the external setup | "[specify value]" |
+| `[INTERNAL_SETUP]` | Specify the internal setup | "[specify value]" |
+| `[PARALLEL_ACT]` | Specify the parallel act | "[specify value]" |
+| `[DOCUMENT_STEP]` | Specify the document step | "[specify value]" |
+| `[SEPARATE_STEP]` | Specify the separate step | "[specify value]" |
+| `[CONVERT_STEP]` | Specify the convert step | "[specify value]" |
+| `[STREAMLINE_STEP]` | Specify the streamline step | "[specify value]" |
+| `[STANDARD_STEP]` | Specify the standard step | "[specify value]" |
+| `[PRODUCT_FAM]` | Specify the product fam | "[specify value]" |
+| `[SEQUENCE_RULES]` | Specify the sequence rules | "[specify value]" |
+| `[OPTIMAL_BATCH]` | Specify the optimal batch | "[specify value]" |
+| `[CAMPAIGN_PLAN]` | Specify the campaign plan | "[specify value]" |
+| `[COLOR_SEQ]` | Specify the color seq | "[specify value]" |
+| `[AVAIL_CURRENT]` | Specify the avail current | "[specify value]" |
+| `[AVAIL_TARGET]` | Target or intended avail | "[specify value]" |
+| `[AVAIL_LOSS]` | Specify the avail loss | "[specify value]" |
+| `[AVAIL_INIT]` | Specify the avail init | "[specify value]" |
+| `[AVAIL_GAIN]` | Specify the avail gain | "[specify value]" |
+| `[PERF_CURRENT]` | Specify the perf current | "[specify value]" |
+| `[PERF_TARGET]` | Target or intended perf | "[specify value]" |
+| `[PERF_LOSS]` | Specify the perf loss | "[specify value]" |
+| `[PERF_INIT]` | Specify the perf init | "[specify value]" |
+| `[PERF_GAIN]` | Specify the perf gain | "[specify value]" |
+| `[QUAL_CURRENT]` | Specify the qual current | "[specify value]" |
+| `[QUAL_TARGET]` | Target or intended qual | "[specify value]" |
+| `[QUAL_LOSS]` | Specify the qual loss | "[specify value]" |
+| `[QUAL_INIT]` | Specify the qual init | "[specify value]" |
+| `[QUAL_GAIN]` | Specify the qual gain | "[specify value]" |
+| `[OEE_CURRENT]` | Specify the oee current | "[specify value]" |
+| `[OEE_LOSS]` | Specify the oee loss | "[specify value]" |
+| `[OEE_INIT]` | Specify the oee init | "[specify value]" |
+| `[OEE_GAIN]` | Specify the oee gain | "[specify value]" |
+| `[TEEP_CURRENT]` | Specify the teep current | "[specify value]" |
+| `[TEEP_TARGET]` | Target or intended teep | "[specify value]" |
+| `[TEEP_LOSS]` | Specify the teep loss | "[specify value]" |
+| `[TEEP_INIT]` | Specify the teep init | "[specify value]" |
+| `[TEEP_GAIN]` | Specify the teep gain | "[specify value]" |
+| `[PROD_CURRENT]` | Specify the prod current | "[specify value]" |
+| `[PROD_TARGET]` | Target or intended prod | "[specify value]" |
+| `[PROD_LOSS]` | Specify the prod loss | "[specify value]" |
+| `[PROD_INIT]` | Specify the prod init | "[specify value]" |
+| `[PROD_GAIN]` | Specify the prod gain | "[specify value]" |
+| `[MES_CURRENT]` | Specify the mes current | "[specify value]" |
+| `[MES_PLAN]` | Specify the mes plan | "[specify value]" |
+| `[MES_BENEFIT]` | Specify the mes benefit | "[specify value]" |
+| `[MES_INVEST]` | Specify the mes invest | "[specify value]" |
+| `[MES_ROI]` | Specify the mes roi | "[specify value]" |
+| `[MONITOR_CURRENT]` | Specify the monitor current | "[specify value]" |
+| `[MONITOR_PLAN]` | Specify the monitor plan | "[specify value]" |
+| `[MONITOR_BENEFIT]` | Specify the monitor benefit | "[specify value]" |
+| `[MONITOR_INVEST]` | Specify the monitor invest | "[specify value]" |
+| `[MONITOR_ROI]` | Specify the monitor roi | "[specify value]" |
+| `[PREDICT_CURRENT]` | Specify the predict current | "[specify value]" |
+| `[PREDICT_PLAN]` | Specify the predict plan | "[specify value]" |
+| `[PREDICT_BENEFIT]` | Specify the predict benefit | "[specify value]" |
+| `[PREDICT_INVEST]` | Specify the predict invest | "[specify value]" |
+| `[PREDICT_ROI]` | Specify the predict roi | "[specify value]" |
+| `[TWIN_CURRENT]` | Specify the twin current | "[specify value]" |
+| `[TWIN_PLAN]` | Specify the twin plan | "[specify value]" |
+| `[TWIN_BENEFIT]` | Specify the twin benefit | "[specify value]" |
+| `[TWIN_INVEST]` | Specify the twin invest | "[specify value]" |
+| `[TWIN_ROI]` | Specify the twin roi | "[specify value]" |
+| `[AI_CURRENT]` | Specify the ai current | "[specify value]" |
+| `[AI_PLAN]` | Specify the ai plan | "[specify value]" |
+| `[AI_BENEFIT]` | Specify the ai benefit | "[specify value]" |
+| `[AI_INVEST]` | Specify the ai invest | "[specify value]" |
+| `[AI_ROI]` | Specify the ai roi | "[specify value]" |
+| `[AUTO_CURRENT]` | Specify the auto current | "[specify value]" |
+| `[AUTO_PLAN]` | Specify the auto plan | "[specify value]" |
+| `[AUTO_BENEFIT]` | Specify the auto benefit | "[specify value]" |
+| `[AUTO_INVEST]` | Specify the auto invest | "[specify value]" |
+| `[AUTO_ROI]` | Specify the auto roi | "[specify value]" |
+| `[OVER_WASTE]` | Specify the over waste | "[specify value]" |
+| `[WAIT_WASTE]` | Specify the wait waste | "[specify value]" |
+| `[TRANS_WASTE]` | Specify the trans waste | "[specify value]" |
+| `[PROCESS_WASTE]` | Specify the process waste | "[specify value]" |
+| `[INV_WASTE]` | Specify the inv waste | "[specify value]" |
+| `[MOTION_WASTE]` | Specify the motion waste | "[specify value]" |
+| `[DEFECT_WASTE]` | Specify the defect waste | "[specify value]" |
+| `[TALENT_WASTE]` | Specify the talent waste | "[specify value]" |
+| `[KAIZEN_COUNT]` | Specify the kaizen count | "10" |
+| `[FIVE_S_SCORE]` | Specify the five s score | "[specify value]" |
+| `[VSM_COMPLETE]` | Specify the vsm complete | "[specify value]" |
+| `[STD_WORK]` | Specify the std work | "[specify value]" |
+| `[VISUAL_MGMT]` | Specify the visual mgmt | "[specify value]" |
+| `[LEAD_TIME]` | Specify the lead time | "[specify value]" |
+| `[CYCLE_TIME]` | Specify the cycle time | "[specify value]" |
+| `[VA_TIME]` | Specify the va time | "[specify value]" |
+| `[INV_TURNS]` | Specify the inv turns | "[specify value]" |
+| `[FPY]` | Specify the fpy | "[specify value]" |
+| `[DPMO_SCORE]` | Specify the dpmo score | "[specify value]" |
+| `[COST_UNIT]` | Specify the cost unit | "[specify value]" |
+| `[PROD_INDEX]` | Specify the prod index | "[specify value]" |
+
+
 
 ### 3. Scheduling Optimization
 

@@ -1,3 +1,18 @@
+---
+title: Epidemiological Surveillance Template
+category: healthcare/Public Health
+tags: [data-science, design, healthcare, optimization, research, security, template]
+use_cases:
+  - Implementing create comprehensive disease surveillance systems, outbreak investigation protoc...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - telemedicine-platform-design.md
+  - patient-care-pathway.md
+  - clinical-trials-management.md
+last_updated: 2025-11-09
+---
+
 # Epidemiological Surveillance Template
 
 ## Purpose

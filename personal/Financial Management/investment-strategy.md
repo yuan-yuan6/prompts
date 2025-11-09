@@ -1,3 +1,14 @@
+---
+title: Investment Strategy Template
+category: personal/Financial Management
+tags: [data-science, development, management, personal, research, strategy, template]
+use_cases:
+  - Implementing develop comprehensive investment portfolios with proper risk management, diversi...
+  - Project planning and execution
+  - Strategy development
+last_updated: 2025-11-09
+---
+
 # Investment Strategy Template
 
 ## Purpose

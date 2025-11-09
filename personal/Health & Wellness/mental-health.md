@@ -1,3 +1,14 @@
+---
+title: Mental Health Template
+category: personal/Health & Wellness
+tags: [data-science, management, personal, research, strategy, template, testing]
+use_cases:
+  - Implementing develop comprehensive mental health strategies including mindfulness practices, ...
+  - Project planning and execution
+  - Strategy development
+last_updated: 2025-11-09
+---
+
 # Mental Health Template
 
 ## Purpose

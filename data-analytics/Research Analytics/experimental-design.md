@@ -1,3 +1,18 @@
+---
+title: Experimental Design and Testing Template
+category: data-analytics/Research Analytics
+tags: [automation, data-analytics, data-science, design, machine-learning, research, security, template]
+use_cases:
+  - Implementing design, implement, and analyze controlled experiments including a/b testing, ran...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - dashboard-design-patterns.md
+  - data-governance-framework.md
+  - predictive-modeling-framework.md
+last_updated: 2025-11-09
+---
+
 # Experimental Design and Testing Template
 
 ## Purpose

@@ -1,3 +1,18 @@
+---
+title: Query Optimization & Performance Template
+category: data-analytics/Analytics Engineering
+tags: [data-analytics, data-science, design, optimization, research, strategy, template]
+use_cases:
+  - Implementing design comprehensive sql query optimization strategies including performance tun...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - dashboard-design-patterns.md
+  - data-governance-framework.md
+  - predictive-modeling-framework.md
+last_updated: 2025-11-09
+---
+
 # Query Optimization & Performance Template
 
 ## Purpose

@@ -1,3 +1,17 @@
+---
+title: Video Scripts Template Generator
+category: creative/Content Creation
+tags: [automation, creative, design, machine-learning, marketing, strategy, template, testing]
+use_cases:
+  - Implementing create comprehensive video script strategies for youtube, documentaries, ads, ex...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - creative-writing-framework.md
+  - video-production-pipeline.md
+last_updated: 2025-11-09
+---
+
 # Video Scripts Template Generator
 
 ## Purpose

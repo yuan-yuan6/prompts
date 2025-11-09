@@ -1,3 +1,17 @@
+---
+title: Smart Grid Management & Optimization
+category: industry/energy-utilities/Generation & Operations
+tags: [communication, design, industry, management, optimization, security]
+use_cases:
+  - Implementing advanced grid management framework for monitoring, control, and optimization of ...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - plant-operations-management.md
+  - smart-grid-implementation.md
+last_updated: 2025-11-09
+---
+
 # Smart Grid Management & Optimization
 
 ## Purpose
@@ -31,6 +45,238 @@ Latency Requirement: <[LATENCY] ms
 Redundancy Level: [REDUNDANCY]
 Cybersecurity Standard: [SECURITY_STD]
 ```
+
+## Variables
+
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `[UTILITY_NAME]` | Name of the utility | "John Smith" |
+| `[CUSTOMER_COUNT]` | Specify the customer count | "10" |
+| `[SERVICE_AREA]` | Specify the service area | "[specify value]" |
+| `[PEAK_DEMAND]` | Specify the peak demand | "[specify value]" |
+| `[SUBSTATION_COUNT]` | Specify the substation count | "10" |
+| `[SUBSTATION_CAP]` | Specify the substation cap | "[specify value]" |
+| `[SUBSTATION_AGE]` | Specify the substation age | "[specify value]" |
+| `[SUBSTATION_COND]` | Specify the substation cond | "[specify value]" |
+| `[SUBSTATION_SMART]` | Specify the substation smart | "[specify value]" |
+| `[FEEDER_COUNT]` | Specify the feeder count | "10" |
+| `[FEEDER_CAP]` | Specify the feeder cap | "[specify value]" |
+| `[FEEDER_AGE]` | Specify the feeder age | "[specify value]" |
+| `[FEEDER_COND]` | Specify the feeder cond | "[specify value]" |
+| `[FEEDER_SMART]` | Specify the feeder smart | "[specify value]" |
+| `[TRANS_COUNT]` | Specify the trans count | "10" |
+| `[TRANS_CAP]` | Specify the trans cap | "[specify value]" |
+| `[TRANS_AGE]` | Specify the trans age | "[specify value]" |
+| `[TRANS_COND]` | Specify the trans cond | "[specify value]" |
+| `[TRANS_SMART]` | Specify the trans smart | "[specify value]" |
+| `[SWITCH_COUNT]` | Specify the switch count | "10" |
+| `[SWITCH_AGE]` | Specify the switch age | "[specify value]" |
+| `[SWITCH_COND]` | Specify the switch cond | "[specify value]" |
+| `[SWITCH_SMART]` | Specify the switch smart | "[specify value]" |
+| `[METER_COUNT]` | Specify the meter count | "10" |
+| `[METER_AGE]` | Specify the meter age | "[specify value]" |
+| `[METER_COND]` | Specify the meter cond | "[specify value]" |
+| `[METER_SMART]` | Specify the meter smart | "[specify value]" |
+| `[PRIMARY_LOCATION]` | Specify the primary location | "North America" |
+| `[BACKUP_LOCATION]` | Specify the backup location | "North America" |
+| `[RTU_COUNT]` | Specify the rtu count | "10" |
+| `[IED_COUNT]` | Specify the ied count | "10" |
+| `[PROTOCOL]` | Specify the protocol | "[specify value]" |
+| `[LATENCY]` | Specify the latency | "[specify value]" |
+| `[REDUNDANCY]` | Specify the redundancy | "[specify value]" |
+| `[SECURITY_STD]` | Specify the security std | "[specify value]" |
+| `[VOLT_POINTS]` | Specify the volt points | "[specify value]" |
+| `[VOLT_RATE]` | Specify the volt rate | "[specify value]" |
+| `[VOLT_ACC]` | Specify the volt acc | "[specify value]" |
+| `[VOLT_THRESHOLD]` | Specify the volt threshold | "[specify value]" |
+| `[CURR_POINTS]` | Specify the curr points | "[specify value]" |
+| `[CURR_RATE]` | Specify the curr rate | "[specify value]" |
+| `[CURR_ACC]` | Specify the curr acc | "[specify value]" |
+| `[CURR_THRESHOLD]` | Specify the curr threshold | "[specify value]" |
+| `[FREQ_POINTS]` | Specify the freq points | "[specify value]" |
+| `[FREQ_RATE]` | Specify the freq rate | "[specify value]" |
+| `[FREQ_ACC]` | Specify the freq acc | "[specify value]" |
+| `[FREQ_THRESHOLD]` | Specify the freq threshold | "[specify value]" |
+| `[PF_POINTS]` | Specify the pf points | "[specify value]" |
+| `[PF_RATE]` | Specify the pf rate | "[specify value]" |
+| `[PF_ACC]` | Specify the pf acc | "[specify value]" |
+| `[PF_THRESHOLD]` | Specify the pf threshold | "[specify value]" |
+| `[TEMP_POINTS]` | Specify the temp points | "[specify value]" |
+| `[TEMP_RATE]` | Specify the temp rate | "[specify value]" |
+| `[TEMP_ACC]` | Specify the temp acc | "[specify value]" |
+| `[TEMP_THRESHOLD]` | Specify the temp threshold | "[specify value]" |
+| `[RES_METERS]` | Specify the res meters | "[specify value]" |
+| `[RES_COVERAGE]` | Specify the res coverage | "[specify value]" |
+| `[RES_SUCCESS]` | Specify the res success | "[specify value]" |
+| `[RES_FEATURES]` | Specify the res features | "[specify value]" |
+| `[RES_INTEGRATION]` | Specify the res integration | "[specify value]" |
+| `[COM_METERS]` | Specify the com meters | "[specify value]" |
+| `[COM_COVERAGE]` | Specify the com coverage | "[specify value]" |
+| `[COM_SUCCESS]` | Specify the com success | "[specify value]" |
+| `[COM_FEATURES]` | Specify the com features | "[specify value]" |
+| `[COM_INTEGRATION]` | Specify the com integration | "[specify value]" |
+| `[IND_METERS]` | Specify the ind meters | "[specify value]" |
+| `[IND_COVERAGE]` | Specify the ind coverage | "[specify value]" |
+| `[IND_SUCCESS]` | Specify the ind success | "[specify value]" |
+| `[IND_FEATURES]` | Specify the ind features | "[specify value]" |
+| `[IND_INTEGRATION]` | Specify the ind integration | "[specify value]" |
+| `[GEN_METERS]` | Specify the gen meters | "[specify value]" |
+| `[GEN_COVERAGE]` | Specify the gen coverage | "[specify value]" |
+| `[GEN_SUCCESS]` | Specify the gen success | "[specify value]" |
+| `[GEN_FEATURES]` | Specify the gen features | "[specify value]" |
+| `[GEN_INTEGRATION]` | Specify the gen integration | "[specify value]" |
+| `[DR_PROGRAM_1]` | Specify the dr program 1 | "[specify value]" |
+| `[DR_PART_1]` | Specify the dr part 1 | "[specify value]" |
+| `[DR_CAP_1]` | Specify the dr cap 1 | "[specify value]" |
+| `[DR_TIME_1]` | Specify the dr time 1 | "[specify value]" |
+| `[DR_INCENT_1]` | Specify the dr incent 1 | "[specify value]" |
+| `[DR_PERF_1]` | Specify the dr perf 1 | "[specify value]" |
+| `[DR_PROGRAM_2]` | Specify the dr program 2 | "[specify value]" |
+| `[DR_PART_2]` | Specify the dr part 2 | "[specify value]" |
+| `[DR_CAP_2]` | Specify the dr cap 2 | "[specify value]" |
+| `[DR_TIME_2]` | Specify the dr time 2 | "[specify value]" |
+| `[DR_INCENT_2]` | Specify the dr incent 2 | "[specify value]" |
+| `[DR_PERF_2]` | Specify the dr perf 2 | "[specify value]" |
+| `[DR_PROGRAM_3]` | Specify the dr program 3 | "[specify value]" |
+| `[DR_PART_3]` | Specify the dr part 3 | "[specify value]" |
+| `[DR_CAP_3]` | Specify the dr cap 3 | "[specify value]" |
+| `[DR_TIME_3]` | Specify the dr time 3 | "[specify value]" |
+| `[DR_INCENT_3]` | Specify the dr incent 3 | "[specify value]" |
+| `[DR_PERF_3]` | Specify the dr perf 3 | "[specify value]" |
+| `[DR_PROGRAM_4]` | Specify the dr program 4 | "[specify value]" |
+| `[DR_PART_4]` | Specify the dr part 4 | "[specify value]" |
+| `[DR_CAP_4]` | Specify the dr cap 4 | "[specify value]" |
+| `[DR_TIME_4]` | Specify the dr time 4 | "[specify value]" |
+| `[DR_INCENT_4]` | Specify the dr incent 4 | "[specify value]" |
+| `[DR_PERF_4]` | Specify the dr perf 4 | "[specify value]" |
+| `[FAULT_COV]` | Specify the fault cov | "[specify value]" |
+| `[FAULT_TIME]` | Specify the fault time | "[specify value]" |
+| `[FAULT_SUCCESS]` | Specify the fault success | "[specify value]" |
+| `[FAULT_BENEFIT]` | Specify the fault benefit | "[specify value]" |
+| `[ISO_COV]` | Specify the iso cov | "[specify value]" |
+| `[ISO_TIME]` | Specify the iso time | "[specify value]" |
+| `[ISO_SUCCESS]` | Specify the iso success | "[specify value]" |
+| `[ISO_BENEFIT]` | Specify the iso benefit | "[specify value]" |
+| `[REST_COV]` | Specify the rest cov | "[specify value]" |
+| `[REST_TIME]` | Specify the rest time | "[specify value]" |
+| `[REST_SUCCESS]` | Specify the rest success | "[specify value]" |
+| `[REST_BENEFIT]` | Specify the rest benefit | "[specify value]" |
+| `[VOLT_COV]` | Specify the volt cov | "[specify value]" |
+| `[VOLT_TIME]` | Specify the volt time | "[specify value]" |
+| `[VOLT_SUCCESS]` | Specify the volt success | "[specify value]" |
+| `[VOLT_BENEFIT]` | Specify the volt benefit | "[specify value]" |
+| `[LOAD_COV]` | Specify the load cov | "[specify value]" |
+| `[LOAD_TIME]` | Specify the load time | "[specify value]" |
+| `[LOAD_SUCCESS]` | Specify the load success | "[specify value]" |
+| `[LOAD_BENEFIT]` | Specify the load benefit | "[specify value]" |
+| `[LOAD_ALGO]` | Specify the load algo | "[specify value]" |
+| `[LOAD_DATA]` | Specify the load data | "[specify value]" |
+| `[LOAD_ACC]` | Specify the load acc | "[specify value]" |
+| `[LOAD_FREQ]` | Specify the load freq | "[specify value]" |
+| `[LOAD_VALUE]` | Specify the load value | "[specify value]" |
+| `[FAULT_ALGO]` | Specify the fault algo | "[specify value]" |
+| `[FAULT_DATA]` | Specify the fault data | "[specify value]" |
+| `[FAULT_ACC]` | Specify the fault acc | "[specify value]" |
+| `[FAULT_FREQ]` | Specify the fault freq | "[specify value]" |
+| `[FAULT_VALUE]` | Specify the fault value | "[specify value]" |
+| `[ASSET_ALGO]` | Specify the asset algo | "[specify value]" |
+| `[ASSET_DATA]` | Specify the asset data | "[specify value]" |
+| `[ASSET_ACC]` | Specify the asset acc | "[specify value]" |
+| `[ASSET_FREQ]` | Specify the asset freq | "[specify value]" |
+| `[ASSET_VALUE]` | Specify the asset value | "[specify value]" |
+| `[THEFT_ALGO]` | Specify the theft algo | "[specify value]" |
+| `[THEFT_DATA]` | Specify the theft data | "[specify value]" |
+| `[THEFT_ACC]` | Specify the theft acc | "[specify value]" |
+| `[THEFT_FREQ]` | Specify the theft freq | "[specify value]" |
+| `[THEFT_VALUE]` | Specify the theft value | "[specify value]" |
+| `[DER_ALGO]` | Specify the der algo | "[specify value]" |
+| `[DER_DATA]` | Specify the der data | "[specify value]" |
+| `[DER_ACC]` | Specify the der acc | "[specify value]" |
+| `[DER_FREQ]` | Specify the der freq | "[specify value]" |
+| `[DER_VALUE]` | Specify the der value | "[specify value]" |
+| `[SOLAR_MW]` | Specify the solar mw | "[specify value]" |
+| `[SOLAR_LOC]` | Specify the solar loc | "[specify value]" |
+| `[SOLAR_PEN]` | Specify the solar pen | "[specify value]" |
+| `[SOLAR_CTRL]` | Specify the solar ctrl | "[specify value]" |
+| `[SOLAR_CHALLENGE]` | Specify the solar challenge | "[specify value]" |
+| `[BATT_MW]` | Specify the batt mw | "[specify value]" |
+| `[BATT_LOC]` | Specify the batt loc | "[specify value]" |
+| `[BATT_PEN]` | Specify the batt pen | "[specify value]" |
+| `[BATT_CTRL]` | Specify the batt ctrl | "[specify value]" |
+| `[BATT_CHALLENGE]` | Specify the batt challenge | "[specify value]" |
+| `[EV_MW]` | Specify the ev mw | "[specify value]" |
+| `[EV_LOC]` | Specify the ev loc | "[specify value]" |
+| `[EV_PEN]` | Specify the ev pen | "[specify value]" |
+| `[EV_CTRL]` | Specify the ev ctrl | "[specify value]" |
+| `[EV_CHALLENGE]` | Specify the ev challenge | "[specify value]" |
+| `[MICRO_MW]` | Specify the micro mw | "[specify value]" |
+| `[MICRO_LOC]` | Specify the micro loc | "[specify value]" |
+| `[MICRO_PEN]` | Specify the micro pen | "[specify value]" |
+| `[MICRO_CTRL]` | Specify the micro ctrl | "[specify value]" |
+| `[MICRO_CHALLENGE]` | Specify the micro challenge | "[specify value]" |
+| `[WIND_MW]` | Specify the wind mw | "[specify value]" |
+| `[WIND_LOC]` | Specify the wind loc | "[specify value]" |
+| `[WIND_PEN]` | Specify the wind pen | "[specify value]" |
+| `[WIND_CTRL]` | Specify the wind ctrl | "[specify value]" |
+| `[WIND_CHALLENGE]` | Specify the wind challenge | "[specify value]" |
+| `[SAIDI_CURR]` | Specify the saidi curr | "[specify value]" |
+| `[SAIDI_TARGET]` | Target or intended saidi | "[specify value]" |
+| `[SAIDI_AVG]` | Specify the saidi avg | "[specify value]" |
+| `[SAIDI_PLAN]` | Specify the saidi plan | "[specify value]" |
+| `[SAIFI_CURR]` | Specify the saifi curr | "[specify value]" |
+| `[SAIFI_TARGET]` | Target or intended saifi | "[specify value]" |
+| `[SAIFI_AVG]` | Specify the saifi avg | "[specify value]" |
+| `[SAIFI_PLAN]` | Specify the saifi plan | "[specify value]" |
+| `[CAIDI_CURR]` | Specify the caidi curr | "[specify value]" |
+| `[CAIDI_TARGET]` | Target or intended caidi | "[specify value]" |
+| `[CAIDI_AVG]` | Specify the caidi avg | "[specify value]" |
+| `[CAIDI_PLAN]` | Specify the caidi plan | "[specify value]" |
+| `[MAIFI_CURR]` | Specify the maifi curr | "[specify value]" |
+| `[MAIFI_TARGET]` | Target or intended maifi | "[specify value]" |
+| `[MAIFI_AVG]` | Specify the maifi avg | "[specify value]" |
+| `[MAIFI_PLAN]` | Specify the maifi plan | "[specify value]" |
+| `[ASAI_CURR]` | Specify the asai curr | "[specify value]" |
+| `[ASAI_TARGET]` | Target or intended asai | "[specify value]" |
+| `[ASAI_AVG]` | Specify the asai avg | "[specify value]" |
+| `[ASAI_PLAN]` | Specify the asai plan | "[specify value]" |
+| `[NET_TECH]` | Specify the net tech | "[specify value]" |
+| `[NET_COV]` | Specify the net cov | "[specify value]" |
+| `[NET_MON]` | Specify the net mon | "[specify value]" |
+| `[NET_RESPONSE]` | Specify the net response | "[specify value]" |
+| `[END_TECH]` | Specify the end tech | "[specify value]" |
+| `[END_COV]` | Specify the end cov | "[specify value]" |
+| `[END_MON]` | Specify the end mon | "[specify value]" |
+| `[END_RESPONSE]` | Specify the end response | "[specify value]" |
+| `[ACC_TECH]` | Specify the acc tech | "[specify value]" |
+| `[ACC_COV]` | Specify the acc cov | "[specify value]" |
+| `[ACC_MON]` | Specify the acc mon | "[specify value]" |
+| `[ACC_RESPONSE]` | Specify the acc response | "[specify value]" |
+| `[ENC_TECH]` | Specify the enc tech | "[specify value]" |
+| `[ENC_COV]` | Specify the enc cov | "[specify value]" |
+| `[ENC_MON]` | Specify the enc mon | "[specify value]" |
+| `[ENC_RESPONSE]` | Specify the enc response | "[specify value]" |
+| `[INC_TECH]` | Specify the inc tech | "[specify value]" |
+| `[INC_COV]` | Specify the inc cov | "[specify value]" |
+| `[INC_MON]` | Specify the inc mon | "[specify value]" |
+| `[INC_RESPONSE]` | Specify the inc response | "[specify value]" |
+| `[TOTAL_INVESTMENT]` | Specify the total investment | "[specify value]" |
+| `[AMI_COST]` | Specify the ami cost | "[specify value]" |
+| `[SCADA_COST]` | Specify the scada cost | "[specify value]" |
+| `[DA_COST]` | Specify the da cost | "[specify value]" |
+| `[COMM_COST]` | Specify the comm cost | "[specify value]" |
+| `[ANALYTICS_COST]` | Specify the analytics cost | "[specify value]" |
+| `[CYBER_COST]` | Specify the cyber cost | "[specify value]" |
+| `[OP_SAVINGS]` | Specify the op savings | "[specify value]" |
+| `[OUTAGE_SAVINGS]` | Specify the outage savings | "[specify value]" |
+| `[EFFICIENCY_SAVINGS]` | Specify the efficiency savings | "[specify value]" |
+| `[THEFT_SAVINGS]` | Specify the theft savings | "[specify value]" |
+| `[DEFERRED_SAVINGS]` | Specify the deferred savings | "[specify value]" |
+| `[PAYBACK]` | Specify the payback | "[specify value]" |
+| `[NPV]` | Specify the npv | "[specify value]" |
+| `[IRR]` | Specify the irr | "[specify value]" |
+| `[BCR]` | Specify the bcr | "[specify value]" |
+
+
 
 **Real-Time Monitoring:**
 | **Parameter** | **Measurement Points** | **Sampling Rate** | **Accuracy** | **Alert Threshold** |

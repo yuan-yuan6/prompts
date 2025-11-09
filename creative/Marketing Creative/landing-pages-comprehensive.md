@@ -1,3 +1,17 @@
+---
+title: Landing Pages Comprehensive Template Generator
+category: creative/Marketing Creative
+tags: [automation, communication, comprehensive, creative, data-science, design, marketing, optimization]
+use_cases:
+  - Implementing create comprehensive landing page solutions covering copy optimization, structur...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - creative-writing-framework.md
+  - video-production-pipeline.md
+last_updated: 2025-11-09
+---
+
 # Landing Pages Comprehensive Template Generator
 
 ## Purpose

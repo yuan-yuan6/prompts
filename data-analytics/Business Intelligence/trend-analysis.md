@@ -1,3 +1,18 @@
+---
+title: Trend Analysis Forecasting Template
+category: data-analytics/Business Intelligence
+tags: [data-analytics, data-science, optimization, research, strategy, template, testing]
+use_cases:
+  - Implementing develop comprehensive frameworks for pattern identification, forecasting methodo...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - dashboard-design-patterns.md
+  - data-governance-framework.md
+  - predictive-modeling-framework.md
+last_updated: 2025-11-09
+---
+
 # Trend Analysis Forecasting Template
 
 ## Purpose

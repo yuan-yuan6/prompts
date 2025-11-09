@@ -1,3 +1,17 @@
+---
+title: UX/UI Design Template Generator
+category: creative/Design & Visual
+tags: [creative, design, documentation, machine-learning, marketing, optimization, research, security]
+use_cases:
+  - Implementing create comprehensive ux/ui design strategies for wireframes, prototypes, design ...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - creative-writing-framework.md
+  - video-production-pipeline.md
+last_updated: 2025-11-09
+---
+
 # UX/UI Design Template Generator
 
 ## Purpose

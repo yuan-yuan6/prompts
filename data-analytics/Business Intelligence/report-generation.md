@@ -1,3 +1,18 @@
+---
+title: Report Generation Automation Template
+category: data-analytics/Business Intelligence
+tags: [automation, data-analytics, data-science, documentation, machine-learning, optimization, research, strategy]
+use_cases:
+  - Implementing develop comprehensive strategies for automated report creation, custom reporting...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - dashboard-design-patterns.md
+  - data-governance-framework.md
+  - predictive-modeling-framework.md
+last_updated: 2025-11-09
+---
+
 # Report Generation Automation Template
 
 ## Purpose

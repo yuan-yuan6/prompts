@@ -1,3 +1,14 @@
+---
+title: Email Writing Template
+category: personal/Communication Skills
+tags: [communication, design, personal, template, testing]
+use_cases:
+  - Implementing create effective email communication including professional correspondence, pers...
+  - Project planning and execution
+  - Strategy development
+last_updated: 2025-11-09
+---
+
 # Email Writing Template
 
 ## Purpose

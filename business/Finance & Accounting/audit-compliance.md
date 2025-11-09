@@ -1,3 +1,18 @@
+---
+title: Audit & Compliance Template Generator
+category: business/Finance & Accounting
+tags: [business, communication, design, machine-learning, management, security, template]
+use_cases:
+  - Implementing create comprehensive audit and compliance strategies covering internal controls,...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - okr-implementation-framework.md
+  - digital-transformation-roadmap.md
+  - lean-six-sigma-implementation.md
+last_updated: 2025-11-09
+---
+
 # Audit & Compliance Template Generator
 
 ## Purpose

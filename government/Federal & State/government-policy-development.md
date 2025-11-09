@@ -1,3 +1,17 @@
+---
+title: Government Policy Development & Implementation Framework
+category: government/Federal & State
+tags: [data-science, design, development, framework, government, management, research, security]
+use_cases:
+  - Implementing comprehensive framework for developing, implementing, and evaluating government ...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - policy-development.md
+  - policy-research-framework.md
+last_updated: 2025-11-09
+---
+
 # Government Policy Development & Implementation Framework
 
 ## Purpose
@@ -48,6 +62,271 @@ Primary Stakeholders:
   Negotiation Points: [SPECIAL_NEGOTIATE]
   Mitigation Strategies: [SPECIAL_MITIGATE]
 ```
+
+## Variables
+
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `[AGENCY_NAME]` | Name of the agency | "John Smith" |
+| `[POLICY_AREA]` | Specify the policy area | "[specify value]" |
+| `[POPULATION_SIZE]` | Specify the population size | "[specify value]" |
+| `[BUDGET_ALLOCATION]` | Budget allocation for allocation | "$500,000" |
+| `[IMPLEMENTATION_TIMELINE]` | Timeline or schedule for implementation | "6 months" |
+| `[OUTCOME_METRICS]` | Specify the outcome metrics | "[specify value]" |
+| `[ECON_CURRENT]` | Specify the econ current | "[specify value]" |
+| `[ECON_DESIRED]` | Specify the econ desired | "[specify value]" |
+| `[ECON_GAP]` | Specify the econ gap | "[specify value]" |
+| `[ECON_PRIORITY]` | Specify the econ priority | "High" |
+| `[ECON_RESOURCE]` | Specify the econ resource | "[specify value]" |
+| `[SOCIAL_CURRENT]` | Specify the social current | "[specify value]" |
+| `[SOCIAL_DESIRED]` | Specify the social desired | "[specify value]" |
+| `[SOCIAL_GAP]` | Specify the social gap | "[specify value]" |
+| `[SOCIAL_PRIORITY]` | Specify the social priority | "High" |
+| `[SOCIAL_RESOURCE]` | Specify the social resource | "[specify value]" |
+| `[ENV_CURRENT]` | Specify the env current | "[specify value]" |
+| `[ENV_DESIRED]` | Specify the env desired | "[specify value]" |
+| `[ENV_GAP]` | Specify the env gap | "[specify value]" |
+| `[ENV_PRIORITY]` | Specify the env priority | "High" |
+| `[ENV_RESOURCE]` | Specify the env resource | "[specify value]" |
+| `[HEALTH_CURRENT]` | Specify the health current | "[specify value]" |
+| `[HEALTH_DESIRED]` | Specify the health desired | "[specify value]" |
+| `[HEALTH_GAP]` | Specify the health gap | "[specify value]" |
+| `[HEALTH_PRIORITY]` | Specify the health priority | "High" |
+| `[HEALTH_RESOURCE]` | Specify the health resource | "[specify value]" |
+| `[INFRA_CURRENT]` | Specify the infra current | "[specify value]" |
+| `[INFRA_DESIRED]` | Specify the infra desired | "[specify value]" |
+| `[INFRA_GAP]` | Specify the infra gap | "[specify value]" |
+| `[INFRA_PRIORITY]` | Specify the infra priority | "High" |
+| `[INFRA_RESOURCE]` | Specify the infra resource | "[specify value]" |
+| `[LEGAL_CURRENT]` | Specify the legal current | "[specify value]" |
+| `[LEGAL_DESIRED]` | Specify the legal desired | "[specify value]" |
+| `[LEGAL_GAP]` | Specify the legal gap | "[specify value]" |
+| `[LEGAL_PRIORITY]` | Specify the legal priority | "High" |
+| `[LEGAL_RESOURCE]` | Specify the legal resource | "[specify value]" |
+| `[CITIZEN_COUNT]` | Specify the citizen count | "10" |
+| `[CITIZEN_IMPACT]` | Specify the citizen impact | "[specify value]" |
+| `[CITIZEN_ENGAGE]` | Specify the citizen engage | "[specify value]" |
+| `[CITIZEN_FEEDBACK]` | Specify the citizen feedback | "[specify value]" |
+| `[AGENCY_LIST]` | Specify the agency list | "[specify value]" |
+| `[AGENCY_COORD]` | Specify the agency coord | "[specify value]" |
+| `[AGENCY_RESOURCE]` | Specify the agency resource | "[specify value]" |
+| `[AGENCY_INTEGRATE]` | Specify the agency integrate | "[specify value]" |
+| `[PRIVATE_ENTITIES]` | Specify the private entities | "[specify value]" |
+| `[PRIVATE_PARTNER]` | Specify the private partner | "[specify value]" |
+| `[PRIVATE_INVEST]` | Specify the private invest | "[specify value]" |
+| `[PRIVATE_COMPLY]` | Specify the private comply | "[specify value]" |
+| `[NGO_LIST]` | Specify the ngo list | "[specify value]" |
+| `[NGO_ROLE]` | Specify the ngo role | "[specify value]" |
+| `[NGO_CAPACITY]` | Specify the ngo capacity | "[specify value]" |
+| `[NGO_SERVICE]` | Specify the ngo service | "[specify value]" |
+| `[SPECIAL_GROUPS]` | Specify the special groups | "[specify value]" |
+| `[SPECIAL_CONCERNS]` | Specify the special concerns | "[specify value]" |
+| `[SPECIAL_NEGOTIATE]` | Specify the special negotiate | "[specify value]" |
+| `[SPECIAL_MITIGATE]` | Specify the special mitigate | "[specify value]" |
+| `[OPTION_A]` | Specify the option a | "[specify value]" |
+| `[COST_A]` | Specify the cost a | "[specify value]" |
+| `[TIME_A]` | Specify the time a | "[specify value]" |
+| `[EFFECT_A]` | Specify the effect a | "[specify value]" |
+| `[FEASIBLE_A]` | Specify the feasible a | "[specify value]" |
+| `[RISK_A]` | Specify the risk a | "[specify value]" |
+| `[OPTION_B]` | Specify the option b | "[specify value]" |
+| `[COST_B]` | Specify the cost b | "[specify value]" |
+| `[TIME_B]` | Specify the time b | "[specify value]" |
+| `[EFFECT_B]` | Specify the effect b | "[specify value]" |
+| `[FEASIBLE_B]` | Specify the feasible b | "[specify value]" |
+| `[RISK_B]` | Specify the risk b | "[specify value]" |
+| `[OPTION_C]` | Specify the option c | "[specify value]" |
+| `[COST_C]` | Specify the cost c | "[specify value]" |
+| `[TIME_C]` | Specify the time c | "[specify value]" |
+| `[EFFECT_C]` | Specify the effect c | "[specify value]" |
+| `[FEASIBLE_C]` | Specify the feasible c | "[specify value]" |
+| `[RISK_C]` | Specify the risk c | "[specify value]" |
+| `[OPTION_HYBRID]` | Specify the option hybrid | "[specify value]" |
+| `[COST_HYBRID]` | Specify the cost hybrid | "[specify value]" |
+| `[TIME_HYBRID]` | Specify the time hybrid | "[specify value]" |
+| `[EFFECT_HYBRID]` | Specify the effect hybrid | "[specify value]" |
+| `[FEASIBLE_HYBRID]` | Specify the feasible hybrid | "[specify value]" |
+| `[RISK_HYBRID]` | Specify the risk hybrid | "[specify value]" |
+| `[COST_SQ]` | Specify the cost sq | "[specify value]" |
+| `[EFFECT_SQ]` | Specify the effect sq | "[specify value]" |
+| `[FEASIBLE_SQ]` | Specify the feasible sq | "[specify value]" |
+| `[RISK_SQ]` | Specify the risk sq | "[specify value]" |
+| `[FED_CURRENT]` | Specify the fed current | "[specify value]" |
+| `[FED_CHANGES]` | Specify the fed changes | "[specify value]" |
+| `[FED_PROCESS]` | Specify the fed process | "[specify value]" |
+| `[FED_TIME]` | Specify the fed time | "[specify value]" |
+| `[FED_OPPOSE]` | Specify the fed oppose | "[specify value]" |
+| `[STATE_CURRENT]` | Specify the state current | "[specify value]" |
+| `[STATE_CHANGES]` | Specify the state changes | "[specify value]" |
+| `[STATE_PROCESS]` | Specify the state process | "[specify value]" |
+| `[STATE_TIME]` | Specify the state time | "[specify value]" |
+| `[STATE_OPPOSE]` | Specify the state oppose | "[specify value]" |
+| `[LOCAL_CURRENT]` | Specify the local current | "[specify value]" |
+| `[LOCAL_CHANGES]` | Specify the local changes | "[specify value]" |
+| `[LOCAL_PROCESS]` | Specify the local process | "[specify value]" |
+| `[LOCAL_TIME]` | Specify the local time | "[specify value]" |
+| `[LOCAL_OPPOSE]` | Specify the local oppose | "[specify value]" |
+| `[ADMIN_CURRENT]` | Specify the admin current | "[specify value]" |
+| `[ADMIN_CHANGES]` | Specify the admin changes | "[specify value]" |
+| `[ADMIN_PROCESS]` | Specify the admin process | "[specify value]" |
+| `[ADMIN_TIME]` | Specify the admin time | "[specify value]" |
+| `[ADMIN_OPPOSE]` | Specify the admin oppose | "[specify value]" |
+| `[EXEC_CURRENT]` | Specify the exec current | "[specify value]" |
+| `[EXEC_CHANGES]` | Specify the exec changes | "[specify value]" |
+| `[EXEC_PROCESS]` | Specify the exec process | "[specify value]" |
+| `[EXEC_TIME]` | Specify the exec time | "[specify value]" |
+| `[EXEC_OPPOSE]` | Specify the exec oppose | "[specify value]" |
+| `[PREP_DURATION]` | Specify the prep duration | "6 months" |
+| `[LEG_APPROVAL]` | Specify the leg approval | "[specify value]" |
+| `[BUDGET_ALLOC]` | Budget allocation for alloc | "$500,000" |
+| `[STAFF_RECRUIT]` | Specify the staff recruit | "[specify value]" |
+| `[SYSTEM_DEV]` | Specify the system dev | "[specify value]" |
+| `[TRAINING_PROG]` | Specify the training prog | "[specify value]" |
+| `[PILOT_DURATION]` | Specify the pilot duration | "6 months" |
+| `[PILOT_LOCATIONS]` | Specify the pilot locations | "North America" |
+| `[PILOT_PARTICIPANTS]` | Specify the pilot participants | "[specify value]" |
+| `[PILOT_METRICS]` | Specify the pilot metrics | "[specify value]" |
+| `[PILOT_FEEDBACK]` | Specify the pilot feedback | "[specify value]" |
+| `[PILOT_ADJUST]` | Specify the pilot adjust | "[specify value]" |
+| `[ROLLOUT_DURATION]` | Specify the rollout duration | "6 months" |
+| `[ROLLOUT_COVERAGE]` | Specify the rollout coverage | "[specify value]" |
+| `[ROLLOUT_POINTS]` | Specify the rollout points | "[specify value]" |
+| `[ROLLOUT_CAPACITY]` | Specify the rollout capacity | "[specify value]" |
+| `[ROLLOUT_COMM]` | Specify the rollout comm | "[specify value]" |
+| `[ROLLOUT_SUPPORT]` | Specify the rollout support | "[specify value]" |
+| `[OPTIMIZE_DURATION]` | Specify the optimize duration | "6 months" |
+| `[OPTIMIZE_REVIEW]` | Specify the optimize review | "[specify value]" |
+| `[OPTIMIZE_PROCESS]` | Specify the optimize process | "[specify value]" |
+| `[OPTIMIZE_TECH]` | Specify the optimize tech | "[specify value]" |
+| `[OPTIMIZE_SCALE]` | Specify the optimize scale | "[specify value]" |
+| `[PERSON_Y1]` | Specify the person y1 | "[specify value]" |
+| `[PERSON_Y2]` | Specify the person y2 | "[specify value]" |
+| `[PERSON_Y3]` | Specify the person y3 | "[specify value]" |
+| `[PERSON_5Y]` | Specify the person 5y | "[specify value]" |
+| `[PERSON_ROI]` | Specify the person roi | "[specify value]" |
+| `[TECH_Y1]` | Specify the tech y1 | "[specify value]" |
+| `[TECH_Y2]` | Specify the tech y2 | "[specify value]" |
+| `[TECH_Y3]` | Specify the tech y3 | "[specify value]" |
+| `[TECH_5Y]` | Specify the tech 5y | "[specify value]" |
+| `[TECH_ROI]` | Specify the tech roi | "[specify value]" |
+| `[INFRA_Y1]` | Specify the infra y1 | "[specify value]" |
+| `[INFRA_Y2]` | Specify the infra y2 | "[specify value]" |
+| `[INFRA_Y3]` | Specify the infra y3 | "[specify value]" |
+| `[INFRA_5Y]` | Specify the infra 5y | "[specify value]" |
+| `[INFRA_ROI]` | Specify the infra roi | "[specify value]" |
+| `[PROG_Y1]` | Specify the prog y1 | "[specify value]" |
+| `[PROG_Y2]` | Specify the prog y2 | "[specify value]" |
+| `[PROG_Y3]` | Specify the prog y3 | "[specify value]" |
+| `[PROG_5Y]` | Specify the prog 5y | "[specify value]" |
+| `[PROG_ROI]` | Specify the prog roi | "[specify value]" |
+| `[COMM_Y1]` | Specify the comm y1 | "[specify value]" |
+| `[COMM_Y2]` | Specify the comm y2 | "[specify value]" |
+| `[COMM_Y3]` | Specify the comm y3 | "[specify value]" |
+| `[COMM_5Y]` | Specify the comm 5y | "[specify value]" |
+| `[COMM_ROI]` | Specify the comm roi | "[specify value]" |
+| `[CONT_Y1]` | Specify the cont y1 | "[specify value]" |
+| `[CONT_Y2]` | Specify the cont y2 | "[specify value]" |
+| `[CONT_Y3]` | Specify the cont y3 | "[specify value]" |
+| `[CONT_5Y]` | Specify the cont 5y | "[specify value]" |
+| `[TOWN_REACH]` | Specify the town reach | "[specify value]" |
+| `[TOWN_FREQ]` | Specify the town freq | "[specify value]" |
+| `[TOWN_COST]` | Specify the town cost | "[specify value]" |
+| `[TOWN_EFFECT]` | Specify the town effect | "[specify value]" |
+| `[TOWN_QUALITY]` | Specify the town quality | "[specify value]" |
+| `[SURVEY_REACH]` | Specify the survey reach | "[specify value]" |
+| `[SURVEY_FREQ]` | Specify the survey freq | "[specify value]" |
+| `[SURVEY_COST]` | Specify the survey cost | "[specify value]" |
+| `[SURVEY_EFFECT]` | Specify the survey effect | "[specify value]" |
+| `[SURVEY_QUALITY]` | Specify the survey quality | "[specify value]" |
+| `[FOCUS_REACH]` | Specify the focus reach | "[specify value]" |
+| `[FOCUS_FREQ]` | Specify the focus freq | "[specify value]" |
+| `[FOCUS_COST]` | Specify the focus cost | "[specify value]" |
+| `[FOCUS_EFFECT]` | Specify the focus effect | "[specify value]" |
+| `[FOCUS_QUALITY]` | Specify the focus quality | "[specify value]" |
+| `[ADVISORY_REACH]` | Specify the advisory reach | "[specify value]" |
+| `[ADVISORY_FREQ]` | Specify the advisory freq | "[specify value]" |
+| `[ADVISORY_COST]` | Specify the advisory cost | "[specify value]" |
+| `[ADVISORY_EFFECT]` | Specify the advisory effect | "[specify value]" |
+| `[ADVISORY_QUALITY]` | Specify the advisory quality | "[specify value]" |
+| `[DIGITAL_REACH]` | Specify the digital reach | "[specify value]" |
+| `[DIGITAL_FREQ]` | Specify the digital freq | "[specify value]" |
+| `[DIGITAL_COST]` | Specify the digital cost | "[specify value]" |
+| `[DIGITAL_EFFECT]` | Specify the digital effect | "[specify value]" |
+| `[DIGITAL_QUALITY]` | Specify the digital quality | "[specify value]" |
+| `[PRIMARY_METRIC]` | Specify the primary metric | "[specify value]" |
+| `[PRIMARY_TARGET]` | Target or intended primary | "[specify value]" |
+| `[PRIMARY_CURRENT]` | Specify the primary current | "[specify value]" |
+| `[PRIMARY_PROGRESS]` | Specify the primary progress | "[specify value]" |
+| `[SECONDARY_METRICS]` | Specify the secondary metrics | "[specify value]" |
+| `[SECONDARY_TARGETS]` | Target or intended secondary s | "[specify value]" |
+| `[SECONDARY_ACHIEVE]` | Specify the secondary achieve | "[specify value]" |
+| `[SERVICE_METRIC]` | Specify the service metric | "[specify value]" |
+| `[EFFICIENCY_METRIC]` | Specify the efficiency metric | "[specify value]" |
+| `[QUALITY_METRIC]` | Specify the quality metric | "[specify value]" |
+| `[ACCESS_METRIC]` | Specify the access metric | "[specify value]" |
+| `[SATISFACTION_METRIC]` | Specify the satisfaction metric | "[specify value]" |
+| `[ECONOMIC_IMPACT]` | Specify the economic impact | "[specify value]" |
+| `[SOCIAL_BENEFITS]` | Specify the social benefits | "[specify value]" |
+| `[ENVIRON_EFFECT]` | Specify the environ effect | "[specify value]" |
+| `[HEALTH_OUTCOMES]` | Specify the health outcomes | "[specify value]" |
+| `[EQUITY_MEASURES]` | Specify the equity measures | "[specify value]" |
+| `[POL_PROB]` | Specify the pol prob | "[specify value]" |
+| `[POL_IMPACT]` | Specify the pol impact | "[specify value]" |
+| `[POL_SCORE]` | Specify the pol score | "[specify value]" |
+| `[POL_MITIGATE]` | Specify the pol mitigate | "[specify value]" |
+| `[POL_CONTINGENCY]` | Specify the pol contingency | "[specify value]" |
+| `[FIN_PROB]` | Specify the fin prob | "[specify value]" |
+| `[FIN_IMPACT]` | Specify the fin impact | "[specify value]" |
+| `[FIN_SCORE]` | Specify the fin score | "[specify value]" |
+| `[FIN_MITIGATE]` | Specify the fin mitigate | "[specify value]" |
+| `[FIN_CONTINGENCY]` | Specify the fin contingency | "[specify value]" |
+| `[OP_PROB]` | Specify the op prob | "[specify value]" |
+| `[OP_IMPACT]` | Specify the op impact | "[specify value]" |
+| `[OP_SCORE]` | Specify the op score | "[specify value]" |
+| `[OP_MITIGATE]` | Specify the op mitigate | "[specify value]" |
+| `[OP_CONTINGENCY]` | Specify the op contingency | "[specify value]" |
+| `[LEG_PROB]` | Specify the leg prob | "[specify value]" |
+| `[LEG_IMPACT]` | Specify the leg impact | "[specify value]" |
+| `[LEG_SCORE]` | Specify the leg score | "[specify value]" |
+| `[LEG_MITIGATE]` | Specify the leg mitigate | "[specify value]" |
+| `[LEG_CONTINGENCY]` | Specify the leg contingency | "[specify value]" |
+| `[REP_PROB]` | Specify the rep prob | "[specify value]" |
+| `[REP_IMPACT]` | Specify the rep impact | "[specify value]" |
+| `[REP_SCORE]` | Specify the rep score | "[specify value]" |
+| `[REP_MITIGATE]` | Specify the rep mitigate | "[specify value]" |
+| `[REP_CONTINGENCY]` | Specify the rep contingency | "[specify value]" |
+| `[TECH_PROB]` | Specify the tech prob | "[specify value]" |
+| `[TECH_IMPACT]` | Specify the tech impact | "[specify value]" |
+| `[TECH_SCORE]` | Specify the tech score | "[specify value]" |
+| `[TECH_MITIGATE]` | Specify the tech mitigate | "[specify value]" |
+| `[TECH_CONTINGENCY]` | Specify the tech contingency | "[specify value]" |
+| `[FIN_5YEAR]` | Specify the fin 5year | "[specify value]" |
+| `[FIN_10YEAR]` | Specify the fin 10year | "[specify value]" |
+| `[FIN_SUCCESS]` | Specify the fin success | "[specify value]" |
+| `[FIN_CHALLENGE]` | Specify the fin challenge | "[specify value]" |
+| `[FIN_ADAPT]` | Specify the fin adapt | "[specify value]" |
+| `[INST_5YEAR]` | Specify the inst 5year | "[specify value]" |
+| `[INST_10YEAR]` | Specify the inst 10year | "[specify value]" |
+| `[INST_SUCCESS]` | Specify the inst success | "[specify value]" |
+| `[INST_CHALLENGE]` | Specify the inst challenge | "[specify value]" |
+| `[INST_ADAPT]` | Specify the inst adapt | "[specify value]" |
+| `[SOC_5YEAR]` | Specify the soc 5year | "[specify value]" |
+| `[SOC_10YEAR]` | Specify the soc 10year | "[specify value]" |
+| `[SOC_SUCCESS]` | Specify the soc success | "[specify value]" |
+| `[SOC_CHALLENGE]` | Specify the soc challenge | "[specify value]" |
+| `[SOC_ADAPT]` | Specify the soc adapt | "[specify value]" |
+| `[ENV_5YEAR]` | Specify the env 5year | "[specify value]" |
+| `[ENV_10YEAR]` | Specify the env 10year | "[specify value]" |
+| `[ENV_SUCCESS]` | Specify the env success | "[specify value]" |
+| `[ENV_CHALLENGE]` | Specify the env challenge | "[specify value]" |
+| `[ENV_ADAPT]` | Specify the env adapt | "[specify value]" |
+| `[TECH_5YEAR]` | Specify the tech 5year | "[specify value]" |
+| `[TECH_10YEAR]` | Specify the tech 10year | "[specify value]" |
+| `[TECH_SUCCESS]` | Specify the tech success | "[specify value]" |
+| `[TECH_CHALLENGE]` | Specify the tech challenge | "[specify value]" |
+| `[TECH_ADAPT]` | Specify the tech adapt | "[specify value]" |
+
+
 
 ### 3. Policy Options & Analysis
 

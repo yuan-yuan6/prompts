@@ -1,3 +1,17 @@
+---
+title: Curriculum Development & Design Template
+category: education/Teaching & Instruction
+tags: [design, development, education, machine-learning, research, strategy, template]
+use_cases:
+  - Implementing create comprehensive curriculum frameworks for educational programs, including c...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - curriculum-development.md
+  - curriculum-development-framework.md
+last_updated: 2025-11-09
+---
+
 # Curriculum Development & Design Template
 
 ## Purpose

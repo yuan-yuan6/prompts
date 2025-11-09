@@ -1,3 +1,16 @@
+---
+title: Scientific Research & Laboratory Management Framework
+category: education/research/Scientific Research
+tags: [data-science, design, education, framework, management, research, security, strategy]
+use_cases:
+  - Implementing comprehensive framework for scientific research project management, laboratory o...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - clinical-trial-protocol.md
+last_updated: 2025-11-09
+---
+
 # Scientific Research & Laboratory Management Framework
 
 ## Purpose
@@ -50,6 +63,275 @@ Resource Management:
 - Computing Resources: [COMPUTING]
 - Waste Management: [WASTE_MGMT]
 ```
+
+## Variables
+
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `[INSTITUTION_NAME]` | Name of the institution | "John Smith" |
+| `[RESEARCHER_COUNT]` | Specify the researcher count | "10" |
+| `[PROJECT_COUNT]` | Specify the project count | "10" |
+| `[FUNDING_AMOUNT]` | Specify the funding amount | "[specify value]" |
+| `[PUBLICATION_TARGET]` | Target or intended publication | "[specify value]" |
+| `[PATENT_TARGET]` | Target or intended patent | "[specify value]" |
+| `[IMPACT_FACTOR]` | Specify the impact factor | "[specify value]" |
+| `[AREA_1]` | Specify the area 1 | "[specify value]" |
+| `[PROJ_1]` | Specify the proj 1 | "[specify value]" |
+| `[FUND_1]` | Specify the fund 1 | "[specify value]" |
+| `[RESEARCH_1]` | Specify the research 1 | "[specify value]" |
+| `[PUB_1]` | Specify the pub 1 | "[specify value]" |
+| `[IMPACT_1]` | Specify the impact 1 | "[specify value]" |
+| `[AREA_2]` | Specify the area 2 | "[specify value]" |
+| `[PROJ_2]` | Specify the proj 2 | "[specify value]" |
+| `[FUND_2]` | Specify the fund 2 | "[specify value]" |
+| `[RESEARCH_2]` | Specify the research 2 | "[specify value]" |
+| `[PUB_2]` | Specify the pub 2 | "[specify value]" |
+| `[IMPACT_2]` | Specify the impact 2 | "[specify value]" |
+| `[AREA_3]` | Specify the area 3 | "[specify value]" |
+| `[PROJ_3]` | Specify the proj 3 | "[specify value]" |
+| `[FUND_3]` | Specify the fund 3 | "[specify value]" |
+| `[RESEARCH_3]` | Specify the research 3 | "[specify value]" |
+| `[PUB_3]` | Specify the pub 3 | "[specify value]" |
+| `[IMPACT_3]` | Specify the impact 3 | "[specify value]" |
+| `[AREA_4]` | Specify the area 4 | "[specify value]" |
+| `[PROJ_4]` | Specify the proj 4 | "[specify value]" |
+| `[FUND_4]` | Specify the fund 4 | "[specify value]" |
+| `[RESEARCH_4]` | Specify the research 4 | "[specify value]" |
+| `[PUB_4]` | Specify the pub 4 | "[specify value]" |
+| `[IMPACT_4]` | Specify the impact 4 | "[specify value]" |
+| `[AREA_5]` | Specify the area 5 | "[specify value]" |
+| `[PROJ_5]` | Specify the proj 5 | "[specify value]" |
+| `[FUND_5]` | Specify the fund 5 | "[specify value]" |
+| `[RESEARCH_5]` | Specify the research 5 | "[specify value]" |
+| `[PUB_5]` | Specify the pub 5 | "[specify value]" |
+| `[IMPACT_5]` | Specify the impact 5 | "[specify value]" |
+| `[EQUIP_TYPE]` | Type or category of equip | "Standard" |
+| `[EQUIP_UNITS]` | Specify the equip units | "[specify value]" |
+| `[EQUIP_UTIL]` | Specify the equip util | "[specify value]" |
+| `[EQUIP_MAINT]` | Specify the equip maint | "[specify value]" |
+| `[EQUIP_COST]` | Specify the equip cost | "[specify value]" |
+| `[CORE_NAME]` | Name of the core | "John Smith" |
+| `[CORE_SERVICES]` | Specify the core services | "[specify value]" |
+| `[CORE_HOURS]` | Specify the core hours | "[specify value]" |
+| `[CORE_RECOVERY]` | Specify the core recovery | "[specify value]" |
+| `[CORE_SAT]` | Specify the core sat | "[specify value]" |
+| `[SAFETY_TRAIN]` | Specify the safety train | "[specify value]" |
+| `[INCIDENT_RATE]` | Specify the incident rate | "[specify value]" |
+| `[COMPLIANCE]` | Specify the compliance | "[specify value]" |
+| `[INSPECTION]` | Specify the inspection | "[specify value]" |
+| `[CERTIFICATION]` | Specify the certification | "[specify value]" |
+| `[CHEM_INVENTORY]` | Specify the chem inventory | "[specify value]" |
+| `[BIO_MATERIALS]` | Specify the bio materials | "[specify value]" |
+| `[DATA_STORAGE]` | Specify the data storage | "[specify value]" |
+| `[COMPUTING]` | Specify the computing | "[specify value]" |
+| `[WASTE_MGMT]` | Specify the waste mgmt | "[specify value]" |
+| `[PROP_ACTIVE]` | Specify the prop active | "[specify value]" |
+| `[PROP_SUCCESS]` | Specify the prop success | "[specify value]" |
+| `[PROP_DURATION]` | Specify the prop duration | "6 months" |
+| `[PROP_VARIANCE]` | Specify the prop variance | "[specify value]" |
+| `[PROP_DELIVER]` | Specify the prop deliver | "[specify value]" |
+| `[INIT_ACTIVE]` | Specify the init active | "[specify value]" |
+| `[INIT_SUCCESS]` | Specify the init success | "[specify value]" |
+| `[INIT_DURATION]` | Specify the init duration | "6 months" |
+| `[INIT_VARIANCE]` | Specify the init variance | "[specify value]" |
+| `[INIT_DELIVER]` | Specify the init deliver | "[specify value]" |
+| `[DATA_ACTIVE]` | Specify the data active | "[specify value]" |
+| `[DATA_SUCCESS]` | Specify the data success | "[specify value]" |
+| `[DATA_DURATION]` | Specify the data duration | "6 months" |
+| `[DATA_VARIANCE]` | Specify the data variance | "[specify value]" |
+| `[DATA_DELIVER]` | Specify the data deliver | "[specify value]" |
+| `[ANAL_ACTIVE]` | Specify the anal active | "[specify value]" |
+| `[ANAL_SUCCESS]` | Specify the anal success | "[specify value]" |
+| `[ANAL_DURATION]` | Specify the anal duration | "6 months" |
+| `[ANAL_VARIANCE]` | Specify the anal variance | "[specify value]" |
+| `[ANAL_DELIVER]` | Specify the anal deliver | "[specify value]" |
+| `[PUB_ACTIVE]` | Specify the pub active | "[specify value]" |
+| `[PUB_SUCCESS]` | Specify the pub success | "[specify value]" |
+| `[PUB_DURATION]` | Specify the pub duration | "6 months" |
+| `[PUB_VARIANCE]` | Specify the pub variance | "[specify value]" |
+| `[PUB_DELIVER]` | Specify the pub deliver | "[specify value]" |
+| `[COMM_ACTIVE]` | Specify the comm active | "[specify value]" |
+| `[COMM_SUCCESS]` | Specify the comm success | "[specify value]" |
+| `[COMM_DURATION]` | Specify the comm duration | "6 months" |
+| `[COMM_VARIANCE]` | Specify the comm variance | "[specify value]" |
+| `[COMM_DELIVER]` | Specify the comm deliver | "[specify value]" |
+| `[FED_GRANTS]` | Specify the fed grants | "[specify value]" |
+| `[FED_VALUE]` | Specify the fed value | "[specify value]" |
+| `[FED_SUCCESS]` | Specify the fed success | "[specify value]" |
+| `[FED_AVG]` | Specify the fed avg | "[specify value]" |
+| `[FED_RENEWAL]` | Specify the fed renewal | "[specify value]" |
+| `[STATE_GRANTS]` | Specify the state grants | "[specify value]" |
+| `[STATE_VALUE]` | Specify the state value | "[specify value]" |
+| `[STATE_SUCCESS]` | Specify the state success | "[specify value]" |
+| `[STATE_AVG]` | Specify the state avg | "[specify value]" |
+| `[STATE_RENEWAL]` | Specify the state renewal | "[specify value]" |
+| `[PRIV_GRANTS]` | Specify the priv grants | "[specify value]" |
+| `[PRIV_VALUE]` | Specify the priv value | "[specify value]" |
+| `[PRIV_SUCCESS]` | Specify the priv success | "[specify value]" |
+| `[PRIV_AVG]` | Specify the priv avg | "[specify value]" |
+| `[PRIV_RENEWAL]` | Specify the priv renewal | "[specify value]" |
+| `[IND_GRANTS]` | Specify the ind grants | "[specify value]" |
+| `[IND_VALUE]` | Specify the ind value | "[specify value]" |
+| `[IND_SUCCESS]` | Specify the ind success | "[specify value]" |
+| `[IND_AVG]` | Specify the ind avg | "[specify value]" |
+| `[IND_RENEWAL]` | Specify the ind renewal | "[specify value]" |
+| `[INT_GRANTS]` | Specify the int grants | "[specify value]" |
+| `[INT_VALUE]` | Specify the int value | "[specify value]" |
+| `[INT_SUCCESS]` | Specify the int success | "[specify value]" |
+| `[INT_AVG]` | Specify the int avg | "[specify value]" |
+| `[INT_RENEWAL]` | Specify the int renewal | "[specify value]" |
+| `[JOURNAL_TOTAL]` | Specify the journal total | "[specify value]" |
+| `[Q1_JOURNALS]` | Specify the q1 journals | "[specify value]" |
+| `[AVG_IF]` | Specify the avg if | "[specify value]" |
+| `[CITATIONS]` | Specify the citations | "[specify value]" |
+| `[H_INDEX]` | Specify the h index | "[specify value]" |
+| `[ORAL_PRES]` | Specify the oral pres | "[specify value]" |
+| `[POSTER_PRES]` | Specify the poster pres | "[specify value]" |
+| `[KEYNOTE]` | Specify the keynote | "[specify value]" |
+| `[INTL_CONF]` | Specify the intl conf | "[specify value]" |
+| `[BOOKS_AUTH]` | Specify the books auth | "[specify value]" |
+| `[CHAPTERS]` | Specify the chapters | "[specify value]" |
+| `[EDITED_VOL]` | Specify the edited vol | "[specify value]" |
+| `[PATENTS_FILED]` | Specify the patents filed | "[specify value]" |
+| `[PATENTS_GRANTED]` | Specify the patents granted | "[specify value]" |
+| `[LICENSES]` | Specify the licenses | "[specify value]" |
+| `[IP_REVENUE]` | Specify the ip revenue | "[specify value]" |
+| `[OPEN_ACCESS]` | Specify the open access | "[specify value]" |
+| `[DATA_REPOS]` | Specify the data repos | "[specify value]" |
+| `[PREPRINTS]` | Specify the preprints | "[specify value]" |
+| `[CODE_SHARE]` | Specify the code share | "[specify value]" |
+| `[ACAD_PARTNERS]` | Specify the acad partners | "[specify value]" |
+| `[ACAD_PROJECTS]` | Specify the acad projects | "[specify value]" |
+| `[ACAD_PUBS]` | Specify the acad pubs | "[specify value]" |
+| `[ACAD_FUNDING]` | Specify the acad funding | "[specify value]" |
+| `[ACAD_IMPACT]` | Specify the acad impact | "[specify value]" |
+| `[IND_PARTNERS]` | Specify the ind partners | "[specify value]" |
+| `[IND_PROJECTS]` | Specify the ind projects | "[specify value]" |
+| `[IND_PUBS]` | Specify the ind pubs | "[specify value]" |
+| `[IND_FUNDING]` | Specify the ind funding | "[specify value]" |
+| `[IND_IMPACT]` | Specify the ind impact | "[specify value]" |
+| `[GOV_PARTNERS]` | Specify the gov partners | "[specify value]" |
+| `[GOV_PROJECTS]` | Specify the gov projects | "[specify value]" |
+| `[GOV_PUBS]` | Specify the gov pubs | "[specify value]" |
+| `[GOV_FUNDING]` | Specify the gov funding | "[specify value]" |
+| `[GOV_IMPACT]` | Specify the gov impact | "[specify value]" |
+| `[INTL_PARTNERS]` | Specify the intl partners | "[specify value]" |
+| `[INTL_PROJECTS]` | Specify the intl projects | "[specify value]" |
+| `[INTL_PUBS]` | Specify the intl pubs | "[specify value]" |
+| `[INTL_FUNDING]` | Specify the intl funding | "[specify value]" |
+| `[INTL_IMPACT]` | Specify the intl impact | "[specify value]" |
+| `[INTER_PARTNERS]` | Specify the inter partners | "[specify value]" |
+| `[INTER_PROJECTS]` | Specify the inter projects | "[specify value]" |
+| `[INTER_PUBS]` | Specify the inter pubs | "[specify value]" |
+| `[INTER_FUNDING]` | Specify the inter funding | "[specify value]" |
+| `[INTER_IMPACT]` | Specify the inter impact | "[specify value]" |
+| `[RAW_VOLUME]` | Specify the raw volume | "[specify value]" |
+| `[RAW_STORAGE]` | Specify the raw storage | "[specify value]" |
+| `[RAW_ACCESS]` | Specify the raw access | "[specify value]" |
+| `[RAW_BACKUP]` | Specify the raw backup | "[specify value]" |
+| `[RAW_RETENTION]` | Specify the raw retention | "[specify value]" |
+| `[PROC_VOLUME]` | Specify the proc volume | "[specify value]" |
+| `[PROC_STORAGE]` | Specify the proc storage | "[specify value]" |
+| `[PROC_ACCESS]` | Specify the proc access | "[specify value]" |
+| `[PROC_BACKUP]` | Specify the proc backup | "[specify value]" |
+| `[PROC_RETENTION]` | Specify the proc retention | "[specify value]" |
+| `[ANAL_VOLUME]` | Specify the anal volume | "[specify value]" |
+| `[ANAL_STORAGE]` | Specify the anal storage | "[specify value]" |
+| `[ANAL_ACCESS]` | Specify the anal access | "[specify value]" |
+| `[ANAL_BACKUP]` | Specify the anal backup | "[specify value]" |
+| `[ANAL_RETENTION]` | Specify the anal retention | "[specify value]" |
+| `[PUB_VOLUME]` | Specify the pub volume | "[specify value]" |
+| `[PUB_STORAGE]` | Specify the pub storage | "[specify value]" |
+| `[PUB_ACCESS]` | Specify the pub access | "[specify value]" |
+| `[PUB_BACKUP]` | Specify the pub backup | "[specify value]" |
+| `[PUB_RETENTION]` | Specify the pub retention | "[specify value]" |
+| `[CODE_VOLUME]` | Specify the code volume | "[specify value]" |
+| `[CODE_STORAGE]` | Specify the code storage | "[specify value]" |
+| `[CODE_ACCESS]` | Specify the code access | "[specify value]" |
+| `[CODE_BACKUP]` | Specify the code backup | "[specify value]" |
+| `[CODE_RETENTION]` | Specify the code retention | "[specify value]" |
+| `[FACULTY_COUNT]` | Specify the faculty count | "10" |
+| `[FACULTY_GRANTS]` | Specify the faculty grants | "[specify value]" |
+| `[FACULTY_PUBS]` | Specify the faculty pubs | "[specify value]" |
+| `[FACULTY_MENTOR]` | Specify the faculty mentor | "[specify value]" |
+| `[POSTDOC_COUNT]` | Specify the postdoc count | "10" |
+| `[POSTDOC_DUR]` | Specify the postdoc dur | "[specify value]" |
+| `[POSTDOC_PUBS]` | Specify the postdoc pubs | "[specify value]" |
+| `[POSTDOC_PLACE]` | Specify the postdoc place | "[specify value]" |
+| `[PHD_COUNT]` | Specify the phd count | "10" |
+| `[MASTERS_COUNT]` | Specify the masters count | "10" |
+| `[GRAD_COMPLETE]` | Specify the grad complete | "[specify value]" |
+| `[GRAD_TIME]` | Specify the grad time | "[specify value]" |
+| `[TECH_STAFF]` | Specify the tech staff | "[specify value]" |
+| `[ADMIN_STAFF]` | Specify the admin staff | "[specify value]" |
+| `[STAFF_RETAIN]` | Specify the staff retain | "[specify value]" |
+| `[STAFF_TRAIN]` | Specify the staff train | "[specify value]" |
+| `[TRAIN_PROGRAMS]` | Specify the train programs | "[specify value]" |
+| `[CONF_SUPPORT]` | Specify the conf support | "[specify value]" |
+| `[SKILL_DEV]` | Specify the skill dev | "[specify value]" |
+| `[MENTOR_PROG]` | Specify the mentor prog | "[specify value]" |
+| `[IRB_STATUS]` | Specify the irb status | "In Progress" |
+| `[IRB_REVIEW]` | Specify the irb review | "[specify value]" |
+| `[IRB_VIOLATE]` | Specify the irb violate | "[specify value]" |
+| `[IRB_TRAIN]` | Specify the irb train | "[specify value]" |
+| `[IRB_DOCS]` | Specify the irb docs | "[specify value]" |
+| `[IACUC_STATUS]` | Specify the iacuc status | "In Progress" |
+| `[IACUC_REVIEW]` | Specify the iacuc review | "[specify value]" |
+| `[IACUC_VIOLATE]` | Specify the iacuc violate | "[specify value]" |
+| `[IACUC_TRAIN]` | Specify the iacuc train | "[specify value]" |
+| `[IACUC_DOCS]` | Specify the iacuc docs | "[specify value]" |
+| `[BIO_STATUS]` | Specify the bio status | "In Progress" |
+| `[BIO_REVIEW]` | Specify the bio review | "[specify value]" |
+| `[BIO_VIOLATE]` | Specify the bio violate | "[specify value]" |
+| `[BIO_TRAIN]` | Specify the bio train | "[specify value]" |
+| `[BIO_DOCS]` | Specify the bio docs | "[specify value]" |
+| `[PRIV_STATUS]` | Specify the priv status | "In Progress" |
+| `[PRIV_REVIEW]` | Specify the priv review | "[specify value]" |
+| `[PRIV_VIOLATE]` | Specify the priv violate | "[specify value]" |
+| `[PRIV_TRAIN]` | Specify the priv train | "[specify value]" |
+| `[PRIV_DOCS]` | Specify the priv docs | "[specify value]" |
+| `[INTEG_STATUS]` | Specify the integ status | "In Progress" |
+| `[INTEG_REVIEW]` | Specify the integ review | "[specify value]" |
+| `[INTEG_VIOLATE]` | Specify the integ violate | "[specify value]" |
+| `[INTEG_TRAIN]` | Specify the integ train | "[specify value]" |
+| `[INTEG_DOCS]` | Specify the integ docs | "[specify value]" |
+| `[EXPORT_STATUS]` | Specify the export status | "In Progress" |
+| `[EXPORT_REVIEW]` | Specify the export review | "[specify value]" |
+| `[EXPORT_VIOLATE]` | Specify the export violate | "[specify value]" |
+| `[EXPORT_TRAIN]` | Specify the export train | "[specify value]" |
+| `[EXPORT_DOCS]` | Specify the export docs | "[specify value]" |
+| `[SCI_CURRENT]` | Specify the sci current | "[specify value]" |
+| `[SCI_TARGET]` | Target or intended sci | "[specify value]" |
+| `[SCI_STRATEGY]` | Strategy or approach for sci | "[specify value]" |
+| `[SCI_INVEST]` | Specify the sci invest | "[specify value]" |
+| `[SCI_TIME]` | Specify the sci time | "[specify value]" |
+| `[SOC_CURRENT]` | Specify the soc current | "[specify value]" |
+| `[SOC_TARGET]` | Target or intended soc | "[specify value]" |
+| `[SOC_STRATEGY]` | Strategy or approach for soc | "[specify value]" |
+| `[SOC_INVEST]` | Specify the soc invest | "[specify value]" |
+| `[SOC_TIME]` | Specify the soc time | "[specify value]" |
+| `[ECON_CURRENT]` | Specify the econ current | "[specify value]" |
+| `[ECON_TARGET]` | Target or intended econ | "[specify value]" |
+| `[ECON_STRATEGY]` | Strategy or approach for econ | "[specify value]" |
+| `[ECON_INVEST]` | Specify the econ invest | "[specify value]" |
+| `[ECON_TIME]` | Specify the econ time | "[specify value]" |
+| `[TECH_CURRENT]` | Specify the tech current | "[specify value]" |
+| `[TECH_TARGET]` | Target or intended tech | "[specify value]" |
+| `[TECH_STRATEGY]` | Strategy or approach for tech | "[specify value]" |
+| `[TECH_INVEST]` | Specify the tech invest | "[specify value]" |
+| `[TECH_TIME]` | Specify the tech time | "[specify value]" |
+| `[START_CURRENT]` | Specify the start current | "[specify value]" |
+| `[START_TARGET]` | Target or intended start | "[specify value]" |
+| `[START_STRATEGY]` | Strategy or approach for start | "[specify value]" |
+| `[START_INVEST]` | Specify the start invest | "[specify value]" |
+| `[START_TIME]` | Specify the start time | "[specify value]" |
+| `[POLICY_CURRENT]` | Specify the policy current | "[specify value]" |
+| `[POLICY_TARGET]` | Target or intended policy | "[specify value]" |
+| `[POLICY_STRATEGY]` | Strategy or approach for policy | "[specify value]" |
+| `[POLICY_INVEST]` | Specify the policy invest | "[specify value]" |
+| `[POLICY_TIME]` | Specify the policy time | "[specify value]" |
+
+
 
 ### 3. Research Project Management
 

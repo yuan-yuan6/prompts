@@ -1,3 +1,18 @@
+---
+title: Patient Safety Programs Template
+category: healthcare/Healthcare Administration
+tags: [communication, design, healthcare, management, template, testing]
+use_cases:
+  - Implementing create comprehensive patient safety initiatives, error prevention systems, safet...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - telemedicine-platform-design.md
+  - patient-care-pathway.md
+  - clinical-trials-management.md
+last_updated: 2025-11-09
+---
+
 # Patient Safety Programs Template
 
 ## Purpose

@@ -1,3 +1,17 @@
+---
+title: Course Design Template Generator
+category: education/Teaching & Instruction
+tags: [design, development, education, research, template]
+use_cases:
+  - Implementing create comprehensive course design strategies covering syllabus development, lea...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - curriculum-development.md
+  - curriculum-development-framework.md
+last_updated: 2025-11-09
+---
+
 # Course Design Template Generator
 
 ## Purpose

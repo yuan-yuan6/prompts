@@ -1,3 +1,18 @@
+---
+title: Treatment Planning Template
+category: healthcare/Clinical Practice
+tags: [documentation, healthcare, optimization, strategy, template, testing]
+use_cases:
+  - Implementing develop comprehensive treatment plans including protocols, care plans, and clini...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - telemedicine-platform-design.md
+  - patient-care-pathway.md
+  - clinical-trials-management.md
+last_updated: 2025-11-09
+---
+
 # Treatment Planning Template
 
 ## Purpose

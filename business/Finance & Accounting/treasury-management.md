@@ -1,3 +1,18 @@
+---
+title: Treasury Management Template Generator
+category: business/Finance & Accounting
+tags: [business, design, development, machine-learning, management, optimization, security, strategy]
+use_cases:
+  - Implementing create comprehensive treasury management strategies covering cash flow managemen...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - okr-implementation-framework.md
+  - digital-transformation-roadmap.md
+  - lean-six-sigma-implementation.md
+last_updated: 2025-11-09
+---
+
 # Treasury Management Template Generator
 
 ## Purpose

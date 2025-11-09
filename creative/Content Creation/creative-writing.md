@@ -1,3 +1,17 @@
+---
+title: Creative Writing Template
+category: creative/Content Creation
+tags: [automation, communication, creative, design, development, template]
+use_cases:
+  - Implementing generate compelling creative writing including stories, scripts, poetry, novels,...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - creative-writing-framework.md
+  - video-production-pipeline.md
+last_updated: 2025-11-09
+---
+
 # Creative Writing Template
 
 ## Purpose
@@ -143,6 +157,73 @@ Plot Structure:
 - Maintain deliberate pacing with sustained moral tension
 - Conclude with satisfying redemption and new understanding resolution
 ```
+
+## Variables
+
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `{project_title}` | Specify the project title | "[specify value]" |
+| `{writing_type}` | Specify the writing type | "Standard" |
+| `{genre}` | Specify the genre | "[specify value]" |
+| `{target_audience}` | Specify the target audience | "[specify value]" |
+| `{content_length}` | Specify the content length | "[specify value]" |
+| `{deadline}` | Specify the deadline | "[specify value]" |
+| `{writing_purpose}` | Specify the writing purpose | "[specify value]" |
+| `{publication_platform}` | Specify the publication platform | "[specify value]" |
+| `{writing_budget}` | Specify the writing budget | "$500,000" |
+| `{style_requirements}` | Specify the style requirements | "[specify value]" |
+| `{theme}` | Specify the theme | "[specify value]" |
+| `{setting}` | Specify the setting | "[specify value]" |
+| `{time_period}` | Specify the time period | "[specify value]" |
+| `{location}` | Specify the location | "North America" |
+| `{atmosphere}` | Specify the atmosphere | "[specify value]" |
+| `{mood}` | Specify the mood | "[specify value]" |
+| `{tone}` | Specify the tone | "[specify value]" |
+| `{point_of_view}` | Specify the point of view | "[specify value]" |
+| `{narrative_style}` | Specify the narrative style | "[specify value]" |
+| `{literary_devices}` | Specify the literary devices | "[specify value]" |
+| `{main_characters}` | Specify the main characters | "[specify value]" |
+| `{supporting_characters}` | Specify the supporting characters | "[specify value]" |
+| `{character_arcs}` | Specify the character arcs | "[specify value]" |
+| `{personality_traits}` | Specify the personality traits | "[specify value]" |
+| `{background_stories}` | Specify the background stories | "[specify value]" |
+| `{character_motivations}` | Specify the character motivations | "[specify value]" |
+| `{character_conflicts}` | Specify the character conflicts | "[specify value]" |
+| `{character_relationships}` | Specify the character relationships | "[specify value]" |
+| `{dialogue_style}` | Specify the dialogue style | "[specify value]" |
+| `{character_voice}` | Specify the character voice | "[specify value]" |
+| `{plot_outline}` | Specify the plot outline | "[specify value]" |
+| `{opening_hook}` | Specify the opening hook | "[specify value]" |
+| `{rising_action}` | Specify the rising action | "[specify value]" |
+| `{climax}` | Specify the climax | "[specify value]" |
+| `{falling_action}` | Specify the falling action | "[specify value]" |
+| `{resolution}` | Specify the resolution | "[specify value]" |
+| `{subplots}` | Specify the subplots | "[specify value]" |
+| `{plot_twists}` | Specify the plot twists | "[specify value]" |
+| `{pacing}` | Specify the pacing | "[specify value]" |
+| `{tension}` | Specify the tension | "[specify value]" |
+| `{writing_style}` | Specify the writing style | "[specify value]" |
+| `{language_level}` | Specify the language level | "[specify value]" |
+| `{vocabulary}` | Specify the vocabulary | "[specify value]" |
+| `{sentence_structure}` | Specify the sentence structure | "[specify value]" |
+| `{paragraph_flow}` | Specify the paragraph flow | "[specify value]" |
+| `{transitions}` | Specify the transitions | "[specify value]" |
+| `{show_vs_tell}` | Specify the show vs tell | "[specify value]" |
+| `{imagery}` | Specify the imagery | "[specify value]" |
+| `{symbolism}` | Specify the symbolism | "[specify value]" |
+| `{metaphors}` | Specify the metaphors | "[specify value]" |
+| `{creativity_level}` | Specify the creativity level | "[specify value]" |
+| `{originality}` | Specify the originality | "[specify value]" |
+| `{innovation}` | Specify the innovation | "[specify value]" |
+| `{unique_angles}` | Specify the unique angles | "[specify value]" |
+| `{fresh_perspectives}` | Specify the fresh perspectives | "[specify value]" |
+| `{artistic_vision}` | Specify the artistic vision | "[specify value]" |
+| `{creative_risks}` | Specify the creative risks | "[specify value]" |
+| `{experimental_techniques}` | Specify the experimental techniques | "[specify value]" |
+| `{genre_blending}` | Specify the genre blending | "[specify value]" |
+| `{creative_constraints}` | Specify the creative constraints | "[specify value]" |
+
+
 
 ### Poetry Collection
 ```

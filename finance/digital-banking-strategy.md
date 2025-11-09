@@ -1,3 +1,14 @@
+---
+title: Digital Banking Strategy Template
+category: finance
+tags: [data-science, design, finance, optimization, research, security, strategy, template]
+use_cases:
+  - Implementing create comprehensive digital banking transformation strategies, technology roadm...
+  - Project planning and execution
+  - Strategy development
+last_updated: 2025-11-09
+---
+
 # Digital Banking Strategy Template
 
 ## Purpose

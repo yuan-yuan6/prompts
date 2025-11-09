@@ -1,3 +1,18 @@
+---
+title: Text Analytics and NLP Template
+category: data-analytics/Research Analytics
+tags: [automation, data-analytics, data-science, design, machine-learning, research, template]
+use_cases:
+  - Implementing conduct comprehensive text mining and natural language processing analysis to ex...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - dashboard-design-patterns.md
+  - data-governance-framework.md
+  - predictive-modeling-framework.md
+last_updated: 2025-11-09
+---
+
 # Text Analytics and NLP Template
 
 ## Purpose

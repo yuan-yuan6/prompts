@@ -1,3 +1,14 @@
+---
+title: Clinical Decision Support Template Generator
+category: healthcare
+tags: [design, documentation, healthcare, machine-learning, management, security, template, testing]
+use_cases:
+  - Implementing create comprehensive clinical decision support systems covering diagnosis assist...
+  - Project planning and execution
+  - Strategy development
+last_updated: 2025-11-09
+---
+
 # Clinical Decision Support Template Generator
 
 ## Purpose

@@ -1,3 +1,16 @@
+---
+title: Fashion Brand Strategy & Collection Development Framework
+category: industry/fashion-beauty/Fashion Design
+tags: [design, development, framework, industry, marketing, strategy]
+use_cases:
+  - Implementing comprehensive framework for fashion brand development, collection planning, tren...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - sustainable-fashion-strategy.md
+last_updated: 2025-11-09
+---
+
 # Fashion Brand Strategy & Collection Development Framework
 
 ## Purpose
@@ -47,6 +60,282 @@ Capsule Collections:
 - Limited Editions: [LIMITED_DETAILS]
 - Drops Strategy: [DROPS_STRATEGY]
 ```
+
+## Variables
+
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `[BRAND_NAME]` | Name of the brand | "John Smith" |
+| `[MARKET_SEGMENT]` | Specify the market segment | "[specify value]" |
+| `[COLLECTION_COUNT]` | Specify the collection count | "10" |
+| `[SKU_COUNT]` | Specify the sku count | "10" |
+| `[PRICE_POINT]` | Specify the price point | "[specify value]" |
+| `[REVENUE_TARGET]` | Target or intended revenue | "[specify value]" |
+| `[SUSTAINABILITY_SCORE]` | Specify the sustainability score | "[specify value]" |
+| `[DNA_CURRENT]` | Specify the dna current | "[specify value]" |
+| `[DNA_COMPETITIVE]` | Specify the dna competitive | "[specify value]" |
+| `[DNA_TARGET]` | Target or intended dna | "[specify value]" |
+| `[DNA_DIFF]` | Specify the dna diff | "[specify value]" |
+| `[DNA_INVEST]` | Specify the dna invest | "[specify value]" |
+| `[DESIGN_CURRENT]` | Specify the design current | "[specify value]" |
+| `[DESIGN_COMPETITIVE]` | Specify the design competitive | "[specify value]" |
+| `[DESIGN_TARGET]` | Target or intended design | "[specify value]" |
+| `[DESIGN_DIFF]` | Specify the design diff | "[specify value]" |
+| `[DESIGN_INVEST]` | Specify the design invest | "[specify value]" |
+| `[PRICE_CURRENT]` | Specify the price current | "[specify value]" |
+| `[PRICE_COMPETITIVE]` | Specify the price competitive | "[specify value]" |
+| `[PRICE_TARGET]` | Target or intended price | "[specify value]" |
+| `[PRICE_DIFF]` | Specify the price diff | "[specify value]" |
+| `[PRICE_INVEST]` | Specify the price invest | "[specify value]" |
+| `[CUSTOMER_CURRENT]` | Specify the customer current | "[specify value]" |
+| `[CUSTOMER_COMPETITIVE]` | Specify the customer competitive | "[specify value]" |
+| `[CUSTOMER_TARGET]` | Target or intended customer | "[specify value]" |
+| `[CUSTOMER_DIFF]` | Specify the customer diff | "[specify value]" |
+| `[CUSTOMER_INVEST]` | Specify the customer invest | "[specify value]" |
+| `[VALUES_CURRENT]` | Specify the values current | "[specify value]" |
+| `[VALUES_COMPETITIVE]` | Specify the values competitive | "[specify value]" |
+| `[VALUES_TARGET]` | Target or intended values | "[specify value]" |
+| `[VALUES_DIFF]` | Specify the values diff | "[specify value]" |
+| `[VALUES_INVEST]` | Specify the values invest | "[specify value]" |
+| `[POSITION_CURRENT]` | Specify the position current | "[specify value]" |
+| `[POSITION_COMPETITIVE]` | Specify the position competitive | "[specify value]" |
+| `[POSITION_TARGET]` | Target or intended position | "[specify value]" |
+| `[POSITION_DIFF]` | Specify the position diff | "[specify value]" |
+| `[POSITION_INVEST]` | Specify the position invest | "[specify value]" |
+| `[SS_LAUNCH]` | Specify the ss launch | "[specify value]" |
+| `[SS_THEME]` | Specify the ss theme | "[specify value]" |
+| `[SS_PIECES]` | Specify the ss pieces | "[specify value]" |
+| `[SS_COLORS]` | Specify the ss colors | "[specify value]" |
+| `[SS_FABRICS]` | Specify the ss fabrics | "[specify value]" |
+| `[SS_MIN]` | Specify the ss min | "[specify value]" |
+| `[SS_MAX]` | Specify the ss max | "[specify value]" |
+| `[SS_MARGIN]` | Specify the ss margin | "[specify value]" |
+| `[FW_LAUNCH]` | Specify the fw launch | "[specify value]" |
+| `[FW_THEME]` | Specify the fw theme | "[specify value]" |
+| `[FW_PIECES]` | Specify the fw pieces | "[specify value]" |
+| `[FW_COLORS]` | Specify the fw colors | "[specify value]" |
+| `[FW_FABRICS]` | Specify the fw fabrics | "[specify value]" |
+| `[FW_MIN]` | Specify the fw min | "[specify value]" |
+| `[FW_MAX]` | Specify the fw max | "[specify value]" |
+| `[FW_MARGIN]` | Specify the fw margin | "[specify value]" |
+| `[RESORT_DETAILS]` | Specify the resort details | "[specify value]" |
+| `[PREFALL_DETAILS]` | Specify the prefall details | "[specify value]" |
+| `[COLLAB_DETAILS]` | Specify the collab details | "[specify value]" |
+| `[LIMITED_DETAILS]` | Specify the limited details | "[specify value]" |
+| `[DROPS_STRATEGY]` | Strategy or approach for drops | "[specify value]" |
+| `[RTW_SHARE]` | Specify the rtw share | "[specify value]" |
+| `[RTW_GROWTH]` | Specify the rtw growth | "[specify value]" |
+| `[RTW_MARGIN]` | Specify the rtw margin | "[specify value]" |
+| `[RTW_TURNS]` | Specify the rtw turns | "[specify value]" |
+| `[RTW_PRIORITY]` | Specify the rtw priority | "High" |
+| `[ACC_SHARE]` | Specify the acc share | "[specify value]" |
+| `[ACC_GROWTH]` | Specify the acc growth | "[specify value]" |
+| `[ACC_MARGIN]` | Specify the acc margin | "[specify value]" |
+| `[ACC_TURNS]` | Specify the acc turns | "[specify value]" |
+| `[ACC_PRIORITY]` | Specify the acc priority | "High" |
+| `[FOOT_SHARE]` | Specify the foot share | "[specify value]" |
+| `[FOOT_GROWTH]` | Specify the foot growth | "[specify value]" |
+| `[FOOT_MARGIN]` | Specify the foot margin | "[specify value]" |
+| `[FOOT_TURNS]` | Specify the foot turns | "[specify value]" |
+| `[FOOT_PRIORITY]` | Specify the foot priority | "High" |
+| `[LEATHER_SHARE]` | Specify the leather share | "[specify value]" |
+| `[LEATHER_GROWTH]` | Specify the leather growth | "[specify value]" |
+| `[LEATHER_MARGIN]` | Specify the leather margin | "[specify value]" |
+| `[LEATHER_TURNS]` | Specify the leather turns | "[specify value]" |
+| `[LEATHER_PRIORITY]` | Specify the leather priority | "High" |
+| `[JEWELRY_SHARE]` | Specify the jewelry share | "[specify value]" |
+| `[JEWELRY_GROWTH]` | Specify the jewelry growth | "[specify value]" |
+| `[JEWELRY_MARGIN]` | Specify the jewelry margin | "[specify value]" |
+| `[JEWELRY_TURNS]` | Specify the jewelry turns | "[specify value]" |
+| `[JEWELRY_PRIORITY]` | Specify the jewelry priority | "High" |
+| `[BEAUTY_SHARE]` | Specify the beauty share | "[specify value]" |
+| `[BEAUTY_GROWTH]` | Specify the beauty growth | "[specify value]" |
+| `[BEAUTY_MARGIN]` | Specify the beauty margin | "[specify value]" |
+| `[BEAUTY_TURNS]` | Specify the beauty turns | "[specify value]" |
+| `[BEAUTY_PRIORITY]` | Specify the beauty priority | "High" |
+| `[INHOUSE_VOL]` | Specify the inhouse vol | "[specify value]" |
+| `[INHOUSE_LEAD]` | Specify the inhouse lead | "[specify value]" |
+| `[INHOUSE_COST]` | Specify the inhouse cost | "[specify value]" |
+| `[INHOUSE_QUAL]` | Specify the inhouse qual | "[specify value]" |
+| `[INHOUSE_SUSTAIN]` | Specify the inhouse sustain | "[specify value]" |
+| `[CONTRACT_VOL]` | Specify the contract vol | "[specify value]" |
+| `[CONTRACT_LEAD]` | Specify the contract lead | "[specify value]" |
+| `[CONTRACT_COST]` | Specify the contract cost | "[specify value]" |
+| `[CONTRACT_QUAL]` | Specify the contract qual | "[specify value]" |
+| `[CONTRACT_SUSTAIN]` | Specify the contract sustain | "[specify value]" |
+| `[ARTISAN_VOL]` | Specify the artisan vol | "[specify value]" |
+| `[ARTISAN_LEAD]` | Specify the artisan lead | "[specify value]" |
+| `[ARTISAN_COST]` | Specify the artisan cost | "[specify value]" |
+| `[ARTISAN_QUAL]` | Specify the artisan qual | "[specify value]" |
+| `[ARTISAN_SUSTAIN]` | Specify the artisan sustain | "[specify value]" |
+| `[FAST_VOL]` | Specify the fast vol | "[specify value]" |
+| `[FAST_LEAD]` | Specify the fast lead | "[specify value]" |
+| `[FAST_COST]` | Specify the fast cost | "[specify value]" |
+| `[FAST_QUAL]` | Specify the fast qual | "[specify value]" |
+| `[FAST_SUSTAIN]` | Specify the fast sustain | "[specify value]" |
+| `[DEMAND_VOL]` | Specify the demand vol | "[specify value]" |
+| `[DEMAND_LEAD]` | Specify the demand lead | "[specify value]" |
+| `[DEMAND_COST]` | Specify the demand cost | "[specify value]" |
+| `[DEMAND_QUAL]` | Specify the demand qual | "[specify value]" |
+| `[DEMAND_SUSTAIN]` | Specify the demand sustain | "[specify value]" |
+| `[FLAG_COUNT]` | Specify the flag count | "10" |
+| `[FLAG_REVENUE]` | Specify the flag revenue | "[specify value]" |
+| `[FLAG_INVEST]` | Specify the flag invest | "[specify value]" |
+| `[FLAG_EXPERIENCE]` | Specify the flag experience | "[specify value]" |
+| `[DEPT_COUNT]` | Specify the dept count | "10" |
+| `[DEPT_REVENUE]` | Specify the dept revenue | "[specify value]" |
+| `[DEPT_TERMS]` | Specify the dept terms | "[specify value]" |
+| `[DEPT_SUPPORT]` | Specify the dept support | "[specify value]" |
+| `[OUTLET_COUNT]` | Specify the outlet count | "10" |
+| `[OUTLET_REVENUE]` | Specify the outlet revenue | "[specify value]" |
+| `[OUTLET_DISCOUNT]` | Specify the outlet discount | "10" |
+| `[OUTLET_SOURCE]` | Specify the outlet source | "[specify value]" |
+| `[ECOM_REVENUE]` | Specify the ecom revenue | "[specify value]" |
+| `[ECOM_SHARE]` | Specify the ecom share | "[specify value]" |
+| `[ECOM_PLATFORM]` | Specify the ecom platform | "[specify value]" |
+| `[ECOM_CONVERT]` | Specify the ecom convert | "[specify value]" |
+| `[ECOM_AOV]` | Specify the ecom aov | "[specify value]" |
+| `[MARKET_REVENUE]` | Specify the market revenue | "[specify value]" |
+| `[MARKET_PARTNERS]` | Specify the market partners | "[specify value]" |
+| `[MARKET_COMM]` | Specify the market comm | "[specify value]" |
+| `[MARKET_CONTROL]` | Specify the market control | "[specify value]" |
+| `[SOCIAL_REVENUE]` | Specify the social revenue | "[specify value]" |
+| `[SOCIAL_PLATFORMS]` | Specify the social platforms | "[specify value]" |
+| `[SOCIAL_ENGAGE]` | Specify the social engage | "[specify value]" |
+| `[SOCIAL_INFLUENCE]` | Specify the social influence | "[specify value]" |
+| `[DIGITAL_BUDGET]` | Budget allocation for digital | "$500,000" |
+| `[DIGITAL_REACH]` | Specify the digital reach | "[specify value]" |
+| `[DIGITAL_ENGAGE]` | Specify the digital engage | "[specify value]" |
+| `[DIGITAL_CONVERT]` | Specify the digital convert | "[specify value]" |
+| `[DIGITAL_ROI]` | Specify the digital roi | "[specify value]" |
+| `[SOCIAL_BUDGET]` | Budget allocation for social | "$500,000" |
+| `[SOCIAL_REACH]` | Specify the social reach | "[specify value]" |
+| `[SOCIAL_CONVERT]` | Specify the social convert | "[specify value]" |
+| `[SOCIAL_ROI]` | Specify the social roi | "[specify value]" |
+| `[INFLUENCER_BUDGET]` | Budget allocation for influencer | "$500,000" |
+| `[INFLUENCER_REACH]` | Specify the influencer reach | "[specify value]" |
+| `[INFLUENCER_ENGAGE]` | Specify the influencer engage | "[specify value]" |
+| `[INFLUENCER_CONVERT]` | Specify the influencer convert | "[specify value]" |
+| `[INFLUENCER_ROI]` | Specify the influencer roi | "[specify value]" |
+| `[EVENT_BUDGET]` | Budget allocation for event | "$500,000" |
+| `[EVENT_REACH]` | Specify the event reach | "[specify value]" |
+| `[EVENT_ENGAGE]` | Specify the event engage | "[specify value]" |
+| `[EVENT_CONVERT]` | Specify the event convert | "[specify value]" |
+| `[EVENT_ROI]` | Specify the event roi | "[specify value]" |
+| `[PRINT_BUDGET]` | Budget allocation for print | "$500,000" |
+| `[PRINT_REACH]` | Specify the print reach | "[specify value]" |
+| `[PRINT_ENGAGE]` | Specify the print engage | "[specify value]" |
+| `[PRINT_CONVERT]` | Specify the print convert | "[specify value]" |
+| `[PRINT_ROI]` | Specify the print roi | "[specify value]" |
+| `[CELEB_BUDGET]` | Budget allocation for celeb | "$500,000" |
+| `[CELEB_REACH]` | Specify the celeb reach | "[specify value]" |
+| `[CELEB_ENGAGE]` | Specify the celeb engage | "[specify value]" |
+| `[CELEB_CONVERT]` | Specify the celeb convert | "[specify value]" |
+| `[CELEB_ROI]` | Specify the celeb roi | "[specify value]" |
+| `[MAT_CURRENT]` | Specify the mat current | "[specify value]" |
+| `[MAT_TARGET]` | Target or intended mat | "[specify value]" |
+| `[MAT_INIT]` | Specify the mat init | "[specify value]" |
+| `[MAT_INVEST]` | Specify the mat invest | "[specify value]" |
+| `[MAT_IMPACT]` | Specify the mat impact | "[specify value]" |
+| `[CIRC_CURRENT]` | Specify the circ current | "[specify value]" |
+| `[CIRC_TARGET]` | Target or intended circ | "[specify value]" |
+| `[CIRC_INIT]` | Specify the circ init | "[specify value]" |
+| `[CIRC_INVEST]` | Specify the circ invest | "[specify value]" |
+| `[CIRC_IMPACT]` | Specify the circ impact | "[specify value]" |
+| `[CARBON_CURRENT]` | Specify the carbon current | "[specify value]" |
+| `[CARBON_TARGET]` | Target or intended carbon | "[specify value]" |
+| `[CARBON_INIT]` | Specify the carbon init | "[specify value]" |
+| `[CARBON_INVEST]` | Specify the carbon invest | "[specify value]" |
+| `[CARBON_IMPACT]` | Specify the carbon impact | "[specify value]" |
+| `[WATER_CURRENT]` | Specify the water current | "[specify value]" |
+| `[WATER_TARGET]` | Target or intended water | "[specify value]" |
+| `[WATER_INIT]` | Specify the water init | "[specify value]" |
+| `[WATER_INVEST]` | Specify the water invest | "[specify value]" |
+| `[WATER_IMPACT]` | Specify the water impact | "[specify value]" |
+| `[LABOR_CURRENT]` | Specify the labor current | "[specify value]" |
+| `[LABOR_TARGET]` | Target or intended labor | "[specify value]" |
+| `[LABOR_INIT]` | Specify the labor init | "[specify value]" |
+| `[LABOR_INVEST]` | Specify the labor invest | "[specify value]" |
+| `[LABOR_IMPACT]` | Specify the labor impact | "[specify value]" |
+| `[TRANS_CURRENT]` | Specify the trans current | "[specify value]" |
+| `[TRANS_TARGET]` | Target or intended trans | "[specify value]" |
+| `[TRANS_INIT]` | Specify the trans init | "[specify value]" |
+| `[TRANS_INVEST]` | Specify the trans invest | "[specify value]" |
+| `[TRANS_IMPACT]` | Specify the trans impact | "[specify value]" |
+| `[DISCOVER_TOUCH]` | Specify the discover touch | "[specify value]" |
+| `[DISCOVER_CONTENT]` | Specify the discover content | "[specify value]" |
+| `[DISCOVER_PERSONAL]` | Specify the discover personal | "[specify value]" |
+| `[DISCOVER_ATTRIB]` | Specify the discover attrib | "[specify value]" |
+| `[ONLINE_SCORE]` | Specify the online score | "[specify value]" |
+| `[STORE_SCORE]` | Specify the store score | "[specify value]" |
+| `[CHECKOUT_SCORE]` | Specify the checkout score | "[specify value]" |
+| `[PAYMENT_OPTIONS]` | Specify the payment options | "[specify value]" |
+| `[PACKAGE_SCORE]` | Specify the package score | "[specify value]" |
+| `[DELIVERY_TIME]` | Specify the delivery time | "[specify value]" |
+| `[RETURNS_RATE]` | Specify the returns rate | "[specify value]" |
+| `[SERVICE_SCORE]` | Specify the service score | "[specify value]" |
+| `[LOYALTY_MEMBERS]` | Specify the loyalty members | "[specify value]" |
+| `[LOYALTY_TIERS]` | Specify the loyalty tiers | "[specify value]" |
+| `[LOYALTY_BENEFITS]` | Specify the loyalty benefits | "[specify value]" |
+| `[LOYALTY_ENGAGE]` | Specify the loyalty engage | "[specify value]" |
+| `[LOYALTY_LTV]` | Specify the loyalty ltv | "[specify value]" |
+| `[VTO_CURRENT]` | Specify the vto current | "[specify value]" |
+| `[VTO_PLAN]` | Specify the vto plan | "[specify value]" |
+| `[VTO_IMPACT]` | Specify the vto impact | "[specify value]" |
+| `[VTO_INVEST]` | Specify the vto invest | "[specify value]" |
+| `[VTO_TIME]` | Specify the vto time | "[specify value]" |
+| `[AI_CURRENT]` | Specify the ai current | "[specify value]" |
+| `[AI_PLAN]` | Specify the ai plan | "[specify value]" |
+| `[AI_IMPACT]` | Specify the ai impact | "[specify value]" |
+| `[AI_INVEST]` | Specify the ai invest | "[specify value]" |
+| `[AI_TIME]` | Specify the ai time | "[specify value]" |
+| `[BLOCK_CURRENT]` | Specify the block current | "[specify value]" |
+| `[BLOCK_PLAN]` | Specify the block plan | "[specify value]" |
+| `[BLOCK_IMPACT]` | Specify the block impact | "[specify value]" |
+| `[BLOCK_INVEST]` | Specify the block invest | "[specify value]" |
+| `[BLOCK_TIME]` | Specify the block time | "[specify value]" |
+| `[SMART_CURRENT]` | Specify the smart current | "[specify value]" |
+| `[SMART_PLAN]` | Specify the smart plan | "[specify value]" |
+| `[SMART_IMPACT]` | Specify the smart impact | "[specify value]" |
+| `[SMART_INVEST]` | Specify the smart invest | "[specify value]" |
+| `[SMART_TIME]` | Specify the smart time | "[specify value]" |
+| `[META_CURRENT]` | Specify the meta current | "[specify value]" |
+| `[META_PLAN]` | Specify the meta plan | "[specify value]" |
+| `[META_IMPACT]` | Specify the meta impact | "[specify value]" |
+| `[META_INVEST]` | Specify the meta invest | "[specify value]" |
+| `[META_TIME]` | Specify the meta time | "[specify value]" |
+| `[REV_CURRENT]` | Specify the rev current | "[specify value]" |
+| `[REV_Y1]` | Specify the rev y1 | "[specify value]" |
+| `[REV_Y3]` | Specify the rev y3 | "[specify value]" |
+| `[REV_Y5]` | Specify the rev y5 | "[specify value]" |
+| `[REV_CAGR]` | Specify the rev cagr | "[specify value]" |
+| `[GM_CURRENT]` | Specify the gm current | "[specify value]" |
+| `[GM_Y1]` | Specify the gm y1 | "[specify value]" |
+| `[GM_Y3]` | Specify the gm y3 | "[specify value]" |
+| `[GM_Y5]` | Specify the gm y5 | "[specify value]" |
+| `[GM_CAGR]` | Specify the gm cagr | "[specify value]" |
+| `[EBITDA_CURRENT]` | Specify the ebitda current | "[specify value]" |
+| `[EBITDA_Y1]` | Specify the ebitda y1 | "[specify value]" |
+| `[EBITDA_Y3]` | Specify the ebitda y3 | "[specify value]" |
+| `[EBITDA_Y5]` | Specify the ebitda y5 | "[specify value]" |
+| `[EBITDA_CAGR]` | Specify the ebitda cagr | "[specify value]" |
+| `[INV_CURRENT]` | Specify the inv current | "[specify value]" |
+| `[INV_Y1]` | Specify the inv y1 | "[specify value]" |
+| `[INV_Y3]` | Specify the inv y3 | "[specify value]" |
+| `[INV_Y5]` | Specify the inv y5 | "[specify value]" |
+| `[INV_CAGR]` | Specify the inv cagr | "[specify value]" |
+| `[SSS_CURRENT]` | Specify the sss current | "[specify value]" |
+| `[SSS_Y1]` | Specify the sss y1 | "[specify value]" |
+| `[SSS_Y3]` | Specify the sss y3 | "[specify value]" |
+| `[SSS_Y5]` | Specify the sss y5 | "[specify value]" |
+| `[SSS_CAGR]` | Specify the sss cagr | "[specify value]" |
+| `[SHARE_CURRENT]` | Specify the share current | "[specify value]" |
+| `[SHARE_Y1]` | Specify the share y1 | "[specify value]" |
+| `[SHARE_Y3]` | Specify the share y3 | "[specify value]" |
+| `[SHARE_Y5]` | Specify the share y5 | "[specify value]" |
+| `[SHARE_CAGR]` | Specify the share cagr | "[specify value]" |
+
+
 
 ### 3. Product Mix & Category Management
 

@@ -1,3 +1,17 @@
+---
+title: Citizen Engagement Template
+category: government/Public Services
+tags: [design, government, strategy, template]
+use_cases:
+  - Implementing design comprehensive citizen engagement strategies, participatory governance fra...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - policy-development.md
+  - policy-research-framework.md
+last_updated: 2025-11-09
+---
+
 # Citizen Engagement Template
 
 ## Purpose

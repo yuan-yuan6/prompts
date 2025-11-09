@@ -1,3 +1,18 @@
+---
+title: Data Storytelling Narratives Template
+category: data-analytics/Business Intelligence
+tags: [automation, data-analytics, data-science, design, optimization, research, strategy, template]
+use_cases:
+  - Implementing create compelling data narratives that transform complex analytical insights int...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - dashboard-design-patterns.md
+  - data-governance-framework.md
+  - predictive-modeling-framework.md
+last_updated: 2025-11-09
+---
+
 # Data Storytelling Narratives Template
 
 ## Purpose

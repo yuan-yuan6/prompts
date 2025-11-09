@@ -1,3 +1,17 @@
+---
+title: Podcast Content Template Generator
+category: creative/Content Creation
+tags: [automation, creative, design, development, marketing, strategy, template, testing]
+use_cases:
+  - Implementing create comprehensive podcast content strategies for episodes, interviews, shows,...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - creative-writing-framework.md
+  - video-production-pipeline.md
+last_updated: 2025-11-09
+---
+
 # Podcast Content Template Generator
 
 ## Purpose

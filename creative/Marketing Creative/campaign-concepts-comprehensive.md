@@ -1,3 +1,17 @@
+---
+title: Campaign Concepts Comprehensive Template Generator
+category: creative/Marketing Creative
+tags: [communication, comprehensive, creative, development, marketing, strategy, template]
+use_cases:
+  - Implementing create comprehensive campaign concepts covering themes, messaging, creative brie...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - creative-writing-framework.md
+  - video-production-pipeline.md
+last_updated: 2025-11-09
+---
+
 # Campaign Concepts Comprehensive Template Generator
 
 ## Purpose

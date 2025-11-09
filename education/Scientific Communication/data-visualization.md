@@ -1,3 +1,17 @@
+---
+title: Data Visualization & Figures Template
+category: education/Scientific Communication
+tags: [communication, design, development, education, research, strategy, template, testing]
+use_cases:
+  - Implementing create compelling, accurate scientific visualizations including charts, graphs, ...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - curriculum-development.md
+  - curriculum-development-framework.md
+last_updated: 2025-11-09
+---
+
 # Data Visualization & Figures Template
 
 ## Purpose

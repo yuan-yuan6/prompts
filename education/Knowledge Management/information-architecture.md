@@ -1,3 +1,17 @@
+---
+title: Information Architecture & Taxonomy Design Framework Generator
+category: education/Knowledge Management
+tags: [design, development, education, framework, machine-learning, management, security, strategy]
+use_cases:
+  - Implementing create comprehensive frameworks for designing information architectures, taxonom...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - curriculum-development.md
+  - curriculum-development-framework.md
+last_updated: 2025-11-09
+---
+
 # Information Architecture & Taxonomy Design Framework Generator
 
 ## Purpose

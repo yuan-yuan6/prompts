@@ -1,3 +1,18 @@
+---
+title: Lead Generation Template Generator
+category: business/Sales & Marketing
+tags: [automation, business, design, machine-learning, marketing, optimization, template, testing]
+use_cases:
+  - Implementing create comprehensive lead generation strategies covering prospecting, qualificat...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - okr-implementation-framework.md
+  - digital-transformation-roadmap.md
+  - lean-six-sigma-implementation.md
+last_updated: 2025-11-09
+---
+
 # Lead Generation Template Generator
 
 ## Purpose

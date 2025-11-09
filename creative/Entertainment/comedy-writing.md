@@ -1,3 +1,17 @@
+---
+title: Comedy Writing Template
+category: creative/Entertainment
+tags: [automation, communication, creative, data-science, design, development, optimization, research]
+use_cases:
+  - Implementing create engaging comedy content including jokes, sketches, and standup material t...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - creative-writing-framework.md
+  - video-production-pipeline.md
+last_updated: 2025-11-09
+---
+
 # Comedy Writing Template
 
 ## Purpose

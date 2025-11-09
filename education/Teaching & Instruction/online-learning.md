@@ -1,3 +1,17 @@
+---
+title: Online Learning Platforms Template
+category: education/Teaching & Instruction
+tags: [design, development, education, machine-learning, strategy, template, testing]
+use_cases:
+  - Implementing create comprehensive online learning platforms including e-learning design, mooc...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - curriculum-development.md
+  - curriculum-development-framework.md
+last_updated: 2025-11-09
+---
+
 # Online Learning Platforms Template
 
 ## Purpose

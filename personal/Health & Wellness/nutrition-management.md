@@ -1,3 +1,14 @@
+---
+title: Nutrition Management Template
+category: personal/Health & Wellness
+tags: [data-science, design, management, optimization, personal, research, strategy, template]
+use_cases:
+  - Implementing develop comprehensive nutrition strategies including meal planning, dietary trac...
+  - Project planning and execution
+  - Strategy development
+last_updated: 2025-11-09
+---
+
 # Nutrition Management Template
 
 ## Purpose

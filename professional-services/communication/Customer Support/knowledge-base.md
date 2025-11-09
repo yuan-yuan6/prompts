@@ -1,3 +1,17 @@
+---
+title: Comprehensive Knowledge Base Development & Management Template
+category: professional-services/communication/Customer Support
+tags: [comprehensive, design, development, machine-learning, management, optimization, professional-services, security]
+use_cases:
+  - General application
+  - Professional use
+  - Project implementation
+related_templates:
+  - meeting-management-framework.md
+  - crisis-communication-plan.md
+last_updated: 2025-11-09
+---
+
 # Comprehensive Knowledge Base Development & Management Template
 
 ## Overview
@@ -559,3 +573,651 @@ Adapt for specific knowledge management use cases:
 ---
 
 *This Knowledge Base template provides a comprehensive framework for creating sophisticated knowledge management systems that truly serve user needs and drive organizational value. Each variable should be carefully configured based on specific user requirements, business objectives, and technical capabilities.*
+
+## Variables
+
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `[ORGANIZATION_NAME]` | Name of the organization | "John Smith" |
+| `[ORGANIZATION_TYPE]` | Type or category of organization | "Standard" |
+| `[CUSTOM_ORG_TYPE]` | Type or category of custom org | "Standard" |
+| `[INDUSTRY_SECTOR]` | Specify the industry sector | "Technology" |
+| `[CUSTOM_INDUSTRY]` | Specify the custom industry | "Technology" |
+| `[KNOWLEDGE_SCOPE]` | Scope or boundaries of knowledge | "[specify value]" |
+| `[CUSTOM_SCOPE]` | Scope or boundaries of custom | "[specify value]" |
+| `[USER_BASE_SIZE]` | Specify the user base size | "[specify value]" |
+| `[CUSTOM_USER_SIZE]` | Specify the custom user size | "[specify value]" |
+| `[GEOGRAPHIC_COVERAGE]` | Specify the geographic coverage | "[specify value]" |
+| `[CUSTOM_GEOGRAPHY]` | Specify the custom geography | "[specify value]" |
+| `[BUSINESS_MODEL]` | Specify the business model | "[specify value]" |
+| `[CUSTOM_MODEL]` | Specify the custom model | "[specify value]" |
+| `[COMPLEXITY_LEVEL]` | Specify the complexity level | "[specify value]" |
+| `[CUSTOM_COMPLEXITY]` | Specify the custom complexity | "[specify value]" |
+| `[BUDGET_FRAMEWORK]` | Budget allocation for framework | "$500,000" |
+| `[PRIMARY_PURPOSE]` | Specify the primary purpose | "[specify value]" |
+| `[CUSTOM_PURPOSE]` | Specify the custom purpose | "[specify value]" |
+| `[BUSINESS_GOALS]` | Specify the business goals | "Increase efficiency by 30%" |
+| `[CUSTOM_GOALS]` | Specify the custom goals | "Increase efficiency by 30%" |
+| `[SUCCESS_METRICS]` | Specify the success metrics | "[specify value]" |
+| `[CUSTOM_METRICS]` | Specify the custom metrics | "[specify value]" |
+| `[STAKEHOLDER_ALIGNMENT]` | Specify the stakeholder alignment | "[specify value]" |
+| `[CUSTOM_STAKEHOLDERS]` | Key stakeholders involved in custom | "[specify value]" |
+| `[VALUE_PROPOSITION]` | Specify the value proposition | "[specify value]" |
+| `[CUSTOM_VALUE]` | Specify the custom value | "[specify value]" |
+| `[ROI_EXPECTATIONS]` | Specify the roi expectations | "[specify value]" |
+| `[TIMELINE_REQUIREMENTS]` | Timeline or schedule for requirements | "6 months" |
+| `[CHANGE_MANAGEMENT_NEEDS]` | Specify the change management needs | "[specify value]" |
+| `[CONTENT_TAXONOMY]` | Specify the content taxonomy | "[specify value]" |
+| `[CUSTOM_TAXONOMY]` | Specify the custom taxonomy | "[specify value]" |
+| `[CLASSIFICATION_SYSTEM]` | Specify the classification system | "[specify value]" |
+| `[CUSTOM_CLASSIFICATION]` | Specify the custom classification | "[specify value]" |
+| `[METADATA_FRAMEWORK]` | Specify the metadata framework | "[specify value]" |
+| `[CUSTOM_METADATA]` | Specify the custom metadata | "[specify value]" |
+| `[CONTENT_RELATIONSHIPS]` | Specify the content relationships | "[specify value]" |
+| `[CUSTOM_RELATIONSHIPS]` | Specify the custom relationships | "[specify value]" |
+| `[NAVIGATION_STRUCTURE]` | Specify the navigation structure | "[specify value]" |
+| `[CUSTOM_NAVIGATION]` | Specify the custom navigation | "[specify value]" |
+| `[SEARCH_ARCHITECTURE]` | Specify the search architecture | "[specify value]" |
+| `[CUSTOM_SEARCH]` | Specify the custom search | "[specify value]" |
+| `[CONTENT_HIERARCHY]` | Specify the content hierarchy | "[specify value]" |
+| `[CUSTOM_HIERARCHY]` | Specify the custom hierarchy | "[specify value]" |
+| `[USER_PATHWAYS]` | Specify the user pathways | "[specify value]" |
+| `[CUSTOM_PATHWAYS]` | Specify the custom pathways | "[specify value]" |
+| `[CROSS_REFERENCING]` | Specify the cross referencing | "[specify value]" |
+| `[CUSTOM_CROSS_REF]` | Specify the custom cross ref | "[specify value]" |
+| `[VERSION_MANAGEMENT]` | Specify the version management | "[specify value]" |
+| `[CUSTOM_VERSIONING]` | Specify the custom versioning | "[specify value]" |
+| `[PRIMARY_CATEGORIES]` | Specify the primary categories | "[specify value]" |
+| `[CUSTOM_PRIMARY]` | Specify the custom primary | "[specify value]" |
+| `[SECONDARY_CATEGORIES]` | Specify the secondary categories | "[specify value]" |
+| `[CUSTOM_SECONDARY]` | Specify the custom secondary | "[specify value]" |
+| `[TAGGING_STRATEGY]` | Strategy or approach for tagging | "[specify value]" |
+| `[CUSTOM_TAGGING]` | Specify the custom tagging | "[specify value]" |
+| `[CONTENT_TYPES]` | Type or category of content s | "Standard" |
+| `[CUSTOM_CONTENT_TYPES]` | Type or category of custom content s | "Standard" |
+| `[AUDIENCE_SEGMENTATION]` | Specify the audience segmentation | "[specify value]" |
+| `[CUSTOM_AUDIENCE]` | Specify the custom audience | "[specify value]" |
+| `[ACCESS_LEVELS]` | Specify the access levels | "[specify value]" |
+| `[CUSTOM_ACCESS]` | Specify the custom access | "[specify value]" |
+| `[CONTENT_LIFECYCLE]` | Specify the content lifecycle | "[specify value]" |
+| `[CUSTOM_LIFECYCLE]` | Specify the custom lifecycle | "[specify value]" |
+| `[QUALITY_STANDARDS]` | Specify the quality standards | "[specify value]" |
+| `[CUSTOM_QUALITY]` | Specify the custom quality | "[specify value]" |
+| `[GOVERNANCE_MODEL]` | Specify the governance model | "[specify value]" |
+| `[CUSTOM_GOVERNANCE]` | Specify the custom governance | "[specify value]" |
+| `[LOCALIZATION_STRATEGY]` | Strategy or approach for localization | "[specify value]" |
+| `[CUSTOM_LOCALIZATION]` | Specify the custom localization | "[specify value]" |
+| `[CONTENT_PLANNING]` | Specify the content planning | "[specify value]" |
+| `[CUSTOM_PLANNING]` | Specify the custom planning | "[specify value]" |
+| `[SME_ENGAGEMENT]` | Specify the sme engagement | "[specify value]" |
+| `[CUSTOM_SME]` | Specify the custom sme | "[specify value]" |
+| `[CONTENT_AUTHORING]` | Specify the content authoring | "[specify value]" |
+| `[CUSTOM_AUTHORING]` | Specify the custom authoring | "[specify value]" |
+| `[COLLABORATIVE_CREATION]` | Specify the collaborative creation | "[specify value]" |
+| `[CUSTOM_COLLABORATION]` | Specify the custom collaboration | "[specify value]" |
+| `[CONTENT_TEMPLATES]` | Specify the content templates | "[specify value]" |
+| `[CUSTOM_TEMPLATES]` | Specify the custom templates | "[specify value]" |
+| `[STYLE_GUIDE]` | Specify the style guide | "[specify value]" |
+| `[CUSTOM_STYLE]` | Specify the custom style | "[specify value]" |
+| `[MULTIMEDIA_INTEGRATION]` | Specify the multimedia integration | "[specify value]" |
+| `[CUSTOM_MULTIMEDIA]` | Specify the custom multimedia | "[specify value]" |
+| `[CONTENT_SOURCING]` | Specify the content sourcing | "[specify value]" |
+| `[CUSTOM_SOURCING]` | Specify the custom sourcing | "[specify value]" |
+| `[KNOWLEDGE_CAPTURE]` | Specify the knowledge capture | "[specify value]" |
+| `[CUSTOM_CAPTURE]` | Specify the custom capture | "[specify value]" |
+| `[CONTENT_VALIDATION]` | Specify the content validation | "[specify value]" |
+| `[CUSTOM_VALIDATION]` | Specify the custom validation | "[specify value]" |
+| `[TEXT_CONTENT]` | Specify the text content | "[specify value]" |
+| `[CUSTOM_TEXT]` | Specify the custom text | "[specify value]" |
+| `[VISUAL_CONTENT]` | Specify the visual content | "[specify value]" |
+| `[CUSTOM_VISUAL]` | Specify the custom visual | "[specify value]" |
+| `[VIDEO_CONTENT]` | Specify the video content | "[specify value]" |
+| `[CUSTOM_VIDEO]` | Specify the custom video | "[specify value]" |
+| `[INTERACTIVE_CONTENT]` | Specify the interactive content | "[specify value]" |
+| `[CUSTOM_INTERACTIVE]` | Specify the custom interactive | "[specify value]" |
+| `[DOWNLOADABLE_RESOURCES]` | Specify the downloadable resources | "[specify value]" |
+| `[CUSTOM_DOWNLOADS]` | Specify the custom downloads | "[specify value]" |
+| `[MULTIMEDIA_PRESENTATIONS]` | Specify the multimedia presentations | "[specify value]" |
+| `[CUSTOM_PRESENTATIONS]` | Specify the custom presentations | "[specify value]" |
+| `[AUDIO_CONTENT]` | Specify the audio content | "[specify value]" |
+| `[CUSTOM_AUDIO]` | Specify the custom audio | "[specify value]" |
+| `[MOBILE_CONTENT]` | Specify the mobile content | "[specify value]" |
+| `[CUSTOM_MOBILE]` | Specify the custom mobile | "[specify value]" |
+| `[MICRO_CONTENT]` | Specify the micro content | "[specify value]" |
+| `[CUSTOM_MICRO]` | Specify the custom micro | "[specify value]" |
+| `[RICH_MEDIA]` | Specify the rich media | "[specify value]" |
+| `[CUSTOM_RICH_MEDIA]` | Specify the custom rich media | "[specify value]" |
+| `[EDITORIAL_STANDARDS]` | Specify the editorial standards | "[specify value]" |
+| `[CUSTOM_EDITORIAL]` | Specify the custom editorial | "[specify value]" |
+| `[TECHNICAL_ACCURACY]` | Specify the technical accuracy | "[specify value]" |
+| `[CUSTOM_ACCURACY]` | Specify the custom accuracy | "[specify value]" |
+| `[CONTENT_REVIEW]` | Specify the content review | "[specify value]" |
+| `[CUSTOM_REVIEW]` | Specify the custom review | "[specify value]" |
+| `[APPROVAL_WORKFLOWS]` | Specify the approval workflows | "[specify value]" |
+| `[CUSTOM_APPROVAL]` | Specify the custom approval | "[specify value]" |
+| `[QUALITY_METRICS]` | Specify the quality metrics | "[specify value]" |
+| `[CUSTOM_QUALITY_METRICS]` | Specify the custom quality metrics | "[specify value]" |
+| `[READABILITY_STANDARDS]` | Specify the readability standards | "[specify value]" |
+| `[CUSTOM_READABILITY]` | Specify the custom readability | "[specify value]" |
+| `[CURRENCY_REQUIREMENTS]` | Specify the currency requirements | "[specify value]" |
+| `[CUSTOM_CURRENCY]` | Specify the custom currency | "[specify value]" |
+| `[CONSISTENCY_GUIDELINES]` | Specify the consistency guidelines | "[specify value]" |
+| `[CUSTOM_CONSISTENCY]` | Specify the custom consistency | "[specify value]" |
+| `[USER_FEEDBACK_INTEGRATION]` | Specify the user feedback integration | "[specify value]" |
+| `[CUSTOM_FEEDBACK]` | Specify the custom feedback | "[specify value]" |
+| `[CONTENT_IMPROVEMENT]` | Specify the content improvement | "[specify value]" |
+| `[CUSTOM_CONTENT_IMPROVEMENT]` | Specify the custom content improvement | "[specify value]" |
+| `[CONTENT_PLANNING_LIFECYCLE]` | Specify the content planning lifecycle | "[specify value]" |
+| `[CUSTOM_PLANNING_LC]` | Specify the custom planning lc | "[specify value]" |
+| `[CREATION_WORKFLOW]` | Specify the creation workflow | "[specify value]" |
+| `[CUSTOM_CREATION]` | Specify the custom creation | "[specify value]" |
+| `[PUBLISHING_PROCESS]` | Specify the publishing process | "[specify value]" |
+| `[CUSTOM_PUBLISHING]` | Specify the custom publishing | "[specify value]" |
+| `[MAINTENANCE_PROCEDURES]` | Specify the maintenance procedures | "[specify value]" |
+| `[CUSTOM_MAINTENANCE]` | Specify the custom maintenance | "[specify value]" |
+| `[PERFORMANCE_MONITORING]` | Specify the performance monitoring | "[specify value]" |
+| `[CUSTOM_MONITORING]` | Specify the custom monitoring | "[specify value]" |
+| `[CONTENT_OPTIMIZATION]` | Specify the content optimization | "[specify value]" |
+| `[CUSTOM_OPTIMIZATION]` | Specify the custom optimization | "[specify value]" |
+| `[RETIREMENT_PROCESS]` | Specify the retirement process | "[specify value]" |
+| `[CUSTOM_RETIREMENT]` | Specify the custom retirement | "[specify value]" |
+| `[VERSION_CONTROL_LIFECYCLE]` | Specify the version control lifecycle | "[specify value]" |
+| `[CUSTOM_VERSION_LC]` | Specify the custom version lc | "[specify value]" |
+| `[MIGRATION_PROCEDURES]` | Specify the migration procedures | "[specify value]" |
+| `[CUSTOM_MIGRATION]` | Specify the custom migration | "[specify value]" |
+| `[ARCHIVE_MANAGEMENT]` | Specify the archive management | "[specify value]" |
+| `[CUSTOM_ARCHIVE]` | Specify the custom archive | "[specify value]" |
+| `[USER_RESEARCH]` | Specify the user research | "[specify value]" |
+| `[CUSTOM_RESEARCH]` | Specify the custom research | "[specify value]" |
+| `[INFORMATION_ARCHITECTURE]` | Specify the information architecture | "[specify value]" |
+| `[CUSTOM_IA]` | Specify the custom ia | "[specify value]" |
+| `[INTERACTION_DESIGN]` | Specify the interaction design | "[specify value]" |
+| `[CUSTOM_INTERACTION]` | Specify the custom interaction | "[specify value]" |
+| `[VISUAL_DESIGN]` | Specify the visual design | "[specify value]" |
+| `[CUSTOM_VISUAL_DESIGN]` | Specify the custom visual design | "[specify value]" |
+| `[RESPONSIVE_DESIGN]` | Specify the responsive design | "[specify value]" |
+| `[CUSTOM_RESPONSIVE]` | Specify the custom responsive | "[specify value]" |
+| `[ACCESSIBILITY_COMPLIANCE]` | Specify the accessibility compliance | "[specify value]" |
+| `[CUSTOM_ACCESSIBILITY]` | Specify the custom accessibility | "[specify value]" |
+| `[USER_TESTING]` | Specify the user testing | "[specify value]" |
+| `[CUSTOM_TESTING]` | Specify the custom testing | "[specify value]" |
+| `[UX_PERFORMANCE]` | Specify the ux performance | "[specify value]" |
+| `[CUSTOM_UX_PERFORMANCE]` | Specify the custom ux performance | "[specify value]" |
+| `[PERSONALIZATION_UX]` | Specify the personalization ux | "[specify value]" |
+| `[CUSTOM_PERSONALIZATION_UX]` | Specify the custom personalization ux | "[specify value]" |
+| `[MULTI_LANGUAGE_UX]` | Specify the multi language ux | "[specify value]" |
+| `[CUSTOM_MULTILANG]` | Specify the custom multilang | "[specify value]" |
+| `[SEARCH_FUNCTIONALITY]` | Specify the search functionality | "[specify value]" |
+| `[CUSTOM_SEARCH_FUNC]` | Specify the custom search func | "[specify value]" |
+| `[AUTO_COMPLETE]` | Specify the auto complete | "[specify value]" |
+| `[CUSTOM_AUTOCOMPLETE]` | Specify the custom autocomplete | "[specify value]" |
+| `[SEARCH_RESULTS]` | Specify the search results | "[specify value]" |
+| `[CUSTOM_RESULTS]` | Specify the custom results | "[specify value]" |
+| `[FACETED_NAVIGATION]` | Specify the faceted navigation | "[specify value]" |
+| `[CUSTOM_FACETS]` | Specify the custom facets | "[specify value]" |
+| `[SEARCH_ANALYTICS]` | Specify the search analytics | "[specify value]" |
+| `[CUSTOM_SEARCH_ANALYTICS]` | Specify the custom search analytics | "[specify value]" |
+| `[NO_RESULTS_HANDLING]` | Specify the no results handling | "[specify value]" |
+| `[CUSTOM_NO_RESULTS]` | Specify the custom no results | "[specify value]" |
+| `[ADVANCED_SEARCH]` | Specify the advanced search | "[specify value]" |
+| `[CUSTOM_ADVANCED]` | Specify the custom advanced | "[specify value]" |
+| `[SEARCH_OPTIMIZATION]` | Specify the search optimization | "[specify value]" |
+| `[CUSTOM_SEARCH_OPT]` | Specify the custom search opt | "[specify value]" |
+| `[BROWSE_EXPERIENCE]` | Specify the browse experience | "[specify value]" |
+| `[CUSTOM_BROWSE]` | Specify the custom browse | "[specify value]" |
+| `[CONTENT_DISCOVERY]` | Specify the content discovery | "[specify value]" |
+| `[CUSTOM_DISCOVERY]` | Specify the custom discovery | "[specify value]" |
+| `[PRIMARY_NAVIGATION]` | Specify the primary navigation | "[specify value]" |
+| `[CUSTOM_PRIMARY_NAV]` | Specify the custom primary nav | "[specify value]" |
+| `[SECONDARY_NAVIGATION]` | Specify the secondary navigation | "[specify value]" |
+| `[CUSTOM_SECONDARY_NAV]` | Specify the custom secondary nav | "[specify value]" |
+| `[CONTENT_NAVIGATION]` | Specify the content navigation | "[specify value]" |
+| `[CUSTOM_CONTENT_NAV]` | Specify the custom content nav | "[specify value]" |
+| `[MOBILE_NAVIGATION]` | Specify the mobile navigation | "[specify value]" |
+| `[CUSTOM_MOBILE_NAV]` | Specify the custom mobile nav | "[specify value]" |
+| `[SEARCH_INTEGRATION_NAV]` | Specify the search integration nav | "[specify value]" |
+| `[CUSTOM_SEARCH_INT]` | Specify the custom search int | "[specify value]" |
+| `[WAYFINDING_AIDS]` | Specify the wayfinding aids | "[specify value]" |
+| `[CUSTOM_WAYFINDING]` | Specify the custom wayfinding | "[specify value]" |
+| `[CROSS_REFERENCES]` | Specify the cross references | "[specify value]" |
+| `[CUSTOM_CROSS_REF_NAV]` | Specify the custom cross ref nav | "[specify value]" |
+| `[SHORTCUTS]` | Specify the shortcuts | "[specify value]" |
+| `[CUSTOM_SHORTCUTS]` | Specify the custom shortcuts | "[specify value]" |
+| `[HELP_SUPPORT_NAV]` | Specify the help support nav | "[specify value]" |
+| `[CUSTOM_HELP_NAV]` | Specify the custom help nav | "[specify value]" |
+| `[ACCESSIBILITY_NAVIGATION]` | Specify the accessibility navigation | "[specify value]" |
+| `[CUSTOM_ACCESS_NAV]` | Specify the custom access nav | "[specify value]" |
+| `[USER_PROFILES]` | Specify the user profiles | "[specify value]" |
+| `[CUSTOM_PROFILES]` | Specify the custom profiles | "[specify value]" |
+| `[PERSONALIZED_CONTENT]` | Specify the personalized content | "[specify value]" |
+| `[CUSTOM_PERSONAL_CONTENT]` | Specify the custom personal content | "[specify value]" |
+| `[CUSTOMIZABLE_INTERFACE]` | Specify the customizable interface | "[specify value]" |
+| `[CUSTOM_INTERFACE]` | Specify the custom interface | "[specify value]" |
+| `[SAVED_CONTENT]` | Specify the saved content | "[specify value]" |
+| `[CUSTOM_SAVED]` | Specify the custom saved | "[specify value]" |
+| `[RECENT_ACTIVITY]` | Specify the recent activity | "[specify value]" |
+| `[CUSTOM_RECENT]` | Specify the custom recent | "[specify value]" |
+| `[NOTIFICATION_PREFERENCES]` | Specify the notification preferences | "[specify value]" |
+| `[CUSTOM_NOTIFICATIONS]` | Specify the custom notifications | "[specify value]" |
+| `[ROLE_BASED_EXPERIENCE]` | Specify the role based experience | "[specify value]" |
+| `[CUSTOM_ROLE]` | Specify the custom role | "[specify value]" |
+| `[LEARNING_PATHS]` | Specify the learning paths | "[specify value]" |
+| `[CUSTOM_LEARNING_PATHS]` | Specify the custom learning paths | "[specify value]" |
+| `[ADAPTIVE_INTERFACE]` | Specify the adaptive interface | "[specify value]" |
+| `[CUSTOM_ADAPTIVE]` | Specify the custom adaptive | "[specify value]" |
+| `[SOCIAL_FEATURES]` | Specify the social features | "[specify value]" |
+| `[CUSTOM_SOCIAL]` | Specify the custom social | "[specify value]" |
+| `[SEARCH_PLATFORM]` | Specify the search platform | "[specify value]" |
+| `[CUSTOM_SEARCH_PLATFORM]` | Specify the custom search platform | "[specify value]" |
+| `[INDEXING_STRATEGY]` | Strategy or approach for indexing | "[specify value]" |
+| `[CUSTOM_INDEXING]` | Specify the custom indexing | "[specify value]" |
+| `[QUERY_PROCESSING]` | Specify the query processing | "[specify value]" |
+| `[CUSTOM_QUERY]` | Specify the custom query | "[specify value]" |
+| `[RELEVANCE_SCORING]` | Specify the relevance scoring | "[specify value]" |
+| `[CUSTOM_SCORING]` | Specify the custom scoring | "[specify value]" |
+| `[FACETING_FILTERING]` | Specify the faceting filtering | "[specify value]" |
+| `[CUSTOM_FACETING]` | Specify the custom faceting | "[specify value]" |
+| `[AUTOCOMPLETE_ENGINE]` | Specify the autocomplete engine | "[specify value]" |
+| `[CUSTOM_AUTOCOMPLETE_ENGINE]` | Specify the custom autocomplete engine | "[specify value]" |
+| `[PERFORMANCE_OPTIMIZATION_SEARCH]` | Specify the performance optimization search | "[specify value]" |
+| `[CUSTOM_PERF_SEARCH]` | Specify the custom perf search | "[specify value]" |
+| `[SCALABILITY_ARCHITECTURE]` | Specify the scalability architecture | "[specify value]" |
+| `[CUSTOM_SCALABILITY_ARCH]` | Specify the custom scalability arch | "[specify value]" |
+| `[SECURITY_INTEGRATION_SEARCH]` | Specify the security integration search | "[specify value]" |
+| `[CUSTOM_SECURITY_SEARCH]` | Specify the custom security search | "[specify value]" |
+| `[API_DESIGN]` | Specify the api design | "[specify value]" |
+| `[CUSTOM_API]` | Specify the custom api | "[specify value]" |
+| `[SEMANTIC_SEARCH]` | Specify the semantic search | "[specify value]" |
+| `[CUSTOM_SEMANTIC]` | Specify the custom semantic | "[specify value]" |
+| `[AI_POWERED_SEARCH]` | Specify the ai powered search | "[specify value]" |
+| `[CUSTOM_AI_SEARCH]` | Specify the custom ai search | "[specify value]" |
+| `[NATURAL_LANGUAGE_PROCESSING]` | Specify the natural language processing | "[specify value]" |
+| `[CUSTOM_NLP]` | Specify the custom nlp | "[specify value]" |
+| `[QUESTION_ANSWERING]` | Specify the question answering | "[specify value]" |
+| `[CUSTOM_QA]` | Specify the custom qa | "[specify value]" |
+| `[VISUAL_SEARCH]` | Specify the visual search | "[specify value]" |
+| `[CUSTOM_VISUAL_SEARCH]` | Specify the custom visual search | "[specify value]" |
+| `[VOICE_SEARCH]` | Specify the voice search | "[specify value]" |
+| `[CUSTOM_VOICE_SEARCH]` | Specify the custom voice search | "[specify value]" |
+| `[FEDERATED_SEARCH]` | Specify the federated search | "[specify value]" |
+| `[CUSTOM_FEDERATED]` | Specify the custom federated | "[specify value]" |
+| `[PERSONALIZED_SEARCH]` | Specify the personalized search | "[specify value]" |
+| `[CUSTOM_PERSONAL_SEARCH]` | Specify the custom personal search | "[specify value]" |
+| `[CONTEXTUAL_SEARCH]` | Specify the contextual search | "[specify value]" |
+| `[CUSTOM_CONTEXTUAL]` | Specify the custom contextual | "[specify value]" |
+| `[PREDICTIVE_SEARCH]` | Specify the predictive search | "[specify value]" |
+| `[CUSTOM_PREDICTIVE_SEARCH]` | Specify the custom predictive search | "[specify value]" |
+| `[USER_BEHAVIOR_TRACKING]` | Specify the user behavior tracking | "[specify value]" |
+| `[CUSTOM_BEHAVIOR]` | Specify the custom behavior | "[specify value]" |
+| `[QUERY_ANALYSIS]` | Specify the query analysis | "[specify value]" |
+| `[CUSTOM_QUERY_ANALYSIS]` | Specify the custom query analysis | "[specify value]" |
+| `[RESULT_PERFORMANCE]` | Specify the result performance | "[specify value]" |
+| `[CUSTOM_RESULT_PERF]` | Specify the custom result perf | "[specify value]" |
+| `[AB_TESTING_SEARCH]` | Specify the ab testing search | "[specify value]" |
+| `[CUSTOM_AB_SEARCH]` | Specify the custom ab search | "[specify value]" |
+| `[PERFORMANCE_MONITORING_SEARCH]` | Specify the performance monitoring search | "[specify value]" |
+| `[CUSTOM_PERF_MON_SEARCH]` | Specify the custom perf mon search | "[specify value]" |
+| `[CONTENT_GAP_ANALYSIS]` | Specify the content gap analysis | "[specify value]" |
+| `[CUSTOM_GAP]` | Specify the custom gap | "[specify value]" |
+| `[SEARCH_QUALITY_METRICS]` | Specify the search quality metrics | "[specify value]" |
+| `[CUSTOM_QUALITY_SEARCH]` | Specify the custom quality search | "[specify value]" |
+| `[CONTINUOUS_IMPROVEMENT_SEARCH]` | Specify the continuous improvement search | "[specify value]" |
+| `[CUSTOM_CI_SEARCH]` | Specify the custom ci search | "[specify value]" |
+| `[ROI_MEASUREMENT_SEARCH]` | Specify the roi measurement search | "[specify value]" |
+| `[CUSTOM_ROI_SEARCH]` | Specify the custom roi search | "[specify value]" |
+| `[CMS_PLATFORM]` | Specify the cms platform | "[specify value]" |
+| `[CUSTOM_CMS]` | Specify the custom cms | "[specify value]" |
+| `[CONTENT_MODELING]` | Specify the content modeling | "[specify value]" |
+| `[CUSTOM_MODELING]` | Specify the custom modeling | "[specify value]" |
+| `[WORKFLOW_ENGINE]` | Specify the workflow engine | "[specify value]" |
+| `[CUSTOM_WORKFLOW]` | Specify the custom workflow | "[specify value]" |
+| `[VERSION_CONTROL_CMS]` | Specify the version control cms | "[specify value]" |
+| `[CUSTOM_VERSION_CMS]` | Specify the custom version cms | "[specify value]" |
+| `[DIGITAL_ASSET_MANAGEMENT]` | Specify the digital asset management | "[specify value]" |
+| `[CUSTOM_DAM]` | Specify the custom dam | "[specify value]" |
+| `[CONTENT_SCHEDULING]` | Specify the content scheduling | "[specify value]" |
+| `[CUSTOM_SCHEDULING]` | Specify the custom scheduling | "[specify value]" |
+| `[MULTI_SITE_MANAGEMENT]` | Specify the multi site management | "[specify value]" |
+| `[CUSTOM_MULTI_SITE]` | Specify the custom multi site | "[specify value]" |
+| `[INTEGRATION_CAPABILITIES_CMS]` | Specify the integration capabilities cms | "[specify value]" |
+| `[CUSTOM_INTEGRATION_CMS]` | Specify the custom integration cms | "[specify value]" |
+| `[SECURITY_FRAMEWORK_CMS]` | Specify the security framework cms | "[specify value]" |
+| `[CUSTOM_SECURITY_CMS]` | Specify the custom security cms | "[specify value]" |
+| `[PERFORMANCE_OPTIMIZATION_CMS]` | Specify the performance optimization cms | "[specify value]" |
+| `[CUSTOM_PERF_CMS]` | Specify the custom perf cms | "[specify value]" |
+| `[PUBLICATION_WORKFLOW]` | Specify the publication workflow | "[specify value]" |
+| `[CUSTOM_PUB_WORKFLOW]` | Specify the custom pub workflow | "[specify value]" |
+| `[MULTI_CHANNEL_PUBLISHING]` | Specify the multi channel publishing | "[specify value]" |
+| `[CUSTOM_MULTI_CHANNEL]` | Specify the custom multi channel | "[specify value]" |
+| `[CONTENT_SYNDICATION]` | Specify the content syndication | "[specify value]" |
+| `[CUSTOM_SYNDICATION]` | Specify the custom syndication | "[specify value]" |
+| `[RELEASE_MANAGEMENT]` | Specify the release management | "[specify value]" |
+| `[CUSTOM_RELEASE]` | Specify the custom release | "[specify value]" |
+| `[CONTENT_DELIVERY_NETWORK]` | Specify the content delivery network | "[specify value]" |
+| `[CUSTOM_CDN]` | Specify the custom cdn | "[specify value]" |
+| `[MOBILE_PUBLISHING]` | Specify the mobile publishing | "[specify value]" |
+| `[CUSTOM_MOBILE_PUB]` | Specify the custom mobile pub | "[specify value]" |
+| `[SOCIAL_MEDIA_INTEGRATION_PUB]` | Specify the social media integration pub | "[specify value]" |
+| `[CUSTOM_SOCIAL_PUB]` | Specify the custom social pub | "[specify value]" |
+| `[EMAIL_DISTRIBUTION]` | Specify the email distribution | "john.smith@example.com" |
+| `[CUSTOM_EMAIL_DIST]` | Specify the custom email dist | "john.smith@example.com" |
+| `[PRINT_PUBLISHING]` | Specify the print publishing | "[specify value]" |
+| `[CUSTOM_PRINT]` | Specify the custom print | "[specify value]" |
+| `[API_PUBLISHING]` | Specify the api publishing | "[specify value]" |
+| `[CUSTOM_API_PUB]` | Specify the custom api pub | "[specify value]" |
+| `[EDITORIAL_POLICIES]` | Specify the editorial policies | "[specify value]" |
+| `[CONTENT_OWNERSHIP]` | Specify the content ownership | "[specify value]" |
+| `[CUSTOM_OWNERSHIP]` | Specify the custom ownership | "[specify value]" |
+| `[APPROVAL_PROCESSES_GOV]` | Specify the approval processes gov | "[specify value]" |
+| `[CUSTOM_APPROVAL_GOV]` | Specify the custom approval gov | "[specify value]" |
+| `[QUALITY_CONTROL_GOV]` | Specify the quality control gov | "[specify value]" |
+| `[CUSTOM_QC_GOV]` | Specify the custom qc gov | "[specify value]" |
+| `[COMPLIANCE_MANAGEMENT_GOV]` | Specify the compliance management gov | "[specify value]" |
+| `[CUSTOM_COMPLIANCE_GOV]` | Specify the custom compliance gov | "[specify value]" |
+| `[AUDIT_TRAILS]` | Specify the audit trails | "[specify value]" |
+| `[CUSTOM_AUDIT]` | Specify the custom audit | "[specify value]" |
+| `[RISK_MANAGEMENT_GOV]` | Specify the risk management gov | "[specify value]" |
+| `[CUSTOM_RISK_GOV]` | Specify the custom risk gov | "[specify value]" |
+| `[LEGAL_REVIEW]` | Specify the legal review | "[specify value]" |
+| `[CUSTOM_LEGAL]` | Specify the custom legal | "[specify value]" |
+| `[RETENTION_POLICIES]` | Specify the retention policies | "[specify value]" |
+| `[CUSTOM_RETENTION]` | Specify the custom retention | "[specify value]" |
+| `[PRIVACY_PROTECTION]` | Specify the privacy protection | "[specify value]" |
+| `[CUSTOM_PRIVACY]` | Specify the custom privacy | "[specify value]" |
+| `[COMMUNITY_PLATFORM]` | Specify the community platform | "[specify value]" |
+| `[CUSTOM_COMMUNITY]` | Specify the custom community | "[specify value]" |
+| `[USER_GENERATED_CONTENT]` | Specify the user generated content | "[specify value]" |
+| `[CUSTOM_UGC]` | Specify the custom ugc | "[specify value]" |
+| `[EXPERT_NETWORKS]` | Specify the expert networks | "[specify value]" |
+| `[CUSTOM_EXPERTS]` | Specify the custom experts | "[specify value]" |
+| `[GAMIFICATION]` | Specify the gamification | "[specify value]" |
+| `[CUSTOM_GAMIFICATION]` | Specify the custom gamification | "[specify value]" |
+| `[PEER_TO_PEER_SUPPORT]` | Specify the peer to peer support | "[specify value]" |
+| `[CUSTOM_P2P]` | Specify the custom p2p | "[specify value]" |
+| `[CONTENT_COLLABORATION]` | Specify the content collaboration | "[specify value]" |
+| `[CUSTOM_COLLAB]` | Specify the custom collab | "[specify value]" |
+| `[KNOWLEDGE_SHARING_COMMUNITY]` | Specify the knowledge sharing community | "[specify value]" |
+| `[CUSTOM_KS_COMMUNITY]` | Specify the custom ks community | "[specify value]" |
+| `[COMMUNITY_MODERATION]` | Specify the community moderation | "[specify value]" |
+| `[CUSTOM_MODERATION]` | Specify the custom moderation | "[specify value]" |
+| `[SOCIAL_FEATURES_COMMUNITY]` | Specify the social features community | "[specify value]" |
+| `[CUSTOM_SOCIAL_COMMUNITY]` | Specify the custom social community | "[specify value]" |
+| `[MOBILE_COMMUNITY]` | Specify the mobile community | "[specify value]" |
+| `[CUSTOM_MOBILE_COMMUNITY]` | Specify the custom mobile community | "[specify value]" |
+| `[REALTIME_COLLABORATION]` | Specify the realtime collaboration | "[specify value]" |
+| `[CUSTOM_REALTIME]` | Specify the custom realtime | "[specify value]" |
+| `[DOCUMENT_SHARING]` | Specify the document sharing | "[specify value]" |
+| `[CUSTOM_DOC_SHARING]` | Specify the custom doc sharing | "[specify value]" |
+| `[REVIEW_FEEDBACK]` | Specify the review feedback | "[specify value]" |
+| `[CUSTOM_REVIEW_FB]` | Specify the custom review fb | "[specify value]" |
+| `[DISCUSSION_FORUMS]` | Specify the discussion forums | "[specify value]" |
+| `[CUSTOM_FORUMS]` | Specify the custom forums | "[specify value]" |
+| `[EXPERT_CONSULTATION]` | Specify the expert consultation | "[specify value]" |
+| `[CUSTOM_EXPERT_CONSULT]` | Specify the custom expert consult | "[specify value]" |
+| `[TEAM_WORKSPACES]` | Specify the team workspaces | "[specify value]" |
+| `[CUSTOM_WORKSPACES]` | Specify the custom workspaces | "[specify value]" |
+| `[KNOWLEDGE_NETWORKS]` | Specify the knowledge networks | "[specify value]" |
+| `[CUSTOM_NETWORKS]` | Specify the custom networks | "[specify value]" |
+| `[CROSS_FUNCTIONAL_COLLABORATION]` | Specify the cross functional collaboration | "[specify value]" |
+| `[CUSTOM_CROSS_FUNC]` | Specify the custom cross func | "[specify value]" |
+| `[EXTERNAL_COLLABORATION]` | Specify the external collaboration | "[specify value]" |
+| `[CUSTOM_EXTERNAL_COLLAB]` | Specify the custom external collab | "[specify value]" |
+| `[INNOVATION_PLATFORMS]` | Specify the innovation platforms | "[specify value]" |
+| `[CUSTOM_INNOVATION_PLATFORMS]` | Specify the custom innovation platforms | "[specify value]" |
+| `[SOCIAL_TAGGING]` | Specify the social tagging | "[specify value]" |
+| `[CUSTOM_SOCIAL_TAGGING]` | Specify the custom social tagging | "[specify value]" |
+| `[CONTENT_RATING]` | Specify the content rating | "[specify value]" |
+| `[CUSTOM_RATING]` | Specify the custom rating | "[specify value]" |
+| `[RECOMMENDATION_SYSTEMS]` | Specify the recommendation systems | "[specify value]" |
+| `[CUSTOM_RECOMMENDATIONS]` | Specify the custom recommendations | "[specify value]" |
+| `[SOCIAL_BOOKMARKING]` | Specify the social bookmarking | "[specify value]" |
+| `[CUSTOM_BOOKMARKING]` | Specify the custom bookmarking | "[specify value]" |
+| `[ACTIVITY_STREAMS]` | Specify the activity streams | "[specify value]" |
+| `[CUSTOM_ACTIVITY]` | Specify the custom activity | "[specify value]" |
+| `[PROFILE_MANAGEMENT_SOCIAL]` | Specify the profile management social | "[specify value]" |
+| `[CUSTOM_PROFILE_SOCIAL]` | Specify the custom profile social | "[specify value]" |
+| `[INFLUENCE_TRACKING]` | Specify the influence tracking | "[specify value]" |
+| `[CUSTOM_INFLUENCE]` | Specify the custom influence | "[specify value]" |
+| `[SOCIAL_SEARCH]` | Specify the social search | "[specify value]" |
+| `[CUSTOM_SOCIAL_SEARCH]` | Specify the custom social search | "[specify value]" |
+| `[KNOWLEDGE_MARKETPLACE]` | Specify the knowledge marketplace | "[specify value]" |
+| `[CUSTOM_MARKETPLACE]` | Specify the custom marketplace | "[specify value]" |
+| `[CULTURAL_INTEGRATION]` | Specify the cultural integration | "[specify value]" |
+| `[CUSTOM_CULTURAL]` | Specify the custom cultural | "[specify value]" |
+| `[WEB_ANALYTICS]` | Specify the web analytics | "[specify value]" |
+| `[CUSTOM_WEB_ANALYTICS]` | Specify the custom web analytics | "[specify value]" |
+| `[CONTENT_PERFORMANCE]` | Specify the content performance | "[specify value]" |
+| `[CUSTOM_CONTENT_PERF]` | Specify the custom content perf | "[specify value]" |
+| `[USER_BEHAVIOR_ANALYSIS]` | Specify the user behavior analysis | "[specify value]" |
+| `[CUSTOM_BEHAVIOR_ANALYSIS]` | Specify the custom behavior analysis | "[specify value]" |
+| `[SEARCH_ANALYTICS_MEASUREMENT]` | Specify the search analytics measurement | "[specify value]" |
+| `[CUSTOM_SEARCH_ANALYTICS_MEAS]` | Specify the custom search analytics meas | "[specify value]" |
+| `[MOBILE_ANALYTICS]` | Specify the mobile analytics | "[specify value]" |
+| `[CUSTOM_MOBILE_ANALYTICS]` | Specify the custom mobile analytics | "[specify value]" |
+| `[REALTIME_MONITORING_ANALYTICS]` | Specify the realtime monitoring analytics | "[specify value]" |
+| `[CUSTOM_RT_ANALYTICS]` | Specify the custom rt analytics | "[specify value]" |
+| `[CONVERSION_TRACKING]` | Specify the conversion tracking | "[specify value]" |
+| `[CUSTOM_CONVERSION]` | Specify the custom conversion | "[specify value]" |
+| `[AB_TESTING_ANALYTICS]` | Specify the ab testing analytics | "[specify value]" |
+| `[CUSTOM_AB_ANALYTICS]` | Specify the custom ab analytics | "[specify value]" |
+| `[PREDICTIVE_ANALYTICS_KB]` | Specify the predictive analytics kb | "[specify value]" |
+| `[CUSTOM_PREDICTIVE_KB]` | Specify the custom predictive kb | "[specify value]" |
+| `[CUSTOM_DASHBOARDS]` | Specify the custom dashboards | "[specify value]" |
+| `[CUSTOM_DASHBOARDS_KB]` | Specify the custom dashboards kb | "[specify value]" |
+| `[USAGE_METRICS]` | Specify the usage metrics | "[specify value]" |
+| `[CUSTOM_USAGE]` | Specify the custom usage | "[specify value]" |
+| `[CONTENT_EFFECTIVENESS]` | Specify the content effectiveness | "[specify value]" |
+| `[CUSTOM_EFFECTIVENESS]` | Specify the custom effectiveness | "[specify value]" |
+| `[SELF_SERVICE_SUCCESS]` | Specify the self service success | "[specify value]" |
+| `[CUSTOM_SELF_SERVICE]` | Specify the custom self service | "[specify value]" |
+| `[SEARCH_PERFORMANCE_KPI]` | Specify the search performance kpi | "[specify value]" |
+| `[CUSTOM_SEARCH_KPI]` | Specify the custom search kpi | "[specify value]" |
+| `[USER_ENGAGEMENT_KPI]` | Specify the user engagement kpi | "[specify value]" |
+| `[CUSTOM_ENGAGEMENT_KPI]` | Specify the custom engagement kpi | "[specify value]" |
+| `[CONTENT_QUALITY_KPI]` | Specify the content quality kpi | "[specify value]" |
+| `[CUSTOM_QUALITY_KPI]` | Specify the custom quality kpi | "[specify value]" |
+| `[ROI_METRICS]` | Specify the roi metrics | "[specify value]" |
+| `[CUSTOM_ROI_METRICS]` | Specify the custom roi metrics | "[specify value]" |
+| `[USER_SATISFACTION_KPI]` | Specify the user satisfaction kpi | "[specify value]" |
+| `[CUSTOM_SATISFACTION_KPI]` | Specify the custom satisfaction kpi | "[specify value]" |
+| `[OPERATIONAL_METRICS]` | Specify the operational metrics | "[specify value]" |
+| `[CUSTOM_OPERATIONAL]` | Specify the custom operational | "[specify value]" |
+| `[BUSINESS_IMPACT]` | Specify the business impact | "[specify value]" |
+| `[CUSTOM_BUSINESS_IMPACT]` | Specify the custom business impact | "[specify value]" |
+| `[CONTENT_GAP_ANALYSIS_OPT]` | Specify the content gap analysis opt | "[specify value]" |
+| `[CUSTOM_GAP_OPT]` | Specify the custom gap opt | "[specify value]" |
+| `[USER_JOURNEY_OPTIMIZATION]` | Specify the user journey optimization | "[specify value]" |
+| `[CUSTOM_JOURNEY_OPT]` | Specify the custom journey opt | "[specify value]" |
+| `[PERFORMANCE_OPTIMIZATION_ANALYTICS]` | Specify the performance optimization analytics | "[specify value]" |
+| `[CUSTOM_PERF_OPT_ANALYTICS]` | Specify the custom perf opt analytics | "[specify value]" |
+| `[CONTENT_LIFECYCLE_ANALYTICS]` | Specify the content lifecycle analytics | "[specify value]" |
+| `[CUSTOM_LIFECYCLE_ANALYTICS]` | Specify the custom lifecycle analytics | "[specify value]" |
+| `[FEEDBACK_ANALYSIS]` | Specify the feedback analysis | "[specify value]" |
+| `[CUSTOM_FEEDBACK_ANALYSIS]` | Specify the custom feedback analysis | "[specify value]" |
+| `[COMPETITIVE_ANALYSIS_KB]` | Specify the competitive analysis kb | "[specify value]" |
+| `[CUSTOM_COMPETITIVE_KB]` | Specify the custom competitive kb | "[specify value]" |
+| `[INNOVATION_METRICS_KB]` | Specify the innovation metrics kb | "[specify value]" |
+| `[CUSTOM_INNOVATION_KB]` | Specify the custom innovation kb | "[specify value]" |
+| `[QUALITY_IMPROVEMENT_ANALYTICS]` | Specify the quality improvement analytics | "[specify value]" |
+| `[CUSTOM_QUALITY_IMPROVEMENT]` | Specify the custom quality improvement | "[specify value]" |
+| `[PROCESS_OPTIMIZATION_ANALYTICS]` | Specify the process optimization analytics | "[specify value]" |
+| `[CUSTOM_PROCESS_OPT]` | Specify the custom process opt | "[specify value]" |
+| `[PERSONALIZATION_EFFECTIVENESS]` | Specify the personalization effectiveness | "[specify value]" |
+| `[CUSTOM_PERSONALIZATION_EFF]` | Specify the custom personalization eff | "[specify value]" |
+| `[HOSTING_ARCHITECTURE]` | Specify the hosting architecture | "[specify value]" |
+| `[CUSTOM_HOSTING]` | Specify the custom hosting | "[specify value]" |
+| `[SCALABILITY_DESIGN]` | Specify the scalability design | "[specify value]" |
+| `[CUSTOM_SCALABILITY_DESIGN]` | Specify the custom scalability design | "[specify value]" |
+| `[PERFORMANCE_OPTIMIZATION_INFRA]` | Specify the performance optimization infra | "[specify value]" |
+| `[CUSTOM_PERF_INFRA]` | Specify the custom perf infra | "[specify value]" |
+| `[HIGH_AVAILABILITY]` | Specify the high availability | "[specify value]" |
+| `[CUSTOM_HA]` | Specify the custom ha | "[specify value]" |
+| `[SECURITY_ARCHITECTURE]` | Specify the security architecture | "[specify value]" |
+| `[CUSTOM_SECURITY_ARCH]` | Specify the custom security arch | "[specify value]" |
+| `[BACKUP_RECOVERY]` | Specify the backup recovery | "[specify value]" |
+| `[CUSTOM_BACKUP]` | Specify the custom backup | "[specify value]" |
+| `[MONITORING_ALERTING_INFRA]` | Specify the monitoring alerting infra | "[specify value]" |
+| `[CUSTOM_MONITORING_INFRA]` | Specify the custom monitoring infra | "[specify value]" |
+| `[CAPACITY_PLANNING]` | Specify the capacity planning | "[specify value]" |
+| `[CUSTOM_CAPACITY]` | Specify the custom capacity | "[specify value]" |
+| `[DATABASE_ARCHITECTURE]` | Specify the database architecture | "[specify value]" |
+| `[CUSTOM_DB_ARCH]` | Specify the custom db arch | "[specify value]" |
+| `[API_ARCHITECTURE_INFRA]` | Specify the api architecture infra | "[specify value]" |
+| `[CUSTOM_API_ARCH]` | Specify the custom api arch | "[specify value]" |
+| `[ENTERPRISE_SYSTEMS]` | Specify the enterprise systems | "[specify value]" |
+| `[CUSTOM_ENTERPRISE]` | Specify the custom enterprise | "[specify value]" |
+| `[SINGLE_SIGN_ON]` | Specify the single sign on | "[specify value]" |
+| `[CUSTOM_SSO]` | Specify the custom sso | "[specify value]" |
+| `[DATA_SYNCHRONIZATION]` | Specify the data synchronization | "[specify value]" |
+| `[CUSTOM_DATA_SYNC]` | Specify the custom data sync | "[specify value]" |
+| `[CONTENT_SYNDICATION_INTEGRATION]` | Specify the content syndication integration | "[specify value]" |
+| `[CUSTOM_SYNDICATION_INT]` | Specify the custom syndication int | "[specify value]" |
+| `[THIRD_PARTY_TOOLS]` | Specify the third party tools | "[specify value]" |
+| `[CUSTOM_THIRD_PARTY]` | Specify the custom third party | "[specify value]" |
+| `[MOBILE_INTEGRATION]` | Specify the mobile integration | "[specify value]" |
+| `[CUSTOM_MOBILE_INT]` | Specify the custom mobile int | "[specify value]" |
+| `[SOCIAL_PLATFORM_INTEGRATION]` | Specify the social platform integration | "[specify value]" |
+| `[CUSTOM_SOCIAL_INT]` | Specify the custom social int | "[specify value]" |
+| `[WORKFLOW_INTEGRATION]` | Specify the workflow integration | "[specify value]" |
+| `[CUSTOM_WORKFLOW_INT]` | Specify the custom workflow int | "[specify value]" |
+| `[SEARCH_INTEGRATION_INFRA]` | Specify the search integration infra | "[specify value]" |
+| `[AI_ML_INTEGRATION_INFRA]` | Specify the ai ml integration infra | "[specify value]" |
+| `[CUSTOM_AI_ML_INT]` | Specify the custom ai ml int | "[specify value]" |
+| `[ACCESS_CONTROL]` | Specify the access control | "[specify value]" |
+| `[DATA_PROTECTION]` | Specify the data protection | "[specify value]" |
+| `[CUSTOM_DATA_PROTECTION]` | Specify the custom data protection | "[specify value]" |
+| `[CONTENT_SECURITY]` | Specify the content security | "[specify value]" |
+| `[CUSTOM_CONTENT_SECURITY]` | Specify the custom content security | "[specify value]" |
+| `[NETWORK_SECURITY]` | Specify the network security | "[specify value]" |
+| `[CUSTOM_NETWORK_SECURITY]` | Specify the custom network security | "[specify value]" |
+| `[AUDIT_COMPLIANCE]` | Specify the audit compliance | "[specify value]" |
+| `[CUSTOM_AUDIT_COMPLIANCE]` | Specify the custom audit compliance | "[specify value]" |
+| `[VULNERABILITY_MANAGEMENT]` | Specify the vulnerability management | "[specify value]" |
+| `[CUSTOM_VULNERABILITY]` | Specify the custom vulnerability | "[specify value]" |
+| `[INCIDENT_RESPONSE]` | Specify the incident response | "[specify value]" |
+| `[CUSTOM_INCIDENT]` | Specify the custom incident | "[specify value]" |
+| `[PRIVACY_PROTECTION_SECURITY]` | Specify the privacy protection security | "[specify value]" |
+| `[CUSTOM_PRIVACY_SECURITY]` | Specify the custom privacy security | "[specify value]" |
+| `[SECURE_DEVELOPMENT]` | Specify the secure development | "[specify value]" |
+| `[CUSTOM_SECURE_DEV]` | Specify the custom secure dev | "[specify value]" |
+| `[THIRD_PARTY_SECURITY]` | Specify the third party security | "[specify value]" |
+| `[CUSTOM_THIRD_PARTY_SECURITY]` | Specify the custom third party security | "[specify value]" |
+| `[STAKEHOLDER_ANALYSIS]` | Specify the stakeholder analysis | "[specify value]" |
+| `[CHANGE_READINESS]` | Specify the change readiness | "[specify value]" |
+| `[CUSTOM_READINESS]` | Specify the custom readiness | "[specify value]" |
+| `[COMMUNICATION_STRATEGY_CHANGE]` | Strategy or approach for communication  change | "[specify value]" |
+| `[CUSTOM_COMM_STRATEGY]` | Strategy or approach for custom comm | "[specify value]" |
+| `[TRAINING_SUPPORT]` | Specify the training support | "[specify value]" |
+| `[CUSTOM_TRAINING_SUPPORT]` | Specify the custom training support | "[specify value]" |
+| `[PILOT_PROGRAMS]` | Specify the pilot programs | "[specify value]" |
+| `[CUSTOM_PILOTS]` | Specify the custom pilots | "[specify value]" |
+| `[ROLLOUT_STRATEGY]` | Strategy or approach for rollout | "[specify value]" |
+| `[CUSTOM_ROLLOUT]` | Specify the custom rollout | "[specify value]" |
+| `[SUCCESS_METRICS_ADOPTION]` | Specify the success metrics adoption | "[specify value]" |
+| `[CUSTOM_SUCCESS_ADOPTION]` | Specify the custom success adoption | "[specify value]" |
+| `[FEEDBACK_MECHANISMS]` | Specify the feedback mechanisms | "[specify value]" |
+| `[CUSTOM_FEEDBACK_MECH]` | Specify the custom feedback mech | "[specify value]" |
+| `[CONTINUOUS_IMPROVEMENT_ADOPTION]` | Specify the continuous improvement adoption | "[specify value]" |
+| `[CUSTOM_CI_ADOPTION]` | Specify the custom ci adoption | "[specify value]" |
+| `[CULTURAL_TRANSFORMATION]` | Specify the cultural transformation | "[specify value]" |
+| `[CUSTOM_CULTURE_TRANSFORM]` | Specify the custom culture transform | "[specify value]" |
+| `[TRAINING_NEEDS_ANALYSIS]` | Specify the training needs analysis | "[specify value]" |
+| `[CUSTOM_TRAINING_NEEDS]` | Specify the custom training needs | "[specify value]" |
+| `[LEARNING_PATH_DESIGN]` | Specify the learning path design | "[specify value]" |
+| `[CUSTOM_LEARNING_PATH]` | Specify the custom learning path | "[specify value]" |
+| `[TRAINING_DELIVERY]` | Specify the training delivery | "[specify value]" |
+| `[CUSTOM_TRAINING_DELIVERY]` | Specify the custom training delivery | "[specify value]" |
+| `[USER_DOCUMENTATION]` | Specify the user documentation | "[specify value]" |
+| `[CUSTOM_USER_DOCS]` | Specify the custom user docs | "[specify value]" |
+| `[HELP_SUPPORT]` | Specify the help support | "[specify value]" |
+| `[CUSTOM_HELP_SUPPORT]` | Specify the custom help support | "[specify value]" |
+| `[POWER_USER_PROGRAMS]` | Specify the power user programs | "[specify value]" |
+| `[CUSTOM_POWER_USERS]` | Specify the custom power users | "[specify value]" |
+| `[CONTINUOUS_LEARNING_SUPPORT]` | Specify the continuous learning support | "[specify value]" |
+| `[CUSTOM_CONTINUOUS_LEARNING]` | Specify the custom continuous learning | "[specify value]" |
+| `[PERFORMANCE_SUPPORT_TRAINING]` | Specify the performance support training | "[specify value]" |
+| `[CUSTOM_PERF_SUPPORT_TRAINING]` | Specify the custom perf support training | "[specify value]" |
+| `[ASSESSMENT_CERTIFICATION]` | Specify the assessment certification | "[specify value]" |
+| `[CUSTOM_ASSESSMENT_CERT]` | Specify the custom assessment cert | "[specify value]" |
+| `[TRAINING_EFFECTIVENESS]` | Specify the training effectiveness | "[specify value]" |
+| `[CUSTOM_TRAINING_EFF]` | Specify the custom training eff | "[specify value]" |
+| `[CHANGE_STRATEGY]` | Strategy or approach for change | "[specify value]" |
+| `[CUSTOM_CHANGE_STRATEGY]` | Strategy or approach for custom change | "[specify value]" |
+| `[LEADERSHIP_ENGAGEMENT]` | Specify the leadership engagement | "[specify value]" |
+| `[CUSTOM_LEADERSHIP]` | Specify the custom leadership | "[specify value]" |
+| `[COMMUNICATION_PLAN]` | Specify the communication plan | "[specify value]" |
+| `[CUSTOM_COMM_PLAN]` | Specify the custom comm plan | "[specify value]" |
+| `[RESISTANCE_MANAGEMENT]` | Specify the resistance management | "[specify value]" |
+| `[CUSTOM_RESISTANCE]` | Specify the custom resistance | "[specify value]" |
+| `[CULTURE_CHANGE]` | Specify the culture change | "[specify value]" |
+| `[CUSTOM_CULTURE_CHANGE]` | Specify the custom culture change | "[specify value]" |
+| `[PROCESS_REDESIGN]` | Specify the process redesign | "[specify value]" |
+| `[CUSTOM_PROCESS_REDESIGN]` | Specify the custom process redesign | "[specify value]" |
+| `[PERFORMANCE_MANAGEMENT_CHANGE]` | Specify the performance management change | "[specify value]" |
+| `[CUSTOM_PERF_MGMT_CHANGE]` | Specify the custom perf mgmt change | "[specify value]" |
+| `[RISK_MANAGEMENT_CHANGE]` | Specify the risk management change | "[specify value]" |
+| `[CUSTOM_RISK_CHANGE]` | Specify the custom risk change | "[specify value]" |
+| `[SUSTAINABILITY_PLANNING]` | Specify the sustainability planning | "[specify value]" |
+| `[CUSTOM_SUSTAINABILITY]` | Specify the custom sustainability | "[specify value]" |
+| `[SUCCESS_MEASUREMENT]` | Specify the success measurement | "[specify value]" |
+| `[CUSTOM_SUCCESS_MEASUREMENT]` | Specify the custom success measurement | "[specify value]" |
+| `[BUSINESS_CASE]` | Specify the business case | "[specify value]" |
+| `[CUSTOM_BUSINESS_CASE]` | Specify the custom business case | "[specify value]" |
+| `[VALUE_METRICS]` | Specify the value metrics | "[specify value]" |
+| `[CUSTOM_VALUE_METRICS]` | Specify the custom value metrics | "[specify value]" |
+| `[BASELINE_ESTABLISHMENT]` | Specify the baseline establishment | "[specify value]" |
+| `[CUSTOM_BASELINE]` | Specify the custom baseline | "[specify value]" |
+| `[COST_TRACKING]` | Specify the cost tracking | "[specify value]" |
+| `[CUSTOM_COST_TRACKING]` | Specify the custom cost tracking | "[specify value]" |
+| `[BENEFIT_REALIZATION]` | Specify the benefit realization | "[specify value]" |
+| `[CUSTOM_BENEFIT_REAL]` | Specify the custom benefit real | "[specify value]" |
+| `[FINANCIAL_MODELING]` | Specify the financial modeling | "[specify value]" |
+| `[CUSTOM_FINANCIAL_MODEL]` | Specify the custom financial model | "[specify value]" |
+| `[IMPACT_ASSESSMENT]` | Specify the impact assessment | "[specify value]" |
+| `[CUSTOM_IMPACT_ASSESS]` | Specify the custom impact assess | "[specify value]" |
+| `[VALUE_REPORTING]` | Specify the value reporting | "[specify value]" |
+| `[CUSTOM_VALUE_REPORTING]` | Specify the custom value reporting | "[specify value]" |
+| `[BENCHMARKING_ROI]` | Specify the benchmarking roi | "[specify value]" |
+| `[CUSTOM_BENCHMARKING_ROI]` | Specify the custom benchmarking roi | "[specify value]" |
+| `[CONTINUOUS_MONITORING_ROI]` | Specify the continuous monitoring roi | "[specify value]" |
+| `[CUSTOM_MONITORING_ROI]` | Specify the custom monitoring roi | "[specify value]" |
+| `[PRODUCTIVITY_IMPROVEMENTS]` | Specify the productivity improvements | "[specify value]" |
+| `[CUSTOM_PRODUCTIVITY]` | Specify the custom productivity | "[specify value]" |
+| `[QUALITY_ENHANCEMENTS]` | Specify the quality enhancements | "[specify value]" |
+| `[CUSTOM_QUALITY_ENH]` | Specify the custom quality enh | "[specify value]" |
+| `[CUSTOMER_SATISFACTION_IMPACT]` | Specify the customer satisfaction impact | "[specify value]" |
+| `[CUSTOM_CSAT_IMPACT]` | Specify the custom csat impact | "[specify value]" |
+| `[EMPLOYEE_SATISFACTION_IMPACT]` | Specify the employee satisfaction impact | "[specify value]" |
+| `[CUSTOM_EMPLOYEE_SAT]` | Specify the custom employee sat | "[specify value]" |
+| `[RISK_REDUCTION]` | Specify the risk reduction | "[specify value]" |
+| `[CUSTOM_RISK_REDUCTION]` | Specify the custom risk reduction | "[specify value]" |
+| `[INNOVATION_ENABLEMENT]` | Specify the innovation enablement | "[specify value]" |
+| `[CUSTOM_INNOVATION_ENABLE]` | Specify the custom innovation enable | "[specify value]" |
+| `[DECISION_MAKING]` | Specify the decision making | "[specify value]" |
+| `[CUSTOM_DECISION]` | Specify the custom decision | "[specify value]" |
+| `[COMPETITIVE_ADVANTAGE]` | Specify the competitive advantage | "[specify value]" |
+| `[CUSTOM_COMPETITIVE_ADV]` | Specify the custom competitive adv | "[specify value]" |
+| `[SCALABILITY_BENEFITS]` | Specify the scalability benefits | "[specify value]" |
+| `[CUSTOM_SCALABILITY_BENEFITS]` | Specify the custom scalability benefits | "[specify value]" |
+| `[STRATEGIC_ALIGNMENT]` | Specify the strategic alignment | "[specify value]" |
+| `[CUSTOM_STRATEGIC_ALIGN]` | Specify the custom strategic align | "[specify value]" |
+| `[PERFORMANCE_ANALYSIS]` | Specify the performance analysis | "[specify value]" |
+| `[CUSTOM_PERF_ANALYSIS]` | Specify the custom perf analysis | "[specify value]" |
+| `[FUTURE_REQUIREMENTS]` | Specify the future requirements | "[specify value]" |
+| `[CUSTOM_FUTURE_REQ]` | Specify the custom future req | "[specify value]" |
+| `[ROADMAP_PLANNING]` | Specify the roadmap planning | "[specify value]" |
+| `[CUSTOM_ROADMAP]` | Specify the custom roadmap | "[specify value]" |
+| `[INVESTMENT_PLANNING_FUTURE]` | Specify the investment planning future | "[specify value]" |
+| `[CUSTOM_INVESTMENT_FUTURE]` | Specify the custom investment future | "[specify value]" |
+| `[TECHNOLOGY_EVOLUTION]` | Specify the technology evolution | "[specify value]" |
+| `[CUSTOM_TECH_EVOLUTION]` | Specify the custom tech evolution | "[specify value]" |
+| `[MARKET_ADAPTATION]` | Specify the market adaptation | "[specify value]" |
+| `[CUSTOM_MARKET_ADAPT]` | Specify the custom market adapt | "[specify value]" |
+| `[SUSTAINABILITY_PLANNING_FUTURE]` | Specify the sustainability planning future | "[specify value]" |
+| `[CUSTOM_SUSTAINABILITY_FUTURE]` | Specify the custom sustainability future | "[specify value]" |
+| `[RISK_PLANNING]` | Specify the risk planning | "[specify value]" |
+| `[CUSTOM_RISK_PLANNING]` | Specify the custom risk planning | "[specify value]" |
+| `[PARTNERSHIP_STRATEGY]` | Strategy or approach for partnership | "[specify value]" |
+| `[CUSTOM_PARTNERSHIP]` | Specify the custom partnership | "[specify value]" |
+| `[INNOVATION_STRATEGY_FUTURE]` | Strategy or approach for innovation  future | "[specify value]" |
+| `[CUSTOM_INNOVATION_FUTURE]` | Specify the custom innovation future | "[specify value]" |

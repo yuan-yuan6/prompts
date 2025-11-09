@@ -1,3 +1,18 @@
+---
+title: Enterprise Risk Management (ERM) Framework
+category: finance/Risk Management
+tags: [design, finance, framework, management, security]
+use_cases:
+  - Implementing comprehensive framework for implementing enterprise risk management including ri...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - investment-portfolio-management.md
+  - digital-banking-strategy.md
+  - risk-management-framework.md
+last_updated: 2025-11-09
+---
+
 # Enterprise Risk Management (ERM) Framework
 
 ## Purpose
@@ -53,6 +68,283 @@ Liquidity Risk:
 - Funding Concentration: [FUND_CONC]
 - Stress Testing Results: [STRESS_RESULT]
 ```
+
+## Variables
+
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `[INSTITUTION_NAME]` | Name of the institution | "John Smith" |
+| `[ASSET_SIZE]` | Specify the asset size | "[specify value]" |
+| `[RISK_APPETITE]` | Specify the risk appetite | "[specify value]" |
+| `[REGULATORY_REGIME]` | Specify the regulatory regime | "[specify value]" |
+| `[CAPITAL_RATIO]` | Specify the capital ratio | "[specify value]" |
+| `[ROE_TARGET]` | Target or intended roe | "[specify value]" |
+| `[RISK_SCORE]` | Specify the risk score | "[specify value]" |
+| `[BOARD_RESP]` | Specify the board resp | "[specify value]" |
+| `[BOARD_REPORT]` | Specify the board report | "[specify value]" |
+| `[BOARD_FREQ]` | Specify the board freq | "[specify value]" |
+| `[BOARD_AUTH]` | Specify the board auth | "[specify value]" |
+| `[BOARD_ESCALATE]` | Specify the board escalate | "[specify value]" |
+| `[EXEC_RESP]` | Specify the exec resp | "[specify value]" |
+| `[EXEC_REPORT]` | Specify the exec report | "[specify value]" |
+| `[EXEC_FREQ]` | Specify the exec freq | "[specify value]" |
+| `[EXEC_AUTH]` | Specify the exec auth | "[specify value]" |
+| `[EXEC_ESCALATE]` | Specify the exec escalate | "[specify value]" |
+| `[CRO_RESP]` | Specify the cro resp | "[specify value]" |
+| `[CRO_REPORT]` | Specify the cro report | "[specify value]" |
+| `[CRO_FREQ]` | Specify the cro freq | "[specify value]" |
+| `[CRO_AUTH]` | Specify the cro auth | "[specify value]" |
+| `[CRO_ESCALATE]` | Specify the cro escalate | "[specify value]" |
+| `[BUS_RESP]` | Specify the bus resp | "[specify value]" |
+| `[BUS_REPORT]` | Specify the bus report | "[specify value]" |
+| `[BUS_FREQ]` | Specify the bus freq | "[specify value]" |
+| `[BUS_AUTH]` | Specify the bus auth | "[specify value]" |
+| `[BUS_ESCALATE]` | Specify the bus escalate | "[specify value]" |
+| `[RISK_RESP]` | Specify the risk resp | "[specify value]" |
+| `[RISK_REPORT]` | Specify the risk report | "[specify value]" |
+| `[RISK_FREQ]` | Specify the risk freq | "[specify value]" |
+| `[RISK_AUTH]` | Specify the risk auth | "[specify value]" |
+| `[RISK_ESCALATE]` | Specify the risk escalate | "[specify value]" |
+| `[THREE_LINES]` | Specify the three lines | "[specify value]" |
+| `[THREE_REPORT]` | Specify the three report | "[specify value]" |
+| `[THREE_FREQ]` | Specify the three freq | "[specify value]" |
+| `[THREE_AUTH]` | Specify the three auth | "[specify value]" |
+| `[THREE_ESCALATE]` | Specify the three escalate | "[specify value]" |
+| `[PD_MEASURE]` | Specify the pd measure | "[specify value]" |
+| `[LGD_MEASURE]` | Specify the lgd measure | "[specify value]" |
+| `[EAD_MEASURE]` | Specify the ead measure | "[specify value]" |
+| `[EL_MEASURE]` | Specify the el measure | "[specify value]" |
+| `[RATING_DIST]` | Specify the rating dist | "[specify value]" |
+| `[CONCENTRATION]` | Specify the concentration | "[specify value]" |
+| `[VAR_MEASURE]` | Specify the var measure | "[specify value]" |
+| `[SVAR_MEASURE]` | Specify the svar measure | "[specify value]" |
+| `[IRR_MEASURE]` | Specify the irr measure | "[specify value]" |
+| `[FX_MEASURE]` | Specify the fx measure | "[specify value]" |
+| `[EQUITY_MEASURE]` | Specify the equity measure | "[specify value]" |
+| `[COMMODITY_MEASURE]` | Specify the commodity measure | "[specify value]" |
+| `[OP_CAPITAL]` | Specify the op capital | "[specify value]" |
+| `[LOSS_EVENTS]` | Specify the loss events | "[specify value]" |
+| `[KRI_COUNT]` | Specify the kri count | "10" |
+| `[CONTROL_FAIL]` | Specify the control fail | "[specify value]" |
+| `[PROCESS_RISK]` | Specify the process risk | "[specify value]" |
+| `[TECH_RISK]` | Specify the tech risk | "[specify value]" |
+| `[LCR_RATIO]` | Specify the lcr ratio | "[specify value]" |
+| `[NSFR_RATIO]` | Specify the nsfr ratio | "[specify value]" |
+| `[CFAR_MEASURE]` | Specify the cfar measure | "[specify value]" |
+| `[FUND_CONC]` | Specify the fund conc | "[specify value]" |
+| `[STRESS_RESULT]` | Specify the stress result | "[specify value]" |
+| `[CREDIT_APPETITE]` | Specify the credit appetite | "[specify value]" |
+| `[CREDIT_TOLERANCE]` | Specify the credit tolerance | "[specify value]" |
+| `[CREDIT_EXPOSURE]` | Specify the credit exposure | "[specify value]" |
+| `[CREDIT_UTIL]` | Specify the credit util | "[specify value]" |
+| `[CREDIT_ACTION]` | Specify the credit action | "[specify value]" |
+| `[MARKET_APPETITE]` | Specify the market appetite | "[specify value]" |
+| `[MARKET_TOLERANCE]` | Specify the market tolerance | "[specify value]" |
+| `[MARKET_EXPOSURE]` | Specify the market exposure | "[specify value]" |
+| `[MARKET_UTIL]` | Specify the market util | "[specify value]" |
+| `[MARKET_ACTION]` | Specify the market action | "[specify value]" |
+| `[OP_APPETITE]` | Specify the op appetite | "[specify value]" |
+| `[OP_TOLERANCE]` | Specify the op tolerance | "[specify value]" |
+| `[OP_EXPOSURE]` | Specify the op exposure | "[specify value]" |
+| `[OP_UTIL]` | Specify the op util | "[specify value]" |
+| `[OP_ACTION]` | Specify the op action | "[specify value]" |
+| `[LIQ_APPETITE]` | Specify the liq appetite | "[specify value]" |
+| `[LIQ_TOLERANCE]` | Specify the liq tolerance | "[specify value]" |
+| `[LIQ_EXPOSURE]` | Specify the liq exposure | "[specify value]" |
+| `[LIQ_UTIL]` | Specify the liq util | "[specify value]" |
+| `[LIQ_ACTION]` | Specify the liq action | "[specify value]" |
+| `[COMP_APPETITE]` | Specify the comp appetite | "[specify value]" |
+| `[COMP_TOLERANCE]` | Specify the comp tolerance | "[specify value]" |
+| `[COMP_EXPOSURE]` | Specify the comp exposure | "[specify value]" |
+| `[COMP_UTIL]` | Specify the comp util | "[specify value]" |
+| `[COMP_ACTION]` | Specify the comp action | "[specify value]" |
+| `[REP_APPETITE]` | Specify the rep appetite | "[specify value]" |
+| `[REP_TOLERANCE]` | Specify the rep tolerance | "[specify value]" |
+| `[REP_EXPOSURE]` | Specify the rep exposure | "[specify value]" |
+| `[REP_UTIL]` | Specify the rep util | "[specify value]" |
+| `[REP_ACTION]` | Specify the rep action | "[specify value]" |
+| `[POLICY_CONTROLS]` | Specify the policy controls | "[specify value]" |
+| `[LIMIT_CONTROLS]` | Specify the limit controls | "[specify value]" |
+| `[APPROVAL_CONTROLS]` | Specify the approval controls | "[specify value]" |
+| `[SYSTEM_CONTROLS]` | Specify the system controls | "[specify value]" |
+| `[SOD_CONTROLS]` | Specify the sod controls | "[specify value]" |
+| `[MONITOR_CONTROLS]` | Specify the monitor controls | "[specify value]" |
+| `[EXCEPTION_CONTROLS]` | Specify the exception controls | "[specify value]" |
+| `[RECON_CONTROLS]` | Specify the recon controls | "[specify value]" |
+| `[REVIEW_CONTROLS]` | Specify the review controls | "[specify value]" |
+| `[AUDIT_CONTROLS]` | Specify the audit controls | "[specify value]" |
+| `[INCIDENT_CONTROLS]` | Specify the incident controls | "[specify value]" |
+| `[RECOVERY_CONTROLS]` | Specify the recovery controls | "[specify value]" |
+| `[REMEDIATE_CONTROLS]` | Specify the remediate controls | "[specify value]" |
+| `[ESCALATE_CONTROLS]` | Specify the escalate controls | "[specify value]" |
+| `[IMPROVE_CONTROLS]` | Specify the improve controls | "[specify value]" |
+| `[INSURANCE_COVER]` | Specify the insurance cover | "[specify value]" |
+| `[HEDGE_STRATEGY]` | Strategy or approach for hedge | "[specify value]" |
+| `[GUARANTEE_AMOUNT]` | Specify the guarantee amount | "[specify value]" |
+| `[COLLATERAL_MGMT]` | Specify the collateral mgmt | "[specify value]" |
+| `[DERIVATIVE_USE]` | Specify the derivative use | "[specify value]" |
+| `[BASEL_CURRENT]` | Specify the basel current | "[specify value]" |
+| `[BASEL_TARGET]` | Target or intended basel | "[specify value]" |
+| `[BASEL_GAP]` | Specify the basel gap | "[specify value]" |
+| `[BASEL_ACTION]` | Specify the basel action | "[specify value]" |
+| `[BASEL_TIME]` | Specify the basel time | "[specify value]" |
+| `[LEVERAGE_CURRENT]` | Specify the leverage current | "[specify value]" |
+| `[LEVERAGE_TARGET]` | Target or intended leverage | "[specify value]" |
+| `[LEVERAGE_GAP]` | Specify the leverage gap | "[specify value]" |
+| `[LEVERAGE_ACTION]` | Specify the leverage action | "[specify value]" |
+| `[LEVERAGE_TIME]` | Specify the leverage time | "[specify value]" |
+| `[ICAAP_CURRENT]` | Specify the icaap current | "[specify value]" |
+| `[ICAAP_TARGET]` | Target or intended icaap | "[specify value]" |
+| `[ICAAP_GAP]` | Specify the icaap gap | "[specify value]" |
+| `[ICAAP_ACTION]` | Specify the icaap action | "[specify value]" |
+| `[ICAAP_TIME]` | Specify the icaap time | "[specify value]" |
+| `[STRESS_CURRENT]` | Specify the stress current | "[specify value]" |
+| `[STRESS_TARGET]` | Target or intended stress | "[specify value]" |
+| `[STRESS_GAP]` | Specify the stress gap | "[specify value]" |
+| `[STRESS_ACTION]` | Specify the stress action | "[specify value]" |
+| `[STRESS_TIME]` | Specify the stress time | "[specify value]" |
+| `[IFRS_CURRENT]` | Specify the ifrs current | "[specify value]" |
+| `[IFRS_TARGET]` | Target or intended ifrs | "[specify value]" |
+| `[IFRS_GAP]` | Specify the ifrs gap | "[specify value]" |
+| `[IFRS_ACTION]` | Specify the ifrs action | "[specify value]" |
+| `[IFRS_TIME]` | Specify the ifrs time | "[specify value]" |
+| `[AML_CURRENT]` | Specify the aml current | "[specify value]" |
+| `[AML_TARGET]` | Target or intended aml | "[specify value]" |
+| `[AML_GAP]` | Specify the aml gap | "[specify value]" |
+| `[AML_ACTION]` | Specify the aml action | "[specify value]" |
+| `[AML_TIME]` | Specify the aml time | "[specify value]" |
+| `[QUALITY_METRICS]` | Specify the quality metrics | "[specify value]" |
+| `[QUALITY_FREQ]` | Specify the quality freq | "[specify value]" |
+| `[QUALITY_THRESH]` | Specify the quality thresh | "[specify value]" |
+| `[QUALITY_VALUE]` | Specify the quality value | "[specify value]" |
+| `[QUALITY_TREND]` | Specify the quality trend | "[specify value]" |
+| `[MARKET_METRICS]` | Specify the market metrics | "[specify value]" |
+| `[MARKET_FREQ]` | Specify the market freq | "[specify value]" |
+| `[MARKET_THRESH]` | Specify the market thresh | "[specify value]" |
+| `[MARKET_VALUE]` | Specify the market value | "[specify value]" |
+| `[MARKET_TREND]` | Specify the market trend | "[specify value]" |
+| `[OP_METRICS]` | Specify the op metrics | "[specify value]" |
+| `[OP_FREQ]` | Specify the op freq | "[specify value]" |
+| `[OP_THRESH]` | Specify the op thresh | "[specify value]" |
+| `[OP_VALUE]` | Specify the op value | "[specify value]" |
+| `[OP_TREND]` | Specify the op trend | "[specify value]" |
+| `[LIQ_METRICS]` | Specify the liq metrics | "[specify value]" |
+| `[LIQ_FREQ]` | Specify the liq freq | "[specify value]" |
+| `[LIQ_THRESH]` | Specify the liq thresh | "[specify value]" |
+| `[LIQ_VALUE]` | Specify the liq value | "[specify value]" |
+| `[LIQ_TREND]` | Specify the liq trend | "[specify value]" |
+| `[COMP_METRICS]` | Specify the comp metrics | "[specify value]" |
+| `[COMP_FREQ]` | Specify the comp freq | "[specify value]" |
+| `[COMP_THRESH]` | Specify the comp thresh | "[specify value]" |
+| `[COMP_VALUE]` | Specify the comp value | "[specify value]" |
+| `[COMP_TREND]` | Specify the comp trend | "[specify value]" |
+| `[EWS_METRICS]` | Specify the ews metrics | "[specify value]" |
+| `[EWS_FREQ]` | Specify the ews freq | "[specify value]" |
+| `[EWS_THRESH]` | Specify the ews thresh | "[specify value]" |
+| `[EWS_VALUE]` | Specify the ews value | "[specify value]" |
+| `[EWS_TREND]` | Specify the ews trend | "[specify value]" |
+| `[BASELINE_SCENARIO]` | Specify the baseline scenario | "[specify value]" |
+| `[ADVERSE_SCENARIO]` | Specify the adverse scenario | "[specify value]" |
+| `[SEVERE_SCENARIO]` | Specify the severe scenario | "[specify value]" |
+| `[IDIO_SCENARIO]` | Specify the idio scenario | "[specify value]" |
+| `[REVERSE_SCENARIO]` | Specify the reverse scenario | "[specify value]" |
+| `[CAPITAL_IMPACT]` | Specify the capital impact | "[specify value]" |
+| `[PL_IMPACT]` | Specify the pl impact | "[specify value]" |
+| `[LIQ_IMPACT]` | Specify the liq impact | "[specify value]" |
+| `[CREDIT_LOSSES]` | Specify the credit losses | "[specify value]" |
+| `[MARKET_LOSSES]` | Specify the market losses | "[specify value]" |
+| `[CAPITAL_ACTIONS]` | Specify the capital actions | "[specify value]" |
+| `[RISK_ACTIONS]` | Specify the risk actions | "[specify value]" |
+| `[LIQ_ACTIONS]` | Specify the liq actions | "[specify value]" |
+| `[BCP_ACTIONS]` | Specify the bcp actions | "[specify value]" |
+| `[RECOVERY_ACTIONS]` | Specify the recovery actions | "[specify value]" |
+| `[CCAR_STATUS]` | Specify the ccar status | "In Progress" |
+| `[EBA_STATUS]` | Specify the eba status | "In Progress" |
+| `[INTERNAL_STATUS]` | Specify the internal status | "In Progress" |
+| `[DOC_STATUS]` | Specify the doc status | "In Progress" |
+| `[VALIDATION_STATUS]` | Specify the validation status | "In Progress" |
+| `[DW_CURRENT]` | Specify the dw current | "[specify value]" |
+| `[DW_TARGET]` | Target or intended dw | "[specify value]" |
+| `[DW_INVEST]` | Specify the dw invest | "[specify value]" |
+| `[DW_BENEFIT]` | Specify the dw benefit | "[specify value]" |
+| `[DW_TIMELINE]` | Timeline or schedule for dw | "6 months" |
+| `[ANALYTICS_CURRENT]` | Specify the analytics current | "[specify value]" |
+| `[ANALYTICS_TARGET]` | Target or intended analytics | "[specify value]" |
+| `[ANALYTICS_INVEST]` | Specify the analytics invest | "[specify value]" |
+| `[ANALYTICS_BENEFIT]` | Specify the analytics benefit | "[specify value]" |
+| `[ANALYTICS_TIMELINE]` | Timeline or schedule for analytics | "6 months" |
+| `[REG_CURRENT]` | Specify the reg current | "[specify value]" |
+| `[REG_TARGET]` | Target or intended reg | "[specify value]" |
+| `[REG_INVEST]` | Specify the reg invest | "[specify value]" |
+| `[REG_BENEFIT]` | Specify the reg benefit | "[specify value]" |
+| `[REG_TIMELINE]` | Timeline or schedule for reg | "6 months" |
+| `[AI_CURRENT]` | Specify the ai current | "[specify value]" |
+| `[AI_TARGET]` | Target or intended ai | "[specify value]" |
+| `[AI_INVEST]` | Specify the ai invest | "[specify value]" |
+| `[AI_BENEFIT]` | Specify the ai benefit | "[specify value]" |
+| `[AI_TIMELINE]` | Timeline or schedule for ai | "6 months" |
+| `[RT_CURRENT]` | Specify the rt current | "[specify value]" |
+| `[RT_TARGET]` | Target or intended rt | "[specify value]" |
+| `[RT_INVEST]` | Specify the rt invest | "[specify value]" |
+| `[RT_BENEFIT]` | Specify the rt benefit | "[specify value]" |
+| `[RT_TIMELINE]` | Timeline or schedule for rt | "6 months" |
+| `[CLOUD_CURRENT]` | Specify the cloud current | "[specify value]" |
+| `[CLOUD_TARGET]` | Target or intended cloud | "[specify value]" |
+| `[CLOUD_INVEST]` | Specify the cloud invest | "[specify value]" |
+| `[CLOUD_BENEFIT]` | Specify the cloud benefit | "[specify value]" |
+| `[CLOUD_TIMELINE]` | Timeline or schedule for cloud | "6 months" |
+| `[LIQ_TEAM]` | Specify the liq team | "[specify value]" |
+| `[LIQ_COMM]` | Specify the liq comm | "[specify value]" |
+| `[LIQ_DECISION]` | Specify the liq decision | "[specify value]" |
+| `[LIQ_RECOVERY]` | Specify the liq recovery | "[specify value]" |
+| `[LIQ_TEST]` | Specify the liq test | "[specify value]" |
+| `[CREDIT_TEAM]` | Specify the credit team | "[specify value]" |
+| `[CREDIT_COMM]` | Specify the credit comm | "[specify value]" |
+| `[CREDIT_DECISION]` | Specify the credit decision | "[specify value]" |
+| `[CREDIT_RECOVERY]` | Specify the credit recovery | "[specify value]" |
+| `[CREDIT_TEST]` | Specify the credit test | "[specify value]" |
+| `[MARKET_TEAM]` | Specify the market team | "[specify value]" |
+| `[MARKET_COMM]` | Specify the market comm | "[specify value]" |
+| `[MARKET_DECISION]` | Specify the market decision | "[specify value]" |
+| `[MARKET_RECOVERY]` | Specify the market recovery | "[specify value]" |
+| `[MARKET_TEST]` | Specify the market test | "[specify value]" |
+| `[OP_TEAM]` | Specify the op team | "[specify value]" |
+| `[OP_COMM]` | Specify the op comm | "[specify value]" |
+| `[OP_DECISION]` | Specify the op decision | "[specify value]" |
+| `[OP_RECOVERY]` | Specify the op recovery | "[specify value]" |
+| `[OP_TEST]` | Specify the op test | "[specify value]" |
+| `[CYBER_TEAM]` | Specify the cyber team | "[specify value]" |
+| `[CYBER_COMM]` | Specify the cyber comm | "[specify value]" |
+| `[CYBER_DECISION]` | Specify the cyber decision | "[specify value]" |
+| `[CYBER_RECOVERY]` | Specify the cyber recovery | "[specify value]" |
+| `[CYBER_TEST]` | Specify the cyber test | "[specify value]" |
+| `[REG_TEAM]` | Specify the reg team | "[specify value]" |
+| `[REG_COMM]` | Specify the reg comm | "[specify value]" |
+| `[REG_DECISION]` | Specify the reg decision | "[specify value]" |
+| `[REG_RECOVERY]` | Specify the reg recovery | "[specify value]" |
+| `[REG_TEST]` | Specify the reg test | "[specify value]" |
+| `[AWARENESS_SCORE]` | Specify the awareness score | "[specify value]" |
+| `[ACCOUNTABILITY]` | Specify the accountability | "10" |
+| `[TRANSPARENCY]` | Specify the transparency | "[specify value]" |
+| `[CHALLENGE]` | Specify the challenge | "[specify value]" |
+| `[LEARNING]` | Specify the learning | "[specify value]" |
+| `[BOARD_TRAINING]` | Specify the board training | "[specify value]" |
+| `[EXEC_TRAINING]` | Specify the exec training | "[specify value]" |
+| `[PROF_TRAINING]` | Specify the prof training | "[specify value]" |
+| `[BUS_TRAINING]` | Specify the bus training | "[specify value]" |
+| `[NEW_TRAINING]` | Specify the new training | "[specify value]" |
+| `[KPI_INTEGRATION]` | Specify the kpi integration | "[specify value]" |
+| `[RISK_COMP]` | Specify the risk comp | "[specify value]" |
+| `[CONSEQUENCE]` | Specify the consequence | "[specify value]" |
+| `[RECOGNITION]` | Specify the recognition | "[specify value]" |
+| `[CAREER_DEV]` | Specify the career dev | "[specify value]" |
+| `[COMMITTEE_COMM]` | Specify the committee comm | "[specify value]" |
+| `[TOWNHALL_FREQ]` | Specify the townhall freq | "[specify value]" |
+| `[NEWSLETTER]` | Specify the newsletter | "[specify value]" |
+| `[INTRANET]` | Specify the intranet | "[specify value]" |
+| `[MATERIALS]` | Specify the materials | "[specify value]" |
+
+
 
 ### 3. Risk Appetite Framework
 

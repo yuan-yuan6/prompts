@@ -1,3 +1,18 @@
+---
+title: Compliance Programs Template
+category: professional-services/legal-compliance/Regulatory Compliance
+tags: [design, machine-learning, management, optimization, professional-services, security, template]
+use_cases:
+  - Implementing design comprehensive regulatory compliance frameworks, policy implementation sys...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - regulatory-compliance-framework.md
+  - contract-drafting-template.md
+  - intellectual-property-management.md
+last_updated: 2025-11-09
+---
+
 # Compliance Programs Template
 
 ## Purpose

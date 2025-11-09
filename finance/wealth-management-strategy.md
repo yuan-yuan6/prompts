@@ -1,3 +1,14 @@
+---
+title: Wealth Management Strategy Template Generator
+category: finance
+tags: [design, finance, management, optimization, security, strategy, template]
+use_cases:
+  - Implementing create comprehensive wealth management and financial planning strategies coverin...
+  - Project planning and execution
+  - Strategy development
+last_updated: 2025-11-09
+---
+
 # Wealth Management Strategy Template Generator
 
 ## Purpose

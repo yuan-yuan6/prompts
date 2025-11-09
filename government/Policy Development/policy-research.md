@@ -1,3 +1,17 @@
+---
+title: Policy Research Template
+category: government/Policy Development
+tags: [data-science, development, government, research, template]
+use_cases:
+  - Implementing create comprehensive policy research frameworks, evidence-based analysis, stakeh...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - policy-development.md
+  - policy-research-framework.md
+last_updated: 2025-11-09
+---
+
 # Policy Research Template
 
 ## Purpose

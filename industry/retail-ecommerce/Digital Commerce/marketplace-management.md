@@ -1,3 +1,18 @@
+---
+title: Marketplace Management Template
+category: industry/retail-ecommerce/Digital Commerce
+tags: [data-science, industry, management, optimization, strategy, template]
+use_cases:
+  - Implementing create comprehensive marketplace optimization strategies, multi-channel selling ...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - customer-experience-optimization.md
+  - dynamic-pricing-strategy.md
+  - product-sourcing-strategy.md
+last_updated: 2025-11-09
+---
+
 # Marketplace Management Template
 
 ## Purpose

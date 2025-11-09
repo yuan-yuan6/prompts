@@ -1,3 +1,18 @@
+---
+title: Financial Planning Template Generator
+category: business/Strategic Management
+tags: [business, design, development, documentation, machine-learning, marketing, research, strategy]
+use_cases:
+  - Implementing create comprehensive financial plans including budgets, forecasts, and investmen...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - okr-implementation-framework.md
+  - digital-transformation-roadmap.md
+  - lean-six-sigma-implementation.md
+last_updated: 2025-11-09
+---
+
 # Financial Planning Template Generator
 
 ## Purpose

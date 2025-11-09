@@ -1,3 +1,16 @@
+---
+title: Content Strategy & Editorial Planning Framework
+category: creative/journalism/Content Production
+tags: [creative, data-science, framework, management, optimization, research, strategy]
+use_cases:
+  - Implementing comprehensive system for developing, executing, and managing content strategies ...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - content-strategy.md
+last_updated: 2025-11-09
+---
+
 # Content Strategy & Editorial Planning Framework
 
 ## Purpose
@@ -54,6 +67,284 @@ Q2 Focus: [Q2_THEMES]
 Q3 Focus: [Q3_THEMES]
 Q4 Focus: [Q4_THEMES]
 ```
+
+## Variables
+
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `[PUBLICATION_NAME]` | Name of the publication | "John Smith" |
+| `[CONTENT_VOLUME]` | Specify the content volume | "[specify value]" |
+| `[CHANNEL_COUNT]` | Specify the channel count | "10" |
+| `[AUDIENCE_SIZE]` | Specify the audience size | "[specify value]" |
+| `[CONTENT_PILLARS]` | Specify the content pillars | "[specify value]" |
+| `[CONTENT_BUDGET]` | Budget allocation for content | "$500,000" |
+| `[LONG_VOLUME]` | Specify the long volume | "[specify value]" |
+| `[LONG_CHANNELS]` | Specify the long channels | "[specify value]" |
+| `[LONG_REACH]` | Specify the long reach | "[specify value]" |
+| `[LONG_ENGAGE]` | Specify the long engage | "[specify value]" |
+| `[LONG_COST]` | Specify the long cost | "[specify value]" |
+| `[NEWS_VOLUME]` | Specify the news volume | "[specify value]" |
+| `[NEWS_CHANNELS]` | Specify the news channels | "[specify value]" |
+| `[NEWS_REACH]` | Specify the news reach | "[specify value]" |
+| `[NEWS_ENGAGE]` | Specify the news engage | "[specify value]" |
+| `[NEWS_COST]` | Specify the news cost | "[specify value]" |
+| `[VIDEO_VOLUME]` | Specify the video volume | "[specify value]" |
+| `[VIDEO_CHANNELS]` | Specify the video channels | "[specify value]" |
+| `[VIDEO_REACH]` | Specify the video reach | "[specify value]" |
+| `[VIDEO_ENGAGE]` | Specify the video engage | "[specify value]" |
+| `[VIDEO_COST]` | Specify the video cost | "[specify value]" |
+| `[AUDIO_VOLUME]` | Specify the audio volume | "[specify value]" |
+| `[AUDIO_CHANNELS]` | Specify the audio channels | "[specify value]" |
+| `[AUDIO_REACH]` | Specify the audio reach | "[specify value]" |
+| `[AUDIO_ENGAGE]` | Specify the audio engage | "[specify value]" |
+| `[AUDIO_COST]` | Specify the audio cost | "[specify value]" |
+| `[DATA_VOLUME]` | Specify the data volume | "[specify value]" |
+| `[DATA_CHANNELS]` | Specify the data channels | "[specify value]" |
+| `[DATA_REACH]` | Specify the data reach | "[specify value]" |
+| `[DATA_ENGAGE]` | Specify the data engage | "[specify value]" |
+| `[DATA_COST]` | Specify the data cost | "[specify value]" |
+| `[SOCIAL_VOLUME]` | Specify the social volume | "[specify value]" |
+| `[SOCIAL_CHANNELS]` | Specify the social channels | "[specify value]" |
+| `[SOCIAL_REACH]` | Specify the social reach | "[specify value]" |
+| `[SOCIAL_ENGAGE]` | Specify the social engage | "[specify value]" |
+| `[SOCIAL_COST]` | Specify the social cost | "[specify value]" |
+| `[PERSONA_1]` | Specify the persona 1 | "[specify value]" |
+| `[DEMO_1]` | Specify the demo 1 | "[specify value]" |
+| `[PREF_1]` | Specify the pref 1 | "[specify value]" |
+| `[HABIT_1]` | Specify the habit 1 | "[specify value]" |
+| `[VALUE_1]` | Specify the value 1 | "[specify value]" |
+| `[ENGAGE_1]` | Specify the engage 1 | "[specify value]" |
+| `[PERSONA_2]` | Specify the persona 2 | "[specify value]" |
+| `[DEMO_2]` | Specify the demo 2 | "[specify value]" |
+| `[PREF_2]` | Specify the pref 2 | "[specify value]" |
+| `[HABIT_2]` | Specify the habit 2 | "[specify value]" |
+| `[VALUE_2]` | Specify the value 2 | "[specify value]" |
+| `[ENGAGE_2]` | Specify the engage 2 | "[specify value]" |
+| `[PERSONA_3]` | Specify the persona 3 | "[specify value]" |
+| `[DEMO_3]` | Specify the demo 3 | "[specify value]" |
+| `[PREF_3]` | Specify the pref 3 | "[specify value]" |
+| `[HABIT_3]` | Specify the habit 3 | "[specify value]" |
+| `[VALUE_3]` | Specify the value 3 | "[specify value]" |
+| `[ENGAGE_3]` | Specify the engage 3 | "[specify value]" |
+| `[PERSONA_4]` | Specify the persona 4 | "[specify value]" |
+| `[DEMO_4]` | Specify the demo 4 | "[specify value]" |
+| `[PREF_4]` | Specify the pref 4 | "[specify value]" |
+| `[HABIT_4]` | Specify the habit 4 | "[specify value]" |
+| `[VALUE_4]` | Specify the value 4 | "[specify value]" |
+| `[ENGAGE_4]` | Specify the engage 4 | "[specify value]" |
+| `[PERSONA_5]` | Specify the persona 5 | "[specify value]" |
+| `[DEMO_5]` | Specify the demo 5 | "[specify value]" |
+| `[PREF_5]` | Specify the pref 5 | "[specify value]" |
+| `[HABIT_5]` | Specify the habit 5 | "[specify value]" |
+| `[VALUE_5]` | Specify the value 5 | "[specify value]" |
+| `[ENGAGE_5]` | Specify the engage 5 | "[specify value]" |
+| `[TENTPOLE_COUNT]` | Specify the tentpole count | "10" |
+| `[EVERGREEN_COUNT]` | Specify the evergreen count | "10" |
+| `[TRENDING_COUNT]` | Specify the trending count | "10" |
+| `[UGC_COUNT]` | Specify the ugc count | "10" |
+| `[SPONSORED_COUNT]` | Specify the sponsored count | "10" |
+| `[MONDAY_CONTENT]` | Specify the monday content | "[specify value]" |
+| `[TUESDAY_CONTENT]` | Specify the tuesday content | "[specify value]" |
+| `[WEDNESDAY_CONTENT]` | Specify the wednesday content | "[specify value]" |
+| `[THURSDAY_CONTENT]` | Specify the thursday content | "[specify value]" |
+| `[FRIDAY_CONTENT]` | Specify the friday content | "[specify value]" |
+| `[WEEKEND_CONTENT]` | Specify the weekend content | "[specify value]" |
+| `[Q1_THEMES]` | Specify the q1 themes | "[specify value]" |
+| `[Q2_THEMES]` | Specify the q2 themes | "[specify value]" |
+| `[Q3_THEMES]` | Specify the q3 themes | "[specify value]" |
+| `[Q4_THEMES]` | Specify the q4 themes | "[specify value]" |
+| `[IDEA_OWNER]` | Specify the idea owner | "[specify value]" |
+| `[IDEA_TIME]` | Specify the idea time | "[specify value]" |
+| `[IDEA_TOOLS]` | Specify the idea tools | "[specify value]" |
+| `[IDEA_CHECKS]` | Specify the idea checks | "[specify value]" |
+| `[IDEA_APPROVAL]` | Specify the idea approval | "[specify value]" |
+| `[RESEARCH_OWNER]` | Specify the research owner | "[specify value]" |
+| `[RESEARCH_TIME]` | Specify the research time | "[specify value]" |
+| `[RESEARCH_TOOLS]` | Specify the research tools | "[specify value]" |
+| `[RESEARCH_CHECKS]` | Specify the research checks | "[specify value]" |
+| `[RESEARCH_APPROVAL]` | Specify the research approval | "[specify value]" |
+| `[CREATE_OWNER]` | Specify the create owner | "[specify value]" |
+| `[CREATE_TIME]` | Specify the create time | "[specify value]" |
+| `[CREATE_TOOLS]` | Specify the create tools | "[specify value]" |
+| `[CREATE_CHECKS]` | Specify the create checks | "[specify value]" |
+| `[CREATE_APPROVAL]` | Specify the create approval | "[specify value]" |
+| `[EDIT_OWNER]` | Specify the edit owner | "[specify value]" |
+| `[EDIT_TIME]` | Specify the edit time | "[specify value]" |
+| `[EDIT_TOOLS]` | Specify the edit tools | "[specify value]" |
+| `[EDIT_CHECKS]` | Specify the edit checks | "[specify value]" |
+| `[EDIT_APPROVAL]` | Specify the edit approval | "[specify value]" |
+| `[DESIGN_OWNER]` | Specify the design owner | "[specify value]" |
+| `[DESIGN_TIME]` | Specify the design time | "[specify value]" |
+| `[DESIGN_TOOLS]` | Specify the design tools | "[specify value]" |
+| `[DESIGN_CHECKS]` | Specify the design checks | "[specify value]" |
+| `[DESIGN_APPROVAL]` | Specify the design approval | "[specify value]" |
+| `[PUB_OWNER]` | Specify the pub owner | "[specify value]" |
+| `[PUB_TIME]` | Specify the pub time | "[specify value]" |
+| `[PUB_TOOLS]` | Specify the pub tools | "[specify value]" |
+| `[PUB_CHECKS]` | Specify the pub checks | "[specify value]" |
+| `[PUB_APPROVAL]` | Specify the pub approval | "[specify value]" |
+| `[ORGANIC_CURRENT]` | Specify the organic current | "[specify value]" |
+| `[ORGANIC_TARGET]` | Target or intended organic | "[specify value]" |
+| `[ORGANIC_TACTICS]` | Specify the organic tactics | "[specify value]" |
+| `[ORGANIC_MONITOR]` | Specify the organic monitor | "[specify value]" |
+| `[ORGANIC_IMPACT]` | Specify the organic impact | "[specify value]" |
+| `[KEYWORD_CURRENT]` | Specify the keyword current | "[specify value]" |
+| `[KEYWORD_TARGET]` | Target or intended keyword | "[specify value]" |
+| `[KEYWORD_TACTICS]` | Specify the keyword tactics | "[specify value]" |
+| `[KEYWORD_MONITOR]` | Specify the keyword monitor | "[specify value]" |
+| `[KEYWORD_IMPACT]` | Specify the keyword impact | "[specify value]" |
+| `[SNIPPET_CURRENT]` | Specify the snippet current | "[specify value]" |
+| `[SNIPPET_TARGET]` | Target or intended snippet | "[specify value]" |
+| `[SNIPPET_TACTICS]` | Specify the snippet tactics | "[specify value]" |
+| `[SNIPPET_MONITOR]` | Specify the snippet monitor | "[specify value]" |
+| `[SNIPPET_IMPACT]` | Specify the snippet impact | "[specify value]" |
+| `[BACKLINK_CURRENT]` | Specify the backlink current | "https://example.com" |
+| `[BACKLINK_TARGET]` | Target or intended backlink | "https://example.com" |
+| `[BACKLINK_TACTICS]` | Specify the backlink tactics | "https://example.com" |
+| `[BACKLINK_MONITOR]` | Specify the backlink monitor | "https://example.com" |
+| `[BACKLINK_IMPACT]` | Specify the backlink impact | "https://example.com" |
+| `[SPEED_CURRENT]` | Specify the speed current | "[specify value]" |
+| `[SPEED_TARGET]` | Target or intended speed | "[specify value]" |
+| `[SPEED_TACTICS]` | Specify the speed tactics | "[specify value]" |
+| `[SPEED_MONITOR]` | Specify the speed monitor | "[specify value]" |
+| `[SPEED_IMPACT]` | Specify the speed impact | "[specify value]" |
+| `[MOBILE_CURRENT]` | Specify the mobile current | "[specify value]" |
+| `[MOBILE_TARGET]` | Target or intended mobile | "[specify value]" |
+| `[MOBILE_TACTICS]` | Specify the mobile tactics | "[specify value]" |
+| `[MOBILE_MONITOR]` | Specify the mobile monitor | "[specify value]" |
+| `[MOBILE_IMPACT]` | Specify the mobile impact | "[specify value]" |
+| `[WEB_AUDIENCE]` | Specify the web audience | "[specify value]" |
+| `[WEB_ADAPT]` | Specify the web adapt | "[specify value]" |
+| `[WEB_FREQ]` | Specify the web freq | "[specify value]" |
+| `[WEB_METRICS]` | Specify the web metrics | "[specify value]" |
+| `[WEB_ROI]` | Specify the web roi | "[specify value]" |
+| `[EMAIL_AUDIENCE]` | Specify the email audience | "john.smith@example.com" |
+| `[EMAIL_ADAPT]` | Specify the email adapt | "john.smith@example.com" |
+| `[EMAIL_FREQ]` | Specify the email freq | "john.smith@example.com" |
+| `[EMAIL_METRICS]` | Specify the email metrics | "john.smith@example.com" |
+| `[EMAIL_ROI]` | Specify the email roi | "john.smith@example.com" |
+| `[SOCIAL_AUDIENCE]` | Specify the social audience | "[specify value]" |
+| `[SOCIAL_ADAPT]` | Specify the social adapt | "[specify value]" |
+| `[SOCIAL_FREQ]` | Specify the social freq | "[specify value]" |
+| `[SOCIAL_METRICS]` | Specify the social metrics | "[specify value]" |
+| `[SOCIAL_ROI]` | Specify the social roi | "[specify value]" |
+| `[APP_AUDIENCE]` | Specify the app audience | "[specify value]" |
+| `[APP_ADAPT]` | Specify the app adapt | "[specify value]" |
+| `[APP_FREQ]` | Specify the app freq | "[specify value]" |
+| `[APP_METRICS]` | Specify the app metrics | "[specify value]" |
+| `[APP_ROI]` | Specify the app roi | "[specify value]" |
+| `[SYND_AUDIENCE]` | Specify the synd audience | "[specify value]" |
+| `[SYND_ADAPT]` | Specify the synd adapt | "[specify value]" |
+| `[SYND_FREQ]` | Specify the synd freq | "[specify value]" |
+| `[SYND_METRICS]` | Specify the synd metrics | "[specify value]" |
+| `[SYND_ROI]` | Specify the synd roi | "[specify value]" |
+| `[AV_AUDIENCE]` | Specify the av audience | "[specify value]" |
+| `[AV_ADAPT]` | Specify the av adapt | "[specify value]" |
+| `[AV_FREQ]` | Specify the av freq | "[specify value]" |
+| `[AV_METRICS]` | Specify the av metrics | "[specify value]" |
+| `[AV_ROI]` | Specify the av roi | "[specify value]" |
+| `[UNIQUE_VISITORS]` | Specify the unique visitors | "[specify value]" |
+| `[PAGE_VIEWS]` | Specify the page views | "[specify value]" |
+| `[SESSIONS]` | Specify the sessions | "[specify value]" |
+| `[AVG_DURATION]` | Specify the avg duration | "6 months" |
+| `[BOUNCE_RATE]` | Specify the bounce rate | "[specify value]" |
+| `[COMMENTS_AVG]` | Specify the comments avg | "[specify value]" |
+| `[SHARES_AVG]` | Specify the shares avg | "[specify value]" |
+| `[LIKES_AVG]` | Specify the likes avg | "[specify value]" |
+| `[SAVE_RATE]` | Specify the save rate | "[specify value]" |
+| `[SCROLL_DEPTH]` | Specify the scroll depth | "[specify value]" |
+| `[SUB_GROWTH]` | Specify the sub growth | "[specify value]" |
+| `[NEWS_SIGNUPS]` | Specify the news signups | "[specify value]" |
+| `[DOWNLOADS]` | Specify the downloads | "[specify value]" |
+| `[LEADS_GEN]` | Specify the leads gen | "[specify value]" |
+| `[CONTENT_REVENUE]` | Specify the content revenue | "[specify value]" |
+| `[TONE_GUIDE]` | Specify the tone guide | "[specify value]" |
+| `[TONE_EXAMPLE]` | Specify the tone example | "[specify value]" |
+| `[TONE_DO]` | Specify the tone do | "[specify value]" |
+| `[TONE_DONT]` | Specify the tone dont | "[specify value]" |
+| `[TONE_EXCEPT]` | Specify the tone except | "[specify value]" |
+| `[LANG_GUIDE]` | Specify the lang guide | "[specify value]" |
+| `[LANG_EXAMPLE]` | Specify the lang example | "[specify value]" |
+| `[LANG_DO]` | Specify the lang do | "[specify value]" |
+| `[LANG_DONT]` | Specify the lang dont | "[specify value]" |
+| `[LANG_EXCEPT]` | Specify the lang except | "[specify value]" |
+| `[FORMAT_GUIDE]` | Specify the format guide | "[specify value]" |
+| `[FORMAT_EXAMPLE]` | Specify the format example | "[specify value]" |
+| `[FORMAT_DO]` | Specify the format do | "[specify value]" |
+| `[FORMAT_DONT]` | Specify the format dont | "[specify value]" |
+| `[FORMAT_EXCEPT]` | Specify the format except | "[specify value]" |
+| `[VISUAL_GUIDE]` | Specify the visual guide | "[specify value]" |
+| `[VISUAL_EXAMPLE]` | Specify the visual example | "[specify value]" |
+| `[VISUAL_DO]` | Specify the visual do | "[specify value]" |
+| `[VISUAL_DONT]` | Specify the visual dont | "[specify value]" |
+| `[VISUAL_EXCEPT]` | Specify the visual except | "[specify value]" |
+| `[HEAD_GUIDE]` | Specify the head guide | "[specify value]" |
+| `[HEAD_EXAMPLE]` | Specify the head example | "[specify value]" |
+| `[HEAD_DO]` | Specify the head do | "[specify value]" |
+| `[HEAD_DONT]` | Specify the head dont | "[specify value]" |
+| `[HEAD_EXCEPT]` | Specify the head except | "[specify value]" |
+| `[AD_REVENUE]` | Specify the ad revenue | "[specify value]" |
+| `[AD_TARGET]` | Target or intended ad | "[specify value]" |
+| `[AD_METRICS]` | Specify the ad metrics | "[specify value]" |
+| `[AD_OPTIMIZE]` | Specify the ad optimize | "[specify value]" |
+| `[AD_CHALLENGE]` | Specify the ad challenge | "[specify value]" |
+| `[SUB_REVENUE]` | Specify the sub revenue | "[specify value]" |
+| `[SUB_TARGET]` | Target or intended sub | "[specify value]" |
+| `[SUB_METRICS]` | Specify the sub metrics | "[specify value]" |
+| `[SUB_OPTIMIZE]` | Specify the sub optimize | "[specify value]" |
+| `[SUB_CHALLENGE]` | Specify the sub challenge | "[specify value]" |
+| `[SPON_REVENUE]` | Specify the spon revenue | "[specify value]" |
+| `[SPON_TARGET]` | Target or intended spon | "[specify value]" |
+| `[SPON_METRICS]` | Specify the spon metrics | "[specify value]" |
+| `[SPON_OPTIMIZE]` | Specify the spon optimize | "[specify value]" |
+| `[SPON_CHALLENGE]` | Specify the spon challenge | "[specify value]" |
+| `[EVENT_REVENUE]` | Specify the event revenue | "[specify value]" |
+| `[EVENT_TARGET]` | Target or intended event | "[specify value]" |
+| `[EVENT_METRICS]` | Specify the event metrics | "[specify value]" |
+| `[EVENT_OPTIMIZE]` | Specify the event optimize | "[specify value]" |
+| `[EVENT_CHALLENGE]` | Specify the event challenge | "[specify value]" |
+| `[LIC_REVENUE]` | Specify the lic revenue | "[specify value]" |
+| `[LIC_TARGET]` | Target or intended lic | "[specify value]" |
+| `[LIC_METRICS]` | Specify the lic metrics | "[specify value]" |
+| `[LIC_OPTIMIZE]` | Specify the lic optimize | "[specify value]" |
+| `[LIC_CHALLENGE]` | Specify the lic challenge | "[specify value]" |
+| `[PROD_REVENUE]` | Specify the prod revenue | "[specify value]" |
+| `[PROD_TARGET]` | Target or intended prod | "[specify value]" |
+| `[PROD_METRICS]` | Specify the prod metrics | "[specify value]" |
+| `[PROD_OPTIMIZE]` | Specify the prod optimize | "[specify value]" |
+| `[PROD_CHALLENGE]` | Specify the prod challenge | "[specify value]" |
+| `[EIC_COUNT]` | Specify the eic count | "10" |
+| `[EIC_RESP]` | Specify the eic resp | "[specify value]" |
+| `[EIC_OUTPUT]` | Specify the eic output | "[specify value]" |
+| `[EIC_SKILLS]` | Specify the eic skills | "[specify value]" |
+| `[EIC_DEVELOP]` | Specify the eic develop | "[specify value]" |
+| `[ME_COUNT]` | Specify the me count | "10" |
+| `[ME_RESP]` | Specify the me resp | "[specify value]" |
+| `[ME_OUTPUT]` | Specify the me output | "[specify value]" |
+| `[ME_SKILLS]` | Specify the me skills | "[specify value]" |
+| `[ME_DEVELOP]` | Specify the me develop | "[specify value]" |
+| `[WRITER_COUNT]` | Specify the writer count | "10" |
+| `[WRITER_RESP]` | Specify the writer resp | "[specify value]" |
+| `[WRITER_OUTPUT]` | Specify the writer output | "[specify value]" |
+| `[WRITER_SKILLS]` | Specify the writer skills | "[specify value]" |
+| `[WRITER_DEVELOP]` | Specify the writer develop | "[specify value]" |
+| `[MULTI_COUNT]` | Specify the multi count | "10" |
+| `[MULTI_RESP]` | Specify the multi resp | "[specify value]" |
+| `[MULTI_OUTPUT]` | Specify the multi output | "[specify value]" |
+| `[MULTI_SKILLS]` | Specify the multi skills | "[specify value]" |
+| `[MULTI_DEVELOP]` | Specify the multi develop | "[specify value]" |
+| `[SOCIAL_COUNT]` | Specify the social count | "10" |
+| `[SOCIAL_RESP]` | Specify the social resp | "[specify value]" |
+| `[SOCIAL_OUTPUT]` | Specify the social output | "[specify value]" |
+| `[SOCIAL_SKILLS]` | Specify the social skills | "[specify value]" |
+| `[SOCIAL_DEVELOP]` | Specify the social develop | "[specify value]" |
+| `[DATA_COUNT]` | Specify the data count | "10" |
+| `[DATA_RESP]` | Specify the data resp | "[specify value]" |
+| `[DATA_OUTPUT]` | Specify the data output | "[specify value]" |
+| `[DATA_SKILLS]` | Specify the data skills | "[specify value]" |
+| `[DATA_DEVELOP]` | Specify the data develop | "[specify value]" |
+
+
 
 ### 4. Content Production Workflow
 

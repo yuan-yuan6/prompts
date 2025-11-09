@@ -1,3 +1,17 @@
+---
+title: Data Analysis Methods Generator
+category: education/Academic Research
+tags: [data-science, design, education, research]
+use_cases:
+  - Implementing create comprehensive data analysis plans covering statistical analysis, qualitat...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - curriculum-development.md
+  - curriculum-development-framework.md
+last_updated: 2025-11-09
+---
+
 # Data Analysis Methods Generator
 
 ## Purpose

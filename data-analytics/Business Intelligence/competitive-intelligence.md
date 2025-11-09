@@ -1,3 +1,18 @@
+---
+title: Competitive Intelligence Benchmarking Template
+category: data-analytics/Business Intelligence
+tags: [data-analytics, data-science, research, strategy, template]
+use_cases:
+  - Implementing develop comprehensive frameworks for market analysis, competitor benchmarking, a...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - dashboard-design-patterns.md
+  - data-governance-framework.md
+  - predictive-modeling-framework.md
+last_updated: 2025-11-09
+---
+
 # Competitive Intelligence Benchmarking Template
 
 ## Purpose

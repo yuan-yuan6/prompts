@@ -1,3 +1,17 @@
+---
+title: Assessment Design & Evaluation Template
+category: education/Teaching & Instruction
+tags: [design, development, education, optimization, security, template]
+use_cases:
+  - Implementing create comprehensive assessment strategies including test design, rubrics, forma...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - curriculum-development.md
+  - curriculum-development-framework.md
+last_updated: 2025-11-09
+---
+
 # Assessment Design & Evaluation Template
 
 ## Purpose

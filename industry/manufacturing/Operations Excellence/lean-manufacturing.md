@@ -1,3 +1,16 @@
+---
+title: Lean Manufacturing Template
+category: industry/manufacturing/Operations Excellence
+tags: [data-science, design, industry, optimization, research, template, testing]
+use_cases:
+  - Implementing implement comprehensive lean manufacturing systems, waste elimination strategies...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - quality-management.md
+last_updated: 2025-11-09
+---
+
 # Lean Manufacturing Template
 
 ## Purpose

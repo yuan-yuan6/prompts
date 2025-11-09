@@ -1,3 +1,14 @@
+---
+title: Conflict Resolution Template
+category: personal/Communication Skills
+tags: [communication, data-science, management, personal, research, strategy, template]
+use_cases:
+  - Implementing develop effective mediation, de-escalation, and solution-finding strategies to r...
+  - Project planning and execution
+  - Strategy development
+last_updated: 2025-11-09
+---
+
 # Conflict Resolution Template
 
 ## Purpose

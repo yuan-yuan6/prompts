@@ -1,3 +1,18 @@
+---
+title: Enterprise Digital Transformation Roadmap & Execution Framework
+category: business/Strategic Management
+tags: [business, framework, machine-learning, optimization, strategy]
+use_cases:
+  - Implementing comprehensive enterprise-wide digital transformation roadmap framework covering ...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - okr-implementation-framework.md
+  - digital-transformation-roadmap.md
+  - lean-six-sigma-implementation.md
+last_updated: 2025-11-09
+---
+
 # Enterprise Digital Transformation Roadmap & Execution Framework
 
 ## Purpose
@@ -35,6 +50,586 @@ Operations & Processes: [OPERATIONS_SCORE]/5
 Culture & Talent: [CULTURE_SCORE]/5
 Cybersecurity & Risk: [SECURITY_SCORE]/5
 ```
+
+## Variables
+
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `[COMPANY_NAME]` | Name of the company | "Acme Corporation" |
+| `[TOTAL_INVESTMENT]` | Specify the total investment | "[specify value]" |
+| `[TRANSFORMATION_TIMELINE]` | Timeline or schedule for transformation | "6 months" |
+| `[BUSINESS_UNITS]` | Specify the business units | "[specify value]" |
+| `[REVENUE_GROWTH]` | Specify the revenue growth | "[specify value]" |
+| `[COST_REDUCTION]` | Specify the cost reduction | "[specify value]" |
+| `[CUSTOMER_SATISFACTION]` | Specify the customer satisfaction | "[specify value]" |
+| `[CX_CURRENT_STATE]` | Specify the cx current state | "[specify value]" |
+| `[CX_FUTURE_VISION]` | Specify the cx future vision | "[specify value]" |
+| `[CX_INITIATIVES]` | Specify the cx initiatives | "[specify value]" |
+| `[CX_METRICS]` | Specify the cx metrics | "[specify value]" |
+| `[CX_INVESTMENT]` | Specify the cx investment | "[specify value]" |
+| `[CX_TIMELINE]` | Timeline or schedule for cx | "6 months" |
+| `[OE_CURRENT_STATE]` | Specify the oe current state | "[specify value]" |
+| `[OE_FUTURE_VISION]` | Specify the oe future vision | "[specify value]" |
+| `[OE_INITIATIVES]` | Specify the oe initiatives | "[specify value]" |
+| `[OE_METRICS]` | Specify the oe metrics | "[specify value]" |
+| `[OE_INVESTMENT]` | Specify the oe investment | "[specify value]" |
+| `[OE_TIMELINE]` | Timeline or schedule for oe | "6 months" |
+| `[PI_CURRENT_STATE]` | Specify the pi current state | "[specify value]" |
+| `[PI_FUTURE_VISION]` | Specify the pi future vision | "[specify value]" |
+| `[PI_INITIATIVES]` | Specify the pi initiatives | "[specify value]" |
+| `[PI_METRICS]` | Specify the pi metrics | "[specify value]" |
+| `[PI_INVESTMENT]` | Specify the pi investment | "[specify value]" |
+| `[PI_TIMELINE]` | Timeline or schedule for pi | "6 months" |
+| `[BM_CURRENT_STATE]` | Specify the bm current state | "[specify value]" |
+| `[BM_FUTURE_VISION]` | Specify the bm future vision | "[specify value]" |
+| `[BM_INITIATIVES]` | Specify the bm initiatives | "[specify value]" |
+| `[BM_METRICS]` | Specify the bm metrics | "[specify value]" |
+| `[BM_INVESTMENT]` | Specify the bm investment | "[specify value]" |
+| `[BM_TIMELINE]` | Timeline or schedule for bm | "6 months" |
+| `[DD_CURRENT_STATE]` | Specify the dd current state | "[specify value]" |
+| `[DD_FUTURE_VISION]` | Specify the dd future vision | "[specify value]" |
+| `[DD_INITIATIVES]` | Specify the dd initiatives | "[specify value]" |
+| `[DD_METRICS]` | Specify the dd metrics | "[specify value]" |
+| `[DD_INVESTMENT]` | Specify the dd investment | "[specify value]" |
+| `[DD_TIMELINE]` | Timeline or schedule for dd | "6 months" |
+| `[DC_CURRENT_STATE]` | Specify the dc current state | "[specify value]" |
+| `[DC_FUTURE_VISION]` | Specify the dc future vision | "[specify value]" |
+| `[DC_INITIATIVES]` | Specify the dc initiatives | "[specify value]" |
+| `[DC_METRICS]` | Specify the dc metrics | "[specify value]" |
+| `[DC_INVESTMENT]` | Specify the dc investment | "[specify value]" |
+| `[DC_TIMELINE]` | Timeline or schedule for dc | "6 months" |
+| `[TF_CURRENT_STATE]` | Specify the tf current state | "[specify value]" |
+| `[TF_FUTURE_VISION]` | Specify the tf future vision | "[specify value]" |
+| `[TF_INITIATIVES]` | Specify the tf initiatives | "[specify value]" |
+| `[TF_METRICS]` | Specify the tf metrics | "[specify value]" |
+| `[TF_INVESTMENT]` | Specify the tf investment | "[specify value]" |
+| `[TF_TIMELINE]` | Timeline or schedule for tf | "6 months" |
+| `[EP_CURRENT_STATE]` | Specify the ep current state | "[specify value]" |
+| `[EP_FUTURE_VISION]` | Specify the ep future vision | "[specify value]" |
+| `[EP_INITIATIVES]` | Specify the ep initiatives | "[specify value]" |
+| `[EP_METRICS]` | Specify the ep metrics | "[specify value]" |
+| `[EP_INVESTMENT]` | Specify the ep investment | "[specify value]" |
+| `[EP_TIMELINE]` | Timeline or schedule for ep | "6 months" |
+| `[CURRENT_MATURITY_SCORE]` | Specify the current maturity score | "[specify value]" |
+| `[TARGET_MATURITY_SCORE]` | Target or intended maturity score | "[specify value]" |
+| `[LEADERSHIP_SCORE]` | Specify the leadership score | "[specify value]" |
+| `[STRATEGY_SCORE]` | Strategy or approach for score | "[specify value]" |
+| `[TECHNOLOGY_SCORE]` | Specify the technology score | "[specify value]" |
+| `[DATA_SCORE]` | Specify the data score | "[specify value]" |
+| `[CUSTOMER_SCORE]` | Specify the customer score | "[specify value]" |
+| `[OPERATIONS_SCORE]` | Specify the operations score | "[specify value]" |
+| `[CULTURE_SCORE]` | Specify the culture score | "[specify value]" |
+| `[SECURITY_SCORE]` | Specify the security score | "[specify value]" |
+| `[AWARE_CURRENT]` | Specify the aware current | "[specify value]" |
+| `[AWARE_DIGITAL]` | Specify the aware digital | "[specify value]" |
+| `[AWARE_TECH]` | Specify the aware tech | "[specify value]" |
+| `[AWARE_PROCESS]` | Specify the aware process | "[specify value]" |
+| `[AWARE_METRICS]` | Specify the aware metrics | "[specify value]" |
+| `[RESEARCH_CURRENT]` | Specify the research current | "[specify value]" |
+| `[RESEARCH_DIGITAL]` | Specify the research digital | "[specify value]" |
+| `[RESEARCH_TECH]` | Specify the research tech | "[specify value]" |
+| `[RESEARCH_PROCESS]` | Specify the research process | "[specify value]" |
+| `[RESEARCH_METRICS]` | Specify the research metrics | "[specify value]" |
+| `[PURCHASE_CURRENT]` | Specify the purchase current | "[specify value]" |
+| `[PURCHASE_DIGITAL]` | Specify the purchase digital | "[specify value]" |
+| `[PURCHASE_TECH]` | Specify the purchase tech | "[specify value]" |
+| `[PURCHASE_PROCESS]` | Specify the purchase process | "[specify value]" |
+| `[PURCHASE_METRICS]` | Specify the purchase metrics | "[specify value]" |
+| `[USAGE_CURRENT]` | Specify the usage current | "[specify value]" |
+| `[USAGE_DIGITAL]` | Specify the usage digital | "[specify value]" |
+| `[USAGE_TECH]` | Specify the usage tech | "[specify value]" |
+| `[USAGE_PROCESS]` | Specify the usage process | "[specify value]" |
+| `[USAGE_METRICS]` | Specify the usage metrics | "[specify value]" |
+| `[SUPPORT_CURRENT]` | Specify the support current | "[specify value]" |
+| `[SUPPORT_DIGITAL]` | Specify the support digital | "[specify value]" |
+| `[SUPPORT_TECH]` | Specify the support tech | "[specify value]" |
+| `[SUPPORT_PROCESS]` | Specify the support process | "[specify value]" |
+| `[SUPPORT_METRICS]` | Specify the support metrics | "[specify value]" |
+| `[RENEWAL_CURRENT]` | Specify the renewal current | "[specify value]" |
+| `[RENEWAL_DIGITAL]` | Specify the renewal digital | "[specify value]" |
+| `[RENEWAL_TECH]` | Specify the renewal tech | "[specify value]" |
+| `[RENEWAL_PROCESS]` | Specify the renewal process | "[specify value]" |
+| `[RENEWAL_METRICS]` | Specify the renewal metrics | "[specify value]" |
+| `[ADVOCACY_CURRENT]` | Specify the advocacy current | "[specify value]" |
+| `[ADVOCACY_DIGITAL]` | Specify the advocacy digital | "[specify value]" |
+| `[ADVOCACY_TECH]` | Specify the advocacy tech | "[specify value]" |
+| `[ADVOCACY_PROCESS]` | Specify the advocacy process | "[specify value]" |
+| `[ADVOCACY_METRICS]` | Specify the advocacy metrics | "[specify value]" |
+| `[WEBSITE_ENHANCEMENT]` | Specify the website enhancement | "[specify value]" |
+| `[MOBILE_STRATEGY]` | Strategy or approach for mobile | "[specify value]" |
+| `[SOCIAL_INTEGRATION]` | Specify the social integration | "[specify value]" |
+| `[EMAIL_AUTOMATION]` | Specify the email automation | "john.smith@example.com" |
+| `[SMS_STRATEGY]` | Strategy or approach for sms | "[specify value]" |
+| `[VOICE_INTEGRATION]` | Specify the voice integration | "[specify value]" |
+| `[CHATBOT_DEPLOYMENT]` | Specify the chatbot deployment | "[specify value]" |
+| `[ARVR_APPLICATIONS]` | Specify the arvr applications | "[specify value]" |
+| `[STORE_DIGITIZATION]` | Specify the store digitization | "[specify value]" |
+| `[SERVICE_DIGITAL]` | Specify the service digital | "[specify value]" |
+| `[EVENT_TECHNOLOGY]` | Specify the event technology | "[specify value]" |
+| `[CONTACT_MODERNIZATION]` | Specify the contact modernization | "[specify value]" |
+| `[CDP_IMPLEMENTATION]` | Specify the cdp implementation | "[specify value]" |
+| `[MARKETING_AUTO]` | Specify the marketing auto | "[specify value]" |
+| `[CRM_UPGRADE]` | Specify the crm upgrade | "[specify value]" |
+| `[ANALYTICS_INTEGRATION]` | Specify the analytics integration | "[specify value]" |
+| `[CLOUD_CURRENT]` | Specify the cloud current | "[specify value]" |
+| `[CLOUD_TARGET]` | Target or intended cloud | "[specify value]" |
+| `[CLOUD_MIGRATION]` | Specify the cloud migration | "[specify value]" |
+| `[CLOUD_TIMELINE]` | Timeline or schedule for cloud | "6 months" |
+| `[CLOUD_DEPS]` | Specify the cloud deps | "[specify value]" |
+| `[CLOUD_INVEST]` | Specify the cloud invest | "[specify value]" |
+| `[DATA_ARCH_CURRENT]` | Specify the data arch current | "[specify value]" |
+| `[DATA_ARCH_TARGET]` | Target or intended data arch | "[specify value]" |
+| `[DATA_MIGRATION]` | Specify the data migration | "[specify value]" |
+| `[DATA_TIMELINE]` | Timeline or schedule for data | "6 months" |
+| `[DATA_DEPS]` | Specify the data deps | "[specify value]" |
+| `[DATA_INVEST]` | Specify the data invest | "[specify value]" |
+| `[INT_CURRENT]` | Specify the int current | "[specify value]" |
+| `[INT_TARGET]` | Target or intended int | "[specify value]" |
+| `[INT_STRATEGY]` | Strategy or approach for int | "[specify value]" |
+| `[INT_TIMELINE]` | Timeline or schedule for int | "6 months" |
+| `[INT_DEPS]` | Specify the int deps | "[specify value]" |
+| `[INT_INVEST]` | Specify the int invest | "[specify value]" |
+| `[API_CURRENT]` | Specify the api current | "[specify value]" |
+| `[API_TARGET]` | Target or intended api | "[specify value]" |
+| `[API_STRATEGY]` | Strategy or approach for api | "[specify value]" |
+| `[API_TIMELINE]` | Timeline or schedule for api | "6 months" |
+| `[API_DEPS]` | Specify the api deps | "[specify value]" |
+| `[API_INVEST]` | Specify the api invest | "[specify value]" |
+| `[SEC_CURRENT]` | Specify the sec current | "[specify value]" |
+| `[SEC_TARGET]` | Target or intended sec | "[specify value]" |
+| `[SEC_STRATEGY]` | Strategy or approach for sec | "[specify value]" |
+| `[SEC_TIMELINE]` | Timeline or schedule for sec | "6 months" |
+| `[SEC_DEPS]` | Specify the sec deps | "[specify value]" |
+| `[SEC_INVEST]` | Specify the sec invest | "[specify value]" |
+| `[DEVOPS_CURRENT]` | Specify the devops current | "[specify value]" |
+| `[DEVOPS_TARGET]` | Target or intended devops | "[specify value]" |
+| `[DEVOPS_STRATEGY]` | Strategy or approach for devops | "[specify value]" |
+| `[DEVOPS_TIMELINE]` | Timeline or schedule for devops | "6 months" |
+| `[DEVOPS_DEPS]` | Specify the devops deps | "[specify value]" |
+| `[DEVOPS_INVEST]` | Specify the devops invest | "[specify value]" |
+| `[MON_CURRENT]` | Specify the mon current | "[specify value]" |
+| `[MON_TARGET]` | Target or intended mon | "[specify value]" |
+| `[MON_STRATEGY]` | Strategy or approach for mon | "[specify value]" |
+| `[MON_TIMELINE]` | Timeline or schedule for mon | "6 months" |
+| `[MON_DEPS]` | Specify the mon deps | "[specify value]" |
+| `[MON_INVEST]` | Specify the mon invest | "[specify value]" |
+| `[AI_CURRENT]` | Specify the ai current | "[specify value]" |
+| `[AI_TARGET]` | Target or intended ai | "[specify value]" |
+| `[AI_STRATEGY]` | Strategy or approach for ai | "[specify value]" |
+| `[AI_TIMELINE]` | Timeline or schedule for ai | "6 months" |
+| `[AI_DEPS]` | Specify the ai deps | "[specify value]" |
+| `[AI_INVEST]` | Specify the ai invest | "[specify value]" |
+| `[NLP_APPLICATIONS]` | Specify the nlp applications | "[specify value]" |
+| `[CV_APPLICATIONS]` | Specify the cv applications | "[specify value]" |
+| `[ML_APPLICATIONS]` | Specify the ml applications | "[specify value]" |
+| `[CONV_AI_APPLICATIONS]` | Specify the conv ai applications | "[specify value]" |
+| `[PROCESS_AI_APPLICATIONS]` | Specify the process ai applications | "[specify value]" |
+| `[IOT_DEVICE_MGMT]` | Specify the iot device mgmt | "[specify value]" |
+| `[EDGE_ANALYTICS]` | Specify the edge analytics | "[specify value]" |
+| `[REALTIME_PROCESSING]` | Specify the realtime processing | "[specify value]" |
+| `[PRED_MAINTENANCE]` | Specify the pred maintenance | "[specify value]" |
+| `[RPA_DEPLOYMENT]` | Specify the rpa deployment | "[specify value]" |
+| `[IDP_DEPLOYMENT]` | Specify the idp deployment | "[specify value]" |
+| `[WORKFLOW_AUTO]` | Specify the workflow auto | "[specify value]" |
+| `[DECISION_AUTO]` | Specify the decision auto | "[specify value]" |
+| `[CUST_DATA_CURRENT]` | Specify the cust data current | "[specify value]" |
+| `[CUST_DATA_TARGET]` | Target or intended cust data | "[specify value]" |
+| `[CUST_DATA_SOURCES]` | Specify the cust data sources | "[specify value]" |
+| `[CUST_ANALYTICS]` | Specify the cust analytics | "[specify value]" |
+| `[CUST_VALUE]` | Specify the cust value | "[specify value]" |
+| `[CUST_IMPL]` | Specify the cust impl | "[specify value]" |
+| `[OPS_DATA_CURRENT]` | Specify the ops data current | "[specify value]" |
+| `[OPS_DATA_TARGET]` | Target or intended ops data | "[specify value]" |
+| `[OPS_DATA_SOURCES]` | Specify the ops data sources | "[specify value]" |
+| `[OPS_ANALYTICS]` | Specify the ops analytics | "[specify value]" |
+| `[OPS_VALUE]` | Specify the ops value | "[specify value]" |
+| `[OPS_IMPL]` | Specify the ops impl | "[specify value]" |
+| `[FIN_DATA_CURRENT]` | Specify the fin data current | "[specify value]" |
+| `[FIN_DATA_TARGET]` | Target or intended fin data | "[specify value]" |
+| `[FIN_DATA_SOURCES]` | Specify the fin data sources | "[specify value]" |
+| `[FIN_ANALYTICS]` | Specify the fin analytics | "[specify value]" |
+| `[FIN_VALUE]` | Specify the fin value | "[specify value]" |
+| `[FIN_IMPL]` | Specify the fin impl | "[specify value]" |
+| `[PROD_DATA_CURRENT]` | Specify the prod data current | "[specify value]" |
+| `[PROD_DATA_TARGET]` | Target or intended prod data | "[specify value]" |
+| `[PROD_DATA_SOURCES]` | Specify the prod data sources | "[specify value]" |
+| `[PROD_ANALYTICS]` | Specify the prod analytics | "[specify value]" |
+| `[PROD_VALUE]` | Specify the prod value | "[specify value]" |
+| `[PROD_IMPL]` | Specify the prod impl | "[specify value]" |
+| `[MKT_DATA_CURRENT]` | Specify the mkt data current | "[specify value]" |
+| `[MKT_DATA_TARGET]` | Target or intended mkt data | "[specify value]" |
+| `[MKT_DATA_SOURCES]` | Specify the mkt data sources | "[specify value]" |
+| `[MKT_ANALYTICS]` | Specify the mkt analytics | "[specify value]" |
+| `[MKT_VALUE]` | Specify the mkt value | "[specify value]" |
+| `[MKT_IMPL]` | Specify the mkt impl | "[specify value]" |
+| `[EMP_DATA_CURRENT]` | Specify the emp data current | "[specify value]" |
+| `[EMP_DATA_TARGET]` | Target or intended emp data | "[specify value]" |
+| `[EMP_DATA_SOURCES]` | Specify the emp data sources | "[specify value]" |
+| `[EMP_ANALYTICS]` | Specify the emp analytics | "[specify value]" |
+| `[EMP_VALUE]` | Specify the emp value | "[specify value]" |
+| `[EMP_IMPL]` | Specify the emp impl | "[specify value]" |
+| `[DATA_ARCHITECTURE_STRATEGY]` | Strategy or approach for data architecture | "[specify value]" |
+| `[DATA_QUALITY_FRAMEWORK]` | Specify the data quality framework | "[specify value]" |
+| `[DATA_SECURITY_FRAMEWORK]` | Specify the data security framework | "[specify value]" |
+| `[DATA_PRIVACY_FRAMEWORK]` | Specify the data privacy framework | "[specify value]" |
+| `[MDM_STRATEGY]` | Strategy or approach for mdm | "[specify value]" |
+| `[DESC_ANALYTICS]` | Specify the desc analytics | "[specify value]" |
+| `[DIAG_ANALYTICS]` | Specify the diag analytics | "[specify value]" |
+| `[PRED_ANALYTICS]` | Specify the pred analytics | "[specify value]" |
+| `[PRESC_ANALYTICS]` | Specify the presc analytics | "[specify value]" |
+| `[REALTIME_ANALYTICS]` | Specify the realtime analytics | "[specify value]" |
+| `[SELFSERVICE_ANALYTICS]` | Specify the selfservice analytics | "[specify value]" |
+| `[DATA_VIZ_TOOLS]` | Specify the data viz tools | "[specify value]" |
+| `[DATA_LITERACY]` | Specify the data literacy | "[specify value]" |
+| `[CITIZEN_DS_PROGRAM]` | Specify the citizen ds program | "[specify value]" |
+| `[SALES_PROCESS_1]` | Specify the sales process 1 | "[specify value]" |
+| `[SALES_AUTO_1]` | Specify the sales auto 1 | "[specify value]" |
+| `[SALES_TARGET_1]` | Target or intended sales  1 | "[specify value]" |
+| `[SALES_TECH_1]` | Specify the sales tech 1 | "[specify value]" |
+| `[SALES_BENEFIT_1]` | Specify the sales benefit 1 | "[specify value]" |
+| `[SALES_IMPL_1]` | Specify the sales impl 1 | "[specify value]" |
+| `[SALES_PROCESS_2]` | Specify the sales process 2 | "[specify value]" |
+| `[SALES_AUTO_2]` | Specify the sales auto 2 | "[specify value]" |
+| `[SALES_TARGET_2]` | Target or intended sales  2 | "[specify value]" |
+| `[SALES_TECH_2]` | Specify the sales tech 2 | "[specify value]" |
+| `[SALES_BENEFIT_2]` | Specify the sales benefit 2 | "[specify value]" |
+| `[SALES_IMPL_2]` | Specify the sales impl 2 | "[specify value]" |
+| `[CS_PROCESS_1]` | Specify the cs process 1 | "[specify value]" |
+| `[CS_AUTO_1]` | Specify the cs auto 1 | "[specify value]" |
+| `[CS_TARGET_1]` | Target or intended cs  1 | "[specify value]" |
+| `[CS_TECH_1]` | Specify the cs tech 1 | "[specify value]" |
+| `[CS_BENEFIT_1]` | Specify the cs benefit 1 | "[specify value]" |
+| `[CS_IMPL_1]` | Specify the cs impl 1 | "[specify value]" |
+| `[CS_PROCESS_2]` | Specify the cs process 2 | "[specify value]" |
+| `[CS_AUTO_2]` | Specify the cs auto 2 | "[specify value]" |
+| `[CS_TARGET_2]` | Target or intended cs  2 | "[specify value]" |
+| `[CS_TECH_2]` | Specify the cs tech 2 | "[specify value]" |
+| `[CS_BENEFIT_2]` | Specify the cs benefit 2 | "[specify value]" |
+| `[CS_IMPL_2]` | Specify the cs impl 2 | "[specify value]" |
+| `[FIN_PROCESS_1]` | Specify the fin process 1 | "[specify value]" |
+| `[FIN_AUTO_1]` | Specify the fin auto 1 | "[specify value]" |
+| `[FIN_TARGET_1]` | Target or intended fin  1 | "[specify value]" |
+| `[FIN_TECH_1]` | Specify the fin tech 1 | "[specify value]" |
+| `[FIN_BENEFIT_1]` | Specify the fin benefit 1 | "[specify value]" |
+| `[FIN_IMPL_1]` | Specify the fin impl 1 | "[specify value]" |
+| `[FIN_PROCESS_2]` | Specify the fin process 2 | "[specify value]" |
+| `[FIN_AUTO_2]` | Specify the fin auto 2 | "[specify value]" |
+| `[FIN_TARGET_2]` | Target or intended fin  2 | "[specify value]" |
+| `[FIN_TECH_2]` | Specify the fin tech 2 | "[specify value]" |
+| `[FIN_BENEFIT_2]` | Specify the fin benefit 2 | "[specify value]" |
+| `[FIN_IMPL_2]` | Specify the fin impl 2 | "[specify value]" |
+| `[HR_PROCESS_1]` | Specify the hr process 1 | "[specify value]" |
+| `[HR_AUTO_1]` | Specify the hr auto 1 | "[specify value]" |
+| `[HR_TARGET_1]` | Target or intended hr  1 | "[specify value]" |
+| `[HR_TECH_1]` | Specify the hr tech 1 | "[specify value]" |
+| `[HR_BENEFIT_1]` | Specify the hr benefit 1 | "[specify value]" |
+| `[HR_IMPL_1]` | Specify the hr impl 1 | "[specify value]" |
+| `[HR_PROCESS_2]` | Specify the hr process 2 | "[specify value]" |
+| `[HR_AUTO_2]` | Specify the hr auto 2 | "[specify value]" |
+| `[HR_TARGET_2]` | Target or intended hr  2 | "[specify value]" |
+| `[HR_TECH_2]` | Specify the hr tech 2 | "[specify value]" |
+| `[HR_BENEFIT_2]` | Specify the hr benefit 2 | "[specify value]" |
+| `[HR_IMPL_2]` | Specify the hr impl 2 | "[specify value]" |
+| `[SC_PROCESS_1]` | Specify the sc process 1 | "[specify value]" |
+| `[SC_AUTO_1]` | Specify the sc auto 1 | "[specify value]" |
+| `[SC_TARGET_1]` | Target or intended sc  1 | "[specify value]" |
+| `[SC_TECH_1]` | Specify the sc tech 1 | "[specify value]" |
+| `[SC_BENEFIT_1]` | Specify the sc benefit 1 | "[specify value]" |
+| `[SC_IMPL_1]` | Specify the sc impl 1 | "[specify value]" |
+| `[SC_PROCESS_2]` | Specify the sc process 2 | "[specify value]" |
+| `[SC_AUTO_2]` | Specify the sc auto 2 | "[specify value]" |
+| `[SC_TARGET_2]` | Target or intended sc  2 | "[specify value]" |
+| `[SC_TECH_2]` | Specify the sc tech 2 | "[specify value]" |
+| `[SC_BENEFIT_2]` | Specify the sc benefit 2 | "[specify value]" |
+| `[SC_IMPL_2]` | Specify the sc impl 2 | "[specify value]" |
+| `[CURRENT_PROCESS_MAPPING]` | Specify the current process mapping | "[specify value]" |
+| `[PROCESS_MINING_TOOLS]` | Specify the process mining tools | "[specify value]" |
+| `[BOTTLENECK_ANALYSIS]` | Specify the bottleneck analysis | "[specify value]" |
+| `[VARIATION_ANALYSIS]` | Specify the variation analysis | "[specify value]" |
+| `[FUTURE_PROCESS_DESIGN]` | Specify the future process design | "[specify value]" |
+| `[SOP_DIGITIZATION]` | Specify the sop digitization | "[specify value]" |
+| `[WORKFLOW_DESIGN]` | Specify the workflow design | "[specify value]" |
+| `[EXCEPTION_HANDLING]` | Specify the exception handling | "[specify value]" |
+| `[PROCESS_TRAINING]` | Specify the process training | "[specify value]" |
+| `[ADOPTION_TRACKING]` | Specify the adoption tracking | "[specify value]" |
+| `[CONTINUOUS_IMPROVEMENT]` | Specify the continuous improvement | "[specify value]" |
+| `[FEEDBACK_SYSTEMS]` | Specify the feedback systems | "[specify value]" |
+| `[ORG_STRUCT_CURRENT]` | Specify the org struct current | "[specify value]" |
+| `[ORG_STRUCT_TARGET]` | Target or intended org struct | "[specify value]" |
+| `[ORG_STRUCT_CHANGES]` | Specify the org struct changes | "[specify value]" |
+| `[ORG_STRUCT_IMPACT]` | Specify the org struct impact | "[specify value]" |
+| `[ORG_STRUCT_ENABLE]` | Specify the org struct enable | "[specify value]" |
+| `[ORG_STRUCT_TIME]` | Specify the org struct time | "[specify value]" |
+| `[ROLES_CURRENT]` | Specify the roles current | "[specify value]" |
+| `[ROLES_TARGET]` | Target or intended roles | "[specify value]" |
+| `[ROLES_CHANGES]` | Specify the roles changes | "[specify value]" |
+| `[ROLES_IMPACT]` | Specify the roles impact | "[specify value]" |
+| `[ROLES_ENABLE]` | Specify the roles enable | "[specify value]" |
+| `[ROLES_TIME]` | Specify the roles time | "[specify value]" |
+| `[DECISION_CURRENT]` | Specify the decision current | "[specify value]" |
+| `[DECISION_TARGET]` | Target or intended decision | "[specify value]" |
+| `[DECISION_CHANGES]` | Specify the decision changes | "[specify value]" |
+| `[DECISION_IMPACT]` | Specify the decision impact | "[specify value]" |
+| `[DECISION_ENABLE]` | Specify the decision enable | "[specify value]" |
+| `[DECISION_TIME]` | Specify the decision time | "[specify value]" |
+| `[GOV_CURRENT]` | Specify the gov current | "[specify value]" |
+| `[GOV_TARGET]` | Target or intended gov | "[specify value]" |
+| `[GOV_CHANGES]` | Specify the gov changes | "[specify value]" |
+| `[GOV_IMPACT]` | Specify the gov impact | "[specify value]" |
+| `[GOV_ENABLE]` | Specify the gov enable | "[specify value]" |
+| `[GOV_TIME]` | Specify the gov time | "[specify value]" |
+| `[PERF_CURRENT]` | Specify the perf current | "[specify value]" |
+| `[PERF_TARGET]` | Target or intended perf | "[specify value]" |
+| `[PERF_CHANGES]` | Specify the perf changes | "[specify value]" |
+| `[PERF_IMPACT]` | Specify the perf impact | "[specify value]" |
+| `[PERF_ENABLE]` | Specify the perf enable | "[specify value]" |
+| `[PERF_TIME]` | Specify the perf time | "[specify value]" |
+| `[COLLAB_CURRENT]` | Specify the collab current | "[specify value]" |
+| `[COLLAB_TARGET]` | Target or intended collab | "[specify value]" |
+| `[COLLAB_CHANGES]` | Specify the collab changes | "[specify value]" |
+| `[COLLAB_IMPACT]` | Specify the collab impact | "[specify value]" |
+| `[COLLAB_ENABLE]` | Specify the collab enable | "[specify value]" |
+| `[COLLAB_TIME]` | Specify the collab time | "[specify value]" |
+| `[INNOV_CURRENT]` | Specify the innov current | "[specify value]" |
+| `[INNOV_TARGET]` | Target or intended innov | "[specify value]" |
+| `[INNOV_CHANGES]` | Specify the innov changes | "[specify value]" |
+| `[INNOV_IMPACT]` | Specify the innov impact | "[specify value]" |
+| `[INNOV_ENABLE]` | Specify the innov enable | "[specify value]" |
+| `[INNOV_TIME]` | Specify the innov time | "[specify value]" |
+| `[AGILE_ORG_MODEL]` | Specify the agile org model | "[specify value]" |
+| `[CROSSFUNC_TEAMS]` | Specify the crossfunc teams | "[specify value]" |
+| `[PRODUCT_MINDSET]` | Specify the product mindset | "[specify value]" |
+| `[ITERATIVE_DEV]` | Specify the iterative dev | "[specify value]" |
+| `[DECISION_ANALYTICS]` | Specify the decision analytics | "[specify value]" |
+| `[PERF_DASHBOARDS]` | Specify the perf dashboards | "[specify value]" |
+| `[EXPERIMENT_FRAMEWORK]` | Specify the experiment framework | "[specify value]" |
+| `[INSIGHTS_SHARING]` | Specify the insights sharing | "[specify value]" |
+| `[JOURNEY_FOCUS]` | Specify the journey focus | "[specify value]" |
+| `[VOC_PROGRAMS]` | Specify the voc programs | "[specify value]" |
+| `[DESIGN_THINKING]` | Specify the design thinking | "[specify value]" |
+| `[UX_RESEARCH]` | Specify the ux research | "[specify value]" |
+| `[INNOV_CULTURE_CURR]` | Specify the innov culture curr | "[specify value]" |
+| `[INNOV_CULTURE_TARG]` | Specify the innov culture targ | "[specify value]" |
+| `[INNOV_INITIATIVES]` | Specify the innov initiatives | "[specify value]" |
+| `[INNOV_METRICS]` | Specify the innov metrics | "[specify value]" |
+| `[INNOV_CHAMPIONS]` | Specify the innov champions | "[specify value]" |
+| `[INNOV_TIMELINE]` | Timeline or schedule for innov | "6 months" |
+| `[RISK_CULTURE_CURR]` | Specify the risk culture curr | "[specify value]" |
+| `[RISK_CULTURE_TARG]` | Specify the risk culture targ | "[specify value]" |
+| `[RISK_INITIATIVES]` | Specify the risk initiatives | "[specify value]" |
+| `[RISK_METRICS]` | Specify the risk metrics | "[specify value]" |
+| `[RISK_CHAMPIONS]` | Specify the risk champions | "[specify value]" |
+| `[RISK_TIMELINE]` | Timeline or schedule for risk | "6 months" |
+| `[COLLAB_CULTURE_CURR]` | Specify the collab culture curr | "[specify value]" |
+| `[COLLAB_CULTURE_TARG]` | Specify the collab culture targ | "[specify value]" |
+| `[COLLAB_INITIATIVES]` | Specify the collab initiatives | "[specify value]" |
+| `[COLLAB_METRICS]` | Specify the collab metrics | "[specify value]" |
+| `[COLLAB_CHAMPIONS]` | Specify the collab champions | "[specify value]" |
+| `[COLLAB_TIMELINE]` | Timeline or schedule for collab | "6 months" |
+| `[LEARN_CULTURE_CURR]` | Specify the learn culture curr | "[specify value]" |
+| `[LEARN_CULTURE_TARG]` | Specify the learn culture targ | "[specify value]" |
+| `[LEARN_INITIATIVES]` | Specify the learn initiatives | "[specify value]" |
+| `[LEARN_METRICS]` | Specify the learn metrics | "[specify value]" |
+| `[LEARN_CHAMPIONS]` | Specify the learn champions | "[specify value]" |
+| `[LEARN_TIMELINE]` | Timeline or schedule for learn | "6 months" |
+| `[DIGITAL_CULTURE_CURR]` | Specify the digital culture curr | "[specify value]" |
+| `[DIGITAL_CULTURE_TARG]` | Specify the digital culture targ | "[specify value]" |
+| `[DIGITAL_INITIATIVES]` | Specify the digital initiatives | "[specify value]" |
+| `[DIGITAL_METRICS]` | Specify the digital metrics | "[specify value]" |
+| `[DIGITAL_CHAMPIONS]` | Specify the digital champions | "[specify value]" |
+| `[DIGITAL_TIMELINE]` | Timeline or schedule for digital | "6 months" |
+| `[CUSTOMER_CULTURE_CURR]` | Specify the customer culture curr | "[specify value]" |
+| `[CUSTOMER_CULTURE_TARG]` | Specify the customer culture targ | "[specify value]" |
+| `[CUSTOMER_INITIATIVES]` | Specify the customer initiatives | "[specify value]" |
+| `[CUSTOMER_METRICS]` | Specify the customer metrics | "[specify value]" |
+| `[CUSTOMER_CHAMPIONS]` | Specify the customer champions | "[specify value]" |
+| `[CUSTOMER_TIMELINE]` | Timeline or schedule for customer | "6 months" |
+| `[SPEED_CULTURE_CURR]` | Specify the speed culture curr | "[specify value]" |
+| `[SPEED_CULTURE_TARG]` | Specify the speed culture targ | "[specify value]" |
+| `[SPEED_INITIATIVES]` | Specify the speed initiatives | "[specify value]" |
+| `[SPEED_METRICS]` | Specify the speed metrics | "[specify value]" |
+| `[SPEED_CHAMPIONS]` | Specify the speed champions | "[specify value]" |
+| `[SPEED_TIMELINE]` | Timeline or schedule for speed | "6 months" |
+| `[TECH_SKILLS_FRAMEWORK]` | Specify the tech skills framework | "[specify value]" |
+| `[ANALYTICAL_SKILLS]` | Specify the analytical skills | "[specify value]" |
+| `[DESIGN_SKILLS]` | Specify the design skills | "[specify value]" |
+| `[LEADERSHIP_SKILLS]` | Specify the leadership skills | "[specify value]" |
+| `[DIGITAL_LITERACY]` | Specify the digital literacy | "[specify value]" |
+| `[CERTIFICATION_PROGRAMS]` | Specify the certification programs | "[specify value]" |
+| `[INTERNAL_TRAINING]` | Specify the internal training | "[specify value]" |
+| `[EXTERNAL_PARTNERSHIPS]` | Specify the external partnerships | "[specify value]" |
+| `[NEW_ROLES]` | Specify the new roles | "[specify value]" |
+| `[EXTERNAL_HIRING]` | Specify the external hiring | "[specify value]" |
+| `[INTERNAL_MOBILITY]` | Specify the internal mobility | "[specify value]" |
+| `[CONTRACTOR_STRATEGY]` | Strategy or approach for contractor | "[specify value]" |
+| `[DIGITAL_KPIS]` | Specify the digital kpis | "[specify value]" |
+| `[INNOVATION_REWARDS]` | Specify the innovation rewards | "[specify value]" |
+| `[LEARNING_RECOGNITION]` | Specify the learning recognition | "[specify value]" |
+| `[CAREER_PATHWAYS]` | Specify the career pathways | "[specify value]" |
+| `[CORE_CURRENT]` | Specify the core current | "[specify value]" |
+| `[CORE_DIGITAL_ENHANCE]` | Specify the core digital enhance | "[specify value]" |
+| `[CORE_NEW_PRODUCTS]` | Specify the core new products | "[specify value]" |
+| `[CORE_TECH_ENABLE]` | Specify the core tech enable | "[specify value]" |
+| `[CORE_MARKET_OPP]` | Specify the core market opp | "[specify value]" |
+| `[CX_CURRENT]` | Specify the cx current | "[specify value]" |
+| `[CX_DIGITAL_ENHANCE]` | Specify the cx digital enhance | "[specify value]" |
+| `[CX_NEW_PRODUCTS]` | Specify the cx new products | "[specify value]" |
+| `[CX_TECH_ENABLE]` | Specify the cx tech enable | "[specify value]" |
+| `[CX_MARKET_OPP]` | Specify the cx market opp | "[specify value]" |
+| `[DATA_CURRENT]` | Specify the data current | "[specify value]" |
+| `[DATA_DIGITAL_ENHANCE]` | Specify the data digital enhance | "[specify value]" |
+| `[DATA_NEW_PRODUCTS]` | Specify the data new products | "[specify value]" |
+| `[DATA_TECH_ENABLE]` | Specify the data tech enable | "[specify value]" |
+| `[DATA_MARKET_OPP]` | Specify the data market opp | "[specify value]" |
+| `[PLATFORM_CURRENT]` | Specify the platform current | "[specify value]" |
+| `[PLATFORM_DIGITAL_ENHANCE]` | Specify the platform digital enhance | "[specify value]" |
+| `[PLATFORM_NEW_PRODUCTS]` | Specify the platform new products | "[specify value]" |
+| `[PLATFORM_TECH_ENABLE]` | Specify the platform tech enable | "[specify value]" |
+| `[PLATFORM_MARKET_OPP]` | Specify the platform market opp | "[specify value]" |
+| `[API_DIGITAL_ENHANCE]` | Specify the api digital enhance | "[specify value]" |
+| `[API_NEW_PRODUCTS]` | Specify the api new products | "[specify value]" |
+| `[API_TECH_ENABLE]` | Specify the api tech enable | "[specify value]" |
+| `[API_MARKET_OPP]` | Specify the api market opp | "[specify value]" |
+| `[ECOSYSTEM_CURRENT]` | Specify the ecosystem current | "[specify value]" |
+| `[ECOSYSTEM_DIGITAL_ENHANCE]` | Specify the ecosystem digital enhance | "[specify value]" |
+| `[ECOSYSTEM_NEW_PRODUCTS]` | Specify the ecosystem new products | "[specify value]" |
+| `[ECOSYSTEM_TECH_ENABLE]` | Specify the ecosystem tech enable | "[specify value]" |
+| `[ECOSYSTEM_MARKET_OPP]` | Specify the ecosystem market opp | "[specify value]" |
+| `[IDEATION_FRAMEWORK]` | Specify the ideation framework | "[specify value]" |
+| `[VALIDATION_PROCESS]` | Specify the validation process | "[specify value]" |
+| `[PROTOTYPING_APPROACH]` | Specify the prototyping approach | "[specify value]" |
+| `[PILOT_FRAMEWORK]` | Specify the pilot framework | "[specify value]" |
+| `[SCALING_STRATEGY]` | Strategy or approach for scaling | "[specify value]" |
+| `[SUBSCRIPTION_MODELS]` | Specify the subscription models | "[specify value]" |
+| `[PLATFORM_BUSINESS]` | Specify the platform business | "[specify value]" |
+| `[DATA_MONETIZATION]` | Specify the data monetization | "[specify value]" |
+| `[MARKETPLACE_STRATEGY]` | Strategy or approach for marketplace | "[specify value]" |
+| `[AAAS_OFFERINGS]` | Specify the aaas offerings | "[specify value]" |
+| `[TIME_TO_MARKET]` | Specify the time to market | "[specify value]" |
+| `[INNOVATION_REVENUE]` | Specify the innovation revenue | "[specify value]" |
+| `[PATENT_PORTFOLIO]` | Specify the patent portfolio | "[specify value]" |
+| `[PILOT_SUCCESS_RATE]` | Specify the pilot success rate | "[specify value]" |
+| `[IAM_CURRENT]` | Specify the iam current | "[specify value]" |
+| `[IAM_TARGET]` | Target or intended iam | "[specify value]" |
+| `[IAM_GAPS]` | Specify the iam gaps | "[specify value]" |
+| `[IAM_REMEDIATION]` | Specify the iam remediation | "[specify value]" |
+| `[IAM_INVESTMENT]` | Specify the iam investment | "[specify value]" |
+| `[IAM_TIMELINE]` | Timeline or schedule for iam | "6 months" |
+| `[NET_SEC_CURRENT]` | Specify the net sec current | "[specify value]" |
+| `[NET_SEC_TARGET]` | Target or intended net sec | "[specify value]" |
+| `[NET_SEC_GAPS]` | Specify the net sec gaps | "[specify value]" |
+| `[NET_SEC_REMEDIATION]` | Specify the net sec remediation | "[specify value]" |
+| `[NET_SEC_INVESTMENT]` | Specify the net sec investment | "[specify value]" |
+| `[NET_SEC_TIMELINE]` | Timeline or schedule for net sec | "6 months" |
+| `[DATA_PROT_CURRENT]` | Specify the data prot current | "[specify value]" |
+| `[DATA_PROT_TARGET]` | Target or intended data prot | "[specify value]" |
+| `[DATA_PROT_GAPS]` | Specify the data prot gaps | "[specify value]" |
+| `[DATA_PROT_REMEDIATION]` | Specify the data prot remediation | "[specify value]" |
+| `[DATA_PROT_INVESTMENT]` | Specify the data prot investment | "[specify value]" |
+| `[DATA_PROT_TIMELINE]` | Timeline or schedule for data prot | "6 months" |
+| `[APP_SEC_CURRENT]` | Specify the app sec current | "[specify value]" |
+| `[APP_SEC_TARGET]` | Target or intended app sec | "[specify value]" |
+| `[APP_SEC_GAPS]` | Specify the app sec gaps | "[specify value]" |
+| `[APP_SEC_REMEDIATION]` | Specify the app sec remediation | "[specify value]" |
+| `[APP_SEC_INVESTMENT]` | Specify the app sec investment | "[specify value]" |
+| `[APP_SEC_TIMELINE]` | Timeline or schedule for app sec | "6 months" |
+| `[CLOUD_SEC_CURRENT]` | Specify the cloud sec current | "[specify value]" |
+| `[CLOUD_SEC_TARGET]` | Target or intended cloud sec | "[specify value]" |
+| `[CLOUD_SEC_GAPS]` | Specify the cloud sec gaps | "[specify value]" |
+| `[CLOUD_SEC_REMEDIATION]` | Specify the cloud sec remediation | "[specify value]" |
+| `[CLOUD_SEC_INVESTMENT]` | Specify the cloud sec investment | "[specify value]" |
+| `[CLOUD_SEC_TIMELINE]` | Timeline or schedule for cloud sec | "6 months" |
+| `[ENDPOINT_CURRENT]` | Specify the endpoint current | "[specify value]" |
+| `[ENDPOINT_TARGET]` | Target or intended endpoint | "[specify value]" |
+| `[ENDPOINT_GAPS]` | Specify the endpoint gaps | "[specify value]" |
+| `[ENDPOINT_REMEDIATION]` | Specify the endpoint remediation | "[specify value]" |
+| `[ENDPOINT_INVESTMENT]` | Specify the endpoint investment | "[specify value]" |
+| `[ENDPOINT_TIMELINE]` | Timeline or schedule for endpoint | "6 months" |
+| `[SECOPS_CURRENT]` | Specify the secops current | "[specify value]" |
+| `[SECOPS_TARGET]` | Target or intended secops | "[specify value]" |
+| `[SECOPS_GAPS]` | Specify the secops gaps | "[specify value]" |
+| `[SECOPS_REMEDIATION]` | Specify the secops remediation | "[specify value]" |
+| `[SECOPS_INVESTMENT]` | Specify the secops investment | "[specify value]" |
+| `[SECOPS_TIMELINE]` | Timeline or schedule for secops | "6 months" |
+| `[CYBER_RISKS]` | Specify the cyber risks | "[specify value]" |
+| `[PRIVACY_RISKS]` | Specify the privacy risks | "[specify value]" |
+| `[TECH_RISKS]` | Specify the tech risks | "[specify value]" |
+| `[VENDOR_RISKS]` | Specify the vendor risks | "[specify value]" |
+| `[OPS_RISKS]` | Specify the ops risks | "[specify value]" |
+| `[COMPLIANCE_RISKS]` | Specify the compliance risks | "[specify value]" |
+| `[RISK_ASSESSMENT]` | Specify the risk assessment | "[specify value]" |
+| `[RISK_MONITORING]` | Specify the risk monitoring | "[specify value]" |
+| `[INCIDENT_RESPONSE]` | Specify the incident response | "[specify value]" |
+| `[BUSINESS_CONTINUITY]` | Specify the business continuity | "[specify value]" |
+| `[DISASTER_RECOVERY]` | Specify the disaster recovery | "[specify value]" |
+| `[REGULATORY_REQS]` | Specify the regulatory reqs | "[specify value]" |
+| `[INDUSTRY_STANDARDS]` | Specify the industry standards | "Technology" |
+| `[AUDIT_FRAMEWORK]` | Specify the audit framework | "[specify value]" |
+| `[GOVERNANCE_STRUCTURE]` | Specify the governance structure | "[specify value]" |
+| `[REV_BASELINE]` | Specify the rev baseline | "[specify value]" |
+| `[REV_YEAR1]` | Specify the rev year1 | "[specify value]" |
+| `[REV_YEAR3]` | Specify the rev year3 | "[specify value]" |
+| `[REV_YEAR5]` | Specify the rev year5 | "[specify value]" |
+| `[REV_MEASUREMENT]` | Specify the rev measurement | "[specify value]" |
+| `[REV_IMPACT]` | Specify the rev impact | "[specify value]" |
+| `[COST_BASELINE]` | Specify the cost baseline | "[specify value]" |
+| `[COST_YEAR1]` | Specify the cost year1 | "[specify value]" |
+| `[COST_YEAR3]` | Specify the cost year3 | "[specify value]" |
+| `[COST_YEAR5]` | Specify the cost year5 | "[specify value]" |
+| `[COST_MEASUREMENT]` | Specify the cost measurement | "[specify value]" |
+| `[COST_IMPACT]` | Specify the cost impact | "[specify value]" |
+| `[EFF_BASELINE]` | Specify the eff baseline | "[specify value]" |
+| `[EFF_YEAR1]` | Specify the eff year1 | "[specify value]" |
+| `[EFF_YEAR3]` | Specify the eff year3 | "[specify value]" |
+| `[EFF_YEAR5]` | Specify the eff year5 | "[specify value]" |
+| `[EFF_MEASUREMENT]` | Specify the eff measurement | "[specify value]" |
+| `[EFF_IMPACT]` | Specify the eff impact | "[specify value]" |
+| `[CSAT_BASELINE]` | Specify the csat baseline | "[specify value]" |
+| `[CSAT_YEAR1]` | Specify the csat year1 | "[specify value]" |
+| `[CSAT_YEAR3]` | Specify the csat year3 | "[specify value]" |
+| `[CSAT_YEAR5]` | Specify the csat year5 | "[specify value]" |
+| `[CSAT_MEASUREMENT]` | Specify the csat measurement | "[specify value]" |
+| `[CSAT_IMPACT]` | Specify the csat impact | "[specify value]" |
+| `[ENG_BASELINE]` | Specify the eng baseline | "[specify value]" |
+| `[ENG_YEAR1]` | Specify the eng year1 | "[specify value]" |
+| `[ENG_YEAR3]` | Specify the eng year3 | "[specify value]" |
+| `[ENG_YEAR5]` | Specify the eng year5 | "[specify value]" |
+| `[ENG_MEASUREMENT]` | Specify the eng measurement | "[specify value]" |
+| `[ENG_IMPACT]` | Specify the eng impact | "[specify value]" |
+| `[SHARE_BASELINE]` | Specify the share baseline | "[specify value]" |
+| `[SHARE_YEAR1]` | Specify the share year1 | "[specify value]" |
+| `[SHARE_YEAR3]` | Specify the share year3 | "[specify value]" |
+| `[SHARE_YEAR5]` | Specify the share year5 | "[specify value]" |
+| `[SHARE_MEASUREMENT]` | Specify the share measurement | "[specify value]" |
+| `[SHARE_IMPACT]` | Specify the share impact | "[specify value]" |
+| `[INNOV_BASELINE]` | Specify the innov baseline | "[specify value]" |
+| `[INNOV_YEAR1]` | Specify the innov year1 | "[specify value]" |
+| `[INNOV_YEAR3]` | Specify the innov year3 | "[specify value]" |
+| `[INNOV_YEAR5]` | Specify the innov year5 | "[specify value]" |
+| `[INNOV_MEASUREMENT]` | Specify the innov measurement | "[specify value]" |
+| `[ADOPTION_BASELINE]` | Specify the adoption baseline | "[specify value]" |
+| `[ADOPTION_YEAR1]` | Specify the adoption year1 | "[specify value]" |
+| `[ADOPTION_YEAR3]` | Specify the adoption year3 | "[specify value]" |
+| `[ADOPTION_YEAR5]` | Specify the adoption year5 | "[specify value]" |
+| `[ADOPTION_MEASUREMENT]` | Specify the adoption measurement | "[specify value]" |
+| `[ADOPTION_IMPACT]` | Specify the adoption impact | "[specify value]" |
+| `[ROI_METHODOLOGY]` | Specify the roi methodology | "[specify value]" |
+| `[NPV_ANALYSIS]` | Specify the npv analysis | "[specify value]" |
+| `[PAYBACK_CALCULATION]` | Specify the payback calculation | "[specify value]" |
+| `[TEI_FRAMEWORK]` | Specify the tei framework | "[specify value]" |
+| `[COMPETITIVE_METRICS]` | Specify the competitive metrics | "[specify value]" |
+| `[MARKET_METRICS]` | Specify the market metrics | "[specify value]" |
+| `[BRAND_METRICS]` | Specify the brand metrics | "[specify value]" |
+| `[INNOVATION_CAPABILITY]` | Specify the innovation capability | "[specify value]" |
+| `[PROCESS_METRICS]` | Specify the process metrics | "[specify value]" |
+| `[QUALITY_METRICS]` | Specify the quality metrics | "[specify value]" |
+| `[RESOURCE_METRICS]` | Specify the resource metrics | "[specify value]" |
+| `[KPI_DASHBOARDS]` | Specify the kpi dashboards | "[specify value]" |
+| `[VALUE_REVIEWS]` | Specify the value reviews | "[specify value]" |
+| `[BENEFIT_REALIZATION]` | Specify the benefit realization | "[specify value]" |
+| `[COURSE_CORRECTIONS]` | Specify the course corrections | "[specify value]" |
+
+
 
 ### 2. Customer Experience Transformation
 

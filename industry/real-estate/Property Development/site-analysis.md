@@ -1,3 +1,17 @@
+---
+title: Site Analysis Template
+category: industry/real-estate/Property Development
+tags: [data-science, design, development, industry, research, strategy, template]
+use_cases:
+  - Implementing create comprehensive site analysis reports, feasibility studies, development pot...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - property-management-system.md
+  - construction-project-planning.md
+last_updated: 2025-11-09
+---
+
 # Site Analysis Template
 
 ## Purpose

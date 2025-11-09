@@ -1,3 +1,16 @@
+---
+title: DeFi Protocol Design & Implementation Framework
+category: technology/emerging-tech/Blockchain & Web3
+tags: [design, development, framework, machine-learning, optimization, technology]
+use_cases:
+  - Implementing advanced framework for designing, developing, and launching decentralized financ...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - generative-ai-implementation.md
+last_updated: 2025-11-09
+---
+
 # DeFi Protocol Design & Implementation Framework
 
 ## Purpose
@@ -37,6 +50,271 @@ Interest Rate Curves:
 - Slope 2: [SLOPE_2]
 - Max Rate: [MAX_RATE]%
 ```
+
+## Variables
+
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `[PROTOCOL_NAME]` | Name of the protocol | "John Smith" |
+| `[SERVICE_TYPE]` | Type or category of service | "Standard" |
+| `[TVL_TARGET]` | Target or intended tvl | "[specify value]" |
+| `[ASSET_COUNT]` | Specify the asset count | "10" |
+| `[USER_TARGET]` | Target or intended user | "[specify value]" |
+| `[TOKENOMICS_MODEL]` | Specify the tokenomics model | "[specify value]" |
+| `[BUDGET]` | Budget allocation for  | "$500,000" |
+| `[CORE_FUNCTION]` | Specify the core function | "[specify value]" |
+| `[CORE_CONTRACTS]` | Specify the core contracts | "[specify value]" |
+| `[CORE_DEPS]` | Specify the core deps | "[specify value]" |
+| `[CORE_AUDIT]` | Specify the core audit | "[specify value]" |
+| `[CORE_RISK]` | Specify the core risk | "[specify value]" |
+| `[GOV_FUNCTION]` | Specify the gov function | "[specify value]" |
+| `[GOV_CONTRACTS]` | Specify the gov contracts | "[specify value]" |
+| `[GOV_DEPS]` | Specify the gov deps | "[specify value]" |
+| `[GOV_AUDIT]` | Specify the gov audit | "[specify value]" |
+| `[GOV_RISK]` | Specify the gov risk | "[specify value]" |
+| `[ORACLE_FUNCTION]` | Specify the oracle function | "[specify value]" |
+| `[ORACLE_CONTRACTS]` | Specify the oracle contracts | "[specify value]" |
+| `[ORACLE_DEPS]` | Specify the oracle deps | "[specify value]" |
+| `[ORACLE_AUDIT]` | Specify the oracle audit | "[specify value]" |
+| `[ORACLE_RISK]` | Specify the oracle risk | "[specify value]" |
+| `[TREASURY_FUNCTION]` | Specify the treasury function | "[specify value]" |
+| `[TREASURY_CONTRACTS]` | Specify the treasury contracts | "[specify value]" |
+| `[TREASURY_DEPS]` | Specify the treasury deps | "[specify value]" |
+| `[TREASURY_AUDIT]` | Specify the treasury audit | "[specify value]" |
+| `[TREASURY_RISK]` | Specify the treasury risk | "[specify value]" |
+| `[STAKE_FUNCTION]` | Specify the stake function | "[specify value]" |
+| `[STAKE_CONTRACTS]` | Specify the stake contracts | "[specify value]" |
+| `[STAKE_DEPS]` | Specify the stake deps | "[specify value]" |
+| `[STAKE_AUDIT]` | Specify the stake audit | "[specify value]" |
+| `[STAKE_RISK]` | Specify the stake risk | "[specify value]" |
+| `[ASSET_1]` | Specify the asset 1 | "[specify value]" |
+| `[CF_1]` | Specify the cf 1 | "[specify value]" |
+| `[LTV_1]` | Specify the ltv 1 | "[specify value]" |
+| `[LIQ_1]` | Specify the liq 1 | "[specify value]" |
+| `[RF_1]` | Specify the rf 1 | "[specify value]" |
+| `[MODEL_1]` | Specify the model 1 | "[specify value]" |
+| `[ASSET_2]` | Specify the asset 2 | "[specify value]" |
+| `[CF_2]` | Specify the cf 2 | "[specify value]" |
+| `[LTV_2]` | Specify the ltv 2 | "[specify value]" |
+| `[LIQ_2]` | Specify the liq 2 | "[specify value]" |
+| `[RF_2]` | Specify the rf 2 | "[specify value]" |
+| `[MODEL_2]` | Specify the model 2 | "[specify value]" |
+| `[ASSET_3]` | Specify the asset 3 | "[specify value]" |
+| `[CF_3]` | Specify the cf 3 | "[specify value]" |
+| `[LTV_3]` | Specify the ltv 3 | "[specify value]" |
+| `[LIQ_3]` | Specify the liq 3 | "[specify value]" |
+| `[RF_3]` | Specify the rf 3 | "[specify value]" |
+| `[MODEL_3]` | Specify the model 3 | "[specify value]" |
+| `[ASSET_4]` | Specify the asset 4 | "[specify value]" |
+| `[CF_4]` | Specify the cf 4 | "[specify value]" |
+| `[LTV_4]` | Specify the ltv 4 | "[specify value]" |
+| `[LIQ_4]` | Specify the liq 4 | "[specify value]" |
+| `[RF_4]` | Specify the rf 4 | "[specify value]" |
+| `[MODEL_4]` | Specify the model 4 | "[specify value]" |
+| `[ASSET_5]` | Specify the asset 5 | "[specify value]" |
+| `[CF_5]` | Specify the cf 5 | "[specify value]" |
+| `[LTV_5]` | Specify the ltv 5 | "[specify value]" |
+| `[LIQ_5]` | Specify the liq 5 | "[specify value]" |
+| `[RF_5]` | Specify the rf 5 | "[specify value]" |
+| `[MODEL_5]` | Specify the model 5 | "[specify value]" |
+| `[BASE_RATE]` | Specify the base rate | "[specify value]" |
+| `[OPTIMAL_UTIL]` | Specify the optimal util | "[specify value]" |
+| `[SLOPE_1]` | Specify the slope 1 | "[specify value]" |
+| `[SLOPE_2]` | Specify the slope 2 | "[specify value]" |
+| `[MAX_RATE]` | Specify the max rate | "[specify value]" |
+| `[CP_FEE]` | Specify the cp fee | "[specify value]" |
+| `[CP_FORMULA]` | Specify the cp formula | "[specify value]" |
+| `[CP_IL]` | Specify the cp il | "[specify value]" |
+| `[CP_EFFICIENCY]` | Specify the cp efficiency | "[specify value]" |
+| `[CP_USE]` | Specify the cp use | "[specify value]" |
+| `[STABLE_FEE]` | Specify the stable fee | "[specify value]" |
+| `[STABLE_FORMULA]` | Specify the stable formula | "[specify value]" |
+| `[STABLE_IL]` | Specify the stable il | "[specify value]" |
+| `[STABLE_EFFICIENCY]` | Specify the stable efficiency | "[specify value]" |
+| `[STABLE_USE]` | Specify the stable use | "[specify value]" |
+| `[CL_FEE]` | Specify the cl fee | "[specify value]" |
+| `[CL_FORMULA]` | Specify the cl formula | "[specify value]" |
+| `[CL_IL]` | Specify the cl il | "[specify value]" |
+| `[CL_EFFICIENCY]` | Specify the cl efficiency | "[specify value]" |
+| `[CL_USE]` | Specify the cl use | "[specify value]" |
+| `[DYN_FEE]` | Specify the dyn fee | "[specify value]" |
+| `[DYN_FORMULA]` | Specify the dyn formula | "[specify value]" |
+| `[DYN_IL]` | Specify the dyn il | "[specify value]" |
+| `[DYN_EFFICIENCY]` | Specify the dyn efficiency | "[specify value]" |
+| `[DYN_USE]` | Specify the dyn use | "[specify value]" |
+| `[WEIGHT_FEE]` | Specify the weight fee | "[specify value]" |
+| `[WEIGHT_FORMULA]` | Specify the weight formula | "[specify value]" |
+| `[WEIGHT_IL]` | Specify the weight il | "[specify value]" |
+| `[WEIGHT_EFFICIENCY]` | Specify the weight efficiency | "[specify value]" |
+| `[WEIGHT_USE]` | Specify the weight use | "[specify value]" |
+| `[STRATEGY_1]` | Strategy or approach for 1 | "[specify value]" |
+| `[APY_1]` | Specify the apy 1 | "[specify value]" |
+| `[RISK_1]` | Specify the risk 1 | "[specify value]" |
+| `[CAP_1]` | Specify the cap 1 | "[specify value]" |
+| `[GAS_1]` | Specify the gas 1 | "[specify value]" |
+| `[COMPLEX_1]` | Specify the complex 1 | "[specify value]" |
+| `[STRATEGY_2]` | Strategy or approach for 2 | "[specify value]" |
+| `[APY_2]` | Specify the apy 2 | "[specify value]" |
+| `[RISK_2]` | Specify the risk 2 | "[specify value]" |
+| `[CAP_2]` | Specify the cap 2 | "[specify value]" |
+| `[GAS_2]` | Specify the gas 2 | "[specify value]" |
+| `[COMPLEX_2]` | Specify the complex 2 | "[specify value]" |
+| `[STRATEGY_3]` | Strategy or approach for 3 | "[specify value]" |
+| `[APY_3]` | Specify the apy 3 | "[specify value]" |
+| `[RISK_3]` | Specify the risk 3 | "[specify value]" |
+| `[CAP_3]` | Specify the cap 3 | "[specify value]" |
+| `[GAS_3]` | Specify the gas 3 | "[specify value]" |
+| `[COMPLEX_3]` | Specify the complex 3 | "[specify value]" |
+| `[STRATEGY_4]` | Strategy or approach for 4 | "[specify value]" |
+| `[APY_4]` | Specify the apy 4 | "[specify value]" |
+| `[RISK_4]` | Specify the risk 4 | "[specify value]" |
+| `[CAP_4]` | Specify the cap 4 | "[specify value]" |
+| `[GAS_4]` | Specify the gas 4 | "[specify value]" |
+| `[COMPLEX_4]` | Specify the complex 4 | "[specify value]" |
+| `[STRATEGY_5]` | Strategy or approach for 5 | "[specify value]" |
+| `[APY_5]` | Specify the apy 5 | "[specify value]" |
+| `[RISK_5]` | Specify the risk 5 | "[specify value]" |
+| `[CAP_5]` | Specify the cap 5 | "[specify value]" |
+| `[GAS_5]` | Specify the gas 5 | "[specify value]" |
+| `[COMPLEX_5]` | Specify the complex 5 | "[specify value]" |
+| `[HARVEST_TRIGGER]` | Specify the harvest trigger | "[specify value]" |
+| `[COMPOUND_FREQ]` | Specify the compound freq | "[specify value]" |
+| `[PERF_FEE]` | Specify the perf fee | "[specify value]" |
+| `[MGMT_FEE]` | Specify the mgmt fee | "[specify value]" |
+| `[WITHDRAW_FEE]` | Specify the withdraw fee | "[specify value]" |
+| `[TREASURY_SHARE]` | Specify the treasury share | "[specify value]" |
+| `[STRATEGIST_SHARE]` | Specify the strategist share | "[specify value]" |
+| `[STAKER_SHARE]` | Specify the staker share | "[specify value]" |
+| `[SC_MEASURE]` | Specify the sc measure | "[specify value]" |
+| `[SC_EXPOSURE]` | Specify the sc exposure | "[specify value]" |
+| `[SC_LIMIT]` | Specify the sc limit | "[specify value]" |
+| `[SC_MITIGATE]` | Specify the sc mitigate | "[specify value]" |
+| `[SC_INSURANCE]` | Specify the sc insurance | "[specify value]" |
+| `[ORACLE_MEASURE]` | Specify the oracle measure | "[specify value]" |
+| `[ORACLE_EXPOSURE]` | Specify the oracle exposure | "[specify value]" |
+| `[ORACLE_LIMIT]` | Specify the oracle limit | "[specify value]" |
+| `[ORACLE_MITIGATE]` | Specify the oracle mitigate | "[specify value]" |
+| `[ORACLE_INSURANCE]` | Specify the oracle insurance | "[specify value]" |
+| `[LIQ_MEASURE]` | Specify the liq measure | "[specify value]" |
+| `[LIQ_EXPOSURE]` | Specify the liq exposure | "[specify value]" |
+| `[LIQ_LIMIT]` | Specify the liq limit | "[specify value]" |
+| `[LIQ_MITIGATE]` | Specify the liq mitigate | "[specify value]" |
+| `[LIQ_INSURANCE]` | Specify the liq insurance | "[specify value]" |
+| `[MARKET_MEASURE]` | Specify the market measure | "[specify value]" |
+| `[MARKET_EXPOSURE]` | Specify the market exposure | "[specify value]" |
+| `[MARKET_LIMIT]` | Specify the market limit | "[specify value]" |
+| `[MARKET_MITIGATE]` | Specify the market mitigate | "[specify value]" |
+| `[MARKET_INSURANCE]` | Specify the market insurance | "[specify value]" |
+| `[GOV_MEASURE]` | Specify the gov measure | "[specify value]" |
+| `[GOV_EXPOSURE]` | Specify the gov exposure | "[specify value]" |
+| `[GOV_LIMIT]` | Specify the gov limit | "[specify value]" |
+| `[GOV_MITIGATE]` | Specify the gov mitigate | "[specify value]" |
+| `[GOV_INSURANCE]` | Specify the gov insurance | "[specify value]" |
+| `[HEALTH_FORMULA]` | Specify the health formula | "[specify value]" |
+| `[LIQ_THRESHOLD]` | Specify the liq threshold | "[specify value]" |
+| `[LIQ_PENALTY]` | Specify the liq penalty | "[specify value]" |
+| `[CLOSE_FACTOR]` | Specify the close factor | "[specify value]" |
+| `[LIQ_INCENTIVE]` | Specify the liq incentive | "[specify value]" |
+| `[MEV_PROTECTION]` | Specify the mev protection | "[specify value]" |
+| `[PRIORITY_SYSTEM]` | Specify the priority system | "High" |
+| `[FLASH_INTEGRATION]` | Specify the flash integration | "[specify value]" |
+| `[PARTIAL_LIQ]` | Specify the partial liq | "[specify value]" |
+| `[DUTCH_AUCTION]` | Specify the dutch auction | "[specify value]" |
+| `[INSURANCE_FUND]` | Specify the insurance fund | "[specify value]" |
+| `[BACKSTOP]` | Specify the backstop | "[specify value]" |
+| `[SLASHING]` | Specify the slashing | "[specify value]" |
+| `[RECOVERY]` | Specify the recovery | "[specify value]" |
+| `[LM_ALLOC]` | Specify the lm alloc | "[specify value]" |
+| `[LM_DIST]` | Specify the lm dist | "[specify value]" |
+| `[LM_VEST]` | Specify the lm vest | "[specify value]" |
+| `[LM_METRIC]` | Specify the lm metric | "[specify value]" |
+| `[LM_ADJUST]` | Specify the lm adjust | "[specify value]" |
+| `[TRADE_ALLOC]` | Specify the trade alloc | "[specify value]" |
+| `[TRADE_DIST]` | Specify the trade dist | "[specify value]" |
+| `[TRADE_VEST]` | Specify the trade vest | "[specify value]" |
+| `[TRADE_METRIC]` | Specify the trade metric | "[specify value]" |
+| `[TRADE_ADJUST]` | Specify the trade adjust | "[specify value]" |
+| `[STAKE_ALLOC]` | Specify the stake alloc | "[specify value]" |
+| `[STAKE_DIST]` | Specify the stake dist | "[specify value]" |
+| `[STAKE_VEST]` | Specify the stake vest | "[specify value]" |
+| `[STAKE_METRIC]` | Specify the stake metric | "[specify value]" |
+| `[STAKE_ADJUST]` | Specify the stake adjust | "[specify value]" |
+| `[REF_ALLOC]` | Specify the ref alloc | "[specify value]" |
+| `[REF_DIST]` | Specify the ref dist | "[specify value]" |
+| `[REF_VEST]` | Specify the ref vest | "[specify value]" |
+| `[REF_METRIC]` | Specify the ref metric | "[specify value]" |
+| `[REF_ADJUST]` | Specify the ref adjust | "[specify value]" |
+| `[DEV_ALLOC]` | Specify the dev alloc | "[specify value]" |
+| `[DEV_DIST]` | Specify the dev dist | "[specify value]" |
+| `[DEV_VEST]` | Specify the dev vest | "[specify value]" |
+| `[DEV_METRIC]` | Specify the dev metric | "[specify value]" |
+| `[DEV_ADJUST]` | Specify the dev adjust | "[specify value]" |
+| `[PROTOCOL_1]` | Specify the protocol 1 | "[specify value]" |
+| `[INT_TYPE_1]` | Type or category of int  1 | "Standard" |
+| `[TVL_1]` | Specify the tvl 1 | "[specify value]" |
+| `[REV_1]` | Specify the rev 1 | "[specify value]" |
+| `[TECH_1]` | Specify the tech 1 | "[specify value]" |
+| `[PROTOCOL_2]` | Specify the protocol 2 | "[specify value]" |
+| `[INT_TYPE_2]` | Type or category of int  2 | "Standard" |
+| `[TVL_2]` | Specify the tvl 2 | "[specify value]" |
+| `[REV_2]` | Specify the rev 2 | "[specify value]" |
+| `[TECH_2]` | Specify the tech 2 | "[specify value]" |
+| `[PROTOCOL_3]` | Specify the protocol 3 | "[specify value]" |
+| `[INT_TYPE_3]` | Type or category of int  3 | "Standard" |
+| `[TVL_3]` | Specify the tvl 3 | "[specify value]" |
+| `[REV_3]` | Specify the rev 3 | "[specify value]" |
+| `[TECH_3]` | Specify the tech 3 | "[specify value]" |
+| `[PROTOCOL_4]` | Specify the protocol 4 | "[specify value]" |
+| `[INT_TYPE_4]` | Type or category of int  4 | "Standard" |
+| `[TVL_4]` | Specify the tvl 4 | "[specify value]" |
+| `[REV_4]` | Specify the rev 4 | "[specify value]" |
+| `[TECH_4]` | Specify the tech 4 | "[specify value]" |
+| `[PROTOCOL_5]` | Specify the protocol 5 | "[specify value]" |
+| `[INT_TYPE_5]` | Type or category of int  5 | "Standard" |
+| `[TVL_5]` | Specify the tvl 5 | "[specify value]" |
+| `[REV_5]` | Specify the rev 5 | "[specify value]" |
+| `[TECH_5]` | Specify the tech 5 | "[specify value]" |
+| `[PRELAUNCH_AUDITOR]` | Specify the prelaunch auditor | "[specify value]" |
+| `[PRELAUNCH_COST]` | Specify the prelaunch cost | "[specify value]" |
+| `[CONTINUOUS_AUDITOR]` | Specify the continuous auditor | "[specify value]" |
+| `[ECONOMIC_AUDITOR]` | Specify the economic auditor | "[specify value]" |
+| `[FORMAL_VERIF]` | Specify the formal verif | "[specify value]" |
+| `[CRITICAL_BOUNTY]` | Specify the critical bounty | "[specify value]" |
+| `[HIGH_BOUNTY]` | Specify the high bounty | "[specify value]" |
+| `[MEDIUM_BOUNTY]` | Specify the medium bounty | "[specify value]" |
+| `[LOW_BOUNTY]` | Specify the low bounty | "[specify value]" |
+| `[BOUNTY_PLATFORM]` | Specify the bounty platform | "[specify value]" |
+| `[TIMELOCK_PERIOD]` | Specify the timelock period | "[specify value]" |
+| `[MULTISIG_SETUP]` | Specify the multisig setup | "[specify value]" |
+| `[EMERGENCY_PAUSE]` | Specify the emergency pause | "[specify value]" |
+| `[UPGRADE_PATTERN]` | Specify the upgrade pattern | "[specify value]" |
+| `[ACCESS_CONTROL]` | Specify the access control | "[specify value]" |
+| `[TVL_CURRENT]` | Specify the tvl current | "[specify value]" |
+| `[TVL_AVG]` | Specify the tvl avg | "[specify value]" |
+| `[TVL_TRACK]` | Specify the tvl track | "[specify value]" |
+| `[TVL_OPT]` | Specify the tvl opt | "[specify value]" |
+| `[DAU_CURRENT]` | Specify the dau current | "[specify value]" |
+| `[DAU_TARGET]` | Target or intended dau | "[specify value]" |
+| `[DAU_AVG]` | Specify the dau avg | "[specify value]" |
+| `[DAU_TRACK]` | Specify the dau track | "[specify value]" |
+| `[DAU_OPT]` | Specify the dau opt | "[specify value]" |
+| `[REV_CURRENT]` | Specify the rev current | "[specify value]" |
+| `[REV_TARGET]` | Target or intended rev | "[specify value]" |
+| `[REV_AVG]` | Specify the rev avg | "[specify value]" |
+| `[REV_TRACK]` | Specify the rev track | "[specify value]" |
+| `[REV_OPT]` | Specify the rev opt | "[specify value]" |
+| `[GAS_CURRENT]` | Specify the gas current | "[specify value]" |
+| `[GAS_TARGET]` | Target or intended gas | "[specify value]" |
+| `[GAS_AVG]` | Specify the gas avg | "[specify value]" |
+| `[GAS_TRACK]` | Specify the gas track | "[specify value]" |
+| `[GAS_OPT]` | Specify the gas opt | "[specify value]" |
+| `[CAP_CURRENT]` | Specify the cap current | "[specify value]" |
+| `[CAP_TARGET]` | Target or intended cap | "[specify value]" |
+| `[CAP_AVG]` | Specify the cap avg | "[specify value]" |
+| `[CAP_TRACK]` | Specify the cap track | "[specify value]" |
+| `[CAP_OPT]` | Specify the cap opt | "[specify value]" |
+
+
 
 ### 3. Automated Market Maker (AMM) Design
 

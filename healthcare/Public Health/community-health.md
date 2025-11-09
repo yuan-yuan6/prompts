@@ -1,3 +1,18 @@
+---
+title: Community Health Programs Template
+category: healthcare/Public Health
+tags: [data-science, design, healthcare, marketing, research, template]
+use_cases:
+  - Implementing create comprehensive community health initiatives, prevention programs, health e...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - telemedicine-platform-design.md
+  - patient-care-pathway.md
+  - clinical-trials-management.md
+last_updated: 2025-11-09
+---
+
 # Community Health Programs Template
 
 ## Purpose

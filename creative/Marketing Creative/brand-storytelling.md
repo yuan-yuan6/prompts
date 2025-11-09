@@ -1,3 +1,17 @@
+---
+title: Brand Storytelling Template
+category: creative/Marketing Creative
+tags: [communication, creative, design, development, marketing, template]
+use_cases:
+  - Implementing create compelling brand narratives, voice, and personality that connect emotiona...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - creative-writing-framework.md
+  - video-production-pipeline.md
+last_updated: 2025-11-09
+---
+
 # Brand Storytelling Template
 
 ## Purpose

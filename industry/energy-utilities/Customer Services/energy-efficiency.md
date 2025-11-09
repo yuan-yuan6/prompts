@@ -1,3 +1,17 @@
+---
+title: Energy Efficiency Programs & Demand Side Management
+category: industry/energy-utilities/Customer Services
+tags: [design, development, industry, management, optimization]
+use_cases:
+  - Implementing comprehensive framework for designing, implementing, and evaluating energy effic...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - plant-operations-management.md
+  - smart-grid-implementation.md
+last_updated: 2025-11-09
+---
+
 # Energy Efficiency Programs & Demand Side Management
 
 ## Purpose
@@ -128,6 +142,261 @@ Regulatory Compliance:
 - Equity Metrics: [EQUITY_STATUS]
 - Reporting: [REPORT_STATUS]
 ```
+
+## Variables
+
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `[UTILITY_NAME]` | Name of the utility | "John Smith" |
+| `[ENERGY_SAVINGS]` | Specify the energy savings | "[specify value]" |
+| `[DEMAND_REDUCTION]` | Specify the demand reduction | "[specify value]" |
+| `[PROGRAM_BUDGET]` | Budget allocation for program | "$500,000" |
+| `[TERRITORY]` | Specify the territory | "[specify value]" |
+| `[RES_SEGMENT]` | Specify the res segment | "[specify value]" |
+| `[RES_SAVINGS]` | Specify the res savings | "[specify value]" |
+| `[RES_PEAK]` | Specify the res peak | "[specify value]" |
+| `[RES_BUDGET]` | Budget allocation for res | "$500,000" |
+| `[RES_CE]` | Specify the res ce | "[specify value]" |
+| `[COM_SEGMENT]` | Specify the com segment | "[specify value]" |
+| `[COM_SAVINGS]` | Specify the com savings | "[specify value]" |
+| `[COM_PEAK]` | Specify the com peak | "[specify value]" |
+| `[COM_BUDGET]` | Budget allocation for com | "$500,000" |
+| `[COM_CE]` | Specify the com ce | "[specify value]" |
+| `[IND_SEGMENT]` | Specify the ind segment | "[specify value]" |
+| `[IND_SAVINGS]` | Specify the ind savings | "[specify value]" |
+| `[IND_PEAK]` | Specify the ind peak | "[specify value]" |
+| `[IND_BUDGET]` | Budget allocation for ind | "$500,000" |
+| `[IND_CE]` | Specify the ind ce | "[specify value]" |
+| `[BEH_SEGMENT]` | Specify the beh segment | "[specify value]" |
+| `[BEH_SAVINGS]` | Specify the beh savings | "[specify value]" |
+| `[BEH_PEAK]` | Specify the beh peak | "[specify value]" |
+| `[BEH_BUDGET]` | Budget allocation for beh | "$500,000" |
+| `[BEH_CE]` | Specify the beh ce | "[specify value]" |
+| `[NC_SEGMENT]` | Specify the nc segment | "[specify value]" |
+| `[NC_SAVINGS]` | Specify the nc savings | "[specify value]" |
+| `[NC_PEAK]` | Specify the nc peak | "[specify value]" |
+| `[NC_BUDGET]` | Budget allocation for nc | "$500,000" |
+| `[NC_CE]` | Specify the nc ce | "[specify value]" |
+| `[HVAC_INCENTIVE]` | Specify the hvac incentive | "[specify value]" |
+| `[HVAC_TARGET]` | Target or intended hvac | "[specify value]" |
+| `[HVAC_SAVE]` | Specify the hvac save | "[specify value]" |
+| `[HVAC_TOTAL]` | Specify the hvac total | "[specify value]" |
+| `[HVAC_BARRIER]` | Specify the hvac barrier | "[specify value]" |
+| `[APP_INCENTIVE]` | Specify the app incentive | "[specify value]" |
+| `[APP_TARGET]` | Target or intended app | "[specify value]" |
+| `[APP_SAVE]` | Specify the app save | "[specify value]" |
+| `[APP_TOTAL]` | Specify the app total | "[specify value]" |
+| `[APP_BARRIER]` | Specify the app barrier | "[specify value]" |
+| `[WEATHER_INCENTIVE]` | Specify the weather incentive | "[specify value]" |
+| `[WEATHER_TARGET]` | Target or intended weather | "[specify value]" |
+| `[WEATHER_SAVE]` | Specify the weather save | "[specify value]" |
+| `[WEATHER_TOTAL]` | Specify the weather total | "[specify value]" |
+| `[WEATHER_BARRIER]` | Specify the weather barrier | "[specify value]" |
+| `[TSTAT_INCENTIVE]` | Specify the tstat incentive | "[specify value]" |
+| `[TSTAT_TARGET]` | Target or intended tstat | "[specify value]" |
+| `[TSTAT_SAVE]` | Specify the tstat save | "[specify value]" |
+| `[TSTAT_TOTAL]` | Specify the tstat total | "[specify value]" |
+| `[TSTAT_BARRIER]` | Specify the tstat barrier | "[specify value]" |
+| `[LED_INCENTIVE]` | Specify the led incentive | "[specify value]" |
+| `[LED_TARGET]` | Target or intended led | "[specify value]" |
+| `[LED_SAVE]` | Specify the led save | "[specify value]" |
+| `[LED_TOTAL]` | Specify the led total | "[specify value]" |
+| `[LED_BARRIER]` | Specify the led barrier | "[specify value]" |
+| `[PRESC_MEASURES]` | Specify the presc measures | "[specify value]" |
+| `[PRESC_STRUCTURE]` | Specify the presc structure | "[specify value]" |
+| `[PRESC_TA]` | Specify the presc ta | "[specify value]" |
+| `[PRESC_FINANCE]` | Specify the presc finance | "[specify value]" |
+| `[CUSTOM_MEASURES]` | Specify the custom measures | "[specify value]" |
+| `[CUSTOM_STRUCTURE]` | Specify the custom structure | "[specify value]" |
+| `[CUSTOM_TA]` | Specify the custom ta | "[specify value]" |
+| `[CUSTOM_FINANCE]` | Specify the custom finance | "[specify value]" |
+| `[RETRO_MEASURES]` | Specify the retro measures | "[specify value]" |
+| `[RETRO_STRUCTURE]` | Specify the retro structure | "[specify value]" |
+| `[RETRO_TA]` | Specify the retro ta | "[specify value]" |
+| `[RETRO_FINANCE]` | Specify the retro finance | "[specify value]" |
+| `[SEM_MEASURES]` | Specify the sem measures | "[specify value]" |
+| `[SEM_STRUCTURE]` | Specify the sem structure | "[specify value]" |
+| `[SEM_TA]` | Specify the sem ta | "[specify value]" |
+| `[SEM_FINANCE]` | Specify the sem finance | "[specify value]" |
+| `[DI_MEASURES]` | Specify the di measures | "[specify value]" |
+| `[DI_STRUCTURE]` | Specify the di structure | "[specify value]" |
+| `[DI_TA]` | Specify the di ta | "[specify value]" |
+| `[DI_FINANCE]` | Specify the di finance | "[specify value]" |
+| `[HER_METHOD]` | Specify the her method | "[specify value]" |
+| `[HER_AUDIENCE]` | Specify the her audience | "[specify value]" |
+| `[HER_SAVINGS]` | Specify the her savings | "[specify value]" |
+| `[HER_PERSIST]` | Specify the her persist | "[specify value]" |
+| `[HER_COST]` | Specify the her cost | "[specify value]" |
+| `[RTF_METHOD]` | Specify the rtf method | "[specify value]" |
+| `[RTF_AUDIENCE]` | Specify the rtf audience | "[specify value]" |
+| `[RTF_SAVINGS]` | Specify the rtf savings | "[specify value]" |
+| `[RTF_PERSIST]` | Specify the rtf persist | "[specify value]" |
+| `[RTF_COST]` | Specify the rtf cost | "[specify value]" |
+| `[BENCH_METHOD]` | Specify the bench method | "[specify value]" |
+| `[BENCH_AUDIENCE]` | Specify the bench audience | "[specify value]" |
+| `[BENCH_SAVINGS]` | Specify the bench savings | "[specify value]" |
+| `[BENCH_PERSIST]` | Specify the bench persist | "[specify value]" |
+| `[BENCH_COST]` | Specify the bench cost | "[specify value]" |
+| `[GAME_METHOD]` | Specify the game method | "[specify value]" |
+| `[GAME_AUDIENCE]` | Specify the game audience | "[specify value]" |
+| `[GAME_SAVINGS]` | Specify the game savings | "[specify value]" |
+| `[GAME_PERSIST]` | Specify the game persist | "[specify value]" |
+| `[GAME_COST]` | Specify the game cost | "[specify value]" |
+| `[CHAL_METHOD]` | Specify the chal method | "[specify value]" |
+| `[CHAL_AUDIENCE]` | Specify the chal audience | "[specify value]" |
+| `[CHAL_SAVINGS]` | Specify the chal savings | "[specify value]" |
+| `[CHAL_PERSIST]` | Specify the chal persist | "[specify value]" |
+| `[CHAL_COST]` | Specify the chal cost | "[specify value]" |
+| `[IMPACT_METHOD]` | Specify the impact method | "[specify value]" |
+| `[IMPACT_SAMPLE]` | Specify the impact sample | "[specify value]" |
+| `[IMPACT_CONF]` | Specify the impact conf | "[specify value]" |
+| `[IMPACT_PREC]` | Specify the impact prec | "[specify value]" |
+| `[IMPACT_COST]` | Specify the impact cost | "[specify value]" |
+| `[IMPACT_TIME]` | Specify the impact time | "[specify value]" |
+| `[PROCESS_METHOD]` | Specify the process method | "[specify value]" |
+| `[PROCESS_SAMPLE]` | Specify the process sample | "[specify value]" |
+| `[PROCESS_CONF]` | Specify the process conf | "[specify value]" |
+| `[PROCESS_PREC]` | Specify the process prec | "[specify value]" |
+| `[PROCESS_COST]` | Specify the process cost | "[specify value]" |
+| `[PROCESS_TIME]` | Specify the process time | "[specify value]" |
+| `[MARKET_METHOD]` | Specify the market method | "[specify value]" |
+| `[MARKET_SAMPLE]` | Specify the market sample | "[specify value]" |
+| `[MARKET_CONF]` | Specify the market conf | "[specify value]" |
+| `[MARKET_PREC]` | Specify the market prec | "[specify value]" |
+| `[MARKET_COST]` | Specify the market cost | "[specify value]" |
+| `[MARKET_TIME]` | Specify the market time | "[specify value]" |
+| `[NTG_METHOD]` | Specify the ntg method | "[specify value]" |
+| `[NTG_SAMPLE]` | Specify the ntg sample | "[specify value]" |
+| `[NTG_CONF]` | Specify the ntg conf | "[specify value]" |
+| `[NTG_PREC]` | Specify the ntg prec | "[specify value]" |
+| `[NTG_COST]` | Specify the ntg cost | "[specify value]" |
+| `[NTG_TIME]` | Specify the ntg time | "[specify value]" |
+| `[PERSIST_METHOD]` | Specify the persist method | "[specify value]" |
+| `[PERSIST_SAMPLE]` | Specify the persist sample | "[specify value]" |
+| `[PERSIST_CONF]` | Specify the persist conf | "[specify value]" |
+| `[PERSIST_PREC]` | Specify the persist prec | "[specify value]" |
+| `[PERSIST_COST]` | Specify the persist cost | "[specify value]" |
+| `[PERSIST_TIME]` | Specify the persist time | "[specify value]" |
+| `[MAIL_REACH]` | Specify the mail reach | "[specify value]" |
+| `[MAIL_COST]` | Specify the mail cost | "[specify value]" |
+| `[MAIL_CONV]` | Specify the mail conv | "[specify value]" |
+| `[MAIL_ROI]` | Specify the mail roi | "[specify value]" |
+| `[MAIL_MESSAGE]` | Specify the mail message | "[specify value]" |
+| `[DIGITAL_REACH]` | Specify the digital reach | "[specify value]" |
+| `[DIGITAL_COST]` | Specify the digital cost | "[specify value]" |
+| `[DIGITAL_CONV]` | Specify the digital conv | "[specify value]" |
+| `[DIGITAL_ROI]` | Specify the digital roi | "[specify value]" |
+| `[DIGITAL_MESSAGE]` | Specify the digital message | "[specify value]" |
+| `[EVENT_REACH]` | Specify the event reach | "[specify value]" |
+| `[EVENT_COST]` | Specify the event cost | "[specify value]" |
+| `[EVENT_CONV]` | Specify the event conv | "[specify value]" |
+| `[EVENT_ROI]` | Specify the event roi | "[specify value]" |
+| `[EVENT_MESSAGE]` | Specify the event message | "[specify value]" |
+| `[TRADE_REACH]` | Specify the trade reach | "[specify value]" |
+| `[TRADE_COST]` | Specify the trade cost | "[specify value]" |
+| `[TRADE_CONV]` | Specify the trade conv | "[specify value]" |
+| `[TRADE_ROI]` | Specify the trade roi | "[specify value]" |
+| `[TRADE_MESSAGE]` | Specify the trade message | "[specify value]" |
+| `[ACCT_REACH]` | Specify the acct reach | "[specify value]" |
+| `[ACCT_COST]` | Specify the acct cost | "[specify value]" |
+| `[ACCT_CONV]` | Specify the acct conv | "[specify value]" |
+| `[ACCT_ROI]` | Specify the acct roi | "[specify value]" |
+| `[ACCT_MESSAGE]` | Specify the acct message | "[specify value]" |
+| `[TRC_PERSP]` | Specify the trc persp | "[specify value]" |
+| `[TRC_RATIO]` | Specify the trc ratio | "[specify value]" |
+| `[TRC_NET]` | Specify the trc net | "[specify value]" |
+| `[TRC_LEVEL]` | Specify the trc level | "[specify value]" |
+| `[TRC_RESULT]` | Specify the trc result | "[specify value]" |
+| `[UCT_PERSP]` | Specify the uct persp | "[specify value]" |
+| `[UCT_RATIO]` | Specify the uct ratio | "[specify value]" |
+| `[UCT_NET]` | Specify the uct net | "[specify value]" |
+| `[UCT_LEVEL]` | Specify the uct level | "[specify value]" |
+| `[UCT_RESULT]` | Specify the uct result | "[specify value]" |
+| `[PCT_PERSP]` | Specify the pct persp | "[specify value]" |
+| `[PCT_RATIO]` | Specify the pct ratio | "[specify value]" |
+| `[PCT_NET]` | Specify the pct net | "[specify value]" |
+| `[PCT_LEVEL]` | Specify the pct level | "[specify value]" |
+| `[PCT_RESULT]` | Specify the pct result | "[specify value]" |
+| `[RIM_PERSP]` | Specify the rim persp | "[specify value]" |
+| `[RIM_RATIO]` | Specify the rim ratio | "[specify value]" |
+| `[RIM_NET]` | Specify the rim net | "[specify value]" |
+| `[RIM_LEVEL]` | Specify the rim level | "[specify value]" |
+| `[RIM_RESULT]` | Specify the rim result | "[specify value]" |
+| `[SCT_PERSP]` | Specify the sct persp | "[specify value]" |
+| `[SCT_RATIO]` | Specify the sct ratio | "[specify value]" |
+| `[SCT_NET]` | Specify the sct net | "[specify value]" |
+| `[SCT_LEVEL]` | Specify the sct level | "[specify value]" |
+| `[SCT_RESULT]` | Specify the sct result | "[specify value]" |
+| `[ADMIN_MODEL]` | Specify the admin model | "[specify value]" |
+| `[ADMIN_PROVIDER]` | Specify the admin provider | "[specify value]" |
+| `[ADMIN_METRICS]` | Specify the admin metrics | "[specify value]" |
+| `[ADMIN_VALUE]` | Specify the admin value | "[specify value]" |
+| `[TECH_MODEL]` | Specify the tech model | "[specify value]" |
+| `[TECH_PROVIDER]` | Specify the tech provider | "[specify value]" |
+| `[TECH_METRICS]` | Specify the tech metrics | "[specify value]" |
+| `[TECH_VALUE]` | Specify the tech value | "[specify value]" |
+| `[CS_MODEL]` | Specify the cs model | "[specify value]" |
+| `[CS_PROVIDER]` | Specify the cs provider | "[specify value]" |
+| `[CS_METRICS]` | Specify the cs metrics | "[specify value]" |
+| `[CS_VALUE]` | Specify the cs value | "[specify value]" |
+| `[QA_MODEL]` | Specify the qa model | "[specify value]" |
+| `[QA_PROVIDER]` | Specify the qa provider | "[specify value]" |
+| `[QA_METRICS]` | Specify the qa metrics | "[specify value]" |
+| `[QA_VALUE]` | Specify the qa value | "[specify value]" |
+| `[DATA_MODEL]` | Specify the data model | "[specify value]" |
+| `[DATA_PROVIDER]` | Specify the data provider | "[specify value]" |
+| `[DATA_METRICS]` | Specify the data metrics | "[specify value]" |
+| `[DATA_VALUE]` | Specify the data value | "[specify value]" |
+| `[TECH_1]` | Specify the tech 1 | "[specify value]" |
+| `[STATUS_1]` | Specify the status 1 | "In Progress" |
+| `[POTENTIAL_1]` | Specify the potential 1 | "[specify value]" |
+| `[READY_1]` | Specify the ready 1 | "[specify value]" |
+| `[INVEST_1]` | Specify the invest 1 | "[specify value]" |
+| `[RISK_1]` | Specify the risk 1 | "[specify value]" |
+| `[TECH_2]` | Specify the tech 2 | "[specify value]" |
+| `[STATUS_2]` | Specify the status 2 | "In Progress" |
+| `[POTENTIAL_2]` | Specify the potential 2 | "[specify value]" |
+| `[READY_2]` | Specify the ready 2 | "[specify value]" |
+| `[INVEST_2]` | Specify the invest 2 | "[specify value]" |
+| `[RISK_2]` | Specify the risk 2 | "[specify value]" |
+| `[TECH_3]` | Specify the tech 3 | "[specify value]" |
+| `[STATUS_3]` | Specify the status 3 | "In Progress" |
+| `[POTENTIAL_3]` | Specify the potential 3 | "[specify value]" |
+| `[READY_3]` | Specify the ready 3 | "[specify value]" |
+| `[INVEST_3]` | Specify the invest 3 | "[specify value]" |
+| `[RISK_3]` | Specify the risk 3 | "[specify value]" |
+| `[TECH_4]` | Specify the tech 4 | "[specify value]" |
+| `[STATUS_4]` | Specify the status 4 | "In Progress" |
+| `[POTENTIAL_4]` | Specify the potential 4 | "[specify value]" |
+| `[READY_4]` | Specify the ready 4 | "[specify value]" |
+| `[INVEST_4]` | Specify the invest 4 | "[specify value]" |
+| `[RISK_4]` | Specify the risk 4 | "[specify value]" |
+| `[TECH_5]` | Specify the tech 5 | "[specify value]" |
+| `[STATUS_5]` | Specify the status 5 | "In Progress" |
+| `[POTENTIAL_5]` | Specify the potential 5 | "[specify value]" |
+| `[READY_5]` | Specify the ready 5 | "[specify value]" |
+| `[INVEST_5]` | Specify the invest 5 | "[specify value]" |
+| `[RISK_5]` | Specify the risk 5 | "[specify value]" |
+| `[YTD_ENERGY]` | Specify the ytd energy | "[specify value]" |
+| `[YTD_ENERGY_PCT]` | Specify the ytd energy pct | "25%" |
+| `[YTD_DEMAND]` | Specify the ytd demand | "[specify value]" |
+| `[YTD_DEMAND_PCT]` | Specify the ytd demand pct | "25%" |
+| `[YTD_SPEND]` | Specify the ytd spend | "[specify value]" |
+| `[YTD_SPEND_PCT]` | Specify the ytd spend pct | "25%" |
+| `[YTD_PARTICIPANTS]` | Specify the ytd participants | "[specify value]" |
+| `[YTD_PART_PCT]` | Specify the ytd part pct | "25%" |
+| `[YTD_CE]` | Specify the ytd ce | "[specify value]" |
+| `[CSAT_SCORE]` | Specify the csat score | "[specify value]" |
+| `[FREE_RIDE]` | Specify the free ride | "[specify value]" |
+| `[SPILLOVER]` | Specify the spillover | "[specify value]" |
+| `[REALIZATION]` | Specify the realization | "[specify value]" |
+| `[NTG_RATIO]` | Specify the ntg ratio | "[specify value]" |
+| `[REG_STATUS]` | Specify the reg status | "In Progress" |
+| `[SPEND_STATUS]` | Specify the spend status | "In Progress" |
+| `[EQUITY_STATUS]` | Specify the equity status | "In Progress" |
+| `[REPORT_STATUS]` | Specify the report status | "In Progress" |
+
+
 
 ## Usage Examples
 

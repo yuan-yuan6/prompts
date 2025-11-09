@@ -1,3 +1,18 @@
+---
+title: Performance Review Template Generator
+category: business/Human Resources
+tags: [business, development, management, optimization, strategy, template]
+use_cases:
+  - Implementing create comprehensive performance review systems covering evaluations, feedback d...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - okr-implementation-framework.md
+  - digital-transformation-roadmap.md
+  - lean-six-sigma-implementation.md
+last_updated: 2025-11-09
+---
+
 # Performance Review Template Generator
 
 ## Purpose
