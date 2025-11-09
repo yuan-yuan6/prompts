@@ -57,7 +57,7 @@ Short-term Planning (0-3 months):
 - Expediting Process: [SHORT_EXPEDITE]
 - Real-time Adjustments: [SHORT_REALTIME]
 
-MPS Parameters:
+### MPS Parameters
 - Planning Horizon: [MPS_HORIZON] weeks
 - Frozen Period: [MPS_FROZEN] weeks
 - Time Buckets: [MPS_BUCKETS]
@@ -368,14 +368,14 @@ Human Resources:
 - Cross-training: [CROSS_TRAIN]%
 - Overtime Planning: [OVERTIME_PLAN]
 
-Material Resources:
+### Material Resources
 - Raw Material Planning: [RAW_MATERIAL]
 - Component Availability: [COMPONENT_AVAIL]
 - Buffer Management: [BUFFER_MGMT]
 - Supplier Coordination: [SUPPLIER_COORD]
 - Material Flow: [MATERIAL_FLOW]
 
-Tool & Equipment:
+### Tool & Equipment
 - Tool Inventory: [TOOL_INVENTORY]
 - Setup Optimization: [SETUP_OPT]
 - Changeover Matrix: [CHANGEOVER_MATRIX]
@@ -424,14 +424,14 @@ Target State:
 - Internal Setup: [INTERNAL_SETUP]%
 - Parallel Activities: [PARALLEL_ACT]
 
-Optimization Steps:
+### Optimization Steps
 1. Document Current: [DOCUMENT_STEP]
 2. Separate Int/Ext: [SEPARATE_STEP]
 3. Convert Internal: [CONVERT_STEP]
 4. Streamline: [STREAMLINE_STEP]
 5. Standardize: [STANDARD_STEP]
 
-Setup Matrix:
+### Setup Matrix
 - Product Families: [PRODUCT_FAM]
 - Sequence Rules: [SEQUENCE_RULES]
 - Optimal Batch Size: [OPTIMAL_BATCH]
@@ -476,14 +476,14 @@ Waste Elimination:
 - Defects: [DEFECT_WASTE]%
 - Underutilized Talent: [TALENT_WASTE]%
 
-Improvement Initiatives:
+### Improvement Initiatives
 - Kaizen Events: [KAIZEN_COUNT]/year
 - 5S Implementation: [FIVE_S_SCORE]/10
 - Value Stream Map: [VSM_COMPLETE]%
 - Standard Work: [STD_WORK]%
 - Visual Management: [VISUAL_MGMT]/10
 
-Performance Tracking:
+### Performance Tracking
 - Lead Time: [LEAD_TIME] days
 - Cycle Time: [CYCLE_TIME] min
 - Value-Added Time: [VA_TIME]%
@@ -496,6 +496,33 @@ Performance Tracking:
 
 ## Usage Examples
 
+
+
+## Best Practices
+
+1. **Start with clear objectives** - Define what success looks like before beginning
+2. **Use data to inform decisions** - Base choices on evidence and measurable outcomes
+3. **Iterate and improve continuously** - Treat implementation as an ongoing process
+4. **Engage stakeholders early** - Include key participants in planning and execution
+5. **Document thoroughly** - Maintain clear records for reference and knowledge transfer
+6. **Communicate regularly** - Keep all parties informed of progress and changes
+7. **Address challenges proactively** - Identify potential issues before they become problems
+8. **Celebrate milestones** - Recognize achievements to maintain motivation
+9. **Learn from experience** - Reflect on what works and adjust accordingly
+10. **Stay flexible** - Be ready to adapt based on feedback and changing circumstances
+
+## Tips for Success
+
+- Break complex tasks into manageable steps with clear milestones
+- Set realistic timelines that account for dependencies and constraints
+- Allocate sufficient resources including time, budget, and personnel
+- Use templates and frameworks to ensure consistency and quality
+- Seek feedback from users and stakeholders throughout the process
+- Build in checkpoints to assess progress and make adjustments
+- Maintain quality standards while remaining practical and efficient
+- Document lessons learned for future reference and improvement
+- Foster collaboration across teams and departments
+- Stay current with industry best practices and emerging trends
 ### Example 1: Automotive Assembly
 ```
 Production: Mixed-model assembly

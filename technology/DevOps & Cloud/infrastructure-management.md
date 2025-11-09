@@ -102,7 +102,7 @@ Scaling Management:
 - Use target tracking, step scaling policies
 - Balance with ALB, NLB load balancing with CloudWatch capacity planning
 
-Monitoring Strategy:
+### Monitoring Strategy
 - Monitor with CloudWatch, DataDog infrastructure monitoring
 - Track with APM, custom metrics application monitoring
 - Check with ELB health checks, custom health checks infrastructure health checks

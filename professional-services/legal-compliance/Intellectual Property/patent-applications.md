@@ -33,14 +33,14 @@ Technical Overview:
 - Innovation description: [INNOVATION_DESCRIPTION]
 - Technical advantages: [TECHNICAL_ADVANTAGES]
 
-Inventorship:
+### Inventorship
 - Lead inventor: [LEAD_INVENTOR]
 - Co-inventors: [CO_INVENTORS]
 - Contribution details: [CONTRIBUTION_DETAILS]
 - Assignment status: [ASSIGNMENT_STATUS]
 - Employer agreements: [EMPLOYER_AGREEMENTS]
 
-PRIOR ART ANALYSIS:
+### PRIOR ART ANALYSIS
 
 ```
 PATENTABILITY ASSESSMENT:
@@ -54,7 +54,7 @@ Reference        | Publication Date| Relevance       | Key Differences| Citation
 [REFERENCE_4]    | [DATE_4]        | [RELEVANCE_4]   | [DIFF_4]       | [TYPE_4]
 [REFERENCE_5]    | [DATE_5]        | [RELEVANCE_5]   | [DIFF_5]       | [TYPE_5]
 
-Novelty Analysis:
+### Novelty Analysis
 Element          | Prior Art Status| Novel Features  | Support        | Strength
 -----------------|-----------------|-----------------|----------------|----------
 [ELEMENT_1]      | [STATUS_1]      | [NOVEL_1]       | [SUPPORT_1]    | [STRENGTH_1]
@@ -74,9 +74,9 @@ SPECIFICATION DRAFTING:
 
 Technical Description:
 ```
-DETAILED SPECIFICATION:
+### DETAILED SPECIFICATION
 
-Background Section:
+### Background Section
 Paragraph        | Content Focus   | Prior Art Discussion| Problem Statement| Objectives
 -----------------|-----------------|---------------------|------------------|------------
 Background ¶1    | [BG_CONTENT_1]  | [BG_PRIOR_1]        | [BG_PROBLEM_1]   | [BG_OBJ_1]
@@ -90,7 +90,7 @@ Primary Aspect   | [PRIM_DESC]      | [PRIM_ADV]      | [PRIM_EMBOD]   | [PRIM_C
 Secondary Aspect | [SEC_DESC]       | [SEC_ADV]       | [SEC_EMBOD]    | [SEC_CLAIMS]
 Additional Aspects| [ADD_DESC]      | [ADD_ADV]       | [ADD_EMBOD]    | [ADD_CLAIMS]
 
-Detailed Description:
+### Detailed Description
 Section          | Technical Detail | Figures Referenced| Examples      | Alternatives
 -----------------|------------------|-------------------|---------------|-------------
 Overview         | [OVER_DETAIL]    | [OVER_FIGS]       | [OVER_EX]     | [OVER_ALT]
@@ -104,9 +104,9 @@ CLAIMS STRATEGY:
 
 Claim Architecture:
 ```
-CLAIMS DRAFTING:
+### CLAIMS DRAFTING
 
-Independent Claims:
+### Independent Claims
 Claim #          | Claim Type      | Key Elements    | Scope          | Dependencies
 -----------------|-----------------|-----------------|----------------|-------------
 Claim 1          | [TYPE_1]        | [ELEMENTS_1]    | [SCOPE_1]      | None
@@ -121,7 +121,7 @@ Claim 3          | Claim 1         | [LIMIT_3]       | [PURPOSE_3]    | [SUPPORT
 Claim 4          | Claim 2         | [LIMIT_4]       | [PURPOSE_4]    | [SUPPORT_4]
 Claim 11         | Claim 10        | [LIMIT_11]      | [PURPOSE_11]   | [SUPPORT_11]
 
-Claim Scope Analysis:
+### Claim Scope Analysis
 Scope Level      | Claims          | Coverage        | Infringement Risk| Validity Risk
 -----------------|-----------------|-----------------|------------------|-------------
 Broad            | [BROAD_CLAIMS]  | [BROAD_COV]     | [BROAD_INF]      | [BROAD_VAL]
@@ -134,9 +134,9 @@ DRAWING REQUIREMENTS:
 
 Figure Planning:
 ```
-PATENT DRAWINGS:
+### PATENT DRAWINGS
 
-Figure List:
+### Figure List
 Figure #         | Description     | View Type       | Key Elements   | Claim Support
 -----------------|-----------------|-----------------|----------------|-------------
 Fig. 1           | [FIG1_DESC]     | [FIG1_VIEW]     | [FIG1_ELEM]    | [FIG1_CLAIMS]
@@ -145,7 +145,7 @@ Fig. 3           | [FIG3_DESC]     | [FIG3_VIEW]     | [FIG3_ELEM]    | [FIG3_CL
 Fig. 4           | [FIG4_DESC]     | [FIG4_VIEW]     | [FIG4_ELEM]    | [FIG4_CLAIMS]
 Fig. 5           | [FIG5_DESC]     | [FIG5_VIEW]     | [FIG5_ELEM]    | [FIG5_CLAIMS]
 
-Reference Numerals:
+### Reference Numerals
 Numeral          | Element Name    | First Introduced| Consistency    | Description
 -----------------|-----------------|-----------------|----------------|------------
 100              | [ELEM_100]      | [INTRO_100]     | [CONS_100]     | [DESC_100]
@@ -158,9 +158,9 @@ FILING STRATEGY:
 
 Application Planning:
 ```
-FILING ROADMAP:
+### FILING ROADMAP
 
-Priority Strategy:
+### Priority Strategy
 Filing Type      | Jurisdiction    | Filing Date     | Priority Claim | Deadline
 -----------------|-----------------|-----------------|----------------|----------
 Provisional      | [PROV_JUR]      | [PROV_DATE]     | N/A            | [PROV_DEAD]
@@ -169,7 +169,7 @@ National Phase   | [NAT_JUR]       | [NAT_DATE]      | [NAT_PRIOR]    | [NAT_DEA
 Continuation     | [CONT_JUR]      | [CONT_DATE]     | [CONT_PRIOR]   | [CONT_DEAD]
 Divisional       | [DIV_JUR]       | [DIV_DATE]      | [DIV_PRIOR]    | [DIV_DEAD]
 
-Geographic Coverage:
+### Geographic Coverage
 Country/Region   | Filing Route    | Timeline        | Cost Estimate  | Business Value
 -----------------|-----------------|-----------------|----------------|---------------
 United States    | [US_ROUTE]      | [US_TIME]       | [US_COST]      | [US_VALUE]
@@ -178,7 +178,7 @@ China            | [CN_ROUTE]      | [CN_TIME]       | [CN_COST]      | [CN_VALU
 Japan            | [JP_ROUTE]      | [JP_TIME]       | [JP_COST]      | [JP_VALUE]
 Other            | [OTH_ROUTE]     | [OTH_TIME]      | [OTH_COST]     | [OTH_VALUE]
 
-Prosecution Strategy:
+### Prosecution Strategy
 Stage            | Approach        | Response Time   | Fallback Options| Success Rate
 -----------------|-----------------|-----------------|-----------------|-------------
 Office Action 1  | [OA1_APPROACH]  | [OA1_TIME]      | [OA1_FALLBACK]  | [OA1_RATE]
@@ -191,9 +191,9 @@ COMPETITIVE LANDSCAPE:
 
 Patent Landscape:
 ```
-COMPETITIVE ANALYSIS:
+### COMPETITIVE ANALYSIS
 
-Competitor Patents:
+### Competitor Patents
 Competitor       | Patent Count    | Technology Focus| Litigation History| Licensing
 -----------------|-----------------|-----------------|-------------------|----------
 [COMPETITOR_1]   | [COUNT_1]       | [TECH_1]        | [LITIG_1]         | [LICENSE_1]
@@ -201,14 +201,14 @@ Competitor       | Patent Count    | Technology Focus| Litigation History| Licen
 [COMPETITOR_3]   | [COUNT_3]       | [TECH_3]        | [LITIG_3]         | [LICENSE_3]
 [COMPETITOR_4]   | [COUNT_4]       | [TECH_4]        | [LITIG_4]         | [LICENSE_4]
 
-Freedom to Operate:
+### Freedom to Operate
 Patent           | Owner           | Expiration      | Design Around  | License Option
 -----------------|-----------------|-----------------|----------------|---------------
 [PATENT_1]       | [OWNER_1]       | [EXPIRE_1]      | [DESIGN_1]     | [LICENSE_1]
 [PATENT_2]       | [OWNER_2]       | [EXPIRE_2]      | [DESIGN_2]     | [LICENSE_2]
 [PATENT_3]       | [OWNER_3]       | [EXPIRE_3]      | [DESIGN_3]     | [LICENSE_3]
 
-Market Protection:
+### Market Protection
 Product/Service  | Patent Coverage | Trade Secrets   | Trademarks     | Overall Protection
 -----------------|-----------------|-----------------|----------------|-------------------
 [PRODUCT_1]      | [PAT_COV_1]     | [TRADE_1]       | [MARK_1]       | [OVERALL_1]
@@ -220,9 +220,9 @@ COMMERCIALIZATION:
 
 Business Strategy:
 ```
-VALUE CREATION:
+### VALUE CREATION
 
-Monetization Options:
+### Monetization Options
 Strategy         | Revenue Model   | Target Partners | Terms          | Timeline
 -----------------|-----------------|-----------------|----------------|----------
 Direct Sales     | [DS_MODEL]      | [DS_PARTNERS]   | [DS_TERMS]     | [DS_TIME]
@@ -231,7 +231,7 @@ Cross-Licensing  | [CL_MODEL]      | [CL_PARTNERS]   | [CL_TERMS]     | [CL_TIME
 Patent Pool      | [PP_MODEL]      | [PP_PARTNERS]   | [PP_TERMS]     | [PP_TIME]
 Defensive Use    | [DEF_MODEL]     | [DEF_PARTNERS]  | [DEF_TERMS]    | [DEF_TIME]
 
-Enforcement Strategy:
+### Enforcement Strategy
 Action           | Trigger         | Target Profile  | Cost/Benefit   | Risk Assessment
 -----------------|-----------------|-----------------|----------------|----------------
 Monitoring       | [MON_TRIGGER]   | [MON_TARGET]    | [MON_COST]     | [MON_RISK]
@@ -252,7 +252,7 @@ Filing Strategy: [FINAL_FILING_STRATEGY]
 
 ---
 
-Application Summary:
+### Application Summary
 - Innovation scope: [INNOVATION_SUMMARY]
 - Claims strategy: [CLAIMS_SUMMARY]
 - Prior art position: [PRIOR_ART_SUMMARY]
@@ -275,6 +275,33 @@ OUTPUT: Deliver comprehensive patent application with:
 
 ## Usage Examples
 
+
+
+## Best Practices
+
+1. **Start with clear objectives** - Define what success looks like before beginning
+2. **Use data to inform decisions** - Base choices on evidence and measurable outcomes
+3. **Iterate and improve continuously** - Treat implementation as an ongoing process
+4. **Engage stakeholders early** - Include key participants in planning and execution
+5. **Document thoroughly** - Maintain clear records for reference and knowledge transfer
+6. **Communicate regularly** - Keep all parties informed of progress and changes
+7. **Address challenges proactively** - Identify potential issues before they become problems
+8. **Celebrate milestones** - Recognize achievements to maintain motivation
+9. **Learn from experience** - Reflect on what works and adjust accordingly
+10. **Stay flexible** - Be ready to adapt based on feedback and changing circumstances
+
+## Tips for Success
+
+- Break complex tasks into manageable steps with clear milestones
+- Set realistic timelines that account for dependencies and constraints
+- Allocate sufficient resources including time, budget, and personnel
+- Use templates and frameworks to ensure consistency and quality
+- Seek feedback from users and stakeholders throughout the process
+- Build in checkpoints to assess progress and make adjustments
+- Maintain quality standards while remaining practical and efficient
+- Document lessons learned for future reference and improvement
+- Foster collaboration across teams and departments
+- Stay current with industry best practices and emerging trends
 ### Example 1: Software Patent
 ```
 PATENT_TYPE: "Utility patent application"

@@ -33,14 +33,14 @@ Deal Context:
 - Strategic rationale: [STRATEGIC_RATIONALE]
 - Timeline: [TRANSACTION_TIMELINE]
 
-Transaction Structure:
+### Transaction Structure
 - Deal structure: [DEAL_STRUCTURE]
 - Consideration type: [CONSIDERATION_TYPE]
 - Financing sources: [FINANCING_SOURCES]
 - Regulatory requirements: [REGULATORY_REQUIREMENTS]
 - Tax implications: [TAX_IMPLICATIONS]
 
-DUE DILIGENCE FRAMEWORK:
+### DUE DILIGENCE FRAMEWORK
 
 ```
 COMPREHENSIVE DUE DILIGENCE:
@@ -57,7 +57,7 @@ HR/Culture       | [HR_SCOPE]      | [HR_PRIORITY]   | [HR_TIME]      | [HR_RES]
 Environmental    | [ENV_SCOPE]     | [ENV_PRIORITY]  | [ENV_TIME]     | [ENV_RES]
 Tax              | [TAX_SCOPE]     | [TAX_PRIORITY]  | [TAX_TIME]     | [TAX_RES]
 
-Financial Due Diligence:
+### Financial Due Diligence
 Area             | Key Focus       | Red Flags       | Adjustments    | Impact
 -----------------|-----------------|-----------------|----------------|--------
 Quality of Earnings| [QOE_FOCUS]   | [QOE_FLAGS]     | [QOE_ADJUST]   | [QOE_IMPACT]
@@ -66,7 +66,7 @@ Debt & Liabilities| [DEBT_FOCUS]   | [DEBT_FLAGS]    | [DEBT_ADJUST]  | [DEBT_IM
 EBITDA Adjustments| [EBITDA_FOCUS] | [EBITDA_FLAGS]  | [EBITDA_ADJUST]| [EBITDA_IMPACT]
 Projections      | [PROJ_FOCUS]    | [PROJ_FLAGS]    | [PROJ_ADJUST]  | [PROJ_IMPACT]
 
-Legal Due Diligence:
+### Legal Due Diligence
 Category         | Review Items    | Issues Found    | Risk Level     | Remediation
 -----------------|-----------------|-----------------|----------------|------------
 Corporate Structure| [CORP_ITEMS]  | [CORP_ISSUES]   | [CORP_RISK]    | [CORP_REMEDY]
@@ -81,9 +81,9 @@ VALUATION ANALYSIS:
 
 Valuation Methodologies:
 ```
-VALUATION FRAMEWORK:
+### VALUATION FRAMEWORK
 
-Valuation Methods:
+### Valuation Methods
 Method           | Base Value      | Adjustments     | Final Value    | Weight
 -----------------|-----------------|-----------------|----------------|-------
 DCF Analysis     | [DCF_BASE]      | [DCF_ADJUST]    | [DCF_FINAL]    | [DCF_WEIGHT]%
@@ -92,7 +92,7 @@ Precedent Transactions| [PREC_BASE]| [PREC_ADJUST]   | [PREC_FINAL]   | [PREC_WE
 Asset-Based      | [ASSET_BASE]    | [ASSET_ADJUST]  | [ASSET_FINAL]  | [ASSET_WEIGHT]%
 LBO Analysis     | [LBO_BASE]      | [LBO_ADJUST]    | [LBO_FINAL]    | [LBO_WEIGHT]%
 
-Synergy Analysis:
+### Synergy Analysis
 Synergy Type     | Year 1          | Year 2          | Year 3         | Total NPV
 -----------------|-----------------|-----------------|----------------|----------
 Revenue Synergies| [REV_Y1]        | [REV_Y2]        | [REV_Y3]       | [REV_NPV]
@@ -101,7 +101,7 @@ Tax Benefits     | [TAX_Y1]        | [TAX_Y2]        | [TAX_Y3]       | [TAX_NPV
 CapEx Savings    | [CAPEX_Y1]      | [CAPEX_Y2]      | [CAPEX_Y3]     | [CAPEX_NPV]
 Total Synergies  | [TOTAL_Y1]      | [TOTAL_Y2]      | [TOTAL_Y3]     | [TOTAL_NPV]
 
-Purchase Price Allocation:
+### Purchase Price Allocation
 Asset Category   | Fair Value      | Adjustment      | Final Allocation| Useful Life
 -----------------|-----------------|-----------------|-----------------|------------
 Tangible Assets  | [TANG_FV]       | [TANG_ADJ]      | [TANG_FINAL]    | [TANG_LIFE]
@@ -115,9 +115,9 @@ DEAL STRUCTURING:
 
 Transaction Structure:
 ```
-DEAL ARCHITECTURE:
+### DEAL ARCHITECTURE
 
-Structure Options:
+### Structure Options
 Structure Type   | Tax Impact      | Risk Profile    | Flexibility    | Recommendation
 -----------------|-----------------|-----------------|----------------|---------------
 Stock Purchase   | [STOCK_TAX]     | [STOCK_RISK]    | [STOCK_FLEX]   | [STOCK_REC]
@@ -125,7 +125,7 @@ Asset Purchase   | [ASSET_TAX]     | [ASSET_RISK]    | [ASSET_FLEX]   | [ASSET_R
 Merger           | [MERGER_TAX]    | [MERGER_RISK]   | [MERGER_FLEX]  | [MERGER_REC]
 Tender Offer     | [TENDER_TAX]    | [TENDER_RISK]   | [TENDER_FLEX]  | [TENDER_REC]
 
-Consideration Mix:
+### Consideration Mix
 Component        | Amount          | Percentage      | Terms          | Conditions
 -----------------|-----------------|-----------------|----------------|------------
 Cash             | [CASH_AMT]      | [CASH_PCT]%     | [CASH_TERMS]   | [CASH_COND]
@@ -134,7 +134,7 @@ Earnout          | [EARN_AMT]      | [EARN_PCT]%     | [EARN_TERMS]   | [EARN_CO
 Escrow           | [ESCROW_AMT]    | [ESCROW_PCT]%   | [ESCROW_TERMS] | [ESCROW_COND]
 Seller Note      | [NOTE_AMT]      | [NOTE_PCT]%     | [NOTE_TERMS]   | [NOTE_COND]
 
-Key Terms:
+### Key Terms
 Term             | Buyer Position  | Seller Position | Negotiated     | Final Terms
 -----------------|-----------------|-----------------|----------------|------------
 Purchase Price   | [BUYER_PRICE]   | [SELLER_PRICE]  | [NEG_PRICE]    | [FINAL_PRICE]
@@ -148,9 +148,9 @@ REGULATORY & APPROVALS:
 
 Regulatory Requirements:
 ```
-REGULATORY CLEARANCES:
+### REGULATORY CLEARANCES
 
-Antitrust Review:
+### Antitrust Review
 Jurisdiction     | Filing Required | Timeline        | Issues         | Strategy
 -----------------|-----------------|-----------------|----------------|----------
 US (HSR)         | [US_FILING]     | [US_TIME]       | [US_ISSUES]    | [US_STRATEGY]
@@ -158,7 +158,7 @@ EU (EC)          | [EU_FILING]     | [EU_TIME]       | [EU_ISSUES]    | [EU_STRA
 China (SAMR)     | [CN_FILING]     | [CN_TIME]       | [CN_ISSUES]    | [CN_STRATEGY]
 Other            | [OTH_FILING]    | [OTH_TIME]      | [OTH_ISSUES]   | [OTH_STRATEGY]
 
-Other Approvals:
+### Other Approvals
 Approval Type    | Authority       | Requirements    | Timeline       | Status
 -----------------|-----------------|-----------------|----------------|--------
 Shareholder      | [SHARE_AUTH]    | [SHARE_REQ]     | [SHARE_TIME]   | [SHARE_STATUS]
@@ -172,9 +172,9 @@ INTEGRATION PLANNING:
 
 Post-Merger Integration:
 ```
-INTEGRATION ROADMAP:
+### INTEGRATION ROADMAP
 
-Integration Workstreams:
+### Integration Workstreams
 Workstream       | Day 1 Priorities| 100-Day Plan    | Year 1 Goals   | Owner
 -----------------|-----------------|-----------------|----------------|-------
 Organization     | [ORG_D1]        | [ORG_100]       | [ORG_Y1]       | [ORG_OWNER]
@@ -184,7 +184,7 @@ Finance          | [FIN_D1]        | [FIN_100]       | [FIN_Y1]       | [FIN_OWN
 Sales/Marketing  | [SALES_D1]      | [SALES_100]     | [SALES_Y1]     | [SALES_OWNER]
 HR/Culture       | [HR_D1]         | [HR_100]        | [HR_Y1]        | [HR_OWNER]
 
-Synergy Capture:
+### Synergy Capture
 Synergy          | Quick Wins      | Medium Term     | Long Term      | Tracking
 -----------------|-----------------|-----------------|----------------|----------
 Revenue Growth   | [REV_QUICK]     | [REV_MED]       | [REV_LONG]     | [REV_TRACK]
@@ -192,7 +192,7 @@ Cost Reduction   | [COST_QUICK]    | [COST_MED]      | [COST_LONG]    | [COST_TR
 Operational      | [OP_QUICK]      | [OP_MED]        | [OP_LONG]      | [OP_TRACK]
 Technology       | [TECH_QUICK]    | [TECH_MED]      | [TECH_LONG]    | [TECH_TRACK]
 
-Communication Plan:
+### Communication Plan
 Stakeholder      | Day 1 Message   | Ongoing Comms   | Channels       | Frequency
 -----------------|-----------------|-----------------|----------------|----------
 Employees        | [EMP_D1]        | [EMP_ONGOING]   | [EMP_CHANNEL]  | [EMP_FREQ]
@@ -206,9 +206,9 @@ RISK MANAGEMENT:
 
 Deal Risks:
 ```
-RISK MITIGATION:
+### RISK MITIGATION
 
-Risk Assessment:
+### Risk Assessment
 Risk Category    | Probability     | Impact          | Mitigation     | Owner
 -----------------|-----------------|-----------------|----------------|-------
 Valuation Risk   | [VAL_PROB]      | [VAL_IMPACT]    | [VAL_MITIG]    | [VAL_OWNER]
@@ -218,7 +218,7 @@ Market Risk      | [MKT_PROB]      | [MKT_IMPACT]    | [MKT_MITIG]    | [MKT_OWN
 Financing Risk   | [FIN_PROB]      | [FIN_IMPACT]    | [FIN_MITIG]    | [FIN_OWNER]
 Cultural Risk    | [CULT_PROB]     | [CULT_IMPACT]   | [CULT_MITIG]   | [CULT_OWNER]
 
-Contingency Planning:
+### Contingency Planning
 Scenario         | Trigger         | Response Plan   | Decision Rights| Timeline
 -----------------|-----------------|-----------------|----------------|----------
 Deal Failure     | [FAIL_TRIG]     | [FAIL_PLAN]     | [FAIL_RIGHTS]  | [FAIL_TIME]
@@ -231,9 +231,9 @@ TRANSACTION DOCUMENTS:
 
 Key Agreements:
 ```
-DOCUMENTATION FRAMEWORK:
+### DOCUMENTATION FRAMEWORK
 
-Document Matrix:
+### Document Matrix
 Document         | Lead Drafter    | Review Parties  | Timeline       | Status
 -----------------|-----------------|-----------------|----------------|--------
 Purchase Agreement| [PA_DRAFTER]   | [PA_REVIEW]     | [PA_TIME]      | [PA_STATUS]
@@ -242,7 +242,7 @@ Employment Agreements| [EA_DRAFTER]| [EA_REVIEW]     | [EA_TIME]      | [EA_STAT
 Escrow Agreement | [ESC_DRAFTER]   | [ESC_REVIEW]    | [ESC_TIME]     | [ESC_STATUS]
 Transition Services| [TSA_DRAFTER] | [TSA_REVIEW]    | [TSA_TIME]     | [TSA_STATUS]
 
-Critical Provisions:
+### Critical Provisions
 Provision        | Buyer Draft     | Seller Counter  | Final Language | Impact
 -----------------|-----------------|-----------------|----------------|--------
 Purchase Price   | [PP_BUYER]      | [PP_SELLER]     | [PP_FINAL]     | [PP_IMPACT]
@@ -264,7 +264,7 @@ Timeline: [FINAL_TIMELINE]
 
 ---
 
-Transaction Summary:
+### Transaction Summary
 - Strategic rationale: [STRATEGIC_SUMMARY]
 - Valuation range: [VALUATION_SUMMARY]
 - Key risks: [RISK_SUMMARY]
@@ -287,6 +287,33 @@ OUTPUT: Deliver comprehensive M&A support with:
 
 ## Usage Examples
 
+
+
+## Best Practices
+
+1. **Start with clear objectives** - Define what success looks like before beginning
+2. **Use data to inform decisions** - Base choices on evidence and measurable outcomes
+3. **Iterate and improve continuously** - Treat implementation as an ongoing process
+4. **Engage stakeholders early** - Include key participants in planning and execution
+5. **Document thoroughly** - Maintain clear records for reference and knowledge transfer
+6. **Communicate regularly** - Keep all parties informed of progress and changes
+7. **Address challenges proactively** - Identify potential issues before they become problems
+8. **Celebrate milestones** - Recognize achievements to maintain motivation
+9. **Learn from experience** - Reflect on what works and adjust accordingly
+10. **Stay flexible** - Be ready to adapt based on feedback and changing circumstances
+
+## Tips for Success
+
+- Break complex tasks into manageable steps with clear milestones
+- Set realistic timelines that account for dependencies and constraints
+- Allocate sufficient resources including time, budget, and personnel
+- Use templates and frameworks to ensure consistency and quality
+- Seek feedback from users and stakeholders throughout the process
+- Build in checkpoints to assess progress and make adjustments
+- Maintain quality standards while remaining practical and efficient
+- Document lessons learned for future reference and improvement
+- Foster collaboration across teams and departments
+- Stay current with industry best practices and emerging trends
 ### Example 1: Strategic Acquisition
 ```
 TRANSACTION_TYPE: "Strategic acquisition"

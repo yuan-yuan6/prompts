@@ -31,7 +31,7 @@ Manuscript Stage: [INITIAL_SUBMISSION/REVISION/RESUBMISSION]
 Review Scope: [FULL_REVIEW/FOCUSED_ASSESSMENT/STATISTICAL_REVIEW]
 Confidentiality Level: [ANONYMOUS/SIGNED/OPEN_REVIEW]
 
-Generate a complete peer review strategy:
+### Generate a complete peer review strategy
 
 1. REVIEW PREPARATION FRAMEWORK
 

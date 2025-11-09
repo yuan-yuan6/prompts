@@ -34,8 +34,8 @@ Duration: [PROGRAM_DURATION]
 Budget: [PROGRAM_BUDGET]
 Primary Objectives: [HEALTH_OBJECTIVES]
 
-NEEDS ASSESSMENT:
-Population Characteristics:
+### NEEDS ASSESSMENT
+### Population Characteristics
 - Demographics: [DEMOGRAPHICS]
 - Current health status: [HEALTH_STATUS]
 - Health literacy level: [LITERACY_LEVEL]
@@ -43,7 +43,7 @@ Population Characteristics:
 - Language needs: [LANGUAGE_REQUIREMENTS]
 - Access barriers: [ACCESS_BARRIERS]
 
-Health Problem Analysis:
+### Health Problem Analysis
 - Prevalence: [PROBLEM_PREVALENCE]
 - Risk factors: [RISK_FACTORS]
 - Protective factors: [PROTECTIVE_FACTORS]
@@ -51,38 +51,38 @@ Health Problem Analysis:
 - Behavioral barriers: [BEHAVIORAL_BARRIERS]
 - Environmental factors: [ENVIRONMENTAL_FACTORS]
 
-PROGRAM DESIGN:
-Learning Objectives:
-Knowledge Objectives:
+### PROGRAM DESIGN
+### Learning Objectives
+### Knowledge Objectives
 - [KNOWLEDGE_OBJECTIVE_1]
 - [KNOWLEDGE_OBJECTIVE_2]
 - [KNOWLEDGE_OBJECTIVE_3]
 
-Attitude Objectives:
+### Attitude Objectives
 - [ATTITUDE_OBJECTIVE_1]
 - [ATTITUDE_OBJECTIVE_2]
 
-Behavioral Objectives:
+### Behavioral Objectives
 - [BEHAVIOR_OBJECTIVE_1]
 - [BEHAVIOR_OBJECTIVE_2]
 - [BEHAVIOR_OBJECTIVE_3]
 
-Theoretical Framework:
+### Theoretical Framework
 - Primary theory: [HEALTH_THEORY] (e.g., Health Belief Model, Social Cognitive Theory, Transtheoretical Model)
 - Key constructs: [THEORY_CONSTRUCTS]
 - Application: [THEORY_APPLICATION]
 
-Educational Strategies:
+### Educational Strategies
 - Teaching methods: [TEACHING_METHODS]
 - Interactive activities: [ACTIVITIES]
 - Visual aids: [VISUAL_MATERIALS]
 - Technology integration: [TECHNOLOGY_USE]
 - Peer education: [PEER_COMPONENTS]
 
-CONTENT DEVELOPMENT:
+### CONTENT DEVELOPMENT
 Module 1: [MODULE_1_TITLE]
 Duration: [MODULE_1_DURATION]
-Content:
+### Content
 - [MODULE_1_TOPIC_1]
 - [MODULE_1_TOPIC_2]
 - [MODULE_1_TOPIC_3]
@@ -91,7 +91,7 @@ Materials: [MODULE_1_MATERIALS]
 
 Module 2: [MODULE_2_TITLE]
 Duration: [MODULE_2_DURATION]
-Content:
+### Content
 - [MODULE_2_TOPIC_1]
 - [MODULE_2_TOPIC_2]
 - [MODULE_2_TOPIC_3]
@@ -100,21 +100,21 @@ Materials: [MODULE_2_MATERIALS]
 
 Module 3: [MODULE_3_TITLE]
 Duration: [MODULE_3_DURATION]
-Content:
+### Content
 - [MODULE_3_TOPIC_1]
 - [MODULE_3_TOPIC_2]
 Activities: [MODULE_3_ACTIVITIES]
 Materials: [MODULE_3_MATERIALS]
 
-IMPLEMENTATION PLAN:
-Delivery Format:
+### IMPLEMENTATION PLAN
+### Delivery Format
 - Primary format: [DELIVERY_FORMAT] (in-person/virtual/hybrid)
 - Session frequency: [SESSION_FREQUENCY]
 - Session length: [SESSION_LENGTH]
 - Total sessions: [TOTAL_SESSIONS]
 - Group size: [GROUP_SIZE]
 
-Staff and Resources:
+### Staff and Resources
 - Educators needed: [EDUCATOR_COUNT]
 - Qualifications: [EDUCATOR_QUALIFICATIONS]
 - Training required: [TRAINING_NEEDS]
@@ -122,43 +122,43 @@ Staff and Resources:
 - Equipment: [EQUIPMENT_NEEDED]
 - Materials budget: [MATERIALS_BUDGET]
 
-Recruitment and Engagement:
+### Recruitment and Engagement
 - Recruitment methods: [RECRUITMENT_STRATEGY]
 - Enrollment process: [ENROLLMENT_PROCESS]
 - Incentives: [PARTICIPANT_INCENTIVES]
 - Retention strategies: [RETENTION_METHODS]
 - Follow-up plan: [FOLLOW_UP_PLAN]
 
-CULTURAL ADAPTATION:
-Cultural Competence:
+### CULTURAL ADAPTATION
+### Cultural Competence
 - Language adaptation: [LANGUAGE_ADAPTATION]
 - Cultural tailoring: [CULTURAL_TAILORING]
 - Community involvement: [COMMUNITY_PARTNERS]
 - Culturally relevant examples: [CULTURAL_EXAMPLES]
 - Traditional practices integration: [TRADITIONAL_PRACTICES]
 
-EVALUATION PLAN:
-Process Evaluation:
+### EVALUATION PLAN
+### Process Evaluation
 - Attendance tracking: [ATTENDANCE_METRICS]
 - Participation levels: [PARTICIPATION_MEASURES]
 - Satisfaction surveys: [SATISFACTION_ASSESSMENT]
 - Fidelity monitoring: [FIDELITY_CHECKS]
 
-Impact Evaluation:
+### Impact Evaluation
 Pre-Post Assessment:
 - Knowledge assessment: [KNOWLEDGE_TEST]
 - Attitude measurement: [ATTITUDE_SURVEY]
 - Self-reported behavior: [BEHAVIOR_QUESTIONNAIRE]
 - Confidence/self-efficacy: [SELF_EFFICACY_SCALE]
 
-Outcome Evaluation:
+### Outcome Evaluation
 - Primary outcomes: [PRIMARY_OUTCOMES]
 - Secondary outcomes: [SECONDARY_OUTCOMES]
 - Long-term outcomes: [LONG_TERM_OUTCOMES]
 - Follow-up timeline: [FOLLOW_UP_TIMELINE]
 - Data collection methods: [DATA_COLLECTION]
 
-SUSTAINABILITY:
+### SUSTAINABILITY
 - Institutionalization plan: [INSTITUTIONALIZATION]
 - Funding sustainability: [FUNDING_STRATEGY]
 - Partnership development: [PARTNERSHIP_PLAN]

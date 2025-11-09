@@ -31,7 +31,7 @@ Project Context:
 - Current capabilities: [CURRENT_CAPABILITIES]
 - Success criteria: [SUCCESS_CRITERIA]
 
-Technical Requirements:
+### Technical Requirements
 - Model types: [MODEL_TYPES]
 - Performance targets: [PERFORMANCE_TARGETS]
 - Latency requirements: [LATENCY_REQUIREMENTS]
@@ -39,7 +39,7 @@ Technical Requirements:
 - Integration points: [INTEGRATION_POINTS]
 - Compliance requirements: [COMPLIANCE_REQUIREMENTS]
 
-AI ARCHITECTURE:
+### AI ARCHITECTURE
 
 ```
 MODEL SELECTION:
@@ -54,7 +54,7 @@ LLaMA            | [LLAMA_PARAMS]  | [LLAMA_CAP]     | [LLAMA_COST]   | [LLAMA_U
 Custom/Fine-tuned| [CUSTOM_PARAMS] | [CUSTOM_CAP]    | [CUSTOM_COST]  | [CUSTOM_USE]
 Multimodal       | [MULTI_PARAMS]  | [MULTI_CAP]     | [MULTI_COST]   | [MULTI_USE]
 
-Model Evaluation:
+### Model Evaluation
 Criteria         | Weight          | Model A Score   | Model B Score  | Model C Score
 -----------------|-----------------|-----------------|----------------|---------------
 Accuracy         | [ACC_WEIGHT]    | [ACC_A]         | [ACC_B]        | [ACC_C]
@@ -76,9 +76,9 @@ PROMPT ENGINEERING:
 
 Prompt Design Framework:
 ```
-PROMPT OPTIMIZATION:
+### PROMPT OPTIMIZATION
 
-Prompt Templates:
+### Prompt Templates
 Template Type    | Structure       | Tokens          | Performance    | Use Case
 -----------------|-----------------|-----------------|----------------|----------
 Zero-shot        | [ZERO_STRUCT]   | [ZERO_TOKENS]   | [ZERO_PERF]    | [ZERO_USE]
@@ -88,7 +88,7 @@ Tree-of-Thoughts | [TOT_STRUCT]    | [TOT_TOKENS]    | [TOT_PERF]     | [TOT_USE
 ReAct            | [REACT_STRUCT]  | [REACT_TOKENS]  | [REACT_PERF]   | [REACT_USE]
 Constitutional   | [CONST_STRUCT]  | [CONST_TOKENS]  | [CONST_PERF]   | [CONST_USE]
 
-Prompt Components:
+### Prompt Components
 Component        | Purpose         | Examples        | Best Practices | Pitfalls
 -----------------|-----------------|-----------------|----------------|----------
 System Message   | [SYS_PURPOSE]   | [SYS_EXAMPLE]   | [SYS_BEST]     | [SYS_PIT]
@@ -98,7 +98,7 @@ Examples         | [EX_PURPOSE]    | [EX_EXAMPLE]    | [EX_BEST]      | [EX_PIT]
 Constraints      | [CON_PURPOSE]   | [CON_EXAMPLE]   | [CON_BEST]     | [CON_PIT]
 Output Format    | [OUT_PURPOSE]   | [OUT_EXAMPLE]   | [OUT_BEST]     | [OUT_PIT]
 
-Testing & Iteration:
+### Testing & Iteration
 Test Type        | Sample Size     | Success Rate    | Failure Modes  | Improvements
 -----------------|-----------------|-----------------|----------------|-------------
 Accuracy Test    | [ACC_SAMPLE]    | [ACC_SUCCESS]   | [ACC_FAIL]     | [ACC_IMPROVE]
@@ -111,9 +111,9 @@ RAG IMPLEMENTATION:
 
 Retrieval-Augmented Generation:
 ```
-KNOWLEDGE MANAGEMENT:
+### KNOWLEDGE MANAGEMENT
 
-Vector Database:
+### Vector Database
 Database         | Dimensions      | Index Type      | Query Speed    | Storage
 -----------------|-----------------|-----------------|----------------|--------
 Pinecone         | [PINE_DIM]      | [PINE_INDEX]    | [PINE_SPEED]   | [PINE_STORE]
@@ -122,7 +122,7 @@ ChromaDB         | [CHROMA_DIM]    | [CHROMA_INDEX]  | [CHROMA_SPEED] | [CHROMA_
 Qdrant           | [QDRANT_DIM]    | [QDRANT_INDEX]  | [QDRANT_SPEED] | [QDRANT_STORE]
 Custom           | [CUSTOM_DIM]    | [CUSTOM_INDEX]  | [CUSTOM_SPEED] | [CUSTOM_STORE]
 
-Document Processing:
+### Document Processing
 Process Step     | Method          | Quality Metrics | Performance    | Cost
 -----------------|-----------------|-----------------|----------------|------
 Ingestion        | [ING_METHOD]    | [ING_QUALITY]   | [ING_PERF]     | [ING_COST]
@@ -131,7 +131,7 @@ Embedding        | [EMB_METHOD]    | [EMB_QUALITY]   | [EMB_PERF]     | [EMB_COS
 Indexing         | [INDEX_METHOD]  | [INDEX_QUALITY] | [INDEX_PERF]   | [INDEX_COST]
 Retrieval        | [RET_METHOD]    | [RET_QUALITY]   | [RET_PERF]     | [RET_COST]
 
-Context Management:
+### Context Management
 Strategy         | Context Window  | Relevance Score | Reranking      | Fusion Method
 -----------------|-----------------|-----------------|----------------|---------------
 Top-K            | [TOPK_WINDOW]   | [TOPK_SCORE]    | [TOPK_RERANK]  | [TOPK_FUSION]
@@ -144,9 +144,9 @@ AGENT FRAMEWORKS:
 
 AI Agent Architecture:
 ```
-AUTONOMOUS AGENTS:
+### AUTONOMOUS AGENTS
 
-Agent Types:
+### Agent Types
 Agent Type       | Capabilities    | Tools Access    | Autonomy Level | Use Cases
 -----------------|-----------------|-----------------|----------------|----------
 Task Agent       | [TASK_CAP]      | [TASK_TOOLS]    | [TASK_AUTO]    | [TASK_CASES]
@@ -155,7 +155,7 @@ Research Agent   | [RES_CAP]       | [RES_TOOLS]     | [RES_AUTO]     | [RES_CAS
 Code Agent       | [CODE_CAP]      | [CODE_TOOLS]    | [CODE_AUTO]    | [CODE_CASES]
 Multi-Agent      | [MULTI_CAP]     | [MULTI_TOOLS]   | [MULTI_AUTO]   | [MULTI_CASES]
 
-Tool Integration:
+### Tool Integration
 Tool Category    | APIs/Services   | Authentication  | Rate Limits    | Cost
 -----------------|-----------------|-----------------|----------------|------
 Search           | [SEARCH_API]    | [SEARCH_AUTH]   | [SEARCH_RATE]  | [SEARCH_COST]
@@ -164,7 +164,7 @@ Database         | [DB_API]        | [DB_AUTH]       | [DB_RATE]      | [DB_COST
 External Systems | [EXT_API]       | [EXT_AUTH]      | [EXT_RATE]     | [EXT_COST]
 Memory Systems   | [MEM_API]       | [MEM_AUTH]      | [MEM_RATE]     | [MEM_COST]
 
-Orchestration:
+### Orchestration
 Component        | Function        | Scalability     | Fault Tolerance| Monitoring
 -----------------|-----------------|-----------------|----------------|------------
 Task Queue       | [QUEUE_FUNC]    | [QUEUE_SCALE]   | [QUEUE_FAULT]  | [QUEUE_MON]
@@ -177,9 +177,9 @@ SAFETY & ETHICS:
 
 AI Safety Framework:
 ```
-RESPONSIBLE AI:
+### RESPONSIBLE AI
 
-Safety Measures:
+### Safety Measures
 Risk Type        | Detection Method| Mitigation      | Monitoring     | Response Plan
 -----------------|-----------------|-----------------|----------------|---------------
 Hallucination    | [HALL_DETECT]   | [HALL_MITIG]    | [HALL_MON]     | [HALL_RESP]
@@ -189,7 +189,7 @@ Data Leakage     | [LEAK_DETECT]   | [LEAK_MITIG]    | [LEAK_MON]     | [LEAK_RE
 Adversarial      | [ADV_DETECT]    | [ADV_MITIG]     | [ADV_MON]      | [ADV_RESP]
 Misuse           | [MIS_DETECT]    | [MIS_MITIG]     | [MIS_MON]      | [MIS_RESP]
 
-Content Filtering:
+### Content Filtering
 Filter Type      | Sensitivity     | False Positive  | False Negative | Override Process
 -----------------|-----------------|-----------------|----------------|------------------
 Profanity        | [PROF_SENS]     | [PROF_FP]       | [PROF_FN]      | [PROF_OVER]
@@ -198,7 +198,7 @@ Adult Content    | [ADULT_SENS]    | [ADULT_FP]      | [ADULT_FN]     | [ADULT_O
 PII/Sensitive    | [PII_SENS]      | [PII_FP]        | [PII_FN]       | [PII_OVER]
 Misinformation   | [MIS_SENS]      | [MIS_FP]        | [MIS_FN]       | [MIS_OVER]
 
-Alignment Techniques:
+### Alignment Techniques
 Technique        | Implementation  | Effectiveness   | Overhead       | Trade-offs
 -----------------|-----------------|-----------------|----------------|------------
 RLHF             | [RLHF_IMPL]     | [RLHF_EFF]      | [RLHF_OVER]    | [RLHF_TRADE]
@@ -211,9 +211,9 @@ DEPLOYMENT & SCALING:
 
 Infrastructure Design:
 ```
-PRODUCTION DEPLOYMENT:
+### PRODUCTION DEPLOYMENT
 
-Deployment Architecture:
+### Deployment Architecture
 Component        | Technology      | Scaling Strategy| HA/DR Plan     | Cost
 -----------------|-----------------|-----------------|----------------|------
 API Gateway      | [API_TECH]      | [API_SCALE]     | [API_HA]       | [API_COST]
@@ -222,7 +222,7 @@ Load Balancer    | [LB_TECH]       | [LB_SCALE]      | [LB_HA]        | [LB_COST
 Cache Layer      | [CACHE_TECH]    | [CACHE_SCALE]   | [CACHE_HA]     | [CACHE_COST]
 Monitoring       | [MON_TECH]      | [MON_SCALE]     | [MON_HA]       | [MON_COST]
 
-Performance Optimization:
+### Performance Optimization
 Optimization     | Current         | Target          | Method         | Impact
 -----------------|-----------------|-----------------|----------------|--------
 Latency          | [LAT_CURR]      | [LAT_TARG]      | [LAT_METHOD]   | [LAT_IMPACT]
@@ -231,7 +231,7 @@ Cost per Request | [COST_CURR]     | [COST_TARG]     | [COST_METHOD]  | [COST_IM
 Model Size       | [SIZE_CURR]     | [SIZE_TARG]     | [SIZE_METHOD]  | [SIZE_IMPACT]
 Memory Usage     | [MEM_CURR]      | [MEM_TARG]      | [MEM_METHOD]   | [MEM_IMPACT]
 
-Scaling Strategy:
+### Scaling Strategy
 Metric           | Threshold       | Scaling Action  | Cool-down      | Max Instances
 -----------------|-----------------|-----------------|----------------|---------------
 Request Rate     | [REQ_THRESH]    | [REQ_ACTION]    | [REQ_COOL]     | [REQ_MAX]
@@ -244,9 +244,9 @@ MONITORING & EVALUATION:
 
 Performance Metrics:
 ```
-AI SYSTEM MONITORING:
+### AI SYSTEM MONITORING
 
-Quality Metrics:
+### Quality Metrics
 Metric           | Target          | Current         | Trend          | Alert Threshold
 -----------------|-----------------|-----------------|----------------|----------------
 Accuracy         | [ACC_TARGET]    | [ACC_CURRENT]   | [ACC_TREND]    | [ACC_ALERT]
@@ -255,7 +255,7 @@ Perplexity       | [PERP_TARGET]   | [PERP_CURRENT]  | [PERP_TREND]   | [PERP_AL
 BLEU Score       | [BLEU_TARGET]   | [BLEU_CURRENT]  | [BLEU_TREND]   | [BLEU_ALERT]
 Human Evaluation | [HUMAN_TARGET]  | [HUMAN_CURRENT] | [HUMAN_TREND]  | [HUMAN_ALERT]
 
-Operational Metrics:
+### Operational Metrics
 Metric           | SLA             | Current         | Availability   | MTTR
 -----------------|-----------------|-----------------|----------------|------
 Uptime           | [UP_SLA]        | [UP_CURRENT]    | [UP_AVAIL]     | [UP_MTTR]
@@ -263,7 +263,7 @@ Response Time    | [RESP_SLA]      | [RESP_CURRENT]  | [RESP_AVAIL]   | [RESP_MT
 Error Rate       | [ERR_SLA]       | [ERR_CURRENT]   | [ERR_AVAIL]    | [ERR_MTTR]
 Token Usage      | [TOK_SLA]       | [TOK_CURRENT]   | [TOK_AVAIL]    | [TOK_MTTR]
 
-Business Metrics:
+### Business Metrics
 Metric           | Target          | Actual          | Impact         | ROI
 -----------------|-----------------|-----------------|----------------|-----
 User Adoption    | [ADOPT_TARGET]  | [ADOPT_ACTUAL]  | [ADOPT_IMPACT] | [ADOPT_ROI]
@@ -276,9 +276,9 @@ CONTINUOUS IMPROVEMENT:
 
 Evolution Strategy:
 ```
-MODEL LIFECYCLE:
+### MODEL LIFECYCLE
 
-Update Cycle:
+### Update Cycle
 Phase            | Frequency       | Activities      | Resources      | Validation
 -----------------|-----------------|-----------------|----------------|------------
 Data Collection  | [DATA_FREQ]     | [DATA_ACT]      | [DATA_RES]     | [DATA_VAL]
@@ -287,7 +287,7 @@ A/B Testing      | [AB_FREQ]       | [AB_ACT]        | [AB_RES]       | [AB_VAL]
 Deployment       | [DEPLOY_FREQ]   | [DEPLOY_ACT]    | [DEPLOY_RES]   | [DEPLOY_VAL]
 Evaluation       | [EVAL_FREQ]     | [EVAL_ACT]      | [EVAL_RES]     | [EVAL_VAL]
 
-Innovation Pipeline:
+### Innovation Pipeline
 Innovation       | Maturity        | Potential Impact| Investment     | Timeline
 -----------------|-----------------|-----------------|----------------|----------
 [INNOVATION_1]   | [MAT_1]         | [IMPACT_1]      | [INVEST_1]     | [TIME_1]
@@ -308,7 +308,7 @@ Implementation Timeline: [FINAL_TIMELINE]
 
 ---
 
-AI System Summary:
+### AI System Summary
 - Use case impact: [USE_CASE_SUMMARY]
 - Technical approach: [TECHNICAL_SUMMARY]
 - Safety measures: [SAFETY_SUMMARY]
@@ -331,6 +331,33 @@ OUTPUT: Deliver comprehensive generative AI system with:
 
 ## Usage Examples
 
+
+
+## Best Practices
+
+1. **Start with clear objectives** - Define what success looks like before beginning
+2. **Use data to inform decisions** - Base choices on evidence and measurable outcomes
+3. **Iterate and improve continuously** - Treat implementation as an ongoing process
+4. **Engage stakeholders early** - Include key participants in planning and execution
+5. **Document thoroughly** - Maintain clear records for reference and knowledge transfer
+6. **Communicate regularly** - Keep all parties informed of progress and changes
+7. **Address challenges proactively** - Identify potential issues before they become problems
+8. **Celebrate milestones** - Recognize achievements to maintain motivation
+9. **Learn from experience** - Reflect on what works and adjust accordingly
+10. **Stay flexible** - Be ready to adapt based on feedback and changing circumstances
+
+## Tips for Success
+
+- Break complex tasks into manageable steps with clear milestones
+- Set realistic timelines that account for dependencies and constraints
+- Allocate sufficient resources including time, budget, and personnel
+- Use templates and frameworks to ensure consistency and quality
+- Seek feedback from users and stakeholders throughout the process
+- Build in checkpoints to assess progress and make adjustments
+- Maintain quality standards while remaining practical and efficient
+- Document lessons learned for future reference and improvement
+- Foster collaboration across teams and departments
+- Stay current with industry best practices and emerging trends
 ### Example 1: Enterprise Chatbot
 ```
 AI_SYSTEM: "Customer service AI assistant"

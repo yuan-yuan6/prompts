@@ -33,8 +33,8 @@ Geographic Scope: [GEOGRAPHIC_AREA]
 Prevention Level: [PREVENTION_LEVEL] (primary/secondary/tertiary)
 Program Timeline: [PROGRAM_TIMELINE]
 
-EPIDEMIOLOGICAL ASSESSMENT:
-Current Burden:
+### EPIDEMIOLOGICAL ASSESSMENT
+### Current Burden
 - Incidence rate: [INCIDENCE_RATE]
 - Prevalence: [PREVALENCE_DATA]
 - Mortality rate: [MORTALITY_RATE]
@@ -42,8 +42,8 @@ Current Burden:
 - Economic burden: [ECONOMIC_IMPACT]
 - Quality of life impact: [QOL_IMPACT]
 
-Risk Factor Analysis:
-Modifiable Risk Factors:
+### Risk Factor Analysis
+### Modifiable Risk Factors
 - Behavioral: [BEHAVIORAL_RISKS] (e.g., smoking, diet, physical activity)
 - Environmental: [ENVIRONMENTAL_RISKS] (e.g., air quality, water safety)
 - Occupational: [OCCUPATIONAL_RISKS]
@@ -55,21 +55,21 @@ Non-Modifiable Risk Factors:
 - Sex: [SEX_FACTORS]
 - Family history: [FAMILY_HISTORY]
 
-Population at Risk:
+### Population at Risk
 - High-risk groups: [HIGH_RISK_GROUPS]
 - Geographic disparities: [GEOGRAPHIC_DISPARITIES]
 - Socioeconomic disparities: [SES_DISPARITIES]
 - Racial/ethnic disparities: [RACIAL_DISPARITIES]
 
-PREVENTION STRATEGY:
+### PREVENTION STRATEGY
 Primary Prevention (Prevent disease occurrence):
-Health Promotion:
+### Health Promotion
 - Health education: [HEALTH_EDUCATION_INITIATIVES]
 - Behavior change programs: [BEHAVIOR_PROGRAMS]
 - Community mobilization: [COMMUNITY_ENGAGEMENT]
 - Mass media campaigns: [MEDIA_CAMPAIGNS]
 
-Environmental Modifications:
+### Environmental Modifications
 - Policy interventions: [POLICY_CHANGES]
 - Built environment: [ENVIRONMENTAL_CHANGES]
 - Regulations: [REGULATORY_MEASURES]
@@ -81,35 +81,35 @@ Immunization/Chemoprophylaxis:
 - Supplementation: [SUPPLEMENTATION_PROGRAMS]
 
 Secondary Prevention (Early detection and treatment):
-Screening Programs:
+### Screening Programs
 - Screening method: [SCREENING_METHOD]
 - Target age/population: [SCREENING_POPULATION]
 - Screening frequency: [SCREENING_FREQUENCY]
 - Screening locations: [SCREENING_SITES]
 - Follow-up protocol: [SCREENING_FOLLOWUP]
 
-Early Intervention:
+### Early Intervention
 - Case finding: [CASE_FINDING_METHODS]
 - Contact tracing: [CONTACT_TRACING]
 - Referral pathways: [REFERRAL_SYSTEM]
 - Treatment initiation: [EARLY_TREATMENT]
 
 Tertiary Prevention (Manage complications and disability):
-Disease Management:
+### Disease Management
 - Care coordination: [CARE_COORDINATION]
 - Self-management support: [SELF_MANAGEMENT_PROGRAMS]
 - Chronic disease management: [CHRONIC_CARE_MODEL]
 - Rehabilitation services: [REHABILITATION_PROGRAMS]
 
-Complication Prevention:
+### Complication Prevention
 - Monitoring protocols: [MONITORING_SYSTEMS]
 - Treatment optimization: [TREATMENT_PROTOCOLS]
 - Lifestyle modification: [LIFESTYLE_PROGRAMS]
 - Support services: [SUPPORT_SERVICES]
 
-IMPLEMENTATION PLAN:
+### IMPLEMENTATION PLAN
 Phase 1: Planning and Preparation ([PHASE_1_DURATION])
-Activities:
+### Activities
 - Stakeholder engagement: [STAKEHOLDER_ENGAGEMENT]
 - Resource assessment: [RESOURCE_ASSESSMENT]
 - Partnership development: [PARTNERSHIP_DEVELOPMENT]
@@ -117,27 +117,27 @@ Activities:
 - Materials development: [MATERIALS_CREATION]
 
 Phase 2: Pilot Implementation ([PHASE_2_DURATION])
-Activities:
+### Activities
 - Pilot site selection: [PILOT_SITES]
 - Program rollout: [PILOT_IMPLEMENTATION]
 - Rapid feedback: [FEEDBACK_MECHANISMS]
 - Adjustments: [PROGRAM_MODIFICATIONS]
 
 Phase 3: Scale-Up ([PHASE_3_DURATION])
-Activities:
+### Activities
 - Expansion plan: [EXPANSION_STRATEGY]
 - Resource mobilization: [RESOURCE_MOBILIZATION]
 - Provider network expansion: [PROVIDER_RECRUITMENT]
 - Community outreach: [OUTREACH_ACTIVITIES]
 
 Phase 4: Sustainability ([PHASE_4_DURATION])
-Activities:
+### Activities
 - Integration into routine care: [INTEGRATION_PLAN]
 - Funding sustainability: [FUNDING_STRATEGY]
 - Quality improvement: [QI_PROCESSES]
 - Capacity building: [CAPACITY_BUILDING]
 
-INTERVENTION COMPONENTS:
+### INTERVENTION COMPONENTS
 Community-Based Interventions:
 - Community health workers: [CHW_PROGRAMS]
 - Peer support groups: [PEER_PROGRAMS]
@@ -145,51 +145,51 @@ Community-Based Interventions:
 - Workplace programs: [WORKPLACE_WELLNESS]
 - School-based programs: [SCHOOL_PROGRAMS]
 
-Healthcare System Interventions:
+### Healthcare System Interventions
 - Provider education: [PROVIDER_TRAINING]
 - Clinical guidelines: [GUIDELINE_IMPLEMENTATION]
 - Decision support tools: [CLINICAL_TOOLS]
 - Care protocols: [PROTOCOL_STANDARDIZATION]
 - Quality metrics: [QUALITY_MEASURES]
 
-Policy and Environmental Interventions:
+### Policy and Environmental Interventions
 - Legislative advocacy: [POLICY_ADVOCACY]
 - Regulatory changes: [REGULATIONS]
 - Tax policies: [FISCAL_POLICIES]
 - Zoning policies: [LAND_USE_POLICIES]
 - Access improvements: [ACCESS_INITIATIVES]
 
-SURVEILLANCE AND MONITORING:
-Disease Surveillance:
+### SURVEILLANCE AND MONITORING
+### Disease Surveillance
 - Data sources: [SURVEILLANCE_DATA_SOURCES]
 - Reporting systems: [REPORTING_SYSTEMS]
 - Case definitions: [CASE_DEFINITIONS]
 - Data collection frequency: [DATA_FREQUENCY]
 - Analysis methods: [ANALYSIS_METHODS]
 
-Program Monitoring:
+### Program Monitoring
 - Process indicators: [PROCESS_INDICATORS]
 - Output indicators: [OUTPUT_INDICATORS]
 - Outcome indicators: [OUTCOME_INDICATORS]
 - Impact indicators: [IMPACT_INDICATORS]
 - Data collection tools: [DATA_TOOLS]
 
-EVALUATION FRAMEWORK:
-Process Evaluation:
+### EVALUATION FRAMEWORK
+### Process Evaluation
 - Implementation fidelity: [FIDELITY_MEASURES]
 - Reach and coverage: [REACH_METRICS]
 - Acceptability: [ACCEPTABILITY_ASSESSMENT]
 - Adoption rates: [ADOPTION_RATES]
 - Costs: [COST_TRACKING]
 
-Outcome Evaluation:
+### Outcome Evaluation
 Short-term Outcomes:
 - Knowledge changes: [KNOWLEDGE_ASSESSMENT]
 - Attitude changes: [ATTITUDE_MEASURES]
 - Behavioral changes: [BEHAVIOR_CHANGES]
 - Screening uptake: [SCREENING_RATES]
 
-Intermediate Outcomes:
+### Intermediate Outcomes
 - Risk factor reduction: [RISK_REDUCTION_MEASURES]
 - Early detection rates: [DETECTION_RATES]
 - Treatment initiation: [TREATMENT_RATES]
@@ -202,8 +202,8 @@ Long-term Outcomes:
 - Disability reduction: [DISABILITY_MEASURES]
 - Health equity improvement: [EQUITY_INDICATORS]
 
-BUDGET AND RESOURCES:
-Budget Allocation:
+### BUDGET AND RESOURCES
+### Budget Allocation
 - Personnel costs: [PERSONNEL_BUDGET]
 - Program materials: [MATERIALS_BUDGET]
 - Training and capacity building: [TRAINING_BUDGET]
@@ -212,29 +212,29 @@ Budget Allocation:
 - Equipment and supplies: [EQUIPMENT_BUDGET]
 - Total budget: [TOTAL_BUDGET]
 
-Resource Requirements:
+### Resource Requirements
 - Human resources: [HR_NEEDS]
 - Facilities: [FACILITY_NEEDS]
 - Technology: [TECHNOLOGY_NEEDS]
 - Transportation: [TRANSPORTATION_NEEDS]
 - Partnerships: [PARTNERSHIP_RESOURCES]
 
-COMMUNICATION STRATEGY:
-Target Audiences:
+### COMMUNICATION STRATEGY
+### Target Audiences
 - General public: [PUBLIC_COMMUNICATION]
 - High-risk populations: [TARGETED_COMMUNICATION]
 - Healthcare providers: [PROVIDER_COMMUNICATION]
 - Policymakers: [POLICY_COMMUNICATION]
 - Media: [MEDIA_RELATIONS]
 
-Communication Channels:
+### Communication Channels
 - Mass media: [MASS_MEDIA_PLAN]
 - Social media: [SOCIAL_MEDIA_STRATEGY]
 - Community events: [COMMUNITY_EVENTS]
 - Healthcare settings: [CLINICAL_COMMUNICATIONS]
 - Educational institutions: [EDUCATIONAL_OUTREACH]
 
-SUSTAINABILITY PLAN:
+### SUSTAINABILITY PLAN
 - Institutionalization: [INSTITUTIONALIZATION_STRATEGY]
 - Funding diversification: [FUNDING_DIVERSIFICATION]
 - Policy advocacy: [ADVOCACY_PLAN]
@@ -281,7 +281,7 @@ Primary Prevention:
 - Safe walking/biking infrastructure improvements
 - Sodium reduction in restaurants policy
 
-Secondary Prevention:
+### Secondary Prevention
 - Blood pressure screening at community sites
 - Cholesterol screening at health fairs
 - Free/low-cost statin therapy program
@@ -298,12 +298,12 @@ Prevention Levels: Primary (HPV vaccine) + Secondary (screening)
 High-Risk Groups: Uninsured women, immigrant populations
 Budget: $800,000 over 3 years
 
-Primary Prevention:
+### Primary Prevention
 - HPV vaccination campaign for ages 11-26
 - School-based vaccination program
 - Provider education on vaccine recommendations
 
-Secondary Prevention:
+### Secondary Prevention
 - Mobile cervical cancer screening unit
 - Patient navigation for abnormal results
 - Colposcopy access program
@@ -320,13 +320,13 @@ Prevention Levels: Primary + Tertiary
 High-Risk Groups: Adults 75+, those with previous falls, taking 4+ medications
 Budget: $1.2 million over 5 years
 
-Primary Prevention:
+### Primary Prevention
 - Evidence-based fall prevention programs (Tai Chi, Stepping On)
 - Home safety assessments and modifications
 - Medication review programs
 - Vision screening and treatment
 
-Tertiary Prevention:
+### Tertiary Prevention
 - Post-fall medical evaluation program
 - Physical therapy referrals
 - Osteoporosis screening and treatment

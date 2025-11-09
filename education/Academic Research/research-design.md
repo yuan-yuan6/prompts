@@ -32,7 +32,7 @@ Research Context:
 - Theoretical Framework: [THEORETICAL_FOUNDATION]
 - Conceptual Model: [CONCEPTUAL_FRAMEWORK]
 
-Study Specifications:
+### Study Specifications
 - Research Design: [DESIGN_TYPE]
 - Research Approach: [METHODOLOGICAL_APPROACH]
 - Research Strategy: [RESEARCH_STRATEGY]
@@ -42,7 +42,7 @@ Study Specifications:
 - Study Duration: [TIME_FRAME]
 - Geographic Scope: [LOCATION_BOUNDARIES]
 
-Methodological Requirements:
+### Methodological Requirements
 - Paradigmatic Foundation: [PHILOSOPHICAL_PARADIGM]
 - Epistemological Stance: [KNOWLEDGE_PERSPECTIVE]
 - Ontological Position: [REALITY_PERSPECTIVE]
@@ -52,7 +52,7 @@ Methodological Requirements:
 - Validity Considerations: [VALIDITY_THREATS]
 - Reliability Requirements: [RELIABILITY_STANDARDS]
 
-Resource Context:
+### Resource Context
 - Budget Constraints: [FINANCIAL_LIMITATIONS]
 - Time Constraints: [TEMPORAL_LIMITATIONS]
 - Personnel Resources: [HUMAN_RESOURCES]
@@ -1467,7 +1467,7 @@ Generate a comprehensive research design strategy that includes:
 - Budget and resource allocation framework
 - Timeline and milestone tracking system
 
-Ensure the research design is:
+### Ensure the research design is
 - Methodologically rigorous and scientifically sound
 - Theoretically grounded and conceptually clear
 - Ethically conducted and culturally sensitive
@@ -1514,6 +1514,33 @@ Ensure the research design is:
 
 ## Usage Examples
 
+
+
+## Best Practices
+
+1. **Start with clear objectives** - Define what success looks like before beginning
+2. **Use data to inform decisions** - Base choices on evidence and measurable outcomes
+3. **Iterate and improve continuously** - Treat implementation as an ongoing process
+4. **Engage stakeholders early** - Include key participants in planning and execution
+5. **Document thoroughly** - Maintain clear records for reference and knowledge transfer
+6. **Communicate regularly** - Keep all parties informed of progress and changes
+7. **Address challenges proactively** - Identify potential issues before they become problems
+8. **Celebrate milestones** - Recognize achievements to maintain motivation
+9. **Learn from experience** - Reflect on what works and adjust accordingly
+10. **Stay flexible** - Be ready to adapt based on feedback and changing circumstances
+
+## Tips for Success
+
+- Break complex tasks into manageable steps with clear milestones
+- Set realistic timelines that account for dependencies and constraints
+- Allocate sufficient resources including time, budget, and personnel
+- Use templates and frameworks to ensure consistency and quality
+- Seek feedback from users and stakeholders throughout the process
+- Build in checkpoints to assess progress and make adjustments
+- Maintain quality standards while remaining practical and efficient
+- Document lessons learned for future reference and improvement
+- Foster collaboration across teams and departments
+- Stay current with industry best practices and emerging trends
 ### Example 1: Mixed-Methods Education Research
 "Design a comprehensive mixed-methods study examining the effectiveness of personalized learning technologies on student engagement and academic achievement in high school mathematics. Include randomized controlled trial components, qualitative case studies, and longitudinal tracking over two academic years."
 
@@ -1536,126 +1563,126 @@ Ensure the research design is:
 5. **Technology Integration Level**: Incorporate various levels of technology from basic data collection tools to advanced AI, machine learning, and digital research platforms
    • [MAIN_RESEARCH_OBJECTIVE]
    
-   Secondary Objectives:
+### Secondary Objectives
    • [SECONDARY_OBJECTIVE_1]
    • [SECONDARY_OBJECTIVE_2]
    • [SECONDARY_OBJECTIVE_3]
    
    Research Hypotheses (if applicable):
-   Primary Hypothesis:
+### Primary Hypothesis
    • H₁: [PRIMARY_HYPOTHESIS]
    • H₀: [NULL_HYPOTHESIS]
    
-   Secondary Hypotheses:
+### Secondary Hypotheses
    • H₂: [SECONDARY_HYPOTHESIS_1]
    • H₃: [SECONDARY_HYPOTHESIS_2]
 
 2. THEORETICAL FRAMEWORK & CONCEPTUAL MODEL
    
-   Theoretical Foundation:
-   Primary Theory:
+### Theoretical Foundation
+### Primary Theory
    • [MAIN_THEORY]: [Theory description and relevance]
    • [KEY_THEORETICAL_CONCEPTS]
    • [THEORETICAL_ASSUMPTIONS]
    
-   Supporting Theories:
+### Supporting Theories
    • [SUPPORTING_THEORY_1]: [Application to research]
    • [SUPPORTING_THEORY_2]: [Integration with main theory]
    
-   Conceptual Framework:
-   Key Concepts and Definitions:
+### Conceptual Framework
+### Key Concepts and Definitions
    • [CONCEPT_1]: [Operational definition]
    • [CONCEPT_2]: [Operational definition]
    • [CONCEPT_3]: [Operational definition]
    
-   Variable Relationships:
-   Independent Variables:
+### Variable Relationships
+### Independent Variables
    • [INDEPENDENT_VAR_1]: [Definition and measurement]
    • [INDEPENDENT_VAR_2]: [Definition and measurement]
    
-   Dependent Variables:
+### Dependent Variables
    • [DEPENDENT_VAR_1]: [Definition and measurement]
    • [DEPENDENT_VAR_2]: [Definition and measurement]
    
-   Mediating Variables:
+### Mediating Variables
    • [MEDIATING_VAR_1]: [Role in causal pathway]
    
-   Moderating Variables:
+### Moderating Variables
    • [MODERATING_VAR_1]: [Interaction effects expected]
    
-   Control Variables:
+### Control Variables
    • [CONTROL_VAR_1]: [Rationale for control]
    • [CONTROL_VAR_2]: [Rationale for control]
 
 3. RESEARCH DESIGN & METHODOLOGY
    
-   Research Design Type:
+### Research Design Type
    Overall Design: [RESEARCH_DESIGN_TYPE]
    
-   Design Justification:
+### Design Justification
    • [Appropriateness for research questions]
    • [Alignment with theoretical framework]
    • [Practical feasibility considerations]
    • [Resource and time constraints]
    
-   Methodological Approach:
+### Methodological Approach
    
-   For Quantitative Studies:
+### For Quantitative Studies
    Study Design: [EXPERIMENTAL/CORRELATIONAL/SURVEY/LONGITUDINAL]
    • [DESIGN_SPECIFIC_FEATURES]
    • [CONTROL_MECHANISMS]
    • [RANDOMIZATION_STRATEGY]
    • [BLINDING_PROCEDURES]
    
-   For Qualitative Studies:
+### For Qualitative Studies
    Methodology: [PHENOMENOLOGY/GROUNDED_THEORY/ETHNOGRAPHY/CASE_STUDY]
    • [METHODOLOGICAL_PRINCIPLES]
    • [PHILOSOPHICAL_ASSUMPTIONS]
    • [RESEARCHER_POSITIONING]
    • [REFLEXIVITY_APPROACH]
    
-   For Mixed Methods Studies:
+### For Mixed Methods Studies
    Design Type: [CONVERGENT/SEQUENTIAL_EXPLANATORY/SEQUENTIAL_EXPLORATORY]
    • [INTEGRATION_STRATEGY]
    • [PRIORITY_WEIGHTING]
    • [TIMING_OF_COMPONENTS]
    • [MIXING_PROCEDURES]
    
-   Validity and Reliability Considerations:
-   Internal Validity:
+### Validity and Reliability Considerations
+### Internal Validity
    • [THREATS_TO_VALIDITY]
    • [VALIDITY_ENHANCEMENT_STRATEGIES]
    
-   External Validity:
+### External Validity
    • [GENERALIZABILITY_SCOPE]
    • [EXTERNAL_VALIDITY_LIMITATIONS]
    
-   Construct Validity:
+### Construct Validity
    • [CONSTRUCT_DEFINITION_CLARITY]
    • [MEASUREMENT_VALIDITY]
    
-   Reliability:
+### Reliability
    • [RELIABILITY_ASSESSMENT_METHODS]
    • [CONSISTENCY_MEASURES]
 
 4. POPULATION & SAMPLING
    
-   Target Population:
-   Population Definition:
+### Target Population
+### Population Definition
    • [POPULATION_DESCRIPTION]
    • [INCLUSION_CRITERIA]
    • [EXCLUSION_CRITERIA]
    • [POPULATION_SIZE_ESTIMATE]
    
-   Accessible Population:
+### Accessible Population
    • [ACCESSIBLE_POPULATION_SCOPE]
    • [GEOGRAPHIC_BOUNDARIES]
    • [TEMPORAL_BOUNDARIES]
    • [INSTITUTIONAL_ACCESS]
    
-   Sampling Strategy:
+### Sampling Strategy
    
-   Probability Sampling:
+### Probability Sampling
    Sampling Method: [SIMPLE_RANDOM/STRATIFIED/CLUSTER/SYSTEMATIC]
    • [SAMPLING_FRAME_DESCRIPTION]
    • [STRATIFICATION_VARIABLES] (if applicable)
@@ -1668,8 +1695,8 @@ Ensure the research design is:
    • [RECRUITMENT_STRATEGY]
    • [SATURATION_CRITERIA] (for qualitative)
    
-   Sample Size Determination:
-   Quantitative Sample Size:
+### Sample Size Determination
+### Quantitative Sample Size
    • [EFFECT_SIZE_EXPECTED]: [Effect size value]
    • [STATISTICAL_POWER]: [Power level, typically 0.80]
    • [SIGNIFICANCE_LEVEL]: [Alpha level, typically 0.05]
@@ -1677,40 +1704,40 @@ Ensure the research design is:
    • [FINAL_SAMPLE_SIZE]: [N] participants
    • [ATTRITION_ADJUSTMENT]: [Percentage] additional
    
-   Qualitative Sample Size:
+### Qualitative Sample Size
    • [SAMPLING_APPROACH]: [Theoretical/Data saturation]
    • [ESTIMATED_SIZE]: [N] participants
    • [SATURATION_CRITERIA]: [How saturation determined]
    
-   Recruitment Procedures:
-   Recruitment Strategy:
+### Recruitment Procedures
+### Recruitment Strategy
    • [RECRUITMENT_METHODS]
    • [RECRUITMENT_TIMELINE]
    • [RECRUITMENT_MATERIALS]
    • [INCENTIVE_STRUCTURE]
    
    Inclusion/Exclusion Criteria:
-   Inclusion Criteria:
+### Inclusion Criteria
    • [INCLUSION_CRITERION_1]
    • [INCLUSION_CRITERION_2]
    • [INCLUSION_CRITERION_3]
    
-   Exclusion Criteria:
+### Exclusion Criteria
    • [EXCLUSION_CRITERION_1]
    • [EXCLUSION_CRITERION_2]
    • [EXCLUSION_CRITERION_3]
 
 5. DATA COLLECTION METHODS
    
-   Data Collection Overview:
+### Data Collection Overview
    • [DATA_TYPES_COLLECTED]
    • [COLLECTION_TIMELINE]
    • [COLLECTION_SETTING]
    • [COLLECTOR_TRAINING_REQUIREMENTS]
    
-   Primary Data Collection:
+### Primary Data Collection
    
-   Quantitative Instruments:
+### Quantitative Instruments
    Instrument 1: [INSTRUMENT_NAME_1]
    • Type: [SURVEY/QUESTIONNAIRE/TEST/OBSERVATION_SCALE]
    • Description: [INSTRUMENT_DESCRIPTION_1]
@@ -1727,7 +1754,7 @@ Ensure the research design is:
    • Reliability: [RELIABILITY_COEFFICIENT_2]
    • Administration: [ADMINISTRATION_METHOD_2]
    
-   Qualitative Data Collection:
+### Qualitative Data Collection
    Method 1: [INTERVIEWS/FOCUS_GROUPS/OBSERVATIONS]
    • Type: [STRUCTURED/SEMI_STRUCTURED/UNSTRUCTURED]
    • Description: [METHOD_DESCRIPTION_1]
@@ -1740,25 +1767,25 @@ Ensure the research design is:
    • Description: [METHOD_DESCRIPTION_2]
    • Analysis approach: [ANALYSIS_FRAMEWORK]
    
-   Secondary Data Sources:
+### Secondary Data Sources
    • [SECONDARY_SOURCE_1]: [Description and relevance]
    • [SECONDARY_SOURCE_2]: [Access and permissions]
    • [SECONDARY_SOURCE_3]: [Data quality considerations]
    
-   Data Collection Procedures:
+### Data Collection Procedures
    Pre-Collection Preparation:
    • [SITE_PREPARATION]
    • [EQUIPMENT_TESTING]
    • [STAFF_TRAINING]
    • [PILOT_TESTING_RESULTS]
    
-   Collection Protocol:
+### Collection Protocol
    • [STEP_BY_STEP_PROCEDURES]
    • [QUALITY_CONTROL_MEASURES]
    • [STANDARDIZATION_PROCEDURES]
    • [CONTINGENCY_PLANS]
    
-   Data Management:
+### Data Management
    • [DATA_STORAGE_SYSTEM]
    • [BACKUP_PROCEDURES]
    • [ACCESS_CONTROLS]
@@ -1766,49 +1793,49 @@ Ensure the research design is:
 
 6. DATA ANALYSIS PLAN
    
-   Analysis Overview:
+### Analysis Overview
    • [ANALYSIS_PHILOSOPHY]
    • [SOFTWARE_PACKAGES]: [SPSS/R/STATA/NVIVO/ATLAS.ti]
    • [ANALYSIS_TEAM_ROLES]
    • [QUALITY_ASSURANCE_PROCEDURES]
    
-   Quantitative Analysis Plan:
+### Quantitative Analysis Plan
    
-   Descriptive Analysis:
+### Descriptive Analysis
    • [DESCRIPTIVE_STATISTICS_PLAN]
    • [DEMOGRAPHIC_ANALYSIS]
    • [UNIVARIATE_ANALYSIS]
    • [BIVARIATE_ANALYSIS]
    
-   Inferential Analysis:
-   Primary Analysis:
+### Inferential Analysis
+### Primary Analysis
    • [STATISTICAL_TEST_1]: For [HYPOTHESIS_1]
    • [STATISTICAL_TEST_2]: For [HYPOTHESIS_2]
    • [EFFECT_SIZE_MEASURES]
    • [CONFIDENCE_INTERVALS]
    
-   Secondary Analysis:
+### Secondary Analysis
    • [EXPLORATORY_ANALYSES]
    • [SUBGROUP_ANALYSES]
    • [SENSITIVITY_ANALYSES]
    • [POST_HOC_ANALYSES]
    
-   Assumptions Testing:
+### Assumptions Testing
    • [NORMALITY_TESTS]
    • [HOMOSCEDASTICITY_TESTS]
    • [INDEPENDENCE_CHECKS]
    • [MULTICOLLINEARITY_ASSESSMENT]
    
-   Missing Data Handling:
+### Missing Data Handling
    • [MISSING_DATA_ASSESSMENT]
    • [IMPUTATION_METHODS]
    • [SENSITIVITY_ANALYSES_MISSING]
    
-   Qualitative Analysis Plan:
+### Qualitative Analysis Plan
    
    Analysis Approach: [THEMATIC/CONTENT/NARRATIVE/DISCOURSE]
    
-   Analysis Process:
+### Analysis Process
    Phase 1: Data Preparation
    • [TRANSCRIPTION_PROCEDURES]
    • [DATA_CLEANING_STEPS]
@@ -1829,7 +1856,7 @@ Ensure the research design is:
    • [MEMBER_CHECKING_PROCEDURES]
    • [TRUSTWORTHINESS_STRATEGIES]
    
-   Mixed Methods Integration:
+### Mixed Methods Integration
    Integration Strategy: [CONVERGENT/CONNECTING/BUILDING]
    • [QUANTITATIVE_QUALITATIVE_COMPARISON]
    • [DATA_TRANSFORMATION_PROCEDURES]
@@ -1838,44 +1865,44 @@ Ensure the research design is:
 
 7. ETHICAL CONSIDERATIONS
    
-   Ethical Framework:
+### Ethical Framework
    • [ETHICAL_PRINCIPLES_GUIDING_RESEARCH]
    • [INSTITUTIONAL_REVIEW_BOARD_APPROVAL]
    • [ADDITIONAL_ETHICS_APPROVALS_NEEDED]
    
-   Participant Protection:
-   Informed Consent:
+### Participant Protection
+### Informed Consent
    • [CONSENT_PROCESS_DESCRIPTION]
    • [CONSENT_FORM_ELEMENTS]
    • [SPECIAL_POPULATIONS_CONSIDERATIONS]
    • [ONGOING_CONSENT_PROCEDURES]
    
-   Risk Assessment:
-   Potential Risks:
+### Risk Assessment
+### Potential Risks
    • [PHYSICAL_RISKS]: [Risk level and mitigation]
    • [PSYCHOLOGICAL_RISKS]: [Risk level and mitigation]
    • [SOCIAL_RISKS]: [Risk level and mitigation]
    • [ECONOMIC_RISKS]: [Risk level and mitigation]
    
-   Risk Mitigation:
+### Risk Mitigation
    • [RISK_MINIMIZATION_STRATEGIES]
    • [MONITORING_PROCEDURES]
    • [ADVERSE_EVENT_REPORTING]
    • [PARTICIPANT_WITHDRAWAL_PROCEDURES]
    
-   Confidentiality and Privacy:
+### Confidentiality and Privacy
    • [DATA_DE_IDENTIFICATION_PROCEDURES]
    • [CONFIDENTIALITY_AGREEMENTS]
    • [DATA_SECURITY_MEASURES]
    • [PARTICIPANT_ANONYMITY_PROTECTION]
    
-   Vulnerable Populations:
+### Vulnerable Populations
    • [VULNERABLE_POPULATION_IDENTIFICATION]
    • [ADDITIONAL_PROTECTIONS_REQUIRED]
    • [CAPACITY_ASSESSMENT_PROCEDURES]
    • [SURROGATE_CONSENT_PROCEDURES]
    
-   Data Ethics:
+### Data Ethics
    • [DATA_OWNERSHIP_RIGHTS]
    • [DATA_SHARING_PLANS]
    • [PUBLICATION_RIGHTS]
@@ -1883,58 +1910,58 @@ Ensure the research design is:
 
 8. QUALITY ASSURANCE & TRUSTWORTHINESS
    
-   For Quantitative Research:
+### For Quantitative Research
    
-   Validity Enhancement:
-   Internal Validity:
+### Validity Enhancement
+### Internal Validity
    • [CONTROL_OF_CONFOUNDING]
    • [RANDOMIZATION_PROCEDURES]
    • [BLINDING_STRATEGIES]
    • [INSTRUMENTATION_CONTROLS]
    
-   External Validity:
+### External Validity
    • [SAMPLE_REPRESENTATIVENESS]
    • [SETTING_GENERALIZABILITY]
    • [TEMPORAL_GENERALIZABILITY]
    
-   Construct Validity:
+### Construct Validity
    • [INSTRUMENT_VALIDATION]
    • [MULTIPLE_OPERATIONALIZATIONS]
    • [CONVERGENT_DIVERGENT_VALIDITY]
    
-   Reliability Assurance:
+### Reliability Assurance
    • [INTER_RATER_RELIABILITY]
    • [TEST_RETEST_RELIABILITY]
    • [INTERNAL_CONSISTENCY]
    • [PARALLEL_FORMS_RELIABILITY]
    
-   For Qualitative Research:
+### For Qualitative Research
    
-   Trustworthiness Criteria:
-   Credibility:
+### Trustworthiness Criteria
+### Credibility
    • [PROLONGED_ENGAGEMENT]
    • [PERSISTENT_OBSERVATION]
    • [TRIANGULATION_METHODS]
    • [MEMBER_CHECKING]
    
-   Transferability:
+### Transferability
    • [THICK_DESCRIPTION]
    • [PURPOSIVE_SAMPLING]
    • [CONTEXT_DOCUMENTATION]
    
-   Dependability:
+### Dependability
    • [AUDIT_TRAIL_MAINTENANCE]
    • [PROCESS_DOCUMENTATION]
    • [METHODOLOGICAL_CONSISTENCY]
    
-   Confirmability:
+### Confirmability
    • [REFLEXIVITY_PRACTICES]
    • [BIAS_ACKNOWLEDGMENT]
    • [DECISION_DOCUMENTATION]
    
-   For Mixed Methods:
+### For Mixed Methods
    
-   Integration Quality:
+### Integration Quality
    • [DESIGN_COHERENCE]
    • [METHODOLOGY_INTEGRATION]
    • [INFERENCE_CONSISTENCY]
@@ -1942,7 +1969,7 @@ Ensure the research design is:
 
 9. TIMELINE & PROJECT MANAGEMENT
    
-   Project Phases:
+### Project Phases
    
    Phase 1: Preparation ([PREPARATION_DURATION])
    • [PREPARATION_MILESTONE_1]: [Timeline]
@@ -1964,107 +1991,107 @@ Ensure the research design is:
    • [REPORTING_MILESTONE_2]: [Timeline]
    • [REPORTING_DELIVERABLES]
    
-   Critical Path Activities:
+### Critical Path Activities
    • [CRITICAL_ACTIVITY_1]: [Dependencies]
    • [CRITICAL_ACTIVITY_2]: [Dependencies]
    • [CRITICAL_ACTIVITY_3]: [Dependencies]
    
-   Risk Management:
-   Project Risks:
+### Risk Management
+### Project Risks
    • [PROJECT_RISK_1]: [Probability] / [Impact] / [Mitigation]
    • [PROJECT_RISK_2]: [Probability] / [Impact] / [Mitigation]
    • [PROJECT_RISK_3]: [Probability] / [Impact] / [Mitigation]
    
-   Contingency Plans:
+### Contingency Plans
    • [CONTINGENCY_SCENARIO_1]: [Response plan]
    • [CONTINGENCY_SCENARIO_2]: [Response plan]
 
 10. RESOURCES & BUDGET
     
-    Personnel Requirements:
-    Research Team:
+### Personnel Requirements
+### Research Team
     • Principal Investigator: [PI_TIME_ALLOCATION]% FTE
     • Co-Investigators: [CO_I_ROLES_TIME]
     • Research Assistants: [RA_REQUIREMENTS]
     • Data Collectors: [DC_REQUIREMENTS]
     • Consultants: [CONSULTANT_NEEDS]
     
-    Equipment and Materials:
+### Equipment and Materials
     • [EQUIPMENT_ITEM_1]: [Cost estimate]
     • [EQUIPMENT_ITEM_2]: [Cost estimate]
     • [SOFTWARE_LICENSES]: [Cost estimate]
     • [MATERIALS_SUPPLIES]: [Cost estimate]
     
-    Direct Costs:
+### Direct Costs
     • Personnel costs: [PERSONNEL_BUDGET]
     • Equipment costs: [EQUIPMENT_BUDGET]
     • Travel costs: [TRAVEL_BUDGET]
     • Participant incentives: [INCENTIVE_BUDGET]
     • Laboratory/testing costs: [LAB_BUDGET]
     
-    Indirect Costs:
+### Indirect Costs
     • Institutional overhead: [OVERHEAD_RATE]%
     • Administrative support: [ADMIN_BUDGET]
     
     Total Budget: [TOTAL_PROJECT_BUDGET]
     
-    Funding Sources:
+### Funding Sources
     • [FUNDING_SOURCE_1]: [Amount] ([Percentage]%)
     • [FUNDING_SOURCE_2]: [Amount] ([Percentage]%)
 
 11. DISSEMINATION PLAN
     
-    Academic Dissemination:
-    Publications:
+### Academic Dissemination
+### Publications
     • [TARGET_JOURNAL_1]: [Publication timeline]
     • [TARGET_JOURNAL_2]: [Publication timeline]
     • [BOOK_CHAPTER_OPPORTUNITIES]
     
-    Conferences:
+### Conferences
     • [CONFERENCE_1]: [Presentation type]
     • [CONFERENCE_2]: [Presentation type]
     • [PROFESSIONAL_MEETINGS]
     
-    Stakeholder Communication:
+### Stakeholder Communication
     • [STAKEHOLDER_GROUP_1]: [Communication method]
     • [STAKEHOLDER_GROUP_2]: [Communication method]
     • [POLICY_BRIEF_PLANS]
     • [MEDIA_ENGAGEMENT_STRATEGY]
     
-    Public Engagement:
+### Public Engagement
     • [COMMUNITY_PRESENTATIONS]
     • [SOCIAL_MEDIA_STRATEGY]
     • [PUBLIC_DATABASE_CONTRIBUTIONS]
 
 12. LIMITATIONS & DELIMITATIONS
     
-    Study Limitations:
-    Methodological Limitations:
+### Study Limitations
+### Methodological Limitations
     • [METHODOLOGICAL_LIMITATION_1]
     • [METHODOLOGICAL_LIMITATION_2]
     • [METHODOLOGICAL_LIMITATION_3]
     
-    Sample Limitations:
+### Sample Limitations
     • [SAMPLING_LIMITATION_1]
     • [SAMPLING_LIMITATION_2]
     • [GENERALIZABILITY_LIMITS]
     
-    Measurement Limitations:
+### Measurement Limitations
     • [INSTRUMENT_LIMITATIONS]
     • [MEASUREMENT_ERROR_SOURCES]
     • [VALIDITY_THREATS]
     
-    Study Delimitations:
-    Scope Delimitations:
+### Study Delimitations
+### Scope Delimitations
     • [SCOPE_BOUNDARY_1]
     • [SCOPE_BOUNDARY_2]
     • [POPULATION_DELIMITATIONS]
     
-    Theoretical Delimitations:
+### Theoretical Delimitations
     • [THEORETICAL_BOUNDARY_1]
     • [THEORETICAL_BOUNDARY_2]
 
-Ensure the methodology is:
+### Ensure the methodology is
 - Rigorous and scientifically sound
 - Appropriate for research questions
 - Ethically responsible

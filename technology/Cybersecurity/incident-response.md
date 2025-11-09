@@ -114,14 +114,14 @@ Detection and Analysis:
 - Identify C2 domains, file extensions IOC identification
 - Map attack progression over 48hrs attack timeline
 
-Containment Strategy:
+### Containment Strategy
 - Isolate infected systems system isolation within 30 minutes
 - Segment network to prevent spread network segmentation
 - Disable file sharing, remote access access restrictions
 - Maintain critical services with backup systems business continuity
 - Deploy additional monitoring on network boundaries monitoring enhancement
 
-Communication and Reporting:
+### Communication and Reporting
 - Brief executive team, board internal communications
 - Notify cyber insurance, legal counsel external communications
 - File FBI IC3, state AG regulatory reporting

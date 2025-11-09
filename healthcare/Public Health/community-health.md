@@ -32,22 +32,22 @@ Program Information:
 - Program duration: [PROGRAM_TIMELINE]
 - Total budget: [PROGRAM_BUDGET]
 
-Organizational Structure:
+### Organizational Structure
 - Program Director: [DIRECTOR_NAME]
 - Community Health Workers: [CHW_TEAM]
 - Health Educators: [EDUCATORS]
 - Community Partners: [PARTNER_ORGANIZATIONS]
 - Advisory Board: [ADVISORY_MEMBERS]
 
-Program Goals:
+### Program Goals
 - Primary goal: [PRIMARY_GOAL]
 - Secondary goals: [SECONDARY_GOALS]
 - Health equity objectives: [EQUITY_OBJECTIVES]
 - Community impact metrics: [IMPACT_METRICS]
 
-COMMUNITY ASSESSMENT:
+### COMMUNITY ASSESSMENT
 
-Needs Assessment:
+### Needs Assessment
 ```
 COMMUNITY HEALTH NEEDS:
 
@@ -60,7 +60,7 @@ Priority Area      | Burden Score | Community Rank | Resources | Gap Analysis
 [PRIORITY_4]       | [BURDEN_4]  | [RANK_4]       | [RES_4]   | [GAP_4]
 [PRIORITY_5]       | [BURDEN_5]  | [RANK_5]       | [RES_5]   | [GAP_5]
 
-Demographic Profile:
+### Demographic Profile
 Characteristic     | Community % | State % | National % | Significance
 -------------------|------------|---------|------------|-------------
 Age <18            | [AGE_18]%  | [S_18]% | [N_18]%    | [SIG_18]
@@ -73,9 +73,9 @@ Limited English    | [LEP]%     | [S_LEP]%| [N_LEP]%   | [SIG_LEP]
 
 Social Determinants Assessment:
 ```
-SOCIAL DETERMINANTS OF HEALTH:
+### SOCIAL DETERMINANTS OF HEALTH
 
-Economic Stability:
+### Economic Stability
 Factor             | Community Status | Impact Level | Intervention Need
 -------------------|-----------------|--------------|------------------
 Employment rate    | [EMPLOY_RATE]%  | [EMP_IMPACT] | [EMP_NEED]
@@ -83,13 +83,13 @@ Income level       | $[INCOME_MED]   | [INC_IMPACT] | [INC_NEED]
 Housing cost burden| [HOUSING_%]     | [HOU_IMPACT] | [HOU_NEED]
 Food insecurity    | [FOOD_INSEC]%   | [FOO_IMPACT] | [FOO_NEED]
 
-Education Access:
+### Education Access
 - High school graduation: [HS_GRAD]%
 - College attainment: [COLLEGE]%
 - Health literacy: [HEALTH_LIT]%
 - Digital literacy: [DIGITAL_LIT]%
 
-Healthcare Access:
+### Healthcare Access
 Provider Type      | Ratio/Population | Adequacy | Distance | Barriers
 -------------------|------------------|----------|----------|----------
 Primary Care       | 1:[PCP_RATIO]    | [PCP_AD] | [PCP_MI] | [PCP_BAR]
@@ -97,7 +97,7 @@ Mental Health      | 1:[MH_RATIO]     | [MH_AD]  | [MH_MI]  | [MH_BAR]
 Dental             | 1:[DENT_RATIO]   | [DENT_AD]| [DENT_MI]| [DENT_BAR]
 Specialist         | 1:[SPEC_RATIO]   | [SPEC_AD]| [SPEC_MI]| [SPEC_BAR]
 
-Neighborhood Environment:
+### Neighborhood Environment
 - Walkability score: [WALK_SCORE]
 - Parks access: [PARKS_ACCESS]%
 - Food deserts: [FOOD_DESERT]%
@@ -109,9 +109,9 @@ PROGRAM DESIGN:
 
 Evidence-Based Interventions:
 ```
-INTERVENTION FRAMEWORK:
+### INTERVENTION FRAMEWORK
 
-Core Components:
+### Core Components
 Component          | Evidence Level | Implementation | Fidelity Measure | Adaptation
 -------------------|---------------|----------------|------------------|------------
 [COMPONENT_1]      | [EVID_1]      | [IMPL_1]       | [FID_1]          | [ADAPT_1]
@@ -119,11 +119,11 @@ Component          | Evidence Level | Implementation | Fidelity Measure | Adapta
 [COMPONENT_3]      | [EVID_3]      | [IMPL_3]       | [FID_3]          | [ADAPT_3]
 [COMPONENT_4]      | [EVID_4]      | [IMPL_4]       | [FID_4]          | [ADAPT_4]
 
-Logic Model:
+### Logic Model
 Inputs → Activities → Outputs → Outcomes → Impact
 [INPUTS] → [ACTIVITIES] → [OUTPUTS] → [SHORT_OUTCOMES] → [LONG_IMPACT]
 
-Theory of Change:
+### Theory of Change
 If [ACTIVITIES] then [SHORT_TERM_CHANGE]
 If [SHORT_TERM_CHANGE] then [MEDIUM_TERM_CHANGE]
 If [MEDIUM_TERM_CHANGE] then [LONG_TERM_IMPACT]
@@ -133,7 +133,7 @@ Multi-Level Approach:
 ```
 SOCIO-ECOLOGICAL MODEL:
 
-Individual Level:
+### Individual Level
 Intervention       | Target Behavior | Delivery Method | Reach Goal | Measure
 -------------------|----------------|-----------------|------------|----------
 [INDIV_INT_1]      | [BEHAV_1]      | [DELIV_1]       | [REACH_1]  | [MEAS_1]
@@ -144,7 +144,7 @@ Interpersonal Level:
 - Peer support: [PEER_INTERVENTION]
 - Social networks: [NETWORK_INTERVENTION]
 
-Organizational Level:
+### Organizational Level
 Setting            | Partnership    | Changes Made    | Sustainability
 -------------------|---------------|-----------------|----------------
 Schools            | [SCHOOL_PART] | [SCHOOL_CHANGE] | [SCHOOL_SUST]
@@ -152,12 +152,12 @@ Workplaces         | [WORK_PART]   | [WORK_CHANGE]   | [WORK_SUST]
 Healthcare         | [HEALTH_PART] | [HEALTH_CHANGE] | [HEALTH_SUST]
 Faith-based        | [FAITH_PART]  | [FAITH_CHANGE]  | [FAITH_SUST]
 
-Community Level:
+### Community Level
 - Coalition building: [COALITION_STRATEGY]
 - Community mobilization: [MOBILIZATION_PLAN]
 - Environmental changes: [ENVIRONMENTAL_CHANGES]
 
-Policy Level:
+### Policy Level
 - Policy advocacy: [POLICY_TARGETS]
 - Systems change: [SYSTEMS_CHANGE]
 - Regulatory support: [REGULATORY_SUPPORT]
@@ -167,9 +167,9 @@ HEALTH PROMOTION:
 
 Health Education Programs:
 ```
-EDUCATION INITIATIVES:
+### EDUCATION INITIATIVES
 
-Curriculum Development:
+### Curriculum Development
 Program Module     | Topics Covered | Duration | Format | Participants
 -------------------|---------------|----------|--------|-------------
 [MODULE_1]         | [TOPICS_1]    | [DUR_1]  | [FOR_1]| [PART_1]
@@ -177,14 +177,14 @@ Program Module     | Topics Covered | Duration | Format | Participants
 [MODULE_3]         | [TOPICS_3]    | [DUR_3]  | [FOR_3]| [PART_3]
 [MODULE_4]         | [TOPICS_4]    | [DUR_4]  | [FOR_4]| [PART_4]
 
-Cultural Adaptation:
+### Cultural Adaptation
 Population         | Language      | Cultural Factors | Materials | Facilitators
 -------------------|--------------|------------------|-----------|-------------
 [POP_1]           | [LANG_1]     | [CULT_1]         | [MAT_1]   | [FAC_1]
 [POP_2]           | [LANG_2]     | [CULT_2]         | [MAT_2]   | [FAC_2]
 [POP_3]           | [LANG_3]     | [CULT_3]         | [MAT_3]   | [FAC_3]
 
-Health Literacy:
+### Health Literacy
 - Reading level: [READING_LEVEL]
 - Plain language: [PLAIN_LANGUAGE]
 - Visual aids: [VISUAL_AIDS]
@@ -193,9 +193,9 @@ Health Literacy:
 
 Behavior Change Strategies:
 ```
-BEHAVIOR MODIFICATION:
+### BEHAVIOR MODIFICATION
 
-Health Behavior Targets:
+### Health Behavior Targets
 Behavior           | Current Rate | Target Rate | Strategy | Timeline
 -------------------|-------------|-------------|----------|----------
 [BEHAVIOR_1]       | [CURR_1]%   | [TARG_1]%   | [STRAT_1]| [TIME_1]
@@ -214,9 +214,9 @@ DISEASE PREVENTION:
 
 Primary Prevention:
 ```
-PREVENTION PROGRAMS:
+### PREVENTION PROGRAMS
 
-Immunization Campaigns:
+### Immunization Campaigns
 Vaccine            | Target Group  | Coverage % | Goal % | Strategy
 -------------------|--------------|------------|--------|----------
 Childhood series   | [CHILD_GRP]  | [CHILD_%]  | [CH_G] | [CH_STRAT]
@@ -224,7 +224,7 @@ Influenza          | [FLU_GRP]    | [FLU_%]    | [FL_G] | [FL_STRAT]
 COVID-19           | [COV_GRP]    | [COV_%]    | [CO_G] | [CO_STRAT]
 HPV                | [HPV_GRP]    | [HPV_%]    | [HP_G] | [HP_STRAT]
 
-Screening Programs:
+### Screening Programs
 Screening Type     | Population   | Current Rate | Target | Barriers
 -------------------|-------------|-------------|--------|----------
 Cancer screening   | [CANC_POP]  | [CANC_%]    | [CA_T] | [CA_BAR]
@@ -232,7 +232,7 @@ Diabetes screening | [DIAB_POP]  | [DIAB_%]    | [DI_T] | [DI_BAR]
 Hypertension       | [HTN_POP]   | [HTN_%]     | [HT_T] | [HT_BAR]
 Depression         | [DEP_POP]   | [DEP_%]     | [DE_T] | [DE_BAR]
 
-Risk Reduction:
+### Risk Reduction
 Risk Factor        | Intervention | Participation | Impact | Sustainability
 -------------------|-------------|---------------|--------|---------------
 Tobacco use        | [TOB_INT]   | [TOB_PART]    | [TOB_I]| [TOB_SUST]
@@ -243,9 +243,9 @@ Substance abuse    | [SUBS_INT]  | [SUBS_PART]   | [SUB_I]| [SUB_SUST]
 
 Secondary Prevention:
 ```
-EARLY DETECTION & INTERVENTION:
+### EARLY DETECTION & INTERVENTION
 
-Disease Management:
+### Disease Management
 Condition          | Enrolled | Engagement % | Control Rate | Outcomes
 -------------------|----------|-------------|--------------|----------
 Diabetes           | [DM_ENR] | [DM_ENG]%   | [DM_CONT]%   | [DM_OUT]
@@ -253,7 +253,7 @@ Hypertension       | [HTN_ENR]| [HTN_ENG]%  | [HTN_CONT]%  | [HTN_OUT]
 Asthma             | [AST_ENR]| [AST_ENG]%  | [AST_CONT]%  | [AST_OUT]
 Mental Health      | [MH_ENR] | [MH_ENG]%   | [MH_CONT]%   | [MH_OUT]
 
-Care Coordination:
+### Care Coordination
 - Patient navigation: [NAVIGATION_PROGRAM]
 - Care transitions: [TRANSITION_SUPPORT]
 - Medication management: [MED_MANAGEMENT]
@@ -264,9 +264,9 @@ COMMUNITY ENGAGEMENT:
 
 Stakeholder Involvement:
 ```
-COMMUNITY PARTNERSHIPS:
+### COMMUNITY PARTNERSHIPS
 
-Partner Organizations:
+### Partner Organizations
 Organization       | Role         | Resources   | Contribution | Agreement
 -------------------|-------------|------------|--------------|----------
 [ORG_1]           | [ROLE_1]    | [RES_1]    | [CONT_1]     | [AGR_1]
@@ -274,7 +274,7 @@ Organization       | Role         | Resources   | Contribution | Agreement
 [ORG_3]           | [ROLE_3]    | [RES_3]    | [CONT_3]     | [AGR_3]
 [ORG_4]           | [ROLE_4]    | [RES_4]    | [CONT_4]     | [AGR_4]
 
-Community Advisory Board:
+### Community Advisory Board
 Member Category    | Representatives | Meeting Frequency | Decision Authority
 -------------------|----------------|------------------|-------------------
 Community residents| [RES_REPS]     | [RES_FREQ]       | [RES_AUTH]
@@ -283,7 +283,7 @@ Local government   | [GOV_REPS]     | [GOV_FREQ]       | [GOV_AUTH]
 Faith organizations| [FAITH_REPS]   | [FAITH_FREQ]     | [FAITH_AUTH]
 Business sector    | [BUS_REPS]     | [BUS_FREQ]       | [BUS_AUTH]
 
-Volunteer Program:
+### Volunteer Program
 - Active volunteers: [VOLUNTEER_COUNT]
 - Training hours: [TRAINING_HOURS]
 - Service hours: [SERVICE_HOURS]
@@ -292,9 +292,9 @@ Volunteer Program:
 
 Community Mobilization:
 ```
-GRASSROOTS ENGAGEMENT:
+### GRASSROOTS ENGAGEMENT
 
-Outreach Strategies:
+### Outreach Strategies
 Method             | Reach/Month | Demographics | Effectiveness | Cost
 -------------------|------------|--------------|---------------|------
 Door-to-door       | [DOOR_REACH]| [DOOR_DEM]   | [DOOR_EFF]    | [DOOR_$]
@@ -303,7 +303,7 @@ Faith-based        | [FAITH_REACH]| [FAITH_DEM] | [FAITH_EFF]   | [FAITH_$]
 Social media       | [SOC_REACH] | [SOC_DEM]   | [SOC_EFF]     | [SOC_$]
 Traditional media  | [TRAD_REACH]| [TRAD_DEM]  | [TRAD_EFF]    | [TRAD_$]
 
-Champion Network:
+### Champion Network
 - Community champions: [CHAMPION_COUNT]
 - Areas represented: [AREAS_COVERED]
 - Activities led: [ACTIVITIES_LED]
@@ -314,9 +314,9 @@ WORKFORCE DEVELOPMENT:
 
 Community Health Workers:
 ```
-CHW PROGRAM:
+### CHW PROGRAM
 
-Workforce Composition:
+### Workforce Composition
 CHW Type           | Number | Coverage Area | Caseload | Languages
 -------------------|--------|---------------|----------|----------
 Full-time CHW      | [FT_N] | [FT_AREA]     | [FT_CASE]| [FT_LANG]
@@ -324,7 +324,7 @@ Part-time CHW      | [PT_N] | [PT_AREA]     | [PT_CASE]| [PT_LANG]
 Volunteer CHW      | [VOL_N]| [VOL_AREA]    | [VOL_CASE]| [VOL_LANG]
 Peer educators     | [PEER_N]| [PEER_AREA]  | [PEER_CASE]| [PEER_LANG]
 
-Core Competencies:
+### Core Competencies
 Competency Area    | Training Hours | Assessment | Certification | Refresher
 -------------------|---------------|------------|---------------|----------
 Outreach/Engagement| [OUT_HOURS]   | [OUT_ASSESS]| [OUT_CERT]   | [OUT_REF]
@@ -333,7 +333,7 @@ Care coordination  | [CARE_HOURS]  | [CARE_ASSESS]| [CARE_CERT] | [CARE_REF]
 Advocacy          | [ADV_HOURS]   | [ADV_ASSESS]| [ADV_CERT]   | [ADV_REF]
 Cultural competency| [CULT_HOURS]  | [CULT_ASSESS]| [CULT_CERT] | [CULT_REF]
 
-Performance Metrics:
+### Performance Metrics
 - Client contacts/month: [CONTACTS_MONTH]
 - Home visits completed: [HOME_VISITS]
 - Referrals made: [REFERRALS_MADE]
@@ -345,7 +345,7 @@ PROGRAM IMPLEMENTATION:
 
 Implementation Plan:
 ```
-PHASED ROLLOUT:
+### PHASED ROLLOUT
 
 Phase 1: Planning (Months 1-3)
 □ Community assessment
@@ -378,9 +378,9 @@ Phase 4: Sustainability (Ongoing)
 
 Resource Allocation:
 ```
-BUDGET DISTRIBUTION:
+### BUDGET DISTRIBUTION
 
-Budget Categories:
+### Budget Categories
 Category           | Amount     | % of Total | Justification
 -------------------|-----------|------------|---------------
 Personnel          | $[PERS_AMT]| [PERS_%]   | [PERS_JUST]
@@ -390,7 +390,7 @@ Equipment          | $[EQUIP_AMT]| [EQUIP_%]  | [EQUIP_JUST]
 Evaluation         | $[EVAL_AMT]| [EVAL_%]   | [EVAL_JUST]
 Indirect costs     | $[IND_AMT] | [IND_%]    | [IND_JUST]
 
-Funding Sources:
+### Funding Sources
 - Federal grants: $[FEDERAL_FUNDING]
 - State funding: $[STATE_FUNDING]
 - Local funding: $[LOCAL_FUNDING]
@@ -402,9 +402,9 @@ MONITORING & EVALUATION:
 
 Evaluation Framework:
 ```
-PROGRAM EVALUATION:
+### PROGRAM EVALUATION
 
-Process Evaluation:
+### Process Evaluation
 Indicator          | Target     | Current    | Data Source | Frequency
 -------------------|-----------|------------|-------------|----------
 Reach              | [REACH_T] | [REACH_C]  | [REACH_SRC] | [REACH_FR]
@@ -413,14 +413,14 @@ Dose received      | [RCVD_T]  | [RCVD_C]   | [RCVD_SRC]  | [RCVD_FR]
 Fidelity           | [FID_T]   | [FID_C]    | [FID_SRC]   | [FID_FR]
 Satisfaction       | [SAT_T]   | [SAT_C]    | [SAT_SRC]   | [SAT_FR]
 
-Outcome Evaluation:
+### Outcome Evaluation
 Outcome            | Baseline  | 6-Month   | 12-Month  | Significance
 -------------------|----------|-----------|-----------|-------------
 [OUTCOME_1]        | [BASE_1] | [6M_1]    | [12M_1]   | [SIG_1]
 [OUTCOME_2]        | [BASE_2] | [6M_2]    | [12M_2]   | [SIG_2]
 [OUTCOME_3]        | [BASE_3] | [6M_3]    | [12M_3]   | [SIG_3]
 
-Impact Assessment:
+### Impact Assessment
 - Lives impacted: [LIVES_IMPACTED]
 - DALYs averted: [DALYS_AVERTED]
 - Cost per QALY: $[COST_PER_QALY]
@@ -429,9 +429,9 @@ Impact Assessment:
 
 Data Management:
 ```
-DATA SYSTEMS:
+### DATA SYSTEMS
 
-Data Collection:
+### Data Collection
 Data Type          | Collection Method | Frequency | Storage | Privacy
 -------------------|------------------|-----------|---------|--------
 Participant data   | [PART_METHOD]    | [PART_FR] | [PART_ST]| [PART_PR]
@@ -439,7 +439,7 @@ Program metrics    | [PROG_METHOD]    | [PROG_FR] | [PROG_ST]| [PROG_PR]
 Health outcomes    | [HEALTH_METHOD]  | [HEALTH_FR]| [HEALTH_ST]| [HEALTH_PR]
 Cost data          | [COST_METHOD]    | [COST_FR] | [COST_ST]| [COST_PR]
 
-Quality Assurance:
+### Quality Assurance
 - Data validation: [VALIDATION_PROCESS]
 - Missing data: [MISSING_DATA_PROTOCOL]
 - Data audits: [AUDIT_FREQUENCY]
@@ -452,7 +452,7 @@ Sustainability Planning:
 ```
 LONG-TERM VIABILITY:
 
-Sustainability Domains:
+### Sustainability Domains
 Domain             | Current Capacity | Goal      | Strategy  | Timeline
 -------------------|-----------------|-----------|-----------|----------
 Funding            | [FUND_CURR]     | [FUND_GOAL]| [FUND_STR]| [FUND_TL]
@@ -462,7 +462,7 @@ Workforce          | [WORK_CURR]     | [WORK_GOAL]| [WORK_STR]| [WORK_TL]
 Political support  | [POL_CURR]      | [POL_GOAL] | [POL_STR] | [POL_TL]
 Community ownership| [COMM_CURR]     | [COMM_GOAL]| [COMM_STR]| [COMM_TL]
 
-Institutionalization:
+### Institutionalization
 - Policy integration: [POLICY_INTEGRATION]
 - System embedding: [SYSTEM_EMBEDDING]
 - Routine financing: [ROUTINE_FINANCING]
@@ -471,9 +471,9 @@ Institutionalization:
 
 Scale-Up Strategy:
 ```
-REPLICATION & SPREAD:
+### REPLICATION & SPREAD
 
-Expansion Plan:
+### Expansion Plan
 Phase              | Sites    | Population | Investment | Timeline
 -------------------|----------|------------|------------|----------
 Current            | [CURR_S] | [CURR_POP] | $[CURR_I]  | [CURR_TL]
@@ -481,7 +481,7 @@ Year 1 expansion   | [Y1_S]   | [Y1_POP]   | $[Y1_I]    | [Y1_TL]
 Year 2 expansion   | [Y2_S]   | [Y2_POP]   | $[Y2_I]    | [Y2_TL]
 Full scale         | [FULL_S] | [FULL_POP] | $[FULL_I]  | [FULL_TL]
 
-Adaptation Framework:
+### Adaptation Framework
 - Core components (maintain): [CORE_COMPONENTS]
 - Adaptable elements: [ADAPTABLE_ELEMENTS]
 - Context assessment: [CONTEXT_ASSESSMENT]
@@ -499,7 +499,7 @@ Impact Goal: [FINAL_IMPACT_GOAL]
 
 ---
 
-Program Summary:
+### Program Summary
 - Population reached: [POPULATION_REACHED]
 - Health improvements: [HEALTH_IMPROVEMENTS]
 - Cost-effectiveness: $[COST_PER_PERSON]
@@ -521,6 +521,33 @@ OUTPUT: Deliver comprehensive community health program with:
 
 ## Usage Examples
 
+
+
+## Best Practices
+
+1. **Start with clear objectives** - Define what success looks like before beginning
+2. **Use data to inform decisions** - Base choices on evidence and measurable outcomes
+3. **Iterate and improve continuously** - Treat implementation as an ongoing process
+4. **Engage stakeholders early** - Include key participants in planning and execution
+5. **Document thoroughly** - Maintain clear records for reference and knowledge transfer
+6. **Communicate regularly** - Keep all parties informed of progress and changes
+7. **Address challenges proactively** - Identify potential issues before they become problems
+8. **Celebrate milestones** - Recognize achievements to maintain motivation
+9. **Learn from experience** - Reflect on what works and adjust accordingly
+10. **Stay flexible** - Be ready to adapt based on feedback and changing circumstances
+
+## Tips for Success
+
+- Break complex tasks into manageable steps with clear milestones
+- Set realistic timelines that account for dependencies and constraints
+- Allocate sufficient resources including time, budget, and personnel
+- Use templates and frameworks to ensure consistency and quality
+- Seek feedback from users and stakeholders throughout the process
+- Build in checkpoints to assess progress and make adjustments
+- Maintain quality standards while remaining practical and efficient
+- Document lessons learned for future reference and improvement
+- Foster collaboration across teams and departments
+- Stay current with industry best practices and emerging trends
 ### Example 1: Chronic Disease Prevention
 ```
 PROGRAM_TYPE: "Diabetes prevention program"

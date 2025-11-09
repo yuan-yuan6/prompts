@@ -113,7 +113,7 @@ Build Process:
 - Optimize with multi-stage builds, layer caching build optimization
 - Cache node_modules, Docker layers build caching
 
-Testing Strategy:
+### Testing Strategy
 - Use Jest, Supertest testing framework
 - Run unit tests with 90% coverage unit testing
 - Execute API, database integration testing
@@ -121,7 +121,7 @@ Testing Strategy:
 - Run k6 performance testing with SLA validation
 - Scan with Snyk, OWASP ZAP security testing
 
-Deployment Strategy:
+### Deployment Strategy
 - Use Kubernetes rolling updates deployment model
 - Promote through dev → staging → prod environment promotion
 - Implement Argo Rollouts canary deployment with 10/50/100% traffic

@@ -35,26 +35,26 @@ Technical Context:
 - Target Systems: [DESTINATION_SYSTEMS]
 - SLA Requirements: [SLA_REQUIREMENTS]
 
-Requirements:
+### Requirements
 - Business Objectives: [BUSINESS_GOALS]
 - Data Quality Requirements: [QUALITY_REQUIREMENTS]
 - Performance Targets: [PERFORMANCE_TARGETS]
 
-Generate a comprehensive data pipeline design:
+### Generate a comprehensive data pipeline design
 
 1. EXECUTIVE SUMMARY
 
-   Pipeline Overview:
+### Pipeline Overview
    [PIPELINE_NAME] is designed to process [DAILY_VOLUME] of data from [SOURCE_SYSTEMS] to [DESTINATION_SYSTEMS], enabling [business objectives].
    
-   Key Characteristics:
+### Key Characteristics
    • Processing Type: [BATCH/STREAMING/HYBRID]
    • Frequency: [Real-time/Hourly/Daily]
    • Data Latency: [Expected latency]
    • Scalability: [Scaling approach]
    • Reliability: [Availability targets]
    
-   Success Criteria:
+### Success Criteria
    • Data freshness: < [X] minutes/hours
    • Data quality: > [X]% accuracy
    • Processing time: < [X] hours
@@ -73,19 +73,19 @@ Generate a comprehensive data pipeline design:
    • Schema: [Static/Dynamic]
    • Authentication: [Method]
    
-   Data Characteristics:
+### Data Characteristics
    • Record Size: [Average bytes]
    • Growth Rate: [% per month]
    • Peak Load: [Records/second]
    • Historical Data: [Volume to migrate]
    
-   Source Data Quality:
+### Source Data Quality
    • Completeness: [% of required fields]
    • Accuracy: [Error rate]
    • Timeliness: [Data lag]
    • Consistency: [Format variations]
    
-   Access Patterns:
+### Access Patterns
    • Pull Frequency: [Schedule]
    • API Rate Limits: [Requests/second]
    • Maintenance Windows: [Schedule]
@@ -105,7 +105,7 @@ Generate a comprehensive data pipeline design:
                           Monitoring & Orchestration
    ```
    
-   Detailed Architecture:
+### Detailed Architecture
    ```
    Data Sources                Processing Layer              Storage Layer
    ┌──────────┐              ┌──────────────┐            ┌──────────────┐
@@ -149,7 +149,7 @@ Generate a comprehensive data pipeline design:
 
    ## Ingestion Strategy
    
-   Batch Ingestion:
+### Batch Ingestion
    • Method: Scheduled pulls
    • Frequency: [Daily at 2 AM UTC]
    • Technology: Apache NiFi / Sqoop
@@ -157,7 +157,7 @@ Generate a comprehensive data pipeline design:
    • Compression: Snappy
    • Partitioning: By date
    
-   Streaming Ingestion:
+### Streaming Ingestion
    • Method: Event streaming
    • Technology: Kafka Connect
    • Topics: [Topic structure]
@@ -171,7 +171,7 @@ Generate a comprehensive data pipeline design:
    • Lag Tolerance: < 5 minutes
    • Schema Evolution: Handled via registry
    
-   File Ingestion:
+### File Ingestion
    • Source Location: S3/SFTP
    • File Pattern: prefix_YYYYMMDD_*.csv
    • Detection: Event-based / Polling
@@ -215,7 +215,7 @@ Generate a comprehensive data pipeline design:
    • Business metrics calculation
    • KPI computation
    
-   Processing Patterns:
+### Processing Patterns
    • Window Functions: Sliding/Tumbling/Session
    • Join Strategy: Broadcast/Shuffle/Sort-Merge
    • State Management: Checkpointing
@@ -225,31 +225,31 @@ Generate a comprehensive data pipeline design:
 
    ## Quality Framework
    
-   Data Quality Dimensions:
+### Data Quality Dimensions
    
-   Completeness:
+### Completeness
    • Required fields present: 100%
    • Optional fields: > 80%
    • Monitoring: Great Expectations
    
-   Accuracy:
+### Accuracy
    • Business rule validation
    • Reference data matching
    • Statistical outlier detection
    • Threshold: < 0.1% errors
    
-   Consistency:
+### Consistency
    • Cross-source validation
    • Temporal consistency
    • Format standardization
    • Duplicate detection
    
-   Timeliness:
+### Timeliness
    • Data freshness SLA: < 2 hours
    • Processing time: < 30 minutes
    • Alert on delays > 15 minutes
    
-   Quality Rules:
+### Quality Rules
    ```yaml
    rules:
      - name: amount_positive
@@ -299,7 +299,7 @@ Generate a comprehensive data pipeline design:
    • Partitioning: By multiple dimensions
    • Indexes: On key columns
    
-   Archive Strategy:
+### Archive Strategy
    • Cold Storage: After 1 year
    • Archive: Glacier after 2 years
    • Deletion: After 7 years
@@ -311,7 +311,7 @@ Generate a comprehensive data pipeline design:
    
    Tool: Apache Airflow
    
-   DAG Structure:
+### DAG Structure
    ```python
    dag = DAG(
        'data_pipeline',
@@ -350,7 +350,7 @@ Generate a comprehensive data pipeline design:
    • Downstream: Target readiness
    • Cross-pipeline: Data dependencies
    
-   Failure Handling:
+### Failure Handling
    • Retry Policy: 3 attempts
    • Backoff: Exponential
    • Alert: On second failure
@@ -360,28 +360,28 @@ Generate a comprehensive data pipeline design:
 
    ## Monitoring Strategy
    
-   Pipeline Metrics:
+### Pipeline Metrics
    • Records Processed: Count/minute
    • Processing Time: Duration
    • Error Rate: Errors/total
    • Data Lag: Current delay
    • Resource Usage: CPU/Memory
    
-   Data Metrics:
+### Data Metrics
    • Record Count: By source
    • Data Volume: GB/day
    • Quality Score: Percentage
    • Completeness: Field coverage
    • Anomalies: Detected count
    
-   System Metrics:
+### System Metrics
    • Cluster Utilization
    • Queue Depth
    • Storage Usage
    • Network I/O
    • API Rate Limits
    
-   Alerting Rules:
+### Alerting Rules
    | Metric | Threshold | Action |
    |--------|-----------|--------|
    | Error Rate | > 1% | Page on-call |
@@ -389,7 +389,7 @@ Generate a comprehensive data pipeline design:
    | Data Lag | > 30 minutes | Slack alert |
    | Quality Score | < 95% | Create ticket |
    
-   Dashboards:
+### Dashboards
    • Operations Dashboard
    • Data Quality Dashboard
    • Performance Dashboard
@@ -399,23 +399,23 @@ Generate a comprehensive data pipeline design:
 
     ## Error Management
     
-    Error Types:
+### Error Types
     
-    Data Errors:
+### Data Errors
     • Schema mismatch
     • Data type errors
     • Constraint violations
     • Missing required fields
     
-    System Errors:
+### System Errors
     • Connection failures
     • Resource exhaustion
     • Permission denied
     • Timeout errors
     
-    Error Handling Strategy:
+### Error Handling Strategy
     
-    Retry Logic:
+### Retry Logic
     ```python
     @retry(
         stop=stop_after_attempt(3),
@@ -438,7 +438,7 @@ Generate a comprehensive data pipeline design:
     • Window: 5 minutes
     • Recovery: Gradual
     
-    Recovery Procedures:
+### Recovery Procedures
     1. Identify failure point
     2. Fix root cause
     3. Replay from checkpoint
@@ -449,26 +449,26 @@ Generate a comprehensive data pipeline design:
 
     ## Scalability Design
     
-    Horizontal Scaling:
+### Horizontal Scaling
     • Auto-scaling triggers
     • Cluster elasticity
     • Partition strategies
     • Load distribution
     
-    Performance Optimization:
+### Performance Optimization
     • Data partitioning
     • Columnar storage
     • Compression techniques
     • Caching strategies
     • Query optimization
     
-    Capacity Planning:
+### Capacity Planning
     • Current: 100 GB/day
     • 6 Months: 250 GB/day
     • 1 Year: 500 GB/day
     • Peak: 2x average
     
-    Performance Targets:
+### Performance Targets
     • Throughput: 1M records/minute
     • Latency: < 100ms per record
     • Processing: < 30 minutes end-to-end
@@ -478,25 +478,25 @@ Generate a comprehensive data pipeline design:
 
     ## Security Design
     
-    Data Security:
+### Data Security
     • Encryption at rest: AES-256
     • Encryption in transit: TLS 1.3
     • Key Management: AWS KMS
     • Data Masking: PII fields
     
-    Access Control:
+### Access Control
     • Authentication: SSO/LDAP
     • Authorization: RBAC
     • Audit Logging: All access
     • Principle: Least privilege
     
-    Compliance:
+### Compliance
     • GDPR: Right to erasure
     • CCPA: Data privacy
     • HIPAA: Healthcare data
     • PCI-DSS: Payment data
     
-    Data Governance:
+### Data Governance
     • Data Catalog: AWS Glue
     • Lineage Tracking: DataHub
     • Metadata Management
@@ -506,20 +506,20 @@ Generate a comprehensive data pipeline design:
 
     ## Cost Management
     
-    Resource Costs:
+### Resource Costs
     • Compute: $[X]/month
     • Storage: $[X]/TB/month
     • Network: $[X]/GB transfer
     • Tools: $[X]/month licenses
     
-    Optimization Strategies:
+### Optimization Strategies
     • Spot instances for batch
     • Reserved capacity for baseline
     • Data lifecycle policies
     • Compression optimization
     • Query result caching
     
-    Cost Monitoring:
+### Cost Monitoring
     • Budget alerts
     • Resource tagging
     • Usage reports
@@ -529,19 +529,19 @@ Generate a comprehensive data pipeline design:
 
     ## DR Strategy
     
-    Backup:
+### Backup
     • Frequency: Daily
     • Retention: 30 days
     • Location: Cross-region
     • Testing: Monthly
     
-    Recovery:
+### Recovery
     • RTO: 4 hours
     • RPO: 1 hour
     • Procedures: Documented
     • Automation: Scripted
     
-    Failover:
+### Failover
     • Active-Passive setup
     • Automatic detection
     • DNS switching
@@ -575,7 +575,7 @@ Generate a comprehensive data pipeline design:
     • Validation
     • Handover
 
-Ensure the pipeline design is:
+### Ensure the pipeline design is
 - Scalable and performant
 - Reliable and fault-tolerant
 - Secure and compliant

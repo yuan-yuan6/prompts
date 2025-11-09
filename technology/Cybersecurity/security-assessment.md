@@ -102,7 +102,7 @@ Vulnerability Assessment:
 - Apply CVSS v3.1 scoring with business impact analysis
 - Prioritize by exploitability and business impact vulnerability prioritization
 
-Penetration Testing:
+### Penetration Testing
 - Apply OWASP WSTG testing methodology
 - Test all user roles and privilege levels penetration scope
 - Define authorized testing scope rules of engagement

@@ -33,7 +33,7 @@ Organization Context:
 - Risk Management Maturity: [RISK_MATURITY_LEVEL]
 - Risk Appetite: [RISK_TOLERANCE]
 
-Business Environment:
+### Business Environment
 - Market Conditions: [MARKET_ENVIRONMENT]
 - Competitive Landscape: [COMPETITION_LEVEL]
 - Technology Dependencies: [TECH_DEPENDENCIES]
@@ -43,7 +43,7 @@ Business Environment:
 - Political Environment: [POLITICAL_STABILITY]
 - Environmental Factors: [ENVIRONMENTAL_RISKS]
 
-Current Risk Profile:
+### Current Risk Profile
 - Known Risk Areas: [IDENTIFIED_RISKS]
 - Previous Risk Events: [HISTORICAL_INCIDENTS]
 - Risk Management Systems: [CURRENT_SYSTEMS]
@@ -52,7 +52,7 @@ Current Risk Profile:
 - Risk Budget: [RISK_MANAGEMENT_BUDGET]
 - Risk Team Structure: [RISK_TEAM_SETUP]
 
-Strategic Objectives:
+### Strategic Objectives
 - Business Goals: [STRATEGIC_OBJECTIVES]
 - Growth Plans: [EXPANSION_PLANS]
 - Investment Priorities: [INVESTMENT_FOCUS]
@@ -471,7 +471,7 @@ Generate a comprehensive risk management framework that includes:
 - Regulatory requirement summaries
 - Risk management policy templates
 
-Ensure the risk management framework is:
+### Ensure the risk management framework is
 - Comprehensive and integrated
 - Aligned with business objectives
 - Scalable and adaptable

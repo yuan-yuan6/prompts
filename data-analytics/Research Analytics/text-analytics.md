@@ -34,7 +34,7 @@ Data Characteristics:
 - Format: [TEXT_FORMAT] (Plain text/HTML/PDF/JSON/CSV)
 - Encoding: [TEXT_ENCODING]
 
-Analysis Objectives:
+### Analysis Objectives
 - Primary goal: [PRIMARY_ANALYSIS_GOAL]
 - Secondary goals: [SECONDARY_GOALS]
 - Research questions: [RESEARCH_QUESTIONS]
@@ -43,8 +43,8 @@ Analysis Objectives:
 - Success metrics: [SUCCESS_METRICS]
 - Deliverable format: [DELIVERABLE_FORMAT]
 
-TEXT PREPROCESSING PIPELINE:
-Data Cleaning and Preparation:
+### TEXT PREPROCESSING PIPELINE
+### Data Cleaning and Preparation
 ```python
 import pandas as pd
 import numpy as np
@@ -2113,6 +2113,33 @@ Deliver comprehensive text analytics analysis including:
 
 ## Usage Examples
 
+
+
+## Best Practices
+
+1. **Start with clear objectives** - Define what success looks like before beginning
+2. **Use data to inform decisions** - Base choices on evidence and measurable outcomes
+3. **Iterate and improve continuously** - Treat implementation as an ongoing process
+4. **Engage stakeholders early** - Include key participants in planning and execution
+5. **Document thoroughly** - Maintain clear records for reference and knowledge transfer
+6. **Communicate regularly** - Keep all parties informed of progress and changes
+7. **Address challenges proactively** - Identify potential issues before they become problems
+8. **Celebrate milestones** - Recognize achievements to maintain motivation
+9. **Learn from experience** - Reflect on what works and adjust accordingly
+10. **Stay flexible** - Be ready to adapt based on feedback and changing circumstances
+
+## Tips for Success
+
+- Break complex tasks into manageable steps with clear milestones
+- Set realistic timelines that account for dependencies and constraints
+- Allocate sufficient resources including time, budget, and personnel
+- Use templates and frameworks to ensure consistency and quality
+- Seek feedback from users and stakeholders throughout the process
+- Build in checkpoints to assess progress and make adjustments
+- Maintain quality standards while remaining practical and efficient
+- Document lessons learned for future reference and improvement
+- Foster collaboration across teams and departments
+- Stay current with industry best practices and emerging trends
 ### Example 1: Social Media Sentiment Analysis
 ```
 TEXT_DATA_SOURCE: "Twitter API posts about brand mentions"

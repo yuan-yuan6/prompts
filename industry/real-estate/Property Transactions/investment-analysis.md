@@ -375,7 +375,7 @@ Mezzanine/Preferred:
 - Payment Structure: [MEZZ_PAYMENT]
 - Security: [MEZZ_SECURITY]
 
-Equity:
+### Equity
 - LP Equity: $[LP_EQUITY]
 - GP Equity: $[GP_EQUITY]
 - Total Equity: $[TOTAL_EQUITY]
@@ -383,13 +383,13 @@ Equity:
 - Preferred Return: [PREF_RETURN]%
 - Promote Structure: [PROMOTE]
 
-Sources & Uses:
-Sources:
+### Sources & Uses
+### Sources
 - Debt: $[DEBT_TOTAL]
 - Equity: $[EQUITY_TOTAL]
 - Total Sources: $[TOTAL_SOURCES]
 
-Uses:
+### Uses
 - Purchase Price: $[PURCHASE]
 - Closing Costs: $[CLOSING]
 - Renovation: $[RENOVATION]
@@ -438,14 +438,14 @@ Operational Improvements:
 - Ancillary Income: $[ANCILLARY]
 - Operational ROI: [OP_ROI]%
 
-Market Repositioning:
+### Market Repositioning
 - Tenant Mix: [TENANT_MIX]
 - Rebranding: [REBRAND]
 - Market Position: [MARKET_POSITION]
 - Rent Premiums: [RENT_PREMIUM]%
 - Stabilization Time: [STABILIZE_TIME]
 
-Technology Integration:
+### Technology Integration
 - PropTech Solutions: [PROPTECH]
 - Automation: [AUTOMATION]
 - Energy Efficiency: [ENERGY_EFF]
@@ -494,21 +494,21 @@ Key Metrics Summary:
 - Target Multiple: [TARGET_MULTIPLE]x
 - Hold Period: [HOLD_SUMMARY] years
 
-Investment Highlights:
+### Investment Highlights
 1. [HIGHLIGHT_1]
 2. [HIGHLIGHT_2]
 3. [HIGHLIGHT_3]
 4. [HIGHLIGHT_4]
 5. [HIGHLIGHT_5]
 
-Risk Factors:
+### Risk Factors
 1. [RISK_1]
 2. [RISK_2]
 3. [RISK_3]
 4. [RISK_4]
 5. [RISK_5]
 
-Recommendation:
+### Recommendation
 - Decision: [RECOMMEND_DECISION]
 - Conditions: [RECOMMEND_CONDITIONS]
 - Timeline: [RECOMMEND_TIMELINE]
@@ -517,6 +517,33 @@ Recommendation:
 
 ## Usage Examples
 
+
+
+## Best Practices
+
+1. **Start with clear objectives** - Define what success looks like before beginning
+2. **Use data to inform decisions** - Base choices on evidence and measurable outcomes
+3. **Iterate and improve continuously** - Treat implementation as an ongoing process
+4. **Engage stakeholders early** - Include key participants in planning and execution
+5. **Document thoroughly** - Maintain clear records for reference and knowledge transfer
+6. **Communicate regularly** - Keep all parties informed of progress and changes
+7. **Address challenges proactively** - Identify potential issues before they become problems
+8. **Celebrate milestones** - Recognize achievements to maintain motivation
+9. **Learn from experience** - Reflect on what works and adjust accordingly
+10. **Stay flexible** - Be ready to adapt based on feedback and changing circumstances
+
+## Tips for Success
+
+- Break complex tasks into manageable steps with clear milestones
+- Set realistic timelines that account for dependencies and constraints
+- Allocate sufficient resources including time, budget, and personnel
+- Use templates and frameworks to ensure consistency and quality
+- Seek feedback from users and stakeholders throughout the process
+- Build in checkpoints to assess progress and make adjustments
+- Maintain quality standards while remaining practical and efficient
+- Document lessons learned for future reference and improvement
+- Foster collaboration across teams and departments
+- Stay current with industry best practices and emerging trends
 ### Example 1: Multifamily Acquisition
 ```
 Property: 200-unit apartment complex

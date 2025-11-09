@@ -33,7 +33,7 @@ Manuscript Information:
 - Impact factor: [IMPACT_FACTOR]
 - Submission date: [SUBMISSION_DATE]
 
-Author Information:
+### Author Information
 - Corresponding author: [CORRESPONDING_AUTHOR]
 - Email: [CORRESPONDING_EMAIL]
 - ORCID: [ORCID_ID]
@@ -41,7 +41,7 @@ Author Information:
 - Co-authors: [COAUTHOR_LIST]
 - Author contributions: [CONTRIBUTION_STATEMENT]
 
-Research Details:
+### Research Details
 - Study type: [STUDY_TYPE]
 - Registration: [TRIAL_REGISTRATION]
 - Ethical approval: [ETHICS_APPROVAL]
@@ -49,7 +49,7 @@ Research Details:
 - Conflicts of interest: [COI_STATEMENT]
 - Data availability: [DATA_STATEMENT]
 
-TITLE PAGE:
+### TITLE PAGE
 
 ```
 [MANUSCRIPT_TITLE]
@@ -70,7 +70,7 @@ Email: [EMAIL]
 Phone: [PHONE]
 ORCID: [ORCID]
 
-Word Count: 
+### Word Count
 Abstract: [ABSTRACT_WORDS]
 Main text: [MAIN_TEXT_WORDS]
 References: [REFERENCE_COUNT]
@@ -84,11 +84,11 @@ ABSTRACT:
 
 Structured Abstract (250-300 words):
 ```
-BACKGROUND:
+### BACKGROUND
 [BACKGROUND_CONTEXT]
 [STUDY_RATIONALE]
 
-OBJECTIVE:
+### OBJECTIVE
 [PRIMARY_OBJECTIVE]
 [SECONDARY_OBJECTIVES]
 
@@ -100,20 +100,20 @@ Interventions: [INTERVENTIONS]
 Main Outcomes: [PRIMARY_OUTCOMES]
 Statistical Analysis: [STATISTICAL_METHODS]
 
-RESULTS:
+### RESULTS
 [PARTICIPANT_FLOW]
 [PRIMARY_RESULTS]
 [SECONDARY_RESULTS]
 [ADVERSE_EVENTS]
 
-CONCLUSIONS:
+### CONCLUSIONS
 [MAIN_CONCLUSIONS]
 [CLINICAL_IMPLICATIONS]
 
-TRIAL REGISTRATION:
+### TRIAL REGISTRATION
 [REGISTRATION_DETAILS]
 
-KEYWORDS:
+### KEYWORDS
 [KEYWORD_LIST]
 ```
 
@@ -139,11 +139,11 @@ Introduction:
 
 Methods:
 ```
-STUDY DESIGN:
+### STUDY DESIGN
 [DESIGN_DESCRIPTION]
 
-SETTING AND PARTICIPANTS:
-Setting:
+### SETTING AND PARTICIPANTS
+### Setting
 [SETTING_DETAILS]
 
 Participants:
@@ -152,7 +152,7 @@ Inclusion criteria:
 • [INCLUSION_2]
 • [INCLUSION_3]
 
-Exclusion criteria:
+### Exclusion criteria
 • [EXCLUSION_1]
 • [EXCLUSION_2]
 • [EXCLUSION_3]
@@ -160,23 +160,23 @@ Exclusion criteria:
 INTERVENTIONS/EXPOSURES:
 [INTERVENTION_DESCRIPTION]
 
-OUTCOMES:
-Primary outcome:
+### OUTCOMES
+### Primary outcome
 [PRIMARY_OUTCOME_DEFINITION]
 
-Secondary outcomes:
+### Secondary outcomes
 • [SECONDARY_1]
 • [SECONDARY_2]
 • [SECONDARY_3]
 
-SAMPLE SIZE:
+### SAMPLE SIZE
 [SAMPLE_SIZE_CALCULATION]
 
-RANDOMIZATION AND BLINDING:
+### RANDOMIZATION AND BLINDING
 [RANDOMIZATION_METHOD]
 [BLINDING_DESCRIPTION]
 
-STATISTICAL ANALYSIS:
+### STATISTICAL ANALYSIS
 [STATISTICAL_PLAN]
 - Descriptive statistics
 - Primary analysis
@@ -184,17 +184,17 @@ STATISTICAL ANALYSIS:
 - Sensitivity analyses
 - Software used
 
-ETHICAL CONSIDERATIONS:
+### ETHICAL CONSIDERATIONS
 [ETHICS_STATEMENT]
 ```
 
 Results:
 ```
-PARTICIPANT FLOW:
+### PARTICIPANT FLOW
 [FLOW_NARRATIVE]
 (See Figure 1: CONSORT/STROBE diagram)
 
-BASELINE CHARACTERISTICS:
+### BASELINE CHARACTERISTICS
 [BASELINE_DESCRIPTION]
 (See Table 1: Baseline characteristics)
 
@@ -204,30 +204,30 @@ PRIMARY OUTCOME:
 - Confidence interval: [CI]
 - P-value: [P_VALUE]
 
-SECONDARY OUTCOMES:
+### SECONDARY OUTCOMES
 [SECONDARY_OUTCOME_1]
 [SECONDARY_OUTCOME_2]
 [SECONDARY_OUTCOME_3]
 (See Table 2: Secondary outcomes)
 
-SUBGROUP ANALYSES:
+### SUBGROUP ANALYSES
 [SUBGROUP_RESULTS]
 (See Figure 2: Forest plot)
 
-ADVERSE EVENTS:
+### ADVERSE EVENTS
 [SAFETY_RESULTS]
 (See Table 3: Adverse events)
 
-ADDITIONAL FINDINGS:
+### ADDITIONAL FINDINGS
 [ADDITIONAL_RESULTS]
 ```
 
 Discussion:
 ```
-PRINCIPAL FINDINGS:
+### PRINCIPAL FINDINGS
 [MAIN_FINDINGS_SUMMARY]
 
-INTERPRETATION:
+### INTERPRETATION
 [FINDINGS_INTERPRETATION]
 [MECHANISMS_DISCUSSION]
 [CLINICAL_RELEVANCE]
@@ -238,27 +238,27 @@ COMPARISON WITH LITERATURE:
 - Contradictions explained
 - Novel contributions
 
-STRENGTHS:
+### STRENGTHS
 • [STRENGTH_1]
 • [STRENGTH_2]
 • [STRENGTH_3]
 
-LIMITATIONS:
+### LIMITATIONS
 • [LIMITATION_1]
 • [LIMITATION_2]
 • [LIMITATION_3]
 
-IMPLICATIONS:
-Clinical Practice:
+### IMPLICATIONS
+### Clinical Practice
 [PRACTICE_IMPLICATIONS]
 
-Research:
+### Research
 [RESEARCH_IMPLICATIONS]
 
-Policy:
+### Policy
 [POLICY_IMPLICATIONS]
 
-CONCLUSIONS:
+### CONCLUSIONS
 [FINAL_CONCLUSIONS]
 ```
 
@@ -272,33 +272,33 @@ Citation Style: [CITATION_STYLE] (Vancouver/APA/AMA)
 [Continue numbering...]
 ```
 
-TABLES:
+### TABLES
 
 Table 1: [TABLE_1_TITLE]
 ```
 [TABLE_1_CONTENT]
 
-Footnotes:
+### Footnotes
 a. [FOOTNOTE_A]
 b. [FOOTNOTE_B]
 
 Abbreviations: [ABBREVIATION_LIST]
 ```
 
-FIGURES:
+### FIGURES
 
 Figure 1: [FIGURE_1_TITLE]
 ```
 [FIGURE_1_DESCRIPTION]
 
-Legend:
+### Legend
 [FIGURE_1_LEGEND]
 
 Notes:
 [FIGURE_1_NOTES]
 ```
 
-SUPPLEMENTARY MATERIALS:
+### SUPPLEMENTARY MATERIALS
 
 Supplementary Methods:
 ```
@@ -307,7 +307,7 @@ Supplementary Methods:
 [TECHNICAL_DETAILS]
 ```
 
-Supplementary Results:
+### Supplementary Results
 ```
 [ADDITIONAL_ANALYSES]
 [SENSITIVITY_ANALYSES]
@@ -330,7 +330,7 @@ Figure S3: [SUPP_FIGURE_3]
 
 CONFERENCE ABSTRACT:
 
-Conference Abstract Format:
+### Conference Abstract Format
 ```
 TITLE: [ABSTRACT_TITLE]
 
@@ -344,10 +344,10 @@ BACKGROUND:
 METHODS:
 [METHODS_BRIEF]
 
-RESULTS:
+### RESULTS
 [RESULTS_BRIEF]
 
-CONCLUSIONS:
+### CONCLUSIONS
 [CONCLUSIONS_BRIEF]
 
 Character count: [CHARACTER_COUNT]/[LIMIT]
@@ -357,7 +357,7 @@ POSTER PRESENTATION:
 
 Poster Layout:
 ```
-HEADER SECTION:
+### HEADER SECTION
 - Title: [POSTER_TITLE]
 - Authors: [AUTHORS]
 - Affiliations: [AFFILIATIONS]
@@ -367,29 +367,29 @@ INTRODUCTION:
 [BRIEF_BACKGROUND]
 [OBJECTIVES]
 
-METHODS:
+### METHODS
 [VISUAL_METHODS]
 - Study design diagram
 - Key procedures
 - Timeline
 
-RESULTS:
+### RESULTS
 [KEY_FINDINGS]
 - Main figure
 - Summary table
 - Key statistics
 
-CONCLUSIONS:
+### CONCLUSIONS
 [MAIN_MESSAGES]
 [IMPLICATIONS]
 
-REFERENCES:
+### REFERENCES
 [SELECT_REFERENCES]
 
-ACKNOWLEDGMENTS:
+### ACKNOWLEDGMENTS
 [ACKNOWLEDGMENTS]
 
-CONTACT:
+### CONTACT
 [CONTACT_INFO]
 QR Code: [QR_CODE_LINK]
 ```
@@ -451,7 +451,7 @@ JOURNAL REQUIREMENTS:
 
 Submission Checklist:
 ```
-MANDATORY ITEMS:
+### MANDATORY ITEMS
 □ Title page
 □ Abstract
 □ Main manuscript
@@ -469,7 +469,7 @@ STATEMENTS:
 □ Data availability
 □ CONSORT/STROBE checklist
 
-SUPPLEMENTARY:
+### SUPPLEMENTARY
 □ Supplementary materials
 □ Raw data (if required)
 □ Statistical code
@@ -500,12 +500,12 @@ We are pleased to submit our manuscript entitled "[MANUSCRIPT_TITLE]" for consid
 
 [SUBMISSION_DECLARATION]
 
-We suggest the following reviewers:
+### We suggest the following reviewers
 1. [REVIEWER_1]: [EMAIL_1]
 2. [REVIEWER_2]: [EMAIL_2]
 3. [REVIEWER_3]: [EMAIL_3]
 
-We request exclusion of:
+### We request exclusion of
 [EXCLUDED_REVIEWERS]
 
 Thank you for considering our manuscript.
@@ -540,7 +540,7 @@ REVIEWER 2:
 EDITOR'S COMMENTS:
 [Responses to editor]
 
-SUMMARY OF CHANGES:
+### SUMMARY OF CHANGES
 [LIST_OF_MAJOR_CHANGES]
 
 We believe these revisions have strengthened the manuscript and hope it is now suitable for publication.
@@ -553,7 +553,7 @@ PUBLICATION METRICS:
 
 Impact Tracking:
 ```
-ALTMETRICS:
+### ALTMETRICS
 - Twitter mentions: [TWITTER_COUNT]
 - News coverage: [NEWS_COUNT]
 - Blog posts: [BLOG_COUNT]
@@ -564,7 +564,7 @@ CITATIONS:
 - PubMed: [PUBMED_CITATIONS]
 - Scopus: [SCOPUS_CITATIONS]
 
-DOWNLOADS:
+### DOWNLOADS
 - Article views: [VIEW_COUNT]
 - PDF downloads: [DOWNLOAD_COUNT]
 ```
@@ -573,7 +573,7 @@ AUTHORSHIP CRITERIA:
 
 ICMJE Criteria:
 ```
-Author Contributions:
+### Author Contributions
 [AUTHOR_1]: Conception ✓, Design ✓, Analysis ✓, Writing ✓
 [AUTHOR_2]: Design ✓, Data collection ✓, Analysis ✓, Review ✓
 [AUTHOR_3]: Data collection ✓, Analysis ✓, Review ✓
@@ -582,7 +582,7 @@ Author Contributions:
 All authors approved the final manuscript.
 ```
 
-PUBLICATION OUTPUT:
+### PUBLICATION OUTPUT
 [Generate complete publication package]
 
 Publication Type: [FINAL_PUB_TYPE]
@@ -593,7 +593,7 @@ Submission Ready: [SUBMISSION_STATUS]
 
 ---
 
-Publication Summary:
+### Publication Summary
 - Manuscript type: [TYPE]
 - Word count: [WORDS]
 - Tables/Figures: [TABLES_FIGURES]
@@ -615,6 +615,33 @@ OUTPUT: Deliver comprehensive publication package with:
 
 ## Usage Examples
 
+
+
+## Best Practices
+
+1. **Start with clear objectives** - Define what success looks like before beginning
+2. **Use data to inform decisions** - Base choices on evidence and measurable outcomes
+3. **Iterate and improve continuously** - Treat implementation as an ongoing process
+4. **Engage stakeholders early** - Include key participants in planning and execution
+5. **Document thoroughly** - Maintain clear records for reference and knowledge transfer
+6. **Communicate regularly** - Keep all parties informed of progress and changes
+7. **Address challenges proactively** - Identify potential issues before they become problems
+8. **Celebrate milestones** - Recognize achievements to maintain motivation
+9. **Learn from experience** - Reflect on what works and adjust accordingly
+10. **Stay flexible** - Be ready to adapt based on feedback and changing circumstances
+
+## Tips for Success
+
+- Break complex tasks into manageable steps with clear milestones
+- Set realistic timelines that account for dependencies and constraints
+- Allocate sufficient resources including time, budget, and personnel
+- Use templates and frameworks to ensure consistency and quality
+- Seek feedback from users and stakeholders throughout the process
+- Build in checkpoints to assess progress and make adjustments
+- Maintain quality standards while remaining practical and efficient
+- Document lessons learned for future reference and improvement
+- Foster collaboration across teams and departments
+- Stay current with industry best practices and emerging trends
 ### Example 1: Original Research Article
 ```
 PUBLICATION_TYPE: "Original research article"

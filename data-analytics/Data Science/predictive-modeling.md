@@ -39,7 +39,7 @@ Business Context:
 - Timeline constraints: [PROJECT_TIMELINE]
 - Resource requirements: [RESOURCE_REQUIREMENTS]
 
-Problem Formulation:
+### Problem Formulation
 - Machine learning task: [ML_TASK_TYPE] (Classification/Regression/Clustering/Ranking/Time Series/NLP/Computer Vision)
 - Problem complexity: [PROBLEM_COMPLEXITY] (Simple/Moderate/Complex/Very Complex)
 - Target variable: [TARGET_VARIABLE]
@@ -49,7 +49,7 @@ Problem Formulation:
 - Decision latency: [DECISION_LATENCY]
 - Batch vs real-time: [SERVING_MODE]
 
-Performance Requirements:
+### Performance Requirements
 - Primary metric: [PRIMARY_METRIC]
 - Secondary metrics: [SECONDARY_METRICS]
 - Baseline performance: [BASELINE_PERFORMANCE]
@@ -59,9 +59,9 @@ Performance Requirements:
 - Business constraints: [BUSINESS_CONSTRAINTS]
 - Regulatory requirements: [REGULATORY_REQUIREMENTS]
 
-DATA ARCHITECTURE:
-Data Sources:
-Primary Dataset:
+### DATA ARCHITECTURE
+### Data Sources
+### Primary Dataset
 - Source name: [PRIMARY_SOURCE]
 - Data format: [DATA_FORMAT]
 - Update frequency: [DATA_UPDATE_FREQ]
@@ -71,12 +71,12 @@ Primary Dataset:
 - Data latency: [DATA_LATENCY]
 - Cost per query: [DATA_COST]
 
-Secondary Sources:
+### Secondary Sources
 1. [SECONDARY_SOURCE_1]: [SOURCE_1_DETAILS]
 2. [SECONDARY_SOURCE_2]: [SOURCE_2_DETAILS]
 3. [SECONDARY_SOURCE_3]: [SOURCE_3_DETAILS]
 
-External Enrichment:
+### External Enrichment
 - Weather data: [WEATHER_DATA]
 - Economic indicators: [ECONOMIC_DATA]
 - Demographics: [DEMOGRAPHIC_DATA]
@@ -84,8 +84,8 @@ External Enrichment:
 - Social media signals: [SOCIAL_DATA]
 - News/sentiment data: [NEWS_SENTIMENT]
 
-Dataset Composition:
-Training Data:
+### Dataset Composition
+### Training Data
 - Training set size: [TRAIN_SIZE]
 - Training period: [TRAIN_PERIOD]
 - Feature count: [FEATURE_COUNT]
@@ -93,7 +93,7 @@ Training Data:
 - Class balance: [CLASS_BALANCE]
 - Data completeness: [TRAIN_COMPLETENESS]
 
-Validation Data:
+### Validation Data
 - Validation set size: [VAL_SIZE]
 - Validation strategy: [VAL_STRATEGY]
 - Temporal split: [TEMPORAL_SPLIT]
@@ -101,15 +101,15 @@ Validation Data:
 - Cross-validation folds: [CV_FOLDS]
 - Holdout percentage: [HOLDOUT_PERCENT]
 
-Test Data:
+### Test Data
 - Test set size: [TEST_SIZE]
 - Test period: [TEST_PERIOD]
 - Out-of-time testing: [OOT_TESTING]
 - Hold-out strategy: [HOLDOUT_STRATEGY]
 - Test completeness: [TEST_COMPLETENESS]
 
-FEATURE ENGINEERING:
-Raw Features Analysis:
+### FEATURE ENGINEERING
+### Raw Features Analysis
 - Total raw features: [RAW_FEATURES_COUNT]
 - Numerical features: [NUM_FEATURES] ([NUM_PERCENTAGE]%)
 - Categorical features: [CAT_FEATURES] ([CAT_PERCENTAGE]%)
@@ -118,8 +118,8 @@ Raw Features Analysis:
 - High cardinality features: [HIGH_CARD_FEATURES]
 - Missing data features: [MISSING_DATA_FEATURES]
 
-Feature Creation Pipeline:
-Numerical Transformations:
+### Feature Creation Pipeline
+### Numerical Transformations
 1. Scaling and Normalization:
    - Standard scaling: [STANDARD_SCALE_FEATURES]
    - Min-max scaling: [MINMAX_SCALE_FEATURES]
@@ -149,7 +149,7 @@ Numerical Transformations:
    - Seasonal decomposition: [SEASONAL_FEATURES]
    - Trend features: [TREND_FEATURES]
 
-Categorical Encoding:
+### Categorical Encoding
 1. Traditional Encoding:
    - One-hot encoding: [ONEHOT_FEATURES]
    - Ordinal encoding: [ORDINAL_FEATURES]
@@ -170,7 +170,7 @@ Categorical Encoding:
    - Similarity encoding: [SIMILARITY_ENCODING]
    - Rare category grouping: [RARE_GROUPING]
 
-Interaction Features:
+### Interaction Features
 1. Pairwise Interactions:
    - Multiplication: [MULT_INTERACTIONS]
    - Division: [DIV_INTERACTIONS]
@@ -205,7 +205,7 @@ Text Feature Engineering (if applicable):
    - Sentiment scores: [SENTIMENT_FEATURES]
    - Named entity features: [NER_FEATURES]
 
-Feature Selection Strategy:
+### Feature Selection Strategy
 1. Statistical Methods:
    - Univariate selection: [UNIVARIATE_SELECTION]
    - Correlation threshold: [CORRELATION_THRESHOLD]
@@ -228,15 +228,15 @@ Feature Selection Strategy:
    - t-SNE embedding: [TSNE_COMPONENTS]
    - UMAP embedding: [UMAP_COMPONENTS]
 
-Final Feature Set:
+### Final Feature Set
 - Selected features count: [FINAL_FEATURE_COUNT]
 - Feature importance ranking: [FEATURE_RANKING]
 - Feature stability score: [FEATURE_STABILITY]
 - Multi-collinearity assessment: [MULTICOLLINEARITY]
 - Feature quality score: [FEATURE_QUALITY]
 
-ALGORITHM SELECTION & MODELING:
-Model Candidates:
+### ALGORITHM SELECTION & MODELING
+### Model Candidates
 1. Baseline Models:
    - Random guess: [RANDOM_BASELINE]
    - Most frequent class: [MOST_FREQUENT_BASELINE]
@@ -246,52 +246,52 @@ Model Candidates:
    - Performance: [BASELINE_PERFORMANCE]
 
 2. Linear Models:
-   Linear Regression:
+### Linear Regression
    - Implementation: [LINEAR_REG_IMPL]
    - Regularization: [LINEAR_REG_REGULARIZATION]
    - Performance: [LINEAR_REG_PERFORMANCE]
    
-   Logistic Regression:
+### Logistic Regression
    - Implementation: [LOGISTIC_REG_IMPL]
    - Regularization: [LOGISTIC_REG_REGULARIZATION]
    - Performance: [LOGISTIC_REG_PERFORMANCE]
    
-   Ridge Regression:
+### Ridge Regression
    - Alpha parameter: [RIDGE_ALPHA]
    - Cross-validation: [RIDGE_CV]
    - Performance: [RIDGE_PERFORMANCE]
    
-   Lasso Regression:
+### Lasso Regression
    - Alpha parameter: [LASSO_ALPHA]
    - Feature selection: [LASSO_FEATURES]
    - Performance: [LASSO_PERFORMANCE]
    
-   Elastic Net:
+### Elastic Net
    - Alpha parameter: [ELASTIC_ALPHA]
    - L1 ratio: [ELASTIC_L1_RATIO]
    - Performance: [ELASTIC_PERFORMANCE]
 
 3. Tree-Based Models:
-   Decision Tree:
+### Decision Tree
    - Max depth: [DT_MAX_DEPTH]
    - Min samples split: [DT_MIN_SPLIT]
    - Min samples leaf: [DT_MIN_LEAF]
    - Performance: [DT_PERFORMANCE]
    
-   Random Forest:
+### Random Forest
    - Number of estimators: [RF_N_ESTIMATORS]
    - Max features: [RF_MAX_FEATURES]
    - Max depth: [RF_MAX_DEPTH]
    - Bootstrap: [RF_BOOTSTRAP]
    - Performance: [RF_PERFORMANCE]
    
-   Extra Trees:
+### Extra Trees
    - Number of estimators: [ET_N_ESTIMATORS]
    - Max features: [ET_MAX_FEATURES]
    - Performance: [ET_PERFORMANCE]
 
 4. Gradient Boosting:
-   XGBoost:
+### XGBoost
    - Learning rate: [XGB_LEARNING_RATE]
    - Max depth: [XGB_MAX_DEPTH]
    - N estimators: [XGB_N_ESTIMATORS]
@@ -300,7 +300,7 @@ Model Candidates:
    - Gamma: [XGB_GAMMA]
    - Performance: [XGB_PERFORMANCE]
    
-   LightGBM:
+### LightGBM
    - Learning rate: [LGBM_LEARNING_RATE]
    - Num leaves: [LGBM_NUM_LEAVES]
    - N estimators: [LGBM_N_ESTIMATORS]
@@ -308,7 +308,7 @@ Model Candidates:
    - Bagging fraction: [LGBM_BAGGING_FRACTION]
    - Performance: [LGBM_PERFORMANCE]
    
-   CatBoost:
+### CatBoost
    - Learning rate: [CAT_LEARNING_RATE]
    - Iterations: [CAT_ITERATIONS]
    - Depth: [CAT_DEPTH]
@@ -327,7 +327,7 @@ Model Candidates:
    - Epochs: [MLP_EPOCHS]
    - Performance: [MLP_PERFORMANCE]
    
-   Deep Neural Network:
+### Deep Neural Network
    - Layer count: [DNN_LAYERS]
    - Layer sizes: [DNN_LAYER_SIZES]
    - Batch normalization: [DNN_BATCH_NORM]
@@ -335,31 +335,31 @@ Model Candidates:
    - Performance: [DNN_PERFORMANCE]
 
 6. Support Vector Machines:
-   SVM Classifier:
+### SVM Classifier
    - Kernel type: [SVM_KERNEL]
    - C parameter: [SVM_C]
    - Gamma: [SVM_GAMMA]
    - Performance: [SVM_PERFORMANCE]
    
-   SVM Regressor:
+### SVM Regressor
    - Kernel type: [SVR_KERNEL]
    - Epsilon: [SVR_EPSILON]
    - Performance: [SVR_PERFORMANCE]
 
 7. Ensemble Methods:
-   Voting Classifier:
+### Voting Classifier
    - Estimators: [VOTING_ESTIMATORS]
    - Voting type: [VOTING_TYPE]
    - Weights: [VOTING_WEIGHTS]
    - Performance: [VOTING_PERFORMANCE]
    
-   Stacking:
+### Stacking
    - Level 1 models: [STACK_L1_MODELS]
    - Meta-learner: [STACK_META_LEARNER]
    - CV folds: [STACK_CV_FOLDS]
    - Performance: [STACK_PERFORMANCE]
    
-   Blending:
+### Blending
    - Base models: [BLEND_BASE_MODELS]
    - Blend weights: [BLEND_WEIGHTS]
    - Performance: [BLEND_PERFORMANCE]
@@ -371,13 +371,13 @@ Model Candidates:
    - Weights: [KNN_WEIGHTS]
    - Performance: [KNN_PERFORMANCE]
    
-   Naive Bayes:
+### Naive Bayes
    - Algorithm type: [NB_TYPE]
    - Smoothing parameter: [NB_ALPHA]
    - Performance: [NB_PERFORMANCE]
 
-HYPERPARAMETER OPTIMIZATION:
-Search Strategy:
+### HYPERPARAMETER OPTIMIZATION
+### Search Strategy
 - Optimization method: [HPO_METHOD] (Grid Search/Random Search/Bayesian/Genetic/Hyperband)
 - Search space definition: [SEARCH_SPACE]
 - Number of trials: [HPO_TRIALS]
@@ -386,8 +386,8 @@ Search Strategy:
 - Early stopping: [HPO_EARLY_STOPPING]
 - Cross-validation: [HPO_CV_STRATEGY]
 
-Optimization Results:
-Best Model Configuration:
+### Optimization Results
+### Best Model Configuration
 - Algorithm: [BEST_ALGORITHM]
 - Hyperparameters: [BEST_HYPERPARAMS]
 - Cross-validation score: [BEST_CV_SCORE]
@@ -395,15 +395,15 @@ Best Model Configuration:
 - Training time: [BEST_TRAIN_TIME]
 - Inference time: [BEST_INFERENCE_TIME]
 
-Search Performance:
+### Search Performance
 - Total search time: [TOTAL_SEARCH_TIME]
 - Evaluations completed: [EVALUATIONS_COMPLETED]
 - Best score found: [BEST_SCORE_FOUND]
 - Convergence iteration: [CONVERGENCE_ITERATION]
 - Resource utilization: [RESOURCE_UTILIZATION]
 
-MODEL TRAINING:
-Training Environment:
+### MODEL TRAINING
+### Training Environment
 - Hardware specifications: [HARDWARE_SPECS]
 - GPU acceleration: [GPU_ACCELERATION]
 - Memory allocation: [MEMORY_ALLOCATION]
@@ -411,7 +411,7 @@ Training Environment:
 - Framework version: [FRAMEWORK_VERSION]
 - Random seed: [RANDOM_SEED]
 
-Training Process:
+### Training Process
 - Training algorithm: [TRAINING_ALGORITHM]
 - Training time: [TRAINING_TIME]
 - Convergence criteria: [CONVERGENCE_CRITERIA]
@@ -420,7 +420,7 @@ Training Process:
 - Batch size: [BATCH_SIZE]
 - Number of epochs: [NUM_EPOCHS]
 
-Model Artifacts:
+### Model Artifacts
 - Model file size: [MODEL_SIZE]
 - Model format: [MODEL_FORMAT]
 - Feature pipeline: [FEATURE_PIPELINE]
@@ -428,8 +428,8 @@ Model Artifacts:
 - Model version: [MODEL_VERSION]
 - Training checkpoints: [TRAINING_CHECKPOINTS]
 
-Feature Importance Analysis:
-Global Importance:
+### Feature Importance Analysis
+### Global Importance
 Top 20 Features:
 1. [FEATURE_1]: Importance = [IMPORTANCE_1]
 2. [FEATURE_2]: Importance = [IMPORTANCE_2]
@@ -438,20 +438,20 @@ Top 20 Features:
 5. [FEATURE_5]: Importance = [IMPORTANCE_5]
 [... continue for top 20]
 
-SHAP Analysis:
+### SHAP Analysis
 - Global SHAP values: [SHAP_GLOBAL]
 - Feature interactions: [SHAP_INTERACTIONS]
 - Dependency plots: [SHAP_DEPENDENCIES]
 - Waterfall explanations: [SHAP_WATERFALL]
 - Partial dependence: [PARTIAL_DEPENDENCE]
 
-Permutation Importance:
+### Permutation Importance
 - Permutation scores: [PERM_SCORES]
 - Feature ranking: [PERM_RANKING]
 - Confidence intervals: [PERM_CI]
 
-MODEL EVALUATION:
-Performance Metrics:
+### MODEL EVALUATION
+### Performance Metrics
 Classification Metrics (if applicable):
 - Accuracy: [ACCURACY]
 - Precision: [PRECISION]
@@ -468,7 +468,7 @@ Classification Metrics (if applicable):
 - Balanced Accuracy: [BALANCED_ACCURACY]
 - Classification Report: [CLASSIFICATION_REPORT]
 
-Confusion Matrix:
+### Confusion Matrix
 |            | Predicted 0 | Predicted 1 | Predicted 2 |
 |------------|-------------|-------------|-------------|
 | Actual 0   | [TN_0]      | [FP_01]     | [FP_02]     |
@@ -511,57 +511,57 @@ Time-Based Validation:
 - Purged cross-validation: [PURGED_CV]
 - Temporal stability: [TEMPORAL_STABILITY]
 
-Model Robustness:
+### Model Robustness
 - Adversarial testing: [ADVERSARIAL_TESTING]
 - Noise resistance: [NOISE_RESISTANCE]
 - Feature stability: [FEATURE_STABILITY]
 - Distribution shift: [DISTRIBUTION_SHIFT]
 - Concept drift: [CONCEPT_DRIFT]
 
-Business Validation:
+### Business Validation
 - Business metric correlation: [BUSINESS_METRIC_CORR]
 - A/B test results: [AB_TEST_RESULTS]
 - Cost-benefit analysis: [COST_BENEFIT]
 - ROI estimation: [ROI_ESTIMATION]
 - Impact measurement: [IMPACT_MEASUREMENT]
 
-ERROR ANALYSIS:
-Error Distribution:
+### ERROR ANALYSIS
+### Error Distribution
 - Error mean: [ERROR_MEAN]
 - Error variance: [ERROR_VARIANCE]
 - Error skewness: [ERROR_SKEWNESS]
 - Error kurtosis: [ERROR_KURTOSIS]
 - Heteroscedasticity test: [HETEROSCEDASTICITY]
 
-Error Patterns:
+### Error Patterns
 - Systematic bias: [SYSTEMATIC_BIAS]
 - Seasonal errors: [SEASONAL_ERRORS]
 - Segment-specific errors: [SEGMENT_ERRORS]
 - Feature-dependent errors: [FEATURE_DEPENDENT_ERRORS]
 - Temporal error patterns: [TEMPORAL_ERROR_PATTERNS]
 
-Worst Predictions Analysis:
+### Worst Predictions Analysis
 Top 10 Worst Predictions:
 1. True: [TRUE_1], Predicted: [PRED_1], Error: [ERROR_1]
 2. True: [TRUE_2], Predicted: [PRED_2], Error: [ERROR_2]
 3. True: [TRUE_3], Predicted: [PRED_3], Error: [ERROR_3]
 [... continue for top 10]
 
-Error Root Cause Analysis:
+### Error Root Cause Analysis
 - Data quality issues: [DQ_ERROR_CAUSES]
 - Feature engineering gaps: [FE_ERROR_CAUSES]
 - Model limitations: [MODEL_ERROR_CAUSES]
 - Edge case handling: [EDGE_CASE_ERRORS]
 
-MODEL VALIDATION & TESTING:
-Validation Strategy:
+### MODEL VALIDATION & TESTING
+### Validation Strategy
 - Validation approach: [VALIDATION_APPROACH]
 - Test set composition: [TEST_SET_COMPOSITION]
 - Temporal validation: [TEMPORAL_VALIDATION]
 - Geographic validation: [GEOGRAPHIC_VALIDATION]
 - Demographic validation: [DEMOGRAPHIC_VALIDATION]
 
-Bias and Fairness Testing:
+### Bias and Fairness Testing
 - Demographic parity: [DEMOGRAPHIC_PARITY]
 - Equalized odds: [EQUALIZED_ODDS]
 - Equal opportunity: [EQUAL_OPPORTUNITY]
@@ -569,50 +569,50 @@ Bias and Fairness Testing:
 - Disparate impact: [DISPARATE_IMPACT]
 - Individual fairness: [INDIVIDUAL_FAIRNESS]
 
-Stability Testing:
+### Stability Testing
 - Feature importance stability: [FI_STABILITY]
 - Prediction stability: [PREDICTION_STABILITY]
 - Performance over time: [PERFORMANCE_OVER_TIME]
 - Seasonal performance: [SEASONAL_PERFORMANCE]
 - Cohort analysis: [COHORT_ANALYSIS]
 
-Stress Testing:
+### Stress Testing
 - High volume testing: [HIGH_VOLUME_TEST]
 - Edge case testing: [EDGE_CASE_TEST]
 - Missing data simulation: [MISSING_DATA_TEST]
 - Outlier injection: [OUTLIER_TEST]
 - Data corruption testing: [CORRUPTION_TEST]
 
-MODEL OPTIMIZATION:
-Performance Optimization:
+### MODEL OPTIMIZATION
+### Performance Optimization
 - Model compression: [MODEL_COMPRESSION]
 - Quantization: [QUANTIZATION]
 - Pruning: [MODEL_PRUNING]
 - Distillation: [MODEL_DISTILLATION]
 - Hardware optimization: [HARDWARE_OPTIMIZATION]
 
-Threshold Optimization:
+### Threshold Optimization
 - Optimal threshold: [OPTIMAL_THRESHOLD]
 - Business cost matrix: [COST_MATRIX]
 - Precision-recall trade-off: [PR_TRADEOFF]
 - ROC optimization: [ROC_OPTIMIZATION]
 - Multi-threshold strategy: [MULTI_THRESHOLD]
 
-Calibration:
+### Calibration
 - Calibration method: [CALIBRATION_METHOD]
 - Calibration curve: [CALIBRATION_CURVE]
 - Brier score decomposition: [BRIER_DECOMPOSITION]
 - Reliability diagram: [RELIABILITY_DIAGRAM]
 - Expected calibration error: [EXPECTED_CAL_ERROR]
 
-Ensemble Optimization:
+### Ensemble Optimization
 - Ensemble weights: [ENSEMBLE_WEIGHTS]
 - Dynamic weighting: [DYNAMIC_WEIGHTING]
 - Conditional ensembling: [CONDITIONAL_ENSEMBLE]
 - Stacked generalization: [STACKED_GENERALIZATION]
 
-DEPLOYMENT STRATEGY:
-Infrastructure Architecture:
+### DEPLOYMENT STRATEGY
+### Infrastructure Architecture
 - Deployment platform: [DEPLOYMENT_PLATFORM]
 - Cloud provider: [CLOUD_PROVIDER]
 - Container technology: [CONTAINER_TECH]
@@ -620,7 +620,7 @@ Infrastructure Architecture:
 - Load balancing: [LOAD_BALANCING]
 - Auto-scaling: [AUTO_SCALING]
 
-Serving Configuration:
+### Serving Configuration
 - Serving mode: [SERVING_MODE] (Batch/Real-time/Streaming)
 - API specification: [API_SPECIFICATION]
 - Request format: [REQUEST_FORMAT]
@@ -629,7 +629,7 @@ Serving Configuration:
 - Throughput requirements: [THROUGHPUT_REQUIREMENTS]
 - Concurrent users: [CONCURRENT_USERS]
 
-Model Versioning:
+### Model Versioning
 - Version control system: [VERSION_CONTROL]
 - Model registry: [MODEL_REGISTRY]
 - Artifact management: [ARTIFACT_MANAGEMENT]
@@ -637,8 +637,8 @@ Model Versioning:
 - A/B testing framework: [AB_TESTING_FRAMEWORK]
 - Blue-green deployment: [BLUE_GREEN_DEPLOYMENT]
 
-MONITORING & MAINTENANCE:
-Performance Monitoring:
+### MONITORING & MAINTENANCE
+### Performance Monitoring
 Real-time Metrics:
 - Prediction accuracy: [RT_ACCURACY]
 - Response latency: [RT_LATENCY]
@@ -648,14 +648,14 @@ Real-time Metrics:
 - Queue depth: [RT_QUEUE_DEPTH]
 - Cache hit rate: [RT_CACHE_HIT]
 
-Model Health Metrics:
+### Model Health Metrics
 - Prediction distribution: [PRED_DISTRIBUTION]
 - Feature distribution: [FEATURE_DISTRIBUTION]
 - Model confidence: [MODEL_CONFIDENCE]
 - Uncertainty quantification: [UNCERTAINTY_QUANTIFICATION]
 - Anomaly detection: [ANOMALY_DETECTION]
 
-Data Drift Detection:
+### Data Drift Detection
 - Input drift monitoring: [INPUT_DRIFT]
 - Feature drift detection: [FEATURE_DRIFT]
 - Target drift monitoring: [TARGET_DRIFT]
@@ -663,28 +663,28 @@ Data Drift Detection:
 - Prior probability shift: [PRIOR_SHIFT]
 - Concept drift: [CONCEPT_DRIFT]
 
-Drift Detection Methods:
+### Drift Detection Methods
 - Population Stability Index: [PSI_MONITORING]
 - Kolmogorov-Smirnov test: [KS_MONITORING]
 - Chi-square test: [CHI2_MONITORING]
 - Jensen-Shannon divergence: [JS_MONITORING]
 - Maximum Mean Discrepancy: [MMD_MONITORING]
 
-Alerting System:
+### Alerting System
 - Alert thresholds: [ALERT_THRESHOLDS]
 - Escalation procedures: [ESCALATION_PROCEDURES]
 - Notification channels: [NOTIFICATION_CHANNELS]
 - Alert severity levels: [SEVERITY_LEVELS]
 - Response procedures: [RESPONSE_PROCEDURES]
 
-Model Decay Detection:
+### Model Decay Detection
 - Performance degradation: [PERFORMANCE_DEGRADATION]
 - Decay rate: [DECAY_RATE]
 - Degradation triggers: [DEGRADATION_TRIGGERS]
 - Retraining triggers: [RETRAINING_TRIGGERS]
 - Model refresh schedule: [REFRESH_SCHEDULE]
 
-Automated Retraining:
+### Automated Retraining
 - Retraining frequency: [RETRAINING_FREQUENCY]
 - Retraining triggers: [RETRAINING_TRIGGERS]
 - Data refresh: [DATA_REFRESH]
@@ -692,8 +692,8 @@ Automated Retraining:
 - Automated deployment: [AUTOMATED_DEPLOYMENT]
 - Human-in-the-loop: [HUMAN_IN_LOOP]
 
-DOCUMENTATION & GOVERNANCE:
-Technical Documentation:
+### DOCUMENTATION & GOVERNANCE
+### Technical Documentation
 - Model card: [MODEL_CARD]
 - Algorithm documentation: [ALGORITHM_DOCS]
 - Feature documentation: [FEATURE_DOCS]
@@ -702,7 +702,7 @@ Technical Documentation:
 - Deployment guide: [DEPLOYMENT_GUIDE]
 - Troubleshooting guide: [TROUBLESHOOTING_GUIDE]
 
-Business Documentation:
+### Business Documentation
 - Use case specification: [USE_CASE_SPEC]
 - Business requirements: [BUSINESS_REQUIREMENTS]
 - Success metrics: [SUCCESS_METRICS]
@@ -711,7 +711,7 @@ Business Documentation:
 - Regulatory compliance: [REGULATORY_COMPLIANCE]
 - Stakeholder signoff: [STAKEHOLDER_SIGNOFF]
 
-Model Governance:
+### Model Governance
 - Model approval process: [APPROVAL_PROCESS]
 - Model review board: [REVIEW_BOARD]
 - Compliance checklist: [COMPLIANCE_CHECKLIST]
@@ -720,8 +720,8 @@ Model Governance:
 - Risk classification: [RISK_CLASSIFICATION]
 - Model lifecycle stage: [LIFECYCLE_STAGE]
 
-RISK MANAGEMENT:
-Model Risks:
+### RISK MANAGEMENT
+### Model Risks
 1. Technical Risks:
    - Overfitting: Risk: [OVERFITTING_RISK], Mitigation: [OVERFITTING_MITIGATION]
    - Data quality: Risk: [DATA_QUALITY_RISK], Mitigation: [DQ_MITIGATION]
@@ -741,15 +741,15 @@ Model Risks:
    - Financial impact: Risk: [FINANCIAL_RISK], Mitigation: [FINANCIAL_MITIGATION]
    - Competitive disadvantage: Risk: [COMPETITIVE_RISK], Mitigation: [COMPETITIVE_MITIGATION]
 
-Contingency Planning:
+### Contingency Planning
 - Fallback strategy: [FALLBACK_STRATEGY]
 - Manual override process: [MANUAL_OVERRIDE]
 - Business continuity plan: [BUSINESS_CONTINUITY]
 - Incident response plan: [INCIDENT_RESPONSE]
 - Disaster recovery: [DISASTER_RECOVERY]
 
-BUSINESS IMPACT:
-Expected Outcomes:
+### BUSINESS IMPACT
+### Expected Outcomes
 - Primary business metric improvement: [PRIMARY_IMPROVEMENT]
 - Secondary metric improvements: [SECONDARY_IMPROVEMENTS]
 - Cost savings: [COST_SAVINGS]
@@ -759,7 +759,7 @@ Expected Outcomes:
 - Customer satisfaction impact: [CUSTOMER_SATISFACTION]
 - Market competitive advantage: [COMPETITIVE_ADVANTAGE]
 
-Success Measurement:
+### Success Measurement
 - KPI tracking: [KPI_TRACKING]
 - Before/after analysis: [BEFORE_AFTER_ANALYSIS]
 - A/B test results: [AB_TEST_RESULTS]
@@ -790,6 +790,33 @@ OUTPUT: Deliver comprehensive ML solution including:
 
 ## Usage Examples
 
+
+
+## Best Practices
+
+1. **Start with clear objectives** - Define what success looks like before beginning
+2. **Use data to inform decisions** - Base choices on evidence and measurable outcomes
+3. **Iterate and improve continuously** - Treat implementation as an ongoing process
+4. **Engage stakeholders early** - Include key participants in planning and execution
+5. **Document thoroughly** - Maintain clear records for reference and knowledge transfer
+6. **Communicate regularly** - Keep all parties informed of progress and changes
+7. **Address challenges proactively** - Identify potential issues before they become problems
+8. **Celebrate milestones** - Recognize achievements to maintain motivation
+9. **Learn from experience** - Reflect on what works and adjust accordingly
+10. **Stay flexible** - Be ready to adapt based on feedback and changing circumstances
+
+## Tips for Success
+
+- Break complex tasks into manageable steps with clear milestones
+- Set realistic timelines that account for dependencies and constraints
+- Allocate sufficient resources including time, budget, and personnel
+- Use templates and frameworks to ensure consistency and quality
+- Seek feedback from users and stakeholders throughout the process
+- Build in checkpoints to assess progress and make adjustments
+- Maintain quality standards while remaining practical and efficient
+- Document lessons learned for future reference and improvement
+- Foster collaboration across teams and departments
+- Stay current with industry best practices and emerging trends
 ### Example 1: Customer Churn Prediction
 ```
 PREDICTION_TASK: "Customer churn prediction for telecommunications"

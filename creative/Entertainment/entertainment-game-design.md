@@ -34,7 +34,7 @@ Project Overview:
 - Development timeline: [DEVELOPMENT_TIMELINE]
 - Team size: [TEAM_SIZE]
 
-Creative Vision:
+### Creative Vision
 - Core concept: [CORE_CONCEPT]
 - Unique selling proposition: [UNIQUE_SELLING_PROPOSITION]
 - Core gameplay loop: [CORE_GAMEPLAY_LOOP]
@@ -44,7 +44,7 @@ Creative Vision:
 - Art direction: [ART_DIRECTION]
 - Comparable games: [COMPARABLE_GAMES]
 
-Market Context:
+### Market Context
 - Market segment: [MARKET_SEGMENT]
 - Competition analysis: [COMPETITION_ANALYSIS]
 - Monetization model: [MONETIZATION_MODEL]
@@ -54,10 +54,10 @@ Market Context:
 - Budget considerations: [BUDGET_CONSIDERATIONS]
 - Post-launch support: [POST_LAUNCH_SUPPORT]
 
-NARRATIVE DESIGN:
+### NARRATIVE DESIGN
 
-Story Framework:
-Core Narrative:
+### Story Framework
+### Core Narrative
 - Setting: [SETTING]
 - Time period: [TIME_PERIOD]
 - World description: [WORLD_DESCRIPTION]
@@ -67,8 +67,8 @@ Core Narrative:
 - Story structure: [STORY_STRUCTURE]
 - Narrative length: [NARRATIVE_LENGTH]
 
-Character Development:
-Protagonist:
+### Character Development
+### Protagonist
 - Name: [PROTAGONIST_NAME]
 - Background: [PROTAGONIST_BACKGROUND]
 - Motivation: [PROTAGONIST_MOTIVATION]
@@ -78,7 +78,7 @@ Protagonist:
 - Visual design: [PROTAGONIST_VISUAL_DESIGN]
 - Voice/dialogue style: [PROTAGONIST_VOICE]
 
-Antagonist:
+### Antagonist
 - Name: [ANTAGONIST_NAME]
 - Background: [ANTAGONIST_BACKGROUND]
 - Motivation: [ANTAGONIST_MOTIVATION]
@@ -88,7 +88,7 @@ Antagonist:
 - Visual design: [ANTAGONIST_VISUAL_DESIGN]
 - Voice/dialogue style: [ANTAGONIST_VOICE]
 
-Supporting Characters:
+### Supporting Characters
 Character 1: [SUPPORTING_CHARACTER_1]
 - Role: [SUPPORT_1_ROLE]
 - Personality: [SUPPORT_1_PERSONALITY]
@@ -103,8 +103,8 @@ Character 2: [SUPPORTING_CHARACTER_2]
 - Abilities/skills: [SUPPORT_2_ABILITIES]
 - Character arc: [SUPPORT_2_ARC]
 
-World Building:
-Game World:
+### World Building
+### Game World
 - World name: [WORLD_NAME]
 - World scope: [WORLD_SCOPE] (Single location/Region/Planet/Universe)
 - History/lore: [WORLD_HISTORY]
@@ -129,7 +129,7 @@ Faction 2: [FACTION_2_NAME]
 - Resources: [FACTION_2_RESOURCES]
 - Relationship to player: [FACTION_2_PLAYER_RELATIONSHIP]
 
-Story Delivery:
+### Story Delivery
 - Cutscenes: [CUTSCENE_APPROACH]
 - In-game dialogue: [DIALOGUE_SYSTEM]
 - Environmental storytelling: [ENVIRONMENTAL_STORYTELLING]
@@ -139,10 +139,10 @@ Story Delivery:
 - Branching dialogue: [BRANCHING_DIALOGUE]
 - Player choice impact: [PLAYER_CHOICE_IMPACT]
 
-GAME MECHANICS:
+### GAME MECHANICS
 
-Core Mechanics:
-Primary Mechanics:
+### Core Mechanics
+### Primary Mechanics
 Mechanic 1: [PRIMARY_MECHANIC_1]
 - Function: [MECHANIC_1_FUNCTION]
 - Player input: [MECHANIC_1_INPUT]
@@ -164,7 +164,7 @@ Mechanic 3: [PRIMARY_MECHANIC_3]
 - Mastery curve: [MECHANIC_3_MASTERY]
 - Interaction with other mechanics: [MECHANIC_3_INTERACTIONS]
 
-Secondary Mechanics:
+### Secondary Mechanics
 - Support mechanic 1: [SECONDARY_MECHANIC_1] - Purpose: [SECONDARY_1_PURPOSE]
 - Support mechanic 2: [SECONDARY_MECHANIC_2] - Purpose: [SECONDARY_2_PURPOSE]
 - Support mechanic 3: [SECONDARY_MECHANIC_3] - Purpose: [SECONDARY_3_PURPOSE]
@@ -172,8 +172,8 @@ Secondary Mechanics:
 - Social mechanics: [SOCIAL_MECHANICS]
 - Economic mechanics: [ECONOMIC_MECHANICS]
 
-Player Progression:
-Character Progression:
+### Player Progression
+### Character Progression
 - Progression system: [PROGRESSION_SYSTEM] (XP/Skill trees/Unlock system)
 - Level structure: [LEVEL_STRUCTURE]
 - Skill categories: [SKILL_CATEGORIES]
@@ -193,8 +193,8 @@ Equipment/Inventory:
 - Set bonuses: [SET_BONUSES]
 - Customization options: [CUSTOMIZATION_OPTIONS]
 
-Resource Management:
-Primary Resources:
+### Resource Management
+### Primary Resources
 Resource 1: [PRIMARY_RESOURCE_1]
 - Function: [RESOURCE_1_FUNCTION]
 - Acquisition method: [RESOURCE_1_ACQUISITION]
@@ -209,7 +209,7 @@ Resource 2: [PRIMARY_RESOURCE_2]
 - Storage limits: [RESOURCE_2_STORAGE]
 - Strategic importance: [RESOURCE_2_IMPORTANCE]
 
-Secondary Resources:
+### Secondary Resources
 - Currency system: [CURRENCY_SYSTEM]
 - Time resources: [TIME_RESOURCES]
 - Social resources: [SOCIAL_RESOURCES]
@@ -217,10 +217,10 @@ Secondary Resources:
 - Finite resources: [FINITE_RESOURCES]
 - Resource conversion: [RESOURCE_CONVERSION]
 
-GAMEPLAY SYSTEMS:
+### GAMEPLAY SYSTEMS
 
 Combat System (if applicable):
-Combat Mechanics:
+### Combat Mechanics
 - Combat type: [COMBAT_TYPE] (Real-time/Turn-based/Hybrid)
 - Control scheme: [CONTROL_SCHEME]
 - Attack types: [ATTACK_TYPES]
@@ -230,8 +230,8 @@ Combat Mechanics:
 - Status effects: [STATUS_EFFECTS]
 - Environmental interaction: [ENVIRONMENTAL_INTERACTION]
 
-Enemy Design:
-Basic Enemies:
+### Enemy Design
+### Basic Enemies
 Enemy Type 1: [ENEMY_TYPE_1]
 - Behavior pattern: [ENEMY_1_BEHAVIOR]
 - Attack patterns: [ENEMY_1_ATTACKS]
@@ -244,7 +244,7 @@ Enemy Type 2: [ENEMY_TYPE_2]
 - Weaknesses: [ENEMY_2_WEAKNESSES]
 - Role in gameplay: [ENEMY_2_ROLE]
 
-Boss Encounters:
+### Boss Encounters
 Boss 1: [BOSS_1_NAME]
 - Encounter design: [BOSS_1_ENCOUNTER]
 - Phases: [BOSS_1_PHASES]
@@ -253,8 +253,8 @@ Boss 1: [BOSS_1_NAME]
 - Victory condition: [BOSS_1_VICTORY]
 - Narrative significance: [BOSS_1_NARRATIVE]
 
-Exploration System:
-World Navigation:
+### Exploration System
+### World Navigation
 - Movement mechanics: [MOVEMENT_MECHANICS]
 - Camera system: [CAMERA_SYSTEM]
 - Map structure: [MAP_STRUCTURE]
@@ -264,7 +264,7 @@ World Navigation:
 - Collectibles: [COLLECTIBLES]
 - Environmental puzzles: [ENVIRONMENTAL_PUZZLES]
 
-Discovery Mechanics:
+### Discovery Mechanics
 - Exploration rewards: [EXPLORATION_REWARDS]
 - Landmark system: [LANDMARK_SYSTEM]
 - Map revealing: [MAP_REVEALING]
@@ -273,9 +273,9 @@ Discovery Mechanics:
 - Photo/documentation mode: [DOCUMENTATION_MODE]
 - Achievement integration: [ACHIEVEMENT_INTEGRATION]
 
-Quest System:
-Quest Structure:
-Main Quests:
+### Quest System
+### Quest Structure
+### Main Quests
 Quest 1: [MAIN_QUEST_1]
 - Objective: [QUEST_1_OBJECTIVE]
 - Steps: [QUEST_1_STEPS]
@@ -284,7 +284,7 @@ Quest 1: [MAIN_QUEST_1]
 - Player choice: [QUEST_1_CHOICE]
 - Failure conditions: [QUEST_1_FAILURE]
 
-Side Quests:
+### Side Quests
 Quest Type 1: [SIDE_QUEST_TYPE_1]
 - Frequency: [SIDE_QUEST_1_FREQUENCY]
 - Variety: [SIDE_QUEST_1_VARIETY]
@@ -299,10 +299,10 @@ Daily/Repeatable Quests:
 - Engagement maintenance: [ENGAGEMENT_MAINTENANCE]
 - Difficulty scaling: [DIFFICULTY_SCALING]
 
-LEVEL DESIGN:
+### LEVEL DESIGN
 
-Level Architecture:
-Level Design Philosophy:
+### Level Architecture
+### Level Design Philosophy
 - Design approach: [DESIGN_APPROACH] (Linear/Open/Hub-based/Metroidvania)
 - Pacing strategy: [PACING_STRATEGY]
 - Player guidance: [PLAYER_GUIDANCE]
@@ -312,7 +312,7 @@ Level Design Philosophy:
 - Accessibility considerations: [ACCESSIBILITY_CONSIDERATIONS]
 - Performance optimization: [PERFORMANCE_OPTIMIZATION]
 
-Individual Levels:
+### Individual Levels
 Level 1: [LEVEL_1_NAME]
 - Theme/Setting: [LEVEL_1_THEME]
 - Size/Scope: [LEVEL_1_SIZE]
@@ -343,7 +343,7 @@ Level 3: [LEVEL_3_NAME]
 - Narrative beats: [LEVEL_3_NARRATIVE]
 - Estimated playtime: [LEVEL_3_PLAYTIME]
 
-Environmental Design:
+### Environmental Design
 Biome/Area Types:
 Area Type 1: [AREA_TYPE_1]
 - Visual theme: [AREA_1_VISUAL_THEME]
@@ -361,7 +361,7 @@ Area Type 2: [AREA_TYPE_2]
 - Resources available: [AREA_2_RESOURCES]
 - Atmosphere/mood: [AREA_2_ATMOSPHERE]
 
-Interactive Elements:
+### Interactive Elements
 - Destructible objects: [DESTRUCTIBLE_OBJECTS]
 - Moveable objects: [MOVEABLE_OBJECTS]
 - Switches/buttons: [SWITCHES_BUTTONS]
@@ -370,10 +370,10 @@ Interactive Elements:
 - Collectible placement: [COLLECTIBLE_PLACEMENT]
 - Save points/checkpoints: [SAVE_POINTS]
 
-USER INTERFACE DESIGN:
+### USER INTERFACE DESIGN
 
 UI/UX Framework:
-Interface Philosophy:
+### Interface Philosophy
 - UI style: [UI_STYLE] (Diegetic/Non-diegetic/Meta/Spatial)
 - Information hierarchy: [INFORMATION_HIERARCHY]
 - Accessibility features: [UI_ACCESSIBILITY_FEATURES]
@@ -383,8 +383,8 @@ Interface Philosophy:
 - Error prevention: [ERROR_PREVENTION]
 - Learning curve: [UI_LEARNING_CURVE]
 
-Core UI Elements:
-HUD Design:
+### Core UI Elements
+### HUD Design
 - Health/status display: [HEALTH_STATUS_DISPLAY]
 - Resource indicators: [RESOURCE_INDICATORS]
 - Minimap/navigation: [MINIMAP_NAVIGATION]
@@ -394,8 +394,8 @@ HUD Design:
 - Notification system: [NOTIFICATION_SYSTEM]
 - Combat information: [COMBAT_INFORMATION]
 
-Menu Systems:
-Main Menu:
+### Menu Systems
+### Main Menu
 - Navigation structure: [MAIN_MENU_NAVIGATION]
 - Visual design: [MAIN_MENU_VISUAL]
 - Options accessibility: [MAIN_MENU_OPTIONS]
@@ -414,8 +414,8 @@ In-Game Menus:
 
 MULTIPLAYER DESIGN (if applicable):
 
-Multiplayer Framework:
-Game Mode Design:
+### Multiplayer Framework
+### Game Mode Design
 Competitive Mode 1: [COMPETITIVE_MODE_1]
 - Player count: [COMP_1_PLAYER_COUNT]
 - Victory condition: [COMP_1_VICTORY]
@@ -432,7 +432,7 @@ Cooperative Mode 1: [COOPERATIVE_MODE_1]
 - Difficulty scaling: [COOP_1_SCALING]
 - Reward sharing: [COOP_1_REWARDS]
 
-Social Features:
+### Social Features
 - Friend system: [FRIEND_SYSTEM]
 - Guild/clan system: [GUILD_SYSTEM]
 - Chat functionality: [CHAT_FUNCTIONALITY]
@@ -442,10 +442,10 @@ Social Features:
 - Community events: [COMMUNITY_EVENTS]
 - User-generated content: [USER_GENERATED_CONTENT]
 
-AUDIO DESIGN:
+### AUDIO DESIGN
 
-Sound Framework:
-Music Design:
+### Sound Framework
+### Music Design
 - Musical style: [MUSICAL_STYLE]
 - Composer approach: [COMPOSER_APPROACH]
 - Dynamic music system: [DYNAMIC_MUSIC]
@@ -455,7 +455,7 @@ Music Design:
 - Cultural influences: [CULTURAL_INFLUENCES]
 - Emotional beats: [MUSICAL_EMOTIONAL_BEATS]
 
-Sound Effects:
+### Sound Effects
 - Weapon/action sounds: [WEAPON_ACTION_SOUNDS]
 - Environmental audio: [ENVIRONMENTAL_AUDIO]
 - Character voices: [CHARACTER_VOICES]
@@ -465,7 +465,7 @@ Sound Effects:
 - Dynamic range: [DYNAMIC_RANGE]
 - Spatial audio: [SPATIAL_AUDIO]
 
-Voice Acting:
+### Voice Acting
 - Casting approach: [CASTING_APPROACH]
 - Voice direction: [VOICE_DIRECTION]
 - Dialogue quantity: [DIALOGUE_QUANTITY]
@@ -474,10 +474,10 @@ Voice Acting:
 - Emotional range: [EMOTIONAL_RANGE]
 - Technical requirements: [VOICE_TECHNICAL_REQUIREMENTS]
 
-MONETIZATION STRATEGY:
+### MONETIZATION STRATEGY
 
-Business Model:
-Revenue Streams:
+### Business Model
+### Revenue Streams
 - Primary model: [PRIMARY_MONETIZATION_MODEL] (Premium/F2P/Subscription/Freemium)
 - Secondary revenue: [SECONDARY_REVENUE]
 - DLC strategy: [DLC_STRATEGY]
@@ -487,7 +487,7 @@ Revenue Streams:
 - Pay-to-convenience: [PAY_TO_CONVENIENCE]
 - Subscription benefits: [SUBSCRIPTION_BENEFITS]
 
-Player Value:
+### Player Value
 - Core value proposition: [CORE_VALUE_PROPOSITION]
 - Free content amount: [FREE_CONTENT_AMOUNT]
 - Paid content value: [PAID_CONTENT_VALUE]
@@ -497,10 +497,10 @@ Player Value:
 - Player lifetime value: [PLAYER_LIFETIME_VALUE]
 - Retention mechanics: [RETENTION_MECHANICS]
 
-TECHNICAL REQUIREMENTS:
+### TECHNICAL REQUIREMENTS
 
-Platform Specifications:
-Target Hardware:
+### Platform Specifications
+### Target Hardware
 - Minimum specifications: [MINIMUM_SPECS]
 - Recommended specifications: [RECOMMENDED_SPECS]
 - Platform-specific features: [PLATFORM_SPECIFIC_FEATURES]
@@ -510,7 +510,7 @@ Target Hardware:
 - Platform store optimization: [STORE_OPTIMIZATION]
 - Update/patch system: [UPDATE_PATCH_SYSTEM]
 
-Performance Targets:
+### Performance Targets
 - Frame rate target: [FRAME_RATE_TARGET]
 - Resolution support: [RESOLUTION_SUPPORT]
 - Loading time limits: [LOADING_TIME_LIMITS]
@@ -520,7 +520,7 @@ Performance Targets:
 - Battery optimization: [BATTERY_OPTIMIZATION]
 - Accessibility compliance: [ACCESSIBILITY_COMPLIANCE]
 
-DESIGN OUTPUT:
+### DESIGN OUTPUT
 [Generate comprehensive game design document with all specified elements]
 
 Game: [FINAL_GAME_TITLE]
@@ -530,7 +530,7 @@ Game Type: [FINAL_GAME_TYPE]
 
 ---
 
-Game Design Deliverables:
+### Game Design Deliverables
 - Narrative elements: [NARRATIVE_ELEMENT_COUNT]
 - Core mechanics: [CORE_MECHANIC_COUNT]
 - Level designs: [LEVEL_DESIGN_COUNT]
@@ -553,6 +553,33 @@ OUTPUT: Deliver comprehensive game design with:
 
 ## Usage Examples
 
+
+
+## Best Practices
+
+1. **Start with clear objectives** - Define what success looks like before beginning
+2. **Use data to inform decisions** - Base choices on evidence and measurable outcomes
+3. **Iterate and improve continuously** - Treat implementation as an ongoing process
+4. **Engage stakeholders early** - Include key participants in planning and execution
+5. **Document thoroughly** - Maintain clear records for reference and knowledge transfer
+6. **Communicate regularly** - Keep all parties informed of progress and changes
+7. **Address challenges proactively** - Identify potential issues before they become problems
+8. **Celebrate milestones** - Recognize achievements to maintain motivation
+9. **Learn from experience** - Reflect on what works and adjust accordingly
+10. **Stay flexible** - Be ready to adapt based on feedback and changing circumstances
+
+## Tips for Success
+
+- Break complex tasks into manageable steps with clear milestones
+- Set realistic timelines that account for dependencies and constraints
+- Allocate sufficient resources including time, budget, and personnel
+- Use templates and frameworks to ensure consistency and quality
+- Seek feedback from users and stakeholders throughout the process
+- Build in checkpoints to assess progress and make adjustments
+- Maintain quality standards while remaining practical and efficient
+- Document lessons learned for future reference and improvement
+- Foster collaboration across teams and departments
+- Stay current with industry best practices and emerging trends
 ### Example 1: Mobile Action RPG
 ```
 GAME_TYPE: "Action RPG"

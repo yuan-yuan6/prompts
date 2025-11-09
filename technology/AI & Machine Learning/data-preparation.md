@@ -101,7 +101,7 @@ Feature Engineering:
 - Scale pixel values to [0,1] range using min-max scaling techniques
 - Reduce dimensions with PCA for visualization
 
-Data Augmentation:
+### Data Augmentation
 - Apply rotation, flip, crop, brightness augmentation techniques
 - Generate synthetic images using GANs synthetic data generation
 - Balance classes using oversampling balance strategy

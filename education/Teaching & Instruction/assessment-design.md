@@ -36,7 +36,7 @@ Assessment Context:
 - Accessibility Needs: {ACCESSIBILITY_NEEDS}
 - Cultural Considerations: {CULTURAL_CONSIDERATIONS}
 
-Learning Framework:
+### Learning Framework
 - Learning Objectives: {LEARNING_OBJECTIVES}
 - Curriculum Standards: {CURRICULUM_STANDARDS}
 - Competency Framework: {COMPETENCY_FRAMEWORK}
@@ -48,7 +48,7 @@ Learning Framework:
 - Transfer Expectations: {TRANSFER_EXPECTATIONS}
 - Mastery Criteria: {MASTERY_CRITERIA}
 
-Student Characteristics:
+### Student Characteristics
 - Age Range: {AGE_RANGE}
 - Academic Background: {ACADEMIC_BACKGROUND}
 - Language Proficiency: {LANGUAGE_PROFICIENCY}
@@ -60,7 +60,7 @@ Student Characteristics:
 - Support Systems: {SUPPORT_SYSTEMS}
 - Anxiety Considerations: {ANXIETY_CONSIDERATIONS}
 
-Assessment Parameters:
+### Assessment Parameters
 - Validity Requirements: {VALIDITY_REQUIREMENTS}
 - Reliability Standards: {RELIABILITY_STANDARDS}
 - Fairness Principles: {FAIRNESS_PRINCIPLES}
@@ -72,14 +72,14 @@ Assessment Parameters:
 - Reporting Format: {REPORTING_FORMAT}
 - Use of Results: {RESULTS_USAGE}
 
-Generate a comprehensive assessment design:
+### Generate a comprehensive assessment design
 
 1. ASSESSMENT FRAMEWORK & PHILOSOPHY
 
-   Assessment Vision:
+### Assessment Vision
    This assessment system is designed to {ASSESSMENT_VISION} by providing {MEASUREMENT_APPROACH} that supports {LEARNING_GOALS}. The framework emphasizes {ASSESSMENT_PHILOSOPHY} while ensuring {QUALITY_PRINCIPLES} and maintaining {ETHICAL_STANDARDS}.
 
-   Assessment Principles:
+### Assessment Principles
    • Validity: {VALIDITY_APPROACH}
    • Reliability: {RELIABILITY_APPROACH}
    • Fairness: {FAIRNESS_APPROACH}
@@ -91,14 +91,14 @@ Generate a comprehensive assessment design:
    • Alignment: {ALIGNMENT_APPROACH}
    • Growth orientation: {GROWTH_ORIENTATION_APPROACH}
 
-   Theoretical Foundation:
+### Theoretical Foundation
    • Measurement theory: {MEASUREMENT_THEORY}
    • Learning theory: {LEARNING_THEORY_FOUNDATION}
    • Assessment theory: {ASSESSMENT_THEORY_FOUNDATION}
    • Cognitive psychology: {COGNITIVE_PSYCHOLOGY_FOUNDATION}
    • Educational philosophy: {EDUCATIONAL_PHILOSOPHY_FOUNDATION}
 
-   Quality Framework:
+### Quality Framework
    • Content validity: {CONTENT_VALIDITY_FRAMEWORK}
    • Construct validity: {CONSTRUCT_VALIDITY_FRAMEWORK}
    • Criterion validity: {CRITERION_VALIDITY_FRAMEWORK}
@@ -110,8 +110,8 @@ Generate a comprehensive assessment design:
 
 2. LEARNING OUTCOMES & PERFORMANCE STANDARDS
 
-   Assessment Objectives:
-   This assessment will measure student ability to:
+### Assessment Objectives
+### This assessment will measure student ability to
    1. {ASSESSMENT_OBJECTIVE_1}
    2. {ASSESSMENT_OBJECTIVE_2}
    3. {ASSESSMENT_OBJECTIVE_3}
@@ -123,16 +123,16 @@ Generate a comprehensive assessment design:
    9. {ASSESSMENT_OBJECTIVE_9}
    10. {ASSESSMENT_OBJECTIVE_10}
 
-   Performance Standards:
+### Performance Standards
    
-   Proficiency Levels:
+### Proficiency Levels
    • Level 4 - Advanced: {ADVANCED_PERFORMANCE_DESCRIPTORS}
    • Level 3 - Proficient: {PROFICIENT_PERFORMANCE_DESCRIPTORS}
    • Level 2 - Developing: {DEVELOPING_PERFORMANCE_DESCRIPTORS}
    • Level 1 - Beginning: {BEGINNING_PERFORMANCE_DESCRIPTORS}
    • Level 0 - Inadequate: {INADEQUATE_PERFORMANCE_DESCRIPTORS}
 
-   Competency Mapping:
+### Competency Mapping
    
    Core Competency 1: {CORE_COMPETENCY_1}
    • Knowledge components: {COMPETENCY_1_KNOWLEDGE}
@@ -150,14 +150,14 @@ Generate a comprehensive assessment design:
 
    [Continue for all competencies]
 
-   Standards Alignment:
+### Standards Alignment
    • National standards: {NATIONAL_STANDARDS_ALIGNMENT}
    • State standards: {STATE_STANDARDS_ALIGNMENT}
    • Professional standards: {PROFESSIONAL_STANDARDS_ALIGNMENT}
    • Industry standards: {INDUSTRY_STANDARDS_ALIGNMENT}
    • International standards: {INTERNATIONAL_STANDARDS_ALIGNMENT}
 
-   Cognitive Complexity Distribution:
+### Cognitive Complexity Distribution
    • Remember (Bloom's Level 1): {REMEMBER_PERCENTAGE}%
    • Understand (Bloom's Level 2): {UNDERSTAND_PERCENTAGE}%
    • Apply (Bloom's Level 3): {APPLY_PERCENTAGE}%
@@ -167,9 +167,9 @@ Generate a comprehensive assessment design:
 
 3. ASSESSMENT ARCHITECTURE & DESIGN
 
-   Assessment Blueprint:
+### Assessment Blueprint
    
-   Content Domain Distribution:
+### Content Domain Distribution
    • Domain 1 ({CONTENT_DOMAIN_1}): {DOMAIN_1_WEIGHT}% of assessment
      - Subtopic 1.1: {SUBTOPIC_1_1} ({SUBTOPIC_1_1_ITEMS} items)
      - Subtopic 1.2: {SUBTOPIC_1_2} ({SUBTOPIC_1_2_ITEMS} items)
@@ -185,7 +185,7 @@ Generate a comprehensive assessment design:
      - Subtopic 3.2: {SUBTOPIC_3_2} ({SUBTOPIC_3_2_ITEMS} items)
      - Subtopic 3.3: {SUBTOPIC_3_3} ({SUBTOPIC_3_3_ITEMS} items)
 
-   Assessment Structure:
+### Assessment Structure
    
    Section A: {SECTION_A_TITLE} ({SECTION_A_DURATION} minutes)
    • Format: {SECTION_A_FORMAT}
@@ -208,7 +208,7 @@ Generate a comprehensive assessment design:
    • Cognitive level: {SECTION_C_COGNITIVE_LEVEL}
    • Content focus: {SECTION_C_CONTENT_FOCUS}
 
-   Item Type Distribution:
+### Item Type Distribution
    • Multiple choice: {MC_ITEM_COUNT} items ({MC_PERCENTAGE}%)
    • Short answer: {SA_ITEM_COUNT} items ({SA_PERCENTAGE}%)
    • Extended response: {ER_ITEM_COUNT} items ({ER_PERCENTAGE}%)
@@ -217,9 +217,9 @@ Generate a comprehensive assessment design:
 
 4. FORMATIVE ASSESSMENT STRATEGIES
 
-   Ongoing Assessment Approach:
+### Ongoing Assessment Approach
    
-   Classroom Assessment Techniques:
+### Classroom Assessment Techniques
    • Entrance tickets: {ENTRANCE_TICKET_DESIGN}
    • Exit tickets: {EXIT_TICKET_DESIGN}
    • Think-pair-share: {THINK_PAIR_SHARE_ASSESSMENT}
@@ -231,9 +231,9 @@ Generate a comprehensive assessment design:
    • Peer assessment: {PEER_ASSESSMENT_METHODS}
    • Self-assessment: {SELF_ASSESSMENT_METHODS}
 
-   Progress Monitoring:
+### Progress Monitoring
    
-   Checkpoint Assessments:
+### Checkpoint Assessments
    • Frequency: {CHECKPOINT_FREQUENCY}
    • Format: {CHECKPOINT_FORMAT}
    • Duration: {CHECKPOINT_DURATION}
@@ -243,7 +243,7 @@ Generate a comprehensive assessment design:
    • Remediation triggers: {REMEDIATION_TRIGGERS}
    • Acceleration indicators: {ACCELERATION_INDICATORS}
 
-   Digital Formative Tools:
+### Digital Formative Tools
    • Learning analytics platform: {LEARNING_ANALYTICS_PLATFORM}
    • Adaptive assessment system: {ADAPTIVE_ASSESSMENT_SYSTEM}
    • Real-time polling: {REAL_TIME_POLLING_TOOLS}
@@ -253,16 +253,16 @@ Generate a comprehensive assessment design:
    • Progress tracking dashboards: {PROGRESS_DASHBOARD}
    • Competency mapping tools: {COMPETENCY_MAPPING_TOOLS}
 
-   Feedback Strategies:
+### Feedback Strategies
    
-   Immediate Feedback:
+### Immediate Feedback
    • Automated scoring: {AUTOMATED_FEEDBACK}
    • Instant results: {INSTANT_RESULTS_FORMAT}
    • Corrective guidance: {CORRECTIVE_GUIDANCE_APPROACH}
    • Hint systems: {HINT_SYSTEM_DESIGN}
    • Explanatory feedback: {EXPLANATORY_FEEDBACK}
 
-   Delayed Feedback:
+### Delayed Feedback
    • Detailed analysis: {DETAILED_ANALYSIS_FORMAT}
    • Performance trends: {PERFORMANCE_TREND_REPORTING}
    • Growth indicators: {GROWTH_INDICATOR_SYSTEM}
@@ -282,21 +282,21 @@ Generate a comprehensive assessment design:
    • Cut scores: {UNIT_CUT_SCORES}
    • Remediation protocols: {UNIT_REMEDIATION_PROTOCOLS}
 
-   Comprehensive Assessments:
+### Comprehensive Assessments
    • Midterm examination: {MIDTERM_SPECIFICATIONS}
    • Final examination: {FINAL_EXAM_SPECIFICATIONS}
    • Capstone project: {CAPSTONE_PROJECT_SPECIFICATIONS}
    • Portfolio assessment: {PORTFOLIO_ASSESSMENT_SPECIFICATIONS}
    • Performance demonstration: {PERFORMANCE_DEMO_SPECIFICATIONS}
 
-   External Assessment Preparation:
+### External Assessment Preparation
    • Standardized test alignment: {STANDARDIZED_TEST_ALIGNMENT}
    • Practice test schedule: {PRACTICE_TEST_SCHEDULE}
    • Test-taking strategies: {TEST_TAKING_STRATEGIES}
    • Anxiety reduction: {ANXIETY_REDUCTION_STRATEGIES}
    • Accommodation planning: {ACCOMMODATION_PLANNING}
 
-   Alternative Assessment Options:
+### Alternative Assessment Options
    
    Performance-Based Assessment:
    • Authentic tasks: {AUTHENTIC_TASK_DESIGN}
@@ -305,7 +305,7 @@ Generate a comprehensive assessment design:
    • Presentation requirements: {PRESENTATION_REQUIREMENTS}
    • Collaboration elements: {COLLABORATION_ELEMENTS}
 
-   Portfolio Assessment:
+### Portfolio Assessment
    • Portfolio structure: {PORTFOLIO_STRUCTURE}
    • Artifact selection: {ARTIFACT_SELECTION_CRITERIA}
    • Reflection requirements: {REFLECTION_REQUIREMENTS}
@@ -314,46 +314,46 @@ Generate a comprehensive assessment design:
 
 6. ITEM DEVELOPMENT & CONSTRUCTION
 
-   Item Writing Guidelines:
+### Item Writing Guidelines
    
-   Multiple Choice Items:
+### Multiple Choice Items
    • Stem construction: {MC_STEM_GUIDELINES}
    • Option development: {MC_OPTION_GUIDELINES}
    • Distractor quality: {MC_DISTRACTOR_GUIDELINES}
    • Bias avoidance: {MC_BIAS_GUIDELINES}
    • Technical review: {MC_TECHNICAL_REVIEW}
 
-   Constructed Response Items:
+### Constructed Response Items
    • Prompt development: {CR_PROMPT_DEVELOPMENT}
    • Scaffolding approach: {CR_SCAFFOLDING}
    • Scoring guides: {CR_SCORING_GUIDES}
    • Sample responses: {CR_SAMPLE_RESPONSES}
    • Rater training: {CR_RATER_TRAINING}
 
-   Performance Task Design:
+### Performance Task Design
    • Task authenticity: {PT_AUTHENTICITY_CRITERIA}
    • Complexity level: {PT_COMPLEXITY_LEVEL}
    • Resource requirements: {PT_RESOURCE_REQUIREMENTS}
    • Time allocation: {PT_TIME_ALLOCATION}
    • Scoring rubrics: {PT_SCORING_RUBRICS}
 
-   Item Review Process:
+### Item Review Process
    
-   Content Review:
+### Content Review
    • Subject matter expert review: {SME_REVIEW_PROCESS}
    • Curriculum alignment check: {CURRICULUM_ALIGNMENT_CHECK}
    • Standards alignment verification: {STANDARDS_ALIGNMENT_VERIFICATION}
    • Accuracy validation: {ACCURACY_VALIDATION}
    • Currency assessment: {CURRENCY_ASSESSMENT}
 
-   Editorial Review:
+### Editorial Review
    • Language clarity: {LANGUAGE_CLARITY_REVIEW}
    • Grammar and syntax: {GRAMMAR_SYNTAX_REVIEW}
    • Cultural sensitivity: {CULTURAL_SENSITIVITY_REVIEW}
    • Bias detection: {BIAS_DETECTION_PROCESS}
    • Accessibility compliance: {ACCESSIBILITY_COMPLIANCE_REVIEW}
 
-   Statistical Review:
+### Statistical Review
    • Item difficulty analysis: {ITEM_DIFFICULTY_ANALYSIS}
    • Item discrimination: {ITEM_DISCRIMINATION_ANALYSIS}
    • Distractor effectiveness: {DISTRACTOR_EFFECTIVENESS}
@@ -362,9 +362,9 @@ Generate a comprehensive assessment design:
 
 7. RUBRIC DEVELOPMENT & SCORING
 
-   Rubric Design Framework:
+### Rubric Design Framework
    
-   Analytic Rubrics:
+### Analytic Rubrics
    
    Criterion 1: {RUBRIC_CRITERION_1}
    • Exemplary (4): {CRITERION_1_EXEMPLARY}
@@ -382,31 +382,31 @@ Generate a comprehensive assessment design:
 
    [Continue for all criteria]
 
-   Holistic Rubrics:
+### Holistic Rubrics
    
-   Overall Performance Levels:
+### Overall Performance Levels
    • Level 4 - Exemplary: {HOLISTIC_EXEMPLARY_DESCRIPTORS}
    • Level 3 - Proficient: {HOLISTIC_PROFICIENT_DESCRIPTORS}
    • Level 2 - Developing: {HOLISTIC_DEVELOPING_DESCRIPTORS}
    • Level 1 - Beginning: {HOLISTIC_BEGINNING_DESCRIPTORS}
 
-   Scoring Procedures:
+### Scoring Procedures
    
-   Rater Training:
+### Rater Training
    • Training materials: {RATER_TRAINING_MATERIALS}
    • Calibration process: {RATER_CALIBRATION_PROCESS}
    • Practice scoring: {PRACTICE_SCORING_PROCEDURES}
    • Inter-rater reliability: {INTER_RATER_RELIABILITY_TARGET}
    • Ongoing monitoring: {RATER_MONITORING_PROCEDURES}
 
-   Quality Control:
+### Quality Control
    • Double scoring: {DOUBLE_SCORING_PROCEDURES}
    • Discrepancy resolution: {DISCREPANCY_RESOLUTION}
    • Bias monitoring: {BIAS_MONITORING_PROCEDURES}
    • Score verification: {SCORE_VERIFICATION_PROCEDURES}
    • Appeals process: {APPEALS_PROCESS}
 
-   Score Interpretation:
+### Score Interpretation
    • Raw score conversion: {RAW_SCORE_CONVERSION}
    • Scale score development: {SCALE_SCORE_DEVELOPMENT}
    • Percentile ranks: {PERCENTILE_RANK_INTERPRETATION}
@@ -415,53 +415,53 @@ Generate a comprehensive assessment design:
 
 8. ACCESSIBILITY & ACCOMMODATIONS
 
-   Universal Design Principles:
+### Universal Design Principles
    
-   Multiple Means of Representation:
+### Multiple Means of Representation
    • Text alternatives: {TEXT_ALTERNATIVES}
    • Visual presentations: {VISUAL_PRESENTATIONS}
    • Audio formats: {AUDIO_FORMATS}
    • Multimedia options: {MULTIMEDIA_OPTIONS}
    • Language supports: {LANGUAGE_SUPPORTS}
 
-   Multiple Means of Engagement:
+### Multiple Means of Engagement
    • Interest options: {INTEREST_OPTIONS}
    • Motivation supports: {MOTIVATION_SUPPORTS}
    • Cultural relevance: {CULTURAL_RELEVANCE}
    • Choice and autonomy: {CHOICE_AUTONOMY}
    • Collaboration opportunities: {COLLABORATION_OPPORTUNITIES}
 
-   Multiple Means of Expression:
+### Multiple Means of Expression
    • Response formats: {RESPONSE_FORMATS}
    • Communication tools: {COMMUNICATION_TOOLS}
    • Construction supports: {CONSTRUCTION_SUPPORTS}
    • Executive function: {EXECUTIVE_FUNCTION_SUPPORTS}
    • Fluency building: {FLUENCY_BUILDING}
 
-   Specific Accommodations:
+### Specific Accommodations
    
-   Presentation Accommodations:
+### Presentation Accommodations
    • Large print: {LARGE_PRINT_SPECIFICATIONS}
    • Braille: {BRAILLE_SPECIFICATIONS}
    • Audio presentation: {AUDIO_PRESENTATION_SPECS}
    • Sign language: {SIGN_LANGUAGE_PROVISION}
    • Color contrast: {COLOR_CONTRAST_SPECS}
 
-   Response Accommodations:
+### Response Accommodations
    • Extended time: {EXTENDED_TIME_POLICIES}
    • Oral responses: {ORAL_RESPONSE_OPTIONS}
    • Assistive technology: {ASSISTIVE_TECHNOLOGY}
    • Scribe services: {SCRIBE_SERVICES}
    • Alternative keyboards: {ALTERNATIVE_KEYBOARDS}
 
-   Setting Accommodations:
+### Setting Accommodations
    • Separate room: {SEPARATE_ROOM_CRITERIA}
    • Small group: {SMALL_GROUP_CRITERIA}
    • Individual administration: {INDIVIDUAL_ADMIN_CRITERIA}
    • Familiar examiner: {FAMILIAR_EXAMINER_CRITERIA}
    • Special lighting: {SPECIAL_LIGHTING}
 
-   Timing Accommodations:
+### Timing Accommodations
    • Extended time ratios: {EXTENDED_TIME_RATIOS}
    • Frequent breaks: {FREQUENT_BREAKS}
    • Multiple sessions: {MULTIPLE_SESSIONS}
@@ -470,16 +470,16 @@ Generate a comprehensive assessment design:
 
 9. TECHNOLOGY INTEGRATION & DIGITAL ASSESSMENT
 
-   Assessment Technology Platform:
+### Assessment Technology Platform
    
-   System Requirements:
+### System Requirements
    • Hardware specifications: {HARDWARE_SPECIFICATIONS}
    • Software requirements: {SOFTWARE_REQUIREMENTS}
    • Network requirements: {NETWORK_REQUIREMENTS}
    • Security protocols: {SECURITY_PROTOCOLS}
    • Data privacy: {DATA_PRIVACY_MEASURES}
 
-   Digital Assessment Features:
+### Digital Assessment Features
    • Item types supported: {DIGITAL_ITEM_TYPES}
    • Multimedia integration: {MULTIMEDIA_INTEGRATION}
    • Interactive elements: {INTERACTIVE_ELEMENTS}
@@ -493,21 +493,21 @@ Generate a comprehensive assessment design:
    • Flag and bookmark: {FLAG_BOOKMARK_FEATURES}
    • Time management: {TIME_MANAGEMENT_TOOLS}
 
-   Online Proctoring:
+### Online Proctoring
    • Authentication methods: {AUTHENTICATION_METHODS}
    • Monitoring systems: {MONITORING_SYSTEMS}
    • Integrity measures: {INTEGRITY_MEASURES}
    • Violation detection: {VIOLATION_DETECTION}
    • Incident reporting: {INCIDENT_REPORTING}
 
-   Mobile Assessment:
+### Mobile Assessment
    • Device compatibility: {DEVICE_COMPATIBILITY}
    • Responsive design: {RESPONSIVE_DESIGN}
    • Offline capabilities: {OFFLINE_CAPABILITIES}
    • Synchronization: {SYNCHRONIZATION_FEATURES}
    • Battery optimization: {BATTERY_OPTIMIZATION}
 
-   Learning Analytics:
+### Learning Analytics
    • Data collection: {DATA_COLLECTION_METHODS}
    • Performance tracking: {PERFORMANCE_TRACKING}
    • Learning pathways: {LEARNING_PATHWAYS}
@@ -516,30 +516,30 @@ Generate a comprehensive assessment design:
 
 10. FAIRNESS & BIAS PREVENTION
 
-    Fairness Framework:
+### Fairness Framework
     
-    Bias Identification:
+### Bias Identification
     • Content bias review: {CONTENT_BIAS_REVIEW}
     • Statistical bias analysis: {STATISTICAL_BIAS_ANALYSIS}
     • Differential item functioning: {DIF_ANALYSIS}
     • Group differences analysis: {GROUP_DIFFERENCES_ANALYSIS}
     • Expert panel review: {EXPERT_PANEL_REVIEW}
 
-    Cultural Responsiveness:
+### Cultural Responsiveness
     • Cultural representation: {CULTURAL_REPRESENTATION}
     • Language considerations: {LANGUAGE_CONSIDERATIONS}
     • Context familiarity: {CONTEXT_FAMILIARITY}
     • Value neutrality: {VALUE_NEUTRALITY}
     • Stereotype avoidance: {STEREOTYPE_AVOIDANCE}
 
-    Equity Measures:
+### Equity Measures
     • Access provisions: {ACCESS_PROVISIONS}
     • Opportunity to learn: {OPPORTUNITY_TO_LEARN}
     • Resource equity: {RESOURCE_EQUITY}
     • Support systems: {SUPPORT_SYSTEMS_EQUITY}
     • Outcome monitoring: {OUTCOME_MONITORING}
 
-    Bias Mitigation Strategies:
+### Bias Mitigation Strategies
     • Diverse development teams: {DIVERSE_DEV_TEAMS}
     • Multiple review cycles: {MULTIPLE_REVIEW_CYCLES}
     • Field testing protocols: {FIELD_TESTING_PROTOCOLS}
@@ -548,37 +548,37 @@ Generate a comprehensive assessment design:
 
 11. DATA ANALYSIS & INTERPRETATION
 
-    Statistical Analysis Framework:
+### Statistical Analysis Framework
     
-    Descriptive Statistics:
+### Descriptive Statistics
     • Central tendency: {CENTRAL_TENDENCY_MEASURES}
     • Variability measures: {VARIABILITY_MEASURES}
     • Score distributions: {SCORE_DISTRIBUTIONS}
     • Frequency analysis: {FREQUENCY_ANALYSIS}
     • Percentile calculations: {PERCENTILE_CALCULATIONS}
 
-    Reliability Analysis:
+### Reliability Analysis
     • Internal consistency: {INTERNAL_CONSISTENCY_METHODS}
     • Test-retest reliability: {TEST_RETEST_PROCEDURES}
     • Inter-rater reliability: {INTER_RATER_PROCEDURES}
     • Standard error: {STANDARD_ERROR_CALCULATIONS}
     • Confidence intervals: {CONFIDENCE_INTERVALS}
 
-    Validity Evidence:
+### Validity Evidence
     • Content validity studies: {CONTENT_VALIDITY_STUDIES}
     • Construct validity analysis: {CONSTRUCT_VALIDITY_ANALYSIS}
     • Criterion validity studies: {CRITERION_VALIDITY_STUDIES}
     • Consequential validity: {CONSEQUENTIAL_VALIDITY_EVIDENCE}
     • Factor analysis: {FACTOR_ANALYSIS_PROCEDURES}
 
-    Item Analysis:
+### Item Analysis
     • Difficulty indices: {DIFFICULTY_INDICES}
     • Discrimination indices: {DISCRIMINATION_INDICES}
     • Distractor analysis: {DISTRACTOR_ANALYSIS_METHODS}
     • Point-biserial correlations: {POINT_BISERIAL_CORRELATIONS}
     • Item-total correlations: {ITEM_TOTAL_CORRELATIONS}
 
-    Performance Analysis:
+### Performance Analysis
     • Subgroup comparisons: {SUBGROUP_COMPARISONS}
     • Trend analysis: {TREND_ANALYSIS_METHODS}
     • Growth modeling: {GROWTH_MODELING}
@@ -587,46 +587,46 @@ Generate a comprehensive assessment design:
 
 12. REPORTING & COMMUNICATION
 
-    Score Reporting System:
+### Score Reporting System
     
-    Individual Reports:
+### Individual Reports
     • Student score reports: {STUDENT_REPORT_FORMAT}
     • Performance summaries: {PERFORMANCE_SUMMARY_FORMAT}
     • Strength/weakness analysis: {STRENGTH_WEAKNESS_ANALYSIS}
     • Growth indicators: {GROWTH_INDICATORS_DISPLAY}
     • Goal recommendations: {GOAL_RECOMMENDATIONS}
 
-    Classroom Reports:
+### Classroom Reports
     • Teacher reports: {TEACHER_REPORT_FORMAT}
     • Class performance summaries: {CLASS_PERFORMANCE_SUMMARIES}
     • Standards mastery: {STANDARDS_MASTERY_REPORTS}
     • Instructional recommendations: {INSTRUCTIONAL_RECOMMENDATIONS}
     • Intervention suggestions: {INTERVENTION_SUGGESTIONS}
 
-    Administrative Reports:
+### Administrative Reports
     • School-level reports: {SCHOOL_LEVEL_REPORTS}
     • District-level reports: {DISTRICT_LEVEL_REPORTS}
     • Aggregate performance: {AGGREGATE_PERFORMANCE_REPORTS}
     • Trend analysis: {TREND_ANALYSIS_REPORTS}
     • Accountability measures: {ACCOUNTABILITY_MEASURES}
 
-    Public Reporting:
+### Public Reporting
     • Community reports: {COMMUNITY_REPORT_FORMAT}
     • Media-friendly summaries: {MEDIA_SUMMARIES}
     • Transparency measures: {TRANSPARENCY_MEASURES}
     • Privacy protections: {PRIVACY_PROTECTIONS}
     • Accessibility formats: {ACCESSIBLE_FORMATS}
 
-    Communication Strategy:
+### Communication Strategy
     
-    Stakeholder Engagement:
+### Stakeholder Engagement
     • Parent communication: {PARENT_COMMUNICATION_STRATEGY}
     • Student conferences: {STUDENT_CONFERENCE_PROTOCOLS}
     • Teacher collaboration: {TEACHER_COLLABORATION}
     • Administrator briefings: {ADMINISTRATOR_BRIEFINGS}
     • Community presentations: {COMMUNITY_PRESENTATIONS}
 
-    Report Interpretation:
+### Report Interpretation
     • Score meaning guides: {SCORE_MEANING_GUIDES}
     • Performance level descriptions: {PERFORMANCE_LEVEL_DESCRIPTIONS}
     • Comparison data: {COMPARISON_DATA_PRESENTATION}
@@ -635,39 +635,39 @@ Generate a comprehensive assessment design:
 
 13. QUALITY ASSURANCE & VALIDATION
 
-    Quality Control Procedures:
+### Quality Control Procedures
     
-    Development Quality:
+### Development Quality
     • Content review protocols: {CONTENT_REVIEW_PROTOCOLS}
     • Item quality standards: {ITEM_QUALITY_STANDARDS}
     • Editorial review process: {EDITORIAL_REVIEW_PROCESS}
     • Technical review procedures: {TECHNICAL_REVIEW_PROCEDURES}
     • Bias review protocols: {BIAS_REVIEW_PROTOCOLS}
 
-    Administration Quality:
+### Administration Quality
     • Standardization procedures: {STANDARDIZATION_PROCEDURES}
     • Test security measures: {TEST_SECURITY_MEASURES}
     • Proctor training: {PROCTOR_TRAINING_REQUIREMENTS}
     • Administration monitoring: {ADMINISTRATION_MONITORING}
     • Irregularity reporting: {IRREGULARITY_REPORTING}
 
-    Scoring Quality:
+### Scoring Quality
     • Rater qualifications: {RATER_QUALIFICATIONS}
     • Training requirements: {TRAINING_REQUIREMENTS}
     • Calibration procedures: {CALIBRATION_PROCEDURES}
     • Quality monitoring: {QUALITY_MONITORING_PROCEDURES}
     • Accuracy verification: {ACCURACY_VERIFICATION}
 
-    Validation Studies:
+### Validation Studies
     
-    Pilot Testing:
+### Pilot Testing
     • Pilot test design: {PILOT_TEST_DESIGN}
     • Sample selection: {SAMPLE_SELECTION_CRITERIA}
     • Data collection: {DATA_COLLECTION_PROCEDURES}
     • Analysis protocols: {ANALYSIS_PROTOCOLS}
     • Revision procedures: {REVISION_PROCEDURES}
 
-    Field Testing:
+### Field Testing
     • Field test implementation: {FIELD_TEST_IMPLEMENTATION}
     • Operational conditions: {OPERATIONAL_CONDITIONS}
     • Large-scale data collection: {LARGE_SCALE_DATA_COLLECTION}
@@ -676,30 +676,30 @@ Generate a comprehensive assessment design:
 
 14. ETHICS & PROFESSIONAL STANDARDS
 
-    Ethical Framework:
+### Ethical Framework
     
-    Professional Standards:
+### Professional Standards
     • Assessment competencies: {ASSESSMENT_COMPETENCIES}
     • Ethical guidelines: {ETHICAL_GUIDELINES}
     • Professional responsibility: {PROFESSIONAL_RESPONSIBILITY}
     • Continuing education: {CONTINUING_EDUCATION_REQUIREMENTS}
     • Code of conduct: {CODE_OF_CONDUCT}
 
-    Student Rights:
+### Student Rights
     • Informed consent: {INFORMED_CONSENT_PROCEDURES}
     • Privacy protection: {PRIVACY_PROTECTION_MEASURES}
     • Fair treatment: {FAIR_TREATMENT_PRINCIPLES}
     • Appeal rights: {APPEAL_RIGHTS_PROCEDURES}
     • Accommodation rights: {ACCOMMODATION_RIGHTS}
 
-    Data Ethics:
+### Data Ethics
     • Data collection ethics: {DATA_COLLECTION_ETHICS}
     • Storage security: {STORAGE_SECURITY_MEASURES}
     • Use limitations: {USE_LIMITATIONS}
     • Sharing protocols: {SHARING_PROTOCOLS}
     • Retention policies: {RETENTION_POLICIES}
 
-    Transparency Requirements:
+### Transparency Requirements
     • Assessment purpose disclosure: {PURPOSE_DISCLOSURE}
     • Method transparency: {METHOD_TRANSPARENCY}
     • Score interpretation: {SCORE_INTERPRETATION_TRANSPARENCY}
@@ -708,37 +708,37 @@ Generate a comprehensive assessment design:
 
 15. CONTINUOUS IMPROVEMENT & EVALUATION
 
-    Assessment Evaluation:
+### Assessment Evaluation
     
-    Effectiveness Measures:
+### Effectiveness Measures
     • Learning improvement: {LEARNING_IMPROVEMENT_MEASURES}
     • Instructional impact: {INSTRUCTIONAL_IMPACT_MEASURES}
     • Student engagement: {STUDENT_ENGAGEMENT_MEASURES}
     • Teacher utility: {TEACHER_UTILITY_MEASURES}
     • System efficiency: {SYSTEM_EFFICIENCY_MEASURES}
 
-    Feedback Systems:
+### Feedback Systems
     • Stakeholder feedback: {STAKEHOLDER_FEEDBACK_SYSTEMS}
     • User experience surveys: {USER_EXPERIENCE_SURVEYS}
     • Performance monitoring: {PERFORMANCE_MONITORING_SYSTEMS}
     • Cost-benefit analysis: {COST_BENEFIT_ANALYSIS}
     • Impact evaluation: {IMPACT_EVALUATION_METHODS}
 
-    Improvement Cycle:
+### Improvement Cycle
     • Regular review schedule: {REGULAR_REVIEW_SCHEDULE}
     • Data-driven decisions: {DATA_DRIVEN_DECISIONS}
     • Revision procedures: {REVISION_PROCEDURES}
     • Implementation planning: {IMPLEMENTATION_PLANNING}
     • Change management: {CHANGE_MANAGEMENT_PROCEDURES}
 
-    Innovation Integration:
+### Innovation Integration
     • Emerging technologies: {EMERGING_TECHNOLOGIES}
     • Best practice adoption: {BEST_PRACTICE_ADOPTION}
     • Research integration: {RESEARCH_INTEGRATION}
     • Pilot programs: {PILOT_PROGRAMS}
     • Scaling procedures: {SCALING_PROCEDURES}
 
-Ensure the assessment system is:
+### Ensure the assessment system is
 - Valid and reliable for its intended purposes
 - Fair and equitable for all students
 - Accessible and accommodating
@@ -1357,3 +1357,57 @@ Use this template to design comprehensive assessment systems for classroom asses
 - Consider sustainability and continuous improvement from the design phase
 - Ensure ethical compliance and professional standards adherence
 - Build in stakeholder engagement and communication from the beginning
+## Usage Examples
+
+### Example 1: Formative Assessment for Math
+Quick formative assessments for 6th grade algebra concepts
+
+```
+Subject: Mathematics - Pre-Algebra
+Grade: 6th grade
+Assessment Type: Formative (ongoing)
+Format: Exit tickets, think-pair-share, mini-quizzes
+Frequency: Daily/weekly
+Purpose: Monitor understanding of variables and expressions
+Data Use: Adjust instruction, identify struggling students, reteach concepts
+```
+
+### Example 2: Summative Project Assessment
+End-of-unit project assessment for social studies
+
+```
+Subject: Social Studies - Historical Research
+Grade: 8th grade
+Assessment Type: Summative (final)
+Format: Research project with presentation
+Duration: 3 weeks
+Criteria: Research quality, critical analysis, presentation skills, citation accuracy
+Rubric: 4-point scale across 6 dimensions
+Purpose: Evaluate mastery of research and analysis skills
+```
+
+## Best Practices
+
+1. **Align with learning objectives** - Ensure all activities support stated goals
+2. **Differentiate instruction** - Provide multiple pathways for diverse learners
+3. **Use formative assessment** - Check understanding throughout the lesson
+4. **Engage students actively** - Incorporate interactive and hands-on elements
+5. **Provide clear instructions** - Students should know what's expected
+6. **Plan for transitions** - Smooth movement between activities maintains flow
+7. **Build in reflection time** - Allow students to process and synthesize learning
+8. **Connect to prior knowledge** - Activate existing schemas before introducing new content
+9. **Make it relevant** - Show real-world applications and connections
+10. **Plan for flexibility** - Be ready to adjust based on student needs
+
+## Tips for Success
+
+- **Preview and prepare** all materials before the lesson begins
+- **Set up the environment** to support learning activities
+- **Establish routines** that maximize instructional time
+- **Use questioning strategies** to deepen thinking and engagement
+- **Monitor student progress** continuously throughout the lesson
+- **Provide immediate feedback** to support learning
+- **Celebrate successes** and create a positive learning environment
+- **Reflect afterwards** on what worked and what could improve
+- **Collaborate with colleagues** to share ideas and strategies
+- **Stay current** with educational research and best practices

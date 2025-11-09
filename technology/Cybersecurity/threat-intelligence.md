@@ -102,14 +102,14 @@ Collection Framework:
 - Share via FS-ISAC, regional banking groups industry sharing
 - Analyze internal incident data, logs internal sources
 
-Analysis and Processing:
+### Analysis and Processing
 - Apply Diamond Model, Kill Chain analysis framework
 - Use structured analytic techniques analytical methods
 - Track campaigns by TTPs, infrastructure campaign tracking
 - Assess low/medium/high confidence levels confidence assessment
 - Validate IOCs, correlate with threat hunting analysis quality control
 
-Intelligence Products:
+### Intelligence Products
 - Produce weekly executive briefings strategic intelligence
 - Generate daily IOC feeds, hunting queries tactical intelligence
 - Create incident response playbooks operational intelligence

@@ -31,7 +31,7 @@ Facility Overview:
 - Current efficiency: [CURRENT_EFFICIENCY]
 - Quality level: [QUALITY_LEVEL]
 
-Current State:
+### Current State
 - OEE baseline: [OEE_BASELINE]
 - Lead time: [CURRENT_LEAD_TIME]
 - Inventory turns: [INVENTORY_TURNS]
@@ -39,7 +39,7 @@ Current State:
 - Cost per unit: [COST_PER_UNIT]
 - Customer satisfaction: [CUSTOMER_SATISFACTION]
 
-LEAN TRANSFORMATION:
+### LEAN TRANSFORMATION
 
 ```
 VALUE STREAM MAPPING:
@@ -55,7 +55,7 @@ Process Step     | Cycle Time      | Value Added     | Wait Time      | WIP Inve
 [STEP_6]         | [CT_6]          | [VA_6]          | [WAIT_6]       | [WIP_6]
 Total            | [TOTAL_CT]      | [TOTAL_VA]      | [TOTAL_WAIT]   | [TOTAL_WIP]
 
-Future State Design:
+### Future State Design
 Process Step     | Target Cycle    | Improvements    | Lead Time      | Takt Time
 -----------------|-----------------|-----------------|----------------|----------
 [FUTURE_1]       | [TARGET_1]      | [IMPROVE_1]     | [LEAD_1]       | [TAKT_1]
@@ -64,7 +64,7 @@ Process Step     | Target Cycle    | Improvements    | Lead Time      | Takt Tim
 [FUTURE_4]       | [TARGET_4]      | [IMPROVE_4]     | [LEAD_4]       | [TAKT_4]
 [FUTURE_5]       | [TARGET_5]      | [IMPROVE_5]     | [LEAD_5]       | [TAKT_5]
 
-Value Stream Metrics:
+### Value Stream Metrics
 Metric           | Current State   | Future State    | Improvement    | Timeline
 -----------------|-----------------|-----------------|----------------|----------
 Process Efficiency| [PROC_CURR]    | [PROC_FUT]      | [PROC_IMP]%    | [PROC_TIME]
@@ -78,9 +78,9 @@ WASTE ELIMINATION:
 
 8 Wastes Analysis:
 ```
-MUDA IDENTIFICATION:
+### MUDA IDENTIFICATION
 
-Waste Categories:
+### Waste Categories
 Waste Type       | Current Impact  | Root Causes     | Elimination Plan| Savings
 -----------------|-----------------|-----------------|-----------------|--------
 Defects          | [DEF_IMPACT]    | [DEF_CAUSES]    | [DEF_PLAN]      | [DEF_SAVE]
@@ -92,7 +92,7 @@ Inventory        | [INV_IMPACT]    | [INV_CAUSES]    | [INV_PLAN]      | [INV_SA
 Motion           | [MOT_IMPACT]    | [MOT_CAUSES]    | [MOT_PLAN]      | [MOT_SAVE]
 Extra Processing | [EXT_IMPACT]    | [EXT_CAUSES]    | [EXT_PLAN]      | [EXT_SAVE]
 
-Waste Reduction Projects:
+### Waste Reduction Projects
 Project          | Waste Target    | Method          | Resources      | ROI
 -----------------|-----------------|-----------------|----------------|-----
 [PROJECT_1]      | [WASTE_1]       | [METHOD_1]      | [RES_1]        | [ROI_1]
@@ -100,7 +100,7 @@ Project          | Waste Target    | Method          | Resources      | ROI
 [PROJECT_3]      | [WASTE_3]       | [METHOD_3]      | [RES_3]        | [ROI_3]
 [PROJECT_4]      | [WASTE_4]       | [METHOD_4]      | [RES_4]        | [ROI_4]
 
-Cost of Poor Quality:
+### Cost of Poor Quality
 Quality Cost     | Annual Amount   | % of Revenue    | Reduction Target| Action Plan
 -----------------|-----------------|-----------------|-----------------|------------
 Prevention       | [PREV_AMT]      | [PREV_PCT]      | [PREV_TARG]     | [PREV_PLAN]
@@ -115,7 +115,7 @@ Workplace Organization:
 ```
 5S FRAMEWORK:
 
-Implementation Phases:
+### Implementation Phases
 Phase            | Activities      | Timeline        | Resources      | Success Criteria
 -----------------|-----------------|-----------------|----------------|------------------
 Sort (Seiri)     | [SORT_ACT]      | [SORT_TIME]     | [SORT_RES]     | [SORT_CRIT]
@@ -124,7 +124,7 @@ Shine (Seiso)    | [SHINE_ACT]     | [SHINE_TIME]    | [SHINE_RES]    | [SHINE_C
 Standardize      | [STAND_ACT]     | [STAND_TIME]    | [STAND_RES]    | [STAND_CRIT]
 Sustain (Shitsuke)| [SUST_ACT]     | [SUST_TIME]     | [SUST_RES]     | [SUST_CRIT]
 
-Area Assessment:
+### Area Assessment
 Area             | Current Score   | Target Score    | Gap Analysis   | Priority
 -----------------|-----------------|-----------------|----------------|----------
 Production Floor | [PROD_SCORE]    | [PROD_TARG]     | [PROD_GAP]     | [PROD_PRI]
@@ -133,7 +133,7 @@ Tool Room        | [TOOL_SCORE]    | [TOOL_TARG]     | [TOOL_GAP]     | [TOOL_PR
 Maintenance      | [MAINT_SCORE]   | [MAINT_TARG]    | [MAINT_GAP]    | [MAINT_PRI]
 Office Areas     | [OFF_SCORE]     | [OFF_TARG]      | [OFF_GAP]      | [OFF_PRI]
 
-Audit System:
+### Audit System
 Audit Type       | Frequency       | Evaluator       | Scoring Method | Action Trigger
 -----------------|-----------------|-----------------|----------------|---------------
 Daily Checks     | [DAILY_FREQ]    | [DAILY_EVAL]    | [DAILY_SCORE]  | [DAILY_TRIG]
@@ -146,9 +146,9 @@ KAIZEN & CONTINUOUS IMPROVEMENT:
 
 Improvement Framework:
 ```
-KAIZEN INITIATIVES:
+### KAIZEN INITIATIVES
 
-Improvement Events:
+### Improvement Events
 Event Type       | Scope           | Duration        | Team Size      | Expected Outcome
 -----------------|-----------------|-----------------|----------------|------------------
 Kaizen Blitz     | [BLITZ_SCOPE]   | [BLITZ_DUR]     | [BLITZ_TEAM]   | [BLITZ_OUT]
@@ -157,7 +157,7 @@ A3 Problem Solving| [A3_SCOPE]     | [A3_DUR]        | [A3_TEAM]      | [A3_OUT]
 Suggestion System| [SUGG_SCOPE]    | [SUGG_DUR]      | [SUGG_TEAM]    | [SUGG_OUT]
 Quality Circles  | [QC_SCOPE]      | [QC_DUR]        | [QC_TEAM]      | [QC_OUT]
 
-Improvement Pipeline:
+### Improvement Pipeline
 Project          | Category        | Impact          | Effort         | Priority Score
 -----------------|-----------------|-----------------|----------------|---------------
 [IMPROVE_1]      | [CAT_1]         | [IMPACT_1]      | [EFFORT_1]     | [SCORE_1]
@@ -166,7 +166,7 @@ Project          | Category        | Impact          | Effort         | Priority
 [IMPROVE_4]      | [CAT_4]         | [IMPACT_4]      | [EFFORT_4]     | [SCORE_4]
 [IMPROVE_5]      | [CAT_5]         | [IMPACT_5]      | [EFFORT_5]     | [SCORE_5]
 
-Employee Engagement:
+### Employee Engagement
 Metric           | Current         | Target          | Initiatives    | Timeline
 -----------------|-----------------|-----------------|----------------|----------
 Suggestions/Employee| [SUGG_CURR]  | [SUGG_TARG]     | [SUGG_INIT]    | [SUGG_TIME]
@@ -179,9 +179,9 @@ JUST-IN-TIME PRODUCTION:
 
 JIT Implementation:
 ```
-PULL SYSTEM DESIGN:
+### PULL SYSTEM DESIGN
 
-Kanban System:
+### Kanban System
 Work Center      | Kanban Type     | Card Quantity   | Container Size | Lead Time
 -----------------|-----------------|-----------------|----------------|----------
 [CENTER_1]       | [TYPE_1]        | [CARDS_1]       | [CONT_1]       | [LEAD_1]
@@ -189,7 +189,7 @@ Work Center      | Kanban Type     | Card Quantity   | Container Size | Lead Tim
 [CENTER_3]       | [TYPE_3]        | [CARDS_3]       | [CONT_3]       | [LEAD_3]
 [CENTER_4]       | [TYPE_4]        | [CARDS_4]       | [CONT_4]       | [LEAD_4]
 
-Production Leveling:
+### Production Leveling
 Product Family   | Daily Demand    | Batch Size      | Changeover Time| Sequence
 -----------------|-----------------|-----------------|----------------|----------
 [FAMILY_1]       | [DEMAND_1]      | [BATCH_1]       | [CHANGE_1]     | [SEQ_1]
@@ -197,7 +197,7 @@ Product Family   | Daily Demand    | Batch Size      | Changeover Time| Sequence
 [FAMILY_3]       | [DEMAND_3]      | [BATCH_3]       | [CHANGE_3]     | [SEQ_3]
 [FAMILY_4]       | [DEMAND_4]      | [BATCH_4]       | [CHANGE_4]     | [SEQ_4]
 
-Inventory Optimization:
+### Inventory Optimization
 Inventory Type   | Current Level   | Target Level    | Reduction %    | Method
 -----------------|-----------------|-----------------|----------------|--------
 Raw Materials    | [RAW_CURR]      | [RAW_TARG]      | [RAW_RED]%     | [RAW_METH]
@@ -210,9 +210,9 @@ TOTAL PRODUCTIVE MAINTENANCE:
 
 TPM Program:
 ```
-EQUIPMENT EXCELLENCE:
+### EQUIPMENT EXCELLENCE
 
-OEE Improvement:
+### OEE Improvement
 Equipment        | Availability    | Performance     | Quality        | OEE Score
 -----------------|-----------------|-----------------|----------------|----------
 [EQUIP_1]        | [AVAIL_1]%      | [PERF_1]%       | [QUAL_1]%      | [OEE_1]%
@@ -220,7 +220,7 @@ Equipment        | Availability    | Performance     | Quality        | OEE Scor
 [EQUIP_3]        | [AVAIL_3]%      | [PERF_3]%       | [QUAL_3]%      | [OEE_3]%
 [EQUIP_4]        | [AVAIL_4]%      | [PERF_4]%       | [QUAL_4]%      | [OEE_4]%
 
-Maintenance Strategy:
+### Maintenance Strategy
 Maintenance Type | Equipment Coverage| Frequency      | Cost Impact    | Downtime Reduction
 -----------------|-------------------|----------------|----------------|-------------------
 Autonomous       | [AUTO_COV]        | [AUTO_FREQ]    | [AUTO_COST]    | [AUTO_DOWN]
@@ -228,7 +228,7 @@ Preventive       | [PREV_COV]        | [PREV_FREQ]    | [PREV_COST]    | [PREV_D
 Predictive       | [PRED_COV]        | [PRED_FREQ]    | [PRED_COST]    | [PRED_DOWN]
 Corrective       | [CORR_COV]        | [CORR_FREQ]    | [CORR_COST]    | [CORR_DOWN]
 
-Loss Analysis:
+### Loss Analysis
 Loss Type        | Current Hours   | Target Hours    | Reduction Plan | Savings
 -----------------|-----------------|-----------------|----------------|--------
 Breakdowns       | [BREAK_CURR]    | [BREAK_TARG]    | [BREAK_PLAN]   | [BREAK_SAVE]
@@ -242,9 +242,9 @@ STANDARD WORK:
 
 Standardization Framework:
 ```
-WORK STANDARDIZATION:
+### WORK STANDARDIZATION
 
-Standard Operating Procedures:
+### Standard Operating Procedures
 Process          | Current Method  | Best Practice   | Gap            | Update Plan
 -----------------|-----------------|-----------------|----------------|------------
 [PROCESS_1]      | [CURR_1]        | [BEST_1]        | [GAP_1]        | [PLAN_1]
@@ -252,7 +252,7 @@ Process          | Current Method  | Best Practice   | Gap            | Update P
 [PROCESS_3]      | [CURR_3]        | [BEST_3]        | [GAP_3]        | [PLAN_3]
 [PROCESS_4]      | [CURR_4]        | [BEST_4]        | [GAP_4]        | [PLAN_4]
 
-Work Instructions:
+### Work Instructions
 Task             | Cycle Time      | Key Points      | Quality Checks | Visual Aids
 -----------------|-----------------|-----------------|----------------|------------
 [TASK_1]         | [CYCLE_1]       | [KEY_1]         | [CHECK_1]      | [VIS_1]
@@ -260,7 +260,7 @@ Task             | Cycle Time      | Key Points      | Quality Checks | Visual A
 [TASK_3]         | [CYCLE_3]       | [KEY_3]         | [CHECK_3]      | [VIS_3]
 [TASK_4]         | [CYCLE_4]       | [KEY_4]         | [CHECK_4]      | [VIS_4]
 
-Training Matrix:
+### Training Matrix
 Operator         | Skills Required | Current Level   | Training Needed| Timeline
 -----------------|-----------------|-----------------|----------------|----------
 [OPERATOR_1]     | [SKILLS_1]      | [LEVEL_1]       | [TRAIN_1]      | [TIME_1]
@@ -273,9 +273,9 @@ QUALITY SYSTEMS:
 
 Quality Excellence:
 ```
-QUALITY IMPROVEMENT:
+### QUALITY IMPROVEMENT
 
-Defect Reduction:
+### Defect Reduction
 Defect Type      | Current PPM     | Target PPM      | Reduction Method| Timeline
 -----------------|-----------------|-----------------|-----------------|----------
 [DEFECT_1]       | [CURR_PPM_1]    | [TARG_PPM_1]    | [METHOD_1]      | [TIME_1]
@@ -283,7 +283,7 @@ Defect Type      | Current PPM     | Target PPM      | Reduction Method| Timelin
 [DEFECT_3]       | [CURR_PPM_3]    | [TARG_PPM_3]    | [METHOD_3]      | [TIME_3]
 [DEFECT_4]       | [CURR_PPM_4]    | [TARG_PPM_4]    | [METHOD_4]      | [TIME_4]
 
-Error Proofing:
+### Error Proofing
 Process          | Error Mode      | Poka-Yoke Type  | Implementation | Effectiveness
 -----------------|-----------------|-----------------|----------------|---------------
 [PROC_1]         | [ERROR_1]       | [POKA_1]        | [IMPL_1]       | [EFF_1]
@@ -291,7 +291,7 @@ Process          | Error Mode      | Poka-Yoke Type  | Implementation | Effectiv
 [PROC_3]         | [ERROR_3]       | [POKA_3]        | [IMPL_3]       | [EFF_3]
 [PROC_4]         | [ERROR_4]       | [POKA_4]        | [IMPL_4]       | [EFF_4]
 
-Statistical Process Control:
+### Statistical Process Control
 Control Point    | Control Type    | Limits          | Capability     | Action Plan
 -----------------|-----------------|-----------------|----------------|------------
 [POINT_1]        | [TYPE_1]        | [LIMITS_1]      | [CPK_1]        | [ACTION_1]
@@ -303,9 +303,9 @@ PERFORMANCE METRICS:
 
 KPI Dashboard:
 ```
-LEAN METRICS:
+### LEAN METRICS
 
-Operational KPIs:
+### Operational KPIs
 Metric           | Baseline        | Current         | Target         | Trend
 -----------------|-----------------|-----------------|----------------|-------
 OEE              | [OEE_BASE]      | [OEE_CURR]      | [OEE_TARG]     | [OEE_TREND]
@@ -314,7 +314,7 @@ First Pass Yield | [FPY_BASE]      | [FPY_CURR]      | [FPY_TARG]     | [FPY_TRE
 Inventory Turns  | [IT_BASE]       | [IT_CURR]       | [IT_TARG]      | [IT_TREND]
 Productivity     | [PROD_BASE]     | [PROD_CURR]     | [PROD_TARG]    | [PROD_TREND]
 
-Financial Impact:
+### Financial Impact
 Metric           | Annual Savings  | ROI             | Payback Period | Sustainability
 -----------------|-----------------|-----------------|----------------|---------------
 Cost Reduction   | [COST_SAVE]     | [COST_ROI]      | [COST_PAY]     | [COST_SUST]
@@ -336,7 +336,7 @@ Implementation Timeline: [FINAL_TIMELINE]
 
 ---
 
-Lean Implementation Summary:
+### Lean Implementation Summary
 - Waste reduction: [WASTE_SUMMARY]
 - Efficiency gains: [EFFICIENCY_SUMMARY]
 - Quality improvements: [QUALITY_SUMMARY]
@@ -359,6 +359,33 @@ OUTPUT: Deliver comprehensive lean manufacturing plan with:
 
 ## Usage Examples
 
+
+
+## Best Practices
+
+1. **Start with clear objectives** - Define what success looks like before beginning
+2. **Use data to inform decisions** - Base choices on evidence and measurable outcomes
+3. **Iterate and improve continuously** - Treat implementation as an ongoing process
+4. **Engage stakeholders early** - Include key participants in planning and execution
+5. **Document thoroughly** - Maintain clear records for reference and knowledge transfer
+6. **Communicate regularly** - Keep all parties informed of progress and changes
+7. **Address challenges proactively** - Identify potential issues before they become problems
+8. **Celebrate milestones** - Recognize achievements to maintain motivation
+9. **Learn from experience** - Reflect on what works and adjust accordingly
+10. **Stay flexible** - Be ready to adapt based on feedback and changing circumstances
+
+## Tips for Success
+
+- Break complex tasks into manageable steps with clear milestones
+- Set realistic timelines that account for dependencies and constraints
+- Allocate sufficient resources including time, budget, and personnel
+- Use templates and frameworks to ensure consistency and quality
+- Seek feedback from users and stakeholders throughout the process
+- Build in checkpoints to assess progress and make adjustments
+- Maintain quality standards while remaining practical and efficient
+- Document lessons learned for future reference and improvement
+- Foster collaboration across teams and departments
+- Stay current with industry best practices and emerging trends
 ### Example 1: Automotive Manufacturing
 ```
 LEAN_INITIATIVE: "Comprehensive lean transformation"

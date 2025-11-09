@@ -33,14 +33,14 @@ Business Context:
 - Competition level: [COMPETITION_LEVEL]
 - Current performance: [CURRENT_PERFORMANCE]
 
-Platform Portfolio:
+### Platform Portfolio
 - Primary platforms: [PRIMARY_PLATFORMS]
 - Secondary platforms: [SECONDARY_PLATFORMS]
 - Platform priorities: [PLATFORM_PRIORITIES]
 - Channel conflicts: [CHANNEL_CONFLICTS]
 - Integration requirements: [INTEGRATION_REQUIREMENTS]
 
-PLATFORM OPTIMIZATION:
+### PLATFORM OPTIMIZATION
 
 ```
 MARKETPLACE STRATEGIES:
@@ -57,7 +57,7 @@ Facebook/Instagram| [FB_SHARE]     | [FB_FOCUS]        | [FB_INV]      | [FB_ROI
 Google Shopping  | [GOOG_SHARE]    | [GOOG_FOCUS]      | [GOOG_INV]    | [GOOG_ROI]
 Other            | [OTH_SHARE]     | [OTH_FOCUS]       | [OTH_INV]     | [OTH_ROI]
 
-Listing Optimization:
+### Listing Optimization
 Element          | Best Practice   | Current State   | Optimization  | Priority
 -----------------|-----------------|-----------------|---------------|----------
 Product Titles   | [TITLE_BEST]    | [TITLE_CURR]    | [TITLE_OPT]   | [TITLE_PRI]
@@ -69,7 +69,7 @@ A+ Content       | [APLUS_BEST]    | [APLUS_CURR]    | [APLUS_OPT]   | [APLUS_PR
 Reviews/Ratings  | [REV_BEST]      | [REV_CURR]      | [REV_OPT]     | [REV_PRI]
 Q&A Management   | [QA_BEST]       | [QA_CURR]       | [QA_OPT]      | [QA_PRI]
 
-Pricing Strategy:
+### Pricing Strategy
 Strategy         | Implementation  | Monitoring      | Adjustment    | Tools
 -----------------|-----------------|-----------------|---------------|-------
 Competitive      | [COMP_IMPL]     | [COMP_MON]      | [COMP_ADJ]    | [COMP_TOOL]
@@ -83,9 +83,9 @@ INVENTORY & FULFILLMENT:
 
 Operations Management:
 ```
-FULFILLMENT OPTIMIZATION:
+### FULFILLMENT OPTIMIZATION
 
-Inventory Strategy:
+### Inventory Strategy
 Method           | Platforms       | Cost Structure  | Service Level | Scalability
 -----------------|-----------------|-----------------|---------------|------------
 FBA/WFS          | [FBA_PLAT]      | [FBA_COST]      | [FBA_SVC]     | [FBA_SCALE]
@@ -94,7 +94,7 @@ Self-Fulfilled   | [SELF_PLAT]     | [SELF_COST]     | [SELF_SVC]    | [SELF_SCA
 Dropship         | [DROP_PLAT]     | [DROP_COST]     | [DROP_SVC]    | [DROP_SCALE]
 Hybrid           | [HYB_PLAT]      | [HYB_COST]      | [HYB_SVC]     | [HYB_SCALE]
 
-Stock Management:
+### Stock Management
 Metric           | Target          | Current         | Gap           | Action Plan
 -----------------|-----------------|-----------------|---------------|------------
 Stock Levels     | [STOCK_TARG]    | [STOCK_CURR]    | [STOCK_GAP]   | [STOCK_PLAN]
@@ -103,7 +103,7 @@ Stockout Rate    | [OUT_TARG]      | [OUT_CURR]      | [OUT_GAP]     | [OUT_PLAN
 Overstock        | [OVER_TARG]     | [OVER_CURR]     | [OVER_GAP]    | [OVER_PLAN]
 Lead Times       | [LEAD_TARG]     | [LEAD_CURR]     | [LEAD_GAP]    | [LEAD_PLAN]
 
-Order Management:
+### Order Management
 Process          | SLA             | Automation      | Integration   | Performance
 -----------------|-----------------|-----------------|---------------|------------
 Order Processing | [ORD_SLA]       | [ORD_AUTO]      | [ORD_INT]     | [ORD_PERF]
@@ -116,9 +116,9 @@ ADVERTISING & PROMOTION:
 
 Marketing Strategy:
 ```
-MARKETPLACE ADVERTISING:
+### MARKETPLACE ADVERTISING
 
-Advertising Channels:
+### Advertising Channels
 Channel          | Budget          | ROAS Target     | Current ROAS  | Optimization
 -----------------|-----------------|-----------------|---------------|-------------
 Sponsored Products| [SP_BUDGET]    | [SP_TARGET]     | [SP_CURRENT]  | [SP_OPT]
@@ -127,7 +127,7 @@ Display Ads      | [DSP_BUDGET]    | [DSP_TARGET]    | [DSP_CURRENT] | [DSP_OPT]
 Video Ads        | [VID_BUDGET]    | [VID_TARGET]    | [VID_CURRENT] | [VID_OPT]
 External Traffic | [EXT_BUDGET]    | [EXT_TARGET]    | [EXT_CURRENT] | [EXT_OPT]
 
-Campaign Structure:
+### Campaign Structure
 Campaign Type    | Objective       | Targeting       | Bid Strategy  | Performance
 -----------------|-----------------|-----------------|---------------|------------
 Brand Defense    | [BD_OBJ]        | [BD_TARGET]     | [BD_BID]      | [BD_PERF]
@@ -136,7 +136,7 @@ Product Launch   | [PL_OBJ]        | [PL_TARGET]     | [PL_BID]      | [PL_PERF]
 Seasonal         | [SEA_OBJ]       | [SEA_TARGET]    | [SEA_BID]     | [SEA_PERF]
 Clearance        | [CLR_OBJ]       | [CLR_TARGET]    | [CLR_BID]     | [CLR_PERF]
 
-Promotional Calendar:
+### Promotional Calendar
 Period           | Promotion Type  | Platforms       | Discount      | Expected Lift
 -----------------|-----------------|-----------------|---------------|---------------
 [PERIOD_1]       | [PROMO_1]       | [PLAT_1]        | [DISC_1]      | [LIFT_1]
@@ -149,9 +149,9 @@ PERFORMANCE ANALYTICS:
 
 Metrics & KPIs:
 ```
-PERFORMANCE TRACKING:
+### PERFORMANCE TRACKING
 
-Sales Metrics:
+### Sales Metrics
 Metric           | Target          | MTD Actual      | YTD Actual    | YoY Growth
 -----------------|-----------------|-----------------|---------------|------------
 Revenue          | [REV_TARG]      | [REV_MTD]       | [REV_YTD]     | [REV_YOY]
@@ -160,7 +160,7 @@ AOV              | [AOV_TARG]      | [AOV_MTD]       | [AOV_YTD]     | [AOV_YOY]
 Conversion Rate  | [CONV_TARG]     | [CONV_MTD]      | [CONV_YTD]    | [CONV_YOY]
 Market Share     | [MS_TARG]       | [MS_MTD]        | [MS_YTD]      | [MS_YOY]
 
-Operational Metrics:
+### Operational Metrics
 Metric           | Target          | Current         | Trend         | Action
 -----------------|-----------------|-----------------|---------------|--------
 Order Defect Rate| [ODR_TARG]      | [ODR_CURR]      | [ODR_TREND]   | [ODR_ACT]
@@ -169,7 +169,7 @@ Cancel Rate      | [CANC_TARG]     | [CANC_CURR]     | [CANC_TREND]  | [CANC_ACT
 Return Rate      | [RET_TARG]      | [RET_CURR]      | [RET_TREND]   | [RET_ACT]
 Customer Rating  | [RATE_TARG]     | [RATE_CURR]     | [RATE_TREND]  | [RATE_ACT]
 
-Financial Performance:
+### Financial Performance
 Metric           | Target          | Actual          | Variance      | Forecast
 -----------------|-----------------|-----------------|---------------|----------
 Gross Margin     | [GM_TARG]       | [GM_ACT]        | [GM_VAR]      | [GM_FORE]
@@ -183,9 +183,9 @@ COMPETITIVE INTELLIGENCE:
 
 Market Analysis:
 ```
-COMPETITIVE LANDSCAPE:
+### COMPETITIVE LANDSCAPE
 
-Competitor Tracking:
+### Competitor Tracking
 Competitor       | Market Position | Pricing Strategy| Strengths     | Vulnerabilities
 -----------------|-----------------|-----------------|---------------|----------------
 [COMPETITOR_1]   | [POS_1]         | [PRICE_1]       | [STR_1]       | [VUL_1]
@@ -193,7 +193,7 @@ Competitor       | Market Position | Pricing Strategy| Strengths     | Vulnerabi
 [COMPETITOR_3]   | [POS_3]         | [PRICE_3]       | [STR_3]       | [VUL_3]
 [COMPETITOR_4]   | [POS_4]         | [PRICE_4]       | [STR_4]       | [VUL_4]
 
-Market Trends:
+### Market Trends
 Trend            | Impact on Business| Response Strategy| Timeline    | Investment
 -----------------|-------------------|------------------|-------------|------------
 [TREND_1]        | [IMPACT_1]        | [RESPONSE_1]     | [TIME_1]    | [INV_1]
@@ -201,7 +201,7 @@ Trend            | Impact on Business| Response Strategy| Timeline    | Investme
 [TREND_3]        | [IMPACT_3]        | [RESPONSE_3]     | [TIME_3]    | [INV_3]
 [TREND_4]        | [IMPACT_4]        | [RESPONSE_4]     | [TIME_4]    | [INV_4]
 
-Category Analysis:
+### Category Analysis
 Category Metric  | Our Performance | Category Average| Top Performer | Gap to Close
 -----------------|-----------------|------------------|---------------|-------------
 Growth Rate      | [OUR_GROWTH]    | [CAT_GROWTH]     | [TOP_GROWTH]  | [GROWTH_GAP]
@@ -214,9 +214,9 @@ BRAND PROTECTION:
 
 Control Strategies:
 ```
-BRAND MANAGEMENT:
+### BRAND MANAGEMENT
 
-Policy Enforcement:
+### Policy Enforcement
 Policy Area      | Requirements    | Monitoring      | Violations    | Enforcement
 -----------------|-----------------|-----------------|---------------|------------
 MAP Policy       | [MAP_REQ]       | [MAP_MON]       | [MAP_VIOL]    | [MAP_ENF]
@@ -225,7 +225,7 @@ Authorized Sellers| [AS_REQ]       | [AS_MON]        | [AS_VIOL]     | [AS_ENF]
 Counterfeit      | [CF_REQ]        | [CF_MON]        | [CF_VIOL]     | [CF_ENF]
 Gray Market      | [GM_REQ]        | [GM_MON]        | [GM_VIOL]     | [GM_ENF]
 
-Content Protection:
+### Content Protection
 Asset Type       | Protection Method| Monitoring Tool | Issues Found  | Resolution
 -----------------|------------------|-----------------|---------------|------------
 Product Images   | [IMG_PROTECT]    | [IMG_TOOL]      | [IMG_ISSUE]   | [IMG_RES]
@@ -238,9 +238,9 @@ GROWTH STRATEGIES:
 
 Expansion Planning:
 ```
-GROWTH INITIATIVES:
+### GROWTH INITIATIVES
 
-Market Expansion:
+### Market Expansion
 Opportunity      | Market Size     | Entry Strategy  | Investment    | Timeline
 -----------------|-----------------|-----------------|---------------|----------
 New Categories   | [CAT_SIZE]      | [CAT_ENTRY]     | [CAT_INV]     | [CAT_TIME]
@@ -248,7 +248,7 @@ New Platforms    | [PLAT_SIZE]     | [PLAT_ENTRY]    | [PLAT_INV]    | [PLAT_TIM
 International    | [INTL_SIZE]     | [INTL_ENTRY]    | [INTL_INV]    | [INTL_TIME]
 B2B Marketplaces | [B2B_SIZE]      | [B2B_ENTRY]     | [B2B_INV]     | [B2B_TIME]
 
-Product Strategy:
+### Product Strategy
 Initiative       | Revenue Potential| Development Cost| Launch Timeline| Success Metrics
 -----------------|------------------|-----------------|----------------|----------------
 New Products     | [NEW_REV]        | [NEW_COST]      | [NEW_TIME]     | [NEW_METRIC]
@@ -261,9 +261,9 @@ TECHNOLOGY & AUTOMATION:
 
 System Integration:
 ```
-TECHNOLOGY STACK:
+### TECHNOLOGY STACK
 
-Platform Integration:
+### Platform Integration
 System           | Function        | Platforms       | Status        | ROI
 -----------------|-----------------|-----------------|---------------|-----
 Listing Management| [LIST_FUNC]    | [LIST_PLAT]     | [LIST_STAT]   | [LIST_ROI]
@@ -272,7 +272,7 @@ Pricing Tools    | [PRICE_FUNC]    | [PRICE_PLAT]    | [PRICE_STAT]  | [PRICE_RO
 Order Management | [ORD_FUNC]      | [ORD_PLAT]      | [ORD_STAT]    | [ORD_ROI]
 Analytics        | [ANAL_FUNC]     | [ANAL_PLAT]     | [ANAL_STAT]   | [ANAL_ROI]
 
-Automation Opportunities:
+### Automation Opportunities
 Process          | Current State   | Automation Potential| Priority   | Investment
 -----------------|-----------------|---------------------|------------|------------
 Listing Updates  | [LIST_CURR]     | [LIST_POT]          | [LIST_PRI] | [LIST_INV]
@@ -294,7 +294,7 @@ Investment Required: [FINAL_INVESTMENT]
 
 ---
 
-Strategy Summary:
+### Strategy Summary
 - Platform optimization: [PLATFORM_SUMMARY]
 - Revenue projections: [REVENUE_SUMMARY]
 - Operational efficiency: [OPERATIONS_SUMMARY]
@@ -317,6 +317,33 @@ OUTPUT: Deliver comprehensive marketplace strategy with:
 
 ## Usage Examples
 
+
+
+## Best Practices
+
+1. **Start with clear objectives** - Define what success looks like before beginning
+2. **Use data to inform decisions** - Base choices on evidence and measurable outcomes
+3. **Iterate and improve continuously** - Treat implementation as an ongoing process
+4. **Engage stakeholders early** - Include key participants in planning and execution
+5. **Document thoroughly** - Maintain clear records for reference and knowledge transfer
+6. **Communicate regularly** - Keep all parties informed of progress and changes
+7. **Address challenges proactively** - Identify potential issues before they become problems
+8. **Celebrate milestones** - Recognize achievements to maintain motivation
+9. **Learn from experience** - Reflect on what works and adjust accordingly
+10. **Stay flexible** - Be ready to adapt based on feedback and changing circumstances
+
+## Tips for Success
+
+- Break complex tasks into manageable steps with clear milestones
+- Set realistic timelines that account for dependencies and constraints
+- Allocate sufficient resources including time, budget, and personnel
+- Use templates and frameworks to ensure consistency and quality
+- Seek feedback from users and stakeholders throughout the process
+- Build in checkpoints to assess progress and make adjustments
+- Maintain quality standards while remaining practical and efficient
+- Document lessons learned for future reference and improvement
+- Foster collaboration across teams and departments
+- Stay current with industry best practices and emerging trends
 ### Example 1: Multi-Platform Expansion
 ```
 MARKETPLACE_STRATEGY: "Omnichannel marketplace growth"

@@ -126,14 +126,14 @@ Error Budget Management:
 - Alert on 2x burn rate budget alerts with escalation to engineering manager
 - Gate releases when budget <10% release gates
 
-Monitoring Strategy:
+### Monitoring Strategy
 - Use four golden signals sre monitoring strategy
 - Collect RED/USE metrics sre metrics collection
 - Aggregate with ELK stack sre log management
 - Trace with Jaeger sre distributed tracing
 - Create Grafana dashboards showing SLIs/SLOs sre dashboard design
 
-Incident Management:
+### Incident Management
 - Classify SEV1/2/3/4 based on user impact incident classification
 - Follow ITIL-based response procedures with 15min/1hr/4hr escalation matrix
 - Communicate via Slack, email, status page incident communication

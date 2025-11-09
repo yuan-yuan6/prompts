@@ -32,23 +32,23 @@ Decision Context:
 - Time constraints: [TIME_CONSTRAINTS]
 - Setting limitations: [SETTING_LIMITATIONS]
 
-Evidence Base:
+### Evidence Base
 - Guidelines referenced: [CLINICAL_GUIDELINES]
 - Evidence level: [EVIDENCE_LEVEL]
 - Literature support: [KEY_STUDIES]
 - Expert consensus: [EXPERT_CONSENSUS]
 - Local protocols: [INSTITUTIONAL_PROTOCOLS]
 
-Patient Factors:
+### Patient Factors
 - Demographics: [PATIENT_DEMOGRAPHICS]
 - Comorbidities: [COMORBIDITIES]
 - Risk factors: [RISK_FACTORS]
 - Contraindications: [CONTRAINDICATIONS]
 - Patient preferences: [PREFERENCES]
 
-DIAGNOSTIC DECISION SUPPORT:
+### DIAGNOSTIC DECISION SUPPORT
 
-Differential Diagnosis Algorithm:
+### Differential Diagnosis Algorithm
 Presenting Symptom: [CHIEF_COMPLAINT]
 
 ```
@@ -77,7 +77,7 @@ Initial Assessment:
 Clinical Scoring Systems:
 Score 1: [SCORE_NAME_1]
 ```
-Criteria:
+### Criteria
 □ [CRITERION_1]: [POINTS_1]
 □ [CRITERION_2]: [POINTS_2]
 □ [CRITERION_3]: [POINTS_3]
@@ -104,9 +104,9 @@ Pre-test Probability → Post-test Probability:
 - Moderate (20-80%): [MOD_PRETEST]
 - High (>80%): [HIGH_PRETEST]
 
-TREATMENT DECISION ALGORITHMS:
+### TREATMENT DECISION ALGORITHMS
 
-Treatment Selection Matrix:
+### Treatment Selection Matrix
 ```
 Patient Characteristics × Treatment Options
 
@@ -138,16 +138,16 @@ Primary Options:
    - Convenience: [CONVENIENCE_2]
    - Contraindications: [CONTRAINDICATIONS_2]
 
-Decision Factors:
+### Decision Factors
 - Renal function: [RENAL_ADJUSTMENT]
 - Hepatic function: [HEPATIC_ADJUSTMENT]
 - Drug interactions: [INTERACTION_CHECK]
 - Allergies: [ALLERGY_CHECK]
 - Insurance coverage: [COVERAGE_CHECK]
 
-RISK ASSESSMENT TOOLS:
+### RISK ASSESSMENT TOOLS
 
-Cardiovascular Risk Calculator:
+### Cardiovascular Risk Calculator
 ```
 10-Year ASCVD Risk:
 Age: [AGE] years
@@ -162,7 +162,7 @@ Smoking: [SMOKING]
 
 Calculated Risk: [RISK_PERCENT]%
 
-Recommendations:
+### Recommendations
 < 5%: [LOW_RISK_REC]
 5-7.5%: [BORDERLINE_REC]
 7.5-20%: [INTERMEDIATE_REC]
@@ -178,15 +178,15 @@ RCRI Score:
 □ Diabetes on insulin: [DM_INSULIN]
 □ Creatinine > 2.0: [RENAL]
 
-Risk Class:
+### Risk Class
 - Class I (0 points): 0.4% risk
 - Class II (1 point): 0.9% risk
 - Class III (2 points): 6.6% risk
 - Class IV (≥3 points): >11% risk
 
-CLINICAL PATHWAYS:
+### CLINICAL PATHWAYS
 
-Acute Chest Pain Pathway:
+### Acute Chest Pain Pathway
 ```
 ENTRY: Chest Pain Presentation
 │
@@ -234,123 +234,123 @@ Guidelines:
 2. [GUIDELINE_2]: Class [CLASS_2], Level [LEVEL_2]
 3. [GUIDELINE_3]: Class [CLASS_3], Level [LEVEL_3]
 
-Recommendation Strength:
+### Recommendation Strength
 - Class I: Should be performed (Benefit >>> Risk)
 - Class IIa: Reasonable to perform (Benefit >> Risk)
 - Class IIb: May be considered (Benefit ≥ Risk)
 - Class III: Not recommended (Risk ≥ Benefit)
 
-Evidence Levels:
+### Evidence Levels
 - Level A: Multiple RCTs or meta-analyses
 - Level B: Single RCT or large observational
 - Level C: Expert opinion or small studies
 
-SCREENING RECOMMENDATIONS:
+### SCREENING RECOMMENDATIONS
 
-Cancer Screening Guidelines:
-Breast Cancer:
+### Cancer Screening Guidelines
+### Breast Cancer
 - Age 40-49: [BREAST_40_49]
 - Age 50-74: [BREAST_50_74]
 - Age ≥75: [BREAST_75_PLUS]
 - High risk: [BREAST_HIGH_RISK]
 
-Colorectal Cancer:
+### Colorectal Cancer
 - Age 45-49: [COLON_45_49]
 - Age 50-75: [COLON_50_75]
 - Age >75: [COLON_75_PLUS]
 - High risk: [COLON_HIGH_RISK]
 
-Lung Cancer:
+### Lung Cancer
 - Eligibility criteria: [LUNG_CRITERIA]
 - Screening method: [LUNG_METHOD]
 - Frequency: [LUNG_FREQUENCY]
 
-Preventive Care Checklist:
-Immunizations:
+### Preventive Care Checklist
+### Immunizations
 □ Influenza: [FLU_STATUS]
 □ Pneumococcal: [PNEUMO_STATUS]
 □ Tdap/Td: [TDAP_STATUS]
 □ Zoster: [ZOSTER_STATUS]
 □ COVID-19: [COVID_STATUS]
 
-Health Maintenance:
+### Health Maintenance
 □ Blood pressure: [BP_SCREENING]
 □ Lipids: [LIPID_SCREENING]
 □ Diabetes: [DM_SCREENING]
 □ Depression: [DEPRESSION_SCREENING]
 □ Fall risk: [FALL_SCREENING]
 
-PROGNOSTIC TOOLS:
+### PROGNOSTIC TOOLS
 
-Mortality Prediction:
-ICU Mortality Score:
+### Mortality Prediction
+### ICU Mortality Score
 - APACHE II: [APACHE_SCORE]
 - SOFA: [SOFA_SCORE]
 - Expected mortality: [MORTALITY_PERCENT]%
 
-Cancer Prognosis:
+### Cancer Prognosis
 - Stage: [CANCER_STAGE]
 - Grade: [CANCER_GRADE]
 - Molecular markers: [MOLECULAR_MARKERS]
 - 5-year survival: [FIVE_YEAR_SURVIVAL]%
 
-Functional Prognosis:
+### Functional Prognosis
 - Current function: [CURRENT_FUNCTION]
 - Expected recovery: [EXPECTED_RECOVERY]
 - Time to recovery: [RECOVERY_TIME]
 - Limiting factors: [LIMITING_FACTORS]
 
-DRUG INTERACTION CHECKER:
+### DRUG INTERACTION CHECKER
 
-Interaction Analysis:
-Current Medications:
+### Interaction Analysis
+### Current Medications
 1. [CURRENT_MED_1]
 2. [CURRENT_MED_2]
 3. [CURRENT_MED_3]
 
 New Medication: [NEW_MEDICATION]
 
-Interactions Identified:
+### Interactions Identified
 - Major: [MAJOR_INTERACTIONS]
 - Moderate: [MODERATE_INTERACTIONS]
 - Minor: [MINOR_INTERACTIONS]
 
-Management Recommendations:
+### Management Recommendations
 - Contraindicated combinations: [CONTRAINDICATED]
 - Dose adjustments needed: [DOSE_ADJUSTMENTS]
 - Monitoring required: [MONITORING_REQUIRED]
 - Alternative options: [ALTERNATIVES]
 
-CLINICAL ALERTS:
+### CLINICAL ALERTS
 
-Safety Alerts:
+### Safety Alerts
 High-Priority Alerts:
 ⚠️ [ALERT_1]: Action: [ACTION_1]
 ⚠️ [ALERT_2]: Action: [ACTION_2]
 ⚠️ [ALERT_3]: Action: [ACTION_3]
 
-Drug Allergy Alert:
+### Drug Allergy Alert
 Patient Allergies: [KNOWN_ALLERGIES]
 Cross-reactivity Risk: [CROSS_REACTIVITY]
 Safe Alternatives: [SAFE_ALTERNATIVES]
 
-Critical Values:
-Lab Critical Values:
+### Critical Values
+### Lab Critical Values
 - [LAB_1]: Critical at [CRITICAL_VALUE_1]
 - [LAB_2]: Critical at [CRITICAL_VALUE_2]
 - [LAB_3]: Critical at [CRITICAL_VALUE_3]
 
-DECISION DOCUMENTATION:
+### DECISION DOCUMENTATION
 
-Decision Summary:
+### Decision Summary
 Clinical Question: [FINAL_QUESTION]
 Evidence Reviewed: [EVIDENCE_SUMMARY]
 Decision Made: [DECISION_MADE]
 Rationale: [DECISION_RATIONALE]
 Alternatives Considered: [ALTERNATIVES_CONSIDERED]
 
-Shared Decision Making:
-Options Presented:
+### Shared Decision Making
+### Options Presented
 1. [OPTION_1]: Pros/Cons: [OPTION_1_ANALYSIS]
 2. [OPTION_2]: Pros/Cons: [OPTION_2_ANALYSIS]
 3. [OPTION_3]: Pros/Cons: [OPTION_3_ANALYSIS]
@@ -358,36 +358,36 @@ Options Presented:
 Patient Choice: [PATIENT_CHOICE]
 Reasoning: [PATIENT_REASONING]
 
-QUALITY METRICS:
+### QUALITY METRICS
 
-Adherence to Guidelines:
+### Adherence to Guidelines
 - Guideline compliance: [COMPLIANCE_RATE]%
 - Core measures met: [CORE_MEASURES_MET]
 - Documentation complete: [DOCUMENTATION_COMPLETE]
 - Time targets met: [TIME_TARGETS_MET]
 
-Outcome Tracking:
+### Outcome Tracking
 - Expected outcome: [EXPECTED_OUTCOME]
 - Actual outcome: [ACTUAL_OUTCOME]
 - Variance analysis: [VARIANCE_ANALYSIS]
 - Learning points: [LEARNING_POINTS]
 
-CLINICAL RESOURCES:
+### CLINICAL RESOURCES
 
-Quick References:
+### Quick References
 - Normal values: [NORMAL_VALUES_REF]
 - Drug dosing: [DOSING_REFERENCE]
 - Calculators: [CALCULATOR_LINKS]
 - Guidelines: [GUIDELINE_LINKS]
 - Protocols: [PROTOCOL_LINKS]
 
-Educational Materials:
+### Educational Materials
 - Patient handouts: [PATIENT_MATERIALS]
 - Provider resources: [PROVIDER_RESOURCES]
 - Video tutorials: [VIDEO_RESOURCES]
 - Decision aids: [DECISION_AIDS]
 
-DECISION OUTPUT:
+### DECISION OUTPUT
 [Generate comprehensive clinical decision support with all elements]
 
 Decision Type: [FINAL_DECISION_TYPE]
@@ -398,7 +398,7 @@ Recommendation: [FINAL_RECOMMENDATION]
 
 ---
 
-Decision Summary:
+### Decision Summary
 - Evidence strength: [EVIDENCE_STRENGTH]
 - Recommendation grade: [RECOMMENDATION_GRADE]
 - Confidence level: [CONFIDENCE_LEVEL]
@@ -420,6 +420,33 @@ OUTPUT: Deliver comprehensive clinical decision support with:
 
 ## Usage Examples
 
+
+
+## Best Practices
+
+1. **Start with clear objectives** - Define what success looks like before beginning
+2. **Use data to inform decisions** - Base choices on evidence and measurable outcomes
+3. **Iterate and improve continuously** - Treat implementation as an ongoing process
+4. **Engage stakeholders early** - Include key participants in planning and execution
+5. **Document thoroughly** - Maintain clear records for reference and knowledge transfer
+6. **Communicate regularly** - Keep all parties informed of progress and changes
+7. **Address challenges proactively** - Identify potential issues before they become problems
+8. **Celebrate milestones** - Recognize achievements to maintain motivation
+9. **Learn from experience** - Reflect on what works and adjust accordingly
+10. **Stay flexible** - Be ready to adapt based on feedback and changing circumstances
+
+## Tips for Success
+
+- Break complex tasks into manageable steps with clear milestones
+- Set realistic timelines that account for dependencies and constraints
+- Allocate sufficient resources including time, budget, and personnel
+- Use templates and frameworks to ensure consistency and quality
+- Seek feedback from users and stakeholders throughout the process
+- Build in checkpoints to assess progress and make adjustments
+- Maintain quality standards while remaining practical and efficient
+- Document lessons learned for future reference and improvement
+- Foster collaboration across teams and departments
+- Stay current with industry best practices and emerging trends
 ### Example 1: Chest Pain Evaluation
 ```
 DECISION_TOOL_TYPE: "Diagnostic algorithm"

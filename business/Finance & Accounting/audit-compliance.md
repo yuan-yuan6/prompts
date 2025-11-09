@@ -33,7 +33,7 @@ Organizational Context:
 - Regulatory Environment: [REGULATORY_LANDSCAPE]
 - Compliance History: [COMPLIANCE_TRACK_RECORD]
 
-Audit Scope and Objectives:
+### Audit Scope and Objectives
 - Audit Type: [AUDIT_CATEGORY]
 - Audit Purpose: [AUDIT_OBJECTIVES]
 - Audit Frequency: [AUDIT_SCHEDULE]
@@ -43,7 +43,7 @@ Audit Scope and Objectives:
 - Compliance Focus Areas: [KEY_COMPLIANCE_AREAS]
 - Technology Environment: [IT_SYSTEMS_LANDSCAPE]
 
-Regulatory Framework:
+### Regulatory Framework
 - Primary Regulations: [APPLICABLE_REGULATIONS]
 - Industry Standards: [INDUSTRY_COMPLIANCE_STANDARDS]
 - International Requirements: [GLOBAL_REGULATORY_REQUIREMENTS]
@@ -53,7 +53,7 @@ Regulatory Framework:
 - Employment Laws: [LABOR_REGULATIONS]
 - Anti-Corruption Laws: [ETHICS_COMPLIANCE]
 
-Internal Control Environment:
+### Internal Control Environment
 - Control Framework: [CONTROL_FRAMEWORK_TYPE]
 - Governance Structure: [GOVERNANCE_MODEL]
 - Risk Management: [RISK_MANAGEMENT_APPROACH]
@@ -63,7 +63,7 @@ Internal Control Environment:
 - Communication Processes: [INTERNAL_COMMUNICATION]
 - Control Deficiencies: [KNOWN_CONTROL_GAPS]
 
-Audit Resources and Constraints:
+### Audit Resources and Constraints
 - Internal Audit Function: [INTERNAL_AUDIT_CAPABILITY]
 - External Audit Requirements: [EXTERNAL_AUDIT_NEEDS]
 - Budget Constraints: [AUDIT_BUDGET]
@@ -1269,7 +1269,7 @@ Generate a comprehensive audit and compliance strategy that includes:
 - Performance measurement and dashboard templates
 - Training materials and awareness programs
 
-Ensure the audit and compliance strategy is:
+### Ensure the audit and compliance strategy is
 - Risk-based and materiality-focused
 - Independent and objective in approach
 - Comprehensive and systematic in coverage

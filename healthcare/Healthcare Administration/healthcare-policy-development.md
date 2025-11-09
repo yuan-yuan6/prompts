@@ -32,23 +32,23 @@ Policy Information:
 - Review date: [REVIEW_DATE]
 - Policy type: [TYPE] (Clinical/Administrative/Operational/HR)
 
-Governance Structure:
+### Governance Structure
 - Policy owner: [POLICY_OWNER]
 - Approving authority: [APPROVING_AUTHORITY]
 - Review committee: [REVIEW_COMMITTEE]
 - Stakeholders: [STAKEHOLDER_LIST]
 - Distribution list: [DISTRIBUTION_LIST]
 
-Regulatory Alignment:
+### Regulatory Alignment
 - Federal regulations: [FEDERAL_REGS]
 - State regulations: [STATE_REGS]
 - Accreditation standards: [ACCREDITATION_STANDARDS]
 - Professional guidelines: [PROFESSIONAL_GUIDELINES]
 - Industry best practices: [BEST_PRACTICES]
 
-POLICY FRAMEWORK:
+### POLICY FRAMEWORK
 
-Purpose Statement:
+### Purpose Statement
 ```
 PURPOSE:
 [CLEAR_PURPOSE_STATEMENT]
@@ -63,13 +63,13 @@ RATIONALE:
 
 Scope & Applicability:
 ```
-SCOPE:
+### SCOPE
 Applies to: [WHO_IT_APPLIES_TO]
 Settings: [APPLICABLE_SETTINGS]
 Services: [COVERED_SERVICES]
 Timeframe: [WHEN_APPLICABLE]
 
-EXCLUSIONS:
+### EXCLUSIONS
 Does not apply to: [EXCLUSIONS]
 Exceptions: [EXCEPTION_CRITERIA]
 Special circumstances: [SPECIAL_CIRCUMSTANCES]
@@ -77,17 +77,17 @@ Special circumstances: [SPECIAL_CIRCUMSTANCES]
 
 Policy Statement:
 ```
-POLICY STATEMENT:
+### POLICY STATEMENT
 [COMPREHENSIVE_POLICY_STATEMENT]
 
-KEY PRINCIPLES:
+### KEY PRINCIPLES
 1. [PRINCIPLE_1]
 2. [PRINCIPLE_2]
 3. [PRINCIPLE_3]
 4. [PRINCIPLE_4]
 5. [PRINCIPLE_5]
 
-EXPECTED OUTCOMES:
+### EXPECTED OUTCOMES
 - [OUTCOME_1]
 - [OUTCOME_2]
 - [OUTCOME_3]
@@ -120,7 +120,7 @@ PROCEDURE 1: [PROCEDURE_NAME_1]
 Purpose: [PROCEDURE_PURPOSE_1]
 Responsible Party: [RESPONSIBLE_1]
 
-Steps:
+### Steps
 1. [STEP_1]
    - Details: [STEP_1_DETAILS]
    - Documentation: [STEP_1_DOCUMENTATION]
@@ -136,7 +136,7 @@ Steps:
    - Documentation: [STEP_3_DOCUMENTATION]
    - Timeline: [STEP_3_TIMELINE]
 
-Decision Points:
+### Decision Points
 [DECISION_TREE_OR_FLOWCHART]
 
 PROCEDURE 2: [PROCEDURE_NAME_2]
@@ -187,7 +187,7 @@ Clinical Guidelines:
 ```
 CLINICAL PROTOCOL: [PROTOCOL_NAME]
 
-Indication Criteria:
+### Indication Criteria
 □ [INDICATION_1]
 □ [INDICATION_2]
 □ [INDICATION_3]
@@ -197,14 +197,14 @@ Contraindications:
 □ [CONTRAINDICATION_2]
 □ [CONTRAINDICATION_3]
 
-Clinical Pathway:
+### Clinical Pathway
 Day/Phase | Interventions | Assessments | Goals | Discharge Criteria
 ----------|---------------|-------------|-------|-------------------
 [DAY_1]   | [INTERV_1]   | [ASSESS_1]  | [GOAL_1] | [CRITERIA_1]
 [DAY_2]   | [INTERV_2]   | [ASSESS_2]  | [GOAL_2] | [CRITERIA_2]
 [DAY_3]   | [INTERV_3]   | [ASSESS_3]  | [GOAL_3] | [CRITERIA_3]
 
-Evidence Base:
+### Evidence Base
 - Guideline source: [GUIDELINE_SOURCE]
 - Evidence level: [EVIDENCE_LEVEL]
 - Recommendation strength: [RECOMMENDATION_STRENGTH]
@@ -212,7 +212,7 @@ Evidence Base:
 
 Medication Policies:
 ```
-MEDICATION MANAGEMENT:
+### MEDICATION MANAGEMENT
 
 High-Alert Medications:
 Medication          | Double Check | Independent Verification | Special Storage
@@ -232,8 +232,8 @@ ADMINISTRATIVE POLICIES:
 
 Operational Procedures:
 ```
-ADMISSION POLICY:
-Admission Criteria:
+### ADMISSION POLICY
+### Admission Criteria
 - Medical necessity: [MEDICAL_NECESSITY_CRITERIA]
 - Insurance verification: [VERIFICATION_PROCESS]
 - Bed assignment: [BED_ASSIGNMENT_PROTOCOL]
@@ -246,7 +246,7 @@ Admission Process:
 4. [ADMISSION_STEP_4]
 5. [ADMISSION_STEP_5]
 
-Required Documentation:
+### Required Documentation
 □ [DOCUMENT_1]
 □ [DOCUMENT_2]
 □ [DOCUMENT_3]
@@ -255,9 +255,9 @@ Required Documentation:
 
 Financial Policies:
 ```
-BILLING & COLLECTION:
+### BILLING & COLLECTION
 
-Patient Financial Responsibilities:
+### Patient Financial Responsibilities
 - Copayment collection: [COPAY_POLICY]
 - Deductible verification: [DEDUCTIBLE_PROCESS]
 - Financial counseling: [COUNSELING_PROTOCOL]
@@ -277,9 +277,9 @@ COMPLIANCE & REGULATORY:
 
 Regulatory Requirements:
 ```
-COMPLIANCE FRAMEWORK:
+### COMPLIANCE FRAMEWORK
 
-Federal Regulations:
+### Federal Regulations
 Regulation        | Requirement                    | Compliance Method
 -----------------|--------------------------------|-------------------
 HIPAA            | [HIPAA_REQUIREMENTS]           | [HIPAA_COMPLIANCE]
@@ -288,10 +288,10 @@ Stark Law        | [STARK_REQUIREMENTS]           | [STARK_COMPLIANCE]
 Anti-Kickback    | [AKS_REQUIREMENTS]             | [AKS_COMPLIANCE]
 CMS CoPs         | [COPS_REQUIREMENTS]            | [COPS_COMPLIANCE]
 
-State Requirements:
+### State Requirements
 [STATE_SPECIFIC_REQUIREMENTS]
 
-Accreditation Standards:
+### Accreditation Standards
 Standard         | Requirement                    | Evidence
 -----------------|--------------------------------|-------------------
 [STANDARD_1]     | [REQUIREMENT_1]                | [EVIDENCE_1]
@@ -301,9 +301,9 @@ Standard         | Requirement                    | Evidence
 
 Privacy & Security:
 ```
-INFORMATION SECURITY:
+### INFORMATION SECURITY
 
-Access Controls:
+### Access Controls
 - User authentication: [AUTHENTICATION_METHODS]
 - Role-based access: [RBAC_STRUCTURE]
 - Minimum necessary: [MINIMUM_NECESSARY_RULES]
@@ -320,9 +320,9 @@ QUALITY & SAFETY:
 
 Patient Safety Policies:
 ```
-SAFETY PROTOCOLS:
+### SAFETY PROTOCOLS
 
-Never Events Prevention:
+### Never Events Prevention
 Event Type            | Prevention Strategy            | Monitoring Method
 ---------------------|-------------------------------|-------------------
 Wrong site surgery   | [UNIVERSAL_PROTOCOL]          | [MONITORING_1]
@@ -330,7 +330,7 @@ Retained objects     | [COUNT_PROTOCOL]              | [MONITORING_2]
 Falls with injury    | [FALL_PREVENTION]             | [MONITORING_3]
 Medication errors    | [MED_SAFETY_PROTOCOL]         | [MONITORING_4]
 
-Incident Reporting:
+### Incident Reporting
 - Reporting criteria: [WHAT_TO_REPORT]
 - Reporting timeline: [WHEN_TO_REPORT]
 - Investigation process: [INVESTIGATION_PROTOCOL]
@@ -340,9 +340,9 @@ Incident Reporting:
 
 Quality Standards:
 ```
-QUALITY METRICS:
+### QUALITY METRICS
 
-Core Measures:
+### Core Measures
 Measure              | Target | Current | Action Plan
 --------------------|--------|---------|-------------
 [MEASURE_1]         | [T_1]  | [C_1]   | [PLAN_1]
@@ -360,9 +360,9 @@ HUMAN RESOURCES:
 
 Workforce Policies:
 ```
-STAFFING POLICIES:
+### STAFFING POLICIES
 
-Staffing Ratios:
+### Staffing Ratios
 Unit Type           | Day Shift | Evening Shift | Night Shift | Weekend
 -------------------|-----------|---------------|-------------|----------
 ICU                | [RATIO_1] | [RATIO_2]     | [RATIO_3]   | [RATIO_4]
@@ -378,9 +378,9 @@ Competency Requirements:
 
 Professional Conduct:
 ```
-CODE OF CONDUCT:
+### CODE OF CONDUCT
 
-Professional Standards:
+### Professional Standards
 1. [STANDARD_1]
 2. [STANDARD_2]
 3. [STANDARD_3]
@@ -400,7 +400,7 @@ IMPLEMENTATION:
 
 Roll-out Strategy:
 ```
-IMPLEMENTATION PHASES:
+### IMPLEMENTATION PHASES
 
 Phase 1: Preparation (Weeks 1-2)
 □ Policy finalization
@@ -435,9 +435,9 @@ Phase 5: Evaluation (Weeks 8-12)
 
 Change Management:
 ```
-CHANGE STRATEGY:
+### CHANGE STRATEGY
 
-Impact Assessment:
+### Impact Assessment
 Department        | Impact Level | Change Required | Support Needed
 -----------------|--------------|-----------------|----------------
 [DEPT_1]         | High         | [CHANGE_1]      | [SUPPORT_1]
@@ -456,9 +456,9 @@ MONITORING & EVALUATION:
 
 Compliance Monitoring:
 ```
-AUDIT FRAMEWORK:
+### AUDIT FRAMEWORK
 
-Audit Schedule:
+### Audit Schedule
 Policy Area       | Audit Type    | Frequency      | Responsible Party
 -----------------|---------------|----------------|-------------------
 [AREA_1]         | [TYPE_1]      | [FREQUENCY_1]  | [PARTY_1]
@@ -475,7 +475,7 @@ Metric            | Target        | Measurement Method | Reporting
 
 Performance Indicators:
 ```
-KPI Dashboard:
+### KPI Dashboard
 Indicator         | Baseline      | Current        | Target         | Status
 -----------------|---------------|----------------|----------------|--------
 [KPI_1]          | [BASE_1]      | [CURRENT_1]    | [TARGET_1]     | [STAT_1]
@@ -483,13 +483,13 @@ Indicator         | Baseline      | Current        | Target         | Status
 [KPI_3]          | [BASE_3]      | [CURRENT_3]    | [TARGET_3]     | [STAT_3]
 ```
 
-DOCUMENTATION & RECORDS:
+### DOCUMENTATION & RECORDS
 
 Documentation Requirements:
 ```
-RECORD KEEPING:
+### RECORD KEEPING
 
-Required Documentation:
+### Required Documentation
 Document Type     | Retention Period | Storage Location | Access Control
 -----------------|------------------|------------------|----------------
 [DOC_TYPE_1]     | [RETENTION_1]    | [STORAGE_1]      | [ACCESS_1]
@@ -507,9 +507,9 @@ REVIEW & REVISION:
 
 Policy Review Process:
 ```
-REVIEW CYCLE:
+### REVIEW CYCLE
 
-Annual Review:
+### Annual Review
 □ Regulatory changes assessment
 □ Best practice updates
 □ Incident analysis
@@ -517,14 +517,14 @@ Annual Review:
 □ Stakeholder feedback
 □ Revision recommendations
 
-Revision Triggers:
+### Revision Triggers
 - Regulatory changes: [REGULATORY_TRIGGERS]
 - Sentinel events: [SENTINEL_TRIGGERS]
 - Quality issues: [QUALITY_TRIGGERS]
 - Technology changes: [TECH_TRIGGERS]
 - Organizational changes: [ORG_TRIGGERS]
 
-Approval Process:
+### Approval Process
 1. Draft revision
 2. Stakeholder review
 3. Legal review
@@ -545,7 +545,7 @@ Effective: [FINAL_EFFECTIVE_DATE]
 
 ---
 
-Policy Summary:
+### Policy Summary
 - Policy number: [POLICY_NUMBER]
 - Version: [VERSION]
 - Pages: [PAGE_COUNT]
@@ -567,6 +567,33 @@ OUTPUT: Deliver comprehensive healthcare policy with:
 
 ## Usage Examples
 
+
+
+## Best Practices
+
+1. **Start with clear objectives** - Define what success looks like before beginning
+2. **Use data to inform decisions** - Base choices on evidence and measurable outcomes
+3. **Iterate and improve continuously** - Treat implementation as an ongoing process
+4. **Engage stakeholders early** - Include key participants in planning and execution
+5. **Document thoroughly** - Maintain clear records for reference and knowledge transfer
+6. **Communicate regularly** - Keep all parties informed of progress and changes
+7. **Address challenges proactively** - Identify potential issues before they become problems
+8. **Celebrate milestones** - Recognize achievements to maintain motivation
+9. **Learn from experience** - Reflect on what works and adjust accordingly
+10. **Stay flexible** - Be ready to adapt based on feedback and changing circumstances
+
+## Tips for Success
+
+- Break complex tasks into manageable steps with clear milestones
+- Set realistic timelines that account for dependencies and constraints
+- Allocate sufficient resources including time, budget, and personnel
+- Use templates and frameworks to ensure consistency and quality
+- Seek feedback from users and stakeholders throughout the process
+- Build in checkpoints to assess progress and make adjustments
+- Maintain quality standards while remaining practical and efficient
+- Document lessons learned for future reference and improvement
+- Foster collaboration across teams and departments
+- Stay current with industry best practices and emerging trends
 ### Example 1: Clinical Practice Policy
 ```
 POLICY_TYPE: "Clinical practice guideline"

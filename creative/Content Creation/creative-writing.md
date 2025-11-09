@@ -150,7 +150,7 @@ Character Development:
 - Show mentor-student, creator-creation character relationships through philosophical dialogue style
 - Give each character unique analytical, corporate, innocent character voice
 
-Plot Structure:
+### Plot Structure
 - Open with compelling discovery of sentient AI that draws readers in
 - Build ethical dilemmas leading to powerful confrontation with authorities
 - Include corporate conspiracy subplots and unexpected android revelation plot twists

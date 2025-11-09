@@ -124,21 +124,21 @@ Infrastructure Design:
 - Integrate with API Gateway, EventBridge integration services
 - Secure with IAM, Secrets Manager, WAF security services
 
-Network Architecture:
+### Network Architecture
 - Design multi-AZ VPC with public/private subnet strategy
 - Configure route tables, NAT gateways routing configuration
 - Apply security groups for web/app/data tiers security groups
 - Balance with ALB, NLB cloud load balancing with CloudFront CDN
 - Connect with Site-to-Site VPN vpn configuration
 
-Security Architecture:
+### Security Architecture
 - Apply AWS Well-Architected cloud security framework
 - Use IAM, Cognito cloud identity management with RBAC cloud access control
 - Protect with KMS encryption, VPC security cloud data protection
 - Monitor with CloudTrail, GuardDuty cloud monitoring security
 - Manage keys with AWS KMS cloud key management and CloudWatch threat detection
 
-Scalability Design:
+### Scalability Design
 - Apply predictive cloud scaling strategy with ASG, ECS auto scaling
 - Optimize with CloudWatch metrics cloud performance optimization
 - Plan with AWS Trusted Advisor cloud capacity planning

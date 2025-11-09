@@ -34,7 +34,7 @@ Project Overview:
 - Performance context: [PERFORMANCE_CONTEXT]
 - Delivery format: [DELIVERY_FORMAT]
 
-Creative Direction:
+### Creative Direction
 - Comedy objective: [COMEDY_OBJECTIVE]
 - Comedic voice: [COMEDIC_VOICE]
 - Humor style: [HUMOR_STYLE]
@@ -44,7 +44,7 @@ Creative Direction:
 - Signature elements: [SIGNATURE_ELEMENTS]
 - Unique angle: [UNIQUE_ANGLE]
 
-Audience Analysis:
+### Audience Analysis
 - Primary demographic: [PRIMARY_DEMOGRAPHIC]
 - Cultural context: [CULTURAL_CONTEXT]
 - Shared experiences: [SHARED_EXPERIENCES]
@@ -54,11 +54,11 @@ Audience Analysis:
 - Taboo subjects: [TABOO_SUBJECTS]
 - Sensitive topics: [SENSITIVE_TOPICS]
 
-JOKE WRITING:
+### JOKE WRITING
 
-Joke Structure:
-Basic Joke Framework:
-Setup and Punchline:
+### Joke Structure
+### Basic Joke Framework
+### Setup and Punchline
 Setup: [JOKE_SETUP]
 - Context establishment: [CONTEXT_ESTABLISHMENT]
 - Expectation building: [EXPECTATION_BUILDING]
@@ -77,7 +77,7 @@ Punchline: [PUNCHLINE]
 - Exaggeration: [EXAGGERATION]
 - Truth revelation: [TRUTH_REVELATION]
 
-Joke Variations:
+### Joke Variations
 Joke Version A: [JOKE_VERSION_A]
 - Setup: [SETUP_A]
 - Punchline: [PUNCHLINE_A]
@@ -96,9 +96,9 @@ Joke Version C: [JOKE_VERSION_C]
 - Alternative angle: [ALTERNATIVE_ANGLE_C]
 - Timing notes: [TIMING_NOTES_C]
 
-Comedy Techniques:
-Observational Humor:
-Daily Life Observations:
+### Comedy Techniques
+### Observational Humor
+### Daily Life Observations
 - Common experience: [COMMON_EXPERIENCE]
 - Unusual angle: [UNUSUAL_ANGLE]
 - Absurdity highlight: [ABSURDITY_HIGHLIGHT]
@@ -108,7 +108,7 @@ Daily Life Observations:
 - Generational differences: [GENERATIONAL_DIFFERENCES]
 - Universal truths: [UNIVERSAL_TRUTHS]
 
-Social Commentary:
+### Social Commentary
 - Current events: [CURRENT_EVENTS_ANGLE]
 - Cultural trends: [CULTURAL_TRENDS]
 - Political observations: [POLITICAL_OBSERVATIONS]
@@ -118,8 +118,8 @@ Social Commentary:
 - Relationship patterns: [RELATIONSHIP_PATTERNS]
 - Modern life absurdities: [MODERN_LIFE_ABSURDITIES]
 
-Character Comedy:
-Character Development:
+### Character Comedy
+### Character Development
 Primary Character: [PRIMARY_CHARACTER]
 - Personality traits: [CHARACTER_TRAITS]
 - Speech patterns: [SPEECH_PATTERNS]
@@ -130,7 +130,7 @@ Primary Character: [PRIMARY_CHARACTER]
 - Background story: [BACKGROUND_STORY]
 - Motivation: [CHARACTER_MOTIVATION]
 
-Character Voice:
+### Character Voice
 - Dialogue style: [DIALOGUE_STYLE]
 - Vocabulary choices: [VOCABULARY_CHOICES]
 - Rhythm and pace: [RHYTHM_PACE]
@@ -140,8 +140,8 @@ Character Voice:
 - Regional accent: [REGIONAL_ACCENT]
 - Emotional expression: [EMOTIONAL_EXPRESSION]
 
-Physical Comedy:
-Physical Gags:
+### Physical Comedy
+### Physical Gags
 - Physical setup: [PHYSICAL_SETUP]
 - Movement comedy: [MOVEMENT_COMEDY]
 - Facial expressions: [FACIAL_EXPRESSIONS]
@@ -151,7 +151,7 @@ Physical Gags:
 - Visual punchlines: [VISUAL_PUNCHLINES]
 - Slapstick elements: [SLAPSTICK_ELEMENTS]
 
-Mime and Silent Comedy:
+### Mime and Silent Comedy
 - Wordless storytelling: [WORDLESS_STORYTELLING]
 - Exaggerated movement: [EXAGGERATED_MOVEMENT]
 - Invisible props: [INVISIBLE_PROPS]
@@ -161,10 +161,10 @@ Mime and Silent Comedy:
 - Visual metaphors: [VISUAL_METAPHORS]
 - Body language: [BODY_LANGUAGE]
 
-STANDUP COMEDY:
+### STANDUP COMEDY
 
-Set Structure:
-Standup Set Design:
+### Set Structure
+### Standup Set Design
 Opening (0-2 minutes):
 - Opening joke: [OPENING_JOKE]
 - Audience connection: [AUDIENCE_CONNECTION]
@@ -191,8 +191,8 @@ Closing (8-10 minutes):
 - Applause break: [APPLAUSE_BREAK]
 - Thank you/exit: [THANK_YOU_EXIT]
 
-Crowd Work:
-Audience Interaction:
+### Crowd Work
+### Audience Interaction
 - Conversation starters: [CONVERSATION_STARTERS]
 - Safe questions: [SAFE_QUESTIONS]
 - Response techniques: [RESPONSE_TECHNIQUES]
@@ -202,8 +202,8 @@ Audience Interaction:
 - Local references: [LOCAL_REFERENCES]
 - Demographic acknowledgment: [DEMOGRAPHIC_ACKNOWLEDGMENT]
 
-Story Structure:
-Personal Stories:
+### Story Structure
+### Personal Stories
 Story 1: [PERSONAL_STORY_1]
 - Story setup: [STORY_1_SETUP]
 - Characters involved: [STORY_1_CHARACTERS]
@@ -222,10 +222,10 @@ Story 2: [PERSONAL_STORY_2]
 - Lesson learned: [STORY_2_LESSON]
 - Callback potential: [STORY_2_CALLBACKS]
 
-SKETCH COMEDY:
+### SKETCH COMEDY
 
-Sketch Structure:
-Sketch Framework:
+### Sketch Structure
+### Sketch Framework
 Sketch Concept: [SKETCH_CONCEPT]
 - Central premise: [CENTRAL_PREMISE]
 - Characters: [SKETCH_CHARACTERS]
@@ -235,7 +235,7 @@ Sketch Concept: [SKETCH_CONCEPT]
 - Resolution: [SKETCH_RESOLUTION]
 - Runtime: [SKETCH_RUNTIME]
 
-Character Breakdown:
+### Character Breakdown
 Character 1: [SKETCH_CHARACTER_1]
 - Role: [SKETCH_CHAR_1_ROLE]
 - Motivation: [SKETCH_CHAR_1_MOTIVATION]
@@ -254,8 +254,8 @@ Character 2: [SKETCH_CHARACTER_2]
 - Costume/props: [SKETCH_CHAR_2_COSTUME]
 - Arc: [SKETCH_CHAR_2_ARC]
 
-Sketch Development:
-Scene Progression:
+### Sketch Development
+### Scene Progression
 Scene 1: [SCENE_1_DESCRIPTION]
 - Setup: [SCENE_1_SETUP]
 - Dialogue: [SCENE_1_DIALOGUE]
@@ -277,24 +277,24 @@ Scene 3: [SCENE_3_DESCRIPTION]
 - Button/tag: [SCENE_3_BUTTON]
 - Blackout: [SCENE_3_BLACKOUT]
 
-Recurring Elements:
-Running Gags:
+### Recurring Elements
+### Running Gags
 - Primary running gag: [PRIMARY_RUNNING_GAG]
 - Escalation pattern: [RUNNING_GAG_ESCALATION]
 - Variation methods: [RUNNING_GAG_VARIATIONS]
 - Callback timing: [RUNNING_GAG_CALLBACKS]
 - Resolution payoff: [RUNNING_GAG_PAYOFF]
 
-Catchphrases:
+### Catchphrases
 - Character catchphrase: [CHARACTER_CATCHPHRASE]
 - Usage context: [CATCHPHRASE_CONTEXT]
 - Variation opportunities: [CATCHPHRASE_VARIATIONS]
 - Audience participation: [CATCHPHRASE_PARTICIPATION]
 
-COMEDY DIALOGUE:
+### COMEDY DIALOGUE
 
-Dialogue Writing:
-Comedic Dialogue Techniques:
+### Dialogue Writing
+### Comedic Dialogue Techniques
 Rapid-Fire Dialogue:
 Character A: [RAPID_FIRE_A_LINE_1]
 Character B: [RAPID_FIRE_B_LINE_1]
@@ -307,7 +307,7 @@ Timing Notes: [RAPID_FIRE_TIMING]
 Pacing: [RAPID_FIRE_PACING]
 Energy Level: [RAPID_FIRE_ENERGY]
 
-Misunderstanding Dialogue:
+### Misunderstanding Dialogue
 - Initial statement: [MISUNDERSTANDING_INITIAL]
 - Misinterpretation: [MISINTERPRETATION]
 - Escalating confusion: [ESCALATING_CONFUSION]
@@ -315,7 +315,7 @@ Misunderstanding Dialogue:
 - Clarification attempts: [CLARIFICATION_ATTEMPTS]
 - Resolution: [MISUNDERSTANDING_RESOLUTION]
 
-Wordplay and Puns:
+### Wordplay and Puns
 - Setup line: [WORDPLAY_SETUP]
 - Pun delivery: [PUN_DELIVERY]
 - Double entendre: [DOUBLE_ENTENDRE]
@@ -325,11 +325,11 @@ Wordplay and Puns:
 - Word association: [WORD_ASSOCIATION]
 - Linguistic humor: [LINGUISTIC_HUMOR]
 
-COMEDY FORMATS:
+### COMEDY FORMATS
 
-Sitcom Writing:
-Episode Structure:
-Cold Open:
+### Sitcom Writing
+### Episode Structure
+### Cold Open
 - Setup: [COLD_OPEN_SETUP]
 - Hook: [COLD_OPEN_HOOK]
 - Character introduction: [COLD_OPEN_CHARACTERS]
@@ -353,7 +353,7 @@ Act 2:
 - Crisis point: [ACT_2_CRISIS]
 - Resolution setup: [ACT_2_RESOLUTION_SETUP]
 
-Tag:
+### Tag
 - Final joke: [TAG_FINAL_JOKE]
 - Character button: [TAG_CHARACTER_BUTTON]
 - Callback payoff: [TAG_CALLBACK]
@@ -361,7 +361,7 @@ Tag:
 
 Comedy Film/Special:
 Long-Form Structure:
-Opening Sequence:
+### Opening Sequence
 - Strong opening: [FILM_OPENING]
 - Character establishment: [FILM_CHARACTER_ESTABLISHMENT]
 - Tone setting: [FILM_TONE_SETTING]
@@ -369,7 +369,7 @@ Opening Sequence:
 - Hook delivery: [FILM_HOOK]
 - Audience engagement: [FILM_ENGAGEMENT]
 
-Development:
+### Development
 - Character development: [FILM_CHARACTER_DEVELOPMENT]
 - Comedic escalation: [FILM_COMEDIC_ESCALATION]
 - Subplot weaving: [FILM_SUBPLOT_WEAVING]
@@ -377,7 +377,7 @@ Development:
 - Pacing variation: [FILM_PACING_VARIATION]
 - Audience retention: [FILM_AUDIENCE_RETENTION]
 
-Climax and Resolution:
+### Climax and Resolution
 - Comedic climax: [FILM_COMEDIC_CLIMAX]
 - Character resolution: [FILM_CHARACTER_RESOLUTION]
 - Thematic payoff: [FILM_THEMATIC_PAYOFF]
@@ -385,9 +385,9 @@ Climax and Resolution:
 - Satisfying conclusion: [FILM_CONCLUSION]
 - Memorable ending: [FILM_MEMORABLE_ENDING]
 
-TOPICAL COMEDY:
+### TOPICAL COMEDY
 
-Current Events:
+### Current Events
 News-Based Humor:
 - Current headline: [CURRENT_HEADLINE]
 - Comedic angle: [COMEDIC_ANGLE]
@@ -398,7 +398,7 @@ News-Based Humor:
 - Local relevance: [LOCAL_RELEVANCE]
 - Update potential: [UPDATE_POTENTIAL]
 
-Political Comedy:
+### Political Comedy
 - Political figure: [POLITICAL_FIGURE]
 - Characteristic exaggeration: [CHARACTERISTIC_EXAGGERATION]
 - Policy absurdity: [POLICY_ABSURDITY]
@@ -409,7 +409,7 @@ Political Comedy:
 - Audience consideration: [POLITICAL_AUDIENCE_CONSIDERATION]
 
 Social Media/Technology:
-Digital Age Humor:
+### Digital Age Humor
 - Platform behavior: [PLATFORM_BEHAVIOR]
 - Generation gap: [GENERATION_GAP]
 - Tech frustration: [TECH_FRUSTRATION]
@@ -419,10 +419,10 @@ Digital Age Humor:
 - Information overload: [INFORMATION_OVERLOAD]
 - Privacy paradox: [PRIVACY_PARADOX]
 
-PERFORMANCE ELEMENTS:
+### PERFORMANCE ELEMENTS
 
-Delivery Techniques:
-Physical Delivery:
+### Delivery Techniques
+### Physical Delivery
 - Facial expressions: [DELIVERY_FACIAL_EXPRESSIONS]
 - Body language: [DELIVERY_BODY_LANGUAGE]
 - Gesture emphasis: [DELIVERY_GESTURES]
@@ -432,7 +432,7 @@ Physical Delivery:
 - Confidence display: [DELIVERY_CONFIDENCE]
 - Authenticity: [DELIVERY_AUTHENTICITY]
 
-Vocal Delivery:
+### Vocal Delivery
 - Vocal variety: [VOCAL_VARIETY]
 - Pacing control: [PACING_CONTROL]
 - Volume dynamics: [VOLUME_DYNAMICS]
@@ -442,8 +442,8 @@ Vocal Delivery:
 - Pause utilization: [PAUSE_UTILIZATION]
 - Emphasis placement: [EMPHASIS_PLACEMENT]
 
-Audience Management:
-Crowd Reading:
+### Audience Management
+### Crowd Reading
 - Energy assessment: [ENERGY_ASSESSMENT]
 - Response gauging: [RESPONSE_GAUGING]
 - Material adjustment: [MATERIAL_ADJUSTMENT]
@@ -453,10 +453,10 @@ Crowd Reading:
 - Building momentum: [BUILDING_MOMENTUM]
 - Maintaining attention: [MAINTAINING_ATTENTION]
 
-COMEDY DEVELOPMENT:
+### COMEDY DEVELOPMENT
 
-Testing and Refinement:
-Material Development:
+### Testing and Refinement
+### Material Development
 - Initial joke concept: [INITIAL_CONCEPT]
 - First performance: [FIRST_PERFORMANCE]
 - Audience reaction: [AUDIENCE_REACTION]
@@ -466,7 +466,7 @@ Material Development:
 - Final version: [FINAL_VERSION]
 - Performance notes: [PERFORMANCE_NOTES]
 
-Feedback Integration:
+### Feedback Integration
 - Audience feedback: [AUDIENCE_FEEDBACK]
 - Peer review: [PEER_REVIEW]
 - Video analysis: [VIDEO_ANALYSIS]
@@ -476,7 +476,7 @@ Feedback Integration:
 - Material editing: [MATERIAL_EDITING]
 - Performance enhancement: [PERFORMANCE_ENHANCEMENT]
 
-DESIGN OUTPUT:
+### DESIGN OUTPUT
 [Generate comprehensive comedy content with all specified elements]
 
 Project: [FINAL_PROJECT_NAME]
@@ -486,7 +486,7 @@ Comedy Format: [FINAL_COMEDY_FORMAT]
 
 ---
 
-Comedy Deliverables:
+### Comedy Deliverables
 - Jokes written: [JOKE_COUNT]
 - Characters developed: [CHARACTER_COUNT]
 - Sketches created: [SKETCH_COUNT]
@@ -509,6 +509,33 @@ OUTPUT: Deliver comprehensive comedy content with:
 
 ## Usage Examples
 
+
+
+## Best Practices
+
+1. **Start with clear objectives** - Define what success looks like before beginning
+2. **Use data to inform decisions** - Base choices on evidence and measurable outcomes
+3. **Iterate and improve continuously** - Treat implementation as an ongoing process
+4. **Engage stakeholders early** - Include key participants in planning and execution
+5. **Document thoroughly** - Maintain clear records for reference and knowledge transfer
+6. **Communicate regularly** - Keep all parties informed of progress and changes
+7. **Address challenges proactively** - Identify potential issues before they become problems
+8. **Celebrate milestones** - Recognize achievements to maintain motivation
+9. **Learn from experience** - Reflect on what works and adjust accordingly
+10. **Stay flexible** - Be ready to adapt based on feedback and changing circumstances
+
+## Tips for Success
+
+- Break complex tasks into manageable steps with clear milestones
+- Set realistic timelines that account for dependencies and constraints
+- Allocate sufficient resources including time, budget, and personnel
+- Use templates and frameworks to ensure consistency and quality
+- Seek feedback from users and stakeholders throughout the process
+- Build in checkpoints to assess progress and make adjustments
+- Maintain quality standards while remaining practical and efficient
+- Document lessons learned for future reference and improvement
+- Foster collaboration across teams and departments
+- Stay current with industry best practices and emerging trends
 ### Example 1: Standup Comedy Set
 ```
 COMEDY_FORMAT: "10-minute standup set"

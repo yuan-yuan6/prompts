@@ -50,7 +50,7 @@ Capability Gaps:
 - Training Needs: [TRAINING_NEEDS]
 - Leadership Gaps: [LEADERSHIP_GAPS]
 
-Resource Constraints:
+### Resource Constraints
 - Budget Limitations: [BUDGET_LIMITS]
 - Staff Shortages: [STAFF_SHORTAGES]
 - Equipment Deficiencies: [EQUIPMENT_DEFICITS]
@@ -58,7 +58,7 @@ Resource Constraints:
 - Capital Constraints: [CAPITAL_CONSTRAINTS]
 - Time Pressures: [TIME_PRESSURES]
 
-Market Weaknesses:
+### Market Weaknesses
 - Market Share Loss: [MARKET_SHARE_LOSS]
 - Customer Dissatisfaction: [CUSTOMER_DISSATISFACTION]
 - Brand Perception Issues: [BRAND_ISSUES]
@@ -381,7 +381,7 @@ Market Threats:
 - Trend Changes: [TREND_CHANGES]
 - Demographic Shifts: [DEMOGRAPHIC_SHIFTS]
 
-Regulatory Threats:
+### Regulatory Threats
 - Compliance Changes: [COMPLIANCE_CHANGES]
 - Legal Challenges: [LEGAL_CHALLENGES]
 - Tax Implications: [TAX_IMPLICATIONS]
@@ -389,7 +389,7 @@ Regulatory Threats:
 - Environmental Regulations: [ENVIRONMENTAL_REGS]
 - Industry Standards: [INDUSTRY_STANDARDS]
 
-Operational Threats:
+### Operational Threats
 - Supply Chain Disruption: [SUPPLY_DISRUPTION]
 - Cybersecurity Risks: [CYBER_RISKS]
 - Natural Disasters: [NATURAL_DISASTERS]
@@ -441,7 +441,7 @@ Competitive Gaps:
 - Quality Gaps: [QUALITY_GAPS]
 - Technology Gaps: [TECHNOLOGY_GAPS]
 
-Strategic Positioning:
+### Strategic Positioning
 - Market Segments: [MARKET_SEGMENTS]
 - Value Chains: [VALUE_CHAINS]
 - Distribution Channels: [DISTRIBUTION_CHANNELS]
@@ -493,7 +493,7 @@ Market Metrics:
 - NPS Score: [NPS_SCORE]
 - Competitive Position: [COMPETITIVE_POSITION]
 
-Operational Metrics:
+### Operational Metrics
 - Efficiency Gains: [EFFICIENCY_GAINS]%
 - Quality Improvement: [QUALITY_IMPROVEMENT]%
 - Time to Market: [TIME_TO_MARKET]
@@ -501,7 +501,7 @@ Operational Metrics:
 - Employee Engagement: [EMPLOYEE_ENGAGEMENT]%
 - Process Maturity: [PROCESS_MATURITY]
 
-Strategic Metrics:
+### Strategic Metrics
 - Goal Achievement: [GOAL_ACHIEVEMENT]%
 - Strategy Execution: [STRATEGY_EXECUTION]%
 - Risk Reduction: [RISK_REDUCTION]%
@@ -512,6 +512,33 @@ Strategic Metrics:
 
 ## Usage Examples
 
+
+
+## Best Practices
+
+1. **Start with clear objectives** - Define what success looks like before beginning
+2. **Use data to inform decisions** - Base choices on evidence and measurable outcomes
+3. **Iterate and improve continuously** - Treat implementation as an ongoing process
+4. **Engage stakeholders early** - Include key participants in planning and execution
+5. **Document thoroughly** - Maintain clear records for reference and knowledge transfer
+6. **Communicate regularly** - Keep all parties informed of progress and changes
+7. **Address challenges proactively** - Identify potential issues before they become problems
+8. **Celebrate milestones** - Recognize achievements to maintain motivation
+9. **Learn from experience** - Reflect on what works and adjust accordingly
+10. **Stay flexible** - Be ready to adapt based on feedback and changing circumstances
+
+## Tips for Success
+
+- Break complex tasks into manageable steps with clear milestones
+- Set realistic timelines that account for dependencies and constraints
+- Allocate sufficient resources including time, budget, and personnel
+- Use templates and frameworks to ensure consistency and quality
+- Seek feedback from users and stakeholders throughout the process
+- Build in checkpoints to assess progress and make adjustments
+- Maintain quality standards while remaining practical and efficient
+- Document lessons learned for future reference and improvement
+- Foster collaboration across teams and departments
+- Stay current with industry best practices and emerging trends
 ### Example 1: Tech Startup Analysis
 ```
 Company: B2B SaaS Startup

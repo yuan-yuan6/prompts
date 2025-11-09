@@ -114,14 +114,14 @@ Zero Trust Implementation:
 - Deploy SAML, OAuth 2.0, certificate authentication methods
 - Apply RBAC, ABAC authorization model with dynamic policies
 
-Network Security Architecture:
+### Network Security Architecture
 - Implement micro-segmentation network segmentation
 - Deploy cloud WAF, DDoS protection perimeter defense
 - Use VPC flow logs, SIEM network monitoring
 - Implement cloud CASB, SWG for remote access
 - Deploy NIDS/NIPS intrusion detection systems
 
-Data Security Architecture:
+### Data Security Architecture
 - Classify data as public, internal, confidential, restricted
 - Encrypt data at rest with AES-256, in transit with TLS 1.3
 - Implement FIPS 140-2 Level 3 HSM key management

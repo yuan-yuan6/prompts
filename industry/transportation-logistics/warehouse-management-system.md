@@ -50,7 +50,7 @@ ABC Analysis:
 - Velocity Classification: [VELOCITY_CLASS]
 - Cube Movement: [CUBE_MOVEMENT]
 
-Cycle Counting:
+### Cycle Counting
 - Count Frequency: [COUNT_FREQUENCY]
 - ABC Count Schedule: [ABC_SCHEDULE]
 - Accuracy Targets: [ACCURACY_TARGETS]%
@@ -58,7 +58,7 @@ Cycle Counting:
 - Root Cause Analysis: [ROOT_CAUSE]
 - Continuous Improvement: [IMPROVEMENT_PROCESS]
 
-Stock Control:
+### Stock Control
 - Reorder Points: [REORDER_POINTS]
 - Safety Stock Levels: [SAFETY_STOCK]
 - Lead Time Management: [LEAD_TIME]
@@ -66,7 +66,7 @@ Stock Control:
 - Lot Tracking: [LOT_TRACKING]
 - Expiration Management: [EXPIRATION_MGMT]
 
-Inventory Visibility:
+### Inventory Visibility
 - Real-Time Tracking: [REALTIME_TRACKING]
 - RFID Implementation: [RFID_IMPLEMENTATION]
 - Barcode Systems: [BARCODE_SYSTEMS]
@@ -407,7 +407,7 @@ Path Optimization:
 - Largest Gap: [LARGEST_GAP]
 - Dynamic Routing: [DYNAMIC_ROUTING]
 
-Picking Technology:
+### Picking Technology
 - RF Scanning: [RF_SCANNING]
 - Voice Picking: [VOICE_PICKING]
 - Pick-to-Light Systems: [PTL_SYSTEMS]
@@ -415,7 +415,7 @@ Picking Technology:
 - Robotic Picking: [ROBOTIC_PICKING]
 - Automated Storage: [AUTOMATED_STORAGE]
 
-Performance Metrics:
+### Performance Metrics
 - Picks per Hour: [PICKS_PER_HOUR]
 - Lines per Order: [LINES_PER_ORDER]
 - Travel Time: [TRAVEL_TIME]%
@@ -467,7 +467,7 @@ Inventory Accuracy:
 - System vs Physical: [SYSTEM_PHYSICAL]%
 - Adjustment Frequency: [ADJUSTMENT_FREQ]
 
-Order Accuracy:
+### Order Accuracy
 - Pick Accuracy: [PICK_ACCURACY]%
 - Pack Accuracy: [PACK_ACCURACY]%
 - Ship Accuracy: [SHIP_ACCURACY]%
@@ -475,7 +475,7 @@ Order Accuracy:
 - Address Verification: [ADDRESS_VERIFICATION]%
 - Carrier Selection: [CARRIER_ACCURACY]%
 
-Returns Processing:
+### Returns Processing
 - Return Rate: [RETURN_RATE]%
 - Processing Time: [RETURN_TIME]
 - Inspection Quality: [RETURN_INSPECTION]
@@ -527,7 +527,7 @@ Productivity Metrics:
 - Equipment Utilization: [EQUIPMENT_UTILIZATION]%
 - Space Utilization: [SPACE_UTILIZATION]%
 
-Quality Metrics:
+### Quality Metrics
 - Order Accuracy: [ORDER_ACCURACY]%
 - Inventory Accuracy: [INV_ACCURACY]%
 - On-Time Shipment: [ONTIME_SHIP]%
@@ -535,7 +535,7 @@ Quality Metrics:
 - Damage Rate: [DAMAGE_RATE]%
 - Customer Complaints: [COMPLAINTS]/1000
 
-Financial Metrics:
+### Financial Metrics
 - Cost per Order: $[COST_ORDER]
 - Cost per Line: $[COST_LINE]
 - Cost per Unit: $[COST_UNIT]
@@ -543,7 +543,7 @@ Financial Metrics:
 - Labor Cost: $[LABOR_COST]/hour
 - Total Operating Cost: $[TOTAL_COST]
 
-Service Level Metrics:
+### Service Level Metrics
 - Fill Rate: [FILL_RATE]%
 - Backorder Rate: [BACKORDER_RATE]%
 - Order Lead Time: [LEAD_TIME] days
@@ -554,6 +554,33 @@ Service Level Metrics:
 
 ## Usage Examples
 
+
+
+## Best Practices
+
+1. **Start with clear objectives** - Define what success looks like before beginning
+2. **Use data to inform decisions** - Base choices on evidence and measurable outcomes
+3. **Iterate and improve continuously** - Treat implementation as an ongoing process
+4. **Engage stakeholders early** - Include key participants in planning and execution
+5. **Document thoroughly** - Maintain clear records for reference and knowledge transfer
+6. **Communicate regularly** - Keep all parties informed of progress and changes
+7. **Address challenges proactively** - Identify potential issues before they become problems
+8. **Celebrate milestones** - Recognize achievements to maintain motivation
+9. **Learn from experience** - Reflect on what works and adjust accordingly
+10. **Stay flexible** - Be ready to adapt based on feedback and changing circumstances
+
+## Tips for Success
+
+- Break complex tasks into manageable steps with clear milestones
+- Set realistic timelines that account for dependencies and constraints
+- Allocate sufficient resources including time, budget, and personnel
+- Use templates and frameworks to ensure consistency and quality
+- Seek feedback from users and stakeholders throughout the process
+- Build in checkpoints to assess progress and make adjustments
+- Maintain quality standards while remaining practical and efficient
+- Document lessons learned for future reference and improvement
+- Foster collaboration across teams and departments
+- Stay current with industry best practices and emerging trends
 ### Example 1: E-commerce Fulfillment Center
 ```
 Facility: 500,000 sq ft distribution center

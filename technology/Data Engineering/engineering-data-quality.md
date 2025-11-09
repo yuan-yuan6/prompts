@@ -304,14 +304,14 @@ Data Profiling:
 - Implement ML-based anomaly detection and automated metadata discovery
 - Schedule daily automated profiling with weekly reporting
 
-Validation Framework:
+### Validation Framework
 - Define 50+ validation rules and customer lifecycle business rules
 - Implement strong data type validation and email/phone format validation
 - Set up age, income range validation and country code list validation
 - Configure customer-contact cross field validation and CRM-ERP referential integrity
 - Deploy Great Expectations validation framework with custom email/phone validations
 
-Monitoring and Alerting:
+### Monitoring and Alerting
 - Track accuracy, completeness, timeliness quality metrics and customer satisfaction, data processing time kpi definitions
 - Set 95% accuracy threshold settings with Slack, email alert configuration
 - Create Tableau dashboard design for daily, weekly reporting schedule
@@ -513,7 +513,7 @@ Cleansing Strategy:
 - Perform market data enrichment and automated error correction
 - Execute 100+ transformation rules automatically
 
-Governance Framework:
+### Governance Framework
 - Establish Business Owner data ownership and dedicated data stewardship
 - Define SOX-compliant quality policies and Basel III standards definition
 - Assign front office, risk, operations roles responsibilities and risk committee decision framework

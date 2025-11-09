@@ -330,7 +330,7 @@ Test Coverage Requirements:
 - Performance tests meeting <2s page load, 1000 concurrent users requirements
 - Security tests including OWASP Top 10 vulnerability assessment
 
-Quality Assurance Process:
+### Quality Assurance Process
 - Implement Agile QA methodology with peer review process
 - Use Jira for defect management
 - Apply Critical/High/Medium/Low severity and P1/P2/P3/P4 priority classification

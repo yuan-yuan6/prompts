@@ -124,7 +124,7 @@ Model Architecture:
 - Configure 224x224 input, 1000 classes model complexity
 - Optimize with Adam optimization and 0.001 learning rate hyperparameters
 
-Training Strategy:
+### Training Strategy
 - Use supervised training approach with labeled product images training data
 - Implement 5-fold cross validation validation strategy
 - Deploy on AWS SageMaker training infrastructure with multi-GPU distributed training

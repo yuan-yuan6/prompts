@@ -49,14 +49,14 @@ Arrival & Check-in:
 - Room Assignment: [ROOM_ASSIGN]
 - Welcome Amenities: [WELCOME_AMEN]
 
-During Stay:
+### During Stay
 - Room Quality: [ROOM_QUALITY]/10
 - Service Delivery: [SERVICE_DELIVERY]
 - F&B Experience: [FB_EXPERIENCE]
 - Facilities Usage: [FACILITIES]
 - Issue Resolution: [ISSUE_RESOLVE]
 
-Departure:
+### Departure
 - Check-out Process: [CHECKOUT_PROCESS]
 - Billing Accuracy: [BILLING_ACC]%
 - Feedback Collection: [FEEDBACK_COLLECT]
@@ -387,14 +387,14 @@ Guest Technology:
 - WiFi Quality: [WIFI_QUALITY]
 - App Adoption: [APP_ADOPT]%
 
-Operational Technology:
+### Operational Technology
 - Revenue Management: [REV_SYSTEM]
 - Channel Manager: [CHANNEL_MGR]
 - CRM System: [CRM_SYSTEM]
 - Energy Management: [ENERGY_MGMT]
 - Staff Management: [STAFF_SYSTEM]
 
-Digital Marketing:
+### Digital Marketing
 - Website Performance: [WEB_PERFORM]
 - Direct Booking: [DIRECT_BOOK]%
 - Social Media: [SOCIAL_ENGAGE]
@@ -441,7 +441,7 @@ Third-Party Channels:
 - DMCs: [DMC_BOOK]% ($[DMC_COST] commission)
 - Meta Search: [META_BOOK]% ($[META_COST] cost)
 
-Market Segmentation:
+### Market Segmentation
 - Business Travelers: [BIZ_SEG]%
 - Leisure Travelers: [LEISURE_SEG]%
 - Groups/MICE: [GROUP_SEG]%
@@ -474,6 +474,33 @@ Market Segmentation:
 
 ## Usage Examples
 
+
+
+## Best Practices
+
+1. **Start with clear objectives** - Define what success looks like before beginning
+2. **Use data to inform decisions** - Base choices on evidence and measurable outcomes
+3. **Iterate and improve continuously** - Treat implementation as an ongoing process
+4. **Engage stakeholders early** - Include key participants in planning and execution
+5. **Document thoroughly** - Maintain clear records for reference and knowledge transfer
+6. **Communicate regularly** - Keep all parties informed of progress and changes
+7. **Address challenges proactively** - Identify potential issues before they become problems
+8. **Celebrate milestones** - Recognize achievements to maintain motivation
+9. **Learn from experience** - Reflect on what works and adjust accordingly
+10. **Stay flexible** - Be ready to adapt based on feedback and changing circumstances
+
+## Tips for Success
+
+- Break complex tasks into manageable steps with clear milestones
+- Set realistic timelines that account for dependencies and constraints
+- Allocate sufficient resources including time, budget, and personnel
+- Use templates and frameworks to ensure consistency and quality
+- Seek feedback from users and stakeholders throughout the process
+- Build in checkpoints to assess progress and make adjustments
+- Maintain quality standards while remaining practical and efficient
+- Document lessons learned for future reference and improvement
+- Foster collaboration across teams and departments
+- Stay current with industry best practices and emerging trends
 ### Example 1: Luxury Resort
 ```
 Property: 5-star Beach Resort

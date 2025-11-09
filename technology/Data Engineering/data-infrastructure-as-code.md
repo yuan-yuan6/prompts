@@ -325,14 +325,14 @@ Terraform Implementation:
 - Organize by service, environment resource organization with service-env-resource naming conventions
 - Manage with GitLab version control
 
-Kubernetes Setup:
+### Kubernetes Setup
 - Deploy Kubernetes v1.27 with managed EKS cluster architecture
 - Configure m5.large worker nodes node configuration and Calico k8s networking
 - Set up EBS CSI k8s storage and Pod Security Standards k8s security
 - Manage resource quotas, limits k8s resource management and Prometheus k8s monitoring
 - Configure Fluentd k8s logging and Velero k8s backup
 
-Security Implementation:
+### Security Implementation
 - Apply AWS Security Framework security framework with IAM, SSO identity management
 - Configure RBAC access control and VPC, Security Groups network security
 - Enable KMS data encryption and AWS KMS key management
@@ -552,14 +552,14 @@ Ansible Configuration:
 - Configure restart services handler configuration and include_tasks task organization
 - Implement block/rescue ansible error handling and Vault ansible security
 
-Security Implementation:
+### Security Implementation
 - Apply Microsoft Security Framework security framework with Azure AD identity management
 - Configure Conditional Access access control and NSG, Firewall network security
 - Enable Azure Disk Encryption data encryption and Key Vault key management
 - Implement Security Center security scanning and Policy compliance monitoring
 - Manage Defender vulnerability management and Monitor audit logging
 
-Testing Framework:
+### Testing Framework
 - Apply TDD iac testing strategy with Terratest iac unit testing
 - Implement Pester iac integration testing and InSpec infrastructure testing
 - Configure OWASP ZAP iac security testing and Azure Policy compliance testing

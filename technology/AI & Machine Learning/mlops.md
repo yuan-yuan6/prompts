@@ -102,7 +102,7 @@ Model Monitoring:
 - Alert on >5% accuracy degradation alert system
 - Create Grafana monitoring dashboard with daily reporting
 
-Infrastructure:
+### Infrastructure
 - Deploy on AWS EKS compute infrastructure
 - Use S3, EFS storage infrastructure for data and models
 - Serve with Seldon model serving at 1K req/sec

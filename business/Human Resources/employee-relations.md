@@ -33,7 +33,7 @@ Organizational Context:
 - Business Strategy: [STRATEGIC_PRIORITIES]
 - Growth Phase: [ORGANIZATIONAL_STAGE]
 
-Employee Relations Context:
+### Employee Relations Context
 - Current Challenge: [PRIMARY_ER_ISSUE]
 - Employee Demographics: [WORKFORCE_COMPOSITION]
 - Union Status: [UNIONIZATION_LEVEL]
@@ -43,7 +43,7 @@ Employee Relations Context:
 - Satisfaction Scores: [EMPLOYEE_SATISFACTION_DATA]
 - Climate Survey Results: [WORKPLACE_CLIMATE_ASSESSMENT]
 
-Communication Framework:
+### Communication Framework
 - Communication Philosophy: [COMMUNICATION_APPROACH]
 - Information Sharing: [TRANSPARENCY_LEVEL]
 - Feedback Systems: [FEEDBACK_MECHANISMS]
@@ -53,7 +53,7 @@ Communication Framework:
 - Accessibility Needs: [ACCOMMODATION_REQUIREMENTS]
 - Cultural Considerations: [DIVERSITY_FACTORS]
 
-Culture and Values:
+### Culture and Values
 - Core Values: [ORGANIZATIONAL_VALUES]
 - Behavioral Expectations: [CONDUCT_STANDARDS]
 - Inclusion Goals: [DIVERSITY_OBJECTIVES]
@@ -63,7 +63,7 @@ Culture and Values:
 - Social Responsibility: [COMMUNITY_ENGAGEMENT]
 - Ethical Standards: [INTEGRITY_EXPECTATIONS]
 
-Engagement Priorities:
+### Engagement Priorities
 - Engagement Drivers: [MOTIVATION_FACTORS]
 - Recognition Preferences: [APPRECIATION_METHODS]
 - Career Development: [GROWTH_OPPORTUNITIES]
@@ -947,7 +947,7 @@ Generate a comprehensive employee relations strategy that includes:
 - Manager development and training materials
 - Performance measurement and analytics dashboards
 
-Ensure the employee relations strategy is:
+### Ensure the employee relations strategy is
 - Employee-centered and experience-focused
 - Communication-rich and transparent
 - Culture-aligned and value-driven

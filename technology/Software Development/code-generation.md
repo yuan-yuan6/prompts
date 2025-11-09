@@ -462,7 +462,7 @@ Security Implementation:
 - Prevent SQL injection and XSS attacks
 - Use BCrypt encryption for password hashing
 
-Integration Requirements:
+### Integration Requirements
 - Connect to MySQL database using JPA/Hibernate
 - Integrate with REST API using Bearer token authentication
 - Handle Authorization headers and JSON response format

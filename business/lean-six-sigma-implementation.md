@@ -49,7 +49,7 @@ Inventory Waste:
 - Optimization Target: [INVENTORY_TARGET]
 - Reduction Timeline: [INVENTORY_TIMELINE]
 
-Motion Waste:
+### Motion Waste
 - Unnecessary Movement: [MOTION_UNNECESSARY]
 - Ergonomic Issues: [MOTION_ERGONOMICS]
 - Layout Optimization: [MOTION_LAYOUT]
@@ -57,7 +57,7 @@ Motion Waste:
 - Efficiency Gain: [MOTION_EFFICIENCY]%
 - Implementation Cost: $[MOTION_COST]
 
-Waiting Waste:
+### Waiting Waste
 - Queue Times: [WAITING_QUEUES]
 - Bottleneck Analysis: [WAITING_BOTTLENECKS]
 - Capacity Balancing: [WAITING_CAPACITY]
@@ -65,7 +65,7 @@ Waiting Waste:
 - Lead Time Reduction: [WAITING_REDUCTION]%
 - Customer Impact: [WAITING_CUSTOMER]
 
-Overproduction:
+### Overproduction
 - Production Planning: [OVERPROD_PLANNING]
 - Demand Forecasting: [OVERPROD_FORECAST]
 - Pull System Design: [OVERPROD_PULL]
@@ -81,7 +81,7 @@ Over-processing:
 - Quality Requirements: [OVERPROC_QUALITY]
 - Simplification Target: [OVERPROC_TARGET]%
 
-Defects:
+### Defects
 - Defect Rate: [DEFECTS_RATE]
 - Root Cause Analysis: [DEFECTS_ROOT_CAUSE]
 - Quality Controls: [DEFECTS_CONTROLS]
@@ -89,7 +89,7 @@ Defects:
 - Rework Costs: $[DEFECTS_REWORK]
 - Prevention Strategy: [DEFECTS_PREVENTION]
 
-Skills Underutilization:
+### Skills Underutilization
 - Talent Assessment: [SKILLS_ASSESSMENT]
 - Training Needs: [SKILLS_TRAINING]
 - Empowerment Strategy: [SKILLS_EMPOWERMENT]
@@ -448,7 +448,7 @@ Attribute Data Charts:
 - Defects Classification: [DEFECTS_CLASS]
 - Sampling Plans: [SAMPLING_PLANS]
 
-Process Capability:
+### Process Capability
 - Cp Index: [CP_INDEX]
 - Cpk Index: [CPK_INDEX]
 - Pp Index: [PP_INDEX]
@@ -456,7 +456,7 @@ Process Capability:
 - Sigma Level: [SIGMA_LEVEL]
 - DPMO Target: [DPMO_TARGET]
 
-Control Limits:
+### Control Limits
 - Upper Control Limit: [UCL_CALCULATION]
 - Lower Control Limit: [LCL_CALCULATION]
 - Warning Limits: [WARNING_LIMITS]
@@ -508,7 +508,7 @@ Fishbone Diagram:
 - Why 4: [WHY_4]
 - Why 5: [WHY_5]
 
-Pareto Analysis:
+### Pareto Analysis
 - Data Collection: [PARETO_DATA]
 - Category Definition: [PARETO_CATEGORIES]
 - Frequency Analysis: [PARETO_FREQUENCY]
@@ -516,7 +516,7 @@ Pareto Analysis:
 - Priority Setting: [PARETO_PRIORITY]
 - Action Planning: [PARETO_ACTION]
 
-FMEA Implementation:
+### FMEA Implementation
 - Failure Modes: [FMEA_MODES]
 - Effects Analysis: [FMEA_EFFECTS]
 - Severity Rating: [FMEA_SEVERITY]
@@ -568,7 +568,7 @@ Quality Metrics:
 - Quality Score: [QUALITY_SCORE]
 - Sigma Level Achievement: [SIGMA_ACHIEVEMENT]
 
-Process Metrics:
+### Process Metrics
 - Cycle Time Reduction: [CYCLE_REDUCTION]%
 - Lead Time Improvement: [LEAD_IMPROVEMENT]%
 - Process Efficiency: [PROCESS_EFFICIENCY]%
@@ -576,7 +576,7 @@ Process Metrics:
 - OEE Improvement: [OEE_IMPROVEMENT]%
 - Throughput Increase: [THROUGHPUT_INCREASE]%
 
-Customer Impact:
+### Customer Impact
 - Customer Satisfaction: [CUSTOMER_SAT]%
 - NPS Improvement: [NPS_IMPROVEMENT]
 - On-Time Delivery: [ON_TIME_DELIVERY]%
@@ -584,7 +584,7 @@ Customer Impact:
 - Response Time: [RESPONSE_TIME]
 - Customer Retention: [CUSTOMER_RETENTION]%
 
-Cultural Metrics:
+### Cultural Metrics
 - Project Participation: [PROJECT_PARTICIPATION]%
 - Ideas Generated: [IDEAS_GENERATED]
 - Problems Solved: [PROBLEMS_SOLVED]
@@ -595,6 +595,33 @@ Cultural Metrics:
 
 ## Usage Examples
 
+
+
+## Best Practices
+
+1. **Start with clear objectives** - Define what success looks like before beginning
+2. **Use data to inform decisions** - Base choices on evidence and measurable outcomes
+3. **Iterate and improve continuously** - Treat implementation as an ongoing process
+4. **Engage stakeholders early** - Include key participants in planning and execution
+5. **Document thoroughly** - Maintain clear records for reference and knowledge transfer
+6. **Communicate regularly** - Keep all parties informed of progress and changes
+7. **Address challenges proactively** - Identify potential issues before they become problems
+8. **Celebrate milestones** - Recognize achievements to maintain motivation
+9. **Learn from experience** - Reflect on what works and adjust accordingly
+10. **Stay flexible** - Be ready to adapt based on feedback and changing circumstances
+
+## Tips for Success
+
+- Break complex tasks into manageable steps with clear milestones
+- Set realistic timelines that account for dependencies and constraints
+- Allocate sufficient resources including time, budget, and personnel
+- Use templates and frameworks to ensure consistency and quality
+- Seek feedback from users and stakeholders throughout the process
+- Build in checkpoints to assess progress and make adjustments
+- Maintain quality standards while remaining practical and efficient
+- Document lessons learned for future reference and improvement
+- Foster collaboration across teams and departments
+- Stay current with industry best practices and emerging trends
 ### Example 1: Manufacturing Excellence
 ```
 Company: Automotive parts manufacturer

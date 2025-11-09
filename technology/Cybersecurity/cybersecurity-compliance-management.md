@@ -102,14 +102,14 @@ Policy Framework:
 - Review policies annually policy review cycle
 - Track policy acknowledgment, training completion policy metrics
 
-Control Implementation:
+### Control Implementation
 - Apply GDPR Article 32 control framework
 - Design data minimization, purpose limitation control categories
 - Implement privacy by design, consent management control implementation
 - Test data subject rights, breach notification control testing
 - Monitor processing activities, consent status control monitoring
 
-Risk Management:
+### Risk Management
 - Conduct DPIA risk assessment for high-risk processing
 - Maintain privacy risk register with impact ratings
 - Treat risks with technical, organizational measures risk treatment

@@ -31,7 +31,7 @@ Complexity Level: [SIMPLE/MODERATE/COMPLEX/MULTIDIMENSIONAL]
 Color Requirements: [FULL_COLOR/GRAYSCALE/COLORBLIND_FRIENDLY/PRINT_OPTIMIZED]
 Software Platform: [R/PYTHON/EXCEL/ILLUSTRATOR/SPECIALIZED_SOFTWARE]
 
-Generate a complete data visualization strategy:
+### Generate a complete data visualization strategy
 
 1. VISUALIZATION DESIGN PRINCIPLES
 

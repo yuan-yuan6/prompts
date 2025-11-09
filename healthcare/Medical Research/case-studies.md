@@ -33,7 +33,7 @@ Case Identification:
 - Date: [CASE_DATE]
 - IRB approval: [IRB_APPROVAL_STATUS]
 
-Patient Demographics:
+### Patient Demographics
 - Age: [PATIENT_AGE]
 - Gender: [PATIENT_GENDER]
 - Race/Ethnicity: [PATIENT_RACE_ETHNICITY]
@@ -41,22 +41,22 @@ Patient Demographics:
 - Geographic location: [GEOGRAPHIC_LOCATION]
 - Referral source: [REFERRAL_SOURCE]
 
-CASE PRESENTATION:
-Chief Complaint:
+### CASE PRESENTATION
+### Chief Complaint
 "[CHIEF_COMPLAINT]"
 - Duration: [SYMPTOM_DURATION]
 - Severity: [SYMPTOM_SEVERITY]
 - Associated factors: [ASSOCIATED_FACTORS]
 
-History of Present Illness:
+### History of Present Illness
 [DETAILED_HPI]
-Timeline of Events:
+### Timeline of Events
 - [TIMELINE_EVENT_1]: [EVENT_DESCRIPTION_1]
 - [TIMELINE_EVENT_2]: [EVENT_DESCRIPTION_2]
 - [TIMELINE_EVENT_3]: [EVENT_DESCRIPTION_3]
 - [TIMELINE_EVENT_4]: [EVENT_DESCRIPTION_4]
 
-Symptom Analysis:
+### Symptom Analysis
 - Onset: [ONSET_CHARACTERISTICS]
 - Location: [SYMPTOM_LOCATION]
 - Quality: [SYMPTOM_QUALITY]
@@ -66,29 +66,29 @@ Symptom Analysis:
 - Relieving factors: [RELIEVING_FACTORS]
 - Severity scale: [SEVERITY_ASSESSMENT]
 
-Past Medical History:
-Significant Conditions:
+### Past Medical History
+### Significant Conditions
 1. [PMH_CONDITION_1] - Diagnosed: [PMH_DATE_1] - Status: [PMH_STATUS_1]
 2. [PMH_CONDITION_2] - Diagnosed: [PMH_DATE_2] - Management: [PMH_MANAGEMENT_2]
 3. [PMH_CONDITION_3] - Diagnosed: [PMH_DATE_3] - Complications: [PMH_COMPLICATIONS_3]
 
-Surgical History:
+### Surgical History
 - [SURGERY_1]: Date [SURGERY_DATE_1] - Surgeon: [SURGEON_1] - Outcome: [SURGERY_OUTCOME_1]
 - [SURGERY_2]: Date [SURGERY_DATE_2] - Indication: [SURGERY_INDICATION_2]
 
-Hospitalizations:
+### Hospitalizations
 - [HOSPITALIZATION_1]: Reason [HOSPITAL_REASON_1] - Duration: [HOSPITAL_DURATION_1]
 - [HOSPITALIZATION_2]: Date [HOSPITAL_DATE_2] - Outcome: [HOSPITAL_OUTCOME_2]
 
-Family History:
-Relevant Family Conditions:
+### Family History
+### Relevant Family Conditions
 - Maternal history: [MATERNAL_HISTORY]
 - Paternal history: [PATERNAL_HISTORY]
 - Sibling history: [SIBLING_HISTORY]
 - Genetic conditions: [GENETIC_CONDITIONS]
 - [FAMILY_CONDITION_1]: [FAMILY_RELATIONSHIP_1] - Age of onset: [FAMILY_ONSET_1]
 
-Social History:
+### Social History
 - Tobacco: [TOBACCO_HISTORY] - Pack-years: [PACK_YEARS]
 - Alcohol: [ALCOHOL_HISTORY] - Consumption: [ALCOHOL_CONSUMPTION]
 - Substance use: [SUBSTANCE_USE] - Type: [SUBSTANCE_TYPE] - Duration: [SUBSTANCE_DURATION]
@@ -96,7 +96,7 @@ Social History:
 - Travel: [TRAVEL_HISTORY] - Recent destinations: [RECENT_TRAVEL]
 - Living situation: [LIVING_SITUATION] - Support system: [SUPPORT_SYSTEM]
 
-Current Medications:
+### Current Medications
 1. [MEDICATION_1] - Dose: [DOSE_1] - Frequency: [FREQUENCY_1] - Duration: [MEDICATION_DURATION_1]
 2. [MEDICATION_2] - Dose: [DOSE_2] - Indication: [INDICATION_2] - Response: [MEDICATION_RESPONSE_2]
 3. [MEDICATION_3] - Dose: [DOSE_3] - Side effects: [SIDE_EFFECTS_3]
@@ -105,25 +105,25 @@ Over-the-counter/Supplements:
 - [OTC_1]: [OTC_DOSE_1] - Purpose: [OTC_PURPOSE_1]
 - [SUPPLEMENT_1]: [SUPPLEMENT_DOSE_1] - Duration: [SUPPLEMENT_DURATION_1]
 
-Allergies:
+### Allergies
 - Drug allergies: [DRUG_ALLERGIES] - Reactions: [DRUG_REACTIONS]
 - Environmental: [ENVIRONMENTAL_ALLERGIES]
 - Food allergies: [FOOD_ALLERGIES]
 
-PHYSICAL EXAMINATION:
-Vital Signs:
+### PHYSICAL EXAMINATION
+### Vital Signs
 - Temperature: [TEMPERATURE] - Blood pressure: [BLOOD_PRESSURE]
 - Heart rate: [HEART_RATE] - Respiratory rate: [RESPIRATORY_RATE]
 - Oxygen saturation: [O2_SATURATION] - Pain score: [PAIN_SCORE]
 - BMI: [BMI] - Weight: [WEIGHT] - Height: [HEIGHT]
 
-General Appearance:
+### General Appearance
 [GENERAL_APPEARANCE_DESCRIPTION]
 - Mental status: [MENTAL_STATUS]
 - Nutritional status: [NUTRITIONAL_STATUS]
 - Hydration: [HYDRATION_STATUS]
 
-System Examination:
+### System Examination
 HEENT: [HEENT_FINDINGS]
 - Head: [HEAD_EXAM] - Eyes: [EYE_EXAM] - ENT: [ENT_EXAM]
 - Lymph nodes: [LYMPH_NODE_EXAM]
@@ -151,20 +151,20 @@ Musculoskeletal: [MSK_FINDINGS]
 Skin: [SKIN_FINDINGS]
 - Color: [SKIN_COLOR] - Lesions: [SKIN_LESIONS] - Texture: [SKIN_TEXTURE]
 
-DIAGNOSTIC WORKUP:
-Laboratory Studies:
-Initial Labs:
+### DIAGNOSTIC WORKUP
+### Laboratory Studies
+### Initial Labs
 - CBC: WBC [WBC_COUNT], Hgb [HEMOGLOBIN], Hct [HEMATOCRIT], Plt [PLATELETS]
 - BMP: Na [SODIUM], K [POTASSIUM], Cl [CHLORIDE], CO2 [BICARBONATE]
 - Glucose [GLUCOSE], BUN [BUN], Creatinine [CREATININE], eGFR [EGFR]
 - LFTs: ALT [ALT], AST [AST], AlkPhos [ALK_PHOS], T.Bili [TOTAL_BILIRUBIN]
 
-Specialized Labs:
+### Specialized Labs
 - [SPECIALIZED_LAB_1]: [LAB_RESULT_1] - Reference: [LAB_REFERENCE_1]
 - [SPECIALIZED_LAB_2]: [LAB_RESULT_2] - Significance: [LAB_SIGNIFICANCE_2]
 - [SPECIALIZED_LAB_3]: [LAB_RESULT_3] - Interpretation: [LAB_INTERPRETATION_3]
 
-Imaging Studies:
+### Imaging Studies
 1. [IMAGING_STUDY_1] - Date: [IMAGING_DATE_1]
    Findings: [IMAGING_FINDINGS_1]
    Impression: [IMAGING_IMPRESSION_1]
@@ -177,55 +177,55 @@ Imaging Studies:
 3. [IMAGING_STUDY_3] - Date: [IMAGING_DATE_3]
    Findings: [IMAGING_FINDINGS_3]
 
-Other Diagnostic Tests:
+### Other Diagnostic Tests
 - ECG: [ECG_FINDINGS] - Rhythm: [ECG_RHYTHM] - Abnormalities: [ECG_ABNORMALITIES]
 - Echo: [ECHO_FINDINGS] - EF: [EJECTION_FRACTION] - Wall motion: [WALL_MOTION]
 - Endoscopy: [ENDOSCOPY_FINDINGS] - Date: [ENDOSCOPY_DATE]
 - Biopsy: [BIOPSY_RESULTS] - Pathology: [PATHOLOGY_FINDINGS]
 - [SPECIAL_TEST_1]: [SPECIAL_TEST_RESULT_1] - Date: [SPECIAL_TEST_DATE_1]
 
-DIFFERENTIAL DIAGNOSIS:
-Initial Differential:
+### DIFFERENTIAL DIAGNOSIS
+### Initial Differential
 1. [DIFFERENTIAL_1] - Likelihood: [LIKELIHOOD_1] - Supporting features: [SUPPORTING_FEATURES_1]
 2. [DIFFERENTIAL_2] - Likelihood: [LIKELIHOOD_2] - Supporting features: [SUPPORTING_FEATURES_2]
 3. [DIFFERENTIAL_3] - Likelihood: [LIKELIHOOD_3] - Against features: [AGAINST_FEATURES_3]
 4. [DIFFERENTIAL_4] - Likelihood: [LIKELIHOOD_4] - Needs ruling out: [RULING_OUT_4]
 
 Refined Differential (After Testing):
-Most Likely:
+### Most Likely
 - [REFINED_DIAGNOSIS_1] - Probability: [REFINED_PROBABILITY_1]
 - Evidence for: [EVIDENCE_FOR_1]
 - Evidence against: [EVIDENCE_AGAINST_1]
 
-Alternative Diagnoses:
+### Alternative Diagnoses
 - [ALTERNATIVE_1]: [ALTERNATIVE_REASONING_1]
 - [ALTERNATIVE_2]: [ALTERNATIVE_REASONING_2]
 
-DIAGNOSIS AND ASSESSMENT:
-Final Diagnosis:
+### DIAGNOSIS AND ASSESSMENT
+### Final Diagnosis
 Primary Diagnosis: [FINAL_PRIMARY_DIAGNOSIS]
 - ICD-10 code: [ICD10_CODE]
 - Diagnostic criteria met: [DIAGNOSTIC_CRITERIA_MET]
 - Confidence level: [DIAGNOSTIC_CONFIDENCE]
 
-Secondary Diagnoses:
+### Secondary Diagnoses
 1. [SECONDARY_DIAGNOSIS_1] - Relationship: [RELATIONSHIP_1]
 2. [SECONDARY_DIAGNOSIS_2] - Significance: [SIGNIFICANCE_2]
 
-Severity Assessment:
+### Severity Assessment
 - Disease stage: [DISEASE_STAGE]
 - Severity classification: [SEVERITY_CLASSIFICATION]
 - Prognosis: [PROGNOSIS_ASSESSMENT]
 - Risk stratification: [RISK_STRATIFICATION]
 
-TREATMENT AND MANAGEMENT:
-Initial Management:
-Acute Treatment:
+### TREATMENT AND MANAGEMENT
+### Initial Management
+### Acute Treatment
 - [ACUTE_TREATMENT_1] - Dose: [ACUTE_DOSE_1] - Route: [ACUTE_ROUTE_1]
 - [ACUTE_TREATMENT_2] - Duration: [ACUTE_DURATION_2] - Response: [ACUTE_RESPONSE_2]
 - Supportive care: [SUPPORTIVE_CARE] - Monitoring: [ACUTE_MONITORING]
 
-Hospital Course:
+### Hospital Course
 Day 1: [DAY_1_EVENTS]
 - Treatment initiated: [DAY_1_TREATMENT]
 - Patient response: [DAY_1_RESPONSE]
@@ -240,7 +240,7 @@ Day 4-7: [DAY_4_7_EVENTS]
 - Discharge planning: [DISCHARGE_PLANNING]
 
 Long-term Management:
-Pharmacological:
+### Pharmacological
 1. [LONGTERM_MED_1] - Dose: [LONGTERM_DOSE_1] - Duration: [LONGTERM_DURATION_1]
    - Monitoring: [LONGTERM_MONITORING_1] - Side effects: [LONGTERM_SE_1]
 2. [LONGTERM_MED_2] - Indication: [LONGTERM_INDICATION_2] - Adjustments: [LONGTERM_ADJUSTMENTS_2]
@@ -255,8 +255,8 @@ Follow-up Plan:
 - [FOLLOWUP_2]: Specialist [FOLLOWUP_SPECIALIST_2] - When: [FOLLOWUP_WHEN_2]
 - Monitoring labs: [MONITORING_LABS] - Frequency: [MONITORING_FREQUENCY]
 
-OUTCOME:
-Clinical Response:
+### OUTCOME
+### Clinical Response
 Short-term Outcome (Days to Weeks):
 - Symptom resolution: [SYMPTOM_RESOLUTION_TIMELINE]
 - Functional improvement: [FUNCTIONAL_IMPROVEMENT]
@@ -269,69 +269,69 @@ Long-term Outcome (Months to Years):
 - Functional status: [FUNCTIONAL_STATUS_LONGTERM]
 - Recurrence: [RECURRENCE_STATUS]
 
-Patient Satisfaction:
+### Patient Satisfaction
 - Treatment satisfaction: [TREATMENT_SATISFACTION]
 - Communication satisfaction: [COMMUNICATION_SATISFACTION]
 - Overall experience: [OVERALL_EXPERIENCE]
 
-DISCUSSION:
-Case Significance:
-Why This Case is Notable:
+### DISCUSSION
+### Case Significance
+### Why This Case is Notable
 - [CASE_UNIQUENESS_1]
 - [CASE_UNIQUENESS_2]
 - [CASE_UNIQUENESS_3]
 
-Clinical Pearls:
+### Clinical Pearls
 1. [CLINICAL_PEARL_1]
 2. [CLINICAL_PEARL_2]
 3. [CLINICAL_PEARL_3]
 4. [CLINICAL_PEARL_4]
 
-Diagnostic Challenges:
+### Diagnostic Challenges
 - [DIAGNOSTIC_CHALLENGE_1]: [CHALLENGE_EXPLANATION_1]
 - [DIAGNOSTIC_CHALLENGE_2]: [CHALLENGE_EXPLANATION_2]
 - Key diagnostic clues: [KEY_DIAGNOSTIC_CLUES]
 - Pitfalls avoided: [DIAGNOSTIC_PITFALLS_AVOIDED]
 
-Treatment Considerations:
+### Treatment Considerations
 - Treatment rationale: [TREATMENT_RATIONALE]
 - Alternative approaches: [ALTERNATIVE_TREATMENTS]
 - Patient-specific factors: [PATIENT_SPECIFIC_FACTORS]
 - Cost-effectiveness: [COST_EFFECTIVENESS]
 
-Literature Review:
-Similar Cases:
+### Literature Review
+### Similar Cases
 - [SIMILAR_CASE_1]: [SIMILAR_CASE_DESCRIPTION_1]
 - [SIMILAR_CASE_2]: [SIMILAR_CASE_OUTCOMES_2]
 - Case series: [RELEVANT_CASE_SERIES]
 
-Current Evidence:
+### Current Evidence
 - Treatment guidelines: [RELEVANT_GUIDELINES]
 - Recent studies: [RECENT_EVIDENCE]
 - Controversies: [TREATMENT_CONTROVERSIES]
 
-LEARNING OBJECTIVES:
-Educational Value:
-Primary Learning Points:
+### LEARNING OBJECTIVES
+### Educational Value
+### Primary Learning Points
 1. [LEARNING_POINT_1]
 2. [LEARNING_POINT_2]
 3. [LEARNING_POINT_3]
 4. [LEARNING_POINT_4]
 
-Clinical Skills Demonstrated:
+### Clinical Skills Demonstrated
 - History taking: [HISTORY_SKILLS]
 - Physical examination: [EXAM_SKILLS]
 - Diagnostic reasoning: [DIAGNOSTIC_REASONING_SKILLS]
 - Treatment planning: [TREATMENT_PLANNING_SKILLS]
 
-Knowledge Areas:
+### Knowledge Areas
 - Pathophysiology: [PATHOPHYSIOLOGY_LEARNING]
 - Pharmacology: [PHARMACOLOGY_LEARNING]
 - Clinical guidelines: [GUIDELINES_LEARNING]
 - Patient communication: [COMMUNICATION_LEARNING]
 
-QUESTIONS FOR REFLECTION:
-Teaching Questions:
+### QUESTIONS FOR REFLECTION
+### Teaching Questions
 1. [TEACHING_QUESTION_1]
    - Answer: [TEACHING_ANSWER_1]
    - Rationale: [TEACHING_RATIONALE_1]
@@ -349,33 +349,33 @@ Case-Based Questions:
 - Alternative diagnostic approaches: [ALTERNATIVE_DIAGNOSTICS]
 - Treatment modifications if [SCENARIO_MODIFICATION]: [TREATMENT_MODIFICATIONS]
 
-PATIENT PERSPECTIVE:
-Patient Experience:
+### PATIENT PERSPECTIVE
+### Patient Experience
 - Patient concerns: [PATIENT_CONCERNS]
 - Communication challenges: [COMMUNICATION_CHALLENGES]
 - Treatment preferences: [PATIENT_TREATMENT_PREFERENCES]
 - Quality of life impact: [QOL_IMPACT_PATIENT_VIEW]
 
-Family Involvement:
+### Family Involvement
 - Family dynamics: [FAMILY_DYNAMICS]
 - Support system: [FAMILY_SUPPORT]
 - Education needs: [FAMILY_EDUCATION_NEEDS]
 
-ETHICAL CONSIDERATIONS:
-Ethical Issues:
+### ETHICAL CONSIDERATIONS
+### Ethical Issues
 - [ETHICAL_ISSUE_1]: [ETHICAL_DISCUSSION_1]
 - [ETHICAL_ISSUE_2]: [ETHICAL_RESOLUTION_2]
 - Informed consent: [CONSENT_CONSIDERATIONS]
 - Confidentiality: [CONFIDENTIALITY_ISSUES]
 
-Cultural Considerations:
+### Cultural Considerations
 - Cultural factors: [CULTURAL_FACTORS]
 - Language barriers: [LANGUAGE_CONSIDERATIONS]
 - Religious considerations: [RELIGIOUS_FACTORS]
 
-COMPLETE CASE STUDY:
+### COMPLETE CASE STUDY
 
-Case Summary:
+### Case Summary
 Patient: [PATIENT_SUMMARY]
 Condition: [CONDITION_SUMMARY]
 Key features: [KEY_FEATURES_SUMMARY]
@@ -388,7 +388,7 @@ Date: [CASE_COMPLETION_DATE]
 
 ---
 
-Case Study Quality:
+### Case Study Quality
 ✓ Comprehensive history: [HISTORY_COMPLETENESS]
 ✓ Thorough examination: [EXAM_THOROUGHNESS]
 ✓ Appropriate workup: [WORKUP_APPROPRIATENESS]
@@ -405,6 +405,33 @@ Case quality: [OVERALL_CASE_QUALITY]
 
 ## Usage Examples
 
+
+
+## Best Practices
+
+1. **Start with clear objectives** - Define what success looks like before beginning
+2. **Use data to inform decisions** - Base choices on evidence and measurable outcomes
+3. **Iterate and improve continuously** - Treat implementation as an ongoing process
+4. **Engage stakeholders early** - Include key participants in planning and execution
+5. **Document thoroughly** - Maintain clear records for reference and knowledge transfer
+6. **Communicate regularly** - Keep all parties informed of progress and changes
+7. **Address challenges proactively** - Identify potential issues before they become problems
+8. **Celebrate milestones** - Recognize achievements to maintain motivation
+9. **Learn from experience** - Reflect on what works and adjust accordingly
+10. **Stay flexible** - Be ready to adapt based on feedback and changing circumstances
+
+## Tips for Success
+
+- Break complex tasks into manageable steps with clear milestones
+- Set realistic timelines that account for dependencies and constraints
+- Allocate sufficient resources including time, budget, and personnel
+- Use templates and frameworks to ensure consistency and quality
+- Seek feedback from users and stakeholders throughout the process
+- Build in checkpoints to assess progress and make adjustments
+- Maintain quality standards while remaining practical and efficient
+- Document lessons learned for future reference and improvement
+- Foster collaboration across teams and departments
+- Stay current with industry best practices and emerging trends
 ### Example 1: Rare Disease Case Report
 ```
 CASE_STUDY_TYPE: "Single case report"

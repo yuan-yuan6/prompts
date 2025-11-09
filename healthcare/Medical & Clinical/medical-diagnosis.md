@@ -442,7 +442,7 @@ Dermatological: [SKIN_COLOR_TEXTURE], [LESION_DESCRIPTION], [RASH_CHARACTERISTIC
 ```
 Based on the presentation of [CHIEF_COMPLAINT] in [PATIENT_DEMOGRAPHIC] with [KEY_RISK_FACTORS], the differential diagnosis includes:
 
-Primary Diagnostic Considerations:
+### Primary Diagnostic Considerations
 1. [MOST_LIKELY_DIAGNOSIS] - Probability: [LIKELIHOOD_PERCENTAGE]%
    Supporting Evidence: [SUPPORTING_SYMPTOM_1], [SUPPORTING_SIGN_1], [SUPPORTING_HISTORY_1]
    Contradicting Evidence: [CONTRADICTING_FACTOR_1]
@@ -455,7 +455,7 @@ Primary Diagnostic Considerations:
    Supporting Evidence: [SUPPORTING_SYMPTOM_3], [SUPPORTING_SIGN_3], [SUPPORTING_HISTORY_3]
    Contradicting Evidence: [CONTRADICTING_FACTOR_3]
 
-Secondary Considerations:
+### Secondary Considerations
 - [ALTERNATIVE_DIAGNOSIS_1] - Consider due to [REASONING_1]
 - [ALTERNATIVE_DIAGNOSIS_2] - Consider due to [REASONING_2]
 - [ALTERNATIVE_DIAGNOSIS_3] - Consider due to [REASONING_3]
@@ -473,7 +473,7 @@ Clinical Decision Rules Applied: [DECISION_RULE_1] with score [SCORE_1], [DECISI
 
 **Evidence-Based Investigation Protocol:**
 ```
-Initial Laboratory Studies:
+### Initial Laboratory Studies
 - [LAB_TEST_1]: Expected result [EXPECTED_RANGE_1], Clinical significance [SIGNIFICANCE_1]
 - [LAB_TEST_2]: Expected result [EXPECTED_RANGE_2], Clinical significance [SIGNIFICANCE_2]
 - [LAB_TEST_3]: Expected result [EXPECTED_RANGE_3], Clinical significance [SIGNIFICANCE_3]
@@ -484,12 +484,12 @@ Imaging Studies:
 - [IMAGING_MODALITY_2]: Indication [INDICATION_2], Expected findings [EXPECTED_FINDINGS_2]
 - [CONTRAST_STUDY]: Contraindications checked [CONTRAST_CONTRAINDICATIONS], Pre-medication [PRE_MEDICATION_PROTOCOL]
 
-Specialized Testing:
+### Specialized Testing
 - [FUNCTIONAL_TEST_1]: Purpose [TEST_PURPOSE_1], Preparation required [PATIENT_PREPARATION_1]
 - [BIOPSY_PROCEDURE]: Location [BIOPSY_SITE], Technique [BIOPSY_METHOD], Pathology focus [PATHOLOGY_FOCUS]
 - [CARDIAC_TESTING]: Type [CARDIAC_TEST_TYPE], Indication [CARDIAC_INDICATION], Contraindications [CARDIAC_CONTRAINDICATIONS]
 
-Microbiological Studies:
+### Microbiological Studies
 - [CULTURE_TYPE_1]: Source [SPECIMEN_SOURCE_1], Expected organisms [EXPECTED_ORGANISMS_1]
 - [MOLECULAR_TEST]: Target [TARGET_PATHOGEN], Turnaround time [RESULT_TIMEFRAME]
 - [SEROLOGY_TEST]: Antibody/Antigen [SEROLOGY_TARGET], Interpretation [RESULT_INTERPRETATION]
@@ -505,7 +505,7 @@ Test Prioritization: [STAT_TESTS] for immediate results, [URGENT_TESTS] within [
 
 **Results Integration and Analysis:**
 ```
-Laboratory Results Analysis:
+### Laboratory Results Analysis
 - [LAB_RESULT_1]: Value [ACTUAL_VALUE_1] (Reference: [REFERENCE_RANGE_1]) - Interpretation: [CLINICAL_INTERPRETATION_1]
 - [LAB_RESULT_2]: Value [ACTUAL_VALUE_2] (Reference: [REFERENCE_RANGE_2]) - Interpretation: [CLINICAL_INTERPRETATION_2]
 - [CRITICAL_VALUE_ALERT]: [CRITICAL_LAB_VALUE] requires [IMMEDIATE_ACTION_REQUIRED]
@@ -515,13 +515,13 @@ Imaging Interpretation:
 - [IMAGING_FINDING_2] shows [ABNORMALITY_DESCRIPTION] measuring [MEASUREMENT_VALUE]
 - [INCIDENTAL_FINDING]: [FINDING_DESCRIPTION] requiring [FOLLOW_UP_RECOMMENDATION]
 
-Clinical Correlation Matrix:
+### Clinical Correlation Matrix
 History + Physical + Labs + Imaging = [DIAGNOSTIC_CONFIDENCE_LEVEL]%
 Supporting factors: [SUPPORTING_EVIDENCE_WEIGHT]
 Conflicting data: [CONFLICTING_INFORMATION_ANALYSIS]
 Additional testing needed: [ADDITIONAL_TESTS_RATIONALE]
 
-Diagnostic Certainty Scale:
+### Diagnostic Certainty Scale
 - Definitive Diagnosis (>95%): [DEFINITIVE_DIAGNOSIS_CRITERIA]
 - Highly Probable (85-95%): [PROBABLE_DIAGNOSIS_FEATURES]
 - Possible (50-85%): [POSSIBLE_DIAGNOSIS_UNCERTAINTY]
@@ -532,7 +532,7 @@ Diagnostic Certainty Scale:
 
 **Multidisciplinary Diagnostic Approach:**
 ```
-Consultation Strategy:
+### Consultation Strategy
 Primary Consultant: [SPECIALIST_TYPE_1] for [CONSULTATION_PURPOSE_1]
 - Specific question: [CLINICAL_QUESTION_1]
 - Urgency level: [CONSULTATION_URGENCY_1]
@@ -543,19 +543,19 @@ Secondary Consultant: [SPECIALIST_TYPE_2] for [CONSULTATION_PURPOSE_2]
 - Urgency level: [CONSULTATION_URGENCY_2]
 - Expected contribution: [SPECIALIST_EXPERTISE_2]
 
-Multidisciplinary Team Meeting:
+### Multidisciplinary Team Meeting
 Participants: [TEAM_MEMBER_1], [TEAM_MEMBER_2], [TEAM_MEMBER_3], [TEAM_MEMBER_4]
 Case presentation focus: [PRESENTATION_FOCUS_AREAS]
 Consensus building approach: [CONSENSUS_METHOD]
 Documentation of decisions: [DECISION_DOCUMENTATION_PROCESS]
 
-Second Opinion Considerations:
+### Second Opinion Considerations
 - Complex/Rare condition: [COMPLEXITY_ASSESSMENT]
 - High-stakes diagnosis: [CONSEQUENCE_ANALYSIS]
 - Patient/Family request: [PATIENT_PREFERENCE_CONSIDERATION]
 - Institutional policy: [POLICY_REQUIREMENTS]
 
-Telemedicine Consultation:
+### Telemedicine Consultation
 Platform: [TELEHEALTH_PLATFORM]
 Technical requirements: [TECHNICAL_SETUP]
 Information sharing: [DATA_SHARING_PROTOCOL]
@@ -566,7 +566,7 @@ Documentation: [TELEMEDICINE_DOCUMENTATION]
 
 **Evidence-Based Validation Framework:**
 ```
-Test Performance Characteristics:
+### Test Performance Characteristics
 - [DIAGNOSTIC_TEST_1]: Sensitivity [SENSITIVITY_VALUE_1]%, Specificity [SPECIFICITY_VALUE_1]%, PPV [PPV_VALUE_1]%, NPV [NPV_VALUE_1]%
 - [DIAGNOSTIC_TEST_2]: Sensitivity [SENSITIVITY_VALUE_2]%, Specificity [SPECIFICITY_VALUE_2]%, PPV [PPV_VALUE_2]%, NPV [NPV_VALUE_2]%
 - Pre-test probability: [PRETEST_PROBABILITY]%
@@ -577,14 +577,14 @@ Clinical Prediction Rules:
 - [PREDICTION_RULE_2]: Criteria met [CRITERIA_MET_2], Recommendation [RULE_RECOMMENDATION_2]
 - Validation status: [RULE_VALIDATION_STATUS]
 
-Quality Metrics:
+### Quality Metrics
 - Time to diagnosis: [DIAGNOSIS_TIME_HOURS] hours
 - Number of tests ordered: [TOTAL_TESTS_ORDERED]
 - Cost-effectiveness: [DIAGNOSTIC_COST] per [OUTCOME_MEASURE]
 - Patient satisfaction: [SATISFACTION_SCORE]/10
 - Diagnostic accuracy rate: [ACCURACY_PERCENTAGE]%
 
-Error Prevention:
+### Error Prevention
 Cognitive bias awareness: [BIAS_TYPE_1], [BIAS_TYPE_2], [BIAS_TYPE_3]
 Safety nets: [SAFETY_MECHANISM_1], [SAFETY_MECHANISM_2]
 Feedback loops: [FEEDBACK_SYSTEM_1], [FEEDBACK_SYSTEM_2]
@@ -596,7 +596,7 @@ Feedback loops: [FEEDBACK_SYSTEM_1], [FEEDBACK_SYSTEM_2]
 ```
 Confirmed Diagnosis: [FINAL_DIAGNOSIS] with [DIAGNOSTIC_CONFIDENCE_LEVEL]% certainty
 
-Immediate Management Requirements:
+### Immediate Management Requirements
 - Urgent interventions: [URGENT_TREATMENT_1], [URGENT_TREATMENT_2]
 - Monitoring needs: [MONITORING_PARAMETER_1], [MONITORING_PARAMETER_2]
 - Safety considerations: [SAFETY_CONCERN_1], [SAFETY_CONCERN_2]
@@ -606,7 +606,7 @@ Treatment Planning:
 - Alternative options: [ALTERNATIVE_TREATMENT_1], [ALTERNATIVE_TREATMENT_2]
 - Contraindications: [TREATMENT_CONTRAINDICATION_1], [TREATMENT_CONTRAINDICATION_2]
 
-Prognosis Assessment:
+### Prognosis Assessment
 - Short-term outlook: [SHORT_TERM_PROGNOSIS]
 - Long-term prognosis: [LONG_TERM_PROGNOSIS]
 - Factors affecting prognosis: [PROGNOSTIC_FACTOR_1], [PROGNOSTIC_FACTOR_2]
@@ -622,7 +622,7 @@ Follow-up Strategy:
 
 **Diagnostic Disclosure and Education:**
 ```
-Communication Approach:
+### Communication Approach
 Patient health literacy level: [LITERACY_ASSESSMENT]
 Communication preferences: [COMMUNICATION_PREFERENCE]
 Language considerations: [LANGUAGE_ACCOMMODATION]
@@ -635,13 +635,13 @@ Why it occurred: [CAUSATION_EXPLANATION]
 What to expect: [EXPECTATION_SETTING]
 Treatment necessity: [TREATMENT_RATIONALE]
 
-Risk Communication:
+### Risk Communication
 Absolute risk: [ABSOLUTE_RISK_PERCENTAGE]%
 Relative risk: [RELATIVE_RISK_COMPARISON]
 Number needed to treat: [NNT_VALUE]
 Visual aids used: [RISK_COMMUNICATION_TOOLS]
 
-Shared Decision Making:
+### Shared Decision Making
 Treatment options presented: [OPTION_1], [OPTION_2], [OPTION_3]
 Patient values explored: [PATIENT_VALUES_1], [PATIENT_VALUES_2]
 Preference assessment: [PATIENT_PREFERENCE]
@@ -653,7 +653,7 @@ Final decision: [AGREED_TREATMENT_PLAN]
 
 **Comprehensive Record Keeping:**
 ```
-Medical Record Documentation:
+### Medical Record Documentation
 Chief complaint: [DOCUMENTED_CHIEF_COMPLAINT]
 History details: [HISTORY_DOCUMENTATION_COMPLETENESS]
 Physical exam: [PHYSICAL_EXAM_THOROUGHNESS]
@@ -666,14 +666,14 @@ Rationale for testing: [TEST_JUSTIFICATION]
 Results interpretation: [INTERPRETATION_DOCUMENTATION]
 Clinical correlation: [CORRELATION_EXPLANATION]
 
-Legal and Regulatory Compliance:
+### Legal and Regulatory Compliance
 Informed consent: [CONSENT_DOCUMENTATION]
 Risk disclosure: [RISK_COMMUNICATION_RECORD]
 Patient understanding: [COMPREHENSION_VERIFICATION]
 Second opinion offered: [SECOND_OPINION_DOCUMENTATION]
 Standard of care adherence: [STANDARD_COMPLIANCE]
 
-Quality Assurance:
+### Quality Assurance
 Peer review eligibility: [REVIEW_CRITERIA_MET]
 Outcome tracking: [OUTCOME_MONITORING_PLAN]
 Continuous improvement: [IMPROVEMENT_OPPORTUNITIES]
@@ -682,6 +682,33 @@ Patient safety reporting: [SAFETY_EVENT_DOCUMENTATION]
 
 ## Usage Examples
 
+
+
+## Best Practices
+
+1. **Start with clear objectives** - Define what success looks like before beginning
+2. **Use data to inform decisions** - Base choices on evidence and measurable outcomes
+3. **Iterate and improve continuously** - Treat implementation as an ongoing process
+4. **Engage stakeholders early** - Include key participants in planning and execution
+5. **Document thoroughly** - Maintain clear records for reference and knowledge transfer
+6. **Communicate regularly** - Keep all parties informed of progress and changes
+7. **Address challenges proactively** - Identify potential issues before they become problems
+8. **Celebrate milestones** - Recognize achievements to maintain motivation
+9. **Learn from experience** - Reflect on what works and adjust accordingly
+10. **Stay flexible** - Be ready to adapt based on feedback and changing circumstances
+
+## Tips for Success
+
+- Break complex tasks into manageable steps with clear milestones
+- Set realistic timelines that account for dependencies and constraints
+- Allocate sufficient resources including time, budget, and personnel
+- Use templates and frameworks to ensure consistency and quality
+- Seek feedback from users and stakeholders throughout the process
+- Build in checkpoints to assess progress and make adjustments
+- Maintain quality standards while remaining practical and efficient
+- Document lessons learned for future reference and improvement
+- Foster collaboration across teams and departments
+- Stay current with industry best practices and emerging trends
 ### Example 1: Acute Chest Pain Evaluation
 ```
 As a Emergency Medicine Physician with Emergency Medicine specialization working in Emergency Department with 10 years of experience, I am evaluating 55-year-old Male Caucasian presenting with chief complaint of Severe chest pain lasting 2 hours.

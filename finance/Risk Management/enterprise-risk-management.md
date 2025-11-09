@@ -53,7 +53,7 @@ Market Risk:
 - Equity Risk: $[EQUITY_MEASURE]
 - Commodity Risk: $[COMMODITY_MEASURE]
 
-Operational Risk:
+### Operational Risk
 - Op Risk Capital: $[OP_CAPITAL]
 - Loss Events: [LOSS_EVENTS]/year
 - Key Risk Indicators: [KRI_COUNT]
@@ -61,7 +61,7 @@ Operational Risk:
 - Process Risk: [PROCESS_RISK]
 - Technology Risk: [TECH_RISK]
 
-Liquidity Risk:
+### Liquidity Risk
 - Liquidity Coverage Ratio: [LCR_RATIO]%
 - Net Stable Funding Ratio: [NSFR_RATIO]%
 - Cash Flow at Risk: $[CFAR_MEASURE]
@@ -375,14 +375,14 @@ Detective Controls:
 - Independent Review: [REVIEW_CONTROLS]
 - Audit Program: [AUDIT_CONTROLS]
 
-Corrective Controls:
+### Corrective Controls
 - Incident Management: [INCIDENT_CONTROLS]
 - Recovery Plans: [RECOVERY_CONTROLS]
 - Remediation Process: [REMEDIATE_CONTROLS]
 - Escalation Procedures: [ESCALATE_CONTROLS]
 - Continuous Improvement: [IMPROVE_CONTROLS]
 
-Risk Transfer:
+### Risk Transfer
 - Insurance Coverage: $[INSURANCE_COVER]
 - Hedging Strategies: [HEDGE_STRATEGY]
 - Guarantees: $[GUARANTEE_AMOUNT]
@@ -431,14 +431,14 @@ Impact Assessment:
 - Credit Losses: $[CREDIT_LOSSES]
 - Market Losses: $[MARKET_LOSSES]
 
-Management Actions:
+### Management Actions
 - Capital Conservation: [CAPITAL_ACTIONS]
 - Risk Reduction: [RISK_ACTIONS]
 - Liquidity Management: [LIQ_ACTIONS]
 - Business Continuity: [BCP_ACTIONS]
 - Recovery Planning: [RECOVERY_ACTIONS]
 
-Regulatory Submissions:
+### Regulatory Submissions
 - CCAR/DFAST: [CCAR_STATUS]
 - EBA Stress Test: [EBA_STATUS]
 - Internal Stress Test: [INTERNAL_STATUS]
@@ -487,14 +487,14 @@ Training Programs:
 - Business Training: [BUS_TRAINING]
 - New Employee: [NEW_TRAINING]
 
-Performance Management:
+### Performance Management
 - Risk KPIs in Goals: [KPI_INTEGRATION]%
 - Risk-Adjusted Comp: [RISK_COMP]
 - Consequence Mgmt: [CONSEQUENCE]
 - Recognition Program: [RECOGNITION]
 - Career Development: [CAREER_DEV]
 
-Communication:
+### Communication
 - Risk Committees: [COMMITTEE_COMM]
 - Town Halls: [TOWNHALL_FREQ]
 - Risk Newsletter: [NEWSLETTER]
@@ -504,6 +504,33 @@ Communication:
 
 ## Usage Examples
 
+
+
+## Best Practices
+
+1. **Start with clear objectives** - Define what success looks like before beginning
+2. **Use data to inform decisions** - Base choices on evidence and measurable outcomes
+3. **Iterate and improve continuously** - Treat implementation as an ongoing process
+4. **Engage stakeholders early** - Include key participants in planning and execution
+5. **Document thoroughly** - Maintain clear records for reference and knowledge transfer
+6. **Communicate regularly** - Keep all parties informed of progress and changes
+7. **Address challenges proactively** - Identify potential issues before they become problems
+8. **Celebrate milestones** - Recognize achievements to maintain motivation
+9. **Learn from experience** - Reflect on what works and adjust accordingly
+10. **Stay flexible** - Be ready to adapt based on feedback and changing circumstances
+
+## Tips for Success
+
+- Break complex tasks into manageable steps with clear milestones
+- Set realistic timelines that account for dependencies and constraints
+- Allocate sufficient resources including time, budget, and personnel
+- Use templates and frameworks to ensure consistency and quality
+- Seek feedback from users and stakeholders throughout the process
+- Build in checkpoints to assess progress and make adjustments
+- Maintain quality standards while remaining practical and efficient
+- Document lessons learned for future reference and improvement
+- Foster collaboration across teams and departments
+- Stay current with industry best practices and emerging trends
 ### Example 1: Global Bank
 ```
 Institution: Universal bank

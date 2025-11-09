@@ -58,7 +58,7 @@ Annual Donors (<$1,000):
 - Impact Reporting: [ANNUAL_REPORTING]
 - Loyalty Programs: [ANNUAL_LOYALTY]
 
-Planned Giving Prospects:
+### Planned Giving Prospects
 - Legacy Society: [LEGACY_SOCIETY]
 - Estate Planning: [ESTATE_PLANNING]
 - Bequest Marketing: [BEQUEST_MARKETING]
@@ -66,7 +66,7 @@ Planned Giving Prospects:
 - Recognition Programs: [PLANNED_RECOGNITION]
 - Professional Advisors: [ADVISOR_NETWORK]
 
-Corporate Partners:
+### Corporate Partners
 - Sponsorship Levels: [SPONSORSHIP_LEVELS]
 - Employee Giving: [EMPLOYEE_GIVING]
 - Matching Gifts: [MATCHING_GIFTS]
@@ -405,7 +405,7 @@ Need Statement:
 - Evidence Base: [EVIDENCE_BASE]
 - Consequences of Inaction: [CONSEQUENCES]
 
-Solution Presentation:
+### Solution Presentation
 - Program Description: [PROGRAM_DESCRIPTION]
 - Innovation Elements: [INNOVATION_ELEMENTS]
 - Proven Methods: [PROVEN_METHODS]
@@ -413,7 +413,7 @@ Solution Presentation:
 - Scalability Plan: [SCALABILITY_PLAN]
 - Long-term Vision: [LONGTERM_VISION]
 
-Investment Opportunities:
+### Investment Opportunities
 - Naming Opportunities: [NAMING_OPPORTUNITIES]
 - Program Sponsorship: [PROGRAM_SPONSORSHIP]
 - Endowment Building: [ENDOWMENT_BUILDING]
@@ -465,7 +465,7 @@ Communication Calendar:
 - Annual Reports: [ANNUAL_REPORTS]
 - Special Communications: [SPECIAL_COMMS]
 
-Engagement Activities:
+### Engagement Activities
 - Site Visits: [SITE_VISITS]
 - Program Tours: [PROGRAM_TOURS]
 - Volunteer Opportunities: [VOLUNTEER_OPPS]
@@ -473,7 +473,7 @@ Engagement Activities:
 - Speaking Opportunities: [SPEAKING_OPPS]
 - Networking Events: [NETWORKING_EVENTS]
 
-Retention Strategies:
+### Retention Strategies
 - First-Time Donor Program: [FIRST_TIME_PROGRAM]
 - Renewal Campaigns: [RENEWAL_CAMPAIGNS]
 - Upgrade Initiatives: [UPGRADE_INITIATIVES]
@@ -525,7 +525,7 @@ Board Engagement:
 - Event Participation: [BOARD_EVENTS]
 - Leadership Gifts: [BOARD_GIFTS]
 
-Committee Structure:
+### Committee Structure
 - Campaign Committee: [CAMPAIGN_COMMITTEE]
 - Event Committees: [EVENT_COMMITTEES]
 - Young Professionals: [YOUNG_PROFESSIONALS]
@@ -533,7 +533,7 @@ Committee Structure:
 - Legacy Society: [LEGACY_COMMITTEE]
 - Corporate Council: [CORPORATE_COUNCIL]
 
-Capacity Building:
+### Capacity Building
 - Skills Development: [SKILLS_DEVELOPMENT]
 - Leadership Pipeline: [LEADERSHIP_PIPELINE]
 - Succession Planning: [SUCCESSION_PLANNING]
@@ -544,6 +544,33 @@ Capacity Building:
 
 ## Usage Examples
 
+
+
+## Best Practices
+
+1. **Start with clear objectives** - Define what success looks like before beginning
+2. **Use data to inform decisions** - Base choices on evidence and measurable outcomes
+3. **Iterate and improve continuously** - Treat implementation as an ongoing process
+4. **Engage stakeholders early** - Include key participants in planning and execution
+5. **Document thoroughly** - Maintain clear records for reference and knowledge transfer
+6. **Communicate regularly** - Keep all parties informed of progress and changes
+7. **Address challenges proactively** - Identify potential issues before they become problems
+8. **Celebrate milestones** - Recognize achievements to maintain motivation
+9. **Learn from experience** - Reflect on what works and adjust accordingly
+10. **Stay flexible** - Be ready to adapt based on feedback and changing circumstances
+
+## Tips for Success
+
+- Break complex tasks into manageable steps with clear milestones
+- Set realistic timelines that account for dependencies and constraints
+- Allocate sufficient resources including time, budget, and personnel
+- Use templates and frameworks to ensure consistency and quality
+- Seek feedback from users and stakeholders throughout the process
+- Build in checkpoints to assess progress and make adjustments
+- Maintain quality standards while remaining practical and efficient
+- Document lessons learned for future reference and improvement
+- Foster collaboration across teams and departments
+- Stay current with industry best practices and emerging trends
 ### Example 1: Capital Campaign
 ```
 Campaign: $50M facility expansion

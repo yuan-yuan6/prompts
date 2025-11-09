@@ -30,7 +30,7 @@ Funding Opportunity:
 - Project Duration: [PROJECT_DURATION]
 - Submission Deadline: [SUBMISSION_DEADLINE]
 
-Research Project:
+### Research Project
 - Project Title: [PROJECT_TITLE]
 - Principal Investigator: [PI_NAME]
 - Institution: [INSTITUTION_NAME]
@@ -38,7 +38,7 @@ Research Project:
 - Innovation Level: [INNOVATION_TYPE]
 - Collaboration Type: [COLLABORATION_SCOPE]
 
-Project Scope:
+### Project Scope
 - Research Problem: [RESEARCH_PROBLEM]
 - Research Objectives: [RESEARCH_OBJECTIVES]
 - Methodology: [RESEARCH_METHODOLOGY]
@@ -46,42 +46,42 @@ Project Scope:
 - Target Budget: [BUDGET_REQUEST]
 - Team Composition: [TEAM_STRUCTURE]
 
-Generate a comprehensive grant proposal:
+### Generate a comprehensive grant proposal
 
 1. EXECUTIVE SUMMARY
    
-   Project Overview:
+### Project Overview
    [PROJECT_TITLE]: [Compelling one-sentence description]
    
-   Research Problem & Significance:
+### Research Problem & Significance
    • [Problem statement in 2-3 sentences]
    • [Significance and urgency of the problem]
    • [Gap in current knowledge or practice]
    • [Consequences of not addressing the problem]
    
-   Innovation & Approach:
+### Innovation & Approach
    • [Novel aspects of the proposed research]
    • [Methodological innovations or applications]
    • [Interdisciplinary or collaborative elements]
    • [Technological or conceptual breakthroughs]
    
-   Research Objectives:
-   Primary Objective:
+### Research Objectives
+### Primary Objective
    • [PRIMARY_OBJECTIVE]: [Clear, measurable goal]
    
-   Secondary Objectives:
+### Secondary Objectives
    • [SECONDARY_OBJECTIVE_1]: [Supporting goal 1]
    • [SECONDARY_OBJECTIVE_2]: [Supporting goal 2]
    • [SECONDARY_OBJECTIVE_3]: [Supporting goal 3]
    
-   Methodology Summary:
+### Methodology Summary
    • [Research design]: [STUDY_DESIGN_BRIEF]
    • [Data collection]: [DATA_COLLECTION_BRIEF]
    • [Analysis approach]: [ANALYSIS_BRIEF]
    • [Timeline]: [PROJECT_DURATION] over [TIME_PHASES]
    
-   Expected Impact:
-   Immediate Impact:
+### Expected Impact
+### Immediate Impact
    • [SHORT_TERM_IMPACT_1]
    • [SHORT_TERM_IMPACT_2]
    
@@ -89,7 +89,7 @@ Generate a comprehensive grant proposal:
    • [LONG_TERM_IMPACT_1]
    • [LONG_TERM_IMPACT_2]
    
-   Budget Summary:
+### Budget Summary
    • Total Budget Request: $[TOTAL_BUDGET_REQUEST]
    • Personnel (XX%): $[PERSONNEL_COSTS]
    • Equipment (XX%): $[EQUIPMENT_COSTS]
@@ -98,77 +98,77 @@ Generate a comprehensive grant proposal:
 
 2. STATEMENT OF NEED & SIGNIFICANCE
    
-   Problem Definition:
+### Problem Definition
    • [Comprehensive problem description]
    • [Current state of knowledge/practice]
    • [Limitations of existing approaches]
    • [Stakeholder perspectives on the problem]
    
-   Evidence of Need:
-   Statistical Evidence:
+### Evidence of Need
+### Statistical Evidence
    • [STATISTIC_1]: [Source and implications]
    • [STATISTIC_2]: [Trend data and projections]
    • [STATISTIC_3]: [Comparative or benchmark data]
    
-   Empirical Evidence:
+### Empirical Evidence
    • [STUDY_CITATION_1]: [Key finding and relevance]
    • [STUDY_CITATION_2]: [Gap or limitation identified]
    • [STUDY_CITATION_3]: [Supporting evidence for need]
    
-   Stakeholder Evidence:
+### Stakeholder Evidence
    • [STAKEHOLDER_GROUP_1]: [Expressed needs or concerns]
    • [STAKEHOLDER_GROUP_2]: [Resource or capacity limitations]
    • [STAKEHOLDER_GROUP_3]: [Policy or practice implications]
    
-   Urgency and Timing:
+### Urgency and Timing
    • [TIME_SENSITIVE_FACTORS]
    • [OPPORTUNITY_WINDOWS]
    • [COMPETITIVE_LANDSCAPE]
    • [EXTERNAL_PRESSURES_OR_DRIVERS]
    
-   Broader Significance:
-   Scientific Significance:
+### Broader Significance
+### Scientific Significance
    • [SCIENTIFIC_CONTRIBUTION_1]
    • [SCIENTIFIC_CONTRIBUTION_2]
    • [THEORETICAL_ADVANCEMENT]
    
-   Societal Significance:
+### Societal Significance
    • [SOCIETAL_BENEFIT_1]
    • [SOCIETAL_BENEFIT_2]
    • [POLICY_IMPLICATIONS]
    
-   Economic Significance:
+### Economic Significance
    • [ECONOMIC_IMPACT_1]
    • [ECONOMIC_IMPACT_2]
    • [COST_BENEFIT_CONSIDERATIONS]
 
 3. LITERATURE REVIEW & THEORETICAL FRAMEWORK
    
-   Current State of Knowledge:
+### Current State of Knowledge
    
-   Foundational Research:
+### Foundational Research
    • [FOUNDATIONAL_STUDY_1]: [Key contribution and limitations]
    • [FOUNDATIONAL_STUDY_2]: [Methodology and findings]
    • [FOUNDATIONAL_STUDY_3]: [Theoretical implications]
    
-   Recent Advances:
+### Recent Advances
    • [RECENT_STUDY_1]: [Novel findings and implications]
    • [RECENT_STUDY_2]: [Methodological innovations]
    • [RECENT_STUDY_3]: [Emerging trends or patterns]
    
-   Knowledge Gaps:
+### Knowledge Gaps
    
-   Empirical Gaps:
+### Empirical Gaps
    • [EMPIRICAL_GAP_1]: [What is unknown]
    • [EMPIRICAL_GAP_2]: [Conflicting findings]
    • [EMPIRICAL_GAP_3]: [Understudied populations or contexts]
    
-   Methodological Gaps:
+### Methodological Gaps
    • [METHODOLOGICAL_GAP_1]: [Limitations in current approaches]
    • [METHODOLOGICAL_GAP_2]: [Need for new tools or techniques]
    • [METHODOLOGICAL_GAP_3]: [Integration challenges]
    
-   Theoretical Framework:
+### Theoretical Framework
    
    Primary Theory: [MAIN_THEORETICAL_FRAMEWORK]
    • [Theory description and key principles]
@@ -176,47 +176,47 @@ Generate a comprehensive grant proposal:
    • [Application to research questions]
    • [Expected theoretical contributions]
    
-   Supporting Theories:
+### Supporting Theories
    • [SUPPORTING_THEORY_1]: [Integration approach]
    • [SUPPORTING_THEORY_2]: [Complementary perspectives]
    
-   Conceptual Model:
+### Conceptual Model
    • [MODEL_DESCRIPTION]
    • [Variable relationships and pathways]
    • [Testable hypotheses derived from model]
    • [Model innovations or extensions]
    
-   Preliminary Work:
+### Preliminary Work
    • [PRELIMINARY_STUDY_1]: [Methods, findings, implications]
    • [PRELIMINARY_STUDY_2]: [Feasibility demonstration]
    • [PRELIMINARY_DATA]: [Supporting evidence for proposed work]
 
 4. RESEARCH DESIGN & METHODOLOGY
    
-   Research Approach:
+### Research Approach
    
    Overall Design: [RESEARCH_DESIGN_DETAILED]
    • [Design rationale and appropriateness]
    • [Alignment with research questions]
    • [Innovation in design or application]
    
-   Study Population:
+### Study Population
    
-   Target Population:
+### Target Population
    • [POPULATION_DESCRIPTION]
    • [Population size and characteristics]
    • [Inclusion criteria]: [INCLUSION_CRITERIA_DETAILED]
    • [Exclusion criteria]: [EXCLUSION_CRITERIA_DETAILED]
    
-   Sampling Strategy:
+### Sampling Strategy
    • [SAMPLING_METHOD_DETAILED]
    • [Sample size calculation]: [N] = [SAMPLE_SIZE_CALCULATION]
    • [Power analysis]: Power = [STATISTICAL_POWER] to detect [EFFECT_SIZE]
    • [Recruitment procedures]: [RECRUITMENT_STRATEGY_DETAILED]
    
-   Data Collection:
+### Data Collection
    
-   Primary Data:
+### Primary Data
    Instrument 1: [PRIMARY_INSTRUMENT_1]
    • [Instrument description and psychometrics]
    • [Administration procedures]
@@ -227,11 +227,11 @@ Generate a comprehensive grant proposal:
    • [Adaptation or development procedures]
    • [Training requirements for data collectors]
    
-   Secondary Data:
+### Secondary Data
    • [SECONDARY_DATA_SOURCE_1]: [Access and permissions]
    • [SECONDARY_DATA_SOURCE_2]: [Data quality and completeness]
    
-   Data Collection Procedures:
+### Data Collection Procedures
    Phase 1: [DATA_COLLECTION_PHASE_1]
    • Duration: [PHASE_1_DURATION]
    • Procedures: [PHASE_1_PROCEDURES]
@@ -242,32 +242,32 @@ Generate a comprehensive grant proposal:
    • Procedures: [PHASE_2_PROCEDURES]
    • Quality control: [PHASE_2_QC]
    
-   Data Analysis Plan:
+### Data Analysis Plan
    
-   Quantitative Analysis:
-   Primary Analysis:
+### Quantitative Analysis
+### Primary Analysis
    • [PRIMARY_STATISTICAL_TEST]: To test [PRIMARY_HYPOTHESIS]
    • [Effect size estimation]: [EFFECT_SIZE_MEASURES]
    • [Multiple comparisons]: [CORRECTION_METHOD]
    
-   Secondary Analysis:
+### Secondary Analysis
    • [SECONDARY_ANALYSIS_1]: [Purpose and methods]
    • [SECONDARY_ANALYSIS_2]: [Exploratory procedures]
    • [Subgroup analysis]: [SUBGROUP_STRATEGY]
    
-   Qualitative Analysis:
+### Qualitative Analysis
    • [QUALITATIVE_METHODOLOGY]: [Thematic/Content/Narrative analysis]
    • [Coding procedures]: [CODING_APPROACH]
    • [Trustworthiness strategies]: [TRUSTWORTHINESS_METHODS]
    
-   Mixed Methods Integration:
+### Mixed Methods Integration
    • [INTEGRATION_DESIGN]: [Convergent/Sequential/Embedded]
    • [Integration procedures]: [MIXING_METHODS]
    • [Meta-inferences]: [HIGHER_ORDER_INTERPRETATIONS]
 
 5. RESEARCH TEAM & COLLABORATION
    
-   Principal Investigator:
+### Principal Investigator
    [PI_NAME], [PI_TITLE]
    • [PI_INSTITUTION], [PI_DEPARTMENT]
    • Expertise: [PI_EXPERTISE_AREAS]
@@ -289,7 +289,7 @@ Generate a comprehensive grant proposal:
    • Contribution: [CO_I_2_CONTRIBUTION]
    • Effort: [CO_I_2_EFFORT]%
    
-   Key Personnel:
+### Key Personnel
    
    [KEY_PERSON_1_ROLE]: [KEY_PERSON_1_NAME]
    • Qualifications: [KEY_PERSON_1_QUALIFICATIONS]
@@ -299,12 +299,12 @@ Generate a comprehensive grant proposal:
    • Qualifications: [KEY_PERSON_2_QUALIFICATIONS]
    • Responsibilities: [KEY_PERSON_2_RESPONSIBILITIES]
    
-   Consultants & Advisory Board:
+### Consultants & Advisory Board
    • [CONSULTANT_1]: [CONSULTANT_1_EXPERTISE] - [CONSULTANT_1_ROLE]
    • [CONSULTANT_2]: [CONSULTANT_2_EXPERTISE] - [CONSULTANT_2_ROLE]
    • [ADVISORY_BOARD]: [ADVISORY_BOARD_COMPOSITION]
    
-   Collaborative Partnerships:
+### Collaborative Partnerships
    
    Institution 1: [PARTNER_INSTITUTION_1]
    • Contact: [PARTNER_CONTACT_1]
@@ -316,7 +316,7 @@ Generate a comprehensive grant proposal:
    • Contribution: [PARTNER_CONTRIBUTION_2]
    • Resources: [PARTNER_RESOURCES_2]
    
-   Team Management:
+### Team Management
    • [COMMUNICATION_PLAN]: [Meeting schedule and structure]
    • [COORDINATION_MECHANISMS]: [Project management approach]
    • [CONFLICT_RESOLUTION]: [Procedures for addressing disagreements]
@@ -324,7 +324,7 @@ Generate a comprehensive grant proposal:
 
 6. PROJECT TIMELINE & MILESTONES
    
-   Project Overview:
+### Project Overview
    • Project Start: [PROJECT_START_DATE]
    • Project End: [PROJECT_END_DATE]
    • Total Duration: [TOTAL_PROJECT_MONTHS] months
@@ -332,61 +332,61 @@ Generate a comprehensive grant proposal:
    Phase 1: Preparation & Setup ([PHASE_1_DURATION])
    
    Months [PHASE_1_START_MONTH]-[PHASE_1_END_MONTH]:
-   Major Activities:
+### Major Activities
    • [PHASE_1_ACTIVITY_1]: [Activity description and timeline]
    • [PHASE_1_ACTIVITY_2]: [Resource requirements]
    • [PHASE_1_ACTIVITY_3]: [Responsible team members]
    
-   Milestones:
+### Milestones
    • [PHASE_1_MILESTONE_1]: Month [MILESTONE_1_MONTH]
    • [PHASE_1_MILESTONE_2]: Month [MILESTONE_2_MONTH]
    
-   Deliverables:
+### Deliverables
    • [PHASE_1_DELIVERABLE_1]: [Deliverable description]
    • [PHASE_1_DELIVERABLE_2]: [Success criteria]
    
    Phase 2: Data Collection ([PHASE_2_DURATION])
    
    Months [PHASE_2_START_MONTH]-[PHASE_2_END_MONTH]:
-   Major Activities:
+### Major Activities
    • [PHASE_2_ACTIVITY_1]: [Detailed procedures]
    • [PHASE_2_ACTIVITY_2]: [Quality control measures]
    • [PHASE_2_ACTIVITY_3]: [Data management protocols]
    
-   Milestones:
+### Milestones
    • [PHASE_2_MILESTONE_1]: Month [MILESTONE_3_MONTH]
    • [PHASE_2_MILESTONE_2]: Month [MILESTONE_4_MONTH]
    
-   Deliverables:
+### Deliverables
    • [PHASE_2_DELIVERABLE_1]: [Data collection completion]
    • [PHASE_2_DELIVERABLE_2]: [Interim progress report]
    
    Phase 3: Data Analysis ([PHASE_3_DURATION])
    
    Months [PHASE_3_START_MONTH]-[PHASE_3_END_MONTH]:
-   Major Activities:
+### Major Activities
    • [PHASE_3_ACTIVITY_1]: [Analysis procedures]
    • [PHASE_3_ACTIVITY_2]: [Statistical/qualitative analysis]
    • [PHASE_3_ACTIVITY_3]: [Results interpretation]
    
-   Milestones:
+### Milestones
    • [PHASE_3_MILESTONE_1]: Month [MILESTONE_5_MONTH]
    • [PHASE_3_MILESTONE_2]: Month [MILESTONE_6_MONTH]
    
    Phase 4: Dissemination & Impact ([PHASE_4_DURATION])
    
    Months [PHASE_4_START_MONTH]-[PHASE_4_END_MONTH]:
-   Major Activities:
+### Major Activities
    • [PHASE_4_ACTIVITY_1]: [Publication preparation]
    • [PHASE_4_ACTIVITY_2]: [Conference presentations]
    • [PHASE_4_ACTIVITY_3]: [Knowledge translation]
    
-   Final Deliverables:
+### Final Deliverables
    • [FINAL_DELIVERABLE_1]: [Final report]
    • [FINAL_DELIVERABLE_2]: [Peer-reviewed publications]
    • [FINAL_DELIVERABLE_3]: [Policy briefs or practice tools]
    
-   Risk Management:
+### Risk Management
    
    Risk 1: [PROJECT_RISK_1]
    • Probability: [RISK_1_PROBABILITY]
@@ -398,13 +398,13 @@ Generate a comprehensive grant proposal:
    • Impact: [RISK_2_IMPACT]
    • Mitigation: [RISK_2_MITIGATION]
    
-   Contingency Plans:
+### Contingency Plans
    • [CONTINGENCY_1]: [Alternative approach 1]
    • [CONTINGENCY_2]: [Alternative approach 2]
 
 7. BUDGET & BUDGET JUSTIFICATION
    
-   Budget Summary:
+### Budget Summary
    
    Total Project Cost: $[TOTAL_PROJECT_COST]
    
@@ -412,7 +412,7 @@ Generate a comprehensive grant proposal:
    Year 2: $[YEAR_2_BUDGET]
    Year 3: $[YEAR_3_BUDGET] (if applicable)
    
-   Cost Category Breakdown:
+### Cost Category Breakdown
    
    A. Personnel Costs: $[TOTAL_PERSONNEL] ([PERSONNEL_PERCENTAGE]%)
    
@@ -431,7 +431,7 @@ Generate a comprehensive grant proposal:
    • [STAFF_POSITION_2]: $[STAFF_2_COST] ([STAFF_2_JUSTIFICATION])
    • [STAFF_POSITION_3]: $[STAFF_3_COST] ([STAFF_3_JUSTIFICATION])
    
-   Personnel Justification:
+### Personnel Justification
    • [PI_JUSTIFICATION]: Role and necessity
    • [CO_I_JUSTIFICATION]: Specialized expertise required
    • [STAFF_JUSTIFICATION]: Specific skills and responsibilities
@@ -452,7 +452,7 @@ Generate a comprehensive grant proposal:
    • [SUPPLY_CATEGORY_2]: $[SUPPLY_2_COST]
    • [SUPPLY_CATEGORY_3]: $[SUPPLY_3_COST]
    
-   Supplies Justification:
+### Supplies Justification
    • [SUPPLIES_JUSTIFICATION]: Necessity and cost-effectiveness
    
    D. Travel: $[TOTAL_TRAVEL] ([TRAVEL_PERCENTAGE]%)
@@ -461,7 +461,7 @@ Generate a comprehensive grant proposal:
    • Conference presentations: $[CONFERENCE_TRAVEL]
    • Collaboration meetings: $[COLLABORATION_TRAVEL]
    
-   Travel Justification:
+### Travel Justification
    • [TRAVEL_JUSTIFICATION]: Essential travel requirements
    
    E. Other Direct Costs: $[TOTAL_OTHER_DIRECT] ([OTHER_DIRECT_PERCENTAGE]%)
@@ -480,16 +480,16 @@ Generate a comprehensive grant proposal:
    • [COST_SHARE_SOURCE_1]: $[COST_SHARE_1] ([COST_SHARE_1_TYPE])
    • [COST_SHARE_SOURCE_2]: $[COST_SHARE_2] ([COST_SHARE_2_TYPE])
    
-   Budget Narrative:
+### Budget Narrative
    • [BUDGET_EFFICIENCY]: Cost-effectiveness measures
    • [BUDGET_REASONABLENESS]: Market rate comparisons
    • [BUDGET_NECESSITY]: Essential vs. desirable items
 
 8. IMPACT & BROADER IMPACTS
    
-   Research Impact:
+### Research Impact
    
-   Scientific Impact:
+### Scientific Impact
    Immediate Impact (Years 1-2):
    • [SCIENTIFIC_IMPACT_1]: [Knowledge advancement]
    • [SCIENTIFIC_IMPACT_2]: [Methodological contribution]
@@ -505,50 +505,50 @@ Generate a comprehensive grant proposal:
    • [SCIENTIFIC_IMPACT_8]: [New research directions]
    • [SCIENTIFIC_IMPACT_9]: [International recognition]
    
-   Societal Impact:
+### Societal Impact
    
-   Policy Impact:
+### Policy Impact
    • [POLICY_IMPACT_1]: [Evidence for policy development]
    • [POLICY_IMPACT_2]: [Regulatory implications]
    • [POLICY_IMPACT_3]: [Public health/safety improvements]
    
-   Practice Impact:
+### Practice Impact
    • [PRACTICE_IMPACT_1]: [Clinical/professional practice changes]
    • [PRACTICE_IMPACT_2]: [Tool/intervention development]
    • [PRACTICE_IMPACT_3]: [Training and education improvements]
    
-   Economic Impact:
+### Economic Impact
    • [ECONOMIC_IMPACT_1]: [Cost savings or efficiency gains]
    • [ECONOMIC_IMPACT_2]: [Industry applications]
    • [ECONOMIC_IMPACT_3]: [Job creation or workforce development]
    
-   Broader Impacts:
+### Broader Impacts
    
-   Education & Training:
+### Education & Training
    • [EDUCATION_IMPACT_1]: [Student training opportunities]
    • [EDUCATION_IMPACT_2]: [Curriculum development]
    • [EDUCATION_IMPACT_3]: [Public education initiatives]
    
-   Diversity & Inclusion:
+### Diversity & Inclusion
    • [DIVERSITY_IMPACT_1]: [Underrepresented group involvement]
    • [DIVERSITY_IMPACT_2]: [Inclusive research practices]
    • [DIVERSITY_IMPACT_3]: [Equity considerations in findings]
    
-   Infrastructure Development:
+### Infrastructure Development
    • [INFRASTRUCTURE_1]: [Research capacity building]
    • [INFRASTRUCTURE_2]: [Resource sharing]
    • [INFRASTRUCTURE_3]: [Partnership development]
    
-   Global Impact:
+### Global Impact
    • [GLOBAL_IMPACT_1]: [International collaboration]
    • [GLOBAL_IMPACT_2]: [Cross-cultural applications]
    • [GLOBAL_IMPACT_3]: [Global health/development contributions]
 
 9. DISSEMINATION & KNOWLEDGE TRANSLATION
    
-   Academic Dissemination:
+### Academic Dissemination
    
-   Publications:
+### Publications
    Year 1-2:
    • [PUBLICATION_1]: [Target journal, timeline, lead author]
    • [PUBLICATION_2]: [Manuscript focus and co-authors]
@@ -557,127 +557,127 @@ Generate a comprehensive grant proposal:
    • [PUBLICATION_3]: [Special issue or themed publication]
    • [PUBLICATION_4]: [Review or commentary piece]
    
-   Conference Presentations:
+### Conference Presentations
    • [CONFERENCE_1]: [Presentation type, timeline]
    • [CONFERENCE_2]: [International venue, networking opportunities]
    • [CONFERENCE_3]: [Specialized or interdisciplinary meeting]
    
    Non-Academic Dissemination:
    
-   Policy Briefs:
+### Policy Briefs
    • [POLICY_BRIEF_1]: [Target audience, key messages]
    • [POLICY_BRIEF_2]: [Distribution strategy, timing]
    
-   Practice Guidelines:
+### Practice Guidelines
    • [GUIDELINE_1]: [Professional organization collaboration]
    • [GUIDELINE_2]: [Implementation support tools]
    
-   Public Engagement:
+### Public Engagement
    • [PUBLIC_ENGAGEMENT_1]: [Media strategy, key outlets]
    • [PUBLIC_ENGAGEMENT_2]: [Community presentations]
    • [PUBLIC_ENGAGEMENT_3]: [Social media and digital platforms]
    
-   Knowledge Translation Activities:
+### Knowledge Translation Activities
    
-   Stakeholder Engagement:
+### Stakeholder Engagement
    • [STAKEHOLDER_ACTIVITY_1]: [Advisory board meetings]
    • [STAKEHOLDER_ACTIVITY_2]: [User feedback sessions]
    • [STAKEHOLDER_ACTIVITY_3]: [Implementation planning]
    
-   Capacity Building:
+### Capacity Building
    • [CAPACITY_BUILDING_1]: [Training workshops]
    • [CAPACITY_BUILDING_2]: [Resource development]
    • [CAPACITY_BUILDING_3]: [Mentorship programs]
    
-   Partnership Development:
+### Partnership Development
    • [PARTNERSHIP_1]: [Collaboration expansion]
    • [PARTNERSHIP_2]: [International networking]
    • [PARTNERSHIP_3]: [Cross-sector partnerships]
    
-   Evaluation of Dissemination:
+### Evaluation of Dissemination
    
-   Metrics and Indicators:
+### Metrics and Indicators
    • [DISSEMINATION_METRIC_1]: [Publication citations and impact]
    • [DISSEMINATION_METRIC_2]: [Media coverage and reach]
    • [DISSEMINATION_METRIC_3]: [Policy uptake and implementation]
    
-   Monitoring and Assessment:
+### Monitoring and Assessment
    • [MONITORING_APPROACH_1]: [Tracking methods]
    • [MONITORING_APPROACH_2]: [Feedback collection]
    • [MONITORING_APPROACH_3]: [Impact evaluation]
 
 10. ETHICS & REGULATORY COMPLIANCE
     
-    Ethical Framework:
+### Ethical Framework
     • [ETHICAL_PRINCIPLES]: Guiding ethical principles
     • [ETHICAL_GUIDELINES]: Professional guidelines followed
     • [ETHICAL_TRAINING]: Team training requirements
     
-    Human Subjects Protection:
+### Human Subjects Protection
     
-    IRB Approval:
+### IRB Approval
     • [IRB_STATUS]: Current approval status
     • [IRB_INSTITUTION]: Reviewing institution
     • [IRB_APPROVAL_TIMELINE]: Expected approval date
     
-    Risk Assessment:
+### Risk Assessment
     • [RISK_LEVEL]: Minimal/More than minimal risk
     • [RISK_MITIGATION]: Risk reduction strategies
     • [ADVERSE_EVENT_PROCEDURES]: Reporting procedures
     
-    Informed Consent:
+### Informed Consent
     • [CONSENT_PROCESS]: Consent procedures
     • [CONSENT_DOCUMENTATION]: Documentation requirements
     • [SPECIAL_POPULATIONS]: Additional protections
     
-    Data Protection:
+### Data Protection
     • [DATA_SECURITY]: Security measures
     • [CONFIDENTIALITY]: Confidentiality protections
     • [DATA_SHARING]: Sharing agreements and restrictions
     
-    Regulatory Compliance:
+### Regulatory Compliance
     • [REGULATORY_REQUIREMENTS]: Applicable regulations
     • [COMPLIANCE_MONITORING]: Monitoring procedures
     • [REPORTING_OBLIGATIONS]: Reporting requirements
     
-    Cultural and Social Considerations:
+### Cultural and Social Considerations
     • [CULTURAL_SENSITIVITY]: Culturally appropriate methods
     • [COMMUNITY_ENGAGEMENT]: Community involvement
     • [BENEFIT_SHARING]: Benefit-sharing arrangements
 
 11. INSTITUTIONAL SUPPORT & RESOURCES
     
-    Institutional Commitment:
+### Institutional Commitment
     
     [INSTITUTION_NAME] Support:
     • [INSTITUTIONAL_SUPPORT_1]: Financial or in-kind support
     • [INSTITUTIONAL_SUPPORT_2]: Infrastructure access
     • [INSTITUTIONAL_SUPPORT_3]: Administrative support
     
-    Facilities and Equipment:
+### Facilities and Equipment
     • [FACILITY_1]: [Description and capabilities]
     • [FACILITY_2]: [Access arrangements and costs]
     • [EXISTING_EQUIPMENT]: [Available resources]
     
-    Administrative Support:
+### Administrative Support
     • [ADMIN_SUPPORT_1]: Research administration
     • [ADMIN_SUPPORT_2]: Financial management
     • [ADMIN_SUPPORT_3]: Compliance support
     
-    Collaborative Resources:
+### Collaborative Resources
     
-    Partner Contributions:
+### Partner Contributions
     • [PARTNER_RESOURCE_1]: [Description and value]
     • [PARTNER_RESOURCE_2]: [Access and agreements]
     • [PARTNER_RESOURCE_3]: [Expertise and personnel]
     
-    External Resources:
+### External Resources
     • [EXTERNAL_RESOURCE_1]: [Resource access arrangements]
     • [EXTERNAL_RESOURCE_2]: [Cost and availability]
 
 12. EVALUATION & SUCCESS METRICS
     
-    Success Indicators:
+### Success Indicators
     
     Short-term Success (Year 1):
     • [SHORT_TERM_METRIC_1]: [Target and measurement]
@@ -694,13 +694,13 @@ Generate a comprehensive grant proposal:
     • [LONG_TERM_METRIC_2]: [Field influence indicators]
     • [LONG_TERM_METRIC_3]: [Legacy and continuation measures]
     
-    Evaluation Framework:
+### Evaluation Framework
     • [EVALUATION_DESIGN]: Evaluation methodology
     • [DATA_COLLECTION_EVALUATION]: Evaluation data collection
     • [EVALUATION_TIMELINE]: Evaluation schedule
     • [EVALUATION_REPORTING]: Reporting and feedback
 
-Ensure the grant proposal is:
+### Ensure the grant proposal is
 - Compelling and persuasive
 - Aligned with funder priorities
 - Methodologically rigorous

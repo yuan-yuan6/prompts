@@ -355,7 +355,7 @@ API Documentation Requirements:
 - Detail all /customers, /orders, /payments endpoints with GET/POST/PUT/DELETE methods
 - Provide query parameters, Authorization headers, response body specifications
 
-Examples and Code Samples:
+### Examples and Code Samples
 - Provide curl basic examples and SDK advanced examples
 - Include webhook integration examples and timeout error handling examples
 - Add JWT authentication examples and unit testing examples
@@ -597,7 +597,7 @@ Architecture Documentation:
 - Include Kubernetes deployment architecture and horizontal pod autoscaling design
 - Specify <200ms response performance characteristics and 99.9% uptime reliability measures
 
-Operations Manual:
+### Operations Manual
 - Cover Prometheus/Grafana system monitoring and /health health checks
 - Document automated backup procedures and disaster recovery procedures
 - Include database maintenance tasks and cluster scaling procedures
