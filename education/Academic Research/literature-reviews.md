@@ -1,3 +1,17 @@
+---
+title: Literature Reviews Template Generator
+category: education/Academic Research
+tags: [communication, data-science, education, research, strategy, template, testing]
+use_cases:
+  - Implementing create comprehensive literature reviews covering systematic reviews, narrative r...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - curriculum-development.md
+  - curriculum-development-framework.md
+last_updated: 2025-11-09
+---
+
 # Literature Reviews Template Generator
 
 ## Purpose
@@ -18,7 +32,7 @@ Research Context:
 - Methodological Preference: [RESEARCH_METHODOLOGY]
 - Geographic Scope: [REGIONAL_FOCUS]
 
-Review Specifications:
+### Review Specifications
 - Review Type: [REVIEW_METHODOLOGY]
 - Review Purpose: [RESEARCH_OBJECTIVE]
 - Target Audience: [PRIMARY_READERSHIP]
@@ -28,7 +42,7 @@ Review Specifications:
 - Resource Limitations: [AVAILABLE_RESOURCES]
 - Quality Standards: [METHODOLOGICAL_RIGOR]
 
-Research Questions:
+### Research Questions
 - Primary Question: [MAIN_RESEARCH_QUESTION]
 - Secondary Questions: [SUPPORTING_QUESTIONS]
 - Sub-Questions: [SPECIFIC_INQUIRIES]
@@ -38,7 +52,7 @@ Research Questions:
 - Policy Implications: [PRACTICE_RELEVANCE]
 - Future Directions: [RESEARCH_GAPS]
 
-Search Strategy:
+### Search Strategy
 - Primary Keywords: [MAIN_SEARCH_TERMS]
 - Secondary Keywords: [SUPPORTING_TERMS]
 - Boolean Operators: [SEARCH_LOGIC]
@@ -48,7 +62,7 @@ Search Strategy:
 - Search Filters: [LIMITING_CRITERIA]
 - Citation Tracking: [REFERENCE_FOLLOWING]
 
-Database Coverage:
+### Database Coverage
 - Academic Databases: [SCHOLARLY_DATABASES]
 - Professional Databases: [PRACTICE_DATABASES]
 - Government Sources: [OFFICIAL_REPOSITORIES]
@@ -58,7 +72,7 @@ Database Coverage:
 - Preprint Servers: [PRELIMINARY_RESEARCH]
 - Conference Proceedings: [PRESENTATION_SOURCES]
 
-Inclusion Criteria:
+### Inclusion Criteria
 - Publication Types: [ACCEPTABLE_FORMATS]
 - Study Designs: [RESEARCH_METHODOLOGIES]
 - Population Characteristics: [PARTICIPANT_CRITERIA]
@@ -68,7 +82,7 @@ Inclusion Criteria:
 - Language Requirements: [LINGUISTIC_SCOPE]
 - Geographic Boundaries: [REGIONAL_LIMITATIONS]
 
-Exclusion Criteria:
+### Exclusion Criteria
 - Publication Restrictions: [EXCLUDED_FORMATS]
 - Methodological Limitations: [REJECTED_DESIGNS]
 - Population Exclusions: [INAPPROPRIATE_SAMPLES]
@@ -1452,7 +1466,7 @@ Generate a comprehensive literature review that includes:
 - Project timeline and milestone tracking system
 - Resource allocation and budget management framework
 
-Ensure the literature review is:
+### Ensure the literature review is
 - Methodologically rigorous and systematically conducted
 - Comprehensive in scope and thorough in analysis
 - Critically evaluative and objectively assessed
@@ -1523,6 +1537,33 @@ Ensure the literature review is:
 
 ## Usage Examples
 
+
+
+## Best Practices
+
+1. **Start with clear objectives** - Define what success looks like before beginning
+2. **Use data to inform decisions** - Base choices on evidence and measurable outcomes
+3. **Iterate and improve continuously** - Treat implementation as an ongoing process
+4. **Engage stakeholders early** - Include key participants in planning and execution
+5. **Document thoroughly** - Maintain clear records for reference and knowledge transfer
+6. **Communicate regularly** - Keep all parties informed of progress and changes
+7. **Address challenges proactively** - Identify potential issues before they become problems
+8. **Celebrate milestones** - Recognize achievements to maintain motivation
+9. **Learn from experience** - Reflect on what works and adjust accordingly
+10. **Stay flexible** - Be ready to adapt based on feedback and changing circumstances
+
+## Tips for Success
+
+- Break complex tasks into manageable steps with clear milestones
+- Set realistic timelines that account for dependencies and constraints
+- Allocate sufficient resources including time, budget, and personnel
+- Use templates and frameworks to ensure consistency and quality
+- Seek feedback from users and stakeholders throughout the process
+- Build in checkpoints to assess progress and make adjustments
+- Maintain quality standards while remaining practical and efficient
+- Document lessons learned for future reference and improvement
+- Foster collaboration across teams and departments
+- Stay current with industry best practices and emerging trends
 ### Example 1: Healthcare Systematic Review
 "Conduct a comprehensive systematic review on the effectiveness of telemedicine interventions for chronic disease management. Focus on randomized controlled trials published in the last 10 years, examining patient outcomes, cost-effectiveness, and implementation barriers across diverse healthcare settings."
 
@@ -1547,18 +1588,18 @@ Ensure the literature review is:
    • [Secondary objectives]
    • [Review methodology type]
    
-   Methods:
+### Methods
    • [Search strategy summary]
    • [Selection criteria]
    • [Analysis approach]
    • [Quality assessment method]
    
-   Results:
+### Results
    • [Number of studies identified]
    • [Key findings summary]
    • [Evidence synthesis results]
    
-   Conclusions:
+### Conclusions
    • [Main conclusions]
    • [Implications for practice]
    • [Future research directions]
@@ -1567,58 +1608,58 @@ Ensure the literature review is:
 
 2. INTRODUCTION & BACKGROUND
    
-   Research Context:
+### Research Context
    • [Field overview and current state]
    • [Historical development of the topic]
    • [Theoretical foundations]
    • [Interdisciplinary connections]
    
-   Problem Statement:
+### Problem Statement
    • [Research problem definition]
    • [Evidence of need for review]
    • [Gaps in existing knowledge]
    • [Conflicting findings in literature]
    
-   Rationale for Review:
+### Rationale for Review
    • [Justification for review type]
    • [Expected contribution to field]
    • [Policy or practice implications]
    • [Methodological advancement]
    
-   Review Objectives:
-   Primary Objectives:
+### Review Objectives
+### Primary Objectives
    • [Main research question(s)]
    • [Hypothesis to be tested]
    • [Primary outcomes of interest]
    
-   Secondary Objectives:
+### Secondary Objectives
    • [Sub-questions to address]
    • [Exploratory analyses planned]
    • [Additional outcomes examined]
 
 3. METHODOLOGY
    
-   Review Protocol:
+### Review Protocol
    • [Protocol registration details]
    • [Review guidelines followed (PRISMA, etc.)]
    • [Ethical considerations]
    • [Protocol deviations]
    
-   Search Strategy:
-   Database Sources:
+### Search Strategy
+### Database Sources
    • [PRIMARY_DATABASE]: [Search terms and limits]
    • [SECONDARY_DATABASE]: [Search terms and limits]
    • [TERTIARY_DATABASE]: [Search terms and limits]
    • [GREY_LITERATURE_SOURCES]: [Search approach]
    
-   Search Terms:
+### Search Terms
    Concept 1: [CONCEPT_1_TERMS]
    Concept 2: [CONCEPT_2_TERMS]
    Concept 3: [CONCEPT_3_TERMS]
    Boolean Logic: [SEARCH_COMBINATION_STRATEGY]
    
-   Selection Criteria:
-   Inclusion Criteria:
+### Selection Criteria
+### Inclusion Criteria
    • Study design: [INCLUDED_DESIGNS]
    • Population: [TARGET_PARTICIPANTS]
    • Intervention/Exposure: [INTERVENTIONS_EXPOSURES]
@@ -1629,34 +1670,34 @@ Ensure the literature review is:
    • Language: [LANGUAGE_CRITERIA]
    • Time period: [DATE_LIMITS]
    
-   Exclusion Criteria:
+### Exclusion Criteria
    • [SPECIFIC_EXCLUSIONS]
    • [QUALITY_EXCLUSIONS]
    • [POPULATION_EXCLUSIONS]
    • [DESIGN_EXCLUSIONS]
    
-   Study Selection Process:
+### Study Selection Process
    • [SCREENING_STAGES]
    • [REVIEWER_ASSIGNMENTS]
    • [CONSENSUS_PROCEDURES]
    • [DISAGREEMENT_RESOLUTION]
    
-   Data Extraction:
-   Extraction Framework:
+### Data Extraction
+### Extraction Framework
    • Study characteristics: [STUDY_VARIABLES]
    • Participant characteristics: [PARTICIPANT_VARIABLES]
    • Intervention details: [INTERVENTION_VARIABLES]
    • Outcome measures: [OUTCOME_VARIABLES]
    • Results data: [STATISTICAL_DATA]
    
-   Quality Assessment:
-   Assessment Tools:
+### Quality Assessment
+### Assessment Tools
    • [QUALITY_TOOL_1]: For [STUDY_TYPE_1]
    • [QUALITY_TOOL_2]: For [STUDY_TYPE_2]
    • [BIAS_ASSESSMENT_METHOD]
    • [CERTAINTY_ASSESSMENT_APPROACH]
    
-   Quality Domains:
+### Quality Domains
    • [SELECTION_BIAS_CRITERIA]
    • [PERFORMANCE_BIAS_CRITERIA]
    • [DETECTION_BIAS_CRITERIA]
@@ -1665,7 +1706,7 @@ Ensure the literature review is:
 
 4. SEARCH RESULTS & STUDY SELECTION
    
-   Search Results Summary:
+### Search Results Summary
    • Total records identified: [TOTAL_RECORDS]
    • Records after duplicates removed: [UNIQUE_RECORDS]
    • Records screened: [SCREENED_RECORDS]
@@ -1673,29 +1714,29 @@ Ensure the literature review is:
    • Studies included in qualitative synthesis: [QUALITATIVE_INCLUDED]
    • Studies included in quantitative synthesis: [QUANTITATIVE_INCLUDED]
    
-   PRISMA Flow Diagram:
+### PRISMA Flow Diagram
    [Include detailed flow chart showing study selection process]
    
-   Excluded Studies:
+### Excluded Studies
    • [EXCLUSION_REASON_1]: [NUMBER] studies
    • [EXCLUSION_REASON_2]: [NUMBER] studies
    • [EXCLUSION_REASON_3]: [NUMBER] studies
    
-   Notable Exclusions:
+### Notable Exclusions
    • [KEY_EXCLUDED_STUDY_1]: [Reason for exclusion]
    • [KEY_EXCLUDED_STUDY_2]: [Reason for exclusion]
 
 5. STUDY CHARACTERISTICS
    
-   Overview of Included Studies:
+### Overview of Included Studies
    • Study designs: [DESIGN_DISTRIBUTION]
    • Publication years: [YEAR_RANGE] to [YEAR_RANGE]
    • Geographic distribution: [COUNTRY_DISTRIBUTION]
    • Sample sizes: Range [MIN_SIZE] to [MAX_SIZE]
    • Total participants: [TOTAL_PARTICIPANTS]
    
-   Population Characteristics:
-   Demographics:
+### Population Characteristics
+### Demographics
    • Age range: [AGE_DISTRIBUTION]
    • Gender distribution: [GENDER_BREAKDOWN]
    • Setting: [SETTING_TYPES]
@@ -1708,61 +1749,61 @@ Ensure the literature review is:
    • Intensity: [INTENSITY_VARIATIONS]
    • Follow-up periods: [FOLLOWUP_RANGE]
    
-   Outcome Measurement:
-   Primary Outcomes:
+### Outcome Measurement
+### Primary Outcomes
    • [PRIMARY_OUTCOME_1]: [MEASUREMENT_METHODS]
    • [PRIMARY_OUTCOME_2]: [MEASUREMENT_METHODS]
    
-   Secondary Outcomes:
+### Secondary Outcomes
    • [SECONDARY_OUTCOME_1]: [MEASUREMENT_METHODS]
    • [SECONDARY_OUTCOME_2]: [MEASUREMENT_METHODS]
 
 6. QUALITY ASSESSMENT RESULTS
    
-   Overall Quality Summary:
+### Overall Quality Summary
    • High quality: [NUMBER] studies ([PERCENTAGE]%)
    • Moderate quality: [NUMBER] studies ([PERCENTAGE]%)
    • Low quality: [NUMBER] studies ([PERCENTAGE]%)
    
-   Risk of Bias Assessment:
-   Selection Bias:
+### Risk of Bias Assessment
+### Selection Bias
    • Low risk: [NUMBER] studies
    • Unclear risk: [NUMBER] studies
    • High risk: [NUMBER] studies
    
-   Performance Bias:
+### Performance Bias
    • Low risk: [NUMBER] studies
    • Unclear risk: [NUMBER] studies
    • High risk: [NUMBER] studies
    
-   Detection Bias:
+### Detection Bias
    • Low risk: [NUMBER] studies
    • Unclear risk: [NUMBER] studies
    • High risk: [NUMBER] studies
    
-   Attrition Bias:
+### Attrition Bias
    • Low risk: [NUMBER] studies
    • Unclear risk: [NUMBER] studies
    • High risk: [NUMBER] studies
    
-   Quality Concerns:
+### Quality Concerns
    • [MAJOR_QUALITY_ISSUE_1]
    • [MAJOR_QUALITY_ISSUE_2]
    • [METHODOLOGICAL_LIMITATIONS]
 
 7. RESULTS & FINDINGS
    
-   Primary Analysis Results:
+### Primary Analysis Results
    [PRIMARY_RESEARCH_QUESTION]:
    
-   Quantitative Synthesis:
+### Quantitative Synthesis
    • Effect size: [EFFECT_SIZE] ([CONFIDENCE_INTERVAL])
    • Heterogeneity: I² = [HETEROGENEITY_STATISTIC]%
    • Statistical significance: p = [P_VALUE]
    • Number of studies: [N_STUDIES]
    • Total participants: [N_PARTICIPANTS]
    
-   Subgroup Analyses:
+### Subgroup Analyses
    [SUBGROUP_1]:
    • Effect size: [SUBGROUP_EFFECT_1]
    • Heterogeneity: [SUBGROUP_HETEROGENEITY_1]
@@ -1771,8 +1812,8 @@ Ensure the literature review is:
    • Effect size: [SUBGROUP_EFFECT_2]
    • Heterogeneity: [SUBGROUP_HETEROGENEITY_2]
    
-   Qualitative Synthesis:
-   Thematic Analysis Results:
+### Qualitative Synthesis
+### Thematic Analysis Results
    
    Theme 1: [MAJOR_THEME_1]
    • Subtheme 1a: [SUBTHEME_1A]
@@ -1784,7 +1825,7 @@ Ensure the literature review is:
    • Subtheme 2b: [SUBTHEME_2B]
    • Supporting evidence: [N] studies
    
-   Secondary Analysis Results:
+### Secondary Analysis Results
    [SECONDARY_QUESTION_1]:
    • Key finding: [SECONDARY_FINDING_1]
    • Evidence strength: [EVIDENCE_LEVEL_1]
@@ -1795,94 +1836,94 @@ Ensure the literature review is:
 
 8. EVIDENCE SYNTHESIS & INTEGRATION
    
-   Convergent Evidence:
+### Convergent Evidence
    • [CONSISTENT_FINDING_1]
    • [CONSISTENT_FINDING_2]
    • [CONSISTENT_FINDING_3]
    
-   Divergent Evidence:
+### Divergent Evidence
    • [CONFLICTING_FINDING_1]: [Explanation]
    • [CONFLICTING_FINDING_2]: [Explanation]
    
-   Evidence Gaps:
+### Evidence Gaps
    • [RESEARCH_GAP_1]
    • [RESEARCH_GAP_2]
    • [METHODOLOGICAL_GAP_1]
    
-   Certainty of Evidence:
+### Certainty of Evidence
    [OUTCOME_1]: [CERTAINTY_LEVEL] certainty
    • Rationale: [CERTAINTY_JUSTIFICATION_1]
    
    [OUTCOME_2]: [CERTAINTY_LEVEL] certainty
    • Rationale: [CERTAINTY_JUSTIFICATION_2]
    
-   Publication Bias Assessment:
+### Publication Bias Assessment
    • Funnel plot analysis: [PUBLICATION_BIAS_FINDING]
    • Statistical tests: [EGGER_TEST_RESULT]
    • Small study effects: [SMALL_STUDY_EFFECTS]
 
 9. DISCUSSION
    
-   Summary of Main Findings:
+### Summary of Main Findings
    • [KEY_FINDING_1_SUMMARY]
    • [KEY_FINDING_2_SUMMARY]
    • [KEY_FINDING_3_SUMMARY]
    
-   Comparison with Previous Reviews:
+### Comparison with Previous Reviews
    • [PREVIOUS_REVIEW_1]: [COMPARISON_POINTS]
    • [PREVIOUS_REVIEW_2]: [COMPARISON_POINTS]
    • Novel contributions: [NEW_INSIGHTS]
    
-   Theoretical Implications:
+### Theoretical Implications
    • [THEORETICAL_FRAMEWORK] support/challenge
    • [THEORETICAL_ADVANCEMENT]
    • [CONCEPTUAL_MODEL_REFINEMENT]
    
-   Practical Implications:
-   Clinical Practice:
+### Practical Implications
+### Clinical Practice
    • [CLINICAL_RECOMMENDATION_1]
    • [CLINICAL_RECOMMENDATION_2]
    • [IMPLEMENTATION_CONSIDERATIONS]
    
-   Policy Implications:
+### Policy Implications
    • [POLICY_RECOMMENDATION_1]
    • [POLICY_RECOMMENDATION_2]
    • [REGULATORY_CONSIDERATIONS]
    
-   Strengths and Limitations:
-   Strengths:
+### Strengths and Limitations
+### Strengths
    • [METHODOLOGICAL_STRENGTH_1]
    • [METHODOLOGICAL_STRENGTH_2]
    • [EVIDENCE_BASE_STRENGTH]
    
-   Limitations:
+### Limitations
    • [METHODOLOGICAL_LIMITATION_1]
    • [EVIDENCE_LIMITATION_1]
    • [GENERALIZABILITY_LIMITATION]
 
 10. CONCLUSIONS
     
-    Main Conclusions:
+### Main Conclusions
     • [PRIMARY_CONCLUSION]
     • [SECONDARY_CONCLUSION]
     • [CLINICAL_BOTTOM_LINE]
     
     Evidence-Based Recommendations:
-    Strong Recommendations:
+### Strong Recommendations
     • [STRONG_RECOMMENDATION_1] (High certainty evidence)
     • [STRONG_RECOMMENDATION_2] (High certainty evidence)
     
-    Conditional Recommendations:
+### Conditional Recommendations
     • [CONDITIONAL_RECOMMENDATION_1] (Moderate certainty evidence)
     • [CONDITIONAL_RECOMMENDATION_2] (Low certainty evidence)
     
-    Areas Requiring Further Research:
-    Priority Research Questions:
+### Areas Requiring Further Research
+### Priority Research Questions
     • [FUTURE_RESEARCH_1]
     • [FUTURE_RESEARCH_2]
     • [FUTURE_RESEARCH_3]
     
-    Methodological Improvements Needed:
+### Methodological Improvements Needed
     • [METHODOLOGICAL_NEED_1]
     • [METHODOLOGICAL_NEED_2]
 
@@ -1893,7 +1934,7 @@ Ensure the literature review is:
     Included Studies: [NUMBER] references
     Background References: [NUMBER] references
     
-    Study References:
+### Study References
     [REFERENCE_1]
     [REFERENCE_2]
     [REFERENCE_3]
@@ -1919,7 +1960,7 @@ Ensure the literature review is:
     Appendix F: Risk of Bias Summary
     • [BIAS_ASSESSMENT_FIGURES]
 
-Ensure the literature review is:
+### Ensure the literature review is
 - Methodologically rigorous and transparent
 - Comprehensive and systematic
 - Clearly structured and well-organized

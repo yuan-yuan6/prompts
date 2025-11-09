@@ -1,3 +1,18 @@
+---
+title: Recruitment Template Generator
+category: business/Human Resources
+tags: [automation, business, design, development, marketing, strategy, template]
+use_cases:
+  - Implementing create comprehensive recruitment strategies covering job descriptions, candidate...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - okr-implementation-framework.md
+  - digital-transformation-roadmap.md
+  - lean-six-sigma-implementation.md
+last_updated: 2025-11-09
+---
+
 # Recruitment Template Generator
 
 ## Purpose
@@ -18,7 +33,7 @@ Organization Context:
 - Employer Brand: [BRAND_POSITIONING]
 - Diversity Goals: [DIVERSITY_OBJECTIVES]
 
-Position Information:
+### Position Information
 - Job Title: [POSITION_TITLE]
 - Department: [DEPARTMENT_NAME]
 - Reporting Structure: [REPORTING_RELATIONSHIP]
@@ -28,7 +43,7 @@ Position Information:
 - Urgency Level: [HIRING_URGENCY]
 - Position Count: [NUMBER_OF_POSITIONS]
 
-Role Requirements:
+### Role Requirements
 - Primary Responsibilities: [KEY_RESPONSIBILITIES]
 - Required Qualifications: [MUST_HAVE_QUALIFICATIONS]
 - Preferred Qualifications: [NICE_TO_HAVE_QUALIFICATIONS]
@@ -38,7 +53,7 @@ Role Requirements:
 - Education Requirements: [EDUCATION_CRITERIA]
 - Certifications: [CERTIFICATION_REQUIREMENTS]
 
-Compensation Package:
+### Compensation Package
 - Salary Range: [SALARY_BUDGET]
 - Benefits Overview: [BENEFITS_PACKAGE]
 - Bonus Structure: [INCENTIVE_PROGRAMS]
@@ -47,7 +62,7 @@ Compensation Package:
 - Work-Life Balance: [FLEXIBILITY_OFFERINGS]
 - Unique Perks: [SPECIAL_BENEFITS]
 
-Market Context:
+### Market Context
 - Talent Market Conditions: [MARKET_COMPETITIVENESS]
 - Competition for Talent: [COMPETITIVE_LANDSCAPE]
 - Candidate Expectations: [CANDIDATE_PRIORITIES]
@@ -511,7 +526,7 @@ Generate a comprehensive recruitment strategy that includes:
 - Legal compliance guidelines
 - Performance metrics dashboards
 
-Ensure the recruitment strategy is:
+### Ensure the recruitment strategy is
 - Comprehensive and systematic
 - Candidate-focused and experience-optimized
 - Inclusive and bias-free

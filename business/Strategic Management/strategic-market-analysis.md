@@ -1,3 +1,18 @@
+---
+title: Market Analysis Template Generator
+category: business/Strategic Management
+tags: [business, data-science, machine-learning, research, strategy, template]
+use_cases:
+  - Implementing create comprehensive market analysis reports covering competitive analysis, swot...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - okr-implementation-framework.md
+  - digital-transformation-roadmap.md
+  - lean-six-sigma-implementation.md
+last_updated: 2025-11-09
+---
+
 # Market Analysis Template Generator
 
 ## Purpose
@@ -16,7 +31,7 @@ Company Context:
 - Business Model: [BUSINESS_MODEL]
 - Products/Services: [OFFERINGS]
 
-Market Overview:
+### Market Overview
 - Market Size (TAM): [TOTAL_ADDRESSABLE_MARKET]
 - Market Size (SAM): [SERVICEABLE_ADDRESSABLE_MARKET]
 - Market Size (SOM): [SERVICEABLE_OBTAINABLE_MARKET]
@@ -26,7 +41,7 @@ Market Overview:
 - Geographic Regions: [REGIONAL_MARKETS]
 - Market Drivers: [GROWTH_DRIVERS]
 
-Competitive Landscape:
+### Competitive Landscape
 - Market Leader: [MARKET_LEADER]
 - Top 3 Competitors: [TOP_COMPETITORS]
 - Indirect Competitors: [INDIRECT_COMPETITION]
@@ -36,7 +51,7 @@ Competitive Landscape:
 - Barrier to Entry: [ENTRY_BARRIERS]
 - Switching Costs: [CUSTOMER_SWITCHING]
 
-Customer Analysis:
+### Customer Analysis
 - Primary Customer Segments: [CUSTOMER_SEGMENTS]
 - Customer Demographics: [DEMOGRAPHICS]
 - Customer Psychographics: [PSYCHOGRAPHICS]
@@ -46,7 +61,7 @@ Customer Analysis:
 - Decision Criteria: [SELECTION_FACTORS]
 - Price Sensitivity: [PRICE_ELASTICITY]
 
-Industry Trends:
+### Industry Trends
 - Technology Trends: [TECH_TRENDS]
 - Regulatory Changes: [REGULATORY_SHIFTS]
 - Economic Factors: [ECONOMIC_IMPACT]
@@ -55,7 +70,7 @@ Industry Trends:
 - Disruption Threats: [POTENTIAL_DISRUPTIONS]
 - Innovation Opportunities: [INNOVATION_AREAS]
 
-Internal Assessment:
+### Internal Assessment
 - Company Strengths: [INTERNAL_STRENGTHS]
 - Company Weaknesses: [INTERNAL_WEAKNESSES]
 - Core Capabilities: [KEY_CAPABILITIES]
@@ -421,7 +436,7 @@ For each major competitor, analyze:
 - Technology trend research
 - Geographic market assessments
 
-Ensure the market analysis is:
+### Ensure the market analysis is
 - Data-driven with credible sources
 - Objective and unbiased
 - Actionable with clear recommendations

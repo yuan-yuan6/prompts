@@ -1,3 +1,18 @@
+---
+title: Project Management Template Generator
+category: business/Operations & Processes
+tags: [business, management, optimization, security, strategy, template, testing]
+use_cases:
+  - Implementing create comprehensive project management frameworks covering project planning, tr...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - okr-implementation-framework.md
+  - digital-transformation-roadmap.md
+  - lean-six-sigma-implementation.md
+last_updated: 2025-11-09
+---
+
 # Project Management Template Generator
 
 ## Purpose
@@ -18,7 +33,7 @@ Project Information:
 - Project Priority: [PROJECT_PRIORITY]
 - Project Classification: [PROJECT_CLASSIFICATION]
 
-Project Context:
+### Project Context
 - Business Case: [BUSINESS_JUSTIFICATION]
 - Strategic Alignment: [STRATEGIC_ALIGNMENT]
 - Problem Statement: [PROBLEM_STATEMENT]
@@ -28,7 +43,7 @@ Project Context:
 - Major Constraints: [PROJECT_CONSTRAINTS]
 - Risk Profile: [RISK_ASSESSMENT]
 
-Project Scope:
+### Project Scope
 - Project Objectives: [PROJECT_OBJECTIVES]
 - Deliverables: [KEY_DELIVERABLES]
 - Scope Inclusions: [SCOPE_INCLUDED]
@@ -38,7 +53,7 @@ Project Scope:
 - Performance Requirements: [PERFORMANCE_CRITERIA]
 - Compliance Requirements: [COMPLIANCE_NEEDS]
 
-Project Parameters:
+### Project Parameters
 - Start Date: [PROJECT_START_DATE]
 - End Date: [PROJECT_END_DATE]
 - Budget: [PROJECT_BUDGET]
@@ -130,7 +145,7 @@ Level 1: Project Phases
 - Closure phase deliverables
 
 Level 2: Work Package Decomposition
-For each major work package:
+### For each major work package
 - Sub-deliverables identification
 - Task and activity breakdown
 - Resource requirement specification
@@ -539,7 +554,7 @@ Level 3: Detailed Activity Planning
 - Quality assurance procedures
 - Change control procedures
 
-Ensure the project management plan is:
+### Ensure the project management plan is
 - Comprehensive and practical
 - Stakeholder-focused and collaborative
 - Risk-aware and adaptive

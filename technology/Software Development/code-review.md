@@ -333,13 +333,210 @@ Security Review:
 - Assess password hashing sensitive data handling and OWASP vulnerability assessment
 - Evaluate structured error handling security and winston logging security
 
-Quality Gates:
+### Quality Gates
 - Check 85% code quality gate and OWASP security gate
 - Verify <200ms performance gate and 90% test coverage gate
 - Review complete documentation gate and ESLint standards compliance
 - Assess functional requirements gate and containerization deployment readiness
 - Conduct security, performance risk assessment
 ```
+
+## Variables
+
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `{review_type}` | Specify the review type | "Standard" |
+| `{code_author}` | Specify the code author | "[specify value]" |
+| `{reviewer}` | Specify the reviewer | "[specify value]" |
+| `{review_date}` | Specify the review date | "2025-01-15" |
+| `{programming_language}` | Specify the programming language | "[specify value]" |
+| `{framework}` | Specify the framework | "[specify value]" |
+| `{project_name}` | Specify the project name | "Digital Transformation Initiative" |
+| `{feature_module}` | Specify the feature module | "[specify value]" |
+| `{review_priority}` | Specify the review priority | "High" |
+| `{review_deadline}` | Specify the review deadline | "[specify value]" |
+| `{code_readability}` | Specify the code readability | "[specify value]" |
+| `{code_maintainability}` | Specify the code maintainability | "[specify value]" |
+| `{code_complexity}` | Specify the code complexity | "[specify value]" |
+| `{naming_conventions}` | Specify the naming conventions | "[specify value]" |
+| `{code_organization}` | Specify the code organization | "[specify value]" |
+| `{documentation_quality}` | Specify the documentation quality | "[specify value]" |
+| `{comment_quality}` | Specify the comment quality | "[specify value]" |
+| `{code_duplication}` | Specify the code duplication | "[specify value]" |
+| `{technical_debt}` | Specify the technical debt | "[specify value]" |
+| `{refactoring_opportunities}` | Specify the refactoring opportunities | "[specify value]" |
+| `{design_patterns}` | Specify the design patterns | "[specify value]" |
+| `{architecture_compliance}` | Specify the architecture compliance | "[specify value]" |
+| `{solid_principles}` | Specify the solid principles | "[specify value]" |
+| `{separation_of_concerns}` | Specify the separation of concerns | "[specify value]" |
+| `{dependency_management}` | Specify the dependency management | "[specify value]" |
+| `{interface_design}` | Specify the interface design | "[specify value]" |
+| `{abstraction_level}` | Specify the abstraction level | "[specify value]" |
+| `{coupling}` | Specify the coupling | "[specify value]" |
+| `{cohesion}` | Specify the cohesion | "[specify value]" |
+| `{scalability_considerations}` | Specify the scalability considerations | "[specify value]" |
+| `{algorithm_efficiency}` | Specify the algorithm efficiency | "[specify value]" |
+| `{time_complexity}` | Specify the time complexity | "[specify value]" |
+| `{space_complexity}` | Specify the space complexity | "[specify value]" |
+| `{memory_usage}` | Specify the memory usage | "[specify value]" |
+| `{resource_management}` | Specify the resource management | "[specify value]" |
+| `{caching_strategy}` | Specify the caching strategy | "[specify value]" |
+| `{database_operations}` | Specify the database operations | "[specify value]" |
+| `{io_operations}` | Specify the io operations | "[specify value]" |
+| `{concurrency_handling}` | Specify the concurrency handling | "[specify value]" |
+| `{performance_bottlenecks}` | Specify the performance bottlenecks | "[specify value]" |
+| `{input_validation}` | Specify the input validation | "[specify value]" |
+| `{output_encoding}` | Specify the output encoding | "[specify value]" |
+| `{authentication_implementation}` | Specify the authentication implementation | "[specify value]" |
+| `{authorization_checks}` | Specify the authorization checks | "[specify value]" |
+| `{data_encryption}` | Specify the data encryption | "[specify value]" |
+| `{secure_communication}` | Specify the secure communication | "[specify value]" |
+| `{error_handling_security}` | Specify the error handling security | "[specify value]" |
+| `{logging_security}` | Specify the logging security | "[specify value]" |
+| `{sensitive_data_handling}` | Specify the sensitive data handling | "[specify value]" |
+| `{vulnerability_assessment}` | Specify the vulnerability assessment | "[specify value]" |
+| `{test_coverage}` | Specify the test coverage | "[specify value]" |
+| `{test_quality}` | Specify the test quality | "[specify value]" |
+| `{test_cases}` | Specify the test cases | "[specify value]" |
+| `{edge_cases}` | Specify the edge cases | "[specify value]" |
+| `{mock_usage}` | Specify the mock usage | "[specify value]" |
+| `{test_maintainability}` | Specify the test maintainability | "[specify value]" |
+| `{integration_tests}` | Specify the integration tests | "[specify value]" |
+| `{performance_tests}` | Specify the performance tests | "[specify value]" |
+| `{security_tests}` | Specify the security tests | "[specify value]" |
+| `{test_documentation}` | Specify the test documentation | "[specify value]" |
+| `{exception_management}` | Specify the exception management | "[specify value]" |
+| `{error_messages}` | Specify the error messages | "[specify value]" |
+| `{graceful_degradation}` | Specify the graceful degradation | "[specify value]" |
+| `{recovery_mechanisms}` | Specify the recovery mechanisms | "[specify value]" |
+| `{logging_strategy}` | Specify the logging strategy | "[specify value]" |
+| `{monitoring_integration}` | Specify the monitoring integration | "[specify value]" |
+| `{alerting}` | Specify the alerting | "[specify value]" |
+| `{timeout_handling}` | Specify the timeout handling | "[specify value]" |
+| `{circuit_breaker}` | Specify the circuit breaker | "[specify value]" |
+| `{retry_logic}` | Specify the retry logic | "[specify value]" |
+| `{coding_standards}` | Specify the coding standards | "[specify value]" |
+| `{style_guide}` | Specify the style guide | "[specify value]" |
+| `{formatting}` | Specify the formatting | "[specify value]" |
+| `{linting_results}` | Specify the linting results | "[specify value]" |
+| `{static_analysis}` | Specify the static analysis | "[specify value]" |
+| `{type_safety}` | Specify the type safety | "Standard" |
+| `{documentation_standards}` | Specify the documentation standards | "[specify value]" |
+| `{commit_message_quality}` | Specify the commit message quality | "[specify value]" |
+| `{branch_strategy}` | Specify the branch strategy | "[specify value]" |
+| `{version_control}` | Specify the version control | "[specify value]" |
+| `{query_optimization}` | Specify the query optimization | "[specify value]" |
+| `{index_usage}` | Specify the index usage | "[specify value]" |
+| `{transaction_management}` | Specify the transaction management | "[specify value]" |
+| `{connection_management}` | Specify the connection management | "[specify value]" |
+| `{data_integrity}` | Specify the data integrity | "[specify value]" |
+| `{schema_design}` | Specify the schema design | "[specify value]" |
+| `{migration_scripts}` | Specify the migration scripts | "[specify value]" |
+| `{backup_considerations}` | Specify the backup considerations | "[specify value]" |
+| `{db_performance_impact}` | Specify the db performance impact | "[specify value]" |
+| `{concurrency_control}` | Specify the concurrency control | "[specify value]" |
+| `{api_design}` | Specify the api design | "[specify value]" |
+| `{rest_compliance}` | Specify the rest compliance | "[specify value]" |
+| `{request_response_format}` | Specify the request response format | "[specify value]" |
+| `{status_codes}` | Specify the status codes | "In Progress" |
+| `{error_responses}` | Specify the error responses | "[specify value]" |
+| `{versioning_strategy}` | Specify the versioning strategy | "[specify value]" |
+| `{api_documentation}` | Specify the api documentation | "[specify value]" |
+| `{rate_limiting}` | Specify the rate limiting | "[specify value]" |
+| `{caching_headers}` | Specify the caching headers | "[specify value]" |
+| `{cors_implementation}` | Specify the cors implementation | "[specify value]" |
+| `{ui_ux_implementation}` | Specify the ui ux implementation | "[specify value]" |
+| `{responsive_design}` | Specify the responsive design | "[specify value]" |
+| `{accessibility}` | Specify the accessibility | "[specify value]" |
+| `{frontend_performance}` | Specify the frontend performance | "[specify value]" |
+| `{browser_compatibility}` | Specify the browser compatibility | "[specify value]" |
+| `{javascript_quality}` | Specify the javascript quality | "[specify value]" |
+| `{css_organization}` | Specify the css organization | "[specify value]" |
+| `{asset_optimization}` | Specify the asset optimization | "[specify value]" |
+| `{seo_considerations}` | Specify the seo considerations | "[specify value]" |
+| `{progressive_enhancement}` | Specify the progressive enhancement | "[specify value]" |
+| `{containerization}` | Specify the containerization | "[specify value]" |
+| `{configuration_management}` | Specify the configuration management | "[specify value]" |
+| `{environment_variables}` | Specify the environment variables | "[specify value]" |
+| `{deployment_scripts}` | Specify the deployment scripts | "[specify value]" |
+| `{cicd_integration}` | Specify the cicd integration | "[specify value]" |
+| `{monitoring_setup}` | Specify the monitoring setup | "[specify value]" |
+| `{logging_configuration}` | Specify the logging configuration | "[specify value]" |
+| `{health_checks}` | Specify the health checks | "[specify value]" |
+| `{scaling_configuration}` | Specify the scaling configuration | "[specify value]" |
+| `{security_configuration}` | Specify the security configuration | "[specify value]" |
+| `{code_comments}` | Specify the code comments | "[specify value]" |
+| `{api_documentation_review}` | Specify the api documentation review | "[specify value]" |
+| `{readme_files}` | Specify the readme files | "[specify value]" |
+| `{architecture_documentation}` | Specify the architecture documentation | "[specify value]" |
+| `{deployment_instructions}` | Specify the deployment instructions | "[specify value]" |
+| `{troubleshooting_guides}` | Specify the troubleshooting guides | "[specify value]" |
+| `{change_logs}` | Specify the change logs | "[specify value]" |
+| `{user_guides}` | Specify the user guides | "[specify value]" |
+| `{developer_guides}` | Specify the developer guides | "[specify value]" |
+| `{knowledge_transfer}` | Specify the knowledge transfer | "[specify value]" |
+| `{requirements_compliance}` | Specify the requirements compliance | "[specify value]" |
+| `{business_rules}` | Specify the business rules | "[specify value]" |
+| `{data_validation}` | Specify the data validation | "[specify value]" |
+| `{workflow_implementation}` | Specify the workflow implementation | "[specify value]" |
+| `{business_edge_cases}` | Specify the business edge cases | "[specify value]" |
+| `{integration_points}` | Specify the integration points | "[specify value]" |
+| `{external_dependencies}` | Specify the external dependencies | "[specify value]" |
+| `{backward_compatibility}` | Specify the backward compatibility | "[specify value]" |
+| `{migration_strategy}` | Specify the migration strategy | "[specify value]" |
+| `{rollback_plans}` | Specify the rollback plans | "[specify value]" |
+| `{cyclomatic_complexity}` | Specify the cyclomatic complexity | "[specify value]" |
+| `{lines_of_code}` | Specify the lines of code | "[specify value]" |
+| `{code_coverage_metrics}` | Specify the code coverage metrics | "[specify value]" |
+| `{technical_debt_ratio}` | Specify the technical debt ratio | "[specify value]" |
+| `{duplication_ratio}` | Specify the duplication ratio | "[specify value]" |
+| `{maintainability_index}` | Specify the maintainability index | "[specify value]" |
+| `{coupling_metrics}` | Specify the coupling metrics | "[specify value]" |
+| `{cohesion_metrics}` | Specify the cohesion metrics | "[specify value]" |
+| `{defect_density}` | Specify the defect density | "[specify value]" |
+| `{code_quality_score}` | Specify the code quality score | "[specify value]" |
+| `{strengths}` | Specify the strengths | "[specify value]" |
+| `{areas_for_improvement}` | Specify the areas for improvement | "[specify value]" |
+| `{critical_issues}` | Specify the critical issues | "[specify value]" |
+| `{major_issues}` | Specify the major issues | "[specify value]" |
+| `{minor_issues}` | Specify the minor issues | "[specify value]" |
+| `{suggestions}` | Specify the suggestions | "[specify value]" |
+| `{best_practices_feedback}` | Specify the best practices feedback | "[specify value]" |
+| `{learning_opportunities}` | Specify the learning opportunities | "[specify value]" |
+| `{action_items}` | Specify the action items | "[specify value]" |
+| `{follow_up_required}` | Specify the follow up required | "[specify value]" |
+| `{code_quality_gate}` | Specify the code quality gate | "[specify value]" |
+| `{security_gate}` | Specify the security gate | "[specify value]" |
+| `{performance_gate}` | Specify the performance gate | "[specify value]" |
+| `{test_coverage_gate}` | Specify the test coverage gate | "[specify value]" |
+| `{documentation_gate}` | Specify the documentation gate | "[specify value]" |
+| `{standards_compliance}` | Specify the standards compliance | "[specify value]" |
+| `{business_requirements_gate}` | Specify the business requirements gate | "[specify value]" |
+| `{deployment_readiness}` | Specify the deployment readiness | "[specify value]" |
+| `{risk_assessment}` | Specify the risk assessment | "[specify value]" |
+| `{approval_status}` | Specify the approval status | "In Progress" |
+| `{immediate_fixes}` | Specify the immediate fixes | "[specify value]" |
+| `{short_term_improvements}` | Specify the short term improvements | "[specify value]" |
+| `{long_term_refactoring}` | Specify the long term refactoring | "[specify value]" |
+| `{performance_optimizations}` | Specify the performance optimizations | "[specify value]" |
+| `{security_enhancements}` | Specify the security enhancements | "[specify value]" |
+| `{code_quality_improvements}` | Specify the code quality improvements | "[specify value]" |
+| `{documentation_updates}` | Specify the documentation updates | "2025-01-15" |
+| `{testing_enhancements}` | Specify the testing enhancements | "[specify value]" |
+| `{architecture_changes}` | Specify the architecture changes | "[specify value]" |
+| `{tool_recommendations}` | Specify the tool recommendations | "[specify value]" |
+| `{review_discussion}` | Specify the review discussion | "[specify value]" |
+| `{clarifications_needed}` | Specify the clarifications needed | "[specify value]" |
+| `{knowledge_sharing}` | Specify the knowledge sharing | "[specify value]" |
+| `{mentoring_opportunities}` | Specify the mentoring opportunities | "[specify value]" |
+| `{team_learning}` | Specify the team learning | "[specify value]" |
+| `{process_improvements}` | Specify the process improvements | "[specify value]" |
+| `{tool_usage}` | Specify the tool usage | "[specify value]" |
+| `{communication_style}` | Specify the communication style | "[specify value]" |
+| `{feedback_quality}` | Specify the feedback quality | "[specify value]" |
+| `{resolution_tracking}` | Specify the resolution tracking | "[specify value]" |
+
+
 
 ### React Component Review
 ```

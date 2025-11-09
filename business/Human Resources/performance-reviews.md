@@ -1,3 +1,18 @@
+---
+title: Performance Review Template Generator
+category: business/Human Resources
+tags: [business, development, management, optimization, strategy, template]
+use_cases:
+  - Implementing create comprehensive performance review systems covering evaluations, feedback d...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - okr-implementation-framework.md
+  - digital-transformation-roadmap.md
+  - lean-six-sigma-implementation.md
+last_updated: 2025-11-09
+---
+
 # Performance Review Template Generator
 
 ## Purpose
@@ -18,7 +33,7 @@ Organizational Context:
 - Organizational Goals: [STRATEGIC_OBJECTIVES]
 - Growth Stage: [BUSINESS_MATURITY]
 
-Employee Information:
+### Employee Information
 - Employee Name: [EMPLOYEE_NAME]
 - Job Title: [POSITION_TITLE]
 - Department: [DEPARTMENT_NAME]
@@ -28,7 +43,7 @@ Employee Information:
 - Career Level: [SENIORITY_LEVEL]
 - Employment Type: [EMPLOYMENT_STATUS]
 
-Role Context:
+### Role Context
 - Key Responsibilities: [PRIMARY_DUTIES]
 - Performance Standards: [PERFORMANCE_EXPECTATIONS]
 - Success Metrics: [KEY_PERFORMANCE_INDICATORS]
@@ -38,7 +53,7 @@ Role Context:
 - Leadership Responsibilities: [MANAGEMENT_DUTIES]
 - Technical Requirements: [SKILL_COMPETENCIES]
 
-Review Period Performance:
+### Review Period Performance
 - Major Achievements: [KEY_ACCOMPLISHMENTS]
 - Project Contributions: [PROJECT_DELIVERABLES]
 - Goal Completion: [OBJECTIVE_ATTAINMENT]
@@ -48,7 +63,7 @@ Review Period Performance:
 - Feedback Received: [STAKEHOLDER_INPUT]
 - Self Assessment: [EMPLOYEE_SELF_EVALUATION]
 
-Development Areas:
+### Development Areas
 - Skill Gaps: [COMPETENCY_DEVELOPMENT_NEEDS]
 - Career Aspirations: [PROFESSIONAL_GOALS]
 - Learning Preferences: [DEVELOPMENT_STYLE]
@@ -768,7 +783,7 @@ Generate a comprehensive performance review framework that includes:
 - Legal compliance checklists
 - Technology evaluation and selection criteria
 
-Ensure the performance review system is:
+### Ensure the performance review system is
 - Fair and objective in evaluation
 - Development-focused and growth-oriented
 - Continuous and ongoing in nature

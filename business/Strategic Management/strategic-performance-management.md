@@ -1,3 +1,18 @@
+---
+title: Performance Management Template Generator
+category: business/Strategic Management
+tags: [business, design, development, machine-learning, management, optimization, strategy, template]
+use_cases:
+  - Implementing create comprehensive performance management systems including kpis, okrs, and da...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - okr-implementation-framework.md
+  - digital-transformation-roadmap.md
+  - lean-six-sigma-implementation.md
+last_updated: 2025-11-09
+---
+
 # Performance Management Template Generator
 
 ## Purpose
@@ -18,7 +33,7 @@ Organization Context:
 - Current Performance Systems: [EXISTING_SYSTEMS]
 - Performance Culture: [PERFORMANCE_CULTURE]
 
-Strategic Framework:
+### Strategic Framework
 - Mission Statement: [MISSION]
 - Vision Statement: [VISION]
 - Strategic Objectives: [STRATEGIC_GOALS]
@@ -28,7 +43,7 @@ Strategic Framework:
 - Stakeholder Priorities: [STAKEHOLDER_FOCUS]
 - Time Horizon: [PLANNING_PERIOD]
 
-Business Priorities:
+### Business Priorities
 - Revenue Growth Targets: [REVENUE_GOALS]
 - Profitability Objectives: [PROFIT_TARGETS]
 - Market Share Goals: [MARKET_GOALS]
@@ -38,7 +53,7 @@ Business Priorities:
 - Employee Engagement Targets: [ENGAGEMENT_GOALS]
 - Digital Transformation Goals: [DIGITAL_TARGETS]
 
-Performance Measurement Needs:
+### Performance Measurement Needs
 - Key Stakeholders: [KEY_STAKEHOLDERS]
 - Decision-Making Requirements: [DECISION_NEEDS]
 - Reporting Frequency: [REPORTING_CADENCE]
@@ -48,7 +63,7 @@ Performance Measurement Needs:
 - Technology Platforms: [TECH_PLATFORMS]
 - Budget for Performance Systems: [PM_BUDGET]
 
-Organizational Levels:
+### Organizational Levels
 - Executive Level Focus: [EXECUTIVE_PRIORITIES]
 - Departmental Objectives: [DEPARTMENT_GOALS]
 - Team Performance Areas: [TEAM_FOCUS]
@@ -557,7 +572,7 @@ For each KPI, define:
 - Implementation project plans
 - Change management toolkits
 
-Ensure the performance management system is:
+### Ensure the performance management system is
 - Strategically aligned and cascaded
 - Comprehensive yet focused
 - User-friendly and accessible

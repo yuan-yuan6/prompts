@@ -1,3 +1,18 @@
+---
+title: Infrastructure as Code Template
+category: technology/Data Engineering
+tags: [design, management, optimization, security, strategy, technology, template]
+use_cases:
+  - Implementing design and implement infrastructure as code solutions using terraform, ansible, ...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - cloud-architecture-framework.md
+  - site-reliability-engineering.md
+  - cloud-migration-strategy.md
+last_updated: 2025-11-09
+---
+
 # Infrastructure as Code Template
 
 ## Purpose
@@ -310,14 +325,14 @@ Terraform Implementation:
 - Organize by service, environment resource organization with service-env-resource naming conventions
 - Manage with GitLab version control
 
-Kubernetes Setup:
+### Kubernetes Setup
 - Deploy Kubernetes v1.27 with managed EKS cluster architecture
 - Configure m5.large worker nodes node configuration and Calico k8s networking
 - Set up EBS CSI k8s storage and Pod Security Standards k8s security
 - Manage resource quotas, limits k8s resource management and Prometheus k8s monitoring
 - Configure Fluentd k8s logging and Velero k8s backup
 
-Security Implementation:
+### Security Implementation
 - Apply AWS Security Framework security framework with IAM, SSO identity management
 - Configure RBAC access control and VPC, Security Groups network security
 - Enable KMS data encryption and AWS KMS key management
@@ -331,6 +346,193 @@ CI/CD Integration:
 - Set up manual approval gates and automated rollback procedures
 - Manage semantic versioning release management and CloudWatch monitoring integration
 ```
+
+## Variables
+
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `{infrastructure_name}` | Specify the infrastructure name | "John Smith" |
+| `{infrastructure_type}` | Specify the infrastructure type | "Standard" |
+| `{environment}` | Specify the environment | "[specify value]" |
+| `{cloud_provider}` | Specify the cloud provider | "[specify value]" |
+| `{iac_strategy}` | Specify the iac strategy | "[specify value]" |
+| `{business_purpose}` | Specify the business purpose | "[specify value]" |
+| `{stakeholders}` | Specify the stakeholders | "[specify value]" |
+| `{compliance_requirements}` | Specify the compliance requirements | "[specify value]" |
+| `{budget_constraints}` | Specify the budget constraints | "$500,000" |
+| `{project_timeline}` | Specify the project timeline | "6 months" |
+| `{target_architecture}` | Specify the target architecture | "[specify value]" |
+| `{resource_components}` | Specify the resource components | "[specify value]" |
+| `{network_design}` | Specify the network design | "[specify value]" |
+| `{security_architecture}` | Specify the security architecture | "[specify value]" |
+| `{high_availability}` | Specify the high availability | "[specify value]" |
+| `{disaster_recovery}` | Specify the disaster recovery | "[specify value]" |
+| `{scalability_design}` | Specify the scalability design | "[specify value]" |
+| `{performance_requirements}` | Specify the performance requirements | "[specify value]" |
+| `{cost_optimization}` | Specify the cost optimization | "[specify value]" |
+| `{regional_distribution}` | Specify the regional distribution | "North America" |
+| `{terraform_version}` | Specify the terraform version | "[specify value]" |
+| `{provider_configuration}` | Specify the provider configuration | "[specify value]" |
+| `{backend_configuration}` | Specify the backend configuration | "[specify value]" |
+| `{state_management}` | Specify the state management | "[specify value]" |
+| `{module_structure}` | Specify the module structure | "[specify value]" |
+| `{variable_management}` | Specify the variable management | "[specify value]" |
+| `{output_configuration}` | Specify the output configuration | "[specify value]" |
+| `{resource_organization}` | Specify the resource organization | "[specify value]" |
+| `{naming_conventions}` | Specify the naming conventions | "[specify value]" |
+| `{version_control}` | Specify the version control | "[specify value]" |
+| `{ansible_version}` | Specify the ansible version | "[specify value]" |
+| `{inventory_management}` | Specify the inventory management | "[specify value]" |
+| `{playbook_structure}` | Specify the playbook structure | "[specify value]" |
+| `{role_organization}` | Specify the role organization | "[specify value]" |
+| `{ansible_variable_management}` | Specify the ansible variable management | "[specify value]" |
+| `{template_management}` | Specify the template management | "[specify value]" |
+| `{handler_configuration}` | Specify the handler configuration | "[specify value]" |
+| `{task_organization}` | Specify the task organization | "[specify value]" |
+| `{ansible_error_handling}` | Specify the ansible error handling | "[specify value]" |
+| `{ansible_security}` | Specify the ansible security | "[specify value]" |
+| `{kubernetes_version}` | Specify the kubernetes version | "[specify value]" |
+| `{cluster_architecture}` | Specify the cluster architecture | "[specify value]" |
+| `{node_configuration}` | Specify the node configuration | "[specify value]" |
+| `{k8s_networking}` | Specify the k8s networking | "[specify value]" |
+| `{k8s_storage}` | Specify the k8s storage | "[specify value]" |
+| `{k8s_security}` | Specify the k8s security | "[specify value]" |
+| `{k8s_resource_management}` | Specify the k8s resource management | "[specify value]" |
+| `{k8s_monitoring}` | Specify the k8s monitoring | "[specify value]" |
+| `{k8s_logging}` | Specify the k8s logging | "[specify value]" |
+| `{k8s_backup}` | Specify the k8s backup | "[specify value]" |
+| `{compute_resources}` | Specify the compute resources | "[specify value]" |
+| `{storage_resources}` | Specify the storage resources | "[specify value]" |
+| `{network_resources}` | Specify the network resources | "[specify value]" |
+| `{database_resources}` | Specify the database resources | "[specify value]" |
+| `{security_resources}` | Specify the security resources | "[specify value]" |
+| `{monitoring_resources}` | Specify the monitoring resources | "[specify value]" |
+| `{load_balancer}` | Specify the load balancer | "[specify value]" |
+| `{cdn_configuration}` | Specify the cdn configuration | "[specify value]" |
+| `{dns_configuration}` | Specify the dns configuration | "[specify value]" |
+| `{certificate_management}` | Specify the certificate management | "[specify value]" |
+| `{configuration_strategy}` | Specify the configuration strategy | "[specify value]" |
+| `{environment_variables}` | Specify the environment variables | "[specify value]" |
+| `{secret_management}` | Specify the secret management | "[specify value]" |
+| `{configuration_files}` | Specify the configuration files | "[specify value]" |
+| `{parameter_store}` | Specify the parameter store | "[specify value]" |
+| `{configuration_validation}` | Specify the configuration validation | "[specify value]" |
+| `{environment_promotion}` | Specify the environment promotion | "[specify value]" |
+| `{configuration_drift}` | Specify the configuration drift | "[specify value]" |
+| `{configuration_rollback}` | Specify the configuration rollback | "[specify value]" |
+| `{configuration_change_management}` | Specify the configuration change management | "[specify value]" |
+| `{pipeline_strategy}` | Specify the pipeline strategy | "[specify value]" |
+| `{cicd_version_control}` | Specify the cicd version control | "[specify value]" |
+| `{build_process}` | Specify the build process | "[specify value]" |
+| `{testing_strategy}` | Specify the testing strategy | "[specify value]" |
+| `{deployment_pipeline}` | Specify the deployment pipeline | "[specify value]" |
+| `{environment_management}` | Specify the environment management | "[specify value]" |
+| `{approval_gates}` | Specify the approval gates | "[specify value]" |
+| `{rollback_procedures}` | Specify the rollback procedures | "[specify value]" |
+| `{release_management}` | Specify the release management | "[specify value]" |
+| `{monitoring_integration}` | Specify the monitoring integration | "[specify value]" |
+| `{security_framework}` | Specify the security framework | "[specify value]" |
+| `{identity_management}` | Specify the identity management | "[specify value]" |
+| `{access_control}` | Specify the access control | "[specify value]" |
+| `{network_security}` | Specify the network security | "[specify value]" |
+| `{data_encryption}` | Specify the data encryption | "[specify value]" |
+| `{key_management}` | Specify the key management | "[specify value]" |
+| `{security_scanning}` | Specify the security scanning | "[specify value]" |
+| `{compliance_monitoring}` | Specify the compliance monitoring | "[specify value]" |
+| `{vulnerability_management}` | Specify the vulnerability management | "[specify value]" |
+| `{audit_logging}` | Specify the audit logging | "[specify value]" |
+| `{monitoring_strategy}` | Specify the monitoring strategy | "[specify value]" |
+| `{metrics_collection}` | Specify the metrics collection | "[specify value]" |
+| `{log_management}` | Specify the log management | "[specify value]" |
+| `{distributed_tracing}` | Specify the distributed tracing | "[specify value]" |
+| `{alerting_configuration}` | Specify the alerting configuration | "[specify value]" |
+| `{dashboard_design}` | Specify the dashboard design | "[specify value]" |
+| `{health_checks}` | Specify the health checks | "[specify value]" |
+| `{performance_monitoring}` | Specify the performance monitoring | "[specify value]" |
+| `{capacity_planning}` | Specify the capacity planning | "[specify value]" |
+| `{sla_monitoring}` | Specify the sla monitoring | "[specify value]" |
+| `{cost_monitoring}` | Specify the cost monitoring | "[specify value]" |
+| `{resource_optimization}` | Specify the resource optimization | "[specify value]" |
+| `{budget_controls}` | Specify the budget controls | "$500,000" |
+| `{cost_allocation}` | Specify the cost allocation | "North America" |
+| `{reserved_instances}` | Specify the reserved instances | "[specify value]" |
+| `{spot_instances}` | Specify the spot instances | "[specify value]" |
+| `{auto_scaling}` | Specify the auto scaling | "[specify value]" |
+| `{resource_scheduling}` | Specify the resource scheduling | "[specify value]" |
+| `{cost_reporting}` | Specify the cost reporting | "[specify value]" |
+| `{optimization_recommendations}` | Specify the optimization recommendations | "[specify value]" |
+| `{backup_strategy}` | Specify the backup strategy | "[specify value]" |
+| `{backup_automation}` | Specify the backup automation | "[specify value]" |
+| `{recovery_procedures}` | Specify the recovery procedures | "[specify value]" |
+| `{recovery_testing}` | Specify the recovery testing | "[specify value]" |
+| `{rto_rpo_requirements}` | Specify the rto rpo requirements | "[specify value]" |
+| `{cross_region_backup}` | Specify the cross region backup | "North America" |
+| `{backup_retention}` | Specify the backup retention | "[specify value]" |
+| `{data_verification}` | Specify the data verification | "[specify value]" |
+| `{dr_procedures}` | Specify the dr procedures | "[specify value]" |
+| `{business_continuity}` | Specify the business continuity | "[specify value]" |
+| `{iac_testing_strategy}` | Specify the iac testing strategy | "[specify value]" |
+| `{iac_unit_testing}` | Specify the iac unit testing | "[specify value]" |
+| `{iac_integration_testing}` | Specify the iac integration testing | "[specify value]" |
+| `{infrastructure_testing}` | Specify the infrastructure testing | "[specify value]" |
+| `{iac_security_testing}` | Specify the iac security testing | "[specify value]" |
+| `{iac_performance_testing}` | Specify the iac performance testing | "[specify value]" |
+| `{compliance_testing}` | Specify the compliance testing | "[specify value]" |
+| `{dr_testing}` | Specify the dr testing | "[specify value]" |
+| `{test_automation}` | Specify the test automation | "[specify value]" |
+| `{iac_test_data}` | Specify the iac test data | "[specify value]" |
+| `{environment_strategy}` | Specify the environment strategy | "[specify value]" |
+| `{environment_types}` | Specify the environment types | "Standard" |
+| `{environment_provisioning}` | Specify the environment provisioning | "[specify value]" |
+| `{environment_configuration}` | Specify the environment configuration | "[specify value]" |
+| `{environment_lifecycle}` | Specify the environment lifecycle | "[specify value]" |
+| `{environment_data_management}` | Specify the environment data management | "[specify value]" |
+| `{environment_access_management}` | Specify the environment access management | "[specify value]" |
+| `{environment_monitoring}` | Specify the environment monitoring | "[specify value]" |
+| `{environment_cost_control}` | Specify the environment cost control | "[specify value]" |
+| `{cleanup_procedures}` | Specify the cleanup procedures | "[specify value]" |
+| `{architecture_documentation}` | Specify the architecture documentation | "[specify value]" |
+| `{runbook_documentation}` | Specify the runbook documentation | "[specify value]" |
+| `{deployment_guides}` | Specify the deployment guides | "[specify value]" |
+| `{troubleshooting_guides}` | Specify the troubleshooting guides | "[specify value]" |
+| `{configuration_reference}` | Specify the configuration reference | "[specify value]" |
+| `{iac_api_documentation}` | Specify the iac api documentation | "[specify value]" |
+| `{change_logs}` | Specify the change logs | "[specify value]" |
+| `{documentation_best_practices}` | Specify the documentation best practices | "[specify value]" |
+| `{training_materials}` | Specify the training materials | "[specify value]" |
+| `{knowledge_base}` | Specify the knowledge base | "[specify value]" |
+| `{migration_approach}` | Specify the migration approach | "[specify value]" |
+| `{current_state_assessment}` | Specify the current state assessment | "[specify value]" |
+| `{target_state_design}` | Specify the target state design | "[specify value]" |
+| `{migration_planning}` | Specify the migration planning | "[specify value]" |
+| `{migration_risk_assessment}` | Specify the migration risk assessment | "[specify value]" |
+| `{migration_timeline}` | Specify the migration timeline | "6 months" |
+| `{migration_testing}` | Specify the migration testing | "[specify value]" |
+| `{migration_rollback}` | Specify the migration rollback | "[specify value]" |
+| `{migration_communication}` | Specify the migration communication | "[specify value]" |
+| `{migration_success_criteria}` | Specify the migration success criteria | "[specify value]" |
+| `{team_structure}` | Specify the team structure | "[specify value]" |
+| `{skills_required}` | Specify the skills required | "[specify value]" |
+| `{training_plan}` | Specify the training plan | "[specify value]" |
+| `{knowledge_transfer}` | Specify the knowledge transfer | "[specify value]" |
+| `{roles_responsibilities}` | Specify the roles responsibilities | "[specify value]" |
+| `{team_best_practices}` | Specify the team best practices | "[specify value]" |
+| `{tool_training}` | Specify the tool training | "[specify value]" |
+| `{certification_requirements}` | Specify the certification requirements | "[specify value]" |
+| `{community_engagement}` | Specify the community engagement | "[specify value]" |
+| `{continuous_learning}` | Specify the continuous learning | "[specify value]" |
+| `{quality_standards}` | Specify the quality standards | "[specify value]" |
+| `{code_review}` | Specify the code review | "[specify value]" |
+| `{quality_gates}` | Specify the quality gates | "[specify value]" |
+| `{automated_validation}` | Specify the automated validation | "[specify value]" |
+| `{iac_security_scanning}` | Specify the iac security scanning | "[specify value]" |
+| `{compliance_checking}` | Specify the compliance checking | "[specify value]" |
+| `{performance_validation}` | Specify the performance validation | "[specify value]" |
+| `{documentation_review}` | Specify the documentation review | "[specify value]" |
+| `{process_improvement}` | Specify the process improvement | "[specify value]" |
+| `{feedback_loop}` | Specify the feedback loop | "[specify value]" |
+
+
 
 ### Azure Enterprise Infrastructure
 ```
@@ -350,14 +552,14 @@ Ansible Configuration:
 - Configure restart services handler configuration and include_tasks task organization
 - Implement block/rescue ansible error handling and Vault ansible security
 
-Security Implementation:
+### Security Implementation
 - Apply Microsoft Security Framework security framework with Azure AD identity management
 - Configure Conditional Access access control and NSG, Firewall network security
 - Enable Azure Disk Encryption data encryption and Key Vault key management
 - Implement Security Center security scanning and Policy compliance monitoring
 - Manage Defender vulnerability management and Monitor audit logging
 
-Testing Framework:
+### Testing Framework
 - Apply TDD iac testing strategy with Terratest iac unit testing
 - Implement Pester iac integration testing and InSpec infrastructure testing
 - Configure OWASP ZAP iac security testing and Azure Policy compliance testing

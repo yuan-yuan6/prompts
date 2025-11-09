@@ -1,3 +1,18 @@
+---
+title: Market Research Template Generator
+category: business/Sales & Marketing
+tags: [business, data-science, research, template]
+use_cases:
+  - Implementing create comprehensive market research strategies covering surveys, analysis, and ...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - okr-implementation-framework.md
+  - digital-transformation-roadmap.md
+  - lean-six-sigma-implementation.md
+last_updated: 2025-11-09
+---
+
 # Market Research Template Generator
 
 ## Purpose
@@ -18,7 +33,7 @@ Research Context:
 - Research Budget: [RESEARCH_BUDGET_ALLOCATION]
 - Timeline: [RESEARCH_TIMELINE]
 
-Research Objectives:
+### Research Objectives
 - Primary Objectives: [PRIMARY_RESEARCH_GOALS]
 - Secondary Objectives: [SECONDARY_RESEARCH_GOALS]
 - Business Questions: [KEY_BUSINESS_QUESTIONS]
@@ -28,7 +43,7 @@ Research Objectives:
 - Action Implications: [INTENDED_BUSINESS_ACTIONS]
 - ROI Expectations: [EXPECTED_RESEARCH_ROI]
 
-Market Context:
+### Market Context
 - Target Market: [TARGET_MARKET_DEFINITION]
 - Market Size: [MARKET_SIZE_ESTIMATES]
 - Growth Trends: [MARKET_GROWTH_PATTERNS]
@@ -38,7 +53,7 @@ Market Context:
 - Technology Impact: [TECHNOLOGY_INFLUENCES]
 - Seasonal Patterns: [SEASONALITY_FACTORS]
 
-Customer Information:
+### Customer Information
 - Target Segments: [CUSTOMER_SEGMENTS]
 - Demographics: [DEMOGRAPHIC_PROFILES]
 - Psychographics: [PSYCHOGRAPHIC_CHARACTERISTICS]
@@ -48,7 +63,7 @@ Customer Information:
 - Satisfaction Levels: [CURRENT_SATISFACTION]
 - Loyalty Factors: [RETENTION_DRIVERS]
 
-Competitive Landscape:
+### Competitive Landscape
 - Direct Competitors: [DIRECT_COMPETITION]
 - Indirect Competitors: [INDIRECT_COMPETITION]
 - Market Leaders: [MARKET_LEADERS]
@@ -1175,7 +1190,7 @@ Generate a comprehensive market research strategy that includes:
 - Vendor evaluation and selection criteria
 - Performance measurement and tracking dashboards
 
-Ensure the market research strategy is:
+### Ensure the market research strategy is
 - Methodologically rigorous and scientifically sound
 - Actionable and business-relevant
 - Cost-effective and resource-efficient

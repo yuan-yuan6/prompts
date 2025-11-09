@@ -1,3 +1,17 @@
+---
+title: Policy Research Template
+category: government/Policy Development
+tags: [data-science, development, government, research, template]
+use_cases:
+  - Implementing create comprehensive policy research frameworks, evidence-based analysis, stakeh...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - policy-development.md
+  - policy-research-framework.md
+last_updated: 2025-11-09
+---
+
 # Policy Research Template
 
 ## Purpose
@@ -18,14 +32,14 @@ Issue Overview:
 - Scope boundaries: [SCOPE_BOUNDARIES]
 - Timeline urgency: [TIMELINE_URGENCY]
 
-Stakeholder Landscape:
+### Stakeholder Landscape
 - Primary beneficiaries: [PRIMARY_BENEFICIARIES]
 - Affected parties: [AFFECTED_PARTIES]
 - Implementation partners: [IMPLEMENTATION_PARTNERS]
 - Opposition groups: [OPPOSITION_GROUPS]
 - Neutral observers: [NEUTRAL_OBSERVERS]
 
-RESEARCH FRAMEWORK:
+### RESEARCH FRAMEWORK
 
 ```
 EVIDENCE GATHERING:
@@ -39,7 +53,7 @@ Case Studies     | [CASE_SOURCES]  | [CASE_SAMPLE]   | [CASE_RELIABLE]| [CASE_TI
 Expert Interviews| [EXP_SOURCES]   | [EXP_SAMPLE]    | [EXP_RELIABLE] | [EXP_TIME]
 Public Consultation| [PUB_SOURCES]| [PUB_SAMPLE]    | [PUB_RELIABLE] | [PUB_TIME]
 
-Comparative Analysis:
+### Comparative Analysis
 Jurisdiction     | Policy Approach | Outcomes        | Lessons Learned| Applicability
 -----------------|-----------------|-----------------|----------------|-------------
 [JURISDICTION_1] | [APPROACH_1]    | [OUTCOMES_1]    | [LESSONS_1]    | [APPLY_1]
@@ -47,7 +61,7 @@ Jurisdiction     | Policy Approach | Outcomes        | Lessons Learned| Applicab
 [JURISDICTION_3] | [APPROACH_3]    | [OUTCOMES_3]    | [LESSONS_3]    | [APPLY_3]
 [JURISDICTION_4] | [APPROACH_4]    | [OUTCOMES_4]    | [LESSONS_4]    | [APPLY_4]
 
-Evidence Quality:
+### Evidence Quality
 Evidence Type    | Strength        | Limitations     | Confidence Level| Weight
 -----------------|-----------------|-----------------|-----------------|-------
 Quantitative Data| [QUANT_STR]     | [QUANT_LIM]     | [QUANT_CONF]    | [QUANT_WT]
@@ -60,9 +74,9 @@ IMPACT ASSESSMENT:
 
 Multi-Criteria Analysis:
 ```
-IMPACT EVALUATION:
+### IMPACT EVALUATION
 
-Economic Impact:
+### Economic Impact
 Sector           | Direct Impact   | Indirect Impact | Timeline       | Magnitude
 -----------------|-----------------|-----------------|----------------|----------
 Government Budget| [GOV_DIRECT]    | [GOV_INDIRECT]  | [GOV_TIME]     | [GOV_MAG]
@@ -71,7 +85,7 @@ Households       | [HOUSE_DIRECT]  | [HOUSE_INDIRECT]| [HOUSE_TIME]   | [HOUSE_M
 Labor Market     | [LABOR_DIRECT]  | [LABOR_INDIRECT]| [LABOR_TIME]   | [LABOR_MAG]
 GDP/Growth       | [GDP_DIRECT]    | [GDP_INDIRECT]  | [GDP_TIME]     | [GDP_MAG]
 
-Social Impact:
+### Social Impact
 Dimension        | Affected Groups | Impact Type     | Severity       | Duration
 -----------------|-----------------|-----------------|----------------|----------
 Equity           | [EQ_GROUPS]     | [EQ_TYPE]       | [EQ_SEVERITY]  | [EQ_DURATION]
@@ -80,7 +94,7 @@ Quality of Life  | [QOL_GROUPS]    | [QOL_TYPE]      | [QOL_SEVERITY] | [QOL_DUR
 Health           | [HEALTH_GROUPS] | [HEALTH_TYPE]   | [HEALTH_SEV]   | [HEALTH_DUR]
 Education        | [EDU_GROUPS]    | [EDU_TYPE]      | [EDU_SEVERITY] | [EDU_DURATION]
 
-Environmental Impact:
+### Environmental Impact
 Factor           | Current State   | Projected Change| Mitigation     | Monitoring
 -----------------|-----------------|-----------------|----------------|------------
 Emissions        | [EMIS_CURRENT]  | [EMIS_CHANGE]   | [EMIS_MITIG]   | [EMIS_MON]
@@ -94,9 +108,9 @@ POLICY OPTIONS:
 
 Alternative Development:
 ```
-POLICY ALTERNATIVES:
+### POLICY ALTERNATIVES
 
-Option Analysis:
+### Option Analysis
 Option           | Description     | Pros            | Cons           | Feasibility
 -----------------|-----------------|-----------------|----------------|------------
 Status Quo       | [SQ_DESC]       | [SQ_PROS]       | [SQ_CONS]      | [SQ_FEAS]
@@ -114,7 +128,7 @@ Option B         | [B_IMP_COST]      | [B_OP_COST]    | [B_BENEFIT]   | [B_NPV]
 Option C         | [C_IMP_COST]      | [C_OP_COST]    | [C_BENEFIT]   | [C_NPV]
 Hybrid Option    | [HYB_IMP_COST]    | [HYB_OP_COST]  | [HYB_BENEFIT] | [HYB_NPV]
 
-Risk Assessment:
+### Risk Assessment
 Option           | Political Risk  | Implementation Risk| Legal Risk   | Public Acceptance
 -----------------|-----------------|-------------------|--------------|------------------
 Status Quo       | [SQ_POL]        | [SQ_IMP]          | [SQ_LEGAL]   | [SQ_PUBLIC]
@@ -128,9 +142,9 @@ STAKEHOLDER ENGAGEMENT:
 
 Consultation Process:
 ```
-STAKEHOLDER ANALYSIS:
+### STAKEHOLDER ANALYSIS
 
-Stakeholder Mapping:
+### Stakeholder Mapping
 Stakeholder Group| Interest Level  | Influence Level | Position      | Engagement Strategy
 -----------------|-----------------|-----------------|---------------|--------------------
 [STAKEHOLDER_1]  | [INT_1]         | [INF_1]         | [POS_1]       | [ENGAGE_1]
@@ -139,7 +153,7 @@ Stakeholder Group| Interest Level  | Influence Level | Position      | Engagemen
 [STAKEHOLDER_4]  | [INT_4]         | [INF_4]         | [POS_4]       | [ENGAGE_4]
 [STAKEHOLDER_5]  | [INT_5]         | [INF_5]         | [POS_5]       | [ENGAGE_5]
 
-Consultation Methods:
+### Consultation Methods
 Method           | Target Groups   | Timeline        | Format        | Output
 -----------------|-----------------|-----------------|---------------|--------
 Public Forums    | [PF_TARGET]     | [PF_TIME]       | [PF_FORMAT]   | [PF_OUTPUT]
@@ -148,7 +162,7 @@ Focus Groups     | [FG_TARGET]     | [FG_TIME]       | [FG_FORMAT]   | [FG_OUTPU
 Expert Panels    | [EP_TARGET]     | [EP_TIME]       | [EP_FORMAT]   | [EP_OUTPUT]
 Written Submissions| [WS_TARGET]   | [WS_TIME]       | [WS_FORMAT]   | [WS_OUTPUT]
 
-Feedback Integration:
+### Feedback Integration
 Feedback Theme   | Frequency       | Proposed Response| Modification  | Rationale
 -----------------|-----------------|------------------|---------------|----------
 [THEME_1]        | [FREQ_1]        | [RESPONSE_1]     | [MOD_1]       | [RAT_1]
@@ -161,9 +175,9 @@ IMPLEMENTATION PLANNING:
 
 Execution Framework:
 ```
-IMPLEMENTATION ROADMAP:
+### IMPLEMENTATION ROADMAP
 
-Phase Planning:
+### Phase Planning
 Phase            | Duration        | Key Activities  | Resources     | Milestones
 -----------------|-----------------|-----------------|---------------|------------
 Preparation      | [PREP_DUR]      | [PREP_ACT]      | [PREP_RES]    | [PREP_MILE]
@@ -172,7 +186,7 @@ Rollout          | [ROLL_DUR]      | [ROLL_ACT]      | [ROLL_RES]    | [ROLL_MIL
 Full Implementation| [FULL_DUR]    | [FULL_ACT]      | [FULL_RES]    | [FULL_MILE]
 Evaluation       | [EVAL_DUR]      | [EVAL_ACT]      | [EVAL_RES]    | [EVAL_MILE]
 
-Resource Requirements:
+### Resource Requirements
 Resource Type    | Quantity        | Source          | Cost          | Timeline
 -----------------|-----------------|-----------------|---------------|----------
 Personnel        | [PERS_QUANT]    | [PERS_SOURCE]   | [PERS_COST]   | [PERS_TIME]
@@ -181,7 +195,7 @@ Technology       | [TECH_QUANT]    | [TECH_SOURCE]   | [TECH_COST]   | [TECH_TIM
 Infrastructure   | [INFRA_QUANT]   | [INFRA_SOURCE]  | [INFRA_COST]  | [INFRA_TIME]
 Partnerships     | [PART_QUANT]    | [PART_SOURCE]   | [PART_COST]   | [PART_TIME]
 
-Success Metrics:
+### Success Metrics
 Metric           | Baseline        | Target          | Measurement   | Frequency
 -----------------|-----------------|-----------------|---------------|----------
 [METRIC_1]       | [BASE_1]        | [TARGET_1]      | [MEASURE_1]   | [FREQ_1]
@@ -194,9 +208,9 @@ REGULATORY FRAMEWORK:
 
 Legal Considerations:
 ```
-REGULATORY ANALYSIS:
+### REGULATORY ANALYSIS
 
-Legislative Requirements:
+### Legislative Requirements
 Requirement      | Current Law     | Changes Needed  | Process       | Timeline
 -----------------|-----------------|-----------------|---------------|----------
 Primary Legislation| [PRIM_CURR]   | [PRIM_CHANGE]   | [PRIM_PROC]   | [PRIM_TIME]
@@ -204,7 +218,7 @@ Secondary Legislation| [SEC_CURR]  | [SEC_CHANGE]    | [SEC_PROC]    | [SEC_TIME
 Regulatory Rules | [REG_CURR]      | [REG_CHANGE]    | [REG_PROC]    | [REG_TIME]
 Administrative   | [ADMIN_CURR]    | [ADMIN_CHANGE]  | [ADMIN_PROC]  | [ADMIN_TIME]
 
-Compliance Framework:
+### Compliance Framework
 Compliance Area  | Requirements    | Enforcement     | Penalties     | Monitoring
 -----------------|-----------------|-----------------|---------------|------------
 [COMPLIANCE_1]   | [REQ_1]         | [ENFORCE_1]     | [PENALTY_1]   | [MONITOR_1]
@@ -217,9 +231,9 @@ MONITORING & EVALUATION:
 
 Performance Framework:
 ```
-EVALUATION SYSTEM:
+### EVALUATION SYSTEM
 
-Monitoring Plan:
+### Monitoring Plan
 Indicator        | Data Source     | Collection Method| Frequency    | Responsible
 -----------------|-----------------|------------------|--------------|------------
 [INDICATOR_1]    | [SOURCE_1]      | [METHOD_1]       | [FREQ_1]     | [RESP_1]
@@ -227,7 +241,7 @@ Indicator        | Data Source     | Collection Method| Frequency    | Responsib
 [INDICATOR_3]    | [SOURCE_3]      | [METHOD_3]       | [FREQ_3]     | [RESP_3]
 [INDICATOR_4]    | [SOURCE_4]      | [METHOD_4]       | [FREQ_4]     | [RESP_4]
 
-Evaluation Schedule:
+### Evaluation Schedule
 Evaluation Type  | Timing          | Scope           | Methods      | Use
 -----------------|-----------------|-----------------|--------------|-----
 Baseline         | [BASE_TIME]     | [BASE_SCOPE]    | [BASE_METH]  | [BASE_USE]
@@ -235,7 +249,7 @@ Process          | [PROC_TIME]     | [PROC_SCOPE]    | [PROC_METH]  | [PROC_USE]
 Outcome          | [OUT_TIME]      | [OUT_SCOPE]     | [OUT_METH]   | [OUT_USE]
 Impact           | [IMP_TIME]      | [IMP_SCOPE]     | [IMP_METH]   | [IMP_USE]
 
-Adaptive Management:
+### Adaptive Management
 Trigger          | Response        | Decision Process| Authority    | Timeline
 -----------------|-----------------|-----------------|--------------|----------
 [TRIGGER_1]      | [RESPONSE_1]    | [PROCESS_1]     | [AUTH_1]     | [TIME_1]
@@ -247,7 +261,7 @@ RECOMMENDATIONS:
 
 Policy Proposal:
 ```
-FINAL RECOMMENDATIONS:
+### FINAL RECOMMENDATIONS
 
 Recommended Option: [RECOMMENDED_OPTION]
 Rationale: [RECOMMENDATION_RATIONALE]
@@ -260,7 +274,7 @@ Short-term       | [SHORT_ACTION]  | [SHORT_TIME]    | [SHORT_RES]  | [SHORT_OWN
 Medium-term      | [MED_ACTION]    | [MED_TIME]      | [MED_RES]    | [MED_OWNER]
 Long-term        | [LONG_ACTION]   | [LONG_TIME]     | [LONG_RES]   | [LONG_OWNER]
 
-Risk Mitigation:
+### Risk Mitigation
 Risk             | Mitigation Strategy| Contingency   | Monitoring   | Threshold
 -----------------|-------------------|---------------|--------------|----------
 [RISK_1]         | [MITIG_1]         | [CONT_1]      | [MON_1]      | [THRESH_1]
@@ -280,7 +294,7 @@ Expected Impact: [FINAL_IMPACT]
 
 ---
 
-Research Summary:
+### Research Summary
 - Key findings: [FINDINGS_SUMMARY]
 - Policy options: [OPTIONS_SUMMARY]
 - Recommended action: [ACTION_SUMMARY]
@@ -303,6 +317,33 @@ OUTPUT: Deliver comprehensive policy research with:
 
 ## Usage Examples
 
+
+
+## Best Practices
+
+1. **Start with clear objectives** - Define what success looks like before beginning
+2. **Use data to inform decisions** - Base choices on evidence and measurable outcomes
+3. **Iterate and improve continuously** - Treat implementation as an ongoing process
+4. **Engage stakeholders early** - Include key participants in planning and execution
+5. **Document thoroughly** - Maintain clear records for reference and knowledge transfer
+6. **Communicate regularly** - Keep all parties informed of progress and changes
+7. **Address challenges proactively** - Identify potential issues before they become problems
+8. **Celebrate milestones** - Recognize achievements to maintain motivation
+9. **Learn from experience** - Reflect on what works and adjust accordingly
+10. **Stay flexible** - Be ready to adapt based on feedback and changing circumstances
+
+## Tips for Success
+
+- Break complex tasks into manageable steps with clear milestones
+- Set realistic timelines that account for dependencies and constraints
+- Allocate sufficient resources including time, budget, and personnel
+- Use templates and frameworks to ensure consistency and quality
+- Seek feedback from users and stakeholders throughout the process
+- Build in checkpoints to assess progress and make adjustments
+- Maintain quality standards while remaining practical and efficient
+- Document lessons learned for future reference and improvement
+- Foster collaboration across teams and departments
+- Stay current with industry best practices and emerging trends
 ### Example 1: Climate Policy
 ```
 POLICY_RESEARCH: "Carbon pricing mechanism evaluation"

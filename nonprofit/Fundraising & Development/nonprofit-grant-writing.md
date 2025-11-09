@@ -1,3 +1,17 @@
+---
+title: Grant Writing & Proposal Development Framework
+category: nonprofit/Fundraising & Development
+tags: [communication, data-science, design, development, framework, management, nonprofit, research]
+use_cases:
+  - Implementing comprehensive system for researching, writing, and managing grant proposals for ...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - program-evaluation.md
+  - fundraising-campaign-framework.md
+last_updated: 2025-11-09
+---
+
 # Grant Writing & Proposal Development Framework
 
 ## Purpose
@@ -35,12 +49,288 @@ Root Causes:
 3. [CAUSE_3]: [CAUSE_3_DESC]
 4. [CAUSE_4]: [CAUSE_4_DESC]
 
-Evidence Base:
+### Evidence Base
 - Statistical Data: [STATISTICS]
 - Research Citations: [RESEARCH]
 - Community Input: [COMMUNITY_DATA]
 - Comparative Analysis: [COMPARISON]
 ```
+
+## Variables
+
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `[ORGANIZATION_NAME]` | Name of the organization | "John Smith" |
+| `[REQUEST_AMOUNT]` | Specify the request amount | "[specify value]" |
+| `[FUNDER_NAME]` | Name of the funder | "John Smith" |
+| `[PROJECT_NAME]` | Name of the project | "Digital Transformation Initiative" |
+| `[TARGET_POPULATION]` | Target or intended population | "[specify value]" |
+| `[GEOGRAPHIC_AREA]` | Specify the geographic area | "[specify value]" |
+| `[PROJECT_DURATION]` | Specify the project duration | "6 months" |
+| `[FUNDER_MISSION]` | Specify the funder mission | "[specify value]" |
+| `[ORG_ALIGNMENT]` | Specify the org alignment | "[specify value]" |
+| `[MISSION_SCORE]` | Specify the mission score | "[specify value]" |
+| `[MISSION_RISK]` | Specify the mission risk | "[specify value]" |
+| `[FUNDER_GEO]` | Specify the funder geo | "[specify value]" |
+| `[ORG_GEO]` | Specify the org geo | "[specify value]" |
+| `[GEO_SCORE]` | Specify the geo score | "[specify value]" |
+| `[GEO_RISK]` | Specify the geo risk | "[specify value]" |
+| `[FUNDER_PROGRAM]` | Specify the funder program | "[specify value]" |
+| `[ORG_PROGRAM]` | Specify the org program | "[specify value]" |
+| `[PROGRAM_SCORE]` | Specify the program score | "[specify value]" |
+| `[PROGRAM_RISK]` | Specify the program risk | "[specify value]" |
+| `[FUNDER_RANGE]` | Specify the funder range | "[specify value]" |
+| `[ORG_REQUEST]` | Specify the org request | "[specify value]" |
+| `[FUNDING_SCORE]` | Specify the funding score | "[specify value]" |
+| `[FUNDING_RISK]` | Specify the funding risk | "[specify value]" |
+| `[FUNDER_ELIG]` | Specify the funder elig | "[specify value]" |
+| `[ORG_STATUS]` | Specify the org status | "In Progress" |
+| `[ELIG_SCORE]` | Specify the elig score | "[specify value]" |
+| `[ELIG_RISK]` | Specify the elig risk | "[specify value]" |
+| `[COMPETITION]` | Specify the competition | "[specify value]" |
+| `[ORG_STRENGTH]` | Specify the org strength | "[specify value]" |
+| `[COMP_SCORE]` | Specify the comp score | "[specify value]" |
+| `[COMP_RISK]` | Specify the comp risk | "[specify value]" |
+| `[PRIMARY_PROBLEM]` | Specify the primary problem | "[specify value]" |
+| `[AFFECTED_POP]` | Specify the affected pop | "[specify value]" |
+| `[GEO_REACH]` | Specify the geo reach | "[specify value]" |
+| `[ECONOMIC_IMPACT]` | Specify the economic impact | "[specify value]" |
+| `[SOCIAL_IMPACT]` | Specify the social impact | "[specify value]" |
+| `[CAUSE_1]` | Specify the cause 1 | "[specify value]" |
+| `[CAUSE_1_DESC]` | Specify the cause 1 desc | "[specify value]" |
+| `[CAUSE_2]` | Specify the cause 2 | "[specify value]" |
+| `[CAUSE_2_DESC]` | Specify the cause 2 desc | "[specify value]" |
+| `[CAUSE_3]` | Specify the cause 3 | "[specify value]" |
+| `[CAUSE_3_DESC]` | Specify the cause 3 desc | "[specify value]" |
+| `[CAUSE_4]` | Specify the cause 4 | "[specify value]" |
+| `[CAUSE_4_DESC]` | Specify the cause 4 desc | "[specify value]" |
+| `[STATISTICS]` | Specify the statistics | "[specify value]" |
+| `[RESEARCH]` | Specify the research | "[specify value]" |
+| `[COMMUNITY_DATA]` | Specify the community data | "[specify value]" |
+| `[COMPARISON]` | Specify the comparison | "[specify value]" |
+| `[COMPONENT_1]` | Specify the component 1 | "[specify value]" |
+| `[ACTIVITIES_1]` | Specify the activities 1 | "[specify value]" |
+| `[OUTPUTS_1]` | Specify the outputs 1 | "[specify value]" |
+| `[OUTCOMES_1]` | Specify the outcomes 1 | "[specify value]" |
+| `[IMPACT_1]` | Specify the impact 1 | "[specify value]" |
+| `[INDICATORS_1]` | Specify the indicators 1 | "[specify value]" |
+| `[COMPONENT_2]` | Specify the component 2 | "[specify value]" |
+| `[ACTIVITIES_2]` | Specify the activities 2 | "[specify value]" |
+| `[OUTPUTS_2]` | Specify the outputs 2 | "[specify value]" |
+| `[OUTCOMES_2]` | Specify the outcomes 2 | "[specify value]" |
+| `[IMPACT_2]` | Specify the impact 2 | "[specify value]" |
+| `[INDICATORS_2]` | Specify the indicators 2 | "[specify value]" |
+| `[COMPONENT_3]` | Specify the component 3 | "[specify value]" |
+| `[ACTIVITIES_3]` | Specify the activities 3 | "[specify value]" |
+| `[OUTPUTS_3]` | Specify the outputs 3 | "[specify value]" |
+| `[OUTCOMES_3]` | Specify the outcomes 3 | "[specify value]" |
+| `[IMPACT_3]` | Specify the impact 3 | "[specify value]" |
+| `[INDICATORS_3]` | Specify the indicators 3 | "[specify value]" |
+| `[COMPONENT_4]` | Specify the component 4 | "[specify value]" |
+| `[ACTIVITIES_4]` | Specify the activities 4 | "[specify value]" |
+| `[OUTPUTS_4]` | Specify the outputs 4 | "[specify value]" |
+| `[OUTCOMES_4]` | Specify the outcomes 4 | "[specify value]" |
+| `[IMPACT_4]` | Specify the impact 4 | "[specify value]" |
+| `[INDICATORS_4]` | Specify the indicators 4 | "[specify value]" |
+| `[COMPONENT_5]` | Specify the component 5 | "[specify value]" |
+| `[ACTIVITIES_5]` | Specify the activities 5 | "[specify value]" |
+| `[OUTPUTS_5]` | Specify the outputs 5 | "[specify value]" |
+| `[OUTCOMES_5]` | Specify the outcomes 5 | "[specify value]" |
+| `[IMPACT_5]` | Specify the impact 5 | "[specify value]" |
+| `[INDICATORS_5]` | Specify the indicators 5 | "[specify value]" |
+| `[PERS_Y1]` | Specify the pers y1 | "[specify value]" |
+| `[PERS_Y2]` | Specify the pers y2 | "[specify value]" |
+| `[PERS_Y3]` | Specify the pers y3 | "[specify value]" |
+| `[PERS_TOTAL]` | Specify the pers total | "[specify value]" |
+| `[PERS_PCT]` | Specify the pers pct | "25%" |
+| `[FRINGE_Y1]` | Specify the fringe y1 | "[specify value]" |
+| `[FRINGE_Y2]` | Specify the fringe y2 | "[specify value]" |
+| `[FRINGE_Y3]` | Specify the fringe y3 | "[specify value]" |
+| `[FRINGE_TOTAL]` | Specify the fringe total | "[specify value]" |
+| `[FRINGE_PCT]` | Specify the fringe pct | "25%" |
+| `[EQUIP_Y1]` | Specify the equip y1 | "[specify value]" |
+| `[EQUIP_Y2]` | Specify the equip y2 | "[specify value]" |
+| `[EQUIP_Y3]` | Specify the equip y3 | "[specify value]" |
+| `[EQUIP_TOTAL]` | Specify the equip total | "[specify value]" |
+| `[EQUIP_PCT]` | Specify the equip pct | "25%" |
+| `[SUPP_Y1]` | Specify the supp y1 | "[specify value]" |
+| `[SUPP_Y2]` | Specify the supp y2 | "[specify value]" |
+| `[SUPP_Y3]` | Specify the supp y3 | "[specify value]" |
+| `[SUPP_TOTAL]` | Specify the supp total | "[specify value]" |
+| `[SUPP_PCT]` | Specify the supp pct | "25%" |
+| `[TRAVEL_Y1]` | Specify the travel y1 | "[specify value]" |
+| `[TRAVEL_Y2]` | Specify the travel y2 | "[specify value]" |
+| `[TRAVEL_Y3]` | Specify the travel y3 | "[specify value]" |
+| `[TRAVEL_TOTAL]` | Specify the travel total | "[specify value]" |
+| `[TRAVEL_PCT]` | Specify the travel pct | "25%" |
+| `[CONTRACT_Y1]` | Specify the contract y1 | "[specify value]" |
+| `[CONTRACT_Y2]` | Specify the contract y2 | "[specify value]" |
+| `[CONTRACT_Y3]` | Specify the contract y3 | "[specify value]" |
+| `[CONTRACT_TOTAL]` | Specify the contract total | "[specify value]" |
+| `[CONTRACT_PCT]` | Specify the contract pct | "25%" |
+| `[OTHER_Y1]` | Specify the other y1 | "[specify value]" |
+| `[OTHER_Y2]` | Specify the other y2 | "[specify value]" |
+| `[OTHER_Y3]` | Specify the other y3 | "[specify value]" |
+| `[OTHER_TOTAL]` | Specify the other total | "[specify value]" |
+| `[OTHER_PCT]` | Specify the other pct | "25%" |
+| `[INDIRECT_Y1]` | Specify the indirect y1 | "[specify value]" |
+| `[INDIRECT_Y2]` | Specify the indirect y2 | "[specify value]" |
+| `[INDIRECT_Y3]` | Specify the indirect y3 | "[specify value]" |
+| `[INDIRECT_TOTAL]` | Specify the indirect total | "[specify value]" |
+| `[INDIRECT_PCT]` | Specify the indirect pct | "25%" |
+| `[TOTAL_COST]` | Specify the total cost | "[specify value]" |
+| `[NUMBER_SERVED]` | Specify the number served | "10" |
+| `[COST_PER_PERSON]` | Specify the cost per person | "[specify value]" |
+| `[SROI]` | Specify the sroi | "[specify value]" |
+| `[BREAKEVEN]` | Specify the breakeven | "[specify value]" |
+| `[PROCESS_Q]` | Specify the process q | "[specify value]" |
+| `[PROCESS_METHOD]` | Specify the process method | "[specify value]" |
+| `[PROCESS_DATA]` | Specify the process data | "[specify value]" |
+| `[PROCESS_TIME]` | Specify the process time | "[specify value]" |
+| `[PROCESS_RESP]` | Specify the process resp | "[specify value]" |
+| `[OUTCOME_Q]` | Specify the outcome q | "[specify value]" |
+| `[OUTCOME_METHOD]` | Specify the outcome method | "[specify value]" |
+| `[OUTCOME_DATA]` | Specify the outcome data | "[specify value]" |
+| `[OUTCOME_TIME]` | Specify the outcome time | "[specify value]" |
+| `[OUTCOME_RESP]` | Specify the outcome resp | "[specify value]" |
+| `[IMPACT_Q]` | Specify the impact q | "[specify value]" |
+| `[IMPACT_METHOD]` | Specify the impact method | "[specify value]" |
+| `[IMPACT_DATA]` | Specify the impact data | "[specify value]" |
+| `[IMPACT_TIME]` | Specify the impact time | "[specify value]" |
+| `[IMPACT_RESP]` | Specify the impact resp | "[specify value]" |
+| `[FORM_Q]` | Specify the form q | "[specify value]" |
+| `[FORM_METHOD]` | Specify the form method | "[specify value]" |
+| `[FORM_DATA]` | Specify the form data | "[specify value]" |
+| `[FORM_TIME]` | Specify the form time | "[specify value]" |
+| `[FORM_RESP]` | Specify the form resp | "[specify value]" |
+| `[COST_Q]` | Specify the cost q | "[specify value]" |
+| `[COST_METHOD]` | Specify the cost method | "[specify value]" |
+| `[COST_DATA]` | Specify the cost data | "[specify value]" |
+| `[COST_TIME]` | Specify the cost time | "[specify value]" |
+| `[COST_RESP]` | Specify the cost resp | "[specify value]" |
+| `[LEAD_CURRENT]` | Specify the lead current | "[specify value]" |
+| `[LEAD_REQUIRED]` | Specify the lead required | "[specify value]" |
+| `[LEAD_GAP]` | Specify the lead gap | "[specify value]" |
+| `[LEAD_PLAN]` | Specify the lead plan | "[specify value]" |
+| `[TECH_CURRENT]` | Specify the tech current | "[specify value]" |
+| `[TECH_REQUIRED]` | Specify the tech required | "[specify value]" |
+| `[TECH_GAP]` | Specify the tech gap | "[specify value]" |
+| `[TECH_PLAN]` | Specify the tech plan | "[specify value]" |
+| `[FIN_CURRENT]` | Specify the fin current | "[specify value]" |
+| `[FIN_REQUIRED]` | Specify the fin required | "[specify value]" |
+| `[FIN_GAP]` | Specify the fin gap | "[specify value]" |
+| `[FIN_PLAN]` | Specify the fin plan | "[specify value]" |
+| `[PROG_CURRENT]` | Specify the prog current | "[specify value]" |
+| `[PROG_REQUIRED]` | Specify the prog required | "[specify value]" |
+| `[PROG_GAP]` | Specify the prog gap | "[specify value]" |
+| `[PROG_PLAN]` | Specify the prog plan | "[specify value]" |
+| `[ME_CURRENT]` | Specify the me current | "[specify value]" |
+| `[ME_REQUIRED]` | Specify the me required | "[specify value]" |
+| `[ME_GAP]` | Specify the me gap | "[specify value]" |
+| `[ME_PLAN]` | Specify the me plan | "[specify value]" |
+| `[PART_CURRENT]` | Specify the part current | "[specify value]" |
+| `[PART_REQUIRED]` | Specify the part required | "[specify value]" |
+| `[PART_GAP]` | Specify the part gap | "[specify value]" |
+| `[PART_PLAN]` | Specify the part plan | "[specify value]" |
+| `[GRANT_CURR]` | Specify the grant curr | "[specify value]" |
+| `[GRANT_Y1]` | Specify the grant y1 | "[specify value]" |
+| `[GRANT_Y2]` | Specify the grant y2 | "[specify value]" |
+| `[GRANT_Y3]` | Specify the grant y3 | "[specify value]" |
+| `[GRANT_POST]` | Specify the grant post | "[specify value]" |
+| `[DONOR_CURR]` | Specify the donor curr | "[specify value]" |
+| `[DONOR_Y1]` | Specify the donor y1 | "[specify value]" |
+| `[DONOR_Y2]` | Specify the donor y2 | "[specify value]" |
+| `[DONOR_Y3]` | Specify the donor y3 | "[specify value]" |
+| `[DONOR_POST]` | Specify the donor post | "[specify value]" |
+| `[CORP_CURR]` | Specify the corp curr | "[specify value]" |
+| `[CORP_Y1]` | Specify the corp y1 | "[specify value]" |
+| `[CORP_Y2]` | Specify the corp y2 | "[specify value]" |
+| `[CORP_Y3]` | Specify the corp y3 | "[specify value]" |
+| `[CORP_POST]` | Specify the corp post | "[specify value]" |
+| `[EARNED_CURR]` | Specify the earned curr | "[specify value]" |
+| `[EARNED_Y1]` | Specify the earned y1 | "[specify value]" |
+| `[EARNED_Y2]` | Specify the earned y2 | "[specify value]" |
+| `[EARNED_Y3]` | Specify the earned y3 | "[specify value]" |
+| `[EARNED_POST]` | Specify the earned post | "[specify value]" |
+| `[GOV_CURR]` | Specify the gov curr | "[specify value]" |
+| `[GOV_Y1]` | Specify the gov y1 | "[specify value]" |
+| `[GOV_Y2]` | Specify the gov y2 | "[specify value]" |
+| `[GOV_Y3]` | Specify the gov y3 | "[specify value]" |
+| `[GOV_POST]` | Specify the gov post | "[specify value]" |
+| `[KIND_CURR]` | Specify the kind curr | "[specify value]" |
+| `[KIND_Y1]` | Specify the kind y1 | "[specify value]" |
+| `[KIND_Y2]` | Specify the kind y2 | "[specify value]" |
+| `[KIND_Y3]` | Specify the kind y3 | "[specify value]" |
+| `[KIND_POST]` | Specify the kind post | "[specify value]" |
+| `[PARTNER_1]` | Specify the partner 1 | "[specify value]" |
+| `[ROLE_1]` | Specify the role 1 | "[specify value]" |
+| `[CONTRIB_1]` | Specify the contrib 1 | "[specify value]" |
+| `[MOU_1]` | Specify the mou 1 | "[specify value]" |
+| `[RISK_1]` | Specify the risk 1 | "[specify value]" |
+| `[MGMT_1]` | Specify the mgmt 1 | "[specify value]" |
+| `[PARTNER_2]` | Specify the partner 2 | "[specify value]" |
+| `[ROLE_2]` | Specify the role 2 | "[specify value]" |
+| `[CONTRIB_2]` | Specify the contrib 2 | "[specify value]" |
+| `[MOU_2]` | Specify the mou 2 | "[specify value]" |
+| `[RISK_2]` | Specify the risk 2 | "[specify value]" |
+| `[MGMT_2]` | Specify the mgmt 2 | "[specify value]" |
+| `[PARTNER_3]` | Specify the partner 3 | "[specify value]" |
+| `[ROLE_3]` | Specify the role 3 | "[specify value]" |
+| `[CONTRIB_3]` | Specify the contrib 3 | "[specify value]" |
+| `[MOU_3]` | Specify the mou 3 | "[specify value]" |
+| `[RISK_3]` | Specify the risk 3 | "[specify value]" |
+| `[MGMT_3]` | Specify the mgmt 3 | "[specify value]" |
+| `[PARTNER_4]` | Specify the partner 4 | "[specify value]" |
+| `[ROLE_4]` | Specify the role 4 | "[specify value]" |
+| `[CONTRIB_4]` | Specify the contrib 4 | "[specify value]" |
+| `[MOU_4]` | Specify the mou 4 | "[specify value]" |
+| `[RISK_4]` | Specify the risk 4 | "[specify value]" |
+| `[MGMT_4]` | Specify the mgmt 4 | "[specify value]" |
+| `[PARTNER_5]` | Specify the partner 5 | "[specify value]" |
+| `[ROLE_5]` | Specify the role 5 | "[specify value]" |
+| `[CONTRIB_5]` | Specify the contrib 5 | "[specify value]" |
+| `[MOU_5]` | Specify the mou 5 | "[specify value]" |
+| `[RISK_5]` | Specify the risk 5 | "[specify value]" |
+| `[MGMT_5]` | Specify the mgmt 5 | "[specify value]" |
+| `[FUND_PROB]` | Specify the fund prob | "[specify value]" |
+| `[FUND_IMP]` | Specify the fund imp | "[specify value]" |
+| `[FUND_SCORE]` | Specify the fund score | "[specify value]" |
+| `[FUND_MIT]` | Specify the fund mit | "[specify value]" |
+| `[FUND_CONT]` | Specify the fund cont | "[specify value]" |
+| `[DELAY_PROB]` | Specify the delay prob | "[specify value]" |
+| `[DELAY_IMP]` | Specify the delay imp | "[specify value]" |
+| `[DELAY_SCORE]` | Specify the delay score | "[specify value]" |
+| `[DELAY_MIT]` | Specify the delay mit | "[specify value]" |
+| `[DELAY_CONT]` | Specify the delay cont | "[specify value]" |
+| `[STAFF_PROB]` | Specify the staff prob | "[specify value]" |
+| `[STAFF_IMP]` | Specify the staff imp | "[specify value]" |
+| `[STAFF_SCORE]` | Specify the staff score | "[specify value]" |
+| `[STAFF_MIT]` | Specify the staff mit | "[specify value]" |
+| `[STAFF_CONT]` | Specify the staff cont | "[specify value]" |
+| `[PART_PROB]` | Specify the part prob | "[specify value]" |
+| `[PART_IMP]` | Specify the part imp | "[specify value]" |
+| `[PART_SCORE]` | Specify the part score | "[specify value]" |
+| `[PART_MIT]` | Specify the part mit | "[specify value]" |
+| `[PART_CONT]` | Specify the part cont | "[specify value]" |
+| `[EXT_PROB]` | Specify the ext prob | "[specify value]" |
+| `[EXT_IMP]` | Specify the ext imp | "[specify value]" |
+| `[EXT_SCORE]` | Specify the ext score | "[specify value]" |
+| `[EXT_MIT]` | Specify the ext mit | "[specify value]" |
+| `[EXT_CONT]` | Specify the ext cont | "[specify value]" |
+| `[PROGRESS_SCHEDULE]` | Specify the progress schedule | "[specify value]" |
+| `[FINANCIAL_SCHEDULE]` | Specify the financial schedule | "[specify value]" |
+| `[EVAL_SCHEDULE]` | Specify the eval schedule | "[specify value]" |
+| `[FINAL_DATE]` | Specify the final date | "2025-01-15" |
+| `[AUDIT_REQ]` | Specify the audit req | "[specify value]" |
+| `[DOC_STANDARDS]` | Specify the doc standards | "[specify value]" |
+| `[PROCUREMENT]` | Specify the procurement | "[specify value]" |
+| `[SUB_MONITORING]` | Specify the sub monitoring | "[specify value]" |
+| `[DATA_SYSTEM]` | Specify the data system | "[specify value]" |
+| `[DASHBOARD]` | Specify the dashboard | "[specify value]" |
+| `[REVIEW_FREQ]` | Specify the review freq | "[specify value]" |
+| `[ADAPTIVE_MGMT]` | Specify the adaptive mgmt | "[specify value]" |
+
+
 
 ### 3. Program Design & Theory of Change
 
@@ -146,7 +436,7 @@ Compliance Requirements:
 - Procurement Policies: [PROCUREMENT]
 - Sub-recipient Monitoring: [SUB_MONITORING]
 
-Performance Tracking:
+### Performance Tracking
 - Data Collection System: [DATA_SYSTEM]
 - Dashboard Metrics: [DASHBOARD]
 - Review Frequency: [REVIEW_FREQ]
@@ -155,6 +445,33 @@ Performance Tracking:
 
 ## Usage Examples
 
+
+
+## Best Practices
+
+1. **Start with clear objectives** - Define what success looks like before beginning
+2. **Use data to inform decisions** - Base choices on evidence and measurable outcomes
+3. **Iterate and improve continuously** - Treat implementation as an ongoing process
+4. **Engage stakeholders early** - Include key participants in planning and execution
+5. **Document thoroughly** - Maintain clear records for reference and knowledge transfer
+6. **Communicate regularly** - Keep all parties informed of progress and changes
+7. **Address challenges proactively** - Identify potential issues before they become problems
+8. **Celebrate milestones** - Recognize achievements to maintain motivation
+9. **Learn from experience** - Reflect on what works and adjust accordingly
+10. **Stay flexible** - Be ready to adapt based on feedback and changing circumstances
+
+## Tips for Success
+
+- Break complex tasks into manageable steps with clear milestones
+- Set realistic timelines that account for dependencies and constraints
+- Allocate sufficient resources including time, budget, and personnel
+- Use templates and frameworks to ensure consistency and quality
+- Seek feedback from users and stakeholders throughout the process
+- Build in checkpoints to assess progress and make adjustments
+- Maintain quality standards while remaining practical and efficient
+- Document lessons learned for future reference and improvement
+- Foster collaboration across teams and departments
+- Stay current with industry best practices and emerging trends
 ### Example 1: Federal Government Grant
 ```
 Organization: National Health Initiative

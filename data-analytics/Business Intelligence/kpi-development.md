@@ -1,3 +1,18 @@
+---
+title: Comprehensive KPI Development & Management Template
+category: data-analytics/Business Intelligence
+tags: [automation, comprehensive, data-analytics, design, development, machine-learning, management, marketing]
+use_cases:
+  - General application
+  - Professional use
+  - Project implementation
+related_templates:
+  - dashboard-design-patterns.md
+  - data-governance-framework.md
+  - predictive-modeling-framework.md
+last_updated: 2025-11-09
+---
+
 # Comprehensive KPI Development & Management Template
 
 ## Overview
@@ -562,6 +577,33 @@ Please develop a comprehensive KPI framework for [ORGANIZATION_NAME] with the fo
 
 ## Usage Examples
 
+
+
+## Best Practices
+
+1. **Start with clear objectives** - Define what success looks like before beginning
+2. **Use data to inform decisions** - Base choices on evidence and measurable outcomes
+3. **Iterate and improve continuously** - Treat implementation as an ongoing process
+4. **Engage stakeholders early** - Include key participants in planning and execution
+5. **Document thoroughly** - Maintain clear records for reference and knowledge transfer
+6. **Communicate regularly** - Keep all parties informed of progress and changes
+7. **Address challenges proactively** - Identify potential issues before they become problems
+8. **Celebrate milestones** - Recognize achievements to maintain motivation
+9. **Learn from experience** - Reflect on what works and adjust accordingly
+10. **Stay flexible** - Be ready to adapt based on feedback and changing circumstances
+
+## Tips for Success
+
+- Break complex tasks into manageable steps with clear milestones
+- Set realistic timelines that account for dependencies and constraints
+- Allocate sufficient resources including time, budget, and personnel
+- Use templates and frameworks to ensure consistency and quality
+- Seek feedback from users and stakeholders throughout the process
+- Build in checkpoints to assess progress and make adjustments
+- Maintain quality standards while remaining practical and efficient
+- Document lessons learned for future reference and improvement
+- Foster collaboration across teams and departments
+- Stay current with industry best practices and emerging trends
 ### Example 1: Fortune 500 Manufacturing Company
 ```yaml
 # Configuration for global manufacturing corporation
@@ -650,3 +692,694 @@ Customize for different KPI management platforms:
 ---
 
 *This KPI Development template provides a comprehensive framework for creating, implementing, and managing sophisticated KPI systems that drive organizational performance. Each variable should be carefully configured based on specific business objectives, stakeholder needs, and organizational capabilities.*
+
+## Variables
+
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `[ORGANIZATION_NAME]` | Name of the organization | "John Smith" |
+| `[ORGANIZATION_TYPE]` | Type or category of organization | "Standard" |
+| `[CUSTOM_ORG_TYPE]` | Type or category of custom org | "Standard" |
+| `[INDUSTRY_SECTOR]` | Specify the industry sector | "Technology" |
+| `[CUSTOM_INDUSTRY]` | Specify the custom industry | "Technology" |
+| `[COMPANY_SIZE]` | Specify the company size | "[specify value]" |
+| `[BUSINESS_MODEL]` | Specify the business model | "[specify value]" |
+| `[CUSTOM_MODEL]` | Specify the custom model | "[specify value]" |
+| `[STRATEGIC_FOCUS]` | Specify the strategic focus | "[specify value]" |
+| `[CUSTOM_FOCUS]` | Specify the custom focus | "[specify value]" |
+| `[ORGANIZATIONAL_MATURITY]` | Specify the organizational maturity | "[specify value]" |
+| `[CUSTOM_MATURITY]` | Specify the custom maturity | "[specify value]" |
+| `[STAKEHOLDER_GROUPS]` | Specify the stakeholder groups | "[specify value]" |
+| `[CUSTOM_STAKEHOLDERS]` | Key stakeholders involved in custom | "[specify value]" |
+| `[PERFORMANCE_HORIZON]` | Specify the performance horizon | "[specify value]" |
+| `[MISSION_ALIGNMENT_REQUIREMENTS]` | Specify the mission alignment requirements | "[specify value]" |
+| `[VISION_INTEGRATION_FRAMEWORK]` | Specify the vision integration framework | "[specify value]" |
+| `[STRATEGIC_OBJECTIVES]` | Primary objective or goal for strategic s | "Increase efficiency by 30%" |
+| `[CUSTOM_OBJECTIVES]` | Primary objective or goal for custom s | "Increase efficiency by 30%" |
+| `[VALUE_PROPOSITION_SUPPORT]` | Specify the value proposition support | "[specify value]" |
+| `[COMPETITIVE_DIFFERENTIATION_METRICS]` | Specify the competitive differentiation metrics | "[specify value]" |
+| `[MARKET_POSITIONING_INDICATORS]` | Specify the market positioning indicators | "[specify value]" |
+| `[BRAND_STRATEGY_ALIGNMENT]` | Strategy or approach for brand  alignment | "[specify value]" |
+| `[INNOVATION_STRATEGY_METRICS]` | Strategy or approach for innovation  metrics | "[specify value]" |
+| `[DIGITAL_TRANSFORMATION_KPIS]` | Specify the digital transformation kpis | "[specify value]" |
+| `[SUSTAINABILITY_KPI_INTEGRATION]` | Specify the sustainability kpi integration | "[specify value]" |
+| `[LEVEL1_STRATEGIC_KPIS]` | Specify the level1 strategic kpis | "[specify value]" |
+| `[LEVEL2_TACTICAL_KPIS]` | Specify the level2 tactical kpis | "[specify value]" |
+| `[LEVEL3_OPERATIONAL_KPIS]` | Specify the level3 operational kpis | "[specify value]" |
+| `[LEVEL4_INDIVIDUAL_KPIS]` | Specify the level4 individual kpis | "[specify value]" |
+| `[CROSS_FUNCTIONAL_KPIS]` | Specify the cross functional kpis | "[specify value]" |
+| `[LEADING_INDICATOR_FRAMEWORK]` | Specify the leading indicator framework | "[specify value]" |
+| `[LAGGING_INDICATOR_FRAMEWORK]` | Specify the lagging indicator framework | "[specify value]" |
+| `[BALANCED_SCORECARD_ALIGNMENT]` | Specify the balanced scorecard alignment | "[specify value]" |
+| `[OKR_INTEGRATION_FRAMEWORK]` | Specify the okr integration framework | "[specify value]" |
+| `[PERFORMANCE_CASCADE_DESIGN]` | Specify the performance cascade design | "[specify value]" |
+| `[FINANCIAL_KPI_CATEGORIES]` | Specify the financial kpi categories | "[specify value]" |
+| `[CUSTOM_FINANCIAL]` | Specify the custom financial | "[specify value]" |
+| `[CUSTOMER_KPI_CATEGORIES]` | Specify the customer kpi categories | "[specify value]" |
+| `[CUSTOM_CUSTOMER]` | Specify the custom customer | "[specify value]" |
+| `[OPERATIONAL_KPI_CATEGORIES]` | Specify the operational kpi categories | "[specify value]" |
+| `[CUSTOM_OPERATIONS]` | Specify the custom operations | "[specify value]" |
+| `[EMPLOYEE_KPI_CATEGORIES]` | Specify the employee kpi categories | "[specify value]" |
+| `[CUSTOM_EMPLOYEE]` | Specify the custom employee | "[specify value]" |
+| `[INNOVATION_KPI_CATEGORIES]` | Specify the innovation kpi categories | "[specify value]" |
+| `[CUSTOM_INNOVATION]` | Specify the custom innovation | "[specify value]" |
+| `[RISK_KPI_CATEGORIES]` | Specify the risk kpi categories | "[specify value]" |
+| `[CUSTOM_RISK]` | Specify the custom risk | "[specify value]" |
+| `[SUSTAINABILITY_KPI_CATEGORIES]` | Specify the sustainability kpi categories | "[specify value]" |
+| `[CUSTOM_SUSTAINABILITY]` | Specify the custom sustainability | "[specify value]" |
+| `[DIGITAL_KPI_CATEGORIES]` | Specify the digital kpi categories | "[specify value]" |
+| `[CUSTOM_DIGITAL]` | Specify the custom digital | "[specify value]" |
+| `[EXECUTIVE_KPI_REQUIREMENTS]` | Specify the executive kpi requirements | "[specify value]" |
+| `[BOARD_REPORTING_REQUIREMENTS]` | Specify the board reporting requirements | "[specify value]" |
+| `[INVESTOR_KPI_EXPECTATIONS]` | Specify the investor kpi expectations | "[specify value]" |
+| `[CUSTOMER_SUCCESS_METRICS]` | Specify the customer success metrics | "[specify value]" |
+| `[EMPLOYEE_PERFORMANCE_INDICATORS]` | Specify the employee performance indicators | "[specify value]" |
+| `[REGULATORY_COMPLIANCE_METRICS]` | Specify the regulatory compliance metrics | "[specify value]" |
+| `[MARKET_BENCHMARKING_REQUIREMENTS]` | Specify the market benchmarking requirements | "[specify value]" |
+| `[COMPETITIVE_ANALYSIS_METRICS]` | Specify the competitive analysis metrics | "[specify value]" |
+| `[INDUSTRY_STANDARD_ALIGNMENT]` | Specify the industry standard alignment | "Technology" |
+| `[BEST_PRACTICE_KPI_INTEGRATION]` | Specify the best practice kpi integration | "[specify value]" |
+| `[BUSINESS_IMPACT_ASSESSMENT]` | Specify the business impact assessment | "[specify value]" |
+| `[MEASURABILITY_EVALUATION]` | Specify the measurability evaluation | "[specify value]" |
+| `[DATA_AVAILABILITY_ANALYSIS]` | Specify the data availability analysis | "[specify value]" |
+| `[KPI_COST_BENEFIT_ANALYSIS]` | Specify the kpi cost benefit analysis | "[specify value]" |
+| `[IMPLEMENTATION_COMPLEXITY_ASSESSMENT]` | Specify the implementation complexity assessment | "[specify value]" |
+| `[STAKEHOLDER_RELEVANCE_EVALUATION]` | Specify the stakeholder relevance evaluation | "[specify value]" |
+| `[ACTIONABILITY_ASSESSMENT]` | Specify the actionability assessment | "[specify value]" |
+| `[FREQUENCY_REQUIREMENTS]` | Specify the frequency requirements | "[specify value]" |
+| `[HISTORICAL_DATA_AVAILABILITY]` | Specify the historical data availability | "[specify value]" |
+| `[BENCHMARKING_CAPABILITY_ASSESSMENT]` | Specify the benchmarking capability assessment | "[specify value]" |
+| `[SPECIFIC_KPI_DEFINITION]` | Specify the specific kpi definition | "[specify value]" |
+| `[MEASURABLE_KPI_CRITERIA]` | Specify the measurable kpi criteria | "[specify value]" |
+| `[ACHIEVABLE_KPI_TARGETS]` | Target or intended achievable kpi s | "[specify value]" |
+| `[RELEVANT_KPI_ALIGNMENT]` | Specify the relevant kpi alignment | "[specify value]" |
+| `[TIME_BOUND_KPI_PARAMETERS]` | Specify the time bound kpi parameters | "[specify value]" |
+| `[KPI_OWNER_ASSIGNMENT]` | Specify the kpi owner assignment | "[specify value]" |
+| `[KPI_DATA_SOURCE_IDENTIFICATION]` | Specify the kpi data source identification | "[specify value]" |
+| `[KPI_CALCULATION_METHODOLOGY]` | Specify the kpi calculation methodology | "[specify value]" |
+| `[KPI_THRESHOLD_DEFINITION]` | Specify the kpi threshold definition | "[specify value]" |
+| `[KPI_REVIEW_FREQUENCY]` | Specify the kpi review frequency | "[specify value]" |
+| `[STRATEGIC_IMPORTANCE_RANKING]` | Specify the strategic importance ranking | "[specify value]" |
+| `[IMPLEMENTATION_URGENCY_ASSESSMENT]` | Specify the implementation urgency assessment | "[specify value]" |
+| `[RESOURCE_REQUIREMENT_EVALUATION]` | Specify the resource requirement evaluation | "[specify value]" |
+| `[QUICK_WIN_KPI_IDENTIFICATION]` | Specify the quick win kpi identification | "[specify value]" |
+| `[LONG_TERM_VALUE_ASSESSMENT]` | Specify the long term value assessment | "[specify value]" |
+| `[RISK_MITIGATION_PRIORITY]` | Specify the risk mitigation priority | "High" |
+| `[STAKEHOLDER_INFLUENCE_MAPPING]` | Specify the stakeholder influence mapping | "[specify value]" |
+| `[COMPETITIVE_ADVANTAGE_POTENTIAL]` | Specify the competitive advantage potential | "[specify value]" |
+| `[TECHNOLOGY_READINESS_ASSESSMENT]` | Specify the technology readiness assessment | "[specify value]" |
+| `[CHANGE_MANAGEMENT_COMPLEXITY]` | Specify the change management complexity | "[specify value]" |
+| `[TOTAL_REVENUE_TRACKING]` | Specify the total revenue tracking | "[specify value]" |
+| `[CUSTOM_REVENUE]` | Specify the custom revenue | "[specify value]" |
+| `[REVENUE_GROWTH_METRICS]` | Specify the revenue growth metrics | "[specify value]" |
+| `[CUSTOM_GROWTH]` | Specify the custom growth | "[specify value]" |
+| `[REVENUE_MIX_ANALYSIS]` | Specify the revenue mix analysis | "[specify value]" |
+| `[CUSTOM_MIX]` | Specify the custom mix | "[specify value]" |
+| `[REVENUE_QUALITY_INDICATORS]` | Specify the revenue quality indicators | "[specify value]" |
+| `[CUSTOM_QUALITY]` | Specify the custom quality | "[specify value]" |
+| `[REVENUE_PER_METRICS]` | Specify the revenue per metrics | "[specify value]" |
+| `[CUSTOM_PER]` | Specify the custom per | "[specify value]" |
+| `[MARKET_SHARE_INDICATORS]` | Specify the market share indicators | "[specify value]" |
+| `[CUSTOM_SHARE]` | Specify the custom share | "[specify value]" |
+| `[CUSTOMER_LIFETIME_VALUE]` | Specify the customer lifetime value | "[specify value]" |
+| `[AVERAGE_DEAL_SIZE]` | Specify the average deal size | "[specify value]" |
+| `[WIN_RATE_METRICS]` | Specify the win rate metrics | "[specify value]" |
+| `[REVENUE_PIPELINE_HEALTH]` | Specify the revenue pipeline health | "[specify value]" |
+| `[GROSS_PROFIT_METRICS]` | Specify the gross profit metrics | "[specify value]" |
+| `[CUSTOM_GROSS]` | Specify the custom gross | "[specify value]" |
+| `[OPERATING_PROFIT_INDICATORS]` | Specify the operating profit indicators | "[specify value]" |
+| `[CUSTOM_OPERATING]` | Specify the custom operating | "[specify value]" |
+| `[NET_PROFIT_ANALYSIS]` | Specify the net profit analysis | "[specify value]" |
+| `[CUSTOM_NET]` | Specify the custom net | "[specify value]" |
+| `[CONTRIBUTION_MARGIN]` | Specify the contribution margin | "[specify value]" |
+| `[CUSTOM_CONTRIBUTION]` | Specify the custom contribution | "[specify value]" |
+| `[UNIT_ECONOMICS]` | Specify the unit economics | "[specify value]" |
+| `[CUSTOM_UNIT]` | Specify the custom unit | "[specify value]" |
+| `[MARKUP_MARGIN_TRACKING]` | Specify the markup margin tracking | "[specify value]" |
+| `[PRICE_REALIZATION_METRICS]` | Specify the price realization metrics | "[specify value]" |
+| `[COGS_ANALYSIS]` | Specify the cogs analysis | "[specify value]" |
+| `[CUSTOM_COGS]` | Specify the custom cogs | "[specify value]" |
+| `[OPERATING_LEVERAGE_INDICATORS]` | Specify the operating leverage indicators | "[specify value]" |
+| `[PROFITABILITY_BENCHMARKING]` | Specify the profitability benchmarking | "[specify value]" |
+| `[OPERATING_CASH_FLOW]` | Specify the operating cash flow | "[specify value]" |
+| `[CUSTOM_OCF]` | Specify the custom ocf | "[specify value]" |
+| `[FREE_CASH_FLOW_METRICS]` | Specify the free cash flow metrics | "[specify value]" |
+| `[CUSTOM_FCF]` | Specify the custom fcf | "[specify value]" |
+| `[CASH_CONVERSION_CYCLE]` | Specify the cash conversion cycle | "[specify value]" |
+| `[CUSTOM_CCC]` | Specify the custom ccc | "[specify value]" |
+| `[WORKING_CAPITAL_MANAGEMENT]` | Specify the working capital management | "[specify value]" |
+| `[CUSTOM_WC]` | Specify the custom wc | "[specify value]" |
+| `[DAYS_SALES_OUTSTANDING]` | Specify the days sales outstanding | "[specify value]" |
+| `[DAYS_PAYABLE_OUTSTANDING]` | Specify the days payable outstanding | "[specify value]" |
+| `[INVENTORY_TURNOVER]` | Specify the inventory turnover | "[specify value]" |
+| `[CUSTOM_INVENTORY]` | Specify the custom inventory | "[specify value]" |
+| `[CASH_POSITION_INDICATORS]` | Specify the cash position indicators | "[specify value]" |
+| `[CUSTOM_CASH]` | Specify the custom cash | "[specify value]" |
+| `[CAPITAL_EXPENDITURE_METRICS]` | Specify the capital expenditure metrics | "[specify value]" |
+| `[CUSTOM_CAPEX]` | Specify the custom capex | "[specify value]" |
+| `[DEBT_SERVICE_COVERAGE]` | Specify the debt service coverage | "[specify value]" |
+| `[CUSTOM_DEBT]` | Specify the custom debt | "[specify value]" |
+| `[LIQUIDITY_RATIOS]` | Specify the liquidity ratios | "[specify value]" |
+| `[CUSTOM_LIQUIDITY]` | Specify the custom liquidity | "[specify value]" |
+| `[LEVERAGE_RATIOS]` | Specify the leverage ratios | "[specify value]" |
+| `[CUSTOM_LEVERAGE]` | Specify the custom leverage | "[specify value]" |
+| `[EFFICIENCY_RATIOS]` | Specify the efficiency ratios | "[specify value]" |
+| `[CUSTOM_EFFICIENCY]` | Specify the custom efficiency | "[specify value]" |
+| `[RETURN_METRICS]` | Specify the return metrics | "[specify value]" |
+| `[CUSTOM_RETURN]` | Specify the custom return | "[specify value]" |
+| `[MARKET_VALUATION_RATIOS]` | Specify the market valuation ratios | "[specify value]" |
+| `[CUSTOM_VALUATION]` | Specify the custom valuation | "[specify value]" |
+| `[GROWTH_INDICATORS]` | Specify the growth indicators | "[specify value]" |
+| `[CUSTOM_GROWTH_RATIOS]` | Specify the custom growth ratios | "[specify value]" |
+| `[RISK_ASSESSMENT_RATIOS]` | Specify the risk assessment ratios | "[specify value]" |
+| `[CUSTOM_RISK_RATIOS]` | Specify the custom risk ratios | "[specify value]" |
+| `[ECONOMIC_VALUE_ADDED]` | Specify the economic value added | "[specify value]" |
+| `[RETURN_ON_INVESTED_CAPITAL]` | Specify the return on invested capital | "[specify value]" |
+| `[FINANCIAL_STRENGTH_SCORING]` | Specify the financial strength scoring | "[specify value]" |
+| `[CUSTOMER_SATISFACTION_SCORE]` | Specify the customer satisfaction score | "[specify value]" |
+| `[CUSTOM_CSAT]` | Specify the custom csat | "[specify value]" |
+| `[NET_PROMOTER_SCORE]` | Specify the net promoter score | "[specify value]" |
+| `[CUSTOM_NPS]` | Specify the custom nps | "[specify value]" |
+| `[CUSTOMER_EFFORT_SCORE]` | Specify the customer effort score | "[specify value]" |
+| `[CUSTOM_CES]` | Specify the custom ces | "[specify value]" |
+| `[CUSTOMER_LOYALTY_INDEX]` | Specify the customer loyalty index | "[specify value]" |
+| `[CUSTOM_LOYALTY]` | Specify the custom loyalty | "[specify value]" |
+| `[VOICE_OF_CUSTOMER_METRICS]` | Specify the voice of customer metrics | "[specify value]" |
+| `[CUSTOM_VOC]` | Specify the custom voc | "[specify value]" |
+| `[CUSTOMER_HEALTH_SCORE]` | Specify the customer health score | "[specify value]" |
+| `[CUSTOM_HEALTH]` | Specify the custom health | "[specify value]" |
+| `[SERVICE_QUALITY_INDICATORS]` | Specify the service quality indicators | "[specify value]" |
+| `[CUSTOM_SERVICE]` | Specify the custom service | "[specify value]" |
+| `[CUSTOMER_COMPLAINT_METRICS]` | Specify the customer complaint metrics | "[specify value]" |
+| `[CUSTOM_COMPLAINTS]` | Specify the custom complaints | "[specify value]" |
+| `[FIRST_CONTACT_RESOLUTION]` | Specify the first contact resolution | "[specify value]" |
+| `[CUSTOM_FCR]` | Specify the custom fcr | "[specify value]" |
+| `[CUSTOMER_EXPERIENCE_BENCHMARKING]` | Specify the customer experience benchmarking | "[specify value]" |
+| `[CUSTOMER_ACQUISITION_COST]` | Specify the customer acquisition cost | "[specify value]" |
+| `[CUSTOM_CAC]` | Specify the custom cac | "[specify value]" |
+| `[CUSTOMER_ACQUISITION_RATE]` | Specify the customer acquisition rate | "[specify value]" |
+| `[CUSTOM_ACQUISITION]` | Specify the custom acquisition | "[specify value]" |
+| `[LEAD_GENERATION_METRICS]` | Specify the lead generation metrics | "[specify value]" |
+| `[CUSTOM_LEADS]` | Specify the custom leads | "[specify value]" |
+| `[CONVERSION_FUNNEL_ANALYSIS]` | Specify the conversion funnel analysis | "[specify value]" |
+| `[CUSTOM_FUNNEL]` | Specify the custom funnel | "[specify value]" |
+| `[MARKET_PENETRATION_RATE]` | Specify the market penetration rate | "[specify value]" |
+| `[CUSTOM_PENETRATION]` | Specify the custom penetration | "[specify value]" |
+| `[BRAND_AWARENESS_METRICS]` | Specify the brand awareness metrics | "[specify value]" |
+| `[CUSTOM_BRAND]` | Specify the custom brand | "[specify value]" |
+| `[CUSTOMER_ONBOARDING_SUCCESS]` | Specify the customer onboarding success | "[specify value]" |
+| `[CUSTOM_ONBOARDING]` | Specify the custom onboarding | "[specify value]" |
+| `[UPSELLING_CROSS_SELLING]` | Specify the upselling cross selling | "[specify value]" |
+| `[CUSTOM_UPSELL]` | Specify the custom upsell | "[specify value]" |
+| `[CUSTOMER_EXPANSION_RATE]` | Specify the customer expansion rate | "[specify value]" |
+| `[CUSTOM_EXPANSION]` | Specify the custom expansion | "[specify value]" |
+| `[REFERRAL_PROGRAM_EFFECTIVENESS]` | Specify the referral program effectiveness | "[specify value]" |
+| `[CUSTOMER_RETENTION_RATE]` | Specify the customer retention rate | "[specify value]" |
+| `[CUSTOM_RETENTION]` | Specify the custom retention | "[specify value]" |
+| `[CUSTOMER_CHURN_RATE]` | Specify the customer churn rate | "[specify value]" |
+| `[CUSTOM_CHURN]` | Specify the custom churn | "[specify value]" |
+| `[CHURN_PREDICTION_ACCURACY]` | Specify the churn prediction accuracy | "[specify value]" |
+| `[CUSTOM_PREDICTION]` | Specify the custom prediction | "[specify value]" |
+| `[CUSTOMER_LIFETIME_VALUE_DETAILED]` | Specify the customer lifetime value detailed | "[specify value]" |
+| `[CUSTOM_CLV]` | Specify the custom clv | "[specify value]" |
+| `[REPEAT_PURCHASE_RATE]` | Specify the repeat purchase rate | "[specify value]" |
+| `[CUSTOM_REPEAT]` | Specify the custom repeat | "[specify value]" |
+| `[CUSTOMER_ENGAGEMENT_METRICS]` | Specify the customer engagement metrics | "[specify value]" |
+| `[CUSTOM_ENGAGEMENT]` | Specify the custom engagement | "[specify value]" |
+| `[REACTIVATION_RATE]` | Specify the reactivation rate | "[specify value]" |
+| `[CUSTOM_REACTIVATION]` | Specify the custom reactivation | "[specify value]" |
+| `[CUSTOMER_TENURE_ANALYSIS]` | Specify the customer tenure analysis | "[specify value]" |
+| `[CUSTOM_TENURE]` | Specify the custom tenure | "[specify value]" |
+| `[RENEWAL_RATE_METRICS]` | Specify the renewal rate metrics | "[specify value]" |
+| `[CUSTOM_RENEWAL]` | Specify the custom renewal | "[specify value]" |
+| `[CUSTOMER_SUCCESS_INDICATORS]` | Specify the customer success indicators | "[specify value]" |
+| `[MARKET_SHARE_TRACKING]` | Specify the market share tracking | "[specify value]" |
+| `[CUSTOM_MARKET_SHARE]` | Specify the custom market share | "[specify value]" |
+| `[COMPETITIVE_POSITION_ANALYSIS]` | Specify the competitive position analysis | "[specify value]" |
+| `[CUSTOM_COMPETITIVE]` | Specify the custom competitive | "[specify value]" |
+| `[MARKET_GROWTH_RATE]` | Specify the market growth rate | "[specify value]" |
+| `[CUSTOM_MARKET_GROWTH]` | Specify the custom market growth | "[specify value]" |
+| `[PRICE_COMPETITIVENESS]` | Specify the price competitiveness | "[specify value]" |
+| `[CUSTOM_PRICE_COMP]` | Specify the custom price comp | "[specify value]" |
+| `[INNOVATION_LEADERSHIP_METRICS]` | Specify the innovation leadership metrics | "[specify value]" |
+| `[CUSTOM_INNOVATION_LEAD]` | Specify the custom innovation lead | "[specify value]" |
+| `[CUSTOMER_PREFERENCE_RANKING]` | Specify the customer preference ranking | "[specify value]" |
+| `[CUSTOM_PREFERENCE]` | Specify the custom preference | "[specify value]" |
+| `[BRAND_POSITIONING_METRICS]` | Specify the brand positioning metrics | "[specify value]" |
+| `[CUSTOM_BRAND_POS]` | Specify the custom brand pos | "[specify value]" |
+| `[MARKET_OPPORTUNITY_SIZING]` | Specify the market opportunity sizing | "[specify value]" |
+| `[CUSTOM_OPPORTUNITY]` | Specify the custom opportunity | "[specify value]" |
+| `[COMPETITIVE_INTELLIGENCE_GATHERING]` | Specify the competitive intelligence gathering | "[specify value]" |
+| `[MARKET_TREND_ANALYSIS]` | Specify the market trend analysis | "[specify value]" |
+| `[OVERALL_EQUIPMENT_EFFECTIVENESS]` | Specify the overall equipment effectiveness | "[specify value]" |
+| `[CUSTOM_OEE]` | Specify the custom oee | "[specify value]" |
+| `[PROCESS_CYCLE_TIME]` | Specify the process cycle time | "[specify value]" |
+| `[CUSTOM_CYCLE_TIME]` | Specify the custom cycle time | "[specify value]" |
+| `[THROUGHPUT_METRICS]` | Specify the throughput metrics | "[specify value]" |
+| `[CUSTOM_THROUGHPUT]` | Specify the custom throughput | "[specify value]" |
+| `[PRODUCTIVITY_INDICATORS]` | Specify the productivity indicators | "[specify value]" |
+| `[CUSTOM_PRODUCTIVITY]` | Specify the custom productivity | "[specify value]" |
+| `[UTILIZATION_RATES]` | Specify the utilization rates | "[specify value]" |
+| `[CUSTOM_UTILIZATION]` | Specify the custom utilization | "[specify value]" |
+| `[WASTE_REDUCTION_METRICS]` | Specify the waste reduction metrics | "[specify value]" |
+| `[CUSTOM_WASTE]` | Specify the custom waste | "[specify value]" |
+| `[LEAN_MANUFACTURING_INDICATORS]` | Specify the lean manufacturing indicators | "[specify value]" |
+| `[CUSTOM_LEAN]` | Specify the custom lean | "[specify value]" |
+| `[AUTOMATION_EFFECTIVENESS]` | Specify the automation effectiveness | "[specify value]" |
+| `[CUSTOM_AUTOMATION]` | Specify the custom automation | "[specify value]" |
+| `[CAPACITY_PLANNING_METRICS]` | Specify the capacity planning metrics | "[specify value]" |
+| `[CUSTOM_CAPACITY]` | Specify the custom capacity | "[specify value]" |
+| `[PROCESS_STANDARDIZATION]` | Specify the process standardization | "[specify value]" |
+| `[CUSTOM_STANDARDIZATION]` | Specify the custom standardization | "[specify value]" |
+| `[QUALITY_SCORE_METRICS]` | Specify the quality score metrics | "[specify value]" |
+| `[CUSTOM_QUALITY_SCORE]` | Specify the custom quality score | "[specify value]" |
+| `[DEFECT_RATE_TRACKING]` | Specify the defect rate tracking | "[specify value]" |
+| `[CUSTOM_DEFECT]` | Specify the custom defect | "[specify value]" |
+| `[FIRST_PASS_YIELD]` | Specify the first pass yield | "[specify value]" |
+| `[CUSTOM_FPY]` | Specify the custom fpy | "[specify value]" |
+| `[CUSTOMER_RETURN_RATE]` | Specify the customer return rate | "[specify value]" |
+| `[REWORK_SCRAP_RATES]` | Specify the rework scrap rates | "[specify value]" |
+| `[CUSTOM_REWORK]` | Specify the custom rework | "[specify value]" |
+| `[SIX_SIGMA_METRICS]` | Specify the six sigma metrics | "[specify value]" |
+| `[CUSTOM_SIX_SIGMA]` | Specify the custom six sigma | "[specify value]" |
+| `[SUPPLIER_QUALITY_RATINGS]` | Specify the supplier quality ratings | "[specify value]" |
+| `[CUSTOM_SUPPLIER_QUALITY]` | Specify the custom supplier quality | "[specify value]" |
+| `[QUALITY_AUDIT_SCORES]` | Specify the quality audit scores | "[specify value]" |
+| `[CUSTOM_AUDIT]` | Specify the custom audit | "[specify value]" |
+| `[CONTINUOUS_IMPROVEMENT_INDICATORS]` | Specify the continuous improvement indicators | "[specify value]" |
+| `[CUSTOM_CI]` | Specify the custom ci | "[specify value]" |
+| `[QUALITY_COST_ANALYSIS]` | Specify the quality cost analysis | "[specify value]" |
+| `[CUSTOM_QUALITY_COST]` | Specify the custom quality cost | "[specify value]" |
+| `[ON_TIME_DELIVERY_PERFORMANCE]` | Specify the on time delivery performance | "[specify value]" |
+| `[CUSTOM_OTD]` | Specify the custom otd | "[specify value]" |
+| `[INVENTORY_TURNOVER_METRICS]` | Specify the inventory turnover metrics | "[specify value]" |
+| `[CUSTOM_INVENTORY_TURNOVER]` | Specify the custom inventory turnover | "[specify value]" |
+| `[STOCKOUT_FREQUENCY]` | Specify the stockout frequency | "[specify value]" |
+| `[CUSTOM_STOCKOUT]` | Specify the custom stockout | "[specify value]" |
+| `[SUPPLIER_PERFORMANCE_RATINGS]` | Specify the supplier performance ratings | "[specify value]" |
+| `[CUSTOM_SUPPLIER_PERF]` | Specify the custom supplier perf | "[specify value]" |
+| `[PROCUREMENT_EFFICIENCY]` | Specify the procurement efficiency | "[specify value]" |
+| `[CUSTOM_PROCUREMENT]` | Specify the custom procurement | "[specify value]" |
+| `[LOGISTICS_PERFORMANCE]` | Specify the logistics performance | "[specify value]" |
+| `[CUSTOM_LOGISTICS]` | Specify the custom logistics | "[specify value]" |
+| `[SUPPLY_CHAIN_VISIBILITY]` | Specify the supply chain visibility | "[specify value]" |
+| `[CUSTOM_VISIBILITY]` | Specify the custom visibility | "[specify value]" |
+| `[DEMAND_FORECAST_ACCURACY]` | Specify the demand forecast accuracy | "[specify value]" |
+| `[CUSTOM_FORECAST]` | Specify the custom forecast | "[specify value]" |
+| `[SUPPLY_CHAIN_RESILIENCE]` | Specify the supply chain resilience | "[specify value]" |
+| `[CUSTOM_RESILIENCE]` | Specify the custom resilience | "[specify value]" |
+| `[TOTAL_COST_OF_OWNERSHIP]` | Specify the total cost of ownership | "[specify value]" |
+| `[CUSTOM_TCO]` | Specify the custom tco | "[specify value]" |
+| `[SAFETY_INCIDENT_RATE]` | Specify the safety incident rate | "[specify value]" |
+| `[CUSTOM_SAFETY]` | Specify the custom safety | "[specify value]" |
+| `[ENVIRONMENTAL_COMPLIANCE]` | Specify the environmental compliance | "[specify value]" |
+| `[CUSTOM_ENVIRONMENTAL]` | Specify the custom environmental | "[specify value]" |
+| `[REGULATORY_COMPLIANCE_SCORE]` | Specify the regulatory compliance score | "[specify value]" |
+| `[CUSTOM_REGULATORY]` | Specify the custom regulatory | "[specify value]" |
+| `[TRAINING_COMPLIANCE_RATE]` | Specify the training compliance rate | "[specify value]" |
+| `[CUSTOM_TRAINING]` | Specify the custom training | "[specify value]" |
+| `[RISK_ASSESSMENT_METRICS]` | Specify the risk assessment metrics | "[specify value]" |
+| `[CUSTOM_RISK_ASSESSMENT]` | Specify the custom risk assessment | "[specify value]" |
+| `[INTERNAL_AUDIT_FINDINGS]` | Specify the internal audit findings | "[specify value]" |
+| `[CUSTOM_AUDIT_FINDINGS]` | Specify the custom audit findings | "[specify value]" |
+| `[EMERGENCY_RESPONSE_READINESS]` | Specify the emergency response readiness | "[specify value]" |
+| `[CUSTOM_EMERGENCY]` | Specify the custom emergency | "[specify value]" |
+| `[SECURITY_INCIDENT_METRICS]` | Specify the security incident metrics | "[specify value]" |
+| `[CUSTOM_SECURITY]` | Specify the custom security | "[specify value]" |
+| `[DATA_PROTECTION_COMPLIANCE]` | Specify the data protection compliance | "[specify value]" |
+| `[CUSTOM_DATA_PROTECTION]` | Specify the custom data protection | "[specify value]" |
+| `[ETHICS_CONDUCT_INDICATORS]` | Specify the ethics conduct indicators | "[specify value]" |
+| `[EMPLOYEE_ENGAGEMENT_SCORE]` | Specify the employee engagement score | "[specify value]" |
+| `[EMPLOYEE_SATISFACTION_INDEX]` | Specify the employee satisfaction index | "[specify value]" |
+| `[CUSTOM_SATISFACTION]` | Specify the custom satisfaction | "[specify value]" |
+| `[EMPLOYEE_NET_PROMOTER_SCORE]` | Specify the employee net promoter score | "[specify value]" |
+| `[CUSTOM_ENPS]` | Specify the custom enps | "[specify value]" |
+| `[WORK_LIFE_BALANCE_METRICS]` | Specify the work life balance metrics | "[specify value]" |
+| `[CUSTOM_WORK_LIFE]` | Specify the custom work life | "[specify value]" |
+| `[EMPLOYEE_FEEDBACK_RESPONSE]` | Specify the employee feedback response | "[specify value]" |
+| `[CUSTOM_FEEDBACK]` | Specify the custom feedback | "[specify value]" |
+| `[RECOGNITION_PROGRAM_EFFECTIVENESS]` | Specify the recognition program effectiveness | "[specify value]" |
+| `[CUSTOM_RECOGNITION]` | Specify the custom recognition | "[specify value]" |
+| `[INTERNAL_COMMUNICATION_EFFECTIVENESS]` | Specify the internal communication effectiveness | "[specify value]" |
+| `[CUSTOM_COMMUNICATION]` | Specify the custom communication | "[specify value]" |
+| `[WORKPLACE_CULTURE_INDICATORS]` | Specify the workplace culture indicators | "[specify value]" |
+| `[CUSTOM_CULTURE]` | Specify the custom culture | "[specify value]" |
+| `[EMPLOYEE_SUGGESTION_IMPLEMENTATION]` | Specify the employee suggestion implementation | "[specify value]" |
+| `[CUSTOM_SUGGESTIONS]` | Specify the custom suggestions | "[specify value]" |
+| `[PSYCHOLOGICAL_SAFETY_METRICS]` | Specify the psychological safety metrics | "[specify value]" |
+| `[EMPLOYEE_DEVELOPMENT_PARTICIPATION]` | Specify the employee development participation | "[specify value]" |
+| `[CUSTOM_DEVELOPMENT]` | Specify the custom development | "[specify value]" |
+| `[SKILL_GAP_ANALYSIS]` | Specify the skill gap analysis | "[specify value]" |
+| `[CUSTOM_SKILL_GAP]` | Specify the custom skill gap | "[specify value]" |
+| `[LEADERSHIP_PIPELINE_STRENGTH]` | Specify the leadership pipeline strength | "[specify value]" |
+| `[CUSTOM_PIPELINE]` | Specify the custom pipeline | "[specify value]" |
+| `[CAREER_PROGRESSION_RATE]` | Specify the career progression rate | "[specify value]" |
+| `[CUSTOM_PROGRESSION]` | Specify the custom progression | "[specify value]" |
+| `[HIGH_POTENTIAL_IDENTIFICATION]` | Specify the high potential identification | "[specify value]" |
+| `[CUSTOM_HIGH_POT]` | Specify the custom high pot | "[specify value]" |
+| `[MENTORING_PROGRAM_EFFECTIVENESS]` | Specify the mentoring program effectiveness | "[specify value]" |
+| `[CUSTOM_MENTORING]` | Specify the custom mentoring | "[specify value]" |
+| `[TRAINING_ROI_MEASUREMENT]` | Specify the training roi measurement | "[specify value]" |
+| `[CUSTOM_TRAINING_ROI]` | Specify the custom training roi | "[specify value]" |
+| `[COMPETENCY_ASSESSMENT_SCORES]` | Specify the competency assessment scores | "[specify value]" |
+| `[CUSTOM_COMPETENCY]` | Specify the custom competency | "[specify value]" |
+| `[CROSS_TRAINING_EFFECTIVENESS]` | Specify the cross training effectiveness | "[specify value]" |
+| `[CUSTOM_CROSS_TRAINING]` | Specify the custom cross training | "[specify value]" |
+| `[KNOWLEDGE_SHARING_METRICS]` | Specify the knowledge sharing metrics | "[specify value]" |
+| `[INDIVIDUAL_PERFORMANCE_RATINGS]` | Specify the individual performance ratings | "[specify value]" |
+| `[CUSTOM_INDIVIDUAL_PERF]` | Specify the custom individual perf | "[specify value]" |
+| `[TEAM_PERFORMANCE_METRICS]` | Specify the team performance metrics | "[specify value]" |
+| `[CUSTOM_TEAM_PERF]` | Specify the custom team perf | "[specify value]" |
+| `[GOAL_ACHIEVEMENT_RATE]` | Specify the goal achievement rate | "Increase efficiency by 30%" |
+| `[CUSTOM_GOAL_ACHIEVEMENT]` | Specify the custom goal achievement | "Increase efficiency by 30%" |
+| `[PERFORMANCE_REVIEW_COMPLETION]` | Specify the performance review completion | "[specify value]" |
+| `[CUSTOM_REVIEW]` | Specify the custom review | "[specify value]" |
+| `[CUSTOM_360_FEEDBACK]` | Specify the custom 360 feedback | "[specify value]" |
+| `[PERFORMANCE_IMPROVEMENT_SUCCESS]` | Specify the performance improvement success | "[specify value]" |
+| `[CUSTOM_IMPROVEMENT]` | Specify the custom improvement | "[specify value]" |
+| `[EMPLOYEE_PRODUCTIVITY_METRICS]` | Specify the employee productivity metrics | "[specify value]" |
+| `[CUSTOM_EMP_PRODUCTIVITY]` | Specify the custom emp productivity | "[specify value]" |
+| `[INNOVATION_CONTRIBUTION]` | Specify the innovation contribution | "[specify value]" |
+| `[CUSTOM_INNOVATION_CONTRIB]` | Specify the custom innovation contrib | "[specify value]" |
+| `[CUSTOMER_SERVICE_PERFORMANCE]` | Specify the customer service performance | "[specify value]" |
+| `[CUSTOM_CS_PERFORMANCE]` | Specify the custom cs performance | "[specify value]" |
+| `[SALES_PERFORMANCE_INDICATORS]` | Specify the sales performance indicators | "[specify value]" |
+| `[HEADCOUNT_OPTIMIZATION]` | Specify the headcount optimization | "10" |
+| `[CUSTOM_HEADCOUNT]` | Specify the custom headcount | "10" |
+| `[SPAN_OF_CONTROL_ANALYSIS]` | Specify the span of control analysis | "[specify value]" |
+| `[CUSTOM_SPAN]` | Specify the custom span | "[specify value]" |
+| `[WORKFORCE_DIVERSITY_METRICS]` | Specify the workforce diversity metrics | "[specify value]" |
+| `[CUSTOM_DIVERSITY]` | Specify the custom diversity | "[specify value]" |
+| `[COMPENSATION_COMPETITIVENESS]` | Specify the compensation competitiveness | "[specify value]" |
+| `[CUSTOM_COMPENSATION]` | Specify the custom compensation | "[specify value]" |
+| `[BENEFITS_UTILIZATION]` | Specify the benefits utilization | "[specify value]" |
+| `[CUSTOM_BENEFITS]` | Specify the custom benefits | "[specify value]" |
+| `[EMPLOYEE_LIFECYCLE_ANALYTICS]` | Specify the employee lifecycle analytics | "[specify value]" |
+| `[CUSTOM_LIFECYCLE]` | Specify the custom lifecycle | "[specify value]" |
+| `[WORKFORCE_PLANNING_ACCURACY]` | Specify the workforce planning accuracy | "[specify value]" |
+| `[CUSTOM_WF_PLANNING]` | Specify the custom wf planning | "[specify value]" |
+| `[REMOTE_WORK_EFFECTIVENESS]` | Specify the remote work effectiveness | "[specify value]" |
+| `[CUSTOM_REMOTE]` | Specify the custom remote | "[specify value]" |
+| `[SUCCESSION_PLANNING_READINESS]` | Specify the succession planning readiness | "[specify value]" |
+| `[CUSTOM_SUCCESSION]` | Specify the custom succession | "[specify value]" |
+| `[ORGANIZATIONAL_HEALTH_INDEX]` | Specify the organizational health index | "[specify value]" |
+| `[RD_INVESTMENT_EFFICIENCY]` | Specify the rd investment efficiency | "[specify value]" |
+| `[CUSTOM_RD_EFFICIENCY]` | Specify the custom rd efficiency | "[specify value]" |
+| `[INNOVATION_PIPELINE_HEALTH]` | Specify the innovation pipeline health | "[specify value]" |
+| `[CUSTOM_INNOVATION_PIPELINE]` | Specify the custom innovation pipeline | "[specify value]" |
+| `[TIME_TO_MARKET_METRICS]` | Specify the time to market metrics | "[specify value]" |
+| `[CUSTOM_TTM]` | Specify the custom ttm | "[specify value]" |
+| `[PATENT_PORTFOLIO_STRENGTH]` | Specify the patent portfolio strength | "[specify value]" |
+| `[CUSTOM_PATENTS]` | Specify the custom patents | "[specify value]" |
+| `[NEW_PRODUCT_REVENUE]` | Specify the new product revenue | "[specify value]" |
+| `[CUSTOM_NEW_PRODUCT_REV]` | Specify the custom new product rev | "[specify value]" |
+| `[INNOVATION_IDEA_GENERATION]` | Specify the innovation idea generation | "[specify value]" |
+| `[CUSTOM_IDEA_GENERATION]` | Specify the custom idea generation | "[specify value]" |
+| `[TECHNOLOGY_ADOPTION_RATE]` | Specify the technology adoption rate | "[specify value]" |
+| `[CUSTOM_TECH_ADOPTION]` | Specify the custom tech adoption | "[specify value]" |
+| `[INNOVATION_INVESTMENT_ALLOCATION]` | Specify the innovation investment allocation | "North America" |
+| `[CUSTOM_INNOVATION_INVESTMENT]` | Specify the custom innovation investment | "[specify value]" |
+| `[COLLABORATION_EFFECTIVENESS]` | Specify the collaboration effectiveness | "[specify value]" |
+| `[CUSTOM_COLLABORATION]` | Specify the custom collaboration | "[specify value]" |
+| `[INNOVATION_CULTURE_INDICATORS]` | Specify the innovation culture indicators | "[specify value]" |
+| `[DIGITAL_ADOPTION_METRICS]` | Specify the digital adoption metrics | "[specify value]" |
+| `[CUSTOM_DIGITAL_ADOPTION]` | Specify the custom digital adoption | "[specify value]" |
+| `[AUTOMATION_IMPLEMENTATION]` | Specify the automation implementation | "[specify value]" |
+| `[CUSTOM_AUTOMATION_IMPL]` | Specify the custom automation impl | "[specify value]" |
+| `[DATA_DRIVEN_DECISION_MAKING]` | Specify the data driven decision making | "[specify value]" |
+| `[CUSTOM_DATA_DRIVEN]` | Specify the custom data driven | "[specify value]" |
+| `[DIGITAL_CUSTOMER_EXPERIENCE]` | Specify the digital customer experience | "[specify value]" |
+| `[CUSTOM_DIGITAL_CX]` | Specify the custom digital cx | "[specify value]" |
+| `[TECHNOLOGY_INFRASTRUCTURE_HEALTH]` | Specify the technology infrastructure health | "[specify value]" |
+| `[CUSTOM_TECH_INFRA]` | Specify the custom tech infra | "[specify value]" |
+| `[CLOUD_ADOPTION_PROGRESS]` | Specify the cloud adoption progress | "[specify value]" |
+| `[CUSTOM_CLOUD_ADOPTION]` | Specify the custom cloud adoption | "[specify value]" |
+| `[CYBERSECURITY_EFFECTIVENESS]` | Specify the cybersecurity effectiveness | "[specify value]" |
+| `[CUSTOM_CYBERSECURITY]` | Specify the custom cybersecurity | "[specify value]" |
+| `[DIGITAL_SKILLS_DEVELOPMENT]` | Specify the digital skills development | "[specify value]" |
+| `[CUSTOM_DIGITAL_SKILLS]` | Specify the custom digital skills | "[specify value]" |
+| `[API_PERFORMANCE_METRICS]` | Specify the api performance metrics | "[specify value]" |
+| `[CUSTOM_API_PERFORMANCE]` | Specify the custom api performance | "[specify value]" |
+| `[MOBILE_EXPERIENCE_OPTIMIZATION]` | Specify the mobile experience optimization | "[specify value]" |
+| `[REVENUE_GROWTH_ACCELERATION]` | Specify the revenue growth acceleration | "[specify value]" |
+| `[CUSTOM_REV_GROWTH_ACCEL]` | Specify the custom rev growth accel | "[specify value]" |
+| `[MARKET_EXPANSION_SUCCESS]` | Specify the market expansion success | "[specify value]" |
+| `[CUSTOM_MARKET_EXPANSION]` | Specify the custom market expansion | "[specify value]" |
+| `[SCALABILITY_INDICATORS]` | Specify the scalability indicators | "[specify value]" |
+| `[CUSTOM_SCALABILITY]` | Specify the custom scalability | "[specify value]" |
+| `[BUSINESS_MODEL_INNOVATION]` | Specify the business model innovation | "[specify value]" |
+| `[CUSTOM_BM_INNOVATION]` | Specify the custom bm innovation | "[specify value]" |
+| `[PARTNERSHIP_EFFECTIVENESS]` | Specify the partnership effectiveness | "[specify value]" |
+| `[CUSTOM_PARTNERSHIPS]` | Specify the custom partnerships | "[specify value]" |
+| `[INTERNATIONAL_EXPANSION_METRICS]` | Specify the international expansion metrics | "[specify value]" |
+| `[CUSTOM_INTL_EXPANSION]` | Specify the custom intl expansion | "[specify value]" |
+| `[PLATFORM_ECOSYSTEM_GROWTH]` | Specify the platform ecosystem growth | "[specify value]" |
+| `[CUSTOM_PLATFORM_GROWTH]` | Specify the custom platform growth | "[specify value]" |
+| `[MERGER_ACQUISITION_SUCCESS]` | Specify the merger acquisition success | "[specify value]" |
+| `[CUSTOM_MA_SUCCESS]` | Specify the custom ma success | "[specify value]" |
+| `[ORGANIC_GROWTH_RATE]` | Specify the organic growth rate | "[specify value]" |
+| `[CUSTOM_ORGANIC_GROWTH]` | Specify the custom organic growth | "[specify value]" |
+| `[GROWTH_INVESTMENT_ROI]` | Specify the growth investment roi | "[specify value]" |
+| `[ENVIRONMENTAL_IMPACT_REDUCTION]` | Specify the environmental impact reduction | "[specify value]" |
+| `[SOCIAL_RESPONSIBILITY_INDICATORS]` | Specify the social responsibility indicators | "[specify value]" |
+| `[CUSTOM_SOCIAL]` | Specify the custom social | "[specify value]" |
+| `[GOVERNANCE_EFFECTIVENESS]` | Specify the governance effectiveness | "[specify value]" |
+| `[CUSTOM_GOVERNANCE]` | Specify the custom governance | "[specify value]" |
+| `[SUSTAINABLE_REVENUE_PERCENTAGE]` | Specify the sustainable revenue percentage | "25%" |
+| `[CUSTOM_SUSTAINABLE_REV]` | Specify the custom sustainable rev | "[specify value]" |
+| `[ESG_RATING_IMPROVEMENT]` | Specify the esg rating improvement | "[specify value]" |
+| `[CUSTOM_ESG_RATING]` | Specify the custom esg rating | "[specify value]" |
+| `[STAKEHOLDER_ENGAGEMENT]` | Specify the stakeholder engagement | "[specify value]" |
+| `[CUSTOM_STAKEHOLDER]` | Specify the custom stakeholder | "[specify value]" |
+| `[SUPPLY_CHAIN_SUSTAINABILITY]` | Specify the supply chain sustainability | "[specify value]" |
+| `[CUSTOM_SUPPLY_SUSTAINABILITY]` | Specify the custom supply sustainability | "[specify value]" |
+| `[CIRCULAR_ECONOMY_METRICS]` | Specify the circular economy metrics | "[specify value]" |
+| `[CUSTOM_CIRCULAR]` | Specify the custom circular | "[specify value]" |
+| `[TRANSPARENCY_REPORTING]` | Specify the transparency reporting | "[specify value]" |
+| `[CUSTOM_TRANSPARENCY]` | Specify the custom transparency | "[specify value]" |
+| `[IMPACT_MEASUREMENT]` | Specify the impact measurement | "[specify value]" |
+| `[DATA_SOURCE_IDENTIFICATION]` | Specify the data source identification | "[specify value]" |
+| `[CUSTOM_DATA_SOURCES]` | Specify the custom data sources | "[specify value]" |
+| `[DATA_INTEGRATION_ARCHITECTURE]` | Specify the data integration architecture | "[specify value]" |
+| `[CUSTOM_DATA_INTEGRATION]` | Specify the custom data integration | "[specify value]" |
+| `[DATA_WAREHOUSE_DESIGN]` | Specify the data warehouse design | "[specify value]" |
+| `[CUSTOM_DW_DESIGN]` | Specify the custom dw design | "[specify value]" |
+| `[MASTER_DATA_MANAGEMENT]` | Specify the master data management | "[specify value]" |
+| `[CUSTOM_MDM]` | Specify the custom mdm | "[specify value]" |
+| `[DATA_GOVERNANCE_FRAMEWORK]` | Specify the data governance framework | "[specify value]" |
+| `[CUSTOM_DATA_GOVERNANCE]` | Specify the custom data governance | "[specify value]" |
+| `[DATA_SECURITY_IMPLEMENTATION]` | Specify the data security implementation | "[specify value]" |
+| `[CUSTOM_DATA_SECURITY]` | Specify the custom data security | "[specify value]" |
+| `[DATA_LINEAGE_TRACKING]` | Specify the data lineage tracking | "[specify value]" |
+| `[CUSTOM_LINEAGE]` | Specify the custom lineage | "[specify value]" |
+| `[METADATA_MANAGEMENT]` | Specify the metadata management | "[specify value]" |
+| `[CUSTOM_METADATA]` | Specify the custom metadata | "[specify value]" |
+| `[DATA_CATALOG_DEVELOPMENT]` | Specify the data catalog development | "[specify value]" |
+| `[CUSTOM_DATA_CATALOG]` | Specify the custom data catalog | "[specify value]" |
+| `[API_DATA_MANAGEMENT]` | Specify the api data management | "[specify value]" |
+| `[DATA_QUALITY_DIMENSIONS]` | Specify the data quality dimensions | "[specify value]" |
+| `[CUSTOM_DQ_DIMENSIONS]` | Specify the custom dq dimensions | "[specify value]" |
+| `[DATA_VALIDATION_RULES]` | Specify the data validation rules | "[specify value]" |
+| `[CUSTOM_VALIDATION]` | Specify the custom validation | "[specify value]" |
+| `[DATA_QUALITY_MONITORING]` | Specify the data quality monitoring | "[specify value]" |
+| `[CUSTOM_DQ_MONITORING]` | Specify the custom dq monitoring | "[specify value]" |
+| `[DATA_CLEANSING_PROCEDURES]` | Specify the data cleansing procedures | "[specify value]" |
+| `[CUSTOM_CLEANSING]` | Specify the custom cleansing | "[specify value]" |
+| `[DATA_QUALITY_METRICS]` | Specify the data quality metrics | "[specify value]" |
+| `[CUSTOM_DQ_METRICS]` | Specify the custom dq metrics | "[specify value]" |
+| `[EXCEPTION_HANDLING]` | Specify the exception handling | "[specify value]" |
+| `[CUSTOM_EXCEPTION]` | Specify the custom exception | "[specify value]" |
+| `[DATA_RECONCILIATION]` | Specify the data reconciliation | "[specify value]" |
+| `[CUSTOM_RECONCILIATION]` | Specify the custom reconciliation | "[specify value]" |
+| `[DATA_QUALITY_REPORTING]` | Specify the data quality reporting | "[specify value]" |
+| `[CUSTOM_DQ_REPORTING]` | Specify the custom dq reporting | "[specify value]" |
+| `[DATA_QUALITY_IMPROVEMENT]` | Specify the data quality improvement | "[specify value]" |
+| `[CUSTOM_DQ_IMPROVEMENT]` | Specify the custom dq improvement | "[specify value]" |
+| `[DATA_QUALITY_SLAS]` | Specify the data quality slas | "[specify value]" |
+| `[KPI_CALCULATION_LOGIC]` | Specify the kpi calculation logic | "[specify value]" |
+| `[CUSTOM_CALCULATION]` | Specify the custom calculation | "[specify value]" |
+| `[DATA_TRANSFORMATION_RULES]` | Specify the data transformation rules | "[specify value]" |
+| `[CUSTOM_TRANSFORMATION]` | Specify the custom transformation | "[specify value]" |
+| `[CALCULATION_FREQUENCY]` | Specify the calculation frequency | "[specify value]" |
+| `[CUSTOM_CALC_FREQUENCY]` | Specify the custom calc frequency | "[specify value]" |
+| `[HISTORICAL_DATA_PROCESSING]` | Specify the historical data processing | "[specify value]" |
+| `[CUSTOM_HISTORICAL]` | Specify the custom historical | "[specify value]" |
+| `[KPI_VERSIONING]` | Specify the kpi versioning | "[specify value]" |
+| `[CUSTOM_VERSIONING]` | Specify the custom versioning | "[specify value]" |
+| `[CALCULATION_PERFORMANCE]` | Specify the calculation performance | "[specify value]" |
+| `[CUSTOM_CALC_PERFORMANCE]` | Specify the custom calc performance | "[specify value]" |
+| `[CALCULATION_ERROR_HANDLING]` | Specify the calculation error handling | "[specify value]" |
+| `[CUSTOM_CALC_ERROR]` | Specify the custom calc error | "[specify value]" |
+| `[CALCULATION_AUDIT_TRAIL]` | Specify the calculation audit trail | "[specify value]" |
+| `[CUSTOM_CALC_AUDIT]` | Specify the custom calc audit | "[specify value]" |
+| `[BENCHMARK_CALCULATION]` | Specify the benchmark calculation | "[specify value]" |
+| `[CUSTOM_BENCHMARK_CALC]` | Specify the custom benchmark calc | "[specify value]" |
+| `[WHAT_IF_SCENARIO_MODELING]` | Specify the what if scenario modeling | "[specify value]" |
+| `[STREAMING_DATA_ARCHITECTURE]` | Specify the streaming data architecture | "[specify value]" |
+| `[CUSTOM_STREAMING]` | Specify the custom streaming | "[specify value]" |
+| `[REALTIME_KPI_UPDATES]` | Specify the realtime kpi updates | "2025-01-15" |
+| `[CUSTOM_RT_UPDATES]` | Specify the custom rt updates | "2025-01-15" |
+| `[EVENT_DRIVEN_PROCESSING]` | Specify the event driven processing | "[specify value]" |
+| `[CUSTOM_EVENT_PROCESSING]` | Specify the custom event processing | "[specify value]" |
+| `[COMPLEX_EVENT_PROCESSING]` | Specify the complex event processing | "[specify value]" |
+| `[CUSTOM_CEP]` | Specify the custom cep | "[specify value]" |
+| `[REALTIME_DATA_QUALITY]` | Specify the realtime data quality | "[specify value]" |
+| `[CUSTOM_RT_DQ]` | Specify the custom rt dq | "[specify value]" |
+| `[RT_PERFORMANCE_MONITORING]` | Specify the rt performance monitoring | "[specify value]" |
+| `[CUSTOM_RT_PERFORMANCE]` | Specify the custom rt performance | "[specify value]" |
+| `[RT_SCALABILITY_MANAGEMENT]` | Specify the rt scalability management | "[specify value]" |
+| `[CUSTOM_RT_SCALABILITY]` | Specify the custom rt scalability | "[specify value]" |
+| `[REALTIME_ALERTING]` | Specify the realtime alerting | "[specify value]" |
+| `[CUSTOM_RT_ALERTING]` | Specify the custom rt alerting | "[specify value]" |
+| `[STREAM_ANALYTICS]` | Specify the stream analytics | "[specify value]" |
+| `[CUSTOM_STREAM_ANALYTICS]` | Specify the custom stream analytics | "[specify value]" |
+| `[HYBRID_BATCH_STREAM_PROCESSING]` | Specify the hybrid batch stream processing | "[specify value]" |
+| `[DASHBOARD_ARCHITECTURE]` | Specify the dashboard architecture | "[specify value]" |
+| `[CUSTOM_DASHBOARD_ARCH]` | Specify the custom dashboard arch | "[specify value]" |
+| `[VISUALIZATION_SELECTION]` | Specify the visualization selection | "[specify value]" |
+| `[CUSTOM_VISUALIZATION]` | Specify the custom visualization | "[specify value]" |
+| `[USER_EXPERIENCE_DESIGN]` | Specify the user experience design | "[specify value]" |
+| `[CUSTOM_UX_DESIGN]` | Specify the custom ux design | "[specify value]" |
+| `[PERSONALIZATION_FEATURES]` | Specify the personalization features | "[specify value]" |
+| `[CUSTOM_PERSONALIZATION]` | Specify the custom personalization | "[specify value]" |
+| `[DRILL_DOWN_CAPABILITIES]` | Specify the drill down capabilities | "[specify value]" |
+| `[CUSTOM_DRILL_DOWN]` | Specify the custom drill down | "[specify value]" |
+| `[INTERACTIVE_FEATURES]` | Specify the interactive features | "[specify value]" |
+| `[CUSTOM_INTERACTIVITY]` | Specify the custom interactivity | "[specify value]" |
+| `[MOBILE_OPTIMIZATION]` | Specify the mobile optimization | "[specify value]" |
+| `[CUSTOM_MOBILE_OPT]` | Specify the custom mobile opt | "[specify value]" |
+| `[ACCESSIBILITY_COMPLIANCE]` | Specify the accessibility compliance | "[specify value]" |
+| `[CUSTOM_ACCESSIBILITY]` | Specify the custom accessibility | "[specify value]" |
+| `[DASHBOARD_PERFORMANCE]` | Specify the dashboard performance | "[specify value]" |
+| `[CUSTOM_DASH_PERFORMANCE]` | Specify the custom dash performance | "[specify value]" |
+| `[MULTI_LANGUAGE_SUPPORT]` | Specify the multi language support | "[specify value]" |
+| `[REPORT_TYPES]` | Type or category of report s | "Standard" |
+| `[CUSTOM_REPORTS]` | Specify the custom reports | "[specify value]" |
+| `[REPORTING_FREQUENCY]` | Specify the reporting frequency | "[specify value]" |
+| `[CUSTOM_FREQUENCY]` | Specify the custom frequency | "[specify value]" |
+| `[DISTRIBUTION_CHANNELS]` | Specify the distribution channels | "[specify value]" |
+| `[CUSTOM_DISTRIBUTION]` | Specify the custom distribution | "[specify value]" |
+| `[AUTOMATED_REPORTING]` | Specify the automated reporting | "[specify value]" |
+| `[CUSTOM_AUTO_REPORTING]` | Specify the custom auto reporting | "[specify value]" |
+| `[REPORT_CUSTOMIZATION]` | Specify the report customization | "[specify value]" |
+| `[CUSTOM_REPORT_CUSTOM]` | Specify the custom report custom | "[specify value]" |
+| `[SUBSCRIPTION_MANAGEMENT]` | Specify the subscription management | "[specify value]" |
+| `[CUSTOM_SUBSCRIPTION]` | Specify the custom subscription | "[specify value]" |
+| `[REPORT_ALERT_INTEGRATION]` | Specify the report alert integration | "[specify value]" |
+| `[CUSTOM_REPORT_ALERTS]` | Specify the custom report alerts | "[specify value]" |
+| `[EXPORT_CAPABILITIES]` | Specify the export capabilities | "[specify value]" |
+| `[CUSTOM_EXPORT]` | Specify the custom export | "[specify value]" |
+| `[COLLABORATIVE_FEATURES]` | Specify the collaborative features | "[specify value]" |
+| `[REGULATORY_REPORTING]` | Specify the regulatory reporting | "[specify value]" |
+| `[PREDICTIVE_ANALYTICS]` | Specify the predictive analytics | "[specify value]" |
+| `[CUSTOM_PREDICTIVE]` | Specify the custom predictive | "[specify value]" |
+| `[MACHINE_LEARNING_INTEGRATION]` | Specify the machine learning integration | "[specify value]" |
+| `[CUSTOM_ML]` | Specify the custom ml | "[specify value]" |
+| `[STATISTICAL_ANALYSIS]` | Specify the statistical analysis | "[specify value]" |
+| `[CUSTOM_STATISTICS]` | Specify the custom statistics | "[specify value]" |
+| `[BENCHMARK_ANALYSIS]` | Specify the benchmark analysis | "[specify value]" |
+| `[CUSTOM_BENCHMARKING]` | Specify the custom benchmarking | "[specify value]" |
+| `[ROOT_CAUSE_ANALYSIS]` | Specify the root cause analysis | "[specify value]" |
+| `[CUSTOM_ROOT_CAUSE]` | Specify the custom root cause | "[specify value]" |
+| `[SIMULATION_MODELING]` | Specify the simulation modeling | "[specify value]" |
+| `[CUSTOM_SIMULATION]` | Specify the custom simulation | "[specify value]" |
+| `[NATURAL_LANGUAGE_GENERATION]` | Specify the natural language generation | "[specify value]" |
+| `[CUSTOM_NLG]` | Specify the custom nlg | "[specify value]" |
+| `[AUGMENTED_ANALYTICS]` | Specify the augmented analytics | "[specify value]" |
+| `[CUSTOM_AUGMENTED]` | Specify the custom augmented | "[specify value]" |
+| `[REALTIME_ANALYTICS]` | Specify the realtime analytics | "[specify value]" |
+| `[CUSTOM_RT_ANALYTICS]` | Specify the custom rt analytics | "[specify value]" |
+| `[ADVANCED_VISUALIZATION]` | Specify the advanced visualization | "[specify value]" |
+| `[QUERY_PERFORMANCE]` | Specify the query performance | "[specify value]" |
+| `[CUSTOM_QUERY_PERF]` | Specify the custom query perf | "[specify value]" |
+| `[SYSTEM_SCALABILITY]` | Specify the system scalability | "[specify value]" |
+| `[CACHE_MANAGEMENT]` | Specify the cache management | "[specify value]" |
+| `[CUSTOM_CACHE]` | Specify the custom cache | "[specify value]" |
+| `[RESOURCE_UTILIZATION]` | Specify the resource utilization | "[specify value]" |
+| `[CUSTOM_RESOURCES]` | Specify the custom resources | "[specify value]" |
+| `[USER_EXPERIENCE_METRICS]` | Specify the user experience metrics | "[specify value]" |
+| `[CUSTOM_UX_METRICS]` | Specify the custom ux metrics | "[specify value]" |
+| `[ERROR_MONITORING]` | Specify the error monitoring | "[specify value]" |
+| `[CUSTOM_ERROR_MONITORING]` | Specify the custom error monitoring | "[specify value]" |
+| `[CAPACITY_PLANNING]` | Specify the capacity planning | "[specify value]" |
+| `[CUSTOM_CAPACITY_PLAN]` | Specify the custom capacity plan | "[specify value]" |
+| `[PERFORMANCE_BENCHMARKING]` | Specify the performance benchmarking | "[specify value]" |
+| `[CUSTOM_PERF_BENCHMARK]` | Specify the custom perf benchmark | "[specify value]" |
+| `[OPTIMIZATION_RECOMMENDATIONS]` | Specify the optimization recommendations | "[specify value]" |
+| `[CUSTOM_OPTIMIZATION]` | Specify the custom optimization | "[specify value]" |
+| `[SLA_MONITORING]` | Specify the sla monitoring | "[specify value]" |
+| `[KPI_OWNERSHIP_MODEL]` | Specify the kpi ownership model | "[specify value]" |
+| `[CUSTOM_OWNERSHIP]` | Specify the custom ownership | "[specify value]" |
+| `[GOVERNANCE_COMMITTEE_STRUCTURE]` | Specify the governance committee structure | "[specify value]" |
+| `[CUSTOM_COMMITTEE]` | Specify the custom committee | "[specify value]" |
+| `[KPI_APPROVAL_PROCESS]` | Specify the kpi approval process | "[specify value]" |
+| `[CUSTOM_APPROVAL]` | Specify the custom approval | "[specify value]" |
+| `[KPI_CHANGE_MANAGEMENT]` | Specify the kpi change management | "[specify value]" |
+| `[CUSTOM_CHANGE]` | Specify the custom change | "[specify value]" |
+| `[DOCUMENTATION_STANDARDS]` | Specify the documentation standards | "[specify value]" |
+| `[CUSTOM_DOCUMENTATION]` | Specify the custom documentation | "[specify value]" |
+| `[REVIEW_APPROVAL_CYCLES]` | Specify the review approval cycles | "[specify value]" |
+| `[CUSTOM_REVIEW_CYCLES]` | Specify the custom review cycles | "[specify value]" |
+| `[ACCOUNTABILITY_FRAMEWORK]` | Specify the accountability framework | "10" |
+| `[CUSTOM_ACCOUNTABILITY]` | Specify the custom accountability | "10" |
+| `[POLICY_DEVELOPMENT]` | Specify the policy development | "[specify value]" |
+| `[CUSTOM_POLICIES]` | Specify the custom policies | "[specify value]" |
+| `[GOVERNANCE_COMPLIANCE_MONITORING]` | Specify the governance compliance monitoring | "[specify value]" |
+| `[CUSTOM_COMPLIANCE]` | Specify the custom compliance | "[specify value]" |
+| `[GOVERNANCE_TRAINING]` | Specify the governance training | "[specify value]" |
+| `[REGULAR_REVIEW_CYCLES]` | Specify the regular review cycles | "[specify value]" |
+| `[CUSTOM_REVIEW_FREQUENCY]` | Specify the custom review frequency | "[specify value]" |
+| `[PERFORMANCE_ANALYSIS]` | Specify the performance analysis | "[specify value]" |
+| `[CUSTOM_PERF_ANALYSIS]` | Specify the custom perf analysis | "[specify value]" |
+| `[BENCHMARK_COMPARISON]` | Specify the benchmark comparison | "[specify value]" |
+| `[CUSTOM_BENCHMARK_COMP]` | Specify the custom benchmark comp | "[specify value]" |
+| `[ACTION_PLANNING]` | Specify the action planning | "[specify value]" |
+| `[CUSTOM_ACTION_PLANNING]` | Specify the custom action planning | "[specify value]" |
+| `[PROGRESS_TRACKING]` | Specify the progress tracking | "[specify value]" |
+| `[CUSTOM_PROGRESS]` | Specify the custom progress | "[specify value]" |
+| `[STAKEHOLDER_COMMUNICATION]` | Specify the stakeholder communication | "[specify value]" |
+| `[CUSTOM_STAKEHOLDER_COMM]` | Specify the custom stakeholder comm | "[specify value]" |
+| `[EXCEPTION_MANAGEMENT]` | Specify the exception management | "[specify value]" |
+| `[CUSTOM_EXCEPTION_MGMT]` | Specify the custom exception mgmt | "[specify value]" |
+| `[SUCCESS_STORY_IDENTIFICATION]` | Specify the success story identification | "[specify value]" |
+| `[CUSTOM_SUCCESS]` | Specify the custom success | "[specify value]" |
+| `[PERFORMANCE_COACHING]` | Specify the performance coaching | "[specify value]" |
+| `[CUSTOM_COACHING]` | Specify the custom coaching | "[specify value]" |
+| `[REVIEW_DOCUMENTATION]` | Specify the review documentation | "[specify value]" |
+| `[KPI_EFFECTIVENESS_ASSESSMENT]` | Specify the kpi effectiveness assessment | "[specify value]" |
+| `[CUSTOM_EFFECTIVENESS]` | Specify the custom effectiveness | "[specify value]" |
+| `[CONTINUOUS_IMPROVEMENT_METHODOLOGY]` | Specify the continuous improvement methodology | "[specify value]" |
+| `[CUSTOM_CI_METHOD]` | Specify the custom ci method | "[specify value]" |
+| `[INNOVATION_OPPORTUNITIES]` | Specify the innovation opportunities | "[specify value]" |
+| `[CUSTOM_INNOVATION_OPP]` | Specify the custom innovation opp | "[specify value]" |
+| `[BEST_PRACTICE_SHARING]` | Specify the best practice sharing | "[specify value]" |
+| `[CUSTOM_BEST_PRACTICE]` | Specify the custom best practice | "[specify value]" |
+| `[TECHNOLOGY_ADVANCEMENT]` | Specify the technology advancement | "[specify value]" |
+| `[CUSTOM_TECH_ADVANCEMENT]` | Specify the custom tech advancement | "[specify value]" |
+| `[PROCESS_OPTIMIZATION]` | Specify the process optimization | "[specify value]" |
+| `[CUSTOM_PROCESS_OPT]` | Specify the custom process opt | "[specify value]" |
+| `[USER_FEEDBACK_INTEGRATION]` | Specify the user feedback integration | "[specify value]" |
+| `[CUSTOM_USER_FEEDBACK]` | Specify the custom user feedback | "[specify value]" |
+| `[TRAINING_DEVELOPMENT]` | Specify the training development | "[specify value]" |
+| `[CUSTOM_TRAINING_DEV]` | Specify the custom training dev | "[specify value]" |
+| `[MATURITY_ASSESSMENT]` | Specify the maturity assessment | "[specify value]" |
+| `[FUTURE_ROADMAP]` | Specify the future roadmap | "[specify value]" |
+| `[KPI_QUALITY_STANDARDS]` | Specify the kpi quality standards | "[specify value]" |
+| `[CUSTOM_QUALITY_STANDARDS]` | Specify the custom quality standards | "[specify value]" |
+| `[VALIDATION_PROCEDURES]` | Specify the validation procedures | "[specify value]" |
+| `[CUSTOM_VALIDATION_PROC]` | Specify the custom validation proc | "[specify value]" |
+| `[AUDIT_PROCESSES]` | Specify the audit processes | "[specify value]" |
+| `[CUSTOM_AUDIT_PROCESSES]` | Specify the custom audit processes | "[specify value]" |
+| `[ERROR_DETECTION_CORRECTION]` | Specify the error detection correction | "[specify value]" |
+| `[CUSTOM_ERROR_DETECTION]` | Specify the custom error detection | "[specify value]" |
+| `[QUALITY_METRICS]` | Specify the quality metrics | "[specify value]" |
+| `[CUSTOM_QUALITY_METRICS]` | Specify the custom quality metrics | "[specify value]" |
+| `[CONTROL_MECHANISMS]` | Specify the control mechanisms | "[specify value]" |
+| `[CUSTOM_CONTROLS]` | Specify the custom controls | "[specify value]" |
+| `[RISK_MANAGEMENT]` | Specify the risk management | "[specify value]" |
+| `[CUSTOM_RISK_MGMT]` | Specify the custom risk mgmt | "[specify value]" |
+| `[COMPLIANCE_VERIFICATION]` | Specify the compliance verification | "[specify value]" |
+| `[CUSTOM_COMPLIANCE_VERIFY]` | Specify the custom compliance verify | "[specify value]" |
+| `[ISSUE_RESOLUTION]` | Specify the issue resolution | "[specify value]" |
+| `[CUSTOM_ISSUE_RESOLUTION]` | Specify the custom issue resolution | "[specify value]" |
+| `[QUALITY_REPORTING]` | Specify the quality reporting | "[specify value]" |

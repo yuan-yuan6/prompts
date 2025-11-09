@@ -1,3 +1,18 @@
+---
+title: Feature Engineering & Selection Template
+category: data-analytics/Data Science
+tags: [automation, data-analytics, data-science, design, machine-learning, optimization, research, template]
+use_cases:
+  - Implementing design and implement comprehensive feature engineering strategies to create, tra...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - dashboard-design-patterns.md
+  - data-governance-framework.md
+  - predictive-modeling-framework.md
+last_updated: 2025-11-09
+---
+
 # Feature Engineering & Selection Template
 
 ## Purpose
@@ -21,7 +36,7 @@ Business Requirements:
 - Regulatory requirements: [REGULATORY_REQUIREMENTS]
 - Business constraints: [BUSINESS_CONSTRAINTS]
 
-Data Characteristics:
+### Data Characteristics
 - Dataset size: [DATASET_SIZE]
 - Raw feature count: [RAW_FEATURE_COUNT]
 - Feature types distribution: [FEATURE_TYPE_DISTRIBUTION]
@@ -31,8 +46,8 @@ Data Characteristics:
 - Update frequency: [UPDATE_FREQUENCY]
 - Storage requirements: [STORAGE_REQUIREMENTS]
 
-FEATURE INVENTORY & ANALYSIS:
-Raw Feature Assessment:
+### FEATURE INVENTORY & ANALYSIS
+### Raw Feature Assessment
 Numerical Features ([NUM_FEATURE_COUNT] features):
 1. [NUM_FEATURE_1]:
    - Data type: [NUM_TYPE_1]
@@ -90,9 +105,9 @@ Text Features ([TEXT_FEATURE_COUNT] features):
    - NLP potential: [TEXT_NLP_1]
    - Preprocessing needs: [TEXT_PREPROCESSING_1]
 
-FEATURE ENGINEERING PIPELINE:
+### FEATURE ENGINEERING PIPELINE
 Stage 1: Data Cleaning & Preprocessing
-Missing Value Handling:
+### Missing Value Handling
 1. Simple Imputation:
    - Mean imputation: [MEAN_IMPUTATION_FEATURES]
    - Median imputation: [MEDIAN_IMPUTATION_FEATURES]
@@ -114,7 +129,7 @@ Missing Value Handling:
    - Missing counts: [MISSING_COUNT_FEATURES]
    - Missing patterns: [MISSING_PATTERN_FEATURES]
 
-Outlier Treatment:
+### Outlier Treatment
 1. Detection Methods:
    - IQR method: [IQR_OUTLIER_FEATURES]
    - Z-score method: [ZSCORE_OUTLIER_FEATURES]
@@ -129,7 +144,7 @@ Outlier Treatment:
    - Separate modeling: [OUTLIER_SEPARATE_FEATURES]
 
 Stage 2: Numerical Feature Engineering
-Mathematical Transformations:
+### Mathematical Transformations
 1. Power Transformations:
    - Log transformation: [LOG_TRANSFORM_FEATURES]
    - Square root: [SQRT_TRANSFORM_FEATURES]
@@ -154,7 +169,7 @@ Mathematical Transformations:
    - Custom polynomials: [CUSTOM_POLY_FEATURES]
    - Orthogonal polynomials: [ORTHOGONAL_POLY_FEATURES]
 
-Binning & Discretization:
+### Binning & Discretization
 1. Equal-Width Binning:
    - Features: [EQUAL_WIDTH_FEATURES]
    - Bin count: [EQUAL_WIDTH_BINS]
@@ -178,7 +193,7 @@ Binning & Discretization:
    - Chi-square binning: [CHI2_BIN_FEATURES]
    - Optimal binning algorithm: [OPTIMAL_BIN_ALGORITHM]
 
-Statistical Features:
+### Statistical Features
 1. Rolling Window Statistics:
    - Window size: [ROLLING_WINDOW_SIZE]
    - Rolling mean: [ROLLING_MEAN_FEATURES]
@@ -209,7 +224,7 @@ Statistical Features:
    - Momentum: [MOMENTUM_FEATURES]
 
 Stage 3: Categorical Feature Engineering
-Traditional Encoding Methods:
+### Traditional Encoding Methods
 1. One-Hot Encoding:
    - Features encoded: [ONEHOT_FEATURES]
    - Sparse representation: [ONEHOT_SPARSE]
@@ -231,7 +246,7 @@ Traditional Encoding Methods:
    - Frequency encoding: [FREQ_ENCODING_FEATURES]
    - Normalized frequency: [NORM_FREQ_ENCODING]
 
-Advanced Encoding Methods:
+### Advanced Encoding Methods
 1. Target Encoding:
    - Mean target encoding: [MEAN_TARGET_FEATURES]
    - Bayesian target encoding: [BAYESIAN_TARGET_FEATURES]
@@ -266,7 +281,7 @@ Advanced Encoding Methods:
    - Hash dimension: [HASH_DIMENSION]
    - Hash function: [HASH_FUNCTION]
 
-Rare Category Handling:
+### Rare Category Handling
 - Rare threshold: [RARE_THRESHOLD]
 - Rare categories grouped: [RARE_GROUPED_CATEGORIES]
 - Grouping strategy: [RARE_GROUPING_STRATEGY]
@@ -303,7 +318,7 @@ Date/Time Decomposition:
    - Days since specific date: [DAYS_SINCE_FEATURES]
    - Business days since: [BUSINESS_DAYS_SINCE]
 
-Seasonal Features:
+### Seasonal Features
 1. Seasonal Decomposition:
    - Trend component: [TREND_COMPONENT_FEATURES]
    - Seasonal component: [SEASONAL_COMPONENT_FEATURES]
@@ -315,7 +330,7 @@ Seasonal Features:
    - Frequency components: [FOURIER_FREQUENCIES]
    - Seasonal periods: [FOURIER_PERIODS]
 
-Time Series Specific:
+### Time Series Specific
 1. Autocorrelation Features:
    - ACF features: [ACF_FEATURES]
    - PACF features: [PACF_FEATURES]
@@ -327,7 +342,7 @@ Time Series Specific:
    - Exponential window: [EXPONENTIAL_FEATURES]
 
 Stage 5: Text Feature Engineering (if applicable)
-Basic Text Features:
+### Basic Text Features
 1. Length Features:
    - Character count: [CHAR_COUNT_FEATURES]
    - Word count: [WORD_COUNT_FEATURES]
@@ -348,7 +363,7 @@ Basic Text Features:
    - Title case count: [TITLECASE_COUNT]
    - Capitalization ratio: [CAPITALIZATION_RATIO]
 
-Text Preprocessing:
+### Text Preprocessing
 1. Cleaning Steps:
    - Lowercase conversion: [LOWERCASE_CONVERSION]
    - Punctuation removal: [PUNCTUATION_REMOVAL]
@@ -366,7 +381,7 @@ Text Preprocessing:
    - Custom stop words: [CUSTOM_STOPWORDS]
    - Language: [TEXT_LANGUAGE]
 
-Advanced Text Features:
+### Advanced Text Features
 1. N-grams:
    - Unigrams: [UNIGRAM_FEATURES]
    - Bigrams: [BIGRAM_FEATURES]
@@ -396,7 +411,7 @@ Advanced Text Features:
    - Topic modeling: [TOPIC_FEATURES]
 
 Stage 6: Interaction & Combination Features
-Pairwise Interactions:
+### Pairwise Interactions
 1. Numerical × Numerical:
    - Multiplication: [NUM_NUM_MULT]
    - Division: [NUM_NUM_DIV]
@@ -428,7 +443,7 @@ Business-Specific Ratios:
    - Quality ratios: [QUALITY_RATIOS]
    - Utilization ratios: [UTILIZATION_RATIOS]
 
-Complex Interactions:
+### Complex Interactions
 1. Three-way Interactions:
    - Triple products: [TRIPLE_PRODUCTS]
    - Conditional features: [CONDITIONAL_FEATURES]
@@ -445,15 +460,15 @@ Domain-Specific Features:
 - Regulatory compliance features: [COMPLIANCE_FEATURES]
 - Risk assessment features: [RISK_FEATURES]
 
-FEATURE SELECTION:
-Selection Strategy Overview:
+### FEATURE SELECTION
+### Selection Strategy Overview
 - Total engineered features: [TOTAL_ENGINEERED_FEATURES]
 - Target feature count: [TARGET_FEATURE_COUNT]
 - Selection approach: [SELECTION_APPROACH]
 - Computational budget: [SELECTION_BUDGET]
 - Selection criteria: [SELECTION_CRITERIA]
 
-Filter Methods:
+### Filter Methods
 1. Statistical Tests:
    - Variance threshold: [VARIANCE_THRESHOLD]
    - Correlation threshold: [CORRELATION_THRESHOLD]
@@ -473,7 +488,7 @@ Filter Methods:
    - Fisher score: [FISHER_SCORE_FEATURES]
    - Distance correlation: [DISTANCE_CORR_FEATURES]
 
-Wrapper Methods:
+### Wrapper Methods
 1. Sequential Selection:
    - Forward selection: [FORWARD_SELECTION]
    - Backward elimination: [BACKWARD_ELIMINATION]
@@ -492,7 +507,7 @@ Wrapper Methods:
    - Mutation rate: [GA_MUTATION_RATE]
    - Crossover rate: [GA_CROSSOVER_RATE]
 
-Embedded Methods:
+### Embedded Methods
 1. Regularization-Based:
    - LASSO (L1): [LASSO_SELECTION_FEATURES]
    - Ridge (L2): [RIDGE_SELECTION_FEATURES]
@@ -511,7 +526,7 @@ Embedded Methods:
    - Linear regression coefficients: [LINEAR_COEF_FEATURES]
    - Coefficient stability: [COEF_STABILITY]
 
-Hybrid Selection:
+### Hybrid Selection
 1. Multi-stage Selection:
    - Stage 1 method: [STAGE1_METHOD]
    - Stage 2 method: [STAGE2_METHOD]
@@ -524,7 +539,7 @@ Hybrid Selection:
    - Voting strategy: [SELECTION_VOTING]
    - Consensus threshold: [CONSENSUS_THRESHOLD]
 
-Advanced Selection Techniques:
+### Advanced Selection Techniques
 1. Stability Selection:
    - Subsampling rate: [STABILITY_SUBSAMPLE]
    - Selection threshold: [STABILITY_THRESHOLD]
@@ -540,7 +555,7 @@ Advanced Selection Techniques:
    - Redundancy weight: [MRMR_REDUNDANCY_WEIGHT]
    - Selected features: [MRMR_SELECTED_FEATURES]
 
-Feature Quality Assessment:
+### Feature Quality Assessment
 1. Individual Feature Metrics:
    - Predictive power: [FEATURE_PREDICTIVE_POWER]
    - Stability score: [FEATURE_STABILITY_SCORE]
@@ -555,8 +570,8 @@ Feature Quality Assessment:
    - Coverage score: [FEATURESET_COVERAGE]
    - Complexity score: [FEATURESET_COMPLEXITY]
 
-FINAL FEATURE SET:
-Selected Features Summary:
+### FINAL FEATURE SET
+### Selected Features Summary
 - Final feature count: [FINAL_FEATURE_COUNT]
 - Feature reduction ratio: [FEATURE_REDUCTION_RATIO]
 - Average feature importance: [AVG_FEATURE_IMPORTANCE]
@@ -585,7 +600,7 @@ Top 20 Selected Features:
 19. [SELECTED_FEATURE_19]: Type: [TYPE_19], Importance: [IMP_19], Stability: [STAB_19]
 20. [SELECTED_FEATURE_20]: Type: [TYPE_20], Importance: [IMP_20], Stability: [STAB_20]
 
-Feature Categories:
+### Feature Categories
 - Original raw features: [ORIGINAL_FEATURES_SELECTED]
 - Mathematical transformations: [MATH_TRANSFORM_SELECTED]
 - Categorical encodings: [CATEGORICAL_SELECTED]
@@ -594,15 +609,15 @@ Feature Categories:
 - Domain-specific features: [DOMAIN_SPECIFIC_SELECTED]
 - Text features: [TEXT_FEATURES_SELECTED]
 
-FEATURE PIPELINE IMPLEMENTATION:
-Pipeline Architecture:
+### FEATURE PIPELINE IMPLEMENTATION
+### Pipeline Architecture
 - Pipeline stages: [PIPELINE_STAGES]
 - Preprocessing steps: [PREPROCESSING_STEPS]
 - Feature engineering steps: [FE_STEPS]
 - Feature selection steps: [FS_STEPS]
 - Validation steps: [VALIDATION_STEPS]
 
-Implementation Details:
+### Implementation Details
 1. Data Processing:
    - Memory usage optimization: [MEMORY_OPTIMIZATION]
    - Parallel processing: [PARALLEL_PROCESSING]
@@ -621,8 +636,8 @@ Implementation Details:
    - Resource requirements: [RESOURCE_REQUIREMENTS]
    - Performance optimization: [PERFORMANCE_OPTIMIZATION]
 
-VALIDATION & TESTING:
-Feature Engineering Validation:
+### VALIDATION & TESTING
+### Feature Engineering Validation
 1. Cross-Validation:
    - CV strategy: [CV_STRATEGY]
    - Number of folds: [CV_FOLDS]
@@ -640,14 +655,14 @@ Feature Engineering Validation:
    - Bootstrap stability: [BOOTSTRAP_STABILITY]
    - Jackknife stability: [JACKKNIFE_STABILITY]
 
-Performance Impact:
-Before Feature Engineering:
+### Performance Impact
+### Before Feature Engineering
 - Baseline model performance: [BASELINE_PERFORMANCE]
 - Baseline feature count: [BASELINE_FEATURE_COUNT]
 - Baseline training time: [BASELINE_TRAINING_TIME]
 - Baseline inference time: [BASELINE_INFERENCE_TIME]
 
-After Feature Engineering:
+### After Feature Engineering
 - Improved model performance: [IMPROVED_PERFORMANCE]
 - Performance gain: [PERFORMANCE_GAIN]
 - Final feature count: [FINAL_FEATURE_COUNT]
@@ -661,8 +676,8 @@ A/B Testing Results:
 - Business metric improvement: [AB_TEST_BUSINESS_IMPROVEMENT]
 - Confidence interval: [AB_TEST_CONFIDENCE_INTERVAL]
 
-MONITORING & MAINTENANCE:
-Feature Drift Detection:
+### MONITORING & MAINTENANCE
+### Feature Drift Detection
 1. Statistical Tests:
    - Population Stability Index: [PSI_MONITORING]
    - Kolmogorov-Smirnov test: [KS_TEST_MONITORING]
@@ -675,7 +690,7 @@ Feature Drift Detection:
    - Alert levels: [DRIFT_ALERT_LEVELS]
    - Escalation procedures: [DRIFT_ESCALATION]
 
-Feature Quality Monitoring:
+### Feature Quality Monitoring
 1. Quality Metrics:
    - Missing value rates: [MISSING_VALUE_MONITORING]
    - Outlier detection: [OUTLIER_MONITORING]
@@ -687,14 +702,14 @@ Feature Quality Monitoring:
    - Domain constraint validation: [DOMAIN_CONSTRAINT_MONITORING]
    - Logical consistency checks: [LOGICAL_CONSISTENCY_MONITORING]
 
-Automated Reengineering:
+### Automated Reengineering
 - Reengineering triggers: [REENG_TRIGGERS]
 - Automated pipeline updates: [AUTO_PIPELINE_UPDATES]
 - Feature selection refresh: [FEATURE_SELECTION_REFRESH]
 - Performance threshold monitoring: [PERFORMANCE_THRESHOLD_MONITORING]
 
-DOCUMENTATION & GOVERNANCE:
-Feature Documentation:
+### DOCUMENTATION & GOVERNANCE
+### Feature Documentation
 1. Feature Catalog:
    - Feature definitions: [FEATURE_DEFINITIONS]
    - Business meanings: [FEATURE_BUSINESS_MEANINGS]
@@ -714,29 +729,29 @@ Feature Documentation:
    - Usage guidelines: [USAGE_GUIDELINES]
    - Best practices: [BEST_PRACTICES]
 
-Governance Framework:
+### Governance Framework
 - Feature approval process: [FEATURE_APPROVAL_PROCESS]
 - Change management: [CHANGE_MANAGEMENT]
 - Access controls: [ACCESS_CONTROLS]
 - Audit trails: [AUDIT_TRAILS]
 - Compliance requirements: [COMPLIANCE_REQUIREMENTS]
 
-BUSINESS IMPACT:
-Model Performance Improvement:
+### BUSINESS IMPACT
+### Model Performance Improvement
 - Performance metric improvement: [PERFORMANCE_IMPROVEMENT]
 - Model accuracy gain: [ACCURACY_GAIN]
 - Business KPI impact: [BUSINESS_KPI_IMPACT]
 - ROI calculation: [ROI_CALCULATION]
 - Cost-benefit analysis: [COST_BENEFIT_ANALYSIS]
 
-Business Value:
+### Business Value
 - Revenue impact: [REVENUE_IMPACT]
 - Cost savings: [COST_SAVINGS]
 - Risk reduction: [RISK_REDUCTION]
 - Operational efficiency: [OPERATIONAL_EFFICIENCY]
 - Competitive advantage: [COMPETITIVE_ADVANTAGE]
 
-Strategic Benefits:
+### Strategic Benefits
 - Data asset value: [DATA_ASSET_VALUE]
 - Analytical capability enhancement: [ANALYTICAL_CAPABILITY]
 - Future modeling opportunities: [FUTURE_OPPORTUNITIES]
@@ -758,6 +773,33 @@ OUTPUT: Deliver comprehensive feature engineering solution including:
 
 ## Usage Examples
 
+
+
+## Best Practices
+
+1. **Start with clear objectives** - Define what success looks like before beginning
+2. **Use data to inform decisions** - Base choices on evidence and measurable outcomes
+3. **Iterate and improve continuously** - Treat implementation as an ongoing process
+4. **Engage stakeholders early** - Include key participants in planning and execution
+5. **Document thoroughly** - Maintain clear records for reference and knowledge transfer
+6. **Communicate regularly** - Keep all parties informed of progress and changes
+7. **Address challenges proactively** - Identify potential issues before they become problems
+8. **Celebrate milestones** - Recognize achievements to maintain motivation
+9. **Learn from experience** - Reflect on what works and adjust accordingly
+10. **Stay flexible** - Be ready to adapt based on feedback and changing circumstances
+
+## Tips for Success
+
+- Break complex tasks into manageable steps with clear milestones
+- Set realistic timelines that account for dependencies and constraints
+- Allocate sufficient resources including time, budget, and personnel
+- Use templates and frameworks to ensure consistency and quality
+- Seek feedback from users and stakeholders throughout the process
+- Build in checkpoints to assess progress and make adjustments
+- Maintain quality standards while remaining practical and efficient
+- Document lessons learned for future reference and improvement
+- Foster collaboration across teams and departments
+- Stay current with industry best practices and emerging trends
 ### Example 1: Credit Risk Feature Engineering
 ```
 DATASET_NAME: "Credit Application Data"

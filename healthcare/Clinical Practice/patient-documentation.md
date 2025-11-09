@@ -1,3 +1,18 @@
+---
+title: Patient Documentation Template
+category: healthcare/Clinical Practice
+tags: [documentation, healthcare, template]
+use_cases:
+  - Implementing create comprehensive patient documentation including medical histories, clinical...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - telemedicine-platform-design.md
+  - patient-care-pathway.md
+  - clinical-trials-management.md
+last_updated: 2025-11-09
+---
+
 # Patient Documentation Template
 
 ## Purpose
@@ -21,7 +36,7 @@ Demographics:
 - Race/Ethnicity: [RACE_ETHNICITY]
 - Marital status: [MARITAL_STATUS]
 
-Contact Information:
+### Contact Information
 - Address: [PATIENT_ADDRESS]
 - Phone: [PHONE_NUMBERS]
 - Email: [EMAIL_ADDRESS]
@@ -37,10 +52,10 @@ Insurance/Coverage:
 - Authorization status: [AUTH_STATUS]
 - Copay: [COPAY_AMOUNT]
 
-CLINICAL DOCUMENTATION:
+### CLINICAL DOCUMENTATION
 
 History and Physical (H&P):
-Chief Complaint:
+### Chief Complaint
 "[CHIEF_COMPLAINT]"
 Duration: [SYMPTOM_DURATION]
 Severity: [SEVERITY_SCALE]
@@ -60,25 +75,25 @@ History of Present Illness (HPI):
 - Previous episodes: [PREVIOUS_EPISODES]
 - Treatments tried: [TREATMENTS_ATTEMPTED]
 
-Past Medical History:
-Medical Conditions:
+### Past Medical History
+### Medical Conditions
 1. [CONDITION_1] - Diagnosed: [DATE_1] - Status: [STATUS_1] - Controlled: [CONTROL_1]
 2. [CONDITION_2] - Diagnosed: [DATE_2] - Status: [STATUS_2] - Controlled: [CONTROL_2]
 3. [CONDITION_3] - Diagnosed: [DATE_3] - Status: [STATUS_3] - Controlled: [CONTROL_3]
 4. [CONDITION_4] - Diagnosed: [DATE_4] - Status: [STATUS_4] - Controlled: [CONTROL_4]
 5. [CONDITION_5] - Diagnosed: [DATE_5] - Status: [STATUS_5] - Controlled: [CONTROL_5]
 
-Surgical History:
+### Surgical History
 1. [SURGERY_1] - Date: [SURGERY_DATE_1] - Complications: [COMPLICATIONS_1] - Outcome: [OUTCOME_1]
 2. [SURGERY_2] - Date: [SURGERY_DATE_2] - Complications: [COMPLICATIONS_2] - Outcome: [OUTCOME_2]
 3. [SURGERY_3] - Date: [SURGERY_DATE_3] - Complications: [COMPLICATIONS_3] - Outcome: [OUTCOME_3]
 
-Hospitalizations:
+### Hospitalizations
 1. [HOSPITALIZATION_1] - Date: [HOSPITAL_DATE_1] - Reason: [HOSPITAL_REASON_1]
 2. [HOSPITALIZATION_2] - Date: [HOSPITAL_DATE_2] - Reason: [HOSPITAL_REASON_2]
 3. [HOSPITALIZATION_3] - Date: [HOSPITAL_DATE_3] - Reason: [HOSPITAL_REASON_3]
 
-Current Medications:
+### Current Medications
 1. [MEDICATION_1] - Dose: [DOSE_1] - Frequency: [FREQUENCY_1] - Route: [ROUTE_1] - Start date: [START_DATE_1]
 2. [MEDICATION_2] - Dose: [DOSE_2] - Frequency: [FREQUENCY_2] - Route: [ROUTE_2] - Start date: [START_DATE_2]
 3. [MEDICATION_3] - Dose: [DOSE_3] - Frequency: [FREQUENCY_3] - Route: [ROUTE_3] - Start date: [START_DATE_3]
@@ -90,14 +105,14 @@ Over-the-counter/Supplements:
 - [OTC_MEDICATION_2]: [OTC_DOSE_2]
 - [OTC_MEDICATION_3]: [OTC_DOSE_3]
 
-Allergies and Reactions:
+### Allergies and Reactions
 - Medications: [MEDICATION_ALLERGIES] - Reaction: [MEDICATION_REACTION]
 - Food: [FOOD_ALLERGIES] - Reaction: [FOOD_REACTION]
 - Environmental: [ENVIRONMENTAL_ALLERGIES] - Reaction: [ENVIRONMENTAL_REACTION]
 - Latex: [LATEX_ALLERGY] - Reaction: [LATEX_REACTION]
 - Contrast dye: [CONTRAST_ALLERGY] - Reaction: [CONTRAST_REACTION]
 
-Social History:
+### Social History
 - Occupation: [OCCUPATION]
 - Work environment: [WORK_ENVIRONMENT]
 - Living situation: [LIVING_SITUATION]
@@ -111,7 +126,7 @@ Social History:
 - Travel history: [TRAVEL_HISTORY]
 - Pet exposure: [PET_EXPOSURE]
 
-Family History:
+### Family History
 - Mother: [MATERNAL_HISTORY] - Age: [MATERNAL_AGE] - Health: [MATERNAL_HEALTH]
 - Father: [PATERNAL_HISTORY] - Age: [PATERNAL_AGE] - Health: [PATERNAL_HEALTH]
 - Siblings: [SIBLING_HISTORY] - Number: [SIBLING_COUNT]
@@ -138,9 +153,9 @@ Endocrine: [ENDO_SYMPTOMS] - Heat/cold intolerance: [TEMPERATURE_INTOLERANCE] - 
 Hematologic: [HEME_SYMPTOMS] - Easy bruising: [BRUISING] - Bleeding: [BLEEDING_TENDENCY]
 Skin: [SKIN_SYMPTOMS] - Rash: [RASH] - Lesions: [SKIN_LESIONS] - Itching: [PRURITUS]
 
-PHYSICAL EXAMINATION:
+### PHYSICAL EXAMINATION
 
-Vital Signs:
+### Vital Signs
 - Temperature: [TEMPERATURE] °F/°C
 - Blood pressure: [BP_SYSTOLIC]/[BP_DIASTOLIC] mmHg
 - Heart rate: [HEART_RATE] bpm
@@ -151,25 +166,25 @@ Vital Signs:
 - Weight: [WEIGHT] [WEIGHT_UNITS]
 - BMI: [BMI_CALCULATED]
 
-General Appearance:
+### General Appearance
 Patient appears [GENERAL_APPEARANCE]. [DISTRESS_LEVEL]. [POSITIONING]. [HYGIENE]. [COOPERATION_LEVEL].
 
-Systems Examination:
-HEENT:
+### Systems Examination
+### HEENT
 - Head: [HEAD_EXAM] - Normocephalic: [NORMOCEPHALIC] - Trauma: [HEAD_TRAUMA]
 - Eyes: [EYE_EXAM] - PERRLA: [PUPILS] - Conjunctiva: [CONJUNCTIVA] - Sclera: [SCLERA]
 - Ears: [EAR_EXAM] - TM: [TYMPANIC_MEMBRANE] - Hearing: [HEARING_TEST]
 - Nose: [NOSE_EXAM] - Septum: [NASAL_SEPTUM] - Discharge: [NASAL_DISCHARGE]
 - Throat: [THROAT_EXAM] - Pharynx: [PHARYNX] - Tonsils: [TONSILS]
 
-Neck:
+### Neck
 - Inspection: [NECK_INSPECTION]
 - Lymph nodes: [LYMPH_NODES]
 - Thyroid: [THYROID_EXAM]
 - JVD: [JUGULAR_VENOUS_DISTENSION]
 - Range of motion: [NECK_ROM]
 
-Cardiovascular:
+### Cardiovascular
 - Heart sounds: [HEART_SOUNDS] - S1: [S1] - S2: [S2] - S3: [S3] - S4: [S4]
 - Rhythm: [CARDIAC_RHYTHM] - Regular: [REGULAR_RHYTHM]
 - Murmurs: [MURMURS] - Grade: [MURMUR_GRADE] - Location: [MURMUR_LOCATION]
@@ -177,14 +192,14 @@ Cardiovascular:
 - Edema: [EDEMA_LOCATION] - Grade: [EDEMA_GRADE]
 - Capillary refill: [CAPILLARY_REFILL]
 
-Respiratory:
+### Respiratory
 - Inspection: [CHEST_INSPECTION] - Symmetry: [CHEST_SYMMETRY]
 - Breath sounds: [BREATH_SOUNDS] - Clear: [CLEAR_LUNGS]
 - Adventitious sounds: [ADVENTITIOUS_SOUNDS] - Wheeze: [WHEEZE] - Rales: [RALES]
 - Respiratory effort: [RESPIRATORY_EFFORT] - Accessory muscles: [ACCESSORY_MUSCLES]
 - Percussion: [CHEST_PERCUSSION]
 
-Abdomen:
+### Abdomen
 - Inspection: [ABDOMEN_INSPECTION] - Distension: [ABDOMINAL_DISTENSION]
 - Auscultation: [BOWEL_SOUNDS] - Active: [BOWEL_SOUNDS_ACTIVE]
 - Palpation: [ABDOMINAL_PALPATION] - Soft: [ABDOMEN_SOFT] - Tender: [ABDOMINAL_TENDERNESS]
@@ -192,7 +207,7 @@ Abdomen:
 - Masses: [ABDOMINAL_MASSES]
 - Percussion: [ABDOMINAL_PERCUSSION]
 
-Neurological:
+### Neurological
 - Mental status: [MENTAL_STATUS] - Alert: [ALERTNESS] - Oriented: [ORIENTATION]
 - Cranial nerves: [CRANIAL_NERVES] - II-XII: [CN_EXAM]
 - Motor: [MOTOR_EXAM] - Strength: [MOTOR_STRENGTH] - Tone: [MUSCLE_TONE]
@@ -201,41 +216,41 @@ Neurological:
 - Coordination: [COORDINATION] - Finger-to-nose: [FINGER_TO_NOSE]
 - Gait: [GAIT_EXAM] - Steady: [GAIT_STEADY] - Balance: [BALANCE]
 
-Musculoskeletal:
+### Musculoskeletal
 - Range of motion: [ROM_ASSESSMENT] - Shoulders: [SHOULDER_ROM] - Knees: [KNEE_ROM]
 - Strength: [STRENGTH_TESTING] - Upper extremities: [UPPER_STRENGTH] - Lower extremities: [LOWER_STRENGTH]
 - Joint stability: [JOINT_STABILITY] - Deformities: [JOINT_DEFORMITIES]
 - Spine: [SPINE_EXAM] - Curvature: [SPINAL_CURVATURE] - Tenderness: [SPINE_TENDERNESS]
 
-Skin:
+### Skin
 - Color: [SKIN_COLOR] - Pallor: [PALLOR] - Cyanosis: [CYANOSIS] - Jaundice: [JAUNDICE]
 - Temperature: [SKIN_TEMPERATURE] - Moisture: [SKIN_MOISTURE]
 - Lesions: [SKIN_LESIONS] - Type: [LESION_TYPE] - Distribution: [LESION_DISTRIBUTION]
 - Wounds: [WOUNDS] - Location: [WOUND_LOCATION] - Size: [WOUND_SIZE] - Stage: [WOUND_STAGE]
 
-CLINICAL NOTES FORMATS:
+### CLINICAL NOTES FORMATS
 
-SOAP Note:
+### SOAP Note
 Date: [SOAP_DATE] Time: [SOAP_TIME] Provider: [SOAP_PROVIDER]
 
-Subjective:
+### Subjective
 [SUBJECTIVE_FINDINGS]
 Patient reports [PATIENT_REPORT]. [SYMPTOM_DESCRIPTION]. [FUNCTIONAL_IMPACT].
 
-Objective:
+### Objective
 Vital Signs: [VITAL_SIGNS_SUMMARY]
 Physical Exam: [PHYSICAL_EXAM_SUMMARY]
 Labs: [LAB_RESULTS]
 Imaging: [IMAGING_RESULTS]
 
-Assessment:
+### Assessment
 [CLINICAL_ASSESSMENT]
 - Primary diagnosis: [PRIMARY_DIAGNOSIS] - ICD-10: [PRIMARY_ICD10]
 - Secondary diagnoses: [SECONDARY_DIAGNOSES]
 - Differential diagnoses: [DIFFERENTIAL_DIAGNOSES]
 - Problem list: [ACTIVE_PROBLEM_LIST]
 
-Plan:
+### Plan
 [TREATMENT_PLAN]
 - Diagnostic tests: [DIAGNOSTIC_ORDERS] - Labs: [LAB_ORDERS] - Imaging: [IMAGING_ORDERS]
 - Medications: [MEDICATION_CHANGES] - New: [NEW_MEDICATIONS] - Discontinued: [DISCONTINUED_MEDS]
@@ -244,24 +259,24 @@ Plan:
 - Follow-up: [FOLLOWUP_SCHEDULE] - Return visit: [RETURN_VISIT_TIMING]
 - Patient education: [EDUCATION_PROVIDED]
 
-Progress Note:
+### Progress Note
 Date/Time: [PROGRESS_DATE] [PROGRESS_TIME]
 Provider: [PROGRESS_PROVIDER]
 Service: [SERVICE_TYPE]
 
-Interval History:
+### Interval History
 [INTERVAL_CHANGES]
 Since last visit: [CHANGES_SINCE_LAST_VISIT]
 New complaints: [NEW_COMPLAINTS]
 Medication compliance: [MEDICATION_COMPLIANCE]
 
-Current Status:
+### Current Status
 - Symptoms: [CURRENT_SYMPTOMS] - Improved: [SYMPTOM_IMPROVEMENT] - Worsened: [SYMPTOM_WORSENING]
 - Response to treatment: [TREATMENT_RESPONSE] - Effective: [TREATMENT_EFFECTIVENESS]
 - Functional status: [FUNCTIONAL_STATUS] - ADL independence: [ADL_STATUS]
 - Pain level: [CURRENT_PAIN_LEVEL]
 
-Focused Examination:
+### Focused Examination
 [FOCUSED_EXAM_FINDINGS]
 Pertinent positives: [PERTINENT_POSITIVES]
 Pertinent negatives: [PERTINENT_NEGATIVES]
@@ -271,44 +286,44 @@ Problem 1: [PROBLEM_1] - Status: [PROBLEM_1_STATUS] - Plan: [PROBLEM_1_PLAN]
 Problem 2: [PROBLEM_2] - Status: [PROBLEM_2_STATUS] - Plan: [PROBLEM_2_PLAN]
 Problem 3: [PROBLEM_3] - Status: [PROBLEM_3_STATUS] - Plan: [PROBLEM_3_PLAN]
 
-Discharge Summary:
+### Discharge Summary
 Admission Date: [ADMIT_DATE]
 Discharge Date: [DISCHARGE_DATE]
 Length of Stay: [LENGTH_OF_STAY] days
 Attending Physician: [ATTENDING_PHYSICIAN]
 
-Admitting Diagnosis:
+### Admitting Diagnosis
 [ADMITTING_DIAGNOSIS]
 
-Discharge Diagnoses:
+### Discharge Diagnoses
 Principal: [PRINCIPAL_DISCHARGE_DIAGNOSIS]
-Secondary:
+### Secondary
 1. [SECONDARY_DIAGNOSIS_1]
 2. [SECONDARY_DIAGNOSIS_2]
 3. [SECONDARY_DIAGNOSIS_3]
 
-Hospital Course:
+### Hospital Course
 [HOSPITAL_COURSE_NARRATIVE]
 [DAILY_PROGRESS_SUMMARY]
 [COMPLICATIONS_DURING_STAY]
 [RESPONSE_TO_TREATMENT]
 
-Procedures Performed:
+### Procedures Performed
 1. [PROCEDURE_1] - Date: [PROCEDURE_DATE_1] - Complications: [PROCEDURE_COMPLICATIONS_1]
 2. [PROCEDURE_2] - Date: [PROCEDURE_DATE_2] - Complications: [PROCEDURE_COMPLICATIONS_2]
 
-Consultations:
+### Consultations
 1. [CONSULTATION_1] - Service: [CONSULT_SERVICE_1] - Recommendations: [CONSULT_RECOMMENDATIONS_1]
 2. [CONSULTATION_2] - Service: [CONSULT_SERVICE_2] - Recommendations: [CONSULT_RECOMMENDATIONS_2]
 
-Discharge Medications:
+### Discharge Medications
 [DISCHARGE_MEDICATION_LIST]
 - New medications: [NEW_DISCHARGE_MEDS]
 - Changed medications: [CHANGED_DISCHARGE_MEDS]
 - Continued medications: [CONTINUED_MEDS]
 - Discontinued medications: [DISCONTINUED_DISCHARGE_MEDS]
 
-Discharge Instructions:
+### Discharge Instructions
 - Activity: [ACTIVITY_RESTRICTIONS] - Lifting: [LIFTING_RESTRICTIONS] - Driving: [DRIVING_RESTRICTIONS]
 - Diet: [DIETARY_INSTRUCTIONS] - Restrictions: [DIET_RESTRICTIONS] - Fluid limits: [FLUID_RESTRICTIONS]
 - Wound care: [WOUND_CARE_INSTRUCTIONS] - Dressing changes: [DRESSING_FREQUENCY]
@@ -321,15 +336,15 @@ Primary care: [PCP_FOLLOWUP] - Scheduled: [PCP_APPOINTMENT_DATE]
 Specialty: [SPECIALTY_FOLLOWUP] - Service: [SPECIALTY_SERVICE] - When: [SPECIALTY_TIMING]
 Lab work: [FOLLOWUP_LABS] - When: [LAB_TIMING]
 
-Discharge Disposition:
+### Discharge Disposition
 [DISCHARGE_DISPOSITION]
 - Home: [HOME_DISCHARGE] - Services: [HOME_SERVICES]
 - Facility: [FACILITY_NAME] - Level of care: [FACILITY_LEVEL]
 - Transportation: [DISCHARGE_TRANSPORTATION]
 
-SPECIALIZED DOCUMENTATION:
+### SPECIALIZED DOCUMENTATION
 
-Procedure Note:
+### Procedure Note
 Procedure: [PROCEDURE_NAME]
 Date/Time: [PROCEDURE_DATETIME]
 Provider: [PERFORMING_PROVIDER]
@@ -343,7 +358,7 @@ Pre-procedure:
 - Allergies reviewed: [ALLERGIES_REVIEWED]
 - Antibiotics: [PROPHYLACTIC_ANTIBIOTICS]
 
-Procedure Details:
+### Procedure Details
 [DETAILED_PROCEDURE_DESCRIPTION]
 - Approach: [PROCEDURE_APPROACH]
 - Anesthesia: [ANESTHESIA_TYPE] - Provider: [ANESTHESIA_PROVIDER]
@@ -351,13 +366,13 @@ Procedure Details:
 - Preparation: [SITE_PREPARATION]
 - Equipment used: [PROCEDURE_EQUIPMENT]
 
-Findings:
+### Findings
 [PROCEDURE_FINDINGS]
 - Normal findings: [NORMAL_FINDINGS]
 - Abnormal findings: [ABNORMAL_FINDINGS]
 - Specimens: [SPECIMENS_OBTAINED] - Sent to: [PATHOLOGY_DESTINATION]
 
-Complications:
+### Complications
 [PROCEDURE_COMPLICATIONS]
 - Immediate: [IMMEDIATE_COMPLICATIONS]
 - Intraoperative: [INTRAOPERATIVE_COMPLICATIONS]
@@ -369,13 +384,13 @@ Post-procedure:
 - Disposition: [POST_PROCEDURE_DISPOSITION]
 - Instructions: [POST_PROCEDURE_INSTRUCTIONS]
 
-Consultation Note:
+### Consultation Note
 Date: [CONSULTATION_DATE]
 Requesting Provider: [REQUESTING_PROVIDER]
 Consultant: [CONSULTANT_NAME]
 Service: [CONSULTING_SERVICE]
 
-Reason for Consultation:
+### Reason for Consultation
 [CONSULTATION_REASON]
 - Question: [SPECIFIC_QUESTION]
 - Background: [CONSULTATION_BACKGROUND]
@@ -391,7 +406,7 @@ Consultant's Impression:
 - Contributing factors: [CONTRIBUTING_FACTORS]
 - Prognosis: [CONSULTANT_PROGNOSIS]
 
-Recommendations:
+### Recommendations
 1. [RECOMMENDATION_1] - Priority: [PRIORITY_1]
 2. [RECOMMENDATION_2] - Priority: [PRIORITY_2]
 3. [RECOMMENDATION_3] - Priority: [PRIORITY_3]
@@ -401,9 +416,9 @@ Follow-up Plan:
 - Return consultation: [RETURN_CONSULT_TIMING]
 - Monitoring: [MONITORING_PLAN]
 
-ASSESSMENT TOOLS:
+### ASSESSMENT TOOLS
 
-Functional Assessment:
+### Functional Assessment
 Activities of Daily Living (ADLs):
 - Bathing: [BATHING_ABILITY] - Independent: [BATHING_INDEPENDENT]
 - Dressing: [DRESSING_ABILITY] - Independent: [DRESSING_INDEPENDENT]
@@ -412,7 +427,7 @@ Activities of Daily Living (ADLs):
 - Continence: [CONTINENCE_STATUS] - Bladder: [BLADDER_CONTINENCE] - Bowel: [BOWEL_CONTINENCE]
 - Feeding: [FEEDING_ABILITY] - Independent: [FEEDING_INDEPENDENT]
 
-Instrumental ADLs:
+### Instrumental ADLs
 - Medication management: [MEDICATION_MANAGEMENT_ABILITY]
 - Shopping: [SHOPPING_ABILITY]
 - Meal preparation: [MEAL_PREP_ABILITY]
@@ -421,7 +436,7 @@ Instrumental ADLs:
 - Housekeeping: [HOUSEKEEPING_ABILITY]
 - Phone use: [PHONE_USE_ABILITY]
 
-Cognitive Assessment:
+### Cognitive Assessment
 - Orientation: [ORIENTATION_STATUS] - Person: [PERSON_ORIENTED] - Place: [PLACE_ORIENTED] - Time: [TIME_ORIENTED]
 - Memory: [MEMORY_ASSESSMENT] - Recent: [RECENT_MEMORY] - Remote: [REMOTE_MEMORY]
 - Attention: [ATTENTION_ASSESSMENT] - Sustained: [SUSTAINED_ATTENTION]
@@ -430,7 +445,7 @@ Cognitive Assessment:
 - MMSE score: [MMSE_SCORE]/30
 - MoCA score: [MOCA_SCORE]/30
 
-Pain Assessment:
+### Pain Assessment
 - Location: [PAIN_LOCATION] - Primary: [PRIMARY_PAIN_SITE]
 - Quality: [PAIN_QUALITY] - Sharp: [SHARP_PAIN] - Dull: [DULL_PAIN] - Burning: [BURNING_PAIN]
 - Intensity: [PAIN_INTENSITY] - At rest: [PAIN_AT_REST] - With movement: [PAIN_WITH_MOVEMENT]
@@ -441,15 +456,15 @@ Pain Assessment:
 - Sleep interference: [PAIN_SLEEP_IMPACT]
 - Mood impact: [PAIN_MOOD_IMPACT]
 
-Risk Assessments:
-Falls Risk:
+### Risk Assessments
+### Falls Risk
 - Fall risk score: [FALL_RISK_SCORE]
 - Previous falls: [PREVIOUS_FALLS] - Number: [FALL_COUNT] - Circumstances: [FALL_CIRCUMSTANCES]
 - Mobility aids: [MOBILITY_AIDS] - Walker: [WALKER_USE] - Cane: [CANE_USE]
 - Environmental hazards: [ENVIRONMENTAL_HAZARDS]
 - Medications affecting balance: [BALANCE_MEDICATIONS]
 
-Pressure Injury Risk:
+### Pressure Injury Risk
 - Braden scale score: [BRADEN_SCORE]/23
 - Mobility: [MOBILITY_SCORE]
 - Activity: [ACTIVITY_SCORE]
@@ -458,14 +473,14 @@ Pressure Injury Risk:
 - Nutrition: [NUTRITION_SCORE]
 - Friction/shear: [FRICTION_SCORE]
 
-VTE Risk:
+### VTE Risk
 - VTE risk score: [VTE_RISK_SCORE]
 - Risk factors: [VTE_RISK_FACTORS]
 - Previous VTE: [PREVIOUS_VTE]
 - Prophylaxis indicated: [VTE_PROPHYLAXIS_INDICATED]
 - Prophylaxis method: [VTE_PROPHYLAXIS_METHOD]
 
-Suicide Risk:
+### Suicide Risk
 - Suicide risk level: [SUICIDE_RISK_LEVEL]
 - PHQ-9 score: [PHQ9_SCORE]
 - Previous attempts: [PREVIOUS_SUICIDE_ATTEMPTS]
@@ -475,7 +490,7 @@ Suicide Risk:
 - Protective factors: [PROTECTIVE_FACTORS]
 - Safety plan: [SAFETY_PLAN_STATUS]
 
-Abuse Screening:
+### Abuse Screening
 - Abuse screening completed: [ABUSE_SCREENING_COMPLETED]
 - Physical abuse indicators: [PHYSICAL_ABUSE_INDICATORS]
 - Emotional abuse indicators: [EMOTIONAL_ABUSE_INDICATORS]
@@ -484,9 +499,9 @@ Abuse Screening:
 - Safety concerns: [SAFETY_CONCERNS]
 - Resources provided: [ABUSE_RESOURCES_PROVIDED]
 
-CARE COORDINATION:
+### CARE COORDINATION
 
-Care Team:
+### Care Team
 - Primary care physician: [PRIMARY_PHYSICIAN] - Contact: [PCP_CONTACT]
 - Specialists: [SPECIALIST_LIST]
   - Cardiologist: [CARDIOLOGIST]
@@ -502,7 +517,7 @@ Care Team:
 - Social worker: [SOCIAL_WORKER] - Contact: [SOCIAL_WORKER_CONTACT]
 - Chaplain: [CHAPLAIN] - Contact: [CHAPLAIN_CONTACT]
 
-Communication:
+### Communication
 - Family meetings: [FAMILY_MEETING_DATES] - Participants: [MEETING_PARTICIPANTS]
 - Goals of care discussion: [GOALS_OF_CARE_DATE] - Outcomes: [GOALS_OUTCOMES]
 - Code status: [CODE_STATUS] - DNR: [DNR_STATUS] - Healthcare proxy: [HEALTHCARE_PROXY]
@@ -510,7 +525,7 @@ Communication:
 - Care conferences: [CARE_CONFERENCE_NOTES]
 - Handoff communication: [HANDOFF_COMMUNICATION] - SBAR format: [SBAR_HANDOFF]
 
-Transitions of Care:
+### Transitions of Care
 - Sending facility: [SENDING_FACILITY] - Contact: [SENDING_CONTACT]
 - Receiving facility: [RECEIVING_FACILITY] - Contact: [RECEIVING_CONTACT]
 - Transfer reason: [TRANSFER_REASON] - Urgency: [TRANSFER_URGENCY]
@@ -521,9 +536,9 @@ Transitions of Care:
 - Transfer documents: [TRANSFER_DOCUMENTS_LIST]
 - Report given: [TRANSFER_REPORT] - Time: [REPORT_TIME] - To: [REPORT_RECIPIENT]
 
-REGULATORY COMPLIANCE:
+### REGULATORY COMPLIANCE
 
-Documentation Standards:
+### Documentation Standards
 - Timeliness: [DOCUMENTATION_TIMELINESS] - Within [DOCUMENTATION_TIMEFRAME] hours
 - Completeness: [COMPLETENESS_SCORE] - Missing elements: [MISSING_ELEMENTS]
 - Accuracy: [ACCURACY_VERIFICATION] - Verified by: [VERIFICATION_PROVIDER]
@@ -541,7 +556,7 @@ Privacy/Security:
 - Breach protocols: [BREACH_PROTOCOL_FOLLOWED]
 - Audit logs: [AUDIT_LOG_MAINTAINED]
 
-Quality Measures:
+### Quality Measures
 - Core measures: [CORE_MEASURES_MET]
 - Quality indicators: [QUALITY_INDICATORS_TRACKED]
 - Patient safety goals: [SAFETY_GOALS_ADDRESSED]
@@ -551,7 +566,7 @@ Quality Measures:
 
 BILLING/CODING:
 
-Diagnosis Codes:
+### Diagnosis Codes
 - Primary diagnosis: [PRIMARY_DIAGNOSIS_CODE] - ICD-10: [PRIMARY_ICD10_CODE]
 - Secondary diagnoses:
   - [SECONDARY_DIAGNOSIS_1]: [SECONDARY_ICD10_1]
@@ -560,14 +575,14 @@ Diagnosis Codes:
 - Complications: [COMPLICATION_CODES]
 - External causes: [EXTERNAL_CAUSE_CODES]
 
-Procedure Codes:
+### Procedure Codes
 - CPT codes: [CPT_CODE_LIST]
 - Primary procedure: [PRIMARY_PROCEDURE_CPT]
 - Secondary procedures: [SECONDARY_PROCEDURE_CPTS]
 - Modifiers: [CPT_MODIFIERS]
 - HCPCS codes: [HCPCS_CODES]
 
-Documentation Requirements:
+### Documentation Requirements
 - Medical necessity: [MEDICAL_NECESSITY_DOCUMENTED]
 - Level of service: [SERVICE_LEVEL_JUSTIFIED]
 - Time-based billing: [TIME_DOCUMENTATION_COMPLETE]
@@ -575,17 +590,17 @@ Documentation Requirements:
 - Evaluation and management level: [EM_LEVEL_SUPPORTED]
 - Decision making complexity: [DECISION_MAKING_COMPLEXITY]
 
-PATIENT EDUCATION:
+### PATIENT EDUCATION
 
-Education Provided:
-Topics Covered:
+### Education Provided
+### Topics Covered
 1. [EDUCATION_TOPIC_1] - Method: [EDUCATION_METHOD_1] - Understanding: [UNDERSTANDING_1]
 2. [EDUCATION_TOPIC_2] - Method: [EDUCATION_METHOD_2] - Understanding: [UNDERSTANDING_2]
 3. [EDUCATION_TOPIC_3] - Method: [EDUCATION_METHOD_3] - Understanding: [UNDERSTANDING_3]
 4. [EDUCATION_TOPIC_4] - Method: [EDUCATION_METHOD_4] - Understanding: [UNDERSTANDING_4]
 5. [EDUCATION_TOPIC_5] - Method: [EDUCATION_METHOD_5] - Understanding: [UNDERSTANDING_5]
 
-Teaching Methods:
+### Teaching Methods
 - Verbal instruction: [VERBAL_TEACHING_PROVIDED] - Language: [TEACHING_LANGUAGE]
 - Written materials: [WRITTEN_MATERIALS_PROVIDED] - Reading level: [MATERIAL_READING_LEVEL]
 - Visual aids: [VISUAL_AIDS_USED] - Type: [VISUAL_AID_TYPE]
@@ -593,7 +608,7 @@ Teaching Methods:
 - Return demonstration: [RETURN_DEMONSTRATION_SUCCESSFUL]
 - Technology-based: [TECHNOLOGY_EDUCATION] - Platform: [EDUCATION_PLATFORM]
 
-Understanding Assessment:
+### Understanding Assessment
 - Patient comprehension: [PATIENT_COMPREHENSION_LEVEL]
 - Questions asked: [PATIENT_QUESTIONS_LIST]
 - Concerns expressed: [PATIENT_CONCERNS]
@@ -611,7 +626,7 @@ Follow-up Education Plan:
 
 Generate comprehensive patient documentation with all relevant sections including:
 
-COMPLETE DOCUMENTATION OUTPUT:
+### COMPLETE DOCUMENTATION OUTPUT
 Document Type: [FINAL_DOCUMENT_TYPE]
 Patient: [FINAL_PATIENT_IDENTIFIER]
 Date/Time: [FINAL_DOCUMENTATION_DATETIME]
@@ -622,7 +637,7 @@ Service: [FINAL_SERVICE_TYPE]
 
 ---
 
-Documentation Summary:
+### Documentation Summary
 ✓ Patient identification complete: [PATIENT_ID_COMPLETE]
 ✓ Clinical information documented: [CLINICAL_INFO_COMPLETE]
 ✓ Assessment and plan included: [ASSESSMENT_PLAN_COMPLETE]
@@ -639,6 +654,33 @@ Date/Time: [SIGNATURE_DATETIME]
 
 ## Usage Examples
 
+
+
+## Best Practices
+
+1. **Start with clear objectives** - Define what success looks like before beginning
+2. **Use data to inform decisions** - Base choices on evidence and measurable outcomes
+3. **Iterate and improve continuously** - Treat implementation as an ongoing process
+4. **Engage stakeholders early** - Include key participants in planning and execution
+5. **Document thoroughly** - Maintain clear records for reference and knowledge transfer
+6. **Communicate regularly** - Keep all parties informed of progress and changes
+7. **Address challenges proactively** - Identify potential issues before they become problems
+8. **Celebrate milestones** - Recognize achievements to maintain motivation
+9. **Learn from experience** - Reflect on what works and adjust accordingly
+10. **Stay flexible** - Be ready to adapt based on feedback and changing circumstances
+
+## Tips for Success
+
+- Break complex tasks into manageable steps with clear milestones
+- Set realistic timelines that account for dependencies and constraints
+- Allocate sufficient resources including time, budget, and personnel
+- Use templates and frameworks to ensure consistency and quality
+- Seek feedback from users and stakeholders throughout the process
+- Build in checkpoints to assess progress and make adjustments
+- Maintain quality standards while remaining practical and efficient
+- Document lessons learned for future reference and improvement
+- Foster collaboration across teams and departments
+- Stay current with industry best practices and emerging trends
 ### Example 1: Initial Emergency Department Assessment
 ```
 DOCUMENT_TYPE: "Emergency Department Initial Assessment"

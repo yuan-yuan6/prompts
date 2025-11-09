@@ -1,3 +1,18 @@
+---
+title: Comprehensive Security Audit Framework Template
+category: technology/Cybersecurity
+tags: [comprehensive, design, documentation, framework, security, strategy, technology, template]
+use_cases:
+  - General application
+  - Professional use
+  - Project implementation
+related_templates:
+  - cloud-architecture-framework.md
+  - site-reliability-engineering.md
+  - cloud-migration-strategy.md
+last_updated: 2025-11-09
+---
+
 # Comprehensive Security Audit Framework Template
 
 ## Overview
@@ -445,6 +460,33 @@ Please develop a comprehensive security audit plan for [ORGANIZATION_NAME] with 
 
 ## Usage Examples
 
+
+
+## Best Practices
+
+1. **Start with clear objectives** - Define what success looks like before beginning
+2. **Use data to inform decisions** - Base choices on evidence and measurable outcomes
+3. **Iterate and improve continuously** - Treat implementation as an ongoing process
+4. **Engage stakeholders early** - Include key participants in planning and execution
+5. **Document thoroughly** - Maintain clear records for reference and knowledge transfer
+6. **Communicate regularly** - Keep all parties informed of progress and changes
+7. **Address challenges proactively** - Identify potential issues before they become problems
+8. **Celebrate milestones** - Recognize achievements to maintain motivation
+9. **Learn from experience** - Reflect on what works and adjust accordingly
+10. **Stay flexible** - Be ready to adapt based on feedback and changing circumstances
+
+## Tips for Success
+
+- Break complex tasks into manageable steps with clear milestones
+- Set realistic timelines that account for dependencies and constraints
+- Allocate sufficient resources including time, budget, and personnel
+- Use templates and frameworks to ensure consistency and quality
+- Seek feedback from users and stakeholders throughout the process
+- Build in checkpoints to assess progress and make adjustments
+- Maintain quality standards while remaining practical and efficient
+- Document lessons learned for future reference and improvement
+- Foster collaboration across teams and departments
+- Stay current with industry best practices and emerging trends
 ### Example 1: Financial Services Comprehensive Audit
 ```yaml
 # Configuration for large bank security audit
@@ -536,3 +578,318 @@ Adapt based on security program maturity:
 ---
 
 *This Security Audit template provides a comprehensive framework for conducting thorough security assessments across all organizational domains. Each variable should be carefully configured based on specific industry requirements, regulatory obligations, and organizational risk tolerance levels.*
+
+## Variables
+
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `[ORGANIZATION_NAME]` | Name of the organization | "John Smith" |
+| `[AUDIT_SCOPE]` | Scope or boundaries of audit | "[specify value]" |
+| `[AUDIT_TYPE]` | Type or category of audit | "Standard" |
+| `[CUSTOM_AUDIT]` | Specify the custom audit | "[specify value]" |
+| `[INDUSTRY_SECTOR]` | Specify the industry sector | "Technology" |
+| `[CUSTOM_INDUSTRY]` | Specify the custom industry | "Technology" |
+| `[COMPLIANCE_FRAMEWORKS]` | Specify the compliance frameworks | "[specify value]" |
+| `[CUSTOM_FRAMEWORKS]` | Specify the custom frameworks | "[specify value]" |
+| `[GEOGRAPHIC_SCOPE]` | Scope or boundaries of geographic | "[specify value]" |
+| `[CUSTOM_GEOGRAPHY]` | Specify the custom geography | "[specify value]" |
+| `[AUDIT_TIMELINE]` | Timeline or schedule for audit | "6 months" |
+| `[CUSTOM_TIMELINE]` | Timeline or schedule for custom | "6 months" |
+| `[AUDIT_BUDGET]` | Budget allocation for audit | "$500,000" |
+| `[STAKEHOLDER_INVOLVEMENT]` | Specify the stakeholder involvement | "[specify value]" |
+| `[RISK_ASSESSMENT_METHODOLOGY]` | Specify the risk assessment methodology | "[specify value]" |
+| `[CUSTOM_RISK_METHOD]` | Specify the custom risk method | "[specify value]" |
+| `[AUDIT_STANDARDS]` | Specify the audit standards | "[specify value]" |
+| `[CUSTOM_STANDARDS]` | Specify the custom standards | "[specify value]" |
+| `[TESTING_METHODOLOGY]` | Specify the testing methodology | "[specify value]" |
+| `[CUSTOM_TESTING]` | Specify the custom testing | "[specify value]" |
+| `[EVIDENCE_COLLECTION_APPROACH]` | Specify the evidence collection approach | "[specify value]" |
+| `[SAMPLING_STRATEGY]` | Strategy or approach for sampling | "[specify value]" |
+| `[DOCUMENTATION_REQUIREMENTS]` | Specify the documentation requirements | "[specify value]" |
+| `[QUALITY_ASSURANCE_PROCEDURES]` | Specify the quality assurance procedures | "[specify value]" |
+| `[REMEDIATION_TRACKING_METHOD]` | Specify the remediation tracking method | "[specify value]" |
+| `[LEAD_AUDITOR_REQUIREMENTS]` | Specify the lead auditor requirements | "[specify value]" |
+| `[TECHNICAL_SPECIALIST_REQUIREMENTS]` | Specify the technical specialist requirements | "[specify value]" |
+| `[COMPLIANCE_EXPERT_REQUIREMENTS]` | Specify the compliance expert requirements | "[specify value]" |
+| `[EXTERNAL_CONSULTANT_REQUIREMENTS]` | Specify the external consultant requirements | "[specify value]" |
+| `[INTERNAL_STAKEHOLDER_INVOLVEMENT]` | Specify the internal stakeholder involvement | "[specify value]" |
+| `[SME_INVOLVEMENT]` | Specify the sme involvement | "[specify value]" |
+| `[MANAGEMENT_LIAISON_REQUIREMENTS]` | Specify the management liaison requirements | "[specify value]" |
+| `[COMMUNICATION_COORDINATOR_ROLE]` | Specify the communication coordinator role | "[specify value]" |
+| `[NETWORK_TOPOLOGY_REVIEW_SCOPE]` | Scope or boundaries of network topology review | "[specify value]" |
+| `[FIREWALL_CONFIG_ASSESSMENT]` | Specify the firewall config assessment | "[specify value]" |
+| `[NETWORK_SEGMENTATION_EVALUATION]` | Specify the network segmentation evaluation | "[specify value]" |
+| `[VPN_SECURITY_ASSESSMENT]` | Specify the vpn security assessment | "[specify value]" |
+| `[WIRELESS_SECURITY_EVALUATION]` | Specify the wireless security evaluation | "[specify value]" |
+| `[NETWORK_MONITORING_ASSESSMENT]` | Specify the network monitoring assessment | "[specify value]" |
+| `[IDS_IPS_EVALUATION]` | Specify the ids ips evaluation | "[specify value]" |
+| `[NETWORK_ACCESS_CONTROL_REVIEW]` | Specify the network access control review | "[specify value]" |
+| `[DNS_SECURITY_ASSESSMENT]` | Specify the dns security assessment | "[specify value]" |
+| `[LOAD_BALANCER_SECURITY_REVIEW]` | Specify the load balancer security review | "[specify value]" |
+| `[OS_HARDENING_ASSESSMENT]` | Specify the os hardening assessment | "[specify value]" |
+| `[PATCH_MANAGEMENT_EVALUATION]` | Specify the patch management evaluation | "[specify value]" |
+| `[ANTIVIRUS_ASSESSMENT]` | Specify the antivirus assessment | "[specify value]" |
+| `[ENDPOINT_DETECTION_EVALUATION]` | Specify the endpoint detection evaluation | "[specify value]" |
+| `[SYSTEM_LOGGING_ASSESSMENT]` | Specify the system logging assessment | "[specify value]" |
+| `[FIM_EVALUATION]` | Specify the fim evaluation | "[specify value]" |
+| `[BACKUP_SECURITY_ASSESSMENT]` | Specify the backup security assessment | "[specify value]" |
+| `[REMOTE_ACCESS_SECURITY_EVALUATION]` | Specify the remote access security evaluation | "[specify value]" |
+| `[MDM_SECURITY_ASSESSMENT]` | Specify the mdm security assessment | "[specify value]" |
+| `[VIRTUALIZATION_SECURITY_REVIEW]` | Specify the virtualization security review | "[specify value]" |
+| `[CLOUD_CONFIG_ASSESSMENT]` | Specify the cloud config assessment | "[specify value]" |
+| `[CLOUD_IAM_EVALUATION]` | Specify the cloud iam evaluation | "[specify value]" |
+| `[CLOUD_ENCRYPTION_ASSESSMENT]` | Specify the cloud encryption assessment | "[specify value]" |
+| `[CLOUD_NETWORK_SECURITY_REVIEW]` | Specify the cloud network security review | "[specify value]" |
+| `[CONTAINER_SECURITY_ASSESSMENT]` | Specify the container security assessment | "[specify value]" |
+| `[SERVERLESS_SECURITY_EVALUATION]` | Specify the serverless security evaluation | "[specify value]" |
+| `[MULTI_CLOUD_SECURITY_ASSESSMENT]` | Specify the multi cloud security assessment | "[specify value]" |
+| `[CLOUD_MONITORING_EVALUATION]` | Specify the cloud monitoring evaluation | "[specify value]" |
+| `[CLOUD_INCIDENT_RESPONSE_ASSESSMENT]` | Specify the cloud incident response assessment | "[specify value]" |
+| `[CLOUD_VENDOR_SECURITY_EVALUATION]` | Specify the cloud vendor security evaluation | "[specify value]" |
+| `[OWASP_TOP10_ASSESSMENT]` | Specify the owasp top10 assessment | "[specify value]" |
+| `[SQL_INJECTION_TESTING]` | Specify the sql injection testing | "[specify value]" |
+| `[XSS_TESTING_EVALUATION]` | Specify the xss testing evaluation | "[specify value]" |
+| `[AUTHENTICATION_SECURITY_ASSESSMENT]` | Specify the authentication security assessment | "[specify value]" |
+| `[SESSION_MANAGEMENT_EVALUATION]` | Specify the session management evaluation | "[specify value]" |
+| `[INPUT_VALIDATION_ASSESSMENT]` | Specify the input validation assessment | "[specify value]" |
+| `[ERROR_HANDLING_SECURITY_REVIEW]` | Specify the error handling security review | "[specify value]" |
+| `[CRYPTOGRAPHIC_IMPLEMENTATION_ASSESSMENT]` | Specify the cryptographic implementation assessment | "[specify value]" |
+| `[API_SECURITY_EVALUATION]` | Specify the api security evaluation | "[specify value]" |
+| `[THIRD_PARTY_COMPONENT_ASSESSMENT]` | Specify the third party component assessment | "[specify value]" |
+| `[MOBILE_APP_SECURITY_TESTING]` | Specify the mobile app security testing | "[specify value]" |
+| `[MOBILE_DATA_STORAGE_ASSESSMENT]` | Specify the mobile data storage assessment | "[specify value]" |
+| `[MOBILE_COMMUNICATION_SECURITY]` | Specify the mobile communication security | "[specify value]" |
+| `[MOBILE_AUTH_ASSESSMENT]` | Specify the mobile auth assessment | "[specify value]" |
+| `[MOBILE_CODE_OBFUSCATION_EVALUATION]` | Specify the mobile code obfuscation evaluation | "[specify value]" |
+| `[MOBILE_RUNTIME_PROTECTION_ASSESSMENT]` | Specify the mobile runtime protection assessment | "[specify value]" |
+| `[MOBILE_DEVICE_SECURITY_EVALUATION]` | Specify the mobile device security evaluation | "[specify value]" |
+| `[APP_STORE_COMPLIANCE_ASSESSMENT]` | Specify the app store compliance assessment | "[specify value]" |
+| `[MOBILE_PRIVACY_CONTROL_EVALUATION]` | Specify the mobile privacy control evaluation | "[specify value]" |
+| `[MOBILE_UPDATE_SECURITY_ASSESSMENT]` | Specify the mobile update security assessment | "2025-01-15" |
+| `[DATABASE_ACCESS_CONTROL_ASSESSMENT]` | Specify the database access control assessment | "[specify value]" |
+| `[DATABASE_ENCRYPTION_EVALUATION]` | Specify the database encryption evaluation | "[specify value]" |
+| `[DATABASE_CONFIG_SECURITY_ASSESSMENT]` | Specify the database config security assessment | "[specify value]" |
+| `[DATABASE_BACKUP_SECURITY_EVALUATION]` | Specify the database backup security evaluation | "[specify value]" |
+| `[DATABASE_AUDIT_LOGGING_ASSESSMENT]` | Specify the database audit logging assessment | "[specify value]" |
+| `[DATABASE_PRIVILEGE_ESCALATION_TESTING]` | Specify the database privilege escalation testing | "[specify value]" |
+| `[DATABASE_DLP_ASSESSMENT]` | Specify the database dlp assessment | "[specify value]" |
+| `[DATABASE_MONITORING_EVALUATION]` | Specify the database monitoring evaluation | "[specify value]" |
+| `[DATABASE_VULNERABILITY_ASSESSMENT]` | Specify the database vulnerability assessment | "[specify value]" |
+| `[DATABASE_COMPLIANCE_VALIDATION]` | Specify the database compliance validation | "[specify value]" |
+| `[IDENTITY_PROVIDER_SECURITY_ASSESSMENT]` | Specify the identity provider security assessment | "[specify value]" |
+| `[USER_PROVISIONING_SECURITY_EVALUATION]` | Specify the user provisioning security evaluation | "[specify value]" |
+| `[DIRECTORY_SERVICES_SECURITY_ASSESSMENT]` | Specify the directory services security assessment | "[specify value]" |
+| `[SSO_SECURITY_EVALUATION]` | Specify the sso security evaluation | "[specify value]" |
+| `[MFA_IMPLEMENTATION_ASSESSMENT]` | Specify the mfa implementation assessment | "[specify value]" |
+| `[PASSWORD_POLICY_EVALUATION]` | Specify the password policy evaluation | "[specify value]" |
+| `[ACCOUNT_LIFECYCLE_ASSESSMENT]` | Specify the account lifecycle assessment | "10" |
+| `[IDENTITY_FEDERATION_SECURITY_EVALUATION]` | Specify the identity federation security evaluation | "[specify value]" |
+| `[PAM_SECURITY_ASSESSMENT]` | Specify the pam security assessment | "[specify value]" |
+| `[IDENTITY_GOVERNANCE_EVALUATION]` | Specify the identity governance evaluation | "[specify value]" |
+| `[RBAC_IMPLEMENTATION_ASSESSMENT]` | Specify the rbac implementation assessment | "[specify value]" |
+| `[ABAC_IMPLEMENTATION_EVALUATION]` | Specify the abac implementation evaluation | "[specify value]" |
+| `[LEAST_PRIVILEGE_ASSESSMENT]` | Specify the least privilege assessment | "[specify value]" |
+| `[SOD_IMPLEMENTATION_EVALUATION]` | Specify the sod implementation evaluation | "[specify value]" |
+| `[ACCESS_RECERTIFICATION_ASSESSMENT]` | Specify the access recertification assessment | "[specify value]" |
+| `[EMERGENCY_ACCESS_SECURITY_EVALUATION]` | Specify the emergency access security evaluation | "[specify value]" |
+| `[SERVICE_ACCOUNT_SECURITY_ASSESSMENT]` | Specify the service account security assessment | "10" |
+| `[API_ACCESS_CONTROL_EVALUATION]` | Specify the api access control evaluation | "[specify value]" |
+| `[CROSS_SYSTEM_ACCESS_ASSESSMENT]` | Specify the cross system access assessment | "[specify value]" |
+| `[ACCESS_MONITORING_EVALUATION]` | Specify the access monitoring evaluation | "[specify value]" |
+| `[ADMIN_ACCESS_CONTROL_ASSESSMENT]` | Specify the admin access control assessment | "[specify value]" |
+| `[PRIVILEGED_ACCOUNT_INVENTORY_EVALUATION]` | Specify the privileged account inventory evaluation | "10" |
+| `[JIT_ACCESS_ASSESSMENT]` | Specify the jit access assessment | "[specify value]" |
+| `[PRIVILEGED_SESSION_MONITORING_EVALUATION]` | Specify the privileged session monitoring evaluation | "[specify value]" |
+| `[CREDENTIAL_MANAGEMENT_ASSESSMENT]` | Specify the credential management assessment | "[specify value]" |
+| `[PRIVILEGED_ACCESS_POLICY_EVALUATION]` | Specify the privileged access policy evaluation | "[specify value]" |
+| `[BREAK_GLASS_PROCEDURE_ASSESSMENT]` | Specify the break glass procedure assessment | "[specify value]" |
+| `[VENDOR_ACCESS_MANAGEMENT_EVALUATION]` | Specify the vendor access management evaluation | "[specify value]" |
+| `[PRIVILEGED_ACCESS_ANALYTICS_ASSESSMENT]` | Specify the privileged access analytics assessment | "[specify value]" |
+| `[PRIVILEGED_ACCESS_COMPLIANCE_EVALUATION]` | Specify the privileged access compliance evaluation | "[specify value]" |
+| `[DATA_CLASSIFICATION_ASSESSMENT]` | Specify the data classification assessment | "[specify value]" |
+| `[DATA_INVENTORY_EVALUATION]` | Specify the data inventory evaluation | "[specify value]" |
+| `[DATA_FLOW_MAPPING_ASSESSMENT]` | Specify the data flow mapping assessment | "[specify value]" |
+| `[DATA_HANDLING_PROCEDURE_EVALUATION]` | Specify the data handling procedure evaluation | "[specify value]" |
+| `[DATA_RETENTION_POLICY_ASSESSMENT]` | Specify the data retention policy assessment | "[specify value]" |
+| `[DATA_DISPOSAL_PROCEDURE_EVALUATION]` | Specify the data disposal procedure evaluation | "[specify value]" |
+| `[SENSITIVE_DATA_IDENTIFICATION_ASSESSMENT]` | Specify the sensitive data identification assessment | "[specify value]" |
+| `[DATA_LABELING_EVALUATION]` | Specify the data labeling evaluation | "[specify value]" |
+| `[CROSS_BORDER_DATA_TRANSFER_ASSESSMENT]` | Specify the cross border data transfer assessment | "[specify value]" |
+| `[DATA_SHARING_AGREEMENT_EVALUATION]` | Specify the data sharing agreement evaluation | "[specify value]" |
+| `[ENCRYPTION_STANDARDS_ASSESSMENT]` | Specify the encryption standards assessment | "[specify value]" |
+| `[DATA_AT_REST_ENCRYPTION_EVALUATION]` | Specify the data at rest encryption evaluation | "[specify value]" |
+| `[DATA_IN_TRANSIT_ENCRYPTION_ASSESSMENT]` | Specify the data in transit encryption assessment | "[specify value]" |
+| `[KEY_MANAGEMENT_EVALUATION]` | Specify the key management evaluation | "[specify value]" |
+| `[CERTIFICATE_MANAGEMENT_ASSESSMENT]` | Specify the certificate management assessment | "[specify value]" |
+| `[HSM_SECURITY_EVALUATION]` | Specify the hsm security evaluation | "[specify value]" |
+| `[CRYPTOGRAPHIC_PROTOCOL_ASSESSMENT]` | Specify the cryptographic protocol assessment | "[specify value]" |
+| `[KEY_ROTATION_EVALUATION]` | Specify the key rotation evaluation | "[specify value]" |
+| `[KEY_ESCROW_ASSESSMENT]` | Specify the key escrow assessment | "[specify value]" |
+| `[QUANTUM_SAFE_CRYPTO_EVALUATION]` | Specify the quantum safe crypto evaluation | "[specify value]" |
+| `[GDPR_COMPLIANCE_ASSESSMENT]` | Specify the gdpr compliance assessment | "[specify value]" |
+| `[CCPA_COMPLIANCE_EVALUATION]` | Specify the ccpa compliance evaluation | "[specify value]" |
+| `[DATA_SUBJECT_RIGHTS_ASSESSMENT]` | Specify the data subject rights assessment | "[specify value]" |
+| `[CONSENT_MANAGEMENT_EVALUATION]` | Specify the consent management evaluation | "[specify value]" |
+| `[PRIVACY_BY_DESIGN_ASSESSMENT]` | Specify the privacy by design assessment | "[specify value]" |
+| `[DPIA_EVALUATION]` | Specify the dpia evaluation | "[specify value]" |
+| `[PRIVACY_NOTICE_ASSESSMENT]` | Specify the privacy notice assessment | "[specify value]" |
+| `[THIRD_PARTY_DATA_PROCESSING_EVALUATION]` | Specify the third party data processing evaluation | "[specify value]" |
+| `[DATA_BREACH_PROCEDURE_ASSESSMENT]` | Specify the data breach procedure assessment | "[specify value]" |
+| `[PRIVACY_OFFICER_EVALUATION]` | Specify the privacy officer evaluation | "[specify value]" |
+| `[INFO_SECURITY_POLICY_ASSESSMENT]` | Specify the info security policy assessment | "[specify value]" |
+| `[ACCEPTABLE_USE_POLICY_EVALUATION]` | Specify the acceptable use policy evaluation | "[specify value]" |
+| `[DATA_PROTECTION_POLICY_ASSESSMENT]` | Specify the data protection policy assessment | "[specify value]" |
+| `[INCIDENT_RESPONSE_POLICY_EVALUATION]` | Specify the incident response policy evaluation | "[specify value]" |
+| `[BUSINESS_CONTINUITY_POLICY_ASSESSMENT]` | Specify the business continuity policy assessment | "[specify value]" |
+| `[VENDOR_MANAGEMENT_POLICY_EVALUATION]` | Specify the vendor management policy evaluation | "[specify value]" |
+| `[CHANGE_MANAGEMENT_POLICY_ASSESSMENT]` | Specify the change management policy assessment | "[specify value]" |
+| `[RISK_MANAGEMENT_POLICY_EVALUATION]` | Specify the risk management policy evaluation | "[specify value]" |
+| `[TRAINING_AWARENESS_POLICY_ASSESSMENT]` | Specify the training awareness policy assessment | "[specify value]" |
+| `[POLICY_REVIEW_PROCEDURE_EVALUATION]` | Specify the policy review procedure evaluation | "[specify value]" |
+| `[RISK_ASSESSMENT_METHODOLOGY_EVALUATION]` | Specify the risk assessment methodology evaluation | "[specify value]" |
+| `[RISK_IDENTIFICATION_PROCESS_ASSESSMENT]` | Specify the risk identification process assessment | "[specify value]" |
+| `[RISK_ANALYSIS_PROCEDURE_EVALUATION]` | Specify the risk analysis procedure evaluation | "[specify value]" |
+| `[RISK_TREATMENT_STRATEGY_ASSESSMENT]` | Strategy or approach for risk treatment  assessment | "[specify value]" |
+| `[RISK_MONITORING_EVALUATION]` | Specify the risk monitoring evaluation | "[specify value]" |
+| `[RISK_APPETITE_ASSESSMENT]` | Specify the risk appetite assessment | "[specify value]" |
+| `[RISK_REGISTER_EVALUATION]` | Specify the risk register evaluation | "[specify value]" |
+| `[THIRD_PARTY_RISK_ASSESSMENT]` | Specify the third party risk assessment | "[specify value]" |
+| `[OPERATIONAL_RISK_EVALUATION]` | Specify the operational risk evaluation | "[specify value]" |
+| `[STRATEGIC_RISK_ASSESSMENT]` | Specify the strategic risk assessment | "[specify value]" |
+| `[REGULATORY_COMPLIANCE_TRACKING_ASSESSMENT]` | Specify the regulatory compliance tracking assessment | "[specify value]" |
+| `[COMPLIANCE_MONITORING_EVALUATION]` | Specify the compliance monitoring evaluation | "[specify value]" |
+| `[AUDIT_MANAGEMENT_ASSESSMENT]` | Specify the audit management assessment | "[specify value]" |
+| `[CONTROL_TESTING_EVALUATION]` | Specify the control testing evaluation | "[specify value]" |
+| `[EXCEPTION_MANAGEMENT_ASSESSMENT]` | Specify the exception management assessment | "[specify value]" |
+| `[REMEDIATION_TRACKING_EVALUATION]` | Specify the remediation tracking evaluation | "[specify value]" |
+| `[COMPLIANCE_REPORTING_ASSESSMENT]` | Specify the compliance reporting assessment | "[specify value]" |
+| `[REGULATORY_CHANGE_MANAGEMENT_EVALUATION]` | Specify the regulatory change management evaluation | "[specify value]" |
+| `[COMPLIANCE_TRAINING_ASSESSMENT]` | Specify the compliance training assessment | "[specify value]" |
+| `[LEGAL_OBLIGATION_EVALUATION]` | Specify the legal obligation evaluation | "[specify value]" |
+| `[INCIDENT_RESPONSE_PLAN_ASSESSMENT]` | Specify the incident response plan assessment | "[specify value]" |
+| `[INCIDENT_CLASSIFICATION_EVALUATION]` | Specify the incident classification evaluation | "[specify value]" |
+| `[INCIDENT_DETECTION_ASSESSMENT]` | Specify the incident detection assessment | "[specify value]" |
+| `[INCIDENT_RESPONSE_PROCEDURE_EVALUATION]` | Specify the incident response procedure evaluation | "[specify value]" |
+| `[INCIDENT_COMMUNICATION_ASSESSMENT]` | Specify the incident communication assessment | "[specify value]" |
+| `[INCIDENT_ESCALATION_EVALUATION]` | Specify the incident escalation evaluation | "[specify value]" |
+| `[INCIDENT_EVIDENCE_COLLECTION_ASSESSMENT]` | Specify the incident evidence collection assessment | "[specify value]" |
+| `[INCIDENT_CONTAINMENT_EVALUATION]` | Specify the incident containment evaluation | "[specify value]" |
+| `[INCIDENT_RECOVERY_ASSESSMENT]` | Specify the incident recovery assessment | "[specify value]" |
+| `[POST_INCIDENT_ANALYSIS_EVALUATION]` | Specify the post incident analysis evaluation | "[specify value]" |
+| `[SECURITY_MONITORING_ASSESSMENT]` | Specify the security monitoring assessment | "[specify value]" |
+| `[LOG_MANAGEMENT_EVALUATION]` | Specify the log management evaluation | "[specify value]" |
+| `[SIEM_IMPLEMENTATION_ASSESSMENT]` | Specify the siem implementation assessment | "[specify value]" |
+| `[THREAT_INTELLIGENCE_EVALUATION]` | Specify the threat intelligence evaluation | "[specify value]" |
+| `[VULNERABILITY_MANAGEMENT_ASSESSMENT]` | Specify the vulnerability management assessment | "[specify value]" |
+| `[SECURITY_ANALYTICS_EVALUATION]` | Specify the security analytics evaluation | "[specify value]" |
+| `[THREAT_HUNTING_ASSESSMENT]` | Specify the threat hunting assessment | "[specify value]" |
+| `[INDICATOR_MANAGEMENT_EVALUATION]` | Specify the indicator management evaluation | "[specify value]" |
+| `[ALERT_MANAGEMENT_ASSESSMENT]` | Specify the alert management assessment | "[specify value]" |
+| `[SOC_OPERATIONS_EVALUATION]` | Specify the soc operations evaluation | "[specify value]" |
+| `[BUSINESS_CONTINUITY_PLAN_ASSESSMENT]` | Specify the business continuity plan assessment | "[specify value]" |
+| `[BUSINESS_IMPACT_ANALYSIS_EVALUATION]` | Specify the business impact analysis evaluation | "[specify value]" |
+| `[RTO_ASSESSMENT]` | Specify the rto assessment | "[specify value]" |
+| `[RPO_EVALUATION]` | Specify the rpo evaluation | "[specify value]" |
+| `[DISASTER_RECOVERY_PLAN_ASSESSMENT]` | Specify the disaster recovery plan assessment | "[specify value]" |
+| `[BACKUP_RESTORE_EVALUATION]` | Specify the backup restore evaluation | "[specify value]" |
+| `[ALTERNATIVE_SITE_ASSESSMENT]` | Specify the alternative site assessment | "[specify value]" |
+| `[BUSINESS_CONTINUITY_COMMUNICATION_EVALUATION]` | Specify the business continuity communication evaluation | "[specify value]" |
+| `[BUSINESS_CONTINUITY_TESTING_ASSESSMENT]` | Specify the business continuity testing assessment | "[specify value]" |
+| `[BUSINESS_CONTINUITY_MAINTENANCE_EVALUATION]` | Specify the business continuity maintenance evaluation | "[specify value]" |
+| `[VENDOR_RISK_ASSESSMENT_FRAMEWORK]` | Specify the vendor risk assessment framework | "[specify value]" |
+| `[VENDOR_DUE_DILIGENCE_EVALUATION]` | Specify the vendor due diligence evaluation | "[specify value]" |
+| `[VENDOR_CONTRACT_SECURITY_ASSESSMENT]` | Specify the vendor contract security assessment | "[specify value]" |
+| `[VENDOR_ONGOING_MONITORING_EVALUATION]` | Specify the vendor ongoing monitoring evaluation | "[specify value]" |
+| `[VENDOR_ACCESS_MANAGEMENT_ASSESSMENT]` | Specify the vendor access management assessment | "[specify value]" |
+| `[VENDOR_DATA_SHARING_EVALUATION]` | Specify the vendor data sharing evaluation | "[specify value]" |
+| `[VENDOR_SLA_SECURITY_ASSESSMENT]` | Specify the vendor sla security assessment | "[specify value]" |
+| `[VENDOR_PERFORMANCE_EVALUATION]` | Specify the vendor performance evaluation | "[specify value]" |
+| `[VENDOR_EXIT_PLANNING_ASSESSMENT]` | Specify the vendor exit planning assessment | "[specify value]" |
+| `[VENDOR_CERTIFICATION_EVALUATION]` | Specify the vendor certification evaluation | "[specify value]" |
+| `[SUPPLY_CHAIN_MAPPING_ASSESSMENT]` | Specify the supply chain mapping assessment | "[specify value]" |
+| `[SUPPLIER_RISK_EVALUATION]` | Specify the supplier risk evaluation | "[specify value]" |
+| `[COMPONENT_SECURITY_ASSESSMENT]` | Specify the component security assessment | "[specify value]" |
+| `[SBOM_EVALUATION]` | Specify the sbom evaluation | "[specify value]" |
+| `[OPEN_SOURCE_SECURITY_ASSESSMENT]` | Specify the open source security assessment | "[specify value]" |
+| `[HARDWARE_INTEGRITY_EVALUATION]` | Specify the hardware integrity evaluation | "[specify value]" |
+| `[PROCUREMENT_SECURITY_ASSESSMENT]` | Specify the procurement security assessment | "[specify value]" |
+| `[SUPPLY_CHAIN_MONITORING_EVALUATION]` | Specify the supply chain monitoring evaluation | "[specify value]" |
+| `[SUPPLY_CHAIN_INCIDENT_ASSESSMENT]` | Specify the supply chain incident assessment | "[specify value]" |
+| `[SUPPLY_CHAIN_RESILIENCE_EVALUATION]` | Specify the supply chain resilience evaluation | "[specify value]" |
+| `[CLOUD_SECURITY_POSTURE_ASSESSMENT]` | Specify the cloud security posture assessment | "[specify value]" |
+| `[SHARED_RESPONSIBILITY_EVALUATION]` | Specify the shared responsibility evaluation | "[specify value]" |
+| `[CLOUD_COMPLIANCE_ASSESSMENT]` | Specify the cloud compliance assessment | "[specify value]" |
+| `[CLOUD_DATA_RESIDENCY_EVALUATION]` | Specify the cloud data residency evaluation | "[specify value]" |
+| `[CLOUD_ACCESS_CONTROL_ASSESSMENT]` | Specify the cloud access control assessment | "[specify value]" |
+| `[MULTI_TENANCY_SECURITY_EVALUATION]` | Specify the multi tenancy security evaluation | "[specify value]" |
+| `[CLOUD_EXIT_STRATEGY_ASSESSMENT]` | Strategy or approach for cloud exit  assessment | "[specify value]" |
+| `[VENDOR_LOCK_IN_EVALUATION]` | Specify the vendor lock in evaluation | "[specify value]" |
+| `[SECURITY_AWARENESS_PROGRAM_ASSESSMENT]` | Specify the security awareness program assessment | "[specify value]" |
+| `[TRAINING_CONTENT_EVALUATION]` | Specify the training content evaluation | "[specify value]" |
+| `[TRAINING_DELIVERY_ASSESSMENT]` | Specify the training delivery assessment | "[specify value]" |
+| `[TRAINING_AUDIENCE_EVALUATION]` | Specify the training audience evaluation | "[specify value]" |
+| `[TRAINING_FREQUENCY_ASSESSMENT]` | Specify the training frequency assessment | "[specify value]" |
+| `[TRAINING_EFFECTIVENESS_EVALUATION]` | Specify the training effectiveness evaluation | "[specify value]" |
+| `[ROLE_SPECIFIC_TRAINING_EVALUATION]` | Specify the role specific training evaluation | "[specify value]" |
+| `[NEW_EMPLOYEE_TRAINING_ASSESSMENT]` | Specify the new employee training assessment | "[specify value]" |
+| `[ONGOING_EDUCATION_EVALUATION]` | Specify the ongoing education evaluation | "[specify value]" |
+| `[SECURITY_CULTURE_MATURITY_ASSESSMENT]` | Specify the security culture maturity assessment | "[specify value]" |
+| `[LEADERSHIP_ENGAGEMENT_EVALUATION]` | Specify the leadership engagement evaluation | "[specify value]" |
+| `[EMPLOYEE_BEHAVIOR_ASSESSMENT]` | Specify the employee behavior assessment | "[specify value]" |
+| `[REPORTING_CULTURE_EVALUATION]` | Specify the reporting culture evaluation | "[specify value]" |
+| `[SECURITY_COMMUNICATION_ASSESSMENT]` | Specify the security communication assessment | "[specify value]" |
+| `[SECURITY_INCENTIVE_EVALUATION]` | Specify the security incentive evaluation | "[specify value]" |
+| `[SECURITY_PERFORMANCE_METRICS_ASSESSMENT]` | Specify the security performance metrics assessment | "[specify value]" |
+| `[CULTURE_CHANGE_EVALUATION]` | Specify the culture change evaluation | "[specify value]" |
+| `[PEER_INFLUENCE_ASSESSMENT]` | Specify the peer influence assessment | "[specify value]" |
+| `[MANAGEMENT_SUPPORT_EVALUATION]` | Specify the management support evaluation | "[specify value]" |
+| `[PHISHING_SIMULATION_ASSESSMENT]` | Specify the phishing simulation assessment | "[specify value]" |
+| `[SOCIAL_ENGINEERING_TESTING_EVALUATION]` | Specify the social engineering testing evaluation | "[specify value]" |
+| `[PHYSICAL_SECURITY_TESTING_ASSESSMENT]` | Specify the physical security testing assessment | "[specify value]" |
+| `[VISHING_CAMPAIGN_EVALUATION]` | Specify the vishing campaign evaluation | "[specify value]" |
+| `[PRETEXTING_SCENARIO_ASSESSMENT]` | Specify the pretexting scenario assessment | "[specify value]" |
+| `[TAILGATING_TESTING_EVALUATION]` | Specify the tailgating testing evaluation | "[specify value]" |
+| `[USB_DROP_TESTING_ASSESSMENT]` | Specify the usb drop testing assessment | "[specify value]" |
+| `[AWARENESS_EFFECTIVENESS_EVALUATION]` | Specify the awareness effectiveness evaluation | "[specify value]" |
+| `[HUMAN_FACTOR_RESPONSE_ASSESSMENT]` | Specify the human factor response assessment | "[specify value]" |
+| `[REMEDIAL_TRAINING_EVALUATION]` | Specify the remedial training evaluation | "[specify value]" |
+| `[RISK_SEVERITY_CLASSIFICATION]` | Specify the risk severity classification | "[specify value]" |
+| `[IMPACT_ASSESSMENT_METHODOLOGY]` | Specify the impact assessment methodology | "[specify value]" |
+| `[LIKELIHOOD_EVALUATION_FRAMEWORK]` | Specify the likelihood evaluation framework | "[specify value]" |
+| `[PRIORITY_RANKING_SYSTEM]` | Specify the priority ranking system | "High" |
+| `[FINDING_CATEGORIZATION_SCHEME]` | Specify the finding categorization scheme | "[specify value]" |
+| `[ROOT_CAUSE_ANALYSIS_METHODOLOGY]` | Specify the root cause analysis methodology | "[specify value]" |
+| `[CONTROL_DEFICIENCY_FRAMEWORK]` | Specify the control deficiency framework | "[specify value]" |
+| `[COMPLIANCE_GAP_ANALYSIS]` | Specify the compliance gap analysis | "[specify value]" |
+| `[REMEDIATION_COMPLEXITY_ASSESSMENT]` | Specify the remediation complexity assessment | "[specify value]" |
+| `[BUSINESS_IMPACT_EVALUATION]` | Specify the business impact evaluation | "[specify value]" |
+| `[REMEDIATION_ROADMAP_DEVELOPMENT]` | Specify the remediation roadmap development | "[specify value]" |
+| `[REMEDIATION_PRIORITY_SEQUENCING]` | Specify the remediation priority sequencing | "High" |
+| `[REMEDIATION_RESOURCE_ALLOCATION]` | Specify the remediation resource allocation | "North America" |
+| `[REMEDIATION_TIMELINE_FRAMEWORK]` | Timeline or schedule for remediation  framework | "6 months" |
+| `[RISK_MITIGATION_STRATEGY_DEVELOPMENT]` | Strategy or approach for risk mitigation  development | "[specify value]" |
+| `[QUICK_WIN_IDENTIFICATION]` | Specify the quick win identification | "[specify value]" |
+| `[LONG_TERM_REMEDIATION_PLANNING]` | Specify the long term remediation planning | "[specify value]" |
+| `[REMEDIATION_COST_BENEFIT_ANALYSIS]` | Specify the remediation cost benefit analysis | "[specify value]" |
+| `[REMEDIATION_STAKEHOLDER_ALIGNMENT]` | Specify the remediation stakeholder alignment | "[specify value]" |
+| `[REMEDIATION_PROGRESS_TRACKING]` | Specify the remediation progress tracking | "[specify value]" |
+| `[EXECUTIVE_SUMMARY_FRAMEWORK]` | Specify the executive summary framework | "[specify value]" |
+| `[RISK_DASHBOARD_DEVELOPMENT]` | Specify the risk dashboard development | "[specify value]" |
+| `[COMPLIANCE_STATUS_REPORTING]` | Specify the compliance status reporting | "In Progress" |
+| `[SECURITY_TREND_ANALYSIS]` | Specify the security trend analysis | "[specify value]" |
+| `[SECURITY_BENCHMARKING_FRAMEWORK]` | Specify the security benchmarking framework | "[specify value]" |
+| `[SECURITY_ROI_JUSTIFICATION]` | Specify the security roi justification | "[specify value]" |
+| `[SECURITY_BUDGET_IMPLICATIONS]` | Budget allocation for security  implications | "$500,000" |
+| `[STRATEGIC_ALIGNMENT_REPORTING]` | Specify the strategic alignment reporting | "[specify value]" |
+| `[BOARD_PRESENTATION_FRAMEWORK]` | Specify the board presentation framework | "[specify value]" |
+| `[REGULATORY_REPORTING_REQUIREMENTS]` | Specify the regulatory reporting requirements | "[specify value]" |
+| `[CONTINUOUS_MONITORING_PROGRAM]` | Specify the continuous monitoring program | "[specify value]" |
+| `[KEY_RISK_INDICATOR_FRAMEWORK]` | Specify the key risk indicator framework | "[specify value]" |
+| `[SECURITY_PERFORMANCE_METRICS]` | Specify the security performance metrics | "[specify value]" |
+| `[AUTOMATED_CONTROLS_TESTING]` | Specify the automated controls testing | "[specify value]" |
+| `[EXCEPTION_MONITORING_FRAMEWORK]` | Specify the exception monitoring framework | "[specify value]" |
+| `[TREND_IDENTIFICATION_METHODOLOGY]` | Specify the trend identification methodology | "[specify value]" |
+| `[EARLY_WARNING_SYSTEM_DEVELOPMENT]` | Specify the early warning system development | "[specify value]" |
+| `[REGULAR_ASSESSMENT_SCHEDULING]` | Specify the regular assessment scheduling | "[specify value]" |
+| `[SECURITY_MATURITY_PROGRESSION]` | Specify the security maturity progression | "[specify value]" |
+| `[IMPROVEMENT_OPPORTUNITY_IDENTIFICATION]` | Specify the improvement opportunity identification | "[specify value]" |

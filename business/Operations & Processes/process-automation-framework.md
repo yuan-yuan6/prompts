@@ -1,3 +1,18 @@
+---
+title: Process Automation Framework & Implementation Strategy
+category: business/Operations & Processes
+tags: [automation, business, data-science, framework, marketing, optimization, research, strategy]
+use_cases:
+  - Implementing comprehensive process automation framework covering process analysis, automation...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - okr-implementation-framework.md
+  - digital-transformation-roadmap.md
+  - lean-six-sigma-implementation.md
+last_updated: 2025-11-09
+---
+
 # Process Automation Framework & Implementation Strategy
 
 ## Purpose
@@ -132,6 +147,33 @@ Implement process automation for [COMPANY_NAME] across [PROCESS_COUNT] processes
 
 ## Usage Examples
 
+
+
+## Best Practices
+
+1. **Start with clear objectives** - Define what success looks like before beginning
+2. **Use data to inform decisions** - Base choices on evidence and measurable outcomes
+3. **Iterate and improve continuously** - Treat implementation as an ongoing process
+4. **Engage stakeholders early** - Include key participants in planning and execution
+5. **Document thoroughly** - Maintain clear records for reference and knowledge transfer
+6. **Communicate regularly** - Keep all parties informed of progress and changes
+7. **Address challenges proactively** - Identify potential issues before they become problems
+8. **Celebrate milestones** - Recognize achievements to maintain motivation
+9. **Learn from experience** - Reflect on what works and adjust accordingly
+10. **Stay flexible** - Be ready to adapt based on feedback and changing circumstances
+
+## Tips for Success
+
+- Break complex tasks into manageable steps with clear milestones
+- Set realistic timelines that account for dependencies and constraints
+- Allocate sufficient resources including time, budget, and personnel
+- Use templates and frameworks to ensure consistency and quality
+- Seek feedback from users and stakeholders throughout the process
+- Build in checkpoints to assess progress and make adjustments
+- Maintain quality standards while remaining practical and efficient
+- Document lessons learned for future reference and improvement
+- Foster collaboration across teams and departments
+- Stay current with industry best practices and emerging trends
 ### Example 1: Financial Services RPA Implementation
 ```
 Company: Regional bank
@@ -141,6 +183,467 @@ Expected Benefits: 60% processing time reduction
 Technologies: RPA, OCR, workflow automation
 Impact: 200+ FTE hours saved monthly
 ```
+
+## Variables
+
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `[COMPANY_NAME]` | Name of the company | "Acme Corporation" |
+| `[PROCESS_COUNT]` | Specify the process count | "10" |
+| `[AUTOMATION_BUDGET]` | Budget allocation for automation | "$500,000" |
+| `[TIMELINE]` | Timeline or schedule for  | "6 months" |
+| `[EFFICIENCY_GAIN]` | Specify the efficiency gain | "[specify value]" |
+| `[COST_REDUCTION]` | Specify the cost reduction | "[specify value]" |
+| `[ERROR_REDUCTION]` | Specify the error reduction | "[specify value]" |
+| `[AUTOMATION_PERCENTAGE]` | Specify the automation percentage | "25%" |
+| `[CS_PROCESS_1]` | Specify the cs process 1 | "[specify value]" |
+| `[CS_CURRENT_1]` | Specify the cs current 1 | "[specify value]" |
+| `[CS_COMPLEXITY_1]` | Specify the cs complexity 1 | "[specify value]" |
+| `[CS_VOLUME_1]` | Specify the cs volume 1 | "[specify value]" |
+| `[CS_PAIN_1]` | Specify the cs pain 1 | "[specify value]" |
+| `[CS_AUTOMATION_1]` | Specify the cs automation 1 | "[specify value]" |
+| `[CS_PROCESS_2]` | Specify the cs process 2 | "[specify value]" |
+| `[CS_CURRENT_2]` | Specify the cs current 2 | "[specify value]" |
+| `[CS_COMPLEXITY_2]` | Specify the cs complexity 2 | "[specify value]" |
+| `[CS_VOLUME_2]` | Specify the cs volume 2 | "[specify value]" |
+| `[CS_PAIN_2]` | Specify the cs pain 2 | "[specify value]" |
+| `[CS_AUTOMATION_2]` | Specify the cs automation 2 | "[specify value]" |
+| `[SM_PROCESS_1]` | Specify the sm process 1 | "[specify value]" |
+| `[SM_CURRENT_1]` | Specify the sm current 1 | "[specify value]" |
+| `[SM_COMPLEXITY_1]` | Specify the sm complexity 1 | "[specify value]" |
+| `[SM_VOLUME_1]` | Specify the sm volume 1 | "[specify value]" |
+| `[SM_PAIN_1]` | Specify the sm pain 1 | "[specify value]" |
+| `[SM_AUTOMATION_1]` | Specify the sm automation 1 | "[specify value]" |
+| `[SM_PROCESS_2]` | Specify the sm process 2 | "[specify value]" |
+| `[SM_CURRENT_2]` | Specify the sm current 2 | "[specify value]" |
+| `[SM_COMPLEXITY_2]` | Specify the sm complexity 2 | "[specify value]" |
+| `[SM_VOLUME_2]` | Specify the sm volume 2 | "[specify value]" |
+| `[SM_PAIN_2]` | Specify the sm pain 2 | "[specify value]" |
+| `[SM_AUTOMATION_2]` | Specify the sm automation 2 | "[specify value]" |
+| `[FA_PROCESS_1]` | Specify the fa process 1 | "[specify value]" |
+| `[FA_CURRENT_1]` | Specify the fa current 1 | "[specify value]" |
+| `[FA_COMPLEXITY_1]` | Specify the fa complexity 1 | "[specify value]" |
+| `[FA_VOLUME_1]` | Specify the fa volume 1 | "[specify value]" |
+| `[FA_PAIN_1]` | Specify the fa pain 1 | "[specify value]" |
+| `[FA_AUTOMATION_1]` | Specify the fa automation 1 | "[specify value]" |
+| `[FA_PROCESS_2]` | Specify the fa process 2 | "[specify value]" |
+| `[FA_CURRENT_2]` | Specify the fa current 2 | "[specify value]" |
+| `[FA_COMPLEXITY_2]` | Specify the fa complexity 2 | "[specify value]" |
+| `[FA_VOLUME_2]` | Specify the fa volume 2 | "[specify value]" |
+| `[FA_PAIN_2]` | Specify the fa pain 2 | "[specify value]" |
+| `[FA_AUTOMATION_2]` | Specify the fa automation 2 | "[specify value]" |
+| `[HR_PROCESS_1]` | Specify the hr process 1 | "[specify value]" |
+| `[HR_CURRENT_1]` | Specify the hr current 1 | "[specify value]" |
+| `[HR_COMPLEXITY_1]` | Specify the hr complexity 1 | "[specify value]" |
+| `[HR_VOLUME_1]` | Specify the hr volume 1 | "[specify value]" |
+| `[HR_PAIN_1]` | Specify the hr pain 1 | "[specify value]" |
+| `[HR_AUTOMATION_1]` | Specify the hr automation 1 | "[specify value]" |
+| `[HR_PROCESS_2]` | Specify the hr process 2 | "[specify value]" |
+| `[HR_CURRENT_2]` | Specify the hr current 2 | "[specify value]" |
+| `[HR_COMPLEXITY_2]` | Specify the hr complexity 2 | "[specify value]" |
+| `[HR_VOLUME_2]` | Specify the hr volume 2 | "[specify value]" |
+| `[HR_PAIN_2]` | Specify the hr pain 2 | "[specify value]" |
+| `[HR_AUTOMATION_2]` | Specify the hr automation 2 | "[specify value]" |
+| `[OPS_PROCESS_1]` | Specify the ops process 1 | "[specify value]" |
+| `[OPS_CURRENT_1]` | Specify the ops current 1 | "[specify value]" |
+| `[OPS_COMPLEXITY_1]` | Specify the ops complexity 1 | "[specify value]" |
+| `[OPS_VOLUME_1]` | Specify the ops volume 1 | "[specify value]" |
+| `[OPS_PAIN_1]` | Specify the ops pain 1 | "[specify value]" |
+| `[OPS_AUTOMATION_1]` | Specify the ops automation 1 | "[specify value]" |
+| `[OPS_PROCESS_2]` | Specify the ops process 2 | "[specify value]" |
+| `[OPS_CURRENT_2]` | Specify the ops current 2 | "[specify value]" |
+| `[OPS_COMPLEXITY_2]` | Specify the ops complexity 2 | "[specify value]" |
+| `[OPS_VOLUME_2]` | Specify the ops volume 2 | "[specify value]" |
+| `[OPS_PAIN_2]` | Specify the ops pain 2 | "[specify value]" |
+| `[OPS_AUTOMATION_2]` | Specify the ops automation 2 | "[specify value]" |
+| `[IT_PROCESS_1]` | Specify the it process 1 | "[specify value]" |
+| `[IT_CURRENT_1]` | Specify the it current 1 | "[specify value]" |
+| `[IT_COMPLEXITY_1]` | Specify the it complexity 1 | "[specify value]" |
+| `[IT_VOLUME_1]` | Specify the it volume 1 | "[specify value]" |
+| `[IT_PAIN_1]` | Specify the it pain 1 | "[specify value]" |
+| `[IT_AUTOMATION_1]` | Specify the it automation 1 | "[specify value]" |
+| `[IT_PROCESS_2]` | Specify the it process 2 | "[specify value]" |
+| `[IT_CURRENT_2]` | Specify the it current 2 | "[specify value]" |
+| `[IT_COMPLEXITY_2]` | Specify the it complexity 2 | "[specify value]" |
+| `[IT_VOLUME_2]` | Specify the it volume 2 | "[specify value]" |
+| `[IT_PAIN_2]` | Specify the it pain 2 | "[specify value]" |
+| `[IT_AUTOMATION_2]` | Specify the it automation 2 | "[specify value]" |
+| `[RPA_TOOL]` | Specify the rpa tool | "[specify value]" |
+| `[RPA_USE_CASES]` | Specify the rpa use cases | "[specify value]" |
+| `[RPA_COMPLEXITY]` | Specify the rpa complexity | "[specify value]" |
+| `[RPA_COST]` | Specify the rpa cost | "[specify value]" |
+| `[RPA_ROI]` | Specify the rpa roi | "[specify value]" |
+| `[RPA_INTEGRATION]` | Specify the rpa integration | "[specify value]" |
+| `[BPM_TOOL]` | Specify the bpm tool | "[specify value]" |
+| `[BPM_USE_CASES]` | Specify the bpm use cases | "[specify value]" |
+| `[BPM_COMPLEXITY]` | Specify the bpm complexity | "[specify value]" |
+| `[BPM_COST]` | Specify the bpm cost | "[specify value]" |
+| `[BPM_ROI]` | Specify the bpm roi | "[specify value]" |
+| `[BPM_INTEGRATION]` | Specify the bpm integration | "[specify value]" |
+| `[DOC_TOOL]` | Specify the doc tool | "[specify value]" |
+| `[DOC_USE_CASES]` | Specify the doc use cases | "[specify value]" |
+| `[DOC_COMPLEXITY]` | Specify the doc complexity | "[specify value]" |
+| `[DOC_COST]` | Specify the doc cost | "[specify value]" |
+| `[DOC_ROI]` | Specify the doc roi | "[specify value]" |
+| `[DOC_INTEGRATION]` | Specify the doc integration | "[specify value]" |
+| `[AI_TOOL]` | Specify the ai tool | "[specify value]" |
+| `[AI_USE_CASES]` | Specify the ai use cases | "[specify value]" |
+| `[AI_COMPLEXITY]` | Specify the ai complexity | "[specify value]" |
+| `[AI_COST]` | Specify the ai cost | "[specify value]" |
+| `[AI_ROI]` | Specify the ai roi | "[specify value]" |
+| `[AI_INTEGRATION]` | Specify the ai integration | "[specify value]" |
+| `[WF_TOOL]` | Specify the wf tool | "[specify value]" |
+| `[WF_USE_CASES]` | Specify the wf use cases | "[specify value]" |
+| `[WF_COMPLEXITY]` | Specify the wf complexity | "[specify value]" |
+| `[WF_COST]` | Specify the wf cost | "[specify value]" |
+| `[WF_ROI]` | Specify the wf roi | "[specify value]" |
+| `[WF_INTEGRATION]` | Specify the wf integration | "[specify value]" |
+| `[API_TOOL]` | Specify the api tool | "[specify value]" |
+| `[API_USE_CASES]` | Specify the api use cases | "[specify value]" |
+| `[API_COMPLEXITY]` | Specify the api complexity | "[specify value]" |
+| `[API_COST]` | Specify the api cost | "[specify value]" |
+| `[API_ROI]` | Specify the api roi | "[specify value]" |
+| `[API_INTEGRATION]` | Specify the api integration | "[specify value]" |
+| `[LCNC_TOOL]` | Specify the lcnc tool | "[specify value]" |
+| `[LCNC_USE_CASES]` | Specify the lcnc use cases | "[specify value]" |
+| `[LCNC_COMPLEXITY]` | Specify the lcnc complexity | "[specify value]" |
+| `[LCNC_COST]` | Specify the lcnc cost | "[specify value]" |
+| `[LCNC_ROI]` | Specify the lcnc roi | "[specify value]" |
+| `[LCNC_INTEGRATION]` | Specify the lcnc integration | "[specify value]" |
+| `[ANALYTICS_TOOL]` | Specify the analytics tool | "[specify value]" |
+| `[ANALYTICS_USE_CASES]` | Specify the analytics use cases | "[specify value]" |
+| `[ANALYTICS_COMPLEXITY]` | Specify the analytics complexity | "[specify value]" |
+| `[ANALYTICS_COST]` | Specify the analytics cost | "[specify value]" |
+| `[ANALYTICS_ROI]` | Specify the analytics roi | "[specify value]" |
+| `[ANALYTICS_INTEGRATION]` | Specify the analytics integration | "[specify value]" |
+| `[PROCESS_1]` | Specify the process 1 | "[specify value]" |
+| `[IMPACT_1]` | Specify the impact 1 | "[specify value]" |
+| `[FEASIBILITY_1]` | Specify the feasibility 1 | "[specify value]" |
+| `[EFFORT_1]` | Specify the effort 1 | "[specify value]" |
+| `[ROI_1]` | Specify the roi 1 | "[specify value]" |
+| `[PRIORITY_1]` | Specify the priority 1 | "High" |
+| `[TIMELINE_1]` | Timeline or schedule for 1 | "6 months" |
+| `[PROCESS_2]` | Specify the process 2 | "[specify value]" |
+| `[IMPACT_2]` | Specify the impact 2 | "[specify value]" |
+| `[FEASIBILITY_2]` | Specify the feasibility 2 | "[specify value]" |
+| `[EFFORT_2]` | Specify the effort 2 | "[specify value]" |
+| `[ROI_2]` | Specify the roi 2 | "[specify value]" |
+| `[PRIORITY_2]` | Specify the priority 2 | "High" |
+| `[TIMELINE_2]` | Timeline or schedule for 2 | "6 months" |
+| `[PROCESS_3]` | Specify the process 3 | "[specify value]" |
+| `[IMPACT_3]` | Specify the impact 3 | "[specify value]" |
+| `[FEASIBILITY_3]` | Specify the feasibility 3 | "[specify value]" |
+| `[EFFORT_3]` | Specify the effort 3 | "[specify value]" |
+| `[ROI_3]` | Specify the roi 3 | "[specify value]" |
+| `[PRIORITY_3]` | Specify the priority 3 | "High" |
+| `[TIMELINE_3]` | Timeline or schedule for 3 | "6 months" |
+| `[PROCESS_4]` | Specify the process 4 | "[specify value]" |
+| `[IMPACT_4]` | Specify the impact 4 | "[specify value]" |
+| `[FEASIBILITY_4]` | Specify the feasibility 4 | "[specify value]" |
+| `[EFFORT_4]` | Specify the effort 4 | "[specify value]" |
+| `[ROI_4]` | Specify the roi 4 | "[specify value]" |
+| `[PRIORITY_4]` | Specify the priority 4 | "High" |
+| `[TIMELINE_4]` | Timeline or schedule for 4 | "6 months" |
+| `[PROCESS_5]` | Specify the process 5 | "[specify value]" |
+| `[IMPACT_5]` | Specify the impact 5 | "[specify value]" |
+| `[FEASIBILITY_5]` | Specify the feasibility 5 | "[specify value]" |
+| `[EFFORT_5]` | Specify the effort 5 | "[specify value]" |
+| `[ROI_5]` | Specify the roi 5 | "[specify value]" |
+| `[PRIORITY_5]` | Specify the priority 5 | "High" |
+| `[TIMELINE_5]` | Timeline or schedule for 5 | "6 months" |
+| `[PROCESS_6]` | Specify the process 6 | "[specify value]" |
+| `[IMPACT_6]` | Specify the impact 6 | "[specify value]" |
+| `[FEASIBILITY_6]` | Specify the feasibility 6 | "[specify value]" |
+| `[EFFORT_6]` | Specify the effort 6 | "[specify value]" |
+| `[ROI_6]` | Specify the roi 6 | "[specify value]" |
+| `[PRIORITY_6]` | Specify the priority 6 | "High" |
+| `[TIMELINE_6]` | Timeline or schedule for 6 | "6 months" |
+| `[PROCESS_7]` | Specify the process 7 | "[specify value]" |
+| `[IMPACT_7]` | Specify the impact 7 | "[specify value]" |
+| `[FEASIBILITY_7]` | Specify the feasibility 7 | "[specify value]" |
+| `[EFFORT_7]` | Specify the effort 7 | "[specify value]" |
+| `[ROI_7]` | Specify the roi 7 | "[specify value]" |
+| `[PRIORITY_7]` | Specify the priority 7 | "High" |
+| `[TIMELINE_7]` | Timeline or schedule for 7 | "6 months" |
+| `[PROCESS_8]` | Specify the process 8 | "[specify value]" |
+| `[IMPACT_8]` | Specify the impact 8 | "[specify value]" |
+| `[FEASIBILITY_8]` | Specify the feasibility 8 | "[specify value]" |
+| `[EFFORT_8]` | Specify the effort 8 | "[specify value]" |
+| `[ROI_8]` | Specify the roi 8 | "[specify value]" |
+| `[PRIORITY_8]` | Specify the priority 8 | "High" |
+| `[TIMELINE_8]` | Timeline or schedule for 8 | "6 months" |
+| `[P1_DURATION]` | Specify the p1 duration | "6 months" |
+| `[P1_PROCESSES]` | Specify the p1 processes | "[specify value]" |
+| `[P1_TECHNOLOGIES]` | Specify the p1 technologies | "[specify value]" |
+| `[P1_RESOURCES]` | Specify the p1 resources | "[specify value]" |
+| `[P1_BUDGET]` | Budget allocation for p1 | "$500,000" |
+| `[P1_SUCCESS]` | Specify the p1 success | "[specify value]" |
+| `[P2_DURATION]` | Specify the p2 duration | "6 months" |
+| `[P2_PROCESSES]` | Specify the p2 processes | "[specify value]" |
+| `[P2_TECHNOLOGIES]` | Specify the p2 technologies | "[specify value]" |
+| `[P2_RESOURCES]` | Specify the p2 resources | "[specify value]" |
+| `[P2_BUDGET]` | Budget allocation for p2 | "$500,000" |
+| `[P2_SUCCESS]` | Specify the p2 success | "[specify value]" |
+| `[P3_DURATION]` | Specify the p3 duration | "6 months" |
+| `[P3_PROCESSES]` | Specify the p3 processes | "[specify value]" |
+| `[P3_TECHNOLOGIES]` | Specify the p3 technologies | "[specify value]" |
+| `[P3_RESOURCES]` | Specify the p3 resources | "[specify value]" |
+| `[P3_BUDGET]` | Budget allocation for p3 | "$500,000" |
+| `[P3_SUCCESS]` | Specify the p3 success | "[specify value]" |
+| `[P4_DURATION]` | Specify the p4 duration | "6 months" |
+| `[P4_PROCESSES]` | Specify the p4 processes | "[specify value]" |
+| `[P4_TECHNOLOGIES]` | Specify the p4 technologies | "[specify value]" |
+| `[P4_RESOURCES]` | Specify the p4 resources | "[specify value]" |
+| `[P4_BUDGET]` | Budget allocation for p4 | "$500,000" |
+| `[P4_SUCCESS]` | Specify the p4 success | "[specify value]" |
+| `[P5_DURATION]` | Specify the p5 duration | "6 months" |
+| `[P5_PROCESSES]` | Specify the p5 processes | "[specify value]" |
+| `[P5_TECHNOLOGIES]` | Specify the p5 technologies | "[specify value]" |
+| `[P5_RESOURCES]` | Specify the p5 resources | "[specify value]" |
+| `[P5_BUDGET]` | Budget allocation for p5 | "$500,000" |
+| `[P5_SUCCESS]` | Specify the p5 success | "[specify value]" |
+| `[EXEC_IMPACT]` | Specify the exec impact | "[specify value]" |
+| `[EXEC_TRAINING]` | Specify the exec training | "[specify value]" |
+| `[EXEC_COMMUNICATION]` | Specify the exec communication | "[specify value]" |
+| `[EXEC_SUPPORT]` | Specify the exec support | "[specify value]" |
+| `[EXEC_RESISTANCE]` | Specify the exec resistance | "[specify value]" |
+| `[EXEC_METRICS]` | Specify the exec metrics | "[specify value]" |
+| `[MGR_IMPACT]` | Specify the mgr impact | "[specify value]" |
+| `[MGR_TRAINING]` | Specify the mgr training | "[specify value]" |
+| `[MGR_COMMUNICATION]` | Specify the mgr communication | "[specify value]" |
+| `[MGR_SUPPORT]` | Specify the mgr support | "[specify value]" |
+| `[MGR_RESISTANCE]` | Specify the mgr resistance | "[specify value]" |
+| `[MGR_METRICS]` | Specify the mgr metrics | "[specify value]" |
+| `[OWNER_IMPACT]` | Specify the owner impact | "[specify value]" |
+| `[OWNER_TRAINING]` | Specify the owner training | "[specify value]" |
+| `[OWNER_COMMUNICATION]` | Specify the owner communication | "[specify value]" |
+| `[OWNER_SUPPORT]` | Specify the owner support | "[specify value]" |
+| `[OWNER_RESISTANCE]` | Specify the owner resistance | "[specify value]" |
+| `[OWNER_METRICS]` | Specify the owner metrics | "[specify value]" |
+| `[USER_IMPACT]` | Specify the user impact | "[specify value]" |
+| `[USER_TRAINING]` | Specify the user training | "[specify value]" |
+| `[USER_COMMUNICATION]` | Specify the user communication | "[specify value]" |
+| `[USER_SUPPORT]` | Specify the user support | "[specify value]" |
+| `[USER_RESISTANCE]` | Specify the user resistance | "[specify value]" |
+| `[USER_METRICS]` | Specify the user metrics | "[specify value]" |
+| `[IT_IMPACT]` | Specify the it impact | "[specify value]" |
+| `[IT_TRAINING]` | Specify the it training | "[specify value]" |
+| `[IT_COMMUNICATION]` | Specify the it communication | "[specify value]" |
+| `[IT_SUPPORT]` | Specify the it support | "[specify value]" |
+| `[IT_RESISTANCE]` | Specify the it resistance | "[specify value]" |
+| `[IT_METRICS]` | Specify the it metrics | "[specify value]" |
+| `[PARTNER_IMPACT]` | Specify the partner impact | "[specify value]" |
+| `[PARTNER_TRAINING]` | Specify the partner training | "[specify value]" |
+| `[PARTNER_COMMUNICATION]` | Specify the partner communication | "[specify value]" |
+| `[PARTNER_SUPPORT]` | Specify the partner support | "[specify value]" |
+| `[PARTNER_RESISTANCE]` | Specify the partner resistance | "[specify value]" |
+| `[PARTNER_METRICS]` | Specify the partner metrics | "[specify value]" |
+| `[COE_CURRENT]` | Specify the coe current | "[specify value]" |
+| `[COE_TARGET]` | Target or intended coe | "[specify value]" |
+| `[COE_ROLES]` | Specify the coe roles | "[specify value]" |
+| `[COE_DECISIONS]` | Specify the coe decisions | "[specify value]" |
+| `[COE_ESCALATION]` | Specify the coe escalation | "[specify value]" |
+| `[COE_REVIEW]` | Specify the coe review | "[specify value]" |
+| `[STD_CURRENT]` | Specify the std current | "[specify value]" |
+| `[STD_TARGET]` | Target or intended std | "[specify value]" |
+| `[STD_ROLES]` | Specify the std roles | "[specify value]" |
+| `[STD_DECISIONS]` | Specify the std decisions | "[specify value]" |
+| `[STD_ESCALATION]` | Specify the std escalation | "[specify value]" |
+| `[STD_REVIEW]` | Specify the std review | "[specify value]" |
+| `[ARCH_CURRENT]` | Specify the arch current | "[specify value]" |
+| `[ARCH_TARGET]` | Target or intended arch | "[specify value]" |
+| `[ARCH_ROLES]` | Specify the arch roles | "[specify value]" |
+| `[ARCH_DECISIONS]` | Specify the arch decisions | "[specify value]" |
+| `[ARCH_ESCALATION]` | Specify the arch escalation | "[specify value]" |
+| `[ARCH_REVIEW]` | Specify the arch review | "[specify value]" |
+| `[SEC_CURRENT]` | Specify the sec current | "[specify value]" |
+| `[SEC_TARGET]` | Target or intended sec | "[specify value]" |
+| `[SEC_ROLES]` | Specify the sec roles | "[specify value]" |
+| `[SEC_DECISIONS]` | Specify the sec decisions | "[specify value]" |
+| `[SEC_ESCALATION]` | Specify the sec escalation | "[specify value]" |
+| `[SEC_REVIEW]` | Specify the sec review | "[specify value]" |
+| `[PERF_CURRENT]` | Specify the perf current | "[specify value]" |
+| `[PERF_TARGET]` | Target or intended perf | "[specify value]" |
+| `[PERF_ROLES]` | Specify the perf roles | "[specify value]" |
+| `[PERF_DECISIONS]` | Specify the perf decisions | "[specify value]" |
+| `[PERF_ESCALATION]` | Specify the perf escalation | "[specify value]" |
+| `[PERF_REVIEW]` | Specify the perf review | "[specify value]" |
+| `[RISK_CURRENT]` | Specify the risk current | "[specify value]" |
+| `[RISK_TARGET]` | Target or intended risk | "[specify value]" |
+| `[RISK_ROLES]` | Specify the risk roles | "[specify value]" |
+| `[RISK_DECISIONS]` | Specify the risk decisions | "[specify value]" |
+| `[RISK_ESCALATION]` | Specify the risk escalation | "[specify value]" |
+| `[RISK_REVIEW]` | Specify the risk review | "[specify value]" |
+| `[TECH_RISK_DESC]` | Specify the tech risk desc | "[specify value]" |
+| `[TECH_IMPACT]` | Specify the tech impact | "[specify value]" |
+| `[TECH_PROB]` | Specify the tech prob | "[specify value]" |
+| `[TECH_SCORE]` | Specify the tech score | "[specify value]" |
+| `[TECH_MITIGATION]` | Specify the tech mitigation | "[specify value]" |
+| `[TECH_OWNER]` | Specify the tech owner | "[specify value]" |
+| `[PROC_RISK_DESC]` | Specify the proc risk desc | "[specify value]" |
+| `[PROC_IMPACT]` | Specify the proc impact | "[specify value]" |
+| `[PROC_PROB]` | Specify the proc prob | "[specify value]" |
+| `[PROC_SCORE]` | Specify the proc score | "[specify value]" |
+| `[PROC_MITIGATION]` | Specify the proc mitigation | "[specify value]" |
+| `[PROC_OWNER]` | Specify the proc owner | "[specify value]" |
+| `[SEC_RISK_DESC]` | Specify the sec risk desc | "[specify value]" |
+| `[SEC_IMPACT]` | Specify the sec impact | "[specify value]" |
+| `[SEC_PROB]` | Specify the sec prob | "[specify value]" |
+| `[SEC_SCORE]` | Specify the sec score | "[specify value]" |
+| `[SEC_MITIGATION]` | Specify the sec mitigation | "[specify value]" |
+| `[SEC_OWNER]` | Specify the sec owner | "[specify value]" |
+| `[COMP_RISK_DESC]` | Specify the comp risk desc | "[specify value]" |
+| `[COMP_IMPACT]` | Specify the comp impact | "[specify value]" |
+| `[COMP_PROB]` | Specify the comp prob | "[specify value]" |
+| `[COMP_SCORE]` | Specify the comp score | "[specify value]" |
+| `[COMP_MITIGATION]` | Specify the comp mitigation | "[specify value]" |
+| `[COMP_OWNER]` | Specify the comp owner | "[specify value]" |
+| `[OPS_RISK_DESC]` | Specify the ops risk desc | "[specify value]" |
+| `[OPS_IMPACT]` | Specify the ops impact | "[specify value]" |
+| `[OPS_PROB]` | Specify the ops prob | "[specify value]" |
+| `[OPS_SCORE]` | Specify the ops score | "[specify value]" |
+| `[OPS_MITIGATION]` | Specify the ops mitigation | "[specify value]" |
+| `[OPS_OWNER]` | Specify the ops owner | "[specify value]" |
+| `[PEOPLE_RISK_DESC]` | Specify the people risk desc | "[specify value]" |
+| `[PEOPLE_IMPACT]` | Specify the people impact | "[specify value]" |
+| `[PEOPLE_PROB]` | Specify the people prob | "[specify value]" |
+| `[PEOPLE_SCORE]` | Specify the people score | "[specify value]" |
+| `[PEOPLE_MITIGATION]` | Specify the people mitigation | "[specify value]" |
+| `[PEOPLE_OWNER]` | Specify the people owner | "[specify value]" |
+| `[EFF_METRIC_1]` | Specify the eff metric 1 | "[specify value]" |
+| `[EFF_BASELINE_1]` | Specify the eff baseline 1 | "[specify value]" |
+| `[EFF_TARGET_1]` | Target or intended eff  1 | "[specify value]" |
+| `[EFF_CURRENT_1]` | Specify the eff current 1 | "[specify value]" |
+| `[EFF_METHOD_1]` | Specify the eff method 1 | "[specify value]" |
+| `[EFF_FREQ_1]` | Specify the eff freq 1 | "[specify value]" |
+| `[EFF_METRIC_2]` | Specify the eff metric 2 | "[specify value]" |
+| `[EFF_BASELINE_2]` | Specify the eff baseline 2 | "[specify value]" |
+| `[EFF_TARGET_2]` | Target or intended eff  2 | "[specify value]" |
+| `[EFF_CURRENT_2]` | Specify the eff current 2 | "[specify value]" |
+| `[EFF_METHOD_2]` | Specify the eff method 2 | "[specify value]" |
+| `[EFF_FREQ_2]` | Specify the eff freq 2 | "[specify value]" |
+| `[COST_METRIC_1]` | Specify the cost metric 1 | "[specify value]" |
+| `[COST_BASELINE_1]` | Specify the cost baseline 1 | "[specify value]" |
+| `[COST_TARGET_1]` | Target or intended cost  1 | "[specify value]" |
+| `[COST_CURRENT_1]` | Specify the cost current 1 | "[specify value]" |
+| `[COST_METHOD_1]` | Specify the cost method 1 | "[specify value]" |
+| `[COST_FREQ_1]` | Specify the cost freq 1 | "[specify value]" |
+| `[COST_METRIC_2]` | Specify the cost metric 2 | "[specify value]" |
+| `[COST_BASELINE_2]` | Specify the cost baseline 2 | "[specify value]" |
+| `[COST_TARGET_2]` | Target or intended cost  2 | "[specify value]" |
+| `[COST_CURRENT_2]` | Specify the cost current 2 | "[specify value]" |
+| `[COST_METHOD_2]` | Specify the cost method 2 | "[specify value]" |
+| `[COST_FREQ_2]` | Specify the cost freq 2 | "[specify value]" |
+| `[QUAL_METRIC_1]` | Specify the qual metric 1 | "[specify value]" |
+| `[QUAL_BASELINE_1]` | Specify the qual baseline 1 | "[specify value]" |
+| `[QUAL_TARGET_1]` | Target or intended qual  1 | "[specify value]" |
+| `[QUAL_CURRENT_1]` | Specify the qual current 1 | "[specify value]" |
+| `[QUAL_METHOD_1]` | Specify the qual method 1 | "[specify value]" |
+| `[QUAL_FREQ_1]` | Specify the qual freq 1 | "[specify value]" |
+| `[QUAL_METRIC_2]` | Specify the qual metric 2 | "[specify value]" |
+| `[QUAL_BASELINE_2]` | Specify the qual baseline 2 | "[specify value]" |
+| `[QUAL_TARGET_2]` | Target or intended qual  2 | "[specify value]" |
+| `[QUAL_CURRENT_2]` | Specify the qual current 2 | "[specify value]" |
+| `[QUAL_METHOD_2]` | Specify the qual method 2 | "[specify value]" |
+| `[QUAL_FREQ_2]` | Specify the qual freq 2 | "[specify value]" |
+| `[CUST_METRIC_1]` | Specify the cust metric 1 | "[specify value]" |
+| `[CUST_BASELINE_1]` | Specify the cust baseline 1 | "[specify value]" |
+| `[CUST_TARGET_1]` | Target or intended cust  1 | "[specify value]" |
+| `[CUST_CURRENT_1]` | Specify the cust current 1 | "[specify value]" |
+| `[CUST_METHOD_1]` | Specify the cust method 1 | "[specify value]" |
+| `[CUST_FREQ_1]` | Specify the cust freq 1 | "[specify value]" |
+| `[CUST_METRIC_2]` | Specify the cust metric 2 | "[specify value]" |
+| `[CUST_BASELINE_2]` | Specify the cust baseline 2 | "[specify value]" |
+| `[CUST_TARGET_2]` | Target or intended cust  2 | "[specify value]" |
+| `[CUST_CURRENT_2]` | Specify the cust current 2 | "[specify value]" |
+| `[CUST_METHOD_2]` | Specify the cust method 2 | "[specify value]" |
+| `[CUST_FREQ_2]` | Specify the cust freq 2 | "[specify value]" |
+| `[EMP_METRIC_1]` | Specify the emp metric 1 | "[specify value]" |
+| `[EMP_BASELINE_1]` | Specify the emp baseline 1 | "[specify value]" |
+| `[EMP_TARGET_1]` | Target or intended emp  1 | "[specify value]" |
+| `[EMP_CURRENT_1]` | Specify the emp current 1 | "[specify value]" |
+| `[EMP_METHOD_1]` | Specify the emp method 1 | "[specify value]" |
+| `[EMP_FREQ_1]` | Specify the emp freq 1 | "[specify value]" |
+| `[EMP_METRIC_2]` | Specify the emp metric 2 | "[specify value]" |
+| `[EMP_BASELINE_2]` | Specify the emp baseline 2 | "[specify value]" |
+| `[EMP_TARGET_2]` | Target or intended emp  2 | "[specify value]" |
+| `[EMP_CURRENT_2]` | Specify the emp current 2 | "[specify value]" |
+| `[EMP_METHOD_2]` | Specify the emp method 2 | "[specify value]" |
+| `[EMP_FREQ_2]` | Specify the emp freq 2 | "[specify value]" |
+| `[UNIT_SCOPE]` | Scope or boundaries of unit | "[specify value]" |
+| `[UNIT_METHODS]` | Specify the unit methods | "[specify value]" |
+| `[UNIT_CRITERIA]` | Specify the unit criteria | "[specify value]" |
+| `[UNIT_RESOURCES]` | Specify the unit resources | "[specify value]" |
+| `[UNIT_DURATION]` | Specify the unit duration | "6 months" |
+| `[UNIT_GONO]` | Specify the unit gono | "[specify value]" |
+| `[INT_SCOPE]` | Scope or boundaries of int | "[specify value]" |
+| `[INT_METHODS]` | Specify the int methods | "[specify value]" |
+| `[INT_CRITERIA]` | Specify the int criteria | "[specify value]" |
+| `[INT_RESOURCES]` | Specify the int resources | "[specify value]" |
+| `[INT_DURATION]` | Specify the int duration | "6 months" |
+| `[INT_GONO]` | Specify the int gono | "[specify value]" |
+| `[UAT_SCOPE]` | Scope or boundaries of uat | "[specify value]" |
+| `[UAT_METHODS]` | Specify the uat methods | "[specify value]" |
+| `[UAT_CRITERIA]` | Specify the uat criteria | "[specify value]" |
+| `[UAT_RESOURCES]` | Specify the uat resources | "[specify value]" |
+| `[UAT_DURATION]` | Specify the uat duration | "6 months" |
+| `[UAT_GONO]` | Specify the uat gono | "[specify value]" |
+| `[PERF_SCOPE]` | Scope or boundaries of perf | "[specify value]" |
+| `[PERF_METHODS]` | Specify the perf methods | "[specify value]" |
+| `[PERF_CRITERIA]` | Specify the perf criteria | "[specify value]" |
+| `[PERF_RESOURCES]` | Specify the perf resources | "[specify value]" |
+| `[PERF_DURATION]` | Specify the perf duration | "6 months" |
+| `[PERF_GONO]` | Specify the perf gono | "[specify value]" |
+| `[SEC_SCOPE]` | Scope or boundaries of sec | "[specify value]" |
+| `[SEC_METHODS]` | Specify the sec methods | "[specify value]" |
+| `[SEC_CRITERIA]` | Specify the sec criteria | "[specify value]" |
+| `[SEC_RESOURCES]` | Specify the sec resources | "[specify value]" |
+| `[SEC_DURATION]` | Specify the sec duration | "6 months" |
+| `[SEC_GONO]` | Specify the sec gono | "[specify value]" |
+| `[PROD_SCOPE]` | Scope or boundaries of prod | "[specify value]" |
+| `[PROD_METHODS]` | Specify the prod methods | "[specify value]" |
+| `[PROD_CRITERIA]` | Specify the prod criteria | "[specify value]" |
+| `[PROD_RESOURCES]` | Specify the prod resources | "[specify value]" |
+| `[PROD_DURATION]` | Specify the prod duration | "6 months" |
+| `[PROD_GONO]` | Specify the prod gono | "[specify value]" |
+| `[PROC_OPT_CURRENT]` | Specify the proc opt current | "[specify value]" |
+| `[PROC_OPT_TARGET]` | Target or intended proc opt | "[specify value]" |
+| `[PROC_OPT_ACTIONS]` | Specify the proc opt actions | "[specify value]" |
+| `[PROC_OPT_TIMELINE]` | Timeline or schedule for proc opt | "6 months" |
+| `[PROC_OPT_OWNER]` | Specify the proc opt owner | "[specify value]" |
+| `[PROC_OPT_METRICS]` | Specify the proc opt metrics | "[specify value]" |
+| `[TECH_ENH_CURRENT]` | Specify the tech enh current | "[specify value]" |
+| `[TECH_ENH_TARGET]` | Target or intended tech enh | "[specify value]" |
+| `[TECH_ENH_ACTIONS]` | Specify the tech enh actions | "[specify value]" |
+| `[TECH_ENH_TIMELINE]` | Timeline or schedule for tech enh | "6 months" |
+| `[TECH_ENH_OWNER]` | Specify the tech enh owner | "[specify value]" |
+| `[TECH_ENH_METRICS]` | Specify the tech enh metrics | "[specify value]" |
+| `[UX_CURRENT]` | Specify the ux current | "[specify value]" |
+| `[UX_TARGET]` | Target or intended ux | "[specify value]" |
+| `[UX_ACTIONS]` | Specify the ux actions | "[specify value]" |
+| `[UX_TIMELINE]` | Timeline or schedule for ux | "6 months" |
+| `[UX_OWNER]` | Specify the ux owner | "[specify value]" |
+| `[UX_METRICS]` | Specify the ux metrics | "[specify value]" |
+| `[COST_OPT_CURRENT]` | Specify the cost opt current | "[specify value]" |
+| `[COST_OPT_TARGET]` | Target or intended cost opt | "[specify value]" |
+| `[COST_OPT_ACTIONS]` | Specify the cost opt actions | "[specify value]" |
+| `[COST_OPT_TIMELINE]` | Timeline or schedule for cost opt | "6 months" |
+| `[COST_OPT_OWNER]` | Specify the cost opt owner | "[specify value]" |
+| `[COST_OPT_METRICS]` | Specify the cost opt metrics | "[specify value]" |
+| `[SCALE_CURRENT]` | Specify the scale current | "[specify value]" |
+| `[SCALE_TARGET]` | Target or intended scale | "[specify value]" |
+| `[SCALE_ACTIONS]` | Specify the scale actions | "[specify value]" |
+| `[SCALE_TIMELINE]` | Timeline or schedule for scale | "6 months" |
+| `[SCALE_OWNER]` | Specify the scale owner | "[specify value]" |
+| `[SCALE_METRICS]` | Specify the scale metrics | "[specify value]" |
+| `[INNOV_CURRENT]` | Specify the innov current | "[specify value]" |
+| `[INNOV_TARGET]` | Target or intended innov | "[specify value]" |
+| `[INNOV_ACTIONS]` | Specify the innov actions | "[specify value]" |
+| `[INNOV_TIMELINE]` | Timeline or schedule for innov | "6 months" |
+| `[INNOV_OWNER]` | Specify the innov owner | "[specify value]" |
+| `[INNOV_METRICS]` | Specify the innov metrics | "[specify value]" |
+
+
 
 ### Example 2: Manufacturing Process Automation
 ```

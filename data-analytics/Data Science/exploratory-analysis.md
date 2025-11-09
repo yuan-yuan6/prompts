@@ -1,3 +1,18 @@
+---
+title: Exploratory Data Analysis Framework Template
+category: data-analytics/Data Science
+tags: [automation, data-analytics, data-science, design, framework, machine-learning, research, template]
+use_cases:
+  - Implementing conduct comprehensive exploratory data analysis to understand data characteristi...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - dashboard-design-patterns.md
+  - data-governance-framework.md
+  - predictive-modeling-framework.md
+last_updated: 2025-11-09
+---
+
 # Exploratory Data Analysis Framework Template
 
 ## Purpose
@@ -17,15 +32,15 @@ Business Context:
 - Timeline: [PROJECT_TIMELINE]
 - Budget constraints: [BUDGET_CONSTRAINTS]
 
-Analysis Objectives:
+### Analysis Objectives
 - Primary objective: [PRIMARY_OBJECTIVE]
 - Secondary objectives: [SECONDARY_OBJECTIVES]
 - Key questions: [KEY_QUESTIONS]
 - Hypotheses to test: [HYPOTHESES]
 - Expected outcomes: [EXPECTED_OUTCOMES]
 
-DATASET OVERVIEW:
-Basic Information:
+### DATASET OVERVIEW
+### Basic Information
 - Dataset name: [DATASET_NAME]
 - Source system: [SOURCE_SYSTEM]
 - Collection method: [COLLECTION_METHOD]
@@ -36,7 +51,7 @@ Basic Information:
 - File size: [FILE_SIZE]
 - Compression: [COMPRESSION_TYPE]
 
-Dimensions & Structure:
+### Dimensions & Structure
 - Number of rows: [NUM_ROWS]
 - Number of columns: [NUM_COLUMNS]
 - Memory usage: [MEMORY_USAGE]
@@ -44,7 +59,7 @@ Dimensions & Structure:
 - Data lineage: [DATA_LINEAGE]
 - Data governance: [GOVERNANCE_RULES]
 
-Data Quality Overview:
+### Data Quality Overview
 - Completeness score: [COMPLETENESS_SCORE]%
 - Accuracy score: [ACCURACY_SCORE]%
 - Consistency score: [CONSISTENCY_SCORE]%
@@ -52,8 +67,8 @@ Data Quality Overview:
 - Validity score: [VALIDITY_SCORE]%
 - Uniqueness score: [UNIQUENESS_SCORE]%
 
-VARIABLE PROFILING:
-Column Inventory:
+### VARIABLE PROFILING
+### Column Inventory
 Total columns: [TOTAL_COLUMNS]
 - Numerical columns: [NUM_COLUMNS_COUNT] ([NUM_PERCENTAGE]%)
 - Categorical columns: [CAT_COLUMNS_COUNT] ([CAT_PERCENTAGE]%)
@@ -64,7 +79,7 @@ Total columns: [TOTAL_COLUMNS]
 
 For each variable [VARIABLE_NAME]:
 
-Metadata & Schema:
+### Metadata & Schema
 - Column name: [COLUMN_NAME]
 - Data type: [DATA_TYPE]
 - Variable classification: [VAR_CLASSIFICATION] (Continuous/Discrete/Ordinal/Nominal)
@@ -74,7 +89,7 @@ Metadata & Schema:
 - Expected range: [EXPECTED_RANGE]
 - Units of measurement: [UNITS]
 
-Data Quality Metrics:
+### Data Quality Metrics
 - Total count: [TOTAL_COUNT]
 - Non-null count: [NON_NULL_COUNT]
 - Null count: [NULL_COUNT]
@@ -84,11 +99,11 @@ Data Quality Metrics:
 - Blank/empty count: [BLANK_COUNT]
 - Invalid entries: [INVALID_COUNT]
 
-NUMERICAL VARIABLES ANALYSIS:
+### NUMERICAL VARIABLES ANALYSIS
 For each numerical variable [NUM_VAR]:
 
-Descriptive Statistics:
-Central Tendency:
+### Descriptive Statistics
+### Central Tendency
 - Mean: [MEAN_VALUE]
 - Median: [MEDIAN_VALUE]
 - Mode: [MODE_VALUE]
@@ -97,7 +112,7 @@ Central Tendency:
 - Geometric mean: [GEOMETRIC_MEAN]
 - Harmonic mean: [HARMONIC_MEAN]
 
-Variability Measures:
+### Variability Measures
 - Standard deviation: [STD_DEV]
 - Variance: [VARIANCE]
 - Range: [RANGE]
@@ -106,14 +121,14 @@ Variability Measures:
 - Coefficient of variation: [CV]
 - Relative standard deviation: [RSD]
 
-Distribution Shape:
+### Distribution Shape
 - Skewness: [SKEWNESS]
 - Kurtosis: [KURTOSIS]
 - Excess kurtosis: [EXCESS_KURTOSIS]
 - Distribution type: [DISTRIBUTION_TYPE]
 - Normality assessment: [NORMALITY_ASSESSMENT]
 
-Percentile Analysis:
+### Percentile Analysis
 - Minimum: [MIN_VALUE]
 - 1st percentile: [P01]
 - 5th percentile: [P05]
@@ -126,23 +141,23 @@ Percentile Analysis:
 - 99th percentile: [P99]
 - Maximum: [MAX_VALUE]
 
-Distribution Testing:
-Statistical Tests:
+### Distribution Testing
+### Statistical Tests
 - Shapiro-Wilk test: W = [SHAPIRO_W], p = [SHAPIRO_P]
 - Kolmogorov-Smirnov test: D = [KS_D], p = [KS_P]
 - Anderson-Darling test: A² = [AD_A2], p = [AD_P]
 - Jarque-Bera test: JB = [JB_STAT], p = [JB_P]
 - D'Agostino-Pearson test: K² = [DP_K2], p = [DP_P]
 
-Distribution Fitting:
+### Distribution Fitting
 - Best fit distribution: [BEST_FIT_DIST]
 - Distribution parameters: [DIST_PARAMS]
 - Goodness of fit (AIC): [AIC_SCORE]
 - Goodness of fit (BIC): [BIC_SCORE]
 - Kolmogorov-Smirnov p-value: [FIT_KS_P]
 
-Outlier Detection:
-IQR Method:
+### Outlier Detection
+### IQR Method
 - Lower fence: [IQR_LOWER]
 - Upper fence: [IQR_UPPER]
 - Outliers count: [IQR_OUTLIERS_COUNT]
@@ -159,31 +174,31 @@ Modified Z-Score:
 - Outliers (|modified z| > 3.5): [MOD_Z_OUTLIERS]
 - Median absolute deviation: [MAD_VALUE]
 
-Isolation Forest:
+### Isolation Forest
 - Contamination fraction: [IF_CONTAMINATION]
 - Anomaly count: [IF_ANOMALIES]
 - Anomaly scores: [IF_SCORES]
 
-Local Outlier Factor:
+### Local Outlier Factor
 - LOF threshold: [LOF_THRESHOLD]
 - LOF outliers: [LOF_OUTLIERS]
 - Average LOF score: [AVG_LOF]
 
-Business Rules Validation:
+### Business Rules Validation
 - Rule violations: [RULE_VIOLATIONS]
 - Data consistency issues: [CONSISTENCY_ISSUES]
 - Domain expert flagged values: [EXPERT_FLAGS]
 
-CATEGORICAL VARIABLES ANALYSIS:
+### CATEGORICAL VARIABLES ANALYSIS
 For each categorical variable [CAT_VAR]:
 
-Cardinality Analysis:
+### Cardinality Analysis
 - Unique values count: [UNIQUE_COUNT]
 - Cardinality ratio: [CARDINALITY_RATIO]
 - Effective cardinality: [EFFECTIVE_CARDINALITY]
 - High cardinality flag: [HIGH_CARDINALITY_FLAG]
 
-Value Distribution:
+### Value Distribution
 Most Frequent Values (Top 20):
 1. [VALUE_1]: Count [COUNT_1] ([PERCENT_1]%)
 2. [VALUE_2]: Count [COUNT_2] ([PERCENT_2]%)
@@ -192,31 +207,31 @@ Most Frequent Values (Top 20):
 5. [VALUE_5]: Count [COUNT_5] ([PERCENT_5]%)
 [... continue for top 20]
 
-Frequency Statistics:
+### Frequency Statistics
 - Mode (most frequent): [MODE_CAT]
 - Mode frequency: [MODE_FREQ]
 - Mode percentage: [MODE_PERCENT]%
 - Second mode: [SECOND_MODE]
 - Frequency of second mode: [SECOND_MODE_FREQ]
 
-Category Distribution Metrics:
+### Category Distribution Metrics
 - Entropy: [ENTROPY]
 - Gini impurity: [GINI_IMPURITY]
 - Simpson's diversity: [SIMPSON_DIVERSITY]
 - Shannon diversity: [SHANNON_DIVERSITY]
 - Evenness index: [EVENNESS_INDEX]
 
-Rare Category Analysis:
+### Rare Category Analysis
 - Categories with < 1% frequency: [RARE_1_PERCENT]
 - Categories with < 5% frequency: [RARE_5_PERCENT]
 - Singleton categories (count = 1): [SINGLETON_COUNT]
 - Categories representing 80% of data: [PARETO_80_CATEGORIES]
 - Long tail categories: [LONG_TAIL_CATEGORIES]
 
-TEMPORAL ANALYSIS:
+### TEMPORAL ANALYSIS
 (For time-series and date variables)
 
-Time Range & Coverage:
+### Time Range & Coverage
 - Start date/time: [START_DATETIME]
 - End date/time: [END_DATETIME]
 - Total duration: [TOTAL_DURATION]
@@ -225,77 +240,77 @@ Time Range & Coverage:
 - Expected frequency: [EXPECTED_FREQUENCY]
 - Actual frequency: [ACTUAL_FREQUENCY]
 
-Temporal Gaps:
+### Temporal Gaps
 - Missing time periods: [MISSING_PERIODS]
 - Gap count: [GAP_COUNT]
 - Average gap duration: [AVG_GAP_DURATION]
 - Longest gap: [LONGEST_GAP]
 - Gap pattern: [GAP_PATTERN]
 
-Temporal Distribution:
+### Temporal Distribution
 - Records per day: [RECORDS_PER_DAY]
 - Records per week: [RECORDS_PER_WEEK]
 - Records per month: [RECORDS_PER_MONTH]
 - Records per quarter: [RECORDS_PER_QUARTER]
 - Records per year: [RECORDS_PER_YEAR]
 
-Seasonality Analysis:
-Seasonal Decomposition:
+### Seasonality Analysis
+### Seasonal Decomposition
 - Trend component: [TREND_COMPONENT]
 - Seasonal component: [SEASONAL_COMPONENT]
 - Residual component: [RESIDUAL_COMPONENT]
 - Seasonal strength: [SEASONAL_STRENGTH]
 - Trend strength: [TREND_STRENGTH]
 
-Seasonal Patterns:
+### Seasonal Patterns
 - Weekly seasonality: [WEEKLY_SEASONALITY]
 - Monthly seasonality: [MONTHLY_SEASONALITY]
 - Quarterly seasonality: [QUARTERLY_SEASONALITY]
 - Annual seasonality: [ANNUAL_SEASONALITY]
 - Holiday effects: [HOLIDAY_EFFECTS]
 
-Time Series Statistics:
+### Time Series Statistics
 - Stationarity (ADF test): [ADF_STATISTIC], p = [ADF_PVALUE]
 - KPSS test: [KPSS_STATISTIC], p = [KPSS_PVALUE]
 - Phillips-Perron test: [PP_STATISTIC], p = [PP_PVALUE]
 - Autocorrelation at lag 1: [ACF_LAG1]
 - Partial autocorrelation at lag 1: [PACF_LAG1]
 
-CORRELATION & ASSOCIATION ANALYSIS:
-Numerical Correlation Matrix:
-Pearson Correlations:
+### CORRELATION & ASSOCIATION ANALYSIS
+### Numerical Correlation Matrix
+### Pearson Correlations
 [PEARSON_CORRELATION_MATRIX]
 
-Top Positive Correlations:
+### Top Positive Correlations
 1. [VAR_A1] ↔ [VAR_B1]: r = [CORR_1] (p = [P_1])
 2. [VAR_A2] ↔ [VAR_B2]: r = [CORR_2] (p = [P_2])
 3. [VAR_A3] ↔ [VAR_B3]: r = [CORR_3] (p = [P_3])
 4. [VAR_A4] ↔ [VAR_B4]: r = [CORR_4] (p = [P_4])
 5. [VAR_A5] ↔ [VAR_B5]: r = [CORR_5] (p = [P_5])
 
-Top Negative Correlations:
+### Top Negative Correlations
 1. [VAR_C1] ↔ [VAR_D1]: r = [NEG_CORR_1] (p = [NEG_P_1])
 2. [VAR_C2] ↔ [VAR_D2]: r = [NEG_CORR_2] (p = [NEG_P_2])
 3. [VAR_C3] ↔ [VAR_D3]: r = [NEG_CORR_3] (p = [NEG_P_3])
 
 Non-Parametric Correlations:
-Spearman Rank Correlation:
+### Spearman Rank Correlation
 [SPEARMAN_CORRELATION_MATRIX]
 
 Kendall's Tau:
 [KENDALL_CORRELATION_MATRIX]
 
-Distance Correlation:
+### Distance Correlation
 - Distance correlation matrix: [DISTANCE_CORR_MATRIX]
 - Maximal information coefficient: [MIC_MATRIX]
 
-Categorical Associations:
+### Categorical Associations
 Chi-Square Independence Tests:
 1. [CAT_VAR_1] × [CAT_VAR_2]: χ² = [CHI2_1], df = [DF_1], p = [P_CHI_1]
 2. [CAT_VAR_3] × [CAT_VAR_4]: χ² = [CHI2_2], df = [DF_2], p = [P_CHI_2]
 3. [CAT_VAR_5] × [CAT_VAR_6]: χ² = [CHI2_3], df = [DF_3], p = [P_CHI_3]
 
-Association Strength:
+### Association Strength
 Cramér's V:
 1. [CAT_VAR_1] × [CAT_VAR_2]: V = [CRAMER_1]
 2. [CAT_VAR_3] × [CAT_VAR_4]: V = [CRAMER_2]
@@ -314,9 +329,9 @@ ANOVA (Numerical vs Categorical):
 1. [NUM_VAR_1] by [CAT_VAR_1]: F = [F_STAT_1], p = [P_ANOVA_1], η² = [ETA_SQ_1]
 2. [NUM_VAR_2] by [CAT_VAR_2]: F = [F_STAT_2], p = [P_ANOVA_2], η² = [ETA_SQ_2]
 
-MULTIVARIATE ANALYSIS:
-Dimensionality Reduction:
-Principal Component Analysis:
+### MULTIVARIATE ANALYSIS
+### Dimensionality Reduction
+### Principal Component Analysis
 - Components for 90% variance: [PCA_90_COMPONENTS]
 - Components for 95% variance: [PCA_95_COMPONENTS]
 - Components for 99% variance: [PCA_99_COMPONENTS]
@@ -325,14 +340,14 @@ Principal Component Analysis:
 - PC3 variance explained: [PC3_VARIANCE]%
 - Cumulative variance (first 5 PCs): [CUMVAR_5PC]%
 
-Factor Analysis:
+### Factor Analysis
 - Number of factors: [NUM_FACTORS]
 - Factor loadings matrix: [FACTOR_LOADINGS]
 - Communalities: [COMMUNALITIES]
 - Kaiser-Meyer-Olkin (KMO): [KMO_SCORE]
 - Bartlett's test: χ² = [BARTLETT_CHI2], p = [BARTLETT_P]
 
-Independent Component Analysis:
+### Independent Component Analysis
 - ICA components: [ICA_COMPONENTS]
 - Mixing matrix condition: [MIXING_CONDITION]
 - Source signal quality: [SOURCE_QUALITY]
@@ -342,19 +357,19 @@ t-SNE Analysis:
 - Cluster visualization quality: [CLUSTER_SEPARATION]
 - Dimensional embedding stress: [EMBEDDING_STRESS]
 
-UMAP Analysis:
+### UMAP Analysis
 - Neighbors parameter: [UMAP_NEIGHBORS]
 - Min distance parameter: [UMAP_MIN_DIST]
 - Local connectivity: [LOCAL_CONNECTIVITY]
 - Global structure preservation: [GLOBAL_STRUCTURE]
 
-Clustering Tendency:
+### Clustering Tendency
 Hopkins Statistic: [HOPKINS_STATISTIC]
 - Clustering tendency: [CLUSTERING_TENDENCY]
 - Random data likelihood: [RANDOM_LIKELIHOOD]
 
-Multicollinearity Assessment:
-Variance Inflation Factors:
+### Multicollinearity Assessment
+### Variance Inflation Factors
 1. [VAR_VIF_1]: VIF = [VIF_1]
 2. [VAR_VIF_2]: VIF = [VIF_2]
 3. [VAR_VIF_3]: VIF = [VIF_3]
@@ -367,65 +382,65 @@ Variables with VIF > 10: [VERY_HIGH_VIF_VARS]
 Condition Index: [CONDITION_INDEX]
 Eigenvalue analysis: [EIGENVALUE_ANALYSIS]
 
-DATA QUALITY DEEP DIVE:
-Missing Data Analysis:
-Missing Data Patterns:
+### DATA QUALITY DEEP DIVE
+### Missing Data Analysis
+### Missing Data Patterns
 - Complete cases: [COMPLETE_CASES] ([COMPLETE_PERCENT]%)
 - Cases with any missing: [ANY_MISSING] ([ANY_MISSING_PERCENT]%)
 - Variables with missing data: [VARS_WITH_MISSING]
 
-Missing Data Mechanisms:
+### Missing Data Mechanisms
 - MCAR test (Little's): χ² = [LITTLE_CHI2], p = [LITTLE_P]
 - MAR assessment: [MAR_ASSESSMENT]
 - MNAR indicators: [MNAR_INDICATORS]
 
-Missing Data Patterns:
+### Missing Data Patterns
 Pattern 1: [PATTERN_1] - Count: [PATTERN_1_COUNT]
 Pattern 2: [PATTERN_2] - Count: [PATTERN_2_COUNT]
 Pattern 3: [PATTERN_3] - Count: [PATTERN_3_COUNT]
 [... for top patterns]
 
-Imputation Impact Assessment:
+### Imputation Impact Assessment
 - Mean imputation bias: [MEAN_IMP_BIAS]
 - Median imputation bias: [MEDIAN_IMP_BIAS]
 - Mode imputation bias: [MODE_IMP_BIAS]
 - Advanced imputation options: [ADVANCED_IMP_OPTIONS]
 
-Duplicate Analysis:
-Exact Duplicates:
+### Duplicate Analysis
+### Exact Duplicates
 - Exact duplicate count: [EXACT_DUPES]
 - Exact duplicate percentage: [EXACT_DUPE_PERCENT]%
 - Duplicate patterns: [DUPE_PATTERNS]
 
-Near Duplicates:
+### Near Duplicates
 - Similarity threshold: [SIMILARITY_THRESHOLD]
 - Near duplicate pairs: [NEAR_DUPE_PAIRS]
 - Fuzzy matching results: [FUZZY_MATCHES]
 
-Unique Identifier Analysis:
+### Unique Identifier Analysis
 - Primary key candidates: [PK_CANDIDATES]
 - Composite key options: [COMPOSITE_KEYS]
 - Uniqueness violations: [UNIQUENESS_VIOLATIONS]
 
-Data Consistency:
+### Data Consistency
 Cross-Field Validation:
 - Logical consistency rules: [LOGIC_RULES]
 - Rule violations count: [RULE_VIOLATIONS_COUNT]
 - Consistency score: [CONSISTENCY_SCORE]%
 
-Format Consistency:
+### Format Consistency
 - Date format issues: [DATE_FORMAT_ISSUES]
 - Numeric format issues: [NUMERIC_FORMAT_ISSUES]
 - Text encoding issues: [ENCODING_ISSUES]
 - Case sensitivity issues: [CASE_ISSUES]
 
-Referential Integrity:
+### Referential Integrity
 - Foreign key violations: [FK_VIOLATIONS]
 - Orphaned records: [ORPHANED_RECORDS]
 - Referential consistency: [REF_CONSISTENCY]%
 
-ADVANCED STATISTICAL ANALYSIS:
-Distribution Analysis:
+### ADVANCED STATISTICAL ANALYSIS
+### Distribution Analysis
 Goodness-of-Fit Testing:
 For [VAR_NAME]:
 - Normal distribution: KS = [NORMAL_KS], p = [NORMAL_P]
@@ -434,41 +449,41 @@ For [VAR_NAME]:
 - Log-normal distribution: KS = [LOGNORM_KS], p = [LOGNORM_P]
 - Gamma distribution: KS = [GAMMA_KS], p = [GAMMA_P]
 
-Robust Statistics:
+### Robust Statistics
 - Median absolute deviation: [MAD_ROBUST]
 - Interquartile range: [IQR_ROBUST]
 - Trimmed mean (10%): [TRIMMED_MEAN_10]
 - Winsorized statistics: [WINSORIZED_STATS]
 - Huber estimator: [HUBER_ESTIMATOR]
 
-Bootstrap Analysis:
+### Bootstrap Analysis
 - Bootstrap samples: [BOOTSTRAP_SAMPLES]
 - Confidence interval (95%): [CI_95_LOWER] - [CI_95_UPPER]
 - Bootstrap bias: [BOOTSTRAP_BIAS]
 - Bootstrap standard error: [BOOTSTRAP_SE]
 
-Hypothesis Testing:
+### Hypothesis Testing
 Two-Sample Tests:
 - Independent t-test: t = [T_STAT], p = [T_P]
 - Mann-Whitney U: U = [MW_U], p = [MW_P]
 - Kolmogorov-Smirnov 2-sample: D = [KS2_D], p = [KS2_P]
 - Chi-square test of independence: χ² = [CHI2_INDEP], p = [CHI2_INDEP_P]
 
-Multiple Comparisons:
+### Multiple Comparisons
 - Bonferroni correction: [BONFERRONI_ALPHA]
 - Holm correction: [HOLM_ALPHA]
 - FDR correction: [FDR_ALPHA]
 - Tukey HSD: [TUKEY_HSD_RESULTS]
 
-SEGMENTATION & PATTERN DISCOVERY:
-Natural Segmentation:
+### SEGMENTATION & PATTERN DISCOVERY
+### Natural Segmentation
 K-Means Clustering:
 - Optimal K (elbow method): [KMEANS_OPTIMAL_K]
 - Optimal K (silhouette): [SILHOUETTE_OPTIMAL_K]
 - Inertia at optimal K: [KMEANS_INERTIA]
 - Silhouette score: [SILHOUETTE_SCORE]
 
-Cluster Profiles:
+### Cluster Profiles
 Cluster 1 ([CLUSTER_1_SIZE] records):
 - Key characteristics: [CLUSTER_1_PROFILE]
 - Centroid values: [CLUSTER_1_CENTROID]
@@ -479,33 +494,33 @@ Cluster 2 ([CLUSTER_2_SIZE] records):
 - Centroid values: [CLUSTER_2_CENTROID]
 - Within-cluster variance: [CLUSTER_2_VARIANCE]
 
-Hierarchical Clustering:
+### Hierarchical Clustering
 - Linkage method: [LINKAGE_METHOD]
 - Distance metric: [DISTANCE_METRIC]
 - Dendrogram insights: [DENDROGRAM_INSIGHTS]
 - Cophenetic correlation: [COPHENETIC_CORR]
 
-DBSCAN Clustering:
+### DBSCAN Clustering
 - Epsilon parameter: [DBSCAN_EPS]
 - Min samples: [DBSCAN_MIN_SAMPLES]
 - Number of clusters: [DBSCAN_CLUSTERS]
 - Noise points: [DBSCAN_NOISE]
 
-Pattern Mining:
-Association Rules:
+### Pattern Mining
+### Association Rules
 - Frequent itemsets: [FREQUENT_ITEMSETS]
 - Support threshold: [SUPPORT_THRESHOLD]
 - Confidence threshold: [CONFIDENCE_THRESHOLD]
 - Lift analysis: [LIFT_ANALYSIS]
 
-Sequential Patterns:
+### Sequential Patterns
 - Pattern mining algorithm: [PATTERN_ALGORITHM]
 - Discovered sequences: [DISCOVERED_SEQUENCES]
 - Pattern confidence: [PATTERN_CONFIDENCE]
 
-VISUALIZATION INSIGHTS:
-Distribution Visualizations:
-Histogram Analysis:
+### VISUALIZATION INSIGHTS
+### Distribution Visualizations
+### Histogram Analysis
 1. [VAR_HIST_1]:
    - Distribution shape: [HIST_SHAPE_1]
    - Modality: [HIST_MODALITY_1]
@@ -518,7 +533,7 @@ Histogram Analysis:
    - Optimal bins: [OPTIMAL_BINS_2]
    - Outlier visibility: [OUTLIER_VISIBILITY_2]
 
-Box Plot Insights:
+### Box Plot Insights
 1. [VAR_BOX_1]:
    - Median position: [MEDIAN_POSITION_1]
    - IQR symmetry: [IQR_SYMMETRY_1]
@@ -531,13 +546,13 @@ Box Plot Insights:
    - Whisker length: [WHISKER_LENGTH_2]
    - Outlier count: [BOX_OUTLIER_COUNT_2]
 
-Violin Plot Analysis:
+### Violin Plot Analysis
 - Kernel density estimation: [KDE_BANDWIDTH]
 - Distribution width variation: [DISTRIBUTION_WIDTH]
 - Multi-modal indicators: [MULTIMODAL_INDICATORS]
 
-Relationship Visualizations:
-Scatter Plot Analysis:
+### Relationship Visualizations
+### Scatter Plot Analysis
 1. [VAR_X_1] vs [VAR_Y_1]:
    - Relationship type: [RELATIONSHIP_TYPE_1]
    - Correlation strength: [VISUAL_CORR_1]
@@ -550,47 +565,47 @@ Scatter Plot Analysis:
    - Outlier patterns: [SCATTER_OUTLIERS_2]
    - Cluster formations: [SCATTER_CLUSTERS_2]
 
-Heatmap Insights:
-Correlation Heatmap:
+### Heatmap Insights
+### Correlation Heatmap
 - Strong positive blocks: [POS_CORR_BLOCKS]
 - Strong negative blocks: [NEG_CORR_BLOCKS]
 - Correlation clusters: [CORR_CLUSTERS]
 
-Missing Data Heatmap:
+### Missing Data Heatmap
 - Missing data patterns: [MISSING_PATTERNS_VISUAL]
 - Systematic missingness: [SYSTEMATIC_MISSING]
 - Random missingness: [RANDOM_MISSING]
 
-Temporal Visualizations:
-Time Series Plots:
+### Temporal Visualizations
+### Time Series Plots
 - Trend identification: [VISUAL_TREND]
 - Seasonal patterns: [VISUAL_SEASONALITY]
 - Anomaly detection: [VISUAL_ANOMALIES]
 - Volatility periods: [VOLATILITY_PERIODS]
 
-Calendar Heatmaps:
+### Calendar Heatmaps
 - Daily patterns: [DAILY_PATTERNS]
 - Weekly patterns: [WEEKLY_PATTERNS]
 - Monthly patterns: [MONTHLY_PATTERNS]
 - Holiday effects: [HOLIDAY_EFFECTS_VISUAL]
 
-TARGET VARIABLE ANALYSIS:
+### TARGET VARIABLE ANALYSIS
 (If supervised learning context)
 
-Target Distribution:
+### Target Distribution
 - Target variable: [TARGET_VARIABLE]
 - Variable type: [TARGET_TYPE]
 - Distribution summary: [TARGET_DISTRIBUTION]
 - Class balance (if classification): [CLASS_BALANCE]
 
-Classification Targets:
+### Classification Targets
 - Number of classes: [NUM_CLASSES]
 - Majority class: [MAJORITY_CLASS] ([MAJORITY_PERCENT]%)
 - Minority class: [MINORITY_CLASS] ([MINORITY_PERCENT]%)
 - Imbalance ratio: [IMBALANCE_RATIO]:1
 - Class distribution: [CLASS_DISTRIBUTION]
 
-Regression Targets:
+### Regression Targets
 - Target range: [TARGET_RANGE]
 - Target mean: [TARGET_MEAN]
 - Target median: [TARGET_MEDIAN]
@@ -605,7 +620,7 @@ Top Predictive Features (Univariate):
 4. [PRED_FEATURE_4]: Association = [ASSOCIATION_4]
 5. [PRED_FEATURE_5]: Association = [ASSOCIATION_5]
 
-Mutual Information Scores:
+### Mutual Information Scores
 1. [MI_FEATURE_1]: MI = [MI_SCORE_1]
 2. [MI_FEATURE_2]: MI = [MI_SCORE_2]
 3. [MI_FEATURE_3]: MI = [MI_SCORE_3]
@@ -615,8 +630,8 @@ Information Value (for binary targets):
 2. [IV_FEATURE_2]: IV = [IV_SCORE_2]
 3. [IV_FEATURE_3]: IV = [IV_SCORE_3]
 
-BUSINESS INSIGHTS:
-Key Business Findings:
+### BUSINESS INSIGHTS
+### Key Business Findings
 1. Market Segmentation:
    - Primary segments identified: [BUSINESS_SEGMENTS]
    - Segment characteristics: [SEGMENT_CHARACTERISTICS]
@@ -637,21 +652,21 @@ Key Business Findings:
    - Revenue correlation: [REVENUE_CORRELATION]
    - Monetization opportunities: [MONETIZATION_OPPS]
 
-Risk Assessment:
-Data Risks:
+### Risk Assessment
+### Data Risks
 - Data quality risks: [DQ_RISKS]
 - Privacy concerns: [PRIVACY_CONCERNS]
 - Compliance issues: [COMPLIANCE_ISSUES]
 - Bias indicators: [BIAS_INDICATORS]
 
-Business Risks:
+### Business Risks
 - Sample bias: [SAMPLE_BIAS]
 - Temporal relevance: [TEMPORAL_RELEVANCE]
 - External validity: [EXTERNAL_VALIDITY]
 - Confounding factors: [CONFOUNDING_FACTORS]
 
-RECOMMENDATIONS:
-Data Preparation Recommendations:
+### RECOMMENDATIONS
+### Data Preparation Recommendations
 1. Missing Data Strategy:
    - Variables to drop: [DROP_VARIABLES]
    - Imputation methods: [IMPUTATION_METHODS]
@@ -674,7 +689,7 @@ Data Preparation Recommendations:
    - Encoding strategies: [ENCODING_STRATEGIES]
    - Normalization needs: [NORMALIZATION_VARS]
 
-Modeling Recommendations:
+### Modeling Recommendations
 1. Algorithm Selection:
    - Recommended algorithms: [RECOMMENDED_ALGORITHMS]
    - Algorithms to avoid: [AVOID_ALGORITHMS]
@@ -690,7 +705,7 @@ Modeling Recommendations:
    - Dimensionality reduction: [DIMENSIONALITY_REDUCTION]
    - Feature importance focus: [FEATURE_IMPORTANCE_FOCUS]
 
-Further Analysis Recommendations:
+### Further Analysis Recommendations
 1. Deep Dive Areas:
    - Variables needing investigation: [INVESTIGATE_VARS]
    - Relationships to explore: [EXPLORE_RELATIONSHIPS]
@@ -706,7 +721,7 @@ Further Analysis Recommendations:
    - Business hypotheses: [BUSINESS_HYPOTHESES]
    - A/B test opportunities: [AB_TEST_OPPORTUNITIES]
 
-Next Steps:
+### Next Steps
 1. Immediate actions: [IMMEDIATE_ACTIONS]
 2. Short-term priorities: [SHORT_TERM_PRIORITIES]
 3. Long-term analysis plan: [LONG_TERM_PLAN]
@@ -729,6 +744,33 @@ OUTPUT: Deliver comprehensive EDA package including:
 
 ## Usage Examples
 
+
+
+## Best Practices
+
+1. **Start with clear objectives** - Define what success looks like before beginning
+2. **Use data to inform decisions** - Base choices on evidence and measurable outcomes
+3. **Iterate and improve continuously** - Treat implementation as an ongoing process
+4. **Engage stakeholders early** - Include key participants in planning and execution
+5. **Document thoroughly** - Maintain clear records for reference and knowledge transfer
+6. **Communicate regularly** - Keep all parties informed of progress and changes
+7. **Address challenges proactively** - Identify potential issues before they become problems
+8. **Celebrate milestones** - Recognize achievements to maintain motivation
+9. **Learn from experience** - Reflect on what works and adjust accordingly
+10. **Stay flexible** - Be ready to adapt based on feedback and changing circumstances
+
+## Tips for Success
+
+- Break complex tasks into manageable steps with clear milestones
+- Set realistic timelines that account for dependencies and constraints
+- Allocate sufficient resources including time, budget, and personnel
+- Use templates and frameworks to ensure consistency and quality
+- Seek feedback from users and stakeholders throughout the process
+- Build in checkpoints to assess progress and make adjustments
+- Maintain quality standards while remaining practical and efficient
+- Document lessons learned for future reference and improvement
+- Foster collaboration across teams and departments
+- Stay current with industry best practices and emerging trends
 ### Example 1: Customer Churn Dataset EDA
 ```
 DATASET_NAME: "Telecommunications Customer Churn Data"

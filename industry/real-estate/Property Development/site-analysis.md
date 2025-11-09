@@ -1,3 +1,17 @@
+---
+title: Site Analysis Template
+category: industry/real-estate/Property Development
+tags: [data-science, design, development, industry, research, strategy, template]
+use_cases:
+  - Implementing create comprehensive site analysis reports, feasibility studies, development pot...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - property-management-system.md
+  - construction-project-planning.md
+last_updated: 2025-11-09
+---
+
 # Site Analysis Template
 
 ## Purpose
@@ -18,14 +32,14 @@ Site Characteristics:
 - Ownership: [OWNERSHIP_STATUS]
 - Acquisition cost: [ACQUISITION_COST]
 
-Development Context:
+### Development Context
 - Market area: [MARKET_AREA]
 - Neighborhood character: [NEIGHBORHOOD_CHARACTER]
 - Development trends: [DEVELOPMENT_TRENDS]
 - Competition: [COMPETITIVE_LANDSCAPE]
 - Demand drivers: [DEMAND_DRIVERS]
 
-SITE ANALYSIS FRAMEWORK:
+### SITE ANALYSIS FRAMEWORK
 
 ```
 PHYSICAL ANALYSIS:
@@ -42,7 +56,7 @@ Utilities        | [UTIL_STATUS]   | [UTIL_IMPACT]     | [UTIL_COST]    | [UTIL_
 Access           | [ACC_STATUS]    | [ACC_IMPACT]      | [ACC_COST]     | [ACC_PRIOR]
 Views            | [VIEW_STATUS]   | [VIEW_IMPACT]     | [VIEW_COST]    | [VIEW_PRIOR]
 
-Infrastructure Assessment:
+### Infrastructure Assessment
 Infrastructure   | Existing Capacity| Required Upgrade | Cost Estimate  | Timeline
 -----------------|------------------|------------------|----------------|----------
 Water            | [WATER_CAP]      | [WATER_UPG]      | [WATER_COST]   | [WATER_TIME]
@@ -53,7 +67,7 @@ Telecom          | [TEL_CAP]        | [TEL_UPG]        | [TEL_COST]     | [TEL_T
 Roads            | [ROAD_CAP]       | [ROAD_UPG]       | [ROAD_COST]    | [ROAD_TIME]
 Transit          | [TRANS_CAP]      | [TRANS_UPG]      | [TRANS_COST]   | [TRANS_TIME]
 
-Environmental Factors:
+### Environmental Factors
 Factor           | Assessment      | Risk Level       | Requirements   | Cost Impact
 -----------------|-----------------|------------------|----------------|------------
 Contamination    | [CONT_ASSESS]   | [CONT_RISK]      | [CONT_REQ]     | [CONT_COST]
@@ -67,9 +81,9 @@ REGULATORY ANALYSIS:
 
 Zoning & Entitlements:
 ```
-REGULATORY FRAMEWORK:
+### REGULATORY FRAMEWORK
 
-Zoning Parameters:
+### Zoning Parameters
 Parameter        | Current Zoning  | Proposed Use     | Variance Needed| Process
 -----------------|-----------------|------------------|----------------|--------
 Use Classification| [USE_CURRENT]  | [USE_PROPOSED]   | [USE_VAR]      | [USE_PROC]
@@ -80,7 +94,7 @@ Lot Coverage     | [LOT_CURRENT]   | [LOT_PROPOSED]   | [LOT_VAR]      | [LOT_PR
 Parking          | [PARK_CURRENT]  | [PARK_PROPOSED]  | [PARK_VAR]     | [PARK_PROC]
 Open Space       | [OPEN_CURRENT]  | [OPEN_PROPOSED]  | [OPEN_VAR]     | [OPEN_PROC]
 
-Approval Process:
+### Approval Process
 Approval Type    | Authority       | Timeline        | Cost          | Risk
 -----------------|-----------------|-----------------|---------------|------
 Zoning Change    | [ZON_AUTH]      | [ZON_TIME]      | [ZON_COST]    | [ZON_RISK]
@@ -89,7 +103,7 @@ Environmental    | [ENV_AUTH]      | [ENV_TIME]      | [ENV_COST]    | [ENV_RISK
 Building Permits | [BLDG_AUTH]     | [BLDG_TIME]     | [BLDG_COST]   | [BLDG_RISK]
 Special Permits  | [SPEC_AUTH]     | [SPEC_TIME]     | [SPEC_COST]   | [SPEC_RISK]
 
-Development Restrictions:
+### Development Restrictions
 Restriction      | Description     | Impact on Project| Mitigation    | Cost
 -----------------|-----------------|------------------|---------------|------
 Easements        | [EASE_DESC]     | [EASE_IMPACT]    | [EASE_MIT]    | [EASE_COST]
@@ -103,9 +117,9 @@ MARKET ANALYSIS:
 
 Market Conditions:
 ```
-MARKET ASSESSMENT:
+### MARKET ASSESSMENT
 
-Supply & Demand:
+### Supply & Demand
 Product Type     | Current Supply  | Pipeline        | Demand        | Gap Analysis
 -----------------|-----------------|-----------------|---------------|-------------
 Residential      | [RES_SUPPLY]    | [RES_PIPE]      | [RES_DEMAND]  | [RES_GAP]
@@ -114,7 +128,7 @@ Retail           | [RET_SUPPLY]    | [RET_PIPE]      | [RET_DEMAND]  | [RET_GAP]
 Industrial       | [IND_SUPPLY]    | [IND_PIPE]      | [IND_DEMAND]  | [IND_GAP]
 Mixed-Use        | [MIX_SUPPLY]    | [MIX_PIPE]      | [MIX_DEMAND]  | [MIX_GAP]
 
-Comparable Properties:
+### Comparable Properties
 Property         | Distance        | Size            | Price/Rent    | Occupancy
 -----------------|-----------------|-----------------|---------------|----------
 [COMP_1]         | [DIST_1]        | [SIZE_1]        | [PRICE_1]     | [OCC_1]
@@ -123,7 +137,7 @@ Property         | Distance        | Size            | Price/Rent    | Occupancy
 [COMP_4]         | [DIST_4]        | [SIZE_4]        | [PRICE_4]     | [OCC_4]
 [COMP_5]         | [DIST_5]        | [SIZE_5]        | [PRICE_5]     | [OCC_5]
 
-Market Trends:
+### Market Trends
 Metric           | Current         | 1-Year Change   | 3-Year Trend  | Forecast
 -----------------|-----------------|-----------------|---------------|----------
 Sale Prices      | [SALE_CURR]     | [SALE_1YR]      | [SALE_3YR]    | [SALE_FOR]
@@ -137,9 +151,9 @@ DEVELOPMENT PROGRAM:
 
 Highest & Best Use:
 ```
-DEVELOPMENT OPTIONS:
+### DEVELOPMENT OPTIONS
 
-Use Alternatives:
+### Use Alternatives
 Alternative      | Program         | Density         | Revenue       | ROI
 -----------------|-----------------|-----------------|---------------|-----
 [ALTERNATIVE_1]  | [PROG_1]        | [DENS_1]        | [REV_1]       | [ROI_1]
@@ -147,7 +161,7 @@ Alternative      | Program         | Density         | Revenue       | ROI
 [ALTERNATIVE_3]  | [PROG_3]        | [DENS_3]        | [REV_3]       | [ROI_3]
 [ALTERNATIVE_4]  | [PROG_4]        | [DENS_4]        | [REV_4]       | [ROI_4]
 
-Recommended Program:
+### Recommended Program
 Component        | Square Feet     | Units/Spaces    | Revenue Type  | Target Market
 -----------------|-----------------|-----------------|---------------|---------------
 [COMPONENT_1]    | [SF_1]          | [UNITS_1]       | [REV_TYPE_1]  | [TARGET_1]
@@ -156,7 +170,7 @@ Component        | Square Feet     | Units/Spaces    | Revenue Type  | Target Ma
 [COMPONENT_4]    | [SF_4]          | [UNITS_4]       | [REV_TYPE_4]  | [TARGET_4]
 Total            | [TOTAL_SF]      | [TOTAL_UNITS]   | [TOTAL_REV]   | [TOTAL_TARGET]
 
-Design Considerations:
+### Design Considerations
 Element          | Requirement     | Design Response | Cost Impact   | Value Add
 -----------------|-----------------|-----------------|---------------|----------
 Architecture     | [ARCH_REQ]      | [ARCH_RESP]     | [ARCH_COST]   | [ARCH_VALUE]
@@ -170,9 +184,9 @@ FINANCIAL ANALYSIS:
 
 Development Pro Forma:
 ```
-FINANCIAL PROJECTIONS:
+### FINANCIAL PROJECTIONS
 
-Development Costs:
+### Development Costs
 Cost Category    | Amount          | Per SF          | % of Total    | Timing
 -----------------|-----------------|-----------------|---------------|--------
 Land Acquisition | [LAND_AMT]      | [LAND_PSF]      | [LAND_PCT]    | [LAND_TIME]
@@ -183,7 +197,7 @@ Financing        | [FIN_AMT]       | [FIN_PSF]       | [FIN_PCT]     | [FIN_TIME
 Contingency      | [CONT_AMT]      | [CONT_PSF]      | [CONT_PCT]    | [CONT_TIME]
 Total            | [TOTAL_AMT]     | [TOTAL_PSF]     | 100%          | [TOTAL_TIME]
 
-Revenue Projections:
+### Revenue Projections
 Revenue Source   | Units/SF        | Rate            | Annual Income | Stabilized NOI
 -----------------|-----------------|-----------------|---------------|---------------
 [SOURCE_1]       | [UNITS_1]       | [RATE_1]        | [INCOME_1]    | [NOI_1]
@@ -192,7 +206,7 @@ Revenue Source   | Units/SF        | Rate            | Annual Income | Stabilize
 [SOURCE_4]       | [UNITS_4]       | [RATE_4]        | [INCOME_4]    | [NOI_4]
 Total            | [TOTAL_UNITS]   | [AVG_RATE]      | [TOTAL_INCOME]| [TOTAL_NOI]
 
-Investment Metrics:
+### Investment Metrics
 Metric           | Value           | Target          | Variance      | Assessment
 -----------------|-----------------|-----------------|---------------|------------
 Development Yield| [DEV_YIELD]     | [YIELD_TARG]    | [YIELD_VAR]   | [YIELD_ASSESS]
@@ -206,9 +220,9 @@ RISK ASSESSMENT:
 
 Risk Analysis:
 ```
-RISK EVALUATION:
+### RISK EVALUATION
 
-Risk Matrix:
+### Risk Matrix
 Risk Category    | Probability     | Impact          | Mitigation    | Contingency
 -----------------|-----------------|-----------------|---------------|------------
 Market Risk      | [MKT_PROB]      | [MKT_IMPACT]    | [MKT_MITIG]   | [MKT_CONT]
@@ -218,7 +232,7 @@ Environmental Risk| [ENV_PROB]     | [ENV_IMPACT]    | [ENV_MITIG]   | [ENV_CONT
 Financial Risk   | [FIN_PROB]      | [FIN_IMPACT]    | [FIN_MITIG]   | [FIN_CONT]
 Political Risk   | [POL_PROB]      | [POL_IMPACT]    | [POL_MITIG]   | [POL_CONT]
 
-Sensitivity Analysis:
+### Sensitivity Analysis
 Variable         | Base Case       | -10%            | +10%          | Break-even
 -----------------|-----------------|-----------------|---------------|------------
 Construction Cost| [CONST_BASE]    | [CONST_NEG]     | [CONST_POS]   | [CONST_BE]
@@ -227,7 +241,7 @@ Occupancy        | [OCC_BASE]      | [OCC_NEG]       | [OCC_POS]     | [OCC_BE]
 Cap Rate         | [CAP_BASE]      | [CAP_NEG]       | [CAP_POS]     | [CAP_BE]
 Interest Rate    | [INT_BASE]      | [INT_NEG]       | [INT_POS]     | [INT_BE]
 
-Exit Strategy:
+### Exit Strategy
 Strategy         | Timeline        | Projected Value | Net Proceeds  | IRR
 -----------------|-----------------|-----------------|---------------|-----
 Hold & Operate   | [HOLD_TIME]     | [HOLD_VALUE]    | [HOLD_PROC]   | [HOLD_IRR]
@@ -240,7 +254,7 @@ RECOMMENDATIONS:
 
 Development Decision:
 ```
-FINAL RECOMMENDATIONS:
+### FINAL RECOMMENDATIONS
 
 Go/No-Go Decision: [DECISION]
 Rationale: [DECISION_RATIONALE]
@@ -253,7 +267,7 @@ Factor           | Requirement     | Current Status  | Action Needed | Priority
 [FACTOR_3]       | [REQ_3]         | [STATUS_3]      | [ACTION_3]    | [PRIOR_3]
 [FACTOR_4]       | [REQ_4]         | [STATUS_4]      | [ACTION_4]    | [PRIOR_4]
 
-Next Steps:
+### Next Steps
 Step             | Timeline        | Responsible     | Cost          | Deliverable
 -----------------|-----------------|-----------------|---------------|------------
 [STEP_1]         | [TIME_1]        | [RESP_1]        | [COST_1]      | [DELIV_1]
@@ -274,7 +288,7 @@ Projected Returns: [FINAL_RETURNS]
 
 ---
 
-Analysis Summary:
+### Analysis Summary
 - Site suitability: [SUITABILITY_SUMMARY]
 - Development program: [PROGRAM_SUMMARY]
 - Financial viability: [FINANCIAL_SUMMARY]
@@ -297,6 +311,33 @@ OUTPUT: Deliver comprehensive site analysis with:
 
 ## Usage Examples
 
+
+
+## Best Practices
+
+1. **Start with clear objectives** - Define what success looks like before beginning
+2. **Use data to inform decisions** - Base choices on evidence and measurable outcomes
+3. **Iterate and improve continuously** - Treat implementation as an ongoing process
+4. **Engage stakeholders early** - Include key participants in planning and execution
+5. **Document thoroughly** - Maintain clear records for reference and knowledge transfer
+6. **Communicate regularly** - Keep all parties informed of progress and changes
+7. **Address challenges proactively** - Identify potential issues before they become problems
+8. **Celebrate milestones** - Recognize achievements to maintain motivation
+9. **Learn from experience** - Reflect on what works and adjust accordingly
+10. **Stay flexible** - Be ready to adapt based on feedback and changing circumstances
+
+## Tips for Success
+
+- Break complex tasks into manageable steps with clear milestones
+- Set realistic timelines that account for dependencies and constraints
+- Allocate sufficient resources including time, budget, and personnel
+- Use templates and frameworks to ensure consistency and quality
+- Seek feedback from users and stakeholders throughout the process
+- Build in checkpoints to assess progress and make adjustments
+- Maintain quality standards while remaining practical and efficient
+- Document lessons learned for future reference and improvement
+- Foster collaboration across teams and departments
+- Stay current with industry best practices and emerging trends
 ### Example 1: Mixed-Use Development
 ```
 ANALYSIS_TYPE: "Highest and best use analysis"

@@ -1,3 +1,17 @@
+---
+title: Peer Review & Critiques Template
+category: education/Scientific Communication
+tags: [automation, communication, data-science, education, marketing, research, security, strategy]
+use_cases:
+  - Implementing conduct comprehensive, constructive peer reviews that maintain scientific rigor ...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - curriculum-development.md
+  - curriculum-development-framework.md
+last_updated: 2025-11-09
+---
+
 # Peer Review & Critiques Template
 
 ## Purpose
@@ -17,7 +31,7 @@ Manuscript Stage: [INITIAL_SUBMISSION/REVISION/RESUBMISSION]
 Review Scope: [FULL_REVIEW/FOCUSED_ASSESSMENT/STATISTICAL_REVIEW]
 Confidentiality Level: [ANONYMOUS/SIGNED/OPEN_REVIEW]
 
-Generate a complete peer review strategy:
+### Generate a complete peer review strategy
 
 1. REVIEW PREPARATION FRAMEWORK
 

@@ -1,3 +1,17 @@
+---
+title: Real Estate Market Analysis & Investment Evaluation Framework
+category: industry/real-estate/Property Transactions
+tags: [data-science, framework, industry, research, strategy]
+use_cases:
+  - Implementing comprehensive framework for analyzing real estate markets, evaluating investment...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - property-management-system.md
+  - construction-project-planning.md
+last_updated: 2025-11-09
+---
+
 # Real Estate Market Analysis & Investment Evaluation Framework
 
 ## Purpose
@@ -49,6 +63,262 @@ Comp 3: [COMP3_ADDRESS]
 Adjusted Value Range: $[VALUE_LOW] - $[VALUE_HIGH]
 Recommended Value: $[RECOMMENDED_VALUE]
 ```
+
+## Variables
+
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `[PROPERTY_TYPE]` | Type or category of property | "Standard" |
+| `[LOCATION]` | Specify the location | "North America" |
+| `[INVESTMENT_AMOUNT]` | Specify the investment amount | "[specify value]" |
+| `[TARGET_RETURN]` | Target or intended return | "[specify value]" |
+| `[HOLD_PERIOD]` | Specify the hold period | "[specify value]" |
+| `[EXIT_STRATEGY]` | Strategy or approach for exit | "[specify value]" |
+| `[MEDIAN_PRICE]` | Specify the median price | "[specify value]" |
+| `[PRICE_1Y]` | Specify the price 1y | "[specify value]" |
+| `[PRICE_3Y]` | Specify the price 3y | "[specify value]" |
+| `[PRICE_RANK]` | Specify the price rank | "[specify value]" |
+| `[PRICE_FORECAST]` | Specify the price forecast | "[specify value]" |
+| `[PRICE_SQFT]` | Specify the price sqft | "[specify value]" |
+| `[SQFT_1Y]` | Specify the sqft 1y | "[specify value]" |
+| `[SQFT_3Y]` | Specify the sqft 3y | "[specify value]" |
+| `[SQFT_RANK]` | Specify the sqft rank | "[specify value]" |
+| `[SQFT_FORECAST]` | Specify the sqft forecast | "[specify value]" |
+| `[INVENTORY]` | Specify the inventory | "[specify value]" |
+| `[INV_1Y]` | Specify the inv 1y | "[specify value]" |
+| `[INV_3Y]` | Specify the inv 3y | "[specify value]" |
+| `[INV_RANK]` | Specify the inv rank | "[specify value]" |
+| `[INV_FORECAST]` | Specify the inv forecast | "[specify value]" |
+| `[DOM]` | Specify the dom | "[specify value]" |
+| `[DOM_1Y]` | Specify the dom 1y | "[specify value]" |
+| `[DOM_3Y]` | Specify the dom 3y | "[specify value]" |
+| `[DOM_RANK]` | Specify the dom rank | "[specify value]" |
+| `[DOM_FORECAST]` | Specify the dom forecast | "[specify value]" |
+| `[SALES_VOL]` | Specify the sales vol | "[specify value]" |
+| `[SALES_1Y]` | Specify the sales 1y | "[specify value]" |
+| `[SALES_3Y]` | Specify the sales 3y | "[specify value]" |
+| `[SALES_RANK]` | Specify the sales rank | "[specify value]" |
+| `[SALES_FORECAST]` | Specify the sales forecast | "[specify value]" |
+| `[RENT_RATE]` | Specify the rent rate | "[specify value]" |
+| `[RENT_1Y]` | Specify the rent 1y | "[specify value]" |
+| `[RENT_3Y]` | Specify the rent 3y | "[specify value]" |
+| `[RENT_RANK]` | Specify the rent rank | "[specify value]" |
+| `[RENT_FORECAST]` | Specify the rent forecast | "[specify value]" |
+| `[COMP1_ADDRESS]` | Specify the comp1 address | "[specify value]" |
+| `[COMP1_DATE]` | Specify the comp1 date | "2025-01-15" |
+| `[COMP1_PRICE]` | Specify the comp1 price | "[specify value]" |
+| `[COMP1_SIZE]` | Specify the comp1 size | "[specify value]" |
+| `[COMP1_PSF]` | Specify the comp1 psf | "[specify value]" |
+| `[COMP1_CONDITION]` | Specify the comp1 condition | "[specify value]" |
+| `[COMP1_ADJUST]` | Specify the comp1 adjust | "[specify value]" |
+| `[COMP2_ADDRESS]` | Specify the comp2 address | "[specify value]" |
+| `[COMP2_DATE]` | Specify the comp2 date | "2025-01-15" |
+| `[COMP2_PRICE]` | Specify the comp2 price | "[specify value]" |
+| `[COMP2_SIZE]` | Specify the comp2 size | "[specify value]" |
+| `[COMP2_PSF]` | Specify the comp2 psf | "[specify value]" |
+| `[COMP2_CONDITION]` | Specify the comp2 condition | "[specify value]" |
+| `[COMP2_ADJUST]` | Specify the comp2 adjust | "[specify value]" |
+| `[COMP3_ADDRESS]` | Specify the comp3 address | "[specify value]" |
+| `[COMP3_DATE]` | Specify the comp3 date | "2025-01-15" |
+| `[COMP3_PRICE]` | Specify the comp3 price | "[specify value]" |
+| `[COMP3_SIZE]` | Specify the comp3 size | "[specify value]" |
+| `[COMP3_PSF]` | Specify the comp3 psf | "[specify value]" |
+| `[COMP3_CONDITION]` | Specify the comp3 condition | "[specify value]" |
+| `[COMP3_ADJUST]` | Specify the comp3 adjust | "[specify value]" |
+| `[VALUE_LOW]` | Specify the value low | "[specify value]" |
+| `[VALUE_HIGH]` | Specify the value high | "[specify value]" |
+| `[RECOMMENDED_VALUE]` | Specify the recommended value | "[specify value]" |
+| `[RENT_Y1]` | Specify the rent y1 | "[specify value]" |
+| `[RENT_Y3]` | Specify the rent y3 | "[specify value]" |
+| `[RENT_Y5]` | Specify the rent y5 | "[specify value]" |
+| `[RENT_EXIT]` | Specify the rent exit | "[specify value]" |
+| `[RENT_AVG]` | Specify the rent avg | "[specify value]" |
+| `[OPEX_Y1]` | Specify the opex y1 | "[specify value]" |
+| `[OPEX_Y3]` | Specify the opex y3 | "[specify value]" |
+| `[OPEX_Y5]` | Specify the opex y5 | "[specify value]" |
+| `[OPEX_EXIT]` | Specify the opex exit | "[specify value]" |
+| `[OPEX_AVG]` | Specify the opex avg | "[specify value]" |
+| `[NOI_Y1]` | Specify the noi y1 | "[specify value]" |
+| `[NOI_Y3]` | Specify the noi y3 | "[specify value]" |
+| `[NOI_Y5]` | Specify the noi y5 | "[specify value]" |
+| `[NOI_EXIT]` | Specify the noi exit | "[specify value]" |
+| `[NOI_AVG]` | Specify the noi avg | "[specify value]" |
+| `[DEBT_Y1]` | Specify the debt y1 | "[specify value]" |
+| `[DEBT_Y3]` | Specify the debt y3 | "[specify value]" |
+| `[DEBT_Y5]` | Specify the debt y5 | "[specify value]" |
+| `[DEBT_EXIT]` | Specify the debt exit | "[specify value]" |
+| `[DEBT_AVG]` | Specify the debt avg | "[specify value]" |
+| `[CF_Y1]` | Specify the cf y1 | "[specify value]" |
+| `[CF_Y3]` | Specify the cf y3 | "[specify value]" |
+| `[CF_Y5]` | Specify the cf y5 | "[specify value]" |
+| `[CF_EXIT]` | Specify the cf exit | "[specify value]" |
+| `[CF_AVG]` | Specify the cf avg | "[specify value]" |
+| `[COC_Y1]` | Specify the coc y1 | "[specify value]" |
+| `[COC_Y3]` | Specify the coc y3 | "[specify value]" |
+| `[COC_Y5]` | Specify the coc y5 | "[specify value]" |
+| `[COC_EXIT]` | Specify the coc exit | "[specify value]" |
+| `[COC_AVG]` | Specify the coc avg | "[specify value]" |
+| `[SUBJ_POP]` | Specify the subj pop | "[specify value]" |
+| `[CITY_POP]` | Specify the city pop | "[specify value]" |
+| `[POP_GROWTH]` | Specify the pop growth | "[specify value]" |
+| `[SUBJ_INCOME]` | Specify the subj income | "[specify value]" |
+| `[CITY_INCOME]` | Specify the city income | "[specify value]" |
+| `[INCOME_GROWTH]` | Specify the income growth | "[specify value]" |
+| `[SUBJ_EMPLOY]` | Specify the subj employ | "[specify value]" |
+| `[CITY_EMPLOY]` | Specify the city employ | "[specify value]" |
+| `[EMPLOY_GROWTH]` | Specify the employ growth | "[specify value]" |
+| `[SUBJ_OWNER]` | Specify the subj owner | "[specify value]" |
+| `[CITY_OWNER]` | Specify the city owner | "[specify value]" |
+| `[OWNER_TREND]` | Specify the owner trend | "[specify value]" |
+| `[SUBJ_SCHOOL]` | Specify the subj school | "[specify value]" |
+| `[CITY_SCHOOL]` | Specify the city school | "[specify value]" |
+| `[SCHOOL_TREND]` | Specify the school trend | "[specify value]" |
+| `[SUBJ_CRIME]` | Specify the subj crime | "[specify value]" |
+| `[CITY_CRIME]` | Specify the city crime | "[specify value]" |
+| `[CRIME_TREND]` | Specify the crime trend | "[specify value]" |
+| `[ACTIVE_LISTINGS]` | Specify the active listings | "[specify value]" |
+| `[NEW_CONST]` | Specify the new const | "[specify value]" |
+| `[PIPELINE]` | Specify the pipeline | "[specify value]" |
+| `[VACANCY]` | Specify the vacancy | "[specify value]" |
+| `[ABSORPTION]` | Specify the absorption | "[specify value]" |
+| `[POP_DRIVER]` | Specify the pop driver | "[specify value]" |
+| `[JOB_DRIVER]` | Specify the job driver | "[specify value]" |
+| `[INCOME_DRIVER]` | Specify the income driver | "[specify value]" |
+| `[MIGRATION_PATTERN]` | Specify the migration pattern | "[specify value]" |
+| `[HOUSEHOLD_FORM]` | Specify the household form | "[specify value]" |
+| `[SUPPLY_DEMAND_BAL]` | Specify the supply demand bal | "[specify value]" |
+| `[SD_1YEAR]` | Specify the sd 1year | "[specify value]" |
+| `[SD_3YEAR]` | Specify the sd 3year | "[specify value]" |
+| `[EQUILIBRIUM]` | Specify the equilibrium | "[specify value]" |
+| `[PRICE_PRESSURE]` | Specify the price pressure | "[specify value]" |
+| `[SALES_COMP_VAL]` | Specify the sales comp val | "[specify value]" |
+| `[SC_WEIGHT]` | Specify the sc weight | "[specify value]" |
+| `[SC_WEIGHTED]` | Specify the sc weighted | "[specify value]" |
+| `[SC_CONF]` | Specify the sc conf | "[specify value]" |
+| `[SC_NOTES]` | Specify the sc notes | "[specify value]" |
+| `[INCOME_VAL]` | Specify the income val | "[specify value]" |
+| `[INC_WEIGHT]` | Specify the inc weight | "[specify value]" |
+| `[INC_WEIGHTED]` | Specify the inc weighted | "[specify value]" |
+| `[INC_CONF]` | Specify the inc conf | "[specify value]" |
+| `[INC_NOTES]` | Specify the inc notes | "[specify value]" |
+| `[COST_VAL]` | Specify the cost val | "[specify value]" |
+| `[COST_WEIGHT]` | Specify the cost weight | "[specify value]" |
+| `[COST_WEIGHTED]` | Specify the cost weighted | "[specify value]" |
+| `[COST_CONF]` | Specify the cost conf | "[specify value]" |
+| `[COST_NOTES]` | Specify the cost notes | "[specify value]" |
+| `[DCF_VAL]` | Specify the dcf val | "[specify value]" |
+| `[DCF_WEIGHT]` | Specify the dcf weight | "[specify value]" |
+| `[DCF_WEIGHTED]` | Specify the dcf weighted | "[specify value]" |
+| `[DCF_CONF]` | Specify the dcf conf | "[specify value]" |
+| `[DCF_NOTES]` | Specify the dcf notes | "[specify value]" |
+| `[FINAL_VALUE]` | Specify the final value | "[specify value]" |
+| `[FINAL_CONF]` | Specify the final conf | "[specify value]" |
+| `[FINAL_NOTES]` | Specify the final notes | "[specify value]" |
+| `[MKT_PROB]` | Specify the mkt prob | "[specify value]" |
+| `[MKT_IMPACT]` | Specify the mkt impact | "[specify value]" |
+| `[MKT_SCORE]` | Specify the mkt score | "[specify value]" |
+| `[MKT_MITIGATE]` | Specify the mkt mitigate | "[specify value]" |
+| `[MKT_CONTINGENCY]` | Specify the mkt contingency | "[specify value]" |
+| `[PROP_PROB]` | Specify the prop prob | "[specify value]" |
+| `[PROP_IMPACT]` | Specify the prop impact | "[specify value]" |
+| `[PROP_SCORE]` | Specify the prop score | "[specify value]" |
+| `[PROP_MITIGATE]` | Specify the prop mitigate | "[specify value]" |
+| `[PROP_CONTINGENCY]` | Specify the prop contingency | "[specify value]" |
+| `[FIN_PROB]` | Specify the fin prob | "[specify value]" |
+| `[FIN_IMPACT]` | Specify the fin impact | "[specify value]" |
+| `[FIN_SCORE]` | Specify the fin score | "[specify value]" |
+| `[FIN_MITIGATE]` | Specify the fin mitigate | "[specify value]" |
+| `[FIN_CONTINGENCY]` | Specify the fin contingency | "[specify value]" |
+| `[REG_PROB]` | Specify the reg prob | "[specify value]" |
+| `[REG_IMPACT]` | Specify the reg impact | "[specify value]" |
+| `[REG_SCORE]` | Specify the reg score | "[specify value]" |
+| `[REG_MITIGATE]` | Specify the reg mitigate | "[specify value]" |
+| `[REG_CONTINGENCY]` | Specify the reg contingency | "[specify value]" |
+| `[ENV_PROB]` | Specify the env prob | "[specify value]" |
+| `[ENV_IMPACT]` | Specify the env impact | "[specify value]" |
+| `[ENV_SCORE]` | Specify the env score | "[specify value]" |
+| `[ENV_MITIGATE]` | Specify the env mitigate | "[specify value]" |
+| `[ENV_CONTINGENCY]` | Specify the env contingency | "[specify value]" |
+| `[PURCHASE_PRICE]` | Specify the purchase price | "[specify value]" |
+| `[CLOSING_COSTS]` | Specify the closing costs | "[specify value]" |
+| `[RENOVATION]` | Specify the renovation | "[specify value]" |
+| `[RESERVES]` | Specify the reserves | "[specify value]" |
+| `[TOTAL_INVESTMENT]` | Specify the total investment | "[specify value]" |
+| `[SENIOR_DEBT]` | Specify the senior debt | "[specify value]" |
+| `[SENIOR_LTV]` | Specify the senior ltv | "[specify value]" |
+| `[SENIOR_RATE]` | Specify the senior rate | "[specify value]" |
+| `[SENIOR_TERM]` | Specify the senior term | "[specify value]" |
+| `[SENIOR_AMORT]` | Specify the senior amort | "[specify value]" |
+| `[MEZZ_DEBT]` | Specify the mezz debt | "[specify value]" |
+| `[MEZZ_LTV]` | Specify the mezz ltv | "[specify value]" |
+| `[MEZZ_RATE]` | Specify the mezz rate | "[specify value]" |
+| `[MEZZ_TERM]` | Specify the mezz term | "[specify value]" |
+| `[EQUITY]` | Specify the equity | "[specify value]" |
+| `[EQUITY_PCT]` | Specify the equity pct | "25%" |
+| `[EQUITY_RETURN]` | Specify the equity return | "[specify value]" |
+| `[PREF_RETURN]` | Specify the pref return | "[specify value]" |
+| `[PROFIT_SPLIT]` | Specify the profit split | "[specify value]" |
+| `[SALE_TIME]` | Specify the sale time | "[specify value]" |
+| `[SALE_VALUE]` | Specify the sale value | "[specify value]" |
+| `[SALE_NET]` | Specify the sale net | "[specify value]" |
+| `[SALE_IRR]` | Specify the sale irr | "[specify value]" |
+| `[SALE_MULT]` | Specify the sale mult | "[specify value]" |
+| `[SALE_PROB]` | Specify the sale prob | "[specify value]" |
+| `[INV_TIME]` | Specify the inv time | "[specify value]" |
+| `[INV_VALUE]` | Specify the inv value | "[specify value]" |
+| `[INV_NET]` | Specify the inv net | "[specify value]" |
+| `[INV_IRR]` | Specify the inv irr | "[specify value]" |
+| `[INV_MULT]` | Specify the inv mult | "[specify value]" |
+| `[INV_PROB]` | Specify the inv prob | "[specify value]" |
+| `[REFI_TIME]` | Specify the refi time | "[specify value]" |
+| `[REFI_VALUE]` | Specify the refi value | "[specify value]" |
+| `[REFI_NET]` | Specify the refi net | "[specify value]" |
+| `[REFI_IRR]` | Specify the refi irr | "[specify value]" |
+| `[REFI_MULT]` | Specify the refi mult | "[specify value]" |
+| `[REFI_PROB]` | Specify the refi prob | "[specify value]" |
+| `[DEV_TIME]` | Specify the dev time | "[specify value]" |
+| `[DEV_VALUE]` | Specify the dev value | "[specify value]" |
+| `[DEV_NET]` | Specify the dev net | "[specify value]" |
+| `[DEV_IRR]` | Specify the dev irr | "[specify value]" |
+| `[DEV_MULT]` | Specify the dev mult | "[specify value]" |
+| `[DEV_PROB]` | Specify the dev prob | "[specify value]" |
+| `[PORT_TIME]` | Specify the port time | "[specify value]" |
+| `[PORT_VALUE]` | Specify the port value | "[specify value]" |
+| `[PORT_NET]` | Specify the port net | "[specify value]" |
+| `[PORT_IRR]` | Specify the port irr | "[specify value]" |
+| `[PORT_MULT]` | Specify the port mult | "[specify value]" |
+| `[PORT_PROB]` | Specify the port prob | "[specify value]" |
+| `[RETURN_SCORE]` | Specify the return score | "[specify value]" |
+| `[RETURN_WT]` | Specify the return wt | "[specify value]" |
+| `[RETURN_WEIGHTED]` | Specify the return weighted | "[specify value]" |
+| `[RETURN_BENCH]` | Specify the return bench | "[specify value]" |
+| `[RETURN_DEC]` | Specify the return dec | "[specify value]" |
+| `[RISK_SCORE]` | Specify the risk score | "[specify value]" |
+| `[RISK_WT]` | Specify the risk wt | "[specify value]" |
+| `[RISK_WEIGHTED]` | Specify the risk weighted | "[specify value]" |
+| `[RISK_BENCH]` | Specify the risk bench | "[specify value]" |
+| `[RISK_DEC]` | Specify the risk dec | "[specify value]" |
+| `[TIMING_SCORE]` | Specify the timing score | "[specify value]" |
+| `[TIMING_WT]` | Specify the timing wt | "[specify value]" |
+| `[TIMING_WEIGHTED]` | Specify the timing weighted | "[specify value]" |
+| `[TIMING_BENCH]` | Specify the timing bench | "[specify value]" |
+| `[TIMING_DEC]` | Specify the timing dec | "[specify value]" |
+| `[LOC_SCORE]` | Specify the loc score | "[specify value]" |
+| `[LOC_WT]` | Specify the loc wt | "[specify value]" |
+| `[LOC_WEIGHTED]` | Specify the loc weighted | "[specify value]" |
+| `[LOC_BENCH]` | Specify the loc bench | "[specify value]" |
+| `[LOC_DEC]` | Specify the loc dec | "[specify value]" |
+| `[EXIT_SCORE]` | Specify the exit score | "[specify value]" |
+| `[EXIT_WT]` | Specify the exit wt | "[specify value]" |
+| `[EXIT_WEIGHTED]` | Specify the exit weighted | "[specify value]" |
+| `[EXIT_BENCH]` | Specify the exit bench | "[specify value]" |
+| `[EXIT_DEC]` | Specify the exit dec | "[specify value]" |
+| `[TOTAL_SCORE]` | Specify the total score | "[specify value]" |
+| `[TOTAL_WEIGHTED]` | Specify the total weighted | "[specify value]" |
+| `[TOTAL_BENCH]` | Specify the total bench | "[specify value]" |
+| `[FINAL_DECISION]` | Specify the final decision | "[specify value]" |
+
+
 
 ### 3. Investment Financial Analysis
 
@@ -171,6 +441,33 @@ Financing Structure:
 
 ## Usage Examples
 
+
+
+## Best Practices
+
+1. **Start with clear objectives** - Define what success looks like before beginning
+2. **Use data to inform decisions** - Base choices on evidence and measurable outcomes
+3. **Iterate and improve continuously** - Treat implementation as an ongoing process
+4. **Engage stakeholders early** - Include key participants in planning and execution
+5. **Document thoroughly** - Maintain clear records for reference and knowledge transfer
+6. **Communicate regularly** - Keep all parties informed of progress and changes
+7. **Address challenges proactively** - Identify potential issues before they become problems
+8. **Celebrate milestones** - Recognize achievements to maintain motivation
+9. **Learn from experience** - Reflect on what works and adjust accordingly
+10. **Stay flexible** - Be ready to adapt based on feedback and changing circumstances
+
+## Tips for Success
+
+- Break complex tasks into manageable steps with clear milestones
+- Set realistic timelines that account for dependencies and constraints
+- Allocate sufficient resources including time, budget, and personnel
+- Use templates and frameworks to ensure consistency and quality
+- Seek feedback from users and stakeholders throughout the process
+- Build in checkpoints to assess progress and make adjustments
+- Maintain quality standards while remaining practical and efficient
+- Document lessons learned for future reference and improvement
+- Foster collaboration across teams and departments
+- Stay current with industry best practices and emerging trends
 ### Example 1: Residential Investment
 ```
 Property: 4-unit apartment building

@@ -1,3 +1,18 @@
+---
+title: Referrals and Consultations Template
+category: healthcare/Clinical Practice
+tags: [communication, healthcare, management, template]
+use_cases:
+  - Implementing create comprehensive referral letters, consultation summaries, and specialist co...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - telemedicine-platform-design.md
+  - patient-care-pathway.md
+  - clinical-trials-management.md
+last_updated: 2025-11-09
+---
+
 # Referrals and Consultations Template
 
 ## Purpose
@@ -19,15 +34,15 @@ Demographics:
 - Address: [PATIENT_ADDRESS]
 - Emergency contact: [EMERGENCY_CONTACT_NAME] - Phone: [EMERGENCY_CONTACT_PHONE]
 
-Insurance Information:
+### Insurance Information
 - Primary insurance: [PRIMARY_INSURANCE]
 - Policy number: [POLICY_NUMBER]
 - Authorization required: [AUTHORIZATION_REQUIRED]
 - Prior authorization status: [PRIOR_AUTH_STATUS]
 - Copay information: [COPAY_INFO]
 
-REFERRING PROVIDER:
-Provider Details:
+### REFERRING PROVIDER
+### Provider Details
 - Referring physician: [REFERRING_PHYSICIAN_NAME]
 - Specialty: [REFERRING_SPECIALTY]
 - Institution/Practice: [REFERRING_INSTITUTION]
@@ -36,70 +51,70 @@ Provider Details:
 - Email: [REFERRING_EMAIL]
 - Date of referral: [REFERRAL_DATE]
 
-CONSULTATION REQUEST:
+### CONSULTATION REQUEST
 
-Reason for Referral:
-Primary Concern:
+### Reason for Referral
+### Primary Concern
 "I am referring [PATIENT_NAME] for [PRIMARY_REFERRAL_REASON]. [SPECIFIC_CLINICAL_QUESTION]"
 
-Specific Questions for Consultant:
+### Specific Questions for Consultant
 1. [CONSULTATION_QUESTION_1]
 2. [CONSULTATION_QUESTION_2]  
 3. [CONSULTATION_QUESTION_3]
 4. [CONSULTATION_QUESTION_4]
 
-Urgency Level:
+### Urgency Level
 - Priority: [REFERRAL_PRIORITY] - Routine/Urgent/STAT
 - Timeframe needed: [TIMEFRAME_NEEDED]
 - Clinical justification for urgency: [URGENCY_JUSTIFICATION]
 
-Type of Consultation:
+### Type of Consultation
 - One-time consultation: [ONE_TIME_CONSULT]
 - Ongoing co-management: [ONGOING_COMANAGEMENT]
 - Transfer of care: [TRANSFER_OF_CARE]
 - Second opinion: [SECOND_OPINION]
 - Procedure consultation: [PROCEDURE_CONSULTATION]
 
-CLINICAL HISTORY:
+### CLINICAL HISTORY
 
-History of Present Illness:
+### History of Present Illness
 Chief Complaint: [CHIEF_COMPLAINT]
 Duration: [SYMPTOM_DURATION]
 
-Detailed HPI:
+### Detailed HPI
 [DETAILED_HISTORY_OF_PRESENT_ILLNESS]
 - Onset: [SYMPTOM_ONSET] - Location: [SYMPTOM_LOCATION] - Quality: [SYMPTOM_QUALITY]
 - Severity: [SYMPTOM_SEVERITY] - Timing: [SYMPTOM_TIMING] - Context: [SYMPTOM_CONTEXT]
 - Modifying factors: [MODIFYING_FACTORS] - Associated symptoms: [ASSOCIATED_SYMPTOMS]
 
-Review of Systems:
-Pertinent Positives:
+### Review of Systems
+### Pertinent Positives
 - [ROS_POSITIVE_1]: [ROS_POSITIVE_DETAIL_1]
 - [ROS_POSITIVE_2]: [ROS_POSITIVE_DETAIL_2]  
 - [ROS_POSITIVE_3]: [ROS_POSITIVE_DETAIL_3]
 
-Pertinent Negatives:
+### Pertinent Negatives
 - [ROS_NEGATIVE_1]: [ROS_NEGATIVE_DETAIL_1]
 - [ROS_NEGATIVE_2]: [ROS_NEGATIVE_DETAIL_2]
 - [ROS_NEGATIVE_3]: [ROS_NEGATIVE_DETAIL_3]
 
-Past Medical History:
-Significant Medical Conditions:
+### Past Medical History
+### Significant Medical Conditions
 1. [PMH_CONDITION_1] - Diagnosed: [PMH_DATE_1] - Current status: [PMH_STATUS_1]
 2. [PMH_CONDITION_2] - Diagnosed: [PMH_DATE_2] - Current status: [PMH_STATUS_2]
 3. [PMH_CONDITION_3] - Diagnosed: [PMH_DATE_3] - Current status: [PMH_STATUS_3]
 4. [PMH_CONDITION_4] - Diagnosed: [PMH_DATE_4] - Current status: [PMH_STATUS_4]
 
-Surgical History:
+### Surgical History
 1. [SURGERY_1] - Date: [SURGERY_DATE_1] - Surgeon: [SURGEON_1] - Complications: [SURGERY_COMPLICATIONS_1]
 2. [SURGERY_2] - Date: [SURGERY_DATE_2] - Surgeon: [SURGEON_2] - Complications: [SURGERY_COMPLICATIONS_2]
 3. [SURGERY_3] - Date: [SURGERY_DATE_3] - Surgeon: [SURGEON_3] - Complications: [SURGERY_COMPLICATIONS_3]
 
-Hospitalizations:
+### Hospitalizations
 - [HOSPITALIZATION_1]: [HOSPITAL_REASON_1] - Date: [HOSPITAL_DATE_1] - Duration: [HOSPITAL_DURATION_1]
 - [HOSPITALIZATION_2]: [HOSPITAL_REASON_2] - Date: [HOSPITAL_DATE_2] - Duration: [HOSPITAL_DURATION_2]
 
-Current Medications:
+### Current Medications
 1. [MEDICATION_1] - Dose: [DOSE_1] - Frequency: [FREQUENCY_1] - Start date: [START_DATE_1]
    - Indication: [INDICATION_1] - Response: [RESPONSE_1] - Side effects: [SIDE_EFFECTS_1]
 
@@ -116,21 +131,21 @@ Over-the-counter/Supplements:
 - [OTC_MED_2]: [OTC_DOSE_2] - Purpose: [OTC_PURPOSE_2]
 - [SUPPLEMENT_1]: [SUPPLEMENT_DOSE_1] - Duration: [SUPPLEMENT_DURATION_1]
 
-Allergies:
+### Allergies
 - Drug allergies: [DRUG_ALLERGIES] - Reaction type: [DRUG_REACTION_TYPES]
 - Environmental allergies: [ENVIRONMENTAL_ALLERGIES]
 - Food allergies: [FOOD_ALLERGIES]
 - Latex allergy: [LATEX_ALLERGY]
 
-Family History:
-Relevant Family History:
+### Family History
+### Relevant Family History
 - First-degree relatives: [FIRST_DEGREE_FAMILY_HISTORY]
 - [FAMILY_CONDITION_1]: [FAMILY_RELATIONSHIP_1] - Age of onset: [FAMILY_AGE_1]
 - [FAMILY_CONDITION_2]: [FAMILY_RELATIONSHIP_2] - Age of onset: [FAMILY_AGE_2]
 - [FAMILY_CONDITION_3]: [FAMILY_RELATIONSHIP_3] - Age of onset: [FAMILY_AGE_3]
 - Genetic conditions: [GENETIC_CONDITIONS_FAMILY]
 
-Social History:
+### Social History
 - Occupation: [OCCUPATION] - Occupational exposures: [OCCUPATIONAL_EXPOSURES]
 - Tobacco use: [TOBACCO_HISTORY] - Pack-years: [PACK_YEARS] - Quit date: [QUIT_DATE]
 - Alcohol use: [ALCOHOL_HISTORY] - Quantity: [ALCOHOL_QUANTITY] - Pattern: [ALCOHOL_PATTERN]
@@ -140,9 +155,9 @@ Social History:
 - Living situation: [LIVING_SITUATION] - Support system: [SUPPORT_SYSTEM]
 - Recent travel: [RECENT_TRAVEL] - Destinations: [TRAVEL_DESTINATIONS]
 
-PHYSICAL EXAMINATION:
+### PHYSICAL EXAMINATION
 
-Vital Signs:
+### Vital Signs
 Recent vitals ([VITAL_SIGNS_DATE]):
 - Blood pressure: [BLOOD_PRESSURE] - Orthostatic changes: [ORTHOSTATIC_CHANGES]
 - Heart rate: [HEART_RATE] - Rhythm: [HEART_RHYTHM_DESCRIPTION]
@@ -152,13 +167,13 @@ Recent vitals ([VITAL_SIGNS_DATE]):
 - Pain score: [PAIN_SCORE] - Location: [PAIN_LOCATION]
 - BMI: [BMI] - Height: [HEIGHT] - Weight: [WEIGHT] - Recent weight change: [WEIGHT_CHANGE]
 
-Physical Exam Findings:
-General Appearance:
+### Physical Exam Findings
+### General Appearance
 [GENERAL_APPEARANCE_DESCRIPTION]
 - Mental status: [MENTAL_STATUS] - Affect: [PATIENT_AFFECT]
 - Nutritional status: [NUTRITIONAL_STATUS] - Hydration: [HYDRATION_STATUS]
 
-Pertinent Physical Findings:
+### Pertinent Physical Findings
 System-specific findings relevant to referral:
 - [RELEVANT_SYSTEM_1]: [RELEVANT_FINDINGS_1]
 - [RELEVANT_SYSTEM_2]: [RELEVANT_FINDINGS_2]
@@ -174,21 +189,21 @@ Neurological: [NEUROLOGICAL_FINDINGS]
 Musculoskeletal: [MSK_FINDINGS]
 Skin: [SKIN_FINDINGS]
 
-DIAGNOSTIC WORKUP:
+### DIAGNOSTIC WORKUP
 
-Laboratory Results:
+### Laboratory Results
 Recent Labs ([LAB_DATE]):
-Complete Blood Count:
+### Complete Blood Count
 - WBC: [WBC_COUNT] with differential: [WBC_DIFFERENTIAL]
 - Hemoglobin: [HEMOGLOBIN] - Hematocrit: [HEMATOCRIT]
 - Platelets: [PLATELET_COUNT] - MPV: [MPV]
 
-Basic Metabolic Panel:
+### Basic Metabolic Panel
 - Sodium: [SODIUM] - Potassium: [POTASSIUM] - Chloride: [CHLORIDE]
 - CO2: [CO2] - BUN: [BUN] - Creatinine: [CREATININE] - eGFR: [EGFR]
 - Glucose: [GLUCOSE]
 
-Liver Function Tests:
+### Liver Function Tests
 - ALT: [ALT] - AST: [AST] - Alkaline phosphatase: [ALKALINE_PHOSPHATASE]
 - Total bilirubin: [TOTAL_BILIRUBIN] - Direct bilirubin: [DIRECT_BILIRUBIN]
 - Albumin: [ALBUMIN] - Total protein: [TOTAL_PROTEIN]
@@ -198,7 +213,7 @@ Specialty-Specific Labs:
 - [SPECIALTY_LAB_2]: [LAB_RESULT_2] - Reference range: [LAB_REFERENCE_2] - Significance: [LAB_SIGNIFICANCE_2]
 - [SPECIALTY_LAB_3]: [LAB_RESULT_3] - Reference range: [LAB_REFERENCE_3] - Significance: [LAB_SIGNIFICANCE_3]
 
-Imaging Studies:
+### Imaging Studies
 1. [IMAGING_STUDY_1] - Date: [IMAGING_DATE_1] - Facility: [IMAGING_FACILITY_1]
    Findings: [IMAGING_FINDINGS_1]
    Impression: [IMAGING_IMPRESSION_1]
@@ -210,78 +225,78 @@ Imaging Studies:
 3. [IMAGING_STUDY_3] - Date: [IMAGING_DATE_3]
    Findings: [IMAGING_FINDINGS_3]
 
-Other Diagnostic Tests:
+### Other Diagnostic Tests
 - ECG: [ECG_FINDINGS] - Date: [ECG_DATE] - Interpretation: [ECG_INTERPRETATION]
 - Pulmonary function tests: [PFT_RESULTS] - Date: [PFT_DATE]
 - Endoscopy: [ENDOSCOPY_FINDINGS] - Date: [ENDOSCOPY_DATE]
 - Biopsy results: [BIOPSY_RESULTS] - Date: [BIOPSY_DATE]
 - [OTHER_TEST_1]: [OTHER_TEST_RESULT_1] - Date: [OTHER_TEST_DATE_1]
 
-CLINICAL ASSESSMENT:
+### CLINICAL ASSESSMENT
 
-Current Diagnostic Impression:
-Primary Diagnosis:
+### Current Diagnostic Impression
+### Primary Diagnosis
 [PRIMARY_DIAGNOSIS] - Confidence level: [DIAGNOSIS_CONFIDENCE]
 
-Differential Diagnosis:
+### Differential Diagnosis
 1. [DIFFERENTIAL_1] - Likelihood: [LIKELIHOOD_1] - Supporting evidence: [EVIDENCE_1]
 2. [DIFFERENTIAL_2] - Likelihood: [LIKELIHOOD_2] - Supporting evidence: [EVIDENCE_2]  
 3. [DIFFERENTIAL_3] - Likelihood: [LIKELIHOOD_3] - Supporting evidence: [EVIDENCE_3]
 
-Problem List:
-Active Problems:
+### Problem List
+### Active Problems
 1. [ACTIVE_PROBLEM_1] - Stability: [PROBLEM_STABILITY_1] - Control: [PROBLEM_CONTROL_1]
 2. [ACTIVE_PROBLEM_2] - Stability: [PROBLEM_STABILITY_2] - Control: [PROBLEM_CONTROL_2]
 3. [ACTIVE_PROBLEM_3] - Stability: [PROBLEM_STABILITY_3] - Control: [PROBLEM_CONTROL_3]
 
-Clinical Complexity:
+### Clinical Complexity
 - Comorbidity burden: [COMORBIDITY_BURDEN]
 - Medication interactions: [MEDICATION_INTERACTIONS]
 - Psychosocial factors: [PSYCHOSOCIAL_COMPLEXITY]
 - Functional limitations: [FUNCTIONAL_LIMITATIONS]
 
-CURRENT TREATMENT:
+### CURRENT TREATMENT
 
-Treatment to Date:
-Interventions Tried:
+### Treatment to Date
+### Interventions Tried
 1. [INTERVENTION_1] - Duration: [INTERVENTION_DURATION_1] - Response: [INTERVENTION_RESPONSE_1]
 2. [INTERVENTION_2] - Duration: [INTERVENTION_DURATION_2] - Response: [INTERVENTION_RESPONSE_2]
 3. [INTERVENTION_3] - Duration: [INTERVENTION_DURATION_3] - Response: [INTERVENTION_RESPONSE_3]
 
-Current Treatment Plan:
+### Current Treatment Plan
 - Medications: [CURRENT_TREATMENT_MEDICATIONS]
 - Non-pharmacological: [CURRENT_NONPHARM_TREATMENT]
 - Lifestyle modifications: [CURRENT_LIFESTYLE_MODIFICATIONS]
 - Monitoring parameters: [CURRENT_MONITORING]
 
-Treatment Response:
+### Treatment Response
 - Effectiveness: [TREATMENT_EFFECTIVENESS]
 - Tolerance: [TREATMENT_TOLERANCE]
 - Adherence: [TREATMENT_ADHERENCE]
 - Barriers to treatment: [TREATMENT_BARRIERS]
 
-Failed Treatments:
+### Failed Treatments
 - [FAILED_TREATMENT_1]: Reason for discontinuation: [DISCONTINUATION_REASON_1]
 - [FAILED_TREATMENT_2]: Reason for discontinuation: [DISCONTINUATION_REASON_2]
 - [FAILED_TREATMENT_3]: Reason for discontinuation: [DISCONTINUATION_REASON_3]
 
-SPECIFIC CONSULTATION REQUESTS:
+### SPECIFIC CONSULTATION REQUESTS
 
-Diagnostic Consultation:
-If seeking diagnostic clarification:
+### Diagnostic Consultation
+### If seeking diagnostic clarification
 - Uncertain diagnosis: [UNCERTAIN_DIAGNOSIS]
 - Conflicting findings: [CONFLICTING_FINDINGS]
 - Need for specialized testing: [SPECIALIZED_TESTING_NEEDED]
 - Interpretation of results: [RESULTS_NEEDING_INTERPRETATION]
 
-Treatment Consultation:
-If seeking treatment recommendations:
+### Treatment Consultation
+### If seeking treatment recommendations
 - Treatment failures: [TREATMENT_FAILURES]
 - Complex medication management: [COMPLEX_MEDICATION_ISSUES]
 - Procedure consideration: [PROCEDURE_CONSIDERATIONS]
 - Risk-benefit analysis needed: [RISK_BENEFIT_QUESTIONS]
 
-Procedural Consultation:
+### Procedural Consultation
 If procedure-related:
 - Procedure being considered: [PROCEDURE_UNDER_CONSIDERATION]
 - Indications: [PROCEDURE_INDICATIONS]
@@ -289,66 +304,66 @@ If procedure-related:
 - Alternative approaches: [PROCEDURE_ALTERNATIVES]
 
 Co-management Request:
-If ongoing collaboration needed:
+### If ongoing collaboration needed
 - Shared care responsibilities: [SHARED_CARE_RESPONSIBILITIES]
 - Frequency of specialist involvement: [SPECIALIST_INVOLVEMENT_FREQUENCY]
 - Communication preferences: [COMMUNICATION_PREFERENCES]
 - Long-term care planning: [LONG_TERM_CARE_PLANNING]
 
-PATIENT FACTORS:
+### PATIENT FACTORS
 
-Patient Preferences:
+### Patient Preferences
 - Treatment preferences: [PATIENT_TREATMENT_PREFERENCES]
 - Quality of life priorities: [QOL_PRIORITIES]
 - Risk tolerance: [PATIENT_RISK_TOLERANCE]
 - Cultural considerations: [CULTURAL_FACTORS_AFFECTING_CARE]
 - Religious considerations: [RELIGIOUS_FACTORS_AFFECTING_CARE]
 
-Functional Status:
+### Functional Status
 - Activities of daily living: [ADL_STATUS]
 - Instrumental ADLs: [IADL_STATUS]
 - Mobility status: [MOBILITY_STATUS]
 - Cognitive function: [COGNITIVE_STATUS]
 - Social functioning: [SOCIAL_FUNCTIONING]
 
-Psychosocial Factors:
+### Psychosocial Factors
 - Mental health status: [MENTAL_HEALTH_STATUS]
 - Social support: [SOCIAL_SUPPORT_ASSESSMENT]
 - Economic factors: [ECONOMIC_FACTORS]
 - Transportation issues: [TRANSPORTATION_BARRIERS]
 - Language barriers: [LANGUAGE_BARRIERS]
 
-Health Literacy:
+### Health Literacy
 - Understanding of condition: [CONDITION_UNDERSTANDING]
 - Medication management ability: [MEDICATION_MANAGEMENT_ABILITY]
 - Health navigation skills: [HEALTH_NAVIGATION_SKILLS]
 - Education needs: [PATIENT_EDUCATION_NEEDS]
 
-LOGISTICAL INFORMATION:
+### LOGISTICAL INFORMATION
 
-Scheduling Preferences:
+### Scheduling Preferences
 - Preferred appointment times: [PREFERRED_APPOINTMENT_TIMES]
 - Day preferences: [DAY_PREFERENCES]
 - Location preferences: [LOCATION_PREFERENCES]
 - Advance notice needed: [ADVANCE_NOTICE_NEEDED]
 
-Special Accommodations:
+### Special Accommodations
 - Mobility accommodations: [MOBILITY_ACCOMMODATIONS]
 - Language interpreter: [INTERPRETER_NEEDS] - Language: [INTERPRETER_LANGUAGE]
 - Hearing accommodations: [HEARING_ACCOMMODATIONS]
 - Visual accommodations: [VISUAL_ACCOMMODATIONS]
 - Cognitive accommodations: [COGNITIVE_ACCOMMODATIONS]
 
-Communication Needs:
+### Communication Needs
 - Preferred communication method: [PREFERRED_COMMUNICATION_METHOD]
 - Family involvement: [FAMILY_INVOLVEMENT_PREFERENCES]
 - Healthcare proxy: [HEALTHCARE_PROXY] - Contact: [PROXY_CONTACT]
 - Emergency contact: [EMERGENCY_CONTACT_DETAILED]
 
-DOCUMENTATION AND COORDINATION:
+### DOCUMENTATION AND COORDINATION
 
-Records Available:
-Documents Being Sent:
+### Records Available
+### Documents Being Sent
 - Complete medical records: [COMPLETE_RECORDS_STATUS]
 - Recent lab results: [LAB_RESULTS_INCLUDED]
 - Imaging studies: [IMAGING_INCLUDED] - Format: [IMAGING_FORMAT]
@@ -356,12 +371,12 @@ Documents Being Sent:
 - Previous consultation reports: [PREVIOUS_CONSULTS_INCLUDED]
 - Medication list: [MEDICATION_LIST_INCLUDED]
 
-Additional Records Available:
+### Additional Records Available
 - [ADDITIONAL_RECORD_1]: Location [RECORD_LOCATION_1] - Contact: [RECORD_CONTACT_1]
 - [ADDITIONAL_RECORD_2]: Location [RECORD_LOCATION_2] - Contact: [RECORD_CONTACT_2]
 
-Communication Expectations:
-Report Preferences:
+### Communication Expectations
+### Report Preferences
 - Consultation report timing: [REPORT_TIMING_PREFERENCE]
 - Report format preference: [REPORT_FORMAT_PREFERENCE]
 - Key information needed: [KEY_INFORMATION_NEEDED]
@@ -373,44 +388,44 @@ Follow-up Plans:
 - Return to referring provider: [RETURN_TO_REFERRING_PLAN]
 - Frequency of updates: [UPDATE_FREQUENCY_PREFERENCE]
 
-QUALITY AND SAFETY:
+### QUALITY AND SAFETY
 
-Safety Considerations:
-Risk Factors:
+### Safety Considerations
+### Risk Factors
 - High-risk medications: [HIGH_RISK_MEDICATIONS]
 - Contraindications: [CONTRAINDICATIONS_TO_CONSIDER]
 - Drug interactions: [DRUG_INTERACTIONS_CONCERN]
 - Allergy considerations: [ALLERGY_CONSIDERATIONS]
 
-Risk Stratification:
+### Risk Stratification
 - Overall risk level: [OVERALL_RISK_LEVEL]
 - Specific risks: [SPECIFIC_RISKS_LIST]
 - Risk mitigation strategies: [RISK_MITIGATION_STRATEGIES]
 - Monitoring requirements: [SAFETY_MONITORING_REQUIREMENTS]
 
-Quality Measures:
+### Quality Measures
 - Relevant quality indicators: [RELEVANT_QUALITY_INDICATORS]
 - Performance measures: [PERFORMANCE_MEASURES_RELEVANT]
 - Outcome metrics to track: [OUTCOME_METRICS_TO_TRACK]
 
-REFERRAL SUMMARY AND REQUEST:
+### REFERRAL SUMMARY AND REQUEST
 
-Primary Request Summary:
+### Primary Request Summary
 "In summary, I am referring [PATIENT_NAME] for [CONSULTATION_SUMMARY_REQUEST] due to [REFERRAL_JUSTIFICATION]. Specifically, I would like your expertise regarding [SPECIFIC_EXPERTISE_REQUEST]."
 
-Expected Outcomes:
+### Expected Outcomes
 - Diagnostic clarification: [DIAGNOSTIC_CLARIFICATION_EXPECTED]
 - Treatment recommendations: [TREATMENT_RECOMMENDATIONS_EXPECTED]  
 - Procedural evaluation: [PROCEDURAL_EVALUATION_EXPECTED]
 - Long-term management plan: [LONG_TERM_MANAGEMENT_EXPECTED]
 
-Timeline:
+### Timeline
 - Consultation needed by: [CONSULTATION_NEEDED_BY]
 - Follow-up expectations: [FOLLOWUP_EXPECTATIONS]
 - Report needed by: [REPORT_NEEDED_BY]
 
-Contact Information:
-For questions regarding this referral:
+### Contact Information
+### For questions regarding this referral
 - Primary contact: [PRIMARY_CONTACT_PERSON]
 - Phone: [PRIMARY_CONTACT_PHONE]
 - Email: [PRIMARY_CONTACT_EMAIL]
@@ -427,7 +442,7 @@ Date: [REFERRAL_COMPLETION_DATE]
 
 ---
 
-Referral Checklist:
+### Referral Checklist
 ✓ Patient demographics complete: [DEMOGRAPHICS_COMPLETE]
 ✓ Clinical history comprehensive: [HISTORY_COMPLETE]
 ✓ Diagnostic workup included: [WORKUP_COMPLETE]
@@ -444,6 +459,33 @@ Referral quality: [REFERRAL_QUALITY_RATING]
 
 ## Usage Examples
 
+
+
+## Best Practices
+
+1. **Start with clear objectives** - Define what success looks like before beginning
+2. **Use data to inform decisions** - Base choices on evidence and measurable outcomes
+3. **Iterate and improve continuously** - Treat implementation as an ongoing process
+4. **Engage stakeholders early** - Include key participants in planning and execution
+5. **Document thoroughly** - Maintain clear records for reference and knowledge transfer
+6. **Communicate regularly** - Keep all parties informed of progress and changes
+7. **Address challenges proactively** - Identify potential issues before they become problems
+8. **Celebrate milestones** - Recognize achievements to maintain motivation
+9. **Learn from experience** - Reflect on what works and adjust accordingly
+10. **Stay flexible** - Be ready to adapt based on feedback and changing circumstances
+
+## Tips for Success
+
+- Break complex tasks into manageable steps with clear milestones
+- Set realistic timelines that account for dependencies and constraints
+- Allocate sufficient resources including time, budget, and personnel
+- Use templates and frameworks to ensure consistency and quality
+- Seek feedback from users and stakeholders throughout the process
+- Build in checkpoints to assess progress and make adjustments
+- Maintain quality standards while remaining practical and efficient
+- Document lessons learned for future reference and improvement
+- Foster collaboration across teams and departments
+- Stay current with industry best practices and emerging trends
 ### Example 1: Cardiology Referral
 ```
 REFERRAL_TYPE: "Urgent cardiology consultation"

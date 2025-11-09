@@ -1,3 +1,18 @@
+---
+title: Health Policy & Advocacy Template
+category: healthcare/Public Health
+tags: [communication, data-science, design, healthcare, marketing, research, strategy, template]
+use_cases:
+  - Implementing create comprehensive health policy proposals, advocacy campaigns, legislative st...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - telemedicine-platform-design.md
+  - patient-care-pathway.md
+  - clinical-trials-management.md
+last_updated: 2025-11-09
+---
+
 # Health Policy & Advocacy Template
 
 ## Purpose
@@ -17,22 +32,22 @@ Initiative Information:
 - Timeline: [POLICY_TIMELINE]
 - Resources available: [AVAILABLE_RESOURCES]
 
-Leadership Structure:
+### Leadership Structure
 - Policy Director: [POLICY_DIRECTOR]
 - Advocacy Coordinator: [ADVOCACY_COORD]
 - Coalition Leader: [COALITION_LEADER]
 - Communications Lead: [COMM_LEAD]
 - Research Director: [RESEARCH_DIR]
 
-Policy Objectives:
+### Policy Objectives
 - Primary goal: [PRIMARY_POLICY_GOAL]
 - Secondary objectives: [SECONDARY_OBJECTIVES]
 - Success metrics: [SUCCESS_METRICS]
 - Long-term vision: [LONG_TERM_VISION]
 
-POLICY ANALYSIS:
+### POLICY ANALYSIS
 
-Problem Definition:
+### Problem Definition
 ```
 POLICY PROBLEM STATEMENT:
 
@@ -45,7 +60,7 @@ Social equity      | [EQUITY_CURR]| [EQUITY_DES]  | [EQUITY_GAP] | [EQUITY_EVID]
 System capacity    | [SYSTEM_CURR]| [SYSTEM_DES]  | [SYSTEM_GAP] | [SYSTEM_EVID]
 Political context  | [POLIT_CURR] | [POLIT_DES]   | [POLIT_GAP]  | [POLIT_EVID]
 
-Root Cause Analysis:
+### Root Cause Analysis
 Contributing Factor | Impact Level | Modifiable | Policy Lever | Priority
 --------------------|-------------|------------|--------------|----------
 [FACTOR_1]          | [IMPACT_1]  | [MOD_1]    | [LEVER_1]    | [PRIOR_1]
@@ -53,7 +68,7 @@ Contributing Factor | Impact Level | Modifiable | Policy Lever | Priority
 [FACTOR_3]          | [IMPACT_3]  | [MOD_3]    | [LEVER_3]    | [PRIOR_3]
 [FACTOR_4]          | [IMPACT_4]  | [MOD_4]    | [LEVER_4]    | [PRIOR_4]
 
-Stakeholder Impact:
+### Stakeholder Impact
 Stakeholder Group   | Current Impact | Policy Impact | Position | Influence
 --------------------|---------------|---------------|----------|----------
 [STAKEHOLDER_1]     | [CURR_IMP_1]  | [POL_IMP_1]   | [POS_1]  | [INF_1]
@@ -64,9 +79,9 @@ Stakeholder Group   | Current Impact | Policy Impact | Position | Influence
 
 Policy Landscape:
 ```
-CURRENT POLICY ENVIRONMENT:
+### CURRENT POLICY ENVIRONMENT
 
-Existing Policies:
+### Existing Policies
 Policy/Law          | Jurisdiction | Provisions | Effectiveness | Gaps
 --------------------|-------------|------------|---------------|------
 [POLICY_1]          | [JURIS_1]   | [PROV_1]   | [EFF_1]       | [GAP_1]
@@ -74,14 +89,14 @@ Policy/Law          | Jurisdiction | Provisions | Effectiveness | Gaps
 [POLICY_3]          | [JURIS_3]   | [PROV_3]   | [EFF_3]       | [GAP_3]
 [POLICY_4]          | [JURIS_4]   | [PROV_4]   | [EFF_4]       | [GAP_4]
 
-Best Practices:
+### Best Practices
 Jurisdiction        | Policy Model | Outcomes | Transferability | Lessons
 --------------------|-------------|----------|-----------------|----------
 [BEST_JURIS_1]      | [MODEL_1]   | [OUT_1]  | [TRANS_1]       | [LESS_1]
 [BEST_JURIS_2]      | [MODEL_2]   | [OUT_2]  | [TRANS_2]       | [LESS_2]
 [BEST_JURIS_3]      | [MODEL_3]   | [OUT_3]  | [TRANS_3]       | [LESS_3]
 
-Political Feasibility:
+### Political Feasibility
 Factor              | Assessment | Opportunities | Challenges | Strategy
 --------------------|-----------|---------------|------------|----------
 Legislative climate | [LEG_ASSESS]| [LEG_OPP]   | [LEG_CHAL] | [LEG_STRAT]
@@ -94,9 +109,9 @@ POLICY DEVELOPMENT:
 
 Policy Options:
 ```
-POLICY ALTERNATIVES:
+### POLICY ALTERNATIVES
 
-Option Analysis:
+### Option Analysis
 Policy Option       | Description | Pros | Cons | Cost | Political Viability
 --------------------|------------|------|------|------|--------------------
 [OPTION_1]          | [DESC_1]   | [PRO_1]| [CON_1]| $[COST_1]| [VIAB_1]
@@ -104,7 +119,7 @@ Policy Option       | Description | Pros | Cons | Cost | Political Viability
 [OPTION_3]          | [DESC_3]   | [PRO_3]| [CON_3]| $[COST_3]| [VIAB_3]
 [OPTION_4]          | [DESC_4]   | [PRO_4]| [CON_4]| $[COST_4]| [VIAB_4]
 
-Recommended Approach:
+### Recommended Approach
 Component           | Specification | Rationale | Implementation | Timeline
 --------------------|--------------|-----------|----------------|----------
 Core provisions     | [CORE_SPEC]  | [CORE_RAT]| [CORE_IMPL]    | [CORE_TIME]
@@ -116,9 +131,9 @@ Evaluation          | [EVAL_SPEC]  | [EVAL_RAT]| [EVAL_IMPL]    | [EVAL_TIME]
 
 Legislative Strategy:
 ```
-LEGISLATIVE APPROACH:
+### LEGISLATIVE APPROACH
 
-Bill Development:
+### Bill Development
 Element             | Content | Sponsor | Committee | Timeline
 --------------------|---------|---------|-----------|----------
 Bill title          | [TITLE] | [SPONSOR]| [COMMITTEE]| [BILL_TIME]
@@ -126,7 +141,7 @@ Key provisions      | [PROVISIONS]| [CO_SPONSORS]| [SUBCOMM]| [PROV_TIME]
 Funding authorization| [FUNDING]| [CHAMPIONS]| [APPROPS]| [FUND_TIME]
 Implementation      | [IMPLEMENT]| [SUPPORT]| [OVERSIGHT]| [IMPL_TIME]
 
-Legislative Calendar:
+### Legislative Calendar
 Milestone           | Target Date | Preparation | Responsible | Status
 --------------------|------------|-------------|-------------|--------
 Bill introduction   | [INTRO_DATE]| [INTRO_PREP]| [INTRO_RESP]| [INTRO_STAT]
@@ -141,7 +156,7 @@ STAKEHOLDER ENGAGEMENT:
 
 Stakeholder Mapping:
 ```
-STAKEHOLDER ANALYSIS:
+### STAKEHOLDER ANALYSIS
 
 Power-Interest Grid:
 Stakeholder         | Power Level | Interest Level | Engagement Strategy | Priority
@@ -151,7 +166,7 @@ Stakeholder         | Power Level | Interest Level | Engagement Strategy | Prior
 [LOW_POWER_HIGH_INT_1] | Low     | High           | [KEEP_INFORMED]    | Supportive
 [LOW_POWER_LOW_INT_1]  | Low     | Low            | [MONITOR]          | Low
 
-Champion Development:
+### Champion Development
 Champion Type       | Current Champions | Potential | Recruitment Strategy | Role
 --------------------|------------------|-----------|---------------------|------
 Legislative         | [LEG_CHAMPS]     | [LEG_POT] | [LEG_RECRUIT]       | [LEG_ROLE]
@@ -160,7 +175,7 @@ Community           | [COMM_CHAMPS]    | [COMM_POT]| [COMM_RECRUIT]      | [COMM
 Business            | [BUS_CHAMPS]     | [BUS_POT] | [BUS_RECRUIT]       | [BUS_ROLE]
 Healthcare          | [HC_CHAMPS]      | [HC_POT]  | [HC_RECRUIT]        | [HC_ROLE]
 
-Opposition Analysis:
+### Opposition Analysis
 Opponent            | Concerns | Influence | Counter-Strategy | Mitigation
 --------------------|----------|-----------|------------------|------------
 [OPPONENT_1]        | [CONC_1] | [INF_1]   | [COUNTER_1]      | [MIT_1]
@@ -170,9 +185,9 @@ Opponent            | Concerns | Influence | Counter-Strategy | Mitigation
 
 Coalition Building:
 ```
-COALITION DEVELOPMENT:
+### COALITION DEVELOPMENT
 
-Coalition Structure:
+### Coalition Structure
 Organization        | Role | Resources | Commitment | Contribution
 --------------------|------|-----------|------------|-------------
 [LEAD_ORG]          | Lead | [LEAD_RES]| [LEAD_COM] | [LEAD_CONT]
@@ -181,7 +196,7 @@ Organization        | Role | Resources | Commitment | Contribution
 [PARTNER_3]         | [ROLE_3]| [RES_3]| [COM_3]    | [CONT_3]
 [PARTNER_4]         | [ROLE_4]| [RES_4]| [COM_4]    | [CONT_4]
 
-Coalition Activities:
+### Coalition Activities
 Activity            | Frequency | Participants | Objectives | Outcomes
 --------------------|-----------|-------------|------------|----------
 Strategy meetings   | [STRAT_FREQ]| [STRAT_PART]| [STRAT_OBJ]| [STRAT_OUT]
@@ -195,9 +210,9 @@ ADVOCACY CAMPAIGNS:
 
 Campaign Strategy:
 ```
-ADVOCACY FRAMEWORK:
+### ADVOCACY FRAMEWORK
 
-Campaign Elements:
+### Campaign Elements
 Element             | Strategy | Tactics | Timeline | Metrics
 --------------------|----------|---------|----------|----------
 Grassroots mobilization| [GRASS_STRAT]| [GRASS_TACT]| [GRASS_TIME]| [GRASS_MET]
@@ -206,7 +221,7 @@ Media advocacy      | [MED_STRAT]  | [MED_TACT]  | [MED_TIME]  | [MED_MET]
 Digital campaign    | [DIG_STRAT]  | [DIG_TACT]  | [DIG_TIME]  | [DIG_MET]
 Direct lobbying     | [LOB_STRAT]  | [LOB_TACT]  | [LOB_TIME]  | [LOB_MET]
 
-Action Alerts:
+### Action Alerts
 Alert Type          | Frequency | Distribution | Response Rate | Impact
 --------------------|-----------|-------------|---------------|--------
 Email campaigns     | [EMAIL_FREQ]| [EMAIL_DIST]| [EMAIL_RESP]%| [EMAIL_IMP]
@@ -215,7 +230,7 @@ Social media        | [SOC_FREQ]  | [SOC_DIST]  | [SOC_RESP]%  | [SOC_IMP]
 Petition drives     | [PET_FREQ]  | [PET_DIST]  | [PET_RESP]%  | [PET_IMP]
 Letter writing      | [LET_FREQ]  | [LET_DIST]  | [LET_RESP]%  | [LET_IMP]
 
-Advocacy Tools:
+### Advocacy Tools
 Tool                | Development | Distribution | Training | Usage
 --------------------|------------|-------------|----------|-------
 Fact sheets         | [FACT_DEV] | [FACT_DIST] | [FACT_TRAIN]| [FACT_USE]
@@ -227,9 +242,9 @@ Story bank          | [STORY_DEV]| [STORY_DIST]| [STORY_TRAIN]| [STORY_USE]
 
 Grassroots Mobilization:
 ```
-COMMUNITY ORGANIZING:
+### COMMUNITY ORGANIZING
 
-Organizing Structure:
+### Organizing Structure
 Level               | Organizers | Volunteers | Activities | Reach
 --------------------|-----------|------------|------------|-------
 National            | [NAT_ORG] | [NAT_VOL]  | [NAT_ACT]  | [NAT_REACH]
@@ -237,7 +252,7 @@ State               | [STATE_ORG]| [STATE_VOL]| [STATE_ACT]| [STATE_REACH]
 Regional            | [REG_ORG] | [REG_VOL]  | [REG_ACT]  | [REG_REACH]
 Local               | [LOC_ORG] | [LOC_VOL]  | [LOC_ACT]  | [LOC_REACH]
 
-Mobilization Events:
+### Mobilization Events
 Event Type          | Number Planned | Attendance Goal | Media Coverage | Impact
 --------------------|---------------|-----------------|----------------|--------
 Town halls          | [TOWN_NUM]    | [TOWN_ATT]      | [TOWN_MED]     | [TOWN_IMP]
@@ -250,9 +265,9 @@ COMMUNICATIONS:
 
 Messaging Strategy:
 ```
-MESSAGE DEVELOPMENT:
+### MESSAGE DEVELOPMENT
 
-Core Messages:
+### Core Messages
 Audience            | Primary Message | Supporting Points | Messenger | Testing
 --------------------|----------------|-------------------|-----------|----------
 General public      | [PUB_MSG]      | [PUB_POINTS]      | [PUB_MESS]| [PUB_TEST]
@@ -261,7 +276,7 @@ Media               | [MED_MSG]      | [MED_POINTS]      | [MED_MESS]| [MED_TEST
 Coalition partners  | [COAL_MSG]     | [COAL_POINTS]     | [COAL_MESS]| [COAL_TEST]
 Opposition          | [OPP_MSG]      | [OPP_POINTS]      | [OPP_MESS]| [OPP_TEST]
 
-Framing Strategy:
+### Framing Strategy
 Frame Type          | Application | Examples | Effectiveness | Usage
 --------------------|------------|----------|---------------|-------
 Values-based        | [VAL_APP]  | [VAL_EX] | [VAL_EFF]     | [VAL_USE]
@@ -273,9 +288,9 @@ Evidence-based      | [EVID_APP] | [EVID_EX]| [EVID_EFF]    | [EVID_USE]
 
 Media Relations:
 ```
-MEDIA STRATEGY:
+### MEDIA STRATEGY
 
-Media Targets:
+### Media Targets
 Outlet Type         | Priority Outlets | Reporter Contacts | Coverage | Tone
 --------------------|-----------------|-------------------|----------|------
 National media      | [NAT_OUTLETS]   | [NAT_CONTACTS]    | [NAT_COV]| [NAT_TONE]
@@ -284,7 +299,7 @@ Local media         | [LOC_OUTLETS]   | [LOC_CONTACTS]    | [LOC_COV]| [LOC_TONE
 Trade press         | [TRADE_OUTLETS] | [TRADE_CONTACTS]  | [TRADE_COV]| [TRADE_TONE]
 Digital media       | [DIG_OUTLETS]   | [DIG_CONTACTS]    | [DIG_COV]| [DIG_TONE]
 
-Media Activities:
+### Media Activities
 Activity            | Frequency | Preparation | Distribution | Results
 --------------------|-----------|-------------|-------------|----------
 Press releases      | [PRESS_FREQ]| [PRESS_PREP]| [PRESS_DIST]| [PRESS_RES]
@@ -296,9 +311,9 @@ Editorial boards    | [ED_FREQ]   | [ED_PREP]   | [ED_DIST]   | [ED_RES]
 
 Digital Advocacy:
 ```
-DIGITAL STRATEGY:
+### DIGITAL STRATEGY
 
-Online Platforms:
+### Online Platforms
 Platform            | Followers | Engagement Rate | Content Types | Frequency
 --------------------|----------|-----------------|---------------|----------
 Website             | [WEB_FOLL]| [WEB_ENG]%      | [WEB_CONT]    | [WEB_FREQ]
@@ -308,7 +323,7 @@ Instagram           | [IG_FOLL] | [IG_ENG]%       | [IG_CONT]     | [IG_FREQ]
 LinkedIn            | [LI_FOLL] | [LI_ENG]%       | [LI_CONT]     | [LI_FREQ]
 TikTok              | [TT_FOLL] | [TT_ENG]%       | [TT_CONT]     | [TT_FREQ]
 
-Digital Campaigns:
+### Digital Campaigns
 Campaign            | Goal | Tactics | Timeline | Metrics | Results
 --------------------|------|---------|----------|---------|----------
 [CAMPAIGN_1]        | [GOAL_1]| [TACT_1]| [TIME_1]| [MET_1]| [RES_1]
@@ -320,9 +335,9 @@ RESEARCH & EVIDENCE:
 
 Policy Research:
 ```
-EVIDENCE BASE:
+### EVIDENCE BASE
 
-Research Activities:
+### Research Activities
 Research Type       | Purpose | Methods | Timeline | Deliverables
 --------------------|---------|---------|----------|-------------
 Literature review   | [LIT_PURP]| [LIT_METH]| [LIT_TIME]| [LIT_DELIV]
@@ -331,7 +346,7 @@ Health impact assessment| [HIA_PURP]| [HIA_METH]| [HIA_TIME]| [HIA_DELIV]
 Public opinion research| [PUB_PURP]| [PUB_METH]| [PUB_TIME]| [PUB_DELIV]
 Case studies        | [CASE_PURP]| [CASE_METH]| [CASE_TIME]| [CASE_DELIV]
 
-Data Collection:
+### Data Collection
 Data Source         | Type | Frequency | Analysis | Dissemination
 --------------------|------|-----------|----------|---------------
 Government data     | [GOV_TYPE]| [GOV_FREQ]| [GOV_ANAL]| [GOV_DISS]
@@ -339,7 +354,7 @@ Academic research   | [ACAD_TYPE]| [ACAD_FREQ]| [ACAD_ANAL]| [ACAD_DISS]
 Community data      | [COMM_TYPE]| [COMM_FREQ]| [COMM_ANAL]| [COMM_DISS]
 Partner data        | [PART_TYPE]| [PART_FREQ]| [PART_ANAL]| [PART_DISS]
 
-Evidence Translation:
+### Evidence Translation
 - Policy briefs: [POLICY_BRIEFS]
 - Fact sheets: [FACT_SHEETS]
 - Infographics: [INFOGRAPHICS]
@@ -351,9 +366,9 @@ IMPLEMENTATION SUPPORT:
 
 Implementation Planning:
 ```
-POLICY IMPLEMENTATION:
+### POLICY IMPLEMENTATION
 
-Implementation Framework:
+### Implementation Framework
 Phase               | Timeline | Key Activities | Responsible | Resources
 --------------------|----------|---------------|-------------|----------
 Rule-making         | [RULE_TIME]| [RULE_ACT]  | [RULE_RESP] | [RULE_RES]
@@ -362,7 +377,7 @@ Training/TA         | [TRAIN_TIME]| [TRAIN_ACT]| [TRAIN_RESP]| [TRAIN_RES]
 Rollout             | [ROLL_TIME]| [ROLL_ACT]  | [ROLL_RESP] | [ROLL_RES]
 Monitoring          | [MON_TIME] | [MON_ACT]   | [MON_RESP]  | [MON_RES]
 
-Technical Assistance:
+### Technical Assistance
 TA Type             | Recipients | Delivery Method | Frequency | Evaluation
 --------------------|-----------|-----------------|-----------|------------
 Regulatory guidance | [REG_RECIP]| [REG_DELIV]    | [REG_FREQ]| [REG_EVAL]
@@ -375,9 +390,9 @@ MONITORING & EVALUATION:
 
 Policy Tracking:
 ```
-POLICY MONITORING:
+### POLICY MONITORING
 
-Legislative Tracking:
+### Legislative Tracking
 Bill/Policy         | Status | Committee | Next Action | Probability
 --------------------|--------|-----------|-------------|------------
 [BILL_1]            | [STAT_1]| [COMM_1] | [NEXT_1]    | [PROB_1]%
@@ -385,7 +400,7 @@ Bill/Policy         | Status | Committee | Next Action | Probability
 [BILL_3]            | [STAT_3]| [COMM_3] | [NEXT_3]    | [PROB_3]%
 [BILL_4]            | [STAT_4]| [COMM_4] | [NEXT_4]    | [PROB_4]%
 
-Vote Tracking:
+### Vote Tracking
 Legislator          | Position | Vote History | Meetings | Follow-up
 --------------------|----------|-------------|----------|----------
 [LEGISLATOR_1]      | [POS_1]  | [VOTE_1]    | [MEET_1] | [FOLLOW_1]
@@ -395,9 +410,9 @@ Legislator          | Position | Vote History | Meetings | Follow-up
 
 Impact Assessment:
 ```
-OUTCOME EVALUATION:
+### OUTCOME EVALUATION
 
-Success Metrics:
+### Success Metrics
 Metric              | Baseline | Target | Current | Progress | Next Steps
 --------------------|----------|--------|---------|----------|------------
 Policy adoption     | [POL_BASE]| [POL_TAR]| [POL_CUR]| [POL_PROG]| [POL_NEXT]
@@ -418,9 +433,9 @@ SUSTAINABILITY:
 
 Sustaining Change:
 ```
-SUSTAINABILITY STRATEGY:
+### SUSTAINABILITY STRATEGY
 
-Institutionalization:
+### Institutionalization
 Element             | Current State | Goal State | Strategy | Timeline
 --------------------|--------------|------------|----------|----------
 Funding security    | [FUND_CURR]  | [FUND_GOAL]| [FUND_STR]| [FUND_TIME]
@@ -429,7 +444,7 @@ Workforce capacity  | [WORK_CURR]  | [WORK_GOAL]| [WORK_STR]| [WORK_TIME]
 Political support   | [POL_CURR]   | [POL_GOAL] | [POL_STR] | [POL_TIME]
 Public engagement   | [PUB_CURR]   | [PUB_GOAL] | [PUB_STR] | [PUB_TIME]
 
-Continuous Advocacy:
+### Continuous Advocacy
 - Monitoring systems: [MONITORING_SYSTEMS]
 - Rapid response capacity: [RAPID_RESPONSE]
 - Coalition maintenance: [COALITION_MAINTENANCE]
@@ -448,7 +463,7 @@ Success Probability: [SUCCESS_PROBABILITY]%
 
 ---
 
-Policy & Advocacy Summary:
+### Policy & Advocacy Summary
 - Policy goal: [POLICY_GOAL]
 - Coalition partners: [COALITION_SIZE]
 - Decision makers engaged: [DECISION_MAKERS_ENGAGED]

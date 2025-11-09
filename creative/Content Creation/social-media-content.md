@@ -1,3 +1,17 @@
+---
+title: Social Media Content Template
+category: creative/Content Creation
+tags: [creative, design, documentation, management, marketing, optimization, strategy, template]
+use_cases:
+  - Implementing create engaging social media content including posts, campaigns, and engagement ...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - creative-writing-framework.md
+  - video-production-pipeline.md
+last_updated: 2025-11-09
+---
+
 # Social Media Content Template
 
 ## Purpose
@@ -98,6 +112,53 @@ Engagement Strategy:
 - Plan respond within 2 hours response strategy for community management
 - Cross-promote with TikTok videos, LinkedIn articles cross platform strategy
 ```
+
+## Variables
+
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `{platform}` | Specify the platform | "[specify value]" |
+| `{content_type}` | Specify the content type | "Standard" |
+| `{campaign_name}` | Specify the campaign name | "John Smith" |
+| `{content_objective}` | Specify the content objective | "Increase efficiency by 30%" |
+| `{social_target_audience}` | Specify the social target audience | "[specify value]" |
+| `{brand_voice}` | Specify the brand voice | "[specify value]" |
+| `{content_pillars}` | Specify the content pillars | "[specify value]" |
+| `{posting_schedule}` | Specify the posting schedule | "[specify value]" |
+| `{social_budget}` | Specify the social budget | "$500,000" |
+| `{social_kpis}` | Specify the social kpis | "[specify value]" |
+| `{content_theme}` | Specify the content theme | "[specify value]" |
+| `{key_message}` | Specify the key message | "[specify value]" |
+| `{value_proposition}` | Specify the value proposition | "[specify value]" |
+| `{content_format}` | Specify the content format | "[specify value]" |
+| `{visual_style}` | Specify the visual style | "[specify value]" |
+| `{hashtag_strategy}` | Specify the hashtag strategy | "[specify value]" |
+| `{engagement_tactics}` | Specify the engagement tactics | "[specify value]" |
+| `{social_cta}` | Specify the social cta | "[specify value]" |
+| `{cross_platform_strategy}` | Specify the cross platform strategy | "[specify value]" |
+| `{content_series}` | Specify the content series | "[specify value]" |
+| `{character_limits}` | Specify the character limits | "[specify value]" |
+| `{image_specs}` | Specify the image specs | "[specify value]" |
+| `{video_requirements}` | Specify the video requirements | "[specify value]" |
+| `{optimal_posting_times}` | Specify the optimal posting times | "[specify value]" |
+| `{platform_features}` | Specify the platform features | "[specify value]" |
+| `{algorithm_considerations}` | Specify the algorithm considerations | "[specify value]" |
+| `{trending_topics}` | Specify the trending topics | "[specify value]" |
+| `{platform_language}` | Specify the platform language | "[specify value]" |
+| `{community_guidelines}` | Specify the community guidelines | "[specify value]" |
+| `{accessibility_features}` | Specify the accessibility features | "[specify value]" |
+| `{engagement_goals}` | Specify the engagement goals | "Increase efficiency by 30%" |
+| `{community_management}` | Specify the community management | "[specify value]" |
+| `{response_strategy}` | Specify the response strategy | "[specify value]" |
+| `{user_generated_content}` | Specify the user generated content | "[specify value]" |
+| `{influencer_collaboration}` | Specify the influencer collaboration | "[specify value]" |
+| `{contest_strategy}` | Specify the contest strategy | "[specify value]" |
+| `{polling_strategy}` | Specify the polling strategy | "[specify value]" |
+| `{live_content}` | Specify the live content | "[specify value]" |
+| `{story_strategy}` | Specify the story strategy | "[specify value]" |
+| `{comment_moderation}` | Specify the comment moderation | "[specify value]" |
+
+
 
 ## Best Practices
 

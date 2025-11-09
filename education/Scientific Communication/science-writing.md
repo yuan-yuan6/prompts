@@ -1,3 +1,17 @@
+---
+title: Science Writing for Popular Audiences Template
+category: education/Scientific Communication
+tags: [automation, communication, data-science, development, education, research, strategy, template]
+use_cases:
+  - Implementing create engaging, accessible science communication that bridges the gap between c...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - curriculum-development.md
+  - curriculum-development-framework.md
+last_updated: 2025-11-09
+---
+
 # Science Writing for Popular Audiences Template
 
 ## Purpose
@@ -17,7 +31,7 @@ Publication Platform: [WEBSITE/MAGAZINE/SOCIAL_MEDIA/NEWSLETTER]
 Tone: [CONVERSATIONAL/AUTHORITATIVE/ENTERTAINING/EDUCATIONAL]
 Purpose: [INFORM/PERSUADE/EDUCATE/ENTERTAIN/INSPIRE]
 
-Generate a complete science communication strategy:
+### Generate a complete science communication strategy
 
 1. AUDIENCE ANALYSIS AND ADAPTATION
 

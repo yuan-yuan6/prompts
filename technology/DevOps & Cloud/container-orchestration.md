@@ -1,3 +1,18 @@
+---
+title: Container Orchestration Template
+category: technology/DevOps & Cloud
+tags: [design, machine-learning, strategy, technology, template]
+use_cases:
+  - Implementing design and implement container orchestration strategies using kubernetes, docker...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - cloud-architecture-framework.md
+  - site-reliability-engineering.md
+  - cloud-migration-strategy.md
+last_updated: 2025-11-09
+---
+
 # Container Orchestration Template
 
 ## Purpose

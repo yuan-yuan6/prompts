@@ -1,3 +1,18 @@
+---
+title: Healthcare Revenue Cycle Management Framework
+category: healthcare/Healthcare Operations
+tags: [framework, healthcare, management, optimization, testing]
+use_cases:
+  - Implementing comprehensive framework for optimizing healthcare revenue cycle operations inclu...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - telemedicine-platform-design.md
+  - patient-care-pathway.md
+  - clinical-trials-management.md
+last_updated: 2025-11-09
+---
+
 # Healthcare Revenue Cycle Management Framework
 
 ## Purpose
@@ -36,13 +51,266 @@ Financial Clearance:
 - Payment Plan Setup: [PAYMENT_PLAN]%
 - Financial Counseling: [FIN_COUNSEL]%
 
-Patient Experience:
+### Patient Experience
 - Wait Time: [WAIT_TIME] minutes
 - Registration Time: [REG_TIME] minutes
 - Patient Satisfaction: [PAT_SAT]/10
 - Online Pre-Registration: [ONLINE_REG]%
 - Mobile Check-in: [MOBILE_CHECK]%
 ```
+
+## Variables
+
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `[ORGANIZATION_NAME]` | Name of the organization | "John Smith" |
+| `[MONTHLY_CLAIMS]` | Specify the monthly claims | "[specify value]" |
+| `[ANNUAL_REVENUE]` | Specify the annual revenue | "[specify value]" |
+| `[DAR_TARGET]` | Target or intended dar | "[specify value]" |
+| `[DENIAL_TARGET]` | Target or intended denial | "[specify value]" |
+| `[DAR_CURRENT]` | Specify the dar current | "[specify value]" |
+| `[DAR_BENCH]` | Specify the dar bench | "[specify value]" |
+| `[DAR_GAP]` | Specify the dar gap | "[specify value]" |
+| `[DAR_TREND]` | Specify the dar trend | "[specify value]" |
+| `[CLEAN_CURRENT]` | Specify the clean current | "[specify value]" |
+| `[CLEAN_TARGET]` | Target or intended clean | "[specify value]" |
+| `[CLEAN_BENCH]` | Specify the clean bench | "[specify value]" |
+| `[CLEAN_GAP]` | Specify the clean gap | "[specify value]" |
+| `[CLEAN_TREND]` | Specify the clean trend | "[specify value]" |
+| `[DENIAL_CURRENT]` | Specify the denial current | "[specify value]" |
+| `[DENIAL_BENCH]` | Specify the denial bench | "[specify value]" |
+| `[DENIAL_GAP]` | Specify the denial gap | "[specify value]" |
+| `[DENIAL_TREND]` | Specify the denial trend | "[specify value]" |
+| `[COLLECT_CURRENT]` | Specify the collect current | "[specify value]" |
+| `[COLLECT_TARGET]` | Target or intended collect | "[specify value]" |
+| `[COLLECT_BENCH]` | Specify the collect bench | "[specify value]" |
+| `[COLLECT_GAP]` | Specify the collect gap | "[specify value]" |
+| `[COLLECT_TREND]` | Specify the collect trend | "[specify value]" |
+| `[COST_CURRENT]` | Specify the cost current | "[specify value]" |
+| `[COST_TARGET]` | Target or intended cost | "[specify value]" |
+| `[COST_BENCH]` | Specify the cost bench | "[specify value]" |
+| `[COST_GAP]` | Specify the cost gap | "[specify value]" |
+| `[COST_TREND]` | Specify the cost trend | "[specify value]" |
+| `[NET_CURRENT]` | Specify the net current | "[specify value]" |
+| `[NET_TARGET]` | Target or intended net | "[specify value]" |
+| `[NET_BENCH]` | Specify the net bench | "[specify value]" |
+| `[NET_GAP]` | Specify the net gap | "[specify value]" |
+| `[NET_TREND]` | Specify the net trend | "[specify value]" |
+| `[DEMO_ACC]` | Specify the demo acc | "[specify value]" |
+| `[INS_VERIFY]` | Specify the ins verify | "[specify value]" |
+| `[ELIG_CHECK]` | Specify the elig check | "[specify value]" |
+| `[PRIOR_AUTH]` | Specify the prior auth | "[specify value]" |
+| `[REG_QA]` | Specify the reg qa | "[specify value]" |
+| `[ESTIMATE_RATE]` | Specify the estimate rate | "[specify value]" |
+| `[EST_ACCURACY]` | Specify the est accuracy | "[specify value]" |
+| `[POS_COLLECT]` | Specify the pos collect | "[specify value]" |
+| `[PAYMENT_PLAN]` | Specify the payment plan | "[specify value]" |
+| `[FIN_COUNSEL]` | Specify the fin counsel | "[specify value]" |
+| `[WAIT_TIME]` | Specify the wait time | "[specify value]" |
+| `[REG_TIME]` | Specify the reg time | "[specify value]" |
+| `[PAT_SAT]` | Specify the pat sat | "[specify value]" |
+| `[ONLINE_REG]` | Specify the online reg | "[specify value]" |
+| `[MOBILE_CHECK]` | Specify the mobile check | "[specify value]" |
+| `[ED_CHARGES]` | Specify the ed charges | "[specify value]" |
+| `[ED_LAG]` | Specify the ed lag | "[specify value]" |
+| `[ED_ACCURACY]` | Specify the ed accuracy | "[specify value]" |
+| `[ED_DRG]` | Specify the ed drg | "[specify value]" |
+| `[ED_CDI]` | Specify the ed cdi | "[specify value]" |
+| `[IP_CHARGES]` | Specify the ip charges | "[specify value]" |
+| `[IP_LAG]` | Specify the ip lag | "[specify value]" |
+| `[IP_ACCURACY]` | Specify the ip accuracy | "[specify value]" |
+| `[IP_DRG]` | Specify the ip drg | "[specify value]" |
+| `[IP_CDI]` | Specify the ip cdi | "[specify value]" |
+| `[OP_CHARGES]` | Specify the op charges | "[specify value]" |
+| `[OP_LAG]` | Specify the op lag | "[specify value]" |
+| `[OP_ACCURACY]` | Specify the op accuracy | "[specify value]" |
+| `[OP_APC]` | Specify the op apc | "[specify value]" |
+| `[OP_CDI]` | Specify the op cdi | "[specify value]" |
+| `[SURG_CHARGES]` | Specify the surg charges | "[specify value]" |
+| `[SURG_LAG]` | Specify the surg lag | "[specify value]" |
+| `[SURG_ACCURACY]` | Specify the surg accuracy | "[specify value]" |
+| `[SURG_DRG]` | Specify the surg drg | "[specify value]" |
+| `[SURG_CDI]` | Specify the surg cdi | "[specify value]" |
+| `[ANC_CHARGES]` | Specify the anc charges | "[specify value]" |
+| `[ANC_LAG]` | Specify the anc lag | "[specify value]" |
+| `[ANC_ACCURACY]` | Specify the anc accuracy | "[specify value]" |
+| `[ANC_CDI]` | Specify the anc cdi | "[specify value]" |
+| `[PROF_CHARGES]` | Specify the prof charges | "[specify value]" |
+| `[PROF_LAG]` | Specify the prof lag | "[specify value]" |
+| `[PROF_ACCURACY]` | Specify the prof accuracy | "[specify value]" |
+| `[PROF_CDI]` | Specify the prof cdi | "[specify value]" |
+| `[MCARE_VOL]` | Specify the mcare vol | "[specify value]" |
+| `[MCARE_CLEAN]` | Specify the mcare clean | "[specify value]" |
+| `[MCARE_SUBMIT]` | Specify the mcare submit | "[specify value]" |
+| `[MCARE_PAY]` | Specify the mcare pay | "[specify value]" |
+| `[MCARE_DENIAL]` | Specify the mcare denial | "[specify value]" |
+| `[MCAID_VOL]` | Specify the mcaid vol | "[specify value]" |
+| `[MCAID_CLEAN]` | Specify the mcaid clean | "[specify value]" |
+| `[MCAID_SUBMIT]` | Specify the mcaid submit | "[specify value]" |
+| `[MCAID_PAY]` | Specify the mcaid pay | "[specify value]" |
+| `[MCAID_DENIAL]` | Specify the mcaid denial | "[specify value]" |
+| `[COMM_VOL]` | Specify the comm vol | "[specify value]" |
+| `[COMM_CLEAN]` | Specify the comm clean | "[specify value]" |
+| `[COMM_SUBMIT]` | Specify the comm submit | "[specify value]" |
+| `[COMM_PAY]` | Specify the comm pay | "[specify value]" |
+| `[COMM_DENIAL]` | Specify the comm denial | "[specify value]" |
+| `[MC_VOL]` | Specify the mc vol | "[specify value]" |
+| `[MC_CLEAN]` | Specify the mc clean | "[specify value]" |
+| `[MC_SUBMIT]` | Specify the mc submit | "[specify value]" |
+| `[MC_PAY]` | Specify the mc pay | "[specify value]" |
+| `[MC_DENIAL]` | Specify the mc denial | "[specify value]" |
+| `[SELF_VOL]` | Specify the self vol | "[specify value]" |
+| `[SELF_SUBMIT]` | Specify the self submit | "[specify value]" |
+| `[SELF_PAY]` | Specify the self pay | "[specify value]" |
+| `[OTHER_VOL]` | Specify the other vol | "[specify value]" |
+| `[OTHER_CLEAN]` | Specify the other clean | "[specify value]" |
+| `[OTHER_SUBMIT]` | Specify the other submit | "[specify value]" |
+| `[OTHER_PAY]` | Specify the other pay | "[specify value]" |
+| `[OTHER_DENIAL]` | Specify the other denial | "[specify value]" |
+| `[DENIAL_1]` | Specify the denial 1 | "[specify value]" |
+| `[DENIAL_1_VOL]` | Specify the denial 1 vol | "[specify value]" |
+| `[DENIAL_1_PCT]` | Specify the denial 1 pct | "25%" |
+| `[DENIAL_1_VALUE]` | Specify the denial 1 value | "[specify value]" |
+| `[DENIAL_2]` | Specify the denial 2 | "[specify value]" |
+| `[DENIAL_2_VOL]` | Specify the denial 2 vol | "[specify value]" |
+| `[DENIAL_2_PCT]` | Specify the denial 2 pct | "25%" |
+| `[DENIAL_2_VALUE]` | Specify the denial 2 value | "[specify value]" |
+| `[DENIAL_3]` | Specify the denial 3 | "[specify value]" |
+| `[DENIAL_3_VOL]` | Specify the denial 3 vol | "[specify value]" |
+| `[DENIAL_3_PCT]` | Specify the denial 3 pct | "25%" |
+| `[DENIAL_3_VALUE]` | Specify the denial 3 value | "[specify value]" |
+| `[DENIAL_4]` | Specify the denial 4 | "[specify value]" |
+| `[DENIAL_4_VOL]` | Specify the denial 4 vol | "[specify value]" |
+| `[DENIAL_4_PCT]` | Specify the denial 4 pct | "25%" |
+| `[DENIAL_4_VALUE]` | Specify the denial 4 value | "[specify value]" |
+| `[DENIAL_5]` | Specify the denial 5 | "[specify value]" |
+| `[DENIAL_5_VOL]` | Specify the denial 5 vol | "[specify value]" |
+| `[DENIAL_5_PCT]` | Specify the denial 5 pct | "25%" |
+| `[DENIAL_5_VALUE]` | Specify the denial 5 value | "[specify value]" |
+| `[INIT_DENIAL]` | Specify the init denial | "[specify value]" |
+| `[APPEAL_RATE]` | Specify the appeal rate | "[specify value]" |
+| `[APPEAL_SUCCESS]` | Specify the appeal success | "[specify value]" |
+| `[OVERTURN]` | Specify the overturn | "[specify value]" |
+| `[WRITEOFF]` | Specify the writeoff | "[specify value]" |
+| `[APPEAL_DAYS]` | Specify the appeal days | "[specify value]" |
+| `[RECOVERY_AMT]` | Specify the recovery amt | "[specify value]" |
+| `[AR_0_30]` | Specify the ar 0 30 | "[specify value]" |
+| `[AR_0_30_PCT]` | Specify the ar 0 30 pct | "25%" |
+| `[AR_0_30_ACC]` | Specify the ar 0 30 acc | "[specify value]" |
+| `[AR_0_30_AVG]` | Specify the ar 0 30 avg | "[specify value]" |
+| `[AR_0_30_STRAT]` | Specify the ar 0 30 strat | "[specify value]" |
+| `[AR_31_60]` | Specify the ar 31 60 | "[specify value]" |
+| `[AR_31_60_PCT]` | Specify the ar 31 60 pct | "25%" |
+| `[AR_31_60_ACC]` | Specify the ar 31 60 acc | "[specify value]" |
+| `[AR_31_60_AVG]` | Specify the ar 31 60 avg | "[specify value]" |
+| `[AR_31_60_STRAT]` | Specify the ar 31 60 strat | "[specify value]" |
+| `[AR_61_90]` | Specify the ar 61 90 | "[specify value]" |
+| `[AR_61_90_PCT]` | Specify the ar 61 90 pct | "25%" |
+| `[AR_61_90_ACC]` | Specify the ar 61 90 acc | "[specify value]" |
+| `[AR_61_90_AVG]` | Specify the ar 61 90 avg | "[specify value]" |
+| `[AR_61_90_STRAT]` | Specify the ar 61 90 strat | "[specify value]" |
+| `[AR_91_120]` | Specify the ar 91 120 | "[specify value]" |
+| `[AR_91_120_PCT]` | Specify the ar 91 120 pct | "25%" |
+| `[AR_91_120_ACC]` | Specify the ar 91 120 acc | "[specify value]" |
+| `[AR_91_120_AVG]` | Specify the ar 91 120 avg | "[specify value]" |
+| `[AR_91_120_STRAT]` | Specify the ar 91 120 strat | "[specify value]" |
+| `[AR_120_PLUS]` | Specify the ar 120 plus | "[specify value]" |
+| `[AR_120_PLUS_PCT]` | Specify the ar 120 plus pct | "25%" |
+| `[AR_120_PLUS_ACC]` | Specify the ar 120 plus acc | "[specify value]" |
+| `[AR_120_PLUS_AVG]` | Specify the ar 120 plus avg | "[specify value]" |
+| `[AR_120_PLUS_STRAT]` | Specify the ar 120 plus strat | "[specify value]" |
+| `[PRE_OPP]` | Specify the pre opp | "[specify value]" |
+| `[PRE_COLLECT]` | Specify the pre collect | "[specify value]" |
+| `[PRE_RATE]` | Specify the pre rate | "[specify value]" |
+| `[PRE_METHODS]` | Specify the pre methods | "[specify value]" |
+| `[PRE_BAD]` | Specify the pre bad | "[specify value]" |
+| `[POS_OPP]` | Specify the pos opp | "[specify value]" |
+| `[POS_RATE]` | Specify the pos rate | "[specify value]" |
+| `[POS_METHODS]` | Specify the pos methods | "[specify value]" |
+| `[POS_BAD]` | Specify the pos bad | "[specify value]" |
+| `[POST_OPP]` | Specify the post opp | "[specify value]" |
+| `[POST_COLLECT]` | Specify the post collect | "[specify value]" |
+| `[POST_RATE]` | Specify the post rate | "[specify value]" |
+| `[POST_METHODS]` | Specify the post methods | "[specify value]" |
+| `[POST_BAD]` | Specify the post bad | "[specify value]" |
+| `[PLAN_OPP]` | Specify the plan opp | "[specify value]" |
+| `[PLAN_COLLECT]` | Specify the plan collect | "[specify value]" |
+| `[PLAN_RATE]` | Specify the plan rate | "[specify value]" |
+| `[PLAN_METHODS]` | Specify the plan methods | "[specify value]" |
+| `[PLAN_BAD]` | Specify the plan bad | "[specify value]" |
+| `[AGENCY_OPP]` | Specify the agency opp | "[specify value]" |
+| `[AGENCY_COLLECT]` | Specify the agency collect | "[specify value]" |
+| `[AGENCY_RATE]` | Specify the agency rate | "[specify value]" |
+| `[AGENCY_METHODS]` | Specify the agency methods | "[specify value]" |
+| `[AGENCY_BAD]` | Specify the agency bad | "[specify value]" |
+| `[EHR_SYSTEM]` | Specify the ehr system | "[specify value]" |
+| `[PM_SYSTEM]` | Specify the pm system | "[specify value]" |
+| `[BILLING_SYSTEM]` | Specify the billing system | "[specify value]" |
+| `[CLEARINGHOUSE]` | Specify the clearinghouse | "[specify value]" |
+| `[PAYMENT_SYSTEM]` | Specify the payment system | "[specify value]" |
+| `[ELIG_AUTO]` | Specify the elig auto | "[specify value]" |
+| `[PRIOR_AUTO]` | Specify the prior auto | "[specify value]" |
+| `[CHARGE_AUTO]` | Specify the charge auto | "[specify value]" |
+| `[CLAIM_AUTO]` | Specify the claim auto | "[specify value]" |
+| `[PAY_AUTO]` | Specify the pay auto | "[specify value]" |
+| `[DENIAL_AUTO]` | Specify the denial auto | "[specify value]" |
+| `[PRED_DENIAL]` | Specify the pred denial | "[specify value]" |
+| `[PAY_PREDICT]` | Specify the pay predict | "[specify value]" |
+| `[CODE_ASSIST]` | Specify the code assist | "[specify value]" |
+| `[CHARGE_OPT]` | Specify the charge opt | "[specify value]" |
+| `[WORKFLOW_AUTO]` | Specify the workflow auto | "[specify value]" |
+| `[CODE_RISK]` | Specify the code risk | "[specify value]" |
+| `[CODE_AUDIT]` | Specify the code audit | "[specify value]" |
+| `[CODE_FIND]` | Specify the code find | "[specify value]" |
+| `[CODE_ACTION]` | Specify the code action | "[specify value]" |
+| `[CODE_TRAIN]` | Specify the code train | "[specify value]" |
+| `[BILL_RISK]` | Specify the bill risk | "[specify value]" |
+| `[BILL_AUDIT]` | Specify the bill audit | "[specify value]" |
+| `[BILL_FIND]` | Specify the bill find | "[specify value]" |
+| `[BILL_ACTION]` | Specify the bill action | "[specify value]" |
+| `[BILL_TRAIN]` | Specify the bill train | "[specify value]" |
+| `[HIPAA_RISK]` | Specify the hipaa risk | "[specify value]" |
+| `[HIPAA_AUDIT]` | Specify the hipaa audit | "[specify value]" |
+| `[HIPAA_FIND]` | Specify the hipaa find | "[specify value]" |
+| `[HIPAA_ACTION]` | Specify the hipaa action | "[specify value]" |
+| `[HIPAA_TRAIN]` | Specify the hipaa train | "[specify value]" |
+| `[PRICE_RISK]` | Specify the price risk | "[specify value]" |
+| `[PRICE_AUDIT]` | Specify the price audit | "[specify value]" |
+| `[PRICE_FIND]` | Specify the price find | "[specify value]" |
+| `[PRICE_ACTION]` | Specify the price action | "[specify value]" |
+| `[PRICE_TRAIN]` | Specify the price train | "[specify value]" |
+| `[PAYER_RISK]` | Specify the payer risk | "[specify value]" |
+| `[PAYER_AUDIT]` | Specify the payer audit | "[specify value]" |
+| `[PAYER_FIND]` | Specify the payer find | "[specify value]" |
+| `[PAYER_ACTION]` | Specify the payer action | "[specify value]" |
+| `[PAYER_TRAIN]` | Specify the payer train | "[specify value]" |
+| `[DENIAL_INVEST]` | Specify the denial invest | "[specify value]" |
+| `[DENIAL_TIME]` | Specify the denial time | "[specify value]" |
+| `[DENIAL_ROI]` | Specify the denial roi | "[specify value]" |
+| `[DENIAL_IMPACT]` | Specify the denial impact | "[specify value]" |
+| `[DENIAL_STATUS]` | Specify the denial status | "In Progress" |
+| `[AUTO_INVEST]` | Specify the auto invest | "[specify value]" |
+| `[AUTO_TIME]` | Specify the auto time | "[specify value]" |
+| `[AUTO_ROI]` | Specify the auto roi | "[specify value]" |
+| `[AUTO_IMPACT]` | Specify the auto impact | "[specify value]" |
+| `[AUTO_STATUS]` | Specify the auto status | "In Progress" |
+| `[PORTAL_INVEST]` | Specify the portal invest | "[specify value]" |
+| `[PORTAL_TIME]` | Specify the portal time | "[specify value]" |
+| `[PORTAL_ROI]` | Specify the portal roi | "[specify value]" |
+| `[PORTAL_IMPACT]` | Specify the portal impact | "[specify value]" |
+| `[PORTAL_STATUS]` | Specify the portal status | "In Progress" |
+| `[CDI_INVEST]` | Specify the cdi invest | "[specify value]" |
+| `[CDI_TIME]` | Specify the cdi time | "[specify value]" |
+| `[CDI_ROI]` | Specify the cdi roi | "[specify value]" |
+| `[CDI_IMPACT]` | Specify the cdi impact | "[specify value]" |
+| `[CDI_STATUS]` | Specify the cdi status | "In Progress" |
+| `[PAYER_INVEST]` | Specify the payer invest | "[specify value]" |
+| `[PAYER_TIME]` | Specify the payer time | "[specify value]" |
+| `[PAYER_ROI]` | Specify the payer roi | "[specify value]" |
+| `[PAYER_IMPACT]` | Specify the payer impact | "[specify value]" |
+| `[PAYER_STATUS]` | Specify the payer status | "In Progress" |
+
+
 
 ### 3. Charge Capture & Coding
 
@@ -159,6 +427,33 @@ AI/ML Applications:
 
 ## Usage Examples
 
+
+
+## Best Practices
+
+1. **Start with clear objectives** - Define what success looks like before beginning
+2. **Use data to inform decisions** - Base choices on evidence and measurable outcomes
+3. **Iterate and improve continuously** - Treat implementation as an ongoing process
+4. **Engage stakeholders early** - Include key participants in planning and execution
+5. **Document thoroughly** - Maintain clear records for reference and knowledge transfer
+6. **Communicate regularly** - Keep all parties informed of progress and changes
+7. **Address challenges proactively** - Identify potential issues before they become problems
+8. **Celebrate milestones** - Recognize achievements to maintain motivation
+9. **Learn from experience** - Reflect on what works and adjust accordingly
+10. **Stay flexible** - Be ready to adapt based on feedback and changing circumstances
+
+## Tips for Success
+
+- Break complex tasks into manageable steps with clear milestones
+- Set realistic timelines that account for dependencies and constraints
+- Allocate sufficient resources including time, budget, and personnel
+- Use templates and frameworks to ensure consistency and quality
+- Seek feedback from users and stakeholders throughout the process
+- Build in checkpoints to assess progress and make adjustments
+- Maintain quality standards while remaining practical and efficient
+- Document lessons learned for future reference and improvement
+- Foster collaboration across teams and departments
+- Stay current with industry best practices and emerging trends
 ### Example 1: Hospital System
 ```
 Organization: Regional Hospital System

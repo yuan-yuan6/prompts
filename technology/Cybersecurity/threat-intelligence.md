@@ -1,3 +1,18 @@
+---
+title: Threat Intelligence Template
+category: technology/Cybersecurity
+tags: [data-science, design, machine-learning, marketing, research, strategy, technology, template]
+use_cases:
+  - Implementing comprehensive threat intelligence program including collection, analysis, dissem...
+  - Project planning and execution
+  - Strategy development
+related_templates:
+  - cloud-architecture-framework.md
+  - site-reliability-engineering.md
+  - cloud-migration-strategy.md
+last_updated: 2025-11-09
+---
+
 # Threat Intelligence Template
 
 ## Purpose
@@ -87,20 +102,77 @@ Collection Framework:
 - Share via FS-ISAC, regional banking groups industry sharing
 - Analyze internal incident data, logs internal sources
 
-Analysis and Processing:
+### Analysis and Processing
 - Apply Diamond Model, Kill Chain analysis framework
 - Use structured analytic techniques analytical methods
 - Track campaigns by TTPs, infrastructure campaign tracking
 - Assess low/medium/high confidence levels confidence assessment
 - Validate IOCs, correlate with threat hunting analysis quality control
 
-Intelligence Products:
+### Intelligence Products
 - Produce weekly executive briefings strategic intelligence
 - Generate daily IOC feeds, hunting queries tactical intelligence
 - Create incident response playbooks operational intelligence
 - Develop malware analysis reports technical intelligence
 - Distribute real-time alerts for active campaigns intelligence alerts
 ```
+
+## Variables
+
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `{intelligence_objectives}` | Specify the intelligence objectives | "Increase efficiency by 30%" |
+| `{pir}` | Specify the pir | "[specify value]" |
+| `{threat_actors}` | Specify the threat actors | "[specify value]" |
+| `{attack_vectors}` | Specify the attack vectors | "[specify value]" |
+| `{industry_focus}` | Specify the industry focus | "Technology" |
+| `{geographic_scope}` | Specify the geographic scope | "[specify value]" |
+| `{time_horizon}` | Specify the time horizon | "[specify value]" |
+| `{intelligence_consumers}` | Specify the intelligence consumers | "[specify value]" |
+| `{decision_support}` | Specify the decision support | "[specify value]" |
+| `{intelligence_success_metrics}` | Specify the intelligence success metrics | "[specify value]" |
+| `{collection_sources}` | Specify the collection sources | "[specify value]" |
+| `{collection_methods}` | Specify the collection methods | "[specify value]" |
+| `{osint_sources}` | Specify the osint sources | "[specify value]" |
+| `{commercial_feeds}` | Specify the commercial feeds | "[specify value]" |
+| `{government_sources}` | Specify the government sources | "[specify value]" |
+| `{industry_sharing}` | Specify the industry sharing | "Technology" |
+| `{internal_sources}` | Specify the internal sources | "[specify value]" |
+| `{technical_collection}` | Specify the technical collection | "[specify value]" |
+| `{human_intelligence}` | Specify the human intelligence | "[specify value]" |
+| `{collection_planning}` | Specify the collection planning | "[specify value]" |
+| `{analysis_framework}` | Specify the analysis framework | "[specify value]" |
+| `{analytical_methods}` | Specify the analytical methods | "[specify value]" |
+| `{threat_modeling}` | Specify the threat modeling | "[specify value]" |
+| `{attribution_analysis}` | Specify the attribution analysis | "[specify value]" |
+| `{indicator_analysis}` | Specify the indicator analysis | "[specify value]" |
+| `{campaign_tracking}` | Specify the campaign tracking | "[specify value]" |
+| `{trend_analysis}` | Specify the trend analysis | "[specify value]" |
+| `{predictive_analysis}` | Specify the predictive analysis | "[specify value]" |
+| `{confidence_assessment}` | Specify the confidence assessment | "[specify value]" |
+| `{analysis_quality_control}` | Specify the analysis quality control | "[specify value]" |
+| `{strategic_intelligence}` | Specify the strategic intelligence | "[specify value]" |
+| `{tactical_intelligence}` | Specify the tactical intelligence | "[specify value]" |
+| `{operational_intelligence}` | Specify the operational intelligence | "[specify value]" |
+| `{technical_intelligence}` | Specify the technical intelligence | "[specify value]" |
+| `{ioc_feeds}` | Specify the ioc feeds | "[specify value]" |
+| `{threat_reports}` | Specify the threat reports | "[specify value]" |
+| `{intelligence_briefings}` | Specify the intelligence briefings | "[specify value]" |
+| `{intelligence_alerts}` | Specify the intelligence alerts | "[specify value]" |
+| `{hunting_guidance}` | Specify the hunting guidance | "[specify value]" |
+| `{intelligence_risk_assessments}` | Specify the intelligence risk assessments | "[specify value]" |
+| `{distribution_lists}` | Specify the distribution lists | "[specify value]" |
+| `{classification_levels}` | Specify the classification levels | "[specify value]" |
+| `{sharing_protocols}` | Specify the sharing protocols | "[specify value]" |
+| `{tlp_handling}` | Specify the tlp handling | "[specify value]" |
+| `{dissemination_automation}` | Specify the dissemination automation | "[specify value]" |
+| `{intelligence_integration}` | Specify the intelligence integration | "[specify value]" |
+| `{feedback_mechanisms}` | Specify the feedback mechanisms | "[specify value]" |
+| `{dissemination_metrics}` | Specify the dissemination metrics | "[specify value]" |
+| `{external_sharing}` | Specify the external sharing | "[specify value]" |
+| `{legal_considerations}` | Specify the legal considerations | "[specify value]" |
+
+
 
 ## Best Practices
 
