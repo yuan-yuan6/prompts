@@ -17,6 +17,44 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive academic papers, abstracts, conference presentations, and peer review responses for scholarly publication and dissemination.
 
+## Quick Start
+
+### For Academic Writers & Researchers
+
+**Step 1: Define Your Publication Context (10 minutes)**
+- Specify publication type: Journal article, conference paper, book chapter, or review article
+- Identify target journal/venue and citation style (APA, MLA, Chicago, etc.)
+- Define your research area, target audience, and word count limits
+- Clarify your study title, research questions, and key findings
+
+**Step 2: Outline Your Research Content (5 minutes)**
+- Summarize your study methodology and theoretical framework
+- List your sample/participants and main research questions
+- Identify primary and secondary findings with statistical results
+- Determine your core message and contribution type (empirical, theoretical, methodological)
+
+**Step 3: Generate Your Publication Framework (2 minutes)**
+- Input your information into the template variables
+- Generate comprehensive manuscript structure including:
+  - Title options and structured abstract (with word allocations)
+  - Complete IMRAD sections (Introduction, Methods, Results, Discussion)
+  - Literature integration framework
+  - Statistical reporting standards
+  - Reference management guidelines
+
+**Step 4: Write and Refine (Ongoing)**
+- Follow the generated structure to draft each section systematically
+- Use provided examples and templates for consistency
+- Apply quality checklists for self-review before submission
+- Adapt conference presentation materials from manuscript framework
+
+**Common Use Cases:**
+- Original research articles for peer-reviewed journals
+- Conference abstracts and presentations
+- Dissertation and thesis manuscripts
+- Review articles and meta-analyses
+- Peer review response letters
+
 ## Template
 
 ```

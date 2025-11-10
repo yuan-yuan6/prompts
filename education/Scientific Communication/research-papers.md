@@ -18,6 +18,44 @@ last_updated: 2025-11-09
 ## Purpose
 Design comprehensive frameworks for structuring, writing, and revising scientific research papers across disciplines with systematic approaches to argumentation, evidence presentation, and scholarly communication.
 
+## Quick Start
+
+### For Scientists & Academic Authors
+
+**Step 1: Specify Your Research Paper Details (10 minutes)**
+- Define your research field and paper type (original research, review, meta-analysis, case study)
+- Identify target journal and citation requirements
+- State your primary research question and study design/methodology
+- Determine audience level (specialist, general academic, or interdisciplinary)
+
+**Step 2: Prepare Your Research Content (5 minutes)**
+- Compile your study sample size, statistical approach, and analysis methods
+- Summarize primary findings with effect sizes and significance levels
+- List your theoretical framework and key references
+- Identify recruitment methods, interventions, and outcome measures
+
+**Step 3: Generate Your Manuscript Structure (2 minutes)**
+- Input your specifications into the template variables
+- Generate comprehensive research paper framework including:
+  - Title development strategies and abstract architecture
+  - Systematic literature search and synthesis matrix
+  - Detailed methods documentation with measurement instruments
+  - Results presentation templates with statistical reporting standards
+  - Discussion framework and citation management system
+
+**Step 4: Write Systematically (Ongoing)**
+- Follow the structured IMRAD format with detailed section templates
+- Use provided code blocks and tables for data presentation
+- Apply revision checklists and peer review response frameworks
+- Implement journal-specific formatting and submission requirements
+
+**Common Use Cases:**
+- Original research manuscripts for peer-reviewed journals
+- Systematic reviews and meta-analyses
+- Clinical trial reports and observational studies
+- Methods papers and validation studies
+- Resubmission and revision of manuscripts
+
 ## Template
 
 ```

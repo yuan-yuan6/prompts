@@ -17,6 +17,43 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive literature reviews covering systematic reviews, narrative reviews, meta-analyses, scoping reviews, and research syntheses to provide rigorous analysis of existing research, identify knowledge gaps, and establish theoretical foundations for academic inquiry and evidence-based practice.
 
+## Quick Start
+
+### For Researchers & Scholars
+
+**Step 1: Define Your Review Scope (10 minutes)**
+- Specify your research topic, academic field, and primary research questions
+- Choose review type: Systematic, narrative, meta-analysis, or scoping review
+- Identify target journal or publication venue
+- Set timeframe and geographic scope for literature search
+
+**Step 2: Plan Your Search Strategy (5 minutes)**
+- List primary and secondary search keywords
+- Select relevant academic databases (PubMed, Web of Science, etc.)
+- Define inclusion and exclusion criteria
+- Specify publication timeframe and language requirements
+
+**Step 3: Generate Your Review Framework (2 minutes)**
+- Input your specifications into the template variables
+- Generate comprehensive literature review structure with:
+  - Systematic search strategy and methodology
+  - Quality assessment framework
+  - Thematic analysis organization
+  - PRISMA-compliant reporting structure
+
+**Step 4: Execute and Document (Ongoing)**
+- Conduct systematic database searches using generated strategy
+- Apply selection criteria and quality assessment tools
+- Synthesize findings using thematic organization framework
+- Document process for methodological transparency
+
+**Common Use Cases:**
+- Systematic literature reviews for publication
+- Dissertation literature review chapters
+- Research proposal background sections
+- Meta-analyses and evidence syntheses
+- Scoping reviews for emerging fields
+
 ## Template
 
 ```

@@ -15,6 +15,32 @@ last_updated: 2025-11-09
 ## Purpose
 Develop comprehensive retirement strategies including 401k optimization, IRA planning, income projections, and withdrawal strategies to ensure financial security and lifestyle maintenance throughout retirement years.
 
+## Quick Start
+
+Start your retirement planning in 3 steps:
+
+1. **Calculate Your Retirement Number** - Determine:
+   - Current age and target retirement age
+   - Desired annual retirement income (typically 70-80% of current income)
+   - Current retirement account balances
+   - Years until retirement and expected lifespan
+
+2. **Input Key Variables** - Begin with these essential fields:
+   - `CURRENT_AGE`: Your age today
+   - `RETIREMENT_AGE`: When you plan to retire (e.g., 65)
+   - `CURRENT_INCOME`: Your annual salary
+   - `RETIREMENT_INCOME_GOAL`: Desired retirement income
+   - `CURRENT_RETIREMENT_BALANCE`: Total in all retirement accounts
+   - `RISK_TOLERANCE`: Your comfort with investment risk
+
+3. **Maximize Immediate Opportunities** - Take these actions now:
+   - Contribute enough to get full employer 401(k) match
+   - Set up automatic contribution increases
+   - Review and optimize your investment allocation
+   - Calculate your savings gap and monthly contribution needed
+
+**Pro Tip**: If you're behind on savings, focus first on maxing out employer match (free money), then increase contributions by 1% every 6 months until you reach 15% of income.
+
 ## Template
 
 ```

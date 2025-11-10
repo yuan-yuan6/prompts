@@ -15,6 +15,33 @@ last_updated: 2025-11-09
 ## Purpose
 Develop comprehensive nutrition strategies including meal planning, dietary tracking, and health goal achievement to optimize physical wellbeing, energy levels, and long-term health outcomes through evidence-based dietary approaches.
 
+## Quick Start
+
+Begin improving your nutrition in 3 steps:
+
+1. **Track Your Baseline** - For 3-7 days, record:
+   - Everything you eat and drink (use a food tracking app)
+   - Portion sizes and meal timing
+   - Energy levels throughout the day
+   - Current weight and measurements
+   - This shows your starting point without judgment
+
+2. **Define Your Nutrition Variables** - Set these key parameters:
+   - `NUTRITION_PLAN_TYPE`: Your primary goal (e.g., "Weight loss", "Performance nutrition")
+   - `CLIENT_PROFILE`: Your lifestyle (e.g., "Busy professional, active 3x/week")
+   - `HEALTH_GOALS`: Specific target (e.g., "Lose 20 pounds in 6 months")
+   - `DIETARY_APPROACH`: Preferred eating style (e.g., "Balanced macros", "Mediterranean")
+   - `DIETARY_RESTRICTIONS`: Any allergies or preferences
+
+3. **Make One Change This Week** - Choose the easiest improvement:
+   - Add protein to breakfast
+   - Drink 8 glasses of water daily
+   - Include vegetables at lunch and dinner
+   - Prep 3 healthy snacks on Sunday
+   - Master one change before adding more
+
+**Pro Tip**: Don't overhaul everything at once. Change one meal or habit per week. Small, consistent changes create lasting results better than dramatic short-term diets.
+
 ## Template
 
 ```

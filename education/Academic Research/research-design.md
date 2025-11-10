@@ -17,6 +17,37 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive research design strategies covering quantitative, qualitative, and mixed-methods approaches to develop rigorous methodological frameworks, sampling strategies, data collection protocols, analysis plans, and ethical procedures for academic and applied research projects.
 
+## Quick Start
+
+### For Researchers & Graduate Students
+
+**Step 1: Define Your Research Foundation (10 minutes)**
+- Specify your research domain, focus area, and primary research question
+- Identify your theoretical framework and research paradigm
+- Clarify your study population and research setting
+
+**Step 2: Select Your Research Design (5 minutes)**
+- Choose design type: Experimental, quasi-experimental, or observational
+- Select methodological approach: Quantitative, qualitative, or mixed-methods
+- Determine study duration and geographic scope
+
+**Step 3: Generate Your Design Framework (2 minutes)**
+- Input your information into the template variables
+- Generate comprehensive research design with all IMRAD components
+- Receive detailed methodology sections including sampling, data collection, and analysis plans
+
+**Step 4: Refine and Implement (Ongoing)**
+- Review generated design for methodological rigor and feasibility
+- Adapt sections to your specific disciplinary standards and institutional requirements
+- Use as foundation for grant proposals, IRB applications, or dissertation chapters
+
+**Common Use Cases:**
+- Dissertation and thesis methodology chapters
+- Grant proposal research design sections
+- IRB/ethics committee submissions
+- Research protocol development
+- Methodological training and education
+
 ## Template
 
 ```

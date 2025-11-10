@@ -20,6 +20,23 @@ last_updated: 2025-01-09
 ## Purpose
 Design comprehensive health education programs and materials to promote healthy behaviors, prevent disease, and improve health literacy across diverse populations and settings.
 
+## Quick Start
+
+### For Health Educators
+Start with a needs assessment using focus groups and community surveys to understand your target population's knowledge gaps, cultural beliefs, and learning preferences. Design a 4-6 session pilot curriculum using adult learning principles (interactive, practical, builds self-efficacy), test with 15-20 participants, and refine based on feedback.
+
+### For Community Health Coordinators
+Launch with evidence-based programs that already have proven curricula (e.g., CDC's Diabetes Prevention Program, Stanford Chronic Disease Self-Management). Recruit and train lay health educators from the target community, deliver in trusted settings (churches, community centers), and offer incentives to boost attendance and retention.
+
+### For Patient Education Specialists
+Begin by assessing health literacy levels in your population (use validated tools like REALM or Newest Vital Sign). Redesign materials to 6th-8th grade reading level, add visual aids and teach-back methods, and test comprehension with representative patients before widespread use.
+
+### Healthcare-Specific Tips
+- **Use behavior change theory**: Apply Transtheoretical Model to meet people where they are—contemplation stage needs different strategies than action stage
+- **Make it culturally relevant**: Adapt content with community input—use culturally appropriate foods in nutrition education, address traditional healing beliefs, translate beyond language to cultural context
+- **Emphasize skills over knowledge**: Practice hands-on skills (cooking demonstrations, medication management, blood pressure monitoring) rather than just providing information
+- **Build peer support networks**: Health behavior change is social—incorporate buddy systems, support groups, and alumni networks to maintain motivation beyond formal program completion
+
 ## Template
 
 ```

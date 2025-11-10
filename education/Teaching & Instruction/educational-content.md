@@ -17,6 +17,30 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive educational materials including textbooks, study guides, learning resources, multimedia content, and instructional materials for diverse educational contexts.
 
+## Quick Start
+
+**Need to create educational content quickly?** Use this minimal example:
+
+### Minimal Example
+```
+Create a 10-page study guide for high school biology students on cellular respiration. Include: clear explanations with diagrams, practice questions with answers, real-world examples, and a summary section. Format for both print and digital use. Reading level: Grade 10. Include visual aids and checkpoints every 2 pages.
+```
+
+### When to Use This
+- Developing textbooks, workbooks, or study materials
+- Creating digital learning resources or multimedia content
+- Designing supplementary instructional materials
+- Building comprehensive course content libraries
+
+### Basic 3-Step Workflow
+1. **Define learning goals** - What knowledge/skills should learners gain
+2. **Design content structure** - Organize topics, modules, and resources
+3. **Create and format materials** - Develop text, visuals, and interactive elements
+
+**Time to complete**: 2-4 hours for simple guides, 1-2 weeks for comprehensive materials
+
+---
+
 ## Template
 
 ```

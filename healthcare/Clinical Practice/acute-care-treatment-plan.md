@@ -18,6 +18,20 @@ last_updated: 2025-11-09
 ## Purpose
 Develop rapid, evidence-based treatment plans for acute care and emergency scenarios requiring immediate intervention, stabilization, and time-sensitive decision-making.
 
+## Quick Start
+
+**Rapid Acute Care Treatment Plan (0-30 minutes):**
+
+1. **STAT Assessment (0-5 min)** - ABCs, vital signs, GCS, chief complaint; document time of onset and arrival
+2. **Immediate Stabilization (0-15 min)** - Airway management, O2 therapy, IV access, cardiac monitoring per protocol
+3. **HIPAA-Compliant Emergency Communication** - Obtain verbal consent when possible; use emergency exception for life-threatening situations; document rationale
+4. **Diagnostic Workup (STAT)** - Order critical labs, imaging per protocol; use verbal orders with read-back confirmation
+5. **Time-Critical Interventions** - Document all interventions with precise timestamps (e.g., tPA administration, defibrillation)
+6. **Consult & Coordinate** - Activate appropriate response teams (stroke, STEMI, trauma); document all communications
+7. **Family Notification** - Follow institutional policies; provide information while maintaining patient privacy; document who received information
+
+**Emergency HIPAA Considerations:** Emergency treatment exception allows disclosure without consent when patient unable to agree; document incapacity and medical necessity. Secure all patient information immediately after stabilization.
+
 ## Template
 
 ```

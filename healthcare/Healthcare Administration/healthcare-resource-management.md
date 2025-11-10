@@ -18,6 +18,23 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive resource management strategies, capacity planning systems, supply chain optimization, workforce management, and financial resource allocation frameworks that maximize healthcare operational efficiency and service delivery.
 
+## Quick Start
+
+### For Operations Directors
+Start with a capacity analysis of your biggest bottleneck (typically ED boarding or OR utilization). Map patient flow from admission to discharge, identify delays over 30 minutes, implement a throughput improvement team with daily metrics review, and target 10-15% capacity gains within 90 days.
+
+### For Supply Chain Managers
+Begin with ABC analysis of your inventory—focus first on "A" items (20% of items = 80% of costs). Standardize high-volume supplies across departments, negotiate GPO compliance to 85%+, implement automated PAR level systems for high-use areas, and track cost per case monthly.
+
+### For Workforce Managers
+Conduct a staffing productivity analysis comparing your ratios to national benchmarks (e.g., nursing hours per patient day, FTEs per adjusted occupied bed). Optimize scheduling patterns, develop flex pool capacity, reduce premium labor to <5% of total hours, and align staffing models with patient acuity.
+
+### Healthcare-Specific Tips
+- **Think system-wide**: Optimizing one department can create bottlenecks elsewhere—always consider downstream impacts (e.g., faster ED discharge requires available inpatient beds)
+- **Balance efficiency with quality**: Never sacrifice patient safety or clinical outcomes for cost savings—track quality metrics alongside efficiency gains
+- **Leverage predictive analytics**: Use historical data to forecast demand patterns and adjust resources proactively (seasonal surges, day-of-week variations)
+- **Engage clinical leaders**: Resource decisions must involve clinical input—physicians and nurses understand workflow realities that data alone cannot reveal
+
 ## Template
 
 ```

@@ -15,6 +15,18 @@ last_updated: 2025-11-09
 ## Purpose
 Create effective email communication including professional correspondence, persuasive messages, and personal communications that achieve desired outcomes and maintain strong relationships.
 
+## Quick Start
+
+Want to write a better email right now? Try this simple approach:
+
+1. Start with your goal: What do you want the recipient to do after reading your email?
+2. Craft a clear subject line that tells them exactly what the email is about
+3. Open with context: Remind them who you are (if needed) and why you're writing
+4. Keep your main message to 3 sentences or less
+5. End with a specific call to action: "Could you respond by Friday?" or "Please review the attached document"
+
+Example: Instead of "Following up on our conversation," try "Decision needed: Marketing budget for Q2 campaign (by Friday)." Your recipient will thank you for the clarity.
+
 ## Template
 
 ```

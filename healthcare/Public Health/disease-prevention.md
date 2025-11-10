@@ -20,6 +20,23 @@ last_updated: 2025-01-09
 ## Purpose
 Design and implement evidence-based disease prevention strategies and programs across primary, secondary, and tertiary prevention levels to reduce disease incidence, progression, and complications in target populations.
 
+## Quick Start
+
+### For Public Health Program Managers
+Start with epidemiological assessment of your community's top disease burdens (use county health rankings data). Identify high-risk populations with health disparities, select 1-2 evidence-based interventions from the Community Guide, pilot in a defined area for 3-6 months, then scale based on results.
+
+### For Community Health Directors
+Launch with a multi-level approach: combine individual education (e.g., chronic disease self-management classes), provider engagement (clinical guideline implementation), and environmental change (policy advocacy for healthy communities). Use community health workers to bridge gaps and track reach in underserved populations.
+
+### For Prevention Coordinators
+Begin with secondary prevention where impact is fastest—implement evidence-based screening programs (cancer, diabetes, hypertension) with clear referral pathways for positive results. Partner with FQHCs and safety-net providers, eliminate cost barriers, and track screening-to-treatment completion rates.
+
+### Healthcare-Specific Tips
+- **Address social determinants**: Disease prevention fails without addressing root causes—integrate screening for food insecurity, housing instability, and transportation barriers into programs
+- **Use health behavior theory**: Apply models like Health Belief Model or Social Cognitive Theory to design interventions that actually change behavior, not just increase knowledge
+- **Build sustainable partnerships**: Engage cross-sector partners (schools, workplaces, faith organizations) early—sustainability requires shared ownership beyond the health department
+- **Measure what matters**: Track health equity indicators—overall rates may improve while disparities worsen; disaggregate data by race, income, and geography
+
 ## Template
 
 ```

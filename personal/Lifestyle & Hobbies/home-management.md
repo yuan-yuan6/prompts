@@ -15,6 +15,18 @@ last_updated: 2025-11-09
 ## Purpose
 Develop comprehensive home management strategies including organization systems, maintenance schedules, and household projects to create efficient, comfortable, and well-maintained living spaces that support family life and personal wellbeing.
 
+## Quick Start
+
+Feeling overwhelmed by home management? Start with these high-impact habits:
+
+1. Adopt the "one-touch rule": When you pick something up, put it in its proper place immediately (not "somewhere for now")
+2. Set up a 15-minute daily reset: Every evening, spend 15 minutes tidying main living areas—consistency beats perfection
+3. Create a simple maintenance calendar: Set four annual reminders to change HVAC filters (one per season) and test smoke detectors
+4. Establish a donation station: Keep a box in your closet—when it's full, schedule a donation drop-off
+5. Use the "one in, one out" rule: When you buy something new, remove something old to prevent clutter accumulation
+
+Reality check: A perfectly organized home all the time isn't the goal. The goal is creating systems that help your home support your life, not consume it. Start with one room or one habit, master it, then expand.
+
 ## Template
 
 ```

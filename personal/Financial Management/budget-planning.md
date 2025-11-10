@@ -14,6 +14,23 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive budget planning systems including income tracking, expense management, and financial goal achievement to optimize personal financial health and wealth building.
 
+## Quick Start
+
+Get started with budget planning in 3 steps:
+
+1. **Gather Your Financial Information** - Collect last 3 months of bank statements, pay stubs, and recurring bills to understand your current income and spending patterns.
+
+2. **Fill in the Basic Variables** - Start with these essential fields:
+   - `BUDGET_TYPE`: "Personal monthly budget"
+   - `FINANCIAL_SITUATION`: Your current status (e.g., "Single professional with stable income")
+   - `TIME_PERIOD`: "Monthly budget with annual goals"
+   - `PRIMARY_INCOME`: Your monthly take-home pay
+   - `FINANCIAL_GOALS`: Top 2-3 goals (e.g., "Build emergency fund, reduce debt")
+
+3. **Review and Adjust** - Use the generated budget to track spending for 1 month, then adjust allocations based on reality vs. plan. Focus on the 50/30/20 rule as a starting guideline.
+
+**Pro Tip**: Start simple with just income, fixed expenses, and savings goals. Add complexity as you become comfortable tracking your finances.
+
 ## Template
 
 ```

@@ -18,6 +18,21 @@ last_updated: 2025-11-09
 ## Overview
 This comprehensive template guides healthcare professionals through systematic diagnostic processes, incorporating evidence-based medicine, clinical reasoning, and differential diagnosis methodologies to achieve accurate and timely medical diagnoses.
 
+## Quick Start
+
+**HIPAA-Compliant Diagnostic Process (30-45 minutes):**
+
+1. **Secure Patient Encounter** - Verify patient identity using two identifiers; conduct interview in private setting; document in encrypted system
+2. **Comprehensive History (10 min)** - Chief complaint, HPI using OLDCARTS, past medical/surgical history, medications, allergies, family/social history
+3. **Systematic Physical Exam (10 min)** - Vital signs, general appearance, focused system examination relevant to chief complaint
+4. **Differential Diagnosis Development (5 min)** - List 3-5 diagnostic possibilities ranked by likelihood; identify must-rule-out conditions
+5. **Evidence-Based Testing (5 min)** - Order appropriate labs/imaging based on pretest probability; document medical necessity for insurance
+6. **Clinical Correlation (5 min)** - Integrate history, physical, and test results; calculate post-test probability
+7. **Diagnosis & Plan Communication (5 min)** - Explain diagnosis in patient-friendly terms; discuss treatment options; obtain informed consent
+8. **Secure Documentation** - Complete note with assessment and plan; authenticate within required timeframe; ensure proper encryption
+
+**HIPAA Diagnostic Safeguards:** Only access patient information necessary for diagnosis. Document all disclosures (consultations, referrals). Obtain authorization before sharing diagnostic information with family members. Verify secure transmission methods for all test results and referrals.
+
 ## Template Structure
 
 ### 1. Initial Patient Presentation and Chief Complaint

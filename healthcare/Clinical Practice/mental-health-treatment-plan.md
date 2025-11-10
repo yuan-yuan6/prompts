@@ -18,6 +18,21 @@ last_updated: 2025-11-09
 ## Purpose
 Develop comprehensive, evidence-based mental health treatment plans that integrate psychopharmacology, psychotherapy, and psychosocial interventions to support recovery, functional improvement, and enhanced quality of life.
 
+## Quick Start
+
+**HIPAA & 42 CFR Part 2 Compliant Mental Health Treatment Plan (30-45 minutes):**
+
+1. **Privacy-Enhanced Assessment** - Use private setting; explain confidentiality limits (harm to self/others, abuse, court orders); document informed consent for treatment
+2. **Comprehensive Risk Assessment** - Evaluate suicide/homicide risk, self-harm, violence; document safety plan immediately if risk identified
+3. **Diagnostic Formulation** - Document primary/secondary diagnoses (DSM-5 codes), mental status exam, validated assessment scores (PHQ-9, GAD-7)
+4. **Treatment Goals** - Establish 3-6 month measurable goals collaboratively; respect patient autonomy and preferences
+5. **Integrated Treatment Plan** - Psychotherapy modality (CBT, DBT, etc.), medications with informed consent, psychosocial interventions
+6. **Crisis Safety Plan** - Written plan with warning signs, coping strategies, emergency contacts; copy to patient in sealed envelope
+7. **Special Privacy Protections** - Mental health records require separate authorization (more restrictive than general HIPAA); obtain written consent before any disclosure
+8. **Coordination with Caution** - Mental health information sharing requires specific authorization; use minimum necessary when coordinating with other providers
+
+**Enhanced Privacy Requirements:** Mental health/substance use records have additional federal protections under 42 CFR Part 2. Require separate, specific written consent for each disclosure. Never leave psychiatric medication lists visible. Lock clinical notes immediately after documentation.
+
 ## Template
 
 ```

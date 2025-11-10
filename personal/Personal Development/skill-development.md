@@ -15,6 +15,30 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for rapidly acquiring new skills, developing competencies, and achieving mastery through evidence-based learning methodologies and deliberate practice techniques.
 
+## Quick Start
+
+Master any skill 3x faster using deliberate practice and the 80/20 principle.
+
+**Minimal Example:**
+You need to learn Python for a new job in 6 months but don't know where to start. Use this prompt to deconstruct the skill, identify the critical 20% that delivers 80% of results, and create a practice schedule that gets you job-ready efficiently.
+
+**When to Use This:**
+- You need to acquire a new skill quickly for career advancement
+- You're stuck on a learning plateau and need breakthrough strategies
+- You want to go from beginner to competent in record time
+- You're self-teaching and need structure and accountability
+- You want to optimize practice time for maximum skill development
+
+**3-Step Workflow:**
+
+1. **Deconstruct & Analyze** (15 min): Break down the target skill into components, assess your current level, and identify the high-impact 20%
+2. **Generate Strategy** (5 min): Run the prompt to create your personalized learning path with deliberate practice frameworks and milestone markers
+3. **Practice & Track** (ongoing): Follow the daily practice routines, track progress metrics, and iterate using the provided feedback systems
+
+**Time Estimate:** 20 minutes for strategy creation, then 30-120 minutes daily for deliberate practice
+
+**Expected Outcome:** A comprehensive skill acquisition roadmap with accelerated learning techniques, practice schedules, and progress tracking that typically reduces learning time by 50-70% compared to unstructured practice.
+
 ## Template
 
 ```markdown

@@ -14,6 +14,30 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive task prioritization frameworks, decision matrices, workload management systems, and priority alignment strategies that maximize impact and efficiency through systematic task evaluation and resource allocation.
 
+## Quick Start
+
+Transform your overwhelming task list into a clear action plan in under 20 minutes.
+
+**Minimal Example:**
+You have 15 competing tasks and feel paralyzed. Use this prompt to create an Eisenhower Matrix that immediately shows you what to do first, what to schedule, what to delegate, and what to eliminate.
+
+**When to Use This:**
+- You're drowning in competing priorities and don't know where to start
+- Your to-do list has grown to 20+ items and everything feels urgent
+- You need to align daily tasks with long-term strategic goals
+- You're managing multiple projects and need systematic prioritization
+- Decision fatigue is slowing down your productivity
+
+**3-Step Workflow:**
+
+1. **Dump & Define** (5 min): List all your tasks and define your key objectives in the template variables
+2. **Generate Framework** (2 min): Run the prompt to create your customized prioritization system with matrices and scoring
+3. **Act & Adjust** (10 min): Review the output, identify your top 3 priorities, and schedule them immediately
+
+**Time Estimate:** 15-20 minutes for initial setup, then 5 minutes daily for maintenance
+
+**Expected Outcome:** A clear, actionable prioritization system that helps you focus on high-impact work and eliminate time-wasters, typically increasing productive output by 30-50%.
+
 ## Template
 
 ```

@@ -18,6 +18,20 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive patient documentation including medical histories, clinical notes, assessments, progress reports, and discharge summaries that meet regulatory requirements and support continuity of care.
 
+## Quick Start
+
+**HIPAA-Compliant Clinical Documentation (10-15 minutes per note):**
+
+1. **Verify Identity & Access** - Confirm patient identity using two identifiers; ensure authorized access to PHI
+2. **Document Chief Complaint & HPI** - Record presenting problem, onset, duration, severity using OLDCARTS format
+3. **Complete Review of Systems** - Document pertinent positives and negatives across all organ systems
+4. **Physical Examination** - Record vital signs and focused physical exam findings objectively
+5. **Assessment & Plan** - List diagnoses (ICD-10 codes), differential diagnoses, and specific treatment plan
+6. **Secure Authentication** - Sign/authenticate note within required timeframe (typically 24-48 hours)
+7. **Privacy Check** - Verify no unauthorized individuals present; secure workstation when leaving
+
+**HIPAA Documentation Standards:** Use minimum necessary information, maintain audit logs, secure electronic devices, never share login credentials, and report any suspected breaches immediately.
+
 ## Template
 
 ```
