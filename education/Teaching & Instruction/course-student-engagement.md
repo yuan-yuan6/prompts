@@ -17,6 +17,29 @@ last_updated: 2025-11-09
 ## Purpose
 Design comprehensive engagement strategies that motivate students, promote active participation, build learning communities, and sustain involvement throughout the course.
 
+## Quick Start
+
+**For educators who need**: Strategies to increase student participation and motivation
+
+**Essential inputs**:
+- Course title and delivery mode
+- Student profile (level, motivation, size)
+- Current engagement challenges (low attendance, minimal discussion)
+- Priority areas (active learning, discussion, collaboration)
+
+**5-minute starter**:
+1. Identify your biggest engagement problem (students don't attend? Don't prepare? Don't participate?)
+2. Consider WHY (not motivated? Too hard? Not relevant? No accountability?)
+3. Choose ONE strategy to try immediately (think-pair-share, entrance tickets, choice in assignments)
+4. Plan how you'll introduce it and explain the benefit to students
+5. Decide how you'll know if it's working (participation rates, quality of responses)
+
+**Common first use**: "Design engagement strategies for 'Introduction to Biology' - 250 students, required course, twice-weekly lectures. Challenges: students don't attend, use phones in class, don't do readings. Want active learning during lecture, better preparation, peer interaction. Have clicker system and TAs available."
+
+**Expected output**: Comprehensive engagement strategy based on motivation theory (autonomy, competence, relatedness), diverse active learning methods for in-person and online contexts, community-building techniques, participation strategies, systems to sustain engagement and prevent mid-semester slump, re-engagement approaches for struggling students, and evaluation metrics.
+
+**Best for**: Improving low-participation courses, engaging required courses, online community building, replacing passive lectures with active learning, designing discussions, sustaining motivation.
+
 ## Template
 
 ```

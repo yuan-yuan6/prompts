@@ -17,6 +17,23 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive frameworks for designing information architectures, taxonomies, ontologies, metadata schemas, and knowledge organization systems for digital platforms, content management, and information systems.
 
+## Quick Start
+
+**Get started in 3 minutes:**
+
+1. **Analyze User Needs** - Identify primary user groups, information needs, and current content scope
+2. **Design Taxonomy** - Create 4-6 top-level categories with hierarchical classification principles
+3. **Define Metadata** - Establish core descriptive, administrative, and technical metadata elements
+4. **Plan Navigation** - Design global navigation, search functionality, and filtering options
+
+**Minimum Viable Information Architecture:**
+- 1 simple taxonomy with 4-6 main categories (2-3 levels deep)
+- 1 metadata schema with 10-15 core elements (title, description, date, creator, type)
+- 1 search interface with basic filtering
+- 1 navigation system (menu or breadcrumbs)
+
+Perfect for: Information architects, UX designers, content strategists, librarians, and knowledge managers designing digital systems.
+
 ## Template
 
 ```

@@ -15,6 +15,21 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for designing and implementing cloud architecture solutions including AWS, Azure, GCP deployments, multi-cloud strategies, hybrid cloud patterns, cost optimization, and cloud-native application design for scalable enterprise systems.
 
+---
+
+## Quick Start
+
+**Cloud Architecture Setup (3-5 Days):**
+1. **Choose primary cloud provider** - Assess: AWS (broad services, maturity), Azure (Microsoft integration), GCP (data/ML focus) - run POC with key workloads
+2. **Design landing zone** - Set up VPC/VNet with public/private subnets, configure NAT gateways, establish VPN/Direct Connect to on-premise
+3. **Implement IAM and security** - Enable SSO, create roles (admin/developer/readonly), configure security groups, enable CloudTrail/Monitor logging
+4. **Deploy compute resources** - Start with managed services (RDS, EKS/AKS), use auto-scaling groups, implement health checks and load balancing
+5. **Set up cost controls** - Enable budget alerts, tag resources (env:prod, team:engineering), use reserved instances for steady workloads
+
+**Key Decision:** For cost optimization: Dev/test on spot instances (70% savings), production on reserved/savings plans (30-50% savings).
+
+---
+
 ## Template
 
 Design cloud architecture for [SYSTEM_NAME] supporting [USER_COUNT] users, [TRANSACTION_VOLUME] transactions/second, across [CLOUD_PROVIDERS] providers, with [AVAILABILITY_TARGET]% availability, [RTO_TARGET] recovery time objective, [RPO_TARGET] recovery point objective, [COST_BUDGET] monthly budget, achieving [PERFORMANCE_TARGET] performance benchmarks.

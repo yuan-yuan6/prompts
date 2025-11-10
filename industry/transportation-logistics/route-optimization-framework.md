@@ -15,6 +15,45 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for optimizing delivery routes and logistics operations including multi-stop planning, real-time adjustments, constraint management, vehicle routing problems (VRP), and last-mile delivery optimization for maximum efficiency and customer satisfaction.
 
+## Quick Start
+
+**Transportation & Logistics Scenario**: You're responsible for planning daily delivery routes across a service area with varying customer demands, vehicle capacities, delivery time windows, and driver availability constraints.
+
+**Common Applications**:
+- Last-mile delivery optimization for e-commerce or retail
+- Service technician scheduling and routing
+- Food and beverage distribution route planning
+- Pickup and delivery operations with time windows
+- Dynamic routing with real-time order changes
+- Multi-depot vehicle routing problems
+
+**Key Variables to Define**:
+- `[DAILY_DELIVERIES]`: Average daily delivery volume
+- `[SERVICE_AREA]`: Geographic coverage area
+- `[VEHICLE_COUNT]`: Number of vehicles available
+- `[DRIVER_COUNT]`: Number of drivers
+- `[STOP_COUNT]`: Average stops per route
+- `[ON_TIME_RATE]`: Target on-time delivery percentage
+- `[DISTANCE_REDUCTION]`: Target mileage reduction percentage
+
+**Expected Outputs**:
+- Route optimization algorithm with constraint handling
+- Daily route plans with stop sequences and timing
+- Vehicle loading plans with capacity optimization
+- Driver assignment and schedule optimization
+- Real-time route adjustment procedures
+- Performance metrics including miles, time, and stops per route
+- Cost savings analysis and ROI projections
+- Technology implementation roadmap for routing software
+
+**Pro Tips**:
+- Start with historical data to establish baseline performance
+- Model real-world constraints like traffic, parking, and access
+- Balance route density with service time requirements
+- Use clustering algorithms for initial territory design
+- Implement dynamic routing for same-day order changes
+- Consider driver preferences and experience in assignments
+
 ## Template
 
 Design route optimization system for [DAILY_DELIVERIES] deliveries across [SERVICE_AREA] area, [VEHICLE_COUNT] vehicles, [DRIVER_COUNT] drivers, [STOP_COUNT] stops per route, achieving [ON_TIME_RATE]% on-time delivery, [UTILIZATION_TARGET]% vehicle utilization, reducing [DISTANCE_REDUCTION]% total distance with [COST_SAVINGS] operational savings.

@@ -19,6 +19,30 @@ last_updated: 2025-11-09
 ## Purpose
 Implement comprehensive SRE practices including SLO/SLI definition, error budgets, incident management, monitoring, alerting, and reliability engineering for production systems.
 
+## Quick Start
+
+**Implement SRE practices in 5 steps:**
+
+1. **Define Service Level Indicators (SLIs)**: Identify key metrics that matter to users - availability, latency, error rate, throughput
+2. **Set Service Level Objectives (SLOs)**: Establish realistic targets (e.g., 99.9% availability, <200ms p95 latency) with measurement windows
+3. **Calculate Error Budgets**: Define acceptable downtime (e.g., 0.1% = 43.2 min/month) and burn rate thresholds
+4. **Deploy Monitoring Stack**: Set up Prometheus/Grafana or DataDog with dashboards showing SLI compliance and error budget burn
+5. **Create Incident Runbooks**: Document response procedures, escalation paths, and postmortem templates
+
+**Quick SLO Example:**
+```yaml
+service: api-gateway
+slo:
+  availability: 99.9%  # 43.2 min downtime/month
+  latency_p95: 200ms
+  error_rate: <1%
+  measurement_window: 30_days
+
+error_budget:
+  total: 0.1%
+  alert_on_burn_rate: 2x  # Alert if burning budget 2x faster than planned
+```
+
 ## Template Structure
 
 ### SRE Overview

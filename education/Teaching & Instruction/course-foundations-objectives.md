@@ -17,6 +17,29 @@ last_updated: 2025-11-09
 ## Purpose
 Establish the pedagogical foundation and define clear, measurable learning objectives for your course that align with institutional goals and professional standards.
 
+## Quick Start
+
+**For educators who need**: Clear, measurable learning objectives as the foundation for course design
+
+**Essential inputs**:
+- Course title and academic level
+- Subject area and content focus
+- Target student population
+- Real-world applications of the content
+
+**5-minute starter**:
+1. Complete this sentence: "By the end of this course, students will be able to..."
+2. Use action verbs from Bloom's Taxonomy (analyze, create, evaluate) not vague terms (understand, learn)
+3. Write 4-6 objectives spanning different cognitive levels (some foundational, some advanced)
+4. For each objective, note HOW it will be measured
+5. Check that objectives are realistic for your course timeframe
+
+**Common first use**: "Help me establish foundations for 'Digital Marketing Analytics' - undergraduate, 3-credit course for business juniors. Focus on data-driven decision making, analytics tools, campaign optimization. Students need to: analyze marketing data, use analytics platforms, make evidence-based recommendations."
+
+**Expected output**: Educational philosophy and pedagogical approach, course mission aligned with institutional goals, 4-6 SMART learning objectives across Bloom's taxonomy levels, measurable success criteria for each objective, recommended course structure and sequencing, and identification of key success factors.
+
+**Best for**: Starting course design, clarifying course purpose, aligning with program objectives, writing syllabi, ensuring measurability, guiding all other course design decisions.
+
 ## Template
 
 ```

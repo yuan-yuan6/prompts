@@ -29,6 +29,19 @@ Use this prompt to:
 
 ---
 
+## Quick Start
+
+**Pre-Launch Testing (4 Hours):**
+1. **Validate data accuracy** - Compare 10 key metrics against source systems (revenue totals, counts), verify calculations match specifications
+2. **Test all interactions** - Click every filter, drill-down, export button - ensure cross-filtering works, no broken links
+3. **Performance test** - Load dashboard with 10-20 concurrent users, verify <3 sec load time, identify slow queries
+4. **UAT with real users** - Have 5-10 actual users test for 1 week, document issues, get sign-off from business owner
+5. **Create deployment runbook** - Document: backup procedure, deployment steps, rollback plan, smoke test checklist
+
+**Key Decision:** Deploy during low-usage window (weekend/evening). Keep old version available for 24 hours in case rollback needed.
+
+---
+
 ## Prompt
 
 I need to design a comprehensive testing, deployment, and maintenance framework for a dashboard solution with the following context:

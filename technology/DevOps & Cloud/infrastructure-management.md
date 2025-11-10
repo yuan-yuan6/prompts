@@ -19,6 +19,30 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive infrastructure management including provisioning, scaling, monitoring, maintenance, and optimization for cloud and on-premises environments.
 
+## Quick Start
+
+**Set up infrastructure management in 5 steps:**
+
+1. **Inventory Existing Infrastructure**: Document all resources, their configurations, dependencies, and current utilization metrics
+2. **Implement Infrastructure as Code**: Convert manual infrastructure to Terraform/CloudFormation with version control
+3. **Configure Auto-Scaling**: Set up horizontal and vertical scaling policies based on CPU, memory, and custom metrics
+4. **Deploy Monitoring & Alerting**: Implement CloudWatch/Prometheus with dashboards for resource utilization and health
+5. **Establish Maintenance Windows**: Create automated patching schedules, backup strategies, and disaster recovery procedures
+
+**Quick Infrastructure Setup:**
+```bash
+# Deploy infrastructure with auto-scaling
+terraform apply -var="min_instances=2" -var="max_instances=10"
+
+# Configure monitoring alerts
+aws cloudwatch put-metric-alarm --alarm-name high-cpu \
+  --alarm-actions <sns-topic> --metric-name CPUUtilization \
+  --threshold 80 --comparison-operator GreaterThanThreshold
+
+# Schedule automated backups
+aws backup create-backup-plan --backup-plan file://backup-plan.json
+```
+
 ## Template Structure
 
 ### Infrastructure Overview

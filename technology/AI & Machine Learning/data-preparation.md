@@ -19,6 +19,41 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive data preparation for machine learning including feature engineering, data labeling, augmentation, preprocessing, and quality assurance for robust model training.
 
+## Quick Start
+
+**Prepare ML data in 5 steps:**
+
+1. **Collect & Clean Data**: Gather raw data from sources, handle missing values, remove duplicates, fix data types and outliers
+2. **Perform EDA**: Analyze distributions, correlations, class balance; visualize patterns; identify data quality issues
+3. **Engineer Features**: Create new features, encode categoricals (one-hot/label), scale numericals (standard/min-max), select top features
+4. **Split & Augment**: Create train/val/test splits (70/15/15), apply augmentation to training data (rotation, noise, SMOTE)
+5. **Validate Quality**: Check for data leakage, verify distributions match, ensure no test contamination, document transformations
+
+**Quick Data Preparation Pipeline:**
+```python
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler
+
+# Load and clean
+df = pd.read_csv('data.csv')
+df = df.dropna().drop_duplicates()
+
+# Feature engineering
+df['new_feature'] = df['col1'] / df['col2']
+df = pd.get_dummies(df, columns=['category'])
+
+# Split data
+X_train, X_test, y_train, y_test = train_test_split(
+    df.drop('target', axis=1), df['target'], test_size=0.2, random_state=42
+)
+
+# Scale features
+scaler = StandardScaler()
+X_train_scaled = scaler.fit_transform(X_train)
+X_test_scaled = scaler.transform(X_test)
+```
+
 ## Template Structure
 
 ### Data Overview

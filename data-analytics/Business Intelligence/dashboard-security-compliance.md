@@ -29,6 +29,19 @@ Use this prompt to:
 
 ---
 
+## Quick Start
+
+**Security Setup Checklist (2 Hours):**
+1. **Enable SSO with MFA** - Integrate with existing identity provider (Okta, Azure AD), require MFA for all users
+2. **Define 3-5 roles** - Map users to roles (Executive → all data aggregated, Manager → department only, Analyst → detailed access)
+3. **Implement row-level security** - Filter data by user attributes (e.g., WHERE region = user.region, WHERE department = user.department)
+4. **Mask sensitive data** - Hide PII/PHI (SSN, DOB) except for authorized roles, use data masking for financial data
+5. **Enable audit logging** - Log all access to sensitive dashboards, track data exports, set up alerts for unusual activity
+
+**Key Decision:** For HIPAA/SOX compliance, enable encryption at rest (AES-256), in transit (TLS 1.2+), and implement full audit trails.
+
+---
+
 ## Prompt
 
 I need to design a comprehensive security and compliance framework for a dashboard solution with the following requirements:

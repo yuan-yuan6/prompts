@@ -15,6 +15,46 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for implementing site reliability engineering practices including monitoring systems, alerting strategies, incident management, SLO/SLI definition, chaos engineering, and building resilient systems for maximum uptime and performance.
 
+## Quick Start
+
+**Establish SRE practices in 5 steps:**
+
+1. **Define SLOs & SLIs**: Choose user-impacting metrics (availability, latency p95/p99, error rate), set targets, calculate error budgets
+2. **Deploy Observability Stack**: Set up metrics (Prometheus), logs (Loki/ELK), traces (Jaeger), create SLO dashboards
+3. **Implement Alerting**: Configure alerts on SLO violations, error budget burn rate, and actionable symptoms (not causes)
+4. **Create Incident Procedures**: Document on-call rotation, escalation paths, runbooks, postmortem templates
+5. **Start Chaos Engineering**: Run controlled failure experiments weekly - pod kills, network latency, resource exhaustion
+
+**Quick SRE Setup:**
+```yaml
+# SLO Definition
+apiVersion: monitoring/v1
+kind: ServiceLevelObjective
+metadata:
+  name: api-availability
+spec:
+  service: payment-api
+  sli:
+    type: availability
+    query: sum(rate(http_requests_total{code!~"5.."}[5m])) / sum(rate(http_requests_total[5m]))
+  slo:
+    target: 99.9  # 99.9% availability
+    window: 30d   # 30-day rolling window
+  errorBudget:
+    total: 0.1    # 0.1% error budget
+    alertOnBurnRate: 2.0  # Alert at 2x burn rate
+```
+
+```bash
+# Deploy monitoring
+kubectl apply -f prometheus-operator.yaml
+kubectl apply -f grafana-dashboards.yaml
+kubectl apply -f alertmanager-config.yaml
+
+# Run chaos experiment
+chaos run experiment.yaml  # Kill random pods
+```
+
 ## Template
 
 Implement SRE practices for [SERVICE_NAME] supporting [REQUEST_VOLUME] requests/second, [USER_BASE] users, achieving [AVAILABILITY_TARGET]% availability, [ERROR_BUDGET] error budget, [LATENCY_P99] p99 latency, [MTTR_TARGET] MTTR, [BURN_RATE] burn rate threshold, with [TOIL_REDUCTION]% toil reduction target.

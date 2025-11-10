@@ -17,6 +17,30 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive grant proposals, funding applications, budget justifications, and impact statements for academic research funding opportunities.
 
+## Quick Start
+
+**For educators and researchers who need**: A complete grant proposal for academic research funding
+
+**Essential inputs**:
+- Funding agency and program name
+- Research project title and domain
+- Research problem and objectives
+- Requested budget amount
+- Project duration
+
+**5-minute starter**:
+1. Draft a 2-sentence problem statement: What issue are you addressing and why is it urgent?
+2. Write your primary research objective in one clear sentence (what will you accomplish?)
+3. Note your methodology in 3-4 bullet points (how will you do the research?)
+4. List expected impacts: scientific contribution, societal benefit, and who benefits
+5. Identify your team's key qualifications and why you're positioned to succeed
+
+**Common first use**: "Create grant proposal for NSF research project 'Machine Learning for Climate Prediction' - 3-year project, $500K budget. Principal Investigator: Dr. Smith, Computer Science. Research problem: current climate models lack accuracy for regional predictions. Objectives: develop ML algorithms for regional climate forecasting. Methodology: neural networks with historical climate data."
+
+**Expected output**: Complete 12-section grant proposal including executive summary, problem statement, literature review, research design and methodology, team qualifications, detailed timeline with milestones, comprehensive budget with justifications, impact assessment, dissemination plan, ethics compliance, institutional support letters, and evaluation framework.
+
+**Best for**: Federal grant applications (NSF, NIH, NEH), foundation proposals, institutional funding requests, collaborative research proposals, early-career faculty applications, dissertation research funding.
+
 ## Template
 
 ```

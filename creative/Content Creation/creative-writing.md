@@ -18,6 +18,18 @@ last_updated: 2025-11-09
 ## Purpose
 Generate compelling creative writing including stories, scripts, poetry, novels, and fictional content with engaging narratives, character development, and literary techniques.
 
+## Quick Start
+
+To use this template effectively:
+
+1. **Define Your Project** - Start with writing type, genre, target audience, and desired length
+2. **Establish Core Elements** - Set your theme, setting, tone, and point of view before writing
+3. **Develop Characters** - Create your main and supporting characters with clear motivations and conflicts
+4. **Outline Your Plot** - Map the key story beats: opening hook, rising action, climax, and resolution
+5. **Set Style Guidelines** - Define your language level, narrative style, and literary devices
+
+**Pro Tip**: For short stories, focus on a single character arc and limited setting. For longer works, start with detailed character backgrounds and a comprehensive plot outline.
+
 ## Template Structure
 
 ### Writing Project Overview

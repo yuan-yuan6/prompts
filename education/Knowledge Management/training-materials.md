@@ -17,6 +17,23 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive frameworks for developing training manuals, tutorials, workshops, e-learning courses, and educational resources for corporate training, professional development, and skill building programs.
 
+## Quick Start
+
+**Get started in 3 minutes:**
+
+1. **Define Your Training Objective** - Identify target audience, learning domain, and training delivery type (e-learning, workshop, manual)
+2. **Select Instructional Model** - Choose learning theory approach (ADDIE, SAM, etc.) and assessment strategy
+3. **Build Core Framework** - Create learning objectives, module structure, and content development plan
+4. **Add Quality Controls** - Establish review process, pilot testing approach, and feedback integration methods
+
+**Minimum Viable Training Program:**
+- 1 clear training objective with measurable outcomes
+- 3-5 learning modules with specific objectives
+- 1 assessment per module (knowledge check or practical application)
+- 1 evaluation method (satisfaction survey or performance measurement)
+
+Perfect for: Corporate trainers, instructional designers, HR professionals, and educators developing comprehensive training programs.
+
 ## Template
 
 ```

@@ -18,6 +18,18 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive design systems with reusable components, design tokens, and style guidelines to ensure consistency, scalability, and efficiency across digital products.
 
+## Quick Start
+
+To use this template effectively:
+
+1. **Establish Foundations** - Start with color palette, typography scale, and spacing system before building components
+2. **Define Design Principles** - Create 3-5 core principles that guide all design decisions
+3. **Build Core Components** - Begin with the most-used elements: buttons, form inputs, cards, and navigation
+4. **Create Design Tokens** - Abstract your design values (colors, spacing, typography) into reusable tokens
+5. **Document Everything** - For each component, include anatomy, usage guidelines, states, and code examples
+
+**Pro Tip**: Audit your existing designs first to identify the most frequently used patterns, then standardize those before creating new components.
+
 ## Template
 
 ```

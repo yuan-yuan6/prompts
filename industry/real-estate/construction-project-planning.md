@@ -15,6 +15,18 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for planning and executing construction projects including scheduling, resource allocation, cost control, quality management, safety protocols, and stakeholder coordination for successful project delivery.
 
+## Quick Start
+
+To use this template effectively:
+
+1. **Define Your Project** - Start by filling in the basic project parameters: name, budget, timeline, size, and complexity level
+2. **Customize Project Phases** - Adapt the six standard phases (Pre-Construction, Site Preparation, Foundation, Structural, MEP, Finishing) to match your project type
+3. **Set Up Schedule** - Use the Critical Path Method framework to establish major milestones and activity sequencing
+4. **Allocate Resources** - Define your workforce, equipment, materials, and subcontractor requirements
+5. **Establish Controls** - Implement budget tracking, quality standards, and safety protocols from day one
+
+**Pro Tip**: Start with a smaller subset of the template for initial planning, then expand sections as your project progresses through different phases.
+
 ## Template
 
 Plan construction project [PROJECT_NAME] with [PROJECT_VALUE] budget, [PROJECT_DURATION] timeline, [SQUARE_FOOTAGE] sq ft, [COMPLEXITY_LEVEL] complexity, involving [CONTRACTOR_COUNT] contractors, [WORKER_COUNT] workers, achieving [QUALITY_STANDARD] quality standards, [SAFETY_TARGET] safety record, and [COMPLETION_DATE] completion target.

@@ -18,6 +18,26 @@ last_updated: 2025-11-09
 ## Purpose
 Create engaging, accessible science communication that bridges the gap between complex research and public understanding through popular science articles, technical blogs, educational content, and multimedia storytelling.
 
+## Quick Start
+
+**Get started in 3 minutes:**
+
+1. **Know Your Audience** - Identify reader level (general public, educated nonexperts, enthusiasts) and set readability target (Flesch 60-70 for general)
+2. **Craft Story Structure** - Hook opening (surprising fact/question) → Problem → Scientific journey → Discovery → Implications → Future questions
+3. **Translate Technical Terms** - Use analogies, define jargon naturally, replace complex terms with functional descriptions
+4. **Verify Accuracy** - Cross-reference multiple sources, check with experts, acknowledge limitations and uncertainty
+
+**Minimum Viable Science Article:**
+- 1 compelling hook (surprising statistic, question, or personal connection)
+- 1 clear problem statement with real-world relevance
+- 3-5 key findings explained in accessible language
+- 2-3 concrete examples or analogies
+- 1-2 supporting visuals (infographic, photo, or diagram)
+- 1 source verification (peer-reviewed research or expert interview)
+- 800-1500 words with proper citations
+
+Perfect for: Science writers, communicators, journalists, educators, and researchers writing for popular audiences.
+
 ## Template
 
 ```

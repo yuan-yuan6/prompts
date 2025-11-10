@@ -19,6 +19,21 @@ last_updated: 2025-11-09
 ## Purpose
 Design and implement Infrastructure as Code solutions using Terraform, Ansible, Kubernetes, and other IaC tools to automate provisioning, configuration, deployment, and management of cloud and on-premises infrastructure.
 
+---
+
+## Quick Start
+
+**IaC Implementation (2-3 Days):**
+1. **Set up Terraform backend** - Configure S3/Azure Storage for state, enable state locking with DynamoDB/Azure Blob, initialize Git repo
+2. **Create modular structure** - Organize by environment (dev/staging/prod) and service (network/compute/database), use separate state files
+3. **Define base infrastructure** - Write Terraform modules for VPC/VNet, subnets, security groups, IAM roles - apply to dev environment first
+4. **Add Ansible for configuration** - Create playbooks for OS setup, application deployment, monitoring agents - test on single instance
+5. **Deploy Kubernetes cluster** - Use managed service (EKS/AKS/GKE) via Terraform, configure node pools, install core services (ingress, cert-manager)
+
+**Key Decision:** Start with managed services (RDS vs. self-hosted DB, EKS vs. vanilla K8s) to reduce operational complexity.
+
+---
+
 ## Template Structure
 
 ### IaC Overview

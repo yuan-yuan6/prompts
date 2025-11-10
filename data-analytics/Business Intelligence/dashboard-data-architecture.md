@@ -29,6 +29,19 @@ Use this prompt to:
 
 ---
 
+## Quick Start
+
+**Data Pipeline Setup (1 Day):**
+1. **Map source systems to KPIs** - List data sources (Salesforce, NetSuite, databases), identify tables/fields needed for each KPI
+2. **Choose extraction method** - Use incremental loads for large tables (WHERE modified_date > last_run), full refresh for small reference data
+3. **Design star schema** - Create fact table (transactions grain), dimension tables (customer, product, date), implement Type 2 SCD for history
+4. **Build initial ETL pipeline** - Extract from sources, transform (clean, validate, aggregate), load to data warehouse on schedule
+5. **Implement data quality checks** - Validate completeness (no nulls in key fields), accuracy (totals match sources), timeliness (data <2 hours old)
+
+**Key Decision:** For data freshness needs: Real-time (<5 min) → CDC/streaming, Hourly → incremental batch, Daily → overnight batch processing.
+
+---
+
 ## Prompt
 
 I need to design a comprehensive data architecture for a dashboard solution with the following requirements:

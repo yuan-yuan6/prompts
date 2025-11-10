@@ -17,6 +17,18 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive motion graphics projects including animations, effects, and transitions for digital media, broadcast, and interactive applications.
 
+## Quick Start
+
+To use this template effectively:
+
+1. **Define Project Brief** - Specify animation type, duration, target audience, primary objective, and visual style
+2. **Set Technical Specs** - Establish resolution, frame rate, aspect ratio, and deliverable format requirements
+3. **Develop Style Concepts** - Create 2-3 visual direction concepts with different animation approaches
+4. **Plan Scene Breakdown** - Map out key scenes with timing, visual elements, and transitions
+5. **Establish Animation Style** - Define movement style (fluid/snappy), timing approach, and transition techniques
+
+**Pro Tip**: Create a detailed storyboard or animatic before diving into production to align on timing, pacing, and visual direction with stakeholders.
+
 ## Template
 
 ```

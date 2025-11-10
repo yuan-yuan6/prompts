@@ -17,6 +17,29 @@ last_updated: 2025-11-09
 ## Purpose
 Design a comprehensive, balanced assessment strategy that measures learning objectives through diverse methods, provides meaningful feedback, and promotes student growth.
 
+## Quick Start
+
+**For educators who need**: A complete assessment strategy aligned with learning objectives
+
+**Essential inputs**:
+- Course title and duration
+- 3-5 key learning objectives
+- Student level
+- Any required assessments (departmental exam, etc.)
+
+**5-minute starter**:
+1. For each learning objective, identify HOW you'll know if students achieved it
+2. List types of assessments you're considering (quizzes, papers, projects, exams)
+3. Decide rough grade distribution (e.g., 30% formative, 40% projects, 30% exams)
+4. Note when major assessments will occur (spread throughout or end-loaded?)
+5. Identify where students will get feedback to improve before high-stakes assessment
+
+**Common first use**: "Design assessment strategy for 'Introduction to Biology' - 200 students, 15 weeks. Objectives: understand cellular processes, apply scientific method, analyze data, evaluate research. Need automated quizzes for efficiency, but want some authentic assessment. Required: comprehensive final exam (30%). LMS with auto-grading available."
+
+**Expected output**: Complete assessment plan with formative and summative strategies, grading breakdown with justification, assessment calendar, detailed rubrics for major assignments, feedback systems, validity and reliability considerations, and options for revision and growth.
+
+**Best for**: New course design, assessment redesign, improving alignment between objectives and evaluation, creating rubrics, balancing formative and summative assessment, planning feedback systems.
+
 ## Template
 
 ```

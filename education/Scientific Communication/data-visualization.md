@@ -18,6 +18,25 @@ last_updated: 2025-11-09
 ## Purpose
 Create compelling, accurate scientific visualizations including charts, graphs, infographics, and visual abstracts that effectively communicate complex data, enhance understanding, and meet publication standards across diverse research disciplines.
 
+## Quick Start
+
+**Get started in 3 minutes:**
+
+1. **Select Chart Type** - Match data type to visualization (comparison→bar, relationship→scatter, distribution→histogram, trend→line)
+2. **Design for Clarity** - Use clear axis labels, appropriate color schemes (colorblind-friendly), readable fonts (28-32pt body)
+3. **Add Statistical Elements** - Include error bars (define type), significance indicators, sample sizes, effect sizes
+4. **Write Descriptive Caption** - Start with finding, add methods/statistics, specify all abbreviations and symbols
+
+**Minimum Viable Visualization:**
+- 1 appropriately chosen chart type for your data
+- Clear title and axis labels with units
+- Colorblind-accessible color palette (max 6-8 colors)
+- Legend with all symbols/colors explained
+- Complete caption (what, how, sample size, statistical test)
+- High resolution (300 DPI for print, 150 DPI for digital)
+
+Perfect for: Researchers, scientists, data analysts, and educators creating publication-quality figures and scientific graphics.
+
 ## Template
 
 ```

@@ -18,6 +18,24 @@ last_updated: 2025-11-09
 ## Purpose
 Conduct comprehensive, constructive peer reviews that maintain scientific rigor while providing actionable feedback to improve research quality, advance knowledge, and support scholarly communication across disciplines.
 
+## Quick Start
+
+**Get started in 3 minutes:**
+
+1. **Initial Assessment** - Check scope alignment, quality indicators, and immediate concerns (ethics, major flaws)
+2. **Evaluate Core Elements** - Review methodology rigor, literature integration, statistical analysis, and data accuracy
+3. **Structure Feedback** - Organize as: summary assessment, detailed strengths/concerns, specific recommendations
+4. **Make Recommendation** - Choose: Accept, Minor Revision, Major Revision, or Reject with clear justification
+
+**Minimum Viable Review:**
+- 1 summary paragraph (2-3 sentences) with overall assessment
+- 3-5 major strengths identified
+- 3-5 key concerns or issues raised
+- 5-10 specific, actionable recommendations
+- 1 clear decision with reasoning
+
+Perfect for: Academic reviewers, journal editors, grant panelists, and researchers conducting manuscript or proposal evaluations.
+
 ## Template
 
 ```

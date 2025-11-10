@@ -19,6 +19,18 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for managing clinical trials including protocol development, patient recruitment, regulatory compliance, data management, safety monitoring, and results analysis for advancing medical research and drug development.
 
+## Quick Start
+
+**Get started in 3 steps:**
+
+1. **Develop Scientific Protocol** - Design rigorous study ([STUDY_DESIGN]) with clear endpoints ([PRIMARY_ENDPOINTS], [SECONDARY_ENDPOINTS]), appropriate statistical power ([STATISTICAL_PLAN]), and regulatory strategy ([IND_APPLICATION]).
+
+2. **Build Trial Infrastructure** - Select qualified sites ([FEASIBILITY_ASSESSMENT]), implement technology platforms (EDC, CTMS, IWRS), train investigators ([TRAINING_REQUIREMENTS]), and establish monitoring plan ([MONITORING_PLAN]).
+
+3. **Execute with Compliance** - Recruit and retain patients ([RECRUITMENT_RATE]%, [RETENTION_RATE]%), maintain data quality ([DATA_QUALITY]), monitor safety rigorously ([SAE_MONITORING]), and ensure GCP compliance throughout.
+
+**Example:** "Manage Phase II rare disease trial: 50 patients, 10 specialized sites, 24-month duration, biomarker endpoints, adaptive design, targeting regulatory approval with $8M budget."
+
 ## Template
 
 Manage clinical trial [TRIAL_NAME] for [INDICATION] with [PATIENT_TARGET] participants, [TRIAL_PHASES] phase study, [SITE_COUNT] sites, [TRIAL_DURATION] duration, targeting [EFFICACY_ENDPOINT] primary endpoint, [SAFETY_PROFILE] safety profile, achieving [RECRUITMENT_RATE]% enrollment and [RETENTION_RATE]% retention.

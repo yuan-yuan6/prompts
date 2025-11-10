@@ -14,6 +14,47 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive smart grid implementation strategies, infrastructure modernization plans, technology deployment roadmaps, and digital transformation initiatives that enhance grid reliability, efficiency, and sustainability while integrating renewable energy sources and enabling demand response programs.
 
+## Quick Start
+
+**Energy & Utilities Scenario**: You're leading a multi-year smart grid transformation program to modernize infrastructure, integrate renewable energy, improve reliability, enable customer participation, and create a more resilient and efficient grid.
+
+**Common Applications**:
+- Utility-wide smart grid modernization programs
+- AMI deployment for residential and commercial customers
+- Distribution automation and self-healing grid implementation
+- Renewable energy integration and storage deployment
+- Customer engagement platforms and demand-side programs
+- Grid analytics and artificial intelligence implementation
+
+**Key Variables to Define**:
+- `[UTILITY_NAME]`: Your utility name
+- `[UTILITY_TYPE]`: IOU, municipal, cooperative, etc.
+- `[SERVICE_AREA]`: Territory and customer demographics
+- `[CURRENT_INFRASTRUCTURE]`: Baseline grid condition and technology
+- `[SMART_GRID_TECHNOLOGIES]`: Specific technologies to deploy
+- `[IMPLEMENTATION_TIMELINE]`: Program duration and phases
+- `[BUDGET_PARAMETERS]`: Total investment and funding sources
+
+**Expected Outputs**:
+- Smart grid strategic plan with vision and objectives
+- Technology assessment and gap analysis
+- Multi-year implementation roadmap with phases
+- AMI deployment plan with communication infrastructure
+- Distribution automation strategy with device placement
+- DER integration framework with interconnection standards
+- Data management and analytics platform design
+- Customer engagement and demand response programs
+- Cybersecurity framework for grid protection
+- Business case with costs, benefits, and ROI analysis
+
+**Pro Tips**:
+- Conduct stakeholder engagement before major technology decisions
+- Phase implementation to manage risk and learn from pilots
+- Establish data governance early for analytics success
+- Plan for change management and workforce training
+- Build cybersecurity into architecture from the start
+- Create regulatory strategy for cost recovery and incentives
+
 ## Template
 
 ```

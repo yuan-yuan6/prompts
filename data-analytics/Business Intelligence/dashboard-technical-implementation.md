@@ -29,6 +29,19 @@ Use this prompt to:
 
 ---
 
+## Quick Start
+
+**Platform Selection in 1 Hour:**
+1. **Assess user base and budget** - Count users (100+ users → Power BI/Tableau, <50 users → consider Metabase), check budget ($50-150/user/month typical)
+2. **Test with POC** - Download trial versions, load actual data, build 2-3 key dashboards in each platform
+3. **Evaluate performance** - Test with realistic data volumes (1M+ rows → extract/cache required, <100K → live connection works)
+4. **Design caching strategy** - Pre-aggregate daily/monthly summaries, cache query results 15-30 min, use CDN for static assets
+5. **Set up monitoring** - Track dashboard load times (<3 sec target), query performance, concurrent users
+
+**Key Decision:** For 1M+ rows, use extracts/aggregations. For real-time needs (<5 min latency), implement incremental refresh or streaming.
+
+---
+
 ## Prompt
 
 I need to design the technical architecture and select platforms for a dashboard solution with the following requirements:

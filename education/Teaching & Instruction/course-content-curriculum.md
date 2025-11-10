@@ -17,6 +17,29 @@ last_updated: 2025-11-09
 ## Purpose
 Develop comprehensive course content, organize curriculum with clear learning progressions, and create a detailed curriculum map that aligns content with learning objectives.
 
+## Quick Start
+
+**For educators who need**: A structured approach to organizing course content and creating a curriculum map
+
+**Essential inputs**:
+- Course title and duration
+- Learning objectives from your course foundations
+- List of topics to cover
+- Student academic level
+
+**5-minute starter**:
+1. List all major topics you need to cover in your course
+2. For each topic, note: essential concepts, estimated time needed, and prerequisites
+3. Arrange topics in a logical sequence from foundational to advanced
+4. Create a simple week-by-week outline showing progression
+5. Identify where each learning objective is addressed
+
+**Common first use**: "Help me create a curriculum map for 'Introduction to Psychology' - 15 weeks, undergraduate level. Core topics: research methods, biological psychology, development, learning, memory, social psychology. Learning objectives include understanding major theories, applying concepts to real life, and evaluating research."
+
+**Expected output**: A comprehensive curriculum map showing weekly topics, learning progressions, content types, activities, and assessments aligned with objectives - plus guidance on instructional materials and sequencing rationale.
+
+**Best for**: Organizing new courses, redesigning existing courses for better flow, aligning content with learning outcomes, planning multi-modal instructional materials.
+
 ## Template
 
 ```

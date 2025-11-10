@@ -17,6 +17,23 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive frameworks for documenting organizational standards, guidelines, procedures, best practices, and operational excellence initiatives across various business functions and industries.
 
+## Quick Start
+
+**Get started in 3 minutes:**
+
+1. **Identify Standards Scope** - Define organization type, industry sector, business function, and regulatory requirements
+2. **Establish Taxonomy** - Create standards hierarchy (corporate, functional, process, work instructions levels)
+3. **Develop Core Standards** - Document mandatory standards first, then recommended and optional guidelines
+4. **Setup Governance** - Create standards governance board, approval process, and compliance monitoring approach
+
+**Minimum Viable Standards Program:**
+- 1 standards program overview with clear mission
+- 3-5 critical mandatory standards documented
+- 1 approval workflow for new/updated standards
+- 1 compliance monitoring method (quarterly reviews or audits)
+
+Perfect for: Quality managers, compliance officers, process improvement specialists, and organizational excellence consultants.
+
 ## Template
 
 ```

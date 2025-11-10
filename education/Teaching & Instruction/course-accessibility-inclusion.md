@@ -17,6 +17,29 @@ last_updated: 2025-11-09
 ## Purpose
 Create an inclusive, accessible course that supports diverse learners through Universal Design for Learning, accommodations, and culturally responsive practices.
 
+## Quick Start
+
+**For educators who need**: To make their course accessible and inclusive for all learners
+
+**Essential inputs**:
+- Course title and delivery mode (online/in-person/hybrid)
+- Known student diversity (learning disabilities, English learners, etc.)
+- Current accessibility level (starting from scratch vs. some features in place)
+- Priority areas to address
+
+**5-minute starter**:
+1. Identify one aspect of your course where students face barriers (videos without captions, text-heavy materials, timed assessments)
+2. Note who is most affected (visual impairments, ADHD, English learners, etc.)
+3. List 2-3 quick wins you could implement immediately (add captions, provide outlines, extend time)
+4. Consider what content you present in only one format and plan alternatives
+5. Draft a simple accessibility statement for your syllabus
+
+**Common first use**: "Design accessibility plan for 'Introduction to Biology' - fully online, 150 students including students with learning disabilities and English learners. Currently minimal accessibility features. Need to meet WCAG standards and implement UDL principles. Priority: digital accessibility."
+
+**Expected output**: Comprehensive accessibility plan with UDL framework (multiple means of representation, engagement, expression), WCAG compliance checklist, accommodation strategies for various disabilities, culturally responsive practices, and ready-to-use syllabus accessibility statement.
+
+**Best for**: New course launches, accessibility audits, responding to accommodation requests, redesigning courses for inclusivity, meeting institutional requirements.
+
 ## Template
 
 ```

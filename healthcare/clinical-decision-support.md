@@ -14,6 +14,18 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive clinical decision support systems covering diagnosis assistance, drug interaction checking, clinical alerts, evidence-based guidelines, and AI-powered recommendations to enhance patient care quality, safety, and clinical outcomes while supporting healthcare provider decision-making.
 
+## Quick Start
+
+**Get started in 3 steps:**
+
+1. **Identify Clinical Priorities** - Select high-impact use cases (e.g., sepsis detection, drug interactions, diagnostic support) based on patient safety risks, outcome gaps, and provider needs.
+
+2. **Implement Evidence-Based Rules** - Integrate clinical guidelines ([CLINICAL_GUIDELINES]) into your EHR system ([EHR_PLATFORM]), configure alert thresholds to minimize fatigue while maximizing safety.
+
+3. **Measure Clinical Impact** - Track key metrics including alert override rates ([OVERRIDE_RATE]), time to intervention ([RESPONSE_TIME]), and patient outcomes ([OUTCOME_IMPROVEMENT]) to demonstrate value.
+
+**Example:** "Implement CDS system for 500-bed hospital covering sepsis alerts, medication interactions, and diagnostic support, targeting 30% reduction in adverse events with 85% provider adoption."
+
 ## Template
 
 ```

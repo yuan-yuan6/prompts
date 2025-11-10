@@ -19,6 +19,17 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for optimizing investment portfolios including asset allocation, risk management, performance analysis, rebalancing strategies, tax optimization, and alternative investments for maximizing risk-adjusted returns.
 
+## Quick Start
+
+**For Portfolio Managers & Investors:**
+1. **Define Investment Objectives** - Start with Section 1 to establish risk tolerance, return targets, and time horizon
+2. **Set Strategic Allocation** - Use Section 2 to determine target percentages across stocks, bonds, alternatives, and cash
+3. **Implement Risk Controls** - Section 3 guides setting up VaR limits, concentration limits, and hedging strategies
+4. **Choose Optimization Model** - Reference Section 5 to select mean-variance, Black-Litterman, or factor-based approach
+5. **Establish Rebalancing Rules** - Section 6 helps set quarterly calendar or 5% threshold rebalancing triggers
+
+**Quick Win:** Implement tax-loss harvesting (Section 7) to capture $5-20K annual tax savings while maintaining market exposure through replacement securities.
+
 ## Template
 
 Design investment portfolio for [INVESTOR_NAME] with $[PORTFOLIO_VALUE] assets, [RISK_TOLERANCE] risk profile, [TIME_HORIZON] investment horizon, targeting [RETURN_TARGET]% annual returns, [VOLATILITY_LIMIT]% volatility, achieving [SHARPE_RATIO] Sharpe ratio and [ALPHA_TARGET]% alpha generation.

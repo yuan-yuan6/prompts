@@ -14,6 +14,18 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive telemedicine platform strategies covering virtual care delivery, clinical workflows, reimbursement optimization, patient engagement, and outcome measurement to enhance healthcare accessibility, quality, and efficiency while ensuring regulatory compliance and clinical effectiveness.
 
+## Quick Start
+
+**Get started in 3 steps:**
+
+1. **Define Clinical Scope** - Select specialties to offer ([SPECIALTY_AREAS]), target patient population ([PATIENT_POPULATION]), and service types (e.g., urgent care, chronic disease management, consultations).
+
+2. **Select Technology Stack** - Choose HIPAA-compliant video platform ([VIDEO_PLATFORM]), integrate with existing EHR ([EHR_INTEGRATION]), and set up secure patient communication channels.
+
+3. **Establish Clinical Workflows** - Create virtual visit protocols, provider training programs, scheduling systems, and emergency escalation procedures to ensure quality care delivery.
+
+**Example:** "Launch telemedicine platform for primary care serving 10,000 patients with 20 providers, offering urgent care, chronic disease management, and mental health services with 95% patient satisfaction target."
+
 ## Template
 
 ```

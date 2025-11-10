@@ -17,6 +17,29 @@ last_updated: 2025-11-09
 ## Purpose
 Establish quality standards, evaluation processes, and continuous improvement systems to ensure course effectiveness and student learning success.
 
+## Quick Start
+
+**For educators who need**: A systematic approach to evaluating and improving course quality
+
+**Essential inputs**:
+- Course title and status (new, redesign, ongoing)
+- Quality priorities (learning outcomes, accessibility, engagement)
+- Available data (past evaluations, grades, analytics)
+- Specific evaluation questions
+
+**5-minute starter**:
+1. Identify your top quality concern (students not achieving objectives? Low satisfaction? Accessibility gaps?)
+2. Note what data you have or can collect (evaluations, grade distribution, student feedback)
+3. Choose 2-3 quality standards to focus on first (alignment, accessibility, engagement)
+4. Plan ONE feedback mechanism to implement this term (mid-course survey, focus group, exit tickets)
+5. Commit to reviewing data and making one concrete change
+
+**Common first use**: "Design quality assurance plan for 'Data Ethics in AI' - brand new course, no prior data. Want to ensure quality from launch: clear objectives, engaging pedagogy, fair assessment. Need feedback mechanisms for second offering. Key stakeholders: students, CS department, gen ed committee. Priority: establishing baseline quality."
+
+**Expected output**: Comprehensive quality framework with content/pedagogical/technology standards, multiple feedback collection systems (end-of-course, mid-course, weekly pulse checks), data analysis guidance, continuous improvement process, peer review protocols, quality assurance checklist, and stakeholder reporting templates.
+
+**Best for**: New course quality assurance, course improvement cycles, responding to low evaluations, accreditation preparation, systematic data collection, evidence-based improvements.
+
 ## Template
 
 ```

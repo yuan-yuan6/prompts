@@ -14,6 +14,18 @@ last_updated: 2025-11-09
 ## Introduction
 This comprehensive prompt template enables nutritionists, dietitians, health coaches, and individuals to create detailed, personalized meal plans incorporating nutritional science, dietary preferences, health goals, and practical implementation strategies across diverse populations and dietary approaches.
 
+## Quick Start
+
+**Get started in 3 steps:**
+
+1. **Calculate Nutritional Needs** - Determine daily calorie requirements ([DAILY_CALORIES]) based on BMR and activity level, then set macronutrient targets ([TOTAL_PROTEIN_GRAMS], [TOTAL_CARBS], [TOTAL_FAT_GRAMS]) aligned with health goals.
+
+2. **Design Weekly Menu** - Create 7-day meal plan ([WEEKLY_MENU]) incorporating dietary preferences ([FOOD_PREFERENCES]), restrictions ([ALLERGIES], [FOOD_INTOLERANCES]), and practical constraints (budget, time, cooking skills).
+
+3. **Organize Meal Prep** - Develop shopping list ([SHOPPING_LIST]), batch cooking schedule ([BATCH_COOKING_DAYS]), and food storage system to ensure adherence and minimize daily cooking time.
+
+**Example:** "Create meal plan for weight loss: 1800 calories, 40% carbs/30% protein/30% fat, gluten-free, family-friendly dinners, Sunday meal prep, targeting 1-2 lbs weekly loss with 90% adherence."
+
 ## Template Structure
 
 ### 1. Nutritional Assessment Framework

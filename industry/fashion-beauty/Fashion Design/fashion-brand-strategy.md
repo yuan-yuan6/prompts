@@ -17,6 +17,17 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for fashion brand development, collection planning, trend forecasting, sustainable fashion practices, omnichannel retail strategy, and luxury/mass market positioning.
 
+## Quick Start
+
+**For Fashion Brands & Designers:**
+1. **Define Your Brand DNA** - Start with Section 1 to articulate your unique design aesthetic, target customer profile, and market positioning
+2. **Plan First Collection** - Use Section 2 to map out seasonal themes, piece counts, and price ranges for your initial launch
+3. **Set Up Product Mix** - Reference Section 3 to balance revenue across categories (RTW, accessories, footwear)
+4. **Choose Manufacturing** - Section 4 helps you select between in-house production, contract manufacturing, or hybrid approaches
+5. **Launch Distribution** - Begin with 2-3 channels from Section 5 (e.g., flagship store + e-commerce + one marketplace)
+
+**Quick Win:** Start with a capsule collection of 15-20 pieces in one category to test market response before full-scale launch.
+
 ## Template
 
 Develop fashion brand strategy for [BRAND_NAME] targeting [MARKET_SEGMENT] with [COLLECTION_COUNT] annual collections, [SKU_COUNT] SKUs, [PRICE_POINT] pricing, [REVENUE_TARGET] revenue goal, and [SUSTAINABILITY_SCORE] sustainability rating.

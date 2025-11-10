@@ -15,6 +15,18 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for designing and managing clinical trials including protocol development, patient recruitment, data collection, regulatory compliance, safety monitoring, and statistical analysis for pharmaceutical and medical research organizations.
 
+## Quick Start
+
+**Get started in 3 steps:**
+
+1. **Design Trial Protocol** - Define study design ([DESIGN_SPEC]), inclusion/exclusion criteria ([INCLUSION_SPEC], [EXCLUSION_SPEC]), primary endpoints ([PRIMARY_SPEC]), and statistical analysis plan to address research question.
+
+2. **Establish Infrastructure** - Set up EDC system ([EDC_SYSTEM]), select trial sites ([SITE_COUNT]), obtain regulatory approvals (IRB, IND/CTA), and implement safety monitoring procedures ([AE_FREQUENCY]).
+
+3. **Execute Recruitment Plan** - Develop multi-channel patient recruitment strategy ([RECRUITMENT_METHODS]), screen candidates efficiently ([PRESCREENING_TOOLS]), and implement retention programs to achieve enrollment targets ([ENROLLMENT_RATE]%).
+
+**Example:** "Conduct Phase III trial for cardiovascular drug: 600 patients, 150 sites, 25 countries, 3-year duration, targeting 90% enrollment, 85% retention, full GCP compliance, and regulatory submission."
+
 ## Template
 
 Conduct clinical trial [TRIAL_NAME] for [THERAPEUTIC_AREA] investigating [INTERVENTION_TYPE], enrolling [PATIENT_TARGET] patients across [SITE_COUNT] sites, [COUNTRY_COUNT] countries, with [TRIAL_DURATION] duration, achieving [ENROLLMENT_RATE]% enrollment target, [RETENTION_RATE]% retention, [DATA_QUALITY]% data quality, and [REGULATORY_COMPLIANCE]% compliance rate.
