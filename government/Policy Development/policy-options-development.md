@@ -19,6 +19,22 @@ last_updated: 2025-11-09
 ## Purpose
 Develop comprehensive policy alternatives, conduct comparative cost-benefit analysis, assess implementation risks, engage stakeholders, and recommend optimal policy approaches based on evidence and feasibility.
 
+## Quick Start
+
+**Immediate Use:** For developing transit solutions, specify:
+- POLICY_AREA: "Urban transportation and congestion"
+- POLICY_ISSUE: "Traffic congestion reducing productivity and quality of life"
+- NUMBER_OPTIONS: "4 alternatives plus status quo"
+- EVALUATION_CRITERIA: "Cost-effectiveness, environmental impact, equity, political feasibility, speed of implementation"
+
+**Key Variables to Customize:**
+- Policy alternatives design (range from incremental to transformative approaches)
+- Cost-benefit analysis parameters (discount rates, timeframes, quantification methods)
+- Risk assessment dimensions (political, implementation, legal, public acceptance)
+- Stakeholder engagement methods (forums, surveys, focus groups, expert panels)
+
+**Expected Output:** Comprehensive options analysis with multiple well-designed alternatives, rigorous cost-benefit comparison using consistent methodology, comprehensive risk assessment for each option, stakeholder consultation findings integrated into designs, multi-criteria evaluation matrix, and evidence-based recommendation with clear rationale for preferred approach.
+
 ## Template
 
 ```

@@ -18,6 +18,20 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for planning, conducting, and following up on team meetings with structured agendas, effective facilitation, and actionable outcomes.
 
+## Quick Start
+
+Get started with effective meeting management in 15 minutes:
+
+1. **Before Your Next Meeting**: Create a focused agenda with time allocations, clear objectives, and pre-read materials. Share it 24 hours in advance with attendee roles assigned (facilitator, timekeeper, note-taker).
+
+2. **During the Meeting**: Start with a 2-minute agenda review, use time-boxing for each topic, capture decisions and action items with owners and deadlines, and park off-topic discussions for later.
+
+3. **After the Meeting**: Send meeting notes within 2 hours containing key decisions, action items (who, what, when), and next steps. Follow up on action items before the next meeting.
+
+4. **Continuous Improvement**: End each meeting with a 2-minute retrospective asking "What worked well?" and "What could be better?" Apply learnings to the next meeting.
+
+**First Step**: For your next meeting, create a simple agenda with 3 sections: Objectives (5 min), Discussion Topics (with time boxes), and Action Items Review (5 min).
+
 ## Template
 
 ```markdown

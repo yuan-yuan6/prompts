@@ -18,6 +18,23 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for creating effective status updates, progress reports, and team communications that inform stakeholders, track progress, and maintain alignment.
 
+## Quick Start
+
+Create your first effective status update in 10 minutes:
+
+1. **Use the Traffic Light Format**: Start with an overall status indicator (Green/Yellow/Red) followed by a one-sentence summary. This gives stakeholders immediate context before diving into details.
+
+2. **Follow the 3-3-3 Structure**:
+   - **3 Accomplishments**: What was completed this period
+   - **3 In Progress**: What's actively being worked on (with % complete)
+   - **3 Upcoming**: What's planned for next period
+
+3. **Flag Issues Clearly**: Create a dedicated section for blockers and risks. For each, state the issue, impact, owner, and expected resolution date. Don't bury problems in paragraphs.
+
+4. **Make It Scannable**: Use bullet points, bold key information, and visual indicators. Busy stakeholders should grasp the essentials in 30 seconds.
+
+**First Step**: For your next update, write a one-sentence status summary starting with Red/Yellow/Green, then list 3 accomplishments from this week.
+
 ## Template
 
 ```markdown

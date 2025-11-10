@@ -17,6 +17,18 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for telecommunications network planning, operations management, 5G deployment, network optimization, service quality assurance, and digital infrastructure transformation.
 
+## Quick Start
+
+Launch your telecom network operations framework in 3 steps:
+
+1. **Assess network infrastructure**: Complete Section 1 (Network Infrastructure Overview) with current capacity, utilization rates, and availability metrics for your core network, RAN, and transmission systems. Identify congestion points and under-utilized assets.
+
+2. **Baseline service performance**: Fill in Section 3 (Service Performance Management) with subscriber counts, ARPU, churn rates, and NPS scores for each service type. Focus first on high-revenue services (typically mobile data and enterprise services).
+
+3. **Set up NOC monitoring**: Configure Section 4 (Network Operations Center) KPIs for incident detection time, resolution time, and network availability. Aim for 5-minute detection, 2-hour resolution, and 99.95% availability targets.
+
+**First focus area**: Prioritize network availability and service quality metrics in Section 4, as these directly impact subscriber churn and revenue retention.
+
 ## Template
 
 Manage telecom network for [OPERATOR_NAME] serving [SUBSCRIBER_COUNT] customers across [COVERAGE_AREA] sq km, with [NETWORK_SITES] sites, [BANDWIDTH_CAPACITY] Gbps capacity, targeting [AVAILABILITY_TARGET]% uptime and [QUALITY_TARGET] QoS score.

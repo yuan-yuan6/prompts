@@ -17,6 +17,18 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for hotel operations management, guest experience optimization, revenue management, staff coordination, and hospitality service excellence across all property types and service levels.
 
+## Quick Start
+
+Get your hotel operations strategy up and running in 3 steps:
+
+1. **Establish baseline performance**: Fill in Section 1 (Property Overview & Performance) with your current occupancy rate, ADR, RevPAR, and guest satisfaction scores. Compare against industry benchmarks to identify gaps.
+
+2. **Map the guest journey**: Complete Section 2 (Guest Experience Journey) to document all touchpoints from booking through post-stay. Focus on pain points at check-in, during-stay service delivery, and checkout processes.
+
+3. **Set revenue targets**: Use Section 3 (Revenue Management Strategy) to analyze your revenue streams. Prioritize optimization of your top revenue contributors (typically rooms revenue at 65-75% of total).
+
+**First focus area**: Start with improving your guest satisfaction scores through Section 2 journey mapping, then move to revenue optimization once service quality is stable.
+
 ## Template
 
 Design hotel operations strategy for [PROPERTY_NAME] with [ROOM_COUNT] rooms, [STAR_RATING] star rating, [OCCUPANCY_TARGET]% occupancy target, [ADR_TARGET] average daily rate, targeting [REVPAR_GOAL] RevPAR and [GUEST_SATISFACTION] guest satisfaction score.

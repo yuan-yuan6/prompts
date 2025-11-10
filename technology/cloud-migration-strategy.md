@@ -15,6 +15,30 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for planning and executing cloud migration initiatives including assessment, architecture design, migration patterns, security implementation, cost optimization, and operational transformation for successful cloud adoption.
 
+## Quick Start
+
+**Need to plan cloud migration quickly?** Use this minimal example:
+
+### Minimal Example
+```
+Migrate 50 applications (30TB data) to AWS over 12 months. Strategy: 60% rehost (lift-and-shift), 30% replatform (containerize), 10% refactor. Target: EC2/ECS for compute, RDS/Aurora for databases, S3 for storage, CloudFront CDN. Implement: VPC with multi-AZ, IAM with SSO, automated backups, CloudWatch monitoring, Cost Explorer budgets. Achieve 30% cost reduction, 99.9% availability.
+```
+
+### When to Use This
+- Migrating on-premise infrastructure to public cloud
+- Modernizing legacy applications during migration
+- Implementing hybrid or multi-cloud strategies
+- Optimizing cloud costs and operational efficiency
+
+### Basic 3-Step Workflow
+1. **Assess and plan** - Application inventory, migration patterns, cost analysis, timeline
+2. **Build foundation** - Landing zone, networking, security baseline, monitoring setup
+3. **Execute waves** - Pilot migration, iterative waves, validation, optimization
+
+**Time to complete**: 2-4 weeks assessment, 6-24 months execution depending on scope
+
+---
+
 ## Template
 
 Execute cloud migration for [ORGANIZATION_NAME] migrating [APPLICATION_COUNT] applications, [DATA_VOLUME]TB data, targeting [CLOUD_PROVIDER] platform, achieving [COST_REDUCTION]% cost savings, [PERFORMANCE_GAIN]% performance improvement, [AVAILABILITY_TARGET]% availability, and [MIGRATION_TIMELINE] completion.

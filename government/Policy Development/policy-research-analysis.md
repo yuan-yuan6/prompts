@@ -19,6 +19,22 @@ last_updated: 2025-11-09
 ## Purpose
 Conduct systematic policy research using rigorous methodologies, gather evidence from multiple sources, perform comparative jurisdictional analysis, and evaluate evidence quality to establish a solid foundation for policy development.
 
+## Quick Start
+
+**Immediate Use:** For policy research on affordable housing, specify:
+- POLICY_AREA: "Affordable housing"
+- POLICY_ISSUE: "Housing supply shortage for low-income families"
+- GOVERNMENT_LEVEL: "State government"
+- METHODOLOGY: "Mixed methods - quantitative housing data analysis, comparative case studies, expert interviews"
+
+**Key Variables to Customize:**
+- Research methodology mix (literature review, data analysis, case studies, expert consultation)
+- Jurisdictional comparisons (select 3-4 comparable regions with relevant policy approaches)
+- Evidence quality thresholds (define acceptable confidence levels for policy recommendations)
+- Timeline constraints (balance thoroughness with decision-making urgency)
+
+**Expected Output:** Comprehensive research analysis with rigorous methodology framework, multi-source evidence gathering, comparative jurisdictional analysis showing what worked elsewhere, evidence quality assessment documenting strength and limitations, and clear findings that establish foundation for policy development.
+
 ## Template
 
 ```

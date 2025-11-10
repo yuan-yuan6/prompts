@@ -19,6 +19,17 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for negotiating contracts including preparation strategies, negotiation tactics, concession planning, deal structuring, and closing techniques for optimal contract terms.
 
+## Quick Start
+
+Prepare for successful contract negotiations in 4 steps:
+
+1. **Assess Your Position**: Determine your BATNA (best alternative), walk-away points, and must-have vs. nice-to-have terms before negotiations begin
+2. **Map the Risk Landscape**: Identify key risk areas (liability, IP ownership, termination rights) and decide which risks you'll accept, transfer, or mitigate through contract terms
+3. **Develop Concession Strategy**: Create a tiered list of tradeable items—what you can concede in exchange for priority terms (e.g., accept shorter payment terms for stronger IP protections)
+4. **Plan Authority & Escalation**: Define approval limits and know when to escalate for executive authorization on deal-breaker issues
+
+**Pro Tip**: Always prepare position papers on 3-5 likely contentious clauses (liability caps, indemnification, warranties) with alternative language options ready for real-time negotiation.
+
 ## Template
 
 Negotiate [CONTRACT_TYPE] with [COUNTERPARTY_NAME] for [DEAL_SIZE] transaction, with [NEGOTIATION_TIMELINE] timeline, targeting [TARGET_TERMS] key terms, using [NEGOTIATION_STRATEGY] strategy, achieving [SUCCESS_METRICS] success metrics and [RELATIONSHIP_GOAL] relationship objectives.

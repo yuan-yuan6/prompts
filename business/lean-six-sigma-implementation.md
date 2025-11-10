@@ -15,6 +15,33 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for implementing Lean Six Sigma methodologies including DMAIC process, waste elimination, variation reduction, value stream mapping, and continuous improvement for operational excellence and quality enhancement.
 
+## Quick Start
+
+**Need to start a Lean Six Sigma project quickly?** Use this minimal example:
+
+### Minimal Example
+```
+Implement Lean Six Sigma project for order fulfillment process with 45% defect rate and 5-day cycle time. Define: Reduce fulfillment errors affecting customer satisfaction. Measure: Current defect rate 45%, cycle time 5 days. Analyze: Root causes - manual data entry errors, unclear work instructions. Improve: Implement barcode scanning, standardize procedures. Control: Track defects weekly, maintain control charts. Target: 30% defect reduction, 2-day cycle time, $150K annual savings.
+```
+
+### When to Use This
+- Reducing defects and improving quality
+- Eliminating waste and inefficiency
+- Optimizing process performance
+- Solving complex operational problems
+- Achieving cost savings and productivity gains
+
+### Basic 5-Step DMAIC Workflow
+1. **Define** - Identify problem, scope, goals, and customer requirements (1-2 weeks)
+2. **Measure** - Collect baseline data and establish current performance (2-3 weeks)
+3. **Analyze** - Identify root causes using data analysis tools (2-4 weeks)
+4. **Improve** - Develop and implement solutions to address root causes (4-6 weeks)
+5. **Control** - Monitor results, sustain improvements with controls (ongoing)
+
+**Time to complete**: 3-6 months for typical project, varies by complexity
+
+---
+
 ## Template
 
 Implement Lean Six Sigma program for [ORGANIZATION_NAME] targeting [PROCESS_COUNT] processes, [IMPROVEMENT_TARGET]% improvement, [COST_SAVINGS] annual savings, [DEFECT_REDUCTION]% defect reduction, [CYCLE_TIME_REDUCTION]% cycle time improvement, achieving [SIGMA_LEVEL] sigma level with [ROI_TARGET] ROI.

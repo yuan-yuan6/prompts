@@ -19,6 +19,17 @@ last_updated: 2025-11-09
 ## Purpose
 Design comprehensive regulatory compliance frameworks, policy implementation systems, audit protocols, and risk management programs that ensure organizational adherence to laws, regulations, and industry standards while maintaining operational efficiency.
 
+## Quick Start
+
+Build a regulatory compliance program in 4 steps:
+
+1. **Map Regulatory Obligations**: Identify all applicable regulations for your industry and jurisdictions (e.g., financial services: SEC, FINRA; healthcare: HIPAA, Medicare/Medicaid)
+2. **Assess Current Gaps**: Conduct a compliance gap analysis comparing regulatory requirements against existing policies, controls, and documentation—prioritize gaps by penalty risk and likelihood
+3. **Deploy Three Lines of Defense**: Establish clear roles—1st line: business ownership, 2nd line: compliance oversight/monitoring, 3rd line: internal audit validation
+4. **Launch Training & Monitoring**: Roll out mandatory compliance training (Code of Conduct, Anti-Corruption, Data Privacy) with 95%+ completion tracking, plus implement automated monitoring for high-risk transactions
+
+**Pro Tip**: Use a risk-based approach—dedicate 70% of compliance resources to high-risk areas (e.g., financial reporting, data privacy, anti-money laundering) where regulatory violations carry the steepest penalties.
+
 ## Template
 
 ```

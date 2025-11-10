@@ -19,6 +19,18 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for game design, development pipeline management, player experience optimization, monetization strategies, and live operations for video game projects.
 
+## Quick Start
+
+Kickstart your game development strategy in 3 steps:
+
+1. **Define core game pillars**: Complete Section 1 (Game Design Overview) with your genre, target audience, unique features, and success metrics. Focus on what makes your game different from competitors.
+
+2. **Set retention targets**: Fill in Section 3 (Player Experience & Engagement) with retention goals: D1 (40-50%), D7 (20-30%), D30 (10-15%) for mobile games, or higher for premium titles. These metrics drive all other development decisions.
+
+3. **Plan content pipeline**: Use Section 4 (Content & Level Design) to map out your content production rate. For live service games, plan minimum 2-4 updates per month; for premium games, focus on launch content quality.
+
+**First focus area**: Prioritize player retention metrics in Section 3 first, then build your content pipeline in Section 4 to support those retention goals. Monetization optimization comes after retention is stable.
+
 ## Template
 
 Design game development strategy for [GAME_TITLE] in [GENRE] targeting [PLATFORM_LIST] platforms, with [TEAM_SIZE] developers, [BUDGET] budget, [TIMELINE] timeline, targeting [PLAYER_COUNT] players and [REVENUE_TARGET] revenue.

@@ -19,6 +19,22 @@ last_updated: 2025-11-09
 ## Purpose
 Conduct comprehensive impact assessments of policy proposals across economic, social, and environmental dimensions, evaluate distributional effects, and analyze stakeholder impacts to inform evidence-based policy decisions.
 
+## Quick Start
+
+**Immediate Use:** For assessing a carbon pricing policy, specify:
+- POLICY_PROPOSAL: "Carbon tax at $50 per tonne with revenue recycling"
+- POLICY_AREA: "Climate policy and emissions reduction"
+- GOVERNMENT_LEVEL: "Federal/National"
+- IMPACT_DIMENSIONS: "Economic (GDP, employment, industry), social (equity, household costs), environmental (emissions, air quality)"
+
+**Key Variables to Customize:**
+- Cost analysis categories (implementation, operations, compliance costs over time)
+- Distributional effects by income groups (identify who benefits and who bears costs)
+- Environmental impact metrics (emissions reduction, resource use, sustainability)
+- Sensitivity analysis variables (test different assumptions about behavioral responses)
+
+**Expected Output:** Comprehensive impact assessment with quantified costs and benefits across economic, social, and environmental dimensions, distributional equity evaluation showing effects on different population groups, stakeholder impact mapping, sensitivity analysis testing robustness of findings, and evidence-based recommendations for decision-makers.
+
 ## Template
 
 ```
