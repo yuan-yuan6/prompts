@@ -21,6 +21,30 @@ last_updated: 2025-01-09
 ## Purpose
 Comprehensive framework for orchestrating enterprise-wide digital transformation including technology modernization, business model innovation, cultural change, customer experience enhancement, operational excellence, and data-driven decision making for competitive advantage.
 
+## Quick Start
+
+**Need to create a digital transformation roadmap quickly?** Use this minimal example:
+
+### Minimal Example
+```
+Create digital transformation roadmap for 500-employee manufacturing company with $100M revenue. Current state: legacy ERP, manual processes, limited data analytics. Goals: migrate to cloud, automate 50% of processes, implement data analytics, improve customer portal. Timeline: 18 months. Budget: $5M. Key challenges: change resistance, skills gap.
+```
+
+### When to Use This
+- Planning enterprise-wide digital transformation
+- Modernizing legacy systems and processes
+- Building digital capabilities and culture
+- Improving customer experience through technology
+
+### Basic 3-Step Workflow
+1. **Assess current state** - Digital maturity, technology stack, process efficiency
+2. **Define vision** - Target state, business outcomes, success metrics
+3. **Build roadmap** - Phased approach, quick wins, long-term initiatives
+
+**Time to complete**: 2-3 weeks for roadmap, 12-36 months for execution
+
+---
+
 ## Template
 
 Execute digital transformation for [ORGANIZATION_NAME] with [EMPLOYEE_COUNT] employees, [REVENUE_SIZE] revenue, targeting [DIGITAL_MATURITY] maturity level, [ROI_TARGET]% ROI, [EFFICIENCY_GAIN]% efficiency improvement, [CUSTOMER_SATISFACTION]% satisfaction increase, and [TRANSFORMATION_TIMELINE] implementation.

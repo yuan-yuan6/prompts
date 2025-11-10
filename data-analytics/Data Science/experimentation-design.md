@@ -19,6 +19,30 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for designing and executing controlled experiments including A/B testing, multivariate testing, statistical analysis, power calculations, and decision-making based on experimental results.
 
+## Quick Start
+
+**Need to design an A/B test quickly?** Use this minimal example:
+
+### Minimal Example
+```
+Design A/B test for checkout page redesign to increase conversion rate from 3.5% to 4.0%. Need 100K users per variant for 95% confidence and 80% power. Test duration: 2 weeks. Primary metric: conversion rate. Guardrail metrics: average order value, page load time. Track by user, randomize at session level.
+```
+
+### When to Use This
+- Testing product changes, features, or UX improvements
+- Optimizing conversion rates, engagement, or revenue
+- Making data-driven product decisions
+- Validating hypotheses before full rollout
+
+### Basic 3-Step Workflow
+1. **Define hypothesis** - What you're testing, expected impact, success criteria
+2. **Calculate sample size** - Users needed, test duration, significance level
+3. **Analyze results** - Statistical significance, practical significance, decision
+
+**Time to complete**: 2-4 hours for design, 1-4 weeks for execution, 1-2 days for analysis
+
+---
+
 ## Template
 
 Design experiment for [EXPERIMENT_NAME] testing [HYPOTHESIS] with [SAMPLE_SIZE] users, [VARIANT_COUNT] variants, [DURATION] test duration, targeting [SIGNIFICANCE_LEVEL] significance level, [POWER_TARGET]% statistical power, and [MDE] minimum detectable effect.

@@ -19,6 +19,30 @@ last_updated: 2025-11-09
 ## Purpose
 Design comprehensive testing strategies including unit tests, integration tests, end-to-end tests, performance testing, security testing, and automated quality assurance processes.
 
+## Quick Start
+
+**Need to create a testing strategy quickly?** Use this minimal example:
+
+### Minimal Example
+```
+Create testing strategy for a web application with 50K users. Include: unit tests (80% coverage with Jest), integration tests for APIs (Postman), end-to-end tests for critical flows (Cypress), performance testing (handle 1000 concurrent users), security testing (OWASP Top 10). CI/CD pipeline runs all tests on every commit.
+```
+
+### When to Use This
+- Establishing testing strategy for new projects
+- Improving quality assurance processes
+- Automating testing in CI/CD pipelines
+- Planning test coverage and quality gates
+
+### Basic 3-Step Workflow
+1. **Define test scope** - What needs testing, quality standards, risk areas
+2. **Choose test types** - Unit, integration, E2E, performance, security mix
+3. **Implement automation** - Tools, frameworks, CI/CD integration, reporting
+
+**Time to complete**: 2-3 days for strategy, 1-2 weeks for full implementation
+
+---
+
 ## Template Structure
 
 ### Testing Strategy Overview

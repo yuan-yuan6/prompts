@@ -19,6 +19,30 @@ last_updated: 2025-11-09
 ## Purpose
 Develop effective patient communication strategies including education, instructions, and counseling to improve health outcomes, adherence, and patient satisfaction.
 
+## Quick Start
+
+**Need to communicate with patients quickly?** Use this minimal example:
+
+### Minimal Example
+```
+Create patient education materials for newly diagnosed Type 2 diabetes patients. The communication should explain blood sugar monitoring, medication adherence, dietary changes, and exercise recommendations in simple terms for patients with basic health literacy. Use a supportive, encouraging tone and include visual aids.
+```
+
+### When to Use This
+- Explaining diagnoses, treatment plans, or procedures to patients
+- Creating patient education materials and discharge instructions
+- Delivering difficult news or discussing treatment options
+- Improving medication adherence and lifestyle changes
+
+### Basic 3-Step Workflow
+1. **Assess patient needs** - Consider health literacy, language, cultural factors
+2. **Tailor communication** - Use appropriate language level and format
+3. **Verify understanding** - Use teach-back method to confirm comprehension
+
+**Time to complete**: 15-30 minutes for routine education, 45-60 minutes for complex discussions
+
+---
+
 ## Template
 
 ```

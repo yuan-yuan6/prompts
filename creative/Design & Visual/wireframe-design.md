@@ -18,6 +18,30 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive wireframe designs and information architecture for digital products, establishing the structural foundation for user interfaces and navigation systems.
 
+## Quick Start
+
+**Need to create wireframes quickly?** Use this minimal example:
+
+### Minimal Example
+```
+Create low-fidelity wireframes for a task management mobile app. Include: login/signup screen, task list view, task detail view, create/edit task screen, and settings. Focus on information hierarchy, navigation flow, and responsive layout for iOS and Android. Target users: busy professionals aged 25-40.
+```
+
+### When to Use This
+- Starting UX design for new products or features
+- Communicating structure and layout to stakeholders
+- User testing before investing in high-fidelity designs
+- Documenting information architecture and navigation
+
+### Basic 3-Step Workflow
+1. **Define structure** - Site map, user flows, navigation hierarchy
+2. **Sketch layouts** - Low-fidelity wireframes for key screens
+3. **Annotate and document** - Add notes, interactions, responsive behavior
+
+**Time to complete**: 2-4 hours for 5-7 screens, 1-2 days for complete app
+
+---
+
 ## Template
 
 ```

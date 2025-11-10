@@ -18,6 +18,30 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive performance review systems covering evaluations, feedback delivery, development planning, and performance management to enhance employee development and organizational effectiveness.
 
+## Quick Start
+
+**Need to conduct performance reviews quickly?** Use this minimal example:
+
+### Minimal Example
+```
+Create performance review for Senior Software Engineer with 3 years tenure. Review period: past 6 months. Key achievements: led migration project, mentored 2 junior developers, improved deployment process. Areas for growth: communication with stakeholders, project estimation. Rating scale: 1-5, target rating: 4. Include development goals for next 6 months.
+```
+
+### When to Use This
+- Conducting annual or quarterly performance reviews
+- Providing structured feedback to employees
+- Setting development goals and career plans
+- Making compensation or promotion decisions
+
+### Basic 3-Step Workflow
+1. **Gather data** - Performance metrics, peer feedback, project outcomes
+2. **Evaluate performance** - Assess against goals, competencies, and standards
+3. **Plan development** - Set goals, identify growth areas, create action plan
+
+**Time to complete**: 1-2 hours per review (preparation and meeting)
+
+---
+
 ## Template
 
 ```

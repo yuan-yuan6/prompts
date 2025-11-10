@@ -18,6 +18,30 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive customer engagement strategies covering retention programs, loyalty initiatives, and support optimization to enhance customer relationships and drive long-term value.
 
+## Quick Start
+
+**Need to improve customer engagement quickly?** Use this minimal example:
+
+### Minimal Example
+```
+Create customer engagement strategy for B2B SaaS company with 500 customers, 75% renewal rate, $500 average contract value. Goals: increase renewal to 85%, grow net revenue retention to 110%, reduce churn in first 90 days from 20% to 10%. Focus on onboarding, quarterly business reviews, and product adoption metrics.
+```
+
+### When to Use This
+- Building customer retention and loyalty programs
+- Improving customer satisfaction and NPS scores
+- Reducing churn and increasing lifetime value
+- Designing multi-channel engagement strategies
+
+### Basic 3-Step Workflow
+1. **Analyze current state** - Retention rates, satisfaction scores, engagement metrics
+2. **Design touchpoints** - Personalized engagement across customer journey
+3. **Implement programs** - Onboarding, success check-ins, loyalty rewards
+
+**Time to complete**: 1-2 weeks for strategy, 1-2 months for implementation
+
+---
+
 ## Template
 
 ```
