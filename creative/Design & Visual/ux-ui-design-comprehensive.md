@@ -17,6 +17,24 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive UX/UI design strategies for wireframes, prototypes, design systems, user research, and testing to deliver exceptional user experiences across digital platforms and drive business success.
 
+## Quick Start
+
+**Launch Your UX Project in 1 Hour**
+
+1. **Talk to 3 Users** (20 min): Ask "What's frustrating?" and "What do you wish existed?"
+2. **Sketch 5 Screens** (15 min): Paper sketches of key flows - boxes and arrows only
+3. **Pick Your Path** (10 min): Mobile app, web app, or responsive site?
+4. **Build Quick Prototype** (15 min): Use Figma/Sketch or even PowerPoint - make it clickable
+
+**Project-Type Fast Tracks**:
+- **New Product**: Start Section 1 (User Research) → Understand before you design
+- **Redesign**: Jump to Section 6 (Usability Testing) → Find what's broken first
+- **Design System**: Begin Section 4 (Visual Design) → Components before pages
+
+**UX Truth**: You can't design for everyone. Pick your primary user and serve them obsessively.
+
+**Power Move**: Fill `[PRIMARY_USER_GROUPS]` and `[CORE_USER_NEEDS]` - everything else follows!
+
 ## Template
 
 ```

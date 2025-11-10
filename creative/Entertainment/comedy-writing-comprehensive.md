@@ -17,6 +17,25 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive comedy writing solutions covering jokes, sketches, standup routines, satire, memes, roasts, and comedic content across all formats and platforms.
 
+## Quick Start
+
+**Write Comedy That Lands in 1 Hour**
+
+1. **Pick Your Format** (10 min): Standup set, sketch, social media bit, or satire piece? Choose ONE to start
+2. **Know Your Audience** (15 min): Who are they? Age, values, humor style - be specific
+3. **Mine Your Material** (20 min): What's your angle? Personal story, observation, or social commentary?
+4. **Write 3 Jokes/Bits** (15 min): Use setup + punchline structure. Don't edit yet - just write!
+
+**Fast-Track by Format**:
+- **Standup**: Section 2 (Performance Writing) → Start with 2.1 (Material Development)
+- **Sketch**: Section 3 (Sketch Comedy) → Focus on 3.1 (Concept Development)
+- **Social/Digital**: Section 5.1 (Social Media Comedy) → Platform-specific strategies
+- **Satire**: Section 4 (Satirical Writing) → Target selection and voice
+
+**Comedy Truth**: Your first 10 jokes will be bad. Your next 10 will be okay. Keep going - comedy is volume + refinement.
+
+**Ethical Reminder**: Before you perform/post, ask: "Does this punch up or down?" Great comedy challenges power, not people.
+
 ## Template
 
 ```

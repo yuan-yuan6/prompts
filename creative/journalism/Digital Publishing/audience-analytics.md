@@ -17,6 +17,31 @@ last_updated: 2025-11-09
 ## Purpose
 Advanced framework for analyzing audience behavior, optimizing content engagement, and driving growth across digital publishing platforms through data-driven insights and personalization strategies.
 
+## Quick Start
+
+**Need to optimize audience engagement quickly?** Use this minimal example:
+
+### Minimal Example
+```
+Analyze and optimize audience engagement for MetroNews with 2M monthly active users, 75K subscribers,
+producing 450 content pieces monthly with engagement goal of 8%.
+```
+
+### When to Use This
+- Understanding audience demographics, behavior patterns, and content preferences through analytics
+- Optimizing content strategy using A/B testing, personalization engines, and real-time performance data
+- Growing subscriber base and reducing churn through predictive modeling and targeted interventions
+- Maximizing revenue through attribution analysis, conversion optimization, and monetization experiments
+
+### Basic 3-Step Workflow
+1. **Set Up Analytics Infrastructure** - Implement tracking across all platforms, define key metrics (engagement, retention, revenue), and establish baseline performance benchmarks
+2. **Analyze User Behavior** - Segment audiences by demographics/psychographics, map user journeys, identify content performance patterns, and build predictive models
+3. **Optimize & Personalize** - Run A/B tests on headlines/layouts, deploy recommendation engines, create targeted campaigns, and iterate based on performance data
+
+**Time to complete**: 2-3 weeks for basic analytics setup and initial insights, 2-3 months for comprehensive personalization and optimization programs
+
+---
+
 ## Template
 
 Analyze and optimize audience engagement for [PUBLICATION_NAME] with [MONTHLY_USERS] monthly active users, [SUBSCRIBER_COUNT] subscribers, producing [CONTENT_VOLUME] content pieces monthly with engagement goal of [ENGAGEMENT_TARGET].

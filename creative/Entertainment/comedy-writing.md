@@ -18,6 +18,23 @@ last_updated: 2025-11-09
 ## Purpose
 Create engaging comedy content including jokes, sketches, and standup material that generates laughter and entertainment across various formats and comedy styles.
 
+## Quick Start
+
+**Get Your First Laugh in 10 Minutes**
+
+1. **Pick Your Truth** (2 min): What frustrates you today? What's absurd about normal life?
+2. **Setup + Twist** (5 min): Write 3 jokes using this formula: "You know what's weird about [X]? [Unexpected observation]"
+3. **Test It** (3 min): Read aloud to someone or record yourself - if YOU laugh, you're on track
+
+**Joke Starter Kit**:
+- Observational: "Why do we [normal thing] when [absurd result]?"
+- Character: Give someone an exaggerated trait and put them in a conflict
+- Story: "This actually happened..." (then make it ridiculous)
+
+**Pro Tip**: Start with what makes YOU laugh. Authenticity beats perfect technique.
+
+**Next Step**: Use the Joke Writing section to refine your 3 jokes into killer punchlines!
+
 ## Template
 
 ```

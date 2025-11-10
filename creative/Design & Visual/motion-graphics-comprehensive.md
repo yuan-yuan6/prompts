@@ -17,6 +17,24 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive motion graphics solutions covering animations, effects, transitions, kinetic typography, explainer videos, and dynamic visual experiences across all platforms and applications.
 
+## Quick Start
+
+**Animate Your First Scene in 45 Minutes**
+
+1. **Choose Your Format** (5 min): Logo animation, explainer video, social media clip, or title sequence?
+2. **Storyboard 3 Shots** (15 min): Sketch beginning, middle, end - stick figures are fine!
+3. **Set Your Timing** (5 min): How long? (Logo: 3-5 sec, Explainer: 60-90 sec, Social: 15-30 sec)
+4. **Animate One Element** (20 min): Make ONE thing move well - text, shape, or icon
+
+**Quick-Start Recipes**:
+- **Logo Reveal**: Simple in → hold → out (5 seconds total)
+- **Kinetic Type**: Text enters → emphasizes key words → exits
+- **Explainer**: Show problem (15s) → show solution (30s) → call to action (15s)
+
+**Animation Rule**: Slow in, fast middle, slow out = natural movement
+
+**Pro Tip**: Music first, then animate to the beat - instant professional feel!
+
 ## Template
 
 ```

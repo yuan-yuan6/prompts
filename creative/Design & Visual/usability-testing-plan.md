@@ -18,6 +18,24 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive usability testing plans to validate design decisions, identify usability issues, and gather user feedback for iterative improvement of digital products.
 
+## Quick Start
+
+**Run Your First Usability Test in 2 Hours**
+
+1. **Pick ONE Thing to Test** (10 min): What's your biggest design question or concern?
+2. **Find 3-5 Users** (20 min): Friends, colleagues, or target users - anyone who fits your audience
+3. **Write 3 Tasks** (15 min): "Try to [specific action]" - keep them realistic and clear
+4. **Test & Observe** (60 min): Watch them try, DON'T help, take notes on struggles
+5. **Quick Debrief** (15 min): Ask "What was confusing?" and "What worked well?"
+
+**Minimal Viable Test**:
+- **Who**: 5 users (you'll find 80% of issues)
+- **What**: 3 core tasks (start small!)
+- **How**: Watch + take notes (video is nice but not essential)
+- **Output**: List of top 3 problems to fix
+
+**Pro Tip**: Silence is your friend. When they struggle, wait 10 seconds before helping!
+
 ## Template
 
 ```

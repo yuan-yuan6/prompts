@@ -18,6 +18,34 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for crafting executive-level communications, briefings, and presentations that deliver strategic insights, drive decision-making, and ensure leadership alignment.
 
+## Quick Start
+
+**Need to brief executives quickly?** Use this minimal example:
+
+### Minimal Example
+```
+Audience: CEO and CFO
+Purpose: Decision needed on major vendor failure contingency plan
+Time available: 15-minute briefing before board call
+Key message: Vendor X failure threatens Q4 delivery, recommend activating backup plan at $500K cost
+Decision: Approve contingency activation and stakeholder communication
+```
+
+### When to Use This
+- Preparing urgent executive decision briefings
+- Creating quarterly executive performance updates
+- Developing C-suite presentations for strategic initiatives
+- Managing crisis communications to leadership
+
+### Basic 3-Step Workflow
+1. **Structure Message** - Lead with recommendation, support with key data, clearly state decision needed
+2. **Visualize Impact** - Create executive dashboard showing performance, risks, and scenarios
+3. **Prepare Delivery** - Anticipate questions, prepare backup materials, and plan follow-up actions
+
+**Time to complete**: 30 minutes for urgent briefing, 2-4 hours for comprehensive executive presentation
+
+---
+
 ## Template
 
 ```markdown

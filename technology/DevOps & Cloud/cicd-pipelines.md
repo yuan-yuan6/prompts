@@ -19,6 +19,30 @@ last_updated: 2025-11-09
 ## Purpose
 Design and implement comprehensive CI/CD pipelines for automated build, test, and deployment processes with quality gates, security scanning, and deployment strategies.
 
+## Quick Start
+
+**Need to set up automated deployments quickly?** Use this minimal example:
+
+### Minimal Example
+```
+Design a CI/CD pipeline for my Node.js API using GitHub Actions with Docker deployment to AWS ECS. Include unit tests, security scanning with Snyk, and automated rollback on failures. Deploy to staging on PR merge, production on main branch merge with manual approval gate.
+```
+
+### When to Use This
+- Automating build, test, and deployment processes for applications
+- Implementing quality gates and security scanning in delivery workflow
+- Setting up multi-environment deployment strategies (dev/staging/prod)
+- Reducing manual deployment errors and improving release velocity
+
+### Basic 3-Step Workflow
+1. **Define Pipeline Structure** - Specify application type, tech stack, environments, and deployment strategy
+2. **Configure Build & Test** - Set up build tools, testing frameworks, quality gates, and security scanning
+3. **Design Deployment Strategy** - Choose deployment model (rolling, blue-green, canary) and rollback procedures
+
+**Time to complete**: 30 minutes for basic pipeline design, 4-8 hours for comprehensive enterprise pipeline
+
+---
+
 ## Template Structure
 
 ### Pipeline Overview

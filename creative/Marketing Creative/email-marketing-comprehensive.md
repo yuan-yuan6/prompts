@@ -17,6 +17,34 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive email marketing solutions covering newsletters, drip campaigns, promotions, segmentation, personalization, automation, and performance optimization across all email marketing objectives and customer lifecycle stages.
 
+## Quick Start
+
+**Need to launch an email campaign quickly?** Use this minimal example:
+
+### Minimal Example
+```
+EMAIL_CAMPAIGN_NAME: "Welcome Series for New Subscribers"
+CAMPAIGN_TYPE: "Automated drip campaign"
+CAMPAIGN_OBJECTIVE: "Onboard new users and drive first purchase"
+TARGET_AUDIENCE: "New email subscribers from website signup"
+SUCCESS_METRICS: "40% open rate, 15% click-through, 5% conversion"
+```
+
+### When to Use This
+- Building automated welcome series for new subscribers
+- Creating promotional campaigns for product launches or sales
+- Developing lead nurturing sequences for B2B prospects
+- Implementing re-engagement campaigns for inactive customers
+
+### Basic 3-Step Workflow
+1. **Define Strategy & Segment** - Set campaign objectives, identify target audience segments, plan email sequence, and establish success metrics
+2. **Create Content & Design** - Write compelling subject lines and email copy, design mobile-responsive templates, integrate personalization elements
+3. **Automate & Optimize** - Set up automation workflows, implement A/B testing, track deliverability and engagement, refine based on performance
+
+**Time to complete**: 3-6 hours for single campaign, 1-2 weeks for comprehensive automation workflow
+
+---
+
 ## Template
 
 ```

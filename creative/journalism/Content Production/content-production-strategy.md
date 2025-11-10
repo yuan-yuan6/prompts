@@ -17,6 +17,31 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive system for developing, executing, and managing content strategies across multiple media channels, including editorial calendars, content workflows, and performance optimization.
 
+## Quick Start
+
+**Need to create a content strategy quickly?** Use this minimal example:
+
+### Minimal Example
+```
+Develop content strategy for TechDaily producing 200 pieces monthly across 5 channels, targeting 1M audience
+with focus on tech news, analysis, tutorials and budget of $150K.
+```
+
+### When to Use This
+- Building comprehensive editorial calendars with content mix across long-form, news, video, and social
+- Establishing production workflows with clear roles, timelines, and quality standards for content teams
+- Optimizing content performance through SEO, multi-channel distribution, and analytics-driven iteration
+- Monetizing content through advertising, subscriptions, sponsored content, and events
+
+### Basic 3-Step Workflow
+1. **Map Content Ecosystem** - Define content types (articles, video, podcasts), identify target personas, establish content pillars, and allocate resources per channel
+2. **Build Production Workflow** - Create editorial calendar with publishing schedule, assign team roles (writers, editors, producers), and establish approval processes
+3. **Measure & Iterate** - Track performance metrics (traffic, engagement, conversions), analyze content effectiveness, and optimize strategy based on data insights
+
+**Time to complete**: 1-2 weeks for basic content strategy with single channel, 4-6 weeks for comprehensive multi-channel strategy with full team workflows
+
+---
+
 ## Template
 
 Develop content strategy for [PUBLICATION_NAME] producing [CONTENT_VOLUME] pieces monthly across [CHANNEL_COUNT] channels, targeting [AUDIENCE_SIZE] audience with focus on [CONTENT_PILLARS] and budget of $[CONTENT_BUDGET].

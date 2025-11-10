@@ -17,6 +17,19 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive screenwriting solutions covering films, television, web series, treatments, pitch decks, script doctoring, and story development across all genres and formats.
 
+## Quick Start
+
+**Launch Your Screenplay Project in 15 Minutes**
+
+1. **Define Your Vision** (3 min): Identify your project type, genre, and logline
+2. **Character Snapshot** (4 min): Name your protagonist and antagonist, list their core conflict
+3. **Structure Skeleton** (5 min): Map your three acts with one sentence each
+4. **First Beat** (3 min): Write the opening image and inciting incident in 2-3 lines
+
+**Pro Tip**: Start with the most exciting scene first to capture your creative energy, then work backwards to structure it properly using this comprehensive framework.
+
+**Quick Win**: Complete the Story Elements section first - it provides the foundation for everything else.
+
 ## Template
 
 ```

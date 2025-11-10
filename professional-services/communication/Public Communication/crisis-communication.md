@@ -18,6 +18,30 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for managing crisis communications, developing rapid response protocols, protecting organizational reputation, coordinating stakeholder messaging, and implementing effective crisis management strategies across all communication channels during challenging situations.
 
+## Quick Start
+
+**Need to manage a crisis communication quickly?** Use this minimal example:
+
+### Minimal Example
+```
+Our software company just experienced a data breach affecting 50,000 customers. We need to immediately notify affected users, communicate with regulators, prepare media statements, brief our leadership team, and implement our crisis response plan to protect customer trust and brand reputation.
+```
+
+### When to Use This
+- Responding to product recalls, safety incidents, or quality failures
+- Managing data breaches, cybersecurity incidents, or privacy violations
+- Addressing leadership scandals, legal issues, or regulatory investigations
+- Handling service disruptions, natural disasters, or operational emergencies
+
+### Basic 3-Step Workflow
+1. **Assess and Activate** - Verify the situation facts, evaluate stakeholder impact, activate crisis team, and notify legal counsel within the first 2 hours
+2. **Communicate Immediately** - Issue holding statements to key stakeholders, notify affected parties as required, prepare initial media response with transparent acknowledgment
+3. **Execute Recovery** - Provide regular updates on corrective actions, demonstrate accountability, implement prevention measures, and rebuild stakeholder trust systematically
+
+**Time to complete**: Immediate response within 2 hours, full crisis management plan execution over days to weeks depending on severity
+
+---
+
 ## Template
 
 ```markdown

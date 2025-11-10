@@ -18,6 +18,18 @@ last_updated: 2025-11-09
 ## Purpose
 Create compelling screenplays for films, TV series, and web content with professional formatting, engaging dialogue, and strong narrative structure that captivates audiences and drives production interest.
 
+## Quick Start
+
+**Fast Track to Your First Scene**
+
+1. **60-Second Setup**: Choose your format (feature/TV/web), genre, and main character
+2. **Start Writing**: Jump directly to the opening scene - write 2 pages of dialogue
+3. **Test the Template**: Fill in `[PROJECT_TITLE]`, `[GENRE]`, `[PROTAGONIST_NAME]`, and `[INCITING_INCIDENT]`
+4. **Get Feedback**: Read your scene aloud or share with a writing partner within 24 hours
+5. **Expand**: Use the complete template to build out your full screenplay structure
+
+**Example Starter**: "INT. COFFEE SHOP - DAY. SARAH (30s, determined) discovers a mysterious note..."
+
 ## Template
 
 ```

@@ -21,6 +21,34 @@ last_updated: 2025-01-09
 ## Purpose
 Create comprehensive ad copy solutions covering digital, print, broadcast, native, programmatic, and social advertising across all platforms, formats, and campaign objectives.
 
+## Quick Start
+
+**Need to write effective ad copy quickly?** Use this minimal example:
+
+### Minimal Example
+```
+CAMPAIGN_NAME: "B2B Software Lead Generation"
+PRIMARY_PLATFORM: "Google Ads and LinkedIn"
+TARGET_AUDIENCE: "Sales managers and operations directors"
+UNIQUE_VALUE_PROPOSITION: "Cut sales cycle time by 50% with automated lead scoring"
+CALL_TO_ACTION_TYPE: "Free demo request"
+```
+
+### When to Use This
+- Creating paid search campaigns for Google or Bing Ads
+- Developing social media advertising for Facebook, LinkedIn, or Instagram
+- Writing display ad copy for programmatic campaigns
+- Crafting promotional copy for seasonal sales or product launches
+
+### Basic 3-Step Workflow
+1. **Research & Strategy** - Define target audience pain points, competitive positioning, unique selling proposition, and campaign objectives
+2. **Write & Design** - Craft attention-grabbing headlines, persuasive body copy, compelling CTAs, and integrate social proof elements
+3. **Test & Optimize** - Launch A/B tests on headline and copy variations, monitor CTR and conversion rates, refine based on data
+
+**Time to complete**: 2-4 hours for initial ad copy variations, 1-2 weeks for testing and optimization
+
+---
+
 ## Template
 
 ```

@@ -17,6 +17,33 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive content strategy frameworks, editorial planning systems, audience engagement strategies, and multi-platform publishing approaches that drive audience growth, enhance brand authority, optimize content performance, and support sustainable journalism business models in the digital media landscape.
 
+## Quick Start
+
+**Need to develop a content strategy quickly?** Use this minimal example:
+
+### Minimal Example
+```
+CONTENT_STRATEGY_TYPE: "Digital-first news and analysis platform"
+MEDIA_ORGANIZATION: "Independent digital news publication"
+AUDIENCE_SEGMENTS: "Millennials and Gen X professionals interested in politics and policy"
+CONTENT_OBJECTIVES: "Build trusted news brand, grow subscriber base, achieve revenue sustainability"
+```
+
+### When to Use This
+- Launching a new digital media platform or publication
+- Transforming traditional media to digital-first operations
+- Developing multi-platform content distribution strategies
+- Creating data-driven editorial planning frameworks
+
+### Basic 3-Step Workflow
+1. **Define Audience & Objectives** - Identify target audience segments, content goals, and success metrics for your media organization
+2. **Build Editorial Framework** - Develop content pillars, editorial calendar, and multi-platform distribution strategy with team resources
+3. **Implement & Optimize** - Launch content programs, track performance analytics, and continuously refine based on audience engagement data
+
+**Time to complete**: 2-3 hours for basic strategy framework, 1-2 weeks for comprehensive implementation
+
+---
+
 ## Template
 
 ```

@@ -15,6 +15,34 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for conducting policy research including evidence gathering, stakeholder analysis, impact assessment, benchmarking studies, and policy recommendations for effective public sector decision-making and governance.
 
+## Quick Start
+
+Begin your policy research project in 3 steps:
+
+1. **Define Research Scope**
+   - Specify policy area and research questions
+   - Identify affected population and key stakeholders
+   - Set timeline and budget for research activities
+
+2. **Select Research Methods**
+   - Choose quantitative methods (surveys, data analytics, statistical analysis)
+   - Select qualitative approaches (interviews, focus groups, case studies)
+   - Plan mixed methods integration for comprehensive findings
+
+3. **Conduct Benchmarking**
+   - Identify 3-5 peer jurisdictions or comparable cases
+   - Analyze best practices and lessons learned
+   - Document adaptations needed for local context
+
+**Example Quick Start:**
+```
+Research on education achievement gap in 200 schools:
+- Question: What interventions reduce achievement gaps by 20%?
+- Methods: Student performance data analysis + teacher interviews
+- Benchmarks: 5 successful districts (MA, CA, TX models)
+- Timeline: 9 months → policy recommendations
+```
+
 ## Template
 
 Conduct policy research for [POLICY_AREA] affecting [POPULATION_SIZE] citizens, involving [STAKEHOLDER_COUNT] stakeholder groups, with [BUDGET_ALLOCATION] budget impact, [IMPLEMENTATION_TIMELINE] timeline, targeting [OUTCOME_METRICS] outcomes, achieving [SUCCESS_CRITERIA] success criteria and [COMPLIANCE_RATE]% compliance.

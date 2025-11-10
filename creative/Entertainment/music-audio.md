@@ -17,6 +17,21 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive music and audio content including lyrics, compositions, and sound design for various media formats and musical applications across genres and styles.
 
+## Quick Start
+
+**Create Your First Song in 30 Minutes**
+
+1. **Set the Vibe** (2 min): Choose genre, tempo, and emotional goal
+2. **Hook First** (10 min): Write your catchiest chorus line and melody
+3. **Build Around It** (15 min): Add one verse that leads to your hook
+4. **Record a Demo** (3 min): Capture it on your phone while it's fresh
+
+**Starter Formula**: [Verse 1 + Chorus + Verse 2 + Chorus + Bridge + Final Chorus]
+
+**Try This**: Hum your melody, then add words. It's faster than writing lyrics first!
+
+**Pro Move**: Fill in `[SONG_TITLE]`, `[KEY_SIGNATURE]`, and `[TEMPO]` to lock in your foundation.
+
 ## Template
 
 ```

@@ -15,6 +15,33 @@ last_updated: 2025-11-09
 ## Purpose
 Develop comprehensive sleep improvement strategies including sleep hygiene protocols, environmental optimization, and habit tracking to enhance sleep quality, duration, and recovery for better overall health and performance.
 
+## Quick Start
+
+Improve your sleep quality in three immediate steps:
+
+1. **Optimize Your Sleep Environment** (1 hour, one-time)
+   - Temperature: Set bedroom to 65-68°F (18-20°C) for optimal sleep
+   - Darkness: Install blackout curtains or use sleep mask to block all light
+   - Quiet: Use white noise machine or app if environment is noisy
+   - Comfort: Ensure mattress and pillow support your sleep position
+   - Remove: TV, phone charger, bright alarm clocks from bedroom
+
+2. **Create a Consistent Sleep Schedule** (start tonight)
+   - Set same bedtime and wake time 7 days/week (yes, weekends too)
+   - Calculate: Count back 7-9 hours from required wake time for bedtime
+   - Example: Wake at 6:30 AM → Bedtime 10:00-10:30 PM
+   - Use phone alarm for bedtime reminder 30 minutes before
+   - Stick to schedule even if sleep quality is poor initially (takes 2-3 weeks)
+
+3. **Implement Pre-Sleep Routine** (30-60 minutes before bed)
+   - Stop screens 1 hour before bed (blue light disrupts melatonin)
+   - Do relaxing activities: reading, light stretching, meditation, warm bath
+   - Avoid: caffeine after 2 PM, alcohol 3 hours before bed, heavy meals 2 hours before
+   - Keep routine consistent - your brain learns sleep cues
+   - Track sleep with app or journal for first 2 weeks to identify patterns
+
+**Sleep Quick Start Template**: "Current sleep: `[HOURS]` per night, quality `[1-10]`. Target bedtime: `[TIME]`, wake time: `[TIME]`. My environment changes: `[ACTIONS]`. My pre-sleep routine: `[3_ACTIVITIES]`. No screens after: `[TIME]`. I'll track for `[DURATION]` to measure improvement."
+
 ## Template
 
 ```

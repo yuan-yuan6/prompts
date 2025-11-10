@@ -18,6 +18,34 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for managing vendor relationships, procurement processes, and supplier performance to optimize value, minimize risk, and ensure operational excellence.
 
+## Quick Start
+
+**Need to manage vendor relationships quickly?** Use this minimal example:
+
+### Minimal Example
+```
+Vendor type: Cloud infrastructure provider
+Annual spend: $5M with strategic importance
+Criticality: Mission-critical services
+Current challenges: Cost optimization, SLA compliance
+Objectives: Reduce costs by 15%, improve service levels, establish strategic partnership
+```
+
+### When to Use This
+- Evaluating and onboarding new strategic vendors
+- Managing critical supplier relationships and performance
+- Developing procurement strategies for complex categories
+- Addressing vendor performance issues or contract renewals
+
+### Basic 3-Step Workflow
+1. **Assess Current State** - Map vendor portfolio, identify critical relationships, and evaluate performance against KPIs
+2. **Define Strategy** - Establish vendor segmentation, set performance metrics, and create governance framework
+3. **Execute and Monitor** - Implement performance scorecards, conduct business reviews, and optimize vendor relationships
+
+**Time to complete**: 2-3 hours for simple vendor assessment, 1-2 weeks for comprehensive vendor management framework
+
+---
+
 ## Template
 
 ```markdown

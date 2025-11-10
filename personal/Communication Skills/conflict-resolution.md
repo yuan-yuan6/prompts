@@ -15,6 +15,33 @@ last_updated: 2025-11-09
 ## Purpose
 Develop effective mediation, de-escalation, and solution-finding strategies to resolve conflicts constructively, restore relationships, and prevent future disputes in personal and professional settings.
 
+## Quick Start
+
+Resolve conflicts effectively in three immediate steps:
+
+1. **Pause and Assess** (5-10 minutes)
+   - Take a cooling-off period: wait 24 hours if emotions are high
+   - Identify the real issue: Is this about the current topic or deeper concerns?
+   - Check your goal: Do you want to be right or resolve the problem?
+   - Consider perspective: What might the other person be feeling or needing?
+   - Choose timing: Find calm, private moment when both parties are available
+
+2. **Use the Conflict Resolution Script** (during conversation)
+   - Start with empathy: "I understand this situation is frustrating for both of us"
+   - State your perspective: "When [action] happened, I felt [emotion] because [reason]"
+   - Ask for their view: "Help me understand your perspective on this"
+   - Listen actively: Don't interrupt, ask clarifying questions, reflect back what you hear
+   - Find common ground: "We both want [shared goal]. How can we achieve that?"
+
+3. **Create an Action Plan** (10 minutes)
+   - Propose solutions: "What if we tried [option]? What would work for you?"
+   - Be specific: "I will [action] by [date]. Can you [action] by [date]?"
+   - Set check-in: "Let's talk again on [date] to see how this is working"
+   - Thank them: "I appreciate your willingness to work through this"
+   - Follow through: Do what you committed to doing
+
+**Conflict Resolution Template**: "The conflict is about `[ISSUE]`. My desired outcome: `[GOAL]`. Their likely concern: `[THEIR_NEED]`. My opening: 'I value our `[RELATIONSHIP]` and want to address `[ISSUE]`. When `[SPECIFIC_EVENT]`, I felt `[EMOTION]`. Help me understand your perspective.' Our action plan: `[SPECIFIC_STEPS]`."
+
 ## Template
 
 ```

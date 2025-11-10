@@ -17,6 +17,25 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive graphic design solutions covering layouts, branding, logos, visuals, infographics, and presentations for both digital and print applications across all design disciplines.
 
+## Quick Start
+
+**Create Your First Design Asset in 30 Minutes**
+
+1. **Know Your Mission** (5 min): What's the ONE message this design must communicate?
+2. **Gather Inspiration** (5 min): Find 3 examples you love - save them for reference
+3. **Sketch 3 Concepts** (10 min): Paper or digital - rough ideas, not perfection
+4. **Pick and Refine** (10 min): Choose your strongest concept and polish it
+
+**Fast-Track by Project Type**:
+- **Logo**: Start with Section 4.1 (Logo Design) → Keep it simple!
+- **Layout**: Jump to Section 2 (Layout Design) → Grid first, content second
+- **Brand System**: Begin with Section 4 (Branding) → Define colors + fonts first
+- **Infographic**: Focus on Section 5 (Data Viz) → Story before decoration
+
+**Designer's Secret**: Constraints spark creativity. Set 2-3 rules (colors, fonts, shapes) and work within them.
+
+**Quick Win**: Fill the Brand Foundation variables - they guide every design decision!
+
 ## Template
 
 ```

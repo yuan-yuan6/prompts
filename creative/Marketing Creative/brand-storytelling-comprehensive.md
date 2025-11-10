@@ -17,6 +17,34 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive brand storytelling solutions covering narratives, voice development, personality expression, values communication, purpose articulation, and heritage preservation across all brand touchpoints and communications.
 
+## Quick Start
+
+**Need to build a complete brand storytelling framework quickly?** Use this minimal example:
+
+### Minimal Example
+```
+BRAND_NAME: "Heritage Coffee Roasters"
+ORGANIZATION_TYPE: "B2C consumer brand"
+COMPANY_STAGE: "Growth stage, expanding nationally"
+CORE_PURPOSE: "Preserve artisan coffee traditions while empowering farming communities"
+BRAND_PERSONALITY: "Authentic, knowledgeable, community-focused, passionate"
+```
+
+### When to Use This
+- Establishing brand identity for startups or new ventures
+- Repositioning heritage brands for modern audiences
+- Building purpose-driven brand narratives for social impact
+- Creating comprehensive voice and personality guidelines
+
+### Basic 3-Step Workflow
+1. **Foundation & Discovery** - Conduct brand audit, stakeholder interviews, audience research, and identify core purpose, values, and heritage
+2. **Narrative Development** - Create origin story, define brand voice and personality, develop message pillars, and design multi-format stories
+3. **Implementation & Evolution** - Deploy across all touchpoints, train teams, measure story impact, collect feedback, and evolve narratives
+
+**Time to complete**: 8-12 hours for comprehensive framework, 3-4 weeks for full implementation and activation
+
+---
+
 ## Template
 
 ```

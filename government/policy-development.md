@@ -14,6 +14,34 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive policy development frameworks, public policy analysis methodologies, stakeholder engagement strategies, and implementation planning systems that support evidence-based policy making, effective governance, and positive societal outcomes across all levels of government and public sector organizations.
 
+## Quick Start
+
+Start developing your public policy in 3 steps:
+
+1. **Identify & Define the Problem**
+   - Document the policy issue with evidence and data
+   - Identify affected populations and root causes
+   - Analyze urgency level and system interactions
+
+2. **Engage Stakeholders & Gather Evidence**
+   - Map stakeholders by interest and influence level
+   - Collect quantitative data and qualitative research
+   - Review best practices and international examples
+
+3. **Design & Compare Policy Options**
+   - Develop 3-5 alternatives (status quo to comprehensive reform)
+   - Evaluate each using multi-criteria analysis (effectiveness, cost, feasibility)
+   - Select recommended option with implementation roadmap
+
+**Example Quick Start:**
+```
+Small business recovery policy for local government:
+- Problem: 30% of 5,000 small businesses at risk of closure
+- Stakeholders: Business owners, chambers of commerce, banks, residents
+- Options: Grants ($20M), low-interest loans ($15M), tax relief ($10M)
+- Recommended: Hybrid grants + technical assistance, 12-month rollout
+```
+
 ## Template
 
 ```

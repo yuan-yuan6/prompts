@@ -17,6 +17,24 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive game design documents including narratives, mechanics, and level design for video games across platforms, ensuring engaging gameplay and compelling player experiences.
 
+## Quick Start
+
+**Design Your Core Game Loop in 45 Minutes**
+
+1. **The Hook** (10 min): What's the ONE thing players do that's fun? (jump, shoot, solve, build?)
+2. **The Fantasy** (10 min): What power fantasy do players experience? (hero, strategist, creator, explorer?)
+3. **Paper Prototype** (15 min): Draw your first level or write out the core mechanic rules
+4. **Playtest Simulation** (10 min): Walk through your game in your mind - where's the fun?
+
+**Essential First Fills**:
+- `[CORE_GAMEPLAY_LOOP]` = Your answer to "What do players DO?"
+- `[PLAYER_FANTASY]` = Your answer to "What do players FEEL?"
+- `[UNIQUE_SELLING_PROPOSITION]` = Your answer to "Why is this special?"
+
+**Smart Path**: Complete Narrative Design OR Game Mechanics first (not both), then add the other.
+
+**Pro Tip**: Playable beats perfect. Get something testable fast!
+
 ## Template
 
 ```
