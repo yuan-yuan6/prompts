@@ -19,6 +19,30 @@ last_updated: 2025-11-09
 ## Purpose
 Develop comprehensive strategies for automated report creation, custom reporting systems, and executive report generation that streamline business intelligence processes and ensure consistent, timely delivery of actionable insights.
 
+## Quick Start
+
+**Need to automate reporting quickly?** Use this minimal example:
+
+### Minimal Example
+```
+Design an automated reporting system for weekly sales performance reports. The system should pull data from Salesforce, generate charts showing revenue by region and product, calculate key metrics (conversion rate, average deal size), and email PDF reports to 5 executives every Monday at 8 AM.
+```
+
+### When to Use This
+- Automating recurring reports (daily, weekly, monthly)
+- Creating executive dashboards and summaries
+- Streamlining business intelligence workflows
+- Ensuring consistent, timely report delivery
+
+### Basic 3-Step Workflow
+1. **Define requirements** - What data, metrics, and visualizations are needed?
+2. **Choose automation approach** - Tools, scheduling, and distribution methods
+3. **Implement and test** - Build workflows and validate outputs
+
+**Time to complete**: 1-2 days for simple automation, 1-2 weeks for complex systems
+
+---
+
 ## Template
 
 ```

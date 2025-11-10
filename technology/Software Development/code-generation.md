@@ -19,6 +19,34 @@ last_updated: 2025-11-09
 ## Purpose
 Generate high-quality code including functions, classes, algorithms, and complete applications with comprehensive documentation and best practices.
 
+## Quick Start
+
+**Need to generate code quickly?** Use this minimal example:
+
+### Minimal Example
+```
+Generate a Python function that validates email addresses using regex. The function should:
+- Accept an email string as input
+- Return True if valid, False if invalid
+- Handle edge cases (empty strings, special characters)
+- Include docstring documentation and 3 unit tests with pytest
+```
+
+### When to Use This
+- Creating new functions, classes, or modules from scratch
+- Need production-ready code with tests and documentation
+- Want to follow best practices and coding standards
+- Building APIs, algorithms, or data processing pipelines
+
+### Basic 3-Step Workflow
+1. **Specify requirements** - Define what the code should do and constraints
+2. **Add context** - Mention language, framework, and key dependencies
+3. **Request quality features** - Ask for tests, docs, and error handling
+
+**Time to complete**: 5-15 minutes for functions, 30-60 minutes for complex classes
+
+---
+
 ## Template Structure
 
 ### Project Context

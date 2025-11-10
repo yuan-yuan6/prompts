@@ -14,6 +14,30 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive goal-setting frameworks including objectives, action plans, and progress tracking systems to achieve personal and professional aspirations effectively.
 
+## Quick Start
+
+**Need to set goals quickly?** Use this minimal example:
+
+### Minimal Example
+```
+Create a 6-month goal plan to transition into a data science career. Current status: 2 years as software engineer. Goals include: complete 3 online courses, build 2 portfolio projects, network with 10 data scientists, and apply to 20 positions. Track progress monthly with specific metrics.
+```
+
+### When to Use This
+- Setting personal or professional development goals
+- Planning career transitions or skill development
+- Creating New Year's resolutions with accountability
+- Establishing habits and tracking progress
+
+### Basic 3-Step Workflow
+1. **Define SMART goals** - Specific, Measurable, Achievable, Relevant, Time-bound
+2. **Create action plan** - Break down into concrete steps and milestones
+3. **Track progress** - Set up regular check-ins and adjust as needed
+
+**Time to complete**: 30-60 minutes for initial planning, 15 minutes per review
+
+---
+
 ## Template
 
 ```
