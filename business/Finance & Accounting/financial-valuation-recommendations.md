@@ -18,6 +18,33 @@ last_updated: 2025-11-09
 ## Purpose
 Conduct comprehensive business valuations and develop evidence-based investment recommendations to support investment decisions, M&A transactions, and strategic initiatives.
 
+## Quick Start
+
+**For Investment Bankers & Corporate Finance Professionals**: Perform comprehensive company valuations and generate buy/sell/hold recommendations with price targets.
+
+**Common Business Scenarios:**
+- **M&A Advisory**: Value acquisition targets using DCF and comparable company analysis to support deal pricing
+- **Investment Decision**: Generate buy/sell recommendation with 12-month price target for equity research reports
+- **Fairness Opinion**: Provide independent valuation for board review of proposed transactions
+- **Strategic Planning**: Value business units to support portfolio optimization and divestiture decisions
+- **Capital Raising**: Determine pre-money valuation for venture capital or private equity fundraising
+
+**What You'll Need:**
+- Financial statements (3-5 years historical, current quarter)
+- Business plan with revenue and EBITDA projections
+- Industry peers and recent comparable transactions
+- Capital structure (debt, equity, shares outstanding)
+- Market data (risk-free rate, equity risk premium, beta)
+
+**You'll Get:**
+- DCF valuation with 5-year projections and terminal value
+- Comparable company analysis using trading multiples
+- Precedent transaction analysis
+- Valuation range (bull case, base case, bear case)
+- BUY/HOLD/SELL recommendation with price target
+- Investment thesis with catalysts and risks
+- Executive summary for decision makers
+
 ## Template
 
 ```

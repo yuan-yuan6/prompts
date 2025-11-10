@@ -19,6 +19,31 @@ last_updated: 2025-11-09
 ## Purpose
 Design comprehensive ETL/ELT pipeline development strategies including data ingestion, transformation processing, orchestration workflows, monitoring systems, and automation frameworks for enterprise data platforms.
 
+## Quick Start
+
+### For Data Engineers
+Get started building production pipelines in 3 steps:
+
+1. **Define Your Pipeline Architecture**
+   - Choose methodology: ETL (extract-transform-load) or ELT (extract-load-transform)
+   - Select orchestration platform: Airflow, Prefect, Dagster, or cloud-native (Azure Data Factory, AWS Step Functions)
+   - Determine processing framework: Spark, Pandas/Dask, or cloud services
+   - Example: `PIPELINE_METHODOLOGY: "ELT", ORCHESTRATION_PLATFORM: "Apache Airflow", PROCESSING_FRAMEWORK: "PySpark"`
+
+2. **Set Up Core Components**
+   - **Ingestion Layer**: Configure source connectors, implement extraction logic with error handling
+   - **Transformation Layer**: Build bronze→silver→gold transformations with data quality checks
+   - **Orchestration**: Create DAG with task dependencies, retries, and monitoring
+   - Start with template code blocks for batch ingestion, streaming, or CDC patterns
+
+3. **Deploy with Monitoring**
+   - Implement logging framework and alerting system
+   - Configure performance metrics collection (execution time, throughput, error rates)
+   - Set up SLA monitoring and automated notifications
+   - Use provided monitoring dashboard configurations
+
+**Key Template Sections**: Ingestion patterns (lines 71-347), Transformation logic (464-823), Orchestration (826-1068), Monitoring (1070-1282)
+
 ## Template
 
 ```

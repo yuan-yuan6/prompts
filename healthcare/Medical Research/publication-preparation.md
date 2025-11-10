@@ -18,6 +18,45 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive manuscripts, abstracts, posters, and presentations for medical publications including journal articles, conference materials, and scientific communications following publication guidelines and standards.
 
+## Quick Start
+
+### For Original Research Manuscript
+1. Select target journal: Match study design/impact to journal scope and IF
+2. Follow reporting guidelines: CONSORT (RCTs), STROBE (observational), PRISMA (reviews)
+3. Structure manuscript: IMRaD format with word limits (typically 3000-4000 words)
+4. Prepare tables/figures: 4-6 total, ensure they stand alone with clear legends
+5. Check author contributions: Verify all meet ICMJE criteria (conception, drafting, approval)
+
+### For Conference Abstract
+1. Review guidelines: Character/word limits (typically 250-400 words), structure requirements
+2. Write concisely: Background (2-3 sentences) → Methods (brief) → Results (quantitative) → Conclusions
+3. Include key numbers: Sample size, primary outcome with effect size and p-value
+4. Proofread carefully: Errors highly visible in abstract books and online
+5. Submit early: Deadlines often 6-8 months before conference
+
+### Publication Ethics Checklist
+- **Authorship**: All authors meet ICMJE criteria, none excluded who qualify
+- **Conflicts of interest**: Disclose all financial relationships in past 3 years
+- **Prior publication**: Not submitted elsewhere simultaneously (duplicate publication)
+- **Data sharing**: Provide statement on availability per ICMJE/journal requirements
+- **Trial registration**: Prospectively registered on ClinicalTrials.gov for interventional studies
+- **Ethics approval**: IRB approval obtained, consent processes followed
+- **Reporting guidelines**: CONSORT/STROBE/PRISMA/CARE checklist completed
+
+### Response to Peer Review
+1. Thank editor/reviewers: Acknowledge constructive feedback professionally
+2. Point-by-point response: Address every comment with specific location of changes
+3. Track changes: Highlight modifications in revised manuscript for easy review
+4. Provide additional analyses: If requested, include in supplementary materials
+5. Remain professional: Even if reviewer comments seem harsh or uninformed
+
+### Cover Letter Essentials
+- State manuscript type and title
+- Explain significance and novelty (2-3 sentences)
+- Confirm no conflicts, ethical approval, author agreement
+- Suggest 3-5 potential reviewers with emails (optional but helpful)
+- Note any prior presentation at conferences
+
 ## Template
 
 ```

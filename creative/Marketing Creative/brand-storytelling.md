@@ -18,6 +18,34 @@ last_updated: 2025-11-09
 ## Purpose
 Create compelling brand narratives, voice, and personality that connect emotionally with audiences and build lasting brand relationships across all touchpoints and communications.
 
+## Quick Start
+
+**Need to develop brand storytelling quickly?** Use this minimal example:
+
+### Minimal Example
+```
+STORY_TYPE: "Brand origin story"
+BRAND_NAME: "EcoLife Products"
+TARGET_AUDIENCE: "Environmentally conscious consumers"
+STORYTELLING_OBJECTIVE: "Create emotional connection and brand loyalty"
+EMOTIONAL_GOAL: "Hope and empowerment"
+```
+
+### When to Use This
+- Launching new brands or rebranding existing companies
+- Developing founder and origin stories for authenticity
+- Creating customer success and transformation narratives
+- Building brand voice guidelines for consistent communication
+
+### Basic 3-Step Workflow
+1. **Discover Core Narrative** - Identify brand purpose, founding story, values, and authentic voice through stakeholder interviews and research
+2. **Develop Story Framework** - Create central brand narrative, character development, message pillars, and multi-format story adaptations
+3. **Implement & Evolve** - Deploy stories across all touchpoints, train teams on voice guidelines, measure engagement, and refine storytelling
+
+**Time to complete**: 4-6 hours for core story development, 2-3 weeks for comprehensive storytelling framework
+
+---
+
 ## Template
 
 ```

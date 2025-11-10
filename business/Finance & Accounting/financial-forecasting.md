@@ -18,6 +18,31 @@ last_updated: 2025-11-09
 ## Purpose
 Develop data-driven financial forecasts including revenue projections, expense forecasts, cash flow predictions, and pro forma financial statements to support strategic planning and decision-making.
 
+## Quick Start
+
+**Need to create a financial forecast quickly?** Use this minimal example:
+
+### Minimal Example
+```
+You are a financial analyst. Create a 3-year financial forecast for TechVision Inc., a B2B SaaS company. Historical revenue: 2022: $25M, 2023: $35M, 2024: $50M (43% CAGR). Current gross margin: 78%. Current operating margin: -5%. Industry growing at 25% annually. We plan to invest heavily in sales (25% of revenue) to capture market share. Project revenue, COGS, operating expenses, and profitability for 2025-2027.
+```
+
+### When to Use This
+- Building annual budgets and strategic plans
+- Preparing investor presentations or fundraising materials
+- Evaluating business viability and path to profitability
+- Supporting M&A due diligence or valuation analysis
+- Creating board-level financial projections
+
+### Basic 3-Step Workflow
+1. **Gather Historical Data** - Collect 3 years of revenue, margins, and growth rates plus industry benchmarks
+2. **Define Key Assumptions** - Set revenue growth rates, margin targets, and expense ratios based on strategic plans
+3. **Build Projections** - Create revenue forecast, expense forecast, and profitability projections with sensitivity analysis
+
+**Time to complete**: 15-20 minutes for basic forecast; 1-2 hours for detailed pro forma statements
+
+---
+
 ## Template
 
 ```

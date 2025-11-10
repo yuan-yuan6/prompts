@@ -18,6 +18,31 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for analyzing real estate markets, evaluating investment opportunities, conducting comparable analysis, and making data-driven property investment decisions.
 
+## Quick Start
+
+**Need to analyze a real estate investment quickly?** Use this minimal example:
+
+### Minimal Example
+```
+Analyze investment opportunity for a 12-unit apartment building in Austin, Texas, with $2.4M purchase price. Target: 15% IRR over 5-year hold period with value-add renovation strategy. Current metrics: 85% occupied, $1,200/unit average rent, $180K projected NOI. Need market analysis, comparable sales, financial projections, and risk assessment.
+```
+
+### When to Use This
+- Evaluating property acquisition opportunities
+- Conducting due diligence on real estate investments
+- Analyzing market conditions and trends
+- Comparing properties and determining fair market value
+- Assessing investment returns and exit strategies
+
+### Basic 3-Step Workflow
+1. **Market research** - Analyze local market trends, demographics, supply/demand, comparables
+2. **Financial analysis** - Model cash flows, calculate returns (IRR, cash-on-cash), assess risks
+3. **Investment decision** - Reconcile valuations, evaluate exit options, make go/no-go recommendation
+
+**Time to complete**: 3-5 days for initial analysis, 2-3 weeks for comprehensive evaluation
+
+---
+
 ## Template
 
 Analyze real estate opportunity for [PROPERTY_TYPE] in [LOCATION] with investment size of $[INVESTMENT_AMOUNT], targeting [TARGET_RETURN]% IRR over [HOLD_PERIOD] years with [EXIT_STRATEGY] exit strategy.

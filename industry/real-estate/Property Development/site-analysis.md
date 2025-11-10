@@ -17,6 +17,18 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive site analysis reports, feasibility studies, development potential assessments, and investment evaluations that inform strategic real estate development decisions and maximize property value.
 
+## Quick Start
+
+To use this template effectively:
+
+1. **Gather Site Information** - Begin with basic property details: location, size, current use, zoning, and ownership status
+2. **Conduct Physical Analysis** - Assess site conditions including topography, soil, drainage, utilities, and access
+3. **Review Regulatory Requirements** - Check zoning parameters, approval processes, and development restrictions
+4. **Analyze Market Conditions** - Research supply/demand dynamics, comparable properties, and market trends
+5. **Evaluate Financial Viability** - Create development pro forma with costs, revenues, and investment metrics
+
+**Pro Tip**: Start with the highest-impact sections first (Physical Analysis and Financial Analysis) to quickly determine if deeper analysis is warranted.
+
 ## Template
 
 ```

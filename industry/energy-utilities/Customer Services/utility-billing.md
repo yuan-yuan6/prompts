@@ -18,6 +18,45 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for utility billing operations, customer service management, rate design, and revenue optimization across electricity, gas, water, and multi-utility services.
 
+## Quick Start
+
+**Energy & Utilities Scenario**: You're implementing or upgrading a utility billing system to handle complex rate structures, improve billing accuracy, enhance customer experience, and streamline revenue collection.
+
+**Common Applications**:
+- Electric utility billing with time-of-use and demand rates
+- Natural gas utility billing with weather normalization
+- Water/wastewater utility billing with tiered rates
+- Multi-utility billing for combined services
+- AMI integration for interval meter data
+- Customer portal and self-service implementation
+
+**Key Variables to Define**:
+- `[UTILITY_NAME]`: Your utility name
+- `[CUSTOMER_COUNT]`: Number of customer accounts
+- `[ANNUAL_REVENUE]`: Total annual revenue
+- `[BILL_COUNT]`: Monthly billing volume
+- `[RATE_COMPLEXITY]`: Number of rate schedules
+- `[PAYMENT_METHODS]`: Available payment options
+- `[COLLECTION_RATE]`: Target collection percentage
+
+**Expected Outputs**:
+- Billing system architecture with integration points
+- Rate engine design supporting complex tariff structures
+- Meter-to-cash process flow with accuracy controls
+- Bill generation and delivery system (print, email, online)
+- Payment processing framework with multiple channels
+- Customer information system (CIS) design
+- Collections management procedures and dunning process
+- Performance metrics including billing accuracy, DSO, and satisfaction
+
+**Pro Tips**:
+- Validate rate calculations thoroughly before go-live
+- Implement bill presentment options for customer preference
+- Automate exception handling for billing errors
+- Provide self-service tools to reduce call volume
+- Use predictive analytics for collections optimization
+- Integrate with AMI for accurate consumption data
+
 ## Template
 
 Develop utility billing and customer management strategy for [UTILITY_NAME] serving [CUSTOMER_COUNT] accounts with annual revenue of $[ANNUAL_REVENUE] and average monthly billing of [BILL_COUNT] bills.

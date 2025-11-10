@@ -17,6 +17,31 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive property valuation reports, appraisal analyses, market assessments, and investment evaluations that establish accurate market values for residential, commercial, and specialty properties using industry-standard methodologies.
 
+## Quick Start
+
+**Need to value a property quickly?** Use this minimal example:
+
+### Minimal Example
+```
+Conduct market value appraisal for single-family home at 1234 Oak Street, Denver, CO, for mortgage lending. Property: 3 bed/2 bath, 2,200 sq ft, built 2010, good condition. Use sales comparison approach with 6 comparable sales from past 6 months within 1-mile radius. Effective date: current. Need USPAP-compliant appraisal report with value conclusion.
+```
+
+### When to Use This
+- Mortgage lending and refinancing decisions
+- Property purchase or sale negotiations
+- Estate planning and tax assessments
+- Divorce or legal proceedings
+- Insurance coverage determinations
+
+### Basic 3-Step Workflow
+1. **Property inspection and data collection** - Inspect property, gather data, research comparables
+2. **Apply valuation approaches** - Sales comparison, income approach, cost approach analysis
+3. **Reconcile and report** - Reconcile values, reach conclusion, prepare formal appraisal report
+
+**Time to complete**: 1-2 days for inspection, 3-7 days for complete appraisal report
+
+---
+
 ## Template
 
 ```

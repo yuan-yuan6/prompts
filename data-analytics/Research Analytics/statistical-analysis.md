@@ -19,6 +19,37 @@ last_updated: 2025-11-09
 ## Purpose
 Conduct comprehensive statistical analysis and inference to test hypotheses, estimate parameters, make predictions, and draw valid conclusions from data using advanced statistical methods and frameworks.
 
+## Quick Start
+
+**Example: Analyzing A/B Test Results for E-commerce Conversion Rates**
+
+```
+You are a statistical analysis expert. Analyze A/B test results for a website redesign campaign comparing conversion rates between the control group (original design) and treatment group (new design) using hypothesis testing and effect size analysis.
+
+DATA OVERVIEW:
+- Control group: 5,000 visitors, 250 conversions (5.0% conversion rate)
+- Treatment group: 5,000 visitors, 310 conversions (6.2% conversion rate)
+- Test duration: 14 days
+- Statistical significance level: α = 0.05
+- Minimum detectable effect: 1% absolute difference
+
+ANALYSIS TASKS:
+1. Perform two-proportion z-test to determine if the difference is statistically significant
+2. Calculate effect size (Cohen's h) and confidence intervals (95%)
+3. Check for confounding variables (day-of-week effects, traffic sources)
+4. Assess statistical power and sample size adequacy
+5. Test assumptions (independence, normality if applicable)
+6. Provide business recommendations based on statistical evidence
+
+EXPECTED OUTPUT:
+- Hypothesis test results with p-values and test statistics
+- 95% confidence intervals for conversion rate difference
+- Effect size interpretation (small/medium/large)
+- Power analysis showing achieved power
+- Visual comparison of conversion rates with error bars
+- Recommendation: Implement new design or continue testing
+```
+
 ## Template
 
 ```

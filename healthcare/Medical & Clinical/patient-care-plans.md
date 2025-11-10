@@ -18,6 +18,20 @@ last_updated: 2025-11-09
 ## Overview
 This comprehensive template assists healthcare professionals in developing personalized, evidence-based patient care plans that optimize treatment outcomes, ensure care coordination, and maintain compliance with clinical standards.
 
+## Quick Start
+
+**Creating a HIPAA-Compliant Patient Care Plan (15-20 minutes):**
+
+1. **Secure Patient Information** - Use de-identified data ([PATIENT_ID]) in all documentation; verify access authorization before proceeding
+2. **Assess Current State** - Document vital signs, medications, allergies, comorbidities in encrypted system
+3. **Set SMART Goals** - Establish 2-3 measurable goals with patient input (e.g., "Reduce HbA1c to <7% in 3 months")
+4. **Coordinate Care Team** - Identify primary provider, specialists, and support staff; document communication plan
+5. **Plan Interventions** - List pharmacological and non-pharmacological treatments with evidence-based rationale
+6. **Monitor & Review** - Schedule follow-up intervals; establish triggers for plan modification
+7. **Patient Education** - Provide written materials at appropriate health literacy level; document understanding
+
+**HIPAA Safeguards:** Always use minimum necessary standard, obtain consent for information sharing, document in secure EHR, and follow institutional breach protocols.
+
 ## Template Structure
 
 ### 1. Patient Assessment and Baseline Data Collection

@@ -18,6 +18,31 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for designing and executing influencer marketing campaigns including creator identification, campaign strategy, content collaboration, performance tracking, ROI measurement, and long-term partnership development in the creator economy.
 
+## Quick Start
+
+**Need to launch an influencer campaign quickly?** Use this minimal example:
+
+### Minimal Example
+```
+Launch influencer campaign for EcoBeauty targeting 2M reach, 5% engagement rate, partnering with 20 creators,
+$100K budget, achieving 5000 conversions, 4x ROI, and 25% brand awareness lift.
+```
+
+### When to Use This
+- Launching a new product with creator partnerships across social platforms
+- Building brand awareness through authentic influencer collaborations and sponsored content
+- Driving conversions and sales through trackable influencer marketing campaigns
+- Establishing long-term brand ambassador programs with tiered creator relationships
+
+### Basic 3-Step Workflow
+1. **Identify & Vet Creators** - Research and select influencers matching your brand values, audience demographics, and engagement metrics across relevant tiers
+2. **Design Campaign Strategy** - Define content pillars, compensation models, posting schedules, and success metrics for each creator partnership
+3. **Execute & Measure** - Launch coordinated campaign, track performance across reach/engagement/conversions, and optimize based on real-time data
+
+**Time to complete**: 2-4 weeks for small campaigns with 5-10 micro-influencers, 2-3 months for complex multi-tier campaigns with 50+ creators
+
+---
+
 ## Template
 
 Launch influencer campaign for [BRAND_NAME] targeting [AUDIENCE_SIZE] reach, [ENGAGEMENT_TARGET]% engagement rate, partnering with [INFLUENCER_COUNT] creators, [CAMPAIGN_BUDGET] budget, achieving [CONVERSION_TARGET] conversions, [ROI_TARGET]x ROI, and [BRAND_LIFT]% brand awareness lift.

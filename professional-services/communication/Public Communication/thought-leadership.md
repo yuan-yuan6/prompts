@@ -18,6 +18,30 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for developing thought leadership content, establishing expert positioning, creating compelling articles and presentations, securing speaking opportunities, building industry authority, and leveraging expertise for business growth and reputation enhancement.
 
+## Quick Start
+
+**Need to establish thought leadership quickly?** Use this minimal example:
+
+### Minimal Example
+```
+I'm a healthcare technology consultant with 15 years of experience in digital transformation. I want to position myself as a thought leader on AI implementation in healthcare systems. I need to create LinkedIn articles, secure speaking opportunities at industry conferences, and build credibility that generates consulting leads.
+```
+
+### When to Use This
+- Establishing expertise and authority in a specialized industry niche
+- Building personal or company brand to generate business opportunities
+- Differentiating from competitors through unique insights and perspectives
+- Creating content that positions you for speaking engagements and media coverage
+
+### Basic 3-Step Workflow
+1. **Define Your Niche** - Identify specific expertise areas where you have unique insights, proven results, or innovative approaches that differentiate you from competitors
+2. **Create Signature Content** - Develop 3-5 cornerstone articles or presentations that showcase your methodology, case studies, and thought-provoking perspectives on industry challenges
+3. **Distribute Strategically** - Publish on LinkedIn, pitch to industry publications, submit speaking proposals to conferences, and engage with peers to amplify your authority
+
+**Time to complete**: 2-3 weeks for niche positioning, 1-2 months for comprehensive thought leadership strategy
+
+---
+
 ## Template
 
 ```markdown

@@ -18,6 +18,18 @@ last_updated: 2025-11-09
 ## Purpose
 Create interactive, high-fidelity prototypes that simulate real product behavior for user testing, stakeholder validation, and development handoff.
 
+## Quick Start
+
+To use this template effectively:
+
+1. **Define Testing Goals** - Specify what you need to validate (concept, usability, visual design) and choose appropriate fidelity level
+2. **Map Key Flows** - Identify the 2-3 most critical user journeys to prototype (don't try to prototype everything)
+3. **Create Screen Inventory** - List all unique screens needed to support your key flows
+4. **Add Interactions** - Connect screens with realistic transitions, button states, and micro-interactions
+5. **Prepare Test Scenarios** - Write specific tasks for users to complete during testing
+
+**Pro Tip**: Start with low-fidelity prototypes for concept validation, then increase fidelity only for the flows that need detailed interaction testing.
+
 ## Template
 
 ```

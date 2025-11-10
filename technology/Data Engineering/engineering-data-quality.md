@@ -19,6 +19,21 @@ last_updated: 2025-11-09
 ## Purpose
 Implement comprehensive data quality frameworks including validation, cleansing, monitoring, profiling, and governance to ensure high-quality, reliable, and trustworthy data across enterprise systems.
 
+---
+
+## Quick Start
+
+**Data Quality Framework (1-2 Days):**
+1. **Profile critical datasets** - Run data profiling on 3-5 key tables (customer, transaction, product), identify null rates, duplicates, outliers
+2. **Define validation rules** - Create 10-15 rules per dataset (e.g., email format valid, revenue >= 0, customer_id not null, date ranges valid)
+3. **Implement automated checks** - Add validation to ETL pipeline, quarantine failed records, alert on >5% failure rate
+4. **Set up monitoring dashboard** - Track completeness rate (% non-null), accuracy rate (% passing validation), timeliness (data age)
+5. **Establish remediation process** - Define SLAs (P1: fix in 4 hours, P2: 1 day), create runbooks for common issues
+
+**Key Decision:** Focus on business-critical fields first (revenue, customer ID). Don't block pipelines for cosmetic issues (formatting).
+
+---
+
 ## Template Structure
 
 ### Data Quality Overview

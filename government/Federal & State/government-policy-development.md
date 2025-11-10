@@ -18,6 +18,34 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for developing, implementing, and evaluating government policies including stakeholder engagement, impact assessment, regulatory compliance, public consultation, and policy effectiveness monitoring.
 
+## Quick Start
+
+Launch your policy development initiative in 3 steps:
+
+1. **Define Policy Context**
+   - Identify the policy area and affected population
+   - Document current state vs. desired state for key impact areas
+   - Set clear outcome metrics and success criteria
+
+2. **Map Stakeholders & Engagement**
+   - List primary stakeholders (citizens, agencies, private sector, NGOs)
+   - Determine engagement methods for each group
+   - Plan consultation timeline and feedback mechanisms
+
+3. **Develop Policy Options**
+   - Create 3-4 policy alternatives (incremental, moderate, comprehensive)
+   - Compare costs, timelines, effectiveness, and feasibility
+   - Select recommended approach with clear rationale
+
+**Example Quick Start:**
+```
+State Healthcare Access Policy for 2M uninsured residents:
+- Gap: 25% uninsured → Target: 95% coverage in 3 years
+- Stakeholders: Citizens, hospitals, insurers, state agencies
+- Options: Medicaid expansion ($800M), state marketplace ($500M), hybrid
+- Recommended: Hybrid approach, phased 18-month rollout
+```
+
 ## Template
 
 Design policy framework for [AGENCY_NAME] addressing [POLICY_AREA] affecting [POPULATION_SIZE] citizens, with [BUDGET_ALLOCATION] budget, [IMPLEMENTATION_TIMELINE] timeline, and targeting [OUTCOME_METRICS] outcomes.

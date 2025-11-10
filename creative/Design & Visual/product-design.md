@@ -17,6 +17,31 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive product design documentation including concepts, specifications, and iterations for physical and digital products throughout the development lifecycle.
 
+## Quick Start
+
+Ready to turn your product vision into reality? Launch your design process here:
+
+**30-Second Quickstart:**
+1. Identify your product category (consumer electronics, medical device, furniture, etc.)
+2. Determine your design phase (concept, development, refinement, production)
+3. Fill in foundation variables: PRODUCT_NAME, PRODUCT_CATEGORY, DESIGN_PHASE, TARGET_MARKET
+4. Generate comprehensive design documentation with specs and iterations
+
+**First-Time User Path:**
+- Start in "Concept Development" phase with multiple design variations
+- Focus on PRODUCT CONCEPTS and Concept Variations sections first
+- Use Example 1 (Smart Home Device) or Example 3 (Sustainable Packaging) as templates
+- Create low-fidelity prototypes before investing in high-fidelity builds
+
+**Pro Tip:** Great products solve real user problems. Skip straight to "User Research" section to deeply understand pain points and behaviors before sketching a single concept. User-centered insights prevent costly pivots later.
+
+**Common Use Cases:**
+- Startups developing innovative consumer products from scratch
+- Industrial designers creating sustainable packaging solutions
+- Medical device teams iterating through regulatory-compliant designs
+- Engineers documenting technical specifications for manufacturing
+- Design teams validating concepts through rapid prototyping cycles
+
 ## Template
 
 ```

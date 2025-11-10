@@ -19,6 +19,31 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for developing and implementing omnichannel retail strategies including channel integration, inventory synchronization, customer journey optimization, technology infrastructure, and unified commerce experiences.
 
+## Quick Start
+
+**Need to launch an omnichannel strategy quickly?** Use this minimal example:
+
+### Minimal Example
+```
+Develop omnichannel strategy for a fashion retailer with 50 stores and e-commerce site serving 500K customers. Current issues: inventory not synced across channels, no buy online pickup in-store (BOPIS), limited customer data integration. Goals: enable unified inventory visibility, launch BOPIS within 90 days, increase omnichannel customer revenue by 30%.
+```
+
+### When to Use This
+- Integrating online and offline sales channels
+- Launching buy online pickup in-store (BOPIS) capabilities
+- Creating unified customer experiences across touchpoints
+- Synchronizing inventory across multiple channels
+- Building customer data platforms for omnichannel insights
+
+### Basic 3-Step Workflow
+1. **Assess current state** - Map existing channels, systems, customer journeys, and gaps
+2. **Design integration** - Select technology stack, define fulfillment models, create unified processes
+3. **Implement and optimize** - Launch pilot programs, roll out capabilities, measure performance
+
+**Time to complete**: 1-2 weeks for assessment, 3-6 months for full implementation
+
+---
+
 ## Template
 
 Develop omnichannel strategy for [COMPANY_NAME] across [CHANNEL_COUNT] channels, serving [CUSTOMER_BASE] customers, with [SKU_COUNT] SKUs, achieving [CONVERSION_TARGET]% conversion rate, [CSAT_TARGET] customer satisfaction, and [REVENUE_TARGET] revenue growth.

@@ -18,6 +18,25 @@ last_updated: 2025-11-09
 ## Purpose
 Create immersive interactive media experiences including AR/VR applications, interactive installations, and digital experiences that engage users through innovative technology and compelling content.
 
+## Quick Start
+
+**For a 30-Minute Setup:**
+1. Define interactive type and project name (e.g., AR museum tour, VR training simulation)
+2. Specify technology platform (Unity/Unreal, WebXR, mobile AR, VR headset)
+3. Identify target audience and experience duration (e.g., general public, 10-minute experience)
+4. Outline core concept and emotional journey you want users to experience
+5. List hardware requirements and technical constraints (devices, sensors, connectivity)
+
+**For Quick Results:**
+Start with the Creative Vision section to establish your concept and unique value proposition, then move to Technical Specifications to define platform requirements. This ensures your creative vision aligns with technical feasibility.
+
+**Common Use Cases:**
+- Developing AR applications for retail and marketing experiences
+- Creating VR training simulations and educational content
+- Designing interactive museum installations and exhibitions
+- Building immersive storytelling experiences and games
+- Prototyping next-generation user interfaces and experiences
+
 ## Template
 
 ```

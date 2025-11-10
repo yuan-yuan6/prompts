@@ -18,6 +18,36 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for developing renewable energy strategies including technology assessment, project development, grid integration, energy storage, sustainability metrics, and economic modeling for utilities and enterprises.
 
+## Quick Start
+
+### For Utilities & Energy Companies
+Start with a 100 MW solar+wind hybrid project:
+1. Set `[ORGANIZATION_NAME]` to your utility name
+2. Target `[CAPACITY_TARGET]` = 100 MW (e.g., 60 MW solar + 40 MW wind)
+3. Set `[RENEWABLE_MIX]` = 25-30% as initial target
+4. Define `[INVESTMENT_BUDGET]` = $150-200M for initial deployment
+5. Set `[ROI_TARGET]` = 10-12% for utility-scale projects
+6. Configure `[LCOE_TARGET]` = $30-40/MWh for competitive pricing
+
+### Example Starting Configuration
+```
+Organization: Regional Power Co
+Capacity Target: 100 MW
+Renewable Mix: 30%
+Carbon Reduction: 75,000 tons/year
+Investment: $175M
+ROI Target: 11%
+LCOE Target: $35/MWh
+Timeline: 18-24 months to COD
+```
+
+### Key First Steps
+- Complete resource assessment for solar irradiation and wind speeds
+- Identify 3-5 potential sites with grid proximity
+- Engage with grid operator for interconnection study
+- Model financial returns using provided TCO framework
+- Apply for renewable energy credits and tax incentives
+
 ## Template
 
 Develop renewable energy strategy for [ORGANIZATION_NAME] targeting [CAPACITY_TARGET] MW capacity, [RENEWABLE_MIX]% renewable mix, [CARBON_REDUCTION] tons CO2 reduction, [INVESTMENT_BUDGET] investment, achieving [ROI_TARGET]% ROI and [LCOE_TARGET] $/MWh levelized cost.

@@ -15,6 +15,45 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for managing warehouse operations including inventory control, order fulfillment, picking/packing processes, automation integration, labor management, and distribution center optimization for maximum throughput and accuracy.
 
+## Quick Start
+
+**Transportation & Logistics Scenario**: You're managing a distribution center or warehouse that needs to improve accuracy, throughput, inventory control, and order fulfillment speed while reducing operational costs.
+
+**Common Applications**:
+- E-commerce fulfillment center operations
+- Distribution center management for retail or wholesale
+- 3PL warehouse operations with multiple clients
+- Manufacturing warehouse with raw materials and finished goods
+- Cold storage or specialized handling facilities
+- Omnichannel fulfillment with store and direct-to-consumer orders
+
+**Key Variables to Define**:
+- `[WAREHOUSE_SIZE]`: Square footage of facility
+- `[SKU_COUNT]`: Number of unique products
+- `[ORDER_VOLUME]`: Daily order volume
+- `[INVENTORY_VALUE]`: Total inventory value
+- `[ACCURACY_TARGET]`: Target order accuracy percentage
+- `[PICK_RATE]`: Target picks per hour
+- `[FILL_RATE]`: Target order fill rate percentage
+
+**Expected Outputs**:
+- WMS architecture and system requirements
+- Warehouse layout optimization with slotting strategy
+- Receiving and putaway processes with efficiency targets
+- Order picking methodology (zone, wave, batch, etc.)
+- Packing and shipping procedures with quality control
+- Inventory management system with cycle counting
+- Labor management framework with productivity standards
+- Performance dashboard with accuracy, throughput, and cost metrics
+
+**Pro Tips**:
+- Implement ABC analysis for optimal product slotting
+- Use wave planning to balance workload throughout the day
+- Deploy RF scanning or voice picking for accuracy
+- Establish clear quality control checkpoints
+- Monitor pick path efficiency and adjust layouts
+- Cross-train staff for flexibility during peak periods
+
 ## Template
 
 Implement warehouse management system for [WAREHOUSE_SIZE] sq ft facility, [SKU_COUNT] SKUs, [ORDER_VOLUME] orders/day, [INVENTORY_VALUE] inventory value, achieving [ACCURACY_TARGET]% inventory accuracy, [PICK_RATE] picks/hour, [FILL_RATE]% order fill rate, with [LABOR_PRODUCTIVITY] productivity improvement and [ROI_TARGET] ROI.

@@ -19,6 +19,55 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for version control management, Git workflows, branching strategies, code review processes, merge conflict resolution, and collaborative development practices.
 
+## Quick Start
+
+**Establish Git workflow in 5 steps:**
+
+1. **Choose Branching Strategy**: Select Git Flow (feature/develop/main) for releases, GitHub Flow (feature/main) for continuous deployment
+2. **Configure Repository**: Set up branch protection rules, require PR reviews, enable status checks, configure CODEOWNERS
+3. **Define Commit Standards**: Adopt Conventional Commits (feat/fix/docs), enforce with commitlint, require issue linking
+4. **Implement PR Process**: Create PR template, require 1-2 reviewers, run CI checks (tests, lint, security scan)
+5. **Automate Workflows**: Set up CI/CD pipelines, automated releases, changelog generation, semantic versioning
+
+**Quick Git Setup:**
+```bash
+# Initialize repository with best practices
+git init
+git config --local commit.gpgsign true
+git config --local pull.rebase true
+
+# Set up Git Flow branches
+git checkout -b develop
+git push -u origin develop
+
+# Create feature branch
+git checkout -b feature/user-authentication
+git commit -m "feat(auth): add OAuth2 login"
+git push -u origin feature/user-authentication
+
+# Create PR via GitHub CLI
+gh pr create --title "Add OAuth2 authentication" \
+  --body "Implements user login with Google OAuth2" \
+  --base develop --head feature/user-authentication
+```
+
+```yaml
+# .github/workflows/pr-checks.yml
+name: PR Checks
+on: [pull_request]
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run tests
+        run: npm test
+      - name: Lint code
+        run: npm run lint
+      - name: Check commit messages
+        uses: wagoid/commitlint-github-action@v5
+```
+
 ## Template
 
 Establish version control strategy for [PROJECT_NAME] with [DEVELOPER_COUNT] developers, [REPO_COUNT] repositories, [COMMIT_FREQUENCY] daily commits, using [BRANCHING_MODEL] branching strategy, targeting [RELEASE_CYCLE] release cycle with [QUALITY_GATES] quality gates.

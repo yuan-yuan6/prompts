@@ -15,6 +15,16 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for designing and implementing performance review systems including goal setting, continuous feedback, competency assessment, career development planning, and compensation alignment for organizational excellence.
 
+## Quick Start
+
+Launch an effective performance management system in three strategic phases:
+
+1. **Define System Parameters** - Specify your organization size, review frequency (annual, quarterly, continuous), rating scale, and target improvements in performance, engagement, and retention
+2. **Configure Framework Components** - Set up goal-setting methodology (OKRs, SMART goals), feedback mechanisms (1-on-1s, 360 reviews), competency levels, and rating calibration processes
+3. **Generate Complete System** - Create comprehensive performance framework including goal management, continuous feedback tools, competency matrices, development planning, compensation alignment, and analytics dashboards
+
+Adapts to any organization from tech startups to healthcare systems to manufacturing firms. Output includes manager training materials, employee guides, review templates, and metrics tracking systems for measuring system effectiveness and business impact.
+
 ## Template
 
 Design performance review system for [ORGANIZATION_NAME] with [EMPLOYEE_COUNT] employees, [REVIEW_FREQUENCY] review cycles, [RATING_SCALE] rating system, targeting [PERFORMANCE_IMPROVEMENT]% improvement, [ENGAGEMENT_SCORE] engagement, and [RETENTION_RATE]% retention rate.

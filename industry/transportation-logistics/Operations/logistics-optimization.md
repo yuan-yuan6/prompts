@@ -19,6 +19,45 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for optimizing logistics operations including route planning, fleet management, warehouse operations, last-mile delivery, multimodal transportation, and supply chain visibility.
 
+## Quick Start
+
+**Transportation & Logistics Scenario**: You're a logistics director managing a complex distribution network with multiple facilities, diverse transportation modes, and varying delivery requirements across different customer segments.
+
+**Common Applications**:
+- Network design and optimization for regional or national distribution
+- Multi-modal transportation planning combining truck, rail, ocean, and air freight
+- Last-mile delivery strategy for e-commerce or retail operations
+- Warehouse location and capacity planning
+- Fleet sizing and route optimization
+- Supply chain visibility and control tower implementation
+
+**Key Variables to Define**:
+- `[COMPANY_NAME]`: Your organization name
+- `[SHIPMENT_VOLUME]`: Monthly shipment volume
+- `[FLEET_SIZE]`: Number of vehicles in your fleet
+- `[WAREHOUSE_COUNT]`: Number of distribution facilities
+- `[COST_REDUCTION]`: Target cost reduction percentage
+- `[DELIVERY_TIME]`: Target delivery time improvement
+- `[SERVICE_LEVEL]`: Target on-time performance percentage
+
+**Expected Outputs**:
+- Transportation network design with optimal DC locations and lanes
+- Fleet management framework with vehicle allocation and utilization metrics
+- Route optimization algorithms and efficiency improvements
+- Warehouse operations plan with throughput and accuracy targets
+- Multimodal transportation strategy with mode selection criteria
+- Technology roadmap for TMS, WMS, and visibility platforms
+- Cost management framework with savings opportunities
+- Performance metrics and KPI dashboard
+
+**Pro Tips**:
+- Start with current state mapping before optimization
+- Use data analytics to identify bottlenecks and inefficiencies
+- Consider seasonal demand patterns in capacity planning
+- Implement technology incrementally with pilot programs
+- Balance cost reduction with service level requirements
+- Include sustainability metrics in optimization criteria
+
 ## Template
 
 Optimize logistics operations for [COMPANY_NAME] managing [SHIPMENT_VOLUME] shipments/month, [FLEET_SIZE] vehicles, [WAREHOUSE_COUNT] facilities, targeting [COST_REDUCTION]% cost reduction, [DELIVERY_TIME]% faster delivery, and [SERVICE_LEVEL]% on-time performance.

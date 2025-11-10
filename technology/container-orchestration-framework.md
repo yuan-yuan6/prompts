@@ -15,6 +15,18 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for implementing container orchestration platforms including Kubernetes deployment, service mesh configuration, operator development, Helm chart management, and cloud-native application orchestration at scale.
 
+## Quick Start
+
+**To Deploy Your First Kubernetes Cluster:**
+1. **Choose Cluster Type**: Select managed (EKS/GKE/AKS) or self-managed Kubernetes
+2. **Size Your Cluster**: Plan control plane, worker nodes, and initial resource allocation
+3. **Deploy First Workload**: Create deployment, service, and ingress for a simple application
+4. **Configure Networking**: Set up CNI plugin, network policies, and ingress controller
+5. **Implement Monitoring**: Deploy Prometheus and Grafana for cluster observability
+
+**Example Starting Point:**
+Deploy container orchestration for [production-cluster] with [15] nodes, [500] pods, [20] namespaces, managing [1000] containers, achieving [99.9]% uptime, [70]% resource efficiency, [horizontal pod] auto-scaling capability, [50] deployments/day, and [5-minute] recovery time objective.
+
 ## Template
 
 Deploy container orchestration for [CLUSTER_NAME] with [NODE_COUNT] nodes, [POD_COUNT] pods, [NAMESPACE_COUNT] namespaces, managing [CONTAINER_COUNT] containers, achieving [UPTIME_TARGET]% uptime, [RESOURCE_UTILIZATION]% resource efficiency, [AUTO_SCALING] auto-scaling capability, [DEPLOYMENT_VELOCITY] deployments/day, and [RECOVERY_TIME] recovery time objective.

@@ -15,6 +15,18 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for managing product catalogs including product information management (PIM), content creation, categorization, SEO optimization, and multi-channel distribution for retail and e-commerce operations.
 
+## Quick Start
+
+To use this template effectively:
+
+1. **Define Data Architecture** - Establish your product information structure: core data, specifications, marketing content, digital assets, pricing, and compliance data
+2. **Set Up Taxonomy** - Create your category hierarchy and attribute structure for effective navigation and filtering
+3. **Establish Content Standards** - Define guidelines for titles, descriptions, images, and technical specifications
+4. **Configure Channel Distribution** - Map product data requirements for each sales channel (website, Amazon, social commerce, etc.)
+5. **Implement Quality Controls** - Set up validation rules, completeness targets, and data governance processes
+
+**Pro Tip**: Start with core product data and one primary sales channel, then expand to additional content layers and channels as your system matures.
+
 ## Template
 
 Design catalog management system for [PRODUCT_COUNT] SKUs across [CATEGORY_COUNT] categories, [CHANNEL_COUNT] sales channels, [LANGUAGE_COUNT] languages, [UPDATE_FREQUENCY] update frequency, supporting [USER_COUNT] users with [DATA_ACCURACY]% accuracy target and [TIME_TO_MARKET] speed to market.

@@ -18,6 +18,17 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for developing and executing advocacy campaigns including policy analysis, coalition building, grassroots mobilization, media strategy, and legislative engagement for social change.
 
+## Quick Start
+
+**Getting Started in 3 Steps:**
+1. Define your campaign scope by filling in basic variables (issue area, policy change target, population affected, coalition size, budget, timeline)
+2. Map your power landscape using the stakeholder analysis framework to identify champions, allies, persuadables, and opposition
+3. Develop your campaign strategy by selecting tactics from inside/outside lobbying, grassroots mobilization, media engagement, and coalition coordination
+
+**Best For:** Nonprofits planning policy advocacy campaigns, legislative engagement, grassroots organizing, coalition building, and social change initiatives requiring strategic public policy influence.
+
+**Time to Deploy:** 2-4 hours for initial strategic framework; ongoing refinement during campaign planning and execution phases.
+
 ## Template
 
 Design advocacy campaign for [ISSUE_AREA] targeting [POLICY_CHANGE] affecting [POPULATION_SIZE] people, with [COALITION_SIZE] coalition partners, [BUDGET_SIZE] budget, [CAMPAIGN_DURATION] timeline, achieving [POLICY_GOAL] policy outcome and [MOBILIZATION_TARGET] supporter mobilization.

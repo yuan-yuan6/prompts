@@ -18,6 +18,27 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive budget management strategies covering planning, tracking, and variance analysis to ensure effective financial planning, resource allocation, and performance monitoring.
 
+## Quick Start
+
+### Minimal Example
+"Create an annual operating budget for TechStart Inc., a 50-person software company with $10M projected revenue. Include revenue forecasts by product line, operating expenses by department, quarterly cash flow projections, and monthly variance tracking reports."
+
+### When to Use
+- Developing annual or quarterly budgets for organizations
+- Creating departmental budget plans and resource allocation
+- Establishing budget tracking and variance analysis processes
+- Planning capital expenditures and investment budgets
+- Preparing rolling forecasts and financial projections
+
+### 3-Step Workflow
+1. **Define Scope and Gather Data**: Identify budget type, timeframe, and organizational context; collect historical financial data, strategic goals, and stakeholder requirements
+2. **Generate Framework**: Use the template with your specific variables to create a comprehensive budget management strategy including planning methodology, monitoring systems, and governance structure
+3. **Implement and Monitor**: Roll out the budget framework, establish tracking systems, conduct regular variance analysis, and adjust forecasts based on performance
+
+### Time Estimate
+- Initial setup: 2-4 hours to complete template and generate strategy
+- Full implementation: 4-8 weeks depending on organization size and complexity
+
 ## Template
 
 ```

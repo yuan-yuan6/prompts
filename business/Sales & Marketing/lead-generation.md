@@ -18,6 +18,30 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive lead generation strategies covering prospecting, qualification, and nurturing to build a robust sales pipeline and drive revenue growth.
 
+## Quick Start
+
+**Need to generate more qualified leads quickly?** Use this minimal example:
+
+### Minimal Example
+```
+Create lead generation strategy for B2B consulting firm targeting enterprise companies. Current: 50 leads/month, 10% conversion. Goals: 150 leads/month, 20% conversion within 6 months. Focus: LinkedIn prospecting, content marketing (whitepapers, case studies), webinar series, referral program. Lead scoring based on company size, industry fit, engagement level. Budget: $30K/month.
+```
+
+### When to Use This
+- Building or expanding sales pipeline
+- Improving lead quality and conversion rates
+- Launching new products or entering new markets
+- Scaling revenue growth initiatives
+
+### Basic 3-Step Workflow
+1. **Define ICP and targeting** - Ideal customer profile, buyer personas, segmentation
+2. **Implement lead generation tactics** - Multi-channel approach, content offers, automation
+3. **Qualify and nurture** - Lead scoring, qualification frameworks, nurture sequences
+
+**Time to complete**: 2-3 weeks for strategy, 1-2 months for full implementation
+
+---
+
 ## Template
 
 ```

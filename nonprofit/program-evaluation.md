@@ -14,6 +14,17 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive program evaluation frameworks, impact assessment methodologies, social return on investment analyses, and outcome measurement systems that demonstrate nonprofit effectiveness, guide strategic decision-making, and strengthen organizational accountability to stakeholders and beneficiaries.
 
+## Quick Start
+
+**Getting Started in 3 Steps:**
+1. Design your evaluation framework by selecting evaluation type (formative, summative, process, outcome, impact), defining key questions, and engaging stakeholders
+2. Develop logic model and data collection strategy using mixed-methods approaches (quantitative surveys, qualitative interviews, document review) aligned with evaluation purposes
+3. Build outcome measurement and SROI analysis by mapping stakeholder value, monetizing outcomes, and calculating social return on investment ratios
+
+**Best For:** Evaluation specialists conducting program assessments, nonprofit managers demonstrating effectiveness, grant writers documenting impact, and organizations building accountability systems for funders and stakeholders.
+
+**Time to Deploy:** 6-10 hours for evaluation design; 6-18 months for implementation depending on evaluation scope, methods, and reporting requirements.
+
 ## Template
 
 ```

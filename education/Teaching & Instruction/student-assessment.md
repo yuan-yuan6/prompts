@@ -17,6 +17,30 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive student assessment strategies covering formative and summative evaluation methods, rubric development, feedback systems, and performance measurement to enhance learning outcomes and provide meaningful evaluation of student progress and achievement.
 
+## Quick Start
+
+**Need to assess student learning quickly?** Use this minimal example:
+
+### Minimal Example
+```
+Create an assessment strategy for a 6-week 7th grade English unit on persuasive writing. Include: weekly formative checks (exit tickets, peer reviews), mid-unit draft assessment with feedback rubric, and final persuasive essay with detailed 4-level rubric covering argument, evidence, organization, and mechanics. Provide specific, actionable feedback at each stage.
+```
+
+### When to Use This
+- Evaluating student learning and progress
+- Creating balanced formative and summative assessments
+- Developing feedback systems and rubrics
+- Measuring skill development and competency
+
+### Basic 3-Step Workflow
+1. **Plan assessment mix** - Combine formative checks and summative evaluations
+2. **Create clear criteria** - Develop rubrics with specific performance levels
+3. **Design feedback loops** - Build in timely, actionable feedback mechanisms
+
+**Time to complete**: 1-2 hours for unit assessment plan, 3-5 hours for comprehensive strategy
+
+---
+
 ## Template
 
 ```

@@ -17,6 +17,31 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for conducting investigative journalism including source development, document analysis, fact verification, legal considerations, data journalism techniques, and publication strategies.
 
+## Quick Start
+
+**Need to plan an investigative story quickly?** Use this minimal example:
+
+### Minimal Example
+```
+Develop investigative report on municipal contract fraud involving citywide scope, 25 sources, 300 documents,
+6-month investigation period, targeting public accountability impact and multi-platform publication approach.
+```
+
+### When to Use This
+- Exposing government corruption, corporate malfeasance, or systemic injustices through in-depth reporting
+- Analyzing large document sets, financial records, and data sources to uncover hidden patterns
+- Protecting whistleblower sources while maintaining legal compliance and journalistic standards
+- Publishing high-impact investigations across print, digital, video, and data visualization formats
+
+### Basic 3-Step Workflow
+1. **Develop Investigation Plan** - Define story hypothesis, identify key questions, map potential sources, assess legal risks, and establish timeline with budget
+2. **Gather & Verify Evidence** - Conduct interviews, file FOIA requests, analyze documents, perform data journalism, and corroborate all claims with multiple sources
+3. **Publish & Follow Up** - Write compelling narrative with supporting evidence, coordinate legal review, execute multi-platform publication, and track policy impact
+
+**Time to complete**: 3-6 months for local investigations with 10-20 sources, 12-18 months for complex multi-jurisdictional investigations with extensive documents
+
+---
+
 ## Template
 
 Develop investigative report on [INVESTIGATION_TOPIC] involving [SCOPE_SCALE] scope, [SOURCE_COUNT] sources, [DOCUMENT_COUNT] documents, [TIMELINE_LENGTH] investigation period, targeting [IMPACT_GOAL] public impact and [PUBLICATION_STRATEGY] publication approach.

@@ -17,6 +17,44 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive data analysis plans covering statistical analysis, qualitative analysis, and mixed methods approaches for academic research projects.
 
+## Quick Start
+
+### For Researchers & Data Analysts
+
+**Step 1: Define Your Analysis Context (10 minutes)**
+- Specify your research questions and hypotheses
+- Identify study design type (experimental, observational, longitudinal, etc.)
+- List all variables: dependent, independent, moderating, mediating, and control variables
+- Determine measurement scales and data types collected
+
+**Step 2: Select Analysis Software and Approach (5 minutes)**
+- Choose primary analysis software (SPSS, R, Python, NVivo, ATLAS.ti, etc.)
+- Define analytical paradigm (positivist, interpretivist, pragmatic)
+- Specify analysis approach (confirmatory, exploratory, or mixed)
+- Set statistical power requirements and effect sizes of interest
+
+**Step 3: Generate Your Analysis Plan (2 minutes)**
+- Input your specifications into the template variables
+- Generate comprehensive analysis framework including:
+  - Data preparation and cleaning procedures
+  - Descriptive and inferential statistical tests
+  - Qualitative coding and theme development protocols
+  - Mixed methods integration strategies
+  - Quality assurance and reproducibility measures
+
+**Step 4: Implement and Document (Ongoing)**
+- Follow generated data preparation procedures
+- Execute primary and secondary analyses systematically
+- Document decisions and maintain analysis audit trail
+- Generate results following reporting standards framework
+
+**Common Use Cases:**
+- Pre-registration analysis plans
+- Dissertation data analysis chapters
+- Statistical analysis protocols for publications
+- IRB data management plans
+- Reproducible research documentation
+
 ## Template
 
 ```

@@ -18,6 +18,13 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive financial plans including budgets, forecasts, and investment strategies to guide organizational financial strategy and resource allocation.
 
+## Quick Start
+1. **Gather Historical Data** - Collect 2-3 years of financial statements, growth rates, and key metrics to establish baseline performance
+2. **Define Planning Assumptions** - Document revenue growth expectations, cost structure changes, and key drivers for the planning period
+3. **Build Revenue Forecast** - Project revenue by stream using bottom-up (unit volume, pricing) and top-down (market share) approaches
+4. **Plan Expenses and Investments** - Budget operating costs, capital expenditures, and strategic investments aligned with growth objectives
+5. **Create Financial Models** - Develop 3-5 year projections for income statement, balance sheet, and cash flow with scenario analysis
+
 ## Template
 
 ```

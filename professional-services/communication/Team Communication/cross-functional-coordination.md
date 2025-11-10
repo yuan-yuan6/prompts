@@ -18,6 +18,22 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for managing alignment, dependencies, and collaboration across different teams, departments, and functional areas to ensure seamless execution and delivery.
 
+## Quick Start
+
+Improve cross-functional coordination immediately:
+
+1. **Map Your Dependencies**: Create a simple dependency map showing what your team needs from others and what others need from you. List team names, deliverables, due dates, and current status. Share this in your next standup.
+
+2. **Establish Liaison Roles**: Designate one person from each team as the coordination point of contact. These liaisons meet weekly for 15 minutes to surface blockers, sync timelines, and resolve handoff issues before they escalate.
+
+3. **Create a Shared Roadmap**: Build a one-page visual timeline showing all teams' major milestones on the same calendar. Use color coding for each team. Update it weekly and share broadly. This prevents surprises and reveals conflicts early.
+
+4. **Run Weekly Sync Standups**: Hold a 15-minute weekly cross-team standup focused only on: blockers affecting other teams, upcoming handoffs in the next week, and changes to commitments. Keep it tactical, not strategic.
+
+5. **Use a Shared Tracker**: Create a simple spreadsheet or board tracking cross-team requests, handoffs, and blockers. Include: request, requesting team, owning team, status, due date, and impact. Review it in every sync meeting.
+
+**First Step**: Sketch a simple dependency map for your current project. List the 3 teams you depend on most and the 3 teams depending on you. Share it with your team lead today.
+
 ## Template
 
 ```markdown

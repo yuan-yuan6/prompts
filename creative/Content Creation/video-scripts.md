@@ -17,6 +17,31 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive video script strategies for YouTube, documentaries, ads, explainers, tutorials, vlogs, and other video content to engage audiences, communicate messages effectively, and achieve content objectives.
 
+## Quick Start
+
+Ready to bring your vision to screen? Here's your fast-track to compelling video scripts:
+
+**30-Second Quickstart:**
+1. Define your video type (YouTube tutorial, documentary, ad, explainer)
+2. Identify your target platform and audience
+3. Fill in the essential variables: PROJECT_TITLE, VIDEO_TYPE, TARGET_DURATION, MAIN_OBJECTIVE
+4. Generate your comprehensive script with platform-specific optimizations
+
+**First-Time User Path:**
+- Start with a simple explainer video or tutorial (easier structure)
+- Focus on sections 2.2 (Opening/Hook) and 2.3 (Content Structure) first
+- Use Example 1 (YouTube Educational Channel) as your template
+- Generate initial script, then refine based on feedback
+
+**Pro Tip:** The first 15 seconds make or break your video. Jump straight to section 2.2 "Opening and Hook Development" to craft an attention-grabbing opener that maximizes viewer retention from frame one.
+
+**Common Use Cases:**
+- YouTube content creators needing algorithm-friendly scripts
+- Marketing teams creating product explainers or brand stories
+- Educators developing engaging tutorial content
+- Documentary filmmakers structuring narrative arcs
+- Social media managers adapting content across platforms
+
 ## Template
 
 ```

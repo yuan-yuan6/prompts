@@ -17,6 +17,18 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive graphic design solutions including layouts, branding, and visuals for both digital and print media across various applications.
 
+## Quick Start
+
+Need a design brief that delivers professional results? Here's your fast track:
+
+1. **Define your project scope** - Logo redesign? Full brand identity? Event materials? Be specific
+2. **Know your audience** - Who sees this design and what should they feel?
+3. **Establish visual direction** - Pick 2-3 reference designs that capture your vision
+4. **Set constraints** - Colors (3-5 max), fonts (2-3 families), and format specs
+5. **Prioritize deliverables** - Start with the hero asset (logo, main poster, key webpage)
+
+**Try this:** Use the Corporate Rebrand example below to brief your first design project. Fill in the bracketed variables with your specifics, and you'll have a comprehensive creative brief that ensures alignment before a single pixel is pushed. Focus on the essentials first, then expand to secondary applications.
+
 ## Template
 
 ```

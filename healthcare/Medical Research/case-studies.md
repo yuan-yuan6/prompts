@@ -18,6 +18,43 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive medical case studies including case reports, case series, and clinical presentations for education, publication, and knowledge sharing in healthcare settings.
 
+## Quick Start
+
+### For Academic Case Report
+1. Identify unique features: `CASE_UNIQUENESS: "First reported case of X complication with Y therapy"`
+2. Obtain patient consent: Written consent for publication with identifiable information
+3. Structure narrative: Timeline of events → diagnostic workup → treatment → outcome
+4. Literature review: Compare to similar cases, highlight what's novel or instructive
+5. Submit to appropriate journal: Match case significance to journal scope/impact factor
+
+### For Teaching Case
+1. Define learning objectives: `LEARNING_POINT: "Recognition of atypical presentation of MI"`
+2. Include clinical reasoning: Show diagnostic thought process, differential diagnosis
+3. Add teaching questions: 3-5 questions that test key knowledge areas
+4. Provide answers with rationale: Explain correct answers and common misconceptions
+5. De-identify appropriately: Remove/alter identifying details while preserving teaching value
+
+### Research Ethics and Privacy
+- **IRB determination**: Case reports may be exempt, but verify with your IRB
+- **Patient consent**: Required if potentially identifiable (even if de-identified)
+- **HIPAA compliance**: Remove 18 identifiers or obtain authorization
+- **Photography**: Separate consent for images, mask faces unless necessary
+- **Authorship**: Include patient as co-author if substantial intellectual contribution
+
+### Publication Guidelines
+- Follow CARE checklist (13 items for case reports)
+- Include timeline figure or table showing disease progression
+- Discuss: Why unique? What can others learn? What are limitations?
+- Cite similar cases and explain how yours differs
+- Disclose if case was previously presented at conference
+
+### Case Series Considerations
+- Minimum 3-5 cases typically needed for case series
+- IRB approval usually required for case series (research vs QI determination)
+- Describe patient selection criteria and timeframe
+- Report negative cases or treatment failures (avoid selection bias)
+- Calculate descriptive statistics (proportions, ranges, medians)
+
 ## Template
 
 ```

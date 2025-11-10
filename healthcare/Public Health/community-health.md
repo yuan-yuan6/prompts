@@ -18,6 +18,23 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive community health initiatives, prevention programs, health education campaigns, and population health interventions that address social determinants of health and improve health outcomes at the community level.
 
+## Quick Start
+
+### For Community Health Program Directors
+Start with a Community Health Needs Assessment (CHNA) using multiple data sources—quantitative health data, community surveys, and stakeholder interviews. Prioritize 2-3 health issues using criteria like burden, community concern, and feasibility. Engage a diverse community advisory board before designing interventions.
+
+### For Population Health Managers
+Launch with a social-ecological model approach: implement individual-level interventions (health screenings, education), organizational changes (worksite wellness, school health policies), and community-level modifications (safe walking trails, farmers markets). Deploy community health workers to bridge gaps and address social determinants.
+
+### For Public Health Coordinators
+Begin with coalition-building—convene stakeholders from healthcare, education, government, faith communities, and businesses. Develop shared goals and a collective impact framework, establish workgroups for priority areas, meet monthly to coordinate efforts, and create joint accountability measures.
+
+### Healthcare-Specific Tips
+- **Address root causes**: Health outcomes follow ZIP codes—tackle upstream factors like housing, food access, transportation, and economic opportunity, not just downstream medical care
+- **Build authentic partnerships**: Community members must be co-designers, not just participants—compensate community advisors, share decision-making power, and respect local wisdom
+- **Use community health workers**: CHWs from the target community are force multipliers—they provide culturally congruent outreach, navigation, education, and advocacy at lower cost than clinical staff
+- **Think long-term**: Community change takes 3-5 years minimum—secure multi-year funding, institutionalize successful programs through policy, and measure intermediate outcomes to demonstrate progress
+
 ## Template
 
 ```

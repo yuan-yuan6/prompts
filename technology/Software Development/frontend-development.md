@@ -19,6 +19,56 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for frontend web development including modern JavaScript frameworks, responsive design, performance optimization, accessibility standards, and progressive web applications.
 
+## Quick Start
+
+**Build production-ready frontend in 5 steps:**
+
+1. **Bootstrap Project**: Initialize with Vite/Create-React-App/Next.js, configure TypeScript, ESLint, Prettier, Git hooks
+2. **Set Up Component Library**: Install UI framework (Material-UI/Tailwind), create design system with atoms/molecules/organisms
+3. **Implement State Management**: Configure Redux Toolkit/Zustand/Context API, set up API client (React Query/SWR)
+4. **Optimize Performance**: Enable code splitting, lazy loading, image optimization, caching; target Lighthouse score >90
+5. **Ensure Accessibility**: Implement ARIA labels, keyboard navigation, color contrast (WCAG AA), test with screen readers
+
+**Quick React Setup:**
+```bash
+# Create project
+npm create vite@latest my-app -- --template react-ts
+cd my-app && npm install
+
+# Add essential dependencies
+npm install @tanstack/react-query axios tailwindcss
+npm install -D @testing-library/react vitest
+
+# Configure Tailwind
+npx tailwindcss init -p
+```
+
+```tsx
+// Quick component with best practices
+import { useState } from 'react';
+import { useQuery } from '@tanstack/react-query';
+
+export function UserList() {
+  const { data, isLoading, error } = useQuery({
+    queryKey: ['users'],
+    queryFn: () => fetch('/api/users').then(r => r.json())
+  });
+
+  if (isLoading) return <div role="status">Loading...</div>;
+  if (error) return <div role="alert">Error loading users</div>;
+
+  return (
+    <ul className="space-y-2" aria-label="User list">
+      {data.map(user => (
+        <li key={user.id} className="p-4 hover:bg-gray-100">
+          {user.name}
+        </li>
+      ))}
+    </ul>
+  );
+}
+```
+
 ## Template
 
 Develop frontend application [APP_NAME] using [FRAMEWORK] targeting [USER_BASE] users, with [PAGE_COUNT] pages/views, [COMPONENT_COUNT] components, achieving [PERFORMANCE_SCORE] Lighthouse score, and [ACCESSIBILITY_LEVEL] accessibility compliance.

@@ -17,6 +17,29 @@ last_updated: 2025-11-09
 ## Purpose
 Design a strategic technology integration plan that enhances learning, supports course objectives, and creates accessible digital learning experiences.
 
+## Quick Start
+
+**For educators who need**: A strategic plan for integrating technology into their course
+
+**Essential inputs**:
+- Course title and delivery mode
+- Students' technology access and skills
+- Available platforms (LMS, video conferencing, etc.)
+- Primary purpose for technology (content delivery, collaboration, assessment)
+
+**5-minute starter**:
+1. Identify your top 2-3 pedagogical goals (increase engagement, facilitate discussion, provide feedback)
+2. For each goal, note one technology tool that could help (discussion boards, video, interactive quizzes)
+3. List what you already have access to (institutional LMS, free tools)
+4. Consider your comfort level and time available for learning new tools
+5. Choose ONE tool to implement first and plan how you'll introduce it to students
+
+**Common first use**: "Design technology plan for 'Project Management' - fully online, asynchronous, 8 weeks. Students are working professionals with good tech skills. We have Canvas LMS and Zoom. Need collaboration tools for group projects, video content delivery, and frequent formative assessment. Want to track engagement."
+
+**Expected output**: Complete technology integration strategy with pedagogical rationale, LMS setup plan, recommendations for synchronous/asynchronous tools, assessment technology, accessibility compliance checklist, student orientation materials, and technology support plan.
+
+**Best for**: Converting courses online, adding technology to enhance face-to-face courses, redesigning for hybrid delivery, selecting new tools, planning blended learning experiences.
+
 ## Template
 
 ```

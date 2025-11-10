@@ -21,6 +21,74 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for professional investment portfolio management including asset allocation, risk analysis, performance measurement, client management, and regulatory compliance for institutional and retail portfolios.
 
+## Quick Start
+
+Get started managing an investment portfolio in under an hour with these practical examples:
+
+### Example 1: Basic Balanced Portfolio (30 minutes)
+Create a moderate-risk portfolio for a client with $500K assets:
+```
+CLIENT_TYPE: "Individual investor"
+AUM: "500,000"
+RISK_PROFILE: "Moderate"
+RETURN_OBJECTIVE: "7"
+TIME_HORIZON: "15 years"
+
+Quick Allocation:
+- Equities: 60% ($300K) - Mix of large-cap index funds
+- Fixed Income: 30% ($150K) - Bond funds and treasuries
+- Alternatives: 5% ($25K) - REITs
+- Cash: 5% ($25K) - Emergency reserves
+
+First Actions:
+1. Document investment policy statement (IPS)
+2. Set rebalancing bands at ±5%
+3. Establish quarterly review schedule
+4. Configure automated compliance monitoring
+```
+
+### Example 2: Rebalancing an Existing Portfolio (20 minutes)
+Portfolio has drifted from target allocation:
+```
+Current: 68% Equities (Target: 60%), 27% Bonds (Target: 35%), 5% Cash
+Action: Sell $40K equities, buy $35K bonds, maintain $5K cash buffer
+
+Rebalancing Triggers:
+- Equity drift: +8% (exceeds 5% threshold)
+- Use tax-loss harvesting to minimize capital gains
+- Execute trades in most tax-efficient accounts first
+- Document rationale for compliance
+```
+
+### Example 3: Quick Risk Assessment (15 minutes)
+Evaluate portfolio risk metrics for client review:
+```
+Key Metrics to Calculate:
+- Portfolio beta: 0.85 (less volatile than market)
+- Sharpe ratio: 0.72 (risk-adjusted return)
+- Maximum drawdown: -18% (within -25% tolerance)
+- Value-at-Risk (95%): 15% of portfolio
+
+Red Flags:
+✗ Single position >10% of portfolio (concentration risk)
+✗ Sector exposure >30% (diversification issue)
+✓ Volatility within target range
+✓ Correlation diversification effective
+```
+
+### Common Starting Points
+- **Conservative Client**: 40/50/10 (Equity/Fixed/Cash) - Focus on capital preservation
+- **Moderate Client**: 60/35/5 (Equity/Fixed/Cash) - Balanced growth approach
+- **Aggressive Client**: 80/15/5 (Equity/Fixed/Cash) - Maximum growth potential
+
+### Essential First Steps
+1. Complete risk tolerance questionnaire
+2. Define specific return objectives and constraints
+3. Establish investment policy statement (IPS)
+4. Select appropriate benchmark (e.g., 60/40 S&P 500/Bloomberg Aggregate)
+5. Implement systematic rebalancing rules
+6. Set up performance tracking and reporting
+
 ## Strategic Approach
 
 ### Portfolio Management Philosophy

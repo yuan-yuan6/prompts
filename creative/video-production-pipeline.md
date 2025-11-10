@@ -15,6 +15,25 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for professional video production including pre-production planning, shooting protocols, post-production workflows, distribution strategies, team coordination, and quality control for creating high-impact video content.
 
+## Quick Start
+
+**For a 30-Minute Setup:**
+1. Define project basics: name, duration (e.g., 3-minute promotional video), platform (YouTube, social media)
+2. Set budget and crew size (e.g., $10K budget, 5-person crew)
+3. Outline pre-production timeline: concept, script, storyboard deadlines
+4. List essential equipment: camera model, lenses, audio gear, lighting setup
+5. Define success metrics: view target (e.g., 100K views), engagement rate (5%), distribution channels
+
+**For Quick Results:**
+Start with Section 1 (Pre-Production Planning) to establish concept and script, then move to Section 2 (Technical Specifications) to list your gear. This creates a solid foundation before shooting begins.
+
+**Common Use Cases:**
+- Producing corporate videos and brand content
+- Creating YouTube content and social media videos
+- Developing documentary projects and storytelling content
+- Managing multi-camera event coverage and live streaming
+- Coordinating commercial productions and advertising campaigns
+
 ## Template
 
 Produce video project [PROJECT_NAME] with [DURATION] runtime, [BUDGET] budget, [CREW_SIZE] crew, targeting [PLATFORM_DISTRIBUTION] platforms, achieving [VIEW_TARGET] views, [ENGAGEMENT_RATE]% engagement, and [ROI_TARGET] return on investment.

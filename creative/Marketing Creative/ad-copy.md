@@ -17,6 +17,18 @@ last_updated: 2025-11-09
 ## Purpose
 Create compelling advertising copy for digital, print, and broadcast media that drives engagement, conversions, and brand awareness across multiple channels and platforms.
 
+## Quick Start
+
+Need ad copy that stops the scroll and drives clicks? Here's your battle plan:
+
+1. **Match platform to message** - Google Ads for intent-driven searches, Facebook for discovery, LinkedIn for B2B
+2. **Lead with outcome, not process** - "Cut meeting prep from 2 hours to 15 minutes" beats "AI-powered scheduling tool"
+3. **Write 3 headline variations** - Problem-focused, benefit-focused, and curiosity-driven
+4. **Make CTAs specific** - "Start Free Trial" outperforms "Learn More" every time
+5. **Build in proof** - Add one trust element: testimonial, stat, or brand logo
+
+**Try this:** Pick one platform from the examples below (start with Google Ads if you're intent-focused or Facebook if you're discovery-driven). Write 3 headline variations and 2 description options, then A/B test them with small budgets. Let the data tell you what resonates, then double down on winners.
+
 ## Template
 
 ```

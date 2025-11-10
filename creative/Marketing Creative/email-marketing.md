@@ -17,6 +17,18 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive email marketing campaigns including newsletters, drip sequences, and promotional emails that drive engagement, conversions, and customer retention.
 
+## Quick Start
+
+Ready to launch an email campaign that actually converts? Here's your roadmap:
+
+1. **Choose your email type** - Welcome series for new subscribers? Promotional blast? Re-engagement campaign?
+2. **Nail your subject line** - Test 3 variations: benefit-focused, curiosity-driven, and urgency-based
+3. **Structure for scanning** - Headline, 2-3 benefit bullets, single clear CTA, mobile-first design
+4. **Personalize strategically** - Beyond names: segment by behavior, location, or engagement level
+5. **Test before sending** - Preview on mobile, check links, verify unsubscribe works
+
+**Try this:** Start with the SaaS Welcome Series example below. Map out just 3 emails (days 1, 3, and 7) focusing on welcome, value delivery, and conversion. Send to a small segment first, measure open and click rates, then optimize and scale. Simple wins beat perfect complexity.
+
 ## Template
 
 ```

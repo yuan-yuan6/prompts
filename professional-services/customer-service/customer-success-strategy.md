@@ -15,6 +15,17 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for building and scaling customer success programs including onboarding optimization, adoption strategies, retention management, expansion planning, health scoring, and proactive support for maximizing customer lifetime value.
 
+## Quick Start
+
+**Getting Started in 3 Steps:**
+1. Establish your CS foundation by defining customer count, ARR value, retention rate, NPS score, expansion revenue targets, and team structure
+2. Map customer journey stages from onboarding (0-90 days) through adoption (90-180 days), growth (180-365 days), and maturity (365+ days) with critical moments
+3. Implement health scoring system using weighted indicators (product usage, feature adoption, support tickets, engagement, payment history, sentiment) with action triggers
+
+**Best For:** Customer success leaders building scalable programs, SaaS companies optimizing retention and expansion, professional services firms managing client relationships, and organizations seeking to reduce churn and increase lifetime value.
+
+**Time to Deploy:** 3-5 hours for strategy framework; 3-6 months for full program implementation including team hiring, technology deployment, and process automation.
+
 ## Template
 
 Implement customer success strategy for [COMPANY_NAME] managing [CUSTOMER_COUNT] accounts, [ARR_VALUE] annual recurring revenue, achieving [RETENTION_RATE]% retention, [NPS_SCORE] NPS, [EXPANSION_REVENUE]% expansion revenue, and [CHURN_REDUCTION]% churn reduction.

@@ -18,6 +18,30 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for building strong community relationships, planning effective outreach programs, managing stakeholder engagement, organizing community events, and fostering long-term partnerships that benefit both the organization and the communities it serves.
 
+## Quick Start
+
+**Need to build community relationships quickly?** Use this minimal example:
+
+### Minimal Example
+```
+I need to develop a community relations strategy for our technology company entering a new urban market. We want to build relationships with local government, business leaders, and nonprofit organizations to establish our presence and gain social license to operate while supporting economic development initiatives.
+```
+
+### When to Use This
+- Launching operations in a new geographic community or market
+- Rebuilding trust after a crisis or community controversy
+- Developing stakeholder engagement for major projects or facility openings
+- Creating corporate social responsibility and community investment programs
+
+### Basic 3-Step Workflow
+1. **Map Stakeholders** - Identify key government officials, community leaders, nonprofit organizations, and local businesses who influence community perception and decision-making
+2. **Launch Listening Tour** - Conduct one-on-one meetings with stakeholders to understand community needs, priorities, and concerns while introducing your organization authentically
+3. **Design Partnership Programs** - Create community outreach initiatives that align your organizational capabilities with genuine community needs for mutual long-term benefit
+
+**Time to complete**: 2-4 weeks for initial stakeholder mapping, 1-3 months for comprehensive community relations strategy
+
+---
+
 ## Template
 
 ```markdown

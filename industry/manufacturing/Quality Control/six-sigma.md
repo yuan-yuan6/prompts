@@ -17,6 +17,22 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for implementing Six Sigma methodologies, quality control systems, defect reduction programs, process improvement initiatives, and continuous quality enhancement in manufacturing environments.
 
+## Quick Start
+
+**Get started in 3 steps:**
+
+1. **Calculate Current Sigma Level** - Measure your current defect rate in DPMO (defects per million opportunities) for key processes. Convert to sigma level using standard tables. Most manufacturers start between 3-4 sigma.
+
+2. **Launch First DMAIC Project** - Select one high-cost quality issue (scrap, rework, customer returns). Form a 4-6 person team. Define problem statement, measure baseline defects, and identify target improvement (typically 50% reduction).
+
+3. **Implement Basic SPC** - Deploy Statistical Process Control charts on 2-3 critical processes. Train operators to plot data, recognize out-of-control conditions, and stop production when needed. Calculate process capability (Cp/Cpk).
+
+**First Week Actions:**
+- Conduct Pareto analysis of top defect types by cost impact
+- Calculate baseline DPMO and sigma level for main product line
+- Identify champion and first Black Belt candidate for training
+- Set up pilot SPC charts on highest-defect process
+
 ## Template
 
 Implement Six Sigma quality program for [FACILITY_NAME] producing [PRODUCT_VOLUME] units/month across [PRODUCT_LINES] product lines, targeting [SIGMA_LEVEL] sigma level, [DEFECT_TARGET] DPMO, with [COST_SAVINGS] annual savings target.

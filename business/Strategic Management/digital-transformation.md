@@ -19,6 +19,26 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for planning and executing enterprise-wide digital transformation initiatives including technology modernization, process digitization, cultural change, and business model innovation.
 
+## Quick Start
+
+### Minimal Example
+```
+Lead digital transformation for TechCorp with budget of $5M over 18 months to achieve cloud migration and process automation targeting 150% ROI and 35% efficiency improvement.
+```
+
+### When to Use This
+- Planning enterprise-wide digital transformation across technology, operations, and culture
+- Modernizing legacy systems and migrating to cloud infrastructure
+- Digitizing manual processes and implementing automation across business units
+- Developing comprehensive change management strategy for digital adoption
+
+### Basic 3-Step Workflow
+1. Assess current digital maturity across 6 dimensions (customer experience, operations, data, technology, culture, innovation) and identify gaps
+2. Design transformation roadmap with technology modernization, process digitization, and data strategy priorities
+3. Implement change management programs, track KPIs (revenue growth, cost reduction, NPS, adoption rates), and measure ROI
+
+**Time to complete:** 2-4 hours for initial assessment and roadmap; 12-36 months for full transformation execution
+
 ## Template
 
 Lead digital transformation for [COMPANY_NAME] with budget of $[TRANSFORMATION_BUDGET] over [TIMELINE] to achieve [DIGITAL_GOALS] targeting [ROI_TARGET] ROI and [EFFICIENCY_GAINS]% efficiency improvement.

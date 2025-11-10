@@ -19,6 +19,40 @@ last_updated: 2025-11-09
 ## Purpose
 Systematic approach to selecting optimal machine learning algorithms for classification, regression, clustering, and other ML tasks based on data characteristics, business requirements, and performance constraints.
 
+## Quick Start
+
+**Select ML algorithms in 5 steps:**
+
+1. **Define Problem Type**: Identify if supervised (classification/regression), unsupervised (clustering), or other; determine success metrics
+2. **Analyze Data**: Check dataset size, feature count, missing values, class balance, linearity, and complexity
+3. **Start with Baselines**: Test simple models first - LogisticRegression/RandomForest for classification, LinearRegression/XGBoost for regression
+4. **Compare Algorithms**: Evaluate 3-5 candidates using cross-validation on accuracy, training time, inference speed, interpretability
+5. **Optimize Top Performer**: Tune hyperparameters of best model, validate on holdout set, assess production constraints
+
+**Quick Algorithm Selection:**
+```python
+from sklearn.model_selection import cross_val_score
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.linear_model import LogisticRegression
+from sklearn.svm import SVC
+
+# Test multiple algorithms
+algorithms = {
+    'Logistic': LogisticRegression(),
+    'RandomForest': RandomForestClassifier(),
+    'SVM': SVC()
+}
+
+results = {}
+for name, model in algorithms.items():
+    scores = cross_val_score(model, X_train, y_train, cv=5, scoring='accuracy')
+    results[name] = {'mean': scores.mean(), 'std': scores.std()}
+    print(f"{name}: {scores.mean():.3f} (+/- {scores.std():.3f})")
+
+# Select best performer
+best_model = max(results, key=lambda x: results[x]['mean'])
+```
+
 ## Template Structure
 
 ### Problem Definition

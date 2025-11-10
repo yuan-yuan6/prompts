@@ -15,6 +15,16 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive intellectual property management framework covering IP strategy, patent portfolio management, trademark protection, trade secret safeguarding, licensing operations, and IP risk mitigation across all business activities and innovation initiatives.
 
+## Quick Start
+
+Build a strategic IP management program in three focused steps:
+
+1. **Assess Your IP Portfolio** - Document your current intellectual property assets including patents, trademarks, copyrights, trade secrets, and their strategic value across your technology and product portfolio
+2. **Define Protection Strategy** - Specify your geographic coverage, filing priorities, budget allocation, and target revenue from IP licensing to align with business objectives
+3. **Generate Management Framework** - Create comprehensive IP strategy covering portfolio assessment, patent management, trademark protection, licensing, risk mitigation, and enforcement
+
+Suitable for technology companies, life sciences firms, consumer brands, and any organization leveraging intellectual property for competitive advantage. Output includes detailed tables for portfolio tracking, licensing strategies, and enforcement plans.
+
 ## Template
 
 Manage IP portfolio for [COMPANY_NAME] with [PATENT_COUNT] patents, [TRADEMARK_COUNT] trademarks, and [IP_BUDGET] annual IP budget across [JURISDICTION_COUNT] jurisdictions to achieve [IP_REVENUE]% revenue from IP licensing and [IP_PROTECTION_SCORE]% IP protection coverage.

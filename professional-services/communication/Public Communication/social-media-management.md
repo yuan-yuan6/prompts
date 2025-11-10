@@ -18,6 +18,30 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for developing social media presence, creating engaging content, building communities, managing multi-platform strategies, and driving business results through effective social media management and audience engagement.
 
+## Quick Start
+
+**Need to build social media presence quickly?** Use this minimal example:
+
+### Minimal Example
+```
+I'm launching a B2B SaaS startup targeting marketing professionals. I need to build social media presence on LinkedIn and Twitter to generate awareness, share product updates, engage with potential customers, and drive sign-ups for our beta launch in 3 months.
+```
+
+### When to Use This
+- Launching new products or services that need market awareness
+- Building brand presence and community engagement from scratch
+- Driving lead generation and customer acquisition through social channels
+- Managing reputation and customer service across multiple platforms
+
+### Basic 3-Step Workflow
+1. **Choose Core Platforms** - Select 2-3 platforms where your target audience is most active (B2B: LinkedIn/Twitter, B2C: Instagram/TikTok, Visual: Instagram/Pinterest)
+2. **Create Content Calendar** - Plan 4-5 posts per week mixing educational content (40%), company updates (30%), engagement posts (20%), and promotional content (10%)
+3. **Engage and Optimize** - Respond to comments within 2 hours, track performance metrics weekly, and adjust content based on what drives highest engagement and conversions
+
+**Time to complete**: 1 week for strategy setup, 2-4 weeks to establish consistent presence and initial engagement
+
+---
+
 ## Template
 
 ```markdown

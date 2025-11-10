@@ -18,6 +18,24 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for managing special education services, IEP development and implementation, accommodations, modifications, progress monitoring, and compliance with IDEA regulations.
 
+## Quick Start
+
+**Get started in 3 minutes:**
+
+1. **Student Identification** - Assess disability categories, service levels, hours/week needed, inclusion percentage targets
+2. **IEP Core Components** - Develop PLAAFP (present levels), SMART goals, service determination, and LRE justification
+3. **Select Service Model** - Choose delivery: full inclusion, resource room, self-contained, co-teaching, or related services
+4. **Setup Progress Monitoring** - Establish data collection (frequency, methods) for academic, behavioral, and functional goals
+
+**Minimum Viable Special Education Program:**
+- 1 completed IEP per student (PLAAFP, 3-5 annual goals, services/accommodations, LRE)
+- 1 service delivery model matched to student needs
+- 1 progress monitoring system (weekly or bi-weekly data collection)
+- 1 communication plan with parents (monthly updates minimum)
+- 100% compliance with evaluation and IEP timelines
+
+Perfect for: Special education teachers, case managers, IEP coordinators, school psychologists, and administrators managing special education services.
+
 ## Template
 
 Develop special education program for [SCHOOL_NAME] serving [SPED_COUNT] students with [DISABILITY_CATEGORIES], [STAFF_COUNT] special education staff, ensuring [COMPLIANCE_TARGET]% compliance and [ACHIEVEMENT_TARGET] academic growth.

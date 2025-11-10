@@ -18,6 +18,47 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for analyzing real estate investment opportunities including financial modeling, market assessment, risk evaluation, portfolio optimization, and investment strategy development.
 
+## Quick Start
+
+**Real Estate Scenario**: You're evaluating a commercial real estate acquisition opportunity and need to perform comprehensive financial analysis, market assessment, risk evaluation, and determine if it meets your investment criteria.
+
+**Common Applications**:
+- Multifamily apartment acquisition and value-add strategy
+- Office building investment with lease-up or repositioning
+- Retail property evaluation with anchor tenant analysis
+- Industrial warehouse investment for e-commerce demand
+- Mixed-use development opportunity assessment
+- Portfolio diversification and optimization analysis
+
+**Key Variables to Define**:
+- `[PROPERTY_TYPE]`: Multifamily, office, retail, industrial, etc.
+- `[LOCATION]`: Market and submarket
+- `[PROPERTY_SIZE]`: Square footage
+- `[PURCHASE_PRICE]`: Acquisition cost
+- `[IRR_TARGET]`: Target internal rate of return
+- `[CAP_RATE_TARGET]`: Target capitalization rate
+- `[HOLD_PERIOD]`: Expected investment period
+
+**Expected Outputs**:
+- Property and market assessment with competitive analysis
+- 10-year cash flow model with revenue and expense projections
+- Return metrics (IRR, cap rate, cash-on-cash, equity multiple)
+- Financing structure with optimal capital stack
+- Risk analysis with probability and mitigation strategies
+- Sensitivity analysis showing impact of key variables
+- Value-add strategy with capital improvement plan
+- Exit strategy analysis with multiple scenarios
+- Due diligence checklist with findings
+- Investment committee presentation with recommendation
+
+**Pro Tips**:
+- Underwrite conservatively with realistic assumptions
+- Validate market rents and expenses with comparables
+- Model multiple scenarios (base, downside, upside)
+- Factor in capital reserves for unexpected costs
+- Evaluate exit timing and market liquidity carefully
+- Consider tax implications including depreciation and 1031 exchanges
+
 ## Template
 
 Analyze real estate investment for [PROPERTY_TYPE] property at [LOCATION] with [PROPERTY_SIZE] sq ft, [PURCHASE_PRICE] acquisition cost, targeting [IRR_TARGET]% IRR, [CAP_RATE_TARGET]% cap rate, [HOLD_PERIOD] year hold period, and [EQUITY_MULTIPLE]x equity multiple.

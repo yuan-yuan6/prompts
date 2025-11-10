@@ -18,6 +18,30 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for creating press releases, media statements, journalist communications, and media relations strategies that maximize coverage, maintain credibility, and effectively communicate key messages to target audiences.
 
+## Quick Start
+
+**Need to create a press release quickly?** Use this minimal example:
+
+### Minimal Example
+```
+Our fintech startup just secured $10M Series A funding led by a prominent venture capital firm. I need to write a press release announcing the funding round, our growth plans, and market opportunity to distribute to TechCrunch, VentureBeat, and local business media to generate coverage and credibility.
+```
+
+### When to Use This
+- Announcing major milestones like funding rounds, acquisitions, or partnerships
+- Launching new products, services, or entering new markets
+- Sharing executive appointments, awards, or significant company achievements
+- Responding to industry news or positioning as expert commentary source
+
+### Basic 3-Step Workflow
+1. **Write Core Release** - Create headline, lead paragraph with who/what/when/where/why, supporting paragraphs with details, executive quotes, and company boilerplate following AP style
+2. **Target Media List** - Identify 15-20 relevant journalists covering your industry beat, research their recent articles, and customize pitches highlighting why your news matters to their audience
+3. **Distribute and Follow Up** - Send personalized pitches to top-tier journalists 2-3 days before embargo, distribute broadly on release day, and follow up with reporters showing interest
+
+**Time to complete**: 2-3 hours for basic press release, 1-2 days for comprehensive media outreach campaign
+
+---
+
 ## Template
 
 ```markdown

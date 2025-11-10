@@ -18,6 +18,16 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive merger and acquisition documentation, due diligence frameworks, deal structuring strategies, and integration planning that maximize transaction value while managing legal, financial, and operational risks.
 
+## Quick Start
+
+Execute your M&A transaction with professional-grade support in three phases:
+
+1. **Define Transaction Parameters** - Specify deal type (acquisition, merger, buyout), transaction size, parties involved, industry context, and strategic objectives to establish the framework
+2. **Structure Due Diligence** - Configure workstreams covering financial, legal, commercial, operational, and technology due diligence with timelines and resource allocation
+3. **Generate Complete Framework** - Produce comprehensive M&A support including due diligence checklists, valuation analyses, deal structuring options, regulatory roadmaps, integration plans, and risk mitigation strategies
+
+Covers all transaction types from small acquisitions to mega-mergers, across technology, healthcare, financial services, and industrial sectors. Output includes ready-to-use templates for purchase agreements, disclosure schedules, and integration playbooks.
+
 ## Template
 
 ```

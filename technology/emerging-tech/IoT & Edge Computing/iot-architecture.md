@@ -17,6 +17,26 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for designing, implementing, and managing IoT systems with edge computing capabilities, including device management, data processing, connectivity, and cloud integration.
 
+## Quick Start
+
+**Set Your Foundation (5 minutes):**
+1. Define project scope: device count, locations, and data volume requirements
+2. Set latency requirements and processing needs (edge vs cloud)
+3. Identify connectivity protocols (WiFi, LoRaWAN, 5G, NB-IoT)
+
+**Configure Key Parameters (10 minutes):**
+4. Specify device types, sensors, and processing capabilities
+5. Define edge gateway specifications (CPU, RAM, storage, accelerators)
+6. Set data pipeline stages (ingestion, edge processing, streaming, batch, archive)
+
+**Implement & Deploy (Ongoing):**
+7. Deploy edge nodes with containerized workloads (Docker/K3s recommended)
+8. Implement device management platform (AWS IoT, Azure IoT Hub, or ThingsBoard)
+9. Configure security layers: device authentication, network segmentation, data encryption
+10. Set up monitoring dashboards for device health, data flow, and system performance
+
+**Pro Tips:** Start with a pilot deployment of 10-50 devices, use MQTT for lightweight messaging, implement local data filtering at edge to reduce cloud costs, and design for offline operation scenarios.
+
 ## Template
 
 Design IoT architecture for [PROJECT_NAME] deploying [DEVICE_COUNT] devices across [LOCATION_COUNT] locations, processing [DATA_VOLUME] GB/day, with [LATENCY_REQUIREMENT] ms latency requirement and budget of $[BUDGET].

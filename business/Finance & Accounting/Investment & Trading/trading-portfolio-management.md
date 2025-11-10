@@ -18,6 +18,32 @@ last_updated: 2025-11-09
 ## Overview
 This comprehensive template assists investment professionals, financial advisors, and portfolio managers in developing sophisticated, risk-adjusted investment portfolios that optimize returns while maintaining appropriate risk levels and alignment with client objectives.
 
+## Quick Start
+
+**For Portfolio Managers & Investment Advisors**: Design comprehensive investment portfolios with asset allocation, risk management, and performance measurement frameworks.
+
+**Common Business Scenarios:**
+- **New Client Onboarding**: Create customized portfolio strategy based on risk tolerance, time horizon, and financial goals
+- **Retirement Planning**: Design conservative portfolio (60/40 stocks/bonds) with income generation focus and capital preservation
+- **High Net Worth Management**: Build aggressive growth portfolio with alternative investments (private equity, hedge funds, REITs)
+- **Institutional Endowment**: Develop perpetual portfolio with 5% annual distribution requirement and long-term growth objectives
+- **Portfolio Rebalancing**: Quarterly review and tactical adjustments based on market conditions and performance
+
+**What You'll Need:**
+- Client financial profile (assets, income, expenses, debt, emergency fund)
+- Investment objectives and time horizon
+- Risk tolerance assessment score
+- Tax situation and regulatory constraints
+- Benchmark preferences
+
+**You'll Get:**
+- Strategic asset allocation across equities, fixed income, alternatives, and cash
+- Security selection criteria and manager due diligence framework
+- Risk management protocols with position sizing limits
+- Performance measurement and attribution methodology
+- Rebalancing strategy and implementation plan
+- Comprehensive compliance and reporting framework
+
 ## Template Structure
 
 ### 1. Client Profiling and Investment Objectives

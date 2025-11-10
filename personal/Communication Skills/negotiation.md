@@ -15,6 +15,18 @@ last_updated: 2025-11-09
 ## Purpose
 Develop effective negotiation strategies, tactics, and communication approaches to achieve mutually beneficial outcomes in business deals, salary discussions, conflicts, and personal situations.
 
+## Quick Start
+
+Prepare for your next negotiation with this essential checklist:
+
+1. Know your numbers: Write down your ideal outcome, acceptable outcome, and walk-away point before you start
+2. Research the market: What are similar deals/salaries/agreements going for? Data is your best friend
+3. Understand their perspective: What does the other party really need? (Hint: It's not always money)
+4. Start with rapport: Spend the first few minutes building connection—people negotiate better with people they like
+5. Practice your opening: Say it out loud. "Based on my research and the value I bring, I'm looking for X" sounds confident and professional
+
+Key mindset shift: Negotiation isn't about winning or losing—it's about finding a solution that works for both parties. When both sides feel good about the outcome, you've truly succeeded.
+
 ## Template
 
 ```

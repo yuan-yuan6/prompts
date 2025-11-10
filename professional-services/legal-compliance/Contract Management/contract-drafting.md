@@ -18,6 +18,16 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive legal contracts, agreements, terms of service, and binding documents with proper structure, protective clauses, and enforceable provisions that protect interests while maintaining clarity and legal validity.
 
+## Quick Start
+
+Get started drafting legally sound contracts in 3 steps:
+
+1. **Identify Core Elements**: Define contract type, parties, jurisdiction, and key terms (price, deliverables, timeline)
+2. **Select Risk Protections**: Choose appropriate limitation of liability caps, indemnification scope, and IP ownership structure based on deal complexity
+3. **Generate & Review**: Use the template to create a complete draft, then review protective clauses (termination rights, dispute resolution, warranties) for your specific risk tolerance
+
+**Pro Tip**: Start with standard templates for routine agreements, but customize risk allocation provisions (liability caps, indemnification, force majeure) for high-value or complex transactions.
+
 ## Template
 
 ```

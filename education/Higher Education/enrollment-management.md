@@ -17,6 +17,18 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive enrollment management strategies covering student recruitment, admissions processes, retention programs, yield optimization, and enrollment analytics to maximize institutional enrollment goals while ensuring student success and institutional sustainability.
 
+## Quick Start
+
+**To Build Your Enrollment Strategy:**
+1. **Analyze Current State**: Review enrollment trends, retention rates, and completion statistics
+2. **Define Target Markets**: Identify primary student demographics and geographic focus areas
+3. **Set Enrollment Goals**: Establish realistic targets for new students, transfers, and retention
+4. **Map Student Journey**: Design touchpoints from inquiry through graduation
+5. **Implement Technology**: Deploy CRM system, communication automation, and analytics dashboard
+
+**Example Starting Point:**
+Develop enrollment management strategy for [Regional Community College] facing declining enrollment, focusing on transfer pathway optimization, workforce development programs, and non-traditional student recruitment with technology-enhanced outreach.
+
 ## Template
 
 ```

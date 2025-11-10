@@ -17,6 +17,35 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive campaign concepts covering themes, messaging, creative briefs, storytelling, and activation strategies for integrated marketing campaigns across all channels and touchpoints.
 
+## Quick Start
+
+**Need to develop an integrated campaign concept quickly?** Use this minimal example:
+
+### Minimal Example
+```
+CAMPAIGN_NAME: "Tech Product Global Launch"
+CAMPAIGN_TYPE: "Integrated product launch"
+CAMPAIGN_OBJECTIVE: "Drive awareness and early adoption"
+TARGET_MARKET: "Tech-savvy millennials and early adopters"
+CAMPAIGN_DURATION: "3 months"
+CHANNEL_MIX: "Digital, social, experiential, PR"
+```
+
+### When to Use This
+- Planning multi-channel product or service launches
+- Developing integrated brand awareness campaigns
+- Creating seasonal or event-based marketing initiatives
+- Building purpose-driven social impact campaigns
+
+### Basic 3-Step Workflow
+1. **Strategic Foundation** - Define business objectives, audience insights, competitive positioning, budget, and success metrics for campaign
+2. **Creative Development** - Develop big idea, central theme, message architecture, visual identity, and multi-channel activation strategy
+3. **Execute & Optimize** - Launch coordinated campaign across channels, monitor real-time performance, adjust tactics, and measure business impact
+
+**Time to complete**: 6-10 hours for comprehensive concept, 3-6 weeks for full campaign development and launch
+
+---
+
 ## Template
 
 ```

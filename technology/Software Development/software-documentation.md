@@ -18,6 +18,30 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive technical documentation including API documentation, system specifications, user guides, developer guides, and architectural documentation with clear structure and professional presentation.
 
+## Quick Start
+
+**Need to document your project quickly?** Use this minimal example:
+
+### Minimal Example
+```
+Create API documentation for PaymentService REST API v2.0. Include: authentication (OAuth 2.0), 5 main endpoints (POST /payments, GET /payments/{id}, etc.), request/response examples, error codes (400, 401, 403, 500), and rate limits (1000 req/min). Target audience: external developers integrating our API.
+```
+
+### When to Use This
+- Documenting new APIs or services
+- Creating developer onboarding guides
+- Writing system architecture documentation
+- Building user guides for internal tools
+
+### Basic 3-Step Workflow
+1. **Define scope** - Audience, purpose, what needs documenting, level of detail
+2. **Structure content** - Organize sections, add code examples, create diagrams
+3. **Review and publish** - Technical accuracy check, peer review, version control
+
+**Time to complete**: 4-8 hours for API docs, 1-2 days for system architecture
+
+---
+
 ## Template Structure
 
 ### Documentation Overview

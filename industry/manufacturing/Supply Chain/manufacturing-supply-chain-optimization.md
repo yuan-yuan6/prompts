@@ -17,6 +17,22 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for optimizing manufacturing supply chains including supplier management, inventory optimization, logistics coordination, risk mitigation, and end-to-end visibility strategies.
 
+## Quick Start
+
+**Get started in 3 steps:**
+
+1. **Map Supply Chain Network** - Document all suppliers (tier 1 & 2), manufacturing sites, distribution centers, and major customers. Calculate total supply chain costs as percentage of revenue. Identify longest lead time components.
+
+2. **Segment Inventory by ABC** - Classify SKUs using ABC analysis (A = top 20% by value, B = next 30%, C = remaining 50%). Calculate current inventory turns and days-on-hand by category. Focus optimization on A items first.
+
+3. **Implement Pull System Pilot** - Select one high-volume product family. Convert from push (forecast-driven) to pull (customer-driven) using kanban cards or two-bin system. Reduce batch sizes by 50% and monitor service levels.
+
+**First Week Actions:**
+- Create supply chain network diagram with lead times and costs
+- Calculate key metrics: inventory turns, cash-to-cash cycle, on-time delivery
+- Conduct ABC inventory analysis and identify excess stock
+- Map material flow for one product family from supplier to customer
+
 ## Template
 
 Optimize supply chain for [COMPANY_NAME] with [SUPPLIER_COUNT] suppliers, [SKU_COUNT] SKUs, [FACILITY_COUNT] facilities, targeting [COST_REDUCTION]% cost reduction, [LEADTIME_REDUCTION]% lead time improvement, and [SERVICE_LEVEL]% service level achievement.

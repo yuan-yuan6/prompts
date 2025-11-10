@@ -15,6 +15,30 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for designing and implementing microservices architecture including service decomposition, API design, communication patterns, data management, deployment strategies, and operational considerations for scalable distributed systems.
 
+## Quick Start
+
+**Need to design microservices architecture quickly?** Use this minimal example:
+
+### Minimal Example
+```
+Design microservices for OrderManagement with 8 services (user, product, cart, order, payment, inventory, notification, shipping), 50K concurrent users, 1000 req/sec. Use: REST APIs with JWT auth, Kafka for async messaging, PostgreSQL per service, Redis cache, Kubernetes on AWS, Istio service mesh, distributed tracing with Jaeger, 99.95% availability target.
+```
+
+### When to Use This
+- Decomposing monolithic applications into microservices
+- Designing new distributed systems from scratch
+- Scaling applications for high availability and performance
+- Implementing event-driven architectures
+
+### Basic 3-Step Workflow
+1. **Define services** - Domain-driven decomposition, service boundaries, API contracts
+2. **Design infrastructure** - Communication patterns, data management, service mesh
+3. **Implement operations** - CI/CD pipelines, monitoring, resilience patterns
+
+**Time to complete**: 2-3 weeks for architecture design, 3-6 months for full implementation
+
+---
+
 ## Template
 
 Design microservices architecture for [APPLICATION_NAME] with [SERVICE_COUNT] services, [USER_LOAD] concurrent users, [TRANSACTION_VOLUME] transactions/second, achieving [AVAILABILITY_TARGET]% availability, [LATENCY_TARGET]ms latency, [SCALABILITY_FACTOR]x scalability, and [DEPLOYMENT_FREQUENCY] deployment frequency.

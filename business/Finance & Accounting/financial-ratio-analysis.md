@@ -18,6 +18,29 @@ last_updated: 2025-11-09
 ## Purpose
 Calculate and interpret key financial ratios to evaluate company performance across liquidity, efficiency, leverage, profitability, and market valuation dimensions.
 
+## Quick Start
+
+**For Financial Analysts & CFOs**: Calculate key financial ratios and generate performance benchmarking reports in 30-45 minutes.
+
+**Common Business Scenarios:**
+- **Board Presentation**: Analyze company financial health using 15-20 key ratios, compare to 3-5 industry peers, identify top 3 strengths and concerns
+- **Credit Review**: Evaluate liquidity (current ratio, quick ratio, cash ratio) and leverage ratios (debt/equity, interest coverage) for lending decisions
+- **Investment Analysis**: Calculate profitability ratios (ROE, ROA, margins) and efficiency metrics (inventory turnover, asset turnover) to assess company performance
+- **M&A Due Diligence**: Comprehensive ratio analysis across all categories to evaluate acquisition targets
+- **Performance Monitoring**: Quarterly ratio tracking with trend analysis to identify operational improvements
+
+**What You'll Need:**
+- Recent financial statements (balance sheet, income statement, cash flow)
+- Industry benchmark data for 3-5 comparable companies
+- Prior period data for trend analysis
+
+**You'll Get:**
+- Calculated ratios across 5 categories (liquidity, efficiency, leverage, profitability, market)
+- Comparison to industry benchmarks
+- Visual scorecard with ratings
+- Top 3 strengths and concerns
+- Actionable recommendations
+
 ## Template
 
 ```

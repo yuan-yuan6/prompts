@@ -14,6 +14,18 @@ last_updated: 2025-11-09
 ## Introduction
 This comprehensive prompt template enables fitness professionals, personal trainers, coaches, and individuals to design detailed, scientifically-based workout programs incorporating exercise science, progressive overload, periodization, and individualized programming across all fitness levels and goals.
 
+## Quick Start
+
+**Get started in 3 steps:**
+
+1. **Assess Fitness Baseline** - Evaluate current fitness level ([CURRENT_FITNESS_LEVEL]), movement quality ([MOVEMENT_SCREENING]), health history ([MEDICAL_CONDITIONS]), and training goals ([PRIMARY_GOALS]) to establish safe starting point.
+
+2. **Design Program Structure** - Select training split ([TRAINING_SPLIT]), determine weekly frequency, set volume parameters ([TOTAL_SETS], [REPS_PER_SET]), and choose appropriate exercises for individual needs and goals.
+
+3. **Implement Progressive Overload** - Establish clear progression strategy ([PROGRESSION_STRATEGIES]), track performance metrics ([TRAINING_LOG]), and adjust intensity/volume based on recovery and adaptation.
+
+**Example:** "Create 12-week strength program for intermediate lifter: 4-day upper/lower split, compound movements, progressive overload targeting 10% strength gains, includes mobility work and recovery protocols."
+
 ## Template Structure
 
 ### 1. Fitness Assessment Framework

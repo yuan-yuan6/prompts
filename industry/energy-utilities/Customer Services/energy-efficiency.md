@@ -18,6 +18,45 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for designing, implementing, and evaluating energy efficiency programs, demand-side management initiatives, and customer engagement strategies for utilities and energy service companies.
 
+## Quick Start
+
+**Energy & Utilities Scenario**: You're developing an energy efficiency program portfolio to meet regulatory requirements, reduce system peak demand, lower customer bills, and achieve sustainability goals.
+
+**Common Applications**:
+- Residential energy efficiency programs (HVAC, appliances, weatherization)
+- Commercial and industrial energy efficiency initiatives
+- Demand response and load management programs
+- Behavioral energy efficiency programs
+- New construction and building standards programs
+- Low-income weatherization assistance
+
+**Key Variables to Define**:
+- `[UTILITY_NAME]`: Your utility name
+- `[ENERGY_SAVINGS]`: Annual energy savings goal (GWh)
+- `[DEMAND_REDUCTION]`: Peak demand reduction target (MW)
+- `[PROGRAM_BUDGET]`: Total program budget
+- `[TERRITORY]`: Service territory description
+- `[COST_EFFECTIVENESS]`: Target cost per kWh saved
+- `[REGULATORY_REQUIREMENTS]`: Mandated savings or spending
+
+**Expected Outputs**:
+- Program portfolio design with residential, commercial, and industrial offerings
+- Measure selection and incentive structure
+- Marketing and customer engagement strategy
+- Program implementation plan with delivery partners
+- Measurement and verification (M&V) framework
+- Cost-effectiveness analysis using TRC, UCT, and other tests
+- Performance tracking dashboard
+- Regulatory reporting and compliance documentation
+
+**Pro Tips**:
+- Start with proven measures before innovative technologies
+- Segment customers for targeted program offerings
+- Use deemed savings for simplicity where allowed
+- Engage trade allies and contractors for delivery
+- Implement data-driven marketing to improve participation
+- Plan for multi-year M&V to capture persistence
+
 ## Template
 
 Design energy efficiency and DSM program portfolio for [UTILITY_NAME] targeting [ENERGY_SAVINGS] GWh annual savings, [DEMAND_REDUCTION] MW peak reduction, with budget of $[PROGRAM_BUDGET] serving [TERRITORY].

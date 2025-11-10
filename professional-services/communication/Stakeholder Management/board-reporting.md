@@ -18,6 +18,34 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for creating board-level reports, managing governance processes, and ensuring effective communication with boards of directors and governance committees.
 
+## Quick Start
+
+**Need to prepare board materials quickly?** Use this minimal example:
+
+### Minimal Example
+```
+Board meeting: Quarterly business review
+Audience: 11 independent directors
+Key topics: Q3 financial results, strategic initiative updates, risk assessment
+Decision needed: Approve Q4 budget revision and major investment
+Materials: Executive summary, financial dashboard, strategic roadmap, risk heat map
+```
+
+### When to Use This
+- Preparing quarterly or annual board meeting packages
+- Creating executive summaries for critical board decisions
+- Developing board-level dashboards and performance reports
+- Managing governance communications and compliance reporting
+
+### Basic 3-Step Workflow
+1. **Structure Content** - Create executive summary with key insights, decisions needed, and supporting data
+2. **Visualize Performance** - Design dashboards showing financial metrics, strategic progress, and risk indicators
+3. **Package and Distribute** - Assemble board package with proper formatting, distribute in advance, and prepare for Q&A
+
+**Time to complete**: 3-4 hours for routine quarterly update, 1-2 days for comprehensive annual board package
+
+---
+
 ## Template
 
 ```markdown

@@ -14,6 +14,18 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive patient care pathway designs, clinical workflow optimization plans, care coordination frameworks, and patient-centered treatment protocols that improve health outcomes, reduce costs, enhance patient experience, and ensure evidence-based care delivery across the healthcare continuum.
 
+## Quick Start
+
+**Get started in 3 steps:**
+
+1. **Define Your Pathway Scope** - Identify the condition/population ([CONDITION_TYPE]), care settings involved ([CARE_SETTINGS]), and patient volume ([PATIENT_VOLUME]). Set clear quality targets ([QUALITY_TARGET]).
+
+2. **Map the Patient Journey** - Document each stage from admission to post-discharge, defining clinical milestones, care transitions, and coordination points across your care continuum.
+
+3. **Establish Measurement Framework** - Set up tracking systems for clinical outcomes ([OUTCOME_METRICS]), process measures ([QUALITY_METRICS]), and patient experience indicators to drive continuous improvement.
+
+**Example:** "Design integrated care pathway for heart failure patients across emergency, inpatient, and outpatient settings, targeting 30-day readmission reduction of 25% and 90% patient satisfaction."
+
 ## Template
 
 ```

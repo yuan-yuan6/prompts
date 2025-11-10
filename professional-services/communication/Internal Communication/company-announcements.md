@@ -18,6 +18,18 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for creating effective all-hands communications, company updates, organizational changes, and major announcements that inform, engage, and align all stakeholders across the organization.
 
+## Quick Start
+
+Deliver impactful company announcements with this approach:
+
+1. **Structure Your Message** - Use the SCQA framework: Situation (context/background) → Complication (challenge/opportunity) → Question (what this means) → Answer (decision/action). Start with the headline in the first sentence, then provide details. Keep the main message to 3-5 paragraphs, with supporting details available separately.
+
+2. **Plan Your Cascade** - Brief leadership 24 hours before the general announcement so they can prepare for team questions. Provide managers with talking points, anticipated questions, and answers. Announce to all employees simultaneously to avoid rumors. Follow the cascade: CEO → Executive team → Managers → All employees within a 24-48 hour window.
+
+3. **Enable Two-Way Dialogue** - Schedule a live Q&A within 48 hours of the announcement (town hall, webinar, or office hours). Create multiple feedback channels: anonymous survey, dedicated email address, manager one-on-ones. Monitor internal communication channels and address emerging questions quickly.
+
+**Pro Tip**: For sensitive announcements (layoffs, acquisitions, major changes), consider the timing carefully. Avoid Fridays (gives people the weekend to worry) and holiday periods. Tuesday through Thursday mornings are typically best for major announcements, allowing time for follow-up conversations the same day.
+
 ## Template
 
 ```markdown

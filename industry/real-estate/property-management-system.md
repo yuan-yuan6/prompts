@@ -15,6 +15,18 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for managing real estate properties including tenant relations, maintenance operations, financial management, lease administration, compliance tracking, and portfolio optimization for residential and commercial properties.
 
+## Quick Start
+
+To use this template effectively:
+
+1. **Define Your Portfolio** - Start by cataloging all properties: types, units, square footage, and current occupancy rates
+2. **Set Up Tenant Management** - Establish processes for applications, lease administration, and communication channels
+3. **Organize Maintenance** - Create systems for preventive maintenance, emergency repairs, and vendor management
+4. **Configure Financial Tracking** - Set up rent collection, expense tracking, budgets, and performance metrics
+5. **Implement Technology** - Choose property management software and integrate with accounting and maintenance platforms
+
+**Pro Tip**: Focus first on tenant lifecycle and maintenance workflows - these drive the most immediate value and tenant satisfaction.
+
 ## Template
 
 Manage property portfolio of [PROPERTY_COUNT] properties with [UNIT_COUNT] units, [SQUARE_FOOTAGE] total sq ft, [TENANT_COUNT] tenants, achieving [OCCUPANCY_RATE]% occupancy, [COLLECTION_RATE]% rent collection, [MAINTENANCE_RESPONSE] response time, [NOI_TARGET] NOI, with [TENANT_SATISFACTION] satisfaction score.

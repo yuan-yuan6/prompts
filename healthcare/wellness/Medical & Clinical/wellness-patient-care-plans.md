@@ -14,6 +14,18 @@ last_updated: 2025-11-09
 ## Introduction
 This comprehensive prompt template enables healthcare professionals to create detailed, personalized patient care plans incorporating clinical assessments, treatment protocols, interdisciplinary coordination, and outcome tracking across various healthcare settings and specialties.
 
+## Quick Start
+
+**Get started in 3 steps:**
+
+1. **Complete Patient Assessment** - Gather comprehensive health information including diagnoses ([PRIMARY_DIAGNOSIS]), medications ([CURRENT_MEDICATIONS]), functional status, and patient goals ([PATIENT_GOALS]).
+
+2. **Create Individualized Plan** - Develop evidence-based interventions ([TREATMENT_INTERVENTIONS]) addressing medical, psychosocial, and functional needs with measurable outcomes ([OUTCOME_MEASURES]).
+
+3. **Coordinate Care Team** - Define roles for each provider ([CARE_TEAM]), schedule follow-ups ([FOLLOWUP_SCHEDULE]), arrange patient education, and establish communication protocols.
+
+**Example:** "Develop comprehensive care plan for diabetic patient: A1C goal <7%, medication optimization, nutrition counseling, exercise program, quarterly follow-ups with endocrinology, primary care, and diabetes educator."
+
 ## Template Structure
 
 ### 1. Patient Assessment Framework

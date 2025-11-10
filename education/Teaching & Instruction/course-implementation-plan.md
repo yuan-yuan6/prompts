@@ -17,6 +17,29 @@ last_updated: 2025-11-09
 ## Purpose
 Create a comprehensive project plan for course development, implementation, and launch, including timelines, resource management, stakeholder coordination, and risk mitigation.
 
+## Quick Start
+
+**For educators who need**: A project management plan for developing and launching a course
+
+**Essential inputs**:
+- Course title and launch date
+- Project type (new course, major redesign, online conversion)
+- Development time available
+- Team members and resources
+
+**5-minute starter**:
+1. Count backwards from your launch date to identify your development window
+2. List major tasks: design (objectives, content), develop (materials, assessments), test (LMS, technology), prepare (orientation, first week)
+3. Identify what you must do yourself vs. what requires help (instructional designer, IT, peer review)
+4. Note critical deadlines that can't move (approval deadlines, registration dates)
+5. Identify your biggest risk (time, expertise, technology, budget) and one mitigation strategy
+
+**Common first use**: "Create implementation plan for 'Introduction to Data Science' launching in 8 months. Building from scratch, need Python environment, datasets for projects. Team: me (lead), instructional designer (10 hours), IT for software. Budget: $2,000. Must get curriculum committee approval 2 months before launch."
+
+**Expected output**: Detailed project plan with phase-by-phase timeline (6 phases from analysis to evaluation), resource allocation plan, team roles, stakeholder communication strategy, risk management plan, approval process tracking, quality assurance checklist, and launch readiness verification.
+
+**Best for**: New course development, major course redesigns, online conversions, managing complex course projects, coordinating teams, staying on schedule, ensuring launch readiness.
+
 ## Template
 
 ```

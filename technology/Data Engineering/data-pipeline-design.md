@@ -18,6 +18,30 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive data pipeline design documents that define the architecture, flow, and implementation of data processing systems.
 
+## Quick Start
+
+**Basic Usage:**
+```
+Design data pipeline for [PIPELINE_NAME] processing [DAILY_VOLUME] from [SOURCE_SYSTEMS] to [DESTINATION_SYSTEMS] using [PROCESSING_TYPE] with [SLA_REQUIREMENTS].
+```
+
+**Example:**
+```
+Design data pipeline for CustomerAnalytics processing 500GB daily from MySQL, Salesforce, and event streams to Snowflake using hybrid batch/streaming with 2-hour latency SLA.
+```
+
+**Key Steps:**
+1. Define pipeline overview with sources, volume, processing type, and SLAs
+2. Document data sources including formats, volumes, and access patterns
+3. Design architecture with ingestion, processing, and storage layers
+4. Plan data ingestion strategy for batch, streaming, or CDC approaches
+5. Define transformation logic with cleansing, enrichment, and aggregation
+6. Implement data quality framework with completeness, accuracy, and timeliness checks
+7. Configure storage with bronze/silver/gold layers and retention policies
+8. Set up orchestration using Airflow or similar with proper scheduling
+9. Establish monitoring for pipeline metrics, data quality, and system health
+10. Design error handling with retry logic, dead letter queues, and recovery procedures
+
 ## Template
 
 ```

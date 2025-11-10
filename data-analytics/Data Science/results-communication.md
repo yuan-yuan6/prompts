@@ -19,6 +19,31 @@ last_updated: 2025-11-09
 ## Purpose
 Design and deliver comprehensive communication strategies to effectively present data science results, insights, and recommendations to diverse stakeholders, ensuring business impact and actionable outcomes.
 
+## Quick Start
+
+**Need to communicate results quickly?** Use this minimal example:
+
+### Minimal Example
+```
+Present customer segmentation analysis to executive team. Key insight: identified 4 distinct customer segments with different profitability profiles. Recommendation: focus marketing spend on high-value segments (40% of customers, 75% of revenue). Deliverables: 10-slide exec presentation, interactive dashboard, one-page brief. Expected impact: 25% increase in marketing ROI.
+```
+
+### When to Use This
+- Presenting analysis results to executives or stakeholders
+- Communicating model insights to business users
+- Gaining approval for data science initiatives
+- Driving action based on analytical findings
+- Building stakeholder buy-in and trust
+
+### Basic 3-Step Workflow
+1. **Know your audience** - Tailor technical depth, focus on business impact for executives, methodology for technical teams
+2. **Tell the story** - Start with business problem, show key insights with visuals, end with clear recommendations
+3. **Enable action** - Provide specific next steps, success metrics, implementation roadmap
+
+**Time to complete**: 2-3 days for presentation preparation, 1 week including stakeholder meetings and follow-up
+
+---
+
 ## Template
 
 ```

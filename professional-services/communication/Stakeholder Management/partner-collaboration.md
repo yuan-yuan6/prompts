@@ -18,6 +18,34 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for developing, managing, and optimizing strategic partnerships and alliances to drive mutual value creation, innovation, and market expansion.
 
+## Quick Start
+
+**Need to establish a strategic partnership quickly?** Use this minimal example:
+
+### Minimal Example
+```
+Partner type: Technology integration partner
+Partnership model: Deep API integration with revenue share
+Target market: Enterprise customers in financial services
+Revenue goal: Generate $2M in joint sales within 12 months
+Integration level: Tight technical and go-to-market alignment
+```
+
+### When to Use This
+- Launching new technology or channel partnerships
+- Developing joint go-to-market strategies with partners
+- Managing partner enablement and performance programs
+- Expanding market reach through strategic alliances
+
+### Basic 3-Step Workflow
+1. **Plan Partnership** - Define mutual value proposition, select partner tier, establish success metrics and governance
+2. **Enable and Launch** - Onboard partner with training, create joint marketing materials, and establish communication cadence
+3. **Measure and Optimize** - Track performance metrics, conduct business reviews, and identify expansion opportunities
+
+**Time to complete**: 1-2 days for partnership planning, 4-6 weeks for full partner onboarding and launch
+
+---
+
 ## Template
 
 ```markdown

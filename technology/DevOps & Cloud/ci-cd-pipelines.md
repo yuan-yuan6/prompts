@@ -18,6 +18,28 @@ last_updated: 2025-11-09
 ## Overview
 This comprehensive template enables organizations to design, implement, and optimize sophisticated CI/CD pipelines that automate the entire software delivery lifecycle. It covers everything from source code integration to production deployment with advanced quality gates, security integration, and deployment strategies.
 
+## Quick Start
+
+**Need to set up a CI/CD pipeline quickly?** Use this minimal example:
+
+### Minimal Example
+```
+Create CI/CD pipeline for Node.js web app: (1) Trigger on PR/push to main, (2) Build: npm install && npm run build, (3) Test: Jest unit tests (>80% coverage), (4) Security: npm audit, Snyk scan, (5) Deploy: staging on PR merge, production on main with approval. Use GitHub Actions, deploy to AWS ECS. Build time: <5 min.
+```
+
+### When to Use This
+- Setting up CI/CD for new projects
+- Migrating from manual deployments to automation
+- Standardizing deployment processes across teams
+- Implementing DevOps best practices
+
+### Basic 3-Step Workflow
+1. **Configure pipeline** - Choose tools, define stages (build/test/deploy), set triggers
+2. **Add quality gates** - Unit tests, code coverage, security scans, approval workflows
+3. **Deploy and monitor** - Automate deployments, track metrics, iterate improvements
+
+**Time to complete**: 1-2 days for basic pipeline, 1-2 weeks for full production-ready setup
+
 ---
 
 ## Section 1: Pipeline Architecture & Strategy

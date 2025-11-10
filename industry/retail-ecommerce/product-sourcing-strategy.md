@@ -15,6 +15,24 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for developing product sourcing strategies including supplier identification, evaluation, negotiation, quality control, and relationship management for retail and e-commerce businesses.
 
+## Quick Start
+
+**For E-commerce Sellers sourcing first products:**
+1. Start with Alibaba, Global Sources, or ThomasNet to identify 10-15 potential suppliers
+2. Request samples from 5 suppliers with best combination of price, MOQ, and lead time
+3. Conduct quality checks: inspect samples against specification sheet with photos
+4. Negotiate initial order: Start with 1x MOQ to test quality and demand
+5. Establish payment terms: 30% deposit, 70% before shipping with L/C or PayPal protection
+
+**For Retailers diversifying supplier base:**
+1. Map current supplier concentration: Target <30% dependency on any single supplier
+2. Identify backup suppliers for top 20% revenue-generating products
+3. Implement quarterly supplier scorecards: quality, on-time delivery, pricing, communication
+4. Negotiate volume discounts: 10% at 2x volume, 15-20% at 5x volume
+5. Set up contingency inventory: 2-3 weeks safety stock for critical SKUs
+
+**Expected Timeline:** Month 1: Supplier research and initial contact | Month 2: Sample testing and evaluation | Month 3: First orders and quality validation | Month 4-6: Relationship building and volume scaling
+
 ## Template
 
 Develop product sourcing strategy for [PRODUCT_CATEGORY] targeting [UNIT_VOLUME] units/month, [PRICE_POINT] price range, [QUALITY_STANDARD] quality level, [SUPPLIER_COUNT] suppliers, [GEOGRAPHIC_SCOPE] sourcing regions, with [MARGIN_TARGET]% profit margin and [LEAD_TIME] lead time requirements.

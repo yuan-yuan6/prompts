@@ -17,6 +17,44 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive frameworks for wikis, knowledge bases, FAQs, documentation systems, and collaborative knowledge platforms for organizations, projects, and communities.
 
+## Quick Start
+
+### For Knowledge Managers & Documentation Teams
+
+**Step 1: Define Your Knowledge System (10 minutes)**
+- Specify system purpose and primary audience (faculty, students, researchers, staff)
+- Identify organization type and knowledge domain
+- Define system scope and boundaries
+- Select wiki/documentation platform type (Confluence, MediaWiki, Notion, etc.)
+
+**Step 2: Plan Content Framework (5 minutes)**
+- List content types needed: How-to guides, reference docs, tutorials, FAQs, policies
+- Define information categories and main topics
+- Establish documentation standards and quality assurance methods
+- Determine content lifecycle stages and version control approach
+
+**Step 3: Design User Experience (5 minutes)**
+- Define user personas (e.g., new students, faculty, administrators, researchers)
+- Map typical user journeys and information-seeking paths
+- Plan navigation structure and search functionality
+- Set accessibility requirements and mobile design approach
+
+**Step 4: Generate Your Framework (2 minutes)**
+- Input your specifications into the template variables
+- Generate comprehensive documentation system including:
+  - Information architecture and taxonomy
+  - Content templates and writing standards
+  - Collaborative workflow and governance model
+  - Analytics framework and sustainability plan
+  - 12-month implementation roadmap
+
+**Common Use Cases:**
+- Academic departmental wikis and knowledge bases
+- Research group documentation systems
+- Course material repositories
+- Institutional policy and procedure documentation
+- Collaborative research project wikis
+
 ## Template
 
 ```

@@ -18,6 +18,24 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive marketplace optimization strategies, multi-channel selling frameworks, platform-specific tactics, and performance analytics that maximize sales, visibility, and profitability across digital marketplaces.
 
+## Quick Start
+
+**For E-commerce Managers launching on Amazon:**
+1. Start with 50-100 SKUs in your strongest category
+2. Set up FBA for Prime eligibility to capture 70%+ of Amazon traffic
+3. Implement automated repricing within 5% of Buy Box price
+4. Run Sponsored Product ads at 10-15% ACoS targeting high-intent keywords
+5. Monitor Order Defect Rate (<1%) and Late Shipment Rate (<4%) daily
+
+**For Multi-Channel Sellers expanding platforms:**
+1. Choose 2-3 complementary platforms based on your category performance
+2. Set up centralized inventory management to prevent overselling
+3. Create platform-specific listing optimization (Amazon vs Walmart vs eBay)
+4. Establish channel-specific pricing strategies with 5-10% variance tolerance
+5. Implement unified customer service across all channels within 24 hours
+
+**Expected Timeline:** Week 1: Platform setup and listing migration | Week 2-4: Initial optimization and testing | Month 2-3: Scaling and automation | Month 4+: Performance optimization and expansion
+
 ## Template
 
 ```

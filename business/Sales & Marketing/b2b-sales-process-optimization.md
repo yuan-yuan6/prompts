@@ -19,6 +19,35 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive B2B sales optimization framework covering sales process design, lead management, opportunity progression, performance analytics, technology stack optimization, and revenue operations across the entire customer acquisition lifecycle.
 
+## Quick Start
+
+**For Sales Leaders & Revenue Operations**: Optimize B2B sales processes to increase win rates, shorten sales cycles, and improve revenue predictability.
+
+**Common Business Scenarios:**
+- **Sales Team Scaling**: Structure and optimize sales process for 2x team growth while maintaining or improving efficiency
+- **Win Rate Improvement**: Analyze conversion rates at each stage to identify bottlenecks (qualification, demo, proposal, closing)
+- **Sales Cycle Reduction**: Reduce 120-day sales cycle to 90 days through process improvements and automation
+- **CRM Implementation**: Design sales methodology and configure CRM to support process (Salesforce, HubSpot)
+- **Revenue Forecasting**: Build predictable pipeline with accurate forecasting using stage-based conversion data
+
+**What You'll Need:**
+- Current sales metrics (win rate, average deal size, sales cycle length)
+- Sales process stages and conversion rates at each stage
+- Lead sources and quality metrics (CPL, conversion rates, ROI)
+- Sales team structure and quotas
+- Technology stack (CRM, sales engagement, analytics)
+
+**You'll Get:**
+- Sales process audit with bottleneck identification
+- Ideal Customer Profile (ICP) and buyer persona definitions
+- Lead qualification framework (BANT/MEDDIC)
+- Sales stage definitions with exit criteria
+- Technology stack optimization recommendations
+- Performance metrics dashboard with industry benchmarks
+- Team structure and compensation plan design
+- Revenue operations playbook
+- 90-day implementation roadmap
+
 ## Template
 
 Optimize B2B sales process for [COMPANY_NAME] targeting [DEAL_SIZE] average deal size with [SALES_CYCLE_LENGTH] day sales cycle, managing [LEAD_VOLUME] monthly leads across [SALES_TEAM_SIZE] sales professionals to achieve [REVENUE_TARGET] annual revenue and [CONVERSION_RATE]% lead-to-customer conversion rate.

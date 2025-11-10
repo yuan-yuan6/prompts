@@ -15,6 +15,27 @@ last_updated: 2025-11-09
 ## Purpose
 Develop comprehensive investment portfolios with proper risk management, diversification strategies, and long-term wealth building approaches tailored to individual financial goals and risk tolerance.
 
+## Quick Start
+
+Begin building your investment strategy in 3 steps:
+
+1. **Assess Your Starting Point** - Determine your:
+   - Risk tolerance (conservative, moderate, or aggressive)
+   - Investment timeline (years until you need the money)
+   - Available capital for investing
+   - Current financial obligations and emergency fund status
+
+2. **Define Core Variables** - Fill in these key fields:
+   - `INVESTOR_PROFILE`: Your current life stage (e.g., "35-year-old professional")
+   - `RISK_TOLERANCE`: Based on your comfort with market volatility
+   - `INVESTMENT_GOALS`: Primary objective (e.g., "Retirement in 30 years")
+   - `INVESTMENT_TIMEFRAME`: When you'll need the money
+   - `INVESTMENT_CAPITAL`: Amount available to invest
+
+3. **Start Simple** - Begin with a basic diversified portfolio using low-cost index funds or target-date funds. Review quarterly and increase sophistication as you gain experience.
+
+**Pro Tip**: If you're new to investing, start with a target-date fund matching your retirement year. It automatically adjusts risk as you age and requires minimal management.
+
 ## Template
 
 ```

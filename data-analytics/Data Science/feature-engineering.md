@@ -19,6 +19,32 @@ last_updated: 2025-11-09
 ## Purpose
 Design and implement comprehensive feature engineering strategies to create, transform, and select optimal features that improve model performance, interpretability, and business value.
 
+## Quick Start
+
+**Need to engineer features quickly?** Use this minimal example:
+
+### Minimal Example
+```
+Engineer features for customer churn prediction. Raw data: 80 features (40 numeric, 30 categorical, 10 dates). Create: time-based features (recency, frequency), aggregations (avg transaction value), ratios (engagement metrics), encoded categoricals (target encoding). Select top 50 features using Random Forest importance. Boost model AUC from 0.72 to 0.85.
+```
+
+### When to Use This
+- Improving model performance through better features
+- Extracting insights from raw data (dates, text, categories)
+- Creating domain-specific business metrics
+- Reducing dimensionality while preserving information
+- Handling high-cardinality categorical variables
+
+### Basic 4-Step Workflow
+1. **Feature creation** - Generate new features from raw data (transformations, interactions, aggregations)
+2. **Feature encoding** - Convert categoricals, handle dates, process text
+3. **Feature selection** - Identify most predictive features using statistical tests, model importance
+4. **Validation** - Test feature stability, check for leakage, measure performance impact
+
+**Time to complete**: 3-5 days for initial engineering, 1-2 weeks for optimization and validation
+
+---
+
 ## Template
 
 ```

@@ -18,6 +18,45 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive regulatory submissions including FDA applications, IRB protocols, compliance documents, and safety reports that meet regulatory requirements for clinical research and drug/device approval.
 
+## Quick Start
+
+### For Initial IND Submission
+1. Pre-IND meeting: Request meeting with FDA 6-12 months before submission
+2. Prepare CMC package: Drug substance/product specifications, manufacturing, stability
+3. Compile nonclinical data: Pharmacology, toxicology (GLP studies), PK/PD
+4. Write clinical protocol: Phase I with clear safety stopping rules
+5. Submit electronically: Use FDA's Electronic Submissions Gateway (ESG)
+
+### For IRB Initial Review
+1. Complete protocol: Version-controlled, dates on every page, PI signature
+2. Draft informed consent: Required elements per 45 CFR 46.116, 8th grade reading level
+3. Assess risk level: Minimal vs greater than minimal, justify risk/benefit ratio
+4. Prepare supporting documents: Investigator brochure, recruitment materials, questionnaires
+5. Allow 30-60 days: Plan for IRB review time and likely revisions
+
+### Regulatory Timelines to Anticipate
+- **IND**: FDA has 30 days to review; clinical hold possible if safety concerns
+- **IRB**: Initial review 30-60 days; continuing review annually or more frequently
+- **510(k)**: FDA decision typically within 90 days of acceptance
+- **PMA**: 180 days for FDA review; often requires advisory panel meeting
+- **IDE**: 30-day FDA review; significant risk devices need IRB approval first
+
+### Safety Reporting Requirements
+- **Serious + Unexpected**: Report to FDA within 15 calendar days (IND Safety Report)
+- **Fatal/Life-threatening + Unexpected**: Report within 7 calendar days
+- **IRB reporting**: Follow local IRB policy (typically 24-48 hours for serious events)
+- **Annual report**: Due within 60 days of IND anniversary date
+- **DSMB notifications**: Define in charter when DSMB must be notified
+
+### Key Regulatory Documents to Maintain
+- Form FDA 1571 (IND application) / 1572 (Investigator statement)
+- IRB approval letters and correspondence
+- Informed consent forms (current version + superseded)
+- Protocol amendments and modifications
+- SAE reports and annual safety summaries
+- Drug accountability records
+- Monitoring visit reports and correspondence
+
 ## Template
 
 ```

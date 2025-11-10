@@ -19,6 +19,31 @@ last_updated: 2025-11-09
 ## Purpose
 Design comprehensive SQL query optimization strategies including performance tuning methodologies, indexing strategies, query efficiency analysis, and database performance optimization for analytical workloads.
 
+## Quick Start
+
+### For Data Engineers
+Optimize query performance in 3 steps:
+
+1. **Baseline Performance Assessment**
+   - Identify slow queries: Use query performance views to find queries >1s execution time
+   - Analyze execution plans: Review table scans, missing indexes, expensive joins
+   - Measure resource consumption: Track CPU time, logical/physical reads, memory usage
+   - Run baseline queries (lines 63-100) to generate performance reports
+
+2. **Apply Optimization Techniques**
+   - **Indexing**: Create appropriate B-tree, columnstore, or covering indexes based on query patterns
+   - **Query Rewriting**: Eliminate subqueries, optimize JOIN order, use CTEs effectively
+   - **Statistics**: Update table statistics and enable auto-update for query optimizer
+   - Use provided SQL patterns for index creation, partition pruning, and query hints
+
+3. **Monitor and Tune**
+   - Set up query performance monitoring with execution time tracking
+   - Implement automated statistics updates and index maintenance
+   - Configure alerts for query timeouts or resource spikes
+   - Review execution plans regularly for regression detection
+
+**Key Variables**: `DATABASE_PLATFORM` (SQL Server, PostgreSQL, Snowflake), `WORKLOAD_TYPE` (OLAP/OLTP), `QUERY_RESPONSE_TIME_SLA`
+
 ## Template
 
 ```

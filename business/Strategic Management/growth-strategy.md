@@ -19,6 +19,26 @@ last_updated: 2025-11-09
 ## Purpose
 Strategic framework for planning and executing business growth initiatives including organic growth, M&A, market expansion, diversification, and scaling operations.
 
+## Quick Start
+
+### Minimal Example
+```
+Design growth strategy for CloudSoft Inc targeting 40% annual growth from current revenue of $50M to $200M over 3 years through market penetration, product development, and strategic acquisitions.
+```
+
+### When to Use This
+- Developing comprehensive growth strategy to scale revenue and market share
+- Evaluating and prioritizing growth vectors (market penetration, new markets, new products, M&A)
+- Planning geographic expansion or international market entry initiatives
+- Building financial models and investment requirements for scaling operations
+
+### Basic 3-Step Workflow
+1. Assess growth opportunities across 5 vectors (market penetration, market development, product development, diversification, vertical integration) with investment and success probability
+2. Develop detailed initiatives for organic growth (customer acquisition, expansion, market share) and inorganic growth (M&A targets, geographic expansion)
+3. Create operational scaling plan with capacity requirements, financial planning, risk assessment, and phased roadmap with milestones
+
+**Time to complete:** 3-5 hours for comprehensive growth strategy; 6-12 months for phase 1 implementation
+
 ## Template
 
 Design growth strategy for [COMPANY_NAME] targeting [GROWTH_RATE]% annual growth from current revenue of $[CURRENT_REVENUE] to $[TARGET_REVENUE] over [TIME_PERIOD] through [GROWTH_CHANNELS].

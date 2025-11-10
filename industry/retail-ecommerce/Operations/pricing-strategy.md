@@ -19,6 +19,24 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for retail pricing strategy development, dynamic pricing implementation, competitive positioning, margin optimization, promotional planning, and price elasticity analysis.
 
+## Quick Start
+
+**For E-commerce Retailers implementing dynamic pricing:**
+1. Identify 20% of SKUs that drive 80% of revenue for initial testing
+2. Set price floors at cost + 15% minimum margin to protect profitability
+3. Implement competitive monitoring for top 5 competitors in your category
+4. Start with daily price adjustments limited to ±5% change maximum
+5. A/B test pricing changes with 48-hour windows to measure impact
+
+**For Traditional Retailers optimizing margins:**
+1. Segment products into Hero (traffic drivers), Core (profit drivers), and Tail (clearance)
+2. Set target margins: Hero 20-30%, Core 35-50%, Tail 10-20%
+3. Establish promotional calendar with 4-6 major events per year
+4. Implement psychological pricing: $X.99, $X.97 for value perception
+5. Monitor price elasticity weekly and adjust by category performance
+
+**Expected Timeline:** Week 1-2: Data collection and competitive analysis | Week 3-4: Strategy development and price modeling | Month 2: Pilot testing on select SKUs | Month 3+: Full rollout with continuous optimization
+
 ## Template
 
 Develop pricing strategy for [COMPANY_NAME] with [SKU_COUNT] products across [CATEGORY_COUNT] categories, targeting [MARGIN_TARGET]% gross margin, [REVENUE_TARGET] annual revenue, [MARKET_POSITION] market position, with [PRICE_SENSITIVITY] price sensitivity index.

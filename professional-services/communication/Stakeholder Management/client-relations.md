@@ -18,6 +18,34 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for managing client relationships, communications, and engagement strategies to maximize satisfaction, retention, and business growth.
 
+## Quick Start
+
+**Need to improve client engagement quickly?** Use this minimal example:
+
+### Minimal Example
+```
+Client segment: Enterprise account worth $10M annually
+Relationship stage: Established 5-year partnership at risk
+Warning signs: Usage declining, support tickets increasing, contract renewal in 3 months
+Goal: Retain account and expand services by 20%
+Action: Executive business review, value demonstration, and renewal strategy
+```
+
+### When to Use This
+- Onboarding new enterprise clients successfully
+- Managing at-risk accounts showing churn signals
+- Developing account growth and expansion strategies
+- Conducting quarterly business reviews with strategic clients
+
+### Basic 3-Step Workflow
+1. **Assess Health** - Review usage analytics, satisfaction scores, and engagement metrics to identify risks and opportunities
+2. **Plan Engagement** - Map stakeholders, define value metrics, and establish communication cadence
+3. **Execute Strategy** - Conduct business reviews, demonstrate ROI, and develop account expansion plan
+
+**Time to complete**: 2-3 hours for account health assessment, 1-2 days for comprehensive account strategy
+
+---
+
 ## Template
 
 ```markdown

@@ -18,6 +18,18 @@ last_updated: 2025-11-09
 ## Purpose
 Create engaging social media content including posts, campaigns, and engagement strategies across platforms with optimized formatting, hashtags, and audience targeting.
 
+## Quick Start
+
+Want to create a killer Instagram post in minutes? Here's how:
+
+1. **Pick your platform and goal** - Start with where your audience lives (Instagram, LinkedIn, TikTok?)
+2. **Define your message** - What's the one thing you want them to remember?
+3. **Choose your format** - Carousel for storytelling, Reel for entertainment, single image for impact
+4. **Craft your copy** - Hook in first 5 words, value in the middle, call-to-action at the end
+5. **Optimize for engagement** - Add 3-5 strategic hashtags, tag collaborators, post at peak times
+
+**Try this:** Copy the Instagram Brand Post example below, swap in your brand voice and product details, and you'll have platform-optimized content ready to post. Start with one platform, master it, then expand.
+
 ## Template Structure
 
 ### Content Overview

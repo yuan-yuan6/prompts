@@ -17,6 +17,30 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive curriculum frameworks for educational programs, including course design, module development, learning objectives, and curriculum mapping.
 
+## Quick Start
+
+**Need to develop curriculum quickly?** Use this minimal example:
+
+### Minimal Example
+```
+Create a semester-long curriculum for Introduction to Computer Science (high school level). Include: 8 units covering programming fundamentals, problem-solving, and computational thinking. Each unit: 2-week duration, clear learning objectives, hands-on coding projects, formative and summative assessments. Align with state CS standards. Include pacing guide and resource list.
+```
+
+### When to Use This
+- Designing new courses or updating existing ones
+- Creating unit plans and learning sequences
+- Mapping curriculum to standards and objectives
+- Developing program-level curriculum frameworks
+
+### Basic 3-Step Workflow
+1. **Define outcomes and standards** - Identify what students should know and do
+2. **Sequence learning experiences** - Organize units, lessons, and assessments
+3. **Map and align components** - Ensure coherence across objectives, activities, and assessments
+
+**Time to complete**: 1-2 weeks for course outline, 4-8 weeks for comprehensive curriculum
+
+---
+
 ## Template
 
 ```

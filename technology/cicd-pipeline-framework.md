@@ -15,6 +15,18 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for implementing continuous integration and continuous deployment pipelines including build automation, testing strategies, deployment orchestration, GitOps practices, and progressive delivery for modern software development.
 
+## Quick Start
+
+**To Build Your First CI/CD Pipeline:**
+1. **Set Up Source Control**: Configure Git repository with branch protection and merge policies
+2. **Create Build Pipeline**: Automate compilation, dependency management, and artifact creation
+3. **Implement Testing**: Add unit tests (80% coverage), integration tests, and automated QA
+4. **Configure Deployment**: Set up automated deployment to dev, staging, and production environments
+5. **Add Monitoring**: Deploy observability tools to track build success, deployment frequency, and MTTR
+
+**Example Starting Point:**
+Implement CI/CD pipeline for [E-commerce Platform] with [5] repositories, [3] environments, [20] deployments/day, achieving [5-minute] build time, [85]% test coverage, [95]% success rate, [30-minute] mean time to recovery, and [2-hour] lead time for changes.
+
 ## Template
 
 Implement CI/CD pipeline for [APPLICATION_NAME] with [REPOSITORY_COUNT] repositories, [ENVIRONMENT_COUNT] environments, [DEPLOYMENT_FREQUENCY] deployments/day, achieving [BUILD_TIME] build time, [TEST_COVERAGE]% test coverage, [DEPLOYMENT_SUCCESS]% success rate, [MTTR_TARGET] mean time to recovery, and [LEAD_TIME] lead time for changes.

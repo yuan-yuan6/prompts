@@ -18,6 +18,31 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for managing residential and commercial properties including tenant relations, maintenance operations, financial management, compliance, and portfolio optimization.
 
+## Quick Start
+
+**Need to establish property management operations quickly?** Use this minimal example:
+
+### Minimal Example
+```
+Manage property portfolio for a growing real estate company with 150 residential units across 5 apartment buildings totaling 180,000 sq ft. Current challenges: 88% occupancy, inconsistent maintenance response times, manual rent collection. Goals: increase occupancy to 95%, implement property management software, automate rent collection, reduce maintenance response time to under 24 hours for urgent issues.
+```
+
+### When to Use This
+- Taking over management of new properties
+- Improving operational efficiency of existing portfolio
+- Increasing tenant satisfaction and retention
+- Optimizing maintenance and vendor management
+- Enhancing financial performance and NOI
+
+### Basic 3-Step Workflow
+1. **Assess operations** - Review current occupancy, financials, processes, tenant satisfaction
+2. **Implement systems** - Deploy property management software, standardize procedures, train staff
+3. **Optimize performance** - Monitor KPIs, improve tenant experience, control expenses, maximize NOI
+
+**Time to complete**: 1-2 weeks for assessment, 1-3 months for full implementation
+
+---
+
 ## Template
 
 Manage property portfolio for [COMPANY_NAME] with [UNIT_COUNT] units across [PROPERTY_COUNT] properties, [TOTAL_SQFT] square feet, targeting [OCCUPANCY_TARGET]% occupancy and [NOI_TARGET]% NOI growth.

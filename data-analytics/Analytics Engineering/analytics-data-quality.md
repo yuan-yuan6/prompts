@@ -19,6 +19,31 @@ last_updated: 2025-11-09
 ## Purpose
 Design comprehensive data quality validation frameworks including data profiling methodologies, validation rule engines, data cleansing processes, quality monitoring systems, and automated data quality management for enterprise data platforms.
 
+## Quick Start
+
+### For Data Engineers
+Implement data quality checks in 3 steps:
+
+1. **Profile Your Data**
+   - Run comprehensive profiling: Analyze completeness, validity, uniqueness, consistency across datasets
+   - Use `DataProfiler` class (lines 78-337) to generate column-level statistics and quality metrics
+   - Identify data quality issues: Missing values, duplicates, format inconsistencies, outliers
+   - Example: `profiling_scope='FULL'` for complete analysis or `'STANDARD'` for faster results
+
+2. **Define Validation Rules**
+   - **Schema Validation**: Required columns, data types, nullability constraints
+   - **Business Rules**: Value ranges, format patterns, referential integrity, statistical thresholds
+   - **Custom Rules**: Domain-specific validation logic using validation engine (lines 342-634)
+   - Set thresholds: `COMPLETENESS_THRESHOLD: "95%"`, `VALIDITY_THRESHOLD: "98%"`
+
+3. **Automate Quality Monitoring**
+   - Set up continuous monitoring with `DataQualityMonitor` (lines 1114-1320)
+   - Configure alerts for quality threshold breaches (completeness <95%, accuracy <98%)
+   - Implement automated remediation: ML-based imputation, duplicate removal, outlier handling
+   - Create quality dashboards with dimension breakdowns and trend analysis
+
+**Key Template Sections**: Profiling framework (69-337), Validation engine (339-748), Cleansing (750-1108), Monitoring (1111-1532)
+
 ## Template
 
 ```

@@ -17,6 +17,23 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for construction project planning, execution, resource management, safety protocols, quality control, and infrastructure development from conception to completion.
 
+## Quick Start
+
+**Get started in 3 steps:**
+
+1. **Develop Critical Path Schedule** - Create detailed project schedule using CPM (Critical Path Method). Identify activities with zero float that drive project duration. Focus management attention on critical path activities to prevent delays.
+
+2. **Establish Safety Program** - Conduct site safety orientation for all workers. Implement daily toolbox talks, weekly safety inspections, and near-miss reporting system. Set zero-incident target and post safety metrics visibly on site.
+
+3. **Set Up Cost Tracking** - Implement earned value management (EVM) system. Track actual costs vs. budget weekly by major cost categories (labor, materials, equipment, subcontractors). Calculate cost performance index (CPI) and schedule performance index (SPI).
+
+**First Week Actions:**
+- Create detailed work breakdown structure (WBS) for entire project
+- Develop baseline schedule with milestones and critical path
+- Conduct site mobilization and safety setup
+- Establish weekly progress reporting format with owner and team
+- Set up document control system for RFIs, submittals, and change orders
+
 ## Template
 
 Manage construction project [PROJECT_NAME] with [PROJECT_VALUE] budget, [PROJECT_DURATION] timeline, [SQUARE_FOOTAGE] sq ft, [COMPLEXITY_LEVEL] complexity, targeting [COMPLETION_DATE] completion with [PROFIT_MARGIN]% margin and [SAFETY_TARGET] safety record.

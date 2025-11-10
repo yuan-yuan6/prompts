@@ -18,6 +18,45 @@ last_updated: 2025-11-09
 ## Purpose
 Advanced grid management framework for monitoring, control, and optimization of electrical distribution networks including smart grid technologies and demand response systems.
 
+## Quick Start
+
+**Energy & Utilities Scenario**: You're managing an electrical distribution network that needs improved reliability, integration of distributed energy resources, real-time monitoring and control, and enhanced operational efficiency.
+
+**Common Applications**:
+- Distribution network monitoring and control
+- Smart grid implementation with AMI and automation
+- Distributed energy resource (DER) integration
+- Outage management and restoration optimization
+- Demand response program operations
+- Grid modernization and digital transformation
+
+**Key Variables to Define**:
+- `[UTILITY_NAME]`: Your utility name
+- `[CUSTOMER_COUNT]`: Number of customers served
+- `[SERVICE_AREA]`: Geographic coverage area
+- `[PEAK_DEMAND]`: System peak demand (MW)
+- `[RELIABILITY_TARGET]`: SAIDI/SAIFI improvement goals
+- `[DER_PENETRATION]`: Current or target DER percentage
+- `[AUTOMATION_LEVEL]`: Current grid automation percentage
+
+**Expected Outputs**:
+- Grid management system architecture with SCADA/DMS integration
+- Distribution automation strategy with smart devices
+- Advanced metering infrastructure (AMI) implementation plan
+- DER integration framework with interconnection standards
+- Outage management procedures with self-healing capabilities
+- Demand response program design and operations
+- Real-time analytics and optimization algorithms
+- Performance dashboard with reliability and efficiency metrics
+
+**Pro Tips**:
+- Start with infrastructure assessment and gap analysis
+- Implement SCADA upgrades before advanced automation
+- Use data analytics to identify high-impact areas first
+- Plan for cybersecurity at every layer
+- Engage customers early for AMI and DR programs
+- Create interoperability standards for DER integration
+
 ## Template
 
 Design and optimize smart grid management system for [UTILITY_NAME] serving [CUSTOMER_COUNT] customers across [SERVICE_AREA] with peak demand of [PEAK_DEMAND] MW.

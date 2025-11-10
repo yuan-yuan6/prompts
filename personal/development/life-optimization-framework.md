@@ -15,6 +15,29 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for personal development and life optimization including goal achievement systems, habit formation, productivity enhancement, mental wellness, financial planning, relationship management, and continuous growth strategies for holistic life improvement.
 
+## Quick Start
+
+Begin optimizing your life in three focused steps:
+
+1. **Assess Your Life Domains** (15 minutes)
+   - Rate yourself 1-10 in: Career, Health, Finances, Relationships, Personal Growth
+   - Identify your lowest score - this is your starting point
+   - Example: "Health is 4/10 - I need to prioritize exercise and sleep"
+
+2. **Create Your First Keystone Habit** (10 minutes)
+   - Choose ONE habit that creates positive ripple effects across life domains
+   - Start small: 5-minute morning meditation, 10-minute evening planning, daily 20-minute walk
+   - Use habit stacking: "After I [existing habit], I will [new habit]"
+   - Track daily for 30 days to build momentum
+
+3. **Design Your Ideal Day** (20 minutes)
+   - Map your perfect daily routine from wake to sleep
+   - Include: morning ritual, deep work blocks, exercise, meals, wind-down routine
+   - Start implementing just your morning routine this week, add more gradually
+   - Adjust weekly based on what works
+
+**Quick Start Template**: "My priority life area is `[DOMAIN]` currently at `[SCORE]/10. My keystone habit will be `[HABIT]` performed `[WHEN]`. My morning routine will include `[3_ACTIONS]`. I'll review progress every `[FREQUENCY]`."
+
 ## Template
 
 Design life optimization plan for [INDIVIDUAL_PROFILE] with [LIFE_GOALS] primary objectives, [TIME_HORIZON] timeline, targeting [SUCCESS_METRICS] success indicators, [BALANCE_SCORE]% work-life balance, [HAPPINESS_INDEX] happiness score, and [GROWTH_RATE]% annual personal growth.

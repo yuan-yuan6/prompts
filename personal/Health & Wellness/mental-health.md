@@ -15,6 +15,33 @@ last_updated: 2025-11-09
 ## Purpose
 Develop comprehensive mental health strategies including mindfulness practices, stress management, and coping mechanisms to improve emotional wellbeing, resilience, and psychological health for better overall quality of life.
 
+## Quick Start
+
+Begin your mental wellness journey in 3 steps:
+
+1. **Assess Your Current State** - Take a moment to identify:
+   - Primary concerns (anxiety, stress, low mood, sleep issues, etc.)
+   - Current stress level (1-10 scale)
+   - Existing coping strategies and support system
+   - Immediate triggers and stressors
+   - Physical symptoms (sleep quality, energy, appetite)
+
+2. **Set Initial Variables** - Define these core elements:
+   - `MENTAL_HEALTH_CONCERNS`: Top 2-3 issues (e.g., "Work stress, poor sleep, anxiety")
+   - `CLIENT_PROFILE`: Your situation (e.g., "Working parent juggling multiple responsibilities")
+   - `WELLBEING_GOALS`: What you want to achieve (e.g., "Better stress management, improved sleep")
+   - `THERAPEUTIC_METHODS`: Preferred approaches (e.g., "Mindfulness, cognitive strategies")
+   - `TREATMENT_TIMELINE`: Realistic timeframe (suggest 8-12 weeks for initial progress)
+
+3. **Start with One Daily Practice** - This week, commit to ONE of these:
+   - 5-minute morning breathing exercise
+   - 10-minute evening gratitude journaling
+   - 15-minute daily walk outside
+   - One mindful meal per day (no screens)
+   - Establish a consistent bedtime routine
+
+**Pro Tip**: Mental health improvement is gradual. Start with one manageable practice and build consistency before adding more. If symptoms are severe or persistent, consult a mental health professional.
+
 ## Template
 
 ```

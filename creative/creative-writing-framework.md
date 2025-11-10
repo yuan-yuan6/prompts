@@ -15,6 +15,24 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for creative writing projects including story development, character creation, worldbuilding, narrative structure, dialogue crafting, and publication strategies for novels, scripts, poetry, and other creative works.
 
+## Quick Start
+
+**Write Your First Chapter in 3 Hours**
+
+1. **The Spark** (15 min): What's the ONE scene/moment that excites you most? Write it raw.
+2. **Who's There?** (20 min): Name your main character. What do they want? What stops them?
+3. **Write Fast** (2 hours): Set a timer. Don't edit. Just write forward. Get 1,000-2,000 words down.
+4. **One Question** (5 min): "What happens next?" - Write that answer in one sentence.
+
+**Genre Fast-Tracks**:
+- **Novel**: Start with Character Development → Write opening scene → Build backwards
+- **Screenplay**: Jump to Narrative Structure → Block out your three acts in bullet points
+- **Short Story**: Begin with Story Development → Focus on one moment of change
+
+**Writer's Truth**: Your first draft is supposed to be messy. Perfectionism kills creativity.
+
+**Daily Habit**: Write for 15 minutes every day. That's 91 hours a year - enough for a novel!
+
 ## Template
 
 Develop creative writing project [PROJECT_TITLE] in [GENRE] genre, targeting [WORD_COUNT] words/pages, [AUDIENCE_DEMOGRAPHIC] audience, [PUBLICATION_FORMAT] format, with [COMPLETION_TIMELINE] timeline, aiming for [MARKET_POSITIONING] positioning and [REVENUE_TARGET] revenue potential.

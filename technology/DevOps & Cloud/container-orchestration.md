@@ -19,6 +19,31 @@ last_updated: 2025-11-09
 ## Purpose
 Design and implement container orchestration strategies using Kubernetes, Docker Swarm, or other platforms to manage containerized applications at scale.
 
+## Quick Start
+
+**Deploy container orchestration in 5 steps:**
+
+1. **Create Kubernetes Cluster**: Set up EKS/GKE/AKS or local cluster with kubectl configured and cluster-autoscaler enabled
+2. **Containerize Applications**: Write Dockerfiles, build images, push to registry (ECR/GCR/ACR), tag with semantic versions
+3. **Deploy with Manifests**: Create Deployment, Service, and ConfigMap/Secret YAML files with resource limits and health checks
+4. **Configure Auto-Scaling**: Implement HPA (Horizontal Pod Autoscaler) based on CPU/memory/custom metrics
+5. **Set Up Monitoring**: Deploy Prometheus + Grafana for cluster metrics, logging with ELK/Loki, and distributed tracing
+
+**Quick Kubernetes Deployment:**
+```bash
+# Create deployment with 3 replicas
+kubectl create deployment app --image=myapp:v1.0 --replicas=3
+
+# Expose as service
+kubectl expose deployment app --port=80 --target-port=8080 --type=LoadBalancer
+
+# Configure auto-scaling
+kubectl autoscale deployment app --min=3 --max=10 --cpu-percent=70
+
+# Check status
+kubectl get pods,svc,hpa
+```
+
 ## Template
 
 ```

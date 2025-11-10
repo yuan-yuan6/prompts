@@ -15,6 +15,18 @@ last_updated: 2025-11-09
 ## Purpose
 Build effective professional and personal networks through strategic introductions, meaningful follow-ups, and authentic relationship development to create mutually beneficial connections and opportunities.
 
+## Quick Start
+
+Nervous about networking? Start with these five approachable steps:
+
+1. Set a micro-goal: Aim to have one meaningful conversation (not collect 20 business cards)
+2. Prepare your two-sentence introduction: "I'm [name] and I [what you do]. I'm particularly interested in [specific topic]."
+3. Ask genuine questions: "What brings you here today?" or "What are you working on that excites you?"
+4. Listen more than you talk: The 70/30 rule—listen 70% of the time, speak 30%
+5. Follow up within 24 hours: Send a brief message referencing your conversation
+
+Pro tip: If you're introverted, arrive early when there are fewer people and it's easier to start conversations. Quality connections matter far more than quantity.
+
 ## Template
 
 ```

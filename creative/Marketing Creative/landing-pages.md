@@ -18,6 +18,18 @@ last_updated: 2025-11-09
 ## Purpose
 Create high-converting landing pages with compelling copy, optimized structure, and conversion-focused design that drive specific actions and maximize campaign performance.
 
+## Quick Start
+
+Want a landing page that converts at 20%+ instead of 2%? Here's the formula:
+
+1. **Nail your headline** - Promise a specific outcome in 10 words or less (test 3 variations)
+2. **Design above-the-fold** - Headline + subheadline + hero image + single CTA = your first impression
+3. **Structure for skimmers** - Use scannable sections: problem, solution, proof, objections, final CTA
+4. **Minimize friction** - Ask for the minimum info needed (email only beats 5-field forms)
+5. **Add proof strategically** - One testimonial near the form, trust badges by the CTA, stats in the hero
+
+**Try this:** Start with the SaaS Free Trial example below. Focus only on three elements first: compelling headline, trust-building hero section, and optimized form. Launch a simple version, track conversion rate for 100 visitors, then iterate based on where people drop off. Perfection is the enemy of launched.
+
 ## Template
 
 ```

@@ -18,6 +18,20 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for delivering constructive feedback, conducting performance reviews, and facilitating growth-oriented conversations that build trust and drive improvement.
 
+## Quick Start
+
+Deliver effective feedback in your next conversation:
+
+1. **Use the SBI Framework**: Structure feedback with Situation (when/where), Behavior (specific observable action), and Impact (effect on team/project). Example: "In yesterday's client meeting (S), when you interrupted the CTO twice (B), it created tension and we lost credibility (I)."
+
+2. **Balance Positive and Constructive**: Start with genuine appreciation for what's working before addressing improvement areas. Make positive feedback specific ("Your documentation on the API integration saved the team 5 hours") not generic ("Good job").
+
+3. **Make It Timely and Private**: Deliver constructive feedback within 24-48 hours of the event, in a private setting. Don't wait for formal reviews to address issues or recognize achievements.
+
+4. **Focus on Forward Action**: End every feedback conversation with specific next steps, support offered, and a follow-up date. Ask "What support do you need from me?" and "How can we prevent this going forward?"
+
+**First Step**: Schedule a 15-minute feedback conversation this week. Prepare one specific example using the SBI format and plan your opening statement.
+
 ## Template
 
 ```markdown

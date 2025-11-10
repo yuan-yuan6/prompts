@@ -19,6 +19,30 @@ last_updated: 2025-11-09
 ## Purpose
 Develop comprehensive frameworks for market analysis, competitor benchmarking, and strategic intelligence gathering that enable data-driven competitive positioning, market opportunity identification, and strategic advantage creation.
 
+## Quick Start
+
+**Need competitive intelligence fast?** Use this minimal example:
+
+### Minimal Example
+```
+Analyze 3 top competitors by comparing: market share, pricing strategy, product features, customer reviews/ratings, and recent strategic moves. Create a SWOT analysis showing strengths, weaknesses, opportunities, and threats. Summarize findings in a competitive positioning matrix with actionable recommendations.
+```
+
+### When to Use This
+- Strategic planning and market positioning
+- Product development and feature prioritization
+- Pricing strategy and competitive pricing
+- Market entry and expansion decisions
+
+### Basic 3-Step Workflow
+1. **Identify competitors** - Select 3-5 key competitors to analyze
+2. **Gather intelligence** - Collect data on positioning, pricing, features, and performance
+3. **Analyze and report** - Create comparative analysis with strategic recommendations
+
+**Time to complete**: 3-5 days for basic analysis, 2-4 weeks for comprehensive intelligence
+
+---
+
 ## Template
 
 ```

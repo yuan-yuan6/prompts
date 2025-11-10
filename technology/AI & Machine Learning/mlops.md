@@ -19,6 +19,58 @@ last_updated: 2025-11-09
 ## Purpose
 Implement comprehensive MLOps practices including CI/CD pipelines, model monitoring, versioning, automated testing, and governance for scalable and reliable machine learning systems.
 
+## Quick Start
+
+**Implement MLOps in 5 steps:**
+
+1. **Version Everything**: Use Git for code, DVC/MLflow for data/models, track experiments with parameters and metrics
+2. **Automate Training Pipeline**: Create reproducible training with Airflow/Kubeflow, schedule retraining, log all artifacts
+3. **Deploy with CI/CD**: Build Docker images, run tests (unit, integration, model validation), deploy to staging then production
+4. **Monitor Production Models**: Track prediction drift, data drift, model performance, latency, errors with dashboards and alerts
+5. **Enable Governance**: Implement model registry, approval workflows, A/B testing, rollback procedures, audit logging
+
+**Quick MLOps Pipeline:**
+```python
+# mlflow_training.py
+import mlflow
+from sklearn.ensemble import RandomForestClassifier
+
+mlflow.set_experiment("production-model")
+
+with mlflow.start_run():
+    # Log parameters
+    params = {'n_estimators': 100, 'max_depth': 10}
+    mlflow.log_params(params)
+
+    # Train model
+    model = RandomForestClassifier(**params)
+    model.fit(X_train, y_train)
+
+    # Log metrics
+    accuracy = model.score(X_test, y_test)
+    mlflow.log_metric("accuracy", accuracy)
+
+    # Save model
+    mlflow.sklearn.log_model(model, "model")
+```
+
+```yaml
+# .github/workflows/ml-pipeline.yml
+name: ML Pipeline
+on: [push]
+jobs:
+  train-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Train model
+        run: python mlflow_training.py
+      - name: Run tests
+        run: pytest tests/
+      - name: Deploy to production
+        run: mlflow models serve -m models:/production-model/latest
+```
+
 ## Template Structure
 
 ### MLOps Strategy

@@ -15,6 +15,24 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for developing and implementing dynamic pricing strategies including competitive analysis, price optimization algorithms, psychological pricing tactics, promotional planning, and revenue management for retail and e-commerce businesses.
 
+## Quick Start
+
+**For E-commerce Businesses implementing algorithmic pricing:**
+1. Select 50-100 high-velocity SKUs for initial algorithmic pricing testing
+2. Integrate competitive price monitoring tool (Prisync, Competera, or similar)
+3. Set dynamic rules: Match lowest competitor within 3%, maintain 20% minimum margin
+4. Implement hourly repricing for fast-moving categories (electronics, fashion)
+5. Monitor conversion rate impact: target 10-15% revenue lift with <2% margin erosion
+
+**For Retailers launching demand-based pricing:**
+1. Identify products with high price elasticity (>1.5) for dynamic optimization
+2. Establish time-based pricing zones: peak hours +10-15%, off-peak -5-10%
+3. Implement inventory-driven pricing: reduce by 2-5% per week for slow movers
+4. Set seasonal pricing patterns based on historical demand data
+5. Use A/B testing to validate pricing changes before full deployment
+
+**Expected Timeline:** Week 1-2: Tool setup and competitive data integration | Week 3-4: Algorithm configuration and rule setting | Month 2: Controlled testing on pilot SKUs | Month 3-6: Gradual rollout and optimization across catalog
+
 ## Template
 
 Implement dynamic pricing strategy for [PRODUCT_CATALOG_SIZE] products across [MARKET_SEGMENTS] segments, targeting [REVENUE_GOAL] revenue, [MARGIN_TARGET]% margin, [PRICE_ELASTICITY] elasticity coefficient, updating prices every [UPDATE_FREQUENCY], competing with [COMPETITOR_COUNT] competitors, achieving [MARKET_SHARE]% market share.

@@ -14,6 +14,18 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive customer experience optimization strategies, omnichannel journey enhancement plans, personalization frameworks, and customer-centric transformation initiatives that drive customer satisfaction, loyalty, and lifetime value across all retail and e-commerce touchpoints.
 
+## Quick Start
+
+To use this template effectively:
+
+1. **Assess Current State** - Evaluate your existing CX capabilities across all touchpoints and measure current satisfaction scores (NPS, CSAT, CES)
+2. **Map Customer Journeys** - Document the key stages: Awareness, Consideration, Purchase, and Post-Purchase for your primary customer segments
+3. **Identify Pain Points** - Prioritize the biggest friction points and opportunities across the customer journey
+4. **Design Personalization Strategy** - Define customer segments and the personalization approaches for each (recommendations, content, pricing)
+5. **Implement Quick Wins** - Start with high-impact, low-effort improvements like checkout optimization or email personalization
+
+**Pro Tip**: Begin with journey mapping and pain point identification to focus efforts where they'll have the greatest impact on customer satisfaction and conversion.
+
 ## Template
 
 ```

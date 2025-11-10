@@ -18,6 +18,28 @@ last_updated: 2025-11-09
 ## Purpose
 Analyze income statements, balance sheets, and cash flow statements to evaluate company financial performance, identify trends, and assess financial health.
 
+## Quick Start
+
+### Minimal Example
+"Analyze FY 2024 financial statements for RetailCo: Revenue $150M (up from $120M), Operating Income $30M, Net Income $22M, Total Assets $200M, Cash $40M, Operating Cash Flow $35M. Assess profitability trends, liquidity position, and cash generation quality."
+
+### When to Use
+- Evaluating company financial health before investment decisions
+- Conducting due diligence for mergers or acquisitions
+- Assessing creditworthiness and lending risk
+- Monitoring financial performance of portfolio companies
+- Preparing board presentations or investor reports
+
+### 3-Step Workflow
+1. **Gather Financial Data**: Collect income statements, balance sheets, and cash flow statements for current and prior periods; identify industry benchmarks and peer companies
+2. **Generate Analysis**: Input financial data into the template to receive comprehensive analysis covering profitability, liquidity, efficiency, and cash flow metrics
+3. **Review and Action**: Evaluate the insights, identify key strengths and concerns, compare to industry standards, and develop action items for management attention
+
+### Time Estimate
+- Data preparation: 30-60 minutes
+- Analysis generation and review: 45-90 minutes
+- Total: 1.5-2.5 hours per company analyzed
+
 ## Template
 
 ```

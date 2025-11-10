@@ -19,6 +19,13 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive brand strategy framework covering brand positioning, identity development, messaging architecture, brand experience design, implementation planning, and performance measurement across all customer touchpoints and market segments.
 
+## Quick Start
+1. **Conduct Brand Audit** - Assess current brand awareness, equity, differentiation, and customer perception through surveys and competitive analysis
+2. **Define Target Audience** - Create 2-3 detailed customer personas with demographics, behaviors, needs, and brand interaction preferences
+3. **Craft Brand Positioning** - Develop your positioning statement, value proposition, brand promise, and 3-5 key differentiators
+4. **Design Visual Identity** - Establish core brand elements: logo, color palette, typography, and visual style guidelines
+5. **Plan Implementation** - Create a phased rollout plan with internal launch, market introduction, and performance tracking mechanisms
+
 ## Template
 
 Develop brand strategy for [BRAND_NAME] targeting [TARGET_MARKET] with budget of $[BRAND_BUDGET] over [TIMELINE] to achieve [BRAND_AWARENESS]% brand awareness, [BRAND_PREFERENCE]% brand preference, and [REVENUE_TARGET] revenue impact across [CHANNEL_COUNT] channels and [MARKET_COUNT] markets.

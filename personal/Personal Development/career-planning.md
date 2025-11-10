@@ -14,6 +14,30 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive career development strategies, professional growth roadmaps, skill advancement plans, and strategic career transitions that align personal aspirations with market opportunities through systematic planning and execution.
 
+## Quick Start
+
+Design your 5-year career roadmap with clear milestones and actionable next steps.
+
+**Minimal Example:**
+You're a mid-level professional feeling stuck, unsure whether to specialize deeper or pivot to management. Use this prompt to map out multiple career paths, identify skill gaps, create a networking strategy, and build a concrete action plan with quarterly milestones.
+
+**When to Use This:**
+- You feel stuck in your current role with no clear path forward
+- You're considering a career change but unsure how to transition
+- You need to prepare for a promotion or leadership role
+- Your industry is changing and you need to future-proof your career
+- You want to align your daily work with long-term aspirations
+
+**3-Step Workflow:**
+
+1. **Assess & Aspire** (20 min): Document your current state, define your 1-3-5 year goals, and identify gaps in skills, experience, and network
+2. **Generate Roadmap** (5 min): Run the prompt to create your strategic career plan with multiple pathways, milestone mapping, and development strategies
+3. **Execute & Track** (ongoing): Take the first three actions this week, schedule quarterly reviews, and adjust based on the performance tracking system
+
+**Time Estimate:** 30 minutes for initial planning, then 1 hour quarterly for reviews and adjustments
+
+**Expected Outcome:** A comprehensive career development plan with clear pathways, skill development matrices, networking strategies, personal branding guidelines, and risk management frameworks that accelerate career progression by 2-3 years.
+
 ## Template
 
 ```

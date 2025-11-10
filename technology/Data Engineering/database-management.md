@@ -19,6 +19,30 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive database management including schema design, query optimization, performance tuning, backup/recovery, security, maintenance, and monitoring for enterprise database systems.
 
+## Quick Start
+
+**Need to set up database management quickly?** Use this minimal example:
+
+### Minimal Example
+```
+Design database management for ProductionDB PostgreSQL v14 with 1000+ concurrent users, 500GB data. Requirements: normalized schema for orders/customers/inventory, <100ms query performance, automated daily backups to S3, master-replica replication for 99.9% availability, connection pooling via pgBouncer, monitoring with Prometheus/Grafana.
+```
+
+### When to Use This
+- Setting up new production database infrastructure
+- Implementing high availability and disaster recovery
+- Optimizing database performance and query efficiency
+- Establishing backup/recovery and security protocols
+
+### Basic 3-Step Workflow
+1. **Design and provision** - Schema design, instance sizing, storage configuration
+2. **Implement operations** - Backups, replication, monitoring, security controls
+3. **Optimize and maintain** - Query tuning, index optimization, capacity planning
+
+**Time to complete**: 1-2 weeks for initial setup, ongoing optimization
+
+---
+
 ## Template Structure
 
 ### Database Overview

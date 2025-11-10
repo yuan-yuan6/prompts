@@ -17,6 +17,30 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive assessment strategies including test design, rubrics, formative and summative assessments, evaluation methods, and performance measurement systems for educational programs.
 
+## Quick Start
+
+**Need to design an assessment quickly?** Use this minimal example:
+
+### Minimal Example
+```
+Design a unit test for 9th grade world history covering Ancient Rome. Include: 20 multiple-choice questions, 3 short answer questions, and 1 essay question. Align with state standards. Create a scoring rubric for the essay. Test duration: 50 minutes. Mix of recall, comprehension, and analysis questions following Bloom's taxonomy.
+```
+
+### When to Use This
+- Creating tests, quizzes, and exams
+- Developing rubrics and grading criteria
+- Designing formative and summative assessments
+- Building comprehensive program evaluation systems
+
+### Basic 3-Step Workflow
+1. **Align to objectives** - Match assessment to learning goals and standards
+2. **Design instruments** - Create questions, rubrics, and performance tasks
+3. **Validate and refine** - Pilot test and ensure validity and reliability
+
+**Time to complete**: 1-2 hours for simple quizzes, 4-8 hours for comprehensive assessments
+
+---
+
 ## Template
 
 ```

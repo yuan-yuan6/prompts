@@ -19,6 +19,23 @@ last_updated: 2025-11-09
 ## Purpose
 Develop detailed implementation roadmaps, establish regulatory frameworks, plan resource allocation, design monitoring and evaluation systems, and create adaptive management processes for successful policy execution.
 
+## Quick Start
+
+**Immediate Use:** For implementing a universal childcare program, specify:
+- POLICY_NAME: "Universal subsidized childcare program"
+- POLICY_AREA: "Early childhood education and family support"
+- GOVERNMENT_LEVEL: "State/Provincial"
+- TIMEFRAME: "3-year phased rollout"
+- IMPLEMENTATION_APPROACH: "Pilot in 3 regions, evaluate, then progressive expansion"
+
+**Key Variables to Customize:**
+- Phase planning (preparation, legislative, pilot, rollout, full implementation timelines)
+- Resource requirements (personnel, funding sources, technology, infrastructure needs)
+- Regulatory framework (legislative changes, compliance requirements, enforcement mechanisms)
+- Monitoring indicators (baseline values, targets, data sources, measurement frequency)
+
+**Expected Output:** Comprehensive implementation plan with detailed phased roadmap and timelines, resource allocation and multi-year budget, regulatory and legislative framework requirements, monitoring and evaluation system with clear indicators, adaptive management processes for course correction, risk mitigation strategies with contingencies, and stakeholder engagement plan maintaining support throughout execution.
+
 ## Template
 
 ```

@@ -14,6 +14,30 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive habit formation systems, behavioral change protocols, routine optimization strategies, and sustainable lifestyle transformations through scientific habit design, environmental engineering, and systematic behavior modification techniques.
 
+## Quick Start
+
+Build a lasting habit in 66 days using science-backed behavioral design.
+
+**Minimal Example:**
+You want to start exercising daily but past attempts failed after a week. Use this prompt to design a habit system with environmental cues, reward loops, and failure recovery protocols that make the behavior stick permanently.
+
+**When to Use This:**
+- You've tried to build a habit multiple times but it never sticks
+- You want to break a bad habit and replace it with a positive one
+- You're designing a morning or evening routine from scratch
+- You need to stack multiple habits together efficiently
+- You want to transform your lifestyle systematically, not randomly
+
+**3-Step Workflow:**
+
+1. **Design Your Loop** (10 min): Define your target habit, identify triggers, design rewards, and set up your environment using the template
+2. **Generate System** (3 min): Run the prompt to create your personalized habit architecture with phase-based implementation and tracking
+3. **Start Tiny** (ongoing): Begin with the 2-minute version today, track daily, and progressively expand using the provided frameworks
+
+**Time Estimate:** 15 minutes for system design, then 2-5 minutes daily for tracking and adjustment
+
+**Expected Outcome:** A scientifically-designed habit system with 80%+ success rate, complete with cue-routine-reward loops, environmental design, and obstacle management strategies that make lasting behavior change inevitable.
+
 ## Template
 
 ```

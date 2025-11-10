@@ -29,6 +29,19 @@ Use this prompt to:
 
 ---
 
+## Quick Start
+
+**5-Minute Dashboard UX Design:**
+1. **Define user personas and use cases** - Identify 2-3 primary users (e.g., Executive, Analyst) and their key questions
+2. **Select visualization types** - Match data questions to chart types (trends → line charts, comparisons → bar charts, parts-of-whole → stacked bars)
+3. **Create visual hierarchy** - Place KPIs at top, primary insights in upper left, supporting details below
+4. **Design filter panel** - Add date range, 2-3 key filters visible, keep controls consistent across pages
+5. **Test with real users** - Show mockups to 3 actual users, iterate based on feedback before development
+
+**Key Decision:** Mobile vs. desktop-first? If executives use phones/tablets frequently, design for mobile screen sizes first (simplified charts, vertical layout).
+
+---
+
 ## Prompt
 
 I need to design a comprehensive UX/UI framework for a dashboard with the following requirements:

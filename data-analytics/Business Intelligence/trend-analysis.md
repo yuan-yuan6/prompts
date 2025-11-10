@@ -19,6 +19,30 @@ last_updated: 2025-11-09
 ## Purpose
 Develop comprehensive frameworks for pattern identification, forecasting methodologies, and anomaly detection that enable accurate trend analysis, predictive insights, and proactive business decision-making.
 
+## Quick Start
+
+**Need to forecast trends quickly?** Use this minimal example:
+
+### Minimal Example
+```
+Analyze monthly sales data for the past 2 years to forecast next quarter's revenue. Identify seasonal patterns, calculate moving averages, detect any anomalies or outliers, and create a forecast with 80% confidence intervals. Visualize historical trends and projections in a simple line chart.
+```
+
+### When to Use This
+- Sales and revenue forecasting
+- Demand planning and inventory management
+- Budget planning and resource allocation
+- Market trend analysis and strategic planning
+
+### Basic 3-Step Workflow
+1. **Prepare data** - Clean historical data and identify relevant time series
+2. **Analyze patterns** - Detect trends, seasonality, and anomalies
+3. **Generate forecasts** - Apply forecasting methods and create predictions
+
+**Time to complete**: 1-2 days for simple forecasting, 1-2 weeks for advanced models
+
+---
+
 ## Template
 
 ```

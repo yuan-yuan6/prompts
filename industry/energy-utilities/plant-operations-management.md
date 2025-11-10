@@ -15,6 +15,45 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for managing industrial plant operations including production monitoring, maintenance scheduling, safety compliance, efficiency optimization, and operational excellence for energy and utility facilities.
 
+## Quick Start
+
+**Energy & Utilities Scenario**: You're managing a power generation facility (fossil, nuclear, renewable, or combined cycle) that needs to optimize production efficiency, minimize downtime, ensure safety compliance, and meet environmental standards.
+
+**Common Applications**:
+- Natural gas, coal, or combined cycle power plant operations
+- Nuclear power facility management
+- Renewable energy plant operations (wind, solar farms, hydro)
+- Cogeneration facility management
+- Plant performance optimization and heat rate improvement
+- Regulatory compliance and environmental monitoring
+
+**Key Variables to Define**:
+- `[FACILITY_TYPE]`: Type of plant or facility
+- `[PRODUCTION_CAPACITY]`: Nameplate capacity
+- `[EQUIPMENT_COUNT]`: Number of major equipment units
+- `[EMPLOYEE_COUNT]`: Number of operators and staff
+- `[EFFICIENCY_TARGET]`: Target operational efficiency percentage
+- `[UPTIME_TARGET]`: Target availability percentage
+- `[SAFETY_SCORE]`: Target safety rating
+
+**Expected Outputs**:
+- Operations management framework with shift procedures
+- Production optimization strategy with efficiency targets
+- Maintenance management system with preventive and predictive programs
+- Asset management plan with lifecycle optimization
+- Safety management system with incident prevention
+- Environmental compliance framework with monitoring and reporting
+- Control room operations procedures and protocols
+- Performance metrics dashboard with availability, efficiency, and cost
+
+**Pro Tips**:
+- Implement predictive maintenance to reduce unplanned outages
+- Use real-time monitoring for early anomaly detection
+- Benchmark performance against similar plant types
+- Create detailed operating procedures for all conditions
+- Prioritize safety culture through training and communication
+- Integrate environmental monitoring with operations
+
 ## Template
 
 Manage plant operations for [FACILITY_TYPE] facility with [PRODUCTION_CAPACITY] capacity, [EQUIPMENT_COUNT] equipment units, [EMPLOYEE_COUNT] operators, achieving [EFFICIENCY_TARGET]% efficiency, [UPTIME_TARGET]% uptime, [SAFETY_SCORE] safety rating, [COMPLIANCE_RATE]% regulatory compliance, reducing operational costs by [COST_REDUCTION]%.

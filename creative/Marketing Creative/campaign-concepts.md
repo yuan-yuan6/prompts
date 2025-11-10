@@ -18,6 +18,34 @@ last_updated: 2025-11-09
 ## Purpose
 Develop comprehensive marketing campaign concepts including themes, messaging, and creative strategies that drive brand engagement and achieve business objectives across multiple channels.
 
+## Quick Start
+
+**Need to create a campaign concept quickly?** Use this minimal example:
+
+### Minimal Example
+```
+CAMPAIGN_TYPE: "Product launch campaign"
+BRAND_NAME: "InnovateNow"
+TARGET_MARKET: "Tech-savvy professionals and early adopters"
+CAMPAIGN_GOAL: "Drive product awareness and adoption"
+CAMPAIGN_DURATION: "6 months"
+```
+
+### When to Use This
+- Launching new products or services to market
+- Building brand awareness and market presence
+- Driving seasonal sales and promotional campaigns
+- Repositioning brands in competitive landscapes
+
+### Basic 3-Step Workflow
+1. **Define Campaign Foundation** - Establish campaign objectives, target audience, budget parameters, and success metrics for your initiative
+2. **Develop Creative Concept** - Create central campaign theme, messaging architecture, visual direction, and multi-channel activation plan
+3. **Execute & Measure** - Launch integrated campaign across channels, monitor performance in real-time, and optimize based on results
+
+**Time to complete**: 3-5 hours for concept development, 2-4 weeks for full campaign execution
+
+---
+
 ## Template
 
 ```

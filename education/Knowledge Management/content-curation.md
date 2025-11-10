@@ -17,6 +17,24 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive frameworks for resource collection, digital library management, content curation, knowledge repositories, and information resource organization systems for academic, corporate, and public institutions.
 
+## Quick Start
+
+**Get started in 3 minutes:**
+
+1. **Define Collection Scope** - Identify institution type, library classification, service population, and subject focus
+2. **Establish Selection Criteria** - Set quality standards for scholarly rigor, accuracy, currency, and relevance
+3. **Choose Organization System** - Select classification method (Dewey, LC, or custom taxonomy)
+4. **Setup Discovery Interface** - Implement basic search, browse categories, and faceted navigation
+
+**Minimum Viable Content Library:**
+- 1 collection policy defining scope and format specifications
+- 1 acquisition method (purchase, licensing, or donations)
+- 1 classification system for organizing resources
+- 1 discovery interface (simple search + browse by category)
+- 1 metadata standard (Dublin Core minimum)
+
+Perfect for: Librarians, knowledge managers, digital archivists, content curators, and information professionals building resource collections.
+
 ## Template
 
 ```

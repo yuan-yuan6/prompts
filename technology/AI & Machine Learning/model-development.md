@@ -19,6 +19,28 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive machine learning model development including training, evaluation, deployment, monitoring, and optimization with MLOps best practices for scalable and reliable AI systems.
 
+## Quick Start
+
+**Basic Usage:**
+```
+Develop [MODEL_TYPE] model for [USE_CASE] to achieve [SUCCESS_METRIC] using [FRAMEWORK] with [MLOPS_PRACTICES].
+```
+
+**Example:**
+```
+Develop CNN image classification model for ProductCategorization to achieve 95% accuracy using PyTorch with automated MLOps pipeline.
+```
+
+**Key Steps:**
+1. Define business objectives, success metrics, and regulatory requirements
+2. Establish data strategy including sources, preprocessing, and feature engineering
+3. Design model architecture selecting appropriate algorithms and frameworks
+4. Implement training strategy with validation, cross-validation, and monitoring
+5. Evaluate model using metrics, benchmarks, bias detection, and error analysis
+6. Deploy model with proper serving infrastructure, API design, and scaling
+7. Set up MLOps pipeline with version control, CI/CD, and experiment tracking
+8. Monitor performance, data drift, and model degradation in production
+
 ## Template Structure
 
 ### Project Overview

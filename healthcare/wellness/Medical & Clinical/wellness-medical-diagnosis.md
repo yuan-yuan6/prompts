@@ -14,6 +14,18 @@ last_updated: 2025-11-09
 ## Introduction
 This comprehensive prompt template facilitates systematic medical diagnosis through clinical reasoning, differential diagnosis development, evidence-based decision making, and diagnostic workup planning across all medical specialties and clinical settings.
 
+## Quick Start
+
+**Get started in 3 steps:**
+
+1. **Gather Comprehensive History** - Conduct systematic patient interview covering chief complaint ([CHIEF_COMPLAINT]), history of present illness, past medical history, medications, and social factors affecting health.
+
+2. **Develop Differential Diagnosis** - List possible conditions ([DIFFERENTIAL_LIST]) ranked by probability, considering presenting symptoms ([PRESENTING_SYMPTOMS]), physical findings, and patient risk factors.
+
+3. **Order Strategic Testing** - Select appropriate diagnostic tests ([DIAGNOSTIC_TESTS]) based on pre-test probability, using evidence-based guidelines to rule in/out conditions efficiently and cost-effectively.
+
+**Example:** "Evaluate 45-year-old patient with chest pain: comprehensive cardiac workup including ECG, troponin, stress test; differential includes ACS, GERD, musculoskeletal pain; target diagnosis within 24 hours."
+
 ## Template Structure
 
 ### 1. Clinical Presentation Analysis

@@ -14,6 +14,30 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive curriculum development frameworks, instructional design strategies, learning pathway architectures, and educational program blueprints that align with learning objectives, industry standards, and student outcomes while incorporating modern pedagogical approaches and assessment methodologies.
 
+## Quick Start
+
+**For curriculum designers who need**: A comprehensive framework for developing educational programs
+
+**Essential inputs**:
+- Curriculum type (degree, certificate, K-12 program, corporate training)
+- Educational context (institution type, level)
+- Learner population characteristics
+- Learning objectives and competency outcomes
+- Program duration and resources
+
+**5-minute starter**:
+1. Define your program's purpose: What will graduates be able to DO in the real world?
+2. Identify key stakeholders and their needs (students, employers, accreditors)
+3. List 5-8 core competencies graduates must demonstrate
+4. Sketch a rough program structure (foundation courses → core → specialization → capstone)
+5. Note any constraints (accreditation requirements, budget, faculty expertise)
+
+**Common first use**: "Design Bachelor's degree in Computer Science for 4-year public university. Learners: traditional and non-traditional students, diverse backgrounds. Objectives: technical proficiency, problem-solving, industry readiness. Approach: project-based learning with industry partnerships. Outcomes: programming, systems analysis, software development, teamwork. Duration: 4 years, 120 credits. Budget: $2M, 15 faculty."
+
+**Expected output**: Comprehensive curriculum framework including stakeholder needs assessment, competency framework, learning outcomes hierarchy, complete program architecture with course sequencing, instructional design strategy with teaching methods and technology integration, assessment framework, faculty development plan, student support services, implementation timeline, resource allocation, and quality assurance processes.
+
+**Best for**: New program development, program redesigns, accreditation preparation, strategic planning, aligning curriculum with industry needs, designing learning pathways.
+
 ## Template
 
 ```

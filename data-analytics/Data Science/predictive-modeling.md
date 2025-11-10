@@ -21,6 +21,32 @@ last_updated: 2025-01-09
 ## Purpose
 Design, develop, and deploy comprehensive predictive modeling solutions using machine learning algorithms for classification, regression, clustering, and advanced analytics across diverse business applications.
 
+## Quick Start
+
+**Need to build a predictive model quickly?** Use this minimal example:
+
+### Minimal Example
+```
+Build classification model to predict customer churn using historical transaction data. Dataset: 50K customers with 30 features. Target: binary churn flag (20% positive class). Model: XGBoost with 5-fold cross-validation. Primary metric: AUC-ROC. Target performance: >0.85 AUC. Deployment: real-time API with <100ms latency.
+```
+
+### When to Use This
+- Predicting customer behavior (churn, purchase, conversion)
+- Forecasting business metrics (sales, demand, revenue)
+- Detecting anomalies or fraud
+- Classifying documents, images, or transactions
+- Ranking and recommendation systems
+
+### Basic 4-Step Workflow
+1. **Data preparation** - Clean data, handle missing values, split train/validation/test
+2. **Feature engineering** - Create features, encode categoricals, scale numerics
+3. **Model training** - Train multiple algorithms, tune hyperparameters, validate performance
+4. **Deployment** - Package model, create API, monitor performance in production
+
+**Time to complete**: 1-2 weeks for prototype, 4-8 weeks for production-ready model
+
+---
+
 ## Template
 
 ```

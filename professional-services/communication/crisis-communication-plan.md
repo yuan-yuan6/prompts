@@ -15,6 +15,18 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive crisis communication framework covering risk assessment, stakeholder mapping, message development, channel strategy, response protocols, reputation management, and post-crisis analysis across all communication touchpoints and stakeholder groups.
 
+## Quick Start
+
+Prepare for crisis communication before crisis hits:
+
+1. **Build Your Crisis Communication Team** - Identify 5-7 key people who will form your crisis response team: CEO/senior executive (final decision authority), communications lead (spokesperson), legal counsel, HR representative, operations lead, and subject matter expert (varies by crisis type). Document contact information (including personal cell phones) and backup contacts. Test your call tree quarterly.
+
+2. **Create Message Templates** - Pre-draft 3-4 holding statements for different crisis scenarios (data breach, workplace accident, product recall, financial issues, leadership crisis). Each template should include: (1) Acknowledgment of the situation, (2) Statement of concern/empathy, (3) Initial actions being taken, (4) Commitment to updates, (5) Contact information. You'll customize details when needed, but the structure saves critical time.
+
+3. **Establish Communication Protocols** - Define your first-hour response plan: Who gets notified first? Who approves messages? Which channels do you use first (internal employees, then customers, then public)? Set up a crisis communication hub (shared doc, Slack channel, or war room) where the team can coordinate in real-time. Create a stakeholder map with communication sequences and responsible parties.
+
+**Pro Tip**: The first 60 minutes of a crisis are critical. Your goal is to: (1) Confirm facts internally, (2) Notify your crisis team, (3) Issue a holding statement acknowledging the situation, (4) Communicate internally before external stakeholders see it on the news. Even a simple "We're aware and investigating" buys you time while showing responsiveness.
+
 ## Template
 
 Manage crisis communication for [ORGANIZATION_NAME] during [CRISIS_TYPE] crisis with [SEVERITY_LEVEL] impact affecting [AFFECTED_STAKEHOLDERS] across [GEOGRAPHIC_SCOPE] requiring [RESPONSE_TIMELINE] response time and [BUDGET_ALLOCATION] budget allocation for communication activities.

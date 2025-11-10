@@ -15,6 +15,31 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for implementing Objectives and Key Results (OKRs) including goal setting, alignment strategies, tracking mechanisms, performance measurement, and continuous improvement for driving organizational focus and achievement.
 
+## Quick Start
+
+**Need to implement OKRs quickly?** Use this minimal example:
+
+### Minimal Example
+```
+Implement OKR framework for 50-person software startup with 5 teams, quarterly cycles. Company Objective: Achieve product-market fit by Q2. Key Results: (1) Reach 1000 active users, (2) Achieve 40% weekly retention rate, (3) Generate $50K MRR. Team-level OKRs aligned to company goals. Weekly check-ins, monthly reviews. Track in shared spreadsheet. Target 70% completion rate for ambitious goals.
+```
+
+### When to Use This
+- Improving organizational alignment and focus
+- Setting and tracking strategic goals
+- Increasing transparency and accountability
+- Measuring progress on key initiatives
+- Driving performance and results
+
+### Basic 3-Step Workflow
+1. **Set objectives** - Define 3-5 ambitious, qualitative goals per level (company, team, individual)
+2. **Define key results** - Create 3-5 measurable outcomes per objective with targets
+3. **Track and review** - Weekly updates, monthly reviews, quarterly planning cycles
+
+**Time to complete**: 2-3 weeks for initial setup, ongoing quarterly cycles
+
+---
+
 ## Template
 
 Implement OKR framework for [ORGANIZATION_NAME] with [EMPLOYEE_COUNT] employees, [TEAM_COUNT] teams, [OKR_CYCLES] quarterly cycles, targeting [COMPLETION_RATE]% completion rate, [ALIGNMENT_SCORE]% alignment score, [ENGAGEMENT_LEVEL]% engagement, and [BUSINESS_IMPACT] business impact metrics.

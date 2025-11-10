@@ -15,6 +15,45 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for managing vehicle fleets including asset tracking, maintenance scheduling, driver management, route optimization, compliance monitoring, and operational efficiency for transportation and logistics operations.
 
+## Quick Start
+
+**Transportation & Logistics Scenario**: You're managing a commercial vehicle fleet that needs better visibility, maintenance control, driver performance, fuel efficiency, and regulatory compliance.
+
+**Common Applications**:
+- Fleet tracking and real-time visibility for delivery operations
+- Preventive maintenance programs for trucks, vans, or specialized vehicles
+- Driver performance monitoring and safety management
+- Fuel consumption optimization and cost reduction
+- Compliance with DOT, FMCSA, and safety regulations
+- Asset utilization analysis and right-sizing decisions
+
+**Key Variables to Define**:
+- `[FLEET_SIZE]`: Total number of vehicles
+- `[LOCATION_COUNT]`: Number of operating locations
+- `[DRIVER_COUNT]`: Number of drivers
+- `[DAILY_MILES]`: Average daily miles driven
+- `[UTILIZATION_TARGET]`: Target vehicle utilization percentage
+- `[FUEL_EFFICIENCY]`: Target miles per gallon
+- `[MAINTENANCE_COST]`: Target maintenance cost per mile
+
+**Expected Outputs**:
+- Fleet management system architecture with telematics integration
+- Vehicle maintenance program with preventive schedules
+- Driver management framework with training and safety protocols
+- Fuel optimization strategies with cost reduction targets
+- Asset tracking system with real-time visibility
+- Compliance management system for regulations and documentation
+- Performance metrics dashboard with KPIs
+- Cost analysis and optimization recommendations
+
+**Pro Tips**:
+- Implement telematics for real-time data before optimization
+- Use predictive maintenance to reduce downtime
+- Create driver scorecards to improve safety and efficiency
+- Benchmark fuel consumption against industry standards
+- Automate compliance reporting to reduce administrative burden
+- Consider EV integration for sustainability goals
+
 ## Template
 
 Implement fleet management system for [FLEET_SIZE] vehicles across [LOCATION_COUNT] locations, [DRIVER_COUNT] drivers, covering [DAILY_MILES] miles/day, achieving [UTILIZATION_TARGET]% utilization, [FUEL_EFFICIENCY] MPG target, [MAINTENANCE_COST] per mile, with [COMPLIANCE_RATE]% regulatory compliance and [UPTIME_TARGET]% vehicle uptime.

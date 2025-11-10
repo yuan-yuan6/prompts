@@ -18,6 +18,17 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive system for measuring, evaluating, and reporting social impact across nonprofit programs, including theory of change development, outcome tracking, and stakeholder reporting.
 
+## Quick Start
+
+**Getting Started in 3 Steps:**
+1. Map your impact pathway by defining inputs, activities, outputs, short-term outcomes, medium-term outcomes, and long-term impact with specific indicators
+2. Design your data collection strategy using quantitative and qualitative methods tailored to your program context and stakeholder needs
+3. Calculate social return on investment (SROI) by monetizing outcomes, mapping stakeholder value, and determining your impact-to-investment ratio
+
+**Best For:** Nonprofits demonstrating program effectiveness, evaluation specialists designing measurement systems, program managers tracking outcomes, and organizations reporting impact to funders and stakeholders.
+
+**Time to Deploy:** 3-6 hours for initial framework design; ongoing data collection and analysis throughout program implementation cycles.
+
 ## Template
 
 Develop impact measurement framework for [ORGANIZATION_NAME] implementing [PROGRAM_NAME] serving [BENEFICIARIES_COUNT] beneficiaries with budget of $[PROGRAM_BUDGET] targeting [IMPACT_GOALS] over [TIMEFRAME].

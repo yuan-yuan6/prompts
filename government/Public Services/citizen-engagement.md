@@ -18,6 +18,34 @@ last_updated: 2025-11-09
 ## Purpose
 Design comprehensive citizen engagement strategies, participatory governance frameworks, community consultation processes, and public feedback systems that foster inclusive decision-making and strengthen democratic participation.
 
+## Quick Start
+
+Create your citizen engagement strategy in 3 steps:
+
+1. **Define Engagement Goals**
+   - Identify the issue/decision requiring citizen input
+   - Determine target participation numbers and diversity goals
+   - Choose engagement level (inform, consult, involve, collaborate, empower)
+
+2. **Select Engagement Methods**
+   - Pick 3-4 methods matching your audience (town halls, online platforms, surveys)
+   - Plan accessibility measures (multiple languages, childcare, transportation)
+   - Schedule timeline with multiple touchpoints
+
+3. **Design Feedback Integration**
+   - Create process for analyzing and categorizing input
+   - Define how citizen feedback influences decisions
+   - Plan "closing the loop" communications showing impact
+
+**Example Quick Start:**
+```
+City park redesign engaging 500 residents across 3 neighborhoods:
+- Methods: 2 town halls, online survey, youth workshops
+- Accessibility: Spanish translation, weekend/evening times, childcare
+- Timeline: 6 weeks engagement → 2 weeks analysis → public report
+- Integration: Design team uses input for 3 concept options
+```
+
 ## Template
 
 ```

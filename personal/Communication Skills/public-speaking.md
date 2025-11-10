@@ -15,6 +15,18 @@ last_updated: 2025-11-09
 ## Purpose
 Create compelling speeches, presentations, and pitches that engage audiences, convey messages effectively, and inspire action through structured content delivery and confident presentation techniques.
 
+## Quick Start
+
+Need to prepare a speech quickly? Follow this proven framework:
+
+1. Write your core message in one sentence: What's the ONE thing your audience should remember?
+2. Find your hook: Start with a surprising statistic, personal story, or provocative question
+3. Structure with the Rule of Three: Organize your content into exactly three main points (our brains love patterns)
+4. Practice out loud at least three times: You'll discover awkward phrases and get comfortable with your material
+5. Prepare for nerves: Take three deep breaths before speaking and focus on one friendly face in the audience
+
+Remember: Your audience wants you to succeed. They're rooting for you, not looking for mistakes. Start small, perhaps with a toast at dinner, and build your confidence from there.
+
 ## Template
 
 ```

@@ -18,6 +18,33 @@ last_updated: 2025-11-09
 ## Purpose
 Identify, assess, and quantify financial risks through comprehensive risk analysis and scenario planning to support informed decision-making and risk mitigation strategies.
 
+## Quick Start
+
+**For CFOs & Treasury Managers**: Identify and quantify financial risks with scenario analysis to support risk mitigation and strategic planning.
+
+**Common Business Scenarios:**
+- **Debt Refinancing Risk**: Assess liquidity and solvency risks with upcoming debt maturities (12-24 months)
+- **Earnings Volatility**: Analyze market risks (FX, interest rate, commodity) impacting quarterly earnings
+- **Credit Facility Compliance**: Evaluate covenant headroom and probability of violations under stress scenarios
+- **Business Model Risk**: Assess customer concentration, competitive threats, and revenue sustainability
+- **Economic Downturn Planning**: Model pessimistic scenarios (15-20% revenue decline) and contingency actions
+
+**What You'll Need:**
+- Current financial position (balance sheet, debt schedule, cash flow)
+- Key financial ratios (debt/equity, interest coverage, current ratio)
+- Market risk exposures (foreign currency, interest rates, commodities)
+- Business context (industry trends, competition, customer concentration)
+- Historical volatility data
+
+**You'll Get:**
+- Risk identification across credit, market, and operational categories
+- Three scenario models (base, optimistic, pessimistic) with 3-year projections
+- Stress test analysis showing liquidity crisis timing
+- Sensitivity analysis on revenue and margin impacts
+- Risk mitigation recommendations by category
+- Key Risk Indicators (KRIs) monitoring framework
+- Executive risk summary with top 5 priorities
+
 ## Template
 
 ```

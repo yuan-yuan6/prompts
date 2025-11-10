@@ -19,6 +19,32 @@ last_updated: 2025-11-09
 ## Purpose
 Design comprehensive data modeling architectures including dimensional models, normalized structures, denormalized designs, and modern cloud-native architectures for enterprise analytics platforms.
 
+## Quick Start
+
+### For Data Engineers
+Design your data model in 3 steps:
+
+1. **Choose Modeling Approach**
+   - **Kimball (Star Schema)**: Fact tables with dimension tables for BI/analytics (lines 128-294)
+   - **Inmon (3NF)**: Normalized enterprise data warehouse for data consistency (lines 297-353)
+   - **Data Vault 2.0**: Hub-Link-Satellite for auditability and flexibility (lines 450-533)
+   - **Lakehouse (Medallion)**: Bronze-Silver-Gold layers for cloud-native analytics (lines 536-630)
+   - Select based on: `WORKLOAD_TYPE` (OLAP=Kimball, OLTP=3NF), scale, change frequency
+
+2. **Define Core Structures**
+   - **Fact Tables**: Define grain (one row per what?), measures (additive/semi/non), foreign keys to dimensions
+   - **Dimensions**: Choose SCD type (Type 1=overwrite, Type 2=track history), define hierarchies, attributes
+   - **Optimization**: Apply partitioning (time-based/hash), clustering (sort keys), indexing strategies (lines 652-745)
+   - Use provided DDL templates with partition specs, compression, and columnstore indexes
+
+3. **Implement & Optimize**
+   - Deploy DDL scripts with proper constraints, indexes, and partitioning
+   - Set up performance monitoring: Track query times, storage growth, partition pruning effectiveness
+   - Configure security: Row-level security (lines 858-874), column masking (877-887), encryption (889-910)
+   - Implement CDC or temporal tables for change tracking (lines 797-855)
+
+**Key Template Sections**: Dimensional models (128-294), Normalized structures (297-353), Data Vault (450-533), Lakehouse (536-630), Optimization (652-1025)
+
 ## Template
 
 ```

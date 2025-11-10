@@ -17,6 +17,34 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive landing page solutions covering copy optimization, structure design, conversion enhancement, A/B testing frameworks, and performance optimization across all campaign types and conversion objectives.
 
+## Quick Start
+
+**Need to build a high-converting landing page quickly?** Use this minimal example:
+
+### Minimal Example
+```
+CAMPAIGN_NAME: "SaaS Product Free Trial"
+PRIMARY_OBJECTIVE: "Generate qualified trial signups"
+TARGET_CONVERSION: "15% visitor-to-signup rate"
+VALUE_PROPOSITION: "Automate your workflow in 5 minutes - no credit card required"
+TRAFFIC_SOURCE: "Google Ads and social media"
+```
+
+### When to Use This
+- Launching paid advertising campaigns requiring dedicated landing pages
+- Creating product launch or feature announcement destinations
+- Building lead generation pages for B2B sales funnels
+- Optimizing e-commerce product pages for conversion
+
+### Basic 3-Step Workflow
+1. **Plan Structure & Copy** - Define value proposition, headline variations, social proof elements, and call-to-action strategy for target audience
+2. **Design & Optimize** - Create mobile-responsive layout, optimize above-fold content, implement form design, and ensure fast loading
+3. **Test & Improve** - Launch A/B tests on headlines and CTAs, track conversion metrics, and iterate based on performance data
+
+**Time to complete**: 4-8 hours for initial landing page, 2-3 weeks for optimization and testing
+
+---
+
 ## Template
 
 ```

@@ -18,6 +18,16 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive patent applications, claims drafting, prior art analysis, and intellectual property protection strategies that maximize patent protection while meeting legal requirements for novelty, non-obviousness, and utility.
 
+## Quick Start
+
+Draft professional patent applications efficiently in three essential steps:
+
+1. **Document Your Invention** - Describe your innovation including technical field, problem solved, novel features, and advantages over current solutions with clear inventor attribution
+2. **Conduct Prior Art Analysis** - Identify relevant references, assess novelty and non-obviousness, and document key differences that establish patentability
+3. **Generate Application Package** - Create complete patent application including detailed specification, strategic claims set (independent and dependent), drawing descriptions, filing strategy, and prosecution roadmap
+
+Applicable to all technology fields from software and AI to medical devices and chemical compositions. Output includes USPTO-ready applications, claims strategies, competitive landscape analysis, and commercialization plans.
+
 ## Template
 
 ```

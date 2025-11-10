@@ -14,6 +14,30 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive dashboard design strategies covering KPI visualization, data presentation patterns, user experience optimization, self-service analytics, mobile responsiveness, and real-time data integration to enable effective decision-making through intuitive and actionable business intelligence interfaces.
 
+## Quick Start
+
+**Need to design a dashboard quickly?** Use this minimal example:
+
+### Minimal Example
+```
+Create an executive dashboard with: (1) Top row showing 4-5 key metrics as large numbers with trend indicators, (2) Middle section with 2-3 charts showing performance over time, (3) Bottom section with a data table or detailed breakdown. Use consistent colors, clear labels, and ensure mobile responsiveness.
+```
+
+### When to Use This
+- Executive reporting and KPI monitoring
+- Operational performance tracking
+- Self-service analytics for business users
+- Real-time business intelligence
+
+### Basic 3-Step Workflow
+1. **Identify audience and metrics** - Who will use it and what do they need to see?
+2. **Design layout** - Prioritize key metrics at the top, supporting details below
+3. **Build and iterate** - Create dashboard, test with users, refine based on feedback
+
+**Time to complete**: 2-3 days for simple dashboard, 1-2 weeks for comprehensive solution
+
+---
+
 ## Template
 
 ```

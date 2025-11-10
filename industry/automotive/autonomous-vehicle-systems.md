@@ -15,6 +15,17 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for developing and deploying autonomous vehicle systems including sensor fusion, AI decision-making, safety protocols, infrastructure integration, regulatory compliance, and smart city mobility solutions.
 
+## Quick Start
+
+**For AV Development Teams:**
+1. **Define Operational Domain** - Use Section 1 to specify your ODD (highway vs. urban vs. mixed) and target autonomy level (L2-L5)
+2. **Configure Sensor Suite** - Section 2 guides sensor selection, typically starting with 6-8 cameras, 1-3 LiDARs, and 5-6 radars
+3. **Build AI Pipeline** - Section 3 helps structure your ML models for object detection, lane detection, and path planning
+4. **Implement Safety Redundancy** - Reference Section 4 to create fail-safe systems with triple redundancy on critical components
+5. **Start Simulation Testing** - Section 7 guides virtual environment setup to log 1M+ scenario miles before road testing
+
+**Quick Win:** Deploy Level 2 ADAS features (adaptive cruise + lane centering) on existing vehicle fleet to gather real-world data and build customer trust.
+
 ## Template
 
 Develop autonomous vehicle system for [VEHICLE_TYPE] operating at [AUTONOMY_LEVEL] automation, covering [OPERATIONAL_DOMAIN] environment, processing [SENSOR_DATA_RATE] GB/hour sensor data, achieving [SAFETY_RATING] safety score, [RELIABILITY_TARGET]% uptime, and [DEPLOYMENT_SCALE] vehicle deployment.

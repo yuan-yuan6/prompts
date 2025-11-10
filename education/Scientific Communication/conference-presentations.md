@@ -18,6 +18,26 @@ last_updated: 2025-11-09
 ## Purpose
 Create compelling academic conference presentations, posters, and talks that effectively communicate research findings, engage audiences, and facilitate scholarly discourse across diverse scientific communities.
 
+## Quick Start
+
+**Get started in 3 minutes:**
+
+1. **Structure Your Talk** - Allocate time: 15-min talk = Intro (3min) + Methods (3min) + Results (6min) + Discussion (3min)
+2. **Design Clear Slides** - Use 44-48pt titles, 28-32pt body text, max 6 bullets per slide, 40-60% white space
+3. **Create Visual Hierarchy** - Primary: main data/findings; Secondary: supporting info; Tertiary: references/notes
+4. **Practice & Prepare** - Rehearse 3x, prepare Q&A responses, test all technology, create PDF backup
+
+**Minimum Viable Presentation:**
+- 10-15 slides for 15-minute talk (title, agenda, 2-3 background, 2 methods, 4-5 results, 1-2 discussion, contact)
+- 1 clear hook opening (surprising stat, question, or visual)
+- 2-3 key findings with visual evidence
+- Publication-quality figures (high contrast, readable from 6 feet)
+- 3-5 anticipated questions prepared
+
+**For Posters:** 48"×36" layout, 800 words max, 1 central figure, 32-36pt body text, 30-second elevator pitch ready
+
+Perfect for: Academic researchers, graduate students, and scientists presenting at conferences, symposiums, or workshops.
+
 ## Template
 
 ```

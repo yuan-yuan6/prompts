@@ -18,6 +18,13 @@ last_updated: 2025-11-09
 ## Purpose
 Define clear, comprehensive job requirements, competencies, and position descriptions that attract qualified candidates and set expectations for role success.
 
+## Quick Start
+1. **Gather Position Details** - Collect basic information: job title, department, reporting structure, and employment type
+2. **Define Core Responsibilities** - List 5-7 primary duties that represent 70-80% of the role
+3. **Specify Requirements** - Identify must-have qualifications (education, experience, skills) vs. nice-to-have attributes
+4. **Set Success Metrics** - Define 3-5 measurable outcomes that indicate strong performance in the role
+5. **Review and Refine** - Validate the job definition with hiring managers and ensure alignment with organizational needs
+
 ## Template
 
 ```

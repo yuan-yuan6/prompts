@@ -17,6 +17,18 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for scientific research project management, laboratory operations, experimental design, data analysis, publication strategy, and research commercialization.
 
+## Quick Start
+
+**To Launch Your Research Program:**
+1. **Map Research Portfolio**: Identify 3-5 active research areas with funding sources and team assignments
+2. **Establish Lab Operations**: Set up equipment inventory, safety protocols, and resource management systems
+3. **Define Success Metrics**: Set publication targets, patent goals, and impact factor objectives
+4. **Secure Funding**: Plan grant applications across federal, state, private, and industry sources
+5. **Build Compliance Framework**: Implement IRB, IACUC, biosafety, and data privacy protocols
+
+**Example Starting Point:**
+Manage research program at [State University] with [25] researchers, [12] active projects, $[2.5M] total funding, targeting [30] publications/year, [3] patents, and [3.5] average impact factor.
+
 ## Template
 
 Manage research program at [INSTITUTION_NAME] with [RESEARCHER_COUNT] researchers, [PROJECT_COUNT] active projects, $[FUNDING_AMOUNT] total funding, targeting [PUBLICATION_TARGET] publications/year, [PATENT_TARGET] patents, and [IMPACT_FACTOR] average impact factor.

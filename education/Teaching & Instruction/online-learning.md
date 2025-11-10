@@ -17,6 +17,30 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive online learning platforms including e-learning design, MOOCs, webinars, virtual classrooms, and digital education systems for diverse educational contexts and learner needs.
 
+## Quick Start
+
+**Need to set up online learning quickly?** Use this minimal example:
+
+### Minimal Example
+```
+Design a 4-week online course for adult learners on digital marketing basics. Platform: Canvas LMS. Include: weekly video lectures (10-15 min), interactive quizzes, discussion forums, one live Q&A session per week, and a final project. Provide downloadable resources and mobile access. Class size: 30 students. Asynchronous with synchronous touchpoints.
+```
+
+### When to Use This
+- Creating online or blended learning courses
+- Designing virtual classroom experiences
+- Building e-learning modules or MOOCs
+- Developing digital training programs
+
+### Basic 3-Step Workflow
+1. **Choose platform and format** - Select LMS and delivery model (sync/async/hybrid)
+2. **Design learning experience** - Create content, activities, and assessments
+3. **Build engagement strategy** - Add interaction, support, and community elements
+
+**Time to complete**: 3-5 days for simple course, 2-4 weeks for comprehensive platform
+
+---
+
 ## Template
 
 ```

@@ -19,6 +19,18 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for building and managing internal developer platforms, self-service infrastructure, golden paths, developer productivity tools, and platform-as-a-product approaches.
 
+## Quick Start
+
+**To Launch Your Platform Engineering Initiative:**
+1. **Assess Current State**: Survey developer pain points and measure current DORA metrics
+2. **Define Golden Paths**: Create 2-3 standardized service templates (microservice, API, frontend)
+3. **Build Self-Service Portal**: Deploy basic infrastructure provisioning for compute, databases, and storage
+4. **Implement CI/CD Platform**: Set up automated build, test, and deployment pipelines
+5. **Establish Observability**: Deploy metrics, logging, and tracing for all platform services
+
+**Example Starting Point:**
+Design platform engineering strategy for [TechCorp] supporting [500] developers across [50] teams, with [200] services, targeting [multiple] deployments/day and [1] hour MTTR.
+
 ## Template
 
 Design platform engineering strategy for [ORGANIZATION_NAME] supporting [DEVELOPER_COUNT] developers across [TEAM_COUNT] teams, with [SERVICE_COUNT] services, targeting [DEPLOYMENT_FREQUENCY] deployments/day and [MTTR_TARGET] hour MTTR.

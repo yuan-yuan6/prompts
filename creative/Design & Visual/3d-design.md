@@ -17,6 +17,18 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive 3D design projects including models, renders, and environments for visualization, animation, gaming, and product development applications.
 
+## Quick Start
+
+To use this template effectively:
+
+1. **Define Project Scope** - Specify project type (modeling, rendering, animation, environment), target application, and technical requirements
+2. **Establish Visual Direction** - Set art direction, visual style (realistic/stylized), color palette, and lighting approach
+3. **Choose Tools** - Select your software platform (Blender, Maya, 3ds Max) and render engine (Cycles, Arnold, V-Ray)
+4. **Set Technical Specs** - Define resolution, polygon budget, texture resolution, and file format requirements
+5. **Plan Your Workflow** - Break down into modeling, texturing, lighting, and rendering phases with clear milestones
+
+**Pro Tip**: Start with style frames or concept art to align on visual direction before investing time in detailed 3D modeling and rendering.
+
 ## Template
 
 ```

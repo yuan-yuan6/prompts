@@ -19,6 +19,18 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for mobile app development including iOS/Android native development, cross-platform strategies, UI/UX design, performance optimization, and app store deployment.
 
+## Quick Start
+
+**To Start Your Mobile App Project:**
+1. **Choose Platform Strategy**: Decide between native (iOS/Android), cross-platform (React Native/Flutter), or hybrid
+2. **Define Core Features**: List 5-10 essential features for MVP launch
+3. **Design Architecture**: Plan frontend framework, backend services, database, and authentication
+4. **Set Performance Targets**: Define launch time, memory usage, and crash rate goals
+5. **Plan App Store Optimization**: Prepare keywords, screenshots, descriptions, and ASO strategy
+
+**Example Starting Point:**
+Develop mobile application [FitTrack] for [iOS & Android] serving [10,000] users, with [8] core features, [2s launch] performance metrics, targeting [Q2 2025] launch and [freemium] monetization.
+
 ## Template
 
 Develop mobile application [APP_NAME] for [PLATFORM_TARGETS] serving [USER_COUNT] users, with [FEATURE_COUNT] core features, [PERFORMANCE_TARGET] performance metrics, targeting [LAUNCH_DATE] launch and [REVENUE_MODEL] monetization.

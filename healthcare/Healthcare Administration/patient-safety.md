@@ -18,6 +18,23 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive patient safety initiatives, error prevention systems, safety culture assessments, and incident response protocols that minimize patient harm and promote a culture of safety throughout healthcare organizations.
 
+## Quick Start
+
+### For Patient Safety Officers
+Begin with an AHRQ Hospital Survey on Patient Safety Culture to establish your baseline. Identify your organization's top 3 harm events (e.g., falls, medication errors, HAIs), then implement evidence-based prevention bundles with 100% compliance targets and weekly monitoring.
+
+### For Clinical Unit Managers
+Implement daily safety huddles (10-15 minutes) to discuss near-misses, safety concerns, and high-risk patients. Establish psychological safety by responding to all reports non-punitively, focus on system fixes rather than individual blame, and celebrate proactive safety reporting.
+
+### For Risk Managers
+Create a tiered response system for safety events (immediate/24-hour/72-hour actions based on severity). Streamline your incident reporting system to make it easy and non-punitive, conduct rapid RCAs for serious events, and track action plan completion rates rigorously.
+
+### Healthcare-Specific Tips
+- **Build just culture foundation**: Train all leaders on distinguishing human error, at-risk behavior, and reckless behavior before implementing accountability systems
+- **Focus on high-reliability**: Adopt HRO principles starting with preoccupation with failure—encourage near-miss reporting and treat them as learning opportunities
+- **Use technology wisely**: Implement forcing functions (barcoding, smart pumps) but optimize alerts to prevent alarm fatigue and dangerous workarounds
+- **Measure leading indicators**: Track proactive metrics (safety rounds completed, near-miss reports, bundle compliance) not just lagging outcomes (harm events)
+
 ## Template
 
 ```

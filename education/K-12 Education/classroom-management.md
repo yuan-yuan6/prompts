@@ -18,6 +18,25 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for K-12 classroom management, instructional planning, student engagement, differentiated learning, behavioral interventions, and academic achievement optimization.
 
+## Quick Start
+
+**Get started in 3 minutes:**
+
+1. **Assess Your Classroom** - Identify student categories (advanced, on-level, below-level, special needs, ELL) and support needs
+2. **Setup Physical Environment** - Arrange seating (flexible configuration), create learning centers, establish classroom zones
+3. **Build Behavior System** - Define 3-5 clear expectations, positive reinforcements, tiered consequences, daily routines
+4. **Plan Differentiation** - Create 3 levels of instruction for each lesson (on-grade, below, advanced) with varied materials
+
+**Minimum Viable Classroom Management System:**
+- 1 seating arrangement that supports instruction goals
+- 3-5 clear behavioral expectations posted visibly
+- 1 morning routine and 1 transition procedure
+- 1 positive reinforcement system (praise, points, or rewards)
+- 3 differentiated lesson plans (varied by readiness/learning style)
+- 1 parent communication method (weekly updates minimum)
+
+Perfect for: K-12 teachers, instructional coaches, new educators, and administrators developing effective classroom environments.
+
 ## Template
 
 Design classroom management strategy for [TEACHER_NAME] teaching [GRADE_LEVEL] with [STUDENT_COUNT] students, [SUBJECT_AREAS], targeting [ACHIEVEMENT_GOALS] with [SPECIAL_NEEDS_COUNT] IEP/504 students.

@@ -17,6 +17,25 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for museum operations, exhibition planning, collection management, visitor engagement, cultural preservation, educational programming, and institutional sustainability.
 
+## Quick Start
+
+**For a 30-Minute Setup:**
+1. Define your institution basics: name, collection size (e.g., 5,000 artifacts), annual visitors (e.g., 50,000)
+2. Set 2-3 major exhibition plans with opening dates, budgets, and expected attendance
+3. Outline visitor segments (general public, students, members) with satisfaction and return rate targets
+4. Identify 3-5 educational programs (school tours, workshops, lectures) with participant numbers
+5. List primary revenue sources (grants, donations, memberships, admissions) with current and target amounts
+
+**For Quick Results:**
+Start with Section 1 (Collection Management) to catalog your holdings, then move to Section 3 (Visitor Experience) to define audience segments. This gives you the foundation for exhibition planning and educational programming.
+
+**Common Use Cases:**
+- Starting a new cultural institution or museum from scratch
+- Restructuring existing museum operations for better efficiency
+- Planning major exhibitions and cultural programming
+- Developing comprehensive fundraising and sustainability strategies
+- Creating digital transformation roadmaps for cultural institutions
+
 ## Template
 
 Manage cultural institution [INSTITUTION_NAME] with [COLLECTION_SIZE] artifacts, [ANNUAL_VISITORS] visitors/year, [EXHIBITION_COUNT] annual exhibitions, $[OPERATING_BUDGET] budget, targeting [ENGAGEMENT_GOAL]% engagement and [SUSTAINABILITY_TARGET] sustainability rating.

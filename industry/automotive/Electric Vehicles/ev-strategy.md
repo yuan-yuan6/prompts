@@ -17,6 +17,42 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for electric vehicle adoption, charging infrastructure development, fleet electrification, battery management, and sustainable mobility transformation across automotive and transportation sectors.
 
+## Quick Start
+
+### For Fleet Operators & Mobility Managers
+Start with an EV transition pilot program:
+1. Set `[ORGANIZATION_NAME]` to your company
+2. Define `[FLEET_SIZE]` = total current vehicle count
+3. Target `[EV_ADOPTION]` = 10-20% for Year 1 pilot
+4. Set `[TARGET_YEAR]` = 2026 for initial phase completion
+5. Plan `[CHARGING_POINTS]` = 2-3 chargers per EV initially
+6. Budget `[INVESTMENT_BUDGET]` = $150-200K per vehicle + infrastructure
+7. Target `[CARBON_REDUCTION]` = 30-40% for EV portion
+
+### Example Starting Configuration
+```
+Organization: Corporate Services Fleet
+Fleet Size: 200 vehicles
+EV Adoption Target: 20% (40 vehicles) by 2026
+Target Year: 2026
+Charging Points: 80 Level 2 + 10 DC fast chargers
+Investment: $6M over 2 years
+Carbon Reduction: 35% for electrified segment
+Vehicle Types: Start with light-duty pool vehicles
+Daily Range Needed: 80-120 miles
+```
+
+### Key First Steps
+- Analyze daily route patterns and mileage for all vehicles
+- Identify 20-30 best EV candidates (predictable routes, <150 mi/day)
+- Assess parking/depot locations for charging infrastructure
+- Calculate current TCO for candidate vehicles (fuel, maintenance, etc.)
+- Run TCO comparison: ICE vs BEV over 5 years
+- Evaluate electrical capacity at charging locations
+- Research available incentives: federal tax credits, state rebates, utility programs
+- Select 3-5 EV models for pilot evaluation
+- Engage with 2-3 charging network providers for quotes
+
 ## Template
 
 Develop EV strategy for [ORGANIZATION_NAME] managing [FLEET_SIZE] vehicles, targeting [EV_ADOPTION]% electrification by [TARGET_YEAR], with [CHARGING_POINTS] charging stations, $[INVESTMENT_BUDGET] investment, and [CARBON_REDUCTION]% emissions reduction.

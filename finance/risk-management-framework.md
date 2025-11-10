@@ -14,6 +14,69 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive risk management strategies covering credit risk, market risk, operational risk, regulatory compliance, stress testing, and BASEL framework implementation to ensure financial stability, regulatory adherence, and strategic risk optimization while protecting stakeholder interests and maximizing risk-adjusted returns.
 
+## Quick Start
+
+Get started quickly with these common risk management scenarios:
+
+### Example 1: Community Bank Credit Risk Framework
+```
+Institution Context:
+- Financial Institution Name: First Community Bank
+- Institution Type: Commercial bank with retail and small business focus
+- Asset Size: $2.5B total assets
+- Geographic Scope: Three-state regional presence (domestic)
+- Business Lines: Commercial lending (45%), residential mortgages (30%), consumer loans (25%)
+- Customer Segments: Small businesses, individual consumers, local municipalities
+- Regulatory Jurisdiction: FDIC, Federal Reserve, state banking department
+- Risk Culture Maturity: Intermediate - building from compliance-based to risk-aware culture
+
+Risk Framework Focus:
+- Primary Risk Categories: Credit risk concentration in commercial real estate, interest rate risk
+- Credit Risk Appetite: Conservative - max 5% of capital to any single borrower, CRE <300% of capital
+- Risk Tolerance: Non-performing loans <1%, charge-offs <0.5% annually, Tier 1 capital >10%
+- Key Metrics: Credit loss rate 0.35%, criticized assets ratio 8%, reserve coverage 1.25%
+- Stress Testing: Recession scenario with 15% CRE value decline, unemployment at 9%
+```
+
+### Example 2: Regional Bank Market Risk & ALM Program
+```
+Institution Context:
+- Financial Institution Name: Midwest Regional Bank
+- Institution Type: Regional bank with $15B assets
+- Business Lines: Commercial banking (50%), mortgage banking (30%), wealth management (20%)
+- Risk Culture Maturity: Advanced - integrated enterprise risk management
+
+Market Risk Framework:
+- Interest Rate Risk: Asset-liability duration gap of -6 months
+- Risk Appetite: Net interest income volatility <15% in 200bp parallel rate shock
+- VaR Limit: Trading book VaR <0.5% of Tier 1 capital (99% confidence, 1-day holding)
+- Liquidity Requirements: LCR maintained at >110%, NSFR >105%
+- Stress Scenario: +300bp instantaneous parallel rate shock = -8% economic value of equity
+- Key Metrics: NIM 3.2%, loan-to-deposit ratio 85%, securities portfolio duration 4.2 years
+- Hedging Strategy: $2B interest rate swaps to reduce asset sensitivity
+```
+
+### Example 3: Investment Firm Operational Risk & Compliance
+```
+Institution Context:
+- Financial Institution Name: Capital Markets Advisors
+- Institution Type: SEC-registered investment advisor with broker-dealer
+- Asset Size: $8B AUM across institutional and high-net-worth clients
+- Regulatory Jurisdiction: SEC, FINRA, state securities regulators
+- Risk Culture Maturity: Advanced - strong compliance culture with active risk management
+
+Operational Risk Framework:
+- Primary Risk Categories: Trading errors, cybersecurity, advisor conduct, business continuity
+- Technology Risk: Cloud-based portfolio management with SOC 2 Type II certification
+- Cybersecurity: Multi-factor authentication, encryption at rest/transit, annual penetration testing
+- Fraud Prevention: Segregation of duties, dual approval for transfers >$100K, biometric access controls
+- Key Risk Indicators: Trading breaks <0.1%, client complaints <5 per 1000 accounts, system uptime >99.9%
+- Operational Risk Capital: $15M allocated based on AMA approach
+- Business Continuity: RTO of 4 hours for critical systems, RPO of 1 hour, tested quarterly
+- Compliance Testing: 100% transaction surveillance, annual compliance audit, quarterly spot checks
+- Regulatory Reporting: Form ADV, Form PF, 13F filings, FOCUS reports for BD
+```
+
 ## Template
 
 ```

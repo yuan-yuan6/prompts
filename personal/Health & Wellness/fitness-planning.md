@@ -15,6 +15,31 @@ last_updated: 2025-11-09
 ## Purpose
 Develop comprehensive fitness plans including workout programs, exercise routines, and health tracking systems to achieve physical fitness goals and maintain long-term wellness.
 
+## Quick Start
+
+Launch your fitness journey in 3 steps:
+
+1. **Assess Your Starting Point** - Honestly evaluate:
+   - Current fitness level (beginner, intermediate, advanced)
+   - Available time for exercise (realistic weekly commitment)
+   - Physical limitations or injuries
+   - Access to equipment (gym, home equipment, bodyweight only)
+
+2. **Set Core Variables** - Define these key elements:
+   - `FITNESS_PLAN_TYPE`: Your focus (e.g., "Weight loss program", "Strength building")
+   - `FITNESS_LEVEL`: Current experience level
+   - `FITNESS_GOALS`: 1-2 specific, measurable goals (e.g., "Lose 15 pounds", "Run 5K")
+   - `EXERCISE_APPROACH`: Your preferred method (e.g., "Gym workouts", "Home bodyweight")
+   - `PLAN_DURATION`: Realistic timeframe (recommend 8-12 weeks for first phase)
+
+3. **Start with Consistency Over Intensity** - Week 1 action plan:
+   - Schedule 3 workout days at specific times
+   - Start with 30-minute sessions
+   - Focus on proper form over heavy weights or speed
+   - Track completion (not perfection)
+
+**Pro Tip**: The best workout program is one you'll actually do. Start with 3 days per week for 30 minutes. Build the habit first, then increase intensity and duration.
+
 ## Template
 
 ```
