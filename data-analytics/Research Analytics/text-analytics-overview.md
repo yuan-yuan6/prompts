@@ -19,6 +19,47 @@ last_updated: 2025-11-10
 ## Purpose
 This overview provides a comprehensive guide to the text analytics and NLP template suite. Navigate to specialized sub-templates based on your analysis objectives, understand recommended workflows, and select the right combination of techniques for your text data.
 
+## Quick Start
+
+**Want to analyze text data quickly?** Here's how to choose the right template:
+
+### When to Use This Overview
+- Starting a new text analytics project and need to choose the right approach
+- Unsure which NLP techniques apply to your data
+- Want to understand the recommended workflow for your use case
+- Need guidance on combining multiple templates
+
+### Quick Template Selection
+```
+Your Goal → Recommended Templates:
+
+1. Clean messy text (social media, reviews, web data)
+   → text-analytics-preprocessing.md (15-30 min)
+
+2. Understand customer sentiment and opinions
+   → text-analytics-preprocessing.md + text-analytics-sentiment-analysis.md (1-2 hours)
+
+3. Discover themes in documents (100+ documents)
+   → text-analytics-preprocessing.md + text-analytics-topic-modeling.md (2-4 hours)
+
+4. Extract people, companies, locations from text
+   → text-analytics-preprocessing.md + text-analytics-entity-recognition.md (1-2 hours)
+
+5. Full analysis: sentiment + topics + entities + clustering
+   → Use all 5 templates in sequence (1-2 days for complete analysis)
+```
+
+### Basic 3-Step Workflow
+1. **Identify your goal** - Use the Decision Tree (line 166) to find which template(s) you need
+2. **Start with preprocessing** - Always begin with text-analytics-preprocessing.md to clean your data
+3. **Add analysis layers** - Combine sentiment, topics, or entities based on your objectives
+
+**Time to complete**: 5 minutes to select templates, then follow individual template Quick Starts
+
+**Pro tip**: Start simple with one analysis type (sentiment OR topics), validate results, then add complexity. Most projects need preprocessing + one primary analysis.
+
+---
+
 ## Introduction to Text Analytics
 
 Natural Language Processing (NLP) and text analytics enable computers to understand, interpret, and derive insights from human language. This suite of templates provides state-of-the-art tools for:

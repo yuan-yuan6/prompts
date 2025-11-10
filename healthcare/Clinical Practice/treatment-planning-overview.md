@@ -19,6 +19,45 @@ last_updated: 2025-11-09
 ## Purpose
 Navigate to the appropriate treatment planning template based on clinical context, patient needs, and care setting. Each specialized template provides focused, actionable guidance for specific treatment scenarios.
 
+## Quick Start
+
+**Want to create a clinical treatment plan?** Here's how to choose the right template:
+
+### When to Use This Overview
+- Developing patient-specific treatment plans
+- Determining which clinical approach to use
+- Creating care plans for new diagnoses
+- Transitioning patients between care settings
+- Unsure which treatment template fits your scenario
+
+### Quick Template Selection
+```
+Your Clinical Scenario → Recommended Template:
+
+1. Emergency or urgent care (0-24 hours)
+   → acute-care-treatment-plan.md (ABCs, rapid stabilization, 15-30 min)
+
+2. Long-term condition management (diabetes, COPD, hypertension)
+   → chronic-disease-management-plan.md (Ongoing care, lifestyle, monitoring, 30-45 min)
+
+3. Planning surgical procedures
+   → surgical-treatment-plan.md (Pre-op, intra-op, post-op care, 30-60 min)
+
+4. Mental health and psychiatric care
+   → mental-health-treatment-plan.md (Therapy, medications, support, 45-60 min)
+```
+
+### Basic 3-Step Workflow
+1. **Identify care type** - Determine if acute, chronic, surgical, or mental health treatment needed
+2. **Select template** - Choose the specialized template that matches your clinical context
+3. **Customize for patient** - Adapt the template to patient-specific factors and preferences
+
+**Time to complete**: 15-60 minutes depending on complexity
+
+**Pro tip**: For patients with multiple conditions, start with the primary/acute issue template, then incorporate chronic disease management strategies as needed.
+
+---
+
 ## Available Treatment Planning Templates
 
 ### 1. Acute Care Treatment Plan

@@ -19,6 +19,45 @@ last_updated: 2025-11-09
 ## Purpose
 Navigate the comprehensive policy research framework by understanding each phase, selecting the appropriate prompt for your current needs, and following a systematic approach to evidence-based policy development.
 
+## Quick Start
+
+**Want to develop evidence-based policy?** Here's how to navigate the framework:
+
+### When to Use This Overview
+- Starting a new policy development project
+- Need systematic approach to policy research
+- Evaluating policy alternatives
+- Planning policy implementation
+- Unsure which phase you're in
+
+### Quick Module Selection
+```
+Your Policy Development Stage → Recommended Module:
+
+1. Research the problem and gather evidence
+   → policy-research-analysis.md (Literature review, data analysis, case studies, 1-2 weeks)
+
+2. Assess potential impacts of policy options
+   → policy-impact-assessment.md (Economic, social, environmental impacts, 3-5 days)
+
+3. Develop and evaluate policy alternatives
+   → policy-options-development.md (Design options, compare trade-offs, 1-2 weeks)
+
+4. Plan how to implement chosen policy
+   → policy-implementation-planning.md (Roadmap, resources, stakeholders, 1 week)
+```
+
+### Basic 3-Step Workflow
+1. **Research & analyze** - Use policy-research-analysis.md to build evidence base
+2. **Assess impacts** - Use policy-impact-assessment.md to understand consequences
+3. **Develop options** - Use policy-options-development.md to create alternatives and recommend best path
+
+**Time to complete**: 3-6 weeks for complete policy development process
+
+**Pro tip**: Always start with research & analysis phase. Don't skip impact assessment - unintended consequences often emerge there.
+
+---
+
 ## Policy Research Framework
 
 The policy research process is divided into four integrated phases, each with a dedicated prompt:
