@@ -18,6 +18,18 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for managing organizational change initiatives, facilitating adoption strategies, and effectively addressing resistance while ensuring successful transformation and sustained behavioral change across the organization.
 
+## Quick Start
+
+Launch your change initiative with these essential steps:
+
+1. **Assess Change Readiness** - Survey key stakeholders to understand current sentiment, identify potential resistance sources, and gauge organizational capacity for change. Document baseline metrics for employee engagement, process efficiency, and performance indicators you'll track.
+
+2. **Develop Core Messages** - Create 3-5 key messages that answer: Why this change? Why now? What's in it for me? How will we support you? Practice these messages with your leadership team to ensure consistency across all communications.
+
+3. **Identify Change Champions** - Select 5-10 respected employees across different departments and levels who can advocate for the change. Provide them with detailed information, address their concerns first, and equip them with FAQs and talking points.
+
+**Pro Tip**: Create a simple communication calendar with weekly touchpoints for the first month. Include: leadership announcement → team meetings → one-on-one check-ins → progress updates. Repeat key messages 7-10 times through different channels.
+
 ## Template
 
 ```markdown

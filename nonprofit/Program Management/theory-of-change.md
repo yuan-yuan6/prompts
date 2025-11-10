@@ -18,6 +18,17 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for developing theory of change models including logic models, outcome mapping, impact pathways, stakeholder analysis, and evaluation frameworks for social impact programs.
 
+## Quick Start
+
+**Getting Started in 3 Steps:**
+1. Analyze the problem by mapping current state, root causes, contributing factors, stakeholder impacts, and evidence base for your social issue
+2. Design your results chain from long-term impact (10+ years) through medium-term outcomes (3-5 years) and short-term outcomes (1-2 years) to immediate outputs
+3. Build intervention logic by defining activities at each level (direct service, capacity building, systems change, advocacy, research, partnerships) with clear success factors
+
+**Best For:** Program designers developing new social interventions, nonprofit leaders articulating program logic, grant writers demonstrating impact pathways, and evaluators establishing measurement frameworks.
+
+**Time to Deploy:** 4-8 hours for comprehensive theory of change development; iterative refinement through stakeholder engagement and testing phases.
+
 ## Template
 
 Develop theory of change for [PROGRAM_NAME] addressing [SOCIAL_ISSUE] targeting [BENEFICIARY_COUNT] beneficiaries, with [BUDGET_SIZE] budget, [TIMELINE] implementation period, achieving [IMPACT_GOAL] social impact and [OUTCOME_TARGETS] measurable outcomes.

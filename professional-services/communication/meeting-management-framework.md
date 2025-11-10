@@ -14,6 +14,18 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive meeting management strategies covering agenda planning, facilitation techniques, note-taking systems, action item tracking, follow-up processes, and asynchronous collaboration to maximize meeting effectiveness, productivity, and organizational communication while minimizing time waste and maximizing value creation.
 
+## Quick Start
+
+Get started with meeting management in 3 simple steps:
+
+1. **Define Your Meeting Purpose** - Start by identifying whether your meeting is strategic (planning, vision), operational (status updates, coordination), or project-based (deliverables, milestones). Set clear objectives and success criteria before sending invitations.
+
+2. **Select Key Participants** - Identify essential decision-makers and subject matter experts. Keep the participant list lean - only include people who need to contribute or make decisions. Share an agenda 24 hours in advance with time allocations for each topic.
+
+3. **Implement Action Tracking** - Use the meeting minutes template to capture decisions and assign action items with clear owners and deadlines. Send a summary within 24 hours and schedule a 5-minute follow-up at the next meeting to review progress.
+
+**Pro Tip**: Start with weekly team standups using a simple agenda: (1) Progress since last meeting, (2) Priorities for this week, (3) Blockers/help needed. Limit to 30 minutes maximum.
+
 ## Template
 
 ```

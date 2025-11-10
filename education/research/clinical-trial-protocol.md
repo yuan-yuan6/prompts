@@ -18,6 +18,18 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for designing and implementing clinical trials including protocol development, patient recruitment, regulatory compliance, data management, safety monitoring, and statistical analysis for medical research advancement.
 
+## Quick Start
+
+**For Your First Clinical Trial:**
+1. **Define Study Basics**: Identify intervention type, patient population, and primary endpoint
+2. **Set Sample Size**: Determine statistical power needs and calculate required participant count
+3. **Design Study Structure**: Choose randomization method, blinding level, and control group strategy
+4. **Plan Patient Recruitment**: Establish inclusion/exclusion criteria and recruitment timeline
+5. **Ensure Compliance**: Map FDA/IRB requirements and prepare regulatory documentation
+
+**Example Starting Point:**
+Design clinical trial for [Phase II cancer drug study] investigating [targeted immunotherapy] in [metastatic melanoma patients] with [120] participants, [24-month] duration, [progression-free survival] primary endpoint, achieving [80]% statistical power and [0.05] significance level.
+
 ## Template
 
 Design clinical trial for [STUDY_NAME] investigating [INTERVENTION_TYPE] in [PATIENT_POPULATION] with [SAMPLE_SIZE] participants, [STUDY_DURATION] duration, [PRIMARY_ENDPOINT] primary endpoint, achieving [POWER_LEVEL]% statistical power and [SIGNIFICANCE_LEVEL] significance level.

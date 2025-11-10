@@ -15,6 +15,18 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for developing educational curricula including learning objectives, instructional design, assessment strategies, technology integration, accessibility considerations, and continuous improvement for maximizing learning outcomes and student success.
 
+## Quick Start
+
+**To Design Your First Curriculum:**
+1. **Define Learning Outcomes**: Identify 5-8 key competencies students will master
+2. **Map Course Structure**: Break program into foundation, core, specialization, and capstone modules
+3. **Choose Delivery Mode**: Select traditional, online, hybrid, or blended learning approach
+4. **Design Assessments**: Create formative, summative, and authentic assessment strategies
+5. **Plan Support Services**: Integrate advising, tutoring, accessibility, and career services
+
+**Example Starting Point:**
+Design curriculum for [Data Science Bootcamp] serving [100] learners, [12-week] duration, [hybrid] delivery, achieving [85]% completion, [8.5]/10 satisfaction, [15] competencies, and [90]% job placement.
+
 ## Template
 
 Design curriculum for [PROGRAM_NAME] serving [STUDENT_COUNT] learners, [PROGRAM_DURATION] duration, [DELIVERY_MODE] delivery, achieving [COMPLETION_RATE]% completion, [SATISFACTION_SCORE]/10 satisfaction, [LEARNING_OUTCOMES] competencies, and [EMPLOYMENT_RATE]% job placement.

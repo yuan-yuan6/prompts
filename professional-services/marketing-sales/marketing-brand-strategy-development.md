@@ -15,6 +15,16 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for developing and implementing brand strategies including brand positioning, identity design, messaging architecture, customer experience, competitive differentiation, and brand governance for building powerful market presence.
 
+## Quick Start
+
+Launch or transform your brand with strategic precision in three essential phases:
+
+1. **Assess Current Position** - Evaluate your brand awareness, perception, market position, customer loyalty, brand equity, and digital presence against competitors to identify gaps and opportunities
+2. **Define Brand Strategy** - Establish core elements including brand purpose, positioning statement, value proposition, messaging architecture, visual identity system, and competitive differentiation
+3. **Generate Complete Framework** - Create comprehensive brand strategy covering discovery & assessment, positioning & architecture, identity & visual system, messaging & voice, customer experience, digital strategy, competitive differentiation, activation campaigns, governance, and performance measurement
+
+Applicable to consumer brands, B2B brands, corporate brands, and product brands across technology, consumer goods, financial services, healthcare, and retail. Output includes brand guidelines, visual systems, messaging playbooks, campaign plans, and ROI measurement frameworks.
+
 ## Template
 
 Develop brand strategy for [BRAND_NAME] targeting [MARKET_SIZE] market, achieving [BRAND_AWARENESS]% awareness, [MARKET_SHARE]% share, [BRAND_VALUE] valuation, [NPS_SCORE] Net Promoter Score, and [REVENUE_IMPACT] revenue growth.

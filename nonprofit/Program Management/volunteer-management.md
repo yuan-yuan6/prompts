@@ -18,6 +18,17 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for recruiting, training, managing, and retaining volunteers across nonprofit organizations, including coordination, recognition, and impact measurement of volunteer programs.
 
+## Quick Start
+
+**Getting Started in 3 Steps:**
+1. Segment your volunteer base by defining roles, hours, retention rates, and responsibilities across categories (board, skilled, regular, event, student, corporate)
+2. Build your recruitment and onboarding pipeline using targeted channels, background checks, training modules, and first-month integration processes
+3. Implement retention strategies through performance management, recognition programs, engagement activities, and impact measurement
+
+**Best For:** Volunteer coordinators building sustainable programs, nonprofit managers scaling volunteer engagement, organizations measuring volunteer impact, and programs seeking to improve retention and satisfaction.
+
+**Time to Deploy:** 2-4 hours for framework setup; 3-6 months for full program implementation and volunteer culture development.
+
 ## Template
 
 Design volunteer management system for [ORGANIZATION_NAME] engaging [VOLUNTEER_COUNT] volunteers contributing [TOTAL_HOURS] hours annually across [PROGRAM_COUNT] programs with volunteer value of $[VOLUNTEER_VALUE].

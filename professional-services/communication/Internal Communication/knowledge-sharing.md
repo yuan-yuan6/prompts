@@ -18,6 +18,18 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for facilitating organizational learning, distributing best practices, capturing lessons learned, sharing expertise effectively, and building institutional knowledge that drives continuous improvement and innovation.
 
+## Quick Start
+
+Create a knowledge sharing culture in 3 practical steps:
+
+1. **Identify Your Experts** - Map out who knows what in your organization. Create a simple expert directory with names, areas of expertise, and contact information. Make it searchable and accessible (shared spreadsheet, intranet page, or collaboration tool profile). Update quarterly and encourage self-nomination.
+
+2. **Launch "Lunch & Learn" Sessions** - Schedule monthly 30-45 minute sessions where team members share expertise, project learnings, or industry insights. Keep it informal and interactive. Record sessions for those who can't attend live. Create a simple template: Topic overview (5 min) → Key learnings (15 min) → Q&A (15 min) → Resources/next steps (5 min).
+
+3. **Implement After-Action Reviews** - After completing any project or major milestone, hold a 30-minute retrospective with the team. Ask four questions: What was supposed to happen? What actually happened? Why were there differences? What can we learn? Document insights in a shared location and share with relevant teams.
+
+**Pro Tip**: Start small with one knowledge sharing mechanism rather than trying to implement everything at once. A successful lunch & learn series will naturally lead to requests for documentation, expert directories, and communities of practice. Build momentum with quick wins.
+
 ## Template
 
 ```markdown

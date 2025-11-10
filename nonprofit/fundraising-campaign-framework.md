@@ -15,6 +15,17 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for planning and executing nonprofit fundraising campaigns including donor cultivation, campaign strategy, multi-channel outreach, stewardship programs, and impact measurement for sustainable philanthropic support.
 
+## Quick Start
+
+**Getting Started in 3 Steps:**
+1. Plan your campaign by setting fundraising goal, donor count, timeline, participation rate, retention rate, average gift size, and ROI targets
+2. Segment donors and develop cultivation strategies for major gifts, annual giving, events, corporate partnerships, grants, and digital giving channels
+3. Build stewardship systems including recognition levels, communication calendars, engagement activities, and retention programs to maximize lifetime value
+
+**Best For:** Development directors planning comprehensive campaigns, fundraising teams executing multi-channel strategies, nonprofit leaders building sustainable revenue, and organizations seeking to improve donor retention and expansion.
+
+**Time to Deploy:** 4-6 hours for campaign framework design; 6-12 month implementation cycle with ongoing donor relationship management.
+
 ## Template
 
 Launch fundraising campaign [CAMPAIGN_NAME] targeting $[FUNDRAISING_GOAL] from [DONOR_COUNT] donors over [CAMPAIGN_DURATION] timeline, achieving [PARTICIPATION_RATE]% participation, [RETENTION_RATE]% donor retention, [AVERAGE_GIFT] average gift size, [ROI_TARGET] ROI, supporting [BENEFICIARY_COUNT] beneficiaries with [IMPACT_METRICS] measurable impact.

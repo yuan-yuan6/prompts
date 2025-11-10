@@ -18,6 +18,17 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive system for researching, writing, and managing grant proposals for nonprofit organizations, including federal, state, foundation, and corporate grant applications.
 
+## Quick Start
+
+**Getting Started in 3 Steps:**
+1. Assess grant opportunity fit by evaluating funder alignment with your mission, geographic focus, program area, funding range, and eligibility requirements
+2. Develop your need statement using problem analysis, evidence base, affected population data, and root cause identification
+3. Build your proposal structure with program design, theory of change, budget development, evaluation plan, and sustainability strategy
+
+**Best For:** Grant writers developing foundation, corporate, or government proposals; nonprofit development staff building grant pipelines; organizations seeking institutional funding for programs and operations.
+
+**Time to Deploy:** 4-8 hours for full proposal framework; individual proposals typically require 20-40 hours depending on complexity and funder requirements.
+
 ## Template
 
 Develop grant proposal for [ORGANIZATION_NAME] seeking $[REQUEST_AMOUNT] from [FUNDER_NAME] for [PROJECT_NAME] serving [TARGET_POPULATION] in [GEOGRAPHIC_AREA] over [PROJECT_DURATION].

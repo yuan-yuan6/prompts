@@ -18,6 +18,18 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive generative AI implementation strategies covering large language models, diffusion models, prompting techniques, fine-tuning approaches, retrieval-augmented generation, AI agents, and ethical considerations to enable responsible and effective artificial intelligence deployment across enterprise applications and workflows.
 
+## Quick Start
+
+**To Launch Your First Generative AI Project:**
+1. **Identify Use Case**: Select high-impact application (content generation, customer service, code assistance)
+2. **Choose Foundation Model**: Evaluate GPT-4, Claude, Gemini, or Llama based on requirements and cost
+3. **Design Prompt Framework**: Create templates for zero-shot, few-shot, or chain-of-thought prompting
+4. **Implement Safety Controls**: Add content filtering, bias detection, and human-in-the-loop validation
+5. **Deploy and Monitor**: Set up API integration, track quality metrics, and gather user feedback
+
+**Example Starting Point:**
+Create generative AI implementation for [Customer Support Automation] using [GPT-4 + RAG] targeting [24/7 support] with [<3s response time] while ensuring [PII protection, content filtering] to achieve [90% query resolution, 4.5/5 CSAT].
+
 ## Template
 
 ```

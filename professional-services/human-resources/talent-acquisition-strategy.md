@@ -15,6 +15,16 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for developing and executing talent acquisition strategies including workforce planning, employer branding, sourcing strategies, candidate experience optimization, and recruitment analytics for building high-performing teams.
 
+## Quick Start
+
+Build a high-performance recruiting engine in three strategic steps:
+
+1. **Define Hiring Goals** - Specify annual hiring volume, target time-to-fill, quality of hire scores, offer acceptance rates, diversity targets, and cost efficiency objectives for your organization
+2. **Plan Workforce Strategy** - Configure employer brand positioning, sourcing channel mix (direct sourcing, referrals, job boards, campus, agencies), candidate experience journey, and assessment methods
+3. **Generate Acquisition Framework** - Create comprehensive talent strategy covering workforce planning, employer branding, sourcing strategies, candidate experience optimization, selection methods, DEI recruiting, technology stack, recruiter enablement, metrics/analytics, and onboarding integration
+
+Scales from startups hiring 10 employees to enterprises with thousands of annual hires, across technical, sales, operations, and executive roles. Output includes sourcing playbooks, interview guides, offer templates, and analytics dashboards for tracking recruiting performance and ROI.
+
 ## Template
 
 Implement talent acquisition strategy for [ORGANIZATION_NAME] hiring [ANNUAL_HIRES] positions annually, [TIME_TO_FILL] average days to fill, [QUALITY_OF_HIRE] quality score, achieving [OFFER_ACCEPTANCE]% offer acceptance, [DIVERSITY_TARGET]% diversity hiring, and [COST_PER_HIRE] cost efficiency.

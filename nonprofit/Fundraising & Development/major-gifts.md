@@ -18,6 +18,17 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for developing and managing major gift programs including donor identification, cultivation strategies, solicitation planning, stewardship programs, and moves management systems for nonprofit organizations.
 
+## Quick Start
+
+**Getting Started in 3 Steps:**
+1. Set up your major gifts program by defining donor count, gift threshold, campaign goal, and timeline parameters
+2. Build your prospect pipeline using the donor segmentation framework (current major donors, upgrade prospects, lapsed donors, new prospects)
+3. Implement moves management by mapping each prospect through identification, qualification, cultivation, solicitation, and stewardship stages
+
+**Best For:** Nonprofits building or scaling major gifts programs, development directors planning donor cultivation strategies, and organizations seeking to increase philanthropic revenue from high-net-worth individuals.
+
+**Time to Deploy:** 3-5 hours for comprehensive program design; 6-12 months for full implementation and donor relationship development.
+
 ## Template
 
 Develop major gifts program for [ORGANIZATION_NAME] targeting [DONOR_COUNT] major donors, with [GIFT_THRESHOLD] minimum gift level, [CAMPAIGN_GOAL] fundraising goal, [TIMELINE] campaign timeline, achieving [ROI_TARGET] ROI and [RETENTION_TARGET]% donor retention.

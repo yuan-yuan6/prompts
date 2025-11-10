@@ -17,6 +17,18 @@ last_updated: 2025-11-09
 ## Purpose
 Design comprehensive generative AI systems, large language model implementations, prompt engineering frameworks, and AI-powered applications that leverage cutting-edge AI capabilities while ensuring safety, ethics, and business value creation.
 
+## Quick Start
+
+**To Design Your AI System:**
+1. **Define AI Use Case**: Specify the business problem and expected AI capabilities needed
+2. **Select Model Architecture**: Compare GPT-4, Claude, PaLM, LLaMA based on performance and cost
+3. **Engineer Prompts**: Build templates using zero-shot, few-shot, or chain-of-thought techniques
+4. **Implement RAG**: Set up vector database and document retrieval for knowledge-grounded responses
+5. **Ensure Safety**: Deploy content filtering, hallucination detection, and bias mitigation
+
+**Example Starting Point:**
+Design [AI Documentation Assistant] for [technical writing automation] using [GPT-4 + RAG] targeting [10x productivity] with [<2s latency, 95% accuracy] while ensuring [PII protection, fact-checking] to achieve [user satisfaction >4.5/5, 80% adoption].
+
 ## Template
 
 ```

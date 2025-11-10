@@ -14,6 +14,16 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive contract drafting strategies covering agreements, terms, clauses, warranties, indemnities, and legal provisions to ensure robust and enforceable contractual relationships while minimizing legal risks and protecting business interests.
 
+## Quick Start
+
+Create professional, legally sound contracts in three steps:
+
+1. **Specify Contract Parameters** - Define your agreement type (service, supply, partnership, etc.), parties involved, jurisdiction, and commercial context to establish the foundation
+2. **Configure Risk Profile** - Identify key risks, liability exposures, regulatory requirements, and compliance considerations specific to your transaction
+3. **Generate Complete Documentation** - Produce a comprehensive contract framework including essential terms, risk allocation, negotiation strategies, and implementation roadmap
+
+The template covers all major contract types from technology services to manufacturing supply agreements, with built-in guidance for negotiations, regulatory compliance, and lifecycle management. Output includes ready-to-customize clauses, schedules, and risk mitigation strategies.
+
 ## Template
 
 ```

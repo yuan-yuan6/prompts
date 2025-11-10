@@ -19,6 +19,16 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for designing and implementing performance management systems, employee development programs, succession planning, talent assessment, and career progression strategies.
 
+## Quick Start
+
+Build a world-class talent management system in three integrated steps:
+
+1. **Establish Foundation** - Define your organization's employee count, department structure, and targets for engagement, retention, and performance improvement across your workforce
+2. **Design Core Components** - Configure performance review processes, goal-setting frameworks, competency models, 9-box talent assessment, leadership development programs, and succession pipelines
+3. **Generate Integrated System** - Create comprehensive talent management framework covering performance reviews, continuous feedback, competency assessment, development planning, succession readiness, career pathways, recognition programs, and performance improvement plans
+
+Scales from small businesses to global enterprises across technology, healthcare, financial services, and professional services. Output includes assessment tools, development playbooks, succession charts, and analytics dashboards for tracking talent metrics and ROI.
+
 ## Template
 
 Design performance management system for [ORGANIZATION_NAME] with [EMPLOYEE_COUNT] employees across [DEPARTMENT_COUNT] departments, targeting [ENGAGEMENT_TARGET]% engagement, [RETENTION_TARGET]% retention, and [PERFORMANCE_IMPROVEMENT]% performance improvement.

@@ -14,6 +14,16 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive compliance program strategies covering policies, procedures, training, monitoring, and auditing to ensure regulatory adherence, minimize compliance risks, and maintain organizational integrity while fostering a culture of compliance excellence.
 
+## Quick Start
+
+Get started with your regulatory compliance framework in three simple steps:
+
+1. **Define Your Scope** - Identify your organization's regulatory environment by specifying your industry sector, geographic jurisdictions, and primary regulations that apply to your operations
+2. **Assess Current State** - Evaluate your existing compliance infrastructure, risk profile, and gaps by filling in the organizational context and current state analysis sections
+3. **Generate Your Framework** - Use the template with your specific details to create a comprehensive compliance program covering governance, risk management, training, auditing, and performance measurement
+
+This framework adapts to any industry - from financial services to healthcare to technology - and scales from startups to multinational enterprises. The output provides executive-ready documentation including policies, procedures, and implementation timelines.
+
 ## Template
 
 ```
