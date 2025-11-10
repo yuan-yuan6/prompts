@@ -18,6 +18,13 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive performance management systems including KPIs, OKRs, and dashboards to track organizational performance and drive strategic execution.
 
+## Quick Start
+1. **Align to Strategy** - Review your organization's strategic objectives and identify 5-7 key outcomes to measure
+2. **Select KPI Framework** - Choose 3-4 KPIs per strategic objective covering financial, customer, operational, and people dimensions
+3. **Define Measurement Methodology** - Specify calculation formulas, data sources, and target values for each KPI
+4. **Create Performance Dashboards** - Build executive, operational, and individual dashboards with role-appropriate metrics
+5. **Establish Review Cadence** - Set up weekly, monthly, and quarterly review cycles to monitor progress and drive accountability
+
 ## Template
 
 ```

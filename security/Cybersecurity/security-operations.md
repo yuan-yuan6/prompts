@@ -17,6 +17,36 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for cybersecurity operations, threat detection and response, vulnerability management, security governance, incident handling, and organizational cyber resilience.
 
+## Quick Start
+
+**For CISOs & Security Directors**: Design comprehensive cybersecurity program to detect threats faster, reduce incidents, and achieve compliance.
+
+**Common Business Scenarios:**
+- **Security Program Buildout**: Establish SOC, implement SIEM/EDR, and achieve ISO 27001 or SOC 2 compliance
+- **Incident Response Improvement**: Reduce Mean Time to Detect (MTTD) from 200 days to <24 hours with enhanced monitoring
+- **Ransomware Prevention**: Deploy defense-in-depth strategy with endpoint protection, backup, and incident response playbooks
+- **Compliance Requirement**: Achieve PCI-DSS, HIPAA, or GDPR compliance with gap assessment and remediation plan
+- **Zero Trust Architecture**: Implement zero trust principles across identity, network, and data security
+
+**What You'll Need:**
+- Current security posture assessment (tools, processes, team)
+- Asset inventory (endpoints, servers, applications, data)
+- Recent incidents and threat landscape
+- Compliance requirements (ISO 27001, SOC 2, PCI-DSS, HIPAA, GDPR)
+- Security budget and resources
+
+**You'll Get:**
+- Security maturity assessment across 6 domains (network, endpoint, identity, data, app, cloud)
+- Threat intelligence analysis of active threat actors and TTPs
+- SOC performance metrics and improvement plan
+- Vulnerability management program with SLAs
+- Identity and access management (IAM) architecture
+- Incident response playbooks by threat type
+- Security technology stack recommendations
+- Compliance roadmap to target frameworks
+- Security metrics and KPI dashboard
+- 3-year security roadmap with investment priorities
+
 ## Template
 
 Design cybersecurity strategy for [ORGANIZATION_NAME] protecting [ASSET_COUNT] critical assets, [USER_COUNT] users, [SYSTEM_COUNT] systems, with [THREAT_LEVEL] threat level, targeting [MATURITY_TARGET] maturity level and [INCIDENT_REDUCTION]% incident reduction.

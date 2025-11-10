@@ -19,6 +19,18 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for optimizing healthcare revenue cycle operations including patient registration, insurance verification, coding, billing, collections, and denial management to maximize reimbursement and cash flow.
 
+## Quick Start
+
+**Get started in 3 steps:**
+
+1. **Assess Current State** - Fill in your current metrics in Section 1 (Days in AR, Clean Claim Rate, Denial Rate). Compare against industry benchmarks to identify your biggest gaps.
+
+2. **Identify Priority Areas** - Review Sections 2-7 to pinpoint your weakest revenue cycle stages. Common starting points: denial management (Section 5), patient access (Section 2), or AR aging (Section 6).
+
+3. **Build Action Plan** - Use Section 10 (Performance Improvement Initiatives) to define 2-3 high-impact projects with clear timelines, investment requirements, and expected ROI.
+
+**Pro Tip:** Most organizations see fastest ROI by starting with denial prevention (Section 5) - reducing denial rates by even 2-3% typically generates significant revenue recovery within 90 days.
+
 ## Template
 
 Optimize revenue cycle for [ORGANIZATION_NAME] processing [MONTHLY_CLAIMS] claims/month with $[ANNUAL_REVENUE] in net patient revenue, targeting [DAR_TARGET] days in AR and [DENIAL_TARGET]% denial rate.

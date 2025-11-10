@@ -18,6 +18,32 @@ last_updated: 2025-11-09
 ## Overview
 This comprehensive template assists risk management professionals, investment managers, and financial analysts in conducting thorough risk assessments across various domains including market risk, credit risk, operational risk, and regulatory compliance to ensure robust risk management frameworks.
 
+## Quick Start
+
+**For Risk Managers & Investment Professionals**: Conduct comprehensive risk assessments across market, credit, operational, and regulatory domains.
+
+**Common Business Scenarios:**
+- **Portfolio Risk Review**: Assess market risk exposure (VaR, stress testing) across equity and fixed income positions
+- **Credit Risk Evaluation**: Analyze counterparty credit risk, concentration limits, and default probability
+- **Operational Risk Assessment**: Identify and quantify operational risks in trading, settlement, and technology systems
+- **Regulatory Compliance**: Evaluate compliance with risk management frameworks (Basel III, Dodd-Frank, MiFID II)
+- **New Product Approval**: Comprehensive risk assessment before launching new investment products or strategies
+
+**What You'll Need:**
+- Portfolio positions and exposures by asset class
+- Historical market data and volatility measures
+- Counterparty credit ratings and financial data
+- Operational process documentation
+- Regulatory requirements and risk appetite statements
+
+**You'll Get:**
+- Risk identification across all categories (market, credit, operational, regulatory)
+- Quantitative risk measurements (VaR, expected shortfall, scenario analysis)
+- Risk evaluation against tolerance levels
+- Risk prioritization matrix with heat maps
+- Mitigation strategies and action plans
+- Executive risk dashboard with KRIs
+
 ## Template Structure
 
 ### 1. Risk Assessment Scope and Methodology

@@ -15,6 +15,24 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for managing game development projects including pre-production planning, asset creation, programming systems, level design, testing protocols, monetization strategies, and post-launch operations for successful game releases.
 
+## Quick Start
+
+**For Indie Studios starting game production:**
+1. Establish core gameplay loop and create vertical slice playable in 2-4 weeks
+2. Set up version control (Git/Perforce) and project management (Jira/Trello) on Day 1
+3. Define minimum viable product (MVP): 3-5 hours core gameplay, 10-15 levels
+4. Create production schedule: 30% pre-production, 50% production, 20% polish/QA
+5. Plan weekly playtests starting at prototype phase to validate mechanics
+
+**For Game Teams scaling from prototype to production:**
+1. Lock core mechanics and create Game Design Document with technical specifications
+2. Establish asset pipeline: modeling, texturing, animation, integration workflow
+3. Implement automated build system for daily playable builds across all platforms
+4. Set up QA protocol: daily smoke tests, weekly regression tests, monthly full passes
+5. Create content roadmap: 60% at alpha, 90% at beta, 100% gold + day-1 patch
+
+**Expected Timeline:** Month 1-3: Pre-production and prototyping | Month 4-12: Core production and feature completion | Month 13-16: Content creation and polish | Month 17-18: Beta testing and certification | Month 19-20: Launch preparation and post-launch support
+
 ## Template
 
 Develop game project [GAME_TITLE] in [GENRE] genre for [TARGET_PLATFORMS] platforms, with [TEAM_SIZE] team members, [DEVELOPMENT_TIME] timeline, [BUDGET_SIZE] budget, targeting [PLAYER_BASE] players and [REVENUE_TARGET] revenue goal.

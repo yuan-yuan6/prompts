@@ -18,6 +18,18 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive compliance programs, accreditation preparation systems, regulatory monitoring frameworks, and audit management processes that ensure healthcare organizations meet all regulatory requirements and maintain accreditation standards.
 
+## Quick Start
+
+**Get started in 3 steps:**
+
+1. **Identify Your Accreditation Body** - Determine which accreditation standards apply (Joint Commission, DNV-GL, HFAP). Fill in your organization type and compliance scope in the template header.
+
+2. **Run Gap Analysis** - Use Section "Regulatory Compliance" and "TJC Readiness Assessment" to identify your compliance gaps. Focus on high-risk areas like Medication Management, Patient Safety, and Infection Control.
+
+3. **Create 90-Day Roadmap** - Prioritize top 3-5 compliance gaps and use the Corrective Action Management section to build action plans with owners, due dates, and progress tracking.
+
+**Pro Tip:** Start with mock surveys (Section "Survey Readiness") - conducting quarterly internal audits using the tracer methodology will reveal issues early and build organizational readiness before actual surveys.
+
 ## Template
 
 ```

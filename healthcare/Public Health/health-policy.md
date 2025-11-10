@@ -18,6 +18,18 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive health policy proposals, advocacy campaigns, legislative strategies, and stakeholder engagement plans that advance public health priorities through policy change and systems transformation.
 
+## Quick Start
+
+**Get started in 3 steps:**
+
+1. **Define the Problem** - Complete the Problem Definition section with clear evidence of the health issue, its impact, and root causes. Quantify the burden (lives affected, economic cost, health disparities).
+
+2. **Map Your Stakeholders** - Use the Stakeholder Analysis section to identify key decision-makers, champions, and opponents. Prioritize who needs to be engaged first based on power and interest levels.
+
+3. **Build Your Coalition** - Start with the Coalition Development section to identify 3-5 anchor partner organizations. Assign roles, define contributions, and schedule your first strategy meeting.
+
+**Pro Tip:** Most successful policy campaigns start with evidence gathering and storytelling. Collect 3-5 compelling patient/community stories and pair them with solid data before approaching legislators or launching public campaigns.
+
 ## Template
 
 ```

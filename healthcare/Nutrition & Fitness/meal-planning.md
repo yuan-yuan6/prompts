@@ -18,6 +18,18 @@ last_updated: 2025-11-09
 ## Overview
 This comprehensive template assists nutrition professionals, healthcare providers, and individuals in creating personalized, evidence-based meal plans that optimize nutritional outcomes, support health goals, and accommodate individual preferences and constraints.
 
+## Quick Start
+
+**Get started in 3 steps:**
+
+1. **Complete Assessment** - Fill in Section 1 (Individual Assessment) with anthropometric data, metabolic parameters, medical history, and dietary preferences. This creates your nutritional baseline.
+
+2. **Calculate Macros** - Use Section 2 (Nutritional Requirements) to determine daily calorie needs and macronutrient distribution based on goals. Most people start with: 40% carbs, 30% protein, 30% fats as a baseline.
+
+3. **Build Meal Structure** - Use Section 3 (Meal Structure and Timing) to create your daily meal template with specific times, calorie targets per meal, and macro breakdown. Start with 3 meals + 2 snacks for most clients.
+
+**Pro Tip:** Focus on creating just one perfect week of meals first. Use Section 6 (Meal Preparation) to batch-prep on Sundays, then repeat and refine based on client feedback and adherence before adding variety.
+
 ## Template Structure
 
 ### 1. Individual Assessment and Nutritional Profiling

@@ -18,6 +18,35 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive clinical decision support tools including diagnostic algorithms, treatment guidelines, risk assessments, and evidence-based recommendations to enhance clinical judgment and improve patient outcomes.
 
+## Quick Start
+
+### For Diagnostic Decision Support
+1. Define clinical question: `CLINICAL_QUESTION: "Should this patient be admitted for chest pain?"`
+2. Apply risk stratification: Use validated tools (HEART score, TIMI, Wells criteria)
+3. Review evidence level: Specify guideline source (ACC/AHA, USPSTF, etc.)
+4. Document decision rationale: Record clinical reasoning and supporting data
+5. Communicate with patient: Use shared decision-making, document preferences
+
+### For Treatment Algorithm Development
+1. Specify condition: `CONDITION_NAME: "Community-acquired pneumonia"`
+2. Select guideline: Reference current evidence (IDSA/ATS guidelines 2019)
+3. Create decision tree: Include patient factors, severity, allergies
+4. Add safety checks: Drug interactions, renal/hepatic dosing, contraindications
+5. Define monitoring: Specify clinical response criteria and follow-up timing
+
+### HIPAA Considerations for Clinical Tools
+- Anonymize patient cases used in teaching algorithms
+- Secure storage of decision support tools containing patient data
+- Audit trail for clinical decisions made using automated tools
+- Obtain consent if patient data will be used for algorithm development
+- Ensure third-party CDS tools have Business Associate Agreements
+
+### Point-of-Care Best Practices
+- Validate scoring systems are appropriate for your patient population
+- Update protocols when new guidelines are released
+- Document exceptions to standard pathways with clinical justification
+- Review outcomes data to ensure algorithms improve care quality
+
 ## Template
 
 ```

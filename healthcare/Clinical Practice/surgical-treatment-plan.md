@@ -18,6 +18,34 @@ last_updated: 2025-11-09
 ## Purpose
 Develop comprehensive surgical treatment plans that integrate pre-operative assessment, intraoperative planning, and post-operative care to ensure optimal surgical outcomes and patient safety throughout the perioperative period.
 
+## Quick Start
+
+### For Elective Surgery Planning
+1. Complete risk stratification: `ASA_CLASS: "II"`, calculate RCRI score
+2. Obtain necessary clearances: Cardiology, pulmonary as indicated by risk
+3. Set VTE prophylaxis: Choose mechanical + pharmacologic based on Caprini score
+4. Plan antibiotic prophylaxis: Select agent, timing (within 60 min of incision)
+5. Document informed consent: Include procedure-specific risks and alternatives
+
+### For Urgent/Emergency Surgery
+1. Expedite pre-op assessment: Focus on critical labs, ECG, imaging
+2. Implement rapid optimization: Correct coagulopathy, fluid resuscitation
+3. Activate surgical team: Confirm OR availability, anesthesia readiness
+4. Communicate urgency: Specify timeframe (STAT/within 6 hours/within 24 hours)
+5. Brief family: Provide realistic expectations given urgency and risk
+
+### HIPAA Compliance in Surgical Planning
+- Secure all consent forms and surgical paperwork in locked/encrypted systems
+- Limit case discussions to care team members only (no hallway conversations)
+- De-identify cases for teaching or quality review presentations
+- Obtain specific authorization for surgical photography/video
+- Ensure OR schedule displays use patient identifiers appropriately
+
+### Perioperative Safety Checklist
+- Pre-op: H&P complete, consent signed, site marked, NPO confirmed
+- Timeout: Correct patient, site, procedure verified by entire team
+- Post-op: Pain management plan, VTE prophylaxis ordered, discharge criteria defined
+
 ## Template
 
 ```

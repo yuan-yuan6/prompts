@@ -18,6 +18,18 @@ last_updated: 2025-11-09
 ## Overview
 This comprehensive template assists fitness professionals, healthcare providers, and individuals in designing evidence-based, progressive workout programs that optimize physical performance, health outcomes, and injury prevention while accommodating individual capabilities and goals.
 
+## Quick Start
+
+**Get started in 3 steps:**
+
+1. **Assess Starting Point** - Complete Section 1 (Client Assessment) with physical measurements, fitness test results, medical history, and movement screening. Document any limitations or injury history upfront.
+
+2. **Set Program Framework** - Use Section 2 (Program Design) to establish your periodization model, training frequency (3-5 days/week for most), and session duration. Choose appropriate training split (Full Body for beginners, Upper/Lower for intermediate).
+
+3. **Design Week 1** - Build your first week using Section 3 (Weekly Training Structure) and Section 4 (Exercise Prescription). Start conservative: 60-70% intensity, 2-3 sets, 8-12 reps for main lifts.
+
+**Pro Tip:** Most beginners succeed with 3-day full-body programs using compound movements (squat, hinge, push, pull). Master form first, then progressively add weight by 2.5-5% weekly as outlined in Section 5 (Progressive Overload).
+
 ## Template Structure
 
 ### 1. Client Assessment and Fitness Profiling

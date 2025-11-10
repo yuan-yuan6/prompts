@@ -18,6 +18,18 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive disease surveillance systems, outbreak investigation protocols, epidemiological analysis frameworks, and public health monitoring programs that detect, track, and respond to health threats in populations.
 
+## Quick Start
+
+**Get started in 3 steps:**
+
+1. **Set Up Core Surveillance** - Begin with Notifiable Disease Reporting (Section "Disease Reporting System"). Identify which diseases require mandatory reporting in your jurisdiction and establish reporting timelines and case definitions.
+
+2. **Establish Data Sources** - Configure your primary data streams from Section "Surveillance Data Sources" - start with EHR feeds, laboratory information systems, and vital statistics. Aim for 80%+ population coverage.
+
+3. **Create Alert System** - Set up your outbreak detection using the "Outbreak Alert System" section. Define statistical thresholds (typically >2 SD above baseline) and establish response protocols for when alerts trigger.
+
+**Pro Tip:** Start simple with passive surveillance for 5-10 priority diseases, ensure data quality and timeliness, then gradually add syndromic surveillance and more sophisticated aberration detection algorithms as your system matures.
+
 ## Template
 
 ```

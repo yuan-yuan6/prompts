@@ -19,6 +19,37 @@ last_updated: 2025-11-09
 ## Purpose
 Design comprehensive clinical trial protocols, consent forms, and analysis plans for conducting ethical, scientifically rigorous research studies to advance medical knowledge and patient care.
 
+## Quick Start
+
+### For Phase I Trial Protocol
+1. Define primary objective: `PRIMARY_OBJECTIVE: "Determine maximum tolerated dose (MTD)"`
+2. Select study design: `STUDY_DESIGN: "3+3 dose escalation"`
+3. Establish safety monitoring: DSMB with defined stopping rules for DLTs
+4. Calculate starting dose: Base on 1/10 of NOAEL from animal studies
+5. Register trial: Submit to ClinicalTrials.gov before enrolling first patient
+
+### For Phase III RCT
+1. Power sample size: `SAMPLE_SIZE: "450 patients (225 per arm)"` based on expected effect
+2. Design randomization: Use permuted blocks, stratify by key prognostic factors
+3. Define endpoints: Primary must be clinically meaningful, secondary hypothesis-driven
+4. Plan interim analyses: Specify timing and alpha-spending function (O'Brien-Fleming)
+5. Prepare regulatory submissions: IND/IDE application, multi-center IRB protocol
+
+### Research Compliance Essentials
+- IRB approval before any study activities (including screening)
+- Informed consent must be voluntary, documented, and comprehension-verified
+- Register interventional trials on ClinicalTrials.gov (FDAAA compliance)
+- Report SAEs to IRB within 24-48 hours, FDA within 15 days
+- Maintain regulatory binder: protocol, consents, amendments, correspondence
+- Ensure data integrity: source documentation, audit trails, query resolution
+
+### Publication Planning
+- Register study prospectively to avoid publication bias
+- Follow CONSORT/STROBE reporting guidelines
+- Plan authorship according to ICMJE criteria upfront
+- Deposit data in repository per journal/funder requirements
+- Disclose conflicts of interest and funding sources
+
 ## Template
 
 ```

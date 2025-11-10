@@ -19,6 +19,13 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive enterprise-wide digital transformation roadmap framework covering strategic planning, technology modernization, process digitization, organizational change, culture transformation, and value creation across all business functions and customer touchpoints.
 
+## Quick Start
+1. **Assess Digital Maturity** - Evaluate current state across 8 dimensions: leadership, strategy, technology, data, customer experience, operations, culture, and security
+2. **Define Transformation Vision** - Set clear objectives for customer experience, operational excellence, and business model innovation with measurable targets
+3. **Prioritize Initiatives** - Select 3-5 high-impact digital initiatives that align with strategic goals and deliver early wins
+4. **Build Roadmap** - Create a phased implementation plan with quarterly milestones, resource requirements, and investment priorities
+5. **Launch Pilot Programs** - Start with focused pilots to validate approach, build momentum, and demonstrate value before scaling enterprise-wide
+
 ## Template
 
 Execute digital transformation roadmap for [COMPANY_NAME] with investment of $[TOTAL_INVESTMENT] over [TRANSFORMATION_TIMELINE] spanning [BUSINESS_UNITS] business units, targeting [REVENUE_GROWTH]% revenue growth, [COST_REDUCTION]% operational cost reduction, and [CUSTOMER_SATISFACTION]% improvement in customer satisfaction.

@@ -19,6 +19,37 @@ last_updated: 2025-11-09
 ## Purpose
 Conduct comprehensive literature reviews, meta-analyses, and systematic reviews to synthesize medical evidence and inform clinical practice, research, and healthcare policy decisions.
 
+## Quick Start
+
+### For Systematic Review with Meta-Analysis
+1. Register protocol: Submit to PROSPERO before starting literature search
+2. Define PICO: `POPULATION: "Adults with Type 2 diabetes"`, clear inclusion/exclusion
+3. Conduct comprehensive search: MEDLINE, Embase, Cochrane (minimum 3 databases)
+4. Screen independently: 2 reviewers for title/abstract and full-text (calculate kappa)
+5. Assess quality: Use Cochrane RoB 2.0 for RCTs, GRADE for evidence certainty
+
+### For Rapid Review (Accelerated Timeline)
+1. Limit scope: Focus on high-yield databases (MEDLINE + Cochrane)
+2. Use single reviewer with verification: One screens, second verifies 20% sample
+3. Extract key data only: Focus on primary outcomes, skip detailed secondary data
+4. Simplify quality assessment: Use abbreviated tool (Cochrane summary assessments)
+5. Target narrative synthesis: Meta-analysis only if highly homogeneous studies
+
+### Research Methodology Best Practices
+- **Search strategy**: Work with librarian, use MeSH terms + free text, no language restrictions
+- **Data extraction**: Pilot test form on 5-10 articles, ensure inter-rater reliability >80%
+- **Bias assessment**: Use appropriate tool (RoB 2.0, NOS, ROBINS-I) based on study design
+- **Heterogeneity**: Assess with I², explore via subgroup/sensitivity analyses if I²>50%
+- **Publication bias**: Create funnel plot if ≥10 studies, use Egger's test
+- **Reporting**: Follow PRISMA checklist (27 items), create flow diagram
+
+### Statistical Considerations
+- Choose effect measure appropriately (RR vs OR vs HR)
+- Use random effects if I²>25% or clinical heterogeneity present
+- Report prediction intervals when substantial heterogeneity
+- Pre-specify subgroup hypotheses to avoid data dredging
+- Conduct sensitivity analyses (study quality, design, outliers)
+
 ## Template
 
 ```

@@ -18,6 +18,18 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive healthcare policies, procedures, guidelines, and governance frameworks that ensure regulatory compliance, standardize practices, and promote quality care delivery across healthcare organizations.
 
+## Quick Start
+
+**Get started in 3 steps:**
+
+1. **Define Policy Basics** - Fill in the Policy Overview section with policy title, type (Clinical/Administrative/Operational), effective date, and identify regulatory requirements it addresses.
+
+2. **Draft Core Content** - Start with the Policy Statement section to clearly articulate what the policy requires. Then detail procedures in step-by-step format with responsible parties and timelines.
+
+3. **Build Implementation Plan** - Use the Implementation Phases section to create your rollout strategy including training schedule, communication plan, and compliance monitoring approach.
+
+**Pro Tip:** Begin with high-risk clinical policies (medication management, patient safety protocols) or those required for accreditation. Use existing policies from similar organizations as templates, then customize to your specific needs and regulatory environment.
+
 ## Template
 
 ```

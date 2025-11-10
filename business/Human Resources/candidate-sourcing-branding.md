@@ -18,6 +18,13 @@ last_updated: 2025-11-09
 ## Purpose
 Create effective multi-channel sourcing strategies and compelling employer brand messaging to attract top talent and build sustainable talent pipelines.
 
+## Quick Start
+1. **Define Your EVP** - Articulate 3-4 compelling reasons why candidates should join your organization (mission, growth, culture, compensation)
+2. **Identify Top Sources** - Select 3-5 sourcing channels based on your target role: employee referrals, LinkedIn, job boards, or industry networks
+3. **Craft Compelling Messaging** - Develop authentic employer brand stories highlighting employee experiences and unique opportunities
+4. **Build Talent Pipelines** - Start proactive sourcing 3-6 months before anticipated needs for senior or hard-to-fill roles
+5. **Track Source Effectiveness** - Monitor application volume, quality, and conversion rates by channel to optimize your sourcing mix
+
 ## Template
 
 ```

@@ -15,6 +15,24 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for designing and developing video games including concept development, gameplay mechanics, narrative design, level creation, balancing systems, monetization strategies, and player engagement optimization.
 
+## Quick Start
+
+**For Game Designers creating first game concept:**
+1. Define core gameplay loop in one sentence: What do players do every 30 seconds?
+2. Create paper prototype or digital mockup playable in 1-2 days for rapid iteration
+3. Establish 3 pillars: Core mechanic, unique hook, target audience (be specific)
+4. Design first level/tutorial: Teach one mechanic every 30-60 seconds without text
+5. Set success metrics: Target 40%+ D1 retention, 15min+ session length, 60%+ tutorial completion
+
+**For Teams transitioning from concept to production:**
+1. Validate core loop through 10+ playtest sessions with target audience
+2. Create Game Design Document: 20-30 pages covering mechanics, systems, progression
+3. Establish difficulty curve: Easy entry, gradual learning, mastery at 10-20 hours
+4. Design progression system: Unlock new mechanic/feature every 30-60 minutes
+5. Plan monetization: Premium ($20-60), F2P (0.5-3% conversion), or hybrid model
+
+**Expected Timeline:** Week 1-4: Concept and paper prototyping | Month 2-3: Digital prototype and core loop validation | Month 4-6: Vertical slice with full gameplay loop | Month 7-12: Content production and systems implementation | Month 13-18: Polish, balance, and playtesting | Month 19-24: Beta, certification, and launch
+
 ## Template
 
 Design game [GAME_TITLE] in [GENRE] genre for [TARGET_PLATFORM] platform, targeting [AUDIENCE_DEMOGRAPHIC] audience, with [DEVELOPMENT_BUDGET] budget, [TEAM_SIZE] team members, [DEVELOPMENT_TIMELINE] timeline, achieving [PLAYER_RETENTION]% retention, [MONETIZATION_TARGET] revenue goal, and [METACRITIC_TARGET] quality score.

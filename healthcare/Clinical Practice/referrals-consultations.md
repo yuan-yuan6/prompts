@@ -18,6 +18,29 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive referral letters, consultation summaries, and specialist communication to ensure effective care coordination and optimal patient outcomes.
 
+## Quick Start
+
+### For Urgent Referrals (HIPAA-Compliant)
+1. Set urgency level: `URGENCY_LEVEL: "Urgent - within 24 hours"`
+2. Specify primary reason: `REFERRAL_REASON: "Rule out acute coronary syndrome"`
+3. Include critical findings: Complete vital signs, ECG results, troponin levels
+4. Ensure secure transmission: Use encrypted email or secure EHR messaging
+5. Document patient consent for information sharing
+
+### For Routine Specialist Consultations
+1. Define consultation type: `REFERRAL_TYPE: "Routine dermatology consultation"`
+2. Provide comprehensive history: Include relevant PMH, medications, allergies
+3. State specific questions: List 3-4 clear consultation questions for specialist
+4. Attach supporting documents: Labs, imaging reports via secure channels
+5. Set follow-up expectations: Specify timeframe and preferred communication method
+
+### HIPAA Compliance Reminders
+- Remove/redact patient identifiers when using examples
+- Use secure fax (+1-XXX-XXX-XXXX) or encrypted email only
+- Obtain patient authorization for non-TPO disclosures
+- Document minimum necessary information for referral purpose
+- Verify recipient identity before transmitting PHI
+
 ## Template
 
 ```
