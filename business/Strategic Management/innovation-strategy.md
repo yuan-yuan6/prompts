@@ -19,6 +19,26 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for developing innovation strategies, managing R&D portfolios, evaluating emerging technologies, and fostering organizational innovation capabilities.
 
+## Quick Start
+
+### Minimal Example
+```
+Develop innovation strategy for TechInnovate with R&D budget of $25M, targeting breakthrough product innovations and AI/ML capabilities across 3 years with focus on autonomous systems and expected ROI of 250%.
+```
+
+### When to Use This
+- Building balanced innovation portfolio across incremental, adjacent, breakthrough, and disruptive projects
+- Evaluating and prioritizing emerging technologies for strategic investment
+- Establishing open innovation programs and external partnerships (universities, startups, research institutes)
+- Measuring innovation performance and managing IP strategy across patents and trade secrets
+
+### Basic 3-Step Workflow
+1. Assess current innovation portfolio across 5 types (incremental, adjacent, breakthrough, disruptive, business model) and scout emerging technologies with market potential
+2. Develop R&D project pipeline with stage-gate decisions, build innovation ecosystem partnerships, and address capability gaps
+3. Implement innovation metrics (R&D spend %, time to market, new product revenue %), manage IP portfolio, and create quarterly roadmap with milestones
+
+**Time to complete:** 2-4 hours for portfolio assessment and strategy; 12-36 months for innovation roadmap execution
+
 ## Template
 
 Develop innovation strategy for [COMPANY_NAME] with R&D budget of $[RD_BUDGET], targeting [INNOVATION_GOALS] across [TIME_HORIZON] with focus on [INNOVATION_AREAS] and expected ROI of [ROI_TARGET].

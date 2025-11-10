@@ -18,6 +18,30 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive compensation and benefits strategies covering analysis, planning, and administration to ensure competitive, equitable, and sustainable reward systems that attract, retain, and motivate talent.
 
+## Quick Start
+
+**Need to review compensation strategy quickly?** Use this minimal example:
+
+### Minimal Example
+```
+Review compensation for Software Engineering roles (50 employees). Industry: SaaS tech startup, Series B. Market position: target 60th percentile. Current issue: 15% below market for senior roles, pay equity gaps identified. Budget: $400k adjustment pool. Need salary bands, merit increase guidelines, and equity refresh plan for Q2.
+```
+
+### When to Use This
+- Conducting annual compensation reviews
+- Addressing pay equity issues
+- Responding to market competitiveness concerns
+- Designing new benefits programs
+
+### Basic 3-Step Workflow
+1. **Analyze current state** - Market benchmarking, pay equity analysis, budget review
+2. **Design strategy** - Salary structures, incentive plans, benefits portfolio
+3. **Implement and communicate** - Roll out changes, train managers, educate employees
+
+**Time to complete**: 6-12 weeks for comprehensive strategy (2-3 weeks for focused updates)
+
+---
+
 ## Template
 
 ```

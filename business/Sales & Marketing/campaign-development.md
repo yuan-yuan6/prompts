@@ -18,6 +18,30 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive marketing campaign strategies covering creative development, audience targeting, channel selection, and campaign execution to maximize marketing effectiveness and ROI.
 
+## Quick Start
+
+**Need to launch a marketing campaign quickly?** Use this minimal example:
+
+### Minimal Example
+```
+Create marketing campaign for B2B SaaS company launching new product feature. Target: mid-market companies 100-500 employees in technology sector. Budget: $50K. Timeline: 3 months. Goals: 500 MQLs, 50 SQLs, 10 new customers. Channels: LinkedIn ads, email nurturing, webinar series, content marketing. Key message: "Reduce project delivery time by 40%."
+```
+
+### When to Use This
+- Launching new products or services
+- Building brand awareness in new markets
+- Driving demand generation and lead acquisition
+- Executing multi-channel marketing initiatives
+
+### Basic 3-Step Workflow
+1. **Define campaign objectives** - Clear goals, target audience, budget allocation
+2. **Design creative and messaging** - Compelling value proposition, channel-optimized content
+3. **Execute and optimize** - Launch campaigns, monitor performance, iterate based on data
+
+**Time to complete**: 2-4 weeks for planning, 6-12 weeks for execution
+
+---
+
 ## Template
 
 ```

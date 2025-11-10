@@ -18,6 +18,30 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive brand management strategies covering brand positioning, messaging framework, and identity management to build strong, consistent brand equity and market differentiation.
 
+## Quick Start
+
+**Need to strengthen your brand quickly?** Use this minimal example:
+
+### Minimal Example
+```
+Create brand management strategy for growing tech startup. Current: 35% brand awareness in target market, inconsistent messaging across channels. Goals: 60% awareness, clear brand differentiation, unified brand experience. Focus: brand positioning refinement, visual identity guidelines, messaging framework, brand governance. Key deliverables: brand guide, messaging templates, training materials.
+```
+
+### When to Use This
+- Rebranding or brand refresh initiatives
+- Establishing consistent brand presence
+- Entering new markets or launching new products
+- Building brand equity and market differentiation
+
+### Basic 3-Step Workflow
+1. **Define brand strategy** - Purpose, values, positioning, personality
+2. **Develop brand identity** - Visual system, voice/tone, messaging architecture
+3. **Implement and govern** - Guidelines, training, monitoring, optimization
+
+**Time to complete**: 1-2 months for strategy, 2-3 months for implementation
+
+---
+
 ## Template
 
 ```

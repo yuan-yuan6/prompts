@@ -18,6 +18,27 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive audit and compliance strategies covering internal controls, external audits, and regulatory requirements to ensure accountability, transparency, and adherence to legal and industry standards.
 
+## Quick Start
+
+### Minimal Example
+"Design an audit and compliance program for HealthTech Solutions, a 200-person healthcare technology company, publicly traded, subject to SOX compliance and HIPAA regulations. Establish internal audit function, implement quarterly control testing, coordinate external audit, and develop compliance monitoring for data privacy requirements."
+
+### When to Use
+- Establishing or enhancing internal audit functions
+- Preparing for external audits or regulatory examinations
+- Developing compliance programs for new regulations
+- Implementing internal control frameworks (COSO, SOX)
+- Conducting risk assessments and control testing
+
+### 3-Step Workflow
+1. **Define Scope and Requirements**: Identify audit objectives, regulatory requirements, risk profile, and existing control environment; determine resource needs and stakeholder expectations
+2. **Generate Framework**: Use the template to create a comprehensive audit and compliance strategy covering governance, risk assessment, internal controls, audit planning, and compliance monitoring
+3. **Deploy and Monitor**: Implement governance structure, conduct risk assessments, perform control testing, coordinate with external auditors, track issues, and report to stakeholders
+
+### Time Estimate
+- Framework design: 4-8 hours to complete template and customize strategy
+- Implementation: 2-4 months for foundational setup, ongoing for continuous monitoring
+
 ## Template
 
 ```

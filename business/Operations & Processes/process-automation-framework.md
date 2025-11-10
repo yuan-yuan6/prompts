@@ -19,6 +19,22 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive process automation framework covering process analysis, automation opportunity assessment, technology selection, implementation planning, and continuous optimization across all business functions and operational workflows.
 
+## Quick Start
+
+To launch your automation initiative quickly:
+
+1. **Find Automation Candidates**: List 10-15 repetitive, manual processes that consume significant time - look for high-volume, rules-based tasks with clear inputs/outputs
+
+2. **Score Opportunities**: Rate each process on three factors (1-10): Business Impact, Technical Feasibility, and Implementation Effort to identify quick wins
+
+3. **Select Your First Process**: Choose a high-impact, low-complexity process that can be automated in 4-8 weeks to build momentum and prove value
+
+4. **Map the Process**: Document the exact steps, decision rules, data sources, and systems involved - identify exception cases that need special handling
+
+5. **Pick Your Technology**: For your first automation, consider RPA for system integration, workflow tools for approvals, or low-code platforms for simple applications
+
+**Pro Tip**: Target processes that employees complain about most - automating painful, repetitive work generates enthusiasm and champions for your automation program.
+
 ## Template
 
 Implement process automation for [COMPANY_NAME] across [PROCESS_COUNT] processes with [AUTOMATION_BUDGET] budget over [TIMELINE] to achieve [EFFICIENCY_GAIN]% efficiency improvement, [COST_REDUCTION]% cost reduction, and [ERROR_REDUCTION]% error reduction while automating [AUTOMATION_PERCENTAGE]% of identified tasks.

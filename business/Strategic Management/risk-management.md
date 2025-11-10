@@ -18,6 +18,30 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive risk management frameworks covering risk assessment, mitigation strategies, and compliance requirements to protect organizational value and ensure business continuity.
 
+## Quick Start
+
+### Minimal Example
+```
+Company Name: FinServe Corp
+Industry: Financial Services
+Risk Maturity: Intermediate
+Risk Appetite: Moderate-Conservative
+Key Risks: Cybersecurity, regulatory compliance, operational continuity
+```
+
+### When to Use This
+- Establishing enterprise-wide risk management framework with governance structure and policies
+- Conducting comprehensive risk assessments across strategic, operational, financial, and compliance categories
+- Developing business continuity and crisis management plans for critical scenarios
+- Building compliance programs for regulatory requirements and industry standards
+
+### Basic 3-Step Workflow
+1. Identify and assess risks across categories (strategic, operational, financial, compliance) using probability-impact matrix and risk heat maps
+2. Develop mitigation strategies (avoidance, reduction, transfer, acceptance) with control implementation and business continuity planning
+3. Implement monitoring system with KRIs, risk dashboards, regular reporting, and incident response procedures
+
+**Time to complete:** 4-6 hours for initial framework development; 3-6 months for full program implementation
+
 ## Template
 
 ```

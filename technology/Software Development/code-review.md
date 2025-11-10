@@ -21,6 +21,30 @@ last_updated: 2025-01-09
 ## Purpose
 Conduct comprehensive code reviews focusing on optimization, security, best practices, maintainability, performance, and adherence to coding standards with constructive feedback and actionable recommendations.
 
+## Quick Start
+
+**Need to review code quickly?** Use this minimal example:
+
+### Minimal Example
+```
+Review the UserAuthentication module in our CustomerAPI (Node.js/Express). Focus on security vulnerabilities (OWASP Top 10), input validation, JWT implementation, and error handling. Check for SQL injection, XSS, and authentication bypass risks. Code coverage should be >80%.
+```
+
+### When to Use This
+- Pull request reviews before merging to main
+- Security audits for authentication/authorization code
+- Pre-deployment quality checks
+- Onboarding reviews for new team members
+
+### Basic 3-Step Workflow
+1. **Scan for critical issues** - Security vulnerabilities, logic errors, breaking changes
+2. **Review code quality** - Readability, maintainability, test coverage, standards compliance
+3. **Provide feedback** - Document issues with severity, suggest fixes, highlight strengths
+
+**Time to complete**: 30-60 minutes for typical feature (200-400 lines)
+
+---
+
 ## Template Structure
 
 ### Review Context

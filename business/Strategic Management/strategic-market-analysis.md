@@ -18,6 +18,30 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive market analysis reports covering competitive analysis, SWOT analysis, and market trends to inform strategic decision-making.
 
+## Quick Start
+
+### Minimal Example
+```
+Company Name: DataCloud Solutions
+Industry: Cloud Analytics SaaS
+Market Position: Challenger (15% market share)
+Target Markets: North America, Europe
+TAM: $45B, Growth Rate: 22% CAGR
+```
+
+### When to Use This
+- Conducting market sizing and opportunity assessment for new market entry or expansion
+- Analyzing competitive landscape with detailed competitor profiling and positioning analysis
+- Performing comprehensive SWOT analysis to identify strategic priorities and opportunities
+- Evaluating customer segments, needs, and journey to inform go-to-market strategy
+
+### Basic 3-Step Workflow
+1. Analyze market size (TAM/SAM/SOM), growth trends, segmentation, and industry dynamics with drivers and restraints
+2. Profile competitors (market leaders and emerging players), assess positioning, strategies, strengths/weaknesses, and create competitive maps
+3. Conduct SWOT analysis, assess customer segments and needs, prioritize opportunities, and develop strategic recommendations with implementation roadmap
+
+**Time to complete:** 3-5 hours for comprehensive market analysis; 2-4 weeks with primary research
+
 ## Template
 
 ```

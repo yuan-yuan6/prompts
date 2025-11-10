@@ -18,6 +18,30 @@ last_updated: 2025-11-09
 ## Purpose
 Design structured, consistent screening and interview processes that objectively evaluate candidates while providing an excellent candidate experience.
 
+## Quick Start
+
+**Need to set up interviews quickly?** Use this minimal example:
+
+### Minimal Example
+```
+Hiring for Marketing Manager role. Key requirements: 5+ years experience, digital marketing expertise, team leadership. Process: Phone screen (30 min) → Hiring manager interview (60 min) → Team panel (90 min) → Final with VP. Evaluate: strategic thinking, campaign execution, collaboration skills, cultural fit. Decision within 5 business days.
+```
+
+### When to Use This
+- Hiring for critical or high-volume positions
+- Standardizing interview process across teams
+- Training new interviewers
+- Improving candidate evaluation consistency
+
+### Basic 3-Step Workflow
+1. **Design process** - Define stages, create questions, build scorecards
+2. **Train interviewers** - Share evaluation criteria, practice behavioral questions
+3. **Execute and refine** - Conduct interviews, gather feedback, improve process
+
+**Time to complete**: 1 week to design process, 2-4 weeks per candidate cycle
+
+---
+
 ## Template
 
 ```

@@ -19,6 +19,27 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive security assessment including vulnerability scanning, penetration testing, security audits, risk analysis, and remediation planning for enterprise systems and applications.
 
+## Quick Start
+
+**Basic Usage:**
+```
+Conduct comprehensive security assessment for [SYSTEM_NAME] covering [ASSESSMENT_SCOPE] using [METHODOLOGY] framework.
+```
+
+**Example:**
+```
+Conduct comprehensive security assessment for EcommercePlatform web application covering OWASP Top 10 vulnerabilities using NIST framework methodology.
+```
+
+**Key Steps:**
+1. Define assessment scope, timeline, and target systems
+2. Identify assets, threat actors, and attack vectors through threat modeling
+3. Perform vulnerability scanning with tools like Burp Suite, OWASP ZAP, Nessus
+4. Conduct penetration testing following defined rules of engagement
+5. Review security controls across administrative, technical, and physical domains
+6. Prioritize findings by CVSS scoring and business impact
+7. Create remediation roadmap with timeline and compensating controls
+
 ## Template Structure
 
 ### Assessment Overview

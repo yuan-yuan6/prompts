@@ -18,6 +18,30 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive employee relations strategies covering communication, culture development, and engagement initiatives to build positive workplace relationships and organizational effectiveness.
 
+## Quick Start
+
+**Need to improve employee relations quickly?** Use this minimal example:
+
+### Minimal Example
+```
+Address declining engagement in Operations department (40 employees). Recent survey: 55% engagement (down from 72%). Key issues: lack of communication from leadership, limited recognition, unclear career paths. Goal: Implement quick wins within 60 days - monthly town halls, peer recognition program, manager coaching on feedback.
+```
+
+### When to Use This
+- Responding to low engagement survey results
+- Addressing team conflict or communication breakdowns
+- Building or strengthening company culture
+- Improving manager-employee relationships
+
+### Basic 3-Step Workflow
+1. **Diagnose issues** - Survey employees, analyze feedback, identify root causes
+2. **Design interventions** - Communication plans, recognition programs, conflict resolution
+3. **Execute and monitor** - Launch initiatives, track progress, adjust based on feedback
+
+**Time to complete**: 4-8 weeks for initial improvements (ongoing for culture change)
+
+---
+
 ## Template
 
 ```

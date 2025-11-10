@@ -18,6 +18,22 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive supply chain management strategies covering logistics optimization, inventory management, and procurement processes to enhance operational efficiency and cost-effectiveness.
 
+## Quick Start
+
+To rapidly improve your supply chain performance:
+
+1. **Assess Current State**: Gather key metrics - inventory turnover, order fulfillment time, supplier performance scores, and total supply chain costs
+
+2. **Identify Pain Points**: Focus on the top 3 issues causing the most impact: stockouts, excess inventory, supplier delays, or logistics bottlenecks
+
+3. **Analyze Spend Data**: Review your top 20% of suppliers (who likely represent 80% of spend) to identify consolidation and negotiation opportunities
+
+4. **Map Your Network**: Create a simple visual of your supply chain from suppliers through distribution to customers, highlighting choke points
+
+5. **Prioritize Actions**: Select 2-3 high-impact initiatives that can deliver results within 90 days (e.g., renegotiate key contracts, optimize safety stock, improve demand forecasting)
+
+**Pro Tip**: Start with inventory optimization - it typically offers the fastest ROI by reducing working capital while maintaining service levels.
+
 ## Template
 
 ```

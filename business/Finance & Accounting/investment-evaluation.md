@@ -18,6 +18,28 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive investment evaluation strategies covering ROI analysis, NPV calculations, and risk assessment to support informed investment decisions and capital allocation optimization.
 
+## Quick Start
+
+### Minimal Example
+"Evaluate a $5M manufacturing facility expansion for IndustrialCorp. Expected incremental revenue: $2M/year for 10 years, operating margin 40%, WACC 10%, implementation timeline 18 months. Analyze NPV, IRR, payback period, and assess market, operational, and financial risks. Compare to alternative investments."
+
+### When to Use
+- Evaluating capital expenditure projects and investments
+- Analyzing acquisition targets or partnership opportunities
+- Prioritizing project portfolios and allocating capital budgets
+- Assessing R&D projects or technology investments
+- Supporting investment committee decisions with financial analysis
+
+### 3-Step Workflow
+1. **Gather Investment Details**: Define investment type, amount, timeline, and expected benefits; collect financial projections, cost estimates, market data, and identify key risks and assumptions
+2. **Generate Evaluation**: Input parameters into the template to create comprehensive analysis including DCF/NPV, ROI metrics, risk assessment, sensitivity analysis, and strategic value evaluation
+3. **Decide and Monitor**: Review financial metrics and strategic fit, compare alternatives, make investment decision, establish monitoring framework, and conduct post-investment performance reviews
+
+### Time Estimate
+- Data collection and analysis setup: 2-4 hours
+- Evaluation generation and scenario analysis: 3-5 hours
+- Total: 5-9 hours per major investment evaluated
+
 ## Template
 
 ```

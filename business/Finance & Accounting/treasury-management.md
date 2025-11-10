@@ -18,6 +18,27 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive treasury management strategies covering cash flow management, funding optimization, and investment decisions to ensure liquidity, minimize financial risk, and maximize returns on corporate assets.
 
+## Quick Start
+
+### Minimal Example
+"Develop a treasury management strategy for GlobalManufacture Corp, $500M revenue, operating in 5 countries. Current cash position $50M, seasonal working capital swings of $20M, managing $200M debt portfolio. Focus on daily cash forecasting, liquidity optimization, FX risk hedging, and investment policy for excess cash."
+
+### When to Use
+- Establishing or upgrading corporate treasury functions
+- Optimizing cash management and liquidity planning
+- Developing investment policies for corporate cash
+- Managing foreign exchange and interest rate risks
+- Structuring banking relationships and credit facilities
+
+### 3-Step Workflow
+1. **Assess Current State**: Document cash position, funding structure, banking relationships, risk exposures, and treasury operations; identify gaps and improvement opportunities
+2. **Generate Strategy**: Complete the template with organizational context and treasury objectives to create a comprehensive framework covering cash management, funding, investments, and risk management
+3. **Implement and Optimize**: Roll out treasury processes, implement technology systems, establish banking partnerships, deploy hedging strategies, and monitor performance metrics
+
+### Time Estimate
+- Strategy development: 3-6 hours to complete template and customize approach
+- Full implementation: 3-6 months depending on complexity and system requirements
+
 ## Template
 
 ```

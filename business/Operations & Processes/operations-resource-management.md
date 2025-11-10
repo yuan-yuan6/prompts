@@ -18,6 +18,22 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive resource management frameworks covering resource allocation, scheduling optimization, and capacity planning to maximize operational efficiency and resource utilization.
 
+## Quick Start
+
+To optimize resource management immediately:
+
+1. **Calculate Current Utilization**: Measure how much of your key resources (people, equipment, facilities) are actively productive vs. idle or waiting
+
+2. **Identify Bottlenecks**: Find the resources that are consistently overloaded or causing delays - these constraint resources limit your entire operation
+
+3. **Map Demand Patterns**: Chart when demand peaks and valleys occur (daily, weekly, seasonally) to identify mismatches with resource availability
+
+4. **Prioritize Resource Allocation**: Align your best resources to your highest-value work - use simple criteria like revenue impact, strategic importance, or deadline urgency
+
+5. **Create Basic Schedule**: Build a weekly resource allocation plan showing who/what is assigned to which work, highlighting conflicts and gaps
+
+**Pro Tip**: Start by optimizing your constraint resource - the one limiting your overall capacity. Even small improvements here multiply across your entire operation.
+
 ## Template
 
 ```

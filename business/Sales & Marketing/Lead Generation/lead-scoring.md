@@ -18,6 +18,30 @@ last_updated: 2025-11-09
 ## Overview
 This comprehensive template assists sales and marketing professionals in developing sophisticated lead scoring systems that prioritize prospects based on behavioral data, demographic information, and engagement patterns to optimize conversion rates and sales efficiency.
 
+## Quick Start
+
+**Need to implement lead scoring quickly?** Use this minimal example:
+
+### Minimal Example
+```
+Create lead scoring model for B2B software company. Scale: 0-100 points. Thresholds: Hot (80+), Warm (50-79), Cold (<50). Demographic: Company size (20 pts), Industry fit (15 pts), Job title (15 pts). Behavioral: Pricing page visit (10 pts), Demo request (25 pts), Email engagement (5 pts), Website visits (2 pts/visit). Negative: Personal email (-10 pts), Competitor (-50 pts). Route hot leads to sales within 1 hour.
+```
+
+### When to Use This
+- Prioritizing sales follow-up and resource allocation
+- Improving lead-to-customer conversion rates
+- Aligning sales and marketing on lead quality
+- Automating lead qualification processes
+
+### Basic 3-Step Workflow
+1. **Define scoring criteria** - Demographic fit, behavioral signals, engagement patterns
+2. **Set thresholds and routing** - Score ranges, handoff rules, automation triggers
+3. **Test and optimize** - Monitor conversion rates, adjust weights, refine model
+
+**Time to complete**: 1-2 weeks for basic model, ongoing optimization
+
+---
+
 ## Template Structure
 
 ### 1. Lead Scoring Framework and Methodology
