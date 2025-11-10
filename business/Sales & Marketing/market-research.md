@@ -18,6 +18,30 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive market research strategies covering surveys, analysis, and insights generation to understand market dynamics, customer behavior, competitive landscape, and business opportunities.
 
+## Quick Start
+
+**Need to conduct market research quickly?** Use this minimal example:
+
+### Minimal Example
+```
+Conduct market research for a meal kit delivery service targeting busy professionals in urban areas. Research should cover: market size and growth trends, customer preferences and pain points, competitive analysis of top 3 competitors, and pricing sensitivity. Budget is $10K, timeline is 6 weeks.
+```
+
+### When to Use This
+- Understanding new markets before product launch
+- Analyzing customer needs and preferences
+- Competitive intelligence and positioning
+- Identifying market opportunities and threats
+
+### Basic 3-Step Workflow
+1. **Define research objectives** - What decisions will this research inform?
+2. **Design methodology** - Choose research methods (surveys, interviews, secondary data)
+3. **Analyze and report** - Extract insights and actionable recommendations
+
+**Time to complete**: 3-8 weeks depending on scope and methodology
+
+---
+
 ## Template
 
 ```

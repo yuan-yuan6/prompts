@@ -15,6 +15,30 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for conducting SWOT analysis including strengths assessment, weaknesses identification, opportunities exploration, threats evaluation, and strategic action planning for competitive positioning and decision-making.
 
+## Quick Start
+
+**Need to conduct a SWOT analysis quickly?** Use this minimal example:
+
+### Minimal Example
+```
+Conduct SWOT analysis for mid-sized manufacturing company entering e-commerce market. Strengths: 20 years industry experience, strong brand, quality products. Weaknesses: limited digital capabilities, small marketing team. Opportunities: growing online market, direct-to-consumer trend. Threats: established online competitors, supply chain complexity. Create 5-year strategic action plan.
+```
+
+### When to Use This
+- Strategic planning and business strategy development
+- Market entry or expansion decisions
+- Competitive positioning and differentiation
+- Annual planning and goal setting
+
+### Basic 3-Step Workflow
+1. **Assess internal factors** - Identify strengths and weaknesses objectively
+2. **Analyze external factors** - Explore opportunities and evaluate threats
+3. **Create action plan** - Leverage strengths, address weaknesses, capitalize on opportunities
+
+**Time to complete**: 2-4 hours for analysis, 1-2 days for comprehensive strategic plan
+
+---
+
 ## Template
 
 Conduct SWOT analysis for [ORGANIZATION_NAME] in [INDUSTRY_SECTOR] market, evaluating [ANALYSIS_SCOPE] scope, [TIME_HORIZON] timeframe, targeting [STRATEGIC_OBJECTIVES] objectives, with [STAKEHOLDER_COUNT] stakeholders, achieving [ACTION_ITEMS] priority actions and [ROI_EXPECTATION] expected return.

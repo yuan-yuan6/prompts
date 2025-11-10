@@ -19,6 +19,30 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for managing retail inventory across channels, optimizing stock levels, forecasting demand, managing suppliers, and maximizing inventory turnover while minimizing stockouts.
 
+## Quick Start
+
+**Need to optimize inventory management quickly?** Use this minimal example:
+
+### Minimal Example
+```
+Optimize inventory for an online retailer with 5,000 SKUs across 3 warehouses managing $2M in inventory. Current issues: 15% stockout rate, 4x inventory turnover, $300K in excess stock. Goals: reduce stockouts to 5%, increase turnover to 6x, implement demand forecasting. Focus on top 500 SKUs (80% of revenue).
+```
+
+### When to Use This
+- Optimizing inventory levels and reducing carrying costs
+- Improving demand forecasting and replenishment
+- Reducing stockouts and overstock situations
+- Managing multi-channel or multi-location inventory
+
+### Basic 3-Step Workflow
+1. **Analyze current state** - Stock levels, turnover, stockouts, excess inventory
+2. **Implement improvements** - Forecasting, reorder points, safety stock calculations
+3. **Monitor and optimize** - Track KPIs, adjust parameters, continuous improvement
+
+**Time to complete**: 2-3 days for analysis, 2-4 weeks for implementation
+
+---
+
 ## Template
 
 Optimize inventory management for [COMPANY_NAME] with [SKU_COUNT] SKUs across [LOCATION_COUNT] locations, managing $[INVENTORY_VALUE] in inventory, targeting [TURNOVER_TARGET] turns and [STOCKOUT_TARGET]% stockout rate.

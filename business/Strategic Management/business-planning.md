@@ -18,6 +18,30 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive business plans that cover strategy, roadmaps, and vision statements to guide organizational direction and secure stakeholder alignment.
 
+## Quick Start
+
+**Need to create a business plan quickly?** Use this minimal example:
+
+### Minimal Example
+```
+Create a business plan for a SaaS startup offering project management tools for small creative agencies. The company is pre-revenue, seeking $500K seed funding, targeting 50 customers in year one, and differentiating through design-first interface and agency-specific templates.
+```
+
+### When to Use This
+- Creating business plans for funding or strategic direction
+- Developing annual plans for existing divisions
+- Planning new product launches or market entry
+- Presenting strategy to investors or boards
+
+### Basic 3-Step Workflow
+1. **Define core elements** - Company overview, market, and financial goals
+2. **Develop strategy** - How you'll compete, grow, and succeed
+3. **Create roadmap** - Timeline, milestones, and resource needs
+
+**Time to complete**: 3-5 hours for focused plans, 1-2 days for comprehensive plans
+
+---
+
 ## Template
 
 ```

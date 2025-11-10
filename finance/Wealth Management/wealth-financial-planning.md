@@ -18,6 +18,30 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive financial planning strategies, wealth management frameworks, investment portfolios, and retirement plans that optimize financial outcomes, minimize taxes, and achieve long-term wealth preservation and growth objectives.
 
+## Quick Start
+
+**Need to create a financial plan quickly?** Use this minimal example:
+
+### Minimal Example
+```
+Create a financial plan for a 35-year-old professional with $150K annual income, $200K in savings, and $50K in retirement accounts. Goals: retire at 60 with $2M, buy a home in 3 years ($500K), save for 2 children's college ($200K total). Moderate risk tolerance, stable employment in tech industry.
+```
+
+### When to Use This
+- Creating comprehensive financial plans for individuals or families
+- Retirement planning and wealth accumulation strategies
+- Investment portfolio design and asset allocation
+- Tax optimization and estate planning
+
+### Basic 3-Step Workflow
+1. **Assess current state** - Net worth, income, expenses, goals, risk tolerance
+2. **Develop strategy** - Asset allocation, savings targets, investment approach
+3. **Create action plan** - Specific steps, timelines, and monitoring process
+
+**Time to complete**: 2-3 hours for basic plan, 1-2 days for comprehensive planning
+
+---
+
 ## Template
 
 ```

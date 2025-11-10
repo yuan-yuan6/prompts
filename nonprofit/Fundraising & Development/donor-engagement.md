@@ -17,6 +17,30 @@ last_updated: 2025-11-09
 ## Purpose
 Strategic framework for donor cultivation, engagement, stewardship, and retention across all giving levels, from major gifts to annual fund participants, including individual, corporate, and foundation donors.
 
+## Quick Start
+
+**Need to improve donor engagement quickly?** Use this minimal example:
+
+### Minimal Example
+```
+Create a donor engagement strategy for a nonprofit with 2,500 donors (average gift $250), 35% retention rate, $625K annual revenue. Goals: increase retention to 55%, grow major gifts ($10K+) from 5 to 15 donors, implement quarterly impact reports. Focus on stewardship of first-time donors and cultivation of high-capacity prospects.
+```
+
+### When to Use This
+- Building donor cultivation and stewardship programs
+- Improving donor retention and lifetime value
+- Developing major gifts pipelines and strategies
+- Creating personalized communication and engagement plans
+
+### Basic 3-Step Workflow
+1. **Segment donors** - By giving level, interests, engagement, and capacity
+2. **Design touchpoints** - Personalized cultivation strategies for each segment
+3. **Implement stewardship** - Systematic acknowledgment, reporting, and engagement
+
+**Time to complete**: 1-2 weeks for strategy, ongoing for implementation
+
+---
+
 ## Strategic Approach
 
 ### Donor Relationship Philosophy

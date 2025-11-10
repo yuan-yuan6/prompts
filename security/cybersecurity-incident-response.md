@@ -15,6 +15,30 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for cybersecurity incident response including threat detection, incident containment, forensic analysis, recovery procedures, threat hunting, security orchestration, and organizational resilience for protecting digital assets and infrastructure.
 
+## Quick Start
+
+**Need to create an incident response plan quickly?** Use this minimal example:
+
+### Minimal Example
+```
+Create incident response plan for a SaaS company with 500 employees, 10K customers, and $50M in digital assets. Requirements: detect threats within 15 minutes, contain incidents within 1 hour, recover within 4 hours. Include ransomware, data breach, and DDoS attack playbooks. Team: 3 security analysts, 24/7 on-call rotation.
+```
+
+### When to Use This
+- Building or updating incident response capabilities
+- Preparing for security audits or compliance requirements
+- Responding to active security incidents
+- Establishing SOC or security monitoring
+
+### Basic 3-Step Workflow
+1. **Prepare detection** - Set up monitoring, alerts, threat intelligence feeds
+2. **Create playbooks** - Document response procedures for common threats
+3. **Train team** - Run tabletop exercises and simulations
+
+**Time to complete**: 2-3 weeks for plan, 2-3 months for full implementation
+
+---
+
 ## Template
 
 Implement incident response for [ORGANIZATION_NAME] protecting [ASSET_VALUE] in digital assets, [USER_COUNT] users, [SYSTEM_COUNT] systems, achieving [RESPONSE_TIME] response time, [DETECTION_RATE]% threat detection, [RECOVERY_TIME] recovery objective, and [SECURITY_MATURITY] maturity level.

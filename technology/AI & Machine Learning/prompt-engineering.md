@@ -19,6 +19,35 @@ last_updated: 2025-11-09
 ## Purpose
 Design and optimize prompts for large language models including prompt templates, chains, agents, and advanced techniques for reliable, consistent, and effective AI interactions.
 
+## Quick Start
+
+**Need to create an effective prompt quickly?** Use this minimal example:
+
+### Minimal Example
+```
+Create a prompt for generating product descriptions for an e-commerce site. The prompt should:
+- Target GPT-4
+- Produce 150-200 word descriptions
+- Include key features, benefits, and a call-to-action
+- Maintain a friendly, persuasive tone
+- Work consistently across different product categories
+```
+
+### When to Use This
+- Designing prompts for specific business or technical tasks
+- Need consistent, reliable outputs from LLMs
+- Building AI-powered features or workflows
+- Optimizing existing prompts for better results
+
+### Basic 3-Step Workflow
+1. **Define the task** - Clearly state what output you need
+2. **Add constraints** - Specify format, tone, length, and requirements
+3. **Test and refine** - Try with examples and iterate based on results
+
+**Time to complete**: 15-30 minutes for basic prompts, 1-2 hours for complex chains
+
+---
+
 ## Template Structure
 
 ### Prompt Overview

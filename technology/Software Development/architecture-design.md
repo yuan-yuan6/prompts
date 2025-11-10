@@ -19,6 +19,30 @@ last_updated: 2025-11-09
 ## Purpose
 Design comprehensive system architectures including distributed systems, APIs, databases, microservices, and enterprise solutions with scalability, security, and maintainability considerations.
 
+## Quick Start
+
+**Need to design system architecture quickly?** Use this minimal example:
+
+### Minimal Example
+```
+Design architecture for an e-commerce platform handling 100K daily orders. Requirements: microservices for catalog, cart, checkout, payments; PostgreSQL for transactional data; Redis for sessions; Elasticsearch for search; message queue for order processing; RESTful APIs; support 10K concurrent users with 99.9% uptime.
+```
+
+### When to Use This
+- Designing new systems or applications from scratch
+- Refactoring monolithic applications to microservices
+- Planning scalability and high-availability architectures
+- Creating technical specifications for development teams
+
+### Basic 3-Step Workflow
+1. **Define requirements** - Functional, non-functional, constraints, scale
+2. **Design components** - Services, databases, APIs, integrations
+3. **Document decisions** - Architecture diagrams, trade-offs, rationale
+
+**Time to complete**: 1-2 days for initial design, 3-5 days for detailed architecture
+
+---
+
 ## Template Structure
 
 ### System Overview

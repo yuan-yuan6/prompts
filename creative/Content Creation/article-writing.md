@@ -18,6 +18,30 @@ last_updated: 2025-11-09
 ## Purpose
 Create compelling articles, blog posts, news stories, and feature pieces with engaging hooks, structured content, and clear calls-to-action for various publications and platforms.
 
+## Quick Start
+
+**Need to write an article quickly?** Use this minimal example:
+
+### Minimal Example
+```
+Write a 750-word blog post about "10 productivity tips for remote workers" with an engaging opening hook, actionable advice organized with subheadings, and a motivating conclusion. Use a friendly, conversational tone for professional readers aged 25-45.
+```
+
+### When to Use This
+- Writing blog posts, articles, or feature stories
+- Need structured content with clear takeaways
+- Creating SEO-optimized content for specific audiences
+- Publishing across multiple platforms or publications
+
+### Basic 3-Step Workflow
+1. **Define topic and audience** - Be specific about who and what
+2. **Set structure and tone** - Choose format, length, and voice
+3. **Generate and refine** - Create draft, then polish for clarity
+
+**Time to complete**: 20-45 minutes for blog posts, 1-2 hours for long-form articles
+
+---
+
 ## Template Structure
 
 ### Article Overview

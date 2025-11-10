@@ -17,6 +17,30 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive lesson plans with engaging learning activities, classroom management strategies, and effective instructional methods for diverse educational settings.
 
+## Quick Start
+
+**Need to create a lesson plan quickly?** Use this minimal example:
+
+### Minimal Example
+```
+Create a 45-minute lesson plan for 8th grade algebra teaching the concept of solving linear equations. Include warm-up activity, direct instruction with examples, guided practice, independent practice, and assessment. Use a mix of visual aids and hands-on activities for diverse learners. Class size: 25 students.
+```
+
+### When to Use This
+- Planning daily lessons for K-12 or higher education
+- Designing engaging learning activities and assessments
+- Structuring class time for maximum learning
+- Adapting instruction for diverse student needs
+
+### Basic 3-Step Workflow
+1. **Define objectives** - What students should know/do by lesson end
+2. **Design activities** - Engaging tasks that build toward objectives
+3. **Plan assessment** - How you'll know students learned the content
+
+**Time to complete**: 30-60 minutes for standard lesson, 1-2 hours for complex lessons
+
+---
+
 ## Template
 
 ```

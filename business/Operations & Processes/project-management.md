@@ -18,6 +18,30 @@ last_updated: 2025-11-09
 ## Purpose
 Create comprehensive project management frameworks covering project planning, tracking, and reporting to ensure successful project delivery and stakeholder satisfaction.
 
+## Quick Start
+
+**Need to create a project plan quickly?** Use this minimal example:
+
+### Minimal Example
+```
+Create a project plan for migrating customer data to a new CRM system. Timeline is 4 months, budget is $150K, team of 5 people. Key deliverables: data mapping, migration scripts, testing, and training. Main risks: data quality issues and user adoption.
+```
+
+### When to Use This
+- Planning new projects from scratch
+- Structuring complex initiatives with multiple workstreams
+- Managing software, infrastructure, or business transformation projects
+- Ensuring stakeholder alignment and tracking progress
+
+### Basic 3-Step Workflow
+1. **Define scope and objectives** - What will be delivered and why
+2. **Plan timeline and resources** - Schedule, budget, and team needs
+3. **Identify risks and dependencies** - What could go wrong and how to mitigate
+
+**Time to complete**: 2-4 hours for project plan, ongoing for execution tracking
+
+---
+
 ## Template
 
 ```
