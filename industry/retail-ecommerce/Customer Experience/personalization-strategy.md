@@ -19,6 +19,31 @@ last_updated: 2025-11-09
 ## Purpose
 Strategic framework for implementing personalization across the customer journey, optimizing user experience, increasing conversion rates, and building customer loyalty through data-driven customization.
 
+## Quick Start
+
+**Need to add personalization to your e-commerce site quickly?** Use this minimal example:
+
+### Minimal Example
+```
+Design personalization strategy for an online beauty retailer with 200K customers and 1M monthly visitors. Current state: generic homepage for all users, basic product recommendations. Goals: increase conversion rate from 2% to 3%, boost average order value by 20%, implement personalized product recommendations, email personalization, and dynamic homepage content.
+```
+
+### When to Use This
+- Launching product recommendation engines
+- Creating personalized customer experiences
+- Improving conversion rates through targeted content
+- Reducing cart abandonment with behavioral triggers
+- Increasing customer lifetime value through relevance
+
+### Basic 3-Step Workflow
+1. **Segment and analyze** - Define customer segments, analyze behavior data, identify opportunities
+2. **Implement personalization** - Deploy recommendation engine, create dynamic content, set up triggers
+3. **Test and optimize** - Run A/B tests, measure performance, refine algorithms and strategies
+
+**Time to complete**: 2-3 weeks for strategy, 2-4 months for implementation
+
+---
+
 ## Template
 
 Design personalization strategy for [COMPANY_NAME] with [CUSTOMER_COUNT] customers, [MONTHLY_VISITORS] monthly visitors, targeting [CONVERSION_TARGET]% conversion rate and [AOV_TARGET] average order value improvement.

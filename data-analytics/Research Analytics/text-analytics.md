@@ -19,6 +19,43 @@ last_updated: 2025-11-09
 ## Purpose
 Conduct comprehensive text mining and natural language processing analysis to extract insights, patterns, sentiments, topics, and knowledge from unstructured text data using advanced NLP techniques and machine learning methods.
 
+## Quick Start
+
+**Example: Customer Review Sentiment and Topic Analysis**
+
+```
+You are a text analytics expert. Analyze 50,000 customer product reviews from an e-commerce platform to understand sentiment drivers, identify key topics, and extract actionable insights for product improvement.
+
+TEXT DATA OVERVIEW:
+- Data source: E-commerce product reviews
+- Volume: 50,000 reviews (2.5 million words)
+- Product categories: Electronics, Home & Kitchen, Beauty, Sports
+- Time period: Last 12 months
+- Rating distribution: 1-5 stars with text comments
+- Languages: English
+- Average review length: 50 words
+- Format: CSV with fields (review_id, product_id, rating, review_text, date, verified_purchase)
+
+ANALYSIS OBJECTIVES:
+1. Perform multi-method sentiment analysis (VADER, TextBlob, transformer models)
+2. Conduct aspect-based sentiment analysis for product features (quality, price, shipping, customer service)
+3. Extract main topics using LDA and BERTopic (target: 8-10 topics)
+4. Identify key themes in negative reviews (1-2 star ratings)
+5. Extract frequently mentioned product features and pain points
+6. Compare sentiment trends across product categories and over time
+7. Build classification model to predict review helpfulness
+
+EXPECTED OUTPUTS:
+- Overall sentiment distribution and trends
+- Aspect-level sentiment scores with example quotes
+- Topic model with top keywords and representative reviews
+- Word clouds for positive vs. negative reviews
+- Named entities (products, brands, features mentioned)
+- Actionable insights ranked by impact and frequency
+
+Use VADER for initial sentiment scoring, then apply transformer-based models for nuanced analysis. Extract topics with coherence scores > 0.4 for interpretability.
+```
+
 ## Template
 
 ```

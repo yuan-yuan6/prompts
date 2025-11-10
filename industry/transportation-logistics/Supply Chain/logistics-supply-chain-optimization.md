@@ -19,6 +19,40 @@ last_updated: 2025-11-09
 ## Purpose
 Advanced framework for end-to-end supply chain optimization, network design, inventory management, demand planning, and logistics coordination across global supply networks.
 
+## Quick Start
+
+### For Supply Chain Managers & Logistics Directors
+Start with a network optimization pilot:
+1. Set `[COMPANY_NAME]` to your organization
+2. Define `[SKU_COUNT]` = start with top 500 SKUs (80/20 rule)
+3. Map `[SUPPLIER_COUNT]` = 20-30 key suppliers initially
+4. Set `[DC_COUNT]` = 3-5 strategic distribution centers
+5. Focus on `[CUSTOMER_COUNT]` = top 100 customers first
+6. Set baseline `[VOLUME]` = annual units for pilot scope
+
+### Example Starting Configuration
+```
+Company: Regional Distributor Inc
+SKU Count: 500 (top movers)
+Suppliers: 25 strategic partners
+Distribution Centers: 4 (regional hubs)
+Customers: 150 key accounts
+Annual Volume: 5M units
+Geographic Scope: Multi-state region
+Current Perfect Order Rate: 85%
+Target Fill Rate: 98%
+Inventory Turns: 8x (target: 12x)
+```
+
+### Key First Steps
+- Map current supply chain network nodes and flows
+- Establish baseline metrics: fill rate, on-time delivery, inventory turns
+- Collect 12 months of demand history for forecasting
+- Document current transportation modes and costs
+- Identify top 3 pain points: stockouts, excess inventory, or transit delays
+- Run initial demand forecast using historical data
+- Calculate current cost-to-serve by customer segment
+
 ## Template
 
 Design and optimize supply chain network for [COMPANY_NAME] with [SKU_COUNT] SKUs, [SUPPLIER_COUNT] suppliers, [DC_COUNT] distribution centers, serving [CUSTOMER_COUNT] customers with annual volume of [VOLUME] units.

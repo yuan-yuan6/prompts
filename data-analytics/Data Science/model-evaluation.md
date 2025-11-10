@@ -19,6 +19,31 @@ last_updated: 2025-11-09
 ## Purpose
 Design and implement comprehensive model evaluation and validation frameworks to assess model performance, reliability, fairness, and business impact across diverse machine learning applications.
 
+## Quick Start
+
+**Need to evaluate a model quickly?** Use this minimal example:
+
+### Minimal Example
+```
+Evaluate binary classification model for fraud detection. Metrics: AUC-ROC=0.89, Precision=0.76, Recall=0.82 at optimal threshold. Validation: 5-fold cross-validation, hold-out test set (temporal split). Fairness: check demographic parity across age/gender. Business impact: prevent $2M in fraud annually. Decision: approve for production with monitoring.
+```
+
+### When to Use This
+- Validating model performance before deployment
+- Comparing multiple models or algorithms
+- Ensuring fairness and lack of bias
+- Assessing business value and ROI
+- Meeting regulatory compliance requirements
+
+### Basic 3-Step Workflow
+1. **Performance metrics** - Calculate accuracy, precision, recall, AUC, RMSE based on problem type
+2. **Validation strategy** - Use cross-validation, hold-out sets, temporal validation to assess generalization
+3. **Business validation** - A/B test results, ROI calculation, stakeholder approval
+
+**Time to complete**: 2-3 days for standard evaluation, 1-2 weeks for comprehensive validation with A/B testing
+
+---
+
 ## Template
 
 ```

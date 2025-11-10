@@ -19,6 +19,18 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for time series analysis, forecasting, anomaly detection, and pattern recognition including statistical methods, machine learning approaches, and real-time streaming analytics.
 
+## Quick Start
+
+Launch your time series analysis in 4 steps:
+
+1. **Characterize Your Data**: Define your time series (e.g., "sales forecasting analyzing 5 metrics with daily frequency, 3 years historical data, forecasting 30 days ahead with 95% accuracy").
+
+2. **Analyze Patterns**: Perform decomposition (trend, seasonal, residual), test for stationarity (ADF test), identify autocorrelation (ACF/PACF plots), and detect seasonality patterns.
+
+3. **Select Forecasting Model**: Choose ARIMA (simple patterns), Prophet (multiple seasonality), LSTM (complex non-linear), XGBoost (feature-rich), or Ensemble (best accuracy) based on data characteristics and accuracy requirements.
+
+4. **Validate and Deploy**: Split data chronologically, perform walk-forward validation, evaluate metrics (RMSE, MAE, MAPE), implement real-time streaming (if needed), and set up anomaly detection alerts.
+
 ## Template
 
 Develop time series analysis solution for [DOMAIN] analyzing [METRIC_COUNT] metrics with [DATA_FREQUENCY] frequency, [HISTORY_LENGTH] historical data, forecasting [HORIZON] periods ahead with [ACCURACY_TARGET]% accuracy.

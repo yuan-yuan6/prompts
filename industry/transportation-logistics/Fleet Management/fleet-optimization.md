@@ -19,6 +19,41 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for fleet operations management, vehicle optimization, route planning, maintenance scheduling, and total cost of ownership analysis for commercial and logistics fleets.
 
+## Quick Start
+
+### For Fleet Managers & Transportation Directors
+Start with a fleet baseline assessment:
+1. Set `[COMPANY_NAME]` to your organization
+2. Define `[FLEET_SIZE]` = total vehicle count
+3. Map `[GEOGRAPHIC_AREA]` = service territory/coverage area
+4. Calculate `[TOTAL_MILEAGE]` = annual miles across fleet
+5. Set `[BUDGET]` = current annual operating budget
+6. Identify 3-5 key routes for optimization pilot
+
+### Example Starting Configuration
+```
+Company: Metro Delivery Services
+Fleet Size: 150 vehicles (100 vans, 50 trucks)
+Geographic Area: Metropolitan region (500 sq miles)
+Annual Mileage: 3M miles
+Budget: $5.2M annually
+Fleet Mix: 80% light duty, 20% medium duty
+Average Age: 4.5 years
+Current Utilization: 65%
+Cost per Mile: $1.73
+Target: Reduce to $1.50/mile
+```
+
+### Key First Steps
+- Install GPS tracking on all vehicles (if not present)
+- Collect 30 days of route and utilization data
+- Document current maintenance schedule and costs
+- Calculate baseline metrics: utilization %, cost/mile, downtime %
+- Identify top 5 most utilized and least utilized vehicles
+- Run route optimization on highest-volume routes first
+- Assess EV candidates among light-duty vehicles
+- Review driver safety scores and fuel efficiency patterns
+
 ## Template
 
 Optimize fleet operations for [COMPANY_NAME] managing [FLEET_SIZE] vehicles across [GEOGRAPHIC_AREA] with annual mileage of [TOTAL_MILEAGE] and operational budget of $[BUDGET].

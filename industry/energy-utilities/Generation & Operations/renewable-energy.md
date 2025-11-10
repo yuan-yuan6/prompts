@@ -18,6 +18,38 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive renewable energy planning, deployment, and optimization framework for solar, wind, hydro, and emerging renewable technologies.
 
+## Quick Start
+
+### For Power Plant Operators & Project Developers
+Start with a renewable energy site optimization:
+1. Set `[PROJECT_NAME]` to your plant or project identifier
+2. Define `[LOCATION]` with specific coordinates and region
+3. Set `[CAPACITY_MW]` = 50-100 MW for utility-scale projects
+4. Allocate `[BUDGET]` = $75-150M for development and construction
+5. Configure technology mix based on resource assessment results
+6. Plan for 4-6 month resource assessment period
+
+### Example Starting Configuration
+```
+Project: Desert Sun Solar Farm
+Location: Southwest Arizona
+Capacity: 75 MW solar PV
+Budget: $90M
+DNI: 6.5 kWh/m²/day
+Technology: Bifacial panels with single-axis tracking
+Storage: 30 MWh battery system
+Grid: 138 kV interconnection, 5 miles to substation
+Expected Performance Ratio: 85%
+```
+
+### Key First Steps
+- Install meteorological stations for 6-12 months of data
+- Complete preliminary grid impact study
+- Assess land availability and environmental constraints
+- Run technology selection matrix for LCOE optimization
+- Develop preliminary O&M strategy and cost projections
+- Secure site control and begin permitting process
+
 ## Template
 
 Analyze and optimize renewable energy systems for [PROJECT_NAME] at [LOCATION] with capacity target of [CAPACITY_MW] MW and investment budget of [BUDGET].

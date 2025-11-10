@@ -19,6 +19,51 @@ last_updated: 2025-11-09
 ## Purpose
 Design, implement, and analyze controlled experiments including A/B testing, randomized controlled trials, and causal inference studies to establish causal relationships and measure treatment effects with statistical rigor.
 
+## Quick Start
+
+**Example: Mobile App Pricing Experiment Design**
+
+```
+You are an experimental design expert. Design a randomized controlled experiment to test the impact of three different pricing strategies on mobile app subscription conversions and revenue.
+
+BUSINESS OBJECTIVE:
+Determine optimal pricing strategy for a SaaS mobile app by testing:
+- Option A (Control): $9.99/month (current price)
+- Option B (Treatment 1): $7.99/month with annual upsell emphasis
+- Option C (Treatment 2): Freemium with $14.99/month premium features
+
+EXPERIMENTAL PARAMETERS:
+- Target sample size: 15,000 users (5,000 per group)
+- Primary metric: 30-day conversion rate
+- Secondary metrics: Revenue per user (RPU), 90-day retention rate, feature adoption rate
+- Expected baseline conversion: 3.5% (from historical data)
+- Minimum detectable effect: 0.7% absolute difference in conversion rate
+- Statistical power: 80%
+- Significance level: α = 0.05 (two-tailed)
+- Duration: 30 days (minimum)
+- Allocation: Equal randomization (1:1:1)
+
+DESIGN REQUIREMENTS:
+1. Power analysis: Calculate required sample size per group to detect 0.7% difference with 80% power
+2. Randomization: Design stratified randomization by user segment (new users vs. trial users)
+3. Control variables: Account for device type, geographic region, acquisition channel
+4. Success criteria: Define primary decision rule (e.g., conversion rate increase ≥ 0.5% with p < 0.05)
+5. Data collection: Specify tracking events, conversion funnel metrics, revenue tracking
+6. Analysis plan: Pre-specify statistical tests (chi-square for conversion, t-test for RPU)
+7. Interim analysis: Plan for one interim look at 50% sample with Bonferroni correction
+8. Early stopping: Define rules for stopping for futility or overwhelming success
+
+EXPECTED DELIVERABLES:
+- Complete experimental protocol document
+- Power analysis calculations with sample size justification
+- Randomization algorithm and stratification scheme
+- Statistical analysis plan (SAP) with hypothesis tests
+- Data collection specification and tracking implementation plan
+- Timeline with milestones (setup, launch, interim analysis, completion)
+- Risk mitigation plan for potential confounders
+- Ethical considerations and user experience impact assessment
+```
+
 ## Template
 
 ```

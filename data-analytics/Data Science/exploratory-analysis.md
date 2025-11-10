@@ -19,6 +19,31 @@ last_updated: 2025-11-09
 ## Purpose
 Conduct comprehensive exploratory data analysis to understand data characteristics, identify patterns, detect anomalies, and prepare insights for advanced analytics and modeling.
 
+## Quick Start
+
+**Need to analyze a dataset quickly?** Use this minimal example:
+
+### Minimal Example
+```
+Perform EDA on e-commerce transaction dataset with 100K rows, 25 columns (15 numeric, 10 categorical). Analyze: customer demographics, purchase patterns, revenue distribution. Deliverables: statistical summary, correlation heatmap, key visualizations, data quality report, actionable insights for marketing team.
+```
+
+### When to Use This
+- Understanding new datasets before modeling
+- Identifying data quality issues and anomalies
+- Discovering patterns and relationships in data
+- Generating hypotheses for further analysis
+- Preparing data insights for stakeholders
+
+### Basic 3-Step Workflow
+1. **Data profiling** - Load data, check dimensions, types, missing values, basic statistics
+2. **Visual exploration** - Create distributions, correlations, time series plots, segment analysis
+3. **Insight generation** - Identify patterns, anomalies, relationships, business implications
+
+**Time to complete**: 1-3 days for standard EDA, 1-2 weeks for comprehensive deep-dive
+
+---
+
 ## Template
 
 ```

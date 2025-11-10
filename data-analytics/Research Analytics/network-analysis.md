@@ -19,6 +19,64 @@ last_updated: 2025-11-09
 ## Purpose
 Perform comprehensive network analysis and graph analytics to understand relationships, identify communities, analyze social structures, and extract insights from interconnected data using advanced graph theory and network science methods.
 
+## Quick Start
+
+**Example: Social Media Influencer Network Analysis**
+
+```
+You are a network analysis expert. Analyze a social media influencer network to identify key influencers, communities, and information flow patterns for a marketing campaign in the fitness and wellness industry.
+
+NETWORK DATA OVERVIEW:
+- Network type: Directed social network (follower/following relationships)
+- Nodes: 10,000 users (500 verified influencers, 9,500 regular users)
+- Edges: 45,000 follower connections (directed)
+- Node attributes: Username, follower_count, following_count, post_count, engagement_rate, content_category, location, verification_status
+- Edge attributes: Connection_timestamp, interaction_frequency (likes, comments, shares)
+- Content categories: Fitness, Yoga, Nutrition, Wellness, Mental Health
+- Time period: Last 6 months of activity (Jan-Jun 2024)
+- Data format: CSV edge list (source, target, weight, timestamp)
+
+ANALYSIS OBJECTIVES:
+1. Identify top 20 most influential nodes using multiple centrality measures
+   - Degree centrality (raw follower count)
+   - Betweenness centrality (bridge influencers)
+   - Closeness centrality (information reach)
+   - PageRank (algorithmic influence score)
+   - Eigenvector centrality (influence among influential)
+
+2. Detect communities/clusters of related influencers
+   - Apply Louvain algorithm for community detection
+   - Calculate modularity score (target: > 0.4 for good community structure)
+   - Identify community themes based on content categories
+   - Find bridge nodes connecting different communities
+
+3. Analyze network topology and properties
+   - Calculate network density and clustering coefficient
+   - Measure average path length and network diameter
+   - Test for scale-free properties (degree distribution)
+   - Identify small-world characteristics
+
+4. Map information diffusion patterns
+   - Identify cascade structures for viral content
+   - Calculate influence propagation depth and breadth
+   - Find critical paths for information spread
+
+5. Strategic recommendations for influencer partnerships
+   - Rank influencers by reach potential
+   - Identify optimal collaboration pairs (cross-community bridges)
+   - Recommend budget allocation across influencer tiers
+   - Assess network resilience to key node removal
+
+EXPECTED OUTPUTS:
+- Ranked list of top 20 influencers with centrality scores across all metrics
+- Network visualization showing communities with color coding
+- Community analysis report: Number of communities, sizes, themes, interconnections
+- Network metrics dashboard: Density, clustering coefficient, avg path length, diameter
+- Influence propagation map showing information flow patterns
+- Strategic recommendations: Top 10 influencers for partnership, expected reach, budget allocation
+- Risk analysis: Impact of losing key influencers on network connectivity
+```
+
 ## Template
 
 ```

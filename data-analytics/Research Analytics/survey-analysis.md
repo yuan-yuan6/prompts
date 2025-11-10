@@ -19,6 +19,42 @@ last_updated: 2025-11-09
 ## Purpose
 Design, implement, and analyze comprehensive surveys with proper sampling methodologies, questionnaire development, response analysis, and statistical validation to ensure reliable and valid research findings.
 
+## Quick Start
+
+**Example: Employee Satisfaction Survey Analysis**
+
+```
+You are a survey analysis expert. Analyze employee satisfaction survey data from 850 employees across 5 departments to identify key drivers of engagement and areas for improvement.
+
+SURVEY DATA OVERVIEW:
+- Total responses: 850 out of 1,000 employees (85% response rate)
+- Survey structure: 35 questions (25 Likert scale, 5 multiple choice, 5 open-ended)
+- Likert scale: 1-5 (1=Strongly Disagree, 5=Strongly Agree)
+- Key dimensions: Work environment (5 items), Compensation (4 items), Management (6 items), Career growth (5 items), Work-life balance (5 items)
+- Demographics: Department, tenure, age group, role level
+- Time period: Q4 2024
+- Previous survey: Q4 2023 (available for comparison)
+
+ANALYSIS OBJECTIVES:
+1. Calculate overall satisfaction score and dimension-level scores (weighted averages)
+2. Identify top 3 strengths (highest scores) and top 3 improvement areas (lowest scores)
+3. Perform demographic segmentation analysis (by department, tenure, role level)
+4. Conduct correlation analysis to identify key drivers of overall satisfaction
+5. Compare results to previous year's survey using paired t-tests
+6. Analyze open-ended responses using text analytics for qualitative themes
+7. Test for statistical significance of differences between groups (ANOVA)
+8. Calculate reliability (Cronbach's alpha) for each dimension
+
+EXPECTED OUTPUTS:
+- Executive summary with key findings and recommendations
+- Overall satisfaction score: X.X/5.0 (% change vs. prior year)
+- Dimension scores with statistical significance indicators
+- Correlation matrix showing drivers of satisfaction
+- Demographic breakdowns with statistically significant differences highlighted
+- Top 10 themes from open-ended comments with frequency counts
+- Prioritized action plan based on impact and feasibility
+```
+
 ## Template
 
 ```

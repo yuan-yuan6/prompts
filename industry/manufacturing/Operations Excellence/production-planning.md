@@ -17,6 +17,22 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for manufacturing production planning including capacity management, scheduling optimization, resource allocation, workflow design, and continuous improvement strategies.
 
+## Quick Start
+
+**Get started in 3 steps:**
+
+1. **Baseline Current Performance** - Measure current OEE (Overall Equipment Effectiveness), lead times, on-time delivery percentage, and inventory turns. Document production bottlenecks and constraint resources.
+
+2. **Implement Basic Scheduling** - Start with simple finite capacity scheduling for your bottleneck operation. Create visual production board showing daily schedule, priorities, and actual vs. planned output.
+
+3. **Optimize Changeovers** - Identify your top 3 time-consuming changeovers. Document current setup process, separate internal vs. external activities, and target 25% reduction in first 30 days using SMED basics.
+
+**First Week Actions:**
+- Calculate takt time based on customer demand and available production time
+- Identify production bottleneck through capacity analysis
+- Create visual production schedule board for one week horizon
+- Document current changeover times and procedures for critical equipment
+
 ## Template
 
 Develop production planning system for [COMPANY_NAME] with [PRODUCT_LINES] product lines, [PRODUCTION_VOLUME] units/month, [MACHINE_COUNT] machines, targeting [OEE_TARGET]% OEE, [THROUGHPUT_TARGET] throughput increase, and [COST_REDUCTION]% cost reduction.

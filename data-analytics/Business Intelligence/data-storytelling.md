@@ -19,6 +19,30 @@ last_updated: 2025-11-09
 ## Purpose
 Create compelling data narratives that transform complex analytical insights into engaging presentations, drive stakeholder alignment, and inspire data-driven action through effective storytelling techniques and contextual insights.
 
+## Quick Start
+
+**Need to present data insights quickly?** Use this minimal example:
+
+### Minimal Example
+```
+Transform quarterly sales analysis into an executive story: Start with the headline finding ("Sales declined 15% due to Q3 market shift"), show supporting visualizations (revenue trend chart, regional breakdown), explain the root cause, and end with 2-3 clear recommendations with expected impact. Keep it to 5-7 slides max.
+```
+
+### When to Use This
+- Executive presentations and board reports
+- Stakeholder communications and updates
+- Data-driven decision making sessions
+- Change management and initiative proposals
+
+### Basic 3-Step Workflow
+1. **Find the story** - Identify the key insight or message from your data
+2. **Build the narrative** - Structure as problem-insight-recommendation flow
+3. **Visualize clearly** - Use simple, impactful charts that support your message
+
+**Time to complete**: 1-2 days for basic presentation, 1 week for comprehensive narrative
+
+---
+
 ## Template
 
 ```

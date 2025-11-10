@@ -19,6 +19,31 @@ last_updated: 2025-11-09
 ## Purpose
 Design comprehensive data governance frameworks including data lineage tracking systems, data dictionary management, schema documentation automation, metadata management, and enterprise data governance programs for modern data platforms.
 
+## Quick Start
+
+### For Data Engineers
+Set up data documentation and lineage in 3 steps:
+
+1. **Initialize Metadata Repository**
+   - Deploy metadata management system with schema registry and lineage tracker
+   - Register data assets: Use `register_data_asset()` (lines 108-214) for tables, APIs, files
+   - Capture metadata: Business context, technical specs, quality scores, governance tags
+   - Example: Include `business_owner`, `data_domain`, `sensitivity_tags`, `compliance_tags` for each asset
+
+2. **Implement Lineage Tracking**
+   - **Automated Discovery**: Parse SQL, ETL configs, and API calls to extract lineage (lines 365-548)
+   - **Column-Level Tracking**: Map source columns to targets with transformation logic
+   - **Impact Analysis**: Identify upstream dependencies and downstream impacts (lines 549-585)
+   - Use `DataLineageTracker` to discover system, table, and column-level lineage
+
+3. **Generate Documentation**
+   - **Schema Docs**: Auto-generate table and column documentation from metadata (lines 738-1055)
+   - **Data Dictionary**: Create business glossary with terms, definitions, and usage context
+   - **Lineage Visualization**: Generate interactive graphs showing data flow with `generate_lineage_visualization()` (587-620)
+   - Set up automated doc generation in HTML, PDF, or Confluence formats
+
+**Key Template Sections**: Metadata management (69-361), Lineage tracking (363-733), Documentation generation (736-1055), Governance workflows (1057-1491)
+
 ## Template
 
 ```

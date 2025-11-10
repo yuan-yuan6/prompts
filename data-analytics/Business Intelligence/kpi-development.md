@@ -18,6 +18,28 @@ last_updated: 2025-11-09
 ## Overview
 This comprehensive template enables organizations to develop, implement, and manage sophisticated Key Performance Indicator (KPI) frameworks that drive strategic decision-making and operational excellence. It covers everything from KPI identification and design to measurement, monitoring, and continuous optimization.
 
+## Quick Start
+
+**Need to develop KPIs quickly?** Use this minimal example:
+
+### Minimal Example
+```
+Design a KPI framework for tracking sales team performance. Include 3-5 key metrics: monthly revenue growth, conversion rate (leads to deals), average deal size, customer acquisition cost (CAC), and sales cycle length. Set up dashboards showing current values, targets, and trends for each metric.
+```
+
+### When to Use This
+- Establishing performance measurement systems
+- Aligning metrics with strategic goals
+- Creating executive dashboards and scorecards
+- Improving data-driven decision making
+
+### Basic 3-Step Workflow
+1. **Identify objectives** - What business outcomes do you want to measure?
+2. **Select metrics** - Choose 3-7 KPIs that directly reflect those outcomes
+3. **Set targets and track** - Define success thresholds and monitor progress
+
+**Time to complete**: 2-3 days for basic KPI framework, 2-4 weeks for comprehensive system
+
 ---
 
 ## Section 1: Strategic KPI Framework Development

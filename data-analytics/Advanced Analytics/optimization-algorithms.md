@@ -19,6 +19,18 @@ last_updated: 2025-11-09
 ## Purpose
 Comprehensive framework for solving optimization problems including linear programming, integer programming, constraint optimization, heuristic methods, and real-world application of operations research techniques.
 
+## Quick Start
+
+Solve optimization problems in 4 steps:
+
+1. **Formulate the Problem**: Define your optimization (e.g., "supply chain network optimization with 500 decision variables, 200 constraints, minimizing cost objective, using mixed-integer programming, achieving 2% optimality gap in 45 minutes").
+
+2. **Choose Algorithm Type**: Select Linear Programming (Simplex/Interior Point for continuous), Integer Programming (Branch & Cut for discrete), Nonlinear Programming (gradient methods), Constraint Programming (propagation rules), or Heuristics (GA, Simulated Annealing for large-scale).
+
+3. **Configure Solver**: Set up solver (Gurobi, CPLEX, OR-Tools), define objective function, specify constraints and bounds, configure algorithm parameters (MIP gap tolerance, time limits, preprocessing), and enable parallelization.
+
+4. **Validate and Deploy**: Test solution feasibility, verify optimality, perform sensitivity analysis on key parameters, integrate with data pipeline, deploy to production environment, and monitor performance metrics.
+
 ## Template
 
 Develop optimization solution for [PROBLEM_NAME] with [VARIABLE_COUNT] decision variables, [CONSTRAINT_COUNT] constraints, optimizing [OBJECTIVE_FUNCTION] objective, using [ALGORITHM_TYPE] algorithm, achieving [OPTIMALITY_GAP]% optimality gap and [SOLUTION_TIME] solution time.

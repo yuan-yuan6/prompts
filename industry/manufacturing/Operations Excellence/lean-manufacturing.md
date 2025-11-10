@@ -16,6 +16,22 @@ last_updated: 2025-11-09
 ## Purpose
 Implement comprehensive lean manufacturing systems, waste elimination strategies, continuous improvement frameworks, and operational excellence initiatives that maximize efficiency, quality, and value creation while minimizing costs and lead times.
 
+## Quick Start
+
+**Get started in 3 steps:**
+
+1. **Choose Pilot Area** - Select one production line or cell (preferably high-volume, visible, with supportive supervision). Avoid your most complex or problematic area for first lean initiative.
+
+2. **Map Current State** - Spend 2-3 days walking the floor and creating a value stream map. Document current lead time, inventory levels, process steps, and waste observations. Calculate value-added ratio.
+
+3. **Run 5S Event** - Conduct a 3-day 5S implementation in your pilot area. Sort (red tag unneeded items), organize tools/materials, clean, standardize, and establish daily audit system. This builds momentum and engagement.
+
+**First Week Actions:**
+- Walk the gemba (shop floor) daily and observe waste (waiting, transport, excess motion)
+- Conduct value stream mapping workshop with cross-functional team
+- Launch 5S pilot area with team participation
+- Establish visual metrics board showing OEE, lead time, quality
+
 ## Strategic Approach
 
 ### Lean Transformation Philosophy
