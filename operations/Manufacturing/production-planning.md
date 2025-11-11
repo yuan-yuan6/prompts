@@ -8,7 +8,7 @@ use_cases:
   - Project planning and execution
   - Strategy development
 related_templates:
-  - quality-management.md
+  - industry/manufacturing/quality-management.md
 last_updated: 2025-11-09
 ---
 

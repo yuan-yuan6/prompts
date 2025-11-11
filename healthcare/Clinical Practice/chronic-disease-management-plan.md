@@ -7,9 +7,9 @@ use_cases:
   - Creating long-term care strategies with lifestyle modifications
   - Managing patients with multiple chronic conditions
 related_templates:
-  - acute-care-treatment-plan.md
-  - mental-health-treatment-plan.md
-  - patient-care-pathway.md
+  - healthcare/Clinical Practice/acute-care-treatment-plan.md
+  - healthcare/Clinical Practice/mental-health-treatment-plan.md
+  - healthcare/patient-care-pathway.md
 last_updated: 2025-11-09
 ---
 

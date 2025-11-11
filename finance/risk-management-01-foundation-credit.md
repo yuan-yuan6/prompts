@@ -7,9 +7,9 @@ use_cases:
   - Establishing risk culture and organizational structure
   - Implementing credit risk frameworks
 related_templates:
-  - risk-management-02-market-operational.md
-  - risk-management-03-compliance-innovation.md
-  - risk-management-overview.md
+  - finance/risk-management-02-market-operational.md
+  - finance/risk-management-03-compliance-innovation.md
+  - finance/risk-management-overview.md
 part: 1 of 3
 last_updated: 2025-11-11
 ---

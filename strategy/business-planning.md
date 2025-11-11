@@ -7,9 +7,9 @@ use_cases:
   - Create strategic roadmap for new product launch
   - Develop annual business plan for existing division or business unit
 related_templates:
-  - okr-implementation-framework.md
-  - digital-transformation-roadmap.md
-  - lean-six-sigma-implementation.md
+  - business/okr-implementation-framework.md
+  - business/digital-transformation-roadmap.md
+  - business/lean-six-sigma-implementation.md
 last_updated: 2025-11-09
 ---
 

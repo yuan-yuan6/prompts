@@ -7,9 +7,9 @@ use_cases:
   - Analyzing query execution patterns, resource consumption, and wait statistics
   - Profiling query execution plans to identify optimization opportunities
 related_templates:
-  - query-optimization-indexing-strategies.md
-  - query-optimization-monitoring-tuning.md
-  - query-optimization-overview.md
+  - data-analytics/Analytics Engineering/query-optimization-indexing-strategies.md
+  - data-analytics/Analytics Engineering/query-optimization-monitoring-tuning.md
+  - data-analytics/Analytics Engineering/query-optimization-overview.md
 last_updated: 2025-11-10
 ---
 

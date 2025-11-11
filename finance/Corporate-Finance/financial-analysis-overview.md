@@ -7,11 +7,11 @@ use_cases:
   - Selecting the right analysis template
   - Comprehensive financial analysis guidance
 related_templates:
-  - financial-statement-analysis.md
-  - financial-ratio-analysis.md
-  - financial-forecasting.md
-  - financial-risk-assessment.md
-  - financial-valuation-recommendations.md
+  - finance/Corporate-Finance/financial-statement-analysis.md
+  - finance/Corporate-Finance/financial-ratio-analysis.md
+  - finance/Corporate-Finance/financial-forecasting.md
+  - finance/Corporate-Finance/financial-risk-assessment.md
+  - finance/Corporate-Finance/financial-valuation-recommendations.md
 last_updated: 2025-11-09
 ---
 

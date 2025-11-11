@@ -7,9 +7,9 @@ use_cases:
   - Conducting scenario and sensitivity analysis
   - Developing risk mitigation strategies
 related_templates:
-  - financial-statement-analysis.md
-  - financial-forecasting.md
-  - financial-valuation-recommendations.md
+  - finance/Corporate-Finance/financial-statement-analysis.md
+  - finance/Corporate-Finance/financial-forecasting.md
+  - finance/Corporate-Finance/financial-valuation-recommendations.md
 last_updated: 2025-11-09
 ---
 

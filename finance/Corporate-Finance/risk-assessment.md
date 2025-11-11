@@ -7,9 +7,9 @@ use_cases:
   - Professional use
   - Project implementation
 related_templates:
-  - treasury-management.md
+  - finance/Corporate-Finance/treasury-management.md
   - financial-analysis.md
-  - investment-evaluation.md
+  - finance/Corporate-Finance/investment-evaluation.md
 last_updated: 2025-11-09
 ---
 

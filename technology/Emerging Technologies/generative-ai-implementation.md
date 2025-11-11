@@ -7,9 +7,9 @@ use_cases:
   - Project planning and execution
   - Strategy development
 related_templates:
-  - cloud-architecture-framework.md
-  - site-reliability-engineering.md
-  - cloud-migration-strategy.md
+  - technology/cloud-architecture-framework.md
+  - technology/site-reliability-engineering.md
+  - technology/cloud-migration-strategy.md
 last_updated: 2025-11-09
 ---
 

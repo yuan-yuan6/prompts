@@ -7,10 +7,10 @@ use_cases:
   - Understanding different treatment planning approaches
   - Navigating specialized treatment planning resources
 related_templates:
-  - acute-care-treatment-plan.md
-  - chronic-disease-management-plan.md
-  - surgical-treatment-plan.md
-  - mental-health-treatment-plan.md
+  - healthcare/Clinical Practice/acute-care-treatment-plan.md
+  - healthcare/Clinical Practice/chronic-disease-management-plan.md
+  - healthcare/Clinical Practice/surgical-treatment-plan.md
+  - healthcare/Clinical Practice/mental-health-treatment-plan.md
 last_updated: 2025-11-09
 ---
 

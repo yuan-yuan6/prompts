@@ -8,9 +8,9 @@ use_cases:
   - Formulating evidence-based recommendations for policy and practice
   - Identifying future research priorities and methodological improvements
 related_templates:
-  - literature-review-extraction-synthesis.md
-  - literature-review-reporting-dissemination.md
-  - literature-reviews-overview.md
+  - education/Academic Research/literature-review-extraction-synthesis.md
+  - education/Academic Research/literature-review-reporting-dissemination.md
+  - education/Academic Research/literature-reviews-overview.md
 last_updated: 2025-11-10
 ---
 

@@ -7,10 +7,10 @@ use_cases:
   - Performing comparative jurisdictional analysis
   - Evaluating research methodology and evidence quality
 related_templates:
-  - policy-impact-assessment.md
-  - policy-options-development.md
-  - policy-implementation-planning.md
-  - policy-research-overview.md
+  - government/Policy Development/policy-impact-assessment.md
+  - government/Policy Development/policy-options-development.md
+  - government/Policy Development/policy-implementation-planning.md
+  - government/Policy Development/policy-research-overview.md
 last_updated: 2025-11-09
 ---
 

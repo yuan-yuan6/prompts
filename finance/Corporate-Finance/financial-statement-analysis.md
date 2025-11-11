@@ -7,9 +7,9 @@ use_cases:
   - Evaluating financial performance and trends
   - Assessing financial health and sustainability
 related_templates:
-  - financial-ratio-analysis.md
-  - financial-forecasting.md
-  - financial-risk-assessment.md
+  - finance/Corporate-Finance/financial-ratio-analysis.md
+  - finance/Corporate-Finance/financial-forecasting.md
+  - finance/Corporate-Finance/financial-risk-assessment.md
 last_updated: 2025-11-09
 ---
 

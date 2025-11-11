@@ -8,9 +8,9 @@ use_cases:
   - Project planning and execution
   - Strategy development
 related_templates:
-  - dashboard-design-patterns.md
-  - data-governance-framework.md
-  - predictive-modeling-framework.md
+  - data-analytics/dashboard-design-patterns.md
+  - data-analytics/data-governance-framework.md
+  - data-analytics/predictive-modeling-framework.md
 last_updated: 2025-11-09
 ---
 

@@ -5,9 +5,9 @@ tags: [automation, causal-inference, data-analytics, research, statistics, templ
 use_cases:
   - Analyze treatment effects using intention-to-treat, per-protocol, instrumental variable, CACE, dose-response, and subgroup analyses to establish causal relationships and quantify treatment impacts
 related_templates:
-  - experimental-design-setup.md
-  - randomization-and-power-analysis.md
-  - validity-and-diagnostics.md
+  - data-analytics/Research Analytics/experimental-design-setup.md
+  - data-analytics/Research Analytics/randomization-and-power-analysis.md
+  - data-analytics/Research Analytics/validity-and-diagnostics.md
 last_updated: 2025-11-10
 ---
 

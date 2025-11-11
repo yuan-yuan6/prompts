@@ -8,12 +8,12 @@ use_cases:
   - Designing end-to-end data pipeline architectures
   - Selecting appropriate patterns and technologies for pipeline projects
 related_templates:
-  - pipeline-ingestion.md
-  - pipeline-transformation.md
-  - pipeline-orchestration.md
-  - pipeline-observability.md
-  - pipeline-infrastructure.md
-  - data-governance-framework.md
+  - data-analytics/Analytics Engineering/pipeline-ingestion.md
+  - data-analytics/Analytics Engineering/pipeline-transformation.md
+  - data-analytics/Analytics Engineering/pipeline-orchestration.md
+  - data-analytics/Analytics Engineering/pipeline-observability.md
+  - data-analytics/Analytics Engineering/pipeline-infrastructure.md
+  - data-analytics/data-governance-framework.md
 last_updated: 2025-11-10
 ---
 

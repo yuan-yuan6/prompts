@@ -7,9 +7,9 @@ use_cases:
   - Benchmark company performance against industry peers
   - Prepare executive summary of financial position for board presentation
 related_templates:
-  - financial-statement-analysis.md
-  - financial-forecasting.md
-  - financial-valuation-recommendations.md
+  - finance/Corporate-Finance/financial-statement-analysis.md
+  - finance/Corporate-Finance/financial-forecasting.md
+  - finance/Corporate-Finance/financial-valuation-recommendations.md
 last_updated: 2025-11-09
 ---
 

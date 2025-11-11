@@ -3,9 +3,9 @@ title: Wealth Management Strategy - Part 2: Tax, Retirement & Estate
 category: finance
 tags: [design, finance, management, optimization, strategy, template]
 related_templates:
-  - wealth-management-01-foundation-investment.md
-  - wealth-management-03-risk-implementation.md
-  - wealth-management-overview.md
+  - finance/wealth-management-01-foundation-investment.md
+  - finance/wealth-management-03-risk-implementation.md
+  - finance/wealth-management-overview.md
 use_cases:
   - Advanced tax optimization, retirement income planning, Social Security strategies, estate planning, and wealth transfer to maximize after-tax wealth and legacy achievement.
   - Tax planning and execution

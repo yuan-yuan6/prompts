@@ -7,9 +7,9 @@ use_cases:
   - Develop acute intervention plan for critical patient requiring immediate care
   - Design rapid assessment and stabilization protocol for emergency department
 related_templates:
-  - chronic-disease-management-plan.md
-  - surgical-treatment-plan.md
-  - patient-care-pathway.md
+  - healthcare/Clinical Practice/chronic-disease-management-plan.md
+  - healthcare/Clinical Practice/surgical-treatment-plan.md
+  - healthcare/patient-care-pathway.md
 last_updated: 2025-11-09
 ---
 

@@ -7,9 +7,9 @@ use_cases:
   - Conducting reference checks and background verification
   - Making data-driven hiring decisions
 related_templates:
-  - screening-interview-process.md
-  - job-analysis-definition.md
-  - recruitment-metrics-optimization.md
+  - business/Human Resources/screening-interview-process.md
+  - business/Human Resources/job-analysis-definition.md
+  - business/Human Resources/recruitment-metrics-optimization.md
 last_updated: 2025-11-09
 ---
 

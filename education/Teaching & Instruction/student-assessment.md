@@ -7,8 +7,8 @@ use_cases:
   - Project planning and execution
   - Strategy development
 related_templates:
-  - curriculum-development.md
-  - curriculum-development-framework.md
+  - education/curriculum-development.md
+  - education/curriculum-development-framework.md
 last_updated: 2025-11-09
 ---
 

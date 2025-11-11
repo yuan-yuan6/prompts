@@ -8,10 +8,10 @@ use_cases:
   - Planning comprehensive network analysis projects
   - Navigating network analysis sub-prompts
 related_templates:
-  - network-analysis-data-preparation.md
-  - network-analysis-centrality-community.md
-  - network-analysis-paths-temporal.md
-  - network-analysis-visualization.md
+  - data-analytics/Research Analytics/network-analysis-data-preparation.md
+  - data-analytics/Research Analytics/network-analysis-centrality-community.md
+  - data-analytics/Research Analytics/network-analysis-paths-temporal.md
+  - data-analytics/Research Analytics/network-analysis-visualization.md
 last_updated: 2025-11-10
 ---
 

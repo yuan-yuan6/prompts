@@ -3,9 +3,9 @@ title: Wealth Management Strategy - Part 1: Foundation & Investment
 category: finance
 tags: [design, finance, management, optimization, strategy, template]
 related_templates:
-  - wealth-management-02-tax-retirement-estate.md
-  - wealth-management-03-risk-implementation.md
-  - wealth-management-overview.md
+  - finance/wealth-management-02-tax-retirement-estate.md
+  - finance/wealth-management-03-risk-implementation.md
+  - finance/wealth-management-overview.md
 use_cases:
   - Creating comprehensive wealth management and financial planning strategies covering goal setting, cash flow optimization, investment management, and asset allocation to maximize client wealth preservation and growth.
   - Project planning and execution

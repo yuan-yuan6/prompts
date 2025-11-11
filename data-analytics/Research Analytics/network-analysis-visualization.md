@@ -8,10 +8,10 @@ use_cases:
   - Generating network analysis reports
   - Visualizing communities, centrality, and temporal evolution
 related_templates:
-  - network-analysis-data-preparation.md
-  - network-analysis-centrality-community.md
-  - network-analysis-paths-temporal.md
-  - network-analysis-overview.md
+  - data-analytics/Research Analytics/network-analysis-data-preparation.md
+  - data-analytics/Research Analytics/network-analysis-centrality-community.md
+  - data-analytics/Research Analytics/network-analysis-paths-temporal.md
+  - data-analytics/Research Analytics/network-analysis-overview.md
 last_updated: 2025-11-10
 ---
 

@@ -7,9 +7,9 @@ use_cases:
   - Planning clinical workflows and patient engagement strategies
   - Selecting and integrating healthcare technology infrastructure
 related_templates:
-  - telemedicine-02-quality-compliance.md
-  - telemedicine-03-implementation-scaling.md
-  - telemedicine-overview.md
+  - healthcare/telemedicine-02-quality-compliance.md
+  - healthcare/telemedicine-03-implementation-scaling.md
+  - healthcare/telemedicine-overview.md
 last_updated: 2025-11-11
 ---
 

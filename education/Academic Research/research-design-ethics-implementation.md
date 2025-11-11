@@ -7,9 +7,9 @@ use_cases:
   - Creating detailed implementation plans and project timelines
   - Establishing risk management and quality monitoring systems
 related_templates:
-  - research-design-foundation.md
-  - research-design-sampling-data.md
-  - research-design-overview.md
+  - education/Academic Research/research-design-foundation.md
+  - education/Academic Research/research-design-sampling-data.md
+  - education/Academic Research/research-design-overview.md
 last_updated: 2025-11-10
 ---
 

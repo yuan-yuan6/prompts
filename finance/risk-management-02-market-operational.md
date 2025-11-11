@@ -7,9 +7,9 @@ use_cases:
   - Implementing market risk frameworks and VaR models
   - Establishing operational risk controls
 related_templates:
-  - risk-management-01-foundation-credit.md
-  - risk-management-03-compliance-innovation.md
-  - risk-management-overview.md
+  - finance/risk-management-01-foundation-credit.md
+  - finance/risk-management-03-compliance-innovation.md
+  - finance/risk-management-overview.md
 part: 2 of 3
 last_updated: 2025-11-11
 ---
