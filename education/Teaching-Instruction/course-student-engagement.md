@@ -2,8 +2,8 @@
 category: education/Teaching-Instruction
 last_updated: 2025-11-09
 related_templates:
-- course-content-curriculum.md
-- course-foundations-objectives.md
+- education/Teaching-Instruction/course-content-curriculum.md
+- education/Teaching-Instruction/course-foundations-objectives.md
 tags:
 - engagement
 - motivation

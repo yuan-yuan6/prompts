@@ -3,7 +3,7 @@ category: technology/software-development
 last_updated: 2025-01-09
 related_templates:
 - api-design.md
-- architecture-design.md
+- technology/Software-Development/architecture-design.md
 - testing-strategy.md
 tags:
 - code-review

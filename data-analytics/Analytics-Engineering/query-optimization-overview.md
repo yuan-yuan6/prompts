@@ -2,11 +2,11 @@
 category: data-analytics/Analytics-Engineering
 last_updated: 2025-11-10
 related_templates:
-- query-optimization-baseline-analysis.md
-- query-optimization-indexing-strategies.md
-- query-optimization-query-rewriting.md
-- query-optimization-monitoring-tuning.md
-- query-optimization-resource-concurrency.md
+- data-analytics/Analytics-Engineering/query-optimization-baseline-analysis.md
+- data-analytics/Analytics-Engineering/query-optimization-indexing-strategies.md
+- data-analytics/Analytics-Engineering/query-optimization-query-rewriting.md
+- data-analytics/Analytics-Engineering/query-optimization-monitoring-tuning.md
+- data-analytics/Analytics-Engineering/query-optimization-resource-concurrency.md
 tags:
 - data-analytics
 - query-optimization

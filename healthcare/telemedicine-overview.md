@@ -2,9 +2,9 @@
 category: healthcare
 last_updated: 2025-11-11
 related_templates:
-- telemedicine-01-service-technology.md
-- telemedicine-02-quality-compliance.md
-- telemedicine-03-implementation-scaling.md
+- healthcare/telemedicine-01-service-technology.md
+- healthcare/telemedicine-02-quality-compliance.md
+- healthcare/telemedicine-03-implementation-scaling.md
 tags:
 - healthcare
 - telemedicine

@@ -2,10 +2,10 @@
 category: data-analytics/Analytics-Engineering
 last_updated: 2025-11-10
 related_templates:
-- pipeline-ingestion.md
-- pipeline-transformation.md
-- pipeline-orchestration.md
-- pipeline-infrastructure.md
+- data-analytics/Analytics-Engineering/pipeline-ingestion.md
+- data-analytics/Analytics-Engineering/pipeline-transformation.md
+- data-analytics/Analytics-Engineering/pipeline-orchestration.md
+- data-analytics/Analytics-Engineering/pipeline-infrastructure.md
 tags:
 - automation
 - data-analytics

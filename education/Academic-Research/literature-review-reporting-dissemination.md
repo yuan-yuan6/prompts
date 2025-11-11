@@ -2,9 +2,9 @@
 category: education/Academic-Research
 last_updated: 2025-11-10
 related_templates:
-- literature-review-analysis-implications.md
-- literature-review-protocol-search.md
-- literature-reviews-overview.md
+- education/Academic-Research/literature-review-analysis-implications.md
+- education/Academic-Research/literature-review-protocol-search.md
+- education/Academic-Research/literature-reviews-overview.md
 tags:
 - communication
 - education

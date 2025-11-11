@@ -2,7 +2,7 @@
 category: technology/Emerging-Technologies/IoT-Edge-Computing
 last_updated: 2025-11-09
 related_templates:
-- generative-ai-implementation.md
+- technology/Emerging-Technologies/generative-ai-implementation.md
 tags:
 - data-science
 - design

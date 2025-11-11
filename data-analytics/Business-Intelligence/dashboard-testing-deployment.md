@@ -2,9 +2,9 @@
 category: data-analytics/Business-Intelligence
 last_updated: 2025-11-09
 related_templates:
-- dashboard-technical-implementation.md
-- dashboard-security-compliance.md
-- dashboard-design-overview.md
+- data-analytics/Business-Intelligence/dashboard-technical-implementation.md
+- data-analytics/Business-Intelligence/dashboard-security-compliance.md
+- data-analytics/Business-Intelligence/dashboard-design-overview.md
 tags:
 - data-analytics
 - business-intelligence

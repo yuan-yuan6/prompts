@@ -2,10 +2,10 @@
 category: government/Policy-Development
 last_updated: 2025-11-09
 related_templates:
-- policy-research-analysis.md
-- policy-impact-assessment.md
-- policy-implementation-planning.md
-- policy-research-overview.md
+- government/Policy-Development/policy-research-analysis.md
+- government/Policy-Development/policy-impact-assessment.md
+- government/Policy-Development/policy-implementation-planning.md
+- government/Policy-Development/policy-research-overview.md
 tags:
 - policy-options
 - alternatives

@@ -2,11 +2,11 @@
 category: education/Academic-Research
 last_updated: 2025-11-10
 related_templates:
-- literature-review-protocol-search.md
-- literature-review-selection-quality.md
-- literature-review-extraction-synthesis.md
-- literature-review-analysis-implications.md
-- literature-review-reporting-dissemination.md
+- education/Academic-Research/literature-review-protocol-search.md
+- education/Academic-Research/literature-review-selection-quality.md
+- education/Academic-Research/literature-review-extraction-synthesis.md
+- education/Academic-Research/literature-review-analysis-implications.md
+- education/Academic-Research/literature-review-reporting-dissemination.md
 tags:
 - communication
 - education

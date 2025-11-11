@@ -2,8 +2,8 @@
 category: education/Teaching-Instruction
 last_updated: 2025-11-09
 related_templates:
-- course-content-curriculum.md
-- course-assessment-strategy.md
+- education/Teaching-Instruction/course-content-curriculum.md
+- education/Teaching-Instruction/course-assessment-strategy.md
 tags:
 - objectives
 - pedagogy

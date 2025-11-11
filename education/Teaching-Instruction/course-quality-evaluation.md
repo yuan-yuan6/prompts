@@ -2,8 +2,8 @@
 category: education/Teaching-Instruction
 last_updated: 2025-11-09
 related_templates:
-- course-assessment-strategy.md
-- course-implementation-plan.md
+- education/Teaching-Instruction/course-assessment-strategy.md
+- education/Teaching-Instruction/course-implementation-plan.md
 tags:
 - quality-assurance
 - evaluation

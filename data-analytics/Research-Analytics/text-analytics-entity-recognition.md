@@ -2,9 +2,9 @@
 category: data-analytics/Research-Analytics
 last_updated: 2025-11-10
 related_templates:
-- text-analytics-preprocessing.md
-- text-analytics-advanced-methods.md
-- text-analytics-overview.md
+- data-analytics/Research-Analytics/text-analytics-preprocessing.md
+- data-analytics/Research-Analytics/text-analytics-advanced-methods.md
+- data-analytics/Research-Analytics/text-analytics-overview.md
 tags:
 - automation
 - data-analytics

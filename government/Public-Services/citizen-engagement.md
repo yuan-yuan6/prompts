@@ -2,8 +2,8 @@
 category: government/Public-Services
 last_updated: 2025-11-09
 related_templates:
-- policy-development.md
-- policy-research-framework.md
+- government/policy-development.md
+- government/policy-research-framework.md
 tags:
 - design
 - government

@@ -2,9 +2,9 @@
 category: data-analytics/Business-Intelligence
 last_updated: 2025-11-09
 related_templates:
-- dashboard-ux-design.md
-- dashboard-data-architecture.md
-- dashboard-design-overview.md
+- data-analytics/Business-Intelligence/dashboard-ux-design.md
+- data-analytics/Business-Intelligence/dashboard-data-architecture.md
+- data-analytics/Business-Intelligence/dashboard-design-overview.md
 tags:
 - data-analytics
 - business-intelligence

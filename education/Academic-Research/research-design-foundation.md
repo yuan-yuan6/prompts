@@ -2,9 +2,9 @@
 category: education/Academic-Research
 last_updated: 2025-11-10
 related_templates:
-- research-design-sampling-data.md
-- research-design-analysis-quality.md
-- research-design-overview.md
+- education/Academic-Research/research-design-sampling-data.md
+- education/Academic-Research/research-design-analysis-quality.md
+- education/Academic-Research/research-design-overview.md
 tags:
 - research
 - design

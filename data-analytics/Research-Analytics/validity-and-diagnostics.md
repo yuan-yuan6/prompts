@@ -2,9 +2,9 @@
 category: data-analytics/Research-Analytics
 last_updated: 2025-11-10
 related_templates:
-- experimental-design-setup.md
-- randomization-and-power-analysis.md
-- treatment-effect-analysis.md
+- data-analytics/Research-Analytics/experimental-design-setup.md
+- data-analytics/Research-Analytics/randomization-and-power-analysis.md
+- data-analytics/Research-Analytics/treatment-effect-analysis.md
 tags:
 - data-analytics
 - quality-assurance

@@ -2,9 +2,9 @@
 category: education/Academic-Research
 last_updated: 2025-11-10
 related_templates:
-- research-design-foundation.md
-- research-design-ethics-implementation.md
-- research-design-overview.md
+- education/Academic-Research/research-design-foundation.md
+- education/Academic-Research/research-design-ethics-implementation.md
+- education/Academic-Research/research-design-overview.md
 tags:
 - research
 - dissemination

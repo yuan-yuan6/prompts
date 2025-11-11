@@ -2,7 +2,7 @@
 category: technology/Emerging-Technologies/Metaverse-XR
 last_updated: 2025-11-09
 related_templates:
-- generative-ai-implementation.md
+- technology/Emerging-Technologies/generative-ai-implementation.md
 tags:
 - design
 - development

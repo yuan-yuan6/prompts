@@ -2,9 +2,9 @@
 category: finance/Corporate-Finance
 last_updated: 2025-11-09
 related_templates:
-- financial-statement-analysis.md
-- financial-forecasting.md
-- financial-risk-assessment.md
+- finance/Corporate-Finance/financial-statement-analysis.md
+- finance/Corporate-Finance/financial-forecasting.md
+- finance/Corporate-Finance/financial-risk-assessment.md
 tags:
 - business
 - finance

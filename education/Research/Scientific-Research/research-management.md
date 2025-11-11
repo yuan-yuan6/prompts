@@ -2,7 +2,7 @@
 category: education/Research/Scientific-Research
 last_updated: 2025-11-09
 related_templates:
-- clinical-trial-protocol.md
+- education/Research/clinical-trial-protocol.md
 tags:
 - data-science
 - design

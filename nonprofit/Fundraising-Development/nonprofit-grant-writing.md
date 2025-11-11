@@ -2,8 +2,8 @@
 category: nonprofit/Fundraising-Development
 last_updated: 2025-11-09
 related_templates:
-- program-evaluation.md
-- fundraising-campaign-framework.md
+- nonprofit/program-evaluation.md
+- nonprofit/fundraising-campaign-framework.md
 tags:
 - communication
 - data-science

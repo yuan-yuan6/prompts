@@ -2,7 +2,7 @@
 category: security/Cybersecurity
 last_updated: 2025-11-09
 related_templates:
-- cybersecurity-incident-response.md
+- security/cybersecurity-incident-response.md
 tags:
 - data-science
 - design

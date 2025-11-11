@@ -2,9 +2,9 @@
 category: finance
 last_updated: 2025-11-11
 related_templates:
-- risk-management-01-foundation-credit.md
-- risk-management-02-market-operational.md
-- risk-management-03-compliance-innovation.md
+- finance/risk-management-01-foundation-credit.md
+- finance/risk-management-02-market-operational.md
+- finance/risk-management-03-compliance-innovation.md
 tags:
 - design
 - finance

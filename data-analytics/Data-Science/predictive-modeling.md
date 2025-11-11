@@ -2,9 +2,9 @@
 category: data-analytics/data-science
 last_updated: 2025-01-09
 related_templates:
-- feature-engineering.md
-- model-evaluation.md
-- exploratory-analysis.md
+- data-analytics/Data-Science/feature-engineering.md
+- data-analytics/Data-Science/model-evaluation.md
+- data-analytics/Data-Science/exploratory-analysis.md
 tags:
 - machine-learning
 - predictive-modeling

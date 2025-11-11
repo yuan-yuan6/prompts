@@ -2,11 +2,11 @@
 category: data-analytics/Research-Analytics
 last_updated: 2025-11-10
 related_templates:
-- text-analytics-preprocessing.md
-- text-analytics-sentiment-analysis.md
-- text-analytics-topic-modeling.md
-- text-analytics-entity-recognition.md
-- text-analytics-overview.md
+- data-analytics/Research-Analytics/text-analytics-preprocessing.md
+- data-analytics/Research-Analytics/text-analytics-sentiment-analysis.md
+- data-analytics/Research-Analytics/text-analytics-topic-modeling.md
+- data-analytics/Research-Analytics/text-analytics-entity-recognition.md
+- data-analytics/Research-Analytics/text-analytics-overview.md
 tags:
 - automation
 - data-analytics

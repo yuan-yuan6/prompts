@@ -2,8 +2,8 @@
 category: education/Teaching-Instruction
 last_updated: 2025-11-09
 related_templates:
-- course-foundations-objectives.md
-- course-assessment-strategy.md
+- education/Teaching-Instruction/course-foundations-objectives.md
+- education/Teaching-Instruction/course-assessment-strategy.md
 tags:
 - curriculum
 - content-design

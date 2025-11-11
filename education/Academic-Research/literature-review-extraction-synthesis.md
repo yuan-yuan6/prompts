@@ -2,9 +2,9 @@
 category: education/Academic-Research
 last_updated: 2025-11-10
 related_templates:
-- literature-review-selection-quality.md
-- literature-review-analysis-implications.md
-- literature-reviews-overview.md
+- education/Academic-Research/literature-review-selection-quality.md
+- education/Academic-Research/literature-review-analysis-implications.md
+- education/Academic-Research/literature-reviews-overview.md
 tags:
 - communication
 - data-science
