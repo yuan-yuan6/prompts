@@ -7,9 +7,9 @@ use_cases:
   - Creating integrated psychiatric and psychotherapeutic interventions
   - Managing behavioral health conditions with evidence-based approaches
 related_templates:
-  - chronic-disease-management-plan.md
-  - acute-care-treatment-plan.md
-  - patient-care-pathway.md
+  - healthcare/Clinical Practice/chronic-disease-management-plan.md
+  - healthcare/Clinical Practice/acute-care-treatment-plan.md
+  - healthcare/patient-care-pathway.md
 last_updated: 2025-11-09
 ---
 

@@ -5,9 +5,9 @@ tags: [automation, data-analytics, research, statistics, template]
 use_cases:
   - Plan and execute randomization procedures, calculate sample sizes, and perform comprehensive power analyses for experimental studies to ensure adequate statistical power and valid treatment allocation
 related_templates:
-  - experimental-design-setup.md
-  - treatment-effect-analysis.md
-  - validity-and-diagnostics.md
+  - data-analytics/Research Analytics/experimental-design-setup.md
+  - data-analytics/Research Analytics/treatment-effect-analysis.md
+  - data-analytics/Research Analytics/validity-and-diagnostics.md
 last_updated: 2025-11-10
 ---
 

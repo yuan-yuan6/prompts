@@ -7,9 +7,9 @@ use_cases:
   - Professional use
   - Project implementation
 related_templates:
-  - time-management.md
-  - skill-development.md
-  - habit-formation.md
+  - personal/Personal Development/time-management.md
+  - personal/Personal Development/skill-development.md
+  - personal/Personal Development/habit-formation.md
 last_updated: 2025-11-09
 ---
 

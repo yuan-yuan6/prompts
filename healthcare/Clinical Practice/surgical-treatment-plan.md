@@ -7,9 +7,9 @@ use_cases:
   - Creating perioperative care protocols
   - Managing pre-operative assessment and post-operative care
 related_templates:
-  - acute-care-treatment-plan.md
-  - chronic-disease-management-plan.md
-  - patient-care-pathway.md
+  - healthcare/Clinical Practice/acute-care-treatment-plan.md
+  - healthcare/Clinical Practice/chronic-disease-management-plan.md
+  - healthcare/patient-care-pathway.md
 last_updated: 2025-11-09
 ---
 

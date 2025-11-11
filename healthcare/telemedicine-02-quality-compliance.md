@@ -7,9 +7,9 @@ use_cases:
   - Ensuring regulatory compliance and reimbursement optimization
   - Developing provider training and competency programs
 related_templates:
-  - telemedicine-01-service-technology.md
-  - telemedicine-03-implementation-scaling.md
-  - telemedicine-overview.md
+  - healthcare/telemedicine-01-service-technology.md
+  - healthcare/telemedicine-03-implementation-scaling.md
+  - healthcare/telemedicine-overview.md
 last_updated: 2025-11-11
 ---
 

@@ -3,9 +3,9 @@ title: Wealth Management Strategy - Part 3: Risk Management & Implementation
 category: finance
 tags: [design, finance, management, optimization, security, strategy, template]
 related_templates:
-  - wealth-management-01-foundation-investment.md
-  - wealth-management-02-tax-retirement-estate.md
-  - wealth-management-overview.md
+  - finance/wealth-management-01-foundation-investment.md
+  - finance/wealth-management-02-tax-retirement-estate.md
+  - finance/wealth-management-overview.md
 use_cases:
   - Comprehensive insurance planning, risk management strategies, and implementation roadmaps to protect wealth and execute wealth management strategies effectively.
   - Risk management and execution

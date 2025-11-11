@@ -7,9 +7,9 @@ use_cases:
   - Establishing validity and reliability frameworks for quantitative research
   - Building trustworthiness and quality assurance systems for qualitative research
 related_templates:
-  - research-design-sampling-data.md
-  - research-design-foundation.md
-  - research-design-overview.md
+  - education/Academic Research/research-design-sampling-data.md
+  - education/Academic Research/research-design-foundation.md
+  - education/Academic Research/research-design-overview.md
 last_updated: 2025-11-10
 ---
 

@@ -8,9 +8,9 @@ use_cases:
   - Project planning and execution
   - Strategy development
 related_templates:
-  - telemedicine-platform-design.md
-  - patient-care-pathway.md
-  - clinical-trials-management.md
+  - healthcare/telemedicine-platform-design.md
+  - healthcare/patient-care-pathway.md
+  - healthcare/clinical-trials-management.md
 last_updated: 2025-11-09
 ---
 

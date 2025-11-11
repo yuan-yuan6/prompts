@@ -8,10 +8,10 @@ use_cases:
   - Analyzing community structure and quality
   - Comparing different community detection algorithms
 related_templates:
-  - network-analysis-data-preparation.md
-  - network-analysis-paths-temporal.md
-  - network-analysis-visualization.md
-  - network-analysis-overview.md
+  - data-analytics/Research Analytics/network-analysis-data-preparation.md
+  - data-analytics/Research Analytics/network-analysis-paths-temporal.md
+  - data-analytics/Research Analytics/network-analysis-visualization.md
+  - data-analytics/Research Analytics/network-analysis-overview.md
 last_updated: 2025-11-10
 ---
 

@@ -7,10 +7,10 @@ use_cases:
   - Navigating between policy development phases
   - Selecting the appropriate prompt for each stage
 related_templates:
-  - policy-research-analysis.md
-  - policy-impact-assessment.md
-  - policy-options-development.md
-  - policy-implementation-planning.md
+  - government/Policy Development/policy-research-analysis.md
+  - government/Policy Development/policy-impact-assessment.md
+  - government/Policy Development/policy-options-development.md
+  - government/Policy Development/policy-implementation-planning.md
 last_updated: 2025-11-09
 ---
 

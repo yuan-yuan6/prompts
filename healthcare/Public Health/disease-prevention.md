@@ -9,9 +9,9 @@ use_cases:
   - Population health interventions
   - Public health campaigns
 related_templates:
-  - health-education.md
-  - community-health.md
-  - epidemiology.md
+  - healthcare/Public Health/health-education.md
+  - healthcare/Public Health/community-health.md
+  - healthcare/Public Health/epidemiology.md
 last_updated: 2025-01-09
 ---
 

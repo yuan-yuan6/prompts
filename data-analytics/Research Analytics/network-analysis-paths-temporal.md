@@ -8,10 +8,10 @@ use_cases:
   - Assessing network robustness and resilience
   - Tracking temporal evolution of network structure
 related_templates:
-  - network-analysis-data-preparation.md
-  - network-analysis-centrality-community.md
-  - network-analysis-visualization.md
-  - network-analysis-overview.md
+  - data-analytics/Research Analytics/network-analysis-data-preparation.md
+  - data-analytics/Research Analytics/network-analysis-centrality-community.md
+  - data-analytics/Research Analytics/network-analysis-visualization.md
+  - data-analytics/Research Analytics/network-analysis-overview.md
 last_updated: 2025-11-10
 ---
 

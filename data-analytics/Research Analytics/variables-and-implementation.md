@@ -5,10 +5,10 @@ tags: [data-analytics, implementation, reference, research, template]
 use_cases:
   - Complete reference guide for experimental design implementation including 400+ variables, output requirements, usage examples, best practices, and customization options
 related_templates:
-  - experimental-design-setup.md
-  - randomization-and-power-analysis.md
-  - treatment-effect-analysis.md
-  - validity-and-diagnostics.md
+  - data-analytics/Research Analytics/experimental-design-setup.md
+  - data-analytics/Research Analytics/randomization-and-power-analysis.md
+  - data-analytics/Research Analytics/treatment-effect-analysis.md
+  - data-analytics/Research Analytics/validity-and-diagnostics.md
 last_updated: 2025-11-10
 ---
 

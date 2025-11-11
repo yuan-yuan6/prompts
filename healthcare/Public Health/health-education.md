@@ -9,9 +9,9 @@ use_cases:
   - Workplace wellness programs
   - Chronic disease prevention campaigns
 related_templates:
-  - disease-prevention.md
-  - community-health.md
-  - health-policy.md
+  - healthcare/Public Health/disease-prevention.md
+  - healthcare/Public Health/community-health.md
+  - healthcare/Public Health/health-policy.md
 last_updated: 2025-01-09
 ---
 

@@ -7,9 +7,9 @@ use_cases:
   - Design technical architecture for scalable dashboard infrastructure
   - Implement performance optimization for slow-loading dashboards
 related_templates:
-  - dashboard-data-architecture.md
-  - dashboard-security-compliance.md
-  - dashboard-design-overview.md
+  - data-analytics/Business Intelligence/dashboard-data-architecture.md
+  - data-analytics/Business Intelligence/dashboard-security-compliance.md
+  - data-analytics/Business Intelligence/dashboard-design-overview.md
 last_updated: 2025-11-09
 ---
 
