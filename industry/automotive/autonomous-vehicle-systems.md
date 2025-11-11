@@ -365,8 +365,6 @@ LiDAR Systems:
 | `[ROI_EXPECT]` | Specify the roi expect | "[specify value]" |
 | `[MARKET_SHARE]` | Specify the market share | "[specify value]" |
 
-
-
 ### 3. AI & Machine Learning Pipeline
 
 | **ML Component** | **Model Architecture** | **Training Data** | **Performance Metrics** | **Update Frequency** | **Edge Deployment** |
@@ -536,8 +534,6 @@ Operational Deployment:
 ```
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

@@ -393,8 +393,6 @@ hotfix/*:
 | `[RELEASE_TREND]` | Specify the release trend | "[specify value]" |
 | `[RELEASE_ACTION]` | Specify the release action | "[specify value]" |
 
-
-
 ### 3. Commit Standards & Conventions
 
 | **Commit Aspect** | **Convention** | **Example** | **Validation** | **Benefits** | **Enforcement** |
@@ -521,8 +519,6 @@ Release Preparation:
 | Release Frequency | [RELEASE_KPI] | [RELEASE_CURRENT] | [RELEASE_TARGET] | [RELEASE_TREND] | [RELEASE_ACTION] |
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

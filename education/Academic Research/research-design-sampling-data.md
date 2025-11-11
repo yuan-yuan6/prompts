@@ -22,22 +22,22 @@ Develop rigorous sampling strategies and comprehensive data collection protocols
 
 ### For Researchers Planning Sampling and Data Collection
 
-**Step 1: Define Your Population and Sampling Approach (8 minutes)**
+**Step 1: Define Your Population and Sampling Approach**
 - Specify your target population with clear inclusion/exclusion criteria
 - Choose between probability or non-probability sampling methods
 - Determine sample size using power analysis (quantitative) or saturation criteria (qualitative)
 
-**Step 2: Plan Your Recruitment Strategy (5 minutes)**
+**Step 2: Plan Your Recruitment Strategy**
 - Identify recruitment channels and methods
 - Design recruitment materials and procedures
 - Plan incentive structure and participation requirements
 
-**Step 3: Design Your Data Collection Protocol (10 minutes)**
+**Step 3: Design Your Data Collection Protocol**
 - Select or develop appropriate measurement instruments
 - Plan data collection procedures and quality control measures
 - Determine technology integration and data management systems
 
-**Step 4: Generate and Implement (2 minutes)**
+**Step 4: Generate and Implement**
 - Input your specifications into the template variables
 - Generate comprehensive sampling and data collection plan
 - Pilot test procedures and refine based on feedback

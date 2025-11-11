@@ -316,8 +316,6 @@ Cybersecurity Standard: [SECURITY_STD]
 | `[IRR]` | Specify the irr | "[specify value]" |
 | `[BCR]` | Specify the bcr | "[specify value]" |
 
-
-
 **Real-Time Monitoring:**
 | **Parameter** | **Measurement Points** | **Sampling Rate** | **Accuracy** | **Alert Threshold** |
 |--------------|----------------------|------------------|-------------|-------------------|
@@ -427,8 +425,6 @@ Annual Benefits:
 ```
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

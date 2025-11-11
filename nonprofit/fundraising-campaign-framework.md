@@ -384,8 +384,6 @@ Annual Donors (<$1,000):
 | `[BOARD_GOVERNANCE]` | Specify the board governance | "[specify value]" |
 | `[STRATEGIC_ALIGNMENT]` | Specify the strategic alignment | "[specify value]" |
 
-
-
 ### 3. Multi-Channel Outreach Strategy
 
 | **Outreach Channel** | **Message Strategy** | **Frequency** | **Target Segment** | **Response Rate** | **Cost per Dollar Raised** |
@@ -555,8 +553,6 @@ Board Engagement:
 ```
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

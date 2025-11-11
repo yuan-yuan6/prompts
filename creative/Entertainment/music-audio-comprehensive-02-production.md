@@ -32,7 +32,6 @@ This part focuses on **Production & Recording**. For complete workflow, start wi
 - **Part 1:** Composition & Arrangement
 - **Part 3:** Mixing & Mastering
 
-
 ### 2.3 Mixing and Audio Engineering
 #### Balance and Spatial Placement
 ##### Level and Dynamic Balance

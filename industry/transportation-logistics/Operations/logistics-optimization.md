@@ -378,8 +378,6 @@ Fleet Utilization:
 | `[BCORP_CERT]` | Specify the bcorp cert | "[specify value]" |
 | `[IND_STANDARDS]` | Specify the ind standards | "[specify value]" |
 
-
-
 ### 3. Warehouse Operations
 
 | **Warehouse Function** | **Current Performance** | **Target Performance** | **Technology** | **Automation Level** | **ROI** |
@@ -533,8 +531,6 @@ Green Initiatives:
 ```
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

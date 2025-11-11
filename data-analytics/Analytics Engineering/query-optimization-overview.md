@@ -154,19 +154,19 @@ START: What performance issue are you experiencing?
 ### Phase 1: Discovery & Analysis (Week 1-2)
 **Objective**: Understand current state and identify opportunities
 
-1. **Start with Baseline Analysis** (2-4 hours)
+1. **Start with Baseline Analysis**
    - Run performance baseline queries
    - Identify top 20 slowest queries
    - Analyze wait statistics and execution plans
    - Document baseline metrics
 
-2. **Identify Quick Wins** (1-2 hours)
+2. **Identify Quick Wins**
    - Review missing index recommendations
    - Identify queries with obvious issues (SELECT *, subqueries, etc.)
    - Check for unused indexes
    - Prioritize by performance impact score
 
-3. **Create Optimization Roadmap** (1 hour)
+3. **Create Optimization Roadmap**
    - List high-priority queries/tables
    - Estimate effort for each optimization
    - Set target performance metrics
@@ -175,7 +175,7 @@ START: What performance issue are you experiencing?
 ### Phase 2: Implementation (Week 3-6)
 **Objective**: Execute optimizations systematically
 
-1. **Implement Indexing Improvements** (4-8 hours)
+1. **Implement Indexing Improvements**
    - Create missing high-impact indexes
    - Remove unused/duplicate indexes
    - Set up index maintenance procedures
@@ -187,7 +187,7 @@ START: What performance issue are you experiencing?
    - Validate results match expectations
    - Document changes and performance gains
 
-3. **Address Resource Issues** (2-4 hours)
+3. **Address Resource Issues**
    - Resolve blocking/deadlock issues
    - Optimize memory/buffer pool if needed
    - Improve storage configuration
@@ -196,13 +196,13 @@ START: What performance issue are you experiencing?
 ### Phase 3: Monitoring & Maintenance (Ongoing)
 **Objective**: Sustain performance improvements
 
-1. **Set Up Monitoring** (4-6 hours initial setup)
+1. **Set Up Monitoring**
    - Deploy performance metrics view
    - Configure alerting thresholds
    - Create monitoring dashboard
    - Test alert delivery
 
-2. **Enable Automated Maintenance** (2-3 hours)
+2. **Enable Automated Maintenance**
    - Schedule statistics updates (daily)
    - Schedule index maintenance (weekly)
    - Set up automated tuning (weekly/monthly)
@@ -303,7 +303,7 @@ START: What performance issue are you experiencing?
 - [ ] Use the decision tree to select starting sub-prompt
 - [ ] Read the Quick Start section of selected sub-prompt
 - [ ] Gather required access (monitoring views, execution permissions)
-- [ ] Set aside dedicated time for analysis (2-4 hours minimum)
+- [ ] Set aside dedicated time for analysis
 - [ ] Document baseline metrics before any changes
 - [ ] Select top 3-5 optimization opportunities
 - [ ] Create implementation plan with stakeholder approval

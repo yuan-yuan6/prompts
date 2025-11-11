@@ -763,7 +763,6 @@ I need to develop an effective crisis communication and response strategy. Pleas
 | `[INTERIM_ARRANGEMENTS_PERMANENT_SOLUTION_CULTURAL_CHANGE]` | Specify the interim arrangements permanent solution cultural change | "[specify value]" |
 | `[TRUST_REBUILDING_RELATIONSHIP_REPAIR_ORGANIZATIONAL_STRENGTHENING]` | Specify the trust rebuilding relationship repair organizational strengthening | "[specify value]" |
 
-
 Immediate Response: [INCIDENT_CONFIRMATION_SYSTEM_ISOLATION_LEGAL_NOTIFICATION_STAKEHOLDER_ALERT]
 Investigation: [FORENSIC_ANALYSIS_SCOPE_DETERMINATION_EVIDENCE_PRESERVATION]
 Communication: [CUSTOMER_NOTIFICATION_REGULATORY_DISCLOSURE_MEDIA_STATEMENT_EMPLOYEE_BRIEFING]
@@ -793,7 +792,7 @@ Recovery: [TRUST_REBUILDING_RELATIONSHIP_REPAIR_ORGANIZATIONAL_STRENGTHENING]
 
 ### Communication Excellence
 - Respond quickly with accurate information, even if it's limited
-- Maintain message consistency across all channels and spokespersons  
+- Maintain message consistency across all channels and spokespersons
 - Show empathy and concern for those affected by the crisis
 - Be transparent about what you know and don't know
 - Take responsibility when appropriate without assigning blame

@@ -72,8 +72,8 @@ Engagement Stage:
 - Pages per Session: [PAGES_SESSION]
 - Session Duration: [SESSION_TIME]
 - Content Interaction: [CONTENT_INTERACT]
-- Return Rate (7-day): [RETURN_7DAY]%
-- Return Rate (30-day): [RETURN_30DAY]%
+- Return Rate: [RETURN_7DAY]%
+- Return Rate: [RETURN_30DAY]%
 
 ### Conversion Stage
 - Newsletter Signup: [NEWS_CONVERT]%
@@ -380,8 +380,6 @@ Engagement Stage:
 | `[REV_UPDATE]` | Specify the rev update | "2025-01-15" |
 | `[REV_IMPACT]` | Specify the rev impact | "[specify value]" |
 
-
-
 ### 3. Content Performance Matrix
 
 | **Content Category** | **Views** | **Engagement Rate** | **Avg Time** | **Completion** | **Share Rate** | **Revenue/View** |
@@ -441,14 +439,14 @@ Engagement Stage:
 
 **Subscriber Segments:**
 ```
-New Subscribers (0-30 days):
+New Subscribers:
 - Count: [NEW_COUNT]
 - Engagement: [NEW_ENGAGE]%
 - Content Preferences: [NEW_PREFS]
 - Churn Risk: [NEW_CHURN]%
 - Activation Rate: [NEW_ACTIVATE]%
 
-Active Subscribers (30-365 days):
+Active Subscribers:
 - Count: [ACTIVE_COUNT]
 - Engagement: [ACTIVE_ENGAGE]%
 - Content Consumption: [ACTIVE_CONSUME]
@@ -493,8 +491,6 @@ At-Risk Subscribers:
 | Revenue Projection | [REV_PURPOSE] | [REV_ACC]% | [REV_VARS] | [REV_UPDATE] | [REV_IMPACT] |
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

@@ -345,8 +345,6 @@ mmWave Deployment:
 | `[ROCE_BENCH]` | Specify the roce bench | "[specify value]" |
 | `[ROCE_CAGR]` | Specify the roce cagr | "[specify value]" |
 
-
-
 ### 3. Service Performance Management
 
 | **Service Type** | **Subscribers** | **ARPU** | **Churn Rate** | **NPS Score** | **QoS Metrics** |
@@ -474,8 +472,6 @@ Infrastructure Planning:
 | ROCE | [ROCE_CURRENT]% | [ROCE_GROWTH]% | [ROCE_TARGET]% | [ROCE_BENCH]% | [ROCE_CAGR]% |
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

@@ -124,46 +124,46 @@ class NetworkPreprocessor:
         self.node_attributes = {}
         self.edge_attributes = {}
         self.metadata = {}
-    
+
     def load_network_data(self, data_source, data_type='edge_list'):
         """Load network data from various formats"""
-        
+
         if data_type == 'edge_list':
             # Load from edge list (CSV, TSV, etc.)
             edges_df = pd.read_csv(data_source)
-            
+
             # Create network
             G = nx.from_pandas_edgelist(
-                edges_df, 
-                source='[SOURCE_COLUMN]', 
+                edges_df,
+                source='[SOURCE_COLUMN]',
                 target='[TARGET_COLUMN]',
                 edge_attr=[EDGE_ATTRIBUTES] if '[EDGE_ATTRIBUTES]' else None,
                 create_using=nx.DiGraph() if '[DIRECTED]' else nx.Graph()
             )
-            
+
         elif data_type == 'adjacency_matrix':
             # Load adjacency matrix
             adj_matrix = pd.read_csv(data_source, index_col=0)
             G = nx.from_pandas_adjacency(adj_matrix, create_using=nx.DiGraph() if '[DIRECTED]' else nx.Graph())
-            
+
         elif data_type == 'graphml':
             # Load GraphML format
             G = nx.read_graphml(data_source)
-            
+
         elif data_type == 'gml':
             # Load GML format
             G = nx.read_gml(data_source)
-            
+
         elif data_type == 'json':
             # Load from JSON
             import json
             with open(data_source, 'r') as f:
                 data = json.load(f)
             G = nx.node_link_graph(data)
-        
+
         # Store network
         self.networks['main'] = G
-        
+
         # Extract metadata
         self.metadata['main'] = {
             'num_nodes': G.number_of_nodes(),
@@ -174,28 +174,28 @@ class NetworkPreprocessor:
             'node_attributes': list(G.nodes(data=True)[0][1].keys()) if G.nodes() else [],
             'edge_attributes': list(G.edges(data=True)[0][2].keys()) if G.edges() else []
         }
-        
+
         return G
-    
-    def clean_network(self, remove_self_loops=True, remove_isolated=False, 
+
+    def clean_network(self, remove_self_loops=True, remove_isolated=False,
                      min_degree=None, max_degree=None):
         """Clean and preprocess network"""
-        
+
         G = self.networks['main'].copy()
         cleaning_log = []
-        
+
         # Remove self loops
         if remove_self_loops:
             num_self_loops = nx.number_of_selfloops(G)
             G.remove_edges_from(nx.selfloop_edges(G))
             cleaning_log.append(f"Removed [NUM_SELF_LOOPS] self loops")
-        
+
         # Remove isolated nodes
         if remove_isolated:
             isolated_nodes = list(nx.isolates(G))
             G.remove_nodes_from(isolated_nodes)
             cleaning_log.append(f"Removed {len(isolated_nodes)} isolated nodes")
-        
+
         # Filter by degree
         if min_degree is not None or max_degree is not None:
             nodes_to_remove = []
@@ -204,106 +204,106 @@ class NetworkPreprocessor:
                     nodes_to_remove.append(node)
                 elif max_degree is not None and degree > max_degree:
                     nodes_to_remove.append(node)
-            
+
             G.remove_nodes_from(nodes_to_remove)
             cleaning_log.append(f"Removed {len(nodes_to_remove)} nodes based on degree filter")
-        
+
         # Store cleaned network
         self.networks['cleaned'] = G
-        
+
         return G, cleaning_log
-    
+
     def create_subnetworks(self, method='connected_components', **kwargs):
         """Extract subnetworks based on various criteria"""
-        
+
         G = self.networks.get('cleaned', self.networks['main'])
         subnetworks = {}
-        
+
         if method == 'connected_components':
             # Extract connected components
             if nx.is_directed(G):
                 components = list(nx.weakly_connected_components(G))
             else:
                 components = list(nx.connected_components(G))
-            
+
             for i, component in enumerate(components):
                 if len(component) >= kwargs.get('min_size', 3):
                     subG = G.subgraph(component).copy()
                     subnetworks[f'component_[I]'] = subG
-        
+
         elif method == 'k_core':
             # Extract k-core
             k = kwargs.get('k', 2)
             k_core = nx.k_core(G, k=k)
             subnetworks['k_core'] = k_core
-        
+
         elif method == 'ego_networks':
             # Extract ego networks for specified nodes
             nodes = kwargs.get('nodes', list(G.nodes())[:10])
             radius = kwargs.get('radius', 1)
-            
+
             for node in nodes:
                 if node in G:
                     ego_G = nx.ego_graph(G, node, radius=radius)
                     subnetworks[f'ego_[NODE]'] = ego_G
-        
+
         elif method == 'attribute_based':
             # Extract subnetworks based on node attributes
             attribute = kwargs.get('attribute')
             values = kwargs.get('values')
-            
+
             if attribute and values:
                 for value in values:
                     nodes = [n for n, d in G.nodes(data=True) if d.get(attribute) == value]
                     if len(nodes) >= kwargs.get('min_size', 3):
                         subG = G.subgraph(nodes).copy()
                         subnetworks[f'[ATTRIBUTE]_[VALUE]'] = subG
-        
+
         self.networks.update(subnetworks)
         return subnetworks
-    
+
     def add_node_attributes(self, attribute_data, attribute_name):
         """Add attributes to network nodes"""
-        
+
         G = self.networks.get('cleaned', self.networks['main'])
-        
+
         # Add attributes from dictionary or dataframe
         if isinstance(attribute_data, dict):
             nx.set_node_attributes(G, attribute_data, attribute_name)
         elif isinstance(attribute_data, pd.DataFrame):
             attr_dict = attribute_data.set_index(attribute_data.columns[0])[attribute_name].to_dict()
             nx.set_node_attributes(G, attr_dict, attribute_name)
-        
+
         # Update metadata
         if attribute_name not in self.metadata['main']['node_attributes']:
             self.metadata['main']['node_attributes'].append(attribute_name)
-    
+
     def temporal_network_preprocessing(self, timestamp_column):
         """Preprocess temporal/dynamic networks"""
-        
+
         G = self.networks['main']
-        
+
         # Extract temporal information
         edge_times = {}
         for u, v, data in G.edges(data=True):
             if timestamp_column in data:
                 edge_times[(u, v)] = data[timestamp_column]
-        
+
         # Sort edges by timestamp
         sorted_edges = sorted(edge_times.items(), key=lambda x: x[1])
-        
+
         # Create temporal snapshots
         time_windows = self._create_time_windows(sorted_edges, window_size='[TIME_WINDOW]')
-        
+
         temporal_networks = {}
         for i, (start_time, end_time, edges) in enumerate(time_windows):
             temp_G = nx.Graph() if not nx.is_directed(G) else nx.DiGraph()
             temp_G.add_edges_from([edge[0] for edge in edges])
             temporal_networks[f'time_[I]'] = temp_G
-        
+
         self.networks.update(temporal_networks)
         return temporal_networks
-    
+
     def _create_time_windows(self, sorted_edges, window_size):
         """Create time windows for temporal analysis"""
         # Implementation for creating time windows
@@ -328,13 +328,13 @@ class NetworkValidator:
     def __init__(self, network):
         self.network = network
         self.validation_results = {}
-    
+
     def comprehensive_validation(self):
         """Perform comprehensive network validation"""
-        
+
         G = self.network
         validation = {}
-        
+
         # Basic properties validation
         validation['basic_properties'] = {
             'num_nodes': G.number_of_nodes(),
@@ -344,7 +344,7 @@ class NetworkValidator:
             'has_self_loops': nx.number_of_selfloops(G) > 0,
             'is_connected': nx.is_connected(G) if not nx.is_directed(G) else nx.is_weakly_connected(G)
         }
-        
+
         # Degree distribution validation
         degrees = dict(G.degree())
         validation['degree_distribution'] = {
@@ -355,7 +355,7 @@ class NetworkValidator:
             'degree_variance': np.var(list(degrees.values())),
             'isolated_nodes': len([n for n, d in degrees.items() if d == 0])
         }
-        
+
         # Connectivity validation
         if nx.is_directed(G):
             validation['connectivity'] = {
@@ -369,7 +369,7 @@ class NetworkValidator:
                 'connected_components': nx.number_connected_components(G),
                 'largest_component_size': len(max(nx.connected_components(G), key=len))
             }
-        
+
         # Data quality checks
         validation['data_quality'] = {
             'duplicate_edges': self._check_duplicate_edges(G),
@@ -377,23 +377,23 @@ class NetworkValidator:
             'missing_edge_attributes': self._check_missing_attributes(G, 'edges'),
             'attribute_consistency': self._check_attribute_consistency(G)
         }
-        
+
         # Network density and sparsity
         validation['density_metrics'] = {
             'density': nx.density(G),
             'is_sparse': nx.density(G) < 0.1,
             'is_dense': nx.density(G) > 0.5
         }
-        
+
         self.validation_results = validation
         return validation
-    
+
     def _check_duplicate_edges(self, G):
         """Check for duplicate edges"""
         edge_list = list(G.edges())
         unique_edges = set(edge_list)
         return len(edge_list) - len(unique_edges)
-    
+
     def _check_missing_attributes(self, G, element_type):
         """Check for missing attributes"""
         missing_count = 0
@@ -406,30 +406,30 @@ class NetworkValidator:
                 if not data:
                     missing_count += 1
         return missing_count
-    
+
     def _check_attribute_consistency(self, G):
         """Check consistency of node/edge attributes"""
         # Check if all nodes have the same attribute keys
         node_attr_sets = [set(data.keys()) for _, data in G.nodes(data=True)]
         edge_attr_sets = [set(data.keys()) for _, _, data in G.edges(data=True)]
-        
+
         consistent_node_attrs = len(set(frozenset(s) for s in node_attr_sets)) <= 1
         consistent_edge_attrs = len(set(frozenset(s) for s in edge_attr_sets)) <= 1
-        
+
         return {
             'consistent_node_attributes': consistent_node_attrs,
             'consistent_edge_attributes': consistent_edge_attrs
         }
-    
+
     def generate_validation_report(self):
         """Generate comprehensive validation report"""
         if not self.validation_results:
             self.comprehensive_validation()
-        
+
         report = []
         report.append("NETWORK VALIDATION REPORT")
         report.append("=" * 40)
-        
+
         # Basic properties
         basic = self.validation_results['basic_properties']
         report.append(f"\nBasic Properties:")
@@ -438,7 +438,7 @@ class NetworkValidator:
         report.append(f"  Directed: {basic['is_directed']}")
         report.append(f"  Weighted: {basic['is_weighted']}")
         report.append(f"  Connected: {basic['is_connected']}")
-        
+
         # Degree distribution
         degree = self.validation_results['degree_distribution']
         report.append(f"\nDegree Distribution:")
@@ -446,14 +446,14 @@ class NetworkValidator:
         report.append(f"  Median degree: {degree['median_degree']:.2f}")
         report.append(f"  Max degree: {degree['max_degree']}")
         report.append(f"  Isolated nodes: {degree['isolated_nodes']}")
-        
+
         # Data quality issues
         quality = self.validation_results['data_quality']
         report.append(f"\nData Quality:")
         report.append(f"  Duplicate edges: {quality['duplicate_edges']}")
         report.append(f"  Missing node attributes: {quality['missing_node_attributes']}")
         report.append(f"  Missing edge attributes: {quality['missing_edge_attributes']}")
-        
+
         return "\n".join(report)
 
 # Validate network
@@ -469,25 +469,25 @@ class CentralityAnalyzer:
     def __init__(self, network):
         self.network = network
         self.centrality_scores = {}
-    
+
     def calculate_all_centralities(self, normalized=True):
         """Calculate all major centrality measures"""
-        
+
         G = self.network
         centralities = {}
-        
+
         print("Calculating centrality measures...")
-        
+
         # Degree Centrality
         print("  - Degree centrality")
         centralities['degree'] = nx.degree_centrality(G)
-        
+
         # Betweenness Centrality
         print("  - Betweenness centrality")
         centralities['betweenness'] = nx.betweenness_centrality(
             G, normalized=normalized, k=min(100, G.number_of_nodes())
         )
-        
+
         # Closeness Centrality
         print("  - Closeness centrality")
         if nx.is_connected(G) or nx.is_directed(G):
@@ -498,7 +498,7 @@ class CentralityAnalyzer:
                 subG = G.subgraph(component)
                 closeness_sub = nx.closeness_centrality(subG)
                 centralities['closeness'].update(closeness_sub)
-        
+
         # Eigenvector Centrality
         print("  - Eigenvector centrality")
         try:
@@ -506,11 +506,11 @@ class CentralityAnalyzer:
         except nx.NetworkXError:
             print("    Warning: Eigenvector centrality failed, using PageRank instead")
             centralities['eigenvector'] = nx.pagerank(G)
-        
+
         # PageRank
         print("  - PageRank")
         centralities['pagerank'] = nx.pagerank(G, alpha=0.85, max_iter=1000)
-        
+
         # Katz Centrality
         print("  - Katz centrality")
         try:
@@ -519,16 +519,16 @@ class CentralityAnalyzer:
         except (nx.NetworkXError, ZeroDivisionError):
             print("    Warning: Katz centrality calculation failed")
             centralities['katz'] = {node: 0 for node in G.nodes()}
-        
+
         # Harmonic Centrality
         print("  - Harmonic centrality")
         centralities['harmonic'] = nx.harmonic_centrality(G, distance=None)
-        
+
         # Load Centrality (for weighted networks)
         if nx.is_weighted(G):
             print("  - Load centrality")
             centralities['load'] = nx.load_centrality(G, weight='weight')
-        
+
         # Current Flow Betweenness Centrality (for connected networks)
         if nx.is_connected(G) and G.number_of_nodes() < 500:  # Computationally expensive
             print("  - Current flow betweenness centrality")
@@ -536,28 +536,28 @@ class CentralityAnalyzer:
                 centralities['current_flow_betweenness'] = nx.current_flow_betweenness_centrality(G)
             except:
                 print("    Warning: Current flow betweenness calculation failed")
-        
+
         # Store results
         self.centrality_scores = centralities
         return centralities
-    
+
     def analyze_centrality_correlations(self):
         """Analyze correlations between centrality measures"""
-        
+
         if not self.centrality_scores:
             self.calculate_all_centralities()
-        
+
         # Create DataFrame with centrality scores
         centrality_df = pd.DataFrame(self.centrality_scores)
         centrality_df = centrality_df.fillna(0)
-        
+
         # Calculate correlations
         correlation_matrix = centrality_df.corr()
-        
+
         # Statistical significance testing
         from scipy.stats import pearsonr
         p_values = pd.DataFrame(index=correlation_matrix.index, columns=correlation_matrix.columns)
-        
+
         for i in correlation_matrix.index:
             for j in correlation_matrix.columns:
                 if i != j:
@@ -565,22 +565,22 @@ class CentralityAnalyzer:
                     p_values.loc[i, j] = p_val
                 else:
                     p_values.loc[i, j] = 0.0
-        
+
         return {
             'correlation_matrix': correlation_matrix,
             'p_values': p_values,
             'significant_correlations': correlation_matrix[(correlation_matrix.abs() > 0.5) & (p_values < 0.05)]
         }
-    
+
     def identify_top_nodes(self, centrality_measure, top_k=10):
         """Identify top nodes by centrality measure"""
-        
+
         if centrality_measure not in self.centrality_scores:
             raise ValueError(f"Centrality measure '[CENTRALITY_MEASURE]' not calculated")
-        
+
         scores = self.centrality_scores[centrality_measure]
         top_nodes = sorted(scores.items(), key=lambda x: x[1], reverse=True)[:top_k]
-        
+
         return {
             'centrality_measure': centrality_measure,
             'top_nodes': top_nodes,
@@ -592,15 +592,15 @@ class CentralityAnalyzer:
                 'min': min(scores.values())
             }
         }
-    
+
     def centrality_distribution_analysis(self):
         """Analyze the distribution of centrality measures"""
-        
+
         analysis = {}
-        
+
         for measure, scores in self.centrality_scores.items():
             values = list(scores.values())
-            
+
             # Basic statistics
             stats = {
                 'count': len(values),
@@ -616,39 +616,39 @@ class CentralityAnalyzer:
                 'skewness': self._calculate_skewness(values),
                 'kurtosis': self._calculate_kurtosis(values)
             }
-            
+
             # Distribution shape analysis
             stats['is_power_law'] = self._test_power_law_distribution(values)
             stats['concentration_ratio'] = self._calculate_concentration_ratio(values)
-            
+
             analysis[measure] = stats
-        
+
         return analysis
-    
+
     def _calculate_skewness(self, values):
         """Calculate skewness of distribution"""
         from scipy.stats import skew
         return skew(values)
-    
+
     def _calculate_kurtosis(self, values):
         """Calculate kurtosis of distribution"""
         from scipy.stats import kurtosis
         return kurtosis(values)
-    
+
     def _test_power_law_distribution(self, values):
         """Test if distribution follows power law"""
         # Simple test - more sophisticated methods exist
         log_values = np.log([v + 1e-10 for v in values if v > 0])
         if len(log_values) < 10:
             return False
-        
+
         # Linear regression on log-log scale
         ranks = np.log(np.arange(1, len(log_values) + 1))
         sorted_log_values = np.sort(log_values)[::-1]
-        
+
         correlation = np.corrcoef(ranks, sorted_log_values)[0, 1]
         return correlation < -0.8  # Strong negative correlation indicates power law
-    
+
     def _calculate_concentration_ratio(self, values):
         """Calculate concentration ratio (e.g., top 10% vs. rest)"""
         sorted_values = sorted(values, reverse=True)
@@ -678,15 +678,15 @@ class CommunityDetector:
         self.network = network
         self.communities = {}
         self.community_metrics = {}
-    
+
     def detect_communities_multiple_methods(self):
         """Apply multiple community detection algorithms"""
-        
+
         G = self.network
         methods = {}
-        
+
         print("Detecting communities using multiple methods...")
-        
+
         # 1. Louvain Algorithm
         print("  - Louvain algorithm")
         try:
@@ -695,12 +695,12 @@ class CommunityDetector:
         except Exception as e:
             print(f"    Error in Louvain: [E]")
             methods['louvain'] = []
-        
+
         # 2. Leiden Algorithm (if available)
         try:
             import leidenalg
             import igraph as ig
-            
+
             print("  - Leiden algorithm")
             # Convert to igraph
             ig_graph = self._networkx_to_igraph(G)
@@ -710,7 +710,7 @@ class CommunityDetector:
             print("    Leiden algorithm not available (install leidenalg)")
         except Exception as e:
             print(f"    Error in Leiden: [E]")
-        
+
         # 3. Girvan-Newman Algorithm
         print("  - Girvan-Newman algorithm")
         if G.number_of_nodes() < 1000:  # Computationally expensive
@@ -719,7 +719,7 @@ class CommunityDetector:
                 # Take the partition with highest modularity
                 best_partition = None
                 best_modularity = -1
-                
+
                 for i, partition in enumerate(gn_communities):
                     if i > 10:  # Limit iterations
                         break
@@ -727,13 +727,13 @@ class CommunityDetector:
                     if mod > best_modularity:
                         best_modularity = mod
                         best_partition = partition
-                
+
                 methods['girvan_newman'] = list(best_partition) if best_partition else []
             except Exception as e:
                 print(f"    Error in Girvan-Newman: [E]")
         else:
             print("    Skipping Girvan-Newman (too many nodes)")
-        
+
         # 4. Label Propagation
         print("  - Label propagation")
         try:
@@ -741,7 +741,7 @@ class CommunityDetector:
             methods['label_propagation'] = [list(comm) for comm in lp_communities]
         except Exception as e:
             print(f"    Error in Label Propagation: [E]")
-        
+
         # 5. Greedy Modularity Maximization
         print("  - Greedy modularity maximization")
         try:
@@ -749,14 +749,14 @@ class CommunityDetector:
             methods['greedy_modularity'] = [list(comm) for comm in greedy_communities]
         except Exception as e:
             print(f"    Error in Greedy Modularity: [E]")
-        
+
         # 6. Spectral Clustering
         print("  - Spectral clustering")
         try:
             methods['spectral'] = self._spectral_clustering(G, n_clusters=[NUM_COMMUNITIES])
         except Exception as e:
             print(f"    Error in Spectral Clustering: [E]")
-        
+
         # 7. Infomap (if available)
         try:
             import infomap
@@ -766,110 +766,110 @@ class CommunityDetector:
             print("    Infomap not available")
         except Exception as e:
             print(f"    Error in Infomap: [E]")
-        
+
         self.communities = methods
         return methods
-    
+
     def _partition_to_communities(self, partition):
         """Convert node-community partition to list of communities"""
         communities = defaultdict(list)
         for node, comm_id in partition.items():
             communities[comm_id].append(node)
         return list(communities.values())
-    
+
     def _networkx_to_igraph(self, G):
         """Convert NetworkX graph to igraph"""
         import igraph as ig
-        
+
         # Create vertex mapping
         node_list = list(G.nodes())
         node_to_idx = {node: i for i, node in enumerate(node_list)}
-        
+
         # Create edge list with indices
         edge_list = [(node_to_idx[u], node_to_idx[v]) for u, v in G.edges()]
-        
+
         # Create igraph
         ig_graph = ig.Graph(n=len(node_list), edges=edge_list, directed=G.is_directed())
-        
+
         return ig_graph
-    
+
     def _spectral_clustering(self, G, n_clusters=8):
         """Apply spectral clustering"""
         # Get adjacency matrix
         adj_matrix = nx.adjacency_matrix(G).toarray()
-        
+
         # Apply spectral clustering
         spectral = SpectralClustering(n_clusters=n_clusters, affinity='precomputed', random_state=42)
         cluster_labels = spectral.fit_predict(adj_matrix)
-        
+
         # Convert to communities
         communities = defaultdict(list)
         for node, label in zip(G.nodes(), cluster_labels):
             communities[label].append(node)
-        
+
         return list(communities.values())
-    
+
     def _infomap_communities(self, G):
         """Apply Infomap algorithm"""
         import infomap
-        
+
         # Create Infomap instance
         im = infomap.Infomap()
-        
+
         # Add links
         for u, v in G.edges():
             im.addLink(u, v)
-        
+
         # Run algorithm
         im.run()
-        
+
         # Extract communities
         communities = defaultdict(list)
         for node in im.tree:
             if node.isLeaf():
                 communities[node.moduleIndex()].append(node.physicalId)
-        
+
         return list(communities.values())
-    
+
     def evaluate_community_quality(self):
         """Evaluate quality of detected communities"""
-        
+
         G = self.network
         evaluation_results = {}
-        
+
         for method, communities in self.communities.items():
             if not communities:
                 continue
-                
+
             print(f"Evaluating [METHOD] communities...")
-            
+
             # Modularity
             modularity = community.modularity(G, communities)
-            
+
             # Coverage (fraction of edges within communities)
             coverage = community.coverage(G, communities)
-            
+
             # Performance (fraction of correctly classified node pairs)
             performance = community.performance(G, communities)
-            
+
             # Number of communities
             num_communities = len(communities)
-            
+
             # Community sizes
             community_sizes = [len(comm) for comm in communities]
-            
+
             # Conductance (for each community)
             conductances = []
             for comm in communities:
                 if len(comm) > 1:
                     subG = G.subgraph(comm)
                     internal_edges = subG.number_of_edges()
-                    external_edges = sum(1 for node in comm for neighbor in G.neighbors(node) 
+                    external_edges = sum(1 for node in comm for neighbor in G.neighbors(node)
                                        if neighbor not in comm)
                     total_edges = internal_edges + external_edges
                     conductance = external_edges / total_edges if total_edges > 0 else 0
                     conductances.append(conductance)
-            
+
             evaluation_results[method] = {
                 'modularity': modularity,
                 'coverage': coverage,
@@ -882,92 +882,92 @@ class CommunityDetector:
                 'avg_conductance': np.mean(conductances) if conductances else None,
                 'community_size_distribution': community_sizes
             }
-        
+
         self.community_metrics = evaluation_results
         return evaluation_results
-    
+
     def compare_community_methods(self):
         """Compare different community detection methods"""
-        
+
         if not self.community_metrics:
             self.evaluate_community_quality()
-        
+
         comparison = pd.DataFrame(self.community_metrics).T
-        
+
         # Rank methods by modularity
         comparison['modularity_rank'] = comparison['modularity'].rank(ascending=False)
-        
+
         # Rank methods by performance
         comparison['performance_rank'] = comparison['performance'].rank(ascending=False)
-        
+
         # Combined score (you can adjust weights)
         comparison['combined_score'] = (
-            0.4 * comparison['modularity_rank'] + 
+            0.4 * comparison['modularity_rank'] +
             0.3 * comparison['performance_rank'] +
             0.3 * comparison['coverage'].rank(ascending=False)
         )
-        
+
         comparison['overall_rank'] = comparison['combined_score'].rank(ascending=True)
-        
+
         return comparison.sort_values('overall_rank')
-    
+
     def analyze_community_structure(self, method='best'):
         """Analyze structure of detected communities"""
-        
+
         if method == 'best':
             # Select best method based on evaluation
             comparison = self.compare_community_methods()
             method = comparison.index[0]
-        
+
         if method not in self.communities:
             raise ValueError(f"Method [METHOD] not found in detected communities")
-        
+
         G = self.network
         communities = self.communities[method]
-        
+
         structure_analysis = {}
-        
+
         # Inter-community connections
         inter_community_edges = 0
         intra_community_edges = 0
-        
+
         community_map = {}
         for i, comm in enumerate(communities):
             for node in comm:
                 community_map[node] = i
-        
+
         for u, v in G.edges():
             if community_map.get(u) == community_map.get(v):
                 intra_community_edges += 1
             else:
                 inter_community_edges += 1
-        
+
         structure_analysis['edge_distribution'] = {
             'intra_community_edges': intra_community_edges,
             'inter_community_edges': inter_community_edges,
             'intra_community_ratio': intra_community_edges / G.number_of_edges()
         }
-        
+
         # Community-specific analysis
         community_details = []
         for i, comm in enumerate(communities):
             subG = G.subgraph(comm)
-            
+
             # Internal structure
             internal_density = nx.density(subG)
-            
+
             # Centrality within community
             if len(comm) > 1:
                 internal_centrality = nx.degree_centrality(subG)
                 central_node = max(internal_centrality.items(), key=lambda x: x[1])
             else:
                 central_node = (list(comm)[0], 1.0)
-            
+
             # External connections
             external_connections = 0
             for node in comm:
                 external_connections += len([n for n in G.neighbors(node) if n not in comm])
-            
+
             community_details.append({
                 'community_id': i,
                 'size': len(comm),
@@ -977,48 +977,48 @@ class CommunityDetector:
                 'central_node_centrality': central_node[1],
                 'avg_external_degree': external_connections / len(comm) if len(comm) > 0 else 0
             })
-        
+
         structure_analysis['community_details'] = pd.DataFrame(community_details)
         structure_analysis['method_used'] = method
-        
+
         return structure_analysis
-    
+
     def hierarchical_community_detection(self, max_levels=5):
         """Detect hierarchical community structure"""
-        
+
         G = self.network
         hierarchical_communities = []
-        
+
         # Start with the full network
         current_level_graphs = [G]
         level = 0
-        
+
         while current_level_graphs and level < max_levels:
             print(f"Detecting communities at level [LEVEL]")
-            
+
             next_level_graphs = []
             level_communities = []
-            
+
             for graph in current_level_graphs:
                 if graph.number_of_nodes() < 10:  # Stop if too small
                     continue
-                
+
                 # Detect communities in current graph
                 partition = community_louvain.best_partition(graph)
                 communities = self._partition_to_communities(partition)
-                
+
                 level_communities.extend(communities)
-                
+
                 # Create subgraphs for next level
                 for comm in communities:
                     if len(comm) > 5:  # Only proceed if community is large enough
                         subG = graph.subgraph(comm).copy()
                         next_level_graphs.append(subG)
-            
+
             hierarchical_communities.append(level_communities)
             current_level_graphs = next_level_graphs
             level += 1
-        
+
         return hierarchical_communities
 
 # Perform community detection
@@ -1037,29 +1037,29 @@ class PathAnalyzer:
     def __init__(self, network):
         self.network = network
         self.path_metrics = {}
-    
+
     def comprehensive_path_analysis(self, sample_size=1000):
         """Perform comprehensive path analysis"""
-        
+
         G = self.network
-        
+
         print("Analyzing network paths and connectivity...")
-        
+
         # Basic connectivity
         connectivity = self._analyze_basic_connectivity(G)
-        
+
         # Shortest path analysis
         shortest_paths = self._analyze_shortest_paths(G, sample_size)
-        
+
         # Diameter and radius
         structural_measures = self._calculate_structural_measures(G)
-        
+
         # Efficiency measures
         efficiency = self._calculate_efficiency_measures(G)
-        
+
         # Robustness analysis
         robustness = self._analyze_network_robustness(G)
-        
+
         self.path_metrics = {
             'connectivity': connectivity,
             'shortest_paths': shortest_paths,
@@ -1067,58 +1067,58 @@ class PathAnalyzer:
             'efficiency': efficiency,
             'robustness': robustness
         }
-        
+
         return self.path_metrics
-    
+
     def _analyze_basic_connectivity(self, G):
         """Analyze basic connectivity properties"""
-        
+
         connectivity = {}
-        
+
         if nx.is_directed(G):
             # Directed graph connectivity
             connectivity['is_strongly_connected'] = nx.is_strongly_connected(G)
             connectivity['is_weakly_connected'] = nx.is_weakly_connected(G)
-            
+
             connectivity['num_strongly_connected_components'] = nx.number_strongly_connected_components(G)
             connectivity['num_weakly_connected_components'] = nx.number_weakly_connected_components(G)
-            
+
             # Largest components
             scc = list(nx.strongly_connected_components(G))
             wcc = list(nx.weakly_connected_components(G))
-            
+
             connectivity['largest_scc_size'] = len(max(scc, key=len)) if scc else 0
             connectivity['largest_wcc_size'] = len(max(wcc, key=len)) if wcc else 0
-            
+
             connectivity['largest_scc_fraction'] = connectivity['largest_scc_size'] / G.number_of_nodes()
             connectivity['largest_wcc_fraction'] = connectivity['largest_wcc_size'] / G.number_of_nodes()
-            
+
         else:
             # Undirected graph connectivity
             connectivity['is_connected'] = nx.is_connected(G)
             connectivity['num_connected_components'] = nx.number_connected_components(G)
-            
+
             # Largest component
             components = list(nx.connected_components(G))
             connectivity['largest_component_size'] = len(max(components, key=len)) if components else 0
             connectivity['largest_component_fraction'] = connectivity['largest_component_size'] / G.number_of_nodes()
-            
+
             # Articulation points and bridges
             connectivity['num_articulation_points'] = len(list(nx.articulation_points(G)))
             connectivity['num_bridges'] = len(list(nx.bridges(G)))
-            
+
             # Connectivity measures
             if nx.is_connected(G):
                 connectivity['node_connectivity'] = nx.node_connectivity(G)
                 connectivity['edge_connectivity'] = nx.edge_connectivity(G)
-        
+
         return connectivity
-    
+
     def _analyze_shortest_paths(self, G, sample_size=1000):
         """Analyze shortest path distribution"""
-        
+
         path_analysis = {}
-        
+
         # Get largest connected component for analysis
         if nx.is_directed(G):
             if nx.is_weakly_connected(G):
@@ -1130,10 +1130,10 @@ class PathAnalyzer:
                 largest_cc = G
             else:
                 largest_cc = G.subgraph(max(nx.connected_components(G), key=len))
-        
+
         if largest_cc.number_of_nodes() < 2:
             return {'error': 'No connected component with sufficient nodes'}
-        
+
         # Sample node pairs for large networks
         nodes = list(largest_cc.nodes())
         if len(nodes) > sample_size:
@@ -1142,11 +1142,11 @@ class PathAnalyzer:
             sampled_pairs = [(u, v) for u in nodes for v in nodes if u != v]
             if len(sampled_pairs) > sample_size:
                 sampled_pairs = np.random.sample(sampled_pairs, sample_size)
-        
+
         # Calculate shortest paths
         path_lengths = []
         unreachable_pairs = 0
-        
+
         for source, target in sampled_pairs:
             try:
                 if nx.has_path(largest_cc, source, target):
@@ -1156,7 +1156,7 @@ class PathAnalyzer:
                     unreachable_pairs += 1
             except nx.NetworkXNoPath:
                 unreachable_pairs += 1
-        
+
         if path_lengths:
             path_analysis = {
                 'sample_size': len(sampled_pairs),
@@ -1170,14 +1170,14 @@ class PathAnalyzer:
                 'path_length_distribution': Counter(path_lengths),
                 'characteristic_path_length': np.mean(path_lengths)
             }
-        
+
         return path_analysis
-    
+
     def _calculate_structural_measures(self, G):
         """Calculate diameter, radius, and related measures"""
-        
+
         structural = {}
-        
+
         # Work with largest connected component
         if nx.is_directed(G):
             if nx.is_strongly_connected(G):
@@ -1197,10 +1197,10 @@ class PathAnalyzer:
                     component = G.subgraph(max(components, key=len))
                 else:
                     return {'error': 'No connected component'}
-        
+
         if component.number_of_nodes() < 2:
             return {'error': 'Insufficient nodes for structural measures'}
-        
+
         try:
             # Diameter (longest shortest path)
             if component.number_of_nodes() < 1000:  # Computationally expensive for large graphs
@@ -1211,23 +1211,23 @@ class PathAnalyzer:
             else:
                 # Approximate for large graphs
                 structural['estimated_diameter'] = self._estimate_diameter(component)
-        
+
             # Eccentricity analysis
             if component.number_of_nodes() < 500:
                 eccentricity = nx.eccentricity(component)
                 structural['avg_eccentricity'] = np.mean(list(eccentricity.values()))
                 structural['eccentricity_distribution'] = Counter(eccentricity.values())
-        
+
         except nx.NetworkXError as e:
             structural['error'] = str(e)
-        
+
         return structural
-    
+
     def _estimate_diameter(self, G, sample_size=100):
         """Estimate diameter for large networks"""
         nodes = list(G.nodes())
         sampled_nodes = np.random.choice(nodes, min(sample_size, len(nodes)), replace=False)
-        
+
         max_path_length = 0
         for source in sampled_nodes:
             try:
@@ -1236,90 +1236,90 @@ class PathAnalyzer:
                 max_path_length = max(max_path_length, local_max)
             except:
                 continue
-        
+
         return max_path_length
-    
+
     def _calculate_efficiency_measures(self, G):
         """Calculate global and local efficiency"""
-        
+
         efficiency = {}
-        
+
         # Global efficiency
         try:
             efficiency['global_efficiency'] = nx.global_efficiency(G)
         except:
             efficiency['global_efficiency'] = None
-        
+
         # Local efficiency
         try:
             efficiency['local_efficiency'] = nx.local_efficiency(G)
         except:
             efficiency['local_efficiency'] = None
-        
+
         # Average local efficiency
         if efficiency['local_efficiency'] is not None:
             efficiency['avg_local_efficiency'] = np.mean(list(efficiency['local_efficiency'].values()))
-        
+
         return efficiency
-    
+
     def _analyze_network_robustness(self, G, attack_fraction=0.1):
         """Analyze network robustness to node/edge removal"""
-        
+
         robustness = {}
-        
+
         original_lcc_size = len(max(nx.connected_components(G), key=len)) if not nx.is_connected(G) else G.number_of_nodes()
-        
+
         # Random node removal
         num_nodes_to_remove = int(G.number_of_nodes() * attack_fraction)
         random_nodes = np.random.choice(list(G.nodes()), num_nodes_to_remove, replace=False)
-        
+
         G_random = G.copy()
         G_random.remove_nodes_from(random_nodes)
-        
+
         if G_random.number_of_nodes() > 0:
             lcc_after_random = len(max(nx.connected_components(G_random), key=len)) if not nx.is_connected(G_random) else G_random.number_of_nodes()
             robustness['random_attack_resilience'] = lcc_after_random / original_lcc_size
         else:
             robustness['random_attack_resilience'] = 0
-        
+
         # Targeted attack (remove highest degree nodes)
         degree_sequence = sorted(G.degree(), key=lambda x: x[1], reverse=True)
         high_degree_nodes = [node for node, degree in degree_sequence[:num_nodes_to_remove]]
-        
+
         G_targeted = G.copy()
         G_targeted.remove_nodes_from(high_degree_nodes)
-        
+
         if G_targeted.number_of_nodes() > 0:
             lcc_after_targeted = len(max(nx.connected_components(G_targeted), key=len)) if not nx.is_connected(G_targeted) else G_targeted.number_of_nodes()
             robustness['targeted_attack_resilience'] = lcc_after_targeted / original_lcc_size
         else:
             robustness['targeted_attack_resilience'] = 0
-        
+
         # Edge removal robustness
         num_edges_to_remove = int(G.number_of_edges() * attack_fraction)
         random_edges = np.random.choice(list(G.edges()), num_edges_to_remove, replace=False)
-        
+
         G_edge_removal = G.copy()
         G_edge_removal.remove_edges_from(random_edges)
-        
+
         lcc_after_edge_removal = len(max(nx.connected_components(G_edge_removal), key=len)) if not nx.is_connected(G_edge_removal) else G_edge_removal.number_of_nodes()
         robustness['edge_removal_resilience'] = lcc_after_edge_removal / original_lcc_size
-        
+
         return robustness
-    
+
     def k_shortest_paths(self, source, target, k=5):
         """Find k shortest paths between two nodes"""
-        
+
         G = self.network
-        
+
         try:
             k_paths = list(nx.shortest_simple_paths(G, source, target))[:k]
-            
+
             paths_info = []
             for i, path in enumerate(k_paths):
                 path_length = len(path) - 1
                 path_weight = sum(G[path[j]][path[j+1]].get('weight', 1) for j in range(len(path)-1))
-                
+
                 paths_info.append({
                     'rank': i + 1,
                     'path': path,
@@ -1327,31 +1327,31 @@ class PathAnalyzer:
                     'weight': path_weight,
                     'nodes': len(path)
                 })
-            
+
             return paths_info
-        
+
         except nx.NetworkXNoPath:
             return []
-    
+
     def all_pairs_shortest_paths_analysis(self, weight=None):
         """Analyze all pairs shortest paths (for smaller networks)"""
-        
+
         G = self.network
-        
+
         if G.number_of_nodes() > 1000:
             return {'error': 'Network too large for all-pairs analysis'}
-        
+
         # Calculate all shortest paths
         if weight:
             paths = dict(nx.all_pairs_dijkstra_path_length(G, weight=weight))
         else:
             paths = dict(nx.all_pairs_shortest_path_length(G))
-        
+
         # Analyze path distribution
         all_distances = []
         for source_dict in paths.values():
             all_distances.extend(source_dict.values())
-        
+
         analysis = {
             'total_pairs': len(all_distances),
             'avg_distance': np.mean(all_distances),
@@ -1360,7 +1360,7 @@ class PathAnalyzer:
             'distance_distribution': Counter(all_distances),
             'diameter': max(all_distances) if all_distances else 0
         }
-        
+
         return analysis
 
 # Perform path analysis
@@ -1375,13 +1375,13 @@ class TemporalNetworkAnalyzer:
     def __init__(self, networks_sequence):
         self.networks_sequence = networks_sequence
         self.temporal_metrics = {}
-    
+
     def analyze_temporal_evolution(self):
         """Analyze how network properties evolve over time"""
-        
+
         evolution_metrics = {}
         time_points = len(self.networks_sequence)
-        
+
         # Initialize metric tracking
         metrics = {
             'num_nodes': [],
@@ -1394,21 +1394,21 @@ class TemporalNetworkAnalyzer:
             'num_communities': [],
             'largest_component_size': []
         }
-        
+
         for t, G in enumerate(self.networks_sequence):
             print(f"Analyzing time point {t+1}/[TIME_POINTS]")
-            
+
             # Basic metrics
             metrics['num_nodes'].append(G.number_of_nodes())
             metrics['num_edges'].append(G.number_of_edges())
             metrics['density'].append(nx.density(G))
-            
+
             # Clustering coefficient
             if G.number_of_nodes() > 0:
                 metrics['clustering_coefficient'].append(nx.average_clustering(G))
             else:
                 metrics['clustering_coefficient'].append(0)
-            
+
             # Path length and diameter (for connected component)
             if nx.is_connected(G):
                 if G.number_of_nodes() > 1:
@@ -1433,45 +1433,45 @@ class TemporalNetworkAnalyzer:
                 else:
                     metrics['avg_path_length'].append(0)
                     metrics['diameter'].append(0)
-            
+
             # Community detection
             try:
                 communities = community_louvain.best_partition(G)
                 num_communities = len(set(communities.values()))
                 modularity = community.modularity(G, [
-                    [node for node, comm in communities.items() if comm == c] 
+                    [node for node, comm in communities.items() if comm == c]
                     for c in set(communities.values())
                 ])
-                
+
                 metrics['num_communities'].append(num_communities)
                 metrics['modularity'].append(modularity)
             except:
                 metrics['num_communities'].append(0)
                 metrics['modularity'].append(0)
-            
+
             # Largest component size
             if G.number_of_nodes() > 0:
                 largest_component = max(nx.connected_components(G), key=len)
                 metrics['largest_component_size'].append(len(largest_component))
             else:
                 metrics['largest_component_size'].append(0)
-        
+
         evolution_metrics = pd.DataFrame(metrics)
         evolution_metrics['time'] = range(len(self.networks_sequence))
-        
+
         self.temporal_metrics['evolution'] = evolution_metrics
         return evolution_metrics
-    
+
     def node_lifecycle_analysis(self):
         """Analyze lifecycle of nodes across time"""
-        
+
         # Track all nodes across time
         all_nodes = set()
         for G in self.networks_sequence:
             all_nodes.update(G.nodes())
-        
+
         node_lifecycle = {}
-        
+
         for node in all_nodes:
             lifecycle = {
                 'first_appearance': None,
@@ -1480,23 +1480,23 @@ class TemporalNetworkAnalyzer:
                 'continuous_periods': [],
                 'intermittent': False
             }
-            
+
             appearances = []
             for t, G in enumerate(self.networks_sequence):
                 if node in G:
                     appearances.append(t)
                     lifecycle['total_appearances'] += 1
-            
+
             if appearances:
                 lifecycle['first_appearance'] = min(appearances)
                 lifecycle['last_appearance'] = max(appearances)
-                
+
                 # Find continuous periods
                 continuous_periods = []
                 if appearances:
                     start = appearances[0]
                     end = appearances[0]
-                    
+
                     for i in range(1, len(appearances)):
                         if appearances[i] == end + 1:
                             end = appearances[i]
@@ -1505,17 +1505,17 @@ class TemporalNetworkAnalyzer:
                             start = appearances[i]
                             end = appearances[i]
                     continuous_periods.append((start, end))
-                
+
                 lifecycle['continuous_periods'] = continuous_periods
                 lifecycle['intermittent'] = len(continuous_periods) > 1
-            
+
             node_lifecycle[node] = lifecycle
-        
+
         return node_lifecycle
-    
+
     def edge_dynamics_analysis(self):
         """Analyze edge formation and dissolution"""
-        
+
         edge_dynamics = {
             'persistent_edges': set(),
             'forming_edges': {},
@@ -1523,17 +1523,17 @@ class TemporalNetworkAnalyzer:
             'edge_lifetime': {},
             'temporal_edge_list': []
         }
-        
+
         # Track all edges across time
         all_edges = set()
         for G in self.networks_sequence:
             all_edges.update(G.edges())
-        
+
         for edge in all_edges:
             edge_presence = []
             for t, G in enumerate(self.networks_sequence):
                 edge_presence.append(edge in G.edges() or (edge[1], edge[0]) in G.edges())
-            
+
             # Calculate lifetime
             lifetime = sum(edge_presence)
             edge_dynamics['edge_lifetime'][edge] = {
@@ -1542,53 +1542,53 @@ class TemporalNetworkAnalyzer:
                 'first_appearance': edge_presence.index(True) if True in edge_presence else None,
                 'last_appearance': len(edge_presence) - 1 - edge_presence[::-1].index(True) if True in edge_presence else None
             }
-            
+
             # Persistent edges (present in all time points)
             if all(edge_presence):
                 edge_dynamics['persistent_edges'].add(edge)
-        
+
         # Track edge formation and dissolution
         for t in range(1, len(self.networks_sequence)):
             prev_edges = set(self.networks_sequence[t-1].edges())
             curr_edges = set(self.networks_sequence[t].edges())
-            
+
             # New edges
             forming = curr_edges - prev_edges
             edge_dynamics['forming_edges'][t] = forming
-            
+
             # Dissolved edges
             dissolving = prev_edges - curr_edges
             edge_dynamics['dissolving_edges'][t] = dissolving
-        
+
         return edge_dynamics
-    
+
     def network_stability_analysis(self):
         """Analyze stability of network structure"""
-        
+
         stability_metrics = {
             'jaccard_similarity': [],
             'hamming_distance': [],
             'degree_correlation': [],
             'structural_stability': []
         }
-        
+
         for t in range(1, len(self.networks_sequence)):
             G_prev = self.networks_sequence[t-1]
             G_curr = self.networks_sequence[t]
-            
+
             # Jaccard similarity of edge sets
             edges_prev = set(G_prev.edges())
             edges_curr = set(G_curr.edges())
-            
+
             intersection = len(edges_prev.intersection(edges_curr))
             union = len(edges_prev.union(edges_curr))
             jaccard = intersection / union if union > 0 else 0
             stability_metrics['jaccard_similarity'].append(jaccard)
-            
+
             # Hamming distance
             hamming = len(edges_prev.symmetric_difference(edges_curr))
             stability_metrics['hamming_distance'].append(hamming)
-            
+
             # Degree correlation
             common_nodes = set(G_prev.nodes()).intersection(set(G_curr.nodes()))
             if len(common_nodes) > 1:
@@ -1598,31 +1598,31 @@ class TemporalNetworkAnalyzer:
                 stability_metrics['degree_correlation'].append(correlation)
             else:
                 stability_metrics['degree_correlation'].append(0)
-            
+
             # Structural stability (based on spectral analysis)
             try:
                 # Compare leading eigenvalues of adjacency matrices
                 if len(common_nodes) > 2:
                     subG_prev = G_prev.subgraph(common_nodes)
                     subG_curr = G_curr.subgraph(common_nodes)
-                    
+
                     adj_prev = nx.adjacency_matrix(subG_prev).toarray()
                     adj_curr = nx.adjacency_matrix(subG_curr).toarray()
-                    
+
                     eigvals_prev = np.linalg.eigvals(adj_prev)
                     eigvals_curr = np.linalg.eigvals(adj_curr)
-                    
+
                     # Compare largest eigenvalue
                     max_eig_prev = np.max(np.real(eigvals_prev))
                     max_eig_curr = np.max(np.real(eigvals_curr))
-                    
+
                     structural_stability = 1 - abs(max_eig_prev - max_eig_curr) / max(max_eig_prev, max_eig_curr, 1)
                     stability_metrics['structural_stability'].append(structural_stability)
                 else:
                     stability_metrics['structural_stability'].append(0)
             except:
                 stability_metrics['structural_stability'].append(0)
-        
+
         return pd.DataFrame(stability_metrics)
 
 # Temporal analysis (if temporal data available)
@@ -1650,33 +1650,33 @@ class NetworkVisualizer:
         self.network = network
         self.layouts = {}
         self.figures = {}
-    
+
     def create_comprehensive_visualization_suite(self):
         """Create comprehensive set of network visualizations"""
-        
+
         G = self.network
-        
+
         # 1. Basic network layout
         basic_layout = self.create_basic_network_plot()
-        
+
         # 2. Centrality visualization
         centrality_plots = self.visualize_centrality_measures()
-        
+
         # 3. Community visualization
         community_plot = self.visualize_communities()
-        
+
         # 4. Degree distribution
         degree_dist = self.plot_degree_distribution()
-        
+
         # 5. Interactive network plot
         interactive_plot = self.create_interactive_network()
-        
+
         # 6. Network statistics dashboard
         stats_dashboard = self.create_statistics_dashboard()
-        
+
         # 7. Path analysis visualization
         path_viz = self.visualize_path_analysis()
-        
+
         visualizations = {
             'basic_layout': basic_layout,
             'centrality_plots': centrality_plots,
@@ -1686,14 +1686,14 @@ class NetworkVisualizer:
             'statistics_dashboard': stats_dashboard,
             'path_visualization': path_viz
         }
-        
+
         return visualizations
-    
+
     def create_basic_network_plot(self, layout='spring', figsize=(12, 8)):
         """Create basic network visualization with different layouts"""
-        
+
         G = self.network
-        
+
         # Choose layout
         if layout == 'spring':
             pos = nx.spring_layout(G, k=1/np.sqrt(G.number_of_nodes()), iterations=50)
@@ -1707,36 +1707,36 @@ class NetworkVisualizer:
             pos = nx.spectral_layout(G)
         elif layout == 'kamada_kawai':
             pos = nx.kamada_kawai_layout(G)
-        
+
         self.layouts[layout] = pos
-        
+
         fig, ax = plt.subplots(figsize=figsize)
-        
+
         # Draw network
         nx.draw_networkx_nodes(G, pos, ax=ax,
                               node_color='lightblue',
                               node_size=50,
                               alpha=0.7)
-        
+
         nx.draw_networkx_edges(G, pos, ax=ax,
                               edge_color='gray',
                               alpha=0.5,
                               width=0.5)
-        
+
         # Add labels for small networks
         if G.number_of_nodes() < 100:
             nx.draw_networkx_labels(G, pos, ax=ax, font_size=8)
-        
+
         ax.set_title(f'Network Visualization ({layout.title()} Layout)')
         ax.axis('off')
-        
+
         return fig
-    
+
     def visualize_centrality_measures(self, centrality_results=None):
         """Visualize different centrality measures"""
-        
+
         G = self.network
-        
+
         if centrality_results is None:
             # Calculate basic centralities
             centrality_results = {
@@ -1745,47 +1745,47 @@ class NetworkVisualizer:
                 'closeness': nx.closeness_centrality(G),
                 'eigenvector': nx.eigenvector_centrality(G, max_iter=1000)
             }
-        
+
         fig, axes = plt.subplots(2, 2, figsize=(16, 12))
         axes = axes.flatten()
-        
+
         pos = self.layouts.get('spring', nx.spring_layout(G))
-        
+
         for i, (measure, scores) in enumerate(centrality_results.items()):
             ax = axes[i]
-            
+
             # Node sizes based on centrality
             node_sizes = [scores.get(node, 0) * 1000 + 50 for node in G.nodes()]
-            
+
             # Color map
             node_colors = [scores.get(node, 0) for node in G.nodes()]
-            
+
             # Draw network
             nodes = nx.draw_networkx_nodes(G, pos, ax=ax,
                                          node_size=node_sizes,
                                          node_color=node_colors,
                                          cmap=plt.cm.viridis,
                                          alpha=0.8)
-            
+
             nx.draw_networkx_edges(G, pos, ax=ax,
                                   edge_color='gray',
                                   alpha=0.3,
                                   width=0.5)
-            
+
             ax.set_title(f'{measure.title()} Centrality')
             ax.axis('off')
-            
+
             # Add colorbar
             plt.colorbar(nodes, ax=ax, shrink=0.8)
-        
+
         plt.tight_layout()
         return fig
-    
+
     def visualize_communities(self, communities=None):
         """Visualize network communities"""
-        
+
         G = self.network
-        
+
         if communities is None:
             # Detect communities using Louvain
             partition = community_louvain.best_partition(G)
@@ -1795,60 +1795,60 @@ class NetworkVisualizer:
                     communities[comm_id] = []
                 communities[comm_id].append(node)
             communities = list(communities.values())
-        
+
         fig, ax = plt.subplots(figsize=(12, 8))
-        
+
         pos = self.layouts.get('spring', nx.spring_layout(G))
-        
+
         # Color palette for communities
         colors = plt.cm.Set3(np.linspace(0, 1, len(communities)))
-        
+
         # Draw each community with different color
         for i, community in enumerate(communities):
-            nx.draw_networkx_nodes(G, pos, 
+            nx.draw_networkx_nodes(G, pos,
                                  nodelist=community,
                                  node_color=[colors[i]],
                                  node_size=100,
                                  alpha=0.8,
                                  ax=ax)
-        
+
         # Draw edges
-        nx.draw_networkx_edges(G, pos, 
+        nx.draw_networkx_edges(G, pos,
                               edge_color='gray',
                               alpha=0.5,
                               width=0.5,
                               ax=ax)
-        
+
         ax.set_title(f'Community Structure ({len(communities)} communities)')
         ax.axis('off')
-        
+
         return fig
-    
+
     def plot_degree_distribution(self):
         """Plot degree distribution analysis"""
-        
+
         G = self.network
         degrees = [d for n, d in G.degree()]
-        
+
         fig, axes = plt.subplots(2, 2, figsize=(15, 10))
-        
+
         # Histogram
         axes[0, 0].hist(degrees, bins=50, alpha=0.7, edgecolor='black')
         axes[0, 0].set_xlabel('Degree')
         axes[0, 0].set_ylabel('Frequency')
         axes[0, 0].set_title('Degree Distribution')
-        
+
         # Log-log plot
         degree_counts = Counter(degrees)
         degrees_sorted = sorted(degree_counts.keys())
         counts = [degree_counts[d] for d in degrees_sorted]
-        
+
         axes[0, 1].loglog(degrees_sorted, counts, 'bo-', markersize=4)
         axes[0, 1].set_xlabel('Degree (log scale)')
         axes[0, 1].set_ylabel('Count (log scale)')
         axes[0, 1].set_title('Degree Distribution (Log-Log)')
         axes[0, 1].grid(True)
-        
+
         # Cumulative distribution
         degrees_sorted = np.sort(degrees)
         cumulative = np.arange(1, len(degrees_sorted) + 1) / len(degrees_sorted)
@@ -1857,23 +1857,23 @@ class NetworkVisualizer:
         axes[1, 0].set_ylabel('P(X >= k)')
         axes[1, 0].set_title('Complementary Cumulative Distribution')
         axes[1, 0].set_yscale('log')
-        
+
         # Box plot
         axes[1, 1].boxplot(degrees, vert=True)
         axes[1, 1].set_ylabel('Degree')
         axes[1, 1].set_title('Degree Distribution Summary')
-        
+
         plt.tight_layout()
         return fig
-    
+
     def create_interactive_network(self):
         """Create interactive network visualization using Plotly"""
-        
+
         G = self.network
-        
+
         # Use spring layout
         pos = nx.spring_layout(G, k=1/np.sqrt(G.number_of_nodes()), iterations=50)
-        
+
         # Prepare edge traces
         edge_x = []
         edge_y = []
@@ -1882,28 +1882,28 @@ class NetworkVisualizer:
             x1, y1 = pos[edge[1]]
             edge_x.extend([x0, x1, None])
             edge_y.extend([y0, y1, None])
-        
+
         edge_trace = go.Scatter(x=edge_x, y=edge_y,
                                line=dict(width=0.5, color='#888'),
                                hoverinfo='none',
                                mode='lines')
-        
+
         # Prepare node traces
         node_x = []
         node_y = []
         node_text = []
         node_colors = []
-        
+
         for node in G.nodes():
             x, y = pos[node]
             node_x.append(x)
             node_y.append(y)
-            
+
             # Node info
             adjacencies = list(G.neighbors(node))
             node_text.append(f'Node: [NODE]<br>Degree: {len(adjacencies)}<br>Neighbors: {", ".join(map(str, adjacencies[:5]))}')
             node_colors.append(len(adjacencies))
-        
+
         node_trace = go.Scatter(x=node_x, y=node_y,
                                mode='markers',
                                hoverinfo='text',
@@ -1920,7 +1920,7 @@ class NetworkVisualizer:
                                              title="Node Degree"
                                          ),
                                          line_width=2))
-        
+
         # Create figure
         fig = go.Figure(data=[edge_trace, node_trace],
                        layout=go.Layout(
@@ -1940,17 +1940,17 @@ class NetworkVisualizer:
                          xaxis=dict(showgrid=False, zeroline=False, showticklabels=False),
                          yaxis=dict(showgrid=False, zeroline=False, showticklabels=False),
                          plot_bgcolor='white'))
-        
+
         return fig
-    
+
     def create_statistics_dashboard(self, network_stats=None):
         """Create comprehensive network statistics dashboard"""
-        
+
         G = self.network
-        
+
         if network_stats is None:
             network_stats = self._calculate_comprehensive_stats(G)
-        
+
         # Create subplot figure
         fig = make_subplots(
             rows=3, cols=3,
@@ -1963,15 +1963,15 @@ class NetworkVisualizer:
                    [{"type": "histogram"}, {"type": "histogram"}, {"type": "scatter"}],
                    [{"type": "scatter"}, {"type": "bar"}, {"type": "indicator"}]]
         )
-        
+
         # Add various plots to dashboard
         # This would include multiple visualizations based on network_stats
-        
+
         return fig
-    
+
     def _calculate_comprehensive_stats(self, G):
         """Calculate comprehensive network statistics for dashboard"""
-        
+
         stats = {
             'basic': {
                 'nodes': G.number_of_nodes(),
@@ -1985,7 +1985,7 @@ class NetworkVisualizer:
             'clustering': nx.average_clustering(G),
             'components': [len(c) for c in nx.connected_components(G)]
         }
-        
+
         return stats
 
 # Create comprehensive visualizations
@@ -2183,8 +2183,6 @@ Deliver comprehensive network analysis including:
 - [REPORT_SECTIONS] - Sections of the analysis report
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

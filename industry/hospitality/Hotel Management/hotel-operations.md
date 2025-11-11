@@ -358,8 +358,6 @@ Post-Stay:
 | `[CASH_VAR]` | Specify the cash var | "[specify value]" |
 | `[CASH_FORECAST]` | Specify the cash forecast | "[specify value]" |
 
-
-
 ### 3. Revenue Management Strategy
 
 | **Revenue Stream** | **Current Revenue** | **Contribution %** | **Growth Potential** | **Strategy** | **Investment Needed** |
@@ -486,8 +484,6 @@ Third-Party Channels:
 | Cash Flow | $[CASH_MONTH] | $[CASH_YTD] | $[CASH_BUDGET] | [CASH_VAR]% | $[CASH_FORECAST] |
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

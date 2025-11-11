@@ -346,8 +346,6 @@ By Category:
 | `[AI_ROI]` | Specify the ai roi | "[specify value]" |
 | `[AI_RISK]` | Specify the ai risk | "[specify value]" |
 
-
-
 ### 3. Stock Level Optimization
 
 | **Location Type** | **Safety Stock** | **Reorder Point** | **Order Quantity** | **Lead Time** | **Service Level** |
@@ -460,8 +458,6 @@ Advanced Capabilities:
 | AI Demand Sensing | $[AI_INVEST] | [AI_TIME] | $[AI_SAVE] | [AI_ROI]% | [AI_RISK] |
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

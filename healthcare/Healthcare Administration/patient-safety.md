@@ -24,7 +24,7 @@ Create comprehensive patient safety initiatives, error prevention systems, safet
 Begin with an AHRQ Hospital Survey on Patient Safety Culture to establish your baseline. Identify your organization's top 3 harm events (e.g., falls, medication errors, HAIs), then implement evidence-based prevention bundles with 100% compliance targets and weekly monitoring.
 
 ### For Clinical Unit Managers
-Implement daily safety huddles (10-15 minutes) to discuss near-misses, safety concerns, and high-risk patients. Establish psychological safety by responding to all reports non-punitively, focus on system fixes rather than individual blame, and celebrate proactive safety reporting.
+Implement daily safety huddles to discuss near-misses, safety concerns, and high-risk patients. Establish psychological safety by responding to all reports non-punitively, focus on system fixes rather than individual blame, and celebrate proactive safety reporting.
 
 ### For Risk Managers
 Create a tiered response system for safety events (immediate/24-hour/72-hour actions based on severity). Streamline your incident reporting system to make it easy and non-punitive, conduct rapid RCAs for serious events, and track action plan completion rates rigorously.
@@ -493,8 +493,6 @@ OUTPUT: Deliver comprehensive patient safety program with:
 [All 350+ variables for comprehensive patient safety programs]
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

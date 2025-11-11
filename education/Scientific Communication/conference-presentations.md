@@ -56,9 +56,9 @@ Generate a complete conference presentation strategy:
 1. PRESENTATION ARCHITECTURE
 
    ## Content Structure Framework
-   
+
    ### Oral Presentation Template
-   
+
    ```python
    presentation_structure = {
        '5_minute_lightning': {
@@ -89,9 +89,9 @@ Generate a complete conference presentation strategy:
        }
    }
    ```
-   
+
    ### Presentation Flow Design
-   
+
    ```mermaid
    graph TD
        A[Hook Opening] --> B[Problem Statement]
@@ -101,7 +101,7 @@ Generate a complete conference presentation strategy:
        E --> F[Implications]
        F --> G[Future Directions]
        G --> H[Discussion Invitation]
-       
+
        A1[Visual Opening] --> A
        B1[Context Slides] --> B
        C1[Hypothesis/Aims] --> C
@@ -111,59 +111,59 @@ Generate a complete conference presentation strategy:
        G1[Next Steps] --> G
        H1[Contact/Questions] --> H
    ```
-   
+
    ## Opening Strategies
-   
+
    ### Hook Techniques
-   
+
    ```yaml
    opening_approaches:
      statistical_surprise:
        example: "Every [TIME_PERIOD], [STATISTIC] occurs..."
        effectiveness: High attention grabber
        best_for: Public health, social issues
-       
+
      visual_impact:
        example: Striking image or data visualization
        effectiveness: Immediate engagement
        best_for: Physical sciences, engineering
-       
+
      personal_connection:
        example: "Raise your hand if you've experienced..."
        effectiveness: Audience involvement
        best_for: Psychology, education, medicine
-       
+
      historical_context:
        example: "50 years ago, we thought..."
        effectiveness: Perspective setting
        best_for: Established fields, paradigm shifts
-       
+
      current_event_tie:
        example: "Last week's headlines about [TOPIC]..."
        effectiveness: Relevance emphasis
        best_for: Applied research, policy studies
    ```
-   
+
    ### Problem Statement Framework
-   
+
    ```markdown
    ## Problem Articulation Template
-   
+
    **Current State:** The field of [DISCIPLINE] currently understands [KNOWN_INFORMATION]. However, [GAP_IDENTIFICATION] remains unclear/unresolved/poorly understood.
-   
+
    **Consequences:** This limitation [IMPACT_ON_FIELD/SOCIETY/PRACTICE] and prevents [DESIRED_OUTCOME].
-   
+
    **Opportunity:** Recent advances in [TECHNOLOGY/METHODOLOGY/THEORY] now make it possible to [ADDRESS_GAP].
-   
+
    **Our Approach:** We [ACTION_TAKEN] to [SPECIFIC_OBJECTIVE] and thereby [CONTRIBUTION_TO_FIELD].
    ```
 
 2. VISUAL DESIGN PRINCIPLES
 
    ## Slide Design Framework
-   
+
    ### Visual Hierarchy Rules
-   
+
    ```python
    design_principles = {
        'typography': {
@@ -194,9 +194,9 @@ Generate a complete conference presentation strategy:
        }
    }
    ```
-   
+
    ### Slide Template Library
-   
+
    ```yaml
    slide_templates:
      title_slide:
@@ -206,49 +206,49 @@ Generate a complete conference presentation strategy:
          - Conference name and date
          - Institution logo
          - Contact information
-       
+
      agenda_overview:
        elements:
          - "Today I'll discuss..."
          - 3-4 main points preview
          - Time allocation indication
          - Interaction expectations
-       
+
      literature_context:
        elements:
          - Key studies timeline
          - Gap identification
          - Theoretical framework
          - Research opportunity
-       
+
      methods_summary:
        elements:
          - Study design diagram
          - Participant/sample info
          - Procedure overview
          - Analysis approach
-       
+
      results_data:
        elements:
          - Primary finding visualization
          - Statistical information
          - Effect size indicators
          - Confidence intervals
-       
+
      discussion_implications:
        elements:
          - Key takeaways (3-4 points)
          - Theoretical contributions
          - Practical applications
          - Limitations acknowledgment
-       
+
      future_directions:
        elements:
          - Ongoing studies
          - Planned investigations
          - Collaboration opportunities
          - Timeline expectations
-       
+
      closing_contact:
        elements:
          - Summary statement
@@ -260,9 +260,9 @@ Generate a complete conference presentation strategy:
 3. DATA VISUALIZATION
 
    ## Scientific Visualization Standards
-   
+
    ### Chart Selection Matrix
-   
+
    | Data Type | Relationship | Best Visualization | Alternative Options |
    |-----------|--------------|-------------------|-------------------|
    | Continuous vs Continuous | Correlation | Scatter plot | Bubble chart, Heat map |
@@ -273,9 +273,9 @@ Generate a complete conference presentation strategy:
    | Geographic | Spatial | Map visualization | Choropleth, Dot map |
    | Network | Connections | Network diagram | Sankey, Chord diagram |
    | Hierarchical | Structure | Tree map | Dendrogram, Sunburst |
-   
+
    ### Figure Design Guidelines
-   
+
    ```python
    visualization_standards = {
        'axes_design': {
@@ -307,18 +307,18 @@ Generate a complete conference presentation strategy:
        }
    }
    ```
-   
+
    ### Interactive Element Design
-   
+
    ```markdown
    ## Dynamic Presentation Elements
-   
+
    ### Animation Guidelines
    - **Build sequences**: Reveal information progressively
    - **Emphasis effects**: Highlight key findings
    - **Transition slides**: Smooth section connections
    - **Timing control**: Allow presenter pacing
-   
+
    ### Audience Engagement Tools
    - **Polling questions**: Real-time feedback
    - **QR codes**: Link to supplementary materials
@@ -329,9 +329,9 @@ Generate a complete conference presentation strategy:
 4. POSTER DESIGN FRAMEWORK
 
    ## Poster Architecture
-   
+
    ### Layout Templates
-   
+
    ```python
    poster_layouts = {
        'traditional_academic': {
@@ -374,9 +374,9 @@ Generate a complete conference presentation strategy:
        }
    }
    ```
-   
+
    ### Content Optimization
-   
+
    ```yaml
    poster_content_strategy:
      text_guidelines:
@@ -384,44 +384,44 @@ Generate a complete conference presentation strategy:
        - Bullet points preferred over paragraphs
        - White space between sections
        - Sans-serif fonts only
-       
+
      visual_priority:
-       primary_figure: 
+       primary_figure:
          - Most important finding
          - Central placement
          - Large size allocation
-       
+
        supporting_visuals:
          - 2-3 additional figures maximum
          - Clear relationship to main finding
          - Consistent design style
-       
+
      information_hierarchy:
        essential: "Must convey even in 30 seconds"
        important: "Detailed examination reveals"
        supplementary: "Available for deep discussion"
    ```
-   
+
    ### Poster Presentation Strategy
-   
+
    ```markdown
    ## Poster Session Tactics
-   
+
    ### 30-Second Elevator Pitch
    "Hi! I'm [NAME] from [INSTITUTION]. My research shows that [KEY_FINDING]. This is important because [SIGNIFICANCE]. Would you like to hear more about [SPECIFIC_ASPECT]?"
-   
+
    ### 2-Minute Summary
    1. **Problem** (20 seconds): Context and gap
    2. **Approach** (30 seconds): Methods overview
    3. **Finding** (60 seconds): Primary result with visual
    4. **Impact** (30 seconds): Implications and next steps
-   
+
    ### Extended Discussion Preparation
    - **Deep dive topics**: Methodology details, additional analyses
    - **Future work**: Planned studies, collaboration opportunities
    - **Practical applications**: Real-world implementation
    - **Technical questions**: Anticipate expert inquiries
-   
+
    ### Engagement Tools
    - **Handout summary**: Key points and contact info
    - **QR code**: Link to full paper or supplementary data
@@ -432,9 +432,9 @@ Generate a complete conference presentation strategy:
 5. AUDIENCE INTERACTION
 
    ## Q&A Management
-   
+
    ### Question Anticipation Framework
-   
+
    ```python
    question_categories = {
        'methodological_questions': {
@@ -467,30 +467,30 @@ Generate a complete conference presentation strategy:
        }
    }
    ```
-   
+
    ### Response Strategies
-   
+
    ```markdown
    ## Effective Q&A Techniques
-   
+
    ### STAR Method for Complex Questions
    - **S**ituation: Acknowledge the question context
-   - **T**ask: Clarify what needs to be addressed  
+   - **T**ask: Clarify what needs to be addressed
    - **A**ction: Explain your approach or finding
    - **R**esult: State the outcome or conclusion
-   
+
    ### Handling Difficult Questions
-   
+
    **"I don't know" responses:**
    - "That's an excellent question that we haven't yet explored"
    - "Our data don't directly address that, but here's what we suspect..."
    - "I'd love to collaborate with someone who has expertise in that area"
-   
+
    **Challenging/critical questions:**
    - "I appreciate that perspective" (acknowledge validity)
    - "You raise an important limitation" (show openness)
    - "Let me clarify our position" (respectful correction)
-   
+
    **Off-topic questions:**
    - "That's interesting, but outside our current scope"
    - "I'd be happy to discuss that after the session"
@@ -500,9 +500,9 @@ Generate a complete conference presentation strategy:
 6. TECHNICAL SETUP
 
    ## Presentation Technology
-   
+
    ### Equipment Checklist
-   
+
    ```yaml
    tech_requirements:
      presentation_files:
@@ -511,30 +511,30 @@ Generate a complete conference presentation strategy:
        - Figures as separate high-res files
        - Video files (if used)
        - Font files (if custom fonts)
-       
+
      hardware_backup:
        - Personal laptop with adapters
        - USB drive with all files
        - Wireless presenter remote
        - Backup battery/charger
        - Ethernet cable (if needed)
-       
+
      connectivity_adapters:
        - HDMI adapter
        - VGA adapter (older venues)
        - USB-C to various formats
        - Wireless display adapter
        - Audio cables (if needed)
-       
+
      contingency_plans:
        - Internet-free presentation version
        - Handout copies of key slides
        - Business cards with contact info
        - Paper backup of script notes
    ```
-   
+
    ### Virtual Presentation Adaptations
-   
+
    ```python
    virtual_presentation_mods = {
        'slide_design_changes': {
@@ -562,9 +562,9 @@ Generate a complete conference presentation strategy:
 7. CONFERENCE-SPECIFIC ADAPTATION
 
    ## Conference Type Customization
-   
+
    ### Venue-Specific Adjustments
-   
+
    | Conference Type | Audience Expectations | Presentation Style | Key Adaptations |
    |----------------|----------------------|-------------------|----------------|
    | Disciplinary Society | Expert knowledge | Technical depth | Detailed methods, advanced concepts |
@@ -573,19 +573,19 @@ Generate a complete conference presentation strategy:
    | Graduate Symposium | Learning oriented | Educational approach | Methods teaching, career advice |
    | International Meeting | Cultural diversity | Universal concepts | Clear visuals, simple language |
    | Virtual Conference | Online engagement | Interactive elements | Polls, chats, shorter segments |
-   
+
    ### Cultural Considerations
-   
+
    ```markdown
    ## International Conference Adaptations
-   
+
    ### Language Considerations
    - **Speak slowly**: 20% slower than normal pace
    - **Clear articulation**: Emphasize consonants
    - **Simple vocabulary**: Avoid idioms and colloquialisms
    - **Visual support**: More graphics, fewer text slides
    - **Repetition**: Key points stated multiple ways
-   
+
    ### Cultural Sensitivity
    - **Time concepts**: Linear vs. cyclical time understanding
    - **Color meanings**: Red/green significance varies
@@ -597,9 +597,9 @@ Generate a complete conference presentation strategy:
 8. REHEARSAL AND PREPARATION
 
    ## Practice Framework
-   
+
    ### Rehearsal Schedule
-   
+
    ```python
    rehearsal_timeline = {
        'week_3_before': {
@@ -628,9 +628,9 @@ Generate a complete conference presentation strategy:
        }
    }
    ```
-   
+
    ### Performance Optimization
-   
+
    ```yaml
    delivery_techniques:
      vocal_delivery:
@@ -638,19 +638,19 @@ Generate a complete conference presentation strategy:
        - Use pauses strategically
        - Project to back of room
        - Maintain enthusiasm throughout
-       
+
      body_language:
        - Open posture and gestures
        - Purposeful movement
        - Audience eye contact
        - Slide coordination
-       
+
      slide_management:
        - Face audience, not screen
        - Use pointer purposefully
        - Advance slides smoothly
        - Handle technical issues gracefully
-       
+
      energy_management:
        - Strong opening energy
        - Sustain throughout middle
@@ -661,9 +661,9 @@ Generate a complete conference presentation strategy:
 9. FEEDBACK AND ITERATION
 
    ## Evaluation Framework
-   
+
    ### Self-Assessment Rubric
-   
+
    ```python
    presentation_evaluation = {
        'content_quality': {
@@ -692,24 +692,24 @@ Generate a complete conference presentation strategy:
        }
    }
    ```
-   
+
    ### Audience Feedback Collection
-   
+
    ```markdown
    ## Feedback Mechanisms
-   
+
    ### During Presentation
    - **Real-time polls**: Gauge understanding and engagement
    - **Facial expressions**: Monitor audience comprehension
    - **Question quality**: Indicates audience interest level
    - **Participation level**: Active vs. passive engagement
-   
+
    ### Post-Presentation
    - **Informal conversations**: Immediate reactions
    - **Follow-up emails**: Detailed questions and comments
    - **Social media mentions**: Public reception indicators
    - **Collaboration inquiries**: Interest in partnership
-   
+
    ### Formal Evaluation
    - **Conference feedback forms**: Structured ratings
    - **Session chair comments**: Professional peer review
@@ -720,9 +720,9 @@ Generate a complete conference presentation strategy:
 10. NETWORKING AND FOLLOW-UP
 
     ## Professional Relationship Building
-    
+
     ### Conference Networking Strategy
-    
+
     ```python
     networking_plan = {
         'pre_conference': {
@@ -745,33 +745,33 @@ Generate a complete conference presentation strategy:
         }
     }
     ```
-    
+
     ### Follow-Up Communication Templates
-    
+
     ```markdown
     ## Professional Follow-Up Messages
-    
+
     ### General Interest Follow-Up
     Subject: Great meeting you at [CONFERENCE_NAME]
-    
+
     Hi [NAME],
-    
+
     It was wonderful meeting you at [CONFERENCE] yesterday. I really enjoyed our discussion about [SPECIFIC_TOPIC] and your insights into [THEIR_RESEARCH_AREA].
-    
+
     As promised, I'm attaching [RESOURCE/PAPER] that we discussed. I'd love to stay connected and hear about how your [PROJECT_NAME] develops.
-    
+
     Best regards,
     [YOUR_NAME]
-    
+
     ### Collaboration Interest
     Subject: Potential collaboration opportunity
-    
+
     Dear [NAME],
-    
-    Following our conversation at [CONFERENCE], I've been thinking about the potential synergy between your work on [THEIR_FOCUS] and our research in [YOUR_FOCUS]. 
-    
+
+    Following our conversation at [CONFERENCE], I've been thinking about the potential synergy between your work on [THEIR_FOCUS] and our research in [YOUR_FOCUS].
+
     Would you be interested in exploring a potential collaboration? I have some initial ideas that might benefit both our research programs.
-    
+
     Best,
     [YOUR_NAME]
     ```
@@ -779,21 +779,21 @@ Generate a complete conference presentation strategy:
 11. CAREER DEVELOPMENT
 
     ## Professional Growth Through Presentations
-    
+
     ### Skill Development Progression
-    
+
     ```yaml
     presentation_career_path:
       novice_level:
         goals:
           - Deliver clear, organized presentations
-          - Handle basic questions confidently  
+          - Handle basic questions confidently
           - Use visual aids effectively
         opportunities:
           - Student conferences
           - Local chapter meetings
           - Department seminars
-          
+
       intermediate_level:
         goals:
           - Engage diverse audiences
@@ -803,7 +803,7 @@ Generate a complete conference presentation strategy:
           - Regional conferences
           - Invited talks
           - Workshop leadership
-          
+
       advanced_level:
         goals:
           - Inspire and influence audiences
@@ -815,18 +815,18 @@ Generate a complete conference presentation strategy:
           - Media interviews
           - Policy briefings
     ```
-    
+
     ### Reputation Building
-    
+
     ```markdown
     ## Building Presentation Reputation
-    
+
     ### Consistent Quality Markers
     - **Reliability**: Always well-prepared and professional
     - **Expertise**: Deep knowledge in specific areas
     - **Clarity**: Ability to make complex ideas accessible
     - **Engagement**: Creates memorable, interactive experiences
-    
+
     ### Strategic Presentation Selection
     - **High-visibility venues**: Major conferences and symposia
     - **Diverse audiences**: Different disciplines and sectors
@@ -837,9 +837,9 @@ Generate a complete conference presentation strategy:
 12. RESOURCE MANAGEMENT
 
     ## Presentation Asset Library
-    
+
     ### Reusable Component System
-    
+
     ```python
     asset_organization = {
         'slide_library': {
@@ -870,12 +870,12 @@ Generate a complete conference presentation strategy:
         }
     }
     ```
-    
+
     ### Version Control and Updates
-    
+
     ```markdown
     ## Presentation Maintenance System
-    
+
     ### File Management
     ```
     Presentations/
@@ -896,7 +896,7 @@ Generate a complete conference presentation strategy:
         ├── Photos/
         └── Graphics/
     ```
-    
+
     ### Regular Maintenance Tasks
     - **Quarterly reviews**: Update data and references
     - **Annual overhauls**: Refresh design and content

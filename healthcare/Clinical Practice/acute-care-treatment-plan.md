@@ -20,7 +20,7 @@ Develop rapid, evidence-based treatment plans for acute care and emergency scena
 
 ## Quick Start
 
-**Rapid Acute Care Treatment Plan (0-30 minutes):**
+**Rapid Acute Care Treatment Plan:**
 
 1. **STAT Assessment (0-5 min)** - ABCs, vital signs, GCS, chief complaint; document time of onset and arrival
 2. **Immediate Stabilization (0-15 min)** - Airway management, O2 therapy, IV access, cardiac monitoring per protocol
@@ -75,7 +75,7 @@ Critical History:
 
 IMMEDIATE INTERVENTIONS:
 
-Initial Stabilization (0-15 minutes):
+Initial Stabilization:
 1. Airway management: [AIRWAY_INTERVENTION] - Status: [AIRWAY_STATUS]
 2. Breathing support: [BREATHING_SUPPORT] - O2 target: [O2_TARGET]
 3. Circulation support: [CIRCULATION_SUPPORT] - IV access: [IV_ACCESS]
@@ -123,12 +123,12 @@ Point-of-Care Testing:
 
 TREATMENT GOALS (Acute Phase):
 
-Immediate Goals (0-4 hours):
+Immediate Goals:
 1. [IMMEDIATE_GOAL_1] - Target: [IMMEDIATE_TARGET_1] - Timeframe: [IMMEDIATE_TIME_1]
 2. [IMMEDIATE_GOAL_2] - Target: [IMMEDIATE_TARGET_2] - Timeframe: [IMMEDIATE_TIME_2]
 3. [IMMEDIATE_GOAL_3] - Target: [IMMEDIATE_TARGET_3] - Timeframe: [IMMEDIATE_TIME_3]
 
-Short-term Goals (4-24 hours):
+Short-term Goals:
 1. [SHORT_TERM_GOAL_1] - Measurable outcome: [SHORT_OUTCOME_1]
 2. [SHORT_TERM_GOAL_2] - Measurable outcome: [SHORT_OUTCOME_2]
 3. [SHORT_TERM_GOAL_3] - Measurable outcome: [SHORT_OUTCOME_3]

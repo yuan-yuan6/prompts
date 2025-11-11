@@ -183,7 +183,7 @@ Primary Character: [PRIMARY_CHARACTER]
 
 ### Set Structure
 ### Standup Set Design
-Opening (0-2 minutes):
+Opening:
 - Opening joke: [OPENING_JOKE]
 - Audience connection: [AUDIENCE_CONNECTION]
 - Energy establishment: [ENERGY_ESTABLISHMENT]
@@ -192,7 +192,7 @@ Opening (0-2 minutes):
 - Current reference: [CURRENT_REFERENCE]
 - Confidence building: [CONFIDENCE_BUILDING]
 
-Middle Material (2-8 minutes):
+Middle Material:
 - Core material: [CORE_MATERIAL]
 - Thematic connections: [THEMATIC_CONNECTIONS]
 - Callback opportunities: [CALLBACK_OPPORTUNITIES]
@@ -201,7 +201,7 @@ Middle Material (2-8 minutes):
 - Rhythm variation: [RHYTHM_VARIATION]
 - Energy management: [ENERGY_MANAGEMENT]
 
-Closing (8-10 minutes):
+Closing:
 - Strong closer: [STRONG_CLOSER]
 - Callback integration: [CALLBACK_INTEGRATION]
 - High-energy finish: [HIGH_ENERGY_FINISH]
@@ -526,8 +526,6 @@ OUTPUT: Deliver comprehensive comedy content with:
 [All 400+ variables for comprehensive comedy writing including jokes, sketches, and standup material]
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

@@ -38,8 +38,6 @@ Your organization needs to assess technical competencies for hiring software eng
 2. **Select Methods** (15 min): Choose and configure assessment instruments (interviews, simulations, 360-feedback, portfolios) from Section 2's multi-method toolkit
 3. **Implement & Analyze** (10 min): Set up scoring rubrics, analytics dashboards, and reporting frameworks using the templates in Sections 3-5
 
-**Time Estimate:** 45 minutes for initial framework design, then 2-4 hours for full implementation
-
 **Expected Outcome:** A comprehensive competency assessment system with validated instruments, objective scoring criteria, bias mitigation strategies, and analytics dashboards that increase assessment accuracy by 60%+ and reduce hiring/promotion errors significantly.
 
 ---
@@ -612,8 +610,6 @@ Please develop a comprehensive competency assessment system for [ORGANIZATION_NA
 ---
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

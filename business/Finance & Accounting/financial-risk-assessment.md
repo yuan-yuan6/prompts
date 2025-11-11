@@ -23,7 +23,7 @@ Identify, assess, and quantify financial risks through comprehensive risk analys
 **For CFOs & Treasury Managers**: Identify and quantify financial risks with scenario analysis to support risk mitigation and strategic planning.
 
 **Common Business Scenarios:**
-- **Debt Refinancing Risk**: Assess liquidity and solvency risks with upcoming debt maturities (12-24 months)
+- **Debt Refinancing Risk**: Assess liquidity and solvency risks with upcoming debt maturities
 - **Earnings Volatility**: Analyze market risks (FX, interest rate, commodity) impacting quarterly earnings
 - **Credit Facility Compliance**: Evaluate covenant headroom and probability of violations under stress scenarios
 - **Business Model Risk**: Assess customer concentration, competitive threats, and revenue sustainability

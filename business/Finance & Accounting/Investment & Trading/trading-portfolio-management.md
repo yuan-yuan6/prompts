@@ -440,8 +440,6 @@ Investment Experience: [INVESTMENT_EXPERIENCE_LEVEL], previous portfolio perform
 | `[REMOTE_ACCESS_CAPABILITIES]` | Specify the remote access capabilities | "[specify value]" |
 | `[RTO_TARGETS]` | Target or intended rto s | "[specify value]" |
 
-
-
 ### 2. Strategic Asset Allocation Framework
 
 **Modern Portfolio Theory Implementation:**
@@ -896,8 +894,6 @@ Disaster recovery: [DISASTER_RECOVERY_PROCEDURES]
 
 ## Usage Examples
 
-
-
 ## Best Practices
 
 1. **Start with clear objectives** - Define what success looks like before beginning
@@ -935,7 +931,7 @@ Client Demographics: Age 67, Male, Married, 0 dependents, Florida resident, US c
 - Monthly expenses: $5,500
 - Current savings rate: 15%
 - Existing debt: $0
-- Emergency fund: $33,000 (6 months expenses)
+- Emergency fund: $33,000
 
 ### Target Asset Allocation
 Equities: 35% ($420,000)
@@ -966,7 +962,7 @@ Client Demographics: Age 32, Female, Single, 0 dependents, New York resident, US
 - Monthly expenses: $8,000
 - Current savings rate: 35%
 - Existing debt: $150,000 (mortgage)
-- Emergency fund: $48,000 (6 months expenses)
+- Emergency fund: $48,000
 
 ### Target Asset Allocation
 Equities: 80% ($400,000)

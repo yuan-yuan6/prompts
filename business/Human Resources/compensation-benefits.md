@@ -38,7 +38,7 @@ Review compensation for Software Engineering roles (50 employees). Industry: Saa
 2. **Design strategy** - Salary structures, incentive plans, benefits portfolio
 3. **Implement and communicate** - Roll out changes, train managers, educate employees
 
-**Time to complete**: 6-12 weeks for comprehensive strategy (2-3 weeks for focused updates)
+**Time to complete**: 6-12 weeks for comprehensive strategy
 
 ---
 

@@ -22,13 +22,13 @@ Execute systematic study selection and screening processes, conduct comprehensiv
 
 ### For Reviewers & Quality Assessors
 
-**Step 1: Prepare Selection Infrastructure (10 minutes)**
+**Step 1: Prepare Selection Infrastructure**
 - Import search results into screening software (Covidence, Rayyan, etc.)
 - Remove duplicate records across databases
 - Assign reviewers to screening stages
 - Establish consensus procedures for disagreements
 
-**Step 2: Define Selection Criteria (15 minutes)**
+**Step 2: Define Selection Criteria**
 - Specify detailed inclusion criteria (PICO framework)
 - Document exclusion criteria and rationale
 - Create screening decision rules and examples

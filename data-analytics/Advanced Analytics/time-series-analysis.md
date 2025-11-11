@@ -330,8 +330,6 @@ Statistical Tests:
 | `[TIME_1M]` | Specify the time 1m | "[specify value]" |
 | `[TIME_TRIGGER]` | Specify the time trigger | "[specify value]" |
 
-
-
 ### 3. Forecasting Model Selection
 
 | **Model Type** | **RMSE** | **MAE** | **MAPE** | **Training Time** | **Complexity** | **Selected** |
@@ -452,8 +450,6 @@ Stream Processing:
 | Computation Time | <[TIME_TARGET]s | [TIME_CURRENT]s | [TIME_1W]s | [TIME_1M]s | [TIME_TRIGGER] |
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

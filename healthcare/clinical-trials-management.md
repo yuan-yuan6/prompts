@@ -369,8 +369,6 @@ Recruitment Methods:
 | `[SCIENTIFIC_DISSEMINATION]` | Specify the scientific dissemination | "[specify value]" |
 | `[MEDIA_RELATIONS]` | Specify the media relations | "[specify value]" |
 
-
-
 ### 3. Informed Consent Process
 
 | **Consent Element** | **Content Requirements** | **Delivery Method** | **Comprehension Assessment** | **Documentation** | **Version Control** |
@@ -540,8 +538,6 @@ Publication Strategy:
 ```
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

@@ -22,27 +22,27 @@ Maximize research impact through strategic dissemination, knowledge translation,
 
 ### For Researchers Planning Impact and Innovation
 
-**Step 1: Design Dissemination Strategy (10 minutes)**
+**Step 1: Design Dissemination Strategy**
 - Identify target audiences (academics, practitioners, policymakers, public)
 - Select dissemination channels for each audience
 - Plan academic publications and stakeholder communications
 
-**Step 2: Plan Knowledge Translation (8 minutes)**
+**Step 2: Plan Knowledge Translation**
 - Develop strategies for translating findings into practice
 - Create implementation tools and practice guidelines
 - Design policy briefs and advocacy approaches
 
-**Step 3: Integrate Innovation and Technology (7 minutes)**
+**Step 3: Integrate Innovation and Technology**
 - Identify opportunities for methodological innovation
 - Plan technology integration for enhanced research
 - Consider emerging methods and future-oriented approaches
 
-**Step 4: Establish Evaluation and Improvement Systems (7 minutes)**
+**Step 4: Establish Evaluation and Improvement Systems**
 - Design impact assessment framework
 - Create continuous improvement processes
 - Plan for research sustainability and capacity building
 
-**Step 5: Generate and Execute (3 minutes)**
+**Step 5: Generate and Execute**
 - Input specifications into template variables
 - Generate comprehensive impact and innovation plan
 - Create dissemination timeline and evaluation framework

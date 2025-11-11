@@ -21,19 +21,19 @@ Create comprehensive literature reviews covering systematic reviews, narrative r
 
 ### For Researchers & Scholars
 
-**Step 1: Define Your Review Scope (10 minutes)**
+**Step 1: Define Your Review Scope**
 - Specify your research topic, academic field, and primary research questions
 - Choose review type: Systematic, narrative, meta-analysis, or scoping review
 - Identify target journal or publication venue
 - Set timeframe and geographic scope for literature search
 
-**Step 2: Plan Your Search Strategy (5 minutes)**
+**Step 2: Plan Your Search Strategy**
 - List primary and secondary search keywords
 - Select relevant academic databases (PubMed, Web of Science, etc.)
 - Define inclusion and exclusion criteria
 - Specify publication timeframe and language requirements
 
-**Step 3: Generate Your Review Framework (2 minutes)**
+**Step 3: Generate Your Review Framework**
 - Input your specifications into the template variables
 - Generate comprehensive literature review structure with:
   - Systematic search strategy and methodology
@@ -1574,8 +1574,6 @@ Generate a comprehensive literature review that includes:
 
 ## Usage Examples
 
-
-
 ## Best Practices
 
 1. **Start with clear objectives** - Define what success looks like before beginning
@@ -1624,77 +1622,77 @@ Generate a comprehensive literature review that includes:
    • [Primary research question]
    • [Secondary objectives]
    • [Review methodology type]
-   
+
 ### Methods
    • [Search strategy summary]
    • [Selection criteria]
    • [Analysis approach]
    • [Quality assessment method]
-   
+
 ### Results
    • [Number of studies identified]
    • [Key findings summary]
    • [Evidence synthesis results]
-   
+
 ### Conclusions
    • [Main conclusions]
    • [Implications for practice]
    • [Future research directions]
-   
+
    Keywords: [PRIMARY_KEYWORDS], [SECONDARY_KEYWORDS], [METHODOLOGY_TERMS]
 
 2. INTRODUCTION & BACKGROUND
-   
+
 ### Research Context
    • [Field overview and current state]
    • [Historical development of the topic]
    • [Theoretical foundations]
    • [Interdisciplinary connections]
-   
+
 ### Problem Statement
    • [Research problem definition]
    • [Evidence of need for review]
    • [Gaps in existing knowledge]
    • [Conflicting findings in literature]
-   
+
 ### Rationale for Review
    • [Justification for review type]
    • [Expected contribution to field]
    • [Policy or practice implications]
    • [Methodological advancement]
-   
+
 ### Review Objectives
 ### Primary Objectives
    • [Main research question(s)]
    • [Hypothesis to be tested]
    • [Primary outcomes of interest]
-   
+
 ### Secondary Objectives
    • [Sub-questions to address]
    • [Exploratory analyses planned]
    • [Additional outcomes examined]
 
 3. METHODOLOGY
-   
+
 ### Review Protocol
    • [Protocol registration details]
    • [Review guidelines followed (PRISMA, etc.)]
    • [Ethical considerations]
    • [Protocol deviations]
-   
+
 ### Search Strategy
 ### Database Sources
    • [PRIMARY_DATABASE]: [Search terms and limits]
    • [SECONDARY_DATABASE]: [Search terms and limits]
    • [TERTIARY_DATABASE]: [Search terms and limits]
    • [GREY_LITERATURE_SOURCES]: [Search approach]
-   
+
 ### Search Terms
    Concept 1: [CONCEPT_1_TERMS]
    Concept 2: [CONCEPT_2_TERMS]
    Concept 3: [CONCEPT_3_TERMS]
    Boolean Logic: [SEARCH_COMBINATION_STRATEGY]
-   
+
 ### Selection Criteria
 ### Inclusion Criteria
    • Study design: [INCLUDED_DESIGNS]
@@ -1706,19 +1704,19 @@ Generate a comprehensive literature review that includes:
    • Publication type: [PUBLICATION_TYPES]
    • Language: [LANGUAGE_CRITERIA]
    • Time period: [DATE_LIMITS]
-   
+
 ### Exclusion Criteria
    • [SPECIFIC_EXCLUSIONS]
    • [QUALITY_EXCLUSIONS]
    • [POPULATION_EXCLUSIONS]
    • [DESIGN_EXCLUSIONS]
-   
+
 ### Study Selection Process
    • [SCREENING_STAGES]
    • [REVIEWER_ASSIGNMENTS]
    • [CONSENSUS_PROCEDURES]
    • [DISAGREEMENT_RESOLUTION]
-   
+
 ### Data Extraction
 ### Extraction Framework
    • Study characteristics: [STUDY_VARIABLES]
@@ -1726,14 +1724,14 @@ Generate a comprehensive literature review that includes:
    • Intervention details: [INTERVENTION_VARIABLES]
    • Outcome measures: [OUTCOME_VARIABLES]
    • Results data: [STATISTICAL_DATA]
-   
+
 ### Quality Assessment
 ### Assessment Tools
    • [QUALITY_TOOL_1]: For [STUDY_TYPE_1]
    • [QUALITY_TOOL_2]: For [STUDY_TYPE_2]
    • [BIAS_ASSESSMENT_METHOD]
    • [CERTAINTY_ASSESSMENT_APPROACH]
-   
+
 ### Quality Domains
    • [SELECTION_BIAS_CRITERIA]
    • [PERFORMANCE_BIAS_CRITERIA]
@@ -1742,7 +1740,7 @@ Generate a comprehensive literature review that includes:
    • [REPORTING_BIAS_CRITERIA]
 
 4. SEARCH RESULTS & STUDY SELECTION
-   
+
 ### Search Results Summary
    • Total records identified: [TOTAL_RECORDS]
    • Records after duplicates removed: [UNIQUE_RECORDS]
@@ -1750,227 +1748,227 @@ Generate a comprehensive literature review that includes:
    • Full-text articles assessed: [FULL_TEXT_ASSESSED]
    • Studies included in qualitative synthesis: [QUALITATIVE_INCLUDED]
    • Studies included in quantitative synthesis: [QUANTITATIVE_INCLUDED]
-   
+
 ### PRISMA Flow Diagram
    [Include detailed flow chart showing study selection process]
-   
+
 ### Excluded Studies
    • [EXCLUSION_REASON_1]: [NUMBER] studies
    • [EXCLUSION_REASON_2]: [NUMBER] studies
    • [EXCLUSION_REASON_3]: [NUMBER] studies
-   
+
 ### Notable Exclusions
    • [KEY_EXCLUDED_STUDY_1]: [Reason for exclusion]
    • [KEY_EXCLUDED_STUDY_2]: [Reason for exclusion]
 
 5. STUDY CHARACTERISTICS
-   
+
 ### Overview of Included Studies
    • Study designs: [DESIGN_DISTRIBUTION]
    • Publication years: [YEAR_RANGE] to [YEAR_RANGE]
    • Geographic distribution: [COUNTRY_DISTRIBUTION]
    • Sample sizes: Range [MIN_SIZE] to [MAX_SIZE]
    • Total participants: [TOTAL_PARTICIPANTS]
-   
+
 ### Population Characteristics
 ### Demographics
    • Age range: [AGE_DISTRIBUTION]
    • Gender distribution: [GENDER_BREAKDOWN]
    • Setting: [SETTING_TYPES]
    • Comorbidities: [COMORBIDITY_PATTERNS]
-   
+
    Intervention/Exposure Characteristics:
    • [INTERVENTION_TYPE_1]: [NUMBER] studies
    • [INTERVENTION_TYPE_2]: [NUMBER] studies
    • Duration: [DURATION_RANGE]
    • Intensity: [INTENSITY_VARIATIONS]
    • Follow-up periods: [FOLLOWUP_RANGE]
-   
+
 ### Outcome Measurement
 ### Primary Outcomes
    • [PRIMARY_OUTCOME_1]: [MEASUREMENT_METHODS]
    • [PRIMARY_OUTCOME_2]: [MEASUREMENT_METHODS]
-   
+
 ### Secondary Outcomes
    • [SECONDARY_OUTCOME_1]: [MEASUREMENT_METHODS]
    • [SECONDARY_OUTCOME_2]: [MEASUREMENT_METHODS]
 
 6. QUALITY ASSESSMENT RESULTS
-   
+
 ### Overall Quality Summary
    • High quality: [NUMBER] studies ([PERCENTAGE]%)
    • Moderate quality: [NUMBER] studies ([PERCENTAGE]%)
    • Low quality: [NUMBER] studies ([PERCENTAGE]%)
-   
+
 ### Risk of Bias Assessment
 ### Selection Bias
    • Low risk: [NUMBER] studies
    • Unclear risk: [NUMBER] studies
    • High risk: [NUMBER] studies
-   
+
 ### Performance Bias
    • Low risk: [NUMBER] studies
    • Unclear risk: [NUMBER] studies
    • High risk: [NUMBER] studies
-   
+
 ### Detection Bias
    • Low risk: [NUMBER] studies
    • Unclear risk: [NUMBER] studies
    • High risk: [NUMBER] studies
-   
+
 ### Attrition Bias
    • Low risk: [NUMBER] studies
    • Unclear risk: [NUMBER] studies
    • High risk: [NUMBER] studies
-   
+
 ### Quality Concerns
    • [MAJOR_QUALITY_ISSUE_1]
    • [MAJOR_QUALITY_ISSUE_2]
    • [METHODOLOGICAL_LIMITATIONS]
 
 7. RESULTS & FINDINGS
-   
+
 ### Primary Analysis Results
    [PRIMARY_RESEARCH_QUESTION]:
-   
+
 ### Quantitative Synthesis
    • Effect size: [EFFECT_SIZE] ([CONFIDENCE_INTERVAL])
    • Heterogeneity: I² = [HETEROGENEITY_STATISTIC]%
    • Statistical significance: p = [P_VALUE]
    • Number of studies: [N_STUDIES]
    • Total participants: [N_PARTICIPANTS]
-   
+
 ### Subgroup Analyses
    [SUBGROUP_1]:
    • Effect size: [SUBGROUP_EFFECT_1]
    • Heterogeneity: [SUBGROUP_HETEROGENEITY_1]
-   
+
    [SUBGROUP_2]:
    • Effect size: [SUBGROUP_EFFECT_2]
    • Heterogeneity: [SUBGROUP_HETEROGENEITY_2]
-   
+
 ### Qualitative Synthesis
 ### Thematic Analysis Results
-   
+
    Theme 1: [MAJOR_THEME_1]
    • Subtheme 1a: [SUBTHEME_1A]
    • Subtheme 1b: [SUBTHEME_1B]
    • Supporting evidence: [N] studies
-   
+
    Theme 2: [MAJOR_THEME_2]
    • Subtheme 2a: [SUBTHEME_2A]
    • Subtheme 2b: [SUBTHEME_2B]
    • Supporting evidence: [N] studies
-   
+
 ### Secondary Analysis Results
    [SECONDARY_QUESTION_1]:
    • Key finding: [SECONDARY_FINDING_1]
    • Evidence strength: [EVIDENCE_LEVEL_1]
-   
+
    [SECONDARY_QUESTION_2]:
    • Key finding: [SECONDARY_FINDING_2]
    • Evidence strength: [EVIDENCE_LEVEL_2]
 
 8. EVIDENCE SYNTHESIS & INTEGRATION
-   
+
 ### Convergent Evidence
    • [CONSISTENT_FINDING_1]
    • [CONSISTENT_FINDING_2]
    • [CONSISTENT_FINDING_3]
-   
+
 ### Divergent Evidence
    • [CONFLICTING_FINDING_1]: [Explanation]
    • [CONFLICTING_FINDING_2]: [Explanation]
-   
+
 ### Evidence Gaps
    • [RESEARCH_GAP_1]
    • [RESEARCH_GAP_2]
    • [METHODOLOGICAL_GAP_1]
-   
+
 ### Certainty of Evidence
    [OUTCOME_1]: [CERTAINTY_LEVEL] certainty
    • Rationale: [CERTAINTY_JUSTIFICATION_1]
-   
+
    [OUTCOME_2]: [CERTAINTY_LEVEL] certainty
    • Rationale: [CERTAINTY_JUSTIFICATION_2]
-   
+
 ### Publication Bias Assessment
    • Funnel plot analysis: [PUBLICATION_BIAS_FINDING]
    • Statistical tests: [EGGER_TEST_RESULT]
    • Small study effects: [SMALL_STUDY_EFFECTS]
 
 9. DISCUSSION
-   
+
 ### Summary of Main Findings
    • [KEY_FINDING_1_SUMMARY]
    • [KEY_FINDING_2_SUMMARY]
    • [KEY_FINDING_3_SUMMARY]
-   
+
 ### Comparison with Previous Reviews
    • [PREVIOUS_REVIEW_1]: [COMPARISON_POINTS]
    • [PREVIOUS_REVIEW_2]: [COMPARISON_POINTS]
    • Novel contributions: [NEW_INSIGHTS]
-   
+
 ### Theoretical Implications
    • [THEORETICAL_FRAMEWORK] support/challenge
    • [THEORETICAL_ADVANCEMENT]
    • [CONCEPTUAL_MODEL_REFINEMENT]
-   
+
 ### Practical Implications
 ### Clinical Practice
    • [CLINICAL_RECOMMENDATION_1]
    • [CLINICAL_RECOMMENDATION_2]
    • [IMPLEMENTATION_CONSIDERATIONS]
-   
+
 ### Policy Implications
    • [POLICY_RECOMMENDATION_1]
    • [POLICY_RECOMMENDATION_2]
    • [REGULATORY_CONSIDERATIONS]
-   
+
 ### Strengths and Limitations
 ### Strengths
    • [METHODOLOGICAL_STRENGTH_1]
    • [METHODOLOGICAL_STRENGTH_2]
    • [EVIDENCE_BASE_STRENGTH]
-   
+
 ### Limitations
    • [METHODOLOGICAL_LIMITATION_1]
    • [EVIDENCE_LIMITATION_1]
    • [GENERALIZABILITY_LIMITATION]
 
 10. CONCLUSIONS
-    
+
 ### Main Conclusions
     • [PRIMARY_CONCLUSION]
     • [SECONDARY_CONCLUSION]
     • [CLINICAL_BOTTOM_LINE]
-    
+
     Evidence-Based Recommendations:
 ### Strong Recommendations
     • [STRONG_RECOMMENDATION_1] (High certainty evidence)
     • [STRONG_RECOMMENDATION_2] (High certainty evidence)
-    
+
 ### Conditional Recommendations
     • [CONDITIONAL_RECOMMENDATION_1] (Moderate certainty evidence)
     • [CONDITIONAL_RECOMMENDATION_2] (Low certainty evidence)
-    
+
 ### Areas Requiring Further Research
 ### Priority Research Questions
     • [FUTURE_RESEARCH_1]
     • [FUTURE_RESEARCH_2]
     • [FUTURE_RESEARCH_3]
-    
+
 ### Methodological Improvements Needed
     • [METHODOLOGICAL_NEED_1]
     • [METHODOLOGICAL_NEED_2]
 
 11. REFERENCES
-    
+
     [Format according to target journal style]
-    
+
     Included Studies: [NUMBER] references
     Background References: [NUMBER] references
-    
+
 ### Study References
     [REFERENCE_1]
     [REFERENCE_2]
@@ -1978,22 +1976,22 @@ Generate a comprehensive literature review that includes:
     ...
 
 12. APPENDICES
-    
+
     Appendix A: Search Strategies
     • [DETAILED_SEARCH_STRINGS]
-    
+
     Appendix B: Data Extraction Forms
     • [EXTRACTION_TEMPLATES]
-    
+
     Appendix C: Quality Assessment Details
     • [DETAILED_QUALITY_RATINGS]
-    
+
     Appendix D: Excluded Studies List
     • [EXCLUDED_STUDIES_TABLE]
-    
+
     Appendix E: Forest Plots
     • [QUANTITATIVE_ANALYSIS_FIGURES]
-    
+
     Appendix F: Risk of Bias Summary
     • [BIAS_ASSESSMENT_FIGURES]
 

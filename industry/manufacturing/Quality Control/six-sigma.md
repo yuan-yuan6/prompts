@@ -366,8 +366,6 @@ Project: [CONTROL_PROJECT_1]
 | `[RECOG_PROG]` | Specify the recog prog | "[specify value]" |
 | `[RECOG_NEXT]` | Specify the recog next | "[specify value]" |
 
-
-
 ### 3. Statistical Process Control (SPC)
 
 | **Process** | **Control Chart Type** | **UCL/LCL** | **Cp/Cpk** | **Stability** | **Capability** |
@@ -502,8 +500,6 @@ Black Belt:
 | Recognition System | [RECOG_CURRENT]/10 | [RECOG_TARGET]/10 | [RECOG_INIT] | [RECOG_PROG]% | [RECOG_NEXT] |
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

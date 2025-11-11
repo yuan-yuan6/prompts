@@ -287,7 +287,7 @@ Kafka Consumer (Streaming Ingestion)
   ↓
 Real-time Validation & Enrichment
   ↓
-Micro-batch Aggregation (5-minute windows)
+Micro-batch Aggregation
   ↓
 Write to Silver/Gold Layers
   ↓

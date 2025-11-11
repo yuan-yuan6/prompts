@@ -351,8 +351,6 @@ Platinum Tier (Top):
 | `[ROI_BENCH]` | Specify the roi bench | "[specify value]" |
 | `[ROI_ACTION]` | Specify the roi action | "[specify value]" |
 
-
-
 ### 3. Earning & Redemption Mechanics
 
 | **Earning Category** | **Base Points** | **Bonus Opportunities** | **Frequency** | **Member Engagement** | **Revenue Impact** |
@@ -496,8 +494,6 @@ Cost Structure:
 | Program ROI | [ROI_METRIC] | [ROI_CURRENT]x | [ROI_TARGET]x | [ROI_BENCH]x | [ROI_ACTION] |
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

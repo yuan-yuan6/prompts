@@ -1009,8 +1009,6 @@ Generate a comprehensive regulatory compliance framework that includes:
 
 ## Usage Examples
 
-
-
 ## Best Practices
 
 1. **Start with clear objectives** - Define what success looks like before beginning
@@ -1043,7 +1041,7 @@ Key Focus: Banking regulations, consumer protection, anti-money laundering, and 
 Special Considerations: FDIC oversight, state banking regulations, and fintech partnerships
 ```
 
-### Example 2: Healthcare Compliance Framework  
+### Example 2: Healthcare Compliance Framework
 ```
 Organization: Multi-specialty healthcare provider with hospital and clinic operations
 Key Focus: HIPAA privacy, patient safety, Medicare/Medicaid, and quality reporting
@@ -1089,7 +1087,7 @@ Special Considerations: Multiple jurisdictions, rapid growth, and evolving priva
 
 ### 5. Technology Integration Levels
 - Basic Technology: Manual processes with simple tracking and reporting
-- Intermediate Technology: Automated workflows with integrated monitoring systems  
+- Intermediate Technology: Automated workflows with integrated monitoring systems
 - Advanced Technology: AI-powered analytics with predictive capabilities
 - Cutting-Edge Technology: Machine learning, blockchain, and advanced automation
 - Cloud-Native Platform: Scalable, secure, and integrated compliance technology stack

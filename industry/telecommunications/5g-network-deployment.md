@@ -358,8 +358,6 @@ High-Band/mmWave (24+ GHz):
 | `[CSAT_SCORE]` | Specify the csat score | "[specify value]" |
 | `[CHURN_RATE]` | Specify the churn rate | "[specify value]" |
 
-
-
 ### 3. Infrastructure Deployment
 
 | **Infrastructure Type** | **Deployment Count** | **Coverage Area** | **Installation Cost** | **Timeline** | **Capacity Provided** |
@@ -529,8 +527,6 @@ Predictive Maintenance:
 ```
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

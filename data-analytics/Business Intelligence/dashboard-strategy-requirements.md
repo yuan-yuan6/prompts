@@ -36,7 +36,7 @@ Use this prompt to:
 2. **Prioritize 5-7 critical KPIs** - Focus on metrics that drive decisions, avoid vanity metrics (e.g., Revenue Growth, Customer Churn, NPS)
 3. **Map data source availability** - Confirm each KPI's data exists and is accessible (CRM, ERP, databases)
 4. **Define success criteria** - Set targets for adoption (% of users logging in weekly), accuracy (99%+), and business impact
-5. **Create phased roadmap** - Phase 1: Executive dashboard (2-3 months), Phase 2: Departmental (3-6 months)
+5. **Create phased roadmap** - Phase 1: Executive dashboard, Phase 2: Departmental
 
 **Key Decision:** Build incrementally. Ship 5 working KPIs this quarter beats planning 20 perfect ones for next year.
 

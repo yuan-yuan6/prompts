@@ -382,8 +382,6 @@ API Service Template:
 | `[API_RISK]` | Specify the api risk | "[specify value]" |
 | `[API_DEPS]` | Specify the api deps | "[specify value]" |
 
-
-
 ### 3. Self-Service Infrastructure
 
 | **Service Type** | **Provisioning Time** | **Automation Level** | **Usage/Month** | **Cost Savings** | **Error Rate** |
@@ -504,8 +502,6 @@ Runtime Security:
 | Platform APIs | [API_TIME] | $[API_INVEST] | [API_VALUE] | [API_RISK] | [API_DEPS] |
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

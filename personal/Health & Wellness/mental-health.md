@@ -346,8 +346,6 @@ Mental health quality: [MENTAL_HEALTH_PLAN_RATING]
 
 ## Usage Examples
 
-
-
 ## Best Practices
 
 1. **Start with clear objectives** - Define what success looks like before beginning

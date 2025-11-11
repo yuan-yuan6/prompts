@@ -534,8 +534,6 @@ Scoring Methodology: [SCORING_METHOD_TYPE]
 | `[COMPLIANCE_ASSESSMENT_FREQUENCY]` | Specify the compliance assessment frequency | "[specify value]" |
 | `[EXTERNAL_AUDIT_SCHEDULE]` | Specify the external audit schedule | "[specify value]" |
 
-
-
 ### 2. Demographic and Firmographic Scoring
 
 **Company and Contact-Based Scoring Criteria:**
@@ -544,7 +542,7 @@ Firmographic Scoring Components:
 
 Company Size (Weight: [COMPANY_SIZE_WEIGHT]%):
 - Enterprise (>1000 employees): [ENTERPRISE_SIZE_POINTS] points
-- Mid-market (251-1000 employees): [MID_MARKET_SIZE_POINTS] points  
+- Mid-market (251-1000 employees): [MID_MARKET_SIZE_POINTS] points
 - SMB (51-250 employees): [SMB_SIZE_POINTS] points
 - Small business (<50 employees): [SMALL_BIZ_SIZE_POINTS] points
 
@@ -1119,8 +1117,6 @@ CCPA Compliance:
 
 ## Usage Examples
 
-
-
 ## Best Practices
 
 1. **Start with clear objectives** - Define what success looks like before beginning
@@ -1171,7 +1167,7 @@ Ideal Customer Profile (ICP):
 ### Firmographic Scoring Components
 Company Size (Weight: 25%):
 - Enterprise (1000+ employees): 25 points
-- Mid-market (251-1000 employees): 20 points  
+- Mid-market (251-1000 employees): 20 points
 - SMB (100-250 employees): 15 points
 - Small business (<100 employees): 5 points
 
@@ -1246,9 +1242,9 @@ Financial Qualification:
 - Market report downloads: 10 points per download
 
 ### Timeline Urgency
-- Immediate (0-30 days): 20 points
-- Short-term (1-3 months): 15 points
-- Medium-term (3-6 months): 10 points
+- Immediate: 20 points
+- Short-term: 15 points
+- Medium-term: 10 points
 - Long-term (6+ months): 5 points
 - No timeline: 0 points
 ```

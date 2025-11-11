@@ -37,16 +37,16 @@ Your Goal → Recommended Templates:
    → text-analytics-preprocessing.md (15-30 min)
 
 2. Understand customer sentiment and opinions
-   → text-analytics-preprocessing.md + text-analytics-sentiment-analysis.md (1-2 hours)
+   → text-analytics-preprocessing.md + text-analytics-sentiment-analysis.md
 
 3. Discover themes in documents (100+ documents)
-   → text-analytics-preprocessing.md + text-analytics-topic-modeling.md (2-4 hours)
+   → text-analytics-preprocessing.md + text-analytics-topic-modeling.md
 
 4. Extract people, companies, locations from text
-   → text-analytics-preprocessing.md + text-analytics-entity-recognition.md (1-2 hours)
+   → text-analytics-preprocessing.md + text-analytics-entity-recognition.md
 
 5. Full analysis: sentiment + topics + entities + clustering
-   → Use all 5 templates in sequence (1-2 days for complete analysis)
+   → Use all 5 templates in sequence
 ```
 
 ### Basic 3-Step Workflow

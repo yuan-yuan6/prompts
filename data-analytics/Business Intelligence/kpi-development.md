@@ -599,8 +599,6 @@ Please develop a comprehensive KPI framework for [ORGANIZATION_NAME] with the fo
 
 ## Usage Examples
 
-
-
 ## Best Practices
 
 1. **Start with clear objectives** - Define what success looks like before beginning

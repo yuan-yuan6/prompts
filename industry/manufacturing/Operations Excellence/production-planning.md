@@ -60,14 +60,14 @@ Long-term Planning (12+ months):
 - Workforce Planning: [LONG_WORKFORCE]
 - Technology Roadmap: [LONG_TECH]
 
-Medium-term Planning (3-12 months):
+Medium-term Planning:
 - Aggregate Planning: [MED_AGGREGATE]
 - Resource Allocation: [MED_RESOURCE]
 - Inventory Targets: [MED_INVENTORY]
 - Seasonal Adjustments: [MED_SEASONAL]
 - Maintenance Schedule: [MED_MAINT]
 
-Short-term Planning (0-3 months):
+Short-term Planning:
 - Weekly Schedule: [SHORT_WEEKLY]
 - Daily Operations: [SHORT_DAILY]
 - Priority Management: [SHORT_PRIORITY]
@@ -354,8 +354,6 @@ Short-term Planning (0-3 months):
 | `[COST_UNIT]` | Specify the cost unit | "[specify value]" |
 | `[PROD_INDEX]` | Specify the prod index | "[specify value]" |
 
-
-
 ### 3. Scheduling Optimization
 
 | **Scheduling Method** | **Application** | **Complexity** | **Performance** | **Flexibility** | **Implementation** |
@@ -512,8 +510,6 @@ Waste Elimination:
 ```
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

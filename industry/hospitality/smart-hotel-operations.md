@@ -366,8 +366,6 @@ Check-Out & Post-Stay:
 | `[WEB_CONVERT]` | Specify the web convert | "[specify value]" |
 | `[SOCIAL_REACH]` | Specify the social reach | "[specify value]" |
 
-
-
 ### 3. Revenue Management & Optimization
 
 | **Revenue Stream** | **Current Performance** | **Optimization Strategy** | **Technology Tools** | **Target Improvement** | **Implementation Cost** |
@@ -537,8 +535,6 @@ Guest Satisfaction:
 ```
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

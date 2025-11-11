@@ -378,8 +378,6 @@ Phase 4 - Finishes:
 | `[LEED_COST]` | Specify the leed cost | "[specify value]" |
 | `[LEED_BENEFIT]` | Specify the leed benefit | "[specify value]" |
 
-
-
 ### 3. Resource Management
 
 | **Resource Category** | **Required Quantity** | **Current Allocation** | **Utilization Rate** | **Cost/Unit** | **Total Cost** |
@@ -394,7 +392,7 @@ Phase 4 - Finishes:
 
 **Safety Program Implementation:**
 | **Safety Metric** | **Current Performance** | **Industry Standard** | **Target** | **Improvement Plan** | **Investment** |
-|------------------|------------------------|---------------------|-----------|--------------------|--------------| 
+|------------------|------------------------|---------------------|-----------|--------------------|--------------|
 | TRIR (Total Recordable) | [TRIR_CURRENT] | [TRIR_STANDARD] | [TRIR_TARGET] | [TRIR_PLAN] | $[TRIR_INVEST] |
 | Lost Time Incidents | [LTI_CURRENT] | [LTI_STANDARD] | [LTI_TARGET] | [LTI_PLAN] | $[LTI_INVEST] |
 | Near Miss Reports | [NEAR_CURRENT]/month | [NEAR_STANDARD] | [NEAR_TARGET] | [NEAR_PLAN] | $[NEAR_INVEST] |
@@ -521,8 +519,6 @@ Schedule Risks:
 | LEED/Green Rating | [LEED_TARGET] | [LEED_STATUS] | [LEED_CERT] | $[LEED_COST] | [LEED_BENEFIT] |
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

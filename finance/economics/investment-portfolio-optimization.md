@@ -371,8 +371,6 @@ Fixed Income:
 | `[ANNUAL_ASSESSMENT]` | Specify the annual assessment | "[specify value]" |
 | `[ADHOC_ANALYSIS]` | Specify the adhoc analysis | "[specify value]" |
 
-
-
 ### 3. Risk Management Framework
 
 | **Risk Category** | **Current Exposure** | **Risk Metrics** | **Mitigation Strategy** | **Hedging Instruments** | **Monitoring Frequency** |
@@ -542,8 +540,6 @@ Risk Indicators:
 ```
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

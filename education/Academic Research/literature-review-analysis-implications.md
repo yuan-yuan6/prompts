@@ -23,25 +23,25 @@ Conduct critical analysis and evaluation of synthesized evidence, assess methodo
 
 ### For Researchers & Knowledge Translators
 
-**Step 1: Evaluate Evidence Quality (20 minutes)**
+**Step 1: Evaluate Evidence Quality**
 - Review synthesis results and identify key findings
 - Apply GRADE or similar framework for certainty assessment
 - Assess overall methodological rigor and bias risk
 - Identify strengths and limitations of evidence base
 
-**Step 2: Develop Theoretical Implications (15 minutes)**
+**Step 2: Develop Theoretical Implications**
 - Analyze how findings support or challenge existing theories
 - Identify theoretical contributions and advancements
 - Develop conceptual frameworks based on synthesis
 - Consider paradigmatic shifts or confirmations
 
-**Step 3: Formulate Practical Implications (20 minutes)**
+**Step 3: Formulate Practical Implications**
 - Translate findings into practice recommendations
 - Develop policy implications and guidance
 - Identify implementation considerations and barriers
 - Consider stakeholder needs and contexts
 
-**Step 4: Generate Recommendations (15 minutes)**
+**Step 4: Generate Recommendations**
 - Create evidence-graded recommendations
 - Prioritize future research directions
 - Develop capacity building guidance

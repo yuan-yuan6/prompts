@@ -35,10 +35,6 @@ Create comprehensive treasury management strategies covering cash flow managemen
 2. **Generate Strategy**: Complete the template with organizational context and treasury objectives to create a comprehensive framework covering cash management, funding, investments, and risk management
 3. **Implement and Optimize**: Roll out treasury processes, implement technology systems, establish banking partnerships, deploy hedging strategies, and monitor performance metrics
 
-### Time Estimate
-- Strategy development: 3-6 hours to complete template and customize approach
-- Full implementation: 3-6 months depending on complexity and system requirements
-
 ## Template
 
 ```

@@ -35,10 +35,6 @@ Create comprehensive audit and compliance strategies covering internal controls,
 2. **Generate Framework**: Use the template to create a comprehensive audit and compliance strategy covering governance, risk assessment, internal controls, audit planning, and compliance monitoring
 3. **Deploy and Monitor**: Implement governance structure, conduct risk assessments, perform control testing, coordinate with external auditors, track issues, and report to stakeholders
 
-### Time Estimate
-- Framework design: 4-8 hours to complete template and customize strategy
-- Implementation: 2-4 months for foundational setup, ongoing for continuous monitoring
-
 ## Template
 
 ```

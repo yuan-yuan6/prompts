@@ -164,8 +164,6 @@ Implement process automation for [COMPANY_NAME] across [PROCESS_COUNT] processes
 
 ## Usage Examples
 
-
-
 ## Best Practices
 
 1. **Start with clear objectives** - Define what success looks like before beginning
@@ -659,8 +657,6 @@ Impact: 200+ FTE hours saved monthly
 | `[INNOV_TIMELINE]` | Timeline or schedule for innov | "6 months" |
 | `[INNOV_OWNER]` | Specify the innov owner | "[specify value]" |
 | `[INNOV_METRICS]` | Specify the innov metrics | "[specify value]" |
-
-
 
 ### Example 2: Manufacturing Process Automation
 ```

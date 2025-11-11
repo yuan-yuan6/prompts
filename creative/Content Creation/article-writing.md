@@ -214,8 +214,6 @@ Writing Style:
 | `[IMAGE_ALT_TEXT]` | Specify the image alt text | "[specify value]" |
 | `[LANGUAGE_LEVEL]` | Specify the language level | "[specify value]" |
 
-
-
 ## Best Practices
 
 1. **Research thoroughly and fact-check all claims**

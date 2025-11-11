@@ -20,7 +20,7 @@ Develop comprehensive, evidence-based mental health treatment plans that integra
 
 ## Quick Start
 
-**HIPAA & 42 CFR Part 2 Compliant Mental Health Treatment Plan (30-45 minutes):**
+**HIPAA & 42 CFR Part 2 Compliant Mental Health Treatment Plan:**
 
 1. **Privacy-Enhanced Assessment** - Use private setting; explain confidentiality limits (harm to self/others, abuse, court orders); document informed consent for treatment
 2. **Comprehensive Risk Assessment** - Evaluate suicide/homicide risk, self-harm, violence; document safety plan immediately if risk identified
@@ -142,7 +142,7 @@ Strengths and Resources:
 
 TREATMENT GOALS:
 
-Primary Goals (3-6 months):
+Primary Goals:
 1. [PRIMARY_GOAL_1] - Measurable outcome: [OUTCOME_1] - Target date: [TARGET_DATE_1]
    - Baseline: [BASELINE_1] - How measured: [MEASUREMENT_METHOD_1]
 2. [PRIMARY_GOAL_2] - Measurable outcome: [OUTCOME_2] - Target date: [TARGET_DATE_2]

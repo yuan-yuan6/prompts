@@ -396,8 +396,6 @@ Distribution Network:
 | `[SUPPLIER_COLLAB]` | Specify the supplier collab | "[specify value]" |
 | `[NETWORK_FLEX]` | Specify the network flex | "[specify value]" |
 
-
-
 ### 3. Inventory Management & Planning
 
 | **Inventory Category** | **Current Levels** | **Optimal Levels** | **Carrying Cost** | **Service Impact** | **Optimization Strategy** |
@@ -575,8 +573,6 @@ Service Metrics:
 ```
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

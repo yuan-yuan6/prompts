@@ -22,22 +22,22 @@ Develop rigorous analytical strategies and comprehensive quality assurance frame
 
 ### For Researchers Planning Analysis and Quality Assurance
 
-**Step 1: Design Your Analysis Strategy (10 minutes)**
+**Step 1: Design Your Analysis Strategy**
 - Plan descriptive and inferential analyses aligned with research questions
 - Select appropriate statistical tests or qualitative analysis methods
 - Develop strategies for handling missing data and checking assumptions
 
-**Step 2: Plan Validity and Reliability Enhancement (8 minutes)**
+**Step 2: Plan Validity and Reliability Enhancement**
 - Identify potential threats to internal and external validity
 - Design strategies to enhance measurement reliability
 - Plan triangulation and multiple validation approaches
 
-**Step 3: Establish Quality Control Systems (7 minutes)**
+**Step 3: Establish Quality Control Systems**
 - Create data quality monitoring procedures
 - Plan inter-rater reliability checks for coded data
 - Design audit trails and documentation systems
 
-**Step 4: Generate and Implement (2 minutes)**
+**Step 4: Generate and Implement**
 - Input your specifications into the template variables
 - Generate comprehensive analysis and quality assurance plan
 - Create analysis scripts and quality control checklists

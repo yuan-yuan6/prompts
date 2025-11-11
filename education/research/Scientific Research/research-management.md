@@ -344,8 +344,6 @@ Core Facilities:
 | `[POLICY_INVEST]` | Specify the policy invest | "[specify value]" |
 | `[POLICY_TIME]` | Specify the policy time | "[specify value]" |
 
-
-
 ### 3. Research Project Management
 
 | **Project Phase** | **Active Projects** | **Success Rate** | **Avg Duration** | **Budget Variance** | **Deliverables Met** |
@@ -483,8 +481,6 @@ Postdocs:
 | Policy Influence | [POLICY_CURRENT] | [POLICY_TARGET] | [POLICY_STRATEGY] | $[POLICY_INVEST] | [POLICY_TIME] |
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

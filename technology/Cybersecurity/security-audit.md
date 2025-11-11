@@ -20,12 +20,12 @@ This comprehensive template enables organizations to conduct thorough security a
 
 ## Quick Start
 
-**Set Your Foundation (5 minutes):**
+**Set Your Foundation:**
 1. Define audit scope: infrastructure, applications, processes, or comprehensive
 2. Identify compliance requirements: ISO27001, SOC2, NIST, GDPR, HIPAA
 3. Set audit timeline and budget constraints
 
-**Configure Key Parameters (10 minutes):**
+**Configure Key Parameters:**
 4. Establish audit team structure: lead auditor, technical specialists, compliance experts
 5. Define risk assessment methodology: qualitative, quantitative, or hybrid approach
 6. Select audit standards: ISACA, IIA, NIST frameworks
@@ -51,7 +51,7 @@ Please develop a comprehensive security audit plan for [ORGANIZATION_NAME] with 
 - Industry sector: [INDUSTRY_SECTOR] (Financial/Healthcare/Government/Technology/[CUSTOM_INDUSTRY])
 - Compliance frameworks: [COMPLIANCE_FRAMEWORKS] (ISO27001/SOC2/NIST/GDPR/HIPAA/[CUSTOM_FRAMEWORKS])
 - Geographic scope: [GEOGRAPHIC_SCOPE] (Local/National/International/[CUSTOM_GEOGRAPHY])
-- Audit timeline: [AUDIT_TIMELINE] (1 week/1 month/Quarterly/Annual/[CUSTOM_TIMELINE])
+- Audit timeline: [AUDIT_TIMELINE]
 - Budget constraints: [AUDIT_BUDGET]
 - Stakeholder involvement: [STAKEHOLDER_INVOLVEMENT]
 
@@ -479,8 +479,6 @@ Please develop a comprehensive security audit plan for [ORGANIZATION_NAME] with 
 ---
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

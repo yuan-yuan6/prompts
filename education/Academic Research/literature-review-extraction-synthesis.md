@@ -23,7 +23,7 @@ Extract comprehensive data systematically from included studies, conduct rigorou
 
 ### For Data Extractors & Synthesizers
 
-**Step 1: Prepare Extraction Framework (15 minutes)**
+**Step 1: Prepare Extraction Framework**
 - Design standardized data extraction forms
 - Define variables and data elements to extract
 - Pilot test extraction with sample studies

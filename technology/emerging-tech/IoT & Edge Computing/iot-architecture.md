@@ -19,12 +19,12 @@ Comprehensive framework for designing, implementing, and managing IoT systems wi
 
 ## Quick Start
 
-**Set Your Foundation (5 minutes):**
+**Set Your Foundation:**
 1. Define project scope: device count, locations, and data volume requirements
 2. Set latency requirements and processing needs (edge vs cloud)
 3. Identify connectivity protocols (WiFi, LoRaWAN, 5G, NB-IoT)
 
-**Configure Key Parameters (10 minutes):**
+**Configure Key Parameters:**
 4. Specify device types, sensors, and processing capabilities
 5. Define edge gateway specifications (CPU, RAM, storage, accelerators)
 6. Set data pipeline stages (ingestion, edge processing, streaming, batch, archive)
@@ -335,8 +335,6 @@ Processing Capabilities:
 | `[VISION_FEATURES]` | Specify the vision features | "[specify value]" |
 | `[VISION_INVEST]` | Specify the vision invest | "[specify value]" |
 
-
-
 ### 3. Connectivity & Network Architecture
 
 | **Protocol** | **Use Case** | **Bandwidth** | **Range** | **Power Usage** | **Security** | **Devices** |
@@ -470,8 +468,6 @@ Performance KPIs:
 | Vision | [VISION_TIME] | [VISION_DEVICES] | [VISION_DATA] | [VISION_FEATURES] | $[VISION_INVEST] |
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

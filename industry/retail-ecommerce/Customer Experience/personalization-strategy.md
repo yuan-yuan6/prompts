@@ -355,8 +355,6 @@ Post-Purchase:
 | `[CTR_LIFT]` | Specify the ctr lift | "[specify value]" |
 | `[CTR_IMPACT]` | Specify the ctr impact | "[specify value]" |
 
-
-
 ### 3. Recommendation Engine Strategy
 
 | **Recommendation Type** | **Algorithm** | **Placement** | **CTR** | **Conversion** | **Revenue Impact** |
@@ -490,8 +488,6 @@ Third-Party Data:
 | Email CTR | [CTR_BASE]% | [CTR_CURR]% | [CTR_TARGET]% | [CTR_LIFT]% | $[CTR_IMPACT] |
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

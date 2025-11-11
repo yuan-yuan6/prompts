@@ -318,8 +318,6 @@ Priority Technologies:
 | `[LT_OUTCOME]` | Specify the lt outcome | "[specify value]" |
 | `[LT_METRICS]` | Specify the lt metrics | "[specify value]" |
 
-
-
 ### 3. R&D Project Pipeline
 
 | **Project** | **Phase** | **Budget** | **Timeline** | **Success Criteria** | **Go/No-Go Decision** |
@@ -433,8 +431,6 @@ Process Metrics:
 | Long-term | [LT_OBJ] | [LT_INIT] | $[LT_INVEST] | [LT_OUTCOME] | [LT_METRICS] |
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

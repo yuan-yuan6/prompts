@@ -178,7 +178,7 @@ Generate a comprehensive curriculum development plan:
    10. [PROGRAM_OUTCOME_10]
 
    Course-Level Objectives:
-   
+
 ### Foundation Courses
    Course: [FOUNDATION_COURSE_1]
 ### Learning Objectives
@@ -200,7 +200,7 @@ Generate a comprehensive curriculum development plan:
    [Continue for all courses]
 
 ### Competency Framework
-   
+
 ### Knowledge Competencies
    - Foundational knowledge in [KNOWLEDGE_AREA_1]
    - Advanced understanding of [KNOWLEDGE_AREA_2]
@@ -225,7 +225,7 @@ Generate a comprehensive curriculum development plan:
 4. CURRICULUM STRUCTURE & SEQUENCING
 
 ### Program Architecture
-   
+
    Year 1 - Foundation Phase:
    Semester 1:
    • [YEAR1_SEM1_COURSE1] ([CREDITS_1] credits)
@@ -247,19 +247,19 @@ Generate a comprehensive curriculum development plan:
    [Continue pattern for all years]
 
 ### Course Categories
-   
+
    Required Core (60%):
    • Foundation courses: [FOUNDATION_COURSES]
    • Core discipline courses: [CORE_COURSES]
    • Capstone experience: [CAPSTONE_COURSE]
    • Professional development: [PROFESSIONAL_COURSES]
-   
+
    Electives (25%):
    • Specialization tracks: [SPECIALIZATION_OPTIONS]
    • Interdisciplinary options: [INTERDISCIPLINARY_COURSES]
    • Advanced topics: [ADVANCED_ELECTIVES]
    • Independent study: [INDEPENDENT_STUDY_OPTIONS]
-   
+
    General Education (15%):
    • Liberal arts requirements: [LIBERAL_ARTS_COURSES]
    • Mathematics/Science: [MATH_SCIENCE_REQUIREMENTS]
@@ -276,7 +276,7 @@ Generate a comprehensive curriculum development plan:
 5. COURSE DESIGN FRAMEWORK
 
 ### Course Template Structure
-   
+
 ### Course Header Information
    • Course title: [COURSE_TITLE]
    • Course number: [COURSE_NUMBER]
@@ -286,10 +286,10 @@ Generate a comprehensive curriculum development plan:
    • Co-requisites: [COURSE_COREQUISITES]
    • Semester offered: [SEMESTER_OFFERED]
    • Mode of delivery: [DELIVERY_MODE]
-   
+
 ### Course Description
    [COURSE_DESCRIPTION] - A comprehensive overview that includes purpose, scope, major topics, and expected outcomes.
-   
+
 ### Learning Outcomes
    Upon completion, students will be able to:
    1. [COURSE_OUTCOME_1]
@@ -297,38 +297,38 @@ Generate a comprehensive curriculum development plan:
    3. [COURSE_OUTCOME_3]
    4. [COURSE_OUTCOME_4]
    5. [COURSE_OUTCOME_5]
-   
+
 ### Content Organization
-   
+
    Module 1: [MODULE_1_TITLE] (Weeks 1-2)
 ### Topics
    • [MODULE_1_TOPIC_1]
    • [MODULE_1_TOPIC_2]
    • [MODULE_1_TOPIC_3]
    • [MODULE_1_TOPIC_4]
-   
+
 ### Learning Activities
    • [MODULE_1_ACTIVITY_1]
    • [MODULE_1_ACTIVITY_2]
    • [MODULE_1_ACTIVITY_3]
    • [MODULE_1_ACTIVITY_4]
-   
+
 ### Assessments
    • [MODULE_1_ASSESSMENT_1]
    • [MODULE_1_ASSESSMENT_2]
    • [MODULE_1_ASSESSMENT_3]
-   
+
    [Continue for all modules]
 
 ### Assessment Strategy
-   
+
    Formative Assessments (40%):
    • Weekly quizzes: [QUIZ_WEIGHT]%
    • Discussion participation: [DISCUSSION_WEIGHT]%
    • Practice exercises: [EXERCISE_WEIGHT]%
    • Peer reviews: [PEER_REVIEW_WEIGHT]%
    • Reflection journals: [REFLECTION_WEIGHT]%
-   
+
    Summative Assessments (60%):
    • Midterm examination: [MIDTERM_WEIGHT]%
    • Final project: [PROJECT_WEIGHT]%
@@ -339,7 +339,7 @@ Generate a comprehensive curriculum development plan:
 6. LEARNING EXPERIENCES DESIGN
 
 ### Active Learning Strategies
-   
+
    In-Class Activities:
    • Interactive lectures with [INTERACTIVE_ELEMENTS]
    • Case study analysis of [CASE_STUDY_TOPICS]
@@ -391,21 +391,21 @@ Generate a comprehensive curriculum development plan:
    - Accessibility considerations
 
 ### Assessment Types
-   
+
 ### Traditional Assessments
    • Written examinations: [EXAM_FORMATS]
    • Multiple choice tests: [MC_SPECIFICATIONS]
    • Essay questions: [ESSAY_CRITERIA]
    • Short answer quizzes: [QUIZ_FORMATS]
    • Standardized tests: [STANDARDIZED_MEASURES]
-   
+
    Performance-Based Assessments:
    • Project demonstrations: [PROJECT_REQUIREMENTS]
    • Portfolio presentations: [PORTFOLIO_CRITERIA]
    • Practical skill tests: [SKILL_ASSESSMENTS]
    • Oral examinations: [ORAL_EXAM_FORMAT]
    • Laboratory practicals: [LAB_ASSESSMENTS]
-   
+
 ### Alternative Assessments
    • Peer evaluations: [PEER_ASSESSMENT_CRITERIA]
    • Self-reflection essays: [REFLECTION_GUIDELINES]
@@ -414,13 +414,13 @@ Generate a comprehensive curriculum development plan:
    • Service learning reports: [SERVICE_LEARNING_CRITERIA]
 
 ### Rubric Development
-   
+
 ### Performance Levels
    • Exemplary (4): [EXEMPLARY_CRITERIA]
    • Proficient (3): [PROFICIENT_CRITERIA]
    • Developing (2): [DEVELOPING_CRITERIA]
    • Beginning (1): [BEGINNING_CRITERIA]
-   
+
 ### Assessment Criteria
    • Content knowledge: [CONTENT_RUBRIC]
    • Critical thinking: [THINKING_RUBRIC]
@@ -431,21 +431,21 @@ Generate a comprehensive curriculum development plan:
 8. CURRICULUM MAPPING & ALIGNMENT
 
 ### Standards Alignment
-   
+
 ### National Standards
    • [NATIONAL_STANDARD_1]: Addressed in courses [COURSES_ADDRESSING_NS1]
    • [NATIONAL_STANDARD_2]: Addressed in courses [COURSES_ADDRESSING_NS2]
    • [NATIONAL_STANDARD_3]: Addressed in courses [COURSES_ADDRESSING_NS3]
    • [NATIONAL_STANDARD_4]: Addressed in courses [COURSES_ADDRESSING_NS4]
    • [NATIONAL_STANDARD_5]: Addressed in courses [COURSES_ADDRESSING_NS5]
-   
+
 ### Professional Standards
    • [PROFESSIONAL_STANDARD_1]: Coverage in [PS1_COVERAGE]
    • [PROFESSIONAL_STANDARD_2]: Coverage in [PS2_COVERAGE]
    • [PROFESSIONAL_STANDARD_3]: Coverage in [PS3_COVERAGE]
    • [PROFESSIONAL_STANDARD_4]: Coverage in [PS4_COVERAGE]
    • [PROFESSIONAL_STANDARD_5]: Coverage in [PS5_COVERAGE]
-   
+
 ### Institutional Standards
    • [INSTITUTIONAL_STANDARD_1]: Integration approach [IS1_INTEGRATION]
    • [INSTITUTIONAL_STANDARD_2]: Integration approach [IS2_INTEGRATION]
@@ -454,7 +454,7 @@ Generate a comprehensive curriculum development plan:
    • [INSTITUTIONAL_STANDARD_5]: Integration approach [IS5_INTEGRATION]
 
 ### Outcome Mapping Matrix
-   
+
    Program Outcome 1: [PROGRAM_OUTCOME_1]
 ### Courses Contributing
    • [CONTRIBUTING_COURSE_1]: [CONTRIBUTION_LEVEL_1]
@@ -462,7 +462,7 @@ Generate a comprehensive curriculum development plan:
    • [CONTRIBUTING_COURSE_3]: [CONTRIBUTION_LEVEL_3]
    • [CONTRIBUTING_COURSE_4]: [CONTRIBUTION_LEVEL_4]
    Assessment Methods: [ASSESSMENT_METHODS_PO1]
-   
+
    [Continue for all program outcomes]
 
 ### Vertical Integration
@@ -492,7 +492,7 @@ Generate a comprehensive curriculum development plan:
 9. FACULTY DEVELOPMENT & SUPPORT
 
 ### Faculty Qualifications
-   
+
 ### Required Qualifications
    • Educational background: [EDUCATION_REQUIREMENTS]
    • Professional experience: [EXPERIENCE_REQUIREMENTS]
@@ -500,7 +500,7 @@ Generate a comprehensive curriculum development plan:
    • Research expectations: [RESEARCH_REQUIREMENTS]
    • Technology skills: [TECHNOLOGY_SKILLS]
    • Continuing education: [CONTINUING_ED_REQUIREMENTS]
-   
+
 ### Preferred Qualifications
    • Industry certifications: [INDUSTRY_CERTIFICATIONS]
    • Advanced degrees: [ADVANCED_DEGREE_PREFERENCES]
@@ -510,7 +510,7 @@ Generate a comprehensive curriculum development plan:
    • Diversity considerations: [DIVERSITY_FACTORS]
 
 ### Professional Development Plan
-   
+
 ### Orientation Program
    • Institutional mission and values
    • Curriculum philosophy and design
@@ -550,14 +550,14 @@ Generate a comprehensive curriculum development plan:
 10. RESOURCE REQUIREMENTS & PLANNING
 
 ### Human Resources
-    
+
 ### Faculty Staffing
     • Full-time faculty positions: [FULLTIME_FACULTY_COUNT]
     • Part-time/adjunct positions: [PARTTIME_FACULTY_COUNT]
     • Graduate teaching assistants: [GTA_COUNT]
     • Guest lecturers: [GUEST_LECTURER_COUNT]
     • Industry practitioners: [PRACTITIONER_COUNT]
-    
+
 ### Support Staff
     • Academic advisors: [ADVISOR_COUNT]
     • Laboratory technicians: [TECHNICIAN_COUNT]
@@ -566,7 +566,7 @@ Generate a comprehensive curriculum development plan:
     • Student services personnel: [STUDENT_SERVICES_COUNT]
 
 ### Physical Resources
-    
+
 ### Classroom Facilities
     • Traditional classrooms: [CLASSROOM_COUNT] capacity [CLASSROOM_CAPACITY]
     • Laboratory spaces: [LAB_COUNT] with [LAB_EQUIPMENT]
@@ -574,7 +574,7 @@ Generate a comprehensive curriculum development plan:
     • Studio spaces: [STUDIO_COUNT] for [STUDIO_PURPOSES]
     • Seminar rooms: [SEMINAR_ROOM_COUNT] capacity [SEMINAR_CAPACITY]
     • Distance learning studios: [DISTANCE_STUDIO_COUNT]
-    
+
 ### Technology Infrastructure
     • Learning management system: [LMS_REQUIREMENTS]
     • Video production equipment: [VIDEO_EQUIPMENT]
@@ -602,21 +602,21 @@ Generate a comprehensive curriculum development plan:
 11. QUALITY ASSURANCE & CONTINUOUS IMPROVEMENT
 
 ### Quality Framework
-    
+
 ### Design Quality
     • Curriculum coherence: [COHERENCE_MEASURES]
     • Learning outcome clarity: [OUTCOME_CLARITY]
     • Assessment alignment: [ASSESSMENT_ALIGNMENT]
     • Resource adequacy: [RESOURCE_ADEQUACY]
     • Faculty preparation: [FACULTY_READINESS]
-    
+
 ### Delivery Quality
     • Teaching effectiveness: [TEACHING_MEASURES]
     • Student engagement: [ENGAGEMENT_METRICS]
     • Support service quality: [SUPPORT_QUALITY]
     • Technology reliability: [TECH_RELIABILITY]
     • Accessibility compliance: [ACCESSIBILITY_COMPLIANCE]
-    
+
 ### Outcome Quality
     • Learning achievement: [ACHIEVEMENT_MEASURES]
     • Graduate success: [GRADUATE_OUTCOMES]
@@ -625,7 +625,7 @@ Generate a comprehensive curriculum development plan:
     • Professional recognition: [PROFESSIONAL_RECOGNITION]
 
 ### Review and Evaluation Cycles
-    
+
 ### Annual Reviews
     • Course evaluation data analysis
     • Faculty performance assessment
@@ -670,31 +670,31 @@ Generate a comprehensive curriculum development plan:
     • Form curriculum development committee
     • Establish design principles and framework
     • Begin stakeholder consultation process
-    
+
     Month 2:
     • Develop program outcomes and competencies
     • Create course structure and sequencing
     • Design assessment framework
     • Begin faculty recruitment planning
-    
+
     Month 3:
     • Develop detailed course outlines
     • Create learning activity specifications
     • Design assessment instruments
     • Plan resource requirements
-    
+
     Month 4:
     • Finalize curriculum documentation
     • Develop faculty development programs
     • Create student support frameworks
     • Plan technology integration
-    
+
     Month 5:
     • Conduct internal curriculum review
     • Revise based on feedback
     • Finalize resource allocation
     • Begin marketing and recruitment
-    
+
     Month 6:
     • Complete curriculum approval process
     • Finalize faculty hiring
@@ -707,13 +707,13 @@ Generate a comprehensive curriculum development plan:
     • Begin faculty development activities
     • Implement student support services
     • Monitor initial implementation
-    
+
     Months 8-11:
     • Deliver pilot curriculum
     • Collect continuous feedback
     • Make real-time adjustments
     • Document lessons learned
-    
+
     Month 12:
     • Evaluate pilot program results
     • Analyze student outcomes
@@ -726,7 +726,7 @@ Generate a comprehensive curriculum development plan:
     • Scale faculty and resources
     • Expand student recruitment
     • Monitor quality indicators
-    
+
     Months 16-18:
     • Complete first full cohort
     • Conduct comprehensive evaluation
@@ -736,7 +736,7 @@ Generate a comprehensive curriculum development plan:
 13. STAKEHOLDER ENGAGEMENT STRATEGY
 
 ### Student Engagement
-    
+
 ### Recruitment and Outreach
     • Target market identification: [TARGET_DEMOGRAPHICS]
     • Recruitment strategies: [RECRUITMENT_METHODS]
@@ -748,7 +748,7 @@ Generate a comprehensive curriculum development plan:
     • Diversity initiatives: [DIVERSITY_STRATEGIES]
     • International recruitment: [INTERNATIONAL_PROGRAMS]
     • Transfer student support: [TRANSFER_SERVICES]
-    
+
 ### Student Success Support
     • Academic advising: [ADVISING_MODEL]
     • Tutoring services: [TUTORING_PROGRAMS]
@@ -762,14 +762,14 @@ Generate a comprehensive curriculum development plan:
     • Research opportunities: [RESEARCH_PROGRAMS]
 
 ### Industry Partnerships
-    
+
 ### Advisory Board Structure
     • Industry representatives: [INDUSTRY_MEMBERS]
     • Professional organizations: [PROFESSIONAL_ORGS]
     • Alumni participants: [ALUMNI_MEMBERS]
     • Community leaders: [COMMUNITY_LEADERS]
     • Government representatives: [GOVERNMENT_REPS]
-    
+
 ### Partnership Activities
     • Curriculum review input: [REVIEW_SCHEDULE]
     • Guest speaker series: [SPEAKER_PROGRAMS]
@@ -785,7 +785,7 @@ Generate a comprehensive curriculum development plan:
 14. BUDGET AND SUSTAINABILITY PLANNING
 
 ### Development Costs
-    
+
 ### Initial Investment
     • Curriculum design and development: $[CURRICULUM_DESIGN_COST]
     • Faculty recruitment and hiring: $[FACULTY_RECRUITMENT_COST]
@@ -798,7 +798,7 @@ Generate a comprehensive curriculum development plan:
     • Pilot program implementation: $[PILOT_COST]
     • Contingency reserve: $[CONTINGENCY_RESERVE]
     Total Initial Investment: $[TOTAL_INITIAL_COST]
-    
+
 ### Annual Operating Costs
     • Faculty salaries and benefits: $[FACULTY_SALARY_COST]
     • Staff salaries and benefits: $[STAFF_SALARY_COST]
@@ -813,7 +813,7 @@ Generate a comprehensive curriculum development plan:
     Total Annual Operating: $[TOTAL_ANNUAL_COST]
 
 ### Revenue Projections
-    
+
 ### Primary Revenue Sources
     • Tuition revenue: $[TUITION_REVENUE]
     • State funding: $[STATE_FUNDING]
@@ -826,7 +826,7 @@ Generate a comprehensive curriculum development plan:
     • Online program fees: $[ONLINE_FEES]
     • Auxiliary services: $[AUXILIARY_REVENUE]
     Total Projected Revenue: $[TOTAL_REVENUE]
-    
+
 ### Sustainability Metrics
     • Break-even enrollment: [BREAK_EVEN_STUDENTS]
     • Cost per student: $[COST_PER_STUDENT]
@@ -837,7 +837,7 @@ Generate a comprehensive curriculum development plan:
 15. RISK MANAGEMENT & MITIGATION
 
 ### Academic Risks
-    
+
 ### Quality Risks
     • Risk: Inadequate faculty preparation
       Mitigation: [FACULTY_PREP_MITIGATION]
@@ -849,7 +849,7 @@ Generate a comprehensive curriculum development plan:
       Mitigation: [CURRICULUM_UPDATE_MITIGATION]
     • Risk: Assessment validity issues
       Mitigation: [ASSESSMENT_MITIGATION]
-    
+
 ### Operational Risks
     • Risk: Technology system failures
       Mitigation: [TECH_FAILURE_MITIGATION]
@@ -861,7 +861,7 @@ Generate a comprehensive curriculum development plan:
       Mitigation: [BUDGET_MITIGATION]
     • Risk: Facility inadequacy
       Mitigation: [FACILITY_MITIGATION]
-    
+
 ### External Risks
     • Risk: Industry demand changes
       Mitigation: [DEMAND_CHANGE_MITIGATION]
@@ -1274,8 +1274,8 @@ Year-long integrated STEM curriculum for grades 6-8
 ```
 Subject: Integrated STEM (Science, Technology, Engineering, Math)
 Grade Levels: 6-8 (Middle School)
-Duration: Full academic year (36 weeks)
-Units: 6 major units (6 weeks each)
+Duration: Full academic year
+Units: 6 major units
 Themes: Robotics, Environmental Science, Data Science, Engineering Design
 Approach: Project-based learning with real-world applications
 Standards: Next Generation Science Standards (NGSS), Common Core Math

@@ -346,8 +346,6 @@ IEP Development:
 | `[RES_IMPACT]` | Specify the res impact | "[specify value]" |
 | `[RES_RES]` | Specify the res res | "[specify value]" |
 
-
-
 ### 3. Service Delivery Models
 
 | **Service Model** | **Students Served** | **Staffing** | **Schedule** | **Effectiveness** | **Cost/Student** |
@@ -458,8 +456,6 @@ Social Worker | [SW_FTE] | [SW_CASE] | [SW_CERT] | [SW_PD] | [SW_EFF]/10
 | Resource Connection | [RES_FAMILIES] | [RES_FREQ] | [RES_SAT]/10 | [RES_IMPACT] | [RES_RES] |
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

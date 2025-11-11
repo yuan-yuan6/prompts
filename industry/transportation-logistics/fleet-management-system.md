@@ -408,8 +408,6 @@ Vehicle Diagnostics:
 | `[NPS_KPI]` | Specify the nps kpi | "[specify value]" |
 | `[RETENTION_KPI]` | Specify the retention kpi | "[specify value]" |
 
-
-
 ### 3. Preventive Maintenance Program
 
 | **Maintenance Type** | **Interval** | **Cost per Service** | **Downtime** | **Compliance Rate** | **Failure Prevention** |
@@ -595,8 +593,6 @@ Safety Metrics:
 ```
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

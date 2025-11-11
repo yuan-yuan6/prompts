@@ -22,22 +22,22 @@ Establish the conceptual backbone of your research by developing rigorous theore
 
 ### For Researchers Building Study Foundations
 
-**Step 1: Define Your Research Foundation (10 minutes)**
+**Step 1: Define Your Research Foundation**
 - Articulate your research problem and its significance
 - Identify the theoretical framework that will guide your study
 - Clarify your research questions and objectives
 
-**Step 2: Select Your Philosophical Paradigm (5 minutes)**
+**Step 2: Select Your Philosophical Paradigm**
 - Choose your epistemological stance (positivist, interpretivist, pragmatic, critical)
 - Define your ontological position and axiological considerations
 - Determine how your worldview shapes your methodological choices
 
-**Step 3: Select Your Research Design (5 minutes)**
+**Step 3: Select Your Research Design**
 - Choose between experimental, quasi-experimental, or observational designs
 - Select quantitative, qualitative, or mixed-methods approach
 - Justify design selection based on research questions and constraints
 
-**Step 4: Generate and Refine (2 minutes)**
+**Step 4: Generate and Refine**
 - Input your specifications into the template variables
 - Generate comprehensive theoretical framework and design rationale
 - Review for coherence, rigor, and alignment with research objectives

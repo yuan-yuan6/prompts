@@ -26,7 +26,7 @@ Design comprehensive integration patterns for APIs, messaging systems, event-dri
 **Integration Architecture (2-3 Days):**
 1. **Choose integration pattern** - Sync request-reply → REST API, Async → message queue (Kafka/RabbitMQ), Real-time → event streaming
 2. **Implement API Gateway** - Deploy Kong/AWS API Gateway, configure authentication (OAuth 2.0/JWT), enable rate limiting (1000 req/min)
-3. **Set up message broker** - Install Kafka/RabbitMQ, create topics/queues, configure retention (7 days), enable dead letter queue
+3. **Set up message broker** - Install Kafka/RabbitMQ, create topics/queues, configure retention, enable dead letter queue
 4. **Design error handling** - Implement circuit breaker (fail after 5 errors), retry with exponential backoff (3 attempts), log all failures
 5. **Add monitoring** - Track message throughput, API latency (p95/p99), error rates, consumer lag - alert on anomalies
 
@@ -562,8 +562,6 @@ Real-time Processing:
 | `[OPERATIONAL_PROCEDURES]` | Specify the operational procedures | "[specify value]" |
 | `[SUPPORT_MODEL]` | Specify the support model | "[specify value]" |
 | `[INTEGRATION_DOCUMENTATION]` | Specify the integration documentation | "[specify value]" |
-
-
 
 ### Financial Data Integration
 ```

@@ -23,19 +23,19 @@ Optimize SQL query performance through strategic rewriting, execution plan impro
 ### For Query Optimization
 Optimize SQL queries in 3 steps:
 
-1. **Identify Optimization Opportunities** (15-20 minutes)
+1. **Identify Optimization Opportunities**
    - Review baseline analysis for queries with table scans, subqueries, or expensive sorts
    - Look for: IN clauses with subqueries, UNION without ALL, correlated subqueries, SELECT *
    - Prioritize queries with execution time > SLA or high execution frequency
 
-2. **Apply Rewriting Patterns** (30-60 minutes per query)
+2. **Apply Rewriting Patterns**
    - Convert IN subqueries to JOINs or EXISTS (lines 595-632)
    - Replace correlated subqueries with window functions (lines 646-663)
    - Use UNION ALL instead of UNION when duplicates are not an issue (lines 635-643)
    - Implement CTEs for complex analytical queries (lines 685-736)
    - Add explicit column lists and eliminate SELECT * (lines 667-679)
 
-3. **Test and Validate** (15-30 minutes per query)
+3. **Test and Validate**
    - Compare execution plans before and after optimization
    - Verify query results match original output
    - Measure performance improvement (execution time, I/O, CPU)

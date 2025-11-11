@@ -93,7 +93,7 @@ Create [CONTENT_TYPE] for [PLATFORM] targeting [SOCIAL_TARGET_AUDIENCE] with [CO
 
 **Engagement Strategy:**
 - Apply [ENGAGEMENT_TACTICS] to boost interaction
-- Encourage [USER_GENERATED_CONTENT] participation  
+- Encourage [USER_GENERATED_CONTENT] participation
 - Use [POLLING_STRATEGY] and [CONTEST_STRATEGY] when appropriate
 - Plan [RESPONSE_STRATEGY] for community management
 - Cross-promote with [CROSS_PLATFORM_STRATEGY]
@@ -170,8 +170,6 @@ Engagement Strategy:
 | `[LIVE_CONTENT]` | Specify the live content | "[specify value]" |
 | `[STORY_STRATEGY]` | Specify the story strategy | "[specify value]" |
 | `[COMMENT_MODERATION]` | Specify the comment moderation | "[specify value]" |
-
-
 
 ## Best Practices
 

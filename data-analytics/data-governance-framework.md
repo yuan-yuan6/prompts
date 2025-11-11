@@ -161,8 +161,6 @@ Implement data governance for [COMPANY_NAME] managing [DATA_VOLUME] of data acro
 
 ## Usage Examples
 
-
-
 ## Best Practices
 
 1. **Start with clear objectives** - Define what success looks like before beginning
@@ -595,8 +593,6 @@ Target: 95% data quality, 100% compliance
 | `[CATALOG_METHOD]` | Specify the catalog method | "[specify value]" |
 | `[CATALOG_FREQUENCY]` | Specify the catalog frequency | "[specify value]" |
 | `[CATALOG_ACTIONS]` | Specify the catalog actions | "[specify value]" |
-
-
 
 ### Example 2: Healthcare Data Governance
 ```

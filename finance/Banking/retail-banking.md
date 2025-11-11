@@ -23,7 +23,7 @@ Comprehensive framework for managing retail banking operations including account
 
 Launch retail banking improvements in 1-2 hours with these practical examples:
 
-### Example 1: Personal Loan Approval Process (30 minutes)
+### Example 1: Personal Loan Approval Process
 Process a personal loan application:
 ```
 Applicant Profile:
@@ -55,7 +55,7 @@ Processing Time: 20 minutes (digital application)
 Funding: 24-48 hours
 ```
 
-### Example 2: Checking Account Cross-Sell (20 minutes)
+### Example 2: Checking Account Cross-Sell
 Identify and execute cross-sell opportunity:
 ```
 Customer Profile:
@@ -84,7 +84,7 @@ Expected Outcome:
 - Campaign conversion rate: 8-12%
 ```
 
-### Example 3: Branch Performance Optimization (40 minutes)
+### Example 3: Branch Performance Optimization
 Analyze and improve underperforming branch:
 ```
 Branch Profile:
@@ -454,8 +454,6 @@ Affluent:
 | `[GREEN_METRICS]` | Specify the green metrics | "[specify value]" |
 | `[GREEN_RISK]` | Specify the green risk | "[specify value]" |
 
-
-
 ### 3. Digital Banking Services
 
 | **Channel** | **Users** | **Transactions/Month** | **Cost/Transaction** | **Satisfaction** | **Investment** |
@@ -572,8 +570,6 @@ AML/KYC Program:
 | Green Banking | $[GREEN_INVEST] | [GREEN_TIME] | [GREEN_IMPACT] | [GREEN_METRICS] | [GREEN_RISK] |
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

@@ -343,8 +343,6 @@ Target State (Year 3):
 | `[VOICE_IMPACT]` | Specify the voice impact | "[specify value]" |
 | `[VOICE_INVEST]` | Specify the voice invest | "[specify value]" |
 
-
-
 ### 3. Omnichannel Service Delivery
 
 | **Channel** | **Services Offered** | **Usage Rate** | **Cost to Serve** | **Satisfaction** | **Investment Need** |
@@ -464,8 +462,6 @@ Special Populations:
 | Voice Services | [VOICE_USECASE] | [VOICE_PILOT] | [VOICE_TIMELINE] | [VOICE_IMPACT] | $[VOICE_INVEST] |
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

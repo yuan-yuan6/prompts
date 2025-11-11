@@ -430,8 +430,6 @@ Continue from Parts 1-2 (Foundation, Credit, Market, and Operational Risk) with 
 
 ## Usage Examples
 
-
-
 ## Best Practices
 
 1. **Start with clear objectives** - Define what success looks like before beginning

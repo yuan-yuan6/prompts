@@ -198,14 +198,14 @@ Outbreak Investigation Protocol:
 ```
 ### INVESTIGATION STEPS
 
-Phase 1: Verification (0-24 hours)
+Phase 1: Verification
 □ Confirm diagnosis
 □ Verify excess cases
 □ Case definition development
 □ Initial case finding
 □ Specimen collection
 
-Phase 2: Investigation (24-72 hours)
+Phase 2: Investigation
 □ Epidemiologic investigation
 □ Environmental assessment
 □ Laboratory testing
@@ -480,8 +480,6 @@ OUTPUT: Deliver comprehensive surveillance system with:
 [All 400+ variables for comprehensive epidemiological surveillance]
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

@@ -369,8 +369,6 @@ First Day:
 | `[DIGITAL_RESOURCES]` | Specify the digital resources | "[specify value]" |
 | `[DIGITAL_METRICS]` | Specify the digital metrics | "[specify value]" |
 
-
-
 ### 4. Volunteer Scheduling & Coordination
 
 | **Program Area** | **Shifts/Week** | **Volunteers Needed** | **Fill Rate** | **Coordination Method** | **Backup Plan** |
@@ -477,8 +475,6 @@ Program Impact:
 | Digital Engagement | [DIGITAL_CURRENT] | [DIGITAL_TARGET] | [DIGITAL_INIT] | [DIGITAL_RESOURCES] | [DIGITAL_METRICS] |
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

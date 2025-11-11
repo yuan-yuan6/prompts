@@ -353,8 +353,6 @@ Preferred Suppliers:
 | `[INNOV_INDEX]` | Specify the innov index | "[specify value]" |
 | `[AGILITY]` | Specify the agility | "[specify value]" |
 
-
-
 ### 3. Inventory Optimization
 
 | **Inventory Type** | **Current Level** | **Optimal Level** | **Carrying Cost** | **Service Level** | **Optimization Method** |
@@ -513,8 +511,6 @@ Service Metrics:
 ```
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

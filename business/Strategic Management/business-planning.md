@@ -3,7 +3,7 @@ title: Business Planning Template Generator
 category: business/Strategic Management
 tags: [business, data-science, design, documentation, machine-learning, optimization, research, strategy]
 use_cases:
-  - Draft a business plan outline for investor presentation (3-4 hours)
+  - Draft a business plan outline for investor presentation
   - Create strategic roadmap for new product launch
   - Develop annual business plan for existing division or business unit
 related_templates:

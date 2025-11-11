@@ -420,8 +420,6 @@ Application Metrics:
 | `[QUARTERLY_REVIEWS]` | Specify the quarterly reviews | "[specify value]" |
 | `[ANNUAL_PLANNING]` | Specify the annual planning | "[specify value]" |
 
-
-
 ### 3. Alerting Strategy & Configuration
 
 | **Alert Category** | **Severity Level** | **Detection Method** | **Notification Channel** | **Escalation Path** | **Auto-Remediation** |
@@ -607,8 +605,6 @@ Operational Metrics:
 ```
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

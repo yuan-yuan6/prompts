@@ -19,7 +19,7 @@ Develop effective mediation, de-escalation, and solution-finding strategies to r
 
 Resolve conflicts effectively in three immediate steps:
 
-1. **Pause and Assess** (5-10 minutes)
+1. **Pause and Assess**
    - Take a cooling-off period: wait 24 hours if emotions are high
    - Identify the real issue: Is this about the current topic or deeper concerns?
    - Check your goal: Do you want to be right or resolve the problem?
@@ -33,7 +33,7 @@ Resolve conflicts effectively in three immediate steps:
    - Listen actively: Don't interrupt, ask clarifying questions, reflect back what you hear
    - Find common ground: "We both want [shared goal]. How can we achieve that?"
 
-3. **Create an Action Plan** (10 minutes)
+3. **Create an Action Plan**
    - Propose solutions: "What if we tried [option]? What would work for you?"
    - Be specific: "I will [action] by [date]. Can you [action] by [date]?"
    - Set check-in: "Let's talk again on [date] to see how this is working"
@@ -267,8 +267,6 @@ Resolution quality: [RESOLUTION_QUALITY_RATING]
 [400+ variables for conflict resolution including analysis frameworks, de-escalation techniques, mediation processes, emotional management, and implementation planning]
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

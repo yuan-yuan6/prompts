@@ -70,14 +70,14 @@ Technical Context:
 
 ### Pipeline Overview
    [PIPELINE_NAME] is designed to process [DAILY_VOLUME] of data from [SOURCE_SYSTEMS] to [DESTINATION_SYSTEMS], enabling [business objectives].
-   
+
 ### Key Characteristics
    • Processing Type: [BATCH/STREAMING/HYBRID]
    • Frequency: [Real-time/Hourly/Daily]
    • Data Latency: [Expected latency]
    • Scalability: [Scaling approach]
    • Reliability: [Availability targets]
-   
+
 ### Success Criteria
    • Data freshness: < [X] minutes/hours
    • Data quality: > [X]% accuracy
@@ -87,7 +87,7 @@ Technical Context:
 2. DATA SOURCES
 
    ## Source System Inventory
-   
+
    Source 1: [System Name]
    • Type: [Database/API/File/Stream]
    • Format: [JSON/CSV/Parquet/Avro]
@@ -96,19 +96,19 @@ Technical Context:
    • Connection: [JDBC/REST/S3/Kafka]
    • Schema: [Static/Dynamic]
    • Authentication: [Method]
-   
+
 ### Data Characteristics
    • Record Size: [Average bytes]
    • Growth Rate: [% per month]
    • Peak Load: [Records/second]
    • Historical Data: [Volume to migrate]
-   
+
 ### Source Data Quality
    • Completeness: [% of required fields]
    • Accuracy: [Error rate]
    • Timeliness: [Data lag]
    • Consistency: [Format variations]
-   
+
 ### Access Patterns
    • Pull Frequency: [Schedule]
    • API Rate Limits: [Requests/second]
@@ -118,7 +118,7 @@ Technical Context:
 3. DATA ARCHITECTURE
 
    ## Pipeline Architecture
-   
+
    High-Level Flow:
    ```
    ┌──────────┐      ┌──────────┐      ┌──────────┐      ┌──────────┐
@@ -128,7 +128,7 @@ Technical Context:
         └─────────────────┴─────────────────┴─────────────────┘
                           Monitoring & Orchestration
    ```
-   
+
 ### Detailed Architecture
    ```
    Data Sources                Processing Layer              Storage Layer
@@ -160,7 +160,7 @@ Technical Context:
                                                         │             │
                                                         └──────────────┘
    ```
-   
+
    Technology Stack:
    • Ingestion: Apache Kafka / AWS Kinesis
    • Processing: Apache Spark / Apache Flink
@@ -172,7 +172,7 @@ Technical Context:
 4. DATA INGESTION
 
    ## Ingestion Strategy
-   
+
 ### Batch Ingestion
    • Method: Scheduled pulls
    • Frequency: [Daily at 2 AM UTC]
@@ -180,7 +180,7 @@ Technical Context:
    • Format: Parquet files
    • Compression: Snappy
    • Partitioning: By date
-   
+
 ### Streaming Ingestion
    • Method: Event streaming
    • Technology: Kafka Connect
@@ -188,13 +188,13 @@ Technical Context:
    • Partitions: [Number]
    • Replication: Factor of 3
    • Retention: 7 days
-   
+
    Change Data Capture (CDC):
    • Technology: Debezium / AWS DMS
    • Method: Log-based CDC
    • Lag Tolerance: < 5 minutes
    • Schema Evolution: Handled via registry
-   
+
 ### File Ingestion
    • Source Location: S3/SFTP
    • File Pattern: prefix_YYYYMMDD_*.csv
@@ -205,40 +205,40 @@ Technical Context:
 5. DATA PROCESSING
 
    ## Transformation Logic
-   
+
    Stage 1: Data Cleansing
    ```python
    def cleanse_data(df):
        # Remove duplicates
        df = df.drop_duplicates(['id', 'timestamp'])
-       
+
        # Handle missing values
        df['amount'] = df['amount'].fillna(0)
        df['category'] = df['category'].fillna('Unknown')
-       
+
        # Standardize formats
        df['date'] = pd.to_datetime(df['date'])
        df['phone'] = df['phone'].str.replace(r'\D', '')
-       
+
        # Data type conversions
        df['amount'] = df['amount'].astype('float64')
-       
+
        return df
    ```
-   
+
    Stage 2: Data Enrichment
    • Lookup dimensional data
    • Add derived fields
    • Apply business rules
    • Geocoding/IP enrichment
    • ML model predictions
-   
+
    Stage 3: Aggregation
    • Time-based rollups
    • Statistical summaries
    • Business metrics calculation
    • KPI computation
-   
+
 ### Processing Patterns
    • Window Functions: Sliding/Tumbling/Session
    • Join Strategy: Broadcast/Shuffle/Sort-Merge
@@ -248,47 +248,47 @@ Technical Context:
 6. DATA QUALITY
 
    ## Quality Framework
-   
+
 ### Data Quality Dimensions
-   
+
 ### Completeness
    • Required fields present: 100%
    • Optional fields: > 80%
    • Monitoring: Great Expectations
-   
+
 ### Accuracy
    • Business rule validation
    • Reference data matching
    • Statistical outlier detection
    • Threshold: < 0.1% errors
-   
+
 ### Consistency
    • Cross-source validation
    • Temporal consistency
    • Format standardization
    • Duplicate detection
-   
+
 ### Timeliness
    • Data freshness SLA: < 2 hours
    • Processing time: < 30 minutes
    • Alert on delays > 15 minutes
-   
+
 ### Quality Rules
    ```yaml
    rules:
      - name: amount_positive
        check: amount > 0
        action: reject_record
-       
+
      - name: email_format
        check: regex_match(email, '^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$')
        action: quarantine
-       
+
      - name: date_range
        check: date between '2020-01-01' and current_date()
        action: flag_warning
    ```
-   
+
    Quality Monitoring:
    • Real-time dashboards
    • Quality score trending
@@ -298,7 +298,7 @@ Technical Context:
 7. DATA STORAGE
 
    ## Storage Architecture
-   
+
    Raw Data Layer (Bronze):
    • Purpose: Immutable raw data
    • Format: Original format
@@ -306,7 +306,7 @@ Technical Context:
    • Storage: S3 / HDFS
    • Partitioning: By ingestion date
    • Compression: Gzip
-   
+
    Cleaned Data Layer (Silver):
    • Purpose: Cleansed, conformed data
    • Format: Parquet / Delta
@@ -314,7 +314,7 @@ Technical Context:
    • Storage: S3 / Delta Lake
    • Partitioning: By business date
    • Compression: Snappy
-   
+
    Business Layer (Gold):
    • Purpose: Business-ready datasets
    • Format: Parquet / Aggregate tables
@@ -322,7 +322,7 @@ Technical Context:
    • Storage: Data Warehouse
    • Partitioning: By multiple dimensions
    • Indexes: On key columns
-   
+
 ### Archive Strategy
    • Cold Storage: After 1 year
    • Archive: Glacier after 2 years
@@ -332,9 +332,9 @@ Technical Context:
 8. ORCHESTRATION & SCHEDULING
 
    ## Workflow Orchestration
-   
+
    Tool: Apache Airflow
-   
+
 ### DAG Structure
    ```python
    dag = DAG(
@@ -343,37 +343,37 @@ Technical Context:
        start_date=datetime(2024, 1, 1),
        catchup=False
    )
-   
+
    # Task definitions
    extract_task = PythonOperator(
        task_id='extract_data',
        python_callable=extract_function
    )
-   
+
    transform_task = SparkSubmitOperator(
        task_id='transform_data',
        application='transform.py'
    )
-   
+
    load_task = PythonOperator(
        task_id='load_data',
        python_callable=load_function
    )
-   
+
    # Task dependencies
    extract_task >> transform_task >> load_task
    ```
-   
+
    Schedule:
    • Daily Pipeline: 2:00 AM UTC
    • Hourly Updates: Every hour
    • Real-time Stream: Continuous
-   
+
    Dependencies:
    • Upstream: Source availability
    • Downstream: Target readiness
    • Cross-pipeline: Data dependencies
-   
+
 ### Failure Handling
    • Retry Policy: 3 attempts
    • Backoff: Exponential
@@ -383,28 +383,28 @@ Technical Context:
 9. MONITORING & OBSERVABILITY
 
    ## Monitoring Strategy
-   
+
 ### Pipeline Metrics
    • Records Processed: Count/minute
    • Processing Time: Duration
    • Error Rate: Errors/total
    • Data Lag: Current delay
    • Resource Usage: CPU/Memory
-   
+
 ### Data Metrics
    • Record Count: By source
    • Data Volume: GB/day
    • Quality Score: Percentage
    • Completeness: Field coverage
    • Anomalies: Detected count
-   
+
 ### System Metrics
    • Cluster Utilization
    • Queue Depth
    • Storage Usage
    • Network I/O
    • API Rate Limits
-   
+
 ### Alerting Rules
    | Metric | Threshold | Action |
    |--------|-----------|--------|
@@ -412,7 +412,7 @@ Technical Context:
    | Processing Time | > 2 hours | Email team |
    | Data Lag | > 30 minutes | Slack alert |
    | Quality Score | < 95% | Create ticket |
-   
+
 ### Dashboards
    • Operations Dashboard
    • Data Quality Dashboard
@@ -422,23 +422,23 @@ Technical Context:
 10. ERROR HANDLING
 
     ## Error Management
-    
+
 ### Error Types
-    
+
 ### Data Errors
     • Schema mismatch
     • Data type errors
     • Constraint violations
     • Missing required fields
-    
+
 ### System Errors
     • Connection failures
     • Resource exhaustion
     • Permission denied
     • Timeout errors
-    
+
 ### Error Handling Strategy
-    
+
 ### Retry Logic
     ```python
     @retry(
@@ -450,18 +450,18 @@ Technical Context:
         # Processing logic
         pass
     ```
-    
+
     Dead Letter Queue:
     • Failed records quarantined
     • Manual review process
     • Reprocessing capability
     • Audit trail maintained
-    
+
     Circuit Breaker:
     • Threshold: 50% failure rate
     • Window: 5 minutes
     • Recovery: Gradual
-    
+
 ### Recovery Procedures
     1. Identify failure point
     2. Fix root cause
@@ -472,26 +472,26 @@ Technical Context:
 11. SCALABILITY & PERFORMANCE
 
     ## Scalability Design
-    
+
 ### Horizontal Scaling
     • Auto-scaling triggers
     • Cluster elasticity
     • Partition strategies
     • Load distribution
-    
+
 ### Performance Optimization
     • Data partitioning
     • Columnar storage
     • Compression techniques
     • Caching strategies
     • Query optimization
-    
+
 ### Capacity Planning
     • Current: 100 GB/day
     • 6 Months: 250 GB/day
     • 1 Year: 500 GB/day
     • Peak: 2x average
-    
+
 ### Performance Targets
     • Throughput: 1M records/minute
     • Latency: < 100ms per record
@@ -501,25 +501,25 @@ Technical Context:
 12. SECURITY & COMPLIANCE
 
     ## Security Design
-    
+
 ### Data Security
     • Encryption at rest: AES-256
     • Encryption in transit: TLS 1.3
     • Key Management: AWS KMS
     • Data Masking: PII fields
-    
+
 ### Access Control
     • Authentication: SSO/LDAP
     • Authorization: RBAC
     • Audit Logging: All access
     • Principle: Least privilege
-    
+
 ### Compliance
     • GDPR: Right to erasure
     • CCPA: Data privacy
     • HIPAA: Healthcare data
     • PCI-DSS: Payment data
-    
+
 ### Data Governance
     • Data Catalog: AWS Glue
     • Lineage Tracking: DataHub
@@ -529,20 +529,20 @@ Technical Context:
 13. COST OPTIMIZATION
 
     ## Cost Management
-    
+
 ### Resource Costs
     • Compute: $[X]/month
     • Storage: $[X]/TB/month
     • Network: $[X]/GB transfer
     • Tools: $[X]/month licenses
-    
+
 ### Optimization Strategies
     • Spot instances for batch
     • Reserved capacity for baseline
     • Data lifecycle policies
     • Compression optimization
     • Query result caching
-    
+
 ### Cost Monitoring
     • Budget alerts
     • Resource tagging
@@ -552,19 +552,19 @@ Technical Context:
 14. DISASTER RECOVERY
 
     ## DR Strategy
-    
+
 ### Backup
     • Frequency: Daily
     • Retention: 30 days
     • Location: Cross-region
     • Testing: Monthly
-    
+
 ### Recovery
     • RTO: 4 hours
     • RPO: 1 hour
     • Procedures: Documented
     • Automation: Scripted
-    
+
 ### Failover
     • Active-Passive setup
     • Automatic detection
@@ -574,25 +574,25 @@ Technical Context:
 15. IMPLEMENTATION PLAN
 
     ## Development Phases
-    
+
     Phase 1: Foundation (Week 1-2)
     • Infrastructure setup
     • Development environment
     • Basic ingestion
     • Initial transformations
-    
+
     Phase 2: Core Pipeline (Week 3-4)
     • Complete ETL logic
     • Data quality checks
     • Error handling
     • Basic monitoring
-    
+
     Phase 3: Production Ready (Week 5-6)
     • Performance tuning
     • Security hardening
     • Full monitoring
     • Documentation
-    
+
     Phase 4: Deployment (Week 7)
     • Production deployment
     • Data migration

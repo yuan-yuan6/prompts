@@ -358,8 +358,6 @@ Data Warehouse: [DW_SYSTEM]
 | `[CSAT_BENCH]` | Specify the csat bench | "[specify value]" |
 | `[CSAT_PLAN]` | Specify the csat plan | "[specify value]" |
 
-
-
 **Billing Cycle Management:**
 | **Cycle** | **Accounts** | **Read Date** | **Bill Date** | **Due Date** | **Cycle Time** |
 |----------|-------------|--------------|-------------|------------|---------------|
@@ -458,8 +456,6 @@ Collection Agency: [AGENCY_TRIGGER]
 | CSAT Score | [CSAT_CURRENT]/5 | [CSAT_TARGET]/5 | [CSAT_BENCH]/5 | [CSAT_PLAN] |
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

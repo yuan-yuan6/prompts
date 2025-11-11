@@ -21,7 +21,7 @@ Planning your next trip? Get organized in 30 minutes with this streamlined appro
 1. Set your budget first: Decide how much you can spend total, then allocate 40% for accommodation, 30% for activities, 20% for food, 10% for unexpected expenses
 2. Book the big three: Secure flights, accommodation, and any must-do activities first—everything else is flexible
 3. Create a simple daily rhythm: Plan one major activity per day, leaving afternoons or evenings flexible for spontaneous discoveries
-4. Check the essentials: Passport validity (6 months+), visa requirements, travel insurance, and any required vaccinations
+4. Check the essentials: Passport validity, visa requirements, travel insurance, and any required vaccinations
 5. Use the 3-2-1 packing rule: Three tops, two bottoms, one pair of shoes per week (you'll wear less than you think)
 
 Pro tip: Download offline maps of your destination and save important confirmations as screenshots—you won't always have internet access when you need them most.
@@ -186,8 +186,6 @@ Travel readiness: [TRAVEL_READINESS_RATING]
 [400+ variables for travel planning including destinations, transportation, accommodation, activities, budgeting, and safety considerations]
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

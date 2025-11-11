@@ -732,7 +732,6 @@ I need to develop professional press releases and media communications. Please p
 | `[RESPONSE_ACTIONS]` | Specify the response actions | "[specify value]" |
 | `[RESOLUTION_OUTCOME]` | Specify the resolution outcome | "[specify value]" |
 
-
 Context: [SOFTWARE_COMPANY_AI_TOOL_LAUNCH]
 Headline: {Company_Name Launches Revolutionary AI-Powered [TOOL_NAME] to Transform [INDUSTRY_VERTICAL]}
 Lead: {Company_Name, a leading [INDUSTRY_POSITION] company, today announced the launch of [PRODUCT_NAME], an innovative [PRODUCT_CATEGORY] that [PRIMARY_BENEFIT] for [TARGET_AUDIENCE]...}

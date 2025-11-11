@@ -35,11 +35,6 @@ Analyze income statements, balance sheets, and cash flow statements to evaluate 
 2. **Generate Analysis**: Input financial data into the template to receive comprehensive analysis covering profitability, liquidity, efficiency, and cash flow metrics
 3. **Review and Action**: Evaluate the insights, identify key strengths and concerns, compare to industry standards, and develop action items for management attention
 
-### Time Estimate
-- Data preparation: 30-60 minutes
-- Analysis generation and review: 45-90 minutes
-- Total: 1.5-2.5 hours per company analyzed
-
 ## Template
 
 ```

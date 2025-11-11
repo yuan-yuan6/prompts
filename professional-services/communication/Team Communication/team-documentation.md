@@ -863,11 +863,7 @@ Please provide a comprehensive team documentation and knowledge management strat
 | `[COLLABORATION_POTENTIAL]` | Specify the collaboration potential | "[specify value]" |
 | `[MARKET_EVOLUTION]` | Specify the market evolution | "[specify value]" |
 
-
-
 ## Usage Examples
-
-
 
 ## Best Practices
 

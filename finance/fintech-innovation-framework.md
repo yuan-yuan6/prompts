@@ -418,8 +418,6 @@ Digital Wallets:
 | `[LTV]` | Specify the ltv | "[specify value]" |
 | `[BURN_RATE]` | Specify the burn rate | "[specify value]" |
 
-
-
 ### 3. AI & Machine Learning Applications
 
 | **AI Application** | **Use Case** | **Model Type** | **Data Requirements** | **Accuracy Target** | **Business Impact** |
@@ -597,8 +595,6 @@ Technology Scaling:
 ```
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

@@ -34,8 +34,6 @@ You're a mid-level professional feeling stuck, unsure whether to specialize deep
 2. **Generate Roadmap** (5 min): Run the prompt to create your strategic career plan with multiple pathways, milestone mapping, and development strategies
 3. **Execute & Track** (ongoing): Take the first three actions this week, schedule quarterly reviews, and adjust based on the performance tracking system
 
-**Time Estimate:** 30 minutes for initial planning, then 1 hour quarterly for reviews and adjustments
-
 **Expected Outcome:** A comprehensive career development plan with clear pathways, skill development matrices, networking strategies, personal branding guidelines, and risk management frameworks that accelerate career progression by 2-3 years.
 
 ## Template
@@ -410,8 +408,6 @@ OUTPUT: Deliver comprehensive career plan with:
 [All 350+ variables for comprehensive career planning]
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

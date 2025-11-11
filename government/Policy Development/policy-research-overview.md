@@ -248,22 +248,22 @@ Research → Impact Assessment → Options Development
 
 ### Workflow 1: Comprehensive Policy Development
 ```
-1. Research & Analysis (4-8 weeks)
+1. Research & Analysis
    - Literature review
    - Data analysis
    - Case studies
 
-2. Impact Assessment (3-6 weeks)
+2. Impact Assessment
    - Economic modeling
    - Social impact analysis
    - Environmental assessment
 
-3. Options Development (4-6 weeks)
+3. Options Development
    - Design alternatives
    - Stakeholder consultation
    - Cost-benefit analysis
 
-4. Implementation Planning (3-4 weeks)
+4. Implementation Planning
    - Detailed roadmap
    - Resource planning
    - Monitoring design
@@ -271,15 +271,15 @@ Research → Impact Assessment → Options Development
 
 ### Workflow 2: Rapid Policy Response
 ```
-1. Research & Analysis (1-2 weeks)
+1. Research & Analysis
    - Focused literature review
    - Quick comparative analysis
 
-2. Options Development (1-2 weeks)
+2. Options Development
    - 2-3 core alternatives
    - Rapid stakeholder input
 
-3. Implementation Planning (1 week)
+3. Implementation Planning
    - High-level roadmap
    - Critical path focus
 ```

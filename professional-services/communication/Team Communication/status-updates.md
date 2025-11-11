@@ -869,8 +869,6 @@ Please provide a comprehensive status update and reporting strategy based on thi
 | `[INTERNAL_CARE]` | Specify the internal care | "[specify value]" |
 | `[IMPROVEMENT_DOCUMENTATION]` | Specify the improvement documentation | "[specify value]" |
 
-
-
 ## Usage Examples
 
 ### Example 1: Software Development Team

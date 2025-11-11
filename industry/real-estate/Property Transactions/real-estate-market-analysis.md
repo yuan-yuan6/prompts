@@ -344,8 +344,6 @@ Recommended Value: $[RECOMMENDED_VALUE]
 | `[TOTAL_BENCH]` | Specify the total bench | "[specify value]" |
 | `[FINAL_DECISION]` | Specify the final decision | "[specify value]" |
 
-
-
 ### 3. Investment Financial Analysis
 
 | **Financial Metric** | **Year 1** | **Year 3** | **Year 5** | **Exit Year** | **Average** |
@@ -466,8 +464,6 @@ Financing Structure:
 | **Total Score** | **[TOTAL_SCORE]** | **100%** | **[TOTAL_WEIGHTED]** | **[TOTAL_BENCH]** | **[FINAL_DECISION]** |
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

@@ -373,8 +373,6 @@ Capability Gaps:
 | `[TRANSFORMATION]` | Specify the transformation | "[specify value]" |
 | `[STAKEHOLDER_VALUE]` | Specify the stakeholder value | "[specify value]" |
 
-
-
 ### 3. Opportunities Exploration
 
 | **Opportunity Type** | **Market Potential** | **Resource Requirements** | **Time to Market** | **Success Probability** | **Strategic Fit** |
@@ -537,8 +535,6 @@ Market Metrics:
 
 ## Usage Examples
 
-
-
 ## Best Practices
 
 1. **Start with clear objectives** - Define what success looks like before beginning
@@ -615,7 +611,7 @@ Results: 35% online revenue growth
 - Healthcare
 
 ### 3. Time Horizon
-- Short-term (3-6 months)
+- Short-term
 - Medium-term (1-2 years)
 - Long-term (3-5 years)
 - Strategic (5+ years)

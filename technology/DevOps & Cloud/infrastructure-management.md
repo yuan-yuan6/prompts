@@ -190,8 +190,6 @@ Scaling Management:
 | `[INFRASTRUCTURE_INCIDENT_RESPONSE]` | Specify the infrastructure incident response | "[specify value]" |
 | `[CHANGE_WINDOWS]` | Specify the change windows | "[specify value]" |
 
-
-
 ## Best Practices
 
 1. **Automate infrastructure provisioning and management**

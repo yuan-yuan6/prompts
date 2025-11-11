@@ -347,8 +347,6 @@ Drafting & Negotiation:
 | `[RISK_TIME]` | Specify the risk time | "[specify value]" |
 | `[RISK_IMPACT]` | Specify the risk impact | "[specify value]" |
 
-
-
 ### 3. Risk Assessment & Mitigation
 
 | **Risk Category** | **Exposure Level** | **Contracts Affected** | **Financial Impact** | **Mitigation Strategy** | **Control Effectiveness** |
@@ -474,8 +472,6 @@ Quality Metrics:
 | Risk Reduction | [RISK_OBJECTIVE] | [RISK_CURRENT] | [RISK_TARGET] | [RISK_TIME] | [RISK_IMPACT] |
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

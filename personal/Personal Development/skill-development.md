@@ -35,8 +35,6 @@ You need to learn Python for a new job in 6 months but don't know where to start
 2. **Generate Strategy** (5 min): Run the prompt to create your personalized learning path with deliberate practice frameworks and milestone markers
 3. **Practice & Track** (ongoing): Follow the daily practice routines, track progress metrics, and iterate using the provided feedback systems
 
-**Time Estimate:** 20 minutes for strategy creation, then 30-120 minutes daily for deliberate practice
-
 **Expected Outcome:** A comprehensive skill acquisition roadmap with accelerated learning techniques, practice schedules, and progress tracking that typically reduces learning time by 50-70% compared to unstructured practice.
 
 ## Template
@@ -771,11 +769,7 @@ Please provide a comprehensive skill acquisition strategy based on this framewor
 | `[COURAGE_CULTIVATION]` | Specify the courage cultivation | "[specify value]" |
 | `[MEANINGFUL_CONTRIBUTION]` | Specify the meaningful contribution | "[specify value]" |
 
-
-
 ## Usage Examples
-
-
 
 ## Best Practices
 

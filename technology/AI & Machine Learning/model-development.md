@@ -229,8 +229,6 @@ Model Architecture:
 | `[MONITORING_PIPELINE]` | Specify the monitoring pipeline | "[specify value]" |
 | `[MLOPS_GOVERNANCE]` | Specify the mlops governance | "[specify value]" |
 
-
-
 ## Best Practices
 
 1. **Start with clear business objectives and success metrics**

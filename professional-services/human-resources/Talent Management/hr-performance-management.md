@@ -335,8 +335,6 @@ Performance Ratings:
 | `[RETAIN_ACTION]` | Specify the retain action | "[specify value]" |
 | `[RETAIN_REVIEW]` | Specify the retain review | "[specify value]" |
 
-
-
 ### 3. Competency Framework
 
 | **Competency Level** | **Technical Skills** | **Leadership Skills** | **Behavioral Skills** | **Assessment Method** | **Development Path** |
@@ -462,8 +460,6 @@ Non-Monetary Recognition:
 | Retention Rate | [RETAIN]% | [RETAIN_TARGET]% | [RETAIN_TREND] | [RETAIN_ACTION] | [RETAIN_REVIEW] |
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

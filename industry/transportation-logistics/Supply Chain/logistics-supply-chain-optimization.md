@@ -386,8 +386,6 @@ Demand Segmentation:
 | `[SC_CYCLE]` | Specify the sc cycle | "[specify value]" |
 | `[TTM]` | Specify the ttm | "[specify value]" |
 
-
-
 ### 3. Inventory Optimization Strategy
 
 | **Inventory Type** | **Value** | **Turns** | **Days on Hand** | **Service Level** | **Optimization Method** |
@@ -512,8 +510,6 @@ Cost Metrics:
 ```
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

@@ -387,8 +387,6 @@ Network Monitoring:
 | `[AUTOMATION_OPP]` | Specify the automation opp | "[specify value]" |
 | `[MATURITY_ASSESS]` | Specify the maturity assess | "[specify value]" |
 
-
-
 ### 3. Incident Classification & Triage
 
 | **Incident Type** | **Severity Level** | **Response Time** | **Escalation Path** | **Resource Assignment** | **Communication Plan** |
@@ -566,8 +564,6 @@ Improvement Actions:
 ```
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

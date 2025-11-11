@@ -523,7 +523,7 @@ TIMEFRAME: "18-month transformation"
 
 APPROACH:
 - Start with value stream mapping of brake assembly line
-- Implement 5S in pilot cell (2 months)
+- Implement 5S in pilot cell
 - Convert to cellular layout with integrated quality checks
 - Reduce stamping press changeover from 45 to 8 minutes
 - Implement kanban pull from final assembly

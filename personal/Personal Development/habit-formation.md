@@ -34,8 +34,6 @@ You want to start exercising daily but past attempts failed after a week. Use th
 2. **Generate System** (3 min): Run the prompt to create your personalized habit architecture with phase-based implementation and tracking
 3. **Start Tiny** (ongoing): Begin with the 2-minute version today, track daily, and progressively expand using the provided frameworks
 
-**Time Estimate:** 15 minutes for system design, then 2-5 minutes daily for tracking and adjustment
-
 **Expected Outcome:** A scientifically-designed habit system with 80%+ success rate, complete with cue-routine-reward loops, environmental design, and obstacle management strategies that make lasting behavior change inevitable.
 
 ## Template
@@ -459,8 +457,6 @@ OUTPUT: Deliver comprehensive habit system with:
 [All 400+ variables for comprehensive habit formation]
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

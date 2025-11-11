@@ -396,8 +396,6 @@ Serverless Computing:
 | `[CDN_CONFIG]` | Specify the cdn config | "[specify value]" |
 | `[DB_OPTIMIZATION]` | Specify the db optimization | "[specify value]" |
 
-
-
 ### 3. Azure Architecture Components
 
 | **Azure Service** | **Configuration** | **Tier/SKU** | **Region Deployment** | **Redundancy** | **Integration Points** |
@@ -583,8 +581,6 @@ Infrastructure Monitoring:
 ```
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

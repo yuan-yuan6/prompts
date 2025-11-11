@@ -219,8 +219,6 @@ Build Process:
 | `[DEPLOYMENT_HEALTH_CHECKS]` | Specify the deployment health checks | "[specify value]" |
 | `[DEPLOYMENT_NOTIFICATIONS]` | Specify the deployment notifications | "[specify value]" |
 
-
-
 ## Best Practices
 
 1. **Automate everything from build to deployment**

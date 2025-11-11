@@ -3,7 +3,7 @@ title: Dashboard Data Architecture & Integration
 category: data-analytics/Business Intelligence
 tags: [data-analytics, business-intelligence, data-architecture, etl, data-integration]
 use_cases:
-  - Design data pipeline for dashboard with multiple source systems (1-2 days planning)
+  - Design data pipeline for dashboard with multiple source systems
   - Build ETL workflow for nightly dashboard refresh from operational databases
   - Create data model that supports both summary and drill-down reporting needs
 related_templates:

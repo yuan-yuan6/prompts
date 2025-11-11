@@ -318,8 +318,6 @@ Customer Expansion:
 | `[TRANS_INVEST]` | Specify the trans invest | "[specify value]" |
 | `[TRANS_CRITERIA]` | Specify the trans criteria | "[specify value]" |
 
-
-
 ### 3. M&A Strategy
 
 | **Target Type** | **Strategic Rationale** | **Size Range** | **Valuation** | **Integration Complexity** | **Synergy Potential** |
@@ -437,8 +435,6 @@ Funding Sources:
 | Transformation | [TRANS_TIME] | [TRANS_INIT] | $[TRANS_REVENUE] | $[TRANS_INVEST] | [TRANS_CRITERIA] |
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

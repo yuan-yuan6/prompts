@@ -367,8 +367,6 @@ Opposition (Against):
 | `[NARRATIVE_CHANGE]` | Specify the narrative change | "[specify value]" |
 | `[SYSTEM_IMPACT]` | Specify the system impact | "[specify value]" |
 
-
-
 ### 3. Campaign Strategy & Tactics
 
 | **Strategy Component** | **Approach** | **Tactics** | **Resources** | **Timeline** | **Success Metrics** |
@@ -539,8 +537,6 @@ Long-term Change:
 ```
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

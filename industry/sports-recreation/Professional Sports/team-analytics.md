@@ -334,8 +334,6 @@ Player: [PLAYER_NAME_2]
 | `[SCI_INVEST]` | Specify the sci invest | "[specify value]" |
 | `[SCI_TIME]` | Specify the sci time | "[specify value]" |
 
-
-
 ### 3. Tactical Analysis System
 
 | **Tactical Element** | **Success Rate** | **Usage Frequency** | **Points Generated** | **Defensive Impact** | **Optimization** |
@@ -459,8 +457,6 @@ Real-time Systems:
 | Sports Science Center | [SCI_STATUS] | [SCI_PHASE] | [SCI_IMPACT] | $[SCI_INVEST] | [SCI_TIME] |
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

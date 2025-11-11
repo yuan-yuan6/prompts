@@ -1004,11 +1004,7 @@ Please provide a comprehensive cross-functional coordination strategy based on t
 | `[SUCCESS_COMMUNICATION]` | Specify the success communication | "[specify value]" |
 | `[CULTURE_ADAPTATION]` | Specify the culture adaptation | "[specify value]" |
 
-
-
 ## Usage Examples
-
-
 
 ## Best Practices
 

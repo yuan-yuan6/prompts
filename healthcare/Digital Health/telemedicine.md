@@ -323,8 +323,6 @@ Integration Requirements:
 | `[GLOBAL_ROI]` | Specify the global roi | "[specify value]" |
 | `[GLOBAL_RISK]` | Specify the global risk | "[specify value]" |
 
-
-
 ### 3. Clinical Workflow Design
 
 | **Workflow Stage** | **Process** | **Time** | **Responsible** | **Technology** | **Quality Checks** |
@@ -443,8 +441,6 @@ Quality Outcomes:
 | Global Health | [GLOBAL_TIME] | $[GLOBAL_INVEST] | [GLOBAL_METRICS] | [GLOBAL_ROI]% | [GLOBAL_RISK] |
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

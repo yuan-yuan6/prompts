@@ -418,8 +418,8 @@ For each major competitor, analyze:
 - Risk mitigation plans
 
 ### 7.2 Implementation Roadmap
-- Short-term actions (0-6 months)
-- Medium-term initiatives (6-18 months)
+- Short-term actions
+- Medium-term initiatives
 - Long-term strategic moves (18+ months)
 - Resource allocation plans
 - Success metrics and KPIs

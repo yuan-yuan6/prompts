@@ -24,13 +24,13 @@ Optimize database resource utilization including memory/buffer pool management, 
 ### For Resource Optimization
 Optimize resources and concurrency in 3 steps:
 
-1. **Analyze Resource Utilization** (30-45 minutes)
+1. **Analyze Resource Utilization**
    - Run buffer pool analysis (lines 1218-1291) to identify hot/cold data patterns
    - Review memory pressure indicators and wait statistics (lines 1294-1321)
    - Execute storage I/O analysis (lines 1327-1391) to identify latency issues
    - Flag issues: buffer hit ratio < 80%, read latency > 20ms, high memory waits
 
-2. **Optimize Concurrency** (45-60 minutes)
+2. **Optimize Concurrency**
    - Deploy lock analysis view (lines 1520-1635) to identify blocking chains
    - Run deadlock analysis procedure (lines 1638-1749) to review deadlock patterns
    - Analyze transaction isolation levels (lines 1755-1842) for concurrency problems

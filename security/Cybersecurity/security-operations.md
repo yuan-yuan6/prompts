@@ -353,12 +353,10 @@ Cybercrime Groups:
 | `[AUTO_RISK]` | Specify the auto risk | "[specify value]" |
 | `[AUTO_ROI]` | Specify the auto roi | "[specify value]" |
 
-
-
 ### 3. Security Operations Center (SOC)
 
 | **SOC Metrics** | **Current Performance** | **Target KPI** | **Industry Best** | **Improvement Plan** | **Resource Need** |
-|----------------|------------------------|---------------|------------------|--------------------|-----------------| 
+|----------------|------------------------|---------------|------------------|--------------------|-----------------|
 | Mean Time to Detect | [MTTD_CURRENT] min | [MTTD_TARGET] min | [MTTD_BEST] min | [MTTD_PLAN] | [MTTD_RESOURCE] |
 | Mean Time to Respond | [MTTR_CURRENT] min | [MTTR_TARGET] min | [MTTR_BEST] min | [MTTR_PLAN] | [MTTR_RESOURCE] |
 | Alert Volume | [ALERT_CURRENT]/day | [ALERT_TARGET]/day | [ALERT_BEST]/day | [ALERT_PLAN] | [ALERT_RESOURCE] |
@@ -477,8 +475,6 @@ Audit & Assessment:
 | Security Automation | [AUTO_PRIORITY]/10 | [AUTO_TIME] | $[AUTO_INVEST] | [AUTO_RISK]% | [AUTO_ROI]x |
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

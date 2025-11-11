@@ -371,8 +371,6 @@ Episode Types:
 | `[ACQUIHIRE]` | Specify the acquihire | "[specify value]" |
 | `[FRANCHISE]` | Specify the franchise | "[specify value]" |
 
-
-
 ### 3. Production Workflow
 
 | **Production Stage** | **Timeline** | **Resources** | **Quality Checks** | **Deliverables** | **Contingency** |
@@ -530,8 +528,6 @@ Network Development:
 ```
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

@@ -771,11 +771,7 @@ Please provide a comprehensive feedback delivery and performance communication s
 | `[DIGITAL_ADVANCEMENT]` | Specify the digital advancement | "[specify value]" |
 | `[EVOLUTION_STRATEGY]` | Specify the evolution strategy | "[specify value]" |
 
-
-
 ## Usage Examples
-
-
 
 ## Best Practices
 

@@ -5,7 +5,7 @@ tags: [communication, design, framework, machine-learning, management, optimizat
 series: meeting-management-framework
 part: 1 of 1
 related_parts:
-  - 
+  -
   - meeting-management-framework-overview.md
 last_updated: 2025-11-11
 ---
@@ -28,7 +28,6 @@ This part focuses on **Facilitation & Engagement**. For complete workflow, start
 
 ## Related Resources
 - **Overview:** Complete framework navigation guide
-
 
 ## 3. DOCUMENTATION AND KNOWLEDGE CAPTURE
 ### 3.1 Meeting Notes and Documentation Framework

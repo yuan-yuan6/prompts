@@ -26,7 +26,7 @@ Enable effective remote collaboration immediately:
 
 2. **Create Asynchronous Workflows** - Not everything needs a meeting. Implement: (1) Daily written standups (what I did yesterday, what I'm doing today, any blockers), (2) Shared project documents where team members can contribute and comment on their schedule, (3) Recorded video updates for announcements or demos that people can watch later, (4) Clear decision-making protocols (who needs to approve what, by when, through which channel).
 
-3. **Schedule Intentional Connections** - Remote work requires deliberate relationship building: (1) Weekly team sync focused on priorities and blockers (30-45 minutes), (2) Monthly virtual coffee chats or social time (15-30 minutes, no work agenda), (3) Quarterly virtual or in-person team offsites for strategy and bonding, (4) One-on-ones every 1-2 weeks between managers and direct reports. Put these on the calendar as recurring meetings.
+3. **Schedule Intentional Connections** - Remote work requires deliberate relationship building: (1) Weekly team sync focused on priorities and blockers, (2) Monthly virtual coffee chats or social time, (3) Quarterly virtual or in-person team offsites for strategy and bonding, (4) One-on-ones every 1-2 weeks between managers and direct reports. Put these on the calendar as recurring meetings.
 
 **Pro Tip**: Over-communicate initially, then calibrate based on feedback. Remote teams need more explicit communication than co-located teams. Share context generously, document decisions publicly, and assume positive intent when messages seem curt (text lacks tone). Create a team working agreement doc that everyone contributes to and references.
 
@@ -368,8 +368,6 @@ Instant Messaging:
 | `[CROSS_TRAINING]` | Specify the cross training | "[specify value]" |
 | `[LEADERSHIP_DEV]` | Specify the leadership dev | "[specify value]" |
 
-
-
 ### 3. Digital Collaboration Tools
 
 | **Tool Category** | **Selected Tool** | **Use Case** | **Adoption Rate** | **Training Needs** | **Integration** |
@@ -539,8 +537,6 @@ Process Optimization:
 ```
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

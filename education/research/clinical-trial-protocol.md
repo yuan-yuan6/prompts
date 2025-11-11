@@ -372,8 +372,6 @@ Clinical Criteria:
 | `[TREATMENT_TIME]` | Specify the treatment time | "[specify value]" |
 | `[ANALYSIS_TIME]` | Specify the analysis time | "[specify value]" |
 
-
-
 ### 3. Intervention Protocol
 
 | **Protocol Element** | **Specification** | **Administration** | **Monitoring** | **Modifications** | **Documentation** |
@@ -543,8 +541,6 @@ Indirect Costs:
 ```
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

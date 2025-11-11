@@ -366,8 +366,6 @@ Revenue Streams:
 | `[SUBMIT_5]` | Specify the submit 5 | "[specify value]" |
 | `[APPROVAL_5]` | Specify the approval 5 | "[specify value]" |
 
-
-
 ### 7. Operations & Maintenance Plan
 
 | **Activity** | **Frequency** | **Duration** | **Cost/Year** | **Contractor** |
@@ -411,8 +409,6 @@ Revenue Streams:
 | [PERMIT_5] | [AUTHORITY_5] | [STATUS_5] | [SUBMIT_5] | [APPROVAL_5] |
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

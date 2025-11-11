@@ -24,7 +24,7 @@ Create comprehensive wealth management and financial planning strategies coverin
 
 Create an effective wealth management plan in 1-2 hours with these practical examples:
 
-### Example 1: Young Professional Financial Plan (45 minutes)
+### Example 1: Young Professional Financial Plan
 Develop comprehensive plan for 35-year-old client:
 ```
 Client Profile:
@@ -40,7 +40,7 @@ Monthly Expenses: $7,500
 Monthly Savings: $1,700 (18.5% savings rate - good!)
 
 Priority Actions (Next 90 Days):
-1. Emergency Fund: Increase from $25K to $45K (6 months expenses)
+1. Emergency Fund: Increase from $25K to $45K
    Action: Automate $500/month to high-yield savings (4.5% APY)
 
 2. Retirement: Boost from 12% to 15% of income
@@ -65,7 +65,7 @@ Year 1 Financial Plan Summary:
 Total Commitment: $37.1K/year (24% of gross income)
 ```
 
-### Example 2: Pre-Retiree Planning (40 minutes)
+### Example 2: Pre-Retiree Planning
 Retirement readiness assessment for 58-year-old client:
 ```
 Client Profile:
@@ -116,7 +116,7 @@ Pre-Retirement Action Plan:
    - Target at 65: 35% stocks / 65% bonds/cash
 ```
 
-### Example 3: High Net Worth Tax Optimization (35 minutes)
+### Example 3: High Net Worth Tax Optimization
 Advanced tax strategies for $5M+ net worth client:
 ```
 Client Profile:

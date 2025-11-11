@@ -141,33 +141,33 @@ NOTES:
 #### Screening Interview Structure
 Design 20-30 minute conversation flow:
 
-**Opening (3-5 minutes)**
+**Opening**
 - Warm welcome and rapport building
 - Brief interviewer and company introduction
 - Interview purpose and structure explanation
 - Time expectation setting
 
-**Qualification Confirmation (8-12 minutes)**
+**Qualification Confirmation**
 - Key experience and background verification
 - Technical skills and proficiency confirmation
 - Specific achievement and example exploration
 - Gap or concern clarification
 - Education and certification validation
 
-**Motivation and Fit Assessment (5-8 minutes)**
+**Motivation and Fit Assessment**
 - Interest in role and company exploration
 - Career goals and trajectory discussion
 - Motivation for job change understanding
 - Work style and preference discussion
 - Cultural alignment initial assessment
 
-**Logistics and Expectations (3-5 minutes)**
+**Logistics and Expectations**
 - Availability and start date confirmation
 - Location and remote work discussion
 - Compensation range alignment
 - Travel or schedule requirement verification
 
-**Closing (2-3 minutes)**
+**Closing**
 - Next steps and timeline communication
 - Candidate questions and concerns
 - Thank you and follow-up commitment
@@ -255,7 +255,7 @@ NEXT STEPS:
 
 ### Interview Stage Design
 
-#### First-Round Interviews (45-60 minutes)
+#### First-Round Interviews
 
 **Hiring Manager Interview**
 Focus: Role fit, experience depth, motivation
@@ -293,7 +293,7 @@ Focus: Collaboration, cultural fit, day-to-day working relationship
 - Feedback giving and receiving
 - Initiative and ownership examples
 
-#### Second-Round Interviews (60-90 minutes)
+#### Second-Round Interviews
 
 **Panel Interview**
 Multiple stakeholders evaluate together:
@@ -330,7 +330,7 @@ Focus: Strategic thinking, leadership, vision
 - Team building and development
 - Results and accountability
 
-#### Final Interviews (30-45 minutes)
+#### Final Interviews
 
 **Executive/Senior Leadership Interview**
 Focus: Strategic fit, long-term potential, values alignment

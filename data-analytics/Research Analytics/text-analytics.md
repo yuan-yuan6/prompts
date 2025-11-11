@@ -104,7 +104,7 @@ class TextPreprocessor:
         self.language = language
         self.config = custom_config or self._default_config()
         self.setup_nlp_tools()
-    
+
     def _default_config(self):
         return {
             'lowercase': True,
@@ -126,7 +126,7 @@ class TextPreprocessor:
             'preserve_case_words': [],
             'custom_replacements': {}
         }
-    
+
     def setup_nlp_tools(self):
         """Initialize NLP tools and resources"""
         # Download required NLTK data
@@ -134,62 +134,62 @@ class TextPreprocessor:
         nltk.download('stopwords', quiet=True)
         nltk.download('wordnet', quiet=True)
         nltk.download('averaged_perceptron_tagger', quiet=True)
-        
+
         # Initialize tools
         self.stemmer = PorterStemmer()
         self.lemmatizer = WordNetLemmatizer()
         self.stop_words = set(stopwords.words(self.language))
-        
+
         # Add custom stopwords
         self.stop_words.update(self.config['custom_stopwords'])
-        
+
         # Load spaCy model
         try:
             self.nlp = spacy.load('en_core_web_sm')
         except OSError:
             print("spaCy model not found. Install with: python -m spacy download en_core_web_sm")
             self.nlp = None
-    
+
     def clean_text(self, text):
         """Comprehensive text cleaning pipeline"""
         if pd.isna(text) or text == '':
             return ''
-        
+
         # Ensure string type
         text = str(text)
-        
+
         # Remove HTML tags
         if self.config['remove_html']:
             text = BeautifulSoup(text, 'html.parser').get_text()
-        
+
         # Remove URLs
         if self.config['remove_urls']:
             text = re.sub(r'http\S+|www\.\S+|https\S+', '', text, flags=re.MULTILINE)
-        
+
         # Remove email addresses
         if self.config['remove_emails']:
             text = re.sub(r'\S+@\S+', '', text)
-        
+
         # Remove phone numbers
         if self.config['remove_phone_numbers']:
             phone_pattern = r'(\+?\d{1,3}[-.\s]?)?\(?\d{3}\)?[-.\s]?\d{3}[-.\s]?\d{4}'
             text = re.sub(phone_pattern, '', text)
-        
+
         # Remove social media handles
         if self.config['remove_social_handles']:
             text = re.sub(r'@\w+|#\w+', '', text)
-        
+
         # Expand contractions
         if self.config['expand_contractions']:
             text = contractions.fix(text)
-        
+
         # Apply custom replacements
         for old, new in self.config['custom_replacements'].items():
             text = text.replace(old, new)
-        
+
         # Normalize unicode characters
         text = unicodedata.normalize('NFKD', text)
-        
+
         # Convert to lowercase (preserve specified words)
         if self.config['lowercase']:
             preserve_words = self.config['preserve_case_words']
@@ -200,62 +200,62 @@ class TextPreprocessor:
                     placeholder = f"__PRESERVE_[I]__"
                     text = re.sub(rf'\b{re.escape(word)}\b', placeholder, text, flags=re.IGNORECASE)
                     preserved[placeholder] = word
-                
+
                 text = text.lower()
-                
+
                 # Restore preserved words
                 for placeholder, word in preserved.items():
                     text = text.replace(placeholder, word)
             else:
                 text = text.lower()
-        
+
         # Remove punctuation
         if self.config['remove_punctuation']:
             text = text.translate(str.maketrans('', '', string.punctuation))
-        
+
         # Remove numbers
         if self.config['remove_numbers']:
             text = re.sub(r'\d+', '', text)
-        
+
         # Remove extra whitespace
         if self.config['remove_extra_whitespace']:
             text = ' '.join(text.split())
-        
+
         return text
-    
+
     def tokenize_and_process(self, text):
         """Tokenize and apply word-level processing"""
         if not text:
             return []
-        
+
         # Tokenize
         tokens = word_tokenize(text)
-        
+
         # Filter by word length
-        tokens = [token for token in tokens 
+        tokens = [token for token in tokens
                  if self.config['min_word_length'] <= len(token) <= self.config['max_word_length']]
-        
+
         # Remove stopwords
         if self.config['remove_stopwords']:
             tokens = [token for token in tokens if token not in self.stop_words]
-        
+
         # Lemmatization
         if self.config['lemmatize']:
             tokens = [self.lemmatizer.lemmatize(token) for token in tokens]
-        
+
         # Stemming
         if self.config['stem']:
             tokens = [self.stemmer.stem(token) for token in tokens]
-        
+
         return tokens
-    
+
     def advanced_preprocessing_spacy(self, text):
         """Advanced preprocessing using spaCy"""
         if not self.nlp or not text:
             return []
-        
+
         doc = self.nlp(text)
-        
+
         # Extract tokens with POS tags and named entities
         processed_tokens = []
         for token in doc:
@@ -269,32 +269,32 @@ class TextPreprocessor:
                     'is_digit': token.is_digit,
                     'ent_type': token.ent_type_
                 })
-        
+
         # Extract named entities
-        entities = [(ent.text, ent.label_, ent.start_char, ent.end_char) 
+        entities = [(ent.text, ent.label_, ent.start_char, ent.end_char)
                    for ent in doc.ents]
-        
+
         # Extract noun phrases
         noun_phrases = [chunk.text for chunk in doc.noun_chunks]
-        
+
         return {
             'tokens': processed_tokens,
             'entities': entities,
             'noun_phrases': noun_phrases,
             'sentences': [sent.text for sent in doc.sents]
         }
-    
+
     def process_corpus(self, texts):
         """Process entire corpus of texts"""
         processed_corpus = []
-        
+
         for i, text in enumerate(texts):
             if i % 1000 == 0:
                 print(f"Processing document {i+1}/{len(texts)}")
-            
+
             cleaned_text = self.clean_text(text)
             tokens = self.tokenize_and_process(cleaned_text)
-            
+
             processed_corpus.append({
                 'original_text': text,
                 'cleaned_text': cleaned_text,
@@ -303,7 +303,7 @@ class TextPreprocessor:
                 'char_count': len(text),
                 'word_count': len(text.split())
             })
-        
+
         return processed_corpus
 
 # Initialize preprocessor with custom configuration
@@ -333,7 +333,7 @@ class TextFeatureEngineer:
     def __init__(self):
         self.vectorizers = {}
         self.models = {}
-    
+
     def create_bow_features(self, texts, max_features=10000, ngram_range=(1, 2)):
         """Create Bag of Words features"""
         vectorizer = CountVectorizer(
@@ -341,18 +341,18 @@ class TextFeatureEngineer:
             ngram_range=ngram_range,
             stop_words='english' if '[REMOVE_STOPWORDS]' else None
         )
-        
+
         bow_matrix = vectorizer.fit_transform(texts)
         feature_names = vectorizer.get_feature_names_out()
-        
+
         self.vectorizers['bow'] = vectorizer
-        
+
         return {
             'matrix': bow_matrix,
             'feature_names': feature_names,
             'vocabulary': vectorizer.vocabulary_
         }
-    
+
     def create_tfidf_features(self, texts, max_features=10000, ngram_range=(1, 3)):
         """Create TF-IDF features"""
         vectorizer = TfidfVectorizer(
@@ -363,19 +363,19 @@ class TextFeatureEngineer:
             max_df=0.95,
             sublinear_tf=True
         )
-        
+
         tfidf_matrix = vectorizer.fit_transform(texts)
         feature_names = vectorizer.get_feature_names_out()
-        
+
         self.vectorizers['tfidf'] = vectorizer
-        
+
         return {
             'matrix': tfidf_matrix,
             'feature_names': feature_names,
             'vocabulary': vectorizer.vocabulary_,
             'idf_scores': vectorizer.idf_
         }
-    
+
     def train_word_embeddings(self, tokenized_texts, embedding_dim=300, window=5, min_count=5):
         """Train Word2Vec embeddings"""
         # Word2Vec
@@ -387,9 +387,9 @@ class TextFeatureEngineer:
             workers=4,
             epochs=100
         )
-        
+
         self.models['word2vec'] = w2v_model
-        
+
         # FastText (handles out-of-vocabulary words)
         ft_model = FastText(
             sentences=tokenized_texts,
@@ -399,24 +399,24 @@ class TextFeatureEngineer:
             workers=4,
             epochs=100
         )
-        
+
         self.models['fasttext'] = ft_model
-        
+
         return {
             'word2vec': w2v_model,
             'fasttext': ft_model,
             'vocab_size': len(w2v_model.wv.key_to_index),
             'embedding_dim': embedding_dim
         }
-    
+
     def train_doc_embeddings(self, texts, embedding_dim=300, window=5, min_count=5):
         """Train Doc2Vec embeddings"""
         from gensim.models.doc2vec import TaggedDocument
-        
+
         # Create tagged documents
-        tagged_docs = [TaggedDocument(words=text.split() if isinstance(text, str) else text, 
+        tagged_docs = [TaggedDocument(words=text.split() if isinstance(text, str) else text,
                                      tags=[i]) for i, text in enumerate(texts)]
-        
+
         # Train Doc2Vec model
         d2v_model = Doc2Vec(
             documents=tagged_docs,
@@ -427,49 +427,49 @@ class TextFeatureEngineer:
             epochs=100,
             dm=1  # PV-DM
         )
-        
+
         self.models['doc2vec'] = d2v_model
-        
+
         # Get document vectors
         doc_vectors = np.array([d2v_model.dv[i] for i in range(len(texts))])
-        
+
         return {
             'model': d2v_model,
             'document_vectors': doc_vectors,
             'embedding_dim': embedding_dim
         }
-    
+
     def extract_linguistic_features(self, texts):
         """Extract linguistic and stylistic features"""
         features = []
-        
+
         for text in texts:
             if isinstance(text, list):
                 text = ' '.join(text)
-            
+
             # Basic counts
             char_count = len(text)
             word_count = len(text.split())
             sent_count = len(sent_tokenize(text))
-            
+
             # Advanced features
             avg_word_length = np.mean([len(word) for word in text.split()])
             avg_sent_length = word_count / sent_count if sent_count > 0 else 0
-            
+
             # Readability features
             syllable_count = self.count_syllables(text)
             flesch_reading_ease = self.flesch_reading_ease(text, word_count, sent_count, syllable_count)
-            
+
             # Lexical diversity
             unique_words = len(set(text.lower().split()))
             lexical_diversity = unique_words / word_count if word_count > 0 else 0
-            
+
             # POS distribution
             pos_counts = self.get_pos_distribution(text)
-            
+
             # Punctuation features
             punct_features = self.get_punctuation_features(text)
-            
+
             feature_vector = {
                 'char_count': char_count,
                 'word_count': word_count,
@@ -482,17 +482,17 @@ class TextFeatureEngineer:
                 **pos_counts,
                 **punct_features
             }
-            
+
             features.append(feature_vector)
-        
+
         return pd.DataFrame(features)
-    
+
     def count_syllables(self, text):
         """Count syllables in text (approximation)"""
         vowels = 'aeiouy'
         syllable_count = 0
         words = text.lower().split()
-        
+
         for word in words:
             word = re.sub(r'[^a-z]', '', word)
             if word:
@@ -508,51 +508,51 @@ class TextFeatureEngineer:
                 if syllables == 0:
                     syllables = 1
                 syllable_count += syllables
-        
+
         return syllable_count
-    
+
     def flesch_reading_ease(self, text, word_count, sent_count, syllable_count):
         """Calculate Flesch Reading Ease score"""
         if sent_count == 0 or word_count == 0:
             return 0
-        
+
         avg_sent_length = word_count / sent_count
         avg_syllables = syllable_count / word_count
-        
+
         score = 206.835 - (1.015 * avg_sent_length) - (84.6 * avg_syllables)
         return max(0, min(100, score))
-    
+
     def get_pos_distribution(self, text):
         """Get part-of-speech distribution"""
         tokens = word_tokenize(text)
         pos_tags = pos_tag(tokens)
-        
+
         pos_counts = {}
         total_tags = len(pos_tags)
-        
+
         for word, tag in pos_tags:
             pos_counts[f'pos_[TAG]'] = pos_counts.get(f'pos_[TAG]', 0) + 1
-        
+
         # Normalize to proportions
         for tag in pos_counts:
             pos_counts[tag] /= total_tags
-        
+
         return pos_counts
-    
+
     def get_punctuation_features(self, text):
         """Extract punctuation-based features"""
         punct_counts = {}
-        
+
         # Count specific punctuation marks
         punct_marks = ['.', ',', '!', '?', ';', ':', '"', "'", '-', '(', ')']
         for mark in punct_marks:
             punct_counts[f'punct_{mark.replace(".", "period").replace(",", "comma")}'] = text.count(mark)
-        
+
         # Total punctuation
         total_punct = sum(punct_counts.values())
         punct_counts['total_punctuation'] = total_punct
         punct_counts['punct_ratio'] = total_punct / len(text) if len(text) > 0 else 0
-        
+
         return punct_counts
 
 # Initialize feature engineer
@@ -581,15 +581,15 @@ class SentimentAnalyzer:
     def __init__(self):
         self.models = {}
         self.setup_models()
-    
+
     def setup_models(self):
         """Initialize various sentiment analysis models"""
         # VADER
         self.models['vader'] = SentimentIntensityAnalyzer()
-        
+
         # TextBlob (rule-based)
         self.models['textblob'] = TextBlob
-        
+
         # Transformer-based models
         try:
             self.models['roberta'] = pipeline(
@@ -597,29 +597,29 @@ class SentimentAnalyzer:
                 model='cardiffnlp/twitter-roberta-base-sentiment-latest',
                 return_all_scores=True
             )
-            
+
             self.models['bert'] = pipeline(
                 'sentiment-analysis',
                 model='nlptown/bert-base-multilingual-uncased-sentiment',
                 return_all_scores=True
             )
-            
+
             self.models['finbert'] = pipeline(
                 'sentiment-analysis',
                 model='ProsusAI/finbert',
                 return_all_scores=True
             )
-            
+
         except Exception as e:
             print(f"Error loading transformer models: [E]")
-    
+
     def analyze_sentiment_comprehensive(self, texts):
         """Comprehensive sentiment analysis using multiple methods"""
         results = []
-        
+
         for text in texts:
             text_results = {'text': text}
-            
+
             # VADER Sentiment
             vader_scores = self.models['vader'].polarity_scores(text)
             text_results['vader'] = {
@@ -629,7 +629,7 @@ class SentimentAnalyzer:
                 'negative': vader_scores['neg'],
                 'label': self.classify_vader_sentiment(vader_scores['compound'])
             }
-            
+
             # TextBlob Sentiment
             blob = TextBlob(text)
             text_results['textblob'] = {
@@ -637,7 +637,7 @@ class SentimentAnalyzer:
                 'subjectivity': blob.sentiment.subjectivity,
                 'label': self.classify_textblob_sentiment(blob.sentiment.polarity)
             }
-            
+
             # Transformer models (if available)
             for model_name in ['roberta', 'bert', 'finbert']:
                 if model_name in self.models:
@@ -650,11 +650,11 @@ class SentimentAnalyzer:
                         }
                     except Exception as e:
                         text_results[model_name] = {'error': str(e)}
-            
+
             results.append(text_results)
-        
+
         return results
-    
+
     def classify_vader_sentiment(self, compound_score):
         """Classify VADER sentiment based on compound score"""
         if compound_score >= 0.05:
@@ -663,7 +663,7 @@ class SentimentAnalyzer:
             return 'negative'
         else:
             return 'neutral'
-    
+
     def classify_textblob_sentiment(self, polarity):
         """Classify TextBlob sentiment based on polarity"""
         if polarity > 0:
@@ -672,25 +672,25 @@ class SentimentAnalyzer:
             return 'negative'
         else:
             return 'neutral'
-    
+
     def aspect_based_sentiment(self, texts, aspects):
         """Perform aspect-based sentiment analysis"""
         results = []
-        
+
         for text in texts:
             text_results = {'text': text, 'aspects': {}}
-            
+
             for aspect in aspects:
                 # Find sentences mentioning the aspect
                 sentences = sent_tokenize(text)
-                aspect_sentences = [sent for sent in sentences 
+                aspect_sentences = [sent for sent in sentences
                                  if aspect.lower() in sent.lower()]
-                
+
                 if aspect_sentences:
                     # Analyze sentiment of aspect-related sentences
                     aspect_text = ' '.join(aspect_sentences)
                     vader_score = self.models['vader'].polarity_scores(aspect_text)
-                    
+
                     text_results['aspects'][aspect] = {
                         'sentences': aspect_sentences,
                         'sentiment_score': vader_score['compound'],
@@ -704,67 +704,67 @@ class SentimentAnalyzer:
                         'sentiment_label': 'not_mentioned',
                         'context_count': 0
                     }
-            
+
             results.append(text_results)
-        
+
         return results
-    
+
     def emotion_analysis(self, texts):
         """Analyze emotions using NRC Emotion Lexicon approach"""
         # This would require emotion lexicons or pre-trained models
         # Conceptual implementation
-        
+
         try:
             emotion_pipeline = pipeline(
                 "text-classification",
                 model="j-hartmann/emotion-english-distilroberta-base",
                 return_all_scores=True
             )
-            
+
             results = []
             for text in texts:
                 emotions = emotion_pipeline(text)[0]
                 emotion_dict = {emotion['label']: emotion['score'] for emotion in emotions}
                 dominant_emotion = max(emotions, key=lambda x: x['score'])
-                
+
                 results.append({
                     'text': text,
                     'emotions': emotion_dict,
                     'dominant_emotion': dominant_emotion['label'],
                     'confidence': dominant_emotion['score']
                 })
-            
+
             return results
-            
+
         except Exception as e:
             print(f"Emotion analysis not available: [E]")
             return [{'text': text, 'error': str(e)} for text in texts]
-    
+
     def train_custom_sentiment_model(self, texts, labels, test_size=0.2):
         """Train custom sentiment classification model"""
         # Create features using TF-IDF
         vectorizer = TfidfVectorizer(max_features=10000, ngram_range=(1, 2))
         X = vectorizer.fit_transform(texts)
-        
+
         # Split data
         X_train, X_test, y_train, y_test = train_test_split(
             X, labels, test_size=test_size, random_state=42, stratify=labels
         )
-        
+
         # Train model
         model = LogisticRegression(random_state=42, max_iter=1000)
         model.fit(X_train, y_train)
-        
+
         # Evaluate
         train_score = model.score(X_train, y_train)
         test_score = model.score(X_test, y_test)
-        
+
         # Cross-validation
         cv_scores = cross_val_score(model, X_train, y_train, cv=5)
-        
+
         # Predictions
         y_pred = model.predict(X_test)
-        
+
         # Store model
         self.models['custom'] = {
             'model': model,
@@ -778,15 +778,15 @@ class SentimentAnalyzer:
                 'confusion_matrix': confusion_matrix(y_test, y_pred)
             }
         }
-        
+
         return self.models['custom']
-    
+
     def sentiment_trend_analysis(self, texts, timestamps):
         """Analyze sentiment trends over time"""
         # Combine texts with timestamps
         text_time_data = list(zip(texts, timestamps))
         text_time_data.sort(key=lambda x: x[1])  # Sort by timestamp
-        
+
         # Analyze sentiment for each time period
         sentiment_scores = []
         for text, timestamp in text_time_data:
@@ -799,12 +799,12 @@ class SentimentAnalyzer:
                 'negative': vader_score['neg'],
                 'neutral': vader_score['neu']
             })
-        
+
         # Create time-based aggregations
         df = pd.DataFrame(sentiment_scores)
         df['timestamp'] = pd.to_datetime(df['timestamp'])
         df['date'] = df['timestamp'].dt.date
-        
+
         # Daily sentiment trends
         daily_sentiment = df.groupby('date').agg({
             'compound_score': ['mean', 'std', 'count'],
@@ -812,7 +812,7 @@ class SentimentAnalyzer:
             'negative': 'mean',
             'neutral': 'mean'
         }).round(4)
-        
+
         return {
             'individual_scores': sentiment_scores,
             'daily_trends': daily_sentiment,
@@ -847,27 +847,27 @@ class TopicModeler:
         self.models = {}
         self.dictionaries = {}
         self.corpora = {}
-    
+
     def prepare_corpus(self, texts, min_df=2, max_df=0.95):
         """Prepare corpus for topic modeling"""
         # Create dictionary
         dictionary = Dictionary(texts)
-        
+
         # Filter extremes
         dictionary.filter_extremes(no_below=min_df, no_above=max_df)
-        
+
         # Create corpus
         corpus = [dictionary.doc2bow(text) for text in texts]
-        
+
         self.dictionaries['main'] = dictionary
         self.corpora['main'] = corpus
-        
+
         return corpus, dictionary
-    
+
     def lda_topic_modeling(self, texts, num_topics=10, passes=20, alpha='auto', eta='auto'):
         """Perform LDA topic modeling with Gensim"""
         corpus, dictionary = self.prepare_corpus(texts)
-        
+
         # Train LDA model
         lda_model = LdaMulticore(
             corpus=corpus,
@@ -881,9 +881,9 @@ class TopicModeler:
             per_word_topics=True,
             workers=4
         )
-        
+
         self.models['lda'] = lda_model
-        
+
         # Get topics
         topics = []
         for i in range(num_topics):
@@ -893,21 +893,21 @@ class TopicModeler:
                 'words': topic_words,
                 'top_words': [word for word, prob in topic_words[:10]]
             })
-        
+
         # Document topic distributions
         doc_topic_dists = []
         for i, doc in enumerate(corpus):
             topic_dist = lda_model.get_document_topics(doc, minimum_probability=0.01)
             doc_topic_dists.append(topic_dist)
-        
+
         # Model evaluation
         coherence_model = models.CoherenceModel(
             model=lda_model, texts=texts, dictionary=dictionary, coherence='c_v'
         )
         coherence_score = coherence_model.get_coherence()
-        
+
         perplexity = lda_model.log_perplexity(corpus)
-        
+
         return {
             'model': lda_model,
             'topics': topics,
@@ -916,12 +916,12 @@ class TopicModeler:
             'perplexity': perplexity,
             'num_topics': num_topics
         }
-    
+
     def bert_topic_modeling(self, texts, nr_topics='auto', min_topic_size=10):
         """Perform topic modeling using BERTopic"""
         # Initialize sentence transformer
         sentence_model = SentenceTransformer('[SENTENCE_MODEL]')
-        
+
         # Initialize BERTopic
         topic_model = BERTopic(
             nr_topics=nr_topics,
@@ -929,22 +929,22 @@ class TopicModeler:
             embedding_model=sentence_model,
             verbose=True
         )
-        
+
         # Fit model
         topics, probabilities = topic_model.fit_transform(texts)
-        
+
         self.models['bertopic'] = topic_model
-        
+
         # Get topic information
         topic_info = topic_model.get_topic_info()
-        
+
         # Get representative documents
         representative_docs = {}
         for topic_id in topic_info['Topic'].unique():
             if topic_id != -1:  # Exclude outlier topic
                 docs = topic_model.get_representative_docs(topic_id)
                 representative_docs[topic_id] = docs
-        
+
         return {
             'model': topic_model,
             'topics': topics,
@@ -953,23 +953,23 @@ class TopicModeler:
             'representative_docs': representative_docs,
             'num_topics': len(topic_info) - 1  # Exclude outlier topic
         }
-    
+
     def hierarchical_topic_modeling(self, texts):
         """Perform hierarchical topic modeling"""
         corpus, dictionary = self.prepare_corpus(texts)
-        
+
         # Hierarchical Dirichlet Process
         hdp_model = HdpModel(
             corpus=corpus,
             id2word=dictionary,
             random_state=42
         )
-        
+
         self.models['hdp'] = hdp_model
-        
+
         # Get topics (HDP automatically determines number of topics)
         topics = hdp_model.show_topics(num_topics=50, formatted=False)
-        
+
         # Filter significant topics
         significant_topics = []
         for topic_id, topic_words in topics:
@@ -982,14 +982,14 @@ class TopicModeler:
                     'weight': topic_weight,
                     'top_words': [word for word, prob in topic_words[:10]]
                 })
-        
+
         return {
             'model': hdp_model,
             'all_topics': topics,
             'significant_topics': significant_topics,
             'num_significant_topics': len(significant_topics)
         }
-    
+
     def nmf_topic_modeling(self, texts, num_topics=10):
         """Non-negative Matrix Factorization for topic modeling"""
         # Vectorize texts
@@ -1000,9 +1000,9 @@ class TopicModeler:
             min_df=2,
             max_df=0.95
         )
-        
+
         doc_term_matrix = vectorizer.fit_transform(texts)
-        
+
         # Fit NMF model
         nmf_model = NMF(
             n_components=num_topics,
@@ -1011,28 +1011,28 @@ class TopicModeler:
             alpha=0.1,
             l1_ratio=0.5
         )
-        
+
         doc_topic_matrix = nmf_model.fit_transform(doc_term_matrix)
         topic_word_matrix = nmf_model.components_
-        
+
         # Get feature names
         feature_names = vectorizer.get_feature_names_out()
-        
+
         # Extract topics
         topics = []
         for topic_idx in range(num_topics):
             top_word_indices = topic_word_matrix[topic_idx].argsort()[-20:][::-1]
             top_words = [feature_names[i] for i in top_word_indices]
             word_weights = [topic_word_matrix[topic_idx][i] for i in top_word_indices]
-            
+
             topics.append({
                 'topic_id': topic_idx,
                 'top_words': top_words,
                 'word_weights': word_weights
             })
-        
+
         self.models['nmf'] = nmf_model
-        
+
         return {
             'model': nmf_model,
             'vectorizer': vectorizer,
@@ -1041,18 +1041,18 @@ class TopicModeler:
             'topic_word_matrix': topic_word_matrix,
             'num_topics': num_topics
         }
-    
+
     def dynamic_topic_modeling(self, texts, timestamps, time_slices):
         """Dynamic topic modeling to track topic evolution over time"""
         corpus, dictionary = self.prepare_corpus(texts)
-        
+
         # Group documents by time slices
         time_slice_counts = []
         sorted_indices = np.argsort(timestamps)
-        
+
         current_slice = 0
         current_count = 0
-        
+
         for i, idx in enumerate(sorted_indices):
             if timestamps[idx] <= time_slices[current_slice]:
                 current_count += 1
@@ -1060,12 +1060,12 @@ class TopicModeler:
                 time_slice_counts.append(current_count)
                 current_slice += 1
                 current_count = 1
-        
+
         time_slice_counts.append(current_count)
-        
+
         # Dynamic Topic Model
         from gensim.models import LdaSeqModel
-        
+
         try:
             dtm_model = LdaSeqModel(
                 corpus=corpus,
@@ -1076,9 +1076,9 @@ class TopicModeler:
                 passes=20,
                 random_state=42
             )
-            
+
             self.models['dtm'] = dtm_model
-            
+
             # Extract topic evolution
             topic_evolution = []
             for time_point in range(len(time_slices)):
@@ -1095,27 +1095,27 @@ class TopicModeler:
                         'words': topic_words
                     })
                 topic_evolution.append(time_topics)
-            
+
             return {
                 'model': dtm_model,
                 'topic_evolution': topic_evolution,
                 'time_slices': time_slices,
                 'time_slice_counts': time_slice_counts
             }
-        
+
         except Exception as e:
             print(f"Dynamic topic modeling failed: [E]")
             return None
-    
+
     def evaluate_topic_models(self, texts, topic_ranges=range(2, 21)):
         """Evaluate topic models across different numbers of topics"""
         corpus, dictionary = self.prepare_corpus(texts)
-        
+
         evaluation_results = []
-        
+
         for num_topics in topic_ranges:
             print(f"Evaluating [NUM_TOPICS] topics...")
-            
+
             # Train LDA model
             lda_model = LdaModel(
                 corpus=corpus,
@@ -1124,24 +1124,24 @@ class TopicModeler:
                 random_state=42,
                 passes=10
             )
-            
+
             # Calculate coherence
             coherence_model = models.CoherenceModel(
                 model=lda_model, texts=texts, dictionary=dictionary, coherence='c_v'
             )
             coherence_score = coherence_model.get_coherence()
-            
+
             # Calculate perplexity
             perplexity = lda_model.log_perplexity(corpus)
-            
+
             evaluation_results.append({
                 'num_topics': num_topics,
                 'coherence': coherence_score,
                 'perplexity': perplexity
             })
-        
+
         return pd.DataFrame(evaluation_results)
-    
+
     def visualize_topics(self, model_type='lda'):
         """Create interactive topic visualizations"""
         if model_type == 'lda' and 'lda' in self.models:
@@ -1152,26 +1152,26 @@ class TopicModeler:
                 self.dictionaries['main']
             )
             return vis
-        
+
         elif model_type == 'bertopic' and 'bertopic' in self.models:
             # BERTopic visualizations
             model = self.models['bertopic']
-            
+
             # Topic visualization
             fig1 = model.visualize_topics()
-            
+
             # Topic hierarchy
             fig2 = model.visualize_hierarchy()
-            
+
             # Topic heatmap
             fig3 = model.visualize_heatmap()
-            
+
             return {
                 'topics': fig1,
                 'hierarchy': fig2,
                 'heatmap': fig3
             }
-        
+
         return None
 
 # Initialize topic modeler
@@ -1200,7 +1200,7 @@ class NamedEntityRecognizer:
     def __init__(self):
         self.models = {}
         self.setup_models()
-    
+
     def setup_models(self):
         """Initialize NER models"""
         # spaCy models
@@ -1209,7 +1209,7 @@ class NamedEntityRecognizer:
             self.models['spacy_lg'] = spacy.load('en_core_web_lg')
         except OSError:
             print("spaCy models not found. Install with: python -m spacy download en_core_web_sm")
-        
+
         # Transformer-based models
         try:
             self.models['bert_ner'] = pipeline(
@@ -1217,33 +1217,33 @@ class NamedEntityRecognizer:
                 model='dbmdz/bert-large-cased-finetuned-conll03-english',
                 aggregation_strategy='simple'
             )
-            
+
             self.models['roberta_ner'] = pipeline(
                 'ner',
                 model='Jean-Baptiste/roberta-large-ner-english',
                 aggregation_strategy='simple'
             )
-            
+
             self.models['biobert'] = pipeline(
                 'ner',
                 model='dmis-lab/biobert-v1.1',
                 aggregation_strategy='simple'
             )
-            
+
         except Exception as e:
             print(f"Error loading transformer NER models: [E]")
-    
+
     def extract_entities_spacy(self, texts, model_name='spacy_sm'):
         """Extract named entities using spaCy"""
         if model_name not in self.models:
             return None
-        
+
         nlp = self.models[model_name]
         results = []
-        
+
         for text in texts:
             doc = nlp(text)
-            
+
             entities = []
             for ent in doc.ents:
                 entities.append({
@@ -1254,10 +1254,10 @@ class NamedEntityRecognizer:
                     'end_char': ent.end_char,
                     'confidence': ent._.get('confidence', 1.0)
                 })
-            
+
             # Additional linguistic features
             noun_phrases = [chunk.text for chunk in doc.noun_chunks]
-            
+
             results.append({
                 'text': text,
                 'entities': entities,
@@ -1265,21 +1265,21 @@ class NamedEntityRecognizer:
                 'entity_count': len(entities),
                 'unique_labels': list(set([e['label'] for e in entities]))
             })
-        
+
         return results
-    
+
     def extract_entities_transformer(self, texts, model_name='bert_ner'):
         """Extract named entities using transformer models"""
         if model_name not in self.models:
             return None
-        
+
         ner_pipeline = self.models[model_name]
         results = []
-        
+
         for text in texts:
             try:
                 entities = ner_pipeline(text)
-                
+
                 # Process entities
                 processed_entities = []
                 for entity in entities:
@@ -1290,33 +1290,33 @@ class NamedEntityRecognizer:
                         'start_char': entity.get('start', 0),
                         'end_char': entity.get('end', 0)
                     })
-                
+
                 results.append({
                     'text': text,
                     'entities': processed_entities,
                     'entity_count': len(processed_entities),
                     'unique_labels': list(set([e['label'] for e in processed_entities]))
                 })
-                
+
             except Exception as e:
                 results.append({
                     'text': text,
                     'entities': [],
                     'error': str(e)
                 })
-        
+
         return results
-    
+
     def extract_custom_entities(self, texts, entity_patterns):
         """Extract custom entities using regex patterns"""
         results = []
-        
+
         for text in texts:
             entities = []
-            
+
             for pattern_name, pattern in entity_patterns.items():
                 matches = re.finditer(pattern, text, re.IGNORECASE)
-                
+
                 for match in matches:
                     entities.append({
                         'text': match.group(),
@@ -1325,22 +1325,22 @@ class NamedEntityRecognizer:
                         'end_char': match.end(),
                         'confidence': 1.0
                     })
-            
+
             results.append({
                 'text': text,
                 'entities': entities,
                 'entity_count': len(entities)
             })
-        
+
         return results
-    
+
     def entity_linking(self, entities, knowledge_base):
         """Link entities to knowledge base entries"""
         linked_entities = []
-        
+
         for entity in entities:
             entity_text = entity['text'].lower()
-            
+
             # Simple exact match linking (can be enhanced with fuzzy matching)
             if entity_text in knowledge_base:
                 linked_entity = entity.copy()
@@ -1351,30 +1351,30 @@ class NamedEntityRecognizer:
             else:
                 entity['linked_id'] = None
                 linked_entities.append(entity)
-        
+
         return linked_entities
-    
+
     def entity_relationship_extraction(self, texts):
         """Extract relationships between entities"""
         if 'spacy_lg' not in self.models:
             return None
-        
+
         nlp = self.models['spacy_lg']
         results = []
-        
+
         for text in texts:
             doc = nlp(text)
-            
+
             relationships = []
             entities = [(ent.text, ent.label_, ent.start, ent.end) for ent in doc.ents]
-            
+
             # Simple relationship extraction based on dependency parsing
             for token in doc:
                 if token.dep_ in ['nsubj', 'dobj', 'pobj']:
                     # Find related entities
                     subj_ents = [ent for ent in entities if ent[2] <= token.head.i <= ent[3]]
                     obj_ents = [ent for ent in entities if ent[2] <= token.i <= ent[3]]
-                    
+
                     if subj_ents and obj_ents:
                         relationships.append({
                             'subject': subj_ents[0][0],
@@ -1382,66 +1382,66 @@ class NamedEntityRecognizer:
                             'object': obj_ents[0][0],
                             'relation_type': token.dep_
                         })
-            
+
             results.append({
                 'text': text,
                 'entities': entities,
                 'relationships': relationships
             })
-        
+
         return results
-    
+
     def entity_cooccurrence_analysis(self, ner_results):
         """Analyze entity co-occurrence patterns"""
         cooccurrence_matrix = defaultdict(lambda: defaultdict(int))
         entity_counts = defaultdict(int)
-        
+
         for result in ner_results:
             entities = [e['text'].lower() for e in result['entities']]
-            
+
             # Count individual entities
             for entity in entities:
                 entity_counts[entity] += 1
-            
+
             # Count co-occurrences
             for i, entity1 in enumerate(entities):
                 for j, entity2 in enumerate(entities):
                     if i != j:
                         cooccurrence_matrix[entity1][entity2] += 1
-        
+
         # Convert to DataFrame for analysis
         entities_list = list(entity_counts.keys())
         matrix_data = []
-        
+
         for entity1 in entities_list:
             row = []
             for entity2 in entities_list:
                 row.append(cooccurrence_matrix[entity1][entity2])
             matrix_data.append(row)
-        
+
         cooccurrence_df = pd.DataFrame(
             matrix_data,
             index=entities_list,
             columns=entities_list
         )
-        
+
         return {
             'cooccurrence_matrix': cooccurrence_df,
             'entity_counts': dict(entity_counts),
             'top_entities': sorted(entity_counts.items(), key=lambda x: x[1], reverse=True)[:20]
         }
-    
+
     def visualize_entities(self, text, model_name='spacy_sm'):
         """Visualize named entities in text"""
         if model_name not in self.models:
             return None
-        
+
         nlp = self.models[model_name]
         doc = nlp(text)
-        
+
         # Generate visualization
         html = displacy.render(doc, style='ent', jupyter=False)
-        
+
         return html
 
 # Initialize NER system
@@ -1483,65 +1483,65 @@ class AdvancedTextAnalytics:
     def __init__(self):
         self.models = {}
         self.results = {}
-    
+
     def document_clustering(self, texts, method='kmeans', n_clusters=5):
         """Cluster documents based on content similarity"""
         # Create document embeddings
         vectorizer = TfidfVectorizer(max_features=1000, stop_words='english')
         doc_vectors = vectorizer.fit_transform(texts)
-        
+
         if method == 'kmeans':
             clusterer = KMeans(n_clusters=n_clusters, random_state=42)
         elif method == 'dbscan':
             clusterer = DBSCAN(eps=0.5, min_samples=5)
         elif method == 'hierarchical':
             clusterer = AgglomerativeClustering(n_clusters=n_clusters)
-        
+
         cluster_labels = clusterer.fit_predict(doc_vectors.toarray())
-        
+
         # Analyze clusters
         cluster_analysis = []
         for cluster_id in set(cluster_labels):
             if cluster_id != -1:  # Exclude noise cluster for DBSCAN
                 cluster_docs = [texts[i] for i, label in enumerate(cluster_labels) if label == cluster_id]
                 cluster_texts = ' '.join(cluster_docs)
-                
+
                 # Get top terms for cluster
                 cluster_vectorizer = TfidfVectorizer(max_features=20, stop_words='english')
                 cluster_tfidf = cluster_vectorizer.fit_transform([cluster_texts])
                 feature_names = cluster_vectorizer.get_feature_names_out()
                 top_terms = feature_names[cluster_tfidf.toarray()[0].argsort()[-10:][::-1]]
-                
+
                 cluster_analysis.append({
                     'cluster_id': cluster_id,
                     'size': len(cluster_docs),
                     'top_terms': top_terms.tolist(),
                     'sample_docs': cluster_docs[:3]
                 })
-        
+
         return {
             'cluster_labels': cluster_labels,
             'cluster_analysis': cluster_analysis,
             'n_clusters': len(set(cluster_labels)) - (1 if -1 in cluster_labels else 0)
         }
-    
+
     def text_similarity_analysis(self, texts, method='cosine'):
         """Analyze similarity between texts"""
         from sklearn.metrics.pairwise import cosine_similarity, euclidean_distances
-        
+
         # Create embeddings
         vectorizer = TfidfVectorizer(stop_words='english')
         text_vectors = vectorizer.fit_transform(texts)
-        
+
         if method == 'cosine':
             similarity_matrix = cosine_similarity(text_vectors)
         elif method == 'euclidean':
             similarity_matrix = euclidean_distances(text_vectors)
-        
+
         # Find most similar pairs
         similarity_pairs = []
         n_texts = len(texts)
-        
+
         for i in range(n_texts):
             for j in range(i+1, n_texts):
                 similarity_pairs.append({
@@ -1551,20 +1551,20 @@ class AdvancedTextAnalytics:
                     'text1_preview': texts[i][:100] + '...' if len(texts[i]) > 100 else texts[i],
                     'text2_preview': texts[j][:100] + '...' if len(texts[j]) > 100 else texts[j]
                 })
-        
+
         # Sort by similarity
         similarity_pairs.sort(key=lambda x: x['similarity'], reverse=True)
-        
+
         return {
             'similarity_matrix': similarity_matrix,
             'top_similar_pairs': similarity_pairs[:10],
             'least_similar_pairs': similarity_pairs[-10:]
         }
-    
+
     def readability_analysis(self, texts):
         """Analyze text readability using multiple metrics"""
         readability_scores = []
-        
+
         for text in texts:
             scores = {
                 'flesch_reading_ease': flesch_reading_ease(text),
@@ -1576,7 +1576,7 @@ class AdvancedTextAnalytics:
                 'syllable_count': self.count_syllables(text),
                 'complex_words': self.count_complex_words(text)
             }
-            
+
             # Readability interpretation
             fre_score = scores['flesch_reading_ease']
             if fre_score >= 90:
@@ -1593,47 +1593,47 @@ class AdvancedTextAnalytics:
                 scores['reading_level'] = 'Difficult'
             else:
                 scores['reading_level'] = 'Very Difficult'
-            
+
             readability_scores.append(scores)
-        
+
         return pd.DataFrame(readability_scores)
-    
+
     def count_syllables(self, text):
         """Count syllables in text"""
         vowels = 'aeiouy'
         syllable_count = 0
         words = re.findall(r'\b[a-zA-Z]+\b', text.lower())
-        
+
         for word in words:
             syllables = 0
             prev_was_vowel = False
-            
+
             for char in word:
                 is_vowel = char in vowels
                 if is_vowel and not prev_was_vowel:
                     syllables += 1
                 prev_was_vowel = is_vowel
-            
+
             if word.endswith('e'):
                 syllables = max(1, syllables - 1)
             if syllables == 0:
                 syllables = 1
-                
+
             syllable_count += syllables
-        
+
         return syllable_count
-    
+
     def count_complex_words(self, text):
         """Count complex words (3+ syllables)"""
         words = re.findall(r'\b[a-zA-Z]+\b', text.lower())
         complex_count = 0
-        
+
         for word in words:
             if self.count_syllables(word) >= 3:
                 complex_count += 1
-        
+
         return complex_count
-    
+
     def keyword_extraction(self, texts, method='tfidf', top_k=20):
         """Extract keywords using various methods"""
         if method == 'tfidf':
@@ -1643,145 +1643,145 @@ class AdvancedTextAnalytics:
                 stop_words='english',
                 min_df=2
             )
-            
+
             tfidf_matrix = vectorizer.fit_transform(texts)
             feature_names = vectorizer.get_feature_names_out()
-            
+
             # Get average TF-IDF scores
             mean_scores = tfidf_matrix.mean(axis=0).A1
             keyword_scores = list(zip(feature_names, mean_scores))
             keyword_scores.sort(key=lambda x: x[1], reverse=True)
-            
+
             return {
                 'method': 'tfidf',
                 'keywords': keyword_scores[:top_k],
                 'vectorizer': vectorizer
             }
-        
+
         elif method == 'textrank':
             # TextRank implementation would go here
             # This is a simplified version
             from collections import Counter
-            
+
             all_words = []
             for text in texts:
                 words = word_tokenize(text.lower())
                 words = [word for word in words if word.isalpha() and word not in stopwords.words('english')]
                 all_words.extend(words)
-            
+
             word_freq = Counter(all_words)
             top_words = word_freq.most_common(top_k)
-            
+
             return {
                 'method': 'frequency',
                 'keywords': top_words
             }
-    
+
     def text_summarization(self, texts, method='extractive', summary_ratio=0.3):
         """Generate text summaries"""
         if method == 'extractive':
             summaries = []
-            
+
             for text in texts:
                 sentences = sent_tokenize(text)
                 if len(sentences) <= 3:
                     summaries.append(text)
                     continue
-                
+
                 # Simple extractive summarization using TF-IDF
                 vectorizer = TfidfVectorizer(stop_words='english')
                 sentence_vectors = vectorizer.fit_transform(sentences)
-                
+
                 # Calculate sentence scores (sum of TF-IDF values)
                 sentence_scores = sentence_vectors.sum(axis=1).A1
-                
+
                 # Select top sentences
                 num_sentences = max(1, int(len(sentences) * summary_ratio))
                 top_indices = sentence_scores.argsort()[-num_sentences:][::-1]
                 top_indices.sort()  # Maintain original order
-                
+
                 summary_sentences = [sentences[i] for i in top_indices]
                 summary = ' '.join(summary_sentences)
-                
+
                 summaries.append(summary)
-            
+
             return summaries
-        
+
         elif method == 'abstractive':
             # This would use transformer models for abstractive summarization
             try:
                 summarizer = pipeline('summarization', model='facebook/bart-large-cnn')
                 summaries = []
-                
+
                 for text in texts:
                     if len(text) > 1024:  # Model input limit
                         text = text[:1024]
-                    
+
                     summary = summarizer(text, max_length=150, min_length=30, do_sample=False)
                     summaries.append(summary[0]['summary_text'])
-                
+
                 return summaries
-            
+
             except Exception as e:
                 print(f"Abstractive summarization failed: [E]")
                 return self.text_summarization(texts, method='extractive', summary_ratio=summary_ratio)
-    
+
     def dimensionality_reduction_visualization(self, texts, method='tsne'):
         """Create 2D visualization of document embeddings"""
         # Create embeddings
         vectorizer = TfidfVectorizer(max_features=500, stop_words='english')
         embeddings = vectorizer.fit_transform(texts).toarray()
-        
+
         if method == 'tsne':
             reducer = TSNE(n_components=2, random_state=42, perplexity=min(30, len(texts)-1))
         elif method == 'pca':
             reducer = PCA(n_components=2, random_state=42)
         elif method == 'umap':
             reducer = UMAP(n_components=2, random_state=42)
-        
+
         reduced_embeddings = reducer.fit_transform(embeddings)
-        
+
         # Create visualization
         plt.figure(figsize=(12, 8))
-        scatter = plt.scatter(reduced_embeddings[:, 0], reduced_embeddings[:, 1], 
+        scatter = plt.scatter(reduced_embeddings[:, 0], reduced_embeddings[:, 1],
                             c=range(len(texts)), cmap='viridis', alpha=0.6)
         plt.colorbar(scatter)
         plt.title(f'Document Embeddings Visualization ({method.upper()})')
         plt.xlabel('Dimension 1')
         plt.ylabel('Dimension 2')
-        
+
         # Add text previews on hover (conceptual)
         for i, (x, y) in enumerate(reduced_embeddings):
             if i % 10 == 0:  # Annotate every 10th point to avoid clutter
                 preview = texts[i][:50] + '...' if len(texts[i]) > 50 else texts[i]
-                plt.annotate(f'Doc [I]', (x, y), xytext=(5, 5), 
+                plt.annotate(f'Doc [I]', (x, y), xytext=(5, 5),
                            textcoords='offset points', fontsize=8, alpha=0.7)
-        
+
         plt.tight_layout()
         return plt.gcf()
-    
+
     def create_word_cloud(self, texts, max_words=100):
         """Create word cloud visualization"""
         # Combine all texts
         combined_text = ' '.join(texts)
-        
+
         # Create word cloud
         wordcloud = WordCloud(
-            width=800, 
-            height=400, 
+            width=800,
+            height=400,
             max_words=max_words,
             background_color='white',
             colormap='viridis',
             stopwords=set(stopwords.words('english'))
         ).generate(combined_text)
-        
+
         # Plot
         plt.figure(figsize=(12, 6))
         plt.imshow(wordcloud, interpolation='bilinear')
         plt.axis('off')
         plt.title('Word Cloud')
         plt.tight_layout()
-        
+
         return plt.gcf()
 
 # Initialize advanced analytics
@@ -1806,7 +1806,7 @@ from plotly.subplots import make_subplots
 
 def create_comprehensive_text_report(analysis_results):
     """Create comprehensive text analytics report"""
-    
+
     # Set up the report structure
     report = {
         'executive_summary': create_executive_summary(analysis_results),
@@ -1819,12 +1819,12 @@ def create_comprehensive_text_report(analysis_results):
         'visualizations': create_visualization_suite(analysis_results),
         'insights_recommendations': create_insights_section(analysis_results)
     }
-    
+
     return report
 
 def create_visualization_suite(results):
     """Create comprehensive visualization suite"""
-    
+
     fig = make_subplots(
         rows=3, cols=3,
         subplot_titles=[
@@ -1838,17 +1838,17 @@ def create_visualization_suite(results):
             [{"type": "scatter"}, {"type": "heatmap"}, {"type": "scatter"}]
         ]
     )
-    
+
     # Add visualizations to subplots
     # This would include all the specific plotting code for each analysis type
-    
+
     fig.update_layout(height=1200, showlegend=False, title_text="Text Analytics Dashboard")
-    
+
     return fig
 
 def generate_insights_and_recommendations(analysis_results):
     """Generate actionable insights and recommendations"""
-    
+
     insights = {
         'key_findings': [],
         'sentiment_insights': [],
@@ -1857,73 +1857,73 @@ def generate_insights_and_recommendations(analysis_results):
         'content_quality_insights': [],
         'recommendations': []
     }
-    
+
     # Extract key findings from each analysis component
     if 'sentiment' in analysis_results:
         sentiment_data = analysis_results['sentiment']
-        
+
         # Sentiment insights
         positive_ratio = len([s for s in sentiment_data if s['vader']['label'] == 'positive']) / len(sentiment_data)
         insights['sentiment_insights'].append(f"Overall sentiment is {positive_ratio:.1%} positive")
-        
+
         if positive_ratio < 0.3:
             insights['recommendations'].append("Consider addressing negative sentiment drivers")
         elif positive_ratio > 0.7:
             insights['recommendations'].append("Leverage positive sentiment for marketing/promotion")
-    
+
     # Topic insights
     if 'topics' in analysis_results:
         topic_data = analysis_results['topics']
         insights['topic_insights'].append(f"Identified {len(topic_data['topics'])} main topics")
-        
+
         # Most coherent topics
         coherent_topics = [t for t in topic_data['topics'] if t.get('coherence', 0) > 0.5]
         if coherent_topics:
             insights['topic_insights'].append(f"{len(coherent_topics)} topics show high coherence")
-    
+
     return insights
 
 # Create final report
 def generate_final_report():
     """Generate final comprehensive report"""
-    
+
     final_report = f"""
     # TEXT ANALYTICS COMPREHENSIVE REPORT
-    
+
     ## Executive Summary
     Analysis of {[TEXT_VOLUME]} documents revealed {[KEY_FINDINGS]}.
-    
+
     ## Key Metrics
     - Overall Sentiment: {[OVERALL_SENTIMENT]} ({[SENTIMENT_CONFIDENCE]}% confidence)
     - Primary Topics: {[TOP_TOPICS]}
     - Key Entities: {[TOP_ENTITIES]}
     - Average Reading Level: {[READING_LEVEL]}
     - Content Quality Score: {[QUALITY_SCORE]}/10
-    
+
     ## Detailed Findings
-    
+
     ### Sentiment Analysis
     {[SENTIMENT_DETAILED_FINDINGS]}
-    
+
     ### Topic Analysis
     {[TOPIC_DETAILED_FINDINGS]}
-    
+
     ### Entity Analysis
     {[ENTITY_DETAILED_FINDINGS]}
-    
+
     ### Content Quality Assessment
     {[QUALITY_DETAILED_FINDINGS]}
-    
+
     ## Recommendations
     {[STRATEGIC_RECOMMENDATIONS]}
-    
+
     ## Technical Appendix
     - Processing Time: {[PROCESSING_TIME]}
     - Models Used: {[MODELS_USED]}
     - Data Quality Score: {[DATA_QUALITY_SCORE]}
     - Confidence Intervals: {[CONFIDENCE_INTERVALS]}
     """
-    
+
     return final_report
 ```
 
@@ -2150,8 +2150,6 @@ Deliver comprehensive text analytics analysis including:
 - [EXPORT_FORMAT] - Format for exporting visualizations
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

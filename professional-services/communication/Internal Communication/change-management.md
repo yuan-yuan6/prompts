@@ -727,11 +727,7 @@ Please provide a comprehensive change management and adoption strategy based on 
 | `[ORGANIZATIONAL_TRANSFORMATION_COMPETENCY]` | Specify the organizational transformation competency | "[specify value]" |
 | `[PREPARATION_ANTICIPATION_PROACTIVE_PLANNING]` | Specify the preparation anticipation proactive planning | "[specify value]" |
 
-
-
 ## Usage Examples
-
-
 
 ## Best Practices
 

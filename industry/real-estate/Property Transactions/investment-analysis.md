@@ -385,8 +385,6 @@ After-Tax Cash Flow: $[ATCF_Y1]
 | `[RECOMMEND_TIMELINE]` | Timeline or schedule for recommend | "6 months" |
 | `[RECOMMEND_NEXT]` | Specify the recommend next | "[specify value]" |
 
-
-
 ### 3. Return Metrics & Investment Criteria
 
 | **Return Metric** | **Projected** | **Target** | **Market Average** | **Risk-Adjusted** | **Decision Impact** |
@@ -558,8 +556,6 @@ Key Metrics Summary:
 ```
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

@@ -21,7 +21,7 @@ Comprehensive framework for creative writing projects including story developmen
 
 1. **The Spark** (15 min): What's the ONE scene/moment that excites you most? Write it raw.
 2. **Who's There?** (20 min): Name your main character. What do they want? What stops them?
-3. **Write Fast** (2 hours): Set a timer. Don't edit. Just write forward. Get 1,000-2,000 words down.
+3. **Write Fast**: Set a timer. Don't edit. Just write forward. Get 1,000-2,000 words down.
 4. **One Question** (5 min): "What happens next?" - Write that answer in one sentence.
 
 **Genre Fast-Tracks**:
@@ -394,8 +394,6 @@ Psychological Profile:
 | `[PROJECT_BACKUP]` | Specify the project backup | "[specify value]" |
 | `[PROJECT_VERSIONS]` | Specify the project versions | "[specify value]" |
 
-
-
 ### 3. Worldbuilding & Setting
 
 | **World Element** | **Physical Details** | **Cultural Aspects** | **Historical Context** | **Rules/Laws** | **Sensory Description** |
@@ -573,8 +571,6 @@ Creative Process:
 ```
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

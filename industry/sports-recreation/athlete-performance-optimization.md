@@ -344,8 +344,6 @@ Transition Phase (Months 11-12):
 | `[BODY_COMP]` | Specify the body comp | "[specify value]" |
 | `[OVERALL_PROGRESS]` | Specify the overall progress | "[specify value]" |
 
-
-
 ### 3. Strength & Conditioning Program
 
 | **Training Component** | **Exercise Selection** | **Sets x Reps** | **Intensity** | **Frequency** | **Progression** |
@@ -516,8 +514,6 @@ Competition Performance:
 
 ## Usage Examples
 
-
-
 ## Best Practices
 
 1. **Start with clear objectives** - Define what success looks like before beginning
@@ -610,8 +606,8 @@ Achievement: World Championship qualification
 - Elite/Unlimited
 
 ### 5. Time Frame
-- Short-term (3 months)
-- Season (6-9 months)
+- Short-term
+- Season
 - Annual Plan
 - Olympic Cycle (4 years)
 - Long-term Development

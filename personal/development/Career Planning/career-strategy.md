@@ -21,19 +21,19 @@ Comprehensive framework for individual career planning, skill development, profe
 
 Kickstart your career development in three actionable steps:
 
-1. **Define Your Career Target** (15 minutes)
+1. **Define Your Career Target**
    - Where do you want to be in 12 months: new role, promotion, industry change, skill mastery?
    - Research 3-5 job postings for your target role to understand requirements
    - Example: "Become Senior Product Manager" or "Transition from accounting to data analytics"
    - Identify your top 3 skill gaps between current state and target role
 
-2. **Update Your Professional Presence** (1 hour)
+2. **Update Your Professional Presence**
    - LinkedIn: Update headline, add recent achievements, request 3 recommendations
    - Resume: Quantify accomplishments with metrics (increased X by Y%, managed Z projects)
    - Portfolio: Document 2-3 key projects with results and learnings
    - Set profile to "Open to opportunities" if job searching
 
-3. **Take One Career Action This Week** (30 minutes)
+3. **Take One Career Action This Week**
    - Schedule coffee chat with someone in your target role
    - Enroll in one skill-building course (LinkedIn Learning, Coursera, Udemy)
    - Attend one industry event or join one professional community
@@ -60,7 +60,7 @@ Design career development plan for [YOUR_NAME] currently [CURRENT_ROLE] at [CURR
 
 **Career Progression Timeline:**
 ```
-Short-term (6-12 months):
+Short-term:
 - Primary Goal: [SHORT_PRIMARY]
 - Role Target: [SHORT_ROLE]
 - Skill Focus: [SHORT_SKILLS]
@@ -348,8 +348,6 @@ Career Pivots/Options:
 | `[PERSONAL_CONTINGENCY]` | Specify the personal contingency | "[specify value]" |
 | `[PERSONAL_WARNING]` | Specify the personal warning | "[specify value]" |
 
-
-
 ### 3. Skill Development Strategy
 
 | **Skill Category** | **Current Proficiency** | **Target Level** | **Learning Method** | **Timeline** | **Investment** |
@@ -388,12 +386,12 @@ Online Presence:
   Connections: [LINKEDIN_CONN]
   Content Strategy: [LINKEDIN_CONTENT]
   Engagement Rate: [LINKEDIN_ENGAGE]%
-  
+
 - Professional Website: [WEBSITE_STATUS]
   Traffic: [WEBSITE_TRAFFIC]
   Portfolio Items: [PORTFOLIO_COUNT]
   Blog Posts: [BLOG_FREQUENCY]
-  
+
 - Social Media: [SOCIAL_PLATFORMS]
   Followers: [SOCIAL_FOLLOWERS]
   Thought Leadership: [THOUGHT_POSTS]
@@ -475,8 +473,6 @@ Recognition & Awards:
 | Personal Circumstances | [PERSONAL_PROB]% | [PERSONAL_IMPACT]/10 | [PERSONAL_MITIGATE] | [PERSONAL_CONTINGENCY] | [PERSONAL_WARNING] |
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

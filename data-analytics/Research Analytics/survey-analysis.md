@@ -96,20 +96,20 @@ import math
 # Sample size calculation
 def calculate_sample_size(population_size, margin_error, confidence_level, response_distribution=0.5):
     """Calculate required sample size for survey"""
-    
+
     # Z-score for confidence level
     z_scores = {0.90: 1.645, 0.95: 1.96, 0.99: 2.576}
     z_score = z_scores[confidence_level]
-    
+
     # Sample size formula for proportions
     n = (z_score**2 * response_distribution * (1 - response_distribution)) / (margin_error**2)
-    
+
     # Finite population correction
     if population_size is not None:
         n_adjusted = n / (1 + (n - 1) / population_size)
     else:
         n_adjusted = n
-    
+
     return {
         'required_sample_size': math.ceil(n_adjusted),
         'unadjusted_sample_size': math.ceil(n),
@@ -122,43 +122,43 @@ def calculate_sample_size(population_size, margin_error, confidence_level, respo
 # Stratified sampling design
 def stratified_sample_design(strata_info, total_sample_size, allocation='proportional'):
     """Design stratified sampling plan"""
-    
+
     strata_df = pd.DataFrame(strata_info)
     total_pop = strata_df['population_size'].sum()
-    
+
     if allocation == 'proportional':
         # Proportional allocation
         strata_df['sample_size'] = (strata_df['population_size'] / total_pop * total_sample_size).round().astype(int)
-    
+
     elif allocation == 'optimal':
         # Optimal allocation (Neyman allocation)
         # Requires variance estimates for each stratum
         numerator = strata_df['population_size'] * strata_df['std_dev']
         denominator = numerator.sum()
         strata_df['sample_size'] = (numerator / denominator * total_sample_size).round().astype(int)
-    
+
     elif allocation == 'equal':
         # Equal allocation
         strata_df['sample_size'] = (total_sample_size / len(strata_df)).round().astype(int)
-    
+
     # Calculate sampling fractions
     strata_df['sampling_fraction'] = strata_df['sample_size'] / strata_df['population_size']
-    
+
     return strata_df
 
 # Cluster sampling design
 def cluster_sample_design(num_clusters_population, num_clusters_sample, avg_cluster_size):
     """Design cluster sampling plan"""
-    
+
     # Calculate design effect
     # Assuming some intracluster correlation (ICC)
     icc = 0.05  # Default ICC
     design_effect = 1 + (avg_cluster_size - 1) * icc
-    
+
     # Effective sample size
     total_sample_size = num_clusters_sample * avg_cluster_size
     effective_sample_size = total_sample_size / design_effect
-    
+
     return {
         'num_clusters_population': num_clusters_population,
         'num_clusters_sample': num_clusters_sample,
@@ -201,20 +201,20 @@ question_types = {
         'education': {'type': 'ordinal', 'scale': '1-7 education levels'},
         'income': {'type': 'ordinal', 'scale': 'income brackets'}
     },
-    
+
     'attitudinal': {
         'satisfaction': {'type': 'likert', 'scale': '1-5 or 1-7', 'anchors': 'Very dissatisfied to Very satisfied'},
         'agreement': {'type': 'likert', 'scale': '1-5', 'anchors': 'Strongly disagree to Strongly agree'},
         'importance': {'type': 'likert', 'scale': '1-5', 'anchors': 'Not important to Very important'},
         'frequency': {'type': 'ordinal', 'options': ['Never', 'Rarely', 'Sometimes', 'Often', 'Always']}
     },
-    
+
     'behavioral': {
         'usage': {'type': 'frequency', 'measurement': 'times per period'},
         'purchase': {'type': 'binary', 'options': ['Yes', 'No']},
         'preference': {'type': 'ranking', 'method': 'rank order or forced choice'}
     },
-    
+
     'open_ended': {
         'opinion': {'type': 'text', 'length': 'short to medium'},
         'experience': {'type': 'text', 'length': 'medium to long'},
@@ -225,54 +225,54 @@ question_types = {
 # Question validation framework
 def validate_questions(questions_list):
     """Validate survey questions for common issues"""
-    
+
     validation_results = {}
-    
+
     for i, question in enumerate(questions_list):
         issues = []
-        
+
         # Check for leading questions
         leading_words = ['don\'t you think', 'wouldn\'t you agree', 'isn\'t it true']
         if any(word in question.lower() for word in leading_words):
             issues.append('Potential leading question')
-        
+
         # Check for double-barreled questions
         if ' and ' in question and '?' in question:
             issues.append('Potential double-barreled question')
-        
+
         # Check for negative wording
         negative_words = ['not', 'never', 'without', 'unless']
         if any(word in question.lower() for word in negative_words):
             issues.append('Contains negative wording')
-        
+
         # Check question length
         if len(question.split()) > 20:
             issues.append('Question may be too long')
-        
+
         # Check for jargon/technical terms
         technical_indicators = ['utilize', 'implementation', 'methodology']
         if any(term in question.lower() for term in technical_indicators):
             issues.append('May contain jargon')
-        
+
         validation_results[f'Question_{i+1}'] = {
             'question': question,
             'issues': issues,
             'quality_score': max(0, 5 - len(issues))
         }
-    
+
     return validation_results
 
 # Cognitive testing framework
 def cognitive_testing_protocol():
     """Framework for cognitive testing of survey questions"""
-    
+
     protocol = {
         'think_aloud': {
             'description': 'Respondents verbalize thoughts while answering',
             'sample_size': '5-10 per major demographic group',
             'analysis': 'Qualitative analysis of verbal protocols'
         },
-        
+
         'probing': {
             'comprehension_probes': [
                 'What does this question mean to you?',
@@ -288,14 +288,14 @@ def cognitive_testing_protocol():
                 'What does [term] mean to you?'
             ]
         },
-        
+
         'response_analysis': {
             'response_time': 'Measure time taken to answer each question',
             'response_patterns': 'Identify straight-lining or other response biases',
             'item_non_response': 'Track questions with high skip rates'
         }
     }
-    
+
     return protocol
 ```
 
@@ -313,7 +313,7 @@ Question Structure:
 # Likert scale development and validation
 def develop_likert_scale(construct, items, scale_points=5):
     """Develop and validate Likert scales"""
-    
+
     scale_design = {
         'construct': construct,
         'number_of_items': len(items),
@@ -321,12 +321,12 @@ def develop_likert_scale(construct, items, scale_points=5):
         'anchors': {
             3: ['Disagree', 'Neutral', 'Agree'],
             5: ['Strongly Disagree', 'Disagree', 'Neutral', 'Agree', 'Strongly Agree'],
-            7: ['Strongly Disagree', 'Disagree', 'Somewhat Disagree', 'Neutral', 
+            7: ['Strongly Disagree', 'Disagree', 'Somewhat Disagree', 'Neutral',
                 'Somewhat Agree', 'Agree', 'Strongly Agree']
         }[scale_points],
         'items': items
     }
-    
+
     # Item analysis guidelines
     analysis_criteria = {
         'item_total_correlation': 'Should be > 0.30',
@@ -335,13 +335,13 @@ def develop_likert_scale(construct, items, scale_points=5):
         'communality': 'Should be > 0.25',
         'item_difficulty': 'Proportion endorsing each response category'
     }
-    
+
     return scale_design, analysis_criteria
 
 # Semantic differential scale
 def semantic_differential_scale(concept, bipolar_pairs):
     """Design semantic differential scales"""
-    
+
     scale_structure = {
         'concept': concept,
         'scale_points': 7,  # Standard for semantic differential
@@ -349,13 +349,13 @@ def semantic_differential_scale(concept, bipolar_pairs):
         'randomization': 'Randomize direction of positive pole',
         'instructions': f'Rate [CONCEPT] on each of the following scales'
     }
-    
+
     return scale_structure
 
 # Rating scale optimization
 def optimize_rating_scale(scale_type, research_context):
     """Optimize rating scale design based on research context"""
-    
+
     recommendations = {
         'number_of_points': {
             'satisfaction': '5 or 7 points - good discrimination',
@@ -363,13 +363,13 @@ def optimize_rating_scale(scale_type, research_context):
             'frequency': 'Verbal labels preferred over numbers',
             'importance': '5 points with explicit "not applicable" option'
         },
-        
+
         'labeling': {
             'fully_labeled': 'All points labeled - reduces ambiguity',
             'end_anchored': 'Only endpoints labeled - allows for more gradation',
             'verbal_labels': 'Use consistent verbal descriptors'
         },
-        
+
         'response_format': {
             'horizontal': 'Traditional and familiar to respondents',
             'vertical': 'May work better on mobile devices',
@@ -377,7 +377,7 @@ def optimize_rating_scale(scale_type, research_context):
             'buttons': 'Clear selection, works well across devices'
         }
     }
-    
+
     return recommendations.get(scale_type, recommendations)
 ```
 
@@ -390,10 +390,10 @@ class SurveyAdministration:
         self.survey_mode = survey_mode
         self.population = population_characteristics
         self.administration_plan = self.create_administration_plan()
-    
+
     def create_administration_plan(self):
         """Create comprehensive survey administration plan"""
-        
+
         mode_specifications = {
             'online': {
                 'advantages': ['Cost-effective', 'Fast data collection', 'Skip logic possible', 'Multimedia integration'],
@@ -411,7 +411,7 @@ class SurveyAdministration:
                     'Captcha for bot detection'
                 ]
             },
-            
+
             'telephone': {
                 'advantages': ['High response rates', 'Interviewer can clarify', 'Random digit dialing possible'],
                 'disadvantages': ['Expensive', 'Interviewer effects', 'Declining response rates'],
@@ -427,7 +427,7 @@ class SurveyAdministration:
                     'Recording quality assessment'
                 ]
             },
-            
+
             'face_to_face': {
                 'advantages': ['Highest response rates', 'Complex questions possible', 'Visual aids'],
                 'disadvantages': ['Most expensive', 'Interviewer bias', 'Safety concerns'],
@@ -438,7 +438,7 @@ class SurveyAdministration:
                     'Cultural sensitivity training'
                 ]
             },
-            
+
             'mail': {
                 'advantages': ['No interviewer bias', 'Respondent convenience', 'Visual layout'],
                 'disadvantages': ['Low response rates', 'No clarification possible', 'Literacy requirements'],
@@ -449,7 +449,7 @@ class SurveyAdministration:
                     'Clear instructions'
                 ]
             },
-            
+
             'mixed_mode': {
                 'advantages': ['Improved coverage', 'Higher response rates', 'Cost optimization'],
                 'disadvantages': ['Mode effects', 'Complex logistics', 'Data integration challenges'],
@@ -461,13 +461,13 @@ class SurveyAdministration:
                 ]
             }
         }
-        
+
         return mode_specifications[self.survey_mode]
 
 # Response rate optimization
 def response_rate_strategies():
     """Comprehensive response rate improvement strategies"""
-    
+
     strategies = {
         'pre_survey': {
             'advance_notification': 'Send advance letter or email 1 week before',
@@ -475,28 +475,28 @@ def response_rate_strategies():
             'publicity': 'Generate positive publicity about the survey',
             'sample_preparation': 'Clean and validate contact information'
         },
-        
+
         'survey_design': {
             'length_optimization': 'Keep survey as short as possible while meeting objectives',
             'question_ordering': 'Start with interesting, relevant questions',
             'visual_design': 'Professional, clean, easy-to-navigate design',
             'mobile_optimization': 'Ensure full functionality on mobile devices'
         },
-        
+
         'contact_strategy': {
             'multiple_contacts': 'Plan for 5-7 contact attempts',
             'varied_timing': 'Contact at different times and days',
             'personalization': 'Use respondent names and relevant details',
             'contact_modes': 'Use multiple contact modes if possible'
         },
-        
+
         'incentives': {
             'unconditional': 'Small incentive sent with initial contact',
             'conditional': 'Larger incentive upon survey completion',
             'lottery': 'Prize draw for all respondents',
             'charitable': 'Donation to charity for participation'
         },
-        
+
         'follow_up': {
             'reminder_schedule': 'Send reminders at 3, 7, 14, and 21 days',
             'varied_messaging': 'Change message tone and content',
@@ -504,13 +504,13 @@ def response_rate_strategies():
             'final_contact': 'Last chance notification'
         }
     }
-    
+
     return strategies
 
 # Survey quality monitoring
 def implement_quality_monitoring():
     """Real-time survey quality monitoring system"""
-    
+
     monitoring_framework = {
         'response_quality': {
             'completion_rate': 'Track by question and overall',
@@ -519,14 +519,14 @@ def implement_quality_monitoring():
             'response_time': 'Flag too fast or too slow responses',
             'open_text_quality': 'Monitor length and relevance of open responses'
         },
-        
+
         'sample_quality': {
             'response_rate': 'Track daily response rates',
             'demographic_balance': 'Monitor representativeness',
             'geographic_coverage': 'Ensure adequate geographic spread',
             'temporal_patterns': 'Check for time-based biases'
         },
-        
+
         'data_integrity': {
             'duplicate_responses': 'Check for multiple submissions',
             'suspicious_patterns': 'Identify potentially fraudulent responses',
@@ -534,7 +534,7 @@ def implement_quality_monitoring():
             'data_validation': 'Real-time range and consistency checks'
         }
     }
-    
+
     return monitoring_framework
 ```
 
@@ -553,39 +553,39 @@ class SurveyDataProcessor:
         self.raw_data = raw_data
         self.cleaned_data = None
         self.cleaning_log = []
-    
+
     def comprehensive_cleaning(self):
         """Comprehensive survey data cleaning pipeline"""
-        
+
         data = self.raw_data.copy()
-        
+
         # 1. Remove test responses
         if 'test_flag' in data.columns:
             test_responses = data['test_flag'].sum()
             data = data[data['test_flag'] != 1]
             self.cleaning_log.append(f"Removed [TEST_RESPONSES] test responses")
-        
+
         # 2. Remove incomplete responses
         completion_threshold = 0.75  # 75% completion required
         completion_rate = data.count(axis=1) / len(data.columns)
         incomplete = (completion_rate < completion_threshold).sum()
         data = data[completion_rate >= completion_threshold]
         self.cleaning_log.append(f"Removed [INCOMPLETE] incomplete responses")
-        
+
         # 3. Response time filtering
         if 'response_time' in data.columns:
             # Remove too fast responses (< 5th percentile)
             fast_cutoff = data['response_time'].quantile(0.05)
             too_fast = (data['response_time'] < fast_cutoff).sum()
             data = data[data['response_time'] >= fast_cutoff]
-            
+
             # Remove too slow responses (> 95th percentile)
             slow_cutoff = data['response_time'].quantile(0.95)
             too_slow = (data['response_time'] > slow_cutoff).sum()
             data = data[data['response_time'] <= slow_cutoff]
-            
+
             self.cleaning_log.append(f"Removed [TOO_FAST] too fast and [TOO_SLOW] too slow responses")
-        
+
         # 4. Straight-lining detection
         scale_columns = [col for col in data.columns if col.startswith('scale_')]
         if scale_columns:
@@ -595,39 +595,39 @@ class SurveyDataProcessor:
             straight_liners = (scale_variance < straight_line_threshold).sum()
             data = data[scale_variance >= straight_line_threshold]
             self.cleaning_log.append(f"Removed [STRAIGHT_LINERS] straight-line responses")
-        
+
         # 5. Outlier detection for continuous variables
         continuous_vars = data.select_dtypes(include=[np.number]).columns
         outlier_count = 0
         for var in continuous_vars:
             if var in ['response_time', 'id']:
                 continue
-            
+
             Q1 = data[var].quantile(0.25)
             Q3 = data[var].quantile(0.75)
             IQR = Q3 - Q1
             lower_bound = Q1 - 3 * IQR
             upper_bound = Q3 + 3 * IQR
-            
+
             outliers = ((data[var] < lower_bound) | (data[var] > upper_bound)).sum()
             outlier_count += outliers
-        
+
         self.cleaning_log.append(f"Identified [OUTLIER_COUNT] outlier values across variables")
-        
+
         # 6. Duplicate response detection
         if 'email' in data.columns:
             duplicates = data.duplicated(subset=['email']).sum()
             data = data.drop_duplicates(subset=['email'])
             self.cleaning_log.append(f"Removed [DUPLICATES] duplicate responses")
-        
+
         self.cleaned_data = data
         return data, self.cleaning_log
-    
+
     def create_derived_variables(self):
         """Create derived variables and indices"""
-        
+
         data = self.cleaned_data.copy()
-        
+
         # 1. Create scale scores (average of scale items)
         scale_groups = {}
         for col in data.columns:
@@ -636,103 +636,103 @@ class SurveyDataProcessor:
                 if prefix not in scale_groups:
                     scale_groups[prefix] = []
                 scale_groups[prefix].append(col)
-        
+
         # Calculate scale means
         for scale_name, items in scale_groups.items():
             if len(items) > 1:  # Only create scales with multiple items
                 data[f'[SCALE_NAME]_mean'] = data[items].mean(axis=1)
                 data[f'[SCALE_NAME]_count'] = data[items].count(axis=1)
-        
+
         # 2. Create demographic categories
         if 'age' in data.columns:
-            data['age_group'] = pd.cut(data['age'], 
-                                     bins=[0, 25, 35, 45, 55, 65, 100], 
+            data['age_group'] = pd.cut(data['age'],
+                                     bins=[0, 25, 35, 45, 55, 65, 100],
                                      labels=['18-25', '26-35', '36-45', '46-55', '56-65', '66+'])
-        
+
         if 'income' in data.columns:
             income_percentiles = data['income'].quantile([0.33, 0.67]).values
-            data['income_tertile'] = pd.cut(data['income'], 
+            data['income_tertile'] = pd.cut(data['income'],
                                           bins=[-np.inf, income_percentiles[0], income_percentiles[1], np.inf],
                                           labels=['Low', 'Medium', 'High'])
-        
+
         # 3. Create response behavior indicators
         data['total_responses'] = data.count(axis=1)
         data['response_completeness'] = data.count(axis=1) / len(data.columns)
-        
+
         return data
 
 # Missing data analysis
 def missing_data_analysis(data):
     """Comprehensive missing data analysis"""
-    
+
     missing_summary = {
         'overall_missing_rate': data.isnull().sum().sum() / (data.shape[0] * data.shape[1]),
         'variables_missing_rate': data.isnull().sum() / len(data),
         'cases_missing_rate': data.isnull().sum(axis=1) / data.shape[1],
         'missing_patterns': data.isnull().sum(axis=1).value_counts().sort_index()
     }
-    
+
     # Little's MCAR test (conceptual - would need specific implementation)
     # This would test if data is Missing Completely At Random
-    
+
     # Missing data visualization
     import matplotlib.pyplot as plt
-    
+
     fig, axes = plt.subplots(2, 2, figsize=(15, 10))
-    
+
     # Missing by variable
     missing_by_var = data.isnull().sum().sort_values(ascending=False)
     missing_by_var.plot(kind='bar', ax=axes[0, 0])
     axes[0, 0].set_title('Missing Data by Variable')
     axes[0, 0].set_ylabel('Count Missing')
-    
+
     # Missing pattern heatmap
     missing_matrix = data.isnull().astype(int)
     sns.heatmap(missing_matrix.iloc[:100], ax=axes[0, 1], cbar=True)
     axes[0, 1].set_title('Missing Data Pattern (First 100 Cases)')
-    
+
     # Missing by case
     missing_by_case = data.isnull().sum(axis=1)
     missing_by_case.hist(bins=20, ax=axes[1, 0])
     axes[1, 0].set_title('Distribution of Missing Values per Case')
     axes[1, 0].set_xlabel('Number Missing')
-    
+
     # Response rate over time (if timestamp available)
     if 'timestamp' in data.columns:
         data['date'] = pd.to_datetime(data['timestamp']).dt.date
         daily_responses = data.groupby('date').size()
         daily_responses.plot(ax=axes[1, 1])
         axes[1, 1].set_title('Response Rate Over Time')
-    
+
     plt.tight_layout()
-    
+
     return missing_summary
 
 # Survey weighting
 def calculate_survey_weights(sample_data, population_benchmarks):
     """Calculate survey weights to adjust for non-response bias"""
-    
+
     # Post-stratification weighting
     weights = pd.Series(1.0, index=sample_data.index)
-    
+
     for var, benchmarks in population_benchmarks.items():
         if var in sample_data.columns:
             sample_dist = sample_data[var].value_counts(normalize=True)
-            
+
             for category, pop_prop in benchmarks.items():
                 if category in sample_dist.index:
                     sample_prop = sample_dist[category]
                     weight_factor = pop_prop / sample_prop
                     mask = sample_data[var] == category
                     weights[mask] *= weight_factor
-    
+
     # Trim extreme weights
     weight_percentiles = weights.quantile([0.01, 0.99])
     weights = weights.clip(lower=weight_percentiles[0.01], upper=weight_percentiles[0.99])
-    
+
     # Normalize weights to sum to sample size
     weights = weights / weights.mean()
-    
+
     return weights
 ```
 
@@ -745,12 +745,12 @@ class SurveyAnalysis:
         self.data = data
         self.weights = weights
         self.design_info = design_info or {}
-    
+
     def descriptive_analysis(self, variables):
         """Comprehensive descriptive analysis for survey data"""
-        
+
         results = {}
-        
+
         for var in variables:
             if var in self.data.columns:
                 # Basic statistics
@@ -759,7 +759,7 @@ class SurveyAnalysis:
                     stats_dict = {
                         'count': self.data[var].count(),
                         'mean': self.data[var].mean(),
-                        'weighted_mean': np.average(self.data[var].dropna(), 
+                        'weighted_mean': np.average(self.data[var].dropna(),
                                                   weights=self.weights[self.data[var].notna()] if self.weights is not None else None),
                         'median': self.data[var].median(),
                         'std': self.data[var].std(),
@@ -770,19 +770,19 @@ class SurveyAnalysis:
                         'skewness': self.data[var].skew(),
                         'kurtosis': self.data[var].kurtosis()
                     }
-                    
+
                     # Confidence interval for mean
                     sem = stats.sem(self.data[var].dropna())
-                    ci = stats.t.interval(0.95, len(self.data[var].dropna())-1, 
+                    ci = stats.t.interval(0.95, len(self.data[var].dropna())-1,
                                         loc=stats_dict['mean'], scale=sem)
                     stats_dict['ci_95_lower'] = ci[0]
                     stats_dict['ci_95_upper'] = ci[1]
-                
+
                 else:
                     # Categorical variable
                     value_counts = self.data[var].value_counts()
                     proportions = self.data[var].value_counts(normalize=True)
-                    
+
                     # Weighted proportions if weights available
                     if self.weights is not None:
                         weighted_counts = self.data.groupby(var).apply(
@@ -791,7 +791,7 @@ class SurveyAnalysis:
                         weighted_proportions = weighted_counts / self.weights.sum()
                     else:
                         weighted_proportions = proportions
-                    
+
                     stats_dict = {
                         'value_counts': value_counts.to_dict(),
                         'proportions': proportions.to_dict(),
@@ -802,7 +802,7 @@ class SurveyAnalysis:
                         'most_common_freq': value_counts.iloc[0],
                         'most_common_prop': proportions.iloc[0]
                     }
-                    
+
                     # Confidence intervals for proportions
                     for category, prop in proportions.items():
                         n = len(self.data[var].dropna())
@@ -810,50 +810,50 @@ class SurveyAnalysis:
                         ci = stats.norm.interval(0.95, loc=prop, scale=se)
                         stats_dict[f'[CATEGORY]_ci_lower'] = ci[0]
                         stats_dict[f'[CATEGORY]_ci_upper'] = ci[1]
-                
+
                 results[var] = stats_dict
-        
+
         return results
-    
+
     def cross_tabulation_analysis(self, row_var, col_var, test_independence=True):
         """Cross-tabulation analysis with statistical tests"""
-        
+
         # Create contingency table
-        crosstab = pd.crosstab(self.data[row_var], self.data[col_var], 
+        crosstab = pd.crosstab(self.data[row_var], self.data[col_var],
                               margins=True, normalize=False)
-        
+
         # Proportions
-        prop_total = pd.crosstab(self.data[row_var], self.data[col_var], 
+        prop_total = pd.crosstab(self.data[row_var], self.data[col_var],
                                normalize='all')
-        prop_row = pd.crosstab(self.data[row_var], self.data[col_var], 
+        prop_row = pd.crosstab(self.data[row_var], self.data[col_var],
                              normalize='index')
-        prop_col = pd.crosstab(self.data[row_var], self.data[col_var], 
+        prop_col = pd.crosstab(self.data[row_var], self.data[col_var],
                              normalize='columns')
-        
+
         results = {
             'frequencies': crosstab,
             'proportions_total': prop_total,
             'proportions_row': prop_row,
             'proportions_column': prop_col
         }
-        
+
         # Statistical tests
         if test_independence:
             # Chi-square test
             chi2, p_chi2, dof, expected = stats.chi2_contingency(
                 crosstab.iloc[:-1, :-1]  # Remove margin totals
             )
-            
+
             # Cramér's V effect size
             n = crosstab.iloc[-1, -1]  # Total sample size
             cramers_v = np.sqrt(chi2 / (n * (min(crosstab.shape) - 2)))
-            
+
             # Fisher's exact test (for 2x2 tables)
             if crosstab.shape == (3, 3):  # Including margins
                 if crosstab.iloc[:-1, :-1].shape == (2, 2):
                     _, p_fisher = stats.fisher_exact(crosstab.iloc[:-1, :-1])
                     results['fisher_exact_p'] = p_fisher
-            
+
             results.update({
                 'chi2_statistic': chi2,
                 'chi2_p_value': p_chi2,
@@ -861,15 +861,15 @@ class SurveyAnalysis:
                 'expected_frequencies': expected,
                 'cramers_v': cramers_v
             })
-        
+
         return results
-    
+
     def scale_reliability_analysis(self, scale_items):
         """Reliability analysis for multi-item scales"""
-        
+
         # Cronbach's Alpha
         scale_data = self.data[scale_items].dropna()
-        
+
         def cronbachs_alpha(items):
             items_df = items.dropna()
             N = items_df.shape[1]
@@ -877,25 +877,25 @@ class SurveyAnalysis:
             total_variance = items_df.sum(axis=1).var(ddof=1)
             alpha = (N / (N - 1)) * (1 - variance_sum / total_variance)
             return alpha
-        
+
         alpha = cronbachs_alpha(scale_data)
-        
+
         # Item-total correlations
         scale_sum = scale_data.sum(axis=1)
         item_total_corr = {}
         for item in scale_items:
             item_total_corr[item] = scale_data[item].corr(scale_sum)
-        
+
         # Alpha if item deleted
         alpha_if_deleted = {}
         for item in scale_items:
             remaining_items = [i for i in scale_items if i != item]
             alpha_if_deleted[item] = cronbachs_alpha(scale_data[remaining_items])
-        
+
         # Inter-item correlations
         inter_item_corr = scale_data.corr()
         mean_inter_item_corr = inter_item_corr.values[np.triu_indices_from(inter_item_corr.values, k=1)].mean()
-        
+
         return {
             'cronbachs_alpha': alpha,
             'item_total_correlations': item_total_corr,
@@ -905,41 +905,41 @@ class SurveyAnalysis:
             'n_items': len(scale_items),
             'n_valid_cases': len(scale_data)
         }
-    
+
     def factor_analysis(self, variables, n_factors=None, rotation='varimax'):
         """Exploratory Factor Analysis"""
-        
+
         from sklearn.decomposition import FactorAnalysis
         from scipy.stats import chi2
-        
+
         # Prepare data
         fa_data = self.data[variables].dropna()
-        
+
         # Determine number of factors if not specified
         if n_factors is None:
             # Eigenvalue > 1 rule (Kaiser criterion)
             correlation_matrix = fa_data.corr()
             eigenvalues = np.linalg.eigvals(correlation_matrix)
             n_factors = np.sum(eigenvalues > 1)
-        
+
         # Fit factor analysis model
         fa = FactorAnalysis(n_components=n_factors, random_state=42)
         fa.fit(fa_data)
-        
+
         # Factor loadings
         loadings = fa.components_.T
-        loadings_df = pd.DataFrame(loadings, 
-                                 index=variables, 
+        loadings_df = pd.DataFrame(loadings,
+                                 index=variables,
                                  columns=[f'Factor_{i+1}' for i in range(n_factors)])
-        
+
         # Communalities
         communalities = np.sum(loadings**2, axis=1)
-        
+
         # Variance explained
         eigenvalues_fa = np.sum(loadings**2, axis=0)
         variance_explained = eigenvalues_fa / len(variables)
         cumulative_variance = np.cumsum(variance_explained)
-        
+
         return {
             'n_factors': n_factors,
             'factor_loadings': loadings_df,
@@ -953,23 +953,23 @@ class SurveyAnalysis:
 # Advanced survey analysis methods
 def complex_sample_analysis(data, design_info, weights=None):
     """Analysis accounting for complex survey design"""
-    
+
     # This would typically use specialized software like R's survey package
     # Here's a conceptual framework
-    
+
     design_effects = {}
-    
+
     if design_info.get('clustering'):
         # Calculate design effect due to clustering
         # DEFF = 1 + (n_cluster - 1) * ICC
         cluster_var = design_info['clustering']['cluster_var']
         avg_cluster_size = data.groupby(cluster_var).size().mean()
-        
+
         # Estimate ICC (would need multilevel analysis)
         estimated_icc = 0.05  # Placeholder
         design_effect_clustering = 1 + (avg_cluster_size - 1) * estimated_icc
         design_effects['clustering'] = design_effect_clustering
-    
+
     if design_info.get('stratification'):
         # Stratification typically reduces design effect
         # Calculate effective sample size
@@ -977,22 +977,22 @@ def complex_sample_analysis(data, design_info, weights=None):
         strata_sizes = data.groupby(strata_var).size()
         design_effect_stratification = 1.0 - (strata_sizes.var() / strata_sizes.mean()**2)
         design_effects['stratification'] = max(design_effect_stratification, 0.5)
-    
+
     if weights is not None:
         # Calculate design effect due to weighting
         weight_variance = weights.var()
         weight_mean_squared = (weights.mean())**2
         design_effect_weighting = 1 + (weight_variance / weight_mean_squared)
         design_effects['weighting'] = design_effect_weighting
-    
+
     # Overall design effect
     overall_design_effect = 1
     for effect in design_effects.values():
         overall_design_effect *= effect
-    
+
     # Effective sample size
     effective_n = len(data) / overall_design_effect
-    
+
     return {
         'design_effects': design_effects,
         'overall_design_effect': overall_design_effect,
@@ -1009,11 +1009,11 @@ import seaborn as sns
 
 def create_survey_report(analysis_results, data):
     """Generate comprehensive survey analysis report"""
-    
+
     # Set style
     plt.style.use('default')
     sns.set_palette("husl")
-    
+
     # Create report structure
     report_sections = {
         'methodology': create_methodology_section(),
@@ -1023,36 +1023,36 @@ def create_survey_report(analysis_results, data):
         'scale_analysis': create_scale_visualizations(data),
         'conclusions': create_conclusions_section()
     }
-    
+
     return report_sections
 
 def create_response_analysis(data):
     """Create response rate and quality analysis visualizations"""
-    
+
     fig, axes = plt.subplots(2, 3, figsize=(18, 12))
-    
+
     # Response completion by question
     completion_rates = (1 - data.isnull().mean()) * 100
     completion_rates.plot(kind='bar', ax=axes[0, 0])
     axes[0, 0].set_title('Question Completion Rates')
     axes[0, 0].set_ylabel('Completion Rate (%)')
     axes[0, 0].tick_params(axis='x', rotation=45)
-    
+
     # Response time distribution
     if 'response_time' in data.columns:
         data['response_time'].hist(bins=30, ax=axes[0, 1])
         axes[0, 1].set_title('Response Time Distribution')
         axes[0, 1].set_xlabel('Time (minutes)')
-        axes[0, 1].axvline(data['response_time'].median(), color='red', 
+        axes[0, 1].axvline(data['response_time'].median(), color='red',
                           linestyle='--', label=f'Median: {data["response_time"].median():.1f} min')
         axes[0, 1].legend()
-    
+
     # Demographic representation
     if 'age_group' in data.columns:
         age_dist = data['age_group'].value_counts()
         age_dist.plot(kind='pie', ax=axes[0, 2], autopct='%1.1f%%')
         axes[0, 2].set_title('Age Group Distribution')
-    
+
     # Response patterns over time
     if 'timestamp' in data.columns:
         data['date'] = pd.to_datetime(data['timestamp']).dt.date
@@ -1060,76 +1060,76 @@ def create_response_analysis(data):
         daily_responses.plot(ax=axes[1, 0])
         axes[1, 0].set_title('Daily Response Pattern')
         axes[1, 0].set_ylabel('Number of Responses')
-    
+
     # Device/mode analysis
     if 'device_type' in data.columns:
         device_counts = data['device_type'].value_counts()
         device_counts.plot(kind='bar', ax=axes[1, 1])
         axes[1, 1].set_title('Response Device Distribution')
         axes[1, 1].tick_params(axis='x', rotation=45)
-    
+
     # Data quality indicators
     quality_metrics = {
         'Complete Responses': (data.count(axis=1) == len(data.columns)).sum(),
-        'Partial Responses': ((data.count(axis=1) < len(data.columns)) & 
+        'Partial Responses': ((data.count(axis=1) < len(data.columns)) &
                              (data.count(axis=1) > len(data.columns) * 0.5)).sum(),
         'Minimal Responses': (data.count(axis=1) <= len(data.columns) * 0.5).sum()
     }
-    
-    plt.pie(quality_metrics.values(), labels=quality_metrics.keys(), 
+
+    plt.pie(quality_metrics.values(), labels=quality_metrics.keys(),
             autopct='%1.1f%%', ax=axes[1, 2])
     axes[1, 2].set_title('Response Quality Distribution')
-    
+
     plt.tight_layout()
     return fig
 
 def create_descriptive_visualizations(results, data):
     """Create comprehensive descriptive visualizations"""
-    
+
     # This would create multiple visualization figures
     # Based on the variable types and analysis results
-    
+
     visualizations = {}
-    
+
     # Continuous variables
     continuous_vars = data.select_dtypes(include=[np.number]).columns
     if len(continuous_vars) > 0:
         fig, axes = plt.subplots(2, 2, figsize=(15, 10))
-        
+
         # Distribution plots
         for i, var in enumerate(continuous_vars[:4]):
             row, col = i // 2, i % 2
             data[var].hist(bins=30, ax=axes[row, col], alpha=0.7)
             axes[row, col].set_title(f'Distribution of [VAR]')
-            axes[row, col].axvline(data[var].mean(), color='red', 
+            axes[row, col].axvline(data[var].mean(), color='red',
                                   linestyle='--', label=f'Mean: {data[var].mean():.2f}')
             axes[row, col].legend()
-        
+
         plt.tight_layout()
         visualizations['continuous_distributions'] = fig
-    
+
     # Categorical variables
     categorical_vars = data.select_dtypes(include=['object', 'category']).columns
     if len(categorical_vars) > 0:
         n_cats = min(len(categorical_vars), 6)
         fig, axes = plt.subplots(2, 3, figsize=(18, 12))
         axes = axes.flatten()
-        
+
         for i, var in enumerate(categorical_vars[:n_cats]):
             value_counts = data[var].value_counts()
             value_counts.plot(kind='bar', ax=axes[i])
             axes[i].set_title(f'Distribution of [VAR]')
             axes[i].tick_params(axis='x', rotation=45)
-        
+
         plt.tight_layout()
         visualizations['categorical_distributions'] = fig
-    
+
     return visualizations
 
 # Survey-specific reporting functions
 def generate_executive_summary(data, key_findings):
     """Generate executive summary of survey findings"""
-    
+
     summary = {
         'sample_characteristics': {
             'total_responses': len(data),
@@ -1137,30 +1137,30 @@ def generate_executive_summary(data, key_findings):
             'completion_rate': f"{(data.count(axis=1) / len(data.columns)).mean() * 100:.1f}%",
             'median_response_time': f"{data.get('response_time', pd.Series([0])).median():.1f} minutes"
         },
-        
+
         'key_findings': key_findings,
-        
+
         'demographic_profile': {
             'age_distribution': data.get('age_group', pd.Series()).value_counts().to_dict(),
             'gender_distribution': data.get('gender', pd.Series()).value_counts().to_dict(),
             'geographic_distribution': data.get('region', pd.Series()).value_counts().to_dict()
         },
-        
+
         'data_quality': {
             'missing_data_rate': f"{data.isnull().sum().sum() / (data.shape[0] * data.shape[1]) * 100:.1f}%",
             'questions_with_high_nonresponse': data.isnull().sum()[data.isnull().sum() > len(data) * 0.1].index.tolist(),
             'potential_data_quality_issues': []
         }
     }
-    
+
     return summary
 
 def format_survey_results_table(analysis_results):
     """Format survey results into publication-ready tables"""
-    
+
     # Create formatted tables for different types of results
     formatted_results = {}
-    
+
     # Descriptive statistics table
     if 'descriptive' in analysis_results:
         desc_data = []
@@ -1175,9 +1175,9 @@ def format_survey_results_table(analysis_results):
                     'Median': f"{stats['median']:.2f}",
                     'Range': f"{stats['min']:.1f} - {stats['max']:.1f}"
                 })
-        
+
         formatted_results['descriptive_table'] = pd.DataFrame(desc_data)
-    
+
     return formatted_results
 ```
 
@@ -1440,8 +1440,6 @@ Deliver comprehensive survey analysis including:
 - [AUDIT_TRAIL] - Audit trail maintenance procedures
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

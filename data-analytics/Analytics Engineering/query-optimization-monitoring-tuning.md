@@ -23,19 +23,19 @@ Implement comprehensive real-time performance monitoring, automated alerting sys
 ### For Performance Monitoring Setup
 Set up monitoring and automated tuning in 3 steps:
 
-1. **Deploy Real-Time Monitoring** (45-60 minutes)
+1. **Deploy Real-Time Monitoring**
    - Create the performance metrics view (lines 813-940) to track active queries
    - Set up monitoring dashboard to display: long-running queries, blocked sessions, high CPU/IO
    - Configure refresh interval (30-60 seconds) for near real-time visibility
    - Document performance thresholds: >5min = long-running, >80% CPU = high CPU
 
-2. **Configure Performance Alerts** (30-45 minutes)
+2. **Configure Performance Alerts**
    - Implement alert monitoring procedure (lines 943-1031) with JSON threshold configuration
    - Set alert thresholds: long_running (>10min), high_cpu (>75%), blocked (>5min)
    - Configure notification methods: email, SMS, Slack, PagerDuty
    - Test alerts with simulated performance issues
 
-3. **Enable Automated Tuning** (60-90 minutes)
+3. **Enable Automated Tuning**
    - Deploy auto-tuning procedure (lines 1037-1210) with REPORT mode first
    - Review recommended actions: missing indexes, outdated statistics, fragmented indexes
    - Schedule automated execution: daily statistics updates, weekly index maintenance

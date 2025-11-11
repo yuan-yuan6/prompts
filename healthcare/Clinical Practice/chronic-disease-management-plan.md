@@ -20,7 +20,7 @@ Develop comprehensive, long-term management plans for chronic diseases that inte
 
 ## Quick Start
 
-**HIPAA-Compliant Chronic Disease Management Plan (20-30 minutes):**
+**HIPAA-Compliant Chronic Disease Management Plan:**
 
 1. **Baseline Assessment** - Document disease duration, current status, complications, comorbidities in secure EHR
 2. **Set Long-Term Goals** - Establish 6-12 month targets with patient (e.g., "HbA1c <7%", "BP <130/80") using shared decision-making
@@ -76,7 +76,7 @@ Patient Factors:
 
 LONG-TERM TREATMENT GOALS:
 
-Primary Goals (6-12 months):
+Primary Goals:
 1. [LONG_TERM_GOAL_1] - Target: [GOAL_TARGET_1] - Timeline: [GOAL_TIMELINE_1]
    - Baseline: [BASELINE_1] - Measurement method: [MEASUREMENT_1]
 2. [LONG_TERM_GOAL_2] - Target: [GOAL_TARGET_2] - Timeline: [GOAL_TIMELINE_2]

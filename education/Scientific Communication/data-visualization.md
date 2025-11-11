@@ -56,9 +56,9 @@ Software Platform: [R/PYTHON/EXCEL/ILLUSTRATOR/SPECIALIZED_SOFTWARE]
 1. VISUALIZATION DESIGN PRINCIPLES
 
    ## Data-Driven Design Framework
-   
+
    ### Chart Type Selection Matrix
-   
+
    ```python
    visualization_mapping = {
        'comparison_data': {
@@ -133,9 +133,9 @@ Software Platform: [R/PYTHON/EXCEL/ILLUSTRATOR/SPECIALIZED_SOFTWARE]
        }
    }
    ```
-   
+
    ### Visual Hierarchy Principles
-   
+
    ```yaml
    design_hierarchy:
      primary_elements:
@@ -143,19 +143,19 @@ Software Platform: [R/PYTHON/EXCEL/ILLUSTRATOR/SPECIALIZED_SOFTWARE]
        - Key findings or patterns to emphasize
        - Primary axis and labels
        - Title communicating main message
-       
+
      secondary_elements:
        - Supporting data series
        - Secondary axes if needed
        - Legend and scale information
        - Subtitle with additional context
-       
+
      tertiary_elements:
        - Grid lines and reference marks
        - Minor tick marks and labels
        - Source attribution
        - Technical notes and caveats
-       
+
      enhancement_elements:
        - Annotations highlighting key points
        - Color coding for groupings
@@ -166,9 +166,9 @@ Software Platform: [R/PYTHON/EXCEL/ILLUSTRATOR/SPECIALIZED_SOFTWARE]
 2. COLOR AND AESTHETICS
 
    ## Color Strategy Framework
-   
+
    ### Scientific Color Palettes
-   
+
    ```python
    color_systems = {
        'categorical_data': {
@@ -200,7 +200,7 @@ Software Platform: [R/PYTHON/EXCEL/ILLUSTRATOR/SPECIALIZED_SOFTWARE]
        'accessibility_considerations': {
            'colorblind_types': {
                'protanomaly': 'Reduced red sensitivity (1% males)',
-               'deuteranomaly': 'Reduced green sensitivity (6% males)', 
+               'deuteranomaly': 'Reduced green sensitivity (6% males)',
                'tritanomaly': 'Reduced blue sensitivity (rare)',
                'achromatopsia': 'Complete color blindness (very rare)'
            },
@@ -213,24 +213,24 @@ Software Platform: [R/PYTHON/EXCEL/ILLUSTRATOR/SPECIALIZED_SOFTWARE]
        }
    }
    ```
-   
+
    ### Typography and Layout
-   
+
    ```markdown
    ## Text and Layout Guidelines
-   
+
    ### Font Selection
    - **Sans-serif fonts**: Arial, Helvetica, or journal-specific for clarity
    - **Consistent sizing**: Title (16-20pt), axis labels (12-14pt), tick labels (10-12pt)
    - **Weight hierarchy**: Bold for emphasis, regular for data, light for annotations
    - **Special characters**: Ensure Greek letters, subscripts, superscripts render correctly
-   
+
    ### Spacing and Alignment
    - **Margins**: Adequate white space around plot area (minimum 10% of total)
    - **Element spacing**: Consistent gaps between legend, labels, and plot
    - **Alignment**: Left-align text elements, center-align titles
    - **Proportions**: Golden ratio or rule-of-thirds for pleasing composition
-   
+
    ### Figure Dimensions
    - **Journal specifications**: Match target publication requirements
    - **Aspect ratios**: 4:3 or 16:9 for presentations, custom for publications
@@ -241,9 +241,9 @@ Software Platform: [R/PYTHON/EXCEL/ILLUSTRATOR/SPECIALIZED_SOFTWARE]
 3. STATISTICAL VISUALIZATION
 
    ## Data Accuracy and Integrity
-   
+
    ### Statistical Element Guidelines
-   
+
    ```python
    statistical_visualization = {
        'error_representation': {
@@ -286,9 +286,9 @@ Software Platform: [R/PYTHON/EXCEL/ILLUSTRATOR/SPECIALIZED_SOFTWARE]
        }
    }
    ```
-   
+
    ### Advanced Statistical Plots
-   
+
    ```yaml
    specialized_visualizations:
      regression_analysis:
@@ -297,20 +297,20 @@ Software Platform: [R/PYTHON/EXCEL/ILLUSTRATOR/SPECIALIZED_SOFTWARE]
          - Confidence band around regression line
          - R-squared and equation annotation
          - Residual plots for assumption checking
-         
+
        multiple_regression:
          - Partial regression plots
          - Added variable plots
          - Coefficient plots with confidence intervals
          - Model comparison visualizations
-         
+
      survival_analysis:
        kaplan_meier:
          - Step function survival curves
          - Confidence intervals for each group
          - Risk tables below main plot
          - Log-rank test results annotation
-         
+
      experimental_design:
        interaction_plots:
          - Main effects and interaction visualization
@@ -322,9 +322,9 @@ Software Platform: [R/PYTHON/EXCEL/ILLUSTRATOR/SPECIALIZED_SOFTWARE]
 4. SCIENTIFIC INFOGRAPHICS
 
    ## Complex Information Design
-   
+
    ### Infographic Architecture
-   
+
    ```python
    infographic_framework = {
        'information_hierarchy': {
@@ -363,24 +363,24 @@ Software Platform: [R/PYTHON/EXCEL/ILLUSTRATOR/SPECIALIZED_SOFTWARE]
        }
    }
    ```
-   
+
    ### Icon and Illustration Guidelines
-   
+
    ```markdown
    ## Visual Element Standards
-   
+
    ### Icon Design Principles
    - **Consistency**: Uniform style, weight, and complexity across all icons
    - **Recognition**: Use familiar symbols and conventions
    - **Scalability**: Clear at both large and small sizes
    - **Cultural sensitivity**: Consider international audience interpretation
-   
+
    ### Scientific Illustration
    - **Accuracy**: Precise representation of biological, chemical, or physical processes
    - **Simplification**: Remove unnecessary detail while maintaining accuracy
    - **Labeling**: Clear, readable labels with leader lines
    - **Color coding**: Consistent color meanings throughout illustration
-   
+
    ### Data Integration
    - **Chart embedding**: Seamlessly integrate data visualizations
    - **Scale coordination**: Ensure consistent scales across related charts
@@ -391,9 +391,9 @@ Software Platform: [R/PYTHON/EXCEL/ILLUSTRATOR/SPECIALIZED_SOFTWARE]
 5. INTERACTIVE VISUALIZATIONS
 
    ## Digital Enhancement Strategies
-   
+
    ### Interactivity Design
-   
+
    ```yaml
    interactive_elements:
      basic_interactions:
@@ -402,26 +402,26 @@ Software Platform: [R/PYTHON/EXCEL/ILLUSTRATOR/SPECIALIZED_SOFTWARE]
          - Additional context on demand
          - Cross-referencing with other data
          - Source attribution
-         
+
        zoom_and_pan:
          - Detailed exploration of dense data
          - Temporal navigation in time series
          - Spatial navigation in maps
          - Synchronized zooming across panels
-         
+
      advanced_features:
        filtering_controls:
          - Subset data by categories
          - Date range selection
          - Parameter adjustment sliders
          - Search and highlight functionality
-         
+
        linked_views:
          - Multiple charts showing same data
          - Selection propagation across views
          - Coordinated highlighting
          - Synchronized axis updates
-         
+
      animation_elements:
        temporal_progression:
          - Time-lapse data evolution
@@ -429,9 +429,9 @@ Software Platform: [R/PYTHON/EXCEL/ILLUSTRATOR/SPECIALIZED_SOFTWARE]
          - Before/after comparisons
          - Guided tour narration
    ```
-   
+
    ### Platform Considerations
-   
+
    ```python
    platform_requirements = {
        'web_based': {
@@ -458,18 +458,18 @@ Software Platform: [R/PYTHON/EXCEL/ILLUSTRATOR/SPECIALIZED_SOFTWARE]
 6. VISUAL ABSTRACTS
 
    ## Research Summary Visualization
-   
+
    ### Visual Abstract Framework
-   
+
    ```markdown
    ## Visual Abstract Design Strategy
-   
+
    ### Core Components
    1. **Study Question**: Visual representation of research problem
    2. **Methods Summary**: Simplified methodology illustration
    3. **Key Finding**: Primary result highlighted prominently
    4. **Implication**: What this means for field or practice
-   
+
    ### Design Templates
    ```python
    visual_abstract_layouts = {
@@ -499,9 +499,9 @@ Software Platform: [R/PYTHON/EXCEL/ILLUSTRATOR/SPECIALIZED_SOFTWARE]
        }
    }
    ```
-   
+
    ### Social Media Optimization
-   
+
    ```yaml
    platform_specifications:
      twitter:
@@ -509,19 +509,19 @@ Software Platform: [R/PYTHON/EXCEL/ILLUSTRATOR/SPECIALIZED_SOFTWARE]
        text_considerations: "Readable at small sizes"
        design_focus: "Single key message"
        engagement_tips: "Include relevant hashtags"
-       
+
      linkedin:
        dimensions: "1200 x 627 pixels (1.91:1 ratio)"
        text_considerations: "Professional tone"
        design_focus: "Research impact and applications"
        engagement_tips: "Tag relevant organizations"
-       
+
      instagram:
        dimensions: "1080 x 1080 pixels (1:1 square)"
        text_considerations: "Minimal text, visual emphasis"
        design_focus: "Engaging, story-driven"
        engagement_tips: "Use stories for multi-part content"
-       
+
      facebook:
        dimensions: "1200 x 630 pixels (1.91:1 ratio)"
        text_considerations: "Accessible language"
@@ -532,9 +532,9 @@ Software Platform: [R/PYTHON/EXCEL/ILLUSTRATOR/SPECIALIZED_SOFTWARE]
 7. PUBLICATION STANDARDS
 
    ## Journal and Conference Requirements
-   
+
    ### Technical Specifications
-   
+
    ```python
    publication_requirements = {
        'resolution_standards': {
@@ -571,12 +571,12 @@ Software Platform: [R/PYTHON/EXCEL/ILLUSTRATOR/SPECIALIZED_SOFTWARE]
        }
    }
    ```
-   
+
    ### Caption Writing Standards
-   
+
    ```markdown
    ## Figure Caption Framework
-   
+
    ### Caption Structure
    ```yaml
    caption_template:
@@ -584,29 +584,29 @@ Software Platform: [R/PYTHON/EXCEL/ILLUSTRATOR/SPECIALIZED_SOFTWARE]
        - Brief description of what figure shows
        - Clear indication of main finding
        - Connection to research question
-       
+
      methodological_details:
        - Sample sizes and groups
        - Statistical tests performed
        - Software used for analysis
        - Data transformation notes
-       
+
      interpretation_guidance:
        - Key patterns to notice
        - Statistical significance indicators
        - Effect sizes and confidence intervals
        - Limitations or caveats
-       
+
      technical_specifications:
        - Measurement units
        - Error bar definitions
        - Symbol/color meanings
        - Abbreviation definitions
    ```
-   
+
    ### Caption Examples
    ```markdown
-   **Figure 1. Treatment significantly reduces symptom severity over time.** 
+   **Figure 1. Treatment significantly reduces symptom severity over time.**
    Box plots show median and interquartile ranges for symptom scores in treatment (n=45, blue) and control (n=43, red) groups measured at baseline, 6 weeks, and 12 weeks post-intervention. Individual data points are overlaid. Two-way repeated measures ANOVA revealed significant group × time interaction (F(2,172)=8.34, p<0.001, η²=0.09). Post-hoc comparisons: *p<0.05, **p<0.01, ***p<0.001. Error bars represent 95% confidence intervals.
    ```
    ```
@@ -614,9 +614,9 @@ Software Platform: [R/PYTHON/EXCEL/ILLUSTRATOR/SPECIALIZED_SOFTWARE]
 8. ACCESSIBILITY AND INCLUSION
 
    ## Universal Design Principles
-   
+
    ### Accessibility Standards
-   
+
    ```python
    accessibility_framework = {
        'visual_accessibility': {
@@ -674,9 +674,9 @@ Software Platform: [R/PYTHON/EXCEL/ILLUSTRATOR/SPECIALIZED_SOFTWARE]
        }
    }
    ```
-   
+
    ### Inclusive Design Practices
-   
+
    ```yaml
    inclusive_visualization:
      cultural_considerations:
@@ -684,13 +684,13 @@ Software Platform: [R/PYTHON/EXCEL/ILLUSTRATOR/SPECIALIZED_SOFTWARE]
        - Use internationally recognized symbols
        - Consider different reading directions
        - Include diverse representation in examples
-       
+
      language_accessibility:
        - Clear, simple language in labels
        - Avoid idioms and colloquialisms
        - Provide translations when possible
        - Use standard scientific terminology
-       
+
      economic_accessibility:
        - Design for low-bandwidth viewing
        - Provide low-resolution alternatives
@@ -701,9 +701,9 @@ Software Platform: [R/PYTHON/EXCEL/ILLUSTRATOR/SPECIALIZED_SOFTWARE]
 9. SOFTWARE AND TOOLS
 
    ## Visualization Platform Selection
-   
+
    ### Tool Comparison Matrix
-   
+
    | Software | Strengths | Best For | Learning Curve | Cost |
    |----------|-----------|----------|---------------|------|
    | R + ggplot2 | Flexible, reproducible, publication-ready | Statistical visualizations, research | Moderate-High | Free |
@@ -714,9 +714,9 @@ Software Platform: [R/PYTHON/EXCEL/ILLUSTRATOR/SPECIALIZED_SOFTWARE]
    | Adobe Illustrator | Professional design, precise control | Publication figures, infographics | Moderate | Commercial |
    | GraphPad Prism | Statistics integrated, publication templates | Biomedical research | Low-Moderate | Commercial |
    | Stata | Statistical analysis integrated | Econometrics, social science | Moderate | Commercial |
-   
+
    ### Workflow Integration
-   
+
    ```python
    visualization_workflow = {
        'data_preparation': {
@@ -749,9 +749,9 @@ Software Platform: [R/PYTHON/EXCEL/ILLUSTRATOR/SPECIALIZED_SOFTWARE]
 10. ANIMATION AND MOTION GRAPHICS
 
     ## Dynamic Visualization Design
-    
+
     ### Animation Principles
-    
+
     ```yaml
     motion_design_guidelines:
       purpose_driven_animation:
@@ -759,28 +759,28 @@ Software Platform: [R/PYTHON/EXCEL/ILLUSTRATOR/SPECIALIZED_SOFTWARE]
         - Guide attention to key findings
         - Reveal data progressively
         - Demonstrate cause-and-effect relationships
-        
+
       timing_and_pacing:
         - Allow sufficient time for comprehension
         - Use consistent timing for similar elements
         - Provide pause/replay controls
         - Match animation speed to content complexity
-        
+
       transition_design:
         - Smooth, natural movement paths
         - Consistent easing functions
         - Maintain object constancy
         - Clear beginning and end states
-        
+
       cognitive_load_management:
         - Limit simultaneous moving elements
         - Use animation to reduce complexity
         - Provide static reference points
         - Include progress indicators
     ```
-    
+
     ### Technical Implementation
-    
+
     ```python
     animation_techniques = {
         'temporal_animations': {
@@ -825,33 +825,33 @@ Software Platform: [R/PYTHON/EXCEL/ILLUSTRATOR/SPECIALIZED_SOFTWARE]
 11. COLLABORATION AND REVIEW
 
     ## Team-Based Visualization Development
-    
+
     ### Collaborative Workflow
-    
+
     ```markdown
     ## Multi-Stakeholder Design Process
-    
+
     ### Stakeholder Roles
     - **Researchers**: Content expertise, data interpretation
     - **Designers**: Visual communication, accessibility
     - **Statisticians**: Analytical accuracy, appropriate methods
     - **Editors**: Publication standards, audience considerations
-    
+
     ### Review Stages
     1. **Conceptual review**: Overall approach and message clarity
-    2. **Technical review**: Data accuracy and statistical appropriateness  
+    2. **Technical review**: Data accuracy and statistical appropriateness
     3. **Design review**: Visual effectiveness and accessibility
     4. **Publication review**: Format compliance and final polish
-    
+
     ### Feedback Integration
     - **Version control**: Clear tracking of changes and decisions
     - **Comment systems**: Structured feedback collection
     - **Approval workflows**: Sign-off processes for each stage
     - **Documentation**: Rationale for design decisions
     ```
-    
+
     ### Quality Assurance Framework
-    
+
     ```python
     qa_checklist = {
         'data_integrity': [
@@ -884,9 +884,9 @@ Software Platform: [R/PYTHON/EXCEL/ILLUSTRATOR/SPECIALIZED_SOFTWARE]
 12. PROFESSIONAL DEVELOPMENT
 
     ## Skill Building and Recognition
-    
+
     ### Competency Development
-    
+
     ```yaml
     skill_progression:
       foundational_skills:
@@ -894,28 +894,28 @@ Software Platform: [R/PYTHON/EXCEL/ILLUSTRATOR/SPECIALIZED_SOFTWARE]
         - Color theory and application
         - Typography and layout principles
         - Statistical visualization basics
-        
+
       intermediate_skills:
         - Advanced statistical plots
         - Interactive visualization
         - Design software proficiency
         - Accessibility implementation
-        
+
       advanced_skills:
         - Custom visualization development
         - Animation and motion graphics
         - User experience design
         - Mentoring and training others
-        
+
       expert_skills:
         - Visualization research and innovation
         - Tool and method development
         - Community leadership
         - Cross-disciplinary collaboration
     ```
-    
+
     ### Portfolio and Recognition
-    
+
     ```python
     portfolio_development = {
         'work_documentation': {

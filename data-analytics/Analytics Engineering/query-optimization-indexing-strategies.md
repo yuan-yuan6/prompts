@@ -23,12 +23,12 @@ Design and implement comprehensive indexing strategies including effectiveness a
 ### For Index Optimization
 Optimize your indexing strategy in 3 steps:
 
-1. **Analyze Current Indexes** (30-45 minutes)
+1. **Analyze Current Indexes**
    - Run index effectiveness analysis (lines 311-421) to identify unused, duplicate, or inefficient indexes
    - Review read/write ratios to determine index value vs. maintenance cost
    - Flag indexes for removal if: total_reads = 0, user_updates > 10x reads, or duplicates exist
 
-2. **Identify Missing Indexes** (20-30 minutes)
+2. **Identify Missing Indexes**
    - Execute missing index queries (lines 230-248 from baseline) with priority scoring
    - Focus on indexes with avg_user_impact > 80% and user_seeks > 1000
    - Create implementation plan ordered by index_priority_score

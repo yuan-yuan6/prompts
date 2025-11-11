@@ -394,8 +394,6 @@ Lens Package:
 | `[CLIENT_SAT]` | Specify the client sat | "[specify value]" |
 | `[TEAM_PERFORM]` | Specify the team perform | "[specify value]" |
 
-
-
 ### 3. Production Workflow
 
 | **Production Phase** | **Daily Schedule** | **Shot List** | **Coverage Plan** | **Data Management** | **Quality Control** |
@@ -574,8 +572,6 @@ Engagement Analytics:
 
 ## Usage Examples
 
-
-
 ## Best Practices
 
 1. **Start with clear objectives** - Define what success looks like before beginning
@@ -667,8 +663,8 @@ Results: 1M subscribers, $30K monthly revenue
 - Corporate/Internal
 
 ### 5. Production Timeline
-- Rush (1-2 weeks)
-- Standard (1-2 months)
-- Extended (3-6 months)
-- Long-form (6-12 months)
+- Rush
+- Standard
+- Extended
+- Long-form
 - Multi-year Project

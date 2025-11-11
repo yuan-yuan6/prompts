@@ -100,10 +100,10 @@ Testing Type:
 
 Session Structure:
 - Session duration: [SESSION_DURATION]
-- Introduction: [INTRO_DURATION] (5-10 minutes)
-- Tasks: [TASKS_DURATION] (30-40 minutes)
-- Interview: [INTERVIEW_DURATION] (10-15 minutes)
-- Wrap-up: [WRAPUP_DURATION] (5 minutes)
+- Introduction: [INTRO_DURATION]
+- Tasks: [TASKS_DURATION]
+- Interview: [INTERVIEW_DURATION]
+- Wrap-up: [WRAPUP_DURATION]
 
 Test Environment:
 - Environment setup: [ENVIRONMENT_SETUP]

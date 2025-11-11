@@ -200,8 +200,6 @@ Feature Engineering:
 | `[AUGMENTATION_EVALUATION]` | Specify the augmentation evaluation | "[specify value]" |
 | `[AUGMENTATION_TOOLS]` | Specify the augmentation tools | "[specify value]" |
 
-
-
 ## Best Practices
 
 1. **Understand data thoroughly before processing**

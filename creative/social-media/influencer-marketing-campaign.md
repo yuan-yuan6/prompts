@@ -399,8 +399,6 @@ Micro Influencers (1K-10K):
 | `[NETWORK_VALUE]` | Specify the network value | "[specify value]" |
 | `[SECURITY_VALUE]` | Specify the security value | "[specify value]" |
 
-
-
 ### 3. Platform Strategy & Content Mix
 
 | **Platform** | **Audience Size** | **Content Types** | **Posting Frequency** | **Engagement Strategy** | **Performance Goals** |
@@ -571,8 +569,6 @@ Ambassador Programs:
 
 ## Usage Examples
 
-
-
 ## Best Practices
 
 1. **Start with clear objectives** - Define what success looks like before beginning
@@ -665,8 +661,8 @@ LTV Impact: $2M revenue
 - Employee Advocacy
 
 ### 5. Duration
-- Flash Campaign (1-2 weeks)
-- Short-term (1-3 months)
-- Seasonal (3-6 months)
+- Flash Campaign
+- Short-term
+- Seasonal
 - Annual Partnership
 - Always-On Program

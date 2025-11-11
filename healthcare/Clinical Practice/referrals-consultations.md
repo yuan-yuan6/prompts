@@ -82,7 +82,7 @@ Demographics:
 
 ### Specific Questions for Consultant
 1. [CONSULTATION_QUESTION_1]
-2. [CONSULTATION_QUESTION_2]  
+2. [CONSULTATION_QUESTION_2]
 3. [CONSULTATION_QUESTION_3]
 4. [CONSULTATION_QUESTION_4]
 
@@ -113,7 +113,7 @@ Duration: [SYMPTOM_DURATION]
 ### Review of Systems
 ### Pertinent Positives
 - [ROS_POSITIVE_1]: [ROS_POSITIVE_DETAIL_1]
-- [ROS_POSITIVE_2]: [ROS_POSITIVE_DETAIL_2]  
+- [ROS_POSITIVE_2]: [ROS_POSITIVE_DETAIL_2]
 - [ROS_POSITIVE_3]: [ROS_POSITIVE_DETAIL_3]
 
 ### Pertinent Negatives
@@ -240,7 +240,7 @@ Specialty-Specific Labs:
 1. [IMAGING_STUDY_1] - Date: [IMAGING_DATE_1] - Facility: [IMAGING_FACILITY_1]
    Findings: [IMAGING_FINDINGS_1]
    Impression: [IMAGING_IMPRESSION_1]
-   
+
 2. [IMAGING_STUDY_2] - Date: [IMAGING_DATE_2] - Facility: [IMAGING_FACILITY_2]
    Findings: [IMAGING_FINDINGS_2]
    Impression: [IMAGING_IMPRESSION_2]
@@ -263,7 +263,7 @@ Specialty-Specific Labs:
 
 ### Differential Diagnosis
 1. [DIFFERENTIAL_1] - Likelihood: [LIKELIHOOD_1] - Supporting evidence: [EVIDENCE_1]
-2. [DIFFERENTIAL_2] - Likelihood: [LIKELIHOOD_2] - Supporting evidence: [EVIDENCE_2]  
+2. [DIFFERENTIAL_2] - Likelihood: [LIKELIHOOD_2] - Supporting evidence: [EVIDENCE_2]
 3. [DIFFERENTIAL_3] - Likelihood: [LIKELIHOOD_3] - Supporting evidence: [EVIDENCE_3]
 
 ### Problem List
@@ -438,7 +438,7 @@ Follow-up Plans:
 
 ### Expected Outcomes
 - Diagnostic clarification: [DIAGNOSTIC_CLARIFICATION_EXPECTED]
-- Treatment recommendations: [TREATMENT_RECOMMENDATIONS_EXPECTED]  
+- Treatment recommendations: [TREATMENT_RECOMMENDATIONS_EXPECTED]
 - Procedural evaluation: [PROCEDURAL_EVALUATION_EXPECTED]
 - Long-term management plan: [LONG_TERM_MANAGEMENT_EXPECTED]
 
@@ -481,8 +481,6 @@ Referral quality: [REFERRAL_QUALITY_RATING]
 [400+ variables covering comprehensive referral and consultation communication including patient information, clinical history, diagnostic workup, consultation requests, coordination needs, and quality measures]
 
 ## Usage Examples
-
-
 
 ## Best Practices
 
