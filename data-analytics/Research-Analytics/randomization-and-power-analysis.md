@@ -1,0 +1,741 @@
+---
+title: Randomization and Power Analysis
+category: data-analytics/Research-Analytics
+tags: [automation, data-analytics, research, statistics, template]
+use_cases:
+  - Plan and execute randomization procedures, calculate sample sizes, and perform comprehensive power analyses for experimental studies to ensure adequate statistical power and valid treatment allocation
+related_templates:
+  - data-analytics/Research Analytics/experimental-design-setup.md
+  - data-analytics/Research Analytics/treatment-effect-analysis.md
+  - data-analytics/Research Analytics/validity-and-diagnostics.md
+last_updated: 2025-11-10
+---
+
+# Randomization and Power Analysis
+
+## Purpose
+Plan pre-experiment procedures including randomization methods and power analysis. This prompt helps you implement various randomization techniques (simple, block, stratified, cluster, adaptive) and calculate required sample sizes for different statistical tests to ensure your experiment has adequate power to detect meaningful effects.
+
+## Quick Start
+
+**Example: Power Analysis and Stratified Randomization for Mobile App Pricing Test**
+
+```
+You are an experimental design expert. Perform power analysis and set up stratified randomization for a mobile app pricing experiment.
+
+EXPERIMENT DETAILS:
+- Test: Three pricing strategies (Control: $9.99/mo, Treatment A: $7.99/mo, Treatment B: Freemium + $14.99/mo)
+- Primary metric: 30-day conversion rate
+- Baseline conversion rate: 3.5% (historical data)
+- Minimum detectable effect: 0.7 percentage points (20% relative increase)
+- Statistical power: 80%
+- Significance level: α = 0.05 (two-tailed)
+- Allocation: Equal across three groups (1:1:1)
+
+STRATIFICATION:
+- User segment: new users vs. trial users (50/50 split)
+- Device type: iOS vs. Android (60/40 split)
+
+REQUIREMENTS:
+1. Calculate required sample size per pricing group using proportion test
+2. Show power curves for sample sizes ranging from 3,000 to 8,000 per group
+3. Calculate minimum detectable effect for different sample sizes
+4. Design stratified randomization that maintains 1:1:1 allocation within each stratum
+5. Generate randomization allocation with reproducible seed
+6. Verify balance across strata after randomization
+7. Provide sample size recommendations with justification
+
+OUTPUT:
+- Complete power analysis results with visualizations
+- Required sample size calculation with assumptions
+- Stratified randomization implementation code
+- Balance verification tables
+- Sensitivity analysis for key assumptions
+```
+
+## Template
+
+```
+You are an experimental design expert. Perform power analysis and randomization for [RESEARCH_OBJECTIVE] testing [HYPOTHESIS] with [PARTICIPANTS/UNITS].
+
+POWER ANALYSIS SPECIFICATIONS:
+Test Configuration:
+- Test type: [TEST_TYPE]  # ttest, anova, proportion, correlation, regression
+- Outcome type: [OUTCOME_TYPE]  # continuous, binary, count
+- Baseline value: [BASELINE_VALUE]
+- Expected effect size: [EFFECT_SIZE]
+- Minimum detectable effect: [MDE]
+- Statistical power: [STATISTICAL_POWER]
+- Significance level: [ALPHA_LEVEL]
+- Test direction: [TAIL_TYPE]  # one-sided, two-sided
+
+Design Parameters:
+- Number of groups: [N_GROUPS]
+- Allocation ratio: [ALLOCATION_RATIO]
+- Expected attrition rate: [ATTRITION_RATE]
+- Study duration: [STUDY_DURATION]
+
+RANDOMIZATION SPECIFICATIONS:
+Method Configuration:
+- Randomization method: [RANDOMIZATION_METHOD]  # simple, block, stratified, cluster, adaptive
+- Randomization unit: [RANDOMIZATION_UNIT]
+- Random seed: [RANDOM_SEED]
+- Allocation ratio: [ALLOCATION_RATIO]
+
+For Block Randomization:
+- Block size: [BLOCK_SIZE]
+- Number of blocks: [N_BLOCKS]
+
+For Stratified Randomization:
+- Stratification variables: [STRATIFICATION_VARS]
+- Strata combinations: [N_STRATA]
+
+For Cluster Randomization:
+- Cluster identifier: [CLUSTER_ID]
+- Number of clusters: [N_CLUSTERS]
+- Cluster sizes: [CLUSTER_SIZES]
+
+For Adaptive Randomization:
+- Imbalance tolerance: [IMBALANCE_TOLERANCE]
+- Adjustment probability: [ADJUSTMENT_PROBABILITY]
+
+REQUIRED ANALYSES:
+1. Sample size calculation with justification
+2. Power curves showing power vs. sample size
+3. Effect size sensitivity analysis
+4. Randomization implementation with verification
+5. Balance assessment across baseline characteristics
+6. Practical recommendations for implementation
+
+DELIVERABLES:
+- Power analysis report with all calculations
+- Sample size recommendation table
+- Randomization code with reproducible seed
+- Allocation verification results
+- Implementation timeline
+- Contingency planning for recruitment challenges
+```
+
+## Randomization Methods
+
+### Advanced Randomization Implementation
+
+```python
+import numpy as np
+import pandas as pd
+import random
+from scipy import stats
+
+class RandomizationManager:
+    def __init__(self, seed=None):
+        self.seed = seed
+        if seed:
+            np.random.seed(seed)
+            random.seed(seed)
+
+    def simple_randomization(self, n_participants, allocation_ratio=0.5):
+        """Simple randomization with specified allocation ratio"""
+
+        assignments = np.random.choice(
+            ['control', 'treatment'],
+            size=n_participants,
+            p=[1-allocation_ratio, allocation_ratio]
+        )
+
+        allocation_result = {
+            'method': 'Simple Randomization',
+            'assignments': assignments,
+            'control_count': np.sum(assignments == 'control'),
+            'treatment_count': np.sum(assignments == 'treatment'),
+            'actual_ratio': np.mean(assignments == 'treatment'),
+            'target_ratio': allocation_ratio
+        }
+
+        return allocation_result
+
+    def block_randomization(self, n_participants, block_size=4, allocation_ratio=0.5):
+        """Block randomization to ensure balance in allocation"""
+
+        n_treatment_per_block = int(block_size * allocation_ratio)
+        n_control_per_block = block_size - n_treatment_per_block
+
+        # Create block template
+        block_template = ['treatment'] * n_treatment_per_block + ['control'] * n_control_per_block
+
+        assignments = []
+        n_complete_blocks = n_participants // block_size
+
+        # Assign complete blocks
+        for _ in range(n_complete_blocks):
+            block = block_template.copy()
+            np.random.shuffle(block)
+            assignments.extend(block)
+
+        # Handle remaining participants
+        remaining = n_participants % block_size
+        if remaining > 0:
+            final_block = block_template[:remaining].copy()
+            np.random.shuffle(final_block)
+            assignments.extend(final_block)
+
+        allocation_result = {
+            'method': 'Block Randomization',
+            'block_size': block_size,
+            'n_blocks': n_complete_blocks + (1 if remaining > 0 else 0),
+            'assignments': assignments,
+            'control_count': assignments.count('control'),
+            'treatment_count': assignments.count('treatment'),
+            'balance_achieved': True
+        }
+
+        return allocation_result
+
+    def stratified_randomization(self, participants_df, strata_vars, allocation_ratio=0.5):
+        """Stratified randomization maintaining balance within strata"""
+
+        assignments = []
+        strata_info = []
+
+        # Group by strata
+        for strata_values, group in participants_df.groupby(strata_vars):
+            n_in_stratum = len(group)
+            n_treatment = int(n_in_stratum * allocation_ratio)
+            n_control = n_in_stratum - n_treatment
+
+            # Randomize within stratum
+            stratum_assignments = ['treatment'] * n_treatment + ['control'] * n_control
+            np.random.shuffle(stratum_assignments)
+
+            assignments.extend(stratum_assignments)
+
+            strata_info.append({
+                'strata': strata_values,
+                'n_participants': n_in_stratum,
+                'n_treatment': n_treatment,
+                'n_control': n_control,
+                'treatment_ratio': n_treatment / n_in_stratum
+            })
+
+        allocation_result = {
+            'method': 'Stratified Randomization',
+            'strata_variables': strata_vars,
+            'assignments': assignments,
+            'strata_details': strata_info,
+            'overall_balance': assignments.count('treatment') / len(assignments)
+        }
+
+        return allocation_result
+
+    def cluster_randomization(self, clusters_df, cluster_id_col, allocation_ratio=0.5):
+        """Cluster-level randomization"""
+
+        unique_clusters = clusters_df[cluster_id_col].unique()
+        n_clusters = len(unique_clusters)
+        n_treatment_clusters = int(n_clusters * allocation_ratio)
+
+        # Randomize clusters
+        treatment_clusters = np.random.choice(
+            unique_clusters,
+            size=n_treatment_clusters,
+            replace=False
+        )
+
+        # Assign all participants in cluster
+        assignments = []
+        for _, row in clusters_df.iterrows():
+            if row[cluster_id_col] in treatment_clusters:
+                assignments.append('treatment')
+            else:
+                assignments.append('control')
+
+        allocation_result = {
+            'method': 'Cluster Randomization',
+            'n_clusters': n_clusters,
+            'treatment_clusters': treatment_clusters,
+            'control_clusters': [c for c in unique_clusters if c not in treatment_clusters],
+            'assignments': assignments,
+            'cluster_level_balance': len(treatment_clusters) / n_clusters
+        }
+
+        return allocation_result
+
+    def adaptive_randomization(self, current_assignments, next_participant_strata,
+                              target_ratio=0.5, imbalance_tolerance=0.1):
+        """Adaptive randomization based on current imbalance"""
+
+        current_treatment_ratio = np.mean([a == 'treatment' for a in current_assignments])
+        imbalance = abs(current_treatment_ratio - target_ratio)
+
+        if imbalance > imbalance_tolerance:
+            # Bias toward underrepresented group
+            if current_treatment_ratio < target_ratio:
+                treatment_probability = 0.7
+            else:
+                treatment_probability = 0.3
+        else:
+            treatment_probability = target_ratio
+
+        assignment = np.random.choice(
+            ['control', 'treatment'],
+            p=[1-treatment_probability, treatment_probability]
+        )
+
+        return {
+            'assignment': assignment,
+            'current_imbalance': imbalance,
+            'treatment_probability_used': treatment_probability,
+            'adaptive_adjustment': imbalance > imbalance_tolerance
+        }
+
+    def minimization_algorithm(self, participant_characteristics, existing_assignments,
+                              factor_weights=None):
+        """Minimization algorithm for treatment allocation"""
+
+        if factor_weights is None:
+            factor_weights = {factor: 1.0 for factor in participant_characteristics.keys()}
+
+        # Calculate imbalance for each treatment assignment
+        imbalance_scores = {}
+
+        for treatment in ['control', 'treatment']:
+            score = 0
+            test_assignment = existing_assignments + [treatment]
+
+            for factor, value in participant_characteristics.items():
+                # Calculate imbalance for this factor
+                factor_assignments = [assign for assign, char in
+                                    zip(test_assignment,
+                                        [existing_assignments[i][factor] for i in range(len(existing_assignments))] +
+                                        [participant_characteristics])]
+
+                treatment_count = sum(1 for assign in factor_assignments if assign == 'treatment')
+                control_count = len(factor_assignments) - treatment_count
+
+                imbalance = abs(treatment_count - control_count)
+                score += imbalance * factor_weights[factor]
+
+            imbalance_scores[treatment] = score
+
+        # Choose assignment that minimizes imbalance
+        best_assignment = min(imbalance_scores, key=imbalance_scores.get)
+
+        return {
+            'assignment': best_assignment,
+            'imbalance_scores': imbalance_scores,
+            'method': 'minimization'
+        }
+
+# Initialize randomization manager
+randomizer = RandomizationManager(seed=[RANDOM_SEED])
+
+# Perform randomization based on method
+randomization_result = randomizer.[RANDOMIZATION_METHOD](
+    n_participants=[N_PARTICIPANTS],
+    allocation_ratio=[ALLOCATION_RATIO]
+)
+```
+
+## Power Analysis Framework
+
+### Comprehensive Power and Sample Size Calculations
+
+```python
+from statsmodels.stats.power import TTestPower, FTestAnovaPower
+from statsmodels.stats.proportion import proportion_effectsize, proportions_ztest
+from statsmodels.stats.contingency_tables import mcnemar
+import scipy.stats as stats
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+class PowerAnalyzer:
+    def __init__(self):
+        self.power_calculators = {
+            'ttest': TTestPower(),
+            'anova': FTestAnovaPower(),
+            'proportion': self.proportion_power_analysis,
+            'correlation': self.correlation_power_analysis,
+            'regression': self.regression_power_analysis
+        }
+
+    def comprehensive_power_analysis(self, test_type, effect_size, alpha=0.05, power=0.8, **kwargs):
+        """Perform comprehensive power analysis for different test types"""
+
+        if test_type == 'ttest':
+            return self.ttest_power_analysis(effect_size, alpha, power, **kwargs)
+        elif test_type == 'anova':
+            return self.anova_power_analysis(effect_size, alpha, power, **kwargs)
+        elif test_type == 'proportion':
+            return self.proportion_power_analysis(effect_size, alpha, power, **kwargs)
+        elif test_type == 'correlation':
+            return self.correlation_power_analysis(effect_size, alpha, power, **kwargs)
+        elif test_type == 'regression':
+            return self.regression_power_analysis(effect_size, alpha, power, **kwargs)
+        else:
+            raise ValueError(f"Unknown test type: {test_type}")
+
+    def ttest_power_analysis(self, effect_size, alpha=0.05, power=0.8,
+                           test_type='two-sample', alternative='two-sided'):
+        """T-test power analysis"""
+
+        power_calc = TTestPower()
+
+        # Calculate required sample size
+        sample_size = power_calc.solve_power(
+            effect_size=effect_size,
+            power=power,
+            alpha=alpha,
+            ratio=1,  # Equal group sizes
+            alternative=alternative
+        )
+
+        # Power curve data
+        sample_sizes = np.arange(5, int(sample_size * 2), 5)
+        power_values = power_calc.solve_power(
+            effect_size=effect_size,
+            nobs=sample_sizes,
+            alpha=alpha,
+            alternative=alternative
+        )
+
+        # Effect size curve data
+        effect_sizes = np.arange(0.1, 2.0, 0.1)
+        power_by_effect = power_calc.solve_power(
+            effect_size=effect_sizes,
+            nobs=sample_size,
+            alpha=alpha,
+            alternative=alternative
+        )
+
+        results = {
+            'test_type': 'T-test',
+            'required_sample_size_per_group': int(np.ceil(sample_size)),
+            'total_sample_size': int(np.ceil(sample_size * 2)),
+            'effect_size': effect_size,
+            'power': power,
+            'alpha': alpha,
+            'alternative': alternative,
+            'power_curve': {
+                'sample_sizes': sample_sizes,
+                'power_values': power_values
+            },
+            'effect_size_curve': {
+                'effect_sizes': effect_sizes,
+                'power_values': power_by_effect
+            }
+        }
+
+        return results
+
+    def anova_power_analysis(self, effect_size, alpha=0.05, power=0.8, k_groups=3):
+        """ANOVA power analysis"""
+
+        power_calc = FTestAnovaPower()
+
+        # Calculate required sample size
+        sample_size = power_calc.solve_power(
+            effect_size=effect_size,
+            alpha=alpha,
+            power=power,
+            k_groups=k_groups
+        )
+
+        results = {
+            'test_type': 'One-way ANOVA',
+            'required_sample_size_per_group': int(np.ceil(sample_size)),
+            'total_sample_size': int(np.ceil(sample_size * k_groups)),
+            'effect_size_f': effect_size,
+            'k_groups': k_groups,
+            'power': power,
+            'alpha': alpha
+        }
+
+        return results
+
+    def proportion_power_analysis(self, effect_size, alpha=0.05, power=0.8,
+                                 baseline_rate=0.1, **kwargs):
+        """Proportion test power analysis"""
+
+        # Convert effect size to actual proportions
+        p1 = baseline_rate
+        p2 = baseline_rate + effect_size
+
+        # Ensure valid probabilities
+        p2 = max(0, min(1, p2))
+
+        # Calculate effect size (Cohen's h)
+        h = proportion_effectsize(p1, p2)
+
+        # Calculate sample size using normal approximation
+        z_alpha = stats.norm.ppf(1 - alpha/2)
+        z_beta = stats.norm.ppf(power)
+
+        # Pooled proportion
+        p_pooled = (p1 + p2) / 2
+
+        # Sample size calculation
+        n = ((z_alpha * np.sqrt(2 * p_pooled * (1 - p_pooled)) +
+              z_beta * np.sqrt(p1 * (1 - p1) + p2 * (1 - p2))) ** 2) / (p1 - p2) ** 2
+
+        results = {
+            'test_type': 'Proportion test',
+            'required_sample_size_per_group': int(np.ceil(n)),
+            'total_sample_size': int(np.ceil(n * 2)),
+            'baseline_proportion': p1,
+            'treatment_proportion': p2,
+            'effect_size_difference': effect_size,
+            'effect_size_h': h,
+            'power': power,
+            'alpha': alpha
+        }
+
+        return results
+
+    def correlation_power_analysis(self, effect_size, alpha=0.05, power=0.8, **kwargs):
+        """Correlation power analysis"""
+
+        # Sample size for correlation
+        z_alpha = stats.norm.ppf(1 - alpha/2)
+        z_beta = stats.norm.ppf(power)
+
+        # Fisher's z transformation
+        z_r = 0.5 * np.log((1 + effect_size) / (1 - effect_size))
+
+        # Sample size
+        n = ((z_alpha + z_beta) / z_r) ** 2 + 3
+
+        results = {
+            'test_type': 'Correlation',
+            'required_sample_size': int(np.ceil(n)),
+            'correlation_coefficient': effect_size,
+            'power': power,
+            'alpha': alpha,
+            'fishers_z': z_r
+        }
+
+        return results
+
+    def regression_power_analysis(self, effect_size, alpha=0.05, power=0.8,
+                                 n_predictors=1, **kwargs):
+        """Multiple regression power analysis"""
+
+        # Effect size f² to R²
+        r_squared = effect_size / (1 + effect_size)
+
+        # Degrees of freedom
+        df1 = n_predictors
+
+        # Critical F value
+        f_alpha = stats.f.ppf(1 - alpha, df1, 1000)  # Large df2 approximation
+
+        # Non-centrality parameter
+        lambda_power = stats.ncf.ppf(power, df1, 1000, f_alpha)
+
+        # Sample size
+        n = lambda_power / effect_size + n_predictors + 1
+
+        results = {
+            'test_type': 'Multiple Regression',
+            'required_sample_size': int(np.ceil(n)),
+            'effect_size_f2': effect_size,
+            'r_squared': r_squared,
+            'n_predictors': n_predictors,
+            'power': power,
+            'alpha': alpha
+        }
+
+        return results
+
+    def minimum_detectable_effect(self, test_type, sample_size, alpha=0.05, power=0.8, **kwargs):
+        """Calculate minimum detectable effect for given sample size"""
+
+        if test_type == 'ttest':
+            power_calc = TTestPower()
+            mde = power_calc.solve_power(
+                power=power,
+                nobs=sample_size,
+                alpha=alpha,
+                alternative='two-sided'
+            )
+        elif test_type == 'proportion':
+            # Simplified calculation for proportion test MDE
+            z_alpha = stats.norm.ppf(1 - alpha/2)
+            z_beta = stats.norm.ppf(power)
+            baseline_rate = kwargs.get('baseline_rate', 0.1)
+
+            mde = (z_alpha + z_beta) * np.sqrt(2 * baseline_rate * (1 - baseline_rate)) / np.sqrt(sample_size)
+
+        return mde
+
+    def power_sensitivity_analysis(self, test_type, base_params, param_ranges):
+        """Perform sensitivity analysis on power calculations"""
+
+        sensitivity_results = {}
+
+        for param, param_range in param_ranges.items():
+            results = []
+            for value in param_range:
+                params = base_params.copy()
+                params[param] = value
+
+                if test_type == 'ttest':
+                    power_calc = TTestPower()
+                    if param == 'sample_size':
+                        power = power_calc.solve_power(nobs=value, **{k:v for k,v in params.items() if k != 'sample_size'})
+                        results.append({'value': value, 'power': power})
+                    elif param == 'effect_size':
+                        power = power_calc.solve_power(effect_size=value, **{k:v for k,v in params.items() if k != 'effect_size'})
+                        results.append({'value': value, 'power': power})
+
+            sensitivity_results[param] = results
+
+        return sensitivity_results
+
+    def create_power_visualizations(self, power_results):
+        """Create power analysis visualizations"""
+
+        fig, axes = plt.subplots(2, 2, figsize=(15, 12))
+
+        # Power vs Sample Size
+        if 'power_curve' in power_results:
+            power_curve = power_results['power_curve']
+            axes[0, 0].plot(power_curve['sample_sizes'], power_curve['power_values'])
+            axes[0, 0].axhline(y=0.8, color='r', linestyle='--', label='Power = 0.8')
+            axes[0, 0].axvline(x=power_results['required_sample_size_per_group'], color='r', linestyle='--', label=f'Required N = {power_results["required_sample_size_per_group"]}')
+            axes[0, 0].set_xlabel('Sample Size per Group')
+            axes[0, 0].set_ylabel('Statistical Power')
+            axes[0, 0].set_title('Power vs Sample Size')
+            axes[0, 0].legend()
+            axes[0, 0].grid(True)
+
+        # Power vs Effect Size
+        if 'effect_size_curve' in power_results:
+            effect_curve = power_results['effect_size_curve']
+            axes[0, 1].plot(effect_curve['effect_sizes'], effect_curve['power_values'])
+            axes[0, 1].axhline(y=0.8, color='r', linestyle='--', label='Power = 0.8')
+            axes[0, 1].axvline(x=power_results['effect_size'], color='r', linestyle='--', label=f'Target Effect Size = {power_results["effect_size"]}')
+            axes[0, 1].set_xlabel('Effect Size')
+            axes[0, 1].set_ylabel('Statistical Power')
+            axes[0, 1].set_title('Power vs Effect Size')
+            axes[0, 1].legend()
+            axes[0, 1].grid(True)
+
+        plt.tight_layout()
+        return fig
+
+# Perform power analysis
+power_analyzer = PowerAnalyzer()
+power_results = power_analyzer.comprehensive_power_analysis(
+    test_type='[TEST_TYPE]',
+    effect_size=[EFFECT_SIZE],
+    alpha=[ALPHA_LEVEL],
+    power=[STATISTICAL_POWER]
+)
+
+mde_analysis = power_analyzer.minimum_detectable_effect(
+    test_type='[TEST_TYPE]',
+    sample_size=[SAMPLE_SIZE],
+    alpha=[ALPHA_LEVEL],
+    power=[STATISTICAL_POWER]
+)
+```
+
+## Variables
+
+### Randomization Variables
+- [RANDOMIZATION_METHOD] - Randomization method (simple, block, stratified, cluster, adaptive)
+- [RANDOM_SEED] - Seed for reproducible randomization
+- [ALLOCATION_RATIO] - Treatment allocation ratio
+- [N_PARTICIPANTS] - Total number of participants
+- [BLOCK_SIZE] - Block size for block randomization
+- [STRATIFICATION_VARS] - Variables for stratification
+- [CLUSTER_ID] - Cluster identifier variable
+- [IMBALANCE_TOLERANCE] - Tolerance for imbalance in adaptive randomization
+
+### Power Analysis Variables
+- [TEST_TYPE] - Statistical test type (ttest, anova, proportion, correlation, regression)
+- [EFFECT_SIZE] - Expected effect size
+- [ALPHA_LEVEL] - Type I error rate (significance level)
+- [STATISTICAL_POWER] - Desired statistical power
+- [SAMPLE_SIZE] - Sample size for calculations
+- [MDE] - Minimum detectable effect
+- [BASELINE_VALUE] - Baseline value for outcome
+- [N_GROUPS] - Number of groups in study
+- [K_GROUPS] - Number of groups for ANOVA
+- [N_PREDICTORS] - Number of predictors for regression
+- [TAIL_TYPE] - One-sided or two-sided test
+- [ATTRITION_RATE] - Expected attrition/dropout rate
+
+## Usage Examples
+
+### Example 1: Simple Randomization with Power Analysis
+```python
+# Power analysis
+power_analyzer = PowerAnalyzer()
+power_results = power_analyzer.ttest_power_analysis(
+    effect_size=0.5,
+    alpha=0.05,
+    power=0.8,
+    alternative='two-sided'
+)
+
+print(f"Required sample size per group: {power_results['required_sample_size_per_group']}")
+
+# Randomization
+randomizer = RandomizationManager(seed=42)
+allocation = randomizer.simple_randomization(
+    n_participants=power_results['total_sample_size'],
+    allocation_ratio=0.5
+)
+
+print(f"Treatment: {allocation['treatment_count']}, Control: {allocation['control_count']}")
+```
+
+### Example 2: Stratified Randomization for Multi-Group Study
+```python
+# Create participant data with strata
+participants = pd.DataFrame({
+    'participant_id': range(1, 301),
+    'age_group': np.random.choice(['young', 'middle', 'old'], 300),
+    'gender': np.random.choice(['male', 'female'], 300)
+})
+
+# Stratified randomization
+randomizer = RandomizationManager(seed=123)
+allocation = randomizer.stratified_randomization(
+    participants_df=participants,
+    strata_vars=['age_group', 'gender'],
+    allocation_ratio=0.5
+)
+
+# Check balance within strata
+for stratum in allocation['strata_details']:
+    print(f"Strata {stratum['strata']}: Treatment={stratum['n_treatment']}, Control={stratum['n_control']}")
+```
+
+### Example 3: Proportion Test Power Analysis
+```python
+# Power analysis for conversion rate test
+power_results = power_analyzer.proportion_power_analysis(
+    effect_size=0.02,  # 2 percentage point increase
+    alpha=0.05,
+    power=0.8,
+    baseline_rate=0.10  # 10% baseline conversion
+)
+
+print(f"Required sample per group: {power_results['required_sample_size_per_group']}")
+print(f"Baseline: {power_results['baseline_proportion']:.1%}")
+print(f"Expected treatment: {power_results['treatment_proportion']:.1%}")
+```
+
+## Best Practices
+
+1. **Set Random Seed** - Always use a random seed for reproducible randomization
+2. **Verify Balance** - Check covariate balance after randomization
+3. **Use Appropriate Method** - Match randomization method to study design
+4. **Account for Clustering** - Use cluster randomization when appropriate
+5. **Power for Primary Outcome** - Base sample size on primary outcome only
+6. **Conservative Estimates** - Use conservative effect size estimates
+7. **Account for Attrition** - Oversample to compensate for expected dropout
+8. **Document Assumptions** - Record all power analysis assumptions
+9. **Sensitivity Analysis** - Test robustness of sample size to assumption changes
+10. **Block When Possible** - Use block randomization to guarantee exact balance

@@ -2,9 +2,9 @@
 category: technology
 last_updated: 2025-11-09
 related_templates:
-- game-design-framework.md
-- game-development-pipeline.md
-- content-production-framework.md
+- content-creation/Gaming/game-design-framework.md
+- content-creation/Gaming/game-development-pipeline.md
+- content-creation/Gaming/content-production-framework.md
 tags:
 - automation
 - design

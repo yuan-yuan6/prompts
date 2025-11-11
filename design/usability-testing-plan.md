@@ -7,9 +7,9 @@ use_cases:
   - Validating design decisions with real users
   - Collecting actionable feedback for iteration
 related_templates:
-  - creative/Design & Visual/prototype-development.md
-  - creative/Design & Visual/wireframe-design.md
-  - creative/Design & Visual/ux-ui-design-overview.md
+  - design/prototype-development.md
+  - design/wireframe-design.md
+  - design/ux-ui-design-overview.md
 last_updated: 2025-11-09
 ---
 

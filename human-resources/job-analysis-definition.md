@@ -7,9 +7,9 @@ use_cases:
   - Defining role competencies and success metrics
   - Establishing qualification frameworks for open positions
 related_templates:
-  - business/Human Resources/candidate-sourcing-branding.md
-  - business/Human Resources/screening-interview-process.md
-  - business/Human Resources/candidate-assessment-selection.md
+  - human-resources/candidate-sourcing-branding.md
+  - human-resources/screening-interview-process.md
+  - human-resources/candidate-assessment-selection.md
 last_updated: 2025-11-09
 ---
 

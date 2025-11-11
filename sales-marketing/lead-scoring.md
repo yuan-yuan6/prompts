@@ -2,9 +2,9 @@
 category: sales-marketing
 last_updated: 2025-11-09
 related_templates:
-- market-research.md
-- campaign-development.md
-- lead-generation.md
+- sales-marketing/market-research.md
+- sales-marketing/campaign-development.md
+- sales-marketing/lead-generation.md
 tags:
 - business
 - design

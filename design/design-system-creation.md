@@ -2,9 +2,9 @@
 category: design
 last_updated: 2025-11-09
 related_templates:
-- wireframe-design.md
-- prototype-development.md
-- ux-ui-design-overview.md
+- design/wireframe-design.md
+- design/prototype-development.md
+- design/ux-ui-design-overview.md
 tags:
 - creative
 - design

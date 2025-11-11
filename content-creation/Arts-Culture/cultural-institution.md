@@ -2,7 +2,7 @@
 category: content-creation/Arts-Culture
 last_updated: 2025-11-09
 related_templates:
-- digital-exhibition-curation.md
+- content-creation/Arts-Culture/digital-exhibition-curation.md
 tags:
 - creative
 - framework

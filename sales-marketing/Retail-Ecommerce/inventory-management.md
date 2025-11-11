@@ -2,9 +2,9 @@
 category: sales-marketing
 last_updated: 2025-11-09
 related_templates:
-- customer-experience-optimization.md
-- dynamic-pricing-strategy.md
-- product-sourcing-strategy.md
+- sales-marketing/Retail-Ecommerce/customer-experience-optimization.md
+- sales-marketing/Retail-Ecommerce/dynamic-pricing-strategy.md
+- sales-marketing/Retail-Ecommerce/product-sourcing-strategy.md
 tags:
 - data-science
 - documentation

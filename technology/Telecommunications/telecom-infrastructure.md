@@ -1,8 +1,8 @@
 ---
-category: technology
+category: technology/Telecommunications
 last_updated: 2025-11-09
 related_templates:
-- 5g-network-deployment.md
+- technology/Telecommunications/5g-network-deployment.md
 tags:
 - communication
 - design

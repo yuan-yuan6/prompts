@@ -3,8 +3,8 @@ category: strategy/strategic-management
 last_updated: 2025-01-09
 related_templates:
 - strategic-planning.md
-- innovation-strategy.md
-- growth-strategy.md
+- strategy/innovation-strategy.md
+- strategy/growth-strategy.md
 tags:
 - digital-transformation
 - strategy

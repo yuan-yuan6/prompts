@@ -2,9 +2,9 @@
 category: creative/marketing-creative
 last_updated: 2025-01-09
 related_templates:
-- brand-storytelling-comprehensive.md
-- campaign-concepts-comprehensive.md
-- landing-pages-comprehensive.md
+- sales-marketing/Marketing-Creative/brand-storytelling-comprehensive.md
+- sales-marketing/Marketing-Creative/campaign-concepts-comprehensive.md
+- sales-marketing/Marketing-Creative/landing-pages-comprehensive.md
 tags:
 - advertising
 - copywriting

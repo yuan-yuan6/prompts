@@ -2,7 +2,7 @@
 category: media-journalism
 last_updated: 2025-11-09
 related_templates:
-- content-strategy.md
+- media-journalism/content-strategy.md
 tags:
 - communication
 - creative

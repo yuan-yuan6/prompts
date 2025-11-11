@@ -2,8 +2,8 @@
 category: communication
 last_updated: 2025-11-09
 related_templates:
-- meeting-management-framework.md
-- crisis-communication-plan.md
+- communication/meeting-management-framework.md
+- communication/crisis-communication-plan.md
 tags:
 - automation
 - communication

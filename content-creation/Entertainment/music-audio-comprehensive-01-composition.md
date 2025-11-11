@@ -41,8 +41,8 @@ use_cases:
   - Project planning and execution
   - Strategy development
 related_templates:
-  - creative-writing-framework.md
-  - video-production-pipeline.md
+  - content-creation/creative-writing-framework.md
+  - content-creation/video-production-pipeline.md
 last_updated: 2025-11-09
 ---
 

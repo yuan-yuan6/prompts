@@ -7,8 +7,8 @@ use_cases:
   - Project planning and execution
   - Strategy development
 related_templates:
-  - industry/real-estate/property-management-system.md
-  - industry/real-estate/construction-project-planning.md
+  - sales-marketing/Real-Estate/property-management-system.md
+  - sales-marketing/Real-Estate/construction-project-planning.md
 last_updated: 2025-11-09
 ---
 

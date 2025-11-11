@@ -2,8 +2,8 @@
 category: operations
 last_updated: 2025-11-09
 related_templates:
-- plant-operations-management.md
-- smart-grid-implementation.md
+- operations/Energy-Utilities/plant-operations-management.md
+- operations/Energy-Utilities/smart-grid-implementation.md
 tags:
 - data-science
 - industry

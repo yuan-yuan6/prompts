@@ -2,9 +2,9 @@
 category: design
 last_updated: 2025-11-09
 related_templates:
-- wireframe-design.md
-- design-system-creation.md
-- usability-testing-plan.md
+- design/wireframe-design.md
+- design/design-system-creation.md
+- design/usability-testing-plan.md
 tags:
 - creative
 - design

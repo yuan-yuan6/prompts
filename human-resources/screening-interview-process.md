@@ -2,9 +2,9 @@
 category: human-resources
 last_updated: 2025-11-09
 related_templates:
-- candidate-assessment-selection.md
-- job-analysis-definition.md
-- recruitment-metrics-optimization.md
+- human-resources/candidate-assessment-selection.md
+- human-resources/job-analysis-definition.md
+- human-resources/recruitment-metrics-optimization.md
 tags:
 - interviewing
 - candidate-screening
