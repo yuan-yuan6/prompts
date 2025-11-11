@@ -22,6 +22,48 @@ last_updated: 2025-11-10
 ## Purpose
 This overview provides comprehensive guidance for data pipeline development, helping you navigate the complete pipeline development lifecycle from data ingestion through infrastructure deployment. Use this as a starting point to understand the pipeline architecture and navigate to specialized sub-prompts for detailed implementation guidance.
 
+## Quick Start
+
+**Want to build a data pipeline?** Here's how to navigate this framework:
+
+### When to Use This Overview
+- Building a new data pipeline from scratch
+- Modernizing existing ETL processes to ELT or streaming
+- Implementing medallion architecture (Bronze/Silver/Gold layers)
+- Need guidance on which pipeline component to focus on
+- Planning end-to-end data pipeline architecture
+
+### Quick Module Selection
+```
+Your Pipeline Task → Recommended Module:
+
+1. Extract data from databases, APIs, files, or streams
+   → pipeline-ingestion.md (Batch, streaming, CDC patterns, 2-4 hours)
+
+2. Clean, transform, and apply business logic to data
+   → pipeline-transformation.md (Bronze→Silver→Gold, 3-5 hours)
+
+3. Schedule, coordinate, and manage pipeline workflows
+   → pipeline-orchestration.md (Airflow, Prefect, dbt workflows, 2-3 hours)
+
+4. Monitor, alert, and troubleshoot pipeline issues
+   → pipeline-observability.md (Logging, metrics, alerts, 2-3 hours)
+
+5. Deploy and manage pipeline infrastructure
+   → pipeline-infrastructure.md (IaC, CI/CD, scalability, 3-5 hours)
+```
+
+### Basic 3-Step Workflow
+1. **Start with ingestion** - Use pipeline-ingestion.md to extract data from sources
+2. **Add transformation** - Use pipeline-transformation.md to implement Bronze→Silver→Gold layers
+3. **Enable orchestration** - Use pipeline-orchestration.md to schedule and coordinate jobs
+
+**Time to complete**: 1-2 days for basic pipeline, 1-2 weeks for production-ready with all components
+
+**Pro tip**: Build incrementally - start with simple batch ingestion and basic transformations, validate data quality, then add streaming, complex business logic, and advanced monitoring.
+
+---
+
 ## Pipeline Development Lifecycle
 
 ```

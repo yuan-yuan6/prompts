@@ -20,6 +20,48 @@ last_updated: 2025-11-10
 ## Purpose
 Navigate the comprehensive query optimization framework by selecting the appropriate sub-prompt based on your performance symptoms, optimization goals, or current phase in the optimization lifecycle.
 
+## Quick Start
+
+**Want to optimize slow database queries?** Here's how to get started:
+
+### When to Use This Overview
+- Database queries are running slower than expected
+- Application performance has degraded over time
+- Need to scale database for growing data volume or users
+- Planning proactive database performance optimization
+- Responding to user complaints about slow reports or dashboards
+
+### Quick Module Selection
+```
+Your Performance Problem → Recommended Module:
+
+1. Don't know why database is slow, need to diagnose
+   → query-optimization-baseline-analysis.md (Profile performance, identify bottlenecks, 2-4 hours)
+
+2. Queries doing full table scans, missing indexes
+   → query-optimization-indexing-strategies.md (Design indexes, analyze effectiveness, 4-8 hours)
+
+3. Specific queries are slow, need SQL rewriting
+   → query-optimization-query-rewriting.md (Optimize SQL, improve execution plans, 30-60 min/query)
+
+4. Need ongoing monitoring and alerting
+   → query-optimization-monitoring-tuning.md (Setup dashboards, alerts, automation, 4-6 hours)
+
+5. Database locked up, concurrency issues, out of memory
+   → query-optimization-resource-concurrency.md (Memory, I/O, blocking analysis, 3-5 hours)
+```
+
+### Basic 3-Step Workflow
+1. **Start with baseline** - Use query-optimization-baseline-analysis.md to identify slow queries and bottlenecks
+2. **Apply targeted fixes** - Use indexing or query rewriting modules to address specific issues
+3. **Setup monitoring** - Use query-optimization-monitoring-tuning.md for ongoing performance management
+
+**Time to complete**: 1 day for initial optimization, ongoing monitoring takes 1-2 hours/week
+
+**Pro tip**: Always start with baseline analysis before making changes. The slowest 10% of queries usually consume 90% of database resources - focus there first.
+
+---
+
 ## Query Optimization Strategy
 
 Optimizing database query performance is a multi-faceted discipline that requires systematic analysis, targeted interventions, and continuous monitoring. This framework breaks down query optimization into five focused areas:

@@ -20,6 +20,48 @@ last_updated: 2025-11-10
 ## Purpose
 The Research Design Suite provides a comprehensive, modular approach to developing rigorous research methodologies across quantitative, qualitative, and mixed-methods studies. This suite breaks down the complex process of research design into five focused sub-prompts, each addressing a critical component of methodological planning. Use this overview to navigate the suite and select the appropriate prompts for your research needs.
 
+## Quick Start
+
+**Want to design a research study quickly?** Here's how to use this suite:
+
+### When to Use This Overview
+- Developing dissertation or thesis research methodology
+- Writing grant proposals requiring rigorous research design
+- Planning academic research projects (quantitative, qualitative, mixed-methods)
+- Creating research protocols for IRB submission
+- Need structured guidance for methodological planning
+
+### Quick Module Selection
+```
+Your Research Task → Recommended Module:
+
+1. Define research questions and select methodology
+   → research-design-foundation.md (Theory, paradigms, design selection, 20-30 min)
+
+2. Plan sampling strategy and data collection
+   → research-design-sampling-data.md (Sample size, recruitment, instruments, 30-45 min)
+
+3. Design data analysis plan and ensure validity
+   → research-design-analysis-quality.md (Statistical/qualitative analysis, rigor, 30-45 min)
+
+4. Address ethics and project management
+   → research-design-ethics-implementation.md (IRB, timeline, budget, risks, 20-30 min)
+
+5. Plan dissemination and impact strategy
+   → research-design-impact.md (Publication, presentations, knowledge translation, 15-20 min)
+```
+
+### Basic 3-Step Workflow
+1. **Start with foundation** - Use research-design-foundation.md to articulate research problem and select methodology
+2. **Plan data collection** - Use research-design-sampling-data.md to design sampling and instruments
+3. **Design analysis** - Use research-design-analysis-quality.md to plan analytical approach
+
+**Time to complete**: 2-3 hours for core methodology, 1-2 days for comprehensive research protocol
+
+**Pro tip**: For dissertation proposals, use modules 1-3 first (foundation, sampling, analysis), then add ethics/implementation. For grant proposals, use all 5 modules to demonstrate comprehensive planning.
+
+---
+
 ## The Research Design Suite
 
 ### What This Suite Offers

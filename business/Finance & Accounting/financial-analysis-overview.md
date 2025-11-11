@@ -20,6 +20,48 @@ last_updated: 2025-11-09
 ## Purpose
 Navigate the comprehensive suite of financial analysis templates to select the right tool for your specific analysis needs.
 
+## Quick Start
+
+**Want to analyze a company's financials quickly?** Here's how to choose the right template:
+
+### When to Use This Overview
+- Evaluating investment opportunities or acquisition targets
+- Conducting due diligence on companies
+- Assessing financial health for lending or credit decisions
+- Preparing board reports or investor presentations
+- Need to understand which financial analysis to perform
+
+### Quick Template Selection
+```
+Your Analysis Goal → Recommended Template:
+
+1. Understand overall financial performance and trends
+   → financial-statement-analysis.md (Income statement, balance sheet, cash flow, 30-45 min)
+
+2. Calculate key metrics and benchmark against competitors
+   → financial-ratio-analysis.md (Liquidity, profitability, leverage ratios, 20-30 min)
+
+3. Project future financial performance
+   → financial-forecasting.md (Revenue, expense, cash flow projections, 1-2 hours)
+
+4. Assess financial risks and sustainability
+   → financial-risk-assessment.md (Credit risk, liquidity risk, operational risk, 45-60 min)
+
+5. Determine company value for M&A or investment
+   → financial-valuation-recommendations.md (DCF, comps, multiples valuation, 2-3 hours)
+```
+
+### Basic 3-Step Workflow
+1. **Start with statement analysis** - Use financial-statement-analysis.md to understand historical performance
+2. **Calculate key ratios** - Use financial-ratio-analysis.md to benchmark and identify strengths/weaknesses
+3. **Add depth as needed** - Use forecasting for future projections, risk assessment for red flags, or valuation for M&A
+
+**Time to complete**: 1-2 hours for basic analysis, 1 day for comprehensive financial evaluation
+
+**Pro tip**: For initial screening, use financial-statement-analysis.md + financial-ratio-analysis.md (1 hour total). This covers 80% of what you need to know before deeper analysis.
+
+---
+
 ## Template Suite Overview
 
 The financial analysis suite consists of 5 specialized, focused templates, each designed for a specific analysis purpose:

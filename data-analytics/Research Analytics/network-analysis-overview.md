@@ -20,6 +20,51 @@ last_updated: 2025-11-10
 ## Purpose
 Navigate the comprehensive network analysis framework to perform graph analytics, understand relationships, identify communities, analyze social structures, and extract insights from interconnected data using advanced graph theory and network science methods.
 
+## Quick Start
+
+**Want to analyze network data quickly?** Here's how to get started:
+
+### When to Use This Overview
+- Analyzing social networks, organizational structures, or relationship data
+- Finding influential nodes or key connectors in a network
+- Discovering communities or clusters in connected data
+- Understanding how information flows through networks
+- Tracking how networks evolve over time
+
+### Quick Module Selection
+```
+Your Network Analysis Goal → Recommended Module:
+
+1. Load and explore network data (edge list, adjacency matrix, GraphML)
+   → network-analysis-data-preparation.md (30-60 min)
+
+2. Find most important/influential nodes
+   → network-analysis-centrality-community.md (Centrality section, 1-2 hours)
+
+3. Discover groups or communities in the network
+   → network-analysis-centrality-community.md (Community section, 2-3 hours)
+
+4. Analyze how connected the network is, find shortest paths
+   → network-analysis-paths-temporal.md (Path analysis section, 1-2 hours)
+
+5. Track how the network changes over time
+   → network-analysis-paths-temporal.md (Temporal section, 2-4 hours)
+
+6. Create visualizations and dashboards
+   → network-analysis-visualization.md (1-3 hours)
+```
+
+### Basic 3-Step Workflow
+1. **Prepare your data** - Start with network-analysis-data-preparation.md to load and clean your network
+2. **Choose analysis type** - Pick centrality (important nodes), community (clusters), or paths (connectivity)
+3. **Visualize results** - Use network-analysis-visualization.md to create graphs and dashboards
+
+**Time to complete**: 1 hour for basic metrics, 1 day for comprehensive network analysis
+
+**Pro tip**: Start with data preparation and basic network statistics (nodes, edges, density), then move to centrality analysis to find key players before diving into advanced features.
+
+---
+
 ## Network Analysis Capabilities
 
 This framework provides a complete toolkit for analyzing networks and graphs across multiple domains:
