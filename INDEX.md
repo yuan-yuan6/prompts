@@ -1,6 +1,6 @@
 # 📑 Template Index
 
-A comprehensive, searchable index of all 375+ templates organized by use case.
+A comprehensive, searchable index of all 410+ templates organized by use case.
 
 ## 🔍 Quick Navigation
 
@@ -13,24 +13,50 @@ A comprehensive, searchable index of all 375+ templates organized by use case.
 ## 🎯 By Use Case
 
 ### Analytics & Business Intelligence
-**17 templates**
+**45 templates**
 
 - [Analytics Data Quality](data-analytics/Analytics Engineering/analytics-data-quality.md) - `data-analytics`
 - [Analytics Documentation](data-analytics/Analytics Engineering/analytics-documentation.md) - `data-analytics`
 - [Dashboard Design Patterns](data-analytics/dashboard-design-patterns.md) - `data-analytics`
 - [Data Governance Framework](data-analytics/data-governance-framework.md) - `data-analytics`
-- [Experimental Design](data-analytics/Research Analytics/experimental-design.md) - `data-analytics`
+- [Experimental Design Overview](data-analytics/Research Analytics/experimental-design-overview.md) - `data-analytics`
+- [A/B Testing Experiments](data-analytics/Research Analytics/ab-testing-experiments.md) - `data-analytics`
+- [Randomized Controlled Trials](data-analytics/Research Analytics/randomized-controlled-trials.md) - `data-analytics`
+- [Quasi-Experimental Design](data-analytics/Research Analytics/quasi-experimental-design.md) - `data-analytics`
+- [Causal Inference Analysis](data-analytics/Research Analytics/causal-inference-analysis.md) - `data-analytics`
 - [Experimentation Design](data-analytics/Data Science/experimentation-design.md) - `data-analytics`
 - [Exploratory Analysis](data-analytics/Data Science/exploratory-analysis.md) - `data-analytics`
 - [Feature Engineering](data-analytics/Data Science/feature-engineering.md) - `data-analytics`
-- [Network Analysis](data-analytics/Research Analytics/network-analysis.md) - `data-analytics`
+- [Network Analysis Overview](data-analytics/Research Analytics/network-analysis-overview.md) - `data-analytics`
+- [Network Centrality Analysis](data-analytics/Research Analytics/network-centrality-analysis.md) - `data-analytics`
+- [Network Community Detection](data-analytics/Research Analytics/network-community-detection.md) - `data-analytics`
+- [Network Path Analysis](data-analytics/Research Analytics/network-path-analysis.md) - `data-analytics`
+- [Network Temporal Analysis](data-analytics/Research Analytics/network-temporal-analysis.md) - `data-analytics`
+- [Network Visualization Advanced](data-analytics/Research Analytics/network-visualization-advanced.md) - `data-analytics`
 - [Optimization Algorithms](data-analytics/Advanced Analytics/optimization-algorithms.md) - `data-analytics`
-- [Pipeline Development](data-analytics/Analytics Engineering/pipeline-development.md) - `data-analytics`
-- [Query Optimization](data-analytics/Analytics Engineering/query-optimization.md) - `data-analytics`
+- [Pipeline Development Overview](data-analytics/Analytics Engineering/pipeline-development-overview.md) - `data-analytics`
+- [Data Ingestion Pipelines](data-analytics/Analytics Engineering/data-ingestion-pipelines.md) - `data-analytics`
+- [Data Transformation Pipelines](data-analytics/Analytics Engineering/data-transformation-pipelines.md) - `data-analytics`
+- [Pipeline Orchestration](data-analytics/Analytics Engineering/pipeline-orchestration.md) - `data-analytics`
+- [Pipeline Monitoring & Quality](data-analytics/Analytics Engineering/pipeline-monitoring-quality.md) - `data-analytics`
+- [Query Optimization Overview](data-analytics/Analytics Engineering/query-optimization-overview.md) - `data-analytics`
+- [Query Analysis & Profiling](data-analytics/Analytics Engineering/query-analysis-profiling.md) - `data-analytics`
+- [Query Optimization Strategies](data-analytics/Analytics Engineering/query-optimization-strategies.md) - `data-analytics`
+- [Database Indexing Strategies](data-analytics/Analytics Engineering/database-indexing-strategies.md) - `data-analytics`
+- [Query Performance Monitoring](data-analytics/Analytics Engineering/query-performance-monitoring.md) - `data-analytics`
 - [Results Communication](data-analytics/Data Science/results-communication.md) - `data-analytics`
-- [Statistical Analysis](data-analytics/Research Analytics/statistical-analysis.md) - `data-analytics`
+- [Statistical Analysis Overview](data-analytics/Research Analytics/statistical-analysis-overview.md) - `data-analytics`
+- [Descriptive Statistics & EDA](data-analytics/Research Analytics/descriptive-statistics-eda.md) - `data-analytics`
+- [Hypothesis Testing & Inference](data-analytics/Research Analytics/hypothesis-testing-inference.md) - `data-analytics`
+- [Regression Modeling & Analysis](data-analytics/Research Analytics/regression-modeling-analysis.md) - `data-analytics`
+- [Advanced Statistical Methods](data-analytics/Research Analytics/advanced-statistical-methods.md) - `data-analytics`
 - [Survey Analysis](data-analytics/Research Analytics/survey-analysis.md) - `data-analytics`
-- [Text Analytics](data-analytics/Research Analytics/text-analytics.md) - `data-analytics`
+- [Text Analytics Overview](data-analytics/Research Analytics/text-analytics-overview.md) - `data-analytics`
+- [Text Preprocessing & NLP](data-analytics/Research Analytics/text-preprocessing-nlp.md) - `data-analytics`
+- [Sentiment Analysis](data-analytics/Research Analytics/sentiment-analysis-nlp.md) - `data-analytics`
+- [Topic Modeling](data-analytics/Research Analytics/topic-modeling-nlp.md) - `data-analytics`
+- [Named Entity Recognition](data-analytics/Research Analytics/named-entity-recognition.md) - `data-analytics`
+- [Text Classification](data-analytics/Research Analytics/text-classification-nlp.md) - `data-analytics`
 - [Time Series Analysis](data-analytics/Advanced Analytics/time-series-analysis.md) - `data-analytics`
 
 ### Business Strategy & Planning
@@ -179,7 +205,7 @@ A comprehensive, searchable index of all 375+ templates organized by use case.
 - [Infrastructure Management](technology/DevOps & Cloud/infrastructure-management.md) - `technology`
 
 ### Education & Learning
-**29 templates**
+**41 templates**
 
 - [Academic Grant Writing](education/Academic Research/academic-grant-writing.md) - `education`
 - [Assessment Design](education/Teaching & Instruction/assessment-design.md) - `education`
@@ -198,11 +224,24 @@ A comprehensive, searchable index of all 375+ templates organized by use case.
 - [Information Architecture](education/Knowledge Management/information-architecture.md) - `education`
 - [Knowledge Documentation](education/Knowledge Management/knowledge-documentation.md) - `education`
 - [Lesson Planning](education/Teaching & Instruction/lesson-planning.md) - `education`
-- [Literature Reviews](education/Academic Research/literature-reviews.md) - `education`
-- [Online Learning](education/Teaching & Instruction/online-learning.md) - `education`
+- [Literature Reviews Overview](education/Academic Research/literature-reviews-overview.md) - `education`
+- [Systematic Literature Review](education/Academic Research/systematic-literature-review.md) - `education`
+- [Meta-Analysis Research](education/Academic Research/meta-analysis-research.md) - `education`
+- [Narrative Literature Review](education/Academic Research/narrative-literature-review.md) - `education`
+- [Online Learning Overview](education/Teaching & Instruction/online-learning-overview.md) - `education`
+- [Online Learning Platform Architecture](education/Teaching & Instruction/online-learning-platform-architecture.md) - `education`
+- [Online Learning Content & Curriculum](education/Teaching & Instruction/online-learning-content-curriculum.md) - `education`
+- [Online Learning Pedagogy & Engagement](education/Teaching & Instruction/online-learning-pedagogy-engagement.md) - `education`
+- [Online Learning Communication Tools](education/Teaching & Instruction/online-learning-communication-tools.md) - `education`
 - [Peer Review](education/Scientific Communication/peer-review.md) - `education`
 - [Publication Writing](education/Academic Research/publication-writing.md) - `education`
-- [Research Design](education/Academic Research/research-design.md) - `education`
+- [Research Design Overview](education/Academic Research/research-design-overview.md) - `education`
+- [Quantitative Research Design](education/Academic Research/quantitative-research-design.md) - `education`
+- [Qualitative Research Design](education/Academic Research/qualitative-research-design.md) - `education`
+- [Mixed-Methods Research Design](education/Academic Research/mixed-methods-research-design.md) - `education`
+- [Research Sampling Strategies](education/Academic Research/research-sampling-strategies.md) - `education`
+- [Research Data Collection](education/Academic Research/research-data-collection.md) - `education`
+- [Research Ethics & Compliance](education/Academic Research/research-ethics-compliance.md) - `education`
 - [Research Management](education/research/Scientific Research/research-management.md) - `education`
 - [Research Papers](education/Scientific Communication/research-papers.md) - `education`
 - [Science Writing](education/Scientific Communication/science-writing.md) - `education`
@@ -535,15 +574,28 @@ A comprehensive, searchable index of all 375+ templates organized by use case.
 - [Data Modeling](data-analytics/Analytics Engineering/data-modeling.md)
 - [Data Storytelling](data-analytics/Business Intelligence/data-storytelling.md)
 - [Deep Learning](data-analytics/Advanced Analytics/deep-learning.md)
-- [Experimental Design](data-analytics/Research Analytics/experimental-design.md)
+- [Experimental Design Overview](data-analytics/Research Analytics/experimental-design-overview.md)
+- [A/B Testing Experiments](data-analytics/Research Analytics/ab-testing-experiments.md)
+- [Randomized Controlled Trials](data-analytics/Research Analytics/randomized-controlled-trials.md)
+- [Quasi-Experimental Design](data-analytics/Research Analytics/quasi-experimental-design.md)
+- [Causal Inference Analysis](data-analytics/Research Analytics/causal-inference-analysis.md)
 - [Experimentation Design](data-analytics/Data Science/experimentation-design.md)
 - [Exploratory Analysis](data-analytics/Data Science/exploratory-analysis.md)
 - [Feature Engineering](data-analytics/Data Science/feature-engineering.md)
 - [Kpi Development](data-analytics/Business Intelligence/kpi-development.md)
 - [Model Evaluation](data-analytics/Data Science/model-evaluation.md)
-- [Network Analysis](data-analytics/Research Analytics/network-analysis.md)
+- [Network Analysis Overview](data-analytics/Research Analytics/network-analysis-overview.md)
+- [Network Centrality Analysis](data-analytics/Research Analytics/network-centrality-analysis.md)
+- [Network Community Detection](data-analytics/Research Analytics/network-community-detection.md)
+- [Network Path Analysis](data-analytics/Research Analytics/network-path-analysis.md)
+- [Network Temporal Analysis](data-analytics/Research Analytics/network-temporal-analysis.md)
+- [Network Visualization Advanced](data-analytics/Research Analytics/network-visualization-advanced.md)
 - [Optimization Algorithms](data-analytics/Advanced Analytics/optimization-algorithms.md)
-- [Pipeline Development](data-analytics/Analytics Engineering/pipeline-development.md)
+- [Pipeline Development Overview](data-analytics/Analytics Engineering/pipeline-development-overview.md)
+- [Data Ingestion Pipelines](data-analytics/Analytics Engineering/data-ingestion-pipelines.md)
+- [Data Transformation Pipelines](data-analytics/Analytics Engineering/data-transformation-pipelines.md)
+- [Pipeline Orchestration](data-analytics/Analytics Engineering/pipeline-orchestration.md)
+- [Pipeline Monitoring & Quality](data-analytics/Analytics Engineering/pipeline-monitoring-quality.md)
 - [Predictive Modeling](data-analytics/Data Science/predictive-modeling.md)
 - [Predictive Modeling Framework](data-analytics/predictive-modeling-framework.md)
 - ... and 8 more templates - [View all](data-analytics/)
@@ -568,8 +620,15 @@ A comprehensive, searchable index of all 375+ templates organized by use case.
 - [Information Architecture](education/Knowledge Management/information-architecture.md)
 - [Knowledge Documentation](education/Knowledge Management/knowledge-documentation.md)
 - [Lesson Planning](education/Teaching & Instruction/lesson-planning.md)
-- [Literature Reviews](education/Academic Research/literature-reviews.md)
-- [Online Learning](education/Teaching & Instruction/online-learning.md)
+- [Literature Reviews Overview](education/Academic Research/literature-reviews-overview.md)
+- [Systematic Literature Review](education/Academic Research/systematic-literature-review.md)
+- [Meta-Analysis Research](education/Academic Research/meta-analysis-research.md)
+- [Narrative Literature Review](education/Academic Research/narrative-literature-review.md)
+- [Online Learning Overview](education/Teaching & Instruction/online-learning-overview.md)
+- [Online Learning Platform Architecture](education/Teaching & Instruction/online-learning-platform-architecture.md)
+- [Online Learning Content & Curriculum](education/Teaching & Instruction/online-learning-content-curriculum.md)
+- [Online Learning Pedagogy & Engagement](education/Teaching & Instruction/online-learning-pedagogy-engagement.md)
+- [Online Learning Communication Tools](education/Teaching & Instruction/online-learning-communication-tools.md)
 - [Peer Review](education/Scientific Communication/peer-review.md)
 - ... and 9 more templates - [View all](education/)
 
@@ -898,7 +957,11 @@ A comprehensive, searchable index of all 375+ templates organized by use case.
 - [Epidemiology](healthcare/Public Health/epidemiology.md) - `healthcare/Healthcare & Clinical`
 - [Ev Strategy](industry/automotive/Electric Vehicles/ev-strategy.md) - `industry/Industry-Specific Solutions`
 - [Executive Communication](professional-services/communication/Stakeholder Management/executive-communication.md) - `professional-services/Business Strategy & Planning`
-- [Experimental Design](data-analytics/Research Analytics/experimental-design.md) - `data-analytics/Analytics & Business Intelligence`
+- [Experimental Design Overview](data-analytics/Research Analytics/experimental-design-overview.md)
+- [A/B Testing Experiments](data-analytics/Research Analytics/ab-testing-experiments.md)
+- [Randomized Controlled Trials](data-analytics/Research Analytics/randomized-controlled-trials.md)
+- [Quasi-Experimental Design](data-analytics/Research Analytics/quasi-experimental-design.md)
+- [Causal Inference Analysis](data-analytics/Research Analytics/causal-inference-analysis.md) - `data-analytics/Analytics & Business Intelligence`
 - [Experimentation Design](data-analytics/Data Science/experimentation-design.md) - `data-analytics/Analytics & Business Intelligence`
 - [Exploratory Analysis](data-analytics/Data Science/exploratory-analysis.md) - `data-analytics/Analytics & Business Intelligence`
 
@@ -983,7 +1046,10 @@ A comprehensive, searchable index of all 375+ templates organized by use case.
 - [Lesson Planning](education/Teaching & Instruction/lesson-planning.md) - `education/Education & Learning`
 - [Life Optimization Framework](personal/development/life-optimization-framework.md) - `personal/Personal Development`
 - [Literature Analysis](healthcare/Medical Research/literature-analysis.md) - `healthcare/Healthcare & Clinical`
-- [Literature Reviews](education/Academic Research/literature-reviews.md) - `education/Education & Learning`
+- [Literature Reviews Overview](education/Academic Research/literature-reviews-overview.md)
+- [Systematic Literature Review](education/Academic Research/systematic-literature-review.md)
+- [Meta-Analysis Research](education/Academic Research/meta-analysis-research.md)
+- [Narrative Literature Review](education/Academic Research/narrative-literature-review.md) - `education/Education & Learning`
 - [Logistics Optimization](industry/transportation-logistics/Operations/logistics-optimization.md) - `industry/Industry-Specific Solutions`
 - [Logistics Supply Chain Optimization](industry/transportation-logistics/Supply Chain/logistics-supply-chain-optimization.md) - `industry/Industry-Specific Solutions`
 - [Loyalty Program](industry/retail-ecommerce/Customer Experience/loyalty-program.md) - `industry/Industry-Specific Solutions`
@@ -1016,7 +1082,12 @@ A comprehensive, searchable index of all 375+ templates organized by use case.
 ### N
 
 - [Negotiation](personal/Communication Skills/negotiation.md) - `personal/Personal Development`
-- [Network Analysis](data-analytics/Research Analytics/network-analysis.md) - `data-analytics/Analytics & Business Intelligence`
+- [Network Analysis Overview](data-analytics/Research Analytics/network-analysis-overview.md)
+- [Network Centrality Analysis](data-analytics/Research Analytics/network-centrality-analysis.md)
+- [Network Community Detection](data-analytics/Research Analytics/network-community-detection.md)
+- [Network Path Analysis](data-analytics/Research Analytics/network-path-analysis.md)
+- [Network Temporal Analysis](data-analytics/Research Analytics/network-temporal-analysis.md)
+- [Network Visualization Advanced](data-analytics/Research Analytics/network-visualization-advanced.md) - `data-analytics/Analytics & Business Intelligence`
 - [Networking](personal/Communication Skills/networking.md) - `personal/Personal Development`
 - [Nonprofit Grant Writing](nonprofit/Fundraising & Development/nonprofit-grant-writing.md) - `nonprofit/Nonprofit & Social Impact`
 - [Nutrition Management](personal/Health & Wellness/nutrition-management.md) - `personal/Personal Development`
@@ -1025,7 +1096,11 @@ A comprehensive, searchable index of all 375+ templates organized by use case.
 
 - [Okr Implementation Framework](business/okr-implementation-framework.md) - `business/Business Strategy & Planning`
 - [Omnichannel Strategy](industry/retail-ecommerce/Digital Commerce/omnichannel-strategy.md) - `industry/Industry-Specific Solutions`
-- [Online Learning](education/Teaching & Instruction/online-learning.md) - `education/Education & Learning`
+- [Online Learning Overview](education/Teaching & Instruction/online-learning-overview.md)
+- [Online Learning Platform Architecture](education/Teaching & Instruction/online-learning-platform-architecture.md)
+- [Online Learning Content & Curriculum](education/Teaching & Instruction/online-learning-content-curriculum.md)
+- [Online Learning Pedagogy & Engagement](education/Teaching & Instruction/online-learning-pedagogy-engagement.md)
+- [Online Learning Communication Tools](education/Teaching & Instruction/online-learning-communication-tools.md) - `education/Education & Learning`
 - [Operations Resource Management](business/Operations & Processes/operations-resource-management.md) - `business/Operations & Process Management`
 - [Operations Supply Chain Optimization](business/operations/operations-supply-chain-optimization.md) - `business/Operations & Process Management`
 - [Optimization Algorithms](data-analytics/Advanced Analytics/optimization-algorithms.md) - `data-analytics/Analytics & Business Intelligence`
@@ -1044,7 +1119,11 @@ A comprehensive, searchable index of all 375+ templates organized by use case.
 - [Performance Review System](professional-services/human-resources/performance-review-system.md) - `professional-services/Human Resources & Talent`
 - [Performance Reviews](business/Human Resources/performance-reviews.md) - `business/Human Resources & Talent`
 - [Personalization Strategy](industry/retail-ecommerce/Customer Experience/personalization-strategy.md) - `industry/Personal Development`
-- [Pipeline Development](data-analytics/Analytics Engineering/pipeline-development.md) - `data-analytics/Analytics & Business Intelligence`
+- [Pipeline Development Overview](data-analytics/Analytics Engineering/pipeline-development-overview.md)
+- [Data Ingestion Pipelines](data-analytics/Analytics Engineering/data-ingestion-pipelines.md)
+- [Data Transformation Pipelines](data-analytics/Analytics Engineering/data-transformation-pipelines.md)
+- [Pipeline Orchestration](data-analytics/Analytics Engineering/pipeline-orchestration.md)
+- [Pipeline Monitoring & Quality](data-analytics/Analytics Engineering/pipeline-monitoring-quality.md) - `data-analytics/Analytics & Business Intelligence`
 - [Plant Operations Management](industry/energy-utilities/plant-operations-management.md) - `industry/Industry-Specific Solutions`
 - [Platform Engineering](technology/DevOps & Platform/platform-engineering.md) - `technology/Software Development & Engineering`
 - [Podcast Content](creative/Content Creation/podcast-content.md) - `creative/Content Creation & Writing`
@@ -1079,7 +1158,11 @@ A comprehensive, searchable index of all 375+ templates organized by use case.
 - [Quality Improvement](healthcare/Healthcare Administration/quality-improvement.md) - `healthcare/Healthcare & Clinical`
 - [Quality Management](industry/manufacturing/quality-management.md) - `industry/Industry-Specific Solutions`
 - [Quantum Computing Strategy](technology/emerging-tech/Quantum Computing/quantum-computing-strategy.md) - `technology/Software Development & Engineering`
-- [Query Optimization](data-analytics/Analytics Engineering/query-optimization.md) - `data-analytics/Analytics & Business Intelligence`
+- [Query Optimization Overview](data-analytics/Analytics Engineering/query-optimization-overview.md)
+- [Query Analysis & Profiling](data-analytics/Analytics Engineering/query-analysis-profiling.md)
+- [Query Optimization Strategies](data-analytics/Analytics Engineering/query-optimization-strategies.md)
+- [Database Indexing Strategies](data-analytics/Analytics Engineering/database-indexing-strategies.md)
+- [Query Performance Monitoring](data-analytics/Analytics Engineering/query-performance-monitoring.md) - `data-analytics/Analytics & Business Intelligence`
 
 ### R
 
@@ -1093,7 +1176,13 @@ A comprehensive, searchable index of all 375+ templates organized by use case.
 - [Renewable Energy](industry/energy-utilities/Generation & Operations/renewable-energy.md) - `industry/Industry-Specific Solutions`
 - [Renewable Energy Strategy](industry/energy-utilities/Renewable Energy/renewable-energy-strategy.md) - `industry/Industry-Specific Solutions`
 - [Report Generation](data-analytics/Business Intelligence/report-generation.md) - `data-analytics/Business Strategy & Planning`
-- [Research Design](education/Academic Research/research-design.md) - `education/Education & Learning`
+- [Research Design Overview](education/Academic Research/research-design-overview.md)
+- [Quantitative Research Design](education/Academic Research/quantitative-research-design.md)
+- [Qualitative Research Design](education/Academic Research/qualitative-research-design.md)
+- [Mixed-Methods Research Design](education/Academic Research/mixed-methods-research-design.md)
+- [Research Sampling Strategies](education/Academic Research/research-sampling-strategies.md)
+- [Research Data Collection](education/Academic Research/research-data-collection.md)
+- [Research Ethics & Compliance](education/Academic Research/research-ethics-compliance.md) - `education/Education & Learning`
 - [Research Management](education/research/Scientific Research/research-management.md) - `education/Education & Learning`
 - [Research Papers](education/Scientific Communication/research-papers.md) - `education/Education & Learning`
 - [Results Communication](data-analytics/Data Science/results-communication.md) - `data-analytics/Analytics & Business Intelligence`
@@ -1128,7 +1217,11 @@ A comprehensive, searchable index of all 375+ templates organized by use case.
 - [Social Media Management](professional-services/communication/Public Communication/social-media-management.md) - `professional-services/Business Strategy & Planning`
 - [Software Documentation](technology/Software Development/software-documentation.md) - `technology/Software Development & Engineering`
 - [Special Education](education/K-12 Education/special-education.md) - `education/Education & Learning`
-- [Statistical Analysis](data-analytics/Research Analytics/statistical-analysis.md) - `data-analytics/Analytics & Business Intelligence`
+- [Statistical Analysis Overview](data-analytics/Research Analytics/statistical-analysis-overview.md)
+- [Descriptive Statistics & EDA](data-analytics/Research Analytics/descriptive-statistics-eda.md)
+- [Hypothesis Testing & Inference](data-analytics/Research Analytics/hypothesis-testing-inference.md)
+- [Regression Modeling & Analysis](data-analytics/Research Analytics/regression-modeling-analysis.md)
+- [Advanced Statistical Methods](data-analytics/Research Analytics/advanced-statistical-methods.md) - `data-analytics/Analytics & Business Intelligence`
 - [Status Updates](professional-services/communication/Team Communication/status-updates.md) - `professional-services/Business Strategy & Planning`
 - [Strategic Digital Transformation Roadmap](business/Strategic Management/strategic-digital-transformation-roadmap.md) - `business/Business Strategy & Planning`
 - [Strategic Financial Planning](business/Strategic Management/strategic-financial-planning.md) - `business/Business Strategy & Planning`
@@ -1152,7 +1245,12 @@ A comprehensive, searchable index of all 375+ templates organized by use case.
 - [Telemedicine Platform Design](healthcare/telemedicine-platform-design.md) - `healthcare/Healthcare & Clinical`
 - [Tenant Operations](industry/real-estate/Property Management/tenant-operations.md) - `industry/Industry-Specific Solutions`
 - [Testing Qa](technology/Software Development/testing-qa.md) - `technology/Software Development & Engineering`
-- [Text Analytics](data-analytics/Research Analytics/text-analytics.md) - `data-analytics/Analytics & Business Intelligence`
+- [Text Analytics Overview](data-analytics/Research Analytics/text-analytics-overview.md)
+- [Text Preprocessing & NLP](data-analytics/Research Analytics/text-preprocessing-nlp.md)
+- [Sentiment Analysis](data-analytics/Research Analytics/sentiment-analysis-nlp.md)
+- [Topic Modeling](data-analytics/Research Analytics/topic-modeling-nlp.md)
+- [Named Entity Recognition](data-analytics/Research Analytics/named-entity-recognition.md)
+- [Text Classification](data-analytics/Research Analytics/text-classification-nlp.md) - `data-analytics/Analytics & Business Intelligence`
 - [Theory Of Change](nonprofit/Program Management/theory-of-change.md) - `nonprofit/Nonprofit & Social Impact`
 - [Thought Leadership](professional-services/communication/Public Communication/thought-leadership.md) - `professional-services/Business Strategy & Planning`
 - [Threat Intelligence](technology/Cybersecurity/threat-intelligence.md) - `technology/Software Development & Engineering`
