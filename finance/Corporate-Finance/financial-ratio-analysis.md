@@ -1,6 +1,6 @@
 ---
 title: Financial Ratio Analysis
-category: business/Finance & Accounting
+category: finance/Corporate-Finance
 tags: [business, finance, ratios, performance-metrics, benchmarking]
 use_cases:
   - Analyze a company's financial health using key ratios (30-45 min task)

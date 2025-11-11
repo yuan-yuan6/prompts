@@ -1,6 +1,6 @@
 ---
 title: Financial Analysis - Overview & Navigation
-category: business/Finance & Accounting
+category: finance/Corporate-Finance
 tags: [business, finance, overview, navigation]
 use_cases:
   - Understanding the financial analysis template suite

@@ -1,6 +1,6 @@
 ---
 title: Financial Statement Analysis
-category: business/Finance & Accounting
+category: finance/Corporate-Finance
 tags: [business, finance, financial-statements, analysis]
 use_cases:
   - Analyzing income statements, balance sheets, and cash flow statements

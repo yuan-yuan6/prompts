@@ -1,5 +1,5 @@
 ---
-category: business/Finance & Accounting
+category: finance/Corporate-Finance
 last_updated: 2025-11-09
 related_templates:
 - financial-statement-analysis.md

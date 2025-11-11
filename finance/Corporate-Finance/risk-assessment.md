@@ -1,6 +1,6 @@
 ---
 title: Risk Assessment Template
-category: business/Finance & Accounting/Investment & Trading
+category: finance/Corporate-Finance
 tags: [business, design, management, security, template, testing]
 use_cases:
   - General application

@@ -1,6 +1,6 @@
 ---
 title: Financial Risk Assessment & Scenario Analysis
-category: business/Finance & Accounting
+category: finance/Corporate-Finance
 tags: [business, finance, risk-management, scenario-analysis]
 use_cases:
   - Identifying and quantifying financial risks
