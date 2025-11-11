@@ -1,16 +1,26 @@
 ---
-title: Quality Improvement Programs Template
 category: healthcare/Healthcare Administration
-tags: [data-science, design, healthcare, machine-learning, optimization, research, template, testing]
-use_cases:
-  - Creating comprehensive quality improvement initiatives, performance metrics, process improvements, and outcome tracking systems that enhance healthcare delivery, patient satisfaction, and operational efficiency.
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - telemedicine-platform-design.md
-  - patient-care-pathway.md
-  - clinical-trials-management.md
 last_updated: 2025-11-09
+related_templates:
+- telemedicine-platform-design.md
+- patient-care-pathway.md
+- clinical-trials-management.md
+tags:
+- data-science
+- design
+- healthcare
+- machine-learning
+- optimization
+- research
+- template
+- testing
+title: Quality Improvement Programs Template
+use_cases:
+- Creating comprehensive quality improvement initiatives, performance metrics, process
+  improvements, and outcome tracking systems that enhance healthcare delivery, patient
+  satisfaction, and operational efficiency.
+- Project planning and execution
+- Strategy development
 ---
 
 # Quality Improvement Programs Template
@@ -538,6 +548,37 @@ METHODOLOGY: "IHI Model for Improvement"
 TARGET_OUTCOME: "25% reduction in sepsis mortality"
 BUNDLE_COMPLIANCE: "95% compliance with sepsis bundle"
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Telemedicine Platform Design](telemedicine-platform-design.md)** - Complementary approaches and methodologies
+- **[Patient Care Pathway](patient-care-pathway.md)** - Complementary approaches and methodologies
+- **[Clinical Trials Management](clinical-trials-management.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Quality Improvement Programs Template)
+2. Use [Telemedicine Platform Design](telemedicine-platform-design.md) for deeper analysis
+3. Apply [Patient Care Pathway](patient-care-pathway.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[healthcare/Healthcare Administration](../../healthcare/Healthcare Administration/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive quality improvement initiatives, performance metrics, process improvements, and outcome tracking systems that enhance healthcare delivery, patient satisfaction, and operational efficiency.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

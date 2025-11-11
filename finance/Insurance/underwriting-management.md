@@ -1,17 +1,26 @@
 ---
-title: Insurance Underwriting & Risk Assessment Framework
 category: finance/Insurance
-tags: [automation, communication, documentation, finance, framework, management, optimization, testing]
-use_cases:
-  - Creating comprehensive framework for insurance underwriting operations including risk assessment, pricing, portfolio management, automation strategies, and profitability optimization across multiple lines of business.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - investment-portfolio-management.md
-  - digital-banking-strategy.md
-  - risk-management-framework.md
 last_updated: 2025-11-09
+related_templates:
+- investment-portfolio-management.md
+- digital-banking-strategy.md
+- risk-management-framework.md
+tags:
+- automation
+- communication
+- documentation
+- finance
+- framework
+- management
+- optimization
+- testing
+title: Insurance Underwriting & Risk Assessment Framework
+use_cases:
+- Creating comprehensive framework for insurance underwriting operations including
+  risk assessment, pricing, portfolio management, automation strategies, and profitability
+  optimization across multiple lines of business.
+- Project planning and execution
+- Strategy development
 ---
 
 # Insurance Underwriting & Risk Assessment Framework
@@ -610,6 +619,37 @@ Network: 50,000 providers
 Medical Loss Ratio: 85%
 Focus: Value-based care, prevention
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Investment Portfolio Management](investment-portfolio-management.md)** - Complementary approaches and methodologies
+- **[Digital Banking Strategy](digital-banking-strategy.md)** - Strategic planning and execution frameworks
+- **[Risk Management Framework](risk-management-framework.md)** - Identify, assess, and mitigate potential risks
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Insurance Underwriting & Risk Assessment Framework)
+2. Use [Investment Portfolio Management](investment-portfolio-management.md) for deeper analysis
+3. Apply [Digital Banking Strategy](digital-banking-strategy.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[finance/Insurance](../../finance/Insurance/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive framework for insurance underwriting operations including risk assessment, pricing, portfolio management, automation strategies, and profitability optimization across multiple lines of business.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

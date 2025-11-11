@@ -1,16 +1,21 @@
 ---
-title: Dashboard Data Architecture & Integration
 category: data-analytics/Business Intelligence
-tags: [data-analytics, business-intelligence, data-architecture, etl, data-integration]
-use_cases:
-  - Design data pipeline for dashboard with multiple source systems
-  - Build ETL workflow for nightly dashboard refresh from operational databases
-  - Create data model that supports both summary and drill-down reporting needs
-related_templates:
-  - dashboard-strategy-requirements.md
-  - dashboard-technical-implementation.md
-  - dashboard-design-overview.md
 last_updated: 2025-11-09
+related_templates:
+- dashboard-strategy-requirements.md
+- dashboard-technical-implementation.md
+- dashboard-design-overview.md
+tags:
+- data-analytics
+- business-intelligence
+- data-architecture
+- etl
+- data-integration
+title: Dashboard Data Architecture & Integration
+use_cases:
+- Design data pipeline for dashboard with multiple source systems
+- Build ETL workflow for nightly dashboard refresh from operational databases
+- Create data model that supports both summary and drill-down reporting needs
 ---
 
 # Dashboard Data Architecture & Integration
@@ -241,6 +246,37 @@ Monitoring approach: CloudWatch metrics, custom quality dashboard
 ```
 
 ---
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Dashboard Strategy Requirements](dashboard-strategy-requirements.md)** - Strategic planning and execution frameworks
+- **[Dashboard Technical Implementation](dashboard-technical-implementation.md)** - Complementary approaches and methodologies
+- **[Dashboard Design Overview](dashboard-design-overview.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Dashboard Data Architecture & Integration)
+2. Use [Dashboard Strategy Requirements](dashboard-strategy-requirements.md) for deeper analysis
+3. Apply [Dashboard Technical Implementation](dashboard-technical-implementation.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[data-analytics/Business Intelligence](../../data-analytics/Business Intelligence/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Design data pipeline for dashboard with multiple source systems**: Combine this template with related analytics and strategy frameworks
+- **Build ETL workflow for nightly dashboard refresh from operational databases**: Combine this template with related analytics and strategy frameworks
+- **Create data model that supports both summary and drill-down reporting needs**: Combine this template with related analytics and strategy frameworks
 
 ## Best Practices
 

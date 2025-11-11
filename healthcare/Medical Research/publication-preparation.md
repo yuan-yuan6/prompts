@@ -1,16 +1,25 @@
 ---
-title: Publication Preparation Template
 category: healthcare/Medical Research
-tags: [automation, communication, design, documentation, healthcare, research, template]
-use_cases:
-  - Creating comprehensive manuscripts, abstracts, posters, and presentations for medical publications including journal articles, conference materials, and scientific communications following publication guidelines and standards.
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - telemedicine-platform-design.md
-  - patient-care-pathway.md
-  - clinical-trials-management.md
 last_updated: 2025-11-09
+related_templates:
+- telemedicine-platform-design.md
+- patient-care-pathway.md
+- clinical-trials-management.md
+tags:
+- automation
+- communication
+- design
+- documentation
+- healthcare
+- research
+- template
+title: Publication Preparation Template
+use_cases:
+- Creating comprehensive manuscripts, abstracts, posters, and presentations for medical
+  publications including journal articles, conference materials, and scientific communications
+  following publication guidelines and standards.
+- Project planning and execution
+- Strategy development
 ---
 
 # Publication Preparation Template
@@ -705,6 +714,37 @@ PRESENTATION: "Poster presentation"
 ABSTRACT_LIMIT: "300 words"
 POSTER_SIZE: "48x36 inches"
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Telemedicine Platform Design](telemedicine-platform-design.md)** - Complementary approaches and methodologies
+- **[Patient Care Pathway](patient-care-pathway.md)** - Complementary approaches and methodologies
+- **[Clinical Trials Management](clinical-trials-management.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Publication Preparation Template)
+2. Use [Telemedicine Platform Design](telemedicine-platform-design.md) for deeper analysis
+3. Apply [Patient Care Pathway](patient-care-pathway.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[healthcare/Medical Research](../../healthcare/Medical Research/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive manuscripts, abstracts, posters, and presentations for medical publications including journal articles, conference materials, and scientific communications following publication guidelines and standards.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

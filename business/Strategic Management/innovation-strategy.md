@@ -1,17 +1,23 @@
 ---
-title: Innovation Strategy & R&D Planning Framework
 category: business/Strategic Management
-tags: [business, framework, machine-learning, management, strategy]
-use_cases:
-  - Creating comprehensive framework for developing innovation strategies, managing r&d portfolios, evaluating emerging technologies, and fostering organizational innovation capabilities.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - okr-implementation-framework.md
-  - digital-transformation-roadmap.md
-  - lean-six-sigma-implementation.md
 last_updated: 2025-11-09
+related_templates:
+- okr-implementation-framework.md
+- digital-transformation-roadmap.md
+- lean-six-sigma-implementation.md
+tags:
+- business
+- framework
+- machine-learning
+- management
+- strategy
+title: Innovation Strategy & R&D Planning Framework
+use_cases:
+- Creating comprehensive framework for developing innovation strategies, managing
+  r&d portfolios, evaluating emerging technologies, and fostering organizational innovation
+  capabilities.
+- Project planning and execution
+- Strategy development
 ---
 
 # Innovation Strategy & R&D Planning Framework
@@ -486,6 +492,37 @@ Clinical Trials: 15 active
 Regulatory Strategy: FDA breakthrough designation
 Partnerships: Academic medical centers
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Okr Implementation Framework](okr-implementation-framework.md)** - Set measurable objectives and key results to track progress
+- **[Digital Transformation Roadmap](digital-transformation-roadmap.md)** - Strategic framework for organizational change initiatives
+- **[Lean Six Sigma Implementation](lean-six-sigma-implementation.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Innovation Strategy & R&D Planning Framework)
+2. Use [Okr Implementation Framework](okr-implementation-framework.md) for deeper analysis
+3. Apply [Digital Transformation Roadmap](digital-transformation-roadmap.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[business/Strategic Management](../../business/Strategic Management/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive framework for developing innovation strategies, managing r&d portfolios, evaluating emerging technologies, and fostering organizational innovation capabilities.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

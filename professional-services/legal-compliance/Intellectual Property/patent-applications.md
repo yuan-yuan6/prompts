@@ -1,16 +1,25 @@
 ---
-title: Patent Applications Template
 category: professional-services/legal-compliance/Intellectual Property
-tags: [automation, data-science, professional-services, research, security, strategy, template]
-use_cases:
-  - Creating comprehensive patent applications, claims drafting, prior art analysis, and intellectual property protection strategies that maximize patent protection while meeting legal requirements for novelty, non-obviousness, and utility.
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - regulatory-compliance-framework.md
-  - contract-drafting-template.md
-  - intellectual-property-management.md
 last_updated: 2025-11-09
+related_templates:
+- regulatory-compliance-framework.md
+- contract-drafting-template.md
+- intellectual-property-management.md
+tags:
+- automation
+- data-science
+- professional-services
+- research
+- security
+- strategy
+- template
+title: Patent Applications Template
+use_cases:
+- Creating comprehensive patent applications, claims drafting, prior art analysis,
+  and intellectual property protection strategies that maximize patent protection
+  while meeting legal requirements for novelty, non-obviousness, and utility.
+- Project planning and execution
+- Strategy development
 ---
 
 # Patent Applications Template
@@ -342,6 +351,37 @@ CLAIM_STRATEGY: "Composition, process, and application claims"
 JURISDICTIONS: "Worldwide via PCT"
 IP_OBJECTIVES: "Comprehensive protection for material and uses"
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Regulatory Compliance Framework](regulatory-compliance-framework.md)** - Complementary approaches and methodologies
+- **[Contract Drafting Template](contract-drafting-template.md)** - Complementary approaches and methodologies
+- **[Intellectual Property Management](intellectual-property-management.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Patent Applications Template)
+2. Use [Regulatory Compliance Framework](regulatory-compliance-framework.md) for deeper analysis
+3. Apply [Contract Drafting Template](contract-drafting-template.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[professional-services/legal-compliance/Intellectual Property](../../professional-services/legal-compliance/Intellectual Property/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive patent applications, claims drafting, prior art analysis, and intellectual property protection strategies that maximize patent protection while meeting legal requirements for novelty, non-obviousness, and utility.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

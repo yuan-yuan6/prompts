@@ -1,15 +1,22 @@
 ---
-title: Fashion Brand Strategy & Collection Development Framework
 category: industry/fashion-beauty/Fashion Design
-tags: [design, development, framework, industry, marketing, strategy]
-use_cases:
-  - Creating comprehensive framework for fashion brand development, collection planning, trend forecasting, sustainable fashion practices, omnichannel retail strategy, and luxury/mass market positioning.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - sustainable-fashion-strategy.md
 last_updated: 2025-11-09
+related_templates:
+- sustainable-fashion-strategy.md
+tags:
+- design
+- development
+- framework
+- industry
+- marketing
+- strategy
+title: Fashion Brand Strategy & Collection Development Framework
+use_cases:
+- Creating comprehensive framework for fashion brand development, collection planning,
+  trend forecasting, sustainable fashion practices, omnichannel retail strategy, and
+  luxury/mass market positioning.
+- Project planning and execution
+- Strategy development
 ---
 
 # Fashion Brand Strategy & Collection Development Framework
@@ -544,6 +551,34 @@ Digital: Omnichannel integration
 Sustainability: Circular program launch
 Technology: AI demand forecasting
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Sustainable Fashion Strategy](sustainable-fashion-strategy.md)** - Strategic planning and execution frameworks
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Fashion Brand Strategy & Collection Development Framework)
+2. Use [Sustainable Fashion Strategy](sustainable-fashion-strategy.md) for deeper analysis
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[industry/fashion-beauty/Fashion Design](../../industry/fashion-beauty/Fashion Design/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive framework for fashion brand development, collection planning, trend forecasting, sustainable fashion practices, omnichannel retail strategy, and luxury/mass market positioning.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

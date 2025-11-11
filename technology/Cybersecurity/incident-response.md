@@ -1,17 +1,26 @@
 ---
-title: Incident Response Template
 category: technology/Cybersecurity
-tags: [communication, data-science, design, management, research, security, strategy, technology]
-use_cases:
-  - Creating comprehensive incident response planning including detection, analysis, containment, eradication, recovery, and lessons learned for effective cybersecurity incident management.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - cloud-architecture-framework.md
-  - site-reliability-engineering.md
-  - cloud-migration-strategy.md
 last_updated: 2025-11-09
+related_templates:
+- cloud-architecture-framework.md
+- site-reliability-engineering.md
+- cloud-migration-strategy.md
+tags:
+- communication
+- data-science
+- design
+- management
+- research
+- security
+- strategy
+- technology
+title: Incident Response Template
+use_cases:
+- Creating comprehensive incident response planning including detection, analysis,
+  containment, eradication, recovery, and lessons learned for effective cybersecurity
+  incident management.
+- Project planning and execution
+- Strategy development
 ---
 
 # Incident Response Template
@@ -214,6 +223,37 @@ Detection and Analysis:
 | `[STATUS_REPORTS]` | Specify the status reports | "In Progress" |
 | `[FINAL_REPORT]` | Specify the final report | "[specify value]" |
 | `[INCIDENT_DOCUMENTATION]` | Specify the incident documentation | "[specify value]" |
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Cloud Architecture Framework](cloud-architecture-framework.md)** - Complementary approaches and methodologies
+- **[Site Reliability Engineering](site-reliability-engineering.md)** - Complementary approaches and methodologies
+- **[Cloud Migration Strategy](cloud-migration-strategy.md)** - Strategic planning and execution frameworks
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Incident Response Template)
+2. Use [Cloud Architecture Framework](cloud-architecture-framework.md) for deeper analysis
+3. Apply [Site Reliability Engineering](site-reliability-engineering.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[technology/Cybersecurity](../../technology/Cybersecurity/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive incident response planning including detection, analysis, containment, eradication, recovery, and lessons learned for effective cybersecurity incident management.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Best Practices
 

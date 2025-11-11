@@ -1,16 +1,23 @@
 ---
-title: K-12 Classroom Management & Instructional Framework
 category: education/K-12 Education
-tags: [design, education, framework, management, optimization, strategy]
-use_cases:
-  - Creating comprehensive framework for k-12 classroom management, instructional planning, student engagement, differentiated learning, behavioral interventions, and academic achievement optimization.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - curriculum-development.md
-  - curriculum-development-framework.md
 last_updated: 2025-11-09
+related_templates:
+- curriculum-development.md
+- curriculum-development-framework.md
+tags:
+- design
+- education
+- framework
+- management
+- optimization
+- strategy
+title: K-12 Classroom Management & Instructional Framework
+use_cases:
+- Creating comprehensive framework for k-12 classroom management, instructional planning,
+  student engagement, differentiated learning, behavioral interventions, and academic
+  achievement optimization.
+- Project planning and execution
+- Strategy development
 ---
 
 # K-12 Classroom Management & Instructional Framework
@@ -478,6 +485,36 @@ Supports: Modified assignments, assistive technology
 Collaboration: Co-teaching, regular ed consultation
 Transition: Post-secondary preparation
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Curriculum Development](curriculum-development.md)** - Complementary approaches and methodologies
+- **[Curriculum Development Framework](curriculum-development-framework.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (K-12 Classroom Management & Instructional Framework)
+2. Use [Curriculum Development](curriculum-development.md) for deeper analysis
+3. Apply [Curriculum Development Framework](curriculum-development-framework.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[education/K-12 Education](../../education/K-12 Education/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive framework for k-12 classroom management, instructional planning, student engagement, differentiated learning, behavioral interventions, and academic achievement optimization.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

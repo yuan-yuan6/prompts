@@ -1,15 +1,24 @@
 ---
-title: Metaverse & Extended Reality (XR) Strategy Framework
-category: technology/emerging-tech/Metaverse & XR
-tags: [design, development, framework, machine-learning, management, strategy, technology, testing]
-use_cases:
-  - Creating comprehensive framework for developing metaverse and xr strategies including virtual world development, immersive experiences, digital twin integration, virtual economy design, and enterprise xr implementation.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - generative-ai-implementation.md
+category: technology/Emerging Technologies/Metaverse & XR
 last_updated: 2025-11-09
+related_templates:
+- generative-ai-implementation.md
+tags:
+- design
+- development
+- framework
+- machine-learning
+- management
+- strategy
+- technology
+- testing
+title: Metaverse & Extended Reality (XR) Strategy Framework
+use_cases:
+- Creating comprehensive framework for developing metaverse and xr strategies including
+  virtual world development, immersive experiences, digital twin integration, virtual
+  economy design, and enterprise xr implementation.
+- Project planning and execution
+- Strategy development
 ---
 
 # Metaverse & Extended Reality (XR) Strategy Framework
@@ -577,6 +586,34 @@ Technology: Cloud-rendered VR
 Outcomes: 30% better engagement
 Features: Persistent virtual campus
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Generative Ai Implementation](generative-ai-implementation.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Metaverse & Extended Reality (XR) Strategy Framework)
+2. Use [Generative Ai Implementation](generative-ai-implementation.md) for deeper analysis
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[technology/Emerging Technologies/Metaverse & XR](../../technology/Emerging Technologies/Metaverse & XR/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive framework for developing metaverse and xr strategies including virtual world development, immersive experiences, digital twin integration, virtual economy design, and enterprise xr implementation.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

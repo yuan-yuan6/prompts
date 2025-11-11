@@ -1,16 +1,25 @@
 ---
-title: Government Policy Development & Implementation Framework
 category: government/Federal & State
-tags: [data-science, design, development, framework, government, management, research, security]
-use_cases:
-  - Creating comprehensive framework for developing, implementing, and evaluating government policies including stakeholder engagement, impact assessment, regulatory compliance, public consultation, and policy effectiveness monitoring.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - policy-development.md
-  - policy-research-framework.md
 last_updated: 2025-11-09
+related_templates:
+- policy-development.md
+- policy-research-framework.md
+tags:
+- data-science
+- design
+- development
+- framework
+- government
+- management
+- research
+- security
+title: Government Policy Development & Implementation Framework
+use_cases:
+- Creating comprehensive framework for developing, implementing, and evaluating government
+  policies including stakeholder engagement, impact assessment, regulatory compliance,
+  public consultation, and policy effectiveness monitoring.
+- Project planning and execution
+- Strategy development
 ---
 
 # Government Policy Development & Implementation Framework
@@ -540,6 +549,36 @@ Programs: Teacher training, technology access
 Metrics: Test scores, graduation rates
 Implementation: District-by-district rollout
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Policy Development](policy-development.md)** - Complementary approaches and methodologies
+- **[Policy Research Framework](policy-research-framework.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Government Policy Development & Implementation Framework)
+2. Use [Policy Development](policy-development.md) for deeper analysis
+3. Apply [Policy Research Framework](policy-research-framework.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[government/Federal & State](../../government/Federal & State/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive framework for developing, implementing, and evaluating government policies including stakeholder engagement, impact assessment, regulatory compliance, public consultation, and policy effectiveness monitoring.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

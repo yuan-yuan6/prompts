@@ -1,16 +1,24 @@
 ---
-title: Social Media Content Template
 category: creative/Content Creation
-tags: [creative, design, documentation, management, marketing, optimization, strategy, template]
-use_cases:
-  - Creating engaging social media content including posts, campaigns, and engagement strategies across platforms with optimized formatting, hashtags, and audience targeting.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - creative-writing-framework.md
-  - video-production-pipeline.md
 last_updated: 2025-11-09
+related_templates:
+- creative-writing-framework.md
+- video-production-pipeline.md
+tags:
+- creative
+- design
+- documentation
+- management
+- marketing
+- optimization
+- strategy
+- template
+title: Social Media Content Template
+use_cases:
+- Creating engaging social media content including posts, campaigns, and engagement
+  strategies across platforms with optimized formatting, hashtags, and audience targeting.
+- Project planning and execution
+- Strategy development
 ---
 
 # Social Media Content Template
@@ -170,6 +178,36 @@ Engagement Strategy:
 | `[LIVE_CONTENT]` | Specify the live content | "[specify value]" |
 | `[STORY_STRATEGY]` | Specify the story strategy | "[specify value]" |
 | `[COMMENT_MODERATION]` | Specify the comment moderation | "[specify value]" |
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Creative Writing Framework](creative-writing-framework.md)** - Complementary approaches and methodologies
+- **[Video Production Pipeline](video-production-pipeline.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Social Media Content Template)
+2. Use [Creative Writing Framework](creative-writing-framework.md) for deeper analysis
+3. Apply [Video Production Pipeline](video-production-pipeline.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[creative/Content Creation](../../creative/Content Creation/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating engaging social media content including posts, campaigns, and engagement strategies across platforms with optimized formatting, hashtags, and audience targeting.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Best Practices
 

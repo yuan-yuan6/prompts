@@ -1,15 +1,23 @@
 ---
-title: Quantum Computing Strategy & Implementation Framework
-category: technology/emerging-tech/Quantum Computing
-tags: [design, development, framework, machine-learning, optimization, strategy, technology]
-use_cases:
-  - Creating comprehensive framework for developing quantum computing strategies including technology assessment, use case identification, implementation roadmaps, talent development, and integration with classical computing systems.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - generative-ai-implementation.md
+category: technology/Emerging Technologies/Quantum Computing
 last_updated: 2025-11-09
+related_templates:
+- generative-ai-implementation.md
+tags:
+- design
+- development
+- framework
+- machine-learning
+- optimization
+- strategy
+- technology
+title: Quantum Computing Strategy & Implementation Framework
+use_cases:
+- Creating comprehensive framework for developing quantum computing strategies including
+  technology assessment, use case identification, implementation roadmaps, talent
+  development, and integration with classical computing systems.
+- Project planning and execution
+- Strategy development
 ---
 
 # Quantum Computing Strategy & Implementation Framework
@@ -575,6 +583,34 @@ Investment: $5M pilot program
 Target: 15% efficiency improvement
 Scale: 10,000+ delivery routes
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Generative Ai Implementation](generative-ai-implementation.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Quantum Computing Strategy & Implementation Framework)
+2. Use [Generative Ai Implementation](generative-ai-implementation.md) for deeper analysis
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[technology/Emerging Technologies/Quantum Computing](../../technology/Emerging Technologies/Quantum Computing/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive framework for developing quantum computing strategies including technology assessment, use case identification, implementation roadmaps, talent development, and integration with classical computing systems.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

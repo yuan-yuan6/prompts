@@ -1,17 +1,22 @@
 ---
-title: Growth Strategy & Market Expansion Framework
 category: business/Strategic Management
-tags: [business, design, development, framework, strategy]
-use_cases:
-  - Creating strategic framework for planning and executing business growth initiatives including organic growth, m&a, market expansion, diversification, and scaling operations.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - okr-implementation-framework.md
-  - digital-transformation-roadmap.md
-  - lean-six-sigma-implementation.md
 last_updated: 2025-11-09
+related_templates:
+- okr-implementation-framework.md
+- digital-transformation-roadmap.md
+- lean-six-sigma-implementation.md
+tags:
+- business
+- design
+- development
+- framework
+- strategy
+title: Growth Strategy & Market Expansion Framework
+use_cases:
+- Creating strategic framework for planning and executing business growth initiatives
+  including organic growth, m&a, market expansion, diversification, and scaling operations.
+- Project planning and execution
+- Strategy development
 ---
 
 # Growth Strategy & Market Expansion Framework
@@ -490,6 +495,37 @@ Strategy: Roll-up acquisitions, vertical integration
 Deal Pipeline: 20 targets identified
 Synergies: $500M cost, $300M revenue
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Okr Implementation Framework](okr-implementation-framework.md)** - Set measurable objectives and key results to track progress
+- **[Digital Transformation Roadmap](digital-transformation-roadmap.md)** - Strategic framework for organizational change initiatives
+- **[Lean Six Sigma Implementation](lean-six-sigma-implementation.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Growth Strategy & Market Expansion Framework)
+2. Use [Okr Implementation Framework](okr-implementation-framework.md) for deeper analysis
+3. Apply [Digital Transformation Roadmap](digital-transformation-roadmap.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[business/Strategic Management](../../business/Strategic Management/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating strategic framework for planning and executing business growth initiatives including organic growth, m&a, market expansion, diversification, and scaling operations.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

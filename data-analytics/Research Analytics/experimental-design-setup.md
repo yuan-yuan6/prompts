@@ -1,15 +1,22 @@
 ---
-title: Experimental Design Setup
 category: data-analytics/Research Analytics
-tags: [automation, data-analytics, design, research, template]
-use_cases:
-  - Select and configure appropriate experimental designs including RCTs, A/B tests, factorial designs, crossover designs, cluster trials, stepped wedge, quasi-experimental, and regression discontinuity designs
-related_templates:
-  - randomization-and-power-analysis.md
-  - treatment-effect-analysis.md
-  - validity-and-diagnostics.md
-  - variables-and-implementation.md
 last_updated: 2025-11-10
+related_templates:
+- randomization-and-power-analysis.md
+- treatment-effect-analysis.md
+- validity-and-diagnostics.md
+- variables-and-implementation.md
+tags:
+- automation
+- data-analytics
+- design
+- research
+- template
+title: Experimental Design Setup
+use_cases:
+- Select and configure appropriate experimental designs including RCTs, A/B tests,
+  factorial designs, crossover designs, cluster trials, stepped wedge, quasi-experimental,
+  and regression discontinuity designs
 ---
 
 # Experimental Design Setup
@@ -608,6 +615,36 @@ print(f"Design effect: {cluster_design['design_effect']:.2f}")
 print(f"Effective sample size: {cluster_design['effective_sample_size']:.0f}")
 print(f"Actual sample size: {cluster_design['total_participants']}")
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Randomization And Power Analysis](randomization-and-power-analysis.md)** - Complementary approaches and methodologies
+- **[Treatment Effect Analysis](treatment-effect-analysis.md)** - Complementary approaches and methodologies
+- **[Validity And Diagnostics](validity-and-diagnostics.md)** - Complementary approaches and methodologies
+- **[Variables And Implementation](variables-and-implementation.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Experimental Design Setup)
+2. Use [Randomization And Power Analysis](randomization-and-power-analysis.md) for deeper analysis
+3. Apply [Treatment Effect Analysis](treatment-effect-analysis.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[data-analytics/Research Analytics](../../data-analytics/Research Analytics/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Select and configure appropriate experimental designs including RCTs, A/B tests, factorial designs, crossover designs, cluster trials, stepped wedge, quasi-experimental, and regression discontinuity designs**: Combine this template with related analytics and strategy frameworks
 
 ## Best Practices
 

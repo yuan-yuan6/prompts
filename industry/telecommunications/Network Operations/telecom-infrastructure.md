@@ -1,15 +1,24 @@
 ---
-title: Telecommunications Infrastructure & Network Operations Framework
 category: industry/telecommunications/Network Operations
-tags: [communication, design, framework, industry, management, optimization, strategy, testing]
-use_cases:
-  - Creating comprehensive framework for telecommunications network planning, operations management, 5g deployment, network optimization, service quality assurance, and digital infrastructure transformation.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - 5g-network-deployment.md
 last_updated: 2025-11-09
+related_templates:
+- 5g-network-deployment.md
+tags:
+- communication
+- design
+- framework
+- industry
+- management
+- optimization
+- strategy
+- testing
+title: Telecommunications Infrastructure & Network Operations Framework
+use_cases:
+- Creating comprehensive framework for telecommunications network planning, operations
+  management, 5g deployment, network optimization, service quality assurance, and
+  digital infrastructure transformation.
+- Project planning and execution
+- Strategy development
 ---
 
 # Telecommunications Infrastructure & Network Operations Framework
@@ -533,6 +542,34 @@ Edge Sites: 500 locations
 Revenue: $1.5B annual
 Growth: Acquisition + organic
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[5G Network Deployment](5g-network-deployment.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Telecommunications Infrastructure & Network Operations Framework)
+2. Use [5G Network Deployment](5g-network-deployment.md) for deeper analysis
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[industry/telecommunications/Network Operations](../../industry/telecommunications/Network Operations/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive framework for telecommunications network planning, operations management, 5g deployment, network optimization, service quality assurance, and digital infrastructure transformation.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

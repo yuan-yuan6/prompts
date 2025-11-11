@@ -1,17 +1,25 @@
 ---
-title: Contract Negotiation Strategy Framework
 category: professional-services/legal-compliance/Contract Management
-tags: [data-science, design, framework, optimization, professional-services, research, strategy]
-use_cases:
-  - Creating comprehensive framework for negotiating contracts including preparation strategies, negotiation tactics, concession planning, deal structuring, and closing techniques for optimal contract terms.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - regulatory-compliance-framework.md
-  - contract-drafting-template.md
-  - intellectual-property-management.md
 last_updated: 2025-11-09
+related_templates:
+- regulatory-compliance-framework.md
+- contract-drafting-template.md
+- intellectual-property-management.md
+tags:
+- data-science
+- design
+- framework
+- optimization
+- professional-services
+- research
+- strategy
+title: Contract Negotiation Strategy Framework
+use_cases:
+- Creating comprehensive framework for negotiating contracts including preparation
+  strategies, negotiation tactics, concession planning, deal structuring, and closing
+  techniques for optimal contract terms.
+- Project planning and execution
+- Strategy development
 ---
 
 # Contract Negotiation Strategy Framework
@@ -583,6 +591,37 @@ Resolution: Rotating chair, arbitration
 Timeline: 4-month negotiation
 Outcome: Balanced partnership agreement
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Regulatory Compliance Framework](regulatory-compliance-framework.md)** - Complementary approaches and methodologies
+- **[Contract Drafting Template](contract-drafting-template.md)** - Complementary approaches and methodologies
+- **[Intellectual Property Management](intellectual-property-management.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Contract Negotiation Strategy Framework)
+2. Use [Regulatory Compliance Framework](regulatory-compliance-framework.md) for deeper analysis
+3. Apply [Contract Drafting Template](contract-drafting-template.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[professional-services/legal-compliance/Contract Management](../../professional-services/legal-compliance/Contract Management/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive framework for negotiating contracts including preparation strategies, negotiation tactics, concession planning, deal structuring, and closing techniques for optimal contract terms.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

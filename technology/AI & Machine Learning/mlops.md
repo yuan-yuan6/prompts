@@ -1,17 +1,26 @@
 ---
-title: MLOps Template
 category: technology/AI & Machine Learning
-tags: [automation, design, development, machine-learning, management, optimization, security, strategy]
-use_cases:
-  - Creating implement comprehensive mlops practices including ci/cd pipelines, model monitoring, versioning, automated testing, and governance for scalable and reliable machine learning systems.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - cloud-architecture-framework.md
-  - site-reliability-engineering.md
-  - cloud-migration-strategy.md
 last_updated: 2025-11-09
+related_templates:
+- cloud-architecture-framework.md
+- site-reliability-engineering.md
+- cloud-migration-strategy.md
+tags:
+- automation
+- design
+- development
+- machine-learning
+- management
+- optimization
+- security
+- strategy
+title: MLOps Template
+use_cases:
+- Creating implement comprehensive mlops practices including ci/cd pipelines, model
+  monitoring, versioning, automated testing, and governance for scalable and reliable
+  machine learning systems.
+- Project planning and execution
+- Strategy development
 ---
 
 # MLOps Template
@@ -217,6 +226,37 @@ Model Monitoring:
 | `[NETWORKING]` | Specify the networking | "[specify value]" |
 | `[BACKUP_STRATEGY]` | Specify the backup strategy | "[specify value]" |
 | `[DISASTER_RECOVERY]` | Specify the disaster recovery | "[specify value]" |
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Cloud Architecture Framework](cloud-architecture-framework.md)** - Complementary approaches and methodologies
+- **[Site Reliability Engineering](site-reliability-engineering.md)** - Complementary approaches and methodologies
+- **[Cloud Migration Strategy](cloud-migration-strategy.md)** - Strategic planning and execution frameworks
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (MLOps Template)
+2. Use [Cloud Architecture Framework](cloud-architecture-framework.md) for deeper analysis
+3. Apply [Site Reliability Engineering](site-reliability-engineering.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[technology/AI & Machine Learning](../../technology/AI & Machine Learning/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating implement comprehensive mlops practices including ci/cd pipelines, model monitoring, versioning, automated testing, and governance for scalable and reliable machine learning systems.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Best Practices
 

@@ -1,17 +1,26 @@
 ---
-title: Investment Portfolio Optimization & Asset Management Framework
 category: finance/economics
-tags: [data-science, design, finance, framework, management, optimization, research, strategy]
-use_cases:
-  - Creating comprehensive framework for optimizing investment portfolios including asset allocation, risk management, performance analysis, rebalancing strategies, tax optimization, and alternative investments for maximizing risk-adjusted returns.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - investment-portfolio-management.md
-  - digital-banking-strategy.md
-  - risk-management-framework.md
 last_updated: 2025-11-09
+related_templates:
+- investment-portfolio-management.md
+- digital-banking-strategy.md
+- risk-management-framework.md
+tags:
+- data-science
+- design
+- finance
+- framework
+- management
+- optimization
+- research
+- strategy
+title: Investment Portfolio Optimization & Asset Management Framework
+use_cases:
+- Creating comprehensive framework for optimizing investment portfolios including
+  asset allocation, risk management, performance analysis, rebalancing strategies,
+  tax optimization, and alternative investments for maximizing risk-adjusted returns.
+- Project planning and execution
+- Strategy development
 ---
 
 # Investment Portfolio Optimization & Asset Management Framework
@@ -598,6 +607,37 @@ Risk Budget: 12% volatility
 Liquidity: 20% liquid within 30 days
 Performance: CPI + 5% over rolling 10 years
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Investment Portfolio Management](investment-portfolio-management.md)** - Complementary approaches and methodologies
+- **[Digital Banking Strategy](digital-banking-strategy.md)** - Strategic planning and execution frameworks
+- **[Risk Management Framework](risk-management-framework.md)** - Identify, assess, and mitigate potential risks
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Investment Portfolio Optimization & Asset Management Framework)
+2. Use [Investment Portfolio Management](investment-portfolio-management.md) for deeper analysis
+3. Apply [Digital Banking Strategy](digital-banking-strategy.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[finance/economics](../../finance/economics/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive framework for optimizing investment portfolios including asset allocation, risk management, performance analysis, rebalancing strategies, tax optimization, and alternative investments for maximizing risk-adjusted returns.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

@@ -1,15 +1,26 @@
 ---
-title: Content Strategy Template
 category: creative/journalism
-tags: [creative, data-science, design, machine-learning, management, marketing, optimization, research]
-use_cases:
-  - Creating comprehensive content strategy frameworks, editorial planning systems, audience engagement strategies, and multi-platform publishing approaches that drive audience growth, enhance brand authority, optimize content performance, and support sustainable journalism business models in the digital media landscape.
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - creative-writing-framework.md
-  - video-production-pipeline.md
 last_updated: 2025-11-09
+related_templates:
+- creative-writing-framework.md
+- video-production-pipeline.md
+tags:
+- creative
+- data-science
+- design
+- machine-learning
+- management
+- marketing
+- optimization
+- research
+title: Content Strategy Template
+use_cases:
+- Creating comprehensive content strategy frameworks, editorial planning systems,
+  audience engagement strategies, and multi-platform publishing approaches that drive
+  audience growth, enhance brand authority, optimize content performance, and support
+  sustainable journalism business models in the digital media landscape.
+- Project planning and execution
+- Strategy development
 ---
 
 # Content Strategy Template
@@ -628,6 +639,36 @@ SUCCESS_METRICS: "10K premium subscribers, $2M event revenue, industry recogniti
 STRATEGY_TIMELINE: "36-month premium content and events strategy"
 RESOURCE_PARAMETERS: "$2M annual budget, specialized editorial team, research capabilities"
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Creative Writing Framework](creative-writing-framework.md)** - Complementary approaches and methodologies
+- **[Video Production Pipeline](video-production-pipeline.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Content Strategy Template)
+2. Use [Creative Writing Framework](creative-writing-framework.md) for deeper analysis
+3. Apply [Video Production Pipeline](video-production-pipeline.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[creative/journalism](../../creative/journalism/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive content strategy frameworks, editorial planning systems, audience engagement strategies, and multi-platform publishing approaches that drive audience growth, enhance brand authority, optimize content performance, and support sustainable journalism business models in the digital media landscape.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

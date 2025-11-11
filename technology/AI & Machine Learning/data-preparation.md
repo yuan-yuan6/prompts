@@ -1,17 +1,26 @@
 ---
-title: Data Preparation Template
 category: technology/AI & Machine Learning
-tags: [design, documentation, machine-learning, security, strategy, technology, template, testing]
-use_cases:
-  - Creating comprehensive data preparation for machine learning including feature engineering, data labeling, augmentation, preprocessing, and quality assurance for robust model training.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - cloud-architecture-framework.md
-  - site-reliability-engineering.md
-  - cloud-migration-strategy.md
 last_updated: 2025-11-09
+related_templates:
+- cloud-architecture-framework.md
+- site-reliability-engineering.md
+- cloud-migration-strategy.md
+tags:
+- design
+- documentation
+- machine-learning
+- security
+- strategy
+- technology
+- template
+- testing
+title: Data Preparation Template
+use_cases:
+- Creating comprehensive data preparation for machine learning including feature engineering,
+  data labeling, augmentation, preprocessing, and quality assurance for robust model
+  training.
+- Project planning and execution
+- Strategy development
 ---
 
 # Data Preparation Template
@@ -199,6 +208,37 @@ Feature Engineering:
 | `[AUGMENTATION_CONSTRAINTS]` | Specify the augmentation constraints | "[specify value]" |
 | `[AUGMENTATION_EVALUATION]` | Specify the augmentation evaluation | "[specify value]" |
 | `[AUGMENTATION_TOOLS]` | Specify the augmentation tools | "[specify value]" |
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Cloud Architecture Framework](cloud-architecture-framework.md)** - Complementary approaches and methodologies
+- **[Site Reliability Engineering](site-reliability-engineering.md)** - Complementary approaches and methodologies
+- **[Cloud Migration Strategy](cloud-migration-strategy.md)** - Strategic planning and execution frameworks
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Data Preparation Template)
+2. Use [Cloud Architecture Framework](cloud-architecture-framework.md) for deeper analysis
+3. Apply [Site Reliability Engineering](site-reliability-engineering.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[technology/AI & Machine Learning](../../technology/AI & Machine Learning/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive data preparation for machine learning including feature engineering, data labeling, augmentation, preprocessing, and quality assurance for robust model training.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Best Practices
 

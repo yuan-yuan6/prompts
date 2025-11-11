@@ -1,16 +1,22 @@
 ---
-title: Risk Management Framework - Overview & Navigation Guide
 category: finance
-tags: [design, finance, framework, management, navigation, overview]
-use_cases:
-  - Navigating the comprehensive risk management framework series
-  - Understanding the structure and organization of risk management components
-  - Quick reference for selecting the appropriate risk management template
-related_templates:
-  - risk-management-01-foundation-credit.md
-  - risk-management-02-market-operational.md
-  - risk-management-03-compliance-innovation.md
 last_updated: 2025-11-11
+related_templates:
+- risk-management-01-foundation-credit.md
+- risk-management-02-market-operational.md
+- risk-management-03-compliance-innovation.md
+tags:
+- design
+- finance
+- framework
+- management
+- navigation
+- overview
+title: Risk Management Framework - Overview & Navigation Guide
+use_cases:
+- Navigating the comprehensive risk management framework series
+- Understanding the structure and organization of risk management components
+- Quick reference for selecting the appropriate risk management template
 ---
 
 # Risk Management Framework - Overview & Navigation Guide
@@ -262,6 +268,37 @@ See individual parts for complete variable lists.
 - Risk appetite adjustment (Part 1)
 
 ---
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Risk Management 01 Foundation Credit](risk-management-01-foundation-credit.md)** - Identify, assess, and mitigate potential risks
+- **[Risk Management 02 Market Operational](risk-management-02-market-operational.md)** - Identify, assess, and mitigate potential risks
+- **[Risk Management 03 Compliance Innovation](risk-management-03-compliance-innovation.md)** - Identify, assess, and mitigate potential risks
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Risk Management Framework - Overview & Navigation Guide)
+2. Use [Risk Management 01 Foundation Credit](risk-management-01-foundation-credit.md) for deeper analysis
+3. Apply [Risk Management 02 Market Operational](risk-management-02-market-operational.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[finance](../../finance/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Navigating the comprehensive risk management framework series**: Combine this template with related analytics and strategy frameworks
+- **Understanding the structure and organization of risk management components**: Combine this template with related analytics and strategy frameworks
+- **Quick reference for selecting the appropriate risk management template**: Combine this template with related analytics and strategy frameworks
 
 ## Best Practices for Using This Series
 

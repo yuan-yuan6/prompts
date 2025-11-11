@@ -1,16 +1,26 @@
 ---
-title: Treasury Management Template Generator
 category: business/Finance & Accounting
-tags: [business, design, development, machine-learning, management, optimization, security, strategy]
-use_cases:
-  - Creating comprehensive treasury management strategies covering cash flow management, funding optimization, and investment decisions to ensure liquidity, minimize financial risk, and maximize returns on corporate assets.
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - okr-implementation-framework.md
-  - digital-transformation-roadmap.md
-  - lean-six-sigma-implementation.md
 last_updated: 2025-11-09
+related_templates:
+- okr-implementation-framework.md
+- digital-transformation-roadmap.md
+- lean-six-sigma-implementation.md
+tags:
+- business
+- design
+- development
+- machine-learning
+- management
+- optimization
+- security
+- strategy
+title: Treasury Management Template Generator
+use_cases:
+- Creating comprehensive treasury management strategies covering cash flow management,
+  funding optimization, and investment decisions to ensure liquidity, minimize financial
+  risk, and maximize returns on corporate assets.
+- Project planning and execution
+- Strategy development
 ---
 
 # Treasury Management Template Generator
@@ -1284,3 +1294,32 @@ Use for corporate treasury strategy, cash management, liquidity planning, invest
 - Add industry-specific risk factors and hedging instruments
 - Include ESG and sustainability investment criteria
 - Scale complexity based on company size and treasury sophistication
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Okr Implementation Framework](okr-implementation-framework.md)** - Set measurable objectives and key results to track progress
+- **[Digital Transformation Roadmap](digital-transformation-roadmap.md)** - Strategic framework for organizational change initiatives
+- **[Lean Six Sigma Implementation](lean-six-sigma-implementation.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Treasury Management Template Generator)
+2. Use [Okr Implementation Framework](okr-implementation-framework.md) for deeper analysis
+3. Apply [Digital Transformation Roadmap](digital-transformation-roadmap.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[business/Finance & Accounting](../../business/Finance & Accounting/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive treasury management strategies covering cash flow management, funding optimization, and investment decisions to ensure liquidity, minimize financial risk, and maximize returns on corporate assets.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks

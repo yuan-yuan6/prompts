@@ -1,14 +1,21 @@
 ---
-title: Lean Manufacturing Implementation
 category: industry/manufacturing/Operations Excellence
-tags: [data-science, design, industry, optimization, research, template, testing]
-use_cases:
-  - Implementing comprehensive lean manufacturing systems and waste elimination strategies
-  - Continuous improvement frameworks and operational excellence initiatives
-  - Maximizing efficiency, quality, and value creation
-related_templates:
-  - quality-management.md
 last_updated: 2025-11-09
+related_templates:
+- quality-management.md
+tags:
+- data-science
+- design
+- industry
+- optimization
+- research
+- template
+- testing
+title: Lean Manufacturing Implementation
+use_cases:
+- Implementing comprehensive lean manufacturing systems and waste elimination strategies
+- Continuous improvement frameworks and operational excellence initiatives
+- Maximizing efficiency, quality, and value creation
 ---
 
 # Lean Manufacturing Implementation
@@ -568,6 +575,34 @@ APPROACH:
 - Reduce changeover waste through standardized procedures
 - Target 40% reduction in spoilage and giveaway
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Quality Management](quality-management.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Lean Manufacturing Implementation)
+2. Use [Quality Management](quality-management.md) for deeper analysis
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[industry/manufacturing/Operations Excellence](../../industry/manufacturing/Operations Excellence/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Implementing comprehensive lean manufacturing systems and waste elimination strategies**: Combine this template with related analytics and strategy frameworks
+- **Continuous improvement frameworks and operational excellence initiatives**: Combine this template with related analytics and strategy frameworks
+- **Maximizing efficiency, quality, and value creation**: Combine this template with related analytics and strategy frameworks
 
 ## Best Practices
 

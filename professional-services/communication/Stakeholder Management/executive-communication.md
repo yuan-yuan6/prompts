@@ -1,16 +1,23 @@
 ---
-title: Executive Communication & Briefings Prompt Template
 category: professional-services/communication/Stakeholder Management
-tags: [communication, design, management, professional-services, strategy, template]
-use_cases:
-  - Creating comprehensive framework for crafting executive-level communications, briefings, and presentations that deliver strategic insights, drive decision-making, and ensure leadership alignment.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - meeting-management-framework.md
-  - crisis-communication-plan.md
 last_updated: 2025-11-09
+related_templates:
+- meeting-management-framework.md
+- crisis-communication-plan.md
+tags:
+- communication
+- design
+- management
+- professional-services
+- strategy
+- template
+title: Executive Communication & Briefings Prompt Template
+use_cases:
+- Creating comprehensive framework for crafting executive-level communications, briefings,
+  and presentations that deliver strategic insights, drive decision-making, and ensure
+  leadership alignment.
+- Project planning and execution
+- Strategy development
 ---
 
 # Executive Communication & Briefings Prompt Template
@@ -1016,6 +1023,36 @@ Objective: Define 3-year strategic roadmap
 Challenges: Competing priorities, resource constraints
 Deliverables: Strategic pillars, investment priorities, success metrics
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Meeting Management Framework](meeting-management-framework.md)** - Complementary approaches and methodologies
+- **[Crisis Communication Plan](crisis-communication-plan.md)** - Effective communication strategies for stakeholders
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Executive Communication & Briefings Prompt Template)
+2. Use [Meeting Management Framework](meeting-management-framework.md) for deeper analysis
+3. Apply [Crisis Communication Plan](crisis-communication-plan.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[professional-services/communication/Stakeholder Management](../../professional-services/communication/Stakeholder Management/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive framework for crafting executive-level communications, briefings, and presentations that deliver strategic insights, drive decision-making, and ensure leadership alignment.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

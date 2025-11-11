@@ -1,15 +1,23 @@
 ---
-title: Sports Team Analytics & Performance Optimization Framework
 category: industry/sports-recreation/Professional Sports
-tags: [data-science, development, framework, industry, optimization, research, strategy]
-use_cases:
-  - Creating comprehensive framework for professional sports team analytics, player performance optimization, tactical analysis, injury prevention, scouting systems, and competitive advantage development.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - athlete-performance-optimization.md
 last_updated: 2025-11-09
+related_templates:
+- athlete-performance-optimization.md
+tags:
+- data-science
+- development
+- framework
+- industry
+- optimization
+- research
+- strategy
+title: Sports Team Analytics & Performance Optimization Framework
+use_cases:
+- Creating comprehensive framework for professional sports team analytics, player
+  performance optimization, tactical analysis, injury prevention, scouting systems,
+  and competitive advantage development.
+- Project planning and execution
+- Strategy development
 ---
 
 # Sports Team Analytics & Performance Optimization Framework
@@ -515,6 +523,34 @@ Performance: 12% increase in WAR
 Investment: $5M annual analytics budget
 Championship Impact: World Series contention
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Athlete Performance Optimization](athlete-performance-optimization.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Sports Team Analytics & Performance Optimization Framework)
+2. Use [Athlete Performance Optimization](athlete-performance-optimization.md) for deeper analysis
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[industry/sports-recreation/Professional Sports](../../industry/sports-recreation/Professional Sports/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive framework for professional sports team analytics, player performance optimization, tactical analysis, injury prevention, scouting systems, and competitive advantage development.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

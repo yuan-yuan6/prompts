@@ -1,17 +1,26 @@
 ---
-title: Version Control & Git Workflow Management Framework
 category: technology/Software Development
-tags: [automation, design, development, documentation, framework, machine-learning, management, security]
-use_cases:
-  - Creating comprehensive framework for version control management, git workflows, branching strategies, code review processes, merge conflict resolution, and collaborative development practices.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - cloud-architecture-framework.md
-  - site-reliability-engineering.md
-  - cloud-migration-strategy.md
 last_updated: 2025-11-09
+related_templates:
+- cloud-architecture-framework.md
+- site-reliability-engineering.md
+- cloud-migration-strategy.md
+tags:
+- automation
+- design
+- development
+- documentation
+- framework
+- machine-learning
+- management
+- security
+title: Version Control & Git Workflow Management Framework
+use_cases:
+- Creating comprehensive framework for version control management, git workflows,
+  branching strategies, code review processes, merge conflict resolution, and collaborative
+  development practices.
+- Project planning and execution
+- Strategy development
 ---
 
 # Version Control & Git Workflow Management Framework
@@ -580,6 +589,37 @@ Release: Semantic versioning
 Community: Discord + Forums
 Documentation: Extensive
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Cloud Architecture Framework](cloud-architecture-framework.md)** - Complementary approaches and methodologies
+- **[Site Reliability Engineering](site-reliability-engineering.md)** - Complementary approaches and methodologies
+- **[Cloud Migration Strategy](cloud-migration-strategy.md)** - Strategic planning and execution frameworks
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Version Control & Git Workflow Management Framework)
+2. Use [Cloud Architecture Framework](cloud-architecture-framework.md) for deeper analysis
+3. Apply [Site Reliability Engineering](site-reliability-engineering.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[technology/Software Development](../../technology/Software Development/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive framework for version control management, git workflows, branching strategies, code review processes, merge conflict resolution, and collaborative development practices.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

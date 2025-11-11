@@ -1,15 +1,24 @@
 ---
-title: Podcasting Strategy & Production Framework
 category: creative/journalism/Digital Media
-tags: [creative, data-science, development, framework, machine-learning, marketing, research, strategy]
-use_cases:
-  - Creating comprehensive framework for developing and producing podcasts including content strategy, production workflows, audience growth, monetization models, and distribution strategies for media organizations and content creators.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - content-strategy.md
 last_updated: 2025-11-09
+related_templates:
+- content-strategy.md
+tags:
+- creative
+- data-science
+- development
+- framework
+- machine-learning
+- marketing
+- research
+- strategy
+title: Podcasting Strategy & Production Framework
+use_cases:
+- Creating comprehensive framework for developing and producing podcasts including
+  content strategy, production workflows, audience growth, monetization models, and
+  distribution strategies for media organizations and content creators.
+- Project planning and execution
+- Strategy development
 ---
 
 # Podcasting Strategy & Production Framework
@@ -589,6 +598,34 @@ Audience: 1M+ daily listeners
 Revenue: Programmatic ads + subscriptions
 Cross-promotion: Newsletter + website
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Content Strategy](content-strategy.md)** - Strategic planning and execution frameworks
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Podcasting Strategy & Production Framework)
+2. Use [Content Strategy](content-strategy.md) for deeper analysis
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[creative/journalism/Digital Media](../../creative/journalism/Digital Media/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive framework for developing and producing podcasts including content strategy, production workflows, audience growth, monetization models, and distribution strategies for media organizations and content creators.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

@@ -1,18 +1,23 @@
 ---
-title: Recruitment - Overview & Navigation
 category: business/Human Resources
-tags: [recruitment, hiring, talent-acquisition, hr, overview]
-use_cases:
-  - Understanding the complete recruitment process
-  - Navigating recruitment prompt library
-  - Selecting the right recruitment tool for your needs
-related_templates:
-  - job-analysis-definition.md
-  - candidate-sourcing-branding.md
-  - screening-interview-process.md
-  - candidate-assessment-selection.md
-  - recruitment-metrics-optimization.md
 last_updated: 2025-11-09
+related_templates:
+- job-analysis-definition.md
+- candidate-sourcing-branding.md
+- screening-interview-process.md
+- candidate-assessment-selection.md
+- recruitment-metrics-optimization.md
+tags:
+- recruitment
+- hiring
+- talent-acquisition
+- hr
+- overview
+title: Recruitment - Overview & Navigation
+use_cases:
+- Understanding the complete recruitment process
+- Navigating recruitment prompt library
+- Selecting the right recruitment tool for your needs
 ---
 
 # Recruitment - Overview & Navigation
@@ -201,6 +206,39 @@ Select the **individual prompt** that addresses your immediate need:
 
 **Want to improve your hiring results?**
 → Implement **Recruitment Metrics & Optimization**
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Job Analysis Definition](job-analysis-definition.md)** - Complementary approaches and methodologies
+- **[Candidate Sourcing Branding](candidate-sourcing-branding.md)** - Complementary approaches and methodologies
+- **[Screening Interview Process](screening-interview-process.md)** - Complementary approaches and methodologies
+- **[Candidate Assessment Selection](candidate-assessment-selection.md)** - Complementary approaches and methodologies
+- **[Recruitment Metrics Optimization](recruitment-metrics-optimization.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Recruitment - Overview & Navigation)
+2. Use [Job Analysis Definition](job-analysis-definition.md) for deeper analysis
+3. Apply [Candidate Sourcing Branding](candidate-sourcing-branding.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[business/Human Resources](../../business/Human Resources/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Understanding the complete recruitment process**: Combine this template with related analytics and strategy frameworks
+- **Navigating recruitment prompt library**: Combine this template with related analytics and strategy frameworks
+- **Selecting the right recruitment tool for your needs**: Combine this template with related analytics and strategy frameworks
 
 ## Best Practices
 

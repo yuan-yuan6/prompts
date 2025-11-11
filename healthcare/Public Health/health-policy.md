@@ -1,16 +1,26 @@
 ---
-title: Health Policy & Advocacy Template
 category: healthcare/Public Health
-tags: [communication, data-science, design, healthcare, marketing, research, strategy, template]
-use_cases:
-  - Creating comprehensive health policy proposals, advocacy campaigns, legislative strategies, and stakeholder engagement plans that advance public health priorities through policy change and systems transformation.
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - telemedicine-platform-design.md
-  - patient-care-pathway.md
-  - clinical-trials-management.md
 last_updated: 2025-11-09
+related_templates:
+- telemedicine-platform-design.md
+- patient-care-pathway.md
+- clinical-trials-management.md
+tags:
+- communication
+- data-science
+- design
+- healthcare
+- marketing
+- research
+- strategy
+- template
+title: Health Policy & Advocacy Template
+use_cases:
+- Creating comprehensive health policy proposals, advocacy campaigns, legislative
+  strategies, and stakeholder engagement plans that advance public health priorities
+  through policy change and systems transformation.
+- Project planning and execution
+- Strategy development
 ---
 
 # Health Policy & Advocacy Template
@@ -523,6 +533,37 @@ POLICY_LEVEL: "Federal appropriations"
 ADVOCACY_STRATEGY: "Multi-state coalition with data-driven approach"
 POLICY_GOAL: "Double CDC funding over 5 years"
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Telemedicine Platform Design](telemedicine-platform-design.md)** - Complementary approaches and methodologies
+- **[Patient Care Pathway](patient-care-pathway.md)** - Complementary approaches and methodologies
+- **[Clinical Trials Management](clinical-trials-management.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Health Policy & Advocacy Template)
+2. Use [Telemedicine Platform Design](telemedicine-platform-design.md) for deeper analysis
+3. Apply [Patient Care Pathway](patient-care-pathway.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[healthcare/Public Health](../../healthcare/Public Health/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive health policy proposals, advocacy campaigns, legislative strategies, and stakeholder engagement plans that advance public health priorities through policy change and systems transformation.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

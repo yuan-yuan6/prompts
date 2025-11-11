@@ -1,16 +1,21 @@
 ---
-title: Renewable Energy System Optimization
 category: industry/energy-utilities/Generation & Operations
-tags: [data-science, industry, optimization, research, strategy]
-use_cases:
-  - Creating comprehensive renewable energy planning, deployment, and optimization framework for solar, wind, hydro, and emerging renewable technologies.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - plant-operations-management.md
-  - smart-grid-implementation.md
 last_updated: 2025-11-09
+related_templates:
+- plant-operations-management.md
+- smart-grid-implementation.md
+tags:
+- data-science
+- industry
+- optimization
+- research
+- strategy
+title: Renewable Energy System Optimization
+use_cases:
+- Creating comprehensive renewable energy planning, deployment, and optimization framework
+  for solar, wind, hydro, and emerging renewable technologies.
+- Project planning and execution
+- Strategy development
 ---
 
 # Renewable Energy System Optimization
@@ -464,6 +469,36 @@ Location: Texas panhandle
 Grid: Co-located substation
 Investment: $450 million
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Plant Operations Management](plant-operations-management.md)** - Complementary approaches and methodologies
+- **[Smart Grid Implementation](smart-grid-implementation.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Renewable Energy System Optimization)
+2. Use [Plant Operations Management](plant-operations-management.md) for deeper analysis
+3. Apply [Smart Grid Implementation](smart-grid-implementation.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[industry/energy-utilities/Generation & Operations](../../industry/energy-utilities/Generation & Operations/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive renewable energy planning, deployment, and optimization framework for solar, wind, hydro, and emerging renewable technologies.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

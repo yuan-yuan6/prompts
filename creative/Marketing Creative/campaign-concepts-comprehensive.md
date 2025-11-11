@@ -1,15 +1,24 @@
 ---
-title: Campaign Concepts Comprehensive Template Generator
 category: creative/Marketing Creative
-tags: [communication, comprehensive, creative, development, marketing, strategy, template]
-use_cases:
-  - Creating comprehensive campaign concepts covering themes, messaging, creative briefs, storytelling, and activation strategies for integrated marketing campaigns across all channels and touchpoints.
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - creative-writing-framework.md
-  - video-production-pipeline.md
 last_updated: 2025-11-09
+related_templates:
+- creative-writing-framework.md
+- video-production-pipeline.md
+tags:
+- communication
+- comprehensive
+- creative
+- development
+- marketing
+- strategy
+- template
+title: Campaign Concepts Comprehensive Template Generator
+use_cases:
+- Creating comprehensive campaign concepts covering themes, messaging, creative briefs,
+  storytelling, and activation strategies for integrated marketing campaigns across
+  all channels and touchpoints.
+- Project planning and execution
+- Strategy development
 ---
 
 # Campaign Concepts Comprehensive Template Generator
@@ -1285,6 +1294,36 @@ Generate a comprehensive campaign concept strategy that includes:
 ### Example 3: Local Service Business Growth
 **Use Case**: Regional healthcare network expansion
 **Key Variables**: Trust and credibility, local community focus, traditional-digital integration
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Creative Writing Framework](creative-writing-framework.md)** - Complementary approaches and methodologies
+- **[Video Production Pipeline](video-production-pipeline.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Campaign Concepts Comprehensive Template Generator)
+2. Use [Creative Writing Framework](creative-writing-framework.md) for deeper analysis
+3. Apply [Video Production Pipeline](video-production-pipeline.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[creative/Marketing Creative](../../creative/Marketing Creative/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive campaign concepts covering themes, messaging, creative briefs, storytelling, and activation strategies for integrated marketing campaigns across all channels and touchpoints.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

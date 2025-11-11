@@ -1,15 +1,24 @@
 ---
-title: Educational Content Creation Template
 category: education/Teaching & Instruction
-tags: [design, development, documentation, education, research, template, testing]
-use_cases:
-  - Creating comprehensive educational materials including textbooks, study guides, learning resources, multimedia content, and instructional materials for diverse educational contexts.
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - curriculum-development.md
-  - curriculum-development-framework.md
 last_updated: 2025-11-09
+related_templates:
+- curriculum-development.md
+- curriculum-development-framework.md
+tags:
+- design
+- development
+- documentation
+- education
+- research
+- template
+- testing
+title: Educational Content Creation Template
+use_cases:
+- Creating comprehensive educational materials including textbooks, study guides,
+  learning resources, multimedia content, and instructional materials for diverse
+  educational contexts.
+- Project planning and execution
+- Strategy development
 ---
 
 # Educational Content Creation Template
@@ -1341,6 +1350,36 @@ Content Elements: Animations, diagrams, real-world examples, practice questions
 Production: Screen recording with voiceover, edited visuals
 Delivery: Learning management system with discussion boards
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Curriculum Development](curriculum-development.md)** - Complementary approaches and methodologies
+- **[Curriculum Development Framework](curriculum-development-framework.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Educational Content Creation Template)
+2. Use [Curriculum Development](curriculum-development.md) for deeper analysis
+3. Apply [Curriculum Development Framework](curriculum-development-framework.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[education/Teaching & Instruction](../../education/Teaching & Instruction/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive educational materials including textbooks, study guides, learning resources, multimedia content, and instructional materials for diverse educational contexts.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Best Practices
 

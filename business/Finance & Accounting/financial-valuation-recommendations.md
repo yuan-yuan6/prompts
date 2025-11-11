@@ -1,16 +1,21 @@
 ---
-title: Financial Valuation & Investment Recommendations
 category: business/Finance & Accounting
-tags: [business, finance, valuation, investment-analysis, recommendations]
-use_cases:
-  - Conducting business and equity valuations
-  - Developing investment recommendations
-  - Supporting M&A and strategic decisions
-related_templates:
-  - financial-statement-analysis.md
-  - financial-forecasting.md
-  - financial-risk-assessment.md
 last_updated: 2025-11-09
+related_templates:
+- financial-statement-analysis.md
+- financial-forecasting.md
+- financial-risk-assessment.md
+tags:
+- business
+- finance
+- valuation
+- investment-analysis
+- recommendations
+title: Financial Valuation & Investment Recommendations
+use_cases:
+- Conducting business and equity valuations
+- Developing investment recommendations
+- Supporting M&A and strategic decisions
 ---
 
 # Financial Valuation & Investment Recommendations
@@ -459,6 +464,37 @@ Reassess investment thesis if:
 - Peers: Trading at 8-12x EV/Revenue, 30-40x EV/EBITDA
 
 **Output:** DCF valuation, comp analysis, investment recommendation with price target
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Financial Statement Analysis](financial-statement-analysis.md)** - Financial planning and analysis for better resource allocation
+- **[Financial Forecasting](financial-forecasting.md)** - Financial planning and analysis for better resource allocation
+- **[Financial Risk Assessment](financial-risk-assessment.md)** - Identify, assess, and mitigate potential risks
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Financial Valuation & Investment Recommendations)
+2. Use [Financial Statement Analysis](financial-statement-analysis.md) for deeper analysis
+3. Apply [Financial Forecasting](financial-forecasting.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[business/Finance & Accounting](../../business/Finance & Accounting/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Conducting business and equity valuations**: Combine this template with related analytics and strategy frameworks
+- **Developing investment recommendations**: Combine this template with related analytics and strategy frameworks
+- **Supporting M&A and strategic decisions**: Combine this template with related analytics and strategy frameworks
 
 ## Best Practices
 - Use multiple valuation methods and triangulate

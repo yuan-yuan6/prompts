@@ -1,16 +1,24 @@
 ---
-title: Thought Leadership Content Creation Prompt Template
 category: professional-services/communication/Public Communication
-tags: [development, machine-learning, marketing, professional-services, strategy, template]
-use_cases:
-  - Creating comprehensive framework for developing thought leadership content, establishing expert positioning, creating compelling articles and presentations, securing speaking opportunities, building industry authority, and leveraging expertise for business growth and reputation enhancement.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - meeting-management-framework.md
-  - crisis-communication-plan.md
 last_updated: 2025-11-09
+related_templates:
+- meeting-management-framework.md
+- crisis-communication-plan.md
+tags:
+- development
+- machine-learning
+- marketing
+- professional-services
+- strategy
+- template
+title: Thought Leadership Content Creation Prompt Template
+use_cases:
+- Creating comprehensive framework for developing thought leadership content, establishing
+  expert positioning, creating compelling articles and presentations, securing speaking
+  opportunities, building industry authority, and leveraging expertise for business
+  growth and reputation enhancement.
+- Project planning and execution
+- Strategy development
 ---
 
 # Thought Leadership Content Creation Prompt Template
@@ -723,3 +731,31 @@ Client Success: [ONBOARDING_EXCELLENCE_RESULTS_DELIVERY_TESTIMONIAL_GENERATION]
 ```
 
 This template provides {400+} customizable variables to create comprehensive thought leadership content strategies tailored to specific expertise areas, business objectives, and audience needs while building authority and driving measurable business results.
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Meeting Management Framework](meeting-management-framework.md)** - Complementary approaches and methodologies
+- **[Crisis Communication Plan](crisis-communication-plan.md)** - Effective communication strategies for stakeholders
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Thought Leadership Content Creation Prompt Template)
+2. Use [Meeting Management Framework](meeting-management-framework.md) for deeper analysis
+3. Apply [Crisis Communication Plan](crisis-communication-plan.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[professional-services/communication/Public Communication](../../professional-services/communication/Public Communication/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive framework for developing thought leadership content, establishing expert positioning, creating compelling articles and presentations, securing speaking opportunities, building industry authority, and leveraging expertise for business growth and reputation enhancement.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks

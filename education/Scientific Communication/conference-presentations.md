@@ -1,16 +1,23 @@
 ---
-title: Conference Presentations & Posters Template
 category: education/Scientific Communication
-tags: [communication, design, education, research, strategy, template]
-use_cases:
-  - Creating compelling academic conference presentations, posters, and talks that effectively communicate research findings, engage audiences, and facilitate scholarly discourse across diverse scientific communities.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - curriculum-development.md
-  - curriculum-development-framework.md
 last_updated: 2025-11-09
+related_templates:
+- curriculum-development.md
+- curriculum-development-framework.md
+tags:
+- communication
+- design
+- education
+- research
+- strategy
+- template
+title: Conference Presentations & Posters Template
+use_cases:
+- Creating compelling academic conference presentations, posters, and talks that effectively
+  communicate research findings, engage audiences, and facilitate scholarly discourse
+  across diverse scientific communities.
+- Project planning and execution
+- Strategy development
 ---
 
 # Conference Presentations & Posters Template
@@ -946,3 +953,31 @@ Use for academic conference presentations, research symposiums, poster sessions,
 - Include discipline-specific visualization standards
 - Adjust timing for different presentation lengths
 - Incorporate accessibility considerations for inclusive design
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Curriculum Development](curriculum-development.md)** - Complementary approaches and methodologies
+- **[Curriculum Development Framework](curriculum-development-framework.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Conference Presentations & Posters Template)
+2. Use [Curriculum Development](curriculum-development.md) for deeper analysis
+3. Apply [Curriculum Development Framework](curriculum-development-framework.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[education/Scientific Communication](../../education/Scientific Communication/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating compelling academic conference presentations, posters, and talks that effectively communicate research findings, engage audiences, and facilitate scholarly discourse across diverse scientific communities.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks

@@ -1,17 +1,25 @@
 ---
-title: Results Communication & Insights Template
 category: data-analytics/Data Science
-tags: [communication, data-analytics, data-science, design, research, strategy, template]
-use_cases:
-  - Creating design and deliver comprehensive communication strategies to effectively present data science results, insights, and recommendations to diverse stakeholders, ensuring business impact and actionable outcomes.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - dashboard-design-patterns.md
-  - data-governance-framework.md
-  - predictive-modeling-framework.md
 last_updated: 2025-11-09
+related_templates:
+- dashboard-design-patterns.md
+- data-governance-framework.md
+- predictive-modeling-framework.md
+tags:
+- communication
+- data-analytics
+- data-science
+- design
+- research
+- strategy
+- template
+title: Results Communication & Insights Template
+use_cases:
+- Creating design and deliver comprehensive communication strategies to effectively
+  present data science results, insights, and recommendations to diverse stakeholders,
+  ensuring business impact and actionable outcomes.
+- Project planning and execution
+- Strategy development
 ---
 
 # Results Communication & Insights Template
@@ -796,6 +804,37 @@ RETENTION_STRATEGIES: "Feature adoption in first 30 days predicts 12-month reten
 INNOVATION_PRIORITIES: "AI-powered recommendations feature has highest projected ROI"
 BUSINESS_IMPACT: "Feature optimization roadmap projects 25% increase in user lifetime value"
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Dashboard Design Patterns](dashboard-design-patterns.md)** - Complementary approaches and methodologies
+- **[Data Governance Framework](data-governance-framework.md)** - Leverage data analysis to drive informed decisions
+- **[Predictive Modeling Framework](predictive-modeling-framework.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Results Communication & Insights Template)
+2. Use [Dashboard Design Patterns](dashboard-design-patterns.md) for deeper analysis
+3. Apply [Data Governance Framework](data-governance-framework.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[data-analytics/Data Science](../../data-analytics/Data Science/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating design and deliver comprehensive communication strategies to effectively present data science results, insights, and recommendations to diverse stakeholders, ensuring business impact and actionable outcomes.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

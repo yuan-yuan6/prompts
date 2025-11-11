@@ -1,17 +1,23 @@
 ---
-title: Query Optimization - Resource & Concurrency Management
 category: data-analytics/Analytics Engineering
-tags: [data-analytics, memory-optimization, storage, concurrency, locking, resource-management]
-use_cases:
-  - Optimizing memory allocation and buffer pool management
-  - Implementing storage I/O optimization strategies
-  - Resolving concurrency issues and minimizing locking contention
-  - Managing deadlocks and transaction isolation levels
-related_templates:
-  - query-optimization-baseline-analysis.md
-  - query-optimization-indexing-strategies.md
-  - query-optimization-overview.md
 last_updated: 2025-11-10
+related_templates:
+- query-optimization-baseline-analysis.md
+- query-optimization-indexing-strategies.md
+- query-optimization-overview.md
+tags:
+- data-analytics
+- memory-optimization
+- storage
+- concurrency
+- locking
+- resource-management
+title: Query Optimization - Resource & Concurrency Management
+use_cases:
+- Optimizing memory allocation and buffer pool management
+- Implementing storage I/O optimization strategies
+- Resolving concurrency issues and minimizing locking contention
+- Managing deadlocks and transaction isolation levels
 ---
 
 # Query Optimization - Resource & Concurrency Management
@@ -900,6 +906,37 @@ STORAGE_SYSTEM: "Cloud object storage"
 - Implement proper error handling for deadlock retries in application code
 - Schedule resource-intensive operations during off-peak hours
 - Document resource optimization decisions and their impact for future reference
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Query Optimization Baseline Analysis](query-optimization-baseline-analysis.md)** - Complementary approaches and methodologies
+- **[Query Optimization Indexing Strategies](query-optimization-indexing-strategies.md)** - Complementary approaches and methodologies
+- **[Query Optimization Overview](query-optimization-overview.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Query Optimization - Resource & Concurrency Management)
+2. Use [Query Optimization Baseline Analysis](query-optimization-baseline-analysis.md) for deeper analysis
+3. Apply [Query Optimization Indexing Strategies](query-optimization-indexing-strategies.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[data-analytics/Analytics Engineering](../../data-analytics/Analytics Engineering/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Optimizing memory allocation and buffer pool management**: Combine this template with related analytics and strategy frameworks
+- **Implementing storage I/O optimization strategies**: Combine this template with related analytics and strategy frameworks
+- **Resolving concurrency issues and minimizing locking contention**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

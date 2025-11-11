@@ -1,16 +1,24 @@
 ---
-title: Major Gifts Fundraising Strategy Framework
 category: nonprofit/Fundraising & Development
-tags: [framework, management, marketing, nonprofit, research, strategy, testing]
-use_cases:
-  - Creating comprehensive framework for developing and managing major gift programs including donor identification, cultivation strategies, solicitation planning, stewardship programs, and moves management systems for nonprofit organizations.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - program-evaluation.md
-  - fundraising-campaign-framework.md
 last_updated: 2025-11-09
+related_templates:
+- program-evaluation.md
+- fundraising-campaign-framework.md
+tags:
+- framework
+- management
+- marketing
+- nonprofit
+- research
+- strategy
+- testing
+title: Major Gifts Fundraising Strategy Framework
+use_cases:
+- Creating comprehensive framework for developing and managing major gift programs
+  including donor identification, cultivation strategies, solicitation planning, stewardship
+  programs, and moves management systems for nonprofit organizations.
+- Project planning and execution
+- Strategy development
 ---
 
 # Major Gifts Fundraising Strategy Framework
@@ -576,6 +584,36 @@ Cultivation: Maestro dinners
 Ask Strategy: Peer-to-peer
 Success: 40% close rate
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Program Evaluation](program-evaluation.md)** - Complementary approaches and methodologies
+- **[Fundraising Campaign Framework](fundraising-campaign-framework.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Major Gifts Fundraising Strategy Framework)
+2. Use [Program Evaluation](program-evaluation.md) for deeper analysis
+3. Apply [Fundraising Campaign Framework](fundraising-campaign-framework.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[nonprofit/Fundraising & Development](../../nonprofit/Fundraising & Development/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive framework for developing and managing major gift programs including donor identification, cultivation strategies, solicitation planning, stewardship programs, and moves management systems for nonprofit organizations.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

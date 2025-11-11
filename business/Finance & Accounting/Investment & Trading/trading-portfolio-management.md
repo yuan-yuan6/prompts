@@ -1,16 +1,21 @@
 ---
-title: Portfolio Management Template
 category: business/Finance & Accounting/Investment & Trading
-tags: [business, design, management, optimization, template]
-use_cases:
-  - General application
-  - Professional use
-  - Project implementation
-related_templates:
-  - treasury-management.md
-  - financial-analysis.md
-  - investment-evaluation.md
 last_updated: 2025-11-09
+related_templates:
+- treasury-management.md
+- financial-analysis.md
+- investment-evaluation.md
+tags:
+- business
+- design
+- management
+- optimization
+- template
+title: Portfolio Management Template
+use_cases:
+- General application
+- Professional use
+- Project implementation
 ---
 
 # Portfolio Management Template
@@ -1017,6 +1022,202 @@ Fixed Income: 15% ($7,500,000)
 - VaR calculation: Monte Carlo with 95% confidence
 - Stress testing: Monthly scenario analysis
 ```
+
+
+
+## Usage Examples
+
+### Example 1: Balanced Growth Portfolio for Individual Investor
+
+**Investor Profile**:
+- Age: 42, married, two children
+- Income: $250k household
+- Investment horizon: 20 years to retirement
+- Risk tolerance: Moderate
+- Current portfolio: $800k
+
+**Portfolio Allocation**:
+- **60% Equities ($480k)**:
+  - US Large Cap (VOO): 25% ($200k)
+  - US Small/Mid Cap (VXF): 10% ($80k)
+  - International Developed (VEA): 15% ($120k)
+  - Emerging Markets (VWO): 10% ($80k)
+
+- **30% Fixed Income ($240k)**:
+  - Aggregate Bond Index (AGG): 20% ($160k)
+  - Corporate Bonds (LQD): 5% ($40k)
+  - TIPS (VTIP): 5% ($40k)
+
+- **10% Alternatives ($80k)**:
+  - Real Estate (VNQ): 5% ($40k)
+  - Commodities (GSG): 3% ($24k)
+  - Cash (VMFXX): 2% ($16k)
+
+**Rebalancing Strategy**:
+- Quarterly review
+- Rebalance if any asset class drifts >5% from target
+- Tax-loss harvesting in taxable accounts
+- Prioritize contributions to underweight assets
+
+**Risk Management**:
+- Maximum single position: 5% of portfolio
+- Stop-loss: None (buy-and-hold strategy)
+- Diversification: 12+ holdings across asset classes
+- Expected volatility: 11-13% (Standard deviation)
+
+**Performance Targets**:
+- Expected return: 7-8% annually
+- Sharpe ratio: >0.6
+- Maximum drawdown tolerance: -25%
+
+**Results After 3 Years**:
+- Portfolio value: $1,045,000 (+9.3% annualized)
+- Actual volatility: 12.1%
+- Sharpe ratio: 0.72
+- Maximum drawdown: -18% (March 2020)
+- Stayed invested through volatility, avoided panic selling
+
+### Example 2: Hedge Fund Equity Long/Short Strategy
+
+**Fund Profile**:
+- AUM: $500M
+- Strategy: Equity Long/Short, sector-neutral
+- Target net exposure: 40% long
+- Target gross exposure: 150%
+- Focus: US large-cap technology and healthcare
+
+**Portfolio Construction**:
+- **Long Positions (95% of capital, $475M)**:
+  - Technology: 45% ($213M) - 15 positions
+    - Cloud computing: MSFT, AMZN, GOOGL
+    - Semiconductors: NVDA, AMD
+    - Software: CRM, NOW
+  - Healthcare: 35% ($166M) - 12 positions
+    - Biotech: VRTX, REGN, MRNA
+    - Med devices: ISRG, ABT
+    - Managed care: UNH, CVS
+  - Consumer Discretionary: 15% ($71M) - 8 positions
+
+- **Short Positions (55% of capital, $275M)**:
+  - Technology: 25% ($137M) - 20 positions
+    - Legacy hardware, declining SaaS businesses
+  - Healthcare: 20% ($110M) - 15 positions
+    - Overvalued biotech, challenged hospitals
+  - Consumer: 10% ($28M) - 10 positions
+
+**Risk Management**:
+- Position limits: Long <8%, Short <4% of NAV
+- Sector neutral: Net exposure <15% per sector
+- Stop-loss: -10% on any position
+- Leverage: Maximum 2x gross exposure
+- VaR (99%, 1-day): <3% of NAV
+- Daily P&L review and risk attribution
+
+**Portfolio Metrics**:
+- Beta to S&P 500: 0.4
+- Expected alpha: 8-10%
+- Information ratio target: >1.5
+- Maximum monthly loss limit: -5%
+
+**Results After 12 Months**:
+- Gross return: +18.3%
+- Net return: +14.1% (after 2% management fee, 20% performance fee)
+- S&P 500 return: +12.1%
+- Alpha: +2.0%
+- Information ratio: 1.82
+- Sharpe ratio: 1.34
+- Max drawdown: -7.2%
+- 9 out of 12 positive months
+
+### Example 3: Institutional Pension Fund Asset Allocation
+
+**Fund Profile**:
+- AUM: $12 billion
+- Type: Public pension fund
+- Liability: $15 billion (underfunded)
+- Beneficiaries: 45,000 active, 30,000 retired
+- Required return: 7.25% to meet obligations
+
+**Strategic Asset Allocation**:
+- **Public Equities (42%, $5.04B)**:
+  - US Large Cap: 18% ($2.16B)
+  - US Small/Mid Cap: 5% ($600M)
+  - International Developed: 12% ($1.44B)
+  - Emerging Markets: 7% ($840M)
+
+- **Fixed Income (30%, $3.6B)**:
+  - Core Bonds: 15% ($1.8B)
+  - Credit: 7% ($840M)
+  - TIPS: 5% ($600M)
+  - Emerging Market Debt: 3% ($360M)
+
+- **Real Assets (15%, $1.8B)**:
+  - Real Estate: 10% ($1.2B) - Office, multifamily, industrial
+  - Infrastructure: 3% ($360M) - Toll roads, utilities
+  - Natural Resources: 2% ($240M) - Timber, farmland
+
+- **Private Equity (10%, $1.2B)**:
+  - Buyout funds: 6% ($720M)
+  - Growth equity: 2% ($240M)
+  - Venture capital: 2% ($240M)
+
+- **Hedge Funds (3%, $360M)**:
+  - Multi-strategy: 2% ($240M)
+  - Tail risk hedging: 1% ($120M)
+
+**Rebalancing & Governance**:
+- Annual strategic review
+- Quarterly tactical adjustments (+/-3% bands)
+- Monthly liquidity analysis
+- Investment committee meetings quarterly
+- External consultant reviews annually
+
+**Risk Management**:
+- Liability-driven investing overlay
+- Currency hedging: 50% of international equities
+- Derivative overlays for downside protection
+- Stress testing: Financial crisis, inflation, deflation scenarios
+- Expected funded ratio improvement: 78% → 85% over 5 years
+
+**Results After 5 Years**:
+- Annualized return: 7.8%
+- Volatility: 11.2%
+- Sharpe ratio: 0.58
+- Funded status: 78% → 84% (on track)
+- Outperformance vs. policy benchmark: +0.4% annually
+- Value added: $240M over 5 years
+
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Treasury Management](treasury-management.md)** - Complementary approaches and methodologies
+- **[Financial Analysis](financial-analysis.md)** - Financial planning and analysis for better resource allocation
+- **[Investment Evaluation](investment-evaluation.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Portfolio Management Template)
+2. Use [Treasury Management](treasury-management.md) for deeper analysis
+3. Apply [Financial Analysis](financial-analysis.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[business/Finance & Accounting/Investment & Trading](../../business/Finance & Accounting/Investment & Trading/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **General application**: Combine this template with related analytics and strategy frameworks
+- **Professional use**: Combine this template with related analytics and strategy frameworks
+- **Project implementation**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

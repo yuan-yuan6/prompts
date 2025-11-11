@@ -1,16 +1,21 @@
 ---
-title: Dashboard UX/UI Design & User Experience
 category: data-analytics/Business Intelligence
-tags: [data-analytics, business-intelligence, ux-design, data-visualization, ui-design]
-use_cases:
-  - Dashboard interface design
-  - Data visualization selection
-  - User experience optimization
-related_templates:
-  - dashboard-strategy-requirements.md
-  - dashboard-technical-implementation.md
-  - dashboard-design-overview.md
 last_updated: 2025-11-09
+related_templates:
+- dashboard-strategy-requirements.md
+- dashboard-technical-implementation.md
+- dashboard-design-overview.md
+tags:
+- data-analytics
+- business-intelligence
+- ux-design
+- data-visualization
+- ui-design
+title: Dashboard UX/UI Design & User Experience
+use_cases:
+- Dashboard interface design
+- Data visualization selection
+- User experience optimization
 ---
 
 # Dashboard UX/UI Design & User Experience
@@ -201,6 +206,37 @@ Annotations: System-generated insights for anomalies
 ```
 
 ---
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Dashboard Strategy Requirements](dashboard-strategy-requirements.md)** - Strategic planning and execution frameworks
+- **[Dashboard Technical Implementation](dashboard-technical-implementation.md)** - Complementary approaches and methodologies
+- **[Dashboard Design Overview](dashboard-design-overview.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Dashboard UX/UI Design & User Experience)
+2. Use [Dashboard Strategy Requirements](dashboard-strategy-requirements.md) for deeper analysis
+3. Apply [Dashboard Technical Implementation](dashboard-technical-implementation.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[data-analytics/Business Intelligence](../../data-analytics/Business Intelligence/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Dashboard interface design**: Combine this template with related analytics and strategy frameworks
+- **Data visualization selection**: Combine this template with related analytics and strategy frameworks
+- **User experience optimization**: Combine this template with related analytics and strategy frameworks
 
 ## Best Practices
 

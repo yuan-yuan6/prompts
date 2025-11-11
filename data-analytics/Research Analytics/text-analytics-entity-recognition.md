@@ -1,16 +1,26 @@
 ---
-title: Text Analytics - Named Entity Recognition
 category: data-analytics/Research Analytics
-tags: [automation, data-analytics, data-science, machine-learning, nlp, ner, entity-extraction, template]
-use_cases:
-  - Extract and classify named entities (people, organizations, locations, dates) from text using spaCy and transformer models.
-  - Link entities to knowledge bases for disambiguation and enrichment.
-  - Analyze entity relationships and co-occurrence patterns to understand connections in text data.
-related_templates:
-  - text-analytics-preprocessing.md
-  - text-analytics-advanced-methods.md
-  - text-analytics-overview.md
 last_updated: 2025-11-10
+related_templates:
+- text-analytics-preprocessing.md
+- text-analytics-advanced-methods.md
+- text-analytics-overview.md
+tags:
+- automation
+- data-analytics
+- data-science
+- machine-learning
+- nlp
+- ner
+- entity-extraction
+- template
+title: Text Analytics - Named Entity Recognition
+use_cases:
+- Extract and classify named entities (people, organizations, locations, dates) from
+  text using spaCy and transformer models.
+- Link entities to knowledge bases for disambiguation and enrichment.
+- Analyze entity relationships and co-occurrence patterns to understand connections
+  in text data.
 ---
 
 # Text Analytics - Named Entity Recognition
@@ -490,6 +500,37 @@ CUSTOM_ENTITY_PATTERNS: {
 }
 RELATION_EXTRACTION: True
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Text Analytics Preprocessing](text-analytics-preprocessing.md)** - Leverage data analysis to drive informed decisions
+- **[Text Analytics Advanced Methods](text-analytics-advanced-methods.md)** - Leverage data analysis to drive informed decisions
+- **[Text Analytics Overview](text-analytics-overview.md)** - Leverage data analysis to drive informed decisions
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Text Analytics - Named Entity Recognition)
+2. Use [Text Analytics Preprocessing](text-analytics-preprocessing.md) for deeper analysis
+3. Apply [Text Analytics Advanced Methods](text-analytics-advanced-methods.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[data-analytics/Research Analytics](../../data-analytics/Research Analytics/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Extract and classify named entities (people, organizations, locations, dates) from text using spaCy and transformer models.**: Combine this template with related analytics and strategy frameworks
+- **Link entities to knowledge bases for disambiguation and enrichment.**: Combine this template with related analytics and strategy frameworks
+- **Analyze entity relationships and co-occurrence patterns to understand connections in text data.**: Combine this template with related analytics and strategy frameworks
 
 ## Best Practices
 

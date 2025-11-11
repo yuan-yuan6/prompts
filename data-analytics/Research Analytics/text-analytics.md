@@ -1,17 +1,25 @@
 ---
-title: Text Analytics and NLP Template
 category: data-analytics/Research Analytics
-tags: [automation, data-analytics, data-science, design, machine-learning, research, template]
-use_cases:
-  - Creating conduct comprehensive text mining and natural language processing analysis to extract insights, patterns, sentiments, topics, and knowledge from unstructured text data using advanced nlp techniques and machine learning methods.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - dashboard-design-patterns.md
-  - data-governance-framework.md
-  - predictive-modeling-framework.md
 last_updated: 2025-11-09
+related_templates:
+- dashboard-design-patterns.md
+- data-governance-framework.md
+- predictive-modeling-framework.md
+tags:
+- automation
+- data-analytics
+- data-science
+- design
+- machine-learning
+- research
+- template
+title: Text Analytics and NLP Template
+use_cases:
+- Creating conduct comprehensive text mining and natural language processing analysis
+  to extract insights, patterns, sentiments, topics, and knowledge from unstructured
+  text data using advanced nlp techniques and machine learning methods.
+- Project planning and execution
+- Strategy development
 ---
 
 # Text Analytics and NLP Template
@@ -2220,6 +2228,37 @@ CUSTOM_ENTITY_PATTERNS: "Legal entities, dates, monetary amounts"
 DOMAIN_SPECIFIC_SENTIMENT: "Legal language sentiment model"
 TOPIC_MODELING: "Legal topic classification and clustering"
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Dashboard Design Patterns](dashboard-design-patterns.md)** - Complementary approaches and methodologies
+- **[Data Governance Framework](data-governance-framework.md)** - Leverage data analysis to drive informed decisions
+- **[Predictive Modeling Framework](predictive-modeling-framework.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Text Analytics and NLP Template)
+2. Use [Dashboard Design Patterns](dashboard-design-patterns.md) for deeper analysis
+3. Apply [Data Governance Framework](data-governance-framework.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[data-analytics/Research Analytics](../../data-analytics/Research Analytics/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating conduct comprehensive text mining and natural language processing analysis to extract insights, patterns, sentiments, topics, and knowledge from unstructured text data using advanced nlp techniques and machine learning methods.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

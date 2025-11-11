@@ -1,16 +1,21 @@
 ---
-title: Wireframe Design & Information Architecture
 category: creative/Design & Visual
-tags: [creative, design, wireframe, information-architecture, ux]
-use_cases:
-  - Create low-fidelity wireframes for user testing
-  - Design information architecture for a new website or app section
-  - Map out responsive layouts before visual design begins
-related_templates:
-  - prototype-development.md
-  - design-system-creation.md
-  - ux-ui-design-overview.md
 last_updated: 2025-11-09
+related_templates:
+- prototype-development.md
+- design-system-creation.md
+- ux-ui-design-overview.md
+tags:
+- creative
+- design
+- wireframe
+- information-architecture
+- ux
+title: Wireframe Design & Information Architecture
+use_cases:
+- Create low-fidelity wireframes for user testing
+- Design information architecture for a new website or app section
+- Map out responsive layouts before visual design begins
 ---
 
 # Wireframe Design & Information Architecture
@@ -319,6 +324,37 @@ PRODUCT_TYPE: "Web App"
 FIDELITY_LEVEL: "Low-fidelity"
 GRID_SYSTEM: "16-column grid"
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Prototype Development](prototype-development.md)** - Complementary approaches and methodologies
+- **[Design System Creation](design-system-creation.md)** - Complementary approaches and methodologies
+- **[Ux Ui Design Overview](ux-ui-design-overview.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Wireframe Design & Information Architecture)
+2. Use [Prototype Development](prototype-development.md) for deeper analysis
+3. Apply [Design System Creation](design-system-creation.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[creative/Design & Visual](../../creative/Design & Visual/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Create low-fidelity wireframes for user testing**: Combine this template with related analytics and strategy frameworks
+- **Design information architecture for a new website or app section**: Combine this template with related analytics and strategy frameworks
+- **Map out responsive layouts before visual design begins**: Combine this template with related analytics and strategy frameworks
 
 ## Best Practices
 

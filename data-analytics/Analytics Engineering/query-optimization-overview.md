@@ -1,18 +1,23 @@
 ---
-title: Query Optimization - Overview & Navigation
 category: data-analytics/Analytics Engineering
-tags: [data-analytics, query-optimization, performance, overview, navigation]
-use_cases:
-  - Navigating comprehensive query optimization strategies
-  - Selecting appropriate optimization approach based on performance symptoms
-  - Understanding recommended workflow for database performance tuning
-related_templates:
-  - query-optimization-baseline-analysis.md
-  - query-optimization-indexing-strategies.md
-  - query-optimization-query-rewriting.md
-  - query-optimization-monitoring-tuning.md
-  - query-optimization-resource-concurrency.md
 last_updated: 2025-11-10
+related_templates:
+- query-optimization-baseline-analysis.md
+- query-optimization-indexing-strategies.md
+- query-optimization-query-rewriting.md
+- query-optimization-monitoring-tuning.md
+- query-optimization-resource-concurrency.md
+tags:
+- data-analytics
+- query-optimization
+- performance
+- overview
+- navigation
+title: Query Optimization - Overview & Navigation
+use_cases:
+- Navigating comprehensive query optimization strategies
+- Selecting appropriate optimization approach based on performance symptoms
+- Understanding recommended workflow for database performance tuning
 ---
 
 # Query Optimization - Overview & Navigation
@@ -283,6 +288,39 @@ START: What performance issue are you experiencing?
 | Memory pressure | Resource & Concurrency | Query Rewriting | 2-4 hours |
 | Storage I/O issues | Resource & Concurrency | Indexing Strategies | 3-5 hours |
 | Ongoing monitoring | Monitoring & Tuning | All others | 4-6 hours (setup) |
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Query Optimization Baseline Analysis](query-optimization-baseline-analysis.md)** - Complementary approaches and methodologies
+- **[Query Optimization Indexing Strategies](query-optimization-indexing-strategies.md)** - Complementary approaches and methodologies
+- **[Query Optimization Query Rewriting](query-optimization-query-rewriting.md)** - Complementary approaches and methodologies
+- **[Query Optimization Monitoring Tuning](query-optimization-monitoring-tuning.md)** - Complementary approaches and methodologies
+- **[Query Optimization Resource Concurrency](query-optimization-resource-concurrency.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Query Optimization - Overview & Navigation)
+2. Use [Query Optimization Baseline Analysis](query-optimization-baseline-analysis.md) for deeper analysis
+3. Apply [Query Optimization Indexing Strategies](query-optimization-indexing-strategies.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[data-analytics/Analytics Engineering](../../data-analytics/Analytics Engineering/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Navigating comprehensive query optimization strategies**: Combine this template with related analytics and strategy frameworks
+- **Selecting appropriate optimization approach based on performance symptoms**: Combine this template with related analytics and strategy frameworks
+- **Understanding recommended workflow for database performance tuning**: Combine this template with related analytics and strategy frameworks
 
 ## Best Practices
 

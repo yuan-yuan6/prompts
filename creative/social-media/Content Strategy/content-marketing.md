@@ -1,15 +1,24 @@
 ---
-title: Content Marketing & Social Media Strategy Framework
 category: creative/social-media/Content Strategy
-tags: [creative, design, development, framework, management, marketing, optimization, strategy]
-use_cases:
-  - Creating comprehensive framework for content marketing strategy, social media management, influencer partnerships, community building, content production workflows, and digital engagement optimization.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - influencer-marketing-campaign.md
 last_updated: 2025-11-09
+related_templates:
+- influencer-marketing-campaign.md
+tags:
+- creative
+- design
+- development
+- framework
+- management
+- marketing
+- optimization
+- strategy
+title: Content Marketing & Social Media Strategy Framework
+use_cases:
+- Creating comprehensive framework for content marketing strategy, social media management,
+  influencer partnerships, community building, content production workflows, and digital
+  engagement optimization.
+- Project planning and execution
+- Strategy development
 ---
 
 # Content Marketing & Social Media Strategy Framework
@@ -590,6 +599,34 @@ Income: $50K/month
 Team: 3 editors, 1 manager
 Growth: 15% monthly
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Influencer Marketing Campaign](influencer-marketing-campaign.md)** - Analyze market conditions, competitors, and opportunities
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Content Marketing & Social Media Strategy Framework)
+2. Use [Influencer Marketing Campaign](influencer-marketing-campaign.md) for deeper analysis
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[creative/social-media/Content Strategy](../../creative/social-media/Content Strategy/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive framework for content marketing strategy, social media management, influencer partnerships, community building, content production workflows, and digital engagement optimization.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

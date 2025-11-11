@@ -1,15 +1,21 @@
 ---
-title: Grant Writing & Proposals Generator
 category: education/Academic Research
-tags: [automation, communication, design, education, research]
-use_cases:
-  - Creating comprehensive grant proposals, funding applications, budget justifications, and impact statements for academic research funding opportunities.
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - curriculum-development.md
-  - curriculum-development-framework.md
 last_updated: 2025-11-09
+related_templates:
+- curriculum-development.md
+- curriculum-development-framework.md
+tags:
+- automation
+- communication
+- design
+- education
+- research
+title: Grant Writing & Proposals Generator
+use_cases:
+- Creating comprehensive grant proposals, funding applications, budget justifications,
+  and impact statements for academic research funding opportunities.
+- Project planning and execution
+- Strategy development
 ---
 
 # Grant Writing & Proposals Generator
@@ -1133,3 +1139,31 @@ Use for federal grant applications, foundation proposals, institutional funding 
 - Add open science and data sharing commitments
 - Consider equity and social justice dimensions
 - Include climate change and sustainability considerations
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Curriculum Development](curriculum-development.md)** - Complementary approaches and methodologies
+- **[Curriculum Development Framework](curriculum-development-framework.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Grant Writing & Proposals Generator)
+2. Use [Curriculum Development](curriculum-development.md) for deeper analysis
+3. Apply [Curriculum Development Framework](curriculum-development-framework.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[education/Academic Research](../../education/Academic Research/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive grant proposals, funding applications, budget justifications, and impact statements for academic research funding opportunities.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks

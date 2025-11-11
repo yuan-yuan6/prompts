@@ -1,15 +1,21 @@
 ---
-title: Audience Analytics & Engagement Optimization
 category: creative/journalism/Digital Publishing
-tags: [automation, creative, data-science, optimization, research]
-use_cases:
-  - Creating advanced framework for analyzing audience behavior, optimizing content engagement, and driving growth across digital publishing platforms through data-driven insights and personalization strategies.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - content-strategy.md
 last_updated: 2025-11-09
+related_templates:
+- content-strategy.md
+tags:
+- automation
+- creative
+- data-science
+- optimization
+- research
+title: Audience Analytics & Engagement Optimization
+use_cases:
+- Creating advanced framework for analyzing audience behavior, optimizing content
+  engagement, and driving growth across digital publishing platforms through data-driven
+  insights and personalization strategies.
+- Project planning and execution
+- Strategy development
 ---
 
 # Audience Analytics & Engagement Optimization
@@ -546,6 +552,34 @@ Cross-platform: Web, app, OTT
 Analytics: Unified user view
 Strategy: Audience portability
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Content Strategy](content-strategy.md)** - Strategic planning and execution frameworks
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Audience Analytics & Engagement Optimization)
+2. Use [Content Strategy](content-strategy.md) for deeper analysis
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[creative/journalism/Digital Publishing](../../creative/journalism/Digital Publishing/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating advanced framework for analyzing audience behavior, optimizing content engagement, and driving growth across digital publishing platforms through data-driven insights and personalization strategies.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

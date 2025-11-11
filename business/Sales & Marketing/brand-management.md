@@ -1,16 +1,26 @@
 ---
-title: Brand Management Template Generator
 category: business/Sales & Marketing
-tags: [business, communication, design, development, machine-learning, management, marketing, optimization]
-use_cases:
-  - Creating comprehensive brand management strategies covering brand positioning, messaging framework, and identity management to build strong, consistent brand equity and market differentiation.
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - okr-implementation-framework.md
-  - digital-transformation-roadmap.md
-  - lean-six-sigma-implementation.md
 last_updated: 2025-11-09
+related_templates:
+- okr-implementation-framework.md
+- digital-transformation-roadmap.md
+- lean-six-sigma-implementation.md
+tags:
+- business
+- communication
+- design
+- development
+- machine-learning
+- management
+- marketing
+- optimization
+title: Brand Management Template Generator
+use_cases:
+- Creating comprehensive brand management strategies covering brand positioning, messaging
+  framework, and identity management to build strong, consistent brand equity and
+  market differentiation.
+- Project planning and execution
+- Strategy development
 ---
 
 # Brand Management Template Generator
@@ -825,3 +835,32 @@ Use for brand strategy development, brand repositioning initiatives, brand ident
 - Include regulatory and compliance requirements for branding
 - Add digital and technology-specific brand applications
 - Consider sustainability and ESG brand integration
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Okr Implementation Framework](okr-implementation-framework.md)** - Set measurable objectives and key results to track progress
+- **[Digital Transformation Roadmap](digital-transformation-roadmap.md)** - Strategic framework for organizational change initiatives
+- **[Lean Six Sigma Implementation](lean-six-sigma-implementation.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Brand Management Template Generator)
+2. Use [Okr Implementation Framework](okr-implementation-framework.md) for deeper analysis
+3. Apply [Digital Transformation Roadmap](digital-transformation-roadmap.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[business/Sales & Marketing](../../business/Sales & Marketing/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive brand management strategies covering brand positioning, messaging framework, and identity management to build strong, consistent brand equity and market differentiation.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks

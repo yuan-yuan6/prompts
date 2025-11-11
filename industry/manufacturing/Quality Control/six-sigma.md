@@ -1,15 +1,22 @@
 ---
-title: Six Sigma & Quality Excellence Framework
 category: industry/manufacturing/Quality Control
-tags: [data-science, framework, industry, optimization, research, testing]
-use_cases:
-  - Creating comprehensive framework for implementing six sigma methodologies, quality control systems, defect reduction programs, process improvement initiatives, and continuous quality enhancement in manufacturing environments.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - quality-management.md
 last_updated: 2025-11-09
+related_templates:
+- quality-management.md
+tags:
+- data-science
+- framework
+- industry
+- optimization
+- research
+- testing
+title: Six Sigma & Quality Excellence Framework
+use_cases:
+- Creating comprehensive framework for implementing six sigma methodologies, quality
+  control systems, defect reduction programs, process improvement initiatives, and
+  continuous quality enhancement in manufacturing environments.
+- Project planning and execution
+- Strategy development
 ---
 
 # Six Sigma & Quality Excellence Framework
@@ -558,6 +565,34 @@ Focus: Process validation
 Quality System: cGMP + Six Sigma
 Investment: $2M quality program
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Quality Management](quality-management.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Six Sigma & Quality Excellence Framework)
+2. Use [Quality Management](quality-management.md) for deeper analysis
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[industry/manufacturing/Quality Control](../../industry/manufacturing/Quality Control/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive framework for implementing six sigma methodologies, quality control systems, defect reduction programs, process improvement initiatives, and continuous quality enhancement in manufacturing environments.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

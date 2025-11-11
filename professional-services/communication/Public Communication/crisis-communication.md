@@ -1,16 +1,25 @@
 ---
-title: Crisis Communication & Response Prompt Template
 category: professional-services/communication/Public Communication
-tags: [communication, data-science, management, professional-services, research, strategy, template]
-use_cases:
-  - Creating comprehensive framework for managing crisis communications, developing rapid response protocols, protecting organizational reputation, coordinating stakeholder messaging, and implementing effective crisis management strategies across all communication channels during challenging situations.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - meeting-management-framework.md
-  - crisis-communication-plan.md
 last_updated: 2025-11-09
+related_templates:
+- meeting-management-framework.md
+- crisis-communication-plan.md
+tags:
+- communication
+- data-science
+- management
+- professional-services
+- research
+- strategy
+- template
+title: Crisis Communication & Response Prompt Template
+use_cases:
+- Creating comprehensive framework for managing crisis communications, developing
+  rapid response protocols, protecting organizational reputation, coordinating stakeholder
+  messaging, and implementing effective crisis management strategies across all communication
+  channels during challenging situations.
+- Project planning and execution
+- Strategy development
 ---
 
 # Crisis Communication & Response Prompt Template
@@ -822,3 +831,31 @@ Recovery: [TRUST_REBUILDING_RELATIONSHIP_REPAIR_ORGANIZATIONAL_STRENGTHENING]
 ```
 
 This template provides {400+} customizable variables to create comprehensive crisis communication and response strategies tailored to specific crisis types, organizational contexts, and stakeholder needs while protecting reputation and enabling effective recovery and rebuilding efforts.
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Meeting Management Framework](meeting-management-framework.md)** - Complementary approaches and methodologies
+- **[Crisis Communication Plan](crisis-communication-plan.md)** - Effective communication strategies for stakeholders
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Crisis Communication & Response Prompt Template)
+2. Use [Meeting Management Framework](meeting-management-framework.md) for deeper analysis
+3. Apply [Crisis Communication Plan](crisis-communication-plan.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[professional-services/communication/Public Communication](../../professional-services/communication/Public Communication/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive framework for managing crisis communications, developing rapid response protocols, protecting organizational reputation, coordinating stakeholder messaging, and implementing effective crisis management strategies across all communication channels during challenging situations.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks

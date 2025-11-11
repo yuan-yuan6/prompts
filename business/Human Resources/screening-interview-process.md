@@ -1,16 +1,21 @@
 ---
-title: Screening & Interview Process
 category: business/Human Resources
-tags: [interviewing, candidate-screening, interview-questions, evaluation, hr]
-use_cases:
-  - Designing structured interview processes
-  - Creating screening criteria and evaluation frameworks
-  - Developing interview question banks and scorecards
-related_templates:
-  - candidate-assessment-selection.md
-  - job-analysis-definition.md
-  - recruitment-metrics-optimization.md
 last_updated: 2025-11-09
+related_templates:
+- candidate-assessment-selection.md
+- job-analysis-definition.md
+- recruitment-metrics-optimization.md
+tags:
+- interviewing
+- candidate-screening
+- interview-questions
+- evaluation
+- hr
+title: Screening & Interview Process
+use_cases:
+- Designing structured interview processes
+- Creating screening criteria and evaluation frameworks
+- Developing interview question banks and scorecards
 ---
 
 # Screening & Interview Process
@@ -506,3 +511,33 @@ Use for designing interview processes, training interviewers, creating question 
 - Allow flexibility within structure
 - Balance standardization with conversation flow
 - Continuously refine based on hiring outcomes
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Candidate Assessment Selection](candidate-assessment-selection.md)** - Complementary approaches and methodologies
+- **[Job Analysis Definition](job-analysis-definition.md)** - Complementary approaches and methodologies
+- **[Recruitment Metrics Optimization](recruitment-metrics-optimization.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Screening & Interview Process)
+2. Use [Candidate Assessment Selection](candidate-assessment-selection.md) for deeper analysis
+3. Apply [Job Analysis Definition](job-analysis-definition.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[business/Human Resources](../../business/Human Resources/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Designing structured interview processes**: Combine this template with related analytics and strategy frameworks
+- **Creating screening criteria and evaluation frameworks**: Combine this template with related analytics and strategy frameworks
+- **Developing interview question banks and scorecards**: Combine this template with related analytics and strategy frameworks

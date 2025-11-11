@@ -1,6 +1,6 @@
 ---
 title: Generative AI Implementation - Part 3: Implementation & Governance
-category: technology/emerging-tech
+category: technology/Emerging Technologies
 tags: [automation, governance, security, strategy, technology, template]
 use_cases:
   - Implementing AI safety and risk mitigation, establishing security frameworks, ensuring privacy and compliance, managing deployment and change, driving adoption, and governing AI systems responsibly

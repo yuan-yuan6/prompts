@@ -1,17 +1,26 @@
 ---
-title: Deep Learning & Neural Network Implementation Framework
 category: data-analytics/Advanced Analytics
-tags: [automation, data-analytics, design, development, framework, machine-learning, strategy, testing]
-use_cases:
-  - Creating comprehensive framework for designing, training, deploying, and optimizing deep learning models including architecture selection, hyperparameter tuning, distributed training, and production deployment.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - dashboard-design-patterns.md
-  - data-governance-framework.md
-  - predictive-modeling-framework.md
 last_updated: 2025-11-09
+related_templates:
+- dashboard-design-patterns.md
+- data-governance-framework.md
+- predictive-modeling-framework.md
+tags:
+- automation
+- data-analytics
+- design
+- development
+- framework
+- machine-learning
+- strategy
+- testing
+title: Deep Learning & Neural Network Implementation Framework
+use_cases:
+- Creating comprehensive framework for designing, training, deploying, and optimizing
+  deep learning models including architecture selection, hyperparameter tuning, distributed
+  training, and production deployment.
+- Project planning and execution
+- Strategy development
 ---
 
 # Deep Learning & Neural Network Implementation Framework
@@ -506,6 +515,37 @@ Deployment: Kubernetes
 Accuracy: MAPE < 5%
 Update: Daily retraining
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Dashboard Design Patterns](dashboard-design-patterns.md)** - Complementary approaches and methodologies
+- **[Data Governance Framework](data-governance-framework.md)** - Leverage data analysis to drive informed decisions
+- **[Predictive Modeling Framework](predictive-modeling-framework.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Deep Learning & Neural Network Implementation Framework)
+2. Use [Dashboard Design Patterns](dashboard-design-patterns.md) for deeper analysis
+3. Apply [Data Governance Framework](data-governance-framework.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[data-analytics/Advanced Analytics](../../data-analytics/Advanced Analytics/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive framework for designing, training, deploying, and optimizing deep learning models including architecture selection, hyperparameter tuning, distributed training, and production deployment.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

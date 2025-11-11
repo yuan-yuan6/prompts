@@ -1,19 +1,25 @@
 ---
-title: Digital Transformation Roadmap & Strategy Framework
 category: business/strategic-management
-tags: [digital-transformation, strategy, change-management, technology-adoption, innovation, modernization]
-use_cases:
-  - Enterprise digital transformation
-  - Legacy system modernization
-  - Cloud migration planning
-  - Digital business model development
-  - Technology strategy roadmap
-  - Organizational change management
-related_templates:
-  - strategic-planning.md
-  - innovation-strategy.md
-  - growth-strategy.md
 last_updated: 2025-01-09
+related_templates:
+- strategic-planning.md
+- innovation-strategy.md
+- growth-strategy.md
+tags:
+- digital-transformation
+- strategy
+- change-management
+- technology-adoption
+- innovation
+- modernization
+title: Digital Transformation Roadmap & Strategy Framework
+use_cases:
+- Enterprise digital transformation
+- Legacy system modernization
+- Cloud migration planning
+- Digital business model development
+- Technology strategy roadmap
+- Organizational change management
 ---
 
 # Digital Transformation Roadmap & Strategy Framework
@@ -643,6 +649,37 @@ Results: 35% OEE improvement, 25% inventory reduction
 Innovation: Data monetization services
 ROI: 2.5x in 24 months
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Strategic Planning](strategic-planning.md)** - Complementary approaches and methodologies
+- **[Innovation Strategy](innovation-strategy.md)** - Strategic planning and execution frameworks
+- **[Growth Strategy](growth-strategy.md)** - Strategic planning and execution frameworks
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Digital Transformation Roadmap & Strategy Framework)
+2. Use [Strategic Planning](strategic-planning.md) for deeper analysis
+3. Apply [Innovation Strategy](innovation-strategy.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[business/strategic-management](../../business/strategic-management/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Enterprise digital transformation**: Combine this template with related analytics and strategy frameworks
+- **Legacy system modernization**: Combine this template with related analytics and strategy frameworks
+- **Cloud migration planning**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

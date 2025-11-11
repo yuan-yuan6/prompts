@@ -1,15 +1,26 @@
 ---
-title: Enrollment Management Template Generator
 category: education/Higher Education
-tags: [data-science, education, management, marketing, optimization, security, strategy, template]
-use_cases:
-  - Creating comprehensive enrollment management strategies covering student recruitment, admissions processes, retention programs, yield optimization, and enrollment analytics to maximize institutional enrollment goals while ensuring student success and institutional sustainability.
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - curriculum-development.md
-  - curriculum-development-framework.md
 last_updated: 2025-11-09
+related_templates:
+- curriculum-development.md
+- curriculum-development-framework.md
+tags:
+- data-science
+- education
+- management
+- marketing
+- optimization
+- security
+- strategy
+- template
+title: Enrollment Management Template Generator
+use_cases:
+- Creating comprehensive enrollment management strategies covering student recruitment,
+  admissions processes, retention programs, yield optimization, and enrollment analytics
+  to maximize institutional enrollment goals while ensuring student success and institutional
+  sustainability.
+- Project planning and execution
+- Strategy development
 ---
 
 # Enrollment Management Template Generator
@@ -640,6 +651,36 @@ Generate a comprehensive enrollment management strategy that includes:
 
 ### Example 3: Graduate Program Enrollment Growth
 "Design an enrollment strategy for expanding graduate program enrollment at a public research university. Include professional program marketing, working adult accommodation, online program development, and employer partnership initiatives."
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Curriculum Development](curriculum-development.md)** - Complementary approaches and methodologies
+- **[Curriculum Development Framework](curriculum-development-framework.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Enrollment Management Template Generator)
+2. Use [Curriculum Development](curriculum-development.md) for deeper analysis
+3. Apply [Curriculum Development Framework](curriculum-development-framework.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[education/Higher Education](../../education/Higher Education/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive enrollment management strategies covering student recruitment, admissions processes, retention programs, yield optimization, and enrollment analytics to maximize institutional enrollment goals while ensuring student success and institutional sustainability.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

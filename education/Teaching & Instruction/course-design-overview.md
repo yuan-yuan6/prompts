@@ -1,21 +1,25 @@
 ---
-title: Course Design Overview & Navigation Guide
 category: education/Teaching & Instruction
-tags: [course-design, overview, navigation, planning]
-use_cases:
-  - Getting started with course design and understanding the process
-  - Navigating to specialized course design prompts
-  - Quick reference for course design components
-related_templates:
-  - course-foundations-objectives.md
-  - course-content-curriculum.md
-  - course-assessment-strategy.md
-  - course-technology-integration.md
-  - course-accessibility-inclusion.md
-  - course-student-engagement.md
-  - course-quality-evaluation.md
-  - course-implementation-plan.md
 last_updated: 2025-11-09
+related_templates:
+- course-foundations-objectives.md
+- course-content-curriculum.md
+- course-assessment-strategy.md
+- course-technology-integration.md
+- course-accessibility-inclusion.md
+- course-student-engagement.md
+- course-quality-evaluation.md
+- course-implementation-plan.md
+tags:
+- course-design
+- overview
+- navigation
+- planning
+title: Course Design Overview & Navigation Guide
+use_cases:
+- Getting started with course design and understanding the process
+- Navigating to specialized course design prompts
+- Quick reference for course design components
 ---
 
 # Course Design Overview & Navigation Guide
@@ -220,3 +224,35 @@ Each specialized prompt is designed to be:
 8. **course-implementation-plan.md** - Project management and timelines
 
 Each prompt is self-contained and can be used independently or in combination with others.
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Course Foundations Objectives](course-foundations-objectives.md)** - Complementary approaches and methodologies
+- **[Course Content Curriculum](course-content-curriculum.md)** - Complementary approaches and methodologies
+- **[Course Assessment Strategy](course-assessment-strategy.md)** - Strategic planning and execution frameworks
+- **[Course Technology Integration](course-technology-integration.md)** - Complementary approaches and methodologies
+- **[Course Accessibility Inclusion](course-accessibility-inclusion.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Course Design Overview & Navigation Guide)
+2. Use [Course Foundations Objectives](course-foundations-objectives.md) for deeper analysis
+3. Apply [Course Content Curriculum](course-content-curriculum.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[education/Teaching & Instruction](../../education/Teaching & Instruction/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Getting started with course design and understanding the process**: Combine this template with related analytics and strategy frameworks
+- **Navigating to specialized course design prompts**: Combine this template with related analytics and strategy frameworks
+- **Quick reference for course design components**: Combine this template with related analytics and strategy frameworks

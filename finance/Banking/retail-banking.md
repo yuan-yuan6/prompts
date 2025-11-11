@@ -1,17 +1,24 @@
 ---
-title: Retail Banking Operations & Customer Management Framework
 category: finance/Banking
-tags: [data-science, finance, framework, management, optimization, research]
-use_cases:
-  - Creating comprehensive framework for managing retail banking operations including account management, lending products, digital banking services, branch operations, and customer experience optimization.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - investment-portfolio-management.md
-  - digital-banking-strategy.md
-  - risk-management-framework.md
 last_updated: 2025-11-09
+related_templates:
+- investment-portfolio-management.md
+- digital-banking-strategy.md
+- risk-management-framework.md
+tags:
+- data-science
+- finance
+- framework
+- management
+- optimization
+- research
+title: Retail Banking Operations & Customer Management Framework
+use_cases:
+- Creating comprehensive framework for managing retail banking operations including
+  account management, lending products, digital banking services, branch operations,
+  and customer experience optimization.
+- Project planning and execution
+- Strategy development
 ---
 
 # Retail Banking Operations & Customer Management Framework
@@ -625,6 +632,37 @@ Assets: $20 billion
 Acquisition: 100% digital
 Focus: Mobile-first, AI-driven services
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Investment Portfolio Management](investment-portfolio-management.md)** - Complementary approaches and methodologies
+- **[Digital Banking Strategy](digital-banking-strategy.md)** - Strategic planning and execution frameworks
+- **[Risk Management Framework](risk-management-framework.md)** - Identify, assess, and mitigate potential risks
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Retail Banking Operations & Customer Management Framework)
+2. Use [Investment Portfolio Management](investment-portfolio-management.md) for deeper analysis
+3. Apply [Digital Banking Strategy](digital-banking-strategy.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[finance/Banking](../../finance/Banking/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive framework for managing retail banking operations including account management, lending products, digital banking services, branch operations, and customer experience optimization.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

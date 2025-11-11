@@ -1,19 +1,23 @@
 ---
-title: Dashboard Design Overview & Navigation Guide
 category: data-analytics/Business Intelligence
-tags: [data-analytics, business-intelligence, guide, overview]
-use_cases:
-  - Dashboard project planning
-  - Prompt selection guidance
-  - End-to-end dashboard development
-related_templates:
-  - dashboard-strategy-requirements.md
-  - dashboard-ux-design.md
-  - dashboard-data-architecture.md
-  - dashboard-technical-implementation.md
-  - dashboard-security-compliance.md
-  - dashboard-testing-deployment.md
 last_updated: 2025-11-09
+related_templates:
+- dashboard-strategy-requirements.md
+- dashboard-ux-design.md
+- dashboard-data-architecture.md
+- dashboard-technical-implementation.md
+- dashboard-security-compliance.md
+- dashboard-testing-deployment.md
+tags:
+- data-analytics
+- business-intelligence
+- guide
+- overview
+title: Dashboard Design Overview & Navigation Guide
+use_cases:
+- Dashboard project planning
+- Prompt selection guidance
+- End-to-end dashboard development
 ---
 
 # Dashboard Design Overview & Navigation Guide
@@ -392,7 +396,40 @@ Most dashboard projects require multiple prompts. Use them in parallel when:
 - Deliverable specifications
 - Quick reference guides
 
-### Tips for using the prompts:
+#
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Dashboard Strategy Requirements](dashboard-strategy-requirements.md)** - Strategic planning and execution frameworks
+- **[Dashboard Ux Design](dashboard-ux-design.md)** - Complementary approaches and methodologies
+- **[Dashboard Data Architecture](dashboard-data-architecture.md)** - Leverage data analysis to drive informed decisions
+- **[Dashboard Technical Implementation](dashboard-technical-implementation.md)** - Complementary approaches and methodologies
+- **[Dashboard Security Compliance](dashboard-security-compliance.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Dashboard Design Overview & Navigation Guide)
+2. Use [Dashboard Strategy Requirements](dashboard-strategy-requirements.md) for deeper analysis
+3. Apply [Dashboard Ux Design](dashboard-ux-design.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[data-analytics/Business Intelligence](../../data-analytics/Business Intelligence/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Dashboard project planning**: Combine this template with related analytics and strategy frameworks
+- **Prompt selection guidance**: Combine this template with related analytics and strategy frameworks
+- **End-to-end dashboard development**: Combine this template with related analytics and strategy frameworks
+
+## Tips for using the prompts:
 1. **Read the overview section** - Understand the prompt's purpose
 2. **Review the example** - See how others have filled it out
 3. **Customize variables** - Replace placeholders with your specifics

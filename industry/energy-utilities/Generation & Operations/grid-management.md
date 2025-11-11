@@ -1,16 +1,23 @@
 ---
-title: Smart Grid Management & Optimization
 category: industry/energy-utilities/Generation & Operations
-tags: [communication, design, industry, management, optimization, security]
-use_cases:
-  - Creating advanced grid management framework for monitoring, control, and optimization of electrical distribution networks including smart grid technologies and demand response systems.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - plant-operations-management.md
-  - smart-grid-implementation.md
 last_updated: 2025-11-09
+related_templates:
+- plant-operations-management.md
+- smart-grid-implementation.md
+tags:
+- communication
+- design
+- industry
+- management
+- optimization
+- security
+title: Smart Grid Management & Optimization
+use_cases:
+- Creating advanced grid management framework for monitoring, control, and optimization
+  of electrical distribution networks including smart grid technologies and demand
+  response systems.
+- Project planning and execution
+- Strategy development
 ---
 
 # Smart Grid Management & Optimization
@@ -480,6 +487,36 @@ Storage Capacity: 200 MWh
 Challenge: Reverse power flow
 Solution: Advanced inverter controls
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Plant Operations Management](plant-operations-management.md)** - Complementary approaches and methodologies
+- **[Smart Grid Implementation](smart-grid-implementation.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Smart Grid Management & Optimization)
+2. Use [Plant Operations Management](plant-operations-management.md) for deeper analysis
+3. Apply [Smart Grid Implementation](smart-grid-implementation.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[industry/energy-utilities/Generation & Operations](../../industry/energy-utilities/Generation & Operations/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating advanced grid management framework for monitoring, control, and optimization of electrical distribution networks including smart grid technologies and demand response systems.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

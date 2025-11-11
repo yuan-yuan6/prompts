@@ -1,17 +1,26 @@
 ---
-title: Data Modeling & Architecture Template
 category: data-analytics/Analytics Engineering
-tags: [data-analytics, data-science, design, machine-learning, optimization, security, strategy, template]
-use_cases:
-  - Creating design comprehensive data modeling architectures including dimensional models, normalized structures, denormalized designs, and modern cloud-native architectures for enterprise analytics platforms.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - dashboard-design-patterns.md
-  - data-governance-framework.md
-  - predictive-modeling-framework.md
 last_updated: 2025-11-09
+related_templates:
+- dashboard-design-patterns.md
+- data-governance-framework.md
+- predictive-modeling-framework.md
+tags:
+- data-analytics
+- data-science
+- design
+- machine-learning
+- optimization
+- security
+- strategy
+- template
+title: Data Modeling & Architecture Template
+use_cases:
+- Creating design comprehensive data modeling architectures including dimensional
+  models, normalized structures, denormalized designs, and modern cloud-native architectures
+  for enterprise analytics platforms.
+- Project planning and execution
+- Strategy development
 ---
 
 # Data Modeling & Architecture Template
@@ -1123,6 +1132,37 @@ LAYER_STRATEGY: "Bronze-Silver-Gold"
 STORAGE_FORMAT: "Delta Lake"
 TARGET_PLATFORM: "Databricks"
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Dashboard Design Patterns](dashboard-design-patterns.md)** - Complementary approaches and methodologies
+- **[Data Governance Framework](data-governance-framework.md)** - Leverage data analysis to drive informed decisions
+- **[Predictive Modeling Framework](predictive-modeling-framework.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Data Modeling & Architecture Template)
+2. Use [Dashboard Design Patterns](dashboard-design-patterns.md) for deeper analysis
+3. Apply [Data Governance Framework](data-governance-framework.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[data-analytics/Analytics Engineering](../../data-analytics/Analytics Engineering/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating design comprehensive data modeling architectures including dimensional models, normalized structures, denormalized designs, and modern cloud-native architectures for enterprise analytics platforms.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

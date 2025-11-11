@@ -1,16 +1,23 @@
 ---
-title: Research Design - Impact, Innovation & Continuous Improvement
 category: education/Academic Research
-tags: [research, dissemination, knowledge-translation, innovation, impact, evaluation, improvement]
-use_cases:
-  - Developing comprehensive dissemination and knowledge translation strategies
-  - Integrating innovative technologies and methodological approaches
-  - Planning research impact assessment and continuous improvement systems
-related_templates:
-  - research-design-foundation.md
-  - research-design-ethics-implementation.md
-  - research-design-overview.md
 last_updated: 2025-11-10
+related_templates:
+- research-design-foundation.md
+- research-design-ethics-implementation.md
+- research-design-overview.md
+tags:
+- research
+- dissemination
+- knowledge-translation
+- innovation
+- impact
+- evaluation
+- improvement
+title: Research Design - Impact, Innovation & Continuous Improvement
+use_cases:
+- Developing comprehensive dissemination and knowledge translation strategies
+- Integrating innovative technologies and methodological approaches
+- Planning research impact assessment and continuous improvement systems
 ---
 
 # Research Design - Impact, Innovation & Continuous Improvement
@@ -551,6 +558,37 @@ Generate a comprehensive impact, innovation, and improvement strategy that inclu
 - Archive data and materials in open repositories for maximum accessibility
 - Track dissemination metrics (downloads, citations, media mentions, policy citations)
 - Invest time in learning new technologies that could enhance your research
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Research Design Foundation](research-design-foundation.md)** - Complementary approaches and methodologies
+- **[Research Design Ethics Implementation](research-design-ethics-implementation.md)** - Complementary approaches and methodologies
+- **[Research Design Overview](research-design-overview.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Research Design - Impact, Innovation & Continuous Improvement)
+2. Use [Research Design Foundation](research-design-foundation.md) for deeper analysis
+3. Apply [Research Design Ethics Implementation](research-design-ethics-implementation.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[education/Academic Research](../../education/Academic Research/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Developing comprehensive dissemination and knowledge translation strategies**: Combine this template with related analytics and strategy frameworks
+- **Integrating innovative technologies and methodological approaches**: Combine this template with related analytics and strategy frameworks
+- **Planning research impact assessment and continuous improvement systems**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

@@ -1,17 +1,22 @@
 ---
-title: UX/UI Design - Overview & Navigation
 category: creative/Design & Visual
-tags: [creative, design, overview, navigation, guide]
-use_cases:
-  - Understanding the UX/UI design prompt collection
-  - Choosing the right design deliverable template
-  - Planning comprehensive design projects
-related_templates:
-  - wireframe-design.md
-  - prototype-development.md
-  - design-system-creation.md
-  - usability-testing-plan.md
 last_updated: 2025-11-09
+related_templates:
+- wireframe-design.md
+- prototype-development.md
+- design-system-creation.md
+- usability-testing-plan.md
+tags:
+- creative
+- design
+- overview
+- navigation
+- guide
+title: UX/UI Design - Overview & Navigation
+use_cases:
+- Understanding the UX/UI design prompt collection
+- Choosing the right design deliverable template
+- Planning comprehensive design projects
 ---
 
 # UX/UI Design - Overview & Navigation
@@ -257,6 +262,38 @@ For comprehensive design projects, you'll often use multiple templates in sequen
 | Prototype Development | Interactions | 1-3 weeks | 1-3 designers | Medium-High |
 | Design System | Consistency | 4-12 weeks | 2-5 designers | High |
 | Usability Testing | Validation | 2-4 weeks | 2-4 researchers | Medium |
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Wireframe Design](wireframe-design.md)** - Complementary approaches and methodologies
+- **[Prototype Development](prototype-development.md)** - Complementary approaches and methodologies
+- **[Design System Creation](design-system-creation.md)** - Complementary approaches and methodologies
+- **[Usability Testing Plan](usability-testing-plan.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (UX/UI Design - Overview & Navigation)
+2. Use [Wireframe Design](wireframe-design.md) for deeper analysis
+3. Apply [Prototype Development](prototype-development.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[creative/Design & Visual](../../creative/Design & Visual/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Understanding the UX/UI design prompt collection**: Combine this template with related analytics and strategy frameworks
+- **Choosing the right design deliverable template**: Combine this template with related analytics and strategy frameworks
+- **Planning comprehensive design projects**: Combine this template with related analytics and strategy frameworks
 
 ## Best Practices Across All Templates
 

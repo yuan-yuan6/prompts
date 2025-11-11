@@ -1,15 +1,22 @@
 ---
-title: Donor Engagement & Stewardship System
 category: nonprofit/Fundraising & Development
-tags: [automation, data-science, design, marketing, nonprofit, research, strategy]
-use_cases:
-  - Strategic framework for donor cultivation, engagement, stewardship, and retention
-  - Major gifts program and planned giving development
-  - Multi-channel fundraising campaign management
-related_templates:
-  - program-evaluation.md
-  - fundraising-campaign-framework.md
 last_updated: 2025-11-09
+related_templates:
+- program-evaluation.md
+- fundraising-campaign-framework.md
+tags:
+- automation
+- data-science
+- design
+- marketing
+- nonprofit
+- research
+- strategy
+title: Donor Engagement & Stewardship System
+use_cases:
+- Strategic framework for donor cultivation, engagement, stewardship, and retention
+- Major gifts program and planned giving development
+- Multi-channel fundraising campaign management
 ---
 
 # Donor Engagement & Stewardship System
@@ -601,6 +608,36 @@ STRATEGY FOCUS:
 - Planned giving: Older, long-time subscribers
 - Education programs: Gateway to family philanthropy
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Program Evaluation](program-evaluation.md)** - Complementary approaches and methodologies
+- **[Fundraising Campaign Framework](fundraising-campaign-framework.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Donor Engagement & Stewardship System)
+2. Use [Program Evaluation](program-evaluation.md) for deeper analysis
+3. Apply [Fundraising Campaign Framework](fundraising-campaign-framework.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[nonprofit/Fundraising & Development](../../nonprofit/Fundraising & Development/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Strategic framework for donor cultivation, engagement, stewardship, and retention**: Combine this template with related analytics and strategy frameworks
+- **Major gifts program and planned giving development**: Combine this template with related analytics and strategy frameworks
+- **Multi-channel fundraising campaign management**: Combine this template with related analytics and strategy frameworks
 
 ## Best Practices
 

@@ -1,16 +1,24 @@
 ---
-title: Campaign Concepts Template
 category: creative/Marketing Creative
-tags: [automation, communication, creative, development, marketing, strategy, template]
-use_cases:
-  - Creating develop comprehensive marketing campaign concepts including themes, messaging, and creative strategies that drive brand engagement and achieve business objectives across multiple channels.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - creative-writing-framework.md
-  - video-production-pipeline.md
 last_updated: 2025-11-09
+related_templates:
+- creative-writing-framework.md
+- video-production-pipeline.md
+tags:
+- automation
+- communication
+- creative
+- development
+- marketing
+- strategy
+- template
+title: Campaign Concepts Template
+use_cases:
+- Creating develop comprehensive marketing campaign concepts including themes, messaging,
+  and creative strategies that drive brand engagement and achieve business objectives
+  across multiple channels.
+- Project planning and execution
+- Strategy development
 ---
 
 # Campaign Concepts Template
@@ -527,6 +535,36 @@ CAMPAIGN_GOAL: "Drive holiday season sales"
 CAMPAIGN_DURATION: "3 months (Q4)"
 BUDGET_ALLOCATION: "$3M retail activation"
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Creative Writing Framework](creative-writing-framework.md)** - Complementary approaches and methodologies
+- **[Video Production Pipeline](video-production-pipeline.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Campaign Concepts Template)
+2. Use [Creative Writing Framework](creative-writing-framework.md) for deeper analysis
+3. Apply [Video Production Pipeline](video-production-pipeline.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[creative/Marketing Creative](../../creative/Marketing Creative/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating develop comprehensive marketing campaign concepts including themes, messaging, and creative strategies that drive brand engagement and achieve business objectives across multiple channels.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

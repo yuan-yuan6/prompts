@@ -1,16 +1,21 @@
 ---
-title: Interactive Prototype Development
 category: creative/Design & Visual
-tags: [creative, design, prototype, interaction, testing]
-use_cases:
-  - Build clickable prototype for usability testing
-  - Create high-fidelity mockup for investor demo or stakeholder approval
-  - Develop proof-of-concept to validate technical feasibility before development
-related_templates:
-  - wireframe-design.md
-  - design-system-creation.md
-  - usability-testing-plan.md
 last_updated: 2025-11-09
+related_templates:
+- wireframe-design.md
+- design-system-creation.md
+- usability-testing-plan.md
+tags:
+- creative
+- design
+- prototype
+- interaction
+- testing
+title: Interactive Prototype Development
+use_cases:
+- Build clickable prototype for usability testing
+- Create high-fidelity mockup for investor demo or stakeholder approval
+- Develop proof-of-concept to validate technical feasibility before development
 ---
 
 # Interactive Prototype Development
@@ -335,6 +340,37 @@ PROTOTYPE_GOAL: "Validate dashboard concept"
 PRIMARY_FLOWS: "Login, view reports, create custom chart"
 PROTOTYPE_FIDELITY: "Low"
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Wireframe Design](wireframe-design.md)** - Complementary approaches and methodologies
+- **[Design System Creation](design-system-creation.md)** - Complementary approaches and methodologies
+- **[Usability Testing Plan](usability-testing-plan.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Interactive Prototype Development)
+2. Use [Wireframe Design](wireframe-design.md) for deeper analysis
+3. Apply [Design System Creation](design-system-creation.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[creative/Design & Visual](../../creative/Design & Visual/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Build clickable prototype for usability testing**: Combine this template with related analytics and strategy frameworks
+- **Create high-fidelity mockup for investor demo or stakeholder approval**: Combine this template with related analytics and strategy frameworks
+- **Develop proof-of-concept to validate technical feasibility before development**: Combine this template with related analytics and strategy frameworks
 
 ## Best Practices
 

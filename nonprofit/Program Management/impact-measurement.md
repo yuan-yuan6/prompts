@@ -1,16 +1,23 @@
 ---
-title: Social Impact Measurement & Evaluation Framework
 category: nonprofit/Program Management
-tags: [automation, design, development, framework, machine-learning, nonprofit]
-use_cases:
-  - Creating comprehensive system for measuring, evaluating, and reporting social impact across nonprofit programs, including theory of change development, outcome tracking, and stakeholder reporting.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - program-evaluation.md
-  - fundraising-campaign-framework.md
 last_updated: 2025-11-09
+related_templates:
+- program-evaluation.md
+- fundraising-campaign-framework.md
+tags:
+- automation
+- design
+- development
+- framework
+- machine-learning
+- nonprofit
+title: Social Impact Measurement & Evaluation Framework
+use_cases:
+- Creating comprehensive system for measuring, evaluating, and reporting social impact
+  across nonprofit programs, including theory of change development, outcome tracking,
+  and stakeholder reporting.
+- Project planning and execution
+- Strategy development
 ---
 
 # Social Impact Measurement & Evaluation Framework
@@ -528,6 +535,36 @@ Outcome Focus: Income generation
 Key Metric: Business revenue growth
 Impact: 35% poverty reduction
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Program Evaluation](program-evaluation.md)** - Complementary approaches and methodologies
+- **[Fundraising Campaign Framework](fundraising-campaign-framework.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Social Impact Measurement & Evaluation Framework)
+2. Use [Program Evaluation](program-evaluation.md) for deeper analysis
+3. Apply [Fundraising Campaign Framework](fundraising-campaign-framework.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[nonprofit/Program Management](../../nonprofit/Program Management/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive system for measuring, evaluating, and reporting social impact across nonprofit programs, including theory of change development, outcome tracking, and stakeholder reporting.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

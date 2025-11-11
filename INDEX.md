@@ -388,7 +388,7 @@ A comprehensive, searchable index of all 375+ templates organized by use case.
 
 - [Lean Six Sigma Implementation](business/lean-six-sigma-implementation.md) - `business`
 - [Operations Resource Management](business/Operations & Processes/operations-resource-management.md) - `business`
-- [Operations Supply Chain Optimization](business/operations/operations-supply-chain-optimization.md) - `business`
+- [Operations Supply Chain Optimization](business/Operations & Processes/operations-supply-chain-optimization.md) - `business`
 - [Process Automation Framework](business/Operations & Processes/process-automation-framework.md) - `business`
 - [Process Optimization](business/Operations & Processes/process-optimization.md) - `business`
 - [Supply Chain](business/Operations & Processes/supply-chain.md) - `business`
@@ -437,7 +437,7 @@ A comprehensive, searchable index of all 375+ templates organized by use case.
 
 - [Algorithm Selection](technology/AI & Machine Learning/algorithm-selection.md) - `technology`
 - [Architecture Design](technology/Software Development/architecture-design.md) - `technology`
-- [Blockchain Architecture](technology/emerging-tech/Blockchain & Web3/blockchain-architecture.md) - `technology`
+- [Blockchain Architecture](technology/Emerging Technologies/Blockchain & Web3/blockchain-architecture.md) - `technology`
 - [Ci Cd Pipelines](technology/DevOps & Cloud/ci-cd-pipelines.md) - `technology`
 - [Cicd Pipeline Framework](technology/cicd-pipeline-framework.md) - `technology`
 - [Cicd Pipelines](technology/DevOps & Cloud/cicd-pipelines.md) - `technology`
@@ -448,22 +448,22 @@ A comprehensive, searchable index of all 375+ templates organized by use case.
 - [Data Pipeline Design](technology/Data Engineering/data-pipeline-design.md) - `technology`
 - [Data Preparation](technology/AI & Machine Learning/data-preparation.md) - `technology`
 - [Database Management](technology/Data Engineering/database-management.md) - `technology`
-- [Defi Protocols](technology/emerging-tech/Blockchain & Web3/defi-protocols.md) - `technology`
+- [Defi Protocols](technology/Emerging Technologies/Blockchain & Web3/defi-protocols.md) - `technology`
 - [Engineering Data Quality](technology/Data Engineering/engineering-data-quality.md) - `technology`
 - [Frontend Development](technology/Software Development/frontend-development.md) - `technology`
-- [Generative Ai](technology/emerging-tech/Artificial Intelligence/generative-ai.md) - `technology`
-- [Generative Ai Implementation](technology/emerging-tech/generative-ai-implementation.md) - `technology`
+- [Generative Ai](technology/Emerging Technologies/Artificial Intelligence/generative-ai.md) - `technology`
+- [Generative Ai Implementation](technology/Emerging Technologies/generative-ai-implementation.md) - `technology`
 - [Incident Response](technology/Cybersecurity/incident-response.md) - `technology`
 - [Integration Patterns](technology/Data Engineering/integration-patterns.md) - `technology`
-- [Iot Architecture](technology/emerging-tech/IoT & Edge Computing/iot-architecture.md) - `technology`
-- [Metaverse Strategy](technology/emerging-tech/Metaverse & XR/metaverse-strategy.md) - `technology`
+- [Iot Architecture](technology/Emerging Technologies/IoT & Edge Computing/iot-architecture.md) - `technology`
+- [Metaverse Strategy](technology/Emerging Technologies/Metaverse & XR/metaverse-strategy.md) - `technology`
 - [Microservices Architecture Design](technology/microservices-architecture-design.md) - `technology`
 - [Mlops](technology/AI & Machine Learning/mlops.md) - `technology`
 - [Mobile Development](technology/Software Development/mobile-development.md) - `technology`
 - [Model Development](technology/AI & Machine Learning/model-development.md) - `technology`
 - [Platform Engineering](technology/DevOps & Platform/platform-engineering.md) - `technology`
 - [Prompt Engineering](technology/AI & Machine Learning/prompt-engineering.md) - `technology`
-- [Quantum Computing Strategy](technology/emerging-tech/Quantum Computing/quantum-computing-strategy.md) - `technology`
+- [Quantum Computing Strategy](technology/Emerging Technologies/Quantum Computing/quantum-computing-strategy.md) - `technology`
 - [Site Reliability](technology/DevOps & Cloud/site-reliability.md) - `technology`
 - [Site Reliability Engineering](technology/site-reliability-engineering.md) - `technology`
 - [Software Documentation](technology/Software Development/software-documentation.md) - `technology`
@@ -722,7 +722,7 @@ A comprehensive, searchable index of all 375+ templates organized by use case.
 
 - [Algorithm Selection](technology/AI & Machine Learning/algorithm-selection.md)
 - [Architecture Design](technology/Software Development/architecture-design.md)
-- [Blockchain Architecture](technology/emerging-tech/Blockchain & Web3/blockchain-architecture.md)
+- [Blockchain Architecture](technology/Emerging Technologies/Blockchain & Web3/blockchain-architecture.md)
 - [Ci Cd Pipelines](technology/DevOps & Cloud/ci-cd-pipelines.md)
 - [Cicd Pipeline Framework](technology/cicd-pipeline-framework.md)
 - [Cicd Pipelines](technology/DevOps & Cloud/cicd-pipelines.md)
@@ -738,7 +738,7 @@ A comprehensive, searchable index of all 375+ templates organized by use case.
 - [Data Pipeline Design](technology/Data Engineering/data-pipeline-design.md)
 - [Data Preparation](technology/AI & Machine Learning/data-preparation.md)
 - [Database Management](technology/Data Engineering/database-management.md)
-- [Defi Protocols](technology/emerging-tech/Blockchain & Web3/defi-protocols.md)
+- [Defi Protocols](technology/Emerging Technologies/Blockchain & Web3/defi-protocols.md)
 - [Devops Infrastructure As Code](technology/DevOps & Cloud/devops-infrastructure-as-code.md)
 - ... and 25 more templates - [View all](technology/)
 
@@ -774,7 +774,7 @@ A comprehensive, searchable index of all 375+ templates organized by use case.
 
 - [B2B Sales Process Optimization](business/Sales & Marketing/b2b-sales-process-optimization.md) - `business/Marketing & Sales`
 - [Best Practices](education/Knowledge Management/best-practices.md) - `education/Education & Learning`
-- [Blockchain Architecture](technology/emerging-tech/Blockchain & Web3/blockchain-architecture.md) - `technology/Software Development & Engineering`
+- [Blockchain Architecture](technology/Emerging Technologies/Blockchain & Web3/blockchain-architecture.md) - `technology/Software Development & Engineering`
 - [Board Reporting](professional-services/communication/Stakeholder Management/board-reporting.md) - `professional-services/Business Strategy & Planning`
 - [Brand Management](business/Sales & Marketing/brand-management.md) - `business/Marketing & Sales`
 - [Brand Storytelling](creative/Marketing Creative/brand-storytelling.md) - `creative/Design & Creative`
@@ -872,7 +872,7 @@ A comprehensive, searchable index of all 375+ templates organized by use case.
 - [Database Management](technology/Data Engineering/database-management.md) - `technology/Software Development & Engineering`
 - [Debt Management](personal/Financial Management/debt-management.md) - `personal/Personal Development`
 - [Deep Learning](data-analytics/Advanced Analytics/deep-learning.md) - `data-analytics/Data Science & Machine Learning`
-- [Defi Protocols](technology/emerging-tech/Blockchain & Web3/defi-protocols.md) - `technology/Software Development & Engineering`
+- [Defi Protocols](technology/Emerging Technologies/Blockchain & Web3/defi-protocols.md) - `technology/Software Development & Engineering`
 - [Devops Infrastructure As Code](technology/DevOps & Cloud/devops-infrastructure-as-code.md) - `technology/DevOps & Infrastructure`
 - [Digital Banking Strategy](finance/digital-banking-strategy.md) - `finance/Finance & Investment`
 - [Digital Exhibition Curation](creative/arts-culture/digital-exhibition-curation.md) - `creative/Design & Creative`
@@ -920,8 +920,8 @@ A comprehensive, searchable index of all 375+ templates organized by use case.
 - [Game Design](industry/entertainment-gaming/Game Development/game-design.md) - `industry/Industry-Specific Solutions`
 - [Game Design Framework](industry/entertainment-gaming/game-design-framework.md) - `industry/Industry-Specific Solutions`
 - [Game Development Pipeline](industry/entertainment-gaming/game-development-pipeline.md) - `industry/Industry-Specific Solutions`
-- [Generative Ai](technology/emerging-tech/Artificial Intelligence/generative-ai.md) - `technology/Software Development & Engineering`
-- [Generative Ai Implementation](technology/emerging-tech/generative-ai-implementation.md) - `technology/Software Development & Engineering`
+- [Generative Ai](technology/Emerging Technologies/Artificial Intelligence/generative-ai.md) - `technology/Software Development & Engineering`
+- [Generative Ai Implementation](technology/Emerging Technologies/generative-ai-implementation.md) - `technology/Software Development & Engineering`
 - [Goal Setting](personal/Personal Development/goal-setting.md) - `personal/Personal Development`
 - [Government Policy Development](government/Federal & State/government-policy-development.md) - `government/Government & Public Policy`
 - [Graphic Design](creative/Design & Visual/graphic-design.md) - `creative/Design & Creative`
@@ -961,7 +961,7 @@ A comprehensive, searchable index of all 375+ templates organized by use case.
 - [Investment Portfolio Management](finance/investment-portfolio-management.md) - `finance/Finance & Investment`
 - [Investment Portfolio Optimization](finance/economics/investment-portfolio-optimization.md) - `finance/Finance & Investment`
 - [Investment Strategy](personal/Financial Management/investment-strategy.md) - `personal/Personal Development`
-- [Iot Architecture](technology/emerging-tech/IoT & Edge Computing/iot-architecture.md) - `technology/Software Development & Engineering`
+- [Iot Architecture](technology/Emerging Technologies/IoT & Edge Computing/iot-architecture.md) - `technology/Software Development & Engineering`
 
 ### K
 
@@ -1002,7 +1002,7 @@ A comprehensive, searchable index of all 375+ templates organized by use case.
 - [Meeting Management](professional-services/communication/Team Communication/meeting-management.md) - `professional-services/Business Strategy & Planning`
 - [Meeting Management Framework](professional-services/communication/meeting-management-framework.md) - `professional-services/Business Strategy & Planning`
 - [Mental Health](personal/Health & Wellness/mental-health.md) - `personal/Personal Development`
-- [Metaverse Strategy](technology/emerging-tech/Metaverse & XR/metaverse-strategy.md) - `technology/Software Development & Engineering`
+- [Metaverse Strategy](technology/Emerging Technologies/Metaverse & XR/metaverse-strategy.md) - `technology/Software Development & Engineering`
 - [Microservices Architecture Design](technology/microservices-architecture-design.md) - `technology/Software Development & Engineering`
 - [Mlops](technology/AI & Machine Learning/mlops.md) - `technology/Software Development & Engineering`
 - [Mobile Development](technology/Software Development/mobile-development.md) - `technology/Software Development & Engineering`
@@ -1027,7 +1027,7 @@ A comprehensive, searchable index of all 375+ templates organized by use case.
 - [Omnichannel Strategy](industry/retail-ecommerce/Digital Commerce/omnichannel-strategy.md) - `industry/Industry-Specific Solutions`
 - [Online Learning](education/Teaching & Instruction/online-learning.md) - `education/Education & Learning`
 - [Operations Resource Management](business/Operations & Processes/operations-resource-management.md) - `business/Operations & Process Management`
-- [Operations Supply Chain Optimization](business/operations/operations-supply-chain-optimization.md) - `business/Operations & Process Management`
+- [Operations Supply Chain Optimization](business/Operations & Processes/operations-supply-chain-optimization.md) - `business/Operations & Process Management`
 - [Optimization Algorithms](data-analytics/Advanced Analytics/optimization-algorithms.md) - `data-analytics/Analytics & Business Intelligence`
 
 ### P
@@ -1078,7 +1078,7 @@ A comprehensive, searchable index of all 375+ templates organized by use case.
 - [Quality Assurance](business/Operations & Processes/quality-assurance.md) - `business/Business Strategy & Planning`
 - [Quality Improvement](healthcare/Healthcare Administration/quality-improvement.md) - `healthcare/Healthcare & Clinical`
 - [Quality Management](industry/manufacturing/quality-management.md) - `industry/Industry-Specific Solutions`
-- [Quantum Computing Strategy](technology/emerging-tech/Quantum Computing/quantum-computing-strategy.md) - `technology/Software Development & Engineering`
+- [Quantum Computing Strategy](technology/Emerging Technologies/Quantum Computing/quantum-computing-strategy.md) - `technology/Software Development & Engineering`
 - [Query Optimization](data-analytics/Analytics Engineering/query-optimization.md) - `data-analytics/Analytics & Business Intelligence`
 
 ### R

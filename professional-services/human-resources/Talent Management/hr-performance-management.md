@@ -1,17 +1,26 @@
 ---
-title: Performance Management & Employee Development Framework
 category: professional-services/human-resources/Talent Management
-tags: [design, development, documentation, framework, management, optimization, professional-services, strategy]
-use_cases:
-  - Creating comprehensive framework for designing and implementing performance management systems, employee development programs, succession planning, talent assessment, and career progression strategies.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - performance-review-system.md
-  - employee-engagement-program.md
-  - talent-acquisition-strategy.md
 last_updated: 2025-11-09
+related_templates:
+- performance-review-system.md
+- employee-engagement-program.md
+- talent-acquisition-strategy.md
+tags:
+- design
+- development
+- documentation
+- framework
+- management
+- optimization
+- professional-services
+- strategy
+title: Performance Management & Employee Development Framework
+use_cases:
+- Creating comprehensive framework for designing and implementing performance management
+  systems, employee development programs, succession planning, talent assessment,
+  and career progression strategies.
+- Project planning and execution
+- Strategy development
 ---
 
 # Performance Management & Employee Development Framework
@@ -521,6 +530,37 @@ Development: MBA sponsorship, rotations
 High Potential: 15% identified
 Succession: 3-deep for critical roles
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Performance Review System](performance-review-system.md)** - Complementary approaches and methodologies
+- **[Employee Engagement Program](employee-engagement-program.md)** - Complementary approaches and methodologies
+- **[Talent Acquisition Strategy](talent-acquisition-strategy.md)** - Strategic planning and execution frameworks
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Performance Management & Employee Development Framework)
+2. Use [Performance Review System](performance-review-system.md) for deeper analysis
+3. Apply [Employee Engagement Program](employee-engagement-program.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[professional-services/human-resources/Talent Management](../../professional-services/human-resources/Talent Management/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive framework for designing and implementing performance management systems, employee development programs, succession planning, talent assessment, and career progression strategies.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

@@ -1,17 +1,26 @@
 ---
-title: Documentation, Lineage & Governance Template
 category: data-analytics/Analytics Engineering
-tags: [automation, data-analytics, design, documentation, machine-learning, management, security, strategy]
-use_cases:
-  - Creating design comprehensive data governance frameworks including data lineage tracking systems, data dictionary management, schema documentation automation, metadata management, and enterprise data governance programs for modern data platforms.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - dashboard-design-patterns.md
-  - data-governance-framework.md
-  - predictive-modeling-framework.md
 last_updated: 2025-11-09
+related_templates:
+- dashboard-design-patterns.md
+- data-governance-framework.md
+- predictive-modeling-framework.md
+tags:
+- automation
+- data-analytics
+- design
+- documentation
+- machine-learning
+- management
+- security
+- strategy
+title: Documentation, Lineage & Governance Template
+use_cases:
+- Creating design comprehensive data governance frameworks including data lineage
+  tracking systems, data dictionary management, schema documentation automation, metadata
+  management, and enterprise data governance programs for modern data platforms.
+- Project planning and execution
+- Strategy development
 ---
 
 # Documentation, Lineage & Governance Template
@@ -1580,6 +1589,37 @@ GOVERNANCE_AUTOMATION_LEVEL: "Highly Automated (80%+)"
 DATA_DOMAINS: ["Customer Analytics", "Product Telemetry", "Marketing", "Operations"]
 IMPLEMENTATION_MODEL: "Bottom-up with executive oversight"
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Dashboard Design Patterns](dashboard-design-patterns.md)** - Complementary approaches and methodologies
+- **[Data Governance Framework](data-governance-framework.md)** - Leverage data analysis to drive informed decisions
+- **[Predictive Modeling Framework](predictive-modeling-framework.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Documentation, Lineage & Governance Template)
+2. Use [Dashboard Design Patterns](dashboard-design-patterns.md) for deeper analysis
+3. Apply [Data Governance Framework](data-governance-framework.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[data-analytics/Analytics Engineering](../../data-analytics/Analytics Engineering/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating design comprehensive data governance frameworks including data lineage tracking systems, data dictionary management, schema documentation automation, metadata management, and enterprise data governance programs for modern data platforms.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

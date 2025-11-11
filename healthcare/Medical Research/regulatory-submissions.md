@@ -1,16 +1,23 @@
 ---
-title: Regulatory Submissions Template
 category: healthcare/Medical Research
-tags: [documentation, healthcare, research, security, template]
-use_cases:
-  - Creating comprehensive regulatory submissions including FDA applications, IRB protocols, compliance documents, and safety reports that meet regulatory requirements for clinical research and drug/device approval.
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - telemedicine-platform-design.md
-  - patient-care-pathway.md
-  - clinical-trials-management.md
 last_updated: 2025-11-09
+related_templates:
+- telemedicine-platform-design.md
+- patient-care-pathway.md
+- clinical-trials-management.md
+tags:
+- documentation
+- healthcare
+- research
+- security
+- template
+title: Regulatory Submissions Template
+use_cases:
+- Creating comprehensive regulatory submissions including FDA applications, IRB protocols,
+  compliance documents, and safety reports that meet regulatory requirements for clinical
+  research and drug/device approval.
+- Project planning and execution
+- Strategy development
 ---
 
 # Regulatory Submissions Template
@@ -651,6 +658,37 @@ PREDICATE: "K123456"
 TESTING: "Bench and clinical validation"
 CLEARANCE_TARGET: "6 months"
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Telemedicine Platform Design](telemedicine-platform-design.md)** - Complementary approaches and methodologies
+- **[Patient Care Pathway](patient-care-pathway.md)** - Complementary approaches and methodologies
+- **[Clinical Trials Management](clinical-trials-management.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Regulatory Submissions Template)
+2. Use [Telemedicine Platform Design](telemedicine-platform-design.md) for deeper analysis
+3. Apply [Patient Care Pathway](patient-care-pathway.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[healthcare/Medical Research](../../healthcare/Medical Research/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive regulatory submissions including FDA applications, IRB protocols, compliance documents, and safety reports that meet regulatory requirements for clinical research and drug/device approval.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

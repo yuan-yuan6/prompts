@@ -1,16 +1,22 @@
 ---
-title: Literature Review Protocol & Search Strategy
 category: education/Academic Research
-tags: [communication, education, research, strategy, template]
-use_cases:
-  - Developing systematic review protocols with comprehensive search strategies and methodological frameworks
-  - Designing rigorous database search approaches for academic literature reviews
-  - Establishing theoretical foundations and research context for evidence synthesis
-related_templates:
-  - literature-review-selection-quality.md
-  - literature-review-extraction-synthesis.md
-  - literature-reviews-overview.md
 last_updated: 2025-11-10
+related_templates:
+- literature-review-selection-quality.md
+- literature-review-extraction-synthesis.md
+- literature-reviews-overview.md
+tags:
+- communication
+- education
+- research
+- strategy
+- template
+title: Literature Review Protocol & Search Strategy
+use_cases:
+- Developing systematic review protocols with comprehensive search strategies and
+  methodological frameworks
+- Designing rigorous database search approaches for academic literature reviews
+- Establishing theoretical foundations and research context for evidence synthesis
 ---
 
 # Literature Review Protocol & Search Strategy
@@ -581,6 +587,37 @@ Primary Question: How has the concept of community resilience been theorized and
 Databases: Scopus, Web of Science, SocINDEX, GreenFILE, ProQuest
 Search Terms: (community resilience OR social resilience) AND (disaster preparedness OR emergency management OR crisis response)
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Literature Review Selection Quality](literature-review-selection-quality.md)** - Complementary approaches and methodologies
+- **[Literature Review Extraction Synthesis](literature-review-extraction-synthesis.md)** - Complementary approaches and methodologies
+- **[Literature Reviews Overview](literature-reviews-overview.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Literature Review Protocol & Search Strategy)
+2. Use [Literature Review Selection Quality](literature-review-selection-quality.md) for deeper analysis
+3. Apply [Literature Review Extraction Synthesis](literature-review-extraction-synthesis.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[education/Academic Research](../../education/Academic Research/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Developing systematic review protocols with comprehensive search strategies and methodological frameworks**: Combine this template with related analytics and strategy frameworks
+- **Designing rigorous database search approaches for academic literature reviews**: Combine this template with related analytics and strategy frameworks
+- **Establishing theoretical foundations and research context for evidence synthesis**: Combine this template with related analytics and strategy frameworks
 
 ## Best Practices
 

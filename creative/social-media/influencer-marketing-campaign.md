@@ -1,16 +1,25 @@
 ---
-title: Influencer Marketing Campaign & Creator Economy Framework
 category: creative/social-media
-tags: [creative, design, development, framework, marketing, optimization, strategy]
-use_cases:
-  - Creating comprehensive framework for designing and executing influencer marketing campaigns including creator identification, campaign strategy, content collaboration, performance tracking, roi measurement, and long-term partnership development in the creator economy.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - creative-writing-framework.md
-  - video-production-pipeline.md
 last_updated: 2025-11-09
+related_templates:
+- creative-writing-framework.md
+- video-production-pipeline.md
+tags:
+- creative
+- design
+- development
+- framework
+- marketing
+- optimization
+- strategy
+title: Influencer Marketing Campaign & Creator Economy Framework
+use_cases:
+- Creating comprehensive framework for designing and executing influencer marketing
+  campaigns including creator identification, campaign strategy, content collaboration,
+  performance tracking, roi measurement, and long-term partnership development in
+  the creator economy.
+- Project planning and execution
+- Strategy development
 ---
 
 # Influencer Marketing Campaign & Creator Economy Framework
@@ -629,6 +638,36 @@ Engagement: 8% average
 Conversions: 15K new customers
 LTV Impact: $2M revenue
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Creative Writing Framework](creative-writing-framework.md)** - Complementary approaches and methodologies
+- **[Video Production Pipeline](video-production-pipeline.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Influencer Marketing Campaign & Creator Economy Framework)
+2. Use [Creative Writing Framework](creative-writing-framework.md) for deeper analysis
+3. Apply [Video Production Pipeline](video-production-pipeline.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[creative/social-media](../../creative/social-media/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive framework for designing and executing influencer marketing campaigns including creator identification, campaign strategy, content collaboration, performance tracking, roi measurement, and long-term partnership development in the creator economy.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

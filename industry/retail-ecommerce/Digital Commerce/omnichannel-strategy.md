@@ -1,17 +1,25 @@
 ---
-title: Omnichannel Retail Strategy & Integration Framework
 category: industry/retail-ecommerce/Digital Commerce
-tags: [design, framework, industry, optimization, research, strategy, testing]
-use_cases:
-  - Creating comprehensive framework for developing and implementing omnichannel retail strategies including channel integration, inventory synchronization, customer journey optimization, technology infrastructure, and unified commerce experiences.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - customer-experience-optimization.md
-  - dynamic-pricing-strategy.md
-  - product-sourcing-strategy.md
 last_updated: 2025-11-09
+related_templates:
+- customer-experience-optimization.md
+- dynamic-pricing-strategy.md
+- product-sourcing-strategy.md
+tags:
+- design
+- framework
+- industry
+- optimization
+- research
+- strategy
+- testing
+title: Omnichannel Retail Strategy & Integration Framework
+use_cases:
+- Creating comprehensive framework for developing and implementing omnichannel retail
+  strategies including channel integration, inventory synchronization, customer journey
+  optimization, technology infrastructure, and unified commerce experiences.
+- Project planning and execution
+- Strategy development
 ---
 
 # Omnichannel Retail Strategy & Integration Framework
@@ -553,6 +561,37 @@ Loyalty: Integrated across channels
 Fresh Focus: Temperature-controlled logistics
 Basket Size: +45% omnichannel customers
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Customer Experience Optimization](customer-experience-optimization.md)** - Understand customer needs and improve user experience
+- **[Dynamic Pricing Strategy](dynamic-pricing-strategy.md)** - Strategic planning and execution frameworks
+- **[Product Sourcing Strategy](product-sourcing-strategy.md)** - Strategic planning and execution frameworks
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Omnichannel Retail Strategy & Integration Framework)
+2. Use [Customer Experience Optimization](customer-experience-optimization.md) for deeper analysis
+3. Apply [Dynamic Pricing Strategy](dynamic-pricing-strategy.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[industry/retail-ecommerce/Digital Commerce](../../industry/retail-ecommerce/Digital Commerce/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive framework for developing and implementing omnichannel retail strategies including channel integration, inventory synchronization, customer journey optimization, technology infrastructure, and unified commerce experiences.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

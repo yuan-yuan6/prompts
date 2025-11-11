@@ -1,17 +1,23 @@
 ---
-title: Telemedicine & Virtual Care Delivery Framework
 category: healthcare/Digital Health
-tags: [design, framework, healthcare, security, testing]
-use_cases:
-  - Creating comprehensive framework for implementing and optimizing telemedicine programs including platform selection, clinical workflows, patient engagement, regulatory compliance, and outcome measurement for virtual healthcare delivery.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - telemedicine-platform-design.md
-  - patient-care-pathway.md
-  - clinical-trials-management.md
 last_updated: 2025-11-09
+related_templates:
+- telemedicine-platform-design.md
+- patient-care-pathway.md
+- clinical-trials-management.md
+tags:
+- design
+- framework
+- healthcare
+- security
+- testing
+title: Telemedicine & Virtual Care Delivery Framework
+use_cases:
+- Creating comprehensive framework for implementing and optimizing telemedicine programs
+  including platform selection, clinical workflows, patient engagement, regulatory
+  compliance, and outcome measurement for virtual healthcare delivery.
+- Project planning and execution
+- Strategy development
 ---
 
 # Telemedicine & Virtual Care Delivery Framework
@@ -496,6 +502,37 @@ Platform: Proprietary app
 Volume: 100,000 visits/month
 Model: Subscription + fee-for-service
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Telemedicine Platform Design](telemedicine-platform-design.md)** - Complementary approaches and methodologies
+- **[Patient Care Pathway](patient-care-pathway.md)** - Complementary approaches and methodologies
+- **[Clinical Trials Management](clinical-trials-management.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Telemedicine & Virtual Care Delivery Framework)
+2. Use [Telemedicine Platform Design](telemedicine-platform-design.md) for deeper analysis
+3. Apply [Patient Care Pathway](patient-care-pathway.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[healthcare/Digital Health](../../healthcare/Digital Health/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive framework for implementing and optimizing telemedicine programs including platform selection, clinical workflows, patient engagement, regulatory compliance, and outcome measurement for virtual healthcare delivery.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

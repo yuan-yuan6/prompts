@@ -1,17 +1,25 @@
 ---
-title: Security Architecture Template
 category: technology/Cybersecurity
-tags: [design, machine-learning, management, security, strategy, technology, template]
-use_cases:
-  - Creating design comprehensive security architecture including security design principles, defensive strategies, implementation patterns, and governance frameworks for enterprise security systems.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - cloud-architecture-framework.md
-  - site-reliability-engineering.md
-  - cloud-migration-strategy.md
 last_updated: 2025-11-09
+related_templates:
+- cloud-architecture-framework.md
+- site-reliability-engineering.md
+- cloud-migration-strategy.md
+tags:
+- design
+- machine-learning
+- management
+- security
+- strategy
+- technology
+- template
+title: Security Architecture Template
+use_cases:
+- Creating design comprehensive security architecture including security design principles,
+  defensive strategies, implementation patterns, and governance frameworks for enterprise
+  security systems.
+- Project planning and execution
+- Strategy development
 ---
 
 # Security Architecture Template
@@ -214,6 +222,37 @@ Zero Trust Implementation:
 | `[DATA_MASKING]` | Specify the data masking | "[specify value]" |
 | `[DATA_RETENTION]` | Specify the data retention | "[specify value]" |
 | `[SECURITY_DATA_GOVERNANCE]` | Specify the security data governance | "[specify value]" |
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Cloud Architecture Framework](cloud-architecture-framework.md)** - Complementary approaches and methodologies
+- **[Site Reliability Engineering](site-reliability-engineering.md)** - Complementary approaches and methodologies
+- **[Cloud Migration Strategy](cloud-migration-strategy.md)** - Strategic planning and execution frameworks
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Security Architecture Template)
+2. Use [Cloud Architecture Framework](cloud-architecture-framework.md) for deeper analysis
+3. Apply [Site Reliability Engineering](site-reliability-engineering.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[technology/Cybersecurity](../../technology/Cybersecurity/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating design comprehensive security architecture including security design principles, defensive strategies, implementation patterns, and governance frameworks for enterprise security systems.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Best Practices
 

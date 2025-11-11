@@ -1,17 +1,26 @@
 ---
-title: Game Design & Development Framework
 category: industry/entertainment-gaming/Game Development
-tags: [automation, design, development, framework, industry, machine-learning, management, optimization]
-use_cases:
-  - Creating comprehensive framework for game design, development pipeline management, player experience optimization, monetization strategies, and live operations for video game projects.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - game-design-framework.md
-  - game-development-pipeline.md
-  - content-production-framework.md
 last_updated: 2025-11-09
+related_templates:
+- game-design-framework.md
+- game-development-pipeline.md
+- content-production-framework.md
+tags:
+- automation
+- design
+- development
+- framework
+- industry
+- machine-learning
+- management
+- optimization
+title: Game Design & Development Framework
+use_cases:
+- Creating comprehensive framework for game design, development pipeline management,
+  player experience optimization, monetization strategies, and live operations for
+  video game projects.
+- Project planning and execution
+- Strategy development
 ---
 
 # Game Design & Development Framework
@@ -527,6 +536,37 @@ Target: 100K concurrent players
 Esports: Tournament support
 Community: Discord-focused
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Game Design Framework](game-design-framework.md)** - Complementary approaches and methodologies
+- **[Game Development Pipeline](game-development-pipeline.md)** - Complementary approaches and methodologies
+- **[Content Production Framework](content-production-framework.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Game Design & Development Framework)
+2. Use [Game Design Framework](game-design-framework.md) for deeper analysis
+3. Apply [Game Development Pipeline](game-development-pipeline.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[industry/entertainment-gaming/Game Development](../../industry/entertainment-gaming/Game Development/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive framework for game design, development pipeline management, player experience optimization, monetization strategies, and live operations for video game projects.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

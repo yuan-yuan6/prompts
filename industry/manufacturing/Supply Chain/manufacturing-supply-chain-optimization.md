@@ -1,15 +1,23 @@
 ---
-title: Supply Chain Optimization & Management Framework
 category: industry/manufacturing/Supply Chain
-tags: [design, development, framework, industry, management, optimization, strategy]
-use_cases:
-  - Creating comprehensive framework for optimizing manufacturing supply chains including supplier management, inventory optimization, logistics coordination, risk mitigation, and end-to-end visibility strategies.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - quality-management.md
 last_updated: 2025-11-09
+related_templates:
+- quality-management.md
+tags:
+- design
+- development
+- framework
+- industry
+- management
+- optimization
+- strategy
+title: Supply Chain Optimization & Management Framework
+use_cases:
+- Creating comprehensive framework for optimizing manufacturing supply chains including
+  supplier management, inventory optimization, logistics coordination, risk mitigation,
+  and end-to-end visibility strategies.
+- Project planning and execution
+- Strategy development
 ---
 
 # Supply Chain Optimization & Management Framework
@@ -572,6 +580,34 @@ Inventory: Freshness dating
 Sustainability: Zero waste initiative
 Technology: Blockchain tracking
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Quality Management](quality-management.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Supply Chain Optimization & Management Framework)
+2. Use [Quality Management](quality-management.md) for deeper analysis
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[industry/manufacturing/Supply Chain](../../industry/manufacturing/Supply Chain/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive framework for optimizing manufacturing supply chains including supplier management, inventory optimization, logistics coordination, risk mitigation, and end-to-end visibility strategies.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

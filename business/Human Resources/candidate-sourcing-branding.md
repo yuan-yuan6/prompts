@@ -1,16 +1,21 @@
 ---
-title: Candidate Sourcing & Employer Branding
 category: business/Human Resources
-tags: [talent-sourcing, employer-branding, recruiting, talent-pipeline, hr]
-use_cases:
-  - Build a 90-day sourcing strategy for hard-to-fill roles
-  - Create employer brand messaging that attracts passive candidates
-  - Design a talent pipeline for anticipated hiring needs
-related_templates:
-  - job-analysis-definition.md
-  - screening-interview-process.md
-  - recruitment-metrics-optimization.md
 last_updated: 2025-11-09
+related_templates:
+- job-analysis-definition.md
+- screening-interview-process.md
+- recruitment-metrics-optimization.md
+tags:
+- talent-sourcing
+- employer-branding
+- recruiting
+- talent-pipeline
+- hr
+title: Candidate Sourcing & Employer Branding
+use_cases:
+- Build a 90-day sourcing strategy for hard-to-fill roles
+- Create employer brand messaging that attracts passive candidates
+- Design a talent pipeline for anticipated hiring needs
 ---
 
 # Candidate Sourcing & Employer Branding
@@ -328,6 +333,37 @@ Ensure your sourcing and branding strategy is:
 
 ## Usage Example
 Use for developing sourcing strategies, building employer brand, launching recruitment campaigns, creating talent pipelines, or differentiating from competitors.
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Job Analysis Definition](job-analysis-definition.md)** - Complementary approaches and methodologies
+- **[Screening Interview Process](screening-interview-process.md)** - Complementary approaches and methodologies
+- **[Recruitment Metrics Optimization](recruitment-metrics-optimization.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Candidate Sourcing & Employer Branding)
+2. Use [Job Analysis Definition](job-analysis-definition.md) for deeper analysis
+3. Apply [Screening Interview Process](screening-interview-process.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[business/Human Resources](../../business/Human Resources/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Build a 90-day sourcing strategy for hard-to-fill roles**: Combine this template with related analytics and strategy frameworks
+- **Create employer brand messaging that attracts passive candidates**: Combine this template with related analytics and strategy frameworks
+- **Design a talent pipeline for anticipated hiring needs**: Combine this template with related analytics and strategy frameworks
 
 ## Best Practices
 - **Start with employee referrals, not job boards** - Referred candidates are 55% faster to hire and stay 70% longer

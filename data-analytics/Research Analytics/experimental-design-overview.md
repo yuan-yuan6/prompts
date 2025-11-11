@@ -1,16 +1,23 @@
 ---
-title: Experimental Design and Causal Inference Overview
 category: data-analytics/Research Analytics
-tags: [causal-inference, data-analytics, navigation, research, template]
-use_cases:
-  - Navigate the experimental design framework and select appropriate prompts for designing, implementing, and analyzing controlled experiments including RCTs, A/B tests, and causal inference studies
-related_templates:
-  - experimental-design-setup.md
-  - randomization-and-power-analysis.md
-  - treatment-effect-analysis.md
-  - validity-and-diagnostics.md
-  - variables-and-implementation.md
 last_updated: 2025-11-10
+related_templates:
+- experimental-design-setup.md
+- randomization-and-power-analysis.md
+- treatment-effect-analysis.md
+- validity-and-diagnostics.md
+- variables-and-implementation.md
+tags:
+- causal-inference
+- data-analytics
+- navigation
+- research
+- template
+title: Experimental Design and Causal Inference Overview
+use_cases:
+- Navigate the experimental design framework and select appropriate prompts for designing,
+  implementing, and analyzing controlled experiments including RCTs, A/B tests, and
+  causal inference studies
 ---
 
 # Experimental Design and Causal Inference Overview
@@ -394,6 +401,37 @@ START: What is your research context?
 - Covariate balance
 - Attrition analysis
 - Contamination detection
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Experimental Design Setup](experimental-design-setup.md)** - Complementary approaches and methodologies
+- **[Randomization And Power Analysis](randomization-and-power-analysis.md)** - Complementary approaches and methodologies
+- **[Treatment Effect Analysis](treatment-effect-analysis.md)** - Complementary approaches and methodologies
+- **[Validity And Diagnostics](validity-and-diagnostics.md)** - Complementary approaches and methodologies
+- **[Variables And Implementation](variables-and-implementation.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Experimental Design and Causal Inference Overview)
+2. Use [Experimental Design Setup](experimental-design-setup.md) for deeper analysis
+3. Apply [Randomization And Power Analysis](randomization-and-power-analysis.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[data-analytics/Research Analytics](../../data-analytics/Research Analytics/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Navigate the experimental design framework and select appropriate prompts for designing, implementing, and analyzing controlled experiments including RCTs, A/B tests, and causal inference studies**: Combine this template with related analytics and strategy frameworks
 
 ## Best Practices Summary
 

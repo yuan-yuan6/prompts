@@ -1,17 +1,26 @@
 ---
-title: Database Management Template
 category: technology/Data Engineering
-tags: [communication, data-science, design, management, optimization, research, security, strategy]
-use_cases:
-  - Creating comprehensive database management including schema design, query optimization, performance tuning, backup/recovery, security, maintenance, and monitoring for enterprise database systems.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - cloud-architecture-framework.md
-  - site-reliability-engineering.md
-  - cloud-migration-strategy.md
 last_updated: 2025-11-09
+related_templates:
+- cloud-architecture-framework.md
+- site-reliability-engineering.md
+- cloud-migration-strategy.md
+tags:
+- communication
+- data-science
+- design
+- management
+- optimization
+- research
+- security
+- strategy
+title: Database Management Template
+use_cases:
+- Creating comprehensive database management including schema design, query optimization,
+  performance tuning, backup/recovery, security, maintenance, and monitoring for enterprise
+  database systems.
+- Project planning and execution
+- Strategy development
 ---
 
 # Database Management Template
@@ -488,6 +497,37 @@ Scalability Planning:
 - Set up binary logging audit logging and automated compliance monitoring
 - Manage quarterly vulnerability management and PCI DSS security policies
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Cloud Architecture Framework](cloud-architecture-framework.md)** - Complementary approaches and methodologies
+- **[Site Reliability Engineering](site-reliability-engineering.md)** - Complementary approaches and methodologies
+- **[Cloud Migration Strategy](cloud-migration-strategy.md)** - Strategic planning and execution frameworks
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Database Management Template)
+2. Use [Cloud Architecture Framework](cloud-architecture-framework.md) for deeper analysis
+3. Apply [Site Reliability Engineering](site-reliability-engineering.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[technology/Data Engineering](../../technology/Data Engineering/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive database management including schema design, query optimization, performance tuning, backup/recovery, security, maintenance, and monitoring for enterprise database systems.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Best Practices
 

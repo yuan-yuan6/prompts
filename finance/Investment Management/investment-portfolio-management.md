@@ -1,19 +1,28 @@
 ---
-title: Investment Portfolio Management Framework
 category: finance/Investment Management
-tags: [data-science, finance, framework, management, optimization, research, security, strategy]
-use_cases:
-  - Build diversified investment portfolio for client based on risk tolerance
-  - Rebalance existing portfolio to align with target asset allocation
-  - Create investment policy statement for institutional or individual investor
-  - Implementing comprehensive framework for professional investment portfolio management including asset allocation and risk analysis
-  - Portfolio optimization and performance measurement
-  - Client management and regulatory compliance
-related_templates:
-  - investment-portfolio-management.md
-  - digital-banking-strategy.md
-  - risk-management-framework.md
 last_updated: 2025-11-09
+related_templates:
+- investment-portfolio-management.md
+- digital-banking-strategy.md
+- risk-management-framework.md
+tags:
+- data-science
+- finance
+- framework
+- management
+- optimization
+- research
+- security
+- strategy
+title: Investment Portfolio Management Framework
+use_cases:
+- Build diversified investment portfolio for client based on risk tolerance
+- Rebalance existing portfolio to align with target asset allocation
+- Create investment policy statement for institutional or individual investor
+- Implementing comprehensive framework for professional investment portfolio management
+  including asset allocation and risk analysis
+- Portfolio optimization and performance measurement
+- Client management and regulatory compliance
 ---
 
 # Investment Portfolio Management Framework
@@ -452,6 +461,37 @@ FOCUS AREAS:
 - Philanthropic planning integration
 - Next-generation wealth transfer planning
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Investment Portfolio Management](investment-portfolio-management.md)** - Complementary approaches and methodologies
+- **[Digital Banking Strategy](digital-banking-strategy.md)** - Strategic planning and execution frameworks
+- **[Risk Management Framework](risk-management-framework.md)** - Identify, assess, and mitigate potential risks
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Investment Portfolio Management Framework)
+2. Use [Investment Portfolio Management](investment-portfolio-management.md) for deeper analysis
+3. Apply [Digital Banking Strategy](digital-banking-strategy.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[finance/Investment Management](../../finance/Investment Management/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Build diversified investment portfolio for client based on risk tolerance**: Combine this template with related analytics and strategy frameworks
+- **Rebalance existing portfolio to align with target asset allocation**: Combine this template with related analytics and strategy frameworks
+- **Create investment policy statement for institutional or individual investor**: Combine this template with related analytics and strategy frameworks
 
 ## Best Practices
 

@@ -1,15 +1,25 @@
 ---
-title: Training Materials Development Framework Generator
 category: education/Knowledge Management
-tags: [data-science, design, development, documentation, education, framework, machine-learning, optimization]
-use_cases:
-  - Creating comprehensive frameworks for developing training manuals, tutorials, workshops, e-learning courses, and educational resources for corporate training, professional development, and skill building programs.
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - curriculum-development.md
-  - curriculum-development-framework.md
 last_updated: 2025-11-09
+related_templates:
+- curriculum-development.md
+- curriculum-development-framework.md
+tags:
+- data-science
+- design
+- development
+- documentation
+- education
+- framework
+- machine-learning
+- optimization
+title: Training Materials Development Framework Generator
+use_cases:
+- Creating comprehensive frameworks for developing training manuals, tutorials, workshops,
+  e-learning courses, and educational resources for corporate training, professional
+  development, and skill building programs.
+- Project planning and execution
+- Strategy development
 ---
 
 # Training Materials Development Framework Generator
@@ -1059,3 +1069,31 @@ Use for creating corporate training programs, professional development courses, 
 - Include advanced analytics and learning intelligence
 - Add social learning and collaboration features
 - Consider microlearning and just-in-time training approaches
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Curriculum Development](curriculum-development.md)** - Complementary approaches and methodologies
+- **[Curriculum Development Framework](curriculum-development-framework.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Training Materials Development Framework Generator)
+2. Use [Curriculum Development](curriculum-development.md) for deeper analysis
+3. Apply [Curriculum Development Framework](curriculum-development-framework.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[education/Knowledge Management](../../education/Knowledge Management/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive frameworks for developing training manuals, tutorials, workshops, e-learning courses, and educational resources for corporate training, professional development, and skill building programs.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks

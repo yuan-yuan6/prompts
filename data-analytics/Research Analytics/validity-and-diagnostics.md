@@ -1,14 +1,21 @@
 ---
-title: Experimental Validity and Diagnostics
 category: data-analytics/Research Analytics
-tags: [data-analytics, quality-assurance, research, validation, template]
-use_cases:
-  - Assess experimental validity through randomization checks, covariate balance, attrition analysis, compliance evaluation, contamination detection, and statistical assumption verification to ensure reliable causal inference
-related_templates:
-  - experimental-design-setup.md
-  - randomization-and-power-analysis.md
-  - treatment-effect-analysis.md
 last_updated: 2025-11-10
+related_templates:
+- experimental-design-setup.md
+- randomization-and-power-analysis.md
+- treatment-effect-analysis.md
+tags:
+- data-analytics
+- quality-assurance
+- research
+- validation
+- template
+title: Experimental Validity and Diagnostics
+use_cases:
+- Assess experimental validity through randomization checks, covariate balance, attrition
+  analysis, compliance evaluation, contamination detection, and statistical assumption
+  verification to ensure reliable causal inference
 ---
 
 # Experimental Validity and Diagnostics
@@ -641,6 +648,35 @@ print(f"  Equal variances: {assumptions['homogeneity_of_variance']['equal_varian
 print("\nIndependence:")
 print(f"  Potential dependence: {assumptions['independence']['potential_dependence']}")
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Experimental Design Setup](experimental-design-setup.md)** - Complementary approaches and methodologies
+- **[Randomization And Power Analysis](randomization-and-power-analysis.md)** - Complementary approaches and methodologies
+- **[Treatment Effect Analysis](treatment-effect-analysis.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Experimental Validity and Diagnostics)
+2. Use [Experimental Design Setup](experimental-design-setup.md) for deeper analysis
+3. Apply [Randomization And Power Analysis](randomization-and-power-analysis.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[data-analytics/Research Analytics](../../data-analytics/Research Analytics/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Assess experimental validity through randomization checks, covariate balance, attrition analysis, compliance evaluation, contamination detection, and statistical assumption verification to ensure reliable causal inference**: Combine this template with related analytics and strategy frameworks
 
 ## Best Practices
 

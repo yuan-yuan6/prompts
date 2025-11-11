@@ -1,15 +1,22 @@
 ---
-title: 3D Design Template
 category: creative/Design & Visual
-tags: [creative, design, development, machine-learning, optimization, template]
-use_cases:
-  - Creating comprehensive 3D design projects including models, renders, and environments for visualization, animation, gaming, and product development applications.
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - creative-writing-framework.md
-  - video-production-pipeline.md
 last_updated: 2025-11-09
+related_templates:
+- creative-writing-framework.md
+- video-production-pipeline.md
+tags:
+- creative
+- design
+- development
+- machine-learning
+- optimization
+- template
+title: 3D Design Template
+use_cases:
+- Creating comprehensive 3D design projects including models, renders, and environments
+  for visualization, animation, gaming, and product development applications.
+- Project planning and execution
+- Strategy development
 ---
 
 # 3D Design Template
@@ -502,6 +509,36 @@ DESIGN_OBJECTIVE: "Create immersive game environment"
 VISUAL_STYLE: "Stylized fantasy"
 SOFTWARE_PLATFORM: "Maya with real-time rendering"
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Creative Writing Framework](creative-writing-framework.md)** - Complementary approaches and methodologies
+- **[Video Production Pipeline](video-production-pipeline.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (3D Design Template)
+2. Use [Creative Writing Framework](creative-writing-framework.md) for deeper analysis
+3. Apply [Video Production Pipeline](video-production-pipeline.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[creative/Design & Visual](../../creative/Design & Visual/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive 3D design projects including models, renders, and environments for visualization, animation, gaming, and product development applications.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

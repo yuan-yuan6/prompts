@@ -1,15 +1,25 @@
 ---
-title: Information Architecture & Taxonomy Design Framework Generator
 category: education/Knowledge Management
-tags: [design, development, education, framework, machine-learning, management, security, strategy]
-use_cases:
-  - Creating comprehensive frameworks for designing information architectures, taxonomies, ontologies, metadata schemas, and knowledge organization systems for digital platforms, content management, and information systems.
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - curriculum-development.md
-  - curriculum-development-framework.md
 last_updated: 2025-11-09
+related_templates:
+- curriculum-development.md
+- curriculum-development-framework.md
+tags:
+- design
+- development
+- education
+- framework
+- machine-learning
+- management
+- security
+- strategy
+title: Information Architecture & Taxonomy Design Framework Generator
+use_cases:
+- Creating comprehensive frameworks for designing information architectures, taxonomies,
+  ontologies, metadata schemas, and knowledge organization systems for digital platforms,
+  content management, and information systems.
+- Project planning and execution
+- Strategy development
 ---
 
 # Information Architecture & Taxonomy Design Framework Generator
@@ -1095,3 +1105,31 @@ Use for designing information architectures for websites, intranets, digital lib
 - Include advanced analytics and user behavior tracking
 - Add social and collaborative features for taxonomy evolution
 - Consider semantic web and linked data integration
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Curriculum Development](curriculum-development.md)** - Complementary approaches and methodologies
+- **[Curriculum Development Framework](curriculum-development-framework.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Information Architecture & Taxonomy Design Framework Generator)
+2. Use [Curriculum Development](curriculum-development.md) for deeper analysis
+3. Apply [Curriculum Development Framework](curriculum-development-framework.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[education/Knowledge Management](../../education/Knowledge Management/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive frameworks for designing information architectures, taxonomies, ontologies, metadata schemas, and knowledge organization systems for digital platforms, content management, and information systems.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks

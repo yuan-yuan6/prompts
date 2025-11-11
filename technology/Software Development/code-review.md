@@ -1,19 +1,25 @@
 ---
-title: Comprehensive Code Review
 category: technology/software-development
-tags: [code-review, software-engineering, quality-assurance, best-practices, security, performance]
-use_cases:
-  - Pull request reviews
-  - Code quality assessment
-  - Security audits
-  - Performance optimization
-  - Technical debt analysis
-  - Onboarding code reviews
-related_templates:
-  - api-design.md
-  - architecture-design.md
-  - testing-strategy.md
 last_updated: 2025-01-09
+related_templates:
+- api-design.md
+- architecture-design.md
+- testing-strategy.md
+tags:
+- code-review
+- software-engineering
+- quality-assurance
+- best-practices
+- security
+- performance
+title: Comprehensive Code Review
+use_cases:
+- Pull request reviews
+- Code quality assessment
+- Security audits
+- Performance optimization
+- Technical debt analysis
+- Onboarding code reviews
 ---
 
 # Code Review Template
@@ -578,6 +584,37 @@ Frontend Review:
 - Assess CSS modules organization and image optimization asset optimization
 - Check meta tags SEO considerations and polyfills progressive enhancement
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Api Design](api-design.md)** - Complementary approaches and methodologies
+- **[Architecture Design](architecture-design.md)** - Complementary approaches and methodologies
+- **[Testing Strategy](testing-strategy.md)** - Strategic planning and execution frameworks
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Comprehensive Code Review)
+2. Use [Api Design](api-design.md) for deeper analysis
+3. Apply [Architecture Design](architecture-design.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[technology/software-development](../../technology/software-development/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Pull request reviews**: Combine this template with related analytics and strategy frameworks
+- **Code quality assessment**: Combine this template with related analytics and strategy frameworks
+- **Security audits**: Combine this template with related analytics and strategy frameworks
 
 ## Best Practices
 

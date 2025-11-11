@@ -1,17 +1,22 @@
 ---
-title: Literature Review Reporting & Dissemination
 category: education/Academic Research
-tags: [communication, education, research, strategy, documentation]
-use_cases:
-  - Preparing manuscripts for publication following reporting guidelines
-  - Developing knowledge translation and dissemination strategies
-  - Creating stakeholder-specific communication products
-  - Planning implementation and real-world application
-related_templates:
-  - literature-review-analysis-implications.md
-  - literature-review-protocol-search.md
-  - literature-reviews-overview.md
 last_updated: 2025-11-10
+related_templates:
+- literature-review-analysis-implications.md
+- literature-review-protocol-search.md
+- literature-reviews-overview.md
+tags:
+- communication
+- education
+- research
+- strategy
+- documentation
+title: Literature Review Reporting & Dissemination
+use_cases:
+- Preparing manuscripts for publication following reporting guidelines
+- Developing knowledge translation and dissemination strategies
+- Creating stakeholder-specific communication products
+- Planning implementation and real-world application
 ---
 
 # Literature Review Reporting & Dissemination
@@ -629,6 +634,37 @@ Channels: School newsletters, community centers, social media, local media
 Partners: Parent-teacher associations, community health centers
 Evaluation: Website traffic, workshop attendance, community survey
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Literature Review Analysis Implications](literature-review-analysis-implications.md)** - Complementary approaches and methodologies
+- **[Literature Review Protocol Search](literature-review-protocol-search.md)** - Complementary approaches and methodologies
+- **[Literature Reviews Overview](literature-reviews-overview.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Literature Review Reporting & Dissemination)
+2. Use [Literature Review Analysis Implications](literature-review-analysis-implications.md) for deeper analysis
+3. Apply [Literature Review Protocol Search](literature-review-protocol-search.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[education/Academic Research](../../education/Academic Research/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Preparing manuscripts for publication following reporting guidelines**: Combine this template with related analytics and strategy frameworks
+- **Developing knowledge translation and dissemination strategies**: Combine this template with related analytics and strategy frameworks
+- **Creating stakeholder-specific communication products**: Combine this template with related analytics and strategy frameworks
 
 ## Best Practices
 

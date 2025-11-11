@@ -1,15 +1,24 @@
 ---
-title: Investigative Reporting Framework
 category: creative/journalism/News Production
-tags: [communication, creative, data-science, development, documentation, framework, management, research]
-use_cases:
-  - Creating comprehensive framework for conducting investigative journalism including source development, document analysis, fact verification, legal considerations, data journalism techniques, and publication strategies.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - content-strategy.md
 last_updated: 2025-11-09
+related_templates:
+- content-strategy.md
+tags:
+- communication
+- creative
+- data-science
+- development
+- documentation
+- framework
+- management
+- research
+title: Investigative Reporting Framework
+use_cases:
+- Creating comprehensive framework for conducting investigative journalism including
+  source development, document analysis, fact verification, legal considerations,
+  data journalism techniques, and publication strategies.
+- Project planning and execution
+- Strategy development
 ---
 
 # Investigative Reporting Framework
@@ -593,6 +602,34 @@ Community Impact: 10,000 residents affected
 Outcome: Cleanup ordered, criminal charges
 Follow-up: Ongoing monitoring series
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Content Strategy](content-strategy.md)** - Strategic planning and execution frameworks
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Investigative Reporting Framework)
+2. Use [Content Strategy](content-strategy.md) for deeper analysis
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[creative/journalism/News Production](../../creative/journalism/News Production/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive framework for conducting investigative journalism including source development, document analysis, fact verification, legal considerations, data journalism techniques, and publication strategies.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

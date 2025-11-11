@@ -1,19 +1,24 @@
 ---
-title: Literature Reviews - Complete Guide & Navigation
 category: education/Academic Research
-tags: [communication, education, research, strategy, overview]
-use_cases:
-  - Navigating the complete literature review process from protocol to dissemination
-  - Selecting appropriate literature review modules for specific needs
-  - Understanding different review types and their applications
-  - Planning comprehensive systematic reviews and evidence syntheses
-related_templates:
-  - literature-review-protocol-search.md
-  - literature-review-selection-quality.md
-  - literature-review-extraction-synthesis.md
-  - literature-review-analysis-implications.md
-  - literature-review-reporting-dissemination.md
 last_updated: 2025-11-10
+related_templates:
+- literature-review-protocol-search.md
+- literature-review-selection-quality.md
+- literature-review-extraction-synthesis.md
+- literature-review-analysis-implications.md
+- literature-review-reporting-dissemination.md
+tags:
+- communication
+- education
+- research
+- strategy
+- overview
+title: Literature Reviews - Complete Guide & Navigation
+use_cases:
+- Navigating the complete literature review process from protocol to dissemination
+- Selecting appropriate literature review modules for specific needs
+- Understanding different review types and their applications
+- Planning comprehensive systematic reviews and evidence syntheses
 ---
 
 # Literature Reviews - Complete Guide & Navigation
@@ -516,3 +521,35 @@ For complex reviews, consider consulting:
 **Citation**: When citing this resource, please reference all relevant modules used in your review.
 
 **Contact**: For questions or suggestions about these templates, please reach out through your institutional research support services or systematic review methodology experts.
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Literature Review Protocol Search](literature-review-protocol-search.md)** - Complementary approaches and methodologies
+- **[Literature Review Selection Quality](literature-review-selection-quality.md)** - Complementary approaches and methodologies
+- **[Literature Review Extraction Synthesis](literature-review-extraction-synthesis.md)** - Complementary approaches and methodologies
+- **[Literature Review Analysis Implications](literature-review-analysis-implications.md)** - Complementary approaches and methodologies
+- **[Literature Review Reporting Dissemination](literature-review-reporting-dissemination.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Literature Reviews - Complete Guide & Navigation)
+2. Use [Literature Review Protocol Search](literature-review-protocol-search.md) for deeper analysis
+3. Apply [Literature Review Selection Quality](literature-review-selection-quality.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[education/Academic Research](../../education/Academic Research/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Navigating the complete literature review process from protocol to dissemination**: Combine this template with related analytics and strategy frameworks
+- **Selecting appropriate literature review modules for specific needs**: Combine this template with related analytics and strategy frameworks
+- **Understanding different review types and their applications**: Combine this template with related analytics and strategy frameworks

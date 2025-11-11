@@ -1,15 +1,21 @@
 ---
-title: Student Engagement Strategy Designer
 category: education/Teaching & Instruction
-tags: [engagement, motivation, active-learning, community-building, pedagogy]
-use_cases:
-  - Design engagement activities for low-participation course (15-20 activities for semester)
-  - Create active learning strategies to replace passive lectures
-  - Build discussion prompts and collaborative exercises that increase student interaction
-related_templates:
-  - course-content-curriculum.md
-  - course-foundations-objectives.md
 last_updated: 2025-11-09
+related_templates:
+- course-content-curriculum.md
+- course-foundations-objectives.md
+tags:
+- engagement
+- motivation
+- active-learning
+- community-building
+- pedagogy
+title: Student Engagement Strategy Designer
+use_cases:
+- Design engagement activities for low-participation course (15-20 activities for
+  semester)
+- Create active learning strategies to replace passive lectures
+- Build discussion prompts and collaborative exercises that increase student interaction
 ---
 
 # Student Engagement Strategy Designer
@@ -355,6 +361,36 @@ If engagement is low:
 
 ### Example 3: Graduate Elective
 "Develop engagement strategies for 'Advanced Educational Leadership' - graduate students who are working professionals, meets once weekly in evening for 3 hours. Students are motivated but tired, juggling many responsibilities. Want deep discussion, peer learning from their varied experiences, practical application. Challenge: sustaining energy over 3-hour session."
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Course Content Curriculum](course-content-curriculum.md)** - Complementary approaches and methodologies
+- **[Course Foundations Objectives](course-foundations-objectives.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Student Engagement Strategy Designer)
+2. Use [Course Content Curriculum](course-content-curriculum.md) for deeper analysis
+3. Apply [Course Foundations Objectives](course-foundations-objectives.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[education/Teaching & Instruction](../../education/Teaching & Instruction/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Design engagement activities for low-participation course (15-20 activities for semester)**: Combine this template with related analytics and strategy frameworks
+- **Create active learning strategies to replace passive lectures**: Combine this template with related analytics and strategy frameworks
+- **Build discussion prompts and collaborative exercises that increase student interaction**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

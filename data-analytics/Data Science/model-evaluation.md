@@ -1,17 +1,26 @@
 ---
-title: Model Evaluation & Validation Framework Template
 category: data-analytics/Data Science
-tags: [data-analytics, data-science, design, framework, machine-learning, optimization, research, security]
-use_cases:
-  - Creating design and implement comprehensive model evaluation and validation frameworks to assess model performance, reliability, fairness, and business impact across diverse machine learning applications.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - dashboard-design-patterns.md
-  - data-governance-framework.md
-  - predictive-modeling-framework.md
 last_updated: 2025-11-09
+related_templates:
+- dashboard-design-patterns.md
+- data-governance-framework.md
+- predictive-modeling-framework.md
+tags:
+- data-analytics
+- data-science
+- design
+- framework
+- machine-learning
+- optimization
+- research
+- security
+title: Model Evaluation & Validation Framework Template
+use_cases:
+- Creating design and implement comprehensive model evaluation and validation frameworks
+  to assess model performance, reliability, fairness, and business impact across diverse
+  machine learning applications.
+- Project planning and execution
+- Strategy development
 ---
 
 # Model Evaluation & Validation Framework Template
@@ -877,6 +886,37 @@ FAIRNESS_ANALYSIS: "No systematic bias against long-tail products"
 USER_SATISFACTION: "Recommendation relevance score improved from 3.2 to 4.1/5"
 COLD_START_PERFORMANCE: "New user NDCG@10: 0.612 vs 0.734 for established users"
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Dashboard Design Patterns](dashboard-design-patterns.md)** - Complementary approaches and methodologies
+- **[Data Governance Framework](data-governance-framework.md)** - Leverage data analysis to drive informed decisions
+- **[Predictive Modeling Framework](predictive-modeling-framework.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Model Evaluation & Validation Framework Template)
+2. Use [Dashboard Design Patterns](dashboard-design-patterns.md) for deeper analysis
+3. Apply [Data Governance Framework](data-governance-framework.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[data-analytics/Data Science](../../data-analytics/Data Science/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating design and implement comprehensive model evaluation and validation frameworks to assess model performance, reliability, fairness, and business impact across diverse machine learning applications.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

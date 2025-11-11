@@ -1,16 +1,22 @@
 ---
-title: Special Education Services & IEP Management Framework
 category: education/K-12 Education
-tags: [development, education, framework, management, security]
-use_cases:
-  - Creating comprehensive framework for managing special education services, iep development and implementation, accommodations, modifications, progress monitoring, and compliance with idea regulations.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - curriculum-development.md
-  - curriculum-development-framework.md
 last_updated: 2025-11-09
+related_templates:
+- curriculum-development.md
+- curriculum-development-framework.md
+tags:
+- development
+- education
+- framework
+- management
+- security
+title: Special Education Services & IEP Management Framework
+use_cases:
+- Creating comprehensive framework for managing special education services, iep development
+  and implementation, accommodations, modifications, progress monitoring, and compliance
+  with idea regulations.
+- Project planning and execution
+- Strategy development
 ---
 
 # Special Education Services & IEP Management Framework
@@ -513,6 +519,36 @@ Services: Job coaching, life skills
 Partnerships: Vocational rehabilitation, colleges
 Outcomes: 75% employment/education placement
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Curriculum Development](curriculum-development.md)** - Complementary approaches and methodologies
+- **[Curriculum Development Framework](curriculum-development-framework.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Special Education Services & IEP Management Framework)
+2. Use [Curriculum Development](curriculum-development.md) for deeper analysis
+3. Apply [Curriculum Development Framework](curriculum-development-framework.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[education/K-12 Education](../../education/K-12 Education/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive framework for managing special education services, iep development and implementation, accommodations, modifications, progress monitoring, and compliance with idea regulations.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

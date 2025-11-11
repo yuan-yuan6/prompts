@@ -1,17 +1,24 @@
 ---
-title: Fleet Optimization & Management System
 category: industry/transportation-logistics/Fleet Management
-tags: [data-science, industry, management, optimization, research, strategy]
-use_cases:
-  - Creating comprehensive framework for fleet operations management, vehicle optimization, route planning, maintenance scheduling, and total cost of ownership analysis for commercial and logistics fleets.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - route-optimization-framework.md
-  - warehouse-management-system.md
-  - fleet-management-system.md
 last_updated: 2025-11-09
+related_templates:
+- route-optimization-framework.md
+- warehouse-management-system.md
+- fleet-management-system.md
+tags:
+- data-science
+- industry
+- management
+- optimization
+- research
+- strategy
+title: Fleet Optimization & Management System
+use_cases:
+- Creating comprehensive framework for fleet operations management, vehicle optimization,
+  route planning, maintenance scheduling, and total cost of ownership analysis for
+  commercial and logistics fleets.
+- Project planning and execution
+- Strategy development
 ---
 
 # Fleet Optimization & Management System
@@ -516,6 +523,37 @@ Technicians: 1,200
 Focus: Route optimization, mobile workforce
 Integration: CRM and dispatch systems
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Route Optimization Framework](route-optimization-framework.md)** - Complementary approaches and methodologies
+- **[Warehouse Management System](warehouse-management-system.md)** - Complementary approaches and methodologies
+- **[Fleet Management System](fleet-management-system.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Fleet Optimization & Management System)
+2. Use [Route Optimization Framework](route-optimization-framework.md) for deeper analysis
+3. Apply [Warehouse Management System](warehouse-management-system.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[industry/transportation-logistics/Fleet Management](../../industry/transportation-logistics/Fleet Management/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive framework for fleet operations management, vehicle optimization, route planning, maintenance scheduling, and total cost of ownership analysis for commercial and logistics fleets.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

@@ -1,16 +1,21 @@
 ---
-title: Literature Review Selection & Quality Assessment
 category: education/Academic Research
-tags: [communication, education, research, testing, quality]
-use_cases:
-  - Conducting systematic study selection and screening processes for literature reviews
-  - Performing comprehensive quality assessment and risk of bias evaluation
-  - Documenting PRISMA-compliant selection procedures and quality ratings
-related_templates:
-  - literature-review-protocol-search.md
-  - literature-review-extraction-synthesis.md
-  - literature-reviews-overview.md
 last_updated: 2025-11-10
+related_templates:
+- literature-review-protocol-search.md
+- literature-review-extraction-synthesis.md
+- literature-reviews-overview.md
+tags:
+- communication
+- education
+- research
+- testing
+- quality
+title: Literature Review Selection & Quality Assessment
+use_cases:
+- Conducting systematic study selection and screening processes for literature reviews
+- Performing comprehensive quality assessment and risk of bias evaluation
+- Documenting PRISMA-compliant selection procedures and quality ratings
 ---
 
 # Literature Review Selection & Quality Assessment
@@ -570,6 +575,37 @@ Quality Tools: Newcastle-Ottawa Scale, GRADE assessment
 Reviewers: 3 independent reviewers for high-volume screening
 Software: EndNote for deduplication, Excel for tracking
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Literature Review Protocol Search](literature-review-protocol-search.md)** - Complementary approaches and methodologies
+- **[Literature Review Extraction Synthesis](literature-review-extraction-synthesis.md)** - Complementary approaches and methodologies
+- **[Literature Reviews Overview](literature-reviews-overview.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Literature Review Selection & Quality Assessment)
+2. Use [Literature Review Protocol Search](literature-review-protocol-search.md) for deeper analysis
+3. Apply [Literature Review Extraction Synthesis](literature-review-extraction-synthesis.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[education/Academic Research](../../education/Academic Research/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Conducting systematic study selection and screening processes for literature reviews**: Combine this template with related analytics and strategy frameworks
+- **Performing comprehensive quality assessment and risk of bias evaluation**: Combine this template with related analytics and strategy frameworks
+- **Documenting PRISMA-compliant selection procedures and quality ratings**: Combine this template with related analytics and strategy frameworks
 
 ## Best Practices
 

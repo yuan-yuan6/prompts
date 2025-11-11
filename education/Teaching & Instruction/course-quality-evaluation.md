@@ -1,15 +1,20 @@
 ---
-title: Course Quality Assurance & Evaluation
 category: education/Teaching & Instruction
-tags: [quality-assurance, evaluation, continuous-improvement, assessment, feedback]
-use_cases:
-  - Establishing quality standards and evaluation processes for courses
-  - Collecting and analyzing student feedback for course improvement
-  - Implementing continuous improvement cycles based on data
-related_templates:
-  - course-assessment-strategy.md
-  - course-implementation-plan.md
 last_updated: 2025-11-09
+related_templates:
+- course-assessment-strategy.md
+- course-implementation-plan.md
+tags:
+- quality-assurance
+- evaluation
+- continuous-improvement
+- assessment
+- feedback
+title: Course Quality Assurance & Evaluation
+use_cases:
+- Establishing quality standards and evaluation processes for courses
+- Collecting and analyzing student feedback for course improvement
+- Implementing continuous improvement cycles based on data
 ---
 
 # Course Quality Assurance & Evaluation
@@ -462,6 +467,36 @@ Throughout course:
 
 ### Example 3: Ongoing Course Improvement
 "Develop continuous improvement process for 'Business Communication' - course has been taught for years but evaluations show declining satisfaction. Students report unclear expectations and heavy workload. Want systematic approach to identify problems, implement changes, and measure impact. Need to balance quality improvement with instructor workload constraints."
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Course Assessment Strategy](course-assessment-strategy.md)** - Strategic planning and execution frameworks
+- **[Course Implementation Plan](course-implementation-plan.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Course Quality Assurance & Evaluation)
+2. Use [Course Assessment Strategy](course-assessment-strategy.md) for deeper analysis
+3. Apply [Course Implementation Plan](course-implementation-plan.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[education/Teaching & Instruction](../../education/Teaching & Instruction/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Establishing quality standards and evaluation processes for courses**: Combine this template with related analytics and strategy frameworks
+- **Collecting and analyzing student feedback for course improvement**: Combine this template with related analytics and strategy frameworks
+- **Implementing continuous improvement cycles based on data**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

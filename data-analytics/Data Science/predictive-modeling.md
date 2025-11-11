@@ -1,19 +1,26 @@
 ---
-title: Predictive Modeling & Machine Learning
 category: data-analytics/data-science
-tags: [machine-learning, predictive-modeling, data-science, ml-ops, python, classification, regression]
-use_cases:
-  - Customer churn prediction
-  - Sales forecasting
-  - Fraud detection
-  - Demand forecasting
-  - Customer lifetime value prediction
-  - Risk assessment
-related_templates:
-  - feature-engineering.md
-  - model-evaluation.md
-  - exploratory-analysis.md
 last_updated: 2025-01-09
+related_templates:
+- feature-engineering.md
+- model-evaluation.md
+- exploratory-analysis.md
+tags:
+- machine-learning
+- predictive-modeling
+- data-science
+- ml-ops
+- python
+- classification
+- regression
+title: Predictive Modeling & Machine Learning
+use_cases:
+- Customer churn prediction
+- Sales forecasting
+- Fraud detection
+- Demand forecasting
+- Customer lifetime value prediction
+- Risk assessment
 ---
 
 # Predictive Modeling & Machine Learning Template
@@ -917,6 +924,151 @@ RMSE: "$47.30"
 MAPE: "12.8%"
 BUSINESS_IMPACT: "Improved marketing ROI by 34% through better customer targeting"
 ```
+
+
+
+## Usage Examples
+
+### Example 1: E-commerce Customer Churn Prediction
+
+**Business Problem**: Online subscription box company losing 8% of customers monthly
+
+**Data Available**:
+- 24 months of customer data (150,000 customers)
+- Features: Demographics (age, location, income), engagement (email opens, site visits, product ratings), purchase history (frequency, recency, monetary value), support interactions
+
+**Modeling Approach**:
+1. **Feature Engineering**:
+   - RFM score (Recency, Frequency, Monetary)
+   - Engagement velocity (trend in activity)
+   - Product diversity index
+   - Customer lifecycle stage
+   - Support ticket sentiment scores
+
+2. **Model Selection**:
+   - Tested: Logistic Regression, Random Forest, XGBoost, Neural Network
+   - Winner: XGBoost with AUC-ROC 0.87
+   - Key features: Days since last purchase (0.32 importance), Email engagement trend (0.21), Support tickets (0.18)
+
+3. **Implementation**:
+   - Score all customers weekly
+   - High risk (>70% churn probability): Personalized retention offer within 24 hours
+   - Medium risk (40-70%): Add to win-back email campaign
+   - Low risk (<40%): Standard communication
+
+**Results**:
+- Churn reduced from 8% to 5.2% monthly (-35%)
+- Retention campaign ROI: 4.2x (saved $180 per retained customer, spent $43 per outreach)
+- Lifetime value of retained customers: $2,400 average
+- Annual revenue impact: +$18M
+
+### Example 2: Predictive Maintenance for Manufacturing
+
+**Business Problem**: Unplanned equipment downtime costing $2M/month in lost production
+
+**Data Available**:
+- IoT sensor data from 200 machines (vibration, temperature, pressure, humidity)
+- Maintenance logs (scheduled and unscheduled repairs)
+- Production data (throughput, quality metrics)
+- 3 years historical data, 50M sensor readings
+
+**Modeling Approach**:
+1. **Feature Engineering**:
+   - Rolling statistics (mean, std, max, min over 1hr, 6hr, 24hr windows)
+   - Vibration frequency domain features (FFT)
+   - Temperature rate of change
+   - Time since last maintenance
+   - Production intensity (hours at >90% capacity)
+
+2. **Model Selection**:
+   - LSTM neural network for time-series patterns
+   - Prediction window: 72 hours before failure
+   - Precision: 0.78, Recall: 0.82, F1: 0.80
+   - False positive rate: 12% (acceptable for maintenance scheduling)
+
+3. **Implementation**:
+   - Real-time scoring every 15 minutes
+   - Alert thresholds:
+     - Critical (>80% failure probability): Immediate maintenance within 4 hours
+     - Warning (50-80%): Schedule maintenance within 48 hours
+     - Monitor (30-50%): Increase monitoring frequency
+
+**Results**:
+- Unplanned downtime reduced 68% (from 120 hours/month to 38 hours/month)
+- Maintenance costs reduced 22% through better scheduling
+- Equipment lifespan extended 15% average
+- Annual savings: $16M
+- Payback period: 8 months
+
+### Example 3: Healthcare Patient Readmission Prediction
+
+**Business Problem**: Hospital network with 18% 30-day readmission rate, facing Medicare penalties
+
+**Data Available**:
+- 5 years of EHR data (250,000 admissions)
+- Patient demographics, diagnoses (ICD-10), procedures, medications
+- Lab results, vital signs
+- Social determinants of health (housing, transportation access)
+- Prior utilization history
+
+**Modeling Approach**:
+1. **Feature Engineering**:
+   - Comorbidity indices (Charlson, Elixhauser)
+   - Medication complexity score
+   - Prior emergency department visits (6 months)
+   - Length of stay vs. expected (DRG-based)
+   - Discharge destination stability score
+   - Social risk factors (transportation, housing insecurity)
+
+2. **Model Selection**:
+   - Gradient Boosting (LightGBM) with AUC-ROC 0.79
+   - Top predictors: Prior ED visits (0.24), Charlson score (0.19), Medication count (0.15), Housing instability (0.12)
+   - Calibrated probabilities for clinical interpretation
+
+3. **Implementation**:
+   - Score all patients at discharge
+   - High risk (>40%): Care transition team intervention, home health visit within 48 hours, 7-day follow-up call
+   - Medium risk (20-40%): Scheduled follow-up within 14 days, medication reconciliation call
+   - Low risk (<20%): Standard discharge process
+
+**Results**:
+- 30-day readmission rate reduced from 18.2% to 13.1% (-28%)
+- Avoided $12M in Medicare readmission penalties
+- Improved patient outcomes: 22% fewer complications
+- Care team efficiency: Focused resources on highest-risk patients
+- Annual net benefit: $8.5M (after program costs)
+
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Feature Engineering](feature-engineering.md)** - Complementary approaches and methodologies
+- **[Model Evaluation](model-evaluation.md)** - Complementary approaches and methodologies
+- **[Exploratory Analysis](exploratory-analysis.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Predictive Modeling & Machine Learning)
+2. Use [Feature Engineering](feature-engineering.md) for deeper analysis
+3. Apply [Model Evaluation](model-evaluation.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[data-analytics/data-science](../../data-analytics/data-science/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Customer churn prediction**: Combine this template with related analytics and strategy frameworks
+- **Sales forecasting**: Combine this template with related analytics and strategy frameworks
+- **Fraud detection**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 
