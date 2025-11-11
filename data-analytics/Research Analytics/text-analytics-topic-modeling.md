@@ -525,7 +525,7 @@ HDBSCAN_MIN_CLUSTER_SIZE: 20
 
 ### Example 3: News Article Clustering
 ```
-TEXT_DATA_SOURCE: "News articles (6 months)"
+TEXT_DATA_SOURCE: "News articles"
 TOPIC_MODEL_TYPE: "lda"
 NUM_TOPICS: 20
 TEMPORAL_ANALYSIS: True

@@ -28,7 +28,7 @@ STUDY DESIGN:
 - Units: 20 schools (clusters), ~60 students per school
 - Total participants: 1,200 students
 - Randomization: 10 schools to new method, 10 to standard
-- Duration: Full academic year (9 months)
+- Duration: Full academic year
 - Primary outcome: End-of-year math test scores
 
 DATA AVAILABLE:

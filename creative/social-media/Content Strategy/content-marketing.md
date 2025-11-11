@@ -388,8 +388,6 @@ Twitter/X:
 | `[PRODUCT_PROFIT]` | Specify the product profit | "[specify value]" |
 | `[PRODUCT_ROI]` | Specify the product roi | "[specify value]" |
 
-
-
 ### 3. Content Production Workflow
 
 | **Production Stage** | **Team Size** | **Time Allocation** | **Tools Used** | **Output/Week** | **Quality Score** |
@@ -531,8 +529,6 @@ Campaign Types:
 | Product Placement | [PRODUCT_ATTR]% | $[PRODUCT_REV] | $[PRODUCT_COST] | $[PRODUCT_PROFIT] | [PRODUCT_ROI]% |
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

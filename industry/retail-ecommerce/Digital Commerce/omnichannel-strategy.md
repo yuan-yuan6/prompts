@@ -352,8 +352,6 @@ Post-Purchase:
 | `[OMNI_AOV]` | Specify the omni aov | "[specify value]" |
 | `[OMNI_ROI]` | Specify the omni roi | "[specify value]" |
 
-
-
 ### 3. Inventory & Fulfillment Strategy
 
 | **Fulfillment Model** | **Current Capability** | **Target State** | **Technology Required** | **Cost Impact** | **Customer Experience** |
@@ -497,8 +495,6 @@ Operational Metrics:
 ```
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

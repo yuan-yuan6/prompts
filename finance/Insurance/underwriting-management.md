@@ -23,7 +23,7 @@ Comprehensive framework for insurance underwriting operations including risk ass
 
 Launch effective underwriting operations in 1-2 hours with these practical examples:
 
-### Example 1: Personal Auto Underwriting (30 minutes)
+### Example 1: Personal Auto Underwriting
 Underwrite a standard personal auto policy:
 ```
 Applicant Profile:
@@ -49,7 +49,7 @@ Authority Level: Junior underwriter (under $2,500 limit)
 Processing Time: 15 minutes (automated risk scoring)
 ```
 
-### Example 2: Commercial Property Quote (45 minutes)
+### Example 2: Commercial Property Quote
 Price a small business property insurance policy:
 ```
 Business Profile:
@@ -77,7 +77,7 @@ Authority Level: Senior underwriter
 Processing Time: 30 minutes (manual review required)
 ```
 
-### Example 3: Automated Decision Engine (40 minutes)
+### Example 3: Automated Decision Engine
 Configure straight-through processing rules:
 ```
 Auto-Approve Criteria (Homeowners Insurance):
@@ -437,8 +437,6 @@ Senior Underwriter:
 | `[ESG_METRICS]` | Specify the esg metrics | "[specify value]" |
 | `[ESG_RISK]` | Specify the esg risk | "[specify value]" |
 
-
-
 ### 3. Risk Selection Criteria
 
 | **Risk Factor** | **Weight** | **Scoring Range** | **Threshold** | **Impact on Premium** | **Decline Criteria** |
@@ -557,8 +555,6 @@ State Regulations:
 | ESG Underwriting | $[ESG_INVEST] | [ESG_TIME] | [ESG_IMPACT] | [ESG_METRICS] | [ESG_RISK] |
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

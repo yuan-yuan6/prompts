@@ -498,8 +498,6 @@ Please develop a comprehensive knowledge base system for [ORGANIZATION_NAME] wit
 
 ## Usage Examples
 
-
-
 ## Best Practices
 
 1. **Start with clear objectives** - Define what success looks like before beginning

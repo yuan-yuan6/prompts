@@ -362,8 +362,6 @@ Qualification Stage:
 | `[COMP_MODEL]` | Specify the comp model | "[specify value]" |
 | `[RECOG_PROGRAM]` | Specify the recog program | "[specify value]" |
 
-
-
 ### 3. Cultivation Strategy Matrix
 
 | **Cultivation Activity** | **Purpose** | **Frequency** | **Participants** | **Cost** | **Effectiveness Score** |
@@ -517,8 +515,6 @@ Training Program:
 ```
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

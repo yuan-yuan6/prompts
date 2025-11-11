@@ -372,8 +372,6 @@ Target Audiences:
 | `[RETENTION_90]` | Specify the retention 90 | "[specify value]" |
 | `[DEVELOPMENT_90]` | Specify the development 90 | "[specify value]" |
 
-
-
 ### 3. Sourcing & Pipeline Development
 
 | **Sourcing Channel** | **Target Roles** | **Volume** | **Quality Score** | **Cost** | **Conversion Rate** |
@@ -559,8 +557,6 @@ Week 1 Integration:
 ```
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

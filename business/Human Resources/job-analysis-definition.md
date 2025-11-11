@@ -157,7 +157,7 @@ Create a realistic picture of typical workday activities, interactions, challeng
 
 ### Career Progression Path
 Outline potential advancement:
-- Short-term development opportunities (6-12 months)
+- Short-term development opportunities
 - Medium-term career growth (1-3 years)
 - Long-term advancement potential (3+ years)
 - Skill development and training opportunities

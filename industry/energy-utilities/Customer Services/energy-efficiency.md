@@ -436,11 +436,7 @@ Key Metrics:
 | `[EQUITY_STATUS]` | Specify the equity status | "In Progress" |
 | `[REPORT_STATUS]` | Specify the report status | "In Progress" |
 
-
-
 ## Usage Examples
-
-
 
 ## Best Practices
 

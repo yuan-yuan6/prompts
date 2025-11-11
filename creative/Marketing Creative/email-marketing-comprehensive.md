@@ -1080,8 +1080,6 @@ Generate a comprehensive email marketing strategy that includes:
 
 ## Usage Examples
 
-
-
 ## Best Practices
 
 1. **Start with clear objectives** - Define what success looks like before beginning
@@ -1108,7 +1106,7 @@ Generate a comprehensive email marketing strategy that includes:
 - Foster collaboration across teams and departments
 - Stay current with industry best practices and emerging trends
 ### Example 1: E-commerce Welcome Series
-### Example 2: B2B Lead Nurturing Campaign  
+### Example 2: B2B Lead Nurturing Campaign
 ### Example 3: Newsletter and Content Marketing
 
 ## Customization Options

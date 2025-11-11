@@ -492,7 +492,7 @@ Email Type: [FINAL_EMAIL_TYPE]
 
 OUTPUT: Deliver comprehensive email marketing with:
 1. Strategic newsletter campaigns
-2. Automated drip sequences  
+2. Automated drip sequences
 3. High-converting promotional emails
 4. Professional transactional emails
 5. Behavioral trigger campaigns
@@ -504,8 +504,6 @@ OUTPUT: Deliver comprehensive email marketing with:
 [All 400+ variables for comprehensive email marketing including newsletters, drips, and promotions]
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

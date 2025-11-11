@@ -619,8 +619,6 @@ Methodology Framework: [RISK_METHODOLOGY_TYPE]
 | `[ACTION_RESOURCE_ALLOCATION]` | Specify the action resource allocation | "North America" |
 | `[ACTION_COMMUNICATION_PLAN]` | Specify the action communication plan | "[specify value]" |
 
-
-
 ### 2. Market Risk Assessment
 
 **Comprehensive Market Risk Analysis:**
@@ -1238,8 +1236,6 @@ Monitoring and Follow-up:
 ```
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

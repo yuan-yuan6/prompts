@@ -548,8 +548,6 @@ CI/CD Integration:
 | `[PROCESS_IMPROVEMENT]` | Specify the process improvement | "[specify value]" |
 | `[FEEDBACK_LOOP]` | Specify the feedback loop | "[specify value]" |
 
-
-
 ### Azure Enterprise Infrastructure
 ```
 Design comprehensive Infrastructure as Code solution for CorporateIT hybrid infrastructure on Azure to support enterprise applications for IT Operations, Security teams. Meet enterprise-grade performance requirements and ensure ISO 27001, SOX compliance within $100K/month budget and 6-month timeline.

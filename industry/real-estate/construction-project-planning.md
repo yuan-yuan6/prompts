@@ -369,8 +369,6 @@ Activity Sequencing:
 | `[CONTACT_INFO]` | Specify the contact info | "[specify value]" |
 | `[LESSONS_LEARNED]` | Specify the lessons learned | "[specify value]" |
 
-
-
 ### 3. Cost Estimation & Budget Control
 
 | **Cost Category** | **Estimated Cost** | **Actual Cost** | **Variance** | **% of Budget** | **Control Measures** |
@@ -540,8 +538,6 @@ Final Inspections:
 ```
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

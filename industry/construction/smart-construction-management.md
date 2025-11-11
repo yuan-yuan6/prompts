@@ -349,8 +349,6 @@ Equipment Tracking:
 | `[LEED_POINTS]` | Specify the leed points | "[specify value]" |
 | `[GREEN_CERT]` | Specify the green cert | "[specify value]" |
 
-
-
 ### 3. Project Management Automation
 
 | **Management Area** | **Manual Process** | **Automated System** | **Integration Points** | **Time Savings** | **Error Reduction** |
@@ -528,8 +526,6 @@ Cost Management:
 ```
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

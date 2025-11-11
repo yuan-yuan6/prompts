@@ -34,7 +34,7 @@ Create a comprehensive project plan for course development, implementation, and 
 4. Note critical deadlines that can't move (approval deadlines, registration dates)
 5. Identify your biggest risk (time, expertise, technology, budget) and one mitigation strategy
 
-**Common first use**: "Create implementation plan for 'Introduction to Data Science' launching in 8 months. Building from scratch, need Python environment, datasets for projects. Team: me (lead), instructional designer (10 hours), IT for software. Budget: $2,000. Must get curriculum committee approval 2 months before launch."
+**Common first use**: "Create implementation plan for 'Introduction to Data Science' launching in 8 months. Building from scratch, need Python environment, datasets for projects. Team: me (lead), instructional designer, IT for software. Budget: $2,000. Must get curriculum committee approval 2 months before launch."
 
 **Expected output**: Detailed project plan with phase-by-phase timeline (6 phases from analysis to evaluation), resource allocation plan, team roles, stakeholder communication strategy, risk management plan, approval process tracking, quality assurance checklist, and launch readiness verification.
 
@@ -534,7 +534,7 @@ If scope needs to change (add or remove deliverables):
 ## Usage Examples
 
 ### Example 1: New Course Development
-"Create implementation plan for brand new course 'Introduction to Data Science' launching Spring 2026 (8 months away). Building from scratch, need to develop all content, set up Python programming environment, create datasets for projects. Team: me (lead instructor), instructional designer (10 hours support), IT for software setup. Budget: $2,000 for software licenses and materials. Must be approved by curriculum committee 2 months before launch."
+"Create implementation plan for brand new course 'Introduction to Data Science' launching Spring 2026. Building from scratch, need to develop all content, set up Python programming environment, create datasets for projects. Team: me (lead instructor), instructional designer, IT for software setup. Budget: $2,000 for software licenses and materials. Must be approved by curriculum committee 2 months before launch."
 
 ### Example 2: Online Conversion Project
 "Develop project plan for converting 'Art History Survey' from in-person to fully online asynchronous. Course launches in 4 months. Have existing lectures to convert to video, need to redesign assessments for online format, create virtual museum tour experiences. Solo project with no additional support. No budget. Must maintain same learning objectives as in-person version."

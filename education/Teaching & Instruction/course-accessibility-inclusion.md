@@ -3,7 +3,7 @@ title: Course Accessibility & Inclusion Designer
 category: education/Teaching & Instruction
 tags: [accessibility, inclusion, UDL, diversity, accommodations]
 use_cases:
-  - Audit and improve existing course for accessibility compliance (2-3 days for full course)
+  - Audit and improve existing course for accessibility compliance
   - Design inclusive assessments that accommodate diverse learning needs
   - Create UDL-aligned course materials with multiple means of representation and engagement
 related_templates:

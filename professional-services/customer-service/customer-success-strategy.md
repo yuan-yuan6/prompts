@@ -19,7 +19,7 @@ Comprehensive framework for building and scaling customer success programs inclu
 
 **Getting Started in 3 Steps:**
 1. Establish your CS foundation by defining customer count, ARR value, retention rate, NPS score, expansion revenue targets, and team structure
-2. Map customer journey stages from onboarding (0-90 days) through adoption (90-180 days), growth (180-365 days), and maturity (365+ days) with critical moments
+2. Map customer journey stages from onboarding through adoption, growth, and maturity (365+ days) with critical moments
 3. Implement health scoring system using weighted indicators (product usage, feature adoption, support tickets, engagement, payment history, sentiment) with action triggers
 
 **Best For:** Customer success leaders building scalable programs, SaaS companies optimizing retention and expansion, professional services firms managing client relationships, and organizations seeking to reduce churn and increase lifetime value.
@@ -46,7 +46,7 @@ Implement customer success strategy for [COMPANY_NAME] managing [CUSTOMER_COUNT]
 **Customer Lifecycle Framework:**
 ```
 Journey Stages:
-Onboarding (0-90 days):
+Onboarding:
 - Kickoff Meeting: [KICKOFF_PROCESS]
 - Implementation Plan: [IMPLEMENT_PLAN]
 - Training Schedule: [TRAINING_SCHEDULE]
@@ -54,7 +54,7 @@ Onboarding (0-90 days):
 - Time to Value: [TIME_TO_VALUE]
 - Adoption Milestones: [ADOPTION_MILESTONES]
 
-Adoption (90-180 days):
+Adoption:
 - Feature Adoption: [FEATURE_ADOPTION]
 - User Engagement: [USER_ENGAGEMENT]
 - Value Realization: [VALUE_REALIZE]
@@ -62,7 +62,7 @@ Adoption (90-180 days):
 - Best Practices: [BEST_PRACTICES]
 - Success Metrics: [ADOPTION_METRICS]
 
-Growth (180-365 days):
+Growth:
 - Usage Expansion: [USAGE_EXPANSION]
 - Advanced Features: [ADVANCED_FEATURES]
 - ROI Documentation: [ROI_DOCUMENT]
@@ -391,8 +391,6 @@ Maturity (365+ days):
 | `[CS_ROI]` | Specify the cs roi | "[specify value]" |
 | `[REVENUE_PER_CSM]` | Specify the revenue per csm | "[specify value]" |
 
-
-
 ### 3. Customer Health Scoring
 
 | **Health Indicator** | **Weight** | **Green Threshold** | **Yellow Threshold** | **Red Threshold** | **Action Triggers** |
@@ -578,8 +576,6 @@ Growth Metrics:
 ```
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

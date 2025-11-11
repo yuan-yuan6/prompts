@@ -161,10 +161,10 @@ Lesson Context:
 3. LESSON STRUCTURE & TIMING
 
    Opening/Hook (Duration: [OPENING_DURATION])
-   
+
 ### Attention Grabber
    [ATTENTION_GRABBER_DESCRIPTION]
-   
+
 ### Activities
    • Engaging starter: [STARTER_ACTIVITY]
    • Question or problem: [OPENING_QUESTION]
@@ -180,7 +180,7 @@ Lesson Context:
    Introduction/Set Induction (Duration: [INTRODUCTION_DURATION])
 
    Purpose: Prepare students for new learning
-   
+
 ### Activities
    • Review previous learning: [REVIEW_ACTIVITY]
    • Introduce new concepts: [CONCEPT_INTRODUCTION]
@@ -196,9 +196,9 @@ Lesson Context:
    Main Instruction (Duration: [INSTRUCTION_DURATION])
 
    Content Delivery Method: [CONTENT_DELIVERY_METHOD]
-   
+
 ### Instructional Sequence
-   
+
    Phase 1: [INSTRUCTION_PHASE_1] ([PHASE_1_DURATION])
    • Content focus: [PHASE_1_CONTENT]
    • Teaching method: [PHASE_1_METHOD]
@@ -223,9 +223,9 @@ Lesson Context:
    Guided Practice (Duration: [GUIDED_PRACTICE_DURATION])
 
    Purpose: Support initial application of learning
-   
+
    Scaffolding Strategy: [SCAFFOLDING_STRATEGY]
-   
+
 ### Activities
    • Teacher-led practice: [TEACHER_LED_PRACTICE]
    • Collaborative work: [COLLABORATIVE_ACTIVITY]
@@ -243,7 +243,7 @@ Lesson Context:
    Independent Practice (Duration: [INDEPENDENT_PRACTICE_DURATION])
 
    Purpose: Allow students to apply learning independently
-   
+
 ### Individual Activities
    • [INDEPENDENT_ACTIVITY_1]
    • [INDEPENDENT_ACTIVITY_2]
@@ -266,7 +266,7 @@ Lesson Context:
    Closure/Wrap-up (Duration: [CLOSURE_DURATION])
 
    Purpose: Consolidate learning and prepare for future lessons
-   
+
 ### Summary Activities
    • Learning reflection: [REFLECTION_ACTIVITY]
    • Key point review: [KEY_POINT_REVIEW]
@@ -284,7 +284,7 @@ Lesson Context:
 4. DIFFERENTIATION STRATEGIES
 
 ### For Advanced Learners
-   
+
 ### Enrichment Activities
    • [ENRICHMENT_ACTIVITY_1]
    • [ENRICHMENT_ACTIVITY_2]
@@ -300,7 +300,7 @@ Lesson Context:
    • Independent exploration: [INDEPENDENT_EXTENSIONS]
 
 ### For Struggling Learners
-   
+
 ### Support Strategies
    • Simplified instructions: [SIMPLIFIED_INSTRUCTIONS]
    • Additional practice: [EXTRA_PRACTICE]
@@ -316,7 +316,7 @@ Lesson Context:
    • Reduced complexity: [COMPLEXITY_REDUCTION]
 
 ### For English Language Learners
-   
+
 ### Language Support
    • Visual vocabulary: [VISUAL_VOCABULARY]
    • Native language resources: [NATIVE_LANGUAGE_SUPPORT]
@@ -332,7 +332,7 @@ Lesson Context:
    • Cross-cultural sharing: [CROSS_CULTURAL_SHARING]
 
 ### For Students with Special Needs
-   
+
 ### Accommodation Strategies
    • Physical modifications: [PHYSICAL_MODIFICATIONS]
    • Sensory supports: [SENSORY_SUPPORTS]
@@ -350,7 +350,7 @@ Lesson Context:
 5. ASSESSMENT STRATEGIES
 
    Formative Assessment (Ongoing):
-   
+
 ### During Instruction
    • Observation checklist: [OBSERVATION_CHECKLIST]
    • Quick polls: [POLLING_METHODS]
@@ -366,7 +366,7 @@ Lesson Context:
    • Portfolio entries: [PORTFOLIO_ENTRIES]
 
 ### Summative Assessment
-   
+
    End-of-Lesson Assessment:
    • Quiz format: [QUIZ_FORMAT]
    • Performance task: [PERFORMANCE_TASK]
@@ -382,7 +382,7 @@ Lesson Context:
    • Collaboration: [COLLABORATION_CRITERIA]
 
 ### Alternative Assessment Options
-   
+
 ### For Diverse Learners
    • Oral presentations: [ORAL_ASSESSMENT]
    • Visual demonstrations: [VISUAL_ASSESSMENT]
@@ -400,7 +400,7 @@ Lesson Context:
 6. LEARNING ACTIVITIES DESIGN
 
 ### Individual Learning Activities
-   
+
    Activity 1: [INDIVIDUAL_ACTIVITY_1]
    • Purpose: [ACTIVITY_1_PURPOSE]
    • Duration: [ACTIVITY_1_DURATION]
@@ -420,7 +420,7 @@ Lesson Context:
    [Continue for additional activities]
 
 ### Collaborative Learning Activities
-   
+
    Group Activity 1: [GROUP_ACTIVITY_1]
    • Group size: [GROUP_1_SIZE]
    • Role assignments: [GROUP_1_ROLES]
@@ -438,7 +438,7 @@ Lesson Context:
    • Sharing method: [GROUP_2_SHARING]
 
 ### Interactive Learning Activities
-   
+
 ### Technology Integration
    • Digital tool: [DIGITAL_TOOL_1]
    • Application: [DIGITAL_APPLICATION_1]
@@ -460,7 +460,7 @@ Lesson Context:
 7. CLASSROOM MANAGEMENT STRATEGIES
 
 ### Behavior Management
-   
+
 ### Positive Reinforcement System
    • Recognition methods: [RECOGNITION_METHODS]
    • Reward systems: [REWARD_SYSTEMS]
@@ -483,7 +483,7 @@ Lesson Context:
    • Problem-solving approach: [PROBLEM_SOLVING_APPROACH]
 
 ### Time Management
-   
+
 ### Pacing Strategies
    • Activity timing: [ACTIVITY_TIMING]
    • Transition planning: [TRANSITION_PLANNING]
@@ -499,7 +499,7 @@ Lesson Context:
    • Smooth flow maintenance: [FLOW_MAINTENANCE]
 
 ### Environment Management
-   
+
 ### Physical Space
    • Organization systems: [ORGANIZATION_SYSTEMS]
    • Accessibility features: [ACCESSIBILITY_FEATURES]
@@ -517,7 +517,7 @@ Lesson Context:
 8. TECHNOLOGY INTEGRATION
 
 ### Digital Tools and Platforms
-   
+
    Primary Technology: [PRIMARY_TECHNOLOGY]
    • Purpose: [PRIMARY_TECH_PURPOSE]
    • Student access: [PRIMARY_TECH_ACCESS]
@@ -556,7 +556,7 @@ Lesson Context:
 9. EXTENSION AND ENRICHMENT
 
 ### For Early Finishers
-   
+
 ### Additional Challenges
    • Complex problems: [COMPLEX_PROBLEMS]
    • Research opportunities: [RESEARCH_OPPORTUNITIES]
@@ -572,7 +572,7 @@ Lesson Context:
    • Application practice: [APPLICATION_PRACTICE]
 
    Cross-Curricular Extensions:
-   
+
 ### Subject Integration
    • [INTEGRATION_SUBJECT_1]: [INTEGRATION_ACTIVITY_1]
    • [INTEGRATION_SUBJECT_2]: [INTEGRATION_ACTIVITY_2]
@@ -588,7 +588,7 @@ Lesson Context:
    • Service learning opportunities: [SERVICE_LEARNING_OPPORTUNITIES]
 
    Home-School Connections:
-   
+
 ### Family Involvement
    • Home practice activities: [HOME_PRACTICE_ACTIVITIES]
    • Family sharing opportunities: [FAMILY_SHARING]
@@ -606,7 +606,7 @@ Lesson Context:
 10. REFLECTION AND EVALUATION
 
     Teacher Self-Reflection:
-    
+
 ### Lesson Effectiveness
     • Objective achievement: [OBJECTIVE_ACHIEVEMENT_REFLECTION]
     • Student engagement levels: [ENGAGEMENT_REFLECTION]
@@ -622,7 +622,7 @@ Lesson Context:
     • Differentiation enhancements: [DIFFERENTIATION_ENHANCEMENTS]
 
 ### Student Feedback Collection
-    
+
 ### Formal Feedback
     • Exit tickets: [EXIT_TICKET_FEEDBACK]
     • Reflection surveys: [REFLECTION_SURVEYS]
@@ -638,7 +638,7 @@ Lesson Context:
     • Question quality: [QUESTION_QUALITY]
 
 ### Future Planning
-    
+
 ### Next Lesson Preparation
     • Content connections: [CONTENT_CONNECTIONS]
     • Skill building progression: [SKILL_PROGRESSION]
@@ -656,7 +656,7 @@ Lesson Context:
 11. SAFETY AND INCLUSIVITY
 
 ### Physical Safety
-    
+
 ### Classroom Safety
     • Equipment safety protocols: [EQUIPMENT_SAFETY]
     • Movement safety guidelines: [MOVEMENT_SAFETY]
@@ -672,7 +672,7 @@ Lesson Context:
     • Appropriate use policies: [APPROPRIATE_USE_POLICIES]
 
 ### Emotional Safety
-    
+
 ### Inclusive Environment
     • Respect for diversity: [DIVERSITY_RESPECT]
     • Anti-bias practices: [ANTI_BIAS_PRACTICES]
@@ -690,7 +690,7 @@ Lesson Context:
 12. PROFESSIONAL DEVELOPMENT CONNECTIONS
 
 ### Standards and Best Practices
-    
+
 ### Pedagogical Framework
     • Learning theory application: [LEARNING_THEORY_APPLICATION]
     • Research-based practices: [RESEARCH_BASED_PRACTICES]
@@ -706,7 +706,7 @@ Lesson Context:
     • Action research projects: [ACTION_RESEARCH]
 
 ### Growth and Innovation
-    
+
 ### Skill Development
     • Technology integration skills: [TECH_INTEGRATION_SKILLS]
     • Cultural competency development: [CULTURAL_COMPETENCY]

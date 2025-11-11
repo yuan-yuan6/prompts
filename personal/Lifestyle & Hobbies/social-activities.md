@@ -19,12 +19,12 @@ Develop engaging social activity plans including events, group participation, an
 
 Build your social network in three simple steps:
 
-1. **Identify Your Social Goals** (5 minutes)
+1. **Identify Your Social Goals**
    - What do you want: new friendships, professional network, hobby community, dating?
    - Define your comfort level: small groups, one-on-one, large events, online first
    - Example: "Meet 3 new people who share my interest in hiking" or "Expand professional network in my industry"
 
-2. **Find One Group or Activity** (15 minutes)
+2. **Find One Group or Activity**
    - Search Meetup.com, local community centers, Facebook groups, or workplace clubs
    - Choose low-pressure events: coffee meetups, walking groups, beginner classes
    - Sign up for one event happening within the next two weeks
@@ -321,8 +321,6 @@ Social activities quality: [SOCIAL_ACTIVITY_PROGRAM_RATING]
 [400+ variables for social activities including event participation, relationship building, community engagement, skill development, and social confidence enhancement]
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

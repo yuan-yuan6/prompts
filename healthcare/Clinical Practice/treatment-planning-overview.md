@@ -34,7 +34,7 @@ Navigate to the appropriate treatment planning template based on clinical contex
 ```
 Your Clinical Scenario → Recommended Template:
 
-1. Emergency or urgent care (0-24 hours)
+1. Emergency or urgent care
    → acute-care-treatment-plan.md (ABCs, rapid stabilization, 15-30 min)
 
 2. Long-term condition management (diabetes, COPD, hypertension)
@@ -107,7 +107,7 @@ Your Clinical Scenario → Recommended Template:
 
 **Key Features:**
 - Comprehensive patient profiling
-- Long-term goal setting (6-12 months)
+- Long-term goal setting
 - Lifestyle modification programs
 - Regular monitoring schedules
 - Multidisciplinary care coordination

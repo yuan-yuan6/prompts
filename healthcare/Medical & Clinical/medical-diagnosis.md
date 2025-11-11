@@ -20,7 +20,7 @@ This comprehensive template guides healthcare professionals through systematic d
 
 ## Quick Start
 
-**HIPAA-Compliant Diagnostic Process (30-45 minutes):**
+**HIPAA-Compliant Diagnostic Process:**
 
 1. **Secure Patient Encounter** - Verify patient identity using two identifiers; conduct interview in private setting; document in encrypted system
 2. **Comprehensive History (10 min)** - Chief complaint, HPI using OLDCARTS, past medical/surgical history, medications, allergies, family/social history
@@ -426,8 +426,6 @@ Family History: [MATERNAL_FAMILY_HISTORY], [PATERNAL_FAMILY_HISTORY], [GENETIC_C
 | `[IMPROVEMENT_OPPORTUNITIES]` | Specify the improvement opportunities | "[specify value]" |
 | `[SAFETY_EVENT_DOCUMENTATION]` | Specify the safety event documentation | "[specify value]" |
 
-
-
 ### 2. Physical Examination and Clinical Assessment
 
 **Systematic Physical Examination Protocol:**
@@ -461,11 +459,11 @@ Based on the presentation of [CHIEF_COMPLAINT] in [PATIENT_DEMOGRAPHIC] with [KE
 1. [MOST_LIKELY_DIAGNOSIS] - Probability: [LIKELIHOOD_PERCENTAGE]%
    Supporting Evidence: [SUPPORTING_SYMPTOM_1], [SUPPORTING_SIGN_1], [SUPPORTING_HISTORY_1]
    Contradicting Evidence: [CONTRADICTING_FACTOR_1]
-   
+
 2. [SECOND_LIKELY_DIAGNOSIS] - Probability: [LIKELIHOOD_PERCENTAGE_2]%
    Supporting Evidence: [SUPPORTING_SYMPTOM_2], [SUPPORTING_SIGN_2], [SUPPORTING_HISTORY_2]
    Contradicting Evidence: [CONTRADICTING_FACTOR_2]
-   
+
 3. [THIRD_LIKELY_DIAGNOSIS] - Probability: [LIKELIHOOD_PERCENTAGE_3]%
    Supporting Evidence: [SUPPORTING_SYMPTOM_3], [SUPPORTING_SIGN_3], [SUPPORTING_HISTORY_3]
    Contradicting Evidence: [CONTRADICTING_FACTOR_3]
@@ -696,8 +694,6 @@ Patient safety reporting: [SAFETY_EVENT_DOCUMENTATION]
 ```
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

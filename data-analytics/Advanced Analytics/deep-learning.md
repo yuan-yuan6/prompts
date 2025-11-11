@@ -329,8 +329,6 @@ Preprocessing Steps:
 | `[FEAT_VAL]` | Specify the feat val | "[specify value]" |
 | `[FEAT_ROLLBACK]` | Specify the feat rollback | "[specify value]" |
 
-
-
 ### 3. Model Architecture Design
 
 | **Layer Type** | **Count** | **Configuration** | **Parameters** | **Activation** | **Purpose** |
@@ -450,8 +448,6 @@ Serving Configuration:
 | Feature Engineering | [FEAT_FREQ] | [FEAT_TRIGGER] | [FEAT_PROCESS] | [FEAT_VAL] | [FEAT_ROLLBACK] |
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

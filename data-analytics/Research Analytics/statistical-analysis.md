@@ -177,7 +177,7 @@ from statsmodels.stats.descriptivestats import describe
 def comprehensive_describe(data, variables):
     """Generate comprehensive descriptive statistics"""
     results = {}
-    
+
     for var in variables:
         if data[var].dtype in ['int64', 'float64']:
             # Continuous variables
@@ -202,12 +202,12 @@ def comprehensive_describe(data, variables):
                 'ci_95_lower': data[var].mean() - 1.96 * data[var].std() / np.sqrt(data[var].count()),
                 'ci_95_upper': data[var].mean() + 1.96 * data[var].std() / np.sqrt(data[var].count())
             }
-            
+
             # Outlier detection
-            desc['outliers_iqr'] = len(data[(data[var] < desc['q1'] - 1.5 * desc['iqr']) | 
+            desc['outliers_iqr'] = len(data[(data[var] < desc['q1'] - 1.5 * desc['iqr']) |
                                            (data[var] > desc['q3'] + 1.5 * desc['iqr'])])
             desc['outliers_z'] = len(data[np.abs(stats.zscore(data[var].dropna())) > 3])
-            
+
         else:
             # Categorical variables
             desc = {
@@ -218,20 +218,20 @@ def comprehensive_describe(data, variables):
                 'mode_freq': data[var].value_counts().iloc[0] if len(data[var].value_counts()) > 0 else 0,
                 'mode_prop': data[var].value_counts(normalize=True).iloc[0] if len(data[var].value_counts()) > 0 else 0
             }
-            
+
             # Frequency table
             desc['frequency_table'] = data[var].value_counts().to_dict()
             desc['proportion_table'] = data[var].value_counts(normalize=True).to_dict()
-        
+
         results[var] = desc
-    
+
     return results
 
 # Group comparison statistics
 def group_descriptives(data, group_var, outcome_vars):
     """Generate descriptive statistics by group"""
     results = {}
-    
+
     for outcome in outcome_vars:
         group_stats = data.groupby(group_var)[outcome].agg([
             'count', 'mean', 'std', 'median', 'min', 'max',
@@ -243,9 +243,9 @@ def group_descriptives(data, group_var, outcome_vars):
             ('skew', lambda x: x.skew()),
             ('kurtosis', lambda x: x.kurtosis())
         ])
-        
+
         results[outcome] = group_stats
-    
+
     return results
 
 # Calculate descriptive statistics
@@ -259,14 +259,14 @@ Distribution Assessment:
 def test_normality_comprehensive(data, variables, groups=None):
     """Comprehensive normality testing"""
     from scipy.stats import shapiro, normaltest, jarque_bera, anderson, kstest
-    
+
     results = {}
-    
+
     for var in variables:
         if groups is None:
             # Test entire variable
             subset = data[var].dropna()
-            
+
             results[var] = {
                 'shapiro_w': shapiro(subset)[0],
                 'shapiro_p': shapiro(subset)[1],
@@ -283,10 +283,10 @@ def test_normality_comprehensive(data, variables, groups=None):
             # Test by groups
             for group in data[groups].unique():
                 subset = data[data[groups] == group][var].dropna()
-                
+
                 if len(subset) < 3:
                     continue
-                    
+
                 results[f"[VAR]_[GROUP]"] = {
                     'shapiro_w': shapiro(subset)[0],
                     'shapiro_p': shapiro(subset)[1],
@@ -295,16 +295,16 @@ def test_normality_comprehensive(data, variables, groups=None):
                     'jarque_bera_jb': jarque_bera(subset)[0],
                     'jarque_bera_p': jarque_bera(subset)[1]
                 }
-    
+
     return results
 
 # Homogeneity of variance tests
 def test_homogeneity(data, outcome_var, group_var):
     """Test homogeneity of variance"""
     from scipy.stats import levene, bartlett, fligner
-    
+
     groups = [group[outcome_var].values for name, group in data.groupby(group_var)]
-    
+
     return {
         'levene_stat': levene(*groups)[0],
         'levene_p': levene(*groups)[1],
@@ -334,18 +334,18 @@ def one_sample_ttest(data, pop_mean, confidence=0.95):
     sample_mean = np.mean(data)
     sample_std = np.std(data, ddof=1)
     sem = sample_std / np.sqrt(n)
-    
+
     # T-test
     t_stat, p_value = ttest_1samp(data, pop_mean)
-    
+
     # Confidence interval
     t_critical = stats.t.ppf((1 + confidence) / 2, df=n-1)
     ci_lower = sample_mean - t_critical * sem
     ci_upper = sample_mean + t_critical * sem
-    
+
     # Effect size (Cohen's d)
     cohens_d = (sample_mean - pop_mean) / sample_std
-    
+
     return {
         'sample_mean': sample_mean,
         'population_mean': pop_mean,
@@ -366,18 +366,18 @@ def independent_ttest(group1, group2, equal_var=None, confidence=0.95):
     if equal_var is None:
         _, levene_p = stats.levene(group1, group2)
         equal_var = levene_p > 0.05
-    
+
     # Perform t-test
     t_stat, p_value = ttest_ind(group1, group2, equal_var=equal_var)
-    
+
     # Sample statistics
     n1, n2 = len(group1), len(group2)
     mean1, mean2 = np.mean(group1), np.mean(group2)
     std1, std2 = np.std(group1, ddof=1), np.std(group2, ddof=1)
-    
+
     # Mean difference and standard error
     mean_diff = mean1 - mean2
-    
+
     if equal_var:
         # Pooled variance
         pooled_var = ((n1-1)*std1**2 + (n2-1)*std2**2) / (n1+n2-2)
@@ -391,12 +391,12 @@ def independent_ttest(group1, group2, equal_var=None, confidence=0.95):
         df = (std1**2/n1 + std2**2/n2)**2 / ((std1**2/n1)**2/(n1-1) + (std2**2/n2)**2/(n2-1))
         # Cohen's d with separate standard deviations
         cohens_d = mean_diff / np.sqrt((std1**2 + std2**2) / 2)
-    
+
     # Confidence interval for mean difference
     t_critical = stats.t.ppf((1 + confidence) / 2, df=df)
     ci_lower = mean_diff - t_critical * se_diff
     ci_upper = mean_diff + t_critical * se_diff
-    
+
     return {
         'group1_mean': mean1,
         'group1_std': std1,
@@ -423,18 +423,18 @@ def paired_ttest(before, after, confidence=0.95):
     mean_diff = np.mean(differences)
     std_diff = np.std(differences, ddof=1)
     sem_diff = std_diff / np.sqrt(n)
-    
+
     # T-test
     t_stat, p_value = ttest_rel(before, after)
-    
+
     # Effect size (Cohen's d for paired samples)
     cohens_d = mean_diff / std_diff
-    
+
     # Confidence interval
     t_critical = stats.t.ppf((1 + confidence) / 2, df=n-1)
     ci_lower = mean_diff - t_critical * sem_diff
     ci_upper = mean_diff + t_critical * sem_diff
-    
+
     return {
         'before_mean': np.mean(before),
         'after_mean': np.mean(after),
@@ -463,40 +463,40 @@ def oneway_anova(data, outcome_var, group_var):
     """Comprehensive one-way ANOVA"""
     # Group data
     groups = [group[outcome_var].values for name, group in data.groupby(group_var)]
-    
+
     # F-test
     f_stat, p_value = f_oneway(*groups)
-    
+
     # Degrees of freedom
     k = len(groups)  # number of groups
     n = len(data)    # total sample size
     df_between = k - 1
     df_within = n - k
-    
+
     # Sum of squares calculation
     grand_mean = data[outcome_var].mean()
-    
+
     # Between-groups sum of squares
     ss_between = sum([len(group) * (np.mean(group) - grand_mean)**2 for group in groups])
-    
+
     # Within-groups sum of squares
     ss_within = sum([np.sum((group - np.mean(group))**2) for group in groups])
-    
+
     # Total sum of squares
     ss_total = ss_between + ss_within
-    
+
     # Mean squares
     ms_between = ss_between / df_between
     ms_within = ss_within / df_within
-    
+
     # Effect sizes
     eta_squared = ss_between / ss_total
     omega_squared = (ss_between - df_between * ms_within) / (ss_total + ms_within)
-    
+
     # Post-hoc tests (Tukey HSD)
     mc = MultiComparison(data[outcome_var], data[group_var])
     tukey_result = mc.tukeyhsd()
-    
+
     return {
         'f_statistic': f_stat,
         'p_value': p_value,
@@ -517,19 +517,19 @@ def twoway_anova(data, outcome_var, factor1, factor2):
     """Two-way ANOVA with interaction"""
     # Create model formula
     formula = f'[OUTCOME_VAR] ~ C([FACTOR1]) + C([FACTOR2]) + C([FACTOR1]):C([FACTOR2])'
-    
+
     # Fit model
     model = ols(formula, data=data).fit()
     anova_table = anova_lm(model, typ=2)
-    
+
     # Effect sizes
     ss_total = anova_table['sum_sq'].sum()
     eta_squared = anova_table['sum_sq'] / ss_total
-    
+
     # Partial eta squared
     residual_ss = anova_table['sum_sq'].iloc[-1]
     partial_eta_squared = anova_table['sum_sq'][:-1] / (anova_table['sum_sq'][:-1] + residual_ss)
-    
+
     return {
         'anova_table': anova_table,
         'model': model,
@@ -546,10 +546,10 @@ def repeated_measures_anova(data, subject_col, within_col, outcome_col):
     """Repeated measures ANOVA"""
     # Perform RM-ANOVA
     rm_anova = AnovaRM(data, outcome_col, subject_col, within=[within_col]).fit()
-    
+
     # Sphericity testing (if multiple time points)
     # Note: statsmodels doesn't provide Mauchly's test directly
-    
+
     return {
         'anova_results': rm_anova,
         'summary': rm_anova.summary()
@@ -569,46 +569,46 @@ from statsmodels.stats.stattools import durbin_watson
 # Multiple Linear Regression
 def multiple_regression(data, outcome_var, predictor_vars, categorical_vars=None):
     """Comprehensive multiple regression analysis"""
-    
+
     # Prepare formula
     predictors = ' + '.join(predictor_vars)
     if categorical_vars:
         cat_terms = [f'C([VAR])' for var in categorical_vars if var in predictor_vars]
         cont_terms = [var for var in predictor_vars if var not in categorical_vars]
         predictors = ' + '.join(cont_terms + cat_terms)
-    
+
     formula = f'[OUTCOME_VAR] ~ [PREDICTORS]'
-    
+
     # Fit model
     model = smf.ols(formula, data=data).fit()
-    
+
     # Model diagnostics
     residuals = model.resid
     fitted_values = model.fittedvalues
-    
+
     # Heteroscedasticity tests
     bp_stat, bp_p, _, _ = het_breuschpagan(residuals, model.model.exog)
     white_stat, white_p, _, _ = het_white(residuals, model.model.exog)
-    
+
     # Durbin-Watson test for autocorrelation
     dw_stat = durbin_watson(residuals)
-    
+
     # Multicollinearity (VIF)
     vif_data = pd.DataFrame()
     vif_data["Variable"] = model.model.exog_names[1:]  # Exclude intercept
-    vif_data["VIF"] = [variance_inflation_factor(model.model.exog, i) 
+    vif_data["VIF"] = [variance_inflation_factor(model.model.exog, i)
                        for i in range(1, model.model.exog.shape[1])]
-    
+
     # Confidence intervals
     conf_int = model.conf_int()
-    
+
     # Standardized coefficients (beta weights)
     X = data[predictor_vars]
     y = data[outcome_var]
     X_std = (X - X.mean()) / X.std()
     y_std = (y - y.mean()) / y.std()
     model_std = sm.OLS(y_std, sm.add_constant(X_std)).fit()
-    
+
     return {
         'model': model,
         'summary': model.summary(),
@@ -636,26 +636,26 @@ def logistic_regression(data, outcome_var, predictor_vars):
     # Prepare formula
     predictors = ' + '.join(predictor_vars)
     formula = f'[OUTCOME_VAR] ~ [PREDICTORS]'
-    
+
     # Fit model
     model = smf.logit(formula, data=data).fit()
-    
+
     # Odds ratios
     odds_ratios = np.exp(model.params)
-    
+
     # Classification metrics
     probabilities = model.predict()
     predictions = (probabilities > 0.5).astype(int)
-    
+
     from sklearn.metrics import confusion_matrix, classification_report, roc_auc_score
-    
+
     cm = confusion_matrix(data[outcome_var], predictions)
     roc_auc = roc_auc_score(data[outcome_var], probabilities)
-    
+
     # Hosmer-Lemeshow test
     from scipy.stats import chi2
     # Custom implementation needed for H-L test
-    
+
     return {
         'model': model,
         'summary': model.summary(),
@@ -683,30 +683,30 @@ def mann_whitney_test(group1, group2, alternative='two-sided'):
     """Mann-Whitney U test with effect size"""
     # Perform test
     u_stat, p_value = mannwhitneyu(group1, group2, alternative=alternative)
-    
+
     # Sample sizes
     n1, n2 = len(group1), len(group2)
-    
+
     # Effect size (rank-biserial correlation)
     r = 1 - (2 * u_stat) / (n1 * n2)
-    
+
     # Common language effect size
     cles = u_stat / (n1 * n2)
-    
+
     # Hodges-Lehmann estimator
     differences = []
     for x in group1:
         for y in group2:
             differences.append(x - y)
     hl_estimator = np.median(differences)
-    
+
     # Confidence interval for Hodges-Lehmann estimator
     from scipy.stats import norm
     se_hl = 1.2533 * np.std(differences) / np.sqrt(len(differences))
     z_critical = norm.ppf(0.975)
     hl_ci_lower = hl_estimator - z_critical * se_hl
     hl_ci_upper = hl_estimator + z_critical * se_hl
-    
+
     return {
         'u_statistic': u_stat,
         'p_value': p_value,
@@ -729,14 +729,14 @@ def wilcoxon_signed_rank_test(before, after):
     # Calculate differences
     differences = after - before
     non_zero_diff = differences[differences != 0]
-    
+
     # Perform test
     w_stat, p_value = wilcoxon(before, after, zero_method='wilcox')
-    
+
     # Effect size (matched-pairs rank-biserial correlation)
     n = len(non_zero_diff)
     r = 1 - (2 * w_stat) / (n * (n + 1) / 2)
-    
+
     return {
         'w_statistic': w_stat,
         'p_value': p_value,
@@ -755,19 +755,19 @@ def kruskal_wallis_test(data, outcome_var, group_var):
     """Kruskal-Wallis test with post-hoc analysis"""
     # Prepare groups
     groups = [group[outcome_var].values for name, group in data.groupby(group_var)]
-    
+
     # Perform test
     h_stat, p_value = kruskal(*groups)
-    
+
     # Effect size (epsilon-squared)
     n = len(data)
     k = len(groups)
     epsilon_squared = (h_stat - k + 1) / (n - k)
-    
+
     # Post-hoc tests (Dunn's test)
-    dunn_results = posthoc_dunn(data, val_col=outcome_var, group_col=group_var, 
+    dunn_results = posthoc_dunn(data, val_col=outcome_var, group_col=group_var,
                                p_adjust='bonferroni')
-    
+
     return {
         'h_statistic': h_stat,
         'p_value': p_value,
@@ -788,37 +788,37 @@ import numpy as np
 # Bayesian t-test
 def bayesian_ttest(group1, group2):
     """Bayesian independent samples t-test"""
-    
+
     # Combine data
     y = np.concatenate([group1, group2])
     group_idx = np.concatenate([np.zeros(len(group1)), np.ones(len(group2))])
-    
+
     with pm.Model() as model:
         # Priors
         mu = pm.Normal('mu', mu=0, sigma=10, shape=2)  # Group means
         sigma = pm.HalfNormal('sigma', sigma=10, shape=2)  # Group stds
-        
+
         # Likelihood
-        y_obs = pm.Normal('y_obs', mu=mu[group_idx.astype(int)], 
+        y_obs = pm.Normal('y_obs', mu=mu[group_idx.astype(int)],
                          sigma=sigma[group_idx.astype(int)], observed=y)
-        
+
         # Derived quantities
         diff_means = pm.Deterministic('diff_means', mu[0] - mu[1])
-        effect_size = pm.Deterministic('effect_size', 
+        effect_size = pm.Deterministic('effect_size',
                                      diff_means / pm.math.sqrt((sigma[0]**2 + sigma[1]**2) / 2))
-        
+
         # Sample posterior
         trace = pm.sample(2000, tune=1000, target_accept=0.95, return_inferencedata=True)
-    
+
     # Posterior summary
     summary = az.summary(trace, var_names=['mu', 'sigma', 'diff_means', 'effect_size'])
-    
+
     # Probability that difference > 0
     prob_positive = (trace.posterior.diff_means > 0).mean().values
-    
+
     # Credible intervals
     hdi = az.hdi(trace, credible_interval=0.95)
-    
+
     return {
         'trace': trace,
         'summary': summary,
@@ -830,37 +830,37 @@ def bayesian_ttest(group1, group2):
 # Bayesian regression
 def bayesian_regression(data, outcome_var, predictor_vars):
     """Bayesian linear regression"""
-    
+
     # Prepare data
     X = data[predictor_vars].values
     y = data[outcome_var].values
-    
+
     # Standardize predictors
     X_mean = X.mean(axis=0)
     X_std = X.std(axis=0)
     X_centered = (X - X_mean) / X_std
-    
+
     with pm.Model() as model:
         # Priors
         alpha = pm.Normal('alpha', mu=0, sigma=10)
         beta = pm.Normal('beta', mu=0, sigma=10, shape=X_centered.shape[1])
         sigma = pm.HalfNormal('sigma', sigma=10)
-        
+
         # Linear model
         mu = alpha + pm.math.dot(X_centered, beta)
-        
+
         # Likelihood
         y_obs = pm.Normal('y_obs', mu=mu, sigma=sigma, observed=y)
-        
+
         # R-squared
         y_mean = y.mean()
         ss_res = pm.math.sum((y - mu)**2)
         ss_tot = pm.math.sum((y - y_mean)**2)
         r_squared = pm.Deterministic('r_squared', 1 - ss_res / ss_tot)
-        
+
         # Sample posterior
         trace = pm.sample(2000, tune=1000, target_accept=0.95, return_inferencedata=True)
-    
+
     return {
         'trace': trace,
         'summary': az.summary(trace),
@@ -877,36 +877,36 @@ from statsmodels.stats.multitest import multipletests
 # Multiple testing corrections
 def multiple_testing_correction(p_values, method='fdr_bh', alpha=0.05):
     """Apply multiple testing corrections"""
-    
-    methods = ['bonferroni', 'sidak', 'holm-sidak', 'holm', 'simes-hochberg', 
+
+    methods = ['bonferroni', 'sidak', 'holm-sidak', 'holm', 'simes-hochberg',
                'hommel', 'fdr_bh', 'fdr_by', 'fdr_tsbh', 'fdr_tsbky']
-    
+
     results = {}
-    
+
     for method_name in methods:
         if method_name in ['fdr_tsbh', 'fdr_tsbky']:
             continue  # Skip methods requiring additional parameters
-            
+
         rejected, p_corrected, alpha_sidak, alpha_bonf = multipletests(
             p_values, alpha=alpha, method=method_name
         )
-        
+
         results[method_name] = {
             'rejected': rejected,
             'p_corrected': p_corrected,
             'alpha_corrected': alpha_bonf if method_name == 'bonferroni' else alpha_sidak,
             'num_significant': np.sum(rejected)
         }
-    
+
     return results
 
 # False Discovery Rate Control
 def fdr_control(p_values, q_value=0.05):
     """Benjamini-Hochberg FDR control"""
     from statsmodels.stats.multitest import fdrcorrection
-    
+
     rejected, p_corrected = fdrcorrection(p_values, alpha=q_value)
-    
+
     return {
         'rejected': rejected,
         'q_values': p_corrected,
@@ -924,18 +924,18 @@ from arch.bootstrap import IIDBootstrap
 # Bootstrap confidence intervals
 def bootstrap_ci(data, statistic, n_bootstrap=10000, confidence=0.95, method='percentile'):
     """Bootstrap confidence intervals"""
-    
+
     bootstrap_stats = []
     n = len(data)
-    
+
     for _ in range(n_bootstrap):
         sample = np.random.choice(data, size=n, replace=True)
         bootstrap_stats.append(statistic(sample))
-    
+
     bootstrap_stats = np.array(bootstrap_stats)
-    
+
     alpha = 1 - confidence
-    
+
     if method == 'percentile':
         ci_lower = np.percentile(bootstrap_stats, 100 * alpha/2)
         ci_upper = np.percentile(bootstrap_stats, 100 * (1 - alpha/2))
@@ -943,21 +943,21 @@ def bootstrap_ci(data, statistic, n_bootstrap=10000, confidence=0.95, method='pe
         # Bias-corrected and accelerated (BCa) bootstrap
         observed_stat = statistic(data)
         bias_correction = stats.norm.ppf((bootstrap_stats < observed_stat).mean())
-        
+
         # Acceleration constant (simplified)
         acceleration = 0  # Would need jackknife estimation for full BCa
-        
+
         z_alpha_2 = stats.norm.ppf(alpha/2)
         z_1_alpha_2 = stats.norm.ppf(1 - alpha/2)
-        
-        alpha_1 = stats.norm.cdf(bias_correction + 
+
+        alpha_1 = stats.norm.cdf(bias_correction +
                                  (bias_correction + z_alpha_2)/(1 - acceleration * (bias_correction + z_alpha_2)))
-        alpha_2 = stats.norm.cdf(bias_correction + 
+        alpha_2 = stats.norm.cdf(bias_correction +
                                  (bias_correction + z_1_alpha_2)/(1 - acceleration * (bias_correction + z_1_alpha_2)))
-        
+
         ci_lower = np.percentile(bootstrap_stats, 100 * alpha_1)
         ci_upper = np.percentile(bootstrap_stats, 100 * alpha_2)
-    
+
     return {
         'ci_lower': ci_lower,
         'ci_upper': ci_upper,
@@ -969,17 +969,17 @@ def bootstrap_ci(data, statistic, n_bootstrap=10000, confidence=0.95, method='pe
 # Robust confidence intervals
 def robust_ci(data, confidence=0.95, method='trimmed_mean'):
     """Robust confidence intervals"""
-    
+
     if method == 'trimmed_mean':
         # Trimmed mean CI
         trim_prop = 0.1
         from scipy.stats.mstats import trimmed_mean_ci
-        ci_lower, ci_upper = trimmed_mean_ci(data, limits=(trim_prop, trim_prop), 
+        ci_lower, ci_upper = trimmed_mean_ci(data, limits=(trim_prop, trim_prop),
                                            alpha=1-confidence)
     elif method == 'median':
         # Median CI using bootstrap
         ci_lower, ci_upper = bootstrap_ci(data, np.median, confidence=confidence)
-    
+
     return {
         'ci_lower': ci_lower,
         'ci_upper': ci_upper,
@@ -993,64 +993,64 @@ Comprehensive Effect Sizes:
 ```python
 def comprehensive_effect_sizes(group1, group2=None, paired=False):
     """Calculate multiple effect size measures"""
-    
+
     if group2 is None:
         # One-sample effect sizes
         n = len(group1)
         mean = np.mean(group1)
         std = np.std(group1, ddof=1)
-        
+
         # One-sample Cohen's d (against population mean of 0)
         cohens_d = mean / std
-        
+
         return {
             'cohens_d': cohens_d,
             'mean': mean,
             'std': std,
             'n': n
         }
-    
+
     else:
         # Two-sample effect sizes
         n1, n2 = len(group1), len(group2)
         mean1, mean2 = np.mean(group1), np.mean(group2)
         std1, std2 = np.std(group1, ddof=1), np.std(group2, ddof=1)
-        
+
         if paired:
             # Paired samples
             differences = group1 - group2
             cohens_d = np.mean(differences) / np.std(differences, ddof=1)
-            
+
             # Correlation between measurements
             correlation = np.corrcoef(group1, group2)[0, 1]
-            
+
             return {
                 'cohens_d_paired': cohens_d,
                 'mean_difference': np.mean(differences),
                 'correlation': correlation,
                 'n_pairs': n1
             }
-        
+
         else:
             # Independent samples
             # Cohen's d
             pooled_std = np.sqrt(((n1-1)*std1**2 + (n2-1)*std2**2) / (n1+n2-2))
             cohens_d = (mean1 - mean2) / pooled_std
-            
+
             # Hedges' g (unbiased Cohen's d)
             hedges_g = cohens_d * (1 - 3/(4*(n1+n2)-9))
-            
+
             # Glass's delta
             glass_delta = (mean1 - mean2) / std2
-            
+
             # Probability of superiority
             from scipy.stats import norm
             prob_superiority = norm.cdf(cohens_d / np.sqrt(2))
-            
+
             # Common language effect size
             u_stat, _ = mannwhitneyu(group1, group2)
             cles = u_stat / (n1 * n2)
-            
+
             return {
                 'cohens_d': cohens_d,
                 'hedges_g': hedges_g,
@@ -1067,29 +1067,29 @@ def anova_effect_sizes(data, outcome_var, group_var):
     # Perform ANOVA to get sum of squares
     groups = [group[outcome_var].values for name, group in data.groupby(group_var)]
     f_stat, p_value = f_oneway(*groups)
-    
+
     # Calculate sum of squares
     grand_mean = data[outcome_var].mean()
     n_total = len(data)
     k = len(groups)
-    
+
     # Between-groups sum of squares
     ss_between = sum([len(group) * (np.mean(group) - grand_mean)**2 for group in groups])
-    
-    # Within-groups sum of squares  
+
+    # Within-groups sum of squares
     ss_within = sum([np.sum((group - np.mean(group))**2) for group in groups])
-    
+
     # Total sum of squares
     ss_total = ss_between + ss_within
-    
+
     # Effect sizes
     eta_squared = ss_between / ss_total
     partial_eta_squared = ss_between / (ss_between + ss_within)
     omega_squared = (ss_between - (k-1) * (ss_within/(n_total-k))) / (ss_total + (ss_within/(n_total-k)))
-    
+
     # Cohen's f
     cohens_f = np.sqrt(eta_squared / (1 - eta_squared))
-    
+
     return {
         'eta_squared': eta_squared,
         'partial_eta_squared': partial_eta_squared,
@@ -1105,7 +1105,7 @@ Results Reporting Framework:
 ```python
 def format_statistical_results(test_results, test_type, alpha=0.05):
     """Format statistical results for reporting"""
-    
+
     def format_p_value(p):
         if p < 0.001:
             return "p < .001"
@@ -1113,7 +1113,7 @@ def format_statistical_results(test_results, test_type, alpha=0.05):
             return f"p = {p:.3f}"
         else:
             return f"p = {p:.3f}"
-    
+
     def interpret_effect_size(es, measure='cohens_d'):
         if measure == 'cohens_d':
             if abs(es) < 0.2:
@@ -1131,32 +1131,32 @@ def format_statistical_results(test_results, test_type, alpha=0.05):
                 return "medium"
             else:
                 return "large"
-    
+
     if test_type == 'ttest_ind':
         results_text = f"""
-        An independent samples t-test revealed a {'statistically significant' if test_results['p_value'] < alpha else 'non-significant'} 
-        difference between groups, t({test_results['df']:.0f}) = {test_results['t_statistic']:.3f}, 
-        {format_p_value(test_results['p_value'])}, Cohen's d = {test_results['cohens_d']:.3f} 
-        ({interpret_effect_size(test_results['cohens_d'])} effect size), 
+        An independent samples t-test revealed a {'statistically significant' if test_results['p_value'] < alpha else 'non-significant'}
+        difference between groups, t({test_results['df']:.0f}) = {test_results['t_statistic']:.3f},
+        {format_p_value(test_results['p_value'])}, Cohen's d = {test_results['cohens_d']:.3f}
+        ({interpret_effect_size(test_results['cohens_d'])} effect size),
         95% CI [{test_results['ci_lower']:.3f}, {test_results['ci_upper']:.3f}].
         """
-    
+
     elif test_type == 'anova_oneway':
         results_text = f"""
-        A one-way ANOVA revealed a {'statistically significant' if test_results['p_value'] < alpha else 'non-significant'} 
-        effect, F({test_results['df_between']}, {test_results['df_within']}) = {test_results['f_statistic']:.3f}, 
-        {format_p_value(test_results['p_value'])}, η² = {test_results['eta_squared']:.3f} 
+        A one-way ANOVA revealed a {'statistically significant' if test_results['p_value'] < alpha else 'non-significant'}
+        effect, F({test_results['df_between']}, {test_results['df_within']}) = {test_results['f_statistic']:.3f},
+        {format_p_value(test_results['p_value'])}, η² = {test_results['eta_squared']:.3f}
         ({interpret_effect_size(test_results['eta_squared'], 'eta_squared')} effect size).
         """
-    
+
     return results_text.strip()
 
 # Assumption checking report
 def assumption_check_report(data, test_type):
     """Generate assumption checking report"""
-    
+
     report = []
-    
+
     if test_type in ['ttest', 'anova']:
         # Check normality
         normality_results = test_normality_comprehensive(data, continuous_variables)
@@ -1167,7 +1167,7 @@ def assumption_check_report(data, test_type):
                 report.append(f"   - [VAR]: Normal (Shapiro-Wilk p = {results['shapiro_p']:.3f})")
             else:
                 report.append(f"   - [VAR]: Non-normal (Shapiro-Wilk p = {results['shapiro_p']:.3f})")
-    
+
     if test_type in ['ttest_ind', 'anova']:
         # Check homogeneity of variance
         homogeneity_results = test_homogeneity(data, outcome_var, group_var)
@@ -1176,7 +1176,7 @@ def assumption_check_report(data, test_type):
             report.append(f"   - Equal variances assumed (Levene's p = {homogeneity_results['levene_p']:.3f})")
         else:
             report.append(f"   - Unequal variances (Levene's p = {homogeneity_results['levene_p']:.3f})")
-    
+
     return "\n".join(report)
 ```
 
@@ -1188,43 +1188,43 @@ import seaborn as sns
 
 def create_statistical_plots(data, results, plot_type):
     """Create comprehensive statistical visualization"""
-    
+
     fig, axes = plt.subplots(2, 3, figsize=(18, 12))
-    
+
     if plot_type == 'ttest_comparison':
         # Group comparison plots
-        
+
         # Box plot
         sns.boxplot(x=group_var, y=outcome_var, data=data, ax=axes[0, 0])
         axes[0, 0].set_title('Group Comparison (Box Plot)')
-        
+
         # Violin plot with individual points
         sns.violinplot(x=group_var, y=outcome_var, data=data, ax=axes[0, 1])
-        sns.swarmplot(x=group_var, y=outcome_var, data=data, ax=axes[0, 1], 
+        sns.swarmplot(x=group_var, y=outcome_var, data=data, ax=axes[0, 1],
                      color='white', alpha=0.7, size=3)
         axes[0, 1].set_title('Distribution Comparison')
-        
+
         # Histogram overlay
         for i, group in enumerate(data[group_var].unique()):
             subset = data[data[group_var] == group][outcome_var]
             axes[0, 2].hist(subset, alpha=0.7, label=f'Group [GROUP]', bins=20)
         axes[0, 2].legend()
         axes[0, 2].set_title('Distribution Overlay')
-        
+
         # Q-Q plots
         from scipy.stats import probplot
         groups = data.groupby(group_var)
         for i, (name, group) in enumerate(groups):
             probplot(group[outcome_var], dist="norm", plot=axes[1, i])
             axes[1, i].set_title(f'Q-Q Plot: [NAME]')
-        
+
         # Effect size visualization
         effect_size = results['cohens_d']
         ci_lower = results['ci_lower']
         ci_upper = results['ci_upper']
-        
-        axes[1, 2].errorbar([0], [effect_size], 
-                           yerr=[[effect_size - ci_lower], [ci_upper - effect_size]], 
+
+        axes[1, 2].errorbar([0], [effect_size],
+                           yerr=[[effect_size - ci_lower], [ci_upper - effect_size]],
                            fmt='o', capsize=10, capthick=2, elinewidth=2, markersize=8)
         axes[1, 2].axhline(y=0, color='red', linestyle='--', alpha=0.7)
         axes[1, 2].axhline(y=0.2, color='orange', linestyle=':', alpha=0.5, label='Small effect')
@@ -1234,55 +1234,55 @@ def create_statistical_plots(data, results, plot_type):
         axes[1, 2].set_title('Effect Size with 95% CI')
         axes[1, 2].legend()
         axes[1, 2].set_xlim(-0.5, 0.5)
-    
+
     elif plot_type == 'power_analysis':
         # Power analysis visualization
         from statsmodels.stats.power import TTestPower
-        
+
         power_analysis = TTestPower()
-        
+
         # Effect size vs Power
         effect_sizes = np.linspace(0, 2, 100)
         sample_sizes = [10, 20, 50, 100, 200]
-        
+
         for n in sample_sizes:
-            power_values = power_analysis.solve_power(effect_size=effect_sizes, 
+            power_values = power_analysis.solve_power(effect_size=effect_sizes,
                                                      nobs=n, alpha=0.05)
             axes[0, 0].plot(effect_sizes, power_values, label=f'n=[N]')
-        
+
         axes[0, 0].axhline(y=0.8, color='red', linestyle='--', label='Power=0.8')
         axes[0, 0].set_xlabel('Effect Size (Cohen\'s d)')
         axes[0, 0].set_ylabel('Statistical Power')
         axes[0, 0].set_title('Power vs Effect Size')
         axes[0, 0].legend()
         axes[0, 0].grid(True, alpha=0.3)
-        
+
         # Sample size vs Power
         sample_sizes = np.arange(5, 200, 5)
         effect_sizes_power = [0.2, 0.5, 0.8, 1.0]
-        
+
         for es in effect_sizes_power:
-            power_values = power_analysis.solve_power(effect_size=es, 
+            power_values = power_analysis.solve_power(effect_size=es,
                                                      nobs=sample_sizes, alpha=0.05)
             axes[0, 1].plot(sample_sizes, power_values, label=f'd=[ES]')
-        
+
         axes[0, 1].axhline(y=0.8, color='red', linestyle='--', label='Power=0.8')
         axes[0, 1].set_xlabel('Sample Size per Group')
         axes[0, 1].set_ylabel('Statistical Power')
         axes[0, 1].set_title('Power vs Sample Size')
         axes[0, 1].legend()
         axes[0, 1].grid(True, alpha=0.3)
-    
+
     plt.tight_layout()
     return fig
 
 # Create publication-ready plots
 def publication_plots(results_dict):
     """Create publication-ready statistical plots"""
-    
+
     # Set publication style
     plt.style.use('seaborn-v0_8-whitegrid')
-    
+
     # Create comprehensive results figure
     return create_statistical_plots(df, results_dict, 'ttest_comparison')
 ```
@@ -1641,8 +1641,6 @@ Deliver comprehensive statistical analysis including:
 
 ## Usage Examples
 
-
-
 ## Best Practices
 
 1. **Start with clear objectives** - Define what success looks like before beginning
@@ -1721,7 +1719,7 @@ RANDOM_EFFECTS_MODEL: "DerSimonian-Laird method"
 
 1. **Statistical Approach**
    - Frequentist inference
-   - Bayesian inference  
+   - Bayesian inference
    - Nonparametric methods
    - Robust statistics
    - Bootstrap procedures

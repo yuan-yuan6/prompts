@@ -236,8 +236,6 @@ Character Development:
 | `[GENRE_BLENDING]` | Specify the genre blending | "[specify value]" |
 | `[CREATIVE_CONSTRAINTS]` | Specify the creative constraints | "[specify value]" |
 
-
-
 ### Poetry Collection
 ```
 Create poetry collection in contemporary genre for young adult readers with 20 poems targeting indie publisher. The writing should explore coming-of-age and identity themes and maintain hopeful tone throughout.

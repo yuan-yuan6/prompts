@@ -22,19 +22,19 @@ Develop comprehensive review protocols and search strategies for systematic lite
 
 ### For Researchers & Protocol Developers
 
-**Step 1: Define Your Review Scope (15 minutes)**
+**Step 1: Define Your Review Scope**
 - Articulate your research problem and significance
 - Identify your theoretical framework and paradigm
 - Determine review type (systematic, narrative, meta-analysis, scoping)
 - Establish clear research questions and objectives
 
-**Step 2: Design Your Search Strategy (20 minutes)**
+**Step 2: Design Your Search Strategy**
 - Develop primary and secondary keyword lists
 - Select appropriate academic and professional databases
 - Create Boolean search logic and term variations
 - Plan citation tracking and grey literature sources
 
-**Step 3: Develop Your Protocol (10 minutes)**
+**Step 3: Develop Your Protocol**
 - Input specifications into the template variables
 - Generate comprehensive protocol framework with:
   - Structured research context and rationale
@@ -42,7 +42,7 @@ Develop comprehensive review protocols and search strategies for systematic lite
   - Quality assurance measures
   - PRISMA-compliant methodology
 
-**Step 4: Register and Document (5 minutes)**
+**Step 4: Register and Document**
 - Register protocol (PROSPERO, OSF, etc.)
 - Document all methodological decisions
 - Plan for protocol deviations and updates

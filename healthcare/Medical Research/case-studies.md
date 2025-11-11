@@ -210,7 +210,7 @@ Skin: [SKIN_FINDINGS]
 2. [IMAGING_STUDY_2] - Date: [IMAGING_DATE_2]
    Technique: [IMAGING_TECHNIQUE_2]
    Findings: [IMAGING_FINDINGS_2]
-   
+
 3. [IMAGING_STUDY_3] - Date: [IMAGING_DATE_3]
    Findings: [IMAGING_FINDINGS_3]
 
@@ -441,8 +441,6 @@ Case quality: [OVERALL_CASE_QUALITY]
 [450+ variables covering comprehensive case study development including patient presentation, diagnostic workup, treatment, outcomes, educational value, and learning objectives]
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

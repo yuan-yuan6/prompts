@@ -357,8 +357,6 @@ Outputs (Immediate):
 | `[GREEN_PRACTICE]` | Specify the green practice | "[specify value]" |
 | `[CIRCULAR_ECON]` | Specify the circular econ | "[specify value]" |
 
-
-
 ### 3. Intervention Logic & Activities
 
 | **Intervention Level** | **Activities** | **Target Group** | **Delivery Method** | **Resources Required** | **Success Factors** |
@@ -518,8 +516,6 @@ Institutional Sustainability:
 ```
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

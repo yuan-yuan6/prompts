@@ -24,7 +24,7 @@ Create comprehensive training program strategies covering onboarding, skills dev
 
 ### Minimal Example
 ```
-Design training program for Customer Service team (25 employees). Goal: Improve product knowledge and communication skills. Current level: Basic. Timeline: Launch in 4 weeks. Delivery: Blended (2 days in-person, 3 hours online modules). Budget: $15k. Include assessments and 30-day follow-up coaching.
+Design training program for Customer Service team (25 employees). Goal: Improve product knowledge and communication skills. Current level: Basic. Timeline: Launch in 4 weeks. Delivery: Blended. Budget: $15k. Include assessments and 30-day follow-up coaching.
 ```
 
 ### When to Use This

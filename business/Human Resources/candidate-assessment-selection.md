@@ -102,7 +102,7 @@ Design practical evaluation:
 - Simulation exercises
 
 **Take-Home Assignments**
-- Scope and time expectations (2-4 hours max)
+- Scope and time expectations
 - Real-world problem or scenario
 - Evaluation criteria and rubric
 - Compensation consideration for extensive work

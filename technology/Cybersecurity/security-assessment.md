@@ -187,8 +187,6 @@ Vulnerability Assessment:
 | `[CONTROL_GAPS]` | Specify the control gaps | "[specify value]" |
 | `[CONTROL_RECOMMENDATIONS]` | Specify the control recommendations | "[specify value]" |
 
-
-
 ## Best Practices
 
 1. **Define clear scope and rules of engagement**

@@ -51,7 +51,7 @@ Your Network Analysis Goal → Recommended Module:
    → network-analysis-paths-temporal.md (Temporal section, 2-4 hours)
 
 6. Create visualizations and dashboards
-   → network-analysis-visualization.md (1-3 hours)
+   → network-analysis-visualization.md
 ```
 
 ### Basic 3-Step Workflow

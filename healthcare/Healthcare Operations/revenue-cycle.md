@@ -323,8 +323,6 @@ Financial Clearance:
 | `[PAYER_IMPACT]` | Specify the payer impact | "[specify value]" |
 | `[PAYER_STATUS]` | Specify the payer status | "In Progress" |
 
-
-
 ### 3. Charge Capture & Coding
 
 | **Service Line** | **Monthly Charges** | **Charge Lag** | **Coding Accuracy** | **DRG/APC Accuracy** | **CDI Impact** |
@@ -439,8 +437,6 @@ AI/ML Applications:
 | Payer Contract Optimization | $[PAYER_INVEST] | [PAYER_TIME] | [PAYER_ROI]% | $[PAYER_IMPACT] | [PAYER_STATUS] |
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

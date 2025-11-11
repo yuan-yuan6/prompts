@@ -21,19 +21,19 @@ Create comprehensive data analysis plans covering statistical analysis, qualitat
 
 ### For Researchers & Data Analysts
 
-**Step 1: Define Your Analysis Context (10 minutes)**
+**Step 1: Define Your Analysis Context**
 - Specify your research questions and hypotheses
 - Identify study design type (experimental, observational, longitudinal, etc.)
 - List all variables: dependent, independent, moderating, mediating, and control variables
 - Determine measurement scales and data types collected
 
-**Step 2: Select Analysis Software and Approach (5 minutes)**
+**Step 2: Select Analysis Software and Approach**
 - Choose primary analysis software (SPSS, R, Python, NVivo, ATLAS.ti, etc.)
 - Define analytical paradigm (positivist, interpretivist, pragmatic)
 - Specify analysis approach (confirmatory, exploratory, or mixed)
 - Set statistical power requirements and effect sizes of interest
 
-**Step 3: Generate Your Analysis Plan (2 minutes)**
+**Step 3: Generate Your Analysis Plan**
 - Input your specifications into the template variables
 - Generate comprehensive analysis framework including:
   - Data preparation and cleaning procedures
@@ -86,28 +86,28 @@ Research Context:
 ### Generate a comprehensive data analysis plan
 
 1. DATA ANALYSIS OVERVIEW
-   
+
 ### Analysis Philosophy
    • [ANALYTICAL_PARADIGM]: [Positivist/Interpretivist/Pragmatic]
    • [ANALYSIS_APPROACH]: [Confirmatory/Exploratory/Mixed]
    • [STATISTICAL_PHILOSOPHY]: [Frequentist/Bayesian]
-   
+
 ### Analysis Software and Tools
    Primary Software: [PRIMARY_SOFTWARE]
    • Version: [SOFTWARE_VERSION]
    • Key packages/modules: [SOFTWARE_PACKAGES]
    • Specialized functions: [SPECIALIZED_FUNCTIONS]
-   
+
    Secondary Software: [SECONDARY_SOFTWARE]
    • Purpose: [SECONDARY_PURPOSE]
    • Integration approach: [INTEGRATION_METHOD]
-   
+
 ### Analysis Team
    • Lead Analyst: [LEAD_ANALYST_ROLE]
    • Statistical Consultant: [STATISTICAL_CONSULTANT]
    • Qualitative Analyst: [QUALITATIVE_ANALYST]
    • Data Management: [DATA_MANAGER]
-   
+
 ### Quality Assurance
    • [ANALYSIS_VERIFICATION_PROCEDURES]
    • [INDEPENDENT_ANALYSIS_CHECKS]
@@ -115,46 +115,46 @@ Research Context:
    • [REPRODUCIBILITY_MEASURES]
 
 2. DATA PREPARATION & MANAGEMENT
-   
+
 ### Data Import and Setup
    • [DATA_IMPORT_PROCEDURES]
    • [DATA_FORMAT_CONVERSIONS]
    • [VARIABLE_NAMING_CONVENTIONS]
    • [DATA_STRUCTURE_ORGANIZATION]
-   
+
 ### Data Cleaning Procedures
-   
+
 ### Outlier Detection
    • [OUTLIER_DETECTION_METHODS]
    • [OUTLIER_CRITERIA]: [Statistical thresholds]
    • [OUTLIER_TREATMENT_STRATEGY]
    • [OUTLIER_SENSITIVITY_ANALYSIS]
-   
+
 ### Missing Data Assessment
 ### Missing Data Patterns
    • [MISSING_DATA_MECHANISM]: [MCAR/MAR/MNAR]
    • [MISSING_DATA_TESTS]: [Little's MCAR test, etc.]
    • [MISSING_DATA_VISUALIZATION]
    • [MISSING_DATA_PATTERNS_ANALYSIS]
-   
+
 ### Missing Data Treatment
    • [LISTWISE_DELETION_CONDITIONS]
    • [IMPUTATION_METHODS]: [Mean/Median/Mode/Multiple/Model-based]
    • [IMPUTATION_SOFTWARE]: [Specific packages/procedures]
    • [IMPUTATION_DIAGNOSTICS]
    • [SENSITIVITY_ANALYSIS_MISSING]
-   
+
 ### Data Transformation
 ### Variable Transformations
    • [TRANSFORMATION_1]: [Log/Square root/Reciprocal] for [VARIABLE_1]
    • [TRANSFORMATION_2]: [Normalization/Standardization] for [VARIABLE_2]
    • [TRANSFORMATION_3]: [Categorical recoding] for [VARIABLE_3]
-   
+
 ### Composite Variable Creation
    • [COMPOSITE_VARIABLE_1]: [Calculation method]
    • [COMPOSITE_VARIABLE_2]: [Aggregation approach]
    • [SCALE_RELIABILITY_ASSESSMENT]
-   
+
 ### Data Quality Checks
    • [RANGE_CHECKS]: [Acceptable value ranges]
    • [CONSISTENCY_CHECKS]: [Cross-variable validation]
@@ -162,45 +162,45 @@ Research Context:
    • [DUPLICATE_DETECTION]: [Identification procedures]
 
 3. DESCRIPTIVE ANALYSIS PLAN
-   
+
 ### Sample Description
-   
+
 ### Demographic Analysis
    • [DEMOGRAPHIC_VARIABLE_1]: [Frequency/Percentage/Mean ± SD]
    • [DEMOGRAPHIC_VARIABLE_2]: [Median/IQR/Range]
    • [DEMOGRAPHIC_VARIABLE_3]: [Mode/Distribution shape]
-   
+
 ### Sample Characteristics
    • [SAMPLE_SIZE_BREAKDOWN]: By [GROUPING_VARIABLE]
    • [ATTRITION_ANALYSIS]: [Dropout patterns and reasons]
    • [REPRESENTATIVENESS_ASSESSMENT]: [Comparison to population]
-   
+
 ### Variable Distributions
-   
+
 ### Continuous Variables
    For each [CONTINUOUS_VARIABLE]:
    • Measures of central tendency: [Mean/Median/Mode]
    • Measures of dispersion: [SD/Variance/Range/IQR]
    • Distribution shape: [Skewness/Kurtosis/Visual inspection]
    • Normality assessment: [Shapiro-Wilk/Kolmogorov-Smirnov]
-   
+
 ### Categorical Variables
    For each [CATEGORICAL_VARIABLE]:
    • Frequency distributions: [Counts and percentages]
    • Cross-tabulations: [With key grouping variables]
    • Missing data summary: [Patterns and percentages]
-   
+
 ### Correlation Analysis
-   
+
 ### Bivariate Correlations
    • [CORRELATION_METHOD]: [Pearson/Spearman/Kendall's tau]
    • [CORRELATION_MATRIX]: All continuous variables
    • [CORRELATION_SIGNIFICANCE]: [Bonferroni/FDR correction]
-   
+
 ### Association Measures
    • [CATEGORICAL_ASSOCIATIONS]: [Chi-square/Cramér's V/Phi]
    • [MIXED_ASSOCIATIONS]: [Point-biserial/Eta-squared]
-   
+
 ### Data Visualization
    • [HISTOGRAM_DISTRIBUTIONS]: For all continuous variables
    • [BOXPLOT_COMPARISONS]: By grouping variables
@@ -208,91 +208,91 @@ Research Context:
    • [BAR_CHARTS]: For categorical variables
 
 4. STATISTICAL ASSUMPTIONS TESTING
-   
+
 ### Parametric Assumptions
-   
+
 ### Normality Testing
    • [NORMALITY_TESTS]: [Shapiro-Wilk/Anderson-Darling/Jarque-Bera]
    • [NORMALITY_CRITERIA]: [p-value thresholds]
    • [NORMALITY_VISUALIZATION]: [Q-Q plots/Histograms]
    • [NORMALITY_TRANSFORMATION]: If violated
-   
+
 ### Homogeneity of Variance
    • [HOMOGENEITY_TESTS]: [Levene's/Bartlett's/Brown-Forsythe]
    • [HOMOGENEITY_CRITERIA]: [Test statistics and p-values]
    • [HOMOGENEITY_REMEDIATION]: [Welch's correction/Transformations]
-   
+
 ### Independence of Observations
    • [INDEPENDENCE_ASSESSMENT]: [Durbin-Watson/Visual inspection]
    • [CLUSTERING_EFFECTS]: [ICC/Design effect calculations]
    • [INDEPENDENCE_VIOLATIONS]: [Mixed models consideration]
-   
+
 ### Linearity Assessment
    • [LINEARITY_TESTS]: [Rainbow test/Harvey-Collier test]
    • [LINEARITY_VISUALIZATION]: [Residual plots/Scatterplots]
    • [NONLINEARITY_MODELING]: [Polynomial/Spline terms]
-   
+
 ### Multicollinearity Detection
    • [MULTICOLLINEARITY_MEASURES]: [VIF/Tolerance/Condition index]
    • [MULTICOLLINEARITY_THRESHOLDS]: [VIF > 10, Tolerance < 0.1]
    • [MULTICOLLINEARITY_REMEDIATION]: [Variable selection/Ridge regression]
 
 5. PRIMARY STATISTICAL ANALYSIS
-   
+
 ### Hypothesis Testing Framework
    • [SIGNIFICANCE_LEVEL]: α = [ALPHA_LEVEL]
    • [MULTIPLE_COMPARISONS]: [Bonferroni/Holm/FDR adjustment]
    • [EFFECT_SIZE_MEASURES]: [Cohen's d/Eta-squared/R-squared]
    • [CONFIDENCE_INTERVALS]: [CONFIDENCE_LEVEL]% CIs
-   
+
    Primary Analysis for [PRIMARY_HYPOTHESIS_1]:
-   
+
    Statistical Test: [PRIMARY_TEST_1]
    • Test rationale: [TEST_JUSTIFICATION_1]
    • Assumptions checked: [ASSUMPTION_LIST_1]
    • Effect size: [EFFECT_SIZE_MEASURE_1]
    • Power analysis: [POST_HOC_POWER_1]
-   
+
 ### Analysis Procedure
    1. [ANALYSIS_STEP_1_1]
    2. [ANALYSIS_STEP_1_2]
    3. [ANALYSIS_STEP_1_3]
    4. [ANALYSIS_STEP_1_4]
-   
+
 ### Interpretation Framework
    • [STATISTICAL_SIGNIFICANCE_INTERPRETATION]
    • [PRACTICAL_SIGNIFICANCE_INTERPRETATION]
    • [CONFIDENCE_INTERVAL_INTERPRETATION]
-   
+
    Primary Analysis for [PRIMARY_HYPOTHESIS_2]:
-   
+
    Statistical Test: [PRIMARY_TEST_2]
    • Test rationale: [TEST_JUSTIFICATION_2]
    • Assumptions checked: [ASSUMPTION_LIST_2]
    • Effect size: [EFFECT_SIZE_MEASURE_2]
    • Power analysis: [POST_HOC_POWER_2]
-   
+
 ### Model Specification
    • [MODEL_EQUATION]: Mathematical representation
    • [MODEL_PARAMETERS]: [Parameter interpretation]
    • [MODEL_ASSUMPTIONS]: [Specific to this analysis]
-   
+
 ### Advanced Statistical Techniques
-   
+
 ### Regression Analysis
    Model Type: [LINEAR/LOGISTIC/POISSON/NEGATIVE_BINOMIAL]
-   
+
 ### Model Building Strategy
    • [VARIABLE_SELECTION_METHOD]: [Forward/Backward/Stepwise/Theory-driven]
    • [MODEL_COMPARISON_CRITERIA]: [AIC/BIC/Cross-validation]
    • [INTERACTION_TESTING]: [Planned interactions]
    • [MODEL_VALIDATION]: [Cross-validation/Bootstrap]
-   
+
 ### Multivariate Analysis
    • [MULTIVARIATE_METHOD]: [MANOVA/Discriminant/Factor/Cluster]
    • [MULTIVARIATE_ASSUMPTIONS]: [Specific checks]
    • [DIMENSION_REDUCTION]: [PCA/Factor analysis]
-   
+
    Time Series Analysis (if applicable):
    • [TIME_SERIES_METHOD]: [ARIMA/VAR/State-space]
    • [STATIONARITY_TESTING]: [ADF/KPSS tests]
@@ -300,306 +300,306 @@ Research Context:
    • [FORECASTING_APPROACH]: [Method and validation]
 
 6. SECONDARY & EXPLORATORY ANALYSIS
-   
+
 ### Secondary Hypotheses Testing
-   
+
    Analysis for [SECONDARY_HYPOTHESIS_1]:
    • [SECONDARY_TEST_1]: [Test description]
    • [SECONDARY_RATIONALE_1]: [Why this test]
    • [SECONDARY_INTERPRETATION_1]: [How to interpret]
-   
+
    Analysis for [SECONDARY_HYPOTHESIS_2]:
    • [SECONDARY_TEST_2]: [Test description]
    • [SECONDARY_RATIONALE_2]: [Why this test]
    • [SECONDARY_INTERPRETATION_2]: [How to interpret]
-   
+
 ### Exploratory Data Analysis
-   
+
 ### Data Mining Approaches
    • [CLUSTERING_ANALYSIS]: [K-means/Hierarchical/DBSCAN]
    • [CLASSIFICATION_TREES]: [Decision trees/Random forest]
    • [PATTERN_RECOGNITION]: [Association rules/Sequence analysis]
-   
+
 ### Subgroup Analysis
 ### Planned Subgroups
    • [SUBGROUP_1]: [Definition and analysis approach]
    • [SUBGROUP_2]: [Definition and analysis approach]
    • [SUBGROUP_INTERACTION_TESTS]
-   
+
    Post-hoc Analysis:
    • [POST_HOC_COMPARISONS]: [Tukey/Scheffe/Bonferroni]
    • [POST_HOC_CONTRASTS]: [Planned/Unplanned comparisons]
    • [POST_HOC_POWER]: [Observed power calculations]
-   
+
 ### Sensitivity Analysis
    • [SENSITIVITY_SCENARIO_1]: [Alternative analysis approach]
    • [SENSITIVITY_SCENARIO_2]: [Robustness check]
    • [SENSITIVITY_INTERPRETATION]: [How to interpret differences]
 
 7. QUALITATIVE ANALYSIS PLAN
-   
+
 ### Qualitative Data Types
    • [QUALITATIVE_DATA_TYPE_1]: [Interviews/Focus groups/Observations]
    • [QUALITATIVE_DATA_TYPE_2]: [Documents/Artifacts/Media]
    • [QUALITATIVE_DATA_VOLUME]: [Hours/Pages/Files]
-   
+
 ### Analysis Methodology
-   
+
    Primary Approach: [THEMATIC/CONTENT/NARRATIVE/GROUNDED_THEORY/PHENOMENOLOGICAL]
-   
+
 ### Philosophical Foundation
    • [ONTOLOGICAL_POSITION]: [Realist/Relativist/Critical realist]
    • [EPISTEMOLOGICAL_STANCE]: [Objectivist/Constructivist/Subjectivist]
    • [THEORETICAL_FRAMEWORK]: [Inductive/Deductive/Abductive]
-   
+
 ### Data Preparation
-   
+
 ### Transcription Procedures
    • [TRANSCRIPTION_STYLE]: [Verbatim/Intelligent/Detailed]
    • [TRANSCRIPTION_NOTATION]: [Jefferson/Simplified/Custom]
    • [TRANSCRIPTION_QUALITY]: [Accuracy checks/Verification]
    • [TRANSCRIPTION_SOFTWARE]: [Software used]
-   
+
 ### Data Organization
    • [DATA_MANAGEMENT_SYSTEM]: [File organization structure]
    • [CODING_SOFTWARE]: [NVivo/Atlas.ti/MAXQDA/Dedoose]
    • [BACKUP_PROCEDURES]: [Data security measures]
    • [VERSION_CONTROL]: [File version management]
-   
+
 ### Coding Procedures
-   
+
    Phase 1: Initial Coding
    Coding Approach: [OPEN/AXIAL/SELECTIVE/IN_VIVO]
    • [CODING_UNIT]: [Word/Phrase/Sentence/Paragraph]
    • [CODING_STRATEGY]: [Line-by-line/Incident-by-incident]
    • [INITIAL_CODE_DEVELOPMENT]: [Process description]
-   
+
    Phase 2: Focused Coding
    • [FOCUSED_CODING_CRITERIA]: [Selection criteria]
    • [CODE_REFINEMENT_PROCESS]: [How codes are refined]
    • [CATEGORY_DEVELOPMENT]: [Grouping procedures]
-   
+
    Phase 3: Theoretical Coding
    • [THEORETICAL_INTEGRATION]: [Theory building approach]
    • [RELATIONSHIP_IDENTIFICATION]: [Between categories]
    • [CORE_CATEGORY_SELECTION]: [Central organizing concept]
-   
+
    Inter-coder Reliability:
    • [RELIABILITY_APPROACH]: [Percent agreement/Cohen's kappa/Krippendorff's alpha]
    • [RELIABILITY_THRESHOLD]: [Acceptable agreement level]
    • [DISAGREEMENT_RESOLUTION]: [Consensus procedures]
    • [RELIABILITY_REPORTING]: [How reported in results]
-   
+
 ### Theme Development
-   
+
 ### Theme Identification
    • [THEME_DEFINITION_CRITERIA]: [What constitutes a theme]
    • [THEME_PREVALENCE]: [Frequency vs. importance]
    • [THEME_COHERENCE]: [Internal consistency]
    • [THEME_DISTINCTIVENESS]: [Clear boundaries]
-   
+
 ### Theme Refinement
    • [THEME_REVIEW_PROCESS]: [Multiple review stages]
    • [THEME_VALIDATION]: [Data fit assessment]
    • [THEME_NAMING]: [Clear and concise labels]
    • [THEME_HIERARCHY]: [Main themes and subthemes]
-   
+
 ### Analysis Quality Assurance
-   
+
 ### Trustworthiness Criteria
 ### Credibility
    • [PROLONGED_ENGAGEMENT]: [Time in field/with data]
    • [TRIANGULATION]: [Data/Method/Investigator/Theory]
    • [MEMBER_CHECKING]: [Participant validation]
    • [PEER_DEBRIEFING]: [External perspective]
-   
+
 ### Transferability
    • [THICK_DESCRIPTION]: [Rich contextual details]
    • [PURPOSIVE_SAMPLING]: [Maximum variation]
    • [CONTEXTUAL_INFORMATION]: [Setting description]
-   
+
 ### Dependability
    • [AUDIT_TRAIL]: [Decision documentation]
    • [METHODOLOGICAL_CONSISTENCY]: [Process stability]
    • [EXTERNAL_AUDITING]: [Independent review]
-   
+
 ### Confirmability
    • [REFLEXIVITY]: [Researcher self-awareness]
    • [BIAS_ACKNOWLEDGMENT]: [Assumption examination]
    • [DATA_GROUNDING]: [Evidence-based conclusions]
 
 8. MIXED METHODS INTEGRATION
-   
+
 ### Integration Strategy
-   
+
    Design Type: [CONVERGENT/SEQUENTIAL_EXPLANATORY/SEQUENTIAL_EXPLORATORY/EMBEDDED]
-   
+
 ### Integration Approach
    • [INTEGRATION_TIMING]: [Concurrent/Sequential]
    • [INTEGRATION_EMPHASIS]: [Equal/Quantitative priority/Qualitative priority]
    • [INTEGRATION_PROCEDURES]: [Specific methods]
-   
+
 ### Data Transformation
-   
+
 ### Quantification of Qualitative Data
    • [QUANTIFICATION_METHOD]: [Counting/Scaling/Typology creation]
    • [QUANTIFICATION_PURPOSE]: [Statistical analysis/Comparison]
    • [QUANTIFICATION_VALIDATION]: [Quality checks]
-   
+
 ### Qualification of Quantitative Data
    • [QUALIFICATION_APPROACH]: [Narrative/Case selection]
    • [QUALIFICATION_PURPOSE]: [Explanation/Exploration]
    • [QUALIFICATION_CRITERIA]: [Selection procedures]
-   
+
 ### Comparative Analysis
-   
+
 ### Convergence Assessment
    • [CONVERGENCE_CRITERIA]: [Agreement standards]
    • [CONVERGENCE_ANALYSIS]: [Side-by-side comparison]
    • [CONVERGENCE_INTERPRETATION]: [Meaning of agreement]
-   
+
 ### Divergence Exploration
    • [DIVERGENCE_IDENTIFICATION]: [Discrepancy detection]
    • [DIVERGENCE_EXPLANATION]: [Reason exploration]
    • [DIVERGENCE_RESOLUTION]: [Integration approach]
-   
+
 ### Joint Displays
    • [JOINT_DISPLAY_TYPE]: [Comparison/Expansion/Integration]
    • [JOINT_DISPLAY_CONTENT]: [What is displayed]
    • [JOINT_DISPLAY_PURPOSE]: [Integration goal]
-   
+
    Meta-inferences:
    • [META_INFERENCE_DEVELOPMENT]: [Higher-order interpretation]
    • [META_INFERENCE_VALIDATION]: [Quality assessment]
    • [META_INFERENCE_IMPLICATIONS]: [Broader meaning]
 
 9. ADVANCED ANALYTICAL TECHNIQUES
-   
+
 ### Machine Learning Approaches
-   
+
 ### Supervised Learning
    • [SUPERVISED_METHOD_1]: [Random Forest/SVM/Neural Networks]
    • [SUPERVISED_PURPOSE_1]: [Prediction/Classification goal]
    • [SUPERVISED_VALIDATION_1]: [Cross-validation approach]
-   
+
 ### Unsupervised Learning
    • [UNSUPERVISED_METHOD_1]: [Clustering/Dimensionality reduction]
    • [UNSUPERVISED_PURPOSE_1]: [Pattern discovery goal]
    • [UNSUPERVISED_EVALUATION_1]: [Quality metrics]
-   
+
 ### Longitudinal Analysis
-   
+
 ### Growth Curve Modeling
    • [GROWTH_MODEL_TYPE]: [Linear/Quadratic/Piecewise]
    • [GROWTH_PARAMETERS]: [Intercept/Slope/Acceleration]
    • [GROWTH_PREDICTORS]: [Time-invariant/Time-varying]
-   
+
 ### Survival Analysis
    • [SURVIVAL_METHOD]: [Kaplan-Meier/Cox regression/Parametric]
    • [SURVIVAL_ASSUMPTIONS]: [Proportional hazards/Competing risks]
    • [SURVIVAL_INTERPRETATION]: [Hazard ratios/Survival curves]
-   
+
 ### Structural Equation Modeling
    • [SEM_MODEL_TYPE]: [Confirmatory/Exploratory/Path analysis]
    • [SEM_ESTIMATION]: [Maximum likelihood/Robust methods]
    • [SEM_FIT_INDICES]: [CFI/RMSEA/SRMR/Chi-square]
-   
+
 ### Multilevel Analysis
    • [MULTILEVEL_STRUCTURE]: [Level definitions]
    • [MULTILEVEL_EFFECTS]: [Fixed/Random effects]
    • [MULTILEVEL_ASSUMPTIONS]: [Residual structure]
 
 10. REPORTING & INTERPRETATION FRAMEWORK
-    
+
 ### Statistical Reporting Standards
-    
+
 ### Descriptive Statistics
     • [DESCRIPTIVE_REPORTING]: [M ± SD, Median (IQR), n (%)]
     • [MISSING_DATA_REPORTING]: [Patterns and handling]
     • [SAMPLE_CHARACTERISTICS]: [Demographic tables]
-    
+
 ### Inferential Statistics
     • [TEST_STATISTIC_REPORTING]: [Statistic, df, p-value]
     • [EFFECT_SIZE_REPORTING]: [Point estimate and CI]
     • [ASSUMPTION_REPORTING]: [Violations and handling]
-    
+
 ### Model Results
     • [MODEL_FIT_REPORTING]: [Goodness-of-fit measures]
     • [PARAMETER_REPORTING]: [Estimates, SE, p-values]
     • [MODEL_COMPARISON]: [Information criteria]
-    
+
 ### Qualitative Reporting
-    
+
 ### Theme Presentation
     • [THEME_ORGANIZATION]: [Hierarchical/Narrative structure]
     • [QUOTE_SELECTION]: [Representative examples]
     • [PARTICIPANT_ATTRIBUTION]: [Anonymous identification]
-    
+
 ### Process Description
     • [ANALYSIS_TRANSPARENCY]: [Decision documentation]
     • [REFLEXIVITY_REPORTING]: [Researcher influence]
     • [QUALITY_EVIDENCE]: [Trustworthiness demonstration]
-    
+
 ### Interpretation Guidelines
-    
+
 ### Statistical Interpretation
     • [STATISTICAL_VS_PRACTICAL]: [Significance vs. importance]
     • [CONFIDENCE_INTERVAL_USE]: [Precision estimation]
     • [P_VALUE_INTERPRETATION]: [Null hypothesis testing]
-    
+
 ### Qualitative Interpretation
     • [MEANING_MAKING]: [Theoretical integration]
     • [CONTEXT_CONSIDERATION]: [Situational factors]
     • [PARTICIPANT_VOICE]: [Authentic representation]
-    
+
 ### Mixed Methods Integration
     • [INTEGRATION_REPORTING]: [Joint findings presentation]
     • [CONVERGENCE_DIVERGENCE]: [Agreement/Disagreement discussion]
     • [META_INFERENCE_PRESENTATION]: [Higher-order conclusions]
 
 11. QUALITY CONTROL & VALIDATION
-    
+
 ### Analytical Quality Assurance
-    
+
 ### Code Verification
     • [CODE_REVIEW_PROCESS]: [Peer review procedures]
     • [CODE_DOCUMENTATION]: [Comment standards]
     • [CODE_TESTING]: [Output verification]
-    
+
 ### Result Validation
     • [INDEPENDENT_ANALYSIS]: [Parallel analysis procedures]
     • [RESULT_COMPARISON]: [Cross-validation methods]
     • [SENSITIVITY_TESTING]: [Robustness checks]
-    
+
 ### Reproducibility Measures
     • [ANALYSIS_DOCUMENTATION]: [Step-by-step procedures]
     • [DATA_AVAILABILITY]: [Sharing protocols]
     • [CODE_SHARING]: [Analysis script availability]
-    
+
 ### Error Detection
     • [ERROR_CHECKING_PROCEDURES]: [Systematic review]
     • [OUTLIER_INVESTIGATION]: [Extreme value examination]
     • [LOGIC_VALIDATION]: [Results reasonableness]
 
 12. ANALYSIS TIMELINE & MILESTONES
-    
+
 ### Analysis Phases
-    
+
     Phase 1: Data Preparation ([PREP_TIMELINE])
     • [PREP_MILESTONE_1]: [Data cleaning completion]
     • [PREP_MILESTONE_2]: [Assumption testing completion]
     • [PREP_DELIVERABLE]: [Clean dataset and documentation]
-    
+
     Phase 2: Primary Analysis ([PRIMARY_TIMELINE])
     • [PRIMARY_MILESTONE_1]: [Hypothesis testing completion]
     • [PRIMARY_MILESTONE_2]: [Primary results interpretation]
     • [PRIMARY_DELIVERABLE]: [Primary analysis report]
-    
+
     Phase 3: Secondary Analysis ([SECONDARY_TIMELINE])
     • [SECONDARY_MILESTONE_1]: [Exploratory analysis completion]
     • [SECONDARY_MILESTONE_2]: [Additional findings documentation]
     • [SECONDARY_DELIVERABLE]: [Comprehensive results]
-    
+
     Phase 4: Integration & Reporting ([INTEGRATION_TIMELINE])
     • [INTEGRATION_MILESTONE_1]: [Mixed methods integration]
     • [INTEGRATION_MILESTONE_2]: [Final report preparation]
@@ -678,7 +678,7 @@ Research Context:
 
 ### Data Transformation
 - `[TRANSFORMATION_1]`: First variable transformation
-- `[TRANSFORMATION_2]`: Second variable transformation  
+- `[TRANSFORMATION_2]`: Second variable transformation
 - `[TRANSFORMATION_3]`: Third variable transformation
 - `[VARIABLE_1]`: First variable to be transformed
 - `[VARIABLE_2]`: Second variable to be transformed

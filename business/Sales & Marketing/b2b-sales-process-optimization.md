@@ -169,8 +169,6 @@ Optimize B2B sales process for [COMPANY_NAME] targeting [DEAL_SIZE] average deal
 
 ## Usage Examples
 
-
-
 ## Best Practices
 
 1. **Start with clear objectives** - Define what success looks like before beginning
@@ -602,8 +600,6 @@ Focus: Inbound optimization, sales technology
 | `[CUSTOMER_TRIGGERS]` | Specify the customer triggers | "[specify value]" |
 | `[CUSTOMER_FOCUS]` | Specify the customer focus | "[specify value]" |
 
-
-
 ### Example 2: Manufacturing B2B Sales
 ```
 Company: Industrial equipment manufacturer
@@ -652,9 +648,9 @@ Focus: Relationship building, thought leadership
 - Subscription/Recurring revenue
 
 ### 4. Sales Cycle Length
-- Short cycle (0-30 days)
-- Medium cycle (30-90 days)
-- Long cycle (90-180 days)
+- Short cycle
+- Medium cycle
+- Long cycle
 - Complex cycle (180+ days)
 - Multi-stage approvals
 - Committee-based decisions

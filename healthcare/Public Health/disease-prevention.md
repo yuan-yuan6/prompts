@@ -3,7 +3,7 @@ title: Disease Prevention Strategy & Implementation
 category: healthcare/public-health
 tags: [healthcare, public-health, disease-prevention, prevention-strategy, epidemiology, community-health, health-policy]
 use_cases:
-  - Design community diabetes prevention program for high-risk population (2-3 months planning)
+  - Design community diabetes prevention program for high-risk population
   - Create infectious disease surveillance and response plan for public health department
   - Implement evidence-based screening program to detect disease early in target population
   - Population health interventions

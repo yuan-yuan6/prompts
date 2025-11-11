@@ -360,8 +360,6 @@ Lab-Grown Materials:
 | `[THIRD_PARTY_AUDIT]` | Specify the third party audit | "[specify value]" |
 | `[INDUSTRY_BENCHMARK]` | Specify the industry benchmark | "Technology" |
 
-
-
 ### 3. Circular Design Principles
 
 | **Design Strategy** | **Implementation Method** | **Product Application** | **Consumer Benefits** | **Environmental Impact** | **Cost Implications** |
@@ -531,8 +529,6 @@ Social KPIs:
 ```
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

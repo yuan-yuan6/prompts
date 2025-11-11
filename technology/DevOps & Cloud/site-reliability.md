@@ -241,12 +241,10 @@ Error Budget Management:
 | `[SRE_TESTING_STRATEGY]` | Specify the sre testing strategy | "[specify value]" |
 | `[RELEASE_ENGINEERING]` | Specify the release engineering | "[specify value]" |
 
-
-
 ## Best Practices
 
 1. **Define meaningful SLIs that reflect user experience**
-2. **Set realistic SLOs based on business requirements** 
+2. **Set realistic SLOs based on business requirements**
 3. **Use error budgets to balance reliability and velocity**
 4. **Implement comprehensive monitoring and alerting**
 5. **Conduct blameless postmortems and act on learnings**

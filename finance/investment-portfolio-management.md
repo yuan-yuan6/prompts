@@ -19,7 +19,7 @@ Comprehensive investment portfolio management framework covering asset allocatio
 
 Build an investment portfolio in under an hour with these practical examples:
 
-### Example 1: $100K Starter Portfolio (30 minutes)
+### Example 1: $100K Starter Portfolio
 Create a diversified portfolio for a moderate-risk investor:
 ```
 Client Profile:
@@ -61,7 +61,7 @@ Rebalancing: Quarterly if drift >5%
 Expected Return: 7-8% annually
 ```
 
-### Example 2: Quick Risk Assessment (15 minutes)
+### Example 2: Quick Risk Assessment
 Evaluate portfolio health and risk exposure:
 ```
 Portfolio Snapshot:
@@ -94,7 +94,7 @@ Time to execute: 1 trading day
 Tax impact: Harvest $8K loss to offset gains
 ```
 
-### Example 3: Simple Rebalancing Plan (20 minutes)
+### Example 3: Simple Rebalancing Plan
 Restore portfolio to target allocation:
 ```
 Current vs. Target Allocation:
@@ -142,7 +142,7 @@ Choose based on age and risk tolerance:
 - Bond allocation = Your age (e.g., 40 years old = 40% bonds)
 - Or: Bond allocation = Your age - 10 (more aggressive)
 
-### Portfolio Construction Checklist (10 minutes)
+### Portfolio Construction Checklist
 Essential steps for every portfolio:
 
 **Step 1: Define Objectives** (3 min)
@@ -219,7 +219,7 @@ Manage investment portfolio for [CLIENT_NAME] with [PORTFOLIO_VALUE] assets unde
 ### 3. Investment Strategy & Objectives
 
 | **Investment Goal** | **Priority** | **Target Return** | **Time Horizon** | **Risk Budget** | **Success Metrics** | **Review Frequency** |
-|-------------------|-------------|------------------|------------------|-----------------|-------------------|--------------------| 
+|-------------------|-------------|------------------|------------------|-----------------|-------------------|--------------------|
 | Capital Appreciation | [APPRECIATION_PRIORITY] | [APPRECIATION_RETURN]% | [APPRECIATION_HORIZON] | [APPRECIATION_RISK] | [APPRECIATION_METRICS] | [APPRECIATION_REVIEW] |
 | Income Generation | [INCOME_PRIORITY] | [INCOME_RETURN]% | [INCOME_HORIZON] | [INCOME_RISK] | [INCOME_METRICS] | [INCOME_REVIEW] |
 | Capital Preservation | [PRESERVATION_PRIORITY] | [PRESERVATION_RETURN]% | [PRESERVATION_HORIZON] | [PRESERVATION_RISK] | [PRESERVATION_METRICS] | [PRESERVATION_REVIEW] |
@@ -299,7 +299,7 @@ Manage investment portfolio for [CLIENT_NAME] with [PORTFOLIO_VALUE] assets unde
 ### 10. Reporting & Communication Framework
 
 | **Report Type** | **Frequency** | **Recipients** | **Key Metrics** | **Format** | **Delivery Method** | **Action Items** |
-|----------------|---------------|----------------|----------------|------------|--------------------|-----------------| 
+|----------------|---------------|----------------|----------------|------------|--------------------|-----------------|
 | Performance Report | [PERF_FREQUENCY] | [PERF_RECIPIENTS] | [PERF_METRICS] | [PERF_FORMAT] | [PERF_DELIVERY] | [PERF_ACTIONS] |
 | Risk Report | [RISK_REPORT_FREQUENCY] | [RISK_REPORT_RECIPIENTS] | [RISK_REPORT_METRICS] | [RISK_REPORT_FORMAT] | [RISK_REPORT_DELIVERY] | [RISK_REPORT_ACTIONS] |
 | Market Commentary | [MARKET_FREQUENCY] | [MARKET_RECIPIENTS] | [MARKET_METRICS] | [MARKET_FORMAT] | [MARKET_DELIVERY] | [MARKET_ACTIONS] |
@@ -308,8 +308,6 @@ Manage investment portfolio for [CLIENT_NAME] with [PORTFOLIO_VALUE] assets unde
 | Strategy Review | [STRATEGY_FREQUENCY] | [STRATEGY_RECIPIENTS] | [STRATEGY_METRICS] | [STRATEGY_FORMAT] | [STRATEGY_DELIVERY] | [STRATEGY_ACTIONS] |
 
 ## Usage Examples
-
-
 
 ## Best Practices
 
@@ -749,8 +747,6 @@ Expected Return: 8-10% annually
 | `[STRATEGY_FORMAT]` | Strategy or approach for format | "[specify value]" |
 | `[STRATEGY_DELIVERY]` | Strategy or approach for delivery | "[specify value]" |
 | `[STRATEGY_ACTIONS]` | Strategy or approach for actions | "[specify value]" |
-
-
 
 ### Example 2: Institutional Pension Fund
 ```

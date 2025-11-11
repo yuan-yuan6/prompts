@@ -595,7 +595,7 @@ Generate a comprehensive lead generation strategy that includes:
 
 ## Variables
 - `[COMPANY_NAME]`: Company name
-- `[INDUSTRY_SECTOR]`: Industry classification  
+- `[INDUSTRY_SECTOR]`: Industry classification
 - `[TARGET_MARKET]`: Target market segments
 - `[BUSINESS_MODEL]`: Business operating model
 - `[COMPANY_SIZE]`: Organization size

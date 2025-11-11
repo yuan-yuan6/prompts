@@ -3,7 +3,7 @@ title: Wireframe Design & Information Architecture
 category: creative/Design & Visual
 tags: [creative, design, wireframe, information-architecture, ux]
 use_cases:
-  - Create low-fidelity wireframes for user testing (2-3 hours for 5-7 screens)
+  - Create low-fidelity wireframes for user testing
   - Design information architecture for a new website or app section
   - Map out responsive layouts before visual design begins
 related_templates:

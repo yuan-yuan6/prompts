@@ -414,8 +414,6 @@ ABC Analysis:
 | `[CSAT_SCORE]` | Specify the csat score | "[specify value]" |
 | `[NPS_SCORE]` | Specify the nps score | "[specify value]" |
 
-
-
 ### 3. Order Fulfillment Process
 
 | **Process Stage** | **Current Time** | **Target Time** | **Accuracy Rate** | **Technology Used** | **Optimization Opportunity** |
@@ -593,8 +591,6 @@ Productivity Metrics:
 ```
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

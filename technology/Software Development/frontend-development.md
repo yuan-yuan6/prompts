@@ -388,8 +388,6 @@ Templates (Page Structures):
 | `[UPTIME_RESPONSE]` | Specify the uptime response | "[specify value]" |
 | `[UPTIME_ACTION]` | Specify the uptime action | "[specify value]" |
 
-
-
 ### 3. Responsive Design Strategy
 
 | **Breakpoint** | **Device Target** | **Layout Changes** | **Performance Budget** | **Testing Coverage** | **Usage Analytics** |
@@ -518,8 +516,6 @@ Production Build:
 | Uptime Monitoring | [UPTIME_TOOL] | [UPTIME_METRICS] | [UPTIME_THRESHOLD] | [UPTIME_RESPONSE] | [UPTIME_ACTION] |
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

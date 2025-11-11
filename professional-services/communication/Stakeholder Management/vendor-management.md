@@ -903,11 +903,7 @@ Please provide a comprehensive vendor management and procurement strategy based 
 | `[FUTURE_POTENTIAL]` | Specify the future potential | "[specify value]" |
 | `[EXPERIENCE_CAPTURE]` | Specify the experience capture | "[specify value]" |
 
-
-
 ## Usage Examples
-
-
 
 ## Best Practices
 

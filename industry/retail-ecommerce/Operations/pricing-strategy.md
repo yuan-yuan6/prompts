@@ -328,8 +328,6 @@ Price Adjustment Rules:
 | `[INV_BENCH]` | Specify the inv bench | "[specify value]" |
 | `[INV_ACTION]` | Specify the inv action | "[specify value]" |
 
-
-
 ### 3. Competitive Price Positioning
 
 | **Competitor** | **Price Index** | **Market Share** | **Value Perception** | **Response Time** | **Counter-Strategy** |
@@ -455,8 +453,6 @@ A/B Testing:
 | Inventory Turns | [INV_METRIC] | [INV_CURRENT]x | [INV_TARGET]x | [INV_BENCH]x | [INV_ACTION] |
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

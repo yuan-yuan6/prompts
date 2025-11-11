@@ -35,11 +35,6 @@ Create comprehensive investment evaluation strategies covering ROI analysis, NPV
 2. **Generate Evaluation**: Input parameters into the template to create comprehensive analysis including DCF/NPV, ROI metrics, risk assessment, sensitivity analysis, and strategic value evaluation
 3. **Decide and Monitor**: Review financial metrics and strategic fit, compare alternatives, make investment decision, establish monitoring framework, and conduct post-investment performance reviews
 
-### Time Estimate
-- Data collection and analysis setup: 2-4 hours
-- Evaluation generation and scenario analysis: 3-5 hours
-- Total: 5-9 hours per major investment evaluated
-
 ## Template
 
 ```

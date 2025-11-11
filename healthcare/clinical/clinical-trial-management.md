@@ -375,8 +375,6 @@ Data Privacy/GDPR:
 | `[PUBLICATION_IMPACT]` | Specify the publication impact | "[specify value]" |
 | `[COMMERCIAL_VIABILITY]` | Specify the commercial viability | "[specify value]" |
 
-
-
 ### 3. Patient Recruitment & Retention
 
 | **Recruitment Strategy** | **Target Population** | **Recruitment Channels** | **Screening Process** | **Enrollment Timeline** | **Retention Tactics** |
@@ -546,8 +544,6 @@ Performance Indicators:
 ```
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

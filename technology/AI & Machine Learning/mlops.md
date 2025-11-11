@@ -218,8 +218,6 @@ Model Monitoring:
 | `[BACKUP_STRATEGY]` | Specify the backup strategy | "[specify value]" |
 | `[DISASTER_RECOVERY]` | Specify the disaster recovery | "[specify value]" |
 
-
-
 ## Best Practices
 
 1. **Start with simple automation and gradually increase complexity**

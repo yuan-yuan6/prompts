@@ -910,11 +910,7 @@ Please provide a comprehensive board reporting and governance strategy based on 
 | `[COMPLIANCE_OFFICER_SUPERVISION]` | Specify the compliance officer supervision | "[specify value]" |
 | `[BRAND_TRUST_RESTORATION]` | Specify the brand trust restoration | "[specify value]" |
 
-
-
 ## Usage Examples
-
-
 
 ## Best Practices
 

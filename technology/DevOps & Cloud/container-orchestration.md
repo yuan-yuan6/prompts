@@ -66,7 +66,7 @@ Generate a comprehensive container orchestration implementation:
 1. ARCHITECTURE OVERVIEW
 
    ## Container Platform Architecture
-   
+
    ```yaml
    cluster_architecture:
      control_plane:
@@ -79,7 +79,7 @@ Generate a comprehensive container orchestration implementation:
            - kube-controller-manager
            - kube-scheduler
            - etcd
-     
+
      data_plane:
        worker_pools:
          general:
@@ -89,7 +89,7 @@ Generate a comprehensive container orchestration implementation:
              min: 3
              max: 10
              target_cpu: 70
-         
+
          compute_intensive:
            count: 3
            instance_type: c5.4xlarge
@@ -97,7 +97,7 @@ Generate a comprehensive container orchestration implementation:
              - key: workload-type
                value: compute
                effect: NoSchedule
-         
+
          memory_intensive:
            count: 3
            instance_type: r5.2xlarge
@@ -106,9 +106,9 @@ Generate a comprehensive container orchestration implementation:
                value: memory
                effect: NoSchedule
    ```
-   
+
    ## Multi-Cluster Strategy
-   
+
    ```python
    class MultiClusterOrchestration:
        def __init__(self):
@@ -132,7 +132,7 @@ Generate a comprehensive container orchestration implementation:
                    'ha': False
                }
            }
-       
+
        def setup_cluster_federation(self):
            federation_config = {
                'control_plane': 'production',
@@ -147,7 +147,7 @@ Generate a comprehensive container orchestration implementation:
 2. KUBERNETES DEPLOYMENT PATTERNS
 
    ## Deployment Strategies
-   
+
    ```yaml
    apiVersion: apps/v1
    kind: Deployment
@@ -180,13 +180,13 @@ Generate a comprehensive container orchestration implementation:
                        values:
                          - api-service
                  topologyKey: kubernetes.io/hostname
-         
+
          containers:
          - name: api
            image: api-service:2.0.0
            ports:
            - containerPort: 8080
-           
+
            resources:
              requests:
                memory: "256Mi"
@@ -194,41 +194,41 @@ Generate a comprehensive container orchestration implementation:
              limits:
                memory: "512Mi"
                cpu: "500m"
-           
+
            livenessProbe:
              httpGet:
                path: /health
                port: 8080
              initialDelaySeconds: 30
              periodSeconds: 10
-           
+
            readinessProbe:
              httpGet:
                path: /ready
                port: 8080
              initialDelaySeconds: 5
              periodSeconds: 5
-           
+
            env:
            - name: DATABASE_URL
              valueFrom:
                secretKeyRef:
                  name: database-credentials
                  key: url
-           
+
            volumeMounts:
            - name: config
              mountPath: /etc/config
              readOnly: true
-         
+
          volumes:
          - name: config
            configMap:
              name: api-config
    ```
-   
+
    ## Blue-Green Deployment
-   
+
    ```python
    def blue_green_deployment():
        deployment_steps = {
@@ -239,7 +239,7 @@ Generate a comprehensive container orchestration implementation:
            'step_5': 'Keep blue for rollback',
            'step_6': 'Remove blue after validation'
        }
-       
+
        service_update = '''
        kubectl patch service api-service -p '
        {
@@ -250,7 +250,7 @@ Generate a comprehensive container orchestration implementation:
          }
        }'
        '''
-       
+
        rollback_command = '''
        kubectl patch service api-service -p '
        {
@@ -261,14 +261,14 @@ Generate a comprehensive container orchestration implementation:
          }
        }'
        '''
-       
+
        return deployment_steps, service_update, rollback_command
    ```
 
 3. SERVICE MESH IMPLEMENTATION
 
    ## Istio Configuration
-   
+
    ```yaml
    # Virtual Service
    apiVersion: networking.istio.io/v1beta1
@@ -303,7 +303,7 @@ Generate a comprehensive container orchestration implementation:
        retries:
          attempts: 3
          perTryTimeout: 10s
-   
+
    ---
    # Destination Rule
    apiVersion: networking.istio.io/v1beta1
@@ -333,9 +333,9 @@ Generate a comprehensive container orchestration implementation:
        labels:
          version: canary
    ```
-   
+
    ## Circuit Breaker Pattern
-   
+
    ```python
    class CircuitBreakerConfig:
        def __init__(self):
@@ -347,7 +347,7 @@ Generate a comprehensive container orchestration implementation:
                'max_ejection_percentage': 50,
                'min_health_percentage': 30
            }
-       
+
        def generate_envoy_config(self):
            return {
                'outlier_detection': {
@@ -366,7 +366,7 @@ Generate a comprehensive container orchestration implementation:
 4. STATEFUL WORKLOADS
 
    ## StatefulSet Configuration
-   
+
    ```yaml
    apiVersion: apps/v1
    kind: StatefulSet
@@ -399,7 +399,7 @@ Generate a comprehensive container orchestration implementation:
                echo "Replica node initialization"
                pg_basebackup -h postgres-0.postgres-service -U replicator -D /var/lib/postgresql/data -Fp -Xs -P -R
              fi
-         
+
          containers:
          - name: postgres
            image: postgres:13
@@ -418,11 +418,11 @@ Generate a comprehensive container orchestration implementation:
                secretKeyRef:
                  name: postgres-secret
                  key: password
-           
+
            volumeMounts:
            - name: postgres-storage
              mountPath: /var/lib/postgresql/data
-           
+
            livenessProbe:
              exec:
                command:
@@ -431,7 +431,7 @@ Generate a comprehensive container orchestration implementation:
                  - pg_isready -U postgres
              initialDelaySeconds: 30
              periodSeconds: 10
-     
+
      volumeClaimTemplates:
      - metadata:
          name: postgres-storage
@@ -446,7 +446,7 @@ Generate a comprehensive container orchestration implementation:
 5. AUTOSCALING STRATEGIES
 
    ## Horizontal Pod Autoscaler
-   
+
    ```yaml
    apiVersion: autoscaling/v2
    kind: HorizontalPodAutoscaler
@@ -507,9 +507,9 @@ Generate a comprehensive container orchestration implementation:
            periodSeconds: 30
          selectPolicy: Max
    ```
-   
+
    ## Vertical Pod Autoscaler
-   
+
    ```yaml
    apiVersion: autoscaling.k8s.io/v1
    kind: VerticalPodAutoscaler
@@ -537,7 +537,7 @@ Generate a comprehensive container orchestration implementation:
 6. NETWORKING & INGRESS
 
    ## Ingress Configuration
-   
+
    ```yaml
    apiVersion: networking.k8s.io/v1
    kind: Ingress
@@ -573,9 +573,9 @@ Generate a comprehensive container orchestration implementation:
                port:
                  number: 8080
    ```
-   
+
    ## Network Policies
-   
+
    ```yaml
    apiVersion: networking.k8s.io/v1
    kind: NetworkPolicy
@@ -627,7 +627,7 @@ Generate a comprehensive container orchestration implementation:
 7. STORAGE ORCHESTRATION
 
    ## Persistent Volume Management
-   
+
    ```yaml
    # StorageClass
    apiVersion: storage.k8s.io/v1
@@ -644,7 +644,7 @@ Generate a comprehensive container orchestration implementation:
    reclaimPolicy: Retain
    allowVolumeExpansion: true
    volumeBindingMode: WaitForFirstConsumer
-   
+
    ---
    # PersistentVolumeClaim
    apiVersion: v1
@@ -659,9 +659,9 @@ Generate a comprehensive container orchestration implementation:
        requests:
          storage: 100Gi
    ```
-   
+
    ## CSI Driver Configuration
-   
+
    ```python
    class StorageOrchestration:
        def __init__(self):
@@ -682,7 +682,7 @@ Generate a comprehensive container orchestration implementation:
                    'volume_types': ['pd-ssd', 'pd-standard']
                }
            }
-       
+
        def create_volume_snapshot(self, pvc_name):
            snapshot_config = f'''
            apiVersion: snapshot.storage.k8s.io/v1
@@ -700,7 +700,7 @@ Generate a comprehensive container orchestration implementation:
 8. SECURITY & RBAC
 
    ## RBAC Configuration
-   
+
    ```yaml
    # ServiceAccount
    apiVersion: v1
@@ -708,7 +708,7 @@ Generate a comprehensive container orchestration implementation:
    metadata:
      name: api-service-account
      namespace: production
-   
+
    ---
    # Role
    apiVersion: rbac.authorization.k8s.io/v1
@@ -726,7 +726,7 @@ Generate a comprehensive container orchestration implementation:
    - apiGroups: ["apps"]
      resources: ["deployments"]
      verbs: ["get", "list", "watch"]
-   
+
    ---
    # RoleBinding
    apiVersion: rbac.authorization.k8s.io/v1
@@ -743,9 +743,9 @@ Generate a comprehensive container orchestration implementation:
      name: api-role
      apiGroup: rbac.authorization.k8s.io
    ```
-   
+
    ## Pod Security Policies
-   
+
    ```yaml
    apiVersion: policy/v1beta1
    kind: PodSecurityPolicy
@@ -780,7 +780,7 @@ Generate a comprehensive container orchestration implementation:
 9. OBSERVABILITY & MONITORING
 
    ## Prometheus Monitoring
-   
+
    ```yaml
    apiVersion: v1
    kind: Service
@@ -796,7 +796,7 @@ Generate a comprehensive container orchestration implementation:
      ports:
      - port: 80
        targetPort: 8080
-   
+
    ---
    apiVersion: monitoring.coreos.com/v1
    kind: ServiceMonitor
@@ -815,7 +815,7 @@ Generate a comprehensive container orchestration implementation:
 10. CI/CD INTEGRATION
 
     ## GitOps with ArgoCD
-    
+
     ```yaml
     apiVersion: argoproj.io/v1alpha1
     kind: Application
@@ -851,7 +851,7 @@ Generate a comprehensive container orchestration implementation:
 11. DISASTER RECOVERY
 
     ## Backup and Restore
-    
+
     ```python
     class DisasterRecovery:
         def __init__(self):
@@ -861,7 +861,7 @@ Generate a comprehensive container orchestration implementation:
                 'configurations': self.backup_configs(),
                 'secrets': self.backup_secrets()
             }
-        
+
         def backup_etcd(self):
             return '''
             ETCDCTL_API=3 etcdctl snapshot save /backup/etcd-snapshot.db \
@@ -870,7 +870,7 @@ Generate a comprehensive container orchestration implementation:
               --cert=/etc/kubernetes/pki/etcd/server.crt \
               --key=/etc/kubernetes/pki/etcd/server.key
             '''
-        
+
         def restore_cluster(self, backup_location):
             restore_steps = [
                 'Stop kube-apiserver on all masters',
@@ -887,7 +887,7 @@ Generate a comprehensive container orchestration implementation:
 12. COST OPTIMIZATION
 
     ## Resource Optimization
-    
+
     ```python
     def optimize_cluster_costs():
         strategies = {

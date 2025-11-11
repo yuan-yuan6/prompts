@@ -963,11 +963,7 @@ Please provide a comprehensive executive communication and briefing strategy bas
 | `[DOCUMENT_MANAGEMENT]` | Specify the document management | "[specify value]" |
 | `[HISTORICAL_PRESERVATION]` | Specify the historical preservation | "[specify value]" |
 
-
-
 ## Usage Examples
-
-
 
 ## Best Practices
 

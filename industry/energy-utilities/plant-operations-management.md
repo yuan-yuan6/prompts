@@ -426,8 +426,6 @@ Boilers/Furnaces:
 | `[REGULATORY_REVIEW]` | Specify the regulatory review | "[specify value]" |
 | `[STRATEGIC_REVIEW]` | Specify the strategic review | "[specify value]" |
 
-
-
 ### 3. Predictive Maintenance Program
 
 | **Maintenance Type** | **Frequency** | **Cost Impact** | **Downtime Prevented** | **Reliability Gain** | **Implementation Status** |
@@ -621,8 +619,6 @@ Daily KPIs:
 ```
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

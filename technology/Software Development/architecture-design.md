@@ -551,8 +551,6 @@ Scalability and Performance:
 | `[CHANGE_MANAGEMENT]` | Specify the change management | "[specify value]" |
 | `[SUCCESS_CRITERIA]` | Specify the success criteria | "[specify value]" |
 
-
-
 ### Healthcare System Architecture
 ```
 Design a HIPAA-compliant architecture for MedConnect patient management system that serves healthcare providers with enterprise-grade requirements. The system should implement layered architecture pattern and support healthcare domain.

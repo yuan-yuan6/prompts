@@ -358,8 +358,6 @@ Performance Gains:
 | `[OFFSET_2030]` | Specify the offset 2030 | "[specify value]" |
 | `[OFFSET_INVEST]` | Specify the offset invest | "[specify value]" |
 
-
-
 ### 3. Maintenance Management System
 
 | **Maintenance Type** | **Frequency** | **Avg Cost** | **Downtime** | **Compliance** | **Provider** |
@@ -463,8 +461,6 @@ TCO per Delivery: $[TCO_PER_DELIVERY]
 | Carbon Offsetting | [OFFSET_CURRENT] | [OFFSET_2025] | [OFFSET_2030] | $[OFFSET_INVEST] | N/A |
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

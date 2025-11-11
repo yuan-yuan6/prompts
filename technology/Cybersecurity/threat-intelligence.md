@@ -21,12 +21,12 @@ Comprehensive threat intelligence program including collection, analysis, dissem
 
 ## Quick Start
 
-**Set Your Foundation (5 minutes):**
+**Set Your Foundation:**
 1. Define intelligence objectives: threat actors, attack vectors, industry-specific threats
 2. Identify priority intelligence requirements (PIRs) aligned with business risk
 3. Set geographic and industry scope for threat monitoring
 
-**Configure Key Parameters (10 minutes):**
+**Configure Key Parameters:**
 4. Select collection sources: OSINT (free), commercial feeds (Recorded Future, CrowdStrike), government (FBI, CISA)
 5. Choose analysis framework: Diamond Model, Cyber Kill Chain, or MITRE ATT&CK
 6. Define intelligence products: strategic reports, tactical IOCs, operational playbooks
@@ -192,8 +192,6 @@ Collection Framework:
 | `[DISSEMINATION_METRICS]` | Specify the dissemination metrics | "[specify value]" |
 | `[EXTERNAL_SHARING]` | Specify the external sharing | "[specify value]" |
 | `[LEGAL_CONSIDERATIONS]` | Specify the legal considerations | "[specify value]" |
-
-
 
 ## Best Practices
 

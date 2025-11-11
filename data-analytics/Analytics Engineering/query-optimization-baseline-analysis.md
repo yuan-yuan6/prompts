@@ -23,17 +23,17 @@ Establish comprehensive performance baselines and diagnostic frameworks for SQL 
 ### For Performance Analysis
 Establish your query performance baseline in 3 steps:
 
-1. **Identify Problem Queries** (15-30 minutes)
+1. **Identify Problem Queries**
    - Run the performance baseline queries (lines 88-177) to identify top resource consumers
    - Focus on queries with >1s execution time or >10M logical reads
    - Export results to track metrics: execution time, CPU, I/O, memory usage
 
-2. **Analyze Execution Plans** (30-45 minutes)
+2. **Analyze Execution Plans**
    - Execute the execution plan analysis queries (lines 182-250) on identified problem queries
    - Look for: table scans, missing indexes, hash joins on large datasets, expensive sorts
    - Document plan characteristics and estimated costs for comparison
 
-3. **Profile Workload Patterns** (15-30 minutes)
+3. **Profile Workload Patterns**
    - Run temporal query pattern analysis (lines 254-305) to identify peak load times
    - Analyze query complexity metrics to prioritize optimization efforts
    - Create baseline report with top 10 queries by performance impact score

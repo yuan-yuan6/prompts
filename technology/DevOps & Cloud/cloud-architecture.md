@@ -245,8 +245,6 @@ Infrastructure Design:
 | `[CLOUD_OPTIMIZATION]` | Specify the cloud optimization | "[specify value]" |
 | `[CLOUD_COST_MANAGEMENT]` | Specify the cloud cost management | "[specify value]" |
 
-
-
 ## Best Practices
 
 1. **Design for cloud-native architectures and services**

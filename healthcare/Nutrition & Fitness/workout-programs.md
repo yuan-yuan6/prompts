@@ -24,7 +24,7 @@ This comprehensive template assists fitness professionals, healthcare providers,
 
 1. **Assess Starting Point** - Complete Section 1 (Client Assessment) with physical measurements, fitness test results, medical history, and movement screening. Document any limitations or injury history upfront.
 
-2. **Set Program Framework** - Use Section 2 (Program Design) to establish your periodization model, training frequency (3-5 days/week for most), and session duration. Choose appropriate training split (Full Body for beginners, Upper/Lower for intermediate).
+2. **Set Program Framework** - Use Section 2 (Program Design) to establish your periodization model, training frequency, and session duration. Choose appropriate training split (Full Body for beginners, Upper/Lower for intermediate).
 
 3. **Design Week 1** - Build your first week using Section 3 (Weekly Training Structure) and Section 4 (Exercise Prescription). Start conservative: 60-70% intensity, 2-3 sets, 8-12 reps for main lifts.
 
@@ -42,7 +42,7 @@ Physical Assessment Data: Height [HEIGHT_MEASUREMENT], Weight [CURRENT_WEIGHT], 
 
 Cardiovascular Assessment: Resting heart rate [RESTING_HR] BPM, Blood pressure [BP_READING], VO2 max [VO2_MAX_ESTIMATE], Submaximal fitness test [FITNESS_TEST_RESULT], Recovery heart rate [RECOVERY_HR_TIME].
 
-Musculoskeletal Assessment: 
+Musculoskeletal Assessment:
 - Flexibility: [FLEXIBILITY_TEST_RESULTS]
 - Core stability: [CORE_STABILITY_ASSESSMENT]
 - Balance: [BALANCE_TEST_SCORES]
@@ -471,8 +471,6 @@ Goal Specifications: Primary goal [PRIMARY_GOAL_SPECIFIC], Secondary goals [SECO
 | `[RECOVERY_INTERVENTION_2]` | Specify the recovery intervention 2 | "[specify value]" |
 | `[PROFESSIONAL_RECOVERY_SERVICES]` | Specify the professional recovery services | "[specify value]" |
 
-
-
 ### 2. Program Design and Periodization
 
 **Scientific Programming Framework:**
@@ -618,7 +616,7 @@ Weekly mobility session: [WEEKLY_MOBILITY_FOCUS] for [MOBILITY_SESSION_DURATION]
 ### Progression Methods
 Primary progression: [PRIMARY_PROGRESSION_METHOD]
 - Week 1-2: [PROGRESSION_WEEK_1_2]
-- Week 3-4: [PROGRESSION_WEEK_3_4] 
+- Week 3-4: [PROGRESSION_WEEK_3_4]
 - Week 5-6: [PROGRESSION_WEEK_5_6]
 - Week 7-8: [PROGRESSION_WEEK_7_8]
 
@@ -731,9 +729,9 @@ Quarterly evaluation: [QUARTERLY_EVALUATION_PROTOCOL]
 Annual review: [ANNUAL_REVIEW_PROTOCOL]
 
 ### Progress Indicators
-Short-term (4 weeks): [SHORT_TERM_INDICATOR_1], [SHORT_TERM_INDICATOR_2]
-Medium-term (12 weeks): [MEDIUM_TERM_INDICATOR_1], [MEDIUM_TERM_INDICATOR_2]
-Long-term (26 weeks): [LONG_TERM_INDICATOR_1], [LONG_TERM_INDICATOR_2]
+Short-term: [SHORT_TERM_INDICATOR_1], [SHORT_TERM_INDICATOR_2]
+Medium-term: [MEDIUM_TERM_INDICATOR_1], [MEDIUM_TERM_INDICATOR_2]
+Long-term: [LONG_TERM_INDICATOR_1], [LONG_TERM_INDICATOR_2]
 ```
 
 ### 8. Lifestyle Integration and Behavior Change
@@ -851,8 +849,6 @@ Professional support: [PROFESSIONAL_RECOVERY_SERVICES]
 
 ## Usage Examples
 
-
-
 ## Best Practices
 
 1. **Start with clear objectives** - Define what success looks like before beginning
@@ -887,7 +883,7 @@ Physical Assessment Data: Height 5'5", Weight 140 lbs, BMI 23.3, Body fat percen
 ### Program Overview
 Program name: Foundation Strength Builder
 Duration: 12 weeks
-Phases: Adaptation (4 weeks), Strength Building (6 weeks), Consolidation (2 weeks)
+Phases: Adaptation, Strength Building, Consolidation
 Training frequency: 3 sessions per week
 Session duration: 45 minutes
 
@@ -919,10 +915,10 @@ Training frequency: 5 sessions per week
 Session duration: 75-90 minutes
 
 Periodization Model: Block Periodization
-- Anatomical Adaptation Block (4 weeks)
-- Maximum Strength Block (4 weeks)  
-- Power Development Block (4 weeks)
-- Competition Preparation Block (4 weeks)
+- Anatomical Adaptation Block
+- Maximum Strength Block
+- Power Development Block
+- Competition Preparation Block
 
 ### Primary Compound Movements
 Exercise 1: Back Squat

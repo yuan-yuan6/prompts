@@ -152,8 +152,6 @@ Design employee engagement program for [COMPANY_NAME] with [EMPLOYEE_COUNT] empl
 
 ## Usage Examples
 
-
-
 ## Best Practices
 
 1. **Start with clear objectives** - Define what success looks like before beginning
@@ -627,8 +625,6 @@ Key Programs: Tech talks, hackathons, mentoring
 | `[MGR_EFF_STAKEHOLDERS]` | Key stakeholders involved in mgr eff | "[specify value]" |
 | `[MGR_EFF_TRIGGERS]` | Specify the mgr eff triggers | "[specify value]" |
 | `[MGR_EFF_PLANS]` | Specify the mgr eff plans | "[specify value]" |
-
-
 
 ### Example 2: Manufacturing Workforce Engagement
 ```

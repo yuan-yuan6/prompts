@@ -326,8 +326,6 @@ Soil Composition Analysis:
 | `[REG_INSURANCE]` | Specify the reg insurance | "[specify value]" |
 | `[REG_PREMIUM]` | Specify the reg premium | "[specify value]" |
 
-
-
 ### 3. Water Management & Irrigation
 
 | **Irrigation System** | **Coverage** | **Efficiency** | **Water Usage** | **Energy Cost** | **Automation Level** |
@@ -357,17 +355,17 @@ Hardware:
 - GPS Guidance: [GPS_SYSTEM]
   Accuracy: [GPS_ACCURACY] cm
   Coverage: [GPS_COVERAGE]%
-  
+
 - Drones/UAV: [DRONE_MODEL]
   Flight Time: [DRONE_TIME] min
   Coverage Rate: [DRONE_COVER] acres/hour
   Sensors: [DRONE_SENSORS]
-  
+
 - IoT Sensors: [IOT_COUNT] units
   Types: [IOT_TYPES]
   Data Points: [IOT_DATA]/day
   Battery Life: [IOT_BATTERY] months
-  
+
 - Farm Machinery: [MACHINERY_LIST]
   Automation Level: [MACHINE_AUTO]%
   Telematics: [TELEMATICS]
@@ -450,8 +448,6 @@ Benefit Realization:
 | Regulatory Changes | [REG_PROB]% | $[REG_IMPACT] | [REG_MITIGATE] | [REG_INSURANCE] | $[REG_PREMIUM] |
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

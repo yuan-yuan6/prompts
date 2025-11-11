@@ -171,7 +171,7 @@ Generate a comprehensive resource management strategy that includes:
 #### Planning Horizons
 - Strategic planning (3-5 years)
 - Tactical planning (1-2 years)
-- Operational planning (3-12 months)
+- Operational planning
 - Short-term scheduling (days-weeks)
 - Real-time optimization
 - Crisis response planning

@@ -175,7 +175,7 @@ Comparison charts: Horizontal bar charts for clear category comparison
 Composition needs: Revenue breakdown by product, expense categories
 Composition charts: Stacked bar for revenue mix, donut for expenses
 
-Temporal needs: Revenue trend (12 months), Cash flow projection
+Temporal needs: Revenue trend, Cash flow projection
 Temporal charts: Line chart with forecast, dual-axis for multiple metrics
 
 KPI display needs: 6 key metrics (Revenue, Profit, Cash, AR, AP, Runway)

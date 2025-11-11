@@ -36,7 +36,7 @@ DESIGN PARAMETERS:
 - Treatment: Interactive digital math curriculum
 - Control: Standard math curriculum
 - Primary outcome: End-of-year math test scores
-- Duration: Full academic year (9 months)
+- Duration: Full academic year
 
 REQUIREMENTS:
 1. Calculate design effect and effective sample size accounting for clustering

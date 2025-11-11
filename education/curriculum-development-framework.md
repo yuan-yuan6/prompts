@@ -374,8 +374,6 @@ Skills Development:
 | `[ROI_EDUCATION]` | Specify the roi education | "[specify value]" |
 | `[SOCIAL_IMPACT]` | Specify the social impact | "[specify value]" |
 
-
-
 ### 3. Course Structure & Sequencing
 
 | **Course Module** | **Learning Objectives** | **Prerequisites** | **Duration** | **Delivery Method** | **Assessment Type** |
@@ -554,8 +552,6 @@ Quality Assurance:
 
 ## Usage Examples
 
-
-
 ## Best Practices
 
 1. **Start with clear objectives** - Define what success looks like before beginning
@@ -635,8 +631,8 @@ Partnership: Local university mentorship
 
 ### 3. Program Duration
 - Short Course (< 1 month)
-- Certificate (1-6 months)
-- Diploma (6-12 months)
+- Certificate
+- Diploma
 - Degree (2-4 years)
 - Continuous Learning
 

@@ -342,8 +342,6 @@ Root Causes:
 | `[REVIEW_FREQ]` | Specify the review freq | "[specify value]" |
 | `[ADAPTIVE_MGMT]` | Specify the adaptive mgmt | "[specify value]" |
 
-
-
 ### 3. Program Design & Theory of Change
 
 | **Component** | **Activities** | **Outputs** | **Outcomes** | **Impact** | **Indicators** |
@@ -456,8 +454,6 @@ Compliance Requirements:
 ```
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

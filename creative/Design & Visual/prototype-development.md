@@ -3,7 +3,7 @@ title: Interactive Prototype Development
 category: creative/Design & Visual
 tags: [creative, design, prototype, interaction, testing]
 use_cases:
-  - Build clickable prototype for usability testing (4-6 hours for key flows)
+  - Build clickable prototype for usability testing
   - Create high-fidelity mockup for investor demo or stakeholder approval
   - Develop proof-of-concept to validate technical feasibility before development
 related_templates:

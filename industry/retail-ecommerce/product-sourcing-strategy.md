@@ -374,8 +374,6 @@ Digital Platforms:
 | `[PREDICTIVE_ANALYTICS]` | Specify the predictive analytics | "[specify value]" |
 | `[DECISION_ANALYTICS]` | Specify the decision analytics | "[specify value]" |
 
-
-
 ### 3. Supplier Evaluation Matrix
 
 | **Evaluation Criteria** | **Weight** | **Scoring Method** | **Minimum Score** | **Verification Process** | **Risk Assessment** |
@@ -545,8 +543,6 @@ Integration Systems:
 ```
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

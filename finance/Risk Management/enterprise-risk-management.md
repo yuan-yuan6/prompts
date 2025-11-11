@@ -23,7 +23,7 @@ Comprehensive framework for implementing enterprise risk management including ri
 
 Implement enterprise risk management basics in 1-2 hours with these practical scenarios:
 
-### Example 1: Quick Risk Assessment (45 minutes)
+### Example 1: Quick Risk Assessment
 Conduct initial risk assessment for a regional bank with $10B in assets:
 ```
 Institution: Regional commercial bank
@@ -51,7 +51,7 @@ Quick Risk Dashboard Setup (30 min):
 4. Create escalation protocol for breaches
 ```
 
-### Example 2: Stress Testing Implementation (40 minutes)
+### Example 2: Stress Testing Implementation
 Run basic stress test for loan portfolio:
 ```
 Scenario: Severe Economic Recession
@@ -76,7 +76,7 @@ Management Actions if Triggered:
 - Increase loan loss provisions
 ```
 
-### Example 3: Governance Structure Setup (30 minutes)
+### Example 3: Governance Structure Setup
 Establish basic risk committee structure:
 ```
 Three Lines of Defense Model:
@@ -445,8 +445,6 @@ Market Risk:
 | `[INTRANET]` | Specify the intranet | "[specify value]" |
 | `[MATERIALS]` | Specify the materials | "[specify value]" |
 
-
-
 ### 3. Risk Appetite Framework
 
 | **Risk Category** | **Risk Appetite** | **Risk Tolerance** | **Current Exposure** | **Limit Utilization** | **Action Required** |
@@ -604,8 +602,6 @@ Training Programs:
 ```
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

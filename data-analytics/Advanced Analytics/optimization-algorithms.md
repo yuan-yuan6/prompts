@@ -371,8 +371,6 @@ Integer Programming:
 | `[OPT_ROI]` | Specify the opt roi | "[specify value]" |
 | `[USER_SAT]` | Specify the user sat | "[specify value]" |
 
-
-
 ### 3. Heuristic & Metaheuristic Methods
 
 | **Method Type** | **Configuration** | **Performance** | **Convergence** | **Parallelization** | **Tuning Parameters** |
@@ -543,8 +541,6 @@ Model Refinement:
 
 ## Usage Examples
 
-
-
 ## Best Practices
 
 1. **Start with clear objectives** - Define what success looks like before beginning
@@ -640,5 +636,5 @@ Performance: Sharpe ratio 1.8
 - Real-time (<1 sec)
 - Near Real-time (1-60 sec)
 - Tactical (1-60 min)
-- Strategic (1-24 hours)
+- Strategic
 - Offline (>24 hours)

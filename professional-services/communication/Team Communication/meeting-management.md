@@ -809,11 +809,7 @@ Please provide a comprehensive meeting management and agenda strategy based on t
 | `[EFFECTIVENESS_MEASUREMENT]` | Specify the effectiveness measurement | "[specify value]" |
 | `[ONGOING_IMPROVEMENT]` | Specify the ongoing improvement | "[specify value]" |
 
-
-
 ## Usage Examples
-
-
 
 ## Best Practices
 

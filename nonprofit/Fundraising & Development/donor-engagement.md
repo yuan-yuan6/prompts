@@ -80,7 +80,7 @@ Major gift fundraising follows a predictable progression, but success requires p
 Many organizations under-invest in stewardship, viewing donor communications as overhead. This is strategically backwards. Every dollar spent on thoughtful stewardship generates $5-15 in future gifts through improved retention.
 
 **Stewardship best practices:**
-- Acknowledge gifts within 48 hours (24 hours for major gifts)
+- Acknowledge gifts within 48 hours
 - Provide impact reporting within 90 days showing how the gift made a difference
 - Offer recognition appropriate to donor preferences (many prefer anonymity)
 - Communicate progress and challenges honestly (donors want partnership, not perfection)

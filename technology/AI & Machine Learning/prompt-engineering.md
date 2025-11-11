@@ -171,8 +171,6 @@ Variables:
 | `[SEO_REQUIREMENTS]` | Specify the seo requirements | "[specify value]" |
 | `[WORD_COUNT]` | Specify the word count | "10" |
 
-
-
 ## Best Practices
 
 1. **Be specific and clear in instructions**

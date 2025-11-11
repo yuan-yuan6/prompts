@@ -21,25 +21,25 @@ Create comprehensive frameworks for wikis, knowledge bases, FAQs, documentation 
 
 ### For Knowledge Managers & Documentation Teams
 
-**Step 1: Define Your Knowledge System (10 minutes)**
+**Step 1: Define Your Knowledge System**
 - Specify system purpose and primary audience (faculty, students, researchers, staff)
 - Identify organization type and knowledge domain
 - Define system scope and boundaries
 - Select wiki/documentation platform type (Confluence, MediaWiki, Notion, etc.)
 
-**Step 2: Plan Content Framework (5 minutes)**
+**Step 2: Plan Content Framework**
 - List content types needed: How-to guides, reference docs, tutorials, FAQs, policies
 - Define information categories and main topics
 - Establish documentation standards and quality assurance methods
 - Determine content lifecycle stages and version control approach
 
-**Step 3: Design User Experience (5 minutes)**
+**Step 3: Design User Experience**
 - Define user personas (e.g., new students, faculty, administrators, researchers)
 - Map typical user journeys and information-seeking paths
 - Plan navigation structure and search functionality
 - Set accessibility requirements and mobile design approach
 
-**Step 4: Generate Your Framework (2 minutes)**
+**Step 4: Generate Your Framework**
 - Input your specifications into the template variables
 - Generate comprehensive documentation system including:
   - Information architecture and taxonomy
@@ -99,10 +99,10 @@ Generate a comprehensive documentation and wiki knowledge framework:
 ### Knowledge System Overview
    System Name: [WIKI_SYSTEM_NAME]
    Mission Statement: [MISSION_STATEMENT]
-   
+
 ### Strategic Objectives
    • [PRIMARY_OBJECTIVE_1]
-   • [PRIMARY_OBJECTIVE_2] 
+   • [PRIMARY_OBJECTIVE_2]
    • [PRIMARY_OBJECTIVE_3]
    • [SECONDARY_OBJECTIVE_1]
    • [SECONDARY_OBJECTIVE_2]
@@ -113,7 +113,7 @@ Generate a comprehensive documentation and wiki knowledge framework:
    • Content growth: [CONTENT_GROWTH_GOALS]
    • Search effectiveness: [SEARCH_SUCCESS_METRICS]
    • Contribution rates: [CONTRIBUTION_TARGETS]
-   
+
 ### Qualitative Metrics
    • User satisfaction: [USER_SATISFACTION_MEASURES]
    • Content quality: [QUALITY_INDICATORS]
@@ -125,7 +125,7 @@ Generate a comprehensive documentation and wiki knowledge framework:
    • [USER_VALUE_1]
    • [USER_VALUE_2]
    • [USER_VALUE_3]
-   
+
 ### For Organization
    • [ORGANIZATIONAL_VALUE_1]
    • [ORGANIZATIONAL_VALUE_2]
@@ -134,18 +134,18 @@ Generate a comprehensive documentation and wiki knowledge framework:
 2. INFORMATION ARCHITECTURE & TAXONOMY
 
 ### Knowledge Structure Design
-   
+
 ### Primary Categories
    Category 1: [PRIMARY_CATEGORY_1]
    • Subcategory 1.1: [SUBCATEGORY_1_1]
    • Subcategory 1.2: [SUBCATEGORY_1_2]
    • Subcategory 1.3: [SUBCATEGORY_1_3]
-   
+
    Category 2: [PRIMARY_CATEGORY_2]
    • Subcategory 2.1: [SUBCATEGORY_2_1]
    • Subcategory 2.2: [SUBCATEGORY_2_2]
    • Subcategory 2.3: [SUBCATEGORY_2_3]
-   
+
    Category 3: [PRIMARY_CATEGORY_3]
    • Subcategory 3.1: [SUBCATEGORY_3_1]
    • Subcategory 3.2: [SUBCATEGORY_3_2]
@@ -158,7 +158,7 @@ Generate a comprehensive documentation and wiki knowledge framework:
    • Audience tags: [AUDIENCE_TAGS]
    • Status tags: [STATUS_TAGS]
    • Priority tags: [PRIORITY_TAGS]
-   
+
 ### Tag Hierarchy
    • Level 1 (Broad): [BROAD_TAG_CATEGORIES]
    • Level 2 (Specific): [SPECIFIC_TAG_CATEGORIES]
@@ -172,7 +172,7 @@ Generate a comprehensive documentation and wiki knowledge framework:
    • Last Modified: [MODIFICATION_TRACKING]
    • Version: [VERSION_NUMBERING_SYSTEM]
    • Review Status: [REVIEW_STATUS_OPTIONS]
-   
+
 ### Optional Metadata
    • Keywords: [KEYWORD_STANDARDS]
    • Related Articles: [CROSS_REFERENCE_SYSTEM]
@@ -183,28 +183,28 @@ Generate a comprehensive documentation and wiki knowledge framework:
 3. CONTENT STRATEGY & STANDARDS
 
 ### Content Type Framework
-   
+
 ### Article Types
    How-to Guides:
    • Structure: [HOWTO_STRUCTURE]
    • Template: [HOWTO_TEMPLATE]
    • Requirements: [HOWTO_REQUIREMENTS]
-   
+
 ### Reference Documentation
    • Structure: [REFERENCE_STRUCTURE]
    • Template: [REFERENCE_TEMPLATE]
    • Requirements: [REFERENCE_REQUIREMENTS]
-   
+
 ### Conceptual Explanations
    • Structure: [CONCEPTUAL_STRUCTURE]
    • Template: [CONCEPTUAL_TEMPLATE]
    • Requirements: [CONCEPTUAL_REQUIREMENTS]
-   
+
 ### Tutorials
    • Structure: [TUTORIAL_STRUCTURE]
    • Template: [TUTORIAL_TEMPLATE]
    • Requirements: [TUTORIAL_REQUIREMENTS]
-   
+
 ### FAQs
    • Structure: [FAQ_STRUCTURE]
    • Template: [FAQ_TEMPLATE]
@@ -217,18 +217,18 @@ Generate a comprehensive documentation and wiki knowledge framework:
    • Language Level: [LANGUAGE_COMPLEXITY]
    • Formatting Standards: [FORMATTING_RULES]
    • Image Guidelines: [IMAGE_STANDARDS]
-   
+
 ### Quality Criteria
 ### Accuracy Standards
    • Fact-checking: [FACT_CHECK_PROCESS]
    • Source verification: [SOURCE_VERIFICATION]
    • Expert review: [EXPERT_REVIEW_REQUIREMENTS]
-   
+
 ### Completeness Standards
    • Information depth: [INFORMATION_DEPTH_REQUIREMENTS]
    • Coverage scope: [COVERAGE_EXPECTATIONS]
    • Cross-referencing: [CROSS_REFERENCE_STANDARDS]
-   
+
 ### Usability Standards
    • Readability: [READABILITY_TARGETS]
    • Accessibility: [ACCESSIBILITY_COMPLIANCE]
@@ -237,25 +237,25 @@ Generate a comprehensive documentation and wiki knowledge framework:
 4. USER EXPERIENCE & NAVIGATION
 
 ### Navigation Design
-   
+
 ### Primary Navigation
    • Top-level menu: [TOP_LEVEL_MENU_ITEMS]
    • Category browsing: [CATEGORY_NAVIGATION]
    • Search interface: [SEARCH_INTERFACE_DESIGN]
-   
+
 ### Secondary Navigation
    • Breadcrumb trails: [BREADCRUMB_IMPLEMENTATION]
    • Related articles: [RELATED_CONTENT_LOGIC]
    • Tag navigation: [TAG_BROWSING_INTERFACE]
    • Recently viewed: [HISTORY_TRACKING]
-   
+
 ### Search Functionality
 ### Search Features
    • Full-text search: [FULLTEXT_SEARCH_CONFIG]
    • Faceted search: [FACETED_SEARCH_OPTIONS]
    • Auto-suggestions: [AUTOCOMPLETE_FEATURES]
    • Advanced search: [ADVANCED_SEARCH_OPTIONS]
-   
+
 ### Search Optimization
    • Relevance ranking: [RELEVANCE_ALGORITHM]
    • Search analytics: [SEARCH_ANALYTICS_TRACKING]
@@ -268,7 +268,7 @@ Generate a comprehensive documentation and wiki knowledge framework:
    • Content hierarchy: [VISUAL_HIERARCHY_RULES]
    • White space usage: [WHITESPACE_GUIDELINES]
    • Typography: [TYPOGRAPHY_STANDARDS]
-   
+
 ### Interactive Elements
    • Content rating: [RATING_SYSTEM_DESIGN]
    • Comments system: [COMMENT_FUNCTIONALITY]
@@ -278,23 +278,23 @@ Generate a comprehensive documentation and wiki knowledge framework:
 5. COLLABORATIVE FRAMEWORK & WORKFLOWS
 
 ### Contribution Model
-   
+
 ### User Roles & Permissions
 ### Reader Role
    • Permissions: [READER_PERMISSIONS]
    • Capabilities: [READER_CAPABILITIES]
    • Restrictions: [READER_RESTRICTIONS]
-   
+
 ### Contributor Role
    • Permissions: [CONTRIBUTOR_PERMISSIONS]
    • Capabilities: [CONTRIBUTOR_CAPABILITIES]
    • Requirements: [CONTRIBUTOR_REQUIREMENTS]
-   
+
 ### Editor Role
    • Permissions: [EDITOR_PERMISSIONS]
    • Capabilities: [EDITOR_CAPABILITIES]
    • Responsibilities: [EDITOR_RESPONSIBILITIES]
-   
+
 ### Administrator Role
    • Permissions: [ADMIN_PERMISSIONS]
    • Capabilities: [ADMIN_CAPABILITIES]
@@ -306,17 +306,17 @@ Generate a comprehensive documentation and wiki knowledge framework:
    • Topic proposal: [TOPIC_PROPOSAL_PROCESS]
    • Research phase: [RESEARCH_REQUIREMENTS]
    • Outline approval: [OUTLINE_REVIEW_PROCESS]
-   
+
    Step 2: Content Development
    • Draft creation: [DRAFT_CREATION_GUIDELINES]
    • Peer feedback: [PEER_FEEDBACK_PROCESS]
    • Expert consultation: [EXPERT_CONSULTATION_METHODS]
-   
+
    Step 3: Review & Approval
    • Editorial review: [EDITORIAL_REVIEW_CRITERIA]
    • Technical review: [TECHNICAL_REVIEW_PROCESS]
    • Final approval: [APPROVAL_WORKFLOW]
-   
+
    Step 4: Publication & Maintenance
    • Publishing checklist: [PUBLICATION_CHECKLIST]
    • Update schedule: [UPDATE_MAINTENANCE_SCHEDULE]
@@ -328,12 +328,12 @@ Generate a comprehensive documentation and wiki knowledge framework:
    • Review criteria: [PEER_REVIEW_CRITERIA]
    • Reviewer assignment: [REVIEWER_ASSIGNMENT_LOGIC]
    • Review timeline: [REVIEW_TIMELINE_EXPECTATIONS]
-   
+
 ### Expert Review
    • Expert identification: [EXPERT_IDENTIFICATION_PROCESS]
    • Review standards: [EXPERT_REVIEW_STANDARDS]
    • Conflict resolution: [EXPERT_DISAGREEMENT_RESOLUTION]
-   
+
 ### Community Review
    • Community feedback: [COMMUNITY_FEEDBACK_MECHANISMS]
    • Crowdsourced validation: [CROWDSOURCING_VALIDATION]
@@ -342,13 +342,13 @@ Generate a comprehensive documentation and wiki knowledge framework:
 6. GOVERNANCE & COMMUNITY MANAGEMENT
 
 ### Governance Structure
-   
+
    Decision-Making Framework:
 ### Governance Levels
    • Strategic decisions: [STRATEGIC_DECISION_PROCESS]
    • Operational decisions: [OPERATIONAL_DECISION_PROCESS]
    • Content decisions: [CONTENT_DECISION_PROCESS]
-   
+
 ### Stakeholder Involvement
    • Community representation: [COMMUNITY_REPRESENTATION_MODEL]
    • Expert advisory: [EXPERT_ADVISORY_STRUCTURE]
@@ -360,13 +360,13 @@ Generate a comprehensive documentation and wiki knowledge framework:
    • Recognition programs: [CONTRIBUTOR_RECOGNITION]
    • Community events: [COMMUNITY_EVENT_PLANNING]
    • Feedback collection: [FEEDBACK_COLLECTION_METHODS]
-   
+
 ### Moderation Framework
 ### Content Moderation
    • Moderation policies: [CONTENT_MODERATION_POLICIES]
    • Automated moderation: [AUTOMATED_MODERATION_TOOLS]
    • Human moderation: [HUMAN_MODERATION_PROCESS]
-   
+
 ### Community Standards
    • Code of conduct: [COMMUNITY_CODE_OF_CONDUCT]
    • Violation handling: [VIOLATION_HANDLING_PROCEDURES]
@@ -377,7 +377,7 @@ Generate a comprehensive documentation and wiki knowledge framework:
    • Major updates: [MAJOR_UPDATE_PROCESS]
    • Minor updates: [MINOR_UPDATE_PROCESS]
    • Emergency updates: [EMERGENCY_UPDATE_PROTOCOL]
-   
+
 ### Version Control
    • Version tracking: [VERSION_TRACKING_SYSTEM]
    • Change documentation: [CHANGE_DOCUMENTATION_REQUIREMENTS]
@@ -386,14 +386,14 @@ Generate a comprehensive documentation and wiki knowledge framework:
 7. TECHNOLOGY INFRASTRUCTURE & TOOLS
 
 ### Platform Requirements
-   
+
 ### Core Platform Features
 ### Essential Features
    • Content management: [CMS_REQUIREMENTS]
    • User management: [USER_MANAGEMENT_FEATURES]
    • Search capabilities: [SEARCH_ENGINE_REQUIREMENTS]
    • Collaboration tools: [COLLABORATION_TOOL_NEEDS]
-   
+
 ### Advanced Features
    • Analytics integration: [ANALYTICS_REQUIREMENTS]
    • API capabilities: [API_INTEGRATION_NEEDS]
@@ -406,7 +406,7 @@ Generate a comprehensive documentation and wiki knowledge framework:
    • Document management: [DOCUMENT_MANAGEMENT_INTEGRATION]
    • Communication tools: [COMMUNICATION_TOOL_INTEGRATION]
    • Learning management: [LMS_INTEGRATION_REQUIREMENTS]
-   
+
 ### Data Management
    • Data migration: [DATA_MIGRATION_REQUIREMENTS]
    • Backup systems: [BACKUP_REQUIREMENTS]
@@ -423,14 +423,14 @@ Generate a comprehensive documentation and wiki knowledge framework:
 8. MEASUREMENT & ANALYTICS
 
 ### Analytics Framework
-   
+
 ### Usage Analytics
 ### User Behavior Metrics
    • Page views: [PAGEVIEW_TRACKING_SETUP]
    • User sessions: [SESSION_ANALYTICS_CONFIG]
    • Search queries: [SEARCH_ANALYTICS_TRACKING]
    • Content interactions: [INTERACTION_TRACKING]
-   
+
 ### Content Performance
    • Content popularity: [POPULARITY_METRICS]
    • Content effectiveness: [EFFECTIVENESS_MEASURES]
@@ -442,7 +442,7 @@ Generate a comprehensive documentation and wiki knowledge framework:
    • Active contributors: [CONTRIBUTOR_ACTIVITY_TRACKING]
    • Contribution volume: [CONTRIBUTION_VOLUME_METRICS]
    • Review participation: [REVIEW_PARTICIPATION_TRACKING]
-   
+
 ### Engagement Metrics
    • Community growth: [COMMUNITY_GROWTH_TRACKING]
    • Retention rates: [USER_RETENTION_ANALYTICS]
@@ -458,13 +458,13 @@ Generate a comprehensive documentation and wiki knowledge framework:
 9. MAINTENANCE & SUSTAINABILITY
 
 ### Content Lifecycle Management
-   
+
 ### Regular Maintenance
 ### Content Review Cycles
    • Annual review: [ANNUAL_REVIEW_PROCESS]
    • Quarterly updates: [QUARTERLY_UPDATE_SCHEDULE]
    • Continuous monitoring: [CONTINUOUS_MONITORING_SETUP]
-   
+
 ### Content Retirement
    • Obsolescence identification: [OBSOLESCENCE_DETECTION]
    • Archive procedures: [ARCHIVE_PROCEDURES]
@@ -476,7 +476,7 @@ Generate a comprehensive documentation and wiki knowledge framework:
    • Editors: [EDITOR_ROLE_DEFINITIONS]
    • Technical support: [TECHNICAL_SUPPORT_REQUIREMENTS]
    • Community managers: [COMMUNITY_MANAGER_RESPONSIBILITIES]
-   
+
 ### Budget Planning
    • Platform costs: [PLATFORM_COST_BUDGETING]
    • Personnel costs: [PERSONNEL_COST_PLANNING]
@@ -497,36 +497,36 @@ Generate a comprehensive documentation and wiki knowledge framework:
     • Initial configuration: [INITIAL_CONFIGURATION_TASKS]
     • User authentication: [AUTH_SYSTEM_SETUP]
     • Basic content structure: [BASIC_STRUCTURE_CREATION]
-    
+
 ### Content Framework
     • Template development: [TEMPLATE_DEVELOPMENT_TASKS]
     • Style guide creation: [STYLE_GUIDE_DEVELOPMENT]
     • Initial content creation: [INITIAL_CONTENT_PLAN]
-    
+
     Phase 2: Core Development (Months 4-6)
 ### Feature Implementation
     • Search functionality: [SEARCH_IMPLEMENTATION_PLAN]
     • Collaboration tools: [COLLABORATION_TOOL_SETUP]
     • User management: [USER_MANAGEMENT_IMPLEMENTATION]
     • Content workflow: [WORKFLOW_IMPLEMENTATION]
-    
+
 ### Community Building
     • User onboarding: [ONBOARDING_SYSTEM_SETUP]
     • Community guidelines: [GUIDELINE_ESTABLISHMENT]
     • Initial user training: [USER_TRAINING_PROGRAM]
-    
+
     Phase 3: Enhancement (Months 7-9)
 ### Advanced Features
     • Analytics integration: [ANALYTICS_IMPLEMENTATION]
     • Mobile optimization: [MOBILE_OPTIMIZATION_TASKS]
     • API development: [API_DEVELOPMENT_PLAN]
     • Integration setup: [INTEGRATION_IMPLEMENTATION]
-    
+
 ### Quality Assurance
     • Review process implementation: [REVIEW_PROCESS_SETUP]
     • Quality standards enforcement: [QUALITY_ENFORCEMENT_IMPLEMENTATION]
     • Performance optimization: [PERFORMANCE_OPTIMIZATION_TASKS]
-    
+
     Phase 4: Optimization (Months 10-12)
 ### Performance Tuning
     • User feedback integration: [FEEDBACK_INTEGRATION_PROCESS]

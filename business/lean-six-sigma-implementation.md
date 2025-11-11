@@ -32,10 +32,10 @@ Implement Lean Six Sigma project for order fulfillment process with 45% defect r
 - Achieving cost savings and productivity gains
 
 ### Basic 5-Step DMAIC Workflow
-1. **Define** - Identify problem, scope, goals, and customer requirements (1-2 weeks)
-2. **Measure** - Collect baseline data and establish current performance (2-3 weeks)
-3. **Analyze** - Identify root causes using data analysis tools (2-4 weeks)
-4. **Improve** - Develop and implement solutions to address root causes (4-6 weeks)
+1. **Define** - Identify problem, scope, goals, and customer requirements
+2. **Measure** - Collect baseline data and establish current performance
+3. **Analyze** - Identify root causes using data analysis tools
+4. **Improve** - Develop and implement solutions to address root causes
 5. **Control** - Monitor results, sustain improvements with controls (ongoing)
 
 **Time to complete**: 3-6 months for typical project, varies by complexity
@@ -443,8 +443,6 @@ Over-processing:
 | `[BELT_CERTIFICATIONS]` | Specify the belt certifications | "[specify value]" |
 | `[ENGAGEMENT_SCORE]` | Specify the engagement score | "[specify value]" |
 
-
-
 ### 3. Value Stream Mapping
 
 | **Value Stream Component** | **Current State** | **Future State** | **Gap Analysis** | **Implementation Steps** | **Expected Benefits** |
@@ -622,8 +620,6 @@ Quality Metrics:
 ```
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

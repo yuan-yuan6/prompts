@@ -770,8 +770,6 @@ OUTPUT: Deliver comprehensive EDA package including:
 
 ## Usage Examples
 
-
-
 ## Best Practices
 
 1. **Start with clear objectives** - Define what success looks like before beginning
@@ -848,11 +846,11 @@ COMORBIDITY_ANALYSIS: "Patients with 3+ chronic conditions have 3.4x readmission
 ## Customization Options
 
 1. **Analysis Depth**
-   - Quick data profiling (1-2 hours)
-   - Standard comprehensive EDA (1-2 days)  
-   - Deep statistical analysis (3-5 days)
-   - Advanced multivariate exploration (1-2 weeks)
-   - Longitudinal pattern analysis (2-4 weeks)
+   - Quick data profiling
+   - Standard comprehensive EDA
+   - Deep statistical analysis
+   - Advanced multivariate exploration
+   - Longitudinal pattern analysis
 
 2. **Data Types & Sources**
    - Structured tabular data

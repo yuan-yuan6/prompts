@@ -354,8 +354,6 @@ Counterparty Analysis:
 | `[PERF_TRACKING]` | Specify the perf tracking | "[specify value]" |
 | `[CONTINUOUS_IMP]` | Specify the continuous imp | "[specify value]" |
 
-
-
 ### 3. Negotiation Strategy & Tactics
 
 | **Strategy Component** | **Primary Approach** | **Alternative Approach** | **Triggers** | **Success Indicators** | **Risk Mitigation** |
@@ -524,8 +522,6 @@ Internal Communication:
 ```
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

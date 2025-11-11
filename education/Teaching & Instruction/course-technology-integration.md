@@ -3,7 +3,7 @@ title: Course Technology Integration Planner
 category: education/Teaching & Instruction
 tags: [technology, digital-learning, LMS, educational-technology, online-learning]
 use_cases:
-  - Integrate 2-3 educational tech tools into existing course (1-2 weeks planning)
+  - Integrate 2-3 educational tech tools into existing course
   - Design blended learning experience combining in-person and online components
   - Create flipped classroom model using video lectures and active learning
 related_templates:
@@ -155,7 +155,7 @@ Evaluate tools based on:
 **Video Content**:
 - **Platform**: [YouTube, Panopto, Kaltura, embedded in LMS]
 - **Video Types**:
-  - Short lecture videos (8-12 minutes recommended)
+  - Short lecture videos
   - Demonstrations or tutorials
   - Guest expert interviews
   - Student presentations
@@ -279,7 +279,7 @@ Consider students with:
 
 ## 8. IMPLEMENTATION TIMELINE
 
-### Pre-Course Setup (4-6 weeks before start)
+### Pre-Course Setup
 - Set up LMS course shell
 - Create or curate content and upload
 - Configure tools and test integrations

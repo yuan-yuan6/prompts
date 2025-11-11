@@ -372,8 +372,6 @@ Expert Sources:
 | `[BEST_PRACTICES]` | Specify the best practices | "[specify value]" |
 | `[KNOWLEDGE_SHARE]` | Specify the knowledge share | "[specify value]" |
 
-
-
 ### 3. Document Analysis & Verification
 
 | **Document Type** | **Collection Method** | **Verification Process** | **Chain of Custody** | **Legal Status** | **Publication Rights** |
@@ -534,8 +532,6 @@ Follow-up Strategy:
 ```
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

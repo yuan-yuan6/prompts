@@ -328,8 +328,6 @@ Legacy System Modernization:
 | `[ERROR_Y3]` | Specify the error y3 | "[specify value]" |
 | `[ERROR_MEASURE]` | Specify the error measure | "[specify value]" |
 
-
-
 ### 3. Process Digitization Strategy
 
 | **Process Area** | **Current Automation** | **Target Automation** | **Technology** | **Benefits** | **Implementation** |
@@ -448,8 +446,6 @@ Risk Assessment:
 | Quality | Error Rate | [ERROR_BASE] | [ERROR_Y1] | [ERROR_Y3] | [ERROR_MEASURE] |
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

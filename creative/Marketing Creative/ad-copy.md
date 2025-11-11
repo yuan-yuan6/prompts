@@ -415,8 +415,6 @@ OUTPUT: Deliver comprehensive ad copy with:
 
 ## Usage Examples
 
-
-
 ## Best Practices
 
 1. **Lead with the outcome, not the process** - "Lost 20 lbs" beats "Science-backed weight loss program"

@@ -106,7 +106,7 @@ class DataProfiler:
         self.profiling_engine = [QUALITY_ALIAS].ProfilingEngine([PROFILING_CONFIG])
         self.statistical_analyzer = [STATISTICAL_ANALYZER]([STATS_CONFIG])
         self.pattern_analyzer = [PATTERN_ANALYZER]([PATTERN_CONFIG])
-        
+
     def comprehensive_profile_analysis(
         self,
         dataset: [PROCESSING_ALIAS].DataFrame,
@@ -115,16 +115,16 @@ class DataProfiler:
     ) -> dict:
         """
         Perform comprehensive data profiling analysis
-        
+
 ### Args
             dataset: Dataset to profile
             table_name: Name of the table/dataset
             profiling_scope: Scope of profiling (BASIC/STANDARD/FULL/DEEP)
-            
+
 ### Returns
             Complete profiling results dictionary
         """
-        
+
         profiling_results = {
             'table_metadata': self.analyze_table_metadata(dataset, table_name),
             'column_profiles': self.analyze_column_profiles(dataset, profiling_scope),
@@ -135,9 +135,9 @@ class DataProfiler:
             'anomaly_detection': self.detect_anomalies(dataset),
             'business_rules_validation': self.validate_business_rules(dataset)
         }
-        
+
         return profiling_results
-    
+
     def analyze_table_metadata(self, dataset: [PROCESSING_ALIAS].DataFrame, table_name: str) -> dict:
         """
         Analyze table-level metadata and characteristics
@@ -154,16 +154,16 @@ class DataProfiler:
             'sample_records': dataset.head([SAMPLE_SIZE]).to_dict('records'),
             'schema_hash': [SCHEMA_HASH_CALCULATION]
         }
-    
+
     def analyze_column_profiles(self, dataset: [PROCESSING_ALIAS].DataFrame, scope: str) -> dict:
         """
         Analyze individual column profiles and characteristics
         """
         column_profiles = {}
-        
+
         for column in dataset.columns:
             column_data = dataset[column]
-            
+
             # Basic statistics
             basic_stats = {
                 'column_name': column,
@@ -175,38 +175,38 @@ class DataProfiler:
                 'unique_percentage': (column_data.nunique() / len(dataset)) * 100,
                 'memory_usage': column_data.memory_usage(deep=True)
             }
-            
+
             # Data type specific analysis
             if [PROCESSING_ALIAS].api.types.is_numeric_dtype(column_data):
                 numeric_stats = self.analyze_numeric_column(column_data)
                 basic_stats.update(numeric_stats)
-                
+
             elif [PROCESSING_ALIAS].api.types.is_string_dtype(column_data):
                 string_stats = self.analyze_string_column(column_data)
                 basic_stats.update(string_stats)
-                
+
             elif [PROCESSING_ALIAS].api.types.is_datetime64_any_dtype(column_data):
                 datetime_stats = self.analyze_datetime_column(column_data)
                 basic_stats.update(datetime_stats)
-                
+
             # Advanced profiling based on scope
             if scope in ['FULL', 'DEEP']:
                 advanced_stats = self.advanced_column_analysis(column_data, scope)
                 basic_stats.update(advanced_stats)
-                
+
             column_profiles[column] = basic_stats
-            
+
         return column_profiles
-    
+
     def analyze_numeric_column(self, column_data: [PROCESSING_ALIAS].Series) -> dict:
         """
         Analyze numeric column characteristics
         """
         numeric_data = column_data.dropna()
-        
+
         if len(numeric_data) == 0:
             return {'analysis_type': 'numeric', 'data_available': False}
-            
+
         return {
             'analysis_type': 'numeric',
             'data_available': True,
@@ -231,22 +231,22 @@ class DataProfiler:
             'distribution_type': self.identify_distribution_type(numeric_data),
             'normality_test_pvalue': self.test_normality(numeric_data)
         }
-    
+
     def analyze_string_column(self, column_data: [PROCESSING_ALIAS].Series) -> dict:
         """
         Analyze string column characteristics
         """
         string_data = column_data.dropna().astype(str)
-        
+
         if len(string_data) == 0:
             return {'analysis_type': 'string', 'data_available': False}
-        
+
         # Length statistics
         lengths = string_data.str.len()
-        
+
         # Pattern analysis
         pattern_stats = self.analyze_string_patterns(string_data)
-        
+
         return {
             'analysis_type': 'string',
             'data_available': True,
@@ -269,22 +269,22 @@ class DataProfiler:
             'most_common_values': string_data.value_counts().head([TOP_VALUES_COUNT]).to_dict(),
             'least_common_values': string_data.value_counts().tail([BOTTOM_VALUES_COUNT]).to_dict()
         }
-    
+
     def analyze_datetime_column(self, column_data: [PROCESSING_ALIAS].Series) -> dict:
         """
         Analyze datetime column characteristics
         """
         datetime_data = [PROCESSING_ALIAS].to_datetime(column_data, errors='coerce').dropna()
-        
+
         if len(datetime_data) == 0:
             return {'analysis_type': 'datetime', 'data_available': False}
-        
+
         # Time range analysis
         time_range = datetime_data.max() - datetime_data.min()
-        
+
         # Temporal patterns
         temporal_patterns = self.analyze_temporal_patterns(datetime_data)
-        
+
         return {
             'analysis_type': 'datetime',
             'data_available': True,
@@ -305,7 +305,7 @@ class DataProfiler:
             'seasonal_patterns': temporal_patterns['seasonal_patterns'],
             'trend_analysis': temporal_patterns['trend_analysis']
         }
-    
+
     def analyze_data_patterns(self, dataset: [PROCESSING_ALIAS].DataFrame) -> dict:
         """
         Analyze cross-column data patterns and relationships
@@ -319,9 +319,9 @@ class DataProfiler:
             'hierarchical_patterns': self.identify_hierarchical_patterns(dataset),
             'referential_integrity': self.validate_referential_integrity(dataset)
         }
-        
+
         return pattern_analysis
-    
+
     def assess_data_quality(self, dataset: [PROCESSING_ALIAS].DataFrame) -> dict:
         """
         Assess overall data quality across multiple dimensions
@@ -335,7 +335,7 @@ class DataProfiler:
             'timeliness': self.assess_timeliness(dataset),
             'integrity': self.assess_integrity(dataset)
         }
-        
+
         # Calculate overall quality score
         dimension_weights = {
             'completeness': [COMPLETENESS_WEIGHT],
@@ -346,12 +346,12 @@ class DataProfiler:
             'timeliness': [TIMELINESS_WEIGHT],
             'integrity': [INTEGRITY_WEIGHT]
         }
-        
+
         weighted_score = sum(
             quality_dimensions[dim]['score'] * dimension_weights[dim]
             for dim in quality_dimensions.keys()
         ) / sum(dimension_weights.values())
-        
+
         return {
             'dimension_scores': quality_dimensions,
             'overall_quality_score': weighted_score,
@@ -369,7 +369,7 @@ class DataValidationEngine:
         self.config = config
         self.rule_engine = [RULES_ENGINE]([RULES_CONFIG])
         self.validation_results = []
-        
+
     def create_validation_suite(
         self,
         dataset: [PROCESSING_ALIAS].DataFrame,
@@ -377,15 +377,15 @@ class DataValidationEngine:
     ) -> dict:
         """
         Create comprehensive data validation suite
-        
+
 ### Args
             dataset: Dataset to validate
             validation_config: Validation configuration
-            
+
 ### Returns
             Validation suite results
         """
-        
+
         validation_suite = {
             'schema_validation': self.validate_schema(dataset, validation_config.get('schema_rules', {})),
             'business_rules_validation': self.validate_business_rules(dataset, validation_config.get('business_rules', [])),
@@ -396,9 +396,9 @@ class DataValidationEngine:
             'cross_field_validation': self.validate_cross_field_rules(dataset, validation_config.get('cross_field_rules', [])),
             'temporal_validation': self.validate_temporal_rules(dataset, validation_config.get('temporal_rules', []))
         }
-        
+
         return validation_suite
-    
+
     def validate_schema(self, dataset: [PROCESSING_ALIAS].DataFrame, schema_rules: dict) -> dict:
         """
         Validate dataset schema against defined rules
@@ -410,17 +410,17 @@ class DataValidationEngine:
             'validation_details': [],
             'critical_failures': []
         }
-        
+
         # Column existence validation
         expected_columns = schema_rules.get('required_columns', [])
         actual_columns = set(dataset.columns)
-        
+
         for column in expected_columns:
             if column['name'] in actual_columns:
                 # Validate data type
                 expected_type = column.get('data_type')
                 actual_type = str(dataset[column['name']].dtype)
-                
+
                 if self.is_compatible_data_type(actual_type, expected_type):
                     schema_results['tests_passed'] += 1
                     schema_results['validation_details'].append({
@@ -441,10 +441,10 @@ class DataValidationEngine:
                         'severity': column.get('criticality', 'MEDIUM')
                     }
                     schema_results['validation_details'].append(failure_detail)
-                    
+
                     if column.get('criticality') == 'CRITICAL':
                         schema_results['critical_failures'].append(failure_detail)
-                        
+
                 # Validate nullability
                 if not column.get('nullable', True):
                     null_count = dataset[column['name']].isnull().sum()
@@ -475,12 +475,12 @@ class DataValidationEngine:
                     'severity': column.get('criticality', 'HIGH')
                 }
                 schema_results['validation_details'].append(missing_column_detail)
-                
+
                 if column.get('criticality') == 'CRITICAL':
                     schema_results['critical_failures'].append(missing_column_detail)
-        
+
         return schema_results
-    
+
     def validate_business_rules(self, dataset: [PROCESSING_ALIAS].DataFrame, business_rules: list) -> dict:
         """
         Validate business-specific rules and constraints
@@ -492,18 +492,18 @@ class DataValidationEngine:
             'validation_details': [],
             'rule_violations': []
         }
-        
+
         for rule in business_rules:
             try:
                 rule_type = rule['type']
                 rule_name = rule['name']
                 rule_condition = rule['condition']
-                
+
                 # Evaluate rule condition
                 if rule_type == 'CONSTRAINT':
                     violations = dataset.query(f"not ([RULE_CONDITION])")
                     violation_count = len(violations)
-                    
+
                     if violation_count == 0:
                         business_results['tests_passed'] += 1
                         business_results['validation_details'].append({
@@ -527,12 +527,12 @@ class DataValidationEngine:
                         }
                         business_results['validation_details'].append(violation_detail)
                         business_results['rule_violations'].append(violation_detail)
-                
+
                 elif rule_type == 'AGGREGATION':
                     # Validate aggregation-based rules
                     aggregate_condition = rule['aggregate_condition']
                     agg_result = eval(f"dataset.[AGGREGATE_CONDITION]")
-                    
+
                     if agg_result:
                         business_results['tests_passed'] += 1
                     else:
@@ -544,17 +544,17 @@ class DataValidationEngine:
                             'status': 'FAIL',
                             'severity': rule.get('severity', 'MEDIUM')
                         })
-                        
+
                 elif rule_type == 'STATISTICAL':
                     # Validate statistical constraints
                     statistical_result = self.validate_statistical_rule(dataset, rule)
                     business_results['validation_details'].append(statistical_result)
-                    
+
                     if statistical_result['status'] == 'PASS':
                         business_results['tests_passed'] += 1
                     else:
                         business_results['tests_failed'] += 1
-                        
+
             except Exception as e:
                 business_results['tests_failed'] += 1
                 business_results['validation_details'].append({
@@ -564,9 +564,9 @@ class DataValidationEngine:
                     'error_message': str(e),
                     'severity': 'HIGH'
                 })
-        
+
         return business_results
-    
+
     def validate_referential_integrity(self, dataset: [PROCESSING_ALIAS].DataFrame, referential_rules: list) -> dict:
         """
         Validate referential integrity constraints
@@ -578,17 +578,17 @@ class DataValidationEngine:
             'validation_details': [],
             'orphan_records': []
         }
-        
+
         for rule in referential_rules:
             parent_dataset = self.load_reference_dataset(rule['parent_table'])
             child_column = rule['child_column']
             parent_column = rule['parent_column']
-            
+
             # Find orphan records
             child_values = dataset[child_column].dropna().unique()
             parent_values = parent_dataset[parent_column].unique()
             orphan_values = set(child_values) - set(parent_values)
-            
+
             if len(orphan_values) == 0:
                 referential_results['tests_passed'] += 1
                 referential_results['validation_details'].append({
@@ -602,7 +602,7 @@ class DataValidationEngine:
             else:
                 referential_results['tests_failed'] += 1
                 orphan_records = dataset[dataset[child_column].isin(orphan_values)]
-                
+
                 orphan_detail = {
                     'rule_type': 'FOREIGN_KEY',
                     'child_column': child_column,
@@ -616,9 +616,9 @@ class DataValidationEngine:
                 }
                 referential_results['validation_details'].append(orphan_detail)
                 referential_results['orphan_records'].append(orphan_detail)
-        
+
         return referential_results
-    
+
     def validate_custom_rules(self, dataset: [PROCESSING_ALIAS].DataFrame, custom_rules: list) -> dict:
         """
         Execute custom validation rules with flexible logic
@@ -629,24 +629,24 @@ class DataValidationEngine:
             'tests_failed': 0,
             'validation_details': []
         }
-        
+
         for rule in custom_rules:
             try:
                 rule_name = rule['name']
                 rule_function = rule['function']
                 rule_parameters = rule.get('parameters', {})
-                
+
                 # Execute custom validation function
                 validation_result = eval(f"[RULE_FUNCTION](dataset, **[RULE_PARAMETERS])")
-                
+
                 if validation_result['status'] == 'PASS':
                     custom_results['tests_passed'] += 1
                 else:
                     custom_results['tests_failed'] += 1
-                
+
                 validation_result['rule_name'] = rule_name
                 custom_results['validation_details'].append(validation_result)
-                
+
             except Exception as e:
                 custom_results['tests_failed'] += 1
                 custom_results['validation_details'].append({
@@ -655,7 +655,7 @@ class DataValidationEngine:
                     'error_message': str(e),
                     'severity': 'HIGH'
                 })
-        
+
         return custom_results
 
 # Quality assessment functions
@@ -666,7 +666,7 @@ def assess_completeness(dataset: [PROCESSING_ALIAS].DataFrame) -> dict:
     total_cells = dataset.shape[0] * dataset.shape[1]
     missing_cells = dataset.isnull().sum().sum()
     completeness_percentage = ((total_cells - missing_cells) / total_cells) * 100
-    
+
     column_completeness = {}
     for column in dataset.columns:
         non_null_count = dataset[column].count()
@@ -676,7 +676,7 @@ def assess_completeness(dataset: [PROCESSING_ALIAS].DataFrame) -> dict:
             'missing_count': total_count - non_null_count,
             'non_null_count': non_null_count
         }
-    
+
     return {
         'score': completeness_percentage,
         'overall_completeness': completeness_percentage,
@@ -699,18 +699,18 @@ def assess_validity(dataset: [PROCESSING_ALIAS].DataFrame) -> dict:
         'format_violations': [],
         'constraint_violations': []
     }
-    
+
     # Define validity rules per column type
     validity_rules = [VALIDITY_RULES_CONFIG]
-    
+
     total_valid_values = 0
     total_values = 0
-    
+
     for column in dataset.columns:
         column_data = dataset[column].dropna()
         if len(column_data) == 0:
             continue
-            
+
         column_validity = {
             'total_values': len(column_data),
             'valid_values': 0,
@@ -718,17 +718,17 @@ def assess_validity(dataset: [PROCESSING_ALIAS].DataFrame) -> dict:
             'validity_percentage': 0,
             'validation_errors': []
         }
-        
+
         # Apply format validation based on column type
         if column in validity_rules:
             rules = validity_rules[column]
-            
+
             for rule in rules:
                 if rule['type'] == 'REGEX':
                     valid_mask = column_data.astype(str).str.match(rule['pattern'])
                     valid_count = valid_mask.sum()
                     invalid_count = len(column_data) - valid_count
-                    
+
                     if invalid_count > 0:
                         column_validity['validation_errors'].append({
                             'rule_type': 'REGEX',
@@ -736,13 +736,13 @@ def assess_validity(dataset: [PROCESSING_ALIAS].DataFrame) -> dict:
                             'invalid_count': invalid_count,
                             'invalid_percentage': (invalid_count / len(column_data)) * 100
                         })
-                
+
                 elif rule['type'] == 'RANGE':
                     if [PROCESSING_ALIAS].api.types.is_numeric_dtype(column_data):
                         valid_mask = column_data.between(rule['min_value'], rule['max_value'])
                         valid_count = valid_mask.sum()
                         invalid_count = len(column_data) - valid_count
-                        
+
                         if invalid_count > 0:
                             column_validity['validation_errors'].append({
                                 'rule_type': 'RANGE',
@@ -751,7 +751,7 @@ def assess_validity(dataset: [PROCESSING_ALIAS].DataFrame) -> dict:
                                 'invalid_count': invalid_count,
                                 'out_of_range_values': column_data[~valid_mask].tolist()[:10]
                             })
-        
+
         # Calculate column validity percentage
         if column_validity['validation_errors']:
             total_invalid = sum(error['invalid_count'] for error in column_validity['validation_errors'])
@@ -759,16 +759,16 @@ def assess_validity(dataset: [PROCESSING_ALIAS].DataFrame) -> dict:
             column_validity['valid_values'] = len(column_data) - total_invalid
         else:
             column_validity['valid_values'] = len(column_data)
-        
+
         column_validity['validity_percentage'] = (column_validity['valid_values'] / len(column_data)) * 100
-        
+
         validity_results['column_validity'][column] = column_validity
         total_valid_values += column_validity['valid_values']
         total_values += len(column_data)
-    
+
     # Calculate overall validity score
     validity_results['score'] = (total_valid_values / total_values * 100) if total_values > 0 else 0
-    
+
     return validity_results
 ```
 
@@ -782,7 +782,7 @@ class DataCleansingEngine:
         self.cleansing_rules = [CLEANSING_RULES_CONFIG]
         self.standardization_rules = [STANDARDIZATION_RULES_CONFIG]
         self.transformation_log = []
-        
+
     def comprehensive_data_cleansing(
         self,
         dataset: [PROCESSING_ALIAS].DataFrame,
@@ -790,18 +790,18 @@ class DataCleansingEngine:
     ) -> dict:
         """
         Perform comprehensive data cleansing
-        
+
 ### Args
             dataset: Dataset to cleanse
             cleansing_profile: Cleansing intensity (BASIC/STANDARD/AGGRESSIVE)
-            
+
 ### Returns
             Cleansing results and transformed dataset
         """
-        
+
         original_dataset = dataset.copy()
         cleansed_dataset = dataset.copy()
-        
+
         cleansing_results = {
             'original_record_count': len(dataset),
             'original_column_count': len(dataset.columns),
@@ -810,59 +810,59 @@ class DataCleansingEngine:
             'quality_improvements': {},
             'cleansing_summary': {}
         }
-        
+
         # Step 1: Handle missing values
         cleansed_dataset, missing_value_results = self.handle_missing_values(
             cleansed_dataset, cleansing_profile
         )
         cleansing_results['cleansing_operations'].append(missing_value_results)
-        
+
         # Step 2: Remove duplicates
         cleansed_dataset, duplicate_results = self.remove_duplicates(
             cleansed_dataset, cleansing_profile
         )
         cleansing_results['cleansing_operations'].append(duplicate_results)
-        
+
         # Step 3: Standardize formats
         cleansed_dataset, standardization_results = self.standardize_formats(
             cleansed_dataset, cleansing_profile
         )
         cleansing_results['cleansing_operations'].append(standardization_results)
-        
+
         # Step 4: Handle outliers
         cleansed_dataset, outlier_results = self.handle_outliers(
             cleansed_dataset, cleansing_profile
         )
         cleansing_results['cleansing_operations'].append(outlier_results)
-        
+
         # Step 5: Validate and correct data types
         cleansed_dataset, datatype_results = self.correct_data_types(
             cleansed_dataset, cleansing_profile
         )
         cleansing_results['cleansing_operations'].append(datatype_results)
-        
+
         # Step 6: Apply business rule corrections
         cleansed_dataset, business_rule_results = self.apply_business_rule_corrections(
             cleansed_dataset, cleansing_profile
         )
         cleansing_results['cleansing_operations'].append(business_rule_results)
-        
+
         # Calculate quality improvements
         cleansing_results['quality_improvements'] = self.calculate_quality_improvements(
             original_dataset, cleansed_dataset
         )
-        
+
         # Final summary
         cleansing_results['final_record_count'] = len(cleansed_dataset)
         cleansing_results['final_column_count'] = len(cleansed_dataset.columns)
         cleansing_results['records_removed'] = len(dataset) - len(cleansed_dataset)
         cleansing_results['cleansed_dataset'] = cleansed_dataset
-        
+
         return cleansing_results
-    
+
     def handle_missing_values(
-        self, 
-        dataset: [PROCESSING_ALIAS].DataFrame, 
+        self,
+        dataset: [PROCESSING_ALIAS].DataFrame,
         profile: str
     ) -> tuple:
         """
@@ -874,14 +874,14 @@ class DataCleansingEngine:
             'values_imputed': 0,
             'records_removed': 0
         }
-        
+
         for column in dataset.columns:
             missing_count = dataset[column].isnull().sum()
             if missing_count == 0:
                 continue
-            
+
             missing_percentage = (missing_count / len(dataset)) * 100
-            
+
             # Determine handling strategy based on missing percentage and profile
             if missing_percentage > [HIGH_MISSING_THRESHOLD]:
                 if profile == 'AGGRESSIVE':
@@ -899,12 +899,12 @@ class DataCleansingEngine:
                         'missing_percentage': missing_percentage,
                         'reason': 'High missing percentage requires review'
                     }
-            
+
             elif missing_percentage > [MEDIUM_MISSING_THRESHOLD]:
                 # Apply sophisticated imputation
                 imputation_strategy = self.determine_imputation_strategy(dataset[column])
                 dataset[column] = self.apply_imputation(dataset[column], imputation_strategy)
-                
+
                 missing_value_results['strategies_applied'][column] = {
                     'strategy': 'IMPUTATION',
                     'imputation_method': imputation_strategy['method'],
@@ -912,7 +912,7 @@ class DataCleansingEngine:
                     'values_imputed': missing_count
                 }
                 missing_value_results['values_imputed'] += missing_count
-            
+
             else:
                 # Simple imputation for low missing percentages
                 if [PROCESSING_ALIAS].api.types.is_numeric_dtype(dataset[column]):
@@ -921,9 +921,9 @@ class DataCleansingEngine:
                 else:
                     fill_value = dataset[column].mode().iloc[0] if not dataset[column].mode().empty else '[DEFAULT_STRING_VALUE]'
                     imputation_method = 'MODE'
-                
+
                 dataset[column] = dataset[column].fillna(fill_value)
-                
+
                 missing_value_results['strategies_applied'][column] = {
                     'strategy': 'SIMPLE_IMPUTATION',
                     'imputation_method': imputation_method,
@@ -931,19 +931,19 @@ class DataCleansingEngine:
                     'values_imputed': missing_count
                 }
                 missing_value_results['values_imputed'] += missing_count
-        
+
         return dataset, missing_value_results
-    
+
     def remove_duplicates(
-        self, 
-        dataset: [PROCESSING_ALIAS].DataFrame, 
+        self,
+        dataset: [PROCESSING_ALIAS].DataFrame,
         profile: str
     ) -> tuple:
         """
         Remove duplicate records based on profile settings
         """
         original_count = len(dataset)
-        
+
         duplicate_results = {
             'operation_type': 'DUPLICATE_REMOVAL',
             'original_count': original_count,
@@ -951,13 +951,13 @@ class DataCleansingEngine:
             'duplicates_removed': 0,
             'final_count': None
         }
-        
+
         # Identify duplicate handling strategy
         if profile == 'BASIC':
             # Remove exact duplicates only
             dataset = dataset.drop_duplicates()
             duplicate_results['duplicate_strategy'] = 'EXACT_DUPLICATES_ONLY'
-            
+
         elif profile == 'STANDARD':
             # Remove duplicates based on key columns if defined
             key_columns = self.config.get('key_columns', None)
@@ -967,21 +967,21 @@ class DataCleansingEngine:
             else:
                 dataset = dataset.drop_duplicates()
                 duplicate_results['duplicate_strategy'] = 'EXACT_DUPLICATES_ONLY'
-                
+
         elif profile == 'AGGRESSIVE':
             # Apply fuzzy duplicate detection
             dataset, fuzzy_results = self.remove_fuzzy_duplicates(dataset)
             duplicate_results['duplicate_strategy'] = 'FUZZY_MATCHING'
             duplicate_results['fuzzy_matching_results'] = fuzzy_results
-        
+
         duplicate_results['final_count'] = len(dataset)
         duplicate_results['duplicates_removed'] = original_count - len(dataset)
-        
+
         return dataset, duplicate_results
-    
+
     def standardize_formats(
-        self, 
-        dataset: [PROCESSING_ALIAS].DataFrame, 
+        self,
+        dataset: [PROCESSING_ALIAS].DataFrame,
         profile: str
     ) -> tuple:
         """
@@ -992,21 +992,21 @@ class DataCleansingEngine:
             'columns_standardized': {},
             'total_values_standardized': 0
         }
-        
+
         for column in dataset.columns:
             column_type = str(dataset[column].dtype)
             standardization_applied = False
             values_standardized = 0
-            
+
             # String column standardization
             if 'object' in column_type or 'string' in column_type:
                 original_values = dataset[column].copy()
-                
+
                 # Apply string standardizations
                 if profile in ['STANDARD', 'AGGRESSIVE']:
                     # Trim whitespace
                     dataset[column] = dataset[column].astype(str).str.strip()
-                    
+
                     # Convert to consistent case if specified
                     case_conversion = self.config.get('case_conversion', {}).get(column)
                     if case_conversion == 'UPPER':
@@ -1015,22 +1015,22 @@ class DataCleansingEngine:
                         dataset[column] = dataset[column].str.lower()
                     elif case_conversion == 'TITLE':
                         dataset[column] = dataset[column].str.title()
-                    
+
                     # Remove extra spaces
                     dataset[column] = dataset[column].str.replace(r'\s+', ' ', regex=True)
-                    
+
                     standardization_applied = True
-                
+
                 # Apply format-specific standardizations
                 format_type = self.detect_format_type(dataset[column])
                 if format_type in ['PHONE', 'EMAIL', 'ZIP_CODE', 'SSN']:
                     dataset[column] = self.apply_format_standardization(dataset[column], format_type)
                     standardization_applied = True
-                
+
                 # Count standardized values
                 if standardization_applied:
                     values_standardized = (original_values != dataset[column]).sum()
-            
+
             # Numeric column standardization
             elif [PROCESSING_ALIAS].api.types.is_numeric_dtype(dataset[column]):
                 if profile == 'AGGRESSIVE':
@@ -1041,7 +1041,7 @@ class DataCleansingEngine:
                         dataset[column] = dataset[column].round(decimal_places)
                         values_standardized = (original_values != dataset[column]).sum()
                         standardization_applied = True
-            
+
             # Date column standardization
             elif 'datetime' in column_type:
                 if profile in ['STANDARD', 'AGGRESSIVE']:
@@ -1051,7 +1051,7 @@ class DataCleansingEngine:
                     dataset[column] = [PROCESSING_ALIAS].to_datetime(dataset[column]).dt.strftime(date_format)
                     values_standardized = len(dataset[column])
                     standardization_applied = True
-            
+
             if standardization_applied:
                 standardization_results['columns_standardized'][column] = {
                     'format_type': format_type if 'format_type' in locals() else column_type,
@@ -1059,12 +1059,12 @@ class DataCleansingEngine:
                     'standardization_percentage': (values_standardized / len(dataset)) * 100 if len(dataset) > 0 else 0
                 }
                 standardization_results['total_values_standardized'] += values_standardized
-        
+
         return dataset, standardization_results
-    
+
     def handle_outliers(
-        self, 
-        dataset: [PROCESSING_ALIAS].DataFrame, 
+        self,
+        dataset: [PROCESSING_ALIAS].DataFrame,
         profile: str
     ) -> tuple:
         """
@@ -1075,49 +1075,49 @@ class DataCleansingEngine:
             'columns_processed': {},
             'total_outliers_handled': 0
         }
-        
+
         numeric_columns = dataset.select_dtypes(include=[[NUMERIC_TYPES]]).columns
-        
+
         for column in numeric_columns:
             column_data = dataset[column].dropna()
             if len(column_data) < [MIN_SAMPLE_SIZE_FOR_OUTLIERS]:
                 continue
-            
+
             # Detect outliers using multiple methods
             outliers_iqr = self.detect_outliers_iqr(column_data)
             outliers_zscore = self.detect_outliers_zscore(column_data)
             outliers_isolation_forest = self.detect_outliers_isolation_forest(column_data)
-            
+
             # Combine outlier detection results
             combined_outliers = set(outliers_iqr) | set(outliers_zscore) | set(outliers_isolation_forest)
-            
+
             if len(combined_outliers) == 0:
                 continue
-            
+
             outlier_handling_strategy = self.determine_outlier_strategy(column, profile, len(combined_outliers))
-            
+
             if outlier_handling_strategy == 'REMOVE':
                 dataset = dataset[~dataset.index.isin(combined_outliers)]
                 outliers_handled = len(combined_outliers)
-                
+
             elif outlier_handling_strategy == 'CAP':
                 # Cap outliers at percentile values
                 lower_bound = column_data.quantile([OUTLIER_LOWER_PERCENTILE])
                 upper_bound = column_data.quantile([OUTLIER_UPPER_PERCENTILE])
-                
+
                 dataset.loc[dataset[column] < lower_bound, column] = lower_bound
                 dataset.loc[dataset[column] > upper_bound, column] = upper_bound
                 outliers_handled = len(combined_outliers)
-                
+
             elif outlier_handling_strategy == 'TRANSFORM':
                 # Apply transformation (e.g., log transformation)
                 if (column_data > 0).all():
                     dataset[column] = [NUMPY_ALIAS].log1p(dataset[column])
                 outliers_handled = len(combined_outliers)
-                
+
             else:  # KEEP
                 outliers_handled = 0
-            
+
             outlier_results['columns_processed'][column] = {
                 'outliers_detected_iqr': len(outliers_iqr),
                 'outliers_detected_zscore': len(outliers_zscore),
@@ -1127,9 +1127,9 @@ class DataCleansingEngine:
                 'handling_strategy': outlier_handling_strategy,
                 'outliers_handled': outliers_handled
             }
-            
+
             outlier_results['total_outliers_handled'] += outliers_handled
-        
+
         return dataset, outlier_results
 ```
 
@@ -1143,7 +1143,7 @@ class DataQualityMonitor:
         self.monitoring_rules = [MONITORING_RULES_CONFIG]
         self.alert_manager = [ALERT_MANAGER]([ALERT_CONFIG])
         self.metrics_collector = [METRICS_COLLECTOR]([METRICS_CONFIG])
-        
+
     def setup_continuous_monitoring(
         self,
         data_source: str,
@@ -1151,15 +1151,15 @@ class DataQualityMonitor:
     ) -> dict:
         """
         Setup continuous data quality monitoring
-        
+
 ### Args
             data_source: Data source identifier
             monitoring_frequency: Monitoring frequency (REAL_TIME/HOURLY/DAILY)
-            
+
 ### Returns
             Monitoring setup configuration
         """
-        
+
         monitoring_setup = {
             'data_source': data_source,
             'monitoring_frequency': monitoring_frequency,
@@ -1168,9 +1168,9 @@ class DataQualityMonitor:
             'monitoring_schedule': self.create_monitoring_schedule(monitoring_frequency),
             'dashboard_config': self.create_monitoring_dashboard(data_source)
         }
-        
+
         return monitoring_setup
-    
+
     def execute_quality_monitoring_cycle(
         self,
         data_source: str,
@@ -1189,26 +1189,26 @@ class DataQualityMonitor:
             'alert_triggers': [],
             'recommendations': []
         }
-        
+
         # Check quality thresholds and generate alerts
         alert_triggers = self.check_quality_thresholds(monitoring_results['quality_metrics'])
         monitoring_results['alert_triggers'] = alert_triggers
-        
+
         # Send alerts if necessary
         for alert in alert_triggers:
             self.send_quality_alert(alert, data_source)
-        
+
         # Generate improvement recommendations
         monitoring_results['recommendations'] = self.generate_quality_recommendations(
             monitoring_results['quality_metrics'],
             monitoring_results['anomaly_detection']
         )
-        
+
         # Store monitoring results for trend analysis
         self.store_monitoring_results(monitoring_results)
-        
+
         return monitoring_results
-    
+
     def calculate_quality_metrics(self, dataset: [PROCESSING_ALIAS].DataFrame) -> dict:
         """
         Calculate comprehensive quality metrics
@@ -1223,7 +1223,7 @@ class DataQualityMonitor:
             'integrity_metrics': self.calculate_integrity_metrics(dataset),
             'overall_quality_score': 0
         }
-        
+
         # Calculate weighted overall quality score
         dimension_weights = self.config.get('quality_dimension_weights', {
             'completeness': [COMPLETENESS_WEIGHT],
@@ -1234,20 +1234,20 @@ class DataQualityMonitor:
             'timeliness': [TIMELINESS_WEIGHT],
             'integrity': [INTEGRITY_WEIGHT]
         })
-        
+
         weighted_score = 0
         total_weight = 0
-        
+
         for dimension, weight in dimension_weights.items():
             if dimension in quality_metrics:
                 dimension_score = quality_metrics[dimension]['overall_score']
                 weighted_score += dimension_score * weight
                 total_weight += weight
-        
+
         quality_metrics['overall_quality_score'] = weighted_score / total_weight if total_weight > 0 else 0
-        
+
         return quality_metrics
-    
+
     def detect_quality_anomalies(self, dataset: [PROCESSING_ALIAS].DataFrame) -> dict:
         """
         Detect data quality anomalies using statistical methods
@@ -1259,9 +1259,9 @@ class DataQualityMonitor:
             'correlation_anomalies': self.detect_correlation_anomalies(dataset),
             'temporal_anomalies': self.detect_temporal_anomalies(dataset)
         }
-        
+
         return anomaly_detection
-    
+
     def create_quality_dashboard(self, data_source: str) -> dict:
         """
         Create interactive data quality dashboard configuration
@@ -1287,7 +1287,7 @@ class DataQualityMonitor:
                     'title': 'Quality Dimensions',
                     'metrics': [
                         'completeness_score',
-                        'accuracy_score', 
+                        'accuracy_score',
                         'consistency_score',
                         'validity_score',
                         'uniqueness_score',
@@ -1341,7 +1341,7 @@ class DataQualityMonitor:
                 }
             ]
         }
-        
+
         return dashboard_config
 
 # Automated quality remediation system
@@ -1350,7 +1350,7 @@ class QualityRemediationEngine:
         self.config = config
         self.remediation_rules = [REMEDIATION_RULES_CONFIG]
         self.ml_models = [ML_MODELS_CONFIG]
-        
+
     def auto_remediate_quality_issues(
         self,
         dataset: [PROCESSING_ALIAS].DataFrame,
@@ -1359,16 +1359,16 @@ class QualityRemediationEngine:
     ) -> dict:
         """
         Automatically remediate data quality issues
-        
+
 ### Args
             dataset: Dataset with quality issues
             quality_issues: List of identified quality issues
             remediation_level: Level of remediation (CONSERVATIVE/STANDARD/AGGRESSIVE)
-            
+
 ### Returns
             Remediation results and improved dataset
         """
-        
+
         remediation_results = {
             'original_dataset_shape': dataset.shape,
             'issues_addressed': [],
@@ -1377,59 +1377,59 @@ class QualityRemediationEngine:
             'quality_improvement': {},
             'remediated_dataset': dataset.copy()
         }
-        
+
         for issue in quality_issues:
             try:
                 issue_type = issue['issue_type']
                 severity = issue.get('severity', 'MEDIUM')
-                
+
                 # Determine if issue should be auto-remediated
                 if self.should_auto_remediate(issue_type, severity, remediation_level):
-                    
+
                     # Apply appropriate remediation strategy
                     if issue_type == 'MISSING_VALUES':
                         remediation_result = self.remediate_missing_values(
                             remediation_results['remediated_dataset'],
                             issue
                         )
-                        
+
                     elif issue_type == 'DUPLICATE_RECORDS':
                         remediation_result = self.remediate_duplicates(
                             remediation_results['remediated_dataset'],
                             issue
                         )
-                        
+
                     elif issue_type == 'FORMAT_INCONSISTENCY':
                         remediation_result = self.remediate_format_issues(
                             remediation_results['remediated_dataset'],
                             issue
                         )
-                        
+
                     elif issue_type == 'OUTLIERS':
                         remediation_result = self.remediate_outliers(
                             remediation_results['remediated_dataset'],
                             issue
                         )
-                        
+
                     elif issue_type == 'REFERENTIAL_INTEGRITY':
                         remediation_result = self.remediate_referential_issues(
                             remediation_results['remediated_dataset'],
                             issue
                         )
-                        
+
                     elif issue_type == 'BUSINESS_RULE_VIOLATION':
                         remediation_result = self.remediate_business_rule_violations(
                             remediation_results['remediated_dataset'],
                             issue
                         )
-                    
+
                     else:
                         # Custom remediation for unknown issue types
                         remediation_result = self.apply_custom_remediation(
                             remediation_results['remediated_dataset'],
                             issue
                         )
-                    
+
                     # Update dataset if remediation was successful
                     if remediation_result['success']:
                         remediation_results['remediated_dataset'] = remediation_result['updated_dataset']
@@ -1440,27 +1440,27 @@ class QualityRemediationEngine:
                             'issue': issue,
                             'reason': remediation_result.get('error_message', 'Unknown error')
                         })
-                
+
                 else:
                     remediation_results['issues_unresolved'].append({
                         'issue': issue,
                         'reason': f'Issue not eligible for auto-remediation at [REMEDIATION_LEVEL] level'
                     })
-                    
+
             except Exception as e:
                 remediation_results['issues_unresolved'].append({
                     'issue': issue,
                     'reason': f'Remediation failed: {str(e)}'
                 })
-        
+
         # Calculate quality improvement
         remediation_results['quality_improvement'] = self.calculate_quality_improvement(
             dataset,
             remediation_results['remediated_dataset']
         )
-        
+
         return remediation_results
-    
+
     def remediate_missing_values(
         self,
         dataset: [PROCESSING_ALIAS].DataFrame,
@@ -1471,30 +1471,30 @@ class QualityRemediationEngine:
         """
         column = issue['column']
         missing_percentage = issue.get('missing_percentage', 0)
-        
+
         try:
             if missing_percentage > [SEVERE_MISSING_THRESHOLD]:
                 # Use ML-based imputation for severe missing values
                 imputed_values = self.ml_based_imputation(dataset, column)
                 dataset[column] = imputed_values
                 remediation_method = 'ML_BASED_IMPUTATION'
-                
+
             elif missing_percentage > [MODERATE_MISSING_THRESHOLD]:
                 # Use advanced statistical imputation
                 imputed_values = self.advanced_statistical_imputation(dataset, column)
                 dataset[column] = imputed_values
                 remediation_method = 'ADVANCED_STATISTICAL_IMPUTATION'
-                
+
             else:
                 # Use simple imputation for low missing percentages
                 if [PROCESSING_ALIAS].api.types.is_numeric_dtype(dataset[column]):
                     fill_value = dataset[column].median()
                 else:
                     fill_value = dataset[column].mode().iloc[0] if not dataset[column].mode().empty else '[DEFAULT_VALUE]'
-                
+
                 dataset[column] = dataset[column].fillna(fill_value)
                 remediation_method = 'SIMPLE_IMPUTATION'
-            
+
             return {
                 'success': True,
                 'updated_dataset': dataset,
@@ -1502,14 +1502,14 @@ class QualityRemediationEngine:
                 'values_imputed': issue.get('missing_count', 0),
                 'imputation_accuracy': self.estimate_imputation_accuracy(dataset, column)
             }
-            
+
         except Exception as e:
             return {
                 'success': False,
                 'error_message': str(e),
                 'updated_dataset': dataset
             }
-    
+
     def ml_based_imputation(
         self,
         dataset: [PROCESSING_ALIAS].DataFrame,
@@ -1519,18 +1519,18 @@ class QualityRemediationEngine:
         Use machine learning models for advanced missing value imputation
         """
         from [ML_LIBRARY] import [ML_IMPUTATION_MODELS]
-        
+
         # Prepare features for ML imputation
         feature_columns = [col for col in dataset.columns if col != target_column]
         feature_data = dataset[feature_columns].fillna(dataset[feature_columns].median())
-        
+
         # Split data into training and prediction sets
         train_mask = dataset[target_column].notna()
         train_features = feature_data[train_mask]
         train_target = dataset.loc[train_mask, target_column]
-        
+
         predict_features = feature_data[~train_mask]
-        
+
         # Select appropriate ML model based on data type
         if [PROCESSING_ALIAS].api.types.is_numeric_dtype(dataset[target_column]):
             # Use regression for numeric data
@@ -1544,15 +1544,15 @@ class QualityRemediationEngine:
                 n_estimators=[RF_N_ESTIMATORS],
                 random_state=[RANDOM_STATE]
             )
-        
+
         # Train model and make predictions
         model.fit(train_features, train_target)
         predicted_values = model.predict(predict_features)
-        
+
         # Create complete series with original and predicted values
         complete_series = dataset[target_column].copy()
         complete_series.loc[~train_mask] = predicted_values
-        
+
         return complete_series
 ```
 
@@ -1573,8 +1573,6 @@ OUTPUT: Deliver comprehensive data quality validation and management framework i
 [DATA_QUALITY_METHODOLOGY], [ORGANIZATION_NAME], [QUALITY_OBJECTIVES], [VALIDATION_APPROACH], [QUALITY_TOOLS], [INDUSTRY_SECTOR], [DATA_DOMAIN], [COMPLIANCE_REQUIREMENTS], [DATA_VOLUME_SCALE], [QUALITY_SLA_TARGETS], [QUALITY_BUSINESS_IMPACT], [STAKEHOLDER_QUALITY_REQUIREMENTS], [QUALITY_DIMENSIONS], [QUALITY_MONITORING_STRATEGY], [QUALITY_REMEDIATION_APPROACH], [QUALITY_GOVERNANCE_MODEL], [QUALITY_AUTOMATION_LEVEL], [DATA_PLATFORMS], [QUALITY_VALIDATION_TOOLS], [DATA_PROCESSING_FRAMEWORK], [QUALITY_MONITORING_PLATFORM], [QUALITY_ALERTING_SYSTEM], [METADATA_REPOSITORY], [LINEAGE_TRACKING_SYSTEM], [QUALITY_DASHBOARD_PLATFORM], [ACCURACY_THRESHOLD_PERCENTAGE], [COMPLETENESS_THRESHOLD_PERCENTAGE], [CONSISTENCY_THRESHOLD_PERCENTAGE], [TIMELINESS_THRESHOLD_HOURS], [UNIQUENESS_THRESHOLD_PERCENTAGE], [VALIDITY_THRESHOLD_PERCENTAGE], [OVERALL_QUALITY_TARGET], [CRITICAL_DATA_ELEMENTS], [DATA_PROCESSING_LIBRARY], [PROCESSING_ALIAS], [QUALITY_LIBRARY], [QUALITY_ALIAS], [STATISTICAL_LIBRARY], [STATISTICAL_FUNCTIONS], [VISUALIZATION_LIBRARY], [PLOTTING_FUNCTIONS], [PROFILING_CONFIG], [STATISTICAL_ANALYZER], [STATS_CONFIG], [PATTERN_ANALYZER], [PATTERN_CONFIG], [TABLE_SIZE_CALCULATION], [CURRENT_TIMESTAMP], [PROFILING_SCOPE_LEVEL], [SAMPLE_SIZE], [SCHEMA_HASH_CALCULATION], [HIGH_IO_THRESHOLD], [HIGH_READ_LATENCY_THRESHOLD], [HIGH_CPU_THRESHOLD], [TOP_VALUES_COUNT], [BOTTOM_VALUES_COUNT], [BUSINESS_START_HOUR], [BUSINESS_END_HOUR], [COMPLETENESS_WEIGHT], [ACCURACY_WEIGHT], [CONSISTENCY_WEIGHT], [VALIDITY_WEIGHT], [UNIQUENESS_WEIGHT], [TIMELINESS_WEIGHT], [INTEGRITY_WEIGHT], [COMPLETENESS_THRESHOLD], [RULES_ENGINE], [RULES_CONFIG], [SAMPLE_VIOLATION_COUNT], [SAMPLE_ORPHAN_COUNT], [VALIDITY_RULES_CONFIG], [CLEANSING_RULES_CONFIG], [STANDARDIZATION_RULES_CONFIG], [HIGH_MISSING_THRESHOLD], [MEDIUM_MISSING_THRESHOLD], [DEFAULT_STRING_VALUE], [NUMERIC_TYPES], [MIN_SAMPLE_SIZE_FOR_OUTLIERS], [OUTLIER_LOWER_PERCENTILE], [OUTLIER_UPPER_PERCENTILE], [NUMPY_ALIAS], [MONITORING_RULES_CONFIG], [ALERT_MANAGER], [ALERT_CONFIG], [METRICS_COLLECTOR], [METRICS_CONFIG], [DASHBOARD_REFRESH_INTERVAL], [EXCELLENT_QUALITY_THRESHOLD], [GOOD_QUALITY_THRESHOLD], [POOR_QUALITY_THRESHOLD], [TREND_TIME_RANGE], [TOP_ISSUES_COUNT], [ALERT_TIME_RANGE], [DEFAULT_TIME_RANGE], [REMEDIATION_RULES_CONFIG], [ML_MODELS_CONFIG], [SEVERE_MISSING_THRESHOLD], [MODERATE_MISSING_THRESHOLD], [DEFAULT_VALUE], [ML_LIBRARY], [ML_IMPUTATION_MODELS], [RF_N_ESTIMATORS], [RANDOM_STATE]
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

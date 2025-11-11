@@ -356,8 +356,6 @@ Alternative Storage:
 | `[COMPLY_RISK]` | Specify the comply risk | "[specify value]" |
 | `[REG_MITIGATE]` | Specify the reg mitigate | "[specify value]" |
 
-
-
 ### 3. Grid Integration & Infrastructure
 
 | **Grid Component** | **Current State** | **Upgrade Required** | **Integration Challenge** | **Solution** | **Timeline** |
@@ -515,8 +513,6 @@ Financial Risks:
 ```
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

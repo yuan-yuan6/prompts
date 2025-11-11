@@ -372,8 +372,6 @@ Positioning Strategy:
 | `[MARKET_CAP_IMPACT]` | Specify the market cap impact | "[specify value]" |
 | `[SHAREHOLDER_VALUE]` | Specify the shareholder value | "[specify value]" |
 
-
-
 ### 3. Brand Identity & Visual System
 
 | **Identity Element** | **Design Direction** | **Application Guidelines** | **Usage Scenarios** | **Quality Standards** | **Implementation Cost** |
@@ -551,8 +549,6 @@ Business Impact:
 ```
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

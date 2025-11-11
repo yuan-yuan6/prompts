@@ -347,8 +347,6 @@ Fall/Winter Collection:
 | `[SHARE_Y5]` | Specify the share y5 | "[specify value]" |
 | `[SHARE_CAGR]` | Specify the share cagr | "[specify value]" |
 
-
-
 ### 3. Product Mix & Category Management
 
 | **Product Category** | **Revenue Share** | **Growth Rate** | **Margin** | **Inventory Turns** | **Development Priority** |
@@ -485,8 +483,6 @@ Post-Purchase:
 | Market Share | [SHARE_CURRENT]% | [SHARE_Y1]% | [SHARE_Y3]% | [SHARE_Y5]% | [SHARE_CAGR]% |
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

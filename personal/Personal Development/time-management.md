@@ -34,8 +34,6 @@ You have 15 competing tasks and feel paralyzed. Use this prompt to create an Eis
 2. **Generate Framework** (2 min): Run the prompt to create your customized prioritization system with matrices and scoring
 3. **Act & Adjust** (10 min): Review the output, identify your top 3 priorities, and schedule them immediately
 
-**Time Estimate:** 15-20 minutes for initial setup, then 5 minutes daily for maintenance
-
 **Expected Outcome:** A clear, actionable prioritization system that helps you focus on high-impact work and eliminate time-wasters, typically increasing productive output by 30-50%.
 
 ## Template
@@ -253,8 +251,8 @@ Task Size        | Base Time  | Complexity Multiplier | Buffer % | Total Estimat
 -----------------|-----------|----------------------|----------|---------------
 Small (<2 hours) | [SM_BASE] | [SM_COMPLEX]         | [SM_BUF] | [SM_TOTAL]
 Medium (2-8 hrs) | [MD_BASE] | [MD_COMPLEX]         | [MD_BUF] | [MD_TOTAL]
-Large (1-3 days) | [LG_BASE] | [LG_COMPLEX]         | [LG_BUF] | [LG_TOTAL]
-XL (3-5 days)    | [XL_BASE] | [XL_COMPLEX]         | [XL_BUF] | [XL_TOTAL]
+Large | [LG_BASE] | [LG_COMPLEX]         | [LG_BUF] | [LG_TOTAL]
+XL    | [XL_BASE] | [XL_COMPLEX]         | [XL_BUF] | [XL_TOTAL]
 XXL (>5 days)    | [XXL_BASE]| [XXL_COMPLEX]        | [XXL_BUF]| [XXL_TOTAL]
 ```
 
@@ -518,8 +516,6 @@ OUTPUT: Deliver comprehensive prioritization system with:
 [All 400+ variables for comprehensive task prioritization]
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

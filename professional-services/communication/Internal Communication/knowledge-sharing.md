@@ -762,11 +762,7 @@ Please provide a comprehensive knowledge sharing and expertise management strate
 | `[THREAT_CHALLENGE_MITIGATION_PLANNING]` | Specify the threat challenge mitigation planning | "[specify value]" |
 | `[OUTCOME_INDICATOR_METRIC_DEFINITION]` | Specify the outcome indicator metric definition | "[specify value]" |
 
-
-
 ## Usage Examples
-
-
 
 ## Best Practices
 

@@ -326,8 +326,6 @@ Screening Process:
 | `[NOI_TREND]` | Specify the noi trend | "[specify value]" |
 | `[NOI_ACTION]` | Specify the noi action | "[specify value]" |
 
-
-
 ### 3. Lease Management & Renewals
 
 | **Lease Status** | **Count** | **Avg Term** | **Avg Rent** | **Expiring 30d** | **Expiring 90d** |
@@ -451,8 +449,6 @@ Fair Housing Compliance:
 | NOI Margin | [NOI_CURRENT]% | [NOI_TARGET]% | [NOI_IND]% | [NOI_TREND] | [NOI_ACTION] |
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

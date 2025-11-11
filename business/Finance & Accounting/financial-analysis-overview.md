@@ -58,7 +58,7 @@ Your Analysis Goal → Recommended Template:
 
 **Time to complete**: 1-2 hours for basic analysis, 1 day for comprehensive financial evaluation
 
-**Pro tip**: For initial screening, use financial-statement-analysis.md + financial-ratio-analysis.md (1 hour total). This covers 80% of what you need to know before deeper analysis.
+**Pro tip**: For initial screening, use financial-statement-analysis.md + financial-ratio-analysis.md. This covers 80% of what you need to know before deeper analysis.
 
 ---
 

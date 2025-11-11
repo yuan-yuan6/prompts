@@ -22,27 +22,27 @@ Develop comprehensive ethical frameworks and detailed implementation plans that 
 
 ### For Researchers Planning Ethics and Implementation
 
-**Step 1: Establish Ethical Framework (10 minutes)**
+**Step 1: Establish Ethical Framework**
 - Identify ethical principles guiding your research
 - Develop informed consent procedures and participant protections
 - Plan for cultural sensitivity and community engagement
 
-**Step 2: Create IRB Protocol (15 minutes)**
+**Step 2: Create IRB Protocol**
 - Prepare institutional review board submission materials
 - Conduct risk-benefit assessment
 - Plan for adverse event reporting and monitoring
 
-**Step 3: Develop Implementation Timeline (10 minutes)**
+**Step 3: Develop Implementation Timeline**
 - Map project phases with milestones and deliverables
 - Identify critical path activities and dependencies
 - Build in buffer time and contingency plans
 
-**Step 4: Plan Resources and Risk Management (8 minutes)**
+**Step 4: Plan Resources and Risk Management**
 - Allocate personnel, budget, and material resources
 - Identify potential risks and mitigation strategies
 - Establish quality monitoring and performance tracking systems
 
-**Step 5: Generate and Execute (2 minutes)**
+**Step 5: Generate and Execute**
 - Input specifications into template variables
 - Generate comprehensive ethics and implementation plan
 - Create project management tools and tracking systems

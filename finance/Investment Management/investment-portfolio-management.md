@@ -3,7 +3,7 @@ title: Investment Portfolio Management Framework
 category: finance/Investment Management
 tags: [data-science, finance, framework, management, optimization, research, security, strategy]
 use_cases:
-  - Build diversified investment portfolio for client based on risk tolerance (3-4 hours)
+  - Build diversified investment portfolio for client based on risk tolerance
   - Rebalance existing portfolio to align with target asset allocation
   - Create investment policy statement for institutional or individual investor
   - Implementing comprehensive framework for professional investment portfolio management including asset allocation and risk analysis
@@ -25,7 +25,7 @@ Comprehensive framework for professional investment portfolio management includi
 
 Get started managing an investment portfolio in under an hour with these practical examples:
 
-### Example 1: Basic Balanced Portfolio (30 minutes)
+### Example 1: Basic Balanced Portfolio
 Create a moderate-risk portfolio for a client with $500K assets:
 ```
 CLIENT_TYPE: "Individual investor"
@@ -47,7 +47,7 @@ First Actions:
 4. Configure automated compliance monitoring
 ```
 
-### Example 2: Rebalancing an Existing Portfolio (20 minutes)
+### Example 2: Rebalancing an Existing Portfolio
 Portfolio has drifted from target allocation:
 ```
 Current: 68% Equities (Target: 60%), 27% Bonds (Target: 35%), 5% Cash
@@ -60,7 +60,7 @@ Rebalancing Triggers:
 - Document rationale for compliance
 ```
 
-### Example 3: Quick Risk Assessment (15 minutes)
+### Example 3: Quick Risk Assessment
 Evaluate portfolio risk metrics for client review:
 ```
 Key Metrics to Calculate:

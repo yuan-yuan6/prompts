@@ -404,22 +404,22 @@ Most dashboard projects require multiple prompts. Use them in parallel when:
 ## Project Phases Overview
 
 ```
-Phase 1: Discovery & Planning (2-4 weeks)
+Phase 1: Discovery & Planning
 ├─ Strategy & Requirements
 └─ Initial Security & Compliance review
 
-Phase 2: Design (3-5 weeks)
+Phase 2: Design
 ├─ UX Design
 ├─ Data Architecture
 └─ Technical Architecture
 
-Phase 3: Build (4-8 weeks)
+Phase 3: Build
 ├─ Data pipeline development
 ├─ Dashboard development
 ├─ Security implementation
 └─ Integration work
 
-Phase 4: Test & Deploy (2-4 weeks)
+Phase 4: Test & Deploy
 ├─ Testing & Validation
 ├─ UAT
 ├─ Deployment

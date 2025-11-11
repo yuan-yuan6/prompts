@@ -305,8 +305,6 @@ Learning Centers:
 | `[CC_TIME]` | Specify the cc time | "[specify value]" |
 | `[CC_EVIDENCE]` | Specify the cc evidence | "[specify value]" |
 
-
-
 ### 3. Behavior Management System
 
 | **Behavior Level** | **Expectations** | **Positive Reinforcement** | **Consequences** | **Parent Communication** | **Documentation** |
@@ -422,8 +420,6 @@ Software & Platforms:
 | Cultural Competency | [CC_CURRENT] | [CC_GOAL] | [CC_ACTIVITIES] | [CC_TIME] | [CC_EVIDENCE] |
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

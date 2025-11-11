@@ -128,8 +128,6 @@ Manage IP portfolio for [COMPANY_NAME] with [PATENT_COUNT] patents, [TRADEMARK_C
 
 ## Usage Examples
 
-
-
 ## Best Practices
 
 1. **Start with clear objectives** - Define what success looks like before beginning
@@ -456,8 +454,6 @@ Revenue Target: $10M from IP licensing
 | `[SYSTEMS_AUTHORITY]` | Specify the systems authority | "[specify value]" |
 | `[SYSTEMS_IMPL]` | Specify the systems impl | "[specify value]" |
 | `[SYSTEMS_METRICS]` | Specify the systems metrics | "[specify value]" |
-
-
 
 ### Example 2: Life Sciences IP Management
 ```

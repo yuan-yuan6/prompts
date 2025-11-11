@@ -206,8 +206,6 @@ Data Analysis:
 | `[FAIRNESS_METRICS]` | Specify the fairness metrics | "[specify value]" |
 | `[ROBUSTNESS_TESTING]` | Specify the robustness testing | "[specify value]" |
 
-
-
 ## Best Practices
 
 1. **Start with simple baselines before complex models**

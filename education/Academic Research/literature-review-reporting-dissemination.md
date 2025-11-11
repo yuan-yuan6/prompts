@@ -29,7 +29,7 @@ Prepare comprehensive literature review reports following international standard
 - Write structured abstract and main manuscript
 - Prepare tables, figures, and supplementary materials
 
-**Step 2: Plan Dissemination Strategy (20 minutes)**
+**Step 2: Plan Dissemination Strategy**
 - Identify target audiences and stakeholder groups
 - Select appropriate dissemination channels
 - Develop audience-specific messaging

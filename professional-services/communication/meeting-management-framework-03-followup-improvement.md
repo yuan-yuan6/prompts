@@ -5,7 +5,7 @@ tags: [communication, design, framework, machine-learning, management, optimizat
 series: meeting-management-framework
 part: 1 of 1
 related_parts:
-  - 
+  -
   - meeting-management-framework-overview.md
 last_updated: 2025-11-11
 ---
@@ -28,7 +28,6 @@ This part focuses on **Follow-up & Improvement**. For complete workflow, start w
 
 ## Related Resources
 - **Overview:** Complete framework navigation guide
-
 
 ### 5.3 Meeting Culture Transformation
 #### Cultural Change and Behavior Modification
@@ -308,8 +307,6 @@ This part focuses on **Follow-up & Improvement**. For complete workflow, start w
 - `[INCLUSION_DIVERSITY_PSYCHOLOGICAL_SAFETY]`: Cultural development
 
 ## Usage Examples
-
-
 
 ## Best Practices
 

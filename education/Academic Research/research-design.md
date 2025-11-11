@@ -21,17 +21,17 @@ Create comprehensive research design strategies covering quantitative, qualitati
 
 ### For Researchers & Graduate Students
 
-**Step 1: Define Your Research Foundation (10 minutes)**
+**Step 1: Define Your Research Foundation**
 - Specify your research domain, focus area, and primary research question
 - Identify your theoretical framework and research paradigm
 - Clarify your study population and research setting
 
-**Step 2: Select Your Research Design (5 minutes)**
+**Step 2: Select Your Research Design**
 - Choose design type: Experimental, quasi-experimental, or observational
 - Select methodological approach: Quantitative, qualitative, or mixed-methods
 - Determine study duration and geographic scope
 
-**Step 3: Generate Your Design Framework (2 minutes)**
+**Step 3: Generate Your Design Framework**
 - Input your information into the template variables
 - Generate comprehensive research design with all IMRAD components
 - Receive detailed methodology sections including sampling, data collection, and analysis plans
@@ -1545,8 +1545,6 @@ Generate a comprehensive research design strategy that includes:
 
 ## Usage Examples
 
-
-
 ## Best Practices
 
 1. **Start with clear objectives** - Define what success looks like before beginning
@@ -1575,7 +1573,7 @@ Generate a comprehensive research design strategy that includes:
 ### Example 1: Mixed-Methods Education Research
 "Design a comprehensive mixed-methods study examining the effectiveness of personalized learning technologies on student engagement and academic achievement in high school mathematics. Include randomized controlled trial components, qualitative case studies, and longitudinal tracking over two academic years."
 
-### Example 2: Qualitative Healthcare Research  
+### Example 2: Qualitative Healthcare Research
 "Create a phenomenological research design exploring the lived experiences of healthcare workers during pandemic conditions. Utilize in-depth interviews, focus groups, and participant observation across multiple healthcare settings to understand resilience and coping mechanisms."
 
 ### Example 3: Quantitative Social Science Research
@@ -1593,139 +1591,139 @@ Generate a comprehensive research design strategy that includes:
 
 5. **Technology Integration Level**: Incorporate various levels of technology from basic data collection tools to advanced AI, machine learning, and digital research platforms
    • [MAIN_RESEARCH_OBJECTIVE]
-   
+
 ### Secondary Objectives
    • [SECONDARY_OBJECTIVE_1]
    • [SECONDARY_OBJECTIVE_2]
    • [SECONDARY_OBJECTIVE_3]
-   
+
    Research Hypotheses (if applicable):
 ### Primary Hypothesis
    • H₁: [PRIMARY_HYPOTHESIS]
    • H₀: [NULL_HYPOTHESIS]
-   
+
 ### Secondary Hypotheses
    • H₂: [SECONDARY_HYPOTHESIS_1]
    • H₃: [SECONDARY_HYPOTHESIS_2]
 
 2. THEORETICAL FRAMEWORK & CONCEPTUAL MODEL
-   
+
 ### Theoretical Foundation
 ### Primary Theory
    • [MAIN_THEORY]: [Theory description and relevance]
    • [KEY_THEORETICAL_CONCEPTS]
    • [THEORETICAL_ASSUMPTIONS]
-   
+
 ### Supporting Theories
    • [SUPPORTING_THEORY_1]: [Application to research]
    • [SUPPORTING_THEORY_2]: [Integration with main theory]
-   
+
 ### Conceptual Framework
 ### Key Concepts and Definitions
    • [CONCEPT_1]: [Operational definition]
    • [CONCEPT_2]: [Operational definition]
    • [CONCEPT_3]: [Operational definition]
-   
+
 ### Variable Relationships
 ### Independent Variables
    • [INDEPENDENT_VAR_1]: [Definition and measurement]
    • [INDEPENDENT_VAR_2]: [Definition and measurement]
-   
+
 ### Dependent Variables
    • [DEPENDENT_VAR_1]: [Definition and measurement]
    • [DEPENDENT_VAR_2]: [Definition and measurement]
-   
+
 ### Mediating Variables
    • [MEDIATING_VAR_1]: [Role in causal pathway]
-   
+
 ### Moderating Variables
    • [MODERATING_VAR_1]: [Interaction effects expected]
-   
+
 ### Control Variables
    • [CONTROL_VAR_1]: [Rationale for control]
    • [CONTROL_VAR_2]: [Rationale for control]
 
 3. RESEARCH DESIGN & METHODOLOGY
-   
+
 ### Research Design Type
    Overall Design: [RESEARCH_DESIGN_TYPE]
-   
+
 ### Design Justification
    • [Appropriateness for research questions]
    • [Alignment with theoretical framework]
    • [Practical feasibility considerations]
    • [Resource and time constraints]
-   
+
 ### Methodological Approach
-   
+
 ### For Quantitative Studies
    Study Design: [EXPERIMENTAL/CORRELATIONAL/SURVEY/LONGITUDINAL]
    • [DESIGN_SPECIFIC_FEATURES]
    • [CONTROL_MECHANISMS]
    • [RANDOMIZATION_STRATEGY]
    • [BLINDING_PROCEDURES]
-   
+
 ### For Qualitative Studies
    Methodology: [PHENOMENOLOGY/GROUNDED_THEORY/ETHNOGRAPHY/CASE_STUDY]
    • [METHODOLOGICAL_PRINCIPLES]
    • [PHILOSOPHICAL_ASSUMPTIONS]
    • [RESEARCHER_POSITIONING]
    • [REFLEXIVITY_APPROACH]
-   
+
 ### For Mixed Methods Studies
    Design Type: [CONVERGENT/SEQUENTIAL_EXPLANATORY/SEQUENTIAL_EXPLORATORY]
    • [INTEGRATION_STRATEGY]
    • [PRIORITY_WEIGHTING]
    • [TIMING_OF_COMPONENTS]
    • [MIXING_PROCEDURES]
-   
+
 ### Validity and Reliability Considerations
 ### Internal Validity
    • [THREATS_TO_VALIDITY]
    • [VALIDITY_ENHANCEMENT_STRATEGIES]
-   
+
 ### External Validity
    • [GENERALIZABILITY_SCOPE]
    • [EXTERNAL_VALIDITY_LIMITATIONS]
-   
+
 ### Construct Validity
    • [CONSTRUCT_DEFINITION_CLARITY]
    • [MEASUREMENT_VALIDITY]
-   
+
 ### Reliability
    • [RELIABILITY_ASSESSMENT_METHODS]
    • [CONSISTENCY_MEASURES]
 
 4. POPULATION & SAMPLING
-   
+
 ### Target Population
 ### Population Definition
    • [POPULATION_DESCRIPTION]
    • [INCLUSION_CRITERIA]
    • [EXCLUSION_CRITERIA]
    • [POPULATION_SIZE_ESTIMATE]
-   
+
 ### Accessible Population
    • [ACCESSIBLE_POPULATION_SCOPE]
    • [GEOGRAPHIC_BOUNDARIES]
    • [TEMPORAL_BOUNDARIES]
    • [INSTITUTIONAL_ACCESS]
-   
+
 ### Sampling Strategy
-   
+
 ### Probability Sampling
    Sampling Method: [SIMPLE_RANDOM/STRATIFIED/CLUSTER/SYSTEMATIC]
    • [SAMPLING_FRAME_DESCRIPTION]
    • [STRATIFICATION_VARIABLES] (if applicable)
    • [CLUSTER_DEFINITION] (if applicable)
    • [SAMPLING_INTERVAL] (if applicable)
-   
+
    Non-Probability Sampling:
    Sampling Method: [CONVENIENCE/PURPOSIVE/SNOWBALL/QUOTA]
    • [SELECTION_CRITERIA]
    • [RECRUITMENT_STRATEGY]
    • [SATURATION_CRITERIA] (for qualitative)
-   
+
 ### Sample Size Determination
 ### Quantitative Sample Size
    • [EFFECT_SIZE_EXPECTED]: [Effect size value]
@@ -1734,40 +1732,40 @@ Generate a comprehensive research design strategy that includes:
    • [CALCULATION_METHOD]: [Formula or software used]
    • [FINAL_SAMPLE_SIZE]: [N] participants
    • [ATTRITION_ADJUSTMENT]: [Percentage] additional
-   
+
 ### Qualitative Sample Size
    • [SAMPLING_APPROACH]: [Theoretical/Data saturation]
    • [ESTIMATED_SIZE]: [N] participants
    • [SATURATION_CRITERIA]: [How saturation determined]
-   
+
 ### Recruitment Procedures
 ### Recruitment Strategy
    • [RECRUITMENT_METHODS]
    • [RECRUITMENT_TIMELINE]
    • [RECRUITMENT_MATERIALS]
    • [INCENTIVE_STRUCTURE]
-   
+
    Inclusion/Exclusion Criteria:
 ### Inclusion Criteria
    • [INCLUSION_CRITERION_1]
    • [INCLUSION_CRITERION_2]
    • [INCLUSION_CRITERION_3]
-   
+
 ### Exclusion Criteria
    • [EXCLUSION_CRITERION_1]
    • [EXCLUSION_CRITERION_2]
    • [EXCLUSION_CRITERION_3]
 
 5. DATA COLLECTION METHODS
-   
+
 ### Data Collection Overview
    • [DATA_TYPES_COLLECTED]
    • [COLLECTION_TIMELINE]
    • [COLLECTION_SETTING]
    • [COLLECTOR_TRAINING_REQUIREMENTS]
-   
+
 ### Primary Data Collection
-   
+
 ### Quantitative Instruments
    Instrument 1: [INSTRUMENT_NAME_1]
    • Type: [SURVEY/QUESTIONNAIRE/TEST/OBSERVATION_SCALE]
@@ -1776,7 +1774,7 @@ Generate a comprehensive research design strategy that includes:
    • Validity: [VALIDITY_EVIDENCE_1]
    • Reliability: [RELIABILITY_COEFFICIENT_1]
    • Administration: [ADMINISTRATION_METHOD_1]
-   
+
    Instrument 2: [INSTRUMENT_NAME_2]
    • Type: [PHYSIOLOGICAL/BEHAVIORAL/PERFORMANCE]
    • Description: [INSTRUMENT_DESCRIPTION_2]
@@ -1784,7 +1782,7 @@ Generate a comprehensive research design strategy that includes:
    • Validity: [VALIDITY_EVIDENCE_2]
    • Reliability: [RELIABILITY_COEFFICIENT_2]
    • Administration: [ADMINISTRATION_METHOD_2]
-   
+
 ### Qualitative Data Collection
    Method 1: [INTERVIEWS/FOCUS_GROUPS/OBSERVATIONS]
    • Type: [STRUCTURED/SEMI_STRUCTURED/UNSTRUCTURED]
@@ -1792,30 +1790,30 @@ Generate a comprehensive research design strategy that includes:
    • Protocol: [INTERVIEW_GUIDE_APPROACH]
    • Duration: [EXPECTED_DURATION_1]
    • Recording: [AUDIO/VIDEO/NOTES]
-   
+
    Method 2: [DOCUMENT_ANALYSIS/FIELD_NOTES/ARTIFACTS]
    • Type: [DOCUMENT_TYPE]
    • Description: [METHOD_DESCRIPTION_2]
    • Analysis approach: [ANALYSIS_FRAMEWORK]
-   
+
 ### Secondary Data Sources
    • [SECONDARY_SOURCE_1]: [Description and relevance]
    • [SECONDARY_SOURCE_2]: [Access and permissions]
    • [SECONDARY_SOURCE_3]: [Data quality considerations]
-   
+
 ### Data Collection Procedures
    Pre-Collection Preparation:
    • [SITE_PREPARATION]
    • [EQUIPMENT_TESTING]
    • [STAFF_TRAINING]
    • [PILOT_TESTING_RESULTS]
-   
+
 ### Collection Protocol
    • [STEP_BY_STEP_PROCEDURES]
    • [QUALITY_CONTROL_MEASURES]
    • [STANDARDIZATION_PROCEDURES]
    • [CONTINGENCY_PLANS]
-   
+
 ### Data Management
    • [DATA_STORAGE_SYSTEM]
    • [BACKUP_PROCEDURES]
@@ -1823,70 +1821,70 @@ Generate a comprehensive research design strategy that includes:
    • [RETENTION_SCHEDULE]
 
 6. DATA ANALYSIS PLAN
-   
+
 ### Analysis Overview
    • [ANALYSIS_PHILOSOPHY]
    • [SOFTWARE_PACKAGES]: [SPSS/R/STATA/NVIVO/ATLAS.ti]
    • [ANALYSIS_TEAM_ROLES]
    • [QUALITY_ASSURANCE_PROCEDURES]
-   
+
 ### Quantitative Analysis Plan
-   
+
 ### Descriptive Analysis
    • [DESCRIPTIVE_STATISTICS_PLAN]
    • [DEMOGRAPHIC_ANALYSIS]
    • [UNIVARIATE_ANALYSIS]
    • [BIVARIATE_ANALYSIS]
-   
+
 ### Inferential Analysis
 ### Primary Analysis
    • [STATISTICAL_TEST_1]: For [HYPOTHESIS_1]
    • [STATISTICAL_TEST_2]: For [HYPOTHESIS_2]
    • [EFFECT_SIZE_MEASURES]
    • [CONFIDENCE_INTERVALS]
-   
+
 ### Secondary Analysis
    • [EXPLORATORY_ANALYSES]
    • [SUBGROUP_ANALYSES]
    • [SENSITIVITY_ANALYSES]
    • [POST_HOC_ANALYSES]
-   
+
 ### Assumptions Testing
    • [NORMALITY_TESTS]
    • [HOMOSCEDASTICITY_TESTS]
    • [INDEPENDENCE_CHECKS]
    • [MULTICOLLINEARITY_ASSESSMENT]
-   
+
 ### Missing Data Handling
    • [MISSING_DATA_ASSESSMENT]
    • [IMPUTATION_METHODS]
    • [SENSITIVITY_ANALYSES_MISSING]
-   
+
 ### Qualitative Analysis Plan
-   
+
    Analysis Approach: [THEMATIC/CONTENT/NARRATIVE/DISCOURSE]
-   
+
 ### Analysis Process
    Phase 1: Data Preparation
    • [TRANSCRIPTION_PROCEDURES]
    • [DATA_CLEANING_STEPS]
    • [INITIAL_FAMILIARIZATION]
-   
+
    Phase 2: Initial Coding
    • [CODING_APPROACH]: [INDUCTIVE/DEDUCTIVE/ABDUCTIVE]
    • [CODING_FRAMEWORK]
    • [INTER_CODER_RELIABILITY]
-   
+
    Phase 3: Theme Development
    • [THEME_IDENTIFICATION_PROCESS]
    • [THEME_REFINEMENT_CRITERIA]
    • [HIERARCHICAL_ORGANIZATION]
-   
+
    Phase 4: Interpretation
    • [THEORETICAL_INTEGRATION]
    • [MEMBER_CHECKING_PROCEDURES]
    • [TRUSTWORTHINESS_STRATEGIES]
-   
+
 ### Mixed Methods Integration
    Integration Strategy: [CONVERGENT/CONNECTING/BUILDING]
    • [QUANTITATIVE_QUALITATIVE_COMPARISON]
@@ -1895,44 +1893,44 @@ Generate a comprehensive research design strategy that includes:
    • [META_INFERENCES_DEVELOPMENT]
 
 7. ETHICAL CONSIDERATIONS
-   
+
 ### Ethical Framework
    • [ETHICAL_PRINCIPLES_GUIDING_RESEARCH]
    • [INSTITUTIONAL_REVIEW_BOARD_APPROVAL]
    • [ADDITIONAL_ETHICS_APPROVALS_NEEDED]
-   
+
 ### Participant Protection
 ### Informed Consent
    • [CONSENT_PROCESS_DESCRIPTION]
    • [CONSENT_FORM_ELEMENTS]
    • [SPECIAL_POPULATIONS_CONSIDERATIONS]
    • [ONGOING_CONSENT_PROCEDURES]
-   
+
 ### Risk Assessment
 ### Potential Risks
    • [PHYSICAL_RISKS]: [Risk level and mitigation]
    • [PSYCHOLOGICAL_RISKS]: [Risk level and mitigation]
    • [SOCIAL_RISKS]: [Risk level and mitigation]
    • [ECONOMIC_RISKS]: [Risk level and mitigation]
-   
+
 ### Risk Mitigation
    • [RISK_MINIMIZATION_STRATEGIES]
    • [MONITORING_PROCEDURES]
    • [ADVERSE_EVENT_REPORTING]
    • [PARTICIPANT_WITHDRAWAL_PROCEDURES]
-   
+
 ### Confidentiality and Privacy
    • [DATA_DE_IDENTIFICATION_PROCEDURES]
    • [CONFIDENTIALITY_AGREEMENTS]
    • [DATA_SECURITY_MEASURES]
    • [PARTICIPANT_ANONYMITY_PROTECTION]
-   
+
 ### Vulnerable Populations
    • [VULNERABLE_POPULATION_IDENTIFICATION]
    • [ADDITIONAL_PROTECTIONS_REQUIRED]
    • [CAPACITY_ASSESSMENT_PROCEDURES]
    • [SURROGATE_CONSENT_PROCEDURES]
-   
+
 ### Data Ethics
    • [DATA_OWNERSHIP_RIGHTS]
    • [DATA_SHARING_PLANS]
@@ -1940,58 +1938,58 @@ Generate a comprehensive research design strategy that includes:
    • [BENEFIT_SHARING_ARRANGEMENTS]
 
 8. QUALITY ASSURANCE & TRUSTWORTHINESS
-   
+
 ### For Quantitative Research
-   
+
 ### Validity Enhancement
 ### Internal Validity
    • [CONTROL_OF_CONFOUNDING]
    • [RANDOMIZATION_PROCEDURES]
    • [BLINDING_STRATEGIES]
    • [INSTRUMENTATION_CONTROLS]
-   
+
 ### External Validity
    • [SAMPLE_REPRESENTATIVENESS]
    • [SETTING_GENERALIZABILITY]
    • [TEMPORAL_GENERALIZABILITY]
-   
+
 ### Construct Validity
    • [INSTRUMENT_VALIDATION]
    • [MULTIPLE_OPERATIONALIZATIONS]
    • [CONVERGENT_DIVERGENT_VALIDITY]
-   
+
 ### Reliability Assurance
    • [INTER_RATER_RELIABILITY]
    • [TEST_RETEST_RELIABILITY]
    • [INTERNAL_CONSISTENCY]
    • [PARALLEL_FORMS_RELIABILITY]
-   
+
 ### For Qualitative Research
-   
+
 ### Trustworthiness Criteria
 ### Credibility
    • [PROLONGED_ENGAGEMENT]
    • [PERSISTENT_OBSERVATION]
    • [TRIANGULATION_METHODS]
    • [MEMBER_CHECKING]
-   
+
 ### Transferability
    • [THICK_DESCRIPTION]
    • [PURPOSIVE_SAMPLING]
    • [CONTEXT_DOCUMENTATION]
-   
+
 ### Dependability
    • [AUDIT_TRAIL_MAINTENANCE]
    • [PROCESS_DOCUMENTATION]
    • [METHODOLOGICAL_CONSISTENCY]
-   
+
 ### Confirmability
    • [REFLEXIVITY_PRACTICES]
    • [BIAS_ACKNOWLEDGMENT]
    • [DECISION_DOCUMENTATION]
-   
+
 ### For Mixed Methods
-   
+
 ### Integration Quality
    • [DESIGN_COHERENCE]
    • [METHODOLOGY_INTEGRATION]
@@ -1999,46 +1997,46 @@ Generate a comprehensive research design strategy that includes:
    • [META_INFERENCE_QUALITY]
 
 9. TIMELINE & PROJECT MANAGEMENT
-   
+
 ### Project Phases
-   
+
    Phase 1: Preparation ([PREPARATION_DURATION])
    • [PREPARATION_MILESTONE_1]: [Timeline]
    • [PREPARATION_MILESTONE_2]: [Timeline]
    • [PREPARATION_DELIVERABLES]
-   
+
    Phase 2: Data Collection ([COLLECTION_DURATION])
    • [COLLECTION_MILESTONE_1]: [Timeline]
    • [COLLECTION_MILESTONE_2]: [Timeline]
    • [COLLECTION_DELIVERABLES]
-   
+
    Phase 3: Data Analysis ([ANALYSIS_DURATION])
    • [ANALYSIS_MILESTONE_1]: [Timeline]
    • [ANALYSIS_MILESTONE_2]: [Timeline]
    • [ANALYSIS_DELIVERABLES]
-   
+
    Phase 4: Reporting ([REPORTING_DURATION])
    • [REPORTING_MILESTONE_1]: [Timeline]
    • [REPORTING_MILESTONE_2]: [Timeline]
    • [REPORTING_DELIVERABLES]
-   
+
 ### Critical Path Activities
    • [CRITICAL_ACTIVITY_1]: [Dependencies]
    • [CRITICAL_ACTIVITY_2]: [Dependencies]
    • [CRITICAL_ACTIVITY_3]: [Dependencies]
-   
+
 ### Risk Management
 ### Project Risks
    • [PROJECT_RISK_1]: [Probability] / [Impact] / [Mitigation]
    • [PROJECT_RISK_2]: [Probability] / [Impact] / [Mitigation]
    • [PROJECT_RISK_3]: [Probability] / [Impact] / [Mitigation]
-   
+
 ### Contingency Plans
    • [CONTINGENCY_SCENARIO_1]: [Response plan]
    • [CONTINGENCY_SCENARIO_2]: [Response plan]
 
 10. RESOURCES & BUDGET
-    
+
 ### Personnel Requirements
 ### Research Team
     • Principal Investigator: [PI_TIME_ALLOCATION]% FTE
@@ -2046,78 +2044,78 @@ Generate a comprehensive research design strategy that includes:
     • Research Assistants: [RA_REQUIREMENTS]
     • Data Collectors: [DC_REQUIREMENTS]
     • Consultants: [CONSULTANT_NEEDS]
-    
+
 ### Equipment and Materials
     • [EQUIPMENT_ITEM_1]: [Cost estimate]
     • [EQUIPMENT_ITEM_2]: [Cost estimate]
     • [SOFTWARE_LICENSES]: [Cost estimate]
     • [MATERIALS_SUPPLIES]: [Cost estimate]
-    
+
 ### Direct Costs
     • Personnel costs: [PERSONNEL_BUDGET]
     • Equipment costs: [EQUIPMENT_BUDGET]
     • Travel costs: [TRAVEL_BUDGET]
     • Participant incentives: [INCENTIVE_BUDGET]
     • Laboratory/testing costs: [LAB_BUDGET]
-    
+
 ### Indirect Costs
     • Institutional overhead: [OVERHEAD_RATE]%
     • Administrative support: [ADMIN_BUDGET]
-    
+
     Total Budget: [TOTAL_PROJECT_BUDGET]
-    
+
 ### Funding Sources
     • [FUNDING_SOURCE_1]: [Amount] ([Percentage]%)
     • [FUNDING_SOURCE_2]: [Amount] ([Percentage]%)
 
 11. DISSEMINATION PLAN
-    
+
 ### Academic Dissemination
 ### Publications
     • [TARGET_JOURNAL_1]: [Publication timeline]
     • [TARGET_JOURNAL_2]: [Publication timeline]
     • [BOOK_CHAPTER_OPPORTUNITIES]
-    
+
 ### Conferences
     • [CONFERENCE_1]: [Presentation type]
     • [CONFERENCE_2]: [Presentation type]
     • [PROFESSIONAL_MEETINGS]
-    
+
 ### Stakeholder Communication
     • [STAKEHOLDER_GROUP_1]: [Communication method]
     • [STAKEHOLDER_GROUP_2]: [Communication method]
     • [POLICY_BRIEF_PLANS]
     • [MEDIA_ENGAGEMENT_STRATEGY]
-    
+
 ### Public Engagement
     • [COMMUNITY_PRESENTATIONS]
     • [SOCIAL_MEDIA_STRATEGY]
     • [PUBLIC_DATABASE_CONTRIBUTIONS]
 
 12. LIMITATIONS & DELIMITATIONS
-    
+
 ### Study Limitations
 ### Methodological Limitations
     • [METHODOLOGICAL_LIMITATION_1]
     • [METHODOLOGICAL_LIMITATION_2]
     • [METHODOLOGICAL_LIMITATION_3]
-    
+
 ### Sample Limitations
     • [SAMPLING_LIMITATION_1]
     • [SAMPLING_LIMITATION_2]
     • [GENERALIZABILITY_LIMITS]
-    
+
 ### Measurement Limitations
     • [INSTRUMENT_LIMITATIONS]
     • [MEASUREMENT_ERROR_SOURCES]
     • [VALIDITY_THREATS]
-    
+
 ### Study Delimitations
 ### Scope Delimitations
     • [SCOPE_BOUNDARY_1]
     • [SCOPE_BOUNDARY_2]
     • [POPULATION_DELIMITATIONS]
-    
+
 ### Theoretical Delimitations
     • [THEORETICAL_BOUNDARY_1]
     • [THEORETICAL_BOUNDARY_2]

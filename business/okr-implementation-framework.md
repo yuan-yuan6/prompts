@@ -368,8 +368,6 @@ Objective Categories:
 | `[PAYBACK_PERIOD]` | Specify the payback period | "[specify value]" |
 | `[TOTAL_ROI]` | Specify the total roi | "[specify value]" |
 
-
-
 ### 3. Key Results Definition
 
 | **Key Result Type** | **Measurement Method** | **Baseline Value** | **Target Value** | **Stretch Target** | **Tracking Mechanism** |
@@ -523,8 +521,6 @@ Performance Impact:
 ```
 
 ## Usage Examples
-
-
 
 ## Best Practices
 
