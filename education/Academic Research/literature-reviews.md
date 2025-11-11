@@ -1,15 +1,25 @@
 ---
-title: Literature Reviews Template Generator
 category: education/Academic Research
-tags: [communication, data-science, education, research, strategy, template, testing]
-use_cases:
-  - Creating comprehensive literature reviews covering systematic reviews, narrative reviews, meta-analyses, scoping reviews, and research syntheses to provide rigorous analysis of existing research, identify knowledge gaps, and establish theoretical foundations for academic inquiry and evidence-based practice.
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - curriculum-development.md
-  - curriculum-development-framework.md
 last_updated: 2025-11-09
+related_templates:
+- curriculum-development.md
+- curriculum-development-framework.md
+tags:
+- communication
+- data-science
+- education
+- research
+- strategy
+- template
+- testing
+title: Literature Reviews Template Generator
+use_cases:
+- Creating comprehensive literature reviews covering systematic reviews, narrative
+  reviews, meta-analyses, scoping reviews, and research syntheses to provide rigorous
+  analysis of existing research, identify knowledge gaps, and establish theoretical
+  foundations for academic inquiry and evidence-based practice.
+- Project planning and execution
+- Strategy development
 ---
 
 # Literature Reviews Template Generator
@@ -1607,6 +1617,36 @@ Generate a comprehensive literature review that includes:
 
 ### Example 3: Social Science Scoping Review
 "Create a scoping review mapping the literature on community resilience and disaster preparedness. Cover interdisciplinary research from sociology, psychology, urban planning, and public health, identifying key concepts, methodological approaches, and research gaps over the past 15 years."
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Curriculum Development](curriculum-development.md)** - Complementary approaches and methodologies
+- **[Curriculum Development Framework](curriculum-development-framework.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Literature Reviews Template Generator)
+2. Use [Curriculum Development](curriculum-development.md) for deeper analysis
+3. Apply [Curriculum Development Framework](curriculum-development-framework.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[education/Academic Research](../../education/Academic Research/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive literature reviews covering systematic reviews, narrative reviews, meta-analyses, scoping reviews, and research syntheses to provide rigorous analysis of existing research, identify knowledge gaps, and establish theoretical foundations for academic inquiry and evidence-based practice.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

@@ -1,16 +1,26 @@
 ---
-title: Social Media Management & Strategy Prompt Template
 category: professional-services/communication/Public Communication
-tags: [communication, data-science, development, management, marketing, optimization, professional-services, strategy]
-use_cases:
-  - Creating comprehensive framework for developing social media presence, creating engaging content, building communities, managing multi-platform strategies, and driving business results through effective social media management and audience engagement.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - meeting-management-framework.md
-  - crisis-communication-plan.md
 last_updated: 2025-11-09
+related_templates:
+- meeting-management-framework.md
+- crisis-communication-plan.md
+tags:
+- communication
+- data-science
+- development
+- management
+- marketing
+- optimization
+- professional-services
+- strategy
+title: Social Media Management & Strategy Prompt Template
+use_cases:
+- Creating comprehensive framework for developing social media presence, creating
+  engaging content, building communities, managing multi-platform strategies, and
+  driving business results through effective social media management and audience
+  engagement.
+- Project planning and execution
+- Strategy development
 ---
 
 # Social Media Management & Strategy Prompt Template
@@ -885,3 +895,31 @@ Ongoing: [PERFORMANCE_MONITORING_OPTIMIZATION_SCALING]
 ```
 
 This template provides {400+} customizable variables to create comprehensive social media management strategies tailored to specific industries, platforms, and business objectives while maximizing engagement and driving measurable business results.
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Meeting Management Framework](meeting-management-framework.md)** - Complementary approaches and methodologies
+- **[Crisis Communication Plan](crisis-communication-plan.md)** - Effective communication strategies for stakeholders
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Social Media Management & Strategy Prompt Template)
+2. Use [Meeting Management Framework](meeting-management-framework.md) for deeper analysis
+3. Apply [Crisis Communication Plan](crisis-communication-plan.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[professional-services/communication/Public Communication](../../professional-services/communication/Public Communication/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive framework for developing social media presence, creating engaging content, building communities, managing multi-platform strategies, and driving business results through effective social media management and audience engagement.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks

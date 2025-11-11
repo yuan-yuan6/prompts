@@ -1,16 +1,25 @@
 ---
-title: Team Documentation & Knowledge Management Prompt Template
 category: professional-services/communication/Team Communication
-tags: [design, development, documentation, management, optimization, professional-services, security, strategy]
-use_cases:
-  - Creating comprehensive framework for creating, organizing, and maintaining team documentation that captures knowledge, standardizes processes, and enables effective knowledge transfer.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - meeting-management-framework.md
-  - crisis-communication-plan.md
 last_updated: 2025-11-09
+related_templates:
+- meeting-management-framework.md
+- crisis-communication-plan.md
+tags:
+- design
+- development
+- documentation
+- management
+- optimization
+- professional-services
+- security
+- strategy
+title: Team Documentation & Knowledge Management Prompt Template
+use_cases:
+- Creating comprehensive framework for creating, organizing, and maintaining team
+  documentation that captures knowledge, standardizes processes, and enables effective
+  knowledge transfer.
+- Project planning and execution
+- Strategy development
 ---
 
 # Team Documentation & Knowledge Management Prompt Template
@@ -916,6 +925,36 @@ Team: 10 engineers, on-call rotation
 Pain points: Outdated procedures, knowledge silos
 Needs: Emergency procedures, automation documentation
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Meeting Management Framework](meeting-management-framework.md)** - Complementary approaches and methodologies
+- **[Crisis Communication Plan](crisis-communication-plan.md)** - Effective communication strategies for stakeholders
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Team Documentation & Knowledge Management Prompt Template)
+2. Use [Meeting Management Framework](meeting-management-framework.md) for deeper analysis
+3. Apply [Crisis Communication Plan](crisis-communication-plan.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[professional-services/communication/Team Communication](../../professional-services/communication/Team Communication/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive framework for creating, organizing, and maintaining team documentation that captures knowledge, standardizes processes, and enables effective knowledge transfer.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

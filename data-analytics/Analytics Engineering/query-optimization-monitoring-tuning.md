@@ -1,16 +1,21 @@
 ---
-title: Query Optimization - Performance Monitoring & Tuning
 category: data-analytics/Analytics Engineering
-tags: [data-analytics, monitoring, performance-tuning, automation, alerts]
-use_cases:
-  - Implementing real-time performance monitoring and alerting systems
-  - Creating automated performance tuning procedures
-  - Establishing continuous performance optimization workflows
-related_templates:
-  - query-optimization-baseline-analysis.md
-  - query-optimization-indexing-strategies.md
-  - query-optimization-overview.md
 last_updated: 2025-11-10
+related_templates:
+- query-optimization-baseline-analysis.md
+- query-optimization-indexing-strategies.md
+- query-optimization-overview.md
+tags:
+- data-analytics
+- monitoring
+- performance-tuning
+- automation
+- alerts
+title: Query Optimization - Performance Monitoring & Tuning
+use_cases:
+- Implementing real-time performance monitoring and alerting systems
+- Creating automated performance tuning procedures
+- Establishing continuous performance optimization workflows
 ---
 
 # Query Optimization - Performance Monitoring & Tuning
@@ -493,6 +498,37 @@ HIGH_IO_ALERT_THRESHOLD: "50000000"
 MIN_INDEX_USAGE_THRESHOLD: "1000"
 ALERT_REQUIREMENTS: "Multi-channel with escalation"
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Query Optimization Baseline Analysis](query-optimization-baseline-analysis.md)** - Complementary approaches and methodologies
+- **[Query Optimization Indexing Strategies](query-optimization-indexing-strategies.md)** - Complementary approaches and methodologies
+- **[Query Optimization Overview](query-optimization-overview.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Query Optimization - Performance Monitoring & Tuning)
+2. Use [Query Optimization Baseline Analysis](query-optimization-baseline-analysis.md) for deeper analysis
+3. Apply [Query Optimization Indexing Strategies](query-optimization-indexing-strategies.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[data-analytics/Analytics Engineering](../../data-analytics/Analytics Engineering/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Implementing real-time performance monitoring and alerting systems**: Combine this template with related analytics and strategy frameworks
+- **Creating automated performance tuning procedures**: Combine this template with related analytics and strategy frameworks
+- **Establishing continuous performance optimization workflows**: Combine this template with related analytics and strategy frameworks
 
 ## Best Practices
 

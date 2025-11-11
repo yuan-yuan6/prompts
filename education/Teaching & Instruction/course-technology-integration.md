@@ -1,15 +1,20 @@
 ---
-title: Course Technology Integration Planner
 category: education/Teaching & Instruction
-tags: [technology, digital-learning, LMS, educational-technology, online-learning]
-use_cases:
-  - Integrate 2-3 educational tech tools into existing course
-  - Design blended learning experience combining in-person and online components
-  - Create flipped classroom model using video lectures and active learning
-related_templates:
-  - course-content-curriculum.md
-  - course-accessibility-inclusion.md
 last_updated: 2025-11-09
+related_templates:
+- course-content-curriculum.md
+- course-accessibility-inclusion.md
+tags:
+- technology
+- digital-learning
+- LMS
+- educational-technology
+- online-learning
+title: Course Technology Integration Planner
+use_cases:
+- Integrate 2-3 educational tech tools into existing course
+- Design blended learning experience combining in-person and online components
+- Create flipped classroom model using video lectures and active learning
 ---
 
 # Course Technology Integration Planner
@@ -341,6 +346,36 @@ After course implementation, evaluate:
 
 ### Example 3: Tech-Enhanced Face-to-Face
 "Plan technology for 'Interactive Fiction Writing Workshop' - meets in person 2x/week but want tech to enhance. 18 students, creative writing majors. Want collaborative writing platform, peer review system, portfolio development, and multimedia storytelling tools. Google Workspace available. Students have laptops."
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Course Content Curriculum](course-content-curriculum.md)** - Complementary approaches and methodologies
+- **[Course Accessibility Inclusion](course-accessibility-inclusion.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Course Technology Integration Planner)
+2. Use [Course Content Curriculum](course-content-curriculum.md) for deeper analysis
+3. Apply [Course Accessibility Inclusion](course-accessibility-inclusion.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[education/Teaching & Instruction](../../education/Teaching & Instruction/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Integrate 2-3 educational tech tools into existing course**: Combine this template with related analytics and strategy frameworks
+- **Design blended learning experience combining in-person and online components**: Combine this template with related analytics and strategy frameworks
+- **Create flipped classroom model using video lectures and active learning**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

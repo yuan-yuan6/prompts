@@ -1,16 +1,26 @@
 ---
-title: Text Analytics - Topic Modeling
 category: data-analytics/Research Analytics
-tags: [automation, data-analytics, data-science, machine-learning, nlp, topic-modeling, lda, bertopic, template]
-use_cases:
-  - Discover latent topics in large document collections using LDA, NMF, HDP, and BERTopic algorithms.
-  - Track topic evolution over time to understand how themes change in dynamic datasets.
-  - Evaluate and compare topic models to select the optimal number of topics for interpretability.
-related_templates:
-  - text-analytics-preprocessing.md
-  - text-analytics-sentiment-analysis.md
-  - text-analytics-overview.md
 last_updated: 2025-11-10
+related_templates:
+- text-analytics-preprocessing.md
+- text-analytics-sentiment-analysis.md
+- text-analytics-overview.md
+tags:
+- automation
+- data-analytics
+- data-science
+- machine-learning
+- nlp
+- topic-modeling
+- lda
+- bertopic
+- template
+title: Text Analytics - Topic Modeling
+use_cases:
+- Discover latent topics in large document collections using LDA, NMF, HDP, and BERTopic
+  algorithms.
+- Track topic evolution over time to understand how themes change in dynamic datasets.
+- Evaluate and compare topic models to select the optimal number of topics for interpretability.
 ---
 
 # Text Analytics - Topic Modeling
@@ -552,6 +562,37 @@ MIN_DOCUMENT_FREQUENCY: 3
 COHERENCE_MEASURE: "c_v"
 AUTO_TOPIC_SELECTION: True
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Text Analytics Preprocessing](text-analytics-preprocessing.md)** - Leverage data analysis to drive informed decisions
+- **[Text Analytics Sentiment Analysis](text-analytics-sentiment-analysis.md)** - Leverage data analysis to drive informed decisions
+- **[Text Analytics Overview](text-analytics-overview.md)** - Leverage data analysis to drive informed decisions
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Text Analytics - Topic Modeling)
+2. Use [Text Analytics Preprocessing](text-analytics-preprocessing.md) for deeper analysis
+3. Apply [Text Analytics Sentiment Analysis](text-analytics-sentiment-analysis.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[data-analytics/Research Analytics](../../data-analytics/Research Analytics/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Discover latent topics in large document collections using LDA, NMF, HDP, and BERTopic algorithms.**: Combine this template with related analytics and strategy frameworks
+- **Track topic evolution over time to understand how themes change in dynamic datasets.**: Combine this template with related analytics and strategy frameworks
+- **Evaluate and compare topic models to select the optimal number of topics for interpretability.**: Combine this template with related analytics and strategy frameworks
 
 ## Best Practices
 

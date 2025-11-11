@@ -1,17 +1,25 @@
 ---
-title: Site Reliability Engineering Template
 category: technology/DevOps & Cloud
-tags: [communication, design, documentation, management, strategy, technology, template]
-use_cases:
-  - Creating implement comprehensive sre practices including slo/sli definition, error budgets, incident management, monitoring, alerting, and reliability engineering for production systems.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - cloud-architecture-framework.md
-  - site-reliability-engineering.md
-  - cloud-migration-strategy.md
 last_updated: 2025-11-09
+related_templates:
+- cloud-architecture-framework.md
+- site-reliability-engineering.md
+- cloud-migration-strategy.md
+tags:
+- communication
+- design
+- documentation
+- management
+- strategy
+- technology
+- template
+title: Site Reliability Engineering Template
+use_cases:
+- Creating implement comprehensive sre practices including slo/sli definition, error
+  budgets, incident management, monitoring, alerting, and reliability engineering
+  for production systems.
+- Project planning and execution
+- Strategy development
 ---
 
 # Site Reliability Engineering Template
@@ -240,6 +248,37 @@ Error Budget Management:
 | `[SRE_BACKUP_STRATEGY]` | Specify the sre backup strategy | "[specify value]" |
 | `[SRE_TESTING_STRATEGY]` | Specify the sre testing strategy | "[specify value]" |
 | `[RELEASE_ENGINEERING]` | Specify the release engineering | "[specify value]" |
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Cloud Architecture Framework](cloud-architecture-framework.md)** - Complementary approaches and methodologies
+- **[Site Reliability Engineering](site-reliability-engineering.md)** - Complementary approaches and methodologies
+- **[Cloud Migration Strategy](cloud-migration-strategy.md)** - Strategic planning and execution frameworks
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Site Reliability Engineering Template)
+2. Use [Cloud Architecture Framework](cloud-architecture-framework.md) for deeper analysis
+3. Apply [Site Reliability Engineering](site-reliability-engineering.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[technology/DevOps & Cloud](../../technology/DevOps & Cloud/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating implement comprehensive sre practices including slo/sli definition, error budgets, incident management, monitoring, alerting, and reliability engineering for production systems.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Best Practices
 

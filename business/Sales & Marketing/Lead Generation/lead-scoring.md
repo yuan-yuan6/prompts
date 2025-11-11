@@ -1,16 +1,22 @@
 ---
-title: Lead Scoring Template
 category: business/Sales & Marketing/Lead Generation
-tags: [business, design, machine-learning, marketing, optimization, template]
-use_cases:
-  - General application
-  - Professional use
-  - Project implementation
-related_templates:
-  - market-research.md
-  - campaign-development.md
-  - lead-generation.md
 last_updated: 2025-11-09
+related_templates:
+- market-research.md
+- campaign-development.md
+- lead-generation.md
+tags:
+- business
+- design
+- machine-learning
+- marketing
+- optimization
+- template
+title: Lead Scoring Template
+use_cases:
+- General application
+- Professional use
+- Project implementation
 ---
 
 # Lead Scoring Template
@@ -1248,6 +1254,129 @@ Financial Qualification:
 - Long-term (6+ months): 5 points
 - No timeline: 0 points
 ```
+
+
+
+## Usage Examples
+
+### Example 1: B2B SaaS Company
+
+**Context**: Mid-market B2B SaaS company selling project management software
+
+**Scoring Model**:
+- **Demographic Scoring (40 points)**:
+  - Company size: 100-1000 employees (20 pts), 1000+ (15 pts), 50-100 (10 pts)
+  - Industry: Technology/Software (15 pts), Professional Services (10 pts), Other (5 pts)
+  - Job title: VP+ (15 pts), Director (10 pts), Manager (5 pts)
+
+- **Behavioral Scoring (60 points)**:
+  - Demo request (25 pts)
+  - Pricing page view (15 pts)
+  - Case study download (10 pts)
+  - Email engagement (5 pts per open, 10 pts per click)
+  - Website visits (2 pts per visit, max 10 pts)
+  - Webinar attendance (15 pts)
+
+- **Negative Scoring**:
+  - Personal email domain (-15 pts)
+  - Competitor company (-50 pts)
+  - Job title: Student (-20 pts)
+
+**Thresholds**:
+- Hot Lead (80-100): Assign to sales rep within 1 hour, call within 4 hours
+- Warm Lead (50-79): Add to nurture campaign, follow up within 48 hours
+- Cold Lead (<50): Automated email drip, monthly check-in
+
+**Results**: After 3 months, lead-to-opportunity conversion increased from 12% to 23%, and sales team productivity improved by 35%.
+
+### Example 2: E-commerce Fashion Retailer
+
+**Context**: Online fashion retailer targeting millennial and Gen-Z customers
+
+**Scoring Model**:
+- **Engagement Scoring (50 points)**:
+  - Add to cart (20 pts)
+  - Product page views (3 pts per view, max 15 pts)
+  - Category browsing (2 pts per category)
+  - Wishlist addition (10 pts)
+  - Size guide view (5 pts)
+
+- **Demographic Scoring (30 points)**:
+  - Age 25-35 (15 pts), 18-24 (12 pts), 36-45 (8 pts)
+  - Income bracket: $50k-$100k (15 pts), $100k+ (10 pts)
+  - Location: Urban (10 pts), Suburban (5 pts)
+
+- **Purchase Intent Signals (20 points)**:
+  - Email subscription (10 pts)
+  - SMS opt-in (10 pts)
+  - Discount code search (5 pts)
+
+**Thresholds**:
+- Hot (75+): Personalized email with 15% discount, expires in 24 hours
+- Warm (45-74): Retargeting ads, style guide emails
+- Cold (<45): General newsletter, seasonal promotions
+
+**Results**: Cart abandonment recovery increased by 28%, and email conversion rate improved from 2.1% to 4.3%.
+
+### Example 3: Real Estate Agency
+
+**Context**: Luxury real estate agency selling properties $1M+
+
+**Scoring Model**:
+- **Financial Qualification (40 points)**:
+  - Pre-qualified financing (25 pts)
+  - Income verification (15 pts)
+  - Credit score check (10 pts)
+
+- **Engagement Scoring (40 points)**:
+  - Property tour request (25 pts)
+  - Neighborhood guide download (10 pts)
+  - Market report subscription (8 pts)
+  - Virtual tour views (5 pts per property, max 15 pts)
+
+- **Demographic Scoring (20 points)**:
+  - Household income $250k+ (15 pts), $150k-$250k (10 pts)
+  - Age 35-55 (10 pts)
+  - Current homeowner (5 pts)
+
+**Thresholds**:
+- Hot (85+): Priority agent assignment, in-person tour within 48 hours
+- Warm (60-84): Email series with property matches, market insights
+- Cold (<60): Monthly market updates, open house invitations
+
+**Results**: Agent efficiency improved by 40%, and qualified showing rate increased from 35% to 67%.
+
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Market Research](market-research.md)** - Analyze market conditions, competitors, and opportunities
+- **[Campaign Development](campaign-development.md)** - Complementary approaches and methodologies
+- **[Lead Generation](lead-generation.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Lead Scoring Template)
+2. Use [Market Research](market-research.md) for deeper analysis
+3. Apply [Campaign Development](campaign-development.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[business/Sales & Marketing/Lead Generation](../../business/Sales & Marketing/Lead Generation/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **General application**: Combine this template with related analytics and strategy frameworks
+- **Professional use**: Combine this template with related analytics and strategy frameworks
+- **Project implementation**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

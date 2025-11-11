@@ -1,17 +1,24 @@
 ---
-title: Logistics Optimization & Supply Chain Transportation Framework
 category: industry/transportation-logistics/Operations
-tags: [design, framework, industry, management, optimization, strategy]
-use_cases:
-  - Creating comprehensive framework for optimizing logistics operations including route planning, fleet management, warehouse operations, last-mile delivery, multimodal transportation, and supply chain visibility.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - route-optimization-framework.md
-  - warehouse-management-system.md
-  - fleet-management-system.md
 last_updated: 2025-11-09
+related_templates:
+- route-optimization-framework.md
+- warehouse-management-system.md
+- fleet-management-system.md
+tags:
+- design
+- framework
+- industry
+- management
+- optimization
+- strategy
+title: Logistics Optimization & Supply Chain Transportation Framework
+use_cases:
+- Creating comprehensive framework for optimizing logistics operations including route
+  planning, fleet management, warehouse operations, last-mile delivery, multimodal
+  transportation, and supply chain visibility.
+- Project planning and execution
+- Strategy development
 ---
 
 # Logistics Optimization & Supply Chain Transportation Framework
@@ -592,6 +599,37 @@ Technology: Dynamic routing, IoT
 Service: 99% fill rate
 Efficiency: 15% fuel savings
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Route Optimization Framework](route-optimization-framework.md)** - Complementary approaches and methodologies
+- **[Warehouse Management System](warehouse-management-system.md)** - Complementary approaches and methodologies
+- **[Fleet Management System](fleet-management-system.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Logistics Optimization & Supply Chain Transportation Framework)
+2. Use [Route Optimization Framework](route-optimization-framework.md) for deeper analysis
+3. Apply [Warehouse Management System](warehouse-management-system.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[industry/transportation-logistics/Operations](../../industry/transportation-logistics/Operations/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive framework for optimizing logistics operations including route planning, fleet management, warehouse operations, last-mile delivery, multimodal transportation, and supply chain visibility.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

@@ -1,15 +1,22 @@
 ---
-title: Property Valuation & Appraisal Template
 category: industry/real-estate/Property Transactions
-tags: [automation, data-science, industry, research, template]
-use_cases:
-  - Creating comprehensive property valuation reports, appraisal analyses, market assessments, and investment evaluations that establish accurate market values for residential, commercial, and specialty properties using industry-standard methodologies.
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - property-management-system.md
-  - construction-project-planning.md
 last_updated: 2025-11-09
+related_templates:
+- property-management-system.md
+- construction-project-planning.md
+tags:
+- automation
+- data-science
+- industry
+- research
+- template
+title: Property Valuation & Appraisal Template
+use_cases:
+- Creating comprehensive property valuation reports, appraisal analyses, market assessments,
+  and investment evaluations that establish accurate market values for residential,
+  commercial, and specialty properties using industry-standard methodologies.
+- Project planning and execution
+- Strategy development
 ---
 
 # Property Valuation & Appraisal Template
@@ -573,6 +580,36 @@ MARKET_CONDITIONS: "Active condo market with multiple offers"
 VALUE_CONCLUSION: "Market value for lending purposes"
 EFFECTIVE_DATE: "Date of property inspection"
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Property Management System](property-management-system.md)** - Complementary approaches and methodologies
+- **[Construction Project Planning](construction-project-planning.md)** - Project management best practices and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Property Valuation & Appraisal Template)
+2. Use [Property Management System](property-management-system.md) for deeper analysis
+3. Apply [Construction Project Planning](construction-project-planning.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[industry/real-estate/Property Transactions](../../industry/real-estate/Property Transactions/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive property valuation reports, appraisal analyses, market assessments, and investment evaluations that establish accurate market values for residential, commercial, and specialty properties using industry-standard methodologies.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

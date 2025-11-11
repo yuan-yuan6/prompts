@@ -1,16 +1,24 @@
 ---
-title: Training Programs Template Generator
 category: business/Human Resources
-tags: [business, design, development, optimization, security, strategy, template]
-use_cases:
-  - Creating comprehensive training program strategies covering onboarding, skills development, and compliance training to enhance employee capabilities and organizational effectiveness.
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - okr-implementation-framework.md
-  - digital-transformation-roadmap.md
-  - lean-six-sigma-implementation.md
 last_updated: 2025-11-09
+related_templates:
+- okr-implementation-framework.md
+- digital-transformation-roadmap.md
+- lean-six-sigma-implementation.md
+tags:
+- business
+- design
+- development
+- optimization
+- security
+- strategy
+- template
+title: Training Programs Template Generator
+use_cases:
+- Creating comprehensive training program strategies covering onboarding, skills development,
+  and compliance training to enhance employee capabilities and organizational effectiveness.
+- Project planning and execution
+- Strategy development
 ---
 
 # Training Programs Template Generator
@@ -1032,3 +1040,32 @@ Use for onboarding program design, skills development planning, compliance train
 - Add technology-specific training tools
 - Include accessibility and inclusion requirements
 - Scale complexity based on organizational needs and resources
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Okr Implementation Framework](okr-implementation-framework.md)** - Set measurable objectives and key results to track progress
+- **[Digital Transformation Roadmap](digital-transformation-roadmap.md)** - Strategic framework for organizational change initiatives
+- **[Lean Six Sigma Implementation](lean-six-sigma-implementation.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Training Programs Template Generator)
+2. Use [Okr Implementation Framework](okr-implementation-framework.md) for deeper analysis
+3. Apply [Digital Transformation Roadmap](digital-transformation-roadmap.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[business/Human Resources](../../business/Human Resources/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive training program strategies covering onboarding, skills development, and compliance training to enhance employee capabilities and organizational effectiveness.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks

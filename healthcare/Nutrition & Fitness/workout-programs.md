@@ -1,16 +1,21 @@
 ---
-title: Workout Programs Template
 category: healthcare/Nutrition & Fitness
-tags: [design, development, healthcare, optimization, template]
-use_cases:
-  - General application
-  - Professional use
-  - Project implementation
-related_templates:
-  - telemedicine-platform-design.md
-  - patient-care-pathway.md
-  - clinical-trials-management.md
 last_updated: 2025-11-09
+related_templates:
+- telemedicine-platform-design.md
+- patient-care-pathway.md
+- clinical-trials-management.md
+tags:
+- design
+- development
+- healthcare
+- optimization
+- template
+title: Workout Programs Template
+use_cases:
+- General application
+- Professional use
+- Project implementation
 ---
 
 # Workout Programs Template
@@ -948,6 +953,37 @@ Zone 3 (Tempo): 120-135 BPM, Duration: 20-30 minutes, Frequency: 1 time per week
 
 Strength Training: Circuit-based, 50-70% 1RM, 12-15 reps, 30-45 seconds rest between exercises.
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Telemedicine Platform Design](telemedicine-platform-design.md)** - Complementary approaches and methodologies
+- **[Patient Care Pathway](patient-care-pathway.md)** - Complementary approaches and methodologies
+- **[Clinical Trials Management](clinical-trials-management.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Workout Programs Template)
+2. Use [Telemedicine Platform Design](telemedicine-platform-design.md) for deeper analysis
+3. Apply [Patient Care Pathway](patient-care-pathway.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[healthcare/Nutrition & Fitness](../../healthcare/Nutrition & Fitness/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **General application**: Combine this template with related analytics and strategy frameworks
+- **Professional use**: Combine this template with related analytics and strategy frameworks
+- **Project implementation**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

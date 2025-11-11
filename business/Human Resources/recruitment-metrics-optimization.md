@@ -1,16 +1,21 @@
 ---
-title: Recruitment Metrics & Optimization
 category: business/Human Resources
-tags: [recruitment-metrics, hiring-analytics, process-improvement, diversity, hr]
-use_cases:
-  - Tracking and analyzing recruitment KPIs
-  - Optimizing recruitment processes and efficiency
-  - Measuring diversity and inclusion in hiring
-related_templates:
-  - candidate-sourcing-branding.md
-  - screening-interview-process.md
-  - candidate-assessment-selection.md
 last_updated: 2025-11-09
+related_templates:
+- candidate-sourcing-branding.md
+- screening-interview-process.md
+- candidate-assessment-selection.md
+tags:
+- recruitment-metrics
+- hiring-analytics
+- process-improvement
+- diversity
+- hr
+title: Recruitment Metrics & Optimization
+use_cases:
+- Tracking and analyzing recruitment KPIs
+- Optimizing recruitment processes and efficiency
+- Measuring diversity and inclusion in hiring
 ---
 
 # Recruitment Metrics & Optimization
@@ -599,3 +604,33 @@ Use for establishing recruitment KPIs, building analytics dashboards, optimizing
 - Make metrics visible and accessible to stakeholders
 - Use data to tell stories and drive action
 - Continuously refine based on what drives decisions
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Candidate Sourcing Branding](candidate-sourcing-branding.md)** - Complementary approaches and methodologies
+- **[Screening Interview Process](screening-interview-process.md)** - Complementary approaches and methodologies
+- **[Candidate Assessment Selection](candidate-assessment-selection.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Recruitment Metrics & Optimization)
+2. Use [Candidate Sourcing Branding](candidate-sourcing-branding.md) for deeper analysis
+3. Apply [Screening Interview Process](screening-interview-process.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[business/Human Resources](../../business/Human Resources/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Tracking and analyzing recruitment KPIs**: Combine this template with related analytics and strategy frameworks
+- **Optimizing recruitment processes and efficiency**: Combine this template with related analytics and strategy frameworks
+- **Measuring diversity and inclusion in hiring**: Combine this template with related analytics and strategy frameworks

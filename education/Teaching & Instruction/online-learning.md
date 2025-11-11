@@ -1,15 +1,24 @@
 ---
-title: Online Learning Platforms Template
 category: education/Teaching & Instruction
-tags: [design, development, education, machine-learning, strategy, template, testing]
-use_cases:
-  - Creating comprehensive online learning platforms including e-learning design, MOOCs, webinars, virtual classrooms, and digital education systems for diverse educational contexts and learner needs.
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - curriculum-development.md
-  - curriculum-development-framework.md
 last_updated: 2025-11-09
+related_templates:
+- curriculum-development.md
+- curriculum-development-framework.md
+tags:
+- design
+- development
+- education
+- machine-learning
+- strategy
+- template
+- testing
+title: Online Learning Platforms Template
+use_cases:
+- Creating comprehensive online learning platforms including e-learning design, MOOCs,
+  webinars, virtual classrooms, and digital education systems for diverse educational
+  contexts and learner needs.
+- Project planning and execution
+- Strategy development
 ---
 
 # Online Learning Platforms Template
@@ -1759,6 +1768,36 @@ Asynchronous: Video lectures, practice problems, peer discussions
 Assessment: Online quizzes, in-person exams, project submissions
 Support: Office hours, discussion forums, peer study groups
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Curriculum Development](curriculum-development.md)** - Complementary approaches and methodologies
+- **[Curriculum Development Framework](curriculum-development-framework.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Online Learning Platforms Template)
+2. Use [Curriculum Development](curriculum-development.md) for deeper analysis
+3. Apply [Curriculum Development Framework](curriculum-development-framework.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[education/Teaching & Instruction](../../education/Teaching & Instruction/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive online learning platforms including e-learning design, MOOCs, webinars, virtual classrooms, and digital education systems for diverse educational contexts and learner needs.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Best Practices
 

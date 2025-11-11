@@ -1,18 +1,24 @@
 ---
-title: Research Design Suite - Complete Overview & Navigation
 category: education/Academic Research
-tags: [research, design, overview, navigation, methodology, suite]
-use_cases:
-  - Navigating the comprehensive research design prompt suite
-  - Selecting appropriate sub-prompts for specific research needs
-  - Understanding the research design development process
-related_templates:
-  - research-design-foundation.md
-  - research-design-sampling-data.md
-  - research-design-analysis-quality.md
-  - research-design-ethics-implementation.md
-  - research-design-impact.md
 last_updated: 2025-11-10
+related_templates:
+- research-design-foundation.md
+- research-design-sampling-data.md
+- research-design-analysis-quality.md
+- research-design-ethics-implementation.md
+- research-design-impact.md
+tags:
+- research
+- design
+- overview
+- navigation
+- methodology
+- suite
+title: Research Design Suite - Complete Overview & Navigation
+use_cases:
+- Navigating the comprehensive research design prompt suite
+- Selecting appropriate sub-prompts for specific research needs
+- Understanding the research design development process
 ---
 
 # Research Design Suite - Complete Overview & Navigation
@@ -454,6 +460,39 @@ Each sub-prompt includes a Quick Start section - follow it for rapid initial pro
 Use the examples, best practices, and customization options in each sub-prompt to tailor to your specific needs.
 
 ---
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Research Design Foundation](research-design-foundation.md)** - Complementary approaches and methodologies
+- **[Research Design Sampling Data](research-design-sampling-data.md)** - Leverage data analysis to drive informed decisions
+- **[Research Design Analysis Quality](research-design-analysis-quality.md)** - Complementary approaches and methodologies
+- **[Research Design Ethics Implementation](research-design-ethics-implementation.md)** - Complementary approaches and methodologies
+- **[Research Design Impact](research-design-impact.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Research Design Suite - Complete Overview & Navigation)
+2. Use [Research Design Foundation](research-design-foundation.md) for deeper analysis
+3. Apply [Research Design Sampling Data](research-design-sampling-data.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[education/Academic Research](../../education/Academic Research/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Navigating the comprehensive research design prompt suite**: Combine this template with related analytics and strategy frameworks
+- **Selecting appropriate sub-prompts for specific research needs**: Combine this template with related analytics and strategy frameworks
+- **Understanding the research design development process**: Combine this template with related analytics and strategy frameworks
 
 ## Tips for Success with the Suite
 

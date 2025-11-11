@@ -1,17 +1,26 @@
 ---
-title: Feature Engineering & Selection Template
 category: data-analytics/Data Science
-tags: [automation, data-analytics, data-science, design, machine-learning, optimization, research, template]
-use_cases:
-  - Creating design and implement comprehensive feature engineering strategies to create, transform, and select optimal features that improve model performance, interpretability, and business value.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - dashboard-design-patterns.md
-  - data-governance-framework.md
-  - predictive-modeling-framework.md
 last_updated: 2025-11-09
+related_templates:
+- dashboard-design-patterns.md
+- data-governance-framework.md
+- predictive-modeling-framework.md
+tags:
+- automation
+- data-analytics
+- data-science
+- design
+- machine-learning
+- optimization
+- research
+- template
+title: Feature Engineering & Selection Template
+use_cases:
+- Creating design and implement comprehensive feature engineering strategies to create,
+  transform, and select optimal features that improve model performance, interpretability,
+  and business value.
+- Project planning and execution
+- Strategy development
 ---
 
 # Feature Engineering & Selection Template
@@ -896,6 +905,37 @@ DEMOGRAPHIC_FEATURES: "Enhanced with third-party demographic and psychographic d
 MARKETING_ROI: "Campaign ROI improved from 3.2x to 4.7x"
 CUSTOMER_ACQUISITION_COST: "CAC optimization resulted in 28% reduction"
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Dashboard Design Patterns](dashboard-design-patterns.md)** - Complementary approaches and methodologies
+- **[Data Governance Framework](data-governance-framework.md)** - Leverage data analysis to drive informed decisions
+- **[Predictive Modeling Framework](predictive-modeling-framework.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Feature Engineering & Selection Template)
+2. Use [Dashboard Design Patterns](dashboard-design-patterns.md) for deeper analysis
+3. Apply [Data Governance Framework](data-governance-framework.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[data-analytics/Data Science](../../data-analytics/Data Science/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating design and implement comprehensive feature engineering strategies to create, transform, and select optimal features that improve model performance, interpretability, and business value.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

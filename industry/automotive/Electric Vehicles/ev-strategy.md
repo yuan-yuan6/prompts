@@ -1,15 +1,22 @@
 ---
-title: Electric Vehicle Strategy & Mobility Transformation Framework
 category: industry/automotive/Electric Vehicles
-tags: [design, development, framework, industry, management, strategy]
-use_cases:
-  - Creating comprehensive framework for electric vehicle adoption, charging infrastructure development, fleet electrification, battery management, and sustainable mobility transformation across automotive and transportation sectors.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - autonomous-vehicle-systems.md
 last_updated: 2025-11-09
+related_templates:
+- autonomous-vehicle-systems.md
+tags:
+- design
+- development
+- framework
+- industry
+- management
+- strategy
+title: Electric Vehicle Strategy & Mobility Transformation Framework
+use_cases:
+- Creating comprehensive framework for electric vehicle adoption, charging infrastructure
+  development, fleet electrification, battery management, and sustainable mobility
+  transformation across automotive and transportation sectors.
+- Project planning and execution
+- Strategy development
 ---
 
 # Electric Vehicle Strategy & Mobility Transformation Framework
@@ -536,6 +543,34 @@ Driver Support: 24/7 charging assistance
 Revenue Model: Charging commission share
 Target: 75% EV trips by 2024
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Autonomous Vehicle Systems](autonomous-vehicle-systems.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Electric Vehicle Strategy & Mobility Transformation Framework)
+2. Use [Autonomous Vehicle Systems](autonomous-vehicle-systems.md) for deeper analysis
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[industry/automotive/Electric Vehicles](../../industry/automotive/Electric Vehicles/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive framework for electric vehicle adoption, charging infrastructure development, fleet electrification, battery management, and sustainable mobility transformation across automotive and transportation sectors.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

@@ -1,17 +1,25 @@
 ---
-title: Clinical Trials Template
 category: healthcare/Medical Research
-tags: [automation, data-science, design, healthcare, machine-learning, research, template]
-use_cases:
-  - Creating design comprehensive clinical trial protocols, consent forms, and analysis plans for conducting ethical, scientifically rigorous research studies to advance medical knowledge and patient care.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - telemedicine-platform-design.md
-  - patient-care-pathway.md
-  - clinical-trials-management.md
 last_updated: 2025-11-09
+related_templates:
+- telemedicine-platform-design.md
+- patient-care-pathway.md
+- clinical-trials-management.md
+tags:
+- automation
+- data-science
+- design
+- healthcare
+- machine-learning
+- research
+- template
+title: Clinical Trials Template
+use_cases:
+- Creating design comprehensive clinical trial protocols, consent forms, and analysis
+  plans for conducting ethical, scientifically rigorous research studies to advance
+  medical knowledge and patient care.
+- Project planning and execution
+- Strategy development
 ---
 
 # Clinical Trials Template
@@ -549,6 +557,37 @@ STUDY_DESIGN: "Randomized controlled trial"
 RESEARCH_HYPOTHESIS: "New stent is non-inferior to standard of care"
 PRIMARY_ENDPOINT: "Target lesion failure at 12 months"
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Telemedicine Platform Design](telemedicine-platform-design.md)** - Complementary approaches and methodologies
+- **[Patient Care Pathway](patient-care-pathway.md)** - Complementary approaches and methodologies
+- **[Clinical Trials Management](clinical-trials-management.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Clinical Trials Template)
+2. Use [Telemedicine Platform Design](telemedicine-platform-design.md) for deeper analysis
+3. Apply [Patient Care Pathway](patient-care-pathway.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[healthcare/Medical Research](../../healthcare/Medical Research/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating design comprehensive clinical trial protocols, consent forms, and analysis plans for conducting ethical, scientifically rigorous research studies to advance medical knowledge and patient care.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

@@ -1,15 +1,25 @@
 ---
-title: Documentation & Wikis Knowledge Framework Generator
 category: education/Knowledge Management
-tags: [design, documentation, education, framework, machine-learning, management, strategy, testing]
-use_cases:
-  - Creating comprehensive frameworks for wikis, knowledge bases, FAQs, documentation systems, and collaborative knowledge platforms for organizations, projects, and communities.
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - curriculum-development.md
-  - curriculum-development-framework.md
 last_updated: 2025-11-09
+related_templates:
+- curriculum-development.md
+- curriculum-development-framework.md
+tags:
+- design
+- documentation
+- education
+- framework
+- machine-learning
+- management
+- strategy
+- testing
+title: Documentation & Wikis Knowledge Framework Generator
+use_cases:
+- Creating comprehensive frameworks for wikis, knowledge bases, FAQs, documentation
+  systems, and collaborative knowledge platforms for organizations, projects, and
+  communities.
+- Project planning and execution
+- Strategy development
 ---
 
 # Documentation & Wikis Knowledge Framework Generator
@@ -854,3 +864,31 @@ Use for creating organizational wikis, knowledge bases, documentation systems, c
 - Include mobile-first design approaches
 - Add gamification elements for engagement
 - Consider accessibility requirements beyond basic compliance
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Curriculum Development](curriculum-development.md)** - Complementary approaches and methodologies
+- **[Curriculum Development Framework](curriculum-development-framework.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Documentation & Wikis Knowledge Framework Generator)
+2. Use [Curriculum Development](curriculum-development.md) for deeper analysis
+3. Apply [Curriculum Development Framework](curriculum-development-framework.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[education/Knowledge Management](../../education/Knowledge Management/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive frameworks for wikis, knowledge bases, FAQs, documentation systems, and collaborative knowledge platforms for organizations, projects, and communities.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks

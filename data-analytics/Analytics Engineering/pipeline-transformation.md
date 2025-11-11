@@ -1,18 +1,25 @@
 ---
-title: Pipeline Data Transformation Template
 category: data-analytics/Analytics Engineering
-tags: [automation, data-analytics, development, transformation, etl, data-quality, medallion-architecture]
-use_cases:
-  - Designing medallion architecture transformations (Bronze → Silver → Gold)
-  - Implementing data cleansing, standardization, and enrichment logic
-  - Building slowly changing dimensions (SCD Type 2) and dimensional models
-  - Applying complex transformations with window functions and aggregations
-related_templates:
-  - pipeline-ingestion.md
-  - pipeline-orchestration.md
-  - pipeline-observability.md
-  - data-governance-framework.md
 last_updated: 2025-11-10
+related_templates:
+- pipeline-ingestion.md
+- pipeline-orchestration.md
+- pipeline-observability.md
+- data-governance-framework.md
+tags:
+- automation
+- data-analytics
+- development
+- transformation
+- etl
+- data-quality
+- medallion-architecture
+title: Pipeline Data Transformation Template
+use_cases:
+- Designing medallion architecture transformations (Bronze → Silver → Gold)
+- Implementing data cleansing, standardization, and enrichment logic
+- Building slowly changing dimensions (SCD Type 2) and dimensional models
+- Applying complex transformations with window functions and aggregations
 ---
 
 # Pipeline Data Transformation Template
@@ -530,6 +537,38 @@ WINDOW_ANALYTICS: "Calculate 5-min moving averages, detect anomalies"
 SILVER_TO_GOLD: "Aggregate to hourly metrics by device_type and location"
 PARTITION_STRATEGY: "Partition by hour for fast time-range queries"
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Pipeline Ingestion](pipeline-ingestion.md)** - Complementary approaches and methodologies
+- **[Pipeline Orchestration](pipeline-orchestration.md)** - Complementary approaches and methodologies
+- **[Pipeline Observability](pipeline-observability.md)** - Complementary approaches and methodologies
+- **[Data Governance Framework](data-governance-framework.md)** - Leverage data analysis to drive informed decisions
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Pipeline Data Transformation Template)
+2. Use [Pipeline Ingestion](pipeline-ingestion.md) for deeper analysis
+3. Apply [Pipeline Orchestration](pipeline-orchestration.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[data-analytics/Analytics Engineering](../../data-analytics/Analytics Engineering/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Designing medallion architecture transformations (Bronze → Silver → Gold)**: Combine this template with related analytics and strategy frameworks
+- **Implementing data cleansing, standardization, and enrichment logic**: Combine this template with related analytics and strategy frameworks
+- **Building slowly changing dimensions (SCD Type 2) and dimensional models**: Combine this template with related analytics and strategy frameworks
 
 ## Best Practices
 

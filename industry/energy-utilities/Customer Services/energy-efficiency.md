@@ -1,16 +1,22 @@
 ---
-title: Energy Efficiency Programs & Demand Side Management
 category: industry/energy-utilities/Customer Services
-tags: [design, development, industry, management, optimization]
-use_cases:
-  - Creating comprehensive framework for designing, implementing, and evaluating energy efficiency programs, demand-side management initiatives, and customer engagement strategies for utilities and energy service companies.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - plant-operations-management.md
-  - smart-grid-implementation.md
 last_updated: 2025-11-09
+related_templates:
+- plant-operations-management.md
+- smart-grid-implementation.md
+tags:
+- design
+- development
+- industry
+- management
+- optimization
+title: Energy Efficiency Programs & Demand Side Management
+use_cases:
+- Creating comprehensive framework for designing, implementing, and evaluating energy
+  efficiency programs, demand-side management initiatives, and customer engagement
+  strategies for utilities and energy service companies.
+- Project planning and execution
+- Strategy development
 ---
 
 # Energy Efficiency Programs & Demand Side Management
@@ -492,6 +498,36 @@ Budget: $2 million
 Focus: Agricultural efficiency
 Delivery: Member engagement
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Plant Operations Management](plant-operations-management.md)** - Complementary approaches and methodologies
+- **[Smart Grid Implementation](smart-grid-implementation.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Energy Efficiency Programs & Demand Side Management)
+2. Use [Plant Operations Management](plant-operations-management.md) for deeper analysis
+3. Apply [Smart Grid Implementation](smart-grid-implementation.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[industry/energy-utilities/Customer Services](../../industry/energy-utilities/Customer Services/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive framework for designing, implementing, and evaluating energy efficiency programs, demand-side management initiatives, and customer engagement strategies for utilities and energy service companies.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

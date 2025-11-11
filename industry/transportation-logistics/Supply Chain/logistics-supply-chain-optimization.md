@@ -1,17 +1,26 @@
 ---
-title: Supply Chain Optimization & Network Design
 category: industry/transportation-logistics/Supply Chain
-tags: [data-science, design, industry, machine-learning, management, optimization, research, strategy]
-use_cases:
-  - Creating advanced framework for end-to-end supply chain optimization, network design, inventory management, demand planning, and logistics coordination across global supply networks.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - route-optimization-framework.md
-  - warehouse-management-system.md
-  - fleet-management-system.md
 last_updated: 2025-11-09
+related_templates:
+- route-optimization-framework.md
+- warehouse-management-system.md
+- fleet-management-system.md
+tags:
+- data-science
+- design
+- industry
+- machine-learning
+- management
+- optimization
+- research
+- strategy
+title: Supply Chain Optimization & Network Design
+use_cases:
+- Creating advanced framework for end-to-end supply chain optimization, network design,
+  inventory management, demand planning, and logistics coordination across global
+  supply networks.
+- Project planning and execution
+- Strategy development
 ---
 
 # Supply Chain Optimization & Network Design
@@ -565,6 +574,37 @@ Compliance: FDA, cold chain
 Traceability: Serialization required
 Challenge: Zero stock-outs, 100% compliance
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Route Optimization Framework](route-optimization-framework.md)** - Complementary approaches and methodologies
+- **[Warehouse Management System](warehouse-management-system.md)** - Complementary approaches and methodologies
+- **[Fleet Management System](fleet-management-system.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Supply Chain Optimization & Network Design)
+2. Use [Route Optimization Framework](route-optimization-framework.md) for deeper analysis
+3. Apply [Warehouse Management System](warehouse-management-system.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[industry/transportation-logistics/Supply Chain](../../industry/transportation-logistics/Supply Chain/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating advanced framework for end-to-end supply chain optimization, network design, inventory management, demand planning, and logistics coordination across global supply networks.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

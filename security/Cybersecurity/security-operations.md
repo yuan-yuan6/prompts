@@ -1,15 +1,24 @@
 ---
-title: Cybersecurity Operations & Threat Management Framework
 category: security/Cybersecurity
-tags: [data-science, design, framework, management, marketing, research, security, strategy]
-use_cases:
-  - Creating comprehensive framework for cybersecurity operations, threat detection and response, vulnerability management, security governance, incident handling, and organizational cyber resilience.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - cybersecurity-incident-response.md
 last_updated: 2025-11-09
+related_templates:
+- cybersecurity-incident-response.md
+tags:
+- data-science
+- design
+- framework
+- management
+- marketing
+- research
+- security
+- strategy
+title: Cybersecurity Operations & Threat Management Framework
+use_cases:
+- Creating comprehensive framework for cybersecurity operations, threat detection
+  and response, vulnerability management, security governance, incident handling,
+  and organizational cyber resilience.
+- Project planning and execution
+- Strategy development
 ---
 
 # Cybersecurity Operations & Threat Management Framework
@@ -536,6 +545,34 @@ Automation: 80% incident response
 Focus: Product security, CI/CD
 Zero Trust: Full implementation
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Cybersecurity Incident Response](cybersecurity-incident-response.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Cybersecurity Operations & Threat Management Framework)
+2. Use [Cybersecurity Incident Response](cybersecurity-incident-response.md) for deeper analysis
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[security/Cybersecurity](../../security/Cybersecurity/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive framework for cybersecurity operations, threat detection and response, vulnerability management, security governance, incident handling, and organizational cyber resilience.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

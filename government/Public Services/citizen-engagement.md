@@ -1,16 +1,21 @@
 ---
-title: Citizen Engagement Template
 category: government/Public Services
-tags: [design, government, strategy, template]
-use_cases:
-  - Creating design comprehensive citizen engagement strategies, participatory governance frameworks, community consultation processes, and public feedback systems that foster inclusive decision-making and strengthen democratic participation.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - policy-development.md
-  - policy-research-framework.md
 last_updated: 2025-11-09
+related_templates:
+- policy-development.md
+- policy-research-framework.md
+tags:
+- design
+- government
+- strategy
+- template
+title: Citizen Engagement Template
+use_cases:
+- Creating design comprehensive citizen engagement strategies, participatory governance
+  frameworks, community consultation processes, and public feedback systems that foster
+  inclusive decision-making and strengthen democratic participation.
+- Project planning and execution
+- Strategy development
 ---
 
 # Citizen Engagement Template
@@ -395,6 +400,36 @@ ENGAGEMENT_METHODS: "Citizen panels, online consultations, workshops"
 PARTICIPATION_GOALS: "Representative sample, consensus building"
 INCLUSIVITY_MEASURES: "Youth engagement, indigenous consultation, rural outreach"
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Policy Development](policy-development.md)** - Complementary approaches and methodologies
+- **[Policy Research Framework](policy-research-framework.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Citizen Engagement Template)
+2. Use [Policy Development](policy-development.md) for deeper analysis
+3. Apply [Policy Research Framework](policy-research-framework.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[government/Public Services](../../government/Public Services/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating design comprehensive citizen engagement strategies, participatory governance frameworks, community consultation processes, and public feedback systems that foster inclusive decision-making and strengthen democratic participation.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

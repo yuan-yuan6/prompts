@@ -1,16 +1,25 @@
 ---
-title: Data Visualization & Figures Template
 category: education/Scientific Communication
-tags: [communication, design, development, education, research, strategy, template, testing]
-use_cases:
-  - Creating compelling, accurate scientific visualizations including charts, graphs, infographics, and visual abstracts that effectively communicate complex data, enhance understanding, and meet publication standards across diverse research disciplines.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - curriculum-development.md
-  - curriculum-development-framework.md
 last_updated: 2025-11-09
+related_templates:
+- curriculum-development.md
+- curriculum-development-framework.md
+tags:
+- communication
+- design
+- development
+- education
+- research
+- strategy
+- template
+- testing
+title: Data Visualization & Figures Template
+use_cases:
+- Creating compelling, accurate scientific visualizations including charts, graphs,
+  infographics, and visual abstracts that effectively communicate complex data, enhance
+  understanding, and meet publication standards across diverse research disciplines.
+- Project planning and execution
+- Strategy development
 ---
 
 # Data Visualization & Figures Template
@@ -979,3 +988,31 @@ Use for research publication figures, conference presentations, grant proposals,
 - Select tools based on technical requirements and team skills
 - Incorporate interactive elements for digital-first publications
 - Follow discipline-specific conventions and journal guidelines
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Curriculum Development](curriculum-development.md)** - Complementary approaches and methodologies
+- **[Curriculum Development Framework](curriculum-development-framework.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Data Visualization & Figures Template)
+2. Use [Curriculum Development](curriculum-development.md) for deeper analysis
+3. Apply [Curriculum Development Framework](curriculum-development-framework.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[education/Scientific Communication](../../education/Scientific Communication/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating compelling, accurate scientific visualizations including charts, graphs, infographics, and visual abstracts that effectively communicate complex data, enhance understanding, and meet publication standards across diverse research disciplines.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks

@@ -1,16 +1,25 @@
 ---
-title: Audit & Compliance Template Generator
 category: business/Finance & Accounting
-tags: [business, communication, design, machine-learning, management, security, template]
-use_cases:
-  - Creating comprehensive audit and compliance strategies covering internal controls, external audits, and regulatory requirements to ensure accountability, transparency, and adherence to legal and industry standards.
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - okr-implementation-framework.md
-  - digital-transformation-roadmap.md
-  - lean-six-sigma-implementation.md
 last_updated: 2025-11-09
+related_templates:
+- okr-implementation-framework.md
+- digital-transformation-roadmap.md
+- lean-six-sigma-implementation.md
+tags:
+- business
+- communication
+- design
+- machine-learning
+- management
+- security
+- template
+title: Audit & Compliance Template Generator
+use_cases:
+- Creating comprehensive audit and compliance strategies covering internal controls,
+  external audits, and regulatory requirements to ensure accountability, transparency,
+  and adherence to legal and industry standards.
+- Project planning and execution
+- Strategy development
 ---
 
 # Audit & Compliance Template Generator
@@ -1349,3 +1358,32 @@ Use for internal audit planning, compliance program development, risk assessment
 - Add industry-specific risk factors and testing procedures
 - Include ESG and sustainability compliance elements
 - Scale complexity based on organizational size and regulatory requirements
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Okr Implementation Framework](okr-implementation-framework.md)** - Set measurable objectives and key results to track progress
+- **[Digital Transformation Roadmap](digital-transformation-roadmap.md)** - Strategic framework for organizational change initiatives
+- **[Lean Six Sigma Implementation](lean-six-sigma-implementation.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Audit & Compliance Template Generator)
+2. Use [Okr Implementation Framework](okr-implementation-framework.md) for deeper analysis
+3. Apply [Digital Transformation Roadmap](digital-transformation-roadmap.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[business/Finance & Accounting](../../business/Finance & Accounting/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive audit and compliance strategies covering internal controls, external audits, and regulatory requirements to ensure accountability, transparency, and adherence to legal and industry standards.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks

@@ -1,16 +1,23 @@
 ---
-title: Brand Storytelling Template
 category: creative/Marketing Creative
-tags: [communication, creative, design, development, marketing, template]
-use_cases:
-  - Creating compelling brand narratives, voice, and personality that connect emotionally with audiences and build lasting brand relationships across all touchpoints and communications.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - creative-writing-framework.md
-  - video-production-pipeline.md
 last_updated: 2025-11-09
+related_templates:
+- creative-writing-framework.md
+- video-production-pipeline.md
+tags:
+- communication
+- creative
+- design
+- development
+- marketing
+- template
+title: Brand Storytelling Template
+use_cases:
+- Creating compelling brand narratives, voice, and personality that connect emotionally
+  with audiences and build lasting brand relationships across all touchpoints and
+  communications.
+- Project planning and execution
+- Strategy development
 ---
 
 # Brand Storytelling Template
@@ -550,6 +557,36 @@ STORYTELLING_OBJECTIVE: "Demonstrate value and inspire action"
 COMPANY_STAGE: "Mature service business"
 EMOTIONAL_GOAL: "Inspiration and motivation"
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Creative Writing Framework](creative-writing-framework.md)** - Complementary approaches and methodologies
+- **[Video Production Pipeline](video-production-pipeline.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Brand Storytelling Template)
+2. Use [Creative Writing Framework](creative-writing-framework.md) for deeper analysis
+3. Apply [Video Production Pipeline](video-production-pipeline.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[creative/Marketing Creative](../../creative/Marketing Creative/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating compelling brand narratives, voice, and personality that connect emotionally with audiences and build lasting brand relationships across all touchpoints and communications.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

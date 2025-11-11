@@ -1,16 +1,25 @@
 ---
-title: Citizen Services & Digital Government Framework
 category: government/Federal & State
-tags: [automation, data-science, design, development, framework, government, optimization, research]
-use_cases:
-  - Creating comprehensive framework for designing and implementing citizen-centric government services including digital transformation, service delivery optimization, citizen engagement platforms, and public service modernization.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - policy-development.md
-  - policy-research-framework.md
 last_updated: 2025-11-09
+related_templates:
+- policy-development.md
+- policy-research-framework.md
+tags:
+- automation
+- data-science
+- design
+- development
+- framework
+- government
+- optimization
+- research
+title: Citizen Services & Digital Government Framework
+use_cases:
+- Creating comprehensive framework for designing and implementing citizen-centric
+  government services including digital transformation, service delivery optimization,
+  citizen engagement platforms, and public service modernization.
+- Project planning and execution
+- Strategy development
 ---
 
 # Citizen Services & Digital Government Framework
@@ -520,6 +529,36 @@ Authentication: Login.gov integration
 Processing: Real-time eligibility
 Accessibility: WCAG 2.1 AA compliant
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Policy Development](policy-development.md)** - Complementary approaches and methodologies
+- **[Policy Research Framework](policy-research-framework.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Citizen Services & Digital Government Framework)
+2. Use [Policy Development](policy-development.md) for deeper analysis
+3. Apply [Policy Research Framework](policy-research-framework.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[government/Federal & State](../../government/Federal & State/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive framework for designing and implementing citizen-centric government services including digital transformation, service delivery optimization, citizen engagement platforms, and public service modernization.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

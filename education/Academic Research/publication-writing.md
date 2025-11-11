@@ -1,15 +1,24 @@
 ---
-title: Academic Publication Writing Generator
 category: education/Academic Research
-tags: [automation, communication, design, development, education, machine-learning, optimization, research]
-use_cases:
-  - Creating comprehensive academic papers, abstracts, conference presentations, and peer review responses for scholarly publication and dissemination.
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - curriculum-development.md
-  - curriculum-development-framework.md
 last_updated: 2025-11-09
+related_templates:
+- curriculum-development.md
+- curriculum-development-framework.md
+tags:
+- automation
+- communication
+- design
+- development
+- education
+- machine-learning
+- optimization
+- research
+title: Academic Publication Writing Generator
+use_cases:
+- Creating comprehensive academic papers, abstracts, conference presentations, and
+  peer review responses for scholarly publication and dissemination.
+- Project planning and execution
+- Strategy development
 ---
 
 # Academic Publication Writing Generator
@@ -1147,3 +1156,31 @@ Use for journal article writing, conference presentations, thesis chapters, book
 - Add diversity, equity, and inclusion considerations
 - Consider global and cross-cultural perspectives
 - Include sustainability and environmental considerations
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Curriculum Development](curriculum-development.md)** - Complementary approaches and methodologies
+- **[Curriculum Development Framework](curriculum-development-framework.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Academic Publication Writing Generator)
+2. Use [Curriculum Development](curriculum-development.md) for deeper analysis
+3. Apply [Curriculum Development Framework](curriculum-development-framework.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[education/Academic Research](../../education/Academic Research/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive academic papers, abstracts, conference presentations, and peer review responses for scholarly publication and dissemination.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks

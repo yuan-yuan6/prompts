@@ -1,17 +1,22 @@
 ---
-title: Policy Options Development
 category: government/Policy Development
-tags: [policy-options, alternatives, cost-benefit, risk-assessment, stakeholder-engagement]
-use_cases:
-  - Developing and comparing policy alternatives
-  - Conducting cost-benefit analysis of options
-  - Assessing risks and stakeholder positions
-related_templates:
-  - policy-research-analysis.md
-  - policy-impact-assessment.md
-  - policy-implementation-planning.md
-  - policy-research-overview.md
 last_updated: 2025-11-09
+related_templates:
+- policy-research-analysis.md
+- policy-impact-assessment.md
+- policy-implementation-planning.md
+- policy-research-overview.md
+tags:
+- policy-options
+- alternatives
+- cost-benefit
+- risk-assessment
+- stakeholder-engagement
+title: Policy Options Development
+use_cases:
+- Developing and comparing policy alternatives
+- Conducting cost-benefit analysis of options
+- Assessing risks and stakeholder positions
 ---
 
 # Policy Options Development
@@ -294,6 +299,38 @@ B_BCR: "3.2 (high return on investment)"
 STAKEHOLDER_1: "Teachers union - High interest, High influence, Supportive"
 ENGAGE_1: "Collaborative design, ongoing consultation, joint implementation"
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Policy Research Analysis](policy-research-analysis.md)** - Complementary approaches and methodologies
+- **[Policy Impact Assessment](policy-impact-assessment.md)** - Complementary approaches and methodologies
+- **[Policy Implementation Planning](policy-implementation-planning.md)** - Complementary approaches and methodologies
+- **[Policy Research Overview](policy-research-overview.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Policy Options Development)
+2. Use [Policy Research Analysis](policy-research-analysis.md) for deeper analysis
+3. Apply [Policy Impact Assessment](policy-impact-assessment.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[government/Policy Development](../../government/Policy Development/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Developing and comparing policy alternatives**: Combine this template with related analytics and strategy frameworks
+- **Conducting cost-benefit analysis of options**: Combine this template with related analytics and strategy frameworks
+- **Assessing risks and stakeholder positions**: Combine this template with related analytics and strategy frameworks
 
 ## Best Practices
 

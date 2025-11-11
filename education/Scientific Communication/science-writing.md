@@ -1,16 +1,25 @@
 ---
-title: Science Writing for Popular Audiences Template
 category: education/Scientific Communication
-tags: [automation, communication, data-science, development, education, research, strategy, template]
-use_cases:
-  - Creating engaging, accessible science communication that bridges the gap between complex research and public understanding through popular science articles, technical blogs, educational content, and multimedia storytelling.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - curriculum-development.md
-  - curriculum-development-framework.md
 last_updated: 2025-11-09
+related_templates:
+- curriculum-development.md
+- curriculum-development-framework.md
+tags:
+- automation
+- communication
+- data-science
+- development
+- education
+- research
+- strategy
+- template
+title: Science Writing for Popular Audiences Template
+use_cases:
+- Creating engaging, accessible science communication that bridges the gap between
+  complex research and public understanding through popular science articles, technical
+  blogs, educational content, and multimedia storytelling.
+- Project planning and execution
+- Strategy development
 ---
 
 # Science Writing for Popular Audiences Template
@@ -920,3 +929,31 @@ Use for popular science articles, science blogs, educational content, newsletter
 - Include multimedia elements appropriate to medium
 - Adapt tone for publication style and audience expectations
 - Incorporate platform-specific engagement features
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Curriculum Development](curriculum-development.md)** - Complementary approaches and methodologies
+- **[Curriculum Development Framework](curriculum-development-framework.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Science Writing for Popular Audiences Template)
+2. Use [Curriculum Development](curriculum-development.md) for deeper analysis
+3. Apply [Curriculum Development Framework](curriculum-development-framework.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[education/Scientific Communication](../../education/Scientific Communication/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating engaging, accessible science communication that bridges the gap between complex research and public understanding through popular science articles, technical blogs, educational content, and multimedia storytelling.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks

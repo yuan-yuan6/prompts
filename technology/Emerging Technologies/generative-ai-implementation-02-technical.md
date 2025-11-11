@@ -1,6 +1,6 @@
 ---
 title: Generative AI Implementation - Part 2: Technical Architecture & LLM Implementation
-category: technology/emerging-tech
+category: technology/Emerging Technologies
 tags: [automation, development, machine-learning, optimization, technology, template]
 use_cases:
   - Implementing large language models, developing prompt engineering frameworks, building retrieval-augmented generation systems, creating multi-agent platforms, and deploying multimodal AI capabilities

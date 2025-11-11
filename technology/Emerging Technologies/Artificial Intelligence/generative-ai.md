@@ -1,15 +1,22 @@
 ---
-title: Generative AI Template
-category: technology/emerging-tech/Artificial Intelligence
-tags: [design, machine-learning, optimization, security, technology, template]
-use_cases:
-  - Creating design comprehensive generative ai systems, large language model implementations, prompt engineering frameworks, and ai-powered applications that leverage cutting-edge ai capabilities while ensuring safety, ethics, and business value creation.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - generative-ai-implementation.md
+category: technology/Emerging Technologies/Artificial Intelligence
 last_updated: 2025-11-09
+related_templates:
+- generative-ai-implementation.md
+tags:
+- design
+- machine-learning
+- optimization
+- security
+- technology
+- template
+title: Generative AI Template
+use_cases:
+- Creating design comprehensive generative ai systems, large language model implementations,
+  prompt engineering frameworks, and ai-powered applications that leverage cutting-edge
+  ai capabilities while ensuring safety, ethics, and business value creation.
+- Project planning and execution
+- Strategy development
 ---
 
 # Generative AI Template
@@ -401,6 +408,34 @@ PERFORMANCE_REQUIREMENTS: "High quality, brand-aligned, multi-format"
 SAFETY_MEASURES: "Brand safety, copyright protection, quality control"
 SUCCESS_METRICS: "Content engagement rates, production efficiency"
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Generative Ai Implementation](generative-ai-implementation.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Generative AI Template)
+2. Use [Generative Ai Implementation](generative-ai-implementation.md) for deeper analysis
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[technology/Emerging Technologies/Artificial Intelligence](../../technology/Emerging Technologies/Artificial Intelligence/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating design comprehensive generative ai systems, large language model implementations, prompt engineering frameworks, and ai-powered applications that leverage cutting-edge ai capabilities while ensuring safety, ethics, and business value creation.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

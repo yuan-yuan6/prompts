@@ -1,16 +1,25 @@
 ---
-title: Press Release & Media Communications Prompt Template
 category: professional-services/communication/Public Communication
-tags: [communication, design, development, marketing, professional-services, research, strategy, template]
-use_cases:
-  - Creating comprehensive framework for creating press releases, media statements, journalist communications, and media relations strategies that maximize coverage, maintain credibility, and effectively communicate key messages to target audiences.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - meeting-management-framework.md
-  - crisis-communication-plan.md
 last_updated: 2025-11-09
+related_templates:
+- meeting-management-framework.md
+- crisis-communication-plan.md
+tags:
+- communication
+- design
+- development
+- marketing
+- professional-services
+- research
+- strategy
+- template
+title: Press Release & Media Communications Prompt Template
+use_cases:
+- Creating comprehensive framework for creating press releases, media statements,
+  journalist communications, and media relations strategies that maximize coverage,
+  maintain credibility, and effectively communicate key messages to target audiences.
+- Project planning and execution
+- Strategy development
 ---
 
 # Press Release & Media Communications Prompt Template
@@ -792,3 +801,31 @@ Lead: {Company_Name today confirmed that [INCIDENT_DESCRIPTION] and immediately 
 ```
 
 This template provides {400+} customizable variables to create professional press releases and media communications tailored to specific industries, audiences, and situations while maintaining journalistic standards and maximizing media coverage potential.
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Meeting Management Framework](meeting-management-framework.md)** - Complementary approaches and methodologies
+- **[Crisis Communication Plan](crisis-communication-plan.md)** - Effective communication strategies for stakeholders
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Press Release & Media Communications Prompt Template)
+2. Use [Meeting Management Framework](meeting-management-framework.md) for deeper analysis
+3. Apply [Crisis Communication Plan](crisis-communication-plan.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[professional-services/communication/Public Communication](../../professional-services/communication/Public Communication/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive framework for creating press releases, media statements, journalist communications, and media relations strategies that maximize coverage, maintain credibility, and effectively communicate key messages to target audiences.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks

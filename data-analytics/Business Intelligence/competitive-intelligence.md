@@ -1,17 +1,23 @@
 ---
-title: Competitive Intelligence Benchmarking Template
 category: data-analytics/Business Intelligence
-tags: [data-analytics, data-science, research, strategy, template]
-use_cases:
-  - Creating develop comprehensive frameworks for market analysis, competitor benchmarking, and strategic intelligence gathering that enable data-driven competitive positioning, market opportunity identification, and strategic advantage creation.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - dashboard-design-patterns.md
-  - data-governance-framework.md
-  - predictive-modeling-framework.md
 last_updated: 2025-11-09
+related_templates:
+- dashboard-design-patterns.md
+- data-governance-framework.md
+- predictive-modeling-framework.md
+tags:
+- data-analytics
+- data-science
+- research
+- strategy
+- template
+title: Competitive Intelligence Benchmarking Template
+use_cases:
+- Creating develop comprehensive frameworks for market analysis, competitor benchmarking,
+  and strategic intelligence gathering that enable data-driven competitive positioning,
+  market opportunity identification, and strategic advantage creation.
+- Project planning and execution
+- Strategy development
 ---
 
 # Competitive Intelligence Benchmarking Template
@@ -838,6 +844,37 @@ ANALYSIS_SCOPE: "Regional commercial banking with digital banking focus"
 BENCHMARKING_DIMENSIONS: "Digital capabilities, customer experience, operational efficiency"
 REGULATORY_CONSIDERATIONS: "Banking regulations, compliance requirements, capital adequacy"
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Dashboard Design Patterns](dashboard-design-patterns.md)** - Complementary approaches and methodologies
+- **[Data Governance Framework](data-governance-framework.md)** - Leverage data analysis to drive informed decisions
+- **[Predictive Modeling Framework](predictive-modeling-framework.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Competitive Intelligence Benchmarking Template)
+2. Use [Dashboard Design Patterns](dashboard-design-patterns.md) for deeper analysis
+3. Apply [Data Governance Framework](data-governance-framework.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[data-analytics/Business Intelligence](../../data-analytics/Business Intelligence/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating develop comprehensive frameworks for market analysis, competitor benchmarking, and strategic intelligence gathering that enable data-driven competitive positioning, market opportunity identification, and strategic advantage creation.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

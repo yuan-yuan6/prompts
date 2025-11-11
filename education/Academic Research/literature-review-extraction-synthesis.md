@@ -1,17 +1,22 @@
 ---
-title: Literature Review Data Extraction & Synthesis
 category: education/Academic Research
-tags: [communication, data-science, education, research, analysis]
-use_cases:
-  - Extracting comprehensive data systematically from included studies
-  - Conducting quantitative meta-analysis and statistical synthesis
-  - Performing qualitative thematic analysis and narrative synthesis
-  - Integrating evidence across multiple studies and methodologies
-related_templates:
-  - literature-review-selection-quality.md
-  - literature-review-analysis-implications.md
-  - literature-reviews-overview.md
 last_updated: 2025-11-10
+related_templates:
+- literature-review-selection-quality.md
+- literature-review-analysis-implications.md
+- literature-reviews-overview.md
+tags:
+- communication
+- data-science
+- education
+- research
+- analysis
+title: Literature Review Data Extraction & Synthesis
+use_cases:
+- Extracting comprehensive data systematically from included studies
+- Conducting quantitative meta-analysis and statistical synthesis
+- Performing qualitative thematic analysis and narrative synthesis
+- Integrating evidence across multiple studies and methodologies
 ---
 
 # Literature Review Data Extraction & Synthesis
@@ -656,6 +661,37 @@ Integration: Convergent parallel design with joint display table
 Software: R for meta-analysis, NVivo for qualitative, Excel for integration matrix
 Output: Effectiveness summary with implementation guidance
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Literature Review Selection Quality](literature-review-selection-quality.md)** - Complementary approaches and methodologies
+- **[Literature Review Analysis Implications](literature-review-analysis-implications.md)** - Complementary approaches and methodologies
+- **[Literature Reviews Overview](literature-reviews-overview.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Literature Review Data Extraction & Synthesis)
+2. Use [Literature Review Selection Quality](literature-review-selection-quality.md) for deeper analysis
+3. Apply [Literature Review Analysis Implications](literature-review-analysis-implications.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[education/Academic Research](../../education/Academic Research/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Extracting comprehensive data systematically from included studies**: Combine this template with related analytics and strategy frameworks
+- **Conducting quantitative meta-analysis and statistical synthesis**: Combine this template with related analytics and strategy frameworks
+- **Performing qualitative thematic analysis and narrative synthesis**: Combine this template with related analytics and strategy frameworks
 
 ## Best Practices
 

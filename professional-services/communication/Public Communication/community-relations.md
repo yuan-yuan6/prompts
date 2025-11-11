@@ -1,16 +1,26 @@
 ---
-title: Community Relations & Outreach Prompt Template
 category: professional-services/communication/Public Communication
-tags: [communication, design, development, management, marketing, professional-services, strategy, template]
-use_cases:
-  - Creating comprehensive framework for building strong community relationships, planning effective outreach programs, managing stakeholder engagement, organizing community events, and fostering long-term partnerships that benefit both the organization and the communities it serves.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - meeting-management-framework.md
-  - crisis-communication-plan.md
 last_updated: 2025-11-09
+related_templates:
+- meeting-management-framework.md
+- crisis-communication-plan.md
+tags:
+- communication
+- design
+- development
+- management
+- marketing
+- professional-services
+- strategy
+- template
+title: Community Relations & Outreach Prompt Template
+use_cases:
+- Creating comprehensive framework for building strong community relationships, planning
+  effective outreach programs, managing stakeholder engagement, organizing community
+  events, and fostering long-term partnerships that benefit both the organization
+  and the communities it serves.
+- Project planning and execution
+- Strategy development
 ---
 
 # Community Relations & Outreach Prompt Template
@@ -822,3 +832,31 @@ Recovery: [RELATIONSHIP_REPAIR_REPUTATION_RESTORATION_LESSONS_LEARNED]
 ```
 
 This template provides {400+} customizable variables to create comprehensive community relations and outreach strategies tailored to specific organizational contexts, community needs, and relationship-building objectives while fostering genuine partnerships and sustainable community impact.
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Meeting Management Framework](meeting-management-framework.md)** - Complementary approaches and methodologies
+- **[Crisis Communication Plan](crisis-communication-plan.md)** - Effective communication strategies for stakeholders
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Community Relations & Outreach Prompt Template)
+2. Use [Meeting Management Framework](meeting-management-framework.md) for deeper analysis
+3. Apply [Crisis Communication Plan](crisis-communication-plan.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[professional-services/communication/Public Communication](../../professional-services/communication/Public Communication/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive framework for building strong community relationships, planning effective outreach programs, managing stakeholder engagement, organizing community events, and fostering long-term partnerships that benefit both the organization and the communities it serves.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks

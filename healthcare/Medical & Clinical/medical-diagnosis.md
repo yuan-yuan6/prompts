@@ -1,16 +1,22 @@
 ---
-title: Medical Diagnosis Template
 category: healthcare/Medical & Clinical
-tags: [automation, design, documentation, healthcare, template, testing]
-use_cases:
-  - General application
-  - Professional use
-  - Project implementation
-related_templates:
-  - telemedicine-platform-design.md
-  - patient-care-pathway.md
-  - clinical-trials-management.md
 last_updated: 2025-11-09
+related_templates:
+- telemedicine-platform-design.md
+- patient-care-pathway.md
+- clinical-trials-management.md
+tags:
+- automation
+- design
+- documentation
+- healthcare
+- template
+- testing
+title: Medical Diagnosis Template
+use_cases:
+- General application
+- Professional use
+- Project implementation
 ---
 
 # Medical Diagnosis Template
@@ -767,6 +773,37 @@ Primary Diagnostic Considerations:
 2. Inflammatory Bowel Disease - Probability: 15%
 3. Small Intestinal Bacterial Overgrowth - Probability: 10%
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Telemedicine Platform Design](telemedicine-platform-design.md)** - Complementary approaches and methodologies
+- **[Patient Care Pathway](patient-care-pathway.md)** - Complementary approaches and methodologies
+- **[Clinical Trials Management](clinical-trials-management.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Medical Diagnosis Template)
+2. Use [Telemedicine Platform Design](telemedicine-platform-design.md) for deeper analysis
+3. Apply [Patient Care Pathway](patient-care-pathway.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[healthcare/Medical & Clinical](../../healthcare/Medical & Clinical/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **General application**: Combine this template with related analytics and strategy frameworks
+- **Professional use**: Combine this template with related analytics and strategy frameworks
+- **Project implementation**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

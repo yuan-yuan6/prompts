@@ -1,17 +1,26 @@
 ---
-title: Cloud Architecture Template
 category: technology/DevOps & Cloud
-tags: [data-science, design, machine-learning, management, optimization, security, strategy, technology]
-use_cases:
-  - Creating design comprehensive cloud architecture patterns for aws, azure, gcp including multi-cloud, hybrid, and cloud-native solutions with scalability, security, and cost optimization.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - cloud-architecture-framework.md
-  - site-reliability-engineering.md
-  - cloud-migration-strategy.md
 last_updated: 2025-11-09
+related_templates:
+- cloud-architecture-framework.md
+- site-reliability-engineering.md
+- cloud-migration-strategy.md
+tags:
+- data-science
+- design
+- machine-learning
+- management
+- optimization
+- security
+- strategy
+- technology
+title: Cloud Architecture Template
+use_cases:
+- Creating design comprehensive cloud architecture patterns for aws, azure, gcp including
+  multi-cloud, hybrid, and cloud-native solutions with scalability, security, and
+  cost optimization.
+- Project planning and execution
+- Strategy development
 ---
 
 # Cloud Architecture Template
@@ -244,6 +253,37 @@ Infrastructure Design:
 | `[CLOUD_PERFORMANCE_TESTING]` | Specify the cloud performance testing | "[specify value]" |
 | `[CLOUD_OPTIMIZATION]` | Specify the cloud optimization | "[specify value]" |
 | `[CLOUD_COST_MANAGEMENT]` | Specify the cloud cost management | "[specify value]" |
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Cloud Architecture Framework](cloud-architecture-framework.md)** - Complementary approaches and methodologies
+- **[Site Reliability Engineering](site-reliability-engineering.md)** - Complementary approaches and methodologies
+- **[Cloud Migration Strategy](cloud-migration-strategy.md)** - Strategic planning and execution frameworks
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Cloud Architecture Template)
+2. Use [Cloud Architecture Framework](cloud-architecture-framework.md) for deeper analysis
+3. Apply [Site Reliability Engineering](site-reliability-engineering.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[technology/DevOps & Cloud](../../technology/DevOps & Cloud/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating design comprehensive cloud architecture patterns for aws, azure, gcp including multi-cloud, hybrid, and cloud-native solutions with scalability, security, and cost optimization.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Best Practices
 

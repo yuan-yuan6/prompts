@@ -1,18 +1,24 @@
 ---
-title: Pipeline Orchestration Template
 category: data-analytics/Analytics Engineering
-tags: [automation, data-analytics, orchestration, airflow, workflow, scheduling]
-use_cases:
-  - Designing Apache Airflow DAGs for complex data pipeline workflows
-  - Implementing advanced orchestration patterns with branching and dynamic tasks
-  - Managing task dependencies, retries, and failure handling
-  - Scheduling and monitoring multi-step data processing workflows
-related_templates:
-  - pipeline-ingestion.md
-  - pipeline-transformation.md
-  - pipeline-observability.md
-  - pipeline-infrastructure.md
 last_updated: 2025-11-10
+related_templates:
+- pipeline-ingestion.md
+- pipeline-transformation.md
+- pipeline-observability.md
+- pipeline-infrastructure.md
+tags:
+- automation
+- data-analytics
+- orchestration
+- airflow
+- workflow
+- scheduling
+title: Pipeline Orchestration Template
+use_cases:
+- Designing Apache Airflow DAGs for complex data pipeline workflows
+- Implementing advanced orchestration patterns with branching and dynamic tasks
+- Managing task dependencies, retries, and failure handling
+- Scheduling and monitoring multi-step data processing workflows
 ---
 
 # Pipeline Orchestration Template
@@ -440,6 +446,38 @@ TRIGGER_RULES:
   - on_call_alert: trigger on 'all_failed'
 SENSORS: Wait for upstream data availability before starting
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Pipeline Ingestion](pipeline-ingestion.md)** - Complementary approaches and methodologies
+- **[Pipeline Transformation](pipeline-transformation.md)** - Strategic framework for organizational change initiatives
+- **[Pipeline Observability](pipeline-observability.md)** - Complementary approaches and methodologies
+- **[Pipeline Infrastructure](pipeline-infrastructure.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Pipeline Orchestration Template)
+2. Use [Pipeline Ingestion](pipeline-ingestion.md) for deeper analysis
+3. Apply [Pipeline Transformation](pipeline-transformation.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[data-analytics/Analytics Engineering](../../data-analytics/Analytics Engineering/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Designing Apache Airflow DAGs for complex data pipeline workflows**: Combine this template with related analytics and strategy frameworks
+- **Implementing advanced orchestration patterns with branching and dynamic tasks**: Combine this template with related analytics and strategy frameworks
+- **Managing task dependencies, retries, and failure handling**: Combine this template with related analytics and strategy frameworks
 
 ## Best Practices
 

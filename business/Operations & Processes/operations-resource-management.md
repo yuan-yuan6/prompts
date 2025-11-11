@@ -1,16 +1,26 @@
 ---
-title: Resource Management Template Generator
 category: business/Operations & Processes
-tags: [business, design, machine-learning, management, optimization, strategy, template, testing]
-use_cases:
-  - Creating comprehensive resource management frameworks covering resource allocation, scheduling optimization, and capacity planning to maximize operational efficiency and resource utilization.
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - okr-implementation-framework.md
-  - digital-transformation-roadmap.md
-  - lean-six-sigma-implementation.md
 last_updated: 2025-11-09
+related_templates:
+- okr-implementation-framework.md
+- digital-transformation-roadmap.md
+- lean-six-sigma-implementation.md
+tags:
+- business
+- design
+- machine-learning
+- management
+- optimization
+- strategy
+- template
+- testing
+title: Resource Management Template Generator
+use_cases:
+- Creating comprehensive resource management frameworks covering resource allocation,
+  scheduling optimization, and capacity planning to maximize operational efficiency
+  and resource utilization.
+- Project planning and execution
+- Strategy development
 ---
 
 # Resource Management Template Generator
@@ -945,3 +955,32 @@ Use for resource optimization projects, capacity planning initiatives, workforce
 - Include sustainability and ESG considerations
 - Add stakeholder-specific requirements
 - Consider geographic and cultural factors
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Okr Implementation Framework](okr-implementation-framework.md)** - Set measurable objectives and key results to track progress
+- **[Digital Transformation Roadmap](digital-transformation-roadmap.md)** - Strategic framework for organizational change initiatives
+- **[Lean Six Sigma Implementation](lean-six-sigma-implementation.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Resource Management Template Generator)
+2. Use [Okr Implementation Framework](okr-implementation-framework.md) for deeper analysis
+3. Apply [Digital Transformation Roadmap](digital-transformation-roadmap.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[business/Operations & Processes](../../business/Operations & Processes/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive resource management frameworks covering resource allocation, scheduling optimization, and capacity planning to maximize operational efficiency and resource utilization.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks

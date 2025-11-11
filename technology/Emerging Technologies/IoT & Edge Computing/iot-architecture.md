@@ -1,15 +1,24 @@
 ---
-title: IoT Architecture & Edge Computing Framework
-category: technology/emerging-tech/IoT & Edge Computing
-tags: [data-science, design, development, framework, machine-learning, management, security, technology]
-use_cases:
-  - Creating comprehensive framework for designing, implementing, and managing iot systems with edge computing capabilities, including device management, data processing, connectivity, and cloud integration.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - generative-ai-implementation.md
+category: technology/Emerging Technologies/IoT & Edge Computing
 last_updated: 2025-11-09
+related_templates:
+- generative-ai-implementation.md
+tags:
+- data-science
+- design
+- development
+- framework
+- machine-learning
+- management
+- security
+- technology
+title: IoT Architecture & Edge Computing Framework
+use_cases:
+- Creating comprehensive framework for designing, implementing, and managing iot systems
+  with edge computing capabilities, including device management, data processing,
+  connectivity, and cloud integration.
+- Project planning and execution
+- Strategy development
 ---
 
 # IoT Architecture & Edge Computing Framework
@@ -523,6 +532,34 @@ Edge: Mobile edge units
 Analytics: Crop yield prediction, irrigation optimization
 Connectivity: LoRaWAN + cellular
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Generative Ai Implementation](generative-ai-implementation.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (IoT Architecture & Edge Computing Framework)
+2. Use [Generative Ai Implementation](generative-ai-implementation.md) for deeper analysis
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[technology/Emerging Technologies/IoT & Edge Computing](../../technology/Emerging Technologies/IoT & Edge Computing/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive framework for designing, implementing, and managing iot systems with edge computing capabilities, including device management, data processing, connectivity, and cloud integration.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

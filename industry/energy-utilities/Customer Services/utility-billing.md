@@ -1,16 +1,24 @@
 ---
-title: Utility Billing & Customer Management System
 category: industry/energy-utilities/Customer Services
-tags: [data-science, design, industry, management, optimization, research, strategy]
-use_cases:
-  - Creating comprehensive framework for utility billing operations, customer service management, rate design, and revenue optimization across electricity, gas, water, and multi-utility services.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - plant-operations-management.md
-  - smart-grid-implementation.md
 last_updated: 2025-11-09
+related_templates:
+- plant-operations-management.md
+- smart-grid-implementation.md
+tags:
+- data-science
+- design
+- industry
+- management
+- optimization
+- research
+- strategy
+title: Utility Billing & Customer Management System
+use_cases:
+- Creating comprehensive framework for utility billing operations, customer service
+  management, rate design, and revenue optimization across electricity, gas, water,
+  and multi-utility services.
+- Project planning and execution
+- Strategy development
 ---
 
 # Utility Billing & Customer Management System
@@ -511,6 +519,36 @@ Billing: Consolidated bills
 Portal: Unified platform
 Payment Plans: Budget billing available
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Plant Operations Management](plant-operations-management.md)** - Complementary approaches and methodologies
+- **[Smart Grid Implementation](smart-grid-implementation.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Utility Billing & Customer Management System)
+2. Use [Plant Operations Management](plant-operations-management.md) for deeper analysis
+3. Apply [Smart Grid Implementation](smart-grid-implementation.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[industry/energy-utilities/Customer Services](../../industry/energy-utilities/Customer Services/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive framework for utility billing operations, customer service management, rate design, and revenue optimization across electricity, gas, water, and multi-utility services.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

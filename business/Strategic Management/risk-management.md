@@ -1,16 +1,26 @@
 ---
-title: Risk Management Template Generator
 category: business/Strategic Management
-tags: [business, design, machine-learning, management, optimization, security, strategy, template]
-use_cases:
-  - Creating comprehensive risk management frameworks covering risk assessment, mitigation strategies, and compliance requirements to protect organizational value and ensure business continuity.
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - okr-implementation-framework.md
-  - digital-transformation-roadmap.md
-  - lean-six-sigma-implementation.md
 last_updated: 2025-11-09
+related_templates:
+- okr-implementation-framework.md
+- digital-transformation-roadmap.md
+- lean-six-sigma-implementation.md
+tags:
+- business
+- design
+- machine-learning
+- management
+- optimization
+- security
+- strategy
+- template
+title: Risk Management Template Generator
+use_cases:
+- Creating comprehensive risk management frameworks covering risk assessment, mitigation
+  strategies, and compliance requirements to protect organizational value and ensure
+  business continuity.
+- Project planning and execution
+- Strategy development
 ---
 
 # Risk Management Template Generator
@@ -547,3 +557,32 @@ Use for enterprise risk management, regulatory compliance, business continuity p
 - Incorporate emerging risks and trends
 - Consider stakeholder risk expectations
 - Update regularly based on risk landscape changes
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Okr Implementation Framework](okr-implementation-framework.md)** - Set measurable objectives and key results to track progress
+- **[Digital Transformation Roadmap](digital-transformation-roadmap.md)** - Strategic framework for organizational change initiatives
+- **[Lean Six Sigma Implementation](lean-six-sigma-implementation.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Risk Management Template Generator)
+2. Use [Okr Implementation Framework](okr-implementation-framework.md) for deeper analysis
+3. Apply [Digital Transformation Roadmap](digital-transformation-roadmap.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[business/Strategic Management](../../business/Strategic Management/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive risk management frameworks covering risk assessment, mitigation strategies, and compliance requirements to protect organizational value and ensure business continuity.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks

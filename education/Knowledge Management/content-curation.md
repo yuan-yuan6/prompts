@@ -1,15 +1,25 @@
 ---
-title: Content Curation & Libraries Management Framework Generator
 category: education/Knowledge Management
-tags: [data-science, design, development, education, framework, machine-learning, management, security]
-use_cases:
-  - Creating comprehensive frameworks for resource collection, digital library management, content curation, knowledge repositories, and information resource organization systems for academic, corporate, and public institutions.
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - curriculum-development.md
-  - curriculum-development-framework.md
 last_updated: 2025-11-09
+related_templates:
+- curriculum-development.md
+- curriculum-development-framework.md
+tags:
+- data-science
+- design
+- development
+- education
+- framework
+- machine-learning
+- management
+- security
+title: Content Curation & Libraries Management Framework Generator
+use_cases:
+- Creating comprehensive frameworks for resource collection, digital library management,
+  content curation, knowledge repositories, and information resource organization
+  systems for academic, corporate, and public institutions.
+- Project planning and execution
+- Strategy development
 ---
 
 # Content Curation & Libraries Management Framework Generator
@@ -1005,3 +1015,31 @@ Use for creating digital libraries, institutional repositories, content manageme
 - Include advanced analytics for collection development insights
 - Add social and collaborative features for community engagement
 - Consider integration with external discovery systems and search engines
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Curriculum Development](curriculum-development.md)** - Complementary approaches and methodologies
+- **[Curriculum Development Framework](curriculum-development-framework.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Content Curation & Libraries Management Framework Generator)
+2. Use [Curriculum Development](curriculum-development.md) for deeper analysis
+3. Apply [Curriculum Development Framework](curriculum-development-framework.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[education/Knowledge Management](../../education/Knowledge Management/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive frameworks for resource collection, digital library management, content curation, knowledge repositories, and information resource organization systems for academic, corporate, and public institutions.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks

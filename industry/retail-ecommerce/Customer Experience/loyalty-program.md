@@ -1,17 +1,22 @@
 ---
-title: Customer Loyalty & Rewards Program Framework
 category: industry/retail-ecommerce/Customer Experience
-tags: [design, development, framework, industry]
-use_cases:
-  - Creating comprehensive framework for designing, implementing, and optimizing customer loyalty programs including rewards structures, tier systems, engagement strategies, personalization tactics, and roi measurement.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - customer-experience-optimization.md
-  - dynamic-pricing-strategy.md
-  - product-sourcing-strategy.md
 last_updated: 2025-11-09
+related_templates:
+- customer-experience-optimization.md
+- dynamic-pricing-strategy.md
+- product-sourcing-strategy.md
+tags:
+- design
+- development
+- framework
+- industry
+title: Customer Loyalty & Rewards Program Framework
+use_cases:
+- Creating comprehensive framework for designing, implementing, and optimizing customer
+  loyalty programs including rewards structures, tier systems, engagement strategies,
+  personalization tactics, and roi measurement.
+- Project planning and execution
+- Strategy development
 ---
 
 # Customer Loyalty & Rewards Program Framework
@@ -555,6 +560,37 @@ Technology: Custom platform
 Mobile: Digital key, mobile check-in
 LTV Increase: 40%
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Customer Experience Optimization](customer-experience-optimization.md)** - Understand customer needs and improve user experience
+- **[Dynamic Pricing Strategy](dynamic-pricing-strategy.md)** - Strategic planning and execution frameworks
+- **[Product Sourcing Strategy](product-sourcing-strategy.md)** - Strategic planning and execution frameworks
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Customer Loyalty & Rewards Program Framework)
+2. Use [Customer Experience Optimization](customer-experience-optimization.md) for deeper analysis
+3. Apply [Dynamic Pricing Strategy](dynamic-pricing-strategy.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[industry/retail-ecommerce/Customer Experience](../../industry/retail-ecommerce/Customer Experience/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive framework for designing, implementing, and optimizing customer loyalty programs including rewards structures, tier systems, engagement strategies, personalization tactics, and roi measurement.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

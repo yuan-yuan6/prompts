@@ -1,16 +1,25 @@
 ---
-title: Supply Chain Management Template Generator
 category: business/Operations & Processes
-tags: [business, design, machine-learning, management, optimization, strategy, template]
-use_cases:
-  - Creating comprehensive supply chain management strategies covering logistics optimization, inventory management, and procurement processes to enhance operational efficiency and cost-effectiveness.
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - okr-implementation-framework.md
-  - digital-transformation-roadmap.md
-  - lean-six-sigma-implementation.md
 last_updated: 2025-11-09
+related_templates:
+- okr-implementation-framework.md
+- digital-transformation-roadmap.md
+- lean-six-sigma-implementation.md
+tags:
+- business
+- design
+- machine-learning
+- management
+- optimization
+- strategy
+- template
+title: Supply Chain Management Template Generator
+use_cases:
+- Creating comprehensive supply chain management strategies covering logistics optimization,
+  inventory management, and procurement processes to enhance operational efficiency
+  and cost-effectiveness.
+- Project planning and execution
+- Strategy development
 ---
 
 # Supply Chain Management Template Generator
@@ -945,3 +954,32 @@ Use for supply chain transformation projects, logistics optimization initiatives
 - Include sustainability and ESG considerations
 - Add supplier and customer collaboration approaches
 - Consider geographic and cultural factors
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Okr Implementation Framework](okr-implementation-framework.md)** - Set measurable objectives and key results to track progress
+- **[Digital Transformation Roadmap](digital-transformation-roadmap.md)** - Strategic framework for organizational change initiatives
+- **[Lean Six Sigma Implementation](lean-six-sigma-implementation.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Supply Chain Management Template Generator)
+2. Use [Okr Implementation Framework](okr-implementation-framework.md) for deeper analysis
+3. Apply [Digital Transformation Roadmap](digital-transformation-roadmap.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[business/Operations & Processes](../../business/Operations & Processes/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive supply chain management strategies covering logistics optimization, inventory management, and procurement processes to enhance operational efficiency and cost-effectiveness.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks

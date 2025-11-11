@@ -1,17 +1,26 @@
 ---
-title: Mobile Application Development Framework
 category: technology/Software Development
-tags: [data-science, design, development, framework, machine-learning, management, optimization, strategy]
-use_cases:
-  - Creating comprehensive framework for mobile app development including ios/android native development, cross-platform strategies, ui/ux design, performance optimization, and app store deployment.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - cloud-architecture-framework.md
-  - site-reliability-engineering.md
-  - cloud-migration-strategy.md
 last_updated: 2025-11-09
+related_templates:
+- cloud-architecture-framework.md
+- site-reliability-engineering.md
+- cloud-migration-strategy.md
+tags:
+- data-science
+- design
+- development
+- framework
+- machine-learning
+- management
+- optimization
+- strategy
+title: Mobile Application Development Framework
+use_cases:
+- Creating comprehensive framework for mobile app development including ios/android
+  native development, cross-platform strategies, ui/ux design, performance optimization,
+  and app store deployment.
+- Project planning and execution
+- Strategy development
 ---
 
 # Mobile Application Development Framework
@@ -531,6 +540,37 @@ Integration: ERP, CRM systems
 Compliance: SOC2, GDPR
 Updates: Quarterly releases
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Cloud Architecture Framework](cloud-architecture-framework.md)** - Complementary approaches and methodologies
+- **[Site Reliability Engineering](site-reliability-engineering.md)** - Complementary approaches and methodologies
+- **[Cloud Migration Strategy](cloud-migration-strategy.md)** - Strategic planning and execution frameworks
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Mobile Application Development Framework)
+2. Use [Cloud Architecture Framework](cloud-architecture-framework.md) for deeper analysis
+3. Apply [Site Reliability Engineering](site-reliability-engineering.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[technology/Software Development](../../technology/Software Development/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive framework for mobile app development including ios/android native development, cross-platform strategies, ui/ux design, performance optimization, and app store deployment.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

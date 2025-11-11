@@ -1,18 +1,25 @@
 ---
-title: Pipeline Infrastructure & Performance Template
 category: data-analytics/Analytics Engineering
-tags: [automation, data-analytics, infrastructure, terraform, kubernetes, performance, scaling]
-use_cases:
-  - Implementing pipeline performance optimization strategies
-  - Designing infrastructure as code with Terraform for data platforms
-  - Deploying containerized pipelines with Kubernetes orchestration
-  - Building auto-scaling and resource management systems
-related_templates:
-  - pipeline-ingestion.md
-  - pipeline-transformation.md
-  - pipeline-orchestration.md
-  - pipeline-observability.md
 last_updated: 2025-11-10
+related_templates:
+- pipeline-ingestion.md
+- pipeline-transformation.md
+- pipeline-orchestration.md
+- pipeline-observability.md
+tags:
+- automation
+- data-analytics
+- infrastructure
+- terraform
+- kubernetes
+- performance
+- scaling
+title: Pipeline Infrastructure & Performance Template
+use_cases:
+- Implementing pipeline performance optimization strategies
+- Designing infrastructure as code with Terraform for data platforms
+- Deploying containerized pipelines with Kubernetes orchestration
+- Building auto-scaling and resource management systems
 ---
 
 # Pipeline Infrastructure & Performance Template
@@ -671,6 +678,38 @@ OPTIMIZATIONS_APPLIED:
   5. Added caching for repeatedly-accessed intermediate tables
 RESULTS: ETL duration reduced from 5h to 2.5h (50% improvement)
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Pipeline Ingestion](pipeline-ingestion.md)** - Complementary approaches and methodologies
+- **[Pipeline Transformation](pipeline-transformation.md)** - Strategic framework for organizational change initiatives
+- **[Pipeline Orchestration](pipeline-orchestration.md)** - Complementary approaches and methodologies
+- **[Pipeline Observability](pipeline-observability.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Pipeline Infrastructure & Performance Template)
+2. Use [Pipeline Ingestion](pipeline-ingestion.md) for deeper analysis
+3. Apply [Pipeline Transformation](pipeline-transformation.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[data-analytics/Analytics Engineering](../../data-analytics/Analytics Engineering/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Implementing pipeline performance optimization strategies**: Combine this template with related analytics and strategy frameworks
+- **Designing infrastructure as code with Terraform for data platforms**: Combine this template with related analytics and strategy frameworks
+- **Deploying containerized pipelines with Kubernetes orchestration**: Combine this template with related analytics and strategy frameworks
 
 ## Best Practices
 

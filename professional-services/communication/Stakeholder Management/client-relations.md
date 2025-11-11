@@ -1,16 +1,22 @@
 ---
-title: Client Relations Management Prompt Template
 category: professional-services/communication/Stakeholder Management
-tags: [automation, communication, management, professional-services, strategy, template]
-use_cases:
-  - Creating comprehensive framework for managing client relationships, communications, and engagement strategies to maximize satisfaction, retention, and business growth.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - meeting-management-framework.md
-  - crisis-communication-plan.md
 last_updated: 2025-11-09
+related_templates:
+- meeting-management-framework.md
+- crisis-communication-plan.md
+tags:
+- automation
+- communication
+- management
+- professional-services
+- strategy
+- template
+title: Client Relations Management Prompt Template
+use_cases:
+- Creating comprehensive framework for managing client relationships, communications,
+  and engagement strategies to maximize satisfaction, retention, and business growth.
+- Project planning and execution
+- Strategy development
 ---
 
 # Client Relations Management Prompt Template
@@ -1066,6 +1072,36 @@ Contract status: Renewal in 3 months
 Competitive threat: Active competitor engagement
 Recovery goal: Retain and stabilize relationship
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Meeting Management Framework](meeting-management-framework.md)** - Complementary approaches and methodologies
+- **[Crisis Communication Plan](crisis-communication-plan.md)** - Effective communication strategies for stakeholders
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Client Relations Management Prompt Template)
+2. Use [Meeting Management Framework](meeting-management-framework.md) for deeper analysis
+3. Apply [Crisis Communication Plan](crisis-communication-plan.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[professional-services/communication/Stakeholder Management](../../professional-services/communication/Stakeholder Management/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive framework for managing client relationships, communications, and engagement strategies to maximize satisfaction, retention, and business growth.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

@@ -1,16 +1,21 @@
 ---
-title: Financial Forecasting & Projections
 category: business/Finance & Accounting
-tags: [business, finance, forecasting, projections, planning]
-use_cases:
-  - Creating revenue and expense forecasts
-  - Projecting cash flows and financial statements
-  - Developing financial models and scenarios
-related_templates:
-  - financial-statement-analysis.md
-  - financial-risk-assessment.md
-  - financial-valuation-recommendations.md
 last_updated: 2025-11-09
+related_templates:
+- financial-statement-analysis.md
+- financial-risk-assessment.md
+- financial-valuation-recommendations.md
+tags:
+- business
+- finance
+- forecasting
+- projections
+- planning
+title: Financial Forecasting & Projections
+use_cases:
+- Creating revenue and expense forecasts
+- Projecting cash flows and financial statements
+- Developing financial models and scenarios
 ---
 
 # Financial Forecasting & Projections
@@ -391,6 +396,37 @@ Validate forecast reasonableness:
 - Forecast: 5-year projection
 
 **Analysis:** Create revenue forecast assuming 35% CAGR (slower than historical but above industry), maintain 75% gross margin, scale G&A from 40% to 25% of revenue
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Financial Statement Analysis](financial-statement-analysis.md)** - Financial planning and analysis for better resource allocation
+- **[Financial Risk Assessment](financial-risk-assessment.md)** - Identify, assess, and mitigate potential risks
+- **[Financial Valuation Recommendations](financial-valuation-recommendations.md)** - Financial planning and analysis for better resource allocation
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Financial Forecasting & Projections)
+2. Use [Financial Statement Analysis](financial-statement-analysis.md) for deeper analysis
+3. Apply [Financial Risk Assessment](financial-risk-assessment.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[business/Finance & Accounting](../../business/Finance & Accounting/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating revenue and expense forecasts**: Combine this template with related analytics and strategy frameworks
+- **Projecting cash flows and financial statements**: Combine this template with related analytics and strategy frameworks
+- **Developing financial models and scenarios**: Combine this template with related analytics and strategy frameworks
 
 ## Best Practices
 - Use multiple forecasting methodologies

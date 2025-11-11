@@ -1,16 +1,23 @@
 ---
-title: Interactive Media Template
 category: creative/Entertainment
-tags: [creative, design, development, optimization, security, template]
-use_cases:
-  - Creating immersive interactive media experiences including AR/VR applications, interactive installations, and digital experiences that engage users through innovative technology and compelling content.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - creative-writing-framework.md
-  - video-production-pipeline.md
 last_updated: 2025-11-09
+related_templates:
+- creative-writing-framework.md
+- video-production-pipeline.md
+tags:
+- creative
+- design
+- development
+- optimization
+- security
+- template
+title: Interactive Media Template
+use_cases:
+- Creating immersive interactive media experiences including AR/VR applications, interactive
+  installations, and digital experiences that engage users through innovative technology
+  and compelling content.
+- Project planning and execution
+- Strategy development
 ---
 
 # Interactive Media Template
@@ -553,6 +560,36 @@ TARGET_AUDIENCE: "Educators and students 16-65"
 CONTEXT_ENVIRONMENT: "Online platform, desktop and mobile"
 EXPERIENCE_DURATION: "20-30 minutes"
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Creative Writing Framework](creative-writing-framework.md)** - Complementary approaches and methodologies
+- **[Video Production Pipeline](video-production-pipeline.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Interactive Media Template)
+2. Use [Creative Writing Framework](creative-writing-framework.md) for deeper analysis
+3. Apply [Video Production Pipeline](video-production-pipeline.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[creative/Entertainment](../../creative/Entertainment/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating immersive interactive media experiences including AR/VR applications, interactive installations, and digital experiences that engage users through innovative technology and compelling content.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

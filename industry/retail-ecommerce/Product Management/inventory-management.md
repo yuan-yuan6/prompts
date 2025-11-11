@@ -1,17 +1,26 @@
 ---
-title: Inventory Management & Supply Chain Optimization Framework
 category: industry/retail-ecommerce/Product Management
-tags: [data-science, documentation, framework, industry, machine-learning, management, optimization, research]
-use_cases:
-  - Creating comprehensive framework for managing retail inventory across channels, optimizing stock levels, forecasting demand, managing suppliers, and maximizing inventory turnover while minimizing stockouts.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - customer-experience-optimization.md
-  - dynamic-pricing-strategy.md
-  - product-sourcing-strategy.md
 last_updated: 2025-11-09
+related_templates:
+- customer-experience-optimization.md
+- dynamic-pricing-strategy.md
+- product-sourcing-strategy.md
+tags:
+- data-science
+- documentation
+- framework
+- industry
+- machine-learning
+- management
+- optimization
+- research
+title: Inventory Management & Supply Chain Optimization Framework
+use_cases:
+- Creating comprehensive framework for managing retail inventory across channels,
+  optimizing stock levels, forecasting demand, managing suppliers, and maximizing
+  inventory turnover while minimizing stockouts.
+- Project planning and execution
+- Strategy development
 ---
 
 # Inventory Management & Supply Chain Optimization Framework
@@ -513,6 +522,37 @@ Inventory Value: $50M
 Challenge: Perishables, local preferences
 Focus: Freshness, waste reduction
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Customer Experience Optimization](customer-experience-optimization.md)** - Understand customer needs and improve user experience
+- **[Dynamic Pricing Strategy](dynamic-pricing-strategy.md)** - Strategic planning and execution frameworks
+- **[Product Sourcing Strategy](product-sourcing-strategy.md)** - Strategic planning and execution frameworks
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Inventory Management & Supply Chain Optimization Framework)
+2. Use [Customer Experience Optimization](customer-experience-optimization.md) for deeper analysis
+3. Apply [Dynamic Pricing Strategy](dynamic-pricing-strategy.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[industry/retail-ecommerce/Product Management](../../industry/retail-ecommerce/Product Management/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive framework for managing retail inventory across channels, optimizing stock levels, forecasting demand, managing suppliers, and maximizing inventory turnover while minimizing stockouts.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

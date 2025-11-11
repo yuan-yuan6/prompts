@@ -1,17 +1,26 @@
 ---
-title: CI/CD Pipelines Template
 category: technology/DevOps & Cloud
-tags: [automation, design, management, optimization, security, strategy, technology, template]
-use_cases:
-  - Creating design and implement comprehensive ci/cd pipelines for automated build, test, and deployment processes with quality gates, security scanning, and deployment strategies.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - cloud-architecture-framework.md
-  - site-reliability-engineering.md
-  - cloud-migration-strategy.md
 last_updated: 2025-11-09
+related_templates:
+- cloud-architecture-framework.md
+- site-reliability-engineering.md
+- cloud-migration-strategy.md
+tags:
+- automation
+- design
+- management
+- optimization
+- security
+- strategy
+- technology
+- template
+title: CI/CD Pipelines Template
+use_cases:
+- Creating design and implement comprehensive ci/cd pipelines for automated build,
+  test, and deployment processes with quality gates, security scanning, and deployment
+  strategies.
+- Project planning and execution
+- Strategy development
 ---
 
 # CI/CD Pipelines Template
@@ -218,6 +227,37 @@ Build Process:
 | `[SMOKE_TESTING]` | Specify the smoke testing | "[specify value]" |
 | `[DEPLOYMENT_HEALTH_CHECKS]` | Specify the deployment health checks | "[specify value]" |
 | `[DEPLOYMENT_NOTIFICATIONS]` | Specify the deployment notifications | "[specify value]" |
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Cloud Architecture Framework](cloud-architecture-framework.md)** - Complementary approaches and methodologies
+- **[Site Reliability Engineering](site-reliability-engineering.md)** - Complementary approaches and methodologies
+- **[Cloud Migration Strategy](cloud-migration-strategy.md)** - Strategic planning and execution frameworks
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (CI/CD Pipelines Template)
+2. Use [Cloud Architecture Framework](cloud-architecture-framework.md) for deeper analysis
+3. Apply [Site Reliability Engineering](site-reliability-engineering.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[technology/DevOps & Cloud](../../technology/DevOps & Cloud/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating design and implement comprehensive ci/cd pipelines for automated build, test, and deployment processes with quality gates, security scanning, and deployment strategies.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Best Practices
 

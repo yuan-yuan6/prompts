@@ -1,17 +1,23 @@
 ---
-title: Healthcare Revenue Cycle Management Framework
 category: healthcare/Healthcare Operations
-tags: [framework, healthcare, management, optimization, testing]
-use_cases:
-  - Creating comprehensive framework for optimizing healthcare revenue cycle operations including patient registration, insurance verification, coding, billing, collections, and denial management to maximize reimbursement and cash flow.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - telemedicine-platform-design.md
-  - patient-care-pathway.md
-  - clinical-trials-management.md
 last_updated: 2025-11-09
+related_templates:
+- telemedicine-platform-design.md
+- patient-care-pathway.md
+- clinical-trials-management.md
+tags:
+- framework
+- healthcare
+- management
+- optimization
+- testing
+title: Healthcare Revenue Cycle Management Framework
+use_cases:
+- Creating comprehensive framework for optimizing healthcare revenue cycle operations
+  including patient registration, insurance verification, coding, billing, collections,
+  and denial management to maximize reimbursement and cash flow.
+- Project planning and execution
+- Strategy development
 ---
 
 # Healthcare Revenue Cycle Management Framework
@@ -492,6 +498,37 @@ Complexity: High acuity, research
 Focus: CDI, compliance, innovation
 Technology: Integrated RCM platform
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Telemedicine Platform Design](telemedicine-platform-design.md)** - Complementary approaches and methodologies
+- **[Patient Care Pathway](patient-care-pathway.md)** - Complementary approaches and methodologies
+- **[Clinical Trials Management](clinical-trials-management.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Healthcare Revenue Cycle Management Framework)
+2. Use [Telemedicine Platform Design](telemedicine-platform-design.md) for deeper analysis
+3. Apply [Patient Care Pathway](patient-care-pathway.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[healthcare/Healthcare Operations](../../healthcare/Healthcare Operations/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive framework for optimizing healthcare revenue cycle operations including patient registration, insurance verification, coding, billing, collections, and denial management to maximize reimbursement and cash flow.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

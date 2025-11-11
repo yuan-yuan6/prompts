@@ -1,15 +1,20 @@
 ---
-title: Course Accessibility & Inclusion Designer
 category: education/Teaching & Instruction
-tags: [accessibility, inclusion, UDL, diversity, accommodations]
-use_cases:
-  - Audit and improve existing course for accessibility compliance
-  - Design inclusive assessments that accommodate diverse learning needs
-  - Create UDL-aligned course materials with multiple means of representation and engagement
-related_templates:
-  - course-content-curriculum.md
-  - course-technology-integration.md
 last_updated: 2025-11-09
+related_templates:
+- course-content-curriculum.md
+- course-technology-integration.md
+tags:
+- accessibility
+- inclusion
+- UDL
+- diversity
+- accommodations
+title: Course Accessibility & Inclusion Designer
+use_cases:
+- Audit and improve existing course for accessibility compliance
+- Design inclusive assessments that accommodate diverse learning needs
+- Create UDL-aligned course materials with multiple means of representation and engagement
 ---
 
 # Course Accessibility & Inclusion Designer
@@ -424,6 +429,36 @@ Before launching course, verify:
 
 ### Example 3: Discussion-Heavy Seminar
 "Develop inclusive practices for 'Social Justice in Education' - graduate seminar with heavy discussion and potentially triggering content. Diverse student body with different cultural backgrounds and lived experiences. Need to create brave space for difficult conversations while supporting students with anxiety and trauma histories."
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Course Content Curriculum](course-content-curriculum.md)** - Complementary approaches and methodologies
+- **[Course Technology Integration](course-technology-integration.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Course Accessibility & Inclusion Designer)
+2. Use [Course Content Curriculum](course-content-curriculum.md) for deeper analysis
+3. Apply [Course Technology Integration](course-technology-integration.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[education/Teaching & Instruction](../../education/Teaching & Instruction/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Audit and improve existing course for accessibility compliance**: Combine this template with related analytics and strategy frameworks
+- **Design inclusive assessments that accommodate diverse learning needs**: Combine this template with related analytics and strategy frameworks
+- **Create UDL-aligned course materials with multiple means of representation and engagement**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

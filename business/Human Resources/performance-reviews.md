@@ -1,16 +1,24 @@
 ---
-title: Performance Review Template Generator
 category: business/Human Resources
-tags: [business, development, management, optimization, strategy, template]
-use_cases:
-  - Creating comprehensive performance review systems covering evaluations, feedback delivery, development planning, and performance management to enhance employee development and organizational effectiveness.
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - okr-implementation-framework.md
-  - digital-transformation-roadmap.md
-  - lean-six-sigma-implementation.md
 last_updated: 2025-11-09
+related_templates:
+- okr-implementation-framework.md
+- digital-transformation-roadmap.md
+- lean-six-sigma-implementation.md
+tags:
+- business
+- development
+- management
+- optimization
+- strategy
+- template
+title: Performance Review Template Generator
+use_cases:
+- Creating comprehensive performance review systems covering evaluations, feedback
+  delivery, development planning, and performance management to enhance employee development
+  and organizational effectiveness.
+- Project planning and execution
+- Strategy development
 ---
 
 # Performance Review Template Generator
@@ -870,3 +878,32 @@ Use for performance evaluation systems, feedback delivery training, development 
 - Add technology-specific evaluation tools
 - Include compliance and legal requirements
 - Scale complexity based on organizational maturity
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Okr Implementation Framework](okr-implementation-framework.md)** - Set measurable objectives and key results to track progress
+- **[Digital Transformation Roadmap](digital-transformation-roadmap.md)** - Strategic framework for organizational change initiatives
+- **[Lean Six Sigma Implementation](lean-six-sigma-implementation.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Performance Review Template Generator)
+2. Use [Okr Implementation Framework](okr-implementation-framework.md) for deeper analysis
+3. Apply [Digital Transformation Roadmap](digital-transformation-roadmap.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[business/Human Resources](../../business/Human Resources/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive performance review systems covering evaluations, feedback delivery, development planning, and performance management to enhance employee development and organizational effectiveness.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks

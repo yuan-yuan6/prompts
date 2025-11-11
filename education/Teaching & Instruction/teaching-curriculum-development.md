@@ -1,15 +1,23 @@
 ---
-title: Curriculum Development & Design Template
 category: education/Teaching & Instruction
-tags: [design, development, education, machine-learning, research, strategy, template]
-use_cases:
-  - Creating comprehensive curriculum frameworks for educational programs, including course design, module development, learning objectives, and curriculum mapping.
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - curriculum-development.md
-  - curriculum-development-framework.md
 last_updated: 2025-11-09
+related_templates:
+- curriculum-development.md
+- curriculum-development-framework.md
+tags:
+- design
+- development
+- education
+- machine-learning
+- research
+- strategy
+- template
+title: Curriculum Development & Design Template
+use_cases:
+- Creating comprehensive curriculum frameworks for educational programs, including
+  course design, module development, learning objectives, and curriculum mapping.
+- Project planning and execution
+- Strategy development
 ---
 
 # Curriculum Development & Design Template
@@ -1281,6 +1289,36 @@ Approach: Project-based learning with real-world applications
 Standards: Next Generation Science Standards (NGSS), Common Core Math
 Assessment: Performance tasks, portfolios, collaborative projects
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Curriculum Development](curriculum-development.md)** - Complementary approaches and methodologies
+- **[Curriculum Development Framework](curriculum-development-framework.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Curriculum Development & Design Template)
+2. Use [Curriculum Development](curriculum-development.md) for deeper analysis
+3. Apply [Curriculum Development Framework](curriculum-development-framework.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[education/Teaching & Instruction](../../education/Teaching & Instruction/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive curriculum frameworks for educational programs, including course design, module development, learning objectives, and curriculum mapping.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Best Practices
 

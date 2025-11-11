@@ -1,16 +1,23 @@
 ---
-title: Research Design Foundation - Theoretical Framework & Design Selection
 category: education/Academic Research
-tags: [research, design, theory, methodology, framework, foundation, paradigm]
-use_cases:
-  - Developing theoretical frameworks and research foundations for academic studies
-  - Selecting appropriate research paradigms and design methodologies
-  - Building conceptual models and establishing epistemological foundations
-related_templates:
-  - research-design-sampling-data.md
-  - research-design-analysis-quality.md
-  - research-design-overview.md
 last_updated: 2025-11-10
+related_templates:
+- research-design-sampling-data.md
+- research-design-analysis-quality.md
+- research-design-overview.md
+tags:
+- research
+- design
+- theory
+- methodology
+- framework
+- foundation
+- paradigm
+title: Research Design Foundation - Theoretical Framework & Design Selection
+use_cases:
+- Developing theoretical frameworks and research foundations for academic studies
+- Selecting appropriate research paradigms and design methodologies
+- Building conceptual models and establishing epistemological foundations
 ---
 
 # Research Design Foundation - Theoretical Framework & Design Selection
@@ -415,6 +422,37 @@ Generate a comprehensive research design foundation that includes:
 - Balance comprehensiveness with focus - avoid trying to incorporate too many theories
 - Consider cultural and contextual factors in theory selection and adaptation
 - Document all major decisions and the reasoning behind them for future reference
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Research Design Sampling Data](research-design-sampling-data.md)** - Leverage data analysis to drive informed decisions
+- **[Research Design Analysis Quality](research-design-analysis-quality.md)** - Complementary approaches and methodologies
+- **[Research Design Overview](research-design-overview.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Research Design Foundation - Theoretical Framework & Design Selection)
+2. Use [Research Design Sampling Data](research-design-sampling-data.md) for deeper analysis
+3. Apply [Research Design Analysis Quality](research-design-analysis-quality.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[education/Academic Research](../../education/Academic Research/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Developing theoretical frameworks and research foundations for academic studies**: Combine this template with related analytics and strategy frameworks
+- **Selecting appropriate research paradigms and design methodologies**: Combine this template with related analytics and strategy frameworks
+- **Building conceptual models and establishing epistemological foundations**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

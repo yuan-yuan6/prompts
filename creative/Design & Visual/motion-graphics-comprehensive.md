@@ -1,15 +1,23 @@
 ---
-title: Motion Graphics Comprehensive Template Generator
 category: creative/Design & Visual
-tags: [comprehensive, creative, design, marketing, template, testing]
-use_cases:
-  - Creating comprehensive motion graphics solutions covering animations, effects, transitions, kinetic typography, explainer videos, and dynamic visual experiences across all platforms and applications.
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - creative-writing-framework.md
-  - video-production-pipeline.md
 last_updated: 2025-11-09
+related_templates:
+- creative-writing-framework.md
+- video-production-pipeline.md
+tags:
+- comprehensive
+- creative
+- design
+- marketing
+- template
+- testing
+title: Motion Graphics Comprehensive Template Generator
+use_cases:
+- Creating comprehensive motion graphics solutions covering animations, effects, transitions,
+  kinetic typography, explainer videos, and dynamic visual experiences across all
+  platforms and applications.
+- Project planning and execution
+- Strategy development
 ---
 
 # Motion Graphics Comprehensive Template Generator
@@ -1604,6 +1612,36 @@ Generate a comprehensive motion graphics strategy that includes:
 - MOTION_PERSONALITY: "Dynamic, innovative, environmentally conscious"
 - AUDIO_REQUIREMENTS: "Original music composition with brand audio identity"
 - SUCCESS_METRICS: "Brand awareness, engagement rate, funding interest"
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Creative Writing Framework](creative-writing-framework.md)** - Complementary approaches and methodologies
+- **[Video Production Pipeline](video-production-pipeline.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Motion Graphics Comprehensive Template Generator)
+2. Use [Creative Writing Framework](creative-writing-framework.md) for deeper analysis
+3. Apply [Video Production Pipeline](video-production-pipeline.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[creative/Design & Visual](../../creative/Design & Visual/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive motion graphics solutions covering animations, effects, transitions, kinetic typography, explainer videos, and dynamic visual experiences across all platforms and applications.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

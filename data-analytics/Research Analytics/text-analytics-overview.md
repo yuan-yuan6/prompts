@@ -1,17 +1,27 @@
 ---
-title: Text Analytics and NLP - Overview and Navigation
 category: data-analytics/Research Analytics
-tags: [automation, data-analytics, data-science, machine-learning, nlp, overview, navigation, template]
-use_cases:
-  - Navigate the comprehensive text analytics suite to find the right tools for preprocessing, sentiment analysis, topic modeling, entity recognition, and advanced analytics.
-  - Understand which NLP techniques to apply based on your specific analysis goals and data characteristics.
-related_templates:
-  - text-analytics-preprocessing.md
-  - text-analytics-sentiment-analysis.md
-  - text-analytics-topic-modeling.md
-  - text-analytics-entity-recognition.md
-  - text-analytics-advanced-methods.md
 last_updated: 2025-11-10
+related_templates:
+- text-analytics-preprocessing.md
+- text-analytics-sentiment-analysis.md
+- text-analytics-topic-modeling.md
+- text-analytics-entity-recognition.md
+- text-analytics-advanced-methods.md
+tags:
+- automation
+- data-analytics
+- data-science
+- machine-learning
+- nlp
+- overview
+- navigation
+- template
+title: Text Analytics and NLP - Overview and Navigation
+use_cases:
+- Navigate the comprehensive text analytics suite to find the right tools for preprocessing,
+  sentiment analysis, topic modeling, entity recognition, and advanced analytics.
+- Understand which NLP techniques to apply based on your specific analysis goals and
+  data characteristics.
 ---
 
 # Text Analytics and NLP - Overview and Navigation
@@ -440,6 +450,38 @@ Natural Language Processing (NLP) and text analytics enable computers to underst
 - Include actionable recommendations
 
 ---
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Text Analytics Preprocessing](text-analytics-preprocessing.md)** - Leverage data analysis to drive informed decisions
+- **[Text Analytics Sentiment Analysis](text-analytics-sentiment-analysis.md)** - Leverage data analysis to drive informed decisions
+- **[Text Analytics Topic Modeling](text-analytics-topic-modeling.md)** - Leverage data analysis to drive informed decisions
+- **[Text Analytics Entity Recognition](text-analytics-entity-recognition.md)** - Leverage data analysis to drive informed decisions
+- **[Text Analytics Advanced Methods](text-analytics-advanced-methods.md)** - Leverage data analysis to drive informed decisions
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Text Analytics and NLP - Overview and Navigation)
+2. Use [Text Analytics Preprocessing](text-analytics-preprocessing.md) for deeper analysis
+3. Apply [Text Analytics Sentiment Analysis](text-analytics-sentiment-analysis.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[data-analytics/Research Analytics](../../data-analytics/Research Analytics/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Navigate the comprehensive text analytics suite to find the right tools for preprocessing, sentiment analysis, topic modeling, entity recognition, and advanced analytics.**: Combine this template with related analytics and strategy frameworks
+- **Understand which NLP techniques to apply based on your specific analysis goals and data characteristics.**: Combine this template with related analytics and strategy frameworks
 
 ## Best Practices Across All Templates
 

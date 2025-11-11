@@ -1,15 +1,21 @@
 ---
-title: Museum & Cultural Institution Management Framework
 category: creative/arts-culture/Museum Management
-tags: [creative, framework, management, research, strategy]
-use_cases:
-  - Creating comprehensive framework for museum operations, exhibition planning, collection management, visitor engagement, cultural preservation, educational programming, and institutional sustainability.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - digital-exhibition-curation.md
 last_updated: 2025-11-09
+related_templates:
+- digital-exhibition-curation.md
+tags:
+- creative
+- framework
+- management
+- research
+- strategy
+title: Museum & Cultural Institution Management Framework
+use_cases:
+- Creating comprehensive framework for museum operations, exhibition planning, collection
+  management, visitor engagement, cultural preservation, educational programming,
+  and institutional sustainability.
+- Project planning and execution
+- Strategy development
 ---
 
 # Museum & Cultural Institution Management Framework
@@ -555,6 +561,34 @@ Focus: Community heritage
 Digital Archives: 25% digitized
 Volunteer Program: 200 active
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Digital Exhibition Curation](digital-exhibition-curation.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Museum & Cultural Institution Management Framework)
+2. Use [Digital Exhibition Curation](digital-exhibition-curation.md) for deeper analysis
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[creative/arts-culture/Museum Management](../../creative/arts-culture/Museum Management/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive framework for museum operations, exhibition planning, collection management, visitor engagement, cultural preservation, educational programming, and institutional sustainability.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

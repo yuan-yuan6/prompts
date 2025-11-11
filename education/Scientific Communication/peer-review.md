@@ -1,16 +1,25 @@
 ---
-title: Peer Review & Critiques Template
 category: education/Scientific Communication
-tags: [automation, communication, data-science, education, marketing, research, security, strategy]
-use_cases:
-  - Creating conduct comprehensive, constructive peer reviews that maintain scientific rigor while providing actionable feedback to improve research quality, advance knowledge, and support scholarly communication across disciplines.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - curriculum-development.md
-  - curriculum-development-framework.md
 last_updated: 2025-11-09
+related_templates:
+- curriculum-development.md
+- curriculum-development-framework.md
+tags:
+- automation
+- communication
+- data-science
+- education
+- marketing
+- research
+- security
+- strategy
+title: Peer Review & Critiques Template
+use_cases:
+- Creating conduct comprehensive, constructive peer reviews that maintain scientific
+  rigor while providing actionable feedback to improve research quality, advance knowledge,
+  and support scholarly communication across disciplines.
+- Project planning and execution
+- Strategy development
 ---
 
 # Peer Review & Critiques Template
@@ -966,3 +975,31 @@ Use for manuscript reviews, grant proposal evaluations, conference abstract asse
 - Include specialized assessment tools for methodology types
 - Adapt timeline expectations for review urgency
 - Incorporate field-specific ethical considerations
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Curriculum Development](curriculum-development.md)** - Complementary approaches and methodologies
+- **[Curriculum Development Framework](curriculum-development-framework.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Peer Review & Critiques Template)
+2. Use [Curriculum Development](curriculum-development.md) for deeper analysis
+3. Apply [Curriculum Development Framework](curriculum-development-framework.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[education/Scientific Communication](../../education/Scientific Communication/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating conduct comprehensive, constructive peer reviews that maintain scientific rigor while providing actionable feedback to improve research quality, advance knowledge, and support scholarly communication across disciplines.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks

@@ -1,16 +1,24 @@
 ---
-title: Comedy Writing Template
 category: creative/Entertainment
-tags: [automation, communication, creative, data-science, design, development, optimization, research]
-use_cases:
-  - Creating engaging comedy content including jokes, sketches, and standup material that generates laughter and entertainment across various formats and comedy styles.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - creative-writing-framework.md
-  - video-production-pipeline.md
 last_updated: 2025-11-09
+related_templates:
+- creative-writing-framework.md
+- video-production-pipeline.md
+tags:
+- automation
+- communication
+- creative
+- data-science
+- design
+- development
+- optimization
+- research
+title: Comedy Writing Template
+use_cases:
+- Creating engaging comedy content including jokes, sketches, and standup material
+  that generates laughter and entertainment across various formats and comedy styles.
+- Project planning and execution
+- Strategy development
 ---
 
 # Comedy Writing Template
@@ -584,6 +592,36 @@ TARGET_AUDIENCE: "Young adults 18-35"
 CONTENT_RATING: "Clean/PG"
 DELIVERY_FORMAT: "Online streaming platform"
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Creative Writing Framework](creative-writing-framework.md)** - Complementary approaches and methodologies
+- **[Video Production Pipeline](video-production-pipeline.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Comedy Writing Template)
+2. Use [Creative Writing Framework](creative-writing-framework.md) for deeper analysis
+3. Apply [Video Production Pipeline](video-production-pipeline.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[creative/Entertainment](../../creative/Entertainment/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating engaging comedy content including jokes, sketches, and standup material that generates laughter and entertainment across various formats and comedy styles.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

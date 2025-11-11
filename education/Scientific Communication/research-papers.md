@@ -1,16 +1,25 @@
 ---
-title: Research Papers & Manuscripts Template
 category: education/Scientific Communication
-tags: [automation, communication, data-science, design, development, education, optimization, research]
-use_cases:
-  - Creating design comprehensive frameworks for structuring, writing, and revising scientific research papers across disciplines with systematic approaches to argumentation, evidence presentation, and scholarly communication.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - curriculum-development.md
-  - curriculum-development-framework.md
 last_updated: 2025-11-09
+related_templates:
+- curriculum-development.md
+- curriculum-development-framework.md
+tags:
+- automation
+- communication
+- data-science
+- design
+- development
+- education
+- optimization
+- research
+title: Research Papers & Manuscripts Template
+use_cases:
+- Creating design comprehensive frameworks for structuring, writing, and revising
+  scientific research papers across disciplines with systematic approaches to argumentation,
+  evidence presentation, and scholarly communication.
+- Project planning and execution
+- Strategy development
 ---
 
 # Research Papers & Manuscripts Template
@@ -882,3 +891,31 @@ Use for original research articles, systematic reviews, meta-analyses, clinical 
 - Include discipline-specific reporting guidelines
 - Adjust complexity for target journal level
 - Incorporate open science practices as appropriate
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Curriculum Development](curriculum-development.md)** - Complementary approaches and methodologies
+- **[Curriculum Development Framework](curriculum-development-framework.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Research Papers & Manuscripts Template)
+2. Use [Curriculum Development](curriculum-development.md) for deeper analysis
+3. Apply [Curriculum Development Framework](curriculum-development-framework.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[education/Scientific Communication](../../education/Scientific Communication/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating design comprehensive frameworks for structuring, writing, and revising scientific research papers across disciplines with systematic approaches to argumentation, evidence presentation, and scholarly communication.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks

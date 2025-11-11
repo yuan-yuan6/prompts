@@ -1,16 +1,24 @@
 ---
-title: M&A Support Template
 category: professional-services/legal-compliance/Corporate Legal
-tags: [design, documentation, management, professional-services, strategy, template]
-use_cases:
-  - Creating comprehensive merger and acquisition documentation, due diligence frameworks, deal structuring strategies, and integration planning that maximize transaction value while managing legal, financial, and operational risks.
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - regulatory-compliance-framework.md
-  - contract-drafting-template.md
-  - intellectual-property-management.md
 last_updated: 2025-11-09
+related_templates:
+- regulatory-compliance-framework.md
+- contract-drafting-template.md
+- intellectual-property-management.md
+tags:
+- design
+- documentation
+- management
+- professional-services
+- strategy
+- template
+title: M&A Support Template
+use_cases:
+- Creating comprehensive merger and acquisition documentation, due diligence frameworks,
+  deal structuring strategies, and integration planning that maximize transaction
+  value while managing legal, financial, and operational risks.
+- Project planning and execution
+- Strategy development
 ---
 
 # M&A Support Template
@@ -357,6 +365,37 @@ DEAL_STRUCTURE: "All-stock merger"
 STRATEGIC_OBJECTIVES: "Pipeline diversification, geographic expansion, R&D synergies"
 KEY_RISKS: "Regulatory approvals, FX exposure, organizational integration"
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Regulatory Compliance Framework](regulatory-compliance-framework.md)** - Complementary approaches and methodologies
+- **[Contract Drafting Template](contract-drafting-template.md)** - Complementary approaches and methodologies
+- **[Intellectual Property Management](intellectual-property-management.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (M&A Support Template)
+2. Use [Regulatory Compliance Framework](regulatory-compliance-framework.md) for deeper analysis
+3. Apply [Contract Drafting Template](contract-drafting-template.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[professional-services/legal-compliance/Corporate Legal](../../professional-services/legal-compliance/Corporate Legal/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive merger and acquisition documentation, due diligence frameworks, deal structuring strategies, and integration planning that maximize transaction value while managing legal, financial, and operational risks.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

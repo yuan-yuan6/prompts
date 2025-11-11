@@ -1,16 +1,25 @@
 ---
-title: Article Writing Template
 category: creative/Content Creation
-tags: [communication, creative, design, documentation, optimization, research, strategy, template]
-use_cases:
-  - Creating compelling articles, blog posts, news stories, and feature pieces with engaging hooks, structured content, and clear calls-to-action for various publications and platforms.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - creative-writing-framework.md
-  - video-production-pipeline.md
 last_updated: 2025-11-09
+related_templates:
+- creative-writing-framework.md
+- video-production-pipeline.md
+tags:
+- communication
+- creative
+- design
+- documentation
+- optimization
+- research
+- strategy
+- template
+title: Article Writing Template
+use_cases:
+- Creating compelling articles, blog posts, news stories, and feature pieces with
+  engaging hooks, structured content, and clear calls-to-action for various publications
+  and platforms.
+- Project planning and execution
+- Strategy development
 ---
 
 # Article Writing Template
@@ -213,6 +222,36 @@ Writing Style:
 | `[EXTERNAL_LINKS]` | Specify the external links | "https://example.com" |
 | `[IMAGE_ALT_TEXT]` | Specify the image alt text | "[specify value]" |
 | `[LANGUAGE_LEVEL]` | Specify the language level | "[specify value]" |
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Creative Writing Framework](creative-writing-framework.md)** - Complementary approaches and methodologies
+- **[Video Production Pipeline](video-production-pipeline.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Article Writing Template)
+2. Use [Creative Writing Framework](creative-writing-framework.md) for deeper analysis
+3. Apply [Video Production Pipeline](video-production-pipeline.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[creative/Content Creation](../../creative/Content Creation/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating compelling articles, blog posts, news stories, and feature pieces with engaging hooks, structured content, and clear calls-to-action for various publications and platforms.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Best Practices
 

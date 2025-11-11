@@ -1,16 +1,21 @@
 ---
-title: Dashboard Security, Governance & Compliance
 category: data-analytics/Business Intelligence
-tags: [data-analytics, business-intelligence, security, compliance, governance]
-use_cases:
-  - Security architecture design
-  - Compliance framework implementation
-  - Access control configuration
-related_templates:
-  - dashboard-technical-implementation.md
-  - dashboard-data-architecture.md
-  - dashboard-design-overview.md
 last_updated: 2025-11-09
+related_templates:
+- dashboard-technical-implementation.md
+- dashboard-data-architecture.md
+- dashboard-design-overview.md
+tags:
+- data-analytics
+- business-intelligence
+- security
+- compliance
+- governance
+title: Dashboard Security, Governance & Compliance
+use_cases:
+- Security architecture design
+- Compliance framework implementation
+- Access control configuration
 ---
 
 # Dashboard Security, Governance & Compliance
@@ -281,6 +286,37 @@ RPO: 1 hour maximum data loss
 ```
 
 ---
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Dashboard Technical Implementation](dashboard-technical-implementation.md)** - Complementary approaches and methodologies
+- **[Dashboard Data Architecture](dashboard-data-architecture.md)** - Leverage data analysis to drive informed decisions
+- **[Dashboard Design Overview](dashboard-design-overview.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Dashboard Security, Governance & Compliance)
+2. Use [Dashboard Technical Implementation](dashboard-technical-implementation.md) for deeper analysis
+3. Apply [Dashboard Data Architecture](dashboard-data-architecture.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[data-analytics/Business Intelligence](../../data-analytics/Business Intelligence/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Security architecture design**: Combine this template with related analytics and strategy frameworks
+- **Compliance framework implementation**: Combine this template with related analytics and strategy frameworks
+- **Access control configuration**: Combine this template with related analytics and strategy frameworks
 
 ## Best Practices
 

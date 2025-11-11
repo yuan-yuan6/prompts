@@ -1,16 +1,21 @@
 ---
-title: Telemedicine Platform Design - Overview & Navigation
 category: healthcare
-tags: [healthcare, telemedicine, overview, navigation, virtual-care]
-use_cases:
-  - Navigate the complete telemedicine platform design framework
-  - Understand the structure and components of telemedicine planning
-  - Access specific sections based on project phase or focus area
-related_templates:
-  - telemedicine-01-service-technology.md
-  - telemedicine-02-quality-compliance.md
-  - telemedicine-03-implementation-scaling.md
 last_updated: 2025-11-11
+related_templates:
+- telemedicine-01-service-technology.md
+- telemedicine-02-quality-compliance.md
+- telemedicine-03-implementation-scaling.md
+tags:
+- healthcare
+- telemedicine
+- overview
+- navigation
+- virtual-care
+title: Telemedicine Platform Design - Overview & Navigation
+use_cases:
+- Navigate the complete telemedicine platform design framework
+- Understand the structure and components of telemedicine planning
+- Access specific sections based on project phase or focus area
 ---
 
 # Telemedicine Platform Design - Overview & Navigation
@@ -309,3 +314,33 @@ All parts maintain:
 → [Part 1: Service Model & Technology](telemedicine-01-service-technology.md)
 → [Part 2: Quality & Compliance](telemedicine-02-quality-compliance.md)
 → [Part 3: Implementation & Scaling](telemedicine-03-implementation-scaling.md)
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Telemedicine 01 Service Technology](telemedicine-01-service-technology.md)** - Complementary approaches and methodologies
+- **[Telemedicine 02 Quality Compliance](telemedicine-02-quality-compliance.md)** - Complementary approaches and methodologies
+- **[Telemedicine 03 Implementation Scaling](telemedicine-03-implementation-scaling.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Telemedicine Platform Design - Overview & Navigation)
+2. Use [Telemedicine 01 Service Technology](telemedicine-01-service-technology.md) for deeper analysis
+3. Apply [Telemedicine 02 Quality Compliance](telemedicine-02-quality-compliance.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[healthcare](../../healthcare/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Navigate the complete telemedicine platform design framework**: Combine this template with related analytics and strategy frameworks
+- **Understand the structure and components of telemedicine planning**: Combine this template with related analytics and strategy frameworks
+- **Access specific sections based on project phase or focus area**: Combine this template with related analytics and strategy frameworks

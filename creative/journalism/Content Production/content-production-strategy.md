@@ -1,15 +1,23 @@
 ---
-title: Content Strategy & Editorial Planning Framework
 category: creative/journalism/Content Production
-tags: [creative, data-science, framework, management, optimization, research, strategy]
-use_cases:
-  - Creating comprehensive system for developing, executing, and managing content strategies across multiple media channels, including editorial calendars, content workflows, and performance optimization.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - content-strategy.md
 last_updated: 2025-11-09
+related_templates:
+- content-strategy.md
+tags:
+- creative
+- data-science
+- framework
+- management
+- optimization
+- research
+- strategy
+title: Content Strategy & Editorial Planning Framework
+use_cases:
+- Creating comprehensive system for developing, executing, and managing content strategies
+  across multiple media channels, including editorial calendars, content workflows,
+  and performance optimization.
+- Project planning and execution
+- Strategy development
 ---
 
 # Content Strategy & Editorial Planning Framework
@@ -520,6 +528,34 @@ Platforms: Print, digital, social, events
 Revenue: Diversified (ads, commerce, events)
 Strategy: Premium content, community building
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Content Strategy](content-strategy.md)** - Strategic planning and execution frameworks
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Content Strategy & Editorial Planning Framework)
+2. Use [Content Strategy](content-strategy.md) for deeper analysis
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[creative/journalism/Content Production](../../creative/journalism/Content Production/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive system for developing, executing, and managing content strategies across multiple media channels, including editorial calendars, content workflows, and performance optimization.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

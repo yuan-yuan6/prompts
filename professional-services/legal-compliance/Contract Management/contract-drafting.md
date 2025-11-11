@@ -1,16 +1,21 @@
 ---
-title: Contract Drafting Template
 category: professional-services/legal-compliance/Contract Management
-tags: [design, professional-services, template]
-use_cases:
-  - Creating comprehensive legal contracts, agreements, terms of service, and binding documents with proper structure, protective clauses, and enforceable provisions that protect interests while maintaining clarity and legal validity.
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - regulatory-compliance-framework.md
-  - contract-drafting-template.md
-  - intellectual-property-management.md
 last_updated: 2025-11-09
+related_templates:
+- regulatory-compliance-framework.md
+- contract-drafting-template.md
+- intellectual-property-management.md
+tags:
+- design
+- professional-services
+- template
+title: Contract Drafting Template
+use_cases:
+- Creating comprehensive legal contracts, agreements, terms of service, and binding
+  documents with proper structure, protective clauses, and enforceable provisions
+  that protect interests while maintaining clarity and legal validity.
+- Project planning and execution
+- Strategy development
 ---
 
 # Contract Drafting Template
@@ -312,6 +317,37 @@ JURISDICTION: "California, USA"
 OBJECTIVES: "Market expansion through distribution"
 INTERESTS: "Territory protection, brand control, revenue sharing"
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Regulatory Compliance Framework](regulatory-compliance-framework.md)** - Complementary approaches and methodologies
+- **[Contract Drafting Template](contract-drafting-template.md)** - Complementary approaches and methodologies
+- **[Intellectual Property Management](intellectual-property-management.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Contract Drafting Template)
+2. Use [Regulatory Compliance Framework](regulatory-compliance-framework.md) for deeper analysis
+3. Apply [Contract Drafting Template](contract-drafting-template.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[professional-services/legal-compliance/Contract Management](../../professional-services/legal-compliance/Contract Management/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive legal contracts, agreements, terms of service, and binding documents with proper structure, protective clauses, and enforceable provisions that protect interests while maintaining clarity and legal validity.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

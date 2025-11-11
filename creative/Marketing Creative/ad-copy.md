@@ -1,15 +1,23 @@
 ---
-title: Ad Copy Template
 category: creative/Marketing Creative
-tags: [automation, communication, creative, data-science, documentation, marketing, research, template]
-use_cases:
-  - Write A/B test variations for Facebook/Google ads (15-30 min for 3-5 versions)
-  - Create platform-specific ad copy for multi-channel campaign launch
-  - Develop compelling headlines and CTAs that improve click-through rates
-related_templates:
-  - creative-writing-framework.md
-  - video-production-pipeline.md
 last_updated: 2025-11-09
+related_templates:
+- creative-writing-framework.md
+- video-production-pipeline.md
+tags:
+- automation
+- communication
+- creative
+- data-science
+- documentation
+- marketing
+- research
+- template
+title: Ad Copy Template
+use_cases:
+- Write A/B test variations for Facebook/Google ads (15-30 min for 3-5 versions)
+- Create platform-specific ad copy for multi-channel campaign launch
+- Develop compelling headlines and CTAs that improve click-through rates
 ---
 
 # Ad Copy Template
@@ -464,6 +472,36 @@ CAMPAIGN_OBJECTIVE: "Generate service bookings"
 BRAND_VOICE: "Trustworthy and reliable"
 KEY_MESSAGE: "Professional home services you can count on"
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Creative Writing Framework](creative-writing-framework.md)** - Complementary approaches and methodologies
+- **[Video Production Pipeline](video-production-pipeline.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Ad Copy Template)
+2. Use [Creative Writing Framework](creative-writing-framework.md) for deeper analysis
+3. Apply [Video Production Pipeline](video-production-pipeline.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[creative/Marketing Creative](../../creative/Marketing Creative/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Write A/B test variations for Facebook/Google ads (15-30 min for 3-5 versions)**: Combine this template with related analytics and strategy frameworks
+- **Create platform-specific ad copy for multi-channel campaign launch**: Combine this template with related analytics and strategy frameworks
+- **Develop compelling headlines and CTAs that improve click-through rates**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

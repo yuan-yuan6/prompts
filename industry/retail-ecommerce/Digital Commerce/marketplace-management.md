@@ -1,16 +1,24 @@
 ---
-title: Marketplace Management Template
 category: industry/retail-ecommerce/Digital Commerce
-tags: [data-science, industry, management, optimization, strategy, template]
-use_cases:
-  - Creating comprehensive marketplace optimization strategies, multi-channel selling frameworks, platform-specific tactics, and performance analytics that maximize sales, visibility, and profitability across digital marketplaces.
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - customer-experience-optimization.md
-  - dynamic-pricing-strategy.md
-  - product-sourcing-strategy.md
 last_updated: 2025-11-09
+related_templates:
+- customer-experience-optimization.md
+- dynamic-pricing-strategy.md
+- product-sourcing-strategy.md
+tags:
+- data-science
+- industry
+- management
+- optimization
+- strategy
+- template
+title: Marketplace Management Template
+use_cases:
+- Creating comprehensive marketplace optimization strategies, multi-channel selling
+  frameworks, platform-specific tactics, and performance analytics that maximize sales,
+  visibility, and profitability across digital marketplaces.
+- Project planning and execution
+- Strategy development
 ---
 
 # Marketplace Management Template
@@ -392,6 +400,37 @@ INVENTORY_VOLUME: "50 unique products"
 FULFILLMENT_METHOD: "Self-fulfilled made-to-order"
 PERFORMANCE_METRICS: "5-star ratings, 50% repeat customers"
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Customer Experience Optimization](customer-experience-optimization.md)** - Understand customer needs and improve user experience
+- **[Dynamic Pricing Strategy](dynamic-pricing-strategy.md)** - Strategic planning and execution frameworks
+- **[Product Sourcing Strategy](product-sourcing-strategy.md)** - Strategic planning and execution frameworks
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Marketplace Management Template)
+2. Use [Customer Experience Optimization](customer-experience-optimization.md) for deeper analysis
+3. Apply [Dynamic Pricing Strategy](dynamic-pricing-strategy.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[industry/retail-ecommerce/Digital Commerce](../../industry/retail-ecommerce/Digital Commerce/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive marketplace optimization strategies, multi-channel selling frameworks, platform-specific tactics, and performance analytics that maximize sales, visibility, and profitability across digital marketplaces.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

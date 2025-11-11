@@ -1,16 +1,22 @@
 ---
-title: Volunteer Management & Engagement System
 category: nonprofit/Program Management
-tags: [design, management, nonprofit, strategy, testing]
-use_cases:
-  - Creating comprehensive framework for recruiting, training, managing, and retaining volunteers across nonprofit organizations, including coordination, recognition, and impact measurement of volunteer programs.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - program-evaluation.md
-  - fundraising-campaign-framework.md
 last_updated: 2025-11-09
+related_templates:
+- program-evaluation.md
+- fundraising-campaign-framework.md
+tags:
+- design
+- management
+- nonprofit
+- strategy
+- testing
+title: Volunteer Management & Engagement System
+use_cases:
+- Creating comprehensive framework for recruiting, training, managing, and retaining
+  volunteers across nonprofit organizations, including coordination, recognition,
+  and impact measurement of volunteer programs.
+- Project planning and execution
+- Strategy development
 ---
 
 # Volunteer Management & Engagement System
@@ -530,6 +536,36 @@ Key Activities: Sorting, packing, distribution
 Groups: Schools, corporations, faith communities
 Impact: 5 million meals distributed
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Program Evaluation](program-evaluation.md)** - Complementary approaches and methodologies
+- **[Fundraising Campaign Framework](fundraising-campaign-framework.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Volunteer Management & Engagement System)
+2. Use [Program Evaluation](program-evaluation.md) for deeper analysis
+3. Apply [Fundraising Campaign Framework](fundraising-campaign-framework.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[nonprofit/Program Management](../../nonprofit/Program Management/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive framework for recruiting, training, managing, and retaining volunteers across nonprofit organizations, including coordination, recognition, and impact measurement of volunteer programs.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

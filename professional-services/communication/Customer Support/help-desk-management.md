@@ -1,15 +1,23 @@
 ---
-title: Comprehensive Help Desk Management & Operations Template
 category: professional-services/communication/Customer Support
-tags: [automation, comprehensive, design, development, machine-learning, management, optimization, professional-services]
-use_cases:
-  - General application
-  - Professional use
-  - Project implementation
-related_templates:
-  - meeting-management-framework.md
-  - crisis-communication-plan.md
 last_updated: 2025-11-09
+related_templates:
+- meeting-management-framework.md
+- crisis-communication-plan.md
+tags:
+- automation
+- comprehensive
+- design
+- development
+- machine-learning
+- management
+- optimization
+- professional-services
+title: Comprehensive Help Desk Management & Operations Template
+use_cases:
+- General application
+- Professional use
+- Project implementation
 ---
 
 # Comprehensive Help Desk Management & Operations Template
@@ -557,6 +565,36 @@ compliance_framework: "ISO 20000 and client-specific requirements"
 ```
 
 ---
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Meeting Management Framework](meeting-management-framework.md)** - Complementary approaches and methodologies
+- **[Crisis Communication Plan](crisis-communication-plan.md)** - Effective communication strategies for stakeholders
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Comprehensive Help Desk Management & Operations Template)
+2. Use [Meeting Management Framework](meeting-management-framework.md) for deeper analysis
+3. Apply [Crisis Communication Plan](crisis-communication-plan.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[professional-services/communication/Customer Support](../../professional-services/communication/Customer Support/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **General application**: Combine this template with related analytics and strategy frameworks
+- **Professional use**: Combine this template with related analytics and strategy frameworks
+- **Project implementation**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

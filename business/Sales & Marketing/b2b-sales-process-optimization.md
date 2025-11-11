@@ -1,17 +1,25 @@
 ---
-title: B2B Sales Process Optimization & Revenue Operations Framework
 category: business/Sales & Marketing
-tags: [business, data-science, design, framework, management, optimization, research]
-use_cases:
-  - Creating comprehensive b2b sales optimization framework covering sales process design, lead management, opportunity progression, performance analytics, technology stack optimization, and revenue operations across the entire customer acquisition lifecycle.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - okr-implementation-framework.md
-  - digital-transformation-roadmap.md
-  - lean-six-sigma-implementation.md
 last_updated: 2025-11-09
+related_templates:
+- okr-implementation-framework.md
+- digital-transformation-roadmap.md
+- lean-six-sigma-implementation.md
+tags:
+- business
+- data-science
+- design
+- framework
+- management
+- optimization
+- research
+title: B2B Sales Process Optimization & Revenue Operations Framework
+use_cases:
+- Creating comprehensive b2b sales optimization framework covering sales process design,
+  lead management, opportunity progression, performance analytics, technology stack
+  optimization, and revenue operations across the entire customer acquisition lifecycle.
+- Project planning and execution
+- Strategy development
 ---
 
 # B2B Sales Process Optimization & Revenue Operations Framework
@@ -619,6 +627,37 @@ Sales Cycle: 90 days
 Target: $75M revenue, service line expansion
 Focus: Relationship building, thought leadership
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Okr Implementation Framework](okr-implementation-framework.md)** - Set measurable objectives and key results to track progress
+- **[Digital Transformation Roadmap](digital-transformation-roadmap.md)** - Strategic framework for organizational change initiatives
+- **[Lean Six Sigma Implementation](lean-six-sigma-implementation.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (B2B Sales Process Optimization & Revenue Operations Framework)
+2. Use [Okr Implementation Framework](okr-implementation-framework.md) for deeper analysis
+3. Apply [Digital Transformation Roadmap](digital-transformation-roadmap.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[business/Sales & Marketing](../../business/Sales & Marketing/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive b2b sales optimization framework covering sales process design, lead management, opportunity progression, performance analytics, technology stack optimization, and revenue operations across the entire customer acquisition lifecycle.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

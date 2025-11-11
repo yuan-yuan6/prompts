@@ -1,17 +1,26 @@
 ---
-title: Threat Intelligence Template
 category: technology/Cybersecurity
-tags: [data-science, design, machine-learning, marketing, research, strategy, technology, template]
-use_cases:
-  - Creating comprehensive threat intelligence program including collection, analysis, dissemination, and actionable intelligence for proactive threat detection, prevention, and response.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - cloud-architecture-framework.md
-  - site-reliability-engineering.md
-  - cloud-migration-strategy.md
 last_updated: 2025-11-09
+related_templates:
+- cloud-architecture-framework.md
+- site-reliability-engineering.md
+- cloud-migration-strategy.md
+tags:
+- data-science
+- design
+- machine-learning
+- marketing
+- research
+- strategy
+- technology
+- template
+title: Threat Intelligence Template
+use_cases:
+- Creating comprehensive threat intelligence program including collection, analysis,
+  dissemination, and actionable intelligence for proactive threat detection, prevention,
+  and response.
+- Project planning and execution
+- Strategy development
 ---
 
 # Threat Intelligence Template
@@ -192,6 +201,37 @@ Collection Framework:
 | `[DISSEMINATION_METRICS]` | Specify the dissemination metrics | "[specify value]" |
 | `[EXTERNAL_SHARING]` | Specify the external sharing | "[specify value]" |
 | `[LEGAL_CONSIDERATIONS]` | Specify the legal considerations | "[specify value]" |
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Cloud Architecture Framework](cloud-architecture-framework.md)** - Complementary approaches and methodologies
+- **[Site Reliability Engineering](site-reliability-engineering.md)** - Complementary approaches and methodologies
+- **[Cloud Migration Strategy](cloud-migration-strategy.md)** - Strategic planning and execution frameworks
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Threat Intelligence Template)
+2. Use [Cloud Architecture Framework](cloud-architecture-framework.md) for deeper analysis
+3. Apply [Site Reliability Engineering](site-reliability-engineering.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[technology/Cybersecurity](../../technology/Cybersecurity/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive threat intelligence program including collection, analysis, dissemination, and actionable intelligence for proactive threat detection, prevention, and response.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Best Practices
 

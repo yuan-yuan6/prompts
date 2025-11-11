@@ -1,15 +1,24 @@
 ---
-title: Hotel Operations & Guest Experience Framework
 category: industry/hospitality/Hotel Management
-tags: [communication, data-science, design, framework, industry, management, optimization, research]
-use_cases:
-  - Creating comprehensive framework for hotel operations management, guest experience optimization, revenue management, staff coordination, and hospitality service excellence across all property types and service levels.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - smart-hotel-operations.md
 last_updated: 2025-11-09
+related_templates:
+- smart-hotel-operations.md
+tags:
+- communication
+- data-science
+- design
+- framework
+- industry
+- management
+- optimization
+- research
+title: Hotel Operations & Guest Experience Framework
+use_cases:
+- Creating comprehensive framework for hotel operations management, guest experience
+  optimization, revenue management, staff coordination, and hospitality service excellence
+  across all property types and service levels.
+- Project planning and execution
+- Strategy development
 ---
 
 # Hotel Operations & Guest Experience Framework
@@ -545,6 +554,34 @@ Marketing: Instagram-focused
 Reviews: 4.8/5 average
 Direct Bookings: 60% target
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Smart Hotel Operations](smart-hotel-operations.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Hotel Operations & Guest Experience Framework)
+2. Use [Smart Hotel Operations](smart-hotel-operations.md) for deeper analysis
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[industry/hospitality/Hotel Management](../../industry/hospitality/Hotel Management/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive framework for hotel operations management, guest experience optimization, revenue management, staff coordination, and hospitality service excellence across all property types and service levels.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

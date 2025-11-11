@@ -1,16 +1,24 @@
 ---
-title: Infrastructure as Code (IaC) Development Template
 category: technology/DevOps & Cloud
-tags: [design, development, machine-learning, management, security, strategy, technology, template]
-use_cases:
-  - General application
-  - Professional use
-  - Project implementation
-related_templates:
-  - cloud-architecture-framework.md
-  - site-reliability-engineering.md
-  - cloud-migration-strategy.md
 last_updated: 2025-11-09
+related_templates:
+- cloud-architecture-framework.md
+- site-reliability-engineering.md
+- cloud-migration-strategy.md
+tags:
+- design
+- development
+- machine-learning
+- management
+- security
+- strategy
+- technology
+- template
+title: Infrastructure as Code (IaC) Development Template
+use_cases:
+- General application
+- Professional use
+- Project implementation
 ---
 
 # Infrastructure as Code (IaC) Development Template
@@ -462,6 +470,37 @@ primary_iac_tool: "CloudFormation"
 ```
 
 ---
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Cloud Architecture Framework](cloud-architecture-framework.md)** - Complementary approaches and methodologies
+- **[Site Reliability Engineering](site-reliability-engineering.md)** - Complementary approaches and methodologies
+- **[Cloud Migration Strategy](cloud-migration-strategy.md)** - Strategic planning and execution frameworks
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Infrastructure as Code (IaC) Development Template)
+2. Use [Cloud Architecture Framework](cloud-architecture-framework.md) for deeper analysis
+3. Apply [Site Reliability Engineering](site-reliability-engineering.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[technology/DevOps & Cloud](../../technology/DevOps & Cloud/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **General application**: Combine this template with related analytics and strategy frameworks
+- **Professional use**: Combine this template with related analytics and strategy frameworks
+- **Project implementation**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

@@ -1,17 +1,25 @@
 ---
-title: Query Optimization & Performance Template
 category: data-analytics/Analytics Engineering
-tags: [data-analytics, data-science, design, optimization, research, strategy, template]
-use_cases:
-  - Creating design comprehensive sql query optimization strategies including performance tuning methodologies, indexing strategies, query efficiency analysis, and database performance optimization for analytical workloads.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - dashboard-design-patterns.md
-  - data-governance-framework.md
-  - predictive-modeling-framework.md
 last_updated: 2025-11-09
+related_templates:
+- dashboard-design-patterns.md
+- data-governance-framework.md
+- predictive-modeling-framework.md
+tags:
+- data-analytics
+- data-science
+- design
+- optimization
+- research
+- strategy
+- template
+title: Query Optimization & Performance Template
+use_cases:
+- Creating design comprehensive sql query optimization strategies including performance
+  tuning methodologies, indexing strategies, query efficiency analysis, and database
+  performance optimization for analytical workloads.
+- Project planning and execution
+- Strategy development
 ---
 
 # Query Optimization & Performance Template
@@ -2031,6 +2039,37 @@ PERFORMANCE_OBJECTIVES: "Optimize complex analytical queries and reduce compute 
 QUERY_RESPONSE_TIME_SLA: "< 5 minutes for complex analytics"
 PEAK_LOAD_CHARACTERISTICS: "Morning batch processing + real-time queries"
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Dashboard Design Patterns](dashboard-design-patterns.md)** - Complementary approaches and methodologies
+- **[Data Governance Framework](data-governance-framework.md)** - Leverage data analysis to drive informed decisions
+- **[Predictive Modeling Framework](predictive-modeling-framework.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Query Optimization & Performance Template)
+2. Use [Dashboard Design Patterns](dashboard-design-patterns.md) for deeper analysis
+3. Apply [Data Governance Framework](data-governance-framework.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[data-analytics/Analytics Engineering](../../data-analytics/Analytics Engineering/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating design comprehensive sql query optimization strategies including performance tuning methodologies, indexing strategies, query efficiency analysis, and database performance optimization for analytical workloads.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

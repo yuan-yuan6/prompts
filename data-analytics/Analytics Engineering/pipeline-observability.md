@@ -1,18 +1,25 @@
 ---
-title: Pipeline Observability & Error Handling Template
 category: data-analytics/Analytics Engineering
-tags: [automation, data-analytics, monitoring, observability, error-handling, alerting, reliability]
-use_cases:
-  - Implementing comprehensive pipeline monitoring and alerting systems
-  - Designing error handling frameworks with recovery strategies
-  - Building real-time streaming pipeline monitors
-  - Implementing circuit breakers and resilience patterns
-related_templates:
-  - pipeline-ingestion.md
-  - pipeline-transformation.md
-  - pipeline-orchestration.md
-  - pipeline-infrastructure.md
 last_updated: 2025-11-10
+related_templates:
+- pipeline-ingestion.md
+- pipeline-transformation.md
+- pipeline-orchestration.md
+- pipeline-infrastructure.md
+tags:
+- automation
+- data-analytics
+- monitoring
+- observability
+- error-handling
+- alerting
+- reliability
+title: Pipeline Observability & Error Handling Template
+use_cases:
+- Implementing comprehensive pipeline monitoring and alerting systems
+- Designing error handling frameworks with recovery strategies
+- Building real-time streaming pipeline monitors
+- Implementing circuit breakers and resilience patterns
 ---
 
 # Pipeline Observability & Error Handling Template
@@ -652,6 +659,38 @@ CIRCUIT_BREAKER:
   - timeout: 60 seconds before attempting reset
   - apply_to: External API calls, unreliable data sources
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Pipeline Ingestion](pipeline-ingestion.md)** - Complementary approaches and methodologies
+- **[Pipeline Transformation](pipeline-transformation.md)** - Strategic framework for organizational change initiatives
+- **[Pipeline Orchestration](pipeline-orchestration.md)** - Complementary approaches and methodologies
+- **[Pipeline Infrastructure](pipeline-infrastructure.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Pipeline Observability & Error Handling Template)
+2. Use [Pipeline Ingestion](pipeline-ingestion.md) for deeper analysis
+3. Apply [Pipeline Transformation](pipeline-transformation.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[data-analytics/Analytics Engineering](../../data-analytics/Analytics Engineering/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Implementing comprehensive pipeline monitoring and alerting systems**: Combine this template with related analytics and strategy frameworks
+- **Designing error handling frameworks with recovery strategies**: Combine this template with related analytics and strategy frameworks
+- **Building real-time streaming pipeline monitors**: Combine this template with related analytics and strategy frameworks
 
 ## Best Practices
 

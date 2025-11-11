@@ -1,17 +1,24 @@
 ---
-title: Optimization Algorithms & Operations Research Framework
 category: data-analytics/Advanced Analytics
-tags: [data-analytics, framework, machine-learning, optimization, research, testing]
-use_cases:
-  - Creating comprehensive framework for solving optimization problems including linear programming, integer programming, constraint optimization, heuristic methods, and real-world application of operations research techniques.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - dashboard-design-patterns.md
-  - data-governance-framework.md
-  - predictive-modeling-framework.md
 last_updated: 2025-11-09
+related_templates:
+- dashboard-design-patterns.md
+- data-governance-framework.md
+- predictive-modeling-framework.md
+tags:
+- data-analytics
+- framework
+- machine-learning
+- optimization
+- research
+- testing
+title: Optimization Algorithms & Operations Research Framework
+use_cases:
+- Creating comprehensive framework for solving optimization problems including linear
+  programming, integer programming, constraint optimization, heuristic methods, and
+  real-world application of operations research techniques.
+- Project planning and execution
+- Strategy development
 ---
 
 # Optimization Algorithms & Operations Research Framework
@@ -601,6 +608,37 @@ Scenarios: 1000 Monte Carlo paths
 Rebalancing: Daily execution
 Performance: Sharpe ratio 1.8
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Dashboard Design Patterns](dashboard-design-patterns.md)** - Complementary approaches and methodologies
+- **[Data Governance Framework](data-governance-framework.md)** - Leverage data analysis to drive informed decisions
+- **[Predictive Modeling Framework](predictive-modeling-framework.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Optimization Algorithms & Operations Research Framework)
+2. Use [Dashboard Design Patterns](dashboard-design-patterns.md) for deeper analysis
+3. Apply [Data Governance Framework](data-governance-framework.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[data-analytics/Advanced Analytics](../../data-analytics/Advanced Analytics/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive framework for solving optimization problems including linear programming, integer programming, constraint optimization, heuristic methods, and real-world application of operations research techniques.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

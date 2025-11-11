@@ -1,16 +1,23 @@
 ---
-title: Comprehensive Habit Tracking System Template
 category: personal/Personal Development/Life Management
-tags: [automation, comprehensive, data-science, development, personal, research, template]
-use_cases:
-  - General application
-  - Professional use
-  - Project implementation
-related_templates:
-  - time-management.md
-  - skill-development.md
-  - habit-formation.md
 last_updated: 2025-11-09
+related_templates:
+- time-management.md
+- skill-development.md
+- habit-formation.md
+tags:
+- automation
+- comprehensive
+- data-science
+- development
+- personal
+- research
+- template
+title: Comprehensive Habit Tracking System Template
+use_cases:
+- General application
+- Professional use
+- Project implementation
 ---
 
 # Comprehensive Habit Tracking System Template
@@ -462,6 +469,37 @@ Tomorrow's Intention: [TOMORROW_INTENTION]
 - **Technology**: Headspace app, Insight Timer, mood tracking through Health app
 
 ---
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Time Management](time-management.md)** - Complementary approaches and methodologies
+- **[Skill Development](skill-development.md)** - Complementary approaches and methodologies
+- **[Habit Formation](habit-formation.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Comprehensive Habit Tracking System Template)
+2. Use [Time Management](time-management.md) for deeper analysis
+3. Apply [Skill Development](skill-development.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[personal/Personal Development/Life Management](../../personal/Personal Development/Life Management/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **General application**: Combine this template with related analytics and strategy frameworks
+- **Professional use**: Combine this template with related analytics and strategy frameworks
+- **Project implementation**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

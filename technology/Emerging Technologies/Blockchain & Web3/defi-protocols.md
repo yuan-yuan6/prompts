@@ -1,15 +1,22 @@
 ---
-title: DeFi Protocol Design & Implementation Framework
-category: technology/emerging-tech/Blockchain & Web3
-tags: [design, development, framework, machine-learning, optimization, technology]
-use_cases:
-  - Creating advanced framework for designing, developing, and launching decentralized finance protocols including lending, dexs, yield optimization, derivatives, and innovative defi primitives.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - generative-ai-implementation.md
+category: technology/Emerging Technologies/Blockchain & Web3
 last_updated: 2025-11-09
+related_templates:
+- generative-ai-implementation.md
+tags:
+- design
+- development
+- framework
+- machine-learning
+- optimization
+- technology
+title: DeFi Protocol Design & Implementation Framework
+use_cases:
+- Creating advanced framework for designing, developing, and launching decentralized
+  finance protocols including lending, dexs, yield optimization, derivatives, and
+  innovative defi primitives.
+- Project planning and execution
+- Strategy development
 ---
 
 # DeFi Protocol Design & Implementation Framework
@@ -516,6 +523,34 @@ Features: Auto-compounding, risk scoring
 Performance: 15-50% APY range
 Fee Model: 20% performance fee
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Generative Ai Implementation](generative-ai-implementation.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (DeFi Protocol Design & Implementation Framework)
+2. Use [Generative Ai Implementation](generative-ai-implementation.md) for deeper analysis
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[technology/Emerging Technologies/Blockchain & Web3](../../technology/Emerging Technologies/Blockchain & Web3/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating advanced framework for designing, developing, and launching decentralized finance protocols including lending, dexs, yield optimization, derivatives, and innovative defi primitives.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

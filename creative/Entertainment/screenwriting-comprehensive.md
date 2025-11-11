@@ -1,15 +1,24 @@
 ---
-title: Screenwriting Comprehensive Template Generator
 category: creative/Entertainment
-tags: [automation, communication, comprehensive, creative, design, development, template]
-use_cases:
-  - Creating comprehensive screenwriting solutions covering films, television, web series, treatments, pitch decks, script doctoring, and story development across all genres and formats.
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - creative-writing-framework.md
-  - video-production-pipeline.md
 last_updated: 2025-11-09
+related_templates:
+- creative-writing-framework.md
+- video-production-pipeline.md
+tags:
+- automation
+- communication
+- comprehensive
+- creative
+- design
+- development
+- template
+title: Screenwriting Comprehensive Template Generator
+use_cases:
+- Creating comprehensive screenwriting solutions covering films, television, web series,
+  treatments, pitch decks, script doctoring, and story development across all genres
+  and formats.
+- Project planning and execution
+- Strategy development
 ---
 
 # Screenwriting Comprehensive Template Generator
@@ -953,6 +962,36 @@ Generate a comprehensive screenwriting strategy that includes:
 ### Example 1: Independent Drama Feature
 ### Example 2: Streaming Limited Series
 ### Example 3: Genre Thriller Spec Script
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Creative Writing Framework](creative-writing-framework.md)** - Complementary approaches and methodologies
+- **[Video Production Pipeline](video-production-pipeline.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Screenwriting Comprehensive Template Generator)
+2. Use [Creative Writing Framework](creative-writing-framework.md) for deeper analysis
+3. Apply [Video Production Pipeline](video-production-pipeline.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[creative/Entertainment](../../creative/Entertainment/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive screenwriting solutions covering films, television, web series, treatments, pitch decks, script doctoring, and story development across all genres and formats.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

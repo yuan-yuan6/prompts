@@ -1,16 +1,23 @@
 ---
-title: Property Management & Tenant Operations Framework
 category: industry/real-estate/Property Management
-tags: [framework, industry, management, optimization, security, testing]
-use_cases:
-  - Creating comprehensive framework for managing residential and commercial properties including tenant relations, maintenance operations, financial management, compliance, and portfolio optimization.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - property-management-system.md
-  - construction-project-planning.md
 last_updated: 2025-11-09
+related_templates:
+- property-management-system.md
+- construction-project-planning.md
+tags:
+- framework
+- industry
+- management
+- optimization
+- security
+- testing
+title: Property Management & Tenant Operations Framework
+use_cases:
+- Creating comprehensive framework for managing residential and commercial properties
+  including tenant relations, maintenance operations, financial management, compliance,
+  and portfolio optimization.
+- Project planning and execution
+- Strategy development
 ---
 
 # Property Management & Tenant Operations Framework
@@ -504,6 +511,36 @@ Management: Integrated platform
 Focus: Community building, sustainability
 Technology: Smart building systems
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Property Management System](property-management-system.md)** - Complementary approaches and methodologies
+- **[Construction Project Planning](construction-project-planning.md)** - Project management best practices and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Property Management & Tenant Operations Framework)
+2. Use [Property Management System](property-management-system.md) for deeper analysis
+3. Apply [Construction Project Planning](construction-project-planning.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[industry/real-estate/Property Management](../../industry/real-estate/Property Management/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive framework for managing residential and commercial properties including tenant relations, maintenance operations, financial management, compliance, and portfolio optimization.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

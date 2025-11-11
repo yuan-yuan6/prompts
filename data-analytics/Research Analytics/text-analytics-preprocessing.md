@@ -1,15 +1,25 @@
 ---
-title: Text Analytics - Preprocessing and Feature Engineering
 category: data-analytics/Research Analytics
-tags: [automation, data-analytics, data-science, machine-learning, nlp, preprocessing, feature-engineering, template]
-use_cases:
-  - Clean and preprocess raw text data for NLP analysis, including tokenization, normalization, and text cleaning operations.
-  - Engineer text features using TF-IDF, word embeddings, and linguistic features for machine learning models.
-related_templates:
-  - text-analytics-sentiment-analysis.md
-  - text-analytics-topic-modeling.md
-  - text-analytics-overview.md
 last_updated: 2025-11-10
+related_templates:
+- text-analytics-sentiment-analysis.md
+- text-analytics-topic-modeling.md
+- text-analytics-overview.md
+tags:
+- automation
+- data-analytics
+- data-science
+- machine-learning
+- nlp
+- preprocessing
+- feature-engineering
+- template
+title: Text Analytics - Preprocessing and Feature Engineering
+use_cases:
+- Clean and preprocess raw text data for NLP analysis, including tokenization, normalization,
+  and text cleaning operations.
+- Engineer text features using TF-IDF, word embeddings, and linguistic features for
+  machine learning models.
 ---
 
 # Text Analytics - Preprocessing and Feature Engineering
@@ -657,6 +667,36 @@ MAX_DOCUMENT_FREQUENCY: 0.9
 EMBEDDING_DIMENSION: 300
 WINDOW_SIZE: 5
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Text Analytics Sentiment Analysis](text-analytics-sentiment-analysis.md)** - Leverage data analysis to drive informed decisions
+- **[Text Analytics Topic Modeling](text-analytics-topic-modeling.md)** - Leverage data analysis to drive informed decisions
+- **[Text Analytics Overview](text-analytics-overview.md)** - Leverage data analysis to drive informed decisions
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Text Analytics - Preprocessing and Feature Engineering)
+2. Use [Text Analytics Sentiment Analysis](text-analytics-sentiment-analysis.md) for deeper analysis
+3. Apply [Text Analytics Topic Modeling](text-analytics-topic-modeling.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[data-analytics/Research Analytics](../../data-analytics/Research Analytics/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Clean and preprocess raw text data for NLP analysis, including tokenization, normalization, and text cleaning operations.**: Combine this template with related analytics and strategy frameworks
+- **Engineer text features using TF-IDF, word embeddings, and linguistic features for machine learning models.**: Combine this template with related analytics and strategy frameworks
 
 ## Best Practices
 

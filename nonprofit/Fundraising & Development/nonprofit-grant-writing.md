@@ -1,16 +1,25 @@
 ---
-title: Grant Writing & Proposal Development Framework
 category: nonprofit/Fundraising & Development
-tags: [communication, data-science, design, development, framework, management, nonprofit, research]
-use_cases:
-  - Creating comprehensive system for researching, writing, and managing grant proposals for nonprofit organizations, including federal, state, foundation, and corporate grant applications.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - program-evaluation.md
-  - fundraising-campaign-framework.md
 last_updated: 2025-11-09
+related_templates:
+- program-evaluation.md
+- fundraising-campaign-framework.md
+tags:
+- communication
+- data-science
+- design
+- development
+- framework
+- management
+- nonprofit
+- research
+title: Grant Writing & Proposal Development Framework
+use_cases:
+- Creating comprehensive system for researching, writing, and managing grant proposals
+  for nonprofit organizations, including federal, state, foundation, and corporate
+  grant applications.
+- Project planning and execution
+- Strategy development
 ---
 
 # Grant Writing & Proposal Development Framework
@@ -509,6 +518,36 @@ Duration: 1 year
 Focus: Local sustainability project
 Requirements: Brand alignment, volunteer engagement
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Program Evaluation](program-evaluation.md)** - Complementary approaches and methodologies
+- **[Fundraising Campaign Framework](fundraising-campaign-framework.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Grant Writing & Proposal Development Framework)
+2. Use [Program Evaluation](program-evaluation.md) for deeper analysis
+3. Apply [Fundraising Campaign Framework](fundraising-campaign-framework.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[nonprofit/Fundraising & Development](../../nonprofit/Fundraising & Development/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive system for researching, writing, and managing grant proposals for nonprofit organizations, including federal, state, foundation, and corporate grant applications.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

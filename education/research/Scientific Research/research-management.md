@@ -1,15 +1,24 @@
 ---
-title: Scientific Research & Laboratory Management Framework
 category: education/research/Scientific Research
-tags: [data-science, design, education, framework, management, research, security, strategy]
-use_cases:
-  - Creating comprehensive framework for scientific research project management, laboratory operations, experimental design, data analysis, publication strategy, and research commercialization.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - clinical-trial-protocol.md
 last_updated: 2025-11-09
+related_templates:
+- clinical-trial-protocol.md
+tags:
+- data-science
+- design
+- education
+- framework
+- management
+- research
+- security
+- strategy
+title: Scientific Research & Laboratory Management Framework
+use_cases:
+- Creating comprehensive framework for scientific research project management, laboratory
+  operations, experimental design, data analysis, publication strategy, and research
+  commercialization.
+- Project planning and execution
+- Strategy development
 ---
 
 # Scientific Research & Laboratory Management Framework
@@ -542,6 +551,34 @@ Publications: 150/year in high-impact journals
 Drug Candidates: 3 in pipeline
 Pharma Partnerships: 5 major companies
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Clinical Trial Protocol](clinical-trial-protocol.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Scientific Research & Laboratory Management Framework)
+2. Use [Clinical Trial Protocol](clinical-trial-protocol.md) for deeper analysis
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[education/research/Scientific Research](../../education/research/Scientific Research/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive framework for scientific research project management, laboratory operations, experimental design, data analysis, publication strategy, and research commercialization.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

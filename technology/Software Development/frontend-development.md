@@ -1,17 +1,26 @@
 ---
-title: Frontend Development & Web Application Framework
 category: technology/Software Development
-tags: [automation, design, development, framework, management, optimization, security, technology]
-use_cases:
-  - Creating comprehensive framework for frontend web development including modern javascript frameworks, responsive design, performance optimization, accessibility standards, and progressive web applications.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - cloud-architecture-framework.md
-  - site-reliability-engineering.md
-  - cloud-migration-strategy.md
 last_updated: 2025-11-09
+related_templates:
+- cloud-architecture-framework.md
+- site-reliability-engineering.md
+- cloud-migration-strategy.md
+tags:
+- automation
+- design
+- development
+- framework
+- management
+- optimization
+- security
+- technology
+title: Frontend Development & Web Application Framework
+use_cases:
+- Creating comprehensive framework for frontend web development including modern javascript
+  frameworks, responsive design, performance optimization, accessibility standards,
+  and progressive web applications.
+- Project planning and execution
+- Strategy development
 ---
 
 # Frontend Development & Web Application Framework
@@ -577,6 +586,37 @@ Analytics: GA4 + Hotjar
 A/B Testing: Optimizely
 Hosting: Vercel Edge
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Cloud Architecture Framework](cloud-architecture-framework.md)** - Complementary approaches and methodologies
+- **[Site Reliability Engineering](site-reliability-engineering.md)** - Complementary approaches and methodologies
+- **[Cloud Migration Strategy](cloud-migration-strategy.md)** - Strategic planning and execution frameworks
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Frontend Development & Web Application Framework)
+2. Use [Cloud Architecture Framework](cloud-architecture-framework.md) for deeper analysis
+3. Apply [Site Reliability Engineering](site-reliability-engineering.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[technology/Software Development](../../technology/Software Development/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive framework for frontend web development including modern javascript frameworks, responsive design, performance optimization, accessibility standards, and progressive web applications.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

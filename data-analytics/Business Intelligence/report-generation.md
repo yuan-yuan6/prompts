@@ -1,17 +1,26 @@
 ---
-title: Report Generation Automation Template
 category: data-analytics/Business Intelligence
-tags: [automation, data-analytics, data-science, documentation, machine-learning, optimization, research, strategy]
-use_cases:
-  - Creating develop comprehensive strategies for automated report creation, custom reporting systems, and executive report generation that streamline business intelligence processes and ensure consistent, timely delivery of actionable insights.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - dashboard-design-patterns.md
-  - data-governance-framework.md
-  - predictive-modeling-framework.md
 last_updated: 2025-11-09
+related_templates:
+- dashboard-design-patterns.md
+- data-governance-framework.md
+- predictive-modeling-framework.md
+tags:
+- automation
+- data-analytics
+- data-science
+- documentation
+- machine-learning
+- optimization
+- research
+- strategy
+title: Report Generation Automation Template
+use_cases:
+- Creating develop comprehensive strategies for automated report creation, custom
+  reporting systems, and executive report generation that streamline business intelligence
+  processes and ensure consistent, timely delivery of actionable insights.
+- Project planning and execution
+- Strategy development
 ---
 
 # Report Generation Automation Template
@@ -725,6 +734,37 @@ SALES_PERFORMANCE: "Store-level sales, category performance, promotional effecti
 DELIVERY_PREFERENCES: "Mobile dashboards for store managers, email for executives"
 CUSTOMIZATION: "Store-specific reports, regional comparisons, seasonal adjustments"
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Dashboard Design Patterns](dashboard-design-patterns.md)** - Complementary approaches and methodologies
+- **[Data Governance Framework](data-governance-framework.md)** - Leverage data analysis to drive informed decisions
+- **[Predictive Modeling Framework](predictive-modeling-framework.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Report Generation Automation Template)
+2. Use [Dashboard Design Patterns](dashboard-design-patterns.md) for deeper analysis
+3. Apply [Data Governance Framework](data-governance-framework.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[data-analytics/Business Intelligence](../../data-analytics/Business Intelligence/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating develop comprehensive strategies for automated report creation, custom reporting systems, and executive report generation that streamline business intelligence processes and ensure consistent, timely delivery of actionable insights.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

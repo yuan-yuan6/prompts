@@ -1,15 +1,19 @@
 ---
-title: Course Content & Curriculum Mapper
 category: education/Teaching & Instruction
-tags: [curriculum, content-design, curriculum-mapping, instructional-materials]
-use_cases:
-  - Developing and organizing course content with clear learning progression
-  - Creating curriculum maps that align content with learning objectives
-  - Designing multi-modal instructional materials for diverse learners
-related_templates:
-  - course-foundations-objectives.md
-  - course-assessment-strategy.md
 last_updated: 2025-11-09
+related_templates:
+- course-foundations-objectives.md
+- course-assessment-strategy.md
+tags:
+- curriculum
+- content-design
+- curriculum-mapping
+- instructional-materials
+title: Course Content & Curriculum Mapper
+use_cases:
+- Developing and organizing course content with clear learning progression
+- Creating curriculum maps that align content with learning objectives
+- Designing multi-modal instructional materials for diverse learners
 ---
 
 # Course Content & Curriculum Mapper
@@ -252,6 +256,36 @@ Verify that the curriculum:
 
 ### Example 3: Graduate Seminar
 "Develop content organization for 'Contemporary Leadership Theory' - 8-week graduate seminar. Deep exploration of 4-5 leadership models with critical analysis. Students read primary sources, lead discussions, and apply theories to case studies. Emphasis on depth over breadth."
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Course Foundations Objectives](course-foundations-objectives.md)** - Complementary approaches and methodologies
+- **[Course Assessment Strategy](course-assessment-strategy.md)** - Strategic planning and execution frameworks
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Course Content & Curriculum Mapper)
+2. Use [Course Foundations Objectives](course-foundations-objectives.md) for deeper analysis
+3. Apply [Course Assessment Strategy](course-assessment-strategy.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[education/Teaching & Instruction](../../education/Teaching & Instruction/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Developing and organizing course content with clear learning progression**: Combine this template with related analytics and strategy frameworks
+- **Creating curriculum maps that align content with learning objectives**: Combine this template with related analytics and strategy frameworks
+- **Designing multi-modal instructional materials for diverse learners**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

@@ -1,15 +1,20 @@
 ---
-title: Course Foundations & Learning Objectives Designer
 category: education/Teaching & Instruction
-tags: [objectives, pedagogy, course-design, learning-outcomes]
-use_cases:
-  - Establishing pedagogical foundations and defining clear learning objectives for a new course
-  - Aligning course outcomes with institutional and professional standards
-  - Creating student-centered course mission and vision statements
-related_templates:
-  - course-content-curriculum.md
-  - course-assessment-strategy.md
 last_updated: 2025-11-09
+related_templates:
+- course-content-curriculum.md
+- course-assessment-strategy.md
+tags:
+- objectives
+- pedagogy
+- course-design
+- learning-outcomes
+title: Course Foundations & Learning Objectives Designer
+use_cases:
+- Establishing pedagogical foundations and defining clear learning objectives for
+  a new course
+- Aligning course outcomes with institutional and professional standards
+- Creating student-centered course mission and vision statements
 ---
 
 # Course Foundations & Learning Objectives Designer
@@ -186,6 +191,36 @@ Ensure all learning objectives are:
 
 ### Example 3: Professional Development Workshop
 "Create learning objectives for 'Effective Team Leadership' - a 4-week online professional development course for mid-level managers. Learners are working professionals seeking promotion. Skills needed: conflict resolution, motivation techniques, performance feedback, inclusive leadership."
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Course Content Curriculum](course-content-curriculum.md)** - Complementary approaches and methodologies
+- **[Course Assessment Strategy](course-assessment-strategy.md)** - Strategic planning and execution frameworks
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Course Foundations & Learning Objectives Designer)
+2. Use [Course Content Curriculum](course-content-curriculum.md) for deeper analysis
+3. Apply [Course Assessment Strategy](course-assessment-strategy.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[education/Teaching & Instruction](../../education/Teaching & Instruction/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Establishing pedagogical foundations and defining clear learning objectives for a new course**: Combine this template with related analytics and strategy frameworks
+- **Aligning course outcomes with institutional and professional standards**: Combine this template with related analytics and strategy frameworks
+- **Creating student-centered course mission and vision statements**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

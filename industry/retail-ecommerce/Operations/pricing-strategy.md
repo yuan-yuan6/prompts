@@ -1,17 +1,26 @@
 ---
-title: Retail Pricing Strategy & Revenue Optimization Framework
 category: industry/retail-ecommerce/Operations
-tags: [data-science, design, development, framework, industry, machine-learning, marketing, optimization]
-use_cases:
-  - Creating comprehensive framework for retail pricing strategy development, dynamic pricing implementation, competitive positioning, margin optimization, promotional planning, and price elasticity analysis.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - customer-experience-optimization.md
-  - dynamic-pricing-strategy.md
-  - product-sourcing-strategy.md
 last_updated: 2025-11-09
+related_templates:
+- customer-experience-optimization.md
+- dynamic-pricing-strategy.md
+- product-sourcing-strategy.md
+tags:
+- data-science
+- design
+- development
+- framework
+- industry
+- machine-learning
+- marketing
+- optimization
+title: Retail Pricing Strategy & Revenue Optimization Framework
+use_cases:
+- Creating comprehensive framework for retail pricing strategy development, dynamic
+  pricing implementation, competitive positioning, margin optimization, promotional
+  planning, and price elasticity analysis.
+- Project planning and execution
+- Strategy development
 ---
 
 # Retail Pricing Strategy & Revenue Optimization Framework
@@ -514,6 +523,37 @@ Protection: MAP compliance
 Channels: Omnichannel consistency
 Margin: 18% gross, 35% on accessories
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Customer Experience Optimization](customer-experience-optimization.md)** - Understand customer needs and improve user experience
+- **[Dynamic Pricing Strategy](dynamic-pricing-strategy.md)** - Strategic planning and execution frameworks
+- **[Product Sourcing Strategy](product-sourcing-strategy.md)** - Strategic planning and execution frameworks
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Retail Pricing Strategy & Revenue Optimization Framework)
+2. Use [Customer Experience Optimization](customer-experience-optimization.md) for deeper analysis
+3. Apply [Dynamic Pricing Strategy](dynamic-pricing-strategy.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[industry/retail-ecommerce/Operations](../../industry/retail-ecommerce/Operations/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive framework for retail pricing strategy development, dynamic pricing implementation, competitive positioning, margin optimization, promotional planning, and price elasticity analysis.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

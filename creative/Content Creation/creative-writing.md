@@ -1,16 +1,23 @@
 ---
-title: Creative Writing Template
 category: creative/Content Creation
-tags: [automation, communication, creative, design, development, template]
-use_cases:
-  - Creating generate compelling creative writing including stories, scripts, poetry, novels, and fictional content with engaging narratives, character development, and literary techniques.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - creative-writing-framework.md
-  - video-production-pipeline.md
 last_updated: 2025-11-09
+related_templates:
+- creative-writing-framework.md
+- video-production-pipeline.md
+tags:
+- automation
+- communication
+- creative
+- design
+- development
+- template
+title: Creative Writing Template
+use_cases:
+- Creating generate compelling creative writing including stories, scripts, poetry,
+  novels, and fictional content with engaging narratives, character development, and
+  literary techniques.
+- Project planning and execution
+- Strategy development
 ---
 
 # Creative Writing Template
@@ -247,6 +254,36 @@ Creative Requirements:
 - Consider spoken word genre blending opportunities
 - Work within relatable themes creative constraints while maximizing emotional impact
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Creative Writing Framework](creative-writing-framework.md)** - Complementary approaches and methodologies
+- **[Video Production Pipeline](video-production-pipeline.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Creative Writing Template)
+2. Use [Creative Writing Framework](creative-writing-framework.md) for deeper analysis
+3. Apply [Video Production Pipeline](video-production-pipeline.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[creative/Content Creation](../../creative/Content Creation/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating generate compelling creative writing including stories, scripts, poetry, novels, and fictional content with engaging narratives, character development, and literary techniques.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Best Practices
 

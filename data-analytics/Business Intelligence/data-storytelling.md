@@ -1,17 +1,26 @@
 ---
-title: Data Storytelling Narratives Template
 category: data-analytics/Business Intelligence
-tags: [automation, data-analytics, data-science, design, optimization, research, strategy, template]
-use_cases:
-  - Creating compelling data narratives that transform complex analytical insights into engaging presentations, drive stakeholder alignment, and inspire data-driven action through effective storytelling techniques and contextual insights.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - dashboard-design-patterns.md
-  - data-governance-framework.md
-  - predictive-modeling-framework.md
 last_updated: 2025-11-09
+related_templates:
+- dashboard-design-patterns.md
+- data-governance-framework.md
+- predictive-modeling-framework.md
+tags:
+- automation
+- data-analytics
+- data-science
+- design
+- optimization
+- research
+- strategy
+- template
+title: Data Storytelling Narratives Template
+use_cases:
+- Creating compelling data narratives that transform complex analytical insights into
+  engaging presentations, drive stakeholder alignment, and inspire data-driven action
+  through effective storytelling techniques and contextual insights.
+- Project planning and execution
+- Strategy development
 ---
 
 # Data Storytelling Narratives Template
@@ -690,6 +699,37 @@ DATA_CONTEXT: "18 months of production data across 12 manufacturing lines"
 INSIGHT_1: "Line changeover time reduction of 40% possible with schedule optimization"
 ROI_CALCULATIONS: "$2.3M annual savings from efficiency improvements"
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Dashboard Design Patterns](dashboard-design-patterns.md)** - Complementary approaches and methodologies
+- **[Data Governance Framework](data-governance-framework.md)** - Leverage data analysis to drive informed decisions
+- **[Predictive Modeling Framework](predictive-modeling-framework.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Data Storytelling Narratives Template)
+2. Use [Dashboard Design Patterns](dashboard-design-patterns.md) for deeper analysis
+3. Apply [Data Governance Framework](data-governance-framework.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[data-analytics/Business Intelligence](../../data-analytics/Business Intelligence/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating compelling data narratives that transform complex analytical insights into engaging presentations, drive stakeholder alignment, and inspire data-driven action through effective storytelling techniques and contextual insights.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

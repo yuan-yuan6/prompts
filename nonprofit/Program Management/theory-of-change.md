@@ -1,16 +1,23 @@
 ---
-title: Theory of Change Development Framework
 category: nonprofit/Program Management
-tags: [data-science, development, framework, machine-learning, nonprofit, research]
-use_cases:
-  - Creating comprehensive framework for developing theory of change models including logic models, outcome mapping, impact pathways, stakeholder analysis, and evaluation frameworks for social impact programs.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - program-evaluation.md
-  - fundraising-campaign-framework.md
 last_updated: 2025-11-09
+related_templates:
+- program-evaluation.md
+- fundraising-campaign-framework.md
+tags:
+- data-science
+- development
+- framework
+- machine-learning
+- nonprofit
+- research
+title: Theory of Change Development Framework
+use_cases:
+- Creating comprehensive framework for developing theory of change models including
+  logic models, outcome mapping, impact pathways, stakeholder analysis, and evaluation
+  frameworks for social impact programs.
+- Project planning and execution
+- Strategy development
 ---
 
 # Theory of Change Development Framework
@@ -577,6 +584,36 @@ Sustainability: Revolving fund model
 Partners: Banks, training institutions
 Success Rate: 75% business survival
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Program Evaluation](program-evaluation.md)** - Complementary approaches and methodologies
+- **[Fundraising Campaign Framework](fundraising-campaign-framework.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Theory of Change Development Framework)
+2. Use [Program Evaluation](program-evaluation.md) for deeper analysis
+3. Apply [Fundraising Campaign Framework](fundraising-campaign-framework.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[nonprofit/Program Management](../../nonprofit/Program Management/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive framework for developing theory of change models including logic models, outcome mapping, impact pathways, stakeholder analysis, and evaluation frameworks for social impact programs.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

@@ -1,16 +1,22 @@
 ---
-title: Research Design - Sampling Strategy & Data Collection
 category: education/Academic Research
-tags: [research, sampling, data-collection, recruitment, instrumentation, measurement]
-use_cases:
-  - Developing comprehensive sampling strategies and recruitment plans
-  - Designing data collection protocols and instrumentation
-  - Planning multi-source data integration and technology-enhanced collection
-related_templates:
-  - research-design-foundation.md
-  - research-design-analysis-quality.md
-  - research-design-overview.md
 last_updated: 2025-11-10
+related_templates:
+- research-design-foundation.md
+- research-design-analysis-quality.md
+- research-design-overview.md
+tags:
+- research
+- sampling
+- data-collection
+- recruitment
+- instrumentation
+- measurement
+title: Research Design - Sampling Strategy & Data Collection
+use_cases:
+- Developing comprehensive sampling strategies and recruitment plans
+- Designing data collection protocols and instrumentation
+- Planning multi-source data integration and technology-enhanced collection
 ---
 
 # Research Design - Sampling Strategy & Data Collection
@@ -379,6 +385,37 @@ Generate a comprehensive sampling and data collection strategy that includes:
 - Consider participant burden when designing multi-wave or intensive data collection
 - Compensate participants fairly for their time and contribution
 - Build in quality checks at multiple stages rather than waiting until analysis
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Research Design Foundation](research-design-foundation.md)** - Complementary approaches and methodologies
+- **[Research Design Analysis Quality](research-design-analysis-quality.md)** - Complementary approaches and methodologies
+- **[Research Design Overview](research-design-overview.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Research Design - Sampling Strategy & Data Collection)
+2. Use [Research Design Foundation](research-design-foundation.md) for deeper analysis
+3. Apply [Research Design Analysis Quality](research-design-analysis-quality.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[education/Academic Research](../../education/Academic Research/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Developing comprehensive sampling strategies and recruitment plans**: Combine this template with related analytics and strategy frameworks
+- **Designing data collection protocols and instrumentation**: Combine this template with related analytics and strategy frameworks
+- **Planning multi-source data integration and technology-enhanced collection**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

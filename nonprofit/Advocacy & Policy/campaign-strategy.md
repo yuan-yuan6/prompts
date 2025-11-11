@@ -1,16 +1,25 @@
 ---
-title: Advocacy Campaign Strategy Framework
 category: nonprofit/Advocacy & Policy
-tags: [data-science, design, development, framework, management, marketing, nonprofit, research]
-use_cases:
-  - Creating comprehensive framework for developing and executing advocacy campaigns including policy analysis, coalition building, grassroots mobilization, media strategy, and legislative engagement for social change.
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - program-evaluation.md
-  - fundraising-campaign-framework.md
 last_updated: 2025-11-09
+related_templates:
+- program-evaluation.md
+- fundraising-campaign-framework.md
+tags:
+- data-science
+- design
+- development
+- framework
+- management
+- marketing
+- nonprofit
+- research
+title: Advocacy Campaign Strategy Framework
+use_cases:
+- Creating comprehensive framework for developing and executing advocacy campaigns
+  including policy analysis, coalition building, grassroots mobilization, media strategy,
+  and legislative engagement for social change.
+- Project planning and execution
+- Strategy development
 ---
 
 # Advocacy Campaign Strategy Framework
@@ -600,6 +609,36 @@ Lobbying: Governor + legislature
 Investment: $2M multi-state
 Outcome: 3 states expanded
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Program Evaluation](program-evaluation.md)** - Complementary approaches and methodologies
+- **[Fundraising Campaign Framework](fundraising-campaign-framework.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Advocacy Campaign Strategy Framework)
+2. Use [Program Evaluation](program-evaluation.md) for deeper analysis
+3. Apply [Fundraising Campaign Framework](fundraising-campaign-framework.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[nonprofit/Advocacy & Policy](../../nonprofit/Advocacy & Policy/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive framework for developing and executing advocacy campaigns including policy analysis, coalition building, grassroots mobilization, media strategy, and legislative engagement for social change.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

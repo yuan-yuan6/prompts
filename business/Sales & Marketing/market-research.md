@@ -1,16 +1,22 @@
 ---
-title: Market Research Template Generator
 category: business/Sales & Marketing
-tags: [business, data-science, research, template]
-use_cases:
-  - Creating comprehensive market research strategies covering surveys, analysis, and insights generation to understand market dynamics, customer behavior, competitive landscape, and business opportunities.
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - okr-implementation-framework.md
-  - digital-transformation-roadmap.md
-  - lean-six-sigma-implementation.md
 last_updated: 2025-11-09
+related_templates:
+- okr-implementation-framework.md
+- digital-transformation-roadmap.md
+- lean-six-sigma-implementation.md
+tags:
+- business
+- data-science
+- research
+- template
+title: Market Research Template Generator
+use_cases:
+- Creating comprehensive market research strategies covering surveys, analysis, and
+  insights generation to understand market dynamics, customer behavior, competitive
+  landscape, and business opportunities.
+- Project planning and execution
+- Strategy development
 ---
 
 # Market Research Template Generator
@@ -1276,3 +1282,32 @@ Use for market research planning, consumer behavior analysis, competitive intell
 - Add technology-specific research tools
 - Include sustainability and social responsibility metrics
 - Scale complexity based on research objectives and budget
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Okr Implementation Framework](okr-implementation-framework.md)** - Set measurable objectives and key results to track progress
+- **[Digital Transformation Roadmap](digital-transformation-roadmap.md)** - Strategic framework for organizational change initiatives
+- **[Lean Six Sigma Implementation](lean-six-sigma-implementation.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Market Research Template Generator)
+2. Use [Okr Implementation Framework](okr-implementation-framework.md) for deeper analysis
+3. Apply [Digital Transformation Roadmap](digital-transformation-roadmap.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[business/Sales & Marketing](../../business/Sales & Marketing/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive market research strategies covering surveys, analysis, and insights generation to understand market dynamics, customer behavior, competitive landscape, and business opportunities.**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks

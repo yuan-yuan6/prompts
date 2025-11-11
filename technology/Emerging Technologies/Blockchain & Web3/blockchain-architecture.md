@@ -1,15 +1,20 @@
 ---
-title: Blockchain Architecture & Implementation Framework
-category: technology/emerging-tech/Blockchain & Web3
-tags: [design, development, framework, technology]
-use_cases:
-  - Creating comprehensive framework for designing, developing, and deploying blockchain solutions including smart contracts, consensus mechanisms, tokenomics, and decentralized applications (dapps).
-
-  - Project planning and execution
-  - Strategy development
-related_templates:
-  - generative-ai-implementation.md
+category: technology/Emerging Technologies/Blockchain & Web3
 last_updated: 2025-11-09
+related_templates:
+- generative-ai-implementation.md
+tags:
+- design
+- development
+- framework
+- technology
+title: Blockchain Architecture & Implementation Framework
+use_cases:
+- Creating comprehensive framework for designing, developing, and deploying blockchain
+  solutions including smart contracts, consensus mechanisms, tokenomics, and decentralized
+  applications (dapps).
+- Project planning and execution
+- Strategy development
 ---
 
 # Blockchain Architecture & Implementation Framework
@@ -571,6 +576,34 @@ Collections: 10,000+
 Volume: $5M monthly
 Storage: IPFS + Arweave
 ```
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Generative Ai Implementation](generative-ai-implementation.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Blockchain Architecture & Implementation Framework)
+2. Use [Generative Ai Implementation](generative-ai-implementation.md) for deeper analysis
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[technology/Emerging Technologies/Blockchain & Web3](../../technology/Emerging Technologies/Blockchain & Web3/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Creating comprehensive framework for designing, developing, and deploying blockchain solutions including smart contracts, consensus mechanisms, tokenomics, and decentralized applications (dapps).**: Combine this template with related analytics and strategy frameworks
+- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
+- **Strategy development**: Combine this template with related analytics and strategy frameworks
 
 ## Customization Options
 

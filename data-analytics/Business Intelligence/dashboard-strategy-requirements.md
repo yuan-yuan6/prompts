@@ -1,16 +1,21 @@
 ---
-title: Dashboard Strategy & Business Requirements
 category: data-analytics/Business Intelligence
-tags: [data-analytics, business-intelligence, strategy, requirements, kpi]
-use_cases:
-  - Defining dashboard business requirements
-  - Stakeholder alignment
-  - KPI framework development
-related_templates:
-  - dashboard-ux-design.md
-  - dashboard-data-architecture.md
-  - dashboard-design-overview.md
 last_updated: 2025-11-09
+related_templates:
+- dashboard-ux-design.md
+- dashboard-data-architecture.md
+- dashboard-design-overview.md
+tags:
+- data-analytics
+- business-intelligence
+- strategy
+- requirements
+- kpi
+title: Dashboard Strategy & Business Requirements
+use_cases:
+- Defining dashboard business requirements
+- Stakeholder alignment
+- KPI framework development
 ---
 
 # Dashboard Strategy & Business Requirements
@@ -175,6 +180,37 @@ Budget: $150,000
 ```
 
 ---
+
+
+
+## Related Resources
+
+### Complementary Templates
+
+Enhance your workflow by combining this template with:
+
+- **[Dashboard Ux Design](dashboard-ux-design.md)** - Complementary approaches and methodologies
+- **[Dashboard Data Architecture](dashboard-data-architecture.md)** - Leverage data analysis to drive informed decisions
+- **[Dashboard Design Overview](dashboard-design-overview.md)** - Complementary approaches and methodologies
+
+### Suggested Workflow
+
+**Typical implementation sequence**:
+
+1. Start with this template (Dashboard Strategy & Business Requirements)
+2. Use [Dashboard Ux Design](dashboard-ux-design.md) for deeper analysis
+3. Apply [Dashboard Data Architecture](dashboard-data-architecture.md) for execution
+4. Iterate and refine based on results
+
+### Explore More in This Category
+
+Browse all **[data-analytics/Business Intelligence](../../data-analytics/Business Intelligence/)** templates for related tools and frameworks.
+
+### Common Use Case Combinations
+
+- **Defining dashboard business requirements**: Combine this template with related analytics and strategy frameworks
+- **Stakeholder alignment**: Combine this template with related analytics and strategy frameworks
+- **KPI framework development**: Combine this template with related analytics and strategy frameworks
 
 ## Best Practices
 
