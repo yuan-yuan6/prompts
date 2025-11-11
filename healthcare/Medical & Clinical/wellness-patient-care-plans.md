@@ -1,6 +1,6 @@
 ---
 title: Patient Care Plans - Comprehensive Prompt Template
-category: healthcare/wellness/Medical & Clinical
+category: healthcare/Medical & Clinical
 tags: [comprehensive, design, healthcare, management, template]
 use_cases:
   - General application

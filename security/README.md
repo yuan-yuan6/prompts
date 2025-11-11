@@ -4,16 +4,22 @@ Cybersecurity and security operations templates for protecting assets and data.
 
 ## 📊 Overview
 
-- **Total Templates**: 2
+- **Total Templates**: 8
 - **Subcategories**: 1
 - **Category**: `security/`
 
 ## 📁 Subcategories
 
 ### Cybersecurity
-**1 templates**
+**7 templates**
 
+- [Cybersecurity Compliance Management](Cybersecurity/cybersecurity-compliance-management.md)
+- [Incident Response](Cybersecurity/incident-response.md)
+- [Security Architecture](Cybersecurity/security-architecture.md)
+- [Security Assessment](Cybersecurity/security-assessment.md)
+- [Security Audit](Cybersecurity/security-audit.md)
 - [Security Operations](Cybersecurity/security-operations.md)
+- [Threat Intelligence](Cybersecurity/threat-intelligence.md)
 
 ### General Templates
 

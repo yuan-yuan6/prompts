@@ -1,6 +1,6 @@
 ---
 title: Medical Diagnosis - Comprehensive Prompt Template
-category: healthcare/wellness/Medical & Clinical
+category: healthcare/Medical & Clinical
 tags: [comprehensive, data-science, design, development, healthcare, research, strategy, template]
 use_cases:
   - General application

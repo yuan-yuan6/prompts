@@ -1,6 +1,6 @@
 ---
 title: Workout Programs - Comprehensive Prompt Template
-category: healthcare/wellness/Nutrition & Fitness
+category: healthcare/Nutrition & Fitness
 tags: [comprehensive, data-science, design, healthcare, management, optimization, research, template]
 use_cases:
   - General application

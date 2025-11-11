@@ -1,6 +1,6 @@
 ---
 title: Security Assessment Template
-category: technology/Cybersecurity
+category: security/Cybersecurity
 tags: [data-science, design, machine-learning, research, security, strategy, technology, template]
 use_cases:
   - Creating comprehensive security assessment including vulnerability scanning, penetration testing, security audits, risk analysis, and remediation planning for enterprise systems and applications.

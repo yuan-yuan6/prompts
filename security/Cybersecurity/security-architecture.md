@@ -1,5 +1,5 @@
 ---
-category: technology/Cybersecurity
+category: security/Cybersecurity
 last_updated: 2025-11-09
 related_templates:
 - cloud-architecture-framework.md
