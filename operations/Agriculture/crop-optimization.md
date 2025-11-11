@@ -2,8 +2,8 @@
 category: operations
 last_updated: 2025-11-09
 related_templates:
-- precision-agriculture-framework.md
-- precision-agriculture-system.md
+- operations/Agriculture/precision-agriculture-framework.md
+- operations/Agriculture/precision-agriculture-system.md
 tags:
 - data-science
 - design

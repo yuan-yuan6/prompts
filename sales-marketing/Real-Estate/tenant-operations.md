@@ -2,8 +2,8 @@
 category: sales-marketing
 last_updated: 2025-11-09
 related_templates:
-- property-management-system.md
-- construction-project-planning.md
+- sales-marketing/Real-Estate/property-management-system.md
+- sales-marketing/Real-Estate/construction-project-planning.md
 tags:
 - framework
 - industry

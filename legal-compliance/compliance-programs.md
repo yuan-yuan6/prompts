@@ -2,9 +2,9 @@
 category: legal-compliance
 last_updated: 2025-11-09
 related_templates:
-- regulatory-compliance-framework.md
-- contract-drafting-template.md
-- intellectual-property-management.md
+- legal-compliance/regulatory-compliance-framework.md
+- legal-compliance/contract-drafting-template.md
+- legal-compliance/intellectual-property-management.md
 tags:
 - design
 - machine-learning

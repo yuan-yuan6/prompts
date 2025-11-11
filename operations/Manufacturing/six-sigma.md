@@ -2,7 +2,7 @@
 category: operations
 last_updated: 2025-11-09
 related_templates:
-- quality-management.md
+- operations/Manufacturing/quality-management.md
 tags:
 - data-science
 - framework

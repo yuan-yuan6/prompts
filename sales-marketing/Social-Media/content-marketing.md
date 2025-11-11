@@ -2,7 +2,7 @@
 category: sales-marketing/Social-Media
 last_updated: 2025-11-09
 related_templates:
-- influencer-marketing-campaign.md
+- sales-marketing/Social-Media/influencer-marketing-campaign.md
 tags:
 - creative
 - design

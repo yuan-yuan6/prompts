@@ -8,7 +8,7 @@ use_cases:
   - Project planning and execution
   - Strategy development
 related_templates:
-  - industry/construction/smart-construction-management.md
+  - operations/Construction/smart-construction-management.md
 last_updated: 2025-11-09
 ---
 

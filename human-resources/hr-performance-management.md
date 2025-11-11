@@ -2,9 +2,9 @@
 category: human-resources
 last_updated: 2025-11-09
 related_templates:
-- performance-review-system.md
-- employee-engagement-program.md
-- talent-acquisition-strategy.md
+- human-resources/performance-review-system.md
+- human-resources/employee-engagement-program.md
+- human-resources/talent-acquisition-strategy.md
 tags:
 - design
 - development

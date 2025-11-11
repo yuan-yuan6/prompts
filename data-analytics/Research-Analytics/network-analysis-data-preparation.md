@@ -1,0 +1,532 @@
+---
+title: Network Analysis - Data Preparation
+category: data-analytics/Research-Analytics
+tags: [data-analytics, data-science, network-analysis, data-preparation, data-quality]
+use_cases:
+  - Loading and preprocessing network data from various formats
+  - Cleaning and validating network structure and attributes
+  - Creating subnetworks and filtering nodes/edges
+  - Preparing temporal network snapshots
+related_templates:
+  - data-analytics/Research Analytics/network-analysis-centrality-community.md
+  - data-analytics/Research Analytics/network-analysis-paths-temporal.md
+  - data-analytics/Research Analytics/network-analysis-visualization.md
+  - data-analytics/Research Analytics/network-analysis-overview.md
+last_updated: 2025-11-10
+---
+
+# Network Analysis - Data Preparation
+
+## Purpose
+Load, preprocess, clean, and validate network data from various sources and formats to ensure high-quality network analysis. This module provides comprehensive tools for data loading, quality assessment, network cleaning, and subnetwork extraction.
+
+## Quick Start
+
+**Example: Load and Clean Social Media Network Data**
+
+```
+You are a network analysis expert. Load and prepare social media influencer network data for analysis.
+
+NETWORK DATA:
+- Data source: CSV edge list file (followers.csv)
+- Format: source, target, weight, timestamp columns
+- Network type: Directed, weighted
+- Expected size: ~10,000 nodes, 45,000 edges
+- Node attributes: username, follower_count, engagement_rate, content_category
+- Edge attributes: connection_timestamp, interaction_frequency
+
+PREPROCESSING TASKS:
+1. Load network from CSV edge list
+2. Remove self-loops and duplicate edges
+3. Filter out nodes with degree < 2 (inactive users)
+4. Add node attributes from separate user_profiles.csv
+5. Validate network structure and data quality
+6. Create subnetworks by content_category
+7. Generate data quality report
+
+EXPECTED OUTPUT:
+- Cleaned network ready for analysis
+- Data quality validation report
+- Summary statistics of cleaning operations
+- Subnetworks by content category
+```
+
+## Template
+
+```
+You are a network analysis expert. Load and prepare [NETWORK_DATA_SOURCE] for comprehensive network analysis.
+
+NETWORK DATA OVERVIEW:
+- Data source: [DATA_SOURCE_TYPE]
+- Format: [DATA_FORMAT] (edge_list/adjacency_matrix/graphml/gml/json)
+- Network type: [NETWORK_TYPE] (directed/undirected, weighted/unweighted)
+- Expected scale: [NODE_COUNT] nodes, [EDGE_COUNT] edges
+- Node attributes: [NODE_ATTRIBUTES]
+- Edge attributes: [EDGE_ATTRIBUTES]
+- Time scope: [TIME_PERIOD]
+
+DATA PREPROCESSING REQUIREMENTS:
+1. Load network data from [DATA_FORMAT]
+2. Clean network:
+   - Remove self-loops: [REMOVE_SELF_LOOPS]
+   - Remove isolated nodes: [REMOVE_ISOLATED]
+   - Degree filter: min=[MIN_DEGREE], max=[MAX_DEGREE]
+3. Add/update attributes: [ATTRIBUTE_ADDITIONS]
+4. Create subnetworks: [SUBNETWORK_CRITERIA]
+5. Validate data quality and structure
+
+VALIDATION REQUIREMENTS:
+- Check for duplicate edges
+- Validate node/edge attributes
+- Assess connectivity structure
+- Calculate basic network metrics
+- Generate validation report
+
+TEMPORAL PREPROCESSING (if applicable):
+- Timestamp column: [TIMESTAMP_COLUMN]
+- Time windows: [TIME_WINDOW_SIZE]
+- Snapshot creation: [SNAPSHOT_STRATEGY]
+```
+
+## Network Data Loading and Preprocessing
+
+### NetworkPreprocessor Class
+
+```python
+import networkx as nx
+import pandas as pd
+import numpy as np
+from collections import defaultdict, Counter
+import json
+
+class NetworkPreprocessor:
+    def __init__(self):
+        self.networks = {}
+        self.node_attributes = {}
+        self.edge_attributes = {}
+        self.metadata = {}
+
+    def load_network_data(self, data_source, data_type='edge_list'):
+        """Load network data from various formats"""
+
+        if data_type == 'edge_list':
+            # Load from edge list (CSV, TSV, etc.)
+            edges_df = pd.read_csv(data_source)
+
+            # Create network
+            G = nx.from_pandas_edgelist(
+                edges_df,
+                source='[SOURCE_COLUMN]',
+                target='[TARGET_COLUMN]',
+                edge_attr=[EDGE_ATTRIBUTES] if '[EDGE_ATTRIBUTES]' else None,
+                create_using=nx.DiGraph() if '[DIRECTED]' else nx.Graph()
+            )
+
+        elif data_type == 'adjacency_matrix':
+            # Load adjacency matrix
+            adj_matrix = pd.read_csv(data_source, index_col=0)
+            G = nx.from_pandas_adjacency(adj_matrix, create_using=nx.DiGraph() if '[DIRECTED]' else nx.Graph())
+
+        elif data_type == 'graphml':
+            # Load GraphML format
+            G = nx.read_graphml(data_source)
+
+        elif data_type == 'gml':
+            # Load GML format
+            G = nx.read_gml(data_source)
+
+        elif data_type == 'json':
+            # Load from JSON
+            with open(data_source, 'r') as f:
+                data = json.load(f)
+            G = nx.node_link_graph(data)
+
+        # Store network
+        self.networks['main'] = G
+
+        # Extract metadata
+        self.metadata['main'] = {
+            'num_nodes': G.number_of_nodes(),
+            'num_edges': G.number_of_edges(),
+            'is_directed': nx.is_directed(G),
+            'is_weighted': nx.is_weighted(G),
+            'is_connected': nx.is_connected(G) if not nx.is_directed(G) else nx.is_weakly_connected(G),
+            'node_attributes': list(G.nodes(data=True)[0][1].keys()) if G.nodes() else [],
+            'edge_attributes': list(G.edges(data=True)[0][2].keys()) if G.edges() else []
+        }
+
+        return G
+
+    def clean_network(self, remove_self_loops=True, remove_isolated=False,
+                     min_degree=None, max_degree=None):
+        """Clean and preprocess network"""
+
+        G = self.networks['main'].copy()
+        cleaning_log = []
+
+        # Remove self loops
+        if remove_self_loops:
+            num_self_loops = nx.number_of_selfloops(G)
+            G.remove_edges_from(nx.selfloop_edges(G))
+            cleaning_log.append(f"Removed {num_self_loops} self loops")
+
+        # Remove isolated nodes
+        if remove_isolated:
+            isolated_nodes = list(nx.isolates(G))
+            G.remove_nodes_from(isolated_nodes)
+            cleaning_log.append(f"Removed {len(isolated_nodes)} isolated nodes")
+
+        # Filter by degree
+        if min_degree is not None or max_degree is not None:
+            nodes_to_remove = []
+            for node, degree in dict(G.degree()).items():
+                if min_degree is not None and degree < min_degree:
+                    nodes_to_remove.append(node)
+                elif max_degree is not None and degree > max_degree:
+                    nodes_to_remove.append(node)
+
+            G.remove_nodes_from(nodes_to_remove)
+            cleaning_log.append(f"Removed {len(nodes_to_remove)} nodes based on degree filter")
+
+        # Store cleaned network
+        self.networks['cleaned'] = G
+
+        return G, cleaning_log
+
+    def create_subnetworks(self, method='connected_components', **kwargs):
+        """Extract subnetworks based on various criteria"""
+
+        G = self.networks.get('cleaned', self.networks['main'])
+        subnetworks = {}
+
+        if method == 'connected_components':
+            # Extract connected components
+            if nx.is_directed(G):
+                components = list(nx.weakly_connected_components(G))
+            else:
+                components = list(nx.connected_components(G))
+
+            for i, component in enumerate(components):
+                if len(component) >= kwargs.get('min_size', 3):
+                    subG = G.subgraph(component).copy()
+                    subnetworks[f'component_{i}'] = subG
+
+        elif method == 'k_core':
+            # Extract k-core
+            k = kwargs.get('k', 2)
+            k_core = nx.k_core(G, k=k)
+            subnetworks['k_core'] = k_core
+
+        elif method == 'ego_networks':
+            # Extract ego networks for specified nodes
+            nodes = kwargs.get('nodes', list(G.nodes())[:10])
+            radius = kwargs.get('radius', 1)
+
+            for node in nodes:
+                if node in G:
+                    ego_G = nx.ego_graph(G, node, radius=radius)
+                    subnetworks[f'ego_{node}'] = ego_G
+
+        elif method == 'attribute_based':
+            # Extract subnetworks based on node attributes
+            attribute = kwargs.get('attribute')
+            values = kwargs.get('values')
+
+            if attribute and values:
+                for value in values:
+                    nodes = [n for n, d in G.nodes(data=True) if d.get(attribute) == value]
+                    if len(nodes) >= kwargs.get('min_size', 3):
+                        subG = G.subgraph(nodes).copy()
+                        subnetworks[f'{attribute}_{value}'] = subG
+
+        self.networks.update(subnetworks)
+        return subnetworks
+
+    def add_node_attributes(self, attribute_data, attribute_name):
+        """Add attributes to network nodes"""
+
+        G = self.networks.get('cleaned', self.networks['main'])
+
+        # Add attributes from dictionary or dataframe
+        if isinstance(attribute_data, dict):
+            nx.set_node_attributes(G, attribute_data, attribute_name)
+        elif isinstance(attribute_data, pd.DataFrame):
+            attr_dict = attribute_data.set_index(attribute_data.columns[0])[attribute_name].to_dict()
+            nx.set_node_attributes(G, attr_dict, attribute_name)
+
+        # Update metadata
+        if attribute_name not in self.metadata['main']['node_attributes']:
+            self.metadata['main']['node_attributes'].append(attribute_name)
+
+    def temporal_network_preprocessing(self, timestamp_column):
+        """Preprocess temporal/dynamic networks"""
+
+        G = self.networks['main']
+
+        # Extract temporal information
+        edge_times = {}
+        for u, v, data in G.edges(data=True):
+            if timestamp_column in data:
+                edge_times[(u, v)] = data[timestamp_column]
+
+        # Sort edges by timestamp
+        sorted_edges = sorted(edge_times.items(), key=lambda x: x[1])
+
+        # Create temporal snapshots
+        time_windows = self._create_time_windows(sorted_edges, window_size='[TIME_WINDOW]')
+
+        temporal_networks = {}
+        for i, (start_time, end_time, edges) in enumerate(time_windows):
+            temp_G = nx.Graph() if not nx.is_directed(G) else nx.DiGraph()
+            temp_G.add_edges_from([edge[0] for edge in edges])
+            temporal_networks[f'time_{i}'] = temp_G
+
+        self.networks.update(temporal_networks)
+        return temporal_networks
+
+    def _create_time_windows(self, sorted_edges, window_size):
+        """Create time windows for temporal analysis"""
+        # Implementation for creating time windows
+        # This would depend on the specific temporal analysis requirements
+        pass
+
+# Initialize network preprocessor
+preprocessor = NetworkPreprocessor()
+
+# Load and preprocess network data
+network = preprocessor.load_network_data('[DATA_SOURCE]', '[DATA_TYPE]')
+cleaned_network, cleaning_log = preprocessor.clean_network(
+    remove_self_loops=[REMOVE_SELF_LOOPS],
+    remove_isolated=[REMOVE_ISOLATED],
+    min_degree=[MIN_DEGREE]
+)
+```
+
+## Network Validation and Quality Assessment
+
+### NetworkValidator Class
+
+```python
+class NetworkValidator:
+    def __init__(self, network):
+        self.network = network
+        self.validation_results = {}
+
+    def comprehensive_validation(self):
+        """Perform comprehensive network validation"""
+
+        G = self.network
+        validation = {}
+
+        # Basic properties validation
+        validation['basic_properties'] = {
+            'num_nodes': G.number_of_nodes(),
+            'num_edges': G.number_of_edges(),
+            'is_directed': nx.is_directed(G),
+            'is_weighted': nx.is_weighted(G),
+            'has_self_loops': nx.number_of_selfloops(G) > 0,
+            'is_connected': nx.is_connected(G) if not nx.is_directed(G) else nx.is_weakly_connected(G)
+        }
+
+        # Degree distribution validation
+        degrees = dict(G.degree())
+        validation['degree_distribution'] = {
+            'mean_degree': np.mean(list(degrees.values())),
+            'median_degree': np.median(list(degrees.values())),
+            'max_degree': max(degrees.values()),
+            'min_degree': min(degrees.values()),
+            'degree_variance': np.var(list(degrees.values())),
+            'isolated_nodes': len([n for n, d in degrees.items() if d == 0])
+        }
+
+        # Connectivity validation
+        if nx.is_directed(G):
+            validation['connectivity'] = {
+                'weakly_connected_components': nx.number_weakly_connected_components(G),
+                'strongly_connected_components': nx.number_strongly_connected_components(G),
+                'largest_wcc_size': len(max(nx.weakly_connected_components(G), key=len)),
+                'largest_scc_size': len(max(nx.strongly_connected_components(G), key=len))
+            }
+        else:
+            validation['connectivity'] = {
+                'connected_components': nx.number_connected_components(G),
+                'largest_component_size': len(max(nx.connected_components(G), key=len))
+            }
+
+        # Data quality checks
+        validation['data_quality'] = {
+            'duplicate_edges': self._check_duplicate_edges(G),
+            'missing_node_attributes': self._check_missing_attributes(G, 'nodes'),
+            'missing_edge_attributes': self._check_missing_attributes(G, 'edges'),
+            'attribute_consistency': self._check_attribute_consistency(G)
+        }
+
+        # Network density and sparsity
+        validation['density_metrics'] = {
+            'density': nx.density(G),
+            'is_sparse': nx.density(G) < 0.1,
+            'is_dense': nx.density(G) > 0.5
+        }
+
+        self.validation_results = validation
+        return validation
+
+    def _check_duplicate_edges(self, G):
+        """Check for duplicate edges"""
+        edge_list = list(G.edges())
+        unique_edges = set(edge_list)
+        return len(edge_list) - len(unique_edges)
+
+    def _check_missing_attributes(self, G, element_type):
+        """Check for missing attributes"""
+        missing_count = 0
+        if element_type == 'nodes':
+            for node, data in G.nodes(data=True):
+                if not data:
+                    missing_count += 1
+        elif element_type == 'edges':
+            for u, v, data in G.edges(data=True):
+                if not data:
+                    missing_count += 1
+        return missing_count
+
+    def _check_attribute_consistency(self, G):
+        """Check consistency of node/edge attributes"""
+        # Check if all nodes have the same attribute keys
+        node_attr_sets = [set(data.keys()) for _, data in G.nodes(data=True)]
+        edge_attr_sets = [set(data.keys()) for _, _, data in G.edges(data=True)]
+
+        consistent_node_attrs = len(set(frozenset(s) for s in node_attr_sets)) <= 1
+        consistent_edge_attrs = len(set(frozenset(s) for s in edge_attr_sets)) <= 1
+
+        return {
+            'consistent_node_attributes': consistent_node_attrs,
+            'consistent_edge_attributes': consistent_edge_attrs
+        }
+
+    def generate_validation_report(self):
+        """Generate comprehensive validation report"""
+        if not self.validation_results:
+            self.comprehensive_validation()
+
+        report = []
+        report.append("NETWORK VALIDATION REPORT")
+        report.append("=" * 40)
+
+        # Basic properties
+        basic = self.validation_results['basic_properties']
+        report.append(f"\nBasic Properties:")
+        report.append(f"  Nodes: {basic['num_nodes']:,}")
+        report.append(f"  Edges: {basic['num_edges']:,}")
+        report.append(f"  Directed: {basic['is_directed']}")
+        report.append(f"  Weighted: {basic['is_weighted']}")
+        report.append(f"  Connected: {basic['is_connected']}")
+
+        # Degree distribution
+        degree = self.validation_results['degree_distribution']
+        report.append(f"\nDegree Distribution:")
+        report.append(f"  Mean degree: {degree['mean_degree']:.2f}")
+        report.append(f"  Median degree: {degree['median_degree']:.2f}")
+        report.append(f"  Max degree: {degree['max_degree']}")
+        report.append(f"  Isolated nodes: {degree['isolated_nodes']}")
+
+        # Data quality issues
+        quality = self.validation_results['data_quality']
+        report.append(f"\nData Quality:")
+        report.append(f"  Duplicate edges: {quality['duplicate_edges']}")
+        report.append(f"  Missing node attributes: {quality['missing_node_attributes']}")
+        report.append(f"  Missing edge attributes: {quality['missing_edge_attributes']}")
+
+        return "\n".join(report)
+
+# Validate network
+validator = NetworkValidator(network)
+validation_results = validator.comprehensive_validation()
+validation_report = validator.generate_validation_report()
+```
+
+## Variables
+
+### Data Loading Variables
+- [DATA_SOURCE] - Path or identifier for network data source
+- [DATA_TYPE] - Type of data format (edge_list/adjacency_matrix/graphml/gml/json)
+- [DATA_SOURCE_TYPE] - Description of network data source
+- [DATA_FORMAT] - Format specification for input data
+- [SOURCE_COLUMN] - Column name for source nodes in edge list
+- [TARGET_COLUMN] - Column name for target nodes in edge list
+- [WEIGHT_COLUMN] - Column name for edge weights
+- [TIMESTAMP_COLUMN] - Column name for temporal information
+
+### Network Configuration Variables
+- [NETWORK_TYPE] - Type of network (directed/undirected, weighted/unweighted)
+- [DIRECTED] - Boolean indicating if network is directed
+- [WEIGHTED] - Boolean indicating if network has weighted edges
+- [NODE_COUNT] - Expected or actual number of nodes
+- [EDGE_COUNT] - Expected or actual number of edges
+- [NODE_ATTRIBUTES] - List of node attributes
+- [EDGE_ATTRIBUTES] - List of edge attributes
+- [TIME_PERIOD] - Time period covered by network data
+
+### Cleaning Variables
+- [REMOVE_SELF_LOOPS] - Boolean to remove self-loops
+- [REMOVE_ISOLATED] - Boolean to remove isolated nodes
+- [MIN_DEGREE] - Minimum degree threshold for node filtering
+- [MAX_DEGREE] - Maximum degree threshold for node filtering
+- [DUPLICATE_HANDLING] - Strategy for handling duplicate edges
+- [MISSING_DATA_STRATEGY] - Strategy for handling missing data
+
+### Subnetwork Variables
+- [SUBNETWORK_METHOD] - Method for extracting subnetworks
+- [SUBNETWORK_CRITERIA] - Criteria for subnetwork extraction
+- [MIN_COMPONENT_SIZE] - Minimum size for connected components
+- [K_CORE_VALUE] - K value for k-core extraction
+- [EGO_RADIUS] - Radius for ego network extraction
+- [ATTRIBUTE_FILTER] - Attribute-based filtering criteria
+
+### Temporal Variables
+- [TIME_WINDOW] - Size of time windows for temporal analysis
+- [TIME_WINDOW_SIZE] - Duration of each temporal snapshot
+- [SNAPSHOT_STRATEGY] - Strategy for creating temporal snapshots
+- [TIME_AGGREGATION] - Method for aggregating temporal data
+
+## Usage Examples
+
+### Example 1: Load CSV Edge List
+```
+DATA_SOURCE: "network_edges.csv"
+DATA_TYPE: "edge_list"
+SOURCE_COLUMN: "user_from"
+TARGET_COLUMN: "user_to"
+EDGE_ATTRIBUTES: ["weight", "timestamp"]
+NETWORK_TYPE: "Directed, weighted"
+```
+
+### Example 2: Clean and Filter Network
+```
+REMOVE_SELF_LOOPS: True
+REMOVE_ISOLATED: True
+MIN_DEGREE: 2
+MAX_DEGREE: None
+DUPLICATE_HANDLING: "Remove duplicates, keep first occurrence"
+```
+
+### Example 3: Create Subnetworks by Attribute
+```
+SUBNETWORK_METHOD: "attribute_based"
+ATTRIBUTE_FILTER: "content_category"
+ATTRIBUTE_VALUES: ["Fitness", "Yoga", "Nutrition", "Wellness"]
+MIN_COMPONENT_SIZE: 10
+```
+
+## Best Practices
+
+1. **Data Quality First** - Always validate and clean network data before analysis
+2. **Preserve Original Data** - Keep raw network data unchanged; work with copies
+3. **Document Transformations** - Log all cleaning and preprocessing operations
+4. **Check Connectivity** - Verify network connectivity and component structure
+5. **Validate Attributes** - Ensure node and edge attributes are consistent
+6. **Handle Missing Data** - Develop clear strategies for missing or incomplete data
+7. **Optimize for Scale** - Use appropriate data structures for large networks
+8. **Test Subnetworks** - Validate that subnetwork extraction preserves important properties
+9. **Monitor Memory** - Be aware of memory constraints with large networks
+10. **Version Control** - Track different versions of processed network data

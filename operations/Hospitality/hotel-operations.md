@@ -2,7 +2,7 @@
 category: operations
 last_updated: 2025-11-09
 related_templates:
-- smart-hotel-operations.md
+- operations/Hospitality/smart-hotel-operations.md
 tags:
 - communication
 - data-science

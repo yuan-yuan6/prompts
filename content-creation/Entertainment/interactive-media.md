@@ -2,8 +2,8 @@
 category: content-creation/Entertainment
 last_updated: 2025-11-09
 related_templates:
-- creative-writing-framework.md
-- video-production-pipeline.md
+- content-creation/creative-writing-framework.md
+- content-creation/video-production-pipeline.md
 tags:
 - creative
 - design

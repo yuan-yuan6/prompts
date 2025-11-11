@@ -2,9 +2,9 @@
 category: operations
 last_updated: 2025-11-09
 related_templates:
-- route-optimization-framework.md
-- warehouse-management-system.md
-- fleet-management-system.md
+- operations/Transportation-Logistics/route-optimization-framework.md
+- operations/Transportation-Logistics/warehouse-management-system.md
+- operations/Transportation-Logistics/fleet-management-system.md
 tags:
 - data-science
 - design

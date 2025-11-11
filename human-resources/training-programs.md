@@ -2,9 +2,9 @@
 category: human-resources
 last_updated: 2025-11-09
 related_templates:
-- okr-implementation-framework.md
-- digital-transformation-roadmap.md
-- lean-six-sigma-implementation.md
+- strategy/okr-implementation-framework.md
+- strategy/digital-transformation-roadmap.md
+- operations/lean-six-sigma-implementation.md
 tags:
 - business
 - design

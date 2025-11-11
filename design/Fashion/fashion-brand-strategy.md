@@ -2,7 +2,7 @@
 category: design
 last_updated: 2025-11-09
 related_templates:
-- sustainable-fashion-strategy.md
+- design/Fashion/sustainable-fashion-strategy.md
 tags:
 - design
 - development

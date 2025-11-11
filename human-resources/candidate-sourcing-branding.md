@@ -2,9 +2,9 @@
 category: human-resources
 last_updated: 2025-11-09
 related_templates:
-- job-analysis-definition.md
-- screening-interview-process.md
-- recruitment-metrics-optimization.md
+- human-resources/job-analysis-definition.md
+- human-resources/screening-interview-process.md
+- human-resources/recruitment-metrics-optimization.md
 tags:
 - talent-sourcing
 - employer-branding

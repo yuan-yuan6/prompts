@@ -2,9 +2,9 @@
 category: human-resources
 last_updated: 2025-11-09
 related_templates:
-- candidate-sourcing-branding.md
-- screening-interview-process.md
-- candidate-assessment-selection.md
+- human-resources/candidate-sourcing-branding.md
+- human-resources/screening-interview-process.md
+- human-resources/candidate-assessment-selection.md
 tags:
 - recruitment-metrics
 - hiring-analytics
