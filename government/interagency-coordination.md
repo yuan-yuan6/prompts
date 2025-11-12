@@ -3,20 +3,20 @@ category: government
 last_updated: 2025-11-11
 title: Interagency Coordination & Collaboration
 tags:
-  - government
-  - operations
-  - communication
+- government
+- operations
+- communication
 use_cases:
-  - Coordinating across government agencies
-  - Multi-jurisdictional partnerships
-  - Federal-state-local collaboration
-  - Cross-functional government initiatives
+- Coordinating across government agencies
+- Multi-jurisdictional partnerships
+- Federal-state-local collaboration
+- Cross-functional government initiatives
 related_templates:
-  - communication/cross-functional-coordination.md
-  - operations/program-management.md
-  - government/Emergency-Management/emergency-response-planning.md
+- communication/cross-functional-coordination.md
+- government/Emergency-Management/emergency-response-planning.md
 industries:
-  - government
+- government
+
 ---
 
 # Interagency Coordination & Collaboration

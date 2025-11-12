@@ -14,7 +14,6 @@ use_cases:
 - Automating security checks in CI/CD pipelines
 related_templates:
 - security/Cybersecurity/security-audit.md
-- security/Application-Security/owasp-security-testing.md
 - technology/Software-Development/code-review.md
 industries:
 - finance
@@ -22,6 +21,7 @@ industries:
 - healthcare
 - manufacturing
 - technology
+
 ---
 
 # Secure Code Review Framework

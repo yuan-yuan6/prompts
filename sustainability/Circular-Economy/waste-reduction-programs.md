@@ -3,28 +3,27 @@ category: sustainability/Circular-Economy
 last_updated: 2025-11-12
 title: Waste Reduction & Circular Operations Programs
 tags:
-  - sustainability
-  - waste-reduction
-  - circular-economy
-  - zero-waste
-  - resource-efficiency
+- sustainability
+- waste-reduction
+- circular-economy
+- zero-waste
+- resource-efficiency
 use_cases:
-  - Implementing zero waste to landfill programs in operations
-  - Designing circular operational models with waste elimination
-  - Developing waste reduction and diversion strategies
-  - Creating material recovery and recycling programs
+- Implementing zero waste to landfill programs in operations
+- Designing circular operational models with waste elimination
+- Developing waste reduction and diversion strategies
+- Creating material recovery and recycling programs
 related_templates:
-  - sustainability/circular-economy-strategy.md
-  - sustainability/sustainable-supply-chain.md
-  - operations/operational-efficiency.md
-  - operations/process-improvement.md
+- sustainability/circular-economy-strategy.md
+- sustainability/sustainable-supply-chain.md
 industries:
-  - manufacturing
-  - retail
-  - hospitality
-  - healthcare
-  - technology
-  - construction
+- manufacturing
+- retail
+- hospitality
+- healthcare
+- technology
+- construction
+
 ---
 
 # Waste Reduction & Circular Operations Programs Template

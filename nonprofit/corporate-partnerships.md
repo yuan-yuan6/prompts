@@ -3,20 +3,20 @@ category: nonprofit/Partnerships
 last_updated: 2025-11-11
 title: Corporate Partnerships & Sponsorships
 tags:
-  - nonprofit
-  - fundraising
-  - strategy
+- nonprofit
+- fundraising
+- strategy
 use_cases:
-  - Building corporate partnership programs
-  - Securing corporate sponsorships
-  - Cause marketing collaborations
-  - Employee engagement programs
+- Building corporate partnership programs
+- Securing corporate sponsorships
+- Cause marketing collaborations
+- Employee engagement programs
 related_templates:
-  - nonprofit/Fundraising-Development/major-gifts.md
-  - communication/partner-collaboration.md
-  - sales-marketing/partnership-development.md
+- nonprofit/Fundraising-Development/major-gifts.md
+- communication/partner-collaboration.md
 industries:
-  - nonprofit
+- nonprofit
+
 ---
 
 # Corporate Partnerships & Sponsorships

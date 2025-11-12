@@ -3,19 +3,20 @@ category: nonprofit/Program-Management
 last_updated: 2025-11-11
 title: Volunteer Recruitment & Management
 tags:
-  - nonprofit
-  - operations
-  - human-resources
+- nonprofit
+- operations
+- human-resources
 use_cases:
-  - Building volunteer programs
-  - Recruiting and screening volunteers
-  - Volunteer engagement and retention
-  - Managing volunteer operations
+- Building volunteer programs
+- Recruiting and screening volunteers
+- Volunteer engagement and retention
+- Managing volunteer operations
 related_templates:
-  - nonprofit/Program-Management/volunteer-management.md
-  - human-resources/recruitment.md
+- nonprofit/Program-Management/volunteer-management.md
+- human-resources/recruitment-overview.md
 industries:
-  - nonprofit
+- nonprofit
+
 ---
 
 # Volunteer Recruitment & Management

@@ -3,28 +3,28 @@ category: sustainability/Circular-Economy
 last_updated: 2025-11-12
 title: Sustainable & Ethical Supply Chain Management
 tags:
-  - sustainability
-  - supply-chain
-  - esg
-  - procurement
-  - ethical-sourcing
+- sustainability
+- supply-chain
+- esg
+- procurement
+- ethical-sourcing
 use_cases:
-  - Building sustainable and ethical supply chains with transparency
-  - Conducting supplier sustainability assessments and audits
-  - Managing supply chain ESG risks and human rights due diligence
-  - Developing supplier engagement and capacity building programs
+- Building sustainable and ethical supply chains with transparency
+- Conducting supplier sustainability assessments and audits
+- Managing supply chain ESG risks and human rights due diligence
+- Developing supplier engagement and capacity building programs
 related_templates:
-  - sustainability/circular-economy-strategy.md
-  - sustainability/esg-risk-assessment.md
-  - operations/supply-chain-optimization.md
-  - legal-compliance/risk-management.md
+- sustainability/circular-economy-strategy.md
+- sustainability/esg-risk-assessment.md
+- legal-compliance/risk-management.md
 industries:
-  - manufacturing
-  - retail
-  - technology
-  - healthcare
-  - finance
-  - construction
+- manufacturing
+- retail
+- technology
+- healthcare
+- finance
+- construction
+
 ---
 
 # Sustainable & Ethical Supply Chain Management Template

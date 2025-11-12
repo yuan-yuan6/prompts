@@ -3,26 +3,27 @@ category: product-management/Product-Strategy
 last_updated: 2025-11-12
 title: Product Strategy & Vision Development
 tags:
-  - product-management
-  - strategy
-  - planning
-  - framework
+- product-management
+- strategy
+- planning
+- framework
 use_cases:
-  - Defining long-term product strategy and vision for new or existing products
-  - Aligning product direction with company strategy and market opportunities
-  - Creating compelling product vision that inspires teams and stakeholders
-  - Strategic planning for product portfolios and platform strategies
+- Defining long-term product strategy and vision for new or existing products
+- Aligning product direction with company strategy and market opportunities
+- Creating compelling product vision that inspires teams and stakeholders
+- Strategic planning for product portfolios and platform strategies
 related_templates:
-  - strategy/strategic-planning.md
-  - product-management/product-roadmapping.md
-  - product-management/product-market-fit.md
-  - product-management/market-competitive-analysis.md
+- strategy/business-planning.md
+- product-management/product-roadmapping.md
+- product-management/product-market-fit.md
+- product-management/market-competitive-analysis.md
 industries:
-  - technology
-  - finance
-  - healthcare
-  - retail
-  - manufacturing
+- technology
+- finance
+- healthcare
+- retail
+- manufacturing
+
 ---
 
 # Product Strategy & Vision Development Template

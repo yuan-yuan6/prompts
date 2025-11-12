@@ -13,13 +13,13 @@ use_cases:
 - Maintaining continuous compliance posture
 related_templates:
 - security/Cybersecurity/security-audit.md
-- security/Compliance-Governance/compliance-management.md
 - security/Cloud-Security/cloud-security-architecture.md
 industries:
 - finance
 - government
 - healthcare
 - technology
+
 ---
 
 # Security Compliance Framework

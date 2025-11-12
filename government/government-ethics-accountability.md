@@ -3,19 +3,19 @@ category: government
 last_updated: 2025-11-11
 title: Government Ethics & Accountability
 tags:
-  - government
-  - legal-compliance
-  - management
+- government
+- legal-compliance
+- management
 use_cases:
-  - Implementing ethics programs
-  - Preventing corruption and conflicts
-  - Ethics training and enforcement
-  - Promoting integrity in government
+- Implementing ethics programs
+- Preventing corruption and conflicts
+- Ethics training and enforcement
+- Promoting integrity in government
 related_templates:
-  - legal-compliance/ethics-compliance.md
-  - government/Regulatory/regulatory-compliance-enforcement.md
+- government/Regulatory/regulatory-compliance-enforcement.md
 industries:
-  - government
+- government
+
 ---
 
 # Government Ethics & Accountability
