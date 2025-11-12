@@ -2,8 +2,8 @@
 category: education/Academic-Research
 last_updated: 2025-11-09
 related_templates:
-- curriculum-development.md
-- curriculum-development-framework.md
+- education/curriculum-development.md
+- education/curriculum-development-framework.md
 tags:
 - automation
 - communication
@@ -16,6 +16,10 @@ use_cases:
   and impact statements for academic research funding opportunities.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- government
+- healthcare
 ---
 
 # Grant Writing & Proposals Generator

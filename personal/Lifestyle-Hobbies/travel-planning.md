@@ -1,12 +1,22 @@
 ---
 title: Travel Planning Template
 category: personal/Lifestyle-Hobbies
-tags: [personal, research, strategy, template]
+tags:
+- personal
+- research
+- strategy
 use_cases:
-  - Creating comprehensive travel plans including itineraries, research, and budgets to ensure memorable, well-organized, and cost-effective travel experiences.
-  - Project planning and execution
-  - Strategy development
+- Creating comprehensive travel plans including itineraries, research, and budgets
+  to ensure memorable, well-organized, and cost-effective travel experiences.
+- Project planning and execution
+- Strategy development
 last_updated: 2025-11-09
+industries:
+- finance
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Travel Planning Template

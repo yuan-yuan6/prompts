@@ -1,13 +1,28 @@
 ---
 title: Nutrition Management Template
 category: personal/Health-Wellness
-tags: [data-science, design, management, optimization, personal, research, strategy, template]
+tags:
+- ai-ml
+- design
+- management
+- optimization
+- personal
+- research
+- strategy
 use_cases:
-  - Creating develop comprehensive nutrition strategies including meal planning, dietary tracking, and health goal achievement to optimize physical wellbeing, energy levels, and long-term health outcomes through evidence-based dietary approaches.
-
-  - Project planning and execution
-  - Strategy development
+- Creating develop comprehensive nutrition strategies including meal planning, dietary
+  tracking, and health goal achievement to optimize physical wellbeing, energy levels,
+  and long-term health outcomes through evidence-based dietary approaches.
+- Project planning and execution
+- Strategy development
 last_updated: 2025-11-09
+industries:
+- education
+- finance
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Nutrition Management Template

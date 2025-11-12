@@ -2,24 +2,22 @@
 category: data-analytics/Analytics-Engineering
 last_updated: 2025-11-10
 related_templates:
-- pipeline-ingestion.md
-- pipeline-transformation.md
-- pipeline-orchestration.md
-- pipeline-observability.md
+- data-analytics/Analytics-Engineering/pipeline-ingestion.md
+- data-analytics/Analytics-Engineering/pipeline-transformation.md
+- data-analytics/Analytics-Engineering/pipeline-orchestration.md
+- data-analytics/Analytics-Engineering/pipeline-observability.md
 tags:
 - automation
 - data-analytics
 - infrastructure
-- terraform
-- kubernetes
-- performance
-- scaling
 title: Pipeline Infrastructure & Performance Template
 use_cases:
 - Implementing pipeline performance optimization strategies
 - Designing infrastructure as code with Terraform for data platforms
 - Deploying containerized pipelines with Kubernetes orchestration
 - Building auto-scaling and resource management systems
+industries:
+- technology
 ---
 
 # Pipeline Infrastructure & Performance Template

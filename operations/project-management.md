@@ -6,12 +6,10 @@ related_templates:
 - strategy/digital-transformation-roadmap.md
 - operations/lean-six-sigma-implementation.md
 tags:
-- business
 - management
 - optimization
 - security
 - strategy
-- template
 - testing
 title: Project Management Template Generator
 use_cases:
@@ -19,6 +17,13 @@ use_cases:
   tracking, and reporting to ensure successful project delivery and stakeholder satisfaction.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Project Management Template Generator

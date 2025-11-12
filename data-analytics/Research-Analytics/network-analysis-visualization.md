@@ -1,18 +1,24 @@
 ---
 title: Network Analysis - Visualization and Reporting
 category: data-analytics/Research-Analytics
-tags: [data-analytics, data-science, network-analysis, visualization, reporting]
+tags:
+- data-analytics
+- ai-ml
 use_cases:
-  - Creating comprehensive network visualizations
-  - Building interactive network dashboards
-  - Generating network analysis reports
-  - Visualizing communities, centrality, and temporal evolution
+- Creating comprehensive network visualizations
+- Building interactive network dashboards
+- Generating network analysis reports
+- Visualizing communities, centrality, and temporal evolution
 related_templates:
-  - data-analytics/Research Analytics/network-analysis-data-preparation.md
-  - data-analytics/Research Analytics/network-analysis-centrality-community.md
-  - data-analytics/Research Analytics/network-analysis-paths-temporal.md
-  - data-analytics/Research Analytics/network-analysis-overview.md
+- data-analytics/Research Analytics/network-analysis-data-preparation.md
+- data-analytics/Research Analytics/network-analysis-centrality-community.md
+- data-analytics/Research Analytics/network-analysis-paths-temporal.md
+- data-analytics/Research Analytics/network-analysis-overview.md
 last_updated: 2025-11-10
+industries:
+- government
+- manufacturing
+- technology
 ---
 
 # Network Analysis - Visualization and Reporting

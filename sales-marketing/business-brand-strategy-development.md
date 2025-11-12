@@ -6,9 +6,8 @@ related_templates:
 - strategy/digital-transformation-roadmap.md
 - operations/lean-six-sigma-implementation.md
 tags:
-- business
 - communication
-- data-science
+- ai-ml
 - design
 - development
 - framework
@@ -21,6 +20,12 @@ use_cases:
   and performance measurement across all customer touchpoints and market segments.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Brand Strategy Development & Management Framework

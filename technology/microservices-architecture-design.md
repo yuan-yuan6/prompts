@@ -1,13 +1,26 @@
 ---
 title: Microservices Architecture Design Framework
 category: technology
-tags: [communication, design, development, framework, machine-learning, management, strategy, technology]
+tags:
+- communication
+- design
+- development
+- framework
+- ai-ml
+- management
+- strategy
 use_cases:
-  - Creating comprehensive framework for designing and implementing microservices architecture including service decomposition, api design, communication patterns, data management, deployment strategies, and operational considerations for scalable distributed systems.
-
-  - Project planning and execution
-  - Strategy development
+- Creating comprehensive framework for designing and implementing microservices architecture
+  including service decomposition, api design, communication patterns, data management,
+  deployment strategies, and operational considerations for scalable distributed systems.
+- Project planning and execution
+- Strategy development
 last_updated: 2025-11-09
+industries:
+- finance
+- government
+- retail
+- technology
 ---
 
 # Microservices Architecture Design Framework

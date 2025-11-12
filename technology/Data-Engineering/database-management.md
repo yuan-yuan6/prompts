@@ -2,18 +2,17 @@
 category: technology/Data-Engineering
 last_updated: 2025-11-09
 related_templates:
-- cloud-architecture-framework.md
-- site-reliability-engineering.md
-- cloud-migration-strategy.md
+- technology/cloud-architecture-framework.md
+- technology/site-reliability-engineering.md
+- technology/cloud-migration-strategy.md
 tags:
 - communication
-- data-science
+- ai-ml
 - design
 - management
 - optimization
 - research
 - security
-- strategy
 title: Database Management Template
 use_cases:
 - Creating comprehensive database management including schema design, query optimization,
@@ -21,6 +20,11 @@ use_cases:
   database systems.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- government
+- retail
+- technology
 ---
 
 # Database Management Template

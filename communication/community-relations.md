@@ -10,9 +10,7 @@ tags:
 - development
 - management
 - marketing
-- professional-services
 - strategy
-- template
 title: Community Relations & Outreach Prompt Template
 use_cases:
 - Creating comprehensive framework for building strong community relationships, planning
@@ -21,6 +19,15 @@ use_cases:
   and the communities it serves.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- finance
+- government
+- healthcare
+- manufacturing
+- nonprofit
+- retail
+- technology
 ---
 
 # Community Relations & Outreach Prompt Template

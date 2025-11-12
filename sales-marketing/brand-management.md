@@ -6,11 +6,10 @@ related_templates:
 - strategy/digital-transformation-roadmap.md
 - operations/lean-six-sigma-implementation.md
 tags:
-- business
 - communication
 - design
 - development
-- machine-learning
+- ai-ml
 - management
 - marketing
 - optimization
@@ -21,6 +20,12 @@ use_cases:
   market differentiation.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- government
+- healthcare
+- manufacturing
+- retail
 ---
 
 # Brand Management Template Generator

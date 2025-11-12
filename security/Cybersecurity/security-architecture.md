@@ -2,17 +2,15 @@
 category: security/Cybersecurity
 last_updated: 2025-11-09
 related_templates:
-- cloud-architecture-framework.md
-- site-reliability-engineering.md
-- cloud-migration-strategy.md
+- technology/cloud-architecture-framework.md
+- technology/site-reliability-engineering.md
+- technology/cloud-migration-strategy.md
 tags:
 - design
-- machine-learning
+- ai-ml
 - management
 - security
 - strategy
-- technology
-- template
 title: Security Architecture Template
 use_cases:
 - Creating design comprehensive security architecture including security design principles,
@@ -20,6 +18,9 @@ use_cases:
   security systems.
 - Project planning and execution
 - Strategy development
+industries:
+- government
+- technology
 ---
 
 # Security Architecture Template

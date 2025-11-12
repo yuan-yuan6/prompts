@@ -6,8 +6,7 @@ related_templates:
 - operations/Transportation-Logistics/warehouse-management-system.md
 - operations/Transportation-Logistics/fleet-management-system.md
 tags:
-- data-science
-- industry
+- ai-ml
 - management
 - optimization
 - research
@@ -19,6 +18,13 @@ use_cases:
   commercial and logistics fleets.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Fleet Optimization & Management System

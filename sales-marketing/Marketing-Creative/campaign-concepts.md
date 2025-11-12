@@ -11,7 +11,6 @@ tags:
 - development
 - marketing
 - strategy
-- template
 title: Campaign Concepts Template
 use_cases:
 - Creating develop comprehensive marketing campaign concepts including themes, messaging,
@@ -19,6 +18,11 @@ use_cases:
   across multiple channels.
 - Project planning and execution
 - Strategy development
+industries:
+- government
+- healthcare
+- manufacturing
+- retail
 ---
 
 # Campaign Concepts Template

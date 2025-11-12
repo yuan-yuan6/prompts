@@ -1,10 +1,24 @@
 ---
 title: Generative AI Implementation - Overview & Navigation
 category: technology/Emerging-Technologies
-tags: [automation, design, development, machine-learning, optimization, security, strategy, technology]
+tags:
+- automation
+- design
+- development
+- ai-ml
+- optimization
+- security
+- strategy
 use_cases:
-  - Creating comprehensive generative AI implementation strategies covering large language models, diffusion models, prompting techniques, fine-tuning approaches, retrieval-augmented generation, AI agents, and ethical considerations
+- Creating comprehensive generative AI implementation strategies covering large language
+  models, diffusion models, prompting techniques, fine-tuning approaches, retrieval-augmented
+  generation, AI agents, and ethical considerations
 last_updated: 2025-11-11
+industries:
+- government
+- healthcare
+- manufacturing
+- technology
 ---
 
 # Generative AI Implementation - Overview & Navigation

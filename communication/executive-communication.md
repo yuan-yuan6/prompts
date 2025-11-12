@@ -8,9 +8,7 @@ tags:
 - communication
 - design
 - management
-- professional-services
 - strategy
-- template
 title: Executive Communication & Briefings Prompt Template
 use_cases:
 - Creating comprehensive framework for crafting executive-level communications, briefings,
@@ -18,6 +16,14 @@ use_cases:
   leadership alignment.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Executive Communication & Briefings Prompt Template

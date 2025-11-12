@@ -1,13 +1,25 @@
 ---
 title: Skill Acquisition Strategies Prompt Template
 category: personal/Personal-Development
-tags: [data-science, personal, research, strategy, template]
+tags:
+- ai-ml
+- personal
+- research
+- strategy
 use_cases:
-  - Creating comprehensive framework for rapidly acquiring new skills, developing competencies, and achieving mastery through evidence-based learning methodologies and deliberate practice techniques.
-
-  - Project planning and execution
-  - Strategy development
+- Creating comprehensive framework for rapidly acquiring new skills, developing competencies,
+  and achieving mastery through evidence-based learning methodologies and deliberate
+  practice techniques.
+- Project planning and execution
+- Strategy development
 last_updated: 2025-11-09
+industries:
+- education
+- finance
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Skill Acquisition Strategies Prompt Template

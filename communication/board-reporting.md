@@ -10,7 +10,6 @@ tags:
 - development
 - management
 - optimization
-- professional-services
 - security
 - strategy
 title: Board Reporting & Governance Prompt Template
@@ -20,6 +19,15 @@ use_cases:
   committees.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- finance
+- government
+- healthcare
+- manufacturing
+- nonprofit
+- retail
+- technology
 ---
 
 # Board Reporting & Governance Prompt Template

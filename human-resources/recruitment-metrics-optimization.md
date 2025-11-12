@@ -6,16 +6,18 @@ related_templates:
 - human-resources/screening-interview-process.md
 - human-resources/candidate-assessment-selection.md
 tags:
-- recruitment-metrics
-- hiring-analytics
-- process-improvement
-- diversity
 - hr
 title: Recruitment Metrics & Optimization
 use_cases:
 - Tracking and analyzing recruitment KPIs
 - Optimizing recruitment processes and efficiency
 - Measuring diversity and inclusion in hiring
+industries:
+- finance
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Recruitment Metrics & Optimization

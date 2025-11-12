@@ -2,12 +2,11 @@
 category: technology/Emerging-Technologies/Blockchain-Web3
 last_updated: 2025-11-09
 related_templates:
-- generative-ai-implementation.md
+- technology/Emerging-Technologies/generative-ai-implementation.md
 tags:
 - design
 - development
 - framework
-- technology
 title: Blockchain Architecture & Implementation Framework
 use_cases:
 - Creating comprehensive framework for designing, developing, and deploying blockchain
@@ -15,6 +14,11 @@ use_cases:
   applications (dapps).
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- government
+- manufacturing
+- technology
 ---
 
 # Blockchain Architecture & Implementation Framework

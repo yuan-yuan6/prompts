@@ -2,9 +2,9 @@
 category: technology/Software-Development
 last_updated: 2025-11-09
 related_templates:
-- cloud-architecture-framework.md
-- site-reliability-engineering.md
-- cloud-migration-strategy.md
+- technology/cloud-architecture-framework.md
+- technology/site-reliability-engineering.md
+- technology/cloud-migration-strategy.md
 tags:
 - automation
 - design
@@ -12,8 +12,6 @@ tags:
 - documentation
 - security
 - strategy
-- technology
-- template
 title: Technical Documentation Template
 use_cases:
 - Creating comprehensive technical documentation including API documentation, system
@@ -21,6 +19,12 @@ use_cases:
   clear structure and professional presentation.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- government
+- manufacturing
+- retail
+- technology
 ---
 
 # Technical Documentation Template

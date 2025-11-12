@@ -1,16 +1,29 @@
 ---
 title: Patient Care Plans Template
 category: healthcare/Medical-Clinical
-tags: [design, documentation, healthcare, management, security, strategy, template]
+tags:
+- design
+- documentation
+- healthcare
+- management
+- security
+- strategy
 use_cases:
-  - General application
-  - Professional use
-  - Project implementation
+- General application
+- Professional use
+- Project implementation
 related_templates:
-  - healthcare/telemedicine-platform-design.md
-  - healthcare/patient-care-pathway.md
-  - healthcare/clinical-trials-management.md
+- healthcare/telemedicine-platform-design.md
+- healthcare/patient-care-pathway.md
+- healthcare/clinical-trials-management.md
 last_updated: 2025-11-09
+industries:
+- education
+- finance
+- government
+- healthcare
+- nonprofit
+- technology
 ---
 
 # Patient Care Plans Template

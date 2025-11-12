@@ -16,6 +16,12 @@ use_cases:
   and institutional sustainability.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- finance
+- government
+- nonprofit
+- retail
 ---
 
 # Museum & Cultural Institution Management Framework

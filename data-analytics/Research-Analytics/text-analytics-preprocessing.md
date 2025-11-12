@@ -2,24 +2,23 @@
 category: data-analytics/Research-Analytics
 last_updated: 2025-11-10
 related_templates:
-- text-analytics-sentiment-analysis.md
-- text-analytics-topic-modeling.md
-- text-analytics-overview.md
+- data-analytics/Research-Analytics/text-analytics-sentiment-analysis.md
+- data-analytics/Research-Analytics/text-analytics-topic-modeling.md
+- data-analytics/Research-Analytics/text-analytics-overview.md
 tags:
 - automation
 - data-analytics
-- data-science
-- machine-learning
-- nlp
-- preprocessing
-- feature-engineering
-- template
+- ai-ml
 title: Text Analytics - Preprocessing and Feature Engineering
 use_cases:
 - Clean and preprocess raw text data for NLP analysis, including tokenization, normalization,
   and text cleaning operations.
 - Engineer text features using TF-IDF, word embeddings, and linguistic features for
   machine learning models.
+industries:
+- education
+- manufacturing
+- technology
 ---
 
 # Text Analytics - Preprocessing and Feature Engineering

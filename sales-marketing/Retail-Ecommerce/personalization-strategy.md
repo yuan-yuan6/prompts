@@ -9,7 +9,6 @@ tags:
 - design
 - development
 - framework
-- industry
 - marketing
 - optimization
 - strategy
@@ -20,6 +19,10 @@ use_cases:
   loyalty through data-driven customization.
 - Project planning and execution
 - Strategy development
+industries:
+- government
+- healthcare
+- retail
 ---
 
 # E-commerce Personalization & Customer Experience Framework

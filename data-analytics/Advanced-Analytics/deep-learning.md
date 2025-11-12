@@ -2,18 +2,17 @@
 category: data-analytics/Advanced-Analytics
 last_updated: 2025-11-09
 related_templates:
-- dashboard-design-patterns.md
-- data-governance-framework.md
-- predictive-modeling-framework.md
+- data-analytics/dashboard-design-patterns.md
+- data-analytics/data-governance-framework.md
+- data-analytics/predictive-modeling-framework.md
 tags:
 - automation
 - data-analytics
 - design
 - development
 - framework
-- machine-learning
+- ai-ml
 - strategy
-- testing
 title: Deep Learning & Neural Network Implementation Framework
 use_cases:
 - Creating comprehensive framework for designing, training, deploying, and optimizing
@@ -21,6 +20,9 @@ use_cases:
   training, and production deployment.
 - Project planning and execution
 - Strategy development
+industries:
+- manufacturing
+- technology
 ---
 
 # Deep Learning & Neural Network Implementation Framework

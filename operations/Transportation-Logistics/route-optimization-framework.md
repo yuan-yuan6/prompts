@@ -1,13 +1,27 @@
 ---
 title: Route Optimization & Logistics Planning Framework
 category: operations
-tags: [design, framework, industry, management, optimization, strategy]
+tags:
+- design
+- framework
+- management
+- optimization
+- strategy
 use_cases:
-  - Creating comprehensive framework for optimizing delivery routes and logistics operations including multi-stop planning, real-time adjustments, constraint management, vehicle routing problems (vrp), and last-mile delivery optimization for maximum efficiency and customer satisfaction.
-
-  - Project planning and execution
-  - Strategy development
+- Creating comprehensive framework for optimizing delivery routes and logistics operations
+  including multi-stop planning, real-time adjustments, constraint management, vehicle
+  routing problems (vrp), and last-mile delivery optimization for maximum efficiency
+  and customer satisfaction.
+- Project planning and execution
+- Strategy development
 last_updated: 2025-11-09
+industries:
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Route Optimization & Logistics Planning Framework

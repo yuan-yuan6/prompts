@@ -1,7 +1,12 @@
 ---
 title: Music Audio Comprehensive - Overview & Navigation
 category: content-creation/Entertainment
-tags: [communication, comprehensive, creative, design, optimization, template, testing]
+tags:
+- communication
+- creative
+- design
+- optimization
+- testing
 parent_prompt: music-audio-comprehensive (split into 3 parts)
 last_updated: 2025-11-11
 ---

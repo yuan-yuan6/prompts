@@ -2,24 +2,23 @@
 category: data-analytics/Analytics-Engineering
 last_updated: 2025-11-10
 related_templates:
-- pipeline-transformation.md
-- pipeline-orchestration.md
-- pipeline-observability.md
-- data-governance-framework.md
+- data-analytics/Analytics-Engineering/pipeline-transformation.md
+- data-analytics/Analytics-Engineering/pipeline-orchestration.md
+- data-analytics/Analytics-Engineering/pipeline-observability.md
+- data-analytics/data-governance-framework.md
 tags:
 - automation
 - data-analytics
 - development
-- ingestion
-- etl
-- cdc
-- streaming
 title: Pipeline Data Ingestion Template
 use_cases:
 - Designing batch data ingestion pipelines with validation and error handling
 - Implementing real-time streaming ingestion from message queues and event sources
 - Setting up Change Data Capture (CDC) pipelines for database synchronization
 - Building resilient data extraction layers with retry logic and monitoring
+industries:
+- manufacturing
+- technology
 ---
 
 # Pipeline Data Ingestion Template

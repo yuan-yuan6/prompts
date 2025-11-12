@@ -7,8 +7,7 @@ related_templates:
 - legal-compliance/intellectual-property-management.md
 tags:
 - design
-- professional-services
-- template
+- management
 title: Contract Drafting Template
 use_cases:
 - Creating comprehensive legal contracts, agreements, terms of service, and binding
@@ -16,6 +15,13 @@ use_cases:
   that protect interests while maintaining clarity and legal validity.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Contract Drafting Template

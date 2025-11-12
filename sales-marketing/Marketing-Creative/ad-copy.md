@@ -8,16 +8,19 @@ tags:
 - automation
 - communication
 - creative
-- data-science
+- ai-ml
 - documentation
 - marketing
 - research
-- template
 title: Ad Copy Template
 use_cases:
 - Write A/B test variations for Facebook/Google ads (15-30 min for 3-5 versions)
 - Create platform-specific ad copy for multi-channel campaign launch
 - Develop compelling headlines and CTAs that improve click-through rates
+industries:
+- healthcare
+- manufacturing
+- retail
 ---
 
 # Ad Copy Template

@@ -2,13 +2,12 @@
 category: healthcare/Clinical-Practice
 last_updated: 2025-11-09
 related_templates:
-- telemedicine-platform-design.md
-- patient-care-pathway.md
-- clinical-trials-management.md
+- healthcare/telemedicine-platform-design.md
+- healthcare/patient-care-pathway.md
+- healthcare/clinical-trials-management.md
 tags:
 - documentation
 - healthcare
-- template
 title: Clinical Decision Support Template
 use_cases:
 - Creating comprehensive clinical decision support tools including diagnostic algorithms,
@@ -16,6 +15,9 @@ use_cases:
   clinical judgment and improve patient outcomes.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- healthcare
 ---
 
 # Clinical Decision Support Template

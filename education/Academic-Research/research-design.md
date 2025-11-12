@@ -2,16 +2,14 @@
 category: education/Academic-Research
 last_updated: 2025-11-09
 related_templates:
-- curriculum-development.md
-- curriculum-development-framework.md
+- education/curriculum-development.md
+- education/curriculum-development-framework.md
 tags:
-- data-science
+- ai-ml
 - design
 - education
-- machine-learning
 - research
 - strategy
-- template
 title: Research Design Template Generator
 use_cases:
 - Creating comprehensive research design strategies covering quantitative, qualitative,
@@ -20,6 +18,14 @@ use_cases:
   academic and applied research projects.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- finance
+- government
+- healthcare
+- manufacturing
+- nonprofit
+- technology
 ---
 
 # Research Design Template Generator

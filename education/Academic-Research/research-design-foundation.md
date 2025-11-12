@@ -2,22 +2,21 @@
 category: education/Academic-Research
 last_updated: 2025-11-10
 related_templates:
-- research-design-sampling-data.md
-- research-design-analysis-quality.md
-- research-design-overview.md
+- education/Academic-Research/research-design-sampling-data.md
+- education/Academic-Research/research-design-analysis-quality.md
+- education/Academic-Research/research-design-overview.md
 tags:
 - research
 - design
-- theory
-- methodology
 - framework
-- foundation
-- paradigm
 title: Research Design Foundation - Theoretical Framework & Design Selection
 use_cases:
 - Developing theoretical frameworks and research foundations for academic studies
 - Selecting appropriate research paradigms and design methodologies
 - Building conceptual models and establishing epistemological foundations
+industries:
+- education
+- healthcare
 ---
 
 # Research Design Foundation - Theoretical Framework & Design Selection

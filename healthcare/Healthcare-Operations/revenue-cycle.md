@@ -2,9 +2,9 @@
 category: healthcare/Healthcare-Operations
 last_updated: 2025-11-09
 related_templates:
-- telemedicine-platform-design.md
-- patient-care-pathway.md
-- clinical-trials-management.md
+- healthcare/telemedicine-platform-design.md
+- healthcare/patient-care-pathway.md
+- healthcare/clinical-trials-management.md
 tags:
 - framework
 - healthcare
@@ -18,6 +18,12 @@ use_cases:
   and denial management to maximize reimbursement and cash flow.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- finance
+- government
+- healthcare
+- manufacturing
 ---
 
 # Healthcare Revenue Cycle Management Framework

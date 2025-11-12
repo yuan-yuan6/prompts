@@ -4,10 +4,8 @@ last_updated: 2025-11-11
 related_templates:
 - operations/Sports/athlete-performance-optimization.md
 tags:
-- sports
 - operations
-- data-science
-- analytics
+- ai-ml
 - development
 - framework
 - optimization
@@ -20,6 +18,12 @@ use_cases:
   and competitive advantage development.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Sports Team Analytics & Performance Optimization Framework

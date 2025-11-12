@@ -2,16 +2,14 @@
 category: technology/Software-Development
 last_updated: 2025-11-09
 related_templates:
-- cloud-architecture-framework.md
-- site-reliability-engineering.md
-- cloud-migration-strategy.md
+- technology/cloud-architecture-framework.md
+- technology/site-reliability-engineering.md
+- technology/cloud-migration-strategy.md
 tags:
 - design
 - documentation
 - optimization
 - security
-- technology
-- template
 - testing
 title: Code Generation Template
 use_cases:
@@ -19,6 +17,10 @@ use_cases:
   complete applications with comprehensive documentation and best practices.
 - Project planning and execution
 - Strategy development
+industries:
+- government
+- manufacturing
+- technology
 ---
 
 # Code Generation Template

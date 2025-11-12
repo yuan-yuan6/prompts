@@ -2,18 +2,16 @@
 category: technology/Data-Engineering
 last_updated: 2025-11-09
 related_templates:
-- cloud-architecture-framework.md
-- site-reliability-engineering.md
-- cloud-migration-strategy.md
+- technology/cloud-architecture-framework.md
+- technology/site-reliability-engineering.md
+- technology/cloud-migration-strategy.md
 tags:
 - communication
 - design
 - documentation
-- machine-learning
+- ai-ml
 - optimization
 - security
-- technology
-- template
 title: Integration Patterns Template
 use_cases:
 - Creating design comprehensive integration patterns for apis, messaging systems,
@@ -21,6 +19,12 @@ use_cases:
   scalability, reliability, and maintainability considerations.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- government
+- manufacturing
+- retail
+- technology
 ---
 
 # Integration Patterns Template

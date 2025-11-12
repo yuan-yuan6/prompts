@@ -2,18 +2,17 @@
 category: security/Cybersecurity
 last_updated: 2025-11-09
 related_templates:
-- cloud-architecture-framework.md
-- site-reliability-engineering.md
-- cloud-migration-strategy.md
+- technology/cloud-architecture-framework.md
+- technology/site-reliability-engineering.md
+- technology/cloud-migration-strategy.md
 tags:
 - communication
-- data-science
+- ai-ml
 - design
 - management
 - research
 - security
 - strategy
-- technology
 title: Incident Response Template
 use_cases:
 - Creating comprehensive incident response planning including detection, analysis,
@@ -21,6 +20,8 @@ use_cases:
   incident management.
 - Project planning and execution
 - Strategy development
+industries:
+- technology
 ---
 
 # Incident Response Template

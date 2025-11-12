@@ -1,16 +1,23 @@
 ---
 title: Research Design - Analysis Framework & Quality Assurance
 category: education/Academic-Research
-tags: [research, analysis, statistics, quality, validity, reliability, trustworthiness]
+tags:
+- research
+- analysis
 use_cases:
-  - Developing comprehensive data analysis plans and statistical strategies
-  - Establishing validity and reliability frameworks for quantitative research
-  - Building trustworthiness and quality assurance systems for qualitative research
+- Developing comprehensive data analysis plans and statistical strategies
+- Establishing validity and reliability frameworks for quantitative research
+- Building trustworthiness and quality assurance systems for qualitative research
 related_templates:
-  - education/Academic Research/research-design-sampling-data.md
-  - education/Academic Research/research-design-foundation.md
-  - education/Academic Research/research-design-overview.md
+- education/Academic Research/research-design-sampling-data.md
+- education/Academic Research/research-design-foundation.md
+- education/Academic Research/research-design-overview.md
 last_updated: 2025-11-10
+industries:
+- education
+- government
+- healthcare
+- manufacturing
 ---
 
 # Research Design - Analysis Framework & Quality Assurance

@@ -1,13 +1,27 @@
 ---
 title: Product Sourcing & Supplier Management Framework
 category: sales-marketing
-tags: [data-science, design, development, framework, industry, management, research, strategy]
+tags:
+- ai-ml
+- design
+- development
+- framework
+- management
+- research
+- strategy
 use_cases:
-  - Creating comprehensive framework for developing product sourcing strategies including supplier identification, evaluation, negotiation, quality control, and relationship management for retail and e-commerce businesses.
-
-  - Project planning and execution
-  - Strategy development
+- Creating comprehensive framework for developing product sourcing strategies including
+  supplier identification, evaluation, negotiation, quality control, and relationship
+  management for retail and e-commerce businesses.
+- Project planning and execution
+- Strategy development
 last_updated: 2025-11-09
+industries:
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
 ---
 
 # Product Sourcing & Supplier Management Framework

@@ -2,24 +2,23 @@
 category: education/Teaching-Instruction
 last_updated: 2025-11-09
 related_templates:
-- course-foundations-objectives.md
-- course-content-curriculum.md
-- course-assessment-strategy.md
-- course-technology-integration.md
-- course-accessibility-inclusion.md
-- course-student-engagement.md
-- course-quality-evaluation.md
-- course-implementation-plan.md
+- education/Teaching-Instruction/course-foundations-objectives.md
+- education/Teaching-Instruction/course-content-curriculum.md
+- education/Teaching-Instruction/course-assessment-strategy.md
+- education/Teaching-Instruction/course-technology-integration.md
+- education/Teaching-Instruction/course-accessibility-inclusion.md
+- education/Teaching-Instruction/course-student-engagement.md
+- education/Teaching-Instruction/course-quality-evaluation.md
+- education/Teaching-Instruction/course-implementation-plan.md
 tags:
-- course-design
-- overview
-- navigation
 - planning
 title: Course Design Overview & Navigation Guide
 use_cases:
 - Getting started with course design and understanding the process
 - Navigating to specialized course design prompts
 - Quick reference for course design components
+industries:
+- education
 ---
 
 # Course Design Overview & Navigation Guide

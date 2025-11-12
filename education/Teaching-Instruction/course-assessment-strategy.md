@@ -1,15 +1,19 @@
 ---
 title: Course Assessment Strategy Designer
 category: education/Teaching-Instruction
-tags: [assessment, evaluation, rubrics, grading, feedback]
+tags:
+- evaluation
 use_cases:
-  - Designing comprehensive assessment strategies with formative and summative components
-  - Creating valid and reliable assessment instruments and rubrics
-  - Developing feedback systems that promote learning and growth
+- Designing comprehensive assessment strategies with formative and summative components
+- Creating valid and reliable assessment instruments and rubrics
+- Developing feedback systems that promote learning and growth
 related_templates:
-  - education/Teaching & Instruction/course-foundations-objectives.md
-  - education/Teaching & Instruction/course-content-curriculum.md
+- education/Teaching & Instruction/course-foundations-objectives.md
+- education/Teaching & Instruction/course-content-curriculum.md
 last_updated: 2025-11-09
+industries:
+- education
+- government
 ---
 
 # Course Assessment Strategy Designer

@@ -6,13 +6,12 @@ related_templates:
 - content-creation/video-production-pipeline.md
 tags:
 - creative
-- data-science
+- ai-ml
 - design
 - marketing
 - optimization
 - research
 - strategy
-- template
 title: Landing Pages Template
 use_cases:
 - Creating high-converting landing pages with compelling copy, optimized structure,
@@ -20,6 +19,12 @@ use_cases:
   performance.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
 ---
 
 # Landing Pages Template

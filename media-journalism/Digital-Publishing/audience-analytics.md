@@ -6,7 +6,7 @@ related_templates:
 tags:
 - automation
 - creative
-- data-science
+- ai-ml
 - optimization
 - research
 title: Audience Analytics & Engagement Optimization

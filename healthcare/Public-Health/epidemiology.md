@@ -2,17 +2,16 @@
 category: healthcare/Public-Health
 last_updated: 2025-11-09
 related_templates:
-- telemedicine-platform-design.md
-- patient-care-pathway.md
-- clinical-trials-management.md
+- healthcare/telemedicine-platform-design.md
+- healthcare/patient-care-pathway.md
+- healthcare/clinical-trials-management.md
 tags:
-- data-science
+- ai-ml
 - design
 - healthcare
 - optimization
 - research
 - security
-- template
 title: Epidemiological Surveillance Template
 use_cases:
 - Creating comprehensive disease surveillance systems, outbreak investigation protocols,
@@ -20,6 +19,10 @@ use_cases:
   detect, track, and respond to health threats in populations.
 - Project planning and execution
 - Strategy development
+industries:
+- government
+- healthcare
+- technology
 ---
 
 # Epidemiological Surveillance Template

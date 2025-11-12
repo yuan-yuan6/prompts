@@ -2,23 +2,27 @@
 category: technology/DevOps-Cloud
 last_updated: 2025-11-09
 related_templates:
-- cloud-architecture-framework.md
-- site-reliability-engineering.md
-- cloud-migration-strategy.md
+- technology/cloud-architecture-framework.md
+- technology/site-reliability-engineering.md
+- technology/cloud-migration-strategy.md
 tags:
 - design
 - development
-- machine-learning
+- ai-ml
 - management
 - security
 - strategy
-- technology
-- template
 title: Infrastructure as Code (IaC) Development Template
 use_cases:
 - General application
 - Professional use
 - Project implementation
+industries:
+- finance
+- government
+- healthcare
+- manufacturing
+- technology
 ---
 
 # Infrastructure as Code (IaC) Development Template

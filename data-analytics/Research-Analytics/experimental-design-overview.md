@@ -2,22 +2,25 @@
 category: data-analytics/Research-Analytics
 last_updated: 2025-11-10
 related_templates:
-- experimental-design-setup.md
-- randomization-and-power-analysis.md
-- treatment-effect-analysis.md
-- validity-and-diagnostics.md
-- variables-and-implementation.md
+- data-analytics/Research-Analytics/experimental-design-setup.md
+- data-analytics/Research-Analytics/randomization-and-power-analysis.md
+- data-analytics/Research-Analytics/treatment-effect-analysis.md
+- data-analytics/Research-Analytics/validity-and-diagnostics.md
+- data-analytics/Research-Analytics/variables-and-implementation.md
 tags:
-- causal-inference
+- ai-ml
 - data-analytics
-- navigation
 - research
-- template
 title: Experimental Design and Causal Inference Overview
 use_cases:
 - Navigate the experimental design framework and select appropriate prompts for designing,
   implementing, and analyzing controlled experiments including RCTs, A/B tests, and
   causal inference studies
+industries:
+- education
+- government
+- healthcare
+- technology
 ---
 
 # Experimental Design and Causal Inference Overview

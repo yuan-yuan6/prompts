@@ -1,12 +1,27 @@
 ---
 title: Contract Drafting Template Generator
 category: legal-compliance
-tags: [data-science, management, optimization, professional-services, research, security, strategy, template]
+tags:
+- ai-ml
+- management
+- optimization
+- research
+- security
+- strategy
 use_cases:
-  - Creating comprehensive contract drafting strategies covering agreements, terms, clauses, warranties, indemnities, and legal provisions to ensure robust and enforceable contractual relationships while minimizing legal risks and protecting business interests.
-  - Project planning and execution
-  - Strategy development
+- Creating comprehensive contract drafting strategies covering agreements, terms,
+  clauses, warranties, indemnities, and legal provisions to ensure robust and enforceable
+  contractual relationships while minimizing legal risks and protecting business interests.
+- Project planning and execution
+- Strategy development
 last_updated: 2025-11-09
+industries:
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Contract Drafting Template Generator

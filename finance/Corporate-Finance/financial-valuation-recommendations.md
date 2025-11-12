@@ -2,20 +2,19 @@
 category: finance/Corporate-Finance
 last_updated: 2025-11-09
 related_templates:
-- financial-statement-analysis.md
-- financial-forecasting.md
-- financial-risk-assessment.md
+- finance/Corporate-Finance/financial-statement-analysis.md
+- finance/Corporate-Finance/financial-forecasting.md
+- finance/Corporate-Finance/financial-risk-assessment.md
 tags:
-- business
 - finance
-- valuation
-- investment-analysis
-- recommendations
 title: Financial Valuation & Investment Recommendations
 use_cases:
 - Conducting business and equity valuations
 - Developing investment recommendations
 - Supporting M&A and strategic decisions
+industries:
+- finance
+- technology
 ---
 
 # Financial Valuation & Investment Recommendations

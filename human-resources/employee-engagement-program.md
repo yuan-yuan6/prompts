@@ -1,13 +1,27 @@
 ---
 title: Employee Engagement Program & Culture Development Framework
 category: human-resources
-tags: [communication, data-science, design, development, framework, optimization, professional-services, research]
+tags:
+- communication
+- ai-ml
+- design
+- development
+- framework
+- optimization
+- management
 use_cases:
-  - Creating comprehensive employee engagement framework covering engagement assessment, program design, culture development, recognition systems, communication strategies, and performance measurement to build a highly engaged and productive workforce.
-
-  - Project planning and execution
-  - Strategy development
+- Creating comprehensive employee engagement framework covering engagement assessment,
+  program design, culture development, recognition systems, communication strategies,
+  and performance measurement to build a highly engaged and productive workforce.
+- Project planning and execution
+- Strategy development
 last_updated: 2025-11-09
+industries:
+- finance
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Employee Engagement Program & Culture Development Framework

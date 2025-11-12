@@ -1,18 +1,24 @@
 ---
 title: Network Analysis - Data Preparation
 category: data-analytics/Research-Analytics
-tags: [data-analytics, data-science, network-analysis, data-preparation, data-quality]
+tags:
+- data-analytics
+- ai-ml
+- data-quality
 use_cases:
-  - Loading and preprocessing network data from various formats
-  - Cleaning and validating network structure and attributes
-  - Creating subnetworks and filtering nodes/edges
-  - Preparing temporal network snapshots
+- Loading and preprocessing network data from various formats
+- Cleaning and validating network structure and attributes
+- Creating subnetworks and filtering nodes/edges
+- Preparing temporal network snapshots
 related_templates:
-  - data-analytics/Research Analytics/network-analysis-centrality-community.md
-  - data-analytics/Research Analytics/network-analysis-paths-temporal.md
-  - data-analytics/Research Analytics/network-analysis-visualization.md
-  - data-analytics/Research Analytics/network-analysis-overview.md
+- data-analytics/Research Analytics/network-analysis-centrality-community.md
+- data-analytics/Research Analytics/network-analysis-paths-temporal.md
+- data-analytics/Research Analytics/network-analysis-visualization.md
+- data-analytics/Research Analytics/network-analysis-overview.md
 last_updated: 2025-11-10
+industries:
+- manufacturing
+- technology
 ---
 
 # Network Analysis - Data Preparation

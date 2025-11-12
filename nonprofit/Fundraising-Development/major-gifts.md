@@ -2,8 +2,8 @@
 category: nonprofit/Fundraising-Development
 last_updated: 2025-11-09
 related_templates:
-- program-evaluation.md
-- fundraising-campaign-framework.md
+- nonprofit/program-evaluation.md
+- nonprofit/fundraising-campaign-framework.md
 tags:
 - framework
 - management
@@ -19,6 +19,11 @@ use_cases:
   programs, and moves management systems for nonprofit organizations.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- government
+- healthcare
+- nonprofit
 ---
 
 # Major Gifts Fundraising Strategy Framework

@@ -1,17 +1,31 @@
 ---
 title: Survey Analysis and Design Template
 category: data-analytics/Research-Analytics
-tags: [data-analytics, data-science, design, development, research, strategy, template, testing]
+tags:
+- data-analytics
+- ai-ml
+- design
+- development
+- research
+- strategy
+- testing
 use_cases:
-  - Creating design, implement, and analyze comprehensive surveys with proper sampling methodologies, questionnaire development, response analysis, and statistical validation to ensure reliable and valid research findings.
-
-  - Project planning and execution
-  - Strategy development
+- Creating design, implement, and analyze comprehensive surveys with proper sampling
+  methodologies, questionnaire development, response analysis, and statistical validation
+  to ensure reliable and valid research findings.
+- Project planning and execution
+- Strategy development
 related_templates:
-  - data-analytics/dashboard-design-patterns.md
-  - data-analytics/data-governance-framework.md
-  - data-analytics/predictive-modeling-framework.md
+- data-analytics/dashboard-design-patterns.md
+- data-analytics/data-governance-framework.md
+- data-analytics/predictive-modeling-framework.md
 last_updated: 2025-11-09
+industries:
+- education
+- government
+- healthcare
+- manufacturing
+- technology
 ---
 
 # Survey Analysis and Design Template

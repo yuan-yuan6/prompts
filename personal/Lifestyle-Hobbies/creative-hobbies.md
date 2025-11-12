@@ -1,13 +1,28 @@
 ---
 title: Creative Hobbies Template
 category: personal/Lifestyle-Hobbies
-tags: [communication, design, development, optimization, personal, research, template, testing]
+tags:
+- communication
+- design
+- development
+- optimization
+- personal
+- research
+- testing
 use_cases:
-  - Creating develop engaging creative hobby pursuits including writing, art, music, and crafts to foster personal expression, skill development, and fulfillment through structured creative practice and project completion.
-
-  - Project planning and execution
-  - Strategy development
+- Creating develop engaging creative hobby pursuits including writing, art, music,
+  and crafts to foster personal expression, skill development, and fulfillment through
+  structured creative practice and project completion.
+- Project planning and execution
+- Strategy development
 last_updated: 2025-11-09
+industries:
+- education
+- finance
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Creative Hobbies Template

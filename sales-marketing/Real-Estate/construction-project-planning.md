@@ -1,13 +1,25 @@
 ---
 title: Construction Project Planning & Management Framework
 category: sales-marketing
-tags: [design, development, framework, industry, management, strategy, testing]
+tags:
+- design
+- development
+- framework
+- management
+- strategy
+- testing
 use_cases:
-  - Creating comprehensive framework for planning and executing construction projects including scheduling, resource allocation, cost control, quality management, safety protocols, and stakeholder coordination for successful project delivery.
-
-  - Project planning and execution
-  - Strategy development
+- Creating comprehensive framework for planning and executing construction projects
+  including scheduling, resource allocation, cost control, quality management, safety
+  protocols, and stakeholder coordination for successful project delivery.
+- Project planning and execution
+- Strategy development
 last_updated: 2025-11-09
+industries:
+- finance
+- government
+- retail
+- technology
 ---
 
 # Construction Project Planning & Management Framework

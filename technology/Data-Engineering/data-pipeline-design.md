@@ -2,14 +2,13 @@
 category: technology/Data-Engineering
 last_updated: 2025-11-09
 related_templates:
-- cloud-architecture-framework.md
-- site-reliability-engineering.md
-- cloud-migration-strategy.md
+- technology/cloud-architecture-framework.md
+- technology/site-reliability-engineering.md
+- technology/cloud-migration-strategy.md
 tags:
 - automation
 - design
 - optimization
-- technology
 - testing
 title: Data Pipeline Design Document Generator
 use_cases:
@@ -17,6 +16,13 @@ use_cases:
   flow, and implementation of data processing systems.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Data Pipeline Design Document Generator

@@ -2,17 +2,16 @@
 category: education/Research
 last_updated: 2025-11-09
 related_templates:
-- curriculum-development.md
-- curriculum-development-framework.md
+- education/curriculum-development.md
+- education/curriculum-development-framework.md
 tags:
-- data-science
+- ai-ml
 - design
 - development
 - education
 - framework
 - management
 - research
-- security
 title: Clinical Trial Protocol & Study Design Framework
 use_cases:
 - Creating comprehensive framework for designing and implementing clinical trials
@@ -20,6 +19,10 @@ use_cases:
   management, safety monitoring, and statistical analysis for medical research advancement.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- government
+- healthcare
 ---
 
 # Clinical Trial Protocol & Study Design Framework

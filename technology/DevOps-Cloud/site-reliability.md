@@ -2,17 +2,15 @@
 category: technology/DevOps-Cloud
 last_updated: 2025-11-09
 related_templates:
-- cloud-architecture-framework.md
-- site-reliability-engineering.md
-- cloud-migration-strategy.md
+- technology/cloud-architecture-framework.md
+- technology/site-reliability-engineering.md
+- technology/cloud-migration-strategy.md
 tags:
 - communication
 - design
 - documentation
 - management
 - strategy
-- technology
-- template
 title: Site Reliability Engineering Template
 use_cases:
 - Creating implement comprehensive sre practices including slo/sli definition, error
@@ -20,6 +18,8 @@ use_cases:
   for production systems.
 - Project planning and execution
 - Strategy development
+industries:
+- technology
 ---
 
 # Site Reliability Engineering Template

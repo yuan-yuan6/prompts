@@ -2,20 +2,21 @@
 category: data-analytics/Research-Analytics
 last_updated: 2025-11-10
 related_templates:
-- experimental-design-setup.md
-- randomization-and-power-analysis.md
-- treatment-effect-analysis.md
+- data-analytics/Research-Analytics/experimental-design-setup.md
+- data-analytics/Research-Analytics/randomization-and-power-analysis.md
+- data-analytics/Research-Analytics/treatment-effect-analysis.md
 tags:
 - data-analytics
 - quality-assurance
 - research
-- validation
-- template
 title: Experimental Validity and Diagnostics
 use_cases:
 - Assess experimental validity through randomization checks, covariate balance, attrition
   analysis, compliance evaluation, contamination detection, and statistical assumption
   verification to ensure reliable causal inference
+industries:
+- education
+- technology
 ---
 
 # Experimental Validity and Diagnostics

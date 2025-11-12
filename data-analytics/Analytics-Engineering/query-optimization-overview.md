@@ -2,22 +2,20 @@
 category: data-analytics/Analytics-Engineering
 last_updated: 2025-11-10
 related_templates:
-- query-optimization-baseline-analysis.md
-- query-optimization-indexing-strategies.md
-- query-optimization-query-rewriting.md
-- query-optimization-monitoring-tuning.md
-- query-optimization-resource-concurrency.md
+- data-analytics/Analytics-Engineering/query-optimization-baseline-analysis.md
+- data-analytics/Analytics-Engineering/query-optimization-indexing-strategies.md
+- data-analytics/Analytics-Engineering/query-optimization-query-rewriting.md
+- data-analytics/Analytics-Engineering/query-optimization-monitoring-tuning.md
+- data-analytics/Analytics-Engineering/query-optimization-resource-concurrency.md
 tags:
 - data-analytics
-- query-optimization
-- performance
-- overview
-- navigation
 title: Query Optimization - Overview & Navigation
 use_cases:
 - Navigating comprehensive query optimization strategies
 - Selecting appropriate optimization approach based on performance symptoms
 - Understanding recommended workflow for database performance tuning
+industries:
+- technology
 ---
 
 # Query Optimization - Overview & Navigation

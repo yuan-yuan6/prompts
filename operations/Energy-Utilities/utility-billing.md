@@ -5,9 +5,8 @@ related_templates:
 - operations/Energy-Utilities/plant-operations-management.md
 - operations/Energy-Utilities/smart-grid-implementation.md
 tags:
-- data-science
+- ai-ml
 - design
-- industry
 - management
 - optimization
 - research
@@ -19,6 +18,13 @@ use_cases:
   and multi-utility services.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Utility Billing & Customer Management System

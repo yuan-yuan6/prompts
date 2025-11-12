@@ -2,18 +2,17 @@
 category: technology/Software-Development
 last_updated: 2025-11-09
 related_templates:
-- cloud-architecture-framework.md
-- site-reliability-engineering.md
-- cloud-migration-strategy.md
+- technology/cloud-architecture-framework.md
+- technology/site-reliability-engineering.md
+- technology/cloud-migration-strategy.md
 tags:
 - automation
 - design
 - development
 - documentation
 - framework
-- machine-learning
+- ai-ml
 - management
-- security
 title: Version Control & Git Workflow Management Framework
 use_cases:
 - Creating comprehensive framework for version control management, git workflows,
@@ -21,6 +20,9 @@ use_cases:
   development practices.
 - Project planning and execution
 - Strategy development
+industries:
+- government
+- technology
 ---
 
 # Version Control & Git Workflow Management Framework

@@ -2,17 +2,16 @@
 category: education/Scientific-Communication
 last_updated: 2025-11-09
 related_templates:
-- curriculum-development.md
-- curriculum-development-framework.md
+- education/curriculum-development.md
+- education/curriculum-development-framework.md
 tags:
 - automation
 - communication
-- data-science
+- ai-ml
 - development
 - education
 - research
 - strategy
-- template
 title: Science Writing for Popular Audiences Template
 use_cases:
 - Creating engaging, accessible science communication that bridges the gap between
@@ -20,6 +19,11 @@ use_cases:
   blogs, educational content, and multimedia storytelling.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- government
+- healthcare
+- manufacturing
 ---
 
 # Science Writing for Popular Audiences Template

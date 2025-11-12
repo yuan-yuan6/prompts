@@ -2,9 +2,9 @@
 category: finance/Insurance
 last_updated: 2025-11-09
 related_templates:
-- investment-portfolio-management.md
-- digital-banking-strategy.md
-- risk-management-framework.md
+- finance/investment-portfolio-management.md
+- finance/digital-banking-strategy.md
+- finance/risk-management-framework.md
 tags:
 - automation
 - communication
@@ -13,7 +13,6 @@ tags:
 - framework
 - management
 - optimization
-- testing
 title: Insurance Underwriting & Risk Assessment Framework
 use_cases:
 - Creating comprehensive framework for insurance underwriting operations including
@@ -21,6 +20,11 @@ use_cases:
   optimization across multiple lines of business.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- government
+- healthcare
+- manufacturing
 ---
 
 # Insurance Underwriting & Risk Assessment Framework

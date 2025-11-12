@@ -2,16 +2,14 @@
 category: technology/Emerging-Technologies/IoT-Edge-Computing
 last_updated: 2025-11-09
 related_templates:
-- generative-ai-implementation.md
+- technology/Emerging-Technologies/generative-ai-implementation.md
 tags:
-- data-science
+- ai-ml
 - design
 - development
 - framework
-- machine-learning
 - management
 - security
-- technology
 title: IoT Architecture & Edge Computing Framework
 use_cases:
 - Creating comprehensive framework for designing, implementing, and managing iot systems
@@ -19,6 +17,9 @@ use_cases:
   connectivity, and cloud integration.
 - Project planning and execution
 - Strategy development
+industries:
+- manufacturing
+- technology
 ---
 
 # IoT Architecture & Edge Computing Framework

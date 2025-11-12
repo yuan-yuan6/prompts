@@ -2,23 +2,23 @@
 category: education/Academic-Research
 last_updated: 2025-11-10
 related_templates:
-- research-design-foundation.md
-- research-design-sampling-data.md
-- research-design-analysis-quality.md
-- research-design-ethics-implementation.md
-- research-design-impact.md
+- education/Academic-Research/research-design-foundation.md
+- education/Academic-Research/research-design-sampling-data.md
+- education/Academic-Research/research-design-analysis-quality.md
+- education/Academic-Research/research-design-ethics-implementation.md
+- education/Academic-Research/research-design-impact.md
 tags:
 - research
 - design
-- overview
-- navigation
-- methodology
-- suite
 title: Research Design Suite - Complete Overview & Navigation
 use_cases:
 - Navigating the comprehensive research design prompt suite
 - Selecting appropriate sub-prompts for specific research needs
 - Understanding the research design development process
+industries:
+- education
+- government
+- technology
 ---
 
 # Research Design Suite - Complete Overview & Navigation

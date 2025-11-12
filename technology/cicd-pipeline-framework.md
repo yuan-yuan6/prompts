@@ -1,13 +1,27 @@
 ---
 title: CI/CD Pipeline & DevOps Automation Framework
 category: technology
-tags: [automation, design, development, framework, management, security, technology, testing]
+tags:
+- automation
+- design
+- development
+- framework
+- management
+- security
+- testing
 use_cases:
-  - Creating comprehensive framework for implementing continuous integration and continuous deployment pipelines including build automation, testing strategies, deployment orchestration, gitops practices, and progressive delivery for modern software development.
-
-  - Project planning and execution
-  - Strategy development
+- Creating comprehensive framework for implementing continuous integration and continuous
+  deployment pipelines including build automation, testing strategies, deployment
+  orchestration, gitops practices, and progressive delivery for modern software development.
+- Project planning and execution
+- Strategy development
 last_updated: 2025-11-09
+industries:
+- finance
+- government
+- healthcare
+- manufacturing
+- technology
 ---
 
 # CI/CD Pipeline & DevOps Automation Framework

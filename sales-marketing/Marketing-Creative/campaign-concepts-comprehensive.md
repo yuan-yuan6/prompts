@@ -6,12 +6,10 @@ related_templates:
 - content-creation/video-production-pipeline.md
 tags:
 - communication
-- comprehensive
 - creative
 - development
 - marketing
 - strategy
-- template
 title: Campaign Concepts Comprehensive Template Generator
 use_cases:
 - Creating comprehensive campaign concepts covering themes, messaging, creative briefs,
@@ -19,6 +17,12 @@ use_cases:
   all channels and touchpoints.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- government
+- healthcare
+- manufacturing
+- retail
 ---
 
 # Campaign Concepts Comprehensive Template Generator

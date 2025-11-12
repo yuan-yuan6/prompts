@@ -9,10 +9,9 @@ tags:
 - design
 - development
 - marketing
-- professional-services
+- management
 - research
 - strategy
-- template
 title: Press Release & Media Communications Prompt Template
 use_cases:
 - Creating comprehensive framework for creating press releases, media statements,
@@ -20,6 +19,13 @@ use_cases:
   maintain credibility, and effectively communicate key messages to target audiences.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Press Release & Media Communications Prompt Template

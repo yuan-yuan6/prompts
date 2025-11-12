@@ -1,9 +1,22 @@
 ---
 title: Crisis Communication Plan - Overview & Navigation
 category: communication
-tags: [communication, data-science, development, framework, management, professional-services, research, security]
+tags:
+- communication
+- ai-ml
+- development
+- framework
+- management
+- research
+- security
 parent_prompt: crisis-communication-plan (split into 3 parts)
 last_updated: 2025-11-11
+industries:
+- finance
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Crisis Communication Plan - Overview & Navigation

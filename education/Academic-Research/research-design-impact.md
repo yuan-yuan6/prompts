@@ -2,22 +2,24 @@
 category: education/Academic-Research
 last_updated: 2025-11-10
 related_templates:
-- research-design-foundation.md
-- research-design-ethics-implementation.md
-- research-design-overview.md
+- education/Academic-Research/research-design-foundation.md
+- education/Academic-Research/research-design-ethics-implementation.md
+- education/Academic-Research/research-design-overview.md
 tags:
 - research
-- dissemination
-- knowledge-translation
-- innovation
-- impact
 - evaluation
-- improvement
 title: Research Design - Impact, Innovation & Continuous Improvement
 use_cases:
 - Developing comprehensive dissemination and knowledge translation strategies
 - Integrating innovative technologies and methodological approaches
 - Planning research impact assessment and continuous improvement systems
+industries:
+- education
+- government
+- healthcare
+- manufacturing
+- nonprofit
+- technology
 ---
 
 # Research Design - Impact, Innovation & Continuous Improvement

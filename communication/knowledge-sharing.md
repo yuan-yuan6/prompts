@@ -10,7 +10,6 @@ tags:
 - documentation
 - management
 - optimization
-- professional-services
 - research
 - strategy
 title: Knowledge Sharing & Expertise Prompt Template
@@ -20,6 +19,14 @@ use_cases:
   institutional knowledge that drives continuous improvement and innovation.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Knowledge Sharing & Expertise Prompt Template

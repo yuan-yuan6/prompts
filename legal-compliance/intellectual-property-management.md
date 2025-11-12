@@ -1,13 +1,26 @@
 ---
 title: Intellectual Property Management & Protection Framework
 category: legal-compliance
-tags: [framework, management, professional-services, security, strategy]
+tags:
+- framework
+- management
+- security
+- strategy
 use_cases:
-  - Creating comprehensive intellectual property management framework covering ip strategy, patent portfolio management, trademark protection, trade secret safeguarding, licensing operations, and ip risk mitigation across all business activities and innovation initiatives.
-
-  - Project planning and execution
-  - Strategy development
+- Creating comprehensive intellectual property management framework covering ip strategy,
+  patent portfolio management, trademark protection, trade secret safeguarding, licensing
+  operations, and ip risk mitigation across all business activities and innovation
+  initiatives.
+- Project planning and execution
+- Strategy development
 last_updated: 2025-11-09
+industries:
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Intellectual Property Management & Protection Framework

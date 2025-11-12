@@ -2,15 +2,14 @@
 category: technology/Emerging-Technologies/Metaverse-XR
 last_updated: 2025-11-09
 related_templates:
-- generative-ai-implementation.md
+- technology/Emerging-Technologies/generative-ai-implementation.md
 tags:
 - design
 - development
 - framework
-- machine-learning
+- ai-ml
 - management
 - strategy
-- technology
 - testing
 title: Metaverse & Extended Reality (XR) Strategy Framework
 use_cases:
@@ -19,6 +18,12 @@ use_cases:
   economy design, and enterprise xr implementation.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- finance
+- government
+- healthcare
+- technology
 ---
 
 # Metaverse & Extended Reality (XR) Strategy Framework

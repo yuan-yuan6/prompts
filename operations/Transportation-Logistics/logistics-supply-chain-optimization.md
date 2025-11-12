@@ -6,10 +6,8 @@ related_templates:
 - operations/Transportation-Logistics/warehouse-management-system.md
 - operations/Transportation-Logistics/fleet-management-system.md
 tags:
-- data-science
+- ai-ml
 - design
-- industry
-- machine-learning
 - management
 - optimization
 - research
@@ -21,6 +19,13 @@ use_cases:
   supply networks.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Supply Chain Optimization & Network Design

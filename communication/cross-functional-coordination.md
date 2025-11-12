@@ -7,12 +7,10 @@ related_templates:
 tags:
 - communication
 - design
-- machine-learning
+- ai-ml
 - management
 - optimization
-- professional-services
 - strategy
-- template
 title: Cross-Functional Coordination Prompt Template
 use_cases:
 - Creating comprehensive framework for managing alignment, dependencies, and collaboration
@@ -20,6 +18,13 @@ use_cases:
   and delivery.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Cross-Functional Coordination Prompt Template

@@ -7,7 +7,6 @@ tags:
 - communication
 - design
 - framework
-- industry
 - management
 - optimization
 - strategy
@@ -19,6 +18,10 @@ use_cases:
   digital infrastructure transformation.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- government
+- technology
 ---
 
 # Telecommunications Infrastructure & Network Operations Framework

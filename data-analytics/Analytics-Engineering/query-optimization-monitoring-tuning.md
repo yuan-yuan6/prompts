@@ -2,20 +2,20 @@
 category: data-analytics/Analytics-Engineering
 last_updated: 2025-11-10
 related_templates:
-- query-optimization-baseline-analysis.md
-- query-optimization-indexing-strategies.md
-- query-optimization-overview.md
+- data-analytics/Analytics-Engineering/query-optimization-baseline-analysis.md
+- data-analytics/Analytics-Engineering/query-optimization-indexing-strategies.md
+- data-analytics/Analytics-Engineering/query-optimization-overview.md
 tags:
 - data-analytics
-- monitoring
-- performance-tuning
 - automation
-- alerts
 title: Query Optimization - Performance Monitoring & Tuning
 use_cases:
 - Implementing real-time performance monitoring and alerting systems
 - Creating automated performance tuning procedures
 - Establishing continuous performance optimization workflows
+industries:
+- manufacturing
+- technology
 ---
 
 # Query Optimization - Performance Monitoring & Tuning

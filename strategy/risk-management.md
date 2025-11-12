@@ -6,14 +6,12 @@ related_templates:
 - strategy/digital-transformation-roadmap.md
 - operations/lean-six-sigma-implementation.md
 tags:
-- business
 - design
-- machine-learning
+- ai-ml
 - management
 - optimization
 - security
 - strategy
-- template
 title: Risk Management Template Generator
 use_cases:
 - Creating comprehensive risk management frameworks covering risk assessment, mitigation
@@ -21,6 +19,13 @@ use_cases:
   business continuity.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Risk Management Template Generator

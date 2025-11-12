@@ -1,15 +1,30 @@
 ---
 title: Construction Project Management & Infrastructure Development Framework
 category: operations
-tags: [data-science, design, development, framework, industry, management, research, strategy]
+tags:
+- ai-ml
+- design
+- development
+- framework
+- management
+- research
+- strategy
 use_cases:
-  - Creating comprehensive framework for construction project planning, execution, resource management, safety protocols, quality control, and infrastructure development from conception to completion.
-
-  - Project planning and execution
-  - Strategy development
+- Creating comprehensive framework for construction project planning, execution, resource
+  management, safety protocols, quality control, and infrastructure development from
+  conception to completion.
+- Project planning and execution
+- Strategy development
 related_templates:
-  - operations/Construction/smart-construction-management.md
+- operations/Construction/smart-construction-management.md
 last_updated: 2025-11-09
+industries:
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Construction Project Management & Infrastructure Development Framework

@@ -2,18 +2,16 @@
 category: data-analytics/Research-Analytics
 last_updated: 2025-11-09
 related_templates:
-- dashboard-design-patterns.md
-- data-governance-framework.md
-- predictive-modeling-framework.md
+- data-analytics/dashboard-design-patterns.md
+- data-analytics/data-governance-framework.md
+- data-analytics/predictive-modeling-framework.md
 tags:
 - automation
 - data-analytics
-- data-science
+- ai-ml
 - design
-- machine-learning
 - research
 - security
-- template
 title: Experimental Design and Testing Template
 use_cases:
 - Creating design, implement, and analyze controlled experiments including a/b testing,
@@ -21,6 +19,11 @@ use_cases:
   and measure treatment effects with statistical rigor.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- government
+- healthcare
+- technology
 ---
 
 # Experimental Design and Testing Template

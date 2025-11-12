@@ -6,12 +6,10 @@ related_templates:
 - communication/crisis-communication-plan.md
 tags:
 - communication
-- data-science
+- ai-ml
 - management
-- professional-services
 - research
 - strategy
-- template
 title: Crisis Communication & Response Prompt Template
 use_cases:
 - Creating comprehensive framework for managing crisis communications, developing
@@ -20,6 +18,15 @@ use_cases:
   channels during challenging situations.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- finance
+- government
+- healthcare
+- manufacturing
+- nonprofit
+- retail
+- technology
 ---
 
 # Crisis Communication & Response Prompt Template

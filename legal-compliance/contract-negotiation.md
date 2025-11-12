@@ -6,11 +6,11 @@ related_templates:
 - legal-compliance/contract-drafting-template.md
 - legal-compliance/intellectual-property-management.md
 tags:
-- data-science
+- ai-ml
 - design
 - framework
 - optimization
-- professional-services
+- management
 - research
 - strategy
 title: Contract Negotiation Strategy Framework
@@ -20,6 +20,13 @@ use_cases:
   techniques for optimal contract terms.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Contract Negotiation Strategy Framework

@@ -2,8 +2,8 @@
 category: nonprofit/Program-Management
 last_updated: 2025-11-09
 related_templates:
-- program-evaluation.md
-- fundraising-campaign-framework.md
+- nonprofit/program-evaluation.md
+- nonprofit/fundraising-campaign-framework.md
 tags:
 - design
 - management
@@ -17,6 +17,11 @@ use_cases:
   and impact measurement of volunteer programs.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- government
+- healthcare
+- nonprofit
 ---
 
 # Volunteer Management & Engagement System

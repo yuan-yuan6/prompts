@@ -2,20 +2,23 @@
 category: finance/Corporate-Finance
 last_updated: 2025-11-09
 related_templates:
-- treasury-management.md
+- finance/Corporate-Finance/treasury-management.md
 - financial-analysis.md
-- investment-evaluation.md
+- finance/Corporate-Finance/investment-evaluation.md
 tags:
-- business
 - design
 - management
 - optimization
-- template
 title: Portfolio Management Template
 use_cases:
 - General application
 - Professional use
 - Project implementation
+industries:
+- finance
+- government
+- healthcare
+- technology
 ---
 
 # Portfolio Management Template

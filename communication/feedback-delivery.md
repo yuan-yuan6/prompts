@@ -8,11 +8,10 @@ tags:
 - automation
 - communication
 - documentation
-- machine-learning
+- ai-ml
 - optimization
-- professional-services
+- management
 - strategy
-- template
 title: Feedback Delivery & Performance Communication Prompt Template
 use_cases:
 - Creating comprehensive framework for delivering constructive feedback, conducting
@@ -20,6 +19,14 @@ use_cases:
   and drive improvement.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Feedback Delivery & Performance Communication Prompt Template

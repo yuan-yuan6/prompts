@@ -1,13 +1,28 @@
 ---
 title: Plant Operations & Industrial Facility Management Framework
 category: operations
-tags: [data-science, framework, industry, management, optimization, research, security, testing]
+tags:
+- ai-ml
+- framework
+- management
+- optimization
+- research
+- security
+- testing
 use_cases:
-  - Creating comprehensive framework for managing industrial plant operations including production monitoring, maintenance scheduling, safety compliance, efficiency optimization, and operational excellence for energy and utility facilities.
-
-  - Project planning and execution
-  - Strategy development
+- Creating comprehensive framework for managing industrial plant operations including
+  production monitoring, maintenance scheduling, safety compliance, efficiency optimization,
+  and operational excellence for energy and utility facilities.
+- Project planning and execution
+- Strategy development
 last_updated: 2025-11-09
+industries:
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Plant Operations & Industrial Facility Management Framework

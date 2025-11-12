@@ -2,18 +2,17 @@
 category: data-analytics/Business-Intelligence
 last_updated: 2025-11-09
 related_templates:
-- dashboard-design-patterns.md
-- data-governance-framework.md
-- predictive-modeling-framework.md
+- data-analytics/dashboard-design-patterns.md
+- data-analytics/data-governance-framework.md
+- data-analytics/predictive-modeling-framework.md
 tags:
 - automation
 - data-analytics
-- data-science
+- ai-ml
 - design
 - optimization
 - research
 - strategy
-- template
 title: Data Storytelling Narratives Template
 use_cases:
 - Creating compelling data narratives that transform complex analytical insights into
@@ -21,6 +20,10 @@ use_cases:
   through effective storytelling techniques and contextual insights.
 - Project planning and execution
 - Strategy development
+industries:
+- government
+- manufacturing
+- technology
 ---
 
 # Data Storytelling Narratives Template

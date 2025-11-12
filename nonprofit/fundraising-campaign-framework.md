@@ -1,13 +1,25 @@
 ---
 title: Fundraising Campaign & Donor Management Framework
 category: nonprofit
-tags: [framework, management, marketing, nonprofit, research, strategy]
+tags:
+- framework
+- management
+- marketing
+- nonprofit
+- research
+- strategy
 use_cases:
-  - Creating comprehensive framework for planning and executing nonprofit fundraising campaigns including donor cultivation, campaign strategy, multi-channel outreach, stewardship programs, and impact measurement for sustainable philanthropic support.
-
-  - Project planning and execution
-  - Strategy development
+- Creating comprehensive framework for planning and executing nonprofit fundraising
+  campaigns including donor cultivation, campaign strategy, multi-channel outreach,
+  stewardship programs, and impact measurement for sustainable philanthropic support.
+- Project planning and execution
+- Strategy development
 last_updated: 2025-11-09
+industries:
+- government
+- healthcare
+- nonprofit
+- technology
 ---
 
 # Fundraising Campaign & Donor Management Framework

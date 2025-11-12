@@ -8,15 +8,18 @@ tags:
 - creative
 - design
 - development
-- machine-learning
+- ai-ml
 - optimization
-- template
 title: 3D Design Template
 use_cases:
 - Creating comprehensive 3D design projects including models, renders, and environments
   for visualization, animation, gaming, and product development applications.
 - Project planning and execution
 - Strategy development
+industries:
+- healthcare
+- manufacturing
+- technology
 ---
 
 # 3D Design Template

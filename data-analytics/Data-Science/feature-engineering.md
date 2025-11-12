@@ -2,18 +2,16 @@
 category: data-analytics/Data-Science
 last_updated: 2025-11-09
 related_templates:
-- dashboard-design-patterns.md
-- data-governance-framework.md
-- predictive-modeling-framework.md
+- data-analytics/dashboard-design-patterns.md
+- data-analytics/data-governance-framework.md
+- data-analytics/predictive-modeling-framework.md
 tags:
 - automation
 - data-analytics
-- data-science
+- ai-ml
 - design
-- machine-learning
 - optimization
 - research
-- template
 title: Feature Engineering & Selection Template
 use_cases:
 - Creating design and implement comprehensive feature engineering strategies to create,
@@ -21,6 +19,12 @@ use_cases:
   and business value.
 - Project planning and execution
 - Strategy development
+industries:
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Feature Engineering & Selection Template

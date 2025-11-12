@@ -1,16 +1,20 @@
 ---
 title: Dashboard Technical Implementation & Platform
 category: data-analytics/Business-Intelligence
-tags: [data-analytics, business-intelligence, technical-architecture, platform, infrastructure]
+tags:
+- data-analytics
+- infrastructure
 use_cases:
-  - Select and configure BI platform for organization's dashboard needs
-  - Design technical architecture for scalable dashboard infrastructure
-  - Implement performance optimization for slow-loading dashboards
+- Select and configure BI platform for organization's dashboard needs
+- Design technical architecture for scalable dashboard infrastructure
+- Implement performance optimization for slow-loading dashboards
 related_templates:
-  - data-analytics/Business Intelligence/dashboard-data-architecture.md
-  - data-analytics/Business Intelligence/dashboard-security-compliance.md
-  - data-analytics/Business Intelligence/dashboard-design-overview.md
+- data-analytics/Business Intelligence/dashboard-data-architecture.md
+- data-analytics/Business Intelligence/dashboard-security-compliance.md
+- data-analytics/Business Intelligence/dashboard-design-overview.md
 last_updated: 2025-11-09
+industries:
+- technology
 ---
 
 # Dashboard Technical Implementation & Platform

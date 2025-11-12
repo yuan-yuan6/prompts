@@ -2,9 +2,9 @@
 category: technology/Software-Development
 last_updated: 2025-11-09
 related_templates:
-- cloud-architecture-framework.md
-- site-reliability-engineering.md
-- cloud-migration-strategy.md
+- technology/cloud-architecture-framework.md
+- technology/site-reliability-engineering.md
+- technology/cloud-migration-strategy.md
 tags:
 - automation
 - design
@@ -13,7 +13,6 @@ tags:
 - management
 - optimization
 - security
-- technology
 title: Frontend Development & Web Application Framework
 use_cases:
 - Creating comprehensive framework for frontend web development including modern javascript
@@ -21,6 +20,9 @@ use_cases:
   and progressive web applications.
 - Project planning and execution
 - Strategy development
+industries:
+- manufacturing
+- technology
 ---
 
 # Frontend Development & Web Application Framework

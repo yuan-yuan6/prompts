@@ -2,15 +2,14 @@
 category: data-analytics/Business-Intelligence
 last_updated: 2025-11-09
 related_templates:
-- dashboard-design-patterns.md
-- data-governance-framework.md
-- predictive-modeling-framework.md
+- data-analytics/dashboard-design-patterns.md
+- data-analytics/data-governance-framework.md
+- data-analytics/predictive-modeling-framework.md
 tags:
 - automation
 - data-analytics
-- data-science
+- ai-ml
 - documentation
-- machine-learning
 - optimization
 - research
 - strategy
@@ -21,6 +20,12 @@ use_cases:
   processes and ensure consistent, timely delivery of actionable insights.
 - Project planning and execution
 - Strategy development
+industries:
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Report Generation Automation Template

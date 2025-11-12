@@ -1,16 +1,25 @@
 ---
 title: Research Design - Ethics, Implementation & Project Management
 category: education/Academic-Research
-tags: [research, ethics, implementation, project-management, IRB, compliance, timeline]
+tags:
+- research
+- implementation
+- compliance
 use_cases:
-  - Developing comprehensive ethical frameworks and IRB protocols
-  - Creating detailed implementation plans and project timelines
-  - Establishing risk management and quality monitoring systems
+- Developing comprehensive ethical frameworks and IRB protocols
+- Creating detailed implementation plans and project timelines
+- Establishing risk management and quality monitoring systems
 related_templates:
-  - education/Academic Research/research-design-foundation.md
-  - education/Academic Research/research-design-sampling-data.md
-  - education/Academic Research/research-design-overview.md
+- education/Academic Research/research-design-foundation.md
+- education/Academic Research/research-design-sampling-data.md
+- education/Academic Research/research-design-overview.md
 last_updated: 2025-11-10
+industries:
+- education
+- government
+- healthcare
+- manufacturing
+- technology
 ---
 
 # Research Design - Ethics, Implementation & Project Management

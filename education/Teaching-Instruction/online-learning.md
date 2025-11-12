@@ -2,15 +2,14 @@
 category: education/Teaching-Instruction
 last_updated: 2025-11-09
 related_templates:
-- curriculum-development.md
-- curriculum-development-framework.md
+- education/curriculum-development.md
+- education/curriculum-development-framework.md
 tags:
 - design
 - development
 - education
-- machine-learning
+- ai-ml
 - strategy
-- template
 - testing
 title: Online Learning Platforms Template
 use_cases:
@@ -19,6 +18,11 @@ use_cases:
   contexts and learner needs.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- finance
+- government
+- technology
 ---
 
 # Online Learning Platforms Template

@@ -2,13 +2,13 @@
 category: data-analytics/Advanced-Analytics
 last_updated: 2025-11-09
 related_templates:
-- dashboard-design-patterns.md
-- data-governance-framework.md
-- predictive-modeling-framework.md
+- data-analytics/dashboard-design-patterns.md
+- data-analytics/data-governance-framework.md
+- data-analytics/predictive-modeling-framework.md
 tags:
 - data-analytics
 - framework
-- machine-learning
+- ai-ml
 - optimization
 - research
 - testing
@@ -19,6 +19,10 @@ use_cases:
   real-world application of operations research techniques.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- manufacturing
+- technology
 ---
 
 # Optimization Algorithms & Operations Research Framework

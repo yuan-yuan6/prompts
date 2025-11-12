@@ -2,17 +2,15 @@
 category: data-analytics/Research-Analytics
 last_updated: 2025-11-09
 related_templates:
-- dashboard-design-patterns.md
-- data-governance-framework.md
-- predictive-modeling-framework.md
+- data-analytics/dashboard-design-patterns.md
+- data-analytics/data-governance-framework.md
+- data-analytics/predictive-modeling-framework.md
 tags:
 - automation
 - data-analytics
-- data-science
+- ai-ml
 - design
-- machine-learning
 - research
-- template
 title: Text Analytics and NLP Template
 use_cases:
 - Creating conduct comprehensive text mining and natural language processing analysis
@@ -20,6 +18,12 @@ use_cases:
   text data using advanced nlp techniques and machine learning methods.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Text Analytics and NLP Template

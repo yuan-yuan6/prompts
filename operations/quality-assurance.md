@@ -6,13 +6,11 @@ related_templates:
 - strategy/digital-transformation-roadmap.md
 - operations/lean-six-sigma-implementation.md
 tags:
-- business
 - framework
-- machine-learning
+- ai-ml
 - management
 - optimization
 - security
-- template
 - testing
 title: Quality Assurance Framework Template Generator
 use_cases:
@@ -21,6 +19,14 @@ use_cases:
   service excellence.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Quality Assurance Framework Template Generator

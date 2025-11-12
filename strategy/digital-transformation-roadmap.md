@@ -6,12 +6,7 @@ related_templates:
 - strategy/innovation-strategy.md
 - strategy/growth-strategy.md
 tags:
-- digital-transformation
 - strategy
-- change-management
-- technology-adoption
-- innovation
-- modernization
 title: Digital Transformation Roadmap & Strategy Framework
 use_cases:
 - Enterprise digital transformation
@@ -20,6 +15,12 @@ use_cases:
 - Digital business model development
 - Technology strategy roadmap
 - Organizational change management
+industries:
+- finance
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Digital Transformation Roadmap & Strategy Framework

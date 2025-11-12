@@ -2,21 +2,23 @@
 category: data-analytics/Research-Analytics
 last_updated: 2025-11-10
 related_templates:
-- randomization-and-power-analysis.md
-- treatment-effect-analysis.md
-- validity-and-diagnostics.md
-- variables-and-implementation.md
+- data-analytics/Research-Analytics/randomization-and-power-analysis.md
+- data-analytics/Research-Analytics/treatment-effect-analysis.md
+- data-analytics/Research-Analytics/validity-and-diagnostics.md
+- data-analytics/Research-Analytics/variables-and-implementation.md
 tags:
 - automation
 - data-analytics
 - design
 - research
-- template
 title: Experimental Design Setup
 use_cases:
 - Select and configure appropriate experimental designs including RCTs, A/B tests,
   factorial designs, crossover designs, cluster trials, stepped wedge, quasi-experimental,
   and regression discontinuity designs
+industries:
+- education
+- technology
 ---
 
 # Experimental Design Setup

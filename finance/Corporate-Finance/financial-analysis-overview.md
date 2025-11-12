@@ -1,18 +1,23 @@
 ---
 title: Financial Analysis - Overview & Navigation
 category: finance/Corporate-Finance
-tags: [business, finance, overview, navigation]
+tags:
+- finance
 use_cases:
-  - Understanding the financial analysis template suite
-  - Selecting the right analysis template
-  - Comprehensive financial analysis guidance
+- Understanding the financial analysis template suite
+- Selecting the right analysis template
+- Comprehensive financial analysis guidance
 related_templates:
-  - finance/Corporate-Finance/financial-statement-analysis.md
-  - finance/Corporate-Finance/financial-ratio-analysis.md
-  - finance/Corporate-Finance/financial-forecasting.md
-  - finance/Corporate-Finance/financial-risk-assessment.md
-  - finance/Corporate-Finance/financial-valuation-recommendations.md
+- finance/Corporate-Finance/financial-statement-analysis.md
+- finance/Corporate-Finance/financial-ratio-analysis.md
+- finance/Corporate-Finance/financial-forecasting.md
+- finance/Corporate-Finance/financial-risk-assessment.md
+- finance/Corporate-Finance/financial-valuation-recommendations.md
 last_updated: 2025-11-09
+industries:
+- finance
+- government
+- healthcare
 ---
 
 # Financial Analysis - Overview & Navigation

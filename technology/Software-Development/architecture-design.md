@@ -2,15 +2,13 @@
 category: technology/Software-Development
 last_updated: 2025-11-09
 related_templates:
-- cloud-architecture-framework.md
-- site-reliability-engineering.md
-- cloud-migration-strategy.md
+- technology/cloud-architecture-framework.md
+- technology/site-reliability-engineering.md
+- technology/cloud-migration-strategy.md
 tags:
 - communication
 - design
 - security
-- technology
-- template
 title: Architecture Design Template
 use_cases:
 - Creating design comprehensive system architectures including distributed systems,
@@ -18,6 +16,12 @@ use_cases:
   and maintainability considerations.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- government
+- healthcare
+- retail
+- technology
 ---
 
 # Architecture Design Template

@@ -10,7 +10,6 @@ tags:
 - development
 - management
 - optimization
-- professional-services
 - security
 - strategy
 title: Status Updates & Reporting Prompt Template
@@ -20,6 +19,13 @@ use_cases:
   alignment.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Status Updates & Reporting Prompt Template

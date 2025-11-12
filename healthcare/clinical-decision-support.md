@@ -1,12 +1,28 @@
 ---
 title: Clinical Decision Support Template Generator
 category: healthcare
-tags: [design, documentation, healthcare, machine-learning, management, security, template, testing]
+tags:
+- design
+- documentation
+- healthcare
+- ai-ml
+- management
+- security
+- testing
 use_cases:
-  - Creating comprehensive clinical decision support systems covering diagnosis assistance, drug interaction checking, clinical alerts, evidence-based guidelines, and AI-powered recommendations to enhance patient care quality, safety, and clinical outcomes while supporting healthcare provider decision-making.
-  - Project planning and execution
-  - Strategy development
+- Creating comprehensive clinical decision support systems covering diagnosis assistance,
+  drug interaction checking, clinical alerts, evidence-based guidelines, and AI-powered
+  recommendations to enhance patient care quality, safety, and clinical outcomes while
+  supporting healthcare provider decision-making.
+- Project planning and execution
+- Strategy development
 last_updated: 2025-11-09
+industries:
+- education
+- finance
+- government
+- healthcare
+- technology
 ---
 
 # Clinical Decision Support Template Generator

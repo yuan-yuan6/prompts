@@ -2,19 +2,16 @@
 category: education/Teaching-Instruction
 last_updated: 2025-11-09
 related_templates:
-- course-content-curriculum.md
-- course-accessibility-inclusion.md
-tags:
-- technology
-- digital-learning
-- LMS
-- educational-technology
-- online-learning
+- education/Teaching-Instruction/course-content-curriculum.md
+- education/Teaching-Instruction/course-accessibility-inclusion.md
+tags: []
 title: Course Technology Integration Planner
 use_cases:
 - Integrate 2-3 educational tech tools into existing course
 - Design blended learning experience combining in-person and online components
 - Create flipped classroom model using video lectures and active learning
+industries:
+- education
 ---
 
 # Course Technology Integration Planner

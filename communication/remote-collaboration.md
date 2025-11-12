@@ -10,7 +10,6 @@ tags:
 - framework
 - management
 - optimization
-- professional-services
 title: Remote Collaboration & Virtual Team Management Framework
 use_cases:
 - Creating comprehensive framework for managing remote teams and virtual collaboration
@@ -18,6 +17,13 @@ use_cases:
   team engagement, and productivity management across distributed teams.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Remote Collaboration & Virtual Team Management Framework

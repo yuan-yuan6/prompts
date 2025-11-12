@@ -6,7 +6,6 @@ related_templates:
 - strategy/digital-transformation-roadmap.md
 - operations/lean-six-sigma-implementation.md
 tags:
-- business
 - design
 - development
 - framework
@@ -17,6 +16,12 @@ use_cases:
   including organic growth, m&a, market expansion, diversification, and scaling operations.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Growth Strategy & Market Expansion Framework

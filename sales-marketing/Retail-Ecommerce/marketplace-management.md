@@ -6,12 +6,10 @@ related_templates:
 - sales-marketing/Retail-Ecommerce/dynamic-pricing-strategy.md
 - sales-marketing/Retail-Ecommerce/product-sourcing-strategy.md
 tags:
-- data-science
-- industry
+- ai-ml
 - management
 - optimization
 - strategy
-- template
 title: Marketplace Management Template
 use_cases:
 - Creating comprehensive marketplace optimization strategies, multi-channel selling
@@ -19,6 +17,11 @@ use_cases:
   visibility, and profitability across digital marketplaces.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- government
+- manufacturing
+- retail
 ---
 
 # Marketplace Management Template

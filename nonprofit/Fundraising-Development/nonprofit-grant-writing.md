@@ -2,17 +2,16 @@
 category: nonprofit/Fundraising-Development
 last_updated: 2025-11-09
 related_templates:
-- program-evaluation.md
-- fundraising-campaign-framework.md
+- nonprofit/program-evaluation.md
+- nonprofit/fundraising-campaign-framework.md
 tags:
 - communication
-- data-science
+- ai-ml
 - design
 - development
 - framework
 - management
 - nonprofit
-- research
 title: Grant Writing & Proposal Development Framework
 use_cases:
 - Creating comprehensive system for researching, writing, and managing grant proposals
@@ -20,6 +19,11 @@ use_cases:
   grant applications.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- government
+- healthcare
+- nonprofit
 ---
 
 # Grant Writing & Proposal Development Framework

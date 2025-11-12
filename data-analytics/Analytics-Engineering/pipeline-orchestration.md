@@ -2,23 +2,24 @@
 category: data-analytics/Analytics-Engineering
 last_updated: 2025-11-10
 related_templates:
-- pipeline-ingestion.md
-- pipeline-transformation.md
-- pipeline-observability.md
-- pipeline-infrastructure.md
+- data-analytics/Analytics-Engineering/pipeline-ingestion.md
+- data-analytics/Analytics-Engineering/pipeline-transformation.md
+- data-analytics/Analytics-Engineering/pipeline-observability.md
+- data-analytics/Analytics-Engineering/pipeline-infrastructure.md
 tags:
 - automation
 - data-analytics
-- orchestration
-- airflow
-- workflow
-- scheduling
 title: Pipeline Orchestration Template
 use_cases:
 - Designing Apache Airflow DAGs for complex data pipeline workflows
 - Implementing advanced orchestration patterns with branching and dynamic tasks
 - Managing task dependencies, retries, and failure handling
 - Scheduling and monitoring multi-step data processing workflows
+industries:
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Pipeline Orchestration Template

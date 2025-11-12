@@ -2,16 +2,15 @@
 category: education/Research/Scientific-Research
 last_updated: 2025-11-09
 related_templates:
-- clinical-trial-protocol.md
+- education/Research/clinical-trial-protocol.md
 tags:
-- data-science
+- ai-ml
 - design
 - education
 - framework
 - management
 - research
 - security
-- strategy
 title: Scientific Research & Laboratory Management Framework
 use_cases:
 - Creating comprehensive framework for scientific research project management, laboratory
@@ -19,6 +18,11 @@ use_cases:
   commercialization.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- government
+- healthcare
+- technology
 ---
 
 # Scientific Research & Laboratory Management Framework

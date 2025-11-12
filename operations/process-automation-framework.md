@@ -7,8 +7,7 @@ related_templates:
 - operations/lean-six-sigma-implementation.md
 tags:
 - automation
-- business
-- data-science
+- ai-ml
 - framework
 - marketing
 - optimization
@@ -21,6 +20,13 @@ use_cases:
   optimization across all business functions and operational workflows.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Process Automation Framework & Implementation Strategy

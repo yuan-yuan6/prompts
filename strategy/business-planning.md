@@ -1,16 +1,29 @@
 ---
 title: Business Planning Template Generator
 category: strategy
-tags: [business, data-science, design, documentation, machine-learning, optimization, research, strategy]
+tags:
+- ai-ml
+- design
+- documentation
+- optimization
+- research
+- strategy
 use_cases:
-  - Draft a business plan outline for investor presentation
-  - Create strategic roadmap for new product launch
-  - Develop annual business plan for existing division or business unit
+- Draft a business plan outline for investor presentation
+- Create strategic roadmap for new product launch
+- Develop annual business plan for existing division or business unit
 related_templates:
-  - strategy/okr-implementation-framework.md
-  - strategy/digital-transformation-roadmap.md
-  - operations/lean-six-sigma-implementation.md
+- strategy/okr-implementation-framework.md
+- strategy/digital-transformation-roadmap.md
+- operations/lean-six-sigma-implementation.md
 last_updated: 2025-11-09
+industries:
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Business Planning Template Generator

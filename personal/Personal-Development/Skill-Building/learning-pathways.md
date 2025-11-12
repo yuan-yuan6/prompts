@@ -2,23 +2,29 @@
 category: personal/Personal-Development/Skill-Building
 last_updated: 2025-11-09
 related_templates:
-- time-management.md
-- skill-development.md
-- habit-formation.md
+- personal/Personal-Development/time-management.md
+- personal/Personal-Development/skill-development.md
+- personal/Personal-Development/habit-formation.md
 tags:
-- comprehensive
 - design
 - development
-- machine-learning
+- ai-ml
 - optimization
 - personal
 - strategy
-- template
 title: Comprehensive Learning Pathways Development Template
 use_cases:
 - General application
 - Professional use
 - Project implementation
+industries:
+- education
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Comprehensive Learning Pathways Development Template

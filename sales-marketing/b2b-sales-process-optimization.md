@@ -6,8 +6,7 @@ related_templates:
 - strategy/digital-transformation-roadmap.md
 - operations/lean-six-sigma-implementation.md
 tags:
-- business
-- data-science
+- ai-ml
 - design
 - framework
 - management
@@ -20,6 +19,12 @@ use_cases:
   optimization, and revenue operations across the entire customer acquisition lifecycle.
 - Project planning and execution
 - Strategy development
+industries:
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # B2B Sales Process Optimization & Revenue Operations Framework

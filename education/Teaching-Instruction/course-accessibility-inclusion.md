@@ -2,19 +2,16 @@
 category: education/Teaching-Instruction
 last_updated: 2025-11-09
 related_templates:
-- course-content-curriculum.md
-- course-technology-integration.md
-tags:
-- accessibility
-- inclusion
-- UDL
-- diversity
-- accommodations
+- education/Teaching-Instruction/course-content-curriculum.md
+- education/Teaching-Instruction/course-technology-integration.md
+tags: []
 title: Course Accessibility & Inclusion Designer
 use_cases:
 - Audit and improve existing course for accessibility compliance
 - Design inclusive assessments that accommodate diverse learning needs
 - Create UDL-aligned course materials with multiple means of representation and engagement
+industries:
+- education
 ---
 
 # Course Accessibility & Inclusion Designer

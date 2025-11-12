@@ -1,15 +1,21 @@
 ---
 title: Course Implementation & Project Management
 category: education/Teaching-Instruction
-tags: [implementation, project-management, planning, timeline, resources]
+tags:
+- implementation
+- planning
 use_cases:
-  - Creating detailed implementation plans and timelines for course development
-  - Managing resources and coordinating stakeholders for course launch
-  - Executing course development projects from planning through evaluation
+- Creating detailed implementation plans and timelines for course development
+- Managing resources and coordinating stakeholders for course launch
+- Executing course development projects from planning through evaluation
 related_templates:
-  - education/Teaching & Instruction/course-foundations-objectives.md
-  - education/Teaching & Instruction/course-quality-evaluation.md
+- education/Teaching & Instruction/course-foundations-objectives.md
+- education/Teaching & Instruction/course-quality-evaluation.md
 last_updated: 2025-11-09
+industries:
+- education
+- government
+- manufacturing
 ---
 
 # Course Implementation & Project Management

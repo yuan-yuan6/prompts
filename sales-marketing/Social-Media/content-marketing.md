@@ -11,7 +11,6 @@ tags:
 - management
 - marketing
 - optimization
-- strategy
 title: Content Marketing & Social Media Strategy Framework
 use_cases:
 - Creating comprehensive framework for content marketing strategy, social media management,
@@ -19,6 +18,10 @@ use_cases:
   engagement optimization.
 - Project planning and execution
 - Strategy development
+industries:
+- manufacturing
+- retail
+- technology
 ---
 
 # Content Marketing & Social Media Strategy Framework

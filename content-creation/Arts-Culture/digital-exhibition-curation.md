@@ -9,10 +9,9 @@ tags:
 - design
 - development
 - framework
-- machine-learning
+- ai-ml
 - security
 - strategy
-- testing
 title: Digital Exhibition & Virtual Museum Curation Framework
 use_cases:
 - Creating comprehensive framework for curating digital exhibitions and virtual museum
@@ -20,6 +19,12 @@ use_cases:
   audience engagement, accessibility features, and cultural preservation strategies.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- government
+- manufacturing
+- nonprofit
+- technology
 ---
 
 # Digital Exhibition & Virtual Museum Curation Framework

@@ -7,7 +7,6 @@ tags:
 - design
 - development
 - framework
-- industry
 - marketing
 - strategy
 title: Fashion Brand Strategy & Collection Development Framework
@@ -17,6 +16,10 @@ use_cases:
   luxury/mass market positioning.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- manufacturing
+- retail
 ---
 
 # Fashion Brand Strategy & Collection Development Framework

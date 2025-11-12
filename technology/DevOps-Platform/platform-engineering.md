@@ -2,9 +2,9 @@
 category: technology/DevOps-Platform
 last_updated: 2025-11-09
 related_templates:
-- cloud-architecture-framework.md
-- site-reliability-engineering.md
-- cloud-migration-strategy.md
+- technology/cloud-architecture-framework.md
+- technology/site-reliability-engineering.md
+- technology/cloud-migration-strategy.md
 tags:
 - automation
 - design
@@ -13,7 +13,6 @@ tags:
 - framework
 - management
 - security
-- strategy
 title: Platform Engineering & Developer Experience Framework
 use_cases:
 - Creating comprehensive framework for building and managing internal developer platforms,
@@ -21,6 +20,12 @@ use_cases:
   approaches.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- government
+- manufacturing
+- retail
+- technology
 ---
 
 # Platform Engineering & Developer Experience Framework

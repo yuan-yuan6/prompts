@@ -1,16 +1,24 @@
 ---
 title: Job Analysis & Role Definition
 category: human-resources
-tags: [job-description, competencies, role-design, requirements, hr]
+tags:
+- hr
 use_cases:
-  - Creating comprehensive job descriptions and position requirements
-  - Defining role competencies and success metrics
-  - Establishing qualification frameworks for open positions
+- Creating comprehensive job descriptions and position requirements
+- Defining role competencies and success metrics
+- Establishing qualification frameworks for open positions
 related_templates:
-  - human-resources/candidate-sourcing-branding.md
-  - human-resources/screening-interview-process.md
-  - human-resources/candidate-assessment-selection.md
+- human-resources/candidate-sourcing-branding.md
+- human-resources/screening-interview-process.md
+- human-resources/candidate-assessment-selection.md
 last_updated: 2025-11-09
+industries:
+- education
+- finance
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Job Analysis & Role Definition

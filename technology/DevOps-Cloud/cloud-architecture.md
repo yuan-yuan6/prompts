@@ -2,18 +2,16 @@
 category: technology/DevOps-Cloud
 last_updated: 2025-11-09
 related_templates:
-- cloud-architecture-framework.md
-- site-reliability-engineering.md
-- cloud-migration-strategy.md
+- technology/cloud-architecture-framework.md
+- technology/site-reliability-engineering.md
+- technology/cloud-migration-strategy.md
 tags:
-- data-science
+- ai-ml
 - design
-- machine-learning
 - management
 - optimization
 - security
 - strategy
-- technology
 title: Cloud Architecture Template
 use_cases:
 - Creating design comprehensive cloud architecture patterns for aws, azure, gcp including
@@ -21,6 +19,9 @@ use_cases:
   cost optimization.
 - Project planning and execution
 - Strategy development
+industries:
+- government
+- technology
 ---
 
 # Cloud Architecture Template

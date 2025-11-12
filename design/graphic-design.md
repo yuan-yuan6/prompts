@@ -10,13 +10,17 @@ tags:
 - documentation
 - marketing
 - strategy
-- template
 title: Graphic Design Template
 use_cases:
 - Creating comprehensive graphic design solutions including layouts, branding, and
   visuals for both digital and print media across various applications.
 - Project planning and execution
 - Strategy development
+industries:
+- government
+- healthcare
+- manufacturing
+- retail
 ---
 
 # Graphic Design Template

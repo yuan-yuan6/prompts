@@ -2,18 +2,16 @@
 category: data-analytics/Analytics-Engineering
 last_updated: 2025-11-09
 related_templates:
-- dashboard-design-patterns.md
-- data-governance-framework.md
-- predictive-modeling-framework.md
+- data-analytics/dashboard-design-patterns.md
+- data-analytics/data-governance-framework.md
+- data-analytics/predictive-modeling-framework.md
 tags:
 - data-analytics
-- data-science
+- ai-ml
 - design
-- machine-learning
 - optimization
 - security
 - strategy
-- template
 title: Data Modeling & Architecture Template
 use_cases:
 - Creating design comprehensive data modeling architectures including dimensional
@@ -21,6 +19,12 @@ use_cases:
   for enterprise analytics platforms.
 - Project planning and execution
 - Strategy development
+industries:
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Data Modeling & Architecture Template

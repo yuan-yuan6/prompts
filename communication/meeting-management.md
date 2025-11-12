@@ -9,15 +9,21 @@ tags:
 - design
 - management
 - optimization
-- professional-services
 - strategy
-- template
 title: Meeting Management & Agendas Prompt Template
 use_cases:
 - Creating comprehensive framework for planning, conducting, and following up on team
   meetings with structured agendas, effective facilitation, and actionable outcomes.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Meeting Management & Agendas Prompt Template

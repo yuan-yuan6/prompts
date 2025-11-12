@@ -1,12 +1,29 @@
 ---
 title: Quality Management Template
 category: operations
-tags: [data-science, design, documentation, industry, management, optimization, research, security]
+tags:
+- ai-ml
+- design
+- documentation
+- management
+- optimization
+- research
+- security
 use_cases:
-  - Creating comprehensive quality management systems, manufacturing excellence frameworks, supply chain quality assurance strategies, and continuous improvement programs that ensure product quality, regulatory compliance, customer satisfaction, and operational efficiency across global manufacturing and supply networks.
-  - Project planning and execution
-  - Strategy development
+- Creating comprehensive quality management systems, manufacturing excellence frameworks,
+  supply chain quality assurance strategies, and continuous improvement programs that
+  ensure product quality, regulatory compliance, customer satisfaction, and operational
+  efficiency across global manufacturing and supply networks.
+- Project planning and execution
+- Strategy development
 last_updated: 2025-11-09
+industries:
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Quality Management Template

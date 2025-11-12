@@ -2,18 +2,16 @@
 category: technology/AI-Machine-Learning
 last_updated: 2025-11-09
 related_templates:
-- cloud-architecture-framework.md
-- site-reliability-engineering.md
-- cloud-migration-strategy.md
+- technology/cloud-architecture-framework.md
+- technology/site-reliability-engineering.md
+- technology/cloud-migration-strategy.md
 tags:
 - communication
 - design
-- machine-learning
+- ai-ml
 - management
 - optimization
 - strategy
-- technology
-- template
 title: Prompt Engineering Template
 use_cases:
 - Creating design and optimize prompts for large language models including prompt
@@ -21,6 +19,8 @@ use_cases:
   effective ai interactions.
 - Project planning and execution
 - Strategy development
+industries:
+- technology
 ---
 
 # Prompt Engineering Template

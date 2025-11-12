@@ -2,17 +2,15 @@
 category: technology/Data-Engineering
 last_updated: 2025-11-09
 related_templates:
-- cloud-architecture-framework.md
-- site-reliability-engineering.md
-- cloud-migration-strategy.md
+- technology/cloud-architecture-framework.md
+- technology/site-reliability-engineering.md
+- technology/cloud-migration-strategy.md
 tags:
-- data-science
+- ai-ml
 - design
 - research
 - security
 - strategy
-- technology
-- template
 - testing
 title: Data Quality Template
 use_cases:
@@ -21,6 +19,11 @@ use_cases:
   data across enterprise systems.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- government
+- manufacturing
+- technology
 ---
 
 # Data Quality Template

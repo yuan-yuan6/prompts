@@ -6,10 +6,9 @@ related_templates:
 - strategy/digital-transformation-roadmap.md
 - operations/lean-six-sigma-implementation.md
 tags:
-- business
 - design
 - development
-- machine-learning
+- ai-ml
 - management
 - optimization
 - security
@@ -21,6 +20,12 @@ use_cases:
   risk, and maximize returns on corporate assets.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- finance
+- government
+- manufacturing
+- technology
 ---
 
 # Treasury Management Template Generator

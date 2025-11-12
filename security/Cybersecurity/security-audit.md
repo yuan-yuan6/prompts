@@ -2,23 +2,27 @@
 category: security/Cybersecurity
 last_updated: 2025-11-09
 related_templates:
-- cloud-architecture-framework.md
-- site-reliability-engineering.md
-- cloud-migration-strategy.md
+- technology/cloud-architecture-framework.md
+- technology/site-reliability-engineering.md
+- technology/cloud-migration-strategy.md
 tags:
-- comprehensive
 - design
 - documentation
 - framework
 - security
 - strategy
-- technology
-- template
 title: Comprehensive Security Audit Framework Template
 use_cases:
 - General application
 - Professional use
 - Project implementation
+industries:
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Comprehensive Security Audit Framework Template

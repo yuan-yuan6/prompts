@@ -6,8 +6,7 @@ related_templates:
 - strategy/digital-transformation-roadmap.md
 - operations/lean-six-sigma-implementation.md
 tags:
-- business
-- data-science
+- ai-ml
 - design
 - framework
 - management
@@ -21,6 +20,12 @@ use_cases:
   efficiency.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Supply Chain Optimization & Logistics Management Framework

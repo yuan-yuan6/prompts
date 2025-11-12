@@ -6,9 +6,8 @@ related_templates:
 - strategy/digital-transformation-roadmap.md
 - operations/lean-six-sigma-implementation.md
 tags:
-- business
 - framework
-- machine-learning
+- ai-ml
 - optimization
 - strategy
 title: Enterprise Digital Transformation Roadmap & Execution Framework
@@ -19,6 +18,14 @@ use_cases:
   and customer touchpoints.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Enterprise Digital Transformation Roadmap & Execution Framework

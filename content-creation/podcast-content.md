@@ -11,7 +11,6 @@ tags:
 - development
 - marketing
 - strategy
-- template
 - testing
 title: Podcast Content Template Generator
 use_cases:
@@ -20,6 +19,13 @@ use_cases:
   content, and establish successful podcasting ventures.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
 ---
 
 # Podcast Content Template Generator

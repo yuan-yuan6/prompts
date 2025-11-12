@@ -1,12 +1,26 @@
 ---
 title: Career Planning Template
 category: personal/Personal-Development
-tags: [data-science, development, personal, research, strategy, template]
+tags:
+- ai-ml
+- development
+- personal
+- research
+- strategy
 use_cases:
-  - Creating comprehensive career development strategies, professional growth roadmaps, skill advancement plans, and strategic career transitions that align personal aspirations with market opportunities through systematic planning and execution.
-  - Project planning and execution
-  - Strategy development
+- Creating comprehensive career development strategies, professional growth roadmaps,
+  skill advancement plans, and strategic career transitions that align personal aspirations
+  with market opportunities through systematic planning and execution.
+- Project planning and execution
+- Strategy development
 last_updated: 2025-11-09
+industries:
+- education
+- finance
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Career Planning Template

@@ -2,20 +2,18 @@
 category: data-analytics/Business-Intelligence
 last_updated: 2025-11-09
 related_templates:
-- dashboard-strategy-requirements.md
-- dashboard-technical-implementation.md
-- dashboard-design-overview.md
+- data-analytics/Business-Intelligence/dashboard-strategy-requirements.md
+- data-analytics/Business-Intelligence/dashboard-technical-implementation.md
+- data-analytics/Business-Intelligence/dashboard-design-overview.md
 tags:
 - data-analytics
-- business-intelligence
-- ux-design
-- data-visualization
-- ui-design
 title: Dashboard UX/UI Design & User Experience
 use_cases:
 - Dashboard interface design
 - Data visualization selection
 - User experience optimization
+industries:
+- technology
 ---
 
 # Dashboard UX/UI Design & User Experience

@@ -9,9 +9,7 @@ tags:
 - design
 - management
 - optimization
-- professional-services
 - strategy
-- template
 title: Change Management & Adoption Prompt Template
 use_cases:
 - Creating comprehensive framework for managing organizational change initiatives,
@@ -19,6 +17,14 @@ use_cases:
   successful transformation and sustained behavioral change across the organization.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Change Management & Adoption Prompt Template

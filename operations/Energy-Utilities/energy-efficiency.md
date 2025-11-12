@@ -7,7 +7,6 @@ related_templates:
 tags:
 - design
 - development
-- industry
 - management
 - optimization
 title: Energy Efficiency Programs & Demand Side Management
@@ -17,6 +16,13 @@ use_cases:
   strategies for utilities and energy service companies.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Energy Efficiency Programs & Demand Side Management

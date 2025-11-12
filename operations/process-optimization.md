@@ -7,10 +7,8 @@ related_templates:
 - operations/lean-six-sigma-implementation.md
 tags:
 - automation
-- business
-- data-science
+- ai-ml
 - design
-- machine-learning
 - optimization
 - research
 - security
@@ -20,6 +18,14 @@ use_cases:
   opportunities, and efficiency improvements to enhance operational performance.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Process Optimization Template Generator

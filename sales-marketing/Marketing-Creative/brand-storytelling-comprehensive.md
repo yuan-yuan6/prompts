@@ -6,13 +6,11 @@ related_templates:
 - content-creation/video-production-pipeline.md
 tags:
 - communication
-- comprehensive
 - creative
 - design
 - development
 - marketing
 - strategy
-- template
 title: Brand Storytelling Comprehensive Template Generator
 use_cases:
 - Creating comprehensive brand storytelling solutions covering narratives, voice development,
@@ -20,6 +18,12 @@ use_cases:
   preservation across all brand touchpoints and communications.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- government
+- healthcare
+- manufacturing
+- retail
 ---
 
 # Brand Storytelling Comprehensive Template Generator

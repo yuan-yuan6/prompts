@@ -2,14 +2,14 @@
 category: nonprofit/Program-Management
 last_updated: 2025-11-09
 related_templates:
-- program-evaluation.md
-- fundraising-campaign-framework.md
+- nonprofit/program-evaluation.md
+- nonprofit/fundraising-campaign-framework.md
 tags:
 - automation
 - design
 - development
 - framework
-- machine-learning
+- ai-ml
 - nonprofit
 title: Social Impact Measurement & Evaluation Framework
 use_cases:
@@ -18,6 +18,11 @@ use_cases:
   and stakeholder reporting.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- finance
+- government
+- nonprofit
 ---
 
 # Social Impact Measurement & Evaluation Framework

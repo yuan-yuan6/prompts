@@ -1,16 +1,25 @@
 ---
 title: Real Estate Market Analysis & Investment Evaluation Framework
 category: sales-marketing
-tags: [data-science, framework, industry, research, strategy]
+tags:
+- ai-ml
+- framework
+- research
+- strategy
 use_cases:
-  - Creating comprehensive framework for analyzing real estate markets, evaluating investment opportunities, conducting comparable analysis, and making data-driven property investment decisions.
-
-  - Project planning and execution
-  - Strategy development
+- Creating comprehensive framework for analyzing real estate markets, evaluating investment
+  opportunities, conducting comparable analysis, and making data-driven property investment
+  decisions.
+- Project planning and execution
+- Strategy development
 related_templates:
-  - sales-marketing/Real-Estate/property-management-system.md
-  - sales-marketing/Real-Estate/construction-project-planning.md
+- sales-marketing/Real-Estate/property-management-system.md
+- sales-marketing/Real-Estate/construction-project-planning.md
 last_updated: 2025-11-09
+industries:
+- finance
+- healthcare
+- retail
 ---
 
 # Real Estate Market Analysis & Investment Evaluation Framework

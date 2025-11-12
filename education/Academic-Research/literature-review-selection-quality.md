@@ -2,20 +2,24 @@
 category: education/Academic-Research
 last_updated: 2025-11-10
 related_templates:
-- literature-review-protocol-search.md
-- literature-review-extraction-synthesis.md
-- literature-reviews-overview.md
+- education/Academic-Research/literature-review-protocol-search.md
+- education/Academic-Research/literature-review-extraction-synthesis.md
+- education/Academic-Research/literature-reviews-overview.md
 tags:
 - communication
 - education
 - research
 - testing
-- quality
 title: Literature Review Selection & Quality Assessment
 use_cases:
 - Conducting systematic study selection and screening processes for literature reviews
 - Performing comprehensive quality assessment and risk of bias evaluation
 - Documenting PRISMA-compliant selection procedures and quality ratings
+industries:
+- education
+- government
+- healthcare
+- technology
 ---
 
 # Literature Review Selection & Quality Assessment

@@ -1,15 +1,28 @@
 ---
 title: Production Planning & Scheduling Framework
 category: operations
-tags: [design, framework, industry, management, optimization, strategy, testing]
+tags:
+- design
+- framework
+- management
+- optimization
+- strategy
+- testing
 use_cases:
-  - Creating comprehensive framework for manufacturing production planning including capacity management, scheduling optimization, resource allocation, workflow design, and continuous improvement strategies.
-
-  - Project planning and execution
-  - Strategy development
+- Creating comprehensive framework for manufacturing production planning including
+  capacity management, scheduling optimization, resource allocation, workflow design,
+  and continuous improvement strategies.
+- Project planning and execution
+- Strategy development
 related_templates:
-  - operations/Manufacturing/quality-management.md
+- operations/Manufacturing/quality-management.md
 last_updated: 2025-11-09
+industries:
+- finance
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Production Planning & Scheduling Framework

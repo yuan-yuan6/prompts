@@ -1,16 +1,25 @@
 ---
 title: Candidate Assessment & Selection
 category: human-resources
-tags: [assessment, candidate-selection, reference-checks, hiring-decision, hr]
+tags:
+- hr
 use_cases:
-  - Implementing comprehensive candidate assessment methods
-  - Conducting reference checks and background verification
-  - Making data-driven hiring decisions
+- Implementing comprehensive candidate assessment methods
+- Conducting reference checks and background verification
+- Making data-driven hiring decisions
 related_templates:
-  - human-resources/screening-interview-process.md
-  - human-resources/job-analysis-definition.md
-  - human-resources/recruitment-metrics-optimization.md
+- human-resources/screening-interview-process.md
+- human-resources/job-analysis-definition.md
+- human-resources/recruitment-metrics-optimization.md
 last_updated: 2025-11-09
+industries:
+- education
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Candidate Assessment & Selection

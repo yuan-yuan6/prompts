@@ -1,13 +1,27 @@
 ---
 title: Warehouse Management & Distribution Center Framework
 category: operations
-tags: [automation, data-science, design, framework, industry, management, optimization, research]
+tags:
+- automation
+- ai-ml
+- design
+- framework
+- management
+- optimization
+- research
 use_cases:
-  - Creating comprehensive framework for managing warehouse operations including inventory control, order fulfillment, picking/packing processes, automation integration, labor management, and distribution center optimization for maximum throughput and accuracy.
-
-  - Project planning and execution
-  - Strategy development
+- Creating comprehensive framework for managing warehouse operations including inventory
+  control, order fulfillment, picking/packing processes, automation integration, labor
+  management, and distribution center optimization for maximum throughput and accuracy.
+- Project planning and execution
+- Strategy development
 last_updated: 2025-11-09
+industries:
+- finance
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Warehouse Management & Distribution Center Framework

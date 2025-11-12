@@ -2,13 +2,12 @@
 category: healthcare/Clinical-Practice
 last_updated: 2025-11-09
 related_templates:
-- telemedicine-platform-design.md
-- patient-care-pathway.md
-- clinical-trials-management.md
+- healthcare/telemedicine-platform-design.md
+- healthcare/patient-care-pathway.md
+- healthcare/clinical-trials-management.md
 tags:
 - documentation
 - healthcare
-- template
 title: Patient Documentation Template
 use_cases:
 - Creating comprehensive patient documentation including medical histories, clinical
@@ -16,6 +15,10 @@ use_cases:
   requirements and support continuity of care.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- government
+- healthcare
 ---
 
 # Patient Documentation Template

@@ -12,7 +12,6 @@ tags:
 - framework
 - management
 - optimization
-- professional-services
 - strategy
 title: Performance Management & Employee Development Framework
 use_cases:
@@ -21,6 +20,12 @@ use_cases:
   and career progression strategies.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Performance Management & Employee Development Framework

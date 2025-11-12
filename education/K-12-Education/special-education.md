@@ -2,8 +2,8 @@
 category: education/K-12-Education
 last_updated: 2025-11-09
 related_templates:
-- curriculum-development.md
-- curriculum-development-framework.md
+- education/curriculum-development.md
+- education/curriculum-development-framework.md
 tags:
 - development
 - education
@@ -17,6 +17,9 @@ use_cases:
   with idea regulations.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- healthcare
 ---
 
 # Special Education Services & IEP Management Framework

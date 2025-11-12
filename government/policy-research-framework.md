@@ -1,13 +1,25 @@
 ---
 title: Policy Research & Analysis Framework
 category: government
-tags: [data-science, framework, government, machine-learning, research, security]
+tags:
+- ai-ml
+- framework
+- government
+- research
+- security
 use_cases:
-  - Creating comprehensive framework for conducting policy research including evidence gathering, stakeholder analysis, impact assessment, benchmarking studies, and policy recommendations for effective public sector decision-making and governance.
-
-  - Project planning and execution
-  - Strategy development
+- Creating comprehensive framework for conducting policy research including evidence
+  gathering, stakeholder analysis, impact assessment, benchmarking studies, and policy
+  recommendations for effective public sector decision-making and governance.
+- Project planning and execution
+- Strategy development
 last_updated: 2025-11-09
+industries:
+- education
+- finance
+- government
+- healthcare
+- technology
 ---
 
 # Policy Research & Analysis Framework

@@ -8,11 +8,10 @@ tags:
 - creative
 - design
 - documentation
-- machine-learning
+- ai-ml
 - marketing
 - optimization
 - research
-- security
 title: UX/UI Design Template Generator
 use_cases:
 - Creating comprehensive UX/UI design strategies for wireframes, prototypes, design
@@ -20,6 +19,13 @@ use_cases:
   digital platforms and drive business success.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # UX/UI Design Template Generator

@@ -1,13 +1,24 @@
 ---
 title: Fitness Planning Template
 category: personal/Health-Wellness
-tags: [documentation, optimization, personal, strategy, template]
+tags:
+- documentation
+- optimization
+- personal
+- strategy
 use_cases:
-  - Creating develop comprehensive fitness plans including workout programs, exercise routines, and health tracking systems to achieve physical fitness goals and maintain long-term wellness.
-
-  - Project planning and execution
-  - Strategy development
+- Creating develop comprehensive fitness plans including workout programs, exercise
+  routines, and health tracking systems to achieve physical fitness goals and maintain
+  long-term wellness.
+- Project planning and execution
+- Strategy development
 last_updated: 2025-11-09
+industries:
+- finance
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Fitness Planning Template

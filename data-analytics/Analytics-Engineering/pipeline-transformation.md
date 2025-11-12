@@ -2,24 +2,26 @@
 category: data-analytics/Analytics-Engineering
 last_updated: 2025-11-10
 related_templates:
-- pipeline-ingestion.md
-- pipeline-orchestration.md
-- pipeline-observability.md
-- data-governance-framework.md
+- data-analytics/Analytics-Engineering/pipeline-ingestion.md
+- data-analytics/Analytics-Engineering/pipeline-orchestration.md
+- data-analytics/Analytics-Engineering/pipeline-observability.md
+- data-analytics/data-governance-framework.md
 tags:
 - automation
 - data-analytics
 - development
-- transformation
-- etl
 - data-quality
-- medallion-architecture
 title: Pipeline Data Transformation Template
 use_cases:
 - Designing medallion architecture transformations (Bronze → Silver → Gold)
 - Implementing data cleansing, standardization, and enrichment logic
 - Building slowly changing dimensions (SCD Type 2) and dimensional models
 - Applying complex transformations with window functions and aggregations
+industries:
+- government
+- manufacturing
+- retail
+- technology
 ---
 
 # Pipeline Data Transformation Template

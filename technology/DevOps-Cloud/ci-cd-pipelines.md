@@ -2,9 +2,9 @@
 category: technology/DevOps-Cloud
 last_updated: 2025-11-09
 related_templates:
-- cloud-architecture-framework.md
-- site-reliability-engineering.md
-- cloud-migration-strategy.md
+- technology/cloud-architecture-framework.md
+- technology/site-reliability-engineering.md
+- technology/cloud-migration-strategy.md
 tags:
 - automation
 - design
@@ -13,12 +13,17 @@ tags:
 - optimization
 - security
 - strategy
-- technology
 title: CI/CD Pipeline Development & Optimization Template
 use_cases:
 - General application
 - Professional use
 - Project implementation
+industries:
+- finance
+- government
+- healthcare
+- manufacturing
+- technology
 ---
 
 # CI/CD Pipeline Development & Optimization Template

@@ -8,7 +8,6 @@ related_templates:
 tags:
 - design
 - framework
-- industry
 - optimization
 - research
 - strategy
@@ -20,6 +19,11 @@ use_cases:
   optimization, technology infrastructure, and unified commerce experiences.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- healthcare
+- retail
+- technology
 ---
 
 # Omnichannel Retail Strategy & Integration Framework

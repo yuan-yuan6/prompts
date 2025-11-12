@@ -6,12 +6,10 @@ related_templates:
 - sales-marketing/Retail-Ecommerce/dynamic-pricing-strategy.md
 - sales-marketing/Retail-Ecommerce/product-sourcing-strategy.md
 tags:
-- data-science
+- ai-ml
 - design
 - development
 - framework
-- industry
-- machine-learning
 - marketing
 - optimization
 title: Retail Pricing Strategy & Revenue Optimization Framework
@@ -21,6 +19,10 @@ use_cases:
   planning, and price elasticity analysis.
 - Project planning and execution
 - Strategy development
+industries:
+- government
+- healthcare
+- retail
 ---
 
 # Retail Pricing Strategy & Revenue Optimization Framework

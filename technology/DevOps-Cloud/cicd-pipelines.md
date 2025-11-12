@@ -2,9 +2,9 @@
 category: technology/DevOps-Cloud
 last_updated: 2025-11-09
 related_templates:
-- cloud-architecture-framework.md
-- site-reliability-engineering.md
-- cloud-migration-strategy.md
+- technology/cloud-architecture-framework.md
+- technology/site-reliability-engineering.md
+- technology/cloud-migration-strategy.md
 tags:
 - automation
 - design
@@ -12,8 +12,6 @@ tags:
 - optimization
 - security
 - strategy
-- technology
-- template
 title: CI/CD Pipelines Template
 use_cases:
 - Creating design and implement comprehensive ci/cd pipelines for automated build,
@@ -21,6 +19,9 @@ use_cases:
   strategies.
 - Project planning and execution
 - Strategy development
+industries:
+- manufacturing
+- technology
 ---
 
 # CI/CD Pipelines Template

@@ -2,22 +2,23 @@
 category: technology/DevOps-Cloud
 last_updated: 2025-11-09
 related_templates:
-- cloud-architecture-framework.md
-- site-reliability-engineering.md
-- cloud-migration-strategy.md
+- technology/cloud-architecture-framework.md
+- technology/site-reliability-engineering.md
+- technology/cloud-migration-strategy.md
 tags:
 - design
 - management
 - optimization
 - strategy
-- technology
-- template
 title: Infrastructure Management Template
 use_cases:
 - Creating comprehensive infrastructure management including provisioning, scaling,
   monitoring, maintenance, and optimization for cloud and on-premises environments.
 - Project planning and execution
 - Strategy development
+industries:
+- retail
+- technology
 ---
 
 # Infrastructure Management Template

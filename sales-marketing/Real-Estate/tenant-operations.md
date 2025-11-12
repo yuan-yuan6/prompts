@@ -6,7 +6,6 @@ related_templates:
 - sales-marketing/Real-Estate/construction-project-planning.md
 tags:
 - framework
-- industry
 - management
 - optimization
 - security
@@ -18,6 +17,11 @@ use_cases:
   and portfolio optimization.
 - Project planning and execution
 - Strategy development
+industries:
+- government
+- manufacturing
+- retail
+- technology
 ---
 
 # Property Management & Tenant Operations Framework

@@ -6,7 +6,6 @@ related_templates:
 - content-creation/video-production-pipeline.md
 tags:
 - automation
-- comprehensive
 - creative
 - management
 - marketing
@@ -20,6 +19,13 @@ use_cases:
   across all email marketing objectives and customer lifecycle stages.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Email Marketing Comprehensive Template Generator

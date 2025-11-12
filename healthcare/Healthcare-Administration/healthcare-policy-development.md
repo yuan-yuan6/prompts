@@ -2,9 +2,9 @@
 category: healthcare/Healthcare-Administration
 last_updated: 2025-11-09
 related_templates:
-- telemedicine-platform-design.md
-- patient-care-pathway.md
-- clinical-trials-management.md
+- healthcare/telemedicine-platform-design.md
+- healthcare/patient-care-pathway.md
+- healthcare/clinical-trials-management.md
 tags:
 - design
 - development
@@ -12,7 +12,6 @@ tags:
 - healthcare
 - optimization
 - security
-- template
 - testing
 title: Healthcare Policy Development Template
 use_cases:
@@ -21,6 +20,10 @@ use_cases:
   quality care delivery across healthcare organizations.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- government
+- healthcare
 ---
 
 # Healthcare Policy Development Template

@@ -2,17 +2,16 @@
 category: government/Federal-State
 last_updated: 2025-11-09
 related_templates:
-- policy-development.md
-- policy-research-framework.md
+- government/policy-development.md
+- government/policy-research-framework.md
 tags:
-- data-science
+- ai-ml
 - design
 - development
 - framework
 - government
 - management
 - research
-- security
 title: Government Policy Development & Implementation Framework
 use_cases:
 - Creating comprehensive framework for developing, implementing, and evaluating government
@@ -20,6 +19,11 @@ use_cases:
   public consultation, and policy effectiveness monitoring.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- finance
+- government
+- healthcare
 ---
 
 # Government Policy Development & Implementation Framework

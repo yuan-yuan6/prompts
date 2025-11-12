@@ -2,16 +2,15 @@
 category: security/Cybersecurity
 last_updated: 2025-11-09
 related_templates:
-- cybersecurity-incident-response.md
+- security/cybersecurity-incident-response.md
 tags:
-- data-science
+- ai-ml
 - design
 - framework
 - management
 - marketing
 - research
 - security
-- strategy
 title: Cybersecurity Operations & Threat Management Framework
 use_cases:
 - Creating comprehensive framework for cybersecurity operations, threat detection
@@ -19,6 +18,11 @@ use_cases:
   and organizational cyber resilience.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- government
+- healthcare
+- technology
 ---
 
 # Cybersecurity Operations & Threat Management Framework

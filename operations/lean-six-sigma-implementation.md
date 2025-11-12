@@ -1,13 +1,26 @@
 ---
 title: Lean Six Sigma Implementation & Process Excellence Framework
 category: operations
-tags: [business, data-science, framework, optimization, research, strategy, testing]
+tags:
+- ai-ml
+- framework
+- optimization
+- research
+- strategy
+- testing
 use_cases:
-  - Creating comprehensive framework for implementing lean six sigma methodologies including dmaic process, waste elimination, variation reduction, value stream mapping, and continuous improvement for operational excellence and quality enhancement.
-
-  - Project planning and execution
-  - Strategy development
+- Creating comprehensive framework for implementing lean six sigma methodologies including
+  dmaic process, waste elimination, variation reduction, value stream mapping, and
+  continuous improvement for operational excellence and quality enhancement.
+- Project planning and execution
+- Strategy development
 last_updated: 2025-11-09
+industries:
+- finance
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Lean Six Sigma Implementation & Process Excellence Framework

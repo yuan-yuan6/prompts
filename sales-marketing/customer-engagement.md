@@ -6,13 +6,11 @@ related_templates:
 - strategy/digital-transformation-roadmap.md
 - operations/lean-six-sigma-implementation.md
 tags:
-- business
 - design
-- machine-learning
+- ai-ml
 - management
 - optimization
 - strategy
-- template
 title: Customer Engagement Template Generator
 use_cases:
 - Creating comprehensive customer engagement strategies covering retention programs,
@@ -20,6 +18,12 @@ use_cases:
   and drive long-term value.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- government
+- manufacturing
+- retail
+- technology
 ---
 
 # Customer Engagement Template Generator

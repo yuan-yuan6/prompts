@@ -7,7 +7,6 @@ related_templates:
 tags:
 - communication
 - design
-- industry
 - management
 - optimization
 - security
@@ -18,6 +17,13 @@ use_cases:
   response systems.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Smart Grid Management & Optimization

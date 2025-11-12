@@ -2,20 +2,19 @@
 category: education/Teaching-Instruction
 last_updated: 2025-11-09
 related_templates:
-- course-content-curriculum.md
-- course-foundations-objectives.md
-tags:
-- engagement
-- motivation
-- active-learning
-- community-building
-- pedagogy
+- education/Teaching-Instruction/course-content-curriculum.md
+- education/Teaching-Instruction/course-foundations-objectives.md
+tags: []
 title: Student Engagement Strategy Designer
 use_cases:
 - Design engagement activities for low-participation course (15-20 activities for
   semester)
 - Create active learning strategies to replace passive lectures
 - Build discussion prompts and collaborative exercises that increase student interaction
+industries:
+- education
+- government
+- healthcare
 ---
 
 # Student Engagement Strategy Designer

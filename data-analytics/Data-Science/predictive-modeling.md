@@ -2,17 +2,11 @@
 category: data-analytics/data-science
 last_updated: 2025-01-09
 related_templates:
-- feature-engineering.md
-- model-evaluation.md
-- exploratory-analysis.md
+- data-analytics/Data-Science/feature-engineering.md
+- data-analytics/Data-Science/model-evaluation.md
+- data-analytics/Data-Science/exploratory-analysis.md
 tags:
-- machine-learning
-- predictive-modeling
-- data-science
-- ml-ops
-- python
-- classification
-- regression
+- ai-ml
 title: Predictive Modeling & Machine Learning
 use_cases:
 - Customer churn prediction
@@ -21,6 +15,13 @@ use_cases:
 - Demand forecasting
 - Customer lifetime value prediction
 - Risk assessment
+industries:
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Predictive Modeling & Machine Learning Template

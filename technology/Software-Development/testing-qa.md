@@ -2,9 +2,9 @@
 category: technology/Software-Development
 last_updated: 2025-11-09
 related_templates:
-- cloud-architecture-framework.md
-- site-reliability-engineering.md
-- cloud-migration-strategy.md
+- technology/cloud-architecture-framework.md
+- technology/site-reliability-engineering.md
+- technology/cloud-migration-strategy.md
 tags:
 - automation
 - design
@@ -12,8 +12,6 @@ tags:
 - optimization
 - security
 - strategy
-- technology
-- template
 title: Testing & QA Template
 use_cases:
 - Creating design comprehensive testing strategies including unit tests, integration
@@ -21,6 +19,12 @@ use_cases:
   assurance processes.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- government
+- manufacturing
+- retail
+- technology
 ---
 
 # Testing & QA Template

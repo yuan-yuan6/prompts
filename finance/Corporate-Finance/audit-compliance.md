@@ -6,13 +6,11 @@ related_templates:
 - strategy/digital-transformation-roadmap.md
 - operations/lean-six-sigma-implementation.md
 tags:
-- business
 - communication
 - design
-- machine-learning
+- ai-ml
 - management
 - security
-- template
 title: Audit & Compliance Template Generator
 use_cases:
 - Creating comprehensive audit and compliance strategies covering internal controls,
@@ -20,6 +18,13 @@ use_cases:
   and adherence to legal and industry standards.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- finance
+- government
+- healthcare
+- manufacturing
+- technology
 ---
 
 # Audit & Compliance Template Generator

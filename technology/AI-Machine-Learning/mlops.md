@@ -2,18 +2,17 @@
 category: technology/AI-Machine-Learning
 last_updated: 2025-11-09
 related_templates:
-- cloud-architecture-framework.md
-- site-reliability-engineering.md
-- cloud-migration-strategy.md
+- technology/cloud-architecture-framework.md
+- technology/site-reliability-engineering.md
+- technology/cloud-migration-strategy.md
 tags:
 - automation
 - design
 - development
-- machine-learning
+- ai-ml
 - management
 - optimization
 - security
-- strategy
 title: MLOps Template
 use_cases:
 - Creating implement comprehensive mlops practices including ci/cd pipelines, model
@@ -21,6 +20,9 @@ use_cases:
   machine learning systems.
 - Project planning and execution
 - Strategy development
+industries:
+- manufacturing
+- technology
 ---
 
 # MLOps Template

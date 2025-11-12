@@ -7,7 +7,6 @@ tags:
 - design
 - development
 - framework
-- industry
 - management
 - optimization
 - strategy
@@ -18,6 +17,13 @@ use_cases:
   and end-to-end visibility strategies.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Supply Chain Optimization & Management Framework

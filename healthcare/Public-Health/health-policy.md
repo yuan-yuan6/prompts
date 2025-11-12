@@ -2,18 +2,17 @@
 category: healthcare/Public-Health
 last_updated: 2025-11-09
 related_templates:
-- telemedicine-platform-design.md
-- patient-care-pathway.md
-- clinical-trials-management.md
+- healthcare/telemedicine-platform-design.md
+- healthcare/patient-care-pathway.md
+- healthcare/clinical-trials-management.md
 tags:
 - communication
-- data-science
+- ai-ml
 - design
 - healthcare
 - marketing
 - research
 - strategy
-- template
 title: Health Policy & Advocacy Template
 use_cases:
 - Creating comprehensive health policy proposals, advocacy campaigns, legislative
@@ -21,6 +20,10 @@ use_cases:
   through policy change and systems transformation.
 - Project planning and execution
 - Strategy development
+industries:
+- government
+- healthcare
+- technology
 ---
 
 # Health Policy & Advocacy Template

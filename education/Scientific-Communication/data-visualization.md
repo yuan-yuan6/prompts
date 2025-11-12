@@ -2,8 +2,8 @@
 category: education/Scientific-Communication
 last_updated: 2025-11-09
 related_templates:
-- curriculum-development.md
-- curriculum-development-framework.md
+- education/curriculum-development.md
+- education/curriculum-development-framework.md
 tags:
 - communication
 - design
@@ -11,7 +11,6 @@ tags:
 - education
 - research
 - strategy
-- template
 - testing
 title: Data Visualization & Figures Template
 use_cases:
@@ -20,6 +19,12 @@ use_cases:
   understanding, and meet publication standards across diverse research disciplines.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- government
+- healthcare
+- manufacturing
+- technology
 ---
 
 # Data Visualization & Figures Template

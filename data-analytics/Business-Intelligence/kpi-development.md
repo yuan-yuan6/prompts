@@ -2,16 +2,15 @@
 category: data-analytics/Business-Intelligence
 last_updated: 2025-11-09
 related_templates:
-- dashboard-design-patterns.md
-- data-governance-framework.md
-- predictive-modeling-framework.md
+- data-analytics/dashboard-design-patterns.md
+- data-analytics/data-governance-framework.md
+- data-analytics/predictive-modeling-framework.md
 tags:
 - automation
-- comprehensive
 - data-analytics
 - design
 - development
-- machine-learning
+- ai-ml
 - management
 - marketing
 title: Comprehensive KPI Development & Management Template
@@ -19,6 +18,14 @@ use_cases:
 - General application
 - Professional use
 - Project implementation
+industries:
+- education
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Comprehensive KPI Development & Management Template

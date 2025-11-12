@@ -2,21 +2,25 @@
 category: education/Academic-Research
 last_updated: 2025-11-10
 related_templates:
-- literature-review-selection-quality.md
-- literature-review-extraction-synthesis.md
-- literature-reviews-overview.md
+- education/Academic-Research/literature-review-selection-quality.md
+- education/Academic-Research/literature-review-extraction-synthesis.md
+- education/Academic-Research/literature-reviews-overview.md
 tags:
 - communication
 - education
 - research
 - strategy
-- template
 title: Literature Review Protocol & Search Strategy
 use_cases:
 - Developing systematic review protocols with comprehensive search strategies and
   methodological frameworks
 - Designing rigorous database search approaches for academic literature reviews
 - Establishing theoretical foundations and research context for evidence synthesis
+industries:
+- education
+- government
+- healthcare
+- manufacturing
 ---
 
 # Literature Review Protocol & Search Strategy

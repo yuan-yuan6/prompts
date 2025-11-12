@@ -1,13 +1,26 @@
 ---
 title: Precision Agriculture & Smart Farming Framework
 category: operations
-tags: [data-science, documentation, framework, industry, management, optimization]
+tags:
+- ai-ml
+- documentation
+- framework
+- management
+- optimization
 use_cases:
-  - Creating comprehensive framework for implementing precision agriculture technologies including gps-guided operations, variable rate applications, crop monitoring, yield mapping, data analytics, and sustainable farming practices for optimized agricultural production.
-
-  - Project planning and execution
-  - Strategy development
+- Creating comprehensive framework for implementing precision agriculture technologies
+  including gps-guided operations, variable rate applications, crop monitoring, yield
+  mapping, data analytics, and sustainable farming practices for optimized agricultural
+  production.
+- Project planning and execution
+- Strategy development
 last_updated: 2025-11-09
+industries:
+- finance
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Precision Agriculture & Smart Farming Framework

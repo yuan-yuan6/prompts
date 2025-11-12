@@ -7,10 +7,8 @@ related_templates:
 - operations/lean-six-sigma-implementation.md
 tags:
 - automation
-- business
-- data-science
+- ai-ml
 - development
-- machine-learning
 - management
 - optimization
 - research
@@ -21,6 +19,14 @@ use_cases:
   allocation optimization.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Investment Evaluation Template Generator
