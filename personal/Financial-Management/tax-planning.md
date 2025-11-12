@@ -1,13 +1,28 @@
 ---
 title: Tax Planning Template
 category: personal/Financial-Management
-tags: [data-science, management, optimization, personal, research, security, strategy, template]
+tags:
+- ai-ml
+- management
+- optimization
+- personal
+- research
+- security
+- strategy
 use_cases:
-  - Creating develop comprehensive tax strategies including deduction optimization, compliance strategies, and long-term tax efficiency planning to minimize tax liability while maintaining legal compliance and financial goals.
-
-  - Project planning and execution
-  - Strategy development
+- Creating develop comprehensive tax strategies including deduction optimization,
+  compliance strategies, and long-term tax efficiency planning to minimize tax liability
+  while maintaining legal compliance and financial goals.
+- Project planning and execution
+- Strategy development
 last_updated: 2025-11-09
+industries:
+- education
+- finance
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Tax Planning Template

@@ -9,10 +9,9 @@ tags:
 - development
 - education
 - framework
-- machine-learning
+- ai-ml
 - management
 - security
-- strategy
 title: Information Architecture & Taxonomy Design Framework Generator
 use_cases:
 - Creating comprehensive frameworks for designing information architectures, taxonomies,
@@ -20,6 +19,9 @@ use_cases:
   content management, and information systems.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- technology
 ---
 
 # Information Architecture & Taxonomy Design Framework Generator

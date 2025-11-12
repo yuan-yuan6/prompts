@@ -10,8 +10,6 @@ tags:
 - design
 - management
 - security
-- technology
-- template
 - testing
 title: Compliance Management Template
 use_cases:
@@ -20,6 +18,11 @@ use_cases:
   and data protection requirements.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- government
+- healthcare
+- technology
 ---
 
 # Compliance Management Template

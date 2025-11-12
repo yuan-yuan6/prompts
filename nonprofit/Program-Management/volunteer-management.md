@@ -17,6 +17,11 @@ use_cases:
   and impact measurement of volunteer programs.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- government
+- healthcare
+- nonprofit
 ---
 
 # Volunteer Management & Engagement System

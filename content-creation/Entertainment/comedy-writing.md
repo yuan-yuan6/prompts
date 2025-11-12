@@ -8,17 +8,18 @@ tags:
 - automation
 - communication
 - creative
-- data-science
+- ai-ml
 - design
 - development
 - optimization
-- research
 title: Comedy Writing Template
 use_cases:
 - Creating engaging comedy content including jokes, sketches, and standup material
   that generates laughter and entertainment across various formats and comedy styles.
 - Project planning and execution
 - Strategy development
+industries:
+- manufacturing
 ---
 
 # Comedy Writing Template

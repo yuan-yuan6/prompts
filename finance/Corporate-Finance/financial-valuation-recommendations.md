@@ -6,16 +6,15 @@ related_templates:
 - finance/Corporate-Finance/financial-forecasting.md
 - finance/Corporate-Finance/financial-risk-assessment.md
 tags:
-- business
 - finance
-- valuation
-- investment-analysis
-- recommendations
 title: Financial Valuation & Investment Recommendations
 use_cases:
 - Conducting business and equity valuations
 - Developing investment recommendations
 - Supporting M&A and strategic decisions
+industries:
+- finance
+- technology
 ---
 
 # Financial Valuation & Investment Recommendations

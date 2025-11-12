@@ -1,17 +1,25 @@
 ---
 title: Policy Implementation Planning
 category: government/Policy-Development
-tags: [implementation, planning, monitoring, evaluation, regulatory-framework]
+tags:
+- implementation
+- planning
+- evaluation
 use_cases:
-  - Developing comprehensive implementation roadmaps
-  - Planning regulatory and legislative requirements
-  - Designing monitoring and evaluation systems
+- Developing comprehensive implementation roadmaps
+- Planning regulatory and legislative requirements
+- Designing monitoring and evaluation systems
 related_templates:
-  - government/Policy Development/policy-research-analysis.md
-  - government/Policy Development/policy-impact-assessment.md
-  - government/Policy Development/policy-options-development.md
-  - government/Policy Development/policy-research-overview.md
+- government/Policy Development/policy-research-analysis.md
+- government/Policy Development/policy-impact-assessment.md
+- government/Policy Development/policy-options-development.md
+- government/Policy Development/policy-research-overview.md
 last_updated: 2025-11-09
+industries:
+- education
+- government
+- healthcare
+- technology
 ---
 
 # Policy Implementation Planning

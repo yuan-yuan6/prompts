@@ -17,6 +17,9 @@ use_cases:
   with idea regulations.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- healthcare
 ---
 
 # Special Education Services & IEP Management Framework

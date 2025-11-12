@@ -8,11 +8,10 @@ tags:
 - communication
 - design
 - development
-- machine-learning
+- ai-ml
 - optimization
-- professional-services
+- management
 - strategy
-- template
 title: Culture Building & Engagement Prompt Template
 use_cases:
 - Creating comprehensive framework for strengthening organizational culture, reinforcing
@@ -20,6 +19,14 @@ use_cases:
   that create a positive, productive, and aligned workplace environment.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Culture Building & Engagement Prompt Template

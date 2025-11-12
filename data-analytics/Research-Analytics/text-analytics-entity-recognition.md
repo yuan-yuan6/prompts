@@ -8,12 +8,7 @@ related_templates:
 tags:
 - automation
 - data-analytics
-- data-science
-- machine-learning
-- nlp
-- ner
-- entity-extraction
-- template
+- ai-ml
 title: Text Analytics - Named Entity Recognition
 use_cases:
 - Extract and classify named entities (people, organizations, locations, dates) from
@@ -21,6 +16,10 @@ use_cases:
 - Link entities to knowledge bases for disambiguation and enrichment.
 - Analyze entity relationships and co-occurrence patterns to understand connections
   in text data.
+industries:
+- finance
+- healthcare
+- technology
 ---
 
 # Text Analytics - Named Entity Recognition

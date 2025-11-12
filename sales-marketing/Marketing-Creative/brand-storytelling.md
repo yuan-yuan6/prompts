@@ -10,7 +10,6 @@ tags:
 - design
 - development
 - marketing
-- template
 title: Brand Storytelling Template
 use_cases:
 - Creating compelling brand narratives, voice, and personality that connect emotionally
@@ -18,6 +17,11 @@ use_cases:
   communications.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- healthcare
+- manufacturing
+- retail
 ---
 
 # Brand Storytelling Template

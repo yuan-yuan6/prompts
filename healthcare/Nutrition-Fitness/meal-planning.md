@@ -1,16 +1,25 @@
 ---
 title: Meal Planning Template
 category: healthcare/Nutrition-Fitness
-tags: [design, development, healthcare, strategy, template, testing]
+tags:
+- design
+- development
+- healthcare
+- strategy
+- testing
 use_cases:
-  - General application
-  - Professional use
-  - Project implementation
+- General application
+- Professional use
+- Project implementation
 related_templates:
-  - healthcare/telemedicine-platform-design.md
-  - healthcare/patient-care-pathway.md
-  - healthcare/clinical-trials-management.md
+- healthcare/telemedicine-platform-design.md
+- healthcare/patient-care-pathway.md
+- healthcare/clinical-trials-management.md
 last_updated: 2025-11-09
+industries:
+- healthcare
+- manufacturing
+- technology
 ---
 
 # Meal Planning Template

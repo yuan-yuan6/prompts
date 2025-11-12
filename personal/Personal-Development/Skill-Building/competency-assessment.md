@@ -1,16 +1,30 @@
 ---
 title: Comprehensive Competency Assessment & Evaluation Template
 category: personal/Personal-Development/Skill-Building
-tags: [comprehensive, data-science, design, development, machine-learning, marketing, optimization, personal]
+tags:
+- ai-ml
+- design
+- development
+- marketing
+- optimization
+- personal
 use_cases:
-  - General application
-  - Professional use
-  - Project implementation
+- General application
+- Professional use
+- Project implementation
 related_templates:
-  - personal/Personal Development/time-management.md
-  - personal/Personal Development/skill-development.md
-  - personal/Personal Development/habit-formation.md
+- personal/Personal Development/time-management.md
+- personal/Personal Development/skill-development.md
+- personal/Personal Development/habit-formation.md
 last_updated: 2025-11-09
+industries:
+- education
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Comprehensive Competency Assessment & Evaluation Template

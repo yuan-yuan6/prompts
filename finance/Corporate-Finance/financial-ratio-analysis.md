@@ -1,16 +1,20 @@
 ---
 title: Financial Ratio Analysis
 category: finance/Corporate-Finance
-tags: [business, finance, ratios, performance-metrics, benchmarking]
+tags:
+- finance
 use_cases:
-  - Analyze a company's financial health using key ratios (30-45 min task)
-  - Benchmark company performance against industry peers
-  - Prepare executive summary of financial position for board presentation
+- Analyze a company's financial health using key ratios (30-45 min task)
+- Benchmark company performance against industry peers
+- Prepare executive summary of financial position for board presentation
 related_templates:
-  - finance/Corporate-Finance/financial-statement-analysis.md
-  - finance/Corporate-Finance/financial-forecasting.md
-  - finance/Corporate-Finance/financial-valuation-recommendations.md
+- finance/Corporate-Finance/financial-statement-analysis.md
+- finance/Corporate-Finance/financial-forecasting.md
+- finance/Corporate-Finance/financial-valuation-recommendations.md
 last_updated: 2025-11-09
+industries:
+- finance
+- retail
 ---
 
 # Financial Ratio Analysis

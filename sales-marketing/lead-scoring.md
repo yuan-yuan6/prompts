@@ -6,17 +6,23 @@ related_templates:
 - sales-marketing/campaign-development.md
 - sales-marketing/lead-generation.md
 tags:
-- business
 - design
-- machine-learning
+- ai-ml
 - marketing
 - optimization
-- template
 title: Lead Scoring Template
 use_cases:
 - General application
 - Professional use
 - Project implementation
+industries:
+- education
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Lead Scoring Template

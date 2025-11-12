@@ -4,9 +4,8 @@ last_updated: 2025-11-09
 related_templates:
 - operations/Manufacturing/quality-management.md
 tags:
-- data-science
+- ai-ml
 - framework
-- industry
 - optimization
 - research
 - testing
@@ -17,6 +16,12 @@ use_cases:
   continuous quality enhancement in manufacturing environments.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Six Sigma & Quality Excellence Framework

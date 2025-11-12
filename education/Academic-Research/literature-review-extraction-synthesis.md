@@ -7,7 +7,7 @@ related_templates:
 - education/Academic-Research/literature-reviews-overview.md
 tags:
 - communication
-- data-science
+- ai-ml
 - education
 - research
 - analysis
@@ -17,6 +17,10 @@ use_cases:
 - Conducting quantitative meta-analysis and statistical synthesis
 - Performing qualitative thematic analysis and narrative synthesis
 - Integrating evidence across multiple studies and methodologies
+industries:
+- education
+- healthcare
+- manufacturing
 ---
 
 # Literature Review Data Extraction & Synthesis

@@ -9,9 +9,8 @@ tags:
 - design
 - development
 - documentation
-- machine-learning
+- ai-ml
 - management
-- professional-services
 - security
 - strategy
 title: Compliance Management Template Generator
@@ -22,6 +21,14 @@ use_cases:
   requirements while minimizing compliance risk.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Compliance Management Template Generator

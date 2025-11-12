@@ -1,13 +1,28 @@
 ---
 title: Performance Review & Evaluation System Framework
 category: human-resources
-tags: [design, development, framework, machine-learning, management, optimization, professional-services, strategy]
+tags:
+- design
+- development
+- framework
+- ai-ml
+- management
+- optimization
+- strategy
 use_cases:
-  - Creating comprehensive framework for designing and implementing performance review systems including goal setting, continuous feedback, competency assessment, career development planning, and compensation alignment for organizational excellence.
-
-  - Project planning and execution
-  - Strategy development
+- Creating comprehensive framework for designing and implementing performance review
+  systems including goal setting, continuous feedback, competency assessment, career
+  development planning, and compensation alignment for organizational excellence.
+- Project planning and execution
+- Strategy development
 last_updated: 2025-11-09
+industries:
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Performance Review & Evaluation System Framework

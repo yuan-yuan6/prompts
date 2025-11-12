@@ -8,10 +8,9 @@ tags:
 - automation
 - creative
 - design
-- machine-learning
+- ai-ml
 - marketing
 - strategy
-- template
 - testing
 title: Video Scripts Template Generator
 use_cases:
@@ -20,6 +19,14 @@ use_cases:
   messages effectively, and achieve content objectives.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Video Scripts Template Generator

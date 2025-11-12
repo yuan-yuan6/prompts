@@ -8,15 +8,20 @@ tags:
 - automation
 - communication
 - management
-- professional-services
 - strategy
-- template
 title: Client Relations Management Prompt Template
 use_cases:
 - Creating comprehensive framework for managing client relationships, communications,
   and engagement strategies to maximize satisfaction, retention, and business growth.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Client Relations Management Prompt Template

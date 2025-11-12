@@ -1,16 +1,19 @@
 ---
 title: Acute Care Treatment Plan
 category: healthcare/Clinical-Practice
-tags: [healthcare, emergency, acute-care, critical-care, protocol, template]
+tags:
+- healthcare
 use_cases:
-  - Create time-sensitive treatment protocol for ER patient (30-60 min)
-  - Develop acute intervention plan for critical patient requiring immediate care
-  - Design rapid assessment and stabilization protocol for emergency department
+- Create time-sensitive treatment protocol for ER patient (30-60 min)
+- Develop acute intervention plan for critical patient requiring immediate care
+- Design rapid assessment and stabilization protocol for emergency department
 related_templates:
-  - healthcare/Clinical Practice/chronic-disease-management-plan.md
-  - healthcare/Clinical Practice/surgical-treatment-plan.md
-  - healthcare/patient-care-pathway.md
+- healthcare/Clinical Practice/chronic-disease-management-plan.md
+- healthcare/Clinical Practice/surgical-treatment-plan.md
+- healthcare/patient-care-pathway.md
 last_updated: 2025-11-09
+industries:
+- healthcare
 ---
 
 # Acute Care Treatment Plan

@@ -8,12 +8,10 @@ related_templates:
 tags:
 - automation
 - data-analytics
-- data-science
+- ai-ml
 - design
-- machine-learning
 - optimization
 - research
-- template
 title: Feature Engineering & Selection Template
 use_cases:
 - Creating design and implement comprehensive feature engineering strategies to create,
@@ -21,6 +19,12 @@ use_cases:
   and business value.
 - Project planning and execution
 - Strategy development
+industries:
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Feature Engineering & Selection Template

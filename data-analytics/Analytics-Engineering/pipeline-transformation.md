@@ -10,16 +10,18 @@ tags:
 - automation
 - data-analytics
 - development
-- transformation
-- etl
 - data-quality
-- medallion-architecture
 title: Pipeline Data Transformation Template
 use_cases:
 - Designing medallion architecture transformations (Bronze → Silver → Gold)
 - Implementing data cleansing, standardization, and enrichment logic
 - Building slowly changing dimensions (SCD Type 2) and dimensional models
 - Applying complex transformations with window functions and aggregations
+industries:
+- government
+- manufacturing
+- retail
+- technology
 ---
 
 # Pipeline Data Transformation Template

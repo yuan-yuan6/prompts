@@ -8,11 +8,10 @@ related_templates:
 tags:
 - communication
 - data-analytics
-- data-science
+- ai-ml
 - design
 - research
 - strategy
-- template
 title: Results Communication & Insights Template
 use_cases:
 - Creating design and deliver comprehensive communication strategies to effectively
@@ -20,6 +19,13 @@ use_cases:
   ensuring business impact and actionable outcomes.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Results Communication & Insights Template

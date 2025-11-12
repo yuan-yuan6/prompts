@@ -6,12 +6,11 @@ related_templates:
 - communication/crisis-communication-plan.md
 tags:
 - communication
-- data-science
+- ai-ml
 - development
 - management
 - marketing
 - optimization
-- professional-services
 - strategy
 title: Social Media Management & Strategy Prompt Template
 use_cases:
@@ -21,6 +20,15 @@ use_cases:
   engagement.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- finance
+- government
+- healthcare
+- manufacturing
+- nonprofit
+- retail
+- technology
 ---
 
 # Social Media Management & Strategy Prompt Template

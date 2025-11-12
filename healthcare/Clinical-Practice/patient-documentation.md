@@ -8,7 +8,6 @@ related_templates:
 tags:
 - documentation
 - healthcare
-- template
 title: Patient Documentation Template
 use_cases:
 - Creating comprehensive patient documentation including medical histories, clinical
@@ -16,6 +15,10 @@ use_cases:
   requirements and support continuity of care.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- government
+- healthcare
 ---
 
 # Patient Documentation Template

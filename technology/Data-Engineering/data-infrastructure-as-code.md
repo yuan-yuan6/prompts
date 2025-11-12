@@ -11,8 +11,6 @@ tags:
 - optimization
 - security
 - strategy
-- technology
-- template
 title: Infrastructure as Code Template
 use_cases:
 - Creating design and implement infrastructure as code solutions using terraform,
@@ -20,6 +18,11 @@ use_cases:
   deployment, and management of cloud and on-premises infrastructure.
 - Project planning and execution
 - Strategy development
+industries:
+- government
+- manufacturing
+- retail
+- technology
 ---
 
 # Infrastructure as Code Template

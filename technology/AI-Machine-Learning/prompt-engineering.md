@@ -8,12 +8,10 @@ related_templates:
 tags:
 - communication
 - design
-- machine-learning
+- ai-ml
 - management
 - optimization
 - strategy
-- technology
-- template
 title: Prompt Engineering Template
 use_cases:
 - Creating design and optimize prompts for large language models including prompt
@@ -21,6 +19,8 @@ use_cases:
   effective ai interactions.
 - Project planning and execution
 - Strategy development
+industries:
+- technology
 ---
 
 # Prompt Engineering Template

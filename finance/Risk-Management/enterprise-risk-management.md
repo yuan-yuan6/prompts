@@ -18,6 +18,10 @@ use_cases:
   governance structures for financial institutions.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- government
+- technology
 ---
 
 # Enterprise Risk Management (ERM) Framework

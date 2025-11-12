@@ -1,16 +1,26 @@
 ---
 title: Real Estate Investment Analysis Framework
 category: sales-marketing
-tags: [data-science, development, framework, industry, machine-learning, management, optimization, research]
+tags:
+- ai-ml
+- development
+- framework
+- management
+- optimization
+- research
 use_cases:
-  - Creating comprehensive framework for analyzing real estate investment opportunities including financial modeling, market assessment, risk evaluation, portfolio optimization, and investment strategy development.
-
-  - Project planning and execution
-  - Strategy development
+- Creating comprehensive framework for analyzing real estate investment opportunities
+  including financial modeling, market assessment, risk evaluation, portfolio optimization,
+  and investment strategy development.
+- Project planning and execution
+- Strategy development
 related_templates:
-  - sales-marketing/Real-Estate/property-management-system.md
-  - sales-marketing/Real-Estate/construction-project-planning.md
+- sales-marketing/Real-Estate/property-management-system.md
+- sales-marketing/Real-Estate/construction-project-planning.md
 last_updated: 2025-11-09
+industries:
+- finance
+- retail
 ---
 
 # Real Estate Investment Analysis Framework

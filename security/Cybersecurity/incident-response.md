@@ -7,13 +7,12 @@ related_templates:
 - technology/cloud-migration-strategy.md
 tags:
 - communication
-- data-science
+- ai-ml
 - design
 - management
 - research
 - security
 - strategy
-- technology
 title: Incident Response Template
 use_cases:
 - Creating comprehensive incident response planning including detection, analysis,
@@ -21,6 +20,8 @@ use_cases:
   incident management.
 - Project planning and execution
 - Strategy development
+industries:
+- technology
 ---
 
 # Incident Response Template

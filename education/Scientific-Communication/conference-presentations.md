@@ -10,7 +10,6 @@ tags:
 - education
 - research
 - strategy
-- template
 title: Conference Presentations & Posters Template
 use_cases:
 - Creating compelling academic conference presentations, posters, and talks that effectively
@@ -18,6 +17,10 @@ use_cases:
   across diverse scientific communities.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- government
+- healthcare
 ---
 
 # Conference Presentations & Posters Template

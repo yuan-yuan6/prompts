@@ -1,13 +1,24 @@
 ---
 title: Public Speaking Template
 category: personal/Communication-Skills
-tags: [design, personal, strategy, template]
+tags:
+- design
+- personal
+- strategy
 use_cases:
-  - Creating compelling speeches, presentations, and pitches that engage audiences, convey messages effectively, and inspire action through structured content delivery and confident presentation techniques.
-
-  - Project planning and execution
-  - Strategy development
+- Creating compelling speeches, presentations, and pitches that engage audiences,
+  convey messages effectively, and inspire action through structured content delivery
+  and confident presentation techniques.
+- Project planning and execution
+- Strategy development
 last_updated: 2025-11-09
+industries:
+- education
+- finance
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Public Speaking Template

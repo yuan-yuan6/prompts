@@ -6,13 +6,11 @@ related_templates:
 - healthcare/patient-care-pathway.md
 - healthcare/clinical-trials-management.md
 tags:
-- data-science
+- ai-ml
 - design
 - healthcare
-- machine-learning
 - optimization
 - research
-- template
 - testing
 title: Quality Improvement Programs Template
 use_cases:
@@ -21,6 +19,12 @@ use_cases:
   satisfaction, and operational efficiency.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- finance
+- government
+- healthcare
+- manufacturing
 ---
 
 # Quality Improvement Programs Template

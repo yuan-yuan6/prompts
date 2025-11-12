@@ -6,14 +6,11 @@ related_templates:
 - technology/site-reliability-engineering.md
 - technology/cloud-migration-strategy.md
 tags:
-- data-science
+- ai-ml
 - design
-- machine-learning
 - marketing
 - research
 - strategy
-- technology
-- template
 title: Threat Intelligence Template
 use_cases:
 - Creating comprehensive threat intelligence program including collection, analysis,
@@ -21,6 +18,9 @@ use_cases:
   and response.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- technology
 ---
 
 # Threat Intelligence Template

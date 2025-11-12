@@ -6,13 +6,10 @@ related_templates:
 - technology/site-reliability-engineering.md
 - technology/cloud-migration-strategy.md
 tags:
-- data-science
+- ai-ml
 - design
-- machine-learning
 - optimization
 - research
-- technology
-- template
 title: Algorithm Selection Template
 use_cases:
 - Creating systematic approach to selecting optimal machine learning algorithms for
@@ -20,6 +17,8 @@ use_cases:
   business requirements, and performance constraints.
 - Project planning and execution
 - Strategy development
+industries:
+- technology
 ---
 
 # Algorithm Selection Template

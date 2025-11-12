@@ -10,7 +10,6 @@ tags:
 - design
 - healthcare
 - management
-- template
 - testing
 title: Patient Safety Programs Template
 use_cases:
@@ -19,6 +18,10 @@ use_cases:
   and promote a culture of safety throughout healthcare organizations.
 - Project planning and execution
 - Strategy development
+industries:
+- healthcare
+- manufacturing
+- technology
 ---
 
 # Patient Safety Programs Template

@@ -10,9 +10,8 @@ tags:
 - documentation
 - education
 - framework
-- machine-learning
+- ai-ml
 - management
-- optimization
 title: Best Practices & Standards Documentation Framework Generator
 use_cases:
 - Creating comprehensive frameworks for documenting organizational standards, guidelines,
@@ -20,6 +19,9 @@ use_cases:
   business functions and industries.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- government
 ---
 
 # Best Practices & Standards Documentation Framework Generator

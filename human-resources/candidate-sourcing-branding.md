@@ -6,16 +6,19 @@ related_templates:
 - human-resources/screening-interview-process.md
 - human-resources/recruitment-metrics-optimization.md
 tags:
-- talent-sourcing
-- employer-branding
-- recruiting
-- talent-pipeline
 - hr
 title: Candidate Sourcing & Employer Branding
 use_cases:
 - Build a 90-day sourcing strategy for hard-to-fill roles
 - Create employer brand messaging that attracts passive candidates
 - Design a talent pipeline for anticipated hiring needs
+industries:
+- education
+- finance
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Candidate Sourcing & Employer Branding

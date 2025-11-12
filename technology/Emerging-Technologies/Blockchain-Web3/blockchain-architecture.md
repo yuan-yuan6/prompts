@@ -7,7 +7,6 @@ tags:
 - design
 - development
 - framework
-- technology
 title: Blockchain Architecture & Implementation Framework
 use_cases:
 - Creating comprehensive framework for designing, developing, and deploying blockchain
@@ -15,6 +14,11 @@ use_cases:
   applications (dapps).
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- government
+- manufacturing
+- technology
 ---
 
 # Blockchain Architecture & Implementation Framework

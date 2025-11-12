@@ -9,10 +9,9 @@ tags:
 - design
 - development
 - optimization
-- professional-services
+- management
 - security
 - strategy
-- template
 title: Company Announcements & Updates Prompt Template
 use_cases:
 - Creating comprehensive framework for creating effective all-hands communications,
@@ -20,6 +19,14 @@ use_cases:
   and align all stakeholders across the organization.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Company Announcements & Updates Prompt Template

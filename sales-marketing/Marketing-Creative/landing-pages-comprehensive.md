@@ -7,9 +7,8 @@ related_templates:
 tags:
 - automation
 - communication
-- comprehensive
 - creative
-- data-science
+- ai-ml
 - design
 - marketing
 - optimization
@@ -20,6 +19,12 @@ use_cases:
   across all campaign types and conversion objectives.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- government
+- manufacturing
+- retail
+- technology
 ---
 
 # Landing Pages Comprehensive Template Generator

@@ -1,9 +1,21 @@
 ---
 title: Contract Drafting Template - Overview & Navigation
 category: legal-compliance
-tags: [data-science, management, optimization, professional-services, research, security, strategy, template]
+tags:
+- ai-ml
+- management
+- optimization
+- research
+- security
+- strategy
 parent_prompt: contract-drafting-template (split into 3 parts)
 last_updated: 2025-11-11
+industries:
+- finance
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Contract Drafting Template - Overview & Navigation

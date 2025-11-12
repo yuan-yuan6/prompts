@@ -8,7 +8,6 @@ related_templates:
 tags:
 - communication
 - healthcare
-- template
 title: Patient Communication Template
 use_cases:
 - Creating develop effective patient communication strategies including education,
@@ -16,6 +15,9 @@ use_cases:
   satisfaction.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- healthcare
 ---
 
 # Patient Communication Template

@@ -6,9 +6,6 @@ related_templates:
 - human-resources/job-analysis-definition.md
 - human-resources/recruitment-metrics-optimization.md
 tags:
-- interviewing
-- candidate-screening
-- interview-questions
 - evaluation
 - hr
 title: Screening & Interview Process
@@ -16,6 +13,13 @@ use_cases:
 - Designing structured interview processes
 - Creating screening criteria and evaluation frameworks
 - Developing interview question banks and scorecards
+industries:
+- education
+- finance
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Screening & Interview Process

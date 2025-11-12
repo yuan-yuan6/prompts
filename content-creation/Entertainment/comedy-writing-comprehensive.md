@@ -6,18 +6,21 @@ related_templates:
 - content-creation/video-production-pipeline.md
 tags:
 - communication
-- comprehensive
 - creative
-- data-science
+- ai-ml
 - optimization
 - research
-- template
 title: Comedy Writing Comprehensive Template Generator
 use_cases:
 - Creating comprehensive comedy writing solutions covering jokes, sketches, standup
   routines, satire, memes, roasts, and comedic content across all formats and platforms.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- government
+- healthcare
+- manufacturing
 ---
 
 # Comedy Writing Comprehensive Template Generator

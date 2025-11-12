@@ -1,17 +1,27 @@
 ---
 title: Security Assessment Template
 category: security/Cybersecurity
-tags: [data-science, design, machine-learning, research, security, strategy, technology, template]
+tags:
+- ai-ml
+- design
+- research
+- security
+- strategy
 use_cases:
-  - Creating comprehensive security assessment including vulnerability scanning, penetration testing, security audits, risk analysis, and remediation planning for enterprise systems and applications.
-
-  - Project planning and execution
-  - Strategy development
+- Creating comprehensive security assessment including vulnerability scanning, penetration
+  testing, security audits, risk analysis, and remediation planning for enterprise
+  systems and applications.
+- Project planning and execution
+- Strategy development
 related_templates:
-  - technology/cloud-architecture-framework.md
-  - technology/site-reliability-engineering.md
-  - technology/cloud-migration-strategy.md
+- technology/cloud-architecture-framework.md
+- technology/site-reliability-engineering.md
+- technology/cloud-migration-strategy.md
 last_updated: 2025-11-09
+industries:
+- government
+- retail
+- technology
 ---
 
 # Security Assessment Template

@@ -4,17 +4,15 @@ last_updated: 2025-11-09
 related_templates:
 - education/Teaching-Instruction/course-content-curriculum.md
 - education/Teaching-Instruction/course-assessment-strategy.md
-tags:
-- objectives
-- pedagogy
-- course-design
-- learning-outcomes
+tags: []
 title: Course Foundations & Learning Objectives Designer
 use_cases:
 - Establishing pedagogical foundations and defining clear learning objectives for
   a new course
 - Aligning course outcomes with institutional and professional standards
 - Creating student-centered course mission and vision statements
+industries:
+- education
 ---
 
 # Course Foundations & Learning Objectives Designer

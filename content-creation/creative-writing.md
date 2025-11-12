@@ -10,7 +10,6 @@ tags:
 - creative
 - design
 - development
-- template
 title: Creative Writing Template
 use_cases:
 - Creating generate compelling creative writing including stories, scripts, poetry,

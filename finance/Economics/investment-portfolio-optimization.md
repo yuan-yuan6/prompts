@@ -6,14 +6,13 @@ related_templates:
 - finance/digital-banking-strategy.md
 - finance/risk-management-framework.md
 tags:
-- data-science
+- ai-ml
 - design
 - finance
 - framework
 - management
 - optimization
 - research
-- strategy
 title: Investment Portfolio Optimization & Asset Management Framework
 use_cases:
 - Creating comprehensive framework for optimizing investment portfolios including
@@ -21,6 +20,10 @@ use_cases:
   tax optimization, and alternative investments for maximizing risk-adjusted returns.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- government
+- technology
 ---
 
 # Investment Portfolio Optimization & Asset Management Framework

@@ -18,6 +18,8 @@ use_cases:
   achievement optimization.
 - Project planning and execution
 - Strategy development
+industries:
+- education
 ---
 
 # K-12 Classroom Management & Instructional Framework

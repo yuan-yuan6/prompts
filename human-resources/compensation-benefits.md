@@ -6,14 +6,12 @@ related_templates:
 - strategy/digital-transformation-roadmap.md
 - operations/lean-six-sigma-implementation.md
 tags:
-- business
-- data-science
+- ai-ml
 - design
 - optimization
 - research
 - security
 - strategy
-- template
 title: Compensation & Benefits Template Generator
 use_cases:
 - Creating comprehensive compensation and benefits strategies covering analysis, planning,
@@ -21,6 +19,14 @@ use_cases:
   that attract, retain, and motivate talent.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- government
+- healthcare
+- manufacturing
+- nonprofit
+- retail
+- technology
 ---
 
 # Compensation & Benefits Template Generator

@@ -10,14 +10,16 @@ related_templates:
 - data-analytics/Business-Intelligence/dashboard-testing-deployment.md
 tags:
 - data-analytics
-- business-intelligence
-- guide
-- overview
 title: Dashboard Design Overview & Navigation Guide
 use_cases:
 - Dashboard project planning
 - Prompt selection guidance
 - End-to-end dashboard development
+industries:
+- government
+- healthcare
+- manufacturing
+- technology
 ---
 
 # Dashboard Design Overview & Navigation Guide

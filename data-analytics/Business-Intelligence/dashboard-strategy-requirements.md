@@ -7,15 +7,15 @@ related_templates:
 - data-analytics/Business-Intelligence/dashboard-design-overview.md
 tags:
 - data-analytics
-- business-intelligence
 - strategy
-- requirements
-- kpi
 title: Dashboard Strategy & Business Requirements
 use_cases:
 - Defining dashboard business requirements
 - Stakeholder alignment
 - KPI framework development
+industries:
+- manufacturing
+- technology
 ---
 
 # Dashboard Strategy & Business Requirements

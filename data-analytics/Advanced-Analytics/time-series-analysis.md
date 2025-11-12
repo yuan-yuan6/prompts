@@ -1,17 +1,27 @@
 ---
 title: Time Series Analysis & Forecasting Framework
 category: data-analytics/Advanced-Analytics
-tags: [data-analytics, data-science, framework, machine-learning, research]
+tags:
+- data-analytics
+- ai-ml
+- framework
+- research
 use_cases:
-  - Creating comprehensive framework for time series analysis, forecasting, anomaly detection, and pattern recognition including statistical methods, machine learning approaches, and real-time streaming analytics.
-
-  - Project planning and execution
-  - Strategy development
+- Creating comprehensive framework for time series analysis, forecasting, anomaly
+  detection, and pattern recognition including statistical methods, machine learning
+  approaches, and real-time streaming analytics.
+- Project planning and execution
+- Strategy development
 related_templates:
-  - data-analytics/dashboard-design-patterns.md
-  - data-analytics/data-governance-framework.md
-  - data-analytics/predictive-modeling-framework.md
+- data-analytics/dashboard-design-patterns.md
+- data-analytics/data-governance-framework.md
+- data-analytics/predictive-modeling-framework.md
 last_updated: 2025-11-09
+industries:
+- finance
+- manufacturing
+- retail
+- technology
 ---
 
 # Time Series Analysis & Forecasting Framework

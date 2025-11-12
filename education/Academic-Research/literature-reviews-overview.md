@@ -12,13 +12,17 @@ tags:
 - education
 - research
 - strategy
-- overview
 title: Literature Reviews - Complete Guide & Navigation
 use_cases:
 - Navigating the complete literature review process from protocol to dissemination
 - Selecting appropriate literature review modules for specific needs
 - Understanding different review types and their applications
 - Planning comprehensive systematic reviews and evidence syntheses
+industries:
+- education
+- government
+- healthcare
+- technology
 ---
 
 # Literature Reviews - Complete Guide & Navigation

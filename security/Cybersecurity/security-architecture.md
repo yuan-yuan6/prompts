@@ -7,12 +7,10 @@ related_templates:
 - technology/cloud-migration-strategy.md
 tags:
 - design
-- machine-learning
+- ai-ml
 - management
 - security
 - strategy
-- technology
-- template
 title: Security Architecture Template
 use_cases:
 - Creating design comprehensive security architecture including security design principles,
@@ -20,6 +18,9 @@ use_cases:
   security systems.
 - Project planning and execution
 - Strategy development
+industries:
+- government
+- technology
 ---
 
 # Security Architecture Template

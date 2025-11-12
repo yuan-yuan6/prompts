@@ -12,7 +12,6 @@ tags:
 - documentation
 - healthcare
 - research
-- template
 title: Publication Preparation Template
 use_cases:
 - Creating comprehensive manuscripts, abstracts, posters, and presentations for medical
@@ -20,6 +19,10 @@ use_cases:
   following publication guidelines and standards.
 - Project planning and execution
 - Strategy development
+industries:
+- government
+- healthcare
+- technology
 ---
 
 # Publication Preparation Template

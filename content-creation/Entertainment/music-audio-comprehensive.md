@@ -6,11 +6,9 @@ related_templates:
 - content-creation/video-production-pipeline.md
 tags:
 - communication
-- comprehensive
 - creative
 - design
 - optimization
-- template
 - testing
 title: Music & Audio Comprehensive Template Generator
 use_cases:
@@ -19,6 +17,14 @@ use_cases:
   all genres and formats.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Music & Audio Comprehensive Template Generator

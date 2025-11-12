@@ -8,9 +8,8 @@ related_templates:
 tags:
 - automation
 - data-analytics
-- data-science
+- ai-ml
 - documentation
-- machine-learning
 - optimization
 - research
 - strategy
@@ -21,6 +20,12 @@ use_cases:
   processes and ensure consistent, timely delivery of actionable insights.
 - Project planning and execution
 - Strategy development
+industries:
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Report Generation Automation Template

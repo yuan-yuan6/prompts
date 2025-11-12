@@ -10,13 +10,14 @@ tags:
 - finance
 - framework
 - management
-- navigation
-- overview
 title: Risk Management Framework - Overview & Navigation Guide
 use_cases:
 - Navigating the comprehensive risk management framework series
 - Understanding the structure and organization of risk management components
 - Quick reference for selecting the appropriate risk management template
+industries:
+- finance
+- government
 ---
 
 # Risk Management Framework - Overview & Navigation Guide

@@ -6,11 +6,9 @@ related_templates:
 - strategy/digital-transformation-roadmap.md
 - operations/lean-six-sigma-implementation.md
 tags:
-- business
-- data-science
+- ai-ml
 - design
 - development
-- machine-learning
 - management
 - marketing
 - optimization
@@ -21,6 +19,14 @@ use_cases:
   and performance monitoring.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Budget Management Template Generator

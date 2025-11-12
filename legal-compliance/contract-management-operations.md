@@ -8,10 +8,9 @@ related_templates:
 tags:
 - design
 - documentation
-- machine-learning
+- ai-ml
 - management
 - optimization
-- professional-services
 - security
 - strategy
 title: Contract Management Template Generator
@@ -22,6 +21,14 @@ use_cases:
   while maximizing value delivery.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Contract Management Template Generator

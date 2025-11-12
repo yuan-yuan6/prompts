@@ -6,12 +6,11 @@ related_templates:
 tags:
 - communication
 - creative
-- data-science
+- ai-ml
 - development
 - documentation
 - framework
 - management
-- research
 title: Investigative Reporting Framework
 use_cases:
 - Creating comprehensive framework for conducting investigative journalism including
@@ -19,6 +18,11 @@ use_cases:
   data journalism techniques, and publication strategies.
 - Project planning and execution
 - Strategy development
+industries:
+- government
+- healthcare
+- manufacturing
+- technology
 ---
 
 # Investigative Reporting Framework

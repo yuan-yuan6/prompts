@@ -8,16 +8,18 @@ related_templates:
 - human-resources/candidate-assessment-selection.md
 - human-resources/recruitment-metrics-optimization.md
 tags:
-- recruitment
-- hiring
-- talent-acquisition
 - hr
-- overview
 title: Recruitment - Overview & Navigation
 use_cases:
 - Understanding the complete recruitment process
 - Navigating recruitment prompt library
 - Selecting the right recruitment tool for your needs
+industries:
+- finance
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Recruitment - Overview & Navigation

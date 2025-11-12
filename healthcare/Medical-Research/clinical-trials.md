@@ -7,12 +7,10 @@ related_templates:
 - healthcare/clinical-trials-management.md
 tags:
 - automation
-- data-science
+- ai-ml
 - design
 - healthcare
-- machine-learning
 - research
-- template
 title: Clinical Trials Template
 use_cases:
 - Creating design comprehensive clinical trial protocols, consent forms, and analysis
@@ -20,6 +18,10 @@ use_cases:
   medical knowledge and patient care.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- government
+- healthcare
 ---
 
 # Clinical Trials Template

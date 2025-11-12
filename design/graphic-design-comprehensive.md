@@ -6,11 +6,9 @@ related_templates:
 - content-creation/video-production-pipeline.md
 tags:
 - communication
-- comprehensive
 - creative
 - design
 - marketing
-- template
 title: Graphic Design Comprehensive Template Generator
 use_cases:
 - Creating comprehensive graphic design solutions covering layouts, branding, logos,
@@ -18,6 +16,13 @@ use_cases:
   across all design disciplines.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- finance
+- government
+- manufacturing
+- nonprofit
+- technology
 ---
 
 # Graphic Design Comprehensive Template Generator

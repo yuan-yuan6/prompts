@@ -1,13 +1,22 @@
 ---
 title: Creative Writing & Storytelling Framework
 category: content-creation
-tags: [automation, communication, creative, design, development, framework]
+tags:
+- automation
+- communication
+- creative
+- design
+- development
+- framework
 use_cases:
-  - Creating comprehensive framework for creative writing projects including story development, character creation, worldbuilding, narrative structure, dialogue crafting, and publication strategies for novels, scripts, poetry, and other creative works.
-
-  - Project planning and execution
-  - Strategy development
+- Creating comprehensive framework for creative writing projects including story development,
+  character creation, worldbuilding, narrative structure, dialogue crafting, and publication
+  strategies for novels, scripts, poetry, and other creative works.
+- Project planning and execution
+- Strategy development
 last_updated: 2025-11-09
+industries:
+- manufacturing
 ---
 
 # Creative Writing & Storytelling Framework

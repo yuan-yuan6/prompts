@@ -5,10 +5,9 @@ related_templates:
 - operations/Agriculture/precision-agriculture-framework.md
 - operations/Agriculture/precision-agriculture-system.md
 tags:
-- data-science
+- ai-ml
 - design
 - framework
-- industry
 - management
 - optimization
 - research
@@ -20,6 +19,12 @@ use_cases:
   farming decisions.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Precision Agriculture & Crop Optimization Framework

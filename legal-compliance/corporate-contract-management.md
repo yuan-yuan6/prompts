@@ -6,11 +6,10 @@ related_templates:
 - legal-compliance/contract-drafting-template.md
 - legal-compliance/intellectual-property-management.md
 tags:
-- data-science
+- ai-ml
 - framework
 - management
 - optimization
-- professional-services
 - research
 - security
 title: Contract Management & Legal Operations Framework
@@ -20,6 +19,13 @@ use_cases:
   optimization across all business units.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Contract Management & Legal Operations Framework

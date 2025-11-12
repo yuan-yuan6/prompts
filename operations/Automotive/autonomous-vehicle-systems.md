@@ -1,12 +1,29 @@
 ---
 title: Autonomous Vehicle & Smart Mobility Systems Framework
 category: operations/Automotive
-tags: [automotive, operations, automation, design, framework, machine-learning, optimization, security, strategy, transportation]
+tags:
+- automotive
+- operations
+- automation
+- design
+- framework
+- ai-ml
+- optimization
 use_cases:
-  - Creating comprehensive framework for developing and deploying autonomous vehicle systems including sensor fusion, ai decision-making, safety protocols, infrastructure integration, regulatory compliance, and smart city mobility solutions.
-  - Project planning and execution
-  - Strategy development
+- Creating comprehensive framework for developing and deploying autonomous vehicle
+  systems including sensor fusion, ai decision-making, safety protocols, infrastructure
+  integration, regulatory compliance, and smart city mobility solutions.
+- Project planning and execution
+- Strategy development
 last_updated: 2025-11-11
+industries:
+- education
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Autonomous Vehicle & Smart Mobility Systems Framework

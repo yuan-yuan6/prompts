@@ -1,17 +1,30 @@
 ---
 title: Exploratory Data Analysis Framework Template
 category: data-analytics/Data-Science
-tags: [automation, data-analytics, data-science, design, framework, machine-learning, research, template]
+tags:
+- automation
+- data-analytics
+- ai-ml
+- design
+- framework
+- research
 use_cases:
-  - Creating conduct comprehensive exploratory data analysis to understand data characteristics, identify patterns, detect anomalies, and prepare insights for advanced analytics and modeling.
-
-  - Project planning and execution
-  - Strategy development
+- Creating conduct comprehensive exploratory data analysis to understand data characteristics,
+  identify patterns, detect anomalies, and prepare insights for advanced analytics
+  and modeling.
+- Project planning and execution
+- Strategy development
 related_templates:
-  - data-analytics/dashboard-design-patterns.md
-  - data-analytics/data-governance-framework.md
-  - data-analytics/predictive-modeling-framework.md
+- data-analytics/dashboard-design-patterns.md
+- data-analytics/data-governance-framework.md
+- data-analytics/predictive-modeling-framework.md
 last_updated: 2025-11-09
+industries:
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Exploratory Data Analysis Framework Template

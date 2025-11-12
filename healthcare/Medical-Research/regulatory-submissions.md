@@ -10,7 +10,6 @@ tags:
 - healthcare
 - research
 - security
-- template
 title: Regulatory Submissions Template
 use_cases:
 - Creating comprehensive regulatory submissions including FDA applications, IRB protocols,
@@ -18,6 +17,11 @@ use_cases:
   research and drug/device approval.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- government
+- healthcare
+- manufacturing
 ---
 
 # Regulatory Submissions Template

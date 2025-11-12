@@ -1,13 +1,26 @@
 ---
 title: Patient Care Management & Clinical Documentation Framework
 category: healthcare
-tags: [documentation, framework, healthcare, management, optimization, security, strategy, testing]
+tags:
+- documentation
+- framework
+- healthcare
+- management
+- optimization
+- security
+- strategy
 use_cases:
-  - Creating comprehensive framework for managing patient care including documentation systems, treatment planning, care coordination, patient engagement, and clinical outcomes tracking for healthcare providers and institutions.
-
-  - Project planning and execution
-  - Strategy development
+- Creating comprehensive framework for managing patient care including documentation
+  systems, treatment planning, care coordination, patient engagement, and clinical
+  outcomes tracking for healthcare providers and institutions.
+- Project planning and execution
+- Strategy development
 last_updated: 2025-11-09
+industries:
+- education
+- government
+- healthcare
+- technology
 ---
 
 # Patient Care Management & Clinical Documentation Framework

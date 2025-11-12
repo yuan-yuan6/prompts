@@ -7,13 +7,12 @@ related_templates:
 - data-analytics/predictive-modeling-framework.md
 tags:
 - data-analytics
-- data-science
+- ai-ml
 - design
 - development
 - framework
 - research
 - strategy
-- testing
 title: A/B Testing & Experimentation Design Framework
 use_cases:
 - Creating comprehensive framework for designing and executing controlled experiments
@@ -21,6 +20,10 @@ use_cases:
   and decision-making based on experimental results.
 - Project planning and execution
 - Strategy development
+industries:
+- government
+- healthcare
+- technology
 ---
 
 # A/B Testing & Experimentation Design Framework

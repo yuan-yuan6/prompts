@@ -12,8 +12,6 @@ tags:
 - documentation
 - security
 - strategy
-- technology
-- template
 title: Technical Documentation Template
 use_cases:
 - Creating comprehensive technical documentation including API documentation, system
@@ -21,6 +19,12 @@ use_cases:
   clear structure and professional presentation.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- government
+- manufacturing
+- retail
+- technology
 ---
 
 # Technical Documentation Template

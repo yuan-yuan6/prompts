@@ -1,12 +1,24 @@
 ---
 title: Customer Experience Optimization Template
 category: sales-marketing
-tags: [data-science, design, industry, machine-learning, optimization, research, template]
+tags:
+- ai-ml
+- design
+- optimization
+- research
 use_cases:
-  - Creating comprehensive customer experience optimization strategies, omnichannel journey enhancement plans, personalization frameworks, and customer-centric transformation initiatives that drive customer satisfaction, loyalty, and lifetime value across all retail and e-commerce touchpoints.
-  - Project planning and execution
-  - Strategy development
+- Creating comprehensive customer experience optimization strategies, omnichannel
+  journey enhancement plans, personalization frameworks, and customer-centric transformation
+  initiatives that drive customer satisfaction, loyalty, and lifetime value across
+  all retail and e-commerce touchpoints.
+- Project planning and execution
+- Strategy development
 last_updated: 2025-11-09
+industries:
+- finance
+- healthcare
+- retail
+- technology
 ---
 
 # Customer Experience Optimization Template

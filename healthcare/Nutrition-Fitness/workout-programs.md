@@ -10,12 +10,13 @@ tags:
 - development
 - healthcare
 - optimization
-- template
 title: Workout Programs Template
 use_cases:
 - General application
 - Professional use
 - Project implementation
+industries:
+- healthcare
 ---
 
 # Workout Programs Template

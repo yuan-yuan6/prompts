@@ -1,13 +1,25 @@
 ---
 title: Home Management Template
 category: personal/Lifestyle-Hobbies
-tags: [design, management, optimization, personal, strategy, template]
+tags:
+- design
+- management
+- optimization
+- personal
+- strategy
 use_cases:
-  - Creating develop comprehensive home management strategies including organization systems, maintenance schedules, and household projects to create efficient, comfortable, and well-maintained living spaces that support family life and personal wellbeing.
-
-  - Project planning and execution
-  - Strategy development
+- Creating develop comprehensive home management strategies including organization
+  systems, maintenance schedules, and household projects to create efficient, comfortable,
+  and well-maintained living spaces that support family life and personal wellbeing.
+- Project planning and execution
+- Strategy development
 last_updated: 2025-11-09
+industries:
+- finance
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Home Management Template

@@ -1,13 +1,25 @@
 ---
 title: Medical Management Template
 category: personal/Health-Wellness
-tags: [documentation, management, personal, security, template]
+tags:
+- documentation
+- management
+- personal
+- security
 use_cases:
-  - Creating develop comprehensive healthcare management systems including appointment scheduling, medication tracking, health record organization, and care coordination to optimize medical outcomes and ensure proactive health maintenance.
-
-  - Project planning and execution
-  - Strategy development
+- Creating develop comprehensive healthcare management systems including appointment
+  scheduling, medication tracking, health record organization, and care coordination
+  to optimize medical outcomes and ensure proactive health maintenance.
+- Project planning and execution
+- Strategy development
 last_updated: 2025-11-09
+industries:
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Medical Management Template

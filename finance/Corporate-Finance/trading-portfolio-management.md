@@ -6,16 +6,19 @@ related_templates:
 - financial-analysis.md
 - finance/Corporate-Finance/investment-evaluation.md
 tags:
-- business
 - design
 - management
 - optimization
-- template
 title: Portfolio Management Template
 use_cases:
 - General application
 - Professional use
 - Project implementation
+industries:
+- finance
+- government
+- healthcare
+- technology
 ---
 
 # Portfolio Management Template

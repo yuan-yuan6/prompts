@@ -10,13 +10,17 @@ tags:
 - education
 - research
 - strategy
-- template
 title: Literature Review Protocol & Search Strategy
 use_cases:
 - Developing systematic review protocols with comprehensive search strategies and
   methodological frameworks
 - Designing rigorous database search approaches for academic literature reviews
 - Establishing theoretical foundations and research context for evidence synthesis
+industries:
+- education
+- government
+- healthcare
+- manufacturing
 ---
 
 # Literature Review Protocol & Search Strategy

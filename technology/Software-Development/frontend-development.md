@@ -13,7 +13,6 @@ tags:
 - management
 - optimization
 - security
-- technology
 title: Frontend Development & Web Application Framework
 use_cases:
 - Creating comprehensive framework for frontend web development including modern javascript
@@ -21,6 +20,9 @@ use_cases:
   and progressive web applications.
 - Project planning and execution
 - Strategy development
+industries:
+- manufacturing
+- technology
 ---
 
 # Frontend Development & Web Application Framework

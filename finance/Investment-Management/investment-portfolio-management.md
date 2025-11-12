@@ -6,14 +6,13 @@ related_templates:
 - finance/digital-banking-strategy.md
 - finance/risk-management-framework.md
 tags:
-- data-science
+- ai-ml
 - finance
 - framework
 - management
 - optimization
 - research
 - security
-- strategy
 title: Investment Portfolio Management Framework
 use_cases:
 - Build diversified investment portfolio for client based on risk tolerance
@@ -23,6 +22,9 @@ use_cases:
   including asset allocation and risk analysis
 - Portfolio optimization and performance measurement
 - Client management and regulatory compliance
+industries:
+- finance
+- government
 ---
 
 # Investment Portfolio Management Framework

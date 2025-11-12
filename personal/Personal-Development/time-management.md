@@ -1,12 +1,24 @@
 ---
 title: Task Prioritization Systems Template
 category: personal/Personal-Development
-tags: [management, optimization, personal, strategy, template]
+tags:
+- management
+- optimization
+- personal
+- strategy
 use_cases:
-  - Creating comprehensive task prioritization frameworks, decision matrices, workload management systems, and priority alignment strategies that maximize impact and efficiency through systematic task evaluation and resource allocation.
-  - Project planning and execution
-  - Strategy development
+- Creating comprehensive task prioritization frameworks, decision matrices, workload
+  management systems, and priority alignment strategies that maximize impact and efficiency
+  through systematic task evaluation and resource allocation.
+- Project planning and execution
+- Strategy development
 last_updated: 2025-11-09
+industries:
+- finance
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Task Prioritization Systems Template

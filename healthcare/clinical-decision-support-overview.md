@@ -1,9 +1,18 @@
 ---
 title: Clinical Decision Support - Overview & Navigation
 category: healthcare
-tags: [design, documentation, healthcare, machine-learning, management, security, template, testing]
+tags:
+- design
+- documentation
+- healthcare
+- ai-ml
+- management
+- security
+- testing
 parent_prompt: clinical-decision-support (split into 3 parts)
 last_updated: 2025-11-11
+industries:
+- healthcare
 ---
 
 # Clinical Decision Support - Overview & Navigation

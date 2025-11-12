@@ -7,11 +7,10 @@ related_templates:
 - data-analytics/predictive-modeling-framework.md
 tags:
 - automation
-- comprehensive
 - data-analytics
 - design
 - development
-- machine-learning
+- ai-ml
 - management
 - marketing
 title: Comprehensive KPI Development & Management Template
@@ -19,6 +18,14 @@ use_cases:
 - General application
 - Professional use
 - Project implementation
+industries:
+- education
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Comprehensive KPI Development & Management Template

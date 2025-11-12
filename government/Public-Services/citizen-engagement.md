@@ -8,7 +8,6 @@ tags:
 - design
 - government
 - strategy
-- template
 title: Citizen Engagement Template
 use_cases:
 - Creating design comprehensive citizen engagement strategies, participatory governance
@@ -16,6 +15,8 @@ use_cases:
   inclusive decision-making and strengthen democratic participation.
 - Project planning and execution
 - Strategy development
+industries:
+- government
 ---
 
 # Citizen Engagement Template

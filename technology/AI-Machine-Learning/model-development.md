@@ -8,11 +8,9 @@ related_templates:
 tags:
 - design
 - development
-- machine-learning
+- ai-ml
 - optimization
 - strategy
-- technology
-- template
 - testing
 title: Model Development Template
 use_cases:
@@ -21,6 +19,10 @@ use_cases:
   and reliable ai systems.
 - Project planning and execution
 - Strategy development
+industries:
+- manufacturing
+- retail
+- technology
 ---
 
 # Model Development Template

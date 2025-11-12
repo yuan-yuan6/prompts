@@ -6,12 +6,8 @@ related_templates:
 - technology/Software-Development/architecture-design.md
 - testing-strategy.md
 tags:
-- code-review
-- software-engineering
 - quality-assurance
-- best-practices
 - security
-- performance
 title: Comprehensive Code Review
 use_cases:
 - Pull request reviews
@@ -20,6 +16,9 @@ use_cases:
 - Performance optimization
 - Technical debt analysis
 - Onboarding code reviews
+industries:
+- manufacturing
+- technology
 ---
 
 # Code Review Template

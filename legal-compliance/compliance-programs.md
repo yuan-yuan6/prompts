@@ -7,12 +7,10 @@ related_templates:
 - legal-compliance/intellectual-property-management.md
 tags:
 - design
-- machine-learning
+- ai-ml
 - management
 - optimization
-- professional-services
 - security
-- template
 title: Compliance Programs Template
 use_cases:
 - Creating design comprehensive regulatory compliance frameworks, policy implementation
@@ -21,6 +19,13 @@ use_cases:
   efficiency.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Compliance Programs Template

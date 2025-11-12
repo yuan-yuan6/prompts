@@ -7,12 +7,11 @@ related_templates:
 tags:
 - automation
 - communication
-- data-science
+- ai-ml
 - education
 - marketing
 - research
 - security
-- strategy
 title: Peer Review & Critiques Template
 use_cases:
 - Creating conduct comprehensive, constructive peer reviews that maintain scientific
@@ -20,6 +19,10 @@ use_cases:
   and support scholarly communication across disciplines.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- government
+- healthcare
 ---
 
 # Peer Review & Critiques Template

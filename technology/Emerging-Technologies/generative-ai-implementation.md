@@ -1,16 +1,34 @@
 ---
 title: Generative AI Implementation Template Generator
 category: technology/Emerging-Technologies
-tags: [automation, design, development, machine-learning, optimization, security, strategy, technology]
+tags:
+- automation
+- design
+- development
+- ai-ml
+- optimization
+- security
+- strategy
 use_cases:
-  - Creating comprehensive generative AI implementation strategies covering large language models, diffusion models, prompting techniques, fine-tuning approaches, retrieval-augmented generation, AI agents, and ethical considerations to enable responsible and effective artificial intelligence deployment across enterprise applications and workflows.
-  - Project planning and execution
-  - Strategy development
+- Creating comprehensive generative AI implementation strategies covering large language
+  models, diffusion models, prompting techniques, fine-tuning approaches, retrieval-augmented
+  generation, AI agents, and ethical considerations to enable responsible and effective
+  artificial intelligence deployment across enterprise applications and workflows.
+- Project planning and execution
+- Strategy development
 related_templates:
-  - technology/cloud-architecture-framework.md
-  - technology/site-reliability-engineering.md
-  - technology/cloud-migration-strategy.md
+- technology/cloud-architecture-framework.md
+- technology/site-reliability-engineering.md
+- technology/cloud-migration-strategy.md
 last_updated: 2025-11-09
+industries:
+- education
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Generative AI Implementation Template Generator

@@ -1,17 +1,21 @@
 ---
 title: Policy Research Overview & Navigation
 category: government/Policy-Development
-tags: [overview, navigation, policy-research, framework]
+tags:
+- framework
 use_cases:
-  - Understanding the policy research framework
-  - Navigating between policy development phases
-  - Selecting the appropriate prompt for each stage
+- Understanding the policy research framework
+- Navigating between policy development phases
+- Selecting the appropriate prompt for each stage
 related_templates:
-  - government/Policy Development/policy-research-analysis.md
-  - government/Policy Development/policy-impact-assessment.md
-  - government/Policy Development/policy-options-development.md
-  - government/Policy Development/policy-implementation-planning.md
+- government/Policy Development/policy-research-analysis.md
+- government/Policy Development/policy-impact-assessment.md
+- government/Policy Development/policy-options-development.md
+- government/Policy Development/policy-implementation-planning.md
 last_updated: 2025-11-09
+industries:
+- education
+- government
 ---
 
 # Policy Research Overview & Navigation

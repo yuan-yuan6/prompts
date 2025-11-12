@@ -1,12 +1,29 @@
 ---
 title: Smart Grid Implementation Template
 category: operations
-tags: [communication, data-science, design, industry, management, optimization, research, security]
+tags:
+- communication
+- ai-ml
+- design
+- management
+- optimization
+- research
+- security
 use_cases:
-  - Creating comprehensive smart grid implementation strategies, infrastructure modernization plans, technology deployment roadmaps, and digital transformation initiatives that enhance grid reliability, efficiency, and sustainability while integrating renewable energy sources and enabling demand response programs.
-  - Project planning and execution
-  - Strategy development
+- Creating comprehensive smart grid implementation strategies, infrastructure modernization
+  plans, technology deployment roadmaps, and digital transformation initiatives that
+  enhance grid reliability, efficiency, and sustainability while integrating renewable
+  energy sources and enabling demand response programs.
+- Project planning and execution
+- Strategy development
 last_updated: 2025-11-09
+industries:
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Smart Grid Implementation Template

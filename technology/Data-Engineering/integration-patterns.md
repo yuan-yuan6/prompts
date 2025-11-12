@@ -9,11 +9,9 @@ tags:
 - communication
 - design
 - documentation
-- machine-learning
+- ai-ml
 - optimization
 - security
-- technology
-- template
 title: Integration Patterns Template
 use_cases:
 - Creating design comprehensive integration patterns for apis, messaging systems,
@@ -21,6 +19,12 @@ use_cases:
   scalability, reliability, and maintainability considerations.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- government
+- manufacturing
+- retail
+- technology
 ---
 
 # Integration Patterns Template

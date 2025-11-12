@@ -5,7 +5,7 @@ related_templates:
 - media-journalism/content-strategy.md
 tags:
 - creative
-- data-science
+- ai-ml
 - framework
 - management
 - optimization
@@ -18,6 +18,8 @@ use_cases:
   and performance optimization.
 - Project planning and execution
 - Strategy development
+industries:
+- manufacturing
 ---
 
 # Content Strategy & Editorial Planning Framework

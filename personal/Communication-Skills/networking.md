@@ -1,13 +1,28 @@
 ---
 title: Networking Template
 category: personal/Communication-Skills
-tags: [automation, communication, development, marketing, personal, research, strategy, template]
+tags:
+- automation
+- communication
+- development
+- marketing
+- personal
+- research
+- strategy
 use_cases:
-  - Creating build effective professional and personal networks through strategic introductions, meaningful follow-ups, and authentic relationship development to create mutually beneficial connections and opportunities.
-
-  - Project planning and execution
-  - Strategy development
+- Creating build effective professional and personal networks through strategic introductions,
+  meaningful follow-ups, and authentic relationship development to create mutually
+  beneficial connections and opportunities.
+- Project planning and execution
+- Strategy development
 last_updated: 2025-11-09
+industries:
+- education
+- finance
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Networking Template

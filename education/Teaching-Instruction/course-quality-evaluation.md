@@ -7,14 +7,13 @@ related_templates:
 tags:
 - quality-assurance
 - evaluation
-- continuous-improvement
-- assessment
-- feedback
 title: Course Quality Assurance & Evaluation
 use_cases:
 - Establishing quality standards and evaluation processes for courses
 - Collecting and analyzing student feedback for course improvement
 - Implementing continuous improvement cycles based on data
+industries:
+- education
 ---
 
 # Course Quality Assurance & Evaluation

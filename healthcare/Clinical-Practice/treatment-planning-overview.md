@@ -1,17 +1,20 @@
 ---
 title: Treatment Planning Overview
 category: healthcare/Clinical-Practice
-tags: [healthcare, navigation, overview, treatment-planning, clinical-practice]
+tags:
+- healthcare
 use_cases:
-  - Finding the right treatment planning template for specific clinical contexts
-  - Understanding different treatment planning approaches
-  - Navigating specialized treatment planning resources
+- Finding the right treatment planning template for specific clinical contexts
+- Understanding different treatment planning approaches
+- Navigating specialized treatment planning resources
 related_templates:
-  - healthcare/Clinical Practice/acute-care-treatment-plan.md
-  - healthcare/Clinical Practice/chronic-disease-management-plan.md
-  - healthcare/Clinical Practice/surgical-treatment-plan.md
-  - healthcare/Clinical Practice/mental-health-treatment-plan.md
+- healthcare/Clinical Practice/acute-care-treatment-plan.md
+- healthcare/Clinical Practice/chronic-disease-management-plan.md
+- healthcare/Clinical Practice/surgical-treatment-plan.md
+- healthcare/Clinical Practice/mental-health-treatment-plan.md
 last_updated: 2025-11-09
+industries:
+- healthcare
 ---
 
 # Treatment Planning Overview

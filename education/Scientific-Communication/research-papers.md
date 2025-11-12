@@ -7,12 +7,11 @@ related_templates:
 tags:
 - automation
 - communication
-- data-science
+- ai-ml
 - design
 - development
 - education
 - optimization
-- research
 title: Research Papers & Manuscripts Template
 use_cases:
 - Creating design comprehensive frameworks for structuring, writing, and revising
@@ -20,6 +19,11 @@ use_cases:
   evidence presentation, and scholarly communication.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- government
+- healthcare
+- manufacturing
 ---
 
 # Research Papers & Manuscripts Template

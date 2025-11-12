@@ -6,13 +6,11 @@ related_templates:
 - strategy/digital-transformation-roadmap.md
 - operations/lean-six-sigma-implementation.md
 tags:
-- business
 - design
-- machine-learning
+- ai-ml
 - management
 - optimization
 - strategy
-- template
 - testing
 title: Resource Management Template Generator
 use_cases:
@@ -21,6 +19,13 @@ use_cases:
   and resource utilization.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Resource Management Template Generator

@@ -1,16 +1,32 @@
 ---
 title: Financial Planning Template Generator
 category: strategy
-tags: [business, design, development, documentation, machine-learning, marketing, research, strategy]
+tags:
+- design
+- development
+- documentation
+- ai-ml
+- marketing
+- research
+- strategy
 use_cases:
-  - Creating comprehensive financial plans including budgets, forecasts, and investment strategies to guide organizational financial strategy and resource allocation.
-  - Project planning and execution
-  - Strategy development
+- Creating comprehensive financial plans including budgets, forecasts, and investment
+  strategies to guide organizational financial strategy and resource allocation.
+- Project planning and execution
+- Strategy development
 related_templates:
-  - strategy/okr-implementation-framework.md
-  - strategy/digital-transformation-roadmap.md
-  - operations/lean-six-sigma-implementation.md
+- strategy/okr-implementation-framework.md
+- strategy/digital-transformation-roadmap.md
+- operations/lean-six-sigma-implementation.md
 last_updated: 2025-11-09
+industries:
+- finance
+- government
+- healthcare
+- manufacturing
+- nonprofit
+- retail
+- technology
 ---
 
 # Financial Planning Template Generator

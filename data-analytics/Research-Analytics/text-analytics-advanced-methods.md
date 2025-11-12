@@ -10,19 +10,17 @@ related_templates:
 tags:
 - automation
 - data-analytics
-- data-science
-- machine-learning
-- nlp
-- clustering
-- summarization
-- visualization
-- template
+- ai-ml
 title: Text Analytics - Advanced Methods and Reporting
 use_cases:
 - Perform advanced text analytics including document clustering, similarity analysis,
   text summarization, and readability assessment.
 - Generate comprehensive reports with visualizations, insights, and actionable recommendations.
 - Create interactive dashboards and export results in multiple formats.
+industries:
+- education
+- healthcare
+- technology
 ---
 
 # Text Analytics - Advanced Methods and Reporting

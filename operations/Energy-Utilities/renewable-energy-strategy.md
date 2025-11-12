@@ -8,8 +8,7 @@ tags:
 - design
 - development
 - framework
-- industry
-- machine-learning
+- ai-ml
 - optimization
 - strategy
 title: Renewable Energy Strategy & Implementation Framework
@@ -19,6 +18,13 @@ use_cases:
   metrics, and economic modeling for utilities and enterprises.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Renewable Energy Strategy & Implementation Framework

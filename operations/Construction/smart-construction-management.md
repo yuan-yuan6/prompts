@@ -1,13 +1,29 @@
 ---
 title: Smart Construction & Infrastructure Management Framework
 category: operations
-tags: [automation, design, development, framework, industry, machine-learning, management, optimization]
+tags:
+- automation
+- design
+- development
+- framework
+- ai-ml
+- management
+- optimization
 use_cases:
-  - Creating comprehensive framework for implementing smart construction technologies and infrastructure management including bim integration, iot monitoring, project automation, safety systems, sustainability practices, and predictive maintenance for modern construction projects.
-
-  - Project planning and execution
-  - Strategy development
+- Creating comprehensive framework for implementing smart construction technologies
+  and infrastructure management including bim integration, iot monitoring, project
+  automation, safety systems, sustainability practices, and predictive maintenance
+  for modern construction projects.
+- Project planning and execution
+- Strategy development
 last_updated: 2025-11-09
+industries:
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Smart Construction & Infrastructure Management Framework

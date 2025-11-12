@@ -1,15 +1,25 @@
 ---
 title: Lesson Planning & Activities Template
 category: education/Teaching-Instruction
-tags: [design, development, education, management, strategy, template]
+tags:
+- design
+- development
+- education
+- management
+- strategy
 use_cases:
-  - Creating comprehensive lesson plans with engaging learning activities, classroom management strategies, and effective instructional methods for diverse educational settings.
-  - Project planning and execution
-  - Strategy development
+- Creating comprehensive lesson plans with engaging learning activities, classroom
+  management strategies, and effective instructional methods for diverse educational
+  settings.
+- Project planning and execution
+- Strategy development
 related_templates:
-  - education/curriculum-development.md
-  - education/curriculum-development-framework.md
+- education/curriculum-development.md
+- education/curriculum-development-framework.md
 last_updated: 2025-11-09
+industries:
+- education
+- healthcare
 ---
 
 # Lesson Planning & Activities Template

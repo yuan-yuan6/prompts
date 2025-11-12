@@ -6,9 +6,8 @@ related_templates:
 - content-creation/video-production-pipeline.md
 tags:
 - creative
-- data-science
+- ai-ml
 - design
-- machine-learning
 - management
 - marketing
 - optimization
@@ -21,6 +20,11 @@ use_cases:
   sustainable journalism business models in the digital media landscape.
 - Project planning and execution
 - Strategy development
+industries:
+- government
+- healthcare
+- manufacturing
+- technology
 ---
 
 # Content Strategy Template

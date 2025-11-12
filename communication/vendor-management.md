@@ -7,10 +7,9 @@ related_templates:
 tags:
 - automation
 - communication
-- data-science
+- ai-ml
 - management
 - optimization
-- professional-services
 - research
 - security
 title: Vendor Management & Procurement Prompt Template
@@ -20,6 +19,13 @@ use_cases:
   operational excellence.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Vendor Management & Procurement Prompt Template

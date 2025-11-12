@@ -9,8 +9,6 @@ tags:
 - communication
 - design
 - security
-- technology
-- template
 title: Architecture Design Template
 use_cases:
 - Creating design comprehensive system architectures including distributed systems,
@@ -18,6 +16,12 @@ use_cases:
   and maintainability considerations.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- government
+- healthcare
+- retail
+- technology
 ---
 
 # Architecture Design Template

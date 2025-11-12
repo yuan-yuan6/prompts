@@ -1,15 +1,30 @@
 ---
 title: Career Development & Professional Growth Framework
 category: personal/Development/Career-Planning
-tags: [communication, design, development, framework, marketing, personal, strategy, testing]
+tags:
+- communication
+- design
+- development
+- framework
+- marketing
+- personal
+- strategy
 use_cases:
-  - Creating comprehensive framework for individual career planning, skill development, professional networking, personal branding, and strategic career advancement across industries and career stages.
-
-  - Project planning and execution
-  - Strategy development
+- Creating comprehensive framework for individual career planning, skill development,
+  professional networking, personal branding, and strategic career advancement across
+  industries and career stages.
+- Project planning and execution
+- Strategy development
 related_templates:
-  - personal/development/life-optimization-framework.md
+- personal/development/life-optimization-framework.md
 last_updated: 2025-11-09
+industries:
+- education
+- finance
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Career Development & Professional Growth Framework

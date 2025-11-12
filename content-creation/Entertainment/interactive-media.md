@@ -10,7 +10,6 @@ tags:
 - development
 - optimization
 - security
-- template
 title: Interactive Media Template
 use_cases:
 - Creating immersive interactive media experiences including AR/VR applications, interactive
@@ -18,6 +17,12 @@ use_cases:
   and compelling content.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- government
+- healthcare
+- manufacturing
+- technology
 ---
 
 # Interactive Media Template

@@ -6,13 +6,7 @@ related_templates:
 - sales-marketing/Marketing-Creative/campaign-concepts-comprehensive.md
 - sales-marketing/Marketing-Creative/landing-pages-comprehensive.md
 tags:
-- advertising
-- copywriting
 - marketing
-- campaigns
-- digital-marketing
-- social-media
-- conversion-optimization
 title: Comprehensive Ad Copy Generator
 use_cases:
 - Digital advertising campaigns
@@ -21,6 +15,14 @@ use_cases:
 - E-commerce product ads
 - B2B lead generation ads
 - Brand awareness campaigns
+industries:
+- education
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Ad Copy Comprehensive Template Generator

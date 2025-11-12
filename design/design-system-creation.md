@@ -8,14 +8,14 @@ related_templates:
 tags:
 - creative
 - design
-- design-system
-- components
-- style-guide
 title: Design System & Component Library
 use_cases:
 - Creating comprehensive design systems and style guides
 - Building reusable component libraries
 - Establishing brand consistency across products
+industries:
+- healthcare
+- technology
 ---
 
 # Design System & Component Library

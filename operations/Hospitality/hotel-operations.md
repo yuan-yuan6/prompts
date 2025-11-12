@@ -5,10 +5,9 @@ related_templates:
 - operations/Hospitality/smart-hotel-operations.md
 tags:
 - communication
-- data-science
+- ai-ml
 - design
 - framework
-- industry
 - management
 - optimization
 - research
@@ -19,6 +18,12 @@ use_cases:
   across all property types and service levels.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Hotel Operations & Guest Experience Framework

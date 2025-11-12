@@ -1,13 +1,27 @@
 ---
 title: Retirement Planning Template
 category: personal/Financial-Management
-tags: [data-science, optimization, personal, research, security, strategy, template]
+tags:
+- ai-ml
+- optimization
+- personal
+- research
+- security
+- strategy
 use_cases:
-  - Creating develop comprehensive retirement strategies including 401k optimization, ira planning, income projections, and withdrawal strategies to ensure financial security and lifestyle maintenance throughout retirement years.
-
-  - Project planning and execution
-  - Strategy development
+- Creating develop comprehensive retirement strategies including 401k optimization,
+  ira planning, income projections, and withdrawal strategies to ensure financial
+  security and lifestyle maintenance throughout retirement years.
+- Project planning and execution
+- Strategy development
 last_updated: 2025-11-09
+industries:
+- finance
+- healthcare
+- manufacturing
+- nonprofit
+- retail
+- technology
 ---
 
 # Retirement Planning Template

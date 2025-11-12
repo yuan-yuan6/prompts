@@ -6,16 +6,16 @@ related_templates:
 - finance/Corporate-Finance/financial-risk-assessment.md
 - finance/Corporate-Finance/financial-valuation-recommendations.md
 tags:
-- business
 - finance
-- forecasting
-- projections
 - planning
 title: Financial Forecasting & Projections
 use_cases:
 - Creating revenue and expense forecasts
 - Projecting cash flows and financial statements
 - Developing financial models and scenarios
+industries:
+- finance
+- technology
 ---
 
 # Financial Forecasting & Projections

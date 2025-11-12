@@ -1,13 +1,27 @@
 ---
 title: Customer Success Strategy & Experience Management Framework
 category: operations
-tags: [data-science, design, development, framework, machine-learning, management, optimization, professional-services]
+tags:
+- ai-ml
+- design
+- development
+- framework
+- management
+- optimization
 use_cases:
-  - Creating comprehensive framework for building and scaling customer success programs including onboarding optimization, adoption strategies, retention management, expansion planning, health scoring, and proactive support for maximizing customer lifetime value.
-
-  - Project planning and execution
-  - Strategy development
+- Creating comprehensive framework for building and scaling customer success programs
+  including onboarding optimization, adoption strategies, retention management, expansion
+  planning, health scoring, and proactive support for maximizing customer lifetime
+  value.
+- Project planning and execution
+- Strategy development
 last_updated: 2025-11-09
+industries:
+- finance
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Customer Success Strategy & Experience Management Framework

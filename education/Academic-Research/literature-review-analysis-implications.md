@@ -1,17 +1,27 @@
 ---
 title: Literature Review Analysis & Implications
 category: education/Academic-Research
-tags: [communication, education, research, strategy, analysis]
+tags:
+- communication
+- education
+- research
+- strategy
+- analysis
 use_cases:
-  - Conducting critical analysis and evaluation of synthesized evidence
-  - Developing theoretical and practical implications from literature reviews
-  - Formulating evidence-based recommendations for policy and practice
-  - Identifying future research priorities and methodological improvements
+- Conducting critical analysis and evaluation of synthesized evidence
+- Developing theoretical and practical implications from literature reviews
+- Formulating evidence-based recommendations for policy and practice
+- Identifying future research priorities and methodological improvements
 related_templates:
-  - education/Academic Research/literature-review-extraction-synthesis.md
-  - education/Academic Research/literature-review-reporting-dissemination.md
-  - education/Academic Research/literature-reviews-overview.md
+- education/Academic Research/literature-review-extraction-synthesis.md
+- education/Academic Research/literature-review-reporting-dissemination.md
+- education/Academic Research/literature-reviews-overview.md
 last_updated: 2025-11-10
+industries:
+- education
+- government
+- healthcare
+- manufacturing
 ---
 
 # Literature Review Analysis & Implications

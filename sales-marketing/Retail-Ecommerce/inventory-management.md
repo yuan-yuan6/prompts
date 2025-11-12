@@ -6,11 +6,9 @@ related_templates:
 - sales-marketing/Retail-Ecommerce/dynamic-pricing-strategy.md
 - sales-marketing/Retail-Ecommerce/product-sourcing-strategy.md
 tags:
-- data-science
+- ai-ml
 - documentation
 - framework
-- industry
-- machine-learning
 - management
 - optimization
 - research
@@ -21,6 +19,8 @@ use_cases:
   inventory turnover while minimizing stockouts.
 - Project planning and execution
 - Strategy development
+industries:
+- retail
 ---
 
 # Inventory Management & Supply Chain Optimization Framework

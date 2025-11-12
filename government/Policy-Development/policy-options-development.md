@@ -6,17 +6,15 @@ related_templates:
 - government/Policy-Development/policy-impact-assessment.md
 - government/Policy-Development/policy-implementation-planning.md
 - government/Policy-Development/policy-research-overview.md
-tags:
-- policy-options
-- alternatives
-- cost-benefit
-- risk-assessment
-- stakeholder-engagement
+tags: []
 title: Policy Options Development
 use_cases:
 - Developing and comparing policy alternatives
 - Conducting cost-benefit analysis of options
 - Assessing risks and stakeholder positions
+industries:
+- finance
+- government
 ---
 
 # Policy Options Development

@@ -1,9 +1,22 @@
 ---
 title: Meeting Management Framework - Overview & Navigation
 category: communication
-tags: [communication, design, framework, machine-learning, management, optimization, professional-services, strategy]
+tags:
+- communication
+- design
+- framework
+- ai-ml
+- management
+- optimization
+- strategy
 parent_prompt: meeting-management-framework (split into 3 parts)
 last_updated: 2025-11-11
+industries:
+- finance
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Meeting Management Framework - Overview & Navigation

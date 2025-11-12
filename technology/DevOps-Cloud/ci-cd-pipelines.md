@@ -13,12 +13,17 @@ tags:
 - optimization
 - security
 - strategy
-- technology
 title: CI/CD Pipeline Development & Optimization Template
 use_cases:
 - General application
 - Professional use
 - Project implementation
+industries:
+- finance
+- government
+- healthcare
+- manufacturing
+- technology
 ---
 
 # CI/CD Pipeline Development & Optimization Template

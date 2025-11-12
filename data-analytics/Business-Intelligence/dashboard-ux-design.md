@@ -7,15 +7,13 @@ related_templates:
 - data-analytics/Business-Intelligence/dashboard-design-overview.md
 tags:
 - data-analytics
-- business-intelligence
-- ux-design
-- data-visualization
-- ui-design
 title: Dashboard UX/UI Design & User Experience
 use_cases:
 - Dashboard interface design
 - Data visualization selection
 - User experience optimization
+industries:
+- technology
 ---
 
 # Dashboard UX/UI Design & User Experience

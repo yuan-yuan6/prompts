@@ -7,9 +7,8 @@ tags:
 - design
 - development
 - framework
-- machine-learning
+- ai-ml
 - optimization
-- technology
 title: DeFi Protocol Design & Implementation Framework
 use_cases:
 - Creating advanced framework for designing, developing, and launching decentralized
@@ -17,6 +16,8 @@ use_cases:
   innovative defi primitives.
 - Project planning and execution
 - Strategy development
+industries:
+- technology
 ---
 
 # DeFi Protocol Design & Implementation Framework

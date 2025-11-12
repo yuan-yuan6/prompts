@@ -10,10 +10,9 @@ tags:
 - data-analytics
 - design
 - development
-- machine-learning
+- ai-ml
 - security
 - strategy
-- template
 title: Pipeline Development & Orchestration Template
 use_cases:
 - Creating design comprehensive etl/elt pipeline development strategies including
@@ -21,6 +20,13 @@ use_cases:
   and automation frameworks for enterprise data platforms.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Pipeline Development & Orchestration Template

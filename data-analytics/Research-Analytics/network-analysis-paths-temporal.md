@@ -1,18 +1,22 @@
 ---
 title: Network Analysis - Paths and Temporal Dynamics
 category: data-analytics/Research-Analytics
-tags: [data-analytics, data-science, network-analysis, path-analysis, temporal-networks]
+tags:
+- data-analytics
+- ai-ml
 use_cases:
-  - Analyzing network connectivity and shortest paths
-  - Measuring network diameter, radius, and efficiency
-  - Assessing network robustness and resilience
-  - Tracking temporal evolution of network structure
+- Analyzing network connectivity and shortest paths
+- Measuring network diameter, radius, and efficiency
+- Assessing network robustness and resilience
+- Tracking temporal evolution of network structure
 related_templates:
-  - data-analytics/Research Analytics/network-analysis-data-preparation.md
-  - data-analytics/Research Analytics/network-analysis-centrality-community.md
-  - data-analytics/Research Analytics/network-analysis-visualization.md
-  - data-analytics/Research Analytics/network-analysis-overview.md
+- data-analytics/Research Analytics/network-analysis-data-preparation.md
+- data-analytics/Research Analytics/network-analysis-centrality-community.md
+- data-analytics/Research Analytics/network-analysis-visualization.md
+- data-analytics/Research Analytics/network-analysis-overview.md
 last_updated: 2025-11-10
+industries:
+- technology
 ---
 
 # Network Analysis - Paths and Temporal Dynamics

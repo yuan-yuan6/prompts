@@ -12,7 +12,6 @@ tags:
 - optimization
 - research
 - strategy
-- template
 title: Article Writing Template
 use_cases:
 - Creating compelling articles, blog posts, news stories, and feature pieces with

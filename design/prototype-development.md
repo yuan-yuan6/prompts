@@ -8,14 +8,14 @@ related_templates:
 tags:
 - creative
 - design
-- prototype
-- interaction
 - testing
 title: Interactive Prototype Development
 use_cases:
 - Build clickable prototype for usability testing
 - Create high-fidelity mockup for investor demo or stakeholder approval
 - Develop proof-of-concept to validate technical feasibility before development
+industries:
+- retail
 ---
 
 # Interactive Prototype Development

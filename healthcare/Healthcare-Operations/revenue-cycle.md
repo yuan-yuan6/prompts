@@ -18,6 +18,12 @@ use_cases:
   and denial management to maximize reimbursement and cash flow.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- finance
+- government
+- healthcare
+- manufacturing
 ---
 
 # Healthcare Revenue Cycle Management Framework

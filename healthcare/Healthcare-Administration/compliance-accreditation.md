@@ -6,13 +6,12 @@ related_templates:
 - healthcare/patient-care-pathway.md
 - healthcare/clinical-trials-management.md
 tags:
-- data-science
+- ai-ml
 - design
 - healthcare
 - management
 - research
 - security
-- template
 - testing
 title: Compliance & Accreditation Management Template
 use_cases:
@@ -21,6 +20,11 @@ use_cases:
   meet all regulatory requirements and maintain accreditation standards.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- finance
+- government
+- healthcare
 ---
 
 # Compliance & Accreditation Management Template

@@ -7,12 +7,11 @@ related_templates:
 tags:
 - automation
 - communication
-- data-science
+- ai-ml
 - development
 - education
 - research
 - strategy
-- template
 title: Science Writing for Popular Audiences Template
 use_cases:
 - Creating engaging, accessible science communication that bridges the gap between
@@ -20,6 +19,11 @@ use_cases:
   blogs, educational content, and multimedia storytelling.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- government
+- healthcare
+- manufacturing
 ---
 
 # Science Writing for Popular Audiences Template

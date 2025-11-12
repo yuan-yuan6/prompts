@@ -9,17 +9,17 @@ related_templates:
 tags:
 - automation
 - data-analytics
-- monitoring
-- observability
-- error-handling
-- alerting
-- reliability
 title: Pipeline Observability & Error Handling Template
 use_cases:
 - Implementing comprehensive pipeline monitoring and alerting systems
 - Designing error handling frameworks with recovery strategies
 - Building real-time streaming pipeline monitors
 - Implementing circuit breakers and resilience patterns
+industries:
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Pipeline Observability & Error Handling Template

@@ -11,8 +11,6 @@ tags:
 - documentation
 - management
 - strategy
-- technology
-- template
 title: Site Reliability Engineering Template
 use_cases:
 - Creating implement comprehensive sre practices including slo/sli definition, error
@@ -20,6 +18,8 @@ use_cases:
   for production systems.
 - Project planning and execution
 - Strategy development
+industries:
+- technology
 ---
 
 # Site Reliability Engineering Template

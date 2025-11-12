@@ -1,12 +1,28 @@
 ---
 title: Telemedicine Platform Design Template Generator
 category: healthcare
-tags: [design, healthcare, management, optimization, security, template, testing]
+tags:
+- design
+- healthcare
+- management
+- optimization
+- security
+- testing
 use_cases:
-  - Creating comprehensive telemedicine platform strategies covering virtual care delivery, clinical workflows, reimbursement optimization, patient engagement, and outcome measurement to enhance healthcare accessibility, quality, and efficiency while ensuring regulatory compliance and clinical effectiveness.
-  - Project planning and execution
-  - Strategy development
+- Creating comprehensive telemedicine platform strategies covering virtual care delivery,
+  clinical workflows, reimbursement optimization, patient engagement, and outcome
+  measurement to enhance healthcare accessibility, quality, and efficiency while ensuring
+  regulatory compliance and clinical effectiveness.
+- Project planning and execution
+- Strategy development
 last_updated: 2025-11-09
+industries:
+- education
+- finance
+- government
+- healthcare
+- manufacturing
+- technology
 ---
 
 # Telemedicine Platform Design Template Generator

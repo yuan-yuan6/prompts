@@ -6,19 +6,25 @@ related_templates:
 - strategy/digital-transformation-roadmap.md
 - operations/lean-six-sigma-implementation.md
 tags:
-- business
 - design
 - development
 - optimization
 - security
 - strategy
-- template
 title: Training Programs Template Generator
 use_cases:
 - Creating comprehensive training program strategies covering onboarding, skills development,
   and compliance training to enhance employee capabilities and organizational effectiveness.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Training Programs Template Generator

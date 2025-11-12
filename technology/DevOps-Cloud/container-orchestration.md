@@ -7,16 +7,17 @@ related_templates:
 - technology/cloud-migration-strategy.md
 tags:
 - design
-- machine-learning
+- ai-ml
 - strategy
-- technology
-- template
 title: Container Orchestration Template
 use_cases:
 - Creating design and implement container orchestration strategies using kubernetes,
   docker swarm, or other platforms to manage containerized applications at scale.
 - Project planning and execution
 - Strategy development
+industries:
+- manufacturing
+- technology
 ---
 
 # Container Orchestration Template

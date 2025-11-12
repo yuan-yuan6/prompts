@@ -16,6 +16,10 @@ use_cases:
   and impact statements for academic research funding opportunities.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- government
+- healthcare
 ---
 
 # Grant Writing & Proposals Generator

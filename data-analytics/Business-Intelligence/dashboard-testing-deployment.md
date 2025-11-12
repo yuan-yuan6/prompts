@@ -7,15 +7,15 @@ related_templates:
 - data-analytics/Business-Intelligence/dashboard-design-overview.md
 tags:
 - data-analytics
-- business-intelligence
 - testing
-- deployment
-- maintenance
 title: Dashboard Testing, Deployment & Maintenance
 use_cases:
 - Testing strategy development
 - Deployment planning
 - Maintenance framework
+industries:
+- manufacturing
+- technology
 ---
 
 # Dashboard Testing, Deployment & Maintenance

@@ -12,8 +12,6 @@ tags:
 - optimization
 - security
 - strategy
-- technology
-- template
 title: CI/CD Pipelines Template
 use_cases:
 - Creating design and implement comprehensive ci/cd pipelines for automated build,
@@ -21,6 +19,9 @@ use_cases:
   strategies.
 - Project planning and execution
 - Strategy development
+industries:
+- manufacturing
+- technology
 ---
 
 # CI/CD Pipelines Template

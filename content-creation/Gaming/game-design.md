@@ -10,8 +10,7 @@ tags:
 - design
 - development
 - framework
-- industry
-- machine-learning
+- ai-ml
 - management
 - optimization
 title: Game Design & Development Framework
@@ -21,6 +20,9 @@ use_cases:
   video game projects.
 - Project planning and execution
 - Strategy development
+industries:
+- manufacturing
+- technology
 ---
 
 # Game Design & Development Framework

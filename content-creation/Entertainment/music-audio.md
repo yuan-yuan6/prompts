@@ -8,7 +8,6 @@ tags:
 - communication
 - creative
 - design
-- template
 - testing
 title: Music & Audio Template
 use_cases:
@@ -17,6 +16,8 @@ use_cases:
   styles.
 - Project planning and execution
 - Strategy development
+industries:
+- manufacturing
 ---
 
 # Music & Audio Template

@@ -6,7 +6,7 @@ related_templates:
 - nonprofit/fundraising-campaign-framework.md
 tags:
 - automation
-- data-science
+- ai-ml
 - design
 - marketing
 - nonprofit
@@ -17,6 +17,13 @@ use_cases:
 - Strategic framework for donor cultivation, engagement, stewardship, and retention
 - Major gifts program and planned giving development
 - Multi-channel fundraising campaign management
+industries:
+- education
+- finance
+- healthcare
+- manufacturing
+- nonprofit
+- technology
 ---
 
 # Donor Engagement & Stewardship System

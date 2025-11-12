@@ -1,16 +1,22 @@
 ---
 title: Financial Statement Analysis
 category: finance/Corporate-Finance
-tags: [business, finance, financial-statements, analysis]
+tags:
+- finance
+- analysis
 use_cases:
-  - Analyzing income statements, balance sheets, and cash flow statements
-  - Evaluating financial performance and trends
-  - Assessing financial health and sustainability
+- Analyzing income statements, balance sheets, and cash flow statements
+- Evaluating financial performance and trends
+- Assessing financial health and sustainability
 related_templates:
-  - finance/Corporate-Finance/financial-ratio-analysis.md
-  - finance/Corporate-Finance/financial-forecasting.md
-  - finance/Corporate-Finance/financial-risk-assessment.md
+- finance/Corporate-Finance/financial-ratio-analysis.md
+- finance/Corporate-Finance/financial-forecasting.md
+- finance/Corporate-Finance/financial-risk-assessment.md
 last_updated: 2025-11-09
+industries:
+- finance
+- retail
+- technology
 ---
 
 # Financial Statement Analysis

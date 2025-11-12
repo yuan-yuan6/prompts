@@ -1,12 +1,28 @@
 ---
 title: Program Evaluation Template
 category: nonprofit
-tags: [automation, data-science, design, documentation, nonprofit, research, strategy, template]
+tags:
+- automation
+- ai-ml
+- design
+- documentation
+- nonprofit
+- research
+- strategy
 use_cases:
-  - Creating comprehensive program evaluation frameworks, impact assessment methodologies, social return on investment analyses, and outcome measurement systems that demonstrate nonprofit effectiveness, guide strategic decision-making, and strengthen organizational accountability to stakeholders and beneficiaries.
-  - Project planning and execution
-  - Strategy development
+- Creating comprehensive program evaluation frameworks, impact assessment methodologies,
+  social return on investment analyses, and outcome measurement systems that demonstrate
+  nonprofit effectiveness, guide strategic decision-making, and strengthen organizational
+  accountability to stakeholders and beneficiaries.
+- Project planning and execution
+- Strategy development
 last_updated: 2025-11-09
+industries:
+- education
+- finance
+- government
+- healthcare
+- nonprofit
 ---
 
 # Program Evaluation Template

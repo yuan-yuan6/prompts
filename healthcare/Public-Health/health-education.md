@@ -1,18 +1,23 @@
 ---
 title: Health Education Program Development
 category: healthcare/public-health
-tags: [healthcare, public-health, health-education, community-health, prevention, wellness, patient-education]
+tags:
+- healthcare
 use_cases:
-  - Community health education programs
-  - Patient education initiatives
-  - School health education
-  - Workplace wellness programs
-  - Chronic disease prevention campaigns
+- Community health education programs
+- Patient education initiatives
+- School health education
+- Workplace wellness programs
+- Chronic disease prevention campaigns
 related_templates:
-  - healthcare/Public Health/disease-prevention.md
-  - healthcare/Public Health/community-health.md
-  - healthcare/Public Health/health-policy.md
+- healthcare/Public Health/disease-prevention.md
+- healthcare/Public Health/community-health.md
+- healthcare/Public Health/health-policy.md
 last_updated: 2025-01-09
+industries:
+- education
+- government
+- healthcare
 ---
 
 # Health Education Program Development

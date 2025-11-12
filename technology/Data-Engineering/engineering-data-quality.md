@@ -6,13 +6,11 @@ related_templates:
 - technology/site-reliability-engineering.md
 - technology/cloud-migration-strategy.md
 tags:
-- data-science
+- ai-ml
 - design
 - research
 - security
 - strategy
-- technology
-- template
 - testing
 title: Data Quality Template
 use_cases:
@@ -21,6 +19,11 @@ use_cases:
   data across enterprise systems.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- government
+- manufacturing
+- technology
 ---
 
 # Data Quality Template

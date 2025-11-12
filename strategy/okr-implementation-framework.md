@@ -1,13 +1,26 @@
 ---
 title: OKR Implementation & Performance Management Framework
 category: strategy
-tags: [business, design, development, framework, management, optimization, strategy]
+tags:
+- design
+- development
+- framework
+- management
+- optimization
+- strategy
 use_cases:
-  - Creating comprehensive framework for implementing objectives and key results (okrs) including goal setting, alignment strategies, tracking mechanisms, performance measurement, and continuous improvement for driving organizational focus and achievement.
-
-  - Project planning and execution
-  - Strategy development
+- Creating comprehensive framework for implementing objectives and key results (okrs)
+  including goal setting, alignment strategies, tracking mechanisms, performance measurement,
+  and continuous improvement for driving organizational focus and achievement.
+- Project planning and execution
+- Strategy development
 last_updated: 2025-11-09
+industries:
+- finance
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # OKR Implementation & Performance Management Framework

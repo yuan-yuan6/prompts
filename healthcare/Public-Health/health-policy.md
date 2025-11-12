@@ -7,13 +7,12 @@ related_templates:
 - healthcare/clinical-trials-management.md
 tags:
 - communication
-- data-science
+- ai-ml
 - design
 - healthcare
 - marketing
 - research
 - strategy
-- template
 title: Health Policy & Advocacy Template
 use_cases:
 - Creating comprehensive health policy proposals, advocacy campaigns, legislative
@@ -21,6 +20,10 @@ use_cases:
   through policy change and systems transformation.
 - Project planning and execution
 - Strategy development
+industries:
+- government
+- healthcare
+- technology
 ---
 
 # Health Policy & Advocacy Template

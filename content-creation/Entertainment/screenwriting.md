@@ -8,7 +8,6 @@ tags:
 - communication
 - creative
 - design
-- template
 title: Screenwriting Template
 use_cases:
 - Creating compelling screenplays for films, TV series, and web content with professional
@@ -16,6 +15,9 @@ use_cases:
   and drives production interest.
 - Project planning and execution
 - Strategy development
+industries:
+- healthcare
+- manufacturing
 ---
 
 # Screenwriting Template

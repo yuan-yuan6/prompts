@@ -20,6 +20,12 @@ use_cases:
   the creator economy.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
 ---
 
 # Influencer Marketing Campaign & Creator Economy Framework

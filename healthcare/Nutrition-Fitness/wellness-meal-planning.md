@@ -1,12 +1,21 @@
 ---
 title: Meal Planning - Comprehensive Prompt Template
 category: healthcare/Nutrition-Fitness
-tags: [comprehensive, design, healthcare, management, optimization, strategy, template]
+tags:
+- design
+- healthcare
+- management
+- optimization
+- strategy
 use_cases:
-  - General application
-  - Professional use
-  - Project implementation
+- General application
+- Professional use
+- Project implementation
 last_updated: 2025-11-09
+industries:
+- education
+- healthcare
+- manufacturing
 ---
 
 # Meal Planning - Comprehensive Prompt Template

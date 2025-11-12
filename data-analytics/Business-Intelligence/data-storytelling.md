@@ -8,12 +8,11 @@ related_templates:
 tags:
 - automation
 - data-analytics
-- data-science
+- ai-ml
 - design
 - optimization
 - research
 - strategy
-- template
 title: Data Storytelling Narratives Template
 use_cases:
 - Creating compelling data narratives that transform complex analytical insights into
@@ -21,6 +20,10 @@ use_cases:
   through effective storytelling techniques and contextual insights.
 - Project planning and execution
 - Strategy development
+industries:
+- government
+- manufacturing
+- technology
 ---
 
 # Data Storytelling Narratives Template

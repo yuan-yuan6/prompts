@@ -8,16 +8,23 @@ tags:
 - design
 - development
 - education
-- machine-learning
+- ai-ml
 - research
 - strategy
-- template
 title: Curriculum Development & Design Template
 use_cases:
 - Creating comprehensive curriculum frameworks for educational programs, including
   course design, module development, learning objectives, and curriculum mapping.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- finance
+- government
+- healthcare
+- manufacturing
+- nonprofit
+- technology
 ---
 
 # Curriculum Development & Design Template

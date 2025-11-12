@@ -8,9 +8,8 @@ tags:
 - design
 - development
 - education
-- machine-learning
+- ai-ml
 - strategy
-- template
 - testing
 title: Online Learning Platforms Template
 use_cases:
@@ -19,6 +18,11 @@ use_cases:
   contexts and learner needs.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- finance
+- government
+- technology
 ---
 
 # Online Learning Platforms Template

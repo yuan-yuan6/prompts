@@ -1,16 +1,21 @@
 ---
 title: Surgical Treatment Plan
 category: healthcare/Clinical-Practice
-tags: [healthcare, surgery, perioperative, surgical-planning, template]
+tags:
+- healthcare
 use_cases:
-  - Developing comprehensive surgical treatment plans
-  - Creating perioperative care protocols
-  - Managing pre-operative assessment and post-operative care
+- Developing comprehensive surgical treatment plans
+- Creating perioperative care protocols
+- Managing pre-operative assessment and post-operative care
 related_templates:
-  - healthcare/Clinical Practice/acute-care-treatment-plan.md
-  - healthcare/Clinical Practice/chronic-disease-management-plan.md
-  - healthcare/patient-care-pathway.md
+- healthcare/Clinical Practice/acute-care-treatment-plan.md
+- healthcare/Clinical Practice/chronic-disease-management-plan.md
+- healthcare/patient-care-pathway.md
 last_updated: 2025-11-09
+industries:
+- education
+- healthcare
+- manufacturing
 ---
 
 # Surgical Treatment Plan

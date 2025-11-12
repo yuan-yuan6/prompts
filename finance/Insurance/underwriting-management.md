@@ -13,7 +13,6 @@ tags:
 - framework
 - management
 - optimization
-- testing
 title: Insurance Underwriting & Risk Assessment Framework
 use_cases:
 - Creating comprehensive framework for insurance underwriting operations including
@@ -21,6 +20,11 @@ use_cases:
   optimization across multiple lines of business.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- government
+- healthcare
+- manufacturing
 ---
 
 # Insurance Underwriting & Risk Assessment Framework

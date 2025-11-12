@@ -12,7 +12,6 @@ tags:
 - marketing
 - optimization
 - strategy
-- template
 title: Social Media Content Template
 use_cases:
 - Creating engaging social media content including posts, campaigns, and engagement

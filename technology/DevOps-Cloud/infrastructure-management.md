@@ -10,14 +10,15 @@ tags:
 - management
 - optimization
 - strategy
-- technology
-- template
 title: Infrastructure Management Template
 use_cases:
 - Creating comprehensive infrastructure management including provisioning, scaling,
   monitoring, maintenance, and optimization for cloud and on-premises environments.
 - Project planning and execution
 - Strategy development
+industries:
+- retail
+- technology
 ---
 
 # Infrastructure Management Template

@@ -8,14 +8,15 @@ related_templates:
 tags:
 - creative
 - design
-- wireframe
-- information-architecture
-- ux
 title: Wireframe Design & Information Architecture
 use_cases:
 - Create low-fidelity wireframes for user testing
 - Design information architecture for a new website or app section
 - Map out responsive layouts before visual design begins
+industries:
+- finance
+- retail
+- technology
 ---
 
 # Wireframe Design & Information Architecture

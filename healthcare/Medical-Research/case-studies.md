@@ -7,11 +7,10 @@ related_templates:
 - healthcare/clinical-trials-management.md
 tags:
 - automation
-- data-science
+- ai-ml
 - healthcare
 - management
 - research
-- template
 - testing
 title: Case Studies Template
 use_cases:
@@ -20,6 +19,10 @@ use_cases:
   healthcare settings.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- government
+- healthcare
 ---
 
 # Case Studies Template

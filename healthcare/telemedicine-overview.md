@@ -7,15 +7,15 @@ related_templates:
 - healthcare/telemedicine-03-implementation-scaling.md
 tags:
 - healthcare
-- telemedicine
-- overview
-- navigation
-- virtual-care
 title: Telemedicine Platform Design - Overview & Navigation
 use_cases:
 - Navigate the complete telemedicine platform design framework
 - Understand the structure and components of telemedicine planning
 - Access specific sections based on project phase or focus area
+industries:
+- finance
+- government
+- healthcare
 ---
 
 # Telemedicine Platform Design - Overview & Navigation

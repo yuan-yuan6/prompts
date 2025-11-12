@@ -6,9 +6,8 @@ related_templates:
 - strategy/digital-transformation-roadmap.md
 - operations/lean-six-sigma-implementation.md
 tags:
-- business
 - framework
-- machine-learning
+- ai-ml
 - management
 - strategy
 title: Innovation Strategy & R&D Planning Framework
@@ -18,6 +17,13 @@ use_cases:
   capabilities.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- finance
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Innovation Strategy & R&D Planning Framework

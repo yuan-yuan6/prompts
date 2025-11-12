@@ -5,13 +5,12 @@ related_templates:
 - education/curriculum-development.md
 - education/curriculum-development-framework.md
 tags:
-- data-science
+- ai-ml
 - design
 - development
 - documentation
 - education
 - framework
-- machine-learning
 - optimization
 title: Training Materials Development Framework Generator
 use_cases:
@@ -20,6 +19,10 @@ use_cases:
   development, and skill building programs.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- government
+- manufacturing
 ---
 
 # Training Materials Development Framework Generator

@@ -6,14 +6,13 @@ related_templates:
 - healthcare/patient-care-pathway.md
 - healthcare/clinical-trials-management.md
 tags:
-- data-science
+- ai-ml
 - design
 - development
 - framework
 - healthcare
 - management
 - research
-- security
 title: Clinical Trial Management & Research Protocol Framework
 use_cases:
 - Creating comprehensive framework for managing clinical trials including protocol
@@ -21,6 +20,11 @@ use_cases:
   monitoring, and results analysis for advancing medical research and drug development.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- government
+- healthcare
+- manufacturing
 ---
 
 # Clinical Trial Management & Research Protocol Framework

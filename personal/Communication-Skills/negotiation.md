@@ -1,13 +1,26 @@
 ---
 title: Negotiation Template
 category: personal/Communication-Skills
-tags: [communication, data-science, development, personal, research, strategy, template]
+tags:
+- communication
+- ai-ml
+- development
+- personal
+- research
+- strategy
 use_cases:
-  - Creating develop effective negotiation strategies, tactics, and communication approaches to achieve mutually beneficial outcomes in business deals, salary discussions, conflicts, and personal situations.
-
-  - Project planning and execution
-  - Strategy development
+- Creating develop effective negotiation strategies, tactics, and communication approaches
+  to achieve mutually beneficial outcomes in business deals, salary discussions, conflicts,
+  and personal situations.
+- Project planning and execution
+- Strategy development
 last_updated: 2025-11-09
+industries:
+- finance
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Negotiation Template

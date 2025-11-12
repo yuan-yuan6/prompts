@@ -10,18 +10,18 @@ related_templates:
 tags:
 - automation
 - data-analytics
-- data-science
-- machine-learning
-- nlp
-- overview
-- navigation
-- template
+- ai-ml
 title: Text Analytics and NLP - Overview and Navigation
 use_cases:
 - Navigate the comprehensive text analytics suite to find the right tools for preprocessing,
   sentiment analysis, topic modeling, entity recognition, and advanced analytics.
 - Understand which NLP techniques to apply based on your specific analysis goals and
   data characteristics.
+industries:
+- education
+- healthcare
+- manufacturing
+- technology
 ---
 
 # Text Analytics and NLP - Overview and Navigation

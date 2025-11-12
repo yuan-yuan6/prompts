@@ -6,11 +6,10 @@ related_templates:
 - communication/crisis-communication-plan.md
 tags:
 - development
-- machine-learning
+- ai-ml
 - marketing
-- professional-services
+- management
 - strategy
-- template
 title: Thought Leadership Content Creation Prompt Template
 use_cases:
 - Creating comprehensive framework for developing thought leadership content, establishing
@@ -19,6 +18,15 @@ use_cases:
   growth and reputation enhancement.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- finance
+- government
+- healthcare
+- manufacturing
+- nonprofit
+- retail
+- technology
 ---
 
 # Thought Leadership Content Creation Prompt Template

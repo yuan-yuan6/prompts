@@ -8,10 +8,9 @@ tags:
 - communication
 - design
 - marketing
-- professional-services
+- management
 - security
 - strategy
-- template
 title: Policy Communication & Training Prompt Template
 use_cases:
 - Creating comprehensive framework for effectively communicating policy changes, updates,
@@ -19,6 +18,14 @@ use_cases:
   and successful adoption across the organization.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Policy Communication & Training Prompt Template

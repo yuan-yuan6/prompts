@@ -11,9 +11,8 @@ tags:
 - development
 - documentation
 - framework
-- machine-learning
+- ai-ml
 - management
-- security
 title: Version Control & Git Workflow Management Framework
 use_cases:
 - Creating comprehensive framework for version control management, git workflows,
@@ -21,6 +20,9 @@ use_cases:
   development practices.
 - Project planning and execution
 - Strategy development
+industries:
+- government
+- technology
 ---
 
 # Version Control & Git Workflow Management Framework

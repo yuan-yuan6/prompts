@@ -10,7 +10,6 @@ tags:
 - documentation
 - education
 - research
-- template
 - testing
 title: Educational Content Creation Template
 use_cases:
@@ -19,6 +18,12 @@ use_cases:
   educational contexts.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- finance
+- government
+- manufacturing
+- technology
 ---
 
 # Educational Content Creation Template

@@ -19,6 +19,11 @@ use_cases:
   programs, and moves management systems for nonprofit organizations.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- government
+- healthcare
+- nonprofit
 ---
 
 # Major Gifts Fundraising Strategy Framework

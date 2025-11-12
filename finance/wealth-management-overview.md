@@ -1,15 +1,24 @@
 ---
 title: Wealth Management Strategy - Complete Overview & Navigation
 category: finance
-tags: [design, finance, management, optimization, security, strategy, template]
+tags:
+- design
+- finance
+- management
+- optimization
+- security
+- strategy
 related_templates:
-  - finance/wealth-management-01-foundation-investment.md
-  - finance/wealth-management-02-tax-retirement-estate.md
-  - finance/wealth-management-03-risk-implementation.md
+- finance/wealth-management-01-foundation-investment.md
+- finance/wealth-management-02-tax-retirement-estate.md
+- finance/wealth-management-03-risk-implementation.md
 use_cases:
-  - Navigation and overview of the comprehensive 3-part wealth management strategy system
-  - Understanding the complete wealth management framework
+- Navigation and overview of the comprehensive 3-part wealth management strategy system
+- Understanding the complete wealth management framework
 last_updated: 2025-11-11
+industries:
+- finance
+- healthcare
 ---
 
 # Wealth Management Strategy - Complete Overview

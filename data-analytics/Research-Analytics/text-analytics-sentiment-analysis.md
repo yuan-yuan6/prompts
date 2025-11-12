@@ -1,16 +1,25 @@
 ---
 title: Text Analytics - Sentiment Analysis
 category: data-analytics/Research-Analytics
-tags: [automation, data-analytics, data-science, machine-learning, nlp, sentiment-analysis, emotion-detection, template]
+tags:
+- automation
+- data-analytics
+- ai-ml
 use_cases:
-  - Analyze sentiment in customer reviews, social media posts, and feedback using multiple models including VADER, TextBlob, and transformer-based approaches.
-  - Perform aspect-based sentiment analysis to understand opinions about specific product features or service attributes.
-  - Track sentiment trends over time and detect emotion patterns in text data.
+- Analyze sentiment in customer reviews, social media posts, and feedback using multiple
+  models including VADER, TextBlob, and transformer-based approaches.
+- Perform aspect-based sentiment analysis to understand opinions about specific product
+  features or service attributes.
+- Track sentiment trends over time and detect emotion patterns in text data.
 related_templates:
-  - data-analytics/Research Analytics/text-analytics-preprocessing.md
-  - data-analytics/Research Analytics/text-analytics-topic-modeling.md
-  - data-analytics/Research Analytics/text-analytics-overview.md
+- data-analytics/Research Analytics/text-analytics-preprocessing.md
+- data-analytics/Research Analytics/text-analytics-topic-modeling.md
+- data-analytics/Research Analytics/text-analytics-overview.md
 last_updated: 2025-11-10
+industries:
+- healthcare
+- manufacturing
+- technology
 ---
 
 # Text Analytics - Sentiment Analysis

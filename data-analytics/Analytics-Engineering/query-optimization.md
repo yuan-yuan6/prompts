@@ -7,12 +7,11 @@ related_templates:
 - data-analytics/predictive-modeling-framework.md
 tags:
 - data-analytics
-- data-science
+- ai-ml
 - design
 - optimization
 - research
 - strategy
-- template
 title: Query Optimization & Performance Template
 use_cases:
 - Creating design comprehensive sql query optimization strategies including performance
@@ -20,6 +19,11 @@ use_cases:
   performance optimization for analytical workloads.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- government
+- manufacturing
+- technology
 ---
 
 # Query Optimization & Performance Template

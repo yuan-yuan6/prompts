@@ -4,16 +4,14 @@ last_updated: 2025-11-09
 related_templates:
 - education/Teaching-Instruction/course-foundations-objectives.md
 - education/Teaching-Instruction/course-assessment-strategy.md
-tags:
-- curriculum
-- content-design
-- curriculum-mapping
-- instructional-materials
+tags: []
 title: Course Content & Curriculum Mapper
 use_cases:
 - Developing and organizing course content with clear learning progression
 - Creating curriculum maps that align content with learning objectives
 - Designing multi-modal instructional materials for diverse learners
+industries:
+- education
 ---
 
 # Course Content & Curriculum Mapper

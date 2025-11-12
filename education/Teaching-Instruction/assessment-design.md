@@ -1,15 +1,26 @@
 ---
 title: Assessment Design & Evaluation Template
 category: education/Teaching-Instruction
-tags: [design, development, education, optimization, security, template]
+tags:
+- design
+- development
+- education
+- optimization
+- security
 use_cases:
-  - Creating comprehensive assessment strategies including test design, rubrics, formative and summative assessments, evaluation methods, and performance measurement systems for educational programs.
-  - Project planning and execution
-  - Strategy development
+- Creating comprehensive assessment strategies including test design, rubrics, formative
+  and summative assessments, evaluation methods, and performance measurement systems
+  for educational programs.
+- Project planning and execution
+- Strategy development
 related_templates:
-  - education/curriculum-development.md
-  - education/curriculum-development-framework.md
+- education/curriculum-development.md
+- education/curriculum-development-framework.md
 last_updated: 2025-11-09
+industries:
+- education
+- government
+- technology
 ---
 
 # Assessment Design & Evaluation Template

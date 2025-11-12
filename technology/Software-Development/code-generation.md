@@ -10,8 +10,6 @@ tags:
 - documentation
 - optimization
 - security
-- technology
-- template
 - testing
 title: Code Generation Template
 use_cases:
@@ -19,6 +17,10 @@ use_cases:
   complete applications with comprehensive documentation and best practices.
 - Project planning and execution
 - Strategy development
+industries:
+- government
+- manufacturing
+- technology
 ---
 
 # Code Generation Template

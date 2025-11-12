@@ -11,12 +11,14 @@ tags:
 - data-analytics
 - design
 - research
-- template
 title: Experimental Design Setup
 use_cases:
 - Select and configure appropriate experimental designs including RCTs, A/B tests,
   factorial designs, crossover designs, cluster trials, stepped wedge, quasi-experimental,
   and regression discontinuity designs
+industries:
+- education
+- technology
 ---
 
 # Experimental Design Setup

@@ -9,10 +9,9 @@ tags:
 - communication
 - design
 - development
-- machine-learning
+- ai-ml
 - management
 - optimization
-- professional-services
 title: Partner Collaboration & Alliances Prompt Template
 use_cases:
 - Creating comprehensive framework for developing, managing, and optimizing strategic
@@ -20,6 +19,14 @@ use_cases:
   expansion.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Partner Collaboration & Alliances Prompt Template

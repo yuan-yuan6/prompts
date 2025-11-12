@@ -1,13 +1,24 @@
 ---
 title: Brand Strategy Development & Identity Framework
 category: sales-marketing
-tags: [communication, data-science, design, development, framework, marketing, professional-services, research]
+tags:
+- communication
+- ai-ml
+- design
+- development
+- framework
+- marketing
+- management
 use_cases:
-  - Creating comprehensive framework for developing and implementing brand strategies including brand positioning, identity design, messaging architecture, customer experience, competitive differentiation, and brand governance for building powerful market presence.
-
-  - Project planning and execution
-  - Strategy development
+- Creating comprehensive framework for developing and implementing brand strategies
+  including brand positioning, identity design, messaging architecture, customer experience,
+  competitive differentiation, and brand governance for building powerful market presence.
+- Project planning and execution
+- Strategy development
 last_updated: 2025-11-09
+industries:
+- finance
+- retail
 ---
 
 # Brand Strategy Development & Identity Framework

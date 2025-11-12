@@ -1,17 +1,23 @@
 ---
 title: Policy Research & Analysis
 category: government/Policy-Development
-tags: [research, analysis, evidence-based, methodology, comparative-analysis]
+tags:
+- research
+- analysis
 use_cases:
-  - Conducting comprehensive policy research and evidence gathering
-  - Performing comparative jurisdictional analysis
-  - Evaluating research methodology and evidence quality
+- Conducting comprehensive policy research and evidence gathering
+- Performing comparative jurisdictional analysis
+- Evaluating research methodology and evidence quality
 related_templates:
-  - government/Policy Development/policy-impact-assessment.md
-  - government/Policy Development/policy-options-development.md
-  - government/Policy Development/policy-implementation-planning.md
-  - government/Policy Development/policy-research-overview.md
+- government/Policy Development/policy-impact-assessment.md
+- government/Policy Development/policy-options-development.md
+- government/Policy Development/policy-implementation-planning.md
+- government/Policy Development/policy-research-overview.md
 last_updated: 2025-11-09
+industries:
+- education
+- government
+- healthcare
 ---
 
 # Policy Research & Analysis

@@ -18,6 +18,10 @@ use_cases:
   compliance, and outcome measurement for virtual healthcare delivery.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- government
+- healthcare
 ---
 
 # Telemedicine & Virtual Care Delivery Framework

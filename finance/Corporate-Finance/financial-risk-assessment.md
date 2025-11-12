@@ -1,16 +1,21 @@
 ---
 title: Financial Risk Assessment & Scenario Analysis
 category: finance/Corporate-Finance
-tags: [business, finance, risk-management, scenario-analysis]
+tags:
+- finance
+- risk-management
 use_cases:
-  - Identifying and quantifying financial risks
-  - Conducting scenario and sensitivity analysis
-  - Developing risk mitigation strategies
+- Identifying and quantifying financial risks
+- Conducting scenario and sensitivity analysis
+- Developing risk mitigation strategies
 related_templates:
-  - finance/Corporate-Finance/financial-statement-analysis.md
-  - finance/Corporate-Finance/financial-forecasting.md
-  - finance/Corporate-Finance/financial-valuation-recommendations.md
+- finance/Corporate-Finance/financial-statement-analysis.md
+- finance/Corporate-Finance/financial-forecasting.md
+- finance/Corporate-Finance/financial-valuation-recommendations.md
 last_updated: 2025-11-09
+industries:
+- finance
+- government
 ---
 
 # Financial Risk Assessment & Scenario Analysis

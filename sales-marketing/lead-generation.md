@@ -7,12 +7,10 @@ related_templates:
 - operations/lean-six-sigma-implementation.md
 tags:
 - automation
-- business
 - design
-- machine-learning
+- ai-ml
 - marketing
 - optimization
-- template
 - testing
 title: Lead Generation Template Generator
 use_cases:
@@ -20,6 +18,11 @@ use_cases:
   and nurturing to build a robust sales pipeline and drive revenue growth.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- government
+- manufacturing
+- retail
 ---
 
 # Lead Generation Template Generator

@@ -6,7 +6,7 @@ related_templates:
 - finance/digital-banking-strategy.md
 - finance/risk-management-framework.md
 tags:
-- data-science
+- ai-ml
 - finance
 - framework
 - management
@@ -19,6 +19,9 @@ use_cases:
   and customer experience optimization.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- government
 ---
 
 # Retail Banking Operations & Customer Management Framework

@@ -10,16 +10,14 @@ tags:
 - automation
 - data-analytics
 - infrastructure
-- terraform
-- kubernetes
-- performance
-- scaling
 title: Pipeline Infrastructure & Performance Template
 use_cases:
 - Implementing pipeline performance optimization strategies
 - Designing infrastructure as code with Terraform for data platforms
 - Deploying containerized pipelines with Kubernetes orchestration
 - Building auto-scaling and resource management systems
+industries:
+- technology
 ---
 
 # Pipeline Infrastructure & Performance Template

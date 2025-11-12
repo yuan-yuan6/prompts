@@ -1,13 +1,24 @@
 ---
 title: Content Production & Media Creation Framework
 category: technology
-tags: [automation, communication, design, development, framework, industry, marketing, strategy]
+tags:
+- automation
+- communication
+- design
+- development
+- framework
+- marketing
+- strategy
 use_cases:
-  - Creating comprehensive framework for producing digital content and media including video production, streaming content, podcast creation, content strategy, audience engagement, distribution planning, and monetization for entertainment platforms.
-
-  - Project planning and execution
-  - Strategy development
+- Creating comprehensive framework for producing digital content and media including
+  video production, streaming content, podcast creation, content strategy, audience
+  engagement, distribution planning, and monetization for entertainment platforms.
+- Project planning and execution
+- Strategy development
 last_updated: 2025-11-09
+industries:
+- manufacturing
+- technology
 ---
 
 # Content Production & Media Creation Framework

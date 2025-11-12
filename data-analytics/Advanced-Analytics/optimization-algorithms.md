@@ -8,7 +8,7 @@ related_templates:
 tags:
 - data-analytics
 - framework
-- machine-learning
+- ai-ml
 - optimization
 - research
 - testing
@@ -19,6 +19,10 @@ use_cases:
   real-world application of operations research techniques.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- manufacturing
+- technology
 ---
 
 # Optimization Algorithms & Operations Research Framework

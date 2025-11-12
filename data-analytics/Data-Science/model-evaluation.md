@@ -7,10 +7,9 @@ related_templates:
 - data-analytics/predictive-modeling-framework.md
 tags:
 - data-analytics
-- data-science
+- ai-ml
 - design
 - framework
-- machine-learning
 - optimization
 - research
 - security
@@ -21,6 +20,12 @@ use_cases:
   machine learning applications.
 - Project planning and execution
 - Strategy development
+industries:
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Model Evaluation & Validation Framework Template

@@ -10,12 +10,16 @@ tags:
 - education
 - research
 - testing
-- quality
 title: Literature Review Selection & Quality Assessment
 use_cases:
 - Conducting systematic study selection and screening processes for literature reviews
 - Performing comprehensive quality assessment and risk of bias evaluation
 - Documenting PRISMA-compliant selection procedures and quality ratings
+industries:
+- education
+- government
+- healthcare
+- technology
 ---
 
 # Literature Review Selection & Quality Assessment

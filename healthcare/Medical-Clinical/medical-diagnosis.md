@@ -10,13 +10,15 @@ tags:
 - design
 - documentation
 - healthcare
-- template
 - testing
 title: Medical Diagnosis Template
 use_cases:
 - General application
 - Professional use
 - Project implementation
+industries:
+- government
+- healthcare
 ---
 
 # Medical Diagnosis Template

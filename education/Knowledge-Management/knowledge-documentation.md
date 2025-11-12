@@ -9,10 +9,9 @@ tags:
 - documentation
 - education
 - framework
-- machine-learning
+- ai-ml
 - management
 - strategy
-- testing
 title: Documentation & Wikis Knowledge Framework Generator
 use_cases:
 - Creating comprehensive frameworks for wikis, knowledge bases, FAQs, documentation
@@ -20,6 +19,10 @@ use_cases:
   communities.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- government
+- technology
 ---
 
 # Documentation & Wikis Knowledge Framework Generator

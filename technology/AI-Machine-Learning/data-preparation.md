@@ -8,11 +8,9 @@ related_templates:
 tags:
 - design
 - documentation
-- machine-learning
+- ai-ml
 - security
 - strategy
-- technology
-- template
 - testing
 title: Data Preparation Template
 use_cases:
@@ -21,6 +19,10 @@ use_cases:
   training.
 - Project planning and execution
 - Strategy development
+industries:
+- manufacturing
+- retail
+- technology
 ---
 
 # Data Preparation Template

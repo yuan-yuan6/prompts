@@ -5,14 +5,13 @@ related_templates:
 - nonprofit/program-evaluation.md
 - nonprofit/fundraising-campaign-framework.md
 tags:
-- data-science
+- ai-ml
 - design
 - development
 - framework
 - management
 - marketing
 - nonprofit
-- research
 title: Advocacy Campaign Strategy Framework
 use_cases:
 - Creating comprehensive framework for developing and executing advocacy campaigns
@@ -20,6 +19,12 @@ use_cases:
   and legislative engagement for social change.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- government
+- healthcare
+- manufacturing
+- nonprofit
 ---
 
 # Advocacy Campaign Strategy Framework

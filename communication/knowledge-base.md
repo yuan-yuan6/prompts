@@ -5,19 +5,25 @@ related_templates:
 - communication/meeting-management-framework.md
 - communication/crisis-communication-plan.md
 tags:
-- comprehensive
 - design
 - development
-- machine-learning
+- ai-ml
 - management
 - optimization
-- professional-services
 - security
 title: Comprehensive Knowledge Base Development & Management Template
 use_cases:
 - General application
 - Professional use
 - Project implementation
+industries:
+- education
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Comprehensive Knowledge Base Development & Management Template

@@ -5,8 +5,7 @@ related_templates:
 - operations/Energy-Utilities/plant-operations-management.md
 - operations/Energy-Utilities/smart-grid-implementation.md
 tags:
-- data-science
-- industry
+- ai-ml
 - optimization
 - research
 - strategy
@@ -16,6 +15,13 @@ use_cases:
   for solar, wind, hydro, and emerging renewable technologies.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Renewable Energy System Optimization

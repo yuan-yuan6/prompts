@@ -7,12 +7,11 @@ related_templates:
 - legal-compliance/intellectual-property-management.md
 tags:
 - automation
-- data-science
-- professional-services
+- ai-ml
+- management
 - research
 - security
 - strategy
-- template
 title: Patent Applications Template
 use_cases:
 - Creating comprehensive patent applications, claims drafting, prior art analysis,
@@ -20,6 +19,14 @@ use_cases:
   while meeting legal requirements for novelty, non-obviousness, and utility.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Patent Applications Template

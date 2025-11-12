@@ -18,6 +18,13 @@ use_cases:
   transformation across automotive and transportation sectors.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Electric Vehicle Strategy & Mobility Transformation Framework

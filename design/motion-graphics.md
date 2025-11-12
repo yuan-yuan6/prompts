@@ -10,13 +10,16 @@ tags:
 - development
 - documentation
 - marketing
-- template
 title: Motion Graphics Template
 use_cases:
 - Creating comprehensive motion graphics projects including animations, effects, and
   transitions for digital media, broadcast, and interactive applications.
 - Project planning and execution
 - Strategy development
+industries:
+- healthcare
+- manufacturing
+- retail
 ---
 
 # Motion Graphics Template

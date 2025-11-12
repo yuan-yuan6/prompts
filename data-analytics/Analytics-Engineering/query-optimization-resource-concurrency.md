@@ -7,17 +7,18 @@ related_templates:
 - data-analytics/Analytics-Engineering/query-optimization-overview.md
 tags:
 - data-analytics
-- memory-optimization
-- storage
-- concurrency
-- locking
-- resource-management
 title: Query Optimization - Resource & Concurrency Management
 use_cases:
 - Optimizing memory allocation and buffer pool management
 - Implementing storage I/O optimization strategies
 - Resolving concurrency issues and minimizing locking contention
 - Managing deadlocks and transaction isolation levels
+industries:
+- finance
+- government
+- healthcare
+- retail
+- technology
 ---
 
 # Query Optimization - Resource & Concurrency Management

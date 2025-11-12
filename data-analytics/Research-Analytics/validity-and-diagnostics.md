@@ -9,13 +9,14 @@ tags:
 - data-analytics
 - quality-assurance
 - research
-- validation
-- template
 title: Experimental Validity and Diagnostics
 use_cases:
 - Assess experimental validity through randomization checks, covariate balance, attrition
   analysis, compliance evaluation, contamination detection, and statistical assumption
   verification to ensure reliable causal inference
+industries:
+- education
+- technology
 ---
 
 # Experimental Validity and Diagnostics

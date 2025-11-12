@@ -17,6 +17,11 @@ use_cases:
 - Developing knowledge translation and dissemination strategies
 - Creating stakeholder-specific communication products
 - Planning implementation and real-world application
+industries:
+- education
+- government
+- healthcare
+- technology
 ---
 
 # Literature Review Reporting & Dissemination

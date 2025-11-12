@@ -1,16 +1,26 @@
 ---
 title: Risk Assessment Template
 category: finance/Corporate-Finance
-tags: [business, design, management, security, template, testing]
+tags:
+- design
+- management
+- security
+- testing
 use_cases:
-  - General application
-  - Professional use
-  - Project implementation
+- General application
+- Professional use
+- Project implementation
 related_templates:
-  - finance/Corporate-Finance/treasury-management.md
-  - financial-analysis.md
-  - finance/Corporate-Finance/investment-evaluation.md
+- finance/Corporate-Finance/treasury-management.md
+- financial-analysis.md
+- finance/Corporate-Finance/investment-evaluation.md
 last_updated: 2025-11-09
+industries:
+- finance
+- government
+- healthcare
+- manufacturing
+- technology
 ---
 
 # Risk Assessment Template

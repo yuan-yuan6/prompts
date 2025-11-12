@@ -11,7 +11,6 @@ tags:
 - education
 - research
 - strategy
-- template
 - testing
 title: Data Visualization & Figures Template
 use_cases:
@@ -20,6 +19,12 @@ use_cases:
   understanding, and meet publication standards across diverse research disciplines.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- government
+- healthcare
+- manufacturing
+- technology
 ---
 
 # Data Visualization & Figures Template

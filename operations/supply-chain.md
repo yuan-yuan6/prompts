@@ -6,13 +6,11 @@ related_templates:
 - strategy/digital-transformation-roadmap.md
 - operations/lean-six-sigma-implementation.md
 tags:
-- business
 - design
-- machine-learning
+- ai-ml
 - management
 - optimization
 - strategy
-- template
 title: Supply Chain Management Template Generator
 use_cases:
 - Creating comprehensive supply chain management strategies covering logistics optimization,
@@ -20,6 +18,15 @@ use_cases:
   and cost-effectiveness.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- finance
+- government
+- healthcare
+- manufacturing
+- nonprofit
+- retail
+- technology
 ---
 
 # Supply Chain Management Template Generator

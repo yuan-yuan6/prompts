@@ -9,9 +9,7 @@ tags:
 - design
 - documentation
 - management
-- professional-services
 - strategy
-- template
 title: M&A Support Template
 use_cases:
 - Creating comprehensive merger and acquisition documentation, due diligence frameworks,
@@ -19,6 +17,13 @@ use_cases:
   value while managing legal, financial, and operational risks.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # M&A Support Template

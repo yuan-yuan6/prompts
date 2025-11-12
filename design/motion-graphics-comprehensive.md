@@ -5,11 +5,9 @@ related_templates:
 - content-creation/creative-writing-framework.md
 - content-creation/video-production-pipeline.md
 tags:
-- comprehensive
 - creative
 - design
 - marketing
-- template
 - testing
 title: Motion Graphics Comprehensive Template Generator
 use_cases:
@@ -18,6 +16,13 @@ use_cases:
   platforms and applications.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- finance
+- government
+- healthcare
+- manufacturing
+- technology
 ---
 
 # Motion Graphics Comprehensive Template Generator

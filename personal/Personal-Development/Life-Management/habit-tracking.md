@@ -7,17 +7,21 @@ related_templates:
 - personal/Personal-Development/habit-formation.md
 tags:
 - automation
-- comprehensive
-- data-science
+- ai-ml
 - development
 - personal
 - research
-- template
 title: Comprehensive Habit Tracking System Template
 use_cases:
 - General application
 - Professional use
 - Project implementation
+industries:
+- finance
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Comprehensive Habit Tracking System Template

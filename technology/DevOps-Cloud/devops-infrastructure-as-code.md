@@ -8,17 +8,21 @@ related_templates:
 tags:
 - design
 - development
-- machine-learning
+- ai-ml
 - management
 - security
 - strategy
-- technology
-- template
 title: Infrastructure as Code (IaC) Development Template
 use_cases:
 - General application
 - Professional use
 - Project implementation
+industries:
+- finance
+- government
+- healthcare
+- manufacturing
+- technology
 ---
 
 # Infrastructure as Code (IaC) Development Template

@@ -1,10 +1,26 @@
 ---
 title: Dashboard Design Patterns - Overview & Navigation
 category: data-analytics
-tags: [data-analytics, data-science, design, development, machine-learning, optimization, security, strategy]
+tags:
+- data-analytics
+- ai-ml
+- design
+- development
+- optimization
+- security
+- strategy
 use_cases:
-  - Creating comprehensive dashboard design strategies covering KPI visualization, data presentation patterns, user experience optimization, self-service analytics, mobile responsiveness, and real-time data integration
+- Creating comprehensive dashboard design strategies covering KPI visualization, data
+  presentation patterns, user experience optimization, self-service analytics, mobile
+  responsiveness, and real-time data integration
 last_updated: 2025-11-11
+industries:
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Dashboard Design Patterns - Overview & Navigation

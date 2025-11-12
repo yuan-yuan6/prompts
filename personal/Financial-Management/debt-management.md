@@ -1,13 +1,27 @@
 ---
 title: Debt Management Template
 category: personal/Financial-Management
-tags: [data-science, management, personal, research, strategy, template]
+tags:
+- ai-ml
+- management
+- personal
+- research
+- strategy
 use_cases:
-  - Creating develop effective debt reduction strategies, consolidation plans, and negotiation approaches to eliminate debt efficiently while minimizing interest costs and improving credit scores for long-term financial health.
-
-  - Project planning and execution
-  - Strategy development
+- Creating develop effective debt reduction strategies, consolidation plans, and negotiation
+  approaches to eliminate debt efficiently while minimizing interest costs and improving
+  credit scores for long-term financial health.
+- Project planning and execution
+- Strategy development
 last_updated: 2025-11-09
+industries:
+- education
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Debt Management Template

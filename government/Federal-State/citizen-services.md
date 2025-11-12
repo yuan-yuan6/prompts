@@ -6,13 +6,12 @@ related_templates:
 - government/policy-research-framework.md
 tags:
 - automation
-- data-science
+- ai-ml
 - design
 - development
 - framework
 - government
 - optimization
-- research
 title: Citizen Services & Digital Government Framework
 use_cases:
 - Creating comprehensive framework for designing and implementing citizen-centric
@@ -20,6 +19,9 @@ use_cases:
   citizen engagement platforms, and public service modernization.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- government
 ---
 
 # Citizen Services & Digital Government Framework

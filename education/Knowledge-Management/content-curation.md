@@ -5,12 +5,11 @@ related_templates:
 - education/curriculum-development.md
 - education/curriculum-development-framework.md
 tags:
-- data-science
+- ai-ml
 - design
 - development
 - education
 - framework
-- machine-learning
 - management
 - security
 title: Content Curation & Libraries Management Framework Generator
@@ -20,6 +19,10 @@ use_cases:
   systems for academic, corporate, and public institutions.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- government
+- technology
 ---
 
 # Content Curation & Libraries Management Framework Generator

@@ -1,17 +1,27 @@
 ---
 title: Literature Analysis Template
 category: healthcare/Medical-Research
-tags: [data-science, healthcare, management, research, template]
+tags:
+- ai-ml
+- healthcare
+- management
+- research
 use_cases:
-  - Creating conduct comprehensive literature reviews, meta-analyses, and systematic reviews to synthesize medical evidence and inform clinical practice, research, and healthcare policy decisions.
-
-  - Project planning and execution
-  - Strategy development
+- Creating conduct comprehensive literature reviews, meta-analyses, and systematic
+  reviews to synthesize medical evidence and inform clinical practice, research, and
+  healthcare policy decisions.
+- Project planning and execution
+- Strategy development
 related_templates:
-  - healthcare/telemedicine-platform-design.md
-  - healthcare/patient-care-pathway.md
-  - healthcare/clinical-trials-management.md
+- healthcare/telemedicine-platform-design.md
+- healthcare/patient-care-pathway.md
+- healthcare/clinical-trials-management.md
 last_updated: 2025-11-09
+industries:
+- government
+- healthcare
+- manufacturing
+- technology
 ---
 
 # Literature Analysis Template

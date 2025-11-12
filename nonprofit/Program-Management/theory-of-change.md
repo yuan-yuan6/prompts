@@ -5,10 +5,9 @@ related_templates:
 - nonprofit/program-evaluation.md
 - nonprofit/fundraising-campaign-framework.md
 tags:
-- data-science
+- ai-ml
 - development
 - framework
-- machine-learning
 - nonprofit
 - research
 title: Theory of Change Development Framework
@@ -18,6 +17,11 @@ use_cases:
   frameworks for social impact programs.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- government
+- healthcare
+- nonprofit
 ---
 
 # Theory of Change Development Framework

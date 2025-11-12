@@ -9,7 +9,6 @@ tags:
 - design
 - development
 - framework
-- industry
 title: Customer Loyalty & Rewards Program Framework
 use_cases:
 - Creating comprehensive framework for designing, implementing, and optimizing customer
@@ -17,6 +16,9 @@ use_cases:
   personalization tactics, and roi measurement.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- retail
 ---
 
 # Customer Loyalty & Rewards Program Framework

@@ -9,9 +9,6 @@ related_templates:
 tags:
 - creative
 - design
-- overview
-- navigation
-- guide
 title: UX/UI Design - Overview & Navigation
 use_cases:
 - Understanding the UX/UI design prompt collection

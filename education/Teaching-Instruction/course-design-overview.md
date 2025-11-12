@@ -11,15 +11,14 @@ related_templates:
 - education/Teaching-Instruction/course-quality-evaluation.md
 - education/Teaching-Instruction/course-implementation-plan.md
 tags:
-- course-design
-- overview
-- navigation
 - planning
 title: Course Design Overview & Navigation Guide
 use_cases:
 - Getting started with course design and understanding the process
 - Navigating to specialized course design prompts
 - Quick reference for course design components
+industries:
+- education
 ---
 
 # Course Design Overview & Navigation Guide

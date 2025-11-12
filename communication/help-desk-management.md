@@ -6,18 +6,24 @@ related_templates:
 - communication/crisis-communication-plan.md
 tags:
 - automation
-- comprehensive
 - design
 - development
-- machine-learning
+- ai-ml
 - management
 - optimization
-- professional-services
 title: Comprehensive Help Desk Management & Operations Template
 use_cases:
 - General application
 - Professional use
 - Project implementation
+industries:
+- education
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Comprehensive Help Desk Management & Operations Template

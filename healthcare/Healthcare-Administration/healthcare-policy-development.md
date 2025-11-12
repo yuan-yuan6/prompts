@@ -12,7 +12,6 @@ tags:
 - healthcare
 - optimization
 - security
-- template
 - testing
 title: Healthcare Policy Development Template
 use_cases:
@@ -21,6 +20,10 @@ use_cases:
   quality care delivery across healthcare organizations.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- government
+- healthcare
 ---
 
 # Healthcare Policy Development Template

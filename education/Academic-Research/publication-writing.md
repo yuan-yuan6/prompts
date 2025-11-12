@@ -10,15 +10,18 @@ tags:
 - design
 - development
 - education
-- machine-learning
+- ai-ml
 - optimization
-- research
 title: Academic Publication Writing Generator
 use_cases:
 - Creating comprehensive academic papers, abstracts, conference presentations, and
   peer review responses for scholarly publication and dissemination.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- government
+- healthcare
 ---
 
 # Academic Publication Writing Generator

@@ -1,16 +1,27 @@
 ---
 title: Market Analysis Template Generator
 category: strategy
-tags: [business, data-science, machine-learning, research, strategy, template]
+tags:
+- ai-ml
+- research
+- strategy
 use_cases:
-  - Creating comprehensive market analysis reports covering competitive analysis, SWOT analysis, and market trends to inform strategic decision-making.
-  - Project planning and execution
-  - Strategy development
+- Creating comprehensive market analysis reports covering competitive analysis, SWOT
+  analysis, and market trends to inform strategic decision-making.
+- Project planning and execution
+- Strategy development
 related_templates:
-  - strategy/okr-implementation-framework.md
-  - strategy/digital-transformation-roadmap.md
-  - operations/lean-six-sigma-implementation.md
+- strategy/okr-implementation-framework.md
+- strategy/digital-transformation-roadmap.md
+- operations/lean-six-sigma-implementation.md
 last_updated: 2025-11-09
+industries:
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Market Analysis Template Generator

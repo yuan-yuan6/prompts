@@ -4,18 +4,22 @@ last_updated: 2025-11-09
 related_templates:
 - operations/Manufacturing/quality-management.md
 tags:
-- data-science
+- ai-ml
 - design
-- industry
 - optimization
 - research
-- template
 - testing
 title: Lean Manufacturing Implementation
 use_cases:
 - Implementing comprehensive lean manufacturing systems and waste elimination strategies
 - Continuous improvement frameworks and operational excellence initiatives
 - Maximizing efficiency, quality, and value creation
+industries:
+- finance
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Lean Manufacturing Implementation

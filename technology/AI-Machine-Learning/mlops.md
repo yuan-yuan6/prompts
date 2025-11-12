@@ -9,11 +9,10 @@ tags:
 - automation
 - design
 - development
-- machine-learning
+- ai-ml
 - management
 - optimization
 - security
-- strategy
 title: MLOps Template
 use_cases:
 - Creating implement comprehensive mlops practices including ci/cd pipelines, model
@@ -21,6 +20,9 @@ use_cases:
   machine learning systems.
 - Project planning and execution
 - Strategy development
+industries:
+- manufacturing
+- technology
 ---
 
 # MLOps Template

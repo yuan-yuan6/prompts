@@ -1,13 +1,24 @@
 ---
 title: Email Writing Template
 category: personal/Communication-Skills
-tags: [communication, design, personal, template, testing]
+tags:
+- communication
+- design
+- personal
+- testing
 use_cases:
-  - Creating effective email communication including professional correspondence, persuasive messages, and personal communications that achieve desired outcomes and maintain strong relationships.
-
-  - Project planning and execution
-  - Strategy development
+- Creating effective email communication including professional correspondence, persuasive
+  messages, and personal communications that achieve desired outcomes and maintain
+  strong relationships.
+- Project planning and execution
+- Strategy development
 last_updated: 2025-11-09
+industries:
+- finance
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Email Writing Template

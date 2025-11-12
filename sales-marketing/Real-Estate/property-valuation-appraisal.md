@@ -6,10 +6,8 @@ related_templates:
 - sales-marketing/Real-Estate/construction-project-planning.md
 tags:
 - automation
-- data-science
-- industry
+- ai-ml
 - research
-- template
 title: Property Valuation & Appraisal Template
 use_cases:
 - Creating comprehensive property valuation reports, appraisal analyses, market assessments,
@@ -17,6 +15,11 @@ use_cases:
   commercial, and specialty properties using industry-standard methodologies.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- government
+- manufacturing
+- retail
 ---
 
 # Property Valuation & Appraisal Template

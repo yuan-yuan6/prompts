@@ -8,16 +8,15 @@ related_templates:
 tags:
 - research
 - design
-- theory
-- methodology
 - framework
-- foundation
-- paradigm
 title: Research Design Foundation - Theoretical Framework & Design Selection
 use_cases:
 - Developing theoretical frameworks and research foundations for academic studies
 - Selecting appropriate research paradigms and design methodologies
 - Building conceptual models and establishing epistemological foundations
+industries:
+- education
+- healthcare
 ---
 
 # Research Design Foundation - Theoretical Framework & Design Selection

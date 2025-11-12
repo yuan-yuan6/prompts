@@ -6,11 +6,9 @@ related_templates:
 - strategy/digital-transformation-roadmap.md
 - operations/lean-six-sigma-implementation.md
 tags:
-- business
-- data-science
+- ai-ml
 - design
 - framework
-- machine-learning
 - optimization
 - research
 - strategy
@@ -21,6 +19,12 @@ use_cases:
   cultural change, and business model innovation.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Digital Transformation Strategy & Implementation Framework

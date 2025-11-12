@@ -9,7 +9,7 @@ tags:
 - design
 - development
 - framework
-- machine-learning
+- ai-ml
 - nonprofit
 title: Social Impact Measurement & Evaluation Framework
 use_cases:
@@ -18,6 +18,11 @@ use_cases:
   and stakeholder reporting.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- finance
+- government
+- nonprofit
 ---
 
 # Social Impact Measurement & Evaluation Framework

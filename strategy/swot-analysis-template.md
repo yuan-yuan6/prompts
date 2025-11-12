@@ -1,13 +1,27 @@
 ---
 title: SWOT Analysis Strategic Assessment Framework
 category: strategy
-tags: [business, data-science, framework, marketing, research, strategy, testing]
+tags:
+- ai-ml
+- framework
+- marketing
+- research
+- strategy
+- testing
 use_cases:
-  - Creating comprehensive framework for conducting swot analysis including strengths assessment, weaknesses identification, opportunities exploration, threats evaluation, and strategic action planning for competitive positioning and decision-making.
-
-  - Project planning and execution
-  - Strategy development
+- Creating comprehensive framework for conducting swot analysis including strengths
+  assessment, weaknesses identification, opportunities exploration, threats evaluation,
+  and strategic action planning for competitive positioning and decision-making.
+- Project planning and execution
+- Strategy development
 last_updated: 2025-11-09
+industries:
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # SWOT Analysis Strategic Assessment Framework

@@ -1,15 +1,28 @@
 ---
 title: Site Analysis Template
 category: sales-marketing
-tags: [data-science, design, development, industry, research, strategy, template]
+tags:
+- ai-ml
+- design
+- development
+- research
+- strategy
 use_cases:
-  - Creating comprehensive site analysis reports, feasibility studies, development potential assessments, and investment evaluations that inform strategic real estate development decisions and maximize property value.
-  - Project planning and execution
-  - Strategy development
+- Creating comprehensive site analysis reports, feasibility studies, development potential
+  assessments, and investment evaluations that inform strategic real estate development
+  decisions and maximize property value.
+- Project planning and execution
+- Strategy development
 related_templates:
-  - sales-marketing/Real-Estate/property-management-system.md
-  - sales-marketing/Real-Estate/construction-project-planning.md
+- sales-marketing/Real-Estate/property-management-system.md
+- sales-marketing/Real-Estate/construction-project-planning.md
 last_updated: 2025-11-09
+industries:
+- finance
+- government
+- healthcare
+- retail
+- technology
 ---
 
 # Site Analysis Template

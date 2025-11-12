@@ -6,12 +6,11 @@ related_templates:
 - healthcare/patient-care-pathway.md
 - healthcare/clinical-trials-management.md
 tags:
-- data-science
+- ai-ml
 - design
 - healthcare
 - marketing
 - research
-- template
 title: Community Health Programs Template
 use_cases:
 - Creating comprehensive community health initiatives, prevention programs, health
@@ -19,6 +18,11 @@ use_cases:
   of health and improve health outcomes at the community level.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- government
+- healthcare
+- nonprofit
 ---
 
 # Community Health Programs Template

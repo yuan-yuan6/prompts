@@ -9,15 +9,13 @@ related_templates:
 - data-analytics/Analytics-Engineering/query-optimization-resource-concurrency.md
 tags:
 - data-analytics
-- query-optimization
-- performance
-- overview
-- navigation
 title: Query Optimization - Overview & Navigation
 use_cases:
 - Navigating comprehensive query optimization strategies
 - Selecting appropriate optimization approach based on performance symptoms
 - Understanding recommended workflow for database performance tuning
+industries:
+- technology
 ---
 
 # Query Optimization - Overview & Navigation

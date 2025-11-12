@@ -5,10 +5,9 @@ related_templates:
 - media-journalism/content-strategy.md
 tags:
 - creative
-- data-science
+- ai-ml
 - development
 - framework
-- machine-learning
 - marketing
 - research
 - strategy
@@ -19,6 +18,9 @@ use_cases:
   distribution strategies for media organizations and content creators.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- manufacturing
 ---
 
 # Podcasting Strategy & Production Framework

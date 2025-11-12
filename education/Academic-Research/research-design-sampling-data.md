@@ -7,16 +7,16 @@ related_templates:
 - education/Academic-Research/research-design-overview.md
 tags:
 - research
-- sampling
-- data-collection
-- recruitment
-- instrumentation
-- measurement
 title: Research Design - Sampling Strategy & Data Collection
 use_cases:
 - Developing comprehensive sampling strategies and recruitment plans
 - Designing data collection protocols and instrumentation
 - Planning multi-source data integration and technology-enhanced collection
+industries:
+- education
+- government
+- healthcare
+- nonprofit
 ---
 
 # Research Design - Sampling Strategy & Data Collection

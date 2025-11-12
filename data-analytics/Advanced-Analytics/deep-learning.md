@@ -11,9 +11,8 @@ tags:
 - design
 - development
 - framework
-- machine-learning
+- ai-ml
 - strategy
-- testing
 title: Deep Learning & Neural Network Implementation Framework
 use_cases:
 - Creating comprehensive framework for designing, training, deploying, and optimizing
@@ -21,6 +20,9 @@ use_cases:
   training, and production deployment.
 - Project planning and execution
 - Strategy development
+industries:
+- manufacturing
+- technology
 ---
 
 # Deep Learning & Neural Network Implementation Framework

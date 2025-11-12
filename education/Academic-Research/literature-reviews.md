@@ -6,11 +6,10 @@ related_templates:
 - education/curriculum-development-framework.md
 tags:
 - communication
-- data-science
+- ai-ml
 - education
 - research
 - strategy
-- template
 - testing
 title: Literature Reviews Template Generator
 use_cases:
@@ -20,6 +19,12 @@ use_cases:
   foundations for academic inquiry and evidence-based practice.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- government
+- healthcare
+- manufacturing
+- technology
 ---
 
 # Literature Reviews Template Generator

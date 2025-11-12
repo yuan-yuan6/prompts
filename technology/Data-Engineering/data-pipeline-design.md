@@ -9,7 +9,6 @@ tags:
 - automation
 - design
 - optimization
-- technology
 - testing
 title: Data Pipeline Design Document Generator
 use_cases:
@@ -17,6 +16,13 @@ use_cases:
   flow, and implementation of data processing systems.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Data Pipeline Design Document Generator

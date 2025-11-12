@@ -12,8 +12,6 @@ tags:
 - optimization
 - security
 - strategy
-- technology
-- template
 title: Testing & QA Template
 use_cases:
 - Creating design comprehensive testing strategies including unit tests, integration
@@ -21,6 +19,12 @@ use_cases:
   assurance processes.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- government
+- manufacturing
+- retail
+- technology
 ---
 
 # Testing & QA Template

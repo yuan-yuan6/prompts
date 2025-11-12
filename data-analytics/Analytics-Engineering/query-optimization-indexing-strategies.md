@@ -1,16 +1,21 @@
 ---
 title: Query Optimization - Indexing Strategies
 category: data-analytics/Analytics-Engineering
-tags: [data-analytics, indexing, performance, database-design, optimization]
+tags:
+- data-analytics
+- optimization
 use_cases:
-  - Designing comprehensive indexing strategies for optimal query performance
-  - Analyzing index effectiveness and identifying optimization opportunities
-  - Implementing automated index maintenance procedures
+- Designing comprehensive indexing strategies for optimal query performance
+- Analyzing index effectiveness and identifying optimization opportunities
+- Implementing automated index maintenance procedures
 related_templates:
-  - data-analytics/Analytics Engineering/query-optimization-baseline-analysis.md
-  - data-analytics/Analytics Engineering/query-optimization-query-rewriting.md
-  - data-analytics/Analytics Engineering/query-optimization-overview.md
+- data-analytics/Analytics Engineering/query-optimization-baseline-analysis.md
+- data-analytics/Analytics Engineering/query-optimization-query-rewriting.md
+- data-analytics/Analytics Engineering/query-optimization-overview.md
 last_updated: 2025-11-10
+industries:
+- manufacturing
+- technology
 ---
 
 # Query Optimization - Indexing Strategies

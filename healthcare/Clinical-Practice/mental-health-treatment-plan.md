@@ -1,16 +1,19 @@
 ---
 title: Mental Health Treatment Plan
 category: healthcare/Clinical-Practice
-tags: [healthcare, mental-health, psychiatry, behavioral-health, therapy, template]
+tags:
+- healthcare
 use_cases:
-  - Developing comprehensive mental health treatment plans
-  - Creating integrated psychiatric and psychotherapeutic interventions
-  - Managing behavioral health conditions with evidence-based approaches
+- Developing comprehensive mental health treatment plans
+- Creating integrated psychiatric and psychotherapeutic interventions
+- Managing behavioral health conditions with evidence-based approaches
 related_templates:
-  - healthcare/Clinical Practice/chronic-disease-management-plan.md
-  - healthcare/Clinical Practice/acute-care-treatment-plan.md
-  - healthcare/patient-care-pathway.md
+- healthcare/Clinical Practice/chronic-disease-management-plan.md
+- healthcare/Clinical Practice/acute-care-treatment-plan.md
+- healthcare/patient-care-pathway.md
 last_updated: 2025-11-09
+industries:
+- healthcare
 ---
 
 # Mental Health Treatment Plan

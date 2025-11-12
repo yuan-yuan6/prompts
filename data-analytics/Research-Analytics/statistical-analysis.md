@@ -1,17 +1,27 @@
 ---
 title: Statistical Analysis and Inference Template
 category: data-analytics/Research-Analytics
-tags: [data-analytics, data-science, design, machine-learning, research, template]
+tags:
+- data-analytics
+- ai-ml
+- design
+- research
 use_cases:
-  - Creating conduct comprehensive statistical analysis and inference to test hypotheses, estimate parameters, make predictions, and draw valid conclusions from data using advanced statistical methods and frameworks.
-
-  - Project planning and execution
-  - Strategy development
+- Creating conduct comprehensive statistical analysis and inference to test hypotheses,
+  estimate parameters, make predictions, and draw valid conclusions from data using
+  advanced statistical methods and frameworks.
+- Project planning and execution
+- Strategy development
 related_templates:
-  - data-analytics/dashboard-design-patterns.md
-  - data-analytics/data-governance-framework.md
-  - data-analytics/predictive-modeling-framework.md
+- data-analytics/dashboard-design-patterns.md
+- data-analytics/data-governance-framework.md
+- data-analytics/predictive-modeling-framework.md
 last_updated: 2025-11-09
+industries:
+- education
+- government
+- healthcare
+- technology
 ---
 
 # Statistical Analysis and Inference Template

@@ -7,11 +7,9 @@ related_templates:
 tags:
 - automation
 - communication
-- comprehensive
 - creative
 - design
 - development
-- template
 title: Screenwriting Comprehensive Template Generator
 use_cases:
 - Creating comprehensive screenwriting solutions covering films, television, web series,
@@ -19,6 +17,11 @@ use_cases:
   and formats.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- finance
+- manufacturing
+- technology
 ---
 
 # Screenwriting Comprehensive Template Generator

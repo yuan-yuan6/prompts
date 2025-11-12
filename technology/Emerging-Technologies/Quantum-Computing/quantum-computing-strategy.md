@@ -7,10 +7,9 @@ tags:
 - design
 - development
 - framework
-- machine-learning
+- ai-ml
 - optimization
 - strategy
-- technology
 title: Quantum Computing Strategy & Implementation Framework
 use_cases:
 - Creating comprehensive framework for developing quantum computing strategies including
@@ -18,6 +17,12 @@ use_cases:
   development, and integration with classical computing systems.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- finance
+- government
+- manufacturing
+- technology
 ---
 
 # Quantum Computing Strategy & Implementation Framework

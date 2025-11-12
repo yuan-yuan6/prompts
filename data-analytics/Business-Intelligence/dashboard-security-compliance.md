@@ -7,15 +7,18 @@ related_templates:
 - data-analytics/Business-Intelligence/dashboard-design-overview.md
 tags:
 - data-analytics
-- business-intelligence
 - security
 - compliance
-- governance
 title: Dashboard Security, Governance & Compliance
 use_cases:
 - Security architecture design
 - Compliance framework implementation
 - Access control configuration
+industries:
+- finance
+- government
+- healthcare
+- technology
 ---
 
 # Dashboard Security, Governance & Compliance

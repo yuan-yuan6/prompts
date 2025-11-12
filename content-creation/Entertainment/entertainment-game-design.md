@@ -7,10 +7,9 @@ related_templates:
 tags:
 - automation
 - creative
-- data-science
+- ai-ml
 - design
 - development
-- machine-learning
 - research
 - strategy
 title: Game Design Template
@@ -20,6 +19,10 @@ use_cases:
   player experiences.
 - Project planning and execution
 - Strategy development
+industries:
+- healthcare
+- manufacturing
+- retail
 ---
 
 # Game Design Template

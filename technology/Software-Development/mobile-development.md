@@ -6,11 +6,10 @@ related_templates:
 - technology/site-reliability-engineering.md
 - technology/cloud-migration-strategy.md
 tags:
-- data-science
+- ai-ml
 - design
 - development
 - framework
-- machine-learning
 - management
 - optimization
 - strategy
@@ -21,6 +20,9 @@ use_cases:
   and app store deployment.
 - Project planning and execution
 - Strategy development
+industries:
+- government
+- technology
 ---
 
 # Mobile Application Development Framework

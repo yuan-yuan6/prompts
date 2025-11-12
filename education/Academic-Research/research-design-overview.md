@@ -10,15 +10,15 @@ related_templates:
 tags:
 - research
 - design
-- overview
-- navigation
-- methodology
-- suite
 title: Research Design Suite - Complete Overview & Navigation
 use_cases:
 - Navigating the comprehensive research design prompt suite
 - Selecting appropriate sub-prompts for specific research needs
 - Understanding the research design development process
+industries:
+- education
+- government
+- technology
 ---
 
 # Research Design Suite - Complete Overview & Navigation

@@ -1,16 +1,19 @@
 ---
 title: Chronic Disease Management Plan
 category: healthcare/Clinical-Practice
-tags: [healthcare, chronic-care, disease-management, long-term-care, template]
+tags:
+- healthcare
 use_cases:
-  - Developing comprehensive management plans for chronic diseases
-  - Creating long-term care strategies with lifestyle modifications
-  - Managing patients with multiple chronic conditions
+- Developing comprehensive management plans for chronic diseases
+- Creating long-term care strategies with lifestyle modifications
+- Managing patients with multiple chronic conditions
 related_templates:
-  - healthcare/Clinical Practice/acute-care-treatment-plan.md
-  - healthcare/Clinical Practice/mental-health-treatment-plan.md
-  - healthcare/patient-care-pathway.md
+- healthcare/Clinical Practice/acute-care-treatment-plan.md
+- healthcare/Clinical Practice/mental-health-treatment-plan.md
+- healthcare/patient-care-pathway.md
 last_updated: 2025-11-09
+industries:
+- healthcare
 ---
 
 # Chronic Disease Management Plan

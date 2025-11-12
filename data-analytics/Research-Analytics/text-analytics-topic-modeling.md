@@ -8,19 +8,15 @@ related_templates:
 tags:
 - automation
 - data-analytics
-- data-science
-- machine-learning
-- nlp
-- topic-modeling
-- lda
-- bertopic
-- template
+- ai-ml
 title: Text Analytics - Topic Modeling
 use_cases:
 - Discover latent topics in large document collections using LDA, NMF, HDP, and BERTopic
   algorithms.
 - Track topic evolution over time to understand how themes change in dynamic datasets.
 - Evaluate and compare topic models to select the optimal number of topics for interpretability.
+industries:
+- technology
 ---
 
 # Text Analytics - Topic Modeling

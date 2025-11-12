@@ -8,7 +8,6 @@ related_templates:
 tags:
 - design
 - framework
-- industry
 - management
 - optimization
 - strategy
@@ -19,6 +18,12 @@ use_cases:
   transportation, and supply chain visibility.
 - Project planning and execution
 - Strategy development
+industries:
+- finance
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Logistics Optimization & Supply Chain Transportation Framework

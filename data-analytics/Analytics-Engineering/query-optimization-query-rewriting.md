@@ -7,15 +7,13 @@ related_templates:
 - data-analytics/Analytics-Engineering/query-optimization-overview.md
 tags:
 - data-analytics
-- sql
-- query-optimization
-- performance
-- execution-plans
 title: Query Optimization - Query Rewriting & SQL Optimization
 use_cases:
 - Rewriting inefficient SQL queries for improved performance
 - Optimizing execution plans through query restructuring
 - Implementing query hints and advanced SQL patterns for performance
+industries:
+- technology
 ---
 
 # Query Optimization - Query Rewriting & SQL Optimization

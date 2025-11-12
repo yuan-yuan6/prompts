@@ -1,14 +1,21 @@
 ---
 title: Randomization and Power Analysis
 category: data-analytics/Research-Analytics
-tags: [automation, data-analytics, research, statistics, template]
+tags:
+- automation
+- data-analytics
+- research
 use_cases:
-  - Plan and execute randomization procedures, calculate sample sizes, and perform comprehensive power analyses for experimental studies to ensure adequate statistical power and valid treatment allocation
+- Plan and execute randomization procedures, calculate sample sizes, and perform comprehensive
+  power analyses for experimental studies to ensure adequate statistical power and
+  valid treatment allocation
 related_templates:
-  - data-analytics/Research Analytics/experimental-design-setup.md
-  - data-analytics/Research Analytics/treatment-effect-analysis.md
-  - data-analytics/Research Analytics/validity-and-diagnostics.md
+- data-analytics/Research Analytics/experimental-design-setup.md
+- data-analytics/Research Analytics/treatment-effect-analysis.md
+- data-analytics/Research Analytics/validity-and-diagnostics.md
 last_updated: 2025-11-10
+industries:
+- technology
 ---
 
 # Randomization and Power Analysis

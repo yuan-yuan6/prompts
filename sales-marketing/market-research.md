@@ -6,10 +6,8 @@ related_templates:
 - strategy/digital-transformation-roadmap.md
 - operations/lean-six-sigma-implementation.md
 tags:
-- business
-- data-science
+- ai-ml
 - research
-- template
 title: Market Research Template Generator
 use_cases:
 - Creating comprehensive market research strategies covering surveys, analysis, and
@@ -17,6 +15,13 @@ use_cases:
   landscape, and business opportunities.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
 ---
 
 # Market Research Template Generator

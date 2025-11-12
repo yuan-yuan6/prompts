@@ -10,7 +10,6 @@ tags:
 - documentation
 - management
 - optimization
-- professional-services
 - security
 - strategy
 title: Team Documentation & Knowledge Management Prompt Template
@@ -20,6 +19,14 @@ use_cases:
   knowledge transfer.
 - Project planning and execution
 - Strategy development
+industries:
+- education
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
 ---
 
 # Team Documentation & Knowledge Management Prompt Template
