@@ -14,8 +14,8 @@ use_cases:
 - Handling AI uncertainty and errors gracefully
 - Building trust and transparency in AI products
 related_templates:
-- ai-ml-applications/ai-feature-development.md
-- ai-ml-applications/conversational-ai-chatbots.md
+- ai-ml-applications/AI-Product-Development/ai-feature-development.md
+- ai-ml-applications/LLM-Applications/conversational-ai-chatbots.md
 industries:
 - technology
 - finance

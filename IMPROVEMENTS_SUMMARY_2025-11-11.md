@@ -85,11 +85,11 @@ Comprehensive review and enhancement of the prompts repository, resulting in sig
    - Vulnerability findings, remediation, compliance results
 
 **Healthcare (2)**:
-8. **Clinical Decision Support** (`healthcare/clinical-decision-support.md`)
+8. **Clinical Decision Support** (`clinical-healthcare/clinical-decision-support.md`)
    - 3 examples: Sepsis detection, Medication interactions, Diabetes management
    - CDS workflows, alerts, clinical outcomes
 
-9. **Telemedicine Platform Design** (`healthcare/telemedicine-platform-design.md`)
+9. **Telemedicine Platform Design** (`clinical-healthcare/telemedicine-platform-design.md`)
    - 3 examples: Primary care, Tele-psychiatry, Remote patient monitoring
    - Technology stack, workflows, adoption results
 
@@ -355,8 +355,8 @@ Navigator> exit
 5. `business/Finance & Accounting/Investment & Trading/trading-portfolio-management.md`
 6. `technology/DevOps & Cloud/ci-cd-pipelines.md`
 7. `technology/Cybersecurity/security-audit.md`
-8. `healthcare/clinical-decision-support.md`
-9. `healthcare/telemedicine-platform-design.md`
+8. `clinical-healthcare/clinical-decision-support.md`
+9. `clinical-healthcare/telemedicine-platform-design.md`
 10. `creative/Marketing Creative/ad-copy-comprehensive.md`
 11. `creative/Content Creation/video-scripts.md`
 12. `education/Academic Research/research-design.md`

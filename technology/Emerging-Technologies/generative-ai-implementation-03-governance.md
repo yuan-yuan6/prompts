@@ -1,5 +1,5 @@
 ---
-title: Generative AI Implementation - Part 3: Implementation & Governance
+title: "Generative AI Implementation - Part 3: Implementation & Governance"
 category: technology/Emerging-Technologies
 tags: [automation, governance, security, strategy, technology, template]
 use_cases:

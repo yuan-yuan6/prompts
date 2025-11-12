@@ -15,10 +15,10 @@ use_cases:
   - Reducing pollution, waste, and resource consumption
   - Protecting biodiversity and ecosystems
 related_templates:
-  - sustainability/climate-strategy-net-zero.md
-  - sustainability/carbon-footprint-accounting.md
-  - sustainability/esg-risk-assessment.md
-  - sustainability/circular-economy-strategy.md
+  - sustainability/Climate-Environment/climate-strategy-net-zero.md
+  - sustainability/Climate-Environment/carbon-footprint-accounting.md
+  - sustainability/ESG-Strategy/esg-risk-assessment.md
+  - sustainability/Circular-Economy/circular-economy-strategy.md
 industries:
   - technology
   - finance

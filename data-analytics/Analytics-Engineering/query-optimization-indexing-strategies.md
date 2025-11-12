@@ -9,9 +9,9 @@ use_cases:
 - Analyzing index effectiveness and identifying optimization opportunities
 - Implementing automated index maintenance procedures
 related_templates:
-- data-analytics/Analytics Engineering/query-optimization-baseline-analysis.md
-- data-analytics/Analytics Engineering/query-optimization-query-rewriting.md
-- data-analytics/Analytics Engineering/query-optimization-overview.md
+- data-analytics/Analytics-Engineering/query-optimization-baseline-analysis.md
+- data-analytics/Analytics-Engineering/query-optimization-query-rewriting.md
+- data-analytics/Analytics-Engineering/query-optimization-overview.md
 last_updated: 2025-11-10
 industries:
 - manufacturing

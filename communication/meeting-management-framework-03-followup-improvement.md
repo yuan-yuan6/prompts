@@ -1,13 +1,22 @@
 ---
-title: Meeting Management Framework - Part 1: Follow-up & Improvement
+title: 'Meeting Management Framework - Part 1: Follow-up & Improvement'
 category: communication
-tags: [communication, design, framework, machine-learning, management, optimization, professional-services, strategy]
+tags:
+- communication
+- design
+- framework
+- ai-ml
+- management
+- optimization
+- professional-services
+- strategy
 series: meeting-management-framework
 part: 1 of 1
 related_parts:
-  -
-  - meeting-management-framework-overview.md
+- null
+- meeting-management-framework-overview.md
 last_updated: 2025-11-11
+
 ---
 
 # Meeting Management Framework - Part 1: Follow-up & Improvement

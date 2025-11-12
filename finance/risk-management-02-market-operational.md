@@ -1,5 +1,5 @@
 ---
-title: Risk Management Framework - Part 2: Market & Operational Risk
+title: "Risk Management Framework - Part 2: Market & Operational Risk"
 category: finance
 tags: [design, finance, framework, management, strategy, market-risk, operational-risk]
 use_cases:

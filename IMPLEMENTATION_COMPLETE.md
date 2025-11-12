@@ -24,7 +24,7 @@ Successfully reorganized **250 templates (50% of repository)** from hybrid class
 - **Fixed critical discoverability issue**
 
 **2. Healthcare Wellness Folders Flattened (4 templates)**
-- Eliminated nested `/healthcare/wellness/` structure
+- Eliminated nested `/clinical-healthcare/wellness/` structure
 - Moved templates to main folders with clear naming
 - **Simplified navigation**
 

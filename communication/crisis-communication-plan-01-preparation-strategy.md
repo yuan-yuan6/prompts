@@ -1,14 +1,23 @@
 ---
-title: Crisis Communication Plan - Part 1: Preparation & Strategy
+title: 'Crisis Communication Plan - Part 1: Preparation & Strategy'
 category: communication
-tags: [communication, data-science, development, framework, management, professional-services, research, security]
+tags:
+- communication
+- ai-ml
+- development
+- framework
+- management
+- professional-services
+- research
+- security
 series: crisis-communication-plan
 part: 1 of 3
 related_parts:
-  - crisis-communication-plan-02.md
-  - crisis-communication-plan-03.md
-  - crisis-communication-plan-overview.md
+- crisis-communication-plan-02.md
+- crisis-communication-plan-03.md
+- crisis-communication-plan-overview.md
 last_updated: 2025-11-11
+
 ---
 
 # Crisis Communication Plan - Part 1: Preparation & Strategy

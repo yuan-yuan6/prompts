@@ -509,7 +509,7 @@ See `.templates/QUICK_START_TEMPLATE.md` for full template with examples.
 8. `/home/user/prompts/data-analytics/Business Intelligence/report-generation.md`
 
 ### Overview/Navigation Prompts (Reference These)
-1. `/home/user/prompts/healthcare/Clinical Practice/treatment-planning-overview.md`
+1. `/home/user/prompts/clinical-healthcare/Clinical Practice/treatment-planning-overview.md`
 2. `/home/user/prompts/data-analytics/Business Intelligence/dashboard-design-overview.md`
 
 ---

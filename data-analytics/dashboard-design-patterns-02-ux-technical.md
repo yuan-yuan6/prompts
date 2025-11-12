@@ -1,15 +1,24 @@
 ---
-title: Dashboard Design Patterns - Part 2: UX Design & Technical Implementation
+title: 'Dashboard Design Patterns - Part 2: UX Design & Technical Implementation'
 category: data-analytics
-tags: [data-analytics, data-science, design, development, optimization, technical]
+tags:
+- data-analytics
+- ai-ml
+- design
+- development
+- optimization
+- technical
 use_cases:
-  - Designing data visualizations and KPI presentations, implementing real-time data integration, optimizing user experience and interaction patterns, building technical infrastructure
-  - Data visualization design
-  - Technical implementation
+- Designing data visualizations and KPI presentations, implementing real-time data
+  integration, optimizing user experience and interaction patterns, building technical
+  infrastructure
+- Data visualization design
+- Technical implementation
 related_prompts:
-  - dashboard-design-patterns-01-strategy.md
-  - dashboard-design-patterns-03-deployment.md
+- dashboard-design-patterns-01-strategy.md
+- dashboard-design-patterns-03-deployment.md
 last_updated: 2025-11-11
+
 ---
 
 # Dashboard Design Patterns - Part 2: UX Design & Technical Implementation

@@ -8,10 +8,10 @@ use_cases:
 - Conducting multi-criteria impact analysis
 - Assessing stakeholder effects and distribution
 related_templates:
-- government/Policy Development/policy-research-analysis.md
-- government/Policy Development/policy-options-development.md
-- government/Policy Development/policy-implementation-planning.md
-- government/Policy Development/policy-research-overview.md
+- government/Policy-Development/policy-research-analysis.md
+- government/Policy-Development/policy-options-development.md
+- government/Policy-Development/policy-implementation-planning.md
+- government/Policy-Development/policy-research-overview.md
 last_updated: 2025-11-09
 industries:
 - government

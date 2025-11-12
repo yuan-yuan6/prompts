@@ -15,9 +15,9 @@ use_cases:
   - Evaluating solar, wind, and clean energy options (on-site, PPAs, RECs)
   - Eliminating Scope 2 emissions through renewable energy
 related_templates:
-  - sustainability/climate-strategy-net-zero.md
-  - sustainability/carbon-footprint-accounting.md
-  - sustainability/esg-strategy-framework.md
+  - sustainability/Climate-Environment/climate-strategy-net-zero.md
+  - sustainability/Climate-Environment/carbon-footprint-accounting.md
+  - sustainability/ESG-Strategy/esg-strategy-framework.md
 industries:
   - technology
   - finance

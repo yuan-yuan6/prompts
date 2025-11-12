@@ -64,7 +64,7 @@ related_templates:
 
 # After (fixed):
 related_templates:
-  - healthcare/telemedicine-01-service-technology.md  # ✅ Correct path
+  - clinical-healthcare/telemedicine-01-service-technology.md  # ✅ Correct path
 ```
 
 **Impact:** Dramatically improved navigation reliability across entire database

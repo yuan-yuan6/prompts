@@ -14,9 +14,9 @@ use_cases:
 - Managing supply chain ESG risks and human rights due diligence
 - Developing supplier engagement and capacity building programs
 related_templates:
-- sustainability/circular-economy-strategy.md
-- sustainability/esg-risk-assessment.md
-- legal-compliance/risk-management.md
+- sustainability/Circular-Economy/circular-economy-strategy.md
+- sustainability/ESG-Strategy/esg-risk-assessment.md
+- strategy/risk-management.md
 industries:
 - manufacturing
 - retail

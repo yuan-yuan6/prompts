@@ -212,36 +212,36 @@ Cross-reference view of prompt templates organized by common business scenarios 
 
 ### Healthcare
 
-- **[Clinical Decision Support - Overview & Navigation](/home/user/prompts/healthcare/clinical-decision-support-overview.md)**
+- **[Clinical Decision Support - Overview & Navigation](/home/user/prompts/clinical-healthcare/clinical-decision-support-overview.md)**
   - Tags: design, documentation, healthcare
 
-- **[Clinical Decision Support - Part 1: Clinical Knowledge Base](/home/user/prompts/healthcare/clinical-decision-support-01-knowledge-base.md)**
+- **[Clinical Decision Support - Part 1: Clinical Knowledge Base](/home/user/prompts/clinical-healthcare/clinical-decision-support-01-knowledge-base.md)**
   - Tags: design, documentation, healthcare
 
-- **[Clinical Decision Support - Part 2: Decision Algorithms](/home/user/prompts/healthcare/clinical-decision-support-02-decision-algorithms.md)**
+- **[Clinical Decision Support - Part 2: Decision Algorithms](/home/user/prompts/clinical-healthcare/clinical-decision-support-02-decision-algorithms.md)**
   - Tags: design, documentation, healthcare
 
-- **[Clinical Decision Support - Part 3: Implementation & Integration](/home/user/prompts/healthcare/clinical-decision-support-03-implementation.md)**
+- **[Clinical Decision Support - Part 3: Implementation & Integration](/home/user/prompts/clinical-healthcare/clinical-decision-support-03-implementation.md)**
   - Tags: design, documentation, healthcare
 
-- **[Clinical Decision Support Template Generator](/home/user/prompts/healthcare/clinical-decision-support.md)**
+- **[Clinical Decision Support Template Generator](/home/user/prompts/clinical-healthcare/clinical-decision-support.md)**
   - Tags: design, documentation, healthcare
 
-- **[Clinical Trials Management & Research Protocol Framework](/home/user/prompts/healthcare/clinical-trials-management.md)**
+- **[Clinical Trials Management & Research Protocol Framework](/home/user/prompts/clinical-healthcare/clinical-trials-management.md)**
   - Tags: data-science, design, development
 
-- **[Literature Analysis Template](/home/user/prompts/healthcare/Medical-Research/literature-analysis.md)**
+- **[Literature Analysis Template](/home/user/prompts/clinical-healthcare/Medical-Research/literature-analysis.md)**
   - Tags: data-science, healthcare, management
   - Category: Medical Research
 
-- **[Medical Diagnosis - Comprehensive Prompt Template](/home/user/prompts/healthcare/Medical-Clinical/wellness-medical-diagnosis.md)**
+- **[Medical Diagnosis - Comprehensive Prompt Template](/home/user/prompts/clinical-healthcare/Medical-Clinical/wellness-medical-diagnosis.md)**
   - Tags: comprehensive, data-science, design
   - Category: Medical Clinical
 
-- **[Patient Care Pathway Template](/home/user/prompts/healthcare/patient-care-pathway.md)**
+- **[Patient Care Pathway Template](/home/user/prompts/clinical-healthcare/patient-care-pathway.md)**
   - Tags: data-science, design, healthcare
 
-- **[Workout Programs - Comprehensive Prompt Template](/home/user/prompts/healthcare/Nutrition-Fitness/wellness-workout-programs.md)**
+- **[Workout Programs - Comprehensive Prompt Template](/home/user/prompts/clinical-healthcare/Nutrition-Fitness/wellness-workout-programs.md)**
   - Tags: comprehensive, data-science, design
   - Category: Nutrition Fitness
 
@@ -566,15 +566,15 @@ Cross-reference view of prompt templates organized by common business scenarios 
 
 ### Healthcare
 
-- **[Compliance & Accreditation Management Template](/home/user/prompts/healthcare/Healthcare-Administration/compliance-accreditation.md)**
+- **[Compliance & Accreditation Management Template](/home/user/prompts/clinical-healthcare/Healthcare-Administration/compliance-accreditation.md)**
   - Tags: 
   - Category: Healthcare Administration
 
-- **[Regulatory Submissions Template](/home/user/prompts/healthcare/Medical-Research/regulatory-submissions.md)**
+- **[Regulatory Submissions Template](/home/user/prompts/clinical-healthcare/Medical-Research/regulatory-submissions.md)**
   - Tags: 
   - Category: Medical Research
 
-- **[Telemedicine Platform Design - Part 2: Clinical Quality & Regulatory Compliance](/home/user/prompts/healthcare/telemedicine-02-quality-compliance.md)**
+- **[Telemedicine Platform Design - Part 2: Clinical Quality & Regulatory Compliance](/home/user/prompts/clinical-healthcare/telemedicine-02-quality-compliance.md)**
   - Tags: healthcare, telemedicine, quality
 
 ### Legal-Compliance
@@ -678,7 +678,7 @@ Cross-reference view of prompt templates organized by common business scenarios 
 
 ### Healthcare
 
-- **[Acute Care Treatment Plan](/home/user/prompts/healthcare/Clinical-Practice/acute-care-treatment-plan.md)**
+- **[Acute Care Treatment Plan](/home/user/prompts/clinical-healthcare/Clinical-Practice/acute-care-treatment-plan.md)**
   - Tags: healthcare, emergency, acute-care
   - Category: Clinical Practice
 

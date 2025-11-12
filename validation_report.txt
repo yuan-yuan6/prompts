@@ -1,0 +1,7 @@
+Validation Report
+=================
+
+Total files: 601
+Valid files: 578
+Errors: 51
+Warnings: 182

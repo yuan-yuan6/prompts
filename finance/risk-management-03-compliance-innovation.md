@@ -1,17 +1,29 @@
 ---
-title: Risk Management Framework - Part 3: Compliance & Innovation
+title: 'Risk Management Framework - Part 3: Compliance & Innovation'
 category: finance
-tags: [design, finance, framework, management, strategy, compliance, innovation, machine-learning]
+tags:
+- design
+- finance
+- framework
+- management
+- strategy
+- compliance
+- innovation
+- ai-ml
 use_cases:
-  - Creating comprehensive regulatory compliance, model risk management, and advanced risk analytics strategies including Basel framework implementation, stress testing, AI/ML integration, climate risk, ESG considerations, and fintech innovation for financial institutions.
-  - Implementing regulatory compliance programs
-  - Developing advanced risk analytics capabilities
+- Creating comprehensive regulatory compliance, model risk management, and advanced
+  risk analytics strategies including Basel framework implementation, stress testing,
+  AI/ML integration, climate risk, ESG considerations, and fintech innovation for
+  financial institutions.
+- Implementing regulatory compliance programs
+- Developing advanced risk analytics capabilities
 related_templates:
-  - finance/risk-management-01-foundation-credit.md
-  - finance/risk-management-02-market-operational.md
-  - finance/risk-management-overview.md
+- finance/risk-management-01-foundation-credit.md
+- finance/risk-management-02-market-operational.md
+- finance/risk-management-overview.md
 part: 3 of 3
 last_updated: 2025-11-11
+
 ---
 
 # Risk Management Framework - Part 3: Compliance & Innovation

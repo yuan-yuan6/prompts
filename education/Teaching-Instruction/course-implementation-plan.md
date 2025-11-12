@@ -9,8 +9,8 @@ use_cases:
 - Managing resources and coordinating stakeholders for course launch
 - Executing course development projects from planning through evaluation
 related_templates:
-- education/Teaching & Instruction/course-foundations-objectives.md
-- education/Teaching & Instruction/course-quality-evaluation.md
+- education/Teaching-Instruction/course-foundations-objectives.md
+- education/Teaching-Instruction/course-quality-evaluation.md
 last_updated: 2025-11-09
 industries:
 - education

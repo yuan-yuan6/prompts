@@ -19,7 +19,7 @@ use_cases:
 related_templates:
 - human-resources/talent-acquisition-strategy.md
 - human-resources/hr-performance-management.md
-- sustainability/esg-strategy-framework.md
+- sustainability/ESG-Strategy/esg-strategy-framework.md
 industries:
 - technology
 - finance

@@ -1,5 +1,5 @@
 ---
-title: Regulatory Compliance Framework - Part 1: Foundation & Governance
+title: "Regulatory Compliance Framework - Part 1: Foundation & Governance"
 category: legal-compliance
 tags: [design, framework, management, professional-services, security, template]
 use_cases:

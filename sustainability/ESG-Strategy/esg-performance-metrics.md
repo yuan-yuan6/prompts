@@ -15,10 +15,10 @@ use_cases:
   - Building ESG data management and reporting systems
   - Tracking progress and demonstrating accountability
 related_templates:
-  - sustainability/esg-strategy-framework.md
-  - sustainability/esg-reporting-disclosure.md
-  - sustainability/esg-risk-assessment.md
-  - sustainability/climate-strategy-net-zero.md
+  - sustainability/ESG-Strategy/esg-strategy-framework.md
+  - sustainability/ESG-Strategy/esg-reporting-disclosure.md
+  - sustainability/ESG-Strategy/esg-risk-assessment.md
+  - sustainability/Climate-Environment/climate-strategy-net-zero.md
 industries:
   - technology
   - finance

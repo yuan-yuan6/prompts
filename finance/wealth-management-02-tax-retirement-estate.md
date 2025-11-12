@@ -1,5 +1,5 @@
 ---
-title: Wealth Management Strategy - Part 2: Tax, Retirement & Estate
+title: "Wealth Management Strategy - Part 2: Tax, Retirement & Estate"
 category: finance
 tags: [design, finance, management, optimization, strategy, template]
 related_templates:

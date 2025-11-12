@@ -13,8 +13,8 @@ use_cases:
 - Communicating product direction to executives, customers, and teams
 - Balancing short-term execution with long-term strategic vision
 related_templates:
-- product-management/product-strategy-vision.md
-- product-management/feature-prioritization.md
+- product-management/Product-Strategy/product-strategy-vision.md
+- product-management/Product-Development/feature-prioritization.md
 - strategy/business-planning.md
 - operations/project-management.md
 industries:

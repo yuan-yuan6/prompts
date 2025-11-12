@@ -14,10 +14,10 @@ use_cases:
   - Implementing take-back, refurbishment, and remanufacturing programs
   - Transitioning from linear to circular value chains
 related_templates:
-  - sustainability/waste-reduction-programs.md
-  - sustainability/sustainable-supply-chain.md
-  - sustainability/esg-strategy-framework.md
-  - sustainability/environmental-impact-assessment.md
+  - sustainability/Circular-Economy/waste-reduction-programs.md
+  - sustainability/Circular-Economy/sustainable-supply-chain.md
+  - sustainability/ESG-Strategy/esg-strategy-framework.md
+  - sustainability/Climate-Environment/environmental-impact-assessment.md
 industries:
   - technology
   - retail

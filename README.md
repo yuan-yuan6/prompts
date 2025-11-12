@@ -67,7 +67,7 @@ Investigative reporting, content strategy, digital publishing, audience analytic
 
 ### Industry-Specific
 
-**[healthcare/](healthcare/)** - 49 templates
+**[clinical-healthcare/](clinical-healthcare/)** - 49 templates
 Clinical practice, medical research, healthcare administration, digital health, public health
 
 **[education/](education/)** - 50 templates
@@ -213,10 +213,10 @@ Some templates include additional sections:
 <details>
 <summary><strong>Healthcare & Clinical</strong></summary>
 
-- [Patient Care Plans](healthcare/Medical%20&%20Clinical/patient-care-plans.md)
-- [Clinical Decision Support](healthcare/clinical-decision-support.md)
-- [Medical Diagnosis](healthcare/Medical%20&%20Clinical/medical-diagnosis.md)
-- [Healthcare Policy](healthcare/Healthcare%20Administration/healthcare-policy-development.md)
+- [Patient Care Plans](clinical-healthcare/Medical%20&%20Clinical/patient-care-plans.md)
+- [Clinical Decision Support](clinical-healthcare/clinical-decision-support.md)
+- [Medical Diagnosis](clinical-healthcare/Medical%20&%20Clinical/medical-diagnosis.md)
+- [Healthcare Policy](clinical-healthcare/Healthcare%20Administration/healthcare-policy-development.md)
 
 </details>
 
@@ -225,7 +225,7 @@ Some templates include additional sections:
 ### By Industry
 
 - **Retail & E-commerce**: [industry/retail-ecommerce/](industry/retail-ecommerce/)
-- **Healthcare**: [healthcare/](healthcare/)
+- **Healthcare**: [clinical-healthcare/](clinical-healthcare/)
 - **Finance**: [finance/](finance/)
 - **Technology**: [technology/](technology/)
 - **Manufacturing**: [industry/manufacturing/](industry/manufacturing/)

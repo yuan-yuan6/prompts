@@ -105,7 +105,7 @@
 
 - **Files moved:** 44 templates
 - **Directories created:** 4 new categories
-- **Directories removed:** 3 (technology/Cybersecurity, business/Finance & Accounting, healthcare/wellness)
+- **Directories removed:** 3 (technology/Cybersecurity, business/Finance & Accounting, clinical-healthcare/wellness)
 - **Metadata updated:** 44 templates
 - **Documentation created:** 3 guides (DATABASE_REVIEW, CLASSIFICATION_GUIDE, MIGRATION_PLAN)
 

@@ -40,7 +40,7 @@ Quick Start sections enable users to understand and use a prompt in **5-10 minut
 | **Total Prompts** | 413 | 100% | Complete repository |
 
 **Navigation files (correctly excluded):**
-1. `healthcare/Clinical Practice/treatment-planning-overview.md`
+1. `clinical-healthcare/Clinical Practice/treatment-planning-overview.md`
 2. `business/Finance & Accounting/financial-analysis-overview.md`
 3. `government/Policy Development/policy-research-overview.md`
 4. `creative/Design & Visual/ux-ui-design-overview.md`

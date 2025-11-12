@@ -1,5 +1,5 @@
 ---
-title: Regulatory Compliance Framework - Part 3: Implementation & Reporting
+title: "Regulatory Compliance Framework - Part 3: Implementation & Reporting"
 category: legal-compliance
 tags: [design, framework, management, professional-services, security, template]
 use_cases:

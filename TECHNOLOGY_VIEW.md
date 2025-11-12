@@ -144,22 +144,22 @@ Cross-reference view of prompt templates organized by technology stack and tools
 
 ### Healthcare
 
-- **[Clinical Decision Support - Overview & Navigation](/home/user/prompts/healthcare/clinical-decision-support-overview.md)**
+- **[Clinical Decision Support - Overview & Navigation](/home/user/prompts/clinical-healthcare/clinical-decision-support-overview.md)**
   - Related tags: security
 
-- **[Clinical Decision Support - Part 1: Clinical Knowledge Base](/home/user/prompts/healthcare/clinical-decision-support-01-knowledge-base.md)**
+- **[Clinical Decision Support - Part 1: Clinical Knowledge Base](/home/user/prompts/clinical-healthcare/clinical-decision-support-01-knowledge-base.md)**
   - Related tags: security
 
-- **[Clinical Decision Support - Part 2: Decision Algorithms](/home/user/prompts/healthcare/clinical-decision-support-02-decision-algorithms.md)**
+- **[Clinical Decision Support - Part 2: Decision Algorithms](/home/user/prompts/clinical-healthcare/clinical-decision-support-02-decision-algorithms.md)**
   - Related tags: security
 
-- **[Clinical Decision Support - Part 3: Implementation & Integration](/home/user/prompts/healthcare/clinical-decision-support-03-implementation.md)**
+- **[Clinical Decision Support - Part 3: Implementation & Integration](/home/user/prompts/clinical-healthcare/clinical-decision-support-03-implementation.md)**
   - Related tags: security
 
-- **[Clinical Decision Support Template Generator](/home/user/prompts/healthcare/clinical-decision-support.md)**
+- **[Clinical Decision Support Template Generator](/home/user/prompts/clinical-healthcare/clinical-decision-support.md)**
   - Related tags: security
 
-- **[Patient Care Pathway Template](/home/user/prompts/healthcare/patient-care-pathway.md)**
+- **[Patient Care Pathway Template](/home/user/prompts/clinical-healthcare/patient-care-pathway.md)**
 
 ### Human-Resources
 
@@ -641,7 +641,7 @@ Cross-reference view of prompt templates organized by technology stack and tools
 
 ### Healthcare
 
-- **[Telemedicine & Virtual Care Delivery Framework](/home/user/prompts/healthcare/Digital-Health/telemedicine.md)**
+- **[Telemedicine & Virtual Care Delivery Framework](/home/user/prompts/clinical-healthcare/Digital-Health/telemedicine.md)**
 
 ### Media-Journalism
 
@@ -749,31 +749,31 @@ Cross-reference view of prompt templates organized by technology stack and tools
 
 ### Healthcare
 
-- **[Clinical Decision Support - Overview & Navigation](/home/user/prompts/healthcare/clinical-decision-support-overview.md)**
+- **[Clinical Decision Support - Overview & Navigation](/home/user/prompts/clinical-healthcare/clinical-decision-support-overview.md)**
   - Related tags: security
 
-- **[Clinical Decision Support - Part 1: Clinical Knowledge Base](/home/user/prompts/healthcare/clinical-decision-support-01-knowledge-base.md)**
+- **[Clinical Decision Support - Part 1: Clinical Knowledge Base](/home/user/prompts/clinical-healthcare/clinical-decision-support-01-knowledge-base.md)**
   - Related tags: security
 
-- **[Clinical Decision Support - Part 2: Decision Algorithms](/home/user/prompts/healthcare/clinical-decision-support-02-decision-algorithms.md)**
+- **[Clinical Decision Support - Part 2: Decision Algorithms](/home/user/prompts/clinical-healthcare/clinical-decision-support-02-decision-algorithms.md)**
   - Related tags: security
 
-- **[Clinical Decision Support - Part 3: Implementation & Integration](/home/user/prompts/healthcare/clinical-decision-support-03-implementation.md)**
+- **[Clinical Decision Support - Part 3: Implementation & Integration](/home/user/prompts/clinical-healthcare/clinical-decision-support-03-implementation.md)**
   - Related tags: security
 
-- **[Clinical Decision Support Template Generator](/home/user/prompts/healthcare/clinical-decision-support.md)**
+- **[Clinical Decision Support Template Generator](/home/user/prompts/clinical-healthcare/clinical-decision-support.md)**
   - Related tags: security
 
-- **[Clinical Trials Management & Research Protocol Framework](/home/user/prompts/healthcare/clinical-trials-management.md)**
+- **[Clinical Trials Management & Research Protocol Framework](/home/user/prompts/clinical-healthcare/clinical-trials-management.md)**
   - Related tags: security
 
-- **[Patient Care Management & Clinical Documentation Framework](/home/user/prompts/healthcare/patient-care-management.md)**
+- **[Patient Care Management & Clinical Documentation Framework](/home/user/prompts/clinical-healthcare/patient-care-management.md)**
   - Related tags: security
 
-- **[Patient Care Plans Template](/home/user/prompts/healthcare/Medical-Clinical/patient-care-plans.md)**
+- **[Patient Care Plans Template](/home/user/prompts/clinical-healthcare/Medical-Clinical/patient-care-plans.md)**
   - Related tags: security
 
-- **[Telemedicine Platform Design Template Generator](/home/user/prompts/healthcare/telemedicine-platform-design.md)**
+- **[Telemedicine Platform Design Template Generator](/home/user/prompts/clinical-healthcare/telemedicine-platform-design.md)**
   - Related tags: security
 
 ### Legal-Compliance
@@ -954,13 +954,13 @@ Cross-reference view of prompt templates organized by technology stack and tools
 
 ### Healthcare
 
-- **[Health Education Program Development](/home/user/prompts/healthcare/Public-Health/health-education.md)**
+- **[Health Education Program Development](/home/user/prompts/clinical-healthcare/Public-Health/health-education.md)**
 
-- **[Healthcare Policy Development Template](/home/user/prompts/healthcare/Healthcare-Administration/healthcare-policy-development.md)**
+- **[Healthcare Policy Development Template](/home/user/prompts/clinical-healthcare/Healthcare-Administration/healthcare-policy-development.md)**
 
-- **[Meal Planning Template](/home/user/prompts/healthcare/Nutrition-Fitness/meal-planning.md)**
+- **[Meal Planning Template](/home/user/prompts/clinical-healthcare/Nutrition-Fitness/meal-planning.md)**
 
-- **[Medical Diagnosis - Comprehensive Prompt Template](/home/user/prompts/healthcare/Medical-Clinical/wellness-medical-diagnosis.md)**
+- **[Medical Diagnosis - Comprehensive Prompt Template](/home/user/prompts/clinical-healthcare/Medical-Clinical/wellness-medical-diagnosis.md)**
 
 ### Human-Resources
 

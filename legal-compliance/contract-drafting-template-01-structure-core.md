@@ -1,14 +1,23 @@
 ---
-title: Contract Drafting Template - Part 1: Structure & Core Clauses
+title: 'Contract Drafting Template - Part 1: Structure & Core Clauses'
 category: legal-compliance
-tags: [data-science, management, optimization, professional-services, research, security, strategy, template]
+tags:
+- ai-ml
+- management
+- optimization
+- professional-services
+- research
+- security
+- strategy
+- template
 series: contract-drafting-template
 part: 1 of 3
 related_parts:
-  - contract-drafting-template-02.md
-  - contract-drafting-template-03.md
-  - contract-drafting-template-overview.md
+- contract-drafting-template-02.md
+- contract-drafting-template-03.md
+- contract-drafting-template-overview.md
 last_updated: 2025-11-11
+
 ---
 
 # Contract Drafting Template - Part 1: Structure & Core Clauses

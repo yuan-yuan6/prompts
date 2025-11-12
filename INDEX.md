@@ -321,54 +321,54 @@
 
 ### Healthcare (48)
 
-- [Acute Care Treatment Plan](healthcare/Clinical-Practice/acute-care-treatment-plan.md) - `healthcare/Clinical-Practice`
-- [Case Studies Template](healthcare/Medical-Research/case-studies.md) - `healthcare/Medical-Research`
-- [Chronic Disease Management Plan](healthcare/Clinical-Practice/chronic-disease-management-plan.md) - `healthcare/Clinical-Practice`
-- [Clinical Decision Support - Overview & Navigation](healthcare/clinical-decision-support-overview.md) - `healthcare`
-- [Clinical Decision Support 01 Knowledge Base](healthcare/clinical-decision-support-01-knowledge-base.md) - `healthcare/clinical-decision-support-01-knowledge-base.md`
-- [Clinical Decision Support 02 Decision Algorithms](healthcare/clinical-decision-support-02-decision-algorithms.md) - `healthcare/clinical-decision-support-02-decision-algorithms.md`
-- [Clinical Decision Support 03 Implementation](healthcare/clinical-decision-support-03-implementation.md) - `healthcare/clinical-decision-support-03-implementation.md`
-- [Clinical Decision Support Template](healthcare/Clinical-Practice/clinical-practice-decision-support.md) - `healthcare/Clinical-Practice`
-- [Clinical Decision Support Template Generator](healthcare/clinical-decision-support.md) - `healthcare`
-- [Clinical Trial Management & Research Protocol Framework](healthcare/Clinical/clinical-trial-management.md) - `healthcare/Clinical`
-- [Clinical Trials Management & Research Protocol Framework](healthcare/clinical-trials-management.md) - `healthcare`
-- [Clinical Trials Template](healthcare/Medical-Research/clinical-trials.md) - `healthcare/Medical-Research`
-- [Community Health Programs Template](healthcare/Public-Health/community-health.md) - `healthcare/Public-Health`
-- [Compliance & Accreditation Management Template](healthcare/Healthcare-Administration/compliance-accreditation.md) - `healthcare/Healthcare-Administration`
-- [Disease Prevention Strategy & Implementation](healthcare/Public-Health/disease-prevention.md) - `healthcare/public-health`
-- [Epidemiological Surveillance Template](healthcare/Public-Health/epidemiology.md) - `healthcare/Public-Health`
-- [Health Education Program Development](healthcare/Public-Health/health-education.md) - `healthcare/public-health`
-- [Health Policy & Advocacy Template](healthcare/Public-Health/health-policy.md) - `healthcare/Public-Health`
-- [Healthcare Policy Development Template](healthcare/Healthcare-Administration/healthcare-policy-development.md) - `healthcare/Healthcare-Administration`
-- [Healthcare Revenue Cycle Management Framework](healthcare/Healthcare-Operations/revenue-cycle.md) - `healthcare/Healthcare-Operations`
-- [Literature Analysis Template](healthcare/Medical-Research/literature-analysis.md) - `healthcare/Medical-Research`
-- [Meal Planning - Comprehensive Prompt Template](healthcare/Nutrition-Fitness/wellness-meal-planning.md) - `healthcare/Nutrition-Fitness`
-- [Meal Planning Template](healthcare/Nutrition-Fitness/meal-planning.md) - `healthcare/Nutrition-Fitness`
-- [Medical Diagnosis - Comprehensive Prompt Template](healthcare/Medical-Clinical/wellness-medical-diagnosis.md) - `healthcare/Medical-Clinical`
-- [Medical Diagnosis Template](healthcare/Medical-Clinical/medical-diagnosis.md) - `healthcare/Medical-Clinical`
-- [Mental Health Treatment Plan](healthcare/Clinical-Practice/mental-health-treatment-plan.md) - `healthcare/Clinical-Practice`
-- [Patient Care Management & Clinical Documentation Framework](healthcare/patient-care-management.md) - `healthcare`
-- [Patient Care Pathway Template](healthcare/patient-care-pathway.md) - `healthcare`
-- [Patient Care Plans - Comprehensive Prompt Template](healthcare/Medical-Clinical/wellness-patient-care-plans.md) - `healthcare/Medical-Clinical`
-- [Patient Care Plans Template](healthcare/Medical-Clinical/patient-care-plans.md) - `healthcare/Medical-Clinical`
-- [Patient Communication Template](healthcare/Clinical-Practice/patient-communication.md) - `healthcare/Clinical-Practice`
-- [Patient Documentation Template](healthcare/Clinical-Practice/patient-documentation.md) - `healthcare/Clinical-Practice`
-- [Patient Safety Programs Template](healthcare/Healthcare-Administration/patient-safety.md) - `healthcare/Healthcare-Administration`
-- [Publication Preparation Template](healthcare/Medical-Research/publication-preparation.md) - `healthcare/Medical-Research`
-- [Quality Improvement Programs Template](healthcare/Healthcare-Administration/quality-improvement.md) - `healthcare/Healthcare-Administration`
-- [Referrals and Consultations Template](healthcare/Clinical-Practice/referrals-consultations.md) - `healthcare/Clinical-Practice`
-- [Regulatory Submissions Template](healthcare/Medical-Research/regulatory-submissions.md) - `healthcare/Medical-Research`
-- [Resource Management Optimization Template](healthcare/Healthcare-Administration/healthcare-resource-management.md) - `healthcare/Healthcare-Administration`
-- [Surgical Treatment Plan](healthcare/Clinical-Practice/surgical-treatment-plan.md) - `healthcare/Clinical-Practice`
-- [Telemedicine & Virtual Care Delivery Framework](healthcare/Digital-Health/telemedicine.md) - `healthcare/Digital-Health`
-- [Telemedicine 01 Service Technology](healthcare/telemedicine-01-service-technology.md) - `healthcare/telemedicine-01-service-technology.md`
-- [Telemedicine 02 Quality Compliance](healthcare/telemedicine-02-quality-compliance.md) - `healthcare/telemedicine-02-quality-compliance.md`
-- [Telemedicine 03 Implementation Scaling](healthcare/telemedicine-03-implementation-scaling.md) - `healthcare/telemedicine-03-implementation-scaling.md`
-- [Telemedicine Platform Design - Overview & Navigation](healthcare/telemedicine-overview.md) - `healthcare`
-- [Telemedicine Platform Design Template Generator](healthcare/telemedicine-platform-design.md) - `healthcare`
-- [Treatment Planning Overview](healthcare/Clinical-Practice/treatment-planning-overview.md) - `healthcare/Clinical-Practice`
-- [Workout Programs - Comprehensive Prompt Template](healthcare/Nutrition-Fitness/wellness-workout-programs.md) - `healthcare/Nutrition-Fitness`
-- [Workout Programs Template](healthcare/Nutrition-Fitness/workout-programs.md) - `healthcare/Nutrition-Fitness`
+- [Acute Care Treatment Plan](clinical-healthcare/Clinical-Practice/acute-care-treatment-plan.md) - `clinical-healthcare/Clinical-Practice`
+- [Case Studies Template](clinical-healthcare/Medical-Research/case-studies.md) - `clinical-healthcare/Medical-Research`
+- [Chronic Disease Management Plan](clinical-healthcare/Clinical-Practice/chronic-disease-management-plan.md) - `clinical-healthcare/Clinical-Practice`
+- [Clinical Decision Support - Overview & Navigation](clinical-healthcare/clinical-decision-support-overview.md) - `healthcare`
+- [Clinical Decision Support 01 Knowledge Base](clinical-healthcare/clinical-decision-support-01-knowledge-base.md) - `clinical-healthcare/clinical-decision-support-01-knowledge-base.md`
+- [Clinical Decision Support 02 Decision Algorithms](clinical-healthcare/clinical-decision-support-02-decision-algorithms.md) - `clinical-healthcare/clinical-decision-support-02-decision-algorithms.md`
+- [Clinical Decision Support 03 Implementation](clinical-healthcare/clinical-decision-support-03-implementation.md) - `clinical-healthcare/clinical-decision-support-03-implementation.md`
+- [Clinical Decision Support Template](clinical-healthcare/Clinical-Practice/clinical-practice-decision-support.md) - `clinical-healthcare/Clinical-Practice`
+- [Clinical Decision Support Template Generator](clinical-healthcare/clinical-decision-support.md) - `healthcare`
+- [Clinical Trial Management & Research Protocol Framework](clinical-healthcare/Clinical/clinical-trial-management.md) - `clinical-healthcare/Clinical`
+- [Clinical Trials Management & Research Protocol Framework](clinical-healthcare/clinical-trials-management.md) - `healthcare`
+- [Clinical Trials Template](clinical-healthcare/Medical-Research/clinical-trials.md) - `clinical-healthcare/Medical-Research`
+- [Community Health Programs Template](clinical-healthcare/Public-Health/community-health.md) - `clinical-healthcare/Public-Health`
+- [Compliance & Accreditation Management Template](clinical-healthcare/Healthcare-Administration/compliance-accreditation.md) - `clinical-healthcare/Healthcare-Administration`
+- [Disease Prevention Strategy & Implementation](clinical-healthcare/Public-Health/disease-prevention.md) - `clinical-healthcare/public-health`
+- [Epidemiological Surveillance Template](clinical-healthcare/Public-Health/epidemiology.md) - `clinical-healthcare/Public-Health`
+- [Health Education Program Development](clinical-healthcare/Public-Health/health-education.md) - `clinical-healthcare/public-health`
+- [Health Policy & Advocacy Template](clinical-healthcare/Public-Health/health-policy.md) - `clinical-healthcare/Public-Health`
+- [Healthcare Policy Development Template](clinical-healthcare/Healthcare-Administration/healthcare-policy-development.md) - `clinical-healthcare/Healthcare-Administration`
+- [Healthcare Revenue Cycle Management Framework](clinical-healthcare/Healthcare-Operations/revenue-cycle.md) - `clinical-healthcare/Healthcare-Operations`
+- [Literature Analysis Template](clinical-healthcare/Medical-Research/literature-analysis.md) - `clinical-healthcare/Medical-Research`
+- [Meal Planning - Comprehensive Prompt Template](clinical-healthcare/Nutrition-Fitness/wellness-meal-planning.md) - `clinical-healthcare/Nutrition-Fitness`
+- [Meal Planning Template](clinical-healthcare/Nutrition-Fitness/meal-planning.md) - `clinical-healthcare/Nutrition-Fitness`
+- [Medical Diagnosis - Comprehensive Prompt Template](clinical-healthcare/Medical-Clinical/wellness-medical-diagnosis.md) - `clinical-healthcare/Medical-Clinical`
+- [Medical Diagnosis Template](clinical-healthcare/Medical-Clinical/medical-diagnosis.md) - `clinical-healthcare/Medical-Clinical`
+- [Mental Health Treatment Plan](clinical-healthcare/Clinical-Practice/mental-health-treatment-plan.md) - `clinical-healthcare/Clinical-Practice`
+- [Patient Care Management & Clinical Documentation Framework](clinical-healthcare/patient-care-management.md) - `healthcare`
+- [Patient Care Pathway Template](clinical-healthcare/patient-care-pathway.md) - `healthcare`
+- [Patient Care Plans - Comprehensive Prompt Template](clinical-healthcare/Medical-Clinical/wellness-patient-care-plans.md) - `clinical-healthcare/Medical-Clinical`
+- [Patient Care Plans Template](clinical-healthcare/Medical-Clinical/patient-care-plans.md) - `clinical-healthcare/Medical-Clinical`
+- [Patient Communication Template](clinical-healthcare/Clinical-Practice/patient-communication.md) - `clinical-healthcare/Clinical-Practice`
+- [Patient Documentation Template](clinical-healthcare/Clinical-Practice/patient-documentation.md) - `clinical-healthcare/Clinical-Practice`
+- [Patient Safety Programs Template](clinical-healthcare/Healthcare-Administration/patient-safety.md) - `clinical-healthcare/Healthcare-Administration`
+- [Publication Preparation Template](clinical-healthcare/Medical-Research/publication-preparation.md) - `clinical-healthcare/Medical-Research`
+- [Quality Improvement Programs Template](clinical-healthcare/Healthcare-Administration/quality-improvement.md) - `clinical-healthcare/Healthcare-Administration`
+- [Referrals and Consultations Template](clinical-healthcare/Clinical-Practice/referrals-consultations.md) - `clinical-healthcare/Clinical-Practice`
+- [Regulatory Submissions Template](clinical-healthcare/Medical-Research/regulatory-submissions.md) - `clinical-healthcare/Medical-Research`
+- [Resource Management Optimization Template](clinical-healthcare/Healthcare-Administration/healthcare-resource-management.md) - `clinical-healthcare/Healthcare-Administration`
+- [Surgical Treatment Plan](clinical-healthcare/Clinical-Practice/surgical-treatment-plan.md) - `clinical-healthcare/Clinical-Practice`
+- [Telemedicine & Virtual Care Delivery Framework](clinical-healthcare/Digital-Health/telemedicine.md) - `clinical-healthcare/Digital-Health`
+- [Telemedicine 01 Service Technology](clinical-healthcare/telemedicine-01-service-technology.md) - `clinical-healthcare/telemedicine-01-service-technology.md`
+- [Telemedicine 02 Quality Compliance](clinical-healthcare/telemedicine-02-quality-compliance.md) - `clinical-healthcare/telemedicine-02-quality-compliance.md`
+- [Telemedicine 03 Implementation Scaling](clinical-healthcare/telemedicine-03-implementation-scaling.md) - `clinical-healthcare/telemedicine-03-implementation-scaling.md`
+- [Telemedicine Platform Design - Overview & Navigation](clinical-healthcare/telemedicine-overview.md) - `healthcare`
+- [Telemedicine Platform Design Template Generator](clinical-healthcare/telemedicine-platform-design.md) - `healthcare`
+- [Treatment Planning Overview](clinical-healthcare/Clinical-Practice/treatment-planning-overview.md) - `clinical-healthcare/Clinical-Practice`
+- [Workout Programs - Comprehensive Prompt Template](clinical-healthcare/Nutrition-Fitness/wellness-workout-programs.md) - `clinical-healthcare/Nutrition-Fitness`
+- [Workout Programs Template](clinical-healthcare/Nutrition-Fitness/workout-programs.md) - `clinical-healthcare/Nutrition-Fitness`
 
 ### Human Resources (14)
 
@@ -689,7 +689,7 @@
 - [A/B Testing & Experimentation](product-management/Product-Analytics/ab-testing-experimentation.md) - `product-management/Product-Analytics`
 - [A/B Testing & Experimentation Design Framework](data-analytics/Data-Science/experimentation-design.md) - `data-analytics/Data-Science`
 - [Academic Publication Writing Generator](education/Academic-Research/publication-writing.md) - `education/Academic-Research`
-- [Acute Care Treatment Plan](healthcare/Clinical-Practice/acute-care-treatment-plan.md) - `healthcare/Clinical-Practice`
+- [Acute Care Treatment Plan](clinical-healthcare/Clinical-Practice/acute-care-treatment-plan.md) - `clinical-healthcare/Clinical-Practice`
 - [Ad Copy Template](sales-marketing/Marketing-Creative/ad-copy.md) - `sales-marketing/Marketing-Creative`
 - [Advocacy Campaign Design & Execution](nonprofit/advocacy-campaign-design.md) - `nonprofit/Advocacy-Policy`
 - [Advocacy Campaign Strategy Framework](nonprofit/Advocacy-Policy/campaign-strategy.md) - `nonprofit/Advocacy-Policy`
@@ -738,10 +738,10 @@
 - [Carbon Footprint & GHG Accounting](sustainability/Climate-Environment/carbon-footprint-accounting.md) - `sustainability/Climate-Environment`
 - [Career Development & Professional Growth Framework](personal/Development/Career-Planning/career-strategy.md) - `personal/Development/Career-Planning`
 - [Career Planning Template](personal/Personal-Development/career-planning.md) - `personal/Personal-Development`
-- [Case Studies Template](healthcare/Medical-Research/case-studies.md) - `healthcare/Medical-Research`
+- [Case Studies Template](clinical-healthcare/Medical-Research/case-studies.md) - `clinical-healthcare/Medical-Research`
 - [Catalog Management & Product Information Framework](sales-marketing/Retail-Ecommerce/catalog-management-system.md) - `sales-marketing`
 - [Change Management & Adoption Prompt Template](communication/change-management.md) - `communication`
-- [Chronic Disease Management Plan](healthcare/Clinical-Practice/chronic-disease-management-plan.md) - `healthcare/Clinical-Practice`
+- [Chronic Disease Management Plan](clinical-healthcare/Clinical-Practice/chronic-disease-management-plan.md) - `clinical-healthcare/Clinical-Practice`
 - [CI/CD Pipeline & DevOps Automation Framework](technology/cicd-pipeline-framework.md) - `technology`
 - [CI/CD Pipeline Development & Optimization Template](technology/DevOps-Cloud/ci-cd-pipelines.md) - `technology/DevOps-Cloud`
 - [CI/CD Pipelines Template](technology/DevOps-Cloud/cicd-pipelines.md) - `technology/DevOps-Cloud`
@@ -750,16 +750,16 @@
 - [Citizen Services & Digital Government Framework](government/Federal-State/citizen-services.md) - `government/Federal-State`
 - [Client Relations Management Prompt Template](communication/client-relations.md) - `communication`
 - [Climate Strategy & Net Zero Planning](sustainability/Climate-Environment/climate-strategy-net-zero.md) - `sustainability/Climate-Environment`
-- [Clinical Decision Support - Overview & Navigation](healthcare/clinical-decision-support-overview.md) - `healthcare`
-- [Clinical Decision Support 01 Knowledge Base](healthcare/clinical-decision-support-01-knowledge-base.md) - `healthcare/clinical-decision-support-01-knowledge-base.md`
-- [Clinical Decision Support 02 Decision Algorithms](healthcare/clinical-decision-support-02-decision-algorithms.md) - `healthcare/clinical-decision-support-02-decision-algorithms.md`
-- [Clinical Decision Support 03 Implementation](healthcare/clinical-decision-support-03-implementation.md) - `healthcare/clinical-decision-support-03-implementation.md`
-- [Clinical Decision Support Template](healthcare/Clinical-Practice/clinical-practice-decision-support.md) - `healthcare/Clinical-Practice`
-- [Clinical Decision Support Template Generator](healthcare/clinical-decision-support.md) - `healthcare`
-- [Clinical Trial Management & Research Protocol Framework](healthcare/Clinical/clinical-trial-management.md) - `healthcare/Clinical`
+- [Clinical Decision Support - Overview & Navigation](clinical-healthcare/clinical-decision-support-overview.md) - `healthcare`
+- [Clinical Decision Support 01 Knowledge Base](clinical-healthcare/clinical-decision-support-01-knowledge-base.md) - `clinical-healthcare/clinical-decision-support-01-knowledge-base.md`
+- [Clinical Decision Support 02 Decision Algorithms](clinical-healthcare/clinical-decision-support-02-decision-algorithms.md) - `clinical-healthcare/clinical-decision-support-02-decision-algorithms.md`
+- [Clinical Decision Support 03 Implementation](clinical-healthcare/clinical-decision-support-03-implementation.md) - `clinical-healthcare/clinical-decision-support-03-implementation.md`
+- [Clinical Decision Support Template](clinical-healthcare/Clinical-Practice/clinical-practice-decision-support.md) - `clinical-healthcare/Clinical-Practice`
+- [Clinical Decision Support Template Generator](clinical-healthcare/clinical-decision-support.md) - `healthcare`
+- [Clinical Trial Management & Research Protocol Framework](clinical-healthcare/Clinical/clinical-trial-management.md) - `clinical-healthcare/Clinical`
 - [Clinical Trial Protocol & Study Design Framework](education/Research/clinical-trial-protocol.md) - `education/Research`
-- [Clinical Trials Management & Research Protocol Framework](healthcare/clinical-trials-management.md) - `healthcare`
-- [Clinical Trials Template](healthcare/Medical-Research/clinical-trials.md) - `healthcare/Medical-Research`
+- [Clinical Trials Management & Research Protocol Framework](clinical-healthcare/clinical-trials-management.md) - `healthcare`
+- [Clinical Trials Template](clinical-healthcare/Medical-Research/clinical-trials.md) - `clinical-healthcare/Medical-Research`
 - [Cloud Architecture & Multi-Cloud Strategy Framework](technology/cloud-architecture-framework.md) - `technology`
 - [Cloud Architecture Template](technology/DevOps-Cloud/cloud-architecture.md) - `technology/DevOps-Cloud`
 - [Cloud Migration Strategy & Transformation Framework](technology/cloud-migration-strategy.md) - `technology`
@@ -768,12 +768,12 @@
 - [Code Generation Template](technology/Software-Development/code-generation.md) - `technology/Software-Development`
 - [Comedy Writing Comprehensive Template Generator](content-creation/Entertainment/comedy-writing-comprehensive.md) - `content-creation/Entertainment`
 - [Comedy Writing Template](content-creation/Entertainment/comedy-writing.md) - `content-creation/Entertainment`
-- [Community Health Programs Template](healthcare/Public-Health/community-health.md) - `healthcare/Public-Health`
+- [Community Health Programs Template](clinical-healthcare/Public-Health/community-health.md) - `clinical-healthcare/Public-Health`
 - [Community Relations & Outreach Prompt Template](communication/community-relations.md) - `communication`
 - [Company Announcements & Updates Prompt Template](communication/company-announcements.md) - `communication`
 - [Compensation & Benefits Template Generator](human-resources/compensation-benefits.md) - `human-resources`
 - [Competitive Intelligence Benchmarking Template](data-analytics/Business-Intelligence/competitive-intelligence.md) - `data-analytics/Business-Intelligence`
-- [Compliance & Accreditation Management Template](healthcare/Healthcare-Administration/compliance-accreditation.md) - `healthcare/Healthcare-Administration`
+- [Compliance & Accreditation Management Template](clinical-healthcare/Healthcare-Administration/compliance-accreditation.md) - `clinical-healthcare/Healthcare-Administration`
 - [Compliance Management Template](security/Cybersecurity/cybersecurity-compliance-management.md) - `security/Cybersecurity`
 - [Compliance Management Template Generator](legal-compliance/regulatory-compliance-management.md) - `legal-compliance`
 - [Compliance Programs Template](legal-compliance/compliance-programs.md) - `legal-compliance`
@@ -870,7 +870,7 @@
 - [Digital Exhibition & Virtual Museum Curation Framework](content-creation/Arts-Culture/digital-exhibition-curation.md) - `content-creation/Arts-Culture`
 - [Digital Transformation Roadmap & Strategy Framework](strategy/digital-transformation-roadmap.md) - `strategy/strategic-management`
 - [Digital Transformation Strategy & Implementation Framework](strategy/digital-transformation.md) - `strategy`
-- [Disease Prevention Strategy & Implementation](healthcare/Public-Health/disease-prevention.md) - `healthcare/public-health`
+- [Disease Prevention Strategy & Implementation](clinical-healthcare/Public-Health/disease-prevention.md) - `clinical-healthcare/public-health`
 - [Diversity, Equity & Inclusion (DEI) Programs](sustainability/Social-Impact/dei-programs.md) - `sustainability/Social-Impact`
 - [Documentation & Wikis Knowledge Framework Generator](education/Knowledge-Management/knowledge-documentation.md) - `education/Knowledge-Management`
 - [Documentation, Lineage & Governance Template](data-analytics/Analytics-Engineering/analytics-documentation.md) - `data-analytics/Analytics-Engineering`
@@ -893,7 +893,7 @@
 - [Enterprise Digital Transformation Roadmap & Execution Framework](strategy/strategic-digital-transformation-roadmap.md) - `strategy`
 - [Enterprise Risk Management (ERM) Framework](finance/Risk-Management/enterprise-risk-management.md) - `finance/Risk-Management`
 - [Environmental Impact Assessment & Management](sustainability/Climate-Environment/environmental-impact-assessment.md) - `sustainability/Climate-Environment`
-- [Epidemiological Surveillance Template](healthcare/Public-Health/epidemiology.md) - `healthcare/Public-Health`
+- [Epidemiological Surveillance Template](clinical-healthcare/Public-Health/epidemiology.md) - `clinical-healthcare/Public-Health`
 - [ESG Performance Metrics & KPIs](sustainability/ESG-Strategy/esg-performance-metrics.md) - `sustainability/ESG-Strategy`
 - [ESG Reporting & Disclosure](sustainability/ESG-Strategy/esg-reporting-disclosure.md) - `sustainability/ESG-Strategy`
 - [ESG Risk Assessment & Management](sustainability/ESG-Strategy/esg-risk-assessment.md) - `sustainability/ESG-Strategy`
@@ -950,10 +950,10 @@
 ### H
 
 - [Habit Formation Template](personal/Personal-Development/habit-formation.md) - `personal/Personal-Development`
-- [Health Education Program Development](healthcare/Public-Health/health-education.md) - `healthcare/public-health`
-- [Health Policy & Advocacy Template](healthcare/Public-Health/health-policy.md) - `healthcare/Public-Health`
-- [Healthcare Policy Development Template](healthcare/Healthcare-Administration/healthcare-policy-development.md) - `healthcare/Healthcare-Administration`
-- [Healthcare Revenue Cycle Management Framework](healthcare/Healthcare-Operations/revenue-cycle.md) - `healthcare/Healthcare-Operations`
+- [Health Education Program Development](clinical-healthcare/Public-Health/health-education.md) - `clinical-healthcare/public-health`
+- [Health Policy & Advocacy Template](clinical-healthcare/Public-Health/health-policy.md) - `clinical-healthcare/Public-Health`
+- [Healthcare Policy Development Template](clinical-healthcare/Healthcare-Administration/healthcare-policy-development.md) - `clinical-healthcare/Healthcare-Administration`
+- [Healthcare Revenue Cycle Management Framework](clinical-healthcare/Healthcare-Operations/revenue-cycle.md) - `clinical-healthcare/Healthcare-Operations`
 - [Home Management Template](personal/Lifestyle-Hobbies/home-management.md) - `personal/Lifestyle-Hobbies`
 - [Hotel Operations & Guest Experience Framework](operations/Hospitality/hotel-operations.md) - `operations`
 ### I
@@ -1001,7 +1001,7 @@
 - [Legislative Affairs & Bill Analysis](government/Legislative-Affairs/legislative-strategy.md) - `government/Legislative-Affairs`
 - [Lesson Planning & Activities Template](education/Teaching-Instruction/lesson-planning.md) - `education/Teaching-Instruction`
 - [Life Optimization & Personal Excellence Framework](personal/Development/life-optimization-framework.md) - `personal/Development`
-- [Literature Analysis Template](healthcare/Medical-Research/literature-analysis.md) - `healthcare/Medical-Research`
+- [Literature Analysis Template](clinical-healthcare/Medical-Research/literature-analysis.md) - `clinical-healthcare/Medical-Research`
 - [Literature Review Analysis & Implications](education/Academic-Research/literature-review-analysis-implications.md) - `education/Academic-Research`
 - [Literature Review Data Extraction & Synthesis](education/Academic-Research/literature-review-extraction-synthesis.md) - `education/Academic-Research`
 - [Literature Review Protocol & Search Strategy](education/Academic-Research/literature-review-protocol-search.md) - `education/Academic-Research`
@@ -1021,10 +1021,10 @@
 - [Market Analysis Template Generator](strategy/strategic-market-analysis.md) - `strategy`
 - [Market Research Template Generator](sales-marketing/market-research.md) - `sales-marketing`
 - [Marketplace Management Template](sales-marketing/Retail-Ecommerce/marketplace-management.md) - `sales-marketing`
-- [Meal Planning - Comprehensive Prompt Template](healthcare/Nutrition-Fitness/wellness-meal-planning.md) - `healthcare/Nutrition-Fitness`
-- [Meal Planning Template](healthcare/Nutrition-Fitness/meal-planning.md) - `healthcare/Nutrition-Fitness`
-- [Medical Diagnosis - Comprehensive Prompt Template](healthcare/Medical-Clinical/wellness-medical-diagnosis.md) - `healthcare/Medical-Clinical`
-- [Medical Diagnosis Template](healthcare/Medical-Clinical/medical-diagnosis.md) - `healthcare/Medical-Clinical`
+- [Meal Planning - Comprehensive Prompt Template](clinical-healthcare/Nutrition-Fitness/wellness-meal-planning.md) - `clinical-healthcare/Nutrition-Fitness`
+- [Meal Planning Template](clinical-healthcare/Nutrition-Fitness/meal-planning.md) - `clinical-healthcare/Nutrition-Fitness`
+- [Medical Diagnosis - Comprehensive Prompt Template](clinical-healthcare/Medical-Clinical/wellness-medical-diagnosis.md) - `clinical-healthcare/Medical-Clinical`
+- [Medical Diagnosis Template](clinical-healthcare/Medical-Clinical/medical-diagnosis.md) - `clinical-healthcare/Medical-Clinical`
 - [Medical Management Template](personal/Health-Wellness/medical-management.md) - `personal/Health-Wellness`
 - [Meeting Management & Agendas Prompt Template](communication/meeting-management.md) - `communication`
 - [Meeting Management Framework - Overview & Navigation](communication/meeting-management-framework-overview.md) - `communication`
@@ -1033,7 +1033,7 @@
 - [Meeting Management Framework 03 Followup Improvement](communication/meeting-management-framework-03-followup-improvement.md) - `communication/meeting-management-framework-03-followup-improvement.md`
 - [Meeting Management Framework Template Generator](communication/meeting-management-framework.md) - `communication`
 - [Mental Health Template](personal/Health-Wellness/mental-health.md) - `personal/Health-Wellness`
-- [Mental Health Treatment Plan](healthcare/Clinical-Practice/mental-health-treatment-plan.md) - `healthcare/Clinical-Practice`
+- [Mental Health Treatment Plan](clinical-healthcare/Clinical-Practice/mental-health-treatment-plan.md) - `clinical-healthcare/Clinical-Practice`
 - [Metaverse & Extended Reality (XR) Strategy Framework](technology/Emerging-Technologies/Metaverse-XR/metaverse-strategy.md) - `technology/Emerging-Technologies/Metaverse-XR`
 - [Microservices Architecture Design Framework](technology/microservices-architecture-design.md) - `technology`
 - [MLOps Template](technology/AI-Machine-Learning/mlops.md) - `technology/AI-Machine-Learning`
@@ -1075,13 +1075,13 @@
 
 - [Partner Collaboration & Alliances Prompt Template](communication/partner-collaboration.md) - `communication`
 - [Patent Applications Template](legal-compliance/patent-applications.md) - `legal-compliance`
-- [Patient Care Management & Clinical Documentation Framework](healthcare/patient-care-management.md) - `healthcare`
-- [Patient Care Pathway Template](healthcare/patient-care-pathway.md) - `healthcare`
-- [Patient Care Plans - Comprehensive Prompt Template](healthcare/Medical-Clinical/wellness-patient-care-plans.md) - `healthcare/Medical-Clinical`
-- [Patient Care Plans Template](healthcare/Medical-Clinical/patient-care-plans.md) - `healthcare/Medical-Clinical`
-- [Patient Communication Template](healthcare/Clinical-Practice/patient-communication.md) - `healthcare/Clinical-Practice`
-- [Patient Documentation Template](healthcare/Clinical-Practice/patient-documentation.md) - `healthcare/Clinical-Practice`
-- [Patient Safety Programs Template](healthcare/Healthcare-Administration/patient-safety.md) - `healthcare/Healthcare-Administration`
+- [Patient Care Management & Clinical Documentation Framework](clinical-healthcare/patient-care-management.md) - `healthcare`
+- [Patient Care Pathway Template](clinical-healthcare/patient-care-pathway.md) - `healthcare`
+- [Patient Care Plans - Comprehensive Prompt Template](clinical-healthcare/Medical-Clinical/wellness-patient-care-plans.md) - `clinical-healthcare/Medical-Clinical`
+- [Patient Care Plans Template](clinical-healthcare/Medical-Clinical/patient-care-plans.md) - `clinical-healthcare/Medical-Clinical`
+- [Patient Communication Template](clinical-healthcare/Clinical-Practice/patient-communication.md) - `clinical-healthcare/Clinical-Practice`
+- [Patient Documentation Template](clinical-healthcare/Clinical-Practice/patient-documentation.md) - `clinical-healthcare/Clinical-Practice`
+- [Patient Safety Programs Template](clinical-healthcare/Healthcare-Administration/patient-safety.md) - `clinical-healthcare/Healthcare-Administration`
 - [Peer Review & Critiques Template](education/Scientific-Communication/peer-review.md) - `education/Scientific-Communication`
 - [Penetration Testing Framework](security/Security-Operations/penetration-testing.md) - `security/Security-Operations`
 - [Performance Management & Employee Development Framework](human-resources/hr-performance-management.md) - `human-resources`
@@ -1144,11 +1144,11 @@
 - [Public Financial Management & Budgeting](government/public-financial-management.md) - `government`
 - [Public Procurement & Contracting](government/Procurement/public-procurement-contracting.md) - `government/Procurement`
 - [Public Speaking Template](personal/Communication-Skills/public-speaking.md) - `personal/Communication-Skills`
-- [Publication Preparation Template](healthcare/Medical-Research/publication-preparation.md) - `healthcare/Medical-Research`
+- [Publication Preparation Template](clinical-healthcare/Medical-Research/publication-preparation.md) - `clinical-healthcare/Medical-Research`
 ### Q
 
 - [Quality Assurance Framework Template Generator](operations/quality-assurance.md) - `operations`
-- [Quality Improvement Programs Template](healthcare/Healthcare-Administration/quality-improvement.md) - `healthcare/Healthcare-Administration`
+- [Quality Improvement Programs Template](clinical-healthcare/Healthcare-Administration/quality-improvement.md) - `clinical-healthcare/Healthcare-Administration`
 - [Quality Management Template](operations/Manufacturing/quality-management.md) - `operations`
 - [Quantum Computing Strategy & Implementation Framework](technology/Emerging-Technologies/Quantum-Computing/quantum-computing-strategy.md) - `technology/Emerging-Technologies/Quantum-Computing`
 - [Query Optimization & Performance Template](data-analytics/Analytics-Engineering/query-optimization.md) - `data-analytics/Analytics-Engineering`
@@ -1167,14 +1167,14 @@
 - [Real Estate Market Analysis & Investment Evaluation Framework](sales-marketing/Real-Estate/real-estate-market-analysis.md) - `sales-marketing`
 - [Recruitment - Overview & Navigation](human-resources/recruitment-overview.md) - `human-resources`
 - [Recruitment Metrics & Optimization](human-resources/recruitment-metrics-optimization.md) - `human-resources`
-- [Referrals and Consultations Template](healthcare/Clinical-Practice/referrals-consultations.md) - `healthcare/Clinical-Practice`
+- [Referrals and Consultations Template](clinical-healthcare/Clinical-Practice/referrals-consultations.md) - `clinical-healthcare/Clinical-Practice`
 - [Regulatory Compliance & Enforcement](government/Regulatory/regulatory-compliance-enforcement.md) - `government/Regulatory`
 - [Regulatory Compliance Framework - Overview & Navigation](legal-compliance/regulatory-compliance-framework-overview.md) - `legal-compliance`
 - [Regulatory Compliance Framework 01 Foundation](legal-compliance/regulatory-compliance-framework-01-foundation.md) - `legal-compliance/regulatory-compliance-framework-01-foundation.md`
 - [Regulatory Compliance Framework 02 Risk Monitoring](legal-compliance/regulatory-compliance-framework-02-risk-monitoring.md) - `legal-compliance/regulatory-compliance-framework-02-risk-monitoring.md`
 - [Regulatory Compliance Framework 03 Implementation](legal-compliance/regulatory-compliance-framework-03-implementation.md) - `legal-compliance/regulatory-compliance-framework-03-implementation.md`
 - [Regulatory Compliance Framework Template Generator](legal-compliance/regulatory-compliance-framework.md) - `legal-compliance`
-- [Regulatory Submissions Template](healthcare/Medical-Research/regulatory-submissions.md) - `healthcare/Medical-Research`
+- [Regulatory Submissions Template](clinical-healthcare/Medical-Research/regulatory-submissions.md) - `clinical-healthcare/Medical-Research`
 - [Remote Collaboration & Virtual Team Management Framework](communication/remote-collaboration.md) - `communication`
 - [Renewable Energy Strategy & Implementation Framework](operations/Energy-Utilities/renewable-energy-strategy.md) - `operations`
 - [Renewable Energy System Optimization](operations/Energy-Utilities/renewable-energy.md) - `operations`
@@ -1188,7 +1188,7 @@
 - [Research Design Suite - Complete Overview & Navigation](education/Academic-Research/research-design-overview.md) - `education/Academic-Research`
 - [Research Design Template Generator](education/Academic-Research/research-design.md) - `education/Academic-Research`
 - [Research Papers & Manuscripts Template](education/Scientific-Communication/research-papers.md) - `education/Scientific-Communication`
-- [Resource Management Optimization Template](healthcare/Healthcare-Administration/healthcare-resource-management.md) - `healthcare/Healthcare-Administration`
+- [Resource Management Optimization Template](clinical-healthcare/Healthcare-Administration/healthcare-resource-management.md) - `clinical-healthcare/Healthcare-Administration`
 - [Resource Management Template Generator](operations/operations-resource-management.md) - `operations`
 - [Responsible AI TITLE_PLACEHOLDER Ethics](ai-ml-applications/AI-Product-Development/responsible-ai-ethics.md) - `ai-ml-applications/AI-Product-Development`
 - [Results Communication & Insights Template](data-analytics/Data-Science/results-communication.md) - `data-analytics/Data-Science`
@@ -1242,7 +1242,7 @@
 - [Supply Chain Optimization & Logistics Management Framework](operations/operations-supply-chain-optimization.md) - `operations`
 - [Supply Chain Optimization & Management Framework](operations/Manufacturing/manufacturing-supply-chain-optimization.md) - `operations`
 - [Supply Chain Optimization & Network Design](operations/Transportation-Logistics/logistics-supply-chain-optimization.md) - `operations`
-- [Surgical Treatment Plan](healthcare/Clinical-Practice/surgical-treatment-plan.md) - `healthcare/Clinical-Practice`
+- [Surgical Treatment Plan](clinical-healthcare/Clinical-Practice/surgical-treatment-plan.md) - `clinical-healthcare/Clinical-Practice`
 - [Survey Analysis and Design Template](data-analytics/Research-Analytics/survey-analysis.md) - `data-analytics/Research-Analytics`
 - [Sustainable & Ethical Supply Chain Management](sustainability/Circular-Economy/sustainable-supply-chain.md) - `sustainability/Circular-Economy`
 - [Sustainable Fashion & Circular Economy Framework](design/Fashion/sustainable-fashion-strategy.md) - `design`
@@ -1255,12 +1255,12 @@
 - [Team Documentation & Knowledge Management Prompt Template](communication/team-documentation.md) - `communication`
 - [Technical Documentation Template](technology/Software-Development/software-documentation.md) - `technology/Software-Development`
 - [Telecommunications Infrastructure & Network Operations Framework](technology/Telecommunications/telecom-infrastructure.md) - `technology/Telecommunications`
-- [Telemedicine & Virtual Care Delivery Framework](healthcare/Digital-Health/telemedicine.md) - `healthcare/Digital-Health`
-- [Telemedicine 01 Service Technology](healthcare/telemedicine-01-service-technology.md) - `healthcare/telemedicine-01-service-technology.md`
-- [Telemedicine 02 Quality Compliance](healthcare/telemedicine-02-quality-compliance.md) - `healthcare/telemedicine-02-quality-compliance.md`
-- [Telemedicine 03 Implementation Scaling](healthcare/telemedicine-03-implementation-scaling.md) - `healthcare/telemedicine-03-implementation-scaling.md`
-- [Telemedicine Platform Design - Overview & Navigation](healthcare/telemedicine-overview.md) - `healthcare`
-- [Telemedicine Platform Design Template Generator](healthcare/telemedicine-platform-design.md) - `healthcare`
+- [Telemedicine & Virtual Care Delivery Framework](clinical-healthcare/Digital-Health/telemedicine.md) - `clinical-healthcare/Digital-Health`
+- [Telemedicine 01 Service Technology](clinical-healthcare/telemedicine-01-service-technology.md) - `clinical-healthcare/telemedicine-01-service-technology.md`
+- [Telemedicine 02 Quality Compliance](clinical-healthcare/telemedicine-02-quality-compliance.md) - `clinical-healthcare/telemedicine-02-quality-compliance.md`
+- [Telemedicine 03 Implementation Scaling](clinical-healthcare/telemedicine-03-implementation-scaling.md) - `clinical-healthcare/telemedicine-03-implementation-scaling.md`
+- [Telemedicine Platform Design - Overview & Navigation](clinical-healthcare/telemedicine-overview.md) - `healthcare`
+- [Telemedicine Platform Design Template Generator](clinical-healthcare/telemedicine-platform-design.md) - `healthcare`
 - [Testing & QA Template](technology/Software-Development/testing-qa.md) - `technology/Software-Development`
 - [Text Analytics - Advanced Methods and Reporting](data-analytics/Research-Analytics/text-analytics-advanced-methods.md) - `data-analytics/Research-Analytics`
 - [Text Analytics - Named Entity Recognition](data-analytics/Research-Analytics/text-analytics-entity-recognition.md) - `data-analytics/Research-Analytics`
@@ -1279,7 +1279,7 @@
 - [Travel Planning Template](personal/Lifestyle-Hobbies/travel-planning.md) - `personal/Lifestyle-Hobbies`
 - [Treasury Management Template Generator](finance/Corporate-Finance/treasury-management.md) - `finance/Corporate-Finance`
 - [Treatment Effect Analysis](data-analytics/Research-Analytics/treatment-effect-analysis.md) - `data-analytics/Research-Analytics`
-- [Treatment Planning Overview](healthcare/Clinical-Practice/treatment-planning-overview.md) - `healthcare/Clinical-Practice`
+- [Treatment Planning Overview](clinical-healthcare/Clinical-Practice/treatment-planning-overview.md) - `clinical-healthcare/Clinical-Practice`
 - [Trend Analysis Forecasting Template](data-analytics/Business-Intelligence/trend-analysis.md) - `data-analytics/Business-Intelligence`
 ### U
 
@@ -1308,8 +1308,8 @@
 - [Wealth Management Strategy - Complete Overview & Navigation](finance/wealth-management-overview.md) - `finance`
 - [Wealth Management Strategy Template Generator](finance/wealth-management-strategy.md) - `finance`
 - [Wireframe Design & Information Architecture](design/wireframe-design.md) - `design`
-- [Workout Programs - Comprehensive Prompt Template](healthcare/Nutrition-Fitness/wellness-workout-programs.md) - `healthcare/Nutrition-Fitness`
-- [Workout Programs Template](healthcare/Nutrition-Fitness/workout-programs.md) - `healthcare/Nutrition-Fitness`
+- [Workout Programs - Comprehensive Prompt Template](clinical-healthcare/Nutrition-Fitness/wellness-workout-programs.md) - `clinical-healthcare/Nutrition-Fitness`
+- [Workout Programs Template](clinical-healthcare/Nutrition-Fitness/workout-programs.md) - `clinical-healthcare/Nutrition-Fitness`
 ### Z
 
 - [Zero Trust Architecture Implementation](security/Identity-Access-Management/zero-trust-architecture.md) - `security/Identity-Access-Management`

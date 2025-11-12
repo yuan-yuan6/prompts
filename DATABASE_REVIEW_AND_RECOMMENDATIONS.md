@@ -221,7 +221,7 @@ These professions have different workflows, goals, and mental models.
 - Current structure uses BOTH, creating confusion
 
 **Examples of Inconsistency:**
-- Healthcare templates → `/healthcare/` (primary category)
+- Healthcare templates → `/clinical-healthcare/` (primary category)
 - Retail templates → `/industry/Retail & E-commerce/` (buried in industry)
 - Finance templates → `/finance/` (primary category)
 - Manufacturing templates → `/industry/Manufacturing/` (buried in industry)
@@ -247,21 +247,21 @@ Why do healthcare and finance get top-level categories but retail and manufactur
 
 **Problem:** Nested duplicate structure
 ```
-/healthcare/Medical & Clinical/medical-diagnosis.md
-/healthcare/wellness/Medical & Clinical/wellness-medical-diagnosis.md
+/clinical-healthcare/Medical & Clinical/medical-diagnosis.md
+/clinical-healthcare/wellness/Medical & Clinical/wellness-medical-diagnosis.md
 
-/healthcare/Nutrition & Fitness/meal-planning.md
-/healthcare/wellness/Nutrition & Fitness/wellness-meal-planning.md
+/clinical-healthcare/Nutrition & Fitness/meal-planning.md
+/clinical-healthcare/wellness/Nutrition & Fitness/wellness-meal-planning.md
 ```
 
 **Is this reasonable?** ❌ NO
 - Creates duplicate-seeming templates (even with "wellness-" prefix)
-- Nested `/wellness/Medical & Clinical/` inside `/healthcare/` is confusing
+- Nested `/wellness/Medical & Clinical/` inside `/clinical-healthcare/` is confusing
 - Unclear when to use wellness version vs. regular version
 - 4 templates buried in nested folders users might not discover
 
 **Recommendation:**
-- **Option A (Flatten):** Move wellness templates up to main `/healthcare/` folders, differentiate by description
+- **Option A (Flatten):** Move wellness templates up to main `/clinical-healthcare/` folders, differentiate by description
 - **Option B (Merge):** Merge wellness templates with their non-wellness counterparts if content overlaps
 - **Option C (Separate):** Create distinct `/wellness/` top-level category (only if expanding to 20+ templates)
 
@@ -340,7 +340,7 @@ Why do healthcare and finance get top-level categories but retail and manufactur
 
 #### Philosophy A: Industry-First
 ```
-/healthcare/ → Clinical Practice, Operations, Research, Administration
+/clinical-healthcare/ → Clinical Practice, Operations, Research, Administration
 /finance/ → Banking, Investment, Insurance, Corporate Finance
 /technology/ → Software, Infrastructure, Security, AI/ML
 /retail/ → E-commerce, Store Operations, Supply Chain
@@ -362,7 +362,7 @@ Why do healthcare and finance get top-level categories but retail and manufactur
 /human-resources/ → Recruitment, performance, training, compensation
 /finance/ → Financial planning, analysis, investment, risk
 /communication/ → Internal, external, stakeholder, crisis
-/clinical-healthcare/ → Medical, nursing, patient care (industry-specific)
+/clinical-clinical-healthcare/ → Medical, nursing, patient care (industry-specific)
 /legal-compliance/ → Contracts, regulatory, IP, governance
 ```
 
@@ -428,11 +428,11 @@ Rationale:
 ---
 
 #### Recommendation 1.2: Eliminate Healthcare Nested Wellness Folders
-**Action:** Flatten `/healthcare/wellness/` structure
+**Action:** Flatten `/clinical-healthcare/wellness/` structure
 
 **Steps:**
 1. Review 4 wellness templates for content differentiation
-2. If distinct from non-wellness versions: Move to main `/healthcare/` folders
+2. If distinct from non-wellness versions: Move to main `/clinical-healthcare/` folders
 3. If duplicative: Merge with non-wellness versions
 4. Update INDEX.md and related_templates links
 

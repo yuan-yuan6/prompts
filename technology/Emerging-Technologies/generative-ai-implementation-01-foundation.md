@@ -1,16 +1,25 @@
 ---
-title: Generative AI Implementation - Part 1: Foundation & Use Cases
+title: 'Generative AI Implementation - Part 1: Foundation & Use Cases'
 category: technology/Emerging-Technologies
-tags: [automation, design, machine-learning, strategy, technology, template]
+tags:
+- automation
+- design
+- ai-ml
+- strategy
+- technology
+- template
 use_cases:
-  - Defining generative AI strategy, identifying business value and use cases, selecting foundation models, establishing technical infrastructure, and implementing governance fundamentals
-  - AI strategy development
-  - Use case identification
+- Defining generative AI strategy, identifying business value and use cases, selecting
+  foundation models, establishing technical infrastructure, and implementing governance
+  fundamentals
+- AI strategy development
+- Use case identification
 related_prompts:
-  - generative-ai-implementation-02-technical.md
-  - generative-ai-implementation-03-governance.md
-  - cloud-architecture-framework.md
+- generative-ai-implementation-02-technical.md
+- generative-ai-implementation-03-governance.md
+- cloud-architecture-framework.md
 last_updated: 2025-11-11
+
 ---
 
 # Generative AI Implementation - Part 1: Foundation & Use Cases

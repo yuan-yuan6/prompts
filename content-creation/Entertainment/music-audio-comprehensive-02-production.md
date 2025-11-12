@@ -1,14 +1,21 @@
 ---
-title: Music Audio Comprehensive - Part 2: Production & Recording
+title: 'Music Audio Comprehensive - Part 2: Production & Recording'
 category: content-creation/Entertainment
-tags: [communication, comprehensive, creative, design, optimization, template, testing]
+tags:
+- communication
+- creative
+- design
+- optimization
+- template
+- testing
 series: music-audio-comprehensive
 part: 2 of 3
 related_parts:
-  - music-audio-comprehensive-01.md
-  - music-audio-comprehensive-03.md
-  - music-audio-comprehensive-overview.md
+- music-audio-comprehensive-01.md
+- music-audio-comprehensive-03.md
+- music-audio-comprehensive-overview.md
 last_updated: 2025-11-11
+
 ---
 
 # Music Audio Comprehensive - Part 2: Production & Recording

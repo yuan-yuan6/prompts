@@ -15,10 +15,10 @@ use_cases:
   - Responding to investor ESG data requests and ratings agencies
   - Building transparency and stakeholder trust through disclosure
 related_templates:
-  - sustainability/esg-strategy-framework.md
-  - sustainability/esg-performance-metrics.md
-  - sustainability/stakeholder-engagement.md
-  - sustainability/climate-strategy-net-zero.md
+  - sustainability/ESG-Strategy/esg-strategy-framework.md
+  - sustainability/ESG-Strategy/esg-performance-metrics.md
+  - sustainability/ESG-Strategy/stakeholder-engagement.md
+  - sustainability/Climate-Environment/climate-strategy-net-zero.md
 industries:
   - technology
   - finance

@@ -14,10 +14,10 @@ use_cases:
   - Integrating ESG into corporate strategy and operations
   - Preparing for ESG regulations and investor requirements
 related_templates:
-  - sustainability/esg-reporting-disclosure.md
-  - sustainability/stakeholder-engagement.md
-  - sustainability/esg-risk-assessment.md
-  - sustainability/esg-performance-metrics.md
+  - sustainability/ESG-Strategy/esg-reporting-disclosure.md
+  - sustainability/ESG-Strategy/stakeholder-engagement.md
+  - sustainability/ESG-Strategy/esg-risk-assessment.md
+  - sustainability/ESG-Strategy/esg-performance-metrics.md
 industries:
   - technology
   - finance

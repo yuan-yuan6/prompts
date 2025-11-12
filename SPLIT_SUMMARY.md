@@ -18,7 +18,7 @@
 ---
 
 ### 2. Clinical Decision Support (1,075 lines → 3 parts)
-**Location:** `/home/user/prompts/healthcare/`
+**Location:** `/home/user/prompts/clinical-healthcare/`
 
 - `clinical-decision-support-overview.md` - Navigation guide
 - `clinical-decision-support-01-knowledge-base.md` (400 lines) - Evidence, data integration, clinical workflows
@@ -127,6 +127,6 @@ Users should:
 
 All files maintained in their original directory structure:
 - Professional Services: `professional-services/communication/` and `professional-services/legal-compliance/`
-- Healthcare: `healthcare/`
+- Healthcare: `clinical-healthcare/`
 - Data Analytics: `data-analytics/`
 - Creative: `creative/Entertainment/`

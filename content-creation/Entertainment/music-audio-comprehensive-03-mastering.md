@@ -1,14 +1,21 @@
 ---
-title: Music Audio Comprehensive - Part 3: Mixing & Mastering
+title: 'Music Audio Comprehensive - Part 3: Mixing & Mastering'
 category: content-creation/Entertainment
-tags: [communication, comprehensive, creative, design, optimization, template, testing]
+tags:
+- communication
+- creative
+- design
+- optimization
+- template
+- testing
 series: music-audio-comprehensive
 part: 3 of 3
 related_parts:
-  - music-audio-comprehensive-01.md
-  - music-audio-comprehensive-02.md
-  - music-audio-comprehensive-overview.md
+- music-audio-comprehensive-01.md
+- music-audio-comprehensive-02.md
+- music-audio-comprehensive-overview.md
 last_updated: 2025-11-11
+
 ---
 
 # Music Audio Comprehensive - Part 3: Mixing & Mastering

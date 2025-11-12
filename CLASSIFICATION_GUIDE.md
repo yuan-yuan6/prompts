@@ -58,7 +58,7 @@ Use this decision tree when classifying a new template:
 START: What is the template's primary purpose?
 
 1. Is it industry-specific and CANNOT be generalized?
-   ├─ YES, Healthcare → /clinical-healthcare/
+   ├─ YES, Healthcare → /clinical-clinical-healthcare/
    ├─ YES, Government → /government/
    └─ NO → Continue to #2
 
@@ -220,7 +220,7 @@ START: What is the template's primary purpose?
 
 **Excludes:**
 - Marketing communication → /sales-marketing/
-- Clinical communication → /clinical-healthcare/
+- Clinical communication → /clinical-clinical-healthcare/
 - Technical documentation → /technology/
 
 **Decision Rule:** If the template's primary purpose is *conveying information* rather than *selling, teaching, or documenting*, it belongs here.
@@ -383,7 +383,7 @@ START: What is the template's primary purpose?
 
 ---
 
-### /clinical-healthcare/
+### /clinical-clinical-healthcare/
 **Purpose:** Templates for medical, nursing, and patient care (industry-specific exception)
 
 **Includes:**
@@ -442,7 +442,7 @@ START: What is the template's primary purpose?
 
 **Excludes:**
 - Professional HR processes → /human-resources/
-- Clinical health → /clinical-healthcare/
+- Clinical health → /clinical-clinical-healthcare/
 - Corporate finance → /finance/
 
 **Decision Rule:** If the template is for *individual personal use* rather than organizational/professional use, it belongs here.
@@ -462,7 +462,7 @@ START: What is the template's primary purpose?
 
 **Excludes:**
 - Public communication → /communication/
-- Public health → /clinical-healthcare/
+- Public health → /clinical-clinical-healthcare/
 
 **Decision Rule:** If the template is specifically for *government/public sector operations*, it belongs here.
 
@@ -552,7 +552,7 @@ tags: [communication, operations, remote-work, collaboration]
 
 ### Industry-Specific vs. Industry-Tagged
 
-**Use industry-specific category** (like /clinical-healthcare/) ONLY when:
+**Use industry-specific category** (like /clinical-clinical-healthcare/) ONLY when:
 1. The template requires specialized domain knowledge
 2. The template cannot be generalized to other industries
 3. The industry has unique regulatory/compliance requirements
@@ -606,7 +606,7 @@ When reclassifying existing templates:
 
 ## Common Mistakes to Avoid
 
-❌ **Mixing industry and function:** "Healthcare Marketing" should be `/sales-marketing/` with `tags: [healthcare]`, not `/clinical-healthcare/`
+❌ **Mixing industry and function:** "Healthcare Marketing" should be `/sales-marketing/` with `tags: [healthcare]`, not `/clinical-clinical-healthcare/`
 
 ❌ **Over-nesting subcategories:** Keep hierarchy to 2 levels max: `/category/Subcategory/`
 

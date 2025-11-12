@@ -28,10 +28,11 @@ class DatabaseValidator:
 
         # Valid top-level categories
         self.valid_categories = {
-            'communication', 'content-creation', 'data-analytics', 'design',
-            'education', 'finance', 'government', 'healthcare', 'human-resources',
-            'legal-compliance', 'media-journalism', 'nonprofit', 'operations',
-            'personal', 'sales-marketing', 'security', 'strategy', 'technology'
+            'ai-ml-applications', 'clinical-healthcare', 'communication', 'content-creation',
+            'data-analytics', 'design', 'education', 'finance', 'government',
+            'human-resources', 'legal-compliance', 'media-journalism', 'nonprofit',
+            'operations', 'personal', 'product-management', 'sales-marketing',
+            'security', 'strategy', 'sustainability', 'technology'
         }
 
         # Required frontmatter fields

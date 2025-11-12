@@ -14,9 +14,9 @@ use_cases:
   - Gathering stakeholder input for materiality assessments
   - Building stakeholder trust and managing ESG expectations
 related_templates:
-  - sustainability/esg-strategy-framework.md
-  - sustainability/esg-reporting-disclosure.md
-  - sustainability/esg-performance-metrics.md
+  - sustainability/ESG-Strategy/esg-strategy-framework.md
+  - sustainability/ESG-Strategy/esg-reporting-disclosure.md
+  - sustainability/ESG-Strategy/esg-performance-metrics.md
 industries:
   - technology
   - finance

@@ -15,10 +15,10 @@ use_cases:
   - Planning decarbonization pathway for Scope 1, 2, and 3 emissions
   - Aligning with Paris Agreement and 1.5°C pathway
 related_templates:
-  - sustainability/carbon-footprint-accounting.md
-  - sustainability/renewable-energy-transition.md
-  - sustainability/esg-strategy-framework.md
-  - sustainability/esg-risk-assessment.md
+  - sustainability/Climate-Environment/carbon-footprint-accounting.md
+  - sustainability/Climate-Environment/renewable-energy-transition.md
+  - sustainability/ESG-Strategy/esg-strategy-framework.md
+  - sustainability/ESG-Strategy/esg-risk-assessment.md
 industries:
   - technology
   - finance

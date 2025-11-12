@@ -1,5 +1,5 @@
 ---
-title: Risk Management Framework - Part 1: Foundation & Credit Risk
+title: "Risk Management Framework - Part 1: Foundation & Credit Risk"
 category: finance
 tags: [design, finance, framework, management, strategy, credit-risk, governance]
 use_cases:

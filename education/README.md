@@ -100,7 +100,7 @@ Each template includes:
 ## 🔗 Related Categories
 
 - [🤝 Nonprofit & Social Impact](../nonprofit/)
-- [🏥 Healthcare & Life Sciences](../healthcare/)
+- [🏥 Healthcare & Life Sciences](../clinical-healthcare/)
 
 
 ## 📚 Resources

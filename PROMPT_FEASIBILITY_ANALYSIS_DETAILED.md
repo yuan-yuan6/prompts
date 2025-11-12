@@ -526,7 +526,7 @@ All prompts should have:
 - pipeline-development.md, query-optimization.md
 
 **Day 4-5**: Add Quick Starts to next 100 prompts
-- Focus on education/, healthcare/, professional-services/
+- Focus on education/, clinical-healthcare/, professional-services/
 
 ### Month 2: Systematic Improvements
 

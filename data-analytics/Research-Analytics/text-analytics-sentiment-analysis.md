@@ -12,9 +12,9 @@ use_cases:
   features or service attributes.
 - Track sentiment trends over time and detect emotion patterns in text data.
 related_templates:
-- data-analytics/Research Analytics/text-analytics-preprocessing.md
-- data-analytics/Research Analytics/text-analytics-topic-modeling.md
-- data-analytics/Research Analytics/text-analytics-overview.md
+- data-analytics/Research-Analytics/text-analytics-preprocessing.md
+- data-analytics/Research-Analytics/text-analytics-topic-modeling.md
+- data-analytics/Research-Analytics/text-analytics-overview.md
 last_updated: 2025-11-10
 industries:
 - healthcare

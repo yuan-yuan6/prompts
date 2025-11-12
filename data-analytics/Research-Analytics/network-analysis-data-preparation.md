@@ -11,10 +11,10 @@ use_cases:
 - Creating subnetworks and filtering nodes/edges
 - Preparing temporal network snapshots
 related_templates:
-- data-analytics/Research Analytics/network-analysis-centrality-community.md
-- data-analytics/Research Analytics/network-analysis-paths-temporal.md
-- data-analytics/Research Analytics/network-analysis-visualization.md
-- data-analytics/Research Analytics/network-analysis-overview.md
+- data-analytics/Research-Analytics/network-analysis-centrality-community.md
+- data-analytics/Research-Analytics/network-analysis-paths-temporal.md
+- data-analytics/Research-Analytics/network-analysis-visualization.md
+- data-analytics/Research-Analytics/network-analysis-overview.md
 last_updated: 2025-11-10
 industries:
 - manufacturing

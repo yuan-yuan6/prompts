@@ -14,8 +14,8 @@ use_cases:
 - Developing waste reduction and diversion strategies
 - Creating material recovery and recycling programs
 related_templates:
-- sustainability/circular-economy-strategy.md
-- sustainability/sustainable-supply-chain.md
+- sustainability/Circular-Economy/circular-economy-strategy.md
+- sustainability/Circular-Economy/sustainable-supply-chain.md
 industries:
 - manufacturing
 - retail

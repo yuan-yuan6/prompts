@@ -14,9 +14,9 @@ use_cases:
 - Strategic planning for product portfolios and platform strategies
 related_templates:
 - strategy/business-planning.md
-- product-management/product-roadmapping.md
-- product-management/product-market-fit.md
-- product-management/market-competitive-analysis.md
+- product-management/Product-Strategy/product-roadmapping.md
+- product-management/Product-Strategy/product-market-fit.md
+- product-management/Product-Strategy/market-competitive-analysis.md
 industries:
 - technology
 - finance

@@ -1,5 +1,5 @@
 ---
-title: Wealth Management Strategy - Part 1: Foundation & Investment
+title: "Wealth Management Strategy - Part 1: Foundation & Investment"
 category: finance
 tags: [design, finance, management, optimization, strategy, template]
 related_templates:

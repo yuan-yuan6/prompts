@@ -1,14 +1,22 @@
 ---
-title: Predictive Modeling Framework - Part 1: Data Preparation & Feature Engineering
+title: 'Predictive Modeling Framework - Part 1: Data Preparation & Feature Engineering'
 category: data-analytics
-tags: [automation, data-analytics, data-science, design, framework, machine-learning, optimization, research]
+tags:
+- automation
+- data-analytics
+- ai-ml
+- design
+- framework
+- optimization
+- research
 series: predictive-modeling-framework
 part: 1 of 3
 related_parts:
-  - predictive-modeling-framework-02.md
-  - predictive-modeling-framework-03.md
-  - predictive-modeling-framework-overview.md
+- predictive-modeling-framework-02.md
+- predictive-modeling-framework-03.md
+- predictive-modeling-framework-overview.md
 last_updated: 2025-11-11
+
 ---
 
 # Predictive Modeling Framework - Part 1: Data Preparation & Feature Engineering

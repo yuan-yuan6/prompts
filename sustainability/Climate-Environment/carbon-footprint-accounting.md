@@ -14,9 +14,9 @@ use_cases:
   - Establishing carbon footprint baseline for target setting
   - Supporting carbon disclosure (CDP, TCFD, CSRD, SEC)
 related_templates:
-  - sustainability/climate-strategy-net-zero.md
-  - sustainability/renewable-energy-transition.md
-  - sustainability/esg-reporting-disclosure.md
+  - sustainability/Climate-Environment/climate-strategy-net-zero.md
+  - sustainability/Climate-Environment/renewable-energy-transition.md
+  - sustainability/ESG-Strategy/esg-reporting-disclosure.md
 industries:
   - technology
   - finance

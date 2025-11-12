@@ -14,10 +14,10 @@ use_cases:
   - Conducting climate risk assessments aligned with TCFD
   - Developing risk mitigation strategies and controls
 related_templates:
-  - sustainability/esg-strategy-framework.md
-  - sustainability/climate-strategy-net-zero.md
-  - sustainability/stakeholder-engagement.md
-  - sustainability/esg-reporting-disclosure.md
+  - sustainability/ESG-Strategy/esg-strategy-framework.md
+  - sustainability/Climate-Environment/climate-strategy-net-zero.md
+  - sustainability/ESG-Strategy/stakeholder-engagement.md
+  - sustainability/ESG-Strategy/esg-reporting-disclosure.md
 industries:
   - technology
   - finance

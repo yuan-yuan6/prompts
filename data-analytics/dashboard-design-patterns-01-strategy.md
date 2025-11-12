@@ -1,5 +1,5 @@
 ---
-title: Dashboard Design Patterns - Part 1: Strategy & Requirements
+title: "Dashboard Design Patterns - Part 1: Strategy & Requirements"
 category: data-analytics
 tags: [data-analytics, design, development, strategy, template]
 use_cases:

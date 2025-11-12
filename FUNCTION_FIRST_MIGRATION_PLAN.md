@@ -31,7 +31,7 @@
 ├── content-creation/            [NEW] ← FROM creative/Content Creation
 ├── media-journalism/            [NEW] ← FROM creative/journalism
 ├── legal-compliance/            [NEW] ← FROM professional-services/legal-compliance
-├── clinical-healthcare/         [RENAME] ← FROM healthcare/
+├── clinical-clinical-healthcare/         [RENAME] ← FROM clinical-healthcare/
 ├── education/                   [KEEP] ← KEEP as-is
 ├── personal/                    [KEEP] ← KEEP as-is
 ├── government/                  [KEEP] ← KEEP as-is
@@ -297,7 +297,7 @@ FROM professional-services/legal-compliance/ (ENTIRE DIRECTORY):
 **Status:** Low Priority
 
 **Steps:**
-1. Rename /healthcare/ → /clinical-healthcare/
+1. Rename /clinical-healthcare/ → /clinical-clinical-healthcare/
 2. Update all category metadata: `category: clinical-healthcare`
 3. Update INDEX.md and documentation
 4. Update related_templates references

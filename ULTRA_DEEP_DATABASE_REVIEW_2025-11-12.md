@@ -147,7 +147,7 @@ The database has successfully transitioned from hybrid classification to functio
 
 **Industry-Specific Exceptions (Justified):**
 ```
-✅ healthcare/ - Requires medical expertise
+✅ clinical-healthcare/ - Requires medical expertise
 ✅ education/ - Academic practices
 ✅ finance/ - Financial services industry
 ✅ government/ - Public sector
@@ -465,7 +465,7 @@ The database offers multiple discovery mechanisms catering to different user men
 | **Cloud/DevOps** | 🚀🚀 High | 46 tech templates | ✅ GOOD - Within technology/ |
 | **ESG/Sustainability** | 🚀🚀 High | 14 templates (NEW) | ✅ EXCELLENT - Critical business need |
 | **Remote Work** | 🚀 Moderate | Distributed across comm/ | ⚠️ OPPORTUNITY - Consolidate view |
-| **Digital Health** | 🚀🚀 High | Within healthcare/ | ✅ GOOD - Integrated coverage |
+| **Digital Health** | 🚀🚀 High | Within clinical-healthcare/ | ✅ GOOD - Integrated coverage |
 
 **Emerging Domains Not Yet Covered:**
 

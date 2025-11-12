@@ -862,151 +862,151 @@ Cross-reference view of prompt templates organized by industry sector.
 
 ### Healthcare
 
-- **[Acute Care Treatment Plan](/home/user/prompts/healthcare/Clinical-Practice/acute-care-treatment-plan.md)**
+- **[Acute Care Treatment Plan](/home/user/prompts/clinical-healthcare/Clinical-Practice/acute-care-treatment-plan.md)**
   - Tags: healthcare, emergency, acute-care
 
-- **[Case Studies Template](/home/user/prompts/healthcare/Medical-Research/case-studies.md)**
+- **[Case Studies Template](/home/user/prompts/clinical-healthcare/Medical-Research/case-studies.md)**
   - Tags: 
 
-- **[Chronic Disease Management Plan](/home/user/prompts/healthcare/Clinical-Practice/chronic-disease-management-plan.md)**
+- **[Chronic Disease Management Plan](/home/user/prompts/clinical-healthcare/Clinical-Practice/chronic-disease-management-plan.md)**
   - Tags: healthcare, chronic-care, disease-management
 
-- **[Clinical Decision Support - Overview & Navigation](/home/user/prompts/healthcare/clinical-decision-support-overview.md)**
+- **[Clinical Decision Support - Overview & Navigation](/home/user/prompts/clinical-healthcare/clinical-decision-support-overview.md)**
   - Tags: design, documentation, healthcare
 
-- **[Clinical Decision Support - Part 1: Clinical Knowledge Base](/home/user/prompts/healthcare/clinical-decision-support-01-knowledge-base.md)**
+- **[Clinical Decision Support - Part 1: Clinical Knowledge Base](/home/user/prompts/clinical-healthcare/clinical-decision-support-01-knowledge-base.md)**
   - Tags: design, documentation, healthcare
 
-- **[Clinical Decision Support - Part 2: Decision Algorithms](/home/user/prompts/healthcare/clinical-decision-support-02-decision-algorithms.md)**
+- **[Clinical Decision Support - Part 2: Decision Algorithms](/home/user/prompts/clinical-healthcare/clinical-decision-support-02-decision-algorithms.md)**
   - Tags: design, documentation, healthcare
 
-- **[Clinical Decision Support - Part 3: Implementation & Integration](/home/user/prompts/healthcare/clinical-decision-support-03-implementation.md)**
+- **[Clinical Decision Support - Part 3: Implementation & Integration](/home/user/prompts/clinical-healthcare/clinical-decision-support-03-implementation.md)**
   - Tags: design, documentation, healthcare
 
-- **[Clinical Decision Support Template](/home/user/prompts/healthcare/Clinical-Practice/clinical-practice-decision-support.md)**
+- **[Clinical Decision Support Template](/home/user/prompts/clinical-healthcare/Clinical-Practice/clinical-practice-decision-support.md)**
   - Tags: 
 
-- **[Clinical Decision Support Template Generator](/home/user/prompts/healthcare/clinical-decision-support.md)**
+- **[Clinical Decision Support Template Generator](/home/user/prompts/clinical-healthcare/clinical-decision-support.md)**
   - Tags: design, documentation, healthcare
 
-- **[Clinical Trial Management & Research Protocol Framework](/home/user/prompts/healthcare/Clinical/clinical-trial-management.md)**
+- **[Clinical Trial Management & Research Protocol Framework](/home/user/prompts/clinical-healthcare/Clinical/clinical-trial-management.md)**
   - Tags: 
 
-- **[Clinical Trials Management & Research Protocol Framework](/home/user/prompts/healthcare/clinical-trials-management.md)**
+- **[Clinical Trials Management & Research Protocol Framework](/home/user/prompts/clinical-healthcare/clinical-trials-management.md)**
   - Tags: data-science, design, development
 
-- **[Clinical Trials Template](/home/user/prompts/healthcare/Medical-Research/clinical-trials.md)**
+- **[Clinical Trials Template](/home/user/prompts/clinical-healthcare/Medical-Research/clinical-trials.md)**
   - Tags: 
 
-- **[Community Health Programs Template](/home/user/prompts/healthcare/Public-Health/community-health.md)**
+- **[Community Health Programs Template](/home/user/prompts/clinical-healthcare/Public-Health/community-health.md)**
   - Tags: 
 
-- **[Compliance & Accreditation Management Template](/home/user/prompts/healthcare/Healthcare-Administration/compliance-accreditation.md)**
+- **[Compliance & Accreditation Management Template](/home/user/prompts/clinical-healthcare/Healthcare-Administration/compliance-accreditation.md)**
   - Tags: 
 
-- **[Disease Prevention Strategy & Implementation](/home/user/prompts/healthcare/Public-Health/disease-prevention.md)**
+- **[Disease Prevention Strategy & Implementation](/home/user/prompts/clinical-healthcare/Public-Health/disease-prevention.md)**
   - Tags: healthcare, public-health, disease-prevention
 
-- **[Epidemiological Surveillance Template](/home/user/prompts/healthcare/Public-Health/epidemiology.md)**
+- **[Epidemiological Surveillance Template](/home/user/prompts/clinical-healthcare/Public-Health/epidemiology.md)**
   - Tags: 
 
-- **[Health Education Program Development](/home/user/prompts/healthcare/Public-Health/health-education.md)**
+- **[Health Education Program Development](/home/user/prompts/clinical-healthcare/Public-Health/health-education.md)**
   - Tags: healthcare, public-health, health-education
 
-- **[Health Policy & Advocacy Template](/home/user/prompts/healthcare/Public-Health/health-policy.md)**
+- **[Health Policy & Advocacy Template](/home/user/prompts/clinical-healthcare/Public-Health/health-policy.md)**
   - Tags: 
 
-- **[Healthcare Policy Development Template](/home/user/prompts/healthcare/Healthcare-Administration/healthcare-policy-development.md)**
+- **[Healthcare Policy Development Template](/home/user/prompts/clinical-healthcare/Healthcare-Administration/healthcare-policy-development.md)**
   - Tags: 
 
-- **[Healthcare Revenue Cycle Management Framework](/home/user/prompts/healthcare/Healthcare-Operations/revenue-cycle.md)**
+- **[Healthcare Revenue Cycle Management Framework](/home/user/prompts/clinical-healthcare/Healthcare-Operations/revenue-cycle.md)**
   - Tags: 
 
-- **[Literature Analysis Template](/home/user/prompts/healthcare/Medical-Research/literature-analysis.md)**
+- **[Literature Analysis Template](/home/user/prompts/clinical-healthcare/Medical-Research/literature-analysis.md)**
   - Tags: data-science, healthcare, management
 
-- **[Meal Planning - Comprehensive Prompt Template](/home/user/prompts/healthcare/Nutrition-Fitness/wellness-meal-planning.md)**
+- **[Meal Planning - Comprehensive Prompt Template](/home/user/prompts/clinical-healthcare/Nutrition-Fitness/wellness-meal-planning.md)**
   - Tags: comprehensive, design, healthcare
 
-- **[Meal Planning Template](/home/user/prompts/healthcare/Nutrition-Fitness/meal-planning.md)**
+- **[Meal Planning Template](/home/user/prompts/clinical-healthcare/Nutrition-Fitness/meal-planning.md)**
   - Tags: design, development, healthcare
 
-- **[Medical Diagnosis - Comprehensive Prompt Template](/home/user/prompts/healthcare/Medical-Clinical/wellness-medical-diagnosis.md)**
+- **[Medical Diagnosis - Comprehensive Prompt Template](/home/user/prompts/clinical-healthcare/Medical-Clinical/wellness-medical-diagnosis.md)**
   - Tags: comprehensive, data-science, design
 
-- **[Medical Diagnosis Template](/home/user/prompts/healthcare/Medical-Clinical/medical-diagnosis.md)**
+- **[Medical Diagnosis Template](/home/user/prompts/clinical-healthcare/Medical-Clinical/medical-diagnosis.md)**
   - Tags: 
 
-- **[Mental Health Treatment Plan](/home/user/prompts/healthcare/Clinical-Practice/mental-health-treatment-plan.md)**
+- **[Mental Health Treatment Plan](/home/user/prompts/clinical-healthcare/Clinical-Practice/mental-health-treatment-plan.md)**
   - Tags: healthcare, mental-health, psychiatry
 
-- **[Patient Care Management & Clinical Documentation Framework](/home/user/prompts/healthcare/patient-care-management.md)**
+- **[Patient Care Management & Clinical Documentation Framework](/home/user/prompts/clinical-healthcare/patient-care-management.md)**
   - Tags: documentation, framework, healthcare
 
-- **[Patient Care Pathway Template](/home/user/prompts/healthcare/patient-care-pathway.md)**
+- **[Patient Care Pathway Template](/home/user/prompts/clinical-healthcare/patient-care-pathway.md)**
   - Tags: data-science, design, healthcare
 
-- **[Patient Care Plans - Comprehensive Prompt Template](/home/user/prompts/healthcare/Medical-Clinical/wellness-patient-care-plans.md)**
+- **[Patient Care Plans - Comprehensive Prompt Template](/home/user/prompts/clinical-healthcare/Medical-Clinical/wellness-patient-care-plans.md)**
   - Tags: comprehensive, design, healthcare
 
-- **[Patient Care Plans Template](/home/user/prompts/healthcare/Medical-Clinical/patient-care-plans.md)**
+- **[Patient Care Plans Template](/home/user/prompts/clinical-healthcare/Medical-Clinical/patient-care-plans.md)**
   - Tags: design, documentation, healthcare
 
-- **[Patient Communication Template](/home/user/prompts/healthcare/Clinical-Practice/patient-communication.md)**
+- **[Patient Communication Template](/home/user/prompts/clinical-healthcare/Clinical-Practice/patient-communication.md)**
   - Tags: 
 
-- **[Patient Documentation Template](/home/user/prompts/healthcare/Clinical-Practice/patient-documentation.md)**
+- **[Patient Documentation Template](/home/user/prompts/clinical-healthcare/Clinical-Practice/patient-documentation.md)**
   - Tags: 
 
-- **[Patient Safety Programs Template](/home/user/prompts/healthcare/Healthcare-Administration/patient-safety.md)**
+- **[Patient Safety Programs Template](/home/user/prompts/clinical-healthcare/Healthcare-Administration/patient-safety.md)**
   - Tags: 
 
-- **[Publication Preparation Template](/home/user/prompts/healthcare/Medical-Research/publication-preparation.md)**
+- **[Publication Preparation Template](/home/user/prompts/clinical-healthcare/Medical-Research/publication-preparation.md)**
   - Tags: 
 
-- **[Quality Improvement Programs Template](/home/user/prompts/healthcare/Healthcare-Administration/quality-improvement.md)**
+- **[Quality Improvement Programs Template](/home/user/prompts/clinical-healthcare/Healthcare-Administration/quality-improvement.md)**
   - Tags: 
 
-- **[Referrals and Consultations Template](/home/user/prompts/healthcare/Clinical-Practice/referrals-consultations.md)**
+- **[Referrals and Consultations Template](/home/user/prompts/clinical-healthcare/Clinical-Practice/referrals-consultations.md)**
   - Tags: 
 
-- **[Regulatory Submissions Template](/home/user/prompts/healthcare/Medical-Research/regulatory-submissions.md)**
+- **[Regulatory Submissions Template](/home/user/prompts/clinical-healthcare/Medical-Research/regulatory-submissions.md)**
   - Tags: 
 
-- **[Resource Management Optimization Template](/home/user/prompts/healthcare/Healthcare-Administration/healthcare-resource-management.md)**
+- **[Resource Management Optimization Template](/home/user/prompts/clinical-healthcare/Healthcare-Administration/healthcare-resource-management.md)**
   - Tags: 
 
-- **[Surgical Treatment Plan](/home/user/prompts/healthcare/Clinical-Practice/surgical-treatment-plan.md)**
+- **[Surgical Treatment Plan](/home/user/prompts/clinical-healthcare/Clinical-Practice/surgical-treatment-plan.md)**
   - Tags: healthcare, surgery, perioperative
 
-- **[Telemedicine & Virtual Care Delivery Framework](/home/user/prompts/healthcare/Digital-Health/telemedicine.md)**
+- **[Telemedicine & Virtual Care Delivery Framework](/home/user/prompts/clinical-healthcare/Digital-Health/telemedicine.md)**
   - Tags: 
 
-- **[Telemedicine Platform Design - Overview & Navigation](/home/user/prompts/healthcare/telemedicine-overview.md)**
+- **[Telemedicine Platform Design - Overview & Navigation](/home/user/prompts/clinical-healthcare/telemedicine-overview.md)**
   - Tags: 
 
-- **[Telemedicine Platform Design - Part 1: Service Model & Technology Architecture](/home/user/prompts/healthcare/telemedicine-01-service-technology.md)**
+- **[Telemedicine Platform Design - Part 1: Service Model & Technology Architecture](/home/user/prompts/clinical-healthcare/telemedicine-01-service-technology.md)**
   - Tags: design, healthcare, telemedicine
 
-- **[Telemedicine Platform Design - Part 2: Clinical Quality & Regulatory Compliance](/home/user/prompts/healthcare/telemedicine-02-quality-compliance.md)**
+- **[Telemedicine Platform Design - Part 2: Clinical Quality & Regulatory Compliance](/home/user/prompts/clinical-healthcare/telemedicine-02-quality-compliance.md)**
   - Tags: healthcare, telemedicine, quality
 
-- **[Telemedicine Platform Design - Part 3: Implementation & Scaling Strategies](/home/user/prompts/healthcare/telemedicine-03-implementation-scaling.md)**
+- **[Telemedicine Platform Design - Part 3: Implementation & Scaling Strategies](/home/user/prompts/clinical-healthcare/telemedicine-03-implementation-scaling.md)**
   - Tags: healthcare, telemedicine, implementation
 
-- **[Telemedicine Platform Design Template Generator](/home/user/prompts/healthcare/telemedicine-platform-design.md)**
+- **[Telemedicine Platform Design Template Generator](/home/user/prompts/clinical-healthcare/telemedicine-platform-design.md)**
   - Tags: design, healthcare, management
 
-- **[Treatment Planning Overview](/home/user/prompts/healthcare/Clinical-Practice/treatment-planning-overview.md)**
+- **[Treatment Planning Overview](/home/user/prompts/clinical-healthcare/Clinical-Practice/treatment-planning-overview.md)**
   - Tags: healthcare, navigation, overview
 
-- **[Workout Programs - Comprehensive Prompt Template](/home/user/prompts/healthcare/Nutrition-Fitness/wellness-workout-programs.md)**
+- **[Workout Programs - Comprehensive Prompt Template](/home/user/prompts/clinical-healthcare/Nutrition-Fitness/wellness-workout-programs.md)**
   - Tags: comprehensive, data-science, design
 
-- **[Workout Programs Template](/home/user/prompts/healthcare/Nutrition-Fitness/workout-programs.md)**
+- **[Workout Programs Template](/home/user/prompts/clinical-healthcare/Nutrition-Fitness/workout-programs.md)**
   - Tags: 
 
-- **[🏥 Healthcare & Life Sciences](/home/user/prompts/healthcare/README.md)**
+- **[🏥 Healthcare & Life Sciences](/home/user/prompts/clinical-healthcare/README.md)**
 
 ### Personal
 

@@ -1,19 +1,28 @@
 ---
-title: Meeting Management Framework - Part 1: Preparation & Structure
+title: 'Meeting Management Framework - Part 1: Preparation & Structure'
 category: communication
-tags: [communication, design, framework, machine-learning, management, optimization, professional-services, strategy]
+tags:
+- communication
+- design
+- framework
+- ai-ml
+- management
+- optimization
+- professional-services
+- strategy
 series: meeting-management-framework
 part: 1 of 3
 related_parts:
-  - meeting-management-framework-02-facilitation-engagement.md
-  - meeting-management-framework-03-followup-improvement.md
-  - meeting-management-framework-overview.md
+- meeting-management-framework-02-facilitation-engagement.md
+- meeting-management-framework-03-followup-improvement.md
+- meeting-management-framework-overview.md
 use_cases:
-  - Designing meeting strategies and frameworks for organizational communication
-  - Selecting and integrating collaboration technology platforms
-  - Creating effective meeting agendas and participant selection criteria
-  - Planning meeting logistics and governance structures
+- Designing meeting strategies and frameworks for organizational communication
+- Selecting and integrating collaboration technology platforms
+- Creating effective meeting agendas and participant selection criteria
+- Planning meeting logistics and governance structures
 last_updated: 2025-11-11
+
 ---
 
 # Meeting Management Framework - Part 1: Preparation & Structure

@@ -1,15 +1,24 @@
 ---
-title: Dashboard Design Patterns - Part 3: Testing, Deployment & Advanced Features
+title: 'Dashboard Design Patterns - Part 3: Testing, Deployment & Advanced Features'
 category: data-analytics
-tags: [data-analytics, deployment, machine-learning, optimization, strategy, template]
+tags:
+- data-analytics
+- deployment
+- ai-ml
+- optimization
+- strategy
+- template
 use_cases:
-  - Implementing dashboard deployment strategies, managing organizational change and adoption, measuring success and optimization, planning advanced features and future evolution
-  - Dashboard deployment
-  - Change management and adoption
+- Implementing dashboard deployment strategies, managing organizational change and
+  adoption, measuring success and optimization, planning advanced features and future
+  evolution
+- Dashboard deployment
+- Change management and adoption
 related_prompts:
-  - dashboard-design-patterns-01-strategy.md
-  - dashboard-design-patterns-02-ux-technical.md
+- dashboard-design-patterns-01-strategy.md
+- dashboard-design-patterns-02-ux-technical.md
 last_updated: 2025-11-11
+
 ---
 
 # Dashboard Design Patterns - Part 3: Testing, Deployment & Advanced Features
