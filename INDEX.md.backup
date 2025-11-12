@@ -1,11 +1,11 @@
 # Prompts Database Index
-*Last updated: 2025-11-12 04:00:10*
+*Last updated: 2025-11-11 22:49:39*
 
 ## Statistics
 
-- **Total Templates:** 583
-- **Main Categories:** 26
-- **Subcategories:** 130
+- **Total Templates:** 507
+- **Main Categories:** 21
+- **Subcategories:** 104
 
 ## Table of Contents
 
@@ -20,37 +20,9 @@
 - [Long_Prompts_Assessment](templates/LONG_PROMPTS_ASSESSMENT.md) - `.templates/LONG_PROMPTS_ASSESSMENT.md`
 - [Quick_Start_Template](templates/QUICK_START_TEMPLATE.md) - `.templates/QUICK_START_TEMPLATE.md`
 
-### Database_Improvements_2025 11 11.Md (1)
-
-- [Database_Improvements_2025 11 11](DATABASE_IMPROVEMENTS_2025-11-11.md) - `DATABASE_IMPROVEMENTS_2025-11-11.md`
-
 ### Improvements_Summary_2025 11 11.Md (1)
 
 - [Improvements_Summary_2025 11 11](IMPROVEMENTS_SUMMARY_2025-11-11.md) - `IMPROVEMENTS_SUMMARY_2025-11-11.md`
-
-### Priority_3_Government_Nonprofit_Expansion.Md (1)
-
-- [Priority_3_Government_Nonprofit_Expansion](PRIORITY_3_GOVERNMENT_NONPROFIT_EXPANSION.md) - `PRIORITY_3_GOVERNMENT_NONPROFIT_EXPANSION.md`
-
-### Ai Ml Applications (17)
-
-- [AI Agents & Autonomous Systems](ai-ml-applications/LLM-Applications/ai-agents-autonomous-systems.md) - `ai-ml-applications/LLM-Applications`
-- [AI Cost Optimization TITLE_PLACEHOLDER Management](ai-ml-applications/MLOps-Deployment/ai-cost-optimization.md) - `ai-ml-applications/MLOps-Deployment`
-- [AI Data Strategy TITLE_PLACEHOLDER Management](ai-ml-applications/AI-Product-Development/ai-data-strategy.md) - `ai-ml-applications/AI-Product-Development`
-- [AI Feature Development & Integration](ai-ml-applications/AI-Product-Development/ai-feature-development.md) - `ai-ml-applications/AI-Product-Development`
-- [AI Monitoring TITLE_PLACEHOLDER Observability](ai-ml-applications/MLOps-Deployment/ai-monitoring-observability.md) - `ai-ml-applications/MLOps-Deployment`
-- [AI Performance Optimization](ai-ml-applications/MLOps-Deployment/ai-performance-optimization.md) - `ai-ml-applications/MLOps-Deployment`
-- [AI Product Evaluation TITLE_PLACEHOLDER Quality Measurement](ai-ml-applications/AI-Product-Development/ai-product-evaluation.md) - `ai-ml-applications/AI-Product-Development`
-- [AI Product Strategy & Vision](ai-ml-applications/AI-Product-Development/ai-product-strategy.md) - `ai-ml-applications/AI-Product-Development`
-- [AI UX & Interaction Design](ai-ml-applications/AI-Product-Development/ai-ux-interaction-design.md) - `ai-ml-applications/AI-Product-Development`
-- [AI Use Case Identification TITLE_PLACEHOLDER Prioritization](ai-ml-applications/AI-Strategy/ai-use-case-identification.md) - `ai-ml-applications/AI-Strategy`
-- [Conversational AI & Chatbot Development](ai-ml-applications/LLM-Applications/conversational-ai-chatbots.md) - `ai-ml-applications/LLM-Applications`
-- [LLM Application Development](ai-ml-applications/LLM-Applications/llm-application-development.md) - `ai-ml-applications/LLM-Applications`
-- [LLM Fine-Tuning & Customization](ai-ml-applications/LLM-Applications/llm-fine-tuning.md) - `ai-ml-applications/LLM-Applications`
-- [MLOps TITLE_PLACEHOLDER Model Deployment](ai-ml-applications/MLOps-Deployment/mlops-model-deployment.md) - `ai-ml-applications/MLOps-Deployment`
-- [Prompt Engineering & Optimization Workflows](ai-ml-applications/LLM-Applications/prompt-engineering-workflows.md) - `ai-ml-applications/LLM-Applications`
-- [RAG (Retrieval Augmented Generation) Systems](ai-ml-applications/LLM-Applications/rag-systems.md) - `ai-ml-applications/LLM-Applications`
-- [Responsible AI TITLE_PLACEHOLDER Ethics](ai-ml-applications/AI-Product-Development/responsible-ai-ethics.md) - `ai-ml-applications/AI-Product-Development`
 
 ### Communication (33)
 
@@ -297,17 +269,11 @@
 - [Wealth Management Strategy - Complete Overview & Navigation](finance/wealth-management-overview.md) - `finance`
 - [Wealth Management Strategy Template Generator](finance/wealth-management-strategy.md) - `finance`
 
-### Government (19)
+### Government (10)
 
 - [Citizen Engagement Template](government/Public-Services/citizen-engagement.md) - `government/Public-Services`
 - [Citizen Services & Digital Government Framework](government/Federal-State/citizen-services.md) - `government/Federal-State`
-- [Emergency Management & Response Planning](government/Emergency-Management/emergency-response-planning.md) - `government/Emergency-Management`
-- [Government Digital Services & IT Modernization](government/Digital-Services/digital-services-modernization.md) - `government/Digital-Services`
-- [Government Ethics & Accountability](government/government-ethics-accountability.md) - `government`
 - [Government Policy Development & Implementation Framework](government/Federal-State/government-policy-development.md) - `government/Federal-State`
-- [Interagency Coordination & Collaboration](government/interagency-coordination.md) - `government`
-- [Legislative Affairs & Bill Analysis](government/Legislative-Affairs/legislative-strategy.md) - `government/Legislative-Affairs`
-- [Open Government & Transparency](government/open-government-transparency.md) - `government`
 - [Policy Development Template](government/policy-development.md) - `government`
 - [Policy Impact Assessment](government/Policy-Development/policy-impact-assessment.md) - `government/Policy-Development`
 - [Policy Implementation Planning](government/Policy-Development/policy-implementation-planning.md) - `government/Policy-Development`
@@ -315,9 +281,6 @@
 - [Policy Research & Analysis](government/Policy-Development/policy-research-analysis.md) - `government/Policy-Development`
 - [Policy Research & Analysis Framework](government/policy-research-framework.md) - `government`
 - [Policy Research Overview & Navigation](government/Policy-Development/policy-research-overview.md) - `government/Policy-Development`
-- [Public Financial Management & Budgeting](government/public-financial-management.md) - `government`
-- [Public Procurement & Contracting](government/Procurement/public-procurement-contracting.md) - `government/Procurement`
-- [Regulatory Compliance & Enforcement](government/Regulatory/regulatory-compliance-enforcement.md) - `government/Regulatory`
 
 ### Healthcare (48)
 
@@ -417,25 +380,17 @@
 - [Investigative Reporting Framework](media-journalism/investigative-reporting.md) - `media-journalism`
 - [Podcasting Strategy & Production Framework](media-journalism/podcasting-strategy.md) - `media-journalism`
 
-### Nonprofit (17)
+### Nonprofit (9)
 
-- [Advocacy Campaign Design & Execution](nonprofit/advocacy-campaign-design.md) - `nonprofit/Advocacy-Policy`
 - [Advocacy Campaign Strategy Framework](nonprofit/Advocacy-Policy/campaign-strategy.md) - `nonprofit/Advocacy-Policy`
-- [Coalition Building & Collective Impact](nonprofit/coalition-building.md) - `nonprofit/Partnerships`
-- [Corporate Partnerships & Sponsorships](nonprofit/corporate-partnerships.md) - `nonprofit/Partnerships`
-- [Donor Cultivation & Stewardship](nonprofit/Donor-Relations/donor-cultivation-stewardship.md) - `nonprofit/Donor-Relations`
 - [Donor Engagement & Stewardship System](nonprofit/Fundraising-Development/donor-engagement.md) - `nonprofit/Fundraising-Development`
 - [Fundraising Campaign & Donor Management Framework](nonprofit/fundraising-campaign-framework.md) - `nonprofit`
 - [Grant Writing & Proposal Development Framework](nonprofit/Fundraising-Development/nonprofit-grant-writing.md) - `nonprofit/Fundraising-Development`
 - [Major Gifts Fundraising Strategy Framework](nonprofit/Fundraising-Development/major-gifts.md) - `nonprofit/Fundraising-Development`
-- [Nonprofit Board Development & Governance](nonprofit/Board-Governance/board-development-governance.md) - `nonprofit/Board-Governance`
-- [Nonprofit Communications Strategy](nonprofit/nonprofit-communications-strategy.md) - `nonprofit/Communications`
 - [Program Evaluation Template](nonprofit/program-evaluation.md) - `nonprofit`
-- [Social Enterprise & Earned Income](nonprofit/social-enterprise-earned-income.md) - `nonprofit`
 - [Social Impact Measurement & Evaluation Framework](nonprofit/Program-Management/impact-measurement.md) - `nonprofit/Program-Management`
 - [Theory of Change Development Framework](nonprofit/Program-Management/theory-of-change.md) - `nonprofit/Program-Management`
 - [Volunteer Management & Engagement System](nonprofit/Program-Management/volunteer-management.md) - `nonprofit/Program-Management`
-- [Volunteer Recruitment & Management](nonprofit/volunteer-recruitment-management.md) - `nonprofit/Program-Management`
 
 ### Operations (39)
 
@@ -454,8 +409,8 @@
 - [Logistics Optimization & Supply Chain Transportation Framework](operations/Transportation-Logistics/logistics-optimization.md) - `operations`
 - [Plant Operations & Industrial Facility Management Framework](operations/Energy-Utilities/plant-operations-management.md) - `operations`
 - [Precision Agriculture & Crop Optimization Framework](operations/Agriculture/crop-optimization.md) - `operations`
-- [Precision Agriculture & Smart Farming Framework](operations/Agriculture/precision-agriculture-system.md) - `operations`
 - [Precision Agriculture & Smart Farming Framework](operations/Agriculture/precision-agriculture-framework.md) - `operations`
+- [Precision Agriculture & Smart Farming Framework](operations/Agriculture/precision-agriculture-system.md) - `operations`
 - [Process Automation Framework & Implementation Strategy](operations/process-automation-framework.md) - `operations`
 - [Process Optimization Template Generator](operations/process-optimization.md) - `operations`
 - [Production Planning & Scheduling Framework](operations/Manufacturing/production-planning.md) - `operations`
@@ -512,24 +467,6 @@
 - [Tax Planning Template](personal/Financial-Management/tax-planning.md) - `personal/Financial-Management`
 - [Travel Planning Template](personal/Lifestyle-Hobbies/travel-planning.md) - `personal/Lifestyle-Hobbies`
 
-### Product Management (15)
-
-- [A/B Testing & Experimentation](product-management/Product-Analytics/ab-testing-experimentation.md) - `product-management/Product-Analytics`
-- [Feature Prioritization Framework](product-management/Product-Development/feature-prioritization.md) - `product-management/Product-Development`
-- [Go-to-Market (GTM) Planning](product-management/Product-Development/go-to-market-planning.md) - `product-management/Product-Development`
-- [Market & Competitive Analysis](product-management/Product-Strategy/market-competitive-analysis.md) - `product-management/Product-Strategy`
-- [Pricing Strategy & Packaging](product-management/Product-Strategy/pricing-strategy.md) - `product-management/Product-Strategy`
-- [Product Analytics Infrastructure & Framework](product-management/Product-Analytics/product-analytics-framework.md) - `product-management/Product-Analytics`
-- [Product Launch Execution](product-management/Product-Development/product-launch-execution.md) - `product-management/Product-Development`
-- [Product Metrics & KPIs Framework](product-management/Product-Analytics/product-metrics-kpis.md) - `product-management/Product-Analytics`
-- [Product Requirements Document (PRD)](product-management/Product-Development/product-requirements-document.md) - `product-management/Product-Development`
-- [Product Roadmapping & Planning](product-management/Product-Strategy/product-roadmapping.md) - `product-management/Product-Strategy`
-- [Product Strategy & Vision Development](product-management/Product-Strategy/product-strategy-vision.md) - `product-management/Product-Strategy`
-- [Product-Market Fit Assessment & Achievement](product-management/Product-Strategy/product-market-fit.md) - `product-management/Product-Strategy`
-- [Stakeholder Management & Communication](product-management/Product-Development/stakeholder-management.md) - `product-management/Product-Development`
-- [User Behavior Analysis](product-management/Product-Analytics/user-behavior-analysis.md) - `product-management/Product-Analytics`
-- [User Research & Persona Development](product-management/Product-Development/user-research-personas.md) - `product-management/Product-Development`
-
 ### Sales Marketing (37)
 
 - [Ad Copy Template](sales-marketing/Marketing-Creative/ad-copy.md) - `sales-marketing/Marketing-Creative`
@@ -570,28 +507,16 @@
 - [Retail Pricing Strategy & Revenue Optimization Framework](sales-marketing/Retail-Ecommerce/pricing-strategy.md) - `sales-marketing`
 - [Site Analysis Template](sales-marketing/Real-Estate/site-analysis.md) - `sales-marketing`
 
-### Security (20)
+### Security (8)
 
-- [API Security Framework & Testing](security/Application-Security/api-security-framework.md) - `security/Application-Security`
-- [Cloud Security Architecture Framework](security/Cloud-Security/cloud-security-architecture.md) - `security/Cloud-Security`
 - [Compliance Management Template](security/Cybersecurity/cybersecurity-compliance-management.md) - `security/Cybersecurity`
 - [Comprehensive Security Audit Framework Template](security/Cybersecurity/security-audit.md) - `security/Cybersecurity`
 - [Cybersecurity Incident Response & Threat Management Framework](security/cybersecurity-incident-response.md) - `security`
 - [Cybersecurity Operations & Threat Management Framework](security/Cybersecurity/security-operations.md) - `security/Cybersecurity`
 - [Incident Response Template](security/Cybersecurity/incident-response.md) - `security/Cybersecurity`
-- [Kubernetes Security Framework](security/Cloud-Security/kubernetes-security.md) - `security/Cloud-Security`
-- [Network Security Architecture Framework](security/Network-Security/network-security-architecture.md) - `security/Network-Security`
-- [Penetration Testing Framework](security/Security-Operations/penetration-testing.md) - `security/Security-Operations`
-- [Privileged Access Management (PAM)](security/Identity-Access-Management/privileged-access-management.md) - `security/Identity-Access-Management`
-- [SIEM & Security Monitoring Framework](security/Security-Operations/siem-security-monitoring.md) - `security/Security-Operations`
-- [Secure Code Review Framework](security/Application-Security/secure-code-review.md) - `security/Application-Security`
 - [Security Architecture Template](security/Cybersecurity/security-architecture.md) - `security/Cybersecurity`
 - [Security Assessment Template](security/Cybersecurity/security-assessment.md) - `security/Cybersecurity`
-- [Security Compliance Framework (SOC 2, ISO 27001, HIPAA, PCI-DSS)](security/Compliance-Governance/security-compliance-framework.md) - `security/Compliance-Governance`
 - [Threat Intelligence Template](security/Cybersecurity/threat-intelligence.md) - `security/Cybersecurity`
-- [Threat Modeling Framework](security/Cybersecurity/threat-modeling.md) - `security/Cybersecurity`
-- [Vulnerability Management Program](security/Security-Operations/vulnerability-management.md) - `security/Security-Operations`
-- [Zero Trust Architecture Implementation](security/Identity-Access-Management/zero-trust-architecture.md) - `security/Identity-Access-Management`
 
 ### Strategy (12)
 
@@ -607,22 +532,6 @@
 - [Performance Management Template Generator](strategy/strategic-performance-management.md) - `strategy`
 - [Risk Management Template Generator](strategy/risk-management.md) - `strategy`
 - [SWOT Analysis Strategic Assessment Framework](strategy/swot-analysis-template.md) - `strategy`
-
-### Sustainability (13)
-
-- [Carbon Footprint & GHG Accounting](sustainability/Climate-Environment/carbon-footprint-accounting.md) - `sustainability/Climate-Environment`
-- [Circular Economy Strategy & Business Model Design](sustainability/Circular-Economy/circular-economy-strategy.md) - `sustainability/Circular-Economy`
-- [Climate Strategy & Net Zero Planning](sustainability/Climate-Environment/climate-strategy-net-zero.md) - `sustainability/Climate-Environment`
-- [Diversity, Equity & Inclusion (DEI) Programs](sustainability/Social-Impact/dei-programs.md) - `sustainability/Social-Impact`
-- [ESG Performance Metrics & KPIs](sustainability/ESG-Strategy/esg-performance-metrics.md) - `sustainability/ESG-Strategy`
-- [ESG Reporting & Disclosure](sustainability/ESG-Strategy/esg-reporting-disclosure.md) - `sustainability/ESG-Strategy`
-- [ESG Risk Assessment & Management](sustainability/ESG-Strategy/esg-risk-assessment.md) - `sustainability/ESG-Strategy`
-- [ESG Strategy Framework](sustainability/ESG-Strategy/esg-strategy-framework.md) - `sustainability/ESG-Strategy`
-- [Environmental Impact Assessment & Management](sustainability/Climate-Environment/environmental-impact-assessment.md) - `sustainability/Climate-Environment`
-- [Renewable Energy Transition Strategy](sustainability/Climate-Environment/renewable-energy-transition.md) - `sustainability/Climate-Environment`
-- [Stakeholder Engagement & Mapping](sustainability/ESG-Strategy/stakeholder-engagement.md) - `sustainability/ESG-Strategy`
-- [Sustainable & Ethical Supply Chain Management](sustainability/Circular-Economy/sustainable-supply-chain.md) - `sustainability/Circular-Economy`
-- [Waste Reduction & Circular Operations Programs](sustainability/Circular-Economy/waste-reduction-programs.md) - `sustainability/Circular-Economy`
 
 ### Technology (49)
 
@@ -647,8 +556,8 @@
 - [Database Management Template](technology/Data-Engineering/database-management.md) - `technology/Data-Engineering`
 - [DeFi Protocol Design & Implementation Framework](technology/Emerging-Technologies/Blockchain-Web3/defi-protocols.md) - `technology/Emerging-Technologies/Blockchain-Web3`
 - [Frontend Development & Web Application Framework](technology/Software-Development/frontend-development.md) - `technology/Software-Development`
-- [Game Design & Development Framework](content-creation/Gaming/game-design.md) - `technology`
 - [Game Design & Development Framework](content-creation/Gaming/game-design-framework.md) - `technology`
+- [Game Design & Development Framework](content-creation/Gaming/game-design.md) - `technology`
 - [Game Development Pipeline & Production Framework](content-creation/Gaming/game-development-pipeline.md) - `technology`
 - [Generative AI Implementation - Overview & Navigation](technology/Emerging-Technologies/generative-ai-implementation-overview.md) - `technology/Emerging-Technologies`
 - [Generative AI Implementation Template Generator](technology/Emerging-Technologies/generative-ai-implementation.md) - `technology/Emerging-Technologies`
@@ -686,26 +595,13 @@
 - [5G Network Deployment & Optimization Framework](technology/Telecommunications/5g-network-deployment.md) - `technology/Telecommunications`
 ### A
 
-- [A/B Testing & Experimentation](product-management/Product-Analytics/ab-testing-experimentation.md) - `product-management/Product-Analytics`
 - [A/B Testing & Experimentation Design Framework](data-analytics/Data-Science/experimentation-design.md) - `data-analytics/Data-Science`
 - [Academic Publication Writing Generator](education/Academic-Research/publication-writing.md) - `education/Academic-Research`
 - [Acute Care Treatment Plan](healthcare/Clinical-Practice/acute-care-treatment-plan.md) - `healthcare/Clinical-Practice`
 - [Ad Copy Template](sales-marketing/Marketing-Creative/ad-copy.md) - `sales-marketing/Marketing-Creative`
-- [Advocacy Campaign Design & Execution](nonprofit/advocacy-campaign-design.md) - `nonprofit/Advocacy-Policy`
 - [Advocacy Campaign Strategy Framework](nonprofit/Advocacy-Policy/campaign-strategy.md) - `nonprofit/Advocacy-Policy`
 - [Agile Transformation & Organizational Change Framework](operations/agile-transformation.md) - `operations`
-- [AI Agents & Autonomous Systems](ai-ml-applications/LLM-Applications/ai-agents-autonomous-systems.md) - `ai-ml-applications/LLM-Applications`
-- [AI Cost Optimization TITLE_PLACEHOLDER Management](ai-ml-applications/MLOps-Deployment/ai-cost-optimization.md) - `ai-ml-applications/MLOps-Deployment`
-- [AI Data Strategy TITLE_PLACEHOLDER Management](ai-ml-applications/AI-Product-Development/ai-data-strategy.md) - `ai-ml-applications/AI-Product-Development`
-- [AI Feature Development & Integration](ai-ml-applications/AI-Product-Development/ai-feature-development.md) - `ai-ml-applications/AI-Product-Development`
-- [AI Monitoring TITLE_PLACEHOLDER Observability](ai-ml-applications/MLOps-Deployment/ai-monitoring-observability.md) - `ai-ml-applications/MLOps-Deployment`
-- [AI Performance Optimization](ai-ml-applications/MLOps-Deployment/ai-performance-optimization.md) - `ai-ml-applications/MLOps-Deployment`
-- [AI Product Evaluation TITLE_PLACEHOLDER Quality Measurement](ai-ml-applications/AI-Product-Development/ai-product-evaluation.md) - `ai-ml-applications/AI-Product-Development`
-- [AI Product Strategy & Vision](ai-ml-applications/AI-Product-Development/ai-product-strategy.md) - `ai-ml-applications/AI-Product-Development`
-- [AI Use Case Identification TITLE_PLACEHOLDER Prioritization](ai-ml-applications/AI-Strategy/ai-use-case-identification.md) - `ai-ml-applications/AI-Strategy`
-- [AI UX & Interaction Design](ai-ml-applications/AI-Product-Development/ai-ux-interaction-design.md) - `ai-ml-applications/AI-Product-Development`
 - [Algorithm Selection Template](technology/AI-Machine-Learning/algorithm-selection.md) - `technology/AI-Machine-Learning`
-- [API Security Framework & Testing](security/Application-Security/api-security-framework.md) - `security/Application-Security`
 - [Architecture Design Template](technology/Software-Development/architecture-design.md) - `technology/Software-Development`
 - [Article Writing Template](content-creation/article-writing.md) - `content-creation`
 - [Assessment Design & Evaluation Template](education/Teaching-Instruction/assessment-design.md) - `education/Teaching-Instruction`
@@ -735,7 +631,6 @@
 - [Campaign Development Template Generator](sales-marketing/campaign-development.md) - `sales-marketing`
 - [Candidate Assessment & Selection](human-resources/candidate-assessment-selection.md) - `human-resources`
 - [Candidate Sourcing & Employer Branding](human-resources/candidate-sourcing-branding.md) - `human-resources`
-- [Carbon Footprint & GHG Accounting](sustainability/Climate-Environment/carbon-footprint-accounting.md) - `sustainability/Climate-Environment`
 - [Career Development & Professional Growth Framework](personal/Development/Career-Planning/career-strategy.md) - `personal/Development/Career-Planning`
 - [Career Planning Template](personal/Personal-Development/career-planning.md) - `personal/Personal-Development`
 - [Case Studies Template](healthcare/Medical-Research/case-studies.md) - `healthcare/Medical-Research`
@@ -745,11 +640,9 @@
 - [CI/CD Pipeline & DevOps Automation Framework](technology/cicd-pipeline-framework.md) - `technology`
 - [CI/CD Pipeline Development & Optimization Template](technology/DevOps-Cloud/ci-cd-pipelines.md) - `technology/DevOps-Cloud`
 - [CI/CD Pipelines Template](technology/DevOps-Cloud/cicd-pipelines.md) - `technology/DevOps-Cloud`
-- [Circular Economy Strategy & Business Model Design](sustainability/Circular-Economy/circular-economy-strategy.md) - `sustainability/Circular-Economy`
 - [Citizen Engagement Template](government/Public-Services/citizen-engagement.md) - `government/Public-Services`
 - [Citizen Services & Digital Government Framework](government/Federal-State/citizen-services.md) - `government/Federal-State`
 - [Client Relations Management Prompt Template](communication/client-relations.md) - `communication`
-- [Climate Strategy & Net Zero Planning](sustainability/Climate-Environment/climate-strategy-net-zero.md) - `sustainability/Climate-Environment`
 - [Clinical Decision Support - Overview & Navigation](healthcare/clinical-decision-support-overview.md) - `healthcare`
 - [Clinical Decision Support 01 Knowledge Base](healthcare/clinical-decision-support-01-knowledge-base.md) - `healthcare/clinical-decision-support-01-knowledge-base.md`
 - [Clinical Decision Support 02 Decision Algorithms](healthcare/clinical-decision-support-02-decision-algorithms.md) - `healthcare/clinical-decision-support-02-decision-algorithms.md`
@@ -763,8 +656,6 @@
 - [Cloud Architecture & Multi-Cloud Strategy Framework](technology/cloud-architecture-framework.md) - `technology`
 - [Cloud Architecture Template](technology/DevOps-Cloud/cloud-architecture.md) - `technology/DevOps-Cloud`
 - [Cloud Migration Strategy & Transformation Framework](technology/cloud-migration-strategy.md) - `technology`
-- [Cloud Security Architecture Framework](security/Cloud-Security/cloud-security-architecture.md) - `security/Cloud-Security`
-- [Coalition Building & Collective Impact](nonprofit/coalition-building.md) - `nonprofit/Partnerships`
 - [Code Generation Template](technology/Software-Development/code-generation.md) - `technology/Software-Development`
 - [Comedy Writing Comprehensive Template Generator](content-creation/Entertainment/comedy-writing-comprehensive.md) - `content-creation/Entertainment`
 - [Comedy Writing Template](content-creation/Entertainment/comedy-writing.md) - `content-creation/Entertainment`
@@ -807,8 +698,6 @@
 - [Contract Management & Legal Operations Framework](legal-compliance/corporate-contract-management.md) - `legal-compliance`
 - [Contract Management Template Generator](legal-compliance/contract-management-operations.md) - `legal-compliance`
 - [Contract Negotiation Strategy Framework](legal-compliance/contract-negotiation.md) - `legal-compliance`
-- [Conversational AI & Chatbot Development](ai-ml-applications/LLM-Applications/conversational-ai-chatbots.md) - `ai-ml-applications/LLM-Applications`
-- [Corporate Partnerships & Sponsorships](nonprofit/corporate-partnerships.md) - `nonprofit/Partnerships`
 - [Course Accessibility & Inclusion Designer](education/Teaching-Instruction/course-accessibility-inclusion.md) - `education/Teaching-Instruction`
 - [Course Assessment Strategy Designer](education/Teaching-Instruction/course-assessment-strategy.md) - `education/Teaching-Instruction`
 - [Course Content & Curriculum Mapper](education/Teaching-Instruction/course-content-curriculum.md) - `education/Teaching-Instruction`
@@ -861,7 +750,6 @@
 - [Data Storytelling Narratives Template](data-analytics/Business-Intelligence/data-storytelling.md) - `data-analytics/Business-Intelligence`
 - [Data Visualization & Figures Template](education/Scientific-Communication/data-visualization.md) - `education/Scientific-Communication`
 - [Database Management Template](technology/Data-Engineering/database-management.md) - `technology/Data-Engineering`
-- [Database_Improvements_2025 11 11](DATABASE_IMPROVEMENTS_2025-11-11.md) - `DATABASE_IMPROVEMENTS_2025-11-11.md`
 - [Debt Management Template](personal/Financial-Management/debt-management.md) - `personal/Financial-Management`
 - [Deep Learning & Neural Network Implementation Framework](data-analytics/Advanced-Analytics/deep-learning.md) - `data-analytics/Advanced-Analytics`
 - [DeFi Protocol Design & Implementation Framework](technology/Emerging-Technologies/Blockchain-Web3/defi-protocols.md) - `technology/Emerging-Technologies/Blockchain-Web3`
@@ -871,10 +759,8 @@
 - [Digital Transformation Roadmap & Strategy Framework](strategy/digital-transformation-roadmap.md) - `strategy/strategic-management`
 - [Digital Transformation Strategy & Implementation Framework](strategy/digital-transformation.md) - `strategy`
 - [Disease Prevention Strategy & Implementation](healthcare/Public-Health/disease-prevention.md) - `healthcare/public-health`
-- [Diversity, Equity & Inclusion (DEI) Programs](sustainability/Social-Impact/dei-programs.md) - `sustainability/Social-Impact`
 - [Documentation & Wikis Knowledge Framework Generator](education/Knowledge-Management/knowledge-documentation.md) - `education/Knowledge-Management`
 - [Documentation, Lineage & Governance Template](data-analytics/Analytics-Engineering/analytics-documentation.md) - `data-analytics/Analytics-Engineering`
-- [Donor Cultivation & Stewardship](nonprofit/Donor-Relations/donor-cultivation-stewardship.md) - `nonprofit/Donor-Relations`
 - [Donor Engagement & Stewardship System](nonprofit/Fundraising-Development/donor-engagement.md) - `nonprofit/Fundraising-Development`
 - [Dynamic Pricing & Revenue Optimization Framework](sales-marketing/Retail-Ecommerce/dynamic-pricing-strategy.md) - `sales-marketing`
 ### E
@@ -885,19 +771,13 @@
 - [Email Marketing Comprehensive Template Generator](sales-marketing/Marketing-Creative/email-marketing-comprehensive.md) - `sales-marketing/Marketing-Creative`
 - [Email Marketing Template](sales-marketing/Marketing-Creative/email-marketing.md) - `sales-marketing/Marketing-Creative`
 - [Email Writing Template](personal/Communication-Skills/email-writing.md) - `personal/Communication-Skills`
-- [Emergency Management & Response Planning](government/Emergency-Management/emergency-response-planning.md) - `government/Emergency-Management`
 - [Employee Engagement Program & Culture Development Framework](human-resources/employee-engagement-program.md) - `human-resources`
 - [Employee Relations Template Generator](human-resources/employee-relations.md) - `human-resources`
 - [Energy Efficiency Programs & Demand Side Management](operations/Energy-Utilities/energy-efficiency.md) - `operations`
 - [Enrollment Management Template Generator](education/Higher-Education/enrollment-management.md) - `education/Higher-Education`
 - [Enterprise Digital Transformation Roadmap & Execution Framework](strategy/strategic-digital-transformation-roadmap.md) - `strategy`
 - [Enterprise Risk Management (ERM) Framework](finance/Risk-Management/enterprise-risk-management.md) - `finance/Risk-Management`
-- [Environmental Impact Assessment & Management](sustainability/Climate-Environment/environmental-impact-assessment.md) - `sustainability/Climate-Environment`
 - [Epidemiological Surveillance Template](healthcare/Public-Health/epidemiology.md) - `healthcare/Public-Health`
-- [ESG Performance Metrics & KPIs](sustainability/ESG-Strategy/esg-performance-metrics.md) - `sustainability/ESG-Strategy`
-- [ESG Reporting & Disclosure](sustainability/ESG-Strategy/esg-reporting-disclosure.md) - `sustainability/ESG-Strategy`
-- [ESG Risk Assessment & Management](sustainability/ESG-Strategy/esg-risk-assessment.md) - `sustainability/ESG-Strategy`
-- [ESG Strategy Framework](sustainability/ESG-Strategy/esg-strategy-framework.md) - `sustainability/ESG-Strategy`
 - [Executive Communication & Briefings Prompt Template](communication/executive-communication.md) - `communication`
 - [Experimental Design and Causal Inference Overview](data-analytics/Research-Analytics/experimental-design-overview.md) - `data-analytics/Research-Analytics`
 - [Experimental Design and Testing Template](data-analytics/Research-Analytics/experimental-design.md) - `data-analytics/Research-Analytics`
@@ -909,7 +789,6 @@
 
 - [Fashion Brand Strategy & Collection Development Framework](design/Fashion/fashion-brand-strategy.md) - `design`
 - [Feature Engineering & Selection Template](data-analytics/Data-Science/feature-engineering.md) - `data-analytics/Data-Science`
-- [Feature Prioritization Framework](product-management/Product-Development/feature-prioritization.md) - `product-management/Product-Development`
 - [Feedback Delivery & Performance Communication Prompt Template](communication/feedback-delivery.md) - `communication`
 - [Financial Analysis - Overview & Navigation](finance/Corporate-Finance/financial-analysis-overview.md) - `finance/Corporate-Finance`
 - [Financial Forecasting & Projections](finance/Corporate-Finance/financial-forecasting.md) - `finance/Corporate-Finance`
@@ -927,8 +806,8 @@
 - [Fundraising Campaign & Donor Management Framework](nonprofit/fundraising-campaign-framework.md) - `nonprofit`
 ### G
 
-- [Game Design & Development Framework](content-creation/Gaming/game-design.md) - `technology`
 - [Game Design & Development Framework](content-creation/Gaming/game-design-framework.md) - `technology`
+- [Game Design & Development Framework](content-creation/Gaming/game-design.md) - `technology`
 - [Game Design Template](content-creation/Entertainment/entertainment-game-design.md) - `content-creation/Entertainment`
 - [Game Development Pipeline & Production Framework](content-creation/Gaming/game-development-pipeline.md) - `technology`
 - [Generative AI Implementation - Overview & Navigation](technology/Emerging-Technologies/generative-ai-implementation-overview.md) - `technology/Emerging-Technologies`
@@ -937,10 +816,7 @@
 - [Generative Ai Implementation 03 Governance](technology/Emerging-Technologies/generative-ai-implementation-03-governance.md) - `technology/Emerging-Technologies`
 - [Generative AI Implementation Template Generator](technology/Emerging-Technologies/generative-ai-implementation.md) - `technology/Emerging-Technologies`
 - [Generative AI Template](technology/Emerging-Technologies/Artificial-Intelligence/generative-ai.md) - `technology/Emerging-Technologies/Artificial-Intelligence`
-- [Go-to-Market (GTM) Planning](product-management/Product-Development/go-to-market-planning.md) - `product-management/Product-Development`
 - [Goal Setting Template](personal/Personal-Development/goal-setting.md) - `personal/Personal-Development`
-- [Government Digital Services & IT Modernization](government/Digital-Services/digital-services-modernization.md) - `government/Digital-Services`
-- [Government Ethics & Accountability](government/government-ethics-accountability.md) - `government`
 - [Government Policy Development & Implementation Framework](government/Federal-State/government-policy-development.md) - `government/Federal-State`
 - [Grant Writing & Proposal Development Framework](nonprofit/Fundraising-Development/nonprofit-grant-writing.md) - `nonprofit/Fundraising-Development`
 - [Grant Writing & Proposals Generator](education/Academic-Research/academic-grant-writing.md) - `education/Academic-Research`
@@ -971,7 +847,6 @@
 - [Intellectual Property Management & Protection Framework](legal-compliance/intellectual-property-management.md) - `legal-compliance`
 - [Interactive Media Template](content-creation/Entertainment/interactive-media.md) - `content-creation/Entertainment`
 - [Interactive Prototype Development](design/prototype-development.md) - `design`
-- [Interagency Coordination & Collaboration](government/interagency-coordination.md) - `government`
 - [Inventory Management & Supply Chain Optimization Framework](sales-marketing/Retail-Ecommerce/inventory-management.md) - `sales-marketing`
 - [Investigative Reporting Framework](media-journalism/investigative-reporting.md) - `media-journalism`
 - [Investigative Reporting Framework](media-journalism/News-Production/investigative-reporting.md) - `creative/journalism/News Production`
@@ -988,7 +863,6 @@
 
 - [K-12 Classroom Management & Instructional Framework](education/K-12-Education/classroom-management.md) - `education/K-12-Education`
 - [Knowledge Sharing & Expertise Prompt Template](communication/knowledge-sharing.md) - `communication`
-- [Kubernetes Security Framework](security/Cloud-Security/kubernetes-security.md) - `security/Cloud-Security`
 ### L
 
 - [Landing Pages Comprehensive Template Generator](sales-marketing/Marketing-Creative/landing-pages-comprehensive.md) - `sales-marketing/Marketing-Creative`
@@ -998,7 +872,6 @@
 - [Lean Manufacturing Implementation](operations/Manufacturing/lean-manufacturing.md) - `operations`
 - [Lean Six Sigma Implementation & Process Excellence Framework](operations/lean-six-sigma-implementation.md) - `operations`
 - [Learning Projects Template](personal/Lifestyle-Hobbies/learning-projects.md) - `personal/Lifestyle-Hobbies`
-- [Legislative Affairs & Bill Analysis](government/Legislative-Affairs/legislative-strategy.md) - `government/Legislative-Affairs`
 - [Lesson Planning & Activities Template](education/Teaching-Instruction/lesson-planning.md) - `education/Teaching-Instruction`
 - [Life Optimization & Personal Excellence Framework](personal/Development/life-optimization-framework.md) - `personal/Development`
 - [Literature Analysis Template](healthcare/Medical-Research/literature-analysis.md) - `healthcare/Medical-Research`
@@ -1009,15 +882,12 @@
 - [Literature Review Selection & Quality Assessment](education/Academic-Research/literature-review-selection-quality.md) - `education/Academic-Research`
 - [Literature Reviews - Complete Guide & Navigation](education/Academic-Research/literature-reviews-overview.md) - `education/Academic-Research`
 - [Literature Reviews Template Generator](education/Academic-Research/literature-reviews.md) - `education/Academic-Research`
-- [LLM Application Development](ai-ml-applications/LLM-Applications/llm-application-development.md) - `ai-ml-applications/LLM-Applications`
-- [LLM Fine-Tuning & Customization](ai-ml-applications/LLM-Applications/llm-fine-tuning.md) - `ai-ml-applications/LLM-Applications`
 - [Logistics Optimization & Supply Chain Transportation Framework](operations/Transportation-Logistics/logistics-optimization.md) - `operations`
 - [Long_Prompts_Assessment](templates/LONG_PROMPTS_ASSESSMENT.md) - `.templates/LONG_PROMPTS_ASSESSMENT.md`
 ### M
 
 - [M&A Support Template](legal-compliance/m-and-a-support.md) - `legal-compliance`
 - [Major Gifts Fundraising Strategy Framework](nonprofit/Fundraising-Development/major-gifts.md) - `nonprofit/Fundraising-Development`
-- [Market & Competitive Analysis](product-management/Product-Strategy/market-competitive-analysis.md) - `product-management/Product-Strategy`
 - [Market Analysis Template Generator](strategy/strategic-market-analysis.md) - `strategy`
 - [Market Research Template Generator](sales-marketing/market-research.md) - `sales-marketing`
 - [Marketplace Management Template](sales-marketing/Retail-Ecommerce/marketplace-management.md) - `sales-marketing`
@@ -1037,7 +907,6 @@
 - [Metaverse & Extended Reality (XR) Strategy Framework](technology/Emerging-Technologies/Metaverse-XR/metaverse-strategy.md) - `technology/Emerging-Technologies/Metaverse-XR`
 - [Microservices Architecture Design Framework](technology/microservices-architecture-design.md) - `technology`
 - [MLOps Template](technology/AI-Machine-Learning/mlops.md) - `technology/AI-Machine-Learning`
-- [MLOps TITLE_PLACEHOLDER Model Deployment](ai-ml-applications/MLOps-Deployment/mlops-model-deployment.md) - `ai-ml-applications/MLOps-Deployment`
 - [Mobile Application Development Framework](technology/Software-Development/mobile-development.md) - `technology/Software-Development`
 - [Model Development Template](technology/AI-Machine-Learning/model-development.md) - `technology/AI-Machine-Learning`
 - [Model Evaluation & Validation Framework Template](data-analytics/Data-Science/model-evaluation.md) - `data-analytics/Data-Science`
@@ -1059,17 +928,13 @@
 - [Network Analysis - Paths and Temporal Dynamics](data-analytics/Research-Analytics/network-analysis-paths-temporal.md) - `data-analytics/Research-Analytics`
 - [Network Analysis - Visualization and Reporting](data-analytics/Research-Analytics/network-analysis-visualization.md) - `data-analytics/Research-Analytics`
 - [Network Analysis and Graphs Template](data-analytics/Research-Analytics/network-analysis.md) - `data-analytics/Research-Analytics`
-- [Network Security Architecture Framework](security/Network-Security/network-security-architecture.md) - `security/Network-Security`
 - [Networking Template](personal/Communication-Skills/networking.md) - `personal/Communication-Skills`
-- [Nonprofit Board Development & Governance](nonprofit/Board-Governance/board-development-governance.md) - `nonprofit/Board-Governance`
-- [Nonprofit Communications Strategy](nonprofit/nonprofit-communications-strategy.md) - `nonprofit/Communications`
 - [Nutrition Management Template](personal/Health-Wellness/nutrition-management.md) - `personal/Health-Wellness`
 ### O
 
 - [OKR Implementation & Performance Management Framework](strategy/okr-implementation-framework.md) - `strategy`
 - [Omnichannel Retail Strategy & Integration Framework](sales-marketing/Retail-Ecommerce/omnichannel-strategy.md) - `sales-marketing`
 - [Online Learning Platforms Template](education/Teaching-Instruction/online-learning.md) - `education/Teaching-Instruction`
-- [Open Government & Transparency](government/open-government-transparency.md) - `government`
 - [Optimization Algorithms & Operations Research Framework](data-analytics/Advanced-Analytics/optimization-algorithms.md) - `data-analytics/Advanced-Analytics`
 ### P
 
@@ -1083,7 +948,6 @@
 - [Patient Documentation Template](healthcare/Clinical-Practice/patient-documentation.md) - `healthcare/Clinical-Practice`
 - [Patient Safety Programs Template](healthcare/Healthcare-Administration/patient-safety.md) - `healthcare/Healthcare-Administration`
 - [Peer Review & Critiques Template](education/Scientific-Communication/peer-review.md) - `education/Scientific-Communication`
-- [Penetration Testing Framework](security/Security-Operations/penetration-testing.md) - `security/Security-Operations`
 - [Performance Management & Employee Development Framework](human-resources/hr-performance-management.md) - `human-resources`
 - [Performance Management Template Generator](strategy/strategic-performance-management.md) - `strategy`
 - [Performance Review & Evaluation System Framework](human-resources/performance-review-system.md) - `human-resources`
@@ -1110,8 +974,8 @@
 - [Policy Research Overview & Navigation](government/Policy-Development/policy-research-overview.md) - `government/Policy-Development`
 - [Portfolio Management Template](finance/Corporate-Finance/trading-portfolio-management.md) - `finance/Corporate-Finance`
 - [Precision Agriculture & Crop Optimization Framework](operations/Agriculture/crop-optimization.md) - `operations`
-- [Precision Agriculture & Smart Farming Framework](operations/Agriculture/precision-agriculture-system.md) - `operations`
 - [Precision Agriculture & Smart Farming Framework](operations/Agriculture/precision-agriculture-framework.md) - `operations`
+- [Precision Agriculture & Smart Farming Framework](operations/Agriculture/precision-agriculture-system.md) - `operations`
 - [Predictive Modeling & Machine Learning](data-analytics/Data-Science/predictive-modeling.md) - `data-analytics/data-science`
 - [Predictive Modeling Framework - Overview & Navigation](data-analytics/predictive-modeling-framework-overview.md) - `data-analytics`
 - [Predictive Modeling Framework 01 Data Preparation](data-analytics/predictive-modeling-framework-01-data-preparation.md) - `data-analytics/predictive-modeling-framework-01-data-preparation.md`
@@ -1119,30 +983,17 @@
 - [Predictive Modeling Framework 03 Deployment](data-analytics/predictive-modeling-framework-03-deployment.md) - `data-analytics/predictive-modeling-framework-03-deployment.md`
 - [Predictive Modeling Framework Template Generator](data-analytics/predictive-modeling-framework.md) - `data-analytics`
 - [Press Release & Media Communications Prompt Template](communication/press-releases.md) - `communication`
-- [Pricing Strategy & Packaging](product-management/Product-Strategy/pricing-strategy.md) - `product-management/Product-Strategy`
-- [Priority_3_Government_Nonprofit_Expansion](PRIORITY_3_GOVERNMENT_NONPROFIT_EXPANSION.md) - `PRIORITY_3_GOVERNMENT_NONPROFIT_EXPANSION.md`
-- [Privileged Access Management (PAM)](security/Identity-Access-Management/privileged-access-management.md) - `security/Identity-Access-Management`
 - [Process Automation Framework & Implementation Strategy](operations/process-automation-framework.md) - `operations`
 - [Process Optimization Template Generator](operations/process-optimization.md) - `operations`
-- [Product Analytics Infrastructure & Framework](product-management/Product-Analytics/product-analytics-framework.md) - `product-management/Product-Analytics`
 - [Product Design Template](design/product-design.md) - `design`
-- [Product Launch Execution](product-management/Product-Development/product-launch-execution.md) - `product-management/Product-Development`
-- [Product Metrics & KPIs Framework](product-management/Product-Analytics/product-metrics-kpis.md) - `product-management/Product-Analytics`
-- [Product Requirements Document (PRD)](product-management/Product-Development/product-requirements-document.md) - `product-management/Product-Development`
-- [Product Roadmapping & Planning](product-management/Product-Strategy/product-roadmapping.md) - `product-management/Product-Strategy`
 - [Product Sourcing & Supplier Management Framework](sales-marketing/Retail-Ecommerce/product-sourcing-strategy.md) - `sales-marketing`
-- [Product Strategy & Vision Development](product-management/Product-Strategy/product-strategy-vision.md) - `product-management/Product-Strategy`
-- [Product-Market Fit Assessment & Achievement](product-management/Product-Strategy/product-market-fit.md) - `product-management/Product-Strategy`
 - [Production Planning & Scheduling Framework](operations/Manufacturing/production-planning.md) - `operations`
 - [Program Evaluation Template](nonprofit/program-evaluation.md) - `nonprofit`
 - [Project Management Template Generator](operations/project-management.md) - `operations`
-- [Prompt Engineering & Optimization Workflows](ai-ml-applications/LLM-Applications/prompt-engineering-workflows.md) - `ai-ml-applications/LLM-Applications`
 - [Prompt Engineering Template](technology/AI-Machine-Learning/prompt-engineering.md) - `technology/AI-Machine-Learning`
 - [Property Management & Real Estate Operations Framework](sales-marketing/Real-Estate/property-management-system.md) - `sales-marketing`
 - [Property Management & Tenant Operations Framework](sales-marketing/Real-Estate/tenant-operations.md) - `sales-marketing`
 - [Property Valuation & Appraisal Template](sales-marketing/Real-Estate/property-valuation-appraisal.md) - `sales-marketing`
-- [Public Financial Management & Budgeting](government/public-financial-management.md) - `government`
-- [Public Procurement & Contracting](government/Procurement/public-procurement-contracting.md) - `government/Procurement`
 - [Public Speaking Template](personal/Communication-Skills/public-speaking.md) - `personal/Communication-Skills`
 - [Publication Preparation Template](healthcare/Medical-Research/publication-preparation.md) - `healthcare/Medical-Research`
 ### Q
@@ -1161,14 +1012,12 @@
 - [Quick_Start_Template](templates/QUICK_START_TEMPLATE.md) - `.templates/QUICK_START_TEMPLATE.md`
 ### R
 
-- [RAG (Retrieval Augmented Generation) Systems](ai-ml-applications/LLM-Applications/rag-systems.md) - `ai-ml-applications/LLM-Applications`
 - [Randomization and Power Analysis](data-analytics/Research-Analytics/randomization-and-power-analysis.md) - `data-analytics/Research-Analytics`
 - [Real Estate Investment Analysis Framework](sales-marketing/Real-Estate/investment-analysis.md) - `sales-marketing`
 - [Real Estate Market Analysis & Investment Evaluation Framework](sales-marketing/Real-Estate/real-estate-market-analysis.md) - `sales-marketing`
 - [Recruitment - Overview & Navigation](human-resources/recruitment-overview.md) - `human-resources`
 - [Recruitment Metrics & Optimization](human-resources/recruitment-metrics-optimization.md) - `human-resources`
 - [Referrals and Consultations Template](healthcare/Clinical-Practice/referrals-consultations.md) - `healthcare/Clinical-Practice`
-- [Regulatory Compliance & Enforcement](government/Regulatory/regulatory-compliance-enforcement.md) - `government/Regulatory`
 - [Regulatory Compliance Framework - Overview & Navigation](legal-compliance/regulatory-compliance-framework-overview.md) - `legal-compliance`
 - [Regulatory Compliance Framework 01 Foundation](legal-compliance/regulatory-compliance-framework-01-foundation.md) - `legal-compliance/regulatory-compliance-framework-01-foundation.md`
 - [Regulatory Compliance Framework 02 Risk Monitoring](legal-compliance/regulatory-compliance-framework-02-risk-monitoring.md) - `legal-compliance/regulatory-compliance-framework-02-risk-monitoring.md`
@@ -1178,7 +1027,6 @@
 - [Remote Collaboration & Virtual Team Management Framework](communication/remote-collaboration.md) - `communication`
 - [Renewable Energy Strategy & Implementation Framework](operations/Energy-Utilities/renewable-energy-strategy.md) - `operations`
 - [Renewable Energy System Optimization](operations/Energy-Utilities/renewable-energy.md) - `operations`
-- [Renewable Energy Transition Strategy](sustainability/Climate-Environment/renewable-energy-transition.md) - `sustainability/Climate-Environment`
 - [Report Generation Automation Template](data-analytics/Business-Intelligence/report-generation.md) - `data-analytics/Business-Intelligence`
 - [Research Design - Analysis Framework & Quality Assurance](education/Academic-Research/research-design-analysis-quality.md) - `education/Academic-Research`
 - [Research Design - Ethics, Implementation & Project Management](education/Academic-Research/research-design-ethics-implementation.md) - `education/Academic-Research`
@@ -1190,7 +1038,6 @@
 - [Research Papers & Manuscripts Template](education/Scientific-Communication/research-papers.md) - `education/Scientific-Communication`
 - [Resource Management Optimization Template](healthcare/Healthcare-Administration/healthcare-resource-management.md) - `healthcare/Healthcare-Administration`
 - [Resource Management Template Generator](operations/operations-resource-management.md) - `operations`
-- [Responsible AI TITLE_PLACEHOLDER Ethics](ai-ml-applications/AI-Product-Development/responsible-ai-ethics.md) - `ai-ml-applications/AI-Product-Development`
 - [Results Communication & Insights Template](data-analytics/Data-Science/results-communication.md) - `data-analytics/Data-Science`
 - [Retail Banking Operations & Customer Management Framework](finance/Banking/retail-banking.md) - `finance/Banking`
 - [Retail Pricing Strategy & Revenue Optimization Framework](sales-marketing/Retail-Ecommerce/pricing-strategy.md) - `sales-marketing`
@@ -1210,11 +1057,8 @@
 - [Screening & Interview Process](human-resources/screening-interview-process.md) - `human-resources`
 - [Screenwriting Comprehensive Template Generator](content-creation/Entertainment/screenwriting-comprehensive.md) - `content-creation/Entertainment`
 - [Screenwriting Template](content-creation/Entertainment/screenwriting.md) - `content-creation/Entertainment`
-- [Secure Code Review Framework](security/Application-Security/secure-code-review.md) - `security/Application-Security`
 - [Security Architecture Template](security/Cybersecurity/security-architecture.md) - `security/Cybersecurity`
 - [Security Assessment Template](security/Cybersecurity/security-assessment.md) - `security/Cybersecurity`
-- [Security Compliance Framework (SOC 2, ISO 27001, HIPAA, PCI-DSS)](security/Compliance-Governance/security-compliance-framework.md) - `security/Compliance-Governance`
-- [SIEM & Security Monitoring Framework](security/Security-Operations/siem-security-monitoring.md) - `security/Security-Operations`
 - [Site Analysis Template](sales-marketing/Real-Estate/site-analysis.md) - `sales-marketing`
 - [Site Reliability Engineering & Observability Framework](technology/site-reliability-engineering.md) - `technology`
 - [Site Reliability Engineering Template](technology/DevOps-Cloud/site-reliability.md) - `technology/DevOps-Cloud`
@@ -1226,14 +1070,11 @@
 - [Smart Grid Management & Optimization](operations/Energy-Utilities/grid-management.md) - `operations`
 - [Smart Hotel Operations & Guest Experience Framework](operations/Hospitality/smart-hotel-operations.md) - `operations`
 - [Social Activities Template](personal/Lifestyle-Hobbies/social-activities.md) - `personal/Lifestyle-Hobbies`
-- [Social Enterprise & Earned Income](nonprofit/social-enterprise-earned-income.md) - `nonprofit`
 - [Social Impact Measurement & Evaluation Framework](nonprofit/Program-Management/impact-measurement.md) - `nonprofit/Program-Management`
 - [Social Media Content Template](content-creation/social-media-content.md) - `content-creation`
 - [Social Media Management & Strategy Prompt Template](communication/social-media-management.md) - `communication`
 - [Special Education Services & IEP Management Framework](education/K-12-Education/special-education.md) - `education/K-12-Education`
 - [Sports Team Analytics & Performance Optimization Framework](operations/Sports/team-analytics.md) - `operations/Sports`
-- [Stakeholder Engagement & Mapping](sustainability/ESG-Strategy/stakeholder-engagement.md) - `sustainability/ESG-Strategy`
-- [Stakeholder Management & Communication](product-management/Product-Development/stakeholder-management.md) - `product-management/Product-Development`
 - [Statistical Analysis and Inference Template](data-analytics/Research-Analytics/statistical-analysis.md) - `data-analytics/Research-Analytics`
 - [Status Updates & Reporting Prompt Template](communication/status-updates.md) - `communication`
 - [Student Assessment Template Generator](education/Teaching-Instruction/student-assessment.md) - `education/Teaching-Instruction`
@@ -1244,7 +1085,6 @@
 - [Supply Chain Optimization & Network Design](operations/Transportation-Logistics/logistics-supply-chain-optimization.md) - `operations`
 - [Surgical Treatment Plan](healthcare/Clinical-Practice/surgical-treatment-plan.md) - `healthcare/Clinical-Practice`
 - [Survey Analysis and Design Template](data-analytics/Research-Analytics/survey-analysis.md) - `data-analytics/Research-Analytics`
-- [Sustainable & Ethical Supply Chain Management](sustainability/Circular-Economy/sustainable-supply-chain.md) - `sustainability/Circular-Economy`
 - [Sustainable Fashion & Circular Economy Framework](design/Fashion/sustainable-fashion-strategy.md) - `design`
 - [SWOT Analysis Strategic Assessment Framework](strategy/swot-analysis-template.md) - `strategy`
 ### T
@@ -1272,7 +1112,6 @@
 - [Theory of Change Development Framework](nonprofit/Program-Management/theory-of-change.md) - `nonprofit/Program-Management`
 - [Thought Leadership Content Creation Prompt Template](communication/thought-leadership.md) - `communication`
 - [Threat Intelligence Template](security/Cybersecurity/threat-intelligence.md) - `security/Cybersecurity`
-- [Threat Modeling Framework](security/Cybersecurity/threat-modeling.md) - `security/Cybersecurity`
 - [Time Series Analysis & Forecasting Framework](data-analytics/Advanced-Analytics/time-series-analysis.md) - `data-analytics/Advanced-Analytics`
 - [Training Materials Development Framework Generator](education/Knowledge-Management/training-materials.md) - `education/Knowledge-Management`
 - [Training Programs Template Generator](human-resources/training-programs.md) - `human-resources`
@@ -1284,8 +1123,6 @@
 ### U
 
 - [Usability Testing & Validation Plan](design/usability-testing-plan.md) - `design`
-- [User Behavior Analysis](product-management/Product-Analytics/user-behavior-analysis.md) - `product-management/Product-Analytics`
-- [User Research & Persona Development](product-management/Product-Development/user-research-personas.md) - `product-management/Product-Development`
 - [Utility Billing & Customer Management System](operations/Energy-Utilities/utility-billing.md) - `operations`
 - [UX/UI Design - Overview & Navigation](design/ux-ui-design-overview.md) - `design`
 - [UX/UI Design Template Generator](design/ux-ui-design-comprehensive.md) - `design`
@@ -1296,12 +1133,9 @@
 - [Video Production Pipeline & Content Creation Framework](content-creation/video-production-pipeline.md) - `content-creation`
 - [Video Scripts Template Generator](content-creation/video-scripts.md) - `content-creation`
 - [Volunteer Management & Engagement System](nonprofit/Program-Management/volunteer-management.md) - `nonprofit/Program-Management`
-- [Volunteer Recruitment & Management](nonprofit/volunteer-recruitment-management.md) - `nonprofit/Program-Management`
-- [Vulnerability Management Program](security/Security-Operations/vulnerability-management.md) - `security/Security-Operations`
 ### W
 
 - [Warehouse Management & Distribution Center Framework](operations/Transportation-Logistics/warehouse-management-system.md) - `operations`
-- [Waste Reduction & Circular Operations Programs](sustainability/Circular-Economy/waste-reduction-programs.md) - `sustainability/Circular-Economy`
 - [Wealth Management 01 Foundation Investment](finance/wealth-management-01-foundation-investment.md) - `finance/wealth-management-01-foundation-investment.md`
 - [Wealth Management 02 Tax Retirement Estate](finance/wealth-management-02-tax-retirement-estate.md) - `finance/wealth-management-02-tax-retirement-estate.md`
 - [Wealth Management 03 Risk Implementation](finance/wealth-management-03-risk-implementation.md) - `finance/wealth-management-03-risk-implementation.md`
@@ -1310,40 +1144,32 @@
 - [Wireframe Design & Information Architecture](design/wireframe-design.md) - `design`
 - [Workout Programs - Comprehensive Prompt Template](healthcare/Nutrition-Fitness/wellness-workout-programs.md) - `healthcare/Nutrition-Fitness`
 - [Workout Programs Template](healthcare/Nutrition-Fitness/workout-programs.md) - `healthcare/Nutrition-Fitness`
-### Z
-
-- [Zero Trust Architecture Implementation](security/Identity-Access-Management/zero-trust-architecture.md) - `security/Identity-Access-Management`
 
 ## Category Statistics
 
 | Category | Template Count | Percentage |
 |----------|----------------|------------|
-| Data Analytics | 71 | 12.2% |
-| Education | 49 | 8.4% |
-| Technology | 49 | 8.4% |
-| Healthcare | 48 | 8.2% |
-| Operations | 39 | 6.7% |
-| Sales Marketing | 37 | 6.3% |
-| Communication | 33 | 5.7% |
-| Finance | 31 | 5.3% |
-| Personal | 30 | 5.1% |
-| Content Creation | 21 | 3.6% |
-| Security | 20 | 3.4% |
-| Government | 19 | 3.3% |
-| Legal Compliance | 19 | 3.3% |
-| Nonprofit | 17 | 2.9% |
-| Ai Ml Applications | 17 | 2.9% |
-| Product Management | 15 | 2.6% |
-| Design | 14 | 2.4% |
-| Human Resources | 14 | 2.4% |
-| Sustainability | 13 | 2.2% |
-| Strategy | 12 | 2.1% |
-| Creative | 5 | 0.9% |
-| Media Journalism | 5 | 0.9% |
-| .Templates | 2 | 0.3% |
+| Data Analytics | 71 | 14.0% |
+| Education | 49 | 9.7% |
+| Technology | 49 | 9.7% |
+| Healthcare | 48 | 9.5% |
+| Operations | 39 | 7.7% |
+| Sales Marketing | 37 | 7.3% |
+| Communication | 33 | 6.5% |
+| Finance | 31 | 6.1% |
+| Personal | 30 | 5.9% |
+| Content Creation | 21 | 4.1% |
+| Legal Compliance | 19 | 3.7% |
+| Human Resources | 14 | 2.8% |
+| Design | 14 | 2.8% |
+| Strategy | 12 | 2.4% |
+| Government | 10 | 2.0% |
+| Nonprofit | 9 | 1.8% |
+| Security | 8 | 1.6% |
+| Creative | 5 | 1.0% |
+| Media Journalism | 5 | 1.0% |
+| .Templates | 2 | 0.4% |
 | Improvements_Summary_2025 11 11.Md | 1 | 0.2% |
-| Database_Improvements_2025 11 11.Md | 1 | 0.2% |
-| Priority_3_Government_Nonprofit_Expansion.Md | 1 | 0.2% |
 
 ---
 
