@@ -3,25 +3,26 @@ category: product-management/Product-Strategy
 last_updated: 2025-11-12
 title: Product Roadmapping & Planning
 tags:
-  - product-management
-  - planning
-  - roadmap
-  - strategy
+- product-management
+- planning
+- roadmap
+- strategy
 use_cases:
-  - Creating quarterly and annual product roadmaps that align teams
-  - Prioritizing initiatives across multiple product areas and stakeholders
-  - Communicating product direction to executives, customers, and teams
-  - Balancing short-term execution with long-term strategic vision
+- Creating quarterly and annual product roadmaps that align teams
+- Prioritizing initiatives across multiple product areas and stakeholders
+- Communicating product direction to executives, customers, and teams
+- Balancing short-term execution with long-term strategic vision
 related_templates:
-  - product-management/product-strategy-vision.md
-  - product-management/feature-prioritization.md
-  - strategy/strategic-planning.md
-  - operations/project-management.md
+- product-management/product-strategy-vision.md
+- product-management/feature-prioritization.md
+- strategy/business-planning.md
+- operations/project-management.md
 industries:
-  - technology
-  - finance
-  - healthcare
-  - retail
+- technology
+- finance
+- healthcare
+- retail
+
 ---
 
 # Product Roadmapping & Planning Template

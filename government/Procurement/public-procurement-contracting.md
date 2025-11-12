@@ -3,20 +3,20 @@ category: government/Procurement
 last_updated: 2025-11-11
 title: Public Procurement & Contracting
 tags:
-  - government
-  - operations
-  - legal-compliance
+- government
+- operations
+- legal-compliance
 use_cases:
-  - Managing government procurement processes
-  - Competitive bidding and vendor selection
-  - Contract management and oversight
-  - Ensuring compliance with procurement regulations
+- Managing government procurement processes
+- Competitive bidding and vendor selection
+- Contract management and oversight
+- Ensuring compliance with procurement regulations
 related_templates:
-  - legal-compliance/contract-management.md
-  - communication/vendor-management.md
-  - government/Policy-Development/policy-implementation-planning.md
+- communication/vendor-management.md
+- government/Policy-Development/policy-implementation-planning.md
 industries:
-  - government
+- government
+
 ---
 
 # Public Procurement & Contracting

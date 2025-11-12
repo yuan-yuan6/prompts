@@ -3,26 +3,26 @@ category: ai-ml-applications/AI-Product-Development
 last_updated: 2025-11-12
 title: AI UX & Interaction Design
 tags:
-  - ai-ml
-  - ux-design
-  - interaction-design
-  - user-experience
-  - product-design
+- ai-ml
+- ux-design
+- interaction-design
+- user-experience
+- product-design
 use_cases:
-  - Designing user experiences for AI-powered features
-  - Creating interaction patterns for AI systems
-  - Handling AI uncertainty and errors gracefully
-  - Building trust and transparency in AI products
+- Designing user experiences for AI-powered features
+- Creating interaction patterns for AI systems
+- Handling AI uncertainty and errors gracefully
+- Building trust and transparency in AI products
 related_templates:
-  - ai-ml-applications/ai-feature-development.md
-  - ai-ml-applications/conversational-ai-chatbots.md
-  - design/user-experience-audit.md
+- ai-ml-applications/ai-feature-development.md
+- ai-ml-applications/conversational-ai-chatbots.md
 industries:
-  - technology
-  - finance
-  - healthcare
-  - retail
-  - manufacturing
+- technology
+- finance
+- healthcare
+- retail
+- manufacturing
+
 ---
 
 # AI UX & Interaction Design Template

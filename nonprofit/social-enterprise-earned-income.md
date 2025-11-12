@@ -3,20 +3,20 @@ category: nonprofit
 last_updated: 2025-11-11
 title: Social Enterprise & Earned Income
 tags:
-  - nonprofit
-  - strategy
-  - operations
+- nonprofit
+- strategy
+- operations
 use_cases:
-  - Developing earned income strategies
-  - Starting social enterprises
-  - Mission-aligned business ventures
-  - Nonprofit revenue diversification
+- Developing earned income strategies
+- Starting social enterprises
+- Mission-aligned business ventures
+- Nonprofit revenue diversification
 related_templates:
-  - strategy/business-planning.md
-  - operations/business-model-design.md
-  - nonprofit/Program-Management/impact-measurement.md
+- strategy/business-planning.md
+- nonprofit/Program-Management/impact-measurement.md
 industries:
-  - nonprofit
+- nonprofit
+
 ---
 
 # Social Enterprise & Earned Income

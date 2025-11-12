@@ -3,20 +3,20 @@ category: nonprofit/Board-Governance
 last_updated: 2025-11-11
 title: Nonprofit Board Development & Governance
 tags:
-  - nonprofit
-  - management
-  - strategy
+- nonprofit
+- management
+- strategy
 use_cases:
-  - Building effective nonprofit boards
-  - Board recruitment and onboarding
-  - Governance best practices and compliance
-  - Board engagement and effectiveness
+- Building effective nonprofit boards
+- Board recruitment and onboarding
+- Governance best practices and compliance
+- Board engagement and effectiveness
 related_templates:
-  - nonprofit/Program-Management/theory-of-change.md
-  - strategy/strategic-planning.md
-  - legal-compliance/corporate-governance.md
+- nonprofit/Program-Management/theory-of-change.md
+- strategy/business-planning.md
 industries:
-  - nonprofit
+- nonprofit
+
 ---
 
 # Nonprofit Board Development & Governance

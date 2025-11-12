@@ -14,12 +14,12 @@ use_cases:
 - API security testing and validation
 related_templates:
 - security/Application-Security/secure-code-review.md
-- security/Application-Security/owasp-security-testing.md
 - technology/Software-Development/architecture-design.md
 industries:
 - government
 - healthcare
 - technology
+
 ---
 
 # API Security Framework & Testing

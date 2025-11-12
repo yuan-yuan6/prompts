@@ -3,31 +3,31 @@ category: sustainability/Social-Impact
 last_updated: 2025-11-12
 title: Diversity, Equity & Inclusion (DEI) Programs
 tags:
-  - sustainability
-  - dei
-  - diversity
-  - inclusion
-  - equity
-  - social
-  - hr
+- sustainability
+- dei
+- diversity
+- inclusion
+- equity
+- social
+- hr
 use_cases:
-  - Developing comprehensive DEI strategy and programs
-  - Creating inclusive workplace culture and eliminating bias
-  - Improving workforce diversity across all levels
-  - Addressing pay equity and equitable career advancement
-  - Building inclusive leadership and accountability systems
+- Developing comprehensive DEI strategy and programs
+- Creating inclusive workplace culture and eliminating bias
+- Improving workforce diversity across all levels
+- Addressing pay equity and equitable career advancement
+- Building inclusive leadership and accountability systems
 related_templates:
-  - human-resources/talent-acquisition.md
-  - human-resources/performance-management.md
-  - sustainability/esg-strategy-framework.md
-  - operations/organizational-development.md
+- human-resources/talent-acquisition-strategy.md
+- human-resources/hr-performance-management.md
+- sustainability/esg-strategy-framework.md
 industries:
-  - technology
-  - finance
-  - healthcare
-  - manufacturing
-  - retail
-  - professional-services
+- technology
+- finance
+- healthcare
+- manufacturing
+- retail
+- professional-services
+
 ---
 
 # Diversity, Equity & Inclusion (DEI) Programs Template

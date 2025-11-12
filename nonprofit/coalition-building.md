@@ -3,21 +3,22 @@ category: nonprofit/Partnerships
 last_updated: 2025-11-11
 title: Coalition Building & Collective Impact
 tags:
-  - nonprofit
-  - strategy
-  - collaboration
+- nonprofit
+- strategy
+- collaboration
 use_cases:
-  - Building multi-organization coalitions
-  - Collective impact initiatives
-  - Collaborative problem-solving
-  - Network leadership and coordination
+- Building multi-organization coalitions
+- Collective impact initiatives
+- Collaborative problem-solving
+- Network leadership and coordination
 related_templates:
-  - nonprofit/Advocacy-Policy/campaign-strategy.md
-  - communication/cross-functional-coordination.md
-  - strategy/strategic-planning.md
+- nonprofit/Advocacy-Policy/campaign-strategy.md
+- communication/cross-functional-coordination.md
+- strategy/business-planning.md
 industries:
-  - nonprofit
-  - government
+- nonprofit
+- government
+
 ---
 
 # Coalition Building & Collective Impact

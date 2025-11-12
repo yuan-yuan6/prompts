@@ -3,21 +3,22 @@ category: nonprofit/Communications
 last_updated: 2025-11-11
 title: Nonprofit Communications Strategy
 tags:
-  - nonprofit
-  - communication
-  - marketing
-  - strategy
+- nonprofit
+- communication
+- marketing
+- strategy
 use_cases:
-  - Developing nonprofit communication plans
-  - Brand messaging and storytelling
-  - Multi-channel communications
-  - Stakeholder engagement communications
+- Developing nonprofit communication plans
+- Brand messaging and storytelling
+- Multi-channel communications
+- Stakeholder engagement communications
 related_templates:
-  - communication/thought-leadership.md
-  - sales-marketing/brand-strategy.md
-  - communication/social-media-management.md
+- communication/thought-leadership.md
+- sales-marketing/Marketing-Creative/brand-storytelling-comprehensive.md
+- communication/social-media-management.md
 industries:
-  - nonprofit
+- nonprofit
+
 ---
 
 # Nonprofit Communications Strategy

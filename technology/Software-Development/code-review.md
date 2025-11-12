@@ -2,9 +2,7 @@
 category: technology/software-development
 last_updated: 2025-01-09
 related_templates:
-- api-design.md
 - technology/Software-Development/architecture-design.md
-- testing-strategy.md
 tags:
 - quality-assurance
 - security
@@ -19,6 +17,7 @@ use_cases:
 industries:
 - manufacturing
 - technology
+
 ---
 
 # Code Review Template

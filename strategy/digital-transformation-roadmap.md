@@ -2,7 +2,7 @@
 category: strategy/strategic-management
 last_updated: 2025-01-09
 related_templates:
-- strategic-planning.md
+- strategy/business-planning.md
 - strategy/innovation-strategy.md
 - strategy/growth-strategy.md
 tags:
@@ -21,6 +21,7 @@ industries:
 - manufacturing
 - retail
 - technology
+
 ---
 
 # Digital Transformation Roadmap & Strategy Framework

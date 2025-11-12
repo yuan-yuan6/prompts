@@ -3,21 +3,21 @@ category: government/Regulatory
 last_updated: 2025-11-11
 title: Regulatory Compliance & Enforcement
 tags:
-  - government
-  - legal-compliance
-  - operations
+- government
+- legal-compliance
+- operations
 use_cases:
-  - Developing regulatory compliance programs
-  - Conducting regulatory inspections and audits
-  - Enforcement actions and penalties
-  - Stakeholder compliance assistance
+- Developing regulatory compliance programs
+- Conducting regulatory inspections and audits
+- Enforcement actions and penalties
+- Stakeholder compliance assistance
 related_templates:
-  - legal-compliance/regulatory-compliance.md
-  - government/Policy-Development/policy-implementation-planning.md
+- government/Policy-Development/policy-implementation-planning.md
 industries:
-  - government
-  - finance
-  - healthcare
+- government
+- finance
+- healthcare
+
 ---
 
 # Regulatory Compliance & Enforcement

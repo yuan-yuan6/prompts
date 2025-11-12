@@ -3,22 +3,22 @@ category: government/Emergency-Management
 last_updated: 2025-11-11
 title: Emergency Management & Response Planning
 tags:
-  - government
-  - operations
-  - planning
-  - crisis-management
+- government
+- operations
+- planning
+- crisis-management
 use_cases:
-  - Developing emergency operations plans
-  - Coordinating multi-agency emergency response
-  - Disaster preparedness and mitigation
-  - Crisis communication and public safety
+- Developing emergency operations plans
+- Coordinating multi-agency emergency response
+- Disaster preparedness and mitigation
+- Crisis communication and public safety
 related_templates:
-  - communication/crisis-communication-plan.md
-  - operations/business-continuity-planning.md
-  - government/Public-Services/citizen-engagement.md
+- communication/crisis-communication-plan.md
+- government/Public-Services/citizen-engagement.md
 industries:
-  - government
-  - healthcare
+- government
+- healthcare
+
 ---
 
 # Emergency Management & Response Planning

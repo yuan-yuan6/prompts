@@ -3,7 +3,7 @@ category: finance/Corporate-Finance
 last_updated: 2025-11-09
 related_templates:
 - finance/Corporate-Finance/treasury-management.md
-- financial-analysis.md
+- finance/Corporate-Finance/financial-analysis-overview.md
 - finance/Corporate-Finance/investment-evaluation.md
 tags:
 - design
@@ -19,6 +19,7 @@ industries:
 - government
 - healthcare
 - technology
+
 ---
 
 # Portfolio Management Template

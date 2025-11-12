@@ -1,6 +1,6 @@
 # Prompt Template Library
 
-A comprehensive collection of **375+ professional prompt templates** for AI-powered workflows across industries and use cases.
+A comprehensive collection of **599 professional prompt templates** for AI-powered workflows across industries and use cases.
 
 ## 📚 Overview
 
@@ -12,220 +12,86 @@ This library provides production-ready prompt templates designed for business, t
 - **Customization guidelines**
 - **Best practices and tips**
 
-## 🗂️ Categories
+## 🗂️ Categories (Function-First Organization)
 
-### Business Operations
-**[business/](business/)** - 40 templates
-Strategic planning, operations, finance, sales, marketing, and HR processes.
+### Core Business Functions
 
-<details>
-<summary>View subcategories</summary>
+**[strategy/](strategy/)** - 13 templates
+Strategic planning, market analysis, competitive intelligence, growth strategy
 
-- Finance & Accounting
-- Human Resources
-- Operations & Processes
-- Sales & Marketing
-- Strategic Management
+**[operations/](operations/)** - 40 templates
+Project management, quality assurance, process optimization, supply chain
 
-</details>
+**[finance/](finance/)** - 32 templates
+Corporate finance, banking, investment, risk management, economics
 
-### Creative & Media
-**[creative/](creative/)** - 42 templates
-Content creation, marketing, design, journalism, and arts.
+**[sales-marketing/](sales-marketing/)** - 39 templates
+Sales processes, marketing campaigns, customer engagement, brand management
 
-<details>
-<summary>View subcategories</summary>
+**[human-resources/](human-resources/)** - 15 templates
+Recruitment, performance management, training, compensation, employee relations
 
-- Arts & Culture
-- Content Creation
-- Design & Visual
-- Entertainment
-- Journalism
-- Marketing Creative
-- Social Media
+**[communication/](communication/)** - 34 templates
+Internal/external/stakeholder/crisis communication, press releases, team collaboration
 
-</details>
+**[legal-compliance/](legal-compliance/)** - 20 templates
+Contracts, regulatory compliance, intellectual property, corporate governance
 
-### Data & Analytics
-**[data-analytics/](data-analytics/)** - 28 templates
-Data science, machine learning, business intelligence, and analytics engineering.
+### Technology & Innovation
 
-<details>
-<summary>View subcategories</summary>
+**[technology/](technology/)** - 46 templates
+Software development, DevOps, cloud architecture, infrastructure, data engineering
 
-- Advanced Analytics
-- Analytics Engineering
-- Business Intelligence
-- Data Science
-- Research Analytics
+**[data-analytics/](data-analytics/)** - 72 templates
+Business intelligence, data science, analytics engineering, statistical analysis, research
 
-</details>
+**[ai-ml-applications/](ai-ml-applications/)** - 18 templates ✨ *NEW*
+LLM applications, RAG systems, AI agents, MLOps, prompt engineering, responsible AI
 
-### Education & Research
-**[education/](education/)** - 29 templates
-Academic research, curriculum development, teaching, and knowledge management.
+**[security/](security/)** - 21 templates
+Cybersecurity, incident response, security architecture, compliance, threat intelligence
 
-<details>
-<summary>View subcategories</summary>
+### Product & Design
 
-- Academic Research
-- Higher Education
-- K-12 Education
-- Knowledge Management
-- Scientific Communication
-- Teaching & Instruction
+**[product-management/](product-management/)** - 16 templates ✨ *NEW*
+Product strategy, roadmapping, feature prioritization, product analytics, go-to-market
 
-</details>
+**[design/](design/)** - 15 templates
+UX/UI design, product design, graphic design, motion graphics, design systems
 
-### Finance & Economics
-**[finance/](finance/)** - 11 templates
-Banking, investment management, wealth management, insurance, and risk management.
+**[content-creation/](content-creation/)** - 26 templates
+Article writing, video production, podcasts, creative writing, entertainment
 
-<details>
-<summary>View subcategories</summary>
-
-- Banking
-- Economics
-- Insurance
-- Investment Management
-- Risk Management
-- Wealth Management
-
-</details>
-
-### Government & Public Sector
-**[government/](government/)** - 6 templates
-Policy development, public services, and federal/state government operations.
-
-<details>
-<summary>View subcategories</summary>
-
-- Federal & State
-- Policy Development
-- Public Services
-
-</details>
-
-### Healthcare & Life Sciences
-**[healthcare/](healthcare/)** - 36 templates
-Clinical practice, healthcare administration, medical research, digital health, and wellness.
-
-<details>
-<summary>View subcategories</summary>
-
-- Clinical Practice
-- Digital Health
-- Healthcare Administration
-- Healthcare Operations
-- Medical & Clinical
-- Medical Research
-- Nutrition & Fitness
-- Public Health
-- Wellness
-
-</details>
+**[media-journalism/](media-journalism/)** - 10 templates
+Investigative reporting, content strategy, digital publishing, audience analytics
 
 ### Industry-Specific
-**[industry/](industry/)** - 50 templates
-Templates for retail, manufacturing, agriculture, automotive, real estate, hospitality, and more.
 
-<details>
-<summary>View subcategories</summary>
+**[healthcare/](healthcare/)** - 49 templates
+Clinical practice, medical research, healthcare administration, digital health, public health
 
-- Agriculture
-- Automotive
-- Construction
-- Energy & Utilities
-- Entertainment & Gaming
-- Fashion & Beauty
-- Hospitality
-- Manufacturing
-- Real Estate
-- Retail & E-commerce
-- Sports & Recreation
-- Telecommunications
-- Transportation & Logistics
+**[education/](education/)** - 50 templates
+Academic research, curriculum development, teaching, knowledge management, scientific communication
 
-</details>
+**[finance/](finance/)** - See Core Business Functions
 
-### Nonprofit & Social Impact
-**[nonprofit/](nonprofit/)** - 9 templates
-Program management, fundraising, advocacy, and social impact initiatives.
+**[government/](government/)** - 20 templates
+Policy development, public services, emergency management, digital services, procurement
 
-<details>
-<summary>View subcategories</summary>
+**[nonprofit/](nonprofit/)** - 18 templates
+Fundraising, advocacy, program management, social impact measurement, volunteer management
 
-- Advocacy & Policy
-- Fundraising & Development
-- Program Management
+**[sustainability/](sustainability/)** - 14 templates ✨ *NEW*
+ESG strategy, climate action, circular economy, carbon accounting, renewable energy
 
-</details>
+### Personal & Development
 
-### Personal Development
-**[personal/](personal/)** - 30 templates
-Productivity, career planning, skill building, health, and lifestyle management.
+**[personal/](personal/)** - 31 templates
+Career development, personal finance, health & wellness, productivity, skill building
 
-<details>
-<summary>View subcategories</summary>
+---
 
-- Communication Skills
-- Development
-- Financial Management
-- Health & Wellness
-- Lifestyle & Hobbies
-- Personal Development
-- Skill Building
-
-</details>
-
-### Professional Services
-**[professional-services/](professional-services/)** - 71 templates
-Legal, compliance, HR, project management, customer service, and communication.
-
-<details>
-<summary>View subcategories</summary>
-
-- Communication & Collaboration
-- Customer Service
-- Customer Support
-- Human Resources
-- Internal Communication
-- Legal & Compliance
-- Marketing & Sales
-- Project Management
-- Public Communication
-- Stakeholder Management
-- Team Communication
-
-</details>
-
-### Security & Defense
-**[security/](security/)** - 2 templates
-Cybersecurity and security operations.
-
-<details>
-<summary>View subcategories</summary>
-
-- Cybersecurity
-
-</details>
-
-### Technology & Engineering
-**[technology/](technology/)** - 38 templates
-Software development, data engineering, DevOps, cybersecurity, AI/ML, and emerging technologies.
-
-<details>
-<summary>View subcategories</summary>
-
-- AI & Machine Learning
-- Cybersecurity
-- Data Engineering
-- DevOps & Cloud
-- DevOps & Platform
-- Emerging Technologies
-- Software Development
-
-</details>
+**Total:** 599 templates across 24 categories | **Last Updated:** 2025-11-12
 
 ## 🚀 Quick Start
 
@@ -443,7 +309,9 @@ Copyright (c) 2025 yuan-yuan6
 
 ---
 
-**Total Templates**: 375+
-**Categories**: 13 main categories, 100+ subcategories
-**Last Updated**: 2025-01-09
+**Total Templates**: 599
+**Categories**: 24 main categories, 130+ subcategories
+**Last Updated**: 2025-11-12
 **Maintained by**: yuan-yuan6
+
+**Recent Additions**: AI/ML Applications, Product Management, Sustainability (Nov 2025)
