@@ -1,6 +1,6 @@
 ---
 title: Risk Assessment Template
-category: finance/Corporate-Finance
+category: finance
 tags:
 - design
 - management

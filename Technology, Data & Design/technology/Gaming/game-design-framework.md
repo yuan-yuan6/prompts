@@ -1,6 +1,6 @@
 ---
 title: Game Design & Development Framework
-category: technology/Gaming
+category: technology
 tags:
 - design
 - development

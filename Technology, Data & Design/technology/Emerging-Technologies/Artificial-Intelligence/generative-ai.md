@@ -1,5 +1,5 @@
 ---
-category: technology/Emerging-Technologies/Artificial-Intelligence
+category: technology
 last_updated: 2025-11-09
 related_templates:
 - technology/Emerging-Technologies/generative-ai-implementation.md

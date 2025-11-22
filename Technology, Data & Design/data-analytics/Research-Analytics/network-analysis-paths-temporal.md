@@ -1,6 +1,6 @@
 ---
 title: Network Analysis - Paths and Temporal Dynamics
-category: data-analytics/Research-Analytics
+category: data-analytics
 tags:
 - data-analytics
 - ai-ml

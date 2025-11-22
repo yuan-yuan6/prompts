@@ -1,6 +1,6 @@
 ---
 title: Treatment Effect Analysis
-category: data-analytics/Research-Analytics
+category: data-analytics
 tags:
 - automation
 - ai-ml

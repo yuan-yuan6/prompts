@@ -1,6 +1,6 @@
 ---
 title: Public Speaking Template
-category: personal/Communication-Skills
+category: personal
 tags:
 - design
 - personal

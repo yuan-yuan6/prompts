@@ -1,6 +1,6 @@
 ---
 title: Learning Projects Template
-category: personal/Lifestyle-Hobbies
+category: personal
 tags:
 - communication
 - design

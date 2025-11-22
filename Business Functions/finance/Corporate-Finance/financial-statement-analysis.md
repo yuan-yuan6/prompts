@@ -1,6 +1,6 @@
 ---
 title: Financial Statement Analysis
-category: finance/Corporate-Finance
+category: finance
 tags:
 - finance
 - analysis

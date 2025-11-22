@@ -5,6 +5,7 @@ related_templates:
 - sales-marketing/Retail-Ecommerce/customer-experience-optimization.md
 - sales-marketing/Retail-Ecommerce/dynamic-pricing-strategy.md
 - sales-marketing/Retail-Ecommerce/product-sourcing-strategy.md
+- product-management/Product-Strategy/pricing-strategy.md  # Product pricing & packaging
 tags:
 - ai-ml
 - design

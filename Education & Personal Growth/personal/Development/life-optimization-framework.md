@@ -1,6 +1,6 @@
 ---
 title: Life Optimization & Personal Excellence Framework
-category: personal/Development
+category: personal
 tags:
 - design
 - development

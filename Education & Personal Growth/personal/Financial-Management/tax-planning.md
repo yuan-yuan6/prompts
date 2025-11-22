@@ -1,6 +1,6 @@
 ---
 title: Tax Planning Template
-category: personal/Financial-Management
+category: personal
 tags:
 - ai-ml
 - management

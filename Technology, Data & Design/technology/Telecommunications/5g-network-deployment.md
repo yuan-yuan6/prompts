@@ -1,6 +1,6 @@
 ---
 title: 5G Network Deployment & Optimization Framework
-category: technology/Telecommunications
+category: technology
 tags:
 - communication
 - design

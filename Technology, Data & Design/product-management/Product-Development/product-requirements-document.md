@@ -1,5 +1,5 @@
 ---
-category: product-management/Product-Development
+category: product-management
 last_updated: 2025-11-12
 title: Product Requirements Document (PRD)
 tags:

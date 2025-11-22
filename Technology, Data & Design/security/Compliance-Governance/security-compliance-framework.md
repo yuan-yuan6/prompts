@@ -1,5 +1,5 @@
 ---
-category: security/Compliance-Governance
+category: security
 last_updated: 2025-11-11
 title: Security Compliance Framework (SOC 2, ISO 27001, HIPAA, PCI-DSS)
 tags:

@@ -1,5 +1,5 @@
 ---
-category: data-analytics/Data-Science
+category: data-analytics
 last_updated: 2025-11-09
 related_templates:
 - data-analytics/dashboard-design-patterns.md

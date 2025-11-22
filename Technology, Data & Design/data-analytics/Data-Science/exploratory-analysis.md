@@ -1,6 +1,6 @@
 ---
 title: Exploratory Data Analysis Framework Template
-category: data-analytics/Data-Science
+category: data-analytics
 tags:
 - automation
 - data-analytics

@@ -1,6 +1,6 @@
 ---
 title: 'Music Audio Comprehensive - Part 2: Production & Recording'
-category: content-creation/Entertainment
+category: content-creation
 tags:
 - communication
 - comprehensive

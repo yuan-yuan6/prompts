@@ -1,5 +1,5 @@
 ---
-category: data-analytics/data-science
+category: data-analytics
 last_updated: 2025-01-09
 related_templates:
 - data-analytics/Data-Science/feature-engineering.md

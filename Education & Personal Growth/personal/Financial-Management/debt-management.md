@@ -1,6 +1,6 @@
 ---
 title: Debt Management Template
-category: personal/Financial-Management
+category: personal
 tags:
 - ai-ml
 - management

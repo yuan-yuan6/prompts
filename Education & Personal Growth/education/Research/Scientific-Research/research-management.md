@@ -1,5 +1,5 @@
 ---
-category: education/Research/Scientific-Research
+category: education
 last_updated: 2025-11-09
 related_templates:
 - education/Research/clinical-trial-protocol.md

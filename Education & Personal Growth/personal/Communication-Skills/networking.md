@@ -1,6 +1,6 @@
 ---
 title: Networking Template
-category: personal/Communication-Skills
+category: personal
 tags:
 - automation
 - communication

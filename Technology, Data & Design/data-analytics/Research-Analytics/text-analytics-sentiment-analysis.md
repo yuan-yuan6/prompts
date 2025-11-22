@@ -1,6 +1,6 @@
 ---
 title: Text Analytics - Sentiment Analysis
-category: data-analytics/Research-Analytics
+category: data-analytics
 tags:
 - automation
 - data-analytics

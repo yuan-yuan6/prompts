@@ -1,6 +1,6 @@
 ---
 title: Budget Planning Template
-category: personal/Financial-Management
+category: personal
 tags:
 - development
 - management

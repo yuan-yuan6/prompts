@@ -1,6 +1,6 @@
 ---
 title: Pipeline Development Overview & Navigation
-category: data-analytics/Analytics-Engineering
+category: data-analytics
 tags:
 - automation
 - data-analytics

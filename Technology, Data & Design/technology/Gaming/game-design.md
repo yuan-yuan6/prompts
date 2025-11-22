@@ -1,5 +1,5 @@
 ---
-category: technology/Gaming
+category: technology
 last_updated: 2025-11-09
 related_templates:
 - technology/Gaming/game-design-framework.md

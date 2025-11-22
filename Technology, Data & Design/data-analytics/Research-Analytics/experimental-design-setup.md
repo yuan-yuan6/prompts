@@ -1,5 +1,5 @@
 ---
-category: data-analytics/Research-Analytics
+category: data-analytics
 last_updated: 2025-11-10
 related_templates:
 - data-analytics/Research-Analytics/randomization-and-power-analysis.md

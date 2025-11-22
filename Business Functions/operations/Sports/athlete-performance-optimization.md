@@ -1,6 +1,6 @@
 ---
 title: Athlete Performance Optimization & Training Framework
-category: operations/Sports
+category: operations
 tags:
 - ai-ml
 - design

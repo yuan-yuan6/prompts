@@ -1,5 +1,5 @@
 ---
-category: technology/Emerging-Technologies/Quantum-Computing
+category: technology
 last_updated: 2025-11-09
 related_templates:
 - technology/Emerging-Technologies/generative-ai-implementation.md

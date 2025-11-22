@@ -1,6 +1,6 @@
 ---
 title: Creative Hobbies Template
-category: personal/Lifestyle-Hobbies
+category: personal
 tags:
 - communication
 - design

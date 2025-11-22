@@ -1,6 +1,6 @@
 ---
 title: Randomization and Power Analysis
-category: data-analytics/Research-Analytics
+category: data-analytics
 tags:
 - automation
 - data-analytics

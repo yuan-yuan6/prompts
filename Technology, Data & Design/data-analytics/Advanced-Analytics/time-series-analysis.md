@@ -1,6 +1,6 @@
 ---
 title: Time Series Analysis & Forecasting Framework
-category: data-analytics/Advanced-Analytics
+category: data-analytics
 tags:
 - data-analytics
 - ai-ml

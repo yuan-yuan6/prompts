@@ -1,6 +1,6 @@
 ---
 title: Trend Analysis Forecasting Template
-category: data-analytics/Business-Intelligence
+category: data-analytics
 tags:
 - data-analytics
 - ai-ml

@@ -1,6 +1,6 @@
 ---
 title: Literature Review Analysis & Implications
-category: education/Academic-Research
+category: education
 tags:
 - communication
 - education

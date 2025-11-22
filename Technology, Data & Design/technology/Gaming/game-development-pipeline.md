@@ -1,6 +1,6 @@
 ---
 title: Game Development Pipeline & Production Framework
-category: technology/Gaming
+category: technology
 tags:
 - automation
 - design

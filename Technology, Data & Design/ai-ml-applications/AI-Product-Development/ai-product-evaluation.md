@@ -1,5 +1,5 @@
 ---
-category: ai-ml-applications/AI-Product-Development
+category: ai-ml-applications
 last_updated: 2025-11-12
 title: AI Product Evaluation TITLE_PLACEHOLDER Quality Measurement
 tags:

@@ -1,6 +1,6 @@
 ---
 title: Research Design - Ethics, Implementation & Project Management
-category: education/Academic-Research
+category: education
 tags:
 - research
 - implementation

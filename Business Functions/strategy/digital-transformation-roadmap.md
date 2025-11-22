@@ -1,5 +1,5 @@
 ---
-category: strategy/strategic-management
+category: strategy
 last_updated: 2025-01-09
 related_templates:
 - strategy/business-planning.md

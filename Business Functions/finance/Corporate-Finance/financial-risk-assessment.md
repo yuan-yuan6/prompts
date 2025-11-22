@@ -1,6 +1,6 @@
 ---
 title: Financial Risk Assessment & Scenario Analysis
-category: finance/Corporate-Finance
+category: finance
 tags:
 - finance
 - risk-management
