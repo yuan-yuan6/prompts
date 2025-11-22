@@ -1,6 +1,6 @@
 ---
 category: ai-ml-applications
-last_updated: 2025-11-12
+last_updated: 2025-11-22
 title: LLM Application Development
 tags:
 - ai-ml
@@ -645,6 +645,130 @@ The quality bar for your application.
 
 ❌ **One-size-fits-all model** - Using same model for all tasks
 ✅ Instead: Match model capability to task complexity and budget
+
+## Usage Examples
+
+### Example 1: Customer Support Ticket Classifier
+
+**Context:** B2B SaaS company building automated ticket triage
+
+```
+Build an LLM-powered ticket classifier for our customer support system that
+categorizes and prioritizes incoming tickets automatically.
+
+APPLICATION CONTEXT:
+- Application type: Internal tool (API endpoint)
+- Primary use case: Classify support tickets into categories and priority levels
+- Target users: Support agents (100+)
+- Success metrics: 95% classification accuracy, reduce triage time by 70%
+
+Technical Stack:
+- Language: Python
+- Framework: FastAPI
+- LLM: Claude Sonnet 4.5 (via Anthropic API)
+- Database: PostgreSQL + Redis (caching)
+
+Use Case:
+- Input: Customer email text (max 2000 words)
+- Output: JSON with category, priority, suggested_assignee, confidence_score
+- Categories: billing, technical, sales, account, feature_request
+- Priority: urgent, high, medium, low
+- Edge cases: Multiple issues, non-English, abusive content
+
+Quality Requirements:
+- Accuracy: 95%+ on core categories
+- Latency: <2 seconds per classification
+- Safety: Filter and flag inappropriate content
+```
+
+**Expected Output:**
+- FastAPI endpoint with input validation (pydantic)
+- System prompt with category definitions and examples
+- JSON mode output for reliable parsing
+- Redis caching for identical tickets (24-hour TTL)
+- Confidence thresholds (route low-confidence to human review)
+
+### Example 2: AI Writing Assistant
+
+**Context:** Content platform adding AI writing features for creators
+
+```
+Build an AI writing assistant integrated into our content platform that helps
+users draft, edit, and improve their blog posts.
+
+APPLICATION CONTEXT:
+- Application type: Web app (React + Next.js)
+- Primary use case: Real-time writing assistance with suggestions and edits
+- Target users: Content creators (50k+ active users)
+- Success metrics: User adoption >40%, completion rate +20%
+
+Technical Stack:
+- Frontend: React with streaming support
+- Backend: Next.js API routes
+- LLM: Claude Sonnet 4.5
+- Database: MongoDB + Pinecone (for style learning)
+
+Features:
+1. Real-time suggestions as user types
+2. Full draft generation from outline
+3. Style matching (learn from user's past posts)
+4. SEO optimization suggestions
+5. Grammar and clarity improvements
+
+Quality Requirements:
+- Streaming responses (appear instantly)
+- Maintain user's voice and style
+- Support multiple languages
+- Cost: <$0.02 per writing session
+```
+
+**Expected Output:**
+- Streaming API with Server-Sent Events
+- Prompt templates for each feature (suggestions, drafts, edits)
+- RAG pipeline for style matching using past posts
+- Cost tracking per user with daily limits
+- A/B testing framework for prompt variants
+
+### Example 3: Document Q&A for Enterprise
+
+**Context:** Enterprise deploying internal knowledge base chatbot
+
+```
+Build a document Q&A system for our internal knowledge base that answers
+employee questions about HR policies, technical docs, and company procedures.
+
+APPLICATION CONTEXT:
+- Application type: Chat interface (embedded in Slack + web portal)
+- Primary use case: Answer questions from internal documents
+- Target users: All employees (5,000+)
+- Success metrics: Answer accuracy >90%, reduce HR ticket volume by 50%
+
+Technical Stack:
+- Frontend: Slack app + React web interface
+- Backend: Python (FastAPI)
+- LLM: Claude Sonnet 4.5
+- Vector DB: Pinecone
+- Document sources: Confluence, SharePoint, internal wikis
+
+RAG Configuration:
+- Embedding model: voyage-2
+- Chunk size: 500 tokens with 50 token overlap
+- Top-k retrieval: 5 chunks
+- Reranking: Cohere reranker
+
+Quality Requirements:
+- Always cite sources with links
+- Say "I don't know" rather than hallucinate
+- Handle follow-up questions (conversation memory)
+- SSO authentication (only answer based on user's access level)
+```
+
+**Expected Output:**
+- RAG pipeline with document chunking and indexing
+- Hybrid search (semantic + keyword)
+- Source attribution with confidence scoring
+- Conversation memory with context window management
+- Permission-aware retrieval (filter by user access)
 
 ## Related Resources
 

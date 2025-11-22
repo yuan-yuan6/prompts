@@ -1,6 +1,6 @@
 ---
 category: security
-last_updated: 2025-11-11
+last_updated: 2025-11-22
 title: API Security Framework & Testing
 tags:
 - security
@@ -295,6 +295,121 @@ Provide:
 ```
 
 ---
+
+## Usage Examples
+
+### Example 1: E-commerce REST API
+
+**Context:** Customer-facing REST API for e-commerce platform with 200+ endpoints
+
+```
+Secure our e-commerce REST API handling customer data and payment processing with
+PCI-DSS compliance requirements.
+
+API CONTEXT:
+- API type: REST (JSON over HTTPS)
+- Endpoints: 215 endpoints across products, orders, users, payments
+- Authentication: OAuth 2.0 with JWT access tokens
+- Consumers: Mobile apps (iOS/Android), web SPA, partner integrations
+- Data sensitivity: PII, payment tokens (no raw card data)
+- Traffic: Peak 5,000 requests/second during sales
+- Compliance: PCI-DSS 4.0, GDPR
+
+Current Security:
+- Basic JWT validation in place
+- No rate limiting implemented
+- API gateway: Kong (self-hosted)
+- WAF: AWS WAF (basic rules)
+
+Key Focus Areas:
+- Implement BOLA protection for order/user resources
+- Add rate limiting (per user: 100/min, per endpoint: 1000/min)
+- Harden payment endpoints with additional validation
+- Add request signing for partner API integrations
+```
+
+**Expected Output:**
+- BOLA protection: UUID for order IDs, ownership validation middleware
+- OAuth scopes: read:orders, write:orders, admin:users
+- Rate limiting: Redis-based sliding window, 429 responses with retry-after
+- Payment endpoints: Additional MFA challenge, request signing
+- WAF rules: OWASP Core Rule Set + custom rules for business logic
+
+### Example 2: GraphQL API for Mobile App
+
+**Context:** GraphQL API powering a healthcare mobile application
+
+```
+Secure our GraphQL API serving patient health data to iOS and Android apps with
+HIPAA compliance requirements.
+
+API CONTEXT:
+- API type: GraphQL (Apollo Server)
+- Schema: 45 types, 120 queries/mutations
+- Authentication: OAuth 2.0 + refresh tokens
+- Consumers: Native mobile apps only
+- Data sensitivity: PHI (patient records, prescriptions, appointments)
+- Traffic: 500 requests/second average
+- Compliance: HIPAA, HITECH
+
+Current Security:
+- JWT tokens (1-hour expiration)
+- Basic field-level authorization
+- Introspection enabled (needs to disable)
+- No query complexity limits
+
+Key Focus Areas:
+- Disable introspection in production
+- Implement query depth and complexity limits
+- Add field-level authorization for PHI fields
+- Certificate pinning for mobile apps
+- Audit logging for all PHI access
+```
+
+**Expected Output:**
+- Query limits: max depth 7, max complexity 500
+- Persisted queries only (disable arbitrary queries in production)
+- Field authorization: @auth directive on PHI fields
+- Certificate pinning: Pin to leaf certificate + backup
+- Audit logging: Patient ID, accessed fields, timestamp, user ID
+
+### Example 3: Internal Microservices API
+
+**Context:** Internal APIs for microservices communication in financial services
+
+```
+Secure internal microservices APIs handling financial transactions with
+zero-trust architecture requirements.
+
+API CONTEXT:
+- API type: gRPC + REST (internal)
+- Services: 35 microservices, ~500 endpoints total
+- Authentication: mTLS + JWT for service identity
+- Consumers: Internal services only (no external access)
+- Data sensitivity: Financial transactions, account balances
+- Traffic: 50,000 requests/second internal
+- Compliance: SOX, internal security policy
+
+Current Security:
+- Network segmentation (services in private subnet)
+- Basic service mesh (Istio) with mTLS
+- No service-to-service authorization
+- Limited logging
+
+Key Focus Areas:
+- Implement service-to-service authorization (SPIFFE/SPIRE)
+- Add authorization policies in Istio
+- Implement request tracing with correlation IDs
+- Add circuit breakers for resilience
+- Comprehensive audit logging for SOX
+```
+
+**Expected Output:**
+- SPIFFE identities for all services
+- Istio AuthorizationPolicy: explicit allow rules per service pair
+- Distributed tracing: Jaeger with correlation ID propagation
+- Circuit breakers: Istio DestinationRule with outlier detection
+- Audit logging: All transactions to Splunk with SOX-required fields
 
 ## Best Practices
 
