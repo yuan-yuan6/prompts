@@ -1107,3 +1107,300 @@ Adapt based on security program maturity:
 | `[EXECUTIVE_SUMMARY_FRAMEWORK]` | Executive reporting format | "1-page risk scorecard + trends", "Board-ready presentation", "Quarterly metrics dashboard" |
 | `[SECURITY_BUDGET_IMPLICATIONS]` | Budget recommendations | "$500K for critical remediations", "$2M 18-month security program", "ROI analysis included" |
 | `[CONTINUOUS_MONITORING_PROGRAM]` | Ongoing monitoring plan | "Quarterly vulnerability scans", "Annual penetration testing", "Continuous compliance via GRC tool" |
+
+## Usage Examples
+
+### Example 1: Financial Services Comprehensive Audit (SOX + PCI-DSS)
+
+**Context:** Large bank requiring multi-framework compliance audit
+
+**Copy-paste this prompt:**
+
+```
+I need to conduct a comprehensive security audit for Premier Financial Services, a Tier 1 bank with 15,000 employees operating across North America and Europe.
+
+AUDIT CONTEXT:
+- Organization: Premier Financial Services
+- Industry: Financial Services (banking, payment processing)
+- Audit type: Combined internal assessment + external validation
+- Scope: All production systems, cloud infrastructure (AWS + Azure), payment processing environment
+- Compliance frameworks: SOX IT General Controls, PCI-DSS 4.0, Basel III operational risk, GDPR
+- Geographic coverage: US headquarters, EU operations, Canadian branches
+- Timeline: 8-week engagement (Q1 2025)
+- Budget: $350K (internal team + Big 4 validation)
+
+ASSESSMENT FOCUS AREAS:
+
+1. PCI-DSS Cardholder Data Environment:
+   - Network segmentation and CDE isolation
+   - Encryption (TLS 1.3 in transit, AES-256 at rest)
+   - Access controls and authentication (MFA for all CDE access)
+   - Logging and monitoring (12-month log retention)
+   - Vulnerability management (ASV scans, penetration testing)
+
+2. SOX IT General Controls:
+   - Access management (provisioning, reviews, termination)
+   - Change management (approval workflows, segregation of duties)
+   - Computer operations (job scheduling, backup/recovery)
+   - Program development (SDLC controls, code review)
+
+3. Cloud Security (AWS + Azure):
+   - IAM policies and privilege escalation risks
+   - Network security groups and segmentation
+   - Data encryption and key management (HSM-backed)
+   - Logging (CloudTrail, Azure Monitor)
+   - Configuration compliance (CIS benchmarks)
+
+4. Third-Party Risk:
+   - Critical vendor inventory (payment processors, cloud providers)
+   - SOC 2 report reviews for key vendors
+   - Fourth-party risk assessment
+   - Contract security requirements
+
+TESTING METHODOLOGY:
+- Approach: Gray-box (limited internal documentation provided)
+- Network testing: Vulnerability scanning (Nessus) + manual validation
+- Application testing: OWASP Top 10, API security, authentication bypass
+- Social engineering: Phishing simulation (500 employees)
+
+DELIVERABLES REQUIRED:
+1. Executive summary (1-page risk scorecard for board presentation)
+2. Detailed findings report with:
+   - Finding description and evidence
+   - Risk rating (Critical/High/Medium/Low) based on CVSS + business impact
+   - Affected systems and data
+   - Remediation recommendations with effort estimates
+   - Compliance mapping (which control/requirement is impacted)
+3. Control testing matrix mapping to SOX/PCI requirements
+4. Remediation roadmap with prioritization:
+   - Critical: 48 hours
+   - High: 7 days
+   - Medium: 30 days
+   - Low: 90 days
+5. Management action plan template
+
+Please provide a comprehensive audit program including specific test procedures, evidence requirements, and a risk-based approach to sampling.
+```
+
+**Expected Output:**
+- Detailed audit program with 150+ test procedures
+- Control matrix mapping findings to SOX/PCI requirements
+- Risk-rated findings with remediation guidance
+- Board-ready executive summary
+
+---
+
+### Example 2: Healthcare HIPAA Compliance Audit
+
+**Context:** Healthcare SaaS company preparing for OCR audit
+
+**Copy-paste this prompt:**
+
+```
+I need to conduct a HIPAA security audit for HealthTech Solutions, a healthcare SaaS company processing PHI for 200+ healthcare provider clients.
+
+AUDIT CONTEXT:
+- Organization: HealthTech Solutions (healthcare SaaS, 500 employees)
+- Industry: Healthcare technology
+- Audit type: Internal HIPAA readiness assessment (preparing for potential OCR audit)
+- Scope: Cloud infrastructure (Azure), web application, mobile apps, APIs, administrative controls
+- Compliance: HIPAA Security Rule, HIPAA Privacy Rule, HITECH, state health privacy laws
+- Data types: PHI (patient records, prescriptions, lab results, billing data)
+- Timeline: 4-week assessment
+- Budget: $75K
+
+HIPAA SECURITY RULE ASSESSMENT:
+
+1. Administrative Safeguards (§164.308):
+   - Security management process (risk analysis, sanctions)
+   - Assigned security responsibility (Security Officer role)
+   - Workforce security (authorization, clearance, termination)
+   - Information access management (access authorization, establishment)
+   - Security awareness training (program effectiveness, phishing results)
+   - Security incident procedures (response plan, breach notification)
+   - Contingency plan (backup, DR, emergency mode operations)
+   - Evaluation (periodic security assessments)
+   - Business associate agreements (inventory, compliance verification)
+
+2. Physical Safeguards (§164.310):
+   - Facility access controls (data center security - Azure compliance)
+   - Workstation use and security policies
+   - Device and media controls (disposal, re-use, encryption)
+
+3. Technical Safeguards (§164.312):
+   - Access control (unique user IDs, emergency access, auto-logoff, encryption)
+   - Audit controls (logging, monitoring, review procedures)
+   - Integrity controls (data validation, transmission security)
+   - Person/entity authentication (MFA implementation)
+   - Transmission security (TLS 1.3, VPN for remote access)
+
+4. Cloud-Specific Assessment (Azure):
+   - Azure HIPAA BAA verification
+   - PHI data residency (US-only regions)
+   - Encryption: Azure Disk Encryption, Azure SQL TDE, customer-managed keys
+   - Network security: NSGs, Azure Firewall, Private Link for PaaS
+   - Identity: Azure AD, Conditional Access, PIM for privileged access
+   - Monitoring: Azure Sentinel, diagnostic logs, 6-year retention
+
+5. Application Security:
+   - Authentication (OAuth 2.0, MFA for all users accessing PHI)
+   - Authorization (RBAC, minimum necessary access)
+   - Encryption (AES-256 for PHI at rest, TLS 1.3 in transit)
+   - Audit logging (all PHI access logged with user, timestamp, action)
+   - Session management (30-min timeout, secure token handling)
+   - API security (rate limiting, input validation, authentication)
+
+6. Business Associate Management:
+   - BAA inventory (all vendors with PHI access)
+   - Subcontractor chain (downstream BAAs)
+   - Annual BAA compliance verification
+
+DELIVERABLES REQUIRED:
+1. HIPAA Security Rule compliance gap analysis
+2. Risk assessment aligned with NIST SP 800-66 / HHS guidance
+3. Findings report with:
+   - HIPAA citation for each finding
+   - Risk level (Critical/High/Medium/Low)
+   - Evidence of non-compliance
+   - Remediation steps with implementation guidance
+4. Policies and procedures gap analysis
+5. OCR audit readiness checklist
+6. Remediation roadmap prioritized by risk
+7. Training recommendations for workforce
+
+Please provide a comprehensive audit program that would prepare us for an OCR HIPAA audit, including specific test procedures and evidence requirements.
+```
+
+**Expected Output:**
+- HIPAA Security Rule control-by-control assessment
+- Gap analysis with specific HIPAA citations
+- OCR audit readiness score
+- Remediation roadmap with policy templates
+
+---
+
+### Example 3: SaaS Company SOC 2 Type II Audit
+
+**Context:** B2B SaaS startup preparing for first SOC 2 certification
+
+**Copy-paste this prompt:**
+
+```
+I need to prepare for our first SOC 2 Type II audit for CloudApp Inc, a B2B SaaS company providing project management software.
+
+AUDIT CONTEXT:
+- Organization: CloudApp Inc (B2B SaaS, 150 employees, Series B startup)
+- Industry: Technology / SaaS
+- Audit type: SOC 2 Type II readiness assessment + gap remediation
+- Scope: AWS infrastructure, web application, customer data processing
+- Trust Services Criteria: Security (required), Availability, Confidentiality
+- Audit period: 6 months (targeting Q3-Q4 2025)
+- Timeline: 12-week readiness program
+- Budget: $50K (readiness) + $40K (Big 4 audit)
+
+SOC 2 TRUST SERVICES CRITERIA ASSESSMENT:
+
+1. CC1 - Control Environment:
+   - Organizational structure and reporting
+   - Board oversight and governance
+   - Security policies and standards
+   - Personnel security (background checks, training)
+   - Management philosophy and operating style
+
+2. CC2 - Communication and Information:
+   - Internal communication of security responsibilities
+   - External communication (customer security documentation)
+   - System descriptions and boundaries
+   - Security awareness program
+
+3. CC3 - Risk Assessment:
+   - Risk assessment process and methodology
+   - Risk register and treatment plans
+   - Change risk assessment
+   - Fraud risk consideration
+
+4. CC4 - Monitoring Activities:
+   - Ongoing monitoring (security metrics, dashboards)
+   - Separate evaluations (penetration testing, audits)
+   - Deficiency evaluation and remediation
+
+5. CC5 - Control Activities:
+   - Control selection and development
+   - Technology general controls
+   - Policy deployment and enforcement
+
+6. CC6 - Logical and Physical Access:
+   - User access management (provisioning, reviews, termination)
+   - Authentication (SSO via Okta, MFA required)
+   - Authorization (RBAC, least privilege)
+   - Physical security (AWS data centers - SOC 2 reliance)
+   - Data encryption (AES-256 at rest, TLS 1.3 in transit)
+
+7. CC7 - System Operations:
+   - Change management (Git workflow, PR reviews, deployment pipeline)
+   - Vulnerability management (weekly scans, 30-day patch SLA)
+   - Incident management (PagerDuty, runbooks, post-mortems)
+   - Backup and recovery (daily backups, tested quarterly)
+
+8. CC8 - Change Management:
+   - Change request and approval process
+   - Testing requirements before production
+   - Emergency change procedures
+   - Change documentation
+
+9. CC9 - Risk Mitigation:
+   - Vendor management program
+   - Business continuity planning
+   - Insurance coverage
+
+10. Availability Criteria (A1):
+    - Capacity planning
+    - SLA monitoring (99.9% uptime target)
+    - Disaster recovery (RTO: 4 hours, RPO: 1 hour)
+    - Incident communication
+
+11. Confidentiality Criteria (C1):
+    - Data classification (Public, Internal, Confidential, Restricted)
+    - Confidential data handling procedures
+    - Data retention and disposal
+    - NDA management
+
+AWS INFRASTRUCTURE CONTROLS:
+- Network: VPC with public/private subnets, security groups, WAF
+- Compute: ECS Fargate, auto-scaling, hardened AMIs
+- Database: RDS PostgreSQL with encryption, Multi-AZ
+- Storage: S3 with bucket policies, versioning, encryption
+- Identity: IAM roles (no long-lived credentials), SSO federation
+- Logging: CloudTrail, CloudWatch, centralized to Datadog
+- Secrets: AWS Secrets Manager with rotation
+
+DELIVERABLES REQUIRED:
+1. SOC 2 readiness assessment with gap analysis
+2. Control matrix mapping our controls to Trust Services Criteria
+3. Gap remediation roadmap with:
+   - Critical gaps (must fix before audit)
+   - Recommended improvements
+   - Implementation effort estimates
+4. Policy and procedure templates for gaps:
+   - Information Security Policy
+   - Access Control Policy
+   - Change Management Policy
+   - Incident Response Plan
+   - Vendor Management Policy
+5. Evidence collection checklist for Type II audit
+6. System description draft for SOC 2 report
+7. Auditor selection criteria and RFP template
+
+Please provide a comprehensive readiness program that will prepare us for a successful SOC 2 Type II audit with a Big 4 firm.
+```
+
+**Expected Output:**
+- SOC 2 readiness score by Trust Services Criteria
+- Gap analysis with prioritized remediation
+- Control matrix mapping
+- Policy templates for identified gaps
+- Evidence collection checklist
+
+---
+
+## Best Practices
