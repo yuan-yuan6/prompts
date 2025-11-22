@@ -1,6 +1,6 @@
 ---
 title: Habit Formation Template
-category: personal/Personal-Development
+category: personal
 tags:
 - automation
 - ai-ml

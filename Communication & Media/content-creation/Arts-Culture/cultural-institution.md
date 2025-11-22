@@ -1,5 +1,5 @@
 ---
-category: content-creation/Arts-Culture
+category: content-creation
 last_updated: 2025-11-09
 related_templates:
 - content-creation/Arts-Culture/digital-exhibition-curation.md

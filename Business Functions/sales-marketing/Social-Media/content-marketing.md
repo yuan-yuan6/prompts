@@ -1,5 +1,5 @@
 ---
-category: sales-marketing/Social-Media
+category: sales-marketing
 last_updated: 2025-11-09
 related_templates:
 - sales-marketing/Social-Media/influencer-marketing-campaign.md

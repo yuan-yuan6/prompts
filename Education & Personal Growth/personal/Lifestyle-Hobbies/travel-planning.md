@@ -1,6 +1,6 @@
 ---
 title: Travel Planning Template
-category: personal/Lifestyle-Hobbies
+category: personal
 tags:
 - personal
 - research

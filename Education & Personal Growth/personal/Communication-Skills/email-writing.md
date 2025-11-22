@@ -1,6 +1,6 @@
 ---
 title: Email Writing Template
-category: personal/Communication-Skills
+category: personal
 tags:
 - communication
 - design

@@ -1,5 +1,5 @@
 ---
-category: finance/Corporate-Finance
+category: finance
 last_updated: 2025-11-09
 related_templates:
 - finance/Corporate-Finance/treasury-management.md

@@ -1,6 +1,6 @@
 ---
 title: Content Production & Media Creation Framework
-category: technology/Gaming
+category: technology
 tags:
 - automation
 - communication

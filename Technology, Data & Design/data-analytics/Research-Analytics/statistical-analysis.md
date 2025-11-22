@@ -1,6 +1,6 @@
 ---
 title: Statistical Analysis and Inference Template
-category: data-analytics/Research-Analytics
+category: data-analytics
 tags:
 - data-analytics
 - ai-ml

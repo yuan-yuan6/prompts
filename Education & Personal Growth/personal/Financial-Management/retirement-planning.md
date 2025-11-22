@@ -1,6 +1,6 @@
 ---
 title: Retirement Planning Template
-category: personal/Financial-Management
+category: personal
 tags:
 - ai-ml
 - optimization

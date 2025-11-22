@@ -1,6 +1,6 @@
 ---
 title: 'Music Audio Comprehensive - Part 1: Composition & Arrangement'
-category: content-creation/Entertainment
+category: content-creation
 tags:
 - communication
 - comprehensive
@@ -45,7 +45,7 @@ This part focuses on **Composition & Arrangement**. For complete workflow, start
 
 ---
 title: Music & Audio Comprehensive Template Generator
-category: content-creation/Entertainment
+category: content-creation
 tags: [communication, comprehensive, creative, design, optimization, template, testing]
 use_cases:
   - Creating comprehensive music and audio solutions covering lyrics composition, music creation, sound design, mixing, podcasting, audiobooks, and audio production across all genres and formats.

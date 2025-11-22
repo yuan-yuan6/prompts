@@ -1,5 +1,5 @@
 ---
-category: sales-marketing/Marketing-Creative
+category: sales-marketing
 last_updated: 2025-11-09
 related_templates:
 - content-creation/creative-writing-framework.md

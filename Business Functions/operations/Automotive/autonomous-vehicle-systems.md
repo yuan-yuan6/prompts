@@ -1,6 +1,6 @@
 ---
 title: Autonomous Vehicle & Smart Mobility Systems Framework
-category: operations/Automotive
+category: operations
 tags:
 - automotive
 - operations

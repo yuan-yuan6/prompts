@@ -1,5 +1,5 @@
 ---
-category: technology/Telecommunications
+category: technology
 last_updated: 2025-11-09
 related_templates:
 - technology/Telecommunications/5g-network-deployment.md

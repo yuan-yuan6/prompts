@@ -1,5 +1,5 @@
 ---
-category: data-analytics/Analytics-Engineering
+category: data-analytics
 last_updated: 2025-11-10
 related_templates:
 - data-analytics/Analytics-Engineering/pipeline-ingestion.md

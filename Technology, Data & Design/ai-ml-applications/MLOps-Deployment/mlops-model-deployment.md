@@ -1,5 +1,5 @@
 ---
-category: ai-ml-applications/MLOps-Deployment
+category: ai-ml-applications
 last_updated: 2025-11-12
 title: MLOps TITLE_PLACEHOLDER Model Deployment
 tags:

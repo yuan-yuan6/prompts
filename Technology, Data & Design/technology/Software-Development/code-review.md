@@ -1,5 +1,5 @@
 ---
-category: technology/software-development
+category: technology
 last_updated: 2025-01-09
 related_templates:
 - technology/Software-Development/architecture-design.md

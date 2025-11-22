@@ -1,6 +1,6 @@
 ---
 title: Task Prioritization Systems Template
-category: personal/Personal-Development
+category: personal
 tags:
 - management
 - optimization

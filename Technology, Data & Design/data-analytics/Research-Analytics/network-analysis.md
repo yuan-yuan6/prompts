@@ -1,6 +1,6 @@
 ---
 title: Network Analysis and Graphs Template
-category: data-analytics/Research-Analytics
+category: data-analytics
 tags:
 - data-analytics
 - ai-ml

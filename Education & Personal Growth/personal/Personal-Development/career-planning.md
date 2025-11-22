@@ -1,6 +1,6 @@
 ---
 title: Career Planning Template
-category: personal/Personal-Development
+category: personal
 tags:
 - ai-ml
 - development

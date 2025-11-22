@@ -1,6 +1,6 @@
 ---
 title: Comprehensive Competency Assessment & Evaluation Template
-category: personal/Personal-Development/Skill-Building
+category: personal
 tags:
 - ai-ml
 - design

@@ -1,5 +1,5 @@
 ---
-category: security/Identity-Access-Management
+category: security
 last_updated: 2025-11-11
 title: Zero Trust Architecture Implementation
 tags:

@@ -1,6 +1,6 @@
 ---
 title: Security Assessment Template
-category: security/Cybersecurity
+category: security
 tags:
 - ai-ml
 - design

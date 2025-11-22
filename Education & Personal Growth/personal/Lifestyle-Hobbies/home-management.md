@@ -1,6 +1,6 @@
 ---
 title: Home Management Template
-category: personal/Lifestyle-Hobbies
+category: personal
 tags:
 - design
 - management

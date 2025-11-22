@@ -1,6 +1,6 @@
 ---
 title: Financial Planning Template
-category: finance/Wealth-Management
+category: finance
 tags:
 - ai-ml
 - finance

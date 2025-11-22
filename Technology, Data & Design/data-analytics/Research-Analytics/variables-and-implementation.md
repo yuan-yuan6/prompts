@@ -1,6 +1,6 @@
 ---
 title: Experimental Design Variables and Implementation Guide
-category: data-analytics/Research-Analytics
+category: data-analytics
 tags:
 - data-analytics
 - implementation

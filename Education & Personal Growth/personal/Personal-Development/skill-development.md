@@ -1,6 +1,6 @@
 ---
 title: Skill Acquisition Strategies Prompt Template
-category: personal/Personal-Development
+category: personal
 tags:
 - ai-ml
 - personal

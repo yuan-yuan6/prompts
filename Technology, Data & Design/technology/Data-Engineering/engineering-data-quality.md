@@ -1,5 +1,5 @@
 ---
-category: technology/Data-Engineering
+category: technology
 last_updated: 2025-11-09
 related_templates:
 - technology/cloud-architecture-framework.md

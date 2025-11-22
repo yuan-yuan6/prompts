@@ -1,5 +1,5 @@
 ---
-category: ai-ml-applications/LLM-Applications
+category: ai-ml-applications
 last_updated: 2025-11-12
 title: LLM Fine-Tuning & Customization
 tags:

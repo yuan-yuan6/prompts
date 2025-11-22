@@ -1,5 +1,5 @@
 ---
-category: education/Academic-Research
+category: education
 last_updated: 2025-11-10
 related_templates:
 - education/Academic-Research/literature-review-analysis-implications.md

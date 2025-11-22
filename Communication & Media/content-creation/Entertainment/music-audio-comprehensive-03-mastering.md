@@ -1,6 +1,6 @@
 ---
 title: 'Music Audio Comprehensive - Part 3: Mixing & Mastering'
-category: content-creation/Entertainment
+category: content-creation
 tags:
 - communication
 - comprehensive

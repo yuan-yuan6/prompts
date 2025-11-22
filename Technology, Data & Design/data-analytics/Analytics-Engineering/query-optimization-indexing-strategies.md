@@ -1,6 +1,6 @@
 ---
 title: Query Optimization - Indexing Strategies
-category: data-analytics/Analytics-Engineering
+category: data-analytics
 tags:
 - data-analytics
 - optimization

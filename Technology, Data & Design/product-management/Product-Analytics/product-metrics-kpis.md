@@ -1,5 +1,5 @@
 ---
-category: product-management/Product-Analytics
+category: product-management
 last_updated: 2025-11-12
 title: Product Metrics & KPIs Framework
 tags:

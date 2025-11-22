@@ -1,6 +1,6 @@
 ---
 title: Network Analysis - Visualization and Reporting
-category: data-analytics/Research-Analytics
+category: data-analytics
 tags:
 - data-analytics
 - ai-ml

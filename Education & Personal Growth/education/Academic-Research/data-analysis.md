@@ -1,6 +1,6 @@
 ---
 title: Data Analysis Methods Generator
-category: education/Academic-Research
+category: education
 tags:
 - ai-ml
 - design

@@ -1,5 +1,5 @@
 ---
-category: product-management/Product-Strategy
+category: product-management
 last_updated: 2025-11-12
 title: Pricing Strategy & Packaging
 tags:
@@ -17,6 +17,7 @@ related_templates:
 - product-management/Product-Development/go-to-market-planning.md
 - product-management/Product-Strategy/market-competitive-analysis.md
 - product-management/Product-Analytics/ab-testing-experimentation.md
+- sales-marketing/Retail-Ecommerce/pricing-strategy.md  # Retail pricing & revenue optimization
 industries:
 - technology
 - finance

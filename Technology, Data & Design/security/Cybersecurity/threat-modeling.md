@@ -1,5 +1,5 @@
 ---
-category: security/Cybersecurity
+category: security
 last_updated: 2025-11-11
 title: Threat Modeling Framework
 tags:

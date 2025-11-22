@@ -1,6 +1,6 @@
 ---
 title: Dashboard Technical Implementation & Platform
-category: data-analytics/Business-Intelligence
+category: data-analytics
 tags:
 - data-analytics
 - infrastructure

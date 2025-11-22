@@ -1,5 +1,5 @@
 ---
-category: ai-ml-applications/AI-Strategy
+category: ai-ml-applications
 last_updated: 2025-11-12
 title: AI Use Case Identification TITLE_PLACEHOLDER Prioritization
 tags:

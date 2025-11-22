@@ -1,6 +1,6 @@
 ---
 title: Financial Analysis - Overview & Navigation
-category: finance/Corporate-Finance
+category: finance
 tags:
 - finance
 use_cases:

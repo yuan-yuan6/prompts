@@ -1,5 +1,5 @@
 ---
-category: personal/Personal-Development/Skill-Building
+category: personal
 last_updated: 2025-11-09
 related_templates:
 - personal/Personal-Development/time-management.md

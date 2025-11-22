@@ -1,5 +1,5 @@
 ---
-category: operations/Automotive
+category: operations
 last_updated: 2025-11-11
 related_templates:
 - operations/Automotive/autonomous-vehicle-systems.md

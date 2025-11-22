@@ -1,5 +1,5 @@
 ---
-category: finance/Investment-Management
+category: finance
 last_updated: 2025-11-09
 related_templates:
 - finance/investment-portfolio-management.md

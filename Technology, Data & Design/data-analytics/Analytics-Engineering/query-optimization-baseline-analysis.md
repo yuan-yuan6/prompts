@@ -1,6 +1,6 @@
 ---
 title: Query Optimization - Baseline Analysis & Profiling
-category: data-analytics/Analytics-Engineering
+category: data-analytics
 tags:
 - data-analytics
 - analysis

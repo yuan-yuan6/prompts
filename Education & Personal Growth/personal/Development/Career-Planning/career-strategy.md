@@ -1,6 +1,6 @@
 ---
 title: Career Development & Professional Growth Framework
-category: personal/Development/Career-Planning
+category: personal
 tags:
 - communication
 - design

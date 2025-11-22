@@ -1,6 +1,6 @@
 ---
 title: Investment Strategy Template
-category: personal/Financial-Management
+category: personal
 tags:
 - ai-ml
 - development

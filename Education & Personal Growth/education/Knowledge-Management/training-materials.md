@@ -1,5 +1,5 @@
 ---
-category: education/Knowledge-Management
+category: education
 last_updated: 2025-11-09
 related_templates:
 - education/curriculum-development.md

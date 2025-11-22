@@ -1,6 +1,6 @@
 ---
 title: Research Design - Analysis Framework & Quality Assurance
-category: education/Academic-Research
+category: education
 tags:
 - research
 - analysis
