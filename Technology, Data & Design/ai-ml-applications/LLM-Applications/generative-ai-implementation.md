@@ -1,6 +1,6 @@
 ---
 title: Generative AI Implementation Template Generator
-category: technology/Emerging-Technologies
+category: ai-ml-applications
 tags:
 - automation
 - design

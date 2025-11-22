@@ -1,6 +1,6 @@
 ---
 title: 'Generative AI Implementation - Part 3: Implementation & Governance'
-category: technology/Emerging-Technologies
+category: ai-ml-applications
 tags:
 - automation
 - governance

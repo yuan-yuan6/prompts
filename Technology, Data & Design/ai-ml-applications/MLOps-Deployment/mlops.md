@@ -1,5 +1,5 @@
 ---
-category: technology/AI-Machine-Learning
+category: ai-ml-applications
 last_updated: 2025-11-09
 related_templates:
 - technology/cloud-architecture-framework.md

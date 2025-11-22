@@ -1,6 +1,6 @@
 ---
 title: 'Generative AI Implementation - Part 1: Foundation & Use Cases'
-category: technology/Emerging-Technologies
+category: ai-ml-applications
 tags:
 - automation
 - design
