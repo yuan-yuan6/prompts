@@ -1,6 +1,6 @@
 ---
 category: design
-last_updated: 2025-11-09
+last_updated: 2025-11-22
 related_templates:
 - design/wireframe-design.md
 - design/prototype-development.md
@@ -262,7 +262,158 @@ For comprehensive design projects, you'll often use multiple templates in sequen
 | Design System | Consistency | 4-12 weeks | 2-5 designers | High |
 | Usability Testing | Validation | 2-4 weeks | 2-4 researchers | Medium |
 
+---
 
+## Usage Examples
+
+### Example 1: SaaS Product Redesign
+
+**Context:** B2B SaaS company redesigning their core product with poor usability scores
+
+**Copy-paste this prompt:**
+
+```
+I'm leading a UX redesign of our B2B project management SaaS product. Users report the interface is
+confusing and they can't find features. NPS is 15 (down from 35 two years ago).
+
+CURRENT STATE:
+- Product: Web-based project management for teams (5-50 users per company)
+- Users: Project managers, team leads, individual contributors
+- Pain points: Navigation confusing, too many clicks to complete tasks, mobile unusable
+- Existing design: No design system, inconsistent patterns, 5 years of feature additions
+- Team: 2 product designers, 1 UX researcher, 8 engineers
+- Timeline: 16 weeks to first major release
+
+GOALS:
+- Improve task completion time by 30%
+- Increase NPS from 15 to 35
+- Reduce support tickets related to "how do I..." by 50%
+- Make mobile actually usable (currently 2% mobile usage vs. 60% competitor)
+
+CONSTRAINTS:
+- Can't change data model or remove features (users rely on them)
+- Must maintain brand colors and logo
+- Rollout must be gradual (users hate sudden changes)
+- Limited user research budget ($10K for external testing)
+
+QUESTIONS:
+1. Which UX/UI templates should I use and in what order?
+2. How do I balance comprehensive redesign with gradual rollout?
+3. Should I build a design system during this project or after?
+4. How many rounds of usability testing are realistic with $10K budget?
+
+Please provide a phased UX redesign plan with template sequence and timeline.
+```
+
+**Expected Output:**
+- Phase 1 (Weeks 1-4): Wireframe Design - Information architecture audit, new navigation structure
+- Phase 2 (Weeks 5-8): Prototype Development - Interactive prototype of core workflows
+- Phase 3 (Weeks 9-10): Usability Testing - 8-10 users, 2 rounds of testing
+- Phase 4 (Weeks 11-16): Design System foundation + implementation
+- Gradual rollout strategy: Feature flags, opt-in beta, phased by customer segment
+
+---
+
+### Example 2: Mobile App MVP
+
+**Context:** Startup building mobile app MVP for consumer fitness tracking
+
+**Copy-paste this prompt:**
+
+```
+I'm the sole designer at a startup building a fitness tracking mobile app. We need to launch MVP in
+8 weeks to hit our seed funding milestone. I've never built a design system before.
+
+PRODUCT:
+- App: iOS and Android fitness tracking (workout logging, progress photos, social features)
+- Target users: Fitness enthusiasts aged 25-40, intermediate to advanced
+- Competition: Strong (MyFitnessPal, Strava, Nike Training Club)
+- Differentiator: AI-powered form analysis from workout videos
+
+TEAM:
+- 1 designer (me), 2 iOS developers, 1 Android developer, 1 backend developer
+- Engineering lead has strong opinions about feasibility
+- CEO wants "premium feel" but hasn't defined what that means
+
+CONSTRAINTS:
+- 8 weeks total (MVP must be in App Store)
+- No budget for user research (will use guerrilla testing at local gym)
+- Must work on both iOS and Android (React Native)
+- Need to support accessibility (client has visual impairment)
+
+QUESTIONS:
+1. With only 8 weeks, which UX templates are essential vs. nice-to-have?
+2. How do I create enough design structure for 2 platforms without a full design system?
+3. What's the minimum viable usability testing I can do with $0 budget?
+4. How do I align the CEO on "premium feel" without delaying the project?
+
+Please provide an 8-week design sprint plan focused on MVP delivery.
+```
+
+**Expected Output:**
+- Week 1: Wireframe Design (core 5-7 screens only) + stakeholder alignment on "premium"
+- Weeks 2-3: Prototype Development (high-fidelity for core workout flow)
+- Week 4: Guerrilla usability testing (5 users at gym, 30-min sessions)
+- Weeks 5-6: Iteration + component library foundation (not full design system)
+- Weeks 7-8: Polish + developer support + App Store assets
+- Mini design system: 10 core components, color tokens, typography scale
+
+---
+
+### Example 3: Enterprise Design System
+
+**Context:** Large enterprise standardizing design across 15 product teams
+
+**Copy-paste this prompt:**
+
+```
+I'm the design systems lead at a Fortune 500 company. We have 15 product teams, each with their own
+design patterns. Leadership wants consistency across all products within 18 months.
+
+CURRENT STATE:
+- Products: 15 internal and external applications (web and mobile)
+- Teams: 40 designers, 200 engineers across all products
+- Existing patterns: Each team has informal patterns, no documentation
+- Tools: Mix of Figma, Sketch, Adobe XD (want to standardize on Figma)
+- Tech stack: React (8 products), Angular (4), Vue (2), Native mobile (1)
+
+CHALLENGES:
+- Teams are protective of their designs ("not invented here" syndrome)
+- No dedicated design system team (I'm 50% allocated)
+- Leadership wants "one design" but products have legitimately different needs
+- Engineers frustrated with constant design changes
+
+GOALS:
+- Unified design language across all products (brand consistency)
+- Reduce design-to-dev handoff time by 40%
+- Enable teams to ship faster with pre-built components
+- Improve accessibility compliance (currently failing audits)
+
+CONSTRAINTS:
+- Can't mandate adoption (need to earn trust)
+- Different products have different release schedules
+- Limited budget for design tokens infrastructure
+- Must support multiple frameworks (can't standardize tech stack)
+
+QUESTIONS:
+1. How do I build a design system that accommodates different product needs?
+2. What's the right sequence: documentation, components, tokens, or governance?
+3. How do I drive adoption without mandating it?
+4. How should I structure usability testing for the design system itself?
+
+Please provide an 18-month design system rollout strategy.
+```
+
+**Expected Output:**
+- Months 1-3: Design System Creation foundations - audit, tokens, core components
+- Months 4-6: Pilot with 2-3 willing teams, iterate based on feedback
+- Months 7-9: Expand to 5-7 teams, build comprehensive component library
+- Months 10-12: Full rollout, training program, contribution model
+- Months 13-18: Maintenance, governance, continuous improvement
+- Adoption strategy: Early adopter incentives, showcase wins, reduce friction
+- Usability Testing: Test components with product teams as users
+
+---
 
 ## Related Resources
 

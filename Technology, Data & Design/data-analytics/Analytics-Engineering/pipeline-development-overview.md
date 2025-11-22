@@ -18,7 +18,7 @@ related_templates:
 - data-analytics/Analytics-Engineering/pipeline-observability.md
 - data-analytics/Analytics-Engineering/pipeline-infrastructure.md
 - data-analytics/data-governance-framework.md
-last_updated: 2025-11-10
+last_updated: 2025-11-22
 industries:
 - healthcare
 - manufacturing
@@ -525,6 +525,189 @@ Dynamic Task Generation:
 - Kubernetes: https://kubernetes.io/docs/
 - Delta Lake: https://docs.delta.io/
 - Apache Spark: https://spark.apache.org/docs/
+
+---
+
+## Usage Examples
+
+### Example 1: E-commerce Daily Sales Pipeline
+
+**Context:** E-commerce company needs daily batch pipeline from PostgreSQL to Snowflake
+
+**Copy-paste this prompt:**
+
+```
+I need to build an end-to-end data pipeline for e-commerce sales analytics.
+
+PIPELINE CONTEXT:
+- Source systems: PostgreSQL (orders, customers, products), Stripe API (payments), Google Analytics (web traffic)
+- Target: Snowflake data warehouse for BI dashboards
+- Pipeline type: Daily batch processing with incremental loads
+- Data volume: 5M orders/month, 100GB total, 2GB daily incremental
+- SLA: Data ready by 6 AM for business users
+
+ARCHITECTURE REQUIREMENTS:
+Medallion Architecture:
+- Bronze: Raw extracts with source metadata (extracted_at, source_system)
+- Silver: Cleaned, deduplicated, validated data with referential integrity
+- Gold: Business metrics (daily sales, customer LTV, product performance)
+
+SPECIFIC PIPELINE COMPONENTS:
+1. Ingestion (pipeline-ingestion.md pattern):
+   - PostgreSQL: Incremental by updated_at timestamp
+   - Stripe: API pagination with cursor-based extraction
+   - GA: BigQuery export to S3
+
+2. Transformation (pipeline-transformation.md pattern):
+   - Bronze to Silver: Remove duplicates, validate order amounts > 0, standardize timestamps to UTC
+   - Silver to Gold: Calculate order_total, apply refund logic, join customer segments
+
+3. Orchestration (pipeline-orchestration.md pattern):
+   - Airflow DAG: extract (parallel) → load_bronze → transform_silver → transform_gold → notify
+   - Schedule: Daily at 2 AM UTC
+   - Dependencies: All extracts complete before bronze load
+
+4. Observability (pipeline-observability.md pattern):
+   - Monitor: Row counts, extract duration, transformation errors
+   - Alert: Data freshness > 30 minutes late, row count variance > 10%
+   - Dashboard: Pipeline health in Grafana
+
+Please provide:
+1. Complete Airflow DAG code with task dependencies
+2. dbt models for Bronze → Silver → Gold transformations
+3. Data quality checks between each layer
+4. Monitoring queries for pipeline health
+```
+
+**Expected Output:**
+- Airflow DAG with 8-10 tasks, parallel extraction, sequential transformation
+- dbt models with incremental materialization strategy
+- Great Expectations or dbt tests for data quality
+- Alerting thresholds and notification channels
+
+---
+
+### Example 2: Real-time Clickstream Pipeline
+
+**Context:** Media company needs real-time user behavior analytics for personalization
+
+**Copy-paste this prompt:**
+
+```
+I need to build a real-time streaming pipeline for clickstream analytics.
+
+PIPELINE CONTEXT:
+- Source: Segment.io events via Kafka (page views, clicks, video plays)
+- Target: Pinot for real-time dashboards, S3 + Spark for batch analytics
+- Pipeline type: Real-time streaming with 5-second latency SLA
+- Data volume: 50,000 events/second peak, 2B events/day
+- Use case: Real-time content recommendations, audience segmentation
+
+ARCHITECTURE REQUIREMENTS:
+Streaming Architecture:
+- Ingestion: Kafka with 3-day retention, 48 partitions
+- Processing: Kafka Streams for sessionization, Flink for complex aggregations
+- Serving: Pinot for real-time queries, Delta Lake for historical analysis
+
+SPECIFIC PIPELINE COMPONENTS:
+1. Ingestion (pipeline-ingestion.md streaming pattern):
+   - Kafka consumer with exactly-once semantics
+   - Schema registry for event schema evolution (Avro)
+   - Dead letter queue for malformed events
+
+2. Transformation (pipeline-transformation.md streaming pattern):
+   - Session windowing: 30-minute inactivity timeout
+   - User stitching: Connect anonymous to authenticated events
+   - Real-time aggregations: Page views per minute, trending content
+
+3. Orchestration (pipeline-orchestration.md for monitoring):
+   - No scheduling needed (continuous streaming)
+   - Airflow for daily reconciliation jobs and backfill
+   - Health check DAG every 15 minutes
+
+4. Observability (pipeline-observability.md streaming pattern):
+   - Monitor: Consumer lag, processing latency, throughput
+   - Alert: Lag > 10,000 messages, latency > 5 seconds
+   - Dashboard: Kafka lag, Flink checkpoints, Pinot query latency
+
+Please provide:
+1. Kafka topic design (partitioning strategy, retention, compaction)
+2. Flink job for session windowing and user stitching
+3. Schema evolution strategy for backward compatibility
+4. Consumer lag monitoring and auto-scaling
+```
+
+**Expected Output:**
+- Kafka partition key strategy (user_id for ordering)
+- Flink session window implementation
+- Avro schema with compatibility rules
+- HPA configuration for consumer scaling
+
+---
+
+### Example 3: Multi-Source Financial Pipeline
+
+**Context:** Finance team needs consolidated financial data from multiple ERPs post-merger
+
+**Copy-paste this prompt:**
+
+```
+I need to build a data integration pipeline consolidating financial data from two ERP systems.
+
+PIPELINE CONTEXT:
+- Source systems: SAP S/4HANA (legacy company), Oracle EBS (acquired company)
+- Target: Snowflake for unified financial reporting
+- Pipeline type: Daily batch with monthly close support
+- Data volume: 50M GL entries/year combined, 500GB total
+- Compliance: SOX controls, full audit trail required
+
+ARCHITECTURE REQUIREMENTS:
+Integration Architecture:
+- Common data model: Unified chart of accounts, standardized cost centers
+- Data quality: Cross-system reconciliation, balance validation
+- Audit: Full lineage from source to report, change tracking
+
+SPECIFIC PIPELINE COMPONENTS:
+1. Ingestion (pipeline-ingestion.md pattern):
+   - SAP: CDS views extraction via OData, incremental by posting date
+   - Oracle: Direct SQL extraction with read replica, incremental by last_update_date
+   - Both: Full extract monthly for reconciliation
+
+2. Transformation (pipeline-transformation.md pattern):
+   - Bronze: Raw extracts with source system identifier
+   - Silver:
+     - Map SAP account codes to unified chart of accounts
+     - Map Oracle account codes to same unified chart
+     - Standardize dates to fiscal calendar
+     - Convert currencies to USD using daily rates
+   - Gold:
+     - Consolidated trial balance
+     - P&L by business unit (combined)
+     - Balance sheet by entity
+
+3. Orchestration (pipeline-orchestration.md pattern):
+   - Airflow DAG: Parallel extract → transform in sequence → reconcile → approve
+   - Schedule: Daily at midnight, monthly close job on day 3
+   - Human-in-the-loop: Reconciliation variance > $1000 requires approval
+
+4. Observability (pipeline-observability.md pattern):
+   - Monitor: GL balance totals, cross-system variance
+   - Alert: SAP vs Oracle debits don't match, TB out of balance
+   - Audit: Log every record source, transformation, and load timestamp
+
+Please provide:
+1. Unified chart of accounts mapping strategy
+2. Multi-source ETL with common data model
+3. Cross-system reconciliation checks
+4. Monthly close workflow with approval gates
+5. SOX-compliant audit logging
+```
+
+**Expected Output:**
+- Account mapping table design
+- dbt models with source tagging for lineage
+- Reconciliation queries with variance thresholds
+- Airflow sensor for manual approval step
 
 ---
 

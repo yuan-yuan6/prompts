@@ -1,6 +1,6 @@
 ---
 category: data-analytics
-last_updated: 2025-11-09
+last_updated: 2025-11-22
 related_templates:
 - data-analytics/Business-Intelligence/dashboard-strategy-requirements.md
 - data-analytics/Business-Intelligence/dashboard-ux-design.md
@@ -401,7 +401,138 @@ Most dashboard projects require multiple prompts. Use them in parallel when:
 - Deliverable specifications
 - Quick reference guides
 
-#
+---
+
+## Usage Examples
+
+### Example 1: Startup Building First Executive Dashboard
+
+**Context:** Series B SaaS startup needs its first unified executive dashboard
+
+**Copy-paste this prompt:**
+
+```
+I'm a Series B SaaS startup ($15M ARR, 80 employees) building our first executive dashboard.
+We currently have data scattered across Salesforce, Stripe, Mixpanel, and Google Sheets.
+
+CURRENT STATE:
+- No existing BI tool - reports are manual Excel exports
+- Data sources: Salesforce (CRM), Stripe (payments), Mixpanel (product analytics), HubSpot (marketing)
+- Team: 1 data analyst, no data engineering team yet
+- Budget: $30K-$50K annually for tools and implementation
+- Timeline: Need basic dashboard in 4 weeks, full solution in 8 weeks
+
+REQUIREMENTS:
+- Primary users: CEO, CFO, VP Sales, VP Product (5 executives)
+- KPIs needed: MRR, ARR, Net Revenue Retention, CAC, LTV, Pipeline, Churn Rate
+- Access: Desktop primary, but CEO wants mobile access for board meetings
+- Data freshness: Daily is acceptable for most metrics, real-time for active sales pipeline
+
+QUESTIONS TO ANSWER:
+1. Which dashboard design prompt should I start with?
+2. Should I use Power BI, Tableau, Looker, or something simpler like Metabase?
+3. Do I need a data warehouse, or can I connect directly to sources?
+4. What's a realistic phased roadmap for our resources?
+
+Please provide a recommendation on which prompts to use, in what order, with estimated time for each phase.
+```
+
+**Expected Output:**
+- Start with Strategy & Requirements (1 week) → Data Architecture (2 weeks) → UX Design + Technical Implementation parallel (2 weeks) → Testing (1 week)
+- Platform recommendation: Metabase or Power BI for simplicity, or Sigma if modern cloud-native preferred
+- Data warehouse recommendation: Start with Fivetran/Census to replicate data to Snowflake or BigQuery
+- MVP scope: 1 executive dashboard with 7-10 core SaaS metrics
+
+---
+
+### Example 2: Enterprise Modernizing Legacy Reports
+
+**Context:** Large enterprise replacing 50+ legacy Crystal Reports with modern dashboards
+
+**Copy-paste this prompt:**
+
+```
+We're a Fortune 500 manufacturing company modernizing our reporting infrastructure.
+Currently we have 50+ Crystal Reports that need to be converted to modern dashboards.
+
+CURRENT STATE:
+- 50+ Crystal Reports running on Oracle database
+- Reports accessed by 500+ users across 12 departments
+- Mix of operational (daily use) and analytical (monthly) reports
+- Some reports are 15+ years old with undocumented business logic
+- IT team of 20, including 5 BI developers familiar with Cognos and SSRS
+
+CONSTRAINTS:
+- Must maintain SOX compliance for financial reports
+- Global users in US, Europe, and Asia (latency concerns)
+- Budget approved: $2M over 18 months
+- Parallel run required - can't switch off old reports until new ones validated
+- Security: Row-level security by region, department, and cost center
+
+QUESTIONS TO ANSWER:
+1. What's the right sequence of prompts for a migration project?
+2. How should we prioritize which reports to migrate first?
+3. Should we refactor reports or do a 1:1 migration?
+4. What data architecture changes are needed for modern BI?
+
+Please provide a phased migration strategy with governance checkpoints.
+```
+
+**Expected Output:**
+- Start with Strategy & Requirements to inventory and prioritize reports
+- Use Security & Compliance before architecture (SOX requirements)
+- Prioritization framework: High-use reports first, then business-critical, then low-use/candidate for retirement
+- Recommendation: Consolidate 50 reports into 10-15 dashboards (many reports likely overlap)
+- Data architecture: Build semantic layer on top of existing Oracle, migrate to cloud DW in phase 2
+
+---
+
+### Example 3: Product Team Embedding Analytics
+
+**Context:** B2B SaaS product team needs to embed analytics into their customer-facing product
+
+**Copy-paste this prompt:**
+
+```
+We're building embedded analytics for our B2B project management SaaS product.
+Our customers have asked for reports and dashboards within our application.
+
+CURRENT STATE:
+- Product: B2B project management tool (React frontend, Node backend, PostgreSQL)
+- Customers: 200 B2B customers, 10-1000 users each
+- Current analytics: Basic reporting with Chart.js, customers want more
+- Team: 8 engineers, 1 data engineer, no dedicated BI team
+- Infrastructure: AWS, already using Redshift for internal analytics
+
+REQUIREMENTS:
+- Must be embedded seamlessly in our app (not a separate tool login)
+- White-label: Customers see our brand, not the BI tool's
+- Multi-tenant: Each customer sees only their data (strict data isolation)
+- Self-service: Customers want to build their own reports (power users)
+- Performance: Must load in <2 seconds (customers expect product speed)
+- Pricing: Need to price analytics as add-on feature ($50-200/customer/month)
+
+TECHNICAL CONSTRAINTS:
+- iFrame embedding acceptable, but prefer JavaScript SDK
+- SSO with our existing auth (JWT-based)
+- API access for customers who want to pull data programmatically
+
+QUESTIONS TO ANSWER:
+1. Which prompts address multi-tenant embedded analytics?
+2. Build vs. buy - should we use embedded BI or build custom?
+3. What's the architecture for multi-tenant data isolation?
+4. How do we ensure customer data never leaks across tenants?
+
+Please provide an architecture recommendation for embedded B2B analytics.
+```
+
+**Expected Output:**
+- Start with Technical Implementation (for embedded platform selection) → Security & Compliance (multi-tenancy) → Data Architecture (tenant isolation) → UX Design (white-label)
+- Platform options: Looker, Sisense, Sigma (embedded-first), or custom with React + Apache Superset
+- Multi-tenancy: Row-level security with tenant_id in all queries, or separate schemas per customer
+- Architecture: Tenant-aware data layer with JWT claims for tenant isolation
+
+---
 
 ## Related Resources
 
