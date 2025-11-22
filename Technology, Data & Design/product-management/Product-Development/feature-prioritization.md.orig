@@ -1,0 +1,510 @@
+---
+category: product-management/Product-Development
+last_updated: 2025-11-12
+title: Feature Prioritization Framework
+tags:
+- product-management
+- prioritization
+- decision-making
+- framework
+use_cases:
+- Prioritizing feature requests from customers, stakeholders, and internal teams
+- Making data-driven decisions on what to build next
+- Balancing competing priorities and managing stakeholder expectations
+- Allocating limited engineering resources to highest-impact work
+related_templates:
+- product-management/product-roadmapping.md
+- product-management/Product-Strategy/product-strategy-vision.md
+- product-management/Product-Development/stakeholder-management.md
+industries:
+- technology
+- finance
+- healthcare
+- retail
+---
+
+# Feature Prioritization Framework Template
+
+## Purpose
+Systematically evaluate and prioritize product features using proven frameworks (RICE, Value vs Effort, Kano) to maximize impact, align with strategy, and make defensible prioritization decisions.
+
+## Quick Start
+
+**Need to prioritize features quickly?** Use the RICE framework:
+
+### Minimal Example
+```
+Feature: AI-powered search
+- Reach: 10,000 users/quarter (all active users)
+- Impact: 3 (Massive - core pain point)
+- Confidence: 80% (customer interviews + prototype)
+- Effort: 4 person-months
+- RICE Score: (10,000 × 3 × 0.8) / 4 = 6,000
+
+Feature: Dark mode
+- Reach: 3,000 users/quarter (30% who requested)
+- Impact: 1 (Medium - nice to have)
+- Confidence: 100% (clear requirement)
+- Effort: 2 person-months
+- RICE Score: (3,000 × 1 × 1.0) / 2 = 1,500
+
+Priority: AI search (6,000) >> Dark mode (1,500)
+```
+
+### When to Use This
+- Roadmap planning cycles
+- Responding to feature requests
+- Resolving stakeholder disagreements
+- Resource allocation decisions
+- Communicating tradeoffs
+
+### Basic 3-Step Workflow
+1. **List & categorize** - Gather all potential features, group by type
+2. **Score systematically** - Apply framework (RICE/Value-Effort) to each
+3. **Prioritize & communicate** - Rank, explain decisions, share rationale
+
+---
+
+## Template
+
+```
+You are a product management expert specializing in prioritization. Help prioritize features for [PRODUCT_NAME] serving [TARGET_MARKET] with [TEAM_SIZE] using [PRIORITIZATION_FRAMEWORK] aligned with [STRATEGIC_GOALS].
+
+PRIORITIZATION CONTEXT:
+Product Details:
+- Product: [PRODUCT_NAME]
+- Stage: [STAGE]
+- Target market: [MARKET]
+- Team size: [TEAM_SIZE]
+- Current capacity: [CAPACITY]
+
+Strategic Goals:
+- North Star metric: [METRIC]
+- Q1 OKRs: [OKRS]
+- Strategic priorities: [PRIORITIES]
+- Success criteria: [CRITERIA]
+
+Current State:
+- Backlog size: [COUNT]
+- Recent launches: [LAUNCHES]
+- Key metrics: [METRICS]
+- Major pain points: [PAIN_POINTS]
+
+### 1. FEATURE INVENTORY
+
+Customer-Requested Features:
+Feature 1: [FEATURE_NAME]
+- Source: [CUSTOMER_FEEDBACK/SALES/CS]
+- Request volume: [COUNT] requests
+- Segments requesting: [SEGMENTS]
+- Revenue impact: $[VALUE] ARR
+- Churn risk: [HIGH/MEDIUM/LOW]
+
+Feature 2: [FEATURE_NAME]
+(Repeat)
+
+Internal Stakeholder Requests:
+Feature 1: [FEATURE_NAME]
+- Requestor: [SALES/MARKETING/CS/EXEC]
+- Business case: [RATIONALE]
+- Urgency: [HIGH/MEDIUM/LOW]
+- Impact if not built: [CONSEQUENCE]
+
+Feature 2: [FEATURE_NAME]
+(Repeat)
+
+Strategic Initiatives:
+Initiative 1: [INITIATIVE_NAME]
+- Strategic pillar: [PILLAR]
+- Supports OKR: [OKR]
+- Competitive necessity: [YES/NO]
+- Differentiation opportunity: [YES/NO]
+
+Initiative 2: [INITIATIVE_NAME]
+(Repeat)
+
+Technical Improvements:
+Item 1: [TECH_DEBT/REFACTORING]
+- Type: [TECH_DEBT/PERFORMANCE/SCALABILITY/SECURITY]
+- Current impact: [ISSUE_DESCRIPTION]
+- Risk if not addressed: [RISK]
+- Urgency: [HIGH/MEDIUM/LOW]
+
+Item 2: [TECH_DEBT/REFACTORING]
+(Repeat)
+
+### 2. RICE PRIORITIZATION FRAMEWORK
+
+Feature: [FEATURE_NAME]
+
+**Reach:** [NUMBER] users/customers per quarter
+- Total addressable users: [TOTAL]
+- Expected adoption rate: [%]
+- Calculation: [MATH]
+- Confidence in estimate: [HIGH/MEDIUM/LOW]
+
+**Impact:** [SCORE]
+- 3 = Massive impact
+- 2 = High impact
+- 1 = Medium impact
+- 0.5 = Low impact
+- 0.25 = Minimal impact
+
+Assessment:
+- User value: [DESCRIPTION]
+- Business value: [DESCRIPTION]
+- Strategic value: [DESCRIPTION]
+- Impact score: [SCORE]
+- Rationale: [EXPLANATION]
+
+**Confidence:** [PERCENTAGE]%
+- 100% = High confidence (data, research, proven approach)
+- 80% = Medium confidence (some data, reasonable assumptions)
+- 50% = Low confidence (hypothesis, limited data)
+
+Evidence:
+- Customer research: [EVIDENCE]
+- Usage data: [DATA]
+- Competitive intel: [INFO]
+- Technical feasibility: [ASSESSMENT]
+- Confidence level: [%]
+
+**Effort:** [PERSON-MONTHS]
+- Engineering: [WEEKS]
+- Design: [WEEKS]
+- PM: [WEEKS]
+- QA: [WEEKS]
+- Total effort: [PERSON-MONTHS]
+
+Dependencies:
+- Technical dependencies: [DEPENDENCIES]
+- Resource dependencies: [RESOURCES]
+- External dependencies: [EXTERNAL]
+
+**RICE Score:** [CALCULATED_SCORE]
+Formula: (Reach × Impact × Confidence) / Effort
+Calculation: ([REACH] × [IMPACT] × [CONFIDENCE]) / [EFFORT]
+Score: [FINAL_SCORE]
+
+### 3. VALUE VS EFFORT MATRIX
+
+High Value, Low Effort (QUICK WINS):
+Feature: [NAME]
+- Value score: [8-10]/10
+- Effort score: [1-3]/10
+- Why high value: [RATIONALE]
+- Why low effort: [RATIONALE]
+- Action: BUILD NOW
+
+High Value, High Effort (MAJOR PROJECTS):
+Feature: [NAME]
+- Value score: [8-10]/10
+- Effort score: [7-10]/10
+- Why high value: [RATIONALE]
+- Why high effort: [RATIONALE]
+- Strategic importance: [ASSESSMENT]
+- Action: PLAN CAREFULLY, PHASE IF POSSIBLE
+
+Low Value, Low Effort (FILL-INS):
+Feature: [NAME]
+- Value score: [1-4]/10
+- Effort score: [1-3]/10
+- Why low value: [RATIONALE]
+- Why low effort: [RATIONALE]
+- Action: IF CAPACITY AVAILABLE
+
+Low Value, High Effort (TIME SINKS):
+Feature: [NAME]
+- Value score: [1-4]/10
+- Effort score: [7-10]/10
+- Why low value: [RATIONALE]
+- Why high effort: [RATIONALE]
+- Action: AVOID OR FIND SIMPLER APPROACH
+
+### 4. KANO MODEL ANALYSIS
+
+Must-Have Features (Basic Needs):
+- [FEATURE]: Without it, product is unusable/uncompetitive
+- [FEATURE]: Expected by all customers, no delight if present
+- Action: Must include, but don't over-invest
+
+Performance Features (Linear Value):
+- [FEATURE]: More is better, directly increases satisfaction
+- [FEATURE]: Customers can compare quantitatively
+- Action: Competitive parity or advantage
+
+Delighters (Excitement Features):
+- [FEATURE]: Unexpected, creates wow moments
+- [FEATURE]: Not missed if absent, loved if present
+- Action: Source of differentiation
+
+Indifferent Features:
+- [FEATURE]: Customers don't care either way
+- Action: Don't build
+
+Reverse Features:
+- [FEATURE]: Some customers want, others actively dislike
+- Action: Make optional/configurable or skip
+
+### 5. STRATEGIC ALIGNMENT SCORING
+
+Feature: [FEATURE_NAME]
+
+Strategic Fit:
+- Aligns with North Star: [YES/NO] - [EXPLANATION]
+- Supports OKR: [WHICH_OKR]
+- Supports strategic pillar: [WHICH_PILLAR]
+- Strategic alignment score: [0-10]
+
+Market Impact:
+- Competitive advantage: [SCORE 0-10]
+- Market expansion: [SCORE 0-10]
+- Customer acquisition: [SCORE 0-10]
+- Customer retention: [SCORE 0-10]
+
+Customer Value:
+- Solves top pain point: [YES/NO]
+- Frequency of use: [DAILY/WEEKLY/MONTHLY]
+- Criticality: [MISSION_CRITICAL/IMPORTANT/NICE_TO_HAVE]
+- Segments impacted: [SEGMENTS]
+
+Business Value:
+- Revenue impact: $[VALUE]
+- Cost savings: $[VALUE]
+- Efficiency gains: [%]
+- Risk mitigation: [HIGH/MEDIUM/LOW]
+
+Weighted Score:
+- Strategic fit (30%): [SCORE] × 0.3 = [WEIGHTED]
+- Customer value (30%): [SCORE] × 0.3 = [WEIGHTED]
+- Business value (25%): [SCORE] × 0.25 = [WEIGHTED]
+- Market impact (15%): [SCORE] × 0.15 = [WEIGHTED]
+- Total score: [TOTAL]/10
+
+### 6. WEIGHTED SCORING MODEL
+
+Criteria Weights:
+- Customer impact: [WEIGHT%]
+- Business value: [WEIGHT%]
+- Strategic alignment: [WEIGHT%]
+- Effort (inverse): [WEIGHT%]
+- Risk: [WEIGHT%]
+Total: 100%
+
+Feature: [FEATURE_NAME]
+
+Customer Impact (Weight: 30%):
+- User value: [SCORE 1-10]
+- Adoption potential: [SCORE 1-10]
+- Pain point severity: [SCORE 1-10]
+- Average: [AVG] × 0.30 = [WEIGHTED_SCORE]
+
+Business Value (Weight: 25%):
+- Revenue potential: [SCORE 1-10]
+- Cost reduction: [SCORE 1-10]
+- Market opportunity: [SCORE 1-10]
+- Average: [AVG] × 0.25 = [WEIGHTED_SCORE]
+
+Strategic Alignment (Weight: 25%):
+- Vision alignment: [SCORE 1-10]
+- OKR support: [SCORE 1-10]
+- Competitive position: [SCORE 1-10]
+- Average: [AVG] × 0.25 = [WEIGHTED_SCORE]
+
+Feasibility (Weight: 15%):
+- Technical complexity (inverse): [SCORE 1-10]
+- Resource availability: [SCORE 1-10]
+- Time to market: [SCORE 1-10]
+- Average: [AVG] × 0.15 = [WEIGHTED_SCORE]
+
+Risk (Weight: 5%):
+- Execution risk (inverse): [SCORE 1-10]
+- Market risk (inverse): [SCORE 1-10]
+- Technical risk (inverse): [SCORE 1-10]
+- Average: [AVG] × 0.05 = [WEIGHTED_SCORE]
+
+Total Weighted Score: [SUM]/10
+
+### 7. COST OF DELAY ANALYSIS
+
+Feature: [FEATURE_NAME]
+
+Value Over Time:
+- Month 1 value if built now: $[VALUE]
+- Month 3 value if built now: $[VALUE]
+- Month 6 value if built now: $[VALUE]
+- Month 12 value if built now: $[VALUE]
+
+Cost of Delay:
+- Revenue loss per month delayed: $[VALUE]
+- Churn risk per month delayed: [%]
+- Competitive disadvantage: [ASSESSMENT]
+- Window of opportunity: [TIMEFRAME]
+
+CD3 (Cost of Delay Divided by Duration):
+- Cost of delay per month: $[VALUE]
+- Development duration: [MONTHS]
+- CD3 score: $[VALUE]/[MONTHS] = $[CD3_SCORE]
+
+Priority based on CD3: [RANKING]
+
+### 8. DEPENDENCY MAPPING
+
+Feature: [FEATURE_NAME]
+
+Blocks These Features:
+- [DOWNSTREAM_FEATURE_1]: [DESCRIPTION]
+- [DOWNSTREAM_FEATURE_2]: [DESCRIPTION]
+Impact: Building this unlocks [COUNT] other features
+
+Depends On:
+- [UPSTREAM_FEATURE_1]: [STATUS]
+- [UPSTREAM_FEATURE_2]: [STATUS]
+Impact: [CAN'T_START/BLOCKED/AT_RISK]
+
+Enables Strategic Bets:
+- [STRATEGIC_INITIATIVE]: [HOW_IT_ENABLES]
+Impact: Foundation for [FUTURE_DIRECTION]
+
+### 9. STAKEHOLDER IMPACT ANALYSIS
+
+Customer Impact:
+- Segments affected: [SEGMENTS]
+- Users affected: [COUNT/%]
+- Request volume: [COUNT] requests
+- Customer quotes: "[QUOTE]"
+- NPS/satisfaction impact: [EXPECTED_CHANGE]
+
+Sales Impact:
+- Deal velocity: [IMPACT]
+- Win rate: [IMPACT]
+- ASP (average selling price): [IMPACT]
+- Competitive losses: [COUNT] deals lost without feature
+- Revenue at risk: $[VALUE]
+
+Customer Success Impact:
+- Churn reduction: [%]
+- Expansion opportunity: $[VALUE]
+- Support ticket reduction: [%]
+- Time to value: [IMPACT]
+
+Executive/Board:
+- Strategic importance: [HIGH/MEDIUM/LOW]
+- Board commitment: [YES/NO]
+- Competitive imperative: [YES/NO]
+
+### 10. RISK ASSESSMENT
+
+Feature: [FEATURE_NAME]
+
+Technical Risks:
+- Complexity: [HIGH/MEDIUM/LOW]
+- Novel technology: [YES/NO]
+- Integration complexity: [HIGH/MEDIUM/LOW]
+- Scalability concerns: [YES/NO]
+- Mitigation: [APPROACH]
+
+Market Risks:
+- Customer adoption: [HIGH_RISK/LOW_RISK]
+- Competitive response: [LIKELY/UNLIKELY]
+- Market timing: [ASSESSMENT]
+- Mitigation: [APPROACH]
+
+Execution Risks:
+- Resource availability: [RISK_LEVEL]
+- Dependencies: [COUNT] dependencies
+- Unknowns: [KEY_UNKNOWNS]
+- Mitigation: [APPROACH]
+
+Overall Risk: [HIGH/MEDIUM/LOW]
+Risk-Adjusted Score: [ORIGINAL_SCORE] × [CONFIDENCE] = [ADJUSTED_SCORE]
+
+### 11. FINAL PRIORITIZATION
+
+Ranked Features (by RICE Score):
+1. [FEATURE_NAME] - RICE: [SCORE] - Priority: P0 (Must have Q1)
+2. [FEATURE_NAME] - RICE: [SCORE] - Priority: P0 (Must have Q1)
+3. [FEATURE_NAME] - RICE: [SCORE] - Priority: P1 (Should have Q1)
+4. [FEATURE_NAME] - RICE: [SCORE] - Priority: P1 (Should have Q1)
+5. [FEATURE_NAME] - RICE: [SCORE] - Priority: P2 (Could have Q2)
+
+Prioritization Rationale:
+P0 Features (Must Have):
+- [FEATURE]: [WHY_MUST_HAVE]
+- [FEATURE]: [WHY_MUST_HAVE]
+
+P1 Features (Should Have):
+- [FEATURE]: [WHY_SHOULD_HAVE]
+- [FEATURE]: [WHY_SHOULD_HAVE]
+
+P2 Features (Could Have):
+- [FEATURE]: [WHY_COULD_HAVE]
+
+Deferred Features (Won't Have This Quarter):
+- [FEATURE]: [WHY_DEFERRED]
+- [FEATURE]: [WHY_DEFERRED]
+
+### 12. COMMUNICATION & STAKEHOLDER MANAGEMENT
+
+Prioritization Principles:
+1. [PRINCIPLE_1]
+2. [PRINCIPLE_2]
+3. [PRINCIPLE_3]
+
+Prioritization Criteria:
+- Customer impact: [WEIGHT%]
+- Business value: [WEIGHT%]
+- Strategic alignment: [WEIGHT%]
+- Effort: [WEIGHT%]
+
+How to Request Features:
+1. [PROCESS_STEP_1]
+2. [PROCESS_STEP_2]
+3. [PROCESS_STEP_3]
+
+Prioritization FAQs:
+Q: Why isn't [FEATURE] prioritized?
+A: [ANSWER_WITH_DATA]
+
+Q: When will [FEATURE] be built?
+A: [ANSWER_WITH_FRAMEWORK]
+
+Communication Plan:
+- Stakeholder updates: [CADENCE]
+- Rationale sharing: [APPROACH]
+- Feedback collection: [PROCESS]
+```
+
+## Best Practices
+
+**Framework Selection:**
+1. **RICE for most features** - Quantitative, defensible, comparable
+2. **Value/Effort for quick decisions** - Simple, visual, fast
+3. **Kano for understanding customer psychology** - Reveals must-haves vs delighters
+4. **Weighted scoring for strategic features** - Multi-criteria, nuanced
+
+**Scoring Tips:**
+1. **Be consistent** - Use same definitions across all features
+2. **Use data** - Base scores on evidence, not opinions
+3. **Document assumptions** - Note how you calculated estimates
+4. **Revisit scores** - Update as you learn more
+5. **Compare relatively** - Scores matter relative to each other
+
+**Common Pitfalls:**
+❌ **HiPPO (Highest Paid Person's Opinion)** - Exec request = auto-prioritize
+✅ Instead: Run exec requests through same framework
+
+❌ **Squeaky wheel gets grease** - Loudest customer wins
+✅ Instead: Weight by revenue/segment importance
+
+❌ **Recency bias** - Latest request feels most urgent
+✅ Instead: Regular review of entire backlog
+
+❌ **Sunk cost fallacy** - "We already started so must finish"
+✅ Instead: Willing to kill features that no longer make sense
+
+---
+
+**Last Updated:** 2025-11-12
+**Difficulty:** Intermediate
+**Estimated Time:** 1-2 days for quarterly prioritization
