@@ -17,7 +17,7 @@ related_templates:
 - technology/cloud-architecture-framework.md
 - technology/site-reliability-engineering.md
 - technology/cloud-migration-strategy.md
-last_updated: 2025-11-09
+last_updated: 2025-11-22
 industries:
 - government
 - retail
@@ -147,58 +147,67 @@ Vulnerability Assessment:
 
 ## Variables
 
+### Assessment Overview
+
 | Variable | Description | Example |
 |----------|-------------|----------|
-| `[ASSESSMENT_NAME]` | Specify the assessment name | "John Smith" |
-| `[ASSESSMENT_TYPE]` | Specify the assessment type | "Standard" |
-| `[ASSESSMENT_SCOPE]` | Specify the assessment scope | "[specify value]" |
-| `[TARGET_SYSTEMS]` | Specify the target systems | "[specify value]" |
-| `[ASSESSMENT_METHODOLOGY]` | Specify the assessment methodology | "[specify value]" |
-| `[ASSESSMENT_TIMELINE]` | Specify the assessment timeline | "6 months" |
-| `[ASSESSMENT_TEAM]` | Specify the assessment team | "[specify value]" |
-| `[STAKEHOLDERS]` | Specify the stakeholders | "[specify value]" |
-| `[BUSINESS_CONTEXT]` | Specify the business context | "[specify value]" |
-| `[COMPLIANCE_REQUIREMENTS]` | Specify the compliance requirements | "[specify value]" |
-| `[ASSET_IDENTIFICATION]` | Specify the asset identification | "[specify value]" |
-| `[THREAT_ACTORS]` | Specify the threat actors | "[specify value]" |
-| `[ATTACK_VECTORS]` | Specify the attack vectors | "[specify value]" |
-| `[THREAT_SCENARIOS]` | Specify the threat scenarios | "[specify value]" |
-| `[IMPACT_ANALYSIS]` | Specify the impact analysis | "[specify value]" |
-| `[LIKELIHOOD_ASSESSMENT]` | Specify the likelihood assessment | "[specify value]" |
-| `[RISK_RATING]` | Specify the risk rating | "[specify value]" |
-| `[THREAT_INTELLIGENCE]` | Specify the threat intelligence | "[specify value]" |
-| `[ATTACK_SURFACE]` | Specify the attack surface | "[specify value]" |
-| `[TRUST_BOUNDARIES]` | Specify the trust boundaries | "[specify value]" |
-| `[SCANNING_TOOLS]` | Specify the scanning tools | "[specify value]" |
-| `[SCANNING_SCOPE]` | Specify the scanning scope | "[specify value]" |
-| `[VULNERABILITY_CATEGORIES]` | Specify the vulnerability categories | "[specify value]" |
-| `[CVSS_SCORING]` | Specify the cvss scoring | "[specify value]" |
-| `[FALSE_POSITIVE_ANALYSIS]` | Specify the false positive analysis | "[specify value]" |
-| `[VULNERABILITY_PRIORITIZATION]` | Specify the vulnerability prioritization | "[specify value]" |
-| `[REMEDIATION_TIMELINE]` | Specify the remediation timeline | "6 months" |
-| `[COMPENSATING_CONTROLS]` | Specify the compensating controls | "[specify value]" |
-| `[VULNERABILITY_TRACKING]` | Specify the vulnerability tracking | "[specify value]" |
-| `[VULNERABILITY_REPORTING]` | Specify the vulnerability reporting | "[specify value]" |
-| `[TESTING_METHODOLOGY]` | Specify the testing methodology | "[specify value]" |
-| `[PENETRATION_SCOPE]` | Specify the penetration scope | "[specify value]" |
-| `[RULES_OF_ENGAGEMENT]` | Specify the rules of engagement | "[specify value]" |
-| `[PENETRATION_TOOLS]` | Specify the penetration tools | "[specify value]" |
-| `[ATTACK_SCENARIOS]` | Specify the attack scenarios | "[specify value]" |
-| `[EXPLOITATION_TECHNIQUES]` | Specify the exploitation techniques | "[specify value]" |
-| `[PRIVILEGE_ESCALATION]` | Specify the privilege escalation | "[specify value]" |
-| `[LATERAL_MOVEMENT]` | Specify the lateral movement | "[specify value]" |
-| `[DATA_EXFILTRATION]` | Specify the data exfiltration | "[specify value]" |
-| `[PERSISTENCE_METHODS]` | Specify the persistence methods | "[specify value]" |
-| `[CONTROL_FRAMEWORK]` | Specify the control framework | "[specify value]" |
-| `[ADMINISTRATIVE_CONTROLS]` | Specify the administrative controls | "[specify value]" |
-| `[TECHNICAL_CONTROLS]` | Specify the technical controls | "[specify value]" |
-| `[PHYSICAL_CONTROLS]` | Specify the physical controls | "[specify value]" |
-| `[PREVENTIVE_CONTROLS]` | Specify the preventive controls | "[specify value]" |
-| `[DETECTIVE_CONTROLS]` | Specify the detective controls | "[specify value]" |
-| `[CORRECTIVE_CONTROLS]` | Specify the corrective controls | "[specify value]" |
-| `[CONTROL_EFFECTIVENESS]` | Specify the control effectiveness | "[specify value]" |
-| `[CONTROL_GAPS]` | Specify the control gaps | "[specify value]" |
-| `[CONTROL_RECOMMENDATIONS]` | Specify the control recommendations | "[specify value]" |
+| `[ASSESSMENT_NAME]` | Descriptive name for the assessment | "Q4 2025 Web Application Security Assessment", "Annual PCI-DSS Compliance Audit" |
+| `[ASSESSMENT_TYPE]` | Category of security assessment | "Vulnerability Assessment", "Penetration Test", "Red Team", "Compliance Audit" |
+| `[ASSESSMENT_SCOPE]` | What is included in the assessment | "All customer-facing web applications", "AWS infrastructure + on-prem network" |
+| `[TARGET_SYSTEMS]` | Specific systems being assessed | "app.example.com, api.example.com, 10.0.0.0/24 internal network" |
+| `[ASSESSMENT_METHODOLOGY]` | Framework guiding the assessment | "OWASP Testing Guide v4.2", "PTES", "NIST SP 800-115", "OSSTMM" |
+| `[ASSESSMENT_TIMELINE]` | Duration and schedule | "2 weeks (Jan 15-29)", "5 business days active testing" |
+| `[ASSESSMENT_TEAM]` | Personnel conducting assessment | "2 senior pentesters, 1 web app specialist, project manager" |
+| `[STAKEHOLDERS]` | Key stakeholders and decision makers | "CISO, VP Engineering, Compliance Officer, Legal (for breach scenarios)" |
+| `[COMPLIANCE_REQUIREMENTS]` | Regulatory drivers | "PCI-DSS 4.0 Req 11.4", "SOC 2 CC6.1", "HIPAA Security Rule" |
+
+### Threat Modeling
+
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `[ASSET_IDENTIFICATION]` | Critical assets in scope | "Customer PII database, payment processing API, admin portal credentials" |
+| `[THREAT_ACTORS]` | Who might attack | "Financially motivated cybercriminals, nation-state APT, disgruntled employees" |
+| `[ATTACK_VECTORS]` | How attacks might occur | "Internet-facing apps, phishing emails, supply chain compromise, insider access" |
+| `[THREAT_SCENARIOS]` | Specific attack scenarios | "Ransomware via RDP, SQL injection for data theft, credential stuffing" |
+| `[RISK_RATING]` | Risk scoring methodology | "CVSS 3.1 for technical, FAIR for business impact quantification" |
+| `[ATTACK_SURFACE]` | Exposed entry points | "15 web apps, 3 APIs, VPN endpoint, email gateway, public cloud (AWS)" |
+| `[TRUST_BOUNDARIES]` | Security zone transitions | "Internet → DMZ → Internal → PCI zone → Database tier" |
+
+### Vulnerability Assessment
+
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `[SCANNING_TOOLS]` | Tools used for scanning | "Nessus Professional, Qualys VMDR, Burp Suite Pro, Nuclei" |
+| `[SCANNING_SCOPE]` | What gets scanned | "All TCP ports on external hosts, authenticated scans on internal systems" |
+| `[VULNERABILITY_CATEGORIES]` | Types of vulnerabilities sought | "OWASP Top 10, CWE/SANS Top 25, CISA Known Exploited Vulnerabilities" |
+| `[CVSS_SCORING]` | How vulnerabilities are scored | "CVSS 3.1 base score + environmental adjustments for business context" |
+| `[VULNERABILITY_PRIORITIZATION]` | How findings are prioritized | "Critical+exploitable+external = P1, Critical+internal = P2, High = P3" |
+| `[REMEDIATION_TIMELINE]` | Expected fix timeline by severity | "Critical: 24-48 hours, High: 7 days, Medium: 30 days, Low: 90 days" |
+| `[COMPENSATING_CONTROLS]` | Interim mitigations | "WAF rules, network segmentation, enhanced monitoring until patched" |
+
+### Penetration Testing
+
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `[TESTING_METHODOLOGY]` | Pentest approach | "Black-box external, gray-box internal with limited credentials" |
+| `[PENETRATION_SCOPE]` | What can be tested | "All production systems except database writes, no DoS testing" |
+| `[RULES_OF_ENGAGEMENT]` | Engagement boundaries | "No social engineering without approval, stop on confirmed breach, notify within 1hr" |
+| `[PENETRATION_TOOLS]` | Tools for active testing | "Metasploit, Cobalt Strike, Impacket, BloodHound, custom exploits" |
+| `[EXPLOITATION_TECHNIQUES]` | Attack techniques used | "SQL injection, SSRF, deserialization, Kerberoasting, LLMNR poisoning" |
+| `[PRIVILEGE_ESCALATION]` | Escalation paths tested | "Service account abuse, misconfigurations, kernel exploits, AD delegation" |
+| `[LATERAL_MOVEMENT]` | Movement techniques | "Pass-the-hash, token impersonation, RDP pivoting, WMI execution" |
+
+### Security Controls Review
+
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `[CONTROL_FRAMEWORK]` | Control framework used | "NIST CSF", "CIS Controls v8", "ISO 27001 Annex A" |
+| `[ADMINISTRATIVE_CONTROLS]` | Policy/process controls | "Security policies, background checks, security awareness training" |
+| `[TECHNICAL_CONTROLS]` | Technology controls | "Firewalls, IDS/IPS, encryption, MFA, DLP, SIEM, EDR" |
+| `[PHYSICAL_CONTROLS]` | Physical security measures | "Badge access, CCTV, server room locks, visitor logs" |
+| `[CONTROL_EFFECTIVENESS]` | How effective controls are | "MFA: 95% adoption, EDR: 100% coverage, Patching: 85% compliant" |
+| `[CONTROL_GAPS]` | Identified control weaknesses | "No network segmentation between zones, shared admin accounts" |
+| `[CONTROL_RECOMMENDATIONS]` | Recommended improvements | "Implement microsegmentation, deploy PAM solution, enable audit logging" |
 
 ## Best Practices
 
