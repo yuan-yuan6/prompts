@@ -1,6 +1,6 @@
 ---
 category: security
-last_updated: 2025-11-09
+last_updated: 2025-11-22
 related_templates:
 - technology/cloud-architecture-framework.md
 - technology/site-reliability-engineering.md
@@ -165,68 +165,78 @@ Detection and Analysis:
 
 ## Variables
 
+### Incident Identification
+
 | Variable | Description | Example |
 |----------|-------------|----------|
-| `[INCIDENT_ID]` | Specify the incident id | "[specify value]" |
-| `[INCIDENT_TYPE]` | Specify the incident type | "Standard" |
-| `[SEVERITY_LEVEL]` | Specify the severity level | "[specify value]" |
-| `[AFFECTED_SYSTEMS]` | Specify the affected systems | "[specify value]" |
-| `[DISCOVERY_METHOD]` | Specify the discovery method | "[specify value]" |
-| `[DISCOVERY_TIME]` | Specify the discovery time | "[specify value]" |
-| `[REPORTING_TIME]` | Specify the reporting time | "[specify value]" |
-| `[INITIAL_REPORTER]` | Specify the initial reporter | "[specify value]" |
-| `[BUSINESS_IMPACT]` | Specify the business impact | "[specify value]" |
-| `[ESTIMATED_LOSS]` | Specify the estimated loss | "[specify value]" |
-| `[INCIDENT_COMMANDER]` | Specify the incident commander | "[specify value]" |
-| `[SECURITY_TEAM]` | Specify the security team | "[specify value]" |
-| `[IT_OPERATIONS]` | Specify the it operations | "[specify value]" |
-| `[LEGAL_TEAM]` | Specify the legal team | "[specify value]" |
-| `[COMMUNICATIONS_TEAM]` | Specify the communications team | "[specify value]" |
-| `[EXTERNAL_RESOURCES]` | Specify the external resources | "[specify value]" |
-| `[ESCALATION_PATH]` | Specify the escalation path | "[specify value]" |
-| `[CONTACT_INFORMATION]` | Specify the contact information | "[specify value]" |
-| `[ROLES_RESPONSIBILITIES]` | Specify the roles responsibilities | "[specify value]" |
-| `[AUTHORITY_LEVELS]` | Specify the authority levels | "[specify value]" |
-| `[DETECTION_SOURCES]` | Specify the detection sources | "[specify value]" |
-| `[ALERT_CORRELATION]` | Specify the alert correlation | "[specify value]" |
-| `[EVIDENCE_COLLECTION]` | Specify the evidence collection | "[specify value]" |
-| `[FORENSIC_ANALYSIS]` | Specify the forensic analysis | "[specify value]" |
-| `[IOC_IDENTIFICATION]` | Specify the ioc identification | "[specify value]" |
-| `[ATTACK_TIMELINE]` | Specify the attack timeline | "6 months" |
-| `[ATTRIBUTION_ANALYSIS]` | Specify the attribution analysis | "[specify value]" |
-| `[SCOPE_ASSESSMENT]` | Specify the scope assessment | "[specify value]" |
-| `[IMPACT_ANALYSIS]` | Specify the impact analysis | "[specify value]" |
-| `[ROOT_CAUSE_ANALYSIS]` | Specify the root cause analysis | "[specify value]" |
-| `[SHORT_TERM_CONTAINMENT]` | Specify the short term containment | "[specify value]" |
-| `[LONG_TERM_CONTAINMENT]` | Specify the long term containment | "[specify value]" |
-| `[SYSTEM_ISOLATION]` | Specify the system isolation | "[specify value]" |
-| `[NETWORK_SEGMENTATION]` | Specify the network segmentation | "[specify value]" |
-| `[ACCESS_RESTRICTIONS]` | Specify the access restrictions | "[specify value]" |
-| `[SERVICE_DISRUPTION]` | Specify the service disruption | "[specify value]" |
-| `[BUSINESS_CONTINUITY]` | Specify the business continuity | "[specify value]" |
-| `[CONTAINMENT_COMMUNICATION]` | Specify the containment communication | "[specify value]" |
-| `[MONITORING_ENHANCEMENT]` | Specify the monitoring enhancement | "[specify value]" |
-| `[EVIDENCE_PRESERVATION]` | Specify the evidence preservation | "[specify value]" |
-| `[THREAT_ELIMINATION]` | Specify the threat elimination | "[specify value]" |
-| `[SYSTEM_HARDENING]` | Specify the system hardening | "[specify value]" |
-| `[PATCH_MANAGEMENT]` | Specify the patch management | "[specify value]" |
-| `[CONFIGURATION_CHANGES]` | Specify the configuration changes | "[specify value]" |
-| `[RECOVERY_PLANNING]` | Specify the recovery planning | "[specify value]" |
-| `[DATA_RESTORATION]` | Specify the data restoration | "[specify value]" |
-| `[SERVICE_RESTORATION]` | Specify the service restoration | "[specify value]" |
-| `[MONITORING_RESTORATION]` | Specify the monitoring restoration | "[specify value]" |
-| `[VALIDATION_TESTING]` | Specify the validation testing | "[specify value]" |
-| `[RETURN_TO_OPERATIONS]` | Specify the return to operations | "[specify value]" |
-| `[INTERNAL_COMMUNICATIONS]` | Specify the internal communications | "[specify value]" |
-| `[EXTERNAL_COMMUNICATIONS]` | Specify the external communications | "[specify value]" |
-| `[REGULATORY_REPORTING]` | Specify the regulatory reporting | "[specify value]" |
-| `[CUSTOMER_NOTIFICATIONS]` | Specify the customer notifications | "[specify value]" |
-| `[MEDIA_RELATIONS]` | Specify the media relations | "[specify value]" |
-| `[LEGAL_NOTIFICATIONS]` | Specify the legal notifications | "[specify value]" |
-| `[STAKEHOLDER_UPDATES]` | Specify the stakeholder updates | "2025-01-15" |
-| `[STATUS_REPORTS]` | Specify the status reports | "In Progress" |
-| `[FINAL_REPORT]` | Specify the final report | "[specify value]" |
-| `[INCIDENT_DOCUMENTATION]` | Specify the incident documentation | "[specify value]" |
+| `[INCIDENT_ID]` | Unique identifier for tracking | "INC-2025-0142", "SEC-20250122-001" |
+| `[INCIDENT_TYPE]` | Category of security incident | "Ransomware", "Data Breach", "Phishing", "DDoS", "Insider Threat", "Malware" |
+| `[SEVERITY_LEVEL]` | Impact severity classification | "Critical (P1)", "High (P2)", "Medium (P3)", "Low (P4)" |
+| `[AFFECTED_SYSTEMS]` | Systems impacted by the incident | "500 Windows workstations, 3 file servers", "Customer database, payment system" |
+| `[DISCOVERY_METHOD]` | How the incident was detected | "EDR alert", "SIEM correlation", "User report", "External notification" |
+| `[DISCOVERY_TIME]` | When incident was first detected | "2025-01-22 02:15 UTC", "Monday 2AM during overnight monitoring" |
+| `[REPORTING_TIME]` | When incident was formally reported | "15 minutes after discovery", "2025-01-22 02:30 UTC" |
+| `[INITIAL_REPORTER]` | Person/system that reported | "SOC Analyst John Smith", "CrowdStrike automated alert", "Help desk ticket #4521" |
+| `[BUSINESS_IMPACT]` | Business functions affected | "Customer service down, payroll processing delayed, e-commerce unavailable" |
+| `[ESTIMATED_LOSS]` | Projected financial impact | "$500K operational loss", "$2M potential regulatory fines", "$50K/hour downtime" |
+
+### Response Team
+
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `[INCIDENT_COMMANDER]` | Lead person directing response | "CISO Jane Doe", "Security Operations Manager", "On-call incident commander" |
+| `[SECURITY_TEAM]` | Security personnel assigned | "3 SOC analysts, 2 threat hunters, 1 forensics specialist" |
+| `[IT_OPERATIONS]` | IT ops support team | "Network admin, 2 system administrators, DBA on standby" |
+| `[LEGAL_TEAM]` | Legal counsel involvement | "General Counsel + outside cybersecurity counsel (firm on retainer)" |
+| `[COMMUNICATIONS_TEAM]` | PR/comms personnel | "VP Communications, Social media manager, Customer success lead" |
+| `[EXTERNAL_RESOURCES]` | Third-party support | "CrowdStrike IR services, Kroll forensics, FBI cyber liaison" |
+| `[ESCALATION_PATH]` | Chain of escalation | "Analyst → Team Lead → SOC Manager → CISO → CEO (for critical)" |
+| `[AUTHORITY_LEVELS]` | Decision-making authority | "CISO can approve system shutdown, CEO required for ransom decisions" |
+
+### Detection and Analysis
+
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `[DETECTION_SOURCES]` | Systems that detected activity | "CrowdStrike EDR, Splunk SIEM, Darktrace NDR, firewall logs" |
+| `[ALERT_CORRELATION]` | How alerts were correlated | "MITRE ATT&CK mapping, timeline correlation, IOC enrichment" |
+| `[EVIDENCE_COLLECTION]` | Evidence gathered | "Memory dumps, disk images, network PCAPs, log exports, screenshots" |
+| `[FORENSIC_ANALYSIS]` | Forensic investigation approach | "Volatile data first, disk imaging with FTK, malware analysis sandbox" |
+| `[IOC_IDENTIFICATION]` | Indicators of compromise found | "C2 domains, malicious IP addresses, file hashes, registry keys" |
+| `[ATTACK_TIMELINE]` | Chronological attack progression | "Initial access 01/15, lateral movement 01/18, data exfil 01/20-01/22" |
+| `[ROOT_CAUSE_ANALYSIS]` | Underlying cause determination | "Phishing email with weaponized attachment, unpatched VPN vulnerability" |
+
+### Containment Strategy
+
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `[SHORT_TERM_CONTAINMENT]` | Immediate containment actions | "Isolate affected hosts via EDR, block C2 IPs at firewall" |
+| `[LONG_TERM_CONTAINMENT]` | Sustained containment measures | "Segment network, rebuild compromised systems, reset all credentials" |
+| `[SYSTEM_ISOLATION]` | How systems are isolated | "EDR network isolation, VLAN quarantine, physical disconnect for critical" |
+| `[NETWORK_SEGMENTATION]` | Network isolation approach | "Block lateral movement paths, isolate affected VLAN, ACL restrictions" |
+| `[ACCESS_RESTRICTIONS]` | Access control changes | "Disable compromised accounts, force MFA reset, revoke VPN access" |
+| `[EVIDENCE_PRESERVATION]` | Evidence protection measures | "Hash all collected evidence, maintain chain of custody, secure storage" |
+
+### Eradication and Recovery
+
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `[THREAT_ELIMINATION]` | Threat removal approach | "AV scan all systems, remove persistence mechanisms, clean registry" |
+| `[SYSTEM_HARDENING]` | Post-incident hardening | "Patch vulnerabilities, disable unnecessary services, update firewall rules" |
+| `[PATCH_MANAGEMENT]` | Patching activities | "Emergency patch for exploited CVE, update all endpoints within 24 hours" |
+| `[DATA_RESTORATION]` | Data recovery process | "Restore from verified clean backup, validate data integrity" |
+| `[SERVICE_RESTORATION]` | Service recovery order | "1: Auth systems, 2: Email, 3: Core apps, 4: User workstations" |
+| `[VALIDATION_TESTING]` | Post-recovery validation | "Vulnerability scan, penetration test, functionality testing, user acceptance" |
+
+### Communication
+
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `[INTERNAL_COMMUNICATIONS]` | Employee communication plan | "All-hands email, manager briefings, intranet updates every 4 hours" |
+| `[EXTERNAL_COMMUNICATIONS]` | External stakeholder comms | "Customer notification email, vendor alerts, partner briefings" |
+| `[REGULATORY_REPORTING]` | Required regulatory notices | "72-hour GDPR notification, state AG breach notification, SEC 8-K if material" |
+| `[CUSTOMER_NOTIFICATIONS]` | Customer notification approach | "Direct email to affected, status page updates, support hotline" |
+| `[MEDIA_RELATIONS]` | Press/media handling | "Prepared statement only, no interviews during active incident" |
+| `[FINAL_REPORT]` | Post-incident documentation | "Executive summary, technical details, lessons learned, remediation status" |
 
 
 
