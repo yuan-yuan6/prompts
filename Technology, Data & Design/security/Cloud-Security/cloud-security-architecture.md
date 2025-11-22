@@ -1,6 +1,6 @@
 ---
 category: security
-last_updated: 2025-11-11
+last_updated: 2025-11-22
 title: Cloud Security Architecture Framework
 tags:
 - security
@@ -420,3 +420,118 @@ Please provide:
    - Audit procedures
    - Reporting templates
 \`\`\`
+
+---
+
+## Usage Examples
+
+### Example 1: Startup SaaS Application (AWS)
+
+**Context:** B2B SaaS platform processing customer PII, 50 employees, SOC 2 compliance required
+
+\`\`\`
+Design secure AWS architecture for CustomerHub SaaS application handling customer PII
+with SOC 2 Type II compliance requirements and hybrid workforce.
+
+CLOUD ENVIRONMENT CONTEXT:
+- Cloud provider: AWS
+- Services: EC2, RDS PostgreSQL, S3, Lambda, ECS
+- Workload: Multi-tenant SaaS with REST APIs
+- Regions: us-east-1 (primary), us-west-2 (DR)
+- HA needs: Yes (99.9% uptime SLA)
+- DR RPO/RTO: 1 hour / 4 hours
+
+Data & Compliance:
+- Data types: Customer PII (names, emails, company data)
+- Compliance: SOC 2 Type II, GDPR (EU customers)
+- Encryption: AES-256 at rest, TLS 1.3 in transit
+
+Security Requirements:
+- Network: Private subnets for data tier, public for ALB only
+- Identity: Okta SSO with SAML, MFA enforced
+- Privileged access: AWS SSM Session Manager (no bastion)
+- Monitoring: 24/7 automated with PagerDuty integration
+\`\`\`
+
+**Expected Output:**
+- VPC with 3-tier architecture (public/private/data subnets)
+- IAM roles with least privilege, no long-lived credentials
+- RDS encryption, S3 bucket policies blocking public access
+- GuardDuty, Config, CloudTrail enabled
+- WAF with OWASP Core Rule Set
+
+### Example 2: Financial Services Multi-Cloud (AWS + Azure)
+
+**Context:** Mid-size financial company, PCI-DSS and SOX compliance, multi-cloud for resilience
+
+\`\`\`
+Design secure multi-cloud architecture for PaymentCorp spanning AWS (primary) and
+Azure (DR/burst), processing payment card data with PCI-DSS 4.0 compliance.
+
+CLOUD ENVIRONMENT CONTEXT:
+- Cloud providers: AWS (primary), Azure (DR + burst capacity)
+- Services: EKS, RDS, Lambda (AWS); AKS, Cosmos DB (Azure)
+- Workload: Payment processing microservices
+- HA: Active-passive failover, 99.99% uptime
+- DR RPO/RTO: 15 minutes / 1 hour
+
+Data & Compliance:
+- Data types: PCI (card data), PII, financial transactions
+- Compliance: PCI-DSS 4.0, SOX, GLBA
+- Data residency: US only
+
+Security Requirements:
+- Network segmentation: CDE isolated, micro-segmentation
+- Identity: Centralized IAM (Okta), cross-cloud federation
+- Privileged access: CyberArk PAM, JIT access
+- Monitoring: Splunk SIEM (cloud-agnostic), 24/7 SOC
+\`\`\`
+
+**Expected Output:**
+- CDE network isolation with dedicated VPC/VNet
+- Cross-cloud identity federation through Okta
+- HSM-backed key management for encryption keys
+- Centralized logging to Splunk across both clouds
+- PCI-DSS control mapping with evidence automation
+
+### Example 3: Healthcare Platform (Azure)
+
+**Context:** Digital health startup with telehealth and EHR integration, HIPAA compliance
+
+\`\`\`
+Design secure Azure architecture for HealthConnect telehealth platform integrating
+with Epic EHR systems, processing PHI with HIPAA compliance requirements.
+
+CLOUD ENVIRONMENT CONTEXT:
+- Cloud provider: Azure (HIPAA BAA in place)
+- Services: Azure App Service, Cosmos DB, Azure Functions, API Management
+- Workload: Telehealth video + patient portal + EHR integration
+- Regions: East US 2 (primary), West US 2 (DR)
+- HA: Zone-redundant, 99.95% uptime
+
+Data & Compliance:
+- Data types: PHI (patient records, prescriptions), video recordings
+- Compliance: HIPAA, HITECH, state privacy laws
+- Data residency: US only (ITAR-like restrictions)
+
+Security Requirements:
+- Network: Private endpoints for all PaaS services
+- Identity: Azure AD B2C (patients), Azure AD (staff)
+- Access: Conditional access policies, device compliance
+- Monitoring: Microsoft Sentinel, anomaly detection
+\`\`\`
+
+**Expected Output:**
+- Private endpoints eliminating public PaaS exposure
+- Azure AD Conditional Access with device compliance
+- PHI encryption with customer-managed keys
+- Sentinel with healthcare-specific detection rules
+- HIPAA control mapping and BAA documentation
+
+## Best Practices
+
+1. **Start with threat modeling** - Understand what you're protecting before designing controls
+2. **Implement least privilege everywhere** - IAM, network, and application layers
+3. **Encrypt by default** - All data at rest and in transit
+4. **Monitor continuously** - Real-time threat detection and alerting
+5. **Automate security controls** - Infrastructure-as-code with security policies embedded

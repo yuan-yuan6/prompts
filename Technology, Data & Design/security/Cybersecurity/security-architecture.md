@@ -1,6 +1,6 @@
 ---
 category: security
-last_updated: 2025-11-09
+last_updated: 2025-11-22
 related_templates:
 - technology/cloud-architecture-framework.md
 - technology/site-reliability-engineering.md
@@ -164,68 +164,72 @@ Zero Trust Implementation:
 
 ## Variables
 
+### Core Architecture Variables
+
 | Variable | Description | Example |
 |----------|-------------|----------|
-| `[ARCHITECTURE_NAME]` | Specify the architecture name | "John Smith" |
-| `[SECURITY_OBJECTIVES]` | Specify the security objectives | "Increase efficiency by 30%" |
-| `[BUSINESS_CONTEXT]` | Specify the business context | "[specify value]" |
-| `[THREAT_LANDSCAPE]` | Specify the threat landscape | "[specify value]" |
-| `[REGULATORY_REQUIREMENTS]` | Specify the regulatory requirements | "[specify value]" |
-| `[RISK_PROFILE]` | Specify the risk profile | "[specify value]" |
-| `[ARCHITECTURE_SCOPE]` | Specify the architecture scope | "[specify value]" |
-| `[SECURITY_TECHNOLOGY_STACK]` | Specify the security technology stack | "[specify value]" |
-| `[ARCHITECTURE_BUDGET]` | Specify the architecture budget | "$500,000" |
-| `[ARCHITECTURE_TIMELINE]` | Specify the architecture timeline | "6 months" |
-| `[DEFENSE_IN_DEPTH]` | Specify the defense in depth | "[specify value]" |
-| `[ZERO_TRUST]` | Specify the zero trust | "[specify value]" |
-| `[LEAST_PRIVILEGE]` | Specify the least privilege | "[specify value]" |
-| `[FAIL_SECURE]` | Specify the fail secure | "[specify value]" |
-| `[SECURITY_BY_DESIGN]` | Specify the security by design | "[specify value]" |
-| `[SEPARATION_OF_DUTIES]` | Specify the separation of duties | "[specify value]" |
-| `[COMPLETE_MEDIATION]` | Specify the complete mediation | "[specify value]" |
-| `[OPEN_DESIGN]` | Specify the open design | "[specify value]" |
-| `[PSYCHOLOGICAL_ACCEPTABILITY]` | Specify the psychological acceptability | "[specify value]" |
-| `[WORK_FACTOR]` | Specify the work factor | "[specify value]" |
-| `[IDENTITY_STRATEGY]` | Specify the identity strategy | "[specify value]" |
-| `[AUTHENTICATION_METHODS]` | Specify the authentication methods | "[specify value]" |
-| `[AUTHORIZATION_MODEL]` | Specify the authorization model | "[specify value]" |
-| `[IDENTITY_PROVIDERS]` | Specify the identity providers | "[specify value]" |
-| `[SINGLE_SIGN_ON]` | Specify the single sign on | "[specify value]" |
-| `[MULTI_FACTOR_AUTHENTICATION]` | Specify the multi factor authentication | "[specify value]" |
-| `[PRIVILEGED_ACCESS_MANAGEMENT]` | Specify the privileged access management | "[specify value]" |
-| `[IDENTITY_GOVERNANCE]` | Specify the identity governance | "[specify value]" |
-| `[ACCESS_REVIEWS]` | Specify the access reviews | "[specify value]" |
-| `[IDENTITY_FEDERATION]` | Specify the identity federation | "[specify value]" |
-| `[NETWORK_SEGMENTATION]` | Specify the network segmentation | "[specify value]" |
-| `[PERIMETER_DEFENSE]` | Specify the perimeter defense | "[specify value]" |
-| `[INTERNAL_NETWORK_SECURITY]` | Specify the internal network security | "[specify value]" |
-| `[REMOTE_ACCESS]` | Specify the remote access | "[specify value]" |
-| `[WIRELESS_SECURITY]` | Specify the wireless security | "[specify value]" |
-| `[NETWORK_MONITORING]` | Specify the network monitoring | "[specify value]" |
-| `[INTRUSION_DETECTION]` | Specify the intrusion detection | "[specify value]" |
-| `[INTRUSION_PREVENTION]` | Specify the intrusion prevention | "[specify value]" |
-| `[NETWORK_ACCESS_CONTROL]` | Specify the network access control | "[specify value]" |
-| `[DDOS_PROTECTION]` | Specify the ddos protection | "[specify value]" |
-| `[SECURE_DEVELOPMENT]` | Specify the secure development | "[specify value]" |
-| `[APPLICATION_SECURITY_TESTING]` | Specify the application security testing | "[specify value]" |
-| `[RUNTIME_PROTECTION]` | Specify the runtime protection | "[specify value]" |
-| `[API_SECURITY]` | Specify the api security | "[specify value]" |
-| `[WEB_APPLICATION_FIREWALL]` | Specify the web application firewall | "[specify value]" |
-| `[CODE_ANALYSIS]` | Specify the code analysis | "[specify value]" |
-| `[DEPENDENCY_MANAGEMENT]` | Specify the dependency management | "[specify value]" |
-| `[CONTAINER_SECURITY]` | Specify the container security | "[specify value]" |
-| `[SERVERLESS_SECURITY]` | Specify the serverless security | "[specify value]" |
-| `[MOBILE_APPLICATION_SECURITY]` | Specify the mobile application security | "[specify value]" |
-| `[DATA_CLASSIFICATION]` | Specify the data classification | "[specify value]" |
-| `[DATA_PROTECTION]` | Specify the data protection | "[specify value]" |
-| `[ENCRYPTION_STRATEGY]` | Specify the encryption strategy | "[specify value]" |
-| `[KEY_MANAGEMENT]` | Specify the key management | "[specify value]" |
-| `[DATA_LOSS_PREVENTION]` | Specify the data loss prevention | "[specify value]" |
-| `[DATABASE_SECURITY]` | Specify the database security | "[specify value]" |
-| `[BACKUP_SECURITY]` | Specify the backup security | "[specify value]" |
-| `[DATA_MASKING]` | Specify the data masking | "[specify value]" |
-| `[DATA_RETENTION]` | Specify the data retention | "[specify value]" |
-| `[SECURITY_DATA_GOVERNANCE]` | Specify the security data governance | "[specify value]" |
+| `[ARCHITECTURE_NAME]` | Descriptive name for the security architecture | "Enterprise Zero Trust Architecture", "Cloud-First Security Framework" |
+| `[SECURITY_OBJECTIVES]` | Primary goals the architecture aims to achieve | "Protect customer data, achieve SOC 2 compliance, enable secure remote work" |
+| `[BUSINESS_CONTEXT]` | Business drivers and constraints shaping security decisions | "Hybrid workforce, cloud migration, M&A integration, rapid growth" |
+| `[THREAT_LANDSCAPE]` | Key threats the organization faces | "Ransomware, nation-state APT, insider threats, supply chain attacks" |
+| `[REGULATORY_REQUIREMENTS]` | Compliance frameworks that must be addressed | "SOC 2 Type II, GDPR, HIPAA, PCI-DSS, ISO 27001" |
+| `[RISK_PROFILE]` | Organization's risk tolerance and exposure level | "Low tolerance (financial services)", "Medium (tech startup)", "High (research)" |
+| `[ARCHITECTURE_SCOPE]` | What systems and environments are covered | "All production systems, cloud infrastructure, remote endpoints" |
+| `[SECURITY_TECHNOLOGY_STACK]` | Core security tools and platforms | "CrowdStrike EDR, Splunk SIEM, Okta IAM, Palo Alto firewalls" |
+| `[ARCHITECTURE_BUDGET]` | Total investment allocated for implementation | "$2M initial, $500K annual", "$50K for startup" |
+| `[ARCHITECTURE_TIMELINE]` | Implementation schedule | "18 months phased rollout", "6-month MVP" |
+
+### Security Principles
+
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `[DEFENSE_IN_DEPTH]` | Layered security controls approach | "7 layers: perimeter, network, endpoint, application, data, identity, physical" |
+| `[ZERO_TRUST]` | Never trust, always verify implementation | "Verify every access request regardless of source, continuous authentication" |
+| `[LEAST_PRIVILEGE]` | Minimum necessary access approach | "Role-based access with just-in-time elevation, 90-day access reviews" |
+| `[FAIL_SECURE]` | Behavior when controls fail | "Default deny on firewall failure, lock accounts on suspicious activity" |
+| `[SECURITY_BY_DESIGN]` | How security is built into systems | "Threat modeling in design phase, security gates in SDLC, secure defaults" |
+| `[SEPARATION_OF_DUTIES]` | Role separation requirements | "No single admin can deploy to production, 4-eyes principle for privileged ops" |
+
+### Identity and Access Management
+
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `[IDENTITY_STRATEGY]` | Overall approach to identity management | "Identity-centric security model, single source of truth in Okta" |
+| `[AUTHENTICATION_METHODS]` | Supported authentication approaches | "SAML 2.0, OAuth 2.0, FIDO2/WebAuthn, certificate-based" |
+| `[AUTHORIZATION_MODEL]` | Access control methodology | "RBAC for standard access, ABAC for dynamic policies, PBAC for sensitive data" |
+| `[IDENTITY_PROVIDERS]` | Systems managing identities | "Okta (workforce), Azure AD B2C (customers), AWS IAM (cloud)" |
+| `[MULTI_FACTOR_AUTHENTICATION]` | MFA implementation details | "Mandatory for all users, hardware keys for admins, push notifications" |
+| `[PRIVILEGED_ACCESS_MANAGEMENT]` | Admin access controls | "CyberArk for credential vaulting, session recording, just-in-time access" |
+
+### Network Security
+
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `[NETWORK_SEGMENTATION]` | How networks are divided | "Micro-segmentation with VMware NSX, separate VLANs for PCI scope" |
+| `[PERIMETER_DEFENSE]` | Edge protection mechanisms | "Next-gen firewall, WAF, DDoS protection, geo-blocking" |
+| `[REMOTE_ACCESS]` | Secure connectivity for remote users | "ZTNA via Zscaler, no traditional VPN, device posture checks" |
+| `[INTRUSION_DETECTION]` | Threat detection capabilities | "Network IDS at all egress points, behavioral analytics, honeypots" |
+| `[DDOS_PROTECTION]` | Volumetric attack mitigation | "Cloudflare for edge protection, rate limiting, traffic scrubbing" |
+
+### Application Security
+
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `[SECURE_DEVELOPMENT]` | Secure coding practices | "OWASP guidelines, security training for devs, peer code review" |
+| `[APPLICATION_SECURITY_TESTING]` | Testing methodologies | "SAST in CI/CD, weekly DAST scans, annual penetration testing" |
+| `[API_SECURITY]` | API protection measures | "API gateway with rate limiting, OAuth 2.0, schema validation" |
+| `[WEB_APPLICATION_FIREWALL]` | Web application protection | "AWS WAF with OWASP Core Rule Set, custom rules for business logic" |
+| `[CONTAINER_SECURITY]` | Container and orchestration security | "Image scanning, runtime protection, network policies in Kubernetes" |
+
+### Data Security
+
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `[DATA_CLASSIFICATION]` | How data is categorized | "4 tiers: Public, Internal, Confidential, Restricted (auto-classification)" |
+| `[ENCRYPTION_STRATEGY]` | Cryptographic approach | "AES-256 at rest, TLS 1.3 in transit, HSM for key storage" |
+| `[KEY_MANAGEMENT]` | Cryptographic key handling | "AWS KMS for cloud, on-prem HSM, annual key rotation" |
+| `[DATA_LOSS_PREVENTION]` | Data exfiltration prevention | "Microsoft DLP for endpoints, network DLP at egress, CASB for cloud" |
+| `[DATA_RETENTION]` | Data lifecycle management | "7-year retention for financial, 90-day logs, GDPR deletion compliance" |
 
 
 

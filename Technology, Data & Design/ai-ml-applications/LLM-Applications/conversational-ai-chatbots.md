@@ -1,6 +1,6 @@
 ---
 category: ai-ml-applications
-last_updated: 2025-11-12
+last_updated: 2025-11-22
 title: Conversational AI & Chatbot Development
 tags:
 - ai-ml
@@ -962,6 +962,130 @@ Who will interact with the chatbot.
 - "Company employees (all departments)"
 - "B2B customers (technical users, developers)"
 - "Website visitors (sales prospects and existing customers)"
+
+## Usage Examples
+
+### Example 1: E-commerce Customer Service Bot
+
+**Context:** Online retailer with 500k monthly visitors needing 24/7 support
+
+```
+Build a customer service chatbot for ShopMax e-commerce platform handling order
+inquiries, returns, and product questions.
+
+CHATBOT CONTEXT:
+- Chatbot name: "MaxAssist"
+- Primary use case: Customer support (orders, returns, products)
+- Deployment: Website widget + mobile app
+- Target users: Online shoppers (ages 18-65)
+- Expected volume: 10,000 conversations/day
+- Success metrics: 70% resolution without human, CSAT >4.0/5
+
+Conversation Scope:
+- Topics: Order tracking, returns/refunds, product availability, shipping info
+- Out of scope: Complex complaints, fraud issues, wholesale inquiries
+- Languages: English, Spanish
+- Escalation: After 3 failed attempts or explicit request
+
+Brand Voice:
+- Tone: Friendly and helpful
+- Personality: Efficient, empathetic, solution-focused
+- Style: Conversational but professional
+
+Integration Points:
+- Shopify order management API
+- Zendesk for escalation
+- Product catalog search
+```
+
+**Expected Output:**
+- System prompt with ShopMax brand voice guidelines
+- Intent classification for order_status, returns, product_info, shipping
+- Entity extraction for order_id, product_name, customer_email
+- Integration with Shopify for real-time order lookup
+- Escalation flow to Zendesk with conversation summary
+
+### Example 2: HR Policy Assistant
+
+**Context:** Enterprise company with 5,000 employees needing self-service HR support
+
+```
+Build an HR assistant chatbot for GlobalCorp employees to answer policy questions
+and handle common HR requests.
+
+CHATBOT CONTEXT:
+- Chatbot name: "HR Helper"
+- Primary use case: Employee self-service HR support
+- Deployment: Slack app + intranet portal
+- Target users: All employees (technical and non-technical)
+- Expected volume: 500 conversations/day
+- Success metrics: 80% deflection from HR tickets, <30s response time
+
+Conversation Scope:
+- Topics: PTO policies, benefits enrollment, payroll questions, company policies
+- Out of scope: Compensation negotiations, harassment complaints, performance reviews
+- Languages: English
+- Escalation: Sensitive topics, complex benefit calculations
+
+Knowledge Base:
+- Employee handbook (PDF)
+- Benefits guides by plan type
+- Payroll FAQ documents
+- Leave policy by country/state
+
+Compliance:
+- No discussion of individual compensation
+- Privacy-aware (no storing personal details)
+- Route sensitive topics immediately to HR
+```
+
+**Expected Output:**
+- RAG pipeline for HR policy documents
+- Permission-aware responses (different info for managers vs employees)
+- Slack app with interactive buttons for common requests
+- Direct integration with HRIS for PTO balance lookup
+- Automatic escalation for sensitive topics
+
+### Example 3: Technical Support Bot
+
+**Context:** SaaS company providing developer tools needing scalable support
+
+```
+Build a technical support chatbot for DevTools SaaS platform helping developers
+troubleshoot issues and find documentation.
+
+CHATBOT CONTEXT:
+- Chatbot name: "DevBot"
+- Primary use case: Technical troubleshooting and documentation search
+- Deployment: In-app widget + Discord integration
+- Target users: Software developers (intermediate to advanced)
+- Expected volume: 2,000 conversations/day
+- Success metrics: First-contact resolution 60%, reduce P1 tickets 40%
+
+Conversation Scope:
+- Topics: API errors, SDK integration, configuration issues, feature questions
+- Out of scope: Sales, billing, SLA violations
+- Languages: English
+- Escalation: Production outages, security issues, unresolved after 5 turns
+
+Technical Integration:
+- Documentation search (Algolia)
+- GitHub issues lookup
+- Status page integration
+- User account context (plan, usage, recent API errors)
+
+Brand Voice:
+- Tone: Technical but friendly
+- Can use code snippets in responses
+- Assume developer familiarity with technical concepts
+```
+
+**Expected Output:**
+- Code-aware response generation with syntax highlighting
+- Integration with docs search for relevant articles
+- Error log lookup from user's recent API calls
+- GitHub issue linking for known bugs
+- Escalation to engineering on-call for production issues
 
 ## Best Practices
 

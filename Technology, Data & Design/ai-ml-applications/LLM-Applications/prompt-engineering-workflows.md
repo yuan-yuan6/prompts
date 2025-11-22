@@ -1,6 +1,6 @@
 ---
 category: ai-ml-applications
-last_updated: 2025-11-12
+last_updated: 2025-11-22
 title: Prompt Engineering & Optimization Workflows
 tags:
 - ai-ml
@@ -750,6 +750,122 @@ The LLM you're using.
 - "GPT-4 Turbo"
 - "Gemini 1.5 Pro"
 - "Llama 3 70B"
+
+## Usage Examples
+
+### Example 1: Customer Support Ticket Classification
+
+**Context:** SaaS company optimizing support ticket routing
+
+```
+Develop and optimize a prompt for classifying customer support tickets into
+categories and priority levels for automated routing.
+
+TASK CONTEXT:
+- Task name: Support Ticket Classifier
+- Task type: CLASSIFICATION
+- Input: Customer email/ticket text (50-500 words)
+- Output: JSON with category, priority, confidence
+- Success criteria: 95% classification accuracy
+- Current baseline: 82% accuracy with simple prompt
+
+Use Case:
+- Application: Internal support tool
+- Users: Customer support team (50 agents)
+- Volume: 2,000 tickets/day
+- Latency: <2 seconds
+- Cost: <$0.01 per classification
+
+Categories:
+- billing (invoices, payments, refunds)
+- technical (bugs, errors, how-to)
+- account (login, settings, permissions)
+- feature_request (suggestions, feedback)
+- urgent (outages, security, data loss)
+```
+
+**Optimization Journey:**
+1. **Baseline (82%):** Simple "classify this ticket" prompt
+2. **v2 (88%):** Added category definitions with examples
+3. **v3 (92%):** Added confidence scoring, uncertainty handling
+4. **v4 (95%):** Few-shot examples for edge cases, chain-of-thought for multi-issue tickets
+
+### Example 2: Content Summarization
+
+**Context:** News aggregator app needing article summaries
+
+```
+Develop a prompt for summarizing news articles that maintains factual accuracy
+while creating engaging, readable summaries.
+
+TASK CONTEXT:
+- Task name: News Article Summarizer
+- Task type: SUMMARIZATION
+- Input: News article (500-3000 words)
+- Output: Summary (50-100 words) + key facts (bullet points)
+- Success criteria: 90% user acceptance rate, no factual errors
+- Current baseline: 75% acceptance, occasional hallucinations
+
+Quality Requirements:
+- Accuracy: Zero fabricated facts
+- Style: Engaging, journalistic tone
+- Length: Strictly 50-100 words
+- Structure: Lead sentence + supporting details
+
+Constraints:
+- Never add information not in original
+- Preserve attribution ("according to...")
+- Maintain neutral tone on controversial topics
+```
+
+**Optimization Techniques Applied:**
+1. **Fact grounding:** "Only include information explicitly stated in the article"
+2. **Output structure:** XML format with separate <summary> and <key_facts> sections
+3. **Self-verification:** "After writing, verify each claim appears in the source"
+4. **Length control:** "Your summary must be exactly 50-100 words. Count them."
+
+### Example 3: Code Review Assistant
+
+**Context:** Developer tools company building automated code review
+
+```
+Develop a prompt for reviewing code changes and providing actionable feedback
+on bugs, security issues, and best practices.
+
+TASK CONTEXT:
+- Task name: Automated Code Reviewer
+- Task type: GENERATION (structured feedback)
+- Input: Git diff with context
+- Output: List of issues with severity, location, explanation, fix suggestion
+- Success criteria: 80% of suggestions accepted by developers
+- Current baseline: 60% acceptance, too many false positives
+
+Technical Context:
+- Languages: Python, JavaScript, TypeScript
+- Focus areas: Security, performance, maintainability
+- Constraints: No style-only comments (handled by linters)
+
+Output Schema:
+{
+  "issues": [
+    {
+      "severity": "critical|high|medium|low",
+      "line": number,
+      "category": "security|bug|performance|best_practice",
+      "issue": "Description",
+      "suggestion": "How to fix",
+      "confidence": 0.0-1.0
+    }
+  ],
+  "summary": "Overall assessment"
+}
+```
+
+**Key Optimizations:**
+1. **Reduce false positives:** Added confidence scores, threshold at 0.7
+2. **Better context:** Include surrounding code, not just diff
+3. **Severity calibration:** Explicit definitions with examples
+4. **Actionable suggestions:** Require specific fix, not just problem identification
 
 ## Best Practices
 
