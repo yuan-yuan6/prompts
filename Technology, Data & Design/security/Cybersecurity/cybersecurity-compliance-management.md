@@ -1,6 +1,6 @@
 ---
 category: security
-last_updated: 2025-11-09
+last_updated: 2025-11-22
 related_templates:
 - technology/cloud-architecture-framework.md
 - technology/site-reliability-engineering.md
@@ -154,58 +154,80 @@ Policy Framework:
 
 ## Variables
 
+### Compliance Framework Variables
+
 | Variable | Description | Example |
 |----------|-------------|----------|
-| `[REGULATORY_FRAMEWORK]` | Specify the regulatory framework | "[specify value]" |
-| `[COMPLIANCE_SCOPE]` | Specify the compliance scope | "[specify value]" |
-| `[APPLICABLE_STANDARDS]` | Specify the applicable standards | "[specify value]" |
-| `[BUSINESS_CONTEXT]` | Specify the business context | "[specify value]" |
-| `[GEOGRAPHIC_JURISDICTION]` | Specify the geographic jurisdiction | "[specify value]" |
-| `[INDUSTRY_SECTOR]` | Specify the industry sector | "Technology" |
-| `[COMPLIANCE_TIMELINE]` | Specify the compliance timeline | "6 months" |
-| `[COMPLIANCE_BUDGET]` | Specify the compliance budget | "$500,000" |
-| `[COMPLIANCE_STAKEHOLDERS]` | Specify the compliance stakeholders | "[specify value]" |
-| `[RISK_TOLERANCE]` | Specify the risk tolerance | "[specify value]" |
-| `[POLICY_STRUCTURE]` | Specify the policy structure | "[specify value]" |
-| `[POLICY_CATEGORIES]` | Specify the policy categories | "[specify value]" |
-| `[POLICY_APPROVAL]` | Specify the policy approval | "[specify value]" |
-| `[POLICY_COMMUNICATION]` | Specify the policy communication | "[specify value]" |
-| `[POLICY_TRAINING]` | Specify the policy training | "[specify value]" |
-| `[POLICY_REVIEW_CYCLE]` | Specify the policy review cycle | "[specify value]" |
-| `[POLICY_UPDATES]` | Specify the policy updates | "2025-01-15" |
-| `[POLICY_EXCEPTIONS]` | Specify the policy exceptions | "[specify value]" |
-| `[POLICY_ENFORCEMENT]` | Specify the policy enforcement | "[specify value]" |
-| `[POLICY_METRICS]` | Specify the policy metrics | "[specify value]" |
-| `[CONTROL_FRAMEWORK]` | Specify the control framework | "[specify value]" |
-| `[CONTROL_CATEGORIES]` | Specify the control categories | "[specify value]" |
-| `[CONTROL_DESIGN]` | Specify the control design | "[specify value]" |
-| `[CONTROL_IMPLEMENTATION]` | Specify the control implementation | "[specify value]" |
-| `[CONTROL_TESTING]` | Specify the control testing | "[specify value]" |
-| `[CONTROL_MONITORING]` | Specify the control monitoring | "[specify value]" |
-| `[CONTROL_REPORTING]` | Specify the control reporting | "[specify value]" |
-| `[CONTROL_EXCEPTIONS]` | Specify the control exceptions | "[specify value]" |
-| `[CONTROL_REMEDIATION]` | Specify the control remediation | "[specify value]" |
-| `[CONTROL_EFFECTIVENESS]` | Specify the control effectiveness | "[specify value]" |
-| `[RISK_ASSESSMENT]` | Specify the risk assessment | "[specify value]" |
-| `[RISK_REGISTER]` | Specify the risk register | "[specify value]" |
-| `[RISK_TREATMENT]` | Specify the risk treatment | "[specify value]" |
-| `[RISK_MONITORING]` | Specify the risk monitoring | "[specify value]" |
-| `[RISK_REPORTING]` | Specify the risk reporting | "[specify value]" |
-| `[RISK_COMMUNICATION]` | Specify the risk communication | "[specify value]" |
-| `[RISK_APPETITE]` | Specify the risk appetite | "[specify value]" |
-| `[COMPLIANCE_RISK_TOLERANCE]` | Specify the compliance risk tolerance | "[specify value]" |
-| `[RISK_MITIGATION]` | Specify the risk mitigation | "[specify value]" |
-| `[RESIDUAL_RISK]` | Specify the residual risk | "[specify value]" |
-| `[AUDIT_PLANNING]` | Specify the audit planning | "[specify value]" |
-| `[AUDIT_EXECUTION]` | Specify the audit execution | "[specify value]" |
-| `[AUDIT_EVIDENCE]` | Specify the audit evidence | "[specify value]" |
-| `[FINDING_MANAGEMENT]` | Specify the finding management | "[specify value]" |
-| `[REMEDIATION_PLANNING]` | Specify the remediation planning | "[specify value]" |
-| `[REMEDIATION_TRACKING]` | Specify the remediation tracking | "[specify value]" |
-| `[MANAGEMENT_RESPONSE]` | Specify the management response | "[specify value]" |
-| `[EXTERNAL_AUDITS]` | Specify the external audits | "[specify value]" |
-| `[CONTINUOUS_MONITORING]` | Specify the continuous monitoring | "[specify value]" |
-| `[AUDIT_DOCUMENTATION]` | Specify the audit documentation | "[specify value]" |
+| `[REGULATORY_FRAMEWORK]` | Primary regulatory standard being addressed | "GDPR", "HIPAA", "SOC 2 Type II", "PCI-DSS 4.0", "ISO 27001:2022" |
+| `[COMPLIANCE_SCOPE]` | Systems and data covered by compliance program | "All customer PII processing systems", "Payment card environment", "Healthcare data systems" |
+| `[APPLICABLE_STANDARDS]` | Supporting standards beyond primary framework | "ISO 27001, NIST Privacy Framework", "CIS Controls v8, COBIT", "NIST CSF, SOC 2" |
+| `[BUSINESS_CONTEXT]` | Business operations driving compliance needs | "E-commerce platform with EU customers", "Healthcare SaaS provider", "Financial services API" |
+| `[GEOGRAPHIC_JURISDICTION]` | Regulatory jurisdictions applicable | "EU (GDPR), California (CCPA)", "US (HIPAA), Canada (PIPEDA)", "Global (ISO 27001)" |
+| `[INDUSTRY_SECTOR]` | Industry vertical for compliance requirements | "Financial Services", "Healthcare", "Technology/SaaS", "Retail/E-commerce" |
+| `[COMPLIANCE_TIMELINE]` | Target completion for compliance milestones | "12 months to SOC 2 certification", "6-month GDPR remediation", "Q4 2025 audit-ready" |
+| `[COMPLIANCE_BUDGET]` | Budget allocated for compliance program | "$500K (tools + audit)", "$2M (18-month program)", "$150K (initial assessment)" |
+| `[COMPLIANCE_STAKEHOLDERS]` | Key stakeholders in compliance program | "CISO, DPO, Legal Counsel, VP Engineering", "Compliance Officer, CFO, Business Owners" |
+| `[RISK_TOLERANCE]` | Organization's acceptable risk level | "Low (regulated industry)", "Medium (growth stage)", "Zero tolerance for data breaches" |
+
+### Policy Framework Variables
+
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `[POLICY_STRUCTURE]` | Hierarchy of policy documents | "Policies → Standards → Procedures → Guidelines", "3-tier: Policy, Control, Procedure" |
+| `[POLICY_CATEGORIES]` | Types of policies required | "Information Security, Data Protection, Acceptable Use, Incident Response, Access Control" |
+| `[POLICY_APPROVAL]` | Approval authority for policies | "Board approval for core policies", "CISO approval with legal review", "Executive committee sign-off" |
+| `[POLICY_COMMUNICATION]` | How policies are distributed to employees | "All-hands training, intranet publication", "Email + acknowledgment form", "LMS modules" |
+| `[POLICY_TRAINING]` | Training requirements for policy awareness | "Annual security awareness + role-specific", "Quarterly compliance refreshers", "New hire onboarding" |
+| `[POLICY_REVIEW_CYCLE]` | Frequency of policy review and updates | "Annual review, ad-hoc for regulatory changes", "Quarterly review, annual certification" |
+| `[POLICY_UPDATES]` | Last update or next scheduled update | "Last updated: 2025-01-15", "Next review: Q2 2025", "Major revision pending" |
+| `[POLICY_EXCEPTIONS]` | Process for handling policy exceptions | "Risk-based exception with CISO approval", "Documented exception with compensating controls" |
+| `[POLICY_ENFORCEMENT]` | How policy compliance is enforced | "Automated controls + periodic audits", "HR disciplinary process", "Access revocation for violations" |
+| `[POLICY_METRICS]` | KPIs for measuring policy effectiveness | "Policy acknowledgment rate (target: 100%)", "Training completion rate", "Exception count trend" |
+
+### Control Implementation Variables
+
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `[CONTROL_FRAMEWORK]` | Framework guiding control selection | "NIST CSF", "CIS Controls v8", "ISO 27001 Annex A", "SOC 2 Trust Services Criteria" |
+| `[CONTROL_CATEGORIES]` | Types of controls being implemented | "Administrative, Technical, Physical", "Preventive, Detective, Corrective" |
+| `[CONTROL_DESIGN]` | How controls are designed to meet objectives | "Privacy by design principles", "Zero trust architecture", "Defense in depth" |
+| `[CONTROL_IMPLEMENTATION]` | Current state of control deployment | "85% implemented, 15% in progress", "Phase 2 of 3 complete", "Core controls deployed" |
+| `[CONTROL_TESTING]` | Methods for validating control effectiveness | "Automated testing via GRC tool", "Quarterly manual testing", "Annual penetration testing" |
+| `[CONTROL_MONITORING]` | Ongoing monitoring of control operation | "Continuous automated monitoring", "Monthly control reviews", "Real-time SIEM alerts" |
+| `[CONTROL_REPORTING]` | How control status is reported | "Weekly dashboards, monthly executive reports", "Real-time GRC dashboards" |
+| `[CONTROL_EXCEPTIONS]` | Handling of control gaps or failures | "Risk acceptance with compensating controls", "Immediate remediation for critical gaps" |
+| `[CONTROL_REMEDIATION]` | Process for fixing control deficiencies | "30-day remediation for high-risk, 90-day for medium", "Sprint-based remediation backlog" |
+| `[CONTROL_EFFECTIVENESS]` | Metrics measuring control performance | "95% control effectiveness score", "Zero control failures in audit", "MTTR <24 hours" |
+
+### Risk Management Variables
+
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `[RISK_ASSESSMENT]` | Risk assessment methodology used | "FAIR quantitative analysis", "NIST RMF qualitative", "ISO 27005 risk assessment" |
+| `[RISK_REGISTER]` | Central repository for tracking risks | "ServiceNow GRC risk register", "SharePoint risk tracker", "RSA Archer risk module" |
+| `[RISK_TREATMENT]` | Strategies for addressing identified risks | "Mitigate, Transfer, Accept, Avoid", "Technical controls + cyber insurance" |
+| `[RISK_MONITORING]` | Ongoing risk surveillance activities | "Continuous vulnerability scanning", "Quarterly risk reviews", "Real-time threat intelligence" |
+| `[RISK_REPORTING]` | How risks are communicated to stakeholders | "Monthly risk committee meetings", "Quarterly board risk reports", "Real-time risk dashboards" |
+| `[RISK_COMMUNICATION]` | Internal communication about risk matters | "Risk newsletters, department briefings", "Slack channel for security updates" |
+| `[RISK_APPETITE]` | Statement of acceptable risk levels | "Low appetite for compliance risks", "Accept operational risks up to $100K impact" |
+| `[COMPLIANCE_RISK_TOLERANCE]` | Specific tolerance for compliance-related risks | "Zero tolerance for regulatory violations", "Low tolerance for audit findings" |
+| `[RISK_MITIGATION]` | Specific actions to reduce risk | "Encryption deployment, access controls, training", "Network segmentation, MFA, DLP" |
+| `[RESIDUAL_RISK]` | Risk remaining after treatment | "Low residual risk (accepted by CISO)", "Medium residual with monitoring", "<$50K exposure" |
+
+### Audit and Assessment Variables
+
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `[AUDIT_PLANNING]` | Audit schedule and preparation activities | "Q4 SOC 2 audit, Q2 GDPR assessment", "Annual audit calendar with 90-day prep" |
+| `[AUDIT_EXECUTION]` | How audits are conducted | "3-week on-site audit + remote testing", "Hybrid audit with evidence repository" |
+| `[AUDIT_EVIDENCE]` | Types of evidence collected for audits | "Screenshots, logs, policy documents, interviews", "Automated evidence collection via GRC tool" |
+| `[FINDING_MANAGEMENT]` | Process for tracking audit findings | "Jira tickets with severity classification", "GRC finding module with due dates" |
+| `[REMEDIATION_PLANNING]` | How remediation is planned and prioritized | "Risk-based prioritization, sprint planning", "Immediate for critical, 30/60/90 day tracks" |
+| `[REMEDIATION_TRACKING]` | Monitoring progress of remediation efforts | "Weekly remediation standups", "Real-time dashboard with burn-down chart" |
+| `[MANAGEMENT_RESPONSE]` | Management's formal response to findings | "Formal management action plan (MAP)", "Risk acceptance or remediation commitment" |
+| `[EXTERNAL_AUDITS]` | Third-party audit engagements | "Big 4 SOC 2 audit", "Qualified Security Assessor (QSA) for PCI", "ISO certification body" |
+| `[CONTINUOUS_MONITORING]` | Ongoing compliance monitoring activities | "Real-time control monitoring via OneTrust", "Daily automated compliance checks" |
+| `[AUDIT_DOCUMENTATION]` | Required documentation for audits | "Policies, procedures, evidence artifacts, interviews", "Control matrix, risk register, test results" |
 
 
 
