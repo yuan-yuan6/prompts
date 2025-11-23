@@ -1,6 +1,6 @@
 ---
 category: technology
-last_updated: 2025-11-09
+last_updated: 2025-11-23
 related_templates:
 - technology/cloud-architecture-framework.md
 - technology/site-reliability-engineering.md
@@ -553,346 +553,346 @@ security_integration: ["SAST", "DAST", "SCA"]
 
 | Variable | Description | Example |
 |----------|-------------|----------|
-| `[ORGANIZATION_NAME]` | Name of the organization | "John Smith" |
-| `[APPLICATION_PORTFOLIO]` | Specify the application portfolio | "[specify value]" |
-| `[TECHNOLOGY_STACK]` | Specify the technology stack | "[specify value]" |
-| `[CUSTOM_STACK]` | Specify the custom stack | "[specify value]" |
-| `[DEVELOPMENT_METHODOLOGY]` | Specify the development methodology | "[specify value]" |
-| `[CUSTOM_METHODOLOGY]` | Specify the custom methodology | "[specify value]" |
-| `[TEAM_STRUCTURE]` | Specify the team structure | "[specify value]" |
-| `[CUSTOM_STRUCTURE]` | Specify the custom structure | "[specify value]" |
-| `[RELEASE_FREQUENCY]` | Specify the release frequency | "[specify value]" |
-| `[CUSTOM_FREQUENCY]` | Specify the custom frequency | "[specify value]" |
-| `[DEPLOYMENT_TARGETS]` | Target or intended deployment s | "[specify value]" |
-| `[COMPLIANCE_REQUIREMENTS]` | Specify the compliance requirements | "[specify value]" |
-| `[CUSTOM_COMPLIANCE]` | Specify the custom compliance | "[specify value]" |
-| `[PERFORMANCE_SLAS]` | Specify the performance slas | "[specify value]" |
-| `[PIPELINE_PLATFORM]` | Specify the pipeline platform | "[specify value]" |
-| `[CUSTOM_PLATFORM]` | Specify the custom platform | "[specify value]" |
-| `[CONTAINER_PLATFORM]` | Specify the container platform | "[specify value]" |
-| `[CUSTOM_CONTAINER]` | Specify the custom container | "[specify value]" |
-| `[ORCHESTRATION_PLATFORM]` | Specify the orchestration platform | "[specify value]" |
-| `[CUSTOM_ORCHESTRATION]` | Specify the custom orchestration | "[specify value]" |
-| `[ARTIFACT_REGISTRY]` | Specify the artifact registry | "[specify value]" |
-| `[CUSTOM_REGISTRY]` | Specify the custom registry | "[specify value]" |
-| `[CONFIG_MANAGEMENT]` | Specify the config management | "[specify value]" |
-| `[CUSTOM_CONFIG]` | Specify the custom config | "[specify value]" |
-| `[SECRET_MANAGEMENT]` | Specify the secret management | "[specify value]" |
-| `[CUSTOM_SECRET]` | Specify the custom secret | "[specify value]" |
-| `[MONITORING_INTEGRATION]` | Specify the monitoring integration | "[specify value]" |
-| `[CUSTOM_MONITORING]` | Specify the custom monitoring | "[specify value]" |
-| `[NOTIFICATION_SYSTEMS]` | Specify the notification systems | "[specify value]" |
-| `[CUSTOM_NOTIFICATION]` | Specify the custom notification | "[specify value]" |
-| `[BRANCHING_STRATEGY]` | Strategy or approach for branching | "[specify value]" |
-| `[CUSTOM_BRANCHING]` | Specify the custom branching | "[specify value]" |
-| `[MERGE_STRATEGY]` | Strategy or approach for merge | "[specify value]" |
-| `[CUSTOM_MERGE]` | Specify the custom merge | "[specify value]" |
-| `[DEPLOYMENT_STRATEGY]` | Strategy or approach for deployment | "[specify value]" |
-| `[CUSTOM_DEPLOYMENT]` | Specify the custom deployment | "[specify value]" |
-| `[TESTING_STRATEGY]` | Strategy or approach for testing | "[specify value]" |
-| `[CUSTOM_TESTING]` | Specify the custom testing | "[specify value]" |
-| `[QUALITY_GATES]` | Specify the quality gates | "[specify value]" |
-| `[CUSTOM_GATES]` | Specify the custom gates | "[specify value]" |
-| `[SECURITY_INTEGRATION]` | Specify the security integration | "[specify value]" |
-| `[SECURITY_COMBO]` | Specify the security combo | "[specify value]" |
-| `[PERFORMANCE_TESTING]` | Specify the performance testing | "[specify value]" |
-| `[CUSTOM_PERFORMANCE]` | Specify the custom performance | "[specify value]" |
-| `[COMPLIANCE_AUTOMATION]` | Specify the compliance automation | "[specify value]" |
-| `[VERSION_CONTROL_SYSTEM]` | Specify the version control system | "[specify value]" |
-| `[CUSTOM_VCS]` | Specify the custom vcs | "[specify value]" |
-| `[REPOSITORY_STRUCTURE]` | Specify the repository structure | "[specify value]" |
-| `[BRANCH_PROTECTION_RULES]` | Specify the branch protection rules | "[specify value]" |
-| `[COMMIT_MESSAGE_STANDARDS]` | Specify the commit message standards | "[specify value]" |
-| `[CODE_REVIEW_REQUIREMENTS]` | Specify the code review requirements | "[specify value]" |
-| `[PR_TEMPLATE_CONFIGURATION]` | Specify the pr template configuration | "[specify value]" |
-| `[MERGE_CONFLICT_RESOLUTION]` | Specify the merge conflict resolution | "[specify value]" |
-| `[REPOSITORY_ACCESS_CONTROLS]` | Specify the repository access controls | "[specify value]" |
-| `[PUSH_TRIGGER_CONFIG]` | Specify the push trigger config | "[specify value]" |
-| `[PR_TRIGGER_CONFIG]` | Specify the pr trigger config | "[specify value]" |
-| `[SCHEDULED_TRIGGER_CONFIG]` | Specify the scheduled trigger config | "[specify value]" |
-| `[MANUAL_TRIGGER_CONFIG]` | Specify the manual trigger config | "[specify value]" |
-| `[EXTERNAL_TRIGGER_CONFIG]` | Specify the external trigger config | "[specify value]" |
-| `[WEBHOOK_CONFIGURATION]` | Specify the webhook configuration | "[specify value]" |
-| `[EVENT_FILTERING_RULES]` | Specify the event filtering rules | "[specify value]" |
-| `[TRIGGER_CONDITIONS]` | Specify the trigger conditions | "[specify value]" |
-| `[BRANCH_SPECIFIC_TRIGGERS]` | Specify the branch specific triggers | "[specify value]" |
-| `[PATH_BASED_TRIGGERS]` | Specify the path based triggers | "[specify value]" |
-| `[FILE_CHANGE_DETECTION]` | Specify the file change detection | "[specify value]" |
-| `[DEPENDENCY_IMPACT_ANALYSIS]` | Specify the dependency impact analysis | "[specify value]" |
-| `[AFFECTED_SERVICE_IDENTIFICATION]` | Specify the affected service identification | "[specify value]" |
-| `[SELECTIVE_BUILD_CONFIGURATION]` | Specify the selective build configuration | "[specify value]" |
-| `[CROSS_REPO_TRIGGERS]` | Specify the cross repo triggers | "[specify value]" |
-| `[MONOREPO_CHANGE_DETECTION]` | Specify the monorepo change detection | "[specify value]" |
-| `[BUILD_OPTIMIZATION_STRATEGY]` | Strategy or approach for build optimization | "[specify value]" |
-| `[CACHE_INVALIDATION_RULES]` | Specify the cache invalidation rules | "[specify value]" |
-| `[BUILD_AGENT_CONFIGURATION]` | Specify the build agent configuration | "[specify value]" |
-| `[CUSTOM_AGENTS]` | Specify the custom agents | "[specify value]" |
-| `[BUILD_TOOLS]` | Specify the build tools | "[specify value]" |
-| `[CUSTOM_BUILD_TOOLS]` | Specify the custom build tools | "[specify value]" |
-| `[COMPILER_VERSIONS]` | Specify the compiler versions | "[specify value]" |
-| `[RUNTIME_ENVIRONMENTS]` | Specify the runtime environments | "[specify value]" |
-| `[BUILD_DEPENDENCIES]` | Specify the build dependencies | "[specify value]" |
-| `[BUILD_ENVIRONMENT_VARIABLES]` | Specify the build environment variables | "[specify value]" |
-| `[BUILD_RESOURCE_ALLOCATION]` | Specify the build resource allocation | "North America" |
-| `[PARALLEL_BUILD_CONFIGURATION]` | Specify the parallel build configuration | "[specify value]" |
-| `[BUILD_ISOLATION_STRATEGY]` | Strategy or approach for build isolation | "[specify value]" |
-| `[CLEAN_BUILD_POLICIES]` | Specify the clean build policies | "[specify value]" |
-| `[ARTIFACT_TYPES]` | Type or category of artifact s | "Standard" |
-| `[CUSTOM_ARTIFACTS]` | Specify the custom artifacts | "[specify value]" |
-| `[ARTIFACT_NAMING_CONVENTIONS]` | Specify the artifact naming conventions | "[specify value]" |
-| `[ARTIFACT_VERSIONING_STRATEGY]` | Strategy or approach for artifact versioning | "[specify value]" |
-| `[ARTIFACT_METADATA_TAGGING]` | Specify the artifact metadata tagging | "[specify value]" |
-| `[ARTIFACT_SIGNING_CONFIGURATION]` | Specify the artifact signing configuration | "[specify value]" |
-| `[ARTIFACT_STORAGE_CONFIGURATION]` | Specify the artifact storage configuration | "[specify value]" |
-| `[ARTIFACT_RETENTION_POLICIES]` | Specify the artifact retention policies | "[specify value]" |
-| `[ARTIFACT_PROMOTION_RULES]` | Specify the artifact promotion rules | "[specify value]" |
-| `[ARTIFACT_REGISTRY_INTEGRATION]` | Specify the artifact registry integration | "[specify value]" |
-| `[ARTIFACT_VULNERABILITY_SCANNING]` | Specify the artifact vulnerability scanning | "[specify value]" |
-| `[BUILD_CACHING_STRATEGY]` | Strategy or approach for build caching | "[specify value]" |
-| `[DEPENDENCY_CACHING_CONFIGURATION]` | Specify the dependency caching configuration | "[specify value]" |
-| `[INCREMENTAL_BUILD_CONFIGURATION]` | Specify the incremental build configuration | "[specify value]" |
-| `[DISTRIBUTED_BUILD_SETUP]` | Specify the distributed build setup | "[specify value]" |
-| `[BUILD_FARM_MANAGEMENT]` | Specify the build farm management | "[specify value]" |
-| `[BUILD_RESOURCE_OPTIMIZATION]` | Specify the build resource optimization | "[specify value]" |
-| `[BUILD_TIME_ANALYSIS]` | Specify the build time analysis | "[specify value]" |
-| `[BUILD_BOTTLENECK_IDENTIFICATION]` | Specify the build bottleneck identification | "[specify value]" |
-| `[UNIT_TESTING_FRAMEWORK]` | Specify the unit testing framework | "[specify value]" |
-| `[CUSTOM_UNIT_FRAMEWORK]` | Specify the custom unit framework | "[specify value]" |
-| `[INTEGRATION_TESTING_APPROACH]` | Specify the integration testing approach | "[specify value]" |
-| `[CONTRACT_TESTING_IMPLEMENTATION]` | Specify the contract testing implementation | "[specify value]" |
-| `[CUSTOM_CONTRACT]` | Specify the custom contract | "[specify value]" |
-| `[E2E_TESTING_FRAMEWORK]` | Specify the e2e testing framework | "[specify value]" |
-| `[CUSTOM_E2E]` | Specify the custom e2e | "[specify value]" |
-| `[API_TESTING_TOOLS]` | Specify the api testing tools | "[specify value]" |
-| `[CUSTOM_API_TESTING]` | Specify the custom api testing | "[specify value]" |
-| `[DATABASE_TESTING_APPROACH]` | Specify the database testing approach | "[specify value]" |
-| `[UI_TESTING_CONFIGURATION]` | Specify the ui testing configuration | "[specify value]" |
-| `[MOBILE_TESTING_INTEGRATION]` | Specify the mobile testing integration | "[specify value]" |
-| `[TEST_DATA_GENERATION_APPROACH]` | Specify the test data generation approach | "[specify value]" |
-| `[DATA_MASKING_IMPLEMENTATION]` | Specify the data masking implementation | "[specify value]" |
-| `[TEST_DATA_REFRESH_STRATEGY]` | Strategy or approach for test data refresh | "[specify value]" |
-| `[TEST_ENVIRONMENT_SYNC]` | Specify the test environment sync | "[specify value]" |
-| `[TEST_DATA_COMPLIANCE_MEASURES]` | Specify the test data compliance measures | "[specify value]" |
-| `[SYNTHETIC_DATA_GENERATION]` | Specify the synthetic data generation | "[specify value]" |
-| `[TEST_DATA_VERSIONING]` | Specify the test data versioning | "[specify value]" |
-| `[TEST_DATA_CLEANUP_PROCEDURES]` | Specify the test data cleanup procedures | "[specify value]" |
-| `[LOAD_TESTING_TOOLS]` | Specify the load testing tools | "[specify value]" |
-| `[CUSTOM_LOAD_TOOLS]` | Specify the custom load tools | "[specify value]" |
-| `[PERFORMANCE_BENCHMARKS]` | Specify the performance benchmarks | "[specify value]" |
-| `[SCALABILITY_TESTING_APPROACH]` | Specify the scalability testing approach | "[specify value]" |
-| `[STRESS_TESTING_CONFIGURATION]` | Specify the stress testing configuration | "[specify value]" |
-| `[ENDURANCE_TESTING_SETUP]` | Specify the endurance testing setup | "[specify value]" |
-| `[SPIKE_TESTING_CONFIGURATION]` | Specify the spike testing configuration | "[specify value]" |
-| `[PERFORMANCE_MONITORING_INTEGRATION]` | Specify the performance monitoring integration | "[specify value]" |
-| `[PERFORMANCE_REGRESSION_DETECTION]` | Specify the performance regression detection | "[specify value]" |
-| `[TEST_EXECUTION_ORCHESTRATION]` | Specify the test execution orchestration | "[specify value]" |
-| `[PARALLEL_TEST_EXECUTION]` | Specify the parallel test execution | "[specify value]" |
-| `[TEST_RESULT_AGGREGATION]` | Specify the test result aggregation | "[specify value]" |
-| `[FLAKY_TEST_MANAGEMENT]` | Specify the flaky test management | "[specify value]" |
-| `[TEST_RETRY_MECHANISMS]` | Specify the test retry mechanisms | "[specify value]" |
-| `[TEST_ENVIRONMENT_PROVISIONING]` | Specify the test environment provisioning | "[specify value]" |
-| `[TEST_DATA_PROVISIONING]` | Specify the test data provisioning | "[specify value]" |
-| `[CROSS_BROWSER_TESTING_SETUP]` | Specify the cross browser testing setup | "[specify value]" |
-| `[CODE_COVERAGE_THRESHOLDS]` | Specify the code coverage thresholds | "[specify value]" |
-| `[CODE_QUALITY_METRICS]` | Specify the code quality metrics | "[specify value]" |
-| `[CUSTOM_METRICS]` | Specify the custom metrics | "[specify value]" |
-| `[TECHNICAL_DEBT_LIMITS]` | Specify the technical debt limits | "[specify value]" |
-| `[VULNERABILITY_THRESHOLDS]` | Specify the vulnerability thresholds | "[specify value]" |
-| `[PERFORMANCE_GATE_BENCHMARKS]` | Specify the performance gate benchmarks | "[specify value]" |
-| `[COMPLIANCE_CHECK_CONFIGURATION]` | Specify the compliance check configuration | "[specify value]" |
-| `[DOCUMENTATION_REQUIREMENTS]` | Specify the documentation requirements | "[specify value]" |
-| `[REVIEW_REQUIREMENT_CONFIGURATION]` | Specify the review requirement configuration | "[specify value]" |
-| `[STATIC_ANALYSIS_TOOLS]` | Specify the static analysis tools | "[specify value]" |
-| `[CUSTOM_SAST]` | Specify the custom sast | "[specify value]" |
-| `[DYNAMIC_ANALYSIS_TOOLS]` | Specify the dynamic analysis tools | "[specify value]" |
-| `[CUSTOM_DAST]` | Specify the custom dast | "[specify value]" |
-| `[DEPENDENCY_SCANNING_TOOLS]` | Specify the dependency scanning tools | "[specify value]" |
-| `[CUSTOM_SCA]` | Specify the custom sca | "[specify value]" |
-| `[CONTAINER_SCANNING_TOOLS]` | Specify the container scanning tools | "[specify value]" |
-| `[CUSTOM_CONTAINER_SCAN]` | Specify the custom container scan | "[specify value]" |
-| `[INFRASTRUCTURE_SCANNING_TOOLS]` | Specify the infrastructure scanning tools | "[specify value]" |
-| `[LICENSE_COMPLIANCE_SCANNING]` | Specify the license compliance scanning | "[specify value]" |
-| `[SECRET_DETECTION_TOOLS]` | Specify the secret detection tools | "[specify value]" |
-| `[CUSTOM_SECRET_SCAN]` | Specify the custom secret scan | "[specify value]" |
-| `[SECURITY_POLICY_ENFORCEMENT]` | Specify the security policy enforcement | "[specify value]" |
-| `[REGULATORY_COMPLIANCE_CHECKS]` | Specify the regulatory compliance checks | "[specify value]" |
-| `[AUDIT_TRAIL_GENERATION]` | Specify the audit trail generation | "[specify value]" |
-| `[COMPLIANCE_EVIDENCE_COLLECTION]` | Specify the compliance evidence collection | "[specify value]" |
-| `[POLICY_VALIDATION_AUTOMATION]` | Specify the policy validation automation | "[specify value]" |
-| `[AUTOMATED_RISK_ASSESSMENT]` | Specify the automated risk assessment | "[specify value]" |
-| `[COMPLIANCE_REPORTING_AUTOMATION]` | Specify the compliance reporting automation | "[specify value]" |
-| `[COMPLIANCE_REMEDIATION_TRACKING]` | Specify the compliance remediation tracking | "[specify value]" |
-| `[COMPLIANCE_EXCEPTION_MANAGEMENT]` | Specify the compliance exception management | "[specify value]" |
-| `[GATE_EXECUTION_ORDER]` | Specify the gate execution order | "[specify value]" |
-| `[PARALLEL_GATE_EXECUTION]` | Specify the parallel gate execution | "[specify value]" |
-| `[GATE_DEPENDENCY_CONFIGURATION]` | Specify the gate dependency configuration | "[specify value]" |
-| `[GATE_OVERRIDE_MECHANISMS]` | Specify the gate override mechanisms | "[specify value]" |
-| `[GATE_APPROVAL_WORKFLOWS]` | Specify the gate approval workflows | "[specify value]" |
-| `[GATE_ESCALATION_PROCEDURES]` | Specify the gate escalation procedures | "[specify value]" |
-| `[GATE_MONITORING_CONFIGURATION]` | Specify the gate monitoring configuration | "[specify value]" |
-| `[GATE_PERFORMANCE_OPTIMIZATION]` | Specify the gate performance optimization | "[specify value]" |
-| `[BLUE_GREEN_IMPLEMENTATION]` | Specify the blue green implementation | "[specify value]" |
-| `[CUSTOM_BLUE_GREEN]` | Specify the custom blue green | "[specify value]" |
-| `[CANARY_DEPLOYMENT_CONFIGURATION]` | Specify the canary deployment configuration | "[specify value]" |
-| `[ROLLING_DEPLOYMENT_SETUP]` | Specify the rolling deployment setup | "[specify value]" |
-| `[FEATURE_FLAG_IMPLEMENTATION]` | Specify the feature flag implementation | "[specify value]" |
-| `[CUSTOM_FF]` | Specify the custom ff | "[specify value]" |
-| `[AB_TESTING_INTEGRATION]` | Specify the ab testing integration | "[specify value]" |
-| `[PROGRESSIVE_DELIVERY_IMPLEMENTATION]` | Specify the progressive delivery implementation | "[specify value]" |
-| `[DARK_LAUNCH_CONFIGURATION]` | Specify the dark launch configuration | "[specify value]" |
-| `[RING_DEPLOYMENT_STRATEGY]` | Strategy or approach for ring deployment | "[specify value]" |
-| `[ENVIRONMENT_PROVISIONING_AUTOMATION]` | Specify the environment provisioning automation | "[specify value]" |
-| `[ENVIRONMENT_CONFIGURATION_MANAGEMENT]` | Specify the environment configuration management | "[specify value]" |
-| `[ENVIRONMENT_PROMOTION_STRATEGY]` | Strategy or approach for environment promotion | "[specify value]" |
-| `[ENVIRONMENT_SYNC_PROCESSES]` | Specify the environment sync processes | "[specify value]" |
-| `[ENVIRONMENT_ISOLATION_CONFIGURATION]` | Specify the environment isolation configuration | "[specify value]" |
-| `[ENVIRONMENT_RESOURCE_OPTIMIZATION]` | Specify the environment resource optimization | "[specify value]" |
-| `[ENVIRONMENT_COST_MANAGEMENT]` | Specify the environment cost management | "[specify value]" |
-| `[ENVIRONMENT_MONITORING_SETUP]` | Specify the environment monitoring setup | "[specify value]" |
-| `[ROLLBACK_TRIGGER_CONDITIONS]` | Specify the rollback trigger conditions | "[specify value]" |
-| `[AUTOMATED_ROLLBACK_CONFIGURATION]` | Specify the automated rollback configuration | "[specify value]" |
-| `[DATABASE_ROLLBACK_STRATEGY]` | Strategy or approach for database rollback | "[specify value]" |
-| `[CONFIGURATION_ROLLBACK_PROCEDURES]` | Specify the configuration rollback procedures | "[specify value]" |
-| `[HEALTH_CHECK_ROLLBACK_INTEGRATION]` | Specify the health check rollback integration | "[specify value]" |
-| `[DISASTER_RECOVERY_INTEGRATION]` | Specify the disaster recovery integration | "[specify value]" |
-| `[BACKUP_VERIFICATION_PROCEDURES]` | Specify the backup verification procedures | "[specify value]" |
-| `[RECOVERY_TESTING_AUTOMATION]` | Specify the recovery testing automation | "[specify value]" |
-| `[SMOKE_TEST_CONFIGURATION]` | Specify the smoke test configuration | "[specify value]" |
-| `[HEALTH_CHECK_IMPLEMENTATION]` | Specify the health check implementation | "[specify value]" |
-| `[PERFORMANCE_VALIDATION_CHECKS]` | Specify the performance validation checks | "[specify value]" |
-| `[SECURITY_VALIDATION_CHECKS]` | Specify the security validation checks | "[specify value]" |
-| `[FUNCTIONAL_VALIDATION_TESTS]` | Specify the functional validation tests | "[specify value]" |
-| `[UAT_AUTOMATION]` | Specify the uat automation | "[specify value]" |
-| `[MONITORING_VALIDATION_CHECKS]` | Specify the monitoring validation checks | "[specify value]" |
-| `[BUSINESS_VALIDATION_PROCEDURES]` | Specify the business validation procedures | "[specify value]" |
-| `[PIPELINE_METRICS_COLLECTION]` | Specify the pipeline metrics collection | "[specify value]" |
-| `[BUILD_METRICS_TRACKING]` | Specify the build metrics tracking | "[specify value]" |
-| `[TEST_METRICS_ANALYSIS]` | Specify the test metrics analysis | "[specify value]" |
-| `[DEPLOYMENT_METRICS_MONITORING]` | Specify the deployment metrics monitoring | "[specify value]" |
-| `[QUALITY_METRICS_DASHBOARD]` | Specify the quality metrics dashboard | "[specify value]" |
-| `[PERFORMANCE_METRICS_TRACKING]` | Specify the performance metrics tracking | "[specify value]" |
-| `[SECURITY_METRICS_MONITORING]` | Specify the security metrics monitoring | "[specify value]" |
-| `[BUSINESS_METRICS_INTEGRATION]` | Specify the business metrics integration | "[specify value]" |
-| `[LOGGING_INTEGRATION_CONFIGURATION]` | Specify the logging integration configuration | "[specify value]" |
-| `[METRICS_COLLECTION_SETUP]` | Specify the metrics collection setup | "[specify value]" |
-| `[DISTRIBUTED_TRACING_INTEGRATION]` | Specify the distributed tracing integration | "[specify value]" |
-| `[ALERT_CONFIGURATION_MANAGEMENT]` | Specify the alert configuration management | "[specify value]" |
-| `[DASHBOARD_CONFIGURATION]` | Specify the dashboard configuration | "[specify value]" |
-| `[SLA_MONITORING_IMPLEMENTATION]` | Specify the sla monitoring implementation | "[specify value]" |
-| `[ANOMALY_DETECTION_SETUP]` | Specify the anomaly detection setup | "[specify value]" |
-| `[CORRELATION_ANALYSIS_CONFIGURATION]` | Specify the correlation analysis configuration | "[specify value]" |
-| `[PIPELINE_ANALYTICS_IMPLEMENTATION]` | Specify the pipeline analytics implementation | "[specify value]" |
-| `[TREND_ANALYSIS_CONFIGURATION]` | Specify the trend analysis configuration | "[specify value]" |
-| `[BOTTLENECK_ANALYSIS_TOOLS]` | Specify the bottleneck analysis tools | "[specify value]" |
-| `[FAILURE_ANALYSIS_PROCEDURES]` | Specify the failure analysis procedures | "[specify value]" |
-| `[PERFORMANCE_ANALYSIS_TOOLS]` | Specify the performance analysis tools | "[specify value]" |
-| `[COST_ANALYSIS_IMPLEMENTATION]` | Specify the cost analysis implementation | "[specify value]" |
-| `[PREDICTIVE_ANALYTICS_SETUP]` | Specify the predictive analytics setup | "[specify value]" |
-| `[CUSTOM_REPORTING_CONFIGURATION]` | Specify the custom reporting configuration | "[specify value]" |
-| `[ALERT_RULE_CONFIGURATION]` | Specify the alert rule configuration | "[specify value]" |
-| `[NOTIFICATION_CHANNEL_SETUP]` | Specify the notification channel setup | "[specify value]" |
-| `[ALERT_ESCALATION_PROCEDURES]` | Specify the alert escalation procedures | "[specify value]" |
-| `[ALERT_CORRELATION_RULES]` | Specify the alert correlation rules | "[specify value]" |
-| `[ALERT_SUPPRESSION_CONFIGURATION]` | Specify the alert suppression configuration | "[specify value]" |
-| `[INCIDENT_MANAGEMENT_INTEGRATION]` | Specify the incident management integration | "[specify value]" |
-| `[ON_CALL_INTEGRATION_SETUP]` | Specify the on call integration setup | "[specify value]" |
-| `[ALERT_COMMUNICATION_PROTOCOLS]` | Specify the alert communication protocols | "[specify value]" |
-| `[PIPELINE_AS_CODE_TOOLS]` | Specify the pipeline as code tools | "[specify value]" |
-| `[CUSTOM_PIPELINE_CODE]` | Specify the custom pipeline code | "[specify value]" |
-| `[PIPELINE_TEMPLATE_MANAGEMENT]` | Specify the pipeline template management | "[specify value]" |
-| `[SHARED_LIBRARY_CONFIGURATION]` | Specify the shared library configuration | "[specify value]" |
-| `[PIPELINE_PARAMETER_MANAGEMENT]` | Specify the pipeline parameter management | "[specify value]" |
-| `[PIPELINE_SECRET_MANAGEMENT]` | Specify the pipeline secret management | "[specify value]" |
-| `[PIPELINE_CONFIG_VALIDATION]` | Specify the pipeline config validation | "[specify value]" |
-| `[PIPELINE_VERSION_CONTROL]` | Specify the pipeline version control | "[specify value]" |
-| `[PIPELINE_CHANGE_MANAGEMENT]` | Specify the pipeline change management | "[specify value]" |
-| `[PIPELINE_TEMPLATE_LIBRARY]` | Specify the pipeline template library | "[specify value]" |
-| `[STANDARD_PRACTICE_ENFORCEMENT]` | Specify the standard practice enforcement | "[specify value]" |
-| `[BEST_PRACTICE_VALIDATION]` | Specify the best practice validation | "[specify value]" |
-| `[COMPLIANCE_TEMPLATE_LIBRARY]` | Specify the compliance template library | "[specify value]" |
-| `[SECURITY_TEMPLATE_CONFIGURATION]` | Specify the security template configuration | "[specify value]" |
-| `[TESTING_TEMPLATE_LIBRARY]` | Specify the testing template library | "[specify value]" |
-| `[DEPLOYMENT_TEMPLATE_LIBRARY]` | Specify the deployment template library | "[specify value]" |
-| `[DOCUMENTATION_TEMPLATE_STANDARDS]` | Specify the documentation template standards | "[specify value]" |
-| `[PIPELINE_POLICY_ENFORCEMENT]` | Specify the pipeline policy enforcement | "[specify value]" |
-| `[PIPELINE_ACCESS_CONTROLS]` | Specify the pipeline access controls | "[specify value]" |
-| `[PIPELINE_APPROVAL_WORKFLOWS]` | Specify the pipeline approval workflows | "[specify value]" |
-| `[PIPELINE_CHANGE_APPROVAL]` | Specify the pipeline change approval | "[specify value]" |
-| `[PIPELINE_AUDIT_TRAILS]` | Specify the pipeline audit trails | "[specify value]" |
-| `[PIPELINE_COMPLIANCE_TRACKING]` | Specify the pipeline compliance tracking | "[specify value]" |
-| `[PIPELINE_RISK_MANAGEMENT]` | Specify the pipeline risk management | "[specify value]" |
-| `[PIPELINE_EXCEPTION_HANDLING]` | Specify the pipeline exception handling | "[specify value]" |
-| `[ENVIRONMENT_SPECIFIC_CONFIGURATIONS]` | Specify the environment specific configurations | "[specify value]" |
-| `[DYNAMIC_CONFIGURATION_MANAGEMENT]` | Specify the dynamic configuration management | "[specify value]" |
-| `[CONFIGURATION_VALIDATION_RULES]` | Specify the configuration validation rules | "[specify value]" |
-| `[CONFIGURATION_DRIFT_DETECTION]` | Specify the configuration drift detection | "[specify value]" |
-| `[CONFIGURATION_BACKUP_PROCEDURES]` | Specify the configuration backup procedures | "[specify value]" |
-| `[CONFIGURATION_VERSIONING_STRATEGY]` | Strategy or approach for configuration versioning | "[specify value]" |
-| `[CONFIGURATION_PROMOTION_PROCESS]` | Specify the configuration promotion process | "[specify value]" |
-| `[BUILD_PERFORMANCE_OPTIMIZATION]` | Specify the build performance optimization | "[specify value]" |
-| `[TEST_PERFORMANCE_OPTIMIZATION]` | Specify the test performance optimization | "[specify value]" |
-| `[DEPLOYMENT_PERFORMANCE_OPTIMIZATION]` | Specify the deployment performance optimization | "[specify value]" |
-| `[RESOURCE_OPTIMIZATION_STRATEGY]` | Strategy or approach for resource optimization | "[specify value]" |
-| `[CACHING_OPTIMIZATION_IMPLEMENTATION]` | Specify the caching optimization implementation | "[specify value]" |
-| `[PARALLEL_EXECUTION_OPTIMIZATION]` | Specify the parallel execution optimization | "[specify value]" |
-| `[QUEUE_MANAGEMENT_OPTIMIZATION]` | Specify the queue management optimization | "[specify value]" |
-| `[BOTTLENECK_ELIMINATION_STRATEGY]` | Strategy or approach for bottleneck elimination | "[specify value]" |
-| `[HORIZONTAL_SCALING_CONFIGURATION]` | Specify the horizontal scaling configuration | "[specify value]" |
-| `[VERTICAL_SCALING_STRATEGY]` | Strategy or approach for vertical scaling | "[specify value]" |
-| `[AUTO_SCALING_IMPLEMENTATION]` | Specify the auto scaling implementation | "[specify value]" |
-| `[PIPELINE_LOAD_BALANCING]` | Specify the pipeline load balancing | "[specify value]" |
-| `[RESOURCE_POOLING_STRATEGY]` | Strategy or approach for resource pooling | "[specify value]" |
-| `[CAPACITY_PLANNING_IMPLEMENTATION]` | Specify the capacity planning implementation | "[specify value]" |
-| `[PEAK_LOAD_HANDLING_STRATEGY]` | Strategy or approach for peak load handling | "[specify value]" |
-| `[SCALING_COST_OPTIMIZATION]` | Specify the scaling cost optimization | "[specify value]" |
-| `[LEAD_TIME_MEASUREMENT]` | Specify the lead time measurement | "[specify value]" |
-| `[CYCLE_TIME_ANALYSIS]` | Specify the cycle time analysis | "[specify value]" |
-| `[THROUGHPUT_METRICS_TRACKING]` | Specify the throughput metrics tracking | "[specify value]" |
-| `[DEPLOYMENT_FREQUENCY_METRICS]` | Specify the deployment frequency metrics | "[specify value]" |
-| `[MTTR_TRACKING_IMPLEMENTATION]` | Specify the mttr tracking implementation | "[specify value]" |
-| `[SUCCESS_RATE_MONITORING]` | Specify the success rate monitoring | "[specify value]" |
-| `[RESOURCE_UTILIZATION_MONITORING]` | Specify the resource utilization monitoring | "[specify value]" |
-| `[COST_EFFICIENCY_ANALYSIS]` | Specify the cost efficiency analysis | "[specify value]" |
-| `[PERFORMANCE_BASELINE_ESTABLISHMENT]` | Specify the performance baseline establishment | "[specify value]" |
-| `[IMPROVEMENT_TARGET_SETTING]` | Target or intended improvement  setting | "[specify value]" |
-| `[OPTIMIZATION_EXPERIMENTATION]` | Specify the optimization experimentation | "[specify value]" |
-| `[PERFORMANCE_FEEDBACK_LOOPS]` | Specify the performance feedback loops | "[specify value]" |
-| `[BEST_PRACTICE_SHARING_MECHANISMS]` | Specify the best practice sharing mechanisms | "[specify value]" |
-| `[INNOVATION_INTEGRATION_PROCESS]` | Specify the innovation integration process | "[specify value]" |
-| `[TECHNOLOGY_EVALUATION_PROCESS]` | Specify the technology evaluation process | "[specify value]" |
-| `[VENDOR_ASSESSMENT_PROCEDURES]` | Specify the vendor assessment procedures | "[specify value]" |
-| `[ENTERPRISE_DIRECTORY_INTEGRATION]` | Specify the enterprise directory integration | "[specify value]" |
-| `[SSO_INTEGRATION_CONFIGURATION]` | Specify the sso integration configuration | "[specify value]" |
-| `[ENTERPRISE_LOGGING_INTEGRATION]` | Specify the enterprise logging integration | "[specify value]" |
-| `[AUDIT_SYSTEM_INTEGRATION]` | Specify the audit system integration | "[specify value]" |
-| `[TICKETING_SYSTEM_INTEGRATION]` | Specify the ticketing system integration | "[specify value]" |
-| `[ASSET_MANAGEMENT_INTEGRATION]` | Specify the asset management integration | "[specify value]" |
-| `[LICENSE_MANAGEMENT_INTEGRATION]` | Specify the license management integration | "[specify value]" |
-| `[GOVERNANCE_PLATFORM_INTEGRATION]` | Specify the governance platform integration | "[specify value]" |
-| `[MULTI_CLOUD_DEPLOYMENT_STRATEGY]` | Strategy or approach for multi cloud deployment | "[specify value]" |
-| `[CROSS_PLATFORM_BUILD_CONFIGURATION]` | Specify the cross platform build configuration | "[specify value]" |
-| `[PIPELINE_ORCHESTRATION_FRAMEWORK]` | Specify the pipeline orchestration framework | "[specify value]" |
-| `[WORKFLOW_MANAGEMENT_INTEGRATION]` | Specify the workflow management integration | "[specify value]" |
-| `[AI_ML_PIPELINE_INTEGRATION]` | Specify the ai ml pipeline integration | "[specify value]" |
-| `[CHAOS_ENGINEERING_INTEGRATION]` | Specify the chaos engineering integration | "[specify value]" |
-| `[FEATURE_EXPERIMENTATION_PLATFORM]` | Specify the feature experimentation platform | "[specify value]" |
-| `[DEVSECOPS_INTEGRATION_FRAMEWORK]` | Specify the devsecops integration framework | "[specify value]" |
-| `[CONTAINER_ORCHESTRATION_INTEGRATION]` | Specify the container orchestration integration | "[specify value]" |
-| `[SERVERLESS_DEPLOYMENT_INTEGRATION]` | Specify the serverless deployment integration | "[specify value]" |
-| `[EDGE_COMPUTING_DEPLOYMENT]` | Specify the edge computing deployment | "[specify value]" |
-| `[IOT_DEPLOYMENT_STRATEGIES]` | Specify the iot deployment strategies | "[specify value]" |
-| `[BLOCKCHAIN_INTEGRATION_SCENARIOS]` | Specify the blockchain integration scenarios | "[specify value]" |
-| `[QUANTUM_COMPUTING_READINESS]` | Specify the quantum computing readiness | "[specify value]" |
-| `[AR_VR_DEPLOYMENT_STRATEGIES]` | Specify the ar vr deployment strategies | "[specify value]" |
-| `[AI_POWERED_PIPELINE_OPTIMIZATION]` | Specify the ai powered pipeline optimization | "[specify value]" |
-| `[TECHNOLOGY_ROADMAP_ALIGNMENT]` | Specify the technology roadmap alignment | "[specify value]" |
-| `[VENDOR_EVALUATION_CRITERIA]` | Specify the vendor evaluation criteria | "[specify value]" |
-| `[MIGRATION_PLANNING_STRATEGY]` | Strategy or approach for migration planning | "[specify value]" |
-| `[LEGACY_SYSTEM_INTEGRATION]` | Specify the legacy system integration | "[specify value]" |
-| `[MODERNIZATION_PATH_PLANNING]` | Specify the modernization path planning | "[specify value]" |
-| `[SKILLS_DEVELOPMENT_PLANNING]` | Specify the skills development planning | "[specify value]" |
-| `[TRAINING_PROGRAM_IMPLEMENTATION]` | Specify the training program implementation | "[specify value]" |
-| `[COMMUNITY_ENGAGEMENT_STRATEGY]` | Strategy or approach for community engagement | "[specify value]" |
+| `[ORGANIZATION_NAME]` | Name of the organization | "Acme Software Inc" |
+| `[APPLICATION_PORTFOLIO]` | Architecture style for applications | "Microservices with 25 services, event-driven communication via Kafka" |
+| `[TECHNOLOGY_STACK]` | Primary languages and frameworks | "Node.js 20 LTS, TypeScript 5.x, React 18, PostgreSQL 15, Redis 7" |
+| `[CUSTOM_STACK]` | Non-standard technology stack | "Rust backend with Actix-web, WASM frontend, CockroachDB" |
+| `[DEVELOPMENT_METHODOLOGY]` | Team development approach | "SAFe Agile with 2-week sprints, daily standups, sprint reviews" |
+| `[CUSTOM_METHODOLOGY]` | Custom development process | "Kanban with WIP limits of 3, continuous deployment on merge" |
+| `[TEAM_STRUCTURE]` | How teams are organized | "3 feature teams (5 devs each), 1 platform team (4 SREs), 1 QA team" |
+| `[CUSTOM_STRUCTURE]` | Non-standard team organization | "Full-stack squads with embedded QA and DevOps engineer per squad" |
+| `[RELEASE_FREQUENCY]` | How often releases occur | "Continuous deployment to staging, production releases every Tuesday 2pm UTC" |
+| `[CUSTOM_FREQUENCY]` | Non-standard release cadence | "Feature-flag controlled releases, production deploy on PR merge to main" |
+| `[DEPLOYMENT_TARGETS]` | Target deployment environments | "AWS EKS us-east-1 (primary), us-west-2 (DR), CloudFront CDN" |
+| `[COMPLIANCE_REQUIREMENTS]` | Regulatory requirements | "SOC 2 Type II, GDPR for EU users, annual penetration testing" |
+| `[CUSTOM_COMPLIANCE]` | Industry-specific compliance | "ISO 27001 certified, FedRAMP Moderate for government contracts" |
+| `[PERFORMANCE_SLAS]` | Performance targets | "99.9% uptime, p95 latency <200ms, error rate <0.1%, RTO 4 hours" |
+| `[PIPELINE_PLATFORM]` | CI/CD platform used | "GitHub Actions with self-hosted runners, matrix builds for multi-platform" |
+| `[CUSTOM_PLATFORM]` | Custom or alternative CI/CD | "Buildkite with custom agents on EC2 Spot instances, Bazel for builds" |
+| `[CONTAINER_PLATFORM]` | Container runtime used | "Docker 24.x with BuildKit, multi-stage builds, distroless base images" |
+| `[CUSTOM_CONTAINER]` | Alternative container runtime | "Podman 4.x rootless containers, Buildah for image creation" |
+| `[ORCHESTRATION_PLATFORM]` | Container orchestration system | "Amazon EKS 1.28, Karpenter autoscaling, Istio service mesh" |
+| `[CUSTOM_ORCHESTRATION]` | Alternative orchestration | "Nomad 1.6 with Consul service discovery, Vault secrets" |
+| `[ARTIFACT_REGISTRY]` | Where artifacts are stored | "AWS ECR for containers, CodeArtifact for npm/Maven packages" |
+| `[CUSTOM_REGISTRY]` | Self-hosted registry solution | "Harbor 2.9 on-premise with Trivy scanning, S3 backend storage" |
+| `[CONFIG_MANAGEMENT]` | Configuration management tool | "Ansible 2.15 for server config, Terraform 1.6 for infrastructure" |
+| `[CUSTOM_CONFIG]` | Alternative config management | "Pulumi TypeScript for IaC, AWS Systems Manager Parameter Store" |
+| `[SECRET_MANAGEMENT]` | Secrets management solution | "HashiCorp Vault Enterprise with auto-unseal, dynamic database credentials" |
+| `[CUSTOM_SECRET]` | Alternative secrets solution | "AWS Secrets Manager with automatic rotation, External Secrets Operator" |
+| `[MONITORING_INTEGRATION]` | Monitoring platform | "Datadog APM with custom metrics, 15-month retention, real-time dashboards" |
+| `[CUSTOM_MONITORING]` | Alternative monitoring stack | "Prometheus + Grafana stack, Thanos for long-term storage, Loki for logs" |
+| `[NOTIFICATION_SYSTEMS]` | Alert notification channels | "Slack #alerts channel, PagerDuty for P1/P2, email digest for P3+" |
+| `[CUSTOM_NOTIFICATION]` | Custom notification setup | "Microsoft Teams webhook, Opsgenie rotation schedules, SMS for critical" |
+| `[BRANCHING_STRATEGY]` | Git branching model | "GitHub Flow: feature branches from main, PR required, auto-delete on merge" |
+| `[CUSTOM_BRANCHING]` | Custom branching model | "Trunk-based with short-lived branches (<24h), feature flags for WIP" |
+| `[MERGE_STRATEGY]` | How branches are merged | "Squash merge with conventional commit message, linear history required" |
+| `[CUSTOM_MERGE]` | Custom merge approach | "Rebase and merge, signed commits required, DCO sign-off mandatory" |
+| `[DEPLOYMENT_STRATEGY]` | How deployments are executed | "Blue-green with AWS ALB, 10% canary for 15 min, automatic rollback on 5xx >1%" |
+| `[CUSTOM_DEPLOYMENT]` | Custom deployment pattern | "GitOps with ArgoCD, progressive delivery via Argo Rollouts, manual promotion to prod" |
+| `[TESTING_STRATEGY]` | Overall testing approach | "Test pyramid: 70% unit, 20% integration, 10% E2E, shift-left security" |
+| `[CUSTOM_TESTING]` | Custom testing approach | "Contract-first testing with Pact, consumer-driven contracts, synthetic monitoring" |
+| `[QUALITY_GATES]` | Quality gate implementation | "Automated gates: coverage >80%, 0 critical vulnerabilities, all tests pass" |
+| `[CUSTOM_GATES]` | Custom quality gates | "Custom SonarQube quality profile, architecture fitness functions, mutation testing" |
+| `[SECURITY_INTEGRATION]` | Security scanning approach | "SAST (CodeQL), DAST (OWASP ZAP), SCA (Snyk), container scan (Trivy)" |
+| `[SECURITY_COMBO]` | Security tool combination | "Semgrep for custom rules, Nuclei for vulnerability scanning, Falco runtime" |
+| `[PERFORMANCE_TESTING]` | Performance test types | "k6 load tests (1000 VUs), stress tests to 5x normal load, soak tests 24h" |
+| `[CUSTOM_PERFORMANCE]` | Custom performance testing | "Gatling simulations, chaos engineering with Litmus, real-user monitoring" |
+| `[COMPLIANCE_AUTOMATION]` | Automated compliance checks | "OPA Gatekeeper policies, CIS benchmark scanning, automated evidence collection" |
+| `[VERSION_CONTROL_SYSTEM]` | Source control system | "GitHub Enterprise with SAML SSO, branch protection, required status checks" |
+| `[CUSTOM_VCS]` | Alternative version control | "GitLab self-managed 16.x with Geo replication, integrated CI/CD" |
+| `[REPOSITORY_STRUCTURE]` | How repos are organized | "Monorepo with Nx workspace, affected-based builds, shared libraries" |
+| `[BRANCH_PROTECTION_RULES]` | Branch protection config | "Require 2 approvals, dismiss stale reviews, require signed commits, no force push" |
+| `[COMMIT_MESSAGE_STANDARDS]` | Commit message format | "Conventional Commits (feat/fix/docs/chore), scope required, max 72 chars" |
+| `[CODE_REVIEW_REQUIREMENTS]` | Code review process | "2 approvals required, CODEOWNERS for critical paths, 24h SLA for reviews" |
+| `[PR_TEMPLATE_CONFIGURATION]` | Pull request templates | "Checklist: tests added, docs updated, breaking changes noted, screenshots for UI" |
+| `[MERGE_CONFLICT_RESOLUTION]` | Conflict resolution process | "Rebase on target branch required, automatic conflict detection, merge queue" |
+| `[REPOSITORY_ACCESS_CONTROLS]` | Repo access management | "RBAC via GitHub Teams, write access for contributors, admin for leads only" |
+| `[PUSH_TRIGGER_CONFIG]` | Push event triggers | "Trigger on push to main/develop, skip CI with [skip ci] in commit message" |
+| `[PR_TRIGGER_CONFIG]` | Pull request triggers | "Run full pipeline on PR open/sync, label-based additional checks (e.g., needs-e2e)" |
+| `[SCHEDULED_TRIGGER_CONFIG]` | Scheduled pipeline runs | "Nightly full regression at 2am UTC, weekly dependency updates Saturday 6am" |
+| `[MANUAL_TRIGGER_CONFIG]` | Manual trigger setup | "workflow_dispatch with environment selector, version input, dry-run option" |
+| `[EXTERNAL_TRIGGER_CONFIG]` | External event triggers | "Webhook from Jira on ticket transition, Slack slash command for hotfix deploy" |
+| `[WEBHOOK_CONFIGURATION]` | Webhook setup | "GitHub webhook to Jenkins, signature verification, 30s timeout, retry 3x" |
+| `[EVENT_FILTERING_RULES]` | Event filter criteria | "Ignore bot commits, filter by file path (src/**), skip draft PRs" |
+| `[TRIGGER_CONDITIONS]` | Conditional triggers | "Run E2E only if src/ or tests/ changed, skip docs-only changes" |
+| `[BRANCH_SPECIFIC_TRIGGERS]` | Per-branch triggers | "main: full pipeline + deploy, feature/*: build + unit tests only" |
+| `[PATH_BASED_TRIGGERS]` | Path-based filtering | "services/api/**  triggers api-service pipeline, shared/** triggers all" |
+| `[FILE_CHANGE_DETECTION]` | Change detection method | "git diff --name-only against merge base, affected project detection via Nx" |
+| `[DEPENDENCY_IMPACT_ANALYSIS]` | Dependency change analysis | "Nx affected:build for monorepo, Dependabot auto-merge for patch updates" |
+| `[AFFECTED_SERVICE_IDENTIFICATION]` | Identify impacted services | "Dependency graph analysis, automatic service tagging, downstream notification" |
+| `[SELECTIVE_BUILD_CONFIGURATION]` | Selective build setup | "Build only changed packages + dependents, cache unchanged artifacts" |
+| `[CROSS_REPO_TRIGGERS]` | Multi-repo triggers | "Repository dispatch to trigger dependent repos, shared workflow templates" |
+| `[MONOREPO_CHANGE_DETECTION]` | Monorepo change handling | "Turborepo with remote caching, affected package detection, parallel execution" |
+| `[BUILD_OPTIMIZATION_STRATEGY]` | Build speed optimization | "Incremental builds, remote caching (Turborepo), parallel jobs, build matrix" |
+| `[CACHE_INVALIDATION_RULES]` | Cache invalidation criteria | "Invalidate on lockfile change, weekly full cache refresh, manual purge option" |
+| `[BUILD_AGENT_CONFIGURATION]` | Build runner setup | "GitHub Actions runners, 4 vCPU, 16GB RAM, ubuntu-latest, self-hosted for ARM" |
+| `[CUSTOM_AGENTS]` | Custom build agents | "EC2 Spot instances (c6i.xlarge), auto-scaling 2-10 agents, ephemeral containers" |
+| `[BUILD_TOOLS]` | Build tooling used | "pnpm 8.x workspace, esbuild for bundling, tsc for type checking" |
+| `[CUSTOM_BUILD_TOOLS]` | Alternative build tools | "Bazel 7.x with remote execution, Pants for Python monorepo, Buck2" |
+| `[COMPILER_VERSIONS]` | Compiler/runtime versions | "Node.js 20.10 LTS, TypeScript 5.3, Go 1.21, OpenJDK 21" |
+| `[RUNTIME_ENVIRONMENTS]` | Runtime environment config | "Node.js 20 Alpine container, JVM with -XX:+UseG1GC, Python 3.12 slim" |
+| `[BUILD_DEPENDENCIES]` | Build-time dependencies | "Docker BuildKit, pnpm, node-gyp, native compilation tools (gcc, make)" |
+| `[BUILD_ENVIRONMENT_VARIABLES]` | Build env vars | "NODE_ENV=production, CI=true, SENTRY_DSN, NPM_TOKEN (from secrets)" |
+| `[BUILD_RESOURCE_ALLOCATION]` | Build resource limits | "4 vCPU, 8GB RAM per job, 30GB disk, 30-minute timeout, concurrency limit 5" |
+| `[PARALLEL_BUILD_CONFIGURATION]` | Parallel build setup | "Matrix builds for Node 18/20, OS (linux/macos), max 6 parallel jobs" |
+| `[BUILD_ISOLATION_STRATEGY]` | Build isolation approach | "Ephemeral containers per job, clean workspace, isolated network namespace" |
+| `[CLEAN_BUILD_POLICIES]` | Clean build triggers | "Weekly clean builds Sunday 3am, on version bump, manual trigger available" |
+| `[ARTIFACT_TYPES]` | Types of artifacts produced | "Docker images (OCI), npm packages, Helm charts, static assets (S3)" |
+| `[CUSTOM_ARTIFACTS]` | Custom artifact types | "WASM modules, mobile app bundles (IPA/APK), firmware images, ML models" |
+| `[ARTIFACT_NAMING_CONVENTIONS]` | Artifact naming scheme | "org/service-name:v1.2.3-sha-abc1234, timestamp suffix for dev builds" |
+| `[ARTIFACT_VERSIONING_STRATEGY]` | Versioning approach | "Semantic versioning (v1.2.3), git SHA suffix for dev builds, CalVer for releases" |
+| `[ARTIFACT_METADATA_TAGGING]` | Metadata attached to artifacts | "Git SHA, branch, build timestamp, build URL, PR number, SBOM reference" |
+| `[ARTIFACT_SIGNING_CONFIGURATION]` | Artifact signing setup | "Cosign keyless signing with Sigstore, SLSA provenance attestation" |
+| `[ARTIFACT_STORAGE_CONFIGURATION]` | Artifact storage setup | "AWS ECR with lifecycle policies, S3 for large artifacts, CDN for distribution" |
+| `[ARTIFACT_RETENTION_POLICIES]` | Retention rules | "Production: 1 year, staging: 90 days, dev: 30 days, keep last 10 versions always" |
+| `[ARTIFACT_PROMOTION_RULES]` | Promotion criteria | "Auto-promote to staging after tests pass, manual approval for production" |
+| `[ARTIFACT_REGISTRY_INTEGRATION]` | Registry integration | "ECR push on build, pull-through cache for Docker Hub, vulnerability scanning" |
+| `[ARTIFACT_VULNERABILITY_SCANNING]` | Vulnerability scanning | "Trivy scan on push, block critical/high CVEs, daily rescan of deployed images" |
+| `[BUILD_CACHING_STRATEGY]` | Caching approach | "Multi-layer Docker cache, pnpm store cache, Turborepo remote cache" |
+| `[DEPENDENCY_CACHING_CONFIGURATION]` | Dependency cache setup | "Cache node_modules by lockfile hash, restore on partial match, 7-day TTL" |
+| `[INCREMENTAL_BUILD_CONFIGURATION]` | Incremental build setup | "TypeScript incremental compilation, Nx computation cache, affected-only builds" |
+| `[DISTRIBUTED_BUILD_SETUP]` | Distributed builds | "Nx Cloud for distributed task execution, Bazel remote execution service" |
+| `[BUILD_FARM_MANAGEMENT]` | Build farm config | "Auto-scaling agent pool (2-20), spot instances for cost savings, reserved for main" |
+| `[BUILD_RESOURCE_OPTIMIZATION]` | Resource optimization | "Right-size containers based on metrics, idle timeout 10min, preemptible instances" |
+| `[BUILD_TIME_ANALYSIS]` | Build time tracking | "Build Insights dashboard, step-level timing, trend analysis, alerting on regression" |
+| `[BUILD_BOTTLENECK_IDENTIFICATION]` | Bottleneck detection | "Critical path analysis, slow test identification, dependency graph visualization" |
+| `[UNIT_TESTING_FRAMEWORK]` | Unit test framework | "Jest 29 with TypeScript, React Testing Library, 80% coverage requirement" |
+| `[CUSTOM_UNIT_FRAMEWORK]` | Alternative test framework | "Vitest for Vite projects, pytest with pytest-cov, Go testing with testify" |
+| `[INTEGRATION_TESTING_APPROACH]` | Integration testing method | "Docker Compose for service dependencies, Testcontainers, real database tests" |
+| `[CONTRACT_TESTING_IMPLEMENTATION]` | Contract testing setup | "Pact broker for consumer-driven contracts, OpenAPI schema validation" |
+| `[CUSTOM_CONTRACT]` | Custom contract testing | "AsyncAPI for event contracts, GraphQL schema validation, gRPC proto linting" |
+| `[E2E_TESTING_FRAMEWORK]` | E2E test framework | "Playwright with multiple browsers, parallel execution, video recording on failure" |
+| `[CUSTOM_E2E]` | Alternative E2E framework | "Cypress Component Testing, WebdriverIO for cross-browser, Detox for mobile" |
+| `[API_TESTING_TOOLS]` | API testing tools | "Postman/Newman for API tests, k6 for performance, Dredd for API Blueprint" |
+| `[CUSTOM_API_TESTING]` | Custom API testing | "REST Assured for Java, httpx/pytest for Python, Insomnia for manual testing" |
+| `[DATABASE_TESTING_APPROACH]` | Database testing method | "Flyway migrations in tests, pg_dump fixtures, Testcontainers PostgreSQL" |
+| `[UI_TESTING_CONFIGURATION]` | UI testing setup | "Storybook visual regression (Chromatic), accessibility tests (axe-core)" |
+| `[MOBILE_TESTING_INTEGRATION]` | Mobile testing setup | "Detox for React Native, BrowserStack for device farm, Appium for native" |
+| `[TEST_DATA_GENERATION_APPROACH]` | Test data generation | "Faker.js for synthetic data, sanitized production snapshots for integration" |
+| `[DATA_MASKING_IMPLEMENTATION]` | Data masking approach | "PII redaction with regex patterns, tokenization for sensitive fields, Delphix" |
+| `[TEST_DATA_REFRESH_STRATEGY]` | Test data refresh method | "Weekly refresh from production (masked), on-demand seed scripts, snapshot restore" |
+| `[TEST_ENVIRONMENT_SYNC]` | Environment sync process | "Terraform workspace per environment, config drift detection, nightly sync" |
+| `[TEST_DATA_COMPLIANCE_MEASURES]` | Test data compliance | "No real PII in test data, synthetic SSN/email generation, GDPR-compliant subsets" |
+| `[SYNTHETIC_DATA_GENERATION]` | Synthetic data creation | "Faker.js factories, realistic patterns, edge cases coverage, localized data" |
+| `[TEST_DATA_VERSIONING]` | Test data versioning | "Git LFS for fixtures, versioned seed scripts, migration-aware test data" |
+| `[TEST_DATA_CLEANUP_PROCEDURES]` | Test data cleanup | "Transactional rollback in tests, cleanup hooks, ephemeral databases per test suite" |
+| `[LOAD_TESTING_TOOLS]` | Load testing tools | "k6 with 1000 virtual users, Grafana k6 Cloud for distributed tests" |
+| `[CUSTOM_LOAD_TOOLS]` | Alternative load tools | "Gatling for Scala DSL, Locust for Python, Artillery for Node.js scenarios" |
+| `[PERFORMANCE_BENCHMARKS]` | Performance targets | "p95 <200ms, p99 <500ms, throughput >1000 RPS, error rate <0.1%" |
+| `[SCALABILITY_TESTING_APPROACH]` | Scalability testing | "Step-up load from 100 to 10000 users, identify breaking point, HPA validation" |
+| `[STRESS_TESTING_CONFIGURATION]` | Stress testing setup | "2x expected peak load for 30 min, gradual ramp-up, monitor resource exhaustion" |
+| `[ENDURANCE_TESTING_SETUP]` | Endurance testing setup | "24-hour soak test at 80% capacity, memory leak detection, connection pool monitoring" |
+| `[SPIKE_TESTING_CONFIGURATION]` | Spike testing setup | "Instant 10x traffic spike, 5-minute duration, measure recovery time to baseline" |
+| `[PERFORMANCE_MONITORING_INTEGRATION]` | Performance monitoring | "Datadog APM traces, custom metrics to Prometheus, real-time latency dashboards" |
+| `[PERFORMANCE_REGRESSION_DETECTION]` | Regression detection | "Automated comparison against baseline, fail on >10% regression, trend alerting" |
+| `[TEST_EXECUTION_ORCHESTRATION]` | Test orchestration | "GitHub Actions matrix for parallel suites, test splitting by timing data" |
+| `[PARALLEL_TEST_EXECUTION]` | Parallel test execution | "Jest --maxWorkers=4, Playwright sharding across 5 machines, pytest-xdist" |
+| `[TEST_RESULT_AGGREGATION]` | Test result aggregation | "JUnit XML reports, Allure for visualization, test analytics in Datadog" |
+| `[FLAKY_TEST_MANAGEMENT]` | Flaky test handling | "Auto-retry 2x, quarantine after 3 failures, weekly flaky test review, deflake sprints" |
+| `[TEST_RETRY_MECHANISMS]` | Test retry config | "Retry failed tests 2x, exponential backoff, separate flaky test report" |
+| `[TEST_ENVIRONMENT_PROVISIONING]` | Test env provisioning | "Terraform modules per PR, ephemeral EKS namespaces, 4-hour TTL" |
+| `[TEST_DATA_PROVISIONING]` | Test data setup | "Pre-seeded Docker images, on-demand data generators, fixture management" |
+| `[CROSS_BROWSER_TESTING_SETUP]` | Cross-browser testing | "Playwright: Chrome, Firefox, Safari, BrowserStack for IE11 legacy support" |
+| `[CODE_COVERAGE_THRESHOLDS]` | Coverage requirements | "Minimum 80% line coverage, 70% branch coverage, fail build if below threshold" |
+| `[CODE_QUALITY_METRICS]` | Quality metrics tracked | "Cyclomatic complexity <10, duplication <3%, maintainability index >65" |
+| `[CUSTOM_METRICS]` | Custom quality metrics | "Cognitive complexity <15, max file length 500 lines, dependency coupling score" |
+| `[TECHNICAL_DEBT_LIMITS]` | Tech debt thresholds | "SonarQube debt ratio <5%, no new critical issues, debt paydown 10% per sprint" |
+| `[VULNERABILITY_THRESHOLDS]` | Vulnerability limits | "0 critical, 0 high with exploits, <5 medium, 30-day remediation SLA" |
+| `[PERFORMANCE_GATE_BENCHMARKS]` | Performance gate criteria | "Build <5 min, unit tests <3 min, integration tests <10 min, deploy <5 min" |
+| `[COMPLIANCE_CHECK_CONFIGURATION]` | Compliance check setup | "License scanning (FOSSA), SBOM generation, CIS benchmark validation" |
+| `[DOCUMENTATION_REQUIREMENTS]` | Documentation gates | "README required, API docs auto-generated, ADRs for architecture decisions" |
+| `[REVIEW_REQUIREMENT_CONFIGURATION]` | Review requirements | "2 approvers from CODEOWNERS, security review for auth changes, architect sign-off for API changes" |
+| `[STATIC_ANALYSIS_TOOLS]` | SAST tools used | "SonarQube Enterprise with quality profiles, CodeQL for security, ESLint strict mode" |
+| `[CUSTOM_SAST]` | Custom static analysis | "Semgrep with custom rules, Checkmarx for enterprise, Snyk Code for IDE integration" |
+| `[DYNAMIC_ANALYSIS_TOOLS]` | DAST tools used | "OWASP ZAP in CI pipeline, weekly Burp Suite scans, API fuzzing with RESTler" |
+| `[CUSTOM_DAST]` | Custom dynamic analysis | "Nuclei templates for CVE scanning, custom fuzzer for business logic, Arachni" |
+| `[DEPENDENCY_SCANNING_TOOLS]` | Dependency scanning | "Snyk for npm/Maven/pip, Dependabot auto-PRs, OSV-Scanner for vulnerability DB" |
+| `[CUSTOM_SCA]` | Custom SCA tools | "WhiteSource Bolt, Black Duck for license compliance, OWASP Dependency-Check" |
+| `[CONTAINER_SCANNING_TOOLS]` | Container scanning | "Trivy in CI, ECR scanning on push, Falco for runtime security" |
+| `[CUSTOM_CONTAINER_SCAN]` | Custom container scanning | "Prisma Cloud (Twistlock), Anchore Enterprise, Aqua Security" |
+| `[INFRASTRUCTURE_SCANNING_TOOLS]` | IaC scanning | "Checkov for Terraform, tfsec, KICS for multi-IaC, OPA policies" |
+| `[LICENSE_COMPLIANCE_SCANNING]` | License scanning | "FOSSA for license detection, deny GPL in proprietary code, allow MIT/Apache" |
+| `[SECRET_DETECTION_TOOLS]` | Secret detection tools | "GitLeaks pre-commit hook, TruffleHog in CI, GitHub secret scanning" |
+| `[CUSTOM_SECRET_SCAN]` | Custom secret scanning | "detect-secrets baseline, custom regex for internal patterns, Talisman" |
+| `[SECURITY_POLICY_ENFORCEMENT]` | Policy enforcement | "OPA Gatekeeper in K8s, Kyverno policies, admission controller for image signing" |
+| `[REGULATORY_COMPLIANCE_CHECKS]` | Regulatory checks | "SOC 2 control validation, PCI-DSS network segmentation, HIPAA audit logging" |
+| `[AUDIT_TRAIL_GENERATION]` | Audit trail creation | "All deployments logged to Splunk, git history preserved, approval records in JIRA" |
+| `[COMPLIANCE_EVIDENCE_COLLECTION]` | Evidence collection | "Automated screenshots of controls, test results archived, config snapshots" |
+| `[POLICY_VALIDATION_AUTOMATION]` | Policy validation | "OPA Rego policies for infra, Sentinel for Terraform, automated policy tests" |
+| `[AUTOMATED_RISK_ASSESSMENT]` | Risk assessment | "CVSS scoring integration, risk-based prioritization, asset criticality mapping" |
+| `[COMPLIANCE_REPORTING_AUTOMATION]` | Compliance reporting | "Weekly compliance dashboard, automated SOC 2 evidence packets, auditor portal" |
+| `[COMPLIANCE_REMEDIATION_TRACKING]` | Remediation tracking | "JIRA tickets auto-created for violations, SLA tracking, escalation after 7 days" |
+| `[COMPLIANCE_EXCEPTION_MANAGEMENT]` | Exception management | "Risk acceptance workflow, time-bound exceptions, quarterly exception review" |
+| `[GATE_EXECUTION_ORDER]` | Gate execution sequence | "Lint > Unit Tests > SAST > Build > Integration > DAST > Deploy" |
+| `[PARALLEL_GATE_EXECUTION]` | Parallel gates | "Run lint, unit tests, and SAST in parallel, then sequential build and deploy" |
+| `[GATE_DEPENDENCY_CONFIGURATION]` | Gate dependencies | "Build depends on tests passing, deploy depends on security scan, E2E depends on staging deploy" |
+| `[GATE_OVERRIDE_MECHANISMS]` | Override mechanisms | "Emergency bypass with 2 VP approvals, documented risk acceptance, 24h audit" |
+| `[GATE_APPROVAL_WORKFLOWS]` | Approval workflows | "Auto-approve for staging, manual approval for production with 2-hour SLA" |
+| `[GATE_ESCALATION_PROCEDURES]` | Escalation procedures | "Auto-escalate blocked PRs after 4 hours, page on-call for production blockers" |
+| `[GATE_MONITORING_CONFIGURATION]` | Gate monitoring | "Dashboard showing gate pass rates, average wait times, failure root causes" |
+| `[GATE_PERFORMANCE_OPTIMIZATION]` | Gate optimization | "Cache gate results for identical commits, skip unchanged components, parallel gates" |
+| `[BLUE_GREEN_IMPLEMENTATION]` | Blue-green setup | "AWS ALB with target groups, Route53 weighted routing, instant cutover" |
+| `[CUSTOM_BLUE_GREEN]` | Custom blue-green | "Kubernetes service swap, Istio traffic shifting, database blue-green with Aurora" |
+| `[CANARY_DEPLOYMENT_CONFIGURATION]` | Canary deployment setup | "5% traffic for 15 min, 25% for 30 min, 100% if metrics healthy, auto-rollback on errors" |
+| `[ROLLING_DEPLOYMENT_SETUP]` | Rolling deployment | "25% pods at a time, maxUnavailable=1, readinessProbe must pass, PDB configured" |
+| `[FEATURE_FLAG_IMPLEMENTATION]` | Feature flag setup | "LaunchDarkly SDK integrated, user targeting rules, gradual rollout by percentage" |
+| `[CUSTOM_FF]` | Custom feature flags | "Unleash self-hosted, OpenFeature SDK, config-based flags in ConfigMap" |
+| `[AB_TESTING_INTEGRATION]` | A/B testing setup | "Split.io integration, experiment tracking, statistical significance calculation" |
+| `[PROGRESSIVE_DELIVERY_IMPLEMENTATION]` | Progressive delivery | "Argo Rollouts with analysis template, automatic promotion, rollback on SLO breach" |
+| `[DARK_LAUNCH_CONFIGURATION]` | Dark launch setup | "Shadow traffic at 10%, compare responses, no user impact, latency comparison" |
+| `[RING_DEPLOYMENT_STRATEGY]` | Ring deployment | "Ring 0: internal, Ring 1: beta users 5%, Ring 2: 25%, Ring 3: GA 100%" |
+| `[ENVIRONMENT_PROVISIONING_AUTOMATION]` | Environment provisioning | "Terraform modules per environment, 15-minute spin-up, IaC review required" |
+| `[ENVIRONMENT_CONFIGURATION_MANAGEMENT]` | Environment config | "Helm values per environment, External Secrets Operator, sealed secrets" |
+| `[ENVIRONMENT_PROMOTION_STRATEGY]` | Environment promotion | "Dev > Staging > Prod, same artifact promoted, config-only differences" |
+| `[ENVIRONMENT_SYNC_PROCESSES]` | Environment sync | "Weekly staging refresh from production (data masked), config drift alerting" |
+| `[ENVIRONMENT_ISOLATION_CONFIGURATION]` | Environment isolation | "Separate VPCs per environment, network policies, no cross-env access" |
+| `[ENVIRONMENT_RESOURCE_OPTIMIZATION]` | Resource optimization | "Dev: t3.medium, Staging: t3.large, Prod: m5.xlarge, auto-scaling in prod" |
+| `[ENVIRONMENT_COST_MANAGEMENT]` | Cost management | "Dev environments shut down nights/weekends, spot instances for non-prod" |
+| `[ENVIRONMENT_MONITORING_SETUP]` | Environment monitoring | "Full observability stack per environment, centralized Grafana, per-env dashboards" |
+| `[ROLLBACK_TRIGGER_CONDITIONS]` | Rollback triggers | "Error rate >1%, p95 latency >500ms, health check failures >3, manual trigger" |
+| `[AUTOMATED_ROLLBACK_CONFIGURATION]` | Automated rollback | "Argo Rollouts automatic rollback on analysis failure, previous revision restore" |
+| `[DATABASE_ROLLBACK_STRATEGY]` | Database rollback | "Flyway undo migrations, point-in-time recovery capability, schema versioning" |
+| `[CONFIGURATION_ROLLBACK_PROCEDURES]` | Config rollback | "GitOps revert commit, Helm rollback to previous release, ConfigMap versioning" |
+| `[HEALTH_CHECK_ROLLBACK_INTEGRATION]` | Health check rollback | "Kubernetes readiness probe failure triggers pod replacement, circuit breaker" |
+| `[DISASTER_RECOVERY_INTEGRATION]` | DR integration | "Multi-region failover, RTO 4 hours, RPO 1 hour, automated DR drills quarterly" |
+| `[BACKUP_VERIFICATION_PROCEDURES]` | Backup verification | "Daily backup validation, monthly restore tests, backup integrity checksums" |
+| `[RECOVERY_TESTING_AUTOMATION]` | Recovery testing | "Quarterly DR drill automation, runbook validation, time-to-recovery measurement" |
+| `[SMOKE_TEST_CONFIGURATION]` | Smoke test setup | "Critical path tests post-deploy: login, checkout, API health, 5-minute timeout" |
+| `[HEALTH_CHECK_IMPLEMENTATION]` | Health checks | "/health endpoint, /ready for dependencies, structured JSON response, 10s timeout" |
+| `[PERFORMANCE_VALIDATION_CHECKS]` | Performance validation | "Baseline comparison post-deploy, latency within 10% of previous, throughput check" |
+| `[SECURITY_VALIDATION_CHECKS]` | Security validation | "TLS cert validation, security headers check, CORS policy verification" |
+| `[FUNCTIONAL_VALIDATION_TESTS]` | Functional validation | "Core user journeys: registration, login, purchase, critical API endpoints" |
+| `[UAT_AUTOMATION]` | UAT automation | "Selenium tests for business flows, stakeholder sign-off gate, test evidence" |
+| `[MONITORING_VALIDATION_CHECKS]` | Monitoring validation | "Verify metrics flowing, check alert routing, validate dashboard data" |
+| `[BUSINESS_VALIDATION_PROCEDURES]` | Business validation | "Revenue metrics stable, conversion rate check, business KPI dashboard review" |
+| `[PIPELINE_METRICS_COLLECTION]` | Pipeline metrics | "Build duration, test pass rate, deployment frequency, queue wait time" |
+| `[BUILD_METRICS_TRACKING]` | Build metrics | "Build success rate, average duration, cache hit ratio, artifact size trends" |
+| `[TEST_METRICS_ANALYSIS]` | Test metrics | "Test pass rate, flaky test percentage, coverage trends, test duration" |
+| `[DEPLOYMENT_METRICS_MONITORING]` | Deployment metrics | "Deployment frequency, lead time, change failure rate, MTTR" |
+| `[QUALITY_METRICS_DASHBOARD]` | Quality dashboard | "SonarQube metrics, vulnerability counts, technical debt, code smells trend" |
+| `[PERFORMANCE_METRICS_TRACKING]` | Performance metrics | "p50/p95/p99 latency, throughput, error rates, resource utilization" |
+| `[SECURITY_METRICS_MONITORING]` | Security metrics | "Vulnerability count by severity, mean time to remediate, scan coverage" |
+| `[BUSINESS_METRICS_INTEGRATION]` | Business metrics | "Deployment impact on revenue, user engagement post-release, error rates" |
+| `[LOGGING_INTEGRATION_CONFIGURATION]` | Logging integration | "Structured JSON logs, ELK stack, log correlation IDs, 30-day retention" |
+| `[METRICS_COLLECTION_SETUP]` | Metrics collection | "Prometheus scraping, custom metrics via StatsD, 15s scrape interval" |
+| `[DISTRIBUTED_TRACING_INTEGRATION]` | Distributed tracing | "OpenTelemetry SDK, Jaeger backend, trace sampling 10%, 7-day retention" |
+| `[ALERT_CONFIGURATION_MANAGEMENT]` | Alert configuration | "Prometheus Alertmanager, severity-based routing, runbook links in alerts" |
+| `[DASHBOARD_CONFIGURATION]` | Dashboard setup | "Grafana dashboards as code, per-service overview, SLO tracking dashboard" |
+| `[SLA_MONITORING_IMPLEMENTATION]` | SLA monitoring | "99.9% uptime tracking, SLO burn rate alerts, error budget dashboard" |
+| `[ANOMALY_DETECTION_SETUP]` | Anomaly detection | "Datadog anomaly monitors, baseline comparison, ML-based outlier detection" |
+| `[CORRELATION_ANALYSIS_CONFIGURATION]` | Correlation analysis | "Trace-to-log correlation, deployment markers in metrics, error clustering" |
+| `[PIPELINE_ANALYTICS_IMPLEMENTATION]` | Pipeline analytics | "DORA metrics dashboard, pipeline efficiency trends, bottleneck analysis" |
+| `[TREND_ANALYSIS_CONFIGURATION]` | Trend analysis | "Weekly metrics review, quarter-over-quarter comparison, regression alerts" |
+| `[BOTTLENECK_ANALYSIS_TOOLS]` | Bottleneck analysis | "Critical path analysis, resource contention detection, queue depth monitoring" |
+| `[FAILURE_ANALYSIS_PROCEDURES]` | Failure analysis | "Automated root cause suggestion, failure categorization, post-mortem triggers" |
+| `[PERFORMANCE_ANALYSIS_TOOLS]` | Performance analysis | "Flame graphs, profiler integration, slow query logging, N+1 detection" |
+| `[COST_ANALYSIS_IMPLEMENTATION]` | Cost analysis | "AWS Cost Explorer integration, cost per deployment, resource waste detection" |
+| `[PREDICTIVE_ANALYTICS_SETUP]` | Predictive analytics | "Deployment risk scoring, failure probability estimation, capacity forecasting" |
+| `[CUSTOM_REPORTING_CONFIGURATION]` | Custom reporting | "Weekly executive summary, team-level metrics, compliance audit reports" |
+| `[ALERT_RULE_CONFIGURATION]` | Alert rules | "Error rate >1% for 5m, latency p99 >1s for 10m, pod restarts >3 in 15m" |
+| `[NOTIFICATION_CHANNEL_SETUP]` | Notification channels | "Slack #incidents (P1), email for P2+, PagerDuty for on-call rotation" |
+| `[ALERT_ESCALATION_PROCEDURES]` | Alert escalation | "P1: immediate page, P2: 15min to acknowledge, P3: next business day" |
+| `[ALERT_CORRELATION_RULES]` | Alert correlation | "Group related alerts, suppress downstream failures, root cause prioritization" |
+| `[ALERT_SUPPRESSION_CONFIGURATION]` | Alert suppression | "Maintenance windows, deployment silence (15min), dependency-aware suppression" |
+| `[INCIDENT_MANAGEMENT_INTEGRATION]` | Incident management | "PagerDuty integration, automatic incident creation, Slack war room" |
+| `[ON_CALL_INTEGRATION_SETUP]` | On-call setup | "PagerDuty rotation, follow-the-sun schedule, escalation after 10min no-ack" |
+| `[ALERT_COMMUNICATION_PROTOCOLS]` | Communication protocols | "Status page updates, stakeholder notification template, post-incident review" |
+| `[PIPELINE_AS_CODE_TOOLS]` | Pipeline as code | "GitHub Actions YAML, reusable workflows, composite actions library" |
+| `[CUSTOM_PIPELINE_CODE]` | Custom pipeline code | "Dagger for portable pipelines, Earthly for reproducible builds, CUE lang" |
+| `[PIPELINE_TEMPLATE_MANAGEMENT]` | Template management | "Central template repo, versioned releases, breaking change policy" |
+| `[SHARED_LIBRARY_CONFIGURATION]` | Shared libraries | "Reusable GitHub Actions, npm package for scripts, validated templates" |
+| `[PIPELINE_PARAMETER_MANAGEMENT]` | Parameter management | "Environment-specific inputs, matrix strategy, conditional parameters" |
+| `[PIPELINE_SECRET_MANAGEMENT]` | Pipeline secrets | "GitHub Secrets for CI, Vault integration for runtime, OIDC for cloud auth" |
+| `[PIPELINE_CONFIG_VALIDATION]` | Config validation | "YAML linting, schema validation, dry-run before merge, actionlint" |
+| `[PIPELINE_VERSION_CONTROL]` | Pipeline versioning | "Semantic versioning for templates, pinned action versions, upgrade automation" |
+| `[PIPELINE_CHANGE_MANAGEMENT]` | Change management | "PR review for pipeline changes, staged rollout, rollback capability" |
+| `[PIPELINE_TEMPLATE_LIBRARY]` | Template library | "Node.js, Python, Go, Java starter templates, security-hardened defaults" |
+| `[STANDARD_PRACTICE_ENFORCEMENT]` | Practice enforcement | "Required workflows for all repos, org-level rulesets, compliance checks" |
+| `[BEST_PRACTICE_VALIDATION]` | Best practice validation | "Automated PR comments for anti-patterns, suggested improvements, docs links" |
+| `[COMPLIANCE_TEMPLATE_LIBRARY]` | Compliance templates | "SOC 2 evidence collection, HIPAA audit logging, PCI-DSS network isolation" |
+| `[SECURITY_TEMPLATE_CONFIGURATION]` | Security templates | "SAST/DAST/SCA integration, container scanning, secret detection defaults" |
+| `[TESTING_TEMPLATE_LIBRARY]` | Testing templates | "Unit test frameworks, E2E setup, performance test configurations" |
+| `[DEPLOYMENT_TEMPLATE_LIBRARY]` | Deployment templates | "EKS deploy, Lambda deploy, static site to S3/CloudFront, multi-region" |
+| `[DOCUMENTATION_TEMPLATE_STANDARDS]` | Documentation standards | "README template, API docs auto-generation, ADR template, runbook format" |
+| `[PIPELINE_POLICY_ENFORCEMENT]` | Policy enforcement | "Required checks before merge, CODEOWNERS for pipelines, approval gates" |
+| `[PIPELINE_ACCESS_CONTROLS]` | Access controls | "Repo admins can modify workflows, secrets limited to pipeline, audit logging" |
+| `[PIPELINE_APPROVAL_WORKFLOWS]` | Approval workflows | "Environment protection rules, required reviewers, deployment windows" |
+| `[PIPELINE_CHANGE_APPROVAL]` | Change approval | "2 reviewers for workflow changes, platform team review for shared templates" |
+| `[PIPELINE_AUDIT_TRAILS]` | Audit trails | "All pipeline runs logged, who triggered, what changed, deployment artifacts" |
+| `[PIPELINE_COMPLIANCE_TRACKING]` | Compliance tracking | "Required checks enforcement, policy violation alerting, compliance dashboard" |
+| `[PIPELINE_RISK_MANAGEMENT]` | Risk management | "Change risk scoring, high-risk deployment approval, blast radius analysis" |
+| `[PIPELINE_EXCEPTION_HANDLING]` | Exception handling | "Failed step notifications, retry logic, graceful degradation, cleanup on failure" |
+| `[ENVIRONMENT_SPECIFIC_CONFIGURATIONS]` | Environment configs | "Helm values-dev.yaml, values-staging.yaml, values-prod.yaml, sealed secrets" |
+| `[DYNAMIC_CONFIGURATION_MANAGEMENT]` | Dynamic config | "Feature flags for runtime config, ConfigMap hot-reload, consul-template" |
+| `[CONFIGURATION_VALIDATION_RULES]` | Config validation | "JSON Schema validation, OPA policies for config, pre-deploy config tests" |
+| `[CONFIGURATION_DRIFT_DETECTION]` | Drift detection | "Terraform plan in CI, ArgoCD sync status, weekly drift report" |
+| `[CONFIGURATION_BACKUP_PROCEDURES]` | Config backup | "Git as source of truth, etcd snapshots, secrets backup to Vault" |
+| `[CONFIGURATION_VERSIONING_STRATEGY]` | Config versioning | "Git-based versioning, tagged releases, rollback via git revert" |
+| `[CONFIGURATION_PROMOTION_PROCESS]` | Config promotion | "PR from dev to staging branch, automated sync, manual prod promotion" |
+| `[BUILD_PERFORMANCE_OPTIMIZATION]` | Build optimization | "Parallel compilation, incremental builds, remote caching, build profiling" |
+| `[TEST_PERFORMANCE_OPTIMIZATION]` | Test optimization | "Parallel execution, test splitting, selective test runs, fast feedback first" |
+| `[DEPLOYMENT_PERFORMANCE_OPTIMIZATION]` | Deploy optimization | "Pre-pulled images, rolling updates, zero-downtime deploys, fast rollback" |
+| `[RESOURCE_OPTIMIZATION_STRATEGY]` | Resource optimization | "Right-sizing based on metrics, spot instances for CI, reserved for prod" |
+| `[CACHING_OPTIMIZATION_IMPLEMENTATION]` | Caching optimization | "Multi-layer caching, cache warming, intelligent invalidation, compression" |
+| `[PARALLEL_EXECUTION_OPTIMIZATION]` | Parallel optimization | "Optimal worker count, resource-aware scheduling, dependency-based ordering" |
+| `[QUEUE_MANAGEMENT_OPTIMIZATION]` | Queue optimization | "Priority queues, concurrency limits, fair scheduling, queue depth alerts" |
+| `[BOTTLENECK_ELIMINATION_STRATEGY]` | Bottleneck elimination | "Identify slow steps, parallelize where possible, optimize critical path" |
+| `[HORIZONTAL_SCALING_CONFIGURATION]` | Horizontal scaling | "Auto-scale runners 2-20, Kubernetes HPA for apps, ECS service auto-scaling" |
+| `[VERTICAL_SCALING_STRATEGY]` | Vertical scaling | "Larger instances for memory-intensive builds, GPU runners for ML pipelines" |
+| `[AUTO_SCALING_IMPLEMENTATION]` | Auto-scaling setup | "Karpenter for K8s nodes, KEDA for event-driven scaling, scheduled scaling" |
+| `[PIPELINE_LOAD_BALANCING]` | Load balancing | "Round-robin agent selection, capability-based routing, affinity rules" |
+| `[RESOURCE_POOLING_STRATEGY]` | Resource pooling | "Shared runner pool, dedicated pools for sensitive workloads, ephemeral agents" |
+| `[CAPACITY_PLANNING_IMPLEMENTATION]` | Capacity planning | "Monthly capacity review, growth projections, buffer for peak periods" |
+| `[PEAK_LOAD_HANDLING_STRATEGY]` | Peak load handling | "Queue overflow to cloud runners, priority for main branch, burst capacity" |
+| `[SCALING_COST_OPTIMIZATION]` | Scaling cost optimization | "Spot instances for non-critical, reserved capacity for baseline, cost alerts" |
+| `[LEAD_TIME_MEASUREMENT]` | Lead time tracking | "Commit to production time, tracked per service, weekly trend reports" |
+| `[CYCLE_TIME_ANALYSIS]` | Cycle time analysis | "PR open to merge time, code review duration, deployment queue time" |
+| `[THROUGHPUT_METRICS_TRACKING]` | Throughput tracking | "Deployments per day, commits per week, PRs merged per team" |
+| `[DEPLOYMENT_FREQUENCY_METRICS]` | Deployment frequency | "Daily deployment count, trend analysis, comparison to DORA benchmarks" |
+| `[MTTR_TRACKING_IMPLEMENTATION]` | MTTR tracking | "Incident to resolution time, automated incident timeline, post-mortem metrics" |
+| `[SUCCESS_RATE_MONITORING]` | Success rate monitoring | "Build success rate >95%, deployment success >99%, rollback frequency" |
+| `[RESOURCE_UTILIZATION_MONITORING]` | Resource utilization | "CPU/memory usage per build, idle time tracking, cost per build minute" |
+| `[COST_EFFICIENCY_ANALYSIS]` | Cost efficiency | "Cost per deployment, infrastructure spend trends, optimization opportunities" |
+| `[PERFORMANCE_BASELINE_ESTABLISHMENT]` | Baseline establishment | "30-day rolling baseline, seasonal adjustments, per-service baselines" |
+| `[IMPROVEMENT_TARGET_SETTING]` | Target setting | "10% lead time reduction quarterly, 99.5% build success rate target" |
+| `[OPTIMIZATION_EXPERIMENTATION]` | Experimentation | "A/B test pipeline changes, gradual rollout of optimizations, metrics comparison" |
+| `[PERFORMANCE_FEEDBACK_LOOPS]` | Feedback loops | "Weekly pipeline review, developer survey quarterly, metrics-driven improvements" |
+| `[BEST_PRACTICE_SHARING_MECHANISMS]` | Best practice sharing | "Internal tech talks, pipeline cookbook, cross-team reviews, office hours" |
+| `[INNOVATION_INTEGRATION_PROCESS]` | Innovation process | "10% time for tooling improvements, hackathon projects, POC pipeline" |
+| `[TECHNOLOGY_EVALUATION_PROCESS]` | Tech evaluation | "Quarterly tool review, POC criteria, migration cost analysis, team feedback" |
+| `[VENDOR_ASSESSMENT_PROCEDURES]` | Vendor assessment | "Security questionnaire, SLA requirements, cost comparison, reference checks" |
+| `[ENTERPRISE_DIRECTORY_INTEGRATION]` | Directory integration | "Azure AD SAML SSO, group-based access, automated provisioning/deprovisioning" |
+| `[SSO_INTEGRATION_CONFIGURATION]` | SSO configuration | "OIDC with Okta, MFA required, session timeout 8h, device trust" |
+| `[ENTERPRISE_LOGGING_INTEGRATION]` | Enterprise logging | "Forward logs to Splunk Enterprise, 1-year retention, compliance indexing" |
+| `[AUDIT_SYSTEM_INTEGRATION]` | Audit integration | "All actions to audit log, SIEM integration, compliance reporting" |
+| `[TICKETING_SYSTEM_INTEGRATION]` | Ticketing integration | "JIRA auto-create on failure, link deployments to tickets, release notes" |
+| `[ASSET_MANAGEMENT_INTEGRATION]` | Asset management | "ServiceNow CMDB updates, artifact tracking, license association" |
+| `[LICENSE_MANAGEMENT_INTEGRATION]` | License management | "FlexNet integration, usage tracking, compliance reporting, cost allocation" |
+| `[GOVERNANCE_PLATFORM_INTEGRATION]` | Governance integration | "ServiceNow GRC, policy enforcement, risk tracking, audit support" |
+| `[MULTI_CLOUD_DEPLOYMENT_STRATEGY]` | Multi-cloud deployment | "AWS primary, GCP DR, Terraform modules per cloud, unified monitoring" |
+| `[CROSS_PLATFORM_BUILD_CONFIGURATION]` | Cross-platform builds | "Matrix: linux/amd64, linux/arm64, darwin/amd64, windows/amd64" |
+| `[PIPELINE_ORCHESTRATION_FRAMEWORK]` | Pipeline orchestration | "Argo Workflows for complex DAGs, step dependencies, artifact passing" |
+| `[WORKFLOW_MANAGEMENT_INTEGRATION]` | Workflow management | "Temporal for long-running workflows, state management, retry policies" |
+| `[AI_ML_PIPELINE_INTEGRATION]` | AI/ML integration | "MLflow for experiment tracking, model registry, automated retraining triggers" |
+| `[CHAOS_ENGINEERING_INTEGRATION]` | Chaos engineering | "Litmus Chaos in staging, Gremlin for production, game day automation" |
+| `[FEATURE_EXPERIMENTATION_PLATFORM]` | Experimentation platform | "Optimizely/Split.io integration, experiment tracking, statistical analysis" |
+| `[DEVSECOPS_INTEGRATION_FRAMEWORK]` | DevSecOps framework | "Security gates at each stage, automated remediation, security champions program" |
+| `[CONTAINER_ORCHESTRATION_INTEGRATION]` | Container orchestration | "EKS with Istio service mesh, ArgoCD for GitOps, Crossplane for cloud resources" |
+| `[SERVERLESS_DEPLOYMENT_INTEGRATION]` | Serverless deployment | "AWS Lambda via SAM/CDK, API Gateway, Step Functions for workflows" |
+| `[EDGE_COMPUTING_DEPLOYMENT]` | Edge deployment | "CloudFront Functions, Lambda@Edge, CDN cache invalidation in pipeline" |
+| `[IOT_DEPLOYMENT_STRATEGIES]` | IoT deployment | "OTA firmware updates, AWS IoT Greengrass, staged device rollout" |
+| `[BLOCKCHAIN_INTEGRATION_SCENARIOS]` | Blockchain integration | "Smart contract deployment pipelines, testnet staging, mainnet approval gates" |
+| `[QUANTUM_COMPUTING_READINESS]` | Quantum readiness | "Post-quantum cryptography evaluation, hybrid algorithm support assessment" |
+| `[AR_VR_DEPLOYMENT_STRATEGIES]` | AR/VR deployment | "Unity/Unreal build pipelines, multi-platform builds, app store submissions" |
+| `[AI_POWERED_PIPELINE_OPTIMIZATION]` | AI optimization | "ML-based test selection, predictive failure analysis, auto-remediation suggestions" |
+| `[TECHNOLOGY_ROADMAP_ALIGNMENT]` | Roadmap alignment | "Quarterly tech radar review, deprecation timeline, migration planning" |
+| `[VENDOR_EVALUATION_CRITERIA]` | Vendor criteria | "Security posture, SLA guarantees, cost model, integration capabilities, support" |
+| `[MIGRATION_PLANNING_STRATEGY]` | Migration planning | "Phased migration, parallel run period, feature parity validation, rollback plan" |
+| `[LEGACY_SYSTEM_INTEGRATION]` | Legacy integration | "API adapters for legacy systems, data sync pipelines, gradual modernization" |
+| `[MODERNIZATION_PATH_PLANNING]` | Modernization planning | "Strangler pattern, microservice extraction, containerization roadmap" |
+| `[SKILLS_DEVELOPMENT_PLANNING]` | Skills development | "DevOps certification paths, hands-on labs, mentorship program, tech talks" |
+| `[TRAINING_PROGRAM_IMPLEMENTATION]` | Training programs | "Onboarding bootcamp, pipeline best practices course, security training" |
+| `[COMMUNITY_ENGAGEMENT_STRATEGY]` | Community engagement | "Open source contributions, conference talks, internal community of practice" |
 
 ### Example 2: Enterprise Banking Application
 ```yaml
