@@ -87,264 +87,264 @@ Interest Rate Curves:
 
 | Variable | Description | Example |
 |----------|-------------|----------|
-| `[PROTOCOL_NAME]` | Name of the protocol | "John Smith" |
-| `[SERVICE_TYPE]` | Type or category of service | "Standard" |
-| `[TVL_TARGET]` | Target or intended tvl | "[specify value]" |
-| `[ASSET_COUNT]` | Specify the asset count | "10" |
-| `[USER_TARGET]` | Target or intended user | "[specify value]" |
-| `[TOKENOMICS_MODEL]` | Specify the tokenomics model | "[specify value]" |
-| `[BUDGET]` | Budget allocation for  | "$500,000" |
-| `[CORE_FUNCTION]` | Specify the core function | "[specify value]" |
-| `[CORE_CONTRACTS]` | Specify the core contracts | "[specify value]" |
-| `[CORE_DEPS]` | Specify the core deps | "[specify value]" |
-| `[CORE_AUDIT]` | Specify the core audit | "[specify value]" |
-| `[CORE_RISK]` | Specify the core risk | "[specify value]" |
-| `[GOV_FUNCTION]` | Specify the gov function | "[specify value]" |
-| `[GOV_CONTRACTS]` | Specify the gov contracts | "[specify value]" |
-| `[GOV_DEPS]` | Specify the gov deps | "[specify value]" |
-| `[GOV_AUDIT]` | Specify the gov audit | "[specify value]" |
-| `[GOV_RISK]` | Specify the gov risk | "[specify value]" |
-| `[ORACLE_FUNCTION]` | Specify the oracle function | "[specify value]" |
-| `[ORACLE_CONTRACTS]` | Specify the oracle contracts | "[specify value]" |
-| `[ORACLE_DEPS]` | Specify the oracle deps | "[specify value]" |
-| `[ORACLE_AUDIT]` | Specify the oracle audit | "[specify value]" |
-| `[ORACLE_RISK]` | Specify the oracle risk | "[specify value]" |
-| `[TREASURY_FUNCTION]` | Specify the treasury function | "[specify value]" |
-| `[TREASURY_CONTRACTS]` | Specify the treasury contracts | "[specify value]" |
-| `[TREASURY_DEPS]` | Specify the treasury deps | "[specify value]" |
-| `[TREASURY_AUDIT]` | Specify the treasury audit | "[specify value]" |
-| `[TREASURY_RISK]` | Specify the treasury risk | "[specify value]" |
-| `[STAKE_FUNCTION]` | Specify the stake function | "[specify value]" |
-| `[STAKE_CONTRACTS]` | Specify the stake contracts | "[specify value]" |
-| `[STAKE_DEPS]` | Specify the stake deps | "[specify value]" |
-| `[STAKE_AUDIT]` | Specify the stake audit | "[specify value]" |
-| `[STAKE_RISK]` | Specify the stake risk | "[specify value]" |
-| `[ASSET_1]` | Specify the asset 1 | "[specify value]" |
-| `[CF_1]` | Specify the cf 1 | "[specify value]" |
-| `[LTV_1]` | Specify the ltv 1 | "[specify value]" |
-| `[LIQ_1]` | Specify the liq 1 | "[specify value]" |
-| `[RF_1]` | Specify the rf 1 | "[specify value]" |
-| `[MODEL_1]` | Specify the model 1 | "[specify value]" |
-| `[ASSET_2]` | Specify the asset 2 | "[specify value]" |
-| `[CF_2]` | Specify the cf 2 | "[specify value]" |
-| `[LTV_2]` | Specify the ltv 2 | "[specify value]" |
-| `[LIQ_2]` | Specify the liq 2 | "[specify value]" |
-| `[RF_2]` | Specify the rf 2 | "[specify value]" |
-| `[MODEL_2]` | Specify the model 2 | "[specify value]" |
-| `[ASSET_3]` | Specify the asset 3 | "[specify value]" |
-| `[CF_3]` | Specify the cf 3 | "[specify value]" |
-| `[LTV_3]` | Specify the ltv 3 | "[specify value]" |
-| `[LIQ_3]` | Specify the liq 3 | "[specify value]" |
-| `[RF_3]` | Specify the rf 3 | "[specify value]" |
-| `[MODEL_3]` | Specify the model 3 | "[specify value]" |
-| `[ASSET_4]` | Specify the asset 4 | "[specify value]" |
-| `[CF_4]` | Specify the cf 4 | "[specify value]" |
-| `[LTV_4]` | Specify the ltv 4 | "[specify value]" |
-| `[LIQ_4]` | Specify the liq 4 | "[specify value]" |
-| `[RF_4]` | Specify the rf 4 | "[specify value]" |
-| `[MODEL_4]` | Specify the model 4 | "[specify value]" |
-| `[ASSET_5]` | Specify the asset 5 | "[specify value]" |
-| `[CF_5]` | Specify the cf 5 | "[specify value]" |
-| `[LTV_5]` | Specify the ltv 5 | "[specify value]" |
-| `[LIQ_5]` | Specify the liq 5 | "[specify value]" |
-| `[RF_5]` | Specify the rf 5 | "[specify value]" |
-| `[MODEL_5]` | Specify the model 5 | "[specify value]" |
-| `[BASE_RATE]` | Specify the base rate | "[specify value]" |
-| `[OPTIMAL_UTIL]` | Specify the optimal util | "[specify value]" |
-| `[SLOPE_1]` | Specify the slope 1 | "[specify value]" |
-| `[SLOPE_2]` | Specify the slope 2 | "[specify value]" |
-| `[MAX_RATE]` | Specify the max rate | "[specify value]" |
-| `[CP_FEE]` | Specify the cp fee | "[specify value]" |
-| `[CP_FORMULA]` | Specify the cp formula | "[specify value]" |
-| `[CP_IL]` | Specify the cp il | "[specify value]" |
-| `[CP_EFFICIENCY]` | Specify the cp efficiency | "[specify value]" |
-| `[CP_USE]` | Specify the cp use | "[specify value]" |
-| `[STABLE_FEE]` | Specify the stable fee | "[specify value]" |
-| `[STABLE_FORMULA]` | Specify the stable formula | "[specify value]" |
-| `[STABLE_IL]` | Specify the stable il | "[specify value]" |
-| `[STABLE_EFFICIENCY]` | Specify the stable efficiency | "[specify value]" |
-| `[STABLE_USE]` | Specify the stable use | "[specify value]" |
-| `[CL_FEE]` | Specify the cl fee | "[specify value]" |
-| `[CL_FORMULA]` | Specify the cl formula | "[specify value]" |
-| `[CL_IL]` | Specify the cl il | "[specify value]" |
-| `[CL_EFFICIENCY]` | Specify the cl efficiency | "[specify value]" |
-| `[CL_USE]` | Specify the cl use | "[specify value]" |
-| `[DYN_FEE]` | Specify the dyn fee | "[specify value]" |
-| `[DYN_FORMULA]` | Specify the dyn formula | "[specify value]" |
-| `[DYN_IL]` | Specify the dyn il | "[specify value]" |
-| `[DYN_EFFICIENCY]` | Specify the dyn efficiency | "[specify value]" |
-| `[DYN_USE]` | Specify the dyn use | "[specify value]" |
-| `[WEIGHT_FEE]` | Specify the weight fee | "[specify value]" |
-| `[WEIGHT_FORMULA]` | Specify the weight formula | "[specify value]" |
-| `[WEIGHT_IL]` | Specify the weight il | "[specify value]" |
-| `[WEIGHT_EFFICIENCY]` | Specify the weight efficiency | "[specify value]" |
-| `[WEIGHT_USE]` | Specify the weight use | "[specify value]" |
-| `[STRATEGY_1]` | Strategy or approach for 1 | "[specify value]" |
-| `[APY_1]` | Specify the apy 1 | "[specify value]" |
-| `[RISK_1]` | Specify the risk 1 | "[specify value]" |
-| `[CAP_1]` | Specify the cap 1 | "[specify value]" |
-| `[GAS_1]` | Specify the gas 1 | "[specify value]" |
-| `[COMPLEX_1]` | Specify the complex 1 | "[specify value]" |
-| `[STRATEGY_2]` | Strategy or approach for 2 | "[specify value]" |
-| `[APY_2]` | Specify the apy 2 | "[specify value]" |
-| `[RISK_2]` | Specify the risk 2 | "[specify value]" |
-| `[CAP_2]` | Specify the cap 2 | "[specify value]" |
-| `[GAS_2]` | Specify the gas 2 | "[specify value]" |
-| `[COMPLEX_2]` | Specify the complex 2 | "[specify value]" |
-| `[STRATEGY_3]` | Strategy or approach for 3 | "[specify value]" |
-| `[APY_3]` | Specify the apy 3 | "[specify value]" |
-| `[RISK_3]` | Specify the risk 3 | "[specify value]" |
-| `[CAP_3]` | Specify the cap 3 | "[specify value]" |
-| `[GAS_3]` | Specify the gas 3 | "[specify value]" |
-| `[COMPLEX_3]` | Specify the complex 3 | "[specify value]" |
-| `[STRATEGY_4]` | Strategy or approach for 4 | "[specify value]" |
-| `[APY_4]` | Specify the apy 4 | "[specify value]" |
-| `[RISK_4]` | Specify the risk 4 | "[specify value]" |
-| `[CAP_4]` | Specify the cap 4 | "[specify value]" |
-| `[GAS_4]` | Specify the gas 4 | "[specify value]" |
-| `[COMPLEX_4]` | Specify the complex 4 | "[specify value]" |
-| `[STRATEGY_5]` | Strategy or approach for 5 | "[specify value]" |
-| `[APY_5]` | Specify the apy 5 | "[specify value]" |
-| `[RISK_5]` | Specify the risk 5 | "[specify value]" |
-| `[CAP_5]` | Specify the cap 5 | "[specify value]" |
-| `[GAS_5]` | Specify the gas 5 | "[specify value]" |
-| `[COMPLEX_5]` | Specify the complex 5 | "[specify value]" |
-| `[HARVEST_TRIGGER]` | Specify the harvest trigger | "[specify value]" |
-| `[COMPOUND_FREQ]` | Specify the compound freq | "[specify value]" |
-| `[PERF_FEE]` | Specify the perf fee | "[specify value]" |
-| `[MGMT_FEE]` | Specify the mgmt fee | "[specify value]" |
-| `[WITHDRAW_FEE]` | Specify the withdraw fee | "[specify value]" |
-| `[TREASURY_SHARE]` | Specify the treasury share | "[specify value]" |
-| `[STRATEGIST_SHARE]` | Specify the strategist share | "[specify value]" |
-| `[STAKER_SHARE]` | Specify the staker share | "[specify value]" |
-| `[SC_MEASURE]` | Specify the sc measure | "[specify value]" |
-| `[SC_EXPOSURE]` | Specify the sc exposure | "[specify value]" |
-| `[SC_LIMIT]` | Specify the sc limit | "[specify value]" |
-| `[SC_MITIGATE]` | Specify the sc mitigate | "[specify value]" |
-| `[SC_INSURANCE]` | Specify the sc insurance | "[specify value]" |
-| `[ORACLE_MEASURE]` | Specify the oracle measure | "[specify value]" |
-| `[ORACLE_EXPOSURE]` | Specify the oracle exposure | "[specify value]" |
-| `[ORACLE_LIMIT]` | Specify the oracle limit | "[specify value]" |
-| `[ORACLE_MITIGATE]` | Specify the oracle mitigate | "[specify value]" |
-| `[ORACLE_INSURANCE]` | Specify the oracle insurance | "[specify value]" |
-| `[LIQ_MEASURE]` | Specify the liq measure | "[specify value]" |
-| `[LIQ_EXPOSURE]` | Specify the liq exposure | "[specify value]" |
-| `[LIQ_LIMIT]` | Specify the liq limit | "[specify value]" |
-| `[LIQ_MITIGATE]` | Specify the liq mitigate | "[specify value]" |
-| `[LIQ_INSURANCE]` | Specify the liq insurance | "[specify value]" |
-| `[MARKET_MEASURE]` | Specify the market measure | "[specify value]" |
-| `[MARKET_EXPOSURE]` | Specify the market exposure | "[specify value]" |
-| `[MARKET_LIMIT]` | Specify the market limit | "[specify value]" |
-| `[MARKET_MITIGATE]` | Specify the market mitigate | "[specify value]" |
-| `[MARKET_INSURANCE]` | Specify the market insurance | "[specify value]" |
-| `[GOV_MEASURE]` | Specify the gov measure | "[specify value]" |
-| `[GOV_EXPOSURE]` | Specify the gov exposure | "[specify value]" |
-| `[GOV_LIMIT]` | Specify the gov limit | "[specify value]" |
-| `[GOV_MITIGATE]` | Specify the gov mitigate | "[specify value]" |
-| `[GOV_INSURANCE]` | Specify the gov insurance | "[specify value]" |
-| `[HEALTH_FORMULA]` | Specify the health formula | "[specify value]" |
-| `[LIQ_THRESHOLD]` | Specify the liq threshold | "[specify value]" |
-| `[LIQ_PENALTY]` | Specify the liq penalty | "[specify value]" |
-| `[CLOSE_FACTOR]` | Specify the close factor | "[specify value]" |
-| `[LIQ_INCENTIVE]` | Specify the liq incentive | "[specify value]" |
-| `[MEV_PROTECTION]` | Specify the mev protection | "[specify value]" |
-| `[PRIORITY_SYSTEM]` | Specify the priority system | "High" |
-| `[FLASH_INTEGRATION]` | Specify the flash integration | "[specify value]" |
-| `[PARTIAL_LIQ]` | Specify the partial liq | "[specify value]" |
-| `[DUTCH_AUCTION]` | Specify the dutch auction | "[specify value]" |
-| `[INSURANCE_FUND]` | Specify the insurance fund | "[specify value]" |
-| `[BACKSTOP]` | Specify the backstop | "[specify value]" |
-| `[SLASHING]` | Specify the slashing | "[specify value]" |
-| `[RECOVERY]` | Specify the recovery | "[specify value]" |
-| `[LM_ALLOC]` | Specify the lm alloc | "[specify value]" |
-| `[LM_DIST]` | Specify the lm dist | "[specify value]" |
-| `[LM_VEST]` | Specify the lm vest | "[specify value]" |
-| `[LM_METRIC]` | Specify the lm metric | "[specify value]" |
-| `[LM_ADJUST]` | Specify the lm adjust | "[specify value]" |
-| `[TRADE_ALLOC]` | Specify the trade alloc | "[specify value]" |
-| `[TRADE_DIST]` | Specify the trade dist | "[specify value]" |
-| `[TRADE_VEST]` | Specify the trade vest | "[specify value]" |
-| `[TRADE_METRIC]` | Specify the trade metric | "[specify value]" |
-| `[TRADE_ADJUST]` | Specify the trade adjust | "[specify value]" |
-| `[STAKE_ALLOC]` | Specify the stake alloc | "[specify value]" |
-| `[STAKE_DIST]` | Specify the stake dist | "[specify value]" |
-| `[STAKE_VEST]` | Specify the stake vest | "[specify value]" |
-| `[STAKE_METRIC]` | Specify the stake metric | "[specify value]" |
-| `[STAKE_ADJUST]` | Specify the stake adjust | "[specify value]" |
-| `[REF_ALLOC]` | Specify the ref alloc | "[specify value]" |
-| `[REF_DIST]` | Specify the ref dist | "[specify value]" |
-| `[REF_VEST]` | Specify the ref vest | "[specify value]" |
-| `[REF_METRIC]` | Specify the ref metric | "[specify value]" |
-| `[REF_ADJUST]` | Specify the ref adjust | "[specify value]" |
-| `[DEV_ALLOC]` | Specify the dev alloc | "[specify value]" |
-| `[DEV_DIST]` | Specify the dev dist | "[specify value]" |
-| `[DEV_VEST]` | Specify the dev vest | "[specify value]" |
-| `[DEV_METRIC]` | Specify the dev metric | "[specify value]" |
-| `[DEV_ADJUST]` | Specify the dev adjust | "[specify value]" |
-| `[PROTOCOL_1]` | Specify the protocol 1 | "[specify value]" |
-| `[INT_TYPE_1]` | Type or category of int  1 | "Standard" |
-| `[TVL_1]` | Specify the tvl 1 | "[specify value]" |
-| `[REV_1]` | Specify the rev 1 | "[specify value]" |
-| `[TECH_1]` | Specify the tech 1 | "[specify value]" |
-| `[PROTOCOL_2]` | Specify the protocol 2 | "[specify value]" |
-| `[INT_TYPE_2]` | Type or category of int  2 | "Standard" |
-| `[TVL_2]` | Specify the tvl 2 | "[specify value]" |
-| `[REV_2]` | Specify the rev 2 | "[specify value]" |
-| `[TECH_2]` | Specify the tech 2 | "[specify value]" |
-| `[PROTOCOL_3]` | Specify the protocol 3 | "[specify value]" |
-| `[INT_TYPE_3]` | Type or category of int  3 | "Standard" |
-| `[TVL_3]` | Specify the tvl 3 | "[specify value]" |
-| `[REV_3]` | Specify the rev 3 | "[specify value]" |
-| `[TECH_3]` | Specify the tech 3 | "[specify value]" |
-| `[PROTOCOL_4]` | Specify the protocol 4 | "[specify value]" |
-| `[INT_TYPE_4]` | Type or category of int  4 | "Standard" |
-| `[TVL_4]` | Specify the tvl 4 | "[specify value]" |
-| `[REV_4]` | Specify the rev 4 | "[specify value]" |
-| `[TECH_4]` | Specify the tech 4 | "[specify value]" |
-| `[PROTOCOL_5]` | Specify the protocol 5 | "[specify value]" |
-| `[INT_TYPE_5]` | Type or category of int  5 | "Standard" |
-| `[TVL_5]` | Specify the tvl 5 | "[specify value]" |
-| `[REV_5]` | Specify the rev 5 | "[specify value]" |
-| `[TECH_5]` | Specify the tech 5 | "[specify value]" |
-| `[PRELAUNCH_AUDITOR]` | Specify the prelaunch auditor | "[specify value]" |
-| `[PRELAUNCH_COST]` | Specify the prelaunch cost | "[specify value]" |
-| `[CONTINUOUS_AUDITOR]` | Specify the continuous auditor | "[specify value]" |
-| `[ECONOMIC_AUDITOR]` | Specify the economic auditor | "[specify value]" |
-| `[FORMAL_VERIF]` | Specify the formal verif | "[specify value]" |
-| `[CRITICAL_BOUNTY]` | Specify the critical bounty | "[specify value]" |
-| `[HIGH_BOUNTY]` | Specify the high bounty | "[specify value]" |
-| `[MEDIUM_BOUNTY]` | Specify the medium bounty | "[specify value]" |
-| `[LOW_BOUNTY]` | Specify the low bounty | "[specify value]" |
-| `[BOUNTY_PLATFORM]` | Specify the bounty platform | "[specify value]" |
-| `[TIMELOCK_PERIOD]` | Specify the timelock period | "[specify value]" |
-| `[MULTISIG_SETUP]` | Specify the multisig setup | "[specify value]" |
-| `[EMERGENCY_PAUSE]` | Specify the emergency pause | "[specify value]" |
-| `[UPGRADE_PATTERN]` | Specify the upgrade pattern | "[specify value]" |
-| `[ACCESS_CONTROL]` | Specify the access control | "[specify value]" |
-| `[TVL_CURRENT]` | Specify the tvl current | "[specify value]" |
-| `[TVL_AVG]` | Specify the tvl avg | "[specify value]" |
-| `[TVL_TRACK]` | Specify the tvl track | "[specify value]" |
-| `[TVL_OPT]` | Specify the tvl opt | "[specify value]" |
-| `[DAU_CURRENT]` | Specify the dau current | "[specify value]" |
-| `[DAU_TARGET]` | Target or intended dau | "[specify value]" |
-| `[DAU_AVG]` | Specify the dau avg | "[specify value]" |
-| `[DAU_TRACK]` | Specify the dau track | "[specify value]" |
-| `[DAU_OPT]` | Specify the dau opt | "[specify value]" |
-| `[REV_CURRENT]` | Specify the rev current | "[specify value]" |
-| `[REV_TARGET]` | Target or intended rev | "[specify value]" |
-| `[REV_AVG]` | Specify the rev avg | "[specify value]" |
-| `[REV_TRACK]` | Specify the rev track | "[specify value]" |
-| `[REV_OPT]` | Specify the rev opt | "[specify value]" |
-| `[GAS_CURRENT]` | Specify the gas current | "[specify value]" |
-| `[GAS_TARGET]` | Target or intended gas | "[specify value]" |
-| `[GAS_AVG]` | Specify the gas avg | "[specify value]" |
-| `[GAS_TRACK]` | Specify the gas track | "[specify value]" |
-| `[GAS_OPT]` | Specify the gas opt | "[specify value]" |
-| `[CAP_CURRENT]` | Specify the cap current | "[specify value]" |
-| `[CAP_TARGET]` | Target or intended cap | "[specify value]" |
-| `[CAP_AVG]` | Specify the cap avg | "[specify value]" |
-| `[CAP_TRACK]` | Specify the cap track | "[specify value]" |
-| `[CAP_OPT]` | Specify the cap opt | "[specify value]" |
+| `[PROTOCOL_NAME]` | Name of the DeFi protocol | "AquaLend", "SwapFlow DEX", "YieldMax Aggregator" |
+| `[SERVICE_TYPE]` | Type of DeFi service | "Lending/Borrowing", "AMM DEX", "Yield Aggregator", "Perpetual DEX", "Stablecoin Protocol" |
+| `[TVL_TARGET]` | Target Total Value Locked | "$50M", "$100M", "$500M", "$1B+" |
+| `[ASSET_COUNT]` | Number of supported assets | "10", "25", "50", "100+" |
+| `[USER_TARGET]` | Target user base | "10,000 DAU", "50,000 DAU", "100,000+ DAU" |
+| `[TOKENOMICS_MODEL]` | Token economics model | "veToken (vote-escrowed)", "Staking + Revenue Share", "Buyback and Burn", "Governance + Utility" |
+| `[BUDGET]` | Development budget | "$500,000", "$2M", "$5M", "$10M+" |
+| `[CORE_FUNCTION]` | Core protocol function | "Lending pool management and interest accrual", "Liquidity provision and swap execution", "Strategy routing and yield optimization" |
+| `[CORE_CONTRACTS]` | Core smart contracts | "LendingPool.sol, InterestRateModel.sol", "UniswapV3Pool.sol, SwapRouter.sol", "Vault.sol, Strategy.sol" |
+| `[CORE_DEPS]` | Core dependencies | "OpenZeppelin, Chainlink oracles", "Uniswap V3 core, Permit2", "Yearn BaseStrategy, Curve pools" |
+| `[CORE_AUDIT]` | Core audit status | "Trail of Bits (completed)", "OpenZeppelin (in progress)", "Consensys Diligence (scheduled)" |
+| `[CORE_RISK]` | Core risk level | "Medium - battle-tested design", "High - novel mechanism", "Low - forked from Aave V3" |
+| `[GOV_FUNCTION]` | Governance module function | "Proposal creation and voting", "Parameter adjustment via timelock", "Treasury allocation decisions" |
+| `[GOV_CONTRACTS]` | Governance contracts | "Governor.sol, Timelock.sol", "veToken.sol, GaugeController.sol", "Snapshot integration + on-chain execution" |
+| `[GOV_DEPS]` | Governance dependencies | "OpenZeppelin Governor", "Curve gauge system fork", "Compound Governor Bravo" |
+| `[GOV_AUDIT]` | Governance audit status | "Audited by Zellic", "Pending review", "Using battle-tested OZ contracts" |
+| `[GOV_RISK]` | Governance risk level | "Low - standard governance", "Medium - custom voting mechanism", "High - centralized admin keys" |
+| `[ORACLE_FUNCTION]` | Oracle system function | "Price feed aggregation for liquidations", "TWAP calculation for swap pricing", "Interest rate oracle for variable rates" |
+| `[ORACLE_CONTRACTS]` | Oracle contracts | "ChainlinkPriceFeed.sol, TWAPOracle.sol", "UniswapV3Oracle.sol", "BandProtocolAdapter.sol" |
+| `[ORACLE_DEPS]` | Oracle dependencies | "Chainlink AggregatorV3Interface", "Uniswap V3 TWAP library", "Pyth Network SDK" |
+| `[ORACLE_AUDIT]` | Oracle audit status | "Reviewed with core contracts", "Separate oracle audit by Sherlock", "Using audited Chainlink adapters" |
+| `[ORACLE_RISK]` | Oracle risk level | "Low - Chainlink feeds", "Medium - custom TWAP", "High - single oracle source" |
+| `[TREASURY_FUNCTION]` | Treasury function | "Protocol fee collection and distribution", "Revenue accumulation for buybacks", "DAO fund management" |
+| `[TREASURY_CONTRACTS]` | Treasury contracts | "Treasury.sol, FeeCollector.sol", "RevenueRouter.sol, Buyback.sol", "GnosisSafeProxy.sol" |
+| `[TREASURY_DEPS]` | Treasury dependencies | "Gnosis Safe contracts", "OpenZeppelin PaymentSplitter", "Custom revenue distribution" |
+| `[TREASURY_AUDIT]` | Treasury audit status | "Audited as part of core", "Gnosis Safe (battle-tested)", "Pending separate review" |
+| `[TREASURY_RISK]` | Treasury risk level | "Low - multisig controlled", "Medium - automated distribution", "High - single admin" |
+| `[STAKE_FUNCTION]` | Staking/rewards function | "Token staking for governance power", "Liquidity mining rewards distribution", "veToken locking for boosted yields" |
+| `[STAKE_CONTRACTS]` | Staking contracts | "StakingRewards.sol, veToken.sol", "MasterChef.sol, Gauge.sol", "RewardsDistributor.sol" |
+| `[STAKE_DEPS]` | Staking dependencies | "Synthetix StakingRewards", "Curve gauge system", "Convex boosting mechanism" |
+| `[STAKE_AUDIT]` | Staking audit status | "Audited by Code4rena contest", "Using audited Synthetix fork", "In-house review completed" |
+| `[STAKE_RISK]` | Staking risk level | "Low - proven design", "Medium - custom reward calc", "High - complex boost logic" |
+| `[ASSET_1]` | Supported asset 1 | "ETH (Wrapped)", "USDC", "WBTC" |
+| `[CF_1]` | Collateral factor for asset 1 | "80", "85", "75" |
+| `[LTV_1]` | Loan-to-value for asset 1 | "75", "80", "70" |
+| `[LIQ_1]` | Liquidation threshold for asset 1 | "82", "87", "77" |
+| `[RF_1]` | Reserve factor for asset 1 | "10", "15", "20" |
+| `[MODEL_1]` | Interest rate model for asset 1 | "Variable (Aave-style)", "Stable", "Jump Rate Model" |
+| `[ASSET_2]` | Supported asset 2 | "USDT", "DAI", "USDC" |
+| `[CF_2]` | Collateral factor for asset 2 | "85", "80", "90" |
+| `[LTV_2]` | Loan-to-value for asset 2 | "80", "75", "85" |
+| `[LIQ_2]` | Liquidation threshold for asset 2 | "87", "82", "90" |
+| `[RF_2]` | Reserve factor for asset 2 | "10", "15", "5" |
+| `[MODEL_2]` | Interest rate model for asset 2 | "Stable Rate", "Variable", "Fixed" |
+| `[ASSET_3]` | Supported asset 3 | "LINK", "UNI", "AAVE" |
+| `[CF_3]` | Collateral factor for asset 3 | "70", "65", "75" |
+| `[LTV_3]` | Loan-to-value for asset 3 | "65", "60", "70" |
+| `[LIQ_3]` | Liquidation threshold for asset 3 | "75", "70", "77" |
+| `[RF_3]` | Reserve factor for asset 3 | "20", "25", "15" |
+| `[MODEL_3]` | Interest rate model for asset 3 | "Variable", "Jump Rate", "Kinked Model" |
+| `[ASSET_4]` | Supported asset 4 | "stETH", "rETH", "cbETH" |
+| `[CF_4]` | Collateral factor for asset 4 | "75", "72", "70" |
+| `[LTV_4]` | Loan-to-value for asset 4 | "70", "68", "65" |
+| `[LIQ_4]` | Liquidation threshold for asset 4 | "78", "75", "72" |
+| `[RF_4]` | Reserve factor for asset 4 | "15", "20", "10" |
+| `[MODEL_4]` | Interest rate model for asset 4 | "Variable (ETH-correlated)", "Stable", "Custom LST model" |
+| `[ASSET_5]` | Supported asset 5 | "ARB", "OP", "MATIC" |
+| `[CF_5]` | Collateral factor for asset 5 | "65", "60", "70" |
+| `[LTV_5]` | Loan-to-value for asset 5 | "60", "55", "65" |
+| `[LIQ_5]` | Liquidation threshold for asset 5 | "70", "65", "72" |
+| `[RF_5]` | Reserve factor for asset 5 | "25", "30", "20" |
+| `[MODEL_5]` | Interest rate model for asset 5 | "High volatility model", "Variable", "Conservative" |
+| `[BASE_RATE]` | Base interest rate | "0", "0.5", "1", "2" |
+| `[OPTIMAL_UTIL]` | Optimal utilization rate | "80", "85", "90", "45 (stablecoins)" |
+| `[SLOPE_1]` | Interest rate slope 1 (below optimal) | "4", "5", "7", "3.5" |
+| `[SLOPE_2]` | Interest rate slope 2 (above optimal) | "75", "100", "300", "60" |
+| `[MAX_RATE]` | Maximum interest rate | "100", "200", "500", "1000" |
+| `[CP_FEE]` | Constant product pool fee | "0.3", "0.05", "1.0" |
+| `[CP_FORMULA]` | Constant product formula | "x * y = k", "xy=k with fee adjustment" |
+| `[CP_IL]` | Constant product impermanent loss | "High for volatile pairs", "Proportional to price divergence" |
+| `[CP_EFFICIENCY]` | Constant product capital efficiency | "Low (~0.5% of liquidity used)", "Spread across full range" |
+| `[CP_USE]` | Constant product use case | "Long-tail tokens", "High volatility pairs", "Low liquidity assets" |
+| `[STABLE_FEE]` | Stable swap pool fee | "0.01", "0.04", "0.05" |
+| `[STABLE_FORMULA]` | Stable swap formula | "StableSwap invariant (Curve)", "x^3*y + y^3*x = k" |
+| `[STABLE_IL]` | Stable swap impermanent loss | "Minimal for pegged assets", "Near-zero for stable pairs" |
+| `[STABLE_EFFICIENCY]` | Stable swap capital efficiency | "Very high (concentrated around peg)", "100x vs constant product" |
+| `[STABLE_USE]` | Stable swap use case | "Stablecoin swaps", "LST/ETH pairs", "Pegged asset trading" |
+| `[CL_FEE]` | Concentrated liquidity pool fee | "0.01", "0.05", "0.3", "1.0" |
+| `[CL_FORMULA]` | Concentrated liquidity formula | "Virtual reserves within price range", "Uniswap V3 tick math" |
+| `[CL_IL]` | Concentrated liquidity impermanent loss | "Amplified within range", "Zero outside range (but no fees)" |
+| `[CL_EFFICIENCY]` | Concentrated liquidity capital efficiency | "Up to 4000x improvement", "Depends on range width" |
+| `[CL_USE]` | Concentrated liquidity use case | "Major trading pairs", "Active LP management", "Professional market making" |
+| `[DYN_FEE]` | Dynamic fee pool | "0.01-1.0 (volatility-adjusted)", "Surge pricing during high volume" |
+| `[DYN_FORMULA]` | Dynamic fee formula | "Base fee + volatility premium", "Time-weighted volatility adjustment" |
+| `[DYN_IL]` | Dynamic fee impermanent loss | "Partially offset by higher fees", "Better than static in volatile markets" |
+| `[DYN_EFFICIENCY]` | Dynamic fee capital efficiency | "Medium", "Optimized for LP returns" |
+| `[DYN_USE]` | Dynamic fee use case | "Volatile market conditions", "MEV reduction", "LP protection" |
+| `[WEIGHT_FEE]` | Weighted pool fee | "0.1", "0.3", "0.5", "1.0" |
+| `[WEIGHT_FORMULA]` | Weighted pool formula | "Balancer weighted math", "Product of (balance^weight)" |
+| `[WEIGHT_IL]` | Weighted pool impermanent loss | "Reduced for unequal weights", "Customizable exposure" |
+| `[WEIGHT_EFFICIENCY]` | Weighted pool capital efficiency | "Medium", "Better for index-like exposure" |
+| `[WEIGHT_USE]` | Weighted pool use case | "Index funds", "Treasury diversification", "80/20 pools" |
+| `[STRATEGY_1]` | Vault strategy 1 | "Aave V3 Lending", "Compound V3 Supply", "Curve stETH/ETH LP" |
+| `[APY_1]` | Strategy 1 APY range | "3-8", "5-12", "8-15" |
+| `[RISK_1]` | Strategy 1 risk score | "3", "5", "7" |
+| `[CAP_1]` | Strategy 1 TVL capacity | "50M", "100M", "250M" |
+| `[GAS_1]` | Strategy 1 gas cost | "Low (~100K gas)", "Medium (~250K gas)", "High (~500K gas)" |
+| `[COMPLEX_1]` | Strategy 1 complexity | "Low - single protocol", "Medium - 2 protocols", "High - multi-step" |
+| `[STRATEGY_2]` | Vault strategy 2 | "Convex CRV/ETH Staking", "GMX GLP", "Pendle PT/YT trading" |
+| `[APY_2]` | Strategy 2 APY range | "10-25", "15-40", "20-50" |
+| `[RISK_2]` | Strategy 2 risk score | "5", "7", "8" |
+| `[CAP_2]` | Strategy 2 TVL capacity | "25M", "50M", "100M" |
+| `[GAS_2]` | Strategy 2 gas cost | "Medium (~300K gas)", "High (~500K gas)" |
+| `[COMPLEX_2]` | Strategy 2 complexity | "Medium", "High - complex interactions" |
+| `[STRATEGY_3]` | Vault strategy 3 | "Uniswap V3 LP Management", "Liquity Stability Pool", "Maker DSR" |
+| `[APY_3]` | Strategy 3 APY range | "5-20", "8-15", "5-8" |
+| `[RISK_3]` | Strategy 3 risk score | "6", "4", "2" |
+| `[CAP_3]` | Strategy 3 TVL capacity | "30M", "75M", "Unlimited" |
+| `[GAS_3]` | Strategy 3 gas cost | "High (~400K gas)", "Low (~80K gas)" |
+| `[COMPLEX_3]` | Strategy 3 complexity | "High - active management", "Low - passive deposit" |
+| `[STRATEGY_4]` | Vault strategy 4 | "Eigen Layer Restaking", "Lido stETH + Leverage", "Morpho Optimizer" |
+| `[APY_4]` | Strategy 4 APY range | "8-20", "12-30", "6-12" |
+| `[RISK_4]` | Strategy 4 risk score | "7", "8", "4" |
+| `[CAP_4]` | Strategy 4 TVL capacity | "100M", "50M", "200M" |
+| `[GAS_4]` | Strategy 4 gas cost | "Medium", "High", "Low" |
+| `[COMPLEX_4]` | Strategy 4 complexity | "High - new primitive", "Very High - leverage", "Medium" |
+| `[STRATEGY_5]` | Vault strategy 5 | "Cross-chain yield farming", "Delta-neutral strategies", "Options vault (covered calls)" |
+| `[APY_5]` | Strategy 5 APY range | "15-35", "10-20", "8-25" |
+| `[RISK_5]` | Strategy 5 risk score | "8", "6", "7" |
+| `[CAP_5]` | Strategy 5 TVL capacity | "20M", "40M", "30M" |
+| `[GAS_5]` | Strategy 5 gas cost | "Very High (bridging)", "High", "Medium" |
+| `[COMPLEX_5]` | Strategy 5 complexity | "Very High", "High", "Medium" |
+| `[HARVEST_TRIGGER]` | Auto-harvest trigger condition | "Rewards > $1000 or 24h elapsed", "Gas cost < 5% of rewards", "Weekly scheduled" |
+| `[COMPOUND_FREQ]` | Compounding frequency | "Daily", "When profitable", "Every 6 hours", "Weekly" |
+| `[PERF_FEE]` | Performance fee percentage | "10", "15", "20", "25" |
+| `[MGMT_FEE]` | Management fee percentage | "0", "1", "2" |
+| `[WITHDRAW_FEE]` | Withdrawal fee percentage | "0", "0.1", "0.5" |
+| `[TREASURY_SHARE]` | Treasury fee share percentage | "50", "60", "70" |
+| `[STRATEGIST_SHARE]` | Strategist fee share percentage | "20", "25", "30" |
+| `[STAKER_SHARE]` | Staker fee share percentage | "20", "15", "30" |
+| `[SC_MEASURE]` | Smart contract risk measurement | "Audit count, code coverage, time deployed", "DeFi Safety score" |
+| `[SC_EXPOSURE]` | Smart contract exposure | "$50M in audited contracts", "High - new protocol", "Low - battle-tested" |
+| `[SC_LIMIT]` | Smart contract risk limit | "Max 30% in any single protocol", "Per-strategy TVL caps" |
+| `[SC_MITIGATE]` | Smart contract risk mitigation | "Multi-audit requirement, bug bounty", "Gradual TVL increase, monitoring" |
+| `[SC_INSURANCE]` | Smart contract insurance | "Nexus Mutual cover", "InsurAce policy", "Self-insured reserve fund" |
+| `[ORACLE_MEASURE]` | Oracle risk measurement | "Feed freshness, deviation from spot", "Multiple source comparison" |
+| `[ORACLE_EXPOSURE]` | Oracle exposure level | "100% Chainlink dependency", "Mixed oracle sources", "On-chain TWAP fallback" |
+| `[ORACLE_LIMIT]` | Oracle risk limit | "Max 1 hour staleness", "5% price deviation threshold" |
+| `[ORACLE_MITIGATE]` | Oracle risk mitigation | "Multi-oracle with median", "Circuit breaker on deviation", "Manual override capability" |
+| `[ORACLE_INSURANCE]` | Oracle insurance coverage | "Covered under protocol insurance", "Separate oracle risk pool" |
+| `[LIQ_MEASURE]` | Liquidity risk measurement | "Withdrawal queue depth, reserve ratio", "Time to exit position" |
+| `[LIQ_EXPOSURE]` | Liquidity exposure | "10% in illiquid strategies", "High - locked positions", "Low - instant redemption" |
+| `[LIQ_LIMIT]` | Liquidity risk limit | "Max 20% in vesting positions", "Minimum 10% liquid reserve" |
+| `[LIQ_MITIGATE]` | Liquidity risk mitigation | "Withdrawal fees during stress", "Queue-based redemption", "Reserve buffer" |
+| `[LIQ_INSURANCE]` | Liquidity insurance | "Emergency liquidity facility", "DAO backstop fund" |
+| `[MARKET_MEASURE]` | Market risk measurement | "VaR, volatility metrics", "Correlation analysis", "Drawdown monitoring" |
+| `[MARKET_EXPOSURE]` | Market exposure level | "80% ETH-correlated", "Diversified across 10+ assets", "Stablecoin-heavy (low)" |
+| `[MARKET_LIMIT]` | Market risk limit | "Max 50% single asset exposure", "Volatility-adjusted position sizing" |
+| `[MARKET_MITIGATE]` | Market risk mitigation | "Hedging strategies", "Stop-loss mechanisms", "Diversification requirements" |
+| `[MARKET_INSURANCE]` | Market risk insurance | "Not insurable", "Hedged via options", "Reserve fund for drawdowns" |
+| `[GOV_MEASURE]` | Governance risk measurement | "Token concentration, proposal history", "Voter participation rate" |
+| `[GOV_EXPOSURE]` | Governance exposure | "5% held by team (low)", "30% controlled by single entity (high)" |
+| `[GOV_LIMIT]` | Governance risk limit | "Max 10% single voter influence", "Timelock minimum 48 hours" |
+| `[GOV_MITIGATE]` | Governance risk mitigation | "Timelock delays", "Veto mechanisms", "Optimistic governance" |
+| `[GOV_INSURANCE]` | Governance insurance | "Not directly insurable", "Emergency multisig override" |
+| `[HEALTH_FORMULA]` | Health factor formula | "Collateral * LiqThreshold / Debt", "Sum(collateral_i * CF_i) / Sum(debt_j)" |
+| `[LIQ_THRESHOLD]` | Liquidation threshold | "1.0", "1.05", "1.1" |
+| `[LIQ_PENALTY]` | Liquidation penalty | "5", "8", "10", "15" |
+| `[CLOSE_FACTOR]` | Close factor percentage | "50", "100", "25" |
+| `[LIQ_INCENTIVE]` | Liquidator incentive | "5", "8", "10" |
+| `[MEV_PROTECTION]` | MEV protection mechanism | "Flashbots Protect RPC", "Private mempool", "Batch auctions" |
+| `[PRIORITY_SYSTEM]` | Liquidation priority system | "First-come-first-served", "Dutch auction", "Pro-rata allocation" |
+| `[FLASH_INTEGRATION]` | Flash loan integration | "Native flash liquidations", "Aave V3 flash loan support", "Balancer flash loans" |
+| `[PARTIAL_LIQ]` | Partial liquidation support | "Yes - close factor 50%", "Full liquidation only", "Gradual de-leverage" |
+| `[DUTCH_AUCTION]` | Dutch auction implementation | "Price decreases over 30 min", "Starting at 0% discount", "Minimum 5% floor" |
+| `[INSURANCE_FUND]` | Insurance fund size | "5M", "10M", "25M", "50M" |
+| `[BACKSTOP]` | Backstop coverage percentage | "5", "10", "15", "20" |
+| `[SLASHING]` | Slashing conditions | "Oracle failure coverage", "Smart contract exploit", "Bad debt socialization" |
+| `[RECOVERY]` | Recovery process | "DAO vote for fund deployment", "Automatic bad debt clearance", "Governance proposal required" |
+| `[LM_ALLOC]` | Liquidity mining allocation | "30% of total supply", "50M tokens over 4 years", "10% first year" |
+| `[LM_DIST]` | Liquidity mining distribution | "Pro-rata to LP share", "Gauge-weighted", "Time-weighted average" |
+| `[LM_VEST]` | Liquidity mining vesting | "No vesting (liquid)", "6-month linear", "1-year cliff" |
+| `[LM_METRIC]` | Liquidity mining success metric | "TVL growth", "Trading volume", "User retention" |
+| `[LM_ADJUST]` | Liquidity mining adjustment | "Weekly gauge votes", "Monthly DAO review", "Automatic based on utilization" |
+| `[TRADE_ALLOC]` | Trading rewards allocation | "10% of fees rebated", "5M tokens annually", "Volume-based tiers" |
+| `[TRADE_DIST]` | Trading rewards distribution | "Weekly epochs", "Real-time accumulation", "Monthly claims" |
+| `[TRADE_VEST]` | Trading rewards vesting | "Immediate", "7-day delay", "30-day linear" |
+| `[TRADE_METRIC]` | Trading rewards success metric | "Volume growth", "Active traders", "Fee revenue" |
+| `[TRADE_ADJUST]` | Trading rewards adjustment | "Tiered multipliers", "Decay over time", "Competitive benchmarking" |
+| `[STAKE_ALLOC]` | Staking rewards allocation | "20% of supply over 5 years", "All protocol fees", "Fixed 8% APY" |
+| `[STAKE_DIST]` | Staking rewards distribution | "Continuous streaming", "Epoch-based (weekly)", "On claim" |
+| `[STAKE_VEST]` | Staking rewards vesting | "Liquid on claim", "7-day unstaking period", "21-day cooldown" |
+| `[STAKE_METRIC]` | Staking success metric | "Staking ratio", "Lock duration", "Governance participation" |
+| `[STAKE_ADJUST]` | Staking adjustment mechanism | "veToken boost (up to 2.5x)", "Lock multiplier", "Loyalty bonus" |
+| `[REF_ALLOC]` | Referral program allocation | "2% of referred fees", "1M tokens pool", "5% of new user fees" |
+| `[REF_DIST]` | Referral distribution method | "Real-time fee sharing", "Monthly payouts", "Token + fee hybrid" |
+| `[REF_VEST]` | Referral rewards vesting | "Immediate", "30-day verification period", "Milestone-based" |
+| `[REF_METRIC]` | Referral success metric | "New users acquired", "Referred TVL", "Active referral rate" |
+| `[REF_ADJUST]` | Referral program adjustment | "Tiered rewards", "Time-limited campaigns", "Quality scoring" |
+| `[DEV_ALLOC]` | Developer grants allocation | "5% of treasury annually", "10M token pool", "$2M yearly budget" |
+| `[DEV_DIST]` | Developer grants distribution | "Milestone-based", "Monthly stipends", "Retroactive funding" |
+| `[DEV_VEST]` | Developer grants vesting | "Project milestone completion", "12-month linear", "6-month cliff" |
+| `[DEV_METRIC]` | Developer grants success metric | "Features shipped", "TVL impact", "User growth contribution" |
+| `[DEV_ADJUST]` | Developer grants adjustment | "Quarterly reviews", "Community voting", "Impact assessment" |
+| `[PROTOCOL_1]` | Integration protocol 1 | "Aave V3", "Compound V3", "Morpho" |
+| `[INT_TYPE_1]` | Integration type for protocol 1 | "Lending source", "Collateral market", "Yield optimization" |
+| `[TVL_1]` | TVL from integration 1 | "25M", "50M", "100M" |
+| `[REV_1]` | Revenue share from integration 1 | "10", "15", "20" |
+| `[TECH_1]` | Technical dependency on protocol 1 | "Direct contract calls", "Adapter pattern", "SDK integration" |
+| `[PROTOCOL_2]` | Integration protocol 2 | "Uniswap V3", "Curve", "Balancer" |
+| `[INT_TYPE_2]` | Integration type for protocol 2 | "DEX routing", "LP strategies", "Flash swaps" |
+| `[TVL_2]` | TVL from integration 2 | "30M", "75M", "150M" |
+| `[REV_2]` | Revenue share from integration 2 | "5", "8", "12" |
+| `[TECH_2]` | Technical dependency on protocol 2 | "Router aggregation", "Pool interaction", "LP token staking" |
+| `[PROTOCOL_3]` | Integration protocol 3 | "Chainlink", "Pyth", "Band Protocol" |
+| `[INT_TYPE_3]` | Integration type for protocol 3 | "Price oracle", "Data feeds", "VRF" |
+| `[TVL_3]` | TVL secured by integration 3 | "All TVL", "Liquidation markets only" |
+| `[REV_3]` | Revenue share from integration 3 | "0", "N/A - infrastructure" |
+| `[TECH_3]` | Technical dependency on protocol 3 | "Critical - all pricing", "Backup oracle", "Secondary source" |
+| `[PROTOCOL_4]` | Integration protocol 4 | "Convex", "Yearn", "Beefy" |
+| `[INT_TYPE_4]` | Integration type for protocol 4 | "Yield strategy", "Vault composability", "Auto-compounding" |
+| `[TVL_4]` | TVL from integration 4 | "20M", "40M", "80M" |
+| `[REV_4]` | Revenue share from integration 4 | "20", "30" |
+| `[TECH_4]` | Technical dependency on protocol 4 | "Strategy contracts", "Reward claiming", "LP management" |
+| `[PROTOCOL_5]` | Integration protocol 5 | "LayerZero", "Axelar", "Wormhole" |
+| `[INT_TYPE_5]` | Integration type for protocol 5 | "Cross-chain messaging", "Bridge integration", "Multi-chain deployment" |
+| `[TVL_5]` | TVL via integration 5 | "10M", "25M", "50M" |
+| `[REV_5]` | Revenue share from integration 5 | "2", "5" |
+| `[TECH_5]` | Technical dependency on protocol 5 | "Message passing", "Token bridging", "State sync" |
+| `[PRELAUNCH_AUDITOR]` | Pre-launch auditor | "Trail of Bits", "OpenZeppelin", "Consensys Diligence", "Spearbit" |
+| `[PRELAUNCH_COST]` | Pre-launch audit cost | "150,000", "250,000", "500,000" |
+| `[CONTINUOUS_AUDITOR]` | Continuous auditor | "Code4rena contests", "Sherlock", "Immunefi bounty" |
+| `[ECONOMIC_AUDITOR]` | Economic/tokenomics auditor | "Gauntlet", "Chaos Labs", "Block Science" |
+| `[FORMAL_VERIF]` | Formal verification provider | "Certora", "Runtime Verification", "In-house" |
+| `[CRITICAL_BOUNTY]` | Critical bug bounty | "500,000", "1,000,000", "2,000,000" |
+| `[HIGH_BOUNTY]` | High severity bug bounty | "100,000", "250,000", "500,000" |
+| `[MEDIUM_BOUNTY]` | Medium severity bug bounty | "25,000", "50,000", "100,000" |
+| `[LOW_BOUNTY]` | Low severity bug bounty | "5,000", "10,000", "25,000" |
+| `[BOUNTY_PLATFORM]` | Bug bounty platform | "Immunefi", "HackerOne", "Code4rena", "Sherlock" |
+| `[TIMELOCK_PERIOD]` | Timelock delay period | "24 hours", "48 hours", "7 days" |
+| `[MULTISIG_SETUP]` | Multisig configuration | "3-of-5 Gnosis Safe", "4-of-7 council", "5-of-9 with timelock" |
+| `[EMERGENCY_PAUSE]` | Emergency pause mechanism | "Guardian multisig (instant)", "2-of-5 emergency council", "Automated circuit breaker" |
+| `[UPGRADE_PATTERN]` | Upgrade pattern | "Transparent Proxy", "UUPS", "Diamond (EIP-2535)", "Beacon" |
+| `[ACCESS_CONTROL]` | Access control mechanism | "OpenZeppelin AccessControl", "Role-based with timelock", "Multisig-gated functions" |
+| `[TVL_CURRENT]` | Current TVL | "25M", "100M", "500M" |
+| `[TVL_AVG]` | Industry average TVL | "50M", "200M", "1B" |
+| `[TVL_TRACK]` | TVL tracking method | "DeFi Llama API", "On-chain query", "Internal dashboard" |
+| `[TVL_OPT]` | TVL optimization strategy | "Incentive programs", "Partnership integrations", "New chain deployment" |
+| `[DAU_CURRENT]` | Current daily active users | "500", "2,000", "10,000" |
+| `[DAU_TARGET]` | Target daily active users | "5,000", "25,000", "100,000" |
+| `[DAU_AVG]` | Industry average DAU | "1,000", "5,000", "20,000" |
+| `[DAU_TRACK]` | DAU tracking method | "Unique wallets interacting", "Dune Analytics", "Custom indexer" |
+| `[DAU_OPT]` | DAU optimization strategy | "UX improvements", "Gas subsidies", "New features" |
+| `[REV_CURRENT]` | Current monthly revenue | "50K", "250K", "1M" |
+| `[REV_TARGET]` | Target monthly revenue | "250K", "1M", "5M" |
+| `[REV_AVG]` | Industry average revenue | "100K", "500K", "2M" |
+| `[REV_TRACK]` | Revenue tracking method | "Fee contract events", "Token Terminal", "Internal accounting" |
+| `[REV_OPT]` | Revenue optimization strategy | "Fee optimization", "New revenue streams", "Volume growth" |
+| `[GAS_CURRENT]` | Current gas per transaction | "150K gas", "250K gas", "500K gas" |
+| `[GAS_TARGET]` | Target gas per transaction | "100K gas", "150K gas", "200K gas" |
+| `[GAS_AVG]` | Industry average gas | "200K gas", "300K gas" |
+| `[GAS_TRACK]` | Gas tracking method | "Transaction analysis", "Tenderly profiling", "Gas reporter" |
+| `[GAS_OPT]` | Gas optimization strategy | "Storage optimization", "Batch operations", "L2 migration" |
+| `[CAP_CURRENT]` | Current capital efficiency | "1.5x", "3x", "10x" |
+| `[CAP_TARGET]` | Target capital efficiency | "5x", "10x", "50x" |
+| `[CAP_AVG]` | Industry average capital efficiency | "2x", "5x", "20x" |
+| `[CAP_TRACK]` | Capital efficiency tracking | "Volume/TVL ratio", "Fee/TVL ratio", "Utilization rate" |
+| `[CAP_OPT]` | Capital efficiency optimization | "Concentrated liquidity", "Leverage", "Better routing" |
 
 ### 3. Automated Market Maker (AMM) Design
 

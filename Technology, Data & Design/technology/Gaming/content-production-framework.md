@@ -112,258 +112,258 @@ Script Development:
 
 | Variable | Description | Example |
 |----------|-------------|----------|
-| `[CONTENT_TITLE]` | Specify the content title | "[specify value]" |
-| `[CONTENT_FORMAT]` | Specify the content format | "[specify value]" |
-| `[PLATFORM_DISTRIBUTION]` | Specify the platform distribution | "[specify value]" |
-| `[AUDIENCE_SIZE]` | Specify the audience size | "[specify value]" |
+| `[CONTENT_TITLE]` | Name of the content series | "Tech Talk Weekly", "Game Dev Chronicles", "Behind the Scenes" |
+| `[CONTENT_FORMAT]` | Format type for content | "4K video series", "podcast episodes", "live stream", "short-form vertical video" |
+| `[PLATFORM_DISTRIBUTION]` | Primary distribution platform | "YouTube", "Twitch", "Netflix", "TikTok", "Spotify" |
+| `[AUDIENCE_SIZE]` | Target audience reach | "100K subscribers", "1M monthly viewers", "50K concurrent viewers" |
 | `[PRODUCTION_BUDGET]` | Budget allocation for production | "$500,000" |
 | `[EPISODE_COUNT]` | Specify the episode count | "10" |
-| `[RELEASE_SCHEDULE]` | Specify the release schedule | "[specify value]" |
-| `[ENGAGEMENT_RATE]` | Specify the engagement rate | "[specify value]" |
-| `[VIEWER_RETENTION]` | Specify the viewer retention | "[specify value]" |
-| `[REVENUE_TARGET]` | Target or intended revenue | "[specify value]" |
+| `[RELEASE_SCHEDULE]` | Content release cadence | "weekly on Saturdays", "bi-weekly", "daily", "monthly" |
+| `[ENGAGEMENT_RATE]` | Target engagement percentage | "8%", "12%", "5%" |
+| `[VIEWER_RETENTION]` | Audience retention percentage | "55%", "70%", "40%" |
+| `[REVENUE_TARGET]` | Target or intended revenue | "$50K/month", "$500K annually", "$1M first year" |
 | `[CORE_TYPE]` | Type or category of core | "Standard" |
-| `[CORE_VOLUME]` | Specify the core volume | "[specify value]" |
-| `[CORE_METRICS]` | Specify the core metrics | "[specify value]" |
-| `[CORE_RESOURCES]` | Specify the core resources | "[specify value]" |
-| `[CORE_SUCCESS]` | Specify the core success | "[specify value]" |
+| `[CORE_VOLUME]` | Core content production volume | "4 episodes/month", "52 videos/year", "8 features/quarter" |
+| `[CORE_METRICS]` | Core content success metrics | "100K views/episode", "10K downloads", "4.5 star rating" |
+| `[CORE_RESOURCES]` | Core content resource allocation | "60% of budget", "3 full-time crew", "$200K/quarter" |
+| `[CORE_SUCCESS]` | Core content success indicators | "80% completion rate", "50% subscriber conversion", "15min avg watch time" |
 | `[SUPPORT_TYPE]` | Type or category of support | "Standard" |
-| `[SUPPORT_VOLUME]` | Specify the support volume | "[specify value]" |
-| `[SUPPORT_METRICS]` | Specify the support metrics | "[specify value]" |
-| `[SUPPORT_RESOURCES]` | Specify the support resources | "[specify value]" |
-| `[SUPPORT_SUCCESS]` | Specify the support success | "[specify value]" |
+| `[SUPPORT_VOLUME]` | Supporting content volume | "12 clips/week", "20 social posts/month", "8 BTS videos/quarter" |
+| `[SUPPORT_METRICS]` | Supporting content metrics | "50K impressions", "5K shares", "high engagement rate" |
+| `[SUPPORT_RESOURCES]` | Supporting content resources | "20% of budget", "1 editor", "$50K/quarter" |
+| `[SUPPORT_SUCCESS]` | Supporting content success | "drives 30% traffic to main content", "2x social growth" |
 | `[PROMO_TYPE]` | Type or category of promo | "Standard" |
-| `[PROMO_VOLUME]` | Specify the promo volume | "[specify value]" |
-| `[PROMO_METRICS]` | Specify the promo metrics | "[specify value]" |
-| `[PROMO_RESOURCES]` | Specify the promo resources | "[specify value]" |
-| `[PROMO_SUCCESS]` | Specify the promo success | "[specify value]" |
+| `[PROMO_VOLUME]` | Promotional content volume | "8 trailers/season", "30 ads/campaign", "daily teasers" |
+| `[PROMO_METRICS]` | Promotional content metrics | "1M reach", "100K clicks", "5% CTR" |
+| `[PROMO_RESOURCES]` | Promotional content resources | "10% of budget", "agency partnership", "$100K campaign" |
+| `[PROMO_SUCCESS]` | Promotional content success | "25% conversion to viewers", "viral spread 10x" |
 | `[INTERACTIVE_TYPE]` | Type or category of interactive | "Standard" |
-| `[INTERACTIVE_VOLUME]` | Specify the interactive volume | "[specify value]" |
-| `[INTERACTIVE_METRICS]` | Specify the interactive metrics | "[specify value]" |
-| `[INTERACTIVE_RESOURCES]` | Specify the interactive resources | "[specify value]" |
-| `[INTERACTIVE_SUCCESS]` | Specify the interactive success | "[specify value]" |
+| `[INTERACTIVE_VOLUME]` | Interactive content volume | "4 Q&A sessions/month", "weekly polls", "2 live events/quarter" |
+| `[INTERACTIVE_METRICS]` | Interactive content metrics | "1K live participants", "500 questions submitted", "80% poll participation" |
+| `[INTERACTIVE_RESOURCES]` | Interactive content resources | "5% of budget", "community manager", "streaming equipment" |
+| `[INTERACTIVE_SUCCESS]` | Interactive content success | "50% audience participation", "high NPS score" |
 | `[UGC_TYPE]` | Type or category of ugc | "Standard" |
-| `[UGC_VOLUME]` | Specify the ugc volume | "[specify value]" |
-| `[UGC_METRICS]` | Specify the ugc metrics | "[specify value]" |
-| `[UGC_RESOURCES]` | Specify the ugc resources | "[specify value]" |
-| `[UGC_SUCCESS]` | Specify the ugc success | "[specify value]" |
+| `[UGC_VOLUME]` | User-generated content volume | "100 submissions/month", "50 featured creators", "weekly fan spotlight" |
+| `[UGC_METRICS]` | UGC engagement metrics | "10K community posts", "5K fan art submissions", "1K video responses" |
+| `[UGC_RESOURCES]` | UGC program resources | "2% of budget", "curation team", "rewards program" |
+| `[UGC_SUCCESS]` | UGC program success | "organic reach 5x", "community growth 200%" |
 | `[LIVE_TYPE]` | Type or category of live | "Standard" |
-| `[LIVE_VOLUME]` | Specify the live volume | "[specify value]" |
-| `[LIVE_METRICS]` | Specify the live metrics | "[specify value]" |
-| `[LIVE_RESOURCES]` | Specify the live resources | "[specify value]" |
-| `[LIVE_SUCCESS]` | Specify the live success | "[specify value]" |
-| `[SHOW_CONCEPT]` | Specify the show concept | "[specify value]" |
-| `[FORMAT_STRUCTURE]` | Specify the format structure | "[specify value]" |
-| `[EPISODE_LENGTH]` | Specify the episode length | "[specify value]" |
-| `[SEASON_ARC]` | Specify the season arc | "[specify value]" |
-| `[VISUAL_STYLE]` | Specify the visual style | "[specify value]" |
-| `[TONE_VOICE]` | Specify the tone voice | "[specify value]" |
-| `[WRITING_TEAM]` | Specify the writing team | "[specify value]" |
-| `[SCRIPT_FORMAT]` | Specify the script format | "[specify value]" |
-| `[STORY_BIBLE]` | Specify the story bible | "[specify value]" |
-| `[EPISODE_OUTLINES]` | Specify the episode outlines | "[specify value]" |
-| `[DIALOGUE_DEV]` | Specify the dialogue dev | "[specify value]" |
-| `[REVISION_PROCESS]` | Specify the revision process | "[specify value]" |
-| `[HOST_TALENT]` | Specify the host talent | "[specify value]" |
-| `[GUEST_STRATEGY]` | Strategy or approach for guest | "[specify value]" |
-| `[VOICE_TALENT]` | Specify the voice talent | "[specify value]" |
-| `[EXPERT_CONTRIBUTORS]` | Specify the expert contributors | "[specify value]" |
-| `[AUDIENCE_PARTICIPANTS]` | Specify the audience participants | "[specify value]" |
-| `[TALENT_CONTRACTS]` | Specify the talent contracts | "[specify value]" |
-| `[STUDIO_SETUP]` | Specify the studio setup | "[specify value]" |
+| `[LIVE_VOLUME]` | Live content volume | "20 hours/week streaming", "4 live shows/month", "annual live event" |
+| `[LIVE_METRICS]` | Live content metrics | "10K concurrent viewers", "2hr avg watch time", "$5K donations/stream" |
+| `[LIVE_RESOURCES]` | Live content resources | "3% of budget", "streaming setup", "live production crew" |
+| `[LIVE_SUCCESS]` | Live content success | "peak 50K viewers", "90% positive chat sentiment" |
+| `[SHOW_CONCEPT]` | Core concept for the show | "Weekly tech review with hands-on demos", "Documentary-style game dev insights" |
+| `[FORMAT_STRUCTURE]` | Episode format structure | "cold open + intro + 3 segments + outro", "interview + gameplay + discussion" |
+| `[EPISODE_LENGTH]` | Duration per episode | "15-20 minutes", "45 minutes", "2 hours (live)" |
+| `[SEASON_ARC]` | Season narrative arc | "10 episodes building to finale reveal", "standalone episodes with recurring themes" |
+| `[VISUAL_STYLE]` | Visual aesthetic direction | "minimalist modern", "retro gaming aesthetic", "cinematic documentary" |
+| `[TONE_VOICE]` | Content tone and voice | "informative yet entertaining", "casual and conversational", "professional editorial" |
+| `[WRITING_TEAM]` | Script writing team composition | "2 writers + 1 head writer", "freelance writers pool", "in-house creative team" |
+| `[SCRIPT_FORMAT]` | Script formatting standard | "two-column A/V format", "outline with talking points", "full screenplay format" |
+| `[STORY_BIBLE]` | Series documentation | "50-page brand guide", "character backgrounds + world rules", "tone and style reference" |
+| `[EPISODE_OUTLINES]` | Episode planning approach | "2-page outline per episode", "beat sheet with timing", "visual storyboard" |
+| `[DIALOGUE_DEV]` | Dialogue development process | "table reads with cast", "improv sessions for authenticity", "scripted with ad-lib zones" |
+| `[REVISION_PROCESS]` | Script revision workflow | "3 draft cycles", "writer's room feedback", "executive review gate" |
+| `[HOST_TALENT]` | Host/presenter talent | "industry veteran host", "dual host format", "rotating guest hosts" |
+| `[GUEST_STRATEGY]` | Guest booking approach | "A-list guests monthly + indie devs weekly", "expert panel discussions", "fan guests" |
+| `[VOICE_TALENT]` | Voiceover and narration talent | "professional VO artist", "in-house narrator", "celebrity voice talent" |
+| `[EXPERT_CONTRIBUTORS]` | Subject matter experts | "game developers", "industry analysts", "esports professionals" |
+| `[AUDIENCE_PARTICIPANTS]` | Audience involvement roles | "call-in questions", "live chat moderators", "featured community members" |
+| `[TALENT_CONTRACTS]` | Talent agreement structure | "per-episode rate + residuals", "annual contract", "revenue share deal" |
+| `[STUDIO_SETUP]` | Studio configuration | "soundproofed 800 sq ft studio", "home studio setup", "mobile production kit" |
 | `[LOCATION_SCOUTING]` | Specify the location scouting | "North America" |
-| `[SET_DESIGN]` | Specify the set design | "[specify value]" |
-| `[VIRTUAL_SETS]` | Specify the virtual sets | "[specify value]" |
-| `[REMOTE_SETUPS]` | Specify the remote setups | "[specify value]" |
-| `[EQUIPMENT_REQ]` | Specify the equipment req | "[specify value]" |
+| `[SET_DESIGN]` | Physical set design | "gaming-themed backdrop with LED panels", "minimalist desk setup", "immersive themed environment" |
+| `[VIRTUAL_SETS]` | Virtual production sets | "Unreal Engine virtual backgrounds", "green screen with real-time compositing", "LED volume stage" |
+| `[REMOTE_SETUPS]` | Remote production configuration | "Zoom/Riverside for guests", "remote camera kits for correspondents", "cloud-based collaboration" |
+| `[EQUIPMENT_REQ]` | Production equipment requirements | "4K cameras, Rode mics, Elgato lighting", "RED camera package", "broadcast-quality PTZ cameras" |
 | `[PREPROD_TIMELINE]` | Timeline or schedule for preprod | "6 months" |
-| `[SHOOTING_SCHEDULE]` | Specify the shooting schedule | "[specify value]" |
-| `[POSTPROD_WINDOW]` | Specify the postprod window | "[specify value]" |
-| `[RELEASE_CALENDAR]` | Specify the release calendar | "[specify value]" |
-| `[BUFFER_TIME]` | Specify the buffer time | "[specify value]" |
-| `[CONTINGENCY_PLANS]` | Specify the contingency plans | "[specify value]" |
-| `[PHOTO_TEAM]` | Specify the photo team | "[specify value]" |
+| `[SHOOTING_SCHEDULE]` | Production shooting schedule | "2 shoot days/week", "batch filming 4 episodes/day", "continuous live production" |
+| `[POSTPROD_WINDOW]` | Post-production timeline | "3 days editing per episode", "1 week turnaround", "same-day publish for live" |
+| `[RELEASE_CALENDAR]` | Content release calendar | "Tuesday/Thursday drops", "weekly premiere Fridays", "daily content stream" |
+| `[BUFFER_TIME]` | Schedule buffer allocation | "4 episodes ahead of schedule", "2-week content bank", "holiday pre-production" |
+| `[CONTINGENCY_PLANS]` | Backup production plans | "evergreen content library", "guest host rotation", "re-run classics during breaks" |
+| `[PHOTO_TEAM]` | Photography/videography team size | "3-person camera crew", "solo shooter + assistant", "10-person broadcast team" |
 | `[PHOTO_DURATION]` | Specify the photo duration | "6 months" |
-| `[PHOTO_OUTPUT]` | Specify the photo output | "[specify value]" |
-| `[PHOTO_QUALITY]` | Specify the photo quality | "[specify value]" |
+| `[PHOTO_OUTPUT]` | Photography daily output | "200 still images", "8 hours raw footage", "50 selects per shoot" |
+| `[PHOTO_QUALITY]` | Photography quality standard | "4K RAW capture", "broadcast HD", "8K for future-proofing" |
 | `[PHOTO_BUDGET]` | Budget allocation for photo | "$500,000" |
-| `[BROLL_TEAM]` | Specify the broll team | "[specify value]" |
+| `[BROLL_TEAM]` | B-roll capture team | "2-person B-roll unit", "drone operator + ground cam", "stock footage licensing" |
 | `[BROLL_DURATION]` | Specify the broll duration | "6 months" |
-| `[BROLL_OUTPUT]` | Specify the broll output | "[specify value]" |
-| `[BROLL_QUALITY]` | Specify the broll quality | "[specify value]" |
+| `[BROLL_OUTPUT]` | B-roll daily output | "4 hours supplemental footage", "100 clips per project", "drone + handheld coverage" |
+| `[BROLL_QUALITY]` | B-roll quality standard | "4K 60fps", "cinematic LOG profiles", "stabilized gimbal footage" |
 | `[BROLL_BUDGET]` | Budget allocation for broll | "$500,000" |
-| `[AUDIO_TEAM]` | Specify the audio team | "[specify value]" |
+| `[AUDIO_TEAM]` | Audio production team | "sound engineer + boom operator", "podcast audio engineer", "full audio post team" |
 | `[AUDIO_DURATION]` | Specify the audio duration | "6 months" |
-| `[AUDIO_OUTPUT]` | Specify the audio output | "[specify value]" |
-| `[AUDIO_QUALITY]` | Specify the audio quality | "[specify value]" |
+| `[AUDIO_OUTPUT]` | Audio production output | "multitrack recordings", "final stereo mix + stems", "podcast-ready master" |
+| `[AUDIO_QUALITY]` | Audio quality standard | "48kHz 24-bit", "broadcast loudness -16 LUFS", "studio-quality recording" |
 | `[AUDIO_BUDGET]` | Budget allocation for audio | "$500,000" |
-| `[LIVE_TEAM]` | Specify the live team | "[specify value]" |
+| `[LIVE_TEAM]` | Live production team | "director + TD + graphics operator", "solo streamer setup", "full broadcast crew 8+" |
 | `[LIVE_DURATION]` | Specify the live duration | "6 months" |
-| `[LIVE_OUTPUT]` | Specify the live output | "[specify value]" |
-| `[LIVE_QUALITY]` | Specify the live quality | "[specify value]" |
+| `[LIVE_OUTPUT]` | Live production output | "4-hour live shows", "multi-camera switched feed", "simultaneous multiplatform stream" |
+| `[LIVE_QUALITY]` | Live stream quality | "1080p60 stream", "4K HDR broadcast", "low-latency 720p for interaction" |
 | `[LIVE_BUDGET]` | Budget allocation for live | "$500,000" |
-| `[ANIMATION_TEAM]` | Specify the animation team | "[specify value]" |
+| `[ANIMATION_TEAM]` | Animation production team | "2D animator + motion graphics", "3D animation team", "outsourced animation studio" |
 | `[ANIMATION_DURATION]` | Specify the animation duration | "6 months" |
-| `[ANIMATION_OUTPUT]` | Specify the animation output | "[specify value]" |
-| `[ANIMATION_QUALITY]` | Specify the animation quality | "[specify value]" |
+| `[ANIMATION_OUTPUT]` | Animation deliverables | "30 seconds animated per episode", "motion graphics package", "full animated segments" |
+| `[ANIMATION_QUALITY]` | Animation quality standard | "24fps fluid animation", "broadcast-quality motion graphics", "feature film quality" |
 | `[ANIMATION_BUDGET]` | Budget allocation for animation | "$500,000" |
-| `[VFX_TEAM]` | Specify the vfx team | "[specify value]" |
+| `[VFX_TEAM]` | VFX production team | "compositor + VFX artist", "full VFX department", "freelance VFX specialists" |
 | `[VFX_DURATION]` | Specify the vfx duration | "6 months" |
-| `[VFX_OUTPUT]` | Specify the vfx output | "[specify value]" |
-| `[VFX_QUALITY]` | Specify the vfx quality | "[specify value]" |
+| `[VFX_OUTPUT]` | VFX deliverables per project | "20 VFX shots/episode", "screen replacements + composites", "full CGI sequences" |
+| `[VFX_QUALITY]` | VFX quality standard | "seamless integration", "feature film quality", "stylized effect aesthetic" |
 | `[VFX_BUDGET]` | Budget allocation for vfx | "$500,000" |
 | `[ROUGH_CUT_TIMELINE]` | Timeline or schedule for rough cut | "6 months" |
 | `[FINE_CUT_TIMELINE]` | Timeline or schedule for fine cut | "6 months" |
-| `[COLOR_GRADING]` | Specify the color grading | "[specify value]" |
-| `[VFX_INTEGRATION]` | Specify the vfx integration | "[specify value]" |
-| `[TITLE_GRAPHICS]` | Specify the title graphics | "[specify value]" |
-| `[FINAL_OUTPUT]` | Specify the final output | "[specify value]" |
-| `[DIALOGUE_EDIT]` | Specify the dialogue edit | "[specify value]" |
-| `[SOUND_DESIGN]` | Specify the sound design | "[specify value]" |
-| `[MUSIC_SCORE]` | Specify the music score | "[specify value]" |
-| `[AUDIO_MIX]` | Specify the audio mix | "[specify value]" |
-| `[MASTER_OUTPUT]` | Specify the master output | "[specify value]" |
-| `[FORMAT_DELIVERY]` | Specify the format delivery | "[specify value]" |
-| `[TECHNICAL_QC]` | Specify the technical qc | "[specify value]" |
-| `[CONTENT_REVIEW]` | Specify the content review | "[specify value]" |
-| `[LEGAL_CLEARANCE]` | Specify the legal clearance | "[specify value]" |
-| `[PLATFORM_SPECS]` | Specify the platform specs | "[specify value]" |
-| `[ACCESSIBILITY]` | Specify the accessibility | "[specify value]" |
-| `[FINAL_APPROVAL]` | Specify the final approval | "[specify value]" |
-| `[RAW_FOOTAGE_STORAGE]` | Specify the raw footage storage | "[specify value]" |
-| `[PROJECT_FILES]` | Specify the project files | "[specify value]" |
-| `[GRAPHICS_ASSETS]` | Specify the graphics assets | "[specify value]" |
-| `[AUDIO_FILES]` | Specify the audio files | "[specify value]" |
-| `[ARCHIVE_SYSTEM]` | Specify the archive system | "[specify value]" |
-| `[BACKUP_STRATEGY]` | Strategy or approach for backup | "[specify value]" |
-| `[PRIMARY_STRATEGY]` | Strategy or approach for primary | "[specify value]" |
-| `[PRIMARY_FORMAT]` | Specify the primary format | "[specify value]" |
-| `[PRIMARY_REACH]` | Specify the primary reach | "[specify value]" |
-| `[PRIMARY_EXCLUSIVE]` | Specify the primary exclusive | "[specify value]" |
-| `[PRIMARY_REVENUE]` | Specify the primary revenue | "[specify value]" |
-| `[SECONDARY_STRATEGY]` | Strategy or approach for secondary | "[specify value]" |
-| `[SECONDARY_FORMAT]` | Specify the secondary format | "[specify value]" |
-| `[SECONDARY_REACH]` | Specify the secondary reach | "[specify value]" |
-| `[SECONDARY_EXCLUSIVE]` | Specify the secondary exclusive | "[specify value]" |
-| `[SECONDARY_REVENUE]` | Specify the secondary revenue | "[specify value]" |
-| `[SOCIAL_STRATEGY]` | Strategy or approach for social | "[specify value]" |
-| `[SOCIAL_FORMAT]` | Specify the social format | "[specify value]" |
-| `[SOCIAL_REACH]` | Specify the social reach | "[specify value]" |
-| `[SOCIAL_EXCLUSIVE]` | Specify the social exclusive | "[specify value]" |
-| `[SOCIAL_REVENUE]` | Specify the social revenue | "[specify value]" |
-| `[SYNDICATION_STRATEGY]` | Strategy or approach for syndication | "[specify value]" |
-| `[SYNDICATION_FORMAT]` | Specify the syndication format | "[specify value]" |
-| `[SYNDICATION_REACH]` | Specify the syndication reach | "[specify value]" |
-| `[SYNDICATION_EXCLUSIVE]` | Specify the syndication exclusive | "[specify value]" |
-| `[SYNDICATION_REVENUE]` | Specify the syndication revenue | "[specify value]" |
-| `[INTL_STRATEGY]` | Strategy or approach for intl | "[specify value]" |
-| `[INTL_FORMAT]` | Specify the intl format | "[specify value]" |
-| `[INTL_REACH]` | Specify the intl reach | "[specify value]" |
-| `[INTL_EXCLUSIVE]` | Specify the intl exclusive | "[specify value]" |
-| `[INTL_REVENUE]` | Specify the intl revenue | "[specify value]" |
-| `[VOD_STRATEGY]` | Strategy or approach for vod | "[specify value]" |
-| `[VOD_FORMAT]` | Specify the vod format | "[specify value]" |
-| `[VOD_REACH]` | Specify the vod reach | "[specify value]" |
-| `[VOD_EXCLUSIVE]` | Specify the vod exclusive | "[specify value]" |
-| `[VOD_REVENUE]` | Specify the vod revenue | "[specify value]" |
-| `[COMMUNITY_IMPL]` | Specify the community impl | "[specify value]" |
-| `[COMMUNITY_FREQ]` | Specify the community freq | "[specify value]" |
-| `[COMMUNITY_TARGET]` | Target or intended community | "[specify value]" |
-| `[COMMUNITY_RESPONSE]` | Specify the community response | "[specify value]" |
-| `[COMMUNITY_METRICS]` | Specify the community metrics | "[specify value]" |
-| `[SOCIAL_IMPL]` | Specify the social impl | "[specify value]" |
-| `[SOCIAL_FREQ]` | Specify the social freq | "[specify value]" |
-| `[SOCIAL_TARGET]` | Target or intended social | "[specify value]" |
-| `[SOCIAL_RESPONSE]` | Specify the social response | "[specify value]" |
-| `[SOCIAL_METRICS]` | Specify the social metrics | "[specify value]" |
-| `[EVENTS_IMPL]` | Specify the events impl | "[specify value]" |
-| `[EVENTS_FREQ]` | Specify the events freq | "[specify value]" |
-| `[EVENTS_TARGET]` | Target or intended events | "[specify value]" |
-| `[EVENTS_RESPONSE]` | Specify the events response | "[specify value]" |
-| `[EVENTS_METRICS]` | Specify the events metrics | "[specify value]" |
-| `[BTS_IMPL]` | Specify the bts impl | "[specify value]" |
-| `[BTS_FREQ]` | Specify the bts freq | "[specify value]" |
-| `[BTS_TARGET]` | Target or intended bts | "[specify value]" |
-| `[BTS_RESPONSE]` | Specify the bts response | "[specify value]" |
-| `[BTS_METRICS]` | Specify the bts metrics | "[specify value]" |
-| `[CONTEST_IMPL]` | Specify the contest impl | "[specify value]" |
-| `[CONTEST_FREQ]` | Specify the contest freq | "[specify value]" |
-| `[CONTEST_TARGET]` | Target or intended contest | "[specify value]" |
-| `[CONTEST_RESPONSE]` | Specify the contest response | "[specify value]" |
-| `[CONTEST_METRICS]` | Specify the contest metrics | "[specify value]" |
-| `[INFLUENCER_IMPL]` | Specify the influencer impl | "[specify value]" |
-| `[INFLUENCER_FREQ]` | Specify the influencer freq | "[specify value]" |
-| `[INFLUENCER_TARGET]` | Target or intended influencer | "[specify value]" |
-| `[INFLUENCER_RESPONSE]` | Specify the influencer response | "[specify value]" |
-| `[INFLUENCER_METRICS]` | Specify the influencer metrics | "[specify value]" |
-| `[PREROLL_REVENUE]` | Specify the preroll revenue | "[specify value]" |
-| `[MIDROLL_REVENUE]` | Specify the midroll revenue | "[specify value]" |
-| `[POSTROLL_REVENUE]` | Specify the postroll revenue | "[specify value]" |
-| `[SPONSORED_REVENUE]` | Specify the sponsored revenue | "[specify value]" |
-| `[PLACEMENT_REVENUE]` | Specify the placement revenue | "[specify value]" |
-| `[CPM_RATES]` | Specify the cpm rates | "[specify value]" |
-| `[PLATFORM_SUBS]` | Specify the platform subs | "[specify value]" |
-| `[DIRECT_SUBS]` | Specify the direct subs | "[specify value]" |
-| `[MEMBERSHIP_TIERS]` | Specify the membership tiers | "[specify value]" |
-| `[EXCLUSIVE_CONTENT]` | Specify the exclusive content | "[specify value]" |
-| `[PERKS_BENEFITS]` | Specify the perks benefits | "[specify value]" |
-| `[RETENTION_RATE]` | Specify the retention rate | "[specify value]" |
-| `[PPV_REVENUE]` | Specify the ppv revenue | "[specify value]" |
-| `[DIGITAL_SALES]` | Specify the digital sales | "[specify value]" |
-| `[MERCH_REVENUE]` | Specify the merch revenue | "[specify value]" |
-| `[TICKET_REVENUE]` | Specify the ticket revenue | "[specify value]" |
-| `[LICENSING_REVENUE]` | Specify the licensing revenue | "[specify value]" |
-| `[CROWD_REVENUE]` | Specify the crowd revenue | "[specify value]" |
-| `[TITLE_SPONSOR]` | Specify the title sponsor | "[specify value]" |
-| `[SEGMENT_SPONSOR]` | Specify the segment sponsor | "[specify value]" |
-| `[BRAND_INTEGRATION]` | Specify the brand integration | "[specify value]" |
-| `[COPRODUCTION]` | Specify the coproduction | "[specify value]" |
-| `[AFFILIATE_REVENUE]` | Specify the affiliate revenue | "[specify value]" |
-| `[PARTNERSHIP_TERMS]` | Specify the partnership terms | "[specify value]" |
-| `[CURRENT_VIEWS]` | Specify the current views | "[specify value]" |
-| `[TARGET_VIEWS]` | Target or intended views | "[specify value]" |
-| `[VIEW_TRACKING]` | Specify the view tracking | "[specify value]" |
-| `[VIEW_OPTIMIZATION]` | Specify the view optimization | "[specify value]" |
-| `[VIEW_REVIEW]` | Specify the view review | "[specify value]" |
-| `[CURRENT_WATCH]` | Specify the current watch | "[specify value]" |
-| `[TARGET_WATCH]` | Target or intended watch | "[specify value]" |
-| `[WATCH_TRACKING]` | Specify the watch tracking | "[specify value]" |
-| `[WATCH_OPTIMIZATION]` | Specify the watch optimization | "[specify value]" |
-| `[WATCH_REVIEW]` | Specify the watch review | "[specify value]" |
-| `[CURRENT_ENGAGE]` | Specify the current engage | "[specify value]" |
-| `[TARGET_ENGAGE]` | Target or intended engage | "[specify value]" |
-| `[ENGAGE_TRACKING]` | Specify the engage tracking | "[specify value]" |
-| `[ENGAGE_OPTIMIZATION]` | Specify the engage optimization | "[specify value]" |
-| `[ENGAGE_REVIEW]` | Specify the engage review | "[specify value]" |
-| `[CURRENT_SUBS]` | Specify the current subs | "[specify value]" |
-| `[TARGET_SUBS]` | Target or intended subs | "[specify value]" |
-| `[SUB_TRACKING]` | Specify the sub tracking | "[specify value]" |
-| `[SUB_OPTIMIZATION]` | Specify the sub optimization | "[specify value]" |
-| `[SUB_REVIEW]` | Specify the sub review | "[specify value]" |
-| `[CURRENT_RPV]` | Specify the current rpv | "[specify value]" |
-| `[TARGET_RPV]` | Target or intended rpv | "[specify value]" |
-| `[RPV_TRACKING]` | Specify the rpv tracking | "[specify value]" |
-| `[RPV_OPTIMIZATION]` | Specify the rpv optimization | "[specify value]" |
-| `[RPV_REVIEW]` | Specify the rpv review | "[specify value]" |
-| `[CURRENT_RETENTION]` | Specify the current retention | "[specify value]" |
-| `[TARGET_RETENTION]` | Target or intended retention | "[specify value]" |
-| `[RETENTION_TRACKING]` | Specify the retention tracking | "[specify value]" |
-| `[RETENTION_OPTIMIZATION]` | Specify the retention optimization | "[specify value]" |
-| `[RETENTION_REVIEW]` | Specify the retention review | "[specify value]" |
+| `[COLOR_GRADING]` | Color grading approach | "DaVinci Resolve with custom LUTs", "cinematic film look", "branded color palette" |
+| `[VFX_INTEGRATION]` | VFX pipeline integration | "After Effects compositing", "Nuke for complex shots", "real-time Unreal Engine" |
+| `[TITLE_GRAPHICS]` | Title and graphics package | "animated lower thirds + bumpers", "full graphics package", "dynamic data-driven graphics" |
+| `[FINAL_OUTPUT]` | Final delivery specifications | "4K ProRes master + H.264 web", "HDR + SDR versions", "platform-optimized encodes" |
+| `[DIALOGUE_EDIT]` | Dialogue editing process | "noise reduction + EQ + compression", "ADR for clarity", "automated dialogue replacement" |
+| `[SOUND_DESIGN]` | Sound design approach | "custom SFX creation", "library-based sound design", "immersive spatial audio" |
+| `[MUSIC_SCORE]` | Music scoring approach | "licensed music library", "original composition", "royalty-free with custom themes" |
+| `[AUDIO_MIX]` | Final audio mix specifications | "stereo broadcast mix", "5.1 surround for streaming", "binaural for headphones" |
+| `[MASTER_OUTPUT]` | Audio master deliverables | "WAV master + MP3 podcast", "broadcast-ready stems", "platform-specific masters" |
+| `[FORMAT_DELIVERY]` | Delivery format specifications | "AAC for streaming", "PCM for broadcast", "Dolby Atmos for premium" |
+| `[TECHNICAL_QC]` | Technical quality control | "automated QC software check", "manual review checklist", "broadcast compliance verification" |
+| `[CONTENT_REVIEW]` | Content review process | "editorial review for accuracy", "brand compliance check", "sensitivity review" |
+| `[LEGAL_CLEARANCE]` | Legal clearance requirements | "music licensing verification", "talent release forms", "trademark/copyright review" |
+| `[PLATFORM_SPECS]` | Platform specification compliance | "YouTube recommended specs", "Netflix delivery requirements", "social platform formats" |
+| `[ACCESSIBILITY]` | Accessibility features | "closed captions + subtitles", "audio descriptions", "WCAG 2.1 compliance" |
+| `[FINAL_APPROVAL]` | Final approval workflow | "executive producer sign-off", "client approval gate", "stakeholder review meeting" |
+| `[RAW_FOOTAGE_STORAGE]` | Raw footage storage solution | "RAID NAS 100TB capacity", "cloud storage (Backblaze B2)", "LTO tape archive" |
+| `[PROJECT_FILES]` | Project file management | "Premiere Pro projects on shared storage", "Frame.io for collaboration", "versioned project folders" |
+| `[GRAPHICS_ASSETS]` | Graphics asset management | "organized by project in Adobe CC Libraries", "Dropbox shared folders", "DAM system" |
+| `[AUDIO_FILES]` | Audio file organization | "Pro Tools sessions + bounces", "music library with metadata", "SFX categorized database" |
+| `[ARCHIVE_SYSTEM]` | Long-term archive system | "AWS Glacier for cold storage", "on-premise LTO-8 library", "hybrid cloud archive" |
+| `[BACKUP_STRATEGY]` | Data backup approach | "3-2-1 backup rule", "daily incremental + weekly full", "geo-redundant cloud backup" |
+| `[PRIMARY_STRATEGY]` | Primary platform strategy | "YouTube-first with SEO optimization", "Netflix exclusive launch", "Twitch primary with VOD" |
+| `[PRIMARY_FORMAT]` | Primary content format | "full-length episodes", "4K HDR premium", "live + archived VOD" |
+| `[PRIMARY_REACH]` | Primary platform reach | "global availability", "US + Europe tier 1", "English-speaking markets" |
+| `[PRIMARY_EXCLUSIVE]` | Primary exclusivity period | "30-day exclusive window", "permanent exclusive", "simultaneous release" |
+| `[PRIMARY_REVENUE]` | Primary platform revenue share | "55% (YouTube)", "70% (direct sales)", "negotiated platform deal" |
+| `[SECONDARY_STRATEGY]` | Secondary platform strategy | "podcast syndication", "FAST channel distribution", "SVOD licensing" |
+| `[SECONDARY_FORMAT]` | Secondary content format | "audio-only podcast version", "edited highlights", "platform-native formats" |
+| `[SECONDARY_REACH]` | Secondary platform reach | "additional 50% audience", "niche platforms", "international expansion" |
+| `[SECONDARY_EXCLUSIVE]` | Secondary exclusivity terms | "non-exclusive after window", "co-exclusive deals", "windowed release" |
+| `[SECONDARY_REVENUE]` | Secondary platform revenue share | "variable by platform", "flat licensing fee", "CPM-based" |
+| `[SOCIAL_STRATEGY]` | Social media distribution strategy | "repurposed clips for TikTok/Reels/Shorts", "native social content", "cross-promotion" |
+| `[SOCIAL_FORMAT]` | Social content format | "vertical 60-second clips", "carousel posts", "Stories and ephemeral content" |
+| `[SOCIAL_REACH]` | Social platform reach | "viral potential 10x main content", "algorithm-driven discovery", "hashtag campaigns" |
+| `[SOCIAL_EXCLUSIVE]` | Social exclusive content | "behind-the-scenes exclusive", "early access teasers", "platform-specific content" |
+| `[SOCIAL_REVENUE]` | Social platform revenue | "brand awareness (indirect)", "creator fund participation", "sponsored content integration" |
+| `[SYNDICATION_STRATEGY]` | Content syndication approach | "multi-platform podcast distribution", "TV syndication", "licensing to aggregators" |
+| `[SYNDICATION_FORMAT]` | Syndication format requirements | "broadcast-ready masters", "RSS feed distribution", "platform-agnostic files" |
+| `[SYNDICATION_REACH]` | Syndication audience reach | "incremental 30% audience", "new demographics", "passive discovery channels" |
+| `[SYNDICATION_EXCLUSIVE]` | Syndication exclusivity terms | "non-exclusive syndication", "territory-based exclusivity", "category exclusivity" |
+| `[SYNDICATION_REVENUE]` | Syndication revenue model | "flat licensing fee per territory", "revenue share 50/50", "minimum guarantee + overage" |
+| `[INTL_STRATEGY]` | International distribution strategy | "localized versions for key markets", "subtitled global release", "dubbed for top 5 languages" |
+| `[INTL_FORMAT]` | International format specifications | "multi-language subtitle tracks", "M&E tracks for dubbing", "region-specific edits" |
+| `[INTL_REACH]` | International market reach | "190+ countries", "LATAM + APAC focus", "Europe priority markets" |
+| `[INTL_EXCLUSIVE]` | International exclusivity | "territory-by-territory deals", "global day-and-date", "staggered international rollout" |
+| `[INTL_REVENUE]` | International revenue expectations | "30% of total revenue", "premium for localized content", "emerging market growth" |
+| `[VOD_STRATEGY]` | On-demand distribution strategy | "SVOD library placement", "TVOD rental/purchase", "AVOD with ad support" |
+| `[VOD_FORMAT]` | VOD format specifications | "streaming-optimized encodes", "downloadable for offline", "adaptive bitrate streaming" |
+| `[VOD_REACH]` | VOD platform reach | "major SVOD platforms", "cable VOD integration", "smart TV apps" |
+| `[VOD_EXCLUSIVE]` | VOD exclusivity terms | "SVOD exclusive 1 year", "TVOD after theatrical window", "AVOD after premium window" |
+| `[VOD_REVENUE]` | VOD revenue model | "per-stream royalty", "flat catalog fee", "transactional 70% rev share" |
+| `[COMMUNITY_IMPL]` | Community building implementation | "Discord server with channels", "Reddit community management", "Facebook Group" |
+| `[COMMUNITY_FREQ]` | Community engagement frequency | "daily interaction", "weekly AMAs", "monthly community events" |
+| `[COMMUNITY_TARGET]` | Target community demographics | "18-34 gaming enthusiasts", "tech early adopters", "content creator community" |
+| `[COMMUNITY_RESPONSE]` | Expected community response | "5K active members in 3 months", "high engagement rate", "organic growth through word-of-mouth" |
+| `[COMMUNITY_METRICS]` | Community success metrics | "member growth rate", "daily active users", "sentiment score", "referral rate" |
+| `[SOCIAL_IMPL]` | Social interaction implementation | "respond to all comments", "proactive engagement", "user-generated content campaigns" |
+| `[SOCIAL_FREQ]` | Social posting frequency | "3-5 posts daily", "hourly during launches", "consistent daily presence" |
+| `[SOCIAL_TARGET]` | Target social audience | "followers of similar content", "gaming community", "tech influencer networks" |
+| `[SOCIAL_RESPONSE]` | Expected social response | "10% engagement rate", "viral sharing potential", "influencer amplification" |
+| `[SOCIAL_METRICS]` | Social success metrics | "follower growth", "engagement rate", "share of voice", "click-through rate" |
+| `[EVENTS_IMPL]` | Live events implementation | "watch parties", "premiere events", "fan meetups", "convention presence" |
+| `[EVENTS_FREQ]` | Event frequency | "quarterly major events", "monthly smaller activations", "annual flagship event" |
+| `[EVENTS_TARGET]` | Target event audience | "superfans and VIPs", "local community", "industry professionals" |
+| `[EVENTS_RESPONSE]` | Expected event response | "sold-out attendance", "high social buzz", "press coverage" |
+| `[EVENTS_METRICS]` | Event success metrics | "attendance numbers", "social mentions", "post-event engagement lift" |
+| `[BTS_IMPL]` | Behind-the-scenes implementation | "BTS video series", "production vlogs", "creator commentary tracks" |
+| `[BTS_FREQ]` | BTS content frequency | "weekly BTS drops", "per-episode making-of", "monthly deep dives" |
+| `[BTS_TARGET]` | Target BTS audience | "aspiring creators", "superfans wanting more", "industry peers" |
+| `[BTS_RESPONSE]` | Expected BTS response | "high completion rates", "community appreciation", "educational value recognized" |
+| `[BTS_METRICS]` | BTS success metrics | "view count", "subscriber conversion", "engagement on BTS vs main content" |
+| `[CONTEST_IMPL]` | Contest/giveaway implementation | "social media giveaways", "creative submission contests", "trivia challenges" |
+| `[CONTEST_FREQ]` | Contest frequency | "monthly giveaways", "seasonal big contests", "weekly mini challenges" |
+| `[CONTEST_TARGET]` | Target contest participants | "active community members", "new audience acquisition", "brand partners" |
+| `[CONTEST_RESPONSE]` | Expected contest response | "10K+ entries", "viral sharing", "brand visibility boost" |
+| `[CONTEST_METRICS]` | Contest success metrics | "participation rate", "new followers acquired", "UGC generated", "brand lift" |
+| `[INFLUENCER_IMPL]` | Influencer collaboration implementation | "guest appearances", "co-created content", "influencer takeovers" |
+| `[INFLUENCER_FREQ]` | Influencer collab frequency | "monthly feature collaborations", "quarterly major partnerships", "ongoing ambassador program" |
+| `[INFLUENCER_TARGET]` | Target influencer profiles | "micro-influencers 10K-100K", "macro-influencers 100K-1M", "celebrity tier 1M+" |
+| `[INFLUENCER_RESPONSE]` | Expected influencer impact | "audience crossover 20%+", "credibility boost", "new demographic reach" |
+| `[INFLUENCER_METRICS]` | Influencer success metrics | "referral traffic", "follower growth during collab", "engagement lift", "ROI per collaboration" |
+| `[PREROLL_REVENUE]` | Pre-roll advertising revenue | "$5K/month", "$15 CPM", "15% of total ad revenue" |
+| `[MIDROLL_REVENUE]` | Mid-roll advertising revenue | "$10K/month", "$20 CPM", "50% of total ad revenue" |
+| `[POSTROLL_REVENUE]` | Post-roll advertising revenue | "$2K/month", "$8 CPM", "10% of total ad revenue" |
+| `[SPONSORED_REVENUE]` | Sponsored content revenue | "$25K per sponsored episode", "$50K/month average", "premium rate for exclusives" |
+| `[PLACEMENT_REVENUE]` | Product placement revenue | "$5K-15K per integration", "monthly retainer deals", "performance-based bonuses" |
+| `[CPM_RATES]` | Advertising CPM rates | "$8-25 CPM depending on audience", "premium $30+ CPM", "programmatic $5-10 CPM" |
+| `[PLATFORM_SUBS]` | Platform subscription revenue | "YouTube memberships $3K/month", "Twitch subs $8K/month", "Patreon $15K/month" |
+| `[DIRECT_SUBS]` | Direct subscription revenue | "$10K/month from website", "newsletter premium tier", "app subscriptions" |
+| `[MEMBERSHIP_TIERS]` | Membership tier structure | "$5/10/25 monthly tiers", "annual discount 20%", "lifetime supporter tier" |
+| `[EXCLUSIVE_CONTENT]` | Exclusive member content | "ad-free viewing", "early access 48hrs", "member-only episodes", "Discord access" |
+| `[PERKS_BENEFITS]` | Member perks and benefits | "custom badges/emotes", "monthly merch drops", "meet-and-greet access", "credits mention" |
+| `[RETENTION_RATE]` | Subscriber retention rate | "85% monthly retention", "70% annual renewal", "low churn rate" |
+| `[PPV_REVENUE]` | Pay-per-view/rental revenue | "$50K per special event", "$5-15 per transaction", "premium event pricing" |
+| `[DIGITAL_SALES]` | Digital download sales | "episode purchases $2.99", "season bundles $19.99", "complete series $49.99" |
+| `[MERCH_REVENUE]` | Merchandise revenue | "$20K/month from store", "30% margin on products", "limited edition drops" |
+| `[TICKET_REVENUE]` | Live event ticket revenue | "$100K annual live events", "$50-200 ticket pricing", "VIP packages $500+" |
+| `[LICENSING_REVENUE]` | Content licensing revenue | "$200K annual licensing deals", "per-territory fees", "format licensing" |
+| `[CROWD_REVENUE]` | Crowdfunding revenue | "Kickstarter campaigns $50K+", "Patreon creator goals", "fan funding drives" |
+| `[TITLE_SPONSOR]` | Title sponsorship value | "$100K/season title sponsor", "presenting sponsor branding", "exclusive category rights" |
+| `[SEGMENT_SPONSOR]` | Segment sponsorship value | "$25K per sponsored segment", "recurring segment deals", "branded content series" |
+| `[BRAND_INTEGRATION]` | Brand integration revenue | "$15K-50K per integration", "organic product features", "storyline integration" |
+| `[COPRODUCTION]` | Co-production partnership value | "50/50 production cost share", "brand-funded series", "platform co-production deals" |
+| `[AFFILIATE_REVENUE]` | Affiliate marketing revenue | "$5K/month affiliate commissions", "10-20% commission rates", "exclusive discount codes" |
+| `[PARTNERSHIP_TERMS]` | Partnership agreement terms | "1-year minimum commitment", "quarterly deliverables", "exclusivity clauses", "renewal options" |
+| `[CURRENT_VIEWS]` | Current view count performance | "50K views/episode", "500K monthly total", "10K average per video" |
+| `[TARGET_VIEWS]` | Target view count goals | "100K views/episode", "1M monthly total", "25K average per video" |
+| `[VIEW_TRACKING]` | View tracking methodology | "YouTube Analytics", "Chartable for podcasts", "cross-platform dashboard" |
+| `[VIEW_OPTIMIZATION]` | View count optimization strategy | "SEO optimization", "thumbnail A/B testing", "posting time optimization" |
+| `[VIEW_REVIEW]` | View performance review frequency | "weekly dashboard review", "monthly deep analysis", "quarterly strategy adjustment" |
+| `[CURRENT_WATCH]` | Current watch time performance | "8 minutes average", "50% retention at midpoint", "10K hours/month total" |
+| `[TARGET_WATCH]` | Target watch time goals | "12 minutes average", "65% retention at midpoint", "25K hours/month total" |
+| `[WATCH_TRACKING]` | Watch time tracking method | "retention graphs analysis", "audience retention reports", "heatmap analytics" |
+| `[WATCH_OPTIMIZATION]` | Watch time optimization strategy | "hook optimization first 30 sec", "pacing improvements", "chapter markers" |
+| `[WATCH_REVIEW]` | Watch time review frequency | "per-video analysis", "weekly trends review", "monthly benchmarking" |
+| `[CURRENT_ENGAGE]` | Current engagement rate | "5%", "3% like ratio", "200 comments average" |
+| `[TARGET_ENGAGE]` | Target engagement rate | "8%", "5% like ratio", "500 comments average" |
+| `[ENGAGE_TRACKING]` | Engagement tracking method | "platform native analytics", "social listening tools", "sentiment analysis" |
+| `[ENGAGE_OPTIMIZATION]` | Engagement optimization strategy | "CTAs in content", "community questions", "engagement hooks" |
+| `[ENGAGE_REVIEW]` | Engagement review frequency | "daily monitoring", "weekly trend analysis", "monthly strategy review" |
+| `[CURRENT_SUBS]` | Current subscriber count | "50K subscribers", "25K email list", "10K paid members" |
+| `[TARGET_SUBS]` | Target subscriber goals | "100K subscribers", "50K email list", "20K paid members" |
+| `[SUB_TRACKING]` | Subscriber tracking method | "subscriber analytics dashboard", "cohort analysis", "source attribution" |
+| `[SUB_OPTIMIZATION]` | Subscriber growth strategy | "end screen optimization", "lead magnets", "referral programs" |
+| `[SUB_REVIEW]` | Subscriber review frequency | "daily sub count check", "weekly growth analysis", "monthly acquisition cost review" |
+| `[CURRENT_RPV]` | Current revenue per view | "$0.005 RPV", "$5 RPM", "$0.02 per engaged viewer" |
+| `[TARGET_RPV]` | Target revenue per view | "$0.01 RPV", "$10 RPM", "$0.05 per engaged viewer" |
+| `[RPV_TRACKING]` | RPV tracking methodology | "revenue/views calculation", "platform monetization reports", "blended RPM tracking" |
+| `[RPV_OPTIMIZATION]` | RPV optimization strategy | "premium ad placements", "audience monetization tiers", "direct sales focus" |
+| `[RPV_REVIEW]` | RPV review frequency | "monthly RPM analysis", "quarterly revenue optimization", "annual strategy review" |
+| `[CURRENT_RETENTION]` | Current audience retention rate | "45%", "55% at 50% mark", "30% completing full video" |
+| `[TARGET_RETENTION]` | Target audience retention rate | "60%", "70% at 50% mark", "50% completing full video" |
+| `[RETENTION_TRACKING]` | Retention tracking methodology | "retention curve analysis", "drop-off point identification", "A/B retention comparison" |
+| `[RETENTION_OPTIMIZATION]` | Retention optimization strategy | "pattern interrupts", "content pacing adjustment", "cliffhangers and teasers" |
+| `[RETENTION_REVIEW]` | Retention review frequency | "per-video retention review", "weekly trends", "monthly benchmark comparison" |
 | `[SOCIAL_BUDGET]` | Budget allocation for social | "$500,000" |
 | `[SOCIAL_TIMELINE]` | Timeline or schedule for social | "6 months" |
-| `[SOCIAL_ASSETS]` | Specify the social assets | "[specify value]" |
-| `[SOCIAL_CONVERSION]` | Specify the social conversion | "[specify value]" |
+| `[SOCIAL_ASSETS]` | Social campaign creative assets | "15 video clips + 30 static images + Stories templates" |
+| `[SOCIAL_CONVERSION]` | Social campaign conversion goal | "5% click-through rate", "2% conversion to subscribers", "10% engagement" |
 | `[AD_BUDGET]` | Budget allocation for ad | "$500,000" |
 | `[AD_TIMELINE]` | Timeline or schedule for ad | "6 months" |
-| `[AD_ASSETS]` | Specify the ad assets | "[specify value]" |
-| `[AD_REACH]` | Specify the ad reach | "[specify value]" |
-| `[AD_CONVERSION]` | Specify the ad conversion | "[specify value]" |
+| `[AD_ASSETS]` | Paid advertising creative assets | "video ads 15/30/60 sec + display banners + native ads" |
+| `[AD_REACH]` | Paid advertising reach target | "5M impressions", "500K unique reach", "targeted demographics" |
+| `[AD_CONVERSION]` | Paid advertising conversion goal | "1% CTR", "0.5% conversion rate", "$10 CPA target" |
 | `[PR_BUDGET]` | Budget allocation for pr | "$500,000" |
 | `[PR_TIMELINE]` | Timeline or schedule for pr | "6 months" |
-| `[PR_ASSETS]` | Specify the pr assets | "[specify value]" |
-| `[PR_REACH]` | Specify the pr reach | "[specify value]" |
-| `[PR_CONVERSION]` | Specify the pr conversion | "[specify value]" |
+| `[PR_ASSETS]` | PR campaign assets | "press kit + screeners + talent availability + exclusive clips" |
+| `[PR_REACH]` | PR campaign reach target | "50 media placements", "10 tier-1 publications", "industry trade coverage" |
+| `[PR_CONVERSION]` | PR campaign conversion goal | "brand awareness lift 20%", "search volume increase", "social mention growth" |
 | `[EMAIL_BUDGET]` | Budget allocation for email | "john.smith@example.com" |
 | `[EMAIL_TIMELINE]` | Timeline or schedule for email | "john.smith@example.com" |
 | `[EMAIL_ASSETS]` | Specify the email assets | "john.smith@example.com" |
@@ -371,44 +371,44 @@ Script Development:
 | `[EMAIL_CONVERSION]` | Specify the email conversion | "john.smith@example.com" |
 | `[INFLUENCER_BUDGET]` | Budget allocation for influencer | "$500,000" |
 | `[INFLUENCER_TIMELINE]` | Timeline or schedule for influencer | "6 months" |
-| `[INFLUENCER_ASSETS]` | Specify the influencer assets | "[specify value]" |
-| `[INFLUENCER_REACH]` | Specify the influencer reach | "[specify value]" |
-| `[INFLUENCER_CONVERSION]` | Specify the influencer conversion | "[specify value]" |
+| `[INFLUENCER_ASSETS]` | Influencer campaign assets | "creator briefs + talking points + exclusive content + promo codes" |
+| `[INFLUENCER_REACH]` | Influencer campaign reach target | "10M combined follower reach", "500K video views", "diverse creator mix" |
+| `[INFLUENCER_CONVERSION]` | Influencer campaign conversion goal | "3% engagement rate", "trackable promo code usage", "subscriber lift measurement" |
 | `[CROSS_BUDGET]` | Budget allocation for cross | "$500,000" |
 | `[CROSS_TIMELINE]` | Timeline or schedule for cross | "6 months" |
-| `[CROSS_ASSETS]` | Specify the cross assets | "[specify value]" |
-| `[CROSS_REACH]` | Specify the cross reach | "[specify value]" |
-| `[CROSS_CONVERSION]` | Specify the cross conversion | "[specify value]" |
-| `[FORMAT_EXPANSION]` | Specify the format expansion | "[specify value]" |
-| `[PLATFORM_EXPANSION]` | Specify the platform expansion | "[specify value]" |
-| `[LANGUAGE_EXPANSION]` | Specify the language expansion | "[specify value]" |
-| `[FRANCHISE_DEV]` | Specify the franchise dev | "[specify value]" |
-| `[SPINOFF_CONTENT]` | Specify the spinoff content | "[specify value]" |
-| `[LIBRARY_GROWTH]` | Specify the library growth | "[specify value]" |
-| `[PRODUCTION_SCALING]` | Specify the production scaling | "[specify value]" |
-| `[CREATIVE_SCALING]` | Specify the creative scaling | "[specify value]" |
-| `[TECHNICAL_SCALING]` | Specify the technical scaling | "[specify value]" |
-| `[MARKETING_SCALING]` | Specify the marketing scaling | "[specify value]" |
-| `[SUPPORT_SCALING]` | Specify the support scaling | "[specify value]" |
-| `[OUTSOURCE_STRATEGY]` | Strategy or approach for outsource | "[specify value]" |
-| `[EQUIPMENT_INVESTMENT]` | Specify the equipment investment | "[specify value]" |
-| `[SOFTWARE_INVESTMENT]` | Specify the software investment | "[specify value]" |
-| `[INFRASTRUCTURE_INVEST]` | Specify the infrastructure invest | "[specify value]" |
-| `[AUTOMATION_INVEST]` | Specify the automation invest | "[specify value]" |
-| `[ANALYTICS_INVEST]` | Specify the analytics invest | "[specify value]" |
-| `[DISTRIBUTION_INVEST]` | Specify the distribution invest | "[specify value]" |
-| `[PLATFORM_PARTNERS]` | Specify the platform partners | "[specify value]" |
-| `[PRODUCTION_PARTNERS]` | Specify the production partners | "[specify value]" |
-| `[DISTRIBUTION_PARTNERS]` | Specify the distribution partners | "[specify value]" |
-| `[BRAND_PARTNERS]` | Specify the brand partners | "[specify value]" |
-| `[TECH_PARTNERS]` | Specify the tech partners | "[specify value]" |
-| `[INTL_PARTNERS]` | Specify the intl partners | "[specify value]" |
+| `[CROSS_ASSETS]` | Cross-promotion assets | "partner content swaps + co-branded materials + guest appearances" |
+| `[CROSS_REACH]` | Cross-promotion reach target | "partner audience overlap 20%", "new audience acquisition", "brand alignment" |
+| `[CROSS_CONVERSION]` | Cross-promotion conversion goal | "5% crossover audience conversion", "mutual growth metrics", "collaboration ROI" |
+| `[FORMAT_EXPANSION]` | Format diversification plans | "add podcast version", "launch short-form series", "interactive content experiments" |
+| `[PLATFORM_EXPANSION]` | Platform expansion roadmap | "expand to TikTok/Shorts", "launch on new streaming services", "smart TV apps" |
+| `[LANGUAGE_EXPANSION]` | Localization expansion plans | "Spanish and Portuguese dubs", "subtitles in 10 languages", "local host versions" |
+| `[FRANCHISE_DEV]` | Franchise development strategy | "universe expansion", "spin-off series development", "crossover opportunities" |
+| `[SPINOFF_CONTENT]` | Spin-off content plans | "character-focused series", "behind-the-scenes show", "audience participation format" |
+| `[LIBRARY_GROWTH]` | Content library growth targets | "100 episodes Year 1", "500+ piece library by Year 3", "evergreen content focus" |
+| `[PRODUCTION_SCALING]` | Production capacity scaling | "2x output capacity by Year 2", "parallel production pipelines", "batch filming efficiency" |
+| `[CREATIVE_SCALING]` | Creative team scaling | "add 3 writers + 2 producers", "creative director hire", "expand talent pool" |
+| `[TECHNICAL_SCALING]` | Technical team scaling | "dedicated tech lead + 2 editors", "post-production expansion", "infrastructure upgrades" |
+| `[MARKETING_SCALING]` | Marketing team scaling | "in-house social team", "marketing manager hire", "agency partnerships" |
+| `[SUPPORT_SCALING]` | Support team scaling | "community manager additions", "customer service expansion", "moderator team growth" |
+| `[OUTSOURCE_STRATEGY]` | Outsourcing approach | "editing overflow to contractors", "animation studio partnerships", "localization vendors" |
+| `[EQUIPMENT_INVESTMENT]` | Production equipment investment | "$50K camera upgrades", "studio renovation $100K", "mobile production kit $25K" |
+| `[SOFTWARE_INVESTMENT]` | Software and tools investment | "Adobe CC enterprise", "Frame.io team plan", "DAM system implementation" |
+| `[INFRASTRUCTURE_INVEST]` | Infrastructure investment | "studio expansion", "cloud storage scaling", "network upgrades" |
+| `[AUTOMATION_INVEST]` | Automation tools investment | "AI transcription tools", "automated publishing workflows", "social scheduling platform" |
+| `[ANALYTICS_INVEST]` | Analytics platform investment | "enterprise analytics suite", "custom dashboards", "attribution tracking" |
+| `[DISTRIBUTION_INVEST]` | Distribution technology investment | "multi-platform distribution tools", "CDN expansion", "streaming infrastructure" |
+| `[PLATFORM_PARTNERS]` | Platform partnership targets | "YouTube Partner Program", "Spotify exclusive deal", "Twitch partnership tier" |
+| `[PRODUCTION_PARTNERS]` | Production partnership opportunities | "studio co-production deals", "equipment sponsor relationships", "talent agencies" |
+| `[DISTRIBUTION_PARTNERS]` | Distribution partnership targets | "podcast network membership", "FAST channel operators", "SVOD platform deals" |
+| `[BRAND_PARTNERS]` | Brand partnership targets | "endemic sponsors (gaming/tech)", "lifestyle brand integrations", "CPG partnerships" |
+| `[TECH_PARTNERS]` | Technology partnership opportunities | "software sponsors", "cloud provider partnerships", "equipment manufacturers" |
+| `[INTL_PARTNERS]` | International partnership targets | "regional distributors", "local production partners", "dubbing studios" |
 | `[YEAR1_GOALS]` | Specify the year1 goals | "Increase efficiency by 30%" |
-| `[YEAR3_VISION]` | Specify the year3 vision | "[specify value]" |
-| `[YEAR5_STRATEGY]` | Strategy or approach for year5 | "[specify value]" |
-| `[MARKET_POSITION]` | Specify the market position | "[specify value]" |
-| `[EXIT_STRATEGY]` | Strategy or approach for exit | "[specify value]" |
-| `[LEGACY_PLANNING]` | Specify the legacy planning | "[specify value]" |
+| `[YEAR3_VISION]` | 3-year strategic vision | "top 10 in category", "$5M annual revenue", "multi-platform presence" |
+| `[YEAR5_STRATEGY]` | 5-year strategic approach | "category leadership", "acquisition readiness", "brand empire building" |
+| `[MARKET_POSITION]` | Target market position | "thought leader in space", "premium content provider", "community-first brand" |
+| `[EXIT_STRATEGY]` | Exit strategy options | "strategic acquisition", "IPO preparation", "succession planning", "hold for cash flow" |
+| `[LEGACY_PLANNING]` | Legacy and succession planning | "brand continuity plan", "talent development pipeline", "IP protection strategy" |
 
 ### 3. Production Workflow
 

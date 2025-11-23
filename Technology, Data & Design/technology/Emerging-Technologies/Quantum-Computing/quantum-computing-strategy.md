@@ -108,274 +108,274 @@ Machine Learning:
 
 | Variable | Description | Example |
 |----------|-------------|----------|
-| `[ORGANIZATION_NAME]` | Name of the organization | "John Smith" |
-| `[INDUSTRY_SECTOR]` | Specify the industry sector | "Technology" |
-| `[USE_CASE_COUNT]` | Specify the use case count | "10" |
-| `[INVESTMENT_BUDGET]` | Budget allocation for investment | "$500,000" |
-| `[TIMELINE]` | Timeline or schedule for  | "6 months" |
-| `[ROI_TARGET]` | Target or intended roi | "[specify value]" |
-| `[QUANTUM_ADVANTAGE]` | Specify the quantum advantage | "[specify value]" |
-| `[GATE_CURRENT]` | Specify the gate current | "[specify value]" |
-| `[GATE_MATURITY]` | Specify the gate maturity | "[specify value]" |
-| `[GATE_ACCESS]` | Specify the gate access | "[specify value]" |
-| `[GATE_COST]` | Specify the gate cost | "[specify value]" |
-| `[GATE_FIT]` | Specify the gate fit | "[specify value]" |
-| `[ANNEAL_CURRENT]` | Specify the anneal current | "[specify value]" |
-| `[ANNEAL_MATURITY]` | Specify the anneal maturity | "[specify value]" |
-| `[ANNEAL_ACCESS]` | Specify the anneal access | "[specify value]" |
-| `[ANNEAL_COST]` | Specify the anneal cost | "[specify value]" |
-| `[ANNEAL_FIT]` | Specify the anneal fit | "[specify value]" |
-| `[TOPO_CURRENT]` | Specify the topo current | "[specify value]" |
-| `[TOPO_MATURITY]` | Specify the topo maturity | "[specify value]" |
-| `[TOPO_ACCESS]` | Specify the topo access | "[specify value]" |
-| `[TOPO_COST]` | Specify the topo cost | "[specify value]" |
-| `[TOPO_FIT]` | Specify the topo fit | "[specify value]" |
-| `[PHOTON_CURRENT]` | Specify the photon current | "[specify value]" |
-| `[PHOTON_MATURITY]` | Specify the photon maturity | "[specify value]" |
-| `[PHOTON_ACCESS]` | Specify the photon access | "[specify value]" |
-| `[PHOTON_COST]` | Specify the photon cost | "[specify value]" |
-| `[PHOTON_FIT]` | Specify the photon fit | "[specify value]" |
-| `[ION_CURRENT]` | Specify the ion current | "[specify value]" |
-| `[ION_MATURITY]` | Specify the ion maturity | "[specify value]" |
-| `[ION_ACCESS]` | Specify the ion access | "[specify value]" |
-| `[ION_COST]` | Specify the ion cost | "[specify value]" |
-| `[ION_FIT]` | Specify the ion fit | "[specify value]" |
-| `[ATOM_CURRENT]` | Specify the atom current | "[specify value]" |
-| `[ATOM_MATURITY]` | Specify the atom maturity | "[specify value]" |
-| `[ATOM_ACCESS]` | Specify the atom access | "[specify value]" |
-| `[ATOM_COST]` | Specify the atom cost | "[specify value]" |
-| `[ATOM_FIT]` | Specify the atom fit | "[specify value]" |
-| `[PORT_OPT]` | Specify the port opt | "[specify value]" |
-| `[ROUTE_OPT]` | Specify the route opt | "[specify value]" |
-| `[SUPPLY_OPT]` | Specify the supply opt | "[specify value]" |
-| `[RESOURCE_OPT]` | Specify the resource opt | "[specify value]" |
-| `[SCHEDULE_OPT]` | Specify the schedule opt | "[specify value]" |
-| `[OPT_VALUE]` | Specify the opt value | "[specify value]" |
-| `[QML_ALGO]` | Specify the qml algo | "[specify value]" |
-| `[FEATURE_MAP]` | Specify the feature map | "[specify value]" |
-| `[KERNEL_METHOD]` | Specify the kernel method | "[specify value]" |
-| `[Q_NEURAL]` | Specify the q neural | "[specify value]" |
-| `[TRAIN_SPEED]` | Specify the train speed | "[specify value]" |
-| `[ACCURACY_IMP]` | Specify the accuracy imp | "[specify value]" |
-| `[MOL_SIM]` | Specify the mol sim | "[specify value]" |
-| `[MATERIAL_SIM]` | Specify the material sim | "[specify value]" |
-| `[DRUG_SIM]` | Specify the drug sim | "[specify value]" |
-| `[CHEM_SIM]` | Specify the chem sim | "[specify value]" |
-| `[FIN_SIM]` | Specify the fin sim | "[specify value]" |
-| `[SIM_ADVANTAGE]` | Specify the sim advantage | "[specify value]" |
-| `[SAFE_MIGRATE]` | Specify the safe migrate | "[specify value]" |
-| `[KEY_DIST]` | Specify the key dist | "[specify value]" |
-| `[RANDOM_GEN]` | Specify the random gen | "[specify value]" |
-| `[POST_QUANTUM]` | Specify the post quantum | "[specify value]" |
-| `[SEC_TIMELINE]` | Timeline or schedule for sec | "6 months" |
-| `[TECH_SCORE]` | Specify the tech score | "[specify value]" |
-| `[TECH_TARGET]` | Target or intended tech | "[specify value]" |
-| `[TECH_GAP]` | Specify the tech gap | "[specify value]" |
-| `[TECH_PLAN]` | Specify the tech plan | "[specify value]" |
-| `[TECH_INVEST]` | Specify the tech invest | "[specify value]" |
-| `[TALENT_SCORE]` | Specify the talent score | "[specify value]" |
-| `[TALENT_TARGET]` | Target or intended talent | "[specify value]" |
-| `[TALENT_GAP]` | Specify the talent gap | "[specify value]" |
-| `[TALENT_PLAN]` | Specify the talent plan | "[specify value]" |
-| `[TALENT_INVEST]` | Specify the talent invest | "[specify value]" |
-| `[DATA_SCORE]` | Specify the data score | "[specify value]" |
-| `[DATA_TARGET]` | Target or intended data | "[specify value]" |
-| `[DATA_GAP]` | Specify the data gap | "[specify value]" |
-| `[DATA_PLAN]` | Specify the data plan | "[specify value]" |
-| `[DATA_INVEST]` | Specify the data invest | "[specify value]" |
-| `[ALGO_SCORE]` | Specify the algo score | "[specify value]" |
-| `[ALGO_TARGET]` | Target or intended algo | "[specify value]" |
-| `[ALGO_GAP]` | Specify the algo gap | "[specify value]" |
-| `[ALGO_PLAN]` | Specify the algo plan | "[specify value]" |
-| `[ALGO_INVEST]` | Specify the algo invest | "[specify value]" |
-| `[INT_SCORE]` | Specify the int score | "[specify value]" |
-| `[INT_TARGET]` | Target or intended int | "[specify value]" |
-| `[INT_GAP]` | Specify the int gap | "[specify value]" |
-| `[INT_PLAN]` | Specify the int plan | "[specify value]" |
-| `[INT_INVEST]` | Specify the int invest | "[specify value]" |
-| `[PARTNER_SCORE]` | Specify the partner score | "[specify value]" |
-| `[PARTNER_TARGET]` | Target or intended partner | "[specify value]" |
-| `[PARTNER_GAP]` | Specify the partner gap | "[specify value]" |
-| `[PARTNER_PLAN]` | Specify the partner plan | "[specify value]" |
-| `[PARTNER_INVEST]` | Specify the partner invest | "[specify value]" |
-| `[EDUCATION_PHASE1]` | Specify the education phase1 | "[specify value]" |
-| `[USECASE_PHASE1]` | Specify the usecase phase1 | "[specify value]" |
-| `[PARTNER_PHASE1]` | Specify the partner phase1 | "[specify value]" |
-| `[TEAM_PHASE1]` | Specify the team phase1 | "[specify value]" |
-| `[INVEST_PHASE1]` | Specify the invest phase1 | "[specify value]" |
-| `[POC_PHASE2]` | Specify the poc phase2 | "[specify value]" |
-| `[CLOUD_PHASE2]` | Specify the cloud phase2 | "[specify value]" |
-| `[ALGO_PHASE2]` | Specify the algo phase2 | "[specify value]" |
-| `[SKILL_PHASE2]` | Specify the skill phase2 | "[specify value]" |
-| `[INVEST_PHASE2]` | Specify the invest phase2 | "[specify value]" |
-| `[PILOT_PHASE3]` | Specify the pilot phase3 | "[specify value]" |
-| `[HYBRID_PHASE3]` | Specify the hybrid phase3 | "[specify value]" |
-| `[BENCH_PHASE3]` | Specify the bench phase3 | "[specify value]" |
-| `[ROI_PHASE3]` | Specify the roi phase3 | "[specify value]" |
-| `[INVEST_PHASE3]` | Specify the invest phase3 | "[specify value]" |
-| `[PROD_PHASE4]` | Specify the prod phase4 | "[specify value]" |
-| `[ENTER_PHASE4]` | Specify the enter phase4 | "[specify value]" |
-| `[OPT_PHASE4]` | Specify the opt phase4 | "[specify value]" |
-| `[ADVANTAGE_PHASE4]` | Specify the advantage phase4 | "[specify value]" |
-| `[INVEST_PHASE4]` | Specify the invest phase4 | "[specify value]" |
-| `[CLASSIC_PREPROC]` | Specify the classic preproc | "[specify value]" |
-| `[QUANTUM_PREPROC]` | Specify the quantum preproc | "[specify value]" |
-| `[PREPROC_INTERFACE]` | Specify the preproc interface | "[specify value]" |
-| `[PREPROC_PERF]` | Specify the preproc perf | "[specify value]" |
-| `[PREPROC_USE]` | Specify the preproc use | "[specify value]" |
-| `[CLASSIC_COMPUTE]` | Specify the classic compute | "[specify value]" |
-| `[QUANTUM_COMPUTE]` | Specify the quantum compute | "[specify value]" |
-| `[COMPUTE_INTERFACE]` | Specify the compute interface | "[specify value]" |
-| `[COMPUTE_PERF]` | Specify the compute perf | "[specify value]" |
-| `[COMPUTE_USE]` | Specify the compute use | "[specify value]" |
-| `[CLASSIC_POSTPROC]` | Specify the classic postproc | "[specify value]" |
-| `[QUANTUM_POSTPROC]` | Specify the quantum postproc | "[specify value]" |
-| `[POSTPROC_INTERFACE]` | Specify the postproc interface | "[specify value]" |
-| `[POSTPROC_PERF]` | Specify the postproc perf | "[specify value]" |
-| `[POSTPROC_USE]` | Specify the postproc use | "[specify value]" |
-| `[CLASSIC_ERROR]` | Specify the classic error | "[specify value]" |
-| `[QUANTUM_ERROR]` | Specify the quantum error | "[specify value]" |
-| `[ERROR_INTERFACE]` | Specify the error interface | "[specify value]" |
-| `[ERROR_PERF]` | Specify the error perf | "[specify value]" |
-| `[ERROR_USE]` | Specify the error use | "[specify value]" |
-| `[CLASSIC_OPT]` | Specify the classic opt | "[specify value]" |
-| `[QUANTUM_OPT]` | Specify the quantum opt | "[specify value]" |
-| `[OPT_INTERFACE]` | Specify the opt interface | "[specify value]" |
-| `[OPT_PERF]` | Specify the opt perf | "[specify value]" |
-| `[OPT_USE]` | Specify the opt use | "[specify value]" |
-| `[CLASSIC_VALID]` | Specify the classic valid | "[specify value]" |
-| `[QUANTUM_VALID]` | Specify the quantum valid | "[specify value]" |
-| `[VALID_INTERFACE]` | Specify the valid interface | "[specify value]" |
-| `[VALID_PERF]` | Specify the valid perf | "[specify value]" |
-| `[VALID_USE]` | Specify the valid use | "[specify value]" |
-| `[IBM_QUBITS]` | Specify the ibm qubits | "[specify value]" |
-| `[IBM_COHERENCE]` | Specify the ibm coherence | "[specify value]" |
-| `[IBM_FIDELITY]` | Specify the ibm fidelity | "[specify value]" |
-| `[IBM_ACCESS]` | Specify the ibm access | "[specify value]" |
-| `[IBM_COST]` | Specify the ibm cost | "[specify value]" |
-| `[AWS_QUBITS]` | Specify the aws qubits | "[specify value]" |
-| `[AWS_COHERENCE]` | Specify the aws coherence | "[specify value]" |
-| `[AWS_FIDELITY]` | Specify the aws fidelity | "[specify value]" |
-| `[AWS_ACCESS]` | Specify the aws access | "[specify value]" |
-| `[AWS_COST]` | Specify the aws cost | "[specify value]" |
-| `[AZURE_QUBITS]` | Specify the azure qubits | "[specify value]" |
-| `[AZURE_COHERENCE]` | Specify the azure coherence | "[specify value]" |
-| `[AZURE_FIDELITY]` | Specify the azure fidelity | "[specify value]" |
-| `[AZURE_ACCESS]` | Specify the azure access | "[specify value]" |
-| `[AZURE_COST]` | Specify the azure cost | "[specify value]" |
-| `[GOOGLE_QUBITS]` | Specify the google qubits | "[specify value]" |
-| `[GOOGLE_COHERENCE]` | Specify the google coherence | "[specify value]" |
-| `[GOOGLE_FIDELITY]` | Specify the google fidelity | "[specify value]" |
-| `[GOOGLE_ACCESS]` | Specify the google access | "[specify value]" |
-| `[GOOGLE_COST]` | Specify the google cost | "[specify value]" |
-| `[RIGETTI_QUBITS]` | Specify the rigetti qubits | "[specify value]" |
-| `[RIGETTI_COHERENCE]` | Specify the rigetti coherence | "[specify value]" |
-| `[RIGETTI_FIDELITY]` | Specify the rigetti fidelity | "[specify value]" |
-| `[RIGETTI_ACCESS]` | Specify the rigetti access | "[specify value]" |
-| `[RIGETTI_COST]` | Specify the rigetti cost | "[specify value]" |
-| `[IONQ_QUBITS]` | Specify the ionq qubits | "[specify value]" |
-| `[IONQ_COHERENCE]` | Specify the ionq coherence | "[specify value]" |
-| `[IONQ_FIDELITY]` | Specify the ionq fidelity | "[specify value]" |
-| `[IONQ_ACCESS]` | Specify the ionq access | "[specify value]" |
-| `[IONQ_COST]` | Specify the ionq cost | "[specify value]" |
-| `[PHYSICIST_COUNT]` | Specify the physicist count | "10" |
-| `[ENGINEER_COUNT]` | Specify the engineer count | "10" |
-| `[ALGO_DEV_COUNT]` | Specify the algo dev count | "10" |
-| `[SOFTWARE_COUNT]` | Specify the software count | "10" |
-| `[DOMAIN_COUNT]` | Specify the domain count | "10" |
-| `[EXEC_PROGRAM]` | Specify the exec program | "[specify value]" |
-| `[TECH_TRAINING]` | Specify the tech training | "[specify value]" |
-| `[CERT_PATH]` | Specify the cert path | "[specify value]" |
-| `[RESEARCH_COLLAB]` | Specify the research collab | "[specify value]" |
-| `[ACADEMIC_PARTNER]` | Specify the academic partner | "[specify value]" |
-| `[TARGET_PROFILES]` | Target or intended profiles | "[specify value]" |
-| `[RECRUIT_CHANNELS]` | Specify the recruit channels | "[specify value]" |
-| `[COMP_STRUCTURE]` | Specify the comp structure | "[specify value]" |
-| `[RETENTION_PROG]` | Specify the retention prog | "[specify value]" |
-| `[GROWTH_PLAN]` | Specify the growth plan | "[specify value]" |
-| `[DOC_STANDARDS]` | Specify the doc standards | "[specify value]" |
-| `[BEST_PRACTICES]` | Specify the best practices | "[specify value]" |
-| `[CODE_REPO]` | Specify the code repo | "[specify value]" |
-| `[KNOWLEDGE_SHARE]` | Specify the knowledge share | "[specify value]" |
-| `[INNOVATION_PROC]` | Specify the innovation proc | "[specify value]" |
-| `[TECH_RISK]` | Specify the tech risk | "[specify value]" |
-| `[TECH_IMPACT]` | Specify the tech impact | "[specify value]" |
-| `[TECH_PROB]` | Specify the tech prob | "[specify value]" |
-| `[TECH_MITIGATE]` | Specify the tech mitigate | "[specify value]" |
-| `[TECH_CONTINGENCY]` | Specify the tech contingency | "[specify value]" |
-| `[TALENT_RISK]` | Specify the talent risk | "[specify value]" |
-| `[TALENT_IMPACT]` | Specify the talent impact | "[specify value]" |
-| `[TALENT_PROB]` | Specify the talent prob | "[specify value]" |
-| `[TALENT_MITIGATE]` | Specify the talent mitigate | "[specify value]" |
-| `[TALENT_CONTINGENCY]` | Specify the talent contingency | "[specify value]" |
-| `[INVEST_RISK]` | Specify the invest risk | "[specify value]" |
-| `[INVEST_IMPACT]` | Specify the invest impact | "[specify value]" |
-| `[INVEST_PROB]` | Specify the invest prob | "[specify value]" |
-| `[INVEST_MITIGATE]` | Specify the invest mitigate | "[specify value]" |
-| `[INVEST_CONTINGENCY]` | Specify the invest contingency | "[specify value]" |
-| `[COMP_RISK]` | Specify the comp risk | "[specify value]" |
-| `[COMP_IMPACT]` | Specify the comp impact | "[specify value]" |
-| `[COMP_PROB]` | Specify the comp prob | "[specify value]" |
-| `[COMP_MITIGATE]` | Specify the comp mitigate | "[specify value]" |
-| `[COMP_CONTINGENCY]` | Specify the comp contingency | "[specify value]" |
-| `[SEC_RISK]` | Specify the sec risk | "[specify value]" |
-| `[SEC_IMPACT]` | Specify the sec impact | "[specify value]" |
-| `[SEC_PROB]` | Specify the sec prob | "[specify value]" |
-| `[SEC_MITIGATE]` | Specify the sec mitigate | "[specify value]" |
-| `[SEC_CONTINGENCY]` | Specify the sec contingency | "[specify value]" |
-| `[REG_RISK]` | Specify the reg risk | "[specify value]" |
-| `[REG_IMPACT]` | Specify the reg impact | "[specify value]" |
-| `[REG_PROB]` | Specify the reg prob | "[specify value]" |
-| `[REG_MITIGATE]` | Specify the reg mitigate | "[specify value]" |
-| `[REG_CONTINGENCY]` | Specify the reg contingency | "[specify value]" |
-| `[TECH_METRIC]` | Specify the tech metric | "[specify value]" |
-| `[TECH_CURRENT]` | Specify the tech current | "[specify value]" |
-| `[TECH_BEST]` | Specify the tech best | "[specify value]" |
-| `[TECH_MEASURE]` | Specify the tech measure | "[specify value]" |
-| `[ALGO_METRIC]` | Specify the algo metric | "[specify value]" |
-| `[ALGO_CURRENT]` | Specify the algo current | "[specify value]" |
-| `[ALGO_BEST]` | Specify the algo best | "[specify value]" |
-| `[ALGO_MEASURE]` | Specify the algo measure | "[specify value]" |
-| `[COST_METRIC]` | Specify the cost metric | "[specify value]" |
-| `[COST_CURRENT]` | Specify the cost current | "[specify value]" |
-| `[COST_TARGET]` | Target or intended cost | "[specify value]" |
-| `[COST_BEST]` | Specify the cost best | "[specify value]" |
-| `[COST_MEASURE]` | Specify the cost measure | "[specify value]" |
-| `[BUS_METRIC]` | Specify the bus metric | "[specify value]" |
-| `[BUS_CURRENT]` | Specify the bus current | "[specify value]" |
-| `[BUS_TARGET]` | Target or intended bus | "[specify value]" |
-| `[BUS_BEST]` | Specify the bus best | "[specify value]" |
-| `[BUS_MEASURE]` | Specify the bus measure | "[specify value]" |
-| `[INNOV_METRIC]` | Specify the innov metric | "[specify value]" |
-| `[INNOV_CURRENT]` | Specify the innov current | "[specify value]" |
-| `[INNOV_TARGET]` | Target or intended innov | "[specify value]" |
-| `[INNOV_BEST]` | Specify the innov best | "[specify value]" |
-| `[INNOV_MEASURE]` | Specify the innov measure | "[specify value]" |
-| `[TIME_METRIC]` | Specify the time metric | "[specify value]" |
-| `[TIME_CURRENT]` | Specify the time current | "[specify value]" |
-| `[TIME_TARGET]` | Target or intended time | "[specify value]" |
-| `[TIME_BEST]` | Specify the time best | "[specify value]" |
-| `[TIME_MEASURE]` | Specify the time measure | "[specify value]" |
-| `[HW_PARTNERS]` | Specify the hw partners | "[specify value]" |
-| `[SW_PARTNERS]` | Specify the sw partners | "[specify value]" |
-| `[CLOUD_PARTNERS]` | Specify the cloud partners | "[specify value]" |
-| `[INT_PARTNERS]` | Specify the int partners | "[specify value]" |
-| `[SUPPORT_PARTNERS]` | Specify the support partners | "[specify value]" |
-| `[UNI_COLLAB]` | Specify the uni collab | "[specify value]" |
-| `[LAB_COLLAB]` | Specify the lab collab | "[specify value]" |
-| `[GOV_PROGRAMS]` | Specify the gov programs | "[specify value]" |
-| `[CONSORTIUMS]` | Specify the consortiums | "[specify value]" |
-| `[OPENSOURCE]` | Specify the opensource | "[specify value]" |
-| `[INTERNAL_BUDGET]` | Budget allocation for internal | "$500,000" |
-| `[GOV_GRANTS]` | Specify the gov grants | "[specify value]" |
-| `[VC_INVEST]` | Specify the vc invest | "[specify value]" |
-| `[PARTNER_FUND]` | Specify the partner fund | "[specify value]" |
-| `[TOTAL_INVEST]` | Specify the total invest | "[specify value]" |
-| `[PATENT_STRATEGY]` | Strategy or approach for patent | "[specify value]" |
-| `[IP_PROTECT]` | Specify the ip protect | "[specify value]" |
-| `[LICENSE_MODEL]` | Specify the license model | "[specify value]" |
-| `[INNOV_PIPELINE]` | Specify the innov pipeline | "[specify value]" |
-| `[COMMERCIAL_PLAN]` | Specify the commercial plan | "[specify value]" |
+| `[ORGANIZATION_NAME]` | Name of the organization | "Global Financial Services Inc.", "PharmaCorp Research", "Quantum Logistics LLC" |
+| `[INDUSTRY_SECTOR]` | Industry sector | "Financial Services", "Pharmaceutical/Healthcare", "Manufacturing", "Energy", "Logistics" |
+| `[USE_CASE_COUNT]` | Number of target use cases | "3", "5", "10", "15+" |
+| `[INVESTMENT_BUDGET]` | Total investment budget | "$500,000", "$5M", "$25M", "$100M+" |
+| `[TIMELINE]` | Implementation timeline | "18 months pilot", "3-year program", "5-year strategic initiative" |
+| `[ROI_TARGET]` | Target ROI percentage | "10% improvement in Year 1", "50% cost reduction by Year 3", "100x speedup for key problems" |
+| `[QUANTUM_ADVANTAGE]` | Quantum advantage threshold | "2x classical performance", "10x speedup", "Problems unsolvable classically", "Polynomial to exponential improvement" |
+| `[GATE_CURRENT]` | Gate-based quantum current state | "NISQ era (50-1000 qubits)", "Error rates ~0.1-1%", "Limited coherence times" |
+| `[GATE_MATURITY]` | Gate-based quantum maturity score | "5", "6", "7" |
+| `[GATE_ACCESS]` | Gate-based quantum access model | "IBM Quantum Network membership", "AWS Braket on-demand", "Azure Quantum credits" |
+| `[GATE_COST]` | Gate-based quantum cost | "1.60/second (IBM)", "0.30/task (AWS)", "Usage-based credits" |
+| `[GATE_FIT]` | Gate-based quantum strategic fit score | "7", "8", "9" |
+| `[ANNEAL_CURRENT]` | Quantum annealing current state | "5000+ qubits (D-Wave)", "Specialized for optimization", "Production-ready for QUBO" |
+| `[ANNEAL_MATURITY]` | Quantum annealing maturity score | "7", "8" |
+| `[ANNEAL_ACCESS]` | Quantum annealing access model | "D-Wave Leap cloud access", "Hybrid solver service", "On-premise options" |
+| `[ANNEAL_COST]` | Quantum annealing cost | "2,000/month (Leap)", "Per-minute pricing", "Enterprise contracts" |
+| `[ANNEAL_FIT]` | Quantum annealing strategic fit score | "8", "9" (for optimization-focused) |
+| `[TOPO_CURRENT]` | Topological quantum current state | "Research phase", "Microsoft pursuing", "Potential for fault-tolerance" |
+| `[TOPO_MATURITY]` | Topological quantum maturity score | "2", "3" |
+| `[TOPO_ACCESS]` | Topological quantum access model | "Azure Quantum (future roadmap)", "Research partnerships only", "Not commercially available" |
+| `[TOPO_COST]` | Topological quantum cost | "N/A (research only)", "Future pricing TBD" |
+| `[TOPO_FIT]` | Topological quantum strategic fit score | "3", "4" (long-term potential) |
+| `[PHOTON_CURRENT]` | Photonic quantum current state | "Xanadu Borealis available", "Room temperature operation", "Specialized for sampling" |
+| `[PHOTON_MATURITY]` | Photonic quantum maturity score | "5", "6" |
+| `[PHOTON_ACCESS]` | Photonic quantum access model | "Xanadu Cloud", "AWS Braket integration", "Research partnerships" |
+| `[PHOTON_COST]` | Photonic quantum cost | "Usage-based pricing", "Research collaboration models" |
+| `[PHOTON_FIT]` | Photonic quantum strategic fit score | "5", "6", "7" (for specific use cases) |
+| `[ION_CURRENT]` | Trapped ion quantum current state | "IonQ 32+ qubits", "High fidelity gates (99.9%)", "All-to-all connectivity" |
+| `[ION_MATURITY]` | Trapped ion quantum maturity score | "6", "7" |
+| `[ION_ACCESS]` | Trapped ion quantum access model | "IonQ via AWS Braket/Azure", "Direct IonQ Aria access", "Enterprise agreements" |
+| `[ION_COST]` | Trapped ion quantum cost | "Higher per-shot cost", "Premium for fidelity", "Enterprise pricing" |
+| `[ION_FIT]` | Trapped ion quantum strategic fit score | "7", "8" (for high-fidelity needs) |
+| `[ATOM_CURRENT]` | Neutral atom quantum current state | "QuEra 256+ qubits", "Scalable architecture", "Strong for optimization" |
+| `[ATOM_MATURITY]` | Neutral atom quantum maturity score | "5", "6" |
+| `[ATOM_ACCESS]` | Neutral atom quantum access model | "QuEra via AWS Braket", "Research collaborations", "Growing availability" |
+| `[ATOM_COST]` | Neutral atom quantum cost | "Competitive pricing", "Usage-based", "Early adopter programs" |
+| `[ATOM_FIT]` | Neutral atom quantum strategic fit score | "6", "7" |
+| `[PORT_OPT]` | Portfolio optimization status | "Active POC", "Production pilot", "Benchmarking phase", "Not applicable" |
+| `[ROUTE_OPT]` | Route optimization status | "Investigating", "POC in progress", "Production use", "Future roadmap" |
+| `[SUPPLY_OPT]` | Supply chain optimization status | "Identified as priority", "Testing hybrid approach", "Deployed", "Not targeted" |
+| `[RESOURCE_OPT]` | Resource allocation optimization status | "Exploring", "Algorithm development", "Pilot program", "Not applicable" |
+| `[SCHEDULE_OPT]` | Scheduling optimization status | "High potential identified", "Classical baseline done", "Quantum POC started", "Production" |
+| `[OPT_VALUE]` | Optimization use case business value | "5M annually", "10% cost reduction", "50M potential savings" |
+| `[QML_ALGO]` | Quantum ML algorithm focus | "VQE for chemistry", "QAOA for optimization", "Quantum kernels for classification", "QNN exploration" |
+| `[FEATURE_MAP]` | Quantum feature mapping approach | "ZZ feature map", "Amplitude encoding", "Angle encoding", "Custom feature maps" |
+| `[KERNEL_METHOD]` | Quantum kernel method | "Quantum kernel estimation", "Projected quantum kernels", "Quantum-enhanced SVM" |
+| `[Q_NEURAL]` | Quantum neural network approach | "Variational quantum circuits", "Parameterized quantum circuits", "Hybrid classical-quantum nets" |
+| `[TRAIN_SPEED]` | Training speedup target | "2", "5", "10", "100" |
+| `[ACCURACY_IMP]` | Accuracy improvement target | "5", "10", "15", "25" |
+| `[MOL_SIM]` | Molecular simulation status | "Priority use case", "VQE implementation", "Production for small molecules", "Research phase" |
+| `[MATERIAL_SIM]` | Materials science simulation status | "Battery materials focus", "Catalyst discovery", "Exploring", "Not applicable" |
+| `[DRUG_SIM]` | Drug discovery simulation status | "Lead optimization", "Binding affinity prediction", "POC complete", "Major investment" |
+| `[CHEM_SIM]` | Chemical reaction simulation status | "Reaction pathway analysis", "Transition state finding", "Benchmarking", "Future focus" |
+| `[FIN_SIM]` | Financial modeling simulation status | "Monte Carlo acceleration", "Option pricing", "Risk analysis", "Active development" |
+| `[SIM_ADVANTAGE]` | Simulation advantage multiplier | "10", "100", "1000", "Exponential for large systems" |
+| `[SAFE_MIGRATE]` | Quantum-safe migration status | "Assessment complete", "Hybrid cryptography deployed", "Full migration planned", "Monitoring only" |
+| `[KEY_DIST]` | Quantum key distribution status | "Pilot network", "Evaluating vendors", "Not applicable", "Research partnership" |
+| `[RANDOM_GEN]` | Quantum random number generation | "QRNG deployed for critical apps", "Evaluating", "Using certified QRNG service", "Not required" |
+| `[POST_QUANTUM]` | Post-quantum cryptography status | "NIST standards adopted", "Migration roadmap defined", "Testing phase", "Planning stage" |
+| `[SEC_TIMELINE]` | Security migration timeline | "6 months assessment", "18 months full migration", "3-year roadmap", "5-year program" |
+| `[TECH_SCORE]` | Technical readiness score | "3", "5", "7", "8" |
+| `[TECH_TARGET]` | Technical readiness target score | "6", "8", "9" |
+| `[TECH_GAP]` | Technical readiness gap | "Need cloud access setup", "SDK training required", "Integration architecture needed" |
+| `[TECH_PLAN]` | Technical development plan | "6-month cloud onboarding", "Tool stack deployment", "Integration with existing systems" |
+| `[TECH_INVEST]` | Technical infrastructure investment | "200,000", "750,000", "2,000,000" |
+| `[TALENT_SCORE]` | Talent readiness score | "2", "4", "6" |
+| `[TALENT_TARGET]` | Talent readiness target score | "5", "7", "8" |
+| `[TALENT_GAP]` | Talent readiness gap | "No quantum expertise", "Need algorithm developers", "Limited to 2 researchers" |
+| `[TALENT_PLAN]` | Talent development plan | "Hire 3 quantum specialists", "Training program for 10 engineers", "Academic partnerships" |
+| `[TALENT_INVEST]` | Talent investment | "500,000", "1,500,000", "5,000,000" |
+| `[DATA_SCORE]` | Data readiness score | "4", "6", "8" |
+| `[DATA_TARGET]` | Data readiness target score | "7", "8", "9" |
+| `[DATA_GAP]` | Data readiness gap | "Data not in quantum-ready format", "Need preprocessing pipelines", "Volume constraints" |
+| `[DATA_PLAN]` | Data preparation plan | "Build encoding pipelines", "Data sampling strategies", "Hybrid data processing" |
+| `[DATA_INVEST]` | Data infrastructure investment | "100,000", "500,000", "1,000,000" |
+| `[ALGO_SCORE]` | Algorithm readiness score | "3", "5", "7" |
+| `[ALGO_TARGET]` | Algorithm readiness target score | "6", "8", "9" |
+| `[ALGO_GAP]` | Algorithm readiness gap | "No custom algorithms", "Need domain-specific optimization", "Scaling limitations" |
+| `[ALGO_PLAN]` | Algorithm development plan | "Partner with quantum vendors", "Internal R&D team", "Academic collaboration" |
+| `[ALGO_INVEST]` | Algorithm development investment | "300,000", "1,000,000", "3,000,000" |
+| `[INT_SCORE]` | Integration readiness score | "3", "5", "7" |
+| `[INT_TARGET]` | Integration readiness target score | "6", "8", "9" |
+| `[INT_GAP]` | Integration readiness gap | "No hybrid architecture", "API integration needed", "Workflow automation required" |
+| `[INT_PLAN]` | Integration development plan | "Build hybrid orchestration", "API development", "CI/CD for quantum" |
+| `[INT_INVEST]` | Integration investment | "200,000", "750,000", "2,000,000" |
+| `[PARTNER_SCORE]` | Partnership readiness score | "2", "5", "7" |
+| `[PARTNER_TARGET]` | Partnership readiness target score | "6", "8", "9" |
+| `[PARTNER_GAP]` | Partnership readiness gap | "No vendor relationships", "Need academic connections", "Limited consortium involvement" |
+| `[PARTNER_PLAN]` | Partnership development plan | "Join IBM Quantum Network", "Academic MOU", "Industry consortium membership" |
+| `[PARTNER_INVEST]` | Partnership investment | "100,000", "500,000", "1,500,000" |
+| `[EDUCATION_PHASE1]` | Phase 1 education activities | "Executive workshops", "Team quantum literacy training", "Vendor presentations" |
+| `[USECASE_PHASE1]` | Phase 1 use case activities | "Use case discovery workshops", "Business case development", "Priority ranking" |
+| `[PARTNER_PHASE1]` | Phase 1 partnership activities | "Vendor evaluation", "Cloud platform selection", "Academic outreach" |
+| `[TEAM_PHASE1]` | Phase 1 team activities | "Core team formation (3-5 people)", "Hiring initiated", "Training program launched" |
+| `[INVEST_PHASE1]` | Phase 1 investment | "250,000", "750,000", "2,000,000" |
+| `[POC_PHASE2]` | Phase 2 POC activities | "2-3 POCs launched", "Algorithm benchmarking", "Results documentation" |
+| `[CLOUD_PHASE2]` | Phase 2 cloud activities | "Multi-cloud setup (AWS + IBM)", "Development environment configured", "Access for team" |
+| `[ALGO_PHASE2]` | Phase 2 algorithm activities | "Custom algorithm development", "Vendor algorithm evaluation", "Optimization tuning" |
+| `[SKILL_PHASE2]` | Phase 2 skill development | "Advanced Qiskit/Cirq training", "Algorithm design workshops", "Certifications" |
+| `[INVEST_PHASE2]` | Phase 2 investment | "500,000", "2,000,000", "7,500,000" |
+| `[PILOT_PHASE3]` | Phase 3 pilot activities | "Production pilot deployment", "A/B testing vs classical", "Performance monitoring" |
+| `[HYBRID_PHASE3]` | Phase 3 hybrid architecture | "Hybrid solver deployment", "Classical-quantum orchestration", "Auto-routing implementation" |
+| `[BENCH_PHASE3]` | Phase 3 benchmarking | "Rigorous benchmarking vs classical", "Cost-benefit analysis", "Scaling tests" |
+| `[ROI_PHASE3]` | Phase 3 ROI validation | "ROI metrics tracking", "Business impact assessment", "Go/no-go decision" |
+| `[INVEST_PHASE3]` | Phase 3 investment | "1,000,000", "5,000,000", "15,000,000" |
+| `[PROD_PHASE4]` | Phase 4 production activities | "Full production deployment", "SLA establishment", "Operational procedures" |
+| `[ENTER_PHASE4]` | Phase 4 enterprise integration | "Enterprise system integration", "Automated workflows", "Business process embedding" |
+| `[OPT_PHASE4]` | Phase 4 optimization activities | "Continuous optimization", "Performance tuning", "Cost optimization" |
+| `[ADVANTAGE_PHASE4]` | Phase 4 advantage realization | "Quantum advantage documented", "Competitive differentiation", "IP development" |
+| `[INVEST_PHASE4]` | Phase 4 investment | "2,000,000", "10,000,000", "50,000,000" |
+| `[CLASSIC_PREPROC]` | Classical preprocessing component | "Python/NumPy data preparation", "Feature engineering", "Problem encoding" |
+| `[QUANTUM_PREPROC]` | Quantum preprocessing component | "State preparation circuits", "Amplitude encoding", "QRAM (future)" |
+| `[PREPROC_INTERFACE]` | Preprocessing interface | "Qiskit Terra", "Cirq", "PennyLane", "Custom SDK" |
+| `[PREPROC_PERF]` | Preprocessing performance | "Milliseconds for encoding", "Scales linearly with data size", "Bottleneck for large datasets" |
+| `[PREPROC_USE]` | Preprocessing use case | "All quantum workflows", "Data loading", "Initial state preparation" |
+| `[CLASSIC_COMPUTE]` | Classical compute component | "HPC cluster for optimization loops", "GPU for gradient computation", "Cloud compute burst" |
+| `[QUANTUM_COMPUTE]` | Quantum compute component | "Variational quantum eigensolver", "QAOA circuits", "Quantum sampling" |
+| `[COMPUTE_INTERFACE]` | Compute interface | "Hybrid job scheduler", "Qiskit Runtime", "Amazon Braket Hybrid Jobs" |
+| `[COMPUTE_PERF]` | Compute performance | "Seconds to minutes per quantum job", "Classical hours vs quantum minutes", "Iterative convergence" |
+| `[COMPUTE_USE]` | Compute use case | "Core optimization", "Molecular simulation", "Machine learning inference" |
+| `[CLASSIC_POSTPROC]` | Classical postprocessing component | "Results aggregation", "Statistical analysis", "Visualization" |
+| `[QUANTUM_POSTPROC]` | Quantum postprocessing component | "Measurement error mitigation", "Readout correction", "Tomography" |
+| `[POSTPROC_INTERFACE]` | Postprocessing interface | "Qiskit Experiments", "Custom analysis code", "Mitiq for error mitigation" |
+| `[POSTPROC_PERF]` | Postprocessing performance | "Fast (seconds)", "Scales with shot count", "Can be parallelized" |
+| `[POSTPROC_USE]` | Postprocessing use case | "All quantum experiments", "Production result interpretation" |
+| `[CLASSIC_ERROR]` | Classical error handling component | "Retry logic", "Fallback to classical", "Monitoring and alerting" |
+| `[QUANTUM_ERROR]` | Quantum error handling component | "Error mitigation (ZNE, PEC)", "Dynamical decoupling", "Future: full QEC" |
+| `[ERROR_INTERFACE]` | Error handling interface | "Qiskit Ignis (legacy)", "Mitiq", "Custom error mitigation" |
+| `[ERROR_PERF]` | Error handling performance | "2-10x shot overhead for mitigation", "Improved accuracy", "Trade-off managed" |
+| `[ERROR_USE]` | Error handling use case | "All NISQ workflows", "High-precision requirements" |
+| `[CLASSIC_OPT]` | Classical optimizer component | "COBYLA, SPSA, L-BFGS-B", "Gradient descent", "Bayesian optimization" |
+| `[QUANTUM_OPT]` | Quantum optimizer component | "VQE optimizer", "QAOA parameter optimization", "Quantum natural gradient" |
+| `[OPT_INTERFACE]` | Optimizer interface | "SciPy optimizers", "Qiskit Algorithms", "Custom optimization loops" |
+| `[OPT_PERF]` | Optimizer performance | "100-1000 iterations typical", "Convergence monitoring", "Early stopping implemented" |
+| `[OPT_USE]` | Optimizer use case | "Variational algorithms", "Hybrid optimization", "Parameter tuning" |
+| `[CLASSIC_VALID]` | Classical validation component | "Unit tests", "Integration tests", "Classical simulation verification" |
+| `[QUANTUM_VALID]` | Quantum validation component | "Quantum tomography", "Fidelity estimation", "Benchmark circuits" |
+| `[VALID_INTERFACE]` | Validation interface | "pytest + Qiskit", "Custom validation suite", "Vendor benchmarks" |
+| `[VALID_PERF]` | Validation performance | "Thorough validation adds 20% overhead", "Critical for production", "Automated in CI/CD" |
+| `[VALID_USE]` | Validation use case | "All deployments", "Algorithm verification", "Hardware characterization" |
+| `[IBM_QUBITS]` | IBM Quantum qubit count | "127 (Eagle)", "433 (Osprey)", "1121 (Condor)", "Roadmap to 100K+" |
+| `[IBM_COHERENCE]` | IBM Quantum coherence time | "100-300", "Improving with each generation" |
+| `[IBM_FIDELITY]` | IBM Quantum gate fidelity | "99.5", "99.9 for best systems" |
+| `[IBM_ACCESS]` | IBM Quantum access model | "Open access (limited)", "IBM Quantum Network (premium)", "Dedicated system option" |
+| `[IBM_COST]` | IBM Quantum cost per hour | "1.60/second runtime", "Network membership fees", "Enterprise pricing" |
+| `[AWS_QUBITS]` | AWS Braket qubit count (multiple vendors) | "IonQ: 32+", "Rigetti: 80+", "QuEra: 256+", "OQC: 8" |
+| `[AWS_COHERENCE]` | AWS Braket coherence time | "Varies by vendor", "IonQ: 1000+", "Superconducting: 50-100" |
+| `[AWS_FIDELITY]` | AWS Braket gate fidelity | "IonQ: 99.9+", "Rigetti: 99.5", "Vendor dependent" |
+| `[AWS_ACCESS]` | AWS Braket access model | "Pay-per-use", "No minimum commitment", "AWS credits applicable" |
+| `[AWS_COST]` | AWS Braket cost per hour | "0.30/task + 0.00145/shot (IonQ)", "Varies by device", "Simulator: standard EC2" |
+| `[AZURE_QUBITS]` | Azure Quantum qubit count | "IonQ: 32+", "Quantinuum: 20+", "Pasqal: 100+", "Rigetti integration" |
+| `[AZURE_COHERENCE]` | Azure Quantum coherence time | "Vendor dependent", "Quantinuum H-series: excellent", "IonQ: 1000+" |
+| `[AZURE_FIDELITY]` | Azure Quantum gate fidelity | "Quantinuum: 99.99+", "IonQ: 99.9+", "Best-in-class options" |
+| `[AZURE_ACCESS]` | Azure Quantum access model | "Azure credits", "Pay-per-use", "Enterprise agreements" |
+| `[AZURE_COST]` | Azure Quantum cost per hour | "Credit-based pricing", "Varies by vendor", "HQC currency (Quantinuum)" |
+| `[GOOGLE_QUBITS]` | Google Quantum qubit count | "72 (Sycamore)", "Future: 1M+ logical qubits" |
+| `[GOOGLE_COHERENCE]` | Google Quantum coherence time | "20-50", "Focus on error correction research" |
+| `[GOOGLE_FIDELITY]` | Google Quantum gate fidelity | "99.5", "99.9 for two-qubit gates" |
+| `[GOOGLE_ACCESS]` | Google Quantum access model | "Research partnerships only", "Not commercially available", "Cirq open-source" |
+| `[GOOGLE_COST]` | Google Quantum cost per hour | "N/A (research)", "Future commercial pricing TBD" |
+| `[RIGETTI_QUBITS]` | Rigetti qubit count | "80+ (Aspen-M)", "Scalable modular architecture" |
+| `[RIGETTI_COHERENCE]` | Rigetti coherence time | "20-50", "Tunable couplers improving" |
+| `[RIGETTI_FIDELITY]` | Rigetti gate fidelity | "99+", "99.5 for best qubits" |
+| `[RIGETTI_ACCESS]` | Rigetti access model | "Via AWS Braket", "Rigetti Cloud direct", "QPU access subscriptions" |
+| `[RIGETTI_COST]` | Rigetti cost per hour | "AWS Braket pricing", "Direct: 0.35/shot" |
+| `[IONQ_QUBITS]` | IonQ qubit count | "32 (Aria)", "Forte: scaling higher" |
+| `[IONQ_COHERENCE]` | IonQ coherence time | "1000+", "Excellent coherence" |
+| `[IONQ_FIDELITY]` | IonQ gate fidelity | "99.9+", "Industry-leading fidelity" |
+| `[IONQ_ACCESS]` | IonQ access model | "AWS Braket", "Azure Quantum", "Google Cloud", "Direct API" |
+| `[IONQ_COST]` | IonQ cost per hour | "Premium pricing for fidelity", "0.00003/gate (AWS)", "Per-shot pricing" |
+| `[PHYSICIST_COUNT]` | Quantum physicist headcount | "1", "3", "5", "10+" |
+| `[ENGINEER_COUNT]` | Quantum engineer headcount | "2", "5", "10", "20+" |
+| `[ALGO_DEV_COUNT]` | Algorithm developer headcount | "2", "4", "8", "15+" |
+| `[SOFTWARE_COUNT]` | Software engineer headcount | "3", "8", "15", "30+" |
+| `[DOMAIN_COUNT]` | Domain expert headcount | "2", "5", "10", "20+" |
+| `[EXEC_PROGRAM]` | Executive education program | "Half-day quantum briefing", "Quantum strategy workshop", "Board presentation" |
+| `[TECH_TRAINING]` | Technical training program | "Qiskit certification", "Vendor bootcamps", "University courses", "Internal workshops" |
+| `[CERT_PATH]` | Certification pathway | "IBM Quantum Developer certification", "AWS Braket certification", "Academic credentials" |
+| `[RESEARCH_COLLAB]` | Research collaboration model | "Joint research projects", "PhD sponsorship", "Visiting researcher program" |
+| `[ACADEMIC_PARTNER]` | Academic partner institutions | "MIT", "Caltech", "ETH Zurich", "University of Waterloo", "Oxford" |
+| `[TARGET_PROFILES]` | Target hire profiles | "PhD in physics/CS", "Quantum algorithm experience", "Industry + quantum background" |
+| `[RECRUIT_CHANNELS]` | Recruitment channels | "Academic conferences (APS, QIP)", "LinkedIn", "Quantum job boards", "University recruiting" |
+| `[COMP_STRUCTURE]` | Compensation structure | "Above-market base salary", "Equity/RSUs", "Research publication support", "Conference attendance" |
+| `[RETENTION_PROG]` | Retention programs | "Research freedom", "Publication opportunities", "Patent bonuses", "Career development" |
+| `[GROWTH_PLAN]` | Team growth plan | "Double team annually", "Hire 5/year steady state", "Build to 50 by Year 5" |
+| `[DOC_STANDARDS]` | Documentation standards | "Jupyter notebooks for experiments", "Wiki for knowledge base", "ArXiv preprints" |
+| `[BEST_PRACTICES]` | Best practices repository | "Circuit optimization patterns", "Error mitigation cookbook", "Algorithm templates" |
+| `[CODE_REPO]` | Code repository structure | "Monorepo with modules", "Separate repos per use case", "GitLab/GitHub Enterprise" |
+| `[KNOWLEDGE_SHARE]` | Knowledge sharing practices | "Weekly quantum seminars", "Monthly all-hands", "Internal conferences" |
+| `[INNOVATION_PROC]` | Innovation process | "20% time for exploration", "Hackathons", "Idea pipeline with stage gates" |
+| `[TECH_RISK]` | Technology risk level | "7", "8", "9" (high due to NISQ limitations) |
+| `[TECH_IMPACT]` | Technology risk impact | "High - could delay milestones", "Medium - workarounds exist", "Critical - blocks progress" |
+| `[TECH_PROB]` | Technology risk probability | "30", "50", "70" |
+| `[TECH_MITIGATE]` | Technology risk mitigation | "Multi-vendor strategy", "Classical fallback", "Regular hardware reassessment" |
+| `[TECH_CONTINGENCY]` | Technology risk contingency | "Pivot to simulation focus", "Extend timelines", "Increase classical hybrid" |
+| `[TALENT_RISK]` | Talent risk level | "6", "7", "8" |
+| `[TALENT_IMPACT]` | Talent risk impact | "High - talent scarcity", "Medium - training mitigates", "Critical - key person dependency" |
+| `[TALENT_PROB]` | Talent risk probability | "40", "60", "75" |
+| `[TALENT_MITIGATE]` | Talent risk mitigation | "Competitive compensation", "Training programs", "Consulting partnerships" |
+| `[TALENT_CONTINGENCY]` | Talent risk contingency | "Outsource to specialists", "Slow expansion", "Partner more heavily" |
+| `[INVEST_RISK]` | Investment risk level | "5", "6", "7" |
+| `[INVEST_IMPACT]` | Investment risk impact | "Medium - could reduce scope", "High - project at risk", "Low - buffer exists" |
+| `[INVEST_PROB]` | Investment risk probability | "20", "35", "50" |
+| `[INVEST_MITIGATE]` | Investment risk mitigation | "Phased investment approach", "Clear go/no-go gates", "ROI tracking" |
+| `[INVEST_CONTINGENCY]` | Investment risk contingency | "Reduce scope to core use cases", "Seek external funding", "Partner cost-share" |
+| `[COMP_RISK]` | Competitive risk level | "5", "6", "7" |
+| `[COMP_IMPACT]` | Competitive risk impact | "Medium - lose first-mover advantage", "High - competitors gain edge", "Low - niche market" |
+| `[COMP_PROB]` | Competitive risk probability | "30", "50", "65" |
+| `[COMP_MITIGATE]` | Competitive risk mitigation | "Accelerate key milestones", "Build IP portfolio", "Strategic partnerships" |
+| `[COMP_CONTINGENCY]` | Competitive risk contingency | "Fast-follow strategy", "Acquire capabilities", "Differentiate on domain expertise" |
+| `[SEC_RISK]` | Security risk level | "6", "7", "8" |
+| `[SEC_IMPACT]` | Security risk impact | "High - cryptographic exposure", "Medium - gradual threat", "Critical - immediate action needed" |
+| `[SEC_PROB]` | Security risk probability | "40", "60", "80" |
+| `[SEC_MITIGATE]` | Security risk mitigation | "Post-quantum crypto adoption", "Crypto-agility", "Continuous monitoring" |
+| `[SEC_CONTINGENCY]` | Security risk contingency | "Emergency migration plan", "Vendor support agreements", "Insurance" |
+| `[REG_RISK]` | Regulatory risk level | "4", "5", "6" |
+| `[REG_IMPACT]` | Regulatory risk impact | "Medium - compliance costs", "Low - limited regulation currently", "High - export controls" |
+| `[REG_PROB]` | Regulatory risk probability | "20", "30", "45" |
+| `[REG_MITIGATE]` | Regulatory risk mitigation | "Engage with policymakers", "Compliance monitoring", "Legal counsel" |
+| `[REG_CONTINGENCY]` | Regulatory risk contingency | "Geographic flexibility", "Regulatory sandboxes", "Industry advocacy" |
+| `[TECH_METRIC]` | Technical performance metric | "Circuit depth executed", "Gate fidelity achieved", "Qubit utilization" |
+| `[TECH_CURRENT]` | Technical metric current value | "50 gates", "99.2% fidelity", "60% utilization" |
+| `[TECH_BEST]` | Technical metric industry best | "100+ gates", "99.9% fidelity", "90% utilization" |
+| `[TECH_MEASURE]` | Technical metric measurement method | "Benchmark circuits", "Randomized benchmarking", "Production job analysis" |
+| `[ALGO_METRIC]` | Algorithm performance metric | "Solution quality", "Convergence rate", "Classical speedup ratio" |
+| `[ALGO_CURRENT]` | Algorithm metric current value | "Within 5% of optimal", "100 iterations to converge", "2x speedup" |
+| `[ALGO_BEST]` | Algorithm metric industry best | "Within 1% of optimal", "20 iterations", "10x speedup" |
+| `[ALGO_MEASURE]` | Algorithm metric measurement method | "Benchmark problem suite", "Classical comparison", "Production results" |
+| `[COST_METRIC]` | Cost efficiency metric | "Cost per quantum job", "Cost per optimization", "Cloud spend per use case" |
+| `[COST_CURRENT]` | Cost metric current value | "50/job", "500/optimization", "10,000/month" |
+| `[COST_TARGET]` | Cost metric target value | "25/job", "200/optimization", "15,000/month (with more usage)" |
+| `[COST_BEST]` | Cost metric industry benchmark | "10/job", "100/optimization", "5,000/month" |
+| `[COST_MEASURE]` | Cost metric measurement method | "Cloud billing analysis", "Unit cost tracking", "ROI calculation" |
+| `[BUS_METRIC]` | Business impact metric | "Revenue impact", "Cost savings", "Time-to-market improvement" |
+| `[BUS_CURRENT]` | Business metric current value | "0 (pre-production)", "500K savings identified", "2 weeks faster" |
+| `[BUS_TARGET]` | Business metric target value | "5M revenue impact", "3M savings", "4 weeks faster" |
+| `[BUS_BEST]` | Business metric industry benchmark | "25M revenue impact", "10M savings", "50% time reduction" |
+| `[BUS_MEASURE]` | Business metric measurement method | "Financial analysis", "Process timing", "A/B comparison" |
+| `[INNOV_METRIC]` | Innovation metric | "Patents filed", "Papers published", "POCs completed" |
+| `[INNOV_CURRENT]` | Innovation metric current value | "2 patents", "3 papers", "5 POCs" |
+| `[INNOV_TARGET]` | Innovation metric target value | "10 patents", "10 papers", "15 POCs" |
+| `[INNOV_BEST]` | Innovation metric industry benchmark | "50+ patents (IBM)", "100+ papers", "30+ POCs" |
+| `[INNOV_MEASURE]` | Innovation metric measurement method | "Patent tracking", "Publication database", "Project management" |
+| `[TIME_METRIC]` | Time efficiency metric | "Time to solution", "Development cycle time", "Deployment speed" |
+| `[TIME_CURRENT]` | Time metric current value | "4 hours", "6 months", "2 weeks" |
+| `[TIME_TARGET]` | Time metric target value | "1 hour", "3 months", "3 days" |
+| `[TIME_BEST]` | Time metric industry benchmark | "10 minutes", "1 month", "1 day" |
+| `[TIME_MEASURE]` | Time metric measurement method | "Job timing", "Project tracking", "Deployment logs" |
+| `[HW_PARTNERS]` | Hardware partners | "IBM", "IonQ", "Rigetti", "D-Wave", "Quantinuum" |
+| `[SW_PARTNERS]` | Software partners | "Classiq", "Zapata", "QC Ware", "1QBit", "Multiverse Computing" |
+| `[CLOUD_PARTNERS]` | Cloud partners | "AWS (Braket)", "Microsoft (Azure Quantum)", "Google Cloud", "IBM Cloud" |
+| `[INT_PARTNERS]` | Integration partners | "Accenture", "McKinsey", "BCG", "Deloitte quantum practices" |
+| `[SUPPORT_PARTNERS]` | Support partners | "Vendor support agreements", "Consulting retainers", "Academic advisory" |
+| `[UNI_COLLAB]` | University collaborations | "MIT Lincoln Lab", "University of Maryland", "TU Delft", "University of Chicago" |
+| `[LAB_COLLAB]` | Research lab collaborations | "National labs (ORNL, Sandia)", "CERN", "Max Planck Institutes" |
+| `[GOV_PROGRAMS]` | Government programs | "NSF Quantum Leap", "DOE quantum initiatives", "DARPA programs", "EU Quantum Flagship" |
+| `[CONSORTIUMS]` | Industry consortiums | "Quantum Economic Development Consortium (QED-C)", "Chicago Quantum Exchange", "QuIC (EU)" |
+| `[OPENSOURCE]` | Open source contributions | "Qiskit contributor", "Cirq contributions", "PennyLane plugins", "Research code release" |
+| `[INTERNAL_BUDGET]` | Internal budget allocation | "$500,000", "$2,000,000", "$10,000,000" |
+| `[GOV_GRANTS]` | Government grant funding | "500,000", "2,000,000", "10,000,000" |
+| `[VC_INVEST]` | VC/external investment | "0 (internal only)", "5,000,000", "25,000,000" |
+| `[PARTNER_FUND]` | Partnership co-funding | "250,000", "1,000,000", "5,000,000" |
+| `[TOTAL_INVEST]` | Total investment amount | "1,250,000", "10,000,000", "50,000,000" |
+| `[PATENT_STRATEGY]` | Patent strategy | "Aggressive filing", "Defensive portfolio", "Open innovation", "Trade secret focus" |
+| `[IP_PROTECT]` | IP protection approach | "Patent + trade secret combination", "Copyright for code", "Trademark for products" |
+| `[LICENSE_MODEL]` | Licensing model | "Commercial licensing", "Open source with support", "SaaS model", "Consortium sharing" |
+| `[INNOV_PIPELINE]` | Innovation pipeline | "Quarterly ideation sessions", "Annual innovation challenges", "Continuous improvement" |
+| `[COMMERCIAL_PLAN]` | Commercialization plan | "Internal use only (Year 1-2)", "B2B licensing (Year 3+)", "Product spinoff potential" |
 
 ### 3. Quantum Readiness Assessment
 

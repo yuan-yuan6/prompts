@@ -105,290 +105,290 @@ Rendering Pipeline:
 
 | Variable | Description | Example |
 |----------|-------------|----------|
-| `[GAME_TITLE]` | Specify the game title | "[specify value]" |
-| `[GENRE]` | Specify the genre | "[specify value]" |
-| `[TARGET_PLATFORMS]` | Target or intended platforms | "[specify value]" |
-| `[TEAM_SIZE]` | Specify the team size | "[specify value]" |
-| `[DEVELOPMENT_TIME]` | Specify the development time | "[specify value]" |
+| `[GAME_TITLE]` | Name of the game | "Stellar Odyssey", "Dark Kingdoms", "Puzzle Quest 3" |
+| `[GENRE]` | Game genre | "action RPG", "roguelike", "match-3 puzzle", "battle royale" |
+| `[TARGET_PLATFORMS]` | Target platforms | "PC, PS5, Xbox Series X", "iOS, Android", "Nintendo Switch" |
+| `[TEAM_SIZE]` | Development team size | "5-person indie team", "50 developers", "200+ AAA studio" |
+| `[DEVELOPMENT_TIME]` | Development timeline | "18 months", "3 years", "4-5 years AAA cycle" |
 | `[BUDGET_SIZE]` | Budget allocation for size | "$500,000" |
-| `[PLAYER_BASE]` | Specify the player base | "[specify value]" |
-| `[REVENUE_TARGET]` | Target or intended revenue | "[specify value]" |
-| `[MECH_CONCEPT]` | Specify the mech concept | "[specify value]" |
-| `[MECH_IMPLEMENT]` | Specify the mech implement | "[specify value]" |
-| `[MECH_EXPERIENCE]` | Specify the mech experience | "[specify value]" |
-| `[MECH_TECHNICAL]` | Specify the mech technical | "[specify value]" |
-| `[MECH_METRICS]` | Specify the mech metrics | "[specify value]" |
-| `[NARR_CONCEPT]` | Specify the narr concept | "[specify value]" |
-| `[NARR_IMPLEMENT]` | Specify the narr implement | "[specify value]" |
-| `[NARR_EXPERIENCE]` | Specify the narr experience | "[specify value]" |
-| `[NARR_TECHNICAL]` | Specify the narr technical | "[specify value]" |
-| `[NARR_METRICS]` | Specify the narr metrics | "[specify value]" |
-| `[ART_CONCEPT]` | Specify the art concept | "[specify value]" |
-| `[ART_IMPLEMENT]` | Specify the art implement | "[specify value]" |
-| `[ART_EXPERIENCE]` | Specify the art experience | "[specify value]" |
-| `[ART_TECHNICAL]` | Specify the art technical | "[specify value]" |
-| `[ART_METRICS]` | Specify the art metrics | "[specify value]" |
-| `[LEVEL_CONCEPT]` | Specify the level concept | "[specify value]" |
-| `[LEVEL_IMPLEMENT]` | Specify the level implement | "[specify value]" |
-| `[LEVEL_EXPERIENCE]` | Specify the level experience | "[specify value]" |
-| `[LEVEL_TECHNICAL]` | Specify the level technical | "[specify value]" |
-| `[LEVEL_METRICS]` | Specify the level metrics | "[specify value]" |
-| `[CHAR_CONCEPT]` | Specify the char concept | "[specify value]" |
-| `[CHAR_IMPLEMENT]` | Specify the char implement | "[specify value]" |
-| `[CHAR_EXPERIENCE]` | Specify the char experience | "[specify value]" |
-| `[CHAR_TECHNICAL]` | Specify the char technical | "[specify value]" |
-| `[CHAR_METRICS]` | Specify the char metrics | "[specify value]" |
-| `[AUDIO_CONCEPT]` | Specify the audio concept | "[specify value]" |
-| `[AUDIO_IMPLEMENT]` | Specify the audio implement | "[specify value]" |
-| `[AUDIO_EXPERIENCE]` | Specify the audio experience | "[specify value]" |
-| `[AUDIO_TECHNICAL]` | Specify the audio technical | "[specify value]" |
-| `[AUDIO_METRICS]` | Specify the audio metrics | "[specify value]" |
-| `[ENGINE_CHOICE]` | Specify the engine choice | "[specify value]" |
-| `[ENGINE_VERSION]` | Specify the engine version | "[specify value]" |
-| `[ENGINE_LICENSE]` | Specify the engine license | "[specify value]" |
-| `[ENGINE_PLATFORMS]` | Specify the engine platforms | "[specify value]" |
-| `[ENGINE_PERFORMANCE]` | Specify the engine performance | "[specify value]" |
-| `[ENGINE_CUSTOM]` | Specify the engine custom | "[specify value]" |
-| `[GRAPHICS_API]` | Specify the graphics api | "[specify value]" |
-| `[RENDER_TECHNIQUE]` | Specify the render technique | "[specify value]" |
-| `[RESOLUTION_SUPPORT]` | Specify the resolution support | "[specify value]" |
-| `[FRAME_TARGET]` | Target or intended frame | "[specify value]" |
-| `[POST_PROCESS]` | Specify the post process | "[specify value]" |
-| `[RENDER_OPTIMIZE]` | Specify the render optimize | "[specify value]" |
-| `[PHYSICS_ENGINE]` | Specify the physics engine | "[specify value]" |
-| `[PHYSICS_RATE]` | Specify the physics rate | "[specify value]" |
-| `[COLLISION_DETECT]` | Specify the collision detect | "[specify value]" |
-| `[RAGDOLL_SYSTEM]` | Specify the ragdoll system | "[specify value]" |
-| `[PARTICLE_SYSTEM]` | Specify the particle system | "[specify value]" |
-| `[ENV_PHYSICS]` | Specify the env physics | "[specify value]" |
-| `[NETWORK_MODEL]` | Specify the network model | "[specify value]" |
-| `[SERVER_ARCH]` | Specify the server arch | "[specify value]" |
-| `[LATENCY_COMP]` | Specify the latency comp | "[specify value]" |
-| `[ANTICHEAT]` | Specify the anticheat | "[specify value]" |
-| `[MATCHMAKING]` | Specify the matchmaking | "[specify value]" |
-| `[BACKEND_SERVICES]` | Specify the backend services | "[specify value]" |
-| `[MODEL_TOOLS]` | Specify the model tools | "[specify value]" |
-| `[MODEL_PIPELINE]` | Specify the model pipeline | "[specify value]" |
-| `[MODEL_QUALITY]` | Specify the model quality | "[specify value]" |
-| `[MODEL_OPTIMIZE]` | Specify the model optimize | "[specify value]" |
-| `[MODEL_VERSION]` | Specify the model version | "[specify value]" |
-| `[TEXTURE_TOOLS]` | Specify the texture tools | "[specify value]" |
-| `[TEXTURE_PIPELINE]` | Specify the texture pipeline | "[specify value]" |
-| `[TEXTURE_QUALITY]` | Specify the texture quality | "[specify value]" |
-| `[TEXTURE_OPTIMIZE]` | Specify the texture optimize | "[specify value]" |
-| `[TEXTURE_VERSION]` | Specify the texture version | "[specify value]" |
-| `[ANIM_TOOLS]` | Specify the anim tools | "[specify value]" |
-| `[ANIM_PIPELINE]` | Specify the anim pipeline | "[specify value]" |
-| `[ANIM_QUALITY]` | Specify the anim quality | "[specify value]" |
-| `[ANIM_OPTIMIZE]` | Specify the anim optimize | "[specify value]" |
-| `[ANIM_VERSION]` | Specify the anim version | "[specify value]" |
-| `[VFX_TOOLS]` | Specify the vfx tools | "[specify value]" |
-| `[VFX_PIPELINE]` | Specify the vfx pipeline | "[specify value]" |
-| `[VFX_QUALITY]` | Specify the vfx quality | "[specify value]" |
-| `[VFX_OPTIMIZE]` | Specify the vfx optimize | "[specify value]" |
-| `[VFX_VERSION]` | Specify the vfx version | "[specify value]" |
-| `[AUDIO_TOOLS]` | Specify the audio tools | "[specify value]" |
-| `[AUDIO_PIPELINE]` | Specify the audio pipeline | "[specify value]" |
-| `[AUDIO_QUALITY]` | Specify the audio quality | "[specify value]" |
-| `[AUDIO_OPTIMIZE]` | Specify the audio optimize | "[specify value]" |
-| `[AUDIO_VERSION]` | Specify the audio version | "[specify value]" |
-| `[UI_TOOLS]` | Specify the ui tools | "[specify value]" |
-| `[UI_PIPELINE]` | Specify the ui pipeline | "[specify value]" |
-| `[UI_QUALITY]` | Specify the ui quality | "[specify value]" |
-| `[UI_OPTIMIZE]` | Specify the ui optimize | "[specify value]" |
-| `[UI_VERSION]` | Specify the ui version | "[specify value]" |
-| `[CHAR_CONTROLLER]` | Specify the char controller | "[specify value]" |
-| `[INPUT_SYSTEM]` | Specify the input system | "[specify value]" |
-| `[CAMERA_SYSTEM]` | Specify the camera system | "[specify value]" |
-| `[INVENTORY_SYSTEM]` | Specify the inventory system | "[specify value]" |
-| `[SKILL_SYSTEM]` | Specify the skill system | "[specify value]" |
-| `[PROGRESSION_SYSTEM]` | Specify the progression system | "[specify value]" |
-| `[NPC_BEHAVIOR]` | Specify the npc behavior | "[specify value]" |
-| `[PATHFINDING]` | Specify the pathfinding | "[specify value]" |
-| `[DECISION_TREES]` | Specify the decision trees | "[specify value]" |
-| `[STATE_MACHINES]` | Specify the state machines | "[specify value]" |
-| `[ML_SYSTEMS]` | Specify the ml systems | "[specify value]" |
-| `[CROWD_SIM]` | Specify the crowd sim | "[specify value]" |
-| `[COMBAT_SYSTEM]` | Specify the combat system | "[specify value]" |
-| `[ECONOMY_SYSTEM]` | Specify the economy system | "[specify value]" |
-| `[QUEST_SYSTEM]` | Specify the quest system | "[specify value]" |
-| `[DIALOGUE_SYSTEM]` | Specify the dialogue system | "[specify value]" |
-| `[SAVE_SYSTEM]` | Specify the save system | "[specify value]" |
-| `[ACHIEVEMENT_SYSTEM]` | Specify the achievement system | "[specify value]" |
-| `[SESSION_MGMT]` | Specify the session mgmt | "[specify value]" |
-| `[SYNC_SYSTEM]` | Specify the sync system | "[specify value]" |
-| `[VOICE_CHAT]` | Specify the voice chat | "[specify value]" |
-| `[SOCIAL_FEATURES]` | Specify the social features | "[specify value]" |
-| `[LEADERBOARDS]` | Specify the leaderboards | "[specify value]" |
+| `[PLAYER_BASE]` | Target player base | "500K players", "1M DAU target", "10M lifetime installs" |
+| `[REVENUE_TARGET]` | Revenue goals | "$10M first year", "$50M lifetime", "$1M monthly" |
+| `[MECH_CONCEPT]` | Core mechanics concept | "real-time combat with dodge/parry", "match-3 with RPG elements", "base-building + PvP" |
+| `[MECH_IMPLEMENT]` | Mechanics implementation | "custom physics system", "modular ability framework", "procedural generation" |
+| `[MECH_EXPERIENCE]` | Mechanics player experience | "responsive and satisfying", "strategic depth with accessibility", "emergent gameplay" |
+| `[MECH_TECHNICAL]` | Mechanics technical requirements | "60fps combat", "server-authoritative", "deterministic simulation" |
+| `[MECH_METRICS]` | Mechanics success metrics | "80% session completion", "high replay rate", "positive combat feedback" |
+| `[NARR_CONCEPT]` | Narrative concept | "branching story with consequences", "environmental storytelling", "player-driven narrative" |
+| `[NARR_IMPLEMENT]` | Narrative implementation | "dialogue tree system", "procedural story generation", "cinematic cutscenes" |
+| `[NARR_EXPERIENCE]` | Narrative player experience | "emotionally engaging", "meaningful choices", "compelling characters" |
+| `[NARR_TECHNICAL]` | Narrative technical requirements | "100K words dialogue", "voice acting pipeline", "localization support" |
+| `[NARR_METRICS]` | Narrative success metrics | "90% story completion", "high player investment", "positive narrative reviews" |
+| `[ART_CONCEPT]` | Art direction concept | "stylized cel-shaded", "photorealistic", "pixel art retro aesthetic" |
+| `[ART_IMPLEMENT]` | Art implementation | "PBR materials workflow", "modular asset kit", "procedural texturing" |
+| `[ART_EXPERIENCE]` | Art player experience | "visually distinctive", "readable gameplay", "memorable aesthetic" |
+| `[ART_TECHNICAL]` | Art technical requirements | "4K texture support", "LOD system", "optimized draw calls" |
+| `[ART_METRICS]` | Art success metrics | "visual consistency", "performance targets met", "positive art reviews" |
+| `[LEVEL_CONCEPT]` | Level design concept | "metroidvania interconnected", "linear cinematic", "open-world exploration" |
+| `[LEVEL_IMPLEMENT]` | Level implementation | "modular level kit", "procedural generation", "hand-crafted setpieces" |
+| `[LEVEL_EXPERIENCE]` | Level player experience | "guided discovery", "rewarding exploration", "memorable moments" |
+| `[LEVEL_TECHNICAL]` | Level technical requirements | "streaming world chunks", "occlusion culling", "nav mesh optimization" |
+| `[LEVEL_METRICS]` | Level success metrics | "completion rates per level", "exploration metrics", "playtime distribution" |
+| `[CHAR_CONCEPT]` | Character design concept | "diverse roster with unique abilities", "player avatar customization", "memorable NPCs" |
+| `[CHAR_IMPLEMENT]` | Character implementation | "skeletal animation system", "modular character parts", "facial animation" |
+| `[CHAR_EXPERIENCE]` | Character player experience | "relatable characters", "diverse representation", "iconic designs" |
+| `[CHAR_TECHNICAL]` | Character technical requirements | "60+ bones skeleton", "blend shapes", "cloth simulation" |
+| `[CHAR_METRICS]` | Character success metrics | "character popularity", "skin purchase rates", "fan engagement" |
+| `[AUDIO_CONCEPT]` | Audio design concept | "adaptive music system", "immersive spatial audio", "memorable sound identity" |
+| `[AUDIO_IMPLEMENT]` | Audio implementation | "Wwise/FMOD integration", "procedural audio", "dynamic mixing" |
+| `[AUDIO_EXPERIENCE]` | Audio player experience | "enhances gameplay feedback", "emotional resonance", "spatial awareness" |
+| `[AUDIO_TECHNICAL]` | Audio technical requirements | "3D spatial audio", "real-time reverb", "voice chat integration" |
+| `[AUDIO_METRICS]` | Audio success metrics | "audio quality reviews", "sound design awards", "player feedback" |
+| `[ENGINE_CHOICE]` | Game engine selection | "Unity 2023 LTS", "Unreal Engine 5", "Godot 4", "custom engine" |
+| `[ENGINE_VERSION]` | Engine version | "Unity 2023.2 LTS", "UE 5.3", "Godot 4.2" |
+| `[ENGINE_LICENSE]` | Engine licensing | "Unity Pro $2000/seat", "UE 5% royalty after $1M", "Godot MIT free" |
+| `[ENGINE_PLATFORMS]` | Engine platform support | "PC, PS5, Xbox, Switch, iOS, Android", "cross-platform deployment" |
+| `[ENGINE_PERFORMANCE]` | Engine performance targets | "60fps at 1080p", "4K/30fps quality mode", "mobile optimized" |
+| `[ENGINE_CUSTOM]` | Engine customization level | "plugin extensions", "source code access", "custom rendering pipeline" |
+| `[GRAPHICS_API]` | Graphics API | "DirectX 12", "Vulkan", "Metal", "OpenGL ES 3.0 mobile" |
+| `[RENDER_TECHNIQUE]` | Rendering technique | "deferred rendering", "forward+ rendering", "ray tracing optional" |
+| `[RESOLUTION_SUPPORT]` | Resolution support | "720p-4K with dynamic scaling", "ultrawide 21:9 support", "FSR/DLSS upscaling" |
+| `[FRAME_TARGET]` | Frame rate target | "60fps performance mode", "30fps quality mode", "120fps competitive" |
+| `[POST_PROCESS]` | Post-processing effects | "bloom, DOF, motion blur, color grading, ambient occlusion" |
+| `[RENDER_OPTIMIZE]` | Render optimization | "GPU instancing", "occlusion culling", "LOD system", "texture streaming" |
+| `[PHYSICS_ENGINE]` | Physics engine | "PhysX", "Havok", "Bullet", "custom physics" |
+| `[PHYSICS_RATE]` | Physics simulation rate | "60Hz fixed timestep", "120Hz for combat", "variable for mobile" |
+| `[COLLISION_DETECT]` | Collision detection | "GJK/SAT algorithms", "spatial partitioning", "continuous collision detection" |
+| `[RAGDOLL_SYSTEM]` | Ragdoll implementation | "physics-based ragdolls", "animation blending", "procedural hit reactions" |
+| `[PARTICLE_SYSTEM]` | Particle effects system | "GPU particles", "VFX Graph/Niagara", "LOD particle systems" |
+| `[ENV_PHYSICS]` | Environmental physics | "destructible objects", "fluid simulation", "cloth physics" |
+| `[NETWORK_MODEL]` | Network architecture model | "client-server authoritative", "P2P with rollback", "dedicated servers" |
+| `[SERVER_ARCH]` | Server infrastructure | "AWS GameLift", "Azure PlayFab", "Photon", "custom dedicated servers" |
+| `[LATENCY_COMP]` | Latency compensation | "client-side prediction", "server reconciliation", "lag compensation for 200ms+" |
+| `[ANTICHEAT]` | Anti-cheat system | "Easy Anti-Cheat", "BattlEye", "custom server-side validation" |
+| `[MATCHMAKING]` | Matchmaking system | "skill-based (Elo/TrueSkill)", "ping-based", "party matching" |
+| `[BACKEND_SERVICES]` | Backend services | "player profiles", "leaderboards", "analytics", "push notifications" |
+| `[MODEL_TOOLS]` | 3D modeling tools | "Maya", "Blender", "ZBrush", "3ds Max" |
+| `[MODEL_PIPELINE]` | Model pipeline workflow | "ZBrush high-poly > Maya retopo > engine import" |
+| `[MODEL_QUALITY]` | Model quality standards | "10K-50K triangles characters", "consistent UV density", "clean topology" |
+| `[MODEL_OPTIMIZE]` | Model optimization | "LOD generation", "mesh decimation", "batching optimization" |
+| `[MODEL_VERSION]` | Model versioning | "Perforce depot", "Git LFS", "asset database" |
+| `[TEXTURE_TOOLS]` | Texture creation tools | "Substance Painter", "Photoshop", "Mari", "Quixel Mixer" |
+| `[TEXTURE_PIPELINE]` | Texture pipeline workflow | "Substance to engine with auto-compression" |
+| `[TEXTURE_QUALITY]` | Texture quality standards | "4K for hero assets", "2K standard", "consistent texel density" |
+| `[TEXTURE_OPTIMIZE]` | Texture optimization | "mipmaps", "texture atlasing", "streaming textures" |
+| `[TEXTURE_VERSION]` | Texture versioning | "source files in version control", "build-time compression" |
+| `[ANIM_TOOLS]` | Animation tools | "Maya", "MotionBuilder", "Blender", "Cascadeur" |
+| `[ANIM_PIPELINE]` | Animation pipeline | "mocap cleanup > Maya polish > engine retarget" |
+| `[ANIM_QUALITY]` | Animation quality standards | "30fps minimum", "smooth blend transitions", "physics-driven secondary motion" |
+| `[ANIM_OPTIMIZE]` | Animation optimization | "animation compression", "LOD animation", "pose caching" |
+| `[ANIM_VERSION]` | Animation versioning | "motion library", "animation database", "rig versioning" |
+| `[VFX_TOOLS]` | VFX creation tools | "Houdini", "After Effects", "engine native (Niagara/VFX Graph)" |
+| `[VFX_PIPELINE]` | VFX pipeline workflow | "concept > prototype > polish > optimization" |
+| `[VFX_QUALITY]` | VFX quality standards | "readable gameplay", "60fps performance", "style consistency" |
+| `[VFX_OPTIMIZE]` | VFX optimization | "GPU particles", "LOD effects", "screen-space limits" |
+| `[VFX_VERSION]` | VFX versioning | "prefab library", "effect database" |
+| `[AUDIO_TOOLS]` | Audio creation tools | "Wwise", "FMOD", "Pro Tools", "Reaper" |
+| `[AUDIO_PIPELINE]` | Audio pipeline workflow | "recording > editing > integration > mixing" |
+| `[AUDIO_QUALITY]` | Audio quality standards | "48kHz 24-bit", "broadcast loudness standards", "spatial audio support" |
+| `[AUDIO_OPTIMIZE]` | Audio optimization | "streaming audio", "voice pooling", "priority system" |
+| `[AUDIO_VERSION]` | Audio versioning | "Wwise project versioning", "audio asset database" |
+| `[UI_TOOLS]` | UI design tools | "Figma", "Sketch", "Unity UI Toolkit", "UMG (Unreal)" |
+| `[UI_PIPELINE]` | UI pipeline workflow | "wireframe > mockup > implementation > iteration" |
+| `[UI_QUALITY]` | UI quality standards | "60fps UI", "accessibility compliance", "localization support" |
+| `[UI_OPTIMIZE]` | UI optimization | "atlas packing", "UI batching", "lazy loading" |
+| `[UI_VERSION]` | UI versioning | "design system library", "component versioning" |
+| `[CHAR_CONTROLLER]` | Character controller | "physics-based movement", "root motion", "custom kinematic" |
+| `[INPUT_SYSTEM]` | Input system | "rebindable controls", "platform input abstraction", "haptic feedback" |
+| `[CAMERA_SYSTEM]` | Camera system | "third-person follow", "cinematic camera", "dynamic POV switching" |
+| `[INVENTORY_SYSTEM]` | Inventory system | "grid-based", "weight-based", "infinite stacking" |
+| `[SKILL_SYSTEM]` | Skill/ability system | "cooldown-based", "resource management", "combo chains" |
+| `[PROGRESSION_SYSTEM]` | Progression system | "XP leveling", "skill trees", "mastery ranks" |
+| `[NPC_BEHAVIOR]` | NPC AI behavior | "behavior trees", "goal-oriented action planning", "utility AI" |
+| `[PATHFINDING]` | Pathfinding system | "NavMesh", "A* pathfinding", "hierarchical pathfinding" |
+| `[DECISION_TREES]` | AI decision trees | "branching logic", "weighted decisions", "condition evaluation" |
+| `[STATE_MACHINES]` | State machines | "hierarchical FSM", "pushdown automata", "animation state machines" |
+| `[ML_SYSTEMS]` | Machine learning systems | "difficulty adaptation", "procedural content", "player behavior prediction" |
+| `[CROWD_SIM]` | Crowd simulation | "flocking behavior", "flow fields", "LOD crowd systems" |
+| `[COMBAT_SYSTEM]` | Combat system | "real-time action", "turn-based tactical", "hybrid systems" |
+| `[ECONOMY_SYSTEM]` | Virtual economy | "dual currency (soft/hard)", "auction house", "sink/source balance" |
+| `[QUEST_SYSTEM]` | Quest system | "linear story quests", "procedural dailies", "branching objectives" |
+| `[DIALOGUE_SYSTEM]` | Dialogue system | "branching trees", "ink/Yarn integration", "voiced with lipsync" |
+| `[SAVE_SYSTEM]` | Save system | "cloud saves", "local backup", "save versioning" |
+| `[ACHIEVEMENT_SYSTEM]` | Achievement system | "platform integration (Steam, PSN, Xbox)", "in-game achievements" |
+| `[SESSION_MGMT]` | Session management | "lobby system", "party management", "quick play" |
+| `[SYNC_SYSTEM]` | State synchronization | "delta compression", "snapshot interpolation", "authoritative server" |
+| `[VOICE_CHAT]` | Voice chat integration | "Vivox", "Discord SDK", "platform native" |
+| `[SOCIAL_FEATURES]` | Social features | "friends list", "guilds/clans", "social feed" |
+| `[LEADERBOARDS]` | Leaderboard system | "global + friends", "seasonal resets", "anti-cheat protected" |
 | `[TOURNAMENT_SYSTEM]` | Name of the tournament system | "John Smith" |
-| `[ENV_APPROACH]` | Specify the env approach | "[specify value]" |
-| `[ENV_IMPLEMENT]` | Specify the env implement | "[specify value]" |
-| `[ENV_VOLUME]` | Specify the env volume | "[specify value]" |
-| `[ENV_TESTING]` | Specify the env testing | "[specify value]" |
-| `[ENV_POLISH]` | Specify the env polish | "[specify value]" |
-| `[MISSION_APPROACH]` | Specify the mission approach | "[specify value]" |
-| `[MISSION_IMPLEMENT]` | Specify the mission implement | "[specify value]" |
-| `[MISSION_VOLUME]` | Specify the mission volume | "[specify value]" |
-| `[MISSION_TESTING]` | Specify the mission testing | "[specify value]" |
-| `[MISSION_POLISH]` | Specify the mission polish | "[specify value]" |
-| `[PUZZLE_APPROACH]` | Specify the puzzle approach | "[specify value]" |
-| `[PUZZLE_IMPLEMENT]` | Specify the puzzle implement | "[specify value]" |
-| `[PUZZLE_VOLUME]` | Specify the puzzle volume | "[specify value]" |
-| `[PUZZLE_TESTING]` | Specify the puzzle testing | "[specify value]" |
-| `[PUZZLE_POLISH]` | Specify the puzzle polish | "[specify value]" |
-| `[COMBAT_APPROACH]` | Specify the combat approach | "[specify value]" |
-| `[COMBAT_IMPLEMENT]` | Specify the combat implement | "[specify value]" |
-| `[COMBAT_VOLUME]` | Specify the combat volume | "[specify value]" |
-| `[COMBAT_TESTING]` | Specify the combat testing | "[specify value]" |
-| `[COMBAT_POLISH]` | Specify the combat polish | "[specify value]" |
-| `[EXPLORE_APPROACH]` | Specify the explore approach | "[specify value]" |
-| `[EXPLORE_IMPLEMENT]` | Specify the explore implement | "[specify value]" |
-| `[EXPLORE_VOLUME]` | Specify the explore volume | "[specify value]" |
-| `[EXPLORE_TESTING]` | Specify the explore testing | "[specify value]" |
-| `[EXPLORE_POLISH]` | Specify the explore polish | "[specify value]" |
-| `[SECRET_APPROACH]` | Specify the secret approach | "[specify value]" |
-| `[SECRET_IMPLEMENT]` | Specify the secret implement | "[specify value]" |
-| `[SECRET_VOLUME]` | Specify the secret volume | "[specify value]" |
-| `[SECRET_TESTING]` | Specify the secret testing | "[specify value]" |
-| `[SECRET_POLISH]` | Specify the secret polish | "[specify value]" |
-| `[UNIT_COVERAGE]` | Specify the unit coverage | "[specify value]" |
-| `[UNIT_TOOLS]` | Specify the unit tools | "[specify value]" |
-| `[UNIT_BUGS]` | Specify the unit bugs | "[specify value]" |
-| `[UNIT_TIME]` | Specify the unit time | "[specify value]" |
-| `[UNIT_CRITERIA]` | Specify the unit criteria | "[specify value]" |
-| `[INTEG_COVERAGE]` | Specify the integ coverage | "[specify value]" |
-| `[INTEG_TOOLS]` | Specify the integ tools | "[specify value]" |
-| `[INTEG_BUGS]` | Specify the integ bugs | "[specify value]" |
-| `[INTEG_TIME]` | Specify the integ time | "[specify value]" |
-| `[INTEG_CRITERIA]` | Specify the integ criteria | "[specify value]" |
-| `[GAME_COVERAGE]` | Specify the game coverage | "[specify value]" |
-| `[GAME_TOOLS]` | Specify the game tools | "[specify value]" |
-| `[GAME_BUGS]` | Specify the game bugs | "[specify value]" |
-| `[GAME_TIME]` | Specify the game time | "[specify value]" |
-| `[GAME_CRITERIA]` | Specify the game criteria | "[specify value]" |
-| `[PERF_COVERAGE]` | Specify the perf coverage | "[specify value]" |
-| `[PERF_TOOLS]` | Specify the perf tools | "[specify value]" |
-| `[PERF_BUGS]` | Specify the perf bugs | "[specify value]" |
-| `[PERF_TIME]` | Specify the perf time | "[specify value]" |
-| `[PERF_CRITERIA]` | Specify the perf criteria | "[specify value]" |
-| `[COMPAT_COVERAGE]` | Specify the compat coverage | "[specify value]" |
-| `[COMPAT_TOOLS]` | Specify the compat tools | "[specify value]" |
-| `[COMPAT_BUGS]` | Specify the compat bugs | "[specify value]" |
-| `[COMPAT_TIME]` | Specify the compat time | "[specify value]" |
-| `[COMPAT_CRITERIA]` | Specify the compat criteria | "[specify value]" |
-| `[USER_COVERAGE]` | Specify the user coverage | "[specify value]" |
-| `[USER_TOOLS]` | Specify the user tools | "[specify value]" |
-| `[USER_BUGS]` | Specify the user bugs | "[specify value]" |
-| `[USER_TIME]` | Specify the user time | "[specify value]" |
-| `[USER_CRITERIA]` | Specify the user criteria | "[specify value]" |
-| `[BUSINESS_MODEL]` | Specify the business model | "[specify value]" |
-| `[PRICE_POINT]` | Specify the price point | "[specify value]" |
-| `[REVENUE_SHARE]` | Specify the revenue share | "[specify value]" |
-| `[PLATFORM_FEES]` | Specify the platform fees | "[specify value]" |
-| `[PAYMENT_METHODS]` | Specify the payment methods | "[specify value]" |
+| `[ENV_APPROACH]` | Environment design approach | "modular kit-based", "hand-crafted biomes", "procedural generation" |
+| `[ENV_IMPLEMENT]` | Environment implementation | "terrain system + props", "streaming world chunks", "LOD optimization" |
+| `[ENV_VOLUME]` | Environment content volume | "15 distinct biomes", "100 sq km open world", "50 handcrafted locations" |
+| `[ENV_TESTING]` | Environment testing | "traversal testing", "performance profiling", "visual QA" |
+| `[ENV_POLISH]` | Environment polish level | "AAA visual quality", "indie scope optimized", "mobile-friendly" |
+| `[MISSION_APPROACH]` | Mission design approach | "linear story missions", "open-ended objectives", "procedural tasks" |
+| `[MISSION_IMPLEMENT]` | Mission implementation | "quest system scripting", "objective tracking", "reward distribution" |
+| `[MISSION_VOLUME]` | Mission content volume | "50 main missions", "100+ side quests", "daily procedural tasks" |
+| `[MISSION_TESTING]` | Mission testing | "completability testing", "edge case coverage", "balance verification" |
+| `[MISSION_POLISH]` | Mission polish level | "cinematic quality", "player guidance", "reward satisfaction" |
+| `[PUZZLE_APPROACH]` | Puzzle design approach | "physics-based", "logic puzzles", "environmental puzzles" |
+| `[PUZZLE_IMPLEMENT]` | Puzzle implementation | "modular puzzle components", "hint system", "difficulty scaling" |
+| `[PUZZLE_VOLUME]` | Puzzle content volume | "30 unique puzzles", "puzzle per dungeon", "optional challenge puzzles" |
+| `[PUZZLE_TESTING]` | Puzzle testing | "solution verification", "difficulty testing", "accessibility review" |
+| `[PUZZLE_POLISH]` | Puzzle polish level | "clear feedback", "satisfying solutions", "optional hints" |
+| `[COMBAT_APPROACH]` | Combat design approach | "real-time action", "tactical turn-based", "hybrid system" |
+| `[COMBAT_IMPLEMENT]` | Combat implementation | "hitbox system", "damage calculation", "ability framework" |
+| `[COMBAT_VOLUME]` | Combat content volume | "30 enemy types", "10 boss encounters", "100+ abilities" |
+| `[COMBAT_TESTING]` | Combat testing | "balance testing", "frame data verification", "feel tuning" |
+| `[COMBAT_POLISH]` | Combat polish level | "responsive controls", "satisfying feedback", "visual clarity" |
+| `[EXPLORE_APPROACH]` | Exploration design approach | "reward-driven", "narrative discovery", "completionist content" |
+| `[EXPLORE_IMPLEMENT]` | Exploration implementation | "POI system", "map reveal mechanics", "collectible tracking" |
+| `[EXPLORE_VOLUME]` | Exploration content volume | "200+ POIs", "500 collectibles", "hidden areas" |
+| `[EXPLORE_TESTING]` | Exploration testing | "reachability testing", "reward pacing", "map coverage" |
+| `[EXPLORE_POLISH]` | Exploration polish level | "rewarding discovery", "visual breadcrumbs", "achievement integration" |
+| `[SECRET_APPROACH]` | Secret content design | "hidden areas", "ARG elements", "community mysteries" |
+| `[SECRET_IMPLEMENT]` | Secret implementation | "obscured triggers", "coded messages", "community-only secrets" |
+| `[SECRET_VOLUME]` | Secret content volume | "20 hidden rooms", "5 major secrets", "easter eggs throughout" |
+| `[SECRET_TESTING]` | Secret testing | "discoverability balance", "spoiler prevention", "community engagement" |
+| `[SECRET_POLISH]` | Secret polish level | "rewarding reveals", "community discussion value", "memorable moments" |
+| `[UNIT_COVERAGE]` | Unit test coverage | "80% code coverage", "critical path 100%", "automated CI/CD" |
+| `[UNIT_TOOLS]` | Unit testing tools | "NUnit", "xUnit", "Google Test", "engine native testing" |
+| `[UNIT_BUGS]` | Unit test bug categories | "logic errors", "null references", "boundary conditions" |
+| `[UNIT_TIME]` | Unit test resolution time | "same-day fixes", "automated detection" |
+| `[UNIT_CRITERIA]` | Unit test release criteria | "all tests passing", "no regressions", "coverage threshold met" |
+| `[INTEG_COVERAGE]` | Integration test coverage | "all systems integrated", "cross-platform verification" |
+| `[INTEG_TOOLS]` | Integration testing tools | "automated test suites", "CI/CD pipelines", "build verification tests" |
+| `[INTEG_BUGS]` | Integration bug categories | "system conflicts", "data flow issues", "dependency errors" |
+| `[INTEG_TIME]` | Integration test resolution | "1-3 days depending on complexity" |
+| `[INTEG_CRITERIA]` | Integration release criteria | "all systems functional", "no blocking issues" |
+| `[GAME_COVERAGE]` | Gameplay test coverage | "full playthrough", "all features exercised", "edge cases" |
+| `[GAME_TOOLS]` | Gameplay testing tools | "internal QA team", "automated bots", "focus groups" |
+| `[GAME_BUGS]` | Gameplay bug categories | "progression blockers", "balance issues", "UX problems" |
+| `[GAME_TIME]` | Gameplay test resolution | "critical: 24hr, major: 1 week, minor: backlog" |
+| `[GAME_CRITERIA]` | Gameplay release criteria | "completable start to finish", "balanced difficulty", "fun factor validated" |
+| `[PERF_COVERAGE]` | Performance test coverage | "all platforms", "stress testing", "memory profiling" |
+| `[PERF_TOOLS]` | Performance testing tools | "profilers (PIX, RenderDoc)", "automated benchmarks", "telemetry" |
+| `[PERF_BUGS]` | Performance bug categories | "frame drops", "memory leaks", "loading hitches" |
+| `[PERF_TIME]` | Performance issue resolution | "optimization sprints", "continuous profiling" |
+| `[PERF_CRITERIA]` | Performance release criteria | "60fps target met", "memory budget respected", "load times acceptable" |
+| `[COMPAT_COVERAGE]` | Compatibility test coverage | "hardware matrix testing", "OS versions", "driver combinations" |
+| `[COMPAT_TOOLS]` | Compatibility testing tools | "hardware lab", "cloud testing services", "community beta" |
+| `[COMPAT_BUGS]` | Compatibility bug categories | "driver conflicts", "hardware-specific crashes", "OS issues" |
+| `[COMPAT_TIME]` | Compatibility issue resolution | "varies by complexity", "vendor coordination" |
+| `[COMPAT_CRITERIA]` | Compatibility release criteria | "supported hardware works", "known issues documented" |
+| `[USER_COVERAGE]` | User acceptance test coverage | "target demographic testing", "accessibility review" |
+| `[USER_TOOLS]` | User testing tools | "focus groups", "beta programs", "usability labs" |
+| `[USER_BUGS]` | User-reported bug categories | "UX confusion", "difficulty complaints", "feature requests" |
+| `[USER_TIME]` | User feedback resolution | "prioritized by impact", "iterative improvement" |
+| `[USER_CRITERIA]` | User acceptance criteria | "positive sentiment", "completion rates", "recommendation likelihood" |
+| `[BUSINESS_MODEL]` | Business model | "premium $59.99", "F2P with IAP", "subscription-based" |
+| `[PRICE_POINT]` | Price point | "$59.99 AAA", "$29.99 indie", "$9.99 mobile premium", "F2P" |
+| `[REVENUE_SHARE]` | Revenue share model | "70/30 standard", "88/12 Epic", "negotiated publisher split" |
+| `[PLATFORM_FEES]` | Platform fees | "30% Steam/Console", "15% mobile under $1M", "custom enterprise deals" |
+| `[PAYMENT_METHODS]` | Payment integration | "platform native", "Stripe for web", "regional payment methods" |
 | `[REGIONAL_PRICING]` | Specify the regional pricing | "North America" |
-| `[CURRENCY_SYSTEM]` | Specify the currency system | "[specify value]" |
-| `[ITEM_SHOP]` | Specify the item shop | "[specify value]" |
-| `[BATTLE_PASS]` | Specify the battle pass | "[specify value]" |
-| `[DLC_STRATEGY]` | Strategy or approach for dlc | "[specify value]" |
-| `[COSMETICS]` | Specify the cosmetics | "[specify value]" |
-| `[P2W_BALANCE]` | Specify the p2w balance | "[specify value]" |
-| `[SEASON_STRUCTURE]` | Specify the season structure | "[specify value]" |
-| `[CONTENT_CADENCE]` | Specify the content cadence | "[specify value]" |
-| `[EVENT_SCHEDULE]` | Specify the event schedule | "[specify value]" |
-| `[LTO_STRATEGY]` | Strategy or approach for lto | "[specify value]" |
-| `[SUBSCRIPTION]` | Specify the subscription | "[specify value]" |
-| `[RETENTION_MECH]` | Specify the retention mech | "[specify value]" |
-| `[PRELAUNCH]` | Specify the prelaunch | "[specify value]" |
-| `[INFLUENCER]` | Specify the influencer | "[specify value]" |
-| `[COMMUNITY]` | Specify the community | "[specify value]" |
+| `[CURRENCY_SYSTEM]` | Virtual currency design | "gold (soft) + gems (hard)", "single premium currency", "energy system" |
+| `[ITEM_SHOP]` | Item shop design | "rotating daily shop", "direct purchase catalog", "gacha/loot boxes" |
+| `[BATTLE_PASS]` | Battle pass system | "100-tier seasonal pass", "free + premium tracks", "$9.99/season" |
+| `[DLC_STRATEGY]` | DLC approach | "story expansions $14.99", "cosmetic packs", "season pass bundles" |
+| `[COSMETICS]` | Cosmetic system | "skins, emotes, effects", "character customization", "housing items" |
+| `[P2W_BALANCE]` | Pay-to-win balance | "cosmetic only - no P2W", "time-saver convenience", "balanced advantages" |
+| `[SEASON_STRUCTURE]` | Season structure | "3-month seasons", "ranked resets", "seasonal themes" |
+| `[CONTENT_CADENCE]` | Content update cadence | "weekly events", "monthly major updates", "quarterly expansions" |
+| `[EVENT_SCHEDULE]` | Live event schedule | "holiday events", "competitive seasons", "collaboration events" |
+| `[LTO_STRATEGY]` | Limited-time offer strategy | "flash sales", "exclusive bundles", "FOMO-driven but ethical" |
+| `[SUBSCRIPTION]` | Subscription model | "optional VIP $4.99/month", "all-access pass", "premium membership perks" |
+| `[RETENTION_MECH]` | Retention mechanics | "daily login rewards", "streak bonuses", "long-term goals" |
+| `[PRELAUNCH]` | Pre-launch marketing | "announce 6 months early", "beta sign-ups", "wishlist campaigns" |
+| `[INFLUENCER]` | Influencer strategy | "early access for creators", "sponsored content", "affiliate programs" |
+| `[COMMUNITY]` | Community building | "Discord server", "Reddit presence", "social media engagement" |
 | `[AD_BUDGET]` | Budget allocation for ad | "$500,000" |
-| `[PR_STRATEGY]` | Strategy or approach for pr | "[specify value]" |
-| `[LAUNCH_WINDOW]` | Specify the launch window | "[specify value]" |
-| `[PC_SPECS]` | Specify the pc specs | "[specify value]" |
-| `[PC_OPTIMIZE]` | Specify the pc optimize | "[specify value]" |
-| `[PC_CERT]` | Specify the pc cert | "[specify value]" |
-| `[PC_DISTRIBUTE]` | Specify the pc distribute | "[specify value]" |
+| `[PR_STRATEGY]` | PR strategy | "press previews", "review embargo coordination", "launch event" |
+| `[LAUNCH_WINDOW]` | Launch timing | "Q4 holiday season", "avoid major competition", "strategic release date" |
+| `[PC_SPECS]` | PC specifications | "Min: GTX 1060/i5-8400/8GB | Rec: RTX 3070/i7-10700/16GB" |
+| `[PC_OPTIMIZE]` | PC optimization | "scalable settings", "DLSS/FSR support", "keyboard/mouse + controller" |
+| `[PC_CERT]` | PC certification | "Steam review process", "Epic store review", "GOG compatibility" |
+| `[PC_DISTRIBUTE]` | PC distribution | "Steam", "Epic Games Store", "GOG", "direct sales" |
 | `[PC_UPDATE]` | Specify the pc update | "2025-01-15" |
-| `[PS_SPECS]` | Specify the ps specs | "[specify value]" |
-| `[PS_OPTIMIZE]` | Specify the ps optimize | "[specify value]" |
-| `[PS_CERT]` | Specify the ps cert | "[specify value]" |
-| `[PS_DISTRIBUTE]` | Specify the ps distribute | "[specify value]" |
+| `[PS_SPECS]` | PlayStation specifications | "PS5: 4K/60fps quality, 1080p/120fps performance | PS4: 1080p/30fps" |
+| `[PS_OPTIMIZE]` | PlayStation optimization | "SSD loading optimization", "DualSense haptics", "Activity Cards" |
+| `[PS_CERT]` | PlayStation certification | "Sony TRC compliance", "2-4 week submission process" |
+| `[PS_DISTRIBUTE]` | PlayStation distribution | "PlayStation Store", "physical disc option", "PS Plus consideration" |
 | `[PS_UPDATE]` | Specify the ps update | "2025-01-15" |
-| `[XBOX_SPECS]` | Specify the xbox specs | "[specify value]" |
-| `[XBOX_OPTIMIZE]` | Specify the xbox optimize | "[specify value]" |
-| `[XBOX_CERT]` | Specify the xbox cert | "[specify value]" |
-| `[XBOX_DISTRIBUTE]` | Specify the xbox distribute | "[specify value]" |
+| `[XBOX_SPECS]` | Xbox specifications | "Series X: 4K/60fps | Series S: 1440p/60fps | One: 1080p/30fps" |
+| `[XBOX_OPTIMIZE]` | Xbox optimization | "Smart Delivery support", "Quick Resume", "Xbox Play Anywhere" |
+| `[XBOX_CERT]` | Xbox certification | "Xbox XR compliance", "Game Pass consideration" |
+| `[XBOX_DISTRIBUTE]` | Xbox distribution | "Microsoft Store", "Xbox Game Pass", "physical disc" |
 | `[XBOX_UPDATE]` | Specify the xbox update | "2025-01-15" |
-| `[SWITCH_SPECS]` | Specify the switch specs | "[specify value]" |
-| `[SWITCH_OPTIMIZE]` | Specify the switch optimize | "[specify value]" |
-| `[SWITCH_CERT]` | Specify the switch cert | "[specify value]" |
-| `[SWITCH_DISTRIBUTE]` | Specify the switch distribute | "[specify value]" |
+| `[SWITCH_SPECS]` | Switch specifications | "Docked: 1080p/30fps | Handheld: 720p/30fps target" |
+| `[SWITCH_OPTIMIZE]` | Switch optimization | "aggressive LOD", "memory optimization", "handheld battery life" |
+| `[SWITCH_CERT]` | Switch certification | "Nintendo Lotcheck", "4-6 week process" |
+| `[SWITCH_DISTRIBUTE]` | Switch distribution | "Nintendo eShop", "physical cartridge", "Nintendo Direct exposure" |
 | `[SWITCH_UPDATE]` | Specify the switch update | "2025-01-15" |
-| `[MOBILE_SPECS]` | Specify the mobile specs | "[specify value]" |
-| `[MOBILE_OPTIMIZE]` | Specify the mobile optimize | "[specify value]" |
-| `[MOBILE_CERT]` | Specify the mobile cert | "[specify value]" |
-| `[MOBILE_DISTRIBUTE]` | Specify the mobile distribute | "[specify value]" |
+| `[MOBILE_SPECS]` | Mobile specifications | "iPhone 11+/Android 10+, 3GB RAM minimum, stable 30fps" |
+| `[MOBILE_OPTIMIZE]` | Mobile optimization | "battery optimization", "thermal management", "data usage efficiency" |
+| `[MOBILE_CERT]` | Mobile certification | "App Store review 1-7 days", "Google Play review 1-3 days" |
+| `[MOBILE_DISTRIBUTE]` | Mobile distribution | "App Store", "Google Play", "alternative stores (APKPure, TapTap)" |
 | `[MOBILE_UPDATE]` | Specify the mobile update | "2025-01-15" |
-| `[CLOUD_SPECS]` | Specify the cloud specs | "[specify value]" |
-| `[CLOUD_OPTIMIZE]` | Specify the cloud optimize | "[specify value]" |
-| `[CLOUD_CERT]` | Specify the cloud cert | "[specify value]" |
-| `[CLOUD_DISTRIBUTE]` | Specify the cloud distribute | "[specify value]" |
+| `[CLOUD_SPECS]` | Cloud gaming specifications | "streaming-ready builds", "input latency optimization" |
+| `[CLOUD_OPTIMIZE]` | Cloud optimization | "encode-friendly visuals", "input responsiveness priority" |
+| `[CLOUD_CERT]` | Cloud certification | "GeForce NOW partner program", "Xbox Cloud Gaming integration" |
+| `[CLOUD_DISTRIBUTE]` | Cloud distribution | "GeForce NOW", "Xbox Cloud Gaming", "Amazon Luna", "Steam Link" |
 | `[CLOUD_UPDATE]` | Specify the cloud update | "2025-01-15" |
-| `[SOCIAL_STRATEGY]` | Strategy or approach for social | "[specify value]" |
-| `[SOCIAL_CHANNELS]` | Specify the social channels | "[specify value]" |
-| `[SOCIAL_SCHEDULE]` | Specify the social schedule | "[specify value]" |
-| `[SOCIAL_MODERATION]` | Specify the social moderation | "[specify value]" |
-| `[SOCIAL_METRICS]` | Specify the social metrics | "[specify value]" |
-| `[FORUM_STRATEGY]` | Strategy or approach for forum | "[specify value]" |
-| `[FORUM_CHANNELS]` | Specify the forum channels | "[specify value]" |
-| `[FORUM_SCHEDULE]` | Specify the forum schedule | "[specify value]" |
-| `[FORUM_MODERATION]` | Specify the forum moderation | "[specify value]" |
-| `[FORUM_METRICS]` | Specify the forum metrics | "[specify value]" |
-| `[STREAM_STRATEGY]` | Strategy or approach for stream | "[specify value]" |
-| `[STREAM_CHANNELS]` | Specify the stream channels | "[specify value]" |
-| `[STREAM_SCHEDULE]` | Specify the stream schedule | "[specify value]" |
-| `[STREAM_MODERATION]` | Specify the stream moderation | "[specify value]" |
-| `[STREAM_METRICS]` | Specify the stream metrics | "[specify value]" |
-| `[ESPORTS_STRATEGY]` | Strategy or approach for esports | "[specify value]" |
-| `[ESPORTS_CHANNELS]` | Specify the esports channels | "[specify value]" |
-| `[ESPORTS_SCHEDULE]` | Specify the esports schedule | "[specify value]" |
-| `[ESPORTS_MODERATION]` | Specify the esports moderation | "[specify value]" |
-| `[ESPORTS_METRICS]` | Specify the esports metrics | "[specify value]" |
-| `[UGC_STRATEGY]` | Strategy or approach for ugc | "[specify value]" |
-| `[UGC_CHANNELS]` | Specify the ugc channels | "[specify value]" |
-| `[UGC_SCHEDULE]` | Specify the ugc schedule | "[specify value]" |
-| `[UGC_MODERATION]` | Specify the ugc moderation | "[specify value]" |
-| `[UGC_METRICS]` | Specify the ugc metrics | "[specify value]" |
-| `[SUPPORT_STRATEGY]` | Strategy or approach for support | "[specify value]" |
-| `[SUPPORT_CHANNELS]` | Specify the support channels | "[specify value]" |
-| `[SUPPORT_SCHEDULE]` | Specify the support schedule | "[specify value]" |
-| `[SUPPORT_MODERATION]` | Specify the support moderation | "[specify value]" |
-| `[SUPPORT_METRICS]` | Specify the support metrics | "[specify value]" |
-| `[PATCH_SCHEDULE]` | Specify the patch schedule | "[specify value]" |
-| `[CONTENT_ROADMAP]` | Specify the content roadmap | "[specify value]" |
+| `[SOCIAL_STRATEGY]` | Social media strategy | "daily engagement", "community highlights", "dev transparency" |
+| `[SOCIAL_CHANNELS]` | Social media channels | "Twitter/X", "Instagram", "TikTok", "YouTube", "Facebook" |
+| `[SOCIAL_SCHEDULE]` | Social posting schedule | "3-5 posts daily", "real-time event coverage", "scheduled content calendar" |
+| `[SOCIAL_MODERATION]` | Social moderation | "community guidelines", "hate speech filtering", "spam prevention" |
+| `[SOCIAL_METRICS]` | Social success metrics | "follower growth", "engagement rate", "sentiment tracking" |
+| `[FORUM_STRATEGY]` | Forum community strategy | "official forums", "Reddit presence", "dev AMAs" |
+| `[FORUM_CHANNELS]` | Forum platforms | "Discord server", "Reddit subreddit", "Steam forums", "official website forums" |
+| `[FORUM_SCHEDULE]` | Forum engagement schedule | "daily community manager presence", "weekly dev updates" |
+| `[FORUM_MODERATION]` | Forum moderation | "volunteer mod program", "clear rules", "ban escalation process" |
+| `[FORUM_METRICS]` | Forum success metrics | "active users", "post volume", "sentiment analysis" |
+| `[STREAM_STRATEGY]` | Streaming strategy | "dev streams", "creator partnerships", "launch events" |
+| `[STREAM_CHANNELS]` | Streaming platforms | "Twitch", "YouTube Gaming", "Facebook Gaming" |
+| `[STREAM_SCHEDULE]` | Stream schedule | "weekly dev streams", "major update reveals", "community events" |
+| `[STREAM_MODERATION]` | Stream moderation | "chat moderators", "timeout/ban protocols", "family-friendly options" |
+| `[STREAM_METRICS]` | Stream success metrics | "concurrent viewers", "watch time", "chat engagement" |
+| `[ESPORTS_STRATEGY]` | Esports strategy | "competitive scene support", "tournament infrastructure", "pro player cultivation" |
+| `[ESPORTS_CHANNELS]` | Esports platforms | "official tournaments", "third-party support", "grassroots events" |
+| `[ESPORTS_SCHEDULE]` | Esports schedule | "weekly community cups", "monthly ranked seasons", "annual championships" |
+| `[ESPORTS_MODERATION]` | Esports moderation | "anti-cheat enforcement", "competitive integrity rules", "match fixing prevention" |
+| `[ESPORTS_METRICS]` | Esports success metrics | "tournament participation", "viewership", "prize pool growth" |
+| `[UGC_STRATEGY]` | User-generated content strategy | "mod support", "level editor", "creator tools" |
+| `[UGC_CHANNELS]` | UGC platforms | "Steam Workshop", "in-game sharing", "creator hub website" |
+| `[UGC_SCHEDULE]` | UGC curation schedule | "featured creator spotlights", "community challenges", "mod showcases" |
+| `[UGC_MODERATION]` | UGC moderation | "content guidelines", "DMCA compliance", "quality curation" |
+| `[UGC_METRICS]` | UGC success metrics | "mods created", "downloads", "creator retention" |
+| `[SUPPORT_STRATEGY]` | Customer support strategy | "ticket system", "FAQ/knowledge base", "community help" |
+| `[SUPPORT_CHANNELS]` | Support channels | "in-game support", "email tickets", "social media support" |
+| `[SUPPORT_SCHEDULE]` | Support availability | "24/7 for critical issues", "business hours for general" |
+| `[SUPPORT_MODERATION]` | Support quality control | "response time SLAs", "satisfaction surveys", "escalation paths" |
+| `[SUPPORT_METRICS]` | Support success metrics | "ticket resolution time", "satisfaction score", "first contact resolution" |
+| `[PATCH_SCHEDULE]` | Patch release schedule | "hotfixes within 48hrs", "weekly patches", "monthly major updates" |
+| `[CONTENT_ROADMAP]` | Content roadmap | "6-month public roadmap", "quarterly major features", "transparent development" |
 | `[BUG_PRIORITY]` | Specify the bug priority | "High" |
 | `[BALANCE_UPDATES]` | Specify the balance updates | "2025-01-15" |
-| `[NEW_FEATURES]` | Specify the new features | "[specify value]" |
-| `[SEASONAL_EVENTS]` | Specify the seasonal events | "[specify value]" |
-| `[DAU_MAU]` | Specify the dau mau | "[specify value]" |
-| `[RETENTION_RATES]` | Specify the retention rates | "[specify value]" |
-| `[ARPU_ARPPU]` | Specify the arpu arppu | "[specify value]" |
-| `[SESSION_LENGTH]` | Specify the session length | "[specify value]" |
-| `[CHURN_RATE]` | Specify the churn rate | "[specify value]" |
-| `[LIFETIME_VALUE]` | Specify the lifetime value | "[specify value]" |
-| `[REVIEW_MONITOR]` | Specify the review monitor | "[specify value]" |
-| `[SURVEY_PROGRAM]` | Specify the survey program | "[specify value]" |
-| `[BETA_TESTING]` | Specify the beta testing | "[specify value]" |
-| `[FOCUS_GROUPS]` | Specify the focus groups | "[specify value]" |
-| `[COMMUNITY_COUNCIL]` | Specify the community council | "[specify value]" |
-| `[FEEDBACK_IMPLEMENT]` | Specify the feedback implement | "[specify value]" |
-| `[SERVER_UPTIME]` | Specify the server uptime | "[specify value]" |
-| `[CRASH_RATE]` | Specify the crash rate | "[specify value]" |
-| `[LOAD_TIMES]` | Specify the load times | "[specify value]" |
-| `[FRAME_RATES]` | Specify the frame rates | "[specify value]" |
-| `[NETWORK_LATENCY]` | Specify the network latency | "[specify value]" |
-| `[BUG_VOLUME]` | Specify the bug volume | "[specify value]" |
+| `[NEW_FEATURES]` | New feature pipeline | "community-requested features", "competitive additions", "quality of life" |
+| `[SEASONAL_EVENTS]` | Seasonal events | "holiday themes", "anniversary events", "collaborative events" |
+| `[DAU_MAU]` | DAU/MAU metrics | "100K DAU target", "20% DAU/MAU ratio", "growth tracking" |
+| `[RETENTION_RATES]` | Retention tracking | "D1: 45%, D7: 25%, D30: 12%", "cohort analysis", "churn prediction" |
+| `[ARPU_ARPPU]` | Revenue metrics | "$5 ARPU", "$50 ARPPU", "LTV:CAC ratio tracking" |
+| `[SESSION_LENGTH]` | Session analytics | "20min average session", "3 sessions/day target", "engagement depth" |
+| `[CHURN_RATE]` | Churn analysis | "5% monthly churn target", "churn prediction", "win-back campaigns" |
+| `[LIFETIME_VALUE]` | LTV calculation | "$15 average LTV", "segment LTV analysis", "predictive LTV" |
+| `[REVIEW_MONITOR]` | Review monitoring | "Steam/Metacritic tracking", "sentiment analysis", "response protocol" |
+| `[SURVEY_PROGRAM]` | Player survey program | "NPS surveys", "feature feedback", "satisfaction tracking" |
+| `[BETA_TESTING]` | Ongoing beta testing | "PTR server", "opt-in beta branch", "early access updates" |
+| `[FOCUS_GROUPS]` | Focus group program | "quarterly sessions", "new feature validation", "target demographic feedback" |
+| `[COMMUNITY_COUNCIL]` | Community council | "player advisory board", "influencer feedback", "competitive player input" |
+| `[FEEDBACK_IMPLEMENT]` | Feedback implementation | "voted feature priority", "transparent roadmap", "patch notes communication" |
+| `[SERVER_UPTIME]` | Server uptime target | "99.9% uptime SLA", "maintenance windows scheduled", "incident response plan" |
+| `[CRASH_RATE]` | Crash rate monitoring | "<0.1% crash rate target", "automated crash reporting", "hotfix priority" |
+| `[LOAD_TIMES]` | Load time monitoring | "<5s initial load", "<2s level transitions", "streaming optimization" |
+| `[FRAME_RATES]` | Frame rate monitoring | "60fps target", "frame time consistency", "performance profiling" |
+| `[NETWORK_LATENCY]` | Network latency tracking | "<50ms average", "regional server deployment", "latency compensation" |
+| `[BUG_VOLUME]` | Bug volume tracking | "bugs per build", "regression rate", "fix velocity metrics" |
 
 ### 3. Asset Production Pipeline
 

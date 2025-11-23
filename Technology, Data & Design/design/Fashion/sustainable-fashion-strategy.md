@@ -97,281 +97,281 @@ Lab-Grown Materials:
 | Variable | Description | Example |
 |----------|-------------|----------|
 | `[BRAND_NAME]` | Name of the brand | "John Smith" |
-| `[PRODUCT_LINES]` | Specify the product lines | "[specify value]" |
-| `[PRODUCTION_VOLUME]` | Specify the production volume | "[specify value]" |
-| `[SUSTAINABILITY_SCORE]` | Specify the sustainability score | "[specify value]" |
-| `[CARBON_REDUCTION]` | Specify the carbon reduction | "[specify value]" |
-| `[WASTE_DIVERSION]` | Specify the waste diversion | "[specify value]" |
-| `[TRANSPARENCY_LEVEL]` | Specify the transparency level | "[specify value]" |
-| `[MATERIAL_CURRENT]` | Specify the material current | "[specify value]" |
-| `[MATERIAL_TARGET]` | Target or intended material | "[specify value]" |
-| `[MATERIAL_STRATEGY]` | Strategy or approach for material | "[specify value]" |
-| `[MATERIAL_INVEST]` | Specify the material invest | "[specify value]" |
-| `[MATERIAL_IMPACT]` | Specify the material impact | "[specify value]" |
-| `[PROD_CURRENT]` | Specify the prod current | "[specify value]" |
-| `[PROD_TARGET]` | Target or intended prod | "[specify value]" |
-| `[PROD_STRATEGY]` | Strategy or approach for prod | "[specify value]" |
-| `[PROD_INVEST]` | Specify the prod invest | "[specify value]" |
-| `[PROD_IMPACT]` | Specify the prod impact | "[specify value]" |
-| `[DIST_CURRENT]` | Specify the dist current | "[specify value]" |
-| `[DIST_TARGET]` | Target or intended dist | "[specify value]" |
-| `[DIST_STRATEGY]` | Strategy or approach for dist | "[specify value]" |
-| `[DIST_INVEST]` | Specify the dist invest | "[specify value]" |
-| `[DIST_IMPACT]` | Specify the dist impact | "[specify value]" |
-| `[USE_CURRENT]` | Specify the use current | "[specify value]" |
-| `[USE_TARGET]` | Target or intended use | "[specify value]" |
-| `[USE_STRATEGY]` | Strategy or approach for use | "[specify value]" |
-| `[USE_INVEST]` | Specify the use invest | "[specify value]" |
-| `[USE_IMPACT]` | Specify the use impact | "[specify value]" |
-| `[EOL_CURRENT]` | Specify the eol current | "[specify value]" |
-| `[EOL_TARGET]` | Target or intended eol | "[specify value]" |
-| `[EOL_STRATEGY]` | Strategy or approach for eol | "[specify value]" |
-| `[EOL_INVEST]` | Specify the eol invest | "[specify value]" |
-| `[EOL_IMPACT]` | Specify the eol impact | "[specify value]" |
-| `[SOCIAL_CURRENT]` | Specify the social current | "[specify value]" |
-| `[SOCIAL_TARGET]` | Target or intended social | "[specify value]" |
-| `[SOCIAL_STRATEGY]` | Strategy or approach for social | "[specify value]" |
-| `[SOCIAL_INVEST]` | Specify the social invest | "[specify value]" |
-| `[SOCIAL_IMPACT]` | Specify the social impact | "[specify value]" |
-| `[ORGANIC_COTTON]` | Specify the organic cotton | "[specify value]" |
-| `[LINEN_HEMP]` | Specify the linen hemp | "[specify value]" |
-| `[RESP_WOOL]` | Specify the resp wool | "[specify value]" |
-| `[PEACE_SILK]` | Specify the peace silk | "[specify value]" |
-| `[BAMBOO_TENCEL]` | Specify the bamboo tencel | "[specify value]" |
-| `[INNOVATIVE_NAT]` | Specify the innovative nat | "[specify value]" |
-| `[RECYCLED_POLY]` | Specify the recycled poly | "[specify value]" |
-| `[RECYCLED_COTTON]` | Specify the recycled cotton | "[specify value]" |
-| `[RECYCLED_NYLON]` | Specify the recycled nylon | "[specify value]" |
-| `[OCEAN_PLASTIC]` | Specify the ocean plastic | "[specify value]" |
-| `[PRE_CONSUMER]` | Specify the pre consumer | "[specify value]" |
-| `[POST_CONSUMER]` | Specify the post consumer | "[specify value]" |
-| `[BIO_LEATHER]` | Specify the bio leather | "[specify value]" |
-| `[LAB_SILK]` | Specify the lab silk | "[specify value]" |
-| `[MYCELIUM]` | Specify the mycelium | "[specify value]" |
-| `[ALGAE_FIBERS]` | Specify the algae fibers | "[specify value]" |
-| `[BACTERIAL_CELL]` | Specify the bacterial cell | "[specify value]" |
-| `[ZDHC_COMPLY]` | Specify the zdhc comply | "[specify value]" |
-| `[DYE_INNOVATION]` | Specify the dye innovation | "[specify value]" |
-| `[WATER_TREAT]` | Specify the water treat | "[specify value]" |
-| `[CHEM_RECYCLE]` | Specify the chem recycle | "[specify value]" |
-| `[NONTOXIC_FINISH]` | Specify the nontoxic finish | "[specify value]" |
-| `[BIO_TREATMENTS]` | Specify the bio treatments | "[specify value]" |
-| `[LONGEVITY_METHOD]` | Specify the longevity method | "[specify value]" |
-| `[LONGEVITY_PRODUCT]` | Specify the longevity product | "[specify value]" |
-| `[LONGEVITY_BENEFIT]` | Specify the longevity benefit | "[specify value]" |
-| `[LONGEVITY_IMPACT]` | Specify the longevity impact | "[specify value]" |
-| `[LONGEVITY_COST]` | Specify the longevity cost | "[specify value]" |
-| `[MODULAR_METHOD]` | Specify the modular method | "[specify value]" |
-| `[MODULAR_PRODUCT]` | Specify the modular product | "[specify value]" |
-| `[MODULAR_BENEFIT]` | Specify the modular benefit | "[specify value]" |
-| `[MODULAR_IMPACT]` | Specify the modular impact | "[specify value]" |
-| `[MODULAR_COST]` | Specify the modular cost | "[specify value]" |
-| `[ZEROWASTE_METHOD]` | Specify the zerowaste method | "[specify value]" |
-| `[ZEROWASTE_PRODUCT]` | Specify the zerowaste product | "[specify value]" |
-| `[ZEROWASTE_BENEFIT]` | Specify the zerowaste benefit | "[specify value]" |
-| `[ZEROWASTE_IMPACT]` | Specify the zerowaste impact | "[specify value]" |
-| `[ZEROWASTE_COST]` | Specify the zerowaste cost | "[specify value]" |
-| `[DISASSEMBLY_METHOD]` | Specify the disassembly method | "[specify value]" |
-| `[DISASSEMBLY_PRODUCT]` | Specify the disassembly product | "[specify value]" |
-| `[DISASSEMBLY_BENEFIT]` | Specify the disassembly benefit | "[specify value]" |
-| `[DISASSEMBLY_IMPACT]` | Specify the disassembly impact | "[specify value]" |
-| `[DISASSEMBLY_COST]` | Specify the disassembly cost | "[specify value]" |
-| `[MONO_METHOD]` | Specify the mono method | "[specify value]" |
-| `[MONO_PRODUCT]` | Specify the mono product | "[specify value]" |
-| `[MONO_BENEFIT]` | Specify the mono benefit | "[specify value]" |
-| `[MONO_IMPACT]` | Specify the mono impact | "[specify value]" |
-| `[MONO_COST]` | Specify the mono cost | "[specify value]" |
-| `[UPCYCLE_METHOD]` | Specify the upcycle method | "[specify value]" |
-| `[UPCYCLE_PRODUCT]` | Specify the upcycle product | "[specify value]" |
-| `[UPCYCLE_BENEFIT]` | Specify the upcycle benefit | "[specify value]" |
-| `[UPCYCLE_IMPACT]` | Specify the upcycle impact | "[specify value]" |
-| `[UPCYCLE_COST]` | Specify the upcycle cost | "[specify value]" |
-| `[FAIR_WAGE]` | Specify the fair wage | "[specify value]" |
-| `[WORK_HOURS]` | Specify the work hours | "[specify value]" |
-| `[SAFETY_STANDARDS]` | Specify the safety standards | "[specify value]" |
-| `[UNION_RIGHTS]` | Specify the union rights | "[specify value]" |
-| `[CHILD_LABOR]` | Specify the child labor | "[specify value]" |
-| `[GENDER_EQUAL]` | Specify the gender equal | "[specify value]" |
-| `[ON_DEMAND]` | Specify the on demand | "[specify value]" |
-| `[LOCAL_MFG]` | Specify the local mfg | "[specify value]" |
-| `[WATERLESS_DYE]` | Specify the waterless dye | "[specify value]" |
-| `[SOLAR_POWER]` | Specify the solar power | "[specify value]" |
-| `[WASTE_ENERGY]` | Specify the waste energy | "[specify value]" |
-| `[ARTISAN_PARTNER]` | Specify the artisan partner | "[specify value]" |
-| `[TRADITIONAL_TECH]` | Specify the traditional tech | "[specify value]" |
-| `[QUALITY_CONTROL]` | Specify the quality control | "[specify value]" |
-| `[REPAIR_SERVICE]` | Specify the repair service | "[specify value]" |
-| `[WARRANTIES]` | Specify the warranties | "[specify value]" |
-| `[HERITAGE_PRESERVE]` | Specify the heritage preserve | "[specify value]" |
-| `[BCORP_CERT]` | Specify the bcorp cert | "[specify value]" |
-| `[GOTS_CERT]` | Specify the gots cert | "[specify value]" |
-| `[C2C_CERT]` | Specify the c2c cert | "[specify value]" |
-| `[FAIRTRADE_CERT]` | Specify the fairtrade cert | "[specify value]" |
-| `[OEKOTEX_CERT]` | Specify the oekotex cert | "[specify value]" |
-| `[CARBON_NEUTRAL]` | Specify the carbon neutral | "[specify value]" |
-| `[T1_VISIBILITY]` | Specify the t1 visibility | "[specify value]" |
-| `[T1_TRACKING]` | Specify the t1 tracking | "[specify value]" |
-| `[T1_DATA]` | Specify the t1 data | "[specify value]" |
-| `[T1_VERIFY]` | Specify the t1 verify | "[specify value]" |
-| `[T1_DISCLOSURE]` | Specify the t1 disclosure | "[specify value]" |
-| `[T2_VISIBILITY]` | Specify the t2 visibility | "[specify value]" |
-| `[T2_TRACKING]` | Specify the t2 tracking | "[specify value]" |
-| `[T2_DATA]` | Specify the t2 data | "[specify value]" |
-| `[T2_VERIFY]` | Specify the t2 verify | "[specify value]" |
-| `[T2_DISCLOSURE]` | Specify the t2 disclosure | "[specify value]" |
-| `[T3_VISIBILITY]` | Specify the t3 visibility | "[specify value]" |
-| `[T3_TRACKING]` | Specify the t3 tracking | "[specify value]" |
-| `[T3_DATA]` | Specify the t3 data | "[specify value]" |
-| `[T3_VERIFY]` | Specify the t3 verify | "[specify value]" |
-| `[T3_DISCLOSURE]` | Specify the t3 disclosure | "[specify value]" |
-| `[RAW_VISIBILITY]` | Specify the raw visibility | "[specify value]" |
-| `[RAW_TRACKING]` | Specify the raw tracking | "[specify value]" |
-| `[RAW_DATA]` | Specify the raw data | "[specify value]" |
-| `[RAW_VERIFY]` | Specify the raw verify | "[specify value]" |
-| `[RAW_DISCLOSURE]` | Specify the raw disclosure | "[specify value]" |
-| `[TRANS_VISIBILITY]` | Specify the trans visibility | "[specify value]" |
-| `[TRANS_TRACKING]` | Specify the trans tracking | "[specify value]" |
-| `[TRANS_DATA]` | Specify the trans data | "[specify value]" |
-| `[TRANS_VERIFY]` | Specify the trans verify | "[specify value]" |
-| `[TRANS_DISCLOSURE]` | Specify the trans disclosure | "[specify value]" |
-| `[RETAIL_VISIBILITY]` | Specify the retail visibility | "[specify value]" |
-| `[RETAIL_TRACKING]` | Specify the retail tracking | "[specify value]" |
-| `[RETAIL_DATA]` | Specify the retail data | "[specify value]" |
-| `[RETAIL_VERIFY]` | Specify the retail verify | "[specify value]" |
-| `[RETAIL_DISCLOSURE]` | Specify the retail disclosure | "[specify value]" |
-| `[RENTAL_REVENUE]` | Specify the rental revenue | "[specify value]" |
-| `[RENTAL_SEGMENT]` | Specify the rental segment | "[specify value]" |
-| `[RENTAL_OPERATIONS]` | Specify the rental operations | "[specify value]" |
-| `[RENTAL_PROFIT]` | Specify the rental profit | "[specify value]" |
-| `[RENTAL_SCALE]` | Specify the rental scale | "[specify value]" |
-| `[RESALE_REVENUE]` | Specify the resale revenue | "[specify value]" |
-| `[RESALE_SEGMENT]` | Specify the resale segment | "[specify value]" |
-| `[RESALE_OPERATIONS]` | Specify the resale operations | "[specify value]" |
-| `[RESALE_PROFIT]` | Specify the resale profit | "[specify value]" |
-| `[RESALE_SCALE]` | Specify the resale scale | "[specify value]" |
-| `[REPAIR_REVENUE]` | Specify the repair revenue | "[specify value]" |
-| `[REPAIR_SEGMENT]` | Specify the repair segment | "[specify value]" |
-| `[REPAIR_OPERATIONS]` | Specify the repair operations | "[specify value]" |
-| `[REPAIR_PROFIT]` | Specify the repair profit | "[specify value]" |
-| `[REPAIR_SCALE]` | Specify the repair scale | "[specify value]" |
-| `[TAKEBACK_REVENUE]` | Specify the takeback revenue | "[specify value]" |
-| `[TAKEBACK_SEGMENT]` | Specify the takeback segment | "[specify value]" |
-| `[TAKEBACK_OPERATIONS]` | Specify the takeback operations | "[specify value]" |
-| `[TAKEBACK_PROFIT]` | Specify the takeback profit | "[specify value]" |
-| `[TAKEBACK_SCALE]` | Specify the takeback scale | "[specify value]" |
-| `[UPCYCLE_REVENUE]` | Specify the upcycle revenue | "[specify value]" |
-| `[UPCYCLE_SEGMENT]` | Specify the upcycle segment | "[specify value]" |
-| `[UPCYCLE_OPERATIONS]` | Specify the upcycle operations | "[specify value]" |
-| `[UPCYCLE_PROFIT]` | Specify the upcycle profit | "[specify value]" |
-| `[UPCYCLE_SCALE]` | Specify the upcycle scale | "[specify value]" |
-| `[DIGITAL_REVENUE]` | Specify the digital revenue | "[specify value]" |
-| `[DIGITAL_SEGMENT]` | Specify the digital segment | "[specify value]" |
-| `[DIGITAL_OPERATIONS]` | Specify the digital operations | "[specify value]" |
-| `[DIGITAL_PROFIT]` | Specify the digital profit | "[specify value]" |
-| `[DIGITAL_SCALE]` | Specify the digital scale | "[specify value]" |
-| `[PRODUCT_LABELS]` | Specify the product labels | "[specify value]" |
-| `[IMPACT_CALC]` | Specify the impact calc | "[specify value]" |
-| `[STORYTELLING]` | Specify the storytelling | "[specify value]" |
-| `[TRANSPARENCY_REPORTS]` | Specify the transparency reports | "[specify value]" |
-| `[EDU_CAMPAIGNS]` | Specify the edu campaigns | "[specify value]" |
-| `[AMBASSADOR_PROG]` | Specify the ambassador prog | "[specify value]" |
-| `[CARE_INSTRUCT]` | Specify the care instruct | "[specify value]" |
-| `[REPAIR_WORKSHOPS]` | Specify the repair workshops | "[specify value]" |
-| `[STYLING_SERVICE]` | Specify the styling service | "[specify value]" |
-| `[SWAP_EVENTS]` | Specify the swap events | "[specify value]" |
-| `[COCREATION]` | Specify the cocreation | "[specify value]" |
-| `[FEEDBACK_LOOPS]` | Specify the feedback loops | "[specify value]" |
-| `[MOBILE_FEATURES]` | Specify the mobile features | "[specify value]" |
-| `[VIRTUAL_TRYON]` | Specify the virtual tryon | "[specify value]" |
-| `[BLOCKCHAIN_TRACK]` | Specify the blockchain track | "[specify value]" |
-| `[GAMIFICATION]` | Specify the gamification | "[specify value]" |
-| `[SOCIAL_ACTIVISM]` | Specify the social activism | "[specify value]" |
-| `[COMMUNITY_PLATFORM]` | Specify the community platform | "[specify value]" |
-| `[SUSTAIN_REWARDS]` | Specify the sustain rewards | "[specify value]" |
-| `[CIRCULAR_REWARDS]` | Specify the circular rewards | "[specify value]" |
-| `[EDU_REWARDS]` | Specify the edu rewards | "[specify value]" |
-| `[REFERRAL_REWARDS]` | Specify the referral rewards | "[specify value]" |
-| `[IMPACT_POINTS]` | Specify the impact points | "[specify value]" |
-| `[EXCLUSIVE_ACCESS]` | Specify the exclusive access | "[specify value]" |
-| `[CARBON_BASELINE]` | Specify the carbon baseline | "[specify value]" |
-| `[CARBON_CURRENT]` | Specify the carbon current | "[specify value]" |
-| `[CARBON_TARGET]` | Target or intended carbon | "[specify value]" |
-| `[CARBON_MONITOR]` | Specify the carbon monitor | "[specify value]" |
-| `[CARBON_REPORT]` | Specify the carbon report | "[specify value]" |
-| `[WATER_BASELINE]` | Specify the water baseline | "[specify value]" |
-| `[WATER_CURRENT]` | Specify the water current | "[specify value]" |
-| `[WATER_TARGET]` | Target or intended water | "[specify value]" |
-| `[WATER_MONITOR]` | Specify the water monitor | "[specify value]" |
-| `[WATER_REPORT]` | Specify the water report | "[specify value]" |
-| `[CHEM_BASELINE]` | Specify the chem baseline | "[specify value]" |
-| `[CHEM_CURRENT]` | Specify the chem current | "[specify value]" |
-| `[CHEM_TARGET]` | Target or intended chem | "[specify value]" |
-| `[CHEM_MONITOR]` | Specify the chem monitor | "[specify value]" |
-| `[CHEM_REPORT]` | Specify the chem report | "[specify value]" |
-| `[WASTE_BASELINE]` | Specify the waste baseline | "[specify value]" |
-| `[WASTE_CURRENT]` | Specify the waste current | "[specify value]" |
-| `[WASTE_TARGET]` | Target or intended waste | "[specify value]" |
-| `[WASTE_MONITOR]` | Specify the waste monitor | "[specify value]" |
-| `[WASTE_REPORT]` | Specify the waste report | "[specify value]" |
-| `[ENERGY_BASELINE]` | Specify the energy baseline | "[specify value]" |
-| `[ENERGY_CURRENT]` | Specify the energy current | "[specify value]" |
-| `[ENERGY_TARGET]` | Target or intended energy | "[specify value]" |
-| `[ENERGY_MONITOR]` | Specify the energy monitor | "[specify value]" |
-| `[ENERGY_REPORT]` | Specify the energy report | "[specify value]" |
-| `[BIO_BASELINE]` | Specify the bio baseline | "[specify value]" |
-| `[BIO_CURRENT]` | Specify the bio current | "[specify value]" |
-| `[BIO_TARGET]` | Target or intended bio | "[specify value]" |
-| `[BIO_MONITOR]` | Specify the bio monitor | "[specify value]" |
-| `[BIO_REPORT]` | Specify the bio report | "[specify value]" |
-| `[AI_CURRENT]` | Specify the ai current | "[specify value]" |
-| `[AI_ROADMAP]` | Specify the ai roadmap | "[specify value]" |
-| `[AI_INVEST]` | Specify the ai invest | "[specify value]" |
-| `[AI_ROI]` | Specify the ai roi | "[specify value]" |
-| `[AI_RISK]` | Specify the ai risk | "[specify value]" |
-| `[BLOCKCHAIN_CURRENT]` | Specify the blockchain current | "[specify value]" |
-| `[BLOCKCHAIN_ROADMAP]` | Specify the blockchain roadmap | "[specify value]" |
-| `[BLOCKCHAIN_INVEST]` | Specify the blockchain invest | "[specify value]" |
-| `[BLOCKCHAIN_ROI]` | Specify the blockchain roi | "[specify value]" |
-| `[BLOCKCHAIN_RISK]` | Specify the blockchain risk | "[specify value]" |
-| `[IOT_CURRENT]` | Specify the iot current | "[specify value]" |
-| `[IOT_ROADMAP]` | Specify the iot roadmap | "[specify value]" |
-| `[IOT_INVEST]` | Specify the iot invest | "[specify value]" |
-| `[IOT_ROI]` | Specify the iot roi | "[specify value]" |
-| `[IOT_RISK]` | Specify the iot risk | "[specify value]" |
-| `[BIOTECH_CURRENT]` | Specify the biotech current | "[specify value]" |
-| `[BIOTECH_ROADMAP]` | Specify the biotech roadmap | "[specify value]" |
-| `[BIOTECH_INVEST]` | Specify the biotech invest | "[specify value]" |
-| `[BIOTECH_ROI]` | Specify the biotech roi | "[specify value]" |
-| `[BIOTECH_RISK]` | Specify the biotech risk | "[specify value]" |
-| `[AUTOMATION_CURRENT]` | Specify the automation current | "[specify value]" |
-| `[AUTOMATION_ROADMAP]` | Specify the automation roadmap | "[specify value]" |
-| `[AUTOMATION_INVEST]` | Specify the automation invest | "[specify value]" |
-| `[AUTOMATION_ROI]` | Specify the automation roi | "[specify value]" |
-| `[AUTOMATION_RISK]` | Specify the automation risk | "[specify value]" |
-| `[CARBON_INTENSITY]` | Specify the carbon intensity | "[specify value]" |
-| `[WATER_INTENSITY]` | Specify the water intensity | "[specify value]" |
-| `[RECYCLED_CONTENT]` | Specify the recycled content | "[specify value]" |
-| `[RENEWABLE_ENERGY]` | Specify the renewable energy | "[specify value]" |
-| `[WASTE_DIVERTED]` | Specify the waste diverted | "[specify value]" |
-| `[CIRCULARITY_RATE]` | Specify the circularity rate | "[specify value]" |
-| `[LIVING_WAGE]` | Specify the living wage | "[specify value]" |
-| `[WORKER_SAT]` | Specify the worker sat | "[specify value]" |
-| `[GENDER_GAP]` | Specify the gender gap | "[specify value]" |
-| `[TRAINING_HOURS]` | Specify the training hours | "[specify value]" |
-| `[SAFETY_INCIDENTS]` | Specify the safety incidents | "[specify value]" |
-| `[COMMUNITY_INVEST]` | Specify the community invest | "[specify value]" |
-| `[SUSTAIN_REVENUE]` | Specify the sustain revenue | "[specify value]" |
-| `[COST_SAVINGS]` | Specify the cost savings | "[specify value]" |
-| `[BRAND_VALUE]` | Specify the brand value | "[specify value]" |
-| `[CUSTOMER_ACQ]` | Specify the customer acq | "[specify value]" |
-| `[RETENTION]` | Specify the retention | "[specify value]" |
-| `[MARKET_SHARE]` | Specify the market share | "[specify value]" |
-| `[ANNUAL_REPORT]` | Specify the annual report | "[specify value]" |
-| `[QUARTERLY_UPDATE]` | Specify the quarterly update | "2025-01-15" |
-| `[REALTIME_DASH]` | Specify the realtime dash | "[specify value]" |
-| `[STAKEHOLDER_ENGAGE]` | Specify the stakeholder engage | "[specify value]" |
-| `[THIRD_PARTY_AUDIT]` | Specify the third party audit | "[specify value]" |
-| `[INDUSTRY_BENCHMARK]` | Specify the industry benchmark | "Technology" |
+| `[PRODUCT_LINES]` | Number of product lines | "3 (womenswear, menswear, accessories)", "5 (+footwear, home)", "8 (full lifestyle)" |
+| `[PRODUCTION_VOLUME]` | Annual production units | "50K", "250K", "1M", "5M" |
+| `[SUSTAINABILITY_SCORE]` | Sustainability rating percentage | "60", "75", "85", "95" |
+| `[CARBON_REDUCTION]` | Carbon reduction target percentage | "30", "50", "70", "Net zero" |
+| `[WASTE_DIVERSION]` | Waste diversion percentage | "50", "70", "85", "95" |
+| `[TRANSPARENCY_LEVEL]` | Supply chain transparency level | "Tier 1 only", "Tier 1-2", "Full supply chain", "Blockchain verified" |
+| `[MATERIAL_CURRENT]` | Current sustainable materials state | "25% certified sustainable", "40% recycled content", "60% eco-friendly" |
+| `[MATERIAL_TARGET]` | Target sustainable materials state | "75% sustainable", "90% certified", "100% regenerative" |
+| `[MATERIAL_STRATEGY]` | Materials strategy | "Organic cotton transition", "Recycled polyester priority", "Bio-based innovation" |
+| `[MATERIAL_INVEST]` | Materials investment | "500K", "2M", "5M" |
+| `[MATERIAL_IMPACT]` | Materials impact | "-40% water use", "-50% chemicals", "Carbon -30%" |
+| `[PROD_CURRENT]` | Current production state | "Traditional manufacturing", "Partial renewable energy", "Some ethical factories" |
+| `[PROD_TARGET]` | Target production state | "100% renewable energy", "Zero-waste factories", "Living wage verified" |
+| `[PROD_STRATEGY]` | Production strategy | "Local manufacturing shift", "Factory certification program", "Renewable energy transition" |
+| `[PROD_INVEST]` | Production investment | "1M", "3M", "10M" |
+| `[PROD_IMPACT]` | Production impact | "-50% emissions", "100% audited", "Zero waste to landfill" |
+| `[DIST_CURRENT]` | Current distribution state | "Standard logistics", "Some consolidated shipping", "Air freight 30%" |
+| `[DIST_TARGET]` | Target distribution state | "Carbon-neutral logistics", "Electric fleet", "Zero air freight" |
+| `[DIST_STRATEGY]` | Distribution strategy | "Regional hubs", "Ocean freight priority", "Last-mile electrification" |
+| `[DIST_INVEST]` | Distribution investment | "200K", "750K", "2M" |
+| `[DIST_IMPACT]` | Distribution impact | "-40% transport emissions", "Delivery consolidation", "Carbon-neutral shipping" |
+| `[USE_CURRENT]` | Current consumer use state | "No care guidance", "Basic wash instructions", "Limited repair options" |
+| `[USE_TARGET]` | Target consumer use state | "Extended wear programs", "Full repair services", "Care optimization app" |
+| `[USE_STRATEGY]` | Consumer use strategy | "Care education campaign", "Repair workshops", "Washing impact calculator" |
+| `[USE_INVEST]` | Consumer use investment | "100K", "400K", "1M" |
+| `[USE_IMPACT]` | Consumer use impact | "+50% garment lifespan", "-30% washing impact", "Consumer engagement +40%" |
+| `[EOL_CURRENT]` | Current end-of-life state | "No takeback", "Basic recycling", "Limited resale" |
+| `[EOL_TARGET]` | Target end-of-life state | "Full circular system", "Zero landfill", "Closed-loop recycling" |
+| `[EOL_STRATEGY]` | End-of-life strategy | "Take-back program launch", "Resale marketplace", "Fiber-to-fiber recycling" |
+| `[EOL_INVEST]` | End-of-life investment | "300K", "1M", "3M" |
+| `[EOL_IMPACT]` | End-of-life impact | "50K items reclaimed", "80% material recovery", "Zero textile waste" |
+| `[SOCIAL_CURRENT]` | Current social responsibility state | "Basic compliance", "Partial auditing", "Some living wage" |
+| `[SOCIAL_TARGET]` | Target social responsibility state | "100% living wage", "Full transparency", "Community investment" |
+| `[SOCIAL_STRATEGY]` | Social responsibility strategy | "Living wage commitment", "Worker voice programs", "Community partnerships" |
+| `[SOCIAL_INVEST]` | Social responsibility investment | "500K", "2M", "5M" |
+| `[SOCIAL_IMPACT]` | Social responsibility impact | "10K workers impacted", "100% supplier audited", "Community benefit $1M" |
+| `[ORGANIC_COTTON]` | Organic cotton percentage | "15", "35", "60", "100" |
+| `[LINEN_HEMP]` | Linen/hemp percentage | "5", "15", "30" |
+| `[RESP_WOOL]` | Responsible wool percentage | "10", "25", "50" |
+| `[PEACE_SILK]` | Peace/Ahimsa silk percentage | "2", "5", "10" |
+| `[BAMBOO_TENCEL]` | Bamboo/Tencel percentage | "10", "25", "40" |
+| `[INNOVATIVE_NAT]` | Innovative natural materials percentage | "2", "8", "15" |
+| `[RECYCLED_POLY]` | Recycled polyester percentage | "20", "50", "80" |
+| `[RECYCLED_COTTON]` | Recycled cotton percentage | "10", "25", "50" |
+| `[RECYCLED_NYLON]` | Recycled nylon percentage | "15", "40", "70" |
+| `[OCEAN_PLASTIC]` | Ocean plastic content percentage | "5", "15", "30" |
+| `[PRE_CONSUMER]` | Pre-consumer waste percentage | "10", "25", "40" |
+| `[POST_CONSUMER]` | Post-consumer waste percentage | "5", "20", "40" |
+| `[BIO_LEATHER]` | Bio-fabricated leather status | "Pilot 5%", "Scaling 20%", "Mainstream 50%" |
+| `[LAB_SILK]` | Lab-grown silk status | "R&D phase", "Trial production", "Commercial scale" |
+| `[MYCELIUM]` | Mycelium materials status | "Testing", "Limited collection", "Full integration" |
+| `[ALGAE_FIBERS]` | Algae-based fibers status | "Research partner", "Prototype stage", "Production ready" |
+| `[BACTERIAL_CELL]` | Bacterial cellulose status | "Exploring", "Development", "Small-scale production" |
+| `[ZDHC_COMPLY]` | ZDHC compliance level | "Level 1 (foundational)", "Level 2 (progressive)", "Level 3 (aspirational)" |
+| `[DYE_INNOVATION]` | Dyeing innovation | "Natural dyes 20%", "Solution dyeing 40%", "Waterless dyeing 60%" |
+| `[WATER_TREAT]` | Water treatment approach | "Basic treatment", "Zero liquid discharge", "Closed-loop recycling" |
+| `[CHEM_RECYCLE]` | Chemical recycling status | "Partner evaluation", "Pilot program", "Full integration" |
+| `[NONTOXIC_FINISH]` | Non-toxic finishes percentage | "50", "75", "100" |
+| `[BIO_TREATMENTS]` | Biodegradable treatments percentage | "25", "50", "80" |
+| `[LONGEVITY_METHOD]` | Longevity design method | "Reinforced construction", "Premium materials", "Classic styling" |
+| `[LONGEVITY_PRODUCT]` | Longevity product application | "Core basics", "Outerwear", "Investment pieces" |
+| `[LONGEVITY_BENEFIT]` | Longevity consumer benefit | "5+ year lifespan", "Cost-per-wear value", "Timeless wardrobe" |
+| `[LONGEVITY_IMPACT]` | Longevity environmental impact | "-60% replacements", "Resource savings", "Waste reduction" |
+| `[LONGEVITY_COST]` | Longevity cost implication | "+15% production cost", "+10% materials", "Premium pricing justified" |
+| `[MODULAR_METHOD]` | Modular design method | "Interchangeable parts", "Convertible designs", "Customizable elements" |
+| `[MODULAR_PRODUCT]` | Modular product application | "Jackets with detachable linings", "Multi-way dresses", "Adaptable accessories" |
+| `[MODULAR_BENEFIT]` | Modular consumer benefit | "Multiple styling options", "Seasonal adaptability", "Extended use cases" |
+| `[MODULAR_IMPACT]` | Modular environmental impact | "-40% wardrobe size needed", "Fewer purchases", "Resource efficiency" |
+| `[MODULAR_COST]` | Modular cost implication | "+20% design complexity", "+25% production", "Higher retail premium" |
+| `[ZEROWASTE_METHOD]` | Zero-waste design method | "Geometric pattern cutting", "Knit-to-shape", "3D seamless construction" |
+| `[ZEROWASTE_PRODUCT]` | Zero-waste product application | "T-shirts, dresses", "Knitwear", "Draped garments" |
+| `[ZEROWASTE_BENEFIT]` | Zero-waste consumer benefit | "Unique designs", "Sustainability story", "Premium feel" |
+| `[ZEROWASTE_IMPACT]` | Zero-waste environmental impact | "Zero cutting waste", "-15% material usage", "Closed-loop production" |
+| `[ZEROWASTE_COST]` | Zero-waste cost implication | "+30% design time", "Specialized skills", "Higher initial investment" |
+| `[DISASSEMBLY_METHOD]` | Disassembly design method | "Snap/button construction", "Single-thread seams", "Removable components" |
+| `[DISASSEMBLY_PRODUCT]` | Disassembly product application | "Jackets, coats", "Multi-material items", "Technical wear" |
+| `[DISASSEMBLY_BENEFIT]` | Disassembly consumer benefit | "Component replacement", "Easy repair", "End-of-life recycling" |
+| `[DISASSEMBLY_IMPACT]` | Disassembly environmental impact | "90%+ recyclability", "Material recovery", "Circular potential" |
+| `[DISASSEMBLY_COST]` | Disassembly cost implication | "+15% hardware costs", "Training required", "Long-term savings" |
+| `[MONO_METHOD]` | Mono-material design method | "100% single fiber", "Matching threads/labels", "Compatible trims" |
+| `[MONO_PRODUCT]` | Mono-material product application | "Cotton basics", "Wool knitwear", "Polyester activewear" |
+| `[MONO_BENEFIT]` | Mono-material consumer benefit | "Easy care", "Recyclable", "Transparency" |
+| `[MONO_IMPACT]` | Mono-material environmental impact | "100% recyclable", "No separation needed", "Closed-loop ready" |
+| `[MONO_COST]` | Mono-material cost implication | "Material premium 10%", "Simpler production", "Recycling value" |
+| `[UPCYCLE_METHOD]` | Upcycling design method | "Deadstock transformation", "Vintage redesign", "Scrap integration" |
+| `[UPCYCLE_PRODUCT]` | Upcycling product application | "Limited editions", "One-of-a-kind pieces", "Collaborative collections" |
+| `[UPCYCLE_BENEFIT]` | Upcycling consumer benefit | "Unique items", "Story-rich products", "Sustainability credentials" |
+| `[UPCYCLE_IMPACT]` | Upcycling environmental impact | "Zero new materials", "Waste diversion", "Creative reuse" |
+| `[UPCYCLE_COST]` | Upcycling cost implication | "Variable material costs", "Higher labor", "Premium pricing potential" |
+| `[FAIR_WAGE]` | Fair wage policy | "Minimum wage compliance", "Living wage commitment", "Living wage verified 100%" |
+| `[WORK_HOURS]` | Working hours policy | "Legal maximum", "48-hour week", "No forced overtime" |
+| `[SAFETY_STANDARDS]` | Safety standards | "Local compliance", "ILO standards", "Best-in-class" |
+| `[UNION_RIGHTS]` | Union rights policy | "Non-interference", "Supported", "Actively promoted" |
+| `[CHILD_LABOR]` | Child labor policy | "Legal minimum age", "15+ policy", "Zero tolerance + verification" |
+| `[GENDER_EQUAL]` | Gender equality metrics | "Equal pay policy", "Women leadership 40%", "Parental leave parity" |
+| `[ON_DEMAND]` | On-demand production percentage | "10", "30", "50" |
+| `[LOCAL_MFG]` | Local manufacturing percentage | "20", "50", "80" |
+| `[WATERLESS_DYE]` | Waterless dyeing percentage | "15", "40", "70" |
+| `[SOLAR_POWER]` | Solar-powered facilities percentage | "25", "60", "100" |
+| `[WASTE_ENERGY]` | Waste-to-energy implementation | "Pilot program", "50% facilities", "Full implementation" |
+| `[ARTISAN_PARTNER]` | Artisan partnerships count | "5 cooperatives", "15 partnerships", "50+ artisan groups" |
+| `[TRADITIONAL_TECH]` | Traditional techniques preserved | "Hand weaving", "Natural dyeing", "Embroidery crafts" |
+| `[QUALITY_CONTROL]` | Quality control level | "Random sampling", "100% inspection", "AI-enhanced QC" |
+| `[REPAIR_SERVICE]` | Repair service offering | "Basic repairs", "Full service", "Lifetime repairs" |
+| `[WARRANTIES]` | Warranty coverage | "1 year", "3 years", "Lifetime guarantee" |
+| `[HERITAGE_PRESERVE]` | Heritage preservation programs | "Documentation", "Training programs", "Artisan schools" |
+| `[BCORP_CERT]` | B Corp certification status | "Assessment started", "Pending certification", "Certified 90+ score" |
+| `[GOTS_CERT]` | GOTS certification coverage | "25% products", "60% products", "100% organic products" |
+| `[C2C_CERT]` | Cradle to Cradle certification | "Bronze level", "Silver level", "Gold/Platinum level" |
+| `[FAIRTRADE_CERT]` | Fair Trade certification | "Cotton certified", "Multi-ingredient", "Full supply chain" |
+| `[OEKOTEX_CERT]` | OEKO-TEX certification | "Standard 100", "Made in Green", "STeP certified facilities" |
+| `[CARBON_NEUTRAL]` | Carbon neutral status | "Offset purchasing", "Science-based targets", "Net zero verified" |
+| `[T1_VISIBILITY]` | Tier 1 supplier visibility | "80%", "95%", "100%" |
+| `[T1_TRACKING]` | Tier 1 tracking technology | "Spreadsheets", "ERP integration", "Blockchain + IoT" |
+| `[T1_DATA]` | Tier 1 data collected | "Location, capacity", "+Certifications, audits", "+Real-time metrics" |
+| `[T1_VERIFY]` | Tier 1 verification method | "Self-assessment", "Third-party audits", "Continuous monitoring" |
+| `[T1_DISCLOSURE]` | Tier 1 public disclosure | "Name + country", "+Address, workers", "Full factory profiles" |
+| `[T2_VISIBILITY]` | Tier 2 supplier visibility | "40%", "70%", "95%" |
+| `[T2_TRACKING]` | Tier 2 tracking technology | "Manual surveys", "Supplier platform", "Integrated traceability" |
+| `[T2_DATA]` | Tier 2 data collected | "Basic identification", "+Processing methods", "+Environmental data" |
+| `[T2_VERIFY]` | Tier 2 verification method | "Supplier declarations", "Sample audits", "Third-party verification" |
+| `[T2_DISCLOSURE]` | Tier 2 public disclosure | "Aggregate data", "Select suppliers", "Full disclosure" |
+| `[T3_VISIBILITY]` | Tier 3 supplier visibility | "20%", "50%", "80%" |
+| `[T3_TRACKING]` | Tier 3 tracking technology | "Supplier relationships", "Mapping tools", "Digital product passports" |
+| `[T3_DATA]` | Tier 3 data collected | "Material origins", "+Certifications", "+Chain of custody" |
+| `[T3_VERIFY]` | Tier 3 verification method | "Certifications", "Site visits", "Third-party traceability" |
+| `[T3_DISCLOSURE]` | Tier 3 public disclosure | "None", "Key suppliers", "Full transparency" |
+| `[RAW_VISIBILITY]` | Raw material visibility | "10%", "40%", "75%" |
+| `[RAW_TRACKING]` | Raw material tracking | "Certificates of origin", "Batch tracking", "Farm-to-fiber traceability" |
+| `[RAW_DATA]` | Raw material data collected | "Country of origin", "+Farm/facility", "+Environmental metrics" |
+| `[RAW_VERIFY]` | Raw material verification | "Certifications only", "Spot checks", "Chain of custody verified" |
+| `[RAW_DISCLOSURE]` | Raw material disclosure | "Material type", "+Origin country", "Full source disclosure" |
+| `[TRANS_VISIBILITY]` | Transportation visibility | "50%", "75%", "95%" |
+| `[TRANS_TRACKING]` | Transportation tracking | "Shipment records", "GPS tracking", "Real-time monitoring" |
+| `[TRANS_DATA]` | Transportation data collected | "Routes, modes", "+Emissions data", "+Efficiency metrics" |
+| `[TRANS_VERIFY]` | Transportation verification | "Carrier reports", "Third-party audit", "IoT verification" |
+| `[TRANS_DISCLOSURE]` | Transportation disclosure | "Mode summary", "+Emissions reported", "Full logistics transparency" |
+| `[RETAIL_VISIBILITY]` | Retail channel visibility | "80%", "95%", "100%" |
+| `[RETAIL_TRACKING]` | Retail tracking technology | "POS data", "Inventory systems", "Omnichannel integration" |
+| `[RETAIL_DATA]` | Retail data collected | "Sales, inventory", "+Customer journey", "+Sustainability preferences" |
+| `[RETAIL_VERIFY]` | Retail verification method | "Internal audits", "Mystery shopping", "Continuous monitoring" |
+| `[RETAIL_DISCLOSURE]` | Retail channel disclosure | "Partner list", "+Store operations", "Full retail transparency" |
+| `[RENTAL_REVENUE]` | Rental revenue model | "$50-150/month subscription", "Per-item rental $20-100", "Event rental packages" |
+| `[RENTAL_SEGMENT]` | Rental target segment | "Special occasions", "Everyday luxury", "Professional wardrobe" |
+| `[RENTAL_OPERATIONS]` | Rental operations | "In-house cleaning", "Partner logistics", "Hybrid model" |
+| `[RENTAL_PROFIT]` | Rental profit margin | "15%", "25%", "35%" |
+| `[RENTAL_SCALE]` | Rental scalability | "Local/regional", "National", "International" |
+| `[RESALE_REVENUE]` | Resale revenue model | "Consignment 30% fee", "Buy/sell model", "Peer-to-peer platform" |
+| `[RESALE_SEGMENT]` | Resale target segment | "Value seekers", "Vintage enthusiasts", "Sustainability-focused" |
+| `[RESALE_OPERATIONS]` | Resale operations | "Online marketplace", "Physical stores", "Omnichannel" |
+| `[RESALE_PROFIT]` | Resale profit margin | "20%", "30%", "40%" |
+| `[RESALE_SCALE]` | Resale scalability | "5K items/month", "25K items/month", "100K+ items/month" |
+| `[REPAIR_REVENUE]` | Repair revenue model | "A la carte pricing", "Subscription repair", "Free with membership" |
+| `[REPAIR_SEGMENT]` | Repair target segment | "Existing customers", "Quality seekers", "All consumers" |
+| `[REPAIR_OPERATIONS]` | Repair operations | "In-store service", "Mail-in", "Mobile repair units" |
+| `[REPAIR_PROFIT]` | Repair profit margin | "10%", "20%", "Break-even (loyalty focus)" |
+| `[REPAIR_SCALE]` | Repair scalability | "Flagship only", "Regional hubs", "Full network" |
+| `[TAKEBACK_REVENUE]` | Take-back revenue model | "Store credit incentive", "Cash buyback", "Donation tax benefit" |
+| `[TAKEBACK_SEGMENT]` | Take-back target segment | "Loyal customers", "Closet cleaners", "All consumers" |
+| `[TAKEBACK_OPERATIONS]` | Take-back operations | "In-store drop-off", "Mail-in", "Home pickup" |
+| `[TAKEBACK_PROFIT]` | Take-back profit margin | "Indirect (loyalty)", "Neutral", "Revenue via resale" |
+| `[TAKEBACK_SCALE]` | Take-back scalability | "Pilot stores", "All stores", "National program" |
+| `[UPCYCLE_REVENUE]` | Upcycling revenue model | "Premium collection pricing", "Custom orders", "Workshop fees" |
+| `[UPCYCLE_SEGMENT]` | Upcycling target segment | "Design enthusiasts", "Collectors", "Sustainability advocates" |
+| `[UPCYCLE_OPERATIONS]` | Upcycling operations | "In-house atelier", "Partner designers", "Community makers" |
+| `[UPCYCLE_PROFIT]` | Upcycling profit margin | "25%", "40%", "60%" |
+| `[UPCYCLE_SCALE]` | Upcycling scalability | "Limited editions", "Regular collection", "On-demand service" |
+| `[DIGITAL_REVENUE]` | Digital fashion revenue | "NFT sales $50-500", "Virtual fashion $10-50", "Brand partnerships" |
+| `[DIGITAL_SEGMENT]` | Digital fashion target | "Gaming community", "Web3 early adopters", "Metaverse users" |
+| `[DIGITAL_OPERATIONS]` | Digital fashion operations | "In-house design", "External partnerships", "Platform integrations" |
+| `[DIGITAL_PROFIT]` | Digital fashion profit margin | "70%", "80%", "90%" |
+| `[DIGITAL_SCALE]` | Digital fashion scalability | "Test & learn", "Growing channel", "Major revenue stream" |
+| `[PRODUCT_LABELS]` | Product labeling approach | "QR code to impact data", "Detailed care + origin", "Digital product passport" |
+| `[IMPACT_CALC]` | Consumer impact calculator | "Carbon footprint tracker", "Water savings display", "Full lifecycle analysis" |
+| `[STORYTELLING]` | Brand storytelling | "Maker profiles", "Material journey videos", "Factory documentaries" |
+| `[TRANSPARENCY_REPORTS]` | Transparency reporting | "Annual sustainability report", "Quarterly updates", "Real-time dashboard" |
+| `[EDU_CAMPAIGNS]` | Educational campaigns | "Social media series", "In-store workshops", "School partnerships" |
+| `[AMBASSADOR_PROG]` | Ambassador program | "Customer advocates 50+", "Influencer partners 25+", "Employee ambassadors" |
+| `[CARE_INSTRUCT]` | Care instruction approach | "Extended care guides", "Video tutorials", "App-based reminders" |
+| `[REPAIR_WORKSHOPS]` | Repair workshop program | "Monthly in-store", "Online tutorials", "Community repair cafes" |
+| `[STYLING_SERVICE]` | Styling service | "Personal styling", "Capsule wardrobe planning", "Virtual consultations" |
+| `[SWAP_EVENTS]` | Swap event frequency | "Quarterly events", "Monthly pop-ups", "Permanent swap stations" |
+| `[COCREATION]` | Co-creation initiatives | "Customer design input", "Community voting", "Collaborative collections" |
+| `[FEEDBACK_LOOPS]` | Customer feedback loops | "Post-purchase surveys", "Product reviews", "Sustainability advisory panel" |
+| `[MOBILE_FEATURES]` | Mobile app features | "Impact tracking", "Wardrobe management", "Circular marketplace" |
+| `[VIRTUAL_TRYON]` | Virtual try-on capability | "AR accessories", "Full body scanning", "AI fit prediction" |
+| `[BLOCKCHAIN_TRACK]` | Blockchain tracking | "Authentication only", "Full supply chain", "Consumer-facing transparency" |
+| `[GAMIFICATION]` | Gamification elements | "Sustainability badges", "Impact leaderboards", "Challenges & rewards" |
+| `[SOCIAL_ACTIVISM]` | Social activism integration | "Cause partnerships", "Donation matching", "Advocacy campaigns" |
+| `[COMMUNITY_PLATFORM]` | Community platform | "Facebook group", "Dedicated app community", "Discord/forum" |
+| `[SUSTAIN_REWARDS]` | Sustainable action rewards | "Points for eco-choices", "Discount for recycling", "Carbon credits" |
+| `[CIRCULAR_REWARDS]` | Circular participation rewards | "Take-back credit 20%", "Repair discounts", "Resale commission boost" |
+| `[EDU_REWARDS]` | Education completion rewards | "Learning badges", "Course certificates", "Exclusive content access" |
+| `[REFERRAL_REWARDS]` | Referral program rewards | "Friend discount 15%", "Points for referrals", "Tier upgrades" |
+| `[IMPACT_POINTS]` | Impact points system | "1 point per $1 eco-spend", "Bonus for circular actions", "Redeemable for products/donations" |
+| `[EXCLUSIVE_ACCESS]` | Exclusive access benefits | "Early collection access", "Limited edition priority", "VIP events" |
+| `[CARBON_BASELINE]` | Carbon baseline (tCO2e) | "10000", "50000", "200000" |
+| `[CARBON_CURRENT]` | Current carbon (tCO2e) | "8000", "35000", "140000" |
+| `[CARBON_TARGET]` | Carbon reduction target percentage | "30", "50", "Net zero" |
+| `[CARBON_MONITOR]` | Carbon monitoring method | "Annual LCA", "Quarterly tracking", "Real-time dashboard" |
+| `[CARBON_REPORT]` | Carbon reporting standard | "CDP Climate", "GHG Protocol", "SBTi validated" |
+| `[WATER_BASELINE]` | Water baseline (M liters) | "50", "200", "1000" |
+| `[WATER_CURRENT]` | Current water usage (M liters) | "40", "150", "700" |
+| `[WATER_TARGET]` | Water reduction target percentage | "20", "40", "60" |
+| `[WATER_MONITOR]` | Water monitoring method | "Supplier reporting", "Metered tracking", "Real-time monitoring" |
+| `[WATER_REPORT]` | Water reporting standard | "CDP Water", "AWS certification", "Context-based targets" |
+| `[CHEM_BASELINE]` | Chemical baseline (kg) | "5000", "25000", "100000" |
+| `[CHEM_CURRENT]` | Current chemical usage (kg) | "4000", "18000", "70000" |
+| `[CHEM_TARGET]` | Chemical reduction target percentage | "30", "50", "ZDHC aspirational" |
+| `[CHEM_MONITOR]` | Chemical monitoring method | "MRSL screening", "Wastewater testing", "ZDHC Gateway" |
+| `[CHEM_REPORT]` | Chemical reporting standard | "ZDHC MRSL", "bluesign", "OEKO-TEX ECO PASSPORT" |
+| `[WASTE_BASELINE]` | Waste baseline (tons) | "500", "2500", "10000" |
+| `[WASTE_CURRENT]` | Current waste (tons) | "400", "1800", "7000" |
+| `[WASTE_TARGET]` | Waste reduction target percentage | "50", "75", "Zero waste" |
+| `[WASTE_MONITOR]` | Waste monitoring method | "Facility reporting", "Waste audits", "Material flow analysis" |
+| `[WASTE_REPORT]` | Waste reporting standard | "GRI 306", "Zero Waste International", "Ellen MacArthur circular metrics" |
+| `[ENERGY_BASELINE]` | Energy baseline (MWh) | "10000", "50000", "200000" |
+| `[ENERGY_CURRENT]` | Current energy (MWh) | "8500", "42000", "160000" |
+| `[ENERGY_TARGET]` | Renewable energy target percentage | "50", "75", "100" |
+| `[ENERGY_MONITOR]` | Energy monitoring method | "Utility bills", "Smart meters", "Energy management system" |
+| `[ENERGY_REPORT]` | Energy reporting standard | "CDP Climate", "RE100", "ISO 50001" |
+| `[BIO_BASELINE]` | Biodiversity baseline | "No assessment", "Basic screening", "Full impact assessment" |
+| `[BIO_CURRENT]` | Current biodiversity status | "Unknown impact", "Hotspots identified", "Mitigation in progress" |
+| `[BIO_TARGET]` | Biodiversity target | "No deforestation", "Nature positive", "Regenerative sourcing" |
+| `[BIO_MONITOR]` | Biodiversity monitoring | "Supplier assessments", "Satellite monitoring", "On-ground verification" |
+| `[BIO_REPORT]` | Biodiversity reporting | "TNFD aligned", "Science Based Targets for Nature", "Annual biodiversity report" |
+| `[AI_CURRENT]` | AI current implementation | "Pilot projects", "Select applications", "Integrated across operations" |
+| `[AI_ROADMAP]` | AI future roadmap | "Demand forecasting", "Sustainability optimization", "Full AI-driven supply chain" |
+| `[AI_INVEST]` | AI investment | "200K", "1M", "5M" |
+| `[AI_ROI]` | AI expected ROI | "15", "30", "50" |
+| `[AI_RISK]` | AI risk assessment | "Low (proven tech)", "Medium (implementation)", "High (data dependency)" |
+| `[BLOCKCHAIN_CURRENT]` | Blockchain current status | "Exploration phase", "Pilot program", "Production deployment" |
+| `[BLOCKCHAIN_ROADMAP]` | Blockchain roadmap | "Authentication", "Supply chain traceability", "Consumer transparency" |
+| `[BLOCKCHAIN_INVEST]` | Blockchain investment | "100K", "500K", "2M" |
+| `[BLOCKCHAIN_ROI]` | Blockchain expected ROI | "10", "20", "35" |
+| `[BLOCKCHAIN_RISK]` | Blockchain risk assessment | "Medium (adoption)", "Low (proven platforms)", "High (scalability)" |
+| `[IOT_CURRENT]` | IoT current implementation | "Basic sensors", "Connected facilities", "Full IoT ecosystem" |
+| `[IOT_ROADMAP]` | IoT future roadmap | "Environmental monitoring", "Smart inventory", "Predictive maintenance" |
+| `[IOT_INVEST]` | IoT investment | "150K", "600K", "2M" |
+| `[IOT_ROI]` | IoT expected ROI | "20", "35", "50" |
+| `[IOT_RISK]` | IoT risk assessment | "Low (mature tech)", "Medium (integration)", "Data security" |
+| `[BIOTECH_CURRENT]` | Biotech current adoption | "Research partnerships", "Trial materials", "Production integration" |
+| `[BIOTECH_ROADMAP]` | Biotech roadmap | "Bio-leather pilot", "Lab-grown materials", "Regenerative fibers" |
+| `[BIOTECH_INVEST]` | Biotech investment | "500K", "2M", "10M" |
+| `[BIOTECH_ROI]` | Biotech expected ROI | "5", "15", "40" |
+| `[BIOTECH_RISK]` | Biotech risk assessment | "High (emerging tech)", "Medium (scaling)", "Low (proven partners)" |
+| `[AUTOMATION_CURRENT]` | Automation current status | "Manual processes", "Partial automation", "Advanced automation" |
+| `[AUTOMATION_ROADMAP]` | Automation roadmap | "Cutting automation", "Sewing robotics", "Full smart factory" |
+| `[AUTOMATION_INVEST]` | Automation investment | "300K", "1.5M", "5M" |
+| `[AUTOMATION_ROI]` | Automation expected ROI | "25", "40", "60" |
+| `[AUTOMATION_RISK]` | Automation risk assessment | "Low (proven tech)", "Medium (job transition)", "High (capital intensive)" |
+| `[CARBON_INTENSITY]` | Carbon intensity per unit (kg CO2e) | "5", "3", "1.5" |
+| `[WATER_INTENSITY]` | Water intensity per unit (liters) | "2500", "1500", "500" |
+| `[RECYCLED_CONTENT]` | Recycled content percentage | "25", "50", "80" |
+| `[RENEWABLE_ENERGY]` | Renewable energy percentage | "30", "60", "100" |
+| `[WASTE_DIVERTED]` | Waste diverted from landfill percentage | "60", "80", "95" |
+| `[CIRCULARITY_RATE]` | Circularity rate percentage | "15", "35", "60" |
+| `[LIVING_WAGE]` | Living wage coverage percentage | "50", "80", "100" |
+| `[WORKER_SAT]` | Worker satisfaction score (1-10) | "6", "7.5", "9" |
+| `[GENDER_GAP]` | Gender pay gap percentage | "15", "8", "0" |
+| `[TRAINING_HOURS]` | Annual training hours per worker | "20", "40", "80" |
+| `[SAFETY_INCIDENTS]` | Safety incidents per year | "25", "10", "<5" |
+| `[COMMUNITY_INVEST]` | Community investment amount | "100K", "500K", "2M" |
+| `[SUSTAIN_REVENUE]` | Sustainable products revenue percentage | "20", "50", "80" |
+| `[COST_SAVINGS]` | Sustainability cost savings | "500K", "2M", "5M" |
+| `[BRAND_VALUE]` | Brand value improvement percentage | "10", "20", "40" |
+| `[CUSTOMER_ACQ]` | Customer acquisition via sustainability | "+15%", "+30%", "+50%" |
+| `[RETENTION]` | Customer retention rate percentage | "60", "75", "90" |
+| `[MARKET_SHARE]` | Market share percentage | "2", "5", "10" |
+| `[ANNUAL_REPORT]` | Annual sustainability report | "GRI Standards", "SASB + GRI", "Integrated reporting" |
+| `[QUARTERLY_UPDATE]` | Quarterly update schedule | "Q1, Q2, Q3, Q4 releases", "Rolling updates", "Real-time disclosure" |
+| `[REALTIME_DASH]` | Real-time dashboard | "Internal only", "Partner access", "Public transparency" |
+| `[STAKEHOLDER_ENGAGE]` | Stakeholder engagement | "Annual survey", "Advisory council", "Continuous dialogue" |
+| `[THIRD_PARTY_AUDIT]` | Third-party audit approach | "Annual audits", "Continuous assurance", "Multi-stakeholder verification" |
+| `[INDUSTRY_BENCHMARK]` | Industry benchmark reference | "Higg Index", "Fashion Transparency Index", "B Corp comparison" |
 
 ### 3. Circular Design Principles
 

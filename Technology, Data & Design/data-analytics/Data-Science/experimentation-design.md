@@ -113,285 +113,285 @@ Randomization Strategy:
 
 | Variable | Description | Example |
 |----------|-------------|----------|
-| `[EXPERIMENT_NAME]` | Name of the experiment | "John Smith" |
-| `[HYPOTHESIS]` | Specify the hypothesis | "[specify value]" |
-| `[SAMPLE_SIZE]` | Specify the sample size | "[specify value]" |
-| `[VARIANT_COUNT]` | Specify the variant count | "10" |
-| `[DURATION]` | Specify the duration | "6 months" |
-| `[SIGNIFICANCE_LEVEL]` | Specify the significance level | "[specify value]" |
-| `[POWER_TARGET]` | Target or intended power | "[specify value]" |
-| `[MDE]` | Specify the mde | "[specify value]" |
-| `[PRIMARY_CURRENT]` | Specify the primary current | "[specify value]" |
-| `[PRIMARY_HYPOTHESIS]` | Specify the primary hypothesis | "[specify value]" |
-| `[PRIMARY_IMPACT]` | Specify the primary impact | "[specify value]" |
-| `[PRIMARY_RISK]` | Specify the primary risk | "[specify value]" |
-| `[PRIMARY_SUCCESS]` | Specify the primary success | "[specify value]" |
-| `[SECONDARY_CURRENT]` | Specify the secondary current | "[specify value]" |
-| `[SECONDARY_HYPOTHESIS]` | Specify the secondary hypothesis | "[specify value]" |
-| `[SECONDARY_IMPACT]` | Specify the secondary impact | "[specify value]" |
-| `[SECONDARY_RISK]` | Specify the secondary risk | "[specify value]" |
-| `[SECONDARY_SUCCESS]` | Specify the secondary success | "[specify value]" |
-| `[GUARDRAIL_CURRENT]` | Specify the guardrail current | "[specify value]" |
-| `[GUARDRAIL_HYPOTHESIS]` | Specify the guardrail hypothesis | "[specify value]" |
-| `[GUARDRAIL_IMPACT]` | Specify the guardrail impact | "[specify value]" |
-| `[GUARDRAIL_RISK]` | Specify the guardrail risk | "[specify value]" |
-| `[GUARDRAIL_SUCCESS]` | Specify the guardrail success | "[specify value]" |
-| `[UX_CURRENT]` | Specify the ux current | "[specify value]" |
-| `[UX_HYPOTHESIS]` | Specify the ux hypothesis | "[specify value]" |
-| `[UX_IMPACT]` | Specify the ux impact | "[specify value]" |
-| `[UX_RISK]` | Specify the ux risk | "[specify value]" |
-| `[UX_SUCCESS]` | Specify the ux success | "[specify value]" |
-| `[BUSINESS_CURRENT]` | Specify the business current | "[specify value]" |
-| `[BUSINESS_HYPOTHESIS]` | Specify the business hypothesis | "[specify value]" |
-| `[BUSINESS_IMPACT]` | Specify the business impact | "[specify value]" |
-| `[BUSINESS_RISK]` | Specify the business risk | "[specify value]" |
-| `[BUSINESS_SUCCESS]` | Specify the business success | "[specify value]" |
-| `[TECH_CURRENT]` | Specify the tech current | "[specify value]" |
-| `[TECH_HYPOTHESIS]` | Specify the tech hypothesis | "[specify value]" |
-| `[TECH_IMPACT]` | Specify the tech impact | "[specify value]" |
-| `[TECH_RISK]` | Specify the tech risk | "[specify value]" |
-| `[TECH_SUCCESS]` | Specify the tech success | "[specify value]" |
-| `[BASELINE_RATE]` | Specify the baseline rate | "[specify value]" |
-| `[POWER]` | Specify the power | "[specify value]" |
-| `[ALPHA]` | Specify the alpha | "[specify value]" |
-| `[TEST_TYPE]` | Type or category of test | "Standard" |
-| `[RANDOM_UNIT]` | Specify the random unit | "[specify value]" |
-| `[ASSIGN_METHOD]` | Specify the assign method | "[specify value]" |
-| `[STRATIFY_VARS]` | Specify the stratify vars | "[specify value]" |
-| `[BLOCK_RANDOM]` | Specify the block random | "[specify value]" |
-| `[BALANCE_CHECKS]` | Specify the balance checks | "[specify value]" |
-| `[SPILLOVER_CONTROL]` | Specify the spillover control | "[specify value]" |
-| `[MIN_DURATION]` | Specify the min duration | "6 months" |
-| `[MAX_DURATION]` | Specify the max duration | "6 months" |
-| `[WEEKLY_SAMPLE]` | Specify the weekly sample | "[specify value]" |
-| `[SEASONALITY]` | Specify the seasonality | "[specify value]" |
-| `[EARLY_STOP]` | Specify the early stop | "[specify value]" |
-| `[EXTENSION_CRITERIA]` | Specify the extension criteria | "[specify value]" |
-| `[NUM_COMPARISONS]` | Specify the num comparisons | "[specify value]" |
-| `[CORRECTION_METHOD]` | Specify the correction method | "[specify value]" |
-| `[ADJUSTED_ALPHA]` | Specify the adjusted alpha | "[specify value]" |
-| `[FWER]` | Specify the fwer | "[specify value]" |
-| `[FDR]` | Specify the fdr | "[specify value]" |
-| `[CONTROL_DESC]` | Specify the control desc | "[specify value]" |
-| `[CONTROL_CHANGES]` | Specify the control changes | "[specify value]" |
-| `[CONTROL_IMPL]` | Specify the control impl | "[specify value]" |
-| `[CONTROL_TRACK]` | Specify the control track | "[specify value]" |
-| `[CONTROL_QA]` | Specify the control qa | "[specify value]" |
-| `[VARIANT_A_DESC]` | Specify the variant a desc | "[specify value]" |
-| `[VARIANT_A_CHANGES]` | Specify the variant a changes | "[specify value]" |
-| `[VARIANT_A_IMPL]` | Specify the variant a impl | "[specify value]" |
-| `[VARIANT_A_TRACK]` | Specify the variant a track | "[specify value]" |
-| `[VARIANT_A_QA]` | Specify the variant a qa | "[specify value]" |
-| `[VARIANT_B_DESC]` | Specify the variant b desc | "[specify value]" |
-| `[VARIANT_B_CHANGES]` | Specify the variant b changes | "[specify value]" |
-| `[VARIANT_B_IMPL]` | Specify the variant b impl | "[specify value]" |
-| `[VARIANT_B_TRACK]` | Specify the variant b track | "[specify value]" |
-| `[VARIANT_B_QA]` | Specify the variant b qa | "[specify value]" |
-| `[VARIANT_C_DESC]` | Specify the variant c desc | "[specify value]" |
-| `[VARIANT_C_CHANGES]` | Specify the variant c changes | "[specify value]" |
-| `[VARIANT_C_IMPL]` | Specify the variant c impl | "[specify value]" |
-| `[VARIANT_C_TRACK]` | Specify the variant c track | "[specify value]" |
-| `[VARIANT_C_QA]` | Specify the variant c qa | "[specify value]" |
-| `[VARIANT_D_DESC]` | Specify the variant d desc | "[specify value]" |
-| `[VARIANT_D_CHANGES]` | Specify the variant d changes | "[specify value]" |
-| `[VARIANT_D_IMPL]` | Specify the variant d impl | "[specify value]" |
-| `[VARIANT_D_TRACK]` | Specify the variant d track | "[specify value]" |
-| `[VARIANT_D_QA]` | Specify the variant d qa | "[specify value]" |
-| `[HOLDOUT_DESC]` | Specify the holdout desc | "[specify value]" |
-| `[HOLDOUT_CHANGES]` | Specify the holdout changes | "[specify value]" |
-| `[HOLDOUT_IMPL]` | Specify the holdout impl | "[specify value]" |
-| `[HOLDOUT_TRACK]` | Specify the holdout track | "[specify value]" |
-| `[HOLDOUT_QA]` | Specify the holdout qa | "[specify value]" |
-| `[PRIMARY_DEFINITION]` | Specify the primary definition | "[specify value]" |
-| `[PRIMARY_CALC]` | Specify the primary calc | "[specify value]" |
-| `[PRIMARY_SOURCE]` | Specify the primary source | "[specify value]" |
-| `[PRIMARY_WINDOW]` | Specify the primary window | "[specify value]" |
-| `[PRIMARY_THRESHOLD]` | Specify the primary threshold | "[specify value]" |
-| `[PRIMARY_TEST]` | Specify the primary test | "[specify value]" |
-| `[ENGAGE_METRICS]` | Specify the engage metrics | "[specify value]" |
-| `[REVENUE_METRICS]` | Specify the revenue metrics | "[specify value]" |
-| `[RETENTION_METRICS]` | Specify the retention metrics | "[specify value]" |
-| `[QUALITY_METRICS]` | Specify the quality metrics | "[specify value]" |
-| `[OPERATIONAL_METRICS]` | Specify the operational metrics | "[specify value]" |
-| `[SATISFACTION_METRICS]` | Specify the satisfaction metrics | "[specify value]" |
-| `[PERF_GUARDRAIL]` | Specify the perf guardrail | "[specify value]" |
-| `[ERROR_GUARDRAIL]` | Specify the error guardrail | "[specify value]" |
-| `[UX_GUARDRAIL]` | Specify the ux guardrail | "[specify value]" |
-| `[REVENUE_GUARDRAIL]` | Specify the revenue guardrail | "[specify value]" |
-| `[COMPLIANCE_GUARDRAIL]` | Specify the compliance guardrail | "[specify value]" |
-| `[GUARDRAIL_LIMITS]` | Specify the guardrail limits | "[specify value]" |
-| `[VALIDATION_RULES]` | Specify the validation rules | "[specify value]" |
-| `[MISSING_DATA]` | Specify the missing data | "[specify value]" |
-| `[OUTLIER_TREATMENT]` | Specify the outlier treatment | "[specify value]" |
-| `[DATA_FRESHNESS]` | Specify the data freshness | "[specify value]" |
-| `[LOGGING_ACCURACY]` | Specify the logging accuracy | "[specify value]" |
-| `[NEW_CRITERIA]` | Specify the new criteria | "[specify value]" |
-| `[NEW_SAMPLE]` | Specify the new sample | "[specify value]" |
-| `[NEW_RANDOM]` | Specify the new random | "[specify value]" |
-| `[NEW_BEHAVIOR]` | Specify the new behavior | "[specify value]" |
-| `[NEW_ANALYSIS]` | Specify the new analysis | "[specify value]" |
-| `[ACTIVE_CRITERIA]` | Specify the active criteria | "[specify value]" |
-| `[ACTIVE_SAMPLE]` | Specify the active sample | "[specify value]" |
-| `[ACTIVE_RANDOM]` | Specify the active random | "[specify value]" |
-| `[ACTIVE_BEHAVIOR]` | Specify the active behavior | "[specify value]" |
-| `[ACTIVE_ANALYSIS]` | Specify the active analysis | "[specify value]" |
-| `[POWER_CRITERIA]` | Specify the power criteria | "[specify value]" |
-| `[POWER_SAMPLE]` | Specify the power sample | "[specify value]" |
-| `[POWER_RANDOM]` | Specify the power random | "[specify value]" |
-| `[POWER_BEHAVIOR]` | Specify the power behavior | "[specify value]" |
-| `[POWER_ANALYSIS]` | Specify the power analysis | "[specify value]" |
-| `[MOBILE_CRITERIA]` | Specify the mobile criteria | "[specify value]" |
-| `[MOBILE_SAMPLE]` | Specify the mobile sample | "[specify value]" |
-| `[MOBILE_RANDOM]` | Specify the mobile random | "[specify value]" |
-| `[MOBILE_BEHAVIOR]` | Specify the mobile behavior | "[specify value]" |
-| `[MOBILE_ANALYSIS]` | Specify the mobile analysis | "[specify value]" |
-| `[GEO_CRITERIA]` | Specify the geo criteria | "[specify value]" |
-| `[GEO_SAMPLE]` | Specify the geo sample | "[specify value]" |
-| `[GEO_RANDOM]` | Specify the geo random | "[specify value]" |
-| `[GEO_BEHAVIOR]` | Specify the geo behavior | "[specify value]" |
-| `[GEO_ANALYSIS]` | Specify the geo analysis | "[specify value]" |
-| `[CUSTOM_CRITERIA]` | Specify the custom criteria | "[specify value]" |
-| `[CUSTOM_SAMPLE]` | Specify the custom sample | "[specify value]" |
-| `[CUSTOM_RANDOM]` | Specify the custom random | "[specify value]" |
-| `[CUSTOM_BEHAVIOR]` | Specify the custom behavior | "[specify value]" |
-| `[CUSTOM_ANALYSIS]` | Specify the custom analysis | "[specify value]" |
-| `[PRE_TIMELINE]` | Timeline or schedule for pre | "6 months" |
-| `[PRE_ACTIVITIES]` | Specify the pre activities | "[specify value]" |
-| `[PRE_CHECKS]` | Specify the pre checks | "[specify value]" |
-| `[PRE_CRITERIA]` | Specify the pre criteria | "[specify value]" |
-| `[PRE_ROLLBACK]` | Specify the pre rollback | "[specify value]" |
-| `[SOFT_TIMELINE]` | Timeline or schedule for soft | "6 months" |
-| `[SOFT_ACTIVITIES]` | Specify the soft activities | "[specify value]" |
-| `[SOFT_CHECKS]` | Specify the soft checks | "[specify value]" |
-| `[SOFT_CRITERIA]` | Specify the soft criteria | "[specify value]" |
-| `[SOFT_ROLLBACK]` | Specify the soft rollback | "[specify value]" |
-| `[RAMP_TIMELINE]` | Timeline or schedule for ramp | "6 months" |
-| `[RAMP_ACTIVITIES]` | Specify the ramp activities | "[specify value]" |
-| `[RAMP_CHECKS]` | Specify the ramp checks | "[specify value]" |
-| `[RAMP_CRITERIA]` | Specify the ramp criteria | "[specify value]" |
-| `[RAMP_ROLLBACK]` | Specify the ramp rollback | "[specify value]" |
-| `[FULL_TIMELINE]` | Timeline or schedule for full | "6 months" |
-| `[FULL_ACTIVITIES]` | Specify the full activities | "[specify value]" |
-| `[FULL_CHECKS]` | Specify the full checks | "[specify value]" |
-| `[FULL_CRITERIA]` | Specify the full criteria | "[specify value]" |
-| `[FULL_ROLLBACK]` | Specify the full rollback | "[specify value]" |
-| `[MONITOR_TIMELINE]` | Timeline or schedule for monitor | "6 months" |
-| `[MONITOR_ACTIVITIES]` | Specify the monitor activities | "[specify value]" |
-| `[MONITOR_CHECKS]` | Specify the monitor checks | "[specify value]" |
-| `[MONITOR_CRITERIA]` | Specify the monitor criteria | "[specify value]" |
-| `[MONITOR_ROLLBACK]` | Specify the monitor rollback | "[specify value]" |
-| `[CONCLUDE_TIMELINE]` | Timeline or schedule for conclude | "6 months" |
-| `[CONCLUDE_ACTIVITIES]` | Specify the conclude activities | "[specify value]" |
-| `[CONCLUDE_CHECKS]` | Specify the conclude checks | "[specify value]" |
-| `[CONCLUDE_CRITERIA]` | Specify the conclude criteria | "[specify value]" |
-| `[CONCLUDE_ROLLBACK]` | Specify the conclude rollback | "[specify value]" |
-| `[PRIMARY_STAT_TEST]` | Specify the primary stat test | "[specify value]" |
-| `[EFFECT_SIZE]` | Specify the effect size | "[specify value]" |
-| `[CONFIDENCE_INT]` | Specify the confidence int | "[specify value]" |
-| `[P_VALUE_THRESH]` | Specify the p value thresh | "[specify value]" |
-| `[PRACTICAL_SIG]` | Specify the practical sig | "[specify value]" |
-| `[PRIMARY_INTERPRET]` | Specify the primary interpret | "[specify value]" |
-| `[SUBGROUP_ANALYSIS]` | Specify the subgroup analysis | "[specify value]" |
-| `[INTERACTION_EFFECTS]` | Specify the interaction effects | "[specify value]" |
-| `[TIME_SERIES]` | Specify the time series | "[specify value]" |
-| `[COHORT_ANALYSIS]` | Specify the cohort analysis | "[specify value]" |
-| `[FUNNEL_ANALYSIS]` | Specify the funnel analysis | "[specify value]" |
-| `[LONGTERM_EFFECTS]` | Specify the longterm effects | "[specify value]" |
-| `[BAYESIAN_ANALYSIS]` | Specify the bayesian analysis | "[specify value]" |
-| `[SEQUENTIAL_TEST]` | Specify the sequential test | "[specify value]" |
-| `[VARIANCE_REDUCE]` | Specify the variance reduce | "[specify value]" |
-| `[CAUSAL_INFERENCE]` | Specify the causal inference | "[specify value]" |
-| `[ML_METHODS]` | Specify the ml methods | "[specify value]" |
-| `[NETWORK_EFFECTS]` | Specify the network effects | "[specify value]" |
-| `[SENSITIVITY]` | Specify the sensitivity | "[specify value]" |
-| `[BALANCE_TESTS]` | Specify the balance tests | "[specify value]" |
-| `[MANIPULATION]` | Specify the manipulation | "[specify value]" |
-| `[SRM_CHECK]` | Specify the srm check | "[specify value]" |
-| `[NOVELTY_CHECK]` | Specify the novelty check | "[specify value]" |
-| `[SELECTION_CHECK]` | Specify the selection check | "[specify value]" |
-| `[SYSTEM_METRICS]` | Specify the system metrics | "[specify value]" |
-| `[SYSTEM_THRESH]` | Specify the system thresh | "[specify value]" |
-| `[SYSTEM_ALERTS]` | Specify the system alerts | "[specify value]" |
-| `[SYSTEM_RESPONSE]` | Specify the system response | "[specify value]" |
-| `[SYSTEM_ESCALATE]` | Specify the system escalate | "[specify value]" |
-| `[DATA_METRICS]` | Specify the data metrics | "[specify value]" |
-| `[DATA_THRESH]` | Specify the data thresh | "[specify value]" |
-| `[DATA_ALERTS]` | Specify the data alerts | "[specify value]" |
-| `[DATA_RESPONSE]` | Specify the data response | "[specify value]" |
-| `[DATA_ESCALATE]` | Specify the data escalate | "[specify value]" |
-| `[UX_METRICS]` | Specify the ux metrics | "[specify value]" |
-| `[UX_THRESH]` | Specify the ux thresh | "[specify value]" |
-| `[UX_ALERTS]` | Specify the ux alerts | "[specify value]" |
-| `[UX_RESPONSE]` | Specify the ux response | "[specify value]" |
-| `[UX_ESCALATE]` | Specify the ux escalate | "[specify value]" |
-| `[STAT_METRICS]` | Specify the stat metrics | "[specify value]" |
-| `[STAT_THRESH]` | Specify the stat thresh | "[specify value]" |
-| `[STAT_ALERTS]` | Specify the stat alerts | "[specify value]" |
-| `[STAT_RESPONSE]` | Specify the stat response | "[specify value]" |
-| `[STAT_ESCALATE]` | Specify the stat escalate | "[specify value]" |
-| `[BUS_METRICS]` | Specify the bus metrics | "[specify value]" |
-| `[BUS_THRESH]` | Specify the bus thresh | "[specify value]" |
-| `[BUS_ALERTS]` | Specify the bus alerts | "[specify value]" |
-| `[BUS_RESPONSE]` | Specify the bus response | "[specify value]" |
-| `[BUS_ESCALATE]` | Specify the bus escalate | "[specify value]" |
-| `[ETHICAL_METRICS]` | Specify the ethical metrics | "[specify value]" |
-| `[ETHICAL_THRESH]` | Specify the ethical thresh | "[specify value]" |
-| `[ETHICAL_ALERTS]` | Specify the ethical alerts | "[specify value]" |
-| `[ETHICAL_RESPONSE]` | Specify the ethical response | "[specify value]" |
-| `[ETHICAL_ESCALATE]` | Specify the ethical escalate | "[specify value]" |
-| `[LAUNCH_CRITERIA]` | Specify the launch criteria | "[specify value]" |
-| `[LAUNCH_STAKE]` | Specify the launch stake | "[specify value]" |
-| `[LAUNCH_DATA]` | Specify the launch data | "[specify value]" |
-| `[LAUNCH_TIME]` | Specify the launch time | "[specify value]" |
-| `[LAUNCH_DOC]` | Specify the launch doc | "[specify value]" |
-| `[EARLY_CRITERIA]` | Specify the early criteria | "[specify value]" |
-| `[EARLY_STAKE]` | Specify the early stake | "[specify value]" |
-| `[EARLY_DATA]` | Specify the early data | "[specify value]" |
-| `[EARLY_TIME]` | Specify the early time | "[specify value]" |
-| `[EARLY_DOC]` | Specify the early doc | "[specify value]" |
-| `[ROLLOUT_CRITERIA]` | Specify the rollout criteria | "[specify value]" |
-| `[ROLLOUT_STAKE]` | Specify the rollout stake | "[specify value]" |
-| `[ROLLOUT_DATA]` | Specify the rollout data | "[specify value]" |
-| `[ROLLOUT_TIME]` | Specify the rollout time | "[specify value]" |
-| `[ROLLOUT_DOC]` | Specify the rollout doc | "[specify value]" |
-| `[ITERATE_CRITERIA]` | Specify the iterate criteria | "[specify value]" |
-| `[ITERATE_STAKE]` | Specify the iterate stake | "[specify value]" |
-| `[ITERATE_DATA]` | Specify the iterate data | "[specify value]" |
-| `[ITERATE_TIME]` | Specify the iterate time | "[specify value]" |
-| `[ITERATE_DOC]` | Specify the iterate doc | "[specify value]" |
-| `[SCALE_CRITERIA]` | Specify the scale criteria | "[specify value]" |
-| `[SCALE_STAKE]` | Specify the scale stake | "[specify value]" |
-| `[SCALE_DATA]` | Specify the scale data | "[specify value]" |
-| `[SCALE_TIME]` | Specify the scale time | "[specify value]" |
-| `[SCALE_DOC]` | Specify the scale doc | "[specify value]" |
-| `[SUNSET_CRITERIA]` | Specify the sunset criteria | "[specify value]" |
-| `[SUNSET_STAKE]` | Specify the sunset stake | "[specify value]" |
-| `[SUNSET_DATA]` | Specify the sunset data | "[specify value]" |
-| `[SUNSET_TIME]` | Specify the sunset time | "[specify value]" |
-| `[SUNSET_DOC]` | Specify the sunset doc | "[specify value]" |
-| `[HYPOTHESIS_REG]` | Specify the hypothesis reg | "[specify value]" |
-| `[DESIGN_DOCS]` | Specify the design docs | "[specify value]" |
-| `[ANALYSIS_CODE]` | Specify the analysis code | "[specify value]" |
-| `[RESULTS_REPO]` | Specify the results repo | "[specify value]" |
-| `[DECISION_LOG]` | Specify the decision log | "[specify value]" |
-| `[LESSONS]` | Specify the lessons | "[specify value]" |
-| `[WIKI_UPDATES]` | Specify the wiki updates | "2025-01-15" |
-| `[PRESENTATIONS]` | Specify the presentations | "[specify value]" |
-| `[BEST_PRACTICES]` | Specify the best practices | "[specify value]" |
-| `[FAILURE_ANALYSIS]` | Specify the failure analysis | "[specify value]" |
-| `[SUCCESS_PATTERNS]` | Specify the success patterns | "[specify value]" |
-| `[TRAINING_MAT]` | Specify the training mat | "[specify value]" |
-| `[CROSS_LEARNING]` | Specify the cross learning | "[specify value]" |
-| `[PATTERN_RECOG]` | Specify the pattern recog | "[specify value]" |
-| `[EFFECT_DATABASE]` | Specify the effect database | "[specify value]" |
-| `[VELOCITY_METRICS]` | Specify the velocity metrics | "[specify value]" |
-| `[WIN_RATE]` | Specify the win rate | "[specify value]" |
-| `[ROI_ANALYSIS]` | Specify the roi analysis | "[specify value]" |
-| `[EXP_VELOCITY]` | Specify the exp velocity | "[specify value]" |
-| `[TOOL_OPTIMIZE]` | Specify the tool optimize | "[specify value]" |
-| `[TEAM_EFFICIENCY]` | Specify the team efficiency | "[specify value]" |
-| `[STAKE_SATISFY]` | Specify the stake satisfy | "[specify value]" |
-| `[INNOVATION_INDEX]` | Specify the innovation index | "[specify value]" |
+| `[EXPERIMENT_NAME]` | Name of the experiment | "Checkout Flow Optimization", "Homepage Redesign Test", "Pricing Model A/B Test", "Onboarding Flow Experiment" |
+| `[HYPOTHESIS]` | Hypothesis being tested | "Simplified checkout will increase conversion by 5%", "New CTA button color will improve CTR", "Dynamic pricing will increase revenue without hurting satisfaction" |
+| `[SAMPLE_SIZE]` | Required sample size per variant | "50,000 users", "100K per variant", "25,000 sessions", "10K new users per arm" |
+| `[VARIANT_COUNT]` | Number of experiment variants | "2 (A/B)", "3 (A/B/C)", "4 (multivariate)", "5 (factorial design)" |
+| `[DURATION]` | Experiment duration | "2 weeks", "30 days", "6 weeks", "14 days minimum" |
+| `[SIGNIFICANCE_LEVEL]` | Statistical significance level (alpha) | "0.05", "0.01", "0.10", "0.05 (two-tailed)" |
+| `[POWER_TARGET]` | Target statistical power | "80%", "90%", "85%", "80% minimum" |
+| `[MDE]` | Minimum detectable effect | "2% relative lift", "5% absolute change", "0.5pp conversion increase", "10% improvement" |
+| `[PRIMARY_CURRENT]` | Current primary metric value | "3.5% conversion rate", "12% CTR", "$45 AOV", "68% D7 retention" |
+| `[PRIMARY_HYPOTHESIS]` | Primary metric hypothesis | "Treatment will increase conversion from 3.5% to 4.0%", "CTR will improve by 15%", "AOV will increase by $5" |
+| `[PRIMARY_IMPACT]` | Expected primary metric impact | "+0.5pp conversion (+$2M/year)", "+15% CTR", "+$5 AOV (+$10M annual)", "+5% retention" |
+| `[PRIMARY_RISK]` | Primary metric risk assessment | "Low - reversible change", "Medium - user habit disruption", "High - revenue sensitive", "Low - isolated feature" |
+| `[PRIMARY_SUCCESS]` | Primary metric success criteria | "Statistically significant lift >2%", "p<0.05 with >3% lift", "95% CI excludes zero", "MDE achieved at 80% power" |
+| `[SECONDARY_CURRENT]` | Current secondary metrics | "Bounce rate: 45%, Time on page: 2.5min", "Add-to-cart: 8%, Wishlist: 3%", "Sessions/user: 4.2, Pages/session: 5.8" |
+| `[SECONDARY_HYPOTHESIS]` | Secondary metrics hypothesis | "Engagement metrics will remain stable or improve", "Secondary KPIs neutral or positive", "No degradation in related metrics" |
+| `[SECONDARY_IMPACT]` | Expected secondary impact | "Neutral to +5% engagement", "Slight improvement in time-on-site", "Maintain or improve NPS" |
+| `[SECONDARY_RISK]` | Secondary metrics risk | "Low - independent of primary", "Medium - correlated with primary", "Low - informational only" |
+| `[SECONDARY_SUCCESS]` | Secondary success criteria | "No significant degradation (>5% drop)", "Within historical variance", "Directionally positive" |
+| `[GUARDRAIL_CURRENT]` | Current guardrail metric values | "Page load: 2.1s, Error rate: 0.1%, Revenue/user: $12", "NPS: 45, Support tickets: 100/day" |
+| `[GUARDRAIL_HYPOTHESIS]` | Guardrail hypothesis | "No negative impact on performance or errors", "User experience maintained", "Revenue protected" |
+| `[GUARDRAIL_IMPACT]` | Expected guardrail impact | "Neutral (within 5% threshold)", "No degradation expected", "Maintain current levels" |
+| `[GUARDRAIL_RISK]` | Guardrail risk assessment | "Low - architectural change minimal", "Medium - new code paths", "High - payment flow change" |
+| `[GUARDRAIL_SUCCESS]` | Guardrail success criteria | "No statistically significant degradation", "Within +/-5% of baseline", "Error rate <0.5%" |
+| `[UX_CURRENT]` | Current UX metrics | "Task completion: 78%, Satisfaction: 4.2/5, Usability score: 72", "SUS score: 68, CSAT: 85%" |
+| `[UX_HYPOTHESIS]` | UX improvement hypothesis | "New design improves task completion by 10%", "Reduced friction increases satisfaction", "Simpler flow improves usability" |
+| `[UX_IMPACT]` | Expected UX impact | "+10% task completion", "+0.3 satisfaction score", "+8 SUS points", "Reduced support inquiries" |
+| `[UX_RISK]` | UX change risk | "Low - incremental change", "Medium - navigation change", "High - major redesign", "Low - A/B testable" |
+| `[UX_SUCCESS]` | UX success criteria | "Usability score improvement", "Positive qualitative feedback", "Reduced user complaints", "Task time reduction" |
+| `[BUSINESS_CURRENT]` | Current business metrics | "Revenue: $10M/month, Profit margin: 25%, CAC: $45", "LTV: $150, Churn: 5%/month" |
+| `[BUSINESS_HYPOTHESIS]` | Business impact hypothesis | "Treatment will increase revenue without hurting margins", "LTV improvement through better engagement" |
+| `[BUSINESS_IMPACT]` | Expected business impact | "+$2M annual revenue", "+5% margin improvement", "-10% CAC", "+15% LTV" |
+| `[BUSINESS_RISK]` | Business risk assessment | "Medium - revenue at risk during test", "Low - isolated segment", "High - core funnel change" |
+| `[BUSINESS_SUCCESS]` | Business success criteria | "Positive ROI within 6 months", "Revenue lift covers implementation cost", "Margin maintained or improved" |
+| `[TECH_CURRENT]` | Current technical state | "Page load: 2.1s, API latency: 150ms, Uptime: 99.9%", "Error rate: 0.1%, Mobile performance: 75/100" |
+| `[TECH_HYPOTHESIS]` | Technical hypothesis | "New implementation maintains performance SLAs", "No degradation in system reliability" |
+| `[TECH_IMPACT]` | Expected technical impact | "Neutral performance", "Slight latency increase <50ms", "Memory usage +10%", "No infrastructure changes" |
+| `[TECH_RISK]` | Technical risk assessment | "Low - feature flag isolated", "Medium - database changes", "High - third-party dependency", "Low - client-side only" |
+| `[TECH_SUCCESS]` | Technical success criteria | "Performance within SLA", "Error rate <0.5%", "No P1 incidents", "Deployment success rate 100%" |
+| `[BASELINE_RATE]` | Baseline metric rate before experiment | "3.5%", "12%", "0.08", "25% conversion", "4.2 sessions/user" |
+| `[POWER]` | Statistical power for detection | "80%", "90%", "85%", "0.80" |
+| `[ALPHA]` | Type I error rate (significance level) | "0.05", "0.01", "0.10", "5%", "0.05 two-sided" |
+| `[TEST_TYPE]` | Type of statistical test | "Two-sample t-test", "Chi-square", "Mann-Whitney U", "Z-test for proportions", "Bayesian A/B" |
+| `[RANDOM_UNIT]` | Unit of randomization | "User ID", "Session ID", "Device ID", "Cookie", "Household", "Geographic cluster" |
+| `[ASSIGN_METHOD]` | Assignment methodology | "Simple random", "Stratified random", "Deterministic hash", "Weighted assignment", "Multi-arm bandit" |
+| `[STRATIFY_VARS]` | Stratification variables | "Country, Platform, User tenure", "New vs returning, Device type", "Subscription tier, Region" |
+| `[BLOCK_RANDOM]` | Block randomization approach | "By week cohort", "By geography", "By user segment", "Time-based blocks", "None (simple random)" |
+| `[BALANCE_CHECKS]` | Pre-experiment balance checks | "Chi-square for categoricals, t-test for continuous", "Covariate balance tests", "SRM check within 24hrs" |
+| `[SPILLOVER_CONTROL]` | Spillover/interference control | "User-level isolation", "Geographic clustering", "Network randomization", "Time-based separation", "None expected" |
+| `[MIN_DURATION]` | Minimum experiment duration | "7 days", "14 days (2 full weeks)", "21 days", "1 business cycle" |
+| `[MAX_DURATION]` | Maximum experiment duration | "30 days", "6 weeks", "8 weeks", "90 days hard cap" |
+| `[WEEKLY_SAMPLE]` | Weekly sample accumulation | "50K users/week", "10K conversions/week", "100K sessions/week", "Based on traffic forecast" |
+| `[SEASONALITY]` | Seasonality considerations | "Avoid holiday periods", "Account for day-of-week effects", "Include full month cycle", "Control for promotions" |
+| `[EARLY_STOP]` | Early stopping rules | "O'Brien-Fleming boundaries", "Harm threshold at p<0.01 for degradation", "Sequential testing with alpha-spending", "No early stopping" |
+| `[EXTENSION_CRITERIA]` | Experiment extension criteria | "If power <80% at planned end", "Inconclusive results at primary endpoint", "Seasonal impact detected", "Technical issues resolved" |
+| `[NUM_COMPARISONS]` | Number of statistical comparisons | "1 (primary only)", "5 (primary + 4 secondary)", "10 (including segments)", "3 variants = 3 comparisons" |
+| `[CORRECTION_METHOD]` | Multiple comparison correction | "Bonferroni", "Benjamini-Hochberg", "Holm-Bonferroni", "Hierarchical testing", "No correction (primary pre-specified)" |
+| `[ADJUSTED_ALPHA]` | Adjusted significance level | "0.025 (Bonferroni for 2)", "0.01", "0.017 (3 comparisons)", "Sequential alpha-spending" |
+| `[FWER]` | Family-wise error rate | "0.05", "0.10", "Controlled at 5%", "Per-comparison 0.05" |
+| `[FDR]` | False discovery rate control | "0.05", "0.10", "Benjamini-Hochberg at 5%", "Not applicable (single primary)" |
+| `[CONTROL_DESC]` | Control group description | "Current production experience", "Existing checkout flow", "Original homepage design", "Baseline without feature" |
+| `[CONTROL_CHANGES]` | Control group changes | "None - unchanged from current", "No modifications", "Status quo maintained", "Existing implementation" |
+| `[CONTROL_IMPL]` | Control implementation details | "Feature flag OFF", "Default code path", "No new code deployed", "Existing production version" |
+| `[CONTROL_TRACK]` | Control tracking requirements | "Standard analytics events", "Existing tracking maintained", "Control exposure logged", "Attribution to control arm" |
+| `[CONTROL_QA]` | Control QA verification | "Verify baseline behavior", "No regression from prod", "Tracking validation", "Cross-browser testing" |
+| `[VARIANT_A_DESC]` | Variant A description | "Simplified 1-step checkout", "Green CTA button", "New onboarding flow", "Personalized recommendations" |
+| `[VARIANT_A_CHANGES]` | Variant A changes from control | "Collapsed address form", "Button color #00AA00", "3-step wizard removed", "ML model integration" |
+| `[VARIANT_A_IMPL]` | Variant A implementation | "Feature flag variant_a=true", "CSS override + React component", "New page route /checkout-v2", "API endpoint switch" |
+| `[VARIANT_A_TRACK]` | Variant A tracking | "New events: step_completion, form_interaction", "Button click tracking", "Funnel events added", "Exposure logging" |
+| `[VARIANT_A_QA]` | Variant A QA requirements | "Full regression suite", "Mobile/desktop testing", "Edge case validation", "Performance benchmark" |
+| `[VARIANT_B_DESC]` | Variant B description | "Progressive checkout with save", "Blue CTA with animation", "Video onboarding", "Category-based recommendations" |
+| `[VARIANT_B_CHANGES]` | Variant B changes from control | "Auto-save form state", "Animated button + #0066CC", "Video tutorial added", "Category affinity model" |
+| `[VARIANT_B_IMPL]` | Variant B implementation | "Feature flag variant_b=true", "Animation library added", "Video player component", "Alternate ML endpoint" |
+| `[VARIANT_B_TRACK]` | Variant B tracking | "Save state events", "Animation interaction", "Video engagement metrics", "Recommendation clicks" |
+| `[VARIANT_B_QA]` | Variant B QA requirements | "State persistence testing", "Animation performance", "Video playback validation", "Model output verification" |
+| `[VARIANT_C_DESC]` | Variant C description | "Guest checkout option", "Orange high-contrast CTA", "Interactive onboarding quiz", "Trending items recommendations" |
+| `[VARIANT_C_CHANGES]` | Variant C changes | "Skip registration option", "High contrast design", "Quiz-based personalization", "Popularity-based model" |
+| `[VARIANT_C_IMPL]` | Variant C implementation | "Feature flag variant_c=true", "Accessibility update", "Quiz component", "Trending API integration" |
+| `[VARIANT_C_TRACK]` | Variant C tracking | "Guest vs registered path", "Accessibility interactions", "Quiz completion rate", "Trending engagement" |
+| `[VARIANT_C_QA]` | Variant C QA requirements | "Guest flow E2E testing", "WCAG compliance check", "Quiz logic validation", "API response validation" |
+| `[VARIANT_D_DESC]` | Variant D description | "Express checkout (1-click)", "Minimalist CTA design", "AI-guided onboarding", "Hybrid recommendation model" |
+| `[VARIANT_D_CHANGES]` | Variant D changes | "Saved payment 1-click", "Reduced visual elements", "Conversational AI guide", "Ensemble model approach" |
+| `[VARIANT_D_IMPL]` | Variant D implementation | "Feature flag variant_d=true", "Payment tokenization", "Chatbot integration", "Multi-model orchestration" |
+| `[VARIANT_D_TRACK]` | Variant D tracking | "1-click conversion events", "Minimal UI interactions", "AI conversation logs", "Model blend attribution" |
+| `[VARIANT_D_QA]` | Variant D QA requirements | "Payment security testing", "Visual regression", "AI response validation", "Model performance testing" |
+| `[HOLDOUT_DESC]` | Holdout group description | "Long-term baseline population", "Feature-excluded control", "Clean measurement group", "Cumulative effect measurement" |
+| `[HOLDOUT_CHANGES]` | Holdout changes | "Excluded from all related experiments", "No new features", "Permanent control state", "Isolated from treatments" |
+| `[HOLDOUT_IMPL]` | Holdout implementation | "Separate holdout flag", "Excluded from feature rollouts", "Sticky assignment", "Cross-experiment exclusion" |
+| `[HOLDOUT_TRACK]` | Holdout tracking | "Full funnel metrics", "Long-term engagement", "Cumulative exposure logging", "Clean baseline metrics" |
+| `[HOLDOUT_QA]` | Holdout QA requirements | "Verify no treatment leakage", "Assignment persistence check", "Exclusion validation", "Baseline stability testing" |
+| `[PRIMARY_DEFINITION]` | Primary metric definition | "Conversion rate = Orders / Unique visitors", "CTR = Clicks / Impressions", "D7 Retention = Users active day 7 / Day 0 users" |
+| `[PRIMARY_CALC]` | Primary metric calculation method | "COUNT(orders) / COUNT(DISTINCT user_id)", "SUM(clicks) / SUM(impressions)", "Rolling 7-day average" |
+| `[PRIMARY_SOURCE]` | Primary metric data source | "Snowflake analytics.conversions table", "Google Analytics", "Amplitude events", "Internal data warehouse" |
+| `[PRIMARY_WINDOW]` | Primary metric measurement window | "Per-session", "7-day attribution window", "28-day conversion window", "Same-day only" |
+| `[PRIMARY_THRESHOLD]` | Primary metric success threshold | ">2% relative lift", "p<0.05 with positive effect", "+0.5pp absolute improvement", "95% CI excludes zero" |
+| `[PRIMARY_TEST]` | Primary metric statistical test | "Two-proportion z-test", "Welch's t-test", "Mann-Whitney U", "Bayesian posterior probability" |
+| `[ENGAGE_METRICS]` | Engagement secondary metrics | "Time on site, Pages per session, Scroll depth, Feature usage", "DAU, WAU, MAU, Sessions per user" |
+| `[REVENUE_METRICS]` | Revenue secondary metrics | "AOV, Revenue per user, Basket size, Upsell rate", "GMV, Take rate, Commission revenue" |
+| `[RETENTION_METRICS]` | Retention secondary metrics | "D1, D7, D30 retention, Churn rate, Reactivation rate", "Subscription renewal, LTV projection" |
+| `[QUALITY_METRICS]` | Quality secondary metrics | "Task completion rate, Error rate, Support tickets, Returns rate", "Refund rate, NPS, CSAT" |
+| `[OPERATIONAL_METRICS]` | Operational secondary metrics | "Page load time, API latency, Server errors, Availability", "Processing time, Queue length" |
+| `[SATISFACTION_METRICS]` | User satisfaction metrics | "NPS score, CSAT rating, CES score, App store rating", "Survey responses, Feedback sentiment" |
+| `[PERF_GUARDRAIL]` | Performance guardrail metrics | "Page load <3s, LCP <2.5s, FID <100ms, CLS <0.1", "API p99 latency <500ms" |
+| `[ERROR_GUARDRAIL]` | Error rate guardrail metrics | "Error rate <0.5%, Crash rate <0.1%, API 5xx <0.1%", "Client-side errors <1%" |
+| `[UX_GUARDRAIL]` | UX guardrail metrics | "Bounce rate increase <5%, Task abandonment <10%, Rage clicks <baseline", "Accessibility violations = 0" |
+| `[REVENUE_GUARDRAIL]` | Revenue guardrail metrics | "Revenue per user decrease <2%, AOV decrease <5%, Refund rate increase <1pp", "No negative revenue impact" |
+| `[COMPLIANCE_GUARDRAIL]` | Compliance guardrail metrics | "GDPR consent rate maintained, Cookie compliance 100%", "Accessibility WCAG AA compliance" |
+| `[GUARDRAIL_LIMITS]` | Guardrail threshold limits | "Max degradation 5%, Minimum sample for alert 1000", "Auto-stop at 10% degradation" |
+| `[VALIDATION_RULES]` | Data validation rules | "Non-null user_id, Valid timestamp, Known event types", "Referential integrity checks" |
+| `[MISSING_DATA]` | Missing data handling strategy | "Exclude from analysis", "Multiple imputation", "Last observation carried forward", "Intent-to-treat analysis" |
+| `[OUTLIER_TREATMENT]` | Outlier treatment approach | "Winsorize at 99th percentile", "Log transformation", "Exclude >3 standard deviations", "Robust statistics" |
+| `[DATA_FRESHNESS]` | Data freshness requirements | "Real-time for guardrails", "T+1 for daily metrics", "Hourly refresh", "Near real-time (<5min lag)" |
+| `[LOGGING_ACCURACY]` | Logging accuracy validation | ">99.5% event capture rate", "Cross-validation with server logs", "Sampling validation checks" |
+| `[NEW_CRITERIA]` | New users selection criteria | "First visit within experiment window", "Account created <7 days", "No prior purchases", "First-time app install" |
+| `[NEW_SAMPLE]` | New users sample size | "20K new users/week", "5K per variant", "10% of new user traffic", "Sufficient for 80% power" |
+| `[NEW_RANDOM]` | New users randomization | "Hash on user_id at first exposure", "Stratified by acquisition channel", "Bucketed by signup date" |
+| `[NEW_BEHAVIOR]` | New users expected behavior | "Higher sensitivity to UX changes", "Lower baseline metrics", "More variance in behavior", "Unbiased by prior experience" |
+| `[NEW_ANALYSIS]` | New users analysis plan | "Separate cohort analysis", "Learning curve effects", "Compare to mature user response", "Day-over-day trends" |
+| `[ACTIVE_CRITERIA]` | Active users selection criteria | "Logged in within 30 days", "2+ sessions in past week", "Made purchase in past 90 days", "DAU/MAU >0.2" |
+| `[ACTIVE_SAMPLE]` | Active users sample size | "50K active users", "Largest segment", "15K per variant needed", "80% of experiment traffic" |
+| `[ACTIVE_RANDOM]` | Active users randomization | "Consistent hash on user_id", "Pre-stratified by engagement tier", "Activity-balanced assignment" |
+| `[ACTIVE_BEHAVIOR]` | Active users expected behavior | "Established habits", "More consistent behavior", "Sensitive to workflow changes", "Higher baseline metrics" |
+| `[ACTIVE_ANALYSIS]` | Active users analysis plan | "Primary analysis population", "Habit disruption monitoring", "Long-term engagement tracking", "Revenue impact focus" |
+| `[POWER_CRITERIA]` | Power users selection criteria | "Top 10% by engagement", "5+ purchases/month", "Daily active for 30+ days", "Premium tier subscribers" |
+| `[POWER_SAMPLE]` | Power users sample size | "10K power users", "Smaller but high-value", "May require longer duration", "5K minimum per arm" |
+| `[POWER_RANDOM]` | Power users randomization | "Stratified by value tier", "Balanced by tenure", "Revenue-weighted assignment consideration" |
+| `[POWER_BEHAVIOR]` | Power users expected behavior | "Highest baseline metrics", "Most resistant to change", "Greatest revenue impact", "Vocal feedback" |
+| `[POWER_ANALYSIS]` | Power users analysis plan | "Revenue impact analysis", "Qualitative feedback collection", "Churn risk monitoring", "Feature adoption depth" |
+| `[MOBILE_CRITERIA]` | Mobile users selection criteria | "Mobile app users", "Mobile web sessions", "Primary device = mobile", "iOS or Android platform" |
+| `[MOBILE_SAMPLE]` | Mobile users sample size | "40K mobile users", "60% of total traffic", "Platform-balanced", "Sufficient per platform" |
+| `[MOBILE_RANDOM]` | Mobile users randomization | "Device ID based", "Platform-stratified", "Consistent across sessions", "Cross-device consideration" |
+| `[MOBILE_BEHAVIOR]` | Mobile users expected behavior | "Shorter sessions", "Touch interactions", "Performance sensitive", "Notification responsive" |
+| `[MOBILE_ANALYSIS]` | Mobile users analysis plan | "Platform-specific analysis", "Performance metrics priority", "App store rating monitoring", "Mobile-specific UX metrics" |
+| `[GEO_CRITERIA]` | Geographic segment criteria | "Country/region based", "Timezone clustering", "Market maturity", "Regulatory zones (EU/US/APAC)" |
+| `[GEO_SAMPLE]` | Geographic segment sample size | "US: 30K, EU: 15K, APAC: 10K", "Proportional to traffic", "Minimum 5K per major region" |
+| `[GEO_RANDOM]` | Geographic segment randomization | "Within-region randomization", "Market-level clustering", "Time zone balanced exposure" |
+| `[GEO_BEHAVIOR]` | Geographic segment expected behavior | "Cultural/UX preferences vary", "Payment method differences", "Language/localization effects", "Regulatory constraints" |
+| `[GEO_ANALYSIS]` | Geographic segment analysis plan | "Region-specific lift estimation", "Heterogeneous treatment effects", "Market-level decisions", "Localization insights" |
+| `[CUSTOM_CRITERIA]` | Custom segment criteria | "Business-defined cohort", "Propensity score matched", "Behavioral clustering", "Customer lifecycle stage" |
+| `[CUSTOM_SAMPLE]` | Custom segment sample size | "Based on segment definition", "Ensure sufficient power", "May require extended duration", "Quota-based sampling" |
+| `[CUSTOM_RANDOM]` | Custom segment randomization | "Stratified within segment", "Propensity score blocking", "Matched pair design", "Segment-specific hash" |
+| `[CUSTOM_BEHAVIOR]` | Custom segment expected behavior | "Defined by segment hypothesis", "Expected differential response", "Targeted use case behavior", "Hypothesis-specific metrics" |
+| `[CUSTOM_ANALYSIS]` | Custom segment analysis plan | "Pre-registered subgroup analysis", "Interaction effect testing", "Segment-specific success criteria", "Targeting validation" |
+| `[PRE_TIMELINE]` | Pre-launch phase timeline | "Day -7 to Day -1", "1 week before launch", "T-5 days", "Pre-experiment week" |
+| `[PRE_ACTIVITIES]` | Pre-launch activities | "Feature flag setup, QA testing, Tracking validation, Stakeholder alignment", "Documentation, Code review, Load testing" |
+| `[PRE_CHECKS]` | Pre-launch checkpoints | "Tracking accuracy verified, Feature parity confirmed, Rollback tested, Stakeholder sign-off" |
+| `[PRE_CRITERIA]` | Pre-launch go/no-go criteria | "All QA tests pass, Tracking validated, No blocking bugs, Stakeholder approval received" |
+| `[PRE_ROLLBACK]` | Pre-launch rollback plan | "Delay launch if issues found", "Fix and retest", "Escalate blockers immediately", "Update timeline if needed" |
+| `[SOFT_TIMELINE]` | Soft launch phase timeline | "Day 1-2", "48 hours", "First 2 days", "Initial exposure period" |
+| `[SOFT_ACTIVITIES]` | Soft launch activities | "1% traffic exposure, Real-time monitoring, Bug triage, Stakeholder updates", "Guardrail metric validation" |
+| `[SOFT_CHECKS]` | Soft launch checkpoints | "No critical bugs, Guardrails green, Data flowing correctly, User feedback review" |
+| `[SOFT_CRITERIA]` | Soft launch go/no-go criteria | "Error rate <0.5%, No P1 issues, Data quality confirmed, Metrics logging correctly" |
+| `[SOFT_ROLLBACK]` | Soft launch rollback plan | "Immediate 0% traffic if P1 issue", "Feature flag kill switch", "Automatic rollback triggers configured" |
+| `[RAMP_TIMELINE]` | Ramp-up phase timeline | "Day 3-7", "Week 1", "5 days ramp", "Gradual increase period" |
+| `[RAMP_ACTIVITIES]` | Ramp-up activities | "Increase to 10%, 25%, 50% traffic, Daily monitoring, Bug fixes, Performance checks", "Sample size accumulation" |
+| `[RAMP_CHECKS]` | Ramp-up checkpoints | "Metrics stable at each stage", "Performance within SLA", "No regression detected", "Sufficient sample accumulating" |
+| `[RAMP_CRITERIA]` | Ramp-up go/no-go criteria | "Guardrails stable, No degradation trends, Technical metrics green, On track for target sample" |
+| `[RAMP_ROLLBACK]` | Ramp-up rollback plan | "Roll back to previous ramp level", "Pause at current level to investigate", "Full rollback if >5% degradation" |
+| `[FULL_TIMELINE]` | Full launch phase timeline | "Day 8-21", "2 weeks at full traffic", "Days 8-14", "Full exposure period" |
+| `[FULL_ACTIVITIES]` | Full launch activities | "50/50 traffic split, Statistical monitoring, Interim analysis, Stakeholder reporting", "Sample size completion" |
+| `[FULL_CHECKS]` | Full launch checkpoints | "Sample size on track, No early stopping triggered, Metrics within expected range", "Weekly status updates" |
+| `[FULL_CRITERIA]` | Full launch go/no-go criteria | "Continue if no harm detected", "Stop early if significant harm", "Extend if underpowered" |
+| `[FULL_ROLLBACK]` | Full launch rollback plan | "Immediate rollback if harm detected", "Preserve data for analysis", "Post-incident review" |
+| `[MONITOR_TIMELINE]` | Monitoring phase timeline | "Continuous during experiment", "Daily checks", "Real-time dashboards", "Throughout experiment duration" |
+| `[MONITOR_ACTIVITIES]` | Monitoring activities | "Dashboard review, Alert triage, Data quality checks, Stakeholder updates", "Guardrail metric tracking" |
+| `[MONITOR_CHECKS]` | Monitoring checkpoints | "Daily metric review, Weekly stakeholder update, SRM checks, Balance validation" |
+| `[MONITOR_CRITERIA]` | Monitoring success criteria | "All guardrails green", "No data quality issues", "Sample accumulation on track", "No anomalies detected" |
+| `[MONITOR_ROLLBACK]` | Monitoring rollback triggers | "Automatic alert on guardrail breach", "SRM >0.01 triggers investigation", "Manual escalation path defined" |
+| `[CONCLUDE_TIMELINE]` | Conclusion phase timeline | "Day 22-25", "Final week", "Post-experiment period", "3-5 days for analysis" |
+| `[CONCLUDE_ACTIVITIES]` | Conclusion activities | "Final analysis, Statistical tests, Report generation, Decision meeting, Documentation" |
+| `[CONCLUDE_CHECKS]` | Conclusion checkpoints | "Data completeness verified, All analyses run, Results validated, Peer review completed" |
+| `[CONCLUDE_CRITERIA]` | Conclusion success criteria | "Sufficient power achieved", "Primary endpoint analyzed", "Decision documented", "Learnings captured" |
+| `[CONCLUDE_ROLLBACK]` | Conclusion rollback options | "Extend experiment if underpowered", "Follow-up experiment if inconclusive", "Ship winning variant or rollback to control" |
+| `[PRIMARY_STAT_TEST]` | Primary statistical test | "Two-sample z-test for proportions", "Welch's t-test", "Chi-square test", "Mann-Whitney U for non-normal data" |
+| `[EFFECT_SIZE]` | Effect size calculation | "Cohen's d", "Relative lift = (Treatment - Control) / Control", "Absolute difference", "Risk ratio" |
+| `[CONFIDENCE_INT]` | Confidence interval calculation | "95% CI using bootstrap", "Agresti-Coull interval for proportions", "Percentile bootstrap CI", "Wilson score interval" |
+| `[P_VALUE_THRESH]` | P-value threshold for significance | "p < 0.05", "p < 0.01 for high stakes", "p < 0.10 for exploratory", "One-sided p < 0.025" |
+| `[PRACTICAL_SIG]` | Practical significance threshold | "Minimum 2% lift for business impact", "$100K annual revenue threshold", "1pp absolute improvement", "ROI positive within 6 months" |
+| `[PRIMARY_INTERPRET]` | Primary result interpretation | "Statistically significant + practically meaningful = Ship", "Significant but small = Consider costs", "Not significant = Do not ship" |
+| `[SUBGROUP_ANALYSIS]` | Subgroup analysis approach | "Pre-registered segments only", "New vs existing users, Mobile vs desktop, Geography", "Exploratory with adjusted alpha" |
+| `[INTERACTION_EFFECTS]` | Interaction effects analysis | "Treatment x segment interaction testing", "Heterogeneous treatment effects", "Factorial ANOVA for multivariate" |
+| `[TIME_SERIES]` | Time series analysis approach | "Day-over-day effect stability", "Novelty/primacy effect detection", "Cumulative metric tracking", "Time trend regression" |
+| `[COHORT_ANALYSIS]` | Cohort analysis plan | "Weekly cohort comparison", "Entry cohort retention curves", "First exposure cohort tracking", "Maturation effects" |
+| `[FUNNEL_ANALYSIS]` | Funnel analysis approach | "Step-by-step conversion analysis", "Drop-off point identification", "Funnel velocity metrics", "Bottleneck detection" |
+| `[LONGTERM_EFFECTS]` | Long-term effect analysis | "28-day, 60-day, 90-day holdout comparison", "LTV projection", "Retention curve extrapolation", "Cumulative effect estimation" |
+| `[BAYESIAN_ANALYSIS]` | Bayesian analysis approach | "Beta-binomial for proportions", "Posterior probability of being best", "Expected loss calculation", "Credible intervals" |
+| `[SEQUENTIAL_TEST]` | Sequential testing methodology | "O'Brien-Fleming boundaries", "Alpha spending function", "Group sequential design", "Continuous monitoring bounds" |
+| `[VARIANCE_REDUCE]` | Variance reduction techniques | "CUPED (pre-experiment covariate adjustment)", "Stratified sampling", "Control variates", "Difference-in-differences" |
+| `[CAUSAL_INFERENCE]` | Causal inference methods | "Intent-to-treat analysis", "Instrumental variables", "Regression discontinuity", "Propensity score matching" |
+| `[ML_METHODS]` | Machine learning analysis methods | "Causal forests for heterogeneous effects", "CATE estimation", "Uplift modeling", "Feature importance for segmentation" |
+| `[NETWORK_EFFECTS]` | Network effects handling | "Cluster randomization", "Ego-network analysis", "Interference modeling", "Spatial regression models" |
+| `[SENSITIVITY]` | Sensitivity analysis plan | "Varying thresholds", "Exclude outliers analysis", "Intent-to-treat vs per-protocol", "Multiple imputation sensitivity" |
+| `[BALANCE_TESTS]` | Balance/covariate checks | "Chi-square for categoricals", "t-test for continuous", "Standardized mean differences", "Pre-experiment metric comparison" |
+| `[MANIPULATION]` | Manipulation check approach | "Verify treatment delivery", "Exposure logging validation", "Feature visibility confirmation", "User awareness survey" |
+| `[SRM_CHECK]` | Sample ratio mismatch check | "Chi-square test on sample sizes", "Expected vs actual ratio comparison", "Daily SRM monitoring", "Alert if p < 0.01" |
+| `[NOVELTY_CHECK]` | Novelty effect detection | "Time-windowed analysis", "New vs returning user split", "Effect decay over time", "Learning curve adjustment" |
+| `[SELECTION_CHECK]` | Selection bias validation | "Pre-treatment covariate balance", "Attrition analysis", "Survivor bias check", "Non-compliance analysis" |
+| `[SYSTEM_METRICS]` | System health monitoring metrics | "API latency p99, Error rate, CPU/Memory utilization, Request throughput", "Page load time, Server availability" |
+| `[SYSTEM_THRESH]` | System health thresholds | "Latency <500ms, Error rate <0.5%, CPU <80%", "Page load <3s, Availability >99.9%" |
+| `[SYSTEM_ALERTS]` | System health alert conditions | "Alert if latency >1s for 5min", "Page if error rate >2%", "Warning at 80% threshold" |
+| `[SYSTEM_RESPONSE]` | System health response actions | "Automated scaling trigger", "On-call notification", "Traffic reduction to variant", "Incident ticket creation" |
+| `[SYSTEM_ESCALATE]` | System health escalation path | "L1 On-call > L2 Engineering > Engineering Manager > VP Engineering", "SLA: 15min response" |
+| `[DATA_METRICS]` | Data quality monitoring metrics | "Event logging rate, Missing data percentage, Duplicate events, Schema violations", "Data freshness" |
+| `[DATA_THRESH]` | Data quality thresholds | "Logging rate >99%, Missing <1%, Duplicates <0.1%", "Freshness <1hr, Schema compliance 100%" |
+| `[DATA_ALERTS]` | Data quality alert conditions | "Alert if logging drops >5%", "Alert on schema violations", "Warning if freshness >2hr" |
+| `[DATA_RESPONSE]` | Data quality response actions | "Investigate data pipeline", "Check tracking implementation", "Validate data source", "Pause experiment if severe" |
+| `[DATA_ESCALATE]` | Data quality escalation path | "Data Engineer > Analytics Manager > Data Science Lead", "SLA: 1hr investigation start" |
+| `[UX_METRICS]` | UX monitoring metrics | "Bounce rate, Task completion, Rage clicks, Time to interact, Accessibility errors", "User complaints" |
+| `[UX_THRESH]` | UX metric thresholds | "Bounce rate increase <10%, Task completion decrease <5%", "Rage clicks <baseline, Accessibility 100%" |
+| `[UX_ALERTS]` | UX alert conditions | "Alert if bounce rate +15%", "Alert on accessibility violations", "Warning on high rage click areas" |
+| `[UX_RESPONSE]` | UX response actions | "UX review triggered", "Qualitative user feedback collection", "Hotjar/FullStory session review", "Accessibility audit" |
+| `[UX_ESCALATE]` | UX escalation path | "UX Designer > UX Manager > Product Manager", "SLA: 24hr review" |
+| `[STAT_METRICS]` | Statistical validity metrics | "Sample ratio (SRM), Effect size trend, Variance stability, P-value trajectory", "Power accumulation" |
+| `[STAT_THRESH]` | Statistical validity thresholds | "SRM p>0.01, Variance within 2x historical", "Effect size stable within CI", "On track for target power" |
+| `[STAT_ALERTS]` | Statistical validity alerts | "Alert if SRM p<0.01", "Warning if underpowered at midpoint", "Alert on unexpected variance spike" |
+| `[STAT_RESPONSE]` | Statistical validity response | "Investigate randomization", "Check for bot traffic", "Review data pipeline", "Consider experiment extension" |
+| `[STAT_ESCALATE]` | Statistical validity escalation | "Data Scientist > Analytics Manager > Experimentation Lead", "SLA: Same day investigation" |
+| `[BUS_METRICS]` | Business impact metrics | "Revenue per user, Conversion rate, AOV, Customer acquisition cost", "LTV indicators, Margin impact" |
+| `[BUS_THRESH]` | Business impact thresholds | "Revenue decline <5%, Conversion decline <3%", "AOV within 10% of baseline", "CAC increase <10%" |
+| `[BUS_ALERTS]` | Business impact alerts | "Alert if revenue -10% significant", "Warning at -5% trend", "Daily revenue variance report" |
+| `[BUS_RESPONSE]` | Business impact response | "Stakeholder notification", "Impact assessment meeting", "Consider early stopping", "Mitigation plan development" |
+| `[BUS_ESCALATE]` | Business impact escalation | "Product Manager > Director > VP Product > C-Suite", "SLA: 4hr for significant impact" |
+| `[ETHICAL_METRICS]` | Ethical monitoring metrics | "User complaints, Support ticket themes, Bias indicators, Vulnerable population impact", "Consent compliance" |
+| `[ETHICAL_THRESH]` | Ethical concern thresholds | "No harm to vulnerable groups", "Complaint rate increase <50%", "Bias metrics within fairness bounds" |
+| `[ETHICAL_ALERTS]` | Ethical concern alerts | "Alert on user harm reports", "Alert on bias detection", "Warning on consent issues" |
+| `[ETHICAL_RESPONSE]` | Ethical concern response | "Immediate ethics review", "User outreach if needed", "Treatment modification or stop", "Documentation for review board" |
+| `[ETHICAL_ESCALATE]` | Ethical concern escalation | "Ethics Committee > Legal > Executive Team", "SLA: Immediate for harm concerns" |
+| `[LAUNCH_CRITERIA]` | Launch decision criteria | "Statistically significant positive result", "p<0.05 with practical significance", "No guardrail violations", "Stakeholder alignment" |
+| `[LAUNCH_STAKE]` | Launch decision stakeholders | "Product Manager, Engineering Lead, Data Science Lead, Business Owner", "Executive sponsor for high-impact" |
+| `[LAUNCH_DATA]` | Launch decision data requirements | "Final statistical analysis", "Confidence intervals", "Segment breakdowns", "Long-term projections" |
+| `[LAUNCH_TIME]` | Launch decision timeline | "Within 3 days of experiment end", "Decision meeting scheduled", "Same-week for time-sensitive" |
+| `[LAUNCH_DOC]` | Launch decision documentation | "Decision memo with rationale", "Analysis report link", "Stakeholder sign-off record", "JIRA ticket updated" |
+| `[EARLY_CRITERIA]` | Early stopping criteria | "Significant harm detected (p<0.01)", "Guardrail breach >10%", "Critical bug discovered", "External events impact" |
+| `[EARLY_STAKE]` | Early stopping stakeholders | "Experiment owner, Product Manager, On-call engineer", "Executive for revenue impact" |
+| `[EARLY_DATA]` | Early stopping data requirements | "Real-time guardrail metrics", "Statistical significance at current sample", "Impact magnitude estimate" |
+| `[EARLY_TIME]` | Early stopping timeline | "Immediate for critical issues", "24hr review for harm signals", "Same-day decision for guardrails" |
+| `[EARLY_DOC]` | Early stopping documentation | "Incident report", "Data snapshot preservation", "Decision rationale", "Post-mortem scheduled" |
+| `[ROLLOUT_CRITERIA]` | Rollout decision criteria | "Positive experiment result", "No ramp-up issues at 50%", "Engineering capacity confirmed", "Monitoring in place" |
+| `[ROLLOUT_STAKE]` | Rollout decision stakeholders | "Product Manager, Engineering Lead, Release Manager", "QA Lead for quality sign-off" |
+| `[ROLLOUT_DATA]` | Rollout decision data requirements | "Experiment results summary", "Ramp metrics stability", "Performance benchmarks", "Risk assessment" |
+| `[ROLLOUT_TIME]` | Rollout decision timeline | "1 week after experiment conclusion", "Sprint planning alignment", "Release calendar consideration" |
+| `[ROLLOUT_DOC]` | Rollout decision documentation | "Release notes", "Feature documentation", "Rollback plan", "Monitoring dashboard" |
+| `[ITERATE_CRITERIA]` | Iteration decision criteria | "Inconclusive results", "Positive signal but not significant", "Segment-specific success", "New hypothesis generated" |
+| `[ITERATE_STAKE]` | Iteration decision stakeholders | "Product Manager, Data Scientist, UX Researcher", "Engineering for feasibility" |
+| `[ITERATE_DATA]` | Iteration decision data requirements | "Exploratory analysis", "Segment deep-dives", "User feedback", "Competitive analysis" |
+| `[ITERATE_TIME]` | Iteration decision timeline | "Within 2 weeks of experiment end", "Roadmap prioritization cycle", "Next sprint planning" |
+| `[ITERATE_DOC]` | Iteration decision documentation | "Learnings summary", "Next experiment hypothesis", "Design iteration plan", "Backlog item created" |
+| `[SCALE_CRITERIA]` | Scale decision criteria | "Proven impact at current scale", "Infrastructure readiness", "Cost/benefit positive", "Market expansion opportunity" |
+| `[SCALE_STAKE]` | Scale decision stakeholders | "VP Product, Engineering Director, Finance", "Operations for capacity" |
+| `[SCALE_DATA]` | Scale decision data requirements | "Impact extrapolation", "Infrastructure capacity plan", "Cost projections", "Market analysis" |
+| `[SCALE_TIME]` | Scale decision timeline | "Quarterly planning cycle", "Budget approval timeline", "Resource allocation review" |
+| `[SCALE_DOC]` | Scale decision documentation | "Business case document", "Scaling plan", "Resource request", "Success metrics definition" |
+| `[SUNSET_CRITERIA]` | Sunset decision criteria | "Negative experiment result", "No path to improvement", "Opportunity cost too high", "Strategic pivot" |
+| `[SUNSET_STAKE]` | Sunset decision stakeholders | "Product Manager, Engineering Lead, Business Owner", "Executive for significant investments" |
+| `[SUNSET_DATA]` | Sunset decision data requirements | "Final experiment analysis", "Investment-to-date summary", "Alternative options assessment" |
+| `[SUNSET_TIME]` | Sunset decision timeline | "Within 1 week of negative result", "Quarterly review for ongoing features", "Budget cycle alignment" |
+| `[SUNSET_DOC]` | Sunset decision documentation | "Sunset decision memo", "Learnings document", "Code cleanup plan", "Stakeholder communication" |
+| `[HYPOTHESIS_REG]` | Pre-registration documentation | "OSF pre-registration", "Internal experiment registry", "Confluence hypothesis doc", "GitHub experiment spec" |
+| `[DESIGN_DOCS]` | Experiment design documentation | "Confluence design doc", "Technical spec in Google Docs", "JIRA epic with acceptance criteria", "Notion experiment brief" |
+| `[ANALYSIS_CODE]` | Analysis code repository | "GitHub: experiments/[experiment-name]", "Jupyter notebooks in data-science repo", "dbt models in analytics repo" |
+| `[RESULTS_REPO]` | Results repository location | "Experiment results database", "Confluence results wiki", "Amplitude experiment archive", "Internal knowledge base" |
+| `[DECISION_LOG]` | Decision log documentation | "Decision memo in Confluence", "JIRA decision record", "Slack thread summary", "Meeting notes with rationale" |
+| `[LESSONS]` | Lessons learned documentation | "Post-experiment retrospective doc", "Learnings database entry", "Team retro action items", "Knowledge base update" |
+| `[WIKI_UPDATES]` | Wiki and documentation updates | "Confluence page updated", "README refreshed", "Process documentation revised", "FAQ section added" |
+| `[PRESENTATIONS]` | Presentation materials | "Executive summary deck", "Technical deep-dive slides", "All-hands presentation", "Cross-team sharing session" |
+| `[BEST_PRACTICES]` | Best practices documentation | "Experimentation playbook update", "Do's and don'ts list", "Template improvements", "Process refinements" |
+| `[FAILURE_ANALYSIS]` | Failure analysis approach | "5-whys root cause analysis", "Failure mode documentation", "Process gap identification", "Prevention recommendations" |
+| `[SUCCESS_PATTERNS]` | Success pattern recognition | "Winning experiment characteristics", "Replicable patterns identified", "Success factor documentation", "Playbook for similar experiments" |
+| `[TRAINING_MAT]` | Training materials updates | "Onboarding deck updated", "Case study added", "Training module created", "Workshop materials refreshed" |
+| `[CROSS_LEARNING]` | Cross-team learning approach | "Monthly experiment review meeting", "Slack channel updates", "Cross-functional presentations", "Experimentation newsletter" |
+| `[PATTERN_RECOG]` | Pattern recognition insights | "Effect size database query", "Historical experiment comparison", "Trend analysis across experiments", "Meta-analysis insights" |
+| `[EFFECT_DATABASE]` | Effect size database | "Historical effects repository", "Baseline effect sizes by metric", "Variance estimates archive", "Power analysis reference data" |
+| `[VELOCITY_METRICS]` | Experimentation velocity metrics | "Experiments launched/month", "Time from idea to launch", "Analysis turnaround time", "Decision cycle time" |
+| `[WIN_RATE]` | Win rate tracking | "30% historical win rate", "Win rate by domain", "Win rate trends over time", "Benchmark comparison" |
+| `[ROI_ANALYSIS]` | ROI analysis approach | "Value delivered vs. investment", "Cumulative experiment ROI", "Cost per experiment", "Value per successful experiment" |
+| `[EXP_VELOCITY]` | Experiment velocity targets | "10 experiments/quarter", "2x velocity improvement goal", "Time-to-insight <3 weeks", "Decision latency <5 days" |
+| `[TOOL_OPTIMIZE]` | Tool optimization opportunities | "Automation opportunities identified", "Platform upgrades planned", "Integration improvements", "Self-service enablement" |
+| `[TEAM_EFFICIENCY]` | Team efficiency metrics | "Experiments per data scientist", "Analysis time reduction", "Stakeholder self-service rate", "Repeat experiment rate reduction" |
+| `[STAKE_SATISFY]` | Stakeholder satisfaction tracking | "CSAT survey results", "NPS for experimentation team", "Feedback collection process", "Improvement action items" |
+| `[INNOVATION_INDEX]` | Innovation index measurement | "Novel experiment rate", "New method adoption", "Cross-domain experiments", "Strategic experiment alignment" |
 
 ### 3. Variant Design & Implementation
 

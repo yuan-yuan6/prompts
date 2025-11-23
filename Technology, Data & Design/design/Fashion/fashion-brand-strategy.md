@@ -91,274 +91,274 @@ Fall/Winter Collection:
 | Variable | Description | Example |
 |----------|-------------|----------|
 | `[BRAND_NAME]` | Name of the brand | "John Smith" |
-| `[MARKET_SEGMENT]` | Specify the market segment | "[specify value]" |
-| `[COLLECTION_COUNT]` | Specify the collection count | "10" |
-| `[SKU_COUNT]` | Specify the sku count | "10" |
-| `[PRICE_POINT]` | Specify the price point | "[specify value]" |
-| `[REVENUE_TARGET]` | Target or intended revenue | "[specify value]" |
-| `[SUSTAINABILITY_SCORE]` | Specify the sustainability score | "[specify value]" |
-| `[DNA_CURRENT]` | Specify the dna current | "[specify value]" |
-| `[DNA_COMPETITIVE]` | Specify the dna competitive | "[specify value]" |
-| `[DNA_TARGET]` | Target or intended dna | "[specify value]" |
-| `[DNA_DIFF]` | Specify the dna diff | "[specify value]" |
-| `[DNA_INVEST]` | Specify the dna invest | "[specify value]" |
-| `[DESIGN_CURRENT]` | Specify the design current | "[specify value]" |
-| `[DESIGN_COMPETITIVE]` | Specify the design competitive | "[specify value]" |
-| `[DESIGN_TARGET]` | Target or intended design | "[specify value]" |
-| `[DESIGN_DIFF]` | Specify the design diff | "[specify value]" |
-| `[DESIGN_INVEST]` | Specify the design invest | "[specify value]" |
-| `[PRICE_CURRENT]` | Specify the price current | "[specify value]" |
-| `[PRICE_COMPETITIVE]` | Specify the price competitive | "[specify value]" |
-| `[PRICE_TARGET]` | Target or intended price | "[specify value]" |
-| `[PRICE_DIFF]` | Specify the price diff | "[specify value]" |
-| `[PRICE_INVEST]` | Specify the price invest | "[specify value]" |
-| `[CUSTOMER_CURRENT]` | Specify the customer current | "[specify value]" |
-| `[CUSTOMER_COMPETITIVE]` | Specify the customer competitive | "[specify value]" |
-| `[CUSTOMER_TARGET]` | Target or intended customer | "[specify value]" |
-| `[CUSTOMER_DIFF]` | Specify the customer diff | "[specify value]" |
-| `[CUSTOMER_INVEST]` | Specify the customer invest | "[specify value]" |
-| `[VALUES_CURRENT]` | Specify the values current | "[specify value]" |
-| `[VALUES_COMPETITIVE]` | Specify the values competitive | "[specify value]" |
-| `[VALUES_TARGET]` | Target or intended values | "[specify value]" |
-| `[VALUES_DIFF]` | Specify the values diff | "[specify value]" |
-| `[VALUES_INVEST]` | Specify the values invest | "[specify value]" |
-| `[POSITION_CURRENT]` | Specify the position current | "[specify value]" |
-| `[POSITION_COMPETITIVE]` | Specify the position competitive | "[specify value]" |
-| `[POSITION_TARGET]` | Target or intended position | "[specify value]" |
-| `[POSITION_DIFF]` | Specify the position diff | "[specify value]" |
-| `[POSITION_INVEST]` | Specify the position invest | "[specify value]" |
-| `[SS_LAUNCH]` | Specify the ss launch | "[specify value]" |
-| `[SS_THEME]` | Specify the ss theme | "[specify value]" |
-| `[SS_PIECES]` | Specify the ss pieces | "[specify value]" |
-| `[SS_COLORS]` | Specify the ss colors | "[specify value]" |
-| `[SS_FABRICS]` | Specify the ss fabrics | "[specify value]" |
-| `[SS_MIN]` | Specify the ss min | "[specify value]" |
-| `[SS_MAX]` | Specify the ss max | "[specify value]" |
-| `[SS_MARGIN]` | Specify the ss margin | "[specify value]" |
-| `[FW_LAUNCH]` | Specify the fw launch | "[specify value]" |
-| `[FW_THEME]` | Specify the fw theme | "[specify value]" |
-| `[FW_PIECES]` | Specify the fw pieces | "[specify value]" |
-| `[FW_COLORS]` | Specify the fw colors | "[specify value]" |
-| `[FW_FABRICS]` | Specify the fw fabrics | "[specify value]" |
-| `[FW_MIN]` | Specify the fw min | "[specify value]" |
-| `[FW_MAX]` | Specify the fw max | "[specify value]" |
-| `[FW_MARGIN]` | Specify the fw margin | "[specify value]" |
-| `[RESORT_DETAILS]` | Specify the resort details | "[specify value]" |
-| `[PREFALL_DETAILS]` | Specify the prefall details | "[specify value]" |
-| `[COLLAB_DETAILS]` | Specify the collab details | "[specify value]" |
-| `[LIMITED_DETAILS]` | Specify the limited details | "[specify value]" |
-| `[DROPS_STRATEGY]` | Strategy or approach for drops | "[specify value]" |
-| `[RTW_SHARE]` | Specify the rtw share | "[specify value]" |
-| `[RTW_GROWTH]` | Specify the rtw growth | "[specify value]" |
-| `[RTW_MARGIN]` | Specify the rtw margin | "[specify value]" |
-| `[RTW_TURNS]` | Specify the rtw turns | "[specify value]" |
+| `[MARKET_SEGMENT]` | Target market segment | "Luxury", "Contemporary", "Fast Fashion", "Streetwear", "Sustainable Premium" |
+| `[COLLECTION_COUNT]` | Number of collections per year | "2 (main seasons)", "4 (+ pre-collections)", "6 (+ drops)", "12 (monthly drops)" |
+| `[SKU_COUNT]` | Number of SKUs per year | "200", "500", "1000", "5000+" |
+| `[PRICE_POINT]` | Price tier | "$50-150 (accessible)", "$150-500 (contemporary)", "$500-2000 (designer)", "$2000+ (luxury)" |
+| `[REVENUE_TARGET]` | Target annual revenue | "10M", "50M", "200M", "1B" |
+| `[SUSTAINABILITY_SCORE]` | Sustainability rating out of 100 | "60", "75", "85", "95" |
+| `[DNA_CURRENT]` | Current brand DNA | "Undefined heritage", "Emerging aesthetic", "Established identity" |
+| `[DNA_COMPETITIVE]` | Competitor brand DNA | "Trend-driven", "Heritage-focused", "Innovation-led" |
+| `[DNA_TARGET]` | Target brand DNA | "Modern minimalism with artisan roots", "Bold maximalism meets sustainability", "Tech-forward luxury" |
+| `[DNA_DIFF]` | Brand DNA differentiation | "Unique craft heritage", "Sustainable-first design", "Cultural fusion aesthetic" |
+| `[DNA_INVEST]` | Brand DNA investment | "500K", "2M", "5M" |
+| `[DESIGN_CURRENT]` | Current design aesthetic | "Classic contemporary", "Trend-responsive", "Artisan-craft focused" |
+| `[DESIGN_COMPETITIVE]` | Competitor design approach | "Minimal Scandi", "French feminine", "American sportswear" |
+| `[DESIGN_TARGET]` | Target design aesthetic | "Elevated everyday", "Architectural minimalism", "Romantic sustainability" |
+| `[DESIGN_DIFF]` | Design differentiation | "Unique silhouettes", "Proprietary fabrics", "Signature color palette" |
+| `[DESIGN_INVEST]` | Design investment | "1M", "3M", "10M" |
+| `[PRICE_CURRENT]` | Current price architecture | "$75-250 avg", "$200-600 avg", "$500-1500 avg" |
+| `[PRICE_COMPETITIVE]` | Competitor pricing | "5-15% lower", "On par", "10-20% premium" |
+| `[PRICE_TARGET]` | Target price architecture | "$100-350 avg", "$250-750 avg", "$600-2000 avg" |
+| `[PRICE_DIFF]` | Price differentiation | "Value-driven quality", "Premium sustainability", "Exclusive craftsmanship" |
+| `[PRICE_INVEST]` | Pricing strategy investment | "100K", "300K", "500K" |
+| `[CUSTOMER_CURRENT]` | Current customer profile | "Women 25-40, urban, $75K+ income", "Gen Z style-seekers", "Affluent professionals 35-55" |
+| `[CUSTOMER_COMPETITIVE]` | Competitor customer base | "Overlapping 40%", "Adjacent segment", "Different demographic" |
+| `[CUSTOMER_TARGET]` | Target customer profile | "Conscious millennials 28-42", "Style-forward Gen Z 18-28", "Luxury enthusiasts 35-60" |
+| `[CUSTOMER_DIFF]` | Customer differentiation | "Sustainability values", "Design appreciation", "Exclusivity seekers" |
+| `[CUSTOMER_INVEST]` | Customer acquisition investment | "2M", "5M", "15M" |
+| `[VALUES_CURRENT]` | Current brand values | "Quality + style", "Trend + accessibility", "Craft + heritage" |
+| `[VALUES_COMPETITIVE]` | Competitor values | "Price-focused", "Sustainability-first", "Heritage-driven" |
+| `[VALUES_TARGET]` | Target brand values | "Sustainability, craftsmanship, timelessness", "Innovation, inclusivity, transparency", "Heritage, quality, modernity" |
+| `[VALUES_DIFF]` | Values differentiation | "Authentic sustainability commitment", "Radical transparency", "Living wage guarantee" |
+| `[VALUES_INVEST]` | Values implementation investment | "500K", "2M", "5M" |
+| `[POSITION_CURRENT]` | Current market position | "#10 in segment", "Emerging challenger", "Established player" |
+| `[POSITION_COMPETITIVE]` | Competitive position | "Behind leaders", "Niche leader", "Category disruptor" |
+| `[POSITION_TARGET]` | Target market position | "Top 5 in segment", "Category leader", "Premium alternative" |
+| `[POSITION_DIFF]` | Position differentiation | "Best-in-class sustainability", "Superior design value", "Unmatched quality-price" |
+| `[POSITION_INVEST]` | Positioning investment | "3M", "10M", "25M" |
+| `[SS_LAUNCH]` | Spring/Summer launch date | "February Fashion Week", "March retail", "April direct-to-consumer" |
+| `[SS_THEME]` | Spring/Summer collection theme | "Mediterranean Escape", "Urban Garden", "Coastal Minimalism" |
+| `[SS_PIECES]` | Spring/Summer piece count | "45", "85", "150" |
+| `[SS_COLORS]` | Spring/Summer color palette | "Soft neutrals: cream, sand, sage", "Vibrant: coral, turquoise, lemon", "Classic: navy, white, tan" |
+| `[SS_FABRICS]` | Spring/Summer key fabrics | "Linen, organic cotton, Tencel", "Silk blends, recycled polyester", "Hemp, bamboo, modal" |
+| `[SS_MIN]` | Spring/Summer minimum price | "75", "150", "300" |
+| `[SS_MAX]` | Spring/Summer maximum price | "350", "800", "2000" |
+| `[SS_MARGIN]` | Spring/Summer margin target | "55", "62", "70" |
+| `[FW_LAUNCH]` | Fall/Winter launch date | "September Fashion Week", "October retail", "November DTC" |
+| `[FW_THEME]` | Fall/Winter collection theme | "Urban Armor", "Nordic Noir", "Heritage Revival" |
+| `[FW_PIECES]` | Fall/Winter piece count | "55", "100", "180" |
+| `[FW_COLORS]` | Fall/Winter color palette | "Rich: burgundy, forest, navy", "Neutral: camel, charcoal, cream", "Bold: cobalt, emerald, rust" |
+| `[FW_FABRICS]` | Fall/Winter key fabrics | "Merino wool, cashmere, recycled down", "Vegan leather, organic denim", "Bouclé, tweed, fleece" |
+| `[FW_MIN]` | Fall/Winter minimum price | "100", "200", "400" |
+| `[FW_MAX]` | Fall/Winter maximum price | "500", "1200", "3000" |
+| `[FW_MARGIN]` | Fall/Winter margin target | "58", "65", "72" |
+| `[RESORT_DETAILS]` | Resort/Cruise collection details | "30 pieces, November launch, $150-600, vacation-focused" |
+| `[PREFALL_DETAILS]` | Pre-Fall collection details | "40 pieces, June launch, transitional layering, $175-800" |
+| `[COLLAB_DETAILS]` | Collaboration collection details | "2 per year, artist/designer partnerships, limited 500-unit runs" |
+| `[LIMITED_DETAILS]` | Limited edition details | "Monthly drops, 200-unit exclusives, premium pricing (+30%)" |
+| `[DROPS_STRATEGY]` | Drops strategy | "Bi-weekly new arrivals", "Monthly capsules", "Quarterly surprise drops" |
+| `[RTW_SHARE]` | Ready-to-wear revenue share | "50", "60", "70" |
+| `[RTW_GROWTH]` | RTW growth rate | "10", "15", "25" |
+| `[RTW_MARGIN]` | RTW gross margin | "55", "62", "68" |
+| `[RTW_TURNS]` | RTW inventory turns | "3", "4", "6" |
 | `[RTW_PRIORITY]` | Specify the rtw priority | "High" |
-| `[ACC_SHARE]` | Specify the acc share | "[specify value]" |
-| `[ACC_GROWTH]` | Specify the acc growth | "[specify value]" |
-| `[ACC_MARGIN]` | Specify the acc margin | "[specify value]" |
-| `[ACC_TURNS]` | Specify the acc turns | "[specify value]" |
+| `[ACC_SHARE]` | Accessories revenue share | "15", "20", "25" |
+| `[ACC_GROWTH]` | Accessories growth rate | "15", "20", "30" |
+| `[ACC_MARGIN]` | Accessories gross margin | "60", "68", "75" |
+| `[ACC_TURNS]` | Accessories inventory turns | "4", "5", "7" |
 | `[ACC_PRIORITY]` | Specify the acc priority | "High" |
-| `[FOOT_SHARE]` | Specify the foot share | "[specify value]" |
-| `[FOOT_GROWTH]` | Specify the foot growth | "[specify value]" |
-| `[FOOT_MARGIN]` | Specify the foot margin | "[specify value]" |
-| `[FOOT_TURNS]` | Specify the foot turns | "[specify value]" |
+| `[FOOT_SHARE]` | Footwear revenue share | "10", "15", "20" |
+| `[FOOT_GROWTH]` | Footwear growth rate | "12", "18", "25" |
+| `[FOOT_MARGIN]` | Footwear gross margin | "50", "58", "65" |
+| `[FOOT_TURNS]` | Footwear inventory turns | "2.5", "3.5", "4.5" |
 | `[FOOT_PRIORITY]` | Specify the foot priority | "High" |
-| `[LEATHER_SHARE]` | Specify the leather share | "[specify value]" |
-| `[LEATHER_GROWTH]` | Specify the leather growth | "[specify value]" |
-| `[LEATHER_MARGIN]` | Specify the leather margin | "[specify value]" |
-| `[LEATHER_TURNS]` | Specify the leather turns | "[specify value]" |
+| `[LEATHER_SHARE]` | Leather goods revenue share | "8", "12", "18" |
+| `[LEATHER_GROWTH]` | Leather goods growth rate | "10", "15", "22" |
+| `[LEATHER_MARGIN]` | Leather goods gross margin | "62", "70", "78" |
+| `[LEATHER_TURNS]` | Leather goods inventory turns | "2", "3", "4" |
 | `[LEATHER_PRIORITY]` | Specify the leather priority | "High" |
-| `[JEWELRY_SHARE]` | Specify the jewelry share | "[specify value]" |
-| `[JEWELRY_GROWTH]` | Specify the jewelry growth | "[specify value]" |
-| `[JEWELRY_MARGIN]` | Specify the jewelry margin | "[specify value]" |
-| `[JEWELRY_TURNS]` | Specify the jewelry turns | "[specify value]" |
+| `[JEWELRY_SHARE]` | Jewelry revenue share | "5", "8", "12" |
+| `[JEWELRY_GROWTH]` | Jewelry growth rate | "18", "25", "35" |
+| `[JEWELRY_MARGIN]` | Jewelry gross margin | "65", "72", "80" |
+| `[JEWELRY_TURNS]` | Jewelry inventory turns | "3", "4", "5" |
 | `[JEWELRY_PRIORITY]` | Specify the jewelry priority | "High" |
-| `[BEAUTY_SHARE]` | Specify the beauty share | "[specify value]" |
-| `[BEAUTY_GROWTH]` | Specify the beauty growth | "[specify value]" |
-| `[BEAUTY_MARGIN]` | Specify the beauty margin | "[specify value]" |
-| `[BEAUTY_TURNS]` | Specify the beauty turns | "[specify value]" |
+| `[BEAUTY_SHARE]` | Beauty/fragrance revenue share | "5", "10", "15" |
+| `[BEAUTY_GROWTH]` | Beauty growth rate | "20", "30", "40" |
+| `[BEAUTY_MARGIN]` | Beauty gross margin | "70", "78", "85" |
+| `[BEAUTY_TURNS]` | Beauty inventory turns | "4", "6", "8" |
 | `[BEAUTY_PRIORITY]` | Specify the beauty priority | "High" |
-| `[INHOUSE_VOL]` | Specify the inhouse vol | "[specify value]" |
-| `[INHOUSE_LEAD]` | Specify the inhouse lead | "[specify value]" |
-| `[INHOUSE_COST]` | Specify the inhouse cost | "[specify value]" |
-| `[INHOUSE_QUAL]` | Specify the inhouse qual | "[specify value]" |
-| `[INHOUSE_SUSTAIN]` | Specify the inhouse sustain | "[specify value]" |
-| `[CONTRACT_VOL]` | Specify the contract vol | "[specify value]" |
-| `[CONTRACT_LEAD]` | Specify the contract lead | "[specify value]" |
-| `[CONTRACT_COST]` | Specify the contract cost | "[specify value]" |
-| `[CONTRACT_QUAL]` | Specify the contract qual | "[specify value]" |
-| `[CONTRACT_SUSTAIN]` | Specify the contract sustain | "[specify value]" |
-| `[ARTISAN_VOL]` | Specify the artisan vol | "[specify value]" |
-| `[ARTISAN_LEAD]` | Specify the artisan lead | "[specify value]" |
-| `[ARTISAN_COST]` | Specify the artisan cost | "[specify value]" |
-| `[ARTISAN_QUAL]` | Specify the artisan qual | "[specify value]" |
-| `[ARTISAN_SUSTAIN]` | Specify the artisan sustain | "[specify value]" |
-| `[FAST_VOL]` | Specify the fast vol | "[specify value]" |
-| `[FAST_LEAD]` | Specify the fast lead | "[specify value]" |
-| `[FAST_COST]` | Specify the fast cost | "[specify value]" |
-| `[FAST_QUAL]` | Specify the fast qual | "[specify value]" |
-| `[FAST_SUSTAIN]` | Specify the fast sustain | "[specify value]" |
-| `[DEMAND_VOL]` | Specify the demand vol | "[specify value]" |
-| `[DEMAND_LEAD]` | Specify the demand lead | "[specify value]" |
-| `[DEMAND_COST]` | Specify the demand cost | "[specify value]" |
-| `[DEMAND_QUAL]` | Specify the demand qual | "[specify value]" |
-| `[DEMAND_SUSTAIN]` | Specify the demand sustain | "[specify value]" |
+| `[INHOUSE_VOL]` | In-house production volume | "10%", "25%", "50%" |
+| `[INHOUSE_LEAD]` | In-house lead time | "2-4 weeks", "4-6 weeks", "6-8 weeks" |
+| `[INHOUSE_COST]` | In-house cost per unit | "75", "125", "200" |
+| `[INHOUSE_QUAL]` | In-house quality score | "8", "9", "10" |
+| `[INHOUSE_SUSTAIN]` | In-house sustainability score | "8", "9", "10" |
+| `[CONTRACT_VOL]` | Contract manufacturing volume | "40%", "50%", "60%" |
+| `[CONTRACT_LEAD]` | Contract lead time | "8-12 weeks", "12-16 weeks", "16-20 weeks" |
+| `[CONTRACT_COST]` | Contract cost per unit | "25", "45", "75" |
+| `[CONTRACT_QUAL]` | Contract quality score | "6", "7", "8" |
+| `[CONTRACT_SUSTAIN]` | Contract sustainability score | "5", "6", "7" |
+| `[ARTISAN_VOL]` | Artisan production volume | "5%", "10%", "20%" |
+| `[ARTISAN_LEAD]` | Artisan lead time | "6-10 weeks", "10-14 weeks", "14-18 weeks" |
+| `[ARTISAN_COST]` | Artisan cost per unit | "100", "175", "300" |
+| `[ARTISAN_QUAL]` | Artisan quality score | "9", "9.5", "10" |
+| `[ARTISAN_SUSTAIN]` | Artisan sustainability score | "8", "9", "10" |
+| `[FAST_VOL]` | Fast fashion production volume | "20%", "30%", "40%" |
+| `[FAST_LEAD]` | Fast fashion lead time | "2-3 weeks", "3-4 weeks", "4-6 weeks" |
+| `[FAST_COST]` | Fast fashion cost per unit | "15", "25", "40" |
+| `[FAST_QUAL]` | Fast fashion quality score | "5", "6", "7" |
+| `[FAST_SUSTAIN]` | Fast fashion sustainability score | "3", "4", "5" |
+| `[DEMAND_VOL]` | On-demand production volume | "5%", "10%", "15%" |
+| `[DEMAND_LEAD]` | On-demand lead time | "3-5 days", "1-2 weeks", "2-3 weeks" |
+| `[DEMAND_COST]` | On-demand cost per unit | "50", "85", "150" |
+| `[DEMAND_QUAL]` | On-demand quality score | "7", "8", "9" |
+| `[DEMAND_SUSTAIN]` | On-demand sustainability score | "8", "9", "10" |
 | `[FLAG_COUNT]` | Specify the flag count | "10" |
-| `[FLAG_REVENUE]` | Specify the flag revenue | "[specify value]" |
-| `[FLAG_INVEST]` | Specify the flag invest | "[specify value]" |
-| `[FLAG_EXPERIENCE]` | Specify the flag experience | "[specify value]" |
+| `[FLAG_REVENUE]` | Flagship store revenue | "5M", "15M", "50M" |
+| `[FLAG_INVEST]` | Flagship investment per store | "1M", "3M", "10M" |
+| `[FLAG_EXPERIENCE]` | Flagship experience level | "Premium retail 8/10", "Luxury immersive 9/10", "Destination 10/10" |
 | `[DEPT_COUNT]` | Specify the dept count | "10" |
-| `[DEPT_REVENUE]` | Specify the dept revenue | "[specify value]" |
-| `[DEPT_TERMS]` | Specify the dept terms | "[specify value]" |
-| `[DEPT_SUPPORT]` | Specify the dept support | "[specify value]" |
+| `[DEPT_REVENUE]` | Department store revenue | "3M", "10M", "30M" |
+| `[DEPT_TERMS]` | Department store terms | "Consignment", "Net 60", "Net 90" |
+| `[DEPT_SUPPORT]` | Department store support | "Basic (fixtures)", "Moderate (staff training)", "Full (shop-in-shop)" |
 | `[OUTLET_COUNT]` | Specify the outlet count | "10" |
-| `[OUTLET_REVENUE]` | Specify the outlet revenue | "[specify value]" |
-| `[OUTLET_DISCOUNT]` | Specify the outlet discount | "10" |
-| `[OUTLET_SOURCE]` | Specify the outlet source | "[specify value]" |
-| `[ECOM_REVENUE]` | Specify the ecom revenue | "[specify value]" |
-| `[ECOM_SHARE]` | Specify the ecom share | "[specify value]" |
-| `[ECOM_PLATFORM]` | Specify the ecom platform | "[specify value]" |
-| `[ECOM_CONVERT]` | Specify the ecom convert | "[specify value]" |
-| `[ECOM_AOV]` | Specify the ecom aov | "[specify value]" |
-| `[MARKET_REVENUE]` | Specify the market revenue | "[specify value]" |
-| `[MARKET_PARTNERS]` | Specify the market partners | "[specify value]" |
-| `[MARKET_COMM]` | Specify the market comm | "[specify value]" |
-| `[MARKET_CONTROL]` | Specify the market control | "[specify value]" |
-| `[SOCIAL_REVENUE]` | Specify the social revenue | "[specify value]" |
-| `[SOCIAL_PLATFORMS]` | Specify the social platforms | "[specify value]" |
-| `[SOCIAL_ENGAGE]` | Specify the social engage | "[specify value]" |
-| `[SOCIAL_INFLUENCE]` | Specify the social influence | "[specify value]" |
+| `[OUTLET_REVENUE]` | Outlet store revenue | "2M", "8M", "25M" |
+| `[OUTLET_DISCOUNT]` | Outlet discount range | "30-50", "40-60", "50-70" |
+| `[OUTLET_SOURCE]` | Outlet inventory source | "End-of-season", "Made-for-outlet 40%", "Returns + excess" |
+| `[ECOM_REVENUE]` | E-commerce revenue | "5M", "20M", "75M" |
+| `[ECOM_SHARE]` | E-commerce revenue share | "25", "40", "60" |
+| `[ECOM_PLATFORM]` | E-commerce platform | "Shopify Plus", "Custom headless", "Salesforce Commerce" |
+| `[ECOM_CONVERT]` | E-commerce conversion rate | "2", "3.5", "5" |
+| `[ECOM_AOV]` | E-commerce average order value | "150", "275", "450" |
+| `[MARKET_REVENUE]` | Marketplace revenue | "2M", "8M", "25M" |
+| `[MARKET_PARTNERS]` | Marketplace partners | "Farfetch, SSENSE", "Net-a-Porter, Matches", "Nordstrom, Saks" |
+| `[MARKET_COMM]` | Marketplace commission | "20", "25", "30" |
+| `[MARKET_CONTROL]` | Marketplace brand control | "Limited", "Moderate", "Full (brand-operated)" |
+| `[SOCIAL_REVENUE]` | Social commerce revenue | "500K", "2M", "8M" |
+| `[SOCIAL_PLATFORMS]` | Social commerce platforms | "Instagram Shop, TikTok Shop", "Pinterest Shopping", "WeChat, Xiaohongshu" |
+| `[SOCIAL_ENGAGE]` | Social engagement rate | "3", "5", "8" |
+| `[SOCIAL_INFLUENCE]` | Influencer partnerships count | "25", "100", "500" |
 | `[DIGITAL_BUDGET]` | Budget allocation for digital | "$500,000" |
-| `[DIGITAL_REACH]` | Specify the digital reach | "[specify value]" |
-| `[DIGITAL_ENGAGE]` | Specify the digital engage | "[specify value]" |
-| `[DIGITAL_CONVERT]` | Specify the digital convert | "[specify value]" |
-| `[DIGITAL_ROI]` | Specify the digital roi | "[specify value]" |
+| `[DIGITAL_REACH]` | Digital advertising reach | "1M impressions", "5M impressions", "20M impressions" |
+| `[DIGITAL_ENGAGE]` | Digital engagement rate | "2", "4", "6" |
+| `[DIGITAL_CONVERT]` | Digital conversion rate | "1", "2", "3.5" |
+| `[DIGITAL_ROI]` | Digital advertising ROI | "3", "5", "8" |
 | `[SOCIAL_BUDGET]` | Budget allocation for social | "$500,000" |
-| `[SOCIAL_REACH]` | Specify the social reach | "[specify value]" |
-| `[SOCIAL_CONVERT]` | Specify the social convert | "[specify value]" |
-| `[SOCIAL_ROI]` | Specify the social roi | "[specify value]" |
+| `[SOCIAL_REACH]` | Social media reach | "500K followers", "2M followers", "10M followers" |
+| `[SOCIAL_CONVERT]` | Social media conversion rate | "0.5", "1.5", "3" |
+| `[SOCIAL_ROI]` | Social media ROI | "4", "6", "10" |
 | `[INFLUENCER_BUDGET]` | Budget allocation for influencer | "$500,000" |
-| `[INFLUENCER_REACH]` | Specify the influencer reach | "[specify value]" |
-| `[INFLUENCER_ENGAGE]` | Specify the influencer engage | "[specify value]" |
-| `[INFLUENCER_CONVERT]` | Specify the influencer convert | "[specify value]" |
-| `[INFLUENCER_ROI]` | Specify the influencer roi | "[specify value]" |
+| `[INFLUENCER_REACH]` | Influencer campaign reach | "2M impressions", "10M impressions", "50M impressions" |
+| `[INFLUENCER_ENGAGE]` | Influencer engagement rate | "4", "6", "10" |
+| `[INFLUENCER_CONVERT]` | Influencer conversion rate | "1", "2.5", "5" |
+| `[INFLUENCER_ROI]` | Influencer marketing ROI | "5", "8", "12" |
 | `[EVENT_BUDGET]` | Budget allocation for event | "$500,000" |
-| `[EVENT_REACH]` | Specify the event reach | "[specify value]" |
-| `[EVENT_ENGAGE]` | Specify the event engage | "[specify value]" |
-| `[EVENT_CONVERT]` | Specify the event convert | "[specify value]" |
-| `[EVENT_ROI]` | Specify the event roi | "[specify value]" |
+| `[EVENT_REACH]` | Fashion event reach | "50K attendees", "500K media impressions", "5M livestream views" |
+| `[EVENT_ENGAGE]` | Event engagement rate | "15", "25", "40" |
+| `[EVENT_CONVERT]` | Event conversion rate | "5", "10", "20" |
+| `[EVENT_ROI]` | Fashion event ROI | "2", "4", "7" |
 | `[PRINT_BUDGET]` | Budget allocation for print | "$500,000" |
-| `[PRINT_REACH]` | Specify the print reach | "[specify value]" |
-| `[PRINT_ENGAGE]` | Specify the print engage | "[specify value]" |
-| `[PRINT_CONVERT]` | Specify the print convert | "[specify value]" |
-| `[PRINT_ROI]` | Specify the print roi | "[specify value]" |
+| `[PRINT_REACH]` | Print/editorial reach | "500K readers", "2M readers", "10M readers" |
+| `[PRINT_ENGAGE]` | Print engagement rate | "10", "15", "25" |
+| `[PRINT_CONVERT]` | Print conversion rate | "0.5", "1", "2" |
+| `[PRINT_ROI]` | Print advertising ROI | "1.5", "2.5", "4" |
 | `[CELEB_BUDGET]` | Budget allocation for celeb | "$500,000" |
-| `[CELEB_REACH]` | Specify the celeb reach | "[specify value]" |
-| `[CELEB_ENGAGE]` | Specify the celeb engage | "[specify value]" |
-| `[CELEB_CONVERT]` | Specify the celeb convert | "[specify value]" |
-| `[CELEB_ROI]` | Specify the celeb roi | "[specify value]" |
-| `[MAT_CURRENT]` | Specify the mat current | "[specify value]" |
-| `[MAT_TARGET]` | Target or intended mat | "[specify value]" |
-| `[MAT_INIT]` | Specify the mat init | "[specify value]" |
-| `[MAT_INVEST]` | Specify the mat invest | "[specify value]" |
-| `[MAT_IMPACT]` | Specify the mat impact | "[specify value]" |
-| `[CIRC_CURRENT]` | Specify the circ current | "[specify value]" |
-| `[CIRC_TARGET]` | Target or intended circ | "[specify value]" |
-| `[CIRC_INIT]` | Specify the circ init | "[specify value]" |
-| `[CIRC_INVEST]` | Specify the circ invest | "[specify value]" |
-| `[CIRC_IMPACT]` | Specify the circ impact | "[specify value]" |
-| `[CARBON_CURRENT]` | Specify the carbon current | "[specify value]" |
-| `[CARBON_TARGET]` | Target or intended carbon | "[specify value]" |
-| `[CARBON_INIT]` | Specify the carbon init | "[specify value]" |
-| `[CARBON_INVEST]` | Specify the carbon invest | "[specify value]" |
-| `[CARBON_IMPACT]` | Specify the carbon impact | "[specify value]" |
-| `[WATER_CURRENT]` | Specify the water current | "[specify value]" |
-| `[WATER_TARGET]` | Target or intended water | "[specify value]" |
-| `[WATER_INIT]` | Specify the water init | "[specify value]" |
-| `[WATER_INVEST]` | Specify the water invest | "[specify value]" |
-| `[WATER_IMPACT]` | Specify the water impact | "[specify value]" |
-| `[LABOR_CURRENT]` | Specify the labor current | "[specify value]" |
-| `[LABOR_TARGET]` | Target or intended labor | "[specify value]" |
-| `[LABOR_INIT]` | Specify the labor init | "[specify value]" |
-| `[LABOR_INVEST]` | Specify the labor invest | "[specify value]" |
-| `[LABOR_IMPACT]` | Specify the labor impact | "[specify value]" |
-| `[TRANS_CURRENT]` | Specify the trans current | "[specify value]" |
-| `[TRANS_TARGET]` | Target or intended trans | "[specify value]" |
-| `[TRANS_INIT]` | Specify the trans init | "[specify value]" |
-| `[TRANS_INVEST]` | Specify the trans invest | "[specify value]" |
-| `[TRANS_IMPACT]` | Specify the trans impact | "[specify value]" |
-| `[DISCOVER_TOUCH]` | Specify the discover touch | "[specify value]" |
-| `[DISCOVER_CONTENT]` | Specify the discover content | "[specify value]" |
-| `[DISCOVER_PERSONAL]` | Specify the discover personal | "[specify value]" |
-| `[DISCOVER_ATTRIB]` | Specify the discover attrib | "[specify value]" |
-| `[ONLINE_SCORE]` | Specify the online score | "[specify value]" |
-| `[STORE_SCORE]` | Specify the store score | "[specify value]" |
-| `[CHECKOUT_SCORE]` | Specify the checkout score | "[specify value]" |
-| `[PAYMENT_OPTIONS]` | Specify the payment options | "[specify value]" |
-| `[PACKAGE_SCORE]` | Specify the package score | "[specify value]" |
-| `[DELIVERY_TIME]` | Specify the delivery time | "[specify value]" |
-| `[RETURNS_RATE]` | Specify the returns rate | "[specify value]" |
-| `[SERVICE_SCORE]` | Specify the service score | "[specify value]" |
-| `[LOYALTY_MEMBERS]` | Specify the loyalty members | "[specify value]" |
-| `[LOYALTY_TIERS]` | Specify the loyalty tiers | "[specify value]" |
-| `[LOYALTY_BENEFITS]` | Specify the loyalty benefits | "[specify value]" |
-| `[LOYALTY_ENGAGE]` | Specify the loyalty engage | "[specify value]" |
-| `[LOYALTY_LTV]` | Specify the loyalty ltv | "[specify value]" |
-| `[VTO_CURRENT]` | Specify the vto current | "[specify value]" |
-| `[VTO_PLAN]` | Specify the vto plan | "[specify value]" |
-| `[VTO_IMPACT]` | Specify the vto impact | "[specify value]" |
-| `[VTO_INVEST]` | Specify the vto invest | "[specify value]" |
-| `[VTO_TIME]` | Specify the vto time | "[specify value]" |
-| `[AI_CURRENT]` | Specify the ai current | "[specify value]" |
-| `[AI_PLAN]` | Specify the ai plan | "[specify value]" |
-| `[AI_IMPACT]` | Specify the ai impact | "[specify value]" |
-| `[AI_INVEST]` | Specify the ai invest | "[specify value]" |
-| `[AI_TIME]` | Specify the ai time | "[specify value]" |
-| `[BLOCK_CURRENT]` | Specify the block current | "[specify value]" |
-| `[BLOCK_PLAN]` | Specify the block plan | "[specify value]" |
-| `[BLOCK_IMPACT]` | Specify the block impact | "[specify value]" |
-| `[BLOCK_INVEST]` | Specify the block invest | "[specify value]" |
-| `[BLOCK_TIME]` | Specify the block time | "[specify value]" |
-| `[SMART_CURRENT]` | Specify the smart current | "[specify value]" |
-| `[SMART_PLAN]` | Specify the smart plan | "[specify value]" |
-| `[SMART_IMPACT]` | Specify the smart impact | "[specify value]" |
-| `[SMART_INVEST]` | Specify the smart invest | "[specify value]" |
-| `[SMART_TIME]` | Specify the smart time | "[specify value]" |
-| `[META_CURRENT]` | Specify the meta current | "[specify value]" |
-| `[META_PLAN]` | Specify the meta plan | "[specify value]" |
-| `[META_IMPACT]` | Specify the meta impact | "[specify value]" |
-| `[META_INVEST]` | Specify the meta invest | "[specify value]" |
-| `[META_TIME]` | Specify the meta time | "[specify value]" |
-| `[REV_CURRENT]` | Specify the rev current | "[specify value]" |
-| `[REV_Y1]` | Specify the rev y1 | "[specify value]" |
-| `[REV_Y3]` | Specify the rev y3 | "[specify value]" |
-| `[REV_Y5]` | Specify the rev y5 | "[specify value]" |
-| `[REV_CAGR]` | Specify the rev cagr | "[specify value]" |
-| `[GM_CURRENT]` | Specify the gm current | "[specify value]" |
-| `[GM_Y1]` | Specify the gm y1 | "[specify value]" |
-| `[GM_Y3]` | Specify the gm y3 | "[specify value]" |
-| `[GM_Y5]` | Specify the gm y5 | "[specify value]" |
-| `[GM_CAGR]` | Specify the gm cagr | "[specify value]" |
-| `[EBITDA_CURRENT]` | Specify the ebitda current | "[specify value]" |
-| `[EBITDA_Y1]` | Specify the ebitda y1 | "[specify value]" |
-| `[EBITDA_Y3]` | Specify the ebitda y3 | "[specify value]" |
-| `[EBITDA_Y5]` | Specify the ebitda y5 | "[specify value]" |
-| `[EBITDA_CAGR]` | Specify the ebitda cagr | "[specify value]" |
-| `[INV_CURRENT]` | Specify the inv current | "[specify value]" |
-| `[INV_Y1]` | Specify the inv y1 | "[specify value]" |
-| `[INV_Y3]` | Specify the inv y3 | "[specify value]" |
-| `[INV_Y5]` | Specify the inv y5 | "[specify value]" |
-| `[INV_CAGR]` | Specify the inv cagr | "[specify value]" |
-| `[SSS_CURRENT]` | Specify the sss current | "[specify value]" |
-| `[SSS_Y1]` | Specify the sss y1 | "[specify value]" |
-| `[SSS_Y3]` | Specify the sss y3 | "[specify value]" |
-| `[SSS_Y5]` | Specify the sss y5 | "[specify value]" |
-| `[SSS_CAGR]` | Specify the sss cagr | "[specify value]" |
-| `[SHARE_CURRENT]` | Specify the share current | "[specify value]" |
-| `[SHARE_Y1]` | Specify the share y1 | "[specify value]" |
-| `[SHARE_Y3]` | Specify the share y3 | "[specify value]" |
-| `[SHARE_Y5]` | Specify the share y5 | "[specify value]" |
-| `[SHARE_CAGR]` | Specify the share cagr | "[specify value]" |
+| `[CELEB_REACH]` | Celebrity/VIP reach | "5M media impressions", "25M impressions", "100M impressions" |
+| `[CELEB_ENGAGE]` | Celebrity campaign engagement | "8", "15", "30" |
+| `[CELEB_CONVERT]` | Celebrity endorsement conversion | "2", "4", "8" |
+| `[CELEB_ROI]` | Celebrity partnership ROI | "3", "6", "10" |
+| `[MAT_CURRENT]` | Current sustainable materials percentage | "25", "40", "60" |
+| `[MAT_TARGET]` | Target sustainable materials percentage | "50", "75", "100" |
+| `[MAT_INIT]` | Materials sustainability initiatives | "Organic cotton transition", "Recycled polyester adoption", "Bio-based alternatives" |
+| `[MAT_INVEST]` | Materials investment | "500K", "2M", "5M" |
+| `[MAT_IMPACT]` | Materials impact metrics | "30% water reduction", "50% chemical elimination", "Carbon -40%" |
+| `[CIRC_CURRENT]` | Current circularity percentage | "10", "25", "40" |
+| `[CIRC_TARGET]` | Target circularity percentage | "30", "50", "80" |
+| `[CIRC_INIT]` | Circularity initiatives | "Take-back program launch", "Resale platform", "Repair services" |
+| `[CIRC_INVEST]` | Circularity investment | "300K", "1M", "3M" |
+| `[CIRC_IMPACT]` | Circularity impact metrics | "5K items resold", "10K garments repaired", "20% waste reduction" |
+| `[CARBON_CURRENT]` | Current carbon footprint (tCO2e) | "5000", "15000", "50000" |
+| `[CARBON_TARGET]` | Target carbon footprint (tCO2e) | "3000", "7500", "25000" |
+| `[CARBON_INIT]` | Carbon reduction initiatives | "Renewable energy 50%", "Local manufacturing", "Offset programs" |
+| `[CARBON_INVEST]` | Carbon reduction investment | "200K", "750K", "2M" |
+| `[CARBON_IMPACT]` | Carbon impact metrics | "-30% scope 1&2", "-20% scope 3", "Net zero pathway" |
+| `[WATER_CURRENT]` | Current water usage (M liters) | "50", "150", "500" |
+| `[WATER_TARGET]` | Target water usage (M liters) | "30", "75", "250" |
+| `[WATER_INIT]` | Water reduction initiatives | "Waterless dyeing", "Closed-loop processing", "Water recycling" |
+| `[WATER_INVEST]` | Water reduction investment | "150K", "500K", "1.5M" |
+| `[WATER_IMPACT]` | Water impact metrics | "-40% per garment", "Zero discharge", "Water positive" |
+| `[LABOR_CURRENT]` | Current fair labor compliance percentage | "60", "75", "90" |
+| `[LABOR_TARGET]` | Target fair labor compliance percentage | "85", "95", "100" |
+| `[LABOR_INIT]` | Fair labor initiatives | "Living wage commitment", "Factory audits", "Worker voice programs" |
+| `[LABOR_INVEST]` | Fair labor investment | "300K", "1M", "3M" |
+| `[LABOR_IMPACT]` | Labor impact metrics | "100% audited factories", "Living wage verified", "Worker satisfaction +25%" |
+| `[TRANS_CURRENT]` | Current transparency score (1-10) | "4", "6", "8" |
+| `[TRANS_TARGET]` | Target transparency score (1-10) | "7", "8", "10" |
+| `[TRANS_INIT]` | Transparency initiatives | "Supplier map publication", "Impact labeling", "Annual reporting" |
+| `[TRANS_INVEST]` | Transparency investment | "100K", "400K", "1M" |
+| `[TRANS_IMPACT]` | Transparency impact metrics | "Full Tier 1 disclosure", "Tier 2 visibility", "Consumer trust +30%" |
+| `[DISCOVER_TOUCH]` | Discovery touchpoints | "Social, search, influencer", "Editorial, events, referral", "Paid media, organic, PR" |
+| `[DISCOVER_CONTENT]` | Discovery content strategy | "Lifestyle imagery + video", "Educational sustainability content", "Influencer UGC" |
+| `[DISCOVER_PERSONAL]` | Discovery personalization percentage | "25", "50", "75" |
+| `[DISCOVER_ATTRIB]` | Discovery attribution model | "Last-click", "Multi-touch", "Data-driven attribution" |
+| `[ONLINE_SCORE]` | Online experience score | "7", "8", "9" |
+| `[STORE_SCORE]` | In-store service score | "7.5", "8.5", "9.5" |
+| `[CHECKOUT_SCORE]` | Checkout process score | "7", "8", "9" |
+| `[PAYMENT_OPTIONS]` | Payment options | "Credit, PayPal, Afterpay", "+ Klarna, Apple Pay", "+ Crypto, local methods" |
+| `[PACKAGE_SCORE]` | Packaging experience score | "7", "8.5", "10" |
+| `[DELIVERY_TIME]` | Standard delivery time (days) | "5-7", "3-5", "1-3" |
+| `[RETURNS_RATE]` | Returns rate percentage | "15", "20", "25" |
+| `[SERVICE_SCORE]` | Customer service score | "7.5", "8.5", "9.5" |
+| `[LOYALTY_MEMBERS]` | Loyalty program members | "50K", "250K", "1M" |
+| `[LOYALTY_TIERS]` | Loyalty program tiers | "3 (Bronze/Silver/Gold)", "4 (+Platinum)", "5 (+VIP invite-only)" |
+| `[LOYALTY_BENEFITS]` | Loyalty benefits | "Discounts + early access", "+ Free shipping, exclusives", "+ Personal stylist, events" |
+| `[LOYALTY_ENGAGE]` | Loyalty engagement rate | "25", "40", "60" |
+| `[LOYALTY_LTV]` | Loyalty member LTV | "500", "1200", "3000" |
+| `[VTO_CURRENT]` | Virtual try-on current adoption | "10", "30", "50" |
+| `[VTO_PLAN]` | Virtual try-on plan | "AR glasses/accessories", "Full body scanning", "AI fit prediction" |
+| `[VTO_IMPACT]` | Virtual try-on impact | "-15% returns", "+20% conversion", "+25% engagement" |
+| `[VTO_INVEST]` | Virtual try-on investment | "200K", "500K", "1.5M" |
+| `[VTO_TIME]` | Virtual try-on timeline | "Q2 2025", "Q4 2025", "2026" |
+| `[AI_CURRENT]` | AI styling current adoption | "15", "35", "55" |
+| `[AI_PLAN]` | AI styling implementation plan | "Product recommendations", "Personal styling chatbot", "Outfit generation" |
+| `[AI_IMPACT]` | AI styling impact | "+15% AOV", "+30% engagement", "-20% abandonment" |
+| `[AI_INVEST]` | AI styling investment | "300K", "800K", "2M" |
+| `[AI_TIME]` | AI styling timeline | "Q1 2025", "Q3 2025", "2026" |
+| `[BLOCK_CURRENT]` | Blockchain/NFT current adoption | "5", "15", "30" |
+| `[BLOCK_PLAN]` | Blockchain implementation plan | "Authentication certificates", "Supply chain tracking", "Digital collectibles" |
+| `[BLOCK_IMPACT]` | Blockchain impact | "Counterfeit -50%", "Trust +25%", "New revenue stream" |
+| `[BLOCK_INVEST]` | Blockchain investment | "150K", "400K", "1M" |
+| `[BLOCK_TIME]` | Blockchain timeline | "Q3 2025", "Q1 2026", "2026" |
+| `[SMART_CURRENT]` | Smart inventory current adoption | "20", "45", "70" |
+| `[SMART_PLAN]` | Smart inventory plan | "RFID tagging", "AI demand forecasting", "Real-time optimization" |
+| `[SMART_IMPACT]` | Smart inventory impact | "-25% markdowns", "-30% stockouts", "+15% margin" |
+| `[SMART_INVEST]` | Smart inventory investment | "400K", "1M", "3M" |
+| `[SMART_TIME]` | Smart inventory timeline | "Q2 2025", "Q4 2025", "2026" |
+| `[META_CURRENT]` | Metaverse presence current | "5", "20", "40" |
+| `[META_PLAN]` | Metaverse plan | "Virtual showroom", "Digital fashion NFTs", "Immersive experiences" |
+| `[META_IMPACT]` | Metaverse impact | "Gen Z reach +50%", "PR value $2M", "New customer segment" |
+| `[META_INVEST]` | Metaverse investment | "100K", "500K", "2M" |
+| `[META_TIME]` | Metaverse timeline | "Q4 2025", "2026", "2027" |
+| `[REV_CURRENT]` | Current revenue | "10M", "50M", "200M" |
+| `[REV_Y1]` | Year 1 revenue target | "12M", "62M", "250M" |
+| `[REV_Y3]` | Year 3 revenue target | "18M", "95M", "400M" |
+| `[REV_Y5]` | Year 5 revenue target | "30M", "150M", "650M" |
+| `[REV_CAGR]` | Revenue CAGR target | "15", "20", "25" |
+| `[GM_CURRENT]` | Current gross margin | "55", "60", "65" |
+| `[GM_Y1]` | Year 1 gross margin | "57", "62", "67" |
+| `[GM_Y3]` | Year 3 gross margin | "60", "65", "70" |
+| `[GM_Y5]` | Year 5 gross margin | "62", "68", "73" |
+| `[GM_CAGR]` | Gross margin improvement | "1", "1.5", "2" |
+| `[EBITDA_CURRENT]` | Current EBITDA | "1M", "6M", "30M" |
+| `[EBITDA_Y1]` | Year 1 EBITDA | "1.5M", "8M", "40M" |
+| `[EBITDA_Y3]` | Year 3 EBITDA | "2.5M", "15M", "70M" |
+| `[EBITDA_Y5]` | Year 5 EBITDA | "5M", "28M", "120M" |
+| `[EBITDA_CAGR]` | EBITDA CAGR | "20", "25", "30" |
+| `[INV_CURRENT]` | Current inventory turnover | "3", "4", "5" |
+| `[INV_Y1]` | Year 1 inventory turnover | "3.5", "4.5", "5.5" |
+| `[INV_Y3]` | Year 3 inventory turnover | "4", "5", "6" |
+| `[INV_Y5]` | Year 5 inventory turnover | "4.5", "5.5", "7" |
+| `[INV_CAGR]` | Inventory turnover improvement | "8", "10", "12" |
+| `[SSS_CURRENT]` | Current same-store sales growth | "3", "5", "8" |
+| `[SSS_Y1]` | Year 1 same-store sales growth | "5", "8", "12" |
+| `[SSS_Y3]` | Year 3 same-store sales growth | "6", "9", "14" |
+| `[SSS_Y5]` | Year 5 same-store sales growth | "5", "7", "10" |
+| `[SSS_CAGR]` | Same-store sales CAGR | "5", "8", "11" |
+| `[SHARE_CURRENT]` | Current market share | "0.5", "1.5", "3" |
+| `[SHARE_Y1]` | Year 1 market share | "0.7", "2", "4" |
+| `[SHARE_Y3]` | Year 3 market share | "1.2", "3", "6" |
+| `[SHARE_Y5]` | Year 5 market share | "2", "5", "10" |
+| `[SHARE_CAGR]` | Market share CAGR | "25", "30", "35" |
 
 ### 3. Product Mix & Category Management
 

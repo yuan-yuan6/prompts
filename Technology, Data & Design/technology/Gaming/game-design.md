@@ -96,257 +96,257 @@ Backend Infrastructure:
 
 | Variable | Description | Example |
 |----------|-------------|----------|
-| `[GAME_TITLE]` | Specify the game title | "[specify value]" |
-| `[GENRE]` | Specify the genre | "[specify value]" |
-| `[PLATFORM_LIST]` | Specify the platform list | "[specify value]" |
-| `[TEAM_SIZE]` | Specify the team size | "[specify value]" |
+| `[GAME_TITLE]` | Name of the game | "Shadow Legends", "Puzzle Master", "Battle Arena Online" |
+| `[GENRE]` | Game genre | "action RPG", "puzzle platformer", "MOBA", "survival horror" |
+| `[PLATFORM_LIST]` | Target platforms | "PC, PS5, Xbox Series X", "iOS, Android", "Steam, Epic, GOG" |
+| `[TEAM_SIZE]` | Development team size | "8 indie developers", "50 mid-size studio", "200+ AAA team" |
 | `[BUDGET]` | Budget allocation for  | "$500,000" |
 | `[TIMELINE]` | Timeline or schedule for  | "6 months" |
 | `[PLAYER_COUNT]` | Specify the player count | "10" |
-| `[REVENUE_TARGET]` | Target or intended revenue | "[specify value]" |
-| `[GENRE_THEME]` | Specify the genre theme | "[specify value]" |
-| `[TARGET_DEMO]` | Target or intended demo | "[specify value]" |
-| `[UNIQUE_FEAT]` | Specify the unique feat | "[specify value]" |
-| `[COMPETITORS]` | Specify the competitors | "[specify value]" |
-| `[SUCCESS_METRICS]` | Specify the success metrics | "[specify value]" |
-| `[CORE_LOOP]` | Specify the core loop | "[specify value]" |
-| `[LOOP_AUDIENCE]` | Specify the loop audience | "[specify value]" |
-| `[LOOP_UNIQUE]` | Specify the loop unique | "[specify value]" |
-| `[LOOP_COMP]` | Specify the loop comp | "[specify value]" |
-| `[LOOP_METRICS]` | Specify the loop metrics | "[specify value]" |
-| `[PROGRESSION]` | Specify the progression | "[specify value]" |
-| `[PROG_AUDIENCE]` | Specify the prog audience | "[specify value]" |
-| `[PROG_UNIQUE]` | Specify the prog unique | "[specify value]" |
-| `[PROG_COMP]` | Specify the prog comp | "[specify value]" |
-| `[PROG_METRICS]` | Specify the prog metrics | "[specify value]" |
-| `[SOCIAL_FEAT]` | Specify the social feat | "[specify value]" |
-| `[SOCIAL_AUDIENCE]` | Specify the social audience | "[specify value]" |
-| `[SOCIAL_UNIQUE]` | Specify the social unique | "[specify value]" |
-| `[SOCIAL_COMP]` | Specify the social comp | "[specify value]" |
-| `[SOCIAL_METRICS]` | Specify the social metrics | "[specify value]" |
-| `[MONETIZE_MODEL]` | Specify the monetize model | "[specify value]" |
-| `[MONETIZE_AUDIENCE]` | Specify the monetize audience | "[specify value]" |
-| `[MONETIZE_UNIQUE]` | Specify the monetize unique | "[specify value]" |
-| `[MONETIZE_COMP]` | Specify the monetize comp | "[specify value]" |
-| `[MONETIZE_METRICS]` | Specify the monetize metrics | "[specify value]" |
-| `[ENGINE_CHOICE]` | Specify the engine choice | "[specify value]" |
-| `[ENGINE_VERSION]` | Specify the engine version | "[specify value]" |
-| `[PLATFORM_SUPPORT]` | Specify the platform support | "[specify value]" |
-| `[PERF_TARGET]` | Target or intended perf | "[specify value]" |
-| `[RESOLUTION_SUPPORT]` | Specify the resolution support | "[specify value]" |
-| `[SERVER_ARCH]` | Specify the server arch | "[specify value]" |
+| `[REVENUE_TARGET]` | Revenue goals | "$5M first year", "$50M lifetime", "$1M monthly recurring" |
+| `[GENRE_THEME]` | Genre and theme | "dark fantasy RPG", "sci-fi shooter", "cozy farming sim" |
+| `[TARGET_DEMO]` | Target demographic | "18-34 core gamers", "casual players 25-45", "competitive esports audience" |
+| `[UNIQUE_FEAT]` | Unique features | "revolutionary combat system", "procedural storytelling", "cross-platform progression" |
+| `[COMPETITORS]` | Key competitors | "Elden Ring, Diablo IV", "Candy Crush, Puzzle Bobble", "League of Legends, Dota 2" |
+| `[SUCCESS_METRICS]` | Success criteria | "85+ Metacritic", "1M units sold", "500K DAU", "4.5+ app store rating" |
+| `[CORE_LOOP]` | Primary gameplay loop | "explore-fight-loot-upgrade", "match-clear-progress", "build-defend-expand" |
+| `[LOOP_AUDIENCE]` | Loop target audience | "action-oriented players", "puzzle enthusiasts", "strategic thinkers" |
+| `[LOOP_UNIQUE]` | Loop uniqueness | "real-time tactics with pause", "physics-based combat", "emergent gameplay" |
+| `[LOOP_COMP]` | Loop competitive position | "deeper than competitors", "more accessible entry point", "innovative mechanics" |
+| `[LOOP_METRICS]` | Loop success metrics | "80% session completion", "15min avg session", "3+ daily sessions" |
+| `[PROGRESSION]` | Progression system | "XP-based leveling 1-100", "skill tree unlocks", "prestige system" |
+| `[PROG_AUDIENCE]` | Progression audience fit | "completionists", "casual pace players", "grind-motivated players" |
+| `[PROG_UNIQUE]` | Progression uniqueness | "meaningful choices every level", "horizontal progression options" |
+| `[PROG_COMP]` | Progression vs competitors | "faster early game pacing", "more endgame content", "better catch-up mechanics" |
+| `[PROG_METRICS]` | Progression metrics | "level-up every 30min early game", "90% reach mid-game", "healthy level distribution" |
+| `[SOCIAL_FEAT]` | Social features | "guilds, friends list, co-op missions", "PvP arenas", "trading system" |
+| `[SOCIAL_AUDIENCE]` | Social audience fit | "social gamers", "competitive players", "cooperative enthusiasts" |
+| `[SOCIAL_UNIQUE]` | Social uniqueness | "seamless drop-in co-op", "cross-platform play", "innovative guild wars" |
+| `[SOCIAL_COMP]` | Social vs competitors | "better matchmaking", "more guild features", "stronger community tools" |
+| `[SOCIAL_METRICS]` | Social metrics | "50% join guilds", "3x retention for social players", "high friend invite rate" |
+| `[MONETIZE_MODEL]` | Monetization model | "premium $59.99", "F2P with cosmetics", "subscription $9.99/month" |
+| `[MONETIZE_AUDIENCE]` | Monetization audience | "premium buyers", "cosmetic collectors", "convenience purchasers" |
+| `[MONETIZE_UNIQUE]` | Monetization uniqueness | "no pay-to-win", "generous free tier", "fair battle pass" |
+| `[MONETIZE_COMP]` | Monetization vs competitors | "better value proposition", "less aggressive monetization" |
+| `[MONETIZE_METRICS]` | Monetization metrics | "3% conversion rate", "$5 ARPU", "$50 ARPPU", "LTV:CAC 3:1" |
+| `[ENGINE_CHOICE]` | Game engine | "Unity", "Unreal Engine 5", "Godot 4", "custom engine" |
+| `[ENGINE_VERSION]` | Engine version | "Unity 2023.2 LTS", "UE 5.3", "Godot 4.2" |
+| `[PLATFORM_SUPPORT]` | Platform support | "PC/Console/Mobile", "PC-first with console ports", "mobile-only" |
+| `[PERF_TARGET]` | Performance targets | "60fps at 1080p", "4K/30fps quality mode", "stable 30fps mobile" |
+| `[RESOLUTION_SUPPORT]` | Resolution support | "720p-4K with dynamic scaling", "ultrawide support", "mobile adaptive" |
+| `[SERVER_ARCH]` | Server architecture | "dedicated servers", "P2P with host migration", "cloud-based serverless" |
 | `[DATABASE_TYPE]` | Type or category of database | "Standard" |
-| `[API_FRAMEWORK]` | Specify the api framework | "[specify value]" |
-| `[CLOUD_PROVIDER]` | Specify the cloud provider | "[specify value]" |
-| `[CDN_SOLUTION]` | Specify the cdn solution | "[specify value]" |
-| `[NET_PROTOCOL]` | Specify the net protocol | "[specify value]" |
-| `[PLAYER_CAP]` | Specify the player cap | "[specify value]" |
-| `[LATENCY_TARGET]` | Target or intended latency | "[specify value]" |
-| `[ANTICHEAT_SYSTEM]` | Specify the anticheat system | "[specify value]" |
-| `[MATCHMAKING_ALGO]` | Specify the matchmaking algo | "[specify value]" |
-| `[ART_PIPELINE]` | Specify the art pipeline | "[specify value]" |
-| `[AUDIO_SYSTEM]` | Specify the audio system | "[specify value]" |
-| `[ANIM_TOOLS]` | Specify the anim tools | "[specify value]" |
-| `[VERSION_CONTROL]` | Specify the version control | "[specify value]" |
-| `[BUILD_SYSTEM]` | Specify the build system | "[specify value]" |
-| `[FTUE_TARGET]` | Target or intended ftue | "[specify value]" |
-| `[FTUE_CURRENT]` | Specify the ftue current | "[specify value]" |
-| `[FTUE_PLAN]` | Specify the ftue plan | "[specify value]" |
-| `[FTUE_TEST]` | Specify the ftue test | "[specify value]" |
-| `[FTUE_SUCCESS]` | Specify the ftue success | "[specify value]" |
-| `[D1_TARGET]` | Target or intended d1 | "[specify value]" |
-| `[D1_CURRENT]` | Specify the d1 current | "[specify value]" |
-| `[D1_PLAN]` | Specify the d1 plan | "[specify value]" |
-| `[D1_TEST]` | Specify the d1 test | "[specify value]" |
-| `[D1_SUCCESS]` | Specify the d1 success | "[specify value]" |
-| `[D7_TARGET]` | Target or intended d7 | "[specify value]" |
-| `[D7_CURRENT]` | Specify the d7 current | "[specify value]" |
-| `[D7_PLAN]` | Specify the d7 plan | "[specify value]" |
-| `[D7_TEST]` | Specify the d7 test | "[specify value]" |
-| `[D7_SUCCESS]` | Specify the d7 success | "[specify value]" |
-| `[D30_TARGET]` | Target or intended d30 | "[specify value]" |
-| `[D30_CURRENT]` | Specify the d30 current | "[specify value]" |
-| `[D30_PLAN]` | Specify the d30 plan | "[specify value]" |
-| `[D30_TEST]` | Specify the d30 test | "[specify value]" |
-| `[D30_SUCCESS]` | Specify the d30 success | "[specify value]" |
-| `[SESSION_TARGET]` | Target or intended session | "[specify value]" |
-| `[SESSION_CURRENT]` | Specify the session current | "[specify value]" |
-| `[SESSION_PLAN]` | Specify the session plan | "[specify value]" |
-| `[SESSION_TEST]` | Specify the session test | "[specify value]" |
-| `[SESSION_SUCCESS]` | Specify the session success | "[specify value]" |
-| `[DAU_TARGET]` | Target or intended dau | "[specify value]" |
-| `[DAU_CURRENT]` | Specify the dau current | "[specify value]" |
-| `[DAU_PLAN]` | Specify the dau plan | "[specify value]" |
-| `[DAU_TEST]` | Specify the dau test | "[specify value]" |
-| `[DAU_SUCCESS]` | Specify the dau success | "[specify value]" |
+| `[API_FRAMEWORK]` | Backend API framework | "REST + GraphQL", "gRPC", "WebSocket real-time" |
+| `[CLOUD_PROVIDER]` | Cloud infrastructure | "AWS GameLift", "Azure PlayFab", "Google Cloud for Gaming" |
+| `[CDN_SOLUTION]` | Content delivery network | "CloudFront", "Akamai", "Cloudflare" |
+| `[NET_PROTOCOL]` | Network protocol | "UDP with reliability layer", "TCP for non-critical", "QUIC" |
+| `[PLAYER_CAP]` | Player capacity | "100 concurrent per server", "64 players battle royale", "5v5 matches" |
+| `[LATENCY_TARGET]` | Latency requirements | "<50ms competitive", "<100ms acceptable", "latency compensation for 200ms+" |
+| `[ANTICHEAT_SYSTEM]` | Anti-cheat solution | "Easy Anti-Cheat", "BattlEye", "custom server-side validation" |
+| `[MATCHMAKING_ALGO]` | Matchmaking algorithm | "Elo-based ranking", "TrueSkill 2", "skill + ping optimization" |
+| `[ART_PIPELINE]` | Art asset pipeline | "Substance + Maya + engine import", "Blender to Unity", "procedural generation" |
+| `[AUDIO_SYSTEM]` | Audio implementation | "Wwise", "FMOD", "Unity native audio", "custom spatial audio" |
+| `[ANIM_TOOLS]` | Animation tools | "Maya + MotionBuilder", "Blender", "Mixamo", "motion capture pipeline" |
+| `[VERSION_CONTROL]` | Version control system | "Perforce", "Git with LFS", "Plastic SCM" |
+| `[BUILD_SYSTEM]` | Build automation | "Jenkins CI/CD", "TeamCity", "GitHub Actions", "Unity Cloud Build" |
+| `[FTUE_TARGET]` | FTUE completion target | "90% complete tutorial", "80% reach first milestone", "5min to first reward" |
+| `[FTUE_CURRENT]` | Current FTUE performance | "75% completion", "60% first milestone", "8min average" |
+| `[FTUE_PLAN]` | FTUE improvement plan | "streamline tutorial", "add skip option", "contextual hints" |
+| `[FTUE_TEST]` | FTUE testing approach | "A/B test flows", "heatmap analysis", "user session recording" |
+| `[FTUE_SUCCESS]` | FTUE success criteria | "90%+ completion", "<5min to engagement", "positive new user sentiment" |
+| `[D1_TARGET]` | Day 1 retention target | "45%", "50%", "55% for core players" |
+| `[D1_CURRENT]` | Current D1 retention | "38%", "42%", "varies by cohort" |
+| `[D1_PLAN]` | D1 improvement plan | "better onboarding", "early rewards", "hook in first 30min" |
+| `[D1_TEST]` | D1 testing approach | "cohort analysis", "A/B test onboarding", "churn surveys" |
+| `[D1_SUCCESS]` | D1 success criteria | "45%+ retention", "positive first day sentiment", "low early churn" |
+| `[D7_TARGET]` | Day 7 retention target | "25%", "30%", "35% for engaged" |
+| `[D7_CURRENT]` | Current D7 retention | "20%", "22%", "varies by source" |
+| `[D7_PLAN]` | D7 improvement plan | "daily login rewards", "weekly content cadence", "social features" |
+| `[D7_TEST]` | D7 testing approach | "event impact analysis", "reward optimization", "engagement triggers" |
+| `[D7_SUCCESS]` | D7 success criteria | "25%+ retention", "habit formation signals", "positive week 1 sentiment" |
+| `[D30_TARGET]` | Day 30 retention target | "12%", "15%", "20% for payers" |
+| `[D30_CURRENT]` | Current D30 retention | "8%", "10%", "varies significantly" |
+| `[D30_PLAN]` | D30 improvement plan | "monthly content updates", "long-term goals", "community events" |
+| `[D30_TEST]` | D30 testing approach | "cohort LTV analysis", "content consumption tracking", "churn prediction" |
+| `[D30_SUCCESS]` | D30 success criteria | "12%+ retention", "sustainable engagement", "positive community health" |
+| `[SESSION_TARGET]` | Session length target | "20min average", "3 sessions/day", "45min engaged players" |
+| `[SESSION_CURRENT]` | Current session metrics | "15min average", "2 sessions/day", "high variance" |
+| `[SESSION_PLAN]` | Session improvement plan | "content pacing optimization", "session end hooks", "natural break points" |
+| `[SESSION_TEST]` | Session testing approach | "session flow analysis", "content gate testing", "interruption studies" |
+| `[SESSION_SUCCESS]` | Session success criteria | "20min+ average", "3+ sessions/day", "healthy session distribution" |
+| `[DAU_TARGET]` | DAU target | "100K DAU", "500K DAU", "1M DAU at scale" |
+| `[DAU_CURRENT]` | Current DAU | "50K DAU", "growing 5% weekly", "seasonal fluctuation" |
+| `[DAU_PLAN]` | DAU growth plan | "UA campaigns", "content updates", "viral features", "cross-promotion" |
+| `[DAU_TEST]` | DAU tracking approach | "cohort analysis", "source attribution", "organic vs paid split" |
+| `[DAU_SUCCESS]` | DAU success criteria | "target DAU achieved", "healthy DAU/MAU ratio 20%+", "stable growth" |
 | `[LEVEL_COUNT]` | Specify the level count | "10" |
-| `[LEVEL_RATE]` | Specify the level rate | "[specify value]" |
-| `[LEVEL_QUALITY]` | Specify the level quality | "[specify value]" |
-| `[LEVEL_REVIEW]` | Specify the level review | "[specify value]" |
-| `[LEVEL_CADENCE]` | Specify the level cadence | "[specify value]" |
+| `[LEVEL_RATE]` | Level production rate | "2 levels/week", "1 major zone/month", "10 levels/update" |
+| `[LEVEL_QUALITY]` | Level quality standard | "4-hour playtest per level", "design review gate", "metrics validation" |
+| `[LEVEL_REVIEW]` | Level review process | "peer review + lead approval", "playtest feedback integration", "QA sign-off" |
+| `[LEVEL_CADENCE]` | Level release cadence | "monthly content drops", "seasonal map updates", "weekly challenge levels" |
 | `[CHAR_COUNT]` | Specify the char count | "10" |
-| `[CHAR_RATE]` | Specify the char rate | "[specify value]" |
-| `[CHAR_QUALITY]` | Specify the char quality | "[specify value]" |
-| `[CHAR_REVIEW]` | Specify the char review | "[specify value]" |
-| `[CHAR_CADENCE]` | Specify the char cadence | "[specify value]" |
+| `[CHAR_RATE]` | Character production rate | "1 new hero/month", "4 characters/season", "skins weekly" |
+| `[CHAR_QUALITY]` | Character quality standard | "unique abilities", "visual distinctiveness", "balance testing" |
+| `[CHAR_REVIEW]` | Character review process | "design + art + balance approval", "community testing", "tournament viability" |
+| `[CHAR_CADENCE]` | Character release cadence | "monthly hero releases", "seasonal roster updates", "event exclusives" |
 | `[ITEM_COUNT]` | Specify the item count | "10" |
-| `[ITEM_RATE]` | Specify the item rate | "[specify value]" |
-| `[ITEM_QUALITY]` | Specify the item quality | "[specify value]" |
-| `[ITEM_REVIEW]` | Specify the item review | "[specify value]" |
-| `[ITEM_CADENCE]` | Specify the item cadence | "[specify value]" |
+| `[ITEM_RATE]` | Item production rate | "20 items/update", "100 cosmetics/season", "weekly shop refresh" |
+| `[ITEM_QUALITY]` | Item quality standard | "rarity-appropriate value", "visual appeal", "gameplay impact balanced" |
+| `[ITEM_REVIEW]` | Item review process | "economy team approval", "art quality check", "balance verification" |
+| `[ITEM_CADENCE]` | Item release cadence | "daily shop rotation", "weekly bundles", "seasonal collections" |
 | `[STORY_COUNT]` | Specify the story count | "10" |
-| `[STORY_RATE]` | Specify the story rate | "[specify value]" |
-| `[STORY_QUALITY]` | Specify the story quality | "[specify value]" |
-| `[STORY_REVIEW]` | Specify the story review | "[specify value]" |
-| `[STORY_CADENCE]` | Specify the story cadence | "[specify value]" |
+| `[STORY_RATE]` | Story content rate | "1 chapter/month", "seasonal story arcs", "weekly narrative events" |
+| `[STORY_QUALITY]` | Story quality standard | "professional writing", "voice acting quality", "player choice impact" |
+| `[STORY_REVIEW]` | Story review process | "narrative director approval", "localization review", "sensitivity reading" |
+| `[STORY_CADENCE]` | Story release cadence | "monthly chapters", "quarterly expansions", "annual story conclusions" |
 | `[EVENT_COUNT]` | Specify the event count | "10" |
-| `[EVENT_RATE]` | Specify the event rate | "[specify value]" |
-| `[EVENT_QUALITY]` | Specify the event quality | "[specify value]" |
-| `[EVENT_REVIEW]` | Specify the event review | "[specify value]" |
-| `[EVENT_CADENCE]` | Specify the event cadence | "[specify value]" |
-| `[BASE_PRICE]` | Specify the base price | "[specify value]" |
-| `[DLC_STRATEGY]` | Strategy or approach for dlc | "[specify value]" |
-| `[SEASON_PRICE]` | Specify the season price | "[specify value]" |
-| `[SPECIAL_EDITIONS]` | Specify the special editions | "[specify value]" |
-| `[PLATFORM_SPLIT]` | Specify the platform split | "[specify value]" |
-| `[IAP_CATEGORIES]` | Specify the iap categories | "[specify value]" |
-| `[PRICE_POINTS]` | Specify the price points | "[specify value]" |
-| `[CONVERSION]` | Specify the conversion | "[specify value]" |
-| `[ARPPU]` | Specify the arppu | "[specify value]" |
-| `[LTV]` | Specify the ltv | "[specify value]" |
-| `[SOFT_CURRENCY]` | Specify the soft currency | "[specify value]" |
-| `[HARD_CURRENCY]` | Specify the hard currency | "[specify value]" |
-| `[EXCHANGE_RATE]` | Specify the exchange rate | "[specify value]" |
-| `[ECONOMY_BALANCE]` | Specify the economy balance | "[specify value]" |
-| `[INFLATION_CONTROL]` | Specify the inflation control | "[specify value]" |
-| `[PASS_PRICE]` | Specify the pass price | "[specify value]" |
+| `[EVENT_RATE]` | Live event rate | "2 events/month", "1 major event/6 weeks", "weekly mini-events" |
+| `[EVENT_QUALITY]` | Event quality standard | "unique rewards", "engaging mechanics", "reasonable completion time" |
+| `[EVENT_REVIEW]` | Event review process | "post-event analysis", "player feedback", "participation metrics" |
+| `[EVENT_CADENCE]` | Event calendar cadence | "holiday events", "seasonal themes", "anniversary celebrations" |
+| `[BASE_PRICE]` | Base game price | "$59.99 premium", "$29.99 indie", "F2P" |
+| `[DLC_STRATEGY]` | DLC approach | "story expansions $14.99", "cosmetic packs $4.99", "season pass $29.99" |
+| `[SEASON_PRICE]` | Season pass price | "$9.99/season", "$24.99 with bonuses", "free tier available" |
+| `[SPECIAL_EDITIONS]` | Special editions | "Deluxe $79.99 with extras", "Collector's $149.99", "Ultimate bundle" |
+| `[PLATFORM_SPLIT]` | Platform revenue split | "70/30 Steam", "88/12 Epic", "platform-native mobile 70/30" |
+| `[IAP_CATEGORIES]` | IAP categories | "cosmetics, currency, battle pass, convenience items" |
+| `[PRICE_POINTS]` | IAP price tiers | "$0.99, $4.99, $9.99, $19.99, $49.99, $99.99" |
+| `[CONVERSION]` | Payer conversion rate | "2-5% convert to payer", "10% in engaged segment" |
+| `[ARPPU]` | Avg revenue per paying user | "$25 ARPPU", "$50 whale tier", "$10 casual payer" |
+| `[LTV]` | Lifetime value | "$8-15 overall LTV", "$100+ whale LTV", "180-day LTV projection" |
+| `[SOFT_CURRENCY]` | Soft currency design | "gold earned through play", "1000 gold = meaningful purchase" |
+| `[HARD_CURRENCY]` | Hard currency design | "gems purchased with real money", "100 gems = $0.99 value" |
+| `[EXCHANGE_RATE]` | Currency exchange | "limited gold-to-gem conversion", "no direct exchange to prevent arbitrage" |
+| `[ECONOMY_BALANCE]` | Economy balancing | "sink/source ratio 1:1.2", "controlled inflation", "progression gates" |
+| `[INFLATION_CONTROL]` | Inflation prevention | "limited daily earnings cap", "currency sinks (repairs, upgrades)", "seasonal resets" |
+| `[PASS_PRICE]` | Battle pass price | "$9.99 standard", "$24.99 with level skip", "free track included" |
 | `[PASS_DURATION]` | Specify the pass duration | "6 months" |
-| `[PASS_TIERS]` | Specify the pass tiers | "[specify value]" |
-| `[PASS_COMPLETE]` | Specify the pass complete | "[specify value]" |
-| `[PASS_RENEWAL]` | Specify the pass renewal | "[specify value]" |
+| `[PASS_TIERS]` | Battle pass tiers | "100 tiers", "free tier every 5 levels", "milestone rewards at 25/50/75/100" |
+| `[PASS_COMPLETE]` | Pass completion rate | "70% of buyers complete", "40hr to complete casually", "XP boosts available" |
+| `[PASS_RENEWAL]` | Pass renewal rate | "70% renew next season", "loyalty discount for consecutive seasons" |
 | `[SOCIAL_BUDGET]` | Budget allocation for social | "$500,000" |
-| `[SOCIAL_CPI]` | Specify the social cpi | "[specify value]" |
-| `[SOCIAL_VOLUME]` | Specify the social volume | "[specify value]" |
-| `[SOCIAL_ROI]` | Specify the social roi | "[specify value]" |
-| `[SOCIAL_CREATIVE]` | Specify the social creative | "[specify value]" |
+| `[SOCIAL_CPI]` | Social ads CPI | "$2-4 CPI Facebook/Instagram", "$3-6 TikTok", "varies by geo" |
+| `[SOCIAL_VOLUME]` | Social ads volume | "10K installs/day at scale", "5M monthly impressions" |
+| `[SOCIAL_ROI]` | Social ads ROI | "LTV:CAC 3:1 target", "D7 ROAS 30%", "breakeven at D60" |
+| `[SOCIAL_CREATIVE]` | Social ad creative | "gameplay videos", "UGC-style content", "influencer clips" |
 | `[SEARCH_BUDGET]` | Budget allocation for search | "$500,000" |
-| `[SEARCH_CPI]` | Specify the search cpi | "[specify value]" |
-| `[SEARCH_VOLUME]` | Specify the search volume | "[specify value]" |
-| `[SEARCH_ROI]` | Specify the search roi | "[specify value]" |
-| `[SEARCH_CREATIVE]` | Specify the search creative | "[specify value]" |
+| `[SEARCH_CPI]` | Search ads CPI | "$1-3 CPI branded", "$5-10 generic keywords", "Apple Search Ads $2-5" |
+| `[SEARCH_VOLUME]` | Search ads volume | "2K installs/day", "high-intent traffic" |
+| `[SEARCH_ROI]` | Search ads ROI | "highest quality users", "LTV:CAC 5:1 for branded" |
+| `[SEARCH_CREATIVE]` | Search ad creative | "app store optimization", "keyword targeting", "competitor conquesting" |
 | `[INFLUENCER_BUDGET]` | Budget allocation for influencer | "$500,000" |
-| `[INFLUENCER_CPI]` | Specify the influencer cpi | "[specify value]" |
-| `[INFLUENCER_VOLUME]` | Specify the influencer volume | "[specify value]" |
-| `[INFLUENCER_ROI]` | Specify the influencer roi | "[specify value]" |
-| `[INFLUENCER_CREATIVE]` | Specify the influencer creative | "[specify value]" |
+| `[INFLUENCER_CPI]` | Influencer CPI | "$3-8 effective CPI", "CPM deals $5-20", "affiliate revenue share" |
+| `[INFLUENCER_VOLUME]` | Influencer volume | "5K installs/campaign", "10M views/month", "50+ creators" |
+| `[INFLUENCER_ROI]` | Influencer ROI | "high retention users", "community building value", "brand awareness lift" |
+| `[INFLUENCER_CREATIVE]` | Influencer content | "gameplay streams", "review videos", "tournament coverage" |
 | `[ORGANIC_BUDGET]` | Budget allocation for organic | "$500,000" |
-| `[ORGANIC_CPI]` | Specify the organic cpi | "[specify value]" |
-| `[ORGANIC_VOLUME]` | Specify the organic volume | "[specify value]" |
-| `[ORGANIC_ROI]` | Specify the organic roi | "[specify value]" |
-| `[ORGANIC_CREATIVE]` | Specify the organic creative | "[specify value]" |
+| `[ORGANIC_CPI]` | Organic effective CPI | "$0 direct cost", "ASO investment", "content marketing spend" |
+| `[ORGANIC_VOLUME]` | Organic install volume | "30-50% of total installs", "platform featuring spikes" |
+| `[ORGANIC_ROI]` | Organic ROI | "highest LTV cohort", "best retention rates", "word-of-mouth indicator" |
+| `[ORGANIC_CREATIVE]` | Organic growth drivers | "ASO optimization", "viral features", "referral programs", "press coverage" |
 | `[CROSS_BUDGET]` | Budget allocation for cross | "$500,000" |
-| `[CROSS_CPI]` | Specify the cross cpi | "[specify value]" |
-| `[CROSS_VOLUME]` | Specify the cross volume | "[specify value]" |
-| `[CROSS_ROI]` | Specify the cross roi | "[specify value]" |
-| `[CROSS_CREATIVE]` | Specify the cross creative | "[specify value]" |
-| `[SEASONAL_FREQ]` | Specify the seasonal freq | "[specify value]" |
-| `[SEASONAL_DUR]` | Specify the seasonal dur | "[specify value]" |
-| `[SEASONAL_REV]` | Specify the seasonal rev | "[specify value]" |
-| `[SEASONAL_ENGAGE]` | Specify the seasonal engage | "[specify value]" |
-| `[SEASONAL_COST]` | Specify the seasonal cost | "[specify value]" |
-| `[LTO_FREQ]` | Specify the lto freq | "[specify value]" |
-| `[LTO_DUR]` | Specify the lto dur | "[specify value]" |
-| `[LTO_REV]` | Specify the lto rev | "[specify value]" |
-| `[LTO_ENGAGE]` | Specify the lto engage | "[specify value]" |
-| `[LTO_COST]` | Specify the lto cost | "[specify value]" |
-| `[TOURN_FREQ]` | Specify the tourn freq | "[specify value]" |
-| `[TOURN_DUR]` | Specify the tourn dur | "[specify value]" |
-| `[TOURN_REV]` | Specify the tourn rev | "[specify value]" |
-| `[TOURN_ENGAGE]` | Specify the tourn engage | "[specify value]" |
-| `[TOURN_COST]` | Specify the tourn cost | "[specify value]" |
-| `[COLLAB_FREQ]` | Specify the collab freq | "[specify value]" |
-| `[COLLAB_DUR]` | Specify the collab dur | "[specify value]" |
-| `[COLLAB_REV]` | Specify the collab rev | "[specify value]" |
-| `[COLLAB_ENGAGE]` | Specify the collab engage | "[specify value]" |
-| `[COLLAB_COST]` | Specify the collab cost | "[specify value]" |
+| `[CROSS_CPI]` | Cross-promo CPI | "$0.50-2 effective CPI", "portfolio leverage", "partner exchanges" |
+| `[CROSS_VOLUME]` | Cross-promo volume | "10K installs/campaign", "existing player base reach" |
+| `[CROSS_ROI]` | Cross-promo ROI | "high-quality users from similar games", "cost-effective scaling" |
+| `[CROSS_CREATIVE]` | Cross-promo creative | "in-game ads", "menu placements", "reward offers", "guest characters" |
+| `[SEASONAL_FREQ]` | Seasonal event frequency | "4 major seasons/year", "holiday events", "anniversary celebration" |
+| `[SEASONAL_DUR]` | Seasonal event duration | "3-month seasons", "2-week holiday events", "1-month anniversary" |
+| `[SEASONAL_REV]` | Seasonal event revenue | "+50% revenue during events", "exclusive cosmetic sales", "pass purchases" |
+| `[SEASONAL_ENGAGE]` | Seasonal engagement lift | "+30% DAU during events", "lapsed player reactivation", "social buzz" |
+| `[SEASONAL_COST]` | Seasonal event cost | "$50K-200K content production", "marketing amplification", "prize pools" |
+| `[LTO_FREQ]` | Limited-time offer frequency | "weekly flash sales", "monthly special bundles", "random rare items" |
+| `[LTO_DUR]` | LTO duration | "24-hour flash", "weekend sales", "7-day limited bundles" |
+| `[LTO_REV]` | LTO revenue impact | "+20% daily revenue during sales", "impulse purchase conversion" |
+| `[LTO_ENGAGE]` | LTO engagement | "increased login frequency", "FOMO-driven engagement" |
+| `[LTO_COST]` | LTO production cost | "minimal new content", "bundle configuration time", "marketing push" |
+| `[TOURN_FREQ]` | Tournament frequency | "weekly community tournaments", "monthly ranked seasons", "quarterly majors" |
+| `[TOURN_DUR]` | Tournament duration | "weekend tournaments", "1-week qualifiers", "2-day finals" |
+| `[TOURN_REV]` | Tournament revenue | "entry fees", "spectator pass", "tournament-exclusive cosmetics" |
+| `[TOURN_ENGAGE]` | Tournament engagement | "peak competitive play", "viewership spikes", "community excitement" |
+| `[TOURN_COST]` | Tournament cost | "prize pool $5K-100K", "production/broadcast", "moderation staff" |
+| `[COLLAB_FREQ]` | Collaboration frequency | "2-4 collabs/year", "IP partnerships", "influencer collaborations" |
+| `[COLLAB_DUR]` | Collaboration duration | "2-4 week events", "limited-time content availability" |
+| `[COLLAB_REV]` | Collaboration revenue | "2-3x normal revenue", "new audience acquisition", "PR value" |
+| `[COLLAB_ENGAGE]` | Collaboration engagement | "lapsed player reactivation", "crossover audience", "social media buzz" |
+| `[COLLAB_COST]` | Collaboration cost | "licensing fees $50K-500K+", "custom content development", "marketing" |
 | `[UPDATE_FREQ]` | Specify the update freq | "2025-01-15" |
 | `[UPDATE_DUR]` | Specify the update dur | "2025-01-15" |
 | `[UPDATE_REV]` | Specify the update rev | "2025-01-15" |
 | `[UPDATE_ENGAGE]` | Specify the update engage | "2025-01-15" |
 | `[UPDATE_COST]` | Specify the update cost | "2025-01-15" |
 | `[ALPHA_DURATION]` | Specify the alpha duration | "6 months" |
-| `[ALPHA_TESTERS]` | Specify the alpha testers | "[specify value]" |
-| `[ALPHA_FOCUS]` | Specify the alpha focus | "[specify value]" |
+| `[ALPHA_TESTERS]` | Alpha test participants | "internal team + friends & family", "100-500 external testers" |
+| `[ALPHA_FOCUS]` | Alpha testing focus | "core loop validation", "major bugs", "early balance feedback" |
 | `[BETA_DURATION]` | Specify the beta duration | "6 months" |
-| `[BETA_TESTERS]` | Specify the beta testers | "[specify value]" |
-| `[BETA_PLATFORMS]` | Specify the beta platforms | "[specify value]" |
+| `[BETA_TESTERS]` | Beta test participants | "5K-50K external testers", "opt-in community members", "influencer early access" |
+| `[BETA_PLATFORMS]` | Beta platform coverage | "all target platforms", "PC-first then console", "staged mobile rollout" |
 | `[PERF_DURATION]` | Specify the perf duration | "6 months" |
-| `[PERF_BENCHMARKS]` | Specify the perf benchmarks | "[specify value]" |
-| `[PERF_OPTIMIZE]` | Specify the perf optimize | "[specify value]" |
-| `[CRITICAL_BUGS]` | Specify the critical bugs | "[specify value]" |
-| `[MAJOR_BUGS]` | Specify the major bugs | "[specify value]" |
-| `[MINOR_BUGS]` | Specify the minor bugs | "[specify value]" |
-| `[KNOWN_ISSUES]` | Specify the known issues | "[specify value]" |
-| `[FIX_RATE]` | Specify the fix rate | "[specify value]" |
-| `[REVIEW_TARGET]` | Target or intended review | "[specify value]" |
-| `[RESPONSE_TIME]` | Specify the response time | "[specify value]" |
-| `[SENTIMENT]` | Specify the sentiment | "[specify value]" |
-| `[FEATURE_REQUESTS]` | Specify the feature requests | "[specify value]" |
-| `[IMPLEMENT_RATE]` | Specify the implement rate | "[specify value]" |
-| `[BEHAVIOR_KPIS]` | Specify the behavior kpis | "[specify value]" |
-| `[BEHAVIOR_CURRENT]` | Specify the behavior current | "[specify value]" |
-| `[BEHAVIOR_TARGET]` | Target or intended behavior | "[specify value]" |
-| `[BEHAVIOR_TRIGGERS]` | Specify the behavior triggers | "[specify value]" |
-| `[BEHAVIOR_OPT]` | Specify the behavior opt | "[specify value]" |
-| `[TECH_KPIS]` | Specify the tech kpis | "[specify value]" |
-| `[TECH_CURRENT]` | Specify the tech current | "[specify value]" |
-| `[TECH_TARGET]` | Target or intended tech | "[specify value]" |
-| `[TECH_TRIGGERS]` | Specify the tech triggers | "[specify value]" |
-| `[TECH_OPT]` | Specify the tech opt | "[specify value]" |
-| `[MONETIZE_KPIS]` | Specify the monetize kpis | "[specify value]" |
-| `[MONETIZE_CURRENT]` | Specify the monetize current | "[specify value]" |
-| `[MONETIZE_TARGET]` | Target or intended monetize | "[specify value]" |
-| `[MONETIZE_TRIGGERS]` | Specify the monetize triggers | "[specify value]" |
-| `[MONETIZE_OPT]` | Specify the monetize opt | "[specify value]" |
-| `[SOCIAL_KPIS]` | Specify the social kpis | "[specify value]" |
-| `[SOCIAL_CURRENT]` | Specify the social current | "[specify value]" |
-| `[SOCIAL_TARGET]` | Target or intended social | "[specify value]" |
-| `[SOCIAL_TRIGGERS]` | Specify the social triggers | "[specify value]" |
-| `[SOCIAL_OPT]` | Specify the social opt | "[specify value]" |
-| `[CONTENT_KPIS]` | Specify the content kpis | "[specify value]" |
-| `[CONTENT_CURRENT]` | Specify the content current | "[specify value]" |
-| `[CONTENT_TARGET]` | Target or intended content | "[specify value]" |
-| `[CONTENT_TRIGGERS]` | Specify the content triggers | "[specify value]" |
-| `[CONTENT_OPT]` | Specify the content opt | "[specify value]" |
-| `[PROG_SIZE]` | Specify the prog size | "[specify value]" |
-| `[PROG_LEAD]` | Specify the prog lead | "[specify value]" |
-| `[PROG_DELIVER]` | Specify the prog deliver | "[specify value]" |
-| `[PROG_VELOCITY]` | Specify the prog velocity | "[specify value]" |
+| `[PERF_BENCHMARKS]` | Performance benchmarks | "60fps minimum", "4GB RAM usage cap", "<5s load times" |
+| `[PERF_OPTIMIZE]` | Performance optimization | "profiling passes", "LOD tuning", "shader optimization", "memory pooling" |
+| `[CRITICAL_BUGS]` | Critical bug threshold | "0 ship-blocking bugs", "crash rate <0.1%", "no data loss issues" |
+| `[MAJOR_BUGS]` | Major bug threshold | "<10 major bugs at launch", "workarounds documented", "hotfix plan ready" |
+| `[MINOR_BUGS]` | Minor bug acceptance | "tracked for post-launch", "cosmetic issues acceptable", "prioritized backlog" |
+| `[KNOWN_ISSUES]` | Known issues process | "documented and communicated", "player-facing known issues list", "fix ETAs when possible" |
+| `[FIX_RATE]` | Bug fix velocity | "80% critical fixed within 24hrs", "major bugs 1 week", "continuous improvement" |
+| `[REVIEW_TARGET]` | Review score target | "85+ Metacritic", "90% positive Steam", "4.5+ app store rating" |
+| `[RESPONSE_TIME]` | Feedback response time | "24hr acknowledgment", "1 week for detailed response", "monthly dev updates" |
+| `[SENTIMENT]` | Player sentiment tracking | "NPS surveys", "social listening", "review sentiment analysis" |
+| `[FEATURE_REQUESTS]` | Feature request handling | "community voting system", "roadmap transparency", "dev response protocol" |
+| `[IMPLEMENT_RATE]` | Request implementation | "top 5 requests per quarter", "community-driven priorities", "feedback loop closed" |
+| `[BEHAVIOR_KPIS]` | Player behavior KPIs | "session length, session frequency, feature usage, progression velocity" |
+| `[BEHAVIOR_CURRENT]` | Current behavior metrics | "15min sessions, 2x daily, 60% feature discovery" |
+| `[BEHAVIOR_TARGET]` | Target behavior metrics | "20min sessions, 3x daily, 80% feature discovery" |
+| `[BEHAVIOR_TRIGGERS]` | Behavior change triggers | "content updates, events, rewards, social features" |
+| `[BEHAVIOR_OPT]` | Behavior optimization | "funnel analysis, A/B testing, personalization, engagement triggers" |
+| `[TECH_KPIS]` | Technical KPIs | "crash rate, load time, frame rate, server uptime, latency" |
+| `[TECH_CURRENT]` | Current tech metrics | "0.5% crash rate, 8s load, 55fps avg, 99.5% uptime" |
+| `[TECH_TARGET]` | Target tech metrics | "<0.1% crash, <5s load, 60fps stable, 99.9% uptime" |
+| `[TECH_TRIGGERS]` | Tech alert triggers | "crash spike >1%", "load >10s", "fps <30", "downtime >5min" |
+| `[TECH_OPT]` | Tech optimization | "continuous profiling, automated alerts, performance budgets" |
+| `[MONETIZE_KPIS]` | Monetization KPIs | "ARPU, ARPPU, conversion rate, LTV, revenue per DAU" |
+| `[MONETIZE_CURRENT]` | Current monetization | "$0.05 ARPDAU, 2% conversion, $25 ARPPU" |
+| `[MONETIZE_TARGET]` | Target monetization | "$0.10 ARPDAU, 4% conversion, $40 ARPPU" |
+| `[MONETIZE_TRIGGERS]` | Monetization triggers | "new IAP, sales events, seasonal content, battle pass launch" |
+| `[MONETIZE_OPT]` | Monetization optimization | "price testing, bundle optimization, offer timing, segmentation" |
+| `[SOCIAL_KPIS]` | Social engagement KPIs | "friends added, guild membership, co-op sessions, referrals" |
+| `[SOCIAL_CURRENT]` | Current social metrics | "30% have friends, 15% in guilds, 1.2 referrals/user" |
+| `[SOCIAL_TARGET]` | Target social metrics | "50% have friends, 30% in guilds, 2.0 referrals/user" |
+| `[SOCIAL_TRIGGERS]` | Social feature triggers | "friend play bonuses, guild events, referral rewards" |
+| `[SOCIAL_OPT]` | Social optimization | "friction reduction, social rewards, community events" |
+| `[CONTENT_KPIS]` | Content consumption KPIs | "content completion rate, time to content exhaustion, replay rate" |
+| `[CONTENT_CURRENT]` | Current content metrics | "70% complete main story, 30% do optional content" |
+| `[CONTENT_TARGET]` | Target content metrics | "85% complete main, 50% optional, healthy replay rates" |
+| `[CONTENT_TRIGGERS]` | Content engagement triggers | "new content drops, event exclusives, challenge modes" |
+| `[CONTENT_OPT]` | Content optimization | "pacing analysis, completion funnel, content gap identification" |
+| `[PROG_SIZE]` | Programming team size | "15 engineers", "5 senior + 10 mid-level", "client + server split" |
+| `[PROG_LEAD]` | Programming lead | "Technical Director", "Lead Programmer", "Architecture owner" |
+| `[PROG_DELIVER]` | Programming deliverables | "feature implementation, bug fixes, optimization, tools" |
+| `[PROG_VELOCITY]` | Programming velocity | "30 story points/sprint", "2-week sprint cycles", "80% estimate accuracy" |
 | `[PROG_BUDGET]` | Budget allocation for prog | "$500,000" |
-| `[ART_SIZE]` | Specify the art size | "[specify value]" |
-| `[ART_LEAD]` | Specify the art lead | "[specify value]" |
-| `[ART_DELIVER]` | Specify the art deliver | "[specify value]" |
-| `[ART_VELOCITY]` | Specify the art velocity | "[specify value]" |
+| `[ART_SIZE]` | Art team size | "20 artists", "concept + 3D + 2D + tech art", "outsource support" |
+| `[ART_LEAD]` | Art lead | "Art Director", "Lead Artist", "style owner" |
+| `[ART_DELIVER]` | Art deliverables | "characters, environments, UI, VFX, animations" |
+| `[ART_VELOCITY]` | Art velocity | "2 characters/month", "1 environment/week", "consistent pipeline" |
 | `[ART_BUDGET]` | Budget allocation for art | "$500,000" |
-| `[DESIGN_SIZE]` | Specify the design size | "[specify value]" |
-| `[DESIGN_LEAD]` | Specify the design lead | "[specify value]" |
-| `[DESIGN_DELIVER]` | Specify the design deliver | "[specify value]" |
-| `[DESIGN_VELOCITY]` | Specify the design velocity | "[specify value]" |
+| `[DESIGN_SIZE]` | Design team size | "8 designers", "systems + level + narrative", "UX support" |
+| `[DESIGN_LEAD]` | Design lead | "Creative Director", "Lead Game Designer", "vision keeper" |
+| `[DESIGN_DELIVER]` | Design deliverables | "systems design, levels, narrative, balance, UX flows" |
+| `[DESIGN_VELOCITY]` | Design velocity | "2 levels/week", "1 system doc/sprint", "iterative balance" |
 | `[DESIGN_BUDGET]` | Budget allocation for design | "$500,000" |
-| `[QA_SIZE]` | Specify the qa size | "[specify value]" |
-| `[QA_LEAD]` | Specify the qa lead | "[specify value]" |
-| `[QA_DELIVER]` | Specify the qa deliver | "[specify value]" |
-| `[QA_VELOCITY]` | Specify the qa velocity | "[specify value]" |
+| `[QA_SIZE]` | QA team size | "10 testers", "manual + automation", "platform specialists" |
+| `[QA_LEAD]` | QA lead | "QA Manager", "Test Lead", "quality owner" |
+| `[QA_DELIVER]` | QA deliverables | "bug reports, test cases, coverage reports, certification" |
+| `[QA_VELOCITY]` | QA velocity | "full regression 2 days", "daily smoke tests", "automation coverage 60%" |
 | `[QA_BUDGET]` | Budget allocation for qa | "$500,000" |
-| `[PROD_SIZE]` | Specify the prod size | "[specify value]" |
-| `[PROD_LEAD]` | Specify the prod lead | "[specify value]" |
-| `[PROD_DELIVER]` | Specify the prod deliver | "[specify value]" |
-| `[PROD_VELOCITY]` | Specify the prod velocity | "[specify value]" |
+| `[PROD_SIZE]` | Production team size | "3 producers", "project management + coordination" |
+| `[PROD_LEAD]` | Production lead | "Executive Producer", "Senior Producer", "ship responsibility" |
+| `[PROD_DELIVER]` | Production deliverables | "schedules, milestones, risk management, stakeholder updates" |
+| `[PROD_VELOCITY]` | Production cadence | "weekly stand-ups", "bi-weekly sprints", "monthly milestone reviews" |
 | `[PROD_BUDGET]` | Budget allocation for prod | "$500,000" |
-| `[LIVE_SIZE]` | Specify the live size | "[specify value]" |
-| `[LIVE_LEAD]` | Specify the live lead | "[specify value]" |
-| `[LIVE_DELIVER]` | Specify the live deliver | "[specify value]" |
-| `[LIVE_VELOCITY]` | Specify the live velocity | "[specify value]" |
+| `[LIVE_SIZE]` | Live ops team size | "5 live ops specialists", "community + analytics + content" |
+| `[LIVE_LEAD]` | Live ops lead | "Live Ops Director", "Service Lead", "player experience owner" |
+| `[LIVE_DELIVER]` | Live ops deliverables | "events, balance patches, community management, analytics" |
+| `[LIVE_VELOCITY]` | Live ops cadence | "weekly events", "bi-weekly balance", "monthly content drops" |
 | `[LIVE_BUDGET]` | Budget allocation for live | "$500,000" |
 
 ### 3. Player Experience & Engagement

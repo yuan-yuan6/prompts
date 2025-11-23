@@ -173,64 +173,64 @@ Build Process:
 |----------|-------------|----------|
 | `[PIPELINE_NAME]` | Specify the pipeline name | "John Smith" |
 | `[APPLICATION_TYPE]` | Specify the application type | "Standard" |
-| `[PIPELINE_TECHNOLOGY_STACK]` | Specify the pipeline technology stack | "[specify value]" |
-| `[DEPLOYMENT_ENVIRONMENT]` | Specify the deployment environment | "[specify value]" |
-| `[PIPELINE_STRATEGY]` | Specify the pipeline strategy | "[specify value]" |
-| `[PIPELINE_TEAM]` | Specify the pipeline team | "[specify value]" |
-| `[BUSINESS_REQUIREMENTS]` | Specify the business requirements | "[specify value]" |
-| `[PIPELINE_COMPLIANCE]` | Specify the pipeline compliance | "[specify value]" |
-| `[PIPELINE_PERFORMANCE]` | Specify the pipeline performance | "[specify value]" |
-| `[PIPELINE_SECURITY]` | Specify the pipeline security | "[specify value]" |
-| `[VERSION_CONTROL_SYSTEM]` | Specify the version control system | "[specify value]" |
-| `[BRANCHING_STRATEGY]` | Specify the branching strategy | "[specify value]" |
-| `[MERGE_STRATEGY]` | Specify the merge strategy | "[specify value]" |
-| `[CODE_REVIEW_PROCESS]` | Specify the code review process | "[specify value]" |
-| `[COMMIT_STANDARDS]` | Specify the commit standards | "[specify value]" |
-| `[TRIGGER_CONDITIONS]` | Specify the trigger conditions | "[specify value]" |
-| `[WEBHOOK_CONFIGURATION]` | Specify the webhook configuration | "[specify value]" |
-| `[BRANCH_PROTECTION]` | Specify the branch protection | "[specify value]" |
-| `[SOURCE_ACCESS_CONTROLS]` | Specify the source access controls | "[specify value]" |
-| `[SOURCE_AUDIT_LOGGING]` | Specify the source audit logging | "[specify value]" |
-| `[BUILD_TOOLS]` | Specify the build tools | "[specify value]" |
-| `[BUILD_ENVIRONMENT]` | Specify the build environment | "[specify value]" |
-| `[DEPENDENCY_MANAGEMENT]` | Specify the dependency management | "[specify value]" |
-| `[ARTIFACT_GENERATION]` | Specify the artifact generation | "[specify value]" |
-| `[BUILD_OPTIMIZATION]` | Specify the build optimization | "[specify value]" |
-| `[BUILD_CACHING]` | Specify the build caching | "[specify value]" |
-| `[PARALLEL_BUILDS]` | Specify the parallel builds | "[specify value]" |
-| `[BUILD_NOTIFICATIONS]` | Specify the build notifications | "[specify value]" |
-| `[BUILD_METRICS]` | Specify the build metrics | "[specify value]" |
-| `[BUILD_FAILURE_HANDLING]` | Specify the build failure handling | "[specify value]" |
-| `[TESTING_FRAMEWORK]` | Specify the testing framework | "[specify value]" |
-| `[UNIT_TESTING]` | Specify the unit testing | "[specify value]" |
-| `[INTEGRATION_TESTING]` | Specify the integration testing | "[specify value]" |
-| `[E2E_TESTING]` | Specify the e2e testing | "[specify value]" |
-| `[PERFORMANCE_TESTING]` | Specify the performance testing | "[specify value]" |
-| `[SECURITY_TESTING]` | Specify the security testing | "[specify value]" |
-| `[TEST_DATA_MANAGEMENT]` | Specify the test data management | "[specify value]" |
-| `[TEST_ENVIRONMENT]` | Specify the test environment | "[specify value]" |
-| `[TEST_REPORTING]` | Specify the test reporting | "[specify value]" |
-| `[COVERAGE_REQUIREMENTS]` | Specify the coverage requirements | "[specify value]" |
-| `[GATE_CRITERIA]` | Specify the gate criteria | "[specify value]" |
-| `[CODE_QUALITY]` | Specify the code quality | "[specify value]" |
-| `[SECURITY_SCANNING]` | Specify the security scanning | "[specify value]" |
-| `[VULNERABILITY_ASSESSMENT]` | Specify the vulnerability assessment | "[specify value]" |
-| `[COMPLIANCE_CHECKS]` | Specify the compliance checks | "[specify value]" |
-| `[PERFORMANCE_BENCHMARKS]` | Specify the performance benchmarks | "[specify value]" |
-| `[APPROVAL_PROCESS]` | Specify the approval process | "[specify value]" |
-| `[OVERRIDE_PROCEDURES]` | Specify the override procedures | "[specify value]" |
-| `[GATE_REPORTING]` | Specify the gate reporting | "[specify value]" |
-| `[GATE_METRICS]` | Specify the gate metrics | "[specify value]" |
-| `[DEPLOYMENT_MODEL]` | Specify the deployment model | "[specify value]" |
-| `[ENVIRONMENT_PROMOTION]` | Specify the environment promotion | "[specify value]" |
-| `[BLUE_GREEN_DEPLOYMENT]` | Specify the blue green deployment | "[specify value]" |
-| `[CANARY_DEPLOYMENT]` | Specify the canary deployment | "[specify value]" |
-| `[ROLLING_UPDATES]` | Specify the rolling updates | "2025-01-15" |
-| `[FEATURE_FLAGS]` | Specify the feature flags | "[specify value]" |
-| `[ROLLBACK_STRATEGY]` | Specify the rollback strategy | "[specify value]" |
-| `[SMOKE_TESTING]` | Specify the smoke testing | "[specify value]" |
-| `[DEPLOYMENT_HEALTH_CHECKS]` | Specify the deployment health checks | "[specify value]" |
-| `[DEPLOYMENT_NOTIFICATIONS]` | Specify the deployment notifications | "[specify value]" |
+| `[PIPELINE_TECHNOLOGY_STACK]` | Specify the pipeline technology stack | "Node.js + TypeScript", "Java Spring Boot + Maven", "Python + Poetry", "Go + Docker", ".NET Core + NuGet" |
+| `[DEPLOYMENT_ENVIRONMENT]` | Specify the deployment environment | "AWS EKS (dev/staging/prod)", "Azure AKS multi-region", "GCP GKE + Cloud Run", "On-premise Kubernetes" |
+| `[PIPELINE_STRATEGY]` | Specify the pipeline strategy | "GitOps with ArgoCD", "Trunk-based development", "Feature branch workflow", "Release train model" |
+| `[PIPELINE_TEAM]` | Specify the pipeline team | "Platform Engineering team", "DevOps Center of Excellence", "SRE team", "Embedded DevOps engineers" |
+| `[BUSINESS_REQUIREMENTS]` | Specify the business requirements | "<15min deployment time", "Zero-downtime releases", "Multi-region deployment", "Compliance audit trail" |
+| `[PIPELINE_COMPLIANCE]` | Specify the pipeline compliance | "SOC2 Type II", "PCI-DSS Level 1", "HIPAA", "FedRAMP Moderate", "ISO 27001" |
+| `[PIPELINE_PERFORMANCE]` | Specify the pipeline performance | "<5min build time", "<10min full pipeline", "95% success rate", "50 deployments/day capacity" |
+| `[PIPELINE_SECURITY]` | Specify the pipeline security | "SAST/DAST integrated", "Container scanning", "Signed artifacts", "Secret rotation", "SBOM generation" |
+| `[VERSION_CONTROL_SYSTEM]` | Specify the version control system | "GitHub Enterprise", "GitLab Self-hosted", "Azure DevOps Repos", "Bitbucket Cloud" |
+| `[BRANCHING_STRATEGY]` | Specify the branching strategy | "GitFlow", "GitHub Flow", "Trunk-based development", "Release branching" |
+| `[MERGE_STRATEGY]` | Specify the merge strategy | "Squash and merge", "Rebase and merge", "Merge commit", "Fast-forward only" |
+| `[CODE_REVIEW_PROCESS]` | Specify the code review process | "2 approvers required", "CODEOWNERS enforcement", "Automated review assignment", "PR templates mandatory" |
+| `[COMMIT_STANDARDS]` | Specify the commit standards | "Conventional Commits", "Signed commits required", "Jira ticket reference", "DCO sign-off" |
+| `[TRIGGER_CONDITIONS]` | Specify the trigger conditions | "Push to main/develop", "Pull request opened", "Tag creation", "Scheduled nightly", "Manual approval" |
+| `[WEBHOOK_CONFIGURATION]` | Specify the webhook configuration | "GitHub webhooks to Jenkins", "GitLab CI triggers", "Slack notifications", "PagerDuty alerts" |
+| `[BRANCH_PROTECTION]` | Specify the branch protection | "Required status checks", "No force push on main", "Linear history required", "Admin enforcement" |
+| `[SOURCE_ACCESS_CONTROLS]` | Specify the source access controls | "SSO with Okta/Azure AD", "Team-based permissions", "Read/write segregation", "IP allowlisting" |
+| `[SOURCE_AUDIT_LOGGING]` | Specify the source audit logging | "Git audit log enabled", "CloudTrail integration", "SIEM forwarding", "90-day retention" |
+| `[BUILD_TOOLS]` | Specify the build tools | "Docker + BuildKit", "Maven/Gradle", "npm/yarn/pnpm", "Bazel", "Make + CMake" |
+| `[BUILD_ENVIRONMENT]` | Specify the build environment | "GitHub Actions runners", "Jenkins agents (ephemeral)", "GitLab CI Docker executors", "Self-hosted Kubernetes pods" |
+| `[DEPENDENCY_MANAGEMENT]` | Specify the dependency management | "npm + package-lock.json", "Maven Central + Nexus proxy", "pip + requirements.txt", "Go modules" |
+| `[ARTIFACT_GENERATION]` | Specify the artifact generation | "Docker images to ECR/GCR", "Helm charts to ChartMuseum", "npm packages to Artifactory", "JAR/WAR to Nexus" |
+| `[BUILD_OPTIMIZATION]` | Specify the build optimization | "Multi-stage Docker builds", "Layer caching", "Incremental compilation", "Parallel test execution" |
+| `[BUILD_CACHING]` | Specify the build caching | "Docker layer cache", "npm/Maven cache", "GitHub Actions cache", "Remote build cache (Gradle)" |
+| `[PARALLEL_BUILDS]` | Specify the parallel builds | "Matrix builds for multi-platform", "Parallel test sharding", "Monorepo affected-only builds" |
+| `[BUILD_NOTIFICATIONS]` | Specify the build notifications | "Slack #builds channel", "Email on failure", "GitHub commit status", "Teams webhook" |
+| `[BUILD_METRICS]` | Specify the build metrics | "Build duration", "Queue time", "Success/failure rate", "Cache hit ratio", "Resource utilization" |
+| `[BUILD_FAILURE_HANDLING]` | Specify the build failure handling | "Auto-retry on flaky tests", "Slack alert + assignee notification", "Auto-rollback trigger", "Incident creation" |
+| `[TESTING_FRAMEWORK]` | Specify the testing framework | "Jest + React Testing Library", "JUnit 5 + Mockito", "pytest + coverage.py", "Go testing + testify" |
+| `[UNIT_TESTING]` | Specify the unit testing | "80% coverage minimum", "Jest with snapshots", "JUnit parallel execution", "Mock external services" |
+| `[INTEGRATION_TESTING]` | Specify the integration testing | "Testcontainers for databases", "WireMock for APIs", "LocalStack for AWS", "Docker Compose test env" |
+| `[E2E_TESTING]` | Specify the e2e testing | "Cypress for web UI", "Playwright cross-browser", "Selenium Grid", "Appium for mobile" |
+| `[PERFORMANCE_TESTING]` | Specify the performance testing | "k6 load testing", "JMeter for APIs", "Gatling scenarios", "Lighthouse CI for frontend" |
+| `[SECURITY_TESTING]` | Specify the security testing | "Snyk for dependencies", "OWASP ZAP DAST", "SonarQube SAST", "Trivy container scanning" |
+| `[TEST_DATA_MANAGEMENT]` | Specify the test data management | "Faker.js generated data", "Sanitized production snapshots", "Test fixtures in repo", "Database seeding scripts" |
+| `[TEST_ENVIRONMENT]` | Specify the test environment | "Ephemeral Kubernetes namespace", "Docker Compose local", "AWS dev account", "Preview environments per PR" |
+| `[TEST_REPORTING]` | Specify the test reporting | "JUnit XML + Allure reports", "Code coverage to Codecov", "Test results in PR comments", "Grafana dashboards" |
+| `[COVERAGE_REQUIREMENTS]` | Specify the coverage requirements | "80% line coverage", "70% branch coverage", "100% critical paths", "No decrease from baseline" |
+| `[GATE_CRITERIA]` | Specify the gate criteria | "All tests passing", "No critical vulnerabilities", "Coverage threshold met", "Performance SLA achieved" |
+| `[CODE_QUALITY]` | Specify the code quality | "SonarQube Quality Gate", "ESLint/Prettier zero warnings", "Checkstyle compliance", "Complexity limits" |
+| `[SECURITY_SCANNING]` | Specify the security scanning | "Snyk in CI pipeline", "Trivy image scan", "OWASP dependency check", "GitLeaks secret detection" |
+| `[VULNERABILITY_ASSESSMENT]` | Specify the vulnerability assessment | "No critical/high CVEs", "CVSS score threshold <7", "48hr remediation SLA", "Exception approval workflow" |
+| `[COMPLIANCE_CHECKS]` | Specify the compliance checks | "License compliance (FOSSA)", "SBOM generation", "Policy-as-code (OPA)", "Audit log verification" |
+| `[PERFORMANCE_BENCHMARKS]` | Specify the performance benchmarks | "p95 latency <200ms", "Throughput >1000 RPS", "Error rate <0.1%", "Memory <512MB per pod" |
+| `[APPROVAL_PROCESS]` | Specify the approval process | "Auto-approve for dev", "Tech lead for staging", "Change Advisory Board for prod", "Emergency bypass with audit" |
+| `[OVERRIDE_PROCEDURES]` | Specify the override procedures | "Senior engineer approval", "Incident commander authority", "Documented exception", "Time-limited bypass" |
+| `[GATE_REPORTING]` | Specify the gate reporting | "Pipeline dashboard in Grafana", "Weekly quality metrics email", "PR gate status checks", "Compliance audit reports" |
+| `[GATE_METRICS]` | Specify the gate metrics | "Gate pass rate", "Average gate duration", "Override frequency", "Blocked deployments count" |
+| `[DEPLOYMENT_MODEL]` | Specify the deployment model | "Kubernetes rolling update", "Blue-green with ALB", "Canary with Istio", "A/B testing with LaunchDarkly" |
+| `[ENVIRONMENT_PROMOTION]` | Specify the environment promotion | "dev → staging → prod", "Feature branch → preview → main", "Ring-based rollout", "Multi-region progressive" |
+| `[BLUE_GREEN_DEPLOYMENT]` | Specify the blue green deployment | "AWS ALB target group switching", "Kubernetes service selector swap", "DNS weighted routing", "Instant rollback capability" |
+| `[CANARY_DEPLOYMENT]` | Specify the canary deployment | "Argo Rollouts with 10/50/100% progression", "Flagger with Istio", "AWS AppMesh canary", "Manual promotion gates" |
+| `[ROLLING_UPDATES]` | Specify the rolling updates | "maxSurge: 25%, maxUnavailable: 0", "One pod at a time", "Health check validation between batches" |
+| `[FEATURE_FLAGS]` | Specify the feature flags | "LaunchDarkly", "Split.io", "Unleash self-hosted", "AWS AppConfig", "Environment variables" |
+| `[ROLLBACK_STRATEGY]` | Specify the rollback strategy | "Automatic on health check failure", "One-click GitOps revert", "Database migration rollback scripts", "Blue-green instant switch" |
+| `[SMOKE_TESTING]` | Specify the smoke testing | "Health endpoint verification", "Critical path API tests", "Synthetic transaction monitoring", "Canary metrics validation" |
+| `[DEPLOYMENT_HEALTH_CHECKS]` | Specify the deployment health checks | "Kubernetes liveness/readiness probes", "HTTP 200 on /health", "Database connectivity check", "Downstream service availability" |
+| `[DEPLOYMENT_NOTIFICATIONS]` | Specify the deployment notifications | "Slack #deployments channel", "PagerDuty for failures", "Email stakeholders", "GitHub deployment status" |
 
 
 

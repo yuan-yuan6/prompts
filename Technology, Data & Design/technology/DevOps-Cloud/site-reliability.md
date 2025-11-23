@@ -183,74 +183,74 @@ Error Budget Management:
 |----------|-------------|----------|
 | `[SERVICE_NAME]` | Specify the service name | "John Smith" |
 | `[SERVICE_TYPE]` | Specify the service type | "Standard" |
-| `[BUSINESS_CRITICALITY]` | Specify the business criticality | "[specify value]" |
-| `[USER_BASE]` | Specify the user base | "[specify value]" |
-| `[TRAFFIC_PATTERN]` | Specify the traffic pattern | "[specify value]" |
-| `[RELIABILITY_REQUIREMENTS]` | Specify the reliability requirements | "[specify value]" |
-| `[SRE_TEAM_STRUCTURE]` | Specify the sre team structure | "[specify value]" |
-| `[SRE_RESPONSIBILITIES]` | Specify the sre responsibilities | "[specify value]" |
-| `[SRE_TOOLS]` | Specify the sre tools | "[specify value]" |
+| `[BUSINESS_CRITICALITY]` | Specify the business criticality | "Tier 1 - Revenue Critical", "Tier 2 - Business Essential", "Tier 3 - Internal Support" |
+| `[USER_BASE]` | Specify the user base | "1M+ monthly active users", "10K enterprise customers", "Internal 5K employees" |
+| `[TRAFFIC_PATTERN]` | Specify the traffic pattern | "Steady weekday traffic", "Seasonal peaks (Black Friday)", "Bursty event-driven" |
+| `[RELIABILITY_REQUIREMENTS]` | Specify the reliability requirements | "99.9% availability (8.76hr downtime/year)", "99.99% for critical services" |
+| `[SRE_TEAM_STRUCTURE]` | Specify the sre team structure | "Embedded SRE per product team", "Central SRE platform team", "Hybrid model" |
+| `[SRE_RESPONSIBILITIES]` | Specify the sre responsibilities | "SLO definition", "Incident response", "Capacity planning", "Reliability reviews" |
+| `[SRE_TOOLS]` | Specify the sre tools | "Prometheus + Grafana", "PagerDuty", "Datadog", "Jaeger", "Terraform"
 | `[SRE_BUDGET]` | Specify the sre budget | "$500,000" |
-| `[SLI_DEFINITIONS]` | Specify the sli definitions | "[specify value]" |
-| `[SLO_TARGETS]` | Specify the slo targets | "[specify value]" |
-| `[MEASUREMENT_METHODS]` | Specify the measurement methods | "[specify value]" |
-| `[DATA_SOURCES]` | Specify the data sources | "[specify value]" |
-| `[CALCULATION_LOGIC]` | Specify the calculation logic | "[specify value]" |
-| `[REPORTING_PERIOD]` | Specify the reporting period | "[specify value]" |
-| `[SLO_REVIEW_PROCESS]` | Specify the slo review process | "[specify value]" |
-| `[STAKEHOLDER_AGREEMENT]` | Specify the stakeholder agreement | "[specify value]" |
-| `[SLO_DOCUMENTATION]` | Specify the slo documentation | "[specify value]" |
-| `[SLO_COMMUNICATION]` | Specify the slo communication | "[specify value]" |
+| `[SLI_DEFINITIONS]` | Specify the sli definitions | "Availability: successful requests / total requests", "Latency: p95 response time", "Error rate: 5xx / total" |
+| `[SLO_TARGETS]` | Specify the slo targets | "99.9% availability", "p95 latency < 200ms", "Error rate < 0.1%" |
+| `[MEASUREMENT_METHODS]` | Specify the measurement methods | "Prometheus metrics", "Load balancer logs", "Synthetic monitoring", "Real user monitoring" |
+| `[DATA_SOURCES]` | Specify the data sources | "CloudWatch metrics", "Application logs", "APM traces", "CDN analytics" |
+| `[CALCULATION_LOGIC]` | Specify the calculation logic | "30-day rolling window", "Excluding planned maintenance", "Weighted by request volume" |
+| `[REPORTING_PERIOD]` | Specify the reporting period | "30-day rolling", "Weekly reports", "Monthly review", "Quarterly business review" |
+| `[SLO_REVIEW_PROCESS]` | Specify the slo review process | "Quarterly SLO review meeting", "Annual target adjustment", "Post-incident SLO analysis" |
+| `[STAKEHOLDER_AGREEMENT]` | Specify the stakeholder agreement | "Engineering + Product alignment", "Executive sponsor sign-off", "Customer communication" |
+| `[SLO_DOCUMENTATION]` | Specify the slo documentation | "Confluence SLO page", "Runbook links", "Dashboard URLs", "Contact information" |
+| `[SLO_COMMUNICATION]` | Specify the slo communication | "Weekly Slack report", "Monthly email summary", "Real-time dashboard", "Status page"
 | `[ERROR_BUDGET_DEFINITION]` | Specify the error budget definition | "$500,000" |
 | `[BUDGET_CALCULATION]` | Specify the budget calculation | "$500,000" |
-| `[BURN_RATE]` | Specify the burn rate | "[specify value]" |
+| `[BURN_RATE]` | Specify the burn rate | "1x (sustainable)", "2x (alert threshold)", "10x (critical - page immediately)"
 | `[BUDGET_TRACKING]` | Specify the budget tracking | "$500,000" |
 | `[BUDGET_ALERTS]` | Specify the budget alerts | "$500,000" |
 | `[BUDGET_POLICIES]` | Specify the budget policies | "$500,000" |
-| `[ESCALATION_TRIGGERS]` | Specify the escalation triggers | "[specify value]" |
-| `[RELEASE_GATES]` | Specify the release gates | "[specify value]" |
+| `[ESCALATION_TRIGGERS]` | Specify the escalation triggers | "50% budget consumed in 1 week", "10x burn rate for 5 minutes", "SLO breach imminent" |
+| `[RELEASE_GATES]` | Specify the release gates | "Block releases when budget < 10%", "Require approval when < 25%", "Auto-approve when > 50%"
 | `[BUDGET_REPORTING]` | Specify the budget reporting | "$500,000" |
-| `[RECOVERY_ACTIONS]` | Specify the recovery actions | "[specify value]" |
-| `[SRE_MONITORING_STRATEGY]` | Specify the sre monitoring strategy | "[specify value]" |
-| `[SRE_METRICS_COLLECTION]` | Specify the sre metrics collection | "[specify value]" |
-| `[SRE_LOG_MANAGEMENT]` | Specify the sre log management | "[specify value]" |
-| `[SRE_DISTRIBUTED_TRACING]` | Specify the sre distributed tracing | "[specify value]" |
-| `[SRE_DASHBOARD_DESIGN]` | Specify the sre dashboard design | "[specify value]" |
-| `[SRE_ALERTING_STRATEGY]` | Specify the sre alerting strategy | "[specify value]" |
-| `[ONCALL_MANAGEMENT]` | Specify the oncall management | "[specify value]" |
-| `[RUNBOOK_CREATION]` | Specify the runbook creation | "[specify value]" |
-| `[PLAYBOOK_DEVELOPMENT]` | Specify the playbook development | "[specify value]" |
-| `[SRE_TOOL_INTEGRATION]` | Specify the sre tool integration | "[specify value]" |
-| `[INCIDENT_CLASSIFICATION]` | Specify the incident classification | "[specify value]" |
-| `[RESPONSE_PROCEDURES]` | Specify the response procedures | "[specify value]" |
-| `[ESCALATION_MATRIX]` | Specify the escalation matrix | "[specify value]" |
-| `[INCIDENT_COMMUNICATION]` | Specify the incident communication | "[specify value]" |
+| `[RECOVERY_ACTIONS]` | Specify the recovery actions | "Freeze deployments", "Enable feature flags", "Scale up resources", "Rollback last change" |
+| `[SRE_MONITORING_STRATEGY]` | Specify the sre monitoring strategy | "Four Golden Signals (latency, traffic, errors, saturation)", "RED method", "USE method" |
+| `[SRE_METRICS_COLLECTION]` | Specify the sre metrics collection | "Prometheus + exporters", "StatsD", "OpenTelemetry", "CloudWatch agent" |
+| `[SRE_LOG_MANAGEMENT]` | Specify the sre log management | "ELK Stack (Elasticsearch, Logstash, Kibana)", "Loki + Grafana", "Splunk", "CloudWatch Logs" |
+| `[SRE_DISTRIBUTED_TRACING]` | Specify the sre distributed tracing | "Jaeger", "Zipkin", "AWS X-Ray", "Datadog APM", "OpenTelemetry" |
+| `[SRE_DASHBOARD_DESIGN]` | Specify the sre dashboard design | "SLO status overview", "Service health grid", "Error budget burn", "On-call summary" |
+| `[SRE_ALERTING_STRATEGY]` | Specify the sre alerting strategy | "Symptom-based alerts", "Multi-window burn rate", "Alert routing by severity" |
+| `[ONCALL_MANAGEMENT]` | Specify the oncall management | "PagerDuty rotation", "1-week shifts", "Follow-the-sun", "Secondary on-call backup" |
+| `[RUNBOOK_CREATION]` | Specify the runbook creation | "Templated runbooks in Confluence", "Automated runbook links in alerts", "Version controlled" |
+| `[PLAYBOOK_DEVELOPMENT]` | Specify the playbook development | "Incident response playbooks", "Disaster recovery procedures", "Escalation guides" |
+| `[SRE_TOOL_INTEGRATION]` | Specify the sre tool integration | "Slack + PagerDuty", "Jira for tickets", "GitHub for code", "Terraform for infra" |
+| `[INCIDENT_CLASSIFICATION]` | Specify the incident classification | "SEV1: Revenue impact, all-hands", "SEV2: Degraded, team response", "SEV3: Minor, async fix" |
+| `[RESPONSE_PROCEDURES]` | Specify the response procedures | "Acknowledge < 5min", "Assemble team < 15min", "Status update every 30min" |
+| `[ESCALATION_MATRIX]` | Specify the escalation matrix | "L1: On-call engineer", "L2: Team lead", "L3: Engineering manager", "L4: VP Engineering" |
+| `[INCIDENT_COMMUNICATION]` | Specify the incident communication | "Slack #incidents channel", "Status page updates", "Customer email for SEV1"
 | `[STATUS_PAGE]` | Specify the status page | "In Progress" |
-| `[POSTMORTEM_PROCESS]` | Specify the postmortem process | "[specify value]" |
-| `[ACTION_ITEM_TRACKING]` | Specify the action item tracking | "[specify value]" |
-| `[LESSONS_LEARNED]` | Specify the lessons learned | "[specify value]" |
-| `[INCIDENT_PROCESS_IMPROVEMENT]` | Specify the incident process improvement | "[specify value]" |
-| `[INCIDENT_TRAINING]` | Specify the incident training | "[specify value]" |
-| `[CAPACITY_MODELING]` | Specify the capacity modeling | "[specify value]" |
-| `[GROWTH_PROJECTIONS]` | Specify the growth projections | "[specify value]" |
-| `[RESOURCE_PLANNING]` | Specify the resource planning | "[specify value]" |
-| `[SRE_PERFORMANCE_TESTING]` | Specify the sre performance testing | "[specify value]" |
-| `[SRE_LOAD_TESTING]` | Specify the sre load testing | "[specify value]" |
-| `[SRE_STRESS_TESTING]` | Specify the sre stress testing | "[specify value]" |
-| `[CAPACITY_MONITORING]` | Specify the capacity monitoring | "[specify value]" |
-| `[SRE_SCALING_POLICIES]` | Specify the sre scaling policies | "[specify value]" |
-| `[SRE_COST_OPTIMIZATION]` | Specify the sre cost optimization | "[specify value]" |
-| `[PROCUREMENT_PLANNING]` | Specify the procurement planning | "[specify value]" |
-| `[RELIABILITY_PRINCIPLES]` | Specify the reliability principles | "[specify value]" |
-| `[FAULT_TOLERANCE]` | Specify the fault tolerance | "[specify value]" |
-| `[SRE_CIRCUIT_BREAKERS]` | Specify the sre circuit breakers | "[specify value]" |
-| `[SRE_RETRY_LOGIC]` | Specify the sre retry logic | "[specify value]" |
-| `[GRACEFUL_DEGRADATION]` | Specify the graceful degradation | "[specify value]" |
-| `[CHAOS_ENGINEERING]` | Specify the chaos engineering | "[specify value]" |
-| `[SRE_DISASTER_RECOVERY]` | Specify the sre disaster recovery | "[specify value]" |
-| `[SRE_BACKUP_STRATEGY]` | Specify the sre backup strategy | "[specify value]" |
-| `[SRE_TESTING_STRATEGY]` | Specify the sre testing strategy | "[specify value]" |
-| `[RELEASE_ENGINEERING]` | Specify the release engineering | "[specify value]" |
+| `[POSTMORTEM_PROCESS]` | Specify the postmortem process | "Blameless postmortem within 48hrs", "5 Whys analysis", "Timeline reconstruction" |
+| `[ACTION_ITEM_TRACKING]` | Specify the action item tracking | "Jira epic per incident", "Owner assigned", "Due dates enforced", "Weekly review" |
+| `[LESSONS_LEARNED]` | Specify the lessons learned | "Quarterly review meeting", "Shared knowledge base", "Pattern identification" |
+| `[INCIDENT_PROCESS_IMPROVEMENT]` | Specify the incident process improvement | "Retrospective after each SEV1", "Tool improvements", "Runbook updates" |
+| `[INCIDENT_TRAINING]` | Specify the incident training | "Quarterly incident response drills", "New hire on-call shadowing", "Game days" |
+| `[CAPACITY_MODELING]` | Specify the capacity modeling | "Load testing extrapolation", "Historical growth trends", "Business forecast alignment" |
+| `[GROWTH_PROJECTIONS]` | Specify the growth projections | "20% YoY traffic growth", "Seasonal peak 3x baseline", "New feature impact estimates" |
+| `[RESOURCE_PLANNING]` | Specify the resource planning | "Quarterly capacity reviews", "Reserved instance planning", "Headroom buffers (20%)" |
+| `[SRE_PERFORMANCE_TESTING]` | Specify the sre performance testing | "k6 load tests", "Gatling scenarios", "Production traffic replay" |
+| `[SRE_LOAD_TESTING]` | Specify the sre load testing | "Weekly load tests", "Pre-release validation", "Peak traffic simulation" |
+| `[SRE_STRESS_TESTING]` | Specify the sre stress testing | "Breaking point identification", "Failure mode analysis", "Recovery time measurement" |
+| `[CAPACITY_MONITORING]` | Specify the capacity monitoring | "CPU/memory utilization trends", "Storage growth rates", "Connection pool usage" |
+| `[SRE_SCALING_POLICIES]` | Specify the sre scaling policies | "HPA at 70% CPU", "Scale out before scale up", "Predictive scaling for known events" |
+| `[SRE_COST_OPTIMIZATION]` | Specify the sre cost optimization | "Right-sizing recommendations", "Spot instances for batch", "Reserved capacity for baseline" |
+| `[PROCUREMENT_PLANNING]` | Specify the procurement planning | "6-month hardware lead time", "Annual reserved instance commits", "Vendor negotiations" |
+| `[RELIABILITY_PRINCIPLES]` | Specify the reliability principles | "Design for failure", "Automate recovery", "Prefer simplicity", "Monitor everything" |
+| `[FAULT_TOLERANCE]` | Specify the fault tolerance | "Multi-AZ deployment", "Active-active regions", "N+1 redundancy", "Graceful failover" |
+| `[SRE_CIRCUIT_BREAKERS]` | Specify the sre circuit breakers | "Resilience4j", "Hystrix (legacy)", "Envoy circuit breaking", "Custom implementations" |
+| `[SRE_RETRY_LOGIC]` | Specify the sre retry logic | "Exponential backoff", "Jitter added", "Max 3 retries", "Idempotency required" |
+| `[GRACEFUL_DEGRADATION]` | Specify the graceful degradation | "Feature flags for non-critical", "Cached fallbacks", "Static error pages", "Queue backpressure" |
+| `[CHAOS_ENGINEERING]` | Specify the chaos engineering | "Chaos Monkey", "Gremlin", "LitmusChaos", "Monthly game days" |
+| `[SRE_DISASTER_RECOVERY]` | Specify the sre disaster recovery | "RPO < 1hr", "RTO < 4hr", "Cross-region failover", "Annual DR drills" |
+| `[SRE_BACKUP_STRATEGY]` | Specify the sre backup strategy | "Daily snapshots", "Cross-region replication", "Point-in-time recovery", "Backup testing" |
+| `[SRE_TESTING_STRATEGY]` | Specify the sre testing strategy | "Canary deployments", "Blue-green releases", "Feature flag rollouts", "Synthetic testing" |
+| `[RELEASE_ENGINEERING]` | Specify the release engineering | "GitOps with ArgoCD", "Automated rollbacks", "Progressive delivery", "Release trains"
 
 
 

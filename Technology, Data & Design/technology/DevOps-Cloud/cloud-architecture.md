@@ -188,75 +188,75 @@ Infrastructure Design:
 | Variable | Description | Example |
 |----------|-------------|----------|
 | `[ARCHITECTURE_NAME]` | Specify the architecture name | "John Smith" |
-| `[CLOUD_PROVIDER]` | Specify the cloud provider | "[specify value]" |
+| `[CLOUD_PROVIDER]` | Specify the cloud provider | "AWS (EC2, EKS, Lambda)", "Azure (AKS, Functions)", "GCP (GKE, Cloud Run)", "Multi-cloud AWS+Azure" |
 | `[ARCHITECTURE_TYPE]` | Specify the architecture type | "Standard" |
-| `[DEPLOYMENT_MODEL]` | Specify the deployment model | "[specify value]" |
+| `[DEPLOYMENT_MODEL]` | Specify the deployment model | "Multi-AZ high availability", "Multi-region active-active", "Hybrid cloud", "Edge computing" |
 | `[BUSINESS_OBJECTIVES]` | Specify the business objectives | "Increase efficiency by 30%" |
-| `[TECHNICAL_REQUIREMENTS]` | Specify the technical requirements | "[specify value]" |
-| `[CLOUD_COMPLIANCE]` | Specify the cloud compliance | "[specify value]" |
+| `[TECHNICAL_REQUIREMENTS]` | Specify the technical requirements | "99.99% uptime SLA", "<100ms latency", "Auto-scaling 1-100 instances", "Zero-downtime deployments" |
+| `[CLOUD_COMPLIANCE]` | Specify the cloud compliance | "SOC2 Type II", "PCI-DSS", "HIPAA", "GDPR", "FedRAMP" |
 | `[CLOUD_BUDGET]` | Specify the cloud budget | "$500,000" |
 | `[ARCHITECTURE_TIMELINE]` | Specify the architecture timeline | "6 months" |
-| `[CLOUD_STAKEHOLDERS]` | Specify the cloud stakeholders | "[specify value]" |
-| `[CLOUD_MODEL]` | Specify the cloud model | "[specify value]" |
-| `[SERVICE_MODEL]` | Specify the service model | "[specify value]" |
-| `[MULTI_CLOUD_STRATEGY]` | Specify the multi cloud strategy | "[specify value]" |
-| `[HYBRID_STRATEGY]` | Specify the hybrid strategy | "[specify value]" |
-| `[CLOUD_MIGRATION_STRATEGY]` | Specify the cloud migration strategy | "[specify value]" |
-| `[VENDOR_STRATEGY]` | Specify the vendor strategy | "[specify value]" |
-| `[EXIT_STRATEGY]` | Specify the exit strategy | "[specify value]" |
-| `[CLOUD_GOVERNANCE]` | Specify the cloud governance | "[specify value]" |
-| `[CLOUD_COST_STRATEGY]` | Specify the cloud cost strategy | "[specify value]" |
-| `[SKILLS_STRATEGY]` | Specify the skills strategy | "[specify value]" |
-| `[COMPUTE_SERVICES]` | Specify the compute services | "[specify value]" |
-| `[STORAGE_SERVICES]` | Specify the storage services | "[specify value]" |
-| `[NETWORK_SERVICES]` | Specify the network services | "[specify value]" |
-| `[DATABASE_SERVICES]` | Specify the database services | "[specify value]" |
-| `[INTEGRATION_SERVICES]` | Specify the integration services | "[specify value]" |
-| `[SECURITY_SERVICES]` | Specify the security services | "[specify value]" |
-| `[MONITORING_SERVICES]` | Specify the monitoring services | "[specify value]" |
-| `[MANAGEMENT_SERVICES]` | Specify the management services | "[specify value]" |
-| `[AIML_SERVICES]` | Specify the aiml services | "[specify value]" |
-| `[ANALYTICS_SERVICES]` | Specify the analytics services | "[specify value]" |
-| `[NETWORK_DESIGN]` | Specify the network design | "[specify value]" |
-| `[VPC_CONFIGURATION]` | Specify the vpc configuration | "[specify value]" |
-| `[SUBNET_STRATEGY]` | Specify the subnet strategy | "[specify value]" |
-| `[ROUTING_CONFIGURATION]` | Specify the routing configuration | "[specify value]" |
-| `[SECURITY_GROUPS]` | Specify the security groups | "[specify value]" |
-| `[CLOUD_LOAD_BALANCING]` | Specify the cloud load balancing | "[specify value]" |
-| `[CDN_CONFIGURATION]` | Specify the cdn configuration | "[specify value]" |
-| `[DNS_STRATEGY]` | Specify the dns strategy | "[specify value]" |
-| `[VPN_CONFIGURATION]` | Specify the vpn configuration | "[specify value]" |
-| `[DIRECT_CONNECT]` | Specify the direct connect | "[specify value]" |
-| `[CLOUD_SECURITY_FRAMEWORK]` | Specify the cloud security framework | "[specify value]" |
-| `[CLOUD_IDENTITY_MANAGEMENT]` | Specify the cloud identity management | "[specify value]" |
-| `[CLOUD_ACCESS_CONTROL]` | Specify the cloud access control | "[specify value]" |
-| `[CLOUD_DATA_PROTECTION]` | Specify the cloud data protection | "[specify value]" |
-| `[CLOUD_NETWORK_SECURITY]` | Specify the cloud network security | "[specify value]" |
-| `[CLOUD_APPLICATION_SECURITY]` | Specify the cloud application security | "[specify value]" |
-| `[CLOUD_MONITORING_SECURITY]` | Specify the cloud monitoring security | "[specify value]" |
-| `[COMPLIANCE_CONTROLS]` | Specify the compliance controls | "[specify value]" |
-| `[CLOUD_KEY_MANAGEMENT]` | Specify the cloud key management | "[specify value]" |
-| `[THREAT_DETECTION]` | Specify the threat detection | "[specify value]" |
-| `[AVAILABILITY_DESIGN]` | Specify the availability design | "[specify value]" |
-| `[REDUNDANCY_STRATEGY]` | Specify the redundancy strategy | "[specify value]" |
-| `[FAILOVER_MECHANISMS]` | Specify the failover mechanisms | "[specify value]" |
-| `[LOAD_DISTRIBUTION]` | Specify the load distribution | "[specify value]" |
-| `[GEOGRAPHIC_DISTRIBUTION]` | Specify the geographic distribution | "[specify value]" |
-| `[CLOUD_BACKUP_STRATEGY]` | Specify the cloud backup strategy | "[specify value]" |
-| `[CLOUD_DISASTER_RECOVERY]` | Specify the cloud disaster recovery | "[specify value]" |
-| `[CLOUD_BUSINESS_CONTINUITY]` | Specify the cloud business continuity | "[specify value]" |
-| `[RTO_RPO_TARGETS]` | Specify the rto rpo targets | "[specify value]" |
-| `[AVAILABILITY_TESTING]` | Specify the availability testing | "[specify value]" |
-| `[CLOUD_SCALING_STRATEGY]` | Specify the cloud scaling strategy | "[specify value]" |
-| `[CLOUD_AUTO_SCALING]` | Specify the cloud auto scaling | "[specify value]" |
-| `[CLOUD_PERFORMANCE_OPTIMIZATION]` | Specify the cloud performance optimization | "[specify value]" |
-| `[CLOUD_CAPACITY_PLANNING]` | Specify the cloud capacity planning | "[specify value]" |
-| `[CLOUD_RESOURCE_MANAGEMENT]` | Specify the cloud resource management | "[specify value]" |
-| `[CLOUD_MONITORING_STRATEGY]` | Specify the cloud monitoring strategy | "[specify value]" |
-| `[CLOUD_ALERTING]` | Specify the cloud alerting | "[specify value]" |
-| `[CLOUD_PERFORMANCE_TESTING]` | Specify the cloud performance testing | "[specify value]" |
-| `[CLOUD_OPTIMIZATION]` | Specify the cloud optimization | "[specify value]" |
-| `[CLOUD_COST_MANAGEMENT]` | Specify the cloud cost management | "[specify value]" |
+| `[CLOUD_STAKEHOLDERS]` | Specify the cloud stakeholders | "CTO, VP Engineering, Platform Team, Security Team, FinOps Team" |
+| `[CLOUD_MODEL]` | Specify the cloud model | "Public cloud", "Private cloud", "Hybrid cloud", "Community cloud" |
+| `[SERVICE_MODEL]` | Specify the service model | "IaaS (EC2, VMs)", "PaaS (App Service, Beanstalk)", "SaaS integration", "FaaS (Lambda)" |
+| `[MULTI_CLOUD_STRATEGY]` | Specify the multi cloud strategy | "Primary AWS + DR on Azure", "Best-of-breed per workload", "Avoid vendor lock-in" |
+| `[HYBRID_STRATEGY]` | Specify the hybrid strategy | "On-prem data center + AWS", "VMware Cloud on AWS", "Azure Arc", "Anthos" |
+| `[CLOUD_MIGRATION_STRATEGY]` | Specify the cloud migration strategy | "Lift and shift", "Replatform to containers", "Refactor to microservices", "6 Rs approach" |
+| `[VENDOR_STRATEGY]` | Specify the vendor strategy | "AWS preferred partner", "Multi-vendor competitive", "Strategic partnership" |
+| `[EXIT_STRATEGY]` | Specify the exit strategy | "Portable containers", "Terraform abstraction", "Data export procedures", "30-day migration plan" |
+| `[CLOUD_GOVERNANCE]` | Specify the cloud governance | "Cloud Center of Excellence", "Tagging policies", "Cost allocation", "Security guardrails" |
+| `[CLOUD_COST_STRATEGY]` | Specify the cloud cost strategy | "FinOps practices", "Reserved capacity 60%", "Spot for batch", "Right-sizing automation" |
+| `[SKILLS_STRATEGY]` | Specify the skills strategy | "AWS certifications program", "Hands-on training labs", "Cloud guild community", "External consultants" |
+| `[COMPUTE_SERVICES]` | Specify the compute services | "EC2 (t3, m5, c5)", "Lambda functions", "ECS Fargate", "Batch processing" |
+| `[STORAGE_SERVICES]` | Specify the storage services | "S3 (Standard, IA, Glacier)", "EBS gp3", "EFS", "FSx for Windows" |
+| `[NETWORK_SERVICES]` | Specify the network services | "VPC", "Transit Gateway", "Direct Connect", "Global Accelerator", "CloudFront" |
+| `[DATABASE_SERVICES]` | Specify the database services | "RDS Aurora PostgreSQL", "DynamoDB", "ElastiCache Redis", "DocumentDB" |
+| `[INTEGRATION_SERVICES]` | Specify the integration services | "API Gateway", "EventBridge", "SQS/SNS", "Step Functions", "AppSync" |
+| `[SECURITY_SERVICES]` | Specify the security services | "IAM", "Secrets Manager", "WAF", "Shield", "GuardDuty", "Security Hub" |
+| `[MONITORING_SERVICES]` | Specify the monitoring services | "CloudWatch", "X-Ray", "CloudTrail", "Config", "Trusted Advisor" |
+| `[MANAGEMENT_SERVICES]` | Specify the management services | "Systems Manager", "Control Tower", "Organizations", "Service Catalog" |
+| `[AIML_SERVICES]` | Specify the aiml services | "SageMaker", "Bedrock", "Rekognition", "Comprehend", "Forecast" |
+| `[ANALYTICS_SERVICES]` | Specify the analytics services | "Athena", "Redshift", "QuickSight", "Kinesis", "Glue" |
+| `[NETWORK_DESIGN]` | Specify the network design | "Hub-and-spoke topology", "Segmented VPCs per environment", "Service mesh overlay" |
+| `[VPC_CONFIGURATION]` | Specify the vpc configuration | "10.0.0.0/16 CIDR", "3 AZs", "Public/private/data subnets", "NAT Gateway per AZ" |
+| `[SUBNET_STRATEGY]` | Specify the subnet strategy | "/24 subnets per tier/AZ", "Public for ALB", "Private for compute", "Isolated for databases" |
+| `[ROUTING_CONFIGURATION]` | Specify the routing configuration | "Route tables per subnet tier", "Transit Gateway attachments", "VPC endpoints for AWS services" |
+| `[SECURITY_GROUPS]` | Specify the security groups | "Least privilege rules", "App-tier to DB-tier only", "No 0.0.0.0/0 ingress", "Tag-based management" |
+| `[CLOUD_LOAD_BALANCING]` | Specify the cloud load balancing | "ALB for HTTP/HTTPS", "NLB for TCP", "Cross-zone enabled", "Target group health checks" |
+| `[CDN_CONFIGURATION]` | Specify the cdn configuration | "CloudFront distributions", "S3 origin with OAC", "Lambda@Edge for auth", "Cache behaviors per path" |
+| `[DNS_STRATEGY]` | Specify the dns strategy | "Route 53 hosted zones", "Alias records to ALB", "Health check failover", "Geolocation routing" |
+| `[VPN_CONFIGURATION]` | Specify the vpn configuration | "Site-to-site VPN", "Client VPN for remote access", "BGP routing", "Redundant tunnels" |
+| `[DIRECT_CONNECT]` | Specify the direct connect | "1Gbps dedicated connection", "LAG for redundancy", "Private VIF to VPC", "Transit VIF to TGW" |
+| `[CLOUD_SECURITY_FRAMEWORK]` | Specify the cloud security framework | "AWS Well-Architected Security", "CIS Benchmarks", "NIST CSF", "Zero Trust principles" |
+| `[CLOUD_IDENTITY_MANAGEMENT]` | Specify the cloud identity management | "IAM Identity Center with Okta", "Role-based access", "MFA enforced", "Permission boundaries" |
+| `[CLOUD_ACCESS_CONTROL]` | Specify the cloud access control | "RBAC with IAM policies", "SCP guardrails", "Resource-based policies", "Attribute-based (ABAC)" |
+| `[CLOUD_DATA_PROTECTION]` | Specify the cloud data protection | "KMS CMK encryption", "S3 bucket policies", "RDS encryption", "Macie for PII discovery" |
+| `[CLOUD_NETWORK_SECURITY]` | Specify the cloud network security | "Security groups", "NACLs", "WAF rules", "Network Firewall", "VPC Flow Logs" |
+| `[CLOUD_APPLICATION_SECURITY]` | Specify the cloud application security | "Secrets Manager", "Parameter Store", "Certificate Manager", "Inspector scanning" |
+| `[CLOUD_MONITORING_SECURITY]` | Specify the cloud monitoring security | "CloudTrail logging", "GuardDuty threat detection", "Security Hub aggregation", "SIEM integration" |
+| `[COMPLIANCE_CONTROLS]` | Specify the compliance controls | "AWS Config rules", "Conformance packs", "Audit Manager", "Automated remediation" |
+| `[CLOUD_KEY_MANAGEMENT]` | Specify the cloud key management | "KMS with automatic rotation", "Customer-managed CMK", "Key policies per service", "CloudHSM for compliance" |
+| `[THREAT_DETECTION]` | Specify the threat detection | "GuardDuty findings", "Security Hub insights", "CloudWatch anomaly detection", "Third-party SIEM" |
+| `[AVAILABILITY_DESIGN]` | Specify the availability design | "Multi-AZ deployment", "99.99% target SLA", "Active-active architecture", "Auto-healing" |
+| `[REDUNDANCY_STRATEGY]` | Specify the redundancy strategy | "3 AZs minimum", "Cross-region read replicas", "S3 cross-region replication", "Global database" |
+| `[FAILOVER_MECHANISMS]` | Specify the failover mechanisms | "Route 53 health check failover", "Aurora automatic failover", "ASG health checks", "ELB cross-zone" |
+| `[LOAD_DISTRIBUTION]` | Specify the load distribution | "Round-robin across AZs", "Least connections", "Weighted routing", "Session affinity when needed" |
+| `[GEOGRAPHIC_DISTRIBUTION]` | Specify the geographic distribution | "Primary us-east-1", "DR eu-west-1", "Edge locations via CloudFront", "Latency-based routing" |
+| `[CLOUD_BACKUP_STRATEGY]` | Specify the cloud backup strategy | "AWS Backup centralized", "Daily automated snapshots", "35-day retention", "Cross-region copy" |
+| `[CLOUD_DISASTER_RECOVERY]` | Specify the cloud disaster recovery | "Pilot light DR region", "Elastic Disaster Recovery", "RTO <1hr", "RPO <15min" |
+| `[CLOUD_BUSINESS_CONTINUITY]` | Specify the cloud business continuity | "Multi-region architecture", "Runbook automation", "Quarterly DR testing", "Communication plan" |
+| `[RTO_RPO_TARGETS]` | Specify the rto rpo targets | "RTO: 1 hour", "RPO: 15 minutes", "Tier-1 critical systems", "Tier-2: 4hr/1hr" |
+| `[AVAILABILITY_TESTING]` | Specify the availability testing | "Chaos engineering with Fault Injection Simulator", "Game days quarterly", "Failover drills monthly" |
+| `[CLOUD_SCALING_STRATEGY]` | Specify the cloud scaling strategy | "Horizontal scaling preferred", "Auto Scaling Groups", "Predictive scaling", "Scheduled scaling" |
+| `[CLOUD_AUTO_SCALING]` | Specify the cloud auto scaling | "Target tracking 70% CPU", "Step scaling for spikes", "Min 2 / Max 50 instances", "Cooldown 300s" |
+| `[CLOUD_PERFORMANCE_OPTIMIZATION]` | Specify the cloud performance optimization | "Instance right-sizing", "GP3 storage", "ElastiCache caching", "CloudFront edge caching" |
+| `[CLOUD_CAPACITY_PLANNING]` | Specify the cloud capacity planning | "Monthly utilization reviews", "Compute Optimizer recommendations", "Reserved capacity planning" |
+| `[CLOUD_RESOURCE_MANAGEMENT]` | Specify the cloud resource management | "Tagging standards", "Resource Groups", "Service Catalog products", "Infrastructure as Code" |
+| `[CLOUD_MONITORING_STRATEGY]` | Specify the cloud monitoring strategy | "CloudWatch unified", "Container Insights", "Custom metrics", "Dashboard per service" |
+| `[CLOUD_ALERTING]` | Specify the cloud alerting | "CloudWatch alarms", "SNS notifications", "PagerDuty integration", "Escalation policies" |
+| `[CLOUD_PERFORMANCE_TESTING]` | Specify the cloud performance testing | "Load testing with k6", "AWS Load Testing service", "Baseline benchmarks", "Canary testing" |
+| `[CLOUD_OPTIMIZATION]` | Specify the cloud optimization | "Trusted Advisor recommendations", "Compute Optimizer", "Cost Explorer analysis", "Graviton migration" |
+| `[CLOUD_COST_MANAGEMENT]` | Specify the cloud cost management | "AWS Cost Explorer", "Budgets with alerts", "Cost allocation tags", "Savings Plans", "Kubecost" |
 
 
 

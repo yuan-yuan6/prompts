@@ -99,266 +99,266 @@ mmWave Deployment:
 |----------|-------------|----------|
 | `[OPERATOR_NAME]` | Name of the operator | "John Smith" |
 | `[SUBSCRIBER_COUNT]` | Specify the subscriber count | "10" |
-| `[COVERAGE_AREA]` | Specify the coverage area | "[specify value]" |
-| `[NETWORK_SITES]` | Specify the network sites | "[specify value]" |
-| `[BANDWIDTH_CAPACITY]` | Specify the bandwidth capacity | "[specify value]" |
-| `[AVAILABILITY_TARGET]` | Target or intended availability | "[specify value]" |
-| `[QUALITY_TARGET]` | Target or intended quality | "[specify value]" |
-| `[CORE_UNITS]` | Specify the core units | "[specify value]" |
-| `[CORE_CAP]` | Specify the core cap | "[specify value]" |
-| `[CORE_UTIL]` | Specify the core util | "[specify value]" |
-| `[CORE_AVAIL]` | Specify the core avail | "[specify value]" |
-| `[CORE_INVEST]` | Specify the core invest | "[specify value]" |
-| `[RAN_UNITS]` | Specify the ran units | "[specify value]" |
-| `[RAN_CAP]` | Specify the ran cap | "[specify value]" |
-| `[RAN_UTIL]` | Specify the ran util | "[specify value]" |
-| `[RAN_AVAIL]` | Specify the ran avail | "[specify value]" |
-| `[RAN_INVEST]` | Specify the ran invest | "[specify value]" |
-| `[TRANS_UNITS]` | Specify the trans units | "[specify value]" |
-| `[TRANS_CAP]` | Specify the trans cap | "[specify value]" |
-| `[TRANS_UTIL]` | Specify the trans util | "[specify value]" |
-| `[TRANS_AVAIL]` | Specify the trans avail | "[specify value]" |
-| `[TRANS_INVEST]` | Specify the trans invest | "[specify value]" |
-| `[DC_UNITS]` | Specify the dc units | "[specify value]" |
-| `[DC_CAP]` | Specify the dc cap | "[specify value]" |
-| `[DC_UTIL]` | Specify the dc util | "[specify value]" |
-| `[DC_AVAIL]` | Specify the dc avail | "[specify value]" |
-| `[DC_INVEST]` | Specify the dc invest | "[specify value]" |
-| `[EDGE_UNITS]` | Specify the edge units | "[specify value]" |
-| `[EDGE_CAP]` | Specify the edge cap | "[specify value]" |
-| `[EDGE_UTIL]` | Specify the edge util | "[specify value]" |
-| `[EDGE_AVAIL]` | Specify the edge avail | "[specify value]" |
-| `[EDGE_INVEST]` | Specify the edge invest | "[specify value]" |
-| `[FIBER_UNITS]` | Specify the fiber units | "[specify value]" |
-| `[FIBER_CAP]` | Specify the fiber cap | "[specify value]" |
-| `[FIBER_UTIL]` | Specify the fiber util | "[specify value]" |
-| `[FIBER_AVAIL]` | Specify the fiber avail | "[specify value]" |
-| `[FIBER_INVEST]` | Specify the fiber invest | "[specify value]" |
-| `[NSA_SITES]` | Specify the nsa sites | "[specify value]" |
-| `[NSA_POP]` | Specify the nsa pop | "[specify value]" |
-| `[NSA_GEO]` | Specify the nsa geo | "[specify value]" |
-| `[NSA_SPEED]` | Specify the nsa speed | "[specify value]" |
-| `[NSA_INVEST]` | Specify the nsa invest | "[specify value]" |
-| `[SA_SITES]` | Specify the sa sites | "[specify value]" |
-| `[SA_POP]` | Specify the sa pop | "[specify value]" |
-| `[SA_SLICES]` | Specify the sa slices | "[specify value]" |
-| `[SA_LATENCY]` | Specify the sa latency | "[specify value]" |
-| `[SA_INVEST]` | Specify the sa invest | "[specify value]" |
-| `[MMWAVE_URBAN]` | Specify the mmwave urban | "[specify value]" |
-| `[MMWAVE_HOT]` | Specify the mmwave hot | "[specify value]" |
-| `[MMWAVE_INDOOR]` | Specify the mmwave indoor | "[specify value]" |
-| `[MMWAVE_SPEED]` | Specify the mmwave speed | "[specify value]" |
-| `[MMWAVE_CASES]` | Specify the mmwave cases | "[specify value]" |
-| `[EMBB_CAPACITY]` | Specify the embb capacity | "[specify value]" |
-| `[URLLC_LATENCY]` | Specify the urllc latency | "https://example.com" |
-| `[MMTC_DEVICES]` | Specify the mmtc devices | "[specify value]" |
-| `[ENT_SLICES]` | Specify the ent slices | "[specify value]" |
-| `[SLICE_REVENUE]` | Specify the slice revenue | "[specify value]" |
-| `[VOICE_SUBS]` | Specify the voice subs | "[specify value]" |
-| `[VOICE_ARPU]` | Specify the voice arpu | "[specify value]" |
-| `[VOICE_CHURN]` | Specify the voice churn | "[specify value]" |
-| `[VOICE_NPS]` | Specify the voice nps | "[specify value]" |
-| `[VOICE_QOS]` | Specify the voice qos | "[specify value]" |
-| `[DATA_SUBS]` | Specify the data subs | "[specify value]" |
-| `[DATA_ARPU]` | Specify the data arpu | "[specify value]" |
-| `[DATA_CHURN]` | Specify the data churn | "[specify value]" |
-| `[DATA_NPS]` | Specify the data nps | "[specify value]" |
-| `[DATA_QOS]` | Specify the data qos | "[specify value]" |
-| `[FIXED_SUBS]` | Specify the fixed subs | "[specify value]" |
-| `[FIXED_ARPU]` | Specify the fixed arpu | "[specify value]" |
-| `[FIXED_CHURN]` | Specify the fixed churn | "[specify value]" |
-| `[FIXED_NPS]` | Specify the fixed nps | "[specify value]" |
-| `[FIXED_QOS]` | Specify the fixed qos | "[specify value]" |
-| `[ENT_SUBS]` | Specify the ent subs | "[specify value]" |
-| `[ENT_ARPU]` | Specify the ent arpu | "[specify value]" |
-| `[ENT_CHURN]` | Specify the ent churn | "[specify value]" |
-| `[ENT_NPS]` | Specify the ent nps | "[specify value]" |
-| `[ENT_QOS]` | Specify the ent qos | "[specify value]" |
-| `[IOT_SUBS]` | Specify the iot subs | "[specify value]" |
-| `[IOT_ARPU]` | Specify the iot arpu | "[specify value]" |
-| `[IOT_CHURN]` | Specify the iot churn | "[specify value]" |
-| `[IOT_NPS]` | Specify the iot nps | "[specify value]" |
-| `[IOT_QOS]` | Specify the iot qos | "[specify value]" |
-| `[CLOUD_SUBS]` | Specify the cloud subs | "[specify value]" |
-| `[CLOUD_ARPU]` | Specify the cloud arpu | "[specify value]" |
-| `[CLOUD_CHURN]` | Specify the cloud churn | "[specify value]" |
-| `[CLOUD_NPS]` | Specify the cloud nps | "[specify value]" |
-| `[CLOUD_QOS]` | Specify the cloud qos | "[specify value]" |
-| `[DET_CURRENT]` | Specify the det current | "[specify value]" |
-| `[DET_TARGET]` | Target or intended det | "[specify value]" |
-| `[DET_BEST]` | Specify the det best | "[specify value]" |
-| `[DET_AUTO]` | Specify the det auto | "[specify value]" |
-| `[DET_IMPROVE]` | Specify the det improve | "[specify value]" |
-| `[RES_CURRENT]` | Specify the res current | "[specify value]" |
-| `[RES_TARGET]` | Target or intended res | "[specify value]" |
-| `[RES_BEST]` | Specify the res best | "[specify value]" |
-| `[RES_AUTO]` | Specify the res auto | "[specify value]" |
-| `[RES_IMPROVE]` | Specify the res improve | "[specify value]" |
-| `[FCR_CURRENT]` | Specify the fcr current | "[specify value]" |
-| `[FCR_TARGET]` | Target or intended fcr | "[specify value]" |
-| `[FCR_BEST]` | Specify the fcr best | "[specify value]" |
-| `[FCR_AUTO]` | Specify the fcr auto | "[specify value]" |
-| `[FCR_IMPROVE]` | Specify the fcr improve | "[specify value]" |
-| `[AVAIL_CURRENT]` | Specify the avail current | "[specify value]" |
-| `[AVAIL_TARGET]` | Target or intended avail | "[specify value]" |
-| `[AVAIL_BEST]` | Specify the avail best | "[specify value]" |
-| `[AVAIL_AUTO]` | Specify the avail auto | "[specify value]" |
-| `[AVAIL_IMPROVE]` | Specify the avail improve | "[specify value]" |
-| `[PROACT_CURRENT]` | Specify the proact current | "[specify value]" |
-| `[PROACT_TARGET]` | Target or intended proact | "[specify value]" |
-| `[PROACT_BEST]` | Specify the proact best | "[specify value]" |
-| `[PROACT_AUTO]` | Specify the proact auto | "[specify value]" |
-| `[PROACT_IMPROVE]` | Specify the proact improve | "[specify value]" |
-| `[COVERAGE_OPT]` | Specify the coverage opt | "[specify value]" |
-| `[CAPACITY_OPT]` | Specify the capacity opt | "[specify value]" |
-| `[INTERFERENCE]` | Specify the interference | "[specify value]" |
-| `[HANDOVER]` | Specify the handover | "[specify value]" |
-| `[DROP_RATE]` | Specify the drop rate | "[specify value]" |
-| `[SIGNAL_OPT]` | Specify the signal opt | "[specify value]" |
-| `[ROUTING_EFF]` | Specify the routing eff | "[specify value]" |
-| `[LOAD_BALANCE]` | Specify the load balance | "[specify value]" |
-| `[LATENCY_RED]` | Specify the latency red | "[specify value]" |
-| `[THROUGH_GAIN]` | Specify the through gain | "[specify value]" |
-| `[BAND_UTIL]` | Specify the band util | "[specify value]" |
-| `[ROUTE_OPT]` | Specify the route opt | "[specify value]" |
-| `[REDUNDANCY]` | Specify the redundancy | "[specify value]" |
-| `[PACKET_LOSS]` | Specify the packet loss | "[specify value]" |
-| `[JITTER]` | Specify the jitter | "[specify value]" |
-| `[POWER_USE]` | Specify the power use | "[specify value]" |
-| `[PUE_RATING]` | Specify the pue rating | "[specify value]" |
-| `[RENEWABLE]` | Specify the renewable | "[specify value]" |
-| `[ENERGY_SAVE]` | Specify the energy save | "[specify value]" |
-| `[CARBON_RED]` | Specify the carbon red | "[specify value]" |
-| `[SPEED_CURRENT]` | Specify the speed current | "[specify value]" |
-| `[SPEED_TARGET]` | Target or intended speed | "[specify value]" |
-| `[SPEED_AVG]` | Specify the speed avg | "[specify value]" |
-| `[SPEED_IMPACT]` | Specify the speed impact | "[specify value]" |
-| `[SPEED_ACTION]` | Specify the speed action | "[specify value]" |
-| `[COV_CURRENT]` | Specify the cov current | "[specify value]" |
-| `[COV_TARGET]` | Target or intended cov | "[specify value]" |
-| `[COV_AVG]` | Specify the cov avg | "[specify value]" |
-| `[COV_IMPACT]` | Specify the cov impact | "[specify value]" |
-| `[COV_ACTION]` | Specify the cov action | "[specify value]" |
-| `[REL_CURRENT]` | Specify the rel current | "[specify value]" |
-| `[REL_TARGET]` | Target or intended rel | "[specify value]" |
-| `[REL_AVG]` | Specify the rel avg | "[specify value]" |
-| `[REL_IMPACT]` | Specify the rel impact | "[specify value]" |
-| `[REL_ACTION]` | Specify the rel action | "[specify value]" |
-| `[SUPP_CURRENT]` | Specify the supp current | "[specify value]" |
-| `[SUPP_TARGET]` | Target or intended supp | "[specify value]" |
-| `[SUPP_AVG]` | Specify the supp avg | "[specify value]" |
-| `[SUPP_IMPACT]` | Specify the supp impact | "[specify value]" |
-| `[SUPP_ACTION]` | Specify the supp action | "[specify value]" |
-| `[DIG_CURRENT]` | Specify the dig current | "[specify value]" |
-| `[DIG_TARGET]` | Target or intended dig | "[specify value]" |
-| `[DIG_AVG]` | Specify the dig avg | "[specify value]" |
-| `[DIG_IMPACT]` | Specify the dig impact | "[specify value]" |
-| `[DIG_ACTION]` | Specify the dig action | "[specify value]" |
-| `[VALUE_CURRENT]` | Specify the value current | "[specify value]" |
-| `[VALUE_TARGET]` | Target or intended value | "[specify value]" |
-| `[VALUE_AVG]` | Specify the value avg | "[specify value]" |
-| `[VALUE_IMPACT]` | Specify the value impact | "[specify value]" |
-| `[VALUE_ACTION]` | Specify the value action | "[specify value]" |
-| `[DDOS_LEVEL]` | Specify the ddos level | "[specify value]" |
-| `[DDOS_INCIDENTS]` | Specify the ddos incidents | "[specify value]" |
-| `[DDOS_DETECT]` | Specify the ddos detect | "[specify value]" |
-| `[DDOS_RESPOND]` | Specify the ddos respond | "[specify value]" |
-| `[DDOS_INVEST]` | Specify the ddos invest | "[specify value]" |
-| `[SIG_LEVEL]` | Specify the sig level | "[specify value]" |
-| `[SIG_INCIDENTS]` | Specify the sig incidents | "[specify value]" |
-| `[SIG_DETECT]` | Specify the sig detect | "[specify value]" |
-| `[SIG_RESPOND]` | Specify the sig respond | "[specify value]" |
-| `[SIG_INVEST]` | Specify the sig invest | "[specify value]" |
-| `[ENC_LEVEL]` | Specify the enc level | "[specify value]" |
-| `[ENC_INCIDENTS]` | Specify the enc incidents | "[specify value]" |
-| `[ENC_DETECT]` | Specify the enc detect | "[specify value]" |
-| `[ENC_RESPOND]` | Specify the enc respond | "[specify value]" |
-| `[ENC_INVEST]` | Specify the enc invest | "[specify value]" |
-| `[ACC_LEVEL]` | Specify the acc level | "[specify value]" |
-| `[ACC_INCIDENTS]` | Specify the acc incidents | "[specify value]" |
-| `[ACC_DETECT]` | Specify the acc detect | "[specify value]" |
-| `[ACC_RESPOND]` | Specify the acc respond | "[specify value]" |
-| `[ACC_INVEST]` | Specify the acc invest | "[specify value]" |
-| `[FRAUD_LEVEL]` | Specify the fraud level | "[specify value]" |
-| `[FRAUD_INCIDENTS]` | Specify the fraud incidents | "[specify value]" |
-| `[FRAUD_DETECT]` | Specify the fraud detect | "[specify value]" |
-| `[FRAUD_RESPOND]` | Specify the fraud respond | "[specify value]" |
-| `[FRAUD_INVEST]` | Specify the fraud invest | "[specify value]" |
-| `[PHYS_LEVEL]` | Specify the phys level | "[specify value]" |
-| `[PHYS_INCIDENTS]` | Specify the phys incidents | "[specify value]" |
-| `[PHYS_DETECT]` | Specify the phys detect | "[specify value]" |
-| `[PHYS_RESPOND]` | Specify the phys respond | "[specify value]" |
-| `[PHYS_INVEST]` | Specify the phys invest | "[specify value]" |
-| `[DATA_GROWTH]` | Specify the data growth | "[specify value]" |
-| `[VOICE_GROWTH]` | Specify the voice growth | "[specify value]" |
-| `[VIDEO_GROWTH]` | Specify the video growth | "[specify value]" |
-| `[IOT_GROWTH]` | Specify the iot growth | "[specify value]" |
-| `[PEAK_LOAD]` | Specify the peak load | "[specify value]" |
-| `[SITE_ADD]` | Specify the site add | "[specify value]" |
-| `[CAP_UPGRADE]` | Specify the cap upgrade | "[specify value]" |
-| `[SPECTRUM]` | Specify the spectrum | "[specify value]" |
-| `[BACKHAUL]` | Specify the backhaul | "[specify value]" |
-| `[CAP_INVEST]` | Specify the cap invest | "[specify value]" |
-| `[MIGRATION]` | Specify the migration | "[specify value]" |
-| `[FIBER_DEPLOY]` | Specify the fiber deploy | "[specify value]" |
-| `[EDGE_SITES]` | Specify the edge sites | "[specify value]" |
-| `[CLOUD_MIG]` | Specify the cloud mig | "[specify value]" |
-| `[VIRTUAL]` | Specify the virtual | "[specify value]" |
-| `[NET_VENDORS]` | Specify the net vendors | "[specify value]" |
-| `[NET_SPEND]` | Specify the net spend | "[specify value]" |
-| `[NET_PERF]` | Specify the net perf | "[specify value]" |
-| `[NET_RISK]` | Specify the net risk | "[specify value]" |
-| `[NET_INNOV]` | Specify the net innov | "[specify value]" |
-| `[IT_VENDORS]` | Specify the it vendors | "[specify value]" |
-| `[IT_SPEND]` | Specify the it spend | "[specify value]" |
-| `[IT_PERF]` | Specify the it perf | "[specify value]" |
-| `[IT_RISK]` | Specify the it risk | "[specify value]" |
-| `[IT_INNOV]` | Specify the it innov | "[specify value]" |
-| `[SERV_VENDORS]` | Specify the serv vendors | "[specify value]" |
-| `[SERV_SPEND]` | Specify the serv spend | "[specify value]" |
-| `[SERV_PERF]` | Specify the serv perf | "[specify value]" |
-| `[SERV_RISK]` | Specify the serv risk | "[specify value]" |
-| `[SERV_INNOV]` | Specify the serv innov | "[specify value]" |
-| `[POWER_VENDORS]` | Specify the power vendors | "[specify value]" |
-| `[POWER_SPEND]` | Specify the power spend | "[specify value]" |
-| `[POWER_PERF]` | Specify the power perf | "[specify value]" |
-| `[POWER_RISK]` | Specify the power risk | "[specify value]" |
-| `[POWER_INNOV]` | Specify the power innov | "[specify value]" |
-| `[CONST_VENDORS]` | Specify the const vendors | "[specify value]" |
-| `[CONST_SPEND]` | Specify the const spend | "[specify value]" |
-| `[CONST_PERF]` | Specify the const perf | "[specify value]" |
-| `[CONST_RISK]` | Specify the const risk | "[specify value]" |
-| `[CONST_INNOV]` | Specify the const innov | "[specify value]" |
-| `[REV_CURRENT]` | Specify the rev current | "[specify value]" |
-| `[REV_GROWTH]` | Specify the rev growth | "[specify value]" |
-| `[REV_TARGET]` | Target or intended rev | "[specify value]" |
-| `[REV_BENCH]` | Specify the rev bench | "[specify value]" |
-| `[REV_CAGR]` | Specify the rev cagr | "[specify value]" |
-| `[EBITDA_CURRENT]` | Specify the ebitda current | "[specify value]" |
-| `[EBITDA_GROWTH]` | Specify the ebitda growth | "[specify value]" |
-| `[EBITDA_TARGET]` | Target or intended ebitda | "[specify value]" |
-| `[EBITDA_BENCH]` | Specify the ebitda bench | "[specify value]" |
-| `[EBITDA_CAGR]` | Specify the ebitda cagr | "[specify value]" |
-| `[CAPEX_CURRENT]` | Specify the capex current | "[specify value]" |
-| `[CAPEX_GROWTH]` | Specify the capex growth | "[specify value]" |
-| `[CAPEX_TARGET]` | Target or intended capex | "[specify value]" |
-| `[CAPEX_BENCH]` | Specify the capex bench | "[specify value]" |
-| `[CAPEX_CAGR]` | Specify the capex cagr | "[specify value]" |
-| `[OPEX_CURRENT]` | Specify the opex current | "[specify value]" |
-| `[OPEX_GROWTH]` | Specify the opex growth | "[specify value]" |
-| `[OPEX_TARGET]` | Target or intended opex | "[specify value]" |
-| `[OPEX_BENCH]` | Specify the opex bench | "[specify value]" |
-| `[OPEX_CAGR]` | Specify the opex cagr | "[specify value]" |
-| `[FCF_CURRENT]` | Specify the fcf current | "[specify value]" |
-| `[FCF_GROWTH]` | Specify the fcf growth | "[specify value]" |
-| `[FCF_TARGET]` | Target or intended fcf | "[specify value]" |
-| `[FCF_BENCH]` | Specify the fcf bench | "[specify value]" |
-| `[FCF_CAGR]` | Specify the fcf cagr | "[specify value]" |
-| `[ROCE_CURRENT]` | Specify the roce current | "[specify value]" |
-| `[ROCE_GROWTH]` | Specify the roce growth | "[specify value]" |
-| `[ROCE_TARGET]` | Target or intended roce | "[specify value]" |
-| `[ROCE_BENCH]` | Specify the roce bench | "[specify value]" |
-| `[ROCE_CAGR]` | Specify the roce cagr | "[specify value]" |
+| `[COVERAGE_AREA]` | Geographic coverage in square kilometers | "500 (metro)", "5000 (regional)", "50000 (nationwide)" |
+| `[NETWORK_SITES]` | Number of network sites | "1000", "5000", "25000", "100000" |
+| `[BANDWIDTH_CAPACITY]` | Total bandwidth capacity in Gbps | "100", "500", "2000", "10000" |
+| `[AVAILABILITY_TARGET]` | Target network availability percentage | "99.9", "99.95", "99.99" |
+| `[QUALITY_TARGET]` | Target QoS score | "4.0 MOS", "4.2 MOS", "4.5 MOS" |
+| `[CORE_UNITS]` | Number of core network units | "5 nodes", "12 nodes", "25 nodes" |
+| `[CORE_CAP]` | Core network capacity in Tbps | "5", "20", "100" |
+| `[CORE_UTIL]` | Core utilization percentage | "45", "60", "75" |
+| `[CORE_AVAIL]` | Core availability percentage | "99.99", "99.999", "99.9999" |
+| `[CORE_INVEST]` | Core network investment | "100M", "500M", "1B" |
+| `[RAN_UNITS]` | Number of RAN base stations | "5000", "25000", "100000" |
+| `[RAN_CAP]` | RAN capacity in sites | "5000", "25000", "100000" |
+| `[RAN_UTIL]` | RAN utilization percentage | "50", "65", "80" |
+| `[RAN_AVAIL]` | RAN availability percentage | "99.9", "99.95", "99.99" |
+| `[RAN_INVEST]` | RAN investment | "500M", "2B", "5B" |
+| `[TRANS_UNITS]` | Number of transmission nodes | "200", "1000", "5000" |
+| `[TRANS_CAP]` | Transmission capacity in Gbps | "100", "400", "1000" |
+| `[TRANS_UTIL]` | Transmission utilization percentage | "40", "55", "70" |
+| `[TRANS_AVAIL]` | Transmission availability percentage | "99.99", "99.999", "99.9999" |
+| `[TRANS_INVEST]` | Transmission investment | "200M", "750M", "1.5B" |
+| `[DC_UNITS]` | Number of data centers | "3", "8", "15" |
+| `[DC_CAP]` | Data center capacity in racks | "500", "2000", "5000" |
+| `[DC_UTIL]` | Data center utilization percentage | "60", "70", "80" |
+| `[DC_AVAIL]` | Data center availability percentage | "99.99", "99.999", "99.9999" |
+| `[DC_INVEST]` | Data center investment | "100M", "500M", "1.5B" |
+| `[EDGE_UNITS]` | Number of edge computing nodes | "50", "200", "500" |
+| `[EDGE_CAP]` | Edge computing capacity in nodes | "50", "200", "500" |
+| `[EDGE_UTIL]` | Edge utilization percentage | "35", "50", "65" |
+| `[EDGE_AVAIL]` | Edge availability percentage | "99.9", "99.95", "99.99" |
+| `[EDGE_INVEST]` | Edge computing investment | "50M", "200M", "500M" |
+| `[FIBER_UNITS]` | Fiber network length in km | "10000", "50000", "200000" |
+| `[FIBER_CAP]` | Fiber capacity in Tbps | "10", "50", "200" |
+| `[FIBER_UTIL]` | Fiber utilization percentage | "30", "45", "60" |
+| `[FIBER_AVAIL]` | Fiber availability percentage | "99.99", "99.999", "99.9999" |
+| `[FIBER_INVEST]` | Fiber network investment | "500M", "2B", "5B" |
+| `[NSA_SITES]` | 5G NSA sites deployed | "1000", "5000", "15000" |
+| `[NSA_POP]` | NSA population coverage percentage | "40", "70", "90" |
+| `[NSA_GEO]` | NSA geographic coverage percentage | "20", "40", "60" |
+| `[NSA_SPEED]` | NSA average speed in Mbps | "200", "500", "800" |
+| `[NSA_INVEST]` | NSA deployment investment | "200M", "800M", "2B" |
+| `[SA_SITES]` | 5G SA sites deployed | "500", "2000", "8000" |
+| `[SA_POP]` | SA population coverage percentage | "20", "50", "80" |
+| `[SA_SLICES]` | Number of network slices | "5", "15", "50" |
+| `[SA_LATENCY]` | SA latency in ms | "10", "5", "1" |
+| `[SA_INVEST]` | SA deployment investment | "300M", "1B", "3B" |
+| `[MMWAVE_URBAN]` | mmWave urban sites | "200", "1000", "3000" |
+| `[MMWAVE_HOT]` | mmWave capacity hotspots | "100", "500", "1500" |
+| `[MMWAVE_INDOOR]` | mmWave indoor systems | "50", "200", "500" |
+| `[MMWAVE_SPEED]` | mmWave speed in Gbps | "2", "5", "10" |
+| `[MMWAVE_CASES]` | mmWave use cases | "Stadiums", "Airports", "Convention centers", "Dense urban" |
+| `[EMBB_CAPACITY]` | eMBB slice capacity | "1 Gbps per user", "5 Gbps aggregate", "100 MHz bandwidth" |
+| `[URLLC_LATENCY]` | URLLC slice latency in ms | "1", "5", "10" |
+| `[MMTC_DEVICES]` | mMTC device connections | "100K", "500K", "1M" |
+| `[ENT_SLICES]` | Enterprise slice count | "10", "50", "200" |
+| `[SLICE_REVENUE]` | Revenue per slice | "50K/month", "200K/month", "1M/month" |
+| `[VOICE_SUBS]` | Mobile voice subscribers | "5M", "20M", "50M" |
+| `[VOICE_ARPU]` | Voice ARPU in dollars | "15", "25", "40" |
+| `[VOICE_CHURN]` | Voice churn rate percentage | "1.5", "2.0", "2.5" |
+| `[VOICE_NPS]` | Voice NPS score | "35", "45", "55" |
+| `[VOICE_QOS]` | Voice QoS metrics | "MOS 4.0+", "<1% drop rate", "<150ms latency" |
+| `[DATA_SUBS]` | Mobile data subscribers | "8M", "30M", "60M" |
+| `[DATA_ARPU]` | Data ARPU in dollars | "25", "40", "60" |
+| `[DATA_CHURN]` | Data churn rate percentage | "1.2", "1.8", "2.5" |
+| `[DATA_NPS]` | Data NPS score | "40", "50", "60" |
+| `[DATA_QOS]` | Data QoS metrics | ">100 Mbps avg", "<50ms latency", "99.9% reliability" |
+| `[FIXED_SUBS]` | Fixed broadband subscribers | "1M", "5M", "15M" |
+| `[FIXED_ARPU]` | Fixed ARPU in dollars | "50", "75", "100" |
+| `[FIXED_CHURN]` | Fixed churn rate percentage | "1.0", "1.5", "2.0" |
+| `[FIXED_NPS]` | Fixed NPS score | "45", "55", "65" |
+| `[FIXED_QOS]` | Fixed QoS metrics | ">500 Mbps", "<20ms latency", "99.95% uptime" |
+| `[ENT_SUBS]` | Enterprise subscribers | "50K", "200K", "500K" |
+| `[ENT_ARPU]` | Enterprise ARPU in dollars | "500", "2000", "10000" |
+| `[ENT_CHURN]` | Enterprise churn rate percentage | "0.5", "1.0", "1.5" |
+| `[ENT_NPS]` | Enterprise NPS score | "50", "60", "70" |
+| `[ENT_QOS]` | Enterprise QoS metrics | "SLA 99.99%", "Dedicated bandwidth", "24/7 support" |
+| `[IOT_SUBS]` | IoT/M2M connections | "500K", "2M", "10M" |
+| `[IOT_ARPU]` | IoT ARPU in dollars | "2", "5", "10" |
+| `[IOT_CHURN]` | IoT churn rate percentage | "0.3", "0.5", "1.0" |
+| `[IOT_NPS]` | IoT NPS score | "40", "50", "60" |
+| `[IOT_QOS]` | IoT QoS metrics | "5-year battery life", "<100ms latency", "99.9% coverage" |
+| `[CLOUD_SUBS]` | Cloud service subscribers | "10K", "50K", "200K" |
+| `[CLOUD_ARPU]` | Cloud ARPU in dollars | "200", "1000", "5000" |
+| `[CLOUD_CHURN]` | Cloud churn rate percentage | "0.8", "1.2", "1.8" |
+| `[CLOUD_NPS]` | Cloud NPS score | "45", "55", "65" |
+| `[CLOUD_QOS]` | Cloud QoS metrics | "99.99% SLA", "<10ms intra-DC latency", "Auto-scaling" |
+| `[DET_CURRENT]` | Current incident detection time in min | "15", "10", "5" |
+| `[DET_TARGET]` | Target incident detection time in min | "5", "3", "1" |
+| `[DET_BEST]` | Best practice detection time in min | "1", "0.5", "Real-time" |
+| `[DET_AUTO]` | Detection automation percentage | "60", "75", "90" |
+| `[DET_IMPROVE]` | Detection improvement percentage | "50", "70", "90" |
+| `[RES_CURRENT]` | Current resolution time in hours | "4", "2", "1" |
+| `[RES_TARGET]` | Target resolution time in hours | "2", "1", "0.5" |
+| `[RES_BEST]` | Best practice resolution time in hours | "0.5", "0.25", "Auto-heal" |
+| `[RES_AUTO]` | Resolution automation percentage | "40", "60", "80" |
+| `[RES_IMPROVE]` | Resolution improvement percentage | "40", "60", "80" |
+| `[FCR_CURRENT]` | Current first call resolution percentage | "65", "75", "85" |
+| `[FCR_TARGET]` | Target first call resolution percentage | "80", "85", "90" |
+| `[FCR_BEST]` | Best practice FCR percentage | "90", "92", "95" |
+| `[FCR_AUTO]` | FCR automation percentage | "30", "50", "70" |
+| `[FCR_IMPROVE]` | FCR improvement percentage | "15", "20", "25" |
+| `[AVAIL_CURRENT]` | Current availability percentage | "99.9", "99.95", "99.99" |
+| `[AVAIL_TARGET]` | Target availability percentage | "99.95", "99.99", "99.999" |
+| `[AVAIL_BEST]` | Best practice availability percentage | "99.99", "99.999", "99.9999" |
+| `[AVAIL_AUTO]` | Availability automation percentage | "70", "80", "90" |
+| `[AVAIL_IMPROVE]` | Availability improvement percentage | "0.05", "0.04", "0.009" |
+| `[PROACT_CURRENT]` | Current proactive detection percentage | "30", "50", "70" |
+| `[PROACT_TARGET]` | Target proactive detection percentage | "60", "75", "85" |
+| `[PROACT_BEST]` | Best practice proactive percentage | "80", "90", "95" |
+| `[PROACT_AUTO]` | Proactive automation percentage | "50", "70", "85" |
+| `[PROACT_IMPROVE]` | Proactive improvement percentage | "30", "50", "70" |
+| `[COVERAGE_OPT]` | Coverage optimization percentage | "92", "95", "98" |
+| `[CAPACITY_OPT]` | Capacity enhancement percentage | "30", "50", "80" |
+| `[INTERFERENCE]` | Interference reduction percentage | "25", "40", "60" |
+| `[HANDOVER]` | Handover success rate percentage | "98", "99", "99.5" |
+| `[DROP_RATE]` | Call/session drop rate percentage | "0.5", "0.3", "0.1" |
+| `[SIGNAL_OPT]` | Signaling optimization | "SS7/Diameter optimization", "SIP trunking", "gRPC migration" |
+| `[ROUTING_EFF]` | Routing efficiency percentage | "85", "92", "97" |
+| `[LOAD_BALANCE]` | Load balancing approach | "Round-robin", "Least connections", "AI-based dynamic" |
+| `[LATENCY_RED]` | Latency reduction in ms | "10", "20", "50" |
+| `[THROUGH_GAIN]` | Throughput gain percentage | "30", "50", "100" |
+| `[BAND_UTIL]` | Bandwidth utilization percentage | "60", "75", "85" |
+| `[ROUTE_OPT]` | Route optimization method | "MPLS-TE", "Segment routing", "SDN-based" |
+| `[REDUNDANCY]` | Redundancy level | "N+1", "2N", "Geographic redundancy" |
+| `[PACKET_LOSS]` | Packet loss percentage | "0.1", "0.05", "0.01" |
+| `[JITTER]` | Jitter in ms | "5", "2", "1" |
+| `[POWER_USE]` | Power usage in MWh | "10000", "50000", "200000" |
+| `[PUE_RATING]` | PUE (Power Usage Effectiveness) rating | "1.8", "1.5", "1.2" |
+| `[RENEWABLE]` | Renewable energy percentage | "25", "50", "80" |
+| `[ENERGY_SAVE]` | Energy cost savings | "5M", "20M", "50M" |
+| `[CARBON_RED]` | Carbon reduction in tons | "5000", "20000", "50000" |
+| `[SPEED_CURRENT]` | Current network speed score | "6/10", "7/10", "8/10" |
+| `[SPEED_TARGET]` | Target network speed score | "8/10", "9/10", "9.5/10" |
+| `[SPEED_AVG]` | Industry average speed score | "7/10", "7.5/10", "8/10" |
+| `[SPEED_IMPACT]` | Speed impact on churn | "High - 0.5% per point", "Medium - 0.3% per point", "Low - 0.1% per point" |
+| `[SPEED_ACTION]` | Speed improvement action | "Capacity upgrades", "5G rollout acceleration", "Backhaul optimization" |
+| `[COV_CURRENT]` | Current coverage quality score | "7/10", "8/10", "8.5/10" |
+| `[COV_TARGET]` | Target coverage quality score | "8.5/10", "9/10", "9.5/10" |
+| `[COV_AVG]` | Industry average coverage score | "7.5/10", "8/10", "8.5/10" |
+| `[COV_IMPACT]` | Coverage impact on churn | "Very High - 0.8% per point", "High - 0.5% per point", "Medium - 0.3% per point" |
+| `[COV_ACTION]` | Coverage improvement action | "Fill coverage gaps", "Indoor solutions", "Rural expansion" |
+| `[REL_CURRENT]` | Current reliability percentage | "99.5", "99.8", "99.9" |
+| `[REL_TARGET]` | Target reliability percentage | "99.9", "99.95", "99.99" |
+| `[REL_AVG]` | Industry average reliability percentage | "99.7", "99.8", "99.9" |
+| `[REL_IMPACT]` | Reliability impact on NPS | "+5 NPS per 0.1%", "+3 NPS per 0.1%", "+2 NPS per 0.1%" |
+| `[REL_ACTION]` | Reliability improvement action | "Redundancy upgrades", "Predictive maintenance", "Self-healing networks" |
+| `[SUPP_CURRENT]` | Current support score | "6/10", "7/10", "8/10" |
+| `[SUPP_TARGET]` | Target support score | "8/10", "8.5/10", "9/10" |
+| `[SUPP_AVG]` | Industry average support score | "6.5/10", "7/10", "7.5/10" |
+| `[SUPP_IMPACT]` | Support impact on retention | "High - drives 15% loyalty", "Medium - drives 10% loyalty", "Low - drives 5% loyalty" |
+| `[SUPP_ACTION]` | Support improvement action | "AI chatbots", "Omnichannel support", "Proactive outreach" |
+| `[DIG_CURRENT]` | Current digital experience score | "6.5/10", "7.5/10", "8/10" |
+| `[DIG_TARGET]` | Target digital experience score | "8/10", "8.5/10", "9/10" |
+| `[DIG_AVG]` | Industry average digital score | "7/10", "7.5/10", "8/10" |
+| `[DIG_IMPACT]` | Digital impact on ARPU | "+$2 per point", "+$3 per point", "+$5 per point" |
+| `[DIG_ACTION]` | Digital improvement action | "App redesign", "Self-service portal", "AI personalization" |
+| `[VALUE_CURRENT]` | Current value perception score | "6/10", "7/10", "7.5/10" |
+| `[VALUE_TARGET]` | Target value perception score | "7.5/10", "8/10", "8.5/10" |
+| `[VALUE_AVG]` | Industry average value score | "6.5/10", "7/10", "7.5/10" |
+| `[VALUE_IMPACT]` | Value impact on price sensitivity | "High - 20% price tolerance", "Medium - 10% tolerance", "Low - 5% tolerance" |
+| `[VALUE_ACTION]` | Value improvement action | "Bundle optimization", "Loyalty rewards", "Premium tier launch" |
+| `[DDOS_LEVEL]` | DDoS protection level | "7/10", "8/10", "9/10" |
+| `[DDOS_INCIDENTS]` | DDoS incidents per month | "50", "20", "5" |
+| `[DDOS_DETECT]` | DDoS detection rate percentage | "90", "95", "99" |
+| `[DDOS_RESPOND]` | DDoS response time in minutes | "5", "2", "1" |
+| `[DDOS_INVEST]` | DDoS protection investment | "5M", "15M", "30M" |
+| `[SIG_LEVEL]` | Signaling security level | "7/10", "8/10", "9/10" |
+| `[SIG_INCIDENTS]` | Signaling incidents per month | "20", "10", "2" |
+| `[SIG_DETECT]` | Signaling detection rate percentage | "85", "92", "98" |
+| `[SIG_RESPOND]` | Signaling response time in minutes | "10", "5", "2" |
+| `[SIG_INVEST]` | Signaling security investment | "3M", "8M", "15M" |
+| `[ENC_LEVEL]` | Encryption level | "8/10", "9/10", "10/10" |
+| `[ENC_INCIDENTS]` | Encryption incidents per month | "5", "2", "0" |
+| `[ENC_DETECT]` | Encryption detection rate percentage | "95", "98", "99.9" |
+| `[ENC_RESPOND]` | Encryption response time in minutes | "30", "15", "5" |
+| `[ENC_INVEST]` | Encryption investment | "2M", "5M", "10M" |
+| `[ACC_LEVEL]` | Access control level | "7/10", "8/10", "9/10" |
+| `[ACC_INCIDENTS]` | Access control incidents per month | "15", "5", "1" |
+| `[ACC_DETECT]` | Access detection rate percentage | "90", "95", "99" |
+| `[ACC_RESPOND]` | Access response time in minutes | "15", "5", "2" |
+| `[ACC_INVEST]` | Access control investment | "2M", "6M", "12M" |
+| `[FRAUD_LEVEL]` | Fraud management level | "7/10", "8/10", "9/10" |
+| `[FRAUD_INCIDENTS]` | Fraud incidents per month | "100", "30", "10" |
+| `[FRAUD_DETECT]` | Fraud detection rate percentage | "85", "92", "97" |
+| `[FRAUD_RESPOND]` | Fraud response time in minutes | "60", "30", "10" |
+| `[FRAUD_INVEST]` | Fraud management investment | "5M", "15M", "30M" |
+| `[PHYS_LEVEL]` | Physical security level | "8/10", "9/10", "10/10" |
+| `[PHYS_INCIDENTS]` | Physical incidents per month | "5", "2", "0" |
+| `[PHYS_DETECT]` | Physical detection rate percentage | "95", "98", "99.9" |
+| `[PHYS_RESPOND]` | Physical response time in minutes | "15", "10", "5" |
+| `[PHYS_INVEST]` | Physical security investment | "3M", "8M", "15M" |
+| `[DATA_GROWTH]` | Data traffic growth percentage per year | "30", "50", "80" |
+| `[VOICE_GROWTH]` | Voice traffic growth percentage per year | "-5", "0", "5" |
+| `[VIDEO_GROWTH]` | Video traffic growth percentage per year | "40", "60", "100" |
+| `[IOT_GROWTH]` | IoT traffic growth percentage per year | "50", "100", "200" |
+| `[PEAK_LOAD]` | Peak hour loading percentage | "70", "80", "90" |
+| `[SITE_ADD]` | New sites added per year | "500", "2000", "5000" |
+| `[CAP_UPGRADE]` | Capacity upgrade approach | "Carrier aggregation", "MIMO upgrade", "5G migration" |
+| `[SPECTRUM]` | Spectrum needs in MHz | "100", "200", "500" |
+| `[BACKHAUL]` | Backhaul capacity needs in Gbps | "10", "25", "100" |
+| `[CAP_INVEST]` | Capacity investment | "200M", "500M", "1B" |
+| `[MIGRATION]` | 4G to 5G migration percentage | "20", "50", "80" |
+| `[FIBER_DEPLOY]` | Fiber deployment in km | "5000", "20000", "50000" |
+| `[EDGE_SITES]` | Edge computing sites | "50", "150", "500" |
+| `[CLOUD_MIG]` | Cloud migration percentage | "30", "60", "90" |
+| `[VIRTUAL]` | Virtualization percentage | "40", "70", "95" |
+| `[NET_VENDORS]` | Network equipment vendors | "Ericsson, Nokia, Samsung", "Huawei, ZTE", "Open RAN consortium" |
+| `[NET_SPEND]` | Network equipment spend | "500M", "1B", "3B" |
+| `[NET_PERF]` | Network vendor performance score | "7/10", "8/10", "9/10" |
+| `[NET_RISK]` | Network vendor risk score | "3/10", "5/10", "7/10" |
+| `[NET_INNOV]` | Network vendor innovation score | "7/10", "8/10", "9/10" |
+| `[IT_VENDORS]` | IT system vendors | "Oracle, IBM, Amdocs", "Netcracker, CSG", "Custom in-house" |
+| `[IT_SPEND]` | IT systems spend | "100M", "300M", "700M" |
+| `[IT_PERF]` | IT vendor performance score | "6/10", "7/10", "8/10" |
+| `[IT_RISK]` | IT vendor risk score | "4/10", "5/10", "6/10" |
+| `[IT_INNOV]` | IT vendor innovation score | "6/10", "7/10", "8/10" |
+| `[SERV_VENDORS]` | Services vendors | "Accenture, TCS, Infosys", "Tech Mahindra, HCL", "Capgemini, IBM" |
+| `[SERV_SPEND]` | Services spend | "50M", "150M", "400M" |
+| `[SERV_PERF]` | Services vendor performance score | "7/10", "8/10", "9/10" |
+| `[SERV_RISK]` | Services vendor risk score | "3/10", "4/10", "5/10" |
+| `[SERV_INNOV]` | Services vendor innovation score | "6/10", "7/10", "8/10" |
+| `[POWER_VENDORS]` | Energy/power vendors | "Schneider, Eaton, ABB", "Vertiv, Delta", "Local utilities" |
+| `[POWER_SPEND]` | Power/energy spend | "100M", "300M", "600M" |
+| `[POWER_PERF]` | Power vendor performance score | "8/10", "8.5/10", "9/10" |
+| `[POWER_RISK]` | Power vendor risk score | "2/10", "3/10", "4/10" |
+| `[POWER_INNOV]` | Power vendor innovation score | "7/10", "8/10", "9/10" |
+| `[CONST_VENDORS]` | Construction vendors | "Black & Veatch, Quanta", "MasTec, Dycom", "Regional contractors" |
+| `[CONST_SPEND]` | Construction spend | "200M", "500M", "1B" |
+| `[CONST_PERF]` | Construction vendor performance score | "7/10", "8/10", "9/10" |
+| `[CONST_RISK]` | Construction vendor risk score | "4/10", "5/10", "6/10" |
+| `[CONST_INNOV]` | Construction vendor innovation score | "5/10", "6/10", "7/10" |
+| `[REV_CURRENT]` | Current service revenue | "5B", "15B", "40B" |
+| `[REV_GROWTH]` | Revenue growth percentage | "2", "5", "8" |
+| `[REV_TARGET]` | Target service revenue | "6B", "18B", "50B" |
+| `[REV_BENCH]` | Revenue benchmark | "5.5B", "16B", "42B" |
+| `[REV_CAGR]` | Revenue 5-year CAGR percentage | "3", "5", "8" |
+| `[EBITDA_CURRENT]` | Current EBITDA | "1.5B", "5B", "15B" |
+| `[EBITDA_GROWTH]` | EBITDA growth percentage | "3", "6", "10" |
+| `[EBITDA_TARGET]` | Target EBITDA | "1.8B", "6B", "18B" |
+| `[EBITDA_BENCH]` | EBITDA margin benchmark percentage | "30", "35", "40" |
+| `[EBITDA_CAGR]` | EBITDA 5-year CAGR percentage | "4", "7", "10" |
+| `[CAPEX_CURRENT]` | Current CAPEX | "800M", "2.5B", "7B" |
+| `[CAPEX_GROWTH]` | CAPEX growth percentage | "5", "10", "15" |
+| `[CAPEX_TARGET]` | Target CAPEX | "900M", "3B", "8B" |
+| `[CAPEX_BENCH]` | CAPEX intensity benchmark percentage | "15", "18", "22" |
+| `[CAPEX_CAGR]` | CAPEX 5-year CAGR percentage | "3", "6", "10" |
+| `[OPEX_CURRENT]` | Current OPEX | "3B", "9B", "25B" |
+| `[OPEX_GROWTH]` | OPEX growth percentage | "1", "3", "5" |
+| `[OPEX_TARGET]` | Target OPEX | "3.1B", "9.5B", "26B" |
+| `[OPEX_BENCH]` | OPEX ratio benchmark percentage | "60", "65", "70" |
+| `[OPEX_CAGR]` | OPEX 5-year CAGR percentage | "1", "2", "4" |
+| `[FCF_CURRENT]` | Current free cash flow | "500M", "2B", "6B" |
+| `[FCF_GROWTH]` | FCF growth percentage | "5", "10", "15" |
+| `[FCF_TARGET]` | Target free cash flow | "600M", "2.5B", "7B" |
+| `[FCF_BENCH]` | FCF benchmark | "550M", "2.2B", "6.5B" |
+| `[FCF_CAGR]` | FCF 5-year CAGR percentage | "5", "8", "12" |
+| `[ROCE_CURRENT]` | Current ROCE percentage | "8", "12", "18" |
+| `[ROCE_GROWTH]` | ROCE growth percentage | "0.5", "1", "2" |
+| `[ROCE_TARGET]` | Target ROCE percentage | "10", "14", "20" |
+| `[ROCE_BENCH]` | ROCE benchmark percentage | "9", "13", "17" |
+| `[ROCE_CAGR]` | ROCE improvement percentage | "1", "2", "3" |
 
 ### 3. Service Performance Management
 
