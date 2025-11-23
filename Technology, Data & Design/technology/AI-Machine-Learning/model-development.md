@@ -1,6 +1,6 @@
 ---
 category: technology
-last_updated: 2025-11-09
+last_updated: 2025-11-23
 related_templates:
 - technology/cloud-architecture-framework.md
 - technology/site-reliability-engineering.md
@@ -172,76 +172,76 @@ Model Architecture:
 
 | Variable | Description | Example |
 |----------|-------------|----------|
-| `[MODEL_NAME]` | Specify the model name | "John Smith" |
-| `[PROBLEM_TYPE]` | Specify the problem type | "Standard" |
-| `[BUSINESS_OBJECTIVE]` | Specify the business objective | "Increase efficiency by 30%" |
-| `[USE_CASE]` | Specify the use case | "[specify value]" |
-| `[STAKEHOLDERS]` | Specify the stakeholders | "[specify value]" |
-| `[SUCCESS_METRICS]` | Specify the success metrics | "[specify value]" |
-| `[PROJECT_TIMELINE]` | Specify the project timeline | "6 months" |
-| `[PROJECT_BUDGET]` | Specify the project budget | "$500,000" |
-| `[REGULATORY_REQUIREMENTS]` | Specify the regulatory requirements | "[specify value]" |
-| `[ETHICAL_CONSIDERATIONS]` | Specify the ethical considerations | "[specify value]" |
-| `[DATA_SOURCES]` | Specify the data sources | "[specify value]" |
-| `[DATA_VOLUME]` | Specify the data volume | "[specify value]" |
-| `[DATA_QUALITY]` | Specify the data quality | "[specify value]" |
-| `[DATA_COLLECTION]` | Specify the data collection | "[specify value]" |
-| `[DATA_PREPROCESSING]` | Specify the data preprocessing | "[specify value]" |
-| `[FEATURE_ENGINEERING]` | Specify the feature engineering | "[specify value]" |
-| `[DATA_SPLITTING]` | Specify the data splitting | "[specify value]" |
-| `[DATA_VERSIONING]` | Specify the data versioning | "[specify value]" |
-| `[DATA_PRIVACY]` | Specify the data privacy | "[specify value]" |
-| `[DATA_GOVERNANCE]` | Specify the data governance | "[specify value]" |
-| `[ALGORITHM_SELECTION]` | Specify the algorithm selection | "[specify value]" |
-| `[MODEL_TYPE]` | Specify the model type | "Standard" |
-| `[ARCHITECTURE_DESIGN]` | Specify the architecture design | "[specify value]" |
-| `[ML_FRAMEWORK]` | Specify the ml framework | "[specify value]" |
-| `[LIBRARIES]` | Specify the libraries | "[specify value]" |
-| `[MODEL_COMPLEXITY]` | Specify the model complexity | "[specify value]" |
-| `[FEATURE_SELECTION]` | Specify the feature selection | "[specify value]" |
-| `[HYPERPARAMETERS]` | Specify the hyperparameters | "[specify value]" |
-| `[MODEL_SIZE]` | Specify the model size | "[specify value]" |
-| `[COMPUTATIONAL_REQUIREMENTS]` | Specify the computational requirements | "[specify value]" |
-| `[TRAINING_APPROACH]` | Specify the training approach | "[specify value]" |
-| `[TRAINING_DATA]` | Specify the training data | "[specify value]" |
-| `[VALIDATION_STRATEGY]` | Specify the validation strategy | "[specify value]" |
-| `[CROSS_VALIDATION]` | Specify the cross validation | "[specify value]" |
-| `[TRAINING_INFRASTRUCTURE]` | Specify the training infrastructure | "[specify value]" |
-| `[DISTRIBUTED_TRAINING]` | Specify the distributed training | "[specify value]" |
-| `[TRAINING_MONITORING]` | Specify the training monitoring | "[specify value]" |
-| `[EARLY_STOPPING]` | Specify the early stopping | "[specify value]" |
-| `[REGULARIZATION]` | Specify the regularization | "[specify value]" |
-| `[OPTIMIZATION]` | Specify the optimization | "[specify value]" |
-| `[EVALUATION_METRICS]` | Specify the evaluation metrics | "[specify value]" |
-| `[PERFORMANCE_BENCHMARKS]` | Specify the performance benchmarks | "[specify value]" |
-| `[BASELINE_MODELS]` | Specify the baseline models | "[specify value]" |
-| `[AB_TESTING]` | Specify the ab testing | "[specify value]" |
-| `[MODEL_COMPARISON]` | Specify the model comparison | "[specify value]" |
-| `[STATISTICAL_TESTS]` | Specify the statistical tests | "[specify value]" |
-| `[ERROR_ANALYSIS]` | Specify the error analysis | "[specify value]" |
-| `[BIAS_DETECTION]` | Specify the bias detection | "[specify value]" |
-| `[FAIRNESS_EVALUATION]` | Specify the fairness evaluation | "[specify value]" |
-| `[INTERPRETABILITY]` | Specify the interpretability | "[specify value]" |
-| `[DEPLOYMENT_STRATEGY]` | Specify the deployment strategy | "[specify value]" |
-| `[DEPLOYMENT_ENVIRONMENT]` | Specify the deployment environment | "[specify value]" |
-| `[MODEL_SERVING]` | Specify the model serving | "[specify value]" |
-| `[MODEL_API_DESIGN]` | Specify the model api design | "[specify value]" |
-| `[SCALING_STRATEGY]` | Specify the scaling strategy | "[specify value]" |
-| `[LOAD_BALANCING]` | Specify the load balancing | "[specify value]" |
-| `[MODEL_CACHING]` | Specify the model caching | "[specify value]" |
-| `[DEPLOYMENT_SECURITY]` | Specify the deployment security | "[specify value]" |
-| `[DEPLOYMENT_MONITORING]` | Specify the deployment monitoring | "[specify value]" |
-| `[ROLLBACK_STRATEGY]` | Specify the rollback strategy | "[specify value]" |
-| `[MLOPS_STRATEGY]` | Specify the mlops strategy | "[specify value]" |
-| `[MODEL_VERSION_CONTROL]` | Specify the model version control | "[specify value]" |
-| `[MLOPS_CICD]` | Specify the mlops cicd | "[specify value]" |
-| `[MODEL_REGISTRY]` | Specify the model registry | "[specify value]" |
-| `[EXPERIMENT_TRACKING]` | Specify the experiment tracking | "[specify value]" |
-| `[MLOPS_AUTOMATION]` | Specify the mlops automation | "[specify value]" |
-| `[MLOPS_TESTING]` | Specify the mlops testing | "[specify value]" |
-| `[DEPLOYMENT_PIPELINE]` | Specify the deployment pipeline | "[specify value]" |
-| `[MONITORING_PIPELINE]` | Specify the monitoring pipeline | "[specify value]" |
-| `[MLOPS_GOVERNANCE]` | Specify the mlops governance | "[specify value]" |
+| `[MODEL_NAME]` | Unique identifier for the model | "ChurnPredictor-v2", "ProductRecommender-BERT", "FraudDetector-XGB" |
+| `[PROBLEM_TYPE]` | ML problem category | "Binary classification", "Multi-label classification", "Regression", "Sequence-to-sequence", "Object detection" |
+| `[BUSINESS_OBJECTIVE]` | Business goal the model supports | "Reduce churn by 15%", "Increase conversion rate by 20%", "Automate 80% of support tickets" |
+| `[USE_CASE]` | Specific application of the model | "Customer churn prediction for subscription service", "Product recommendation on e-commerce homepage", "Invoice data extraction from PDFs" |
+| `[STAKEHOLDERS]` | Teams and people involved | "ML Team, Product Manager, Data Engineering, Legal/Compliance, Customer Success" |
+| `[SUCCESS_METRICS]` | Measurable success criteria | "F1 >0.85, Precision >0.90 for fraud class", "NDCG@10 >0.4", "Latency p99 <100ms" |
+| `[PROJECT_TIMELINE]` | Project duration and milestones | "12 weeks: POC (4w), Development (6w), Deployment (2w)", "Q1 2024 launch" |
+| `[PROJECT_BUDGET]` | Total budget allocation | "$150K (compute: $80K, labeling: $50K, infra: $20K)", "Internal resources only" |
+| `[REGULATORY_REQUIREMENTS]` | Compliance requirements | "GDPR Article 22 (right to explanation)", "HIPAA for PHI data", "SOC2 audit trail", "None" |
+| `[ETHICAL_CONSIDERATIONS]` | Fairness and ethics concerns | "Ensure no demographic bias in loan decisions", "Avoid filter bubbles in recommendations", "Human-in-the-loop for high-stakes decisions" |
+| `[DATA_SOURCES]` | Where training data comes from | "PostgreSQL transactions DB, Snowflake analytics, S3 clickstream logs", "Kaggle dataset + internal labeled data" |
+| `[DATA_VOLUME]` | Size of training data | "5M rows, 2GB Parquet", "100K labeled images (500GB)", "3 years of transaction history (50GB)" |
+| `[DATA_QUALITY]` | Quality assessment of data | "High quality: 98% complete, validated by domain experts", "Medium: 15% missing values, some label noise" |
+| `[DATA_COLLECTION]` | How data is gathered | "Real-time streaming via Kafka", "Daily batch ETL from production DB", "Manual annotation by contractors" |
+| `[DATA_PREPROCESSING]` | Preprocessing steps | "Handle missing values (median imputation), remove duplicates, normalize timestamps to UTC" |
+| `[FEATURE_ENGINEERING]` | Feature creation approach | "Create lag features (7/14/30 day), extract TF-IDF from text, one-hot encode categoricals, RFM features for customers" |
+| `[DATA_SPLITTING]` | Train/val/test split strategy | "70/15/15 stratified split", "Time-based: 2022 train, 2023-H1 val, 2023-H2 test", "Group split by customer_id" |
+| `[DATA_VERSIONING]` | Data versioning approach | "DVC with S3 remote", "Delta Lake with time travel", "Git LFS for small datasets" |
+| `[DATA_PRIVACY]` | Privacy requirements | "PII anonymization required, k-anonymity k=5", "Differential privacy with epsilon=1.0", "On-premise only, no cloud" |
+| `[DATA_GOVERNANCE]` | Data governance policies | "Data catalog in Alation, lineage tracking, 90-day retention policy", "Access control via IAM roles" |
+| `[ALGORITHM_SELECTION]` | Chosen algorithm(s) | "XGBoost for tabular (baseline), LightGBM (production)", "BERT-base for text classification", "EfficientNet-B4 for images" |
+| `[MODEL_TYPE]` | Model architecture type | "Gradient boosted trees", "Transformer encoder", "CNN + attention", "Ensemble (XGB + NN)" |
+| `[ARCHITECTURE_DESIGN]` | Detailed architecture | "3-layer MLP with 256/128/64 units, ReLU, dropout=0.3", "ResNet-50 backbone + custom head", "BERT-base + linear classifier" |
+| `[ML_FRAMEWORK]` | ML framework used | "PyTorch 2.0", "TensorFlow/Keras", "scikit-learn + XGBoost", "Hugging Face Transformers" |
+| `[LIBRARIES]` | Key libraries and versions | "pandas 2.0, numpy 1.24, scikit-learn 1.3, xgboost 1.7, optuna 3.0" |
+| `[MODEL_COMPLEXITY]` | Model size and complexity | "50M parameters, 200MB model file", "Shallow: 100 trees, max_depth=6", "BERT-base: 110M params" |
+| `[FEATURE_SELECTION]` | Feature selection method | "Recursive feature elimination (RFE)", "SHAP-based selection (top 50 features)", "L1 regularization" |
+| `[HYPERPARAMETERS]` | Key hyperparameters | "learning_rate=0.01, n_estimators=500, max_depth=8, min_child_weight=3", "batch_size=32, epochs=10, lr=2e-5" |
+| `[MODEL_SIZE]` | Final model size | "150MB serialized pickle", "500MB ONNX", "2GB PyTorch checkpoint" |
+| `[COMPUTATIONAL_REQUIREMENTS]` | Compute needed | "Training: 4x V100 GPU, 32GB RAM. Inference: CPU-only, 4GB RAM" |
+| `[TRAINING_APPROACH]` | Training methodology | "Supervised learning with cross-entropy loss", "Self-supervised pretraining + fine-tuning", "Multi-task learning" |
+| `[TRAINING_DATA]` | Training data details | "4M labeled examples from 2020-2023", "80K annotated images with bounding boxes" |
+| `[VALIDATION_STRATEGY]` | Validation approach | "Stratified 5-fold CV for hyperparameter tuning, holdout set for final evaluation" |
+| `[CROSS_VALIDATION]` | CV configuration | "5-fold stratified", "Time-series CV with 3 expanding windows", "Group K-fold by customer" |
+| `[TRAINING_INFRASTRUCTURE]` | Training platform | "AWS SageMaker ml.p3.8xlarge", "GCP Vertex AI with A100 GPUs", "On-premise DGX station" |
+| `[DISTRIBUTED_TRAINING]` | Distributed training setup | "PyTorch DDP across 4 GPUs", "Horovod on 8-node cluster", "Single GPU sufficient" |
+| `[TRAINING_MONITORING]` | Training monitoring tools | "Weights & Biases for metrics/artifacts", "TensorBoard", "MLflow tracking server" |
+| `[EARLY_STOPPING]` | Early stopping config | "patience=10 epochs on val_loss", "No improvement for 50 rounds on AUC", "Fixed 100 epochs" |
+| `[REGULARIZATION]` | Regularization techniques | "L2 weight decay=0.01, Dropout=0.3, Data augmentation", "Early stopping only" |
+| `[OPTIMIZATION]` | Optimizer configuration | "AdamW with lr=2e-5, warmup_steps=1000, linear decay", "SGD with momentum=0.9, lr=0.01" |
+| `[EVALUATION_METRICS]` | Metrics for evaluation | "AUC-ROC, F1-score, Precision, Recall, Log-loss", "RMSE, MAE, R²", "BLEU, ROUGE-L" |
+| `[PERFORMANCE_BENCHMARKS]` | Target performance | "Beat baseline by 5% F1", "Match SOTA on public benchmark", "Production model v2.1 performance" |
+| `[BASELINE_MODELS]` | Baseline comparisons | "Logistic regression, Random forest, Previous production model", "Rule-based system, Majority class" |
+| `[AB_TESTING]` | A/B test design | "50/50 traffic split, 2-week test, primary metric: conversion rate", "Multi-armed bandit rollout" |
+| `[MODEL_COMPARISON]` | Model comparison approach | "Cross-validated paired t-test, McNemar's test for significance", "Bayesian comparison" |
+| `[STATISTICAL_TESTS]` | Statistical validation | "Paired t-test (p<0.05)", "Bootstrap confidence intervals", "Permutation test" |
+| `[ERROR_ANALYSIS]` | Error analysis approach | "Confusion matrix by segment, False positive/negative deep-dive, Edge case identification" |
+| `[BIAS_DETECTION]` | Bias detection methods | "Demographic parity analysis, Equalized odds check, Subgroup performance comparison" |
+| `[FAIRNESS_EVALUATION]` | Fairness metrics | "Equal opportunity difference <0.05", "Disparate impact ratio >0.8", "Calibration by protected group" |
+| `[INTERPRETABILITY]` | Explainability approach | "SHAP values for feature importance, LIME for local explanations, Attention visualization" |
+| `[DEPLOYMENT_STRATEGY]` | Deployment approach | "Blue-green deployment", "Canary release (5% → 25% → 100%)", "Shadow mode for 1 week" |
+| `[DEPLOYMENT_ENVIRONMENT]` | Production environment | "AWS EKS with GPU nodes", "GCP Cloud Run (serverless)", "On-premise Kubernetes" |
+| `[MODEL_SERVING]` | Serving infrastructure | "TensorFlow Serving", "Triton Inference Server", "SageMaker endpoint", "FastAPI + ONNX Runtime" |
+| `[MODEL_API_DESIGN]` | API specification | "REST API with /predict endpoint, batch support, async option", "gRPC for low-latency" |
+| `[SCALING_STRATEGY]` | Scaling approach | "Horizontal pod autoscaling (HPA) based on CPU/memory", "Serverless auto-scaling", "Fixed 10 replicas" |
+| `[LOAD_BALANCING]` | Load balancing config | "AWS ALB with round-robin", "Kubernetes service with sticky sessions", "Envoy sidecar" |
+| `[MODEL_CACHING]` | Caching strategy | "Redis cache for frequent predictions (TTL=1hr)", "In-memory LRU cache", "No caching needed" |
+| `[DEPLOYMENT_SECURITY]` | Security measures | "API key authentication, rate limiting (1000 req/min), input validation, TLS encryption" |
+| `[DEPLOYMENT_MONITORING]` | Production monitoring | "Prometheus metrics, Grafana dashboards, PagerDuty alerts", "DataDog APM" |
+| `[ROLLBACK_STRATEGY]` | Rollback plan | "Automatic rollback on error rate >5%", "Manual rollback via GitOps", "Keep previous version warm" |
+| `[MLOPS_STRATEGY]` | MLOps maturity level | "Level 2: Automated training, manual deployment", "Level 3: Full CI/CD/CT pipeline" |
+| `[MODEL_VERSION_CONTROL]` | Model versioning | "Semantic versioning (v1.2.3)", "Git tags + DVC", "MLflow model registry versions" |
+| `[MLOPS_CICD]` | CI/CD pipeline | "GitHub Actions: lint → test → train → validate → deploy", "Jenkins + Airflow", "Kubeflow Pipelines" |
+| `[MODEL_REGISTRY]` | Model registry solution | "MLflow Model Registry", "SageMaker Model Registry", "Vertex AI Model Registry" |
+| `[EXPERIMENT_TRACKING]` | Experiment tracking tool | "Weights & Biases", "MLflow Tracking", "Neptune.ai", "Comet ML" |
+| `[MLOPS_AUTOMATION]` | Automation level | "Automated retraining on schedule (weekly)", "Triggered retraining on drift detection", "Manual retraining" |
+| `[MLOPS_TESTING]` | ML testing strategy | "Unit tests for preprocessing, integration tests for pipeline, model validation tests" |
+| `[DEPLOYMENT_PIPELINE]` | Deployment pipeline | "Staging → Shadow → Canary → Production", "Dev → QA → Prod with manual gates" |
+| `[MONITORING_PIPELINE]` | Monitoring setup | "Data drift (Evidently), model performance (custom metrics), infrastructure (Prometheus)" |
+| `[MLOPS_GOVERNANCE]` | Governance requirements | "Model cards for all production models, approval workflow, audit logging" |
 
 
 

@@ -1,6 +1,6 @@
 ---
 category: technology
-last_updated: 2025-11-09
+last_updated: 2025-11-23
 related_templates:
 - technology/cloud-architecture-framework.md
 - technology/site-reliability-engineering.md
@@ -135,53 +135,53 @@ Variables:
 
 | Variable | Description | Example |
 |----------|-------------|----------|
-| `[PROMPT_NAME]` | Specify the prompt name | "John Smith" |
-| `[USE_CASE]` | Specify the use case | "[specify value]" |
-| `[TARGET_MODEL]` | Specify the target model | "[specify value]" |
-| `[PROMPT_OBJECTIVE]` | Specify the prompt objective | "Increase efficiency by 30%" |
-| `[OUTPUT_FORMAT]` | Specify the output format | "[specify value]" |
-| `[SUCCESS_CRITERIA]` | Specify the success criteria | "[specify value]" |
-| `[COMPLEXITY_LEVEL]` | Specify the complexity level | "[specify value]" |
-| `[DOMAIN]` | Specify the domain | "[specify value]" |
-| `[LANGUAGE]` | Specify the language | "[specify value]" |
-| `[CONTEXT_LENGTH]` | Specify the context length | "[specify value]" |
-| `[PROMPT_STRUCTURE]` | Specify the prompt structure | "[specify value]" |
-| `[INSTRUCTIONS]` | Specify the instructions | "[specify value]" |
-| `[CONTEXT]` | Specify the context | "[specify value]" |
-| `[EXAMPLES]` | Specify the examples | "[specify value]" |
-| `[CONSTRAINTS]` | Specify the constraints | "[specify value]" |
-| `[FORMAT_REQUIREMENTS]` | Specify the format requirements | "[specify value]" |
-| `[PERSONA]` | Specify the persona | "[specify value]" |
-| `[TONE]` | Specify the tone | "[specify value]" |
-| `[STYLE]` | Specify the style | "[specify value]" |
-| `[VARIABLES]` | Specify the variables | "[specify value]" |
-| `[CHAIN_TYPE]` | Specify the chain type | "Standard" |
-| `[CHAIN_COMPONENTS]` | Specify the chain components | "[specify value]" |
-| `[SEQUENTIAL_LOGIC]` | Specify the sequential logic | "[specify value]" |
-| `[BRANCHING_LOGIC]` | Specify the branching logic | "[specify value]" |
-| `[CHAIN_ERROR_HANDLING]` | Specify the chain error handling | "[specify value]" |
-| `[MEMORY_MANAGEMENT]` | Specify the memory management | "[specify value]" |
-| `[STATE_MANAGEMENT]` | Specify the state management | "[specify value]" |
-| `[DATA_FLOW]` | Specify the data flow | "[specify value]" |
-| `[INTEGRATION_POINTS]` | Specify the integration points | "[specify value]" |
-| `[CHAIN_OPTIMIZATION]` | Specify the chain optimization | "[specify value]" |
-| `[AGENT_TYPE]` | Specify the agent type | "Standard" |
-| `[AGENT_CAPABILITIES]` | Specify the agent capabilities | "[specify value]" |
-| `[TOOL_INTEGRATION]` | Specify the tool integration | "[specify value]" |
-| `[DECISION_MAKING]` | Specify the decision making | "[specify value]" |
-| `[PLANNING]` | Specify the planning | "[specify value]" |
-| `[EXECUTION]` | Specify the execution | "[specify value]" |
-| `[FEEDBACK_LOOP]` | Specify the feedback loop | "[specify value]" |
-| `[LEARNING_MECHANISM]` | Specify the learning mechanism | "[specify value]" |
-| `[SAFETY_MEASURES]` | Specify the safety measures | "[specify value]" |
-| `[AGENT_MONITORING]` | Specify the agent monitoring | "[specify value]" |
-| `[TOPIC]` | Specify the topic | "[specify value]" |
-| `[KEYWORDS]` | Specify the keywords | "[specify value]" |
-| `[TARGET_AUDIENCE]` | Specify the target audience | "[specify value]" |
-| `[BRAND_VOICE]` | Specify the brand voice | "[specify value]" |
-| `[CALL_TO_ACTION]` | Specify the call to action | "[specify value]" |
-| `[SEO_REQUIREMENTS]` | Specify the seo requirements | "[specify value]" |
-| `[WORD_COUNT]` | Specify the word count | "10" |
+| `[PROMPT_NAME]` | Unique identifier for the prompt | "ProductDescriptionGenerator", "CustomerSupportAgent", "CodeReviewAssistant" |
+| `[USE_CASE]` | Specific task the prompt performs | "Generate product descriptions from specs", "Answer customer support tickets", "Review pull requests for bugs" |
+| `[TARGET_MODEL]` | LLM to use | "GPT-4-turbo", "Claude-3-Sonnet", "GPT-3.5-turbo", "Llama-2-70B", "Mixtral-8x7B" |
+| `[PROMPT_OBJECTIVE]` | What the prompt should achieve | "Generate engaging 150-word product descriptions", "Classify support tickets by urgency", "Extract structured data from invoices" |
+| `[OUTPUT_FORMAT]` | Expected response format | "JSON with fields: title, description, tags", "Markdown with headers", "Plain text paragraph", "Numbered list" |
+| `[SUCCESS_CRITERIA]` | How to measure quality | "Human rating >4/5, factual accuracy >95%", "Format compliance 100%, latency <2s", "User acceptance rate >80%" |
+| `[COMPLEXITY_LEVEL]` | Prompt sophistication | "Simple (single turn, direct instruction)", "Medium (few-shot with examples)", "Complex (multi-step chain with tools)" |
+| `[DOMAIN]` | Subject matter area | "E-commerce product catalog", "Legal contract analysis", "Healthcare patient intake", "Software documentation" |
+| `[LANGUAGE]` | Target language(s) | "English only", "Multilingual (EN, ES, FR, DE)", "Code (Python, JavaScript)" |
+| `[CONTEXT_LENGTH]` | Token budget | "4K tokens (GPT-3.5)", "32K tokens (GPT-4-turbo)", "100K tokens (Claude-3)" |
+| `[PROMPT_STRUCTURE]` | Prompt organization | "System + User message", "Role → Context → Task → Format", "Chain-of-thought with scratchpad" |
+| `[INSTRUCTIONS]` | Core task instructions | "Analyze the following code and identify potential bugs, security issues, and performance problems. Explain each issue and suggest fixes." |
+| `[CONTEXT]` | Background information | "You are a senior software engineer at a fintech company. The codebase uses Python 3.11, FastAPI, and PostgreSQL." |
+| `[EXAMPLES]` | Few-shot examples | "3 input-output pairs showing ideal responses", "2 good + 1 bad example with explanation", "Golden examples from production" |
+| `[CONSTRAINTS]` | Limitations and rules | "Never hallucinate facts, cite sources", "Stay under 200 words", "Don't use technical jargon", "Always include disclaimer" |
+| `[FORMAT_REQUIREMENTS]` | Specific formatting | "Use markdown headers (##), bullet points, code blocks with language tags", "JSON schema: {summary, key_points[], sentiment}" |
+| `[PERSONA]` | AI character/role | "You are a friendly customer support agent named Alex", "Act as a senior Python developer", "You are a helpful writing assistant" |
+| `[TONE]` | Communication style | "Professional but warm", "Technical and precise", "Casual and conversational", "Formal and authoritative" |
+| `[STYLE]` | Writing characteristics | "Concise, action-oriented", "Explanatory with analogies", "Structured with clear headings", "Narrative storytelling" |
+| `[VARIABLES]` | Dynamic placeholders | "{product_name}, {customer_query}, {code_snippet}", "{{context}}, {{question}}", "$TOPIC, $AUDIENCE" |
+| `[CHAIN_TYPE]` | LangChain/chain pattern | "Sequential chain", "Router chain", "Map-reduce chain", "Retrieval QA chain", "Conversation chain" |
+| `[CHAIN_COMPONENTS]` | Chain building blocks | "LLMChain → TransformChain → OutputParser", "Retriever → LLM → Formatter", "Splitter → Mapper → Reducer" |
+| `[SEQUENTIAL_LOGIC]` | Step-by-step flow | "1. Extract entities → 2. Classify intent → 3. Generate response → 4. Format output" |
+| `[BRANCHING_LOGIC]` | Conditional paths | "If sentiment=negative: escalate_prompt, else: standard_response", "Route by topic: billing/technical/general" |
+| `[CHAIN_ERROR_HANDLING]` | Error recovery | "Retry with simpler prompt on parse failure", "Fallback to rule-based response", "Return partial results with error flag" |
+| `[MEMORY_MANAGEMENT]` | Conversation memory | "ConversationBufferMemory (last 10 turns)", "ConversationSummaryMemory", "Entity memory for key facts" |
+| `[STATE_MANAGEMENT]` | Session state | "Redis for multi-turn context", "In-memory dict for session vars", "Database for persistent user preferences" |
+| `[DATA_FLOW]` | Information flow | "User query → Retrieval → Context augmentation → Generation → Post-processing → Response" |
+| `[INTEGRATION_POINTS]` | External connections | "Vector DB (Pinecone), API calls (Stripe, Salesforce), Database queries (PostgreSQL)" |
+| `[CHAIN_OPTIMIZATION]` | Performance tuning | "Parallel retrieval, cached embeddings, streaming output, async execution" |
+| `[AGENT_TYPE]` | Agent architecture | "ReAct agent", "Plan-and-execute agent", "Multi-agent system", "Tool-using agent", "Autonomous agent" |
+| `[AGENT_CAPABILITIES]` | What agent can do | "Web search, code execution, file operations, API calls", "Read/write documents, query databases, send emails" |
+| `[TOOL_INTEGRATION]` | Available tools | "Calculator, WebSearch, PythonREPL, SQLQuery, WikipediaLookup", "Custom tools: CRMSearch, InventoryCheck" |
+| `[DECISION_MAKING]` | How agent decides | "ReAct reasoning (Thought → Action → Observation)", "LLM selects tool based on task", "Rule-based tool routing" |
+| `[PLANNING]` | Task planning approach | "Break complex task into subtasks", "Create execution plan before acting", "Dynamic replanning on failure" |
+| `[EXECUTION]` | How actions run | "Sequential tool execution", "Parallel independent actions", "Human-in-the-loop for critical steps" |
+| `[FEEDBACK_LOOP]` | Iterative improvement | "Self-critique and revise", "User feedback incorporated", "Automated evaluation and retry" |
+| `[LEARNING_MECHANISM]` | Adaptation method | "Few-shot examples from successful runs", "RAG with past interactions", "No learning (stateless)" |
+| `[SAFETY_MEASURES]` | Guardrails | "Output filtering for PII/harmful content", "Action confirmation for destructive ops", "Rate limiting, sandboxed execution" |
+| `[AGENT_MONITORING]` | Observability | "LangSmith traces, Weights & Biases logging", "Custom metrics: tool usage, success rate, latency" |
+| `[TOPIC]` | Content subject | "AI trends in healthcare", "JavaScript best practices", "Remote work productivity tips" |
+| `[KEYWORDS]` | SEO/search terms | "machine learning, artificial intelligence, data science", "primary: 'best CRM software', secondary: 'sales tools'" |
+| `[TARGET_AUDIENCE]` | Intended readers | "CTOs at mid-size SaaS companies", "Beginner Python developers", "Marketing managers aged 30-45" |
+| `[BRAND_VOICE]` | Company voice | "Innovative, approachable, expert (like Apple)", "Friendly, helpful, slightly humorous (like Mailchimp)" |
+| `[CALL_TO_ACTION]` | Desired user action | "Sign up for free trial", "Download the whitepaper", "Schedule a demo", "Share on social media" |
+| `[SEO_REQUIREMENTS]` | Search optimization | "Include H2/H3 headers, 2-3% keyword density, internal links, meta description" |
+| `[WORD_COUNT]` | Content length | "1500-2000 words", "150-200 words per section", "Max 280 characters (Twitter)" |
 
 
 

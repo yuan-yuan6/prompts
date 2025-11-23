@@ -1,6 +1,6 @@
 ---
 category: technology
-last_updated: 2025-11-09
+last_updated: 2025-11-23
 related_templates:
 - technology/cloud-architecture-framework.md
 - technology/site-reliability-engineering.md
@@ -165,56 +165,56 @@ Data Analysis:
 
 | Variable | Description | Example |
 |----------|-------------|----------|
-| `[PROBLEM_TYPE]` | Specify the problem type | "Standard" |
-| `[BUSINESS_OBJECTIVE]` | Specify the business objective | "Increase efficiency by 30%" |
-| `[SUCCESS_METRICS]` | Specify the success metrics | "[specify value]" |
-| `[DATA_CHARACTERISTICS]` | Specify the data characteristics | "[specify value]" |
-| `[PERFORMANCE_REQUIREMENTS]` | Specify the performance requirements | "[specify value]" |
-| `[RESOURCE_CONSTRAINTS]` | Specify the resource constraints | "[specify value]" |
-| `[INTERPRETABILITY_REQUIREMENTS]` | Specify the interpretability requirements | "[specify value]" |
-| `[DEPLOYMENT_CONSTRAINTS]` | Specify the deployment constraints | "[specify value]" |
-| `[SELECTION_TIMELINE]` | Specify the selection timeline | "6 months" |
-| `[SELECTION_BUDGET]` | Specify the selection budget | "$500,000" |
-| `[DATASET_SIZE]` | Specify the dataset size | "[specify value]" |
-| `[FEATURE_COUNT]` | Specify the feature count | "10" |
-| `[DATA_TYPES]` | Specify the data types | "Standard" |
-| `[MISSING_VALUES]` | Specify the missing values | "[specify value]" |
-| `[NOISE_LEVEL]` | Specify the noise level | "[specify value]" |
-| `[OUTLIERS]` | Specify the outliers | "[specify value]" |
-| `[CLASS_DISTRIBUTION]` | Specify the class distribution | "[specify value]" |
-| `[FEATURE_CORRELATION]` | Specify the feature correlation | "[specify value]" |
-| `[DIMENSIONALITY]` | Specify the dimensionality | "[specify value]" |
-| `[TEMPORAL_ASPECTS]` | Specify the temporal aspects | "[specify value]" |
-| `[SUPERVISED_ALGORITHMS]` | Specify the supervised algorithms | "[specify value]" |
-| `[UNSUPERVISED_ALGORITHMS]` | Specify the unsupervised algorithms | "[specify value]" |
-| `[SEMI_SUPERVISED_ALGORITHMS]` | Specify the semi supervised algorithms | "[specify value]" |
-| `[REINFORCEMENT_ALGORITHMS]` | Specify the reinforcement algorithms | "[specify value]" |
-| `[DEEP_LEARNING_ALGORITHMS]` | Specify the deep learning algorithms | "[specify value]" |
-| `[ENSEMBLE_METHODS]` | Specify the ensemble methods | "[specify value]" |
-| `[ONLINE_LEARNING_ALGORITHMS]` | Specify the online learning algorithms | "[specify value]" |
-| `[TRANSFER_LEARNING]` | Specify the transfer learning | "[specify value]" |
-| `[FEW_SHOT_LEARNING]` | Specify the few shot learning | "[specify value]" |
-| `[META_LEARNING]` | Specify the meta learning | "[specify value]" |
-| `[ACCURACY_REQUIREMENTS]` | Specify the accuracy requirements | "[specify value]" |
-| `[TRAINING_TIME_CONSTRAINTS]` | Specify the training time constraints | "[specify value]" |
-| `[INFERENCE_TIME_CONSTRAINTS]` | Specify the inference time constraints | "[specify value]" |
-| `[MEMORY_REQUIREMENTS]` | Specify the memory requirements | "[specify value]" |
-| `[INTERPRETABILITY_NEEDS]` | Specify the interpretability needs | "[specify value]" |
-| `[SCALABILITY_REQUIREMENTS]` | Specify the scalability requirements | "[specify value]" |
-| `[ROBUSTNESS_REQUIREMENTS]` | Specify the robustness requirements | "[specify value]" |
-| `[IMPLEMENTATION_COMPLEXITY]` | Specify the implementation complexity | "[specify value]" |
-| `[MAINTENANCE_EFFORT]` | Specify the maintenance effort | "[specify value]" |
-| `[COST_CONSTRAINTS]` | Specify the cost constraints | "[specify value]" |
-| `[EVALUATION_METRICS]` | Specify the evaluation metrics | "[specify value]" |
-| `[CROSS_VALIDATION_STRATEGY]` | Specify the cross validation strategy | "[specify value]" |
-| `[DATA_SPLIT_STRATEGY]` | Specify the data split strategy | "[specify value]" |
-| `[BASELINE_MODELS]` | Specify the baseline models | "[specify value]" |
-| `[STATISTICAL_TESTS]` | Specify the statistical tests | "[specify value]" |
-| `[AB_TESTING_STRATEGY]` | Specify the ab testing strategy | "[specify value]" |
-| `[PERFORMANCE_BENCHMARKS]` | Specify the performance benchmarks | "[specify value]" |
-| `[BIAS_EVALUATION]` | Specify the bias evaluation | "[specify value]" |
-| `[FAIRNESS_METRICS]` | Specify the fairness metrics | "[specify value]" |
-| `[ROBUSTNESS_TESTING]` | Specify the robustness testing | "[specify value]" |
+| `[PROBLEM_TYPE]` | ML problem category | "Binary classification", "Multi-class classification", "Regression", "Clustering", "Time-series forecasting", "Anomaly detection", "Recommendation" |
+| `[BUSINESS_OBJECTIVE]` | What the model should achieve for business | "Reduce customer churn by 25%", "Predict demand within 10% accuracy", "Detect fraud in real-time with <100ms latency" |
+| `[SUCCESS_METRICS]` | How success will be measured | "F1-score >0.85, Precision >0.90", "RMSE <$500, MAE <$300", "AUC-ROC >0.95" |
+| `[DATA_CHARACTERISTICS]` | Key properties of your dataset | "Tabular with 50 features, 80% categorical", "High-dimensional sparse text data", "Imbalanced classes (95:5 ratio)" |
+| `[PERFORMANCE_REQUIREMENTS]` | Speed and resource constraints | "Inference <50ms p99, Training <4hrs on single GPU", "Real-time predictions at 10K requests/sec" |
+| `[RESOURCE_CONSTRAINTS]` | Available compute and budget | "AWS ml.p3.2xlarge (1 V100 GPU), $5K/month", "CPU-only inference, 4GB memory limit" |
+| `[INTERPRETABILITY_REQUIREMENTS]` | How explainable the model needs to be | "Full feature importance for compliance audit", "SHAP values for customer explanations", "Black-box acceptable" |
+| `[DEPLOYMENT_CONSTRAINTS]` | Production environment limits | "Edge deployment on Raspberry Pi", "Serverless Lambda (250MB, 15min timeout)", "Kubernetes with GPU nodes" |
+| `[SELECTION_TIMELINE]` | Time available for algorithm selection | "2 weeks for POC", "1 sprint (2 weeks)", "3 days for rapid prototype" |
+| `[SELECTION_BUDGET]` | Budget for experimentation | "$10K compute credits", "$50K including labeling", "Open-source only" |
+| `[DATASET_SIZE]` | Number of samples and storage size | "1M rows, 500MB CSV", "10K images (50GB)", "100M+ records in data warehouse" |
+| `[FEATURE_COUNT]` | Number of input features | "25 numerical + 10 categorical", "768-dim embeddings", "10K sparse features (TF-IDF)" |
+| `[DATA_TYPES]` | Types of data in features | "Mixed: 15 numerical, 20 categorical, 5 datetime", "Text + numerical", "Image + tabular metadata" |
+| `[MISSING_VALUES]` | Extent and pattern of missing data | "5% random missing in 3 columns", "30% missing in income field (not at random)", "Complete data, no missing" |
+| `[NOISE_LEVEL]` | Data quality and noise assessment | "Low noise, sensor data with 99% accuracy", "High noise from user input, needs cleaning", "Moderate - OCR extraction errors" |
+| `[OUTLIERS]` | Presence and impact of outliers | "2% extreme values in transaction amounts", "No outliers, bounded 0-100 range", "Outliers are fraudulent cases (important)" |
+| `[CLASS_DISTRIBUTION]` | Balance of target classes | "Balanced 50/50", "Imbalanced 90:8:2 three-class", "Highly imbalanced 99.5:0.5 fraud detection" |
+| `[FEATURE_CORRELATION]` | Relationship between features | "High multicollinearity (VIF>10) in 5 features", "Low correlation, independent features", "Time-lagged correlations in sequences" |
+| `[DIMENSIONALITY]` | Feature space complexity | "Low-dimensional (25 features)", "High-dimensional sparse (50K features)", "Needs reduction from 1000 to 50" |
+| `[TEMPORAL_ASPECTS]` | Time-based patterns in data | "Strong seasonality (weekly, yearly)", "No temporal patterns", "Concept drift every 3 months" |
+| `[SUPERVISED_ALGORITHMS]` | Candidate supervised learning algorithms | "LogisticRegression, RandomForest, XGBoost, LightGBM, CatBoost", "LinearRegression, ElasticNet, GradientBoosting", "SVM, NaiveBayes, kNN" |
+| `[UNSUPERVISED_ALGORITHMS]` | Candidate clustering/dimensionality algorithms | "K-Means, DBSCAN, Hierarchical", "PCA, t-SNE, UMAP", "IsolationForest, LocalOutlierFactor" |
+| `[SEMI_SUPERVISED_ALGORITHMS]` | Algorithms for partially labeled data | "Label Propagation, Self-Training", "MixMatch, FixMatch", "Pseudo-labeling with confidence threshold" |
+| `[REINFORCEMENT_ALGORITHMS]` | RL algorithms if applicable | "DQN, PPO, A2C", "Multi-armed bandits (UCB, Thompson)", "Not applicable" |
+| `[DEEP_LEARNING_ALGORITHMS]` | Neural network architectures | "BERT, RoBERTa for NLP", "ResNet-50, EfficientNet for vision", "LSTM, Transformer for sequences" |
+| `[ENSEMBLE_METHODS]` | Ensemble strategies to consider | "Stacking (XGBoost + LightGBM + CatBoost)", "Bagging with 100 estimators", "Voting classifier (soft voting)" |
+| `[ONLINE_LEARNING_ALGORITHMS]` | Algorithms for streaming data | "SGDClassifier with partial_fit", "Vowpal Wabbit", "River library incremental learners" |
+| `[TRANSFER_LEARNING]` | Pre-trained models to leverage | "ImageNet-pretrained ResNet", "BERT-base fine-tuning", "Domain-adapted embeddings from internal data" |
+| `[FEW_SHOT_LEARNING]` | Approaches for limited labeled data | "Siamese networks", "Prototypical networks", "GPT-4 few-shot prompting" |
+| `[META_LEARNING]` | Meta-learning approaches | "MAML for fast adaptation", "AutoML (Auto-sklearn, H2O)", "Neural Architecture Search" |
+| `[ACCURACY_REQUIREMENTS]` | Minimum acceptable accuracy | "Accuracy >92%", "F1-macro >0.80", "Top-5 accuracy >95%" |
+| `[TRAINING_TIME_CONSTRAINTS]` | Maximum training duration | "<1 hour on 8 GPUs", "<24 hours on single machine", "No limit, accuracy priority" |
+| `[INFERENCE_TIME_CONSTRAINTS]` | Maximum prediction latency | "<10ms p95", "<100ms for batch of 32", "Real-time streaming <5ms" |
+| `[MEMORY_REQUIREMENTS]` | RAM/VRAM limits | "Model <500MB for mobile", "<16GB GPU memory", "Unlimited cloud resources" |
+| `[INTERPRETABILITY_NEEDS]` | Level of explainability required | "Full transparency for regulatory (GDPR Article 22)", "Feature importance sufficient", "No interpretability needed" |
+| `[SCALABILITY_REQUIREMENTS]` | Growth and scaling needs | "Scale to 10x data in 6 months", "Fixed dataset, no scaling", "Horizontal scaling for 1B predictions/day" |
+| `[ROBUSTNESS_REQUIREMENTS]` | Handling of edge cases/drift | "Graceful degradation on OOD inputs", "Detect and flag distribution shift", "Retrain automatically on drift" |
+| `[IMPLEMENTATION_COMPLEXITY]` | Acceptable complexity level | "Simple sklearn only", "Custom PyTorch acceptable", "Production-grade MLOps required" |
+| `[MAINTENANCE_EFFORT]` | Ongoing maintenance capacity | "Monthly retraining by ML team", "Automated retraining pipeline", "Set-and-forget, minimal maintenance" |
+| `[COST_CONSTRAINTS]` | Budget for training and inference | "Training <$1K, Inference <$0.001/prediction", "No cost limit for accuracy", "$50K annual ML infrastructure budget" |
+| `[EVALUATION_METRICS]` | Metrics to compare algorithms | "Accuracy, F1, AUC-ROC, log-loss", "RMSE, MAE, R², MAPE", "Precision@k, nDCG, MRR" |
+| `[CROSS_VALIDATION_STRATEGY]` | Validation approach | "5-fold stratified CV", "Time-series CV with 3 splits", "Leave-one-group-out CV" |
+| `[DATA_SPLIT_STRATEGY]` | Train/val/test split method | "70/15/15 random stratified", "Time-based: train <2023, val 2023, test 2024", "80/20 with holdout per customer" |
+| `[BASELINE_MODELS]` | Simple models to beat | "Random prediction, majority class", "Linear regression, moving average", "Previous production model v2.1" |
+| `[STATISTICAL_TESTS]` | Tests for comparing models | "Paired t-test, McNemar's test", "Wilcoxon signed-rank test", "Friedman test with Nemenyi post-hoc" |
+| `[AB_TESTING_STRATEGY]` | Online evaluation approach | "50/50 traffic split for 2 weeks", "Multi-armed bandit allocation", "Shadow mode comparison" |
+| `[PERFORMANCE_BENCHMARKS]` | External benchmarks to reference | "Kaggle leaderboard top 10%", "Published SOTA on UCI dataset", "Industry benchmark from vendor" |
+| `[BIAS_EVALUATION]` | Fairness assessment approach | "Disparate impact ratio by demographic", "Equalized odds across protected groups", "Calibration by subgroup" |
+| `[FAIRNESS_METRICS]` | Fairness metrics to track | "Demographic parity, Equal opportunity", "Predictive equality, Treatment equality", "Individual fairness distance" |
+| `[ROBUSTNESS_TESTING]` | Testing for robustness | "Adversarial examples (FGSM, PGD)", "Input perturbation sensitivity", "Out-of-distribution detection" |
 
 
 
