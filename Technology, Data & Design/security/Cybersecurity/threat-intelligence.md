@@ -1,6 +1,6 @@
 ---
 category: security
-last_updated: 2025-11-09
+last_updated: 2025-11-23
 related_templates:
 - technology/cloud-architecture-framework.md
 - technology/site-reliability-engineering.md
@@ -148,6 +148,72 @@ Collection Framework:
 - Create incident response playbooks operational intelligence
 - Develop malware analysis reports technical intelligence
 - Distribute real-time alerts for active campaigns intelligence alerts
+```
+
+### Healthcare Threat Intelligence Program
+```
+Implement threat intelligence program for HealthCare Systems protecting PHI data across 50 hospital locations.
+
+Intelligence Requirements:
+- Counter healthcare-specific ransomware, data theft intelligence objectives
+- Focus on Ryuk, Conti, BlackCat targeting healthcare priority intelligence requirements
+- Track ransomware gangs, hacktivists, insider threats threat actors
+- Monitor ransomware, supply chain, credential theft attack vectors
+- Cover United States, India (offshore operations) geographic scope
+
+Collection Framework:
+- Collect from H-ISAC, HHS, FBI government sources
+- Use Mandiant, Intel 471, Flashpoint commercial feeds
+- Monitor ransomware leak sites, medical forums OSINT sources
+- Share via H-ISAC, regional healthcare consortiums industry sharing
+- Analyze EHR access logs, medical device telemetry internal sources
+
+Analysis and Processing:
+- Apply MITRE ATT&CK for Healthcare analytical framework
+- Use TTP correlation, behavioral analysis analytical methods
+- Track ransomware evolution, new variants campaign tracking
+- Map threats to HIPAA security controls confidence assessment
+- Validate with clinical operations, medical device teams quality control
+
+Intelligence Products:
+- Produce monthly board-level risk assessments strategic intelligence
+- Generate IOC feeds for medical device networks tactical intelligence
+- Create ransomware response playbooks operational intelligence
+- Develop medical device vulnerability reports technical intelligence
+- Distribute ransomware alerts within 15 minutes intelligence alerts
+```
+
+### Critical Infrastructure (Energy Sector)
+```
+Implement threat intelligence for PowerGrid Utility protecting SCADA/ICS systems across power generation and distribution.
+
+Intelligence Requirements:
+- Counter nation-state OT attacks, destructive malware intelligence objectives
+- Focus on Industroyer, TRITON, Pipedream priority intelligence requirements
+- Track APT28, Sandworm, Volt Typhoon threat actors
+- Monitor ICS exploits, supply chain, living-off-the-land attack vectors
+- Cover North America, Eastern Europe (threat origins) geographic scope
+
+Collection Framework:
+- Collect from E-ISAC, CISA ICS-CERT, DOE government sources
+- Use Dragos, Claroty, Nozomi commercial feeds
+- Monitor ICS-focused forums, vendor advisories OSINT sources
+- Share via E-ISAC, regional grid operators industry sharing
+- Analyze SCADA logs, historian data, network flows internal sources
+
+Analysis and Processing:
+- Apply MITRE ATT&CK for ICS analytical framework
+- Use OT-specific threat modeling analytical methods
+- Track ICS malware variants, nation-state campaigns campaign tracking
+- Correlate with NERC CIP compliance requirements confidence assessment
+- Validate with OT engineers, control room operators quality control
+
+Intelligence Products:
+- Produce quarterly executive threat landscape strategic intelligence
+- Generate Snort/YARA rules for ICS protocols tactical intelligence
+- Create ICS incident response procedures operational intelligence
+- Develop malware analysis for OT-specific threats technical intelligence
+- Distribute grid emergency alerts via secure channels intelligence alerts
 ```
 
 ## Variables
