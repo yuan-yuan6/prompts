@@ -151,54 +151,54 @@ Scaling Management:
 |----------|-------------|----------|
 | `[INFRASTRUCTURE_NAME]` | Specify the infrastructure name | "John Smith" |
 | `[INFRASTRUCTURE_TYPE]` | Specify the infrastructure type | "Standard" |
-| `[INFRASTRUCTURE_ENVIRONMENT]` | Specify the infrastructure environment | "[specify value]" |
-| `[INFRASTRUCTURE_SCALE]` | Specify the infrastructure scale | "[specify value]" |
-| `[INFRASTRUCTURE_TECHNOLOGY_STACK]` | Specify the infrastructure technology stack | "[specify value]" |
-| `[CLOUD_PROVIDER]` | Specify the cloud provider | "[specify value]" |
-| `[MANAGEMENT_APPROACH]` | Specify the management approach | "[specify value]" |
-| `[INFRASTRUCTURE_TEAM]` | Specify the infrastructure team | "[specify value]" |
+| `[INFRASTRUCTURE_ENVIRONMENT]` | Specify the infrastructure environment | "Production", "Staging", "Development", "DR", "Multi-environment" |
+| `[INFRASTRUCTURE_SCALE]` | Specify the infrastructure scale | "Small (1-10 servers)", "Medium (10-100)", "Large (100-500)", "Enterprise (500+)" |
+| `[INFRASTRUCTURE_TECHNOLOGY_STACK]` | Specify the infrastructure technology stack | "AWS + Kubernetes + Terraform", "Azure + VMs + ARM", "GCP + GKE + Terraform" |
+| `[CLOUD_PROVIDER]` | Specify the cloud provider | "AWS", "Azure", "GCP", "Multi-cloud AWS+Azure", "Hybrid on-prem+cloud" |
+| `[MANAGEMENT_APPROACH]` | Specify the management approach | "GitOps with ArgoCD", "Infrastructure as Code", "Platform engineering", "Self-service portal" |
+| `[INFRASTRUCTURE_TEAM]` | Specify the infrastructure team | "Platform Engineering (5 FTEs)", "SRE Team", "DevOps Center of Excellence", "Cloud Ops" |
 | `[INFRASTRUCTURE_BUDGET]` | Specify the infrastructure budget | "$500,000" |
-| `[SLA_REQUIREMENTS]` | Specify the sla requirements | "[specify value]" |
-| `[PROVISIONING_METHOD]` | Specify the provisioning method | "[specify value]" |
-| `[INFRASTRUCTURE_AS_CODE]` | Specify the infrastructure as code | "[specify value]" |
-| `[TEMPLATE_MANAGEMENT]` | Specify the template management | "[specify value]" |
-| `[RESOURCE_ORGANIZATION]` | Specify the resource organization | "[specify value]" |
-| `[CONFIGURATION_MANAGEMENT]` | Specify the configuration management | "[specify value]" |
-| `[ENVIRONMENT_MANAGEMENT]` | Specify the environment management | "[specify value]" |
-| `[INFRASTRUCTURE_VERSION_CONTROL]` | Specify the infrastructure version control | "[specify value]" |
-| `[INFRASTRUCTURE_CHANGE_MANAGEMENT]` | Specify the infrastructure change management | "[specify value]" |
-| `[APPROVAL_WORKFLOWS]` | Specify the approval workflows | "[specify value]" |
-| `[INFRASTRUCTURE_ROLLBACK]` | Specify the infrastructure rollback | "[specify value]" |
-| `[SCALING_STRATEGY]` | Specify the scaling strategy | "[specify value]" |
-| `[AUTO_SCALING]` | Specify the auto scaling | "[specify value]" |
-| `[HORIZONTAL_SCALING]` | Specify the horizontal scaling | "[specify value]" |
-| `[VERTICAL_SCALING]` | Specify the vertical scaling | "[specify value]" |
-| `[SCALING_METRICS]` | Specify the scaling metrics | "[specify value]" |
-| `[SCALING_POLICIES]` | Specify the scaling policies | "[specify value]" |
-| `[LOAD_BALANCING]` | Specify the load balancing | "[specify value]" |
-| `[CAPACITY_PLANNING]` | Specify the capacity planning | "[specify value]" |
-| `[PERFORMANCE_OPTIMIZATION]` | Specify the performance optimization | "[specify value]" |
-| `[INFRASTRUCTURE_COST_OPTIMIZATION]` | Specify the infrastructure cost optimization | "[specify value]" |
-| `[MONITORING_STRATEGY]` | Specify the monitoring strategy | "[specify value]" |
-| `[INFRASTRUCTURE_MONITORING]` | Specify the infrastructure monitoring | "[specify value]" |
-| `[APPLICATION_MONITORING]` | Specify the application monitoring | "[specify value]" |
-| `[INFRASTRUCTURE_PERFORMANCE_MONITORING]` | Specify the infrastructure performance monitoring | "[specify value]" |
-| `[INFRASTRUCTURE_HEALTH_CHECKS]` | Specify the infrastructure health checks | "[specify value]" |
-| `[INFRASTRUCTURE_ALERTING]` | Specify the infrastructure alerting | "[specify value]" |
-| `[INFRASTRUCTURE_DASHBOARDS]` | Specify the infrastructure dashboards | "[specify value]" |
-| `[INFRASTRUCTURE_LOGGING]` | Specify the infrastructure logging | "[specify value]" |
-| `[INFRASTRUCTURE_METRICS]` | Specify the infrastructure metrics | "[specify value]" |
-| `[INFRASTRUCTURE_TRACING]` | Specify the infrastructure tracing | "[specify value]" |
-| `[MAINTENANCE_STRATEGY]` | Specify the maintenance strategy | "[specify value]" |
-| `[PATCH_MANAGEMENT]` | Specify the patch management | "[specify value]" |
+| `[SLA_REQUIREMENTS]` | Specify the sla requirements | "99.9% availability", "99.99% for critical", "< 1hr RTO", "< 15min RPO" |
+| `[PROVISIONING_METHOD]` | Specify the provisioning method | "Terraform modules", "CloudFormation stacks", "Pulumi programs", "Self-service portal" |
+| `[INFRASTRUCTURE_AS_CODE]` | Specify the infrastructure as code | "Terraform with remote state", "AWS CDK TypeScript", "Pulumi Python", "Crossplane" |
+| `[TEMPLATE_MANAGEMENT]` | Specify the template management | "Git repository per environment", "Terraform Cloud workspaces", "Module registry" |
+| `[RESOURCE_ORGANIZATION]` | Specify the resource organization | "By environment/region/service", "Separate AWS accounts per env", "Resource groups by team" |
+| `[CONFIGURATION_MANAGEMENT]` | Specify the configuration management | "Ansible playbooks", "AWS Systems Manager", "Chef/Puppet", "Salt" |
+| `[ENVIRONMENT_MANAGEMENT]` | Specify the environment management | "GitOps with ArgoCD", "Terraform workspaces", "Environment branches", "Kustomize overlays" |
+| `[INFRASTRUCTURE_VERSION_CONTROL]` | Specify the infrastructure version control | "Git with GitLab/GitHub", "PR-based workflow", "Semantic versioning", "Change logs" |
+| `[INFRASTRUCTURE_CHANGE_MANAGEMENT]` | Specify the infrastructure change management | "PR reviews required", "Terraform plan in CI", "CAB approval for prod", "Change tickets" |
+| `[APPROVAL_WORKFLOWS]` | Specify the approval workflows | "Auto-approve dev", "Tech lead for staging", "Manager + CAB for prod", "Emergency bypass" |
+| `[INFRASTRUCTURE_ROLLBACK]` | Specify the infrastructure rollback | "Git revert + terraform apply", "Blue-green switch", "Snapshot restore", "Automated rollback on failure" |
+| `[SCALING_STRATEGY]` | Specify the scaling strategy | "Horizontal preferred", "Auto Scaling Groups", "HPA for K8s", "Predictive scaling" |
+| `[AUTO_SCALING]` | Specify the auto scaling | "Target tracking 70% CPU", "Step scaling for traffic spikes", "Scheduled scaling for events" |
+| `[HORIZONTAL_SCALING]` | Specify the horizontal scaling | "ASG min 2 / max 50", "K8s HPA replicas 2-100", "Add nodes to cluster" |
+| `[VERTICAL_SCALING]` | Specify the vertical scaling | "Instance type upgrade", "VPA for containers", "Memory/CPU requests adjustment" |
+| `[SCALING_METRICS]` | Specify the scaling metrics | "CPU utilization", "Memory usage", "Request count", "Queue depth", "Custom business metrics" |
+| `[SCALING_POLICIES]` | Specify the scaling policies | "Scale out at 70% CPU", "Scale in at 30%", "Cooldown 300s", "Step increments 25%" |
+| `[LOAD_BALANCING]` | Specify the load balancing | "ALB for HTTP", "NLB for TCP", "Global Accelerator", "Ingress controller" |
+| `[CAPACITY_PLANNING]` | Specify the capacity planning | "Monthly utilization reviews", "Traffic forecasting", "Reserved capacity analysis", "Compute Optimizer" |
+| `[PERFORMANCE_OPTIMIZATION]` | Specify the performance optimization | "Instance right-sizing", "GP3 storage", "Caching layers", "CDN for static assets" |
+| `[INFRASTRUCTURE_COST_OPTIMIZATION]` | Specify the infrastructure cost optimization | "Reserved Instances 1yr", "Spot for batch", "Unused resource cleanup", "Storage tiering" |
+| `[MONITORING_STRATEGY]` | Specify the monitoring strategy | "Four golden signals", "RED method", "USE method", "Unified observability platform" |
+| `[INFRASTRUCTURE_MONITORING]` | Specify the infrastructure monitoring | "CloudWatch + Prometheus", "Datadog", "Grafana Cloud", "New Relic Infrastructure" |
+| `[APPLICATION_MONITORING]` | Specify the application monitoring | "APM with Datadog/New Relic", "Custom metrics", "Error tracking with Sentry" |
+| `[INFRASTRUCTURE_PERFORMANCE_MONITORING]` | Specify the infrastructure performance monitoring | "CPU, memory, disk, network metrics", "Container metrics", "Database performance" |
+| `[INFRASTRUCTURE_HEALTH_CHECKS]` | Specify the infrastructure health checks | "ELB health checks", "K8s liveness/readiness probes", "Synthetic monitoring", "Deep health endpoints" |
+| `[INFRASTRUCTURE_ALERTING]` | Specify the infrastructure alerting | "PagerDuty integration", "Slack notifications", "Escalation policies", "Alert fatigue management" |
+| `[INFRASTRUCTURE_DASHBOARDS]` | Specify the infrastructure dashboards | "Grafana dashboards per service", "CloudWatch dashboards", "Real-time NOC display" |
+| `[INFRASTRUCTURE_LOGGING]` | Specify the infrastructure logging | "CloudWatch Logs", "ELK/OpenSearch", "Loki", "Splunk", "Structured JSON logs" |
+| `[INFRASTRUCTURE_METRICS]` | Specify the infrastructure metrics | "Prometheus metrics", "CloudWatch metrics", "StatsD", "OpenTelemetry" |
+| `[INFRASTRUCTURE_TRACING]` | Specify the infrastructure tracing | "AWS X-Ray", "Jaeger", "Zipkin", "Datadog APM traces", "OpenTelemetry tracing" |
+| `[MAINTENANCE_STRATEGY]` | Specify the maintenance strategy | "Scheduled maintenance windows", "Rolling updates", "Blue-green for zero downtime" |
+| `[PATCH_MANAGEMENT]` | Specify the patch management | "AWS Systems Manager Patch Manager", "Automated weekly patches", "Security patches within 48hrs" |
 | `[UPDATE_PROCEDURES]` | Specify the update procedures | "2025-01-15" |
-| `[INFRASTRUCTURE_BACKUP]` | Specify the infrastructure backup | "[specify value]" |
-| `[INFRASTRUCTURE_RECOVERY]` | Specify the infrastructure recovery | "[specify value]" |
+| `[INFRASTRUCTURE_BACKUP]` | Specify the infrastructure backup | "AWS Backup daily snapshots", "35-day retention", "Cross-region copy", "S3 versioning" |
+| `[INFRASTRUCTURE_RECOVERY]` | Specify the infrastructure recovery | "Snapshot restore procedures", "Point-in-time recovery", "Cross-region failover", "DR runbooks" |
 | `[SECURITY_UPDATES]` | Specify the security updates | "2025-01-15" |
-| `[PERFORMANCE_TUNING]` | Specify the performance tuning | "[specify value]" |
-| `[CAPACITY_MANAGEMENT]` | Specify the capacity management | "[specify value]" |
-| `[INFRASTRUCTURE_INCIDENT_RESPONSE]` | Specify the infrastructure incident response | "[specify value]" |
-| `[CHANGE_WINDOWS]` | Specify the change windows | "[specify value]" |
+| `[PERFORMANCE_TUNING]` | Specify the performance tuning | "Query optimization", "Connection pooling", "JVM tuning", "Kernel parameter tuning" |
+| `[CAPACITY_MANAGEMENT]` | Specify the capacity management | "Monthly capacity reviews", "Traffic forecasting", "Budget planning", "Growth projections" |
+| `[INFRASTRUCTURE_INCIDENT_RESPONSE]` | Specify the infrastructure incident response | "PagerDuty on-call rotation", "Runbook automation", "Incident commander process", "Postmortems" |
+| `[CHANGE_WINDOWS]` | Specify the change windows | "Tuesday/Thursday 2-6am UTC", "Emergency changes anytime with approval", "Freeze during peak seasons" |
 
 
 

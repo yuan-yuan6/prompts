@@ -104,293 +104,293 @@ Container Configuration:
 | `[POD_COUNT]` | Specify the pod count | "10" |
 | `[NAMESPACE_COUNT]` | Name of the space count | "John Smith" |
 | `[CONTAINER_COUNT]` | Specify the container count | "10" |
-| `[UPTIME_TARGET]` | Target or intended uptime | "[specify value]" |
-| `[RESOURCE_UTILIZATION]` | Specify the resource utilization | "[specify value]" |
-| `[AUTO_SCALING]` | Specify the auto scaling | "[specify value]" |
-| `[DEPLOYMENT_VELOCITY]` | Specify the deployment velocity | "[specify value]" |
-| `[RECOVERY_TIME]` | Specify the recovery time | "[specify value]" |
-| `[CONTROL_CONFIG]` | Specify the control config | "[specify value]" |
-| `[CONTROL_RESOURCES]` | Specify the control resources | "[specify value]" |
-| `[CONTROL_HA]` | Specify the control ha | "[specify value]" |
-| `[CONTROL_SECURITY]` | Specify the control security | "[specify value]" |
-| `[CONTROL_MONITORING]` | Specify the control monitoring | "[specify value]" |
-| `[WORKER_CONFIG]` | Specify the worker config | "[specify value]" |
-| `[WORKER_RESOURCES]` | Specify the worker resources | "[specify value]" |
-| `[WORKER_HA]` | Specify the worker ha | "[specify value]" |
-| `[WORKER_SECURITY]` | Specify the worker security | "[specify value]" |
-| `[WORKER_MONITORING]` | Specify the worker monitoring | "[specify value]" |
-| `[ETCD_CONFIG]` | Specify the etcd config | "[specify value]" |
-| `[ETCD_RESOURCES]` | Specify the etcd resources | "[specify value]" |
-| `[ETCD_HA]` | Specify the etcd ha | "[specify value]" |
-| `[ETCD_SECURITY]` | Specify the etcd security | "[specify value]" |
-| `[ETCD_MONITORING]` | Specify the etcd monitoring | "[specify value]" |
-| `[NETWORK_CONFIG]` | Specify the network config | "[specify value]" |
-| `[NETWORK_RESOURCES]` | Specify the network resources | "[specify value]" |
-| `[NETWORK_HA]` | Specify the network ha | "[specify value]" |
-| `[NETWORK_SECURITY]` | Specify the network security | "[specify value]" |
-| `[NETWORK_MONITORING]` | Specify the network monitoring | "[specify value]" |
-| `[STORAGE_CONFIG]` | Specify the storage config | "[specify value]" |
-| `[STORAGE_RESOURCES]` | Specify the storage resources | "[specify value]" |
-| `[STORAGE_HA]` | Specify the storage ha | "[specify value]" |
-| `[STORAGE_SECURITY]` | Specify the storage security | "[specify value]" |
-| `[STORAGE_MONITORING]` | Specify the storage monitoring | "[specify value]" |
-| `[INGRESS_CONFIG]` | Specify the ingress config | "[specify value]" |
-| `[INGRESS_RESOURCES]` | Specify the ingress resources | "[specify value]" |
-| `[INGRESS_HA]` | Specify the ingress ha | "[specify value]" |
-| `[INGRESS_SECURITY]` | Specify the ingress security | "[specify value]" |
-| `[INGRESS_MONITORING]` | Specify the ingress monitoring | "[specify value]" |
-| `[REGISTRY_CONFIG]` | Specify the registry config | "[specify value]" |
-| `[PULL_POLICY]` | Specify the pull policy | "[specify value]" |
-| `[IMAGE_SCANNING]` | Specify the image scanning | "[specify value]" |
-| `[LAYER_CACHING]` | Specify the layer caching | "[specify value]" |
-| `[GARBAGE_COLLECTION]` | Specify the garbage collection | "[specify value]" |
-| `[PRIVATE_REGISTRIES]` | Specify the private registries | "[specify value]" |
-| `[RESOURCE_LIMITS]` | Specify the resource limits | "[specify value]" |
-| `[RESOURCE_REQUESTS]` | Specify the resource requests | "[specify value]" |
-| `[ENV_VARIABLES]` | Specify the env variables | "[specify value]" |
-| `[VOLUME_MOUNTS]` | Specify the volume mounts | "[specify value]" |
-| `[SECURITY_CONTEXT]` | Specify the security context | "[specify value]" |
-| `[HEALTH_CHECKS]` | Specify the health checks | "[specify value]" |
-| `[POD_TOPOLOGY]` | Specify the pod topology | "[specify value]" |
-| `[INIT_CONTAINERS]` | Specify the init containers | "[specify value]" |
-| `[SIDECAR_PATTERNS]` | Specify the sidecar patterns | "[specify value]" |
-| `[POD_DISRUPTION]` | Specify the pod disruption | "[specify value]" |
-| `[POD_PRIORITY]` | Specify the pod priority | "High" |
-| `[POD_AFFINITY]` | Specify the pod affinity | "[specify value]" |
-| `[DEPLOYMENT_CONFIG]` | Specify the deployment config | "[specify value]" |
-| `[STATEFULSET_CONFIG]` | Specify the statefulset config | "[specify value]" |
-| `[DAEMONSET_CONFIG]` | Specify the daemonset config | "[specify value]" |
-| `[JOB_CONFIG]` | Specify the job config | "[specify value]" |
-| `[REPLICASET_CONFIG]` | Specify the replicaset config | "[specify value]" |
-| `[CUSTOM_RESOURCES]` | Specify the custom resources | "[specify value]" |
-| `[DATA_PLANE_TECH]` | Specify the data plane tech | "[specify value]" |
-| `[DATA_PLANE_FEATURES]` | Specify the data plane features | "[specify value]" |
-| `[DATA_PLANE_PERF]` | Specify the data plane perf | "[specify value]" |
-| `[DATA_PLANE_SECURITY]` | Specify the data plane security | "[specify value]" |
-| `[DATA_PLANE_OBSERVE]` | Specify the data plane observe | "[specify value]" |
-| `[CONTROL_PLANE_TECH]` | Specify the control plane tech | "[specify value]" |
-| `[CONTROL_PLANE_FEATURES]` | Specify the control plane features | "[specify value]" |
-| `[CONTROL_PLANE_PERF]` | Specify the control plane perf | "[specify value]" |
-| `[CONTROL_PLANE_SECURITY]` | Specify the control plane security | "[specify value]" |
-| `[CONTROL_PLANE_OBSERVE]` | Specify the control plane observe | "[specify value]" |
-| `[TRAFFIC_TECH]` | Specify the traffic tech | "[specify value]" |
-| `[TRAFFIC_FEATURES]` | Specify the traffic features | "[specify value]" |
-| `[TRAFFIC_PERF]` | Specify the traffic perf | "[specify value]" |
-| `[TRAFFIC_SECURITY]` | Specify the traffic security | "[specify value]" |
-| `[TRAFFIC_OBSERVE]` | Specify the traffic observe | "[specify value]" |
-| `[SECURITY_TECH]` | Specify the security tech | "[specify value]" |
-| `[SECURITY_FEATURES]` | Specify the security features | "[specify value]" |
-| `[SECURITY_PERF]` | Specify the security perf | "[specify value]" |
-| `[SECURITY_SECURITY]` | Specify the security security | "[specify value]" |
-| `[SECURITY_OBSERVE]` | Specify the security observe | "[specify value]" |
-| `[OBSERVE_TECH]` | Specify the observe tech | "[specify value]" |
-| `[OBSERVE_FEATURES]` | Specify the observe features | "[specify value]" |
-| `[OBSERVE_PERF]` | Specify the observe perf | "[specify value]" |
-| `[OBSERVE_SECURITY]` | Specify the observe security | "[specify value]" |
-| `[OBSERVE_OBSERVE]` | Specify the observe observe | "[specify value]" |
-| `[MULTI_TECH]` | Specify the multi tech | "[specify value]" |
-| `[MULTI_FEATURES]` | Specify the multi features | "[specify value]" |
-| `[MULTI_PERF]` | Specify the multi perf | "[specify value]" |
-| `[MULTI_SECURITY]` | Specify the multi security | "[specify value]" |
-| `[MULTI_OBSERVE]` | Specify the multi observe | "[specify value]" |
-| `[CRD_API_VERSION]` | Specify the crd api version | "[specify value]" |
-| `[CRD_SCHEMA]` | Specify the crd schema | "[specify value]" |
-| `[CRD_VALIDATION]` | Specify the crd validation | "[specify value]" |
-| `[CRD_CONVERSION]` | Specify the crd conversion | "[specify value]" |
-| `[CRD_PRINTER]` | Specify the crd printer | "[specify value]" |
-| `[CRD_SUBRESOURCES]` | Specify the crd subresources | "[specify value]" |
-| `[CONTROLLER_RECONCILE]` | Specify the controller reconcile | "[specify value]" |
-| `[CONTROLLER_WATCH]` | Specify the controller watch | "[specify value]" |
-| `[CONTROLLER_EVENTS]` | Specify the controller events | "[specify value]" |
-| `[CONTROLLER_ERRORS]` | Specify the controller errors | "[specify value]" |
-| `[CONTROLLER_RATE_LIMIT]` | Specify the controller rate limit | "[specify value]" |
-| `[CONTROLLER_LEADER]` | Specify the controller leader | "[specify value]" |
-| `[OPERATOR_BASIC]` | Specify the operator basic | "[specify value]" |
-| `[OPERATOR_UPGRADES]` | Specify the operator upgrades | "[specify value]" |
-| `[OPERATOR_LIFECYCLE]` | Specify the operator lifecycle | "[specify value]" |
-| `[OPERATOR_INSIGHTS]` | Specify the operator insights | "[specify value]" |
-| `[OPERATOR_AUTOPILOT]` | Specify the operator autopilot | "[specify value]" |
-| `[OPERATOR_TESTING]` | Specify the operator testing | "[specify value]" |
-| `[SDK_FRAMEWORK]` | Specify the sdk framework | "[specify value]" |
-| `[SDK_SCAFFOLDING]` | Specify the sdk scaffolding | "[specify value]" |
-| `[SDK_TESTING]` | Specify the sdk testing | "[specify value]" |
-| `[SDK_BUNDLE]` | Specify the sdk bundle | "[specify value]" |
-| `[SDK_OLM]` | Specify the sdk olm | "[specify value]" |
-| `[SDK_DEPLOYMENT]` | Specify the sdk deployment | "[specify value]" |
-| `[TEMPLATE_STRUCTURE]` | Specify the template structure | "[specify value]" |
-| `[TEMPLATE_VERSION]` | Specify the template version | "[specify value]" |
-| `[TEMPLATE_DEPS]` | Specify the template deps | "[specify value]" |
-| `[TEMPLATE_TESTING]` | Specify the template testing | "[specify value]" |
-| `[TEMPLATE_DIST]` | Specify the template dist | "[specify value]" |
-| `[VALUES_STRUCTURE]` | Specify the values structure | "[specify value]" |
-| `[VALUES_VERSION]` | Specify the values version | "[specify value]" |
-| `[VALUES_DEPS]` | Specify the values deps | "[specify value]" |
-| `[VALUES_TESTING]` | Specify the values testing | "[specify value]" |
-| `[VALUES_DIST]` | Specify the values dist | "[specify value]" |
-| `[HOOKS_STRUCTURE]` | Specify the hooks structure | "[specify value]" |
-| `[HOOKS_VERSION]` | Specify the hooks version | "[specify value]" |
-| `[HOOKS_DEPS]` | Specify the hooks deps | "[specify value]" |
-| `[HOOKS_TESTING]` | Specify the hooks testing | "[specify value]" |
-| `[HOOKS_DIST]` | Specify the hooks dist | "[specify value]" |
-| `[TESTS_STRUCTURE]` | Specify the tests structure | "[specify value]" |
-| `[TESTS_VERSION]` | Specify the tests version | "[specify value]" |
-| `[TESTS_DEPS]` | Specify the tests deps | "[specify value]" |
-| `[TESTS_TESTING]` | Specify the tests testing | "[specify value]" |
-| `[TESTS_DIST]` | Specify the tests dist | "[specify value]" |
-| `[LIBRARY_STRUCTURE]` | Specify the library structure | "[specify value]" |
-| `[LIBRARY_VERSION]` | Specify the library version | "[specify value]" |
-| `[LIBRARY_DEPS]` | Specify the library deps | "[specify value]" |
-| `[LIBRARY_TESTING]` | Specify the library testing | "[specify value]" |
-| `[LIBRARY_DIST]` | Specify the library dist | "[specify value]" |
-| `[UMBRELLA_STRUCTURE]` | Specify the umbrella structure | "[specify value]" |
-| `[UMBRELLA_VERSION]` | Specify the umbrella version | "[specify value]" |
-| `[UMBRELLA_DEPS]` | Specify the umbrella deps | "[specify value]" |
-| `[UMBRELLA_TESTING]` | Specify the umbrella testing | "[specify value]" |
-| `[UMBRELLA_DIST]` | Specify the umbrella dist | "[specify value]" |
-| `[HPA_METRICS]` | Specify the hpa metrics | "[specify value]" |
-| `[HPA_LIMITS]` | Specify the hpa limits | "[specify value]" |
-| `[HPA_SPEED]` | Specify the hpa speed | "[specify value]" |
-| `[HPA_COST]` | Specify the hpa cost | "[specify value]" |
-| `[HPA_PERFORMANCE]` | Specify the hpa performance | "[specify value]" |
-| `[VPA_METRICS]` | Specify the vpa metrics | "[specify value]" |
-| `[VPA_LIMITS]` | Specify the vpa limits | "[specify value]" |
-| `[VPA_SPEED]` | Specify the vpa speed | "[specify value]" |
-| `[VPA_COST]` | Specify the vpa cost | "[specify value]" |
-| `[VPA_PERFORMANCE]` | Specify the vpa performance | "[specify value]" |
-| `[CA_METRICS]` | Specify the ca metrics | "[specify value]" |
-| `[CA_LIMITS]` | Specify the ca limits | "[specify value]" |
-| `[CA_SPEED]` | Specify the ca speed | "[specify value]" |
-| `[CA_COST]` | Specify the ca cost | "[specify value]" |
-| `[CA_PERFORMANCE]` | Specify the ca performance | "[specify value]" |
-| `[CUSTOM_METRICS]` | Specify the custom metrics | "[specify value]" |
-| `[CUSTOM_LIMITS]` | Specify the custom limits | "[specify value]" |
-| `[CUSTOM_SPEED]` | Specify the custom speed | "[specify value]" |
-| `[CUSTOM_COST]` | Specify the custom cost | "[specify value]" |
-| `[CUSTOM_PERFORMANCE]` | Specify the custom performance | "[specify value]" |
-| `[PREDICT_METRICS]` | Specify the predict metrics | "[specify value]" |
-| `[PREDICT_LIMITS]` | Specify the predict limits | "[specify value]" |
-| `[PREDICT_SPEED]` | Specify the predict speed | "[specify value]" |
-| `[PREDICT_COST]` | Specify the predict cost | "[specify value]" |
-| `[PREDICT_PERFORMANCE]` | Specify the predict performance | "[specify value]" |
-| `[MULTI_METRICS]` | Specify the multi metrics | "[specify value]" |
-| `[MULTI_LIMITS]` | Specify the multi limits | "[specify value]" |
-| `[MULTI_SPEED]` | Specify the multi speed | "[specify value]" |
-| `[MULTI_COST]` | Specify the multi cost | "[specify value]" |
-| `[MULTI_PERFORMANCE]` | Specify the multi performance | "[specify value]" |
-| `[NETWORK_INGRESS]` | Specify the network ingress | "[specify value]" |
-| `[NETWORK_EGRESS]` | Specify the network egress | "[specify value]" |
-| `[NETWORK_SELECTORS]` | Specify the network selectors | "[specify value]" |
-| `[NETWORK_ISOLATION]` | Specify the network isolation | "[specify value]" |
-| `[NETWORK_DEFAULTS]` | Specify the network defaults | "[specify value]" |
-| `[NETWORK_TESTING]` | Specify the network testing | "[specify value]" |
-| `[SERVICE_CLUSTERIP]` | Specify the service clusterip | "[specify value]" |
-| `[SERVICE_NODEPORT]` | Specify the service nodeport | "[specify value]" |
-| `[SERVICE_LB]` | Specify the service lb | "[specify value]" |
-| `[SERVICE_EXTERNAL]` | Specify the service external | "[specify value]" |
-| `[SERVICE_HEADLESS]` | Specify the service headless | "[specify value]" |
-| `[SERVICE_MULTIPORT]` | Specify the service multiport | "[specify value]" |
-| `[INGRESS_CONTROLLERS]` | Specify the ingress controllers | "[specify value]" |
-| `[INGRESS_TLS]` | Specify the ingress tls | "[specify value]" |
-| `[INGRESS_PATH]` | Specify the ingress path | "[specify value]" |
-| `[INGRESS_HOST]` | Specify the ingress host | "[specify value]" |
-| `[INGRESS_RATE_LIMIT]` | Specify the ingress rate limit | "[specify value]" |
-| `[INGRESS_WAF]` | Specify the ingress waf | "[specify value]" |
-| `[DISCOVERY_DNS]` | Specify the discovery dns | "[specify value]" |
-| `[DISCOVERY_REGISTRY]` | Specify the discovery registry | "[specify value]" |
-| `[DISCOVERY_ENDPOINTS]` | Specify the discovery endpoints | "[specify value]" |
-| `[DISCOVERY_EXTERNAL]` | Specify the discovery external | "[specify value]" |
-| `[DISCOVERY_MESH]` | Specify the discovery mesh | "[specify value]" |
-| `[DISCOVERY_CROSS]` | Specify the discovery cross | "[specify value]" |
-| `[BLOCK_CLASS]` | Specify the block class | "[specify value]" |
-| `[BLOCK_PROVISIONER]` | Specify the block provisioner | "[specify value]" |
-| `[BLOCK_PERFORMANCE]` | Specify the block performance | "[specify value]" |
-| `[BLOCK_BACKUP]` | Specify the block backup | "[specify value]" |
-| `[BLOCK_DR]` | Specify the block dr | "[specify value]" |
-| `[FILE_CLASS]` | Specify the file class | "[specify value]" |
-| `[FILE_PROVISIONER]` | Specify the file provisioner | "[specify value]" |
-| `[FILE_PERFORMANCE]` | Specify the file performance | "[specify value]" |
-| `[FILE_BACKUP]` | Specify the file backup | "[specify value]" |
-| `[FILE_DR]` | Specify the file dr | "[specify value]" |
-| `[OBJECT_CLASS]` | Specify the object class | "[specify value]" |
-| `[OBJECT_PROVISIONER]` | Specify the object provisioner | "[specify value]" |
-| `[OBJECT_PERFORMANCE]` | Specify the object performance | "[specify value]" |
-| `[OBJECT_BACKUP]` | Specify the object backup | "[specify value]" |
-| `[OBJECT_DR]` | Specify the object dr | "[specify value]" |
-| `[LOCAL_CLASS]` | Specify the local class | "[specify value]" |
-| `[LOCAL_PROVISIONER]` | Specify the local provisioner | "[specify value]" |
-| `[LOCAL_PERFORMANCE]` | Specify the local performance | "[specify value]" |
-| `[LOCAL_BACKUP]` | Specify the local backup | "[specify value]" |
-| `[LOCAL_DR]` | Specify the local dr | "[specify value]" |
-| `[CSI_CLASS]` | Specify the csi class | "[specify value]" |
-| `[CSI_PROVISIONER]` | Specify the csi provisioner | "[specify value]" |
-| `[CSI_PERFORMANCE]` | Specify the csi performance | "[specify value]" |
-| `[CSI_BACKUP]` | Specify the csi backup | "[specify value]" |
-| `[CSI_DR]` | Specify the csi dr | "[specify value]" |
-| `[STATEFUL_CLASS]` | Specify the stateful class | "[specify value]" |
-| `[STATEFUL_PROVISIONER]` | Specify the stateful provisioner | "[specify value]" |
-| `[STATEFUL_PERFORMANCE]` | Specify the stateful performance | "[specify value]" |
-| `[STATEFUL_BACKUP]` | Specify the stateful backup | "[specify value]" |
-| `[STATEFUL_DR]` | Specify the stateful dr | "[specify value]" |
-| `[RBAC_IMPL]` | Specify the rbac impl | "[specify value]" |
-| `[RBAC_POLICY]` | Specify the rbac policy | "[specify value]" |
-| `[RBAC_AUDIT]` | Specify the rbac audit | "[specify value]" |
-| `[RBAC_COMPLIANCE]` | Specify the rbac compliance | "[specify value]" |
-| `[RBAC_INCIDENT]` | Specify the rbac incident | "[specify value]" |
-| `[PSP_IMPL]` | Specify the psp impl | "[specify value]" |
-| `[PSP_POLICY]` | Specify the psp policy | "[specify value]" |
-| `[PSP_AUDIT]` | Specify the psp audit | "[specify value]" |
-| `[PSP_COMPLIANCE]` | Specify the psp compliance | "[specify value]" |
-| `[PSP_INCIDENT]` | Specify the psp incident | "[specify value]" |
-| `[NETPOL_IMPL]` | Specify the netpol impl | "[specify value]" |
-| `[NETPOL_POLICY]` | Specify the netpol policy | "[specify value]" |
-| `[NETPOL_AUDIT]` | Specify the netpol audit | "[specify value]" |
-| `[NETPOL_COMPLIANCE]` | Specify the netpol compliance | "[specify value]" |
-| `[NETPOL_INCIDENT]` | Specify the netpol incident | "[specify value]" |
-| `[SECRET_IMPL]` | Specify the secret impl | "[specify value]" |
-| `[SECRET_POLICY]` | Specify the secret policy | "[specify value]" |
-| `[SECRET_AUDIT]` | Specify the secret audit | "[specify value]" |
-| `[SECRET_COMPLIANCE]` | Specify the secret compliance | "[specify value]" |
-| `[SECRET_INCIDENT]` | Specify the secret incident | "[specify value]" |
-| `[IMAGE_IMPL]` | Specify the image impl | "[specify value]" |
-| `[IMAGE_POLICY]` | Specify the image policy | "[specify value]" |
-| `[IMAGE_AUDIT]` | Specify the image audit | "[specify value]" |
-| `[IMAGE_COMPLIANCE]` | Specify the image compliance | "[specify value]" |
-| `[IMAGE_INCIDENT]` | Specify the image incident | "[specify value]" |
-| `[RUNTIME_IMPL]` | Specify the runtime impl | "[specify value]" |
-| `[RUNTIME_POLICY]` | Specify the runtime policy | "[specify value]" |
-| `[RUNTIME_AUDIT]` | Specify the runtime audit | "[specify value]" |
-| `[RUNTIME_COMPLIANCE]` | Specify the runtime compliance | "[specify value]" |
-| `[RUNTIME_INCIDENT]` | Specify the runtime incident | "[specify value]" |
-| `[METRICS_PROMETHEUS]` | Specify the metrics prometheus | "[specify value]" |
-| `[METRICS_CUSTOM]` | Specify the metrics custom | "[specify value]" |
-| `[METRICS_APPLICATION]` | Specify the metrics application | "[specify value]" |
-| `[METRICS_SYSTEM]` | Specify the metrics system | "[specify value]" |
-| `[METRICS_BUSINESS]` | Specify the metrics business | "[specify value]" |
-| `[METRICS_COST]` | Specify the metrics cost | "[specify value]" |
-| `[LOGGING_AGGREGATION]` | Specify the logging aggregation | "[specify value]" |
-| `[LOGGING_PROCESSING]` | Specify the logging processing | "[specify value]" |
-| `[LOGGING_STORAGE]` | Specify the logging storage | "[specify value]" |
-| `[LOGGING_ANALYSIS]` | Specify the logging analysis | "[specify value]" |
-| `[LOGGING_RETENTION]` | Specify the logging retention | "[specify value]" |
-| `[LOGGING_SECURITY]` | Specify the logging security | "[specify value]" |
-| `[TRACING_BACKEND]` | Specify the tracing backend | "[specify value]" |
-| `[TRACING_INSTRUMENTATION]` | Specify the tracing instrumentation | "[specify value]" |
-| `[TRACING_SAMPLING]` | Specify the tracing sampling | "[specify value]" |
-| `[TRACING_ANALYSIS]` | Specify the tracing analysis | "[specify value]" |
-| `[TRACING_PERFORMANCE]` | Specify the tracing performance | "[specify value]" |
-| `[TRACING_INTEGRATION]` | Specify the tracing integration | "[specify value]" |
-| `[ALERT_RULES]` | Specify the alert rules | "[specify value]" |
-| `[ALERT_ROUTING]` | Specify the alert routing | "[specify value]" |
-| `[ALERT_ESCALATION]` | Specify the alert escalation | "[specify value]" |
-| `[DASHBOARD_DESIGN]` | Specify the dashboard design | "[specify value]" |
-| `[SLI_SLO_TRACKING]` | Specify the sli slo tracking | "[specify value]" |
-| `[REPORTING]` | Specify the reporting | "[specify value]" |
-| `[CHAOS_INJECTION]` | Specify the chaos injection | "[specify value]" |
-| `[CHAOS_GAMEDAYS]` | Specify the chaos gamedays | "[specify value]" |
-| `[CHAOS_AUTOMATED]` | Specify the chaos automated | "[specify value]" |
-| `[CHAOS_RECOVERY]` | Specify the chaos recovery | "[specify value]" |
-| `[CHAOS_DOCUMENTATION]` | Specify the chaos documentation | "[specify value]" |
-| `[CHAOS_LEARNING]` | Specify the chaos learning | "[specify value]" |
+| `[UPTIME_TARGET]` | Target or intended uptime | "99.9% SLA", "99.99% critical workloads", "99.95% production" |
+| `[RESOURCE_UTILIZATION]` | Specify the resource utilization | "70% CPU target", "80% memory target", "Right-sized pods" |
+| `[AUTO_SCALING]` | Specify the auto scaling | "HPA + VPA + Cluster Autoscaler", "KEDA event-driven", "Predictive scaling" |
+| `[DEPLOYMENT_VELOCITY]` | Specify the deployment velocity | "50 deployments/day", "Continuous deployment", "GitOps automated" |
+| `[RECOVERY_TIME]` | Specify the recovery time | "< 5 minutes RTO", "Auto-healing enabled", "Self-recovery" |
+| `[CONTROL_CONFIG]` | Specify the control config | "Managed EKS/GKE/AKS", "3-node HA control plane", "Multi-AZ deployment" |
+| `[CONTROL_RESOURCES]` | Specify the control resources | "4 vCPU / 16GB per node", "SSD-backed etcd", "Reserved capacity" |
+| `[CONTROL_HA]` | Specify the control ha | "Multi-AZ", "3 replicas minimum", "Auto-failover enabled" |
+| `[CONTROL_SECURITY]` | Specify the control security | "Private endpoint", "RBAC enabled", "Audit logging", "Encryption at rest" |
+| `[CONTROL_MONITORING]` | Specify the control monitoring | "API server metrics", "etcd health", "Control plane dashboards" |
+| `[WORKER_CONFIG]` | Specify the worker config | "Auto-scaling node groups", "Mixed instance types", "Spot + On-Demand" |
+| `[WORKER_RESOURCES]` | Specify the worker resources | "m5.xlarge baseline", "GPU nodes for ML", "Memory-optimized for caching" |
+| `[WORKER_HA]` | Specify the worker ha | "Multi-AZ spread", "Node anti-affinity", "Auto-replacement on failure" |
+| `[WORKER_SECURITY]` | Specify the worker security | "IMDSv2 required", "Encrypted EBS", "Security groups", "Node hardening" |
+| `[WORKER_MONITORING]` | Specify the worker monitoring | "Node Exporter", "cAdvisor metrics", "kubelet health", "Node dashboards" |
+| `[ETCD_CONFIG]` | Specify the etcd config | "Managed etcd (EKS/GKE)", "3-5 node cluster", "SSD-backed storage" |
+| `[ETCD_RESOURCES]` | Specify the etcd resources | "Dedicated instances", "High IOPS storage", "Low latency networking" |
+| `[ETCD_HA]` | Specify the etcd ha | "Raft consensus", "Multi-AZ", "Automatic leader election" |
+| `[ETCD_SECURITY]` | Specify the etcd security | "TLS encryption", "Client cert auth", "Encrypted at rest" |
+| `[ETCD_MONITORING]` | Specify the etcd monitoring | "etcd metrics", "Leader changes", "Compaction", "Quota usage" |
+| `[NETWORK_CONFIG]` | Specify the network config | "Calico CNI", "VPC-native networking", "Pod CIDR /16" |
+| `[NETWORK_RESOURCES]` | Specify the network resources | "Dedicated network bandwidth", "CNI resource limits" |
+| `[NETWORK_HA]` | Specify the network ha | "Multi-path networking", "CNI redundancy", "DNS HA" |
+| `[NETWORK_SECURITY]` | Specify the network security | "Network policies", "mTLS with service mesh", "Encrypted pod traffic" |
+| `[NETWORK_MONITORING]` | Specify the network monitoring | "Network flow logs", "CNI metrics", "DNS metrics", "Latency tracking" |
+| `[STORAGE_CONFIG]` | Specify the storage config | "EBS CSI driver", "EFS for shared storage", "Storage classes defined" |
+| `[STORAGE_RESOURCES]` | Specify the storage resources | "gp3 volumes", "Provisioned IOPS for DBs", "Dynamic provisioning" |
+| `[STORAGE_HA]` | Specify the storage ha | "Multi-AZ replication", "Volume snapshots", "Cross-region backup" |
+| `[STORAGE_SECURITY]` | Specify the storage security | "Encryption at rest", "KMS keys", "Volume access modes" |
+| `[STORAGE_MONITORING]` | Specify the storage monitoring | "PV usage metrics", "IOPS monitoring", "Capacity alerts" |
+| `[INGRESS_CONFIG]` | Specify the ingress config | "NGINX Ingress Controller", "AWS ALB Controller", "Istio Gateway" |
+| `[INGRESS_RESOURCES]` | Specify the ingress resources | "2-4 replicas", "HPA enabled", "Dedicated node pool" |
+| `[INGRESS_HA]` | Specify the ingress ha | "Multi-AZ deployment", "Pod anti-affinity", "Health checks" |
+| `[INGRESS_SECURITY]` | Specify the ingress security | "TLS termination", "WAF integration", "Rate limiting", "ModSecurity" |
+| `[INGRESS_MONITORING]` | Specify the ingress monitoring | "Request metrics", "Error rates", "Latency percentiles", "Connection tracking" |
+| `[REGISTRY_CONFIG]` | Specify the registry config | "ECR/GCR/ACR", "Harbor self-hosted", "Pull-through cache" |
+| `[PULL_POLICY]` | Specify the pull policy | "IfNotPresent for prod", "Always for dev", "Image pull secrets" |
+| `[IMAGE_SCANNING]` | Specify the image scanning | "Trivy on push", "ECR scanning", "Admission controller validation" |
+| `[LAYER_CACHING]` | Specify the layer caching | "BuildKit cache", "Registry cache", "Multi-stage builds" |
+| `[GARBAGE_COLLECTION]` | Specify the garbage collection | "Kubelet image GC", "Registry cleanup policies", "Old tag removal" |
+| `[PRIVATE_REGISTRIES]` | Specify the private registries | "ImagePullSecrets", "Service account tokens", "IAM roles for service accounts" |
+| `[RESOURCE_LIMITS]` | Specify the resource limits | "CPU: 2 cores max", "Memory: 4Gi max", "Ephemeral storage: 10Gi" |
+| `[RESOURCE_REQUESTS]` | Specify the resource requests | "CPU: 500m", "Memory: 1Gi", "Guaranteed QoS for critical" |
+| `[ENV_VARIABLES]` | Specify the env variables | "ConfigMaps for config", "Secrets for credentials", "Downward API" |
+| `[VOLUME_MOUNTS]` | Specify the volume mounts | "ConfigMap volumes", "Secret volumes", "PVC for persistence" |
+| `[SECURITY_CONTEXT]` | Specify the security context | "runAsNonRoot: true", "readOnlyRootFilesystem", "Drop all capabilities" |
+| `[HEALTH_CHECKS]` | Specify the health checks | "Liveness: HTTP /health", "Readiness: TCP/HTTP", "Startup probes" |
+| `[POD_TOPOLOGY]` | Specify the pod topology | "Zone spread", "Node anti-affinity", "Topology constraints" |
+| `[INIT_CONTAINERS]` | Specify the init containers | "DB migration", "Config setup", "Dependency checks" |
+| `[SIDECAR_PATTERNS]` | Specify the sidecar patterns | "Envoy proxy", "Log shipper", "Secrets injector" |
+| `[POD_DISRUPTION]` | Specify the pod disruption | "minAvailable: 50%", "maxUnavailable: 1", "PDB per deployment" |
+| `[POD_PRIORITY]` | Specify the pod priority | "system-critical", "high-priority", "default", "low-priority" |
+| `[POD_AFFINITY]` | Specify the pod affinity | "Co-locate with cache", "Anti-affinity same service", "Node selector" |
+| `[DEPLOYMENT_CONFIG]` | Specify the deployment config | "RollingUpdate strategy", "maxSurge: 25%", "maxUnavailable: 0" |
+| `[STATEFULSET_CONFIG]` | Specify the statefulset config | "OrderedReady pod management", "Persistent volume claims", "Headless service" |
+| `[DAEMONSET_CONFIG]` | Specify the daemonset config | "One per node", "Node selectors", "Tolerations for all nodes" |
+| `[JOB_CONFIG]` | Specify the job config | "backoffLimit: 3", "TTL cleanup", "Parallelism settings" |
+| `[REPLICASET_CONFIG]` | Specify the replicaset config | "Managed by Deployment", "Label selectors", "Replica count" |
+| `[CUSTOM_RESOURCES]` | Specify the custom resources | "CRDs for operators", "Validation schemas", "Conversion webhooks" |
+| `[DATA_PLANE_TECH]` | Specify the data plane tech | "Envoy proxy", "Linkerd2-proxy", "NGINX sidecar" |
+| `[DATA_PLANE_FEATURES]` | Specify the data plane features | "L4/L7 load balancing", "Circuit breaking", "Retries", "Timeouts" |
+| `[DATA_PLANE_PERF]` | Specify the data plane perf | "< 1ms latency overhead", "10K RPS per proxy", "Efficient memory" |
+| `[DATA_PLANE_SECURITY]` | Specify the data plane security | "mTLS encryption", "Certificate rotation", "Identity verification" |
+| `[DATA_PLANE_OBSERVE]` | Specify the data plane observe | "Request metrics", "Access logs", "Trace headers propagation" |
+| `[CONTROL_PLANE_TECH]` | Specify the control plane tech | "Istio istiod", "Linkerd control plane", "Consul Connect" |
+| `[CONTROL_PLANE_FEATURES]` | Specify the control plane features | "Service discovery", "Config distribution", "Certificate management" |
+| `[CONTROL_PLANE_PERF]` | Specify the control plane perf | "< 100ms config propagation", "HA deployment", "Horizontal scaling" |
+| `[CONTROL_PLANE_SECURITY]` | Specify the control plane security | "RBAC policies", "Certificate authority", "Secure config storage" |
+| `[CONTROL_PLANE_OBSERVE]` | Specify the control plane observe | "Control plane metrics", "Config sync status", "Error tracking" |
+| `[TRAFFIC_TECH]` | Specify the traffic tech | "VirtualService", "DestinationRule", "Gateway", "ServiceEntry" |
+| `[TRAFFIC_FEATURES]` | Specify the traffic features | "Traffic splitting", "Canary deployments", "Blue-green routing" |
+| `[TRAFFIC_PERF]` | Specify the traffic perf | "Weighted routing", "Request mirroring", "Fault injection testing" |
+| `[TRAFFIC_SECURITY]` | Specify the traffic security | "AuthorizationPolicy", "PeerAuthentication", "RequestAuthentication" |
+| `[TRAFFIC_OBSERVE]` | Specify the traffic observe | "Traffic flow visualization", "Request tracing", "Error rate tracking" |
+| `[SECURITY_TECH]` | Specify the security tech | "SPIFFE/SPIRE", "cert-manager", "Vault integration" |
+| `[SECURITY_FEATURES]` | Specify the security features | "Workload identity", "mTLS everywhere", "JWT validation" |
+| `[SECURITY_PERF]` | Specify the security perf | "Minimal encryption overhead", "Certificate caching", "Efficient handshake" |
+| `[SECURITY_SECURITY]` | Specify the security security | "Zero-trust networking", "Policy enforcement", "Audit logging" |
+| `[SECURITY_OBSERVE]` | Specify the security observe | "Security audit logs", "Policy violations", "Certificate expiry alerts" |
+| `[OBSERVE_TECH]` | Specify the observe tech | "Prometheus + Grafana", "Jaeger/Zipkin", "Kiali dashboard" |
+| `[OBSERVE_FEATURES]` | Specify the observe features | "Golden signals", "Service graphs", "Distributed tracing" |
+| `[OBSERVE_PERF]` | Specify the observe perf | "1% trace sampling", "Metric aggregation", "Efficient storage" |
+| `[OBSERVE_SECURITY]` | Specify the observe security | "RBAC for dashboards", "Secure metric endpoints", "Log encryption" |
+| `[OBSERVE_OBSERVE]` | Specify the observe observe | "SLI/SLO tracking", "Alerting integration", "Trend analysis" |
+| `[MULTI_TECH]` | Specify the multi tech | "Istio multi-cluster", "Linkerd multicluster", "Consul federation" |
+| `[MULTI_FEATURES]` | Specify the multi features | "Cross-cluster service discovery", "Unified control plane" |
+| `[MULTI_PERF]` | Specify the multi perf | "Locality-aware routing", "Failover between clusters" |
+| `[MULTI_SECURITY]` | Specify the multi security | "Cross-cluster mTLS", "Shared trust domain", "Network policies" |
+| `[MULTI_OBSERVE]` | Specify the multi observe | "Global observability", "Cross-cluster tracing", "Unified dashboards" |
+| `[CRD_API_VERSION]` | Specify the crd api version | "apiextensions.k8s.io/v1", "Versioned API (v1alpha1, v1beta1, v1)" |
+| `[CRD_SCHEMA]` | Specify the crd schema | "OpenAPI v3 schema", "Structural schema", "Type definitions" |
+| `[CRD_VALIDATION]` | Specify the crd validation | "CEL validation rules", "Webhook validation", "Required fields" |
+| `[CRD_CONVERSION]` | Specify the crd conversion | "Conversion webhooks", "Version strategy", "Storage version" |
+| `[CRD_PRINTER]` | Specify the crd printer | "Custom columns", "Status display", "Age column" |
+| `[CRD_SUBRESOURCES]` | Specify the crd subresources | "Status subresource", "Scale subresource", "Custom actions" |
+| `[CONTROLLER_RECONCILE]` | Specify the controller reconcile | "Idempotent reconciliation", "Desired state convergence", "RequeueAfter" |
+| `[CONTROLLER_WATCH]` | Specify the controller watch | "Primary resource watch", "Owned resources", "External resources" |
+| `[CONTROLLER_EVENTS]` | Specify the controller events | "Event recording", "Status conditions", "Progress updates" |
+| `[CONTROLLER_ERRORS]` | Specify the controller errors | "Exponential backoff", "Error categorization", "Retry strategies" |
+| `[CONTROLLER_RATE_LIMIT]` | Specify the controller rate limit | "Work queue rate limiting", "Burst handling", "Concurrent workers" |
+| `[CONTROLLER_LEADER]` | Specify the controller leader | "Leader election enabled", "Lease duration", "Renewal deadline" |
+| `[OPERATOR_BASIC]` | Specify the operator basic | "Automated install", "Basic configuration", "Resource creation" |
+| `[OPERATOR_UPGRADES]` | Specify the operator upgrades | "Automated upgrades", "Rolling updates", "Version compatibility" |
+| `[OPERATOR_LIFECYCLE]` | Specify the operator lifecycle | "Backup/restore", "Scaling", "Failure recovery" |
+| `[OPERATOR_INSIGHTS]` | Specify the operator insights | "Metrics collection", "Health reporting", "Performance tuning" |
+| `[OPERATOR_AUTOPILOT]` | Specify the operator autopilot | "Auto-scaling", "Auto-healing", "Predictive actions" |
+| `[OPERATOR_TESTING]` | Specify the operator testing | "Unit tests", "Integration tests", "E2E with envtest" |
+| `[SDK_FRAMEWORK]` | Specify the sdk framework | "Operator SDK", "Kubebuilder", "KOPF (Python)", "Java Operator SDK" |
+| `[SDK_SCAFFOLDING]` | Specify the sdk scaffolding | "operator-sdk init", "kubebuilder create api", "Project layout" |
+| `[SDK_TESTING]` | Specify the sdk testing | "envtest framework", "Ginkgo/Gomega", "Mock clients" |
+| `[SDK_BUNDLE]` | Specify the sdk bundle | "operator-sdk bundle", "CSV generation", "Metadata annotations" |
+| `[SDK_OLM]` | Specify the sdk olm | "Operator Lifecycle Manager", "CatalogSource", "Subscription" |
+| `[SDK_DEPLOYMENT]` | Specify the sdk deployment | "Helm chart", "Kustomize", "OLM bundle", "Direct manifests" |
+| `[TEMPLATE_STRUCTURE]` | Specify the template structure | "templates/ directory", "Named templates", "_helpers.tpl" |
+| `[TEMPLATE_VERSION]` | Specify the template version | "Semantic versioning", "Chart.yaml version", "appVersion tracking" |
+| `[TEMPLATE_DEPS]` | Specify the template deps | "Chart.yaml dependencies", "Condition flags", "Alias support" |
+| `[TEMPLATE_TESTING]` | Specify the template testing | "helm lint", "helm template", "ct (chart-testing)" |
+| `[TEMPLATE_DIST]` | Specify the template dist | "ChartMuseum", "Harbor", "OCI registry", "GitHub Pages" |
+| `[VALUES_STRUCTURE]` | Specify the values structure | "values.yaml default", "values-{env}.yaml overrides", "JSON schema" |
+| `[VALUES_VERSION]` | Specify the values version | "Backward compatible", "Migration notes", "Upgrade hooks" |
+| `[VALUES_DEPS]` | Specify the values deps | "Global values", "Subchart values", "Import-values" |
+| `[VALUES_TESTING]` | Specify the values testing | "Schema validation", "Example values", "CI/CD validation" |
+| `[VALUES_DIST]` | Specify the values dist | "README documentation", "values.schema.json", "Examples directory" |
+| `[HOOKS_STRUCTURE]` | Specify the hooks structure | "pre-install", "post-install", "pre-upgrade", "post-upgrade" |
+| `[HOOKS_VERSION]` | Specify the hooks version | "Hook weight ordering", "Delete policy", "Hook timeout" |
+| `[HOOKS_DEPS]` | Specify the hooks deps | "Job-based hooks", "Init container hooks", "External dependencies" |
+| `[HOOKS_TESTING]` | Specify the hooks testing | "Hook execution order", "Failure scenarios", "Rollback testing" |
+| `[HOOKS_DIST]` | Specify the hooks dist | "Migration scripts", "Database hooks", "Pre-flight checks" |
+| `[TESTS_STRUCTURE]` | Specify the tests structure | "tests/ directory", "Test pod definitions", "Connection tests" |
+| `[TESTS_VERSION]` | Specify the tests version | "helm test command", "Test annotations", "Cleanup policy" |
+| `[TESTS_DEPS]` | Specify the tests deps | "Test containers", "curl/wget images", "Custom test images" |
+| `[TESTS_TESTING]` | Specify the tests testing | "Integration tests", "Smoke tests", "E2E validation" |
+| `[TESTS_DIST]` | Specify the tests dist | "CI pipeline integration", "Test reports", "Test coverage" |
+| `[LIBRARY_STRUCTURE]` | Specify the library structure | "type: library", "Shared templates", "Helper functions" |
+| `[LIBRARY_VERSION]` | Specify the library version | "Semantic versioning", "Breaking change policy", "Deprecation notices" |
+| `[LIBRARY_DEPS]` | Specify the library deps | "Parent dependency", "Version constraints", "Alias support" |
+| `[LIBRARY_TESTING]` | Specify the library testing | "Template unit tests", "Integration tests", "Documentation tests" |
+| `[LIBRARY_DIST]` | Specify the library dist | "Shared chart repo", "Version pinning", "Update automation" |
+| `[UMBRELLA_STRUCTURE]` | Specify the umbrella structure | "Parent chart", "Subchart dependencies", "Global values" |
+| `[UMBRELLA_VERSION]` | Specify the umbrella version | "Coordinated releases", "Subchart version matrix", "Compatibility testing" |
+| `[UMBRELLA_DEPS]` | Specify the umbrella deps | "Chart.yaml dependencies", "Condition toggles", "Tags" |
+| `[UMBRELLA_TESTING]` | Specify the umbrella testing | "Full stack testing", "Integration validation", "Upgrade testing" |
+| `[UMBRELLA_DIST]` | Specify the umbrella dist | "Mono-repo deployment", "ArgoCD ApplicationSet", "FluxCD HelmRelease" |
+| `[HPA_METRICS]` | Specify the hpa metrics | "CPU utilization 70%", "Memory 80%", "Custom metrics" |
+| `[HPA_LIMITS]` | Specify the hpa limits | "minReplicas: 2", "maxReplicas: 100", "scaleDown stabilization" |
+| `[HPA_SPEED]` | Specify the hpa speed | "15s sync period", "Scale up: 300s window", "Scale down: 300s" |
+| `[HPA_COST]` | Specify the hpa cost | "Right-sized replicas", "Reduced over-provisioning", "Cost-aware scaling" |
+| `[HPA_PERFORMANCE]` | Specify the hpa performance | "Handles traffic spikes", "Maintains latency SLO", "Prevents resource exhaustion" |
+| `[VPA_METRICS]` | Specify the vpa metrics | "Resource recommendations", "OOM history", "CPU throttling" |
+| `[VPA_LIMITS]` | Specify the vpa limits | "Min/max resources", "Container policies", "Update policy (Auto/Off)" |
+| `[VPA_SPEED]` | Specify the vpa speed | "Recommendation updates 1h", "Pod restarts for changes" |
+| `[VPA_COST]` | Specify the vpa cost | "Right-sized containers", "Reduced waste", "Optimal resource allocation" |
+| `[VPA_PERFORMANCE]` | Specify the vpa performance | "Prevents OOM kills", "Reduces throttling", "Optimal QoS" |
+| `[CA_METRICS]` | Specify the ca metrics | "Pending pods", "Node utilization", "Unschedulable workloads" |
+| `[CA_LIMITS]` | Specify the ca limits | "Min/max nodes per group", "Scale down delay", "Node provisioning timeout" |
+| `[CA_SPEED]` | Specify the ca speed | "10s scan interval", "Node ready in 2-5 min", "Scale down: 10min" |
+| `[CA_COST]` | Specify the ca cost | "Spot instance integration", "Right-sized node pools", "Cost optimization" |
+| `[CA_PERFORMANCE]` | Specify the ca performance | "Handles burst demand", "Maintains capacity headroom", "Auto-recovery" |
+| `[CUSTOM_METRICS]` | Specify the custom metrics | "Queue depth", "Requests per second", "Business metrics via KEDA" |
+| `[CUSTOM_LIMITS]` | Specify the custom limits | "Application-specific thresholds", "Rate of change limits" |
+| `[CUSTOM_SPEED]` | Specify the custom speed | "Prometheus scrape interval", "KEDA polling interval", "Fast reaction" |
+| `[CUSTOM_COST]` | Specify the custom cost | "Business-aware scaling", "Revenue-optimized capacity" |
+| `[CUSTOM_PERFORMANCE]` | Specify the custom performance | "Application-specific SLOs", "Business metric alignment" |
+| `[PREDICT_METRICS]` | Specify the predict metrics | "Historical patterns", "ML-based forecasting", "Scheduled events" |
+| `[PREDICT_LIMITS]` | Specify the predict limits | "Prediction confidence threshold", "Max pre-scale factor" |
+| `[PREDICT_SPEED]` | Specify the predict speed | "Pre-scales before demand", "Lead time: 5-15 minutes" |
+| `[PREDICT_COST]` | Specify the predict cost | "Reduced emergency scaling", "Spot instance pre-warming" |
+| `[PREDICT_PERFORMANCE]` | Specify the predict performance | "Zero cold start for predicted load", "Proactive capacity" |
+| `[MULTI_METRICS]` | Specify the multi metrics | "Combined CPU + Memory + Custom", "Weighted metrics", "External + Resource" |
+| `[MULTI_LIMITS]` | Specify the multi limits | "Per-metric thresholds", "Overall constraints", "Behavior policies" |
+| `[MULTI_SPEED]` | Specify the multi speed | "Fastest reaction wins", "Coordinated scaling decisions" |
+| `[MULTI_COST]` | Specify the multi cost | "Balanced resource allocation", "Multi-dimensional optimization" |
+| `[MULTI_PERFORMANCE]` | Specify the multi performance | "Holistic scaling", "Multiple SLO targets", "Comprehensive coverage" |
+| `[NETWORK_INGRESS]` | Specify the network ingress | "Allow from same namespace", "Allow from specific pods", "Allow from external" |
+| `[NETWORK_EGRESS]` | Specify the network egress | "Deny all by default", "Allow to specific services", "Allow external DNS" |
+| `[NETWORK_SELECTORS]` | Specify the network selectors | "Pod labels", "Namespace labels", "IP blocks", "Port selectors" |
+| `[NETWORK_ISOLATION]` | Specify the network isolation | "Namespace isolation", "Zero-trust model", "Micro-segmentation" |
+| `[NETWORK_DEFAULTS]` | Specify the network defaults | "Default deny ingress", "Default deny egress", "Explicit allow lists" |
+| `[NETWORK_TESTING]` | Specify the network testing | "Connectivity tests", "Policy validation", "Penetration testing" |
+| `[SERVICE_CLUSTERIP]` | Specify the service clusterip | "Internal service discovery", "Stable virtual IP", "Port mapping" |
+| `[SERVICE_NODEPORT]` | Specify the service nodeport | "30000-32767 port range", "Direct node access", "Testing/dev use" |
+| `[SERVICE_LB]` | Specify the service lb | "Cloud load balancer integration", "External IP assignment", "Production traffic" |
+| `[SERVICE_EXTERNAL]` | Specify the service external | "External DNS CNAME", "Service without selector", "External database" |
+| `[SERVICE_HEADLESS]` | Specify the service headless | "clusterIP: None", "Direct pod DNS", "StatefulSet discovery" |
+| `[SERVICE_MULTIPORT]` | Specify the service multiport | "Named ports", "Protocol per port", "Multiple endpoints" |
+| `[INGRESS_CONTROLLERS]` | Specify the ingress controllers | "NGINX Ingress", "Traefik", "AWS ALB Controller", "Istio Gateway" |
+| `[INGRESS_TLS]` | Specify the ingress tls | "cert-manager automation", "Secret-based certs", "Let's Encrypt" |
+| `[INGRESS_PATH]` | Specify the ingress path | "Prefix matching", "Exact matching", "Regex paths", "Path rewriting" |
+| `[INGRESS_HOST]` | Specify the ingress host | "Host-based routing", "Wildcard hosts", "SNI support" |
+| `[INGRESS_RATE_LIMIT]` | Specify the ingress rate limit | "Requests per second", "Burst limits", "IP-based limiting" |
+| `[INGRESS_WAF]` | Specify the ingress waf | "ModSecurity integration", "AWS WAF", "OWASP rules" |
+| `[DISCOVERY_DNS]` | Specify the discovery dns | "CoreDNS configuration", "Pod DNS resolution", "Service FQDN" |
+| `[DISCOVERY_REGISTRY]` | Specify the discovery registry | "Kubernetes Endpoints", "EndpointSlices", "Service account" |
+| `[DISCOVERY_ENDPOINTS]` | Specify the discovery endpoints | "EndpointSlice API", "Zone-aware discovery", "Topology hints" |
+| `[DISCOVERY_EXTERNAL]` | Specify the discovery external | "ExternalDNS controller", "Cloud DNS integration", "Route53/CloudDNS" |
+| `[DISCOVERY_MESH]` | Specify the discovery mesh | "Service mesh registry", "Istio ServiceEntry", "Envoy clusters" |
+| `[DISCOVERY_CROSS]` | Specify the discovery cross | "Multi-cluster DNS", "Submariner", "Istio multi-cluster" |
+| `[BLOCK_CLASS]` | Specify the block class | "gp3 (AWS)", "premium-lrs (Azure)", "pd-ssd (GCP)", "Standard" |
+| `[BLOCK_PROVISIONER]` | Specify the block provisioner | "ebs.csi.aws.com", "disk.csi.azure.com", "pd.csi.storage.gke.io" |
+| `[BLOCK_PERFORMANCE]` | Specify the block performance | "3000 IOPS baseline", "125 MB/s throughput", "Low latency" |
+| `[BLOCK_BACKUP]` | Specify the block backup | "VolumeSnapshot", "Velero integration", "Native cloud snapshots" |
+| `[BLOCK_DR]` | Specify the block dr | "Cross-region replication", "Snapshot export", "Volume cloning" |
+| `[FILE_CLASS]` | Specify the file class | "efs (AWS)", "azurefile (Azure)", "filestore (GCP)", "NFS" |
+| `[FILE_PROVISIONER]` | Specify the file provisioner | "efs.csi.aws.com", "file.csi.azure.com", "nfs-subdir-external" |
+| `[FILE_PERFORMANCE]` | Specify the file performance | "Shared access ReadWriteMany", "Burst throughput", "Elastic scaling" |
+| `[FILE_BACKUP]` | Specify the file backup | "AWS Backup for EFS", "Azure file share backup", "rsync/rclone" |
+| `[FILE_DR]` | Specify the file dr | "Cross-region replication", "DataSync", "File-level backup" |
+| `[OBJECT_CLASS]` | Specify the object class | "S3 (AWS)", "Blob Storage (Azure)", "GCS (GCP)", "MinIO" |
+| `[OBJECT_PROVISIONER]` | Specify the object provisioner | "s3.csi.aws.com", "COSI buckets", "Rook-Ceph RGW" |
+| `[OBJECT_PERFORMANCE]` | Specify the object performance | "High throughput", "Parallel access", "Multi-part uploads" |
+| `[OBJECT_BACKUP]` | Specify the object backup | "S3 versioning", "Cross-region replication", "Lifecycle policies" |
+| `[OBJECT_DR]` | Specify the object dr | "Multi-region buckets", "Cross-account replication", "Glacier archive" |
+| `[LOCAL_CLASS]` | Specify the local class | "local-storage", "local-path-provisioner", "OpenEBS LocalPV" |
+| `[LOCAL_PROVISIONER]` | Specify the local provisioner | "kubernetes.io/no-provisioner", "rancher.io/local-path" |
+| `[LOCAL_PERFORMANCE]` | Specify the local performance | "Highest IOPS", "NVMe direct access", "No network overhead" |
+| `[LOCAL_BACKUP]` | Specify the local backup | "Velero with restic", "Node-level snapshots", "Data replication" |
+| `[LOCAL_DR]` | Specify the local dr | "Application-level replication", "Database HA", "Node anti-affinity" |
+| `[CSI_CLASS]` | Specify the csi class | "Custom storage classes", "Multi-attach volumes", "Encrypted volumes" |
+| `[CSI_PROVISIONER]` | Specify the csi provisioner | "CSI drivers", "Dynamic provisioning", "Volume expansion" |
+| `[CSI_PERFORMANCE]` | Specify the csi performance | "Driver-specific tuning", "QoS settings", "IOPS limits" |
+| `[CSI_BACKUP]` | Specify the csi backup | "VolumeSnapshot support", "Clone support", "Backup integration" |
+| `[CSI_DR]` | Specify the csi dr | "Snapshot-based DR", "Volume migration", "Cross-cluster recovery" |
+| `[STATEFUL_CLASS]` | Specify the stateful class | "High-performance SSD", "Replicated storage", "Database-optimized" |
+| `[STATEFUL_PROVISIONER]` | Specify the stateful provisioner | "volumeClaimTemplates", "Dynamic PVC creation", "Storage binding" |
+| `[STATEFUL_PERFORMANCE]` | Specify the stateful performance | "Consistent latency", "Ordered deployment", "Stable network identity" |
+| `[STATEFUL_BACKUP]` | Specify the stateful backup | "Application-consistent backup", "Database dumps + snapshots" |
+| `[STATEFUL_DR]` | Specify the stateful dr | "Replica promotion", "Cross-region standby", "Point-in-time recovery" |
+| `[RBAC_IMPL]` | Specify the rbac impl | "Role/ClusterRole definitions", "RoleBinding/ClusterRoleBinding", "Service accounts" |
+| `[RBAC_POLICY]` | Specify the rbac policy | "Least privilege principle", "Namespace-scoped roles", "No cluster-admin for apps" |
+| `[RBAC_AUDIT]` | Specify the rbac audit | "API audit logging", "rbac-lookup tool", "Permission analysis" |
+| `[RBAC_COMPLIANCE]` | Specify the rbac compliance | "CIS Kubernetes Benchmark", "SOC 2 access controls", "PCI-DSS 7.x" |
+| `[RBAC_INCIDENT]` | Specify the rbac incident | "Access revocation", "Service account rotation", "Investigation procedures" |
+| `[PSP_IMPL]` | Specify the psp impl | "Pod Security Standards", "Kyverno policies", "OPA Gatekeeper" |
+| `[PSP_POLICY]` | Specify the psp policy | "Restricted by default", "Baseline for most workloads", "Privileged for system" |
+| `[PSP_AUDIT]` | Specify the psp audit | "Policy violation alerts", "Admission audit logs", "Compliance scanning" |
+| `[PSP_COMPLIANCE]` | Specify the psp compliance | "CIS benchmarks", "NSA hardening guide", "NIST 800-190" |
+| `[PSP_INCIDENT]` | Specify the psp incident | "Pod termination", "Policy enforcement", "Root cause analysis" |
+| `[NETPOL_IMPL]` | Specify the netpol impl | "Calico NetworkPolicy", "Cilium policies", "AWS Security Groups" |
+| `[NETPOL_POLICY]` | Specify the netpol policy | "Default deny all", "Explicit allow rules", "Namespace isolation" |
+| `[NETPOL_AUDIT]` | Specify the netpol audit | "Network flow logs", "Policy simulation", "Connectivity tests" |
+| `[NETPOL_COMPLIANCE]` | Specify the netpol compliance | "Zero-trust networking", "Segmentation requirements", "PCI-DSS 1.x" |
+| `[NETPOL_INCIDENT]` | Specify the netpol incident | "Traffic blocking", "Policy rollback", "Forensic analysis" |
+| `[SECRET_IMPL]` | Specify the secret impl | "Kubernetes Secrets", "External Secrets Operator", "Sealed Secrets" |
+| `[SECRET_POLICY]` | Specify the secret policy | "Encryption at rest", "RBAC for secrets", "Rotation requirements" |
+| `[SECRET_AUDIT]` | Specify the secret audit | "Secret access logging", "Expiry tracking", "Usage monitoring" |
+| `[SECRET_COMPLIANCE]` | Specify the secret compliance | "SOC 2 encryption", "PCI-DSS 3.x", "HIPAA safeguards" |
+| `[SECRET_INCIDENT]` | Specify the secret incident | "Immediate rotation", "Access revocation", "Breach notification" |
+| `[IMAGE_IMPL]` | Specify the image impl | "Trivy scanning", "Admission controllers", "Signed images (Cosign)" |
+| `[IMAGE_POLICY]` | Specify the image policy | "No latest tag", "Signed images only", "Base image requirements" |
+| `[IMAGE_AUDIT]` | Specify the image audit | "Image provenance", "SBOM generation", "CVE tracking" |
+| `[IMAGE_COMPLIANCE]` | Specify the image compliance | "SLSA attestations", "Supply chain security", "Compliance scanning" |
+| `[IMAGE_INCIDENT]` | Specify the image incident | "Image quarantine", "Pod eviction", "Patch deployment" |
+| `[RUNTIME_IMPL]` | Specify the runtime impl | "Falco runtime security", "Sysdig", "Aqua Security" |
+| `[RUNTIME_POLICY]` | Specify the runtime policy | "Anomaly detection", "Syscall filtering", "Container drift detection" |
+| `[RUNTIME_AUDIT]` | Specify the runtime audit | "Runtime events", "Security findings", "Behavioral analysis" |
+| `[RUNTIME_COMPLIANCE]` | Specify the runtime compliance | "Runtime protection requirements", "Continuous monitoring" |
+| `[RUNTIME_INCIDENT]` | Specify the runtime incident | "Container kill", "Workload isolation", "Forensic capture" |
+| `[METRICS_PROMETHEUS]` | Specify the metrics prometheus | "Prometheus Operator", "ServiceMonitor CRDs", "Thanos for HA" |
+| `[METRICS_CUSTOM]` | Specify the metrics custom | "prometheus-adapter", "KEDA scalers", "Custom metrics API" |
+| `[METRICS_APPLICATION]` | Specify the metrics application | "RED metrics", "Custom business metrics", "SLI metrics" |
+| `[METRICS_SYSTEM]` | Specify the metrics system | "Node Exporter", "kube-state-metrics", "cAdvisor" |
+| `[METRICS_BUSINESS]` | Specify the metrics business | "Revenue metrics", "User engagement", "Transaction success rate" |
+| `[METRICS_COST]` | Specify the metrics cost | "Kubecost", "OpenCost", "Cloud provider cost allocation" |
+| `[LOGGING_AGGREGATION]` | Specify the logging aggregation | "Fluent Bit DaemonSet", "Loki", "OpenSearch" |
+| `[LOGGING_PROCESSING]` | Specify the logging processing | "JSON parsing", "Field extraction", "Log enrichment" |
+| `[LOGGING_STORAGE]` | Specify the logging storage | "S3 for archive", "Loki chunks", "Elasticsearch indices" |
+| `[LOGGING_ANALYSIS]` | Specify the logging analysis | "Grafana Explore", "Kibana", "Log-based alerts" |
+| `[LOGGING_RETENTION]` | Specify the logging retention | "30 days hot", "90 days warm", "1 year cold archive" |
+| `[LOGGING_SECURITY]` | Specify the logging security | "Encrypted transport", "Access control", "Audit log protection" |
+| `[TRACING_BACKEND]` | Specify the tracing backend | "Jaeger", "Tempo", "Zipkin", "AWS X-Ray" |
+| `[TRACING_INSTRUMENTATION]` | Specify the tracing instrumentation | "OpenTelemetry SDK", "Auto-instrumentation", "Manual spans" |
+| `[TRACING_SAMPLING]` | Specify the tracing sampling | "1% default sampling", "Error sampling 100%", "Adaptive sampling" |
+| `[TRACING_ANALYSIS]` | Specify the tracing analysis | "Service dependency graphs", "Latency breakdown", "Error tracing" |
+| `[TRACING_PERFORMANCE]` | Specify the tracing performance | "< 1ms overhead", "Batched exports", "Async processing" |
+| `[TRACING_INTEGRATION]` | Specify the tracing integration | "Grafana correlation", "Log-trace linking", "Metric exemplars" |
+| `[ALERT_RULES]` | Specify the alert rules | "PrometheusRule CRDs", "Severity levels", "Runbook links" |
+| `[ALERT_ROUTING]` | Specify the alert routing | "Alertmanager config", "Team-based routing", "Time-based silences" |
+| `[ALERT_ESCALATION]` | Specify the alert escalation | "PagerDuty integration", "Slack notifications", "Email escalation" |
+| `[DASHBOARD_DESIGN]` | Specify the dashboard design | "Grafana dashboards", "Golden signals layout", "Service overview" |
+| `[SLI_SLO_TRACKING]` | Specify the sli slo tracking | "Sloth SLO generator", "Error budgets", "Burn rate alerts" |
+| `[REPORTING]` | Specify the reporting | "Weekly availability reports", "Monthly SLO reviews", "Incident reports" |
+| `[CHAOS_INJECTION]` | Specify the chaos injection | "Chaos Mesh", "LitmusChaos", "Chaos Monkey" |
+| `[CHAOS_GAMEDAYS]` | Specify the chaos gamedays | "Quarterly game days", "Scenario planning", "Team exercises" |
+| `[CHAOS_AUTOMATED]` | Specify the chaos automated | "CI/CD chaos tests", "Canary chaos", "Scheduled experiments" |
+| `[CHAOS_RECOVERY]` | Specify the chaos recovery | "Auto-recovery validation", "Failover testing", "RTO verification" |
+| `[CHAOS_DOCUMENTATION]` | Specify the chaos documentation | "Experiment runbooks", "Results documentation", "Remediation plans" |
+| `[CHAOS_LEARNING]` | Specify the chaos learning | "Postmortem reviews", "Resilience improvements", "Knowledge sharing" |
 
 ### 3. Service Mesh Implementation
 

@@ -114,294 +114,294 @@ Secondary/Hybrid Options:
 |----------|-------------|----------|
 | `[ORGANIZATION_NAME]` | Name of the organization | "John Smith" |
 | `[APPLICATION_COUNT]` | Specify the application count | "10" |
-| `[DATA_VOLUME]` | Specify the data volume | "[specify value]" |
-| `[CLOUD_PROVIDER]` | Specify the cloud provider | "[specify value]" |
-| `[COST_REDUCTION]` | Specify the cost reduction | "[specify value]" |
-| `[PERFORMANCE_GAIN]` | Specify the performance gain | "[specify value]" |
-| `[AVAILABILITY_TARGET]` | Target or intended availability | "[specify value]" |
-| `[MIGRATION_TIMELINE]` | Timeline or schedule for migration | "6 months" |
-| `[APP_CURRENT]` | Specify the app current | "[specify value]" |
-| `[APP_READINESS]` | Specify the app readiness | "[specify value]" |
-| `[APP_COMPLEXITY]` | Specify the app complexity | "[specify value]" |
-| `[APP_RISK]` | Specify the app risk | "[specify value]" |
-| `[APP_PRIORITY]` | Specify the app priority | "High" |
-| `[INFRA_CURRENT]` | Specify the infra current | "[specify value]" |
-| `[INFRA_READINESS]` | Specify the infra readiness | "[specify value]" |
-| `[INFRA_COMPLEXITY]` | Specify the infra complexity | "[specify value]" |
-| `[INFRA_RISK]` | Specify the infra risk | "[specify value]" |
-| `[INFRA_PRIORITY]` | Specify the infra priority | "High" |
-| `[DATA_CURRENT]` | Specify the data current | "[specify value]" |
-| `[DATA_READINESS]` | Specify the data readiness | "[specify value]" |
-| `[DATA_COMPLEXITY]` | Specify the data complexity | "[specify value]" |
-| `[DATA_RISK]` | Specify the data risk | "[specify value]" |
-| `[DATA_PRIORITY]` | Specify the data priority | "High" |
-| `[SEC_CURRENT]` | Specify the sec current | "[specify value]" |
-| `[SEC_READINESS]` | Specify the sec readiness | "[specify value]" |
-| `[SEC_COMPLEXITY]` | Specify the sec complexity | "[specify value]" |
-| `[SEC_RISK]` | Specify the sec risk | "[specify value]" |
-| `[SEC_PRIORITY]` | Specify the sec priority | "High" |
-| `[SKILLS_CURRENT]` | Specify the skills current | "[specify value]" |
-| `[SKILLS_READINESS]` | Specify the skills readiness | "[specify value]" |
-| `[SKILLS_COMPLEXITY]` | Specify the skills complexity | "[specify value]" |
-| `[SKILLS_RISK]` | Specify the skills risk | "[specify value]" |
-| `[SKILLS_PRIORITY]` | Specify the skills priority | "High" |
-| `[COMP_CURRENT]` | Specify the comp current | "[specify value]" |
-| `[COMP_READINESS]` | Specify the comp readiness | "[specify value]" |
-| `[COMP_COMPLEXITY]` | Specify the comp complexity | "[specify value]" |
-| `[COMP_RISK]` | Specify the comp risk | "[specify value]" |
-| `[COMP_PRIORITY]` | Specify the comp priority | "High" |
-| `[PRIMARY_PROVIDER]` | Specify the primary provider | "[specify value]" |
-| `[PRIMARY_SERVICE]` | Specify the primary service | "[specify value]" |
-| `[PRIMARY_DEPLOY]` | Specify the primary deploy | "[specify value]" |
-| `[PRIMARY_REGIONS]` | Specify the primary regions | "North America" |
-| `[PRIMARY_AZ]` | Specify the primary az | "[specify value]" |
-| `[PRIMARY_DR]` | Specify the primary dr | "[specify value]" |
-| `[SECONDARY_PROVIDER]` | Specify the secondary provider | "[specify value]" |
-| `[HYBRID_ARCH]` | Specify the hybrid arch | "[specify value]" |
-| `[EDGE_COMPUTE]` | Specify the edge compute | "[specify value]" |
-| `[MULTI_MANAGE]` | Specify the multi manage | "[specify value]" |
-| `[WORKLOAD_DIST]` | Specify the workload dist | "[specify value]" |
-| `[INTERCONNECT]` | Specify the interconnect | "[specify value]" |
-| `[COMPUTE_SERVICES]` | Specify the compute services | "[specify value]" |
-| `[STORAGE_SOLUTIONS]` | Specify the storage solutions | "[specify value]" |
-| `[DATABASE_SERVICES]` | Specify the database services | "[specify value]" |
-| `[NETWORK_CONFIG]` | Specify the network config | "[specify value]" |
-| `[SECURITY_SERVICES]` | Specify the security services | "[specify value]" |
-| `[MANAGEMENT_TOOLS]` | Specify the management tools | "[specify value]" |
-| `[CONTAINER_STRATEGY]` | Strategy or approach for container | "[specify value]" |
-| `[MICROSERVICES]` | Specify the microservices | "[specify value]" |
-| `[SERVERLESS]` | Specify the serverless | "[specify value]" |
-| `[API_GATEWAY]` | Specify the api gateway | "[specify value]" |
-| `[SERVICE_MESH]` | Specify the service mesh | "[specify value]" |
-| `[EVENT_DRIVEN]` | Specify the event driven | "[specify value]" |
-| `[REHOST_APPS]` | Specify the rehost apps | "[specify value]" |
-| `[REHOST_TIME]` | Specify the rehost time | "[specify value]" |
-| `[REHOST_COMPLEX]` | Specify the rehost complex | "[specify value]" |
-| `[REHOST_COST]` | Specify the rehost cost | "[specify value]" |
-| `[REHOST_IMPACT]` | Specify the rehost impact | "[specify value]" |
-| `[REPLATFORM_APPS]` | Specify the replatform apps | "[specify value]" |
-| `[REPLATFORM_TIME]` | Specify the replatform time | "[specify value]" |
-| `[REPLATFORM_COMPLEX]` | Specify the replatform complex | "[specify value]" |
-| `[REPLATFORM_COST]` | Specify the replatform cost | "[specify value]" |
-| `[REPLATFORM_IMPACT]` | Specify the replatform impact | "[specify value]" |
-| `[REFACTOR_APPS]` | Specify the refactor apps | "[specify value]" |
-| `[REFACTOR_TIME]` | Specify the refactor time | "[specify value]" |
-| `[REFACTOR_COMPLEX]` | Specify the refactor complex | "[specify value]" |
-| `[REFACTOR_COST]` | Specify the refactor cost | "[specify value]" |
-| `[REFACTOR_IMPACT]` | Specify the refactor impact | "[specify value]" |
-| `[REBUILD_APPS]` | Specify the rebuild apps | "[specify value]" |
-| `[REBUILD_TIME]` | Specify the rebuild time | "[specify value]" |
-| `[REBUILD_COMPLEX]` | Specify the rebuild complex | "[specify value]" |
-| `[REBUILD_COST]` | Specify the rebuild cost | "[specify value]" |
-| `[REBUILD_IMPACT]` | Specify the rebuild impact | "[specify value]" |
-| `[REPLACE_APPS]` | Specify the replace apps | "[specify value]" |
-| `[REPLACE_TIME]` | Specify the replace time | "[specify value]" |
-| `[REPLACE_COMPLEX]` | Specify the replace complex | "[specify value]" |
-| `[REPLACE_COST]` | Specify the replace cost | "[specify value]" |
-| `[REPLACE_IMPACT]` | Specify the replace impact | "[specify value]" |
-| `[RETIRE_APPS]` | Specify the retire apps | "[specify value]" |
-| `[RETIRE_TIME]` | Specify the retire time | "[specify value]" |
-| `[RETIRE_COMPLEX]` | Specify the retire complex | "[specify value]" |
-| `[RETIRE_COST]` | Specify the retire cost | "[specify value]" |
-| `[RETIRE_IMPACT]` | Specify the retire impact | "[specify value]" |
-| `[STRUCTURED_DATA]` | Specify the structured data | "[specify value]" |
-| `[UNSTRUCTURED_DATA]` | Specify the unstructured data | "[specify value]" |
-| `[SEMI_STRUCTURED]` | Specify the semi structured | "[specify value]" |
-| `[STREAMING_DATA]` | Specify the streaming data | "[specify value]" |
-| `[ARCHIVE_DATA]` | Specify the archive data | "[specify value]" |
-| `[SENSITIVE_DATA]` | Specify the sensitive data | "[specify value]" |
-| `[ONLINE_METHOD]` | Specify the online method | "[specify value]" |
-| `[OFFLINE_METHOD]` | Specify the offline method | "[specify value]" |
-| `[HYBRID_METHOD]` | Specify the hybrid method | "[specify value]" |
-| `[CDC_METHOD]` | Specify the cdc method | "[specify value]" |
-| `[BULK_METHOD]` | Specify the bulk method | "[specify value]" |
-| `[STREAMING_METHOD]` | Specify the streaming method | "[specify value]" |
-| `[INTEGRITY_CHECKS]` | Specify the integrity checks | "[specify value]" |
-| `[COMPLETE_VERIFY]` | Specify the complete verify | "[specify value]" |
-| `[PERF_TESTING]` | Specify the perf testing | "[specify value]" |
-| `[ROLLBACK_STRATEGY]` | Strategy or approach for rollback | "[specify value]" |
-| `[CUTOVER_PLAN]` | Specify the cutover plan | "[specify value]" |
-| `[SYNC_VERIFY]` | Specify the sync verify | "[specify value]" |
-| `[STORAGE_TIERS]` | Specify the storage tiers | "[specify value]" |
-| `[COMPRESSION]` | Specify the compression | "[specify value]" |
-| `[DEDUPLICATION]` | Specify the deduplication | "[specify value]" |
-| `[LIFECYCLE]` | Specify the lifecycle | "[specify value]" |
-| `[BACKUP_STRATEGY]` | Strategy or approach for backup | "[specify value]" |
-| `[ARCHIVE_APPROACH]` | Specify the archive approach | "[specify value]" |
-| `[ID_ONPREM]` | Specify the id onprem | "[specify value]" |
-| `[ID_CLOUD]` | Specify the id cloud | "[specify value]" |
-| `[ID_COMPLIANCE]` | Specify the id compliance | "[specify value]" |
-| `[ID_MITIGATE]` | Specify the id mitigate | "[specify value]" |
-| `[ID_MONITOR]` | Specify the id monitor | "[specify value]" |
-| `[NET_ONPREM]` | Specify the net onprem | "[specify value]" |
-| `[NET_CLOUD]` | Specify the net cloud | "[specify value]" |
-| `[NET_COMPLIANCE]` | Specify the net compliance | "[specify value]" |
-| `[NET_MITIGATE]` | Specify the net mitigate | "[specify value]" |
-| `[NET_MONITOR]` | Specify the net monitor | "[specify value]" |
-| `[DATA_ONPREM]` | Specify the data onprem | "[specify value]" |
-| `[DATA_CLOUD]` | Specify the data cloud | "[specify value]" |
-| `[DATA_COMPLIANCE]` | Specify the data compliance | "[specify value]" |
-| `[DATA_MITIGATE]` | Specify the data mitigate | "[specify value]" |
-| `[DATA_MONITOR]` | Specify the data monitor | "[specify value]" |
-| `[APP_ONPREM]` | Specify the app onprem | "[specify value]" |
-| `[APP_CLOUD]` | Specify the app cloud | "[specify value]" |
-| `[APP_COMPLIANCE]` | Specify the app compliance | "[specify value]" |
-| `[APP_MITIGATE]` | Specify the app mitigate | "[specify value]" |
-| `[APP_MONITOR]` | Specify the app monitor | "[specify value]" |
-| `[THREAT_ONPREM]` | Specify the threat onprem | "[specify value]" |
-| `[THREAT_CLOUD]` | Specify the threat cloud | "[specify value]" |
-| `[THREAT_COMPLIANCE]` | Specify the threat compliance | "[specify value]" |
-| `[THREAT_MITIGATE]` | Specify the threat mitigate | "[specify value]" |
-| `[THREAT_MONITOR]` | Specify the threat monitor | "[specify value]" |
-| `[GOV_ONPREM]` | Specify the gov onprem | "[specify value]" |
-| `[GOV_CLOUD]` | Specify the gov cloud | "[specify value]" |
-| `[GOV_COMPLIANCE]` | Specify the gov compliance | "[specify value]" |
-| `[GOV_MITIGATE]` | Specify the gov mitigate | "[specify value]" |
-| `[GOV_MONITOR]` | Specify the gov monitor | "[specify value]" |
-| `[COMPUTE_CURRENT]` | Specify the compute current | "[specify value]" |
-| `[COMPUTE_PROJECTED]` | Specify the compute projected | "[specify value]" |
-| `[COMPUTE_OPTIMIZE]` | Specify the compute optimize | "[specify value]" |
-| `[COMPUTE_SAVINGS]` | Specify the compute savings | "[specify value]" |
-| `[COMPUTE_TRACK]` | Specify the compute track | "[specify value]" |
-| `[STORAGE_CURRENT]` | Specify the storage current | "[specify value]" |
-| `[STORAGE_PROJECTED]` | Specify the storage projected | "[specify value]" |
-| `[STORAGE_OPTIMIZE]` | Specify the storage optimize | "[specify value]" |
-| `[STORAGE_SAVINGS]` | Specify the storage savings | "[specify value]" |
-| `[STORAGE_TRACK]` | Specify the storage track | "[specify value]" |
-| `[NETWORK_CURRENT]` | Specify the network current | "[specify value]" |
-| `[NETWORK_PROJECTED]` | Specify the network projected | "[specify value]" |
-| `[NETWORK_OPTIMIZE]` | Specify the network optimize | "[specify value]" |
-| `[NETWORK_SAVINGS]` | Specify the network savings | "[specify value]" |
-| `[NETWORK_TRACK]` | Specify the network track | "[specify value]" |
-| `[DB_CURRENT]` | Specify the db current | "[specify value]" |
-| `[DB_PROJECTED]` | Specify the db projected | "[specify value]" |
-| `[DB_OPTIMIZE]` | Specify the db optimize | "[specify value]" |
-| `[DB_SAVINGS]` | Specify the db savings | "[specify value]" |
-| `[DB_TRACK]` | Specify the db track | "[specify value]" |
-| `[LICENSE_CURRENT]` | Specify the license current | "[specify value]" |
-| `[LICENSE_PROJECTED]` | Specify the license projected | "[specify value]" |
-| `[LICENSE_OPTIMIZE]` | Specify the license optimize | "[specify value]" |
-| `[LICENSE_SAVINGS]` | Specify the license savings | "[specify value]" |
-| `[LICENSE_TRACK]` | Specify the license track | "[specify value]" |
-| `[SUPPORT_CURRENT]` | Specify the support current | "[specify value]" |
-| `[SUPPORT_PROJECTED]` | Specify the support projected | "[specify value]" |
-| `[SUPPORT_OPTIMIZE]` | Specify the support optimize | "[specify value]" |
-| `[SUPPORT_SAVINGS]` | Specify the support savings | "[specify value]" |
-| `[SUPPORT_TRACK]` | Specify the support track | "[specify value]" |
-| `[LANDING_ZONE]` | Specify the landing zone | "[specify value]" |
-| `[NETWORK_SETUP]` | Specify the network setup | "[specify value]" |
-| `[SECURITY_BASE]` | Specify the security base | "[specify value]" |
-| `[IAM_CONFIG]` | Specify the iam config | "[specify value]" |
-| `[MONITOR_SETUP]` | Specify the monitor setup | "[specify value]" |
-| `[COST_SETUP]` | Specify the cost setup | "[specify value]" |
-| `[PILOT_APPS]` | Specify the pilot apps | "[specify value]" |
-| `[TEST_PROTOCOL]` | Specify the test protocol | "[specify value]" |
-| `[PERF_VALID]` | Specify the perf valid | "[specify value]" |
-| `[SEC_TESTING]` | Specify the sec testing | "[specify value]" |
-| `[USER_ACCEPT]` | Specify the user accept | "[specify value]" |
-| `[LESSONS]` | Specify the lessons | "[specify value]" |
-| `[WAVE1_APPS]` | Specify the wave1 apps | "[specify value]" |
-| `[WAVE1_DATA]` | Specify the wave1 data | "[specify value]" |
-| `[WAVE1_CUTOVER]` | Specify the wave1 cutover | "[specify value]" |
-| `[WAVE1_ROLLBACK]` | Specify the wave1 rollback | "[specify value]" |
-| `[WAVE1_VALIDATE]` | Specify the wave1 validate | "2025-01-15" |
-| `[WAVE1_TUNE]` | Specify the wave1 tune | "[specify value]" |
-| `[WAVE2_APPS]` | Specify the wave2 apps | "[specify value]" |
-| `[WAVE2_INTEGRATE]` | Specify the wave2 integrate | "[specify value]" |
-| `[WAVE2_SYNC]` | Specify the wave2 sync | "[specify value]" |
-| `[WAVE2_DR]` | Specify the wave2 dr | "[specify value]" |
-| `[WAVE2_HA]` | Specify the wave2 ha | "[specify value]" |
-| `[WAVE2_OPTIMIZE]` | Specify the wave2 optimize | "[specify value]" |
-| `[FINAL_APPS]` | Specify the final apps | "[specify value]" |
-| `[DECOMMISSION]` | Specify the decommission | "[specify value]" |
-| `[DOCUMENTATION]` | Specify the documentation | "[specify value]" |
-| `[KNOWLEDGE_TRANS]` | Specify the knowledge trans | "[specify value]" |
-| `[OPTIMIZE_REVIEW]` | Specify the optimize review | "[specify value]" |
-| `[CLOSURE]` | Specify the closure | "[specify value]" |
-| `[CICD_CURRENT]` | Specify the cicd current | "[specify value]" |
-| `[CICD_TARGET]` | Target or intended cicd | "[specify value]" |
-| `[CICD_AUTO]` | Specify the cicd auto | "[specify value]" |
-| `[CICD_TOOLS]` | Specify the cicd tools | "[specify value]" |
-| `[CICD_MATURITY]` | Specify the cicd maturity | "[specify value]" |
-| `[IAC_CURRENT]` | Specify the iac current | "[specify value]" |
-| `[IAC_TARGET]` | Target or intended iac | "[specify value]" |
-| `[IAC_AUTO]` | Specify the iac auto | "[specify value]" |
-| `[IAC_TOOLS]` | Specify the iac tools | "[specify value]" |
-| `[IAC_MATURITY]` | Specify the iac maturity | "[specify value]" |
-| `[CONFIG_CURRENT]` | Specify the config current | "[specify value]" |
-| `[CONFIG_TARGET]` | Target or intended config | "[specify value]" |
-| `[CONFIG_AUTO]` | Specify the config auto | "[specify value]" |
-| `[CONFIG_TOOLS]` | Specify the config tools | "[specify value]" |
-| `[CONFIG_MATURITY]` | Specify the config maturity | "[specify value]" |
-| `[MON_CURRENT]` | Specify the mon current | "[specify value]" |
-| `[MON_TARGET]` | Target or intended mon | "[specify value]" |
-| `[MON_AUTO]` | Specify the mon auto | "[specify value]" |
-| `[MON_TOOLS]` | Specify the mon tools | "[specify value]" |
-| `[MON_MATURITY]` | Specify the mon maturity | "[specify value]" |
-| `[SECAUTO_CURRENT]` | Specify the secauto current | "[specify value]" |
-| `[SECAUTO_TARGET]` | Target or intended secauto | "[specify value]" |
-| `[SECAUTO_AUTO]` | Specify the secauto auto | "[specify value]" |
-| `[SECAUTO_TOOLS]` | Specify the secauto tools | "[specify value]" |
-| `[SECAUTO_MATURITY]` | Specify the secauto maturity | "[specify value]" |
-| `[INCIDENT_CURRENT]` | Specify the incident current | "[specify value]" |
-| `[INCIDENT_TARGET]` | Target or intended incident | "[specify value]" |
-| `[INCIDENT_AUTO]` | Specify the incident auto | "[specify value]" |
-| `[INCIDENT_TOOLS]` | Specify the incident tools | "[specify value]" |
-| `[INCIDENT_MATURITY]` | Specify the incident maturity | "[specify value]" |
-| `[TECH_CURRENT_CAP]` | Specify the tech current cap | "[specify value]" |
-| `[TECH_REQUIRED]` | Specify the tech required | "[specify value]" |
-| `[TECH_GAP]` | Specify the tech gap | "[specify value]" |
-| `[TECH_TRAIN]` | Specify the tech train | "[specify value]" |
-| `[TECH_METRICS]` | Specify the tech metrics | "[specify value]" |
-| `[OPS_CURRENT_CAP]` | Specify the ops current cap | "[specify value]" |
-| `[OPS_REQUIRED]` | Specify the ops required | "[specify value]" |
-| `[OPS_GAP]` | Specify the ops gap | "[specify value]" |
-| `[OPS_TRAIN]` | Specify the ops train | "[specify value]" |
-| `[OPS_METRICS]` | Specify the ops metrics | "[specify value]" |
-| `[SEC_CURRENT_CAP]` | Specify the sec current cap | "[specify value]" |
-| `[SEC_REQUIRED]` | Specify the sec required | "[specify value]" |
-| `[SEC_GAP]` | Specify the sec gap | "[specify value]" |
-| `[SEC_TRAIN]` | Specify the sec train | "[specify value]" |
-| `[SEC_METRICS]` | Specify the sec metrics | "[specify value]" |
-| `[FIN_CURRENT_CAP]` | Specify the fin current cap | "[specify value]" |
-| `[FIN_REQUIRED]` | Specify the fin required | "[specify value]" |
-| `[FIN_GAP]` | Specify the fin gap | "[specify value]" |
-| `[FIN_TRAIN]` | Specify the fin train | "[specify value]" |
-| `[FIN_METRICS]` | Specify the fin metrics | "[specify value]" |
-| `[AGILE_CURRENT_CAP]` | Specify the agile current cap | "[specify value]" |
-| `[AGILE_REQUIRED]` | Specify the agile required | "[specify value]" |
-| `[AGILE_GAP]` | Specify the agile gap | "[specify value]" |
-| `[AGILE_TRAIN]` | Specify the agile train | "[specify value]" |
-| `[AGILE_METRICS]` | Specify the agile metrics | "[specify value]" |
-| `[CULTURE_CURRENT]` | Specify the culture current | "[specify value]" |
-| `[CULTURE_REQUIRED]` | Specify the culture required | "[specify value]" |
-| `[CULTURE_GAP]` | Specify the culture gap | "[specify value]" |
-| `[CULTURE_TRAIN]` | Specify the culture train | "[specify value]" |
-| `[CULTURE_METRICS]` | Specify the culture metrics | "[specify value]" |
-| `[RESPONSE_TIME]` | Specify the response time | "[specify value]" |
-| `[THROUGHPUT]` | Specify the throughput | "[specify value]" |
-| `[AVAILABILITY]` | Specify the availability | "[specify value]" |
-| `[ERROR_RATE]` | Specify the error rate | "[specify value]" |
-| `[RESOURCE_UTIL]` | Specify the resource util | "[specify value]" |
-| `[COST_EFFICIENCY]` | Specify the cost efficiency | "[specify value]" |
-| `[APP_MONITORING]` | Specify the app monitoring | "[specify value]" |
-| `[INFRA_MONITORING]` | Specify the infra monitoring | "[specify value]" |
-| `[USER_MONITORING]` | Specify the user monitoring | "[specify value]" |
-| `[BUSINESS_MONITORING]` | Specify the business monitoring | "[specify value]" |
-| `[SECURITY_MONITORING]` | Specify the security monitoring | "[specify value]" |
-| `[COST_MONITORING]` | Specify the cost monitoring | "[specify value]" |
-| `[DAILY_OPTIMIZE]` | Specify the daily optimize | "[specify value]" |
-| `[WEEKLY_OPTIMIZE]` | Specify the weekly optimize | "[specify value]" |
-| `[MONTHLY_OPTIMIZE]` | Specify the monthly optimize | "[specify value]" |
-| `[QUARTERLY_OPTIMIZE]` | Specify the quarterly optimize | "[specify value]" |
-| `[ANNUAL_OPTIMIZE]` | Specify the annual optimize | "[specify value]" |
-| `[CONTINUOUS_IMPROVE]` | Specify the continuous improve | "[specify value]" |
-| `[MIGRATE_VELOCITY]` | Specify the migrate velocity | "[specify value]" |
-| `[DEBT_REDUCTION]` | Specify the debt reduction | "[specify value]" |
-| `[OP_EXCELLENCE]` | Specify the op excellence | "[specify value]" |
-| `[INNOVATION_VEL]` | Specify the innovation vel | "[specify value]" |
-| `[BUS_AGILITY]` | Specify the bus agility | "[specify value]" |
-| `[ROI_ACHIEVE]` | Specify the roi achieve | "[specify value]" |
+| `[DATA_VOLUME]` | Specify the data volume | "50TB structured", "500TB total", "2PB enterprise scale" |
+| `[CLOUD_PROVIDER]` | Specify the cloud provider | "AWS", "Azure", "GCP", "Multi-cloud AWS+Azure", "Hybrid on-premise+AWS" |
+| `[COST_REDUCTION]` | Specify the cost reduction | "30% infrastructure savings", "40% TCO reduction", "50% operational cost decrease" |
+| `[PERFORMANCE_GAIN]` | Specify the performance gain | "50% latency improvement", "3x throughput increase", "99.9% availability" |
+| `[AVAILABILITY_TARGET]` | Target or intended availability | "99.9% standard", "99.99% critical", "99.999% mission-critical" |
+| `[MIGRATION_TIMELINE]` | Timeline or schedule for migration | "6 months", "12-month program", "18-month enterprise migration" |
+| `[APP_CURRENT]` | Specify the app current | "150 legacy monoliths", "Mixed .NET/Java estate", "On-premise VMs with dependencies" |
+| `[APP_READINESS]` | Specify the app readiness | "40% cloud-ready", "60% require replatform", "20% need refactoring" |
+| `[APP_COMPLEXITY]` | Specify the app complexity | "Low (stateless apps)", "Medium (database dependencies)", "High (complex integrations)" |
+| `[APP_RISK]` | Specify the app risk | "Low (dev/test)", "Medium (internal apps)", "High (customer-facing)", "Critical (revenue)" |
+| `[APP_PRIORITY]` | Specify the app priority | "High", "Medium", "Low", "P1 - Critical", "P2 - Important" |
+| `[INFRA_CURRENT]` | Specify the infra current | "VMware vSphere clusters", "Bare metal servers", "Legacy SAN storage" |
+| `[INFRA_READINESS]` | Specify the infra readiness | "70% virtualized", "30% containerized", "IaC adoption 20%" |
+| `[INFRA_COMPLEXITY]` | Specify the infra complexity | "Simple lift-shift", "Moderate restructuring", "Complex redesign needed" |
+| `[INFRA_RISK]` | Specify the infra risk | "Low (commodity servers)", "Medium (custom hardware)", "High (legacy mainframe)" |
+| `[INFRA_PRIORITY]` | Specify the infra priority | "High", "Medium", "Low", "Foundation priority" |
+| `[DATA_CURRENT]` | Specify the data current | "Oracle databases", "SQL Server clusters", "File shares", "NoSQL stores" |
+| `[DATA_READINESS]` | Specify the data readiness | "50% migrateable as-is", "30% need schema changes", "20% require ETL" |
+| `[DATA_COMPLEXITY]` | Specify the data complexity | "Low (standalone DBs)", "Medium (replication)", "High (cross-system dependencies)" |
+| `[DATA_RISK]` | Specify the data risk | "Low (dev data)", "Medium (business data)", "High (PII/regulated)", "Critical (financial)" |
+| `[DATA_PRIORITY]` | Specify the data priority | "High", "Medium", "Low", "Data-first approach" |
+| `[SEC_CURRENT]` | Specify the sec current | "Perimeter firewall", "Basic IAM", "Manual compliance", "Legacy SIEM" |
+| `[SEC_READINESS]` | Specify the sec readiness | "60% policy documented", "40% automation ready", "Zero Trust partial" |
+| `[SEC_COMPLEXITY]` | Specify the sec complexity | "Low (standard controls)", "Medium (compliance heavy)", "High (regulated industry)" |
+| `[SEC_RISK]` | Specify the sec risk | "Low (internal only)", "Medium (customer data)", "High (PCI/HIPAA)", "Critical (financial)" |
+| `[SEC_PRIORITY]` | Specify the sec priority | "High", "Medium", "Compliance-first", "Security baseline required" |
+| `[SKILLS_CURRENT]` | Specify the skills current | "Traditional IT ops", "Basic cloud familiarity", "Limited DevOps experience" |
+| `[SKILLS_READINESS]` | Specify the skills readiness | "30% cloud certified", "50% DevOps aware", "20% IaC proficient" |
+| `[SKILLS_COMPLEXITY]` | Specify the skills complexity | "Low (quick upskill)", "Medium (3-6 month training)", "High (new hires needed)" |
+| `[SKILLS_RISK]` | Specify the skills risk | "Low (motivated team)", "Medium (change resistance)", "High (knowledge gaps)" |
+| `[SKILLS_PRIORITY]` | Specify the skills priority | "High", "Medium", "Training-first approach" |
+| `[COMP_CURRENT]` | Specify the comp current | "SOC 2 Type II", "HIPAA compliant", "PCI-DSS Level 1", "ISO 27001" |
+| `[COMP_READINESS]` | Specify the comp readiness | "80% controls mapped", "Audit trail exists", "Gap analysis complete" |
+| `[COMP_COMPLEXITY]` | Specify the comp complexity | "Low (single framework)", "Medium (multiple standards)", "High (regulated industry)" |
+| `[COMP_RISK]` | Specify the comp risk | "Low (internal only)", "Medium (customer audits)", "High (regulatory fines)" |
+| `[COMP_PRIORITY]` | Specify the comp priority | "High", "Medium", "Compliance gates required" |
+| `[PRIMARY_PROVIDER]` | Specify the primary provider | "AWS (70% workloads)", "Azure (Microsoft stack)", "GCP (data/ML focus)" |
+| `[PRIMARY_SERVICE]` | Specify the primary service | "IaaS (EC2/VMs)", "PaaS (containers/serverless)", "SaaS-first strategy" |
+| `[PRIMARY_DEPLOY]` | Specify the primary deploy | "Public cloud", "Virtual Private Cloud", "Dedicated tenancy" |
+| `[PRIMARY_REGIONS]` | Specify the primary regions | "US-East + US-West", "Multi-region active-active", "EU + US (data residency)" |
+| `[PRIMARY_AZ]` | Specify the primary az | "Multi-AZ deployment", "3 AZ minimum", "Cross-region replication" |
+| `[PRIMARY_DR]` | Specify the primary dr | "Pilot light DR", "Warm standby cross-region", "Active-active multi-region" |
+| `[SECONDARY_PROVIDER]` | Specify the secondary provider | "Azure for DR", "GCP for AI/ML", "On-premise for sensitive data" |
+| `[HYBRID_ARCH]` | Specify the hybrid arch | "AWS Outposts", "Azure Stack", "Anthos on-premise", "VPN connectivity" |
+| `[EDGE_COMPUTE]` | Specify the edge compute | "AWS Wavelength", "Azure Edge Zones", "CloudFront edge functions" |
+| `[MULTI_MANAGE]` | Specify the multi manage | "Terraform multi-cloud", "Kubernetes federation", "Cloud management platform" |
+| `[WORKLOAD_DIST]` | Specify the workload dist | "Primary: 80% AWS", "DR: 20% Azure", "AI/ML: GCP", "Edge: 10%" |
+| `[INTERCONNECT]` | Specify the interconnect | "Direct Connect + ExpressRoute", "Site-to-site VPN", "Transit Gateway" |
+| `[COMPUTE_SERVICES]` | Specify the compute services | "EC2/ECS/EKS", "Lambda serverless", "Fargate containers", "Spot instances" |
+| `[STORAGE_SOLUTIONS]` | Specify the storage solutions | "S3/EBS/EFS", "Glacier archive", "Storage Gateway", "FSx for Windows" |
+| `[DATABASE_SERVICES]` | Specify the database services | "RDS/Aurora", "DynamoDB", "ElastiCache", "DocumentDB", "Redshift" |
+| `[NETWORK_CONFIG]` | Specify the network config | "VPC with subnets", "Transit Gateway", "PrivateLink", "Route 53 DNS" |
+| `[SECURITY_SERVICES]` | Specify the security services | "IAM/SSO", "KMS encryption", "WAF/Shield", "GuardDuty", "Security Hub" |
+| `[MANAGEMENT_TOOLS]` | Specify the management tools | "CloudFormation/Terraform", "Systems Manager", "CloudWatch", "Config" |
+| `[CONTAINER_STRATEGY]` | Strategy or approach for container | "EKS for orchestration", "ECR for registry", "Fargate serverless containers" |
+| `[MICROSERVICES]` | Specify the microservices | "Domain-driven decomposition", "API-first design", "Event-driven architecture" |
+| `[SERVERLESS]` | Specify the serverless | "Lambda for events", "Step Functions workflows", "API Gateway + Lambda" |
+| `[API_GATEWAY]` | Specify the api gateway | "Amazon API Gateway", "Kong", "Apigee", "Custom with AWS ALB" |
+| `[SERVICE_MESH]` | Specify the service mesh | "AWS App Mesh", "Istio on EKS", "Linkerd", "Consul Connect" |
+| `[EVENT_DRIVEN]` | Specify the event driven | "EventBridge", "SNS/SQS", "Kinesis streaming", "Kafka (MSK)" |
+| `[REHOST_APPS]` | Specify the rehost apps | "60% of portfolio", "Legacy VMs", "Non-critical workloads" |
+| `[REHOST_TIME]` | Specify the rehost time | "2-4 weeks per app", "Wave-based migration", "Quick wins first" |
+| `[REHOST_COMPLEX]` | Specify the rehost complex | "Low complexity", "Minimal changes", "Direct VM migration" |
+| `[REHOST_COST]` | Specify the rehost cost | "$5K-15K per app", "Migration tools licensing", "AWS MGN costs" |
+| `[REHOST_IMPACT]` | Specify the rehost impact | "Minimal business disruption", "Weekend cutover", "Same functionality" |
+| `[REPLATFORM_APPS]` | Specify the replatform apps | "25% of portfolio", "Database-heavy apps", "Container candidates" |
+| `[REPLATFORM_TIME]` | Specify the replatform time | "4-8 weeks per app", "Containerization effort", "DB migration" |
+| `[REPLATFORM_COMPLEX]` | Specify the replatform complex | "Medium complexity", "OS/DB changes", "Managed service adoption" |
+| `[REPLATFORM_COST]` | Specify the replatform cost | "$20K-50K per app", "Development effort", "Testing cycles" |
+| `[REPLATFORM_IMPACT]` | Specify the replatform impact | "30% cost savings", "Improved scalability", "Managed services benefits" |
+| `[REFACTOR_APPS]` | Specify the refactor apps | "10% of portfolio", "Core business apps", "High-value modernization" |
+| `[REFACTOR_TIME]` | Specify the refactor time | "3-6 months per app", "Microservices decomposition", "Iterative delivery" |
+| `[REFACTOR_COMPLEX]` | Specify the refactor complex | "High complexity", "Architecture redesign", "API-first approach" |
+| `[REFACTOR_COST]` | Specify the refactor cost | "$100K-500K per app", "Development team", "Extended testing" |
+| `[REFACTOR_IMPACT]` | Specify the refactor impact | "50%+ cost savings", "10x scalability", "Cloud-native benefits" |
+| `[REBUILD_APPS]` | Specify the rebuild apps | "5% of portfolio", "Legacy replacements", "New capabilities needed" |
+| `[REBUILD_TIME]` | Specify the rebuild time | "6-12 months", "Full development cycle", "Parallel operation" |
+| `[REBUILD_COMPLEX]` | Specify the rebuild complex | "Very high complexity", "New architecture", "Full testing" |
+| `[REBUILD_COST]` | Specify the rebuild cost | "$500K-2M per app", "Full dev team", "Extended timeline" |
+| `[REBUILD_IMPACT]` | Specify the rebuild impact | "Maximum cloud benefits", "Modern architecture", "Future-ready" |
+| `[REPLACE_APPS]` | Specify the replace apps | "Legacy CRM/ERP", "Commodity functions", "SaaS alternatives available" |
+| `[REPLACE_TIME]` | Specify the replace time | "3-6 months", "Vendor selection", "Data migration", "Training" |
+| `[REPLACE_COMPLEX]` | Specify the replace complex | "Medium complexity", "Process changes", "User adoption" |
+| `[REPLACE_COST]` | Specify the replace cost | "SaaS subscription", "Implementation fees", "Training costs" |
+| `[REPLACE_IMPACT]` | Specify the replace impact | "Reduced maintenance", "Automatic updates", "Best-in-class features" |
+| `[RETIRE_APPS]` | Specify the retire apps | "Redundant systems", "Low-usage apps", "End-of-life software" |
+| `[RETIRE_TIME]` | Specify the retire time | "1-3 months", "Data archival", "Decommissioning" |
+| `[RETIRE_COMPLEX]` | Specify the retire complex | "Low complexity", "Dependency mapping", "Archive requirements" |
+| `[RETIRE_COST]` | Specify the retire cost | "Minimal ($1K-5K)", "Data archival costs", "Savings from retirement" |
+| `[RETIRE_IMPACT]` | Specify the retire impact | "Cost elimination", "Reduced complexity", "Security improvement" |
+| `[STRUCTURED_DATA]` | Specify the structured data | "Relational databases", "SQL Server/Oracle", "Transaction data" |
+| `[UNSTRUCTURED_DATA]` | Specify the unstructured data | "Documents", "Images", "Videos", "File shares" |
+| `[SEMI_STRUCTURED]` | Specify the semi structured | "JSON/XML files", "Log files", "Email archives" |
+| `[STREAMING_DATA]` | Specify the streaming data | "IoT telemetry", "Application logs", "Event streams" |
+| `[ARCHIVE_DATA]` | Specify the archive data | "Historical records", "Compliance archives", "Backup data" |
+| `[SENSITIVE_DATA]` | Specify the sensitive data | "PII/PHI data", "Financial records", "Encrypted at rest" |
+| `[ONLINE_METHOD]` | Specify the online method | "DMS continuous replication", "Real-time sync", "Zero downtime" |
+| `[OFFLINE_METHOD]` | Specify the offline method | "Snowball Edge", "Direct transfer", "Scheduled bulk copy" |
+| `[HYBRID_METHOD]` | Specify the hybrid method | "Initial bulk + CDC sync", "DataSync + DMS", "Staged approach" |
+| `[CDC_METHOD]` | Specify the cdc method | "AWS DMS CDC", "Debezium", "Oracle GoldenGate", "Real-time replication" |
+| `[BULK_METHOD]` | Specify the bulk method | "S3 Transfer Acceleration", "Snowball", "Direct Connect bulk transfer" |
+| `[STREAMING_METHOD]` | Specify the streaming method | "Kinesis Data Streams", "Kafka Connect", "EventBridge pipes" |
+| `[INTEGRITY_CHECKS]` | Specify the integrity checks | "Row count validation", "Checksum verification", "Sample data comparison" |
+| `[COMPLETE_VERIFY]` | Specify the complete verify | "Full data reconciliation", "Schema comparison", "Missing record detection" |
+| `[PERF_TESTING]` | Specify the perf testing | "Query performance baseline", "Load testing", "Latency validation" |
+| `[ROLLBACK_STRATEGY]` | Strategy or approach for rollback | "Keep source active 30 days", "Point-in-time recovery", "DNS failback" |
+| `[CUTOVER_PLAN]` | Specify the cutover plan | "Weekend cutover window", "Blue-green switch", "Gradual traffic shift" |
+| `[SYNC_VERIFY]` | Specify the sync verify | "Replication lag < 1 minute", "Transaction consistency", "Data freshness" |
+| `[STORAGE_TIERS]` | Specify the storage tiers | "S3 Standard (hot)", "S3 IA (warm)", "Glacier (cold)", "Deep Archive" |
+| `[COMPRESSION]` | Specify the compression | "Gzip for logs", "Parquet for analytics", "Native DB compression" |
+| `[DEDUPLICATION]` | Specify the deduplication | "S3 intelligent tiering", "Backup dedup", "Cross-region replication" |
+| `[LIFECYCLE]` | Specify the lifecycle | "30-day to IA", "90-day to Glacier", "7-year retention for compliance" |
+| `[BACKUP_STRATEGY]` | Strategy or approach for backup | "AWS Backup centralized", "Daily snapshots", "Cross-region copy" |
+| `[ARCHIVE_APPROACH]` | Specify the archive approach | "Glacier Deep Archive", "S3 Glacier Instant", "Compliance vault" |
+| `[ID_ONPREM]` | Specify the id onprem | "Active Directory", "LDAP", "Local accounts", "Legacy SSO" |
+| `[ID_CLOUD]` | Specify the id cloud | "AWS IAM + SSO", "Azure AD integration", "Okta SAML", "Cognito" |
+| `[ID_COMPLIANCE]` | Specify the id compliance | "SOC 2 access controls", "PCI-DSS 8.x", "HIPAA access management" |
+| `[ID_MITIGATE]` | Specify the id mitigate | "MFA enforcement", "Least privilege", "Just-in-time access", "PAM" |
+| `[ID_MONITOR]` | Specify the id monitor | "CloudTrail", "IAM Access Analyzer", "Anomaly detection", "Access reviews" |
+| `[NET_ONPREM]` | Specify the net onprem | "Perimeter firewall", "DMZ", "Network segmentation", "IDS/IPS" |
+| `[NET_CLOUD]` | Specify the net cloud | "VPC security groups", "NACLs", "WAF", "Shield", "PrivateLink" |
+| `[NET_COMPLIANCE]` | Specify the net compliance | "PCI network isolation", "SOC 2 encryption", "HIPAA segmentation" |
+| `[NET_MITIGATE]` | Specify the net mitigate | "Micro-segmentation", "Zero Trust networking", "Encrypted transit" |
+| `[NET_MONITOR]` | Specify the net monitor | "VPC Flow Logs", "Traffic Mirroring", "Network Firewall", "GuardDuty" |
+| `[DATA_ONPREM]` | Specify the data onprem | "Disk encryption", "Database TDE", "Backup encryption", "DLP" |
+| `[DATA_CLOUD]` | Specify the data cloud | "KMS encryption", "S3 server-side encryption", "RDS encryption", "Macie" |
+| `[DATA_COMPLIANCE]` | Specify the data compliance | "GDPR data residency", "PCI-DSS encryption", "HIPAA PHI protection" |
+| `[DATA_MITIGATE]` | Specify the data mitigate | "Encryption at rest/transit", "Key rotation", "Data classification", "Tokenization" |
+| `[DATA_MONITOR]` | Specify the data monitor | "Macie for PII", "CloudWatch alerts", "S3 access logging", "Audit trails" |
+| `[APP_ONPREM]` | Specify the app onprem | "WAF", "Code scanning", "Penetration testing", "Secure SDLC" |
+| `[APP_CLOUD]` | Specify the app cloud | "AWS WAF", "Shield Advanced", "Inspector", "CodeGuru Security" |
+| `[APP_COMPLIANCE]` | Specify the app compliance | "OWASP Top 10", "PCI-DSS 6.x", "SOC 2 secure development" |
+| `[APP_MITIGATE]` | Specify the app mitigate | "SAST/DAST scanning", "Dependency scanning", "Container security" |
+| `[APP_MONITOR]` | Specify the app monitor | "Inspector continuous", "SecurityHub findings", "WAF metrics", "APM" |
+| `[THREAT_ONPREM]` | Specify the threat onprem | "SIEM", "EDR", "Network IDS", "Vulnerability scanning" |
+| `[THREAT_CLOUD]` | Specify the threat cloud | "GuardDuty", "Security Hub", "Detective", "CloudWatch anomaly" |
+| `[THREAT_COMPLIANCE]` | Specify the threat compliance | "SOC 2 monitoring", "PCI-DSS logging", "HIPAA audit requirements" |
+| `[THREAT_MITIGATE]` | Specify the threat mitigate | "Automated remediation", "Incident runbooks", "Isolation procedures" |
+| `[THREAT_MONITOR]` | Specify the threat monitor | "Real-time alerts", "SIEM integration", "Threat intelligence feeds" |
+| `[GOV_ONPREM]` | Specify the gov onprem | "Policy documents", "Manual audits", "Spreadsheet tracking" |
+| `[GOV_CLOUD]` | Specify the gov cloud | "AWS Config rules", "Service Control Policies", "Organizations" |
+| `[GOV_COMPLIANCE]` | Specify the gov compliance | "Compliance frameworks mapped", "Continuous compliance", "Audit automation" |
+| `[GOV_MITIGATE]` | Specify the gov mitigate | "Preventive controls (SCPs)", "Detective controls (Config)", "Corrective automation" |
+| `[GOV_MONITOR]` | Specify the gov monitor | "Compliance dashboards", "Config conformance packs", "Audit Manager" |
+| `[COMPUTE_CURRENT]` | Specify the compute current | "$500K/month", "200 servers", "40% utilization average" |
+| `[COMPUTE_PROJECTED]` | Specify the compute projected | "$350K/month", "Mix of on-demand + Reserved", "Auto-scaling enabled" |
+| `[COMPUTE_OPTIMIZE]` | Specify the compute optimize | "Right-sizing", "Reserved Instances", "Spot for batch", "Graviton migration" |
+| `[COMPUTE_SAVINGS]` | Specify the compute savings | "30% reduction", "$150K/month savings", "Better utilization" |
+| `[COMPUTE_TRACK]` | Specify the compute track | "Cost Explorer", "Compute Optimizer", "Monthly reviews", "Budget alerts" |
+| `[STORAGE_CURRENT]` | Specify the storage current | "$100K/month", "500TB SAN", "High IOPS requirements" |
+| `[STORAGE_PROJECTED]` | Specify the storage projected | "$60K/month", "S3 + EBS tiering", "Lifecycle policies" |
+| `[STORAGE_OPTIMIZE]` | Specify the storage optimize | "Intelligent Tiering", "Compression", "Deduplication", "Archive cold data" |
+| `[STORAGE_SAVINGS]` | Specify the storage savings | "40% reduction", "Tiered storage savings", "Lifecycle automation" |
+| `[STORAGE_TRACK]` | Specify the storage track | "S3 Storage Lens", "EBS metrics", "Usage reports", "Cost allocation tags" |
+| `[NETWORK_CURRENT]` | Specify the network current | "$50K/month", "Dedicated links", "High egress" |
+| `[NETWORK_PROJECTED]` | Specify the network projected | "$35K/month", "Direct Connect", "Optimized architecture" |
+| `[NETWORK_OPTIMIZE]` | Specify the network optimize | "VPC endpoints", "NAT Gateway optimization", "CloudFront caching" |
+| `[NETWORK_SAVINGS]` | Specify the network savings | "30% reduction", "Reduced egress", "Efficient routing" |
+| `[NETWORK_TRACK]` | Specify the network track | "VPC Flow Logs", "Cost allocation", "Data transfer reports" |
+| `[DB_CURRENT]` | Specify the db current | "$200K/month", "Oracle Enterprise", "SQL Server licenses" |
+| `[DB_PROJECTED]` | Specify the db projected | "$120K/month", "Aurora + RDS", "Open source options" |
+| `[DB_OPTIMIZE]` | Specify the db optimize | "Reserved instances", "Aurora Serverless", "Open source migration" |
+| `[DB_SAVINGS]` | Specify the db savings | "40% reduction", "License elimination", "Managed service efficiency" |
+| `[DB_TRACK]` | Specify the db track | "RDS metrics", "Performance Insights", "Cost Explorer", "License tracking" |
+| `[LICENSE_CURRENT]` | Specify the license current | "$300K/year", "Windows Server", "SQL Server", "Oracle" |
+| `[LICENSE_PROJECTED]` | Specify the license projected | "$150K/year", "BYOL where beneficial", "License-included options" |
+| `[LICENSE_OPTIMIZE]` | Specify the license optimize | "License Mobility", "Open source alternatives", "AWS License Manager" |
+| `[LICENSE_SAVINGS]` | Specify the license savings | "50% reduction", "Eliminated redundant licenses", "Optimized usage" |
+| `[LICENSE_TRACK]` | Specify the license track | "License Manager", "Vendor portals", "Usage tracking", "Compliance audits" |
+| `[SUPPORT_CURRENT]` | Specify the support current | "$100K/year", "Hardware maintenance", "Software support" |
+| `[SUPPORT_PROJECTED]` | Specify the support projected | "$75K/year", "AWS Enterprise Support", "Consolidated" |
+| `[SUPPORT_OPTIMIZE]` | Specify the support optimize | "Consolidate support contracts", "AWS TAM", "Managed services" |
+| `[SUPPORT_SAVINGS]` | Specify the support savings | "25% reduction", "Eliminated hardware support", "Better SLAs" |
+| `[SUPPORT_TRACK]` | Specify the support track | "Support case metrics", "TAM reviews", "Trusted Advisor", "Health Dashboard" |
+| `[LANDING_ZONE]` | Specify the landing zone | "AWS Control Tower", "Multi-account structure", "Organizational Units" |
+| `[NETWORK_SETUP]` | Specify the network setup | "Transit Gateway hub", "Direct Connect", "VPN backup", "DNS resolution" |
+| `[SECURITY_BASE]` | Specify the security base | "GuardDuty enabled", "Security Hub", "Config rules", "CloudTrail" |
+| `[IAM_CONFIG]` | Specify the iam config | "SSO integration", "Permission boundaries", "Service control policies" |
+| `[MONITOR_SETUP]` | Specify the monitor setup | "CloudWatch dashboards", "Cross-account observability", "Alerting" |
+| `[COST_SETUP]` | Specify the cost setup | "Cost Explorer enabled", "Budgets configured", "Tagging strategy" |
+| `[PILOT_APPS]` | Specify the pilot apps | "3-5 low-risk applications", "Dev/test environments", "Non-critical workloads" |
+| `[TEST_PROTOCOL]` | Specify the test protocol | "Functional testing", "Integration validation", "Performance baseline" |
+| `[PERF_VALID]` | Specify the perf valid | "Load testing", "Latency comparison", "Throughput validation" |
+| `[SEC_TESTING]` | Specify the sec testing | "Penetration testing", "Vulnerability scanning", "Compliance audit" |
+| `[USER_ACCEPT]` | Specify the user accept | "UAT sign-off", "Business stakeholder approval", "Go/no-go decision" |
+| `[LESSONS]` | Specify the lessons | "Retrospective documentation", "Process improvements", "Playbook updates" |
+| `[WAVE1_APPS]` | Specify the wave1 apps | "20-30 applications", "Low-complexity workloads", "Quick wins" |
+| `[WAVE1_DATA]` | Specify the wave1 data | "DMS replication setup", "Validation scripts", "Cutover rehearsal" |
+| `[WAVE1_CUTOVER]` | Specify the wave1 cutover | "Weekend window", "DNS switch", "Load balancer update" |
+| `[WAVE1_ROLLBACK]` | Specify the wave1 rollback | "Keep source running 14 days", "DNS failback ready", "Data sync active" |
+| `[WAVE1_VALIDATE]` | Specify the wave1 validate | "Application health checks", "User acceptance", "Performance validation" |
+| `[WAVE1_TUNE]` | Specify the wave1 tune | "Right-sizing", "Cost optimization", "Performance tuning" |
+| `[WAVE2_APPS]` | Specify the wave2 apps | "40-50 applications", "Business-critical workloads", "Complex integrations" |
+| `[WAVE2_INTEGRATE]` | Specify the wave2 integrate | "API gateway setup", "Service mesh", "Message queues", "Event bridges" |
+| `[WAVE2_SYNC]` | Specify the wave2 sync | "Real-time CDC replication", "Data validation", "Consistency checks" |
+| `[WAVE2_DR]` | Specify the wave2 dr | "Cross-region backup", "Failover testing", "RTO/RPO validation" |
+| `[WAVE2_HA]` | Specify the wave2 ha | "Multi-AZ deployment", "Auto-scaling configured", "Health checks" |
+| `[WAVE2_OPTIMIZE]` | Specify the wave2 optimize | "Reserved Instance purchases", "Savings Plans", "Architecture refinement" |
+| `[FINAL_APPS]` | Specify the final apps | "Remaining 10-20 applications", "Legacy systems", "Complex dependencies" |
+| `[DECOMMISSION]` | Specify the decommission | "Source system shutdown", "Data archival", "License return", "Hardware disposal" |
+| `[DOCUMENTATION]` | Specify the documentation | "Runbooks updated", "Architecture diagrams", "Operational procedures" |
+| `[KNOWLEDGE_TRANS]` | Specify the knowledge trans | "Training sessions", "Documentation handoff", "Support transition" |
+| `[OPTIMIZE_REVIEW]` | Specify the optimize review | "Well-Architected Review", "Cost optimization assessment", "Security audit" |
+| `[CLOSURE]` | Specify the closure | "Project sign-off", "Benefits realization report", "Lessons learned document" |
+| `[CICD_CURRENT]` | Specify the cicd current | "Manual deployments", "Basic Jenkins", "Scripted pipelines" |
+| `[CICD_TARGET]` | Target or intended cicd | "Full GitOps", "ArgoCD + GitHub Actions", "Automated deployments" |
+| `[CICD_AUTO]` | Specify the cicd auto | "80% automated", "Manual approval gates", "Auto-rollback" |
+| `[CICD_TOOLS]` | Specify the cicd tools | "GitHub Actions", "ArgoCD", "CodePipeline", "Jenkins X" |
+| `[CICD_MATURITY]` | Specify the cicd maturity | "4 (Managed)", "3 (Defined)", "5 (Optimizing)" |
+| `[IAC_CURRENT]` | Specify the iac current | "Manual provisioning", "Limited scripts", "Some CloudFormation" |
+| `[IAC_TARGET]` | Target or intended iac | "100% IaC", "Terraform modules", "GitOps-managed" |
+| `[IAC_AUTO]` | Specify the iac auto | "90% automated", "PR-based workflow", "Plan/Apply automation" |
+| `[IAC_TOOLS]` | Specify the iac tools | "Terraform", "CloudFormation", "Pulumi", "CDK" |
+| `[IAC_MATURITY]` | Specify the iac maturity | "4 (Managed)", "3 (Defined)", "5 (Optimizing)" |
+| `[CONFIG_CURRENT]` | Specify the config current | "Manual configs", "Undocumented settings", "Inconsistent environments" |
+| `[CONFIG_TARGET]` | Target or intended config | "Centralized config", "Parameter Store/Secrets Manager", "Version controlled" |
+| `[CONFIG_AUTO]` | Specify the config auto | "85% automated", "Dynamic configuration", "Feature flags" |
+| `[CONFIG_TOOLS]` | Specify the config tools | "AWS Parameter Store", "Secrets Manager", "Consul", "AppConfig" |
+| `[CONFIG_MATURITY]` | Specify the config maturity | "3 (Defined)", "4 (Managed)", "5 (Optimizing)" |
+| `[MON_CURRENT]` | Specify the mon current | "Basic monitoring", "Siloed tools", "Manual alerting" |
+| `[MON_TARGET]` | Target or intended mon | "Unified observability", "Full-stack monitoring", "AIOps" |
+| `[MON_AUTO]` | Specify the mon auto | "90% automated", "Auto-remediation", "Intelligent alerting" |
+| `[MON_TOOLS]` | Specify the mon tools | "CloudWatch", "Prometheus/Grafana", "Datadog", "X-Ray" |
+| `[MON_MATURITY]` | Specify the mon maturity | "4 (Managed)", "3 (Defined)", "5 (Optimizing)" |
+| `[SECAUTO_CURRENT]` | Specify the secauto current | "Manual scanning", "Periodic audits", "Reactive security" |
+| `[SECAUTO_TARGET]` | Target or intended secauto | "DevSecOps integrated", "Continuous scanning", "Automated remediation" |
+| `[SECAUTO_AUTO]` | Specify the secauto auto | "80% automated", "Pipeline-integrated", "Policy-as-code" |
+| `[SECAUTO_TOOLS]` | Specify the secauto tools | "GuardDuty", "Security Hub", "Inspector", "Snyk", "Checkov" |
+| `[SECAUTO_MATURITY]` | Specify the secauto maturity | "3 (Defined)", "4 (Managed)", "5 (Optimizing)" |
+| `[INCIDENT_CURRENT]` | Specify the incident current | "Manual escalation", "Phone trees", "Ticket-based" |
+| `[INCIDENT_TARGET]` | Target or intended incident | "Automated alerting", "Runbook automation", "ChatOps integration" |
+| `[INCIDENT_AUTO]` | Specify the incident auto | "70% automated", "Auto-escalation", "Self-healing for known issues" |
+| `[INCIDENT_TOOLS]` | Specify the incident tools | "PagerDuty", "OpsGenie", "ServiceNow", "Slack integration" |
+| `[INCIDENT_MATURITY]` | Specify the incident maturity | "3 (Defined)", "4 (Managed)", "5 (Optimizing)" |
+| `[TECH_CURRENT_CAP]` | Specify the tech current cap | "On-premise expertise", "Limited cloud skills", "Traditional ops" |
+| `[TECH_REQUIRED]` | Specify the tech required | "AWS certifications", "Kubernetes skills", "IaC proficiency" |
+| `[TECH_GAP]` | Specify the tech gap | "Cloud architecture 60% gap", "Container skills 70% gap" |
+| `[TECH_TRAIN]` | Specify the tech train | "AWS training program", "Hands-on labs", "Certification paths" |
+| `[TECH_METRICS]` | Specify the tech metrics | "Certifications earned", "Project deliveries", "Skill assessments" |
+| `[OPS_CURRENT_CAP]` | Specify the ops current cap | "Traditional sysadmin", "Manual operations", "Ticket-driven" |
+| `[OPS_REQUIRED]` | Specify the ops required | "SRE practices", "Automation-first", "Observability expertise" |
+| `[OPS_GAP]` | Specify the ops gap | "SRE skills 50% gap", "Automation 60% gap" |
+| `[OPS_TRAIN]` | Specify the ops train | "SRE bootcamp", "Automation workshops", "Runbook development" |
+| `[OPS_METRICS]` | Specify the ops metrics | "MTTR improvement", "Automation rate", "Incident reduction" |
+| `[SEC_CURRENT_CAP]` | Specify the sec current cap | "Perimeter-focused", "Manual audits", "Compliance-driven" |
+| `[SEC_REQUIRED]` | Specify the sec required | "Cloud security architecture", "DevSecOps", "Zero Trust" |
+| `[SEC_GAP]` | Specify the sec gap | "Cloud security 55% gap", "DevSecOps 65% gap" |
+| `[SEC_TRAIN]` | Specify the sec train | "AWS Security Specialty", "DevSecOps certification", "Threat modeling" |
+| `[SEC_METRICS]` | Specify the sec metrics | "Vulnerability remediation time", "Security findings", "Audit results" |
+| `[FIN_CURRENT_CAP]` | Specify the fin current cap | "CapEx budgeting", "Annual cycles", "Limited visibility" |
+| `[FIN_REQUIRED]` | Specify the fin required | "FinOps practice", "Real-time cost visibility", "Showback/chargeback" |
+| `[FIN_GAP]` | Specify the fin gap | "FinOps skills 70% gap", "Cost optimization 60% gap" |
+| `[FIN_TRAIN]` | Specify the fin train | "FinOps Foundation certification", "Cost optimization workshops" |
+| `[FIN_METRICS]` | Specify the fin metrics | "Cost per unit", "Budget accuracy", "Savings achieved" |
+| `[AGILE_CURRENT_CAP]` | Specify the agile current cap | "Waterfall processes", "Long release cycles", "Siloed teams" |
+| `[AGILE_REQUIRED]` | Specify the agile required | "Agile/Scrum", "DevOps culture", "Cross-functional teams" |
+| `[AGILE_GAP]` | Specify the agile gap | "Agile adoption 50% gap", "DevOps culture 60% gap" |
+| `[AGILE_TRAIN]` | Specify the agile train | "Scrum training", "DevOps workshops", "Team coaching" |
+| `[AGILE_METRICS]` | Specify the agile metrics | "Sprint velocity", "Lead time", "Deployment frequency" |
+| `[CULTURE_CURRENT]` | Specify the culture current | "Risk-averse", "Change resistance", "Blame culture" |
+| `[CULTURE_REQUIRED]` | Specify the culture required | "Innovation mindset", "Fail-fast learning", "Blameless postmortems" |
+| `[CULTURE_GAP]` | Specify the culture gap | "Cultural transformation 40% gap", "Mindset shift needed" |
+| `[CULTURE_TRAIN]` | Specify the culture train | "Leadership coaching", "Change management", "Innovation workshops" |
+| `[CULTURE_METRICS]` | Specify the culture metrics | "Employee surveys", "Innovation metrics", "Retention rates" |
+| `[RESPONSE_TIME]` | Specify the response time | "< 200ms p95", "< 500ms p99", "50% improvement target" |
+| `[THROUGHPUT]` | Specify the throughput | "10,000 TPS", "100,000 requests/min", "3x baseline improvement" |
+| `[AVAILABILITY]` | Specify the availability | "99.9% SLA", "99.99% critical services", "< 4 hours downtime/year" |
+| `[ERROR_RATE]` | Specify the error rate | "< 0.1% error rate", "< 1% timeout rate", "Zero critical errors" |
+| `[RESOURCE_UTIL]` | Specify the resource util | "70% CPU target", "80% memory target", "Right-sized instances" |
+| `[COST_EFFICIENCY]` | Specify the cost efficiency | "$0.01 per transaction", "30% cost reduction", "Reserved Instance coverage" |
+| `[APP_MONITORING]` | Specify the app monitoring | "APM with X-Ray/Datadog", "Custom metrics", "Transaction tracing" |
+| `[INFRA_MONITORING]` | Specify the infra monitoring | "CloudWatch dashboards", "EC2/RDS metrics", "Container insights" |
+| `[USER_MONITORING]` | Specify the user monitoring | "Real User Monitoring (RUM)", "Session replay", "Conversion tracking" |
+| `[BUSINESS_MONITORING]` | Specify the business monitoring | "Revenue metrics", "Transaction volumes", "SLA compliance" |
+| `[SECURITY_MONITORING]` | Specify the security monitoring | "GuardDuty alerts", "Security Hub findings", "Compliance dashboards" |
+| `[COST_MONITORING]` | Specify the cost monitoring | "Cost Explorer", "Budget alerts", "Anomaly detection", "FinOps dashboards" |
+| `[DAILY_OPTIMIZE]` | Specify the daily optimize | "Alert review", "Cost anomaly check", "Performance monitoring" |
+| `[WEEKLY_OPTIMIZE]` | Specify the weekly optimize | "Utilization review", "Right-sizing opportunities", "Security findings review" |
+| `[MONTHLY_OPTIMIZE]` | Specify the monthly optimize | "Cost allocation review", "Reserved Instance analysis", "Capacity planning" |
+| `[QUARTERLY_OPTIMIZE]` | Specify the quarterly optimize | "Well-Architected Review", "Architecture refinement", "Strategic planning" |
+| `[ANNUAL_OPTIMIZE]` | Specify the annual optimize | "Technology refresh", "Contract renewals", "Long-term planning" |
+| `[CONTINUOUS_IMPROVE]` | Specify the continuous improve | "Automation expansion", "Process refinement", "Skill development" |
+| `[MIGRATE_VELOCITY]` | Specify the migrate velocity | "20 apps/month", "100TB/quarter", "Ahead of schedule" |
+| `[DEBT_REDUCTION]` | Specify the debt reduction | "40% legacy reduction", "Technical debt backlog shrinking" |
+| `[OP_EXCELLENCE]` | Specify the op excellence | "8/10 maturity score", "SRE practices adopted", "Automation-first" |
+| `[INNOVATION_VEL]` | Specify the innovation vel | "50% faster deployments", "New features monthly", "Experiment velocity" |
+| `[BUS_AGILITY]` | Specify the bus agility | "7/10 agility score", "Time-to-market reduced", "Rapid scaling capability" |
+| `[ROI_ACHIEVE]` | Specify the roi achieve | "150% ROI achieved", "Payback in 18 months", "Ongoing savings realized" |
 
 ### 3. Migration Patterns & Strategies
 

@@ -112,298 +112,298 @@ Combat/Action Systems:
 
 | Variable | Description | Example |
 |----------|-------------|----------|
-| `[GAME_TITLE]` | Specify the game title | "[specify value]" |
-| `[GENRE]` | Specify the genre | "[specify value]" |
-| `[TARGET_PLATFORM]` | Target or intended platform | "[specify value]" |
-| `[AUDIENCE_DEMOGRAPHIC]` | Specify the audience demographic | "[specify value]" |
+| `[GAME_TITLE]` | Name of the game | "Stellar Odyssey", "Dark Kingdoms", "Puzzle Quest 3" |
+| `[GENRE]` | Game genre classification | "action RPG", "roguelike dungeon crawler", "match-3 puzzle", "battle royale" |
+| `[TARGET_PLATFORM]` | Target gaming platforms | "PC/Steam", "PS5/Xbox Series X", "iOS/Android", "Nintendo Switch" |
+| `[AUDIENCE_DEMOGRAPHIC]` | Target player demographics | "18-34 core gamers", "casual mobile users 25-45", "hardcore MMORPG players" |
 | `[DEVELOPMENT_BUDGET]` | Budget allocation for development | "$500,000" |
-| `[TEAM_SIZE]` | Specify the team size | "[specify value]" |
+| `[TEAM_SIZE]` | Development team size | "5-person indie team", "50 developers mid-size", "200+ AAA studio" |
 | `[DEVELOPMENT_TIMELINE]` | Timeline or schedule for development | "6 months" |
-| `[PLAYER_RETENTION]` | Specify the player retention | "[specify value]" |
-| `[MONETIZATION_TARGET]` | Target or intended monetization | "[specify value]" |
-| `[METACRITIC_TARGET]` | Target or intended metacritic | "[specify value]" |
-| `[CORE_LOOP]` | Specify the core loop | "[specify value]" |
-| `[LOOP_FEATURES]` | Specify the loop features | "[specify value]" |
-| `[LOOP_MARKET]` | Specify the loop market | "[specify value]" |
-| `[LOOP_METRICS]` | Specify the loop metrics | "[specify value]" |
-| `[LOOP_RISKS]` | Specify the loop risks | "[specify value]" |
-| `[GENRE_INNOVATION]` | Specify the genre innovation | "[specify value]" |
-| `[GENRE_FEATURES]` | Specify the genre features | "[specify value]" |
-| `[GENRE_MARKET]` | Specify the genre market | "[specify value]" |
-| `[GENRE_METRICS]` | Specify the genre metrics | "[specify value]" |
-| `[GENRE_RISKS]` | Specify the genre risks | "[specify value]" |
-| `[VISUAL_STYLE]` | Specify the visual style | "[specify value]" |
-| `[VISUAL_FEATURES]` | Specify the visual features | "[specify value]" |
-| `[VISUAL_MARKET]` | Specify the visual market | "[specify value]" |
-| `[VISUAL_METRICS]` | Specify the visual metrics | "[specify value]" |
-| `[VISUAL_RISKS]` | Specify the visual risks | "[specify value]" |
-| `[TARGET_EXPERIENCE]` | Target or intended experience | "[specify value]" |
-| `[EXPERIENCE_FEATURES]` | Specify the experience features | "[specify value]" |
-| `[EXPERIENCE_MARKET]` | Specify the experience market | "[specify value]" |
-| `[EXPERIENCE_METRICS]` | Specify the experience metrics | "[specify value]" |
-| `[EXPERIENCE_RISKS]` | Specify the experience risks | "[specify value]" |
-| `[PLATFORM_STRATEGY]` | Strategy or approach for platform | "[specify value]" |
-| `[PLATFORM_FEATURES]` | Specify the platform features | "[specify value]" |
-| `[PLATFORM_MARKET]` | Specify the platform market | "[specify value]" |
-| `[PLATFORM_METRICS]` | Specify the platform metrics | "[specify value]" |
-| `[PLATFORM_RISKS]` | Specify the platform risks | "[specify value]" |
-| `[COMPETITIVE_EDGE]` | Specify the competitive edge | "[specify value]" |
-| `[EDGE_FEATURES]` | Specify the edge features | "[specify value]" |
-| `[EDGE_MARKET]` | Specify the edge market | "[specify value]" |
-| `[EDGE_METRICS]` | Specify the edge metrics | "[specify value]" |
-| `[EDGE_RISKS]` | Specify the edge risks | "[specify value]" |
-| `[CHARACTER_MOVEMENT]` | Specify the character movement | "[specify value]" |
-| `[CAMERA_SYSTEM]` | Specify the camera system | "[specify value]" |
-| `[INPUT_MAPPING]` | Specify the input mapping | "[specify value]" |
-| `[RESPONSE_TIME]` | Specify the response time | "[specify value]" |
-| `[CONTROL_SCHEMES]` | Specify the control schemes | "[specify value]" |
-| `[ACCESSIBILITY]` | Specify the accessibility | "[specify value]" |
-| `[COMBAT_MECHANICS]` | Specify the combat mechanics | "[specify value]" |
-| `[WEAPON_SYSTEMS]` | Specify the weapon systems | "[specify value]" |
-| `[ABILITY_FRAMEWORK]` | Specify the ability framework | "[specify value]" |
-| `[COMBO_SYSTEM]` | Specify the combo system | "[specify value]" |
-| `[DAMAGE_CALC]` | Specify the damage calc | "[specify value]" |
-| `[AI_BEHAVIOR]` | Specify the ai behavior | "[specify value]" |
-| `[LEVELING_MECHANICS]` | Specify the leveling mechanics | "[specify value]" |
-| `[SKILL_TREES]` | Specify the skill trees | "[specify value]" |
-| `[CHARACTER_CUSTOM]` | Specify the character custom | "[specify value]" |
-| `[EQUIPMENT_SYSTEM]` | Specify the equipment system | "[specify value]" |
-| `[UPGRADE_PATHS]` | Specify the upgrade paths | "[specify value]" |
-| `[ACHIEVEMENTS]` | Specify the achievements | "[specify value]" |
-| `[CURRENCY_SYSTEMS]` | Specify the currency systems | "[specify value]" |
-| `[INVENTORY_MGMT]` | Specify the inventory mgmt | "[specify value]" |
-| `[CRAFTING_MECHANICS]` | Specify the crafting mechanics | "[specify value]" |
-| `[RESOURCE_GEN]` | Specify the resource gen | "[specify value]" |
-| `[TRADING_SYSTEMS]` | Specify the trading systems | "[specify value]" |
-| `[ECONOMY_BALANCE]` | Specify the economy balance | "[specify value]" |
-| `[MULTIPLAYER_MODES]` | Specify the multiplayer modes | "[specify value]" |
-| `[COOP_MECHANICS]` | Specify the coop mechanics | "[specify value]" |
-| `[PVP_SYSTEMS]` | Specify the pvp systems | "[specify value]" |
-| `[GUILD_FEATURES]` | Specify the guild features | "[specify value]" |
-| `[COMM_TOOLS]` | Specify the comm tools | "[specify value]" |
-| `[LEADERBOARDS]` | Specify the leaderboards | "[specify value]" |
-| `[MAIN_STORY_APPROACH]` | Specify the main story approach | "[specify value]" |
-| `[MAIN_STORY_VOLUME]` | Specify the main story volume | "[specify value]" |
-| `[MAIN_STORY_INTEGRATION]` | Specify the main story integration | "[specify value]" |
-| `[MAIN_STORY_AGENCY]` | Specify the main story agency | "[specify value]" |
-| `[MAIN_STORY_LOCALIZATION]` | Specify the main story localization | "[specify value]" |
-| `[SIDE_QUEST_APPROACH]` | Specify the side quest approach | "[specify value]" |
-| `[SIDE_QUEST_VOLUME]` | Specify the side quest volume | "[specify value]" |
-| `[SIDE_QUEST_INTEGRATION]` | Specify the side quest integration | "[specify value]" |
-| `[SIDE_QUEST_AGENCY]` | Specify the side quest agency | "[specify value]" |
-| `[SIDE_QUEST_LOCALIZATION]` | Specify the side quest localization | "[specify value]" |
-| `[CHARACTER_APPROACH]` | Specify the character approach | "[specify value]" |
-| `[CHARACTER_VOLUME]` | Specify the character volume | "[specify value]" |
-| `[CHARACTER_INTEGRATION]` | Specify the character integration | "[specify value]" |
-| `[CHARACTER_AGENCY]` | Specify the character agency | "[specify value]" |
-| `[CHARACTER_LOCALIZATION]` | Specify the character localization | "[specify value]" |
-| `[LORE_APPROACH]` | Specify the lore approach | "[specify value]" |
-| `[LORE_VOLUME]` | Specify the lore volume | "[specify value]" |
-| `[LORE_INTEGRATION]` | Specify the lore integration | "[specify value]" |
-| `[LORE_AGENCY]` | Specify the lore agency | "[specify value]" |
-| `[LORE_LOCALIZATION]` | Specify the lore localization | "[specify value]" |
-| `[DIALOGUE_APPROACH]` | Specify the dialogue approach | "[specify value]" |
-| `[DIALOGUE_VOLUME]` | Specify the dialogue volume | "[specify value]" |
-| `[DIALOGUE_INTEGRATION]` | Specify the dialogue integration | "[specify value]" |
-| `[DIALOGUE_AGENCY]` | Specify the dialogue agency | "[specify value]" |
-| `[DIALOGUE_LOCALIZATION]` | Specify the dialogue localization | "[specify value]" |
-| `[ENV_APPROACH]` | Specify the env approach | "[specify value]" |
-| `[ENV_VOLUME]` | Specify the env volume | "[specify value]" |
-| `[ENV_INTEGRATION]` | Specify the env integration | "[specify value]" |
-| `[ENV_AGENCY]` | Specify the env agency | "[specify value]" |
-| `[ENV_LOCALIZATION]` | Specify the env localization | "[specify value]" |
-| `[LEVEL_FLOW]` | Specify the level flow | "[specify value]" |
-| `[PACING_STRUCTURE]` | Specify the pacing structure | "[specify value]" |
-| `[DIFFICULTY_CURVE]` | Specify the difficulty curve | "[specify value]" |
-| `[PLAYER_GUIDANCE]` | Specify the player guidance | "[specify value]" |
-| `[EXPLORATION_REWARDS]` | Specify the exploration rewards | "[specify value]" |
-| `[REPLAYABILITY]` | Specify the replayability | "[specify value]" |
-| `[HUB_WORLDS]` | Specify the hub worlds | "[specify value]" |
-| `[LINEAR_LEVELS]` | Specify the linear levels | "[specify value]" |
-| `[OPEN_WORLD]` | Specify the open world | "[specify value]" |
-| `[DUNGEONS]` | Specify the dungeons | "[specify value]" |
-| `[PVP_ARENAS]` | Specify the pvp arenas | "[specify value]" |
-| `[TUTORIAL_ZONES]` | Specify the tutorial zones | "[specify value]" |
-| `[ART_DIRECTION]` | Specify the art direction | "[specify value]" |
-| `[COLOR_PALETTES]` | Specify the color palettes | "[specify value]" |
-| `[LIGHTING_DESIGN]` | Specify the lighting design | "[specify value]" |
-| `[ENV_EFFECTS]` | Specify the env effects | "[specify value]" |
-| `[ASSET_LIBRARIES]` | Specify the asset libraries | "[specify value]" |
-| `[PERFORMANCE_TARGETS]` | Target or intended performance s | "[specify value]" |
-| `[DESTRUCTIBLES]` | Specify the destructibles | "[specify value]" |
-| `[ENV_HAZARDS]` | Specify the env hazards | "[specify value]" |
-| `[HIDDEN_SECRETS]` | Specify the hidden secrets | "[specify value]" |
-| `[PUZZLE_ELEMENTS]` | Specify the puzzle elements | "[specify value]" |
-| `[DYNAMIC_EVENTS]` | Specify the dynamic events | "[specify value]" |
-| `[NPC_PLACEMENT]` | Specify the npc placement | "[specify value]" |
-| `[DIFF_INITIAL]` | Specify the diff initial | "[specify value]" |
-| `[DIFF_TESTING]` | Specify the diff testing | "[specify value]" |
-| `[DIFF_CRITERIA]` | Specify the diff criteria | "[specify value]" |
-| `[DIFF_METRICS]` | Specify the diff metrics | "[specify value]" |
-| `[DIFF_VALIDATION]` | Specify the diff validation | "[specify value]" |
-| `[ECON_INITIAL]` | Specify the econ initial | "[specify value]" |
-| `[ECON_TESTING]` | Specify the econ testing | "[specify value]" |
-| `[ECON_CRITERIA]` | Specify the econ criteria | "[specify value]" |
-| `[ECON_METRICS]` | Specify the econ metrics | "[specify value]" |
-| `[ECON_VALIDATION]` | Specify the econ validation | "[specify value]" |
-| `[COMBAT_INITIAL]` | Specify the combat initial | "[specify value]" |
-| `[COMBAT_TESTING]` | Specify the combat testing | "[specify value]" |
-| `[COMBAT_CRITERIA]` | Specify the combat criteria | "[specify value]" |
-| `[COMBAT_METRICS]` | Specify the combat metrics | "[specify value]" |
-| `[COMBAT_VALIDATION]` | Specify the combat validation | "[specify value]" |
-| `[PROG_INITIAL]` | Specify the prog initial | "[specify value]" |
-| `[PROG_TESTING]` | Specify the prog testing | "[specify value]" |
-| `[PROG_CRITERIA]` | Specify the prog criteria | "[specify value]" |
-| `[PROG_METRICS]` | Specify the prog metrics | "[specify value]" |
-| `[PROG_VALIDATION]` | Specify the prog validation | "[specify value]" |
-| `[REWARD_INITIAL]` | Specify the reward initial | "[specify value]" |
-| `[REWARD_TESTING]` | Specify the reward testing | "[specify value]" |
-| `[REWARD_CRITERIA]` | Specify the reward criteria | "[specify value]" |
-| `[REWARD_METRICS]` | Specify the reward metrics | "[specify value]" |
-| `[REWARD_VALIDATION]` | Specify the reward validation | "[specify value]" |
-| `[MP_INITIAL]` | Specify the mp initial | "[specify value]" |
-| `[MP_TESTING]` | Specify the mp testing | "[specify value]" |
-| `[MP_CRITERIA]` | Specify the mp criteria | "[specify value]" |
-| `[MP_METRICS]` | Specify the mp metrics | "[specify value]" |
-| `[MP_VALIDATION]` | Specify the mp validation | "[specify value]" |
-| `[BASE_IMPLEMENTATION]` | Specify the base implementation | "[specify value]" |
-| `[BASE_PRICE]` | Specify the base price | "[specify value]" |
-| `[BASE_CONVERSION]` | Specify the base conversion | "[specify value]" |
-| `[BASE_ARPU]` | Specify the base arpu | "[specify value]" |
-| `[BASE_ETHICS]` | Specify the base ethics | "[specify value]" |
-| `[DLC_IMPLEMENTATION]` | Specify the dlc implementation | "[specify value]" |
-| `[DLC_PRICE]` | Specify the dlc price | "[specify value]" |
-| `[DLC_CONVERSION]` | Specify the dlc conversion | "[specify value]" |
-| `[DLC_ARPU]` | Specify the dlc arpu | "[specify value]" |
-| `[DLC_ETHICS]` | Specify the dlc ethics | "[specify value]" |
-| `[IAP_IMPLEMENTATION]` | Specify the iap implementation | "[specify value]" |
-| `[IAP_PRICE]` | Specify the iap price | "[specify value]" |
-| `[IAP_CONVERSION]` | Specify the iap conversion | "[specify value]" |
-| `[IAP_ARPU]` | Specify the iap arpu | "[specify value]" |
-| `[IAP_ETHICS]` | Specify the iap ethics | "[specify value]" |
-| `[SEASON_IMPLEMENTATION]` | Specify the season implementation | "[specify value]" |
-| `[SEASON_PRICE]` | Specify the season price | "[specify value]" |
-| `[SEASON_CONVERSION]` | Specify the season conversion | "[specify value]" |
-| `[SEASON_ARPU]` | Specify the season arpu | "[specify value]" |
-| `[SEASON_ETHICS]` | Specify the season ethics | "[specify value]" |
-| `[COSMETIC_IMPLEMENTATION]` | Specify the cosmetic implementation | "[specify value]" |
-| `[COSMETIC_PRICE]` | Specify the cosmetic price | "[specify value]" |
-| `[COSMETIC_CONVERSION]` | Specify the cosmetic conversion | "[specify value]" |
-| `[COSMETIC_ARPU]` | Specify the cosmetic arpu | "[specify value]" |
-| `[COSMETIC_ETHICS]` | Specify the cosmetic ethics | "[specify value]" |
-| `[SUB_IMPLEMENTATION]` | Specify the sub implementation | "[specify value]" |
-| `[SUB_PRICE]` | Specify the sub price | "[specify value]" |
-| `[SUB_CONVERSION]` | Specify the sub conversion | "[specify value]" |
-| `[SUB_ARPU]` | Specify the sub arpu | "[specify value]" |
-| `[SUB_ETHICS]` | Specify the sub ethics | "[specify value]" |
-| `[ENGINE_CHOICE]` | Specify the engine choice | "[specify value]" |
-| `[VERSION_CONTROL]` | Specify the version control | "[specify value]" |
-| `[BUILD_PIPELINE]` | Specify the build pipeline | "[specify value]" |
-| `[ASSET_PIPELINE]` | Specify the asset pipeline | "[specify value]" |
-| `[TESTING_FRAMEWORK]` | Specify the testing framework | "[specify value]" |
-| `[DEPLOYMENT_SYSTEM]` | Specify the deployment system | "[specify value]" |
-| `[TARGET_FPS]` | Target or intended fps | "[specify value]" |
-| `[RESOLUTION_SUPPORT]` | Specify the resolution support | "[specify value]" |
-| `[MEMORY_MGMT]` | Specify the memory mgmt | "[specify value]" |
-| `[LOADING_OPT]` | Specify the loading opt | "[specify value]" |
-| `[NETWORK_ARCH]` | Specify the network arch | "[specify value]" |
-| `[SCALABILITY_PLAN]` | Specify the scalability plan | "[specify value]" |
-| `[MIN_SPECS]` | Specify the min specs | "[specify value]" |
-| `[REC_SPECS]` | Specify the rec specs | "[specify value]" |
-| `[CONSOLE_CERT]` | Specify the console cert | "[specify value]" |
-| `[MOBILE_OPT]` | Specify the mobile opt | "[specify value]" |
-| `[CLOUD_GAMING]` | Specify the cloud gaming | "[specify value]" |
-| `[CROSS_PLATFORM]` | Specify the cross platform | "[specify value]" |
-| `[SERVER_ARCH]` | Specify the server arch | "[specify value]" |
-| `[DATABASE_DESIGN]` | Specify the database design | "[specify value]" |
-| `[USER_AUTH]` | Specify the user auth | "[specify value]" |
-| `[ANALYTICS_INT]` | Specify the analytics int | "[specify value]" |
-| `[PAYMENT_PROCESS]` | Specify the payment process | "[specify value]" |
-| `[ANTI_CHEAT]` | Specify the anti cheat | "[specify value]" |
-| `[DAILY_IMPLEMENTATION]` | Specify the daily implementation | "[specify value]" |
-| `[DAILY_FREQUENCY]` | Specify the daily frequency | "[specify value]" |
-| `[DAILY_REWARDS]` | Specify the daily rewards | "[specify value]" |
-| `[DAILY_RETENTION]` | Specify the daily retention | "[specify value]" |
-| `[DAILY_FEEDBACK]` | Specify the daily feedback | "[specify value]" |
-| `[EVENT_IMPLEMENTATION]` | Specify the event implementation | "[specify value]" |
-| `[EVENT_FREQUENCY]` | Specify the event frequency | "[specify value]" |
-| `[EVENT_REWARDS]` | Specify the event rewards | "[specify value]" |
-| `[EVENT_RETENTION]` | Specify the event retention | "[specify value]" |
-| `[EVENT_FEEDBACK]` | Specify the event feedback | "[specify value]" |
-| `[PASS_IMPLEMENTATION]` | Specify the pass implementation | "[specify value]" |
-| `[PASS_FREQUENCY]` | Specify the pass frequency | "[specify value]" |
-| `[PASS_REWARDS]` | Specify the pass rewards | "[specify value]" |
-| `[PASS_RETENTION]` | Specify the pass retention | "[specify value]" |
-| `[PASS_FEEDBACK]` | Specify the pass feedback | "[specify value]" |
-| `[SOCIAL_IMPLEMENTATION]` | Specify the social implementation | "[specify value]" |
-| `[SOCIAL_FREQUENCY]` | Specify the social frequency | "[specify value]" |
-| `[SOCIAL_REWARDS]` | Specify the social rewards | "[specify value]" |
-| `[SOCIAL_RETENTION]` | Specify the social retention | "[specify value]" |
-| `[SOCIAL_FEEDBACK]` | Specify the social feedback | "[specify value]" |
-| `[COMP_IMPLEMENTATION]` | Specify the comp implementation | "[specify value]" |
-| `[COMP_FREQUENCY]` | Specify the comp frequency | "[specify value]" |
-| `[COMP_REWARDS]` | Specify the comp rewards | "[specify value]" |
-| `[COMP_RETENTION]` | Specify the comp retention | "[specify value]" |
-| `[COMP_FEEDBACK]` | Specify the comp feedback | "[specify value]" |
+| `[PLAYER_RETENTION]` | Player retention targets | "D1: 45%, D7: 25%, D30: 12%", "80% completion rate", "60% return players" |
+| `[MONETIZATION_TARGET]` | Revenue and monetization goals | "$10M first year", "$5 ARPU", "2% conversion rate", "$50 LTV" |
+| `[METACRITIC_TARGET]` | Quality score targets | "85+ Metacritic", "90% positive Steam reviews", "4.5+ App Store rating" |
+| `[CORE_LOOP]` | Primary gameplay loop | "explore-fight-loot-upgrade", "match-collect-progress", "build-defend-expand" |
+| `[LOOP_FEATURES]` | Core loop unique features | "procedural generation", "real-time combat", "physics-based puzzles" |
+| `[LOOP_MARKET]` | Core loop market position | "innovates on Souls-like formula", "mobile-optimized casual gameplay" |
+| `[LOOP_METRICS]` | Core loop success metrics | "15min avg session", "80% loop completion", "3+ sessions/day" |
+| `[LOOP_RISKS]` | Core loop risk factors | "complexity barrier for new players", "repetitive gameplay concerns" |
+| `[GENRE_INNOVATION]` | Genre innovation approach | "roguelike + city builder hybrid", "card battler meets RPG", "real-time tactics" |
+| `[GENRE_FEATURES]` | Genre-defining features | "permadeath with progression", "deck-building combat", "base management" |
+| `[GENRE_MARKET]` | Genre market positioning | "fills gap between casual and hardcore", "underserved mobile RTS audience" |
+| `[GENRE_METRICS]` | Genre success benchmarks | "top 10 in genre", "80+ hours average playtime", "strong speedrun community" |
+| `[GENRE_RISKS]` | Genre-related risks | "niche audience limitations", "genre fatigue in market", "steep learning curve" |
+| `[VISUAL_STYLE]` | Art direction style | "stylized cel-shaded", "photorealistic", "pixel art retro", "hand-painted 2D" |
+| `[VISUAL_FEATURES]` | Visual distinctive features | "dynamic lighting system", "procedural weather", "anime-inspired characters" |
+| `[VISUAL_MARKET]` | Visual market differentiation | "unique aesthetic in crowded market", "timeless art style for longevity" |
+| `[VISUAL_METRICS]` | Visual quality benchmarks | "4K/60fps on current gen", "consistent art across 100+ characters" |
+| `[VISUAL_RISKS]` | Visual development risks | "art pipeline bottlenecks", "platform optimization challenges", "style polarizing" |
+| `[TARGET_EXPERIENCE]` | Target player experience | "challenging but fair combat", "relaxing exploration", "competitive multiplayer" |
+| `[EXPERIENCE_FEATURES]` | Experience-defining features | "emergent storytelling", "player-driven economy", "cooperative dungeons" |
+| `[EXPERIENCE_MARKET]` | Experience market positioning | "accessible entry to genre", "hardcore endgame for veterans" |
+| `[EXPERIENCE_METRICS]` | Experience success metrics | "high NPS score 70+", "positive player sentiment", "low frustration churn" |
+| `[EXPERIENCE_RISKS]` | Experience design risks | "difficulty spikes causing churn", "content drought between updates" |
+| `[PLATFORM_STRATEGY]` | Platform release strategy | "PC Early Access first, console at 1.0", "mobile-first then PC port", "simultaneous multi-platform" |
+| `[PLATFORM_FEATURES]` | Platform-specific features | "Steam Workshop support", "cross-save between platforms", "touch controls for mobile" |
+| `[PLATFORM_MARKET]` | Platform market positioning | "Steam visibility for indie", "console for premium pricing", "mobile for volume" |
+| `[PLATFORM_METRICS]` | Platform success metrics | "wishlist conversions 15%+", "platform parity at launch", "cross-play adoption 40%" |
+| `[PLATFORM_RISKS]` | Platform-related risks | "certification delays", "platform-specific bugs", "split community" |
+| `[COMPETITIVE_EDGE]` | Competitive differentiation | "deepest crafting system in genre", "innovative narrative structure", "best-in-class controls" |
+| `[EDGE_FEATURES]` | Differentiating features | "AI director system", "modular skill system", "seamless multiplayer integration" |
+| `[EDGE_MARKET]` | Competitive market position | "premium quality at indie price", "fills market gap competitors ignore" |
+| `[EDGE_METRICS]` | Competitive success metrics | "higher retention than competitors", "positive comparison reviews", "community preference" |
+| `[EDGE_RISKS]` | Competitive risks | "larger studios copying features", "market timing against major releases" |
+| `[CHARACTER_MOVEMENT]` | Movement mechanics | "8-directional with dash/roll", "physics-based momentum", "wall-running + double jump" |
+| `[CAMERA_SYSTEM]` | Camera implementation | "third-person follow cam", "isometric fixed angle", "dynamic cinematic camera" |
+| `[INPUT_MAPPING]` | Control input configuration | "fully remappable", "preset layouts for genres", "context-sensitive actions" |
+| `[RESPONSE_TIME]` | Input responsiveness targets | "<50ms input lag", "3-frame buffer window", "instant feedback on actions" |
+| `[CONTROL_SCHEMES]` | Supported control schemes | "gamepad + keyboard/mouse", "touch controls", "motion controls optional" |
+| `[ACCESSIBILITY]` | Accessibility options | "colorblind modes", "one-handed play", "difficulty modifiers", "subtitles/captions" |
+| `[COMBAT_MECHANICS]` | Core combat system | "real-time action with dodge/parry", "turn-based tactical", "auto-battle with manual skills" |
+| `[WEAPON_SYSTEMS]` | Weapon implementation | "12 weapon types with unique movesets", "procedural weapon generation", "upgrade trees per weapon" |
+| `[ABILITY_FRAMEWORK]` | Ability/skill system | "cooldown-based abilities", "mana resource management", "stance-switching combat styles" |
+| `[COMBO_SYSTEM]` | Combo mechanics | "light-heavy attack chains", "juggle combos with launchers", "cancels and animation priority" |
+| `[DAMAGE_CALC]` | Damage calculation | "base damage * multipliers - defense", "elemental weaknesses 1.5x", "critical hit system 2x" |
+| `[AI_BEHAVIOR]` | Enemy AI behavior | "behavior tree decision making", "group tactics and flanking", "difficulty-scaled aggression" |
+| `[LEVELING_MECHANICS]` | Player leveling system | "XP-based level 1-100", "skill-based progression", "prestige system with resets" |
+| `[SKILL_TREES]` | Skill tree design | "3 branching specialization paths", "point-buy freeform skills", "unlock-based linear progression" |
+| `[CHARACTER_CUSTOM]` | Character customization | "appearance + class selection", "stat allocation", "playstyle-defining choices" |
+| `[EQUIPMENT_SYSTEM]` | Equipment and gear system | "rarity tiers (common to legendary)", "set bonuses", "socket/gem system" |
+| `[UPGRADE_PATHS]` | Upgrade progression | "linear weapon upgrades", "branching evolution paths", "prestige reforging" |
+| `[ACHIEVEMENTS]` | Achievement system | "100+ achievements", "tiered challenges", "cosmetic rewards for completion" |
+| `[CURRENCY_SYSTEMS]` | In-game currencies | "gold (soft) + gems (hard)", "multiple resource types", "faction-specific currencies" |
+| `[INVENTORY_MGMT]` | Inventory management | "grid-based limited slots", "unlimited stacking", "auto-sort and filters" |
+| `[CRAFTING_MECHANICS]` | Crafting system | "recipe discovery", "material combining", "quality-based outcomes" |
+| `[RESOURCE_GEN]` | Resource generation | "enemy drops + node harvesting", "passive income buildings", "daily rewards" |
+| `[TRADING_SYSTEMS]` | Player trading | "auction house", "direct player trades", "NPC vendor economy" |
+| `[ECONOMY_BALANCE]` | Economy balancing | "sink/source ratio 1:1.2", "inflation control mechanisms", "wealth redistribution" |
+| `[MULTIPLAYER_MODES]` | Multiplayer game modes | "4-player co-op campaign", "32-player battle royale", "1v1 ranked duels" |
+| `[COOP_MECHANICS]` | Cooperative gameplay | "shared loot with need/greed", "combo abilities between players", "revive system" |
+| `[PVP_SYSTEMS]` | PvP implementation | "arena matchmaking", "open-world PvP zones", "seasonal ranked ladder" |
+| `[GUILD_FEATURES]` | Guild/clan system | "guild halls", "shared bank", "guild missions", "territory control" |
+| `[COMM_TOOLS]` | Communication tools | "voice chat integration", "ping system", "text chat with filters" |
+| `[LEADERBOARDS]` | Leaderboard system | "global + friends rankings", "seasonal resets", "category-specific boards" |
+| `[MAIN_STORY_APPROACH]` | Main story design approach | "linear cinematic narrative", "branching player choices", "emergent storytelling" |
+| `[MAIN_STORY_VOLUME]` | Main story content volume | "20-hour campaign", "100K words of dialogue", "50 story missions" |
+| `[MAIN_STORY_INTEGRATION]` | Story-gameplay integration | "story unlocks abilities", "narrative-driven tutorials", "cutscene rewards" |
+| `[MAIN_STORY_AGENCY]` | Player narrative agency | "3 major branching paths", "character relationship choices", "multiple endings" |
+| `[MAIN_STORY_LOCALIZATION]` | Story localization scope | "EFIGS + CJK full localization", "voiced in English only", "10 language subtitle support" |
+| `[SIDE_QUEST_APPROACH]` | Side quest design | "character-driven side stories", "procedural fetch quests", "world-building lore quests" |
+| `[SIDE_QUEST_VOLUME]` | Side content volume | "80+ side quests", "40 hours optional content", "daily repeatable quests" |
+| `[SIDE_QUEST_INTEGRATION]` | Side quest integration | "unlocks hidden areas", "companion recruitment", "exclusive gear rewards" |
+| `[SIDE_QUEST_AGENCY]` | Side quest player choice | "quest outcome variations", "faction reputation impacts", "optional objectives" |
+| `[SIDE_QUEST_LOCALIZATION]` | Side quest localization | "text localization all languages", "voice acting key quests only", "cultural adaptation" |
+| `[CHARACTER_APPROACH]` | Character development approach | "companion system with arcs", "silent protagonist", "predefined hero with backstory" |
+| `[CHARACTER_VOLUME]` | Character content volume | "6 recruitable companions", "30+ NPCs with dialogue", "player avatar customization" |
+| `[CHARACTER_INTEGRATION]` | Character gameplay integration | "companion abilities in combat", "relationship-unlocked skills", "character-specific quests" |
+| `[CHARACTER_AGENCY]` | Character player agency | "romance options", "loyalty missions", "companion death possible" |
+| `[CHARACTER_LOCALIZATION]` | Character localization | "full voice acting 5 languages", "lip-sync for cinematics", "culturally adapted dialogue" |
+| `[LORE_APPROACH]` | World lore design | "environmental storytelling", "codex/journal entries", "NPC conversations reveal lore" |
+| `[LORE_VOLUME]` | Lore content volume | "200 codex entries", "50K words of lore text", "hidden lore secrets" |
+| `[LORE_INTEGRATION]` | Lore gameplay integration | "lore hints for puzzles", "enemy weaknesses in lore", "achievement for lore hunters" |
+| `[LORE_AGENCY]` | Lore discovery agency | "optional deep dive", "missable lore items", "community lore discussion" |
+| `[LORE_LOCALIZATION]` | Lore localization scope | "full text translation", "cultural mythology adaptations", "consistent terminology" |
+| `[DIALOGUE_APPROACH]` | Dialogue system design | "branching dialogue trees", "timed responses", "keyword-based conversation" |
+| `[DIALOGUE_VOLUME]` | Dialogue content volume | "15 hours of voice acting", "500K words total dialogue", "dynamic barks system" |
+| `[DIALOGUE_INTEGRATION]` | Dialogue gameplay integration | "skill checks in dialogue", "persuasion mechanics", "reputation-based options" |
+| `[DIALOGUE_AGENCY]` | Dialogue player agency | "tone selection (kind/harsh)", "information gathering choices", "relationship-building" |
+| `[DIALOGUE_LOCALIZATION]` | Dialogue localization | "full VO localization key markets", "quality lip-sync", "cultural joke adaptation" |
+| `[ENV_APPROACH]` | Environmental storytelling | "visual narrative clues", "audio logs scattered", "world state changes" |
+| `[ENV_VOLUME]` | Environmental content volume | "15 distinct biomes", "100+ discoverable locations", "dynamic world events" |
+| `[ENV_INTEGRATION]` | Environment gameplay integration | "terrain affects combat", "environmental puzzles", "weather impacts gameplay" |
+| `[ENV_AGENCY]` | Environmental player agency | "destructible environments", "player-built structures", "world modification" |
+| `[ENV_LOCALIZATION]` | Environmental localization | "in-world text translation", "signage localization", "audio log translations" |
+| `[LEVEL_FLOW]` | Level flow design | "hub-and-spoke exploration", "linear with shortcuts", "interconnected metroidvania" |
+| `[PACING_STRUCTURE]` | Gameplay pacing | "action-rest-action rhythm", "escalating intensity", "player-controlled pacing" |
+| `[DIFFICULTY_CURVE]` | Difficulty progression | "gradual ramp over 10 hours", "difficulty spikes at bosses", "adaptive difficulty option" |
+| `[PLAYER_GUIDANCE]` | Player guidance systems | "objective markers", "environmental breadcrumbs", "contextual hints" |
+| `[EXPLORATION_REWARDS]` | Exploration incentives | "hidden loot caches", "secret areas with unique items", "achievement hunters content" |
+| `[REPLAYABILITY]` | Replayability features | "NG+ with new content", "randomized elements", "multiple build viability" |
+| `[HUB_WORLDS]` | Hub world design | "central town with upgrades", "multiple themed hub areas", "expandable player base" |
+| `[LINEAR_LEVELS]` | Linear level design | "30 handcrafted missions", "set-piece moments", "cinematic sequences" |
+| `[OPEN_WORLD]` | Open world areas | "seamless open world 50 sq km", "zone-based regions", "procedural infinite world" |
+| `[DUNGEONS]` | Dungeon/instance design | "10 multi-floor dungeons", "procedural daily dungeons", "raid-style endgame dungeons" |
+| `[PVP_ARENAS]` | PvP arena design | "5 balanced arena maps", "asymmetric objective maps", "rotating arena pool" |
+| `[TUTORIAL_ZONES]` | Tutorial area design | "integrated first mission tutorial", "optional training grounds", "contextual tooltips" |
+| `[ART_DIRECTION]` | Art direction guidelines | "dark fantasy with vibrant accents", "clean minimalist UI", "painterly environment art" |
+| `[COLOR_PALETTES]` | Color palette design | "faction-specific color coding", "biome-distinct palettes", "mood-based color grading" |
+| `[LIGHTING_DESIGN]` | Lighting system design | "dynamic day/night cycle", "real-time global illumination", "atmospheric volumetric fog" |
+| `[ENV_EFFECTS]` | Environmental effects | "particle weather systems", "destruction physics", "ambient wildlife" |
+| `[ASSET_LIBRARIES]` | Asset library scope | "2000+ unique assets", "modular building kit", "procedural asset variation" |
+| `[PERFORMANCE_TARGETS]` | Performance optimization targets | "60fps at 1080p minimum", "4K/30fps quality mode", "<3s load times" |
+| `[DESTRUCTIBLES]` | Destructible objects | "breakable containers for loot", "destructible cover in combat", "environmental destruction" |
+| `[ENV_HAZARDS]` | Environmental hazards | "elemental damage zones", "traps and pressure plates", "timed hazard sequences" |
+| `[HIDDEN_SECRETS]` | Secret area design | "illusory walls", "puzzle-locked secret rooms", "community-discovered ARG secrets" |
+| `[PUZZLE_ELEMENTS]` | Puzzle design elements | "physics-based puzzles", "pattern recognition", "ability-gated progression puzzles" |
+| `[DYNAMIC_EVENTS]` | Dynamic world events | "world boss spawns", "invasion events", "seasonal world changes" |
+| `[NPC_PLACEMENT]` | NPC placement strategy | "quest givers at hubs", "wandering merchants", "ambient NPCs for life" |
+| `[DIFF_INITIAL]` | Initial difficulty values | "baseline enemy HP/damage tables", "level-scaled difficulty multipliers" |
+| `[DIFF_TESTING]` | Difficulty testing method | "internal QA playthroughs", "focus group testing", "telemetry-based iteration" |
+| `[DIFF_CRITERIA]` | Difficulty adjustment criteria | "death rate per encounter <15%", "boss retry rate <5 attempts avg" |
+| `[DIFF_METRICS]` | Difficulty success metrics | "completion rate 70%+", "difficulty setting distribution even", "frustration churn <5%" |
+| `[DIFF_VALIDATION]` | Difficulty validation process | "beta player feedback", "accessibility review", "speedrunner edge case testing" |
+| `[ECON_INITIAL]` | Initial economy values | "gold drop rates per enemy", "shop prices and upgrade costs", "resource sink balance" |
+| `[ECON_TESTING]` | Economy testing method | "simulated player progression", "live ops monitoring", "economist review" |
+| `[ECON_CRITERIA]` | Economy adjustment criteria | "time-to-earn targets met", "F2P vs paid fairness", "inflation rate controlled" |
+| `[ECON_METRICS]` | Economy success metrics | "healthy marketplace activity", "conversion rates on target", "player wealth distribution" |
+| `[ECON_VALIDATION]` | Economy validation process | "soft launch economy test", "A/B testing price points", "player feedback surveys" |
+| `[COMBAT_INITIAL]` | Initial combat values | "weapon damage/speed ratios", "ability cooldowns and costs", "enemy stat scaling" |
+| `[COMBAT_TESTING]` | Combat testing method | "frame data analysis", "DPS simulation tools", "competitive player testing" |
+| `[COMBAT_CRITERIA]` | Combat adjustment criteria | "TTK within target range", "weapon viability spread <20%", "no dominant strategies" |
+| `[COMBAT_METRICS]` | Combat success metrics | "weapon/class usage distribution", "combat encounter success rates", "build diversity" |
+| `[COMBAT_VALIDATION]` | Combat validation process | "tournament meta analysis", "community tier list alignment", "ongoing balance patches" |
+| `[PROG_INITIAL]` | Initial progression values | "XP curve per level", "content unlock pacing", "power growth rate" |
+| `[PROG_TESTING]` | Progression testing method | "simulated playthrough timing", "content gate analysis", "player feedback" |
+| `[PROG_CRITERIA]` | Progression adjustment criteria | "level up every 30-60 min early game", "endgame reached in target hours" |
+| `[PROG_METRICS]` | Progression success metrics | "player level distribution healthy", "content completion rates", "time-to-endgame on target" |
+| `[PROG_VALIDATION]` | Progression validation process | "new player journey testing", "returning player catch-up validation", "prestige system review" |
+| `[REWARD_INITIAL]` | Initial reward values | "loot tables and drop rates", "quest reward scaling", "daily/weekly reward amounts" |
+| `[REWARD_TESTING]` | Reward testing method | "drop rate simulation", "reward satisfaction surveys", "engagement correlation analysis" |
+| `[REWARD_CRITERIA]` | Reward adjustment criteria | "meaningful reward every 10-15 min", "legendary drop rate feels rare but achievable" |
+| `[REWARD_METRICS]` | Reward success metrics | "player satisfaction with rewards", "engagement around reward events", "FOMO balance" |
+| `[REWARD_VALIDATION]` | Reward validation process | "reward pacing playtest", "gacha/loot box fairness review", "regulatory compliance check" |
+| `[MP_INITIAL]` | Initial multiplayer values | "matchmaking skill ratings", "team composition rules", "PvP damage scaling" |
+| `[MP_TESTING]` | Multiplayer testing method | "stress testing with bots", "closed beta matchmaking", "latency simulation" |
+| `[MP_CRITERIA]` | Multiplayer adjustment criteria | "match quality score >80%", "queue times <2 min", "skill gap fairness" |
+| `[MP_METRICS]` | Multiplayer success metrics | "player retention in MP modes", "match completion rate", "report rate low" |
+| `[MP_VALIDATION]` | Multiplayer validation process | "ranked season testing", "cross-platform play verification", "anti-cheat effectiveness" |
+| `[BASE_IMPLEMENTATION]` | Base game sales model | "standard edition + deluxe", "regional pricing", "launch discount strategy" |
+| `[BASE_PRICE]` | Base game price point | "59.99", "29.99 indie price", "free-to-play" |
+| `[BASE_CONVERSION]` | Base game conversion rate | "wishlist conversion 15-20%", "demo conversion 25%", "free weekend 10%" |
+| `[BASE_ARPU]` | Base game ARPU | "$55 after refunds", "$70 with DLC attach", "$0 (F2P model)" |
+| `[BASE_ETHICS]` | Ethical considerations | "no predatory practices", "transparent pricing", "fair regional pricing" |
+| `[DLC_IMPLEMENTATION]` | DLC/expansion model | "story expansions quarterly", "cosmetic DLC packs", "season pass structure" |
+| `[DLC_PRICE]` | DLC price points | "14.99 major expansion", "4.99 content packs", "29.99 season pass" |
+| `[DLC_CONVERSION]` | DLC conversion rate | "40% of base owners buy first DLC", "season pass attach 25%" |
+| `[DLC_ARPU]` | DLC ARPU contribution | "+$20 average from DLC buyers", "lifetime value increase 50%" |
+| `[DLC_ETHICS]` | DLC ethical guidelines | "no cut content sold as DLC", "complete base game experience", "fair value proposition" |
+| `[IAP_IMPLEMENTATION]` | In-app purchase model | "cosmetics only", "convenience items", "gacha/loot boxes" |
+| `[IAP_PRICE]` | IAP price tiers | "$0.99-99.99 range", "best value at $9.99", "whale tier $99.99" |
+| `[IAP_CONVERSION]` | IAP conversion rate | "2-5% of players purchase", "10% conversion in engaged segment" |
+| `[IAP_ARPU]` | IAP ARPU | "$3-5 ARPU mobile", "$50+ ARPPU for payers", "$0.10 ARPDAU" |
+| `[IAP_ETHICS]` | IAP ethical guidelines | "no pay-to-win", "disclosed odds", "spending limits option", "minors protection" |
+| `[SEASON_IMPLEMENTATION]` | Season pass implementation | "3-month seasons with battle pass", "100-tier reward track", "free + premium tracks" |
+| `[SEASON_PRICE]` | Season pass price | "$9.99 per season", "$24.99 bundle with bonus", "free track available" |
+| `[SEASON_CONVERSION]` | Season pass conversion | "30% of active players buy pass", "70% renewal rate" |
+| `[SEASON_ARPU]` | Season pass ARPU | "+$25/year from pass buyers", "consistent revenue stream" |
+| `[SEASON_ETHICS]` | Season pass ethics | "earnable through play", "reasonable time commitment", "no FOMO exploitation" |
+| `[COSMETIC_IMPLEMENTATION]` | Cosmetics shop model | "rotating daily shop", "direct purchase skins", "bundle discounts" |
+| `[COSMETIC_PRICE]` | Cosmetic price points | "$5-20 per skin", "$10 weapon skins", "$30 premium sets" |
+| `[COSMETIC_CONVERSION]` | Cosmetic conversion rate | "15% buy at least one cosmetic", "repeat purchasers 40% of buyers" |
+| `[COSMETIC_ARPU]` | Cosmetic ARPU contribution | "+$15 average from cosmetic buyers", "evergreen revenue source" |
+| `[COSMETIC_ETHICS]` | Cosmetic ethics | "cosmetic only - no gameplay advantage", "transparent pricing", "earnable alternatives" |
+| `[SUB_IMPLEMENTATION]` | Subscription model | "optional premium membership", "VIP tiers", "Xbox Game Pass inclusion" |
+| `[SUB_PRICE]` | Subscription price | "$4.99/month", "$9.99 premium tier", "annual discount 20%" |
+| `[SUB_CONVERSION]` | Subscription conversion | "5-10% of players subscribe", "60% month-over-month retention" |
+| `[SUB_ARPU]` | Subscription ARPU | "+$50/year from subscribers", "predictable recurring revenue" |
+| `[SUB_ETHICS]` | Subscription ethics | "core game playable without sub", "easy cancellation", "clear value proposition" |
+| `[ENGINE_CHOICE]` | Game engine selection | "Unity 2023 LTS", "Unreal Engine 5.3", "Godot 4", "custom proprietary engine" |
+| `[VERSION_CONTROL]` | Version control system | "Perforce for large assets", "Git with LFS", "Plastic SCM" |
+| `[BUILD_PIPELINE]` | Build automation | "Jenkins CI/CD", "TeamCity builds", "GitHub Actions", "daily automated builds" |
+| `[ASSET_PIPELINE]` | Asset production pipeline | "Substance + Maya to engine", "modular asset workflow", "procedural generation tools" |
+| `[TESTING_FRAMEWORK]` | Testing infrastructure | "automated unit tests", "integration test suites", "playtest data collection" |
+| `[DEPLOYMENT_SYSTEM]` | Deployment platform | "Steam Direct", "console SDK submission", "mobile store deployment", "cloud gaming" |
+| `[TARGET_FPS]` | Frame rate targets | "60fps performance mode", "30fps quality mode", "120fps competitive mode" |
+| `[RESOLUTION_SUPPORT]` | Resolution support | "720p-4K dynamic scaling", "ultrawide 21:9 support", "FSR/DLSS upscaling" |
+| `[MEMORY_MGMT]` | Memory management | "streaming world chunks", "LOD system for assets", "memory pooling" |
+| `[LOADING_OPT]` | Loading optimization | "async loading", "SSD-optimized streaming", "<5s initial load target" |
+| `[NETWORK_ARCH]` | Network architecture | "client-server authoritative", "P2P with host migration", "dedicated servers" |
+| `[SCALABILITY_PLAN]` | Scalability approach | "horizontal server scaling", "regional server deployment", "cloud burst capacity" |
+| `[MIN_SPECS]` | Minimum PC specifications | "GTX 1060, i5-8400, 8GB RAM, 50GB SSD" |
+| `[REC_SPECS]` | Recommended PC specifications | "RTX 3070, i7-10700, 16GB RAM, NVMe SSD" |
+| `[CONSOLE_CERT]` | Console certification | "Sony TRC compliance", "Xbox XR compliance", "Nintendo Lotcheck" |
+| `[MOBILE_OPT]` | Mobile optimization | "iPhone 11+ / Android 10+", "battery optimization", "thermal management" |
+| `[CLOUD_GAMING]` | Cloud gaming support | "GeForce NOW compatible", "Xbox Cloud Gaming", "Steam Link streaming" |
+| `[CROSS_PLATFORM]` | Cross-platform features | "cross-play enabled", "cross-progression", "shared friends list" |
+| `[SERVER_ARCH]` | Server architecture | "AWS/Azure game servers", "microservices backend", "Kubernetes orchestration" |
+| `[DATABASE_DESIGN]` | Database design | "player data in PostgreSQL", "Redis for sessions", "MongoDB for analytics" |
+| `[USER_AUTH]` | Authentication system | "OAuth 2.0 + platform SSO", "two-factor authentication", "Epic/Steam account linking" |
+| `[ANALYTICS_INT]` | Analytics integration | "GameAnalytics", "Unity Analytics", "custom telemetry pipeline", "A/B testing framework" |
+| `[PAYMENT_PROCESS]` | Payment processing | "platform-native payments", "Stripe for web", "regional payment methods" |
+| `[ANTI_CHEAT]` | Anti-cheat system | "Easy Anti-Cheat", "BattlEye", "custom server-side validation", "behavior detection" |
+| `[DAILY_IMPLEMENTATION]` | Daily reward system | "login streak bonuses", "daily quests refresh", "first win of day bonus" |
+| `[DAILY_FREQUENCY]` | Daily engagement frequency | "3-5 daily quests", "24hr refresh cycle", "escalating streak rewards" |
+| `[DAILY_REWARDS]` | Daily reward structure | "soft currency + random item", "streak bonus multipliers", "weekly milestone rewards" |
+| `[DAILY_RETENTION]` | Daily system retention impact | "+15% D7 retention", "habit formation loop", "streak anxiety balance" |
+| `[DAILY_FEEDBACK]` | Daily system player feedback | "track completion rates", "streak break recovery", "reward satisfaction surveys" |
+| `[EVENT_IMPLEMENTATION]` | Live event implementation | "seasonal themed events", "limited-time game modes", "community challenges" |
+| `[EVENT_FREQUENCY]` | Event frequency | "major event every 6-8 weeks", "mini-events weekly", "holiday events annually" |
+| `[EVENT_REWARDS]` | Event reward structure | "exclusive cosmetics", "event currency shop", "ranked event rewards" |
+| `[EVENT_RETENTION]` | Event retention impact | "+25% DAU during events", "lapsed player reactivation", "FOMO balance" |
+| `[EVENT_FEEDBACK]` | Event player feedback | "post-event surveys", "participation rate tracking", "reward satisfaction" |
+| `[PASS_IMPLEMENTATION]` | Battle pass implementation | "100-tier seasonal pass", "free + premium tracks", "XP-based progression" |
+| `[PASS_FREQUENCY]` | Battle pass cadence | "3-month seasons", "mid-season refresh", "catch-up mechanics" |
+| `[PASS_REWARDS]` | Battle pass rewards | "cosmetics at milestone tiers", "premium currency included", "exclusive legendary at 100" |
+| `[PASS_RETENTION]` | Battle pass retention impact | "2x session frequency for pass owners", "70% completion rate target" |
+| `[PASS_FEEDBACK]` | Battle pass feedback | "tier progression pacing", "reward satisfaction", "purchase conversion tracking" |
+| `[SOCIAL_IMPLEMENTATION]` | Social features implementation | "friends list + invites", "guilds/clans", "social hub areas" |
+| `[SOCIAL_FREQUENCY]` | Social engagement frequency | "daily guild activities", "weekly social quests", "friend play bonuses" |
+| `[SOCIAL_REWARDS]` | Social feature rewards | "co-op completion bonuses", "referral rewards", "guild achievement rewards" |
+| `[SOCIAL_RETENTION]` | Social retention impact | "3x retention for social players", "guild members 50% more active" |
+| `[SOCIAL_FEEDBACK]` | Social feature feedback | "friend network size tracking", "guild health metrics", "social feature usage" |
+| `[COMP_IMPLEMENTATION]` | Competitive mode implementation | "ranked ladder system", "seasonal resets", "skill-based matchmaking" |
+| `[COMP_FREQUENCY]` | Competitive cadence | "3-month ranked seasons", "weekly tournaments", "leaderboard resets" |
+| `[COMP_REWARDS]` | Competitive rewards | "ranked cosmetics", "end-of-season rewards by tier", "tournament prizes" |
+| `[COMP_RETENTION]` | Competitive retention impact | "highest retention segment", "esports viewer conversion", "streamer content" |
+| `[COMP_FEEDBACK]` | Competitive feedback | "match quality surveys", "rank distribution analysis", "balance perception" |
 | `[UPDATE_IMPLEMENTATION]` | Specify the update implementation | "2025-01-15" |
 | `[UPDATE_FREQUENCY]` | Specify the update frequency | "2025-01-15" |
 | `[UPDATE_REWARDS]` | Specify the update rewards | "2025-01-15" |
 | `[UPDATE_RETENTION]` | Specify the update retention | "2025-01-15" |
 | `[UPDATE_FEEDBACK]` | Specify the update feedback | "2025-01-15" |
 | `[SOCIAL_BUDGET]` | Budget allocation for social | "$500,000" |
-| `[SOCIAL_REACH]` | Specify the social reach | "[specify value]" |
-| `[SOCIAL_CONVERSION]` | Specify the social conversion | "[specify value]" |
-| `[SOCIAL_CAC]` | Specify the social cac | "[specify value]" |
-| `[SOCIAL_LTV]` | Specify the social ltv | "[specify value]" |
+| `[SOCIAL_REACH]` | Social marketing reach | "5M impressions", "500K engagements", "100K click-throughs" |
+| `[SOCIAL_CONVERSION]` | Social conversion rate | "2-3% click to install", "10% engagement rate", "viral coefficient 1.2" |
+| `[SOCIAL_CAC]` | Social customer acquisition cost | "$2-5 CPI", "$15-25 CPA paying user" |
+| `[SOCIAL_LTV]` | Social acquired user LTV | "$8-12 LTV", "LTV:CAC ratio 3:1 target" |
 | `[INFLUENCER_BUDGET]` | Budget allocation for influencer | "$500,000" |
-| `[INFLUENCER_REACH]` | Specify the influencer reach | "[specify value]" |
-| `[INFLUENCER_CONVERSION]` | Specify the influencer conversion | "[specify value]" |
-| `[INFLUENCER_CAC]` | Specify the influencer cac | "[specify value]" |
-| `[INFLUENCER_LTV]` | Specify the influencer ltv | "[specify value]" |
+| `[INFLUENCER_REACH]` | Influencer campaign reach | "10M combined views", "50 content creators", "Twitch/YouTube coverage" |
+| `[INFLUENCER_CONVERSION]` | Influencer conversion rate | "5-10% engaged viewers convert", "trackable codes/links" |
+| `[INFLUENCER_CAC]` | Influencer CAC | "$3-8 CPI", "CPM deals $5-20", "revenue share options" |
+| `[INFLUENCER_LTV]` | Influencer acquired LTV | "higher quality users $15+ LTV", "community-driven retention" |
 | `[ADS_BUDGET]` | Budget allocation for ads | "$500,000" |
-| `[ADS_REACH]` | Specify the ads reach | "[specify value]" |
-| `[ADS_CONVERSION]` | Specify the ads conversion | "[specify value]" |
-| `[ADS_CAC]` | Specify the ads cac | "[specify value]" |
-| `[ADS_LTV]` | Specify the ads ltv | "[specify value]" |
+| `[ADS_REACH]` | Paid advertising reach | "50M impressions", "programmatic + social", "video + playable ads" |
+| `[ADS_CONVERSION]` | Advertising conversion rate | "1-3% CTR", "10-20% install rate from click" |
+| `[ADS_CAC]` | Advertising CAC | "$1-3 CPI mobile", "$5-15 CPI PC/console", "scale-dependent" |
+| `[ADS_LTV]` | Ad-acquired user LTV | "$5-8 average LTV", "quality varies by channel" |
 | `[PR_BUDGET]` | Budget allocation for pr | "$500,000" |
-| `[PR_REACH]` | Specify the pr reach | "[specify value]" |
-| `[PR_CONVERSION]` | Specify the pr conversion | "[specify value]" |
-| `[PR_CAC]` | Specify the pr cac | "[specify value]" |
-| `[PR_LTV]` | Specify the pr ltv | "[specify value]" |
+| `[PR_REACH]` | PR campaign reach | "100+ media mentions", "tier-1 publication features", "review coverage" |
+| `[PR_CONVERSION]` | PR conversion metrics | "awareness lift 30%", "wishlist spikes", "launch day impact" |
+| `[PR_CAC]` | PR cost efficiency | "earned media value $X per $1 spent", "long-term brand building" |
+| `[PR_LTV]` | PR-influenced user LTV | "organic users highest LTV $20+", "brand-aware users more loyal" |
 | `[EVENT_BUDGET]` | Budget allocation for event | "$500,000" |
-| `[EVENT_REACH]` | Specify the event reach | "[specify value]" |
-| `[EVENT_CONVERSION]` | Specify the event conversion | "[specify value]" |
-| `[EVENT_CAC]` | Specify the event cac | "[specify value]" |
-| `[EVENT_LTV]` | Specify the event ltv | "[specify value]" |
+| `[EVENT_REACH]` | Event marketing reach | "PAX/Gamescom presence", "10K demo plays", "live stream viewers" |
+| `[EVENT_CONVERSION]` | Event conversion metrics | "50% demo-to-wishlist", "community sign-ups", "press meetings" |
+| `[EVENT_CAC]` | Event cost efficiency | "$50K booth cost amortized", "cost per qualified lead" |
+| `[EVENT_LTV]` | Event-acquired user LTV | "highly engaged fans $25+ LTV", "community advocates" |
 | `[PLATFORM_BUDGET]` | Budget allocation for platform | "$500,000" |
-| `[PLATFORM_REACH]` | Specify the platform reach | "[specify value]" |
-| `[PLATFORM_CONVERSION]` | Specify the platform conversion | "[specify value]" |
-| `[PLATFORM_CAC]` | Specify the platform cac | "[specify value]" |
-| `[PLATFORM_LTV]` | Specify the platform ltv | "[specify value]" |
-| `[CONTENT_MONTH_1_3]` | Specify the content month 1 3 | "[specify value]" |
-| `[CONTENT_MONTH_4_6]` | Specify the content month 4 6 | "[specify value]" |
-| `[CONTENT_MONTH_7_12]` | Specify the content month 7 12 | "[specify value]" |
-| `[CONTENT_YEAR_2]` | Specify the content year 2 | "[specify value]" |
-| `[LONGTERM_VISION]` | Specify the longterm vision | "[specify value]" |
-| `[EOL_PLAN]` | Specify the eol plan | "[specify value]" |
-| `[HOTFIX_SCHEDULE]` | Specify the hotfix schedule | "[specify value]" |
-| `[BALANCE_SCHEDULE]` | Specify the balance schedule | "[specify value]" |
-| `[CONTENT_SCHEDULE]` | Specify the content schedule | "[specify value]" |
-| `[MAJOR_SCHEDULE]` | Specify the major schedule | "[specify value]" |
-| `[SEASONAL_SCHEDULE]` | Specify the seasonal schedule | "[specify value]" |
-| `[EXPANSION_SCHEDULE]` | Specify the expansion schedule | "[specify value]" |
-| `[CUSTOMER_SERVICE]` | Specify the customer service | "[specify value]" |
-| `[BUG_REPORTING]` | Specify the bug reporting | "[specify value]" |
-| `[FEEDBACK_COLLECTION]` | Specify the feedback collection | "[specify value]" |
-| `[COMMUNITY_MGMT]` | Specify the community mgmt | "[specify value]" |
-| `[FORUM_MODERATION]` | Specify the forum moderation | "[specify value]" |
-| `[SOCIAL_RESPONSE]` | Specify the social response | "[specify value]" |
-| `[PLAYER_METRICS]` | Specify the player metrics | "[specify value]" |
-| `[REVENUE_TRACKING]` | Specify the revenue tracking | "[specify value]" |
-| `[BUG_TRACKING]` | Specify the bug tracking | "[specify value]" |
-| `[SERVER_MONITORING]` | Specify the server monitoring | "[specify value]" |
-| `[REVIEW_ANALYSIS]` | Specify the review analysis | "[specify value]" |
-| `[COMPETITOR_ANALYSIS]` | Specify the competitor analysis | "[specify value]" |
+| `[PLATFORM_REACH]` | Platform feature reach | "Steam front page", "App Store featuring", "console dashboard placement" |
+| `[PLATFORM_CONVERSION]` | Platform conversion | "featured games 10x baseline", "algorithmic discovery bonus" |
+| `[PLATFORM_CAC]` | Platform feature CAC | "earned through quality/relationship", "platform promotional support" |
+| `[PLATFORM_LTV]` | Platform-discovered user LTV | "high intent users $15+ LTV", "platform-native payment behavior" |
+| `[CONTENT_MONTH_1_3]` | Months 1-3 post-launch | "bug fixes + QoL", "first seasonal event", "balance patches" |
+| `[CONTENT_MONTH_4_6]` | Months 4-6 post-launch | "first major DLC/expansion", "new game mode", "ranked season 2" |
+| `[CONTENT_MONTH_7_12]` | Months 7-12 post-launch | "year 1 roadmap completion", "anniversary event", "platform expansion" |
+| `[CONTENT_YEAR_2]` | Year 2 content plan | "major expansion", "new progression systems", "community-requested features" |
+| `[LONGTERM_VISION]` | Long-term game vision | "5-year live service plan", "esports ecosystem", "franchise expansion" |
+| `[EOL_PLAN]` | End-of-life planning | "offline mode for shutdown", "server sunset timeline", "community transition" |
+| `[HOTFIX_SCHEDULE]` | Hotfix deployment schedule | "emergency fixes within 24-48hrs", "weekly maintenance window" |
+| `[BALANCE_SCHEDULE]` | Balance patch cadence | "bi-weekly balance adjustments", "major rebalance each season" |
+| `[CONTENT_SCHEDULE]` | Content update schedule | "new content every 2-4 weeks", "consistent content cadence" |
+| `[MAJOR_SCHEDULE]` | Major update schedule | "quarterly major updates", "annual expansion releases" |
+| `[SEASONAL_SCHEDULE]` | Seasonal event schedule | "4 major seasons per year", "holiday events", "anniversary celebration" |
+| `[EXPANSION_SCHEDULE]` | Expansion release schedule | "yearly paid expansion", "free updates between expansions" |
+| `[CUSTOMER_SERVICE]` | Customer support model | "in-game ticket system", "email support", "live chat for VIPs" |
+| `[BUG_REPORTING]` | Bug reporting system | "in-game bug reporter", "public issue tracker", "QA triage process" |
+| `[FEEDBACK_COLLECTION]` | Player feedback collection | "in-game surveys", "focus group programs", "community councils" |
+| `[COMMUNITY_MGMT]` | Community management | "dedicated CM team", "Discord moderation", "regular dev communication" |
+| `[FORUM_MODERATION]` | Forum moderation | "community guidelines enforcement", "volunteer mod program", "toxicity prevention" |
+| `[SOCIAL_RESPONSE]` | Social media response | "active social engagement", "crisis response protocol", "community celebration" |
+| `[PLAYER_METRICS]` | Player behavior metrics | "DAU/MAU/retention dashboards", "funnel analysis", "engagement heatmaps" |
+| `[REVENUE_TRACKING]` | Revenue monitoring | "real-time revenue dashboards", "cohort LTV tracking", "ARPU trends" |
+| `[BUG_TRACKING]` | Bug tracking system | "Jira for bug management", "severity classification", "fix rate monitoring" |
+| `[SERVER_MONITORING]` | Server health monitoring | "uptime dashboards", "latency tracking", "capacity alerts", "incident response" |
+| `[REVIEW_ANALYSIS]` | Review sentiment analysis | "Steam review monitoring", "App Store rating tracking", "sentiment trends" |
+| `[COMPETITOR_ANALYSIS]` | Competitive intelligence | "feature comparison tracking", "market positioning", "content gap analysis" |
 
 ### 3. Narrative & World Building
 

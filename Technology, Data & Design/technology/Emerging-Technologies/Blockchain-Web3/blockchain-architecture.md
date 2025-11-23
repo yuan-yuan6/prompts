@@ -95,299 +95,299 @@ Oracle Integration: [ORACLE_INTEGRATION]
 
 | Variable | Description | Example |
 |----------|-------------|----------|
-| `[PROJECT_NAME]` | Name of the project | "Digital Transformation Initiative" |
-| `[USE_CASE]` | Specify the use case | "[specify value]" |
-| `[BLOCKCHAIN_PLATFORM]` | Specify the blockchain platform | "[specify value]" |
-| `[TRANSACTION_VOLUME]` | Specify the transaction volume | "[specify value]" |
-| `[USER_BASE]` | Specify the user base | "[specify value]" |
-| `[BUDGET]` | Budget allocation for  | "$500,000" |
-| `[DEPLOYMENT_DATE]` | Specify the deployment date | "2025-01-15" |
-| `[ETH_CONSENSUS]` | Specify the eth consensus | "[specify value]" |
-| `[ETH_TPS]` | Specify the eth tps | "[specify value]" |
-| `[ETH_FINAL]` | Specify the eth final | "[specify value]" |
-| `[ETH_COST]` | Specify the eth cost | "[specify value]" |
-| `[ETH_SMART]` | Specify the eth smart | "[specify value]" |
-| `[ETH_ECO]` | Specify the eth eco | "[specify value]" |
-| `[ETH_SCORE]` | Specify the eth score | "[specify value]" |
-| `[POLY_CONSENSUS]` | Specify the poly consensus | "[specify value]" |
-| `[POLY_TPS]` | Specify the poly tps | "[specify value]" |
-| `[POLY_FINAL]` | Specify the poly final | "[specify value]" |
-| `[POLY_COST]` | Specify the poly cost | "[specify value]" |
-| `[POLY_SMART]` | Specify the poly smart | "[specify value]" |
-| `[POLY_ECO]` | Specify the poly eco | "[specify value]" |
-| `[POLY_SCORE]` | Specify the poly score | "[specify value]" |
-| `[SOL_CONSENSUS]` | Specify the sol consensus | "[specify value]" |
-| `[SOL_TPS]` | Specify the sol tps | "[specify value]" |
-| `[SOL_FINAL]` | Specify the sol final | "[specify value]" |
-| `[SOL_COST]` | Specify the sol cost | "[specify value]" |
-| `[SOL_SMART]` | Specify the sol smart | "[specify value]" |
-| `[SOL_ECO]` | Specify the sol eco | "[specify value]" |
-| `[SOL_SCORE]` | Specify the sol score | "[specify value]" |
-| `[AVAX_CONSENSUS]` | Specify the avax consensus | "[specify value]" |
-| `[AVAX_TPS]` | Specify the avax tps | "[specify value]" |
-| `[AVAX_FINAL]` | Specify the avax final | "[specify value]" |
-| `[AVAX_COST]` | Specify the avax cost | "[specify value]" |
-| `[AVAX_SMART]` | Specify the avax smart | "[specify value]" |
-| `[AVAX_ECO]` | Specify the avax eco | "[specify value]" |
-| `[AVAX_SCORE]` | Specify the avax score | "[specify value]" |
-| `[CUSTOM_CONSENSUS]` | Specify the custom consensus | "[specify value]" |
-| `[CUSTOM_TPS]` | Specify the custom tps | "[specify value]" |
-| `[CUSTOM_FINAL]` | Specify the custom final | "[specify value]" |
-| `[CUSTOM_COST]` | Specify the custom cost | "[specify value]" |
-| `[CUSTOM_SMART]` | Specify the custom smart | "[specify value]" |
-| `[CUSTOM_ECO]` | Specify the custom eco | "[specify value]" |
-| `[CUSTOM_SCORE]` | Specify the custom score | "[specify value]" |
-| `[CONTRACT_1]` | Specify the contract 1 | "[specify value]" |
-| `[CONTRACT_1_PURPOSE]` | Specify the contract 1 purpose | "[specify value]" |
-| `[CONTRACT_1_FUNCTIONS]` | Specify the contract 1 functions | "[specify value]" |
-| `[CONTRACT_1_EVENTS]` | Specify the contract 1 events | "[specify value]" |
-| `[CONTRACT_1_MODIFIERS]` | Specify the contract 1 modifiers | "[specify value]" |
-| `[CONTRACT_1_GAS]` | Specify the contract 1 gas | "[specify value]" |
-| `[CONTRACT_2]` | Specify the contract 2 | "[specify value]" |
-| `[CONTRACT_2_PURPOSE]` | Specify the contract 2 purpose | "[specify value]" |
-| `[CONTRACT_2_FUNCTIONS]` | Specify the contract 2 functions | "[specify value]" |
-| `[CONTRACT_2_EVENTS]` | Specify the contract 2 events | "[specify value]" |
-| `[CONTRACT_2_MODIFIERS]` | Specify the contract 2 modifiers | "[specify value]" |
-| `[CONTRACT_2_GAS]` | Specify the contract 2 gas | "[specify value]" |
-| `[CONTRACT_3]` | Specify the contract 3 | "[specify value]" |
-| `[CONTRACT_3_PURPOSE]` | Specify the contract 3 purpose | "[specify value]" |
-| `[CONTRACT_3_FUNCTIONS]` | Specify the contract 3 functions | "[specify value]" |
-| `[CONTRACT_3_EVENTS]` | Specify the contract 3 events | "[specify value]" |
-| `[CONTRACT_3_MODIFIERS]` | Specify the contract 3 modifiers | "[specify value]" |
-| `[CONTRACT_3_GAS]` | Specify the contract 3 gas | "[specify value]" |
-| `[UPGRADE_PATTERN]` | Specify the upgrade pattern | "[specify value]" |
-| `[ACCESS_CONTROL]` | Specify the access control | "[specify value]" |
-| `[ORACLE_INTEGRATION]` | Specify the oracle integration | "[specify value]" |
-| `[CONSENSUS_TYPE]` | Type or category of consensus | "Standard" |
-| `[CONSENSUS_REASON]` | Specify the consensus reason | "[specify value]" |
-| `[CONSENSUS_TRADE]` | Specify the consensus trade | "[specify value]" |
-| `[CONSENSUS_PERF]` | Specify the consensus perf | "[specify value]" |
-| `[CONSENSUS_SEC]` | Specify the consensus sec | "[specify value]" |
-| `[BLOCK_TIME]` | Specify the block time | "[specify value]" |
-| `[BLOCK_REASON]` | Specify the block reason | "[specify value]" |
-| `[BLOCK_TRADE]` | Specify the block trade | "[specify value]" |
-| `[BLOCK_PERF]` | Specify the block perf | "[specify value]" |
-| `[BLOCK_SEC]` | Specify the block sec | "[specify value]" |
-| `[BLOCK_SIZE]` | Specify the block size | "[specify value]" |
-| `[SIZE_REASON]` | Specify the size reason | "[specify value]" |
-| `[SIZE_TRADE]` | Specify the size trade | "[specify value]" |
-| `[SIZE_PERF]` | Specify the size perf | "[specify value]" |
-| `[SIZE_SEC]` | Specify the size sec | "[specify value]" |
-| `[VALIDATOR_COUNT]` | Specify the validator count | "10" |
-| `[VAL_REASON]` | Specify the val reason | "[specify value]" |
-| `[VAL_TRADE]` | Specify the val trade | "[specify value]" |
-| `[VAL_PERF]` | Specify the val perf | "[specify value]" |
-| `[VAL_SEC]` | Specify the val sec | "[specify value]" |
-| `[FINALITY_RULES]` | Specify the finality rules | "[specify value]" |
-| `[FINAL_REASON]` | Specify the final reason | "[specify value]" |
-| `[FINAL_TRADE]` | Specify the final trade | "[specify value]" |
-| `[FINAL_PERF]` | Specify the final perf | "[specify value]" |
-| `[FINAL_SEC]` | Specify the final sec | "[specify value]" |
-| `[TEAM_PCT]` | Specify the team pct | "25%" |
-| `[TEAM_TOKENS]` | Specify the team tokens | "[specify value]" |
-| `[TEAM_VEST]` | Specify the team vest | "[specify value]" |
-| `[TEAM_PURPOSE]` | Specify the team purpose | "[specify value]" |
-| `[TEAM_SCHEDULE]` | Specify the team schedule | "[specify value]" |
-| `[INVESTOR_PCT]` | Specify the investor pct | "25%" |
-| `[INVESTOR_TOKENS]` | Specify the investor tokens | "[specify value]" |
-| `[INVESTOR_VEST]` | Specify the investor vest | "[specify value]" |
-| `[INVESTOR_PURPOSE]` | Specify the investor purpose | "[specify value]" |
-| `[INVESTOR_SCHEDULE]` | Specify the investor schedule | "[specify value]" |
-| `[COMMUNITY_PCT]` | Specify the community pct | "25%" |
-| `[COMMUNITY_TOKENS]` | Specify the community tokens | "[specify value]" |
-| `[COMMUNITY_VEST]` | Specify the community vest | "[specify value]" |
-| `[COMMUNITY_PURPOSE]` | Specify the community purpose | "[specify value]" |
-| `[COMMUNITY_SCHEDULE]` | Specify the community schedule | "[specify value]" |
-| `[ECO_PCT]` | Specify the eco pct | "25%" |
-| `[ECO_TOKENS]` | Specify the eco tokens | "[specify value]" |
-| `[ECO_VEST]` | Specify the eco vest | "[specify value]" |
-| `[ECO_PURPOSE]` | Specify the eco purpose | "[specify value]" |
-| `[ECO_SCHEDULE]` | Specify the eco schedule | "[specify value]" |
-| `[PUBLIC_PCT]` | Specify the public pct | "25%" |
-| `[PUBLIC_TOKENS]` | Specify the public tokens | "[specify value]" |
-| `[PUBLIC_VEST]` | Specify the public vest | "[specify value]" |
-| `[PUBLIC_PURPOSE]` | Specify the public purpose | "[specify value]" |
-| `[PUBLIC_SCHEDULE]` | Specify the public schedule | "[specify value]" |
-| `[STAKE_PCT]` | Specify the stake pct | "25%" |
-| `[STAKE_TOKENS]` | Specify the stake tokens | "[specify value]" |
-| `[STAKE_VEST]` | Specify the stake vest | "[specify value]" |
-| `[STAKE_PURPOSE]` | Specify the stake purpose | "[specify value]" |
-| `[STAKE_SCHEDULE]` | Specify the stake schedule | "[specify value]" |
-| `[UTILITY_1]` | Specify the utility 1 | "[specify value]" |
-| `[UTILITY_1_DESC]` | Specify the utility 1 desc | "[specify value]" |
-| `[UTILITY_2]` | Specify the utility 2 | "[specify value]" |
-| `[UTILITY_2_DESC]` | Specify the utility 2 desc | "[specify value]" |
-| `[UTILITY_3]` | Specify the utility 3 | "[specify value]" |
-| `[UTILITY_3_DESC]` | Specify the utility 3 desc | "[specify value]" |
-| `[UTILITY_4]` | Specify the utility 4 | "[specify value]" |
-| `[UTILITY_4_DESC]` | Specify the utility 4 desc | "[specify value]" |
-| `[TOTAL_SUPPLY]` | Specify the total supply | "[specify value]" |
-| `[INITIAL_CIRC]` | Specify the initial circ | "[specify value]" |
-| `[INFLATION]` | Specify the inflation | "[specify value]" |
-| `[BURN_MECH]` | Specify the burn mech | "[specify value]" |
-| `[SUPPLY_CAP]` | Specify the supply cap | "[specify value]" |
-| `[TX_FEE_MODEL]` | Specify the tx fee model | "[specify value]" |
-| `[STAKE_YIELD]` | Specify the stake yield | "[specify value]" |
-| `[GOV_RIGHTS]` | Specify the gov rights | "[specify value]" |
-| `[REV_SHARE]` | Specify the rev share | "[specify value]" |
-| `[SC_SECURITY]` | Specify the sc security | "[specify value]" |
-| `[SC_THREATS]` | Specify the sc threats | "[specify value]" |
-| `[SC_MITIGATE]` | Specify the sc mitigate | "[specify value]" |
-| `[SC_MONITOR]` | Specify the sc monitor | "[specify value]" |
-| `[SC_RESPONSE]` | Specify the sc response | "[specify value]" |
-| `[NET_SECURITY]` | Specify the net security | "[specify value]" |
-| `[NET_THREATS]` | Specify the net threats | "[specify value]" |
-| `[NET_MITIGATE]` | Specify the net mitigate | "[specify value]" |
-| `[NET_MONITOR]` | Specify the net monitor | "[specify value]" |
-| `[NET_RESPONSE]` | Specify the net response | "[specify value]" |
-| `[KEY_SECURITY]` | Specify the key security | "[specify value]" |
-| `[KEY_THREATS]` | Specify the key threats | "[specify value]" |
-| `[KEY_MITIGATE]` | Specify the key mitigate | "[specify value]" |
-| `[KEY_MONITOR]` | Specify the key monitor | "[specify value]" |
-| `[KEY_RESPONSE]` | Specify the key response | "[specify value]" |
-| `[ORACLE_SECURITY]` | Specify the oracle security | "[specify value]" |
-| `[ORACLE_THREATS]` | Specify the oracle threats | "[specify value]" |
-| `[ORACLE_MITIGATE]` | Specify the oracle mitigate | "[specify value]" |
-| `[ORACLE_MONITOR]` | Specify the oracle monitor | "[specify value]" |
-| `[ORACLE_RESPONSE]` | Specify the oracle response | "[specify value]" |
-| `[UI_SECURITY]` | Specify the ui security | "[specify value]" |
-| `[UI_THREATS]` | Specify the ui threats | "[specify value]" |
-| `[UI_MITIGATE]` | Specify the ui mitigate | "[specify value]" |
-| `[UI_MONITOR]` | Specify the ui monitor | "[specify value]" |
-| `[UI_RESPONSE]` | Specify the ui response | "[specify value]" |
-| `[FRONTEND_TECH]` | Specify the frontend tech | "[specify value]" |
-| `[FRONTEND_PURPOSE]` | Specify the frontend purpose | "[specify value]" |
-| `[FRONTEND_INT]` | Specify the frontend int | "[specify value]" |
-| `[FRONTEND_PERF]` | Specify the frontend perf | "[specify value]" |
-| `[FRONTEND_SCALE]` | Specify the frontend scale | "[specify value]" |
-| `[WEB3_TECH]` | Specify the web3 tech | "[specify value]" |
-| `[WEB3_PURPOSE]` | Specify the web3 purpose | "[specify value]" |
-| `[WEB3_INT]` | Specify the web3 int | "[specify value]" |
-| `[WEB3_PERF]` | Specify the web3 perf | "[specify value]" |
-| `[WEB3_SCALE]` | Specify the web3 scale | "[specify value]" |
-| `[BACKEND_TECH]` | Specify the backend tech | "[specify value]" |
-| `[BACKEND_PURPOSE]` | Specify the backend purpose | "[specify value]" |
-| `[BACKEND_INT]` | Specify the backend int | "[specify value]" |
-| `[BACKEND_PERF]` | Specify the backend perf | "[specify value]" |
-| `[BACKEND_SCALE]` | Specify the backend scale | "[specify value]" |
-| `[STORAGE_TECH]` | Specify the storage tech | "[specify value]" |
-| `[STORAGE_PURPOSE]` | Specify the storage purpose | "[specify value]" |
-| `[STORAGE_INT]` | Specify the storage int | "[specify value]" |
-| `[STORAGE_PERF]` | Specify the storage perf | "[specify value]" |
-| `[STORAGE_SCALE]` | Specify the storage scale | "[specify value]" |
-| `[INDEX_TECH]` | Specify the index tech | "[specify value]" |
-| `[INDEX_PURPOSE]` | Specify the index purpose | "[specify value]" |
-| `[INDEX_INT]` | Specify the index int | "[specify value]" |
-| `[INDEX_PERF]` | Specify the index perf | "[specify value]" |
-| `[INDEX_SCALE]` | Specify the index scale | "[specify value]" |
-| `[ANALYTICS_TECH]` | Specify the analytics tech | "[specify value]" |
-| `[ANALYTICS_PURPOSE]` | Specify the analytics purpose | "[specify value]" |
-| `[ANALYTICS_INT]` | Specify the analytics int | "[specify value]" |
-| `[ANALYTICS_PERF]` | Specify the analytics perf | "[specify value]" |
-| `[ANALYTICS_SCALE]` | Specify the analytics scale | "[specify value]" |
-| `[GOV_MODEL]` | Specify the gov model | "[specify value]" |
-| `[PROPOSAL_THRESHOLD]` | Specify the proposal threshold | "[specify value]" |
-| `[VOTING_PERIOD]` | Specify the voting period | "[specify value]" |
-| `[QUORUM]` | Specify the quorum | "[specify value]" |
-| `[PASS_THRESHOLD]` | Specify the pass threshold | "[specify value]" |
-| `[TIME_LOCK]` | Specify the time lock | "[specify value]" |
-| `[TOKEN_WEIGHT]` | Specify the token weight | "[specify value]" |
-| `[DELEGATION_RULES]` | Specify the delegation rules | "[specify value]" |
-| `[QUADRATIC]` | Specify the quadratic | "[specify value]" |
-| `[REPUTATION]` | Specify the reputation | "[specify value]" |
-| `[TREASURY_SIZE]` | Specify the treasury size | "[specify value]" |
-| `[TREASURY_RULES]` | Specify the treasury rules | "[specify value]" |
-| `[MULTISIG_SETUP]` | Specify the multisig setup | "[specify value]" |
-| `[SPEND_LIMITS]` | Specify the spend limits | "[specify value]" |
-| `[BRIDGE_PROTOCOL]` | Specify the bridge protocol | "[specify value]" |
-| `[BRIDGE_PURPOSE]` | Specify the bridge purpose | "[specify value]" |
-| `[BRIDGE_IMPL]` | Specify the bridge impl | "[specify value]" |
-| `[BRIDGE_SEC]` | Specify the bridge sec | "[specify value]" |
-| `[BRIDGE_PERF]` | Specify the bridge perf | "[specify value]" |
-| `[ORACLE_PROTOCOL]` | Specify the oracle protocol | "[specify value]" |
-| `[ORACLE_PURPOSE]` | Specify the oracle purpose | "[specify value]" |
-| `[ORACLE_IMPL]` | Specify the oracle impl | "[specify value]" |
-| `[ORACLE_SEC]` | Specify the oracle sec | "[specify value]" |
-| `[ORACLE_PERF]` | Specify the oracle perf | "[specify value]" |
-| `[L2_PROTOCOL]` | Specify the l2 protocol | "[specify value]" |
-| `[L2_PURPOSE]` | Specify the l2 purpose | "[specify value]" |
-| `[L2_IMPL]` | Specify the l2 impl | "[specify value]" |
-| `[L2_SEC]` | Specify the l2 sec | "[specify value]" |
-| `[L2_PERF]` | Specify the l2 perf | "[specify value]" |
-| `[DEFI_PROTOCOL]` | Specify the defi protocol | "[specify value]" |
-| `[DEFI_PURPOSE]` | Specify the defi purpose | "[specify value]" |
-| `[DEFI_IMPL]` | Specify the defi impl | "[specify value]" |
-| `[DEFI_SEC]` | Specify the defi sec | "[specify value]" |
-| `[DEFI_PERF]` | Specify the defi perf | "[specify value]" |
-| `[ID_PROTOCOL]` | Specify the id protocol | "[specify value]" |
-| `[ID_PURPOSE]` | Specify the id purpose | "[specify value]" |
-| `[ID_IMPL]` | Specify the id impl | "[specify value]" |
-| `[ID_SEC]` | Specify the id sec | "[specify value]" |
-| `[ID_PERF]` | Specify the id perf | "[specify value]" |
-| `[JURIS_1]` | Specify the juris 1 | "[specify value]" |
-| `[REQ_1]` | Specify the req 1 | "[specify value]" |
-| `[IMPL_1]` | Specify the impl 1 | "[specify value]" |
-| `[DOC_1]` | Specify the doc 1 | "[specify value]" |
-| `[AUDIT_1]` | Specify the audit 1 | "[specify value]" |
-| `[RISK_1]` | Specify the risk 1 | "[specify value]" |
-| `[JURIS_2]` | Specify the juris 2 | "[specify value]" |
-| `[REQ_2]` | Specify the req 2 | "[specify value]" |
-| `[IMPL_2]` | Specify the impl 2 | "[specify value]" |
-| `[DOC_2]` | Specify the doc 2 | "[specify value]" |
-| `[AUDIT_2]` | Specify the audit 2 | "[specify value]" |
-| `[RISK_2]` | Specify the risk 2 | "[specify value]" |
-| `[JURIS_3]` | Specify the juris 3 | "[specify value]" |
-| `[REQ_3]` | Specify the req 3 | "[specify value]" |
-| `[IMPL_3]` | Specify the impl 3 | "[specify value]" |
-| `[DOC_3]` | Specify the doc 3 | "[specify value]" |
-| `[AUDIT_3]` | Specify the audit 3 | "[specify value]" |
-| `[RISK_3]` | Specify the risk 3 | "[specify value]" |
-| `[JURIS_4]` | Specify the juris 4 | "[specify value]" |
-| `[REQ_4]` | Specify the req 4 | "[specify value]" |
-| `[IMPL_4]` | Specify the impl 4 | "[specify value]" |
-| `[DOC_4]` | Specify the doc 4 | "[specify value]" |
-| `[AUDIT_4]` | Specify the audit 4 | "[specify value]" |
-| `[RISK_4]` | Specify the risk 4 | "[specify value]" |
-| `[KYC_L1]` | Specify the kyc l1 | "[specify value]" |
-| `[LIMIT_L1]` | Specify the limit l1 | "[specify value]" |
-| `[KYC_L2]` | Specify the kyc l2 | "[specify value]" |
-| `[LIMIT_L2]` | Specify the limit l2 | "[specify value]" |
-| `[KYC_L3]` | Specify the kyc l3 | "[specify value]" |
-| `[LIMIT_L3]` | Specify the limit l3 | "[specify value]" |
-| `[TX_MONITORING]` | Specify the tx monitoring | "[specify value]" |
-| `[SUSPICIOUS_ACTIVITY]` | Specify the suspicious activity | "[specify value]" |
-| `[REPORTING_REQ]` | Specify the reporting req | "[specify value]" |
-| `[BLACKLIST_MGMT]` | Specify the blacklist mgmt | "[specify value]" |
-| `[TX_CURRENT]` | Specify the tx current | "[specify value]" |
-| `[TX_TARGET]` | Target or intended tx | "[specify value]" |
-| `[TX_TOOL]` | Specify the tx tool | "[specify value]" |
-| `[TX_ALERT]` | Specify the tx alert | "[specify value]" |
-| `[TX_OPT]` | Specify the tx opt | "[specify value]" |
-| `[GAS_CURRENT]` | Specify the gas current | "[specify value]" |
-| `[GAS_TARGET]` | Target or intended gas | "[specify value]" |
-| `[GAS_TOOL]` | Specify the gas tool | "[specify value]" |
-| `[GAS_ALERT]` | Specify the gas alert | "[specify value]" |
-| `[GAS_OPT]` | Specify the gas opt | "[specify value]" |
-| `[PROP_CURRENT]` | Specify the prop current | "[specify value]" |
-| `[PROP_TARGET]` | Target or intended prop | "[specify value]" |
-| `[PROP_TOOL]` | Specify the prop tool | "[specify value]" |
-| `[PROP_ALERT]` | Specify the prop alert | "[specify value]" |
-| `[PROP_OPT]` | Specify the prop opt | "[specify value]" |
-| `[SYNC_CURRENT]` | Specify the sync current | "[specify value]" |
-| `[SYNC_TARGET]` | Target or intended sync | "[specify value]" |
-| `[SYNC_TOOL]` | Specify the sync tool | "[specify value]" |
-| `[SYNC_ALERT]` | Specify the sync alert | "[specify value]" |
-| `[SYNC_OPT]` | Specify the sync opt | "[specify value]" |
-| `[EVENT_CURRENT]` | Specify the event current | "[specify value]" |
-| `[EVENT_TARGET]` | Target or intended event | "[specify value]" |
-| `[EVENT_TOOL]` | Specify the event tool | "[specify value]" |
-| `[EVENT_ALERT]` | Specify the event alert | "[specify value]" |
-| `[EVENT_OPT]` | Specify the event opt | "[specify value]" |
-| `[USER_CURRENT]` | Specify the user current | "[specify value]" |
-| `[USER_TARGET]` | Target or intended user | "[specify value]" |
-| `[USER_TOOL]` | Specify the user tool | "[specify value]" |
-| `[USER_ALERT]` | Specify the user alert | "[specify value]" |
-| `[USER_OPT]` | Specify the user opt | "[specify value]" |
+| `[PROJECT_NAME]` | Name of the project | "DeFi Lending Protocol", "NFT Marketplace", "Supply Chain Tracker" |
+| `[USE_CASE]` | Primary blockchain use case | "DeFi lending/borrowing", "NFT minting and trading", "supply chain provenance", "tokenized real estate" |
+| `[BLOCKCHAIN_PLATFORM]` | Target blockchain platform | "Ethereum Mainnet", "Polygon PoS", "Solana", "Arbitrum One", "Hyperledger Fabric" |
+| `[TRANSACTION_VOLUME]` | Expected transactions per second | "50", "500", "5000", "10000+" |
+| `[USER_BASE]` | Target number of users | "10,000", "100,000", "1M+" |
+| `[BUDGET]` | Budget allocation for project | "$500,000", "$2M", "$10M" |
+| `[DEPLOYMENT_DATE]` | Target deployment date | "2025-01-15", "Q2 2025", "2025-06-30" |
+| `[ETH_CONSENSUS]` | Ethereum consensus mechanism | "Proof of Stake (PoS)", "Gasper (Casper FFG + LMD GHOST)" |
+| `[ETH_TPS]` | Ethereum transactions per second | "15-30 TPS (L1)", "2000+ TPS (with L2)" |
+| `[ETH_FINAL]` | Ethereum finality time | "12-15 minutes (2 epochs)", "~6 minutes soft finality" |
+| `[ETH_COST]` | Ethereum transaction cost | "$0.50-$50 (varies with gas)", "$1-5 average" |
+| `[ETH_SMART]` | Ethereum smart contract support | "Solidity, Vyper, full EVM compatibility" |
+| `[ETH_ECO]` | Ethereum ecosystem maturity | "Largest DeFi ecosystem ($50B+ TVL), extensive tooling" |
+| `[ETH_SCORE]` | Ethereum platform score | "8", "9" |
+| `[POLY_CONSENSUS]` | Polygon consensus mechanism | "PoS with Heimdall/Bor", "Plasma checkpoints to Ethereum" |
+| `[POLY_TPS]` | Polygon transactions per second | "7,000+ TPS", "65,000 theoretical max" |
+| `[POLY_FINAL]` | Polygon finality time | "2 seconds (soft)", "30 min (Ethereum checkpoint)" |
+| `[POLY_COST]` | Polygon transaction cost | "$0.001-$0.01", "fraction of a cent" |
+| `[POLY_SMART]` | Polygon smart contract support | "Full EVM compatibility, Solidity native" |
+| `[POLY_ECO]` | Polygon ecosystem maturity | "Strong DeFi/NFT ecosystem, Ethereum bridge native" |
+| `[POLY_SCORE]` | Polygon platform score | "7", "8" |
+| `[SOL_CONSENSUS]` | Solana consensus mechanism | "Proof of History (PoH) + Tower BFT", "Turbine block propagation" |
+| `[SOL_TPS]` | Solana transactions per second | "3,000-5,000 TPS actual", "65,000 theoretical" |
+| `[SOL_FINAL]` | Solana finality time | "400ms slot time", "~12 seconds for confirmation" |
+| `[SOL_COST]` | Solana transaction cost | "$0.00025", "sub-cent transactions" |
+| `[SOL_SMART]` | Solana smart contract support | "Rust, C, C++ via BPF", "Anchor framework" |
+| `[SOL_ECO]` | Solana ecosystem maturity | "Growing DeFi ($1B+ TVL), strong NFT market" |
+| `[SOL_SCORE]` | Solana platform score | "7", "8" |
+| `[AVAX_CONSENSUS]` | Avalanche consensus mechanism | "Snowman consensus", "Avalanche DAG-based protocol" |
+| `[AVAX_TPS]` | Avalanche transactions per second | "4,500+ TPS per subnet", "theoretically unlimited with subnets" |
+| `[AVAX_FINAL]` | Avalanche finality time | "<2 seconds", "sub-second with high confidence" |
+| `[AVAX_COST]` | Avalanche transaction cost | "$0.01-$0.10", "low and predictable" |
+| `[AVAX_SMART]` | Avalanche smart contract support | "EVM compatible (C-Chain), Solidity native" |
+| `[AVAX_ECO]` | Avalanche ecosystem maturity | "Strong DeFi presence, enterprise subnet adoption" |
+| `[AVAX_SCORE]` | Avalanche platform score | "7", "8" |
+| `[CUSTOM_CONSENSUS]` | Custom/private chain consensus | "PBFT", "Raft", "IBFT 2.0", "Tendermint" |
+| `[CUSTOM_TPS]` | Custom chain transactions per second | "1,000-10,000 TPS", "configurable based on validator count" |
+| `[CUSTOM_FINAL]` | Custom chain finality time | "Instant finality (PBFT)", "1-3 seconds" |
+| `[CUSTOM_COST]` | Custom chain transaction cost | "$0 (permissioned)", "fixed fee structure" |
+| `[CUSTOM_SMART]` | Custom chain smart contract support | "EVM compatible", "custom VM", "Chaincode (Hyperledger)" |
+| `[CUSTOM_ECO]` | Custom chain ecosystem | "Private/consortium only", "enterprise integrations" |
+| `[CUSTOM_SCORE]` | Custom chain platform score | "6", "7", "8" |
+| `[CONTRACT_1]` | Primary smart contract name | "TokenVault.sol", "LendingPool.sol", "NFTMarketplace.sol" |
+| `[CONTRACT_1_PURPOSE]` | Contract 1 primary function | "Core token custody and yield distribution", "Main lending/borrowing logic" |
+| `[CONTRACT_1_FUNCTIONS]` | Contract 1 key functions | "deposit(), withdraw(), stake(), claim()", "borrow(), repay(), liquidate()" |
+| `[CONTRACT_1_EVENTS]` | Contract 1 emitted events | "Deposited, Withdrawn, RewardsClaimed", "Borrowed, Repaid, Liquidated" |
+| `[CONTRACT_1_MODIFIERS]` | Contract 1 access modifiers | "onlyOwner, whenNotPaused, nonReentrant" |
+| `[CONTRACT_1_GAS]` | Contract 1 gas estimate | "50,000-150,000 gas per tx", "~$2-10 at 30 gwei" |
+| `[CONTRACT_2]` | Secondary smart contract name | "GovernanceToken.sol", "PriceOracle.sol", "AccessControl.sol" |
+| `[CONTRACT_2_PURPOSE]` | Contract 2 primary function | "Governance voting and delegation", "Price feed aggregation" |
+| `[CONTRACT_2_FUNCTIONS]` | Contract 2 key functions | "delegate(), vote(), propose()", "getPrice(), updateFeed()" |
+| `[CONTRACT_2_EVENTS]` | Contract 2 emitted events | "ProposalCreated, VoteCast, Executed", "PriceUpdated, FeedAdded" |
+| `[CONTRACT_2_MODIFIERS]` | Contract 2 access modifiers | "onlyGovernance, onlyOracle, timelocked" |
+| `[CONTRACT_2_GAS]` | Contract 2 gas estimate | "30,000-80,000 gas per tx", "~$1-5 at 30 gwei" |
+| `[CONTRACT_3]` | Tertiary smart contract name | "Treasury.sol", "RewardsDistributor.sol", "ProxyAdmin.sol" |
+| `[CONTRACT_3_PURPOSE]` | Contract 3 primary function | "Protocol fee collection and distribution", "Reward calculation and claiming" |
+| `[CONTRACT_3_FUNCTIONS]` | Contract 3 key functions | "collectFees(), distribute(), allocate()", "calculateRewards(), harvest()" |
+| `[CONTRACT_3_EVENTS]` | Contract 3 emitted events | "FeesCollected, FundsAllocated", "RewardsDistributed, Harvested" |
+| `[CONTRACT_3_MODIFIERS]` | Contract 3 access modifiers | "onlyTreasury, onlyMultisig, timelock" |
+| `[CONTRACT_3_GAS]` | Contract 3 gas estimate | "40,000-100,000 gas per tx", "~$1-6 at 30 gwei" |
+| `[UPGRADE_PATTERN]` | Smart contract upgrade pattern | "Transparent Proxy (OpenZeppelin)", "UUPS Proxy", "Diamond Pattern (EIP-2535)", "Beacon Proxy" |
+| `[ACCESS_CONTROL]` | Access control implementation | "OpenZeppelin AccessControl", "Ownable2Step", "Role-based with timelock" |
+| `[ORACLE_INTEGRATION]` | Oracle service integration | "Chainlink Price Feeds", "Pyth Network", "Band Protocol", "custom TWAP oracle" |
+| `[CONSENSUS_TYPE]` | Type or category of consensus | "Proof of Stake", "Delegated PoS", "PBFT", "Proof of Authority" |
+| `[CONSENSUS_REASON]` | Rationale for consensus choice | "Balance of decentralization and throughput", "Enterprise compliance requirements" |
+| `[CONSENSUS_TRADE]` | Consensus trade-offs | "Lower decentralization for higher TPS", "Slower finality for stronger security" |
+| `[CONSENSUS_PERF]` | Consensus performance impact | "~1000 TPS with 100 validators", "Sub-second blocks possible" |
+| `[CONSENSUS_SEC]` | Consensus security implications | "33% fault tolerance", "Slashing for malicious behavior" |
+| `[BLOCK_TIME]` | Target block time | "12 seconds (Ethereum)", "2 seconds (Polygon)", "400ms (Solana)" |
+| `[BLOCK_REASON]` | Rationale for block time | "Matches user experience expectations", "Optimized for DeFi arbitrage" |
+| `[BLOCK_TRADE]` | Block time trade-offs | "Faster blocks = more chain growth", "Slower = better propagation" |
+| `[BLOCK_PERF]` | Block time performance impact | "Higher throughput with shorter blocks", "More consistent gas prices" |
+| `[BLOCK_SEC]` | Block time security implications | "Longer time = more secure confirmations", "MEV extraction window" |
+| `[BLOCK_SIZE]` | Maximum block size | "30M gas (Ethereum)", "80M gas (Polygon)", "48MB (Solana)" |
+| `[SIZE_REASON]` | Rationale for block size | "Balance state growth with throughput", "Support complex DeFi transactions" |
+| `[SIZE_TRADE]` | Block size trade-offs | "Larger blocks = more centralization pressure", "Higher hardware requirements" |
+| `[SIZE_PERF]` | Block size performance impact | "More transactions per block", "Longer propagation times" |
+| `[SIZE_SEC]` | Block size security implications | "Potential for spam attacks", "State bloat concerns" |
+| `[VALIDATOR_COUNT]` | Number of validators | "10", "21", "100", "1000+" |
+| `[VAL_REASON]` | Rationale for validator count | "Balance decentralization with performance", "Regulatory requirements" |
+| `[VAL_TRADE]` | Validator count trade-offs | "More validators = slower consensus", "Fewer = centralization risk" |
+| `[VAL_PERF]` | Validator performance impact | "Linear slowdown with validator count", "Network overhead increases" |
+| `[VAL_SEC]` | Validator security implications | "Higher count = harder to attack", "Economic security from staking" |
+| `[FINALITY_RULES]` | Transaction finality rules | "2 epoch finality (~12 min)", "Single slot finality", "Instant PBFT finality" |
+| `[FINAL_REASON]` | Rationale for finality rules | "High-value transactions need strong guarantees", "UX requirements for gaming" |
+| `[FINAL_TRADE]` | Finality trade-offs | "Faster finality = more complex consensus", "Probabilistic vs deterministic" |
+| `[FINAL_PERF]` | Finality performance impact | "Message complexity increases", "State commitment overhead" |
+| `[FINAL_SEC]` | Finality security implications | "Irreversible after finality", "Reorg protection strength" |
+| `[TEAM_PCT]` | Team token allocation percentage | "15%", "20%", "25%" |
+| `[TEAM_TOKENS]` | Team token amount | "15,000,000", "20,000,000", "25,000,000" |
+| `[TEAM_VEST]` | Team vesting period | "4-year linear with 1-year cliff", "3-year monthly unlock" |
+| `[TEAM_PURPOSE]` | Purpose of team allocation | "Core team compensation and retention", "Align long-term incentives" |
+| `[TEAM_SCHEDULE]` | Team token release schedule | "25% at cliff, then monthly over 36 months", "Linear 48-month vesting" |
+| `[INVESTOR_PCT]` | Investor token allocation percentage | "15%", "20%", "25%" |
+| `[INVESTOR_TOKENS]` | Investor token amount | "15,000,000", "20,000,000", "25,000,000" |
+| `[INVESTOR_VEST]` | Investor vesting period | "2-year linear with 6-month cliff", "18-month unlock schedule" |
+| `[INVESTOR_PURPOSE]` | Purpose of investor allocation | "Seed/Series A funding rounds", "Strategic partnership capital" |
+| `[INVESTOR_SCHEDULE]` | Investor release schedule | "10% TGE, 90% over 24 months", "Quarterly unlocks over 2 years" |
+| `[COMMUNITY_PCT]` | Community token allocation percentage | "30%", "40%", "50%" |
+| `[COMMUNITY_TOKENS]` | Community token amount | "30,000,000", "40,000,000", "50,000,000" |
+| `[COMMUNITY_VEST]` | Community vesting period | "5-year distribution", "Ongoing emissions" |
+| `[COMMUNITY_PURPOSE]` | Purpose of community allocation | "DAO treasury and governance", "Community grants and bounties" |
+| `[COMMUNITY_SCHEDULE]` | Community release schedule | "Controlled by DAO governance votes", "Quarterly grant cycles" |
+| `[ECO_PCT]` | Ecosystem fund allocation percentage | "10%", "15%", "20%" |
+| `[ECO_TOKENS]` | Ecosystem fund token amount | "10,000,000", "15,000,000", "20,000,000" |
+| `[ECO_VEST]` | Ecosystem fund vesting period | "5-year strategic deployment", "As-needed basis" |
+| `[ECO_PURPOSE]` | Purpose of ecosystem allocation | "Partnership incentives and integrations", "Developer grants" |
+| `[ECO_SCHEDULE]` | Ecosystem release schedule | "DAO-controlled disbursement", "Milestone-based unlocks" |
+| `[PUBLIC_PCT]` | Public sale allocation percentage | "5%", "10%", "15%" |
+| `[PUBLIC_TOKENS]` | Public sale token amount | "5,000,000", "10,000,000", "15,000,000" |
+| `[PUBLIC_VEST]` | Public sale vesting period | "No vesting (fully liquid)", "6-month linear vest" |
+| `[PUBLIC_PURPOSE]` | Purpose of public allocation | "Initial liquidity and distribution", "Community ownership" |
+| `[PUBLIC_SCHEDULE]` | Public sale release schedule | "100% at TGE", "50% TGE, 50% over 6 months" |
+| `[STAKE_PCT]` | Staking rewards allocation percentage | "10%", "15%", "20%" |
+| `[STAKE_TOKENS]` | Staking rewards token amount | "10,000,000", "15,000,000", "20,000,000" |
+| `[STAKE_VEST]` | Staking rewards vesting period | "Distributed over 5 years", "Emissions halving every 2 years" |
+| `[STAKE_PURPOSE]` | Purpose of staking allocation | "Secure network through staking incentives", "Long-term holder rewards" |
+| `[STAKE_SCHEDULE]` | Staking release schedule | "Block-by-block emissions", "Weekly distribution epochs" |
+| `[UTILITY_1]` | Token utility function 1 | "Governance voting", "Protocol fee payment" |
+| `[UTILITY_1_DESC]` | Utility 1 description | "1 token = 1 vote on protocol proposals", "Discounted fees when paid in native token" |
+| `[UTILITY_2]` | Token utility function 2 | "Staking rewards", "Liquidity mining" |
+| `[UTILITY_2_DESC]` | Utility 2 description | "Earn 8-15% APY by staking tokens", "Provide liquidity to earn token rewards" |
+| `[UTILITY_3]` | Token utility function 3 | "Access tiers", "Collateral" |
+| `[UTILITY_3_DESC]` | Utility 3 description | "Higher tiers unlock premium features", "Use as collateral for borrowing" |
+| `[UTILITY_4]` | Token utility function 4 | "Revenue sharing", "Buyback and burn" |
+| `[UTILITY_4_DESC]` | Utility 4 description | "Pro-rata share of protocol revenue", "Protocol profits used to buy and burn tokens" |
+| `[TOTAL_SUPPLY]` | Total token supply | "100,000,000", "1,000,000,000", "10,000,000,000" |
+| `[INITIAL_CIRC]` | Initial circulating supply | "10,000,000 (10%)", "50,000,000 (5%)", "100,000,000 (10%)" |
+| `[INFLATION]` | Annual inflation rate | "0% (fixed supply)", "2% decreasing", "5% capped" |
+| `[BURN_MECH]` | Token burn mechanism | "50% of fees burned", "Buyback and burn from revenue", "Deflationary on transfers" |
+| `[SUPPLY_CAP]` | Maximum supply cap | "Fixed at 100M", "Hard cap 1B", "Soft cap with governance control" |
+| `[TX_FEE_MODEL]` | Transaction fee model | "0.3% swap fee", "Dynamic gas pricing", "Flat fee per transaction" |
+| `[STAKE_YIELD]` | Staking yield percentage | "8%", "12%", "15%" |
+| `[GOV_RIGHTS]` | Governance rights description | "Vote on protocol parameters and upgrades", "Propose and ratify changes" |
+| `[REV_SHARE]` | Revenue sharing model | "30% to stakers", "50% buyback, 50% treasury", "Pro-rata to veToken holders" |
+| `[SC_SECURITY]` | Smart contract security measures | "OpenZeppelin libraries, Slither analysis", "Formal verification, multi-audit" |
+| `[SC_THREATS]` | Smart contract threat vectors | "Reentrancy, flash loan attacks, oracle manipulation", "Integer overflow, access control bypass" |
+| `[SC_MITIGATE]` | Smart contract risk mitigation | "ReentrancyGuard, CEI pattern, timelock", "Comprehensive test coverage, invariant testing" |
+| `[SC_MONITOR]` | Smart contract monitoring tools | "Tenderly alerts, OpenZeppelin Defender", "Forta agents, custom monitoring" |
+| `[SC_RESPONSE]` | Smart contract incident response | "Emergency pause function, bug bounty payout", "Governance fast-track for fixes" |
+| `[NET_SECURITY]` | Network security measures | "DDoS protection, rate limiting", "Node authentication, encrypted P2P" |
+| `[NET_THREATS]` | Network threat vectors | "Eclipse attacks, Sybil attacks", "51% attacks, long-range attacks" |
+| `[NET_MITIGATE]` | Network risk mitigation | "Peer diversity requirements, checkpoint systems", "Slashing conditions" |
+| `[NET_MONITOR]` | Network monitoring tools | "Node health dashboards, peer metrics", "Chain analytics, anomaly detection" |
+| `[NET_RESPONSE]` | Network incident response | "Emergency validator coordination", "Chain halt and recovery procedures" |
+| `[KEY_SECURITY]` | Key management security | "Hardware security modules (HSM)", "Multi-party computation (MPC)" |
+| `[KEY_THREATS]` | Key management threats | "Private key theft, insider threats", "Social engineering, phishing" |
+| `[KEY_MITIGATE]` | Key management mitigation | "Multi-sig requirements, key rotation", "Hardware wallets, air-gapped signing" |
+| `[KEY_MONITOR]` | Key management monitoring | "Access logs, anomaly detection", "Transaction pattern analysis" |
+| `[KEY_RESPONSE]` | Key management incident response | "Key rotation procedures, fund migration", "Incident disclosure process" |
+| `[ORACLE_SECURITY]` | Oracle security measures | "Multiple oracle sources, TWAP fallback", "Chainlink decentralized feeds" |
+| `[ORACLE_THREATS]` | Oracle threat vectors | "Price manipulation, flash loan attacks", "Oracle downtime, stale data" |
+| `[ORACLE_MITIGATE]` | Oracle risk mitigation | "Price deviation checks, circuit breakers", "Fallback oracles, manual override" |
+| `[ORACLE_MONITOR]` | Oracle monitoring tools | "Price feed dashboards, deviation alerts", "Heartbeat monitoring" |
+| `[ORACLE_RESPONSE]` | Oracle incident response | "Pause affected markets, switch to backup", "Governance review of oracle config" |
+| `[UI_SECURITY]` | Frontend UI security measures | "CSP headers, HTTPS enforcement", "Input validation, XSS prevention" |
+| `[UI_THREATS]` | UI threat vectors | "Phishing sites, DNS hijacking", "Malicious browser extensions" |
+| `[UI_MITIGATE]` | UI risk mitigation | "ENS domains, checksum verification", "Security warnings, transaction simulation" |
+| `[UI_MONITOR]` | UI monitoring tools | "Uptime monitoring, error tracking", "User behavior analytics" |
+| `[UI_RESPONSE]` | UI incident response | "Emergency banner warnings", "Domain takedown procedures" |
+| `[FRONTEND_TECH]` | Frontend technology stack | "React 18 + TypeScript + Vite", "Next.js 14 + TailwindCSS" |
+| `[FRONTEND_PURPOSE]` | Frontend purpose | "User-facing DApp interface", "Trading dashboard and portfolio" |
+| `[FRONTEND_INT]` | Frontend integrations | "Wagmi + RainbowKit for wallet connection", "SWR for data fetching" |
+| `[FRONTEND_PERF]` | Frontend performance metrics | "<2s initial load, <100ms interactions", "95+ Lighthouse score" |
+| `[FRONTEND_SCALE]` | Frontend scaling strategy | "CDN distribution, edge caching", "Serverless functions for API" |
+| `[WEB3_TECH]` | Web3 integration technology | "Ethers.js v6", "Viem + Wagmi", "Web3.js" |
+| `[WEB3_PURPOSE]` | Web3 integration purpose | "Blockchain RPC calls and transaction signing", "Event listening and state sync" |
+| `[WEB3_INT]` | Web3 integration points | "MetaMask, WalletConnect, Coinbase Wallet", "Ledger, Trezor hardware wallets" |
+| `[WEB3_PERF]` | Web3 performance metrics | "<500ms RPC response time", "Optimistic updates with confirmation" |
+| `[WEB3_SCALE]` | Web3 scaling approach | "Multiple RPC endpoints, load balancing", "WebSocket for real-time events" |
+| `[BACKEND_TECH]` | Backend technology stack | "Node.js + Express + PostgreSQL", "Python FastAPI + Redis" |
+| `[BACKEND_PURPOSE]` | Backend purpose | "API gateway and off-chain data", "Transaction indexing and caching" |
+| `[BACKEND_INT]` | Backend integrations | "The Graph subgraph queries", "Alchemy/Infura RPC providers" |
+| `[BACKEND_PERF]` | Backend performance metrics | "<50ms API response time", "99.9% uptime SLA" |
+| `[BACKEND_SCALE]` | Backend scaling strategy | "Horizontal auto-scaling, read replicas", "Kubernetes deployment" |
+| `[STORAGE_TECH]` | Decentralized storage technology | "IPFS + Pinata pinning", "Arweave for permanent storage" |
+| `[STORAGE_PURPOSE]` | Storage purpose | "NFT metadata and images", "Document and proof storage" |
+| `[STORAGE_INT]` | Storage integrations | "NFT.Storage, Web3.Storage", "Fleek for hosting" |
+| `[STORAGE_PERF]` | Storage performance metrics | "<1s retrieval via gateway", "Global CDN distribution" |
+| `[STORAGE_SCALE]` | Storage scaling approach | "Multiple pinning services", "Redundant gateways" |
+| `[INDEX_TECH]` | Blockchain indexing technology | "The Graph (subgraphs)", "Goldsky, Envio" |
+| `[INDEX_PURPOSE]` | Indexing purpose | "Query blockchain events and state efficiently", "Historical data access" |
+| `[INDEX_INT]` | Indexing integrations | "GraphQL API endpoints", "Custom indexer webhooks" |
+| `[INDEX_PERF]` | Indexing performance metrics | "<100ms query response", "Real-time block indexing" |
+| `[INDEX_SCALE]` | Indexing scaling approach | "Decentralized indexer network", "Multiple subgraph deployments" |
+| `[ANALYTICS_TECH]` | Analytics technology stack | "Dune Analytics + custom dashboards", "Flipside Crypto, Nansen" |
+| `[ANALYTICS_PURPOSE]` | Analytics purpose | "Protocol metrics and user insights", "TVL tracking, volume analysis" |
+| `[ANALYTICS_INT]` | Analytics integrations | "DeFi Llama API, Token Terminal", "Custom SQL queries" |
+| `[ANALYTICS_PERF]` | Analytics performance metrics | "Daily data refresh, hourly for key metrics", "Real-time alerts" |
+| `[ANALYTICS_SCALE]` | Analytics scaling approach | "Data warehouse for historical", "Streaming for real-time" |
+| `[GOV_MODEL]` | Governance model | "Token-weighted voting", "veToken (vote-escrowed)", "Optimistic governance" |
+| `[PROPOSAL_THRESHOLD]` | Proposal creation threshold | "100,000 tokens (0.1%)", "10,000 tokens", "1% of supply" |
+| `[VOTING_PERIOD]` | Voting period duration | "7 days", "3 days", "14 days" |
+| `[QUORUM]` | Quorum requirement | "4% of total supply", "10% of circulating", "1M tokens minimum" |
+| `[PASS_THRESHOLD]` | Proposal pass threshold | "50% majority", "66% supermajority", "Simple majority" |
+| `[TIME_LOCK]` | Timelock delay | "2 days", "48 hours", "7 days for major changes" |
+| `[TOKEN_WEIGHT]` | Token voting weight model | "1 token = 1 vote", "Quadratic voting", "Time-weighted (veToken)" |
+| `[DELEGATION_RULES]` | Vote delegation rules | "Full delegation allowed", "Partial delegation supported", "No re-delegation" |
+| `[QUADRATIC]` | Quadratic voting implementation | "Enabled for grants", "Disabled", "Optional per proposal" |
+| `[REPUTATION]` | Reputation system | "Not implemented", "Karma-based boost", "Participation multiplier" |
+| `[TREASURY_SIZE]` | Treasury size | "$10M", "$50M", "$100M+" |
+| `[TREASURY_RULES]` | Treasury management rules | "DAO vote required for >$100K", "Diversified across stablecoins" |
+| `[MULTISIG_SETUP]` | Multi-sig configuration | "3-of-5 Gnosis Safe", "4-of-7 with timelock", "5-of-9 council" |
+| `[SPEND_LIMITS]` | Spending limits | "<$50K: committee, >$50K: full DAO vote", "Monthly budget caps" |
+| `[BRIDGE_PROTOCOL]` | Cross-chain bridge protocol | "LayerZero", "Axelar", "Wormhole", "Connext" |
+| `[BRIDGE_PURPOSE]` | Bridge purpose | "Cross-chain token transfers", "Multi-chain liquidity" |
+| `[BRIDGE_IMPL]` | Bridge implementation | "Native bridge integration", "Canonical bridge with fallback" |
+| `[BRIDGE_SEC]` | Bridge security measures | "Rate limiting, fraud proofs", "Optimistic verification period" |
+| `[BRIDGE_PERF]` | Bridge performance | "15-30 min finality", "<5 min with fast path" |
+| `[ORACLE_PROTOCOL]` | Oracle protocol | "Chainlink", "Pyth Network", "Band Protocol", "API3" |
+| `[ORACLE_PURPOSE]` | Oracle purpose | "Price feeds for DeFi operations", "External data for smart contracts" |
+| `[ORACLE_IMPL]` | Oracle implementation | "Direct integration via interface", "Proxy pattern for upgrades" |
+| `[ORACLE_SEC]` | Oracle security | "Multiple feed sources", "Deviation threshold checks" |
+| `[ORACLE_PERF]` | Oracle performance | "Heartbeat: 1 hour", "Deviation: 0.5% trigger" |
+| `[L2_PROTOCOL]` | Layer 2 protocol | "Arbitrum One", "Optimism", "zkSync Era", "Base" |
+| `[L2_PURPOSE]` | L2 purpose | "Scalability and lower costs", "High-frequency trading support" |
+| `[L2_IMPL]` | L2 implementation | "Native deployment on L2", "Bridged from L1" |
+| `[L2_SEC]` | L2 security model | "Fraud proofs (Optimistic)", "ZK proofs (zkRollup)" |
+| `[L2_PERF]` | L2 performance | "2000+ TPS, <$0.10 per tx", "Sub-second confirmations" |
+| `[DEFI_PROTOCOL]` | DeFi protocol integration | "Uniswap V3", "Aave V3", "Compound V3", "Curve" |
+| `[DEFI_PURPOSE]` | DeFi integration purpose | "Liquidity provision", "Lending/borrowing composability" |
+| `[DEFI_IMPL]` | DeFi implementation | "Direct smart contract calls", "Aggregator routing" |
+| `[DEFI_SEC]` | DeFi security considerations | "Audit status verification", "TVL and track record check" |
+| `[DEFI_PERF]` | DeFi performance | "Optimized gas for common paths", "MEV protection" |
+| `[ID_PROTOCOL]` | Identity protocol | "ENS", "Lens Protocol", "Worldcoin", "Polygon ID" |
+| `[ID_PURPOSE]` | Identity purpose | "User verification and reputation", "Sybil resistance" |
+| `[ID_IMPL]` | Identity implementation | "Optional verification badge", "Required for governance" |
+| `[ID_SEC]` | Identity security | "Privacy-preserving proofs", "Selective disclosure" |
+| `[ID_PERF]` | Identity performance | "One-time verification", "Cached credentials" |
+| `[JURIS_1]` | Jurisdiction 1 | "United States", "European Union", "Singapore" |
+| `[REQ_1]` | Jurisdiction 1 requirements | "SEC securities compliance", "MiCA regulation", "MAS licensing" |
+| `[IMPL_1]` | Jurisdiction 1 implementation | "Accredited investor verification", "GDPR data handling" |
+| `[DOC_1]` | Jurisdiction 1 documentation | "Legal opinion from US counsel", "Regulatory filing records" |
+| `[AUDIT_1]` | Jurisdiction 1 audit status | "Annual compliance audit", "Quarterly reviews" |
+| `[RISK_1]` | Jurisdiction 1 risk level | "High", "Medium", "Low" |
+| `[JURIS_2]` | Jurisdiction 2 | "United Kingdom", "Switzerland", "UAE" |
+| `[REQ_2]` | Jurisdiction 2 requirements | "FCA registration", "FINMA guidelines", "VARA licensing" |
+| `[IMPL_2]` | Jurisdiction 2 implementation | "UK customer restrictions", "Swiss foundation structure" |
+| `[DOC_2]` | Jurisdiction 2 documentation | "FCA correspondence", "FINMA no-action letter" |
+| `[AUDIT_2]` | Jurisdiction 2 audit status | "Ongoing compliance monitoring", "Initial assessment complete" |
+| `[RISK_2]` | Jurisdiction 2 risk level | "Medium", "Low", "High" |
+| `[JURIS_3]` | Jurisdiction 3 | "Cayman Islands", "BVI", "Hong Kong" |
+| `[REQ_3]` | Jurisdiction 3 requirements | "CIMA registration", "BVI FSC", "SFC licensing" |
+| `[IMPL_3]` | Jurisdiction 3 implementation | "Foundation structure", "Offshore entity setup" |
+| `[DOC_3]` | Jurisdiction 3 documentation | "Corporate registry filings", "License applications" |
+| `[AUDIT_3]` | Jurisdiction 3 audit status | "Annual statutory audit", "Compliance review" |
+| `[RISK_3]` | Jurisdiction 3 risk level | "Low", "Medium", "High" |
+| `[JURIS_4]` | Jurisdiction 4 | "Japan", "South Korea", "Australia" |
+| `[REQ_4]` | Jurisdiction 4 requirements | "JFSA registration", "FSC Korea compliance", "ASIC requirements" |
+| `[IMPL_4]` | Jurisdiction 4 implementation | "Local entity required", "Partnership with licensed operator" |
+| `[DOC_4]` | Jurisdiction 4 documentation | "Registration certificates", "Partnership agreements" |
+| `[AUDIT_4]` | Jurisdiction 4 audit status | "Pre-launch compliance check", "Ongoing monitoring" |
+| `[RISK_4]` | Jurisdiction 4 risk level | "Medium", "High", "Low" |
+| `[KYC_L1]` | KYC Level 1 requirements | "Email verification only", "Basic identity (name, country)" |
+| `[LIMIT_L1]` | KYC Level 1 transaction limit | "1,000", "5,000", "10,000" |
+| `[KYC_L2]` | KYC Level 2 requirements | "ID document + selfie", "Address verification" |
+| `[LIMIT_L2]` | KYC Level 2 transaction limit | "50,000", "100,000", "250,000" |
+| `[KYC_L3]` | KYC Level 3 requirements | "Enhanced due diligence", "Source of funds verification" |
+| `[LIMIT_L3]` | KYC Level 3 transaction limit | "Unlimited", "1,000,000+", "No daily limit" |
+| `[TX_MONITORING]` | Transaction monitoring system | "Chainalysis KYT", "Elliptic", "TRM Labs" |
+| `[SUSPICIOUS_ACTIVITY]` | Suspicious activity detection | "Pattern analysis, velocity checks", "ML-based anomaly detection" |
+| `[REPORTING_REQ]` | Regulatory reporting requirements | "SAR filing within 30 days", "Quarterly compliance reports" |
+| `[BLACKLIST_MGMT]` | Blacklist management | "OFAC SDN list integration", "Real-time sanctions screening" |
+| `[TX_CURRENT]` | Current transaction throughput | "100 TPS", "500 TPS", "1000 TPS" |
+| `[TX_TARGET]` | Target transaction throughput | "500 TPS", "2000 TPS", "10000 TPS" |
+| `[TX_TOOL]` | Transaction monitoring tool | "Tenderly", "Blocknative", "Custom Grafana dashboard" |
+| `[TX_ALERT]` | Transaction alert threshold | ">90% capacity", "Latency >2s", "Failed tx rate >1%" |
+| `[TX_OPT]` | Transaction optimization strategy | "Batch transactions", "L2 migration", "Gas optimization" |
+| `[GAS_CURRENT]` | Current gas cost per transaction | "0.005 ETH", "$2.50", "50,000 gas" |
+| `[GAS_TARGET]` | Target gas cost | "0.001 ETH", "$0.50", "30,000 gas" |
+| `[GAS_TOOL]` | Gas monitoring tool | "Etherscan Gas Tracker", "Blocknative Gas Estimator" |
+| `[GAS_ALERT]` | Gas alert threshold | ">100 gwei base fee", "Daily spend >$10K" |
+| `[GAS_OPT]` | Gas optimization strategy | "Calldata optimization", "Storage packing", "L2 deployment" |
+| `[PROP_CURRENT]` | Current block propagation time | "500ms", "1s", "2s" |
+| `[PROP_TARGET]` | Target propagation time | "200ms", "500ms", "1s" |
+| `[PROP_TOOL]` | Propagation monitoring tool | "Block explorer analytics", "Node metrics dashboard" |
+| `[PROP_ALERT]` | Propagation alert threshold | ">3s propagation", "Missed blocks >1%" |
+| `[PROP_OPT]` | Propagation optimization | "Geographic node distribution", "Peer optimization" |
+| `[SYNC_CURRENT]` | Current node sync time | "4 hours", "12 hours", "24 hours" |
+| `[SYNC_TARGET]` | Target sync time | "2 hours", "6 hours", "12 hours" |
+| `[SYNC_TOOL]` | Sync monitoring tool | "Node health dashboard", "Prometheus metrics" |
+| `[SYNC_ALERT]` | Sync alert threshold | "Node >10 blocks behind", "Sync stalled >1 hour" |
+| `[SYNC_OPT]` | Sync optimization | "Snapshot sync", "Fast sync mode", "SSD storage" |
+| `[EVENT_CURRENT]` | Current event processing rate | "100/s", "500/s", "1000/s" |
+| `[EVENT_TARGET]` | Target event processing rate | "500/s", "2000/s", "5000/s" |
+| `[EVENT_TOOL]` | Event monitoring tool | "The Graph indexer", "Custom event processor" |
+| `[EVENT_ALERT]` | Event alert threshold | "Processing lag >1 min", "Queue depth >10K" |
+| `[EVENT_OPT]` | Event optimization | "Parallel processing", "Event batching", "Caching" |
+| `[USER_CURRENT]` | Current active users | "1,000 DAU", "10,000 DAU", "50,000 DAU" |
+| `[USER_TARGET]` | Target active users | "10,000 DAU", "100,000 DAU", "1M DAU" |
+| `[USER_TOOL]` | User analytics tool | "Mixpanel", "Amplitude", "Custom analytics" |
+| `[USER_ALERT]` | User metric alert threshold | "DAU drop >20%", "Churn rate >10%" |
+| `[USER_OPT]` | User growth optimization | "Referral program", "Incentive campaigns", "UX improvements" |
 
 ### 3. Consensus & Network Design
 

@@ -388,196 +388,196 @@ Real-time Processing:
 
 | Variable | Description | Example |
 |----------|-------------|----------|
-| `[INTEGRATION_NAME]` | Specify the integration name | "John Smith" |
-| `[INTEGRATION_TYPE]` | Specify the integration type | "Standard" |
-| `[BUSINESS_PURPOSE]` | Specify the business purpose | "[specify value]" |
-| `[INTEGRATION_SCOPE]` | Specify the integration scope | "[specify value]" |
-| `[STAKEHOLDERS]` | Specify the stakeholders | "[specify value]" |
-| `[PERFORMANCE_REQUIREMENTS]` | Specify the performance requirements | "[specify value]" |
-| `[SCALABILITY_REQUIREMENTS]` | Specify the scalability requirements | "[specify value]" |
-| `[RELIABILITY_REQUIREMENTS]` | Specify the reliability requirements | "[specify value]" |
-| `[SECURITY_REQUIREMENTS]` | Specify the security requirements | "[specify value]" |
-| `[COMPLIANCE_REQUIREMENTS]` | Specify the compliance requirements | "[specify value]" |
-| `[SOURCE_SYSTEMS]` | Specify the source systems | "[specify value]" |
-| `[TARGET_SYSTEMS]` | Specify the target systems | "[specify value]" |
-| `[INTEGRATION_LAYER]` | Specify the integration layer | "[specify value]" |
-| `[MIDDLEWARE_COMPONENTS]` | Specify the middleware components | "[specify value]" |
-| `[COMMUNICATION_PROTOCOLS]` | Specify the communication protocols | "[specify value]" |
-| `[DATA_FORMATS]` | Specify the data formats | "[specify value]" |
-| `[MESSAGE_PATTERNS]` | Specify the message patterns | "[specify value]" |
-| `[INTEGRATION_TOPOLOGY]` | Specify the integration topology | "[specify value]" |
-| `[NETWORK_ARCHITECTURE]` | Specify the network architecture | "[specify value]" |
-| `[SECURITY_ARCHITECTURE]` | Specify the security architecture | "[specify value]" |
-| `[API_DESIGN_STYLE]` | Specify the api design style | "[specify value]" |
-| `[API_PROTOCOL]` | Specify the api protocol | "[specify value]" |
-| `[API_GATEWAY]` | Specify the api gateway | "[specify value]" |
-| `[AUTHENTICATION_METHOD]` | Specify the authentication method | "[specify value]" |
-| `[AUTHORIZATION_MODEL]` | Specify the authorization model | "[specify value]" |
-| `[RATE_LIMITING]` | Specify the rate limiting | "[specify value]" |
-| `[API_VERSIONING]` | Specify the api versioning | "[specify value]" |
-| `[REQUEST_RESPONSE_FORMAT]` | Specify the request response format | "[specify value]" |
-| `[API_ERROR_HANDLING]` | Specify the api error handling | "[specify value]" |
-| `[DOCUMENTATION_STANDARD]` | Specify the documentation standard | "[specify value]" |
-| `[MESSAGE_BROKER]` | Specify the message broker | "[specify value]" |
-| `[MESSAGING_PARADIGM]` | Specify the messaging paradigm | "[specify value]" |
-| `[MESSAGE_ROUTING]` | Specify the message routing | "[specify value]" |
-| `[MESSAGE_TRANSFORMATION]` | Specify the message transformation | "[specify value]" |
-| `[MESSAGE_SERIALIZATION]` | Specify the message serialization | "[specify value]" |
-| `[MESSAGE_ORDERING]` | Specify the message ordering | "[specify value]" |
-| `[MESSAGE_DURABILITY]` | Specify the message durability | "[specify value]" |
-| `[MESSAGE_ACKNOWLEDGMENT]` | Specify the message acknowledgment | "[specify value]" |
-| `[DEAD_LETTER_HANDLING]` | Specify the dead letter handling | "[specify value]" |
-| `[MESSAGE_RETENTION]` | Specify the message retention | "[specify value]" |
-| `[EVENT_STREAMING_PLATFORM]` | Specify the event streaming platform | "[specify value]" |
-| `[EVENT_SCHEMA]` | Specify the event schema | "[specify value]" |
-| `[EVENT_SOURCING]` | Specify the event sourcing | "[specify value]" |
-| `[EVENT_STORE]` | Specify the event store | "[specify value]" |
-| `[EVENT_PROCESSING]` | Specify the event processing | "[specify value]" |
-| `[EVENT_CHOREOGRAPHY]` | Specify the event choreography | "[specify value]" |
-| `[EVENT_ORCHESTRATION]` | Specify the event orchestration | "[specify value]" |
-| `[EVENT_REPLAY]` | Specify the event replay | "[specify value]" |
-| `[EVENT_VERSIONING]` | Specify the event versioning | "[specify value]" |
-| `[EVENT_GOVERNANCE]` | Specify the event governance | "[specify value]" |
-| `[SYNCHRONIZATION_STRATEGY]` | Specify the synchronization strategy | "[specify value]" |
-| `[DATA_CONSISTENCY_MODEL]` | Specify the data consistency model | "[specify value]" |
-| `[CONFLICT_RESOLUTION]` | Specify the conflict resolution | "[specify value]" |
-| `[CHANGE_DATA_CAPTURE]` | Specify the change data capture | "[specify value]" |
-| `[REPLICATION_METHOD]` | Specify the replication method | "[specify value]" |
-| `[SYNC_FREQUENCY]` | Specify the sync frequency | "[specify value]" |
-| `[DATA_VALIDATION]` | Specify the data validation | "[specify value]" |
-| `[ERROR_RECOVERY]` | Specify the error recovery | "[specify value]" |
-| `[SYNC_MONITORING]` | Specify the sync monitoring | "[specify value]" |
-| `[SYNC_OPTIMIZATION]` | Specify the sync optimization | "[specify value]" |
-| `[ESB_PLATFORM]` | Specify the esb platform | "[specify value]" |
-| `[SERVICE_REGISTRY]` | Specify the service registry | "[specify value]" |
-| `[SERVICE_DISCOVERY]` | Specify the service discovery | "[specify value]" |
-| `[MESSAGE_MEDIATION]` | Specify the message mediation | "[specify value]" |
-| `[PROTOCOL_TRANSLATION]` | Specify the protocol translation | "[specify value]" |
-| `[DATA_TRANSFORMATION]` | Specify the data transformation | "[specify value]" |
-| `[ROUTING_LOGIC]` | Specify the routing logic | "[specify value]" |
-| `[SERVICE_ORCHESTRATION]` | Specify the service orchestration | "[specify value]" |
-| `[QUALITY_OF_SERVICE]` | Specify the quality of service | "[specify value]" |
-| `[GOVERNANCE_FRAMEWORK]` | Specify the governance framework | "[specify value]" |
-| `[SERVICE_MESH]` | Specify the service mesh | "[specify value]" |
-| `[INTER_SERVICE_COMMUNICATION]` | Specify the inter service communication | "[specify value]" |
-| `[MICROSERVICE_DISCOVERY]` | Specify the microservice discovery | "[specify value]" |
-| `[LOAD_BALANCING]` | Specify the load balancing | "[specify value]" |
-| `[CIRCUIT_BREAKER]` | Specify the circuit breaker | "[specify value]" |
-| `[BULKHEAD_PATTERN]` | Specify the bulkhead pattern | "[specify value]" |
-| `[SAGA_PATTERN]` | Specify the saga pattern | "[specify value]" |
-| `[CQRS_PATTERN]` | Specify the cqrs pattern | "[specify value]" |
-| `[MICROSERVICE_GATEWAY]` | Specify the microservice gateway | "[specify value]" |
-| `[SERVICE_MONITORING]` | Specify the service monitoring | "[specify value]" |
-| `[ETL_ELT_STRATEGY]` | Specify the etl elt strategy | "[specify value]" |
-| `[DATA_PIPELINE]` | Specify the data pipeline | "[specify value]" |
-| `[DATA_MAPPING]` | Specify the data mapping | "[specify value]" |
-| `[SCHEMA_EVOLUTION]` | Specify the schema evolution | "[specify value]" |
-| `[DATA_QUALITY]` | Specify the data quality | "[specify value]" |
-| `[MASTER_DATA_MANAGEMENT]` | Specify the master data management | "[specify value]" |
-| `[DATA_CATALOG]` | Specify the data catalog | "[specify value]" |
-| `[DATA_LINEAGE]` | Specify the data lineage | "[specify value]" |
-| `[METADATA_MANAGEMENT]` | Specify the metadata management | "[specify value]" |
-| `[DATA_GOVERNANCE]` | Specify the data governance | "[specify value]" |
-| `[STREAMING_ARCHITECTURE]` | Specify the streaming architecture | "[specify value]" |
-| `[STREAM_PROCESSING]` | Specify the stream processing | "[specify value]" |
-| `[REALTIME_ANALYTICS]` | Specify the realtime analytics | "[specify value]" |
-| `[COMPLEX_EVENT_PROCESSING]` | Specify the complex event processing | "[specify value]" |
-| `[TIME_WINDOW_PROCESSING]` | Specify the time window processing | "[specify value]" |
-| `[STATE_MANAGEMENT]` | Specify the state management | "[specify value]" |
-| `[BACKPRESSURE_HANDLING]` | Specify the backpressure handling | "[specify value]" |
-| `[FAULT_TOLERANCE]` | Specify the fault tolerance | "[specify value]" |
-| `[EXACTLY_ONCE_PROCESSING]` | Specify the exactly once processing | "[specify value]" |
-| `[LATENCY_REQUIREMENTS]` | Specify the latency requirements | "[specify value]" |
-| `[BATCH_FRAMEWORK]` | Specify the batch framework | "[specify value]" |
-| `[JOB_SCHEDULING]` | Specify the job scheduling | "[specify value]" |
-| `[BATCH_SIZE_OPTIMIZATION]` | Specify the batch size optimization | "[specify value]" |
-| `[PARALLEL_PROCESSING]` | Specify the parallel processing | "[specify value]" |
-| `[BATCH_ERROR_HANDLING]` | Specify the batch error handling | "[specify value]" |
-| `[RECOVERY_MECHANISMS]` | Specify the recovery mechanisms | "[specify value]" |
-| `[JOB_DEPENDENCIES]` | Specify the job dependencies | "[specify value]" |
-| `[RESOURCE_MANAGEMENT]` | Specify the resource management | "[specify value]" |
-| `[BATCH_MONITORING]` | Specify the batch monitoring | "[specify value]" |
-| `[BATCH_TUNING]` | Specify the batch tuning | "[specify value]" |
-| `[FILE_TRANSFER_PROTOCOL]` | Specify the file transfer protocol | "[specify value]" |
-| `[FILE_FORMATS]` | Specify the file formats | "[specify value]" |
-| `[FILE_PROCESSING]` | Specify the file processing | "[specify value]" |
-| `[FILE_VALIDATION]` | Specify the file validation | "[specify value]" |
-| `[FILE_ENCRYPTION]` | Specify the file encryption | "[specify value]" |
-| `[FILE_ARCHIVING]` | Specify the file archiving | "[specify value]" |
-| `[FILE_ERROR_HANDLING]` | Specify the file error handling | "[specify value]" |
-| `[FILE_RETRY_MECHANISMS]` | Specify the file retry mechanisms | "[specify value]" |
-| `[FILE_MONITORING]` | Specify the file monitoring | "[specify value]" |
-| `[CLEANUP_PROCEDURES]` | Specify the cleanup procedures | "[specify value]" |
-| `[DATABASE_CONNECTIVITY]` | Specify the database connectivity | "[specify value]" |
-| `[CONNECTION_POOLING]` | Specify the connection pooling | "[specify value]" |
-| `[TRANSACTION_MANAGEMENT]` | Specify the transaction management | "[specify value]" |
-| `[DATA_REPLICATION]` | Specify the data replication | "[specify value]" |
-| `[CHANGE_TRACKING]` | Specify the change tracking | "[specify value]" |
-| `[STORED_PROCEDURES]` | Specify the stored procedures | "[specify value]" |
-| `[QUERY_OPTIMIZATION]` | Specify the query optimization | "[specify value]" |
-| `[DB_ERROR_HANDLING]` | Specify the db error handling | "[specify value]" |
-| `[DB_PERFORMANCE_MONITORING]` | Specify the db performance monitoring | "[specify value]" |
-| `[DB_SECURITY]` | Specify the db security | "[specify value]" |
-| `[CLOUD_STRATEGY]` | Specify the cloud strategy | "[specify value]" |
-| `[MULTI_CLOUD_INTEGRATION]` | Specify the multi cloud integration | "[specify value]" |
-| `[HYBRID_INTEGRATION]` | Specify the hybrid integration | "[specify value]" |
-| `[CLOUD_NATIVE_SERVICES]` | Specify the cloud native services | "[specify value]" |
-| `[SERVERLESS_INTEGRATION]` | Specify the serverless integration | "[specify value]" |
-| `[CONTAINER_INTEGRATION]` | Specify the container integration | "[specify value]" |
-| `[CLOUD_SECURITY]` | Specify the cloud security | "[specify value]" |
-| `[CLOUD_COST_OPTIMIZATION]` | Specify the cloud cost optimization | "[specify value]" |
-| `[CLOUD_PERFORMANCE]` | Specify the cloud performance | "[specify value]" |
-| `[CLOUD_COMPLIANCE]` | Specify the cloud compliance | "[specify value]" |
-| `[INTEGRATION_AUTHENTICATION]` | Specify the integration authentication | "[specify value]" |
-| `[INTEGRATION_AUTHORIZATION]` | Specify the integration authorization | "[specify value]" |
-| `[INTEGRATION_ENCRYPTION]` | Specify the integration encryption | "[specify value]" |
-| `[INTEGRATION_NETWORK_SECURITY]` | Specify the integration network security | "[specify value]" |
-| `[INTEGRATION_API_SECURITY]` | Specify the integration api security | "[specify value]" |
-| `[MESSAGE_SECURITY]` | Specify the message security | "[specify value]" |
-| `[IDENTITY_MANAGEMENT]` | Specify the identity management | "[specify value]" |
-| `[KEY_MANAGEMENT]` | Specify the key management | "[specify value]" |
-| `[INTEGRATION_AUDIT_LOGGING]` | Specify the integration audit logging | "[specify value]" |
-| `[INTEGRATION_COMPLIANCE_MONITORING]` | Specify the integration compliance monitoring | "[specify value]" |
-| `[ERROR_CLASSIFICATION]` | Specify the error classification | "[specify value]" |
-| `[ERROR_PROPAGATION]` | Specify the error propagation | "[specify value]" |
-| `[INTEGRATION_ERROR_RECOVERY]` | Specify the integration error recovery | "[specify value]" |
-| `[COMPENSATION_ACTIONS]` | Specify the compensation actions | "[specify value]" |
-| `[INTEGRATION_CIRCUIT_BREAKER]` | Specify the integration circuit breaker | "[specify value]" |
-| `[RETRY_STRATEGIES]` | Specify the retry strategies | "[specify value]" |
-| `[INTEGRATION_DEAD_LETTER_QUEUES]` | Specify the integration dead letter queues | "[specify value]" |
-| `[ERROR_LOGGING]` | Specify the error logging | "[specify value]" |
-| `[ALERT_MANAGEMENT]` | Specify the alert management | "[specify value]" |
-| `[ESCALATION_PROCEDURES]` | Specify the escalation procedures | "[specify value]" |
-| `[INTEGRATION_MONITORING]` | Specify the integration monitoring | "[specify value]" |
-| `[PERFORMANCE_METRICS]` | Specify the performance metrics | "[specify value]" |
-| `[BUSINESS_METRICS]` | Specify the business metrics | "[specify value]" |
-| `[HEALTH_CHECKS]` | Specify the health checks | "[specify value]" |
-| `[DISTRIBUTED_TRACING]` | Specify the distributed tracing | "[specify value]" |
-| `[LOG_AGGREGATION]` | Specify the log aggregation | "[specify value]" |
-| `[MONITORING_DASHBOARD_DESIGN]` | Specify the monitoring dashboard design | "[specify value]" |
-| `[ALERTING_STRATEGY]` | Specify the alerting strategy | "[specify value]" |
-| `[SLA_MONITORING]` | Specify the sla monitoring | "[specify value]" |
-| `[MONITORING_CAPACITY_PLANNING]` | Specify the monitoring capacity planning | "[specify value]" |
-| `[INTEGRATION_TESTING]` | Specify the integration testing | "[specify value]" |
-| `[CONTRACT_TESTING]` | Specify the contract testing | "[specify value]" |
-| `[INTEGRATION_E2E_TESTING]` | Specify the integration e2e testing | "[specify value]" |
-| `[INTEGRATION_PERFORMANCE_TESTING]` | Specify the integration performance testing | "[specify value]" |
-| `[INTEGRATION_LOAD_TESTING]` | Specify the integration load testing | "[specify value]" |
-| `[CHAOS_TESTING]` | Specify the chaos testing | "[specify value]" |
-| `[MOCK_SERVICES]` | Specify the mock services | "[specify value]" |
-| `[INTEGRATION_TEST_DATA]` | Specify the integration test data | "[specify value]" |
-| `[INTEGRATION_TEST_AUTOMATION]` | Specify the integration test automation | "[specify value]" |
-| `[TEST_ENVIRONMENT]` | Specify the test environment | "[specify value]" |
-| `[INTEGRATION_DEPLOYMENT_STRATEGY]` | Specify the integration deployment strategy | "[specify value]" |
-| `[INTEGRATION_CICD_PIPELINE]` | Specify the integration cicd pipeline | "[specify value]" |
-| `[INTEGRATION_CONFIG_MANAGEMENT]` | Specify the integration config management | "[specify value]" |
-| `[INTEGRATION_ENVIRONMENT_MANAGEMENT]` | Specify the integration environment management | "[specify value]" |
-| `[INTEGRATION_VERSION_CONTROL]` | Specify the integration version control | "[specify value]" |
-| `[INTEGRATION_RELEASE_MANAGEMENT]` | Specify the integration release management | "[specify value]" |
-| `[INTEGRATION_ROLLBACK_PROCEDURES]` | Specify the integration rollback procedures | "[specify value]" |
-| `[OPERATIONAL_PROCEDURES]` | Specify the operational procedures | "[specify value]" |
-| `[SUPPORT_MODEL]` | Specify the support model | "[specify value]" |
-| `[INTEGRATION_DOCUMENTATION]` | Specify the integration documentation | "[specify value]" |
+| `[INTEGRATION_NAME]` | Name of the integration | "OrderProcessingIntegration", "PaymentGateway", "CustomerSync", "InventoryHub" |
+| `[INTEGRATION_TYPE]` | Integration pattern type | "API integration", "event-driven", "batch", "real-time streaming", "hybrid" |
+| `[BUSINESS_PURPOSE]` | Business objective | "order fulfillment", "payment processing", "customer data sync", "real-time inventory" |
+| `[INTEGRATION_SCOPE]` | Systems in scope | "e-commerce, inventory, payment, shipping", "CRM, ERP, Data Warehouse" |
+| `[STAKEHOLDERS]` | Teams involved | "Engineering, Operations, Business", "Integration team, Security, Compliance" |
+| `[PERFORMANCE_REQUIREMENTS]` | Performance targets | "<100ms API response", "<10ms streaming latency", "1000 TPS", "p99 <200ms" |
+| `[SCALABILITY_REQUIREMENTS]` | Scaling targets | "10K TPS", "100K msg/sec", "horizontal auto-scale", "10x peak capacity" |
+| `[RELIABILITY_REQUIREMENTS]` | Reliability targets | "99.9% uptime", "99.99% availability", "zero message loss" |
+| `[SECURITY_REQUIREMENTS]` | Security standards | "PCI-DSS", "SOC2", "mTLS everywhere", "encryption at rest and in transit" |
+| `[COMPLIANCE_REQUIREMENTS]` | Regulatory requirements | "SOX", "GDPR", "HIPAA", "MiFID II", "Basel III" |
+| `[SOURCE_SYSTEMS]` | Data source systems | "Salesforce CRM", "SAP ERP", "legacy mainframe", "IoT sensors" |
+| `[TARGET_SYSTEMS]` | Destination systems | "Snowflake DW", "MongoDB", "Elasticsearch", "S3 data lake" |
+| `[INTEGRATION_LAYER]` | Integration middleware | "Kong API Gateway", "MuleSoft", "Apache Camel", "AWS EventBridge" |
+| `[MIDDLEWARE_COMPONENTS]` | Middleware stack | "Kafka, Redis, API Gateway", "RabbitMQ, Consul, Envoy" |
+| `[COMMUNICATION_PROTOCOLS]` | Protocols used | "REST, GraphQL, gRPC", "AMQP, MQTT", "HTTP/2, WebSocket" |
+| `[DATA_FORMATS]` | Data serialization | "JSON, Avro, Protobuf", "XML, CSV", "Parquet" |
+| `[MESSAGE_PATTERNS]` | Messaging patterns | "request-reply", "publish-subscribe", "event sourcing", "CQRS" |
+| `[INTEGRATION_TOPOLOGY]` | Architecture pattern | "hub-and-spoke", "point-to-point", "mesh", "event bus" |
+| `[NETWORK_ARCHITECTURE]` | Network design | "microservices VPC", "service mesh", "API gateway fronted" |
+| `[SECURITY_ARCHITECTURE]` | Security design | "zero-trust", "mTLS service mesh", "API security gateway" |
+| `[API_DESIGN_STYLE]` | API design approach | "RESTful", "GraphQL", "gRPC", "OpenAPI 3.0" |
+| `[API_PROTOCOL]` | API communication protocol | "HTTP/1.1", "HTTP/2", "HTTP/3 QUIC", "gRPC over HTTP/2" |
+| `[API_GATEWAY]` | Gateway platform | "Kong", "AWS API Gateway", "Apigee", "Azure API Management" |
+| `[AUTHENTICATION_METHOD]` | Auth mechanism | "OAuth 2.0", "JWT", "API keys", "mTLS", "SAML" |
+| `[AUTHORIZATION_MODEL]` | Authorization approach | "RBAC", "ABAC", "OAuth scopes", "policy-based" |
+| `[RATE_LIMITING]` | Rate limit config | "1000 req/min per user", "10K req/hour per app", "sliding window" |
+| `[API_VERSIONING]` | Versioning strategy | "URL path versioning", "header versioning", "semantic versioning" |
+| `[REQUEST_RESPONSE_FORMAT]` | Payload format | "JSON", "Protocol Buffers", "XML", "MessagePack" |
+| `[API_ERROR_HANDLING]` | Error handling approach | "RFC 7807 problem details", "structured error codes", "retry guidance" |
+| `[DOCUMENTATION_STANDARD]` | API docs standard | "OpenAPI 3.0", "AsyncAPI", "GraphQL SDL", "Swagger" |
+| `[MESSAGE_BROKER]` | Message broker platform | "Apache Kafka", "RabbitMQ", "AWS SQS/SNS", "Azure Service Bus" |
+| `[MESSAGING_PARADIGM]` | Messaging pattern | "publish-subscribe", "point-to-point", "request-reply", "competing consumers" |
+| `[MESSAGE_ROUTING]` | Routing approach | "content-based routing", "topic-based", "header-based", "partition key" |
+| `[MESSAGE_TRANSFORMATION]` | Transformation method | "XSLT", "JSONata", "Apache Camel", "custom transformers" |
+| `[MESSAGE_SERIALIZATION]` | Serialization format | "Avro", "Protobuf", "JSON Schema", "MessagePack" |
+| `[MESSAGE_ORDERING]` | Ordering guarantee | "partition-based ordering", "sequence numbers", "FIFO queues" |
+| `[MESSAGE_DURABILITY]` | Persistence config | "persistent to disk", "replicated 3x", "in-memory for speed" |
+| `[MESSAGE_ACKNOWLEDGMENT]` | Ack strategy | "auto-acknowledge", "manual ack", "at-least-once", "exactly-once" |
+| `[DEAD_LETTER_HANDLING]` | DLQ handling | "DLQ with retry", "dead letter topic", "manual intervention queue" |
+| `[MESSAGE_RETENTION]` | Retention policy | "7 days", "30 days", "infinite retention", "size-based retention" |
+| `[EVENT_STREAMING_PLATFORM]` | Streaming platform | "Apache Kafka", "AWS Kinesis", "Azure Event Hubs", "Confluent Cloud" |
+| `[EVENT_SCHEMA]` | Schema definition | "Avro schema", "JSON Schema", "Protobuf", "CloudEvents" |
+| `[EVENT_SOURCING]` | Event sourcing approach | "full event sourcing", "command sourcing", "event-carried state transfer" |
+| `[EVENT_STORE]` | Event storage | "EventStoreDB", "Apache Kafka", "MongoDB", "PostgreSQL with outbox" |
+| `[EVENT_PROCESSING]` | Processing approach | "Kafka Streams", "Apache Flink", "AWS Lambda", "Spring Cloud Stream" |
+| `[EVENT_CHOREOGRAPHY]` | Choreography pattern | "saga choreography", "event-driven workflows", "reactive streams" |
+| `[EVENT_ORCHESTRATION]` | Orchestration tool | "Temporal", "Camunda", "Apache Airflow", "AWS Step Functions" |
+| `[EVENT_REPLAY]` | Replay capability | "full replay from offset", "time-based replay", "selective replay" |
+| `[EVENT_VERSIONING]` | Schema versioning | "backward compatible", "forward compatible", "full compatibility" |
+| `[EVENT_GOVERNANCE]` | Event governance | "schema registry", "event catalog", "naming conventions" |
+| `[SYNCHRONIZATION_STRATEGY]` | Sync approach | "real-time CDC", "batch sync", "event-driven sync", "bidirectional sync" |
+| `[DATA_CONSISTENCY_MODEL]` | Consistency level | "eventual consistency", "strong consistency", "causal consistency" |
+| `[CONFLICT_RESOLUTION]` | Conflict handling | "last-writer-wins", "version vectors", "custom merge logic" |
+| `[CHANGE_DATA_CAPTURE]` | CDC implementation | "Debezium", "AWS DMS", "Oracle GoldenGate", "Striim" |
+| `[REPLICATION_METHOD]` | Replication approach | "log-based CDC", "trigger-based", "timestamp-based", "snapshot + incremental" |
+| `[SYNC_FREQUENCY]` | Sync interval | "real-time", "near-real-time (5 min)", "hourly batch", "daily" |
+| `[DATA_VALIDATION]` | Validation approach | "schema validation", "business rule checks", "checksum verification" |
+| `[ERROR_RECOVERY]` | Recovery strategy | "automatic retry", "manual intervention", "dead letter processing" |
+| `[SYNC_MONITORING]` | Sync monitoring | "lag monitoring", "throughput metrics", "error rate tracking" |
+| `[SYNC_OPTIMIZATION]` | Optimization techniques | "parallel sync", "partitioning", "compression", "delta sync" |
+| `[ESB_PLATFORM]` | ESB solution | "MuleSoft", "IBM Integration Bus", "TIBCO", "WSO2" |
+| `[SERVICE_REGISTRY]` | Registry platform | "Consul", "Eureka", "etcd", "ZooKeeper" |
+| `[SERVICE_DISCOVERY]` | Discovery mechanism | "DNS-based", "client-side", "server-side", "service mesh" |
+| `[MESSAGE_MEDIATION]` | Mediation approach | "content enrichment", "message filtering", "aggregation" |
+| `[PROTOCOL_TRANSLATION]` | Protocol bridging | "REST to SOAP", "HTTP to AMQP", "gRPC to REST" |
+| `[DATA_TRANSFORMATION]` | Transformation engine | "XSLT", "DataWeave", "Apache Camel", "custom Java/Python" |
+| `[ROUTING_LOGIC]` | Routing rules | "content-based", "header-based", "round-robin", "weighted" |
+| `[SERVICE_ORCHESTRATION]` | Orchestration engine | "BPEL", "Camunda", "Temporal", "Step Functions" |
+| `[QUALITY_OF_SERVICE]` | QoS settings | "guaranteed delivery", "best effort", "exactly-once" |
+| `[GOVERNANCE_FRAMEWORK]` | Governance model | "API governance", "event governance", "data governance" |
+| `[SERVICE_MESH]` | Mesh platform | "Istio", "Linkerd", "Consul Connect", "AWS App Mesh" |
+| `[INTER_SERVICE_COMMUNICATION]` | Service communication | "gRPC", "REST", "async messaging", "GraphQL federation" |
+| `[MICROSERVICE_DISCOVERY]` | Discovery method | "Kubernetes DNS", "Consul", "Eureka", "AWS Cloud Map" |
+| `[LOAD_BALANCING]` | Load balancing approach | "round-robin", "least connections", "weighted", "consistent hashing" |
+| `[CIRCUIT_BREAKER]` | Circuit breaker impl | "Resilience4j", "Hystrix", "Istio", "custom implementation" |
+| `[BULKHEAD_PATTERN]` | Bulkhead isolation | "thread pool isolation", "semaphore isolation", "container isolation" |
+| `[SAGA_PATTERN]` | Saga implementation | "choreography saga", "orchestration saga", "compensation logic" |
+| `[CQRS_PATTERN]` | CQRS implementation | "separate read/write models", "event sourcing + projection" |
+| `[MICROSERVICE_GATEWAY]` | Gateway solution | "Kong", "Envoy", "AWS API Gateway", "Netflix Zuul" |
+| `[SERVICE_MONITORING]` | Service observability | "Prometheus + Grafana", "Datadog", "New Relic", "Jaeger" |
+| `[ETL_ELT_STRATEGY]` | Data movement approach | "ELT with dbt", "ETL with Airflow", "CDC + streaming", "batch ETL" |
+| `[DATA_PIPELINE]` | Pipeline orchestration | "Apache Airflow", "Prefect", "Dagster", "AWS Glue" |
+| `[DATA_MAPPING]` | Mapping approach | "schema mapping", "field-level mapping", "transformation rules" |
+| `[SCHEMA_EVOLUTION]` | Schema change handling | "backward compatible", "schema registry", "blue-green schemas" |
+| `[DATA_QUALITY]` | Quality validation | "Great Expectations", "dbt tests", "Soda Core", "custom checks" |
+| `[MASTER_DATA_MANAGEMENT]` | MDM solution | "Informatica MDM", "Reltio", "custom golden record" |
+| `[DATA_CATALOG]` | Catalog platform | "DataHub", "Atlan", "Alation", "AWS Glue Catalog" |
+| `[DATA_LINEAGE]` | Lineage tracking | "OpenLineage", "dbt lineage", "Apache Atlas" |
+| `[METADATA_MANAGEMENT]` | Metadata handling | "technical + business metadata", "data dictionary" |
+| `[DATA_GOVERNANCE]` | Governance framework | "DAMA DMBOK", "data stewardship", "access policies" |
+| `[STREAMING_ARCHITECTURE]` | Stream architecture | "Kafka Streams", "Apache Flink", "Spark Streaming", "Kinesis" |
+| `[STREAM_PROCESSING]` | Processing engine | "Apache Flink", "Kafka Streams", "Spark Structured Streaming" |
+| `[REALTIME_ANALYTICS]` | Real-time analytics | "ksqlDB", "Apache Druid", "ClickHouse", "Materialize" |
+| `[COMPLEX_EVENT_PROCESSING]` | CEP implementation | "Apache Flink CEP", "Esper", "AWS EventBridge" |
+| `[TIME_WINDOW_PROCESSING]` | Windowing strategy | "tumbling windows", "sliding windows", "session windows" |
+| `[STATE_MANAGEMENT]` | State handling | "RocksDB state store", "in-memory", "external state store" |
+| `[BACKPRESSURE_HANDLING]` | Backpressure strategy | "rate limiting", "buffer overflow handling", "consumer lag alerting" |
+| `[FAULT_TOLERANCE]` | Fault tolerance approach | "checkpointing", "exactly-once", "at-least-once with idempotency" |
+| `[EXACTLY_ONCE_PROCESSING]` | Exactly-once guarantee | "Kafka transactions", "idempotent producers", "deduplication" |
+| `[LATENCY_REQUIREMENTS]` | Latency targets | "<10ms p99", "<100ms end-to-end", "<1 second for batch" |
+| `[BATCH_FRAMEWORK]` | Batch processing platform | "Apache Spark", "AWS Glue", "dbt", "Apache Beam" |
+| `[JOB_SCHEDULING]` | Scheduler platform | "Apache Airflow", "Prefect", "Dagster", "cron + custom" |
+| `[BATCH_SIZE_OPTIMIZATION]` | Batch sizing | "10,000 records per batch", "1GB per partition", "adaptive batching" |
+| `[PARALLEL_PROCESSING]` | Parallelization | "spark partitions", "thread pools", "async processing" |
+| `[BATCH_ERROR_HANDLING]` | Error handling | "skip and log", "fail fast", "quarantine bad records" |
+| `[RECOVERY_MECHANISMS]` | Recovery approach | "checkpoint restart", "idempotent processing", "manual rerun" |
+| `[JOB_DEPENDENCIES]` | Dependency management | "DAG-based dependencies", "sensor triggers", "event-driven" |
+| `[RESOURCE_MANAGEMENT]` | Resource allocation | "dynamic allocation", "resource pools", "spot instances" |
+| `[BATCH_MONITORING]` | Batch observability | "job duration tracking", "SLA monitoring", "failure alerting" |
+| `[BATCH_TUNING]` | Performance tuning | "partition optimization", "caching", "broadcast joins" |
+| `[FILE_TRANSFER_PROTOCOL]` | Transfer protocol | "SFTP", "AWS S3", "Azure Blob", "Google Cloud Storage" |
+| `[FILE_FORMATS]` | File formats | "Parquet", "CSV", "JSON", "Avro", "ORC" |
+| `[FILE_PROCESSING]` | Processing approach | "streaming read", "batch processing", "incremental load" |
+| `[FILE_VALIDATION]` | Validation checks | "schema validation", "checksum verification", "row count validation" |
+| `[FILE_ENCRYPTION]` | Encryption method | "AES-256", "PGP encryption", "client-side encryption" |
+| `[FILE_ARCHIVING]` | Archival strategy | "S3 Glacier", "Azure Archive", "7-year retention" |
+| `[FILE_ERROR_HANDLING]` | Error handling | "quarantine invalid files", "partial processing", "alert on failure" |
+| `[FILE_RETRY_MECHANISMS]` | Retry logic | "exponential backoff", "3 retries max", "dead letter folder" |
+| `[FILE_MONITORING]` | File monitoring | "file arrival SLA", "size validation", "format compliance" |
+| `[CLEANUP_PROCEDURES]` | Cleanup automation | "TTL-based cleanup", "post-processing deletion", "archival workflow" |
+| `[DATABASE_CONNECTIVITY]` | DB connection method | "JDBC", "ODBC", "native drivers", "connection strings" |
+| `[CONNECTION_POOLING]` | Pool configuration | "HikariCP", "c3p0", "PgBouncer", "ProxySQL" |
+| `[TRANSACTION_MANAGEMENT]` | Transaction handling | "distributed transactions", "saga pattern", "eventual consistency" |
+| `[DATA_REPLICATION]` | Replication method | "CDC replication", "logical replication", "snapshot replication" |
+| `[CHANGE_TRACKING]` | Change capture | "Debezium CDC", "trigger-based", "timestamp columns" |
+| `[STORED_PROCEDURES]` | SP usage | "business logic in SPs", "data transformation SPs", "API SPs" |
+| `[QUERY_OPTIMIZATION]` | Query tuning | "index optimization", "query plan analysis", "batch queries" |
+| `[DB_ERROR_HANDLING]` | DB error handling | "retry on deadlock", "connection retry", "failover handling" |
+| `[DB_PERFORMANCE_MONITORING]` | DB monitoring | "query performance", "connection pool metrics", "lock monitoring" |
+| `[DB_SECURITY]` | DB security | "encryption at rest", "row-level security", "audit logging" |
+| `[CLOUD_STRATEGY]` | Cloud approach | "cloud-native", "hybrid cloud", "multi-cloud" |
+| `[MULTI_CLOUD_INTEGRATION]` | Multi-cloud handling | "cloud-agnostic design", "data mesh", "unified API layer" |
+| `[HYBRID_INTEGRATION]` | Hybrid approach | "on-prem to cloud bridge", "edge computing", "hybrid messaging" |
+| `[CLOUD_NATIVE_SERVICES]` | Cloud services used | "AWS Lambda, SQS, S3", "Azure Functions, Service Bus" |
+| `[SERVERLESS_INTEGRATION]` | Serverless approach | "Lambda-based processing", "Azure Functions", "Cloud Run" |
+| `[CONTAINER_INTEGRATION]` | Container platform | "EKS", "AKS", "GKE", "self-managed Kubernetes" |
+| `[CLOUD_SECURITY]` | Cloud security | "IAM policies", "VPC isolation", "encryption", "security groups" |
+| `[CLOUD_COST_OPTIMIZATION]` | Cost optimization | "reserved capacity", "spot instances", "auto-scaling" |
+| `[CLOUD_PERFORMANCE]` | Performance tuning | "CDN caching", "regional deployment", "edge computing" |
+| `[CLOUD_COMPLIANCE]` | Compliance requirements | "SOC2", "HIPAA", "data residency", "audit logging" |
+| `[INTEGRATION_AUTHENTICATION]` | Auth implementation | "OAuth 2.0 + OIDC", "mTLS", "API keys", "JWT" |
+| `[INTEGRATION_AUTHORIZATION]` | Authz implementation | "RBAC", "ABAC", "policy engine", "OAuth scopes" |
+| `[INTEGRATION_ENCRYPTION]` | Encryption standards | "TLS 1.3", "AES-256", "end-to-end encryption" |
+| `[INTEGRATION_NETWORK_SECURITY]` | Network security | "VPC peering", "private endpoints", "firewall rules" |
+| `[INTEGRATION_API_SECURITY]` | API security | "OAuth 2.0", "rate limiting", "WAF", "input validation" |
+| `[MESSAGE_SECURITY]` | Message protection | "message signing", "payload encryption", "mTLS" |
+| `[IDENTITY_MANAGEMENT]` | Identity provider | "Okta", "Azure AD", "AWS IAM", "custom IdP" |
+| `[KEY_MANAGEMENT]` | Key management | "AWS KMS", "HashiCorp Vault", "Azure Key Vault" |
+| `[INTEGRATION_AUDIT_LOGGING]` | Audit trail | "CloudTrail", "Azure Monitor", "custom audit logs" |
+| `[INTEGRATION_COMPLIANCE_MONITORING]` | Compliance tracking | "SIEM integration", "compliance dashboards", "automated alerts" |
+| `[ERROR_CLASSIFICATION]` | Error categorization | "transient/permanent", "business/technical", "severity levels" |
+| `[ERROR_PROPAGATION]` | Error flow handling | "circuit breaker pattern", "error channels", "compensation" |
+| `[INTEGRATION_ERROR_RECOVERY]` | Recovery approach | "automatic retry", "manual intervention", "failover" |
+| `[COMPENSATION_ACTIONS]` | Compensation logic | "saga rollback", "reverse transaction", "compensating events" |
+| `[INTEGRATION_CIRCUIT_BREAKER]` | Circuit breaker config | "Resilience4j", "Istio circuit breaker", "custom implementation" |
+| `[RETRY_STRATEGIES]` | Retry configuration | "exponential backoff", "fixed interval", "jitter", "max retries" |
+| `[INTEGRATION_DEAD_LETTER_QUEUES]` | DLQ setup | "Kafka DLT", "SQS DLQ", "RabbitMQ DLX" |
+| `[ERROR_LOGGING]` | Error logging | "structured logging", "correlation IDs", "ELK stack" |
+| `[ALERT_MANAGEMENT]` | Alerting platform | "PagerDuty", "OpsGenie", "Slack alerts", "custom webhooks" |
+| `[ESCALATION_PROCEDURES]` | Escalation process | "P1: immediate", "P2: 30 min", "tiered support", "on-call rotation" |
+| `[INTEGRATION_MONITORING]` | Monitoring approach | "end-to-end monitoring", "health checks", "SLA tracking" |
+| `[PERFORMANCE_METRICS]` | Performance KPIs | "latency p50/p95/p99", "throughput", "error rate", "availability" |
+| `[BUSINESS_METRICS]` | Business KPIs | "orders processed", "payment success rate", "data freshness" |
+| `[HEALTH_CHECKS]` | Health monitoring | "liveness probes", "readiness probes", "dependency checks" |
+| `[DISTRIBUTED_TRACING]` | Tracing implementation | "Jaeger", "Zipkin", "AWS X-Ray", "Datadog APM" |
+| `[LOG_AGGREGATION]` | Log management | "ELK Stack", "Splunk", "Datadog Logs", "CloudWatch Logs" |
+| `[MONITORING_DASHBOARD_DESIGN]` | Dashboard layout | "Grafana dashboards", "Datadog dashboards", "custom React" |
+| `[ALERTING_STRATEGY]` | Alert configuration | "threshold-based", "anomaly detection", "SLA breach alerts" |
+| `[SLA_MONITORING]` | SLA tracking | "uptime monitoring", "latency SLAs", "throughput SLAs" |
+| `[MONITORING_CAPACITY_PLANNING]` | Capacity planning | "traffic forecasting", "resource planning", "scaling triggers" |
+| `[INTEGRATION_TESTING]` | Integration test approach | "contract testing", "component testing", "end-to-end testing" |
+| `[CONTRACT_TESTING]` | Contract testing tool | "Pact", "Spring Cloud Contract", "OpenAPI validation" |
+| `[INTEGRATION_E2E_TESTING]` | E2E testing | "Cypress", "Playwright", "custom test harness" |
+| `[INTEGRATION_PERFORMANCE_TESTING]` | Performance testing | "Gatling", "JMeter", "Locust", "k6" |
+| `[INTEGRATION_LOAD_TESTING]` | Load testing | "peak load simulation", "stress testing", "soak testing" |
+| `[CHAOS_TESTING]` | Chaos engineering | "Chaos Monkey", "Gremlin", "LitmusChaos", "custom chaos" |
+| `[MOCK_SERVICES]` | Mocking approach | "WireMock", "MockServer", "Mountebank", "contract stubs" |
+| `[INTEGRATION_TEST_DATA]` | Test data management | "synthetic data", "masked production data", "fixtures" |
+| `[INTEGRATION_TEST_AUTOMATION]` | Test automation | "CI/CD integrated", "nightly test runs", "PR validation" |
+| `[TEST_ENVIRONMENT]` | Test env setup | "ephemeral environments", "shared staging", "local Docker" |
+| `[INTEGRATION_DEPLOYMENT_STRATEGY]` | Deployment approach | "blue-green", "canary", "rolling updates", "feature flags" |
+| `[INTEGRATION_CICD_PIPELINE]` | CI/CD platform | "GitHub Actions", "GitLab CI", "Jenkins", "CircleCI" |
+| `[INTEGRATION_CONFIG_MANAGEMENT]` | Config management | "Consul", "AWS Parameter Store", "HashiCorp Vault" |
+| `[INTEGRATION_ENVIRONMENT_MANAGEMENT]` | Environment handling | "Terraform", "Pulumi", "CloudFormation", "Kubernetes" |
+| `[INTEGRATION_VERSION_CONTROL]` | Version control | "Git", "semantic versioning", "GitFlow", "trunk-based" |
+| `[INTEGRATION_RELEASE_MANAGEMENT]` | Release process | "automated releases", "release trains", "manual approval gates" |
+| `[INTEGRATION_ROLLBACK_PROCEDURES]` | Rollback strategy | "automated rollback", "blue-green switch", "database rollback" |
+| `[OPERATIONAL_PROCEDURES]` | Ops runbooks | "incident response", "maintenance procedures", "on-call playbooks" |
+| `[SUPPORT_MODEL]` | Support structure | "L1/L2/L3 support", "24/7 on-call", "follow-the-sun" |
+| `[INTEGRATION_DOCUMENTATION]` | Documentation | "API docs", "architecture diagrams", "runbooks", "ADRs" |
 
 ### Financial Data Integration
 ```

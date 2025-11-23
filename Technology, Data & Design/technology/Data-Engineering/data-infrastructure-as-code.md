@@ -381,186 +381,186 @@ CI/CD Integration:
 
 | Variable | Description | Example |
 |----------|-------------|----------|
-| `[INFRASTRUCTURE_NAME]` | Specify the infrastructure name | "John Smith" |
-| `[INFRASTRUCTURE_TYPE]` | Specify the infrastructure type | "Standard" |
-| `[ENVIRONMENT]` | Specify the environment | "[specify value]" |
-| `[CLOUD_PROVIDER]` | Specify the cloud provider | "[specify value]" |
-| `[IAC_STRATEGY]` | Specify the iac strategy | "[specify value]" |
-| `[BUSINESS_PURPOSE]` | Specify the business purpose | "[specify value]" |
-| `[STAKEHOLDERS]` | Specify the stakeholders | "[specify value]" |
-| `[COMPLIANCE_REQUIREMENTS]` | Specify the compliance requirements | "[specify value]" |
+| `[INFRASTRUCTURE_NAME]` | Name of the infrastructure project | "EcommercePlatform", "DataLakeInfra", "MLTrainingCluster", "PaymentGateway" |
+| `[INFRASTRUCTURE_TYPE]` | Type of infrastructure deployment | "cloud-native", "hybrid cloud", "multi-region", "serverless", "containerized" |
+| `[ENVIRONMENT]` | Target deployment environment | "production", "staging", "development", "test", "sandbox", "disaster-recovery" |
+| `[CLOUD_PROVIDER]` | Cloud platform provider | "AWS", "Azure", "Google Cloud", "multi-cloud AWS+Azure", "on-premises + AWS hybrid" |
+| `[IAC_STRATEGY]` | Infrastructure as code tooling approach | "Terraform + Ansible", "Pulumi", "CloudFormation + CDK", "Terraform Cloud", "Crossplane" |
+| `[BUSINESS_PURPOSE]` | Business objective for infrastructure | "microservices platform", "data lake infrastructure", "ML training cluster", "e-commerce backend" |
+| `[STAKEHOLDERS]` | Teams and individuals involved | "Platform Engineering", "DevOps", "Data Engineering", "SRE team", "Security team" |
+| `[COMPLIANCE_REQUIREMENTS]` | Regulatory and compliance standards | "SOC2", "HIPAA", "PCI-DSS", "GDPR", "ISO 27001", "FedRAMP" |
 | `[BUDGET_CONSTRAINTS]` | Specify the budget constraints | "$500,000" |
 | `[PROJECT_TIMELINE]` | Specify the project timeline | "6 months" |
-| `[TARGET_ARCHITECTURE]` | Specify the target architecture | "[specify value]" |
-| `[RESOURCE_COMPONENTS]` | Specify the resource components | "[specify value]" |
-| `[NETWORK_DESIGN]` | Specify the network design | "[specify value]" |
-| `[SECURITY_ARCHITECTURE]` | Specify the security architecture | "[specify value]" |
-| `[HIGH_AVAILABILITY]` | Specify the high availability | "[specify value]" |
-| `[DISASTER_RECOVERY]` | Specify the disaster recovery | "[specify value]" |
-| `[SCALABILITY_DESIGN]` | Specify the scalability design | "[specify value]" |
-| `[PERFORMANCE_REQUIREMENTS]` | Specify the performance requirements | "[specify value]" |
-| `[COST_OPTIMIZATION]` | Specify the cost optimization | "[specify value]" |
+| `[TARGET_ARCHITECTURE]` | Desired architecture pattern | "microservices", "serverless", "hybrid cloud", "multi-region active-active", "event-driven" |
+| `[RESOURCE_COMPONENTS]` | Cloud resources to provision | "EKS, RDS, S3, CloudFront", "AKS, CosmosDB, Blob Storage", "GKE, Cloud SQL, BigQuery" |
+| `[NETWORK_DESIGN]` | Network topology design | "multi-AZ VPC", "hub-and-spoke", "service mesh", "zero-trust network", "transit gateway" |
+| `[SECURITY_ARCHITECTURE]` | Security infrastructure design | "WAF, GuardDuty, Security Hub", "Azure Defender, Key Vault", "Cloud Armor, Security Command Center" |
+| `[HIGH_AVAILABILITY]` | HA configuration approach | "multi-AZ deployment", "active-passive failover", "geo-redundant", "active-active cross-region" |
+| `[DISASTER_RECOVERY]` | DR strategy and approach | "cross-region replication", "pilot light", "warm standby", "multi-region active-active" |
+| `[SCALABILITY_DESIGN]` | Scaling architecture pattern | "horizontal auto-scaling", "vertical scaling", "serverless auto-scale", "KEDA event-driven" |
+| `[PERFORMANCE_REQUIREMENTS]` | Performance targets and SLAs | "<100ms API response", "99.9% uptime", "1000 TPS", "p99 latency <200ms" |
+| `[COST_OPTIMIZATION]` | Cost reduction strategies | "reserved instances", "spot instances", "auto-scaling down off-hours", "rightsizing" |
 | `[REGIONAL_DISTRIBUTION]` | Specify the regional distribution | "North America" |
-| `[TERRAFORM_VERSION]` | Specify the terraform version | "[specify value]" |
-| `[PROVIDER_CONFIGURATION]` | Specify the provider configuration | "[specify value]" |
-| `[BACKEND_CONFIGURATION]` | Specify the backend configuration | "[specify value]" |
-| `[STATE_MANAGEMENT]` | Specify the state management | "[specify value]" |
-| `[MODULE_STRUCTURE]` | Specify the module structure | "[specify value]" |
-| `[VARIABLE_MANAGEMENT]` | Specify the variable management | "[specify value]" |
-| `[OUTPUT_CONFIGURATION]` | Specify the output configuration | "[specify value]" |
-| `[RESOURCE_ORGANIZATION]` | Specify the resource organization | "[specify value]" |
-| `[NAMING_CONVENTIONS]` | Specify the naming conventions | "[specify value]" |
-| `[VERSION_CONTROL]` | Specify the version control | "[specify value]" |
-| `[ANSIBLE_VERSION]` | Specify the ansible version | "[specify value]" |
-| `[INVENTORY_MANAGEMENT]` | Specify the inventory management | "[specify value]" |
-| `[PLAYBOOK_STRUCTURE]` | Specify the playbook structure | "[specify value]" |
-| `[ROLE_ORGANIZATION]` | Specify the role organization | "[specify value]" |
-| `[ANSIBLE_VARIABLE_MANAGEMENT]` | Specify the ansible variable management | "[specify value]" |
-| `[TEMPLATE_MANAGEMENT]` | Specify the template management | "[specify value]" |
-| `[HANDLER_CONFIGURATION]` | Specify the handler configuration | "[specify value]" |
-| `[TASK_ORGANIZATION]` | Specify the task organization | "[specify value]" |
-| `[ANSIBLE_ERROR_HANDLING]` | Specify the ansible error handling | "[specify value]" |
-| `[ANSIBLE_SECURITY]` | Specify the ansible security | "[specify value]" |
-| `[KUBERNETES_VERSION]` | Specify the kubernetes version | "[specify value]" |
-| `[CLUSTER_ARCHITECTURE]` | Specify the cluster architecture | "[specify value]" |
-| `[NODE_CONFIGURATION]` | Specify the node configuration | "[specify value]" |
-| `[K8S_NETWORKING]` | Specify the k8s networking | "[specify value]" |
-| `[K8S_STORAGE]` | Specify the k8s storage | "[specify value]" |
-| `[K8S_SECURITY]` | Specify the k8s security | "[specify value]" |
-| `[K8S_RESOURCE_MANAGEMENT]` | Specify the k8s resource management | "[specify value]" |
-| `[K8S_MONITORING]` | Specify the k8s monitoring | "[specify value]" |
-| `[K8S_LOGGING]` | Specify the k8s logging | "[specify value]" |
-| `[K8S_BACKUP]` | Specify the k8s backup | "[specify value]" |
-| `[COMPUTE_RESOURCES]` | Specify the compute resources | "[specify value]" |
-| `[STORAGE_RESOURCES]` | Specify the storage resources | "[specify value]" |
-| `[NETWORK_RESOURCES]` | Specify the network resources | "[specify value]" |
-| `[DATABASE_RESOURCES]` | Specify the database resources | "[specify value]" |
-| `[SECURITY_RESOURCES]` | Specify the security resources | "[specify value]" |
-| `[MONITORING_RESOURCES]` | Specify the monitoring resources | "[specify value]" |
-| `[LOAD_BALANCER]` | Specify the load balancer | "[specify value]" |
-| `[CDN_CONFIGURATION]` | Specify the cdn configuration | "[specify value]" |
-| `[DNS_CONFIGURATION]` | Specify the dns configuration | "[specify value]" |
-| `[CERTIFICATE_MANAGEMENT]` | Specify the certificate management | "[specify value]" |
-| `[CONFIGURATION_STRATEGY]` | Specify the configuration strategy | "[specify value]" |
-| `[ENVIRONMENT_VARIABLES]` | Specify the environment variables | "[specify value]" |
-| `[SECRET_MANAGEMENT]` | Specify the secret management | "[specify value]" |
-| `[CONFIGURATION_FILES]` | Specify the configuration files | "[specify value]" |
-| `[PARAMETER_STORE]` | Specify the parameter store | "[specify value]" |
-| `[CONFIGURATION_VALIDATION]` | Specify the configuration validation | "[specify value]" |
-| `[ENVIRONMENT_PROMOTION]` | Specify the environment promotion | "[specify value]" |
-| `[CONFIGURATION_DRIFT]` | Specify the configuration drift | "[specify value]" |
-| `[CONFIGURATION_ROLLBACK]` | Specify the configuration rollback | "[specify value]" |
-| `[CONFIGURATION_CHANGE_MANAGEMENT]` | Specify the configuration change management | "[specify value]" |
-| `[PIPELINE_STRATEGY]` | Specify the pipeline strategy | "[specify value]" |
-| `[CICD_VERSION_CONTROL]` | Specify the cicd version control | "[specify value]" |
-| `[BUILD_PROCESS]` | Specify the build process | "[specify value]" |
-| `[TESTING_STRATEGY]` | Specify the testing strategy | "[specify value]" |
-| `[DEPLOYMENT_PIPELINE]` | Specify the deployment pipeline | "[specify value]" |
-| `[ENVIRONMENT_MANAGEMENT]` | Specify the environment management | "[specify value]" |
-| `[APPROVAL_GATES]` | Specify the approval gates | "[specify value]" |
-| `[ROLLBACK_PROCEDURES]` | Specify the rollback procedures | "[specify value]" |
-| `[RELEASE_MANAGEMENT]` | Specify the release management | "[specify value]" |
-| `[MONITORING_INTEGRATION]` | Specify the monitoring integration | "[specify value]" |
-| `[SECURITY_FRAMEWORK]` | Specify the security framework | "[specify value]" |
-| `[IDENTITY_MANAGEMENT]` | Specify the identity management | "[specify value]" |
-| `[ACCESS_CONTROL]` | Specify the access control | "[specify value]" |
-| `[NETWORK_SECURITY]` | Specify the network security | "[specify value]" |
-| `[DATA_ENCRYPTION]` | Specify the data encryption | "[specify value]" |
-| `[KEY_MANAGEMENT]` | Specify the key management | "[specify value]" |
-| `[SECURITY_SCANNING]` | Specify the security scanning | "[specify value]" |
-| `[COMPLIANCE_MONITORING]` | Specify the compliance monitoring | "[specify value]" |
-| `[VULNERABILITY_MANAGEMENT]` | Specify the vulnerability management | "[specify value]" |
-| `[AUDIT_LOGGING]` | Specify the audit logging | "[specify value]" |
-| `[MONITORING_STRATEGY]` | Specify the monitoring strategy | "[specify value]" |
-| `[METRICS_COLLECTION]` | Specify the metrics collection | "[specify value]" |
-| `[LOG_MANAGEMENT]` | Specify the log management | "[specify value]" |
-| `[DISTRIBUTED_TRACING]` | Specify the distributed tracing | "[specify value]" |
-| `[ALERTING_CONFIGURATION]` | Specify the alerting configuration | "[specify value]" |
-| `[DASHBOARD_DESIGN]` | Specify the dashboard design | "[specify value]" |
-| `[HEALTH_CHECKS]` | Specify the health checks | "[specify value]" |
-| `[PERFORMANCE_MONITORING]` | Specify the performance monitoring | "[specify value]" |
-| `[CAPACITY_PLANNING]` | Specify the capacity planning | "[specify value]" |
-| `[SLA_MONITORING]` | Specify the sla monitoring | "[specify value]" |
-| `[COST_MONITORING]` | Specify the cost monitoring | "[specify value]" |
-| `[RESOURCE_OPTIMIZATION]` | Specify the resource optimization | "[specify value]" |
+| `[TERRAFORM_VERSION]` | Terraform version to use | "v1.5", "v1.6", "v1.7", "v1.8" |
+| `[PROVIDER_CONFIGURATION]` | Cloud provider plugin config | "AWS Provider v5.0", "Azure Provider v3.0", "Google Provider v5.0" |
+| `[BACKEND_CONFIGURATION]` | State backend configuration | "S3 + DynamoDB locking", "Azure Blob + Table", "GCS + Firestore", "Terraform Cloud" |
+| `[STATE_MANAGEMENT]` | State file management approach | "remote state with locking", "Terraform Cloud workspaces", "state per environment" |
+| `[MODULE_STRUCTURE]` | Module organization pattern | "modules/network, modules/compute, modules/database", "modules by service domain" |
+| `[VARIABLE_MANAGEMENT]` | Variable handling approach | "tfvars per environment", "Terraform Cloud variables", "Vault integration" |
+| `[OUTPUT_CONFIGURATION]` | Output values to expose | "endpoint URLs", "connection strings", "resource ARNs", "IP addresses" |
+| `[RESOURCE_ORGANIZATION]` | Resource grouping strategy | "by service", "by environment", "by team ownership", "by lifecycle" |
+| `[NAMING_CONVENTIONS]` | Resource naming standards | "project-env-resource-region", "team-service-env", "app-component-env-region" |
+| `[VERSION_CONTROL]` | Source control platform | "GitLab", "GitHub", "Azure DevOps", "Bitbucket" |
+| `[ANSIBLE_VERSION]` | Ansible version to use | "v2.14", "v2.15", "v2.16", "v2.17" |
+| `[INVENTORY_MANAGEMENT]` | Host inventory approach | "dynamic AWS inventory", "static inventory", "Azure dynamic inventory" |
+| `[PLAYBOOK_STRUCTURE]` | Playbook organization | "site.yml with role includes", "separate playbooks per service", "layered playbooks" |
+| `[ROLE_ORGANIZATION]` | Role directory structure | "roles/webserver, roles/database, roles/monitoring", "roles by application tier" |
+| `[ANSIBLE_VARIABLE_MANAGEMENT]` | Variable management approach | "group_vars, host_vars", "Ansible Vault encrypted", "external variable files" |
+| `[TEMPLATE_MANAGEMENT]` | Jinja2 template handling | "Jinja2 templates", "templates/ directory per role", "shared templates" |
+| `[HANDLER_CONFIGURATION]` | Handler setup for service restarts | "restart services on config change", "reload nginx", "systemd service restart" |
+| `[TASK_ORGANIZATION]` | Task file structure | "main.yml, tasks/install.yml, tasks/configure.yml", "task includes by function" |
+| `[ANSIBLE_ERROR_HANDLING]` | Error handling strategy | "block/rescue/always", "ignore_errors with validation", "failed_when conditions" |
+| `[ANSIBLE_SECURITY]` | Security practices | "Ansible Vault", "SSH key authentication", "become with sudo", "no_log for secrets" |
+| `[KUBERNETES_VERSION]` | Kubernetes version to deploy | "v1.27", "v1.28", "v1.29", "v1.30" |
+| `[CLUSTER_ARCHITECTURE]` | Cluster deployment model | "managed EKS", "self-hosted kubeadm", "GKE Autopilot", "AKS with Azure CNI" |
+| `[NODE_CONFIGURATION]` | Worker node specifications | "m5.large worker nodes", "autoscaling node pools", "spot instances mixed" |
+| `[K8S_NETWORKING]` | Kubernetes network setup | "Calico CNI", "Cilium", "AWS VPC CNI", "Istio service mesh" |
+| `[K8S_STORAGE]` | Storage provisioning | "EBS CSI driver", "EFS CSI", "Longhorn", "OpenEBS", "Azure Disk CSI" |
+| `[K8S_SECURITY]` | Cluster security controls | "Pod Security Standards", "OPA Gatekeeper", "Falco runtime security", "Kyverno" |
+| `[K8S_RESOURCE_MANAGEMENT]` | Resource quotas and limits | "resource quotas", "limit ranges", "priority classes", "pod disruption budgets" |
+| `[K8S_MONITORING]` | Monitoring stack | "Prometheus + Grafana", "Datadog", "New Relic", "Dynatrace" |
+| `[K8S_LOGGING]` | Logging infrastructure | "Fluentd + Elasticsearch", "Loki + Grafana", "CloudWatch Container Insights" |
+| `[K8S_BACKUP]` | Backup solution | "Velero", "Kasten K10", "native cloud snapshots", "Portworx backup" |
+| `[COMPUTE_RESOURCES]` | Compute infrastructure | "EC2 instances", "Lambda functions", "ECS Fargate tasks", "Azure VMs" |
+| `[STORAGE_RESOURCES]` | Storage infrastructure | "S3 buckets", "EBS volumes", "EFS file systems", "Glacier archives" |
+| `[NETWORK_RESOURCES]` | Network infrastructure | "VPC", "subnets", "NAT gateways", "Transit Gateway", "PrivateLink" |
+| `[DATABASE_RESOURCES]` | Database infrastructure | "RDS PostgreSQL", "Aurora Serverless", "DynamoDB tables", "ElastiCache" |
+| `[SECURITY_RESOURCES]` | Security infrastructure | "IAM roles", "KMS keys", "Security Groups", "WAF rules", "Shield" |
+| `[MONITORING_RESOURCES]` | Monitoring infrastructure | "CloudWatch dashboards", "SNS topics", "Lambda alarms", "EventBridge rules" |
+| `[LOAD_BALANCER]` | Load balancing solution | "Application Load Balancer", "Network Load Balancer", "API Gateway" |
+| `[CDN_CONFIGURATION]` | CDN setup | "CloudFront distribution", "Azure CDN", "Cloudflare", "Fastly" |
+| `[DNS_CONFIGURATION]` | DNS management | "Route 53 hosted zones", "Azure DNS", "external-dns controller" |
+| `[CERTIFICATE_MANAGEMENT]` | SSL/TLS certificate handling | "ACM certificates", "cert-manager", "Let's Encrypt", "HashiCorp Vault PKI" |
+| `[CONFIGURATION_STRATEGY]` | Config management approach | "GitOps with ArgoCD", "Ansible pull", "AWS AppConfig", "Consul" |
+| `[ENVIRONMENT_VARIABLES]` | Environment variable storage | "AWS SSM Parameter Store", "Kubernetes ConfigMaps", "HashiCorp Vault" |
+| `[SECRET_MANAGEMENT]` | Secrets storage solution | "AWS Secrets Manager", "HashiCorp Vault", "Kubernetes Secrets with SOPS" |
+| `[CONFIGURATION_FILES]` | Config file management | "Helm values.yaml", "Kustomize overlays", "Ansible variables" |
+| `[PARAMETER_STORE]` | Parameter storage service | "AWS SSM Parameter Store", "Azure App Configuration", "GCP Secret Manager" |
+| `[CONFIGURATION_VALIDATION]` | Config validation tools | "OPA policies", "Conftest", "terraform validate", "kubeval" |
+| `[ENVIRONMENT_PROMOTION]` | Environment promotion strategy | "GitOps promotion", "dev → staging → prod pipeline", "automated with gates" |
+| `[CONFIGURATION_DRIFT]` | Drift detection approach | "Terraform drift detection", "AWS Config rules", "ArgoCD sync status" |
+| `[CONFIGURATION_ROLLBACK]` | Rollback procedures | "Git revert + terraform apply", "Helm rollback", "ArgoCD sync to previous" |
+| `[CONFIGURATION_CHANGE_MANAGEMENT]` | Change control process | "PR review + automated testing", "change advisory board", "GitOps approval" |
+| `[PIPELINE_STRATEGY]` | CI/CD pipeline approach | "GitOps with ArgoCD", "Jenkins declarative pipeline", "GitLab CI/CD" |
+| `[CICD_VERSION_CONTROL]` | Pipeline source control | "Git-based with branching strategy", "trunk-based development", "GitFlow" |
+| `[BUILD_PROCESS]` | Build methodology | "Docker multi-stage builds", "Kaniko", "Buildpacks", "Bazel" |
+| `[TESTING_STRATEGY]` | Infrastructure testing approach | "Terratest", "InSpec", "kitchen-terraform", "Checkov" |
+| `[DEPLOYMENT_PIPELINE]` | Deployment automation tool | "GitLab CI/CD", "GitHub Actions", "Jenkins X", "Argo Workflows" |
+| `[ENVIRONMENT_MANAGEMENT]` | Multi-environment handling | "Terraform workspaces", "separate state per env", "ArgoCD ApplicationSets" |
+| `[APPROVAL_GATES]` | Deployment approval process | "manual approval for prod", "automated staging", "Slack approval bot" |
+| `[ROLLBACK_PROCEDURES]` | Deployment rollback approach | "terraform state rollback", "blue-green deployment", "canary rollback" |
+| `[RELEASE_MANAGEMENT]` | Release versioning strategy | "semantic versioning", "GitLab releases", "Helm chart versions" |
+| `[MONITORING_INTEGRATION]` | Monitoring tool integration | "Datadog", "Prometheus + Alertmanager", "CloudWatch", "Splunk" |
+| `[SECURITY_FRAMEWORK]` | Security standards framework | "CIS Benchmarks", "AWS Well-Architected", "NIST Cybersecurity Framework" |
+| `[IDENTITY_MANAGEMENT]` | Identity provider integration | "AWS IAM + SSO", "Azure AD", "Okta SCIM", "Google Workspace" |
+| `[ACCESS_CONTROL]` | Access control model | "RBAC", "ABAC", "least privilege IAM policies", "zero-trust" |
+| `[NETWORK_SECURITY]` | Network security controls | "VPC security groups", "NACLs", "PrivateLink", "VPN", "Direct Connect" |
+| `[DATA_ENCRYPTION]` | Encryption standards | "AES-256 at rest", "TLS 1.3 in transit", "KMS encryption" |
+| `[KEY_MANAGEMENT]` | Key management solution | "AWS KMS", "HashiCorp Vault", "Azure Key Vault", "GCP Cloud KMS" |
+| `[SECURITY_SCANNING]` | IaC security scanning | "Checkov", "tfsec", "Trivy", "Snyk IaC", "Bridgecrew" |
+| `[COMPLIANCE_MONITORING]` | Compliance monitoring tools | "AWS Config", "Azure Policy", "Cloud Custodian", "Prisma Cloud" |
+| `[VULNERABILITY_MANAGEMENT]` | Vulnerability scanning | "AWS Inspector", "Qualys", "Tenable", "Trivy container scanning" |
+| `[AUDIT_LOGGING]` | Audit log collection | "CloudTrail", "Azure Activity Logs", "GCP Cloud Audit Logs" |
+| `[MONITORING_STRATEGY]` | Overall monitoring approach | "golden signals monitoring", "SRE observability", "APM + infrastructure" |
+| `[METRICS_COLLECTION]` | Metrics collection system | "Prometheus", "CloudWatch metrics", "Datadog agent", "OpenTelemetry" |
+| `[LOG_MANAGEMENT]` | Log aggregation solution | "ELK Stack", "Loki + Grafana", "CloudWatch Logs", "Splunk" |
+| `[DISTRIBUTED_TRACING]` | Tracing implementation | "Jaeger", "AWS X-Ray", "Datadog APM", "Zipkin", "Tempo" |
+| `[ALERTING_CONFIGURATION]` | Alert routing setup | "PagerDuty integration", "Slack alerts", "OpsGenie", "VictorOps" |
+| `[DASHBOARD_DESIGN]` | Dashboard implementation | "Grafana dashboards", "CloudWatch dashboards", "Datadog dashboards" |
+| `[HEALTH_CHECKS]` | Health monitoring setup | "Kubernetes liveness/readiness probes", "ALB health checks", "synthetic monitoring" |
+| `[PERFORMANCE_MONITORING]` | Performance tracking | "APM metrics", "p95/p99 latency tracking", "error rate monitoring" |
+| `[CAPACITY_PLANNING]` | Capacity forecasting | "CloudWatch Container Insights", "Datadog forecasting", "Kubecost" |
+| `[SLA_MONITORING]` | SLA/SLO tracking | "uptime tracking", "error budget consumption", "SLI/SLO dashboards" |
+| `[COST_MONITORING]` | Cost tracking tools | "AWS Cost Explorer", "Kubecost", "Infracost", "CloudHealth" |
+| `[RESOURCE_OPTIMIZATION]` | Resource efficiency | "right-sizing recommendations", "unused resource cleanup", "spot advisor" |
 | `[BUDGET_CONTROLS]` | Specify the budget controls | "$500,000" |
 | `[COST_ALLOCATION]` | Specify the cost allocation | "North America" |
-| `[RESERVED_INSTANCES]` | Specify the reserved instances | "[specify value]" |
-| `[SPOT_INSTANCES]` | Specify the spot instances | "[specify value]" |
-| `[AUTO_SCALING]` | Specify the auto scaling | "[specify value]" |
-| `[RESOURCE_SCHEDULING]` | Specify the resource scheduling | "[specify value]" |
-| `[COST_REPORTING]` | Specify the cost reporting | "[specify value]" |
-| `[OPTIMIZATION_RECOMMENDATIONS]` | Specify the optimization recommendations | "[specify value]" |
-| `[BACKUP_STRATEGY]` | Specify the backup strategy | "[specify value]" |
-| `[BACKUP_AUTOMATION]` | Specify the backup automation | "[specify value]" |
-| `[RECOVERY_PROCEDURES]` | Specify the recovery procedures | "[specify value]" |
-| `[RECOVERY_TESTING]` | Specify the recovery testing | "[specify value]" |
-| `[RTO_RPO_REQUIREMENTS]` | Specify the rto rpo requirements | "[specify value]" |
+| `[RESERVED_INSTANCES]` | Reserved capacity commitment | "1-year reserved", "3-year reserved", "Savings Plans", "committed use discounts" |
+| `[SPOT_INSTANCES]` | Spot/preemptible usage | "spot fleet for batch jobs", "spot instances with fallback", "preemptible VMs" |
+| `[AUTO_SCALING]` | Auto-scaling configuration | "target tracking scaling", "step scaling", "KEDA event-driven", "HPA" |
+| `[RESOURCE_SCHEDULING]` | Resource scheduling rules | "scheduled scaling", "dev environment shutdown off-hours", "weekend scale-down" |
+| `[COST_REPORTING]` | Cost reporting setup | "monthly cost reports", "team cost allocation", "showback/chargeback dashboards" |
+| `[OPTIMIZATION_RECOMMENDATIONS]` | Optimization advisory tools | "AWS Trusted Advisor", "Azure Advisor", "GCP Recommender", "Spot.io" |
+| `[BACKUP_STRATEGY]` | Backup methodology | "3-2-1 backup rule", "continuous backup", "incremental + full weekly" |
+| `[BACKUP_AUTOMATION]` | Automated backup tools | "AWS Backup", "Velero scheduled backups", "Azure Backup", "cloud snapshots" |
+| `[RECOVERY_PROCEDURES]` | Recovery playbooks | "runbook-driven recovery", "automated failover", "DR playbooks" |
+| `[RECOVERY_TESTING]` | Recovery validation | "quarterly DR drills", "chaos engineering tests", "failover simulations" |
+| `[RTO_RPO_REQUIREMENTS]` | Recovery time objectives | "RTO: 4 hours, RPO: 1 hour", "RTO: 15 min, RPO: 5 min", "near-zero RPO" |
 | `[CROSS_REGION_BACKUP]` | Specify the cross region backup | "North America" |
-| `[BACKUP_RETENTION]` | Specify the backup retention | "[specify value]" |
-| `[DATA_VERIFICATION]` | Specify the data verification | "[specify value]" |
-| `[DR_PROCEDURES]` | Specify the dr procedures | "[specify value]" |
-| `[BUSINESS_CONTINUITY]` | Specify the business continuity | "[specify value]" |
-| `[IAC_TESTING_STRATEGY]` | Specify the iac testing strategy | "[specify value]" |
-| `[IAC_UNIT_TESTING]` | Specify the iac unit testing | "[specify value]" |
-| `[IAC_INTEGRATION_TESTING]` | Specify the iac integration testing | "[specify value]" |
-| `[INFRASTRUCTURE_TESTING]` | Specify the infrastructure testing | "[specify value]" |
-| `[IAC_SECURITY_TESTING]` | Specify the iac security testing | "[specify value]" |
-| `[IAC_PERFORMANCE_TESTING]` | Specify the iac performance testing | "[specify value]" |
-| `[COMPLIANCE_TESTING]` | Specify the compliance testing | "[specify value]" |
-| `[DR_TESTING]` | Specify the dr testing | "[specify value]" |
-| `[TEST_AUTOMATION]` | Specify the test automation | "[specify value]" |
-| `[IAC_TEST_DATA]` | Specify the iac test data | "[specify value]" |
-| `[ENVIRONMENT_STRATEGY]` | Specify the environment strategy | "[specify value]" |
+| `[BACKUP_RETENTION]` | Backup retention policy | "30-day retention", "7 daily + 4 weekly + 12 monthly", "90-day compliance retention" |
+| `[DATA_VERIFICATION]` | Backup integrity validation | "backup integrity checks", "restore verification jobs", "checksum validation" |
+| `[DR_PROCEDURES]` | Disaster recovery procedures | "cross-region failover", "active-passive DR", "pilot light activation" |
+| `[BUSINESS_CONTINUITY]` | Business continuity planning | "multi-region active-active", "geographic redundancy", "BCP documentation" |
+| `[IAC_TESTING_STRATEGY]` | IaC testing approach | "shift-left testing", "pre-commit hooks + CI validation", "test pyramid" |
+| `[IAC_UNIT_TESTING]` | Unit testing tools | "Terratest", "terraform validate", "tflint", "terraform-compliance" |
+| `[IAC_INTEGRATION_TESTING]` | Integration testing | "terraform plan validation", "kitchen-terraform", "localstack testing" |
+| `[INFRASTRUCTURE_TESTING]` | Infrastructure validation | "InSpec compliance tests", "ServerSpec", "Goss", "TestInfra" |
+| `[IAC_SECURITY_TESTING]` | Security testing tools | "Checkov", "tfsec", "Bridgecrew", "Snyk IaC", "KICS" |
+| `[IAC_PERFORMANCE_TESTING]` | Performance testing | "load testing infrastructure", "stress testing", "capacity validation" |
+| `[COMPLIANCE_TESTING]` | Compliance validation | "CIS benchmark validation", "SOC2 controls testing", "PCI-DSS checks" |
+| `[DR_TESTING]` | DR testing procedures | "failover simulation", "backup restore verification", "chaos engineering" |
+| `[TEST_AUTOMATION]` | Test automation platform | "GitHub Actions", "GitLab CI pipelines", "Jenkins", "CircleCI" |
+| `[IAC_TEST_DATA]` | Test data management | "synthetic test data", "masked production data", "fixture files" |
+| `[ENVIRONMENT_STRATEGY]` | Environment management approach | "ephemeral environments", "long-lived environments per team", "preview envs" |
 | `[ENVIRONMENT_TYPES]` | Specify the environment types | "Standard" |
-| `[ENVIRONMENT_PROVISIONING]` | Specify the environment provisioning | "[specify value]" |
-| `[ENVIRONMENT_CONFIGURATION]` | Specify the environment configuration | "[specify value]" |
-| `[ENVIRONMENT_LIFECYCLE]` | Specify the environment lifecycle | "[specify value]" |
-| `[ENVIRONMENT_DATA_MANAGEMENT]` | Specify the environment data management | "[specify value]" |
-| `[ENVIRONMENT_ACCESS_MANAGEMENT]` | Specify the environment access management | "[specify value]" |
-| `[ENVIRONMENT_MONITORING]` | Specify the environment monitoring | "[specify value]" |
-| `[ENVIRONMENT_COST_CONTROL]` | Specify the environment cost control | "[specify value]" |
-| `[CLEANUP_PROCEDURES]` | Specify the cleanup procedures | "[specify value]" |
-| `[ARCHITECTURE_DOCUMENTATION]` | Specify the architecture documentation | "[specify value]" |
-| `[RUNBOOK_DOCUMENTATION]` | Specify the runbook documentation | "[specify value]" |
-| `[DEPLOYMENT_GUIDES]` | Specify the deployment guides | "[specify value]" |
-| `[TROUBLESHOOTING_GUIDES]` | Specify the troubleshooting guides | "[specify value]" |
-| `[CONFIGURATION_REFERENCE]` | Specify the configuration reference | "[specify value]" |
-| `[IAC_API_DOCUMENTATION]` | Specify the iac api documentation | "[specify value]" |
-| `[CHANGE_LOGS]` | Specify the change logs | "[specify value]" |
-| `[DOCUMENTATION_BEST_PRACTICES]` | Specify the documentation best practices | "[specify value]" |
-| `[TRAINING_MATERIALS]` | Specify the training materials | "[specify value]" |
-| `[KNOWLEDGE_BASE]` | Specify the knowledge base | "[specify value]" |
-| `[MIGRATION_APPROACH]` | Specify the migration approach | "[specify value]" |
-| `[CURRENT_STATE_ASSESSMENT]` | Specify the current state assessment | "[specify value]" |
-| `[TARGET_STATE_DESIGN]` | Specify the target state design | "[specify value]" |
-| `[MIGRATION_PLANNING]` | Specify the migration planning | "[specify value]" |
-| `[MIGRATION_RISK_ASSESSMENT]` | Specify the migration risk assessment | "[specify value]" |
+| `[ENVIRONMENT_PROVISIONING]` | Provisioning method | "Terraform apply", "Pulumi up", "CDK deploy", "Crossplane" |
+| `[ENVIRONMENT_CONFIGURATION]` | Environment-specific config | "Helm values per environment", "Kustomize overlays", "tfvars files" |
+| `[ENVIRONMENT_LIFECYCLE]` | Environment lifecycle rules | "auto-destroy after 7 days", "manual cleanup triggers", "TTL-based expiry" |
+| `[ENVIRONMENT_DATA_MANAGEMENT]` | Test data handling | "seeded test data", "anonymized production snapshots", "synthetic data generation" |
+| `[ENVIRONMENT_ACCESS_MANAGEMENT]` | Access control for environments | "SSO-based access", "temporary credentials", "just-in-time access" |
+| `[ENVIRONMENT_MONITORING]` | Per-environment monitoring | "per-environment dashboards", "cost tracking per env", "resource utilization" |
+| `[ENVIRONMENT_COST_CONTROL]` | Environment cost management | "budget alerts", "auto-shutdown policies", "resource quotas" |
+| `[CLEANUP_PROCEDURES]` | Resource cleanup approach | "terraform destroy", "scheduled cleanup jobs", "garbage collection policies" |
+| `[ARCHITECTURE_DOCUMENTATION]` | Architecture docs format | "C4 diagrams", "ADRs", "Confluence pages", "arc42 templates" |
+| `[RUNBOOK_DOCUMENTATION]` | Operational runbooks | "Notion runbooks", "Confluence playbooks", "GitHub wiki", "PagerDuty runbooks" |
+| `[DEPLOYMENT_GUIDES]` | Deployment documentation | "step-by-step deployment docs", "video walkthroughs", "quickstart guides" |
+| `[TROUBLESHOOTING_GUIDES]` | Troubleshooting documentation | "common issues FAQ", "debugging flowcharts", "incident playbooks" |
+| `[CONFIGURATION_REFERENCE]` | Config documentation | "variable documentation", "module README.md", "terraform-docs output" |
+| `[IAC_API_DOCUMENTATION]` | Module/API documentation | "Terraform registry docs", "module inputs/outputs", "auto-generated docs" |
+| `[CHANGE_LOGS]` | Change history tracking | "CHANGELOG.md", "release notes", "Git commit history", "conventional commits" |
+| `[DOCUMENTATION_BEST_PRACTICES]` | Documentation standards | "docs-as-code", "automated doc generation", "review checklist" |
+| `[TRAINING_MATERIALS]` | Training resources | "video tutorials", "hands-on labs", "workshops", "certification prep" |
+| `[KNOWLEDGE_BASE]` | Knowledge management | "Confluence knowledge base", "Notion wiki", "internal docs site", "GitBook" |
+| `[MIGRATION_APPROACH]` | Migration methodology | "lift-and-shift", "re-platform", "re-architect", "strangler fig pattern" |
+| `[CURRENT_STATE_ASSESSMENT]` | Current state analysis | "infrastructure audit", "dependency mapping", "cost baseline" |
+| `[TARGET_STATE_DESIGN]` | Target architecture design | "cloud-native architecture", "containerized workloads", "serverless-first" |
+| `[MIGRATION_PLANNING]` | Migration planning approach | "wave-based migration", "application grouping", "dependency-ordered" |
+| `[MIGRATION_RISK_ASSESSMENT]` | Migration risk analysis | "downtime risk analysis", "data loss mitigation", "rollback planning" |
 | `[MIGRATION_TIMELINE]` | Specify the migration timeline | "6 months" |
-| `[MIGRATION_TESTING]` | Specify the migration testing | "[specify value]" |
-| `[MIGRATION_ROLLBACK]` | Specify the migration rollback | "[specify value]" |
-| `[MIGRATION_COMMUNICATION]` | Specify the migration communication | "[specify value]" |
-| `[MIGRATION_SUCCESS_CRITERIA]` | Specify the migration success criteria | "[specify value]" |
-| `[TEAM_STRUCTURE]` | Specify the team structure | "[specify value]" |
-| `[SKILLS_REQUIRED]` | Specify the skills required | "[specify value]" |
-| `[TRAINING_PLAN]` | Specify the training plan | "[specify value]" |
-| `[KNOWLEDGE_TRANSFER]` | Specify the knowledge transfer | "[specify value]" |
-| `[ROLES_RESPONSIBILITIES]` | Specify the roles responsibilities | "[specify value]" |
-| `[TEAM_BEST_PRACTICES]` | Specify the team best practices | "[specify value]" |
-| `[TOOL_TRAINING]` | Specify the tool training | "[specify value]" |
-| `[CERTIFICATION_REQUIREMENTS]` | Specify the certification requirements | "[specify value]" |
-| `[COMMUNITY_ENGAGEMENT]` | Specify the community engagement | "[specify value]" |
-| `[CONTINUOUS_LEARNING]` | Specify the continuous learning | "[specify value]" |
-| `[QUALITY_STANDARDS]` | Specify the quality standards | "[specify value]" |
-| `[CODE_REVIEW]` | Specify the code review | "[specify value]" |
-| `[QUALITY_GATES]` | Specify the quality gates | "[specify value]" |
-| `[AUTOMATED_VALIDATION]` | Specify the automated validation | "[specify value]" |
-| `[IAC_SECURITY_SCANNING]` | Specify the iac security scanning | "[specify value]" |
-| `[COMPLIANCE_CHECKING]` | Specify the compliance checking | "[specify value]" |
-| `[PERFORMANCE_VALIDATION]` | Specify the performance validation | "[specify value]" |
-| `[DOCUMENTATION_REVIEW]` | Specify the documentation review | "[specify value]" |
-| `[PROCESS_IMPROVEMENT]` | Specify the process improvement | "[specify value]" |
-| `[FEEDBACK_LOOP]` | Specify the feedback loop | "[specify value]" |
+| `[MIGRATION_TESTING]` | Migration validation testing | "parallel run testing", "cutover validation", "smoke tests post-migration" |
+| `[MIGRATION_ROLLBACK]` | Rollback procedures | "DNS failback", "database restore procedures", "blue-green cutback" |
+| `[MIGRATION_COMMUNICATION]` | Stakeholder communication | "stakeholder updates", "go/no-go meetings", "status dashboards" |
+| `[MIGRATION_SUCCESS_CRITERIA]` | Success metrics | "zero data loss", "<2 hour downtime", "performance parity", "cost targets met" |
+| `[TEAM_STRUCTURE]` | Team organization | "platform team", "site reliability engineers", "cloud architects", "embedded DevOps" |
+| `[SKILLS_REQUIRED]` | Required competencies | "Terraform", "Kubernetes", "CI/CD", "cloud certifications", "Python/Go scripting" |
+| `[TRAINING_PLAN]` | Training program | "HashiCorp certifications", "AWS/Azure/GCP training", "internal workshops" |
+| `[KNOWLEDGE_TRANSFER]` | Knowledge sharing approach | "pair programming", "documentation reviews", "shadowing", "lunch & learns" |
+| `[ROLES_RESPONSIBILITIES]` | Role definitions | "RACI matrix", "on-call rotation", "service ownership", "incident commander" |
+| `[TEAM_BEST_PRACTICES]` | Team standards | "code review process", "documentation standards", "incident response procedures" |
+| `[TOOL_TRAINING]` | Tool-specific training | "Terraform workshops", "Kubernetes bootcamp", "CI/CD training", "monitoring tools" |
+| `[CERTIFICATION_REQUIREMENTS]` | Required certifications | "CKA", "AWS Solutions Architect", "HashiCorp Certified", "Azure Administrator" |
+| `[COMMUNITY_ENGAGEMENT]` | Community participation | "internal tech talks", "external conferences", "open source contribution" |
+| `[CONTINUOUS_LEARNING]` | Learning culture | "learning days", "conference attendance", "certification budget", "book clubs" |
+| `[QUALITY_STANDARDS]` | Quality requirements | "IaC best practices", "security baselines", "naming conventions", "module standards" |
+| `[CODE_REVIEW]` | Code review process | "PR reviews", "automated linting", "peer approval", "CODEOWNERS" |
+| `[QUALITY_GATES]` | Pipeline quality gates | "terraform plan validation", "security scan pass", "test coverage >80%" |
+| `[AUTOMATED_VALIDATION]` | Automated checks | "pre-commit hooks", "CI pipeline checks", "policy-as-code validation" |
+| `[IAC_SECURITY_SCANNING]` | Security scanning tools | "Checkov", "tfsec", "Snyk IaC", "Terrascan", "KICS" |
+| `[COMPLIANCE_CHECKING]` | Compliance validation | "OPA policies", "Sentinel policies", "AWS Config rules", "Azure Policy" |
+| `[PERFORMANCE_VALIDATION]` | Performance testing | "load test baselines", "resource sizing validation", "latency benchmarks" |
+| `[DOCUMENTATION_REVIEW]` | Documentation QA | "technical writing review", "architecture review", "peer review" |
+| `[PROCESS_IMPROVEMENT]` | Continuous improvement | "retrospectives", "process automation", "tooling upgrades", "metrics review" |
+| `[FEEDBACK_LOOP]` | Feedback mechanisms | "post-incident reviews", "developer surveys", "metrics-driven improvement" |
 
 ### Azure Enterprise Infrastructure
 ```

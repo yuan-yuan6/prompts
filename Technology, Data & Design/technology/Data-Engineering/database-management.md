@@ -328,156 +328,156 @@ Performance Optimization:
 
 | Variable | Description | Example |
 |----------|-------------|----------|
-| `[DATABASE_NAME]` | Specify the database name | "John Smith" |
-| `[DATABASE_TYPE]` | Specify the database type | "Standard" |
-| `[DATABASE_VERSION]` | Specify the database version | "[specify value]" |
-| `[ENVIRONMENT]` | Specify the environment | "[specify value]" |
-| `[BUSINESS_PURPOSE]` | Specify the business purpose | "[specify value]" |
-| `[DATA_VOLUME]` | Specify the data volume | "[specify value]" |
-| `[USER_BASE]` | Specify the user base | "[specify value]" |
-| `[PERFORMANCE_REQUIREMENTS]` | Specify the performance requirements | "[specify value]" |
-| `[AVAILABILITY_REQUIREMENTS]` | Specify the availability requirements | "[specify value]" |
-| `[COMPLIANCE_REQUIREMENTS]` | Specify the compliance requirements | "[specify value]" |
-| `[DATABASE_SCHEMA]` | Specify the database schema | "[specify value]" |
-| `[TABLE_DESIGN]` | Specify the table design | "[specify value]" |
-| `[COLUMN_SPECIFICATIONS]` | Specify the column specifications | "[specify value]" |
-| `[DATA_TYPES]` | Specify the data types | "Standard" |
-| `[PRIMARY_KEYS]` | Specify the primary keys | "[specify value]" |
-| `[FOREIGN_KEYS]` | Specify the foreign keys | "[specify value]" |
-| `[CONSTRAINTS]` | Specify the constraints | "[specify value]" |
-| `[INDEXES]` | Specify the indexes | "[specify value]" |
-| `[VIEWS]` | Specify the views | "[specify value]" |
-| `[STORED_PROCEDURES]` | Specify the stored procedures | "[specify value]" |
-| `[QUERY_PERFORMANCE]` | Specify the query performance | "[specify value]" |
-| `[EXECUTION_PLANS]` | Specify the execution plans | "[specify value]" |
-| `[INDEX_STRATEGY]` | Specify the index strategy | "[specify value]" |
-| `[QUERY_REWRITING]` | Specify the query rewriting | "[specify value]" |
-| `[JOIN_OPTIMIZATION]` | Specify the join optimization | "[specify value]" |
-| `[SUBQUERY_OPTIMIZATION]` | Specify the subquery optimization | "[specify value]" |
-| `[AGGREGATE_OPTIMIZATION]` | Specify the aggregate optimization | "[specify value]" |
-| `[QUERY_CACHING]` | Specify the query caching | "[specify value]" |
-| `[STATISTICS_MAINTENANCE]` | Specify the statistics maintenance | "[specify value]" |
-| `[QUERY_MONITORING]` | Specify the query monitoring | "[specify value]" |
-| `[PERFORMANCE_METRICS]` | Specify the performance metrics | "[specify value]" |
-| `[BOTTLENECK_ANALYSIS]` | Specify the bottleneck analysis | "[specify value]" |
-| `[RESOURCE_UTILIZATION]` | Specify the resource utilization | "[specify value]" |
-| `[MEMORY_MANAGEMENT]` | Specify the memory management | "[specify value]" |
-| `[CPU_OPTIMIZATION]` | Specify the cpu optimization | "[specify value]" |
-| `[IO_OPTIMIZATION]` | Specify the io optimization | "[specify value]" |
-| `[STORAGE_OPTIMIZATION]` | Specify the storage optimization | "[specify value]" |
-| `[CONNECTION_MANAGEMENT]` | Specify the connection management | "[specify value]" |
-| `[LOCK_MANAGEMENT]` | Specify the lock management | "[specify value]" |
-| `[TRANSACTION_OPTIMIZATION]` | Specify the transaction optimization | "[specify value]" |
-| `[BACKUP_STRATEGY]` | Specify the backup strategy | "[specify value]" |
-| `[BACKUP_TYPES]` | Specify the backup types | "Standard" |
-| `[BACKUP_SCHEDULE]` | Specify the backup schedule | "[specify value]" |
-| `[BACKUP_STORAGE]` | Specify the backup storage | "[specify value]" |
-| `[BACKUP_VERIFICATION]` | Specify the backup verification | "[specify value]" |
-| `[RECOVERY_PROCEDURES]` | Specify the recovery procedures | "[specify value]" |
-| `[RECOVERY_TESTING]` | Specify the recovery testing | "[specify value]" |
-| `[POINT_IN_TIME_RECOVERY]` | Specify the point in time recovery | "[specify value]" |
-| `[DISASTER_RECOVERY]` | Specify the disaster recovery | "[specify value]" |
-| `[BUSINESS_CONTINUITY]` | Specify the business continuity | "[specify value]" |
-| `[AUTHENTICATION]` | Specify the authentication | "[specify value]" |
-| `[AUTHORIZATION]` | Specify the authorization | "[specify value]" |
-| `[ROLE_BASED_ACCESS]` | Specify the role based access | "[specify value]" |
-| `[DATA_ENCRYPTION]` | Specify the data encryption | "[specify value]" |
-| `[NETWORK_SECURITY]` | Specify the network security | "[specify value]" |
-| `[AUDIT_LOGGING]` | Specify the audit logging | "[specify value]" |
-| `[SECURITY_POLICIES]` | Specify the security policies | "[specify value]" |
-| `[VULNERABILITY_MANAGEMENT]` | Specify the vulnerability management | "[specify value]" |
-| `[COMPLIANCE_MONITORING]` | Specify the compliance monitoring | "[specify value]" |
-| `[ACCESS_CONTROLS]` | Specify the access controls | "[specify value]" |
-| `[ROUTINE_MAINTENANCE]` | Specify the routine maintenance | "[specify value]" |
-| `[INDEX_MAINTENANCE]` | Specify the index maintenance | "[specify value]" |
-| `[STATISTICS_UPDATES]` | Specify the statistics updates | "2025-01-15" |
-| `[DATA_ARCHIVAL]` | Specify the data archival | "[specify value]" |
-| `[DATA_PURGING]` | Specify the data purging | "[specify value]" |
-| `[SPACE_MANAGEMENT]` | Specify the space management | "[specify value]" |
-| `[LOG_MANAGEMENT]` | Specify the log management | "[specify value]" |
-| `[INTEGRITY_CHECKS]` | Specify the integrity checks | "[specify value]" |
-| `[HEALTH_CHECKS]` | Specify the health checks | "[specify value]" |
-| `[PREVENTIVE_MAINTENANCE]` | Specify the preventive maintenance | "[specify value]" |
-| `[MONITORING_STRATEGY]` | Specify the monitoring strategy | "[specify value]" |
-| `[KEY_METRICS]` | Specify the key metrics | "[specify value]" |
-| `[PERFORMANCE_MONITORING]` | Specify the performance monitoring | "[specify value]" |
-| `[AVAILABILITY_MONITORING]` | Specify the availability monitoring | "[specify value]" |
-| `[CAPACITY_MONITORING]` | Specify the capacity monitoring | "[specify value]" |
-| `[SECURITY_MONITORING]` | Specify the security monitoring | "[specify value]" |
-| `[ALERTING_RULES]` | Specify the alerting rules | "[specify value]" |
-| `[DASHBOARD_DESIGN]` | Specify the dashboard design | "[specify value]" |
-| `[MONITORING_REPORTING]` | Specify the monitoring reporting | "[specify value]" |
-| `[TREND_ANALYSIS]` | Specify the trend analysis | "[specify value]" |
-| `[HA_ARCHITECTURE]` | Specify the ha architecture | "[specify value]" |
-| `[REPLICATION_STRATEGY]` | Specify the replication strategy | "[specify value]" |
-| `[CLUSTERING]` | Specify the clustering | "[specify value]" |
-| `[LOAD_BALANCING]` | Specify the load balancing | "[specify value]" |
-| `[FAILOVER_PROCEDURES]` | Specify the failover procedures | "[specify value]" |
-| `[SPLIT_BRAIN_PREVENTION]` | Specify the split brain prevention | "[specify value]" |
-| `[DATA_SYNCHRONIZATION]` | Specify the data synchronization | "[specify value]" |
-| `[CONSISTENCY_MANAGEMENT]` | Specify the consistency management | "[specify value]" |
-| `[SERVICE_DISCOVERY]` | Specify the service discovery | "[specify value]" |
-| `[HEALTH_MONITORING]` | Specify the health monitoring | "[specify value]" |
-| `[SCALING_STRATEGY]` | Specify the scaling strategy | "[specify value]" |
-| `[HORIZONTAL_SCALING]` | Specify the horizontal scaling | "[specify value]" |
-| `[VERTICAL_SCALING]` | Specify the vertical scaling | "[specify value]" |
-| `[PARTITIONING]` | Specify the partitioning | "[specify value]" |
-| `[SHARDING]` | Specify the sharding | "[specify value]" |
-| `[READ_REPLICAS]` | Specify the read replicas | "[specify value]" |
-| `[CACHING_LAYERS]` | Specify the caching layers | "[specify value]" |
-| `[CONNECTION_POOLING]` | Specify the connection pooling | "[specify value]" |
-| `[LOAD_DISTRIBUTION]` | Specify the load distribution | "[specify value]" |
-| `[CAPACITY_PLANNING]` | Specify the capacity planning | "[specify value]" |
-| `[MIGRATION_STRATEGY]` | Specify the migration strategy | "[specify value]" |
-| `[SOURCE_ASSESSMENT]` | Specify the source assessment | "[specify value]" |
-| `[TARGET_PREPARATION]` | Specify the target preparation | "[specify value]" |
-| `[DATA_MAPPING]` | Specify the data mapping | "[specify value]" |
-| `[ETL_PROCESSES]` | Specify the etl processes | "[specify value]" |
-| `[VALIDATION_PROCEDURES]` | Specify the validation procedures | "[specify value]" |
-| `[CUTOVER_PLANNING]` | Specify the cutover planning | "[specify value]" |
-| `[ROLLBACK_PROCEDURES]` | Specify the rollback procedures | "[specify value]" |
-| `[MIGRATION_TESTING]` | Specify the migration testing | "[specify value]" |
-| `[GO_LIVE_SUPPORT]` | Specify the go live support | "[specify value]" |
-| `[OPERATIONAL_PROCEDURES]` | Specify the operational procedures | "[specify value]" |
-| `[CHANGE_MANAGEMENT]` | Specify the change management | "[specify value]" |
-| `[DEPLOYMENT_PROCEDURES]` | Specify the deployment procedures | "[specify value]" |
-| `[CONFIGURATION_MANAGEMENT]` | Specify the configuration management | "[specify value]" |
-| `[VERSION_CONTROL]` | Specify the version control | "[specify value]" |
-| `[ENVIRONMENT_MANAGEMENT]` | Specify the environment management | "[specify value]" |
-| `[RELEASE_MANAGEMENT]` | Specify the release management | "[specify value]" |
-| `[OPERATIONAL_DOCUMENTATION]` | Specify the operational documentation | "[specify value]" |
-| `[OPERATIONAL_TRAINING]` | Specify the operational training | "[specify value]" |
-| `[SUPPORT_PROCEDURES]` | Specify the support procedures | "[specify value]" |
-| `[COST_ANALYSIS]` | Specify the cost analysis | "[specify value]" |
-| `[RESOURCE_OPTIMIZATION]` | Specify the resource optimization | "[specify value]" |
-| `[STORAGE_COST_OPTIMIZATION]` | Specify the storage cost optimization | "[specify value]" |
-| `[COMPUTE_OPTIMIZATION]` | Specify the compute optimization | "[specify value]" |
-| `[LICENSING_OPTIMIZATION]` | Specify the licensing optimization | "[specify value]" |
-| `[USAGE_MONITORING]` | Specify the usage monitoring | "[specify value]" |
+| `[DATABASE_NAME]` | Name of the database instance | "CustomerDB", "OrdersDB", "InventoryDB", "AnalyticsDB", "UserAuthDB" |
+| `[DATABASE_TYPE]` | Database technology | "PostgreSQL", "MySQL", "MongoDB", "SQL Server", "Oracle", "Redis", "DynamoDB" |
+| `[DATABASE_VERSION]` | Database version number | "PostgreSQL 15", "MySQL 8.0", "MongoDB 7.0", "SQL Server 2022", "Oracle 19c" |
+| `[ENVIRONMENT]` | Deployment environment | "production", "staging", "development", "test", "disaster-recovery" |
+| `[BUSINESS_PURPOSE]` | Business function of database | "e-commerce transactions", "customer data platform", "real-time analytics", "user authentication" |
+| `[DATA_VOLUME]` | Expected data size | "500GB", "5TB", "50TB", "100GB with 10% monthly growth" |
+| `[USER_BASE]` | Number of concurrent users | "1,000+ concurrent users", "10,000 daily active users", "50,000 peak connections" |
+| `[PERFORMANCE_REQUIREMENTS]` | Performance targets | "<100ms query response", "<50ms p99 latency", "10,000 TPS", "sub-second aggregations" |
+| `[AVAILABILITY_REQUIREMENTS]` | Uptime requirements | "99.9% uptime", "99.99% availability", "zero planned downtime" |
+| `[COMPLIANCE_REQUIREMENTS]` | Regulatory standards | "GDPR", "SOX", "PCI-DSS", "HIPAA", "SOC2" |
+| `[DATABASE_SCHEMA]` | Schema design approach | "normalized 3NF", "star schema", "document-oriented", "key-value", "graph model" |
+| `[TABLE_DESIGN]` | Table architecture pattern | "microservices-aligned", "domain-driven", "event-sourced", "CQRS pattern" |
+| `[COLUMN_SPECIFICATIONS]` | Column definitions | "user, product, order entities", "JSONB for flexible attributes", "UUID primary keys" |
+| `[DATA_TYPES]` | Data type selections | "JSONB, UUID, TIMESTAMP WITH TIMEZONE", "VARCHAR, DECIMAL, DATETIME", "BSON documents" |
+| `[PRIMARY_KEYS]` | Primary key strategy | "UUID primary keys", "auto-increment BIGINT", "composite keys", "natural keys" |
+| `[FOREIGN_KEYS]` | Foreign key configuration | "cascading deletes", "restrict on delete", "deferred constraints", "no FK (NoSQL)" |
+| `[CONSTRAINTS]` | Data constraints | "NOT NULL, CHECK, UNIQUE", "custom domain constraints", "exclusion constraints" |
+| `[INDEXES]` | Index types | "B-tree indexes", "GIN indexes for JSONB", "composite indexes", "partial indexes" |
+| `[VIEWS]` | View definitions | "materialized views for analytics", "security views", "API views" |
+| `[STORED_PROCEDURES]` | Stored procedure usage | "PL/pgSQL functions", "T-SQL procedures", "MongoDB aggregation pipelines" |
+| `[QUERY_PERFORMANCE]` | Query performance targets | "sub-100ms for OLTP", "sub-second for analytics", "<10ms cache hits" |
+| `[EXECUTION_PLANS]` | Query plan optimization | "parallel execution", "index-only scans", "hash joins", "merge joins" |
+| `[INDEX_STRATEGY]` | Indexing approach | "covering indexes", "partial indexes", "expression indexes", "composite indexes" |
+| `[QUERY_REWRITING]` | Query optimization techniques | "subquery flattening", "predicate pushdown", "join reordering" |
+| `[JOIN_OPTIMIZATION]` | Join performance tuning | "hash joins for large tables", "nested loop for small sets", "merge joins for sorted data" |
+| `[SUBQUERY_OPTIMIZATION]` | Subquery handling | "CTEs for readability", "lateral joins", "correlated subquery elimination" |
+| `[AGGREGATE_OPTIMIZATION]` | Aggregation performance | "parallel aggregation", "pre-computed aggregates", "incremental aggregation" |
+| `[QUERY_CACHING]` | Query cache configuration | "Redis query cache", "application-level caching", "prepared statement caching" |
+| `[STATISTICS_MAINTENANCE]` | Statistics update schedule | "auto-analyze", "weekly ANALYZE", "histogram updates" |
+| `[QUERY_MONITORING]` | Query monitoring tools | "pg_stat_statements", "Performance Schema", "Query Store", "slow query log" |
+| `[PERFORMANCE_METRICS]` | Key performance indicators | "QPS, latency percentiles, cache hit ratio", "connections, locks, I/O wait" |
+| `[BOTTLENECK_ANALYSIS]` | Performance analysis approach | "I/O bottleneck analysis", "lock contention analysis", "CPU profiling" |
+| `[RESOURCE_UTILIZATION]` | Resource monitoring | "CPU, memory, disk I/O, network", "connection pool utilization" |
+| `[MEMORY_MANAGEMENT]` | Memory configuration | "shared_buffers 25% RAM", "work_mem tuning", "buffer pool sizing" |
+| `[CPU_OPTIMIZATION]` | CPU optimization | "parallel query workers", "query parallelization", "CPU affinity" |
+| `[IO_OPTIMIZATION]` | I/O performance tuning | "SSD storage", "RAID configuration", "tablespace separation", "WAL placement" |
+| `[STORAGE_OPTIMIZATION]` | Storage efficiency | "compression", "partitioning old data", "TOAST configuration" |
+| `[CONNECTION_MANAGEMENT]` | Connection handling | "PgBouncer pooling", "ProxySQL", "HikariCP", "connection limits" |
+| `[LOCK_MANAGEMENT]` | Lock handling strategy | "advisory locks", "row-level locking", "lock timeout configuration" |
+| `[TRANSACTION_OPTIMIZATION]` | Transaction tuning | "batch commits", "transaction isolation levels", "savepoints" |
+| `[BACKUP_STRATEGY]` | Backup approach | "continuous WAL archiving", "full + incremental", "snapshot-based" |
+| `[BACKUP_TYPES]` | Backup methods | "full backup", "incremental backup", "differential backup", "logical backup" |
+| `[BACKUP_SCHEDULE]` | Backup frequency | "daily full + hourly incremental", "continuous archiving", "weekly full" |
+| `[BACKUP_STORAGE]` | Backup destination | "S3 bucket", "Azure Blob", "GCS", "on-premises NAS", "cross-region replication" |
+| `[BACKUP_VERIFICATION]` | Backup validation | "automated restore tests", "checksum verification", "monthly restore drills" |
+| `[RECOVERY_PROCEDURES]` | Recovery playbooks | "point-in-time recovery", "full restore procedure", "table-level recovery" |
+| `[RECOVERY_TESTING]` | Recovery validation | "quarterly DR drills", "restore time testing", "data integrity verification" |
+| `[POINT_IN_TIME_RECOVERY]` | PITR configuration | "WAL-based PITR", "5-minute recovery point", "transaction log shipping" |
+| `[DISASTER_RECOVERY]` | DR strategy | "cross-region standby", "pilot light DR", "warm standby" |
+| `[BUSINESS_CONTINUITY]` | BC planning | "RTO: 4 hours, RPO: 1 hour", "multi-region active-active", "geographic redundancy" |
+| `[AUTHENTICATION]` | Authentication method | "LDAP integration", "SCRAM-SHA-256", "certificate authentication", "IAM authentication" |
+| `[AUTHORIZATION]` | Authorization model | "role-based permissions", "row-level security", "schema-level access" |
+| `[ROLE_BASED_ACCESS]` | RBAC configuration | "application roles", "read-only roles", "admin roles", "service accounts" |
+| `[DATA_ENCRYPTION]` | Encryption implementation | "TDE at rest", "TLS 1.3 in transit", "column-level encryption" |
+| `[NETWORK_SECURITY]` | Network protection | "VPC isolation", "security groups", "private endpoints", "SSL/TLS" |
+| `[AUDIT_LOGGING]` | Audit trail configuration | "pgAudit", "SQL Server Audit", "MongoDB audit log", "CloudTrail" |
+| `[SECURITY_POLICIES]` | Security policy enforcement | "password policies", "session timeout", "failed login lockout" |
+| `[VULNERABILITY_MANAGEMENT]` | Vulnerability handling | "regular patching", "CVE monitoring", "security scanning" |
+| `[COMPLIANCE_MONITORING]` | Compliance tracking | "AWS Config rules", "Azure Policy", "custom compliance checks" |
+| `[ACCESS_CONTROLS]` | Access control mechanisms | "IP whitelisting", "VPN-only access", "bastion host", "just-in-time access" |
+| `[ROUTINE_MAINTENANCE]` | Regular maintenance tasks | "VACUUM/ANALYZE", "index rebuilds", "statistics updates", "log rotation" |
+| `[INDEX_MAINTENANCE]` | Index upkeep | "REINDEX scheduled", "index bloat monitoring", "unused index removal" |
+| `[STATISTICS_UPDATES]` | Statistics refresh schedule | "daily ANALYZE", "auto_vacuum_analyze_threshold", "manual for large tables" |
+| `[DATA_ARCHIVAL]` | Archival strategy | "partition-based archiving", "cold storage tier", "S3 Glacier archival" |
+| `[DATA_PURGING]` | Data retention/purge | "90-day retention policy", "GDPR right-to-erasure", "scheduled purge jobs" |
+| `[SPACE_MANAGEMENT]` | Storage management | "autovacuum tuning", "tablespace monitoring", "storage alerts at 80%" |
+| `[LOG_MANAGEMENT]` | Log handling | "log rotation", "centralized logging", "log retention 30 days" |
+| `[INTEGRITY_CHECKS]` | Data integrity validation | "CHECKDB weekly", "pg_amcheck", "foreign key validation" |
+| `[HEALTH_CHECKS]` | Health monitoring | "connection health", "replication lag", "disk space", "query queue depth" |
+| `[PREVENTIVE_MAINTENANCE]` | Proactive maintenance | "quarterly performance review", "capacity forecasting", "hardware refresh cycle" |
+| `[MONITORING_STRATEGY]` | Monitoring approach | "Prometheus + Grafana", "Datadog", "CloudWatch", "custom dashboards" |
+| `[KEY_METRICS]` | Critical metrics | "QPS, latency, connections, replication lag, disk I/O, cache hit ratio" |
+| `[PERFORMANCE_MONITORING]` | Performance tracking | "query latency percentiles", "slow query analysis", "resource utilization" |
+| `[AVAILABILITY_MONITORING]` | Uptime monitoring | "health check endpoints", "synthetic monitoring", "failover detection" |
+| `[CAPACITY_MONITORING]` | Capacity tracking | "disk growth trends", "connection pool usage", "memory pressure" |
+| `[SECURITY_MONITORING]` | Security alerting | "failed login alerts", "privilege escalation detection", "unusual query patterns" |
+| `[ALERTING_RULES]` | Alert configuration | "PagerDuty for P1", "Slack for warnings", "email for informational" |
+| `[DASHBOARD_DESIGN]` | Dashboard layout | "Grafana dashboards", "executive summary view", "operational detail view" |
+| `[MONITORING_REPORTING]` | Reporting schedule | "daily health reports", "weekly performance summary", "monthly capacity review" |
+| `[TREND_ANALYSIS]` | Trend tracking | "query pattern analysis", "growth forecasting", "seasonal pattern detection" |
+| `[HA_ARCHITECTURE]` | High availability design | "primary-replica", "multi-AZ deployment", "active-active cluster" |
+| `[REPLICATION_STRATEGY]` | Replication approach | "streaming replication", "logical replication", "synchronous replication" |
+| `[CLUSTERING]` | Cluster configuration | "Patroni cluster", "MySQL Group Replication", "MongoDB replica set" |
+| `[LOAD_BALANCING]` | Load distribution | "HAProxy", "PgBouncer", "ProxySQL", "read/write splitting" |
+| `[FAILOVER_PROCEDURES]` | Failover handling | "automatic failover", "manual promotion", "DNS-based failover" |
+| `[SPLIT_BRAIN_PREVENTION]` | Split-brain mitigation | "etcd consensus", "fencing", "quorum-based decisions" |
+| `[DATA_SYNCHRONIZATION]` | Sync mechanism | "WAL shipping", "binlog replication", "change streams" |
+| `[CONSISTENCY_MANAGEMENT]` | Consistency level | "read-after-write consistency", "eventual consistency", "strong consistency" |
+| `[SERVICE_DISCOVERY]` | Discovery mechanism | "Consul", "etcd", "DNS-based discovery", "Kubernetes services" |
+| `[HEALTH_MONITORING]` | Health check system | "pg_isready", "mysqladmin ping", "custom health endpoints" |
+| `[SCALING_STRATEGY]` | Scaling approach | "read replicas for read scaling", "sharding for write scaling", "vertical scaling" |
+| `[HORIZONTAL_SCALING]` | Horizontal scale-out | "read replica addition", "sharding", "connection pooling scale-out" |
+| `[VERTICAL_SCALING]` | Vertical scale-up | "instance size upgrade", "storage expansion", "memory increase" |
+| `[PARTITIONING]` | Partitioning strategy | "range partitioning by date", "list partitioning", "hash partitioning" |
+| `[SHARDING]` | Sharding implementation | "Citus sharding", "Vitess", "application-level sharding", "consistent hashing" |
+| `[READ_REPLICAS]` | Read replica setup | "3 read replicas", "cross-region replicas", "analytics replica" |
+| `[CACHING_LAYERS]` | Cache implementation | "Redis cache", "Memcached", "application query cache" |
+| `[CONNECTION_POOLING]` | Connection pool setup | "PgBouncer transaction mode", "ProxySQL", "HikariCP" |
+| `[LOAD_DISTRIBUTION]` | Load balancing strategy | "round-robin", "least connections", "weighted distribution" |
+| `[CAPACITY_PLANNING]` | Capacity forecasting | "6-month growth projection", "seasonal capacity planning" |
+| `[MIGRATION_STRATEGY]` | Migration approach | "blue-green migration", "rolling migration", "big-bang cutover" |
+| `[SOURCE_ASSESSMENT]` | Source system analysis | "schema analysis", "data profiling", "dependency mapping" |
+| `[TARGET_PREPARATION]` | Target setup | "schema creation", "index setup", "user provisioning" |
+| `[DATA_MAPPING]` | Data transformation mapping | "column mapping", "data type conversion", "default value handling" |
+| `[ETL_PROCESSES]` | ETL implementation | "AWS DMS", "Debezium CDC", "custom ETL scripts", "Airbyte" |
+| `[VALIDATION_PROCEDURES]` | Data validation | "row count validation", "checksum comparison", "sample data verification" |
+| `[CUTOVER_PLANNING]` | Cutover strategy | "maintenance window cutover", "zero-downtime migration", "parallel run" |
+| `[ROLLBACK_PROCEDURES]` | Rollback plan | "snapshot restore", "reverse replication", "application rollback" |
+| `[MIGRATION_TESTING]` | Migration validation | "performance testing", "application compatibility testing", "UAT" |
+| `[GO_LIVE_SUPPORT]` | Go-live support | "24/7 war room", "escalation procedures", "rollback criteria" |
+| `[OPERATIONAL_PROCEDURES]` | Operations runbooks | "daily health checks", "incident response", "maintenance procedures" |
+| `[CHANGE_MANAGEMENT]` | Change control | "CAB approval", "change windows", "rollback plans" |
+| `[DEPLOYMENT_PROCEDURES]` | Deployment process | "Flyway migrations", "Liquibase", "blue-green deployments" |
+| `[CONFIGURATION_MANAGEMENT]` | Config management | "Ansible playbooks", "Terraform", "parameter groups" |
+| `[VERSION_CONTROL]` | Schema version control | "Git-based migrations", "Flyway versioning", "schema registry" |
+| `[ENVIRONMENT_MANAGEMENT]` | Environment handling | "dev/staging/prod parity", "data masking for lower envs" |
+| `[RELEASE_MANAGEMENT]` | Release process | "schema migration pipeline", "backward-compatible changes", "feature flags" |
+| `[OPERATIONAL_DOCUMENTATION]` | Ops documentation | "runbooks", "architecture diagrams", "troubleshooting guides" |
+| `[OPERATIONAL_TRAINING]` | Staff training | "DBA training program", "on-call onboarding", "incident response training" |
+| `[SUPPORT_PROCEDURES]` | Support process | "L1/L2/L3 escalation", "vendor support", "24/7 on-call rotation" |
+| `[COST_ANALYSIS]` | Cost assessment | "TCO analysis", "cost per query", "storage cost breakdown" |
+| `[RESOURCE_OPTIMIZATION]` | Resource efficiency | "right-sizing instances", "reserved capacity", "spot instances for dev" |
+| `[STORAGE_COST_OPTIMIZATION]` | Storage cost reduction | "compression", "tiered storage", "archival policies" |
+| `[COMPUTE_OPTIMIZATION]` | Compute cost reduction | "auto-scaling", "scheduled scaling", "instance right-sizing" |
+| `[LICENSING_OPTIMIZATION]` | License cost management | "open-source alternatives", "license pooling", "BYOL options" |
+| `[USAGE_MONITORING]` | Usage tracking | "query patterns", "user activity", "resource consumption" |
 | `[COST_ALLOCATION]` | Specify the cost allocation | "North America" |
 | `[BUDGET_MANAGEMENT]` | Specify the budget management | "$500,000" |
-| `[ROI_ANALYSIS]` | Specify the roi analysis | "[specify value]" |
-| `[COST_REPORTING]` | Specify the cost reporting | "[specify value]" |
-| `[REGULATORY_COMPLIANCE]` | Specify the regulatory compliance | "[specify value]" |
-| `[DATA_GOVERNANCE]` | Specify the data governance | "[specify value]" |
-| `[DATA_CLASSIFICATION]` | Specify the data classification | "[specify value]" |
-| `[RETENTION_POLICIES]` | Specify the retention policies | "[specify value]" |
-| `[PRIVACY_CONTROLS]` | Specify the privacy controls | "[specify value]" |
-| `[AUDIT_REQUIREMENTS]` | Specify the audit requirements | "[specify value]" |
-| `[POLICY_ENFORCEMENT]` | Specify the policy enforcement | "[specify value]" |
-| `[COMPLIANCE_REPORTING]` | Specify the compliance reporting | "[specify value]" |
-| `[RISK_MANAGEMENT]` | Specify the risk management | "[specify value]" |
-| `[CONTROL_FRAMEWORK]` | Specify the control framework | "[specify value]" |
-| `[COMMON_ISSUES]` | Specify the common issues | "[specify value]" |
-| `[DIAGNOSTIC_PROCEDURES]` | Specify the diagnostic procedures | "[specify value]" |
-| `[PERFORMANCE_ISSUES]` | Specify the performance issues | "[specify value]" |
-| `[CONNECTIVITY_ISSUES]` | Specify the connectivity issues | "[specify value]" |
-| `[REPLICATION_ISSUES]` | Specify the replication issues | "[specify value]" |
-| `[BACKUP_ISSUES]` | Specify the backup issues | "[specify value]" |
-| `[SECURITY_ISSUES]` | Specify the security issues | "[specify value]" |
-| `[CORRUPTION_ISSUES]` | Specify the corruption issues | "[specify value]" |
-| `[SPACE_ISSUES]` | Specify the space issues | "[specify value]" |
-| `[LOCK_ISSUES]` | Specify the lock issues | "[specify value]" |
+| `[ROI_ANALYSIS]` | Return on investment analysis | "cost savings vs. on-prem", "performance improvement ROI", "availability value" |
+| `[COST_REPORTING]` | Cost reporting setup | "monthly cost reports", "chargeback by application", "cost anomaly alerts" |
+| `[REGULATORY_COMPLIANCE]` | Regulatory requirements | "GDPR data residency", "SOX audit controls", "HIPAA safeguards", "PCI-DSS requirements" |
+| `[DATA_GOVERNANCE]` | Governance framework | "data stewardship", "data catalog", "lineage tracking", "quality rules" |
+| `[DATA_CLASSIFICATION]` | Data classification scheme | "PII, sensitive, public", "confidentiality levels", "data sensitivity tags" |
+| `[RETENTION_POLICIES]` | Data retention rules | "7-year financial data", "90-day logs", "GDPR erasure compliance" |
+| `[PRIVACY_CONTROLS]` | Privacy implementation | "data masking", "anonymization", "pseudonymization", "consent management" |
+| `[AUDIT_REQUIREMENTS]` | Audit compliance | "quarterly audits", "access reviews", "change tracking", "SOC2 evidence" |
+| `[POLICY_ENFORCEMENT]` | Policy implementation | "automated policy checks", "approval workflows", "exception handling" |
+| `[COMPLIANCE_REPORTING]` | Compliance documentation | "audit reports", "compliance dashboards", "evidence collection" |
+| `[RISK_MANAGEMENT]` | Risk handling | "risk assessment", "mitigation plans", "risk register", "BIA" |
+| `[CONTROL_FRAMEWORK]` | Control standards | "COBIT", "ISO 27001 controls", "NIST framework", "CIS benchmarks" |
+| `[COMMON_ISSUES]` | Frequent problems | "connection timeouts", "slow queries", "replication lag", "deadlocks" |
+| `[DIAGNOSTIC_PROCEDURES]` | Troubleshooting steps | "log analysis", "query plan review", "wait event analysis" |
+| `[PERFORMANCE_ISSUES]` | Performance problems | "slow query identification", "index recommendations", "resource bottlenecks" |
+| `[CONNECTIVITY_ISSUES]` | Connection problems | "connection pool exhaustion", "network timeouts", "DNS resolution" |
+| `[REPLICATION_ISSUES]` | Replication problems | "replication lag", "replication conflicts", "slot overflow" |
+| `[BACKUP_ISSUES]` | Backup problems | "backup failures", "restore failures", "backup performance" |
+| `[SECURITY_ISSUES]` | Security incidents | "unauthorized access", "SQL injection attempts", "privilege escalation" |
+| `[CORRUPTION_ISSUES]` | Data corruption handling | "checksum failures", "page corruption", "index corruption" |
+| `[SPACE_ISSUES]` | Storage problems | "disk full", "tablespace growth", "bloat accumulation" |
+| `[LOCK_ISSUES]` | Locking problems | "deadlocks", "lock waits", "blocking queries", "lock escalation" |
 
 ### MySQL E-commerce Database
 ```

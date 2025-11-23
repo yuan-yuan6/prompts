@@ -407,216 +407,216 @@ API Documentation Requirements:
 
 | Variable | Description | Example |
 |----------|-------------|----------|
-| `[DOCUMENTATION_TYPE]` | Specify the documentation type | "Standard" |
-| `[TARGET_AUDIENCE]` | Specify the target audience | "[specify value]" |
-| `[DOCUMENTATION_PURPOSE]` | Specify the documentation purpose | "[specify value]" |
-| `[DOCUMENTATION_SCOPE]` | Specify the documentation scope | "[specify value]" |
-| `[DOCUMENTATION_VERSION]` | Specify the documentation version | "[specify value]" |
-| `[LAST_UPDATED]` | Specify the last updated | "2025-01-15" |
-| `[REVIEW_CYCLE]` | Specify the review cycle | "[specify value]" |
-| `[APPROVAL_PROCESS]` | Specify the approval process | "[specify value]" |
-| `[DISTRIBUTION_METHOD]` | Specify the distribution method | "[specify value]" |
-| `[MAINTENANCE_RESPONSIBILITY]` | Specify the maintenance responsibility | "[specify value]" |
-| `[PROJECT_NAME]` | Specify the project name | "Digital Transformation Initiative" |
-| `[PRODUCT_VERSION]` | Specify the product version | "[specify value]" |
-| `[TECHNOLOGY_STACK]` | Specify the technology stack | "[specify value]" |
-| `[DEVELOPMENT_TEAM]` | Specify the development team | "[specify value]" |
-| `[BUSINESS_OWNER]` | Specify the business owner | "[specify value]" |
-| `[SYSTEM_ENVIRONMENT]` | Specify the system environment | "[specify value]" |
-| `[DEPENDENCIES]` | Specify the dependencies | "[specify value]" |
-| `[RELATED_SYSTEMS]` | Specify the related systems | "[specify value]" |
-| `[COMPLIANCE_REQUIREMENTS]` | Specify the compliance requirements | "[specify value]" |
-| `[SECURITY_CLASSIFICATION]` | Specify the security classification | "[specify value]" |
-| `[API_NAME]` | Specify the api name | "John Smith" |
-| `[API_VERSION]` | Specify the api version | "[specify value]" |
-| `[BASE_URL]` | Specify the base url | "https://example.com" |
-| `[AUTHENTICATION_METHOD]` | Specify the authentication method | "[specify value]" |
-| `[REQUEST_FORMAT]` | Specify the request format | "[specify value]" |
-| `[RESPONSE_FORMAT]` | Specify the response format | "[specify value]" |
-| `[ERROR_HANDLING]` | Specify the error handling | "[specify value]" |
-| `[RATE_LIMITING]` | Specify the rate limiting | "[specify value]" |
-| `[VERSIONING_STRATEGY]` | Specify the versioning strategy | "[specify value]" |
-| `[DEPRECATION_POLICY]` | Specify the deprecation policy | "[specify value]" |
-| `[ENDPOINT_PATH]` | Specify the endpoint path | "[specify value]" |
-| `[HTTP_METHOD]` | Specify the http method | "[specify value]" |
-| `[ENDPOINT_DESCRIPTION]` | Specify the endpoint description | "[specify value]" |
-| `[PARAMETERS]` | Specify the parameters | "[specify value]" |
-| `[REQUEST_HEADERS]` | Specify the request headers | "[specify value]" |
-| `[REQUEST_BODY]` | Specify the request body | "[specify value]" |
-| `[RESPONSE_HEADERS]` | Specify the response headers | "[specify value]" |
-| `[RESPONSE_BODY]` | Specify the response body | "[specify value]" |
-| `[STATUS_CODES]` | Specify the status codes | "In Progress" |
-| `[ERROR_RESPONSES]` | Specify the error responses | "[specify value]" |
-| `[ARCHITECTURE_OVERVIEW]` | Specify the architecture overview | "[specify value]" |
-| `[SYSTEM_COMPONENTS]` | Specify the system components | "[specify value]" |
-| `[COMPONENT_INTERACTIONS]` | Specify the component interactions | "[specify value]" |
-| `[DATA_FLOW]` | Specify the data flow | "[specify value]" |
-| `[INTEGRATION_POINTS]` | Specify the integration points | "[specify value]" |
-| `[SECURITY_ARCHITECTURE]` | Specify the security architecture | "[specify value]" |
-| `[DEPLOYMENT_ARCHITECTURE]` | Specify the deployment architecture | "[specify value]" |
-| `[SCALABILITY_DESIGN]` | Specify the scalability design | "[specify value]" |
-| `[PERFORMANCE_CHARACTERISTICS]` | Specify the performance characteristics | "[specify value]" |
-| `[RELIABILITY_MEASURES]` | Specify the reliability measures | "[specify value]" |
-| `[DATABASE_TYPE]` | Specify the database type | "Standard" |
-| `[SCHEMA_DESIGN]` | Specify the schema design | "[specify value]" |
-| `[TABLE_STRUCTURES]` | Specify the table structures | "[specify value]" |
-| `[DATABASE_RELATIONSHIPS]` | Specify the database relationships | "[specify value]" |
-| `[DATABASE_INDEXES]` | Specify the database indexes | "[specify value]" |
-| `[DATABASE_CONSTRAINTS]` | Specify the database constraints | "[specify value]" |
-| `[STORED_PROCEDURES]` | Specify the stored procedures | "[specify value]" |
-| `[DATABASE_VIEWS]` | Specify the database views | "[specify value]" |
-| `[DATABASE_TRIGGERS]` | Specify the database triggers | "[specify value]" |
-| `[BACKUP_STRATEGY]` | Specify the backup strategy | "[specify value]" |
-| `[SYSTEM_REQUIREMENTS]` | Specify the system requirements | "[specify value]" |
-| `[PREREQUISITES]` | Specify the prerequisites | "[specify value]" |
-| `[INSTALLATION_STEPS]` | Specify the installation steps | "[specify value]" |
-| `[CONFIGURATION_FILES]` | Specify the configuration files | "[specify value]" |
-| `[ENVIRONMENT_VARIABLES]` | Specify the environment variables | "[specify value]" |
-| `[DATABASE_SETUP]` | Specify the database setup | "[specify value]" |
-| `[INITIAL_CONFIGURATION]` | Specify the initial configuration | "[specify value]" |
-| `[VERIFICATION_STEPS]` | Specify the verification steps | "[specify value]" |
-| `[INSTALLATION_TROUBLESHOOTING]` | Specify the installation troubleshooting | "[specify value]" |
-| `[ROLLBACK_PROCEDURES]` | Specify the rollback procedures | "[specify value]" |
-| `[GETTING_STARTED]` | Specify the getting started | "[specify value]" |
-| `[USER_INTERFACE]` | Specify the user interface | "[specify value]" |
-| `[NAVIGATION]` | Specify the navigation | "[specify value]" |
-| `[CORE_FEATURES]` | Specify the core features | "[specify value]" |
-| `[ADVANCED_FEATURES]` | Specify the advanced features | "[specify value]" |
-| `[USER_WORKFLOWS]` | Specify the user workflows | "[specify value]" |
-| `[USER_BEST_PRACTICES]` | Specify the user best practices | "[specify value]" |
-| `[TIPS_AND_TRICKS]` | Specify the tips and tricks | "[specify value]" |
-| `[USER_FAQ]` | Specify the user faq | "[specify value]" |
-| `[SUPPORT_INFORMATION]` | Specify the support information | "[specify value]" |
-| `[DEVELOPMENT_ENVIRONMENT]` | Specify the development environment | "[specify value]" |
-| `[CODE_STRUCTURE]` | Specify the code structure | "[specify value]" |
-| `[CODING_STANDARDS]` | Specify the coding standards | "[specify value]" |
-| `[DEVELOPMENT_WORKFLOW]` | Specify the development workflow | "[specify value]" |
-| `[BUILD_PROCESS]` | Specify the build process | "[specify value]" |
-| `[TESTING_GUIDELINES]` | Specify the testing guidelines | "[specify value]" |
-| `[DEBUGGING_GUIDE]` | Specify the debugging guide | "[specify value]" |
-| `[PERFORMANCE_GUIDELINES]` | Specify the performance guidelines | "[specify value]" |
-| `[SECURITY_GUIDELINES]` | Specify the security guidelines | "[specify value]" |
-| `[CONTRIBUTION_GUIDELINES]` | Specify the contribution guidelines | "[specify value]" |
-| `[CONFIGURATION_OVERVIEW]` | Specify the configuration overview | "[specify value]" |
-| `[CONFIG_FILES]` | Specify the config files | "[specify value]" |
-| `[CONFIG_PARAMETERS]` | Specify the config parameters | "[specify value]" |
-| `[DEFAULT_VALUES]` | Specify the default values | "[specify value]" |
-| `[ENVIRONMENT_SETTINGS]` | Specify the environment settings | "[specify value]" |
-| `[SECURITY_SETTINGS]` | Specify the security settings | "[specify value]" |
-| `[PERFORMANCE_TUNING]` | Specify the performance tuning | "[specify value]" |
-| `[LOGGING_CONFIGURATION]` | Specify the logging configuration | "[specify value]" |
-| `[MONITORING_CONFIGURATION]` | Specify the monitoring configuration | "[specify value]" |
-| `[BACKUP_CONFIGURATION]` | Specify the backup configuration | "[specify value]" |
-| `[OPERATIONAL_OVERVIEW]` | Specify the operational overview | "[specify value]" |
-| `[SYSTEM_MONITORING]` | Specify the system monitoring | "[specify value]" |
-| `[HEALTH_CHECKS]` | Specify the health checks | "[specify value]" |
-| `[PERFORMANCE_MONITORING]` | Specify the performance monitoring | "[specify value]" |
-| `[LOG_MANAGEMENT]` | Specify the log management | "[specify value]" |
-| `[BACKUP_PROCEDURES]` | Specify the backup procedures | "[specify value]" |
-| `[RECOVERY_PROCEDURES]` | Specify the recovery procedures | "[specify value]" |
-| `[MAINTENANCE_TASKS]` | Specify the maintenance tasks | "[specify value]" |
-| `[SCALING_PROCEDURES]` | Specify the scaling procedures | "[specify value]" |
-| `[EMERGENCY_PROCEDURES]` | Specify the emergency procedures | "[specify value]" |
-| `[COMMON_ISSUES]` | Specify the common issues | "[specify value]" |
-| `[ERROR_MESSAGES]` | Specify the error messages | "[specify value]" |
-| `[DIAGNOSTIC_STEPS]` | Specify the diagnostic steps | "[specify value]" |
-| `[RESOLUTION_STEPS]` | Specify the resolution steps | "[specify value]" |
-| `[PERFORMANCE_ISSUES]` | Specify the performance issues | "[specify value]" |
-| `[NETWORK_ISSUES]` | Specify the network issues | "[specify value]" |
-| `[DATABASE_ISSUES]` | Specify the database issues | "[specify value]" |
-| `[SECURITY_ISSUES]` | Specify the security issues | "[specify value]" |
-| `[INTEGRATION_ISSUES]` | Specify the integration issues | "[specify value]" |
-| `[ESCALATION_PROCEDURES]` | Specify the escalation procedures | "[specify value]" |
-| `[BASIC_EXAMPLES]` | Specify the basic examples | "[specify value]" |
-| `[ADVANCED_EXAMPLES]` | Specify the advanced examples | "[specify value]" |
-| `[INTEGRATION_EXAMPLES]` | Specify the integration examples | "[specify value]" |
-| `[ERROR_HANDLING_EXAMPLES]` | Specify the error handling examples | "[specify value]" |
-| `[AUTHENTICATION_EXAMPLES]` | Specify the authentication examples | "[specify value]" |
-| `[TESTING_EXAMPLES]` | Specify the testing examples | "[specify value]" |
-| `[PERFORMANCE_EXAMPLES]` | Specify the performance examples | "[specify value]" |
-| `[SECURITY_EXAMPLES]` | Specify the security examples | "[specify value]" |
-| `[BEST_PRACTICE_EXAMPLES]` | Specify the best practice examples | "[specify value]" |
-| `[ANTI_PATTERN_EXAMPLES]` | Specify the anti pattern examples | "[specify value]" |
-| `[DOCUMENTATION_STANDARDS]` | Specify the documentation standards | "[specify value]" |
-| `[WRITING_STYLE]` | Specify the writing style | "[specify value]" |
-| `[TECHNICAL_ACCURACY]` | Specify the technical accuracy | "[specify value]" |
-| `[CONSISTENCY_GUIDELINES]` | Specify the consistency guidelines | "[specify value]" |
-| `[REVIEW_PROCESS]` | Specify the review process | "[specify value]" |
-| `[UPDATE_PROCEDURES]` | Specify the update procedures | "2025-01-15" |
-| `[VERSION_CONTROL]` | Specify the version control | "[specify value]" |
-| `[TRANSLATION_REQUIREMENTS]` | Specify the translation requirements | "[specify value]" |
-| `[ACCESSIBILITY_STANDARDS]` | Specify the accessibility standards | "[specify value]" |
-| `[LEGAL_REQUIREMENTS]` | Specify the legal requirements | "[specify value]" |
-| `[DIAGRAMS]` | Specify the diagrams | "[specify value]" |
-| `[SCREENSHOTS]` | Specify the screenshots | "[specify value]" |
-| `[FLOWCHARTS]` | Specify the flowcharts | "[specify value]" |
-| `[WIREFRAMES]` | Specify the wireframes | "[specify value]" |
-| `[ARCHITECTURE_DIAGRAMS]` | Specify the architecture diagrams | "[specify value]" |
-| `[SEQUENCE_DIAGRAMS]` | Specify the sequence diagrams | "[specify value]" |
-| `[ER_DIAGRAMS]` | Specify the er diagrams | "[specify value]" |
-| `[NETWORK_DIAGRAMS]` | Specify the network diagrams | "[specify value]" |
-| `[PROCESS_DIAGRAMS]` | Specify the process diagrams | "[specify value]" |
-| `[UI_MOCKUPS]` | Specify the ui mockups | "[specify value]" |
-| `[CHANGE_PROCESS]` | Specify the change process | "[specify value]" |
-| `[VERSION_HISTORY]` | Specify the version history | "[specify value]" |
-| `[CHANGE_LOG]` | Specify the change log | "[specify value]" |
-| `[IMPACT_ASSESSMENT]` | Specify the impact assessment | "[specify value]" |
-| `[APPROVAL_WORKFLOW]` | Specify the approval workflow | "[specify value]" |
-| `[COMMUNICATION_PLAN]` | Specify the communication plan | "[specify value]" |
-| `[TRAINING_UPDATES]` | Specify the training updates | "2025-01-15" |
-| `[DOCUMENTATION_UPDATES]` | Specify the documentation updates | "2025-01-15" |
-| `[ROLLBACK_PLANS]` | Specify the rollback plans | "[specify value]" |
-| `[POST_IMPLEMENTATION_REVIEW]` | Specify the post implementation review | "[specify value]" |
-| `[REGULATORY_REQUIREMENTS]` | Specify the regulatory requirements | "[specify value]" |
-| `[COMPLIANCE_STANDARDS]` | Specify the compliance standards | "[specify value]" |
-| `[AUDIT_TRAIL]` | Specify the audit trail | "[specify value]" |
-| `[SECURITY_CONTROLS]` | Specify the security controls | "[specify value]" |
-| `[DATA_PRIVACY]` | Specify the data privacy | "[specify value]" |
-| `[RISK_ASSESSMENT]` | Specify the risk assessment | "[specify value]" |
-| `[CONTROL_TESTING]` | Specify the control testing | "[specify value]" |
-| `[REMEDIATION_PLANS]` | Specify the remediation plans | "[specify value]" |
-| `[CERTIFICATION_REQUIREMENTS]` | Specify the certification requirements | "[specify value]" |
-| `[THIRD_PARTY_ASSESSMENTS]` | Specify the third party assessments | "[specify value]" |
-| `[PERFORMANCE_REQUIREMENTS]` | Specify the performance requirements | "[specify value]" |
-| `[BENCHMARK_RESULTS]` | Specify the benchmark results | "[specify value]" |
-| `[LOAD_TESTING_RESULTS]` | Specify the load testing results | "[specify value]" |
-| `[PERFORMANCE_METRICS]` | Specify the performance metrics | "[specify value]" |
-| `[OPTIMIZATION_RECOMMENDATIONS]` | Specify the optimization recommendations | "[specify value]" |
-| `[CAPACITY_PLANNING]` | Specify the capacity planning | "[specify value]" |
-| `[RESOURCE_UTILIZATION]` | Specify the resource utilization | "[specify value]" |
-| `[PERFORMANCE_MONITORING_DOCS]` | Specify the performance monitoring docs | "[specify value]" |
-| `[TUNING_GUIDELINES]` | Specify the tuning guidelines | "[specify value]" |
-| `[PERFORMANCE_TROUBLESHOOTING]` | Specify the performance troubleshooting | "[specify value]" |
-| `[SECURITY_OVERVIEW]` | Specify the security overview | "[specify value]" |
-| `[THREAT_MODEL]` | Specify the threat model | "[specify value]" |
-| `[SECURITY_CONTROLS_DOC]` | Specify the security controls doc | "[specify value]" |
-| `[AUTHENTICATION_MECHANISMS]` | Specify the authentication mechanisms | "[specify value]" |
-| `[AUTHORIZATION_MODEL]` | Specify the authorization model | "[specify value]" |
-| `[ENCRYPTION_IMPLEMENTATION]` | Specify the encryption implementation | "[specify value]" |
-| `[VULNERABILITY_MANAGEMENT]` | Specify the vulnerability management | "[specify value]" |
-| `[INCIDENT_RESPONSE]` | Specify the incident response | "[specify value]" |
-| `[SECURITY_MONITORING]` | Specify the security monitoring | "[specify value]" |
-| `[COMPLIANCE_MAPPING]` | Specify the compliance mapping | "[specify value]" |
-| `[INTEGRATION_OVERVIEW]` | Specify the integration overview | "[specify value]" |
-| `[EXTERNAL_SYSTEMS]` | Specify the external systems | "[specify value]" |
-| `[API_SPECIFICATIONS]` | Specify the api specifications | "[specify value]" |
-| `[DATA_FORMATS]` | Specify the data formats | "[specify value]" |
-| `[MESSAGE_SCHEMAS]` | Specify the message schemas | "[specify value]" |
-| `[INTEGRATION_ERROR_HANDLING]` | Specify the integration error handling | "[specify value]" |
-| `[RETRY_LOGIC]` | Specify the retry logic | "[specify value]" |
-| `[TIMEOUT_CONFIGURATIONS]` | Specify the timeout configurations | "[specify value]" |
-| `[MONITORING_INTEGRATION]` | Specify the monitoring integration | "[specify value]" |
-| `[TESTING_INTEGRATION]` | Specify the testing integration | "[specify value]" |
-| `[DEPLOYMENT_OVERVIEW]` | Specify the deployment overview | "[specify value]" |
-| `[ENVIRONMENT_REQUIREMENTS]` | Specify the environment requirements | "[specify value]" |
-| `[DEPLOYMENT_PIPELINE]` | Specify the deployment pipeline | "[specify value]" |
-| `[RELEASE_PROCESS]` | Specify the release process | "[specify value]" |
-| `[CONFIG_MANAGEMENT_DEPLOY]` | Specify the config management deploy | "[specify value]" |
-| `[DATABASE_MIGRATION]` | Specify the database migration | "[specify value]" |
-| `[ROLLBACK_PROCEDURES_DEPLOY]` | Specify the rollback procedures deploy | "[specify value]" |
-| `[POST_DEPLOYMENT_TESTING]` | Specify the post deployment testing | "[specify value]" |
-| `[GO_LIVE_CHECKLIST]` | Specify the go live checklist | "[specify value]" |
-| `[SUPPORT_TRANSITION]` | Specify the support transition | "[specify value]" |
+| `[DOCUMENTATION_TYPE]` | Type of documentation | "API Reference", "User Guide", "Architecture Documentation", "Developer Guide", "Operations Manual" |
+| `[TARGET_AUDIENCE]` | Intended readers | "Backend developers", "Frontend engineers", "DevOps team", "Product managers", "End users" |
+| `[DOCUMENTATION_PURPOSE]` | Purpose of documentation | "Enable API integration", "Onboard new developers", "System architecture reference", "Operational runbook" |
+| `[DOCUMENTATION_SCOPE]` | Coverage scope | "All REST endpoints", "Core features only", "Full system architecture", "Installation and configuration" |
+| `[DOCUMENTATION_VERSION]` | Documentation version | "v2.1.0", "2024-Q4 Release", "Matches API v3.x", "Draft 1.0" |
+| `[LAST_UPDATED]` | Last update date | "2025-01-15", "2024-12-01", "Updated with each release" |
+| `[REVIEW_CYCLE]` | Review frequency | "Quarterly review", "With each major release", "Monthly technical review", "Annual comprehensive audit" |
+| `[APPROVAL_PROCESS]` | Approval workflow | "Technical lead approval required", "Peer review + PM sign-off", "Architecture board review", "Self-service with automated checks" |
+| `[DISTRIBUTION_METHOD]` | How docs are distributed | "GitBook hosted site", "Confluence wiki", "ReadTheDocs deployment", "PDF export for partners" |
+| `[MAINTENANCE_RESPONSIBILITY]` | Who maintains docs | "Engineering team owns technical docs", "Technical writer with SME review", "Doc-as-code with PR process" |
+| `[PROJECT_NAME]` | Project name | "PaymentGateway API", "CustomerPortal", "InventoryManagement System", "DataPipeline Platform" |
+| `[PRODUCT_VERSION]` | Product version | "v3.2.1", "2024.1 LTS", "5.0.0-beta", "Release 2024-Q4" |
+| `[TECHNOLOGY_STACK]` | Technology stack | "Node.js/Express/MongoDB", "Python/FastAPI/PostgreSQL", "Java Spring Boot/MySQL", "Go/gRPC/Redis" |
+| `[DEVELOPMENT_TEAM]` | Development team | "Platform Engineering", "Core API Team", "Backend Services Squad", "Infrastructure Team" |
+| `[BUSINESS_OWNER]` | Business owner | "VP of Engineering", "Product Director", "CTO Office", "Platform Lead" |
+| `[SYSTEM_ENVIRONMENT]` | System environment | "AWS Production (us-east-1)", "GCP Multi-region", "Azure Kubernetes Service", "Hybrid cloud deployment" |
+| `[DEPENDENCIES]` | System dependencies | "Redis 7.x, PostgreSQL 15, Kafka 3.x", "Auth0, Stripe API, SendGrid", "Elasticsearch 8.x, RabbitMQ" |
+| `[RELATED_SYSTEMS]` | Related systems | "User Service, Notification Service", "Legacy ERP integration", "Third-party payment processors" |
+| `[COMPLIANCE_REQUIREMENTS]` | Compliance requirements | "SOC 2 Type II", "GDPR, CCPA data privacy", "PCI DSS Level 1", "HIPAA for healthcare data" |
+| `[SECURITY_CLASSIFICATION]` | Security classification | "Internal Use Only", "Confidential", "Public API documentation", "Restricted - NDA required" |
+| `[API_NAME]` | API name | "PaymentsAPI", "UserManagement API", "InventoryService", "NotificationHub" |
+| `[API_VERSION]` | API version | "v2.1", "2024-01-15", "3.0.0-stable", "v1-beta" |
+| `[BASE_URL]` | Base URL | "https://api.company.com/v2", "https://payments.example.com", "https://gateway.internal.io" |
+| `[AUTHENTICATION_METHOD]` | Authentication method | "OAuth 2.0 Bearer token", "API Key in header", "JWT with refresh tokens", "mTLS certificate" |
+| `[REQUEST_FORMAT]` | Request format | "JSON with Content-Type: application/json", "Form-urlencoded", "Multipart for file uploads" |
+| `[RESPONSE_FORMAT]` | Response format | "JSON with envelope {data, meta, errors}", "HAL+JSON for hypermedia", "Protocol Buffers for gRPC" |
+| `[ERROR_HANDLING]` | Error handling approach | "RFC 7807 Problem Details", "Custom error codes with messages", "HTTP status + error object" |
+| `[RATE_LIMITING]` | Rate limiting policy | "1000 requests/minute per API key", "Tiered: Free 100/hr, Pro 10K/hr", "429 response with Retry-After header" |
+| `[VERSIONING_STRATEGY]` | Versioning strategy | "URL path versioning (/v1/, /v2/)", "Header versioning (Accept-Version)", "Query parameter (?version=2)" |
+| `[DEPRECATION_POLICY]` | Deprecation policy | "6-month sunset period with warnings", "Deprecated header in responses", "Migration guide provided 90 days before EOL" |
+| `[ENDPOINT_PATH]` | Endpoint path | "/users/{id}", "/payments", "/orders/{orderId}/items", "/v2/products" |
+| `[HTTP_METHOD]` | HTTP method | "GET", "POST", "PUT", "PATCH", "DELETE" |
+| `[ENDPOINT_DESCRIPTION]` | Endpoint description | "Retrieves user by ID", "Creates a new payment", "Updates order status", "Lists all products with pagination" |
+| `[PARAMETERS]` | Request parameters | "id (path, required), include (query, optional)", "limit=20, offset=0, sort=created_at" |
+| `[REQUEST_HEADERS]` | Request headers | "Authorization: Bearer {token}, Content-Type: application/json, X-Request-ID: {uuid}" |
+| `[REQUEST_BODY]` | Request body schema | "{amount: number, currency: string, description?: string}", "JSON Schema reference: #/components/schemas/Payment" |
+| `[RESPONSE_HEADERS]` | Response headers | "X-RateLimit-Remaining, X-Request-ID, ETag for caching" |
+| `[RESPONSE_BODY]` | Response body schema | "{data: User, meta: {requestId, timestamp}}", "Array of objects with pagination cursor" |
+| `[STATUS_CODES]` | HTTP status codes | "200 OK, 201 Created, 400 Bad Request, 401 Unauthorized, 404 Not Found, 500 Internal Server Error" |
+| `[ERROR_RESPONSES]` | Error response format | "{error: {code: 'INVALID_INPUT', message: 'Email format invalid', field: 'email'}}" |
+| `[ARCHITECTURE_OVERVIEW]` | Architecture overview | "Microservices with API Gateway", "Monolith with modular design", "Event-driven architecture with Kafka", "Serverless Lambda functions" |
+| `[SYSTEM_COMPONENTS]` | System components | "API Gateway, Auth Service, User Service, Payment Service, Notification Service" |
+| `[COMPONENT_INTERACTIONS]` | Component interactions | "Synchronous REST calls between services", "Async messaging via RabbitMQ", "gRPC for internal service communication" |
+| `[DATA_FLOW]` | Data flow description | "Request -> API Gateway -> Service -> Database -> Response", "Event sourcing with CQRS pattern" |
+| `[INTEGRATION_POINTS]` | Integration points | "External payment processor (Stripe)", "Email service (SendGrid)", "SMS gateway (Twilio)", "Analytics (Segment)" |
+| `[SECURITY_ARCHITECTURE]` | Security architecture | "Zero-trust network model", "OAuth 2.0 + OIDC for authentication", "Role-based access control (RBAC)", "Encryption at rest and in transit" |
+| `[DEPLOYMENT_ARCHITECTURE]` | Deployment architecture | "Kubernetes on AWS EKS", "Docker containers with Helm charts", "Blue-green deployment strategy", "Multi-AZ deployment" |
+| `[SCALABILITY_DESIGN]` | Scalability design | "Horizontal pod autoscaling", "Database read replicas", "CDN for static assets", "Caching layer with Redis" |
+| `[PERFORMANCE_CHARACTERISTICS]` | Performance characteristics | "P99 latency < 200ms", "Throughput 10K requests/second", "Database query time < 50ms" |
+| `[RELIABILITY_MEASURES]` | Reliability measures | "99.9% SLA target", "Circuit breaker pattern", "Retry with exponential backoff", "Health checks and auto-recovery" |
+| `[DATABASE_TYPE]` | Database type | "PostgreSQL 15", "MongoDB 6.0", "MySQL 8.0", "Redis 7.x for caching", "Elasticsearch for search" |
+| `[SCHEMA_DESIGN]` | Schema design approach | "Normalized 3NF schema", "Denormalized for read performance", "Document-oriented with embedded references" |
+| `[TABLE_STRUCTURES]` | Table structures | "users(id, email, name, created_at), orders(id, user_id, total, status)" |
+| `[DATABASE_RELATIONSHIPS]` | Database relationships | "users 1:N orders, orders N:M products via order_items", "Foreign key constraints enforced" |
+| `[DATABASE_INDEXES]` | Database indexes | "B-tree index on email (unique)", "Composite index on (user_id, created_at)", "Full-text index on product.description" |
+| `[DATABASE_CONSTRAINTS]` | Database constraints | "NOT NULL on required fields", "CHECK constraints for status enum", "Unique constraint on email" |
+| `[STORED_PROCEDURES]` | Stored procedures | "calculate_order_total(order_id)", "archive_old_records(days_old)", "None - logic in application layer" |
+| `[DATABASE_VIEWS]` | Database views | "v_user_orders_summary", "v_daily_sales_report", "Materialized view for analytics" |
+| `[DATABASE_TRIGGERS]` | Database triggers | "update_modified_at on row update", "audit_log_trigger for compliance", "None - handled in application" |
+| `[BACKUP_STRATEGY]` | Backup strategy | "Daily full backup, hourly incremental", "Point-in-time recovery enabled", "30-day retention, cross-region replication" |
+| `[SYSTEM_REQUIREMENTS]` | System requirements | "Node.js 18+, 4GB RAM minimum, 20GB disk space", "Docker 20.10+, Kubernetes 1.25+" |
+| `[PREREQUISITES]` | Prerequisites | "Git, Docker, Docker Compose installed", "AWS CLI configured", "Access to private npm registry" |
+| `[INSTALLATION_STEPS]` | Installation steps | "1. Clone repo, 2. npm install, 3. Copy .env.example to .env, 4. Run migrations, 5. npm start" |
+| `[CONFIGURATION_FILES]` | Configuration files | "config/default.json, config/production.json", ".env for secrets", "docker-compose.yml" |
+| `[ENVIRONMENT_VARIABLES]` | Environment variables | "DATABASE_URL, JWT_SECRET, API_KEY", "NODE_ENV, LOG_LEVEL, PORT" |
+| `[DATABASE_SETUP]` | Database setup | "Run npx prisma migrate deploy", "Execute seed script: npm run db:seed", "Create read replica connection" |
+| `[INITIAL_CONFIGURATION]` | Initial configuration | "Create admin user, Configure OAuth providers, Set up webhook endpoints" |
+| `[VERIFICATION_STEPS]` | Verification steps | "curl http://localhost:3000/health returns 200", "Run npm test to verify setup", "Check logs for startup errors" |
+| `[INSTALLATION_TROUBLESHOOTING]` | Installation troubleshooting | "Port 3000 in use: change PORT env var", "Database connection failed: verify DATABASE_URL", "Permission denied: check file ownership" |
+| `[ROLLBACK_PROCEDURES]` | Rollback procedures | "Revert to previous Docker image tag", "Run down migration: npx prisma migrate reset", "Restore database from backup" |
+| `[GETTING_STARTED]` | Getting started guide | "5-minute quickstart tutorial", "First API call walkthrough", "Sample project with common use cases" |
+| `[USER_INTERFACE]` | User interface description | "Web dashboard at app.example.com", "CLI tool: npm install -g @company/cli", "REST API with Swagger UI at /docs" |
+| `[NAVIGATION]` | Navigation guide | "Sidebar: Dashboard, Projects, Settings", "Keyboard shortcuts: Cmd+K for search", "Breadcrumb navigation for nested pages" |
+| `[CORE_FEATURES]` | Core features | "User authentication, Project management, API access", "Real-time notifications, Audit logging" |
+| `[ADVANCED_FEATURES]` | Advanced features | "Webhook integrations, Custom workflows", "Bulk operations, Advanced analytics", "SSO/SAML configuration" |
+| `[USER_WORKFLOWS]` | Common user workflows | "Create project -> Add team members -> Configure integrations -> Deploy", "Typical 10-minute onboarding flow" |
+| `[USER_BEST_PRACTICES]` | User best practices | "Enable 2FA for security", "Use API keys per environment", "Set up monitoring alerts", "Regular backup exports" |
+| `[TIPS_AND_TRICKS]` | Tips and tricks | "Use bulk import for large datasets", "Keyboard shortcuts save 30% time", "Filter views can be saved and shared" |
+| `[USER_FAQ]` | User FAQ | "How to reset password? How to invite team members? How to export data? How to upgrade plan?" |
+| `[SUPPORT_INFORMATION]` | Support information | "Email: support@company.com, Slack: #product-support, Docs: docs.company.com, Status: status.company.com" |
+| `[DEVELOPMENT_ENVIRONMENT]` | Development environment | "VS Code with ESLint/Prettier extensions", "Docker Compose for local services", "Node.js 18 LTS, npm 9+" |
+| `[CODE_STRUCTURE]` | Code structure | "src/controllers, src/services, src/models, src/utils", "Feature-based folder organization", "Monorepo with Turborepo" |
+| `[CODING_STANDARDS]` | Coding standards | "ESLint Airbnb config", "Prettier for formatting", "TypeScript strict mode", "JSDoc for public APIs" |
+| `[DEVELOPMENT_WORKFLOW]` | Development workflow | "Feature branch from main, PR with 2 reviewers, Squash merge", "Trunk-based development with feature flags" |
+| `[BUILD_PROCESS]` | Build process | "npm run build (TypeScript compile + bundle)", "Docker build for containers", "CI/CD via GitHub Actions" |
+| `[TESTING_GUIDELINES]` | Testing guidelines | "Unit tests with Jest (80% coverage target)", "Integration tests for API endpoints", "E2E tests with Playwright" |
+| `[DEBUGGING_GUIDE]` | Debugging guide | "VS Code debugger configuration in .vscode/launch.json", "Use DEBUG=app:* for verbose logging", "Chrome DevTools for frontend" |
+| `[PERFORMANCE_GUIDELINES]` | Performance guidelines | "Profile with clinic.js before optimizing", "Avoid N+1 queries, use DataLoader", "Cache expensive computations" |
+| `[SECURITY_GUIDELINES]` | Security guidelines | "Never log sensitive data", "Use parameterized queries", "Validate all inputs with Zod", "Run npm audit weekly" |
+| `[CONTRIBUTION_GUIDELINES]` | Contribution guidelines | "Read CONTRIBUTING.md first", "Sign CLA before first PR", "Follow commit message convention", "Add tests for new features" |
+| `[CONFIGURATION_OVERVIEW]` | Configuration overview | "Environment-based config with dotenv", "Hierarchical config: defaults < env < runtime", "Feature flags via LaunchDarkly" |
+| `[CONFIG_FILES]` | Configuration files | "config/default.json for defaults", ".env for environment-specific", "config/custom-environment-variables.json for mapping" |
+| `[CONFIG_PARAMETERS]` | Configuration parameters | "port (number), databaseUrl (string), logLevel (enum)", "See config/README.md for full list" |
+| `[DEFAULT_VALUES]` | Default values | "PORT=3000, LOG_LEVEL=info, CACHE_TTL=3600", "Defaults defined in config/default.json" |
+| `[ENVIRONMENT_SETTINGS]` | Environment-specific settings | "Development: debug logging, local DB", "Production: error logging only, connection pooling", "Staging mirrors production" |
+| `[SECURITY_SETTINGS]` | Security settings | "JWT_EXPIRY=1h, BCRYPT_ROUNDS=12", "CORS_ORIGINS whitelist", "RATE_LIMIT=100/min per IP" |
+| `[PERFORMANCE_TUNING]` | Performance tuning | "DB_POOL_SIZE=20, CACHE_SIZE=1000", "NODE_OPTIONS='--max-old-space-size=4096'", "Enable gzip compression" |
+| `[LOGGING_CONFIGURATION]` | Logging configuration | "Winston logger with JSON format", "Log levels: error, warn, info, debug", "Rotate logs daily, 14-day retention" |
+| `[MONITORING_CONFIGURATION]` | Monitoring configuration | "Prometheus metrics at /metrics", "Health check at /health", "Datadog APM integration" |
+| `[BACKUP_CONFIGURATION]` | Backup configuration | "AWS S3 backup destination", "Daily at 2am UTC, hourly incrementals", "Encryption with KMS key" |
+| `[OPERATIONAL_OVERVIEW]` | Operational overview | "24/7 production support", "On-call rotation with PagerDuty", "Runbook-driven incident response" |
+| `[SYSTEM_MONITORING]` | System monitoring | "Prometheus + Grafana dashboards", "Datadog APM for traces", "CloudWatch for AWS metrics" |
+| `[HEALTH_CHECKS]` | Health checks | "GET /health returns {status: ok, db: connected, cache: connected}", "Kubernetes liveness and readiness probes" |
+| `[PERFORMANCE_MONITORING]` | Performance monitoring | "P50/P95/P99 latency tracking", "Request throughput dashboard", "Database query performance analysis" |
+| `[LOG_MANAGEMENT]` | Log management | "Centralized logging with ELK stack", "Structured JSON logs", "30-day retention in Elasticsearch" |
+| `[BACKUP_PROCEDURES]` | Backup procedures | "Automated daily backups at 2am UTC", "Manual backup before major deployments", "Verify backup integrity weekly" |
+| `[RECOVERY_PROCEDURES]` | Recovery procedures | "Point-in-time recovery from backups", "Failover to read replica", "Disaster recovery RTO: 4 hours, RPO: 1 hour" |
+| `[MAINTENANCE_TASKS]` | Maintenance tasks | "Weekly dependency updates", "Monthly database vacuuming", "Quarterly security patching", "Certificate renewal 30 days before expiry" |
+| `[SCALING_PROCEDURES]` | Scaling procedures | "HPA scales pods based on CPU > 70%", "Manual database vertical scaling requires downtime", "Add read replicas for read-heavy workloads" |
+| `[EMERGENCY_PROCEDURES]` | Emergency procedures | "Incident severity levels P1-P4", "P1: All-hands, 15-min response", "Rollback procedure documented in runbook", "Post-incident review within 48 hours" |
+| `[COMMON_ISSUES]` | Common issues | "Connection timeout to database", "Memory leak after prolonged use", "Rate limit exceeded errors", "Authentication token expired" |
+| `[ERROR_MESSAGES]` | Error messages | "ECONNREFUSED: Database not reachable", "JWT_EXPIRED: Token has expired", "RATE_LIMITED: Too many requests" |
+| `[DIAGNOSTIC_STEPS]` | Diagnostic steps | "1. Check service logs, 2. Verify dependent services, 3. Check resource utilization, 4. Review recent deployments" |
+| `[RESOLUTION_STEPS]` | Resolution steps | "Restart affected service", "Scale up resources", "Clear cache and retry", "Rollback to previous version if needed" |
+| `[PERFORMANCE_ISSUES]` | Performance issues | "Slow API response > 2s: Check database queries", "High memory usage: Investigate memory leaks", "CPU spikes: Profile with flame graphs" |
+| `[NETWORK_ISSUES]` | Network issues | "DNS resolution failures", "SSL certificate expiration", "Load balancer health check failures", "Firewall blocking connections" |
+| `[DATABASE_ISSUES]` | Database issues | "Connection pool exhaustion", "Deadlock detection", "Replication lag > 30s", "Disk space running low" |
+| `[SECURITY_ISSUES]` | Security issues | "Unauthorized access attempts", "Token hijacking detection", "SQL injection attempts blocked", "Suspicious IP addresses" |
+| `[INTEGRATION_ISSUES]` | Integration issues | "Third-party API timeout", "Webhook delivery failures", "Data format mismatch", "API version incompatibility" |
+| `[ESCALATION_PROCEDURES]` | Escalation procedures | "L1 Support (30 min) -> L2 Engineering (1 hour) -> L3 Senior Engineer + Manager", "P1 escalates to VP immediately" |
+| `[BASIC_EXAMPLES]` | Basic examples | "curl -X GET /users/123", "Simple fetch() call with API key", "Hello World integration" |
+| `[ADVANCED_EXAMPLES]` | Advanced examples | "Batch operations with pagination", "Webhook event handling", "OAuth flow implementation", "Real-time subscriptions" |
+| `[INTEGRATION_EXAMPLES]` | Integration examples | "Node.js SDK quickstart", "Python requests library", "Postman collection import", "Zapier integration setup" |
+| `[ERROR_HANDLING_EXAMPLES]` | Error handling examples | "try-catch with retry logic", "Graceful degradation patterns", "Circuit breaker implementation", "User-friendly error messages" |
+| `[AUTHENTICATION_EXAMPLES]` | Authentication examples | "JWT token acquisition and refresh", "API key authentication", "OAuth 2.0 authorization code flow", "Service account authentication" |
+| `[TESTING_EXAMPLES]` | Testing examples | "Unit test with Jest mocks", "Integration test with Supertest", "E2E test with Playwright", "Load test with k6" |
+| `[PERFORMANCE_EXAMPLES]` | Performance examples | "Connection pooling configuration", "Query optimization with indexes", "Caching strategies with Redis", "Lazy loading implementation" |
+| `[SECURITY_EXAMPLES]` | Security examples | "Input validation with Zod", "SQL injection prevention", "XSS protection in React", "Secure cookie configuration" |
+| `[BEST_PRACTICE_EXAMPLES]` | Best practice examples | "Clean code patterns", "SOLID principles application", "Proper error logging", "Dependency injection" |
+| `[ANTI_PATTERN_EXAMPLES]` | Anti-pattern examples | "N+1 query problem", "Callback hell", "God objects", "Magic numbers and strings", "Tight coupling" |
+| `[DOCUMENTATION_STANDARDS]` | Documentation standards | "Google Developer Documentation Style Guide", "Microsoft Writing Style Guide", "Diátaxis framework (tutorials, how-tos, reference, explanation)" |
+| `[WRITING_STYLE]` | Writing style | "Active voice, present tense", "Second person (you)", "Short sentences, scannable content", "Code examples for every concept" |
+| `[TECHNICAL_ACCURACY]` | Technical accuracy | "All code examples tested and runnable", "Version-specific documentation", "Regular review by subject matter experts" |
+| `[CONSISTENCY_GUIDELINES]` | Consistency guidelines | "Use terminology glossary", "Consistent formatting for code blocks", "Standard heading hierarchy", "Uniform example structure" |
+| `[REVIEW_PROCESS]` | Review process | "Technical review by developer", "Editorial review for clarity", "Stakeholder approval for external docs", "Automated link checking" |
+| `[UPDATE_PROCEDURES]` | Update procedures | "Update with each release", "Mark outdated sections clearly", "Redirect deprecated URLs", "Changelog for major updates" |
+| `[VERSION_CONTROL]` | Version control | "Docs-as-code in Git repository", "Semantic versioning for docs", "Branch per major release", "PR review for all changes" |
+| `[TRANSLATION_REQUIREMENTS]` | Translation requirements | "English source of truth", "Machine translation + human review", "Support for 5 languages: EN, ES, FR, DE, JP", "String externalization" |
+| `[ACCESSIBILITY_STANDARDS]` | Accessibility standards | "WCAG 2.1 AA compliance", "Alt text for all images", "Sufficient color contrast", "Keyboard navigable" |
+| `[LEGAL_REQUIREMENTS]` | Legal requirements | "Terms of Service link required", "Privacy policy for data collection docs", "License information for code samples", "Export compliance notices" |
+| `[DIAGRAMS]` | Diagrams | "Mermaid for inline diagrams", "Draw.io for complex visuals", "PlantUML for UML diagrams", "Lucidchart for collaborative editing" |
+| `[SCREENSHOTS]` | Screenshots | "Annotated with callouts", "Consistent browser/viewport size", "Dark/light mode variants", "Updated with each UI release" |
+| `[FLOWCHARTS]` | Flowcharts | "User journey flows", "Decision trees for troubleshooting", "Data processing pipelines", "Approval workflow diagrams" |
+| `[WIREFRAMES]` | Wireframes | "Low-fidelity for concepts", "Figma wireframes linked", "Interactive prototypes for complex flows" |
+| `[ARCHITECTURE_DIAGRAMS]` | Architecture diagrams | "C4 model diagrams (Context, Container, Component)", "AWS/GCP architecture icons", "High-level system overview" |
+| `[SEQUENCE_DIAGRAMS]` | Sequence diagrams | "API request/response flows", "Authentication sequence", "Webhook event handling", "Error handling paths" |
+| `[ER_DIAGRAMS]` | Entity relationship diagrams | "Database schema visualization", "Table relationships", "Generated from schema with dbdiagram.io" |
+| `[NETWORK_DIAGRAMS]` | Network diagrams | "VPC and subnet layout", "Load balancer configuration", "Firewall rules visualization", "Service mesh topology" |
+| `[PROCESS_DIAGRAMS]` | Process diagrams | "CI/CD pipeline visualization", "Release process flowchart", "Incident response workflow", "Onboarding process" |
+| `[UI_MOCKUPS]` | UI mockups | "Figma design files linked", "Component library documentation", "Responsive breakpoint examples" |
+| `[CHANGE_PROCESS]` | Change process | "RFC for major changes", "PR-based doc updates", "Automatic staging preview", "Manual production deploy" |
+| `[VERSION_HISTORY]` | Version history | "CHANGELOG.md in repo", "Git tags for releases", "Semantic versioning (major.minor.patch)" |
+| `[CHANGE_LOG]` | Change log | "Keep a Changelog format", "Breaking changes highlighted", "Migration guides for major versions" |
+| `[IMPACT_ASSESSMENT]` | Impact assessment | "Breaking changes require migration guide", "API deprecation impact analysis", "User notification requirements" |
+| `[APPROVAL_WORKFLOW]` | Approval workflow | "Author -> Technical Review -> Editorial Review -> Merge", "CODEOWNERS for approval routing" |
+| `[COMMUNICATION_PLAN]` | Communication plan | "Release notes email to developers", "Blog post for major features", "In-app changelog notification", "Status page for incidents" |
+| `[TRAINING_UPDATES]` | Training updates | "Webinar for major releases", "Updated tutorial videos", "New employee onboarding docs", "Partner certification materials" |
+| `[DOCUMENTATION_UPDATES]` | Documentation updates | "Sync with each product release", "Quarterly full review", "User feedback integration monthly" |
+| `[ROLLBACK_PLANS]` | Rollback plans | "Previous version available at /v1/docs", "Git revert for emergency rollback", "CDN cache purge procedure" |
+| `[POST_IMPLEMENTATION_REVIEW]` | Post-implementation review | "Documentation feedback survey", "Analytics review (page views, search queries)", "Support ticket correlation analysis" |
+| `[REGULATORY_REQUIREMENTS]` | Regulatory requirements | "GDPR for EU users", "CCPA for California residents", "HIPAA for healthcare data", "PCI DSS for payment processing" |
+| `[COMPLIANCE_STANDARDS]` | Compliance standards | "SOC 2 Type II", "ISO 27001", "FedRAMP for government", "NIST Cybersecurity Framework" |
+| `[AUDIT_TRAIL]` | Audit trail | "All API calls logged with user ID, timestamp, IP", "Immutable audit logs in separate storage", "90-day retention minimum" |
+| `[SECURITY_CONTROLS]` | Security controls | "Encryption at rest (AES-256)", "TLS 1.3 in transit", "MFA required for admin access", "IP allowlisting available" |
+| `[DATA_PRIVACY]` | Data privacy | "Data minimization principles", "Right to be forgotten supported", "Data export in JSON format", "Cross-border transfer controls" |
+| `[RISK_ASSESSMENT]` | Risk assessment | "Annual third-party penetration test", "Quarterly vulnerability scans", "Continuous dependency monitoring", "Risk register maintained" |
+| `[CONTROL_TESTING]` | Control testing | "Annual SOC 2 audit", "Automated compliance checks in CI/CD", "Penetration testing before major releases" |
+| `[REMEDIATION_PLANS]` | Remediation plans | "Critical vulnerabilities: 24-hour fix", "High: 7 days", "Medium: 30 days", "Low: next release" |
+| `[CERTIFICATION_REQUIREMENTS]` | Certification requirements | "SOC 2 Type II report available under NDA", "ISO 27001 certificate", "HIPAA BAA available for enterprise" |
+| `[THIRD_PARTY_ASSESSMENTS]` | Third-party assessments | "Annual penetration test by [Security Firm]", "Vendor security questionnaire completed", "Cloud Security Alliance CAIQ" |
+| `[PERFORMANCE_REQUIREMENTS]` | Performance requirements | "P99 latency < 200ms", "99.9% uptime SLA", "Support 10K concurrent users", "API response time < 100ms" |
+| `[BENCHMARK_RESULTS]` | Benchmark results | "Throughput: 5000 req/sec", "Latency: P50=45ms, P95=120ms, P99=180ms", "Memory: 512MB per pod steady state" |
+| `[LOAD_TESTING_RESULTS]` | Load testing results | "Sustained 10K concurrent users for 1 hour", "Graceful degradation at 15K users", "No memory leaks detected over 24-hour test" |
+| `[PERFORMANCE_METRICS]` | Performance metrics | "Request latency, Error rate, Throughput", "Database query time, Cache hit ratio", "Memory usage, CPU utilization" |
+| `[OPTIMIZATION_RECOMMENDATIONS]` | Optimization recommendations | "Enable connection pooling", "Add database indexes for common queries", "Implement response caching", "Use pagination for large datasets" |
+| `[CAPACITY_PLANNING]` | Capacity planning | "Current capacity: 10K users", "Scaling trigger at 70% utilization", "Growth projection: 2x annually", "Reserved instances for baseline load" |
+| `[RESOURCE_UTILIZATION]` | Resource utilization | "CPU: 40% average, 80% peak", "Memory: 60% steady state", "Disk I/O: 20% capacity", "Network: 100Mbps average" |
+| `[PERFORMANCE_MONITORING_DOCS]` | Performance monitoring documentation | "Grafana dashboards at /grafana", "Key metrics explained in runbook", "Alert thresholds documented", "On-call escalation for P95 > 500ms" |
+| `[TUNING_GUIDELINES]` | Tuning guidelines | "JVM heap: 4GB for production", "Connection pool: 20 connections", "Query timeout: 30 seconds", "Cache TTL: 1 hour for static data" |
+| `[PERFORMANCE_TROUBLESHOOTING]` | Performance troubleshooting | "High latency: Check database slow query log", "Memory issues: Generate heap dump", "CPU spikes: Profile with async-profiler" |
+| `[SECURITY_OVERVIEW]` | Security overview | "Defense in depth architecture", "Zero-trust network model", "Security-first development practices" |
+| `[THREAT_MODEL]` | Threat model | "STRIDE analysis completed", "Top threats: Injection, broken auth, sensitive data exposure", "Attack surface documented" |
+| `[SECURITY_CONTROLS_DOC]` | Security controls documentation | "Firewall rules documented", "WAF configuration", "DDoS protection with CloudFlare", "Intrusion detection with Falco" |
+| `[AUTHENTICATION_MECHANISMS]` | Authentication mechanisms | "OAuth 2.0 + OIDC", "JWT with RS256 signing", "API keys for service accounts", "MFA with TOTP/WebAuthn" |
+| `[AUTHORIZATION_MODEL]` | Authorization model | "Role-based access control (RBAC)", "Attribute-based access control for fine-grained permissions", "Least privilege principle" |
+| `[ENCRYPTION_IMPLEMENTATION]` | Encryption implementation | "AES-256 for data at rest", "TLS 1.3 for data in transit", "Field-level encryption for PII", "Key management with AWS KMS" |
+| `[VULNERABILITY_MANAGEMENT]` | Vulnerability management | "Dependabot for dependency updates", "SAST with SonarQube", "DAST with OWASP ZAP", "Bug bounty program active" |
+| `[INCIDENT_RESPONSE]` | Incident response | "Security incident playbook documented", "24-hour response for critical issues", "Forensics and post-mortem process" |
+| `[SECURITY_MONITORING]` | Security monitoring | "SIEM integration with Splunk", "Real-time alerting for suspicious activity", "Failed login attempt monitoring" |
+| `[COMPLIANCE_MAPPING]` | Compliance mapping | "Controls mapped to SOC 2 criteria", "GDPR article compliance matrix", "CIS benchmark alignment documented" |
+| `[INTEGRATION_OVERVIEW]` | Integration overview | "REST APIs for external integrations", "Webhooks for real-time events", "SDK available for Python, Node.js, Go" |
+| `[EXTERNAL_SYSTEMS]` | External systems | "Stripe for payments", "SendGrid for email", "Twilio for SMS", "Auth0 for SSO" |
+| `[API_SPECIFICATIONS]` | API specifications | "OpenAPI 3.0 spec at /openapi.json", "GraphQL schema at /graphql", "AsyncAPI for event schemas" |
+| `[DATA_FORMATS]` | Data formats | "JSON for REST APIs", "Protocol Buffers for internal gRPC", "CSV export available", "XML legacy support" |
+| `[MESSAGE_SCHEMAS]` | Message schemas | "JSON Schema for validation", "CloudEvents format for webhooks", "Avro schemas for Kafka messages" |
+| `[INTEGRATION_ERROR_HANDLING]` | Integration error handling | "Retry with exponential backoff", "Dead letter queue for failed messages", "Circuit breaker pattern implemented" |
+| `[RETRY_LOGIC]` | Retry logic | "3 retries with exponential backoff (1s, 2s, 4s)", "Jitter added to prevent thundering herd", "Configurable per integration" |
+| `[TIMEOUT_CONFIGURATIONS]` | Timeout configurations | "HTTP client timeout: 30s", "Database query timeout: 10s", "External API timeout: 15s" |
+| `[MONITORING_INTEGRATION]` | Monitoring integration | "Integration health dashboard", "Per-partner error rate tracking", "Webhook delivery success rate" |
+| `[TESTING_INTEGRATION]` | Testing integration | "Sandbox environment for testing", "Mock server available", "Integration test suite with contract testing" |
+| `[DEPLOYMENT_OVERVIEW]` | Deployment overview | "CI/CD with GitHub Actions", "Kubernetes deployment on EKS", "Blue-green deployment strategy" |
+| `[ENVIRONMENT_REQUIREMENTS]` | Environment requirements | "Development, Staging, Production", "Staging mirrors production config", "Feature environments on-demand" |
+| `[DEPLOYMENT_PIPELINE]` | Deployment pipeline | "Build -> Test -> Security Scan -> Deploy to Staging -> E2E Tests -> Deploy to Production" |
+| `[RELEASE_PROCESS]` | Release process | "Weekly releases on Tuesday", "Hotfixes as needed", "Release notes published", "Stakeholder notification" |
+| `[CONFIG_MANAGEMENT_DEPLOY]` | Configuration management | "Environment variables in Kubernetes secrets", "Feature flags via LaunchDarkly", "Config changes require PR approval" |
+| `[DATABASE_MIGRATION]` | Database migration | "Prisma migrations in CI/CD", "Zero-downtime migrations required", "Rollback script for each migration" |
+| `[ROLLBACK_PROCEDURES_DEPLOY]` | Rollback procedures | "kubectl rollout undo", "Database rollback script available", "Feature flag kill switch for new features" |
+| `[POST_DEPLOYMENT_TESTING]` | Post-deployment testing | "Smoke tests run automatically", "Synthetic monitoring checks", "Error rate monitoring for 30 minutes post-deploy" |
+| `[GO_LIVE_CHECKLIST]` | Go-live checklist | "Monitoring configured, Alerts set up, Runbook updated, On-call notified, Rollback tested" |
+| `[SUPPORT_TRANSITION]` | Support transition | "Knowledge transfer session", "Runbook handoff", "On-call training completed", "Escalation paths documented" |
 
 ### System Architecture Documentation
 ```

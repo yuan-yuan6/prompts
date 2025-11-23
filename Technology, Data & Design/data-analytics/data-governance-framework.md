@@ -218,399 +218,399 @@ Target: 95% data quality, 100% compliance
 
 | Variable | Description | Example |
 |----------|-------------|----------|
-| `[COMPANY_NAME]` | Name of the company | "Acme Corporation" |
-| `[DATA_VOLUME]` | Specify the data volume | "[specify value]" |
-| `[SYSTEM_COUNT]` | Specify the system count | "10" |
-| `[GOVERNANCE_BUDGET]` | Budget allocation for governance | "$500,000" |
-| `[TIMELINE]` | Timeline or schedule for  | "6 months" |
-| `[DATA_QUALITY_TARGET]` | Target or intended data quality | "[specify value]" |
-| `[COMPLIANCE_TARGET]` | Target or intended compliance | "[specify value]" |
-| `[DATA_VALUE_TARGET]` | Target or intended data value | "[specify value]" |
-| `[STRATEGY_CURRENT]` | Strategy or approach for current | "[specify value]" |
-| `[STRATEGY_TARGET]` | Target or intended strategy | "[specify value]" |
-| `[STRATEGY_GAP]` | Strategy or approach for gap | "[specify value]" |
-| `[STRATEGY_ISSUES]` | Strategy or approach for issues | "[specify value]" |
+| `[COMPANY_NAME]` | Name of the company | "Acme Corporation", "Global Financial Services", "HealthTech Solutions" |
+| `[DATA_VOLUME]` | Total volume of enterprise data | "500TB", "2PB", "100TB", "5PB across all systems" |
+| `[SYSTEM_COUNT]` | Number of data source systems | "50 systems", "150 applications", "25 databases", "200+ data sources" |
+| `[GOVERNANCE_BUDGET]` | Budget allocation for governance | "$500,000", "$2M annual", "$15M over 3 years", "$5M/year" |
+| `[TIMELINE]` | Timeline or schedule for implementation | "6 months", "18 months", "3-year roadmap", "Q1-Q4 2025" |
+| `[DATA_QUALITY_TARGET]` | Target data quality percentage | "95%", "99%", "98% for critical data", "95% completeness, 99% accuracy" |
+| `[COMPLIANCE_TARGET]` | Target regulatory compliance rate | "100%", "99.9%", "100% for GDPR/CCPA", "Full SOX compliance" |
+| `[DATA_VALUE_TARGET]` | Target measurable data value | "$10M annual ROI", "$50M cost savings", "20% revenue increase", "$5M analytics value" |
+| `[STRATEGY_CURRENT]` | Current maturity score (1-5 scale) | "2", "1 (Initial)", "3 (Defined)", "2.5 average across domains" |
+| `[STRATEGY_TARGET]` | Target maturity score (1-5 scale) | "4", "5 (Optimizing)", "4 (Managed)", "4.5 enterprise-wide" |
+| `[STRATEGY_GAP]` | Gap analysis for strategy domain | "No formal data strategy documented", "Strategy exists but not executed", "Siloed departmental strategies" |
+| `[STRATEGY_ISSUES]` | Critical issues in strategy domain | "Lack of executive sponsorship", "No data strategy alignment with business", "Unclear data ownership" |
 | `[STRATEGY_PRIORITY]` | Strategy or approach for priority | "High" |
 | `[STRATEGY_TIMELINE]` | Strategy or approach for timeline | "6 months" |
-| `[QUALITY_CURRENT]` | Specify the quality current | "[specify value]" |
-| `[QUALITY_TARGET]` | Target or intended quality | "[specify value]" |
-| `[QUALITY_GAP]` | Specify the quality gap | "[specify value]" |
-| `[QUALITY_ISSUES]` | Specify the quality issues | "[specify value]" |
-| `[QUALITY_PRIORITY]` | Specify the quality priority | "High" |
-| `[QUALITY_TIMELINE]` | Timeline or schedule for quality | "6 months" |
-| `[PRIVACY_CURRENT]` | Specify the privacy current | "[specify value]" |
-| `[PRIVACY_TARGET]` | Target or intended privacy | "[specify value]" |
-| `[PRIVACY_GAP]` | Specify the privacy gap | "[specify value]" |
-| `[PRIVACY_ISSUES]` | Specify the privacy issues | "[specify value]" |
-| `[PRIVACY_PRIORITY]` | Specify the privacy priority | "High" |
-| `[PRIVACY_TIMELINE]` | Timeline or schedule for privacy | "6 months" |
-| `[SECURITY_CURRENT]` | Specify the security current | "[specify value]" |
-| `[SECURITY_TARGET]` | Target or intended security | "[specify value]" |
-| `[SECURITY_GAP]` | Specify the security gap | "[specify value]" |
-| `[SECURITY_ISSUES]` | Specify the security issues | "[specify value]" |
-| `[SECURITY_PRIORITY]` | Specify the security priority | "High" |
-| `[SECURITY_TIMELINE]` | Timeline or schedule for security | "6 months" |
-| `[MDM_CURRENT]` | Specify the mdm current | "[specify value]" |
-| `[MDM_TARGET]` | Target or intended mdm | "[specify value]" |
-| `[MDM_GAP]` | Specify the mdm gap | "[specify value]" |
-| `[MDM_ISSUES]` | Specify the mdm issues | "[specify value]" |
-| `[MDM_PRIORITY]` | Specify the mdm priority | "High" |
-| `[MDM_TIMELINE]` | Timeline or schedule for mdm | "6 months" |
-| `[ARCH_CURRENT]` | Specify the arch current | "[specify value]" |
-| `[ARCH_TARGET]` | Target or intended arch | "[specify value]" |
-| `[ARCH_GAP]` | Specify the arch gap | "[specify value]" |
-| `[ARCH_ISSUES]` | Specify the arch issues | "[specify value]" |
-| `[ARCH_PRIORITY]` | Specify the arch priority | "High" |
-| `[ARCH_TIMELINE]` | Timeline or schedule for arch | "6 months" |
-| `[LIFECYCLE_CURRENT]` | Specify the lifecycle current | "[specify value]" |
-| `[LIFECYCLE_TARGET]` | Target or intended lifecycle | "[specify value]" |
-| `[LIFECYCLE_GAP]` | Specify the lifecycle gap | "[specify value]" |
-| `[LIFECYCLE_ISSUES]` | Specify the lifecycle issues | "[specify value]" |
-| `[LIFECYCLE_PRIORITY]` | Specify the lifecycle priority | "High" |
-| `[LIFECYCLE_TIMELINE]` | Timeline or schedule for lifecycle | "6 months" |
-| `[LITERACY_CURRENT]` | Specify the literacy current | "[specify value]" |
-| `[LITERACY_TARGET]` | Target or intended literacy | "[specify value]" |
-| `[LITERACY_GAP]` | Specify the literacy gap | "[specify value]" |
-| `[LITERACY_ISSUES]` | Specify the literacy issues | "[specify value]" |
-| `[LITERACY_PRIORITY]` | Specify the literacy priority | "High" |
-| `[LITERACY_TIMELINE]` | Timeline or schedule for literacy | "6 months" |
-| `[CUST_DIMENSIONS]` | Specify the cust dimensions | "[specify value]" |
-| `[CUST_CURRENT]` | Specify the cust current | "[specify value]" |
-| `[CUST_TARGET]` | Target or intended cust | "[specify value]" |
-| `[CUST_RULES]` | Specify the cust rules | "[specify value]" |
-| `[CUST_MONITORING]` | Specify the cust monitoring | "[specify value]" |
-| `[CUST_REMEDIATION]` | Specify the cust remediation | "[specify value]" |
-| `[PROD_DIMENSIONS]` | Specify the prod dimensions | "[specify value]" |
-| `[PROD_CURRENT]` | Specify the prod current | "[specify value]" |
-| `[PROD_TARGET]` | Target or intended prod | "[specify value]" |
-| `[PROD_RULES]` | Specify the prod rules | "[specify value]" |
-| `[PROD_MONITORING]` | Specify the prod monitoring | "[specify value]" |
-| `[PROD_REMEDIATION]` | Specify the prod remediation | "[specify value]" |
-| `[FIN_DIMENSIONS]` | Specify the fin dimensions | "[specify value]" |
-| `[FIN_CURRENT]` | Specify the fin current | "[specify value]" |
-| `[FIN_TARGET]` | Target or intended fin | "[specify value]" |
-| `[FIN_RULES]` | Specify the fin rules | "[specify value]" |
-| `[FIN_MONITORING]` | Specify the fin monitoring | "[specify value]" |
-| `[FIN_REMEDIATION]` | Specify the fin remediation | "[specify value]" |
-| `[OPS_DIMENSIONS]` | Specify the ops dimensions | "[specify value]" |
-| `[OPS_CURRENT]` | Specify the ops current | "[specify value]" |
-| `[OPS_TARGET]` | Target or intended ops | "[specify value]" |
-| `[OPS_RULES]` | Specify the ops rules | "[specify value]" |
-| `[OPS_MONITORING]` | Specify the ops monitoring | "[specify value]" |
-| `[OPS_REMEDIATION]` | Specify the ops remediation | "[specify value]" |
-| `[EMP_DIMENSIONS]` | Specify the emp dimensions | "[specify value]" |
-| `[EMP_CURRENT]` | Specify the emp current | "[specify value]" |
-| `[EMP_TARGET]` | Target or intended emp | "[specify value]" |
-| `[EMP_RULES]` | Specify the emp rules | "[specify value]" |
-| `[EMP_MONITORING]` | Specify the emp monitoring | "[specify value]" |
-| `[EMP_REMEDIATION]` | Specify the emp remediation | "[specify value]" |
-| `[VENDOR_DIMENSIONS]` | Specify the vendor dimensions | "[specify value]" |
-| `[VENDOR_CURRENT]` | Specify the vendor current | "[specify value]" |
-| `[VENDOR_TARGET]` | Target or intended vendor | "[specify value]" |
-| `[VENDOR_RULES]` | Specify the vendor rules | "[specify value]" |
-| `[VENDOR_MONITORING]` | Specify the vendor monitoring | "[specify value]" |
-| `[VENDOR_REMEDIATION]` | Specify the vendor remediation | "[specify value]" |
-| `[REF_DIMENSIONS]` | Specify the ref dimensions | "[specify value]" |
-| `[REF_CURRENT]` | Specify the ref current | "[specify value]" |
-| `[REF_TARGET]` | Target or intended ref | "[specify value]" |
-| `[REF_RULES]` | Specify the ref rules | "[specify value]" |
-| `[REF_MONITORING]` | Specify the ref monitoring | "[specify value]" |
-| `[REF_REMEDIATION]` | Specify the ref remediation | "[specify value]" |
-| `[GDPR_SCOPE]` | Scope or boundaries of gdpr | "[specify value]" |
-| `[GDPR_STATUS]` | Specify the gdpr status | "In Progress" |
-| `[GDPR_REQUIREMENTS]` | Specify the gdpr requirements | "[specify value]" |
-| `[GDPR_PLAN]` | Specify the gdpr plan | "[specify value]" |
-| `[GDPR_RISK]` | Specify the gdpr risk | "[specify value]" |
-| `[GDPR_TIMELINE]` | Timeline or schedule for gdpr | "6 months" |
-| `[CCPA_SCOPE]` | Scope or boundaries of ccpa | "[specify value]" |
-| `[CCPA_STATUS]` | Specify the ccpa status | "In Progress" |
-| `[CCPA_REQUIREMENTS]` | Specify the ccpa requirements | "[specify value]" |
-| `[CCPA_PLAN]` | Specify the ccpa plan | "[specify value]" |
-| `[CCPA_RISK]` | Specify the ccpa risk | "[specify value]" |
-| `[CCPA_TIMELINE]` | Timeline or schedule for ccpa | "6 months" |
-| `[HIPAA_SCOPE]` | Scope or boundaries of hipaa | "[specify value]" |
-| `[HIPAA_STATUS]` | Specify the hipaa status | "In Progress" |
-| `[HIPAA_REQUIREMENTS]` | Specify the hipaa requirements | "[specify value]" |
-| `[HIPAA_PLAN]` | Specify the hipaa plan | "[specify value]" |
-| `[HIPAA_RISK]` | Specify the hipaa risk | "[specify value]" |
-| `[HIPAA_TIMELINE]` | Timeline or schedule for hipaa | "6 months" |
-| `[SOX_SCOPE]` | Scope or boundaries of sox | "[specify value]" |
-| `[SOX_STATUS]` | Specify the sox status | "In Progress" |
-| `[SOX_REQUIREMENTS]` | Specify the sox requirements | "[specify value]" |
-| `[SOX_PLAN]` | Specify the sox plan | "[specify value]" |
-| `[SOX_RISK]` | Specify the sox risk | "[specify value]" |
-| `[SOX_TIMELINE]` | Timeline or schedule for sox | "6 months" |
-| `[INDUSTRY_SCOPE]` | Scope or boundaries of industry | "Technology" |
-| `[INDUSTRY_STATUS]` | Specify the industry status | "In Progress" |
-| `[INDUSTRY_REQUIREMENTS]` | Specify the industry requirements | "Technology" |
-| `[INDUSTRY_PLAN]` | Specify the industry plan | "Technology" |
-| `[INDUSTRY_RISK]` | Specify the industry risk | "Technology" |
-| `[INDUSTRY_TIMELINE]` | Timeline or schedule for industry | "6 months" |
-| `[INTL_SCOPE]` | Scope or boundaries of intl | "[specify value]" |
-| `[INTL_STATUS]` | Specify the intl status | "In Progress" |
-| `[INTL_REQUIREMENTS]` | Specify the intl requirements | "[specify value]" |
-| `[INTL_PLAN]` | Specify the intl plan | "[specify value]" |
-| `[INTL_RISK]` | Specify the intl risk | "[specify value]" |
-| `[INTL_TIMELINE]` | Timeline or schedule for intl | "6 months" |
-| `[CLASS_CURRENT]` | Specify the class current | "[specify value]" |
-| `[CLASS_TARGET]` | Target or intended class | "[specify value]" |
-| `[CLASS_IMPLEMENTATION]` | Specify the class implementation | "[specify value]" |
-| `[CLASS_MONITORING]` | Specify the class monitoring | "[specify value]" |
-| `[CLASS_INCIDENT]` | Specify the class incident | "[specify value]" |
-| `[CLASS_COMPLIANCE]` | Specify the class compliance | "[specify value]" |
-| `[ACCESS_CURRENT]` | Specify the access current | "[specify value]" |
-| `[ACCESS_TARGET]` | Target or intended access | "[specify value]" |
-| `[ACCESS_IMPLEMENTATION]` | Specify the access implementation | "[specify value]" |
-| `[ACCESS_MONITORING]` | Specify the access monitoring | "[specify value]" |
-| `[ACCESS_INCIDENT]` | Specify the access incident | "[specify value]" |
-| `[ACCESS_COMPLIANCE]` | Specify the access compliance | "[specify value]" |
-| `[ENCRYPT_CURRENT]` | Specify the encrypt current | "[specify value]" |
-| `[ENCRYPT_TARGET]` | Target or intended encrypt | "[specify value]" |
-| `[ENCRYPT_IMPLEMENTATION]` | Specify the encrypt implementation | "[specify value]" |
-| `[ENCRYPT_MONITORING]` | Specify the encrypt monitoring | "[specify value]" |
-| `[ENCRYPT_INCIDENT]` | Specify the encrypt incident | "[specify value]" |
-| `[ENCRYPT_COMPLIANCE]` | Specify the encrypt compliance | "[specify value]" |
-| `[MASK_CURRENT]` | Specify the mask current | "[specify value]" |
-| `[MASK_TARGET]` | Target or intended mask | "[specify value]" |
-| `[MASK_IMPLEMENTATION]` | Specify the mask implementation | "[specify value]" |
-| `[MASK_MONITORING]` | Specify the mask monitoring | "[specify value]" |
-| `[MASK_INCIDENT]` | Specify the mask incident | "[specify value]" |
-| `[MASK_COMPLIANCE]` | Specify the mask compliance | "[specify value]" |
-| `[AUDIT_CURRENT]` | Specify the audit current | "[specify value]" |
-| `[AUDIT_TARGET]` | Target or intended audit | "[specify value]" |
-| `[AUDIT_IMPLEMENTATION]` | Specify the audit implementation | "[specify value]" |
-| `[AUDIT_MONITORING]` | Specify the audit monitoring | "[specify value]" |
-| `[AUDIT_INCIDENT]` | Specify the audit incident | "[specify value]" |
-| `[AUDIT_COMPLIANCE]` | Specify the audit compliance | "[specify value]" |
-| `[DLP_CURRENT]` | Specify the dlp current | "[specify value]" |
-| `[DLP_TARGET]` | Target or intended dlp | "[specify value]" |
-| `[DLP_IMPLEMENTATION]` | Specify the dlp implementation | "[specify value]" |
-| `[DLP_MONITORING]` | Specify the dlp monitoring | "[specify value]" |
-| `[DLP_INCIDENT]` | Specify the dlp incident | "[specify value]" |
-| `[DLP_COMPLIANCE]` | Specify the dlp compliance | "[specify value]" |
-| `[BACKUP_CURRENT]` | Specify the backup current | "[specify value]" |
-| `[BACKUP_TARGET]` | Target or intended backup | "[specify value]" |
-| `[BACKUP_IMPLEMENTATION]` | Specify the backup implementation | "[specify value]" |
-| `[BACKUP_MONITORING]` | Specify the backup monitoring | "[specify value]" |
-| `[BACKUP_INCIDENT]` | Specify the backup incident | "[specify value]" |
-| `[BACKUP_COMPLIANCE]` | Specify the backup compliance | "[specify value]" |
-| `[CUST_MDM_CURRENT]` | Specify the cust mdm current | "[specify value]" |
-| `[CUST_MDM_TARGET]` | Target or intended cust mdm | "[specify value]" |
-| `[CUST_MDM_SOURCES]` | Specify the cust mdm sources | "[specify value]" |
-| `[CUST_MDM_GOLDEN]` | Specify the cust mdm golden | "[specify value]" |
-| `[CUST_MDM_STEWARD]` | Specify the cust mdm steward | "[specify value]" |
-| `[CUST_MDM_METRICS]` | Specify the cust mdm metrics | "[specify value]" |
-| `[PROD_MDM_CURRENT]` | Specify the prod mdm current | "[specify value]" |
-| `[PROD_MDM_TARGET]` | Target or intended prod mdm | "[specify value]" |
-| `[PROD_MDM_SOURCES]` | Specify the prod mdm sources | "[specify value]" |
-| `[PROD_MDM_GOLDEN]` | Specify the prod mdm golden | "[specify value]" |
-| `[PROD_MDM_STEWARD]` | Specify the prod mdm steward | "[specify value]" |
-| `[PROD_MDM_METRICS]` | Specify the prod mdm metrics | "[specify value]" |
-| `[VENDOR_MDM_CURRENT]` | Specify the vendor mdm current | "[specify value]" |
-| `[VENDOR_MDM_TARGET]` | Target or intended vendor mdm | "[specify value]" |
-| `[VENDOR_MDM_SOURCES]` | Specify the vendor mdm sources | "[specify value]" |
-| `[VENDOR_MDM_GOLDEN]` | Specify the vendor mdm golden | "[specify value]" |
-| `[VENDOR_MDM_STEWARD]` | Specify the vendor mdm steward | "[specify value]" |
-| `[VENDOR_MDM_METRICS]` | Specify the vendor mdm metrics | "[specify value]" |
-| `[EMP_MDM_CURRENT]` | Specify the emp mdm current | "[specify value]" |
-| `[EMP_MDM_TARGET]` | Target or intended emp mdm | "[specify value]" |
-| `[EMP_MDM_SOURCES]` | Specify the emp mdm sources | "[specify value]" |
-| `[EMP_MDM_GOLDEN]` | Specify the emp mdm golden | "[specify value]" |
-| `[EMP_MDM_STEWARD]` | Specify the emp mdm steward | "[specify value]" |
-| `[EMP_MDM_METRICS]` | Specify the emp mdm metrics | "[specify value]" |
-| `[LOC_MDM_CURRENT]` | Specify the loc mdm current | "[specify value]" |
-| `[LOC_MDM_TARGET]` | Target or intended loc mdm | "[specify value]" |
-| `[LOC_MDM_SOURCES]` | Specify the loc mdm sources | "[specify value]" |
-| `[LOC_MDM_GOLDEN]` | Specify the loc mdm golden | "[specify value]" |
-| `[LOC_MDM_STEWARD]` | Specify the loc mdm steward | "[specify value]" |
-| `[LOC_MDM_METRICS]` | Specify the loc mdm metrics | "[specify value]" |
-| `[ASSET_MDM_CURRENT]` | Specify the asset mdm current | "[specify value]" |
-| `[ASSET_MDM_TARGET]` | Target or intended asset mdm | "[specify value]" |
-| `[ASSET_MDM_SOURCES]` | Specify the asset mdm sources | "[specify value]" |
-| `[ASSET_MDM_GOLDEN]` | Specify the asset mdm golden | "[specify value]" |
-| `[ASSET_MDM_STEWARD]` | Specify the asset mdm steward | "[specify value]" |
-| `[ASSET_MDM_METRICS]` | Specify the asset mdm metrics | "[specify value]" |
-| `[DW_CURRENT]` | Specify the dw current | "[specify value]" |
-| `[DW_TARGET]` | Target or intended dw | "[specify value]" |
-| `[DW_INTEGRATION]` | Specify the dw integration | "[specify value]" |
-| `[DW_TECH]` | Specify the dw tech | "[specify value]" |
-| `[DW_PERFORMANCE]` | Specify the dw performance | "[specify value]" |
-| `[DW_SCALABILITY]` | Specify the dw scalability | "[specify value]" |
-| `[DL_CURRENT]` | Specify the dl current | "[specify value]" |
-| `[DL_TARGET]` | Target or intended dl | "[specify value]" |
-| `[DL_INTEGRATION]` | Specify the dl integration | "[specify value]" |
-| `[DL_TECH]` | Specify the dl tech | "[specify value]" |
-| `[DL_PERFORMANCE]` | Specify the dl performance | "[specify value]" |
-| `[DL_SCALABILITY]` | Specify the dl scalability | "[specify value]" |
-| `[DM_CURRENT]` | Specify the dm current | "[specify value]" |
-| `[DM_TARGET]` | Target or intended dm | "[specify value]" |
-| `[DM_INTEGRATION]` | Specify the dm integration | "[specify value]" |
-| `[DM_TECH]` | Specify the dm tech | "[specify value]" |
-| `[DM_PERFORMANCE]` | Specify the dm performance | "[specify value]" |
-| `[DM_SCALABILITY]` | Specify the dm scalability | "[specify value]" |
-| `[RT_CURRENT]` | Specify the rt current | "[specify value]" |
-| `[RT_TARGET]` | Target or intended rt | "[specify value]" |
-| `[RT_INTEGRATION]` | Specify the rt integration | "[specify value]" |
-| `[RT_TECH]` | Specify the rt tech | "[specify value]" |
-| `[RT_PERFORMANCE]` | Specify the rt performance | "[specify value]" |
-| `[RT_SCALABILITY]` | Specify the rt scalability | "[specify value]" |
-| `[API_CURRENT]` | Specify the api current | "[specify value]" |
-| `[API_TARGET]` | Target or intended api | "[specify value]" |
-| `[API_INTEGRATION]` | Specify the api integration | "[specify value]" |
-| `[API_TECH]` | Specify the api tech | "[specify value]" |
-| `[API_PERFORMANCE]` | Specify the api performance | "[specify value]" |
-| `[API_SCALABILITY]` | Specify the api scalability | "[specify value]" |
-| `[CAT_CURRENT]` | Specify the cat current | "[specify value]" |
-| `[CAT_TARGET]` | Target or intended cat | "[specify value]" |
-| `[CAT_INTEGRATION]` | Specify the cat integration | "[specify value]" |
-| `[CAT_TECH]` | Specify the cat tech | "[specify value]" |
-| `[CAT_PERFORMANCE]` | Specify the cat performance | "[specify value]" |
-| `[CAT_SCALABILITY]` | Specify the cat scalability | "[specify value]" |
-| `[CREATE_POLICIES]` | Specify the create policies | "[specify value]" |
-| `[CREATE_RETENTION]` | Specify the create retention | "[specify value]" |
-| `[CREATE_STORAGE]` | Specify the create storage | "[specify value]" |
-| `[CREATE_ACCESS]` | Specify the create access | "[specify value]" |
-| `[CREATE_DISPOSAL]` | Specify the create disposal | "[specify value]" |
-| `[CREATE_COMPLIANCE]` | Specify the create compliance | "[specify value]" |
-| `[ACTIVE_POLICIES]` | Specify the active policies | "[specify value]" |
-| `[ACTIVE_RETENTION]` | Specify the active retention | "[specify value]" |
-| `[ACTIVE_STORAGE]` | Specify the active storage | "[specify value]" |
-| `[ACTIVE_ACCESS]` | Specify the active access | "[specify value]" |
-| `[ACTIVE_DISPOSAL]` | Specify the active disposal | "[specify value]" |
-| `[ACTIVE_COMPLIANCE]` | Specify the active compliance | "[specify value]" |
-| `[ARCHIVE_POLICIES]` | Specify the archive policies | "[specify value]" |
-| `[ARCHIVE_RETENTION]` | Specify the archive retention | "[specify value]" |
-| `[ARCHIVE_STORAGE]` | Specify the archive storage | "[specify value]" |
-| `[ARCHIVE_ACCESS]` | Specify the archive access | "[specify value]" |
-| `[ARCHIVE_DISPOSAL]` | Specify the archive disposal | "[specify value]" |
-| `[ARCHIVE_COMPLIANCE]` | Specify the archive compliance | "[specify value]" |
-| `[LONGTERM_POLICIES]` | Specify the longterm policies | "[specify value]" |
-| `[LONGTERM_RETENTION]` | Specify the longterm retention | "[specify value]" |
-| `[LONGTERM_STORAGE]` | Specify the longterm storage | "[specify value]" |
-| `[LONGTERM_ACCESS]` | Specify the longterm access | "[specify value]" |
-| `[LONGTERM_DISPOSAL]` | Specify the longterm disposal | "[specify value]" |
-| `[LONGTERM_COMPLIANCE]` | Specify the longterm compliance | "[specify value]" |
-| `[DESTROY_POLICIES]` | Specify the destroy policies | "[specify value]" |
-| `[DESTROY_RETENTION]` | Specify the destroy retention | "[specify value]" |
-| `[DESTROY_STORAGE]` | Specify the destroy storage | "[specify value]" |
-| `[DESTROY_ACCESS]` | Specify the destroy access | "[specify value]" |
-| `[DESTROY_DISPOSAL]` | Specify the destroy disposal | "[specify value]" |
-| `[DESTROY_COMPLIANCE]` | Specify the destroy compliance | "[specify value]" |
-| `[LEGAL_POLICIES]` | Specify the legal policies | "[specify value]" |
-| `[LEGAL_RETENTION]` | Specify the legal retention | "[specify value]" |
-| `[LEGAL_STORAGE]` | Specify the legal storage | "[specify value]" |
-| `[LEGAL_ACCESS]` | Specify the legal access | "[specify value]" |
-| `[LEGAL_DISPOSAL]` | Specify the legal disposal | "[specify value]" |
-| `[LEGAL_COMPLIANCE]` | Specify the legal compliance | "[specify value]" |
-| `[CDO_RESPONSIBILITIES]` | Specify the cdo responsibilities | "[specify value]" |
-| `[CDO_AUTHORITY]` | Specify the cdo authority | "[specify value]" |
-| `[CDO_STAKEHOLDERS]` | Key stakeholders involved in cdo | "[specify value]" |
-| `[CDO_METRICS]` | Specify the cdo metrics | "[specify value]" |
-| `[CDO_TRAINING]` | Specify the cdo training | "[specify value]" |
-| `[CDO_PERFORMANCE]` | Specify the cdo performance | "[specify value]" |
-| `[DGC_RESPONSIBILITIES]` | Specify the dgc responsibilities | "[specify value]" |
-| `[DGC_AUTHORITY]` | Specify the dgc authority | "[specify value]" |
-| `[DGC_STAKEHOLDERS]` | Key stakeholders involved in dgc | "[specify value]" |
-| `[DGC_METRICS]` | Specify the dgc metrics | "[specify value]" |
-| `[DGC_TRAINING]` | Specify the dgc training | "[specify value]" |
-| `[DGC_PERFORMANCE]` | Specify the dgc performance | "[specify value]" |
-| `[STEWARD_RESPONSIBILITIES]` | Specify the steward responsibilities | "[specify value]" |
-| `[STEWARD_AUTHORITY]` | Specify the steward authority | "[specify value]" |
-| `[STEWARD_STAKEHOLDERS]` | Key stakeholders involved in steward | "[specify value]" |
-| `[STEWARD_METRICS]` | Specify the steward metrics | "[specify value]" |
-| `[STEWARD_TRAINING]` | Specify the steward training | "[specify value]" |
-| `[STEWARD_PERFORMANCE]` | Specify the steward performance | "[specify value]" |
-| `[CUSTODIAN_RESPONSIBILITIES]` | Specify the custodian responsibilities | "[specify value]" |
-| `[CUSTODIAN_AUTHORITY]` | Specify the custodian authority | "[specify value]" |
-| `[CUSTODIAN_STAKEHOLDERS]` | Key stakeholders involved in custodian | "[specify value]" |
-| `[CUSTODIAN_METRICS]` | Specify the custodian metrics | "[specify value]" |
-| `[CUSTODIAN_TRAINING]` | Specify the custodian training | "[specify value]" |
-| `[CUSTODIAN_PERFORMANCE]` | Specify the custodian performance | "[specify value]" |
-| `[OWNER_RESPONSIBILITIES]` | Specify the owner responsibilities | "[specify value]" |
-| `[OWNER_AUTHORITY]` | Specify the owner authority | "[specify value]" |
-| `[OWNER_STAKEHOLDERS]` | Key stakeholders involved in owner | "[specify value]" |
-| `[OWNER_METRICS]` | Specify the owner metrics | "[specify value]" |
-| `[OWNER_TRAINING]` | Specify the owner training | "[specify value]" |
-| `[OWNER_PERFORMANCE]` | Specify the owner performance | "[specify value]" |
-| `[PRIVACY_RESPONSIBILITIES]` | Specify the privacy responsibilities | "[specify value]" |
-| `[PRIVACY_AUTHORITY]` | Specify the privacy authority | "[specify value]" |
-| `[PRIVACY_STAKEHOLDERS]` | Key stakeholders involved in privacy | "[specify value]" |
-| `[PRIVACY_METRICS]` | Specify the privacy metrics | "[specify value]" |
-| `[PRIVACY_TRAINING]` | Specify the privacy training | "[specify value]" |
-| `[PRIVACY_PERFORMANCE]` | Specify the privacy performance | "[specify value]" |
-| `[DESC_USE_CASES]` | Specify the desc use cases | "[specify value]" |
-| `[DESC_DATA_REQ]` | Specify the desc data req | "[specify value]" |
-| `[DESC_PLATFORM]` | Specify the desc platform | "[specify value]" |
-| `[DESC_SKILLS]` | Specify the desc skills | "[specify value]" |
-| `[DESC_VALUE]` | Specify the desc value | "[specify value]" |
-| `[DESC_ROI]` | Specify the desc roi | "[specify value]" |
-| `[DIAG_USE_CASES]` | Specify the diag use cases | "[specify value]" |
-| `[DIAG_DATA_REQ]` | Specify the diag data req | "[specify value]" |
-| `[DIAG_PLATFORM]` | Specify the diag platform | "[specify value]" |
-| `[DIAG_SKILLS]` | Specify the diag skills | "[specify value]" |
-| `[DIAG_VALUE]` | Specify the diag value | "[specify value]" |
-| `[DIAG_ROI]` | Specify the diag roi | "[specify value]" |
-| `[PRED_USE_CASES]` | Specify the pred use cases | "[specify value]" |
-| `[PRED_DATA_REQ]` | Specify the pred data req | "[specify value]" |
-| `[PRED_PLATFORM]` | Specify the pred platform | "[specify value]" |
-| `[PRED_SKILLS]` | Specify the pred skills | "[specify value]" |
-| `[PRED_VALUE]` | Specify the pred value | "[specify value]" |
-| `[PRED_ROI]` | Specify the pred roi | "[specify value]" |
-| `[PRESC_USE_CASES]` | Specify the presc use cases | "[specify value]" |
-| `[PRESC_DATA_REQ]` | Specify the presc data req | "[specify value]" |
-| `[PRESC_PLATFORM]` | Specify the presc platform | "[specify value]" |
-| `[PRESC_SKILLS]` | Specify the presc skills | "[specify value]" |
-| `[PRESC_VALUE]` | Specify the presc value | "[specify value]" |
-| `[PRESC_ROI]` | Specify the presc roi | "[specify value]" |
-| `[RT_ANAL_USE_CASES]` | Specify the rt anal use cases | "[specify value]" |
-| `[RT_ANAL_DATA_REQ]` | Specify the rt anal data req | "[specify value]" |
-| `[RT_ANAL_PLATFORM]` | Specify the rt anal platform | "[specify value]" |
-| `[RT_ANAL_SKILLS]` | Specify the rt anal skills | "[specify value]" |
-| `[RT_ANAL_VALUE]` | Specify the rt anal value | "[specify value]" |
-| `[RT_ANAL_ROI]` | Specify the rt anal roi | "[specify value]" |
-| `[AI_USE_CASES]` | Specify the ai use cases | "[specify value]" |
-| `[AI_DATA_REQ]` | Specify the ai data req | "[specify value]" |
-| `[AI_PLATFORM]` | Specify the ai platform | "[specify value]" |
-| `[AI_SKILLS]` | Specify the ai skills | "[specify value]" |
-| `[AI_VALUE]` | Specify the ai value | "[specify value]" |
-| `[AI_ROI]` | Specify the ai roi | "[specify value]" |
-| `[DQ_DEFINITION]` | Specify the dq definition | "[specify value]" |
-| `[DQ_TARGET]` | Target or intended dq | "[specify value]" |
-| `[DQ_CURRENT]` | Specify the dq current | "[specify value]" |
-| `[DQ_METHOD]` | Specify the dq method | "[specify value]" |
-| `[DQ_FREQUENCY]` | Specify the dq frequency | "[specify value]" |
-| `[DQ_ACTIONS]` | Specify the dq actions | "[specify value]" |
-| `[COMPLIANCE_DEFINITION]` | Specify the compliance definition | "[specify value]" |
-| `[COMPLIANCE_CURRENT]` | Specify the compliance current | "[specify value]" |
-| `[COMPLIANCE_METHOD]` | Specify the compliance method | "[specify value]" |
-| `[COMPLIANCE_FREQUENCY]` | Specify the compliance frequency | "[specify value]" |
-| `[COMPLIANCE_ACTIONS]` | Specify the compliance actions | "[specify value]" |
-| `[ACCESS_DEFINITION]` | Specify the access definition | "[specify value]" |
-| `[ACCESS_METHOD]` | Specify the access method | "[specify value]" |
-| `[ACCESS_FREQUENCY]` | Specify the access frequency | "[specify value]" |
-| `[ACCESS_ACTIONS]` | Specify the access actions | "[specify value]" |
-| `[LITERACY_DEFINITION]` | Specify the literacy definition | "[specify value]" |
-| `[LITERACY_METHOD]` | Specify the literacy method | "[specify value]" |
-| `[LITERACY_FREQUENCY]` | Specify the literacy frequency | "[specify value]" |
-| `[LITERACY_ACTIONS]` | Specify the literacy actions | "[specify value]" |
-| `[VALUE_DEFINITION]` | Specify the value definition | "[specify value]" |
-| `[VALUE_TARGET]` | Target or intended value | "[specify value]" |
-| `[VALUE_CURRENT]` | Specify the value current | "[specify value]" |
-| `[VALUE_METHOD]` | Specify the value method | "[specify value]" |
-| `[VALUE_FREQUENCY]` | Specify the value frequency | "[specify value]" |
-| `[VALUE_ACTIONS]` | Specify the value actions | "[specify value]" |
-| `[INCIDENT_DEFINITION]` | Specify the incident definition | "[specify value]" |
-| `[INCIDENT_TARGET]` | Target or intended incident | "[specify value]" |
-| `[INCIDENT_CURRENT]` | Specify the incident current | "[specify value]" |
-| `[INCIDENT_METHOD]` | Specify the incident method | "[specify value]" |
-| `[INCIDENT_FREQUENCY]` | Specify the incident frequency | "[specify value]" |
-| `[INCIDENT_ACTIONS]` | Specify the incident actions | "[specify value]" |
-| `[CATALOG_DEFINITION]` | Specify the catalog definition | "[specify value]" |
-| `[CATALOG_TARGET]` | Target or intended catalog | "[specify value]" |
-| `[CATALOG_CURRENT]` | Specify the catalog current | "[specify value]" |
-| `[CATALOG_METHOD]` | Specify the catalog method | "[specify value]" |
-| `[CATALOG_FREQUENCY]` | Specify the catalog frequency | "[specify value]" |
-| `[CATALOG_ACTIONS]` | Specify the catalog actions | "[specify value]" |
+| `[QUALITY_CURRENT]` | Current data quality maturity score | "2", "1 (Ad-hoc profiling only)", "3 (Basic rules in place)", "2.5" |
+| `[QUALITY_TARGET]` | Target data quality maturity | "4", "5 (Automated quality monitoring)", "4 (Proactive remediation)" |
+| `[QUALITY_GAP]` | Gap in data quality capabilities | "No automated profiling", "Manual quality checks only", "Missing data lineage" |
+| `[QUALITY_ISSUES]` | Critical data quality issues | "30% duplicate customer records", "Inconsistent product codes", "Missing validation rules" |
+| `[QUALITY_PRIORITY]` | Priority level for quality initiatives | "Critical", "High", "Medium", "P1 - Customer data" |
+| `[QUALITY_TIMELINE]` | Timeline for quality improvements | "Q1-Q2 2025", "6 months", "12 months phased", "90 days for critical" |
+| `[PRIVACY_CURRENT]` | Current privacy maturity score | "2", "3 (GDPR-compliant)", "1 (Minimal controls)", "2.5" |
+| `[PRIVACY_TARGET]` | Target privacy maturity | "4", "5 (Privacy by design)", "4 (Automated consent management)" |
+| `[PRIVACY_GAP]` | Gap in privacy capabilities | "No consent management system", "Manual DSR processing", "Incomplete data mapping" |
+| `[PRIVACY_ISSUES]` | Critical privacy issues | "GDPR compliance gaps", "No data subject request workflow", "Missing privacy impact assessments" |
+| `[PRIVACY_PRIORITY]` | Priority level for privacy initiatives | "Critical (regulatory)", "High", "P1 - GDPR deadline" |
+| `[PRIVACY_TIMELINE]` | Timeline for privacy improvements | "Q1 2025", "6 months", "Before audit deadline", "Immediate" |
+| `[SECURITY_CURRENT]` | Current security maturity score | "3", "2 (Basic access controls)", "4 (Encryption in place)", "2.5" |
+| `[SECURITY_TARGET]` | Target security maturity | "5", "4 (Zero-trust architecture)", "5 (Automated threat detection)" |
+| `[SECURITY_GAP]` | Gap in security capabilities | "No data classification", "Missing encryption at rest", "Incomplete access auditing" |
+| `[SECURITY_ISSUES]` | Critical security issues | "Overprivileged access", "Unencrypted PII", "No DLP solution", "Weak audit trails" |
+| `[SECURITY_PRIORITY]` | Priority level for security | "Critical", "High", "P1 - PCI compliance", "Immediate for PII" |
+| `[SECURITY_TIMELINE]` | Timeline for security improvements | "Q1 2025", "90 days", "6 months phased", "30 days for critical" |
+| `[MDM_CURRENT]` | Current MDM maturity score | "1", "2 (Siloed masters)", "3 (Partial integration)", "1.5" |
+| `[MDM_TARGET]` | Target MDM maturity | "4", "5 (Golden record automation)", "4 (Real-time synchronization)" |
+| `[MDM_GAP]` | Gap in MDM capabilities | "No single customer view", "Multiple product catalogs", "No golden record definition" |
+| `[MDM_ISSUES]` | Critical MDM issues | "5 conflicting customer databases", "No vendor deduplication", "Orphaned master records" |
+| `[MDM_PRIORITY]` | Priority level for MDM | "High", "Critical for customer 360", "P1 - M&A integration" |
+| `[MDM_TIMELINE]` | Timeline for MDM implementation | "12 months", "18 months phased", "Q1-Q4 2025", "2-year roadmap" |
+| `[ARCH_CURRENT]` | Current architecture maturity score | "2", "3 (Hybrid cloud)", "1 (Legacy only)", "2.5" |
+| `[ARCH_TARGET]` | Target architecture maturity | "4", "5 (Modern data mesh)", "4 (Cloud-native lakehouse)" |
+| `[ARCH_GAP]` | Gap in architecture capabilities | "No data lake", "Siloed data warehouses", "Missing real-time layer" |
+| `[ARCH_ISSUES]` | Critical architecture issues | "Technical debt in ETL", "Scalability limits", "No self-service capabilities" |
+| `[ARCH_PRIORITY]` | Priority level for architecture | "High", "Medium", "P2 - After MDM", "Critical for analytics" |
+| `[ARCH_TIMELINE]` | Timeline for architecture modernization | "2 years", "18 months", "Q2-Q4 2025", "3-year transformation" |
+| `[LIFECYCLE_CURRENT]` | Current lifecycle management maturity | "1", "2 (Basic retention)", "3 (Policies defined)", "1.5" |
+| `[LIFECYCLE_TARGET]` | Target lifecycle maturity | "4", "5 (Automated lifecycle)", "4 (Policy-driven archival)" |
+| `[LIFECYCLE_GAP]` | Gap in lifecycle capabilities | "No retention policies", "Manual archival process", "Missing disposal procedures" |
+| `[LIFECYCLE_ISSUES]` | Critical lifecycle issues | "Unlimited data retention", "No legal hold process", "Storage cost growth 40%/year" |
+| `[LIFECYCLE_PRIORITY]` | Priority level for lifecycle | "Medium", "High (cost control)", "P2", "Critical for compliance" |
+| `[LIFECYCLE_TIMELINE]` | Timeline for lifecycle implementation | "6 months", "Q2 2025", "12 months", "90 days for legal hold" |
+| `[LITERACY_CURRENT]` | Current data literacy maturity | "2", "1 (Limited training)", "3 (Some self-service)", "2" |
+| `[LITERACY_TARGET]` | Target data literacy maturity | "4", "5 (Data-driven culture)", "4 (Widespread self-service)" |
+| `[LITERACY_GAP]` | Gap in data literacy | "No formal training program", "Limited analytics adoption", "Tribal knowledge only" |
+| `[LITERACY_ISSUES]` | Critical literacy issues | "20% tool adoption rate", "Shadow IT analytics", "No data steward community" |
+| `[LITERACY_PRIORITY]` | Priority level for literacy | "Medium", "High", "P2 - After governance foundation" |
+| `[LITERACY_TIMELINE]` | Timeline for literacy program | "12 months", "Ongoing", "Q1-Q4 2025", "6-month pilot" |
+| `[CUST_DIMENSIONS]` | Quality dimensions for customer data | "Completeness, Accuracy, Uniqueness, Timeliness", "Name/Address validation, Email format, Duplicate detection" |
+| `[CUST_CURRENT]` | Current customer data quality score | "72%", "85%", "68% (duplicates issue)", "78% composite score" |
+| `[CUST_TARGET]` | Target customer data quality score | "95%", "98%", "99% for golden records", "95% minimum threshold" |
+| `[CUST_RULES]` | Quality rules for customer data | "Email regex validation", "Address standardization", "Phone format check", "Duplicate matching >85% confidence" |
+| `[CUST_MONITORING]` | Monitoring method for customer data | "Daily profiling via Great Expectations", "Real-time validation", "Weekly quality dashboards", "Automated alerts on threshold breach" |
+| `[CUST_REMEDIATION]` | Remediation process for customer data | "Auto-correction for formatting", "Manual review queue for duplicates", "Source system notification", "Data steward escalation" |
+| `[PROD_DIMENSIONS]` | Quality dimensions for product data | "Completeness, Consistency, Validity", "SKU format, Price validation, Category hierarchy" |
+| `[PROD_CURRENT]` | Current product data quality score | "82%", "75%", "88%", "80% (missing attributes)" |
+| `[PROD_TARGET]` | Target product data quality score | "98%", "95%", "99% for catalog", "97% minimum" |
+| `[PROD_RULES]` | Quality rules for product data | "SKU format validation", "Price range checks", "Required attribute completeness", "Category code lookup" |
+| `[PROD_MONITORING]` | Monitoring method for product data | "Daily catalog scans", "Real-time PIM validation", "Weekly completeness reports", "Change detection alerts" |
+| `[PROD_REMEDIATION]` | Remediation process for product data | "PIM workflow for missing data", "Supplier notification for discrepancies", "Automated enrichment", "Manual category assignment" |
+| `[FIN_DIMENSIONS]` | Quality dimensions for financial data | "Accuracy, Completeness, Timeliness, Auditability", "Balance reconciliation, Transaction integrity" |
+| `[FIN_CURRENT]` | Current financial data quality score | "94%", "91%", "96%", "92% (timing issues)" |
+| `[FIN_TARGET]` | Target financial data quality score | "99.9%", "99.5%", "100% for audit", "99% minimum" |
+| `[FIN_RULES]` | Quality rules for financial data | "Double-entry balance checks", "Transaction amount validation", "GL code validation", "Period close completeness" |
+| `[FIN_MONITORING]` | Monitoring method for financial data | "Real-time reconciliation", "Daily balance validation", "Monthly audit checks", "SOX control monitoring" |
+| `[FIN_REMEDIATION]` | Remediation process for financial data | "Immediate escalation to finance", "Automated variance alerts", "Audit trail preservation", "Controller review process" |
+| `[OPS_DIMENSIONS]` | Quality dimensions for operational data | "Timeliness, Accuracy, Completeness", "Sensor validation, Event sequencing, Throughput metrics" |
+| `[OPS_CURRENT]` | Current operational data quality score | "78%", "82%", "75%", "80% (latency issues)" |
+| `[OPS_TARGET]` | Target operational data quality score | "95%", "98%", "99% for real-time", "95% minimum" |
+| `[OPS_RULES]` | Quality rules for operational data | "Timestamp validation", "Sensor range checks", "Event sequence validation", "Throughput threshold monitoring" |
+| `[OPS_MONITORING]` | Monitoring method for operational data | "Real-time streaming validation", "Hourly aggregation checks", "Anomaly detection", "SLA monitoring dashboards" |
+| `[OPS_REMEDIATION]` | Remediation process for operational data | "Automated sensor recalibration alerts", "Missing data interpolation", "Operator notification", "Maintenance ticket creation" |
+| `[EMP_DIMENSIONS]` | Quality dimensions for employee data | "Completeness, Currency, Accuracy", "Identity validation, Role hierarchy, Compliance attributes" |
+| `[EMP_CURRENT]` | Current employee data quality score | "85%", "88%", "82%", "86% (termination lag)" |
+| `[EMP_TARGET]` | Target employee data quality score | "99%", "98%", "100% for compliance", "98% minimum" |
+| `[EMP_RULES]` | Quality rules for employee data | "SSN/ID validation", "Manager hierarchy check", "Required training completeness", "Active directory sync validation" |
+| `[EMP_MONITORING]` | Monitoring method for employee data | "Daily HRIS sync validation", "Weekly org hierarchy audit", "Monthly compliance check", "Real-time termination alerts" |
+| `[EMP_REMEDIATION]` | Remediation process for employee data | "HR ticket for discrepancies", "Automated access revocation", "Manager notification for updates", "Compliance escalation" |
+| `[VENDOR_DIMENSIONS]` | Quality dimensions for vendor data | "Completeness, Validity, Currency", "Tax ID validation, Banking details, Contract status" |
+| `[VENDOR_CURRENT]` | Current vendor data quality score | "76%", "80%", "72%", "78% (onboarding backlog)" |
+| `[VENDOR_TARGET]` | Target vendor data quality score | "95%", "98%", "99% for payments", "95% minimum" |
+| `[VENDOR_RULES]` | Quality rules for vendor data | "Tax ID format validation", "Bank account verification", "Contract expiration alerts", "Compliance certification check" |
+| `[VENDOR_MONITORING]` | Monitoring method for vendor data | "Monthly vendor file audit", "Payment validation pre-check", "Contract expiration monitoring", "Compliance certification tracking" |
+| `[VENDOR_REMEDIATION]` | Remediation process for vendor data | "Procurement team notification", "Payment hold for invalid data", "Vendor portal update request", "Re-onboarding workflow" |
+| `[REF_DIMENSIONS]` | Quality dimensions for reference data | "Consistency, Validity, Synchronization", "Code standardization, Cross-system alignment" |
+| `[REF_CURRENT]` | Current reference data quality score | "88%", "90%", "85%", "87% (version drift)" |
+| `[REF_TARGET]` | Target reference data quality score | "99%", "100%", "99.9% for lookups", "99% minimum" |
+| `[REF_RULES]` | Quality rules for reference data | "Code format validation", "Cross-reference integrity", "Version synchronization", "Hierarchy validation" |
+| `[REF_MONITORING]` | Monitoring method for reference data | "Real-time sync monitoring", "Daily cross-system reconciliation", "Version drift detection", "Usage pattern analysis" |
+| `[REF_REMEDIATION]` | Remediation process for reference data | "Automated sync correction", "MDM team escalation", "Source system notification", "Emergency code freeze" |
+| `[GDPR_SCOPE]` | Scope of GDPR compliance | "EU customer data processing", "All EEA personal data", "EU employees and customers", "Cross-border data transfers" |
+| `[GDPR_STATUS]` | Current GDPR compliance status | "Compliant", "In Progress (70%)", "Remediation Required", "Annual certification pending" |
+| `[GDPR_REQUIREMENTS]` | Key GDPR requirements | "Consent management, DSR workflow, DPIAs, Breach notification, Data mapping, Lawful basis documentation" |
+| `[GDPR_PLAN]` | GDPR implementation plan | "Phase 1: Data mapping; Phase 2: Consent platform; Phase 3: DSR automation; Phase 4: Annual audit" |
+| `[GDPR_RISK]` | GDPR compliance risk level | "High (pending DSR automation)", "Medium", "Low (fully compliant)", "Critical (consent gaps)" |
+| `[GDPR_TIMELINE]` | Timeline for GDPR compliance | "Q1 2025 full compliance", "6 months", "Ongoing maintenance", "90 days for gaps" |
+| `[CCPA_SCOPE]` | Scope of CCPA compliance | "California resident data", "US consumer PII", "California employees", "B2C customer records" |
+| `[CCPA_STATUS]` | Current CCPA compliance status | "Compliant", "In Progress (80%)", "Opt-out mechanism pending", "Annual disclosure updated" |
+| `[CCPA_REQUIREMENTS]` | Key CCPA requirements | "Right to know, Right to delete, Right to opt-out, Non-discrimination, Privacy notice updates" |
+| `[CCPA_PLAN]` | CCPA implementation plan | "Phase 1: Privacy notice update; Phase 2: Opt-out mechanism; Phase 3: Data deletion workflow" |
+| `[CCPA_RISK]` | CCPA compliance risk level | "Medium", "Low (mostly compliant)", "High (sale of data unclear)", "Medium (verification process)" |
+| `[CCPA_TIMELINE]` | Timeline for CCPA compliance | "Q2 2025", "3 months", "Annual review cycle", "60 days for updates" |
+| `[HIPAA_SCOPE]` | Scope of HIPAA compliance | "PHI in all systems", "Patient records", "Healthcare claims data", "Employee health records" |
+| `[HIPAA_STATUS]` | Current HIPAA compliance status | "Compliant with annual audit", "In Progress", "BAAs current", "Risk assessment completed" |
+| `[HIPAA_REQUIREMENTS]` | Key HIPAA requirements | "PHI encryption, Access controls, Audit logs, BAAs with vendors, Breach notification, Employee training" |
+| `[HIPAA_PLAN]` | HIPAA implementation plan | "Phase 1: Risk assessment; Phase 2: Technical safeguards; Phase 3: Administrative policies; Phase 4: Training" |
+| `[HIPAA_RISK]` | HIPAA compliance risk level | "High (encryption gaps)", "Medium", "Low (mature controls)", "Critical (BAA missing for vendor)" |
+| `[HIPAA_TIMELINE]` | Timeline for HIPAA compliance | "Ongoing", "Q1 2025 audit prep", "6 months remediation", "Annual certification" |
+| `[SOX_SCOPE]` | Scope of SOX compliance | "Financial reporting systems", "GL and sub-ledger data", "IT general controls", "Material accounts" |
+| `[SOX_STATUS]` | Current SOX compliance status | "Compliant (no material weaknesses)", "In Progress", "Control deficiencies identified", "Year-end audit ready" |
+| `[SOX_REQUIREMENTS]` | Key SOX requirements | "ITGC controls, Segregation of duties, Access reviews, Change management, Reconciliation controls" |
+| `[SOX_PLAN]` | SOX implementation plan | "Q1: Control testing; Q2: Remediation; Q3: Management testing; Q4: External audit support" |
+| `[SOX_RISK]` | SOX compliance risk level | "Medium (access review gaps)", "Low", "High (new system implementation)", "Material weakness risk" |
+| `[SOX_TIMELINE]` | Timeline for SOX compliance | "Fiscal year-end", "Ongoing quarterly", "Annual audit cycle", "Q4 remediation deadline" |
+| `[INDUSTRY_SCOPE]` | Scope of industry-specific regulations | "PCI-DSS for payment data", "FINRA for trading", "FDA for clinical data", "FedRAMP for government" |
+| `[INDUSTRY_STATUS]` | Industry regulation compliance status | "PCI Level 1 certified", "FINRA audit passed", "FDA 21 CFR Part 11 compliant", "FedRAMP Moderate ATO" |
+| `[INDUSTRY_REQUIREMENTS]` | Industry-specific requirements | "PCI: Cardholder data protection; FINRA: Records retention; FDA: Validation protocols; FedRAMP: Security controls" |
+| `[INDUSTRY_PLAN]` | Industry compliance implementation plan | "Annual certification cycle", "Quarterly control testing", "Continuous monitoring program", "Gap remediation roadmap" |
+| `[INDUSTRY_RISK]` | Industry-specific compliance risk | "Medium (PCI scope creep)", "Low", "High (new product launch)", "Critical (certification expiring)" |
+| `[INDUSTRY_TIMELINE]` | Timeline for industry compliance | "Annual recertification", "Q2 2025 audit", "6 months for new requirements", "Ongoing monitoring" |
+| `[INTL_SCOPE]` | Scope of international standards | "ISO 27001 certification", "SOC 2 Type II", "ISO 27701 privacy", "Cross-border data transfers" |
+| `[INTL_STATUS]` | International standards compliance status | "ISO 27001 certified", "SOC 2 Type II annual", "ISO 27701 in progress", "SCCs implemented" |
+| `[INTL_REQUIREMENTS]` | International standards requirements | "ISO 27001: ISMS controls; SOC 2: Trust principles; ISO 27701: Privacy controls; SCCs: Transfer mechanisms" |
+| `[INTL_PLAN]` | International standards implementation plan | "Phase 1: Gap assessment; Phase 2: Control implementation; Phase 3: Internal audit; Phase 4: Certification" |
+| `[INTL_RISK]` | International standards compliance risk | "Low (mature program)", "Medium (new geography)", "High (Brexit transfer impacts)", "Certification lapse risk" |
+| `[INTL_TIMELINE]` | Timeline for international compliance | "Annual surveillance audit", "3-year recertification", "6 months for new standards", "Q3 2025 ISO 27701" |
+| `[CLASS_CURRENT]` | Current data classification controls | "Manual classification only", "Public/Internal labels", "No formal classification", "Basic 3-tier system" |
+| `[CLASS_TARGET]` | Target data classification controls | "Automated classification with ML", "4-tier: Public/Internal/Confidential/Restricted", "Policy-driven auto-labeling" |
+| `[CLASS_IMPLEMENTATION]` | Classification implementation plan | "Deploy Microsoft Purview", "Implement sensitivity labels", "Train ML classifier", "Integrate with DLP" |
+| `[CLASS_MONITORING]` | Classification monitoring approach | "Weekly label accuracy review", "Monthly coverage reports", "Real-time misclassification alerts", "Quarterly policy audit" |
+| `[CLASS_INCIDENT]` | Classification incident response | "Immediate reclassification workflow", "Data owner notification", "Access restriction pending review", "Compliance team escalation" |
+| `[CLASS_COMPLIANCE]` | Classification compliance validation | "Annual classification audit", "Spot check sampling", "Policy compliance scoring", "External audit ready" |
+| `[ACCESS_CURRENT]` | Current access control state | "Basic RBAC", "Manual access requests", "No periodic review", "Local admin accounts exist" |
+| `[ACCESS_TARGET]` | Target access control state | "Attribute-based access (ABAC)", "Zero-trust architecture", "Just-in-time access", "Automated provisioning/deprovisioning" |
+| `[ACCESS_IMPLEMENTATION]` | Access control implementation plan | "Deploy identity governance (SailPoint/Saviynt)", "Implement PAM for privileged access", "SCIM integration", "Birthright access policies" |
+| `[ACCESS_MONITORING]` | Access control monitoring approach | "Real-time access analytics", "Weekly privilege review", "Anomaly detection for unusual access", "Monthly orphan account cleanup" |
+| `[ACCESS_INCIDENT]` | Access control incident response | "Immediate suspension of compromised accounts", "Forensic log preservation", "Access revocation workflow", "SOC escalation" |
+| `[ACCESS_COMPLIANCE]` | Access control compliance validation | "Quarterly access certification", "SOX segregation of duties testing", "Annual penetration test", "Compliance dashboard" |
+| `[ENCRYPT_CURRENT]` | Current encryption state | "TLS 1.2 in transit", "No encryption at rest", "Database TDE only", "Some systems unencrypted" |
+| `[ENCRYPT_TARGET]` | Target encryption state | "TLS 1.3 everywhere", "AES-256 at rest for all PII", "End-to-end encryption", "HSM key management" |
+| `[ENCRYPT_IMPLEMENTATION]` | Encryption implementation plan | "Deploy AWS KMS/Azure Key Vault", "Enable TDE on all databases", "Certificate management automation", "Field-level encryption for PII" |
+| `[ENCRYPT_MONITORING]` | Encryption monitoring approach | "Certificate expiration monitoring", "Key rotation compliance tracking", "Encryption coverage dashboard", "TLS version monitoring" |
+| `[ENCRYPT_INCIDENT]` | Encryption incident response | "Key compromise rotation procedure", "Certificate revocation workflow", "Data exposure assessment", "Forensic decryption for investigations" |
+| `[ENCRYPT_COMPLIANCE]` | Encryption compliance validation | "Annual key management audit", "PCI encryption requirements testing", "HIPAA encryption validation", "Quarterly configuration review" |
+| `[MASK_CURRENT]` | Current data masking state | "Manual masking for reports", "No dynamic masking", "Development uses production data", "Inconsistent masking rules" |
+| `[MASK_TARGET]` | Target data masking state | "Dynamic masking in production", "Automated test data generation", "Format-preserving encryption", "Consistent masking policies" |
+| `[MASK_IMPLEMENTATION]` | Data masking implementation plan | "Deploy Delphix/Informatica masking", "Define masking rules by data class", "Integrate with CI/CD for test environments", "Tokenization for payment data" |
+| `[MASK_MONITORING]` | Data masking monitoring approach | "Masking coverage reports", "Unmasked data detection", "Test environment audits", "Real-time masking validation" |
+| `[MASK_INCIDENT]` | Data masking incident response | "Immediate data recall for unmasked exposure", "Environment isolation", "Root cause analysis", "Re-masking workflow" |
+| `[MASK_COMPLIANCE]` | Data masking compliance validation | "Non-production environment audits", "PCI masking validation", "GDPR pseudonymization checks", "Annual masking policy review" |
+| `[AUDIT_CURRENT]` | Current audit logging state | "Basic application logs", "No centralized SIEM", "30-day retention only", "Incomplete audit trail" |
+| `[AUDIT_TARGET]` | Target audit logging state | "Centralized SIEM (Splunk/Sentinel)", "7-year retention for compliance", "Real-time alerting", "Complete audit trail" |
+| `[AUDIT_IMPLEMENTATION]` | Audit logging implementation plan | "Deploy Splunk Enterprise", "Standardize log format (CEF/OCSF)", "Enable all system audit logs", "Configure retention policies" |
+| `[AUDIT_MONITORING]` | Audit logging monitoring approach | "Real-time log analysis", "Daily log integrity checks", "Anomaly detection rules", "Weekly security review" |
+| `[AUDIT_INCIDENT]` | Audit logging incident response | "Log preservation for forensics", "Chain of custody documentation", "eDiscovery support", "Incident timeline reconstruction" |
+| `[AUDIT_COMPLIANCE]` | Audit logging compliance validation | "SOX audit log review", "PCI log monitoring requirements", "HIPAA audit trail validation", "Annual log retention audit" |
+| `[DLP_CURRENT]` | Current DLP state | "No DLP solution", "Email gateway only", "Limited endpoint protection", "No cloud DLP" |
+| `[DLP_TARGET]` | Target DLP state | "Comprehensive DLP (endpoint, network, cloud)", "Integrated with classification", "Automated policy enforcement", "User coaching" |
+| `[DLP_IMPLEMENTATION]` | DLP implementation plan | "Deploy Microsoft Purview DLP", "Define DLP policies by data class", "Enable cloud app monitoring", "User behavior analytics" |
+| `[DLP_MONITORING]` | DLP monitoring approach | "Real-time incident dashboard", "Weekly policy violation reports", "False positive tuning", "Trend analysis" |
+| `[DLP_INCIDENT]` | DLP incident response | "Automatic block for high-risk", "User notification and coaching", "Manager escalation workflow", "Compliance team review" |
+| `[DLP_COMPLIANCE]` | DLP compliance validation | "Monthly policy effectiveness review", "Incident response testing", "Annual DLP audit", "Regulatory requirement mapping" |
+| `[BACKUP_CURRENT]` | Current backup state | "Daily incremental backups", "Weekly full backups", "On-site storage only", "Manual recovery testing" |
+| `[BACKUP_TARGET]` | Target backup state | "Continuous replication", "Immutable backups", "Geo-redundant storage", "Automated recovery testing" |
+| `[BACKUP_IMPLEMENTATION]` | Backup implementation plan | "Deploy Veeam/Commvault", "Implement 3-2-1 rule", "Air-gapped backup copies", "Automated DR orchestration" |
+| `[BACKUP_MONITORING]` | Backup monitoring approach | "Real-time backup success monitoring", "Daily backup verification", "Capacity forecasting", "RTO/RPO tracking" |
+| `[BACKUP_INCIDENT]` | Backup incident response | "Ransomware isolation procedure", "Clean room recovery", "Backup integrity verification", "Business continuity activation" |
+| `[BACKUP_COMPLIANCE]` | Backup compliance validation | "Annual DR test", "Quarterly recovery testing", "Backup encryption verification", "Retention policy audit" |
+| `[CUST_MDM_CURRENT]` | Current customer MDM state | "5 siloed customer databases", "Partial CRM integration", "No single customer view", "Manual deduplication" |
+| `[CUST_MDM_TARGET]` | Target customer MDM state | "Single Customer 360 view", "Real-time cross-channel sync", "Automated match/merge", "Self-service customer lookup" |
+| `[CUST_MDM_SOURCES]` | Customer MDM source systems | "CRM (Salesforce), ERP (SAP), eCommerce, Support (ServiceNow), Marketing (Marketo)" |
+| `[CUST_MDM_GOLDEN]` | Customer golden record definition | "Name + Email + Phone + Address, Match confidence >85%, CRM as system of record, Survivorship rules defined" |
+| `[CUST_MDM_STEWARD]` | Customer MDM stewardship model | "Sales Operations owns customer master, Regional data stewards, Weekly exception review, Automated alerts" |
+| `[CUST_MDM_METRICS]` | Customer MDM success metrics | "Duplicate rate <2%", "Match accuracy >95%", "Time to resolve <24hrs", "Customer completeness >98%" |
+| `[PROD_MDM_CURRENT]` | Current product MDM state | "Multiple product catalogs", "Inconsistent SKUs", "Manual attribute management", "No PIM system" |
+| `[PROD_MDM_TARGET]` | Target product MDM state | "Unified product catalog", "Single SKU hierarchy", "Automated attribute enrichment", "PIM-driven syndication" |
+| `[PROD_MDM_SOURCES]` | Product MDM source systems | "ERP (SAP), PIM (Akeneo), eCommerce (Magento), PLM, Supplier portals" |
+| `[PROD_MDM_GOLDEN]` | Product golden record definition | "SKU + GTIN + Description + Category, PIM as system of record, Supplier data merge rules" |
+| `[PROD_MDM_STEWARD]` | Product MDM stewardship model | "Product Management owns master, Category managers as stewards, Supplier data validation workflow" |
+| `[PROD_MDM_METRICS]` | Product MDM success metrics | "Attribute completeness >95%", "Image coverage 100%", "Syndication errors <1%", "Time to market <48hrs" |
+| `[VENDOR_MDM_CURRENT]` | Current vendor MDM state | "Scattered vendor files", "Duplicate supplier records", "Manual onboarding", "Inconsistent banking data" |
+| `[VENDOR_MDM_TARGET]` | Target vendor MDM state | "Centralized vendor master", "Automated onboarding portal", "Real-time compliance validation", "Single payment view" |
+| `[VENDOR_MDM_SOURCES]` | Vendor MDM source systems | "ERP (SAP), Procurement (Ariba), AP system, Vendor portal, Compliance databases" |
+| `[VENDOR_MDM_GOLDEN]` | Vendor golden record definition | "Tax ID + Name + Banking details, Procurement as system of record, Annual re-verification required" |
+| `[VENDOR_MDM_STEWARD]` | Vendor MDM stewardship model | "Procurement owns vendor master, AP validates banking, Compliance team certifications, Category managers" |
+| `[VENDOR_MDM_METRICS]` | Vendor MDM success metrics | "Duplicate rate <1%", "Onboarding time <5 days", "Banking accuracy 100%", "Compliance coverage 100%" |
+| `[EMP_MDM_CURRENT]` | Current employee MDM state | "HRIS + AD disconnected", "Manual provisioning", "Delayed terminations", "Inconsistent org hierarchy" |
+| `[EMP_MDM_TARGET]` | Target employee MDM state | "Unified employee identity", "Real-time HR-AD sync", "Automated lifecycle management", "Single org hierarchy" |
+| `[EMP_MDM_SOURCES]` | Employee MDM source systems | "HRIS (Workday/SAP HCM), Active Directory, Badge system, Learning management, Payroll" |
+| `[EMP_MDM_GOLDEN]` | Employee golden record definition | "Employee ID + Name + Department + Manager, HRIS as system of record, 24hr sync SLA" |
+| `[EMP_MDM_STEWARD]` | Employee MDM stewardship model | "HR Operations owns master, IT owns technical identity, Managers validate reports, Automated sync" |
+| `[EMP_MDM_METRICS]` | Employee MDM success metrics | "Sync accuracy 100%", "Termination processing <4hrs", "Org accuracy 100%", "Identity match 100%" |
+| `[LOC_MDM_CURRENT]` | Current location MDM state | "Inconsistent address formats", "Multiple location codes", "No geocoding", "Regional variations" |
+| `[LOC_MDM_TARGET]` | Target location MDM state | "Standardized addresses (USPS/CASS)", "Unified location hierarchy", "Geocoded locations", "Real-time validation" |
+| `[LOC_MDM_SOURCES]` | Location MDM source systems | "ERP facility records, Real estate system, Store locator, Logistics, Tax jurisdictions" |
+| `[LOC_MDM_GOLDEN]` | Location golden record definition | "Address + Geo coordinates + Type + Status, Real estate as system of record, USPS standardization" |
+| `[LOC_MDM_STEWARD]` | Location MDM stewardship model | "Real Estate owns facility master, Finance owns cost centers, Operations owns operational status" |
+| `[LOC_MDM_METRICS]` | Location MDM success metrics | "Address validation 100%", "Geocode accuracy >99%", "Hierarchy completeness 100%", "Tax jurisdiction accuracy 100%" |
+| `[ASSET_MDM_CURRENT]` | Current asset MDM state | "Spreadsheet-based tracking", "Incomplete asset register", "No depreciation sync", "Manual audits" |
+| `[ASSET_MDM_TARGET]` | Target asset MDM state | "Centralized asset repository", "Real-time tracking", "Automated depreciation", "Integrated maintenance" |
+| `[ASSET_MDM_SOURCES]` | Asset MDM source systems | "Fixed asset system (SAP), IT asset management (ServiceNow), Maintenance (Maximo), Facilities" |
+| `[ASSET_MDM_GOLDEN]` | Asset golden record definition | "Asset ID + Serial + Location + Owner + Value, Finance owns fixed assets, IT owns technology assets" |
+| `[ASSET_MDM_STEWARD]` | Asset MDM stewardship model | "Finance owns fixed asset master, IT owns technology assets, Facilities owns building assets, Annual audit" |
+| `[ASSET_MDM_METRICS]` | Asset MDM success metrics | "Asset accuracy >99%", "Audit variance <1%", "Depreciation sync 100%", "Location accuracy >98%" |
+| `[DW_CURRENT]` | Current data warehouse state | "On-prem Oracle DW", "Legacy SQL Server", "Teradata at capacity", "Snowflake pilot" |
+| `[DW_TARGET]` | Target data warehouse state | "Cloud DW (Snowflake/BigQuery)", "Serverless scaling", "Near-real-time refresh", "Self-service access" |
+| `[DW_INTEGRATION]` | Data warehouse integration pattern | "ELT with dbt", "Batch ETL (Informatica)", "CDC streaming", "API-based ingestion" |
+| `[DW_TECH]` | Data warehouse technology stack | "Snowflake + dbt + Fivetran", "BigQuery + Dataform", "Databricks SQL + Delta Lake", "Synapse Analytics" |
+| `[DW_PERFORMANCE]` | Data warehouse performance requirements | "Query response <5s for 90%", "Concurrent users >500", "Daily load <4hrs", "99.9% availability" |
+| `[DW_SCALABILITY]` | Data warehouse scalability plan | "Auto-scaling compute", "Multi-cluster warehouse", "Elastic capacity", "5x growth in 3 years" |
+| `[DL_CURRENT]` | Current data lake state | "No data lake", "HDFS cluster", "S3 raw data dump", "Unstructured landing zone" |
+| `[DL_TARGET]` | Target data lake state | "Governed lakehouse", "Delta Lake/Iceberg format", "Multi-zone architecture", "Self-service discovery" |
+| `[DL_INTEGRATION]` | Data lake integration pattern | "Streaming ingestion (Kafka)", "Batch landing (Airflow)", "CDC replication", "API connectors" |
+| `[DL_TECH]` | Data lake technology stack | "Databricks Lakehouse", "AWS Lake Formation + Glue", "Azure Data Lake Gen2 + Synapse", "GCP Dataplex" |
+| `[DL_PERFORMANCE]` | Data lake performance requirements | "Ingestion latency <1hr", "Query federation <30s", "Petabyte-scale storage", "99.9% durability" |
+| `[DL_SCALABILITY]` | Data lake scalability plan | "Object storage auto-scale", "Compute separation", "Zone-based partitioning", "10PB capacity plan" |
+| `[DM_CURRENT]` | Current data mart state | "Siloed departmental marts", "Manual refresh", "Inconsistent metrics", "Excel extracts" |
+| `[DM_TARGET]` | Target data mart state | "Governed semantic layer", "Self-service marts", "Consistent KPI definitions", "Automated refresh" |
+| `[DM_INTEGRATION]` | Data mart integration pattern | "Push from DW", "Virtual marts (views)", "Materialized aggregations", "dbt models" |
+| `[DM_TECH]` | Data mart technology stack | "dbt + Snowflake schemas", "Looker semantic layer", "Power BI datasets", "Tableau extracts" |
+| `[DM_PERFORMANCE]` | Data mart performance requirements | "Dashboard load <3s", "Ad-hoc queries <10s", "Refresh frequency hourly", "99.5% availability" |
+| `[DM_SCALABILITY]` | Data mart scalability plan | "Pre-aggregated cubes", "User-based scaling", "Query caching", "20 new marts/year" |
+| `[RT_CURRENT]` | Current real-time analytics state | "No real-time capability", "Batch only (T+1)", "Limited streaming", "Manual dashboards" |
+| `[RT_TARGET]` | Target real-time analytics state | "Sub-second streaming", "Real-time dashboards", "Event-driven alerts", "Operational analytics" |
+| `[RT_INTEGRATION]` | Real-time integration pattern | "Kafka streaming", "Change data capture", "Event sourcing", "WebSocket feeds" |
+| `[RT_TECH]` | Real-time technology stack | "Kafka + Flink + ksqlDB", "Spark Structured Streaming", "AWS Kinesis + Lambda", "Azure Stream Analytics" |
+| `[RT_PERFORMANCE]` | Real-time performance requirements | "End-to-end latency <1s", "Event throughput 100K/s", "99.99% delivery", "Zero data loss" |
+| `[RT_SCALABILITY]` | Real-time scalability plan | "Horizontal partition scaling", "Auto-scaling consumers", "Multi-region replication", "10x throughput headroom" |
+| `[API_CURRENT]` | Current data API state | "No data APIs", "Point-to-point integrations", "Manual file transfers", "FTP-based" |
+| `[API_TARGET]` | Target data API state | "RESTful data APIs", "GraphQL for complex queries", "Self-service API portal", "Rate-limited access" |
+| `[API_INTEGRATION]` | Data API integration pattern | "API gateway (Kong/Apigee)", "OAuth 2.0 authentication", "OpenAPI specs", "Versioned endpoints" |
+| `[API_TECH]` | Data API technology stack | "Kong + FastAPI", "Apigee + Spring Boot", "AWS API Gateway + Lambda", "GraphQL (Hasura/Apollo)" |
+| `[API_PERFORMANCE]` | Data API performance requirements | "Response time <200ms", "99.9% uptime SLA", "1000 requests/sec", "Auto-scaling" |
+| `[API_SCALABILITY]` | Data API scalability plan | "Horizontal scaling", "CDN caching", "Read replicas", "Multi-region deployment" |
+| `[CAT_CURRENT]` | Current data catalog state | "No catalog", "Spreadsheet inventory", "Tribal knowledge", "Basic metadata" |
+| `[CAT_TARGET]` | Target data catalog state | "Enterprise catalog (Alation/Collibra)", "Automated discovery", "Business glossary", "Data lineage" |
+| `[CAT_INTEGRATION]` | Data catalog integration pattern | "Automated scanning", "Metadata harvesting", "Lineage extraction", "BI tool integration" |
+| `[CAT_TECH]` | Data catalog technology stack | "Alation + Monte Carlo", "Collibra + Atlan", "DataHub + Great Expectations", "Azure Purview" |
+| `[CAT_PERFORMANCE]` | Data catalog performance requirements | "Search response <2s", "Daily metadata refresh", "Full lineage depth", "99.9% availability" |
+| `[CAT_SCALABILITY]` | Data catalog scalability plan | "100K+ assets", "1000+ users", "Automated tagging ML", "Federated catalogs" |
+| `[CREATE_POLICIES]` | Data creation stage policies | "Classification at creation", "Metadata tagging required", "Quality validation on entry", "Source documentation" |
+| `[CREATE_RETENTION]` | Data creation retention rules | "Initial classification determines retention", "Temporary data: 30 days", "Transaction data: 7 years", "PII: Policy-defined" |
+| `[CREATE_STORAGE]` | Data creation storage tier | "Hot storage (SSD)", "Primary database tier", "High-performance storage", "Replicated for availability" |
+| `[CREATE_ACCESS]` | Data creation access controls | "Creator has full access", "Team access by default", "Classification-based sharing", "Audit logging enabled" |
+| `[CREATE_DISPOSAL]` | Data creation disposal process | "N/A for creation stage", "Validation failure: Reject", "Duplicate detection: Merge/reject", "Quality gate enforcement" |
+| `[CREATE_COMPLIANCE]` | Data creation compliance requirements | "GDPR: Lawful basis documented", "Purpose limitation enforced", "Consent recorded", "Privacy notice provided" |
+| `[ACTIVE_POLICIES]` | Active use stage policies | "Regular quality monitoring", "Access recertification", "Usage tracking", "Performance optimization" |
+| `[ACTIVE_RETENTION]` | Active use retention rules | "Operational data: Active use period", "Transaction data: 1-3 years active", "Reference data: Indefinite active", "Logs: 90 days active" |
+| `[ACTIVE_STORAGE]` | Active use storage tier | "Hot storage (SSD/NVMe)", "In-memory caching", "Replicated databases", "High-IOPS storage" |
+| `[ACTIVE_ACCESS]` | Active use access controls | "Role-based access", "Need-to-know principle", "Quarterly access review", "Privileged access monitoring" |
+| `[ACTIVE_DISPOSAL]` | Active use disposal process | "Transition to archive criteria", "Inactivity threshold: 12 months", "Business relevance review", "Migration validation" |
+| `[ACTIVE_COMPLIANCE]` | Active use compliance requirements | "SOX: Active control monitoring", "HIPAA: Access audit logs", "GDPR: Purpose limitation", "PCI: Cardholder data minimization" |
+| `[ARCHIVE_POLICIES]` | Archive stage policies | "Compressed storage", "Reduced access frequency", "Metadata preservation", "Searchable index" |
+| `[ARCHIVE_RETENTION]` | Archive retention rules | "Financial records: 7 years", "HR records: 7 years post-employment", "Contracts: 10 years post-expiry", "Customer data: Per consent" |
+| `[ARCHIVE_STORAGE]` | Archive storage tier | "Cool storage (HDD/Object)", "S3 Infrequent Access", "Azure Cool Blob", "Tape for large volumes" |
+| `[ARCHIVE_ACCESS]` | Archive access controls | "Restricted access (approval required)", "Data steward authorization", "Audit all retrievals", "Time-limited access grants" |
+| `[ARCHIVE_DISPOSAL]` | Archive disposal process | "Scheduled retention review", "Business approval for extension", "Regulatory hold check", "Disposal queue management" |
+| `[ARCHIVE_COMPLIANCE]` | Archive compliance requirements | "eDiscovery readiness", "Regulatory retention periods", "Chain of custody", "Integrity verification" |
+| `[LONGTERM_POLICIES]` | Long-term storage policies | "Immutable storage", "Encryption required", "Periodic integrity checks", "Format migration planning" |
+| `[LONGTERM_RETENTION]` | Long-term retention rules | "Permanent records: Indefinite", "Legal requirements: Per regulation", "Historical data: Business decision", "Minimum 7-10 years typical" |
+| `[LONGTERM_STORAGE]` | Long-term storage tier | "Glacier/Archive tier", "Tape libraries", "WORM storage", "Geo-redundant cold storage" |
+| `[LONGTERM_ACCESS]` | Long-term access controls | "Executive approval required", "Legal/Compliance authorization", "48-72hr retrieval SLA", "Full audit trail" |
+| `[LONGTERM_DISPOSAL]` | Long-term disposal process | "Regulatory approval required", "Legal review mandatory", "Documented destruction", "Certificate of destruction" |
+| `[LONGTERM_COMPLIANCE]` | Long-term compliance requirements | "SEC Rule 17a-4", "IRS retention requirements", "Industry-specific mandates", "Cross-border transfer rules" |
+| `[DESTROY_POLICIES]` | Data destruction policies | "Secure deletion methods", "Multi-pass overwrite", "Cryptographic erasure", "Physical destruction for media" |
+| `[DESTROY_RETENTION]` | Data destruction retention rules | "Destruction records: 10 years", "Certificate retention: Permanent", "Audit logs: 7 years", "Approval records: 10 years" |
+| `[DESTROY_STORAGE]` | Data destruction storage tier | "N/A - Data removed", "Destruction queue staging", "Verification environment", "Certificate storage" |
+| `[DESTROY_ACCESS]` | Data destruction access controls | "Destruction team only", "Dual authorization required", "Segregation of duties", "Witnessed destruction" |
+| `[DESTROY_DISPOSAL]` | Data destruction disposal process | "NIST SP 800-88 compliant", "DoD 5220.22-M for sensitive", "Verified destruction", "Certificate generation" |
+| `[DESTROY_COMPLIANCE]` | Data destruction compliance requirements | "GDPR: Right to erasure fulfilled", "Documented destruction proof", "Regulatory notification if required", "Third-party destruction verification" |
+| `[LEGAL_POLICIES]` | Legal hold policies | "Immediate preservation on notice", "Litigation hold procedures", "Custodian notification", "Collection protocols" |
+| `[LEGAL_RETENTION]` | Legal hold retention rules | "Indefinite until hold released", "Override normal retention", "Preserve all relevant data", "No destruction during hold" |
+| `[LEGAL_STORAGE]` | Legal hold storage tier | "Immutable preservation", "Chain of custody storage", "Forensic copy maintained", "Segregated hold repository" |
+| `[LEGAL_ACCESS]` | Legal hold access controls | "Legal team access only", "eDiscovery platform access", "Custodian limited access", "Full audit logging" |
+| `[LEGAL_DISPOSAL]` | Legal hold disposal process | "Hold release authorization required", "Legal sign-off mandatory", "Return to normal lifecycle", "Post-hold review" |
+| `[LEGAL_COMPLIANCE]` | Legal hold compliance requirements | "FRCP compliance", "Spoliation prevention", "Defensible collection", "Proportionality assessment" |
+| `[CDO_RESPONSIBILITIES]` | Chief Data Officer responsibilities | "Enterprise data strategy", "Governance program leadership", "Data-driven culture champion", "Executive stakeholder management", "Budget/resource allocation" |
+| `[CDO_AUTHORITY]` | Chief Data Officer authority level | "C-suite executive", "Board reporting", "Cross-functional authority", "Policy approval", "Vendor selection authority" |
+| `[CDO_STAKEHOLDERS]` | CDO key stakeholders | "CEO, CFO, CIO, CISO", "Business unit leaders", "Board of Directors", "Regulatory bodies", "External auditors" |
+| `[CDO_METRICS]` | CDO success metrics | "Data ROI realized", "Governance maturity score", "Compliance rate", "Data quality improvement", "Analytics adoption rate" |
+| `[CDO_TRAINING]` | CDO training requirements | "Executive data leadership", "Regulatory compliance updates", "Industry conferences", "Peer networking", "Board presentation skills" |
+| `[CDO_PERFORMANCE]` | CDO performance measures | "Strategic objectives achieved", "Budget management", "Team development", "Stakeholder satisfaction", "Program milestone delivery" |
+| `[DGC_RESPONSIBILITIES]` | Data Governance Council responsibilities | "Policy approval", "Cross-domain coordination", "Issue resolution", "Priority setting", "Resource allocation recommendations" |
+| `[DGC_AUTHORITY]` | Data Governance Council authority | "Policy ratification", "Escalation resolution", "Initiative prioritization", "Standards approval", "Exception handling" |
+| `[DGC_STAKEHOLDERS]` | Data Governance Council stakeholders | "CDO (Chair)", "Business domain leaders", "IT leadership", "Legal/Compliance", "Finance representative" |
+| `[DGC_METRICS]` | Data Governance Council metrics | "Policies approved/quarter", "Issues resolved", "Meeting attendance", "Decision cycle time", "Initiative success rate" |
+| `[DGC_TRAINING]` | Data Governance Council training | "Governance framework overview", "Policy development", "Decision-making processes", "Industry best practices", "Regulatory updates" |
+| `[DGC_PERFORMANCE]` | Data Governance Council performance | "Decision effectiveness", "Policy adoption rate", "Stakeholder engagement", "Initiative delivery", "Conflict resolution time" |
+| `[STEWARD_RESPONSIBILITIES]` | Data Steward responsibilities | "Data quality ownership", "Metadata management", "Issue investigation", "Policy enforcement", "User support and training" |
+| `[STEWARD_AUTHORITY]` | Data Steward authority level | "Domain data decisions", "Quality rule definition", "Exception approval (limited)", "Issue escalation", "Access recommendations" |
+| `[STEWARD_STAKEHOLDERS]` | Data Steward stakeholders | "Data owners", "Business analysts", "IT/Data engineers", "End users", "Compliance team" |
+| `[STEWARD_METRICS]` | Data Steward success metrics | "Data quality score improvement", "Issue resolution time", "User satisfaction", "Metadata completeness", "Policy compliance rate" |
+| `[STEWARD_TRAINING]` | Data Steward training requirements | "Data governance fundamentals", "Quality management tools", "Domain-specific training", "Communication skills", "Conflict resolution" |
+| `[STEWARD_PERFORMANCE]` | Data Steward performance measures | "Quality KPIs met", "Issues resolved on time", "Stakeholder feedback", "Documentation currency", "Training completion" |
+| `[CUSTODIAN_RESPONSIBILITIES]` | Data Custodian responsibilities | "Technical data management", "Security controls implementation", "Backup/recovery execution", "Performance optimization", "Infrastructure maintenance" |
+| `[CUSTODIAN_AUTHORITY]` | Data Custodian authority level | "Technical implementation decisions", "Security configuration", "Storage allocation", "Performance tuning", "Incident response" |
+| `[CUSTODIAN_STAKEHOLDERS]` | Data Custodian stakeholders | "Data owners", "Data stewards", "Security team", "Infrastructure team", "Application developers" |
+| `[CUSTODIAN_METRICS]` | Data Custodian success metrics | "System availability", "Backup success rate", "Recovery time objectives met", "Security compliance", "Performance SLAs" |
+| `[CUSTODIAN_TRAINING]` | Data Custodian training requirements | "Database administration", "Security certifications", "Cloud platform training", "Disaster recovery procedures", "Vendor-specific training" |
+| `[CUSTODIAN_PERFORMANCE]` | Data Custodian performance measures | "Uptime percentage", "Incident response time", "Backup/recovery success", "Security audit results", "Capacity management" |
+| `[OWNER_RESPONSIBILITIES]` | Data Owner responsibilities | "Accountability for data assets", "Access authorization", "Quality standards definition", "Business value realization", "Risk acceptance" |
+| `[OWNER_AUTHORITY]` | Data Owner authority level | "Data access approval/denial", "Quality threshold setting", "Usage policy decisions", "Retention period approval", "Classification determination" |
+| `[OWNER_STAKEHOLDERS]` | Data Owner stakeholders | "Executive sponsors", "Data stewards", "Business users", "Compliance/Legal", "IT partners" |
+| `[OWNER_METRICS]` | Data Owner success metrics | "Data asset utilization", "Business value generated", "Compliance status", "User satisfaction", "Cost efficiency" |
+| `[OWNER_TRAINING]` | Data Owner training requirements | "Data ownership principles", "Regulatory requirements", "Risk management", "Governance framework", "Value measurement" |
+| `[OWNER_PERFORMANCE]` | Data Owner performance measures | "Asset value delivered", "Compliance achieved", "Access governance", "Quality oversight", "Strategic alignment" |
+| `[PRIVACY_RESPONSIBILITIES]` | Privacy Officer responsibilities | "Privacy program management", "DPIA oversight", "Regulatory compliance", "Breach response coordination", "Privacy by design guidance" |
+| `[PRIVACY_AUTHORITY]` | Privacy Officer authority level | "Privacy policy approval", "Processing activity review", "Breach notification decision", "Vendor assessment sign-off", "Regulatory liaison" |
+| `[PRIVACY_STAKEHOLDERS]` | Privacy Officer stakeholders | "CDO", "Legal counsel", "CISO", "Business unit leaders", "Regulatory authorities", "Data subjects" |
+| `[PRIVACY_METRICS]` | Privacy Officer success metrics | "DSR response time", "Breach count/severity", "DPIA completion rate", "Training completion", "Regulatory audit results" |
+| `[PRIVACY_TRAINING]` | Privacy Officer training requirements | "CIPP/CIPM certification", "Regulatory updates (GDPR, CCPA)", "Privacy engineering", "Incident response", "Legal developments" |
+| `[PRIVACY_PERFORMANCE]` | Privacy Officer performance measures | "Compliance audit results", "DSR SLA achievement", "Breach prevention", "Policy effectiveness", "Stakeholder confidence" |
+| `[DESC_USE_CASES]` | Descriptive analytics use cases | "Executive dashboards", "KPI reporting", "Historical trend analysis", "Operational metrics", "Financial reporting" |
+| `[DESC_DATA_REQ]` | Descriptive analytics data requirements | "Clean historical data", "Consistent metrics definitions", "Aggregated summaries", "Time-series data", "Dimensional hierarchies" |
+| `[DESC_PLATFORM]` | Descriptive analytics platform | "Power BI", "Tableau", "Looker", "Qlik Sense", "AWS QuickSight" |
+| `[DESC_SKILLS]` | Descriptive analytics skills required | "SQL proficiency", "Data visualization", "Business domain knowledge", "Dashboard design", "Stakeholder communication" |
+| `[DESC_VALUE]` | Descriptive analytics value delivered | "Operational visibility", "Performance monitoring", "Compliance reporting", "Executive decision support", "Self-service insights" |
+| `[DESC_ROI]` | Descriptive analytics ROI target | "20% reduction in reporting time", "$500K saved in manual reporting", "100+ self-service users", "5x dashboard adoption" |
+| `[DIAG_USE_CASES]` | Diagnostic analytics use cases | "Root cause analysis", "Variance investigation", "Drill-down analysis", "Anomaly explanation", "Performance diagnostics" |
+| `[DIAG_DATA_REQ]` | Diagnostic analytics data requirements | "Granular transaction data", "Event logs", "Contextual metadata", "Time-stamped records", "Correlated datasets" |
+| `[DIAG_PLATFORM]` | Diagnostic analytics platform | "Power BI + DAX", "Tableau + Prep", "Looker + LookML", "Custom SQL + Python", "Splunk for logs" |
+| `[DIAG_SKILLS]` | Diagnostic analytics skills required | "Advanced SQL", "Statistical analysis", "Root cause methodologies", "Data investigation", "Hypothesis testing" |
+| `[DIAG_VALUE]` | Diagnostic analytics value delivered | "Faster issue resolution", "Process improvement insights", "Cost reduction opportunities", "Quality issue identification" |
+| `[DIAG_ROI]` | Diagnostic analytics ROI target | "50% faster root cause identification", "$1M in identified savings", "30% reduction in issue recurrence" |
+| `[PRED_USE_CASES]` | Predictive analytics use cases | "Demand forecasting", "Churn prediction", "Risk scoring", "Maintenance prediction", "Sales forecasting" |
+| `[PRED_DATA_REQ]` | Predictive analytics data requirements | "Historical outcome data", "Feature engineering inputs", "Training/test datasets", "Real-time scoring data", "Labeled examples" |
+| `[PRED_PLATFORM]` | Predictive analytics platform | "Azure ML", "AWS SageMaker", "Databricks ML", "Google Vertex AI", "DataRobot" |
+| `[PRED_SKILLS]` | Predictive analytics skills required | "Machine learning", "Python/R programming", "Feature engineering", "Model validation", "MLOps practices" |
+| `[PRED_VALUE]` | Predictive analytics value delivered | "Proactive decision-making", "Risk reduction", "Revenue optimization", "Resource planning", "Customer retention" |
+| `[PRED_ROI]` | Predictive analytics ROI target | "15% churn reduction ($2M)", "20% forecast accuracy improvement", "$5M in predictive maintenance savings" |
+| `[PRESC_USE_CASES]` | Prescriptive analytics use cases | "Price optimization", "Route optimization", "Resource allocation", "Treatment recommendations", "Next-best-action" |
+| `[PRESC_DATA_REQ]` | Prescriptive analytics data requirements | "Constraint parameters", "Optimization objectives", "Real-time decision data", "Outcome feedback loops", "Simulation inputs" |
+| `[PRESC_PLATFORM]` | Prescriptive analytics platform | "IBM Decision Optimization", "Gurobi/CPLEX", "AWS Personalize", "Google OR-Tools", "Custom optimization engines" |
+| `[PRESC_SKILLS]` | Prescriptive analytics skills required | "Operations research", "Optimization algorithms", "Simulation modeling", "Decision science", "Business modeling" |
+| `[PRESC_VALUE]` | Prescriptive analytics value delivered | "Optimized outcomes", "Automated decision-making", "Resource efficiency", "Personalized recommendations" |
+| `[PRESC_ROI]` | Prescriptive analytics ROI target | "10% margin improvement", "$10M in optimization savings", "25% efficiency gains", "2x conversion improvement" |
+| `[RT_ANAL_USE_CASES]` | Real-time analytics use cases | "Fraud detection", "Real-time personalization", "Operational monitoring", "IoT analytics", "Live dashboards" |
+| `[RT_ANAL_DATA_REQ]` | Real-time analytics data requirements | "Streaming data feeds", "Sub-second latency", "Event-driven architecture", "In-memory processing", "Real-time enrichment" |
+| `[RT_ANAL_PLATFORM]` | Real-time analytics platform | "Apache Kafka + Flink", "AWS Kinesis", "Azure Stream Analytics", "Google Dataflow", "Spark Structured Streaming" |
+| `[RT_ANAL_SKILLS]` | Real-time analytics skills required | "Stream processing", "Event-driven architecture", "Real-time ML", "Performance optimization", "Distributed systems" |
+| `[RT_ANAL_VALUE]` | Real-time analytics value delivered | "Immediate response to events", "Fraud prevention", "Customer engagement", "Operational excellence", "Competitive advantage" |
+| `[RT_ANAL_ROI]` | Real-time analytics ROI target | "$5M fraud prevented annually", "30% engagement improvement", "99.9% event processing SLA", "Sub-second decision latency" |
+| `[AI_USE_CASES]` | AI/ML application use cases | "NLP document processing", "Computer vision QA", "Recommendation engines", "Chatbots/Virtual assistants", "Generative AI" |
+| `[AI_DATA_REQ]` | AI/ML data requirements | "Large labeled datasets", "Unstructured data processing", "Training infrastructure", "Model versioning", "Feature stores" |
+| `[AI_PLATFORM]` | AI/ML platform | "Azure OpenAI + Cognitive Services", "AWS Bedrock + SageMaker", "Google Vertex AI", "Databricks ML", "Hugging Face" |
+| `[AI_SKILLS]` | AI/ML skills required | "Deep learning", "NLP/Computer vision", "MLOps/LLMOps", "Prompt engineering", "Responsible AI", "Model governance" |
+| `[AI_VALUE]` | AI/ML value delivered | "Process automation", "Enhanced customer experience", "New product capabilities", "Competitive differentiation", "Cost reduction" |
+| `[AI_ROI]` | AI/ML ROI target | "50% process automation", "$20M in new revenue", "80% reduction in manual tasks", "NPS improvement +15 points" |
+| `[DQ_DEFINITION]` | Data quality score definition | "Composite score of completeness, accuracy, consistency, timeliness, uniqueness weighted by business criticality" |
+| `[DQ_TARGET]` | Data quality target percentage | "95%", "98% for critical data", "99% for financial data", "90% baseline" |
+| `[DQ_CURRENT]` | Current data quality score | "78%", "82%", "85%", "72% (baseline assessment)" |
+| `[DQ_METHOD]` | Data quality measurement method | "Automated profiling (Great Expectations)", "Rule-based validation", "Statistical sampling", "Continuous monitoring" |
+| `[DQ_FREQUENCY]` | Data quality measurement frequency | "Real-time for critical", "Daily batch profiling", "Weekly scorecards", "Monthly executive reports" |
+| `[DQ_ACTIONS]` | Data quality improvement actions | "Automated remediation rules", "Source system fixes", "Data steward workflows", "Root cause analysis", "Prevention controls" |
+| `[COMPLIANCE_DEFINITION]` | Compliance rate definition | "Percentage of data assets meeting all applicable regulatory requirements and internal policies" |
+| `[COMPLIANCE_CURRENT]` | Current compliance rate | "85%", "92%", "78%", "88% (last audit)" |
+| `[COMPLIANCE_METHOD]` | Compliance measurement method | "Automated policy scans", "Audit sampling", "Control testing", "Self-assessment surveys" |
+| `[COMPLIANCE_FREQUENCY]` | Compliance measurement frequency | "Continuous monitoring", "Quarterly control testing", "Annual audit", "Event-triggered reviews" |
+| `[COMPLIANCE_ACTIONS]` | Compliance improvement actions | "Gap remediation plans", "Policy updates", "Training programs", "Control enhancements", "Tool implementations" |
+| `[ACCESS_DEFINITION]` | Data accessibility definition | "Percentage of authorized users able to access required data within SLA, measured by request fulfillment rate" |
+| `[ACCESS_METHOD]` | Accessibility measurement method | "User satisfaction surveys", "Access request fulfillment tracking", "Self-service adoption metrics", "SLA monitoring" |
+| `[ACCESS_FREQUENCY]` | Accessibility measurement frequency | "Monthly user surveys", "Weekly request metrics", "Daily SLA tracking", "Quarterly reviews" |
+| `[ACCESS_ACTIONS]` | Accessibility improvement actions | "Self-service enablement", "Access request automation", "Documentation improvement", "Training sessions", "Catalog enhancements" |
+| `[LITERACY_DEFINITION]` | Data literacy score definition | "Organization-wide assessment of data comprehension, interpretation, and application skills across roles" |
+| `[LITERACY_METHOD]` | Data literacy measurement method | "Skills assessments", "Certification completion", "Tool adoption rates", "Self-service usage metrics" |
+| `[LITERACY_FREQUENCY]` | Data literacy measurement frequency | "Annual skills assessment", "Quarterly training metrics", "Monthly adoption tracking", "Continuous course completion" |
+| `[LITERACY_ACTIONS]` | Data literacy improvement actions | "Training curriculum development", "Certification programs", "Champions network", "Lunch-and-learns", "Embedded coaching" |
+| `[VALUE_DEFINITION]` | Data value realization definition | "Measurable business value generated from data assets including revenue, cost savings, and efficiency gains" |
+| `[VALUE_TARGET]` | Data value target | "$10M annual", "$50M cumulative", "10x data investment ROI", "$5M/quarter" |
+| `[VALUE_CURRENT]` | Current data value realized | "$3M", "$8M YTD", "4x ROI", "$2M/quarter" |
+| `[VALUE_METHOD]` | Data value measurement method | "Use case value tracking", "Cost avoidance calculation", "Revenue attribution", "Efficiency measurement" |
+| `[VALUE_FREQUENCY]` | Data value measurement frequency | "Quarterly business reviews", "Monthly use case tracking", "Annual ROI calculation", "Per-project post-mortems" |
+| `[VALUE_ACTIONS]` | Data value improvement actions | "High-value use case prioritization", "Analytics enablement", "Data product development", "Monetization exploration" |
+| `[INCIDENT_DEFINITION]` | Incident response time definition | "Average time from data incident detection to resolution, measured in hours across severity levels" |
+| `[INCIDENT_TARGET]` | Incident response time target | "4 hrs (Critical)", "24 hrs (High)", "72 hrs (Medium)", "7 days (Low)" |
+| `[INCIDENT_CURRENT]` | Current incident response time | "8 hrs", "36 hrs", "5 days", "12 hrs average" |
+| `[INCIDENT_METHOD]` | Incident measurement method | "ServiceNow ticket tracking", "MTTR calculation", "SLA compliance reporting", "Incident categorization" |
+| `[INCIDENT_FREQUENCY]` | Incident measurement frequency | "Real-time dashboards", "Daily standups", "Weekly incident reviews", "Monthly trend analysis" |
+| `[INCIDENT_ACTIONS]` | Incident response improvement actions | "Runbook development", "On-call rotation", "Automated alerting", "Post-incident reviews", "Prevention investments" |
+| `[CATALOG_DEFINITION]` | Data catalog coverage definition | "Percentage of enterprise data assets documented in the data catalog with complete metadata and lineage" |
+| `[CATALOG_TARGET]` | Data catalog coverage target | "90%", "95% for production data", "100% for critical assets", "80% Year 1" |
+| `[CATALOG_CURRENT]` | Current data catalog coverage | "45%", "60%", "35%", "52% documented" |
+| `[CATALOG_METHOD]` | Catalog coverage measurement method | "Automated asset discovery", "Metadata completeness scoring", "Lineage depth tracking", "User tagging metrics" |
+| `[CATALOG_FREQUENCY]` | Catalog coverage measurement frequency | "Weekly discovery runs", "Monthly completeness reports", "Quarterly coverage reviews", "Continuous auto-cataloging" |
+| `[CATALOG_ACTIONS]` | Catalog improvement actions | "Automated scanning expansion", "Steward documentation campaigns", "Crowdsourced tagging", "Integration with source systems" |
 
 ### Example 2: Healthcare Data Governance
 ```

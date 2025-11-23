@@ -141,271 +141,271 @@ hotfix/*:
 | `[PROJECT_NAME]` | Name of the project | "Digital Transformation Initiative" |
 | `[DEVELOPER_COUNT]` | Specify the developer count | "10" |
 | `[REPO_COUNT]` | Specify the repo count | "10" |
-| `[COMMIT_FREQUENCY]` | Specify the commit frequency | "[specify value]" |
-| `[BRANCHING_MODEL]` | Specify the branching model | "[specify value]" |
-| `[RELEASE_CYCLE]` | Specify the release cycle | "[specify value]" |
-| `[QUALITY_GATES]` | Specify the quality gates | "[specify value]" |
-| `[REPO_LAYOUT]` | Specify the repo layout | "[specify value]" |
-| `[REPO_BEST]` | Specify the repo best | "[specify value]" |
-| `[REPO_IMPL]` | Specify the repo impl | "[specify value]" |
-| `[REPO_AUTO]` | Specify the repo auto | "[specify value]" |
-| `[REPO_DOCS]` | Specify the repo docs | "[specify value]" |
-| `[MONO_POLY]` | Specify the mono poly | "[specify value]" |
-| `[MONO_BEST]` | Specify the mono best | "[specify value]" |
-| `[MONO_IMPL]` | Specify the mono impl | "[specify value]" |
-| `[MONO_AUTO]` | Specify the mono auto | "[specify value]" |
-| `[MONO_DOCS]` | Specify the mono docs | "[specify value]" |
-| `[SUB_CURRENT]` | Specify the sub current | "[specify value]" |
-| `[SUB_BEST]` | Specify the sub best | "[specify value]" |
-| `[SUB_IMPL]` | Specify the sub impl | "[specify value]" |
-| `[SUB_AUTO]` | Specify the sub auto | "[specify value]" |
-| `[SUB_DOCS]` | Specify the sub docs | "[specify value]" |
-| `[FILE_CURRENT]` | Specify the file current | "[specify value]" |
-| `[FILE_BEST]` | Specify the file best | "[specify value]" |
-| `[FILE_IMPL]` | Specify the file impl | "[specify value]" |
-| `[FILE_AUTO]` | Specify the file auto | "[specify value]" |
-| `[FILE_DOCS]` | Specify the file docs | "[specify value]" |
-| `[IGNORE_CURRENT]` | Specify the ignore current | "[specify value]" |
-| `[IGNORE_BEST]` | Specify the ignore best | "[specify value]" |
-| `[IGNORE_IMPL]` | Specify the ignore impl | "[specify value]" |
-| `[IGNORE_AUTO]` | Specify the ignore auto | "[specify value]" |
-| `[IGNORE_DOCS]` | Specify the ignore docs | "[specify value]" |
-| `[LFS_CURRENT]` | Specify the lfs current | "[specify value]" |
-| `[LFS_BEST]` | Specify the lfs best | "[specify value]" |
-| `[LFS_IMPL]` | Specify the lfs impl | "[specify value]" |
-| `[LFS_AUTO]` | Specify the lfs auto | "[specify value]" |
-| `[LFS_DOCS]` | Specify the lfs docs | "[specify value]" |
-| `[MAIN_PURPOSE]` | Specify the main purpose | "[specify value]" |
-| `[MAIN_PROTECTION]` | Specify the main protection | "[specify value]" |
-| `[MAIN_MERGE_REQ]` | Specify the main merge req | "[specify value]" |
-| `[MAIN_DEPLOY]` | Specify the main deploy | "[specify value]" |
-| `[DEV_PURPOSE]` | Specify the dev purpose | "[specify value]" |
-| `[DEV_INTEGRATION]` | Specify the dev integration | "[specify value]" |
-| `[DEV_STABILITY]` | Specify the dev stability | "[specify value]" |
-| `[DEV_TESTING]` | Specify the dev testing | "[specify value]" |
-| `[FEATURE_NAMING]` | Specify the feature naming | "[specify value]" |
-| `[FEATURE_LIFECYCLE]` | Specify the feature lifecycle | "[specify value]" |
-| `[FEATURE_REVIEW]` | Specify the feature review | "[specify value]" |
-| `[FEATURE_MERGE]` | Specify the feature merge | "[specify value]" |
-| `[RELEASE_NAMING]` | Specify the release naming | "[specify value]" |
-| `[RELEASE_CREATE]` | Specify the release create | "[specify value]" |
-| `[RELEASE_STABLE]` | Specify the release stable | "[specify value]" |
-| `[RELEASE_DEPLOY]` | Specify the release deploy | "[specify value]" |
-| `[HOTFIX_NAMING]` | Specify the hotfix naming | "[specify value]" |
-| `[HOTFIX_URGENCY]` | Specify the hotfix urgency | "[specify value]" |
-| `[HOTFIX_TEST]` | Specify the hotfix test | "[specify value]" |
-| `[HOTFIX_BACKPORT]` | Specify the hotfix backport | "[specify value]" |
-| `[MSG_FORMAT]` | Specify the msg format | "[specify value]" |
-| `[MSG_EXAMPLE]` | Specify the msg example | "[specify value]" |
-| `[MSG_VALIDATE]` | Specify the msg validate | "2025-01-15" |
-| `[MSG_BENEFIT]` | Specify the msg benefit | "[specify value]" |
-| `[MSG_ENFORCE]` | Specify the msg enforce | "[specify value]" |
-| `[CONV_STANDARD]` | Specify the conv standard | "[specify value]" |
-| `[CONV_EXAMPLE]` | Specify the conv example | "[specify value]" |
-| `[CONV_VALIDATE]` | Specify the conv validate | "2025-01-15" |
-| `[CONV_BENEFIT]` | Specify the conv benefit | "[specify value]" |
-| `[CONV_ENFORCE]` | Specify the conv enforce | "[specify value]" |
-| `[SCOPE_DEF]` | Scope or boundaries of def | "[specify value]" |
-| `[SCOPE_EXAMPLE]` | Scope or boundaries of example | "[specify value]" |
-| `[SCOPE_VALIDATE]` | Scope or boundaries of validate | "2025-01-15" |
-| `[SCOPE_BENEFIT]` | Scope or boundaries of benefit | "[specify value]" |
-| `[SCOPE_ENFORCE]` | Scope or boundaries of enforce | "[specify value]" |
-| `[BREAK_FORMAT]` | Specify the break format | "[specify value]" |
-| `[BREAK_EXAMPLE]` | Specify the break example | "[specify value]" |
-| `[BREAK_VALIDATE]` | Specify the break validate | "2025-01-15" |
-| `[BREAK_BENEFIT]` | Specify the break benefit | "[specify value]" |
-| `[BREAK_ENFORCE]` | Specify the break enforce | "[specify value]" |
-| `[ISSUE_FORMAT]` | Specify the issue format | "[specify value]" |
-| `[ISSUE_EXAMPLE]` | Specify the issue example | "[specify value]" |
-| `[ISSUE_VALIDATE]` | Specify the issue validate | "2025-01-15" |
-| `[ISSUE_BENEFIT]` | Specify the issue benefit | "[specify value]" |
-| `[ISSUE_ENFORCE]` | Specify the issue enforce | "[specify value]" |
-| `[SIGN_FORMAT]` | Specify the sign format | "[specify value]" |
-| `[SIGN_EXAMPLE]` | Specify the sign example | "[specify value]" |
-| `[SIGN_VALIDATE]` | Specify the sign validate | "2025-01-15" |
-| `[SIGN_BENEFIT]` | Specify the sign benefit | "[specify value]" |
-| `[SIGN_ENFORCE]` | Specify the sign enforce | "[specify value]" |
-| `[CREATE_REQ]` | Specify the create req | "[specify value]" |
-| `[CREATE_REVIEW]` | Specify the create review | "[specify value]" |
-| `[CREATE_CHECK]` | Specify the create check | "[specify value]" |
-| `[CREATE_SLA]` | Specify the create sla | "[specify value]" |
-| `[CREATE_ESCALATE]` | Specify the create escalate | "[specify value]" |
-| `[INIT_REQ]` | Specify the init req | "[specify value]" |
-| `[INIT_REVIEW]` | Specify the init review | "[specify value]" |
-| `[INIT_CHECK]` | Specify the init check | "[specify value]" |
-| `[INIT_SLA]` | Specify the init sla | "[specify value]" |
-| `[INIT_ESCALATE]` | Specify the init escalate | "[specify value]" |
-| `[FEED_REQ]` | Specify the feed req | "[specify value]" |
-| `[FEED_REVIEW]` | Specify the feed review | "[specify value]" |
-| `[FEED_CHECK]` | Specify the feed check | "[specify value]" |
-| `[FEED_SLA]` | Specify the feed sla | "[specify value]" |
-| `[FEED_ESCALATE]` | Specify the feed escalate | "[specify value]" |
-| `[APPROVE_REQ]` | Specify the approve req | "[specify value]" |
-| `[APPROVE_REVIEW]` | Specify the approve review | "[specify value]" |
-| `[APPROVE_CHECK]` | Specify the approve check | "[specify value]" |
-| `[APPROVE_SLA]` | Specify the approve sla | "[specify value]" |
-| `[APPROVE_ESCALATE]` | Specify the approve escalate | "[specify value]" |
-| `[MERGE_REQ]` | Specify the merge req | "[specify value]" |
-| `[MERGE_REVIEW]` | Specify the merge review | "[specify value]" |
-| `[MERGE_CHECK]` | Specify the merge check | "[specify value]" |
-| `[MERGE_SLA]` | Specify the merge sla | "[specify value]" |
-| `[MERGE_ESCALATE]` | Specify the merge escalate | "[specify value]" |
-| `[POST_REQ]` | Specify the post req | "[specify value]" |
-| `[POST_REVIEW]` | Specify the post review | "[specify value]" |
-| `[POST_CHECK]` | Specify the post check | "[specify value]" |
-| `[POST_SLA]` | Specify the post sla | "[specify value]" |
-| `[POST_ESCALATE]` | Specify the post escalate | "[specify value]" |
-| `[MERGE_COMMIT_USE]` | Specify the merge commit use | "[specify value]" |
-| `[MERGE_COMMIT_ADV]` | Specify the merge commit adv | "[specify value]" |
-| `[MERGE_COMMIT_DIS]` | Specify the merge commit dis | "[specify value]" |
-| `[MERGE_COMMIT_CONFIG]` | Specify the merge commit config | "[specify value]" |
-| `[SQUASH_USE]` | Specify the squash use | "[specify value]" |
-| `[SQUASH_ADV]` | Specify the squash adv | "[specify value]" |
-| `[SQUASH_DIS]` | Specify the squash dis | "[specify value]" |
-| `[SQUASH_CONFIG]` | Specify the squash config | "[specify value]" |
-| `[REBASE_USE]` | Specify the rebase use | "[specify value]" |
-| `[REBASE_ADV]` | Specify the rebase adv | "[specify value]" |
-| `[REBASE_DIS]` | Specify the rebase dis | "[specify value]" |
-| `[REBASE_CONFIG]` | Specify the rebase config | "[specify value]" |
-| `[CONFLICT_DETECT]` | Specify the conflict detect | "[specify value]" |
-| `[CONFLICT_COMM]` | Specify the conflict comm | "[specify value]" |
-| `[CONFLICT_PROCESS]` | Specify the conflict process | "[specify value]" |
-| `[CONFLICT_TEST]` | Specify the conflict test | "[specify value]" |
-| `[CONFLICT_DOC]` | Specify the conflict doc | "[specify value]" |
-| `[BUILD_INTEGRATE]` | Specify the build integrate | "[specify value]" |
-| `[BUILD_TRIGGER]` | Specify the build trigger | "[specify value]" |
-| `[BUILD_CONFIG]` | Specify the build config | "[specify value]" |
-| `[BUILD_NOTIFY]` | Specify the build notify | "[specify value]" |
-| `[BUILD_ROLLBACK]` | Specify the build rollback | "[specify value]" |
-| `[TEST_INTEGRATE]` | Specify the test integrate | "[specify value]" |
-| `[TEST_TRIGGER]` | Specify the test trigger | "[specify value]" |
-| `[TEST_CONFIG]` | Specify the test config | "[specify value]" |
-| `[TEST_NOTIFY]` | Specify the test notify | "[specify value]" |
-| `[TEST_ROLLBACK]` | Specify the test rollback | "[specify value]" |
-| `[QUALITY_INTEGRATE]` | Specify the quality integrate | "[specify value]" |
-| `[QUALITY_TRIGGER]` | Specify the quality trigger | "[specify value]" |
-| `[QUALITY_CONFIG]` | Specify the quality config | "[specify value]" |
-| `[QUALITY_NOTIFY]` | Specify the quality notify | "[specify value]" |
-| `[QUALITY_ROLLBACK]` | Specify the quality rollback | "[specify value]" |
-| `[SECURITY_INTEGRATE]` | Specify the security integrate | "[specify value]" |
-| `[SECURITY_TRIGGER]` | Specify the security trigger | "[specify value]" |
-| `[SECURITY_CONFIG]` | Specify the security config | "[specify value]" |
-| `[SECURITY_NOTIFY]` | Specify the security notify | "[specify value]" |
-| `[SECURITY_ROLLBACK]` | Specify the security rollback | "[specify value]" |
-| `[DEPLOY_INTEGRATE]` | Specify the deploy integrate | "[specify value]" |
-| `[DEPLOY_TRIGGER]` | Specify the deploy trigger | "[specify value]" |
-| `[DEPLOY_CONFIG]` | Specify the deploy config | "[specify value]" |
-| `[DEPLOY_NOTIFY]` | Specify the deploy notify | "[specify value]" |
-| `[DEPLOY_ROLLBACK]` | Specify the deploy rollback | "[specify value]" |
-| `[RELEASE_INTEGRATE]` | Specify the release integrate | "[specify value]" |
-| `[RELEASE_TRIGGER]` | Specify the release trigger | "[specify value]" |
-| `[RELEASE_CONFIG]` | Specify the release config | "[specify value]" |
-| `[RELEASE_NOTIFY]` | Specify the release notify | "[specify value]" |
-| `[RELEASE_ROLLBACK]` | Specify the release rollback | "[specify value]" |
-| `[AUTH_IMPL]` | Specify the auth impl | "[specify value]" |
-| `[AUTH_POLICY]` | Specify the auth policy | "[specify value]" |
-| `[AUTH_MONITOR]` | Specify the auth monitor | "[specify value]" |
-| `[AUTH_COMPLY]` | Specify the auth comply | "[specify value]" |
-| `[AUTH_AUDIT]` | Specify the auth audit | "[specify value]" |
-| `[AUTHZ_IMPL]` | Specify the authz impl | "[specify value]" |
-| `[AUTHZ_POLICY]` | Specify the authz policy | "[specify value]" |
-| `[AUTHZ_MONITOR]` | Specify the authz monitor | "[specify value]" |
-| `[AUTHZ_COMPLY]` | Specify the authz comply | "[specify value]" |
-| `[AUTHZ_AUDIT]` | Specify the authz audit | "[specify value]" |
-| `[BRANCH_IMPL]` | Specify the branch impl | "[specify value]" |
-| `[BRANCH_POLICY]` | Specify the branch policy | "[specify value]" |
-| `[BRANCH_MONITOR]` | Specify the branch monitor | "[specify value]" |
-| `[BRANCH_COMPLY]` | Specify the branch comply | "[specify value]" |
-| `[BRANCH_AUDIT]` | Specify the branch audit | "[specify value]" |
-| `[SECRET_IMPL]` | Specify the secret impl | "[specify value]" |
-| `[SECRET_POLICY]` | Specify the secret policy | "[specify value]" |
-| `[SECRET_MONITOR]` | Specify the secret monitor | "[specify value]" |
-| `[SECRET_COMPLY]` | Specify the secret comply | "[specify value]" |
-| `[SECRET_AUDIT]` | Specify the secret audit | "[specify value]" |
-| `[SIGN_IMPL]` | Specify the sign impl | "[specify value]" |
-| `[SIGN_POLICY]` | Specify the sign policy | "[specify value]" |
-| `[SIGN_MONITOR]` | Specify the sign monitor | "[specify value]" |
-| `[SIGN_COMPLY]` | Specify the sign comply | "[specify value]" |
-| `[SIGN_AUDIT]` | Specify the sign audit | "[specify value]" |
-| `[VULN_IMPL]` | Specify the vuln impl | "[specify value]" |
-| `[VULN_POLICY]` | Specify the vuln policy | "[specify value]" |
-| `[VULN_MONITOR]` | Specify the vuln monitor | "[specify value]" |
-| `[VULN_COMPLY]` | Specify the vuln comply | "[specify value]" |
-| `[VULN_AUDIT]` | Specify the vuln audit | "[specify value]" |
-| `[VERSION_SCHEMA]` | Specify the version schema | "[specify value]" |
-| `[MAJOR_CRITERIA]` | Specify the major criteria | "[specify value]" |
-| `[MINOR_CRITERIA]` | Specify the minor criteria | "[specify value]" |
-| `[PATCH_CRITERIA]` | Specify the patch criteria | "[specify value]" |
-| `[PRERELEASE_FORMAT]` | Specify the prerelease format | "[specify value]" |
-| `[FREEZE_PROCESS]` | Specify the freeze process | "[specify value]" |
-| `[RELEASE_BRANCH]` | Specify the release branch | "[specify value]" |
-| `[RELEASE_TEST]` | Specify the release test | "[specify value]" |
-| `[RELEASE_DOCS]` | Specify the release docs | "[specify value]" |
-| `[CHANGELOG_GEN]` | Specify the changelog gen | "[specify value]" |
-| `[TAG_FORMAT]` | Specify the tag format | "[specify value]" |
-| `[TAG_ANNOTATE]` | Specify the tag annotate | "[specify value]" |
-| `[TAG_SIGN]` | Specify the tag sign | "[specify value]" |
-| `[TAG_PROTECT]` | Specify the tag protect | "[specify value]" |
-| `[TAG_AUTO]` | Specify the tag auto | "[specify value]" |
-| `[ONBOARD_CURRENT]` | Specify the onboard current | "[specify value]" |
-| `[ONBOARD_PLAN]` | Specify the onboard plan | "[specify value]" |
-| `[ONBOARD_TRAIN]` | Specify the onboard train | "[specify value]" |
-| `[ONBOARD_TOOLS]` | Specify the onboard tools | "[specify value]" |
-| `[ONBOARD_METRICS]` | Specify the onboard metrics | "[specify value]" |
-| `[DAILY_CURRENT]` | Specify the daily current | "[specify value]" |
-| `[DAILY_PLAN]` | Specify the daily plan | "[specify value]" |
-| `[DAILY_TRAIN]` | Specify the daily train | "[specify value]" |
-| `[DAILY_TOOLS]` | Specify the daily tools | "[specify value]" |
-| `[DAILY_METRICS]` | Specify the daily metrics | "[specify value]" |
-| `[REVIEW_CURRENT]` | Specify the review current | "[specify value]" |
-| `[REVIEW_PLAN]` | Specify the review plan | "[specify value]" |
-| `[REVIEW_TRAIN]` | Specify the review train | "[specify value]" |
-| `[REVIEW_TOOLS]` | Specify the review tools | "[specify value]" |
-| `[REVIEW_METRICS]` | Specify the review metrics | "[specify value]" |
-| `[PAIR_CURRENT]` | Specify the pair current | "[specify value]" |
-| `[PAIR_PLAN]` | Specify the pair plan | "[specify value]" |
-| `[PAIR_TRAIN]` | Specify the pair train | "[specify value]" |
-| `[PAIR_TOOLS]` | Specify the pair tools | "[specify value]" |
-| `[PAIR_METRICS]` | Specify the pair metrics | "[specify value]" |
-| `[KNOW_CURRENT]` | Specify the know current | "[specify value]" |
-| `[KNOW_PLAN]` | Specify the know plan | "[specify value]" |
-| `[KNOW_TRAIN]` | Specify the know train | "[specify value]" |
-| `[KNOW_TOOLS]` | Specify the know tools | "[specify value]" |
-| `[KNOW_METRICS]` | Specify the know metrics | "[specify value]" |
-| `[BEST_CURRENT]` | Specify the best current | "[specify value]" |
-| `[BEST_PLAN]` | Specify the best plan | "[specify value]" |
-| `[BEST_TRAIN]` | Specify the best train | "[specify value]" |
-| `[BEST_TOOLS]` | Specify the best tools | "[specify value]" |
-| `[BEST_METRICS]` | Specify the best metrics | "[specify value]" |
-| `[COMMIT_KPI]` | Specify the commit kpi | "[specify value]" |
-| `[COMMIT_CURRENT]` | Specify the commit current | "[specify value]" |
-| `[COMMIT_TARGET]` | Target or intended commit | "[specify value]" |
-| `[COMMIT_TREND]` | Specify the commit trend | "[specify value]" |
-| `[COMMIT_ACTION]` | Specify the commit action | "[specify value]" |
-| `[PR_KPI]` | Specify the pr kpi | "[specify value]" |
-| `[PR_CURRENT]` | Specify the pr current | "[specify value]" |
-| `[PR_TARGET]` | Target or intended pr | "[specify value]" |
-| `[PR_TREND]` | Specify the pr trend | "[specify value]" |
-| `[PR_ACTION]` | Specify the pr action | "[specify value]" |
-| `[REVIEW_KPI]` | Specify the review kpi | "[specify value]" |
-| `[REVIEW_TARGET]` | Target or intended review | "[specify value]" |
-| `[REVIEW_TREND]` | Specify the review trend | "[specify value]" |
-| `[REVIEW_ACTION]` | Specify the review action | "[specify value]" |
-| `[CONFLICT_KPI]` | Specify the conflict kpi | "[specify value]" |
-| `[CONFLICT_CURRENT]` | Specify the conflict current | "[specify value]" |
-| `[CONFLICT_TARGET]` | Target or intended conflict | "[specify value]" |
-| `[CONFLICT_TREND]` | Specify the conflict trend | "[specify value]" |
-| `[CONFLICT_ACTION]` | Specify the conflict action | "[specify value]" |
-| `[BUILD_KPI]` | Specify the build kpi | "[specify value]" |
-| `[BUILD_CURRENT]` | Specify the build current | "[specify value]" |
-| `[BUILD_TARGET]` | Target or intended build | "[specify value]" |
-| `[BUILD_TREND]` | Specify the build trend | "[specify value]" |
-| `[BUILD_ACTION]` | Specify the build action | "[specify value]" |
-| `[RELEASE_KPI]` | Specify the release kpi | "[specify value]" |
-| `[RELEASE_CURRENT]` | Specify the release current | "[specify value]" |
-| `[RELEASE_TARGET]` | Target or intended release | "[specify value]" |
-| `[RELEASE_TREND]` | Specify the release trend | "[specify value]" |
-| `[RELEASE_ACTION]` | Specify the release action | "[specify value]" |
+| `[COMMIT_FREQUENCY]` | Commit frequency | "50-100 commits/day", "10-20 per developer/day", "Feature branches: 5-10 commits before PR" |
+| `[BRANCHING_MODEL]` | Branching model | "Git Flow", "GitHub Flow", "GitLab Flow", "Trunk-based development" |
+| `[RELEASE_CYCLE]` | Release cycle | "Continuous deployment", "Weekly releases", "Bi-weekly sprints", "Monthly releases" |
+| `[QUALITY_GATES]` | Quality gates | "CI tests must pass", "Code review required", "80% coverage minimum", "No security vulnerabilities" |
+| `[REPO_LAYOUT]` | Repository layout | "src/, tests/, docs/, scripts/", "packages/ for monorepo", "Standard project structure" |
+| `[REPO_BEST]` | Repository best practices | "Clear README, CONTRIBUTING.md", "Issue and PR templates", "CODEOWNERS file defined" |
+| `[REPO_IMPL]` | Repository implementation | "GitHub/GitLab repository", "Branch protection enabled", "Webhooks configured" |
+| `[REPO_AUTO]` | Repository automation | "Dependabot for dependencies", "Auto-labeler for PRs", "Stale issue bot" |
+| `[REPO_DOCS]` | Repository documentation | "README with setup instructions", "Architecture decision records", "API documentation" |
+| `[MONO_POLY]` | Monorepo vs polyrepo choice | "Monorepo with Turborepo/Nx", "Polyrepo with clear service boundaries", "Hybrid approach" |
+| `[MONO_BEST]` | Monorepo/polyrepo best practice | "Monorepo for shared code", "Polyrepo for independent teams", "Clear dependency management" |
+| `[MONO_IMPL]` | Monorepo/polyrepo implementation | "Nx workspace setup", "Lerna for package management", "Yarn workspaces" |
+| `[MONO_AUTO]` | Monorepo automation | "Affected-only CI builds", "Automatic dependency updates", "Cross-package testing" |
+| `[MONO_DOCS]` | Monorepo documentation | "Package-level READMEs", "Dependency graph visualization", "Build order documentation" |
+| `[SUB_CURRENT]` | Submodules current state | "Git submodules for shared libs", "Subtrees for vendor code", "No submodules used" |
+| `[SUB_BEST]` | Submodules best practice | "Use sparingly, prefer packages", "Pin to specific commits", "Document update process" |
+| `[SUB_IMPL]` | Submodules implementation | "git submodule add for dependencies", "Recursive clone in CI", "Update scripts provided" |
+| `[SUB_AUTO]` | Submodules automation | "Auto-update via Dependabot", "CI validates submodule versions", "Scheduled sync jobs" |
+| `[SUB_DOCS]` | Submodules documentation | "Submodule purpose documented", "Update procedures in CONTRIBUTING", "Version compatibility matrix" |
+| `[FILE_CURRENT]` | File organization current | "src/ for source, tests/ for tests", "Feature-based folders", "Layer-based organization" |
+| `[FILE_BEST]` | File organization best practice | "Consistent naming conventions", "Colocation of related files", "Max folder depth of 4" |
+| `[FILE_IMPL]` | File organization implementation | "ESLint rules for imports", "Path aliases configured", "Index files for exports" |
+| `[FILE_AUTO]` | File organization automation | "Auto-sort imports", "Folder structure linting", "Dependency graph checks" |
+| `[FILE_DOCS]` | File organization documentation | "Folder structure in README", "Naming convention guide", "Architecture decision records" |
+| `[IGNORE_CURRENT]` | .gitignore current state | "Standard .gitignore for language", "IDE files excluded", "Build artifacts ignored" |
+| `[IGNORE_BEST]` | .gitignore best practice | "Use gitignore.io templates", "Include .env files", "Exclude node_modules, __pycache__" |
+| `[IGNORE_IMPL]` | .gitignore implementation | "Global gitignore for user prefs", "Project gitignore for build", "Nested gitignore for monorepo" |
+| `[IGNORE_AUTO]` | .gitignore automation | "Generate from templates", "Validate no secrets committed", "Pre-commit hook checks" |
+| `[IGNORE_DOCS]` | .gitignore documentation | "Comments explaining each section", "Link to gitignore.io", "Team conventions documented" |
+| `[LFS_CURRENT]` | Git LFS current state | "LFS for images > 1MB", "Large binary files tracked", "No LFS configured" |
+| `[LFS_BEST]` | Git LFS best practice | "Track files > 500KB", "Use for binary assets", "Set bandwidth limits" |
+| `[LFS_IMPL]` | Git LFS implementation | "git lfs track '*.psd'", "LFS server configured", "Migrate existing large files" |
+| `[LFS_AUTO]` | Git LFS automation | "Auto-track large files in CI", "LFS fetch in clone scripts", "Storage quota monitoring" |
+| `[LFS_DOCS]` | Git LFS documentation | "LFS setup in CONTRIBUTING", "Tracked file types listed", "Storage limits documented" |
+| `[MAIN_PURPOSE]` | Main branch purpose | "Production-ready code only", "Always deployable state", "Represents latest stable release" |
+| `[MAIN_PROTECTION]` | Main branch protection | "Require PR, 2 approvals", "Require status checks", "No force push allowed", "Signed commits required" |
+| `[MAIN_MERGE_REQ]` | Main branch merge requirements | "All CI checks passing", "Code review approved", "No merge conflicts", "Linear history preferred" |
+| `[MAIN_DEPLOY]` | Main branch deployment | "Auto-deploy to production on merge", "Manual approval gate", "Blue-green deployment triggered" |
+| `[DEV_PURPOSE]` | Develop branch purpose | "Integration branch for features", "Next release preparation", "Continuous integration target" |
+| `[DEV_INTEGRATION]` | Develop branch integration | "All feature branches merge here", "Daily integration from features", "Nightly builds from develop" |
+| `[DEV_STABILITY]` | Develop branch stability | "Should be stable but may have bugs", "Broken builds fixed immediately", "Automated rollback on failure" |
+| `[DEV_TESTING]` | Develop branch testing | "Full test suite on every merge", "Integration tests required", "Deploy to staging environment" |
+| `[FEATURE_NAMING]` | Feature branch naming | "feature/JIRA-123-user-auth", "feature/add-payment-gateway", "feat/short-description" |
+| `[FEATURE_LIFECYCLE]` | Feature branch lifecycle | "Create from develop, merge back", "Max 1-2 weeks duration", "Delete after merge" |
+| `[FEATURE_REVIEW]` | Feature branch review | "PR required with 1-2 reviewers", "Code owner approval needed", "CI must pass before review" |
+| `[FEATURE_MERGE]` | Feature branch merge | "Squash merge for clean history", "Delete branch after merge", "Update CHANGELOG if needed" |
+| `[RELEASE_NAMING]` | Release branch naming | "release/v1.2.0", "release/2024-Q1", "release/sprint-23" |
+| `[RELEASE_CREATE]` | Release branch creation | "Branch from develop at feature freeze", "Create 1 week before release", "Only bug fixes allowed after" |
+| `[RELEASE_STABLE]` | Release branch stabilization | "Bug fixes only, no new features", "Regression testing focus", "QA sign-off required" |
+| `[RELEASE_DEPLOY]` | Release branch deployment | "Deploy to staging for QA", "Merge to main for production", "Tag after successful deploy" |
+| `[HOTFIX_NAMING]` | Hotfix branch naming | "hotfix/v1.2.1-security-patch", "hotfix/critical-bug-fix", "hotfix/JIRA-456" |
+| `[HOTFIX_URGENCY]` | Hotfix urgency levels | "P1: Deploy within hours", "P2: Deploy within 24 hours", "Bypass normal review if critical" |
+| `[HOTFIX_TEST]` | Hotfix testing | "Minimal regression testing", "Focused testing on fix area", "Production smoke tests" |
+| `[HOTFIX_BACKPORT]` | Hotfix backporting | "Merge to both main and develop", "Cherry-pick to active release branches", "Document in CHANGELOG" |
+| `[MSG_FORMAT]` | Commit message format | "type(scope): description", "50 char subject, 72 char body wrap", "Imperative mood (Add, Fix, Update)" |
+| `[MSG_EXAMPLE]` | Commit message example | "feat(auth): add OAuth2 login support", "fix(api): resolve null pointer in user service", "docs: update README setup instructions" |
+| `[MSG_VALIDATE]` | Commit message validation | "commitlint with @commitlint/config-conventional", "Pre-commit hook validation", "CI check on PR" |
+| `[MSG_BENEFIT]` | Commit message benefits | "Automated changelog generation", "Clear history and blame", "Semantic versioning automation" |
+| `[MSG_ENFORCE]` | Commit message enforcement | "Husky pre-commit hook", "GitHub Actions commitlint", "Block PR on invalid message" |
+| `[CONV_STANDARD]` | Conventional commits standard | "feat, fix, docs, style, refactor, test, chore", "BREAKING CHANGE in footer", "Scope optional but recommended" |
+| `[CONV_EXAMPLE]` | Conventional commits example | "feat!: drop Node 14 support", "fix(deps): upgrade vulnerable lodash", "chore(ci): add caching to workflow" |
+| `[CONV_VALIDATE]` | Conventional commits validation | "commitlint CLI tool", "@commitlint/config-conventional preset", "Custom rules for project" |
+| `[CONV_BENEFIT]` | Conventional commits benefits | "Semantic release automation", "Auto-generated release notes", "Clear communication of changes" |
+| `[CONV_ENFORCE]` | Conventional commits enforcement | "Required in CONTRIBUTING.md", "PR title must follow format", "Squash commit uses PR title" |
+| `[SCOPE_DEF]` | Commit scope definition | "Component or module affected", "api, auth, ui, db, ci, docs", "Use consistent scope names" |
+| `[SCOPE_EXAMPLE]` | Commit scope example | "(api), (auth), (payments), (users)", "(core), (cli), (web)", "No scope for cross-cutting changes" |
+| `[SCOPE_VALIDATE]` | Commit scope validation | "Defined list in commitlint config", "Auto-suggest from folder names", "Warn on unknown scopes" |
+| `[SCOPE_BENEFIT]` | Commit scope benefits | "Easy filtering by area", "Clear ownership identification", "Focused changelogs per component" |
+| `[SCOPE_ENFORCE]` | Commit scope enforcement | "Scope required for feat/fix", "Optional for docs/chore", "Listed in CONTRIBUTING.md" |
+| `[BREAK_FORMAT]` | Breaking change format | "feat!: description or BREAKING CHANGE: in footer", "! after type indicates breaking", "Detailed migration in body" |
+| `[BREAK_EXAMPLE]` | Breaking change example | "feat!: remove deprecated API endpoints", "feat(api)!: change response format", "BREAKING CHANGE: users must update config" |
+| `[BREAK_VALIDATE]` | Breaking change validation | "Check for BREAKING CHANGE keyword", "! after type detected", "Major version bump required" |
+| `[BREAK_BENEFIT]` | Breaking change benefits | "Clear communication to consumers", "Automatic major version bump", "Migration path documented" |
+| `[BREAK_ENFORCE]` | Breaking change enforcement | "Require migration guide in PR", "Product owner approval needed", "Deprecation notice 2 versions prior" |
+| `[ISSUE_FORMAT]` | Issue linking format | "Closes #123 or Fixes JIRA-456", "Related: #789 for reference", "Part of epic: PROJ-100" |
+| `[ISSUE_EXAMPLE]` | Issue linking example | "fix: resolve login timeout (Closes #234)", "feat: add export feature (JIRA-567)", "Refs: #890, #891" |
+| `[ISSUE_VALIDATE]` | Issue linking validation | "Regex check for issue patterns", "Verify issue exists in tracker", "Warn if no issue linked" |
+| `[ISSUE_BENEFIT]` | Issue linking benefits | "Automatic issue closing on merge", "Full traceability", "Sprint/release tracking" |
+| `[ISSUE_ENFORCE]` | Issue linking enforcement | "Required for feat/fix commits", "PR template includes issue field", "CI validates issue reference" |
+| `[SIGN_FORMAT]` | Commit sign-off format | "Signed-off-by: Name <email>", "GPG signature required", "DCO sign-off for open source" |
+| `[SIGN_EXAMPLE]` | Commit sign-off example | "Signed-off-by: John Smith <john@example.com>", "git commit -s -m 'message'", "GPG signed with verified key" |
+| `[SIGN_VALIDATE]` | Commit sign-off validation | "DCO bot checks sign-off", "GPG signature verification", "Email matches committer" |
+| `[SIGN_BENEFIT]` | Commit sign-off benefits | "Legal compliance (DCO)", "Non-repudiation with GPG", "Corporate contribution tracking" |
+| `[SIGN_ENFORCE]` | Commit sign-off enforcement | "Required for external contributors", "GPG required for releases", "Commit hooks add sign-off" |
+| `[CREATE_REQ]` | PR creation requirements | "Fill PR template completely", "Link related issue", "Add appropriate labels" |
+| `[CREATE_REVIEW]` | PR creation reviewers | "Auto-assign from CODEOWNERS", "Add domain experts manually", "Minimum 1-2 reviewers" |
+| `[CREATE_CHECK]` | PR creation checks | "CI pipeline triggered", "Lint and format checks", "Build verification started" |
+| `[CREATE_SLA]` | PR creation SLA | "Initial review within 4 hours", "Acknowledgment within 1 day", "No SLA for draft PRs" |
+| `[CREATE_ESCALATE]` | PR creation escalation | "Tag team lead if no response", "Slack notification after 24h", "Daily standup mention" |
+| `[INIT_REQ]` | Initial review requirements | "Code readability check", "Architecture alignment", "Test coverage verification" |
+| `[INIT_REVIEW]` | Initial review reviewers | "Primary: code owner", "Secondary: team member", "Optional: architect for major changes" |
+| `[INIT_CHECK]` | Initial review checks | "All CI checks passing", "No merge conflicts", "Coverage threshold met" |
+| `[INIT_SLA]` | Initial review SLA | "First review within 24 hours", "48 hours max for standard PRs", "4 hours for hotfixes" |
+| `[INIT_ESCALATE]` | Initial review escalation | "Ping reviewer on Slack", "Reassign after 48h no response", "Manager notification after 72h" |
+| `[FEED_REQ]` | Feedback loop requirements | "Address all comments", "Re-request review after changes", "Explain disagreements constructively" |
+| `[FEED_REVIEW]` | Feedback loop reviewers | "Same reviewers unless unavailable", "Add experts for specific concerns", "Author can request additional eyes" |
+| `[FEED_CHECK]` | Feedback loop checks | "CI re-run after changes", "New commits don't break existing approvals", "Thread resolution tracking" |
+| `[FEED_SLA]` | Feedback loop SLA | "Author response within 24h", "Re-review within 4 hours", "Max 3 review cycles before escalation" |
+| `[FEED_ESCALATE]` | Feedback loop escalation | "Tech lead mediates disagreements", "Time-box discussions to 2 days", "Decision authority to code owner" |
+| `[APPROVE_REQ]` | Approval requirements | "All threads resolved", "Required approvals obtained", "No changes requested pending" |
+| `[APPROVE_REVIEW]` | Approval reviewers | "Code owner must approve", "Security team for sensitive areas", "2 approvals for main branch" |
+| `[APPROVE_CHECK]` | Approval checks | "All status checks green", "Branch up to date with base", "No pending discussions" |
+| `[APPROVE_SLA]` | Approval SLA | "Merge within 24h of approval", "Re-review if stale > 7 days", "Same-day for urgent fixes" |
+| `[APPROVE_ESCALATE]` | Approval escalation | "Missing approver -> team lead assigns alternate", "Stale PR -> author reminder", "Blocked -> architecture review" |
+| `[MERGE_REQ]` | Merge requirements | "All approvals and checks passed", "Rebase onto latest base branch", "Squash commits for clean history" |
+| `[MERGE_REVIEW]` | Merge reviewers | "Author merges own PR", "Or any approved reviewer", "Bot merge for auto-merge enabled PRs" |
+| `[MERGE_CHECK]` | Merge checks | "Final CI run passes", "No new commits since approval", "Merge conflict free" |
+| `[MERGE_SLA]` | Merge SLA | "Merge within 4 hours of final approval", "Delete branch after merge", "Deploy pipeline triggered" |
+| `[MERGE_ESCALATE]` | Merge escalation | "Merge conflicts -> author rebases", "CI failures -> investigate immediately", "Blocked -> tech lead intervention" |
+| `[POST_REQ]` | Post-merge requirements | "Verify deployment successful", "Close related issues", "Update project board" |
+| `[POST_REVIEW]` | Post-merge reviewers | "On-call engineer monitors", "Author available for issues", "QA verifies in staging" |
+| `[POST_CHECK]` | Post-merge checks | "Production health check", "Smoke tests pass", "No error rate increase" |
+| `[POST_SLA]` | Post-merge SLA | "Monitor for 1 hour post-deploy", "Rollback within 15 min if needed", "Incident report within 24h if issues" |
+| `[POST_ESCALATE]` | Post-merge escalation | "Production issue -> immediate rollback", "Incident commander notified", "Post-mortem scheduled" |
+| `[MERGE_COMMIT_USE]` | Merge commit use case | "Preserve full branch history", "Track feature development timeline", "Enterprise audit requirements" |
+| `[MERGE_COMMIT_ADV]` | Merge commit advantages | "Complete history preserved", "Easy to revert entire feature", "Clear branch merge points" |
+| `[MERGE_COMMIT_DIS]` | Merge commit disadvantages | "Cluttered commit history", "Harder to bisect issues", "Noise from WIP commits" |
+| `[MERGE_COMMIT_CONFIG]` | Merge commit configuration | "GitHub: Allow merge commits", "Require merge commit message", "Include PR number in message" |
+| `[SQUASH_USE]` | Squash merge use case | "Clean main branch history", "Feature = one commit", "Standard for feature branches" |
+| `[SQUASH_ADV]` | Squash merge advantages | "Clean linear history", "Easy to understand changelog", "Atomic feature commits" |
+| `[SQUASH_DIS]` | Squash merge disadvantages | "Lose detailed commit history", "Large commits harder to review", "Author attribution changes" |
+| `[SQUASH_CONFIG]` | Squash merge configuration | "GitHub: Allow squash merging", "Default to squash for PRs", "Use PR title as commit message" |
+| `[REBASE_USE]` | Rebase merge use case | "Linear history without merge commits", "Preserve individual commits", "Open source contributions" |
+| `[REBASE_ADV]` | Rebase merge advantages | "Clean linear history", "Each commit preserved", "Easy git bisect" |
+| `[REBASE_DIS]` | Rebase merge disadvantages | "Can't revert feature as a whole", "Requires clean commit history", "Potential for mistakes" |
+| `[REBASE_CONFIG]` | Rebase merge configuration | "GitHub: Allow rebase merging", "Require signed commits after rebase", "Enforce linear history" |
+| `[CONFLICT_DETECT]` | Conflict detection | "GitHub/GitLab UI warns of conflicts", "CI check for merge conflicts", "Pre-merge validation in PR" |
+| `[CONFLICT_COMM]` | Conflict communication | "PR marked as conflicting", "Author notified to rebase", "Slack alert for stale PRs" |
+| `[CONFLICT_PROCESS]` | Conflict resolution process | "Rebase branch onto latest base", "Resolve conflicts locally", "Re-push and re-run CI" |
+| `[CONFLICT_TEST]` | Conflict testing | "Full test suite after resolution", "Manual verification of merged code", "Code owner re-review if significant" |
+| `[CONFLICT_DOC]` | Conflict documentation | "Document complex resolutions in PR", "Update CONTRIBUTING with common scenarios", "Team training on git conflict tools" |
+| `[BUILD_INTEGRATE]` | Build pipeline integration | "GitHub Actions workflow", "Jenkins pipeline as code", "CircleCI config.yml" |
+| `[BUILD_TRIGGER]` | Build trigger events | "On push to any branch", "On PR open/update", "Manual trigger for releases" |
+| `[BUILD_CONFIG]` | Build configuration | "Multi-stage Docker builds", "Caching for node_modules", "Parallel job execution" |
+| `[BUILD_NOTIFY]` | Build notifications | "Slack webhook on failure", "Email for release builds", "GitHub status checks" |
+| `[BUILD_ROLLBACK]` | Build rollback | "Re-run previous successful build", "Keep last 10 build artifacts", "One-click rollback in CI" |
+| `[TEST_INTEGRATE]` | Test automation integration | "Jest/pytest in CI pipeline", "Parallel test execution", "Test result publishing" |
+| `[TEST_TRIGGER]` | Test trigger events | "After successful build", "On every commit", "Nightly full regression" |
+| `[TEST_CONFIG]` | Test configuration | "Codecov for coverage reports", "Test matrix for Node versions", "Retry flaky tests 2x" |
+| `[TEST_NOTIFY]` | Test notifications | "PR comment with coverage diff", "Slack alert on test failure", "Dashboard for test trends" |
+| `[TEST_ROLLBACK]` | Test rollback | "Revert commit if tests fail", "Quarantine flaky tests", "Rollback test data after run" |
+| `[QUALITY_INTEGRATE]` | Code quality integration | "SonarQube/SonarCloud analysis", "ESLint/Prettier checks", "CodeClimate quality gates" |
+| `[QUALITY_TRIGGER]` | Quality check triggers | "On every PR", "After successful build", "Daily scheduled scans" |
+| `[QUALITY_CONFIG]` | Quality configuration | "sonar-project.properties", ".eslintrc.js with custom rules", "Quality gate thresholds" |
+| `[QUALITY_NOTIFY]` | Quality notifications | "PR comment with issues found", "Block merge on quality gate failure", "Weekly quality report email" |
+| `[QUALITY_ROLLBACK]` | Quality rollback | "Revert to last passing quality scan", "Track technical debt trends", "Exemption process documented" |
+| `[SECURITY_INTEGRATE]` | Security scanning integration | "Snyk for dependencies", "Trivy for containers", "GitGuardian for secrets" |
+| `[SECURITY_TRIGGER]` | Security scan triggers | "On every PR", "Daily scheduled scan", "On dependency update" |
+| `[SECURITY_CONFIG]` | Security configuration | ".snyk policy file", "Trivy severity thresholds", "SARIF report format" |
+| `[SECURITY_NOTIFY]` | Security notifications | "Block PR on critical vulnerabilities", "Security team alert for high severity", "Weekly vulnerability report" |
+| `[SECURITY_ROLLBACK]` | Security rollback | "Immediate revert on exposed secret", "Dependency downgrade if vulnerable", "Incident response triggered" |
+| `[DEPLOY_INTEGRATE]` | Deployment integration | "ArgoCD GitOps", "GitHub Actions deploy workflow", "Spinnaker pipelines" |
+| `[DEPLOY_TRIGGER]` | Deployment triggers | "On merge to main", "Manual approval gate", "Scheduled release window" |
+| `[DEPLOY_CONFIG]` | Deployment configuration | "Kubernetes manifests in repo", "Helm values per environment", "Feature flags configuration" |
+| `[DEPLOY_NOTIFY]` | Deployment notifications | "Slack channel for deployments", "PagerDuty for failures", "Changelog posted automatically" |
+| `[DEPLOY_ROLLBACK]` | Deployment rollback | "One-click rollback to previous version", "Automatic rollback on health check failure", "Blue-green switch back" |
+| `[RELEASE_INTEGRATE]` | Release management integration | "semantic-release automation", "GitHub Releases", "CHANGELOG generation" |
+| `[RELEASE_TRIGGER]` | Release triggers | "On merge to main (continuous)", "Manual tag push", "Scheduled release branch merge" |
+| `[RELEASE_CONFIG]` | Release configuration | ".releaserc.json for semantic-release", "CHANGELOG.md template", "Release notes template" |
+| `[RELEASE_NOTIFY]` | Release notifications | "Email to stakeholders", "Slack announcement", "Customer notification for major releases" |
+| `[RELEASE_ROLLBACK]` | Release rollback | "Yank bad release, publish patch", "Rollback deployment to previous release", "Communicate incident to users" |
+| `[AUTH_IMPL]` | Authentication implementation | "SSO via Okta/Azure AD", "GitHub OAuth", "SSH keys + MFA required" |
+| `[AUTH_POLICY]` | Authentication policy | "MFA mandatory for all users", "SSH keys rotated annually", "Service accounts with limited scope" |
+| `[AUTH_MONITOR]` | Authentication monitoring | "Failed login alerts", "Unusual access pattern detection", "Session timeout enforcement" |
+| `[AUTH_COMPLY]` | Authentication compliance | "SOC 2 access controls", "GDPR data access logging", "ISO 27001 authentication requirements" |
+| `[AUTH_AUDIT]` | Authentication audit trail | "All login attempts logged", "Access token usage tracked", "Quarterly access review" |
+| `[AUTHZ_IMPL]` | Authorization implementation | "GitHub teams and roles", "Repository-level permissions", "CODEOWNERS for code areas" |
+| `[AUTHZ_POLICY]` | Authorization policy | "Least privilege principle", "Role-based access control", "Regular permission audits" |
+| `[AUTHZ_MONITOR]` | Authorization monitoring | "Permission change alerts", "Elevated access notifications", "Unused permission detection" |
+| `[AUTHZ_COMPLY]` | Authorization compliance | "Segregation of duties enforced", "Admin access justified", "Third-party access controlled" |
+| `[AUTHZ_AUDIT]` | Authorization audit trail | "Permission changes logged", "Access reviews documented", "Quarterly RBAC review" |
+| `[BRANCH_IMPL]` | Branch protection implementation | "GitHub branch protection rules", "Required status checks", "Signed commits required" |
+| `[BRANCH_POLICY]` | Branch protection policy | "No direct push to main/develop", "Minimum 2 approvals for main", "Admin override logged" |
+| `[BRANCH_MONITOR]` | Branch protection monitoring | "Alert on protection rule changes", "Force push detection", "Bypass attempt logging" |
+| `[BRANCH_COMPLY]` | Branch protection compliance | "Audit trail for all merges", "Policy exceptions documented", "Quarterly rule review" |
+| `[BRANCH_AUDIT]` | Branch protection audit | "All merges to protected branches logged", "Rule change history maintained", "Compliance report generated" |
+| `[SECRET_IMPL]` | Secret management implementation | "GitGuardian pre-commit hook", "GitHub secret scanning", "AWS Secrets Manager for runtime" |
+| `[SECRET_POLICY]` | Secret management policy | "No secrets in code ever", "Use environment variables", "Rotate secrets quarterly" |
+| `[SECRET_MONITOR]` | Secret monitoring | "Real-time secret detection", "Alert on secret commit", "Historical scan of repos" |
+| `[SECRET_COMPLY]` | Secret compliance | "PCI DSS secret handling", "GDPR data protection", "SOC 2 key management" |
+| `[SECRET_AUDIT]` | Secret audit trail | "Secret access logged", "Rotation history maintained", "Incident response for leaks" |
+| `[SIGN_IMPL]` | Code signing implementation | "GPG commit signing", "git config commit.gpgsign true", "Verified commits badge" |
+| `[SIGN_POLICY]` | Code signing policy | "Required for release commits", "Optional for feature branches", "Key must be in GitHub" |
+| `[SIGN_MONITOR]` | Code signing monitoring | "Unsigned commit alerts", "Key expiration warnings", "Signature verification in CI" |
+| `[SIGN_COMPLY]` | Code signing compliance | "Non-repudiation requirements", "Supply chain security", "Audit requirements met" |
+| `[SIGN_AUDIT]` | Code signing audit | "All signed commits logged", "Key usage tracked", "Signature verification history" |
+| `[VULN_IMPL]` | Vulnerability scanning implementation | "Dependabot alerts enabled", "Snyk in CI pipeline", "Trivy for container images" |
+| `[VULN_POLICY]` | Vulnerability policy | "Critical: Fix within 24h", "High: Fix within 7 days", "Block PR on critical vulns" |
+| `[VULN_MONITOR]` | Vulnerability monitoring | "Daily dependency scans", "CVE database updates", "Zero-day alert subscription" |
+| `[VULN_COMPLY]` | Vulnerability compliance | "NIST vulnerability standards", "CIS benchmarks followed", "Regular penetration testing" |
+| `[VULN_AUDIT]` | Vulnerability audit | "Vulnerability history tracked", "Remediation time measured", "Quarterly security report" |
+| `[VERSION_SCHEMA]` | Version numbering schema | "SemVer: MAJOR.MINOR.PATCH", "CalVer: YYYY.MM.PATCH", "Custom: vX.Y.Z-buildnum" |
+| `[MAJOR_CRITERIA]` | Major version criteria | "Breaking API changes", "Incompatible database migrations", "Major feature overhaul" |
+| `[MINOR_CRITERIA]` | Minor version criteria | "New features (backward compatible)", "Non-breaking API additions", "Significant enhancements" |
+| `[PATCH_CRITERIA]` | Patch version criteria | "Bug fixes", "Security patches", "Documentation updates", "Performance improvements" |
+| `[PRERELEASE_FORMAT]` | Pre-release format | "v1.2.0-alpha.1", "v1.2.0-beta.2", "v1.2.0-rc.1", "v1.2.0-SNAPSHOT" |
+| `[FREEZE_PROCESS]` | Feature freeze process | "2 weeks before release", "Only bug fixes allowed", "No new features in release branch" |
+| `[RELEASE_BRANCH]` | Release branch management | "release/v1.2.x created from develop", "Cherry-pick bug fixes", "Merge to main for release" |
+| `[RELEASE_TEST]` | Release testing | "Full regression suite", "UAT sign-off required", "Performance benchmarks validated" |
+| `[RELEASE_DOCS]` | Release documentation | "Update CHANGELOG.md", "Release notes written", "API docs updated", "Migration guide if needed" |
+| `[CHANGELOG_GEN]` | Changelog generation | "Auto-generate from commits", "conventional-changelog tool", "Group by type (feat, fix, etc.)" |
+| `[TAG_FORMAT]` | Tag format | "v1.2.3 with leading v", "Annotated tags only", "Include release date in annotation" |
+| `[TAG_ANNOTATE]` | Tag annotation | "Include release notes", "List major changes", "Credit contributors" |
+| `[TAG_SIGN]` | Tag signing | "GPG signed tags required", "Verify signature on checkout", "Key stored securely" |
+| `[TAG_PROTECT]` | Tag protection | "No tag deletion allowed", "Only release manager can create", "Immutable once pushed" |
+| `[TAG_AUTO]` | Tag automation | "semantic-release creates tags", "Auto-tag on merge to main", "Trigger deployment on tag" |
+| `[ONBOARD_CURRENT]` | Onboarding current state | "README-based setup", "Pair programming first week", "Mentor assigned" |
+| `[ONBOARD_PLAN]` | Onboarding improvement plan | "Automated dev environment setup", "Self-service documentation", "Video tutorials" |
+| `[ONBOARD_TRAIN]` | Onboarding training | "Git workflow training session", "PR process walkthrough", "First PR with mentor review" |
+| `[ONBOARD_TOOLS]` | Onboarding tools | "GitHub Learning Lab", "Internal wiki guides", "Slack channel for questions" |
+| `[ONBOARD_METRICS]` | Onboarding metrics | "Time to first PR", "Time to first approved PR", "Onboarding satisfaction score" |
+| `[DAILY_CURRENT]` | Daily workflow current | "Feature branch development", "Daily commits expected", "Async communication" |
+| `[DAILY_PLAN]` | Daily workflow plan | "Trunk-based development exploration", "Faster PR turnaround", "Automated mundane tasks" |
+| `[DAILY_TRAIN]` | Daily workflow training | "Git rebase workshop", "Efficient PR creation", "Keyboard shortcuts and aliases" |
+| `[DAILY_TOOLS]` | Daily workflow tools | "VS Code with GitLens", "GitHub CLI (gh)", "Git aliases configured" |
+| `[DAILY_METRICS]` | Daily workflow metrics | "Commits per day", "PR cycle time", "Build wait time" |
+| `[REVIEW_CURRENT]` | Code review current | "PR-based reviews", "1-2 reviewers required", "Async review process" |
+| `[REVIEW_PLAN]` | Code review plan | "Reduce review bottlenecks", "Improve review quality", "Review time SLAs" |
+| `[REVIEW_TRAIN]` | Code review training | "Effective code review workshop", "Giving constructive feedback", "Reviewer expectations" |
+| `[REVIEW_TOOLS]` | Code review tools | "GitHub PR interface", "Reviewable for complex PRs", "Loom for video explanations" |
+| `[REVIEW_METRICS]` | Code review metrics | "Average review time", "Rounds to approval", "Comments per PR" |
+| `[PAIR_CURRENT]` | Pair programming current | "Ad-hoc pairing sessions", "Used for complex features", "Remote pairing via screen share" |
+| `[PAIR_PLAN]` | Pair programming plan | "Scheduled pairing hours", "Cross-team pairing encouraged", "Driver-navigator rotation" |
+| `[PAIR_TRAIN]` | Pair programming training | "Pairing workshop", "Remote pairing best practices", "When to pair vs solo" |
+| `[PAIR_TOOLS]` | Pair programming tools | "VS Code Live Share", "Tuple for remote pairing", "Pop for quick sessions" |
+| `[PAIR_METRICS]` | Pair programming metrics | "Hours paired per week", "Pairing satisfaction", "Bug rate in paired vs solo code" |
+| `[KNOW_CURRENT]` | Knowledge sharing current | "Tech talks monthly", "Documentation in wiki", "PR descriptions as knowledge" |
+| `[KNOW_PLAN]` | Knowledge sharing plan | "Weekly learning sessions", "Cross-functional demos", "Architecture decision records" |
+| `[KNOW_TRAIN]` | Knowledge sharing training | "How to give tech talks", "Documentation writing", "Creating video tutorials" |
+| `[KNOW_TOOLS]` | Knowledge sharing tools | "Confluence/Notion for docs", "Loom for async videos", "Slack for quick questions" |
+| `[KNOW_METRICS]` | Knowledge sharing metrics | "Documentation coverage", "Tech talk attendance", "Question response time" |
+| `[BEST_CURRENT]` | Best practices current | "Documented in CONTRIBUTING.md", "Enforced via linters", "Reviewed in PRs" |
+| `[BEST_PLAN]` | Best practices plan | "Regular best practice updates", "Team input on standards", "Automated enforcement" |
+| `[BEST_TRAIN]` | Best practices training | "Best practices workshop quarterly", "New practice announcements", "Migration guides provided" |
+| `[BEST_TOOLS]` | Best practices tools | "ESLint/Prettier configuration", "EditorConfig for consistency", "Husky pre-commit hooks" |
+| `[BEST_METRICS]` | Best practices metrics | "Lint violations per PR", "Practice adoption rate", "Code consistency score" |
+| `[COMMIT_KPI]` | Commit activity KPI | "Commits per developer per day", "Commit message quality score", "Commit size (lines changed)" |
+| `[COMMIT_CURRENT]` | Commit current state | "8 commits/dev/day average", "85% follow conventions", "Average 50 lines per commit" |
+| `[COMMIT_TARGET]` | Commit target | "10+ commits/dev/day", "95% convention compliance", "< 200 lines per commit" |
+| `[COMMIT_TREND]` | Commit trend | "Increasing 5% month-over-month", "Convention compliance improving", "Commit size stable" |
+| `[COMMIT_ACTION]` | Commit improvement actions | "Encourage atomic commits", "commitlint enforcement", "Training on commit best practices" |
+| `[PR_KPI]` | PR velocity KPI | "PRs merged per week", "PR cycle time", "PR size (lines changed)" |
+| `[PR_CURRENT]` | PR current state | "25 PRs merged/week", "3 day average cycle time", "Average 200 lines changed" |
+| `[PR_TARGET]` | PR target | "30+ PRs merged/week", "< 24 hour cycle time", "< 400 lines per PR" |
+| `[PR_TREND]` | PR trend | "Cycle time decreasing", "PR count stable", "Size trending smaller" |
+| `[PR_ACTION]` | PR improvement actions | "Break large PRs into smaller chunks", "Improve review response time", "Automate PR checks" |
+| `[REVIEW_KPI]` | Review time KPI | "Time to first review", "Rounds to approval", "Review comments per PR" |
+| `[REVIEW_TARGET]` | Review target | "< 4 hours to first review", "< 2 rounds to approval", "Constructive comments only" |
+| `[REVIEW_TREND]` | Review trend | "First review time decreasing", "Rounds stable at 1.5", "Comment quality improving" |
+| `[REVIEW_ACTION]` | Review improvement actions | "Review SLA enforcement", "Review training sessions", "CODEOWNERS optimization" |
+| `[CONFLICT_KPI]` | Conflict resolution KPI | "Conflicts per PR", "Time to resolve conflicts", "Conflict-related incidents" |
+| `[CONFLICT_CURRENT]` | Conflict current state | "15% PRs have conflicts", "Average 2 hours to resolve", "1 incident/month" |
+| `[CONFLICT_TARGET]` | Conflict target | "< 10% PRs with conflicts", "< 30 min resolution", "Zero conflict-related incidents" |
+| `[CONFLICT_TREND]` | Conflict trend | "Decreasing with smaller PRs", "Resolution time improving", "Incidents rare" |
+| `[CONFLICT_ACTION]` | Conflict improvement actions | "Frequent rebasing encouraged", "Team communication on shared files", "Conflict resolution training" |
+| `[BUILD_KPI]` | Build success KPI | "Build success rate", "Build duration", "Failed build recovery time" |
+| `[BUILD_CURRENT]` | Build current state | "92% success rate", "15 min average duration", "30 min recovery time" |
+| `[BUILD_TARGET]` | Build target | "> 98% success rate", "< 10 min duration", "< 15 min recovery" |
+| `[BUILD_TREND]` | Build trend | "Success rate improving", "Duration optimized with caching", "Faster flaky test identification" |
+| `[BUILD_ACTION]` | Build improvement actions | "Flaky test quarantine", "Build caching optimization", "Parallel job execution" |
+| `[RELEASE_KPI]` | Release frequency KPI | "Releases per month", "Lead time to production", "Deployment success rate" |
+| `[RELEASE_CURRENT]` | Release current state | "4 releases/month", "2 week lead time", "95% deployment success" |
+| `[RELEASE_TARGET]` | Release target | "Weekly releases", "< 1 week lead time", "> 99% deployment success" |
+| `[RELEASE_TREND]` | Release trend | "Moving toward continuous deployment", "Lead time decreasing", "Rollbacks decreasing" |
+| `[RELEASE_ACTION]` | Release improvement actions | "Automate release process", "Feature flags for safer releases", "Improve testing coverage" |
 
 ### 3. Commit Standards & Conventions
 

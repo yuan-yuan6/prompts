@@ -94,259 +94,259 @@ Processing Capabilities:
 
 | Variable | Description | Example |
 |----------|-------------|----------|
-| `[PROJECT_NAME]` | Name of the project | "Digital Transformation Initiative" |
-| `[DEVICE_COUNT]` | Specify the device count | "10" |
-| `[LOCATION_COUNT]` | Specify the location count | "North America" |
-| `[DATA_VOLUME]` | Specify the data volume | "[specify value]" |
-| `[LATENCY_REQUIREMENT]` | Specify the latency requirement | "[specify value]" |
-| `[BUDGET]` | Budget allocation for  | "$500,000" |
-| `[DEVICE_1]` | Specify the device 1 | "[specify value]" |
-| `[QTY_1]` | Specify the qty 1 | "[specify value]" |
-| `[SENSORS_1]` | Specify the sensors 1 | "[specify value]" |
-| `[PROC_1]` | Specify the proc 1 | "[specify value]" |
-| `[CONN_1]` | Specify the conn 1 | "[specify value]" |
-| `[POWER_1]` | Specify the power 1 | "[specify value]" |
-| `[COST_1]` | Specify the cost 1 | "[specify value]" |
-| `[DEVICE_2]` | Specify the device 2 | "[specify value]" |
-| `[QTY_2]` | Specify the qty 2 | "[specify value]" |
-| `[SENSORS_2]` | Specify the sensors 2 | "[specify value]" |
-| `[PROC_2]` | Specify the proc 2 | "[specify value]" |
-| `[CONN_2]` | Specify the conn 2 | "[specify value]" |
-| `[POWER_2]` | Specify the power 2 | "[specify value]" |
-| `[COST_2]` | Specify the cost 2 | "[specify value]" |
-| `[DEVICE_3]` | Specify the device 3 | "[specify value]" |
-| `[QTY_3]` | Specify the qty 3 | "[specify value]" |
-| `[SENSORS_3]` | Specify the sensors 3 | "[specify value]" |
-| `[PROC_3]` | Specify the proc 3 | "[specify value]" |
-| `[CONN_3]` | Specify the conn 3 | "[specify value]" |
-| `[POWER_3]` | Specify the power 3 | "[specify value]" |
-| `[COST_3]` | Specify the cost 3 | "[specify value]" |
-| `[DEVICE_4]` | Specify the device 4 | "[specify value]" |
-| `[QTY_4]` | Specify the qty 4 | "[specify value]" |
-| `[SENSORS_4]` | Specify the sensors 4 | "[specify value]" |
-| `[PROC_4]` | Specify the proc 4 | "[specify value]" |
-| `[CONN_4]` | Specify the conn 4 | "[specify value]" |
-| `[POWER_4]` | Specify the power 4 | "[specify value]" |
-| `[COST_4]` | Specify the cost 4 | "[specify value]" |
-| `[DEVICE_5]` | Specify the device 5 | "[specify value]" |
-| `[QTY_5]` | Specify the qty 5 | "[specify value]" |
-| `[SENSORS_5]` | Specify the sensors 5 | "[specify value]" |
-| `[PROC_5]` | Specify the proc 5 | "[specify value]" |
-| `[CONN_5]` | Specify the conn 5 | "[specify value]" |
-| `[POWER_5]` | Specify the power 5 | "[specify value]" |
-| `[COST_5]` | Specify the cost 5 | "[specify value]" |
-| `[EDGE_CPU]` | Specify the edge cpu | "[specify value]" |
-| `[EDGE_RAM]` | Specify the edge ram | "[specify value]" |
-| `[EDGE_STORAGE]` | Specify the edge storage | "[specify value]" |
-| `[EDGE_ACCELERATOR]` | Specify the edge accelerator | "[specify value]" |
-| `[EDGE_OS]` | Specify the edge os | "[specify value]" |
-| `[EDGE_CONTAINER]` | Specify the edge container | "[specify value]" |
-| `[LOCAL_ANALYTICS]` | Specify the local analytics | "[specify value]" |
-| `[ML_INFERENCE]` | Specify the ml inference | "[specify value]" |
-| `[DATA_FILTERING]` | Specify the data filtering | "[specify value]" |
-| `[PROTOCOL_TRANS]` | Specify the protocol trans | "[specify value]" |
-| `[SECURITY_PROC]` | Specify the security proc | "[specify value]" |
-| `[FOG_COUNT]` | Specify the fog count | "10" |
-| `[FOG_LOCATION]` | Specify the fog location | "North America" |
-| `[EDGE_COUNT]` | Specify the edge count | "10" |
-| `[EDGE_LOCATION]` | Specify the edge location | "North America" |
-| `[MICRO_DC]` | Specify the micro dc | "[specify value]" |
-| `[MICRO_LOCATION]` | Specify the micro location | "North America" |
-| `[CDN_INTEGRATION]` | Specify the cdn integration | "[specify value]" |
-| `[WIFI_USE]` | Specify the wifi use | "[specify value]" |
-| `[WIFI_BW]` | Specify the wifi bw | "[specify value]" |
-| `[WIFI_RANGE]` | Specify the wifi range | "[specify value]" |
-| `[WIFI_POWER]` | Specify the wifi power | "[specify value]" |
-| `[WIFI_SEC]` | Specify the wifi sec | "[specify value]" |
-| `[WIFI_DEVICES]` | Specify the wifi devices | "[specify value]" |
-| `[LORA_USE]` | Specify the lora use | "[specify value]" |
-| `[LORA_BW]` | Specify the lora bw | "[specify value]" |
-| `[LORA_RANGE]` | Specify the lora range | "[specify value]" |
-| `[LORA_POWER]` | Specify the lora power | "[specify value]" |
-| `[LORA_SEC]` | Specify the lora sec | "[specify value]" |
-| `[LORA_DEVICES]` | Specify the lora devices | "[specify value]" |
-| `[NBIOT_USE]` | Specify the nbiot use | "[specify value]" |
-| `[NBIOT_BW]` | Specify the nbiot bw | "[specify value]" |
-| `[NBIOT_RANGE]` | Specify the nbiot range | "[specify value]" |
-| `[NBIOT_POWER]` | Specify the nbiot power | "[specify value]" |
-| `[NBIOT_SEC]` | Specify the nbiot sec | "[specify value]" |
-| `[NBIOT_DEVICES]` | Specify the nbiot devices | "[specify value]" |
-| `[ZIGBEE_USE]` | Specify the zigbee use | "[specify value]" |
-| `[ZIGBEE_BW]` | Specify the zigbee bw | "[specify value]" |
-| `[ZIGBEE_RANGE]` | Specify the zigbee range | "[specify value]" |
-| `[ZIGBEE_POWER]` | Specify the zigbee power | "[specify value]" |
-| `[ZIGBEE_SEC]` | Specify the zigbee sec | "[specify value]" |
-| `[ZIGBEE_DEVICES]` | Specify the zigbee devices | "[specify value]" |
-| `[BLE_USE]` | Specify the ble use | "[specify value]" |
-| `[BLE_BW]` | Specify the ble bw | "[specify value]" |
-| `[BLE_RANGE]` | Specify the ble range | "[specify value]" |
-| `[BLE_POWER]` | Specify the ble power | "[specify value]" |
-| `[BLE_SEC]` | Specify the ble sec | "[specify value]" |
-| `[BLE_DEVICES]` | Specify the ble devices | "[specify value]" |
-| `[INGEST_PROC]` | Specify the ingest proc | "[specify value]" |
-| `[INGEST_VOL]` | Specify the ingest vol | "[specify value]" |
-| `[INGEST_LAT]` | Specify the ingest lat | "[specify value]" |
-| `[INGEST_STORE]` | Specify the ingest store | "[specify value]" |
-| `[INGEST_RETAIN]` | Specify the ingest retain | "[specify value]" |
-| `[EDGE_PROC]` | Specify the edge proc | "[specify value]" |
-| `[EDGE_VOL]` | Specify the edge vol | "[specify value]" |
-| `[EDGE_LAT]` | Specify the edge lat | "[specify value]" |
-| `[EDGE_STORE]` | Specify the edge store | "[specify value]" |
-| `[EDGE_RETAIN]` | Specify the edge retain | "[specify value]" |
-| `[STREAM_PROC]` | Specify the stream proc | "[specify value]" |
-| `[STREAM_VOL]` | Specify the stream vol | "[specify value]" |
-| `[STREAM_LAT]` | Specify the stream lat | "[specify value]" |
-| `[STREAM_STORE]` | Specify the stream store | "[specify value]" |
-| `[STREAM_RETAIN]` | Specify the stream retain | "[specify value]" |
-| `[BATCH_PROC]` | Specify the batch proc | "[specify value]" |
-| `[BATCH_VOL]` | Specify the batch vol | "[specify value]" |
-| `[BATCH_LAT]` | Specify the batch lat | "[specify value]" |
-| `[BATCH_STORE]` | Specify the batch store | "[specify value]" |
-| `[BATCH_RETAIN]` | Specify the batch retain | "[specify value]" |
-| `[ARCHIVE_PROC]` | Specify the archive proc | "[specify value]" |
-| `[ARCHIVE_VOL]` | Specify the archive vol | "[specify value]" |
-| `[ARCHIVE_LAT]` | Specify the archive lat | "[specify value]" |
-| `[ARCHIVE_STORE]` | Specify the archive store | "[specify value]" |
-| `[ARCHIVE_RETAIN]` | Specify the archive retain | "[specify value]" |
-| `[FILTER_RULES]` | Specify the filter rules | "[specify value]" |
-| `[AGGREGATION_RULES]` | Specify the aggregation rules | "[specify value]" |
-| `[ANOMALY_RULES]` | Specify the anomaly rules | "[specify value]" |
-| `[COMPRESSION_RATIO]` | Specify the compression ratio | "[specify value]" |
-| `[ENCRYPTION_METHOD]` | Specify the encryption method | "[specify value]" |
-| `[CLOUD_ANALYTICS]` | Specify the cloud analytics | "[specify value]" |
-| `[ML_TRAINING]` | Specify the ml training | "[specify value]" |
-| `[HISTORICAL]` | Specify the historical | "[specify value]" |
-| `[CORRELATION]` | Specify the correlation | "[specify value]" |
-| `[REPORTING]` | Specify the reporting | "[specify value]" |
-| `[PROV_IMPL]` | Specify the prov impl | "[specify value]" |
-| `[PROV_SCALE]` | Specify the prov scale | "[specify value]" |
-| `[PROV_AUTO]` | Specify the prov auto | "[specify value]" |
-| `[PROV_SEC]` | Specify the prov sec | "[specify value]" |
-| `[PROV_INT]` | Specify the prov int | "[specify value]" |
-| `[CONFIG_IMPL]` | Specify the config impl | "[specify value]" |
-| `[CONFIG_SCALE]` | Specify the config scale | "[specify value]" |
-| `[CONFIG_AUTO]` | Specify the config auto | "[specify value]" |
-| `[CONFIG_SEC]` | Specify the config sec | "[specify value]" |
-| `[CONFIG_INT]` | Specify the config int | "[specify value]" |
-| `[MON_IMPL]` | Specify the mon impl | "[specify value]" |
-| `[MON_SCALE]` | Specify the mon scale | "[specify value]" |
-| `[MON_AUTO]` | Specify the mon auto | "[specify value]" |
-| `[MON_SEC]` | Specify the mon sec | "[specify value]" |
-| `[MON_INT]` | Specify the mon int | "[specify value]" |
-| `[OTA_IMPL]` | Specify the ota impl | "[specify value]" |
-| `[OTA_SCALE]` | Specify the ota scale | "[specify value]" |
-| `[OTA_AUTO]` | Specify the ota auto | "[specify value]" |
-| `[OTA_SEC]` | Specify the ota sec | "[specify value]" |
-| `[OTA_INT]` | Specify the ota int | "[specify value]" |
-| `[DIAG_IMPL]` | Specify the diag impl | "[specify value]" |
-| `[DIAG_SCALE]` | Specify the diag scale | "[specify value]" |
-| `[DIAG_AUTO]` | Specify the diag auto | "[specify value]" |
-| `[DIAG_SEC]` | Specify the diag sec | "[specify value]" |
-| `[DIAG_INT]` | Specify the diag int | "[specify value]" |
-| `[SECURE_BOOT]` | Specify the secure boot | "[specify value]" |
-| `[HSM]` | Specify the hsm | "[specify value]" |
-| `[TEE]` | Specify the tee | "[specify value]" |
-| `[FW_SIGNING]` | Specify the fw signing | "[specify value]" |
-| `[PHYSICAL_SEC]` | Specify the physical sec | "[specify value]" |
-| `[E2E_ENCRYPTION]` | Specify the e2e encryption | "[specify value]" |
-| `[VPN_TUNNEL]` | Specify the vpn tunnel | "[specify value]" |
-| `[SEGMENTATION]` | Specify the segmentation | "[specify value]" |
-| `[ZERO_TRUST]` | Specify the zero trust | "[specify value]" |
-| `[DDOS_PROTECT]` | Specify the ddos protect | "[specify value]" |
-| `[REST_ENCRYPT]` | Specify the rest encrypt | "[specify value]" |
-| `[TRANSIT_ENCRYPT]` | Specify the transit encrypt | "[specify value]" |
-| `[KEY_MGMT]` | Specify the key mgmt | "[specify value]" |
-| `[ANONYMIZATION]` | Specify the anonymization | "[specify value]" |
-| `[COMPLIANCE_REQS]` | Specify the compliance reqs | "[specify value]" |
-| `[IOT_PROVIDER]` | Specify the iot provider | "[specify value]" |
-| `[IOT_PURPOSE]` | Specify the iot purpose | "[specify value]" |
-| `[IOT_FLOW]` | Specify the iot flow | "[specify value]" |
-| `[IOT_LIMITS]` | Specify the iot limits | "[specify value]" |
-| `[IOT_COST]` | Specify the iot cost | "[specify value]" |
-| `[TSDB_PROVIDER]` | Specify the tsdb provider | "[specify value]" |
-| `[TSDB_PURPOSE]` | Specify the tsdb purpose | "[specify value]" |
-| `[TSDB_FLOW]` | Specify the tsdb flow | "[specify value]" |
-| `[TSDB_LIMITS]` | Specify the tsdb limits | "[specify value]" |
-| `[TSDB_COST]` | Specify the tsdb cost | "[specify value]" |
-| `[ANALYTICS_PROVIDER]` | Specify the analytics provider | "[specify value]" |
-| `[ANALYTICS_PURPOSE]` | Specify the analytics purpose | "[specify value]" |
-| `[ANALYTICS_FLOW]` | Specify the analytics flow | "[specify value]" |
-| `[ANALYTICS_LIMITS]` | Specify the analytics limits | "[specify value]" |
-| `[ANALYTICS_COST]` | Specify the analytics cost | "[specify value]" |
-| `[ML_PROVIDER]` | Specify the ml provider | "[specify value]" |
-| `[ML_PURPOSE]` | Specify the ml purpose | "[specify value]" |
-| `[ML_FLOW]` | Specify the ml flow | "[specify value]" |
-| `[ML_LIMITS]` | Specify the ml limits | "[specify value]" |
-| `[ML_COST]` | Specify the ml cost | "[specify value]" |
-| `[STORAGE_PROVIDER]` | Specify the storage provider | "[specify value]" |
-| `[STORAGE_PURPOSE]` | Specify the storage purpose | "[specify value]" |
-| `[STORAGE_FLOW]` | Specify the storage flow | "[specify value]" |
-| `[STORAGE_LIMITS]` | Specify the storage limits | "[specify value]" |
-| `[STORAGE_COST]` | Specify the storage cost | "[specify value]" |
-| `[RT_LOCATION]` | Specify the rt location | "North America" |
-| `[RT_ALGO]` | Specify the rt algo | "[specify value]" |
-| `[RT_LATENCY]` | Specify the rt latency | "[specify value]" |
-| `[RT_ACCURACY]` | Specify the rt accuracy | "[specify value]" |
-| `[RT_RESOURCE]` | Specify the rt resource | "[specify value]" |
-| `[PM_LOCATION]` | Specify the pm location | "North America" |
-| `[PM_ALGO]` | Specify the pm algo | "[specify value]" |
-| `[PM_LATENCY]` | Specify the pm latency | "[specify value]" |
-| `[PM_ACCURACY]` | Specify the pm accuracy | "[specify value]" |
-| `[PM_RESOURCE]` | Specify the pm resource | "[specify value]" |
-| `[AD_LOCATION]` | Specify the ad location | "North America" |
-| `[AD_ALGO]` | Specify the ad algo | "[specify value]" |
-| `[AD_LATENCY]` | Specify the ad latency | "[specify value]" |
-| `[AD_ACCURACY]` | Specify the ad accuracy | "[specify value]" |
-| `[AD_RESOURCE]` | Specify the ad resource | "[specify value]" |
-| `[PR_LOCATION]` | Specify the pr location | "North America" |
-| `[PR_ALGO]` | Specify the pr algo | "[specify value]" |
-| `[PR_LATENCY]` | Specify the pr latency | "[specify value]" |
-| `[PR_ACCURACY]` | Specify the pr accuracy | "[specify value]" |
-| `[PR_RESOURCE]` | Specify the pr resource | "[specify value]" |
-| `[OPT_LOCATION]` | Specify the opt location | "North America" |
-| `[OPT_ALGO]` | Specify the opt algo | "[specify value]" |
-| `[OPT_LATENCY]` | Specify the opt latency | "[specify value]" |
-| `[OPT_ACCURACY]` | Specify the opt accuracy | "[specify value]" |
-| `[OPT_RESOURCE]` | Specify the opt resource | "[specify value]" |
-| `[DEVICE_UPTIME]` | Specify the device uptime | "[specify value]" |
-| `[NETWORK_REL]` | Specify the network rel | "[specify value]" |
-| `[DATA_COMPLETE]` | Specify the data complete | "[specify value]" |
-| `[PROC_LATENCY]` | Specify the proc latency | "[specify value]" |
-| `[ERROR_RATE]` | Specify the error rate | "[specify value]" |
-| `[MSG_PER_SEC]` | Specify the msg per sec | "[specify value]" |
-| `[INGESTION_RATE]` | Specify the ingestion rate | "[specify value]" |
-| `[EDGE_UTIL]` | Specify the edge util | "[specify value]" |
-| `[CLOUD_COST]` | Specify the cloud cost | "[specify value]" |
-| `[ROI_METRIC]` | Specify the roi metric | "[specify value]" |
-| `[DEVICE_ALERT]` | Specify the device alert | "[specify value]" |
-| `[ANOMALY_ALERT]` | Specify the anomaly alert | "[specify value]" |
-| `[THRESHOLD_ALERT]` | Specify the threshold alert | "[specify value]" |
-| `[SECURITY_ALERT]` | Specify the security alert | "[specify value]" |
-| `[PERF_ALERT]` | Specify the perf alert | "[specify value]" |
-| `[CURR_DEVICES]` | Specify the curr devices | "[specify value]" |
-| `[CURR_DATA]` | Specify the curr data | "[specify value]" |
-| `[CURR_FEATURES]` | Specify the curr features | "[specify value]" |
-| `[CURR_INVEST]` | Specify the curr invest | "[specify value]" |
-| `[P1_TIME]` | Specify the p1 time | "[specify value]" |
-| `[P1_DEVICES]` | Specify the p1 devices | "[specify value]" |
-| `[P1_DATA]` | Specify the p1 data | "[specify value]" |
-| `[P1_FEATURES]` | Specify the p1 features | "[specify value]" |
-| `[P1_INVEST]` | Specify the p1 invest | "[specify value]" |
-| `[P2_TIME]` | Specify the p2 time | "[specify value]" |
-| `[P2_DEVICES]` | Specify the p2 devices | "[specify value]" |
-| `[P2_DATA]` | Specify the p2 data | "[specify value]" |
-| `[P2_FEATURES]` | Specify the p2 features | "[specify value]" |
-| `[P2_INVEST]` | Specify the p2 invest | "[specify value]" |
-| `[P3_TIME]` | Specify the p3 time | "[specify value]" |
-| `[P3_DEVICES]` | Specify the p3 devices | "[specify value]" |
-| `[P3_DATA]` | Specify the p3 data | "[specify value]" |
-| `[P3_FEATURES]` | Specify the p3 features | "[specify value]" |
-| `[P3_INVEST]` | Specify the p3 invest | "[specify value]" |
-| `[VISION_TIME]` | Specify the vision time | "[specify value]" |
-| `[VISION_DEVICES]` | Specify the vision devices | "[specify value]" |
-| `[VISION_DATA]` | Specify the vision data | "[specify value]" |
-| `[VISION_FEATURES]` | Specify the vision features | "[specify value]" |
-| `[VISION_INVEST]` | Specify the vision invest | "[specify value]" |
+| `[PROJECT_NAME]` | Name of the IoT project | "Smart Factory 4.0", "Connected Fleet Management", "Smart Agriculture Platform" |
+| `[DEVICE_COUNT]` | Total number of IoT devices | "100", "1,000", "10,000", "100,000+" |
+| `[LOCATION_COUNT]` | Number of deployment locations | "5 facilities", "50 sites", "200+ locations globally" |
+| `[DATA_VOLUME]` | Daily data volume in GB | "10", "100", "500", "1,000+" |
+| `[LATENCY_REQUIREMENT]` | Maximum acceptable latency in ms | "10", "50", "100", "500", "1000" |
+| `[BUDGET]` | Project budget | "$500,000", "$2M", "$10M", "$50M" |
+| `[DEVICE_1]` | Device type 1 | "Temperature/Humidity Sensor", "Vibration Sensor", "Smart Meter" |
+| `[QTY_1]` | Quantity of device type 1 | "500", "1,000", "5,000" |
+| `[SENSORS_1]` | Sensors on device type 1 | "Temperature, Humidity, Pressure", "3-axis accelerometer, gyroscope" |
+| `[PROC_1]` | Processing capability of device 1 | "ARM Cortex-M4", "ESP32", "Nordic nRF52840" |
+| `[CONN_1]` | Connectivity for device 1 | "LoRaWAN", "WiFi", "BLE + Gateway", "NB-IoT" |
+| `[POWER_1]` | Power source for device 1 | "Battery (3-year life)", "Solar + Battery", "Wired 24V DC" |
+| `[COST_1]` | Cost per unit for device 1 | "25", "50", "150", "500" |
+| `[DEVICE_2]` | Device type 2 | "Industrial PLC", "Smart Camera", "Flow Meter" |
+| `[QTY_2]` | Quantity of device type 2 | "100", "250", "500" |
+| `[SENSORS_2]` | Sensors on device type 2 | "4K camera, IR sensor", "Ultrasonic flow, pressure" |
+| `[PROC_2]` | Processing capability of device 2 | "Intel Atom", "NVIDIA Jetson Nano", "Raspberry Pi 4" |
+| `[CONN_2]` | Connectivity for device 2 | "Ethernet + WiFi", "5G", "Industrial Ethernet (Profinet)" |
+| `[POWER_2]` | Power source for device 2 | "PoE (Power over Ethernet)", "110/220V AC", "Industrial 24V" |
+| `[COST_2]` | Cost per unit for device 2 | "200", "500", "1,500" |
+| `[DEVICE_3]` | Device type 3 | "Edge Gateway", "Asset Tracker", "Environmental Monitor" |
+| `[QTY_3]` | Quantity of device type 3 | "50", "200", "1,000" |
+| `[SENSORS_3]` | Sensors on device type 3 | "GPS, accelerometer, temperature", "CO2, particulate, noise" |
+| `[PROC_3]` | Processing capability of device 3 | "Intel Core i5", "ARM Cortex-A72", "Qualcomm Snapdragon" |
+| `[CONN_3]` | Connectivity for device 3 | "LTE Cat-M1", "Multi-protocol (WiFi+BLE+LoRa)", "Satellite + Cellular" |
+| `[POWER_3]` | Power source for device 3 | "Rechargeable Li-Ion (30-day)", "Vehicle power 12V", "Solar autonomous" |
+| `[COST_3]` | Cost per unit for device 3 | "100", "350", "800" |
+| `[DEVICE_4]` | Device type 4 | "Wearable Safety Device", "Smart Valve", "Level Sensor" |
+| `[QTY_4]` | Quantity of device type 4 | "200", "500", "2,000" |
+| `[SENSORS_4]` | Sensors on device type 4 | "Heart rate, fall detection, location", "Position feedback, pressure" |
+| `[PROC_4]` | Processing capability of device 4 | "Low-power MCU (STM32L4)", "Arduino-compatible", "Custom ASIC" |
+| `[CONN_4]` | Connectivity for device 4 | "BLE 5.0", "Zigbee", "HART protocol" |
+| `[POWER_4]` | Power source for device 4 | "Coin cell (2-year)", "Energy harvesting", "Loop-powered (4-20mA)" |
+| `[COST_4]` | Cost per unit for device 4 | "75", "150", "400" |
+| `[DEVICE_5]` | Device type 5 | "Drone/UAV", "Robotic Arm", "Quality Inspection Station" |
+| `[QTY_5]` | Quantity of device type 5 | "10", "25", "50" |
+| `[SENSORS_5]` | Sensors on device type 5 | "LiDAR, cameras, IMU", "Force/torque, vision", "High-res camera, X-ray" |
+| `[PROC_5]` | Processing capability of device 5 | "NVIDIA Jetson AGX", "Industrial PC (i7)", "Custom FPGA" |
+| `[CONN_5]` | Connectivity for device 5 | "5G + WiFi 6", "Industrial Ethernet", "Dedicated wireless link" |
+| `[POWER_5]` | Power source for device 5 | "High-capacity battery", "Industrial 3-phase", "UPS-backed" |
+| `[COST_5]` | Cost per unit for device 5 | "5,000", "25,000", "100,000" |
+| `[EDGE_CPU]` | Edge gateway CPU | "Intel Core i5-1135G7", "AMD Ryzen Embedded V1605B", "ARM Cortex-A72 quad-core" |
+| `[EDGE_RAM]` | Edge gateway RAM in GB | "8", "16", "32", "64" |
+| `[EDGE_STORAGE]` | Edge gateway storage in GB | "256 SSD", "512 NVMe", "1TB HDD + 256GB SSD" |
+| `[EDGE_ACCELERATOR]` | Edge ML accelerator | "NVIDIA Jetson Xavier NX", "Intel Movidius NCS2", "Google Coral TPU", "None" |
+| `[EDGE_OS]` | Edge gateway operating system | "Ubuntu 22.04 LTS", "Yocto Linux", "Windows IoT Enterprise", "Azure IoT Edge OS" |
+| `[EDGE_CONTAINER]` | Container runtime | "Docker + K3s", "containerd", "Podman", "AWS Greengrass" |
+| `[LOCAL_ANALYTICS]` | Local analytics capabilities | "Real-time aggregation, threshold alerts", "Statistical process control", "Time-series forecasting" |
+| `[ML_INFERENCE]` | ML inference at edge | "TensorFlow Lite models", "ONNX Runtime", "Custom PyTorch models", "OpenVINO" |
+| `[DATA_FILTERING]` | Data filtering logic | "Deduplication, outlier removal", "Signal smoothing, downsampling", "Delta compression" |
+| `[PROTOCOL_TRANS]` | Protocol translation | "Modbus to MQTT", "OPC-UA to REST", "BACnet to JSON", "CAN bus to cloud" |
+| `[SECURITY_PROC]` | Security processing | "TLS termination, certificate management", "Payload encryption/decryption", "Token validation" |
+| `[FOG_COUNT]` | Number of fog nodes | "5", "10", "25", "50" |
+| `[FOG_LOCATION]` | Fog node locations | "Regional data centers", "Factory floor clusters", "Distribution centers" |
+| `[EDGE_COUNT]` | Number of edge servers | "10", "50", "100", "500" |
+| `[EDGE_LOCATION]` | Edge server locations | "Per production line", "Per building", "Per geographic zone" |
+| `[MICRO_DC]` | Micro data center count | "2", "5", "10" |
+| `[MICRO_LOCATION]` | Micro DC locations | "Main campus", "Regional hubs", "Critical facilities" |
+| `[CDN_INTEGRATION]` | CDN integration | "AWS CloudFront for firmware", "Azure CDN for dashboards", "Akamai for global delivery" |
+| `[WIFI_USE]` | WiFi use case | "High-bandwidth indoor devices", "Real-time video streaming", "Mobile equipment" |
+| `[WIFI_BW]` | WiFi bandwidth | "100 Mbps", "500 Mbps", "1 Gbps (WiFi 6)" |
+| `[WIFI_RANGE]` | WiFi range | "30-50 meters indoor", "100m with repeaters" |
+| `[WIFI_POWER]` | WiFi power consumption | "Medium (100-500mW)", "High for video streaming" |
+| `[WIFI_SEC]` | WiFi security | "WPA3-Enterprise", "802.1X authentication", "RADIUS integration" |
+| `[WIFI_DEVICES]` | Devices using WiFi | "Cameras, tablets, high-bandwidth sensors", "500 devices per AP" |
+| `[LORA_USE]` | LoRaWAN use case | "Long-range, low-power sensors", "Agricultural monitoring", "Asset tracking" |
+| `[LORA_BW]` | LoRaWAN bandwidth | "0.3-50 kbps", "Optimized for small payloads" |
+| `[LORA_RANGE]` | LoRaWAN range | "2-5 km urban", "15+ km rural line-of-sight" |
+| `[LORA_POWER]` | LoRaWAN power consumption | "Very low (10-50mW)", "10+ year battery life possible" |
+| `[LORA_SEC]` | LoRaWAN security | "AES-128 encryption", "Network and application session keys" |
+| `[LORA_DEVICES]` | Devices using LoRaWAN | "Environmental sensors, meters, trackers", "Thousands per gateway" |
+| `[NBIOT_USE]` | NB-IoT use case | "Cellular IoT with deep coverage", "Utility metering", "Remote monitoring" |
+| `[NBIOT_BW]` | NB-IoT bandwidth | "26-62 kbps", "Optimized for infrequent transmissions" |
+| `[NBIOT_RANGE]` | NB-IoT range | "Carrier coverage area", "Excellent indoor penetration" |
+| `[NBIOT_POWER]` | NB-IoT power consumption | "Low (PSM mode: <5uA)", "10-year battery life" |
+| `[NBIOT_SEC]` | NB-IoT security | "LTE-level security", "SIM-based authentication" |
+| `[NBIOT_DEVICES]` | Devices using NB-IoT | "Smart meters, remote sensors, parking sensors" |
+| `[ZIGBEE_USE]` | Zigbee use case | "Mesh networks, building automation", "Smart home, lighting control" |
+| `[ZIGBEE_BW]` | Zigbee bandwidth | "250 kbps", "Low-latency control messages" |
+| `[ZIGBEE_RANGE]` | Zigbee range | "10-100 meters", "Extended via mesh" |
+| `[ZIGBEE_POWER]` | Zigbee power consumption | "Low (battery-friendly)", "Years on coin cell" |
+| `[ZIGBEE_SEC]` | Zigbee security | "AES-128 encryption", "Network key management" |
+| `[ZIGBEE_DEVICES]` | Devices using Zigbee | "Light switches, thermostats, door sensors", "250+ per coordinator" |
+| `[BLE_USE]` | BLE use case | "Short-range, wearables, beacons", "Proximity detection, asset tagging" |
+| `[BLE_BW]` | BLE bandwidth | "1-2 Mbps (BLE 5.0)", "Optimized for small packets" |
+| `[BLE_RANGE]` | BLE range | "10-30 meters typical", "Up to 200m (BLE 5.0 long range)" |
+| `[BLE_POWER]` | BLE power consumption | "Very low (<15mW)", "Months to years on battery" |
+| `[BLE_SEC]` | BLE security | "LE Secure Connections", "AES-CCM encryption" |
+| `[BLE_DEVICES]` | Devices using BLE | "Wearables, beacons, health monitors", "Hundreds per gateway" |
+| `[INGEST_PROC]` | Ingestion processing | "MQTT broker (Mosquitto/EMQX)", "Kafka ingestion", "AWS IoT Core" |
+| `[INGEST_VOL]` | Ingestion volume per second | "1,000 messages", "10,000 messages", "100,000+ messages" |
+| `[INGEST_LAT]` | Ingestion latency | "10", "50", "100" |
+| `[INGEST_STORE]` | Ingestion storage | "In-memory buffer", "Redis queue", "Kafka topics" |
+| `[INGEST_RETAIN]` | Ingestion retention | "1 hour", "24 hours", "7 days" |
+| `[EDGE_PROC]` | Edge processing engine | "Apache Flink on edge", "AWS Greengrass ML", "Azure IoT Edge modules" |
+| `[EDGE_VOL]` | Edge processed volume per second | "500 events", "5,000 events", "50,000 events" |
+| `[EDGE_LAT]` | Edge processing latency | "5", "20", "50" |
+| `[EDGE_STORE]` | Edge local storage | "SQLite", "InfluxDB Edge", "TimescaleDB" |
+| `[EDGE_RETAIN]` | Edge data retention | "24 hours", "7 days", "30 days (rolling)" |
+| `[STREAM_PROC]` | Stream processing platform | "Apache Kafka Streams", "Apache Flink", "AWS Kinesis", "Azure Stream Analytics" |
+| `[STREAM_VOL]` | Stream volume per second | "10,000 events", "100,000 events", "1M+ events" |
+| `[STREAM_LAT]` | Stream processing latency | "100", "500", "1000" |
+| `[STREAM_STORE]` | Stream intermediate storage | "Kafka topics", "Kinesis Data Streams", "Event Hubs" |
+| `[STREAM_RETAIN]` | Stream retention | "24 hours", "7 days", "30 days" |
+| `[BATCH_PROC]` | Batch processing platform | "Apache Spark", "AWS EMR", "Databricks", "Azure Synapse" |
+| `[BATCH_VOL]` | Batch processing volume | "100 GB", "1 TB", "10 TB per batch" |
+| `[BATCH_LAT]` | Batch processing latency in minutes | "15", "60", "240" |
+| `[BATCH_STORE]` | Batch storage | "S3/ADLS data lake", "Parquet files", "Delta Lake" |
+| `[BATCH_RETAIN]` | Batch data retention | "90 days", "1 year", "7 years (compliance)" |
+| `[ARCHIVE_PROC]` | Archive processing | "Glacier lifecycle rules", "Cold storage tiering", "Compression + archival" |
+| `[ARCHIVE_VOL]` | Archive volume | "1 TB/month", "10 TB/month", "100 TB/month" |
+| `[ARCHIVE_LAT]` | Archive retrieval latency in hours | "1", "12", "24-48" |
+| `[ARCHIVE_STORE]` | Archive storage | "AWS S3 Glacier", "Azure Archive Storage", "Google Coldline" |
+| `[ARCHIVE_RETAIN]` | Archive retention | "1 year", "5 years", "10+ years (regulatory)" |
+| `[FILTER_RULES]` | Data filtering rules | "Drop duplicates within 5s window", "Remove out-of-range values", "Smooth noise with moving average" |
+| `[AGGREGATION_RULES]` | Aggregation rules | "1-minute averages for temperature", "Hourly max/min/avg", "Daily rollups" |
+| `[ANOMALY_RULES]` | Anomaly detection rules | "3-sigma deviation alert", "Rate of change threshold", "ML-based pattern detection" |
+| `[COMPRESSION_RATIO]` | Data compression ratio | "5:1", "10:1", "50:1 for time-series" |
+| `[ENCRYPTION_METHOD]` | Data encryption method | "AES-256-GCM", "TLS 1.3 in transit", "Envelope encryption at rest" |
+| `[CLOUD_ANALYTICS]` | Cloud analytics platform | "AWS IoT Analytics", "Azure Time Series Insights", "Google Cloud IoT + BigQuery" |
+| `[ML_TRAINING]` | ML training infrastructure | "Amazon SageMaker", "Azure ML", "Vertex AI", "On-prem GPU cluster" |
+| `[HISTORICAL]` | Historical analysis capability | "Multi-year trend analysis", "Seasonal pattern detection", "Long-term degradation tracking" |
+| `[CORRELATION]` | Cross-device correlation | "Fleet-wide comparisons", "Multi-sensor fusion", "Spatial-temporal correlation" |
+| `[REPORTING]` | Reporting tools | "Power BI dashboards", "Grafana + InfluxDB", "Custom React dashboards", "Tableau" |
+| `[PROV_IMPL]` | Provisioning implementation | "Zero-touch provisioning", "QR code enrollment", "Bulk CSV import" |
+| `[PROV_SCALE]` | Provisioning scale | "1,000 devices/hour", "Automated fleet enrollment", "Self-registration" |
+| `[PROV_AUTO]` | Provisioning automation | "Fully automated with device certificates", "Semi-automated with approval workflow" |
+| `[PROV_SEC]` | Provisioning security | "X.509 certificates", "TPM-based attestation", "Secure element provisioning" |
+| `[PROV_INT]` | Provisioning integration | "Active Directory sync", "CMDB integration", "ERP asset management" |
+| `[CONFIG_IMPL]` | Configuration management | "Device twins (Azure)", "Shadow documents (AWS)", "LwM2M objects" |
+| `[CONFIG_SCALE]` | Configuration scale | "Bulk updates to 10K+ devices", "Gradual rollout with canary", "A/B testing support" |
+| `[CONFIG_AUTO]` | Configuration automation | "GitOps for device config", "Policy-based auto-configuration", "Template inheritance" |
+| `[CONFIG_SEC]` | Configuration security | "Signed configurations", "Role-based access control", "Audit logging" |
+| `[CONFIG_INT]` | Configuration integration | "CI/CD pipeline integration", "ServiceNow ITSM", "Terraform providers" |
+| `[MON_IMPL]` | Monitoring implementation | "Prometheus + Grafana", "AWS CloudWatch", "Azure Monitor", "Datadog" |
+| `[MON_SCALE]` | Monitoring scale | "100K metrics/minute", "Million+ time-series", "Real-time at scale" |
+| `[MON_AUTO]` | Monitoring automation | "Auto-discovery of new devices", "Dynamic dashboard generation", "ML-based baselines" |
+| `[MON_SEC]` | Monitoring security | "Encrypted metric transport", "Role-based dashboard access", "Audit trails" |
+| `[MON_INT]` | Monitoring integration | "PagerDuty/OpsGenie alerts", "ServiceNow tickets", "Slack notifications" |
+| `[OTA_IMPL]` | OTA update implementation | "AWS IoT Jobs", "Azure Device Update", "Mender.io", "Custom FOTA server" |
+| `[OTA_SCALE]` | OTA update scale | "10K devices simultaneously", "Phased rollout (1% -> 10% -> 100%)", "Geographic targeting" |
+| `[OTA_AUTO]` | OTA automation | "Scheduled maintenance windows", "Automatic rollback on failure", "Health-gated progression" |
+| `[OTA_SEC]` | OTA security | "Code signing with HSM", "Secure boot chain", "Encrypted firmware packages" |
+| `[OTA_INT]` | OTA integration | "CI/CD pipeline triggers", "Version control (Git)", "Release management tools" |
+| `[DIAG_IMPL]` | Diagnostics implementation | "Remote shell access", "Log streaming", "Remote debugging (GDB server)" |
+| `[DIAG_SCALE]` | Diagnostics scale | "On-demand for any device", "Batch diagnostics for fleet segments", "Continuous health scoring" |
+| `[DIAG_AUTO]` | Diagnostics automation | "Automated root cause analysis", "Self-healing scripts", "Predictive issue detection" |
+| `[DIAG_SEC]` | Diagnostics security | "Audit-logged remote access", "Time-limited sessions", "MFA for remote shell" |
+| `[DIAG_INT]` | Diagnostics integration | "Ticketing system integration", "Knowledge base linking", "Expert system recommendations" |
+| `[SECURE_BOOT]` | Secure boot implementation | "U-Boot verified boot", "UEFI Secure Boot", "ARM TrustZone boot" |
+| `[HSM]` | Hardware security module | "Embedded secure element (ATECC608)", "TPM 2.0", "Cloud HSM for key storage" |
+| `[TEE]` | Trusted execution environment | "ARM TrustZone", "Intel SGX", "OP-TEE implementation" |
+| `[FW_SIGNING]` | Firmware signing method | "RSA-2048 signatures", "ECDSA P-256", "Ed25519 signatures" |
+| `[PHYSICAL_SEC]` | Physical security measures | "Tamper-evident enclosures", "Anti-tamper mesh", "Secure debug port disable" |
+| `[E2E_ENCRYPTION]` | End-to-end encryption | "TLS 1.3 mutual authentication", "DTLS for UDP", "Application-layer encryption" |
+| `[VPN_TUNNEL]` | VPN/tunneling | "WireGuard tunnels", "IPsec VPN", "AWS Site-to-Site VPN" |
+| `[SEGMENTATION]` | Network segmentation | "VLANs per device type", "Micro-segmentation", "Zero-trust network access" |
+| `[ZERO_TRUST]` | Zero trust architecture | "Device identity verification", "Continuous authentication", "Least-privilege access" |
+| `[DDOS_PROTECT]` | DDoS protection | "AWS Shield", "Cloudflare", "Rate limiting at edge" |
+| `[REST_ENCRYPT]` | Data at rest encryption | "AES-256", "LUKS full-disk encryption", "Per-file encryption" |
+| `[TRANSIT_ENCRYPT]` | Data in transit encryption | "TLS 1.3", "mTLS", "Application-layer encryption" |
+| `[KEY_MGMT]` | Key management | "AWS KMS", "Azure Key Vault", "HashiCorp Vault", "On-device key storage" |
+| `[ANONYMIZATION]` | Data anonymization | "Differential privacy", "K-anonymity", "Data masking for PII" |
+| `[COMPLIANCE_REQS]` | Compliance requirements | "GDPR, CCPA", "HIPAA (healthcare)", "IEC 62443 (industrial)", "SOC 2 Type II" |
+| `[IOT_PROVIDER]` | IoT platform provider | "AWS IoT Core", "Azure IoT Hub", "Google Cloud IoT", "ThingsBoard" |
+| `[IOT_PURPOSE]` | IoT platform purpose | "Device connectivity and management", "Message routing and rules", "Device twin sync" |
+| `[IOT_FLOW]` | IoT platform data flow | "MQTT ingestion -> Rules Engine -> Lambda/Functions", "Bi-directional device communication" |
+| `[IOT_LIMITS]` | IoT platform limits | "500K messages/sec", "Unlimited devices", "1MB max message size" |
+| `[IOT_COST]` | IoT platform cost | "$1/million messages", "$0.08/device/month", "Usage-based pricing" |
+| `[TSDB_PROVIDER]` | Time-series database provider | "InfluxDB Cloud", "TimescaleDB", "Amazon Timestream", "Azure Data Explorer" |
+| `[TSDB_PURPOSE]` | TSDB purpose | "High-performance time-series storage", "Real-time queries", "Long-term retention" |
+| `[TSDB_FLOW]` | TSDB data flow | "Stream processing -> TSDB write", "Query API for dashboards", "Downsampling pipeline" |
+| `[TSDB_LIMITS]` | TSDB limits | "1M writes/sec", "Petabyte scale", "Millisecond query latency" |
+| `[TSDB_COST]` | TSDB cost | "$0.50/GB ingested", "$0.03/GB stored", "Query-based pricing" |
+| `[ANALYTICS_PROVIDER]` | Analytics platform provider | "Databricks", "Snowflake", "AWS Athena", "Google BigQuery" |
+| `[ANALYTICS_PURPOSE]` | Analytics purpose | "Ad-hoc analysis and reporting", "ML feature engineering", "Business intelligence" |
+| `[ANALYTICS_FLOW]` | Analytics data flow | "Data lake -> Analytics engine -> BI tools", "SQL queries on IoT data" |
+| `[ANALYTICS_LIMITS]` | Analytics limits | "Petabyte-scale queries", "Thousands of concurrent users", "Sub-second response" |
+| `[ANALYTICS_COST]` | Analytics cost | "$5/TB scanned", "$0.023/GB storage", "Compute-hour pricing" |
+| `[ML_PROVIDER]` | ML platform provider | "Amazon SageMaker", "Azure ML", "Google Vertex AI", "MLflow + custom" |
+| `[ML_PURPOSE]` | ML platform purpose | "Model training and deployment", "AutoML for IoT", "Edge model optimization" |
+| `[ML_FLOW]` | ML data flow | "Training data -> Model -> Edge deployment", "Continuous retraining pipeline" |
+| `[ML_LIMITS]` | ML platform limits | "GPU clusters on demand", "Real-time inference endpoints", "Model registry" |
+| `[ML_COST]` | ML platform cost | "$0.90/hr GPU training", "$0.10/1000 inferences", "Endpoint hosting fees" |
+| `[STORAGE_PROVIDER]` | Cloud storage provider | "AWS S3", "Azure Blob Storage", "Google Cloud Storage", "MinIO (on-prem)" |
+| `[STORAGE_PURPOSE]` | Storage purpose | "Raw data lake", "Processed data warehouse", "Model artifacts", "Firmware repository" |
+| `[STORAGE_FLOW]` | Storage data flow | "Ingestion -> Raw tier -> Processed tier -> Archive", "Lifecycle policies" |
+| `[STORAGE_LIMITS]` | Storage limits | "Unlimited capacity", "11 9s durability", "Multi-region replication" |
+| `[STORAGE_COST]` | Storage cost | "$0.023/GB/month (standard)", "$0.004/GB (archive)", "Egress fees apply" |
+| `[RT_LOCATION]` | Real-time analytics location | "Edge (sub-100ms)", "Fog layer", "Cloud (streaming)" |
+| `[RT_ALGO]` | Real-time analytics algorithm | "Moving averages, threshold detection", "CEP (Complex Event Processing)", "Real-time ML scoring" |
+| `[RT_LATENCY]` | Real-time analytics latency | "<10ms", "<100ms", "<1s" |
+| `[RT_ACCURACY]` | Real-time analytics accuracy | "95", "98", "99.5" |
+| `[RT_RESOURCE]` | Real-time resource usage | "Low (rule-based)", "Medium (streaming)", "High (ML inference)" |
+| `[PM_LOCATION]` | Predictive maintenance location | "Edge for inference", "Cloud for training", "Hybrid" |
+| `[PM_ALGO]` | Predictive maintenance algorithm | "Random Forest, XGBoost", "LSTM for time-series", "Isolation Forest for anomaly" |
+| `[PM_LATENCY]` | Predictive maintenance latency | "<1 minute", "<5 minutes", "Hourly batch" |
+| `[PM_ACCURACY]` | Predictive maintenance accuracy | "85", "92", "95" |
+| `[PM_RESOURCE]` | Predictive maintenance resources | "GPU for training, CPU for inference", "Edge TPU", "Cloud ML endpoints" |
+| `[AD_LOCATION]` | Anomaly detection location | "Edge real-time", "Stream processing", "Batch analysis" |
+| `[AD_ALGO]` | Anomaly detection algorithm | "Statistical (Z-score, IQR)", "Isolation Forest", "Autoencoder neural network" |
+| `[AD_LATENCY]` | Anomaly detection latency | "<100ms", "<1s", "<1 minute" |
+| `[AD_ACCURACY]` | Anomaly detection accuracy | "90", "95", "98" |
+| `[AD_RESOURCE]` | Anomaly detection resources | "Minimal (statistical)", "Moderate (ML)", "High (deep learning)" |
+| `[PR_LOCATION]` | Pattern recognition location | "Cloud (training)", "Edge (inference)", "Hybrid deployment" |
+| `[PR_ALGO]` | Pattern recognition algorithm | "DTW (Dynamic Time Warping)", "CNN for visual patterns", "Transformer models" |
+| `[PR_LATENCY]` | Pattern recognition latency | "<500ms", "<2s", "Near real-time" |
+| `[PR_ACCURACY]` | Pattern recognition accuracy | "88", "93", "97" |
+| `[PR_RESOURCE]` | Pattern recognition resources | "GPU required for training", "CPU/NPU for inference", "Cloud GPU clusters" |
+| `[OPT_LOCATION]` | Optimization analytics location | "Cloud (complex optimization)", "Edge (local optimization)", "Hybrid" |
+| `[OPT_ALGO]` | Optimization algorithm | "Linear programming, MILP", "Reinforcement learning", "Genetic algorithms" |
+| `[OPT_LATENCY]` | Optimization latency | "<1 minute", "<5 minutes", "Hourly recalculation" |
+| `[OPT_ACCURACY]` | Optimization improvement | "5-10% efficiency gain", "15-20% cost reduction", "30%+ optimization potential" |
+| `[OPT_RESOURCE]` | Optimization resources | "High CPU for optimization", "Cloud compute burst", "Dedicated solver instances" |
+| `[DEVICE_UPTIME]` | Target device uptime percentage | "99.5", "99.9", "99.99" |
+| `[NETWORK_REL]` | Network reliability percentage | "99.0", "99.9", "99.95" |
+| `[DATA_COMPLETE]` | Data completeness percentage | "98", "99.5", "99.9" |
+| `[PROC_LATENCY]` | Processing latency in ms | "10", "50", "100", "500" |
+| `[ERROR_RATE]` | Error rate percentage | "0.01", "0.1", "1.0" |
+| `[MSG_PER_SEC]` | Messages per second | "1,000", "10,000", "100,000", "1,000,000" |
+| `[INGESTION_RATE]` | Data ingestion rate in GB/hr | "1", "10", "100", "500" |
+| `[EDGE_UTIL]` | Edge utilization percentage | "40", "60", "80" |
+| `[CLOUD_COST]` | Monthly cloud cost | "5,000", "25,000", "100,000", "500,000" |
+| `[ROI_METRIC]` | ROI measurement | "25% cost reduction", "30% efficiency improvement", "50% downtime reduction" |
+| `[DEVICE_ALERT]` | Device offline alert | "Alert after 5 min offline", "Escalate after 30 min", "Auto-ticket after 1 hour" |
+| `[ANOMALY_ALERT]` | Anomaly detection alert | "Email for low severity", "SMS for medium", "PagerDuty for critical" |
+| `[THRESHOLD_ALERT]` | Threshold breach alert | "Dashboard highlight", "Slack notification", "Auto-remediation trigger" |
+| `[SECURITY_ALERT]` | Security event alert | "Immediate page to SOC", "Block suspicious device", "Forensic logging enabled" |
+| `[PERF_ALERT]` | Performance degradation alert | "Warning at 80% threshold", "Critical at 95%", "Auto-scale trigger" |
+| `[CURR_DEVICES]` | Current device count | "500", "2,000", "10,000" |
+| `[CURR_DATA]` | Current daily data volume | "50 GB/day", "200 GB/day", "1 TB/day" |
+| `[CURR_FEATURES]` | Current capabilities | "Basic monitoring, alerting", "Edge analytics, dashboards", "ML predictions" |
+| `[CURR_INVEST]` | Current investment | "250,000", "1,000,000", "5,000,000" |
+| `[P1_TIME]` | Phase 1 timeline | "Q1 2025", "6 months", "End of year" |
+| `[P1_DEVICES]` | Phase 1 device target | "2,000", "5,000", "10,000" |
+| `[P1_DATA]` | Phase 1 data volume target | "100 GB/day", "500 GB/day", "1 TB/day" |
+| `[P1_FEATURES]` | Phase 1 feature target | "Real-time dashboards, basic ML", "Predictive maintenance pilot", "Edge analytics" |
+| `[P1_INVEST]` | Phase 1 investment | "500,000", "1,500,000", "3,000,000" |
+| `[P2_TIME]` | Phase 2 timeline | "Q3 2025", "12 months", "Year 2" |
+| `[P2_DEVICES]` | Phase 2 device target | "10,000", "25,000", "50,000" |
+| `[P2_DATA]` | Phase 2 data volume target | "500 GB/day", "2 TB/day", "5 TB/day" |
+| `[P2_FEATURES]` | Phase 2 feature target | "Full predictive maintenance", "Cross-site analytics", "Advanced ML models" |
+| `[P2_INVEST]` | Phase 2 investment | "1,000,000", "3,000,000", "7,000,000" |
+| `[P3_TIME]` | Phase 3 timeline | "Q1 2026", "18 months", "Year 3" |
+| `[P3_DEVICES]` | Phase 3 device target | "50,000", "100,000", "250,000" |
+| `[P3_DATA]` | Phase 3 data volume target | "5 TB/day", "10 TB/day", "25 TB/day" |
+| `[P3_FEATURES]` | Phase 3 feature target | "Autonomous operations", "Digital twin integration", "AI-driven optimization" |
+| `[P3_INVEST]` | Phase 3 investment | "3,000,000", "8,000,000", "15,000,000" |
+| `[VISION_TIME]` | Long-term vision timeline | "2027", "3-5 years", "5+ years" |
+| `[VISION_DEVICES]` | Vision device target | "500,000+", "1,000,000+", "Global fleet" |
+| `[VISION_DATA]` | Vision data volume target | "100 TB/day", "Petabyte scale", "Exabyte potential" |
+| `[VISION_FEATURES]` | Vision capabilities | "Fully autonomous systems", "Cognitive IoT", "Self-optimizing networks" |
+| `[VISION_INVEST]` | Vision investment | "25,000,000", "50,000,000+", "Continuous investment" |
 
 ### 3. Connectivity & Network Architecture
 
