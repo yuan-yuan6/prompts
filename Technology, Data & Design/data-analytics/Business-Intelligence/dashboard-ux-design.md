@@ -1,6 +1,6 @@
 ---
 category: data-analytics
-last_updated: 2025-11-09
+last_updated: 2025-11-22
 related_templates:
 - data-analytics/Business-Intelligence/dashboard-strategy-requirements.md
 - data-analytics/Business-Intelligence/dashboard-technical-implementation.md
@@ -208,7 +208,255 @@ Annotations: System-generated insights for anomalies
 
 ---
 
+## Usage Examples
 
+### Example 1: B2B SaaS Customer Success Dashboard
+
+**Context:** Customer Success team needs visibility into account health and churn risk
+
+**Copy-paste this prompt:**
+
+```
+I need to design a comprehensive UX/UI framework for a dashboard with the following requirements:
+
+### User Context
+- User personas: Customer Success Managers (8), VP Customer Success, Account Executives (for account handoff)
+- Primary use cases: Daily account health monitoring, churn risk identification, QBR preparation
+- Technical comfort level: Medium - comfortable with filters but not complex analytics
+- Device usage: Desktop-primary with tablet for customer meetings
+- Access frequency: CSMs check daily, VP checks weekly for team oversight
+- Session duration: Quick glance (5 min) for daily checks, deep analysis (30 min) for QBR prep
+
+### Visual Design Requirements
+- Brand alignment: Flexible - follow general company colors (navy blue, teal accent)
+- Color palette: Green/yellow/red for health scores, blue for neutral, gray for background
+- Accessibility requirements: WCAG 2.1 AA compliance (team member with color vision deficiency)
+- Design style: Balanced - show account health at a glance but allow drill-down
+- Screen sizes to support: Desktop (primary), tablet (for customer meetings)
+
+### Data Visualization Needs
+
+**Comparison Analysis:**
+- Compare values across categories: Account health scores by segment (Enterprise/Mid-Market/SMB), NRR by CSM
+- Preferred chart types: Horizontal bar charts for CSM comparison, dot plot for benchmarking
+
+**Composition Analysis:**
+- Show part-to-whole relationships: Revenue by customer tier, support ticket categories
+- Preferred chart types: Stacked bar for revenue mix, treemap for ticket breakdown
+
+**Trend Analysis:**
+- Track changes over time: Health score trends, usage patterns, NPS over time
+- Preferred chart types: Line chart for health trends, area chart for usage patterns
+
+**Distribution Analysis:**
+- Show data distribution: Health score distribution across portfolio
+- Preferred chart types: Histogram for health scores, scatter plot for health vs. revenue
+
+**KPI Display:**
+- Key metric cards: Total ARR at Risk, Accounts in Red, Renewal Rate, NPS, Expansion Pipeline
+- Trend indicators: Month-over-month change with directional arrows, sparklines for 90-day trend
+
+### Navigation & Interaction
+- Navigation structure: Tab-based (Portfolio Overview | At-Risk Accounts | Renewals | My Accounts)
+- Filter requirements: CSM, customer segment, renewal date range, health score threshold
+- Drill-down capabilities: Portfolio → Segment → Account → Contact timeline
+- Cross-filtering: Yes - clicking a segment filters all charts
+- Export functionality: PDF for QBR decks, Excel for account lists
+- Search functionality: Yes - search by account name or contact
+
+### Layout & Information Hierarchy
+- Dashboard size: Multi-page with 4 main tabs
+- Widget count: 8-10 components per page
+- Information density: Medium - clean but comprehensive
+- Key focal point: Health score distribution and at-risk accounts
+- Content priority: 1) At-risk alerts, 2) Portfolio health, 3) Renewals, 4) Individual metrics
+
+### Interactive Features
+- Hover interactions: Tooltips showing account details, last activity, key contacts
+- Click behaviors: Drill-down to account detail, open Salesforce record
+- Real-time updates: Partial - health scores update daily, alerts in real-time
+- Personalization: Saved filters for "My Accounts", customizable alert thresholds
+- Annotations: System insights for accounts with declining health
+
+Please provide:
+1. User journey map for CSM daily workflow
+2. Visual design system with health score color coding
+3. Chart selection for each data type (health, usage, sentiment)
+4. Navigation structure with 4 main tabs
+5. Mobile/tablet optimization for customer meeting use
+```
+
+**Expected Output:**
+- CSM daily workflow: Alert review → At-risk triage → Account deep-dive → Action planning
+- Health score visualization: Traffic light system (0-40 red, 41-70 yellow, 71-100 green)
+- Tab structure with clear information architecture
+- Responsive tablet layout for customer-facing presentations
+
+---
+
+### Example 2: E-commerce Operations Dashboard
+
+**Context:** Operations team needs real-time visibility into order fulfillment and inventory
+
+**Copy-paste this prompt:**
+
+```
+I need to design a comprehensive UX/UI framework for a dashboard with the following requirements:
+
+### User Context
+- User personas: Warehouse Manager, Fulfillment Leads (3), VP Operations
+- Primary use cases: Real-time order monitoring, inventory alerts, shift performance tracking
+- Technical comfort level: Low to Medium - need simple, actionable interface
+- Device usage: Large wall-mounted displays in warehouse, desktop for managers, mobile for floor walks
+- Access frequency: Continuous during operations (displayed on TVs), hourly checks by leads
+- Session duration: Quick glance for real-time status, periodic deep dives for planning
+
+### Visual Design Requirements
+- Brand alignment: None - prioritize readability and quick scanning
+- Color palette: High contrast for warehouse displays, green/yellow/red status indicators
+- Accessibility requirements: Large fonts for wall displays, high contrast for bright warehouse
+- Design style: Data-dense but scannable - critical for time-sensitive operations
+- Screen sizes to support: Large display (4K TV), desktop, mobile
+
+### Data Visualization Needs
+
+**Comparison Analysis:**
+- Compare values across categories: Orders by fulfillment status, inventory by warehouse zone
+- Preferred chart types: Horizontal stacked bar for order status, column chart for zone comparison
+
+**Trend Analysis:**
+- Track changes over time: Orders per hour today vs. yesterday, SLA compliance trend
+- Preferred chart types: Line chart with hour-by-hour comparison, area chart for cumulative orders
+
+**KPI Display:**
+- Key metric cards: Orders Pending, Orders Shipped, SLA %, Pick Rate, Inventory Alerts
+- Trend indicators: Real-time count-up animation, red flash for SLA violations
+
+### Navigation & Interaction
+- Navigation structure: Single scrollable page for TV display, tabbed for desktop
+- Filter requirements: Warehouse location, carrier, order type (standard/express/same-day)
+- Drill-down capabilities: Status → Orders → Order detail
+- Cross-filtering: Yes - click on status bar to filter order list
+- Export functionality: PDF shift report, Excel order list
+
+### Layout & Information Hierarchy
+- Dashboard size: Single page for TV, multi-page for desktop
+- Widget count: 6 large components for TV visibility
+- Information density: Low for TV (large numbers), medium for desktop
+- Key focal point: Orders pending + SLA status
+- Content priority: 1) Real-time status, 2) SLA tracking, 3) Inventory alerts, 4) Shift metrics
+
+### Interactive Features
+- Hover interactions: None for TV, tooltips for desktop
+- Click behaviors: TV = auto-cycle views, Desktop = drill-down
+- Real-time updates: Yes - every 30 seconds for critical metrics
+- Personalization: Different views by role (floor vs. manager)
+- Annotations: Automatic alerts for inventory stockouts, SLA at risk
+
+Please provide:
+1. TV display layout optimized for 20-foot viewing distance
+2. Color system for status indicators (green/yellow/red thresholds)
+3. Real-time update strategy (which metrics update in real-time)
+4. Alert design for critical situations (flashing, sound, etc.)
+5. Desktop vs. TV layout differences
+```
+
+**Expected Output:**
+- TV layout: 4-6 large KPI cards, minimal text, huge numbers
+- Status thresholds: Green (>95% SLA), Yellow (90-95%), Red (<90%)
+- Update frequency by metric type
+- Alert escalation design (visual → audio → notification)
+
+---
+
+### Example 3: Healthcare Clinical Dashboard
+
+**Context:** Hospital needs clinical quality dashboard for department heads and CMO
+
+**Copy-paste this prompt:**
+
+```
+I need to design a comprehensive UX/UI framework for a dashboard with the following requirements:
+
+### User Context
+- User personas: CMO, Department Chiefs (6), Quality Officers (2), Nurse Managers
+- Primary use cases: Clinical quality monitoring, regulatory compliance, patient safety metrics
+- Technical comfort level: Low - physicians prefer simple, clean interfaces
+- Device usage: Desktop in offices, tablet during rounds
+- Access frequency: Daily for quality officers, weekly for leadership
+- Session duration: 10-15 minutes for quality review, 5 minutes for quick status check
+
+### Visual Design Requirements
+- Brand alignment: Strict - hospital brand (blue, white, professional)
+- Color palette: Muted professional colors, red only for critical safety alerts
+- Accessibility requirements: WCAG 2.1 AA, high contrast for aging user base
+- Design style: Minimal and clean - physicians won't use cluttered interfaces
+- Screen sizes to support: Desktop (primary), tablet (iPad Pro for rounds)
+
+### Data Visualization Needs
+
+**Comparison Analysis:**
+- Compare values across categories: Quality metrics by department, benchmark vs. actual
+- Preferred chart types: Bullet charts for vs. benchmark, horizontal bar for department comparison
+
+**Composition Analysis:**
+- Show part-to-whole relationships: Patient mix by acuity, infection types
+- Preferred chart types: Stacked bar (not pie) for clear comparison
+
+**Trend Analysis:**
+- Track changes over time: Infection rates, readmission trends, length of stay
+- Preferred chart types: Line chart with control limits (SPC), sparklines for quick trends
+
+**Distribution Analysis:**
+- Show data distribution: Length of stay distribution, wait time histogram
+- Preferred chart types: Box plot for LOS, histogram for wait times
+
+**Geographic Analysis:**
+- Location-based data: Floor-by-floor patient census, infection hotspots
+- Preferred chart types: Floor plan heatmap, simple location markers
+
+**KPI Display:**
+- Key metric cards: HAI Rate, Readmission Rate, Mortality Index, Patient Satisfaction, ED Wait Time
+- Trend indicators: Statistical control indicators (within control/above UCL/below LCL)
+
+### Navigation & Interaction
+- Navigation structure: Top navigation (Quality | Safety | Experience | Operations)
+- Filter requirements: Department, date range, patient population, unit
+- Drill-down capabilities: Hospital → Department → Unit → Metric detail
+- Cross-filtering: Limited - filter by department only (HIPAA concerns)
+- Export functionality: PDF for board reports, limited Excel (de-identified)
+- Search functionality: Metric search only (no patient search on dashboard)
+
+### Layout & Information Hierarchy
+- Dashboard size: Single scrollable page per domain (Quality, Safety, etc.)
+- Widget count: 8-10 components, well-spaced
+- Information density: Low - white space is critical for busy clinicians
+- Key focal point: Safety alerts and quality exceptions
+- Content priority: 1) Safety alerts, 2) Regulatory metrics, 3) Trends, 4) Benchmarks
+
+### Interactive Features
+- Hover interactions: Metric definitions (clinicians need to verify methodology)
+- Click behaviors: Drill to department detail, open methodology documentation
+- Real-time updates: Daily refresh at 6 AM (near-real-time not needed for quality metrics)
+- Personalization: Department-specific default views by user role
+- Annotations: CMS star ratings, national benchmarks, control limits
+
+Please provide:
+1. Clinical dashboard design principles (minimal, trustworthy, actionable)
+2. Statistical process control (SPC) chart design for quality metrics
+3. Alert design for safety events (without alarm fatigue)
+4. HIPAA-compliant drill-down strategy
+5. Tablet layout for physician rounding
+```
+
+**Expected Output:**
+- Clean, minimal design with ample white space
+- SPC charts with UCL/LCL control limits
+- Alert prioritization (critical/warning/informational)
+- De-identified drill-down paths
+- Touch-friendly tablet interface for rounds
+
+---
 
 ## Related Resources
 

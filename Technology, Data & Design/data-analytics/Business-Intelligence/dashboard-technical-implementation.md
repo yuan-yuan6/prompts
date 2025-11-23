@@ -12,7 +12,7 @@ related_templates:
 - data-analytics/Business-Intelligence/dashboard-data-architecture.md
 - data-analytics/Business-Intelligence/dashboard-security-compliance.md
 - data-analytics/Business-Intelligence/dashboard-design-overview.md
-last_updated: 2025-11-09
+last_updated: 2025-11-22
 industries:
 - technology
 type: template
@@ -240,6 +240,280 @@ Version control: Git (GitHub)
 Test environments: Dev, Test, Prod
 Deployment approach: Blue-green deployment to minimize downtime
 ```
+
+---
+
+## Usage Examples
+
+### Example 1: Healthcare Provider Analytics Platform
+
+**Context:** Regional hospital system needs BI platform for clinical and operational analytics
+
+**Copy-paste this prompt:**
+
+```
+I need to design the technical architecture and select platforms for a dashboard solution with the following requirements:
+
+### Platform Selection
+**Dashboard Platform:**
+- Platform preference: Undecided - need HIPAA-compliant recommendation
+- Key decision factors: HIPAA compliance, ease of use for clinical staff, mobile access
+- User licensing model: Named users for analytics, embedded for patient portals
+- Expected user count: 500 (200 physicians, 150 nurses, 100 admin, 50 executives)
+- Budget constraints: $200K annually for platform and infrastructure
+
+**Technology Stack:**
+- Data warehouse: Azure Synapse Analytics (existing Microsoft ecosystem)
+- Backend requirements: APIs for Epic EHR integration, patient portal embedding
+- Frontend requirements: Standard dashboards + embedded analytics in patient portal
+- Development framework: React for custom patient-facing components
+- Cloud provider: Azure (existing BAA in place)
+
+### Infrastructure Requirements
+**Compute & Storage:**
+- Expected concurrent users: 100-150 during shift changes
+- Peak usage periods: 7 AM shift change, month-end reporting
+- Query complexity: Mix of real-time operational queries and complex analytics
+- Data volume: 500 GB clinical data, growing 50 GB/month
+- Performance target: <5 seconds for clinical dashboards, <10 seconds for analytics
+
+**Scalability:**
+- Growth projection: Adding 2 new hospitals in 2 years (3x users, 4x data)
+- Auto-scaling needs: Yes - handle shift change peaks automatically
+- Geographic distribution: Single region (US-East) with DR in US-West
+- High availability requirements: 99.9% uptime (clinical operations)
+
+### Multi-Device Support
+**Desktop Experience:**
+- Primary browsers: Chrome on clinical workstations, Edge on admin
+- Minimum screen resolution: 1920x1080 (large monitors at nursing stations)
+- Desktop-specific features: Multi-dashboard views for command centers
+
+**Mobile Requirements:**
+- Mobile platform priority: iOS primary (physicians), Android secondary
+- Mobile use cases: Census updates, critical alerts, on-call dashboard access
+- Offline capability: Required for basic patient census (network outages)
+- Native app vs. responsive web: Native app for push notifications
+- Tablet optimization: Yes - tablets used during rounds
+
+### Performance Optimization
+**Caching Strategy:**
+- Caching requirements: Cache patient census (5-min refresh), cache analytics (hourly)
+- Cache invalidation: Event-driven for critical alerts, time-based for analytics
+- CDN usage: Azure CDN for static assets, not for PHI
+
+**Query Optimization:**
+- Pre-aggregation strategy: Daily patient statistics, rolling 30-day metrics
+- Materialized views: For quality metrics, length of stay calculations
+- Query optimization: Partition by facility_id and date
+- Partitioning: Monthly partitions on service_date
+
+### Integration & APIs
+**Integration Points:**
+- SSO integration: SAML with Azure AD, Epic SSO for clinical context
+- Embedding requirements: Embed in Epic (Hyperspace), patient portal
+- API requirements: Read-only REST APIs for third-party applications
+- Webhook support: Required for critical alert notifications
+- Third-party integrations: Epic FHIR APIs, Microsoft Teams for alerts
+
+Please provide:
+1. HIPAA-compliant BI platform recommendation with BAA availability
+2. Technical architecture with Epic EHR integration
+3. Mobile strategy for clinical staff (iOS app architecture)
+4. HA/DR design for 99.9% availability requirement
+5. Performance optimization for shift-change peaks
+```
+
+**Expected Output:**
+- Platform: Power BI Premium (Microsoft BAA available) or Tableau Server (HIPAA-compliant)
+- Epic integration: FHIR R4 APIs for patient context, SMART on FHIR for launch
+- Mobile: Native iOS app with Power BI Embedded SDK, push notifications for critical alerts
+- HA: Multi-AZ deployment, Azure paired regions for DR, geo-redundant backups
+
+---
+
+### Example 2: Embedded Analytics for SaaS Product
+
+**Context:** B2B SaaS company embedding analytics into their product for customers
+
+**Copy-paste this prompt:**
+
+```
+I need to design the technical architecture and select platforms for a dashboard solution with the following requirements:
+
+### Platform Selection
+**Dashboard Platform:**
+- Platform preference: Embedded-first platform (considering Looker, Sisense, Sigma, custom)
+- Key decision factors: White-label capability, multi-tenant, API-first, developer experience
+- User licensing model: Consumption-based or flat fee per customer
+- Expected user count: 500 customers, 5-50 users each = 5,000-25,000 total users
+- Budget constraints: $150K/year platform + margin for customer pricing ($100-500/customer/month)
+
+**Technology Stack:**
+- Data warehouse: Snowflake (existing)
+- Backend requirements: REST APIs for customer data access, GraphQL for custom queries
+- Frontend requirements: Full white-label, JavaScript SDK, React components
+- Development framework: React (existing product frontend)
+- Cloud provider: AWS (existing infrastructure)
+
+### Infrastructure Requirements
+**Compute & Storage:**
+- Expected concurrent users: 500-1000 across all tenants
+- Peak usage periods: Business hours across time zones (always-on)
+- Query complexity: Simple aggregations per tenant, complex cross-tenant for admins
+- Data volume: 100 GB per large customer, 2 TB total
+- Performance target: <2 seconds (must match product performance)
+
+**Scalability:**
+- Growth projection: 2x customers in 12 months, 5x in 24 months
+- Auto-scaling needs: Critical - must scale with customer growth
+- Geographic distribution: US (primary), EU (expanding)
+- High availability requirements: 99.9% (SLA to customers)
+
+### Multi-Tenant Architecture
+**Tenant Isolation:**
+- Data isolation: Row-level security with tenant_id in every query
+- Compute isolation: Shared compute with tenant-aware query limits
+- Customization: Per-tenant themes, custom metrics, custom dashboards
+
+### Multi-Device Support
+**Desktop Experience:**
+- Primary browsers: Chrome, Safari, Firefox, Edge (all current versions)
+- Desktop-specific features: Full analytics, dashboard builder for power users
+
+**Mobile Requirements:**
+- Mobile platform priority: Responsive web (not native app)
+- Mobile use cases: Quick metric checks, alerts
+- Offline capability: Not required
+- Mobile approach: Progressive Web App with responsive design
+
+### Performance Optimization
+**Caching Strategy:**
+- Caching requirements: Per-tenant query result caching (15-min TTL)
+- Cache invalidation: Tenant-aware cache keys, invalidate on data refresh
+- CDN usage: CloudFront for static assets, cache API responses at edge
+
+**Query Optimization:**
+- Pre-aggregation strategy: Tenant-level daily/monthly aggregations
+- Materialized views: Per-tenant summary tables
+- Query optimization: Snowflake warehouse scaling, result caching
+- Partitioning: By tenant_id and date
+
+### Integration & APIs
+**Integration Points:**
+- SSO integration: Customer's SSO via SAML/OIDC, JWT from our product auth
+- Embedding requirements: iFrame with signed tokens, JavaScript SDK preferred
+- API requirements: Full REST API for customers to pull their data
+- Webhook support: Required for customers' integrations
+- Third-party integrations: Slack, Zapier for customer workflows
+
+Please provide:
+1. Embedded BI platform comparison for multi-tenant SaaS
+2. Multi-tenant data architecture with Snowflake
+3. White-label embedding architecture (SDK vs. iFrame)
+4. Per-tenant caching and query optimization
+5. Pricing model for analytics feature (cost structure)
+```
+
+**Expected Output:**
+- Platform comparison: Looker (LookML flexibility), Sisense (embedded-first), Sigma (cloud-native), Custom (full control)
+- Multi-tenant: Snowflake Row Access Policies, tenant_id in all tables, secure views
+- Embedding: JavaScript SDK with signed JWT tokens, tenant context in embed URL
+- Caching: Redis with tenant-prefixed keys, Snowflake result caching per query
+
+---
+
+### Example 3: Enterprise Self-Service BI Migration
+
+**Context:** Enterprise migrating from on-premise SSRS to cloud-based self-service BI
+
+**Copy-paste this prompt:**
+
+```
+I need to design the technical architecture and select platforms for a dashboard solution with the following requirements:
+
+### Platform Selection
+**Dashboard Platform:**
+- Platform preference: Evaluating Power BI vs. Tableau for enterprise self-service
+- Key decision factors: Self-service for business users, governance for IT, Microsoft ecosystem
+- User licensing model: Named users (viewers + creators)
+- Expected user count: 2,000 total (200 creators, 1,800 viewers)
+- Budget constraints: $500K annually (platform + infrastructure)
+
+**Technology Stack:**
+- Data warehouse: Migrating from SQL Server to Snowflake (in progress)
+- Backend requirements: Enterprise service bus integration, existing APIs
+- Frontend requirements: SharePoint integration, Teams embedding
+- Development framework: N/A - using BI platform native development
+- Cloud provider: Azure (primary), some AWS for data sources
+
+### Infrastructure Requirements
+**Compute & Storage:**
+- Expected concurrent users: 300-500 during business hours
+- Peak usage periods: 9 AM globally, month-end close
+- Query complexity: Range from simple to complex ad-hoc analysis
+- Data volume: 5 TB in Snowflake, growing 500 GB/month
+- Performance target: <10 seconds for complex ad-hoc, <3 seconds for standard reports
+
+**Scalability:**
+- Growth projection: 3,000 users in 2 years (50% growth)
+- Auto-scaling needs: Yes - Snowflake auto-suspend, BI platform capacity units
+- Geographic distribution: Global (US, EU, APAC offices)
+- High availability requirements: 99.5% for analytics, 99.9% for critical reports
+
+### Multi-Device Support
+**Desktop Experience:**
+- Primary browsers: Edge and Chrome (enterprise-managed)
+- Minimum screen resolution: 1366x768 (older laptops in field)
+- Desktop-specific features: Excel integration, PowerPoint export
+
+**Mobile Requirements:**
+- Mobile platform priority: Both iOS and Android (managed devices)
+- Mobile use cases: KPI monitoring, approval workflows
+- Offline capability: Required for field sales (spotty connectivity)
+- Native app vs. responsive web: Native app for push and offline
+- Tablet optimization: Yes - executives use iPads
+
+### Performance Optimization
+**Caching Strategy:**
+- Caching requirements: Dataset refresh caching, incremental refresh
+- Cache invalidation: Scheduled refresh (most datasets 4x daily, some hourly)
+- CDN usage: Microsoft CDN for Power BI, CloudFront for custom portal
+
+**Query Optimization:**
+- Pre-aggregation strategy: Power BI aggregations for common queries
+- Materialized views: Snowflake materialized views for complex calcs
+- Query optimization: Power BI composite models, DirectQuery for real-time
+- Partitioning: Incremental refresh partitions by month
+
+### Integration & APIs
+**Integration Points:**
+- SSO integration: Azure AD (existing), federated for acquired companies
+- Embedding requirements: SharePoint, Teams, custom portals
+- API requirements: Power BI REST APIs for automation and embedding
+- Webhook support: Power Automate for alerting and workflow
+- Third-party integrations: ServiceNow (IT), Workday (HR), SAP (finance)
+
+### Governance & Management
+**Enterprise Features:**
+- Deployment pipeline: Dev → Test → Prod with CI/CD
+- Version control: Azure DevOps for Power BI dataset definitions
+- Certification: Certified datasets for trusted data sources
+- Lineage: Data lineage tracking for audit and compliance
+
+Please provide:
+1. Power BI vs. Tableau enterprise comparison for this use case
+2. Enterprise deployment architecture (Premium capacity sizing)
+3. Governance framework for self-service with guardrails
+4. Hybrid DirectQuery + Import strategy for performance
+5. Global deployment with regional performance optimization
+```
+
+**Expected Output:**
+- Recommendation: Power BI Premium for Microsoft ecosystem alignment
+- Capacity sizing: 2x P2 capacities (one US, one EU) with EM sizing for APAC
+- Governance: Certified datasets, deployment pipelines, usage monitoring
+- Hybrid model: Import for historical, DirectQuery for real-time, composite for both
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 category: data-analytics
-last_updated: 2025-11-09
+last_updated: 2025-11-22
 related_templates:
 - data-analytics/Business-Intelligence/dashboard-technical-implementation.md
 - data-analytics/Business-Intelligence/dashboard-data-architecture.md
@@ -293,7 +293,266 @@ RPO: 1 hour maximum data loss
 
 ---
 
+## Usage Examples
 
+### Example 1: Financial Services SOX Compliance
+
+**Context:** Investment firm needs SOX-compliant dashboard security for financial reporting
+
+**Copy-paste this prompt:**
+
+```
+I need to design a comprehensive security and compliance framework for a dashboard solution with the following requirements:
+
+### Security Context
+**Organizational Requirements:**
+- Organization type: Public company (SEC registered investment advisor)
+- Industry regulations: SOX, SEC Rule 17a-4, FINRA regulations
+- Data sensitivity level: Highly confidential (financial data, client portfolios)
+- Security maturity: Advanced (existing SOC 2 Type II certified)
+- Compliance requirements: SOX 302/404, SEC Recordkeeping, FINRA 4511
+
+**User Access:**
+- Total users: 150 (50 portfolio managers, 75 analysts, 25 executives/compliance)
+- User types: Internal employees only
+- Geographic distribution: US offices (NYC, Chicago, SF)
+- Access patterns: On-premises during trading hours, VPN for remote
+- BYOD policy: Prohibited for trading systems
+
+### Authentication & Authorization
+**Authentication:**
+- Authentication method: SSO with MFA (hardware token required for trading dashboards)
+- Identity provider: Okta
+- MFA requirements: Required for all users, hardware token for portfolio access
+- Session management: 15-minute timeout for trading, 30-minute for reporting
+- Password policy: 16 characters, complexity, 60-day rotation
+
+**Authorization:**
+- Access control model: RBAC with attribute-based restrictions
+- Role hierarchy: Chief Investment Officer > Portfolio Manager > Analyst > Compliance (separate)
+- Permission levels: View Aggregated, View Detailed, View + Export, Admin
+- Row-level security: Required - users see only their assigned portfolios/clients
+- Column-level security: Required - hide client PII except for authorized roles
+- Dynamic data masking: Required for SSN, account numbers, detailed holdings (role-based)
+
+### Data Security
+**Encryption:**
+- Data at rest: AES-256 encryption (all financial data)
+- Data in transit: TLS 1.3 only
+- Key management: AWS KMS with HSM, key rotation every 90 days
+- Encryption scope: Full database encryption, separate keys per data classification
+
+**Data Protection:**
+- PII handling: Client SSN, DOB masked in dashboards, full access only for operations
+- PHI requirements: N/A
+- Data classification: Public, Internal, Confidential, Highly Confidential (trading data)
+- Data retention: 7 years (SEC/FINRA requirement), trading data indefinite
+- Backup encryption: All backups encrypted, stored in separate AWS region
+
+### Audit & Compliance
+**Audit Requirements:**
+- Audit logging scope: All access to financial data, all exports, all admin actions
+- Log retention: 7 years (regulatory requirement)
+- Audit trail requirements: Immutable, tamper-evident, write-once storage (S3 Object Lock)
+- User activity monitoring: Real-time monitoring, alerts on unusual access patterns
+- Compliance reporting: Monthly SOX control reports, quarterly FINRA reports
+
+**Governance Framework:**
+- Data ownership: CIO owns investment data, CFO owns financial reporting, CCO owns compliance
+- Change management: CAB approval required, change freeze during trading hours
+- Access review frequency: Quarterly (SOX requirement), monthly for privileged access
+- Security assessment: Annual SOC 2 Type II audit, quarterly penetration testing
+
+Please provide:
+1. SOX control framework mapped to dashboard security controls
+2. Segregation of duties matrix for financial dashboard access
+3. Audit logging specification for SEC recordkeeping compliance
+4. Change management process for SOX-compliant dashboard updates
+5. Evidence collection approach for annual SOX audit
+```
+
+**Expected Output:**
+- SOX IT General Controls (ITGC) mapping for dashboard environment
+- Segregation of duties: Portfolio managers can't approve their own trades, compliance has read-only
+- Audit logging: Who accessed what data, when, from where, what they exported
+- Change management: Dual approval, testing, documented rollback procedures
+
+---
+
+### Example 2: Retail GDPR and CCPA Compliance
+
+**Context:** E-commerce company needs privacy-compliant customer analytics dashboards
+
+**Copy-paste this prompt:**
+
+```
+I need to design a comprehensive security and compliance framework for a dashboard solution with the following requirements:
+
+### Security Context
+**Organizational Requirements:**
+- Organization type: Private company (e-commerce retailer)
+- Industry regulations: GDPR (EU customers), CCPA (California customers), PCI-DSS (payment data)
+- Data sensitivity level: Confidential (customer PII, purchase history)
+- Security maturity: Intermediate (growing data privacy program)
+- Compliance requirements: GDPR Articles 5, 6, 17, 32; CCPA 1798.100-199
+
+**User Access:**
+- Total users: 75 (25 marketing, 30 operations, 15 customer service, 5 executives)
+- User types: Internal employees, 5 external agency partners (marketing only)
+- Geographic distribution: US headquarters, EU subsidiary (UK, Germany offices)
+- Access patterns: Remote-first, VPN for sensitive data access
+- BYOD policy: Allowed with MDM for corporate data
+
+### Authentication & Authorization
+**Authentication:**
+- Authentication method: SSO with MFA
+- Identity provider: Azure AD
+- MFA requirements: Required for all users accessing customer data
+- Session management: 60-minute timeout, single concurrent session
+- Password policy: 12 characters, complexity, 90-day rotation
+
+**Authorization:**
+- Access control model: RBAC
+- Role hierarchy: Executive > Marketing Manager > Marketing Analyst > Agency Partner (limited)
+- Permission levels: No PII, Aggregated Only, PII Access (justified), Admin
+- Row-level security: Required - regional teams see only their region (EU, US)
+- Column-level security: Required - hide email, phone, address by default
+- Dynamic data masking: Required for all PII fields, unmasked only with data access justification
+
+### Data Security
+**Encryption:**
+- Data at rest: AES-256
+- Data in transit: TLS 1.2+
+- Key management: Azure Key Vault
+- Encryption scope: All customer data encrypted
+
+**Data Protection:**
+- PII handling: Pseudonymization for analytics, full PII only for customer service with justification
+- Data classification: Public, Internal, Personal Data, Sensitive Personal Data
+- Data retention: 3 years for marketing analytics, 7 years for order history (legal requirement)
+- Data deletion: Automated deletion workflows for GDPR Article 17 requests
+- Right to erasure: Dashboard must exclude deleted customer data within 30 days
+
+### Privacy & Consent
+- Consent management: Track customer consent preferences, filter dashboards by consent status
+- Data subject rights: Access request workflow, rectification, erasure, portability
+- Cross-border data transfer: SCCs for EU→US transfer, UK Addendum for UK data
+- Purpose limitation: Marketing dashboards only show customers who consented to marketing
+
+### Audit & Compliance
+**Audit Requirements:**
+- Audit logging scope: All PII access logged with business justification
+- Log retention: 2 years for access logs
+- User activity monitoring: Alerts on bulk PII access or export
+- Compliance reporting: Monthly GDPR compliance report, CCPA request tracking
+
+Please provide:
+1. GDPR Article 32 technical controls mapping for dashboard security
+2. Data subject rights implementation in dashboards (right to access, erasure)
+3. Consent-aware row-level security (filter data by consent status)
+4. Cross-border data transfer compliance for EU customer data
+5. Data minimization approach for marketing analytics
+```
+
+**Expected Output:**
+- GDPR Article 32 controls: Encryption, access controls, pseudonymization, audit logging
+- Data subject rights: Customer lookup dashboard for access requests, exclusion lists for erasure
+- Consent filtering: WHERE consent_marketing = true in all marketing dashboards
+- Privacy by design: Aggregate-first dashboards, drill-down to PII requires justification
+
+---
+
+### Example 3: Government Security (FedRAMP/FISMA)
+
+**Context:** Government contractor needs FedRAMP-compliant analytics platform
+
+**Copy-paste this prompt:**
+
+```
+I need to design a comprehensive security and compliance framework for a dashboard solution with the following requirements:
+
+### Security Context
+**Organizational Requirements:**
+- Organization type: Government contractor (federal agency contract)
+- Industry regulations: FedRAMP Moderate, FISMA, NIST 800-53, FIPS 140-2
+- Data sensitivity level: Controlled Unclassified Information (CUI)
+- Security maturity: Advanced (FedRAMP authorized cloud environment)
+- Compliance requirements: FedRAMP Moderate baseline (325 controls), agency-specific ATOs
+
+**User Access:**
+- Total users: 500 (300 government users, 200 contractor users)
+- User types: Federal employees, contractors with public trust clearance
+- Geographic distribution: CONUS only, government network access
+- Access patterns: Government workstations, CAC/PIV authentication required
+- BYOD policy: Prohibited
+
+### Authentication & Authorization
+**Authentication:**
+- Authentication method: CAC/PIV smart card + PIN (two-factor)
+- Identity provider: Agency's identity management system (ICAM)
+- MFA requirements: Required - CAC/PIV mandatory for all CUI access
+- Session management: 15-minute inactivity timeout, re-authentication required
+- Password policy: N/A - certificate-based authentication
+
+**Authorization:**
+- Access control model: RBAC with mandatory access control (MAC) for CUI
+- Role hierarchy: Federal Program Manager > Contracting Officer > Contractor PM > Analyst
+- Permission levels: Unclassified, CUI-Basic, CUI-Specified (need-to-know)
+- Row-level security: Required - users see only their program/contract data
+- Column-level security: Required - CUI marked fields require CUI access role
+- Dynamic data masking: Required for SSN, contract values (role-based unmasking)
+
+### Data Security
+**Encryption:**
+- Data at rest: AES-256 (FIPS 140-2 validated modules)
+- Data in transit: TLS 1.2 or TLS 1.3 with FIPS-validated algorithms
+- Key management: FIPS 140-2 Level 3 HSM, agency-owned keys
+- Encryption scope: All CUI data encrypted, validated cryptographic modules only
+
+**Data Protection:**
+- CUI handling: CUI banners on all dashboards containing CUI, handling instructions
+- Data classification: Unclassified, CUI-Basic, CUI-Specified, classified (out of scope)
+- Data retention: Per agency records schedule, minimum 3 years after contract close
+- Data deletion: Sanitization per NIST 800-88, verification required
+- Backup encryption: FIPS-validated encryption, geographically redundant within CONUS
+
+### Network Security
+**Network Controls:**
+- Network architecture: Agency's TIC (Trusted Internet Connection) only
+- IP whitelisting: Required - only agency-approved IP ranges
+- Firewall rules: Deny all, explicit allow per FISMA system boundary
+- FedRAMP boundary: Separate authorization boundary from other systems
+- API security: API gateway with mTLS, rate limiting, SIEM integration
+
+### Audit & Compliance
+**Audit Requirements:**
+- Audit logging scope: All access, all changes, all admin actions (AU-2 events)
+- Log retention: 1 year online, 6 years archive (per agency policy)
+- Audit trail requirements: Tamper-evident, centralized SIEM, real-time correlation
+- User activity monitoring: Continuous monitoring per FedRAMP ConMon
+- Compliance reporting: Monthly vulnerability scans, annual 3PAO assessment
+
+**Incident Response:**
+- Incident response plan: FedRAMP-compliant IR plan, 1-hour notification to agency
+- Breach notification: US-CERT notification within 1 hour of confirmed breach
+- Recovery time objective: 4 hours for critical systems
+- Recovery point objective: 1 hour maximum data loss
+
+Please provide:
+1. FedRAMP Moderate control mapping for dashboard access controls
+2. CUI handling requirements for dashboard display and export
+3. CAC/PIV authentication integration architecture
+4. Continuous monitoring (ConMon) dashboard for FedRAMP compliance
+5. System Security Plan (SSP) section template for dashboard component
+```
+
+**Expected Output:**
+- FedRAMP control mapping: AC-2 Account Management, AU-2 Audit Events, SC-13 Cryptographic Protection
+- CUI handling: Banners on all CUI dashboards, export restrictions, printing controls
+- CAC/PIV integration: SAML with certificate-based authentication, PIN verification
+- ConMon dashboard: POA&M status, vulnerability scan results, control assessment status
+
+---
 
 ## Related Resources
 

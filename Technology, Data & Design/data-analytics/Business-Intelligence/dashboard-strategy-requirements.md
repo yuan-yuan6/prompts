@@ -1,6 +1,6 @@
 ---
 category: data-analytics
-last_updated: 2025-11-09
+last_updated: 2025-11-22
 related_templates:
 - data-analytics/Business-Intelligence/dashboard-ux-design.md
 - data-analytics/Business-Intelligence/dashboard-data-architecture.md
@@ -258,3 +258,213 @@ Browse all **[data-analytics/Business Intelligence](../../data-analytics/Busines
 | `[CUSTOMER_SATISFACTION]` | Customer metrics | "NPS, CSAT, Customer effort score" |
 | `[BUDGET]` | Project budget | "$200,000" |
 | `[TIMELINE]` | Delivery timeline | "6 months" |
+
+## Usage Examples
+
+### Example 1: SaaS Executive Dashboard
+
+**Context:** B2B SaaS company needs executive visibility into business performance
+
+**Copy-paste this prompt:**
+
+```
+I need to develop a comprehensive business requirements framework for a dashboard solution with the following context:
+
+### Organization Context
+- Organization name: CloudMetrics SaaS
+- Industry sector: Technology (B2B SaaS)
+- Company size: Mid-market (250 employees, $50M ARR)
+- Strategic objectives: Growth (expand ARR 40% YoY), Efficiency (reduce churn below 5%)
+- Dashboard scope: Executive (C-suite and VP-level leadership)
+
+### Stakeholder Requirements
+- Primary users: CEO, CFO, CRO, VP Customer Success, VP Product
+- User count: 12 executives
+- Technical expertise level: Non-technical to business users
+- Decision-making needs: Weekly business reviews, board reporting, strategic planning
+- Key stakeholders: CEO (sponsor), CFO (budget owner), CRO (primary user)
+
+### Dashboard Portfolio
+- Executive dashboards needed: 1 unified executive dashboard with 5 focused views
+- Departmental dashboards: Sales, Customer Success, Product, Finance (phase 2)
+- Real-time monitoring requirements: ARR and pipeline updates daily, churn alerts real-time
+- Mobile dashboard needs: Yes - CEO and CRO need mobile access for board meetings
+
+### System Integration Needs
+- ERP system: NetSuite (financials, billing)
+- CRM system: Salesforce (pipeline, customers, ARR tracking)
+- Other critical systems: Stripe (payments), Intercom (support tickets), Mixpanel (product usage)
+- External data sources: Industry benchmarks (SaaS Capital, KeyBanc)
+
+### Key Performance Indicators
+
+**Financial Metrics:**
+- Revenue indicators: ARR, MRR, Net New ARR, Expansion ARR, ARR Growth Rate
+- Profitability measures: Gross margin, CAC payback period, LTV/CAC ratio
+- Cash flow tracking: Runway months, burn rate, collections aging
+- Budget variance: Actual vs forecast by department
+
+**Operational Metrics:**
+- Process efficiency: Sales cycle length, time to first value, support ticket resolution
+- Productivity measures: Revenue per employee, deals per rep
+- Quality indicators: Product uptime (99.9% SLA), bug resolution time
+- Resource utilization: Engineering capacity allocation
+
+**Customer Metrics:**
+- Customer satisfaction: NPS (target: 50+), CSAT, Product satisfaction score
+- Customer lifecycle: CAC, Gross retention, Net retention (target: 110%+), Logo churn
+- Service quality: First response time (<4 hours), Resolution time, Escalation rate
+
+Please provide:
+1. KPI framework with definitions, owners, and targets
+2. Dashboard portfolio architecture (what goes where)
+3. Data source mapping for each KPI
+4. Phased implementation roadmap (MVP in 6 weeks, full in 3 months)
+5. Success criteria and adoption metrics
+```
+
+**Expected Output:**
+- KPI hierarchy with 15-20 metrics across 4 categories
+- Executive dashboard wireframe concept
+- Data integration requirements by source
+- 3-phase implementation plan
+
+---
+
+### Example 2: Manufacturing Operations Dashboard
+
+**Context:** Manufacturing company needs real-time visibility into plant operations
+
+**Copy-paste this prompt:**
+
+```
+I need to develop a comprehensive business requirements framework for a dashboard solution with the following context:
+
+### Organization Context
+- Organization name: PrecisionMfg Corp
+- Industry sector: Manufacturing (discrete manufacturing, automotive parts)
+- Company size: Enterprise (3,500 employees, 4 plants across US)
+- Strategic objectives: Efficiency (reduce scrap 25%), Quality (zero defect shipments), Compliance (ISO 9001)
+- Dashboard scope: Operational (plant managers, shift supervisors, quality engineers)
+
+### Stakeholder Requirements
+- Primary users: Plant managers (4), Shift supervisors (24), Quality engineers (8), VP Operations
+- User count: 50 users across 4 facilities
+- Technical expertise level: Mixed - managers are business users, supervisors need simple interfaces
+- Decision-making needs: Real-time production decisions, shift handoff, quality escalation
+- Key stakeholders: VP Operations (sponsor), Plant Manager - Detroit (pilot site)
+
+### Dashboard Portfolio
+- Executive dashboards needed: 1 cross-plant operations summary for VP
+- Departmental dashboards: Per-plant production, quality, maintenance, safety
+- Real-time monitoring requirements: Production rates every 5 minutes, quality alerts immediate
+- Mobile dashboard needs: Yes - supervisors walk the floor with tablets
+
+### System Integration Needs
+- ERP system: SAP S/4HANA (production orders, inventory, costs)
+- CRM system: None (B2B with EDI)
+- Other critical systems: Ignition SCADA (machine data), Plex MES (production tracking), Maximo (maintenance)
+- External data sources: Customer EDI portals, supplier delivery tracking
+
+### Key Performance Indicators
+
+**Financial Metrics:**
+- Revenue indicators: Production value, cost per unit
+- Profitability measures: Plant-level margin, scrap cost, overtime cost
+- Cash flow tracking: Inventory turns, WIP value
+- Budget variance: Maintenance budget, labor budget
+
+**Operational Metrics:**
+- Process efficiency: OEE (target: 85%+), cycle time, changeover time, throughput
+- Productivity measures: Units per labor hour, machine utilization
+- Quality indicators: First pass yield (target: 99.5%), PPM defects, scrap rate
+- Resource utilization: Machine availability, labor efficiency
+
+**Customer Metrics:**
+- Customer satisfaction: On-time delivery rate (target: 98%+), quality PPM to customer
+- Customer lifecycle: Customer scorecard ratings
+- Service quality: Lead time, order fill rate
+
+Please provide:
+1. Real-time operational KPI framework with alert thresholds
+2. Plant floor dashboard requirements (big-screen displays)
+3. Shift handoff dashboard design
+4. Integration architecture for SCADA/MES/ERP data
+5. Alerting and escalation workflow
+```
+
+**Expected Output:**
+- Real-time OEE dashboard specification
+- Alert threshold matrix by KPI
+- Shift handoff report template
+- Data refresh requirements (5-min, hourly, daily)
+
+---
+
+### Example 3: Healthcare Revenue Cycle Dashboard
+
+**Context:** Hospital system needs visibility into revenue cycle performance
+
+**Copy-paste this prompt:**
+
+```
+I need to develop a comprehensive business requirements framework for a dashboard solution with the following context:
+
+### Organization Context
+- Organization name: Regional Health Partners (3-hospital system)
+- Industry sector: Healthcare (acute care hospitals + outpatient)
+- Company size: Enterprise (8,000 employees, $1.2B annual revenue)
+- Strategic objectives: Efficiency (reduce AR days 15%), Compliance (prevent denials), Growth (increase net revenue 5%)
+- Dashboard scope: Departmental (Revenue Cycle leadership and staff)
+
+### Stakeholder Requirements
+- Primary users: CFO, Revenue Cycle Director, Billing Managers (3), Coding Supervisors (2)
+- User count: 25 revenue cycle staff + executive leadership
+- Technical expertise level: Business users familiar with healthcare metrics
+- Decision-making needs: Daily worklist prioritization, denial management, payer negotiation
+- Key stakeholders: CFO (sponsor), Revenue Cycle Director (owner), IT Director (technical)
+
+### Dashboard Portfolio
+- Executive dashboards needed: 1 CFO revenue cycle summary (monthly board reporting)
+- Departmental dashboards: Billing/Collections, Coding, Denials Management, Payer Analysis
+- Real-time monitoring requirements: Claim status updates daily, denial alerts real-time
+- Mobile dashboard needs: Limited - primarily desktop users
+
+### System Integration Needs
+- ERP system: Workday (financials)
+- CRM system: None
+- Other critical systems: Epic (EHR/billing), Waystar (claims clearinghouse), Contract Manager
+- External data sources: Payer portals (via Waystar), CMS benchmarks
+
+### Key Performance Indicators
+
+**Financial Metrics:**
+- Revenue indicators: Net patient revenue, gross-to-net ratio, case mix index
+- Profitability measures: Cost to collect, collection rate by payer
+- Cash flow tracking: Days in AR (target: <45), cash collections, bad debt write-offs
+- Budget variance: Revenue vs budget, denials as % of revenue
+
+**Operational Metrics:**
+- Process efficiency: Clean claim rate (target: 95%+), coding turnaround, billing lag
+- Productivity measures: Claims processed per FTE, accounts worked per day
+- Quality indicators: Coding accuracy, first-pass resolution rate
+- Resource utilization: Staff productivity by function
+
+**Customer Metrics:**
+- Customer satisfaction: Patient billing satisfaction, payment plan adoption
+- Customer lifecycle: Patient financial engagement
+- Service quality: Call center wait time, statement clarity
+
+Please provide:
+1. Revenue cycle KPI framework aligned with HFMA benchmarks
+2. Denial management dashboard with root cause analysis
+3. Payer performance scorecard design
+4. AR aging analysis dashboard
+5. Daily worklist prioritization logic
+```
+
+**Expected Output:**
+- Revenue cycle scorecard with 20+ KPIs
+- Denial waterfall analysis structure
+- Payer contract performance comparison
+- AR aging buckets with action triggers
