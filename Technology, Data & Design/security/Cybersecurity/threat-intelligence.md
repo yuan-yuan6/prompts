@@ -152,58 +152,42 @@ Collection Framework:
 
 ## Variables
 
+### Intelligence Program Variables
 | Variable | Description | Example |
 |----------|-------------|----------|
-| `[INTELLIGENCE_OBJECTIVES]` | Specify the intelligence objectives | "Increase efficiency by 30%" |
-| `[PIR]` | Specify the pir | "[specify value]" |
-| `[THREAT_ACTORS]` | Specify the threat actors | "[specify value]" |
-| `[ATTACK_VECTORS]` | Specify the attack vectors | "[specify value]" |
-| `[INDUSTRY_FOCUS]` | Specify the industry focus | "Technology" |
-| `[GEOGRAPHIC_SCOPE]` | Specify the geographic scope | "[specify value]" |
-| `[TIME_HORIZON]` | Specify the time horizon | "[specify value]" |
-| `[INTELLIGENCE_CONSUMERS]` | Specify the intelligence consumers | "[specify value]" |
-| `[DECISION_SUPPORT]` | Specify the decision support | "[specify value]" |
-| `[INTELLIGENCE_SUCCESS_METRICS]` | Specify the intelligence success metrics | "[specify value]" |
-| `[COLLECTION_SOURCES]` | Specify the collection sources | "[specify value]" |
-| `[COLLECTION_METHODS]` | Specify the collection methods | "[specify value]" |
-| `[OSINT_SOURCES]` | Specify the osint sources | "[specify value]" |
-| `[COMMERCIAL_FEEDS]` | Specify the commercial feeds | "[specify value]" |
-| `[GOVERNMENT_SOURCES]` | Specify the government sources | "[specify value]" |
-| `[INDUSTRY_SHARING]` | Specify the industry sharing | "Technology" |
-| `[INTERNAL_SOURCES]` | Specify the internal sources | "[specify value]" |
-| `[TECHNICAL_COLLECTION]` | Specify the technical collection | "[specify value]" |
-| `[HUMAN_INTELLIGENCE]` | Specify the human intelligence | "[specify value]" |
-| `[COLLECTION_PLANNING]` | Specify the collection planning | "[specify value]" |
-| `[ANALYSIS_FRAMEWORK]` | Specify the analysis framework | "[specify value]" |
-| `[ANALYTICAL_METHODS]` | Specify the analytical methods | "[specify value]" |
-| `[THREAT_MODELING]` | Specify the threat modeling | "[specify value]" |
-| `[ATTRIBUTION_ANALYSIS]` | Specify the attribution analysis | "[specify value]" |
-| `[INDICATOR_ANALYSIS]` | Specify the indicator analysis | "[specify value]" |
-| `[CAMPAIGN_TRACKING]` | Specify the campaign tracking | "[specify value]" |
-| `[TREND_ANALYSIS]` | Specify the trend analysis | "[specify value]" |
-| `[PREDICTIVE_ANALYSIS]` | Specify the predictive analysis | "[specify value]" |
-| `[CONFIDENCE_ASSESSMENT]` | Specify the confidence assessment | "[specify value]" |
-| `[ANALYSIS_QUALITY_CONTROL]` | Specify the analysis quality control | "[specify value]" |
-| `[STRATEGIC_INTELLIGENCE]` | Specify the strategic intelligence | "[specify value]" |
-| `[TACTICAL_INTELLIGENCE]` | Specify the tactical intelligence | "[specify value]" |
-| `[OPERATIONAL_INTELLIGENCE]` | Specify the operational intelligence | "[specify value]" |
-| `[TECHNICAL_INTELLIGENCE]` | Specify the technical intelligence | "[specify value]" |
-| `[IOC_FEEDS]` | Specify the ioc feeds | "[specify value]" |
-| `[THREAT_REPORTS]` | Specify the threat reports | "[specify value]" |
-| `[INTELLIGENCE_BRIEFINGS]` | Specify the intelligence briefings | "[specify value]" |
-| `[INTELLIGENCE_ALERTS]` | Specify the intelligence alerts | "[specify value]" |
-| `[HUNTING_GUIDANCE]` | Specify the hunting guidance | "[specify value]" |
-| `[INTELLIGENCE_RISK_ASSESSMENTS]` | Specify the intelligence risk assessments | "[specify value]" |
-| `[DISTRIBUTION_LISTS]` | Specify the distribution lists | "[specify value]" |
-| `[CLASSIFICATION_LEVELS]` | Specify the classification levels | "[specify value]" |
-| `[SHARING_PROTOCOLS]` | Specify the sharing protocols | "[specify value]" |
-| `[TLP_HANDLING]` | Specify the tlp handling | "[specify value]" |
-| `[DISSEMINATION_AUTOMATION]` | Specify the dissemination automation | "[specify value]" |
-| `[INTELLIGENCE_INTEGRATION]` | Specify the intelligence integration | "[specify value]" |
-| `[FEEDBACK_MECHANISMS]` | Specify the feedback mechanisms | "[specify value]" |
-| `[DISSEMINATION_METRICS]` | Specify the dissemination metrics | "[specify value]" |
-| `[EXTERNAL_SHARING]` | Specify the external sharing | "[specify value]" |
-| `[LEGAL_CONSIDERATIONS]` | Specify the legal considerations | "[specify value]" |
+| `[INTELLIGENCE_OBJECTIVES]` | Primary goals for the threat intelligence program | "Reduce mean time to detect by 50%, Proactive threat hunting" |
+| `[PIR]` | Priority Intelligence Requirements | "APT activity targeting financial sector, Ransomware trends, Zero-day exploits" |
+| `[THREAT_ACTORS]` | Key threat actors to monitor | "APT29, FIN7, Lazarus Group, LockBit ransomware operators" |
+| `[ATTACK_VECTORS]` | Primary attack methods to track | "Phishing, Supply chain, Zero-day exploits, Credential stuffing" |
+| `[INDUSTRY_FOCUS]` | Target industry vertical | "Financial Services", "Healthcare", "Critical Infrastructure" |
+| `[GEOGRAPHIC_SCOPE]` | Geographic coverage area | "North America, Europe, Asia-Pacific", "Global" |
+| `[TIME_HORIZON]` | Intelligence planning timeframe | "Strategic: 12-18 months, Tactical: 30-90 days, Operational: Real-time" |
+
+### Collection Variables
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `[INTELLIGENCE_CONSUMERS]` | Recipients of intelligence products | "SOC team, IR team, CISO, Risk committee, IT operations" |
+| `[COLLECTION_SOURCES]` | Intelligence data sources | "OSINT, Commercial feeds, ISAC, Internal telemetry, Dark web" |
+| `[OSINT_SOURCES]` | Open source intelligence sources | "VirusTotal, Shodan, Twitter/X, Security blogs, GitHub" |
+| `[COMMERCIAL_FEEDS]` | Paid threat intelligence feeds | "Recorded Future, Mandiant, CrowdStrike, ThreatConnect" |
+| `[GOVERNMENT_SOURCES]` | Government intelligence sources | "CISA, FBI IC3, NCSC, ENISA, sector-specific ISACs" |
+| `[INTERNAL_SOURCES]` | Internal data sources | "SIEM logs, EDR telemetry, Firewall data, Email gateway" |
+
+### Analysis Variables
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `[ANALYSIS_FRAMEWORK]` | Framework for analyzing threats | "Diamond Model, Kill Chain, MITRE ATT&CK, F3EAD" |
+| `[ANALYTICAL_METHODS]` | Analysis techniques used | "Link analysis, Pattern analysis, Behavioral analysis" |
+| `[THREAT_MODELING]` | Threat modeling approach | "STRIDE, PASTA, Attack trees, Threat scenarios" |
+| `[CONFIDENCE_ASSESSMENT]` | Confidence rating methodology | "Admiralty Scale (A1-F6), Percentage (High >80%, Medium 50-80%, Low <50%)" |
+
+### Dissemination Variables
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `[TLP_HANDLING]` | Traffic Light Protocol classification | "TLP:RED (restricted), TLP:AMBER (limited), TLP:GREEN (community), TLP:CLEAR (public)" |
+| `[CLASSIFICATION_LEVELS]` | Information classification levels | "Confidential, Internal, Public" |
+| `[DISTRIBUTION_LISTS]` | Recipients for different intel types | "Strategic: Executive team, Tactical: Security ops, Technical: SOC analysts" |
+| `[INTELLIGENCE_INTEGRATION]` | Systems for intel integration | "SIEM, SOAR, EDR, Firewall, Email gateway" |
 
 
 

@@ -445,35 +445,35 @@ OUTPUT: Deliver comprehensive product design with:
 ```
 
 ## Variables
-[All 400+ variables for comprehensive product design including concepts, specifications, and iterations]
+
+### Core Project Variables
+| Variable | Description | Examples |
+|----------|-------------|----------|
+| `DESIGN_TYPE` | Type of product design project | "Consumer electronics concept", "Medical device design", "Industrial equipment" |
+| `PRODUCT_NAME` | Name of the product | "HomeSync Hub", "MediTrack Pro", "ErgoChair X1" |
+| `USER_SEGMENT` | Target user group | "Tech-savvy homeowners", "Healthcare professionals", "Office workers" |
+| `DESIGN_GOAL` | Primary design objective | "Intuitive user experience", "Regulatory compliance", "Ergonomic optimization" |
+| `PRODUCT_CATEGORY` | Product type classification | "Consumer electronics", "Medical devices", "Furniture", "Appliances" |
+| `DESIGN_PHASE` | Current phase of development | "Concept development", "Detailed design", "Prototyping", "Production" |
+
+### Design Specification Variables
+| Variable | Description | Examples |
+|----------|-------------|----------|
+| `FORM_FACTOR` | Physical form and size | "Handheld (150x80x20mm)", "Desktop unit", "Wearable" |
+| `MATERIALS` | Primary materials | "Injection-molded ABS", "Aluminum chassis", "Medical-grade silicone" |
+| `COLOR_OPTIONS` | Available colorways | "Space Gray, Silver, Midnight Blue", "Clinical White" |
+| `INTERFACE_TYPE` | User interaction method | "Touchscreen + physical buttons", "Voice control", "Gesture-based" |
+
+### Technical Variables
+| Variable | Description | Examples |
+|----------|-------------|----------|
+| `MANUFACTURING_METHOD` | Production process | "Injection molding", "CNC machining", "3D printing for prototypes" |
+| `REGULATORY_REQUIREMENTS` | Compliance standards | "FCC, CE marking", "FDA Class II", "UL certification" |
+| `SUSTAINABILITY_GOALS` | Environmental considerations | "80% recyclable materials", "Carbon-neutral manufacturing" |
+| `COST_TARGET` | Target production cost | "$50-75 BOM", "Premium pricing tier" |
 
 ## Usage Examples
 
-## Best Practices
-
-1. **Start with clear objectives** - Define what success looks like before beginning
-2. **Use data to inform decisions** - Base choices on evidence and measurable outcomes
-3. **Iterate and improve continuously** - Treat implementation as an ongoing process
-4. **Engage stakeholders early** - Include key participants in planning and execution
-5. **Document thoroughly** - Maintain clear records for reference and knowledge transfer
-6. **Communicate regularly** - Keep all parties informed of progress and changes
-7. **Address challenges proactively** - Identify potential issues before they become problems
-8. **Celebrate milestones** - Recognize achievements to maintain motivation
-9. **Learn from experience** - Reflect on what works and adjust accordingly
-10. **Stay flexible** - Be ready to adapt based on feedback and changing circumstances
-
-## Tips for Success
-
-- Break complex tasks into manageable steps with clear milestones
-- Set realistic timelines that account for dependencies and constraints
-- Allocate sufficient resources including time, budget, and personnel
-- Use templates and frameworks to ensure consistency and quality
-- Seek feedback from users and stakeholders throughout the process
-- Build in checkpoints to assess progress and make adjustments
-- Maintain quality standards while remaining practical and efficient
-- Document lessons learned for future reference and improvement
-- Foster collaboration across teams and departments
-- Stay current with industry best practices and emerging trends
 ### Example 1: Smart Home Device
 ```
 DESIGN_TYPE: "Smart home controller concept"
