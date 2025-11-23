@@ -1,6 +1,6 @@
 ---
 category: technology
-last_updated: 2025-11-09
+last_updated: 2025-11-23
 related_templates:
 - technology/cloud-architecture-framework.md
 - technology/site-reliability-engineering.md
@@ -163,56 +163,56 @@ Feature Engineering:
 
 | Variable | Description | Example |
 |----------|-------------|----------|
-| `[DATASET_NAME]` | Specify the dataset name | "John Smith" |
-| `[DATA_SOURCE]` | Specify the data source | "[specify value]" |
-| `[DATA_TYPE]` | Specify the data type | "Standard" |
-| `[DATA_SIZE]` | Specify the data size | "[specify value]" |
-| `[DATA_DOMAIN]` | Specify the data domain | "[specify value]" |
-| `[QUALITY_LEVEL]` | Specify the quality level | "[specify value]" |
-| `[COLLECTION_METHOD]` | Specify the collection method | "[specify value]" |
-| `[UPDATE_FREQUENCY]` | Specify the update frequency | "2025-01-15" |
-| `[PRIVACY_LEVEL]` | Specify the privacy level | "[specify value]" |
-| `[COMPLIANCE_REQUIREMENTS]` | Specify the compliance requirements | "[specify value]" |
-| `[COLLECTION_STRATEGY]` | Specify the collection strategy | "[specify value]" |
-| `[DATA_SOURCES]` | Specify the data sources | "[specify value]" |
-| `[ACQUISITION_METHODS]` | Specify the acquisition methods | "[specify value]" |
-| `[SAMPLING_STRATEGY]` | Specify the sampling strategy | "[specify value]" |
-| `[COLLECTION_TOOLS]` | Specify the collection tools | "[specify value]" |
-| `[COLLECTION_QUALITY_CONTROL]` | Specify the collection quality control | "[specify value]" |
-| `[VALIDATION_RULES]` | Specify the validation rules | "[specify value]" |
-| `[COLLECTION_ERROR_HANDLING]` | Specify the collection error handling | "[specify value]" |
-| `[STORAGE_FORMAT]` | Specify the storage format | "[specify value]" |
-| `[METADATA_CAPTURE]` | Specify the metadata capture | "[specify value]" |
-| `[FEATURE_TYPES]` | Specify the feature types | "Standard" |
-| `[FEATURE_CREATION]` | Specify the feature creation | "[specify value]" |
-| `[FEATURE_SELECTION]` | Specify the feature selection | "[specify value]" |
-| `[FEATURE_TRANSFORMATION]` | Specify the feature transformation | "[specify value]" |
-| `[ENCODING_METHODS]` | Specify the encoding methods | "[specify value]" |
-| `[SCALING_TECHNIQUES]` | Specify the scaling techniques | "[specify value]" |
-| `[DIMENSIONALITY_REDUCTION]` | Specify the dimensionality reduction | "[specify value]" |
-| `[FEATURE_INTERACTION]` | Specify the feature interaction | "[specify value]" |
-| `[TEMPORAL_FEATURES]` | Specify the temporal features | "[specify value]" |
-| `[DOMAIN_FEATURES]` | Specify the domain features | "[specify value]" |
-| `[LABELING_STRATEGY]` | Specify the labeling strategy | "[specify value]" |
-| `[ANNOTATION_GUIDELINES]` | Specify the annotation guidelines | "[specify value]" |
-| `[LABELING_TOOLS]` | Specify the labeling tools | "[specify value]" |
-| `[LABELING_QA]` | Specify the labeling qa | "[specify value]" |
-| `[INTER_ANNOTATOR_AGREEMENT]` | Specify the inter annotator agreement | "[specify value]" |
-| `[ACTIVE_LEARNING]` | Specify the active learning | "[specify value]" |
-| `[SEMI_SUPERVISED_LEARNING]` | Specify the semi supervised learning | "[specify value]" |
-| `[WEAK_SUPERVISION]` | Specify the weak supervision | "[specify value]" |
-| `[LABEL_NOISE_HANDLING]` | Specify the label noise handling | "[specify value]" |
-| `[LABEL_VERSION_CONTROL]` | Specify the label version control | "[specify value]" |
-| `[AUGMENTATION_STRATEGY]` | Specify the augmentation strategy | "[specify value]" |
-| `[AUGMENTATION_TECHNIQUES]` | Specify the augmentation techniques | "[specify value]" |
-| `[SYNTHETIC_DATA_GENERATION]` | Specify the synthetic data generation | "[specify value]" |
-| `[BALANCE_STRATEGY]` | Specify the balance strategy | "[specify value]" |
-| `[AUGMENTATION_PIPELINE]` | Specify the augmentation pipeline | "[specify value]" |
-| `[AUGMENTATION_QUALITY]` | Specify the augmentation quality | "[specify value]" |
-| `[AUGMENTATION_IMPACT]` | Specify the augmentation impact | "[specify value]" |
-| `[AUGMENTATION_CONSTRAINTS]` | Specify the augmentation constraints | "[specify value]" |
-| `[AUGMENTATION_EVALUATION]` | Specify the augmentation evaluation | "[specify value]" |
-| `[AUGMENTATION_TOOLS]` | Specify the augmentation tools | "[specify value]" |
+| `[DATASET_NAME]` | Unique identifier for the dataset | "CustomerChurn_v3", "ProductImages_2024Q1", "TransactionFraud_cleaned" |
+| `[DATA_SOURCE]` | Where data originates from | "PostgreSQL production database", "AWS S3 bucket (s3://data-lake/raw/)", "Snowflake analytics warehouse", "Kaggle competition dataset" |
+| `[DATA_TYPE]` | Primary data modality | "Tabular (CSV/Parquet)", "Images (JPEG/PNG)", "Text (JSON documents)", "Time-series", "Audio (WAV)", "Mixed multimodal" |
+| `[DATA_SIZE]` | Volume of data | "5M rows, 2.3GB Parquet", "100K images (250GB)", "10TB across 3 years", "500K documents (50GB)" |
+| `[DATA_DOMAIN]` | Business domain of data | "E-commerce transactions", "Healthcare patient records", "Financial fraud detection", "Manufacturing IoT sensors" |
+| `[QUALITY_LEVEL]` | Data quality assessment | "High: 98% complete, validated", "Medium: 85% complete, some noise", "Low: significant cleaning needed" |
+| `[COLLECTION_METHOD]` | How data is collected | "Real-time API ingestion", "Daily batch ETL", "Manual upload", "Web scraping", "Sensor streaming" |
+| `[UPDATE_FREQUENCY]` | How often data refreshes | "Real-time streaming", "Daily at 2am UTC", "Weekly batch", "Monthly snapshots", "One-time historical" |
+| `[PRIVACY_LEVEL]` | Data sensitivity classification | "Public", "Internal only", "Confidential (PII)", "Highly restricted (PHI/PCI)" |
+| `[COMPLIANCE_REQUIREMENTS]` | Regulatory compliance needs | "GDPR (EU data subjects)", "HIPAA (healthcare)", "PCI-DSS (payment data)", "SOC2", "None" |
+| `[COLLECTION_STRATEGY]` | Overall collection approach | "Full historical backfill + incremental daily", "Streaming with 7-day retention", "Sample 10% of production traffic" |
+| `[DATA_SOURCES]` | All source systems | "PostgreSQL, MongoDB, Salesforce API, Google Analytics, S3 logs", "Single source: data warehouse" |
+| `[ACQUISITION_METHODS]` | Technical collection methods | "JDBC connector, REST API polling, Kafka consumer, File drop monitoring", "AWS Glue crawlers" |
+| `[SAMPLING_STRATEGY]` | Sampling approach if applicable | "Stratified sampling (maintain class ratio)", "Random 10% sample", "Time-based (last 2 years)", "Full population" |
+| `[COLLECTION_TOOLS]` | Tools used for collection | "Apache Airflow, Fivetran, AWS Glue, custom Python scripts", "dbt + Snowflake" |
+| `[COLLECTION_QUALITY_CONTROL]` | QC during collection | "Schema validation, null checks, deduplication, freshness alerts", "Great Expectations suite" |
+| `[VALIDATION_RULES]` | Data validation criteria | "email must match regex, age 0-120, timestamp not future, amount > 0", "Custom business rules in dbt tests" |
+| `[COLLECTION_ERROR_HANDLING]` | Error handling approach | "Dead letter queue for failed records, alert on >1% failure rate, manual review queue" |
+| `[STORAGE_FORMAT]` | Data storage format | "Parquet (columnar, compressed)", "Delta Lake", "CSV", "JSON Lines", "TFRecord" |
+| `[METADATA_CAPTURE]` | Metadata tracked | "Source timestamp, ingestion timestamp, schema version, row count, file hash" |
+| `[FEATURE_TYPES]` | Types of features in dataset | "Numerical (25), Categorical (15), DateTime (3), Text (2), Boolean (5)" |
+| `[FEATURE_CREATION]` | New features to create | "Lag features (7/14/30 day), rolling averages, ratios, interaction terms, text embeddings" |
+| `[FEATURE_SELECTION]` | Feature selection method | "Correlation filter (>0.9 removed), RFE with XGBoost, SHAP importance top 50" |
+| `[FEATURE_TRANSFORMATION]` | Transformations applied | "Log transform skewed features, Box-Cox normalization, binning age into groups" |
+| `[ENCODING_METHODS]` | Categorical encoding | "One-hot for low cardinality (<10), Target encoding for high cardinality, Label encoding for ordinal" |
+| `[SCALING_TECHNIQUES]` | Numerical scaling | "StandardScaler (zero mean, unit variance)", "MinMaxScaler (0-1 range)", "RobustScaler for outliers" |
+| `[DIMENSIONALITY_REDUCTION]` | Dimension reduction method | "PCA (95% variance retained)", "UMAP for visualization", "Autoencoder bottleneck", "None needed" |
+| `[FEATURE_INTERACTION]` | Interaction features | "Polynomial features (degree=2)", "Manual interactions: price_per_unit = price/quantity", "None" |
+| `[TEMPORAL_FEATURES]` | Time-based features | "Hour of day, day of week, month, is_weekend, days_since_last_purchase, seasonal decomposition" |
+| `[DOMAIN_FEATURES]` | Domain-specific features | "RFM scores (Recency, Frequency, Monetary)", "Customer lifetime value", "Product category embeddings" |
+| `[LABELING_STRATEGY]` | Labeling approach | "In-house annotation team", "Outsourced to Scale AI", "Crowdsourcing via MTurk", "Programmatic labeling" |
+| `[ANNOTATION_GUIDELINES]` | Labeling instructions | "Detailed 10-page guideline with examples, edge cases, and decision trees", "Simple binary yes/no criteria" |
+| `[LABELING_TOOLS]` | Annotation platform | "Label Studio", "Labelbox", "Amazon SageMaker Ground Truth", "Prodigy", "Custom internal tool" |
+| `[LABELING_QA]` | Quality assurance process | "10% double-annotation, consensus review, expert spot-checks, automated consistency checks" |
+| `[INTER_ANNOTATOR_AGREEMENT]` | Agreement metric | "Cohen's Kappa >0.8 required", "Fleiss' Kappa for multi-annotator", "95% agreement threshold" |
+| `[ACTIVE_LEARNING]` | Active learning approach | "Uncertainty sampling for edge cases", "Query-by-committee", "Not using active learning" |
+| `[SEMI_SUPERVISED_LEARNING]` | Semi-supervised approach | "Self-training with high-confidence pseudo-labels", "MixMatch", "Label propagation", "Not applicable" |
+| `[WEAK_SUPERVISION]` | Weak supervision methods | "Snorkel labeling functions", "Keyword rules + heuristics", "Distant supervision from knowledge base" |
+| `[LABEL_NOISE_HANDLING]` | Handling noisy labels | "Confident learning to identify mislabels", "Label smoothing", "Robust loss functions", "Manual review" |
+| `[LABEL_VERSION_CONTROL]` | Label versioning | "Git tags for label schema changes", "DVC for label files", "Label Studio project versions" |
+| `[AUGMENTATION_STRATEGY]` | Overall augmentation approach | "Online augmentation during training", "Offline pre-augmented dataset", "Both" |
+| `[AUGMENTATION_TECHNIQUES]` | Specific augmentation methods | "Images: rotation, flip, crop, color jitter, mixup. Text: back-translation, synonym replacement. Tabular: SMOTE" |
+| `[SYNTHETIC_DATA_GENERATION]` | Synthetic data approach | "CTGAN for tabular", "Stable Diffusion for images", "GPT-4 for text generation", "Not using synthetic data" |
+| `[BALANCE_STRATEGY]` | Class balancing method | "SMOTE oversampling minority", "Random undersampling majority", "Class weights in loss function", "Focal loss" |
+| `[AUGMENTATION_PIPELINE]` | Augmentation implementation | "Albumentations pipeline", "torchvision transforms", "nlpaug library", "Custom augmentation class" |
+| `[AUGMENTATION_QUALITY]` | Quality validation | "Visual inspection of samples", "Model performance on augmented vs original", "Distribution comparison" |
+| `[AUGMENTATION_IMPACT]` | Expected improvement | "+5% accuracy from augmentation", "Reduces overfitting by 20%", "Improves minority class recall by 15%" |
+| `[AUGMENTATION_CONSTRAINTS]` | Constraints to respect | "Preserve label semantics", "Don't augment test set", "Medical images: no geometric distortion" |
+| `[AUGMENTATION_EVALUATION]` | Evaluation methodology | "A/B test with/without augmentation", "Learning curve analysis", "Cross-validation comparison" |
+| `[AUGMENTATION_TOOLS]` | Tools and libraries | "Albumentations, imgaug, nlpaug, audiomentations, imblearn", "Custom augmentation module" |
 
 
 
