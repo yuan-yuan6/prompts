@@ -78,7 +78,7 @@ AI DATA STRATEGY FOR: E-commerce Recommendation System
 
 ## Template
 
-```markdown
+````markdown
 # AI Data Strategy: [PROJECT_NAME]
 
 ## 1. Data Requirements Analysis
@@ -327,7 +327,7 @@ GROUP BY [GROUPING]
 - [ ] Implement lineage tracking
 - [ ] Build self-service feature creation
 - [ ] Complete governance framework
-```
+````
 
 ---
 

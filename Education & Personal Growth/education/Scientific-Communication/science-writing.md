@@ -383,7 +383,7 @@ Purpose: [INFORM/PERSUADE/EDUCATE/ENTERTAIN/INSPIRE]
 
    ### Caption and Alt-Text Strategy
 
-   ```markdown
+   ````markdown
    ## Accessible Visual Communication
 
    ### Caption Writing Guidelines
@@ -409,7 +409,7 @@ Purpose: [INFORM/PERSUADE/EDUCATE/ENTERTAIN/INSPIRE]
        }
    }
    ```
-   ```
+   ````
 
 5. FACT-CHECKING AND ACCURACY
 
@@ -689,7 +689,7 @@ Purpose: [INFORM/PERSUADE/EDUCATE/ENTERTAIN/INSPIRE]
 
     ### Expert Interview Preparation
 
-    ```markdown
+    ````markdown
     ## Scientist Interview Protocol
 
     ### Pre-Interview Research
@@ -741,6 +741,7 @@ Purpose: [INFORM/PERSUADE/EDUCATE/ENTERTAIN/INSPIRE]
         }
     }
     ```
+    ````
 
     ### Collaborative Content Development
 

@@ -321,7 +321,7 @@ Generate a complete research paper manuscript structure:
 
    ### Procedure Documentation
 
-   ```markdown
+   ````markdown
    ### Procedure
 
    **Study Timeline**
@@ -346,7 +346,7 @@ Generate a complete research paper manuscript structure:
    2. **Baseline Assessment** ([DURATION]): [SPECIFIC_STEPS]
    3. **Intervention Period** ([DURATION]): [IMPLEMENTATION_DETAILS]
    4. **Follow-up** ([SCHEDULE]): [ASSESSMENT_PROTOCOL]
-   ```
+   ````
 
 4. RESULTS PRESENTATION
 

@@ -74,7 +74,7 @@ ROI: $285K annual savings vs. $15K implementation cost
 
 ## Template
 
-```markdown
+````markdown
 # AI Cost Optimization Plan: [PROJECT_NAME]
 
 ## 1. Cost Baseline Assessment
@@ -330,7 +330,7 @@ alerts:
     condition: gpu_utilization < 10% for 2h
     severity: info
 ```
-```
+````
 
 ---
 

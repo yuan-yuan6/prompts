@@ -633,7 +633,7 @@ class PromptRegistry:
 ### 8. DOCUMENTATION & KNOWLEDGE SHARING
 
 Prompt Documentation Template:
-```markdown
+````markdown
 # Prompt: Customer Support Ticket Classification
 
 ## Metadata
@@ -684,7 +684,7 @@ result = llm.complete(
 - v1.5: Added few-shot examples (+3%)
 - v2.0: Structured output format (+2%)
 - v2.1: Improved priority detection (+2%)
-```
+````
 
 ### 9. PRODUCTION CONSIDERATIONS
 
