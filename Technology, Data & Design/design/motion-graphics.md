@@ -457,35 +457,35 @@ OUTPUT: Deliver comprehensive motion graphics with:
 ```
 
 ## Variables
-[All 400+ variables for comprehensive motion graphics including animations, effects, and transitions]
+
+### Core Project Variables
+| Variable | Description | Examples |
+|----------|-------------|----------|
+| `ANIMATION_TYPE` | Type of motion graphics project | "Product explainer", "Logo animation", "Social media content", "Title sequence" |
+| `PROJECT_NAME` | Name of the animation project | "TechGadget Pro Launch", "Brand Reveal 2024" |
+| `AUDIENCE` | Target audience for the animation | "Tech enthusiasts", "Corporate stakeholders", "Social media users" |
+| `ANIMATION_GOAL` | Primary objective of the animation | "Showcase features", "Build brand awareness", "Drive engagement" |
+| `ANIMATION_DURATION` | Length of the final animation | "30 seconds", "90 seconds", "2 minutes" |
+| `VISUAL_STYLE` | Aesthetic direction | "Modern/minimalist", "Playful/colorful", "Corporate/professional" |
+
+### Technical Variables
+| Variable | Description | Examples |
+|----------|-------------|----------|
+| `RESOLUTION` | Output resolution | "1920x1080 (HD)", "3840x2160 (4K)", "1080x1920 (vertical)" |
+| `FRAME_RATE` | Animation frame rate | "24fps", "30fps", "60fps" |
+| `SOFTWARE_PLATFORM` | Animation software | "After Effects", "Cinema 4D", "Blender" |
+| `COLOR_PALETTE` | Primary colors | "Brand colors #FF5500, #333333", "Vibrant gradient palette" |
+| `EXPORT_FORMATS` | Required output formats | "MP4, MOV, GIF", "ProRes 4444, H.264" |
+
+### Animation Variables
+| Variable | Description | Examples |
+|----------|-------------|----------|
+| `TRANSITION_STYLE` | Transition type between scenes | "Smooth dissolve", "Dynamic wipe", "3D rotation" |
+| `TIMING_RHYTHM` | Pacing and tempo | "Fast-paced", "Elegant/slow", "Beat-synced" |
+| `AUDIO_TREATMENT` | Sound design approach | "Custom score", "Licensed track", "Sound effects only" |
 
 ## Usage Examples
 
-## Best Practices
-
-1. **Start with clear objectives** - Define what success looks like before beginning
-2. **Use data to inform decisions** - Base choices on evidence and measurable outcomes
-3. **Iterate and improve continuously** - Treat implementation as an ongoing process
-4. **Engage stakeholders early** - Include key participants in planning and execution
-5. **Document thoroughly** - Maintain clear records for reference and knowledge transfer
-6. **Communicate regularly** - Keep all parties informed of progress and changes
-7. **Address challenges proactively** - Identify potential issues before they become problems
-8. **Celebrate milestones** - Recognize achievements to maintain motivation
-9. **Learn from experience** - Reflect on what works and adjust accordingly
-10. **Stay flexible** - Be ready to adapt based on feedback and changing circumstances
-
-## Tips for Success
-
-- Break complex tasks into manageable steps with clear milestones
-- Set realistic timelines that account for dependencies and constraints
-- Allocate sufficient resources including time, budget, and personnel
-- Use templates and frameworks to ensure consistency and quality
-- Seek feedback from users and stakeholders throughout the process
-- Build in checkpoints to assess progress and make adjustments
-- Maintain quality standards while remaining practical and efficient
-- Document lessons learned for future reference and improvement
-- Foster collaboration across teams and departments
-- Stay current with industry best practices and emerging trends
 ### Example 1: Product Launch Video
 ```
 ANIMATION_TYPE: "Product explainer animation"

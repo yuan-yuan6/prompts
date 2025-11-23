@@ -489,7 +489,40 @@ Roadmap Principles:
 
 ## Variables
 
-[Detailed variable descriptions similar to product strategy template]
+### Core Roadmap Variables
+| Variable | Description | Examples |
+|----------|-------------|----------|
+| `PRODUCT_NAME` | Name of the product being roadmapped | "Acme Project Manager", "CloudSync Platform" |
+| `TARGET_MARKET` | Primary market segment | "Mid-market B2B SaaS", "Enterprise financial services" |
+| `STRATEGIC_OBJECTIVES` | Key strategic goals driving the roadmap | "Increase enterprise market share", "Achieve 150% net retention" |
+| `TIME_HORIZON` | Planning timeframe | "Annual (4 quarters)", "18-month rolling roadmap" |
+| `PRIORITIZATION_FRAMEWORK` | Method for prioritizing initiatives | "RICE scoring", "Value vs Effort matrix", "MoSCoW" |
+| `TEAM_SIZE` | Size of product and engineering team | "3 product squads (24 engineers)", "Single team of 8" |
+
+### Planning Context Variables
+| Variable | Description | Examples |
+|----------|-------------|----------|
+| `STAGE` | Product lifecycle stage | "Growth stage", "Mature product", "Early startup" |
+| `VERSION` | Current product version | "v3.2", "2024.Q3 release" |
+| `STRATEGY` | Company-level strategy alignment | "Platform expansion", "Vertical market focus" |
+| `VISION` | Product vision statement | "The go-to platform for distributed teams" |
+| `METRICS` | Key success metrics | "ARR, NPS, Feature adoption rate, Churn" |
+
+### Initiative Variables
+| Variable | Description | Examples |
+|----------|-------------|----------|
+| `INITIATIVE_NAME` | Name of the roadmap initiative | "AI-powered insights", "Mobile app v2" |
+| `RICE_SCORE` | Calculated RICE priority score | "1,200", "850", "450" |
+| `QUARTERLY_THEME` | Theme for the quarter | "Platform reliability", "User experience uplift" |
+| `EPIC_NAME` | Name of engineering epic | "Search redesign", "Notification system" |
+| `MILESTONE_1` | Key delivery milestone | "Beta launch", "GA release", "Customer pilot" |
+
+### Resource Variables
+| Variable | Description | Examples |
+|----------|-------------|----------|
+| `PERSON-WEEKS` | Effort estimation unit | "12 person-weeks", "1 sprint (2 weeks)" |
+| `PM_NAME` | Product manager owner | "Sarah Chen", "Product Team Lead" |
+| `ENGINEERING_TEAM` | Assigned engineering squad | "Platform squad", "Growth team" |
 
 ## Usage Examples
 

@@ -429,9 +429,86 @@ OUTPUT: Deliver comprehensive graphic design with:
 ```
 
 ## Variables
-[All 400+ variables for comprehensive graphic design including layouts, branding, and visuals]
+
+### Core Project Variables
+| Variable | Description | Examples |
+|----------|-------------|----------|
+| `DESIGN_TYPE` | Type of design deliverable | "Brand identity system", "Marketing collateral", "Product packaging" |
+| `PROJECT_NAME` | Name of the design project | "TechVision Rebranding", "Q4 Campaign Materials" |
+| `TARGET_AUDIENCE` | Primary audience for the design | "B2B executives", "Gen Z consumers", "Healthcare professionals" |
+| `DESIGN_OBJECTIVE` | Primary goal of the design | "Increase brand recognition", "Drive conversions", "Modernize image" |
+| `DESIGN_CATEGORY` | Category of design work | "Print", "Digital", "Branding", "Packaging" |
+| `PROJECT_SCOPE` | Deliverables included | "Logo, business cards, website, signage" |
+| `PROJECT_TIMELINE` | Duration of the project | "6 weeks", "Q1 2025" |
+| `BUDGET_RANGE` | Budget constraints | "$5,000-$10,000", "Enterprise budget" |
+
+### Brand Variables
+| Variable | Description | Examples |
+|----------|-------------|----------|
+| `BRAND_IDENTITY` | Core brand description | "Innovative tech company", "Luxury lifestyle brand" |
+| `BRAND_VALUES` | Key brand values | "Innovation, Trust, Sustainability" |
+| `BRAND_PERSONALITY` | Brand character traits | "Professional yet approachable", "Bold and disruptive" |
+| `BRAND_POSITIONING` | Market position | "Premium B2B solution", "Affordable alternative" |
+
+### Visual Design Variables
+| Variable | Description | Examples |
+|----------|-------------|----------|
+| `PRIMARY_COLOR_1` | Main brand color | "Deep Blue", "Forest Green" |
+| `HEX_1` | Hex color code | "#1A365D", "#2F855A" |
+| `PRIMARY_FONT` | Main typeface | "Inter", "Playfair Display" |
+| `GRID_SYSTEM` | Layout grid structure | "12-column responsive", "8pt baseline grid" |
+| `LOGO_STYLE` | Type of logo design | "Wordmark", "Symbol", "Combination mark" |
+
+### Production Variables
+| Variable | Description | Examples |
+|----------|-------------|----------|
+| `PAPER_SIZE` | Print dimensions | "A4", "Letter", "11x17" |
+| `COLOR_MODE` | Color specification | "CMYK for print", "RGB for digital" |
+| `PRINT_RESOLUTION` | Output resolution | "300 DPI", "150 DPI for large format" |
+| `FINAL_FORMATS` | Deliverable file types | "AI, PDF, PNG, SVG" |
 
 ## Usage Examples
+
+### Example 1: Corporate Rebrand
+```
+DESIGN_TYPE: "Complete brand identity system"
+PROJECT_NAME: "TechVision Rebranding"
+TARGET_AUDIENCE: "B2B technology professionals"
+DESIGN_OBJECTIVE: "Modern, trustworthy tech brand"
+DESIGN_CATEGORY: "Branding"
+PROJECT_SCOPE: "Logo, business cards, website, signage"
+BRAND_VALUES: "Innovation, Reliability, Partnership"
+PRIMARY_COLOR_1: "Electric Blue"
+HEX_1: "#0066FF"
+PRIMARY_FONT: "IBM Plex Sans"
+LOGO_STYLE: "Combination mark with abstract symbol"
+```
+
+### Example 2: Product Packaging
+```
+DESIGN_TYPE: "Eco-friendly product packaging"
+PROJECT_NAME: "GreenLife Organic Foods"
+TARGET_AUDIENCE: "Health-conscious consumers aged 25-45"
+DESIGN_OBJECTIVE: "Sustainable, premium appeal"
+DESIGN_CATEGORY: "Packaging"
+PROJECT_SCOPE: "Package design, labels, marketing materials"
+BRAND_VALUES: "Sustainability, Health, Transparency"
+PRIMARY_COLOR_1: "Sage Green"
+HEX_1: "#9ACD32"
+COLOR_MODE: "CMYK + Pantone for spot colors"
+```
+
+### Example 3: Event Marketing
+```
+DESIGN_TYPE: "Event marketing campaign"
+PROJECT_NAME: "Annual Tech Conference 2024"
+TARGET_AUDIENCE: "Technology professionals and entrepreneurs"
+DESIGN_OBJECTIVE: "Generate excitement and registrations"
+DESIGN_CATEGORY: "Print/Digital"
+PROJECT_SCOPE: "Posters, banners, social media, programs"
+GRID_SYSTEM: "Modular grid for flexible layouts"
+FINAL_FORMATS: "PDF, PNG, JPG, animated GIF"
+```
 
 ## Best Practices
 
@@ -458,37 +535,6 @@ OUTPUT: Deliver comprehensive graphic design with:
 - Document lessons learned for future reference and improvement
 - Foster collaboration across teams and departments
 - Stay current with industry best practices and emerging trends
-### Example 1: Corporate Rebrand
-```
-DESIGN_TYPE: "Complete brand identity system"
-PROJECT_NAME: "TechVision Rebranding"
-TARGET_AUDIENCE: "B2B technology professionals"
-DESIGN_OBJECTIVE: "Modern, trustworthy tech brand"
-DESIGN_CATEGORY: "Branding"
-PROJECT_SCOPE: "Logo, business cards, website, signage"
-```
-
-### Example 2: Product Packaging
-```
-DESIGN_TYPE: "Eco-friendly product packaging"
-PROJECT_NAME: "GreenLife Organic Foods"
-TARGET_AUDIENCE: "Health-conscious consumers"
-DESIGN_OBJECTIVE: "Sustainable, premium appeal"
-DESIGN_CATEGORY: "Packaging"
-PROJECT_SCOPE: "Package design, labels, marketing materials"
-```
-
-### Example 3: Event Marketing
-```
-DESIGN_TYPE: "Event marketing campaign"
-PROJECT_NAME: "Annual Tech Conference 2024"
-TARGET_AUDIENCE: "Technology professionals and entrepreneurs"
-DESIGN_OBJECTIVE: "Generate excitement and registrations"
-DESIGN_CATEGORY: "Print/Digital"
-PROJECT_SCOPE: "Posters, banners, social media, programs"
-```
-
-
 
 ## Related Resources
 

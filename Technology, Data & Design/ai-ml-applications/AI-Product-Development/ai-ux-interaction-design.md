@@ -70,7 +70,275 @@ Key UX Principles:
 
 ## Template
 
-*[Full template content with comprehensive AI UX patterns, interaction design principles, state management, trust-building techniques, error handling patterns, accessibility considerations, and testing frameworks]*
+```
+You are a UX design expert specializing in AI-powered products. Design the user experience for [AI_FEATURE_NAME] in [PRODUCT_CONTEXT] for [TARGET_USERS], ensuring trust, transparency, and graceful handling of AI limitations.
+
+AI FEATURE OVERVIEW:
+- Feature name: [AI_FEATURE_NAME]
+- AI capability: [AI_CAPABILITY] (e.g., generation, classification, prediction, recommendation)
+- Product context: [PRODUCT_CONTEXT]
+- Target users: [TARGET_USERS]
+- User goal: [USER_GOAL]
+- AI confidence range: [CONFIDENCE_RANGE] (e.g., 70-95% accuracy)
+
+### 1. AI INTERACTION PATTERN
+
+Pattern Selection:
+- Pattern type: [PATTERN_TYPE]
+  - AI Enhancement: AI augments user work (e.g., autocomplete, suggestions)
+  - AI Automation: AI performs task autonomously (e.g., auto-tagging, categorization)
+  - AI Collaboration: User and AI work together iteratively (e.g., co-writing, design generation)
+  - AI Decision Support: AI provides recommendations, user decides (e.g., analytics insights)
+
+User Control Level:
+- Initiation: [USER/SYSTEM/HYBRID] - Who triggers the AI?
+- Approval: [REQUIRED/OPTIONAL/NONE] - Does user review before action?
+- Editing: [FULL/PARTIAL/NONE] - Can user modify AI output?
+- Override: [ALWAYS/CONDITIONAL/NEVER] - Can user reject AI?
+
+### 2. STATE DESIGN
+
+Loading State:
+- Trigger: [WHAT_INITIATES_AI]
+- Duration estimate: [TYPICAL_TIME]
+- Progress indicator: [TYPE] (spinner, progress bar, skeleton, animation)
+- User messaging: "[LOADING_MESSAGE]"
+- Cancelable: [YES/NO]
+- Background processing option: [YES/NO]
+
+Success State:
+- Output presentation: [HOW_RESULTS_DISPLAYED]
+- Confidence indicator: [DISPLAY_METHOD] (score, label, visual cue)
+- Explanation available: [YES/NO]
+- Actions available: [ACCEPT/EDIT/REGENERATE/REJECT]
+- Feedback mechanism: [TYPE]
+
+Error State:
+- Error types: [ERROR_CATEGORIES]
+- User messaging: "[ERROR_MESSAGE_TEMPLATE]"
+- Recovery options: [RETRY/MANUAL_FALLBACK/CONTACT_SUPPORT]
+- Graceful degradation: [FALLBACK_BEHAVIOR]
+
+Edge Cases:
+- Low confidence handling: [APPROACH]
+- No results handling: [APPROACH]
+- Partial results handling: [APPROACH]
+- Timeout handling: [APPROACH]
+
+### 3. TRUST & TRANSPARENCY
+
+Transparency Elements:
+- AI disclosure: [HOW_USERS_KNOW_IT'S_AI]
+- Source attribution: [IF_APPLICABLE]
+- Confidence display: [METHOD]
+- Limitations disclosure: [WHERE_AND_HOW]
+
+Explanation Design:
+- Explanation type: [TYPE]
+  - Feature attribution: "Based on X, Y, Z factors"
+  - Example-based: "Similar to these examples..."
+  - Counterfactual: "If X were different, result would be..."
+  - Confidence breakdown: "High confidence in A, lower in B"
+- Detail level: [SUMMARY/DETAILED/BOTH]
+- Accessibility: [WHO_CAN_ACCESS]
+
+User Control for Trust:
+- Preferences: [USER_CUSTOMIZATION_OPTIONS]
+- Data visibility: [WHAT_DATA_AI_USES]
+- Opt-out option: [IF_APPLICABLE]
+- Feedback impact: [HOW_FEEDBACK_IMPROVES_AI]
+
+### 4. ERROR HANDLING PATTERNS
+
+Proactive Prevention:
+- Input validation: [APPROACH]
+- Expectation setting: [HOW]
+- Scope communication: [WHAT_AI_CAN_AND_CANNOT_DO]
+
+Error Recovery:
+- Automatic retry: [LOGIC]
+- Manual retry: [USER_ACTION]
+- Alternative path: [FALLBACK_FLOW]
+- Support escalation: [TRIGGER_AND_PATH]
+
+Error Messaging:
+- Tone: [TONE] (apologetic, matter-of-fact, helpful)
+- Blame attribution: [NEVER_USER/TECHNICAL_ISSUE/LIMITATION]
+- Actionability: [WHAT_USER_CAN_DO]
+- Template: "[ERROR_MESSAGE_EXAMPLE]"
+
+### 5. FEEDBACK LOOP DESIGN
+
+Feedback Collection:
+- Explicit feedback: [TYPE] (thumbs up/down, star rating, correction)
+- Implicit feedback: [TYPE] (acceptance rate, edit frequency, time spent)
+- Feedback timing: [WHEN_TO_ASK]
+- Feedback friction: [LOW/MEDIUM] - Balance insight with interruption
+
+Feedback Display:
+- Acknowledgment: [HOW_USER_KNOWS_FEEDBACK_RECEIVED]
+- Impact communication: [HOW_FEEDBACK_HELPS]
+- Aggregate insights: [IF_SHARED_WITH_USER]
+
+### 6. ACCESSIBILITY CONSIDERATIONS
+
+Screen Reader Support:
+- AI status announcements: [APPROACH]
+- Result announcements: [APPROACH]
+- Error announcements: [APPROACH]
+
+Keyboard Navigation:
+- Focus management during AI processing: [APPROACH]
+- Result navigation: [APPROACH]
+- Action shortcuts: [IF_APPLICABLE]
+
+Cognitive Accessibility:
+- Clear language: [GUIDELINES]
+- Reduced motion option: [FOR_ANIMATIONS]
+- Extended time options: [IF_APPLICABLE]
+
+### 7. PERFORMANCE EXPECTATIONS
+
+Response Time Targets:
+- Instant (< 1s): [FEATURES]
+- Fast (1-5s): [FEATURES]
+- Medium (5-30s): [FEATURES]
+- Long (30s+): [FEATURES_WITH_BACKGROUND_OPTION]
+
+Perceived Performance:
+- Skeleton loading: [WHERE_USED]
+- Progressive results: [IF_APPLICABLE]
+- Optimistic UI: [IF_APPLICABLE]
+
+AI UX OUTPUT:
+Generate comprehensive UX design for [AI_FEATURE_NAME] including:
+1. Interaction flow with all states
+2. UI component specifications
+3. Copy/messaging for all scenarios
+4. Wireframe recommendations
+5. Accessibility checklist
+6. Testing scenarios
+```
+
+## Variables
+
+### AI_FEATURE_NAME
+The name of the AI-powered feature being designed.
+- Examples: "Smart Document Summarizer", "AI Writing Assistant", "Predictive Search", "Automated Report Generator"
+
+### PRODUCT_CONTEXT
+The product or platform where this AI feature lives.
+- Examples: "B2B document management platform", "Consumer mobile app", "Enterprise analytics dashboard"
+
+### TARGET_USERS
+The primary users who will interact with this AI feature.
+- Examples: "Knowledge workers processing 50+ documents daily", "Casual users writing social media posts", "Data analysts creating weekly reports"
+
+### AI_CAPABILITY
+The core AI function powering the feature.
+- Examples: "Text generation (GPT-4)", "Image classification (custom CNN)", "Predictive analytics (XGBoost)", "Recommendation engine (collaborative filtering)"
+
+### USER_GOAL
+What the user is trying to accomplish with this feature.
+- Examples: "Save time on repetitive writing tasks", "Find relevant products faster", "Get insights without SQL knowledge"
+
+### PATTERN_TYPE
+The AI interaction pattern that best fits the use case.
+- Examples: "AI Enhancement", "AI Automation", "AI Collaboration", "AI Decision Support"
+
+### CONFIDENCE_RANGE
+The typical accuracy or confidence range of the AI output.
+- Examples: "85-95% accuracy for common queries", "70-80% for complex edge cases", "90%+ for trained categories"
+
+---
+
+## Usage Examples
+
+### Example 1: AI Document Summarizer
+```
+AI_FEATURE_NAME: "Smart Summary"
+PRODUCT_CONTEXT: "Legal document management platform"
+TARGET_USERS: "Paralegals reviewing contracts"
+AI_CAPABILITY: "Extractive and abstractive summarization"
+USER_GOAL: "Quickly understand key contract terms without reading full document"
+PATTERN_TYPE: "AI Enhancement"
+CONFIDENCE_RANGE: "90-95% for standard contracts, 75-85% for complex/unusual terms"
+
+Key UX Decisions:
+- Show summary with highlighted source passages
+- Display confidence per section (high/medium/low)
+- Allow inline editing of summary
+- "View original" button for each point
+- Feedback: "Was this summary helpful?" with quick rating
+```
+
+### Example 2: AI Writing Assistant
+```
+AI_FEATURE_NAME: "Writing Copilot"
+PRODUCT_CONTEXT: "Email marketing platform"
+TARGET_USERS: "Marketing managers creating campaigns"
+AI_CAPABILITY: "Text generation and optimization"
+USER_GOAL: "Write compelling email copy faster"
+PATTERN_TYPE: "AI Collaboration"
+CONFIDENCE_RANGE: "N/A - generative, quality varies by prompt"
+
+Key UX Decisions:
+- Inline suggestions as user types (ghost text)
+- "Generate alternatives" button for selected text
+- Tone selector (professional, friendly, urgent)
+- A/B variant generator for subject lines
+- Feedback: Accept/reject tracked for personalization
+```
+
+### Example 3: Predictive Search
+```
+AI_FEATURE_NAME: "Smart Search"
+PRODUCT_CONTEXT: "E-commerce marketplace"
+TARGET_USERS: "Shoppers looking for products"
+AI_CAPABILITY: "Query understanding + personalized ranking"
+USER_GOAL: "Find relevant products with minimal effort"
+PATTERN_TYPE: "AI Enhancement"
+CONFIDENCE_RANGE: "Top 3 results relevant 85% of the time"
+
+Key UX Decisions:
+- Autocomplete with category hints
+- "Did you mean..." for typos/alternatives
+- Personalized results with "Based on your history" label
+- Easy filtering if AI results miss the mark
+- Feedback: Click-through and purchase implicit signals
+```
+
+---
+
+## Best Practices
+
+1. **Set expectations early** - Tell users what AI can and cannot do before they start
+2. **Show AI is working** - Never leave users wondering if something is happening
+3. **Provide escape hatches** - Always allow users to cancel, edit, or reject AI output
+4. **Be honest about uncertainty** - Display confidence when it helps users calibrate trust
+5. **Fail gracefully** - Design for AI errors as a normal part of the experience
+6. **Explain when helpful** - Offer explanations but don't force them on every user
+7. **Learn from feedback** - Close the loop so users know their input matters
+8. **Respect user agency** - AI should assist, not take over without permission
+9. **Test with real users** - AI UX assumptions often fail in practice
+10. **Iterate based on data** - Monitor acceptance rates, edit frequency, and satisfaction
+
+## Common Pitfalls
+
+❌ **Black box AI** - No explanation of how AI reached its output
+✅ Instead: Provide appropriate transparency for the context
+
+❌ **Overconfident presentation** - Presenting uncertain AI output as fact
+✅ Instead: Use hedging language and confidence indicators
+
+❌ **No user control** - AI makes decisions without user approval
+✅ Instead: Default to user confirmation for high-stakes actions
+
+❌ **Poor error messages** - "Something went wrong" with no guidance
+✅ Instead: Specific, actionable error messages with recovery paths
+
+❌ **Ignoring feedback** - Collecting feedback but never acting on it
+✅ Instead: Show users how their feedback improves the system
 
 ---
 

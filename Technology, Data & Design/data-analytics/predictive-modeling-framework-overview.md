@@ -29,19 +29,31 @@ This comprehensive framework has been split into 3 focused sub-prompts for easie
 **File:** `predictive-modeling-framework-01-data-preparation.md`
 
 **Use this part when you need to:**
-[Focus area for part 1]
+- Clean and preprocess raw data for modeling
+- Handle missing values, outliers, and data quality issues
+- Engineer features from existing data columns
+- Create training/validation/test splits
+- Address class imbalance and sampling strategies
 
 ### Part 2: Model Development & Evaluation (Lines 367-626)
 **File:** `predictive-modeling-framework-02-model-development.md`
 
 **Use this part when you need to:**
-[Focus area for part 2]
+- Select appropriate algorithms for your problem type
+- Train and tune model hyperparameters
+- Evaluate model performance with appropriate metrics
+- Compare multiple models and select the best approach
+- Interpret model results and feature importance
 
 ### Part 3: Deployment & Monitoring (Lines 627-1075)
 **File:** `predictive-modeling-framework-03-deployment.md`
 
 **Use this part when you need to:**
-[Focus area for part 3]
+- Deploy models to production environments
+- Set up model serving infrastructure
+- Implement monitoring for model drift and performance
+- Create retraining pipelines and triggers
+- Establish governance and documentation
 
 ## Quick Navigation
 
