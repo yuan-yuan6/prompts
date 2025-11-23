@@ -478,7 +478,7 @@ Software Platform: [R/PYTHON/EXCEL/ILLUSTRATOR/SPECIALIZED_SOFTWARE]
 
    ### Visual Abstract Framework
 
-   ```markdown
+   ````markdown
    ## Visual Abstract Design Strategy
 
    ### Core Components
@@ -545,6 +545,7 @@ Software Platform: [R/PYTHON/EXCEL/ILLUSTRATOR/SPECIALIZED_SOFTWARE]
        design_focus: "Broad appeal and shareability"
        engagement_tips: "Encourage sharing and comments"
    ```
+   ````
 
 7. PUBLICATION STANDARDS
 
@@ -626,7 +627,7 @@ Software Platform: [R/PYTHON/EXCEL/ILLUSTRATOR/SPECIALIZED_SOFTWARE]
    **Figure 1. Treatment significantly reduces symptom severity over time.**
    Box plots show median and interquartile ranges for symptom scores in treatment (n=45, blue) and control (n=43, red) groups measured at baseline, 6 weeks, and 12 weeks post-intervention. Individual data points are overlaid. Two-way repeated measures ANOVA revealed significant group × time interaction (F(2,172)=8.34, p<0.001, η²=0.09). Post-hoc comparisons: *p<0.05, **p<0.01, ***p<0.001. Error bars represent 95% confidence intervals.
    ```
-   ```
+   ````
 
 8. ACCESSIBILITY AND INCLUSION
 

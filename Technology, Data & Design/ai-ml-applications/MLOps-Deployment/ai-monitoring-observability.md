@@ -76,7 +76,7 @@ AI MONITORING SETUP: Fraud Detection Model
 
 ## Template
 
-```markdown
+````markdown
 # AI Monitoring Plan: [MODEL_NAME]
 
 ## 1. System Overview
@@ -336,7 +336,7 @@ alerts:
 - [ ] Update runbook
 - [ ] Create preventive measures
 ```
-```
+````
 
 ---
 
