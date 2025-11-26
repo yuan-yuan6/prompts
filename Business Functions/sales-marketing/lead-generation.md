@@ -33,6 +33,9 @@ slug: lead-generation
 ## Purpose
 Create comprehensive lead generation strategies covering prospecting, qualification, and nurturing to build a robust sales pipeline and drive revenue growth.
 
+## Quick Lead Generation Prompt
+Design lead generation strategy for [COMPANY_TYPE] targeting [TARGET_MARKET] with [BUDGET] monthly budget. Current state: [CURRENT_LEADS] leads/month, [CONVERSION_RATE]% conversion. Implement channels: [LEAD_CHANNELS] (content marketing/LinkedIn/paid ads/webinars/referrals). Build lead scoring model with [SCORING_CRITERIA] criteria. Create nurturing sequences for [FUNNEL_STAGES] stages. Target [LEAD_TARGET] qualified leads/month, [MQL_RATE]% MQL rate, and [PIPELINE_VALUE] pipeline value.
+
 ## Quick Start
 
 **Need to generate more qualified leads quickly?** Use this minimal example:

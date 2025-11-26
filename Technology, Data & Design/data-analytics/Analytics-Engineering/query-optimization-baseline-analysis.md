@@ -27,6 +27,9 @@ slug: query-optimization-baseline-analysis
 ## Purpose
 Establish comprehensive performance baselines and diagnostic frameworks for SQL queries, including execution plan analysis, workload pattern identification, and resource consumption profiling to identify optimization opportunities.
 
+## Quick Baseline Prompt
+Establish a performance baseline for [DATABASE_PLATFORM] by identifying queries with execution time >[THRESHOLD_SECONDS]s or logical reads >[READ_THRESHOLD]. Analyze top [TOP_N] resource consumers over [ANALYSIS_PERIOD_DAYS] days. Profile execution plans for [TABLE_SCANS/HASH_JOINS/SORTS], document workload patterns by [HOUR/DAY], and generate a prioritized optimization list.
+
 ## Quick Start
 
 ### For Performance Analysis

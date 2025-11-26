@@ -36,6 +36,9 @@ slug: kpi-development
 ## Overview
 This comprehensive template enables organizations to develop, implement, and manage sophisticated Key Performance Indicator (KPI) frameworks that drive strategic decision-making and operational excellence. It covers everything from KPI identification and design to measurement, monitoring, and continuous optimization.
 
+## Quick KPI Prompt
+Design a KPI framework for [department/function]: identify 5-7 key metrics that align with business objectives, define each metric's formula, data source, owner, and target threshold (red/yellow/green). Ensure a mix of leading and lagging indicators, establish review cadence, and create a simple dashboard layout showing current performance vs. targets.
+
 ## Quick Start
 
 **Need to develop KPIs quickly?** Use this minimal example:

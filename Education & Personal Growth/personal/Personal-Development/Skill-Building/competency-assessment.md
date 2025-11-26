@@ -35,6 +35,10 @@ slug: competency-assessment
 ## Overview
 This comprehensive template enables organizations and individuals to design, implement, and optimize sophisticated competency assessment systems that accurately measure skills, knowledge, and capabilities across multiple domains. It covers everything from assessment strategy and framework design to advanced evaluation methods, analytics, and continuous improvement processes.
 
+## Quick Competency Assessment Prompt
+
+Create a competency assessment framework for [context - hiring/performance review/skill development] evaluating [role/position] in [industry]. Define [number] core competencies with proficiency levels from beginner to expert. Design multi-method assessment instruments including [behavioral interviews/skills tests/360-degree feedback/portfolio review]. Include scoring rubrics, bias mitigation strategies, and a results dashboard template. Provide sample interview questions and evaluation criteria for each competency.
+
 ## Quick Start
 
 Design a professional competency assessment system in 45 minutes that rivals enterprise solutions.

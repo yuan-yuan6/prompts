@@ -35,6 +35,9 @@ This comprehensive template enables organizations to conduct thorough security a
 
 ## Quick Start
 
+## Quick Security Audit Prompt
+Conduct security audit for [organization] covering [infrastructure/applications/processes/comprehensive]. Compliance frameworks: [ISO27001/SOC2/NIST/HIPAA]. Team: lead auditor + [specialists]. Perform: network/infra assessment (Nessus, Qualys), application testing (OWASP Top 10), IAM review, policy evaluation. Classify findings by severity, create remediation roadmap with owners and deadlines. Plan quarterly follow-up reviews.
+
 **Set Your Foundation:**
 1. Define audit scope: infrastructure, applications, processes, or comprehensive
 2. Identify compliance requirements: ISO27001, SOC2, NIST, GDPR, HIPAA

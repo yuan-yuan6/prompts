@@ -34,6 +34,9 @@ slug: autonomous-vehicle-systems
 ## Purpose
 Comprehensive framework for developing and deploying autonomous vehicle systems including sensor fusion, AI decision-making, safety protocols, infrastructure integration, regulatory compliance, and smart city mobility solutions.
 
+## Quick Autonomous Vehicle Prompt
+Develop autonomous vehicle system for [VEHICLE_TYPE] at SAE Level [AUTONOMY_LEVEL] automation. Define operational design domain: [ODD_DESCRIPTION] (highway/urban/mixed). Configure sensor suite: [CAMERA_COUNT] cameras, [LIDAR_COUNT] LiDARs, [RADAR_COUNT] radars. Build AI pipeline for perception, planning, and control. Implement [REDUNDANCY_LEVEL] safety redundancy. Target [SAFETY_RATING] safety score, [MILES_TESTING] test miles, [MTBF] MTBF, and [DEPLOYMENT_COUNT] vehicle deployment.
+
 ## Quick Start
 
 **For AV Development Teams:**

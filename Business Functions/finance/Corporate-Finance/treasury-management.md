@@ -36,6 +36,9 @@ slug: treasury-management
 ## Purpose
 Create comprehensive treasury management strategies covering cash flow management, funding optimization, and investment decisions to ensure liquidity, minimize financial risk, and maximize returns on corporate assets.
 
+## Quick Treasury Management Prompt
+Develop treasury strategy for [company] with $[X] revenue, operating in [Y countries]. Cash: $[Z] position, $[W] seasonal swing. Debt: $[A] portfolio. Focus: [daily/weekly] cash forecasting, liquidity buffers ([X days]), FX hedging ([currencies]), interest rate management. Banking: [concentration/diversification]. Investment policy: [permitted instruments], [duration limits], [credit quality]. Technology: [TMS system].
+
 ## Quick Start
 
 ### Minimal Example

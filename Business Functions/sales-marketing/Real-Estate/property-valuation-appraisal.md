@@ -30,6 +30,9 @@ slug: property-valuation-appraisal
 ## Purpose
 Create comprehensive property valuation reports, appraisal analyses, market assessments, and investment evaluations that establish accurate market values for residential, commercial, and specialty properties using industry-standard methodologies.
 
+## Quick Property Valuation Prompt
+Conduct [VALUATION_PURPOSE] (lending/sale/tax/estate) appraisal for [PROPERTY_TYPE] at [PROPERTY_ADDRESS]. Property specs: [BEDROOMS] bed, [BATHROOMS] bath, [SQUARE_FEET] sq ft, built [YEAR_BUILT], [CONDITION] condition. Apply [VALUATION_APPROACHES] (sales comparison/income/cost) approaches. Identify [COMPARABLE_COUNT] comparable sales within [RADIUS] radius from past [TIMEFRAME] months. Adjust for [ADJUSTMENT_FACTORS]. Deliver [REPORT_TYPE]-compliant report with value conclusion and effective date [EFFECTIVE_DATE].
+
 ## Quick Start
 
 **Need to value a property quickly?** Use this minimal example:

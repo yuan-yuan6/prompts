@@ -31,6 +31,9 @@ slug: cybersecurity-incident-response
 ## Purpose
 Comprehensive framework for cybersecurity incident response including threat detection, incident containment, forensic analysis, recovery procedures, threat hunting, security orchestration, and organizational resilience for protecting digital assets and infrastructure.
 
+## Quick Incident Response Prompt
+Create incident response plan for [organization type] with [X employees], [Y systems], protecting [$Z] in assets. Define: detection capabilities (SIEM alerts, EDR), severity classification (P1-P4), response playbooks for [ransomware/data breach/DDoS/phishing], escalation matrix, communication templates, and recovery procedures. Target: detect in [X min], contain in [Y hours], recover in [Z hours].
+
 ## Quick Start
 
 **Need to create an incident response plan quickly?** Use this minimal example:

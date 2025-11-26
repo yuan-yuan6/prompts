@@ -34,6 +34,9 @@ slug: smart-grid-implementation
 ## Purpose
 Create comprehensive smart grid implementation strategies, infrastructure modernization plans, technology deployment roadmaps, and digital transformation initiatives that enhance grid reliability, efficiency, and sustainability while integrating renewable energy sources and enabling demand response programs.
 
+## Quick Smart Grid Implementation Prompt
+Implement smart grid program for [UTILITY_NAME] ([UTILITY_TYPE]) serving [CUSTOMER_COUNT] customers. Deploy AMI to [AMI_DEPLOYMENT]% of meters. Implement distribution automation, FLISR, and volt/VAR optimization. Integrate [DER_CAPACITY] MW distributed resources. Enable demand response and customer engagement platforms. Budget [PROGRAM_BUDGET] over [TIMELINE] years. Target [RELIABILITY_IMPROVEMENT]% reliability improvement, [LOSS_REDUCTION]% loss reduction, [CUSTOMER_SATISFACTION]% customer satisfaction, and [OPERATIONAL_SAVINGS] annual operational savings.
+
 ## Quick Start
 
 **Energy & Utilities Scenario**: You're leading a multi-year smart grid transformation program to modernize infrastructure, integrate renewable energy, improve reliability, enable customer participation, and create a more resilient and efficient grid.

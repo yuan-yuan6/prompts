@@ -27,6 +27,9 @@ slug: kubernetes-security
 ## Purpose
 Comprehensive framework for securing Kubernetes clusters including RBAC, network policies, pod security, secrets management, admission control, and runtime security monitoring.
 
+## Quick K8s Security Prompt
+Secure [EKS/GKE/AKS/self-managed] Kubernetes cluster running [X] workloads. Implement: RBAC policies, network policies (deny-by-default), pod security standards (restricted), secrets management (Vault/sealed-secrets), image scanning in CI/CD, admission controllers (OPA/Kyverno), and runtime monitoring (Falco). Assess against CIS Kubernetes Benchmark. Deliver: security policies, deployment templates, and monitoring dashboards.
+
 ## Quick Start
 
 **Need to secure Kubernetes quickly?** Use this minimal example:

@@ -30,6 +30,9 @@ slug: pipeline-orchestration
 ## Purpose
 Design and implement comprehensive workflow orchestration for data pipelines using Apache Airflow or similar platforms. This template covers DAG design, task dependencies, scheduling strategies, dynamic task generation, conditional workflows, and resource management.
 
+## Quick Orchestration Prompt
+Create an Airflow DAG [DAG_ID] running on schedule [CRON_EXPRESSION] with max [CONCURRENT_RUNS] concurrent runs. Define tasks for [EXTRACTION_SOURCES] → [TRANSFORMATION_STEPS] → [LOAD_DESTINATIONS] with [RETRY_COUNT] retries and [RETRY_DELAY] delay. Include dynamic task generation for [DYNAMIC_SOURCES], branching based on [BRANCH_CONDITION], and task groups for [LOGICAL_GROUPINGS].
+
 ## Quick Start
 
 ### For Data Engineers

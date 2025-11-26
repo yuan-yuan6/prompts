@@ -30,6 +30,9 @@ slug: iot-architecture
 ## Purpose
 Comprehensive framework for designing, implementing, and managing IoT systems with edge computing capabilities, including device management, data processing, connectivity, and cloud integration.
 
+## Quick IoT Prompt
+Design IoT system with [X devices] across [Y locations]. Connectivity: [WiFi/LoRaWAN/5G/NB-IoT]. Edge: gateways with [containerized/K3s] workloads for [local processing/filtering]. Cloud: [AWS IoT/Azure IoT Hub/ThingsBoard]. Data pipeline: ingest → edge process → stream → store. Latency: <[Z]ms for [real-time actions]. Security: device auth, TLS, network segmentation. Monitoring: device health, data flow dashboards.
+
 ## Quick Start
 
 **Set Your Foundation:**

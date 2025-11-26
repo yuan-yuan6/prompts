@@ -33,6 +33,18 @@ slug: ai-feature-development
 ## Purpose
 Design, build, and ship AI-powered features that deliver clear user value, integrate seamlessly with existing products, and maintain high quality and reliability standards.
 
+---
+
+## 🚀 Quick Prompt
+
+**Copy and use this generic prompt to design any AI feature:**
+
+> I need to design and build **[AI FEATURE NAME]** for **[PRODUCT]** that uses **[AI CAPABILITY]** to help **[TARGET USERS]** accomplish **[GOAL]**. Help me define: (1) **User value**—what specific problem does this AI feature solve and how does it measurably improve the user's workflow? (2) **AI interaction design**—what's the optimal UX pattern (suggestions, automation, collaboration, chat) and how does the user invoke, review, and control AI outputs? (3) **Technical implementation**—what's the MVP scope, prompt engineering approach, and API design? (4) **Quality assurance**—what success metrics, acceptance criteria, and testing approach validate this feature works? Provide a phased rollout plan with quality gates and monitoring strategy.
+
+**Usage:** Fill in the brackets and use as a prompt to an AI assistant or as a framework for your feature spec.
+
+---
+
 ## Quick Start
 
 **Need to ship an AI feature quickly?** Use this streamlined approach:
@@ -347,12 +359,14 @@ Architecture:
 Frontend:
 - UI components: [COMPONENT_LIST]
 - State management: [STATE_APPROACH]
-- Real-time updates: [WEBSOCKET/POLLING]
+- Real-time updates: [WEBSOCKET/POLLING/SSE]
+- Streaming support: [YES/NO - for progressive AI output]
 
 Backend API:
 - Endpoint: POST /api/ai/[feature-name]
 - Request format: [JSON_SCHEMA]
 - Response format: [JSON_SCHEMA]
+- Streaming: [SSE/WebSocket for long responses]
 - Authentication: [AUTH_METHOD]
 
 AI Integration Layer:
@@ -361,11 +375,13 @@ AI Integration Layer:
 - Prompt management: [HOW_PROMPTS_STORED]
 - Context assembly: [CONTEXT_BUILDING]
 - Response parsing: [OUTPUT_VALIDATION]
+- Token management: [MAX_TOKENS, CONTEXT_WINDOW]
 
 Caching:
 - Strategy: [CACHING_APPROACH]
 - TTL: [TIME_TO_LIVE]
 - Invalidation: [WHEN_TO_CLEAR]
+- Semantic caching: [FOR_SIMILAR_QUERIES]
 ```
 
 Implementation Example:
@@ -457,6 +473,63 @@ Customer Tier: {customer_tier}
 Customer Sentiment: {sentiment}
 
 Generate 3 email reply options (brief, standard, detailed)."""
+```
+
+### LLM-Specific Considerations
+
+Token & Cost Management:
+```python
+# Calculate and track token usage
+def estimate_cost(input_tokens: int, output_tokens: int, model: str) -> float:
+    """Estimate API cost for request"""
+    pricing = {
+        "claude-sonnet": {"input": 0.003, "output": 0.015},  # per 1K tokens
+        "claude-haiku": {"input": 0.00025, "output": 0.00125},
+        "gpt-4o": {"input": 0.005, "output": 0.015},
+    }
+    rates = pricing.get(model, pricing["claude-sonnet"])
+    return (input_tokens * rates["input"] + output_tokens * rates["output"]) / 1000
+
+# Implement token budgets
+MAX_INPUT_TOKENS = 4000
+MAX_OUTPUT_TOKENS = 1000
+MONTHLY_BUDGET = 10000  # dollars
+
+# Track usage
+def check_budget_before_request(user_id: str) -> bool:
+    """Prevent overspending with usage limits"""
+    monthly_usage = get_monthly_usage(user_id)
+    return monthly_usage < USER_MONTHLY_LIMIT
+```
+
+Streaming for Better UX:
+```python
+# Stream responses for long-form generation
+async def stream_ai_response(request: Request):
+    """Stream AI response for progressive rendering"""
+    async def generate():
+        async for chunk in ai_service.stream_generate(request.prompt):
+            yield f"data: {json.dumps({'text': chunk})}\n\n"
+        yield f"data: {json.dumps({'done': True})}\n\n"
+    
+    return StreamingResponse(
+        generate(),
+        media_type="text/event-stream"
+    )
+```
+
+Context Window Management:
+```python
+def manage_context(messages: list, max_tokens: int = 100000) -> list:
+    """Keep conversation within context limits"""
+    total_tokens = sum(count_tokens(m) for m in messages)
+    
+    while total_tokens > max_tokens and len(messages) > 2:
+        # Keep system prompt and recent messages
+        messages.pop(1)  # Remove oldest user message
+        total_tokens = sum(count_tokens(m) for m in messages)
+    
+    return messages
 ```
 
 ### 5. TESTING & VALIDATION
@@ -797,14 +870,20 @@ Who will use this AI feature.
 - AI UX Patterns
 
 **Tools:**
-- Feature flag platforms (LaunchDarkly, Split)
-- A/B testing tools (Optimizely, VWO)
-- Analytics (Amplitude, Mixpanel)
-- AI monitoring (LangSmith, Helicone)
+- Feature flag platforms (LaunchDarkly, Split, Statsig)
+- A/B testing tools (Optimizely, VWO, Eppo)
+- Analytics (Amplitude, Mixpanel, PostHog)
+- AI monitoring (LangSmith, Helicone, Arize Phoenix)
+- Prompt management (Langfuse, PromptLayer, Humanloop)
+
+**LLM Development:**
+- [LangChain](https://langchain.com/) - LLM application framework
+- [LlamaIndex](https://llamaindex.ai/) - Data framework for LLMs
+- [Anthropic Cookbook](https://github.com/anthropics/anthropic-cookbook) - Best practices
 
 ---
 
-**Last Updated:** 2025-11-12
+**Last Updated:** 2025-11-25
 **Category:** AI/ML Applications > AI Product Development
 **Difficulty:** Intermediate to Advanced
 **Estimated Time:** 4-8 weeks for production AI feature

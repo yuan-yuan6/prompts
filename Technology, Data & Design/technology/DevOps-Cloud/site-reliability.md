@@ -30,6 +30,9 @@ slug: site-reliability
 ## Purpose
 Implement comprehensive SRE practices including SLO/SLI definition, error budgets, incident management, monitoring, alerting, and reliability engineering for production systems.
 
+## Quick SRE Prompt
+Implement SRE for [service] targeting [X users]. Define SLIs: availability, latency (p50/p95/p99), error rate, throughput. Set SLOs: [99.X%] availability, <[Y]ms latency. Calculate error budget ([Z] min/month downtime). Deploy: [Prometheus/DataDog] monitoring, PagerDuty alerting on burn rate. Create: on-call rotation, incident runbooks, postmortem template. Track: MTTR, incident frequency, error budget consumption.
+
 ## Quick Start
 
 **Implement SRE practices in 5 steps:**

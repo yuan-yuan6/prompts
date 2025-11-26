@@ -29,6 +29,9 @@ slug: security-compliance-framework
 ## Purpose
 Comprehensive framework for achieving and maintaining security compliance (SOC 2, ISO 27001, HIPAA, PCI-DSS) including control implementation, evidence collection, audit preparation, and continuous compliance monitoring.
 
+## Quick Compliance Prompt
+Achieve [SOC 2/ISO 27001/HIPAA/PCI-DSS] compliance for [organization type] with [X employees], [Y systems]. Perform gap analysis against [framework] requirements. Create: control implementation roadmap, policy templates (security, access control, incident response), evidence collection procedures, audit preparation checklist, and continuous compliance monitoring plan. Timeline: [X months] to certification.
+
 ## Quick Start
 
 **Need to achieve compliance quickly?** Use this minimal example:

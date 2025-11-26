@@ -30,6 +30,9 @@ slug: penetration-testing
 ## Purpose
 Comprehensive framework for planning, executing, and reporting penetration tests including scope definition, methodology selection, testing execution, vulnerability exploitation, and remediation guidance.
 
+## Quick Pentest Prompt
+Plan penetration test for [target: web app/infrastructure/API/mobile]. Scope: [URLs/IPs/systems]. Type: [black-box/gray-box/white-box]. Test for: OWASP Top 10, authentication bypass, privilege escalation, injection attacks, misconfigurations. Rules of engagement: [in-scope/out-of-scope], testing window, emergency contacts. Deliver: executive summary, technical findings with POCs, CVSS scores, and prioritized remediation plan.
+
 ## Quick Start
 
 **Need to conduct a penetration test?** Use this minimal example:

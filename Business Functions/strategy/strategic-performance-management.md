@@ -34,6 +34,9 @@ slug: strategic-performance-management
 ## Purpose
 Create comprehensive performance management systems including KPIs, OKRs, and dashboards to track organizational performance and drive strategic execution.
 
+## Quick Performance Management Prompt
+Design performance management system for [COMPANY_NAME] in [INDUSTRY] with [EMPLOYEE_COUNT] employees. Align to [STRATEGIC_OBJECTIVE_COUNT] strategic objectives. Define [KPI_COUNT] KPIs across dimensions: financial, customer, operational, and people. Set targets and thresholds (red/yellow/green) for each metric. Build dashboards: executive (strategic), operational (departmental), individual (performance). Establish [REVIEW_CADENCE] (weekly/monthly/quarterly) review cycles. Deploy in [BI_TOOL]. Target [GOAL_ACHIEVEMENT]% strategic goal achievement and [VISIBILITY_IMPROVEMENT]% performance visibility improvement.
+
 ## Quick Start
 1. **Align to Strategy** - Review your organization's strategic objectives and identify 5-7 key outcomes to measure
 2. **Select KPI Framework** - Choose 3-4 KPIs per strategic objective covering financial, customer, operational, and people dimensions

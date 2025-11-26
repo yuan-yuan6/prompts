@@ -32,6 +32,9 @@ slug: cicd-pipeline-framework
 ## Purpose
 Comprehensive framework for implementing continuous integration and continuous deployment pipelines including build automation, testing strategies, deployment orchestration, GitOps practices, and progressive delivery for modern software development.
 
+## Quick CI/CD Prompt
+Design CI/CD pipeline for [application] with [X repos], deploying to [dev/staging/prod]. Stages: build (<5 min), test (unit + integration, >80% coverage), security scan (SAST/DAST), deploy ([rolling/blue-green/canary]). Tools: [GitHub Actions/GitLab CI/Jenkins]. Quality gates: code coverage, vulnerability scan, approval for prod. Target: [X deploys/day], <30 min lead time.
+
 ## Quick Start
 
 **To Build Your First CI/CD Pipeline:**

@@ -30,6 +30,9 @@ slug: real-estate-market-analysis
 ## Purpose
 Comprehensive framework for analyzing real estate markets, evaluating investment opportunities, conducting comparable analysis, and making data-driven property investment decisions.
 
+## Quick Real Estate Market Analysis Prompt
+Analyze real estate investment for [PROPERTY_TYPE] with [UNIT_COUNT] units in [MARKET_LOCATION] at [PURCHASE_PRICE] purchase price. Assess market: demographics, employment, supply/demand, rent trends. Current metrics: [OCCUPANCY]% occupied, [CURRENT_RENT] average rent, [PROJECTED_NOI] NOI. Model [INVESTMENT_STRATEGY] (core/value-add/opportunistic) with [HOLD_PERIOD] year hold. Calculate [IRR_TARGET]% target IRR. Identify [COMPARABLE_COUNT] comparable sales. Assess risks and exit strategies. Deliver investment recommendation with financial projections.
+
 ## Quick Start
 
 **Need to analyze a real estate investment quickly?** Use this minimal example:

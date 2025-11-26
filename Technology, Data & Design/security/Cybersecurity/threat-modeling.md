@@ -29,6 +29,9 @@ slug: threat-modeling
 ## Purpose
 Systematic framework for identifying, analyzing, and mitigating security threats in system design using STRIDE, PASTA, or LINDDUN methodologies for applications, infrastructure, and data flows.
 
+## Quick Threat Model Prompt
+Perform threat modeling for [system/application] using [STRIDE/PASTA/LINDDUN]. Create: architecture diagram with trust boundaries, data flow diagram (DFD), asset inventory. Identify threats per component using [methodology]. For each threat: describe attack scenario, assess likelihood/impact, propose mitigations, map to MITRE ATT&CK. Prioritize by risk score and deliver remediation recommendations.
+
 ## Quick Start
 
 **Need to model threats quickly?** Use this minimal example:

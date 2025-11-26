@@ -28,6 +28,9 @@ slug: container-orchestration
 ## Purpose
 Design and implement container orchestration strategies using Kubernetes, Docker Swarm, or other platforms to manage containerized applications at scale.
 
+## Quick Container Orchestration Prompt
+Deploy [application] on Kubernetes ([EKS/GKE/AKS]). Config: [X replicas], resource limits (CPU: [Y], memory: [Z]), health checks (liveness, readiness). Services: LoadBalancer/Ingress with TLS. Scaling: HPA ([min]-[max] pods, [metric] threshold). Storage: PVC for [stateful data]. Observability: Prometheus metrics, Grafana dashboards, centralized logging.
+
 ## Quick Start
 
 **Deploy container orchestration in 5 steps:**

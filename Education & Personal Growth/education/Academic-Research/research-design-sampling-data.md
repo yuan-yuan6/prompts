@@ -27,6 +27,10 @@ slug: research-design-sampling-data
 ## Purpose
 Develop rigorous sampling strategies and comprehensive data collection protocols that ensure high-quality data aligned with your research questions. This prompt guides you through participant selection, sample size determination, recruitment procedures, instrument development, and multi-modal data collection planning.
 
+## Quick Research Design Sampling Data Prompt
+
+Design sampling and data collection for [study type] on [topic]. Target population of [description] with inclusion criteria [criteria] and exclusion criteria [criteria]. Sample [N] using [probability/purposive/snowball] method with power analysis at [effect size/alpha/power]. Recruit via [channels], offer [incentives]. Collect data using [instruments: validated scales/interview protocols/observation forms], administer via [mode: online/in-person/phone], with [frequency/duration]. Ensure [reliability/validity] through [pilot testing/expert review].
+
 ## Quick Start
 
 ### For Researchers Planning Sampling and Data Collection

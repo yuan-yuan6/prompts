@@ -33,6 +33,10 @@ slug: knowledge-documentation
 ## Purpose
 Create comprehensive frameworks for wikis, knowledge bases, FAQs, documentation systems, and collaborative knowledge platforms for organizations, projects, and communities.
 
+## Quick Knowledge Documentation Prompt
+
+Create documentation system for [organization/project] using [platform: Confluence/MediaWiki/Notion/GitBook]. Define content types including [how-tos/reference/tutorials/FAQs/policies], organize in [number] main categories with [information architecture], establish authoring workflow with [roles: contributors/reviewers/approvers], implement version control via [method], and design navigation for [user personas]. Include search functionality, content lifecycle management, and quality standards for [accuracy/currency/accessibility].
+
 ## Quick Start
 
 ### For Knowledge Managers & Documentation Teams

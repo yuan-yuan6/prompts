@@ -26,6 +26,10 @@ slug: creative-writing
 ## Purpose
 Generate compelling creative writing including stories, scripts, poetry, novels, and fictional content with engaging narratives, character development, and literary techniques.
 
+## Quick Creative Writing Prompt
+
+Create a [length] [writing type: short story/poem/script] in [genre] about [central premise]. Feature [protagonist description] who wants [goal] but faces [obstacle]. Set in [location] during [time period] with [atmosphere/mood]. Use [point of view] and [narrative style], incorporating [literary devices]. Target [audience] with [tone] and end with [resolution type: open/closed/twist].
+
 ## Quick Start
 
 To use this template effectively:

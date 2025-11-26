@@ -27,6 +27,10 @@ slug: research-design-foundation
 ## Purpose
 Establish the conceptual backbone of your research by developing rigorous theoretical frameworks, selecting appropriate research paradigms, and justifying methodological design choices. This prompt guides you through the foundational elements that ground your research in theory and establish the philosophical and methodological basis for your study.
 
+## Quick Research Design Foundation Prompt
+
+Establish theoretical foundation for [research topic] study. Ground in [theoretical framework/theory] from [discipline/field], adopt [paradigm: positivist/interpretivist/pragmatic/critical] epistemology with [ontological stance]. Formulate research questions: RQ1 [primary question], RQ2 [secondary question]. Select [design: experimental/correlational/phenomenological/grounded theory] approach with [quantitative/qualitative/mixed] methodology. Justify design choice based on [alignment with questions/practical constraints/disciplinary norms].
+
 ## Quick Start
 
 ### For Researchers Building Study Foundations

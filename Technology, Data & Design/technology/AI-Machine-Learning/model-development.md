@@ -33,6 +33,9 @@ slug: model-development
 ## Purpose
 Comprehensive machine learning model development including training, evaluation, deployment, monitoring, and optimization with MLOps best practices for scalable and reliable AI systems.
 
+## Quick Model Development Prompt
+Develop [model type] for [use case] targeting [success metric: accuracy/F1/RMSE]. Framework: [PyTorch/TensorFlow/scikit-learn]. Pipeline: data validation → training → evaluation → deployment. MLOps: experiment tracking (MLflow), model registry, CI/CD for models, A/B testing. Monitoring: data drift detection, performance degradation alerts. Target: [X%] metric, <[Y]ms inference latency.
+
 ## Quick Start
 
 **Basic Usage:**

@@ -34,6 +34,10 @@ slug: digital-exhibition-curation
 ## Purpose
 Comprehensive framework for curating digital exhibitions and virtual museum experiences including content digitization, interactive design, storytelling narratives, audience engagement, accessibility features, and cultural preservation strategies.
 
+## Quick Digital Exhibition Curation Prompt
+
+Curate digital exhibition for [institution] featuring [number] artifacts on [theme]. Design visitor journey from [entry experience] through [thematic sections] to [conclusion/reflection]. Create interactive elements for [engagement type], ensure [accessibility percentage]% accessibility compliance, develop educational content for [audience levels], and implement [technology: VR/AR/web-based]. Target [visitor count] with [engagement time] average duration and [educational outcome] learning objectives.
+
 ## Quick Start
 
 **Curate Your First Digital Gallery in 4 Hours**

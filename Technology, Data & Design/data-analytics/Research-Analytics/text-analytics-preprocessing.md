@@ -29,6 +29,9 @@ slug: text-analytics-preprocessing
 ## Purpose
 Provide comprehensive text preprocessing and feature engineering capabilities for NLP analysis. This template handles text cleaning, normalization, tokenization, and feature extraction to prepare raw text data for advanced analytics including sentiment analysis, topic modeling, and entity recognition.
 
+## Quick Preprocessing Prompt
+Preprocess [X] text documents from [source]. Clean (remove HTML, URLs, special characters), normalize (lowercase, expand contractions), tokenize, remove stopwords (keep negations), lemmatize, and engineer features: TF-IDF vectors (max 5000 features, include bigrams), word embeddings (300d), and linguistic features. Output cleaned corpus ready for [sentiment/topic/entity] analysis.
+
 ## Quick Start
 
 **Example: Clean and Prepare Customer Reviews for Analysis**

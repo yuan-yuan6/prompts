@@ -29,6 +29,9 @@ slug: job-analysis-definition
 ## Purpose
 Define clear, comprehensive job requirements, competencies, and position descriptions that attract qualified candidates and set expectations for role success.
 
+## Quick Job Analysis Prompt
+Create job definition for [title] in [department] at [company]. Structure: reports to [manager], [direct reports]. Responsibilities: [5-7 primary duties]. Requirements: must-have [education/experience/skills], nice-to-have [attributes]. Success metrics: [3-5 measurable outcomes]. Compensation: [range/level]. Location: [on-site/hybrid/remote]. Output: complete job description and competency framework.
+
 ## Quick Start
 1. **Gather Position Details** - Collect basic information: job title, department, reporting structure, and employment type
 2. **Define Core Responsibilities** - List 5-7 primary duties that represent 70-80% of the role

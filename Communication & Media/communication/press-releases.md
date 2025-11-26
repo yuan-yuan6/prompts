@@ -36,6 +36,10 @@ slug: press-releases
 ## Purpose
 Comprehensive framework for creating press releases, media statements, journalist communications, and media relations strategies that maximize coverage, maintain credibility, and effectively communicate key messages to target audiences.
 
+## Quick Press Release Prompt
+
+Write a press release for [company] announcing [news/milestone]. Include compelling headline, lead paragraph with [who/what/when/where/why], supporting details on [key facts/figures], executive quote from [spokesperson], and company boilerplate. Target media list of [publication types], prepare pitch emphasizing [news angle], and plan distribution for [date/embargo]. Include multimedia assets of [photos/videos/data] and contact information for [media relations].
+
 ## Quick Start
 
 **Need to create a press release quickly?** Use this minimal example:

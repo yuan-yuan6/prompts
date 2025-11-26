@@ -34,6 +34,14 @@ slug: ai-agents-autonomous-systems
 ## Purpose
 Design and build autonomous AI agents that can plan, reason, use tools, and execute complex multi-step tasks with minimal human intervention while maintaining safety and reliability.
 
+## 🚀 Quick Design Prompt
+
+> Design an **AI agent** for **[TASK DOMAIN]** that autonomously **[CORE OBJECTIVE]**. Analyze: (1) **Agent architecture**—should I use ReAct, Plan-Execute, or multi-agent patterns? What LLM and context strategy? (2) **Tool integration**—what tools are needed, how to define schemas, error handling, and sandboxing? (3) **Safety & control**—what guardrails prevent harmful actions, how do I implement human-in-the-loop and kill switches? (4) **Orchestration**—how to manage state, handle failures, implement retry logic, and maintain conversation memory? Provide implementation patterns, tool definitions, safety constraints, and an evaluation framework for agent reliability.
+
+**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for rapid agent design guidance.
+
+---
+
 ## Quick Start
 
 **Need to build an AI agent quickly?** Use this streamlined approach:

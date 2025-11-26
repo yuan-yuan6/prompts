@@ -31,6 +31,10 @@ slug: negotiation
 ## Purpose
 Develop effective negotiation strategies, tactics, and communication approaches to achieve mutually beneficial outcomes in business deals, salary discussions, conflicts, and personal situations.
 
+## Quick Negotiation Prompt
+
+Help me prepare a negotiation strategy for [negotiation type - salary/contract/deal/dispute] with [counterpart]. My ideal outcome is [target], acceptable minimum is [walk-away point], and their likely priorities are [their interests]. Provide opening tactics, key talking points with supporting data, responses to common objections, and win-win solutions that address both parties' underlying interests.
+
 ## Quick Start
 
 Prepare for your next negotiation with this essential checklist:

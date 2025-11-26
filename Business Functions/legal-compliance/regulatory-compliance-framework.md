@@ -33,6 +33,9 @@ slug: regulatory-compliance-framework
 ## Purpose
 Create comprehensive compliance program strategies covering policies, procedures, training, monitoring, and auditing to ensure regulatory adherence, minimize compliance risks, and maintain organizational integrity while fostering a culture of compliance excellence.
 
+## Quick Regulatory Compliance Prompt
+Build compliance framework for [organization] in [industry] across [jurisdictions]. Regulations: [primary: SOX/HIPAA/GDPR/etc]. Structure: governance, risk assessment, policy hierarchy, training, audit. Risk profile: [high/medium/low]. Current state: [gaps identified]. Deliverables: compliance policies, procedures, training plan, monitoring system, audit schedule, executive reporting dashboard.
+
 ## Quick Start
 
 Get started with your regulatory compliance framework in three simple steps:

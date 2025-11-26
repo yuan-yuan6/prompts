@@ -35,6 +35,9 @@ slug: software-documentation
 ## Purpose
 Create comprehensive technical documentation including API documentation, system specifications, user guides, developer guides, and architectural documentation with clear structure and professional presentation.
 
+## Quick Documentation Prompt
+Create [API/system/user] documentation for [project]. Include: [authentication method], [X endpoints/features], request/response examples, error codes ([400/401/403/500]), [rate limits]. Audience: [internal devs/external integrators/end users]. Format: [OpenAPI/Markdown/Confluence]. Sections: getting started, authentication, endpoints, examples, troubleshooting, changelog.
+
 ## Quick Start
 
 **Need to document your project quickly?** Use this minimal example:

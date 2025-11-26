@@ -32,6 +32,14 @@ slug: ai-monitoring-observability
 ## Purpose
 Implement comprehensive monitoring and observability for production AI systems. This framework covers model performance tracking, data drift detection, system health monitoring, and incident response for ML-specific failure modes.
 
+## 🚀 Quick Monitoring Prompt
+
+> Design a **monitoring system** for **[MODEL_NAME]** serving **[TRAFFIC VOLUME]** in **[DEPLOYMENT TYPE: real-time/batch]**. Guide me through: (1) **Model metrics**—what prediction quality, confidence distribution, and ground truth metrics to track? What baselines and thresholds? (2) **Data quality monitoring**—how to detect feature drift, data freshness issues, and schema violations? Which drift detection method (PSI, KS test)? (3) **System health**—what latency percentiles, error rates, and infrastructure metrics? What SLAs? (4) **Alerting & response**—what alert severity levels, escalation paths, and runbooks for common failures? Provide a metrics specification, alert configuration, dashboard layout, and incident response playbook.
+
+**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for rapid monitoring setup.
+
+---
+
 ## Quick Start
 
 ### Minimal Example

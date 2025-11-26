@@ -35,6 +35,9 @@ slug: testing-qa
 ## Purpose
 Design comprehensive testing strategies including unit tests, integration tests, end-to-end tests, performance testing, security testing, and automated quality assurance processes.
 
+## Quick Testing Prompt
+Create testing strategy for [application] with [X users]. Unit tests: [Jest/pytest/JUnit], [Y%] coverage. Integration: [API tests with Postman/supertest]. E2E: [Cypress/Playwright] for [critical flows]. Performance: [K6/JMeter], handle [Z concurrent users]. Security: OWASP Top 10 scan. CI/CD: run all tests on [commit/PR]. Quality gates: coverage [X%], 0 critical bugs.
+
 ## Quick Start
 
 **Need to create a testing strategy quickly?** Use this minimal example:

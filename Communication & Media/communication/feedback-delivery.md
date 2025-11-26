@@ -37,6 +37,10 @@ slug: feedback-delivery
 ## Purpose
 Comprehensive framework for delivering constructive feedback, conducting performance reviews, and facilitating growth-oriented conversations that build trust and drive improvement.
 
+## Quick Feedback Delivery Prompt
+
+Prepare feedback conversation for [employee/team member] regarding [situation/performance area]. Structure using SBI framework: Situation on [date/context], Behavior observed as [specific actions], Impact on [team/project/outcomes]. Balance with recognition of [positive contributions], propose improvement actions for [development areas], and schedule follow-up on [timeline]. Address potential reactions including [anticipated concerns].
+
 ## Quick Start
 
 Deliver effective feedback in your next conversation:

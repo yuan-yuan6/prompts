@@ -29,6 +29,9 @@ slug: 3d-design
 ## Purpose
 Create comprehensive 3D design projects including models, renders, and environments for visualization, animation, gaming, and product development applications.
 
+## Quick 3D Design Prompt
+Create [project type: product visualization/architectural render/game asset/character model] for [project name]. Style: [realistic/stylized/low-poly]. Software: [Blender/Maya/3ds Max], render engine: [Cycles/V-Ray/Arnold]. Target: [4K resolution], [X polygon budget], [Y texture resolution]. Deliver: hero render, 3 alternate angles, and production-ready source files with organized layers.
+
 ## Quick Start
 
 To use this template effectively:

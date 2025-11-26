@@ -38,6 +38,10 @@ slug: board-reporting
 ## Purpose
 Comprehensive framework for creating board-level reports, managing governance processes, and ensuring effective communication with boards of directors and governance committees.
 
+## Quick Board Reporting Prompt
+
+Create a board report for [organization type] covering [reporting period]. Include executive summary of [key initiatives/metrics], financial performance against [budget/targets], strategic progress on [major projects], risk assessment for [identified risks], and governance compliance status. Format for [board meeting type] with [time allocation] for presentation and discussion.
+
 ## Quick Start
 
 **Need to prepare board materials quickly?** Use this minimal example:

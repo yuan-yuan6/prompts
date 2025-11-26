@@ -36,6 +36,10 @@ slug: policy-communication
 ## Purpose
 Comprehensive framework for effectively communicating policy changes, updates, and new implementations while ensuring compliance training, awareness campaigns, and successful adoption across the organization.
 
+## Quick Policy Communication Prompt
+
+Create a policy rollout plan for [policy name] affecting [employee groups]. Develop one-page summary explaining [what's changing/why/impact], create FAQ addressing [anticipated questions], execute multi-channel launch via [communication channels], provide training for [compliance requirements], and establish support through [help resources]. Set compliance deadline of [date] with enforcement of [consequences]. Target [adoption rate] within [timeframe].
+
 ## Quick Start
 
 Roll out your policy effectively in 3 phases:

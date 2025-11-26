@@ -31,6 +31,9 @@ slug: content-marketing
 ## Purpose
 Comprehensive framework for content marketing strategy, social media management, influencer partnerships, community building, content production workflows, and digital engagement optimization.
 
+## Quick Content Marketing Prompt
+Design content marketing strategy for [BRAND_NAME] targeting [FOLLOWER_TARGET] followers across [PLATFORM_COUNT] platforms: [PLATFORMS] (Instagram/TikTok/LinkedIn/YouTube). Produce [CONTENT_VOLUME] pieces/month. Define [PILLAR_COUNT] content pillars: [CONTENT_PILLARS] (educational/entertainment/promotional). Set posting frequency and optimal times per platform. Build content production workflow with [TEAM_SIZE] team. Implement engagement tactics and community management. Target [ENGAGEMENT_RATE]% engagement rate, [GROWTH_RATE]% monthly growth, and [ROI_TARGET]x content ROI.
+
 ## Quick Start
 
 **Need to build a content marketing strategy quickly?** Use this minimal example:

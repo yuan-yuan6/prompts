@@ -27,6 +27,10 @@ slug: social-media-content
 ## Purpose
 Create engaging social media content including posts, campaigns, and engagement strategies across platforms with optimized formatting, hashtags, and audience targeting.
 
+## Quick Social Media Content Prompt
+
+Create [content type: post/carousel/reel/story] for [platform] targeting [audience demographic]. Promote [product/message/brand] with [tone/voice]. Include hook in first [characters/seconds], value proposition of [benefit], call-to-action for [desired action], and [number] strategic hashtags. Optimize for [time/day] posting, design for [engagement metric: shares/saves/comments], and align with [campaign/content pillar]. Include visual direction for [image/video style].
+
 ## Quick Start
 
 Want to create a killer Instagram post in minutes? Here's how:

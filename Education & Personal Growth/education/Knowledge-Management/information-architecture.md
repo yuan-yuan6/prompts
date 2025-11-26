@@ -32,6 +32,10 @@ slug: information-architecture
 ## Purpose
 Create comprehensive frameworks for designing information architectures, taxonomies, ontologies, metadata schemas, and knowledge organization systems for digital platforms, content management, and information systems.
 
+## Quick Information Architecture Prompt
+
+Design information architecture for [system type] in [domain/subject area] serving [user groups]. Create taxonomy with [number] top-level categories and [depth] levels using [hierarchical/faceted/network] structure. Define metadata schema with [core elements: title/description/date/creator/type], implement navigation via [global menu/breadcrumbs/search/filters], and ensure findability through [SEO/tagging/cross-references]. Include governance for taxonomy maintenance and user testing approach for [usability validation].
+
 ## Quick Start
 
 **Get started in 3 minutes:**

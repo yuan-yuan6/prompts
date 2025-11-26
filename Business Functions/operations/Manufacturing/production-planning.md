@@ -33,6 +33,9 @@ slug: production-planning
 ## Purpose
 Comprehensive framework for manufacturing production planning including capacity management, scheduling optimization, resource allocation, workflow design, and continuous improvement strategies.
 
+## Quick Production Planning Prompt
+Optimize production planning for [FACILITY_NAME] with [PRODUCTION_CAPACITY] daily capacity and [PRODUCT_MIX] product mix. Current performance: [OEE_BASELINE]% OEE, [ON_TIME_DELIVERY]% OTD, [CHANGEOVER_TIME] average changeover. Calculate takt time per [DEMAND_RATE] demand. Implement finite capacity scheduling for [BOTTLENECK_OPERATION] constraint. Apply SMED to reduce changeovers by [SMED_TARGET]%. Target [OEE_TARGET]% OEE, [OTD_TARGET]% on-time delivery, [INVENTORY_REDUCTION]% WIP reduction, and [THROUGHPUT_INCREASE]% throughput improvement.
+
 ## Quick Start
 
 **Get started in 3 steps:**

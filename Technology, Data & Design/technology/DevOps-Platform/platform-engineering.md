@@ -36,6 +36,9 @@ slug: platform-engineering
 ## Purpose
 Comprehensive framework for building and managing internal developer platforms, self-service infrastructure, golden paths, developer productivity tools, and platform-as-a-product approaches.
 
+## Quick Platform Engineering Prompt
+Design internal developer platform for [X developers] across [Y teams]. Golden paths: [microservice/API/frontend] templates. Self-service: infrastructure provisioning ([compute/database/storage]), environment creation, CI/CD setup. Portal: service catalog ([Backstage/Port]), documentation, API docs. Metrics: DORA (deployment frequency, lead time, MTTR, change failure rate). Target: [Z deployments/day], <[A hour] MTTR.
+
 ## Quick Start
 
 **To Launch Your Platform Engineering Initiative:**

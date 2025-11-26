@@ -33,6 +33,9 @@ slug: cloud-architecture-framework
 ## Purpose
 Comprehensive framework for designing and implementing cloud architecture solutions including AWS, Azure, GCP deployments, multi-cloud strategies, hybrid cloud patterns, cost optimization, and cloud-native application design for scalable enterprise systems.
 
+## Quick Cloud Architecture Prompt
+Design cloud architecture on [AWS/Azure/GCP] for [system] supporting [X users], [Y TPS]. Components: compute ([EKS/Lambda/EC2]), database ([RDS/DynamoDB]), storage ([S3]), CDN, load balancing. Requirements: [99.9%] availability, [X ms] latency, [$Y/month] budget. Include: VPC design, IAM policies, auto-scaling, DR strategy, and cost optimization recommendations.
+
 ---
 
 ## Quick Start

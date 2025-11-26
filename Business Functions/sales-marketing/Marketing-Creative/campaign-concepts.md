@@ -33,6 +33,9 @@ slug: campaign-concepts
 ## Purpose
 Develop comprehensive marketing campaign concepts including themes, messaging, and creative strategies that drive brand engagement and achieve business objectives across multiple channels.
 
+## Quick Campaign Concept Prompt
+Develop campaign concept for [BRAND_NAME] launching [CAMPAIGN_TYPE] (product launch/awareness/seasonal/rebrand) targeting [TARGET_MARKET]. Campaign duration: [DURATION]. Create central theme and creative big idea around [KEY_MESSAGE]. Design visual concept and messaging for [CHANNEL_COUNT] channels: [CHANNELS]. Develop content calendar with [CONTENT_PIECES] pieces. Set KPIs: [REACH_TARGET] reach, [ENGAGEMENT_TARGET]% engagement, [CONVERSION_TARGET] conversions. Budget: [BUDGET]. Achieve [ROI_TARGET]x ROI.
+
 ## Quick Start
 
 **Need to create a campaign concept quickly?** Use this minimal example:

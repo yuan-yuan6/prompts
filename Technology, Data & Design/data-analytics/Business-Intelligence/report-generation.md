@@ -36,6 +36,9 @@ slug: report-generation
 ## Purpose
 Develop comprehensive strategies for automated report creation, custom reporting systems, and executive report generation that streamline business intelligence processes and ensure consistent, timely delivery of actionable insights.
 
+## Quick Automation Prompt
+Automate [report name] that currently takes [X hours] to create manually. Define data sources, extraction schedule (daily/weekly/monthly), key metrics and calculations, report format (PDF/Excel/dashboard), distribution list, and delivery timing. Include data validation checks and an alert mechanism for failures or anomalies.
+
 ## Quick Start
 
 **Need to automate reporting quickly?** Use this minimal example:

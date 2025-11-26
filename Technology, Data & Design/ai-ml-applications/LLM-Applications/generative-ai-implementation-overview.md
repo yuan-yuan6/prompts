@@ -29,6 +29,14 @@ slug: generative-ai-implementation-overview
 ## Purpose
 This comprehensive generative AI implementation framework has been split into three focused sub-prompts for easier use and better organization. Each part builds on the previous one to enable responsible and effective AI deployment across enterprise applications.
 
+## 🚀 Quick Implementation Prompt
+
+> Develop a **generative AI implementation strategy** for **[ORGANIZATION]** in **[INDUSTRY]** targeting **[PRIMARY USE CASE]**. Guide me through: (1) **Strategy & use cases**—what high-value applications to prioritize, which foundation models to evaluate, and how to build the business case? (2) **Technical architecture**—should I use API-based, fine-tuned, or self-hosted models? What RAG, prompting, and agent patterns apply? (3) **Governance & safety**—how to ensure responsible AI, manage risks, comply with regulations (EU AI Act, HIPAA), and protect data privacy? (4) **Implementation roadmap**—what's the pilot scope, success metrics, scaling plan, and change management approach? Provide a phased implementation plan, model selection matrix, governance framework, and ROI calculation template.
+
+**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for comprehensive generative AI implementation guidance.
+
+---
+
 ## Navigation Guide
 
 ### Part 1: Foundation & Use Cases (350-400 lines)

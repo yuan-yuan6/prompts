@@ -26,6 +26,9 @@ slug: query-optimization-monitoring-tuning
 ## Purpose
 Implement comprehensive real-time performance monitoring, automated alerting systems, and self-tuning procedures to continuously optimize database query performance and proactively address performance issues.
 
+## Quick Tuning Prompt
+Set up [DATABASE_PLATFORM] performance monitoring with thresholds: long-running >[LONG_RUNNING_MINUTES]min, high CPU >[CPU_THRESHOLD]%, blocked >[BLOCKED_MINUTES]min. Configure alerts via [EMAIL/SLACK/PAGERDUTY]. Implement auto-tuning for [STATISTICS/INDEXES/COMPREHENSIVE] in [REPORT/EXECUTE] mode with max [EXECUTION_MINUTES] minute limit.
+
 ## Quick Start
 
 ### For Performance Monitoring Setup

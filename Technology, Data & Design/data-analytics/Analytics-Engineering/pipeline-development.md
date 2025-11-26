@@ -37,6 +37,9 @@ slug: pipeline-development
 ## Purpose
 Design comprehensive ETL/ELT pipeline development strategies including data ingestion, transformation processing, orchestration workflows, monitoring systems, and automation frameworks for enterprise data platforms.
 
+## Quick Pipeline Prompt
+Design a [ETL/ELT] pipeline using [ORCHESTRATION_PLATFORM] to extract data from [SOURCE_SYSTEMS], transform through [BRONZE/SILVER/GOLD] layers using [PROCESSING_FRAMEWORK], and load to [TARGET_DESTINATION]. Include retry logic, data quality checks, SLA monitoring, and alerting for [CRITICAL_METRICS]. Provide DAG code with task dependencies.
+
 ## Quick Start
 
 ### For Data Engineers

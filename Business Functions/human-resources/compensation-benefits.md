@@ -37,6 +37,9 @@ slug: compensation-benefits
 ## Purpose
 Create comprehensive compensation and benefits strategies covering analysis, planning, and administration to ensure competitive, equitable, and sustainable reward systems that attract, retain, and motivate talent.
 
+## Quick Compensation Prompt
+Review compensation for [role/department] with [X employees]. Industry: [sector], [company stage]. Market position: target [Xth percentile]. Issues: [below market/pay equity gaps/retention]. Budget: $[X] adjustment pool. Deliverables: salary bands, merit guidelines, equity refresh plan. Timeline: implement by [date]. Include pay equity analysis and manager communication plan.
+
 ## Quick Start
 
 **Need to review compensation strategy quickly?** Use this minimal example:

@@ -37,6 +37,9 @@ slug: analytics-data-quality
 ## Purpose
 Design comprehensive data quality validation frameworks including data profiling methodologies, validation rule engines, data cleansing processes, quality monitoring systems, and automated data quality management for enterprise data platforms.
 
+## Quick Quality Prompt
+Implement data quality framework for [DATA_DOMAIN] with thresholds: completeness >[COMPLETENESS_%]%, validity >[VALIDITY_%]%, uniqueness >[UNIQUENESS_%]%. Profile [DATASET_NAME] for [MISSING_VALUES/DUPLICATES/OUTLIERS]. Define validation rules for [CRITICAL_COLUMNS] with [SCHEMA/BUSINESS/REFERENTIAL] checks. Set up monitoring with alerts when quality drops below thresholds.
+
 ## Quick Start
 
 ### For Data Engineers

@@ -30,6 +30,10 @@ slug: data-analysis
 ## Purpose
 Create comprehensive data analysis plans covering statistical analysis, qualitative analysis, and mixed methods approaches for academic research projects.
 
+## Quick Data Analysis Prompt
+
+Create data analysis plan for [study type: experimental/observational/mixed] research with [sample size] participants. Analyze [dependent variables] predicted by [independent variables] using [software: SPSS/R/Python/NVivo]. Apply [statistical tests: t-test/ANOVA/regression/thematic] with significance level [alpha], check assumptions of [normality/homogeneity], handle missing data via [method], and report effect sizes using [Cohen's d/eta-squared]. Include [qualitative coding approach] if mixed methods.
+
 ## Quick Start
 
 ### For Researchers & Data Analysts

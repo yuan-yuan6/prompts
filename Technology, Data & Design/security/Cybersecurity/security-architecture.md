@@ -31,6 +31,9 @@ slug: security-architecture
 ## Purpose
 Design comprehensive security architecture including security design principles, defensive strategies, implementation patterns, and governance frameworks for enterprise security systems.
 
+## Quick Security Architecture Prompt
+Design security architecture for [enterprise/application] with [X users], [Y systems]. Apply principles: zero trust, defense-in-depth, least privilege. Define: identity strategy (SSO, MFA, PAM), network segmentation, data protection (encryption, DLP), endpoint security (EDR), and monitoring (SIEM, SOAR). Use [SABSA/TOGAF] framework. Deliver: architecture diagrams, control matrix, and implementation roadmap.
+
 ## Quick Start
 
 **Set Your Foundation:**

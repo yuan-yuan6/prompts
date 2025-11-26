@@ -31,6 +31,10 @@ slug: habit-formation
 ## Purpose
 Create comprehensive habit formation systems, behavioral change protocols, routine optimization strategies, and sustainable lifestyle transformations through scientific habit design, environmental engineering, and systematic behavior modification techniques.
 
+## Quick Habit Formation Prompt
+
+Help me build a lasting habit of [target habit]. My goal is to [specific outcome] by practicing [frequency]. Past attempts failed because [obstacles]. Design a habit system using the cue-routine-reward framework with a 2-minute starter version, environmental triggers to set up, accountability methods, and a 66-day implementation plan. Include strategies for recovering from missed days and stacking this habit with existing routines.
+
 ## Quick Start
 
 Build a lasting habit in 66 days using science-backed behavioral design.

@@ -31,6 +31,9 @@ slug: brand-storytelling
 ## Purpose
 Create compelling brand narratives, voice, and personality that connect emotionally with audiences and build lasting brand relationships across all touchpoints and communications.
 
+## Quick Brand Storytelling Prompt
+Develop brand storytelling for [BRAND_NAME] targeting [TARGET_AUDIENCE]. Create [STORY_TYPE] (origin/customer success/mission/transformation) narrative. Define brand personality: [PERSONALITY_TRAITS]. Establish brand voice: [VOICE_ATTRIBUTES] (tone, language, style). Craft emotional connection through [EMOTIONAL_GOAL] (hope/empowerment/belonging/aspiration). Develop story framework with hero, conflict, and resolution. Apply across [TOUCHPOINTS] (website/social/campaigns). Target [ENGAGEMENT_LIFT]% engagement lift and [BRAND_AFFINITY]% brand affinity improvement.
+
 ## Quick Start
 
 **Need to develop brand storytelling quickly?** Use this minimal example:

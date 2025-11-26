@@ -33,6 +33,10 @@ slug: content-curation
 ## Purpose
 Create comprehensive frameworks for resource collection, digital library management, content curation, knowledge repositories, and information resource organization systems for academic, corporate, and public institutions.
 
+## Quick Content Curation Prompt
+
+Design a content curation system for [institution type] serving [user population]. Define collection scope covering [subject areas] in formats of [books/journals/multimedia/datasets]. Establish selection criteria for [quality/relevance/currency], organize using [classification system: Dewey/LC/custom taxonomy], implement metadata standard of [Dublin Core/MARC/custom], and create discovery interface with [search/browse/faceted navigation]. Include acquisition workflow, weeding policy, and access controls for [user levels].
+
 ## Quick Start
 
 **Get started in 3 minutes:**

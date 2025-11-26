@@ -37,6 +37,10 @@ slug: thought-leadership
 ## Purpose
 Comprehensive framework for developing thought leadership content, establishing expert positioning, creating compelling articles and presentations, securing speaking opportunities, building industry authority, and leveraging expertise for business growth and reputation enhancement.
 
+## Quick Thought Leadership Prompt
+
+Develop a thought leadership strategy for [expert/company] in [industry/niche]. Define unique positioning around [expertise areas], create signature content including [article topics/presentation themes], target publications like [industry media], pursue speaking opportunities at [conference types], and build authority through [engagement channels]. Establish content cadence of [publishing frequency] and measure impact via [credibility metrics/lead generation]. Differentiate from competitors on [unique perspectives].
+
 ## Quick Start
 
 **Need to establish thought leadership quickly?** Use this minimal example:

@@ -33,6 +33,10 @@ slug: creative-hobbies
 ## Purpose
 Develop engaging creative hobby pursuits including writing, art, music, and crafts to foster personal expression, skill development, and fulfillment through structured creative practice and project completion.
 
+## Quick Creative Hobbies Prompt
+
+Help me develop a creative hobby practice in [medium - painting/writing/music/photography/crafts]. I'm a [beginner/intermediate] with [time available] per week to dedicate. My goals are [skill development/stress relief/self-expression/creating gifts]. Create a 90-day learning plan with beginner projects, recommended supplies under [budget], skill-building exercises, and milestones to track progress. Include resources for inspiration and a supportive community to join.
+
 ## Quick Start
 
 Launch your creative hobby journey in three simple steps:

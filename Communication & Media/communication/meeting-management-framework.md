@@ -35,6 +35,10 @@ slug: meeting-management-framework
 ## Purpose
 Create comprehensive meeting management strategies covering agenda planning, facilitation techniques, note-taking systems, action item tracking, follow-up processes, and asynchronous collaboration to maximize meeting effectiveness, productivity, and organizational communication while minimizing time waste and maximizing value creation.
 
+## Quick Meeting Management Framework Prompt
+
+Design a meeting management framework for [organization/team] with [work model: remote/hybrid/in-person]. Create agenda templates for [meeting types], establish facilitation guidelines for [participant count], implement action tracking in [tool/platform], define follow-up process within [timeframe], and set meeting hygiene rules including [duration limits/no-meeting times]. Target meeting reduction of [percentage] while improving [effectiveness metrics].
+
 ## Quick Start
 
 Get started with meeting management in 3 simple steps:

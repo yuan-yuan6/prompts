@@ -32,6 +32,9 @@ slug: route-optimization-framework
 ## Purpose
 Comprehensive framework for optimizing delivery routes and logistics operations including multi-stop planning, real-time adjustments, constraint management, vehicle routing problems (VRP), and last-mile delivery optimization for maximum efficiency and customer satisfaction.
 
+## Quick Route Optimization Prompt
+Optimize delivery routes for [DAILY_DELIVERIES] daily stops across [SERVICE_AREA] service area with [VEHICLE_COUNT] vehicles and [DRIVER_COUNT] drivers. Handle constraints: [TIME_WINDOWS] delivery windows, [VEHICLE_CAPACITY] capacity limits, [DRIVER_HOURS] driver hours. Implement routing algorithm for [ROUTING_TYPE] (static/dynamic) optimization. Enable real-time re-routing for [EXCEPTION_TYPES] (delays/new orders). Target [ROUTE_EFFICIENCY]% route efficiency, [MILES_REDUCTION]% miles reduction, [ON_TIME_TARGET]% on-time delivery, and [STOPS_PER_ROUTE] stops per route.
+
 ## Quick Start
 
 **Transportation & Logistics Scenario**: You're responsible for planning daily delivery routes across a service area with varying customer demands, vehicle capacities, delivery time windows, and driver availability constraints.

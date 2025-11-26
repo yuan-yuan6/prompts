@@ -30,6 +30,9 @@ slug: game-development-pipeline
 ## Purpose
 Comprehensive framework for managing game development projects including pre-production planning, asset creation, programming systems, level design, testing protocols, monetization strategies, and post-launch operations for successful game releases.
 
+## Quick Game Dev Pipeline Prompt
+Manage [game] development with [X team size]. Pipeline: pre-production ([30%]) → production ([50%]) → polish ([20%]). Tools: version control ([Git/Perforce]), project mgmt ([Jira/Trello]), automated builds. Milestones: prototype → vertical slice → alpha (60% content) → beta (90%) → gold. QA: daily smoke, weekly regression, monthly full pass. Post-launch: day-1 patch, content roadmap.
+
 ## Quick Start
 
 **For Indie Studios starting game production:**

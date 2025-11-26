@@ -33,6 +33,9 @@ slug: security-operations
 ## Purpose
 Comprehensive framework for cybersecurity operations, threat detection and response, vulnerability management, security governance, incident handling, and organizational cyber resilience.
 
+## Quick SecOps Prompt
+Design security operations for [organization] protecting [X endpoints], [Y servers], [Z cloud workloads]. Build: SOC capability (SIEM, EDR, SOAR), threat detection use cases, vulnerability management program with SLAs, incident response playbooks. Target metrics: MTTD <[X hours], MTTR <[Y hours]. Achieve [ISO 27001/SOC 2] compliance. Deliver: security architecture, tool stack recommendations, and operational runbooks.
+
 ## Quick Start
 
 **For CISOs & Security Directors**: Design comprehensive cybersecurity program to detect threats faster, reduce incidents, and achieve compliance.

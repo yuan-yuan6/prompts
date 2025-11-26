@@ -32,6 +32,9 @@ slug: athlete-performance-optimization
 ## Purpose
 Comprehensive framework for optimizing athletic performance including biomechanical analysis, training periodization, nutrition planning, recovery protocols, mental conditioning, injury prevention, and competition preparation for elite sports performance.
 
+## Quick Athlete Performance Prompt
+Optimize performance for [ATHLETE_NAME/TEAM] in [SPORT_DISCIPLINE] targeting [COMPETITION_GOAL] competition. Design [TRAINING_DURATION] month periodized program with [PHASE_STRUCTURE] (preparation/competition/transition) phases. Include strength, power, speed, and sport-specific training. Implement [RECOVERY_PROTOCOLS] (sleep/nutrition/active recovery). Deploy [MONITORING_TECH] (GPS/HRV/force plates) for tracking. Target [PERFORMANCE_METRIC] improvement, [INJURY_REDUCTION]% injury reduction, and [READINESS_SCORE] daily readiness optimization.
+
 ## Quick Start
 
 **For Athletes & Coaches:**

@@ -32,6 +32,9 @@ slug: statistical-analysis
 ## Purpose
 Conduct comprehensive statistical analysis and inference to test hypotheses, estimate parameters, make predictions, and draw valid conclusions from data using advanced statistical methods and frameworks.
 
+## Quick Statistics Prompt
+Analyze [dataset/experiment] to test [hypothesis]. Perform appropriate statistical test (t-test, ANOVA, chi-square, regression), calculate effect size and confidence intervals, check assumptions (normality, homogeneity), and interpret results. Provide p-value, effect size interpretation (small/medium/large), and business recommendation with statistical confidence level.
+
 ## Quick Start
 
 **Example: Analyzing A/B Test Results for E-commerce Conversion Rates**

@@ -34,6 +34,9 @@ slug: ci-cd-pipelines
 ## Overview
 This comprehensive template enables organizations to design, implement, and optimize sophisticated CI/CD pipelines that automate the entire software delivery lifecycle. It covers everything from source code integration to production deployment with advanced quality gates, security integration, and deployment strategies.
 
+## Quick CI/CD Pipeline Prompt
+Create CI/CD pipeline for [language/framework] [app type] using [GitHub Actions/GitLab CI/Jenkins]. Stages: build ([X min target]), test ([coverage %] threshold), security scan ([SAST/DAST/SCA]), deploy to [staging/production]. Deploy: [container/serverless/VM] on [AWS/GCP/Azure]. Strategy: [blue-green/canary/rolling]. Include: approval gates, rollback on failure, notifications to [Slack/Teams].
+
 ## Quick Start
 
 **Need to set up a CI/CD pipeline quickly?** Use this minimal example:

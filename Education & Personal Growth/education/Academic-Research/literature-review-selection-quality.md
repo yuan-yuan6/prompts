@@ -30,6 +30,10 @@ slug: literature-review-selection-quality
 ## Purpose
 Execute systematic study selection and screening processes, conduct comprehensive quality assessment and risk of bias evaluation, and document selection decisions transparently for rigorous literature reviews and evidence synthesis.
 
+## Quick Literature Review Selection Quality Prompt
+
+Screen [number] records from [databases] for [review topic]. Apply inclusion criteria of [PICO elements], exclude [exclusion criteria], use [screening tool: Covidence/Rayyan] with [number] independent reviewers. Resolve disagreements via [consensus/arbitrator]. Assess quality using [tool: Cochrane RoB/CASP/Newcastle-Ottawa] across domains of [selection/performance/detection bias]. Document PRISMA flow with [included/excluded counts] and create evidence summary table.
+
 ## Quick Start
 
 ### For Reviewers & Quality Assessors

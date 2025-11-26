@@ -33,6 +33,9 @@ slug: plant-operations-management
 ## Purpose
 Comprehensive framework for managing industrial plant operations including production monitoring, maintenance scheduling, safety compliance, efficiency optimization, and operational excellence for energy and utility facilities.
 
+## Quick Plant Operations Prompt
+Optimize operations for [FACILITY_TYPE] with [PRODUCTION_CAPACITY] capacity and [EQUIPMENT_COUNT] major equipment units. Improve heat rate/efficiency from [CURRENT_EFFICIENCY]% to [TARGET_EFFICIENCY]%. Implement predictive maintenance to achieve [AVAILABILITY_TARGET]% availability and [MTBF_TARGET] MTBF. Ensure [COMPLIANCE_STANDARDS] regulatory compliance. Deploy real-time monitoring and analytics. Target [PRODUCTION_TARGET] output, [COST_REDUCTION]% O&M cost reduction, [SAFETY_RECORD] safety record, and [EMISSIONS_TARGET] emissions performance.
+
 ## Quick Start
 
 **Energy & Utilities Scenario**: You're managing a power generation facility (fossil, nuclear, renewable, or combined cycle) that needs to optimize production efficiency, minimize downtime, ensure safety compliance, and meet environmental standards.

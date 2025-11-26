@@ -32,6 +32,10 @@ slug: conflict-resolution
 ## Purpose
 Develop effective mediation, de-escalation, and solution-finding strategies to resolve conflicts constructively, restore relationships, and prevent future disputes in personal and professional settings.
 
+## Quick Conflict Resolution Prompt
+
+Help me resolve a conflict about [specific issue] with [relationship type - colleague/partner/family member/friend]. The situation started when [triggering event] and I'm feeling [emotions]. My desired outcome is [goal] while preserving [relationship importance]. Suggest de-escalation approaches, conversation scripts using "I" statements, and an action plan for finding common ground and preventing future disputes.
+
 ## Quick Start
 
 Resolve conflicts effectively in three immediate steps:

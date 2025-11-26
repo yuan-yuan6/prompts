@@ -33,6 +33,10 @@ slug: training-materials
 ## Purpose
 Create comprehensive frameworks for developing training manuals, tutorials, workshops, e-learning courses, and educational resources for corporate training, professional development, and skill building programs.
 
+## Quick Training Materials Prompt
+
+Develop training program for [target audience] on [topic/skills] using [delivery method: e-learning/workshop/manual/blended]. Apply [instructional model: ADDIE/SAM/Gagné] with [number] modules covering [learning objectives]. Create content including [lectures/exercises/simulations/case studies], assess via [knowledge checks/practical assessments/certification exams], and evaluate using [Kirkpatrick levels/ROI metrics]. Include facilitator guides, participant materials, and [accessibility/multilingual] requirements for [duration] program.
+
 ## Quick Start
 
 **Get started in 3 minutes:**

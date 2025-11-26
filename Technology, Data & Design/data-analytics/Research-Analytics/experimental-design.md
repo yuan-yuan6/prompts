@@ -34,6 +34,9 @@ slug: experimental-design
 ## Purpose
 Design, implement, and analyze controlled experiments including A/B testing, randomized controlled trials, and causal inference studies to establish causal relationships and measure treatment effects with statistical rigor.
 
+## Quick Experiment Prompt
+Design experiment to test [hypothesis] measuring [primary metric] with [sample size] participants. Calculate sample size for [X]% power and [Y]% significance level. Define treatment vs. control, randomization procedure, measurement timeline, guardrail metrics, and decision criteria. Include risk assessment and implementation timeline.
+
 ## Quick Start
 
 **Example: Mobile App Pricing Experiment Design**

@@ -34,6 +34,9 @@ slug: hotel-operations
 ## Purpose
 Comprehensive framework for hotel operations management, guest experience optimization, revenue management, staff coordination, and hospitality service excellence across all property types and service levels.
 
+## Quick Hotel Operations Prompt
+Optimize operations for [PROPERTY_NAME] with [ROOM_COUNT] rooms at [STAR_RATING] star level. Current performance: [OCCUPANCY_RATE]% occupancy, [ADR] ADR, [REVPAR] RevPAR, [GUEST_SATISFACTION] satisfaction score. Map guest journey touchpoints from booking to post-stay. Optimize revenue management with [PRICING_STRATEGY] (dynamic/seasonal/segment). Train [STAFF_COUNT] staff on service standards. Target [OCCUPANCY_TARGET]% occupancy, [REVPAR_TARGET] RevPAR, [SATISFACTION_TARGET] guest satisfaction, and [REPEAT_RATE]% repeat guest rate.
+
 ## Quick Start
 
 Get your hotel operations strategy up and running in 3 steps:

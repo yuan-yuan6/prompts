@@ -30,6 +30,10 @@ slug: research-design-ethics-implementation
 ## Purpose
 Develop comprehensive ethical frameworks and detailed implementation plans that ensure responsible research conduct and successful project execution. This prompt guides you through IRB protocols, participant protection, cultural sensitivity, project timeline development, resource allocation, risk management, and quality monitoring systems.
 
+## Quick Research Design Ethics Implementation Prompt
+
+Develop ethics and implementation plan for [study title]. Submit IRB protocol at [risk level: exempt/expedited/full] addressing [informed consent/confidentiality/vulnerable populations]. Mitigate risks of [potential harms] through [safeguards]. Create timeline with phases: [Phase 1: preparation, Phase 2: data collection, Phase 3: analysis, Phase 4: dissemination] over [duration]. Allocate budget of [amount] for [personnel/materials/incentives]. Identify risks of [threats] with contingencies of [backup plans]. Monitor quality via [checkpoints/indicators].
+
 ## Quick Start
 
 ### For Researchers Planning Ethics and Implementation

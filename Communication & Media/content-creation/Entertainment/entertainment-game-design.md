@@ -32,6 +32,10 @@ slug: entertainment-game-design
 ## Purpose
 Create comprehensive game design documents including narratives, mechanics, and level design for video games across platforms, ensuring engaging gameplay and compelling player experiences.
 
+## Quick Game Design Prompt
+
+Design [game type: RPG/action/puzzle/strategy] game [title] for [platform]. Define core gameplay loop of [primary action], create player fantasy of [power/experience], design [number] levels with [progression mechanics], develop protagonist with [motivation] facing [antagonist/challenge], implement [reward systems], and target [session length] play sessions. Include monetization via [model] and target [audience demographic] with [unique selling proposition].
+
 ## Quick Start
 
 **Design Your Core Game Loop in 45 Minutes**

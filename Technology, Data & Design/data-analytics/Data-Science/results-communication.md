@@ -36,6 +36,9 @@ slug: results-communication
 ## Purpose
 Design and deliver comprehensive communication strategies to effectively present data science results, insights, and recommendations to diverse stakeholders, ensuring business impact and actionable outcomes.
 
+## Quick Communication Prompt
+Present [analysis/model] results to [audience: executives/technical team/business users]. Create: 1-page executive summary with key findings and business impact, 10-slide presentation with visualizations, and detailed appendix. Lead with the business problem, highlight 3 key insights, quantify expected ROI, and provide 2-3 specific actionable recommendations with next steps.
+
 ## Quick Start
 
 **Need to communicate results quickly?** Use this minimal example:

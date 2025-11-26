@@ -32,6 +32,9 @@ slug: customer-success-strategy
 ## Purpose
 Comprehensive framework for building and scaling customer success programs including onboarding optimization, adoption strategies, retention management, expansion planning, health scoring, and proactive support for maximizing customer lifetime value.
 
+## Quick Customer Success Prompt
+Develop a customer success strategy for [COMPANY_TYPE] managing [CUSTOMER_COUNT] accounts with [ARR_VALUE] ARR. Design health scoring using [KEY_METRICS] (product usage, engagement, support tickets). Create playbooks for onboarding ([ONBOARDING_DURATION] days), QBRs, and at-risk intervention. Target [RETENTION_RATE]% retention, [NPS_TARGET] NPS, and [EXPANSION_RATE]% expansion revenue while reducing churn to [CHURN_TARGET]%.
+
 ## Quick Start
 
 **Getting Started in 3 Steps:**

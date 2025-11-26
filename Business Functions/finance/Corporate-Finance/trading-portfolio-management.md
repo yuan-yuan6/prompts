@@ -29,6 +29,9 @@ slug: trading-portfolio-management
 ## Overview
 This comprehensive template assists investment professionals, financial advisors, and portfolio managers in developing sophisticated, risk-adjusted investment portfolios that optimize returns while maintaining appropriate risk levels and alignment with client objectives.
 
+## Quick Portfolio Management Prompt
+Design portfolio for [client type] with $[X] AUM, [risk profile], [Y-year] horizon, targeting [Z%] return. Allocation: equities [X%], fixed income [Y%], alternatives [Z%], cash [W%]. Strategy: [growth/income/balanced]. Rebalancing: [calendar/threshold] at [±X%]. Risk: position limits, sector concentration, VaR. Performance: benchmark [index], attribution analysis. Compliance: [regulatory requirements].
+
 ## Quick Start
 
 **For Portfolio Managers & Investment Advisors**: Design comprehensive investment portfolios with asset allocation, risk management, and performance measurement frameworks.

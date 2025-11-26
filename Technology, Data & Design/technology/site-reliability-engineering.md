@@ -31,6 +31,9 @@ slug: site-reliability-engineering
 ## Purpose
 Comprehensive framework for implementing site reliability engineering practices including monitoring systems, alerting strategies, incident management, SLO/SLI definition, chaos engineering, and building resilient systems for maximum uptime and performance.
 
+## Quick SRE Prompt
+Implement SRE for [service] with [X users]. Define SLIs: availability (>99.9%), latency p95 (<200ms), error rate (<1%). Set SLOs with 30-day windows, calculate error budgets. Deploy: Prometheus + Grafana dashboards, PagerDuty alerting on burn rate. Create: on-call rotation, incident runbooks, postmortem template. Plan monthly chaos experiments (pod failures, network latency).
+
 ## Quick Start
 
 **Establish SRE practices in 5 steps:**

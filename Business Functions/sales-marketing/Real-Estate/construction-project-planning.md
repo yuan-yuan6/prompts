@@ -30,6 +30,9 @@ slug: construction-project-planning
 ## Purpose
 Comprehensive framework for planning and executing construction projects including scheduling, resource allocation, cost control, quality management, safety protocols, and stakeholder coordination for successful project delivery.
 
+## Quick Construction Project Planning Prompt
+Plan construction project [PROJECT_NAME] with [PROJECT_VALUE] budget and [PROJECT_DURATION] timeline for [SQUARE_FOOTAGE] sq ft [PROJECT_TYPE]. Define WBS with [PHASE_COUNT] phases and critical path schedule. Allocate [WORKER_COUNT] workers and [CONTRACTOR_COUNT] subcontractors. Establish earned value tracking (CPI/SPI targets). Implement safety program targeting [SAFETY_TARGET] incidents. Set quality standards per [QUALITY_STANDARD]. Target [ON_TIME_TARGET]% on-time completion, [BUDGET_VARIANCE]% budget variance, and [PUNCH_LIST_TARGET] punch list items.
+
 ## Quick Start
 
 To use this template effectively:

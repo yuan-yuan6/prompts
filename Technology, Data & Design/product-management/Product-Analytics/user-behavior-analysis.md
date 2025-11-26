@@ -33,6 +33,9 @@ slug: user-behavior-analysis
 ## Purpose
 Systematically analyze user behavior to uncover insights about how users interact with your product, identify opportunities for improvement, understand what drives engagement and retention, and make data-informed product decisions.
 
+## Quick Behavior Analysis Prompt
+Analyze user behavior for [product] to answer: [specific question, e.g., why users churn/abandon/don't activate]. Data sources: [event logs/surveys/session recordings]. Perform: funnel analysis for [key flow], cohort analysis by [signup date/source/plan], segment comparison ([power users vs. churned]). Identify: top 3 friction points, behavioral predictors of [success/churn], and actionable recommendations with expected impact.
+
 ## Quick Start
 
 **Need quick behavioral insights?** Use this streamlined approach:

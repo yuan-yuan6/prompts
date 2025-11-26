@@ -37,6 +37,9 @@ slug: patent-applications
 ## Purpose
 Create comprehensive patent applications, claims drafting, prior art analysis, and intellectual property protection strategies that maximize patent protection while meeting legal requirements for novelty, non-obviousness, and utility.
 
+## Quick Patent Application Prompt
+Draft [patent type: utility/provisional/design] for [invention name] in [technology field]. Innovation: [problem solved], [novel features], [advantages]. Prior art: [key references], novelty analysis. Claims: [X independent], [Y dependent], [claim strategy]. Jurisdictions: [USPTO/EPO/other]. Include: specification, drawings, prosecution roadmap, competitive landscape, commercialization strategy.
+
 ## Quick Start
 
 Draft professional patent applications efficiently in three essential steps:

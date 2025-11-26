@@ -36,6 +36,9 @@ slug: process-optimization
 ## Purpose
 Create comprehensive process optimization frameworks covering workflows, automation opportunities, and efficiency improvements to enhance operational performance.
 
+## Quick Process Optimization Prompt
+Optimize [PROCESS_NAME] with current [CYCLE_TIME] cycle time, [ERROR_RATE]% error rate, and [COST_PER_UNIT] cost per transaction. Map current state workflow with [STEP_COUNT] steps. Identify waste categories: [WASTE_TYPES] (waiting/transport/overprocessing/defects). Design future state eliminating [WASTE_TARGET] non-value activities. Implement quick wins in [TIMELINE] weeks. Target [CYCLE_REDUCTION]% cycle time reduction, [QUALITY_IMPROVEMENT]% quality improvement, and [COST_SAVINGS]% cost savings.
+
 ## Quick Start
 
 To quickly begin optimizing your processes:

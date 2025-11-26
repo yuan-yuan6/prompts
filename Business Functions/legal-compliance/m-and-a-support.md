@@ -34,6 +34,9 @@ slug: m-and-a-support
 ## Purpose
 Create comprehensive merger and acquisition documentation, due diligence frameworks, deal structuring strategies, and integration planning that maximize transaction value while managing legal, financial, and operational risks.
 
+## Quick M&A Support Prompt
+Support [transaction type: acquisition/merger/buyout] of [target] by [acquirer] for $[deal value]. Structure: [asset/stock purchase]. Due diligence: financial, legal, commercial, operational, technology workstreams. Timeline: [X weeks]. Key risks: [regulatory approval/IP/contracts/employment]. Deliverables: due diligence checklist, valuation analysis, purchase agreement, disclosure schedules, integration playbook.
+
 ## Quick Start
 
 Execute your M&A transaction with professional-grade support in three phases:

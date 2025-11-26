@@ -36,6 +36,10 @@ slug: research-design
 ## Purpose
 Create comprehensive research design strategies covering quantitative, qualitative, and mixed-methods approaches to develop rigorous methodological frameworks, sampling strategies, data collection protocols, analysis plans, and ethical procedures for academic and applied research projects.
 
+## Quick Research Design Prompt
+
+Design [methodology: quantitative/qualitative/mixed-methods] study on [research question] using [design: experimental/quasi-experimental/phenomenological/case study]. Sample [N] participants from [population] via [sampling method], collect data through [instruments: surveys/interviews/observations], analyze using [analysis approach], ensure validity via [strategies], obtain IRB approval for [risk level], and complete within [timeline]. Address theoretical framework of [theory] and target [publication/application].
+
 ## Quick Start
 
 ### For Researchers & Graduate Students

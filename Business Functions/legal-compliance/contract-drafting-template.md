@@ -32,6 +32,9 @@ slug: contract-drafting-template
 ## Purpose
 Create comprehensive contract drafting strategies covering agreements, terms, clauses, warranties, indemnities, and legal provisions to ensure robust and enforceable contractual relationships while minimizing legal risks and protecting business interests.
 
+## Quick Contract Drafting Template Prompt
+Draft [contract type: MSA/SaaS/supply/partnership] for [parties] in [jurisdiction]. Value: $[X], term: [Y months/years]. Key terms: [deliverables], [payment], [SLAs]. Risk profile: liability cap [X times fees], indemnification [scope], IP [ownership/license]. Include: termination rights, dispute resolution ([arbitration/litigation]), confidentiality. Output: complete draft with negotiation guidance.
+
 ## Quick Start
 
 Create professional, legally sound contracts in three steps:

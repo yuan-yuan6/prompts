@@ -31,6 +31,9 @@ slug: cloud-migration-strategy
 ## Purpose
 Comprehensive framework for planning and executing cloud migration initiatives including assessment, architecture design, migration patterns, security implementation, cost optimization, and operational transformation for successful cloud adoption.
 
+## Quick Cloud Migration Prompt
+Plan migration of [X applications], [Y TB data] to [AWS/Azure/GCP] over [Z months]. Strategy mix: [X% rehost, Y% replatform, Z% refactor]. Prioritize: [criteria]. Build landing zone: VPC, IAM, security baseline. Execute in waves: pilot (2-3 apps) → production waves. Target: [X%] cost reduction, [Y%] availability improvement. Include rollback plan and success criteria.
+
 ## Quick Start
 
 **Need to plan cloud migration quickly?** Use this minimal example:

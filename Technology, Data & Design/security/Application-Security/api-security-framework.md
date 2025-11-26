@@ -29,6 +29,9 @@ slug: api-security-framework
 ## Purpose
 Comprehensive framework for securing APIs (REST, GraphQL, SOAP), implementing authentication/authorization, rate limiting, input validation, preventing OWASP API Security Top 10 vulnerabilities, and conducting security testing.
 
+## Quick API Security Prompt
+Secure [REST/GraphQL] API with [X] endpoints handling [data types]. Implement: OAuth 2.0/JWT authentication, RBAC authorization, rate limiting ([X req/min]), input validation, encryption (TLS 1.3). Protect against OWASP API Top 10: broken auth, injection, excessive data exposure. Include: API gateway config, security testing checklist, and monitoring alerts.
+
 ## Quick Start
 
 **Need to secure APIs quickly?** Use this minimal example:

@@ -29,6 +29,9 @@ slug: catalog-management-system
 ## Purpose
 Comprehensive framework for managing product catalogs including product information management (PIM), content creation, categorization, SEO optimization, and multi-channel distribution for retail and e-commerce operations.
 
+## Quick Catalog Management Prompt
+Design catalog management system for [PRODUCT_COUNT] SKUs across [CATEGORY_COUNT] categories distributed to [CHANNEL_COUNT] sales channels in [LANGUAGE_COUNT] languages. Define product data architecture: core attributes, specifications, marketing content, digital assets. Establish taxonomy and navigation structure. Set content standards for titles, descriptions, and images. Configure channel-specific requirements for [CHANNELS] (website/Amazon/social). Implement validation rules targeting [DATA_ACCURACY]% accuracy and [TIME_TO_MARKET] speed to market.
+
 ## Quick Start
 
 To use this template effectively:

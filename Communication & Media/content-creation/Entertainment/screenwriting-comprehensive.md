@@ -31,6 +31,10 @@ slug: screenwriting-comprehensive
 ## Purpose
 Create comprehensive screenwriting solutions covering films, television, web series, treatments, pitch decks, script doctoring, and story development across all genres and formats.
 
+## Quick Screenwriting Comprehensive Prompt
+
+Develop [format: feature/TV pilot/web series] screenplay titled [title] in [genre]. Create logline of [one-sentence premise], structure [page count] pages using [3-act/5-act/serialized] structure, develop protagonist [name] with [want/need/flaw] facing antagonist [name/force], craft dialogue in [voice/style], design [number] set pieces, and target [budget level: low/mid/high]. Include treatment, beat sheet, and pitch materials for [distribution platform] with [audience demographic].
+
 ## Quick Start
 
 **Launch Your Screenplay Project in 15 Minutes**

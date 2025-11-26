@@ -32,6 +32,9 @@ slug: product-roadmapping
 ## Purpose
 Create strategic product roadmaps that communicate product direction, prioritize initiatives, align stakeholders, and guide execution while maintaining flexibility to adapt to learning and market changes.
 
+## Quick Roadmap Prompt
+Create product roadmap for [product] covering [timeframe]. Use Now-Next-Later format. Gather inputs: customer feedback themes, strategic priorities, technical debt, stakeholder requests. Prioritize using RICE. Define: NOW (committed, detailed), NEXT (planned, flexible), LATER (exploratory). Include: initiative descriptions, success metrics, dependencies, resource estimates. Create versions for: engineering team, executives, customers.
+
 ## Quick Start
 
 **Need a roadmap quickly?** Use the Now-Next-Later framework:

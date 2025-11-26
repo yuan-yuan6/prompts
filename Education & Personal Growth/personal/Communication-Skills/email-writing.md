@@ -29,6 +29,10 @@ slug: email-writing
 ## Purpose
 Create effective email communication including professional correspondence, persuasive messages, and personal communications that achieve desired outcomes and maintain strong relationships.
 
+## Quick Email Writing Prompt
+
+Write a [email type - professional/persuasive/follow-up/request] email to [recipient role/relationship] regarding [subject/purpose]. The tone should be [formal/friendly/urgent/diplomatic] and my goal is to [desired action/response]. Include a compelling subject line, clear context, [number] key points, and a specific call to action with [deadline if applicable]. Keep it concise and scannable.
+
 ## Quick Start
 
 Want to write a better email right now? Try this simple approach:

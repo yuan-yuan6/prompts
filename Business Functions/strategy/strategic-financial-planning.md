@@ -37,6 +37,9 @@ slug: strategic-financial-planning
 ## Purpose
 Create comprehensive financial plans including budgets, forecasts, and investment strategies to guide organizational financial strategy and resource allocation.
 
+## Quick Strategic Financial Planning Prompt
+Create financial plan for [COMPANY_NAME] in [INDUSTRY] with [CURRENT_REVENUE] current revenue. Planning horizon: [PLANNING_YEARS] years. Build projections for [REVENUE_STREAMS] revenue streams. Model expense structure: [EXPENSE_CATEGORIES] (COGS/SG&A/R&D). Plan capital investments: [CAPEX_AREAS]. Define financing strategy: [FINANCING_MIX] (debt/equity). Create scenarios: base, optimistic (+[UPSIDE]%), pessimistic (-[DOWNSIDE]%). Target [REVENUE_GROWTH]% revenue CAGR, [MARGIN_TARGET]% gross margin, [EBITDA_TARGET]% EBITDA margin, and [CASH_FLOW_TARGET] free cash flow.
+
 ## Quick Start
 1. **Gather Historical Data** - Collect 2-3 years of financial statements, growth rates, and key metrics to establish baseline performance
 2. **Define Planning Assumptions** - Document revenue growth expectations, cost structure changes, and key drivers for the planning period

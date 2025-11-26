@@ -34,6 +34,9 @@ slug: query-optimization
 ## Purpose
 Design comprehensive SQL query optimization strategies including performance tuning methodologies, indexing strategies, query efficiency analysis, and database performance optimization for analytical workloads.
 
+## Quick Optimization Prompt
+Optimize [DATABASE_PLATFORM] query performance for [WORKLOAD_TYPE] workload. Current issues: [TABLE_SCANS/MISSING_INDEXES/SLOW_JOINS/HIGH_CPU]. Target SLA: [RESPONSE_TIME_SLA]. Analyze execution plans, recommend indexes for [QUERY_PATTERNS], suggest query rewrites for [PROBLEMATIC_QUERIES], and set up monitoring for [CRITICAL_METRICS].
+
 ## Quick Start
 
 ### For Data Engineers

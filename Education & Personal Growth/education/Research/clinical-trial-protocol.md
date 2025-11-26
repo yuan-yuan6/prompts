@@ -33,6 +33,10 @@ slug: clinical-trial-protocol
 ## Purpose
 Comprehensive framework for designing and implementing clinical trials including protocol development, patient recruitment, regulatory compliance, data management, safety monitoring, and statistical analysis for medical research advancement.
 
+## Quick Clinical Trial Protocol Prompt
+
+Design [phase: I/II/III/IV] clinical trial for [study name] investigating [intervention: drug/device/procedure] in [patient population] with [condition]. Recruit [sample size] participants using [inclusion/exclusion criteria], randomize via [method: block/stratified/adaptive], implement [blinding: single/double/open-label], compare against [control: placebo/active/standard care]. Measure primary endpoint of [outcome] over [duration], achieve [power]% power at α=[significance level]. Ensure compliance with [FDA/EMA/IRB] and establish DSMB for [safety monitoring].
+
 ## Quick Start
 
 **For Your First Clinical Trial:**

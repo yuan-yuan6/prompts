@@ -35,6 +35,9 @@ slug: fleet-optimization
 ## Purpose
 Comprehensive framework for fleet operations management, vehicle optimization, route planning, maintenance scheduling, and total cost of ownership analysis for commercial and logistics fleets.
 
+## Quick Fleet Optimization Prompt
+Optimize fleet operations for [COMPANY_NAME] with [FLEET_SIZE] vehicles covering [GEOGRAPHIC_AREA] territory and [TOTAL_MILEAGE] annual miles. Current budget: [OPERATING_BUDGET]. Analyze total cost of ownership per vehicle class. Implement route optimization reducing [MILES_REDUCTION]% miles. Right-size fleet composition based on utilization data. Establish predictive maintenance program. Target [TCO_REDUCTION]% TCO reduction, [DELIVERY_EFFICIENCY]% delivery efficiency, [DOWNTIME_REDUCTION]% downtime reduction, and [CUSTOMER_ONTIME]% on-time delivery.
+
 ## Quick Start
 
 ### For Fleet Managers & Transportation Directors

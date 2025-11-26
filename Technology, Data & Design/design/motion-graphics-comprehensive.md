@@ -32,6 +32,9 @@ slug: motion-graphics-comprehensive
 ## Purpose
 Create comprehensive motion graphics solutions covering animations, effects, transitions, kinetic typography, explainer videos, and dynamic visual experiences across all platforms and applications.
 
+## Quick Motion Design Prompt
+Create [animation type: logo reveal/explainer video/kinetic typography/title sequence] for [project]. Duration: [X seconds]. Style: [2D flat/3D/mixed media]. Specs: [resolution], [frame rate]. Include: storyboard (5 key frames), timing breakdown, sound design notes, and export in [formats: MP4/MOV/GIF]. Match brand colors [palette] and provide After Effects/motion source files.
+
 ## Quick Start
 
 **Animate Your First Scene in 45 Minutes**

@@ -34,6 +34,9 @@ slug: grid-management
 ## Purpose
 Advanced grid management framework for monitoring, control, and optimization of electrical distribution networks including smart grid technologies and demand response systems.
 
+## Quick Grid Management Prompt
+Optimize grid management for [UTILITY_NAME] serving [CUSTOMER_COUNT] customers across [CIRCUIT_COUNT] circuits. Implement SCADA/ADMS for real-time monitoring and control. Deploy distribution automation on [AUTOMATION_TARGET]% of feeders. Integrate [DER_CAPACITY] MW distributed energy resources. Enable demand response with [DR_CAPACITY] MW load flexibility. Achieve [SAIDI_TARGET] SAIDI, [SAIFI_TARGET] SAIFI, [LOSS_REDUCTION]% loss reduction, and [RELIABILITY_TARGET]% reliability improvement.
+
 ## Quick Start
 
 **Energy & Utilities Scenario**: You're managing an electrical distribution network that needs improved reliability, integration of distributed energy resources, real-time monitoring and control, and enhanced operational efficiency.

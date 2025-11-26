@@ -31,6 +31,10 @@ slug: career-planning
 ## Purpose
 Create comprehensive career development strategies, professional growth roadmaps, skill advancement plans, and strategic career transitions that align personal aspirations with market opportunities through systematic planning and execution.
 
+## Quick Career Planning Prompt
+
+Create a career development roadmap for me. I'm currently a [current role] with [years] experience in [industry], targeting [career goal - promotion/transition/new field] within [timeframe]. My strengths are [key skills] and gaps include [areas to develop]. Design a strategic plan with quarterly milestones, skill development priorities, networking targets, and specific actions to take this month. Include alternative career paths and risk mitigation strategies.
+
 ## Quick Start
 
 Design your 5-year career roadmap with clear milestones and actionable next steps.

@@ -26,6 +26,9 @@ slug: financial-risk-assessment
 ## Purpose
 Identify, assess, and quantify financial risks through comprehensive risk analysis and scenario planning to support informed decision-making and risk mitigation strategies.
 
+## Quick Financial Risk Assessment Prompt
+Assess financial risks for [company] with $[X] revenue, $[Y] debt. Risks: credit (customer concentration, AR aging), market (FX [currencies], interest rate, commodity), liquidity (cash runway, covenant headroom). Scenarios: base/optimistic/pessimistic with [X%] revenue decline stress test. Output: risk matrix, sensitivity analysis, KRIs, mitigation recommendations, executive summary with top 5 priorities.
+
 ## Quick Start
 
 **For CFOs & Treasury Managers**: Identify and quantify financial risks with scenario analysis to support risk mitigation and strategic planning.

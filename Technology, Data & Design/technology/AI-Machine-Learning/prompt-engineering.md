@@ -31,6 +31,9 @@ slug: prompt-engineering
 ## Purpose
 Design and optimize prompts for large language models including prompt templates, chains, agents, and advanced techniques for reliable, consistent, and effective AI interactions.
 
+## Quick Prompt Engineering Prompt
+Design prompt for [task: summarization/extraction/generation/analysis] using [GPT-4/Claude/Llama]. Requirements: [output format], [tone], [length]. Technique: [zero-shot/few-shot/chain-of-thought]. Include: system prompt, user template with variables, 2-3 examples, output validation rules. Test with edge cases, measure consistency across 10+ runs. Optimize for [accuracy/speed/cost].
+
 ## Quick Start
 
 **Need to create an effective prompt quickly?** Use this minimal example:

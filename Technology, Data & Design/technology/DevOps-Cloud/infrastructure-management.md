@@ -29,6 +29,9 @@ slug: infrastructure-management
 ## Purpose
 Comprehensive infrastructure management including provisioning, scaling, monitoring, maintenance, and optimization for cloud and on-premises environments.
 
+## Quick Infrastructure Management Prompt
+Manage infrastructure for [application] on [cloud/on-prem]. Inventory: [X servers], [Y databases], [Z services]. Automation: IaC ([Terraform/Ansible]), auto-scaling ([min-max] based on [CPU/memory/custom]). Monitoring: resource utilization dashboards, alerting on [thresholds]. Maintenance: automated patching schedule, backup strategy ([frequency], [retention]), disaster recovery (RPO: [X], RTO: [Y]). Cost optimization: right-sizing, reserved instances.
+
 ## Quick Start
 
 **Set up infrastructure management in 5 steps:**

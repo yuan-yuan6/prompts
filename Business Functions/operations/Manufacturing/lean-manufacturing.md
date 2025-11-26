@@ -30,6 +30,9 @@ slug: lean-manufacturing
 ## Purpose
 Implement comprehensive lean manufacturing systems, waste elimination strategies, continuous improvement frameworks, and operational excellence initiatives that maximize efficiency, quality, and value creation while minimizing costs and lead times.
 
+## Quick Lean Manufacturing Prompt
+Implement lean manufacturing for [FACILITY_NAME] with [PRODUCTION_LINES] production lines and [EMPLOYEE_COUNT] employees. Current state: [OEE_BASELINE]% OEE, [LEAD_TIME_BASELINE] lead time, [INVENTORY_TURNS] inventory turns. Deploy lean tools: 5S, value stream mapping, kanban, SMED for [TARGET_CHANGEOVER] changeover reduction. Establish kaizen events and daily management. Target [OEE_TARGET]% OEE, [LEAD_TIME_REDUCTION]% lead time reduction, [INVENTORY_TARGET] inventory turns, and [COST_SAVINGS] annual cost savings.
+
 ## Quick Start
 
 **Get started in 3 steps:**

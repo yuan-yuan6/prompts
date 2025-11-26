@@ -31,6 +31,9 @@ slug: feature-prioritization
 ## Purpose
 Systematically evaluate and prioritize product features using proven frameworks (RICE, Value vs Effort, Kano) to maximize impact, align with strategy, and make defensible prioritization decisions.
 
+## Quick Prioritization Prompt
+Prioritize [X] features for [product] using RICE framework. For each feature calculate: Reach (users affected/quarter), Impact (1-3 scale), Confidence (% certainty), Effort (person-weeks). Rank by RICE score, identify top 3 for next quarter, document tradeoffs for deprioritized items, and create stakeholder communication explaining rationale. Include dependencies and risks.
+
 ## Quick Start
 
 **Need to prioritize features quickly?** Use the RICE framework:

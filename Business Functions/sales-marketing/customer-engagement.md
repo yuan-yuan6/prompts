@@ -34,6 +34,9 @@ slug: customer-engagement
 ## Purpose
 Create comprehensive customer engagement strategies covering retention programs, loyalty initiatives, and support optimization to enhance customer relationships and drive long-term value.
 
+## Quick Customer Engagement Prompt
+Design customer engagement strategy for [COMPANY_TYPE] with [CUSTOMER_COUNT] customers and [CONTRACT_VALUE] average contract value. Current metrics: [RETENTION_RATE]% retention, [NPS_SCORE] NPS, [CHURN_RATE]% churn. Build engagement programs: onboarding ([ONBOARDING_LENGTH] days), health scoring, QBRs, at-risk intervention. Implement across [TOUCHPOINT_COUNT] touchpoints. Target [RETENTION_TARGET]% retention, [NRR_TARGET]% NRR, [NPS_TARGET] NPS, and [LTV_INCREASE]% LTV increase.
+
 ## Quick Start
 
 **Need to improve customer engagement quickly?** Use this minimal example:

@@ -32,6 +32,9 @@ slug: product-sourcing-strategy
 ## Purpose
 Comprehensive framework for developing product sourcing strategies including supplier identification, evaluation, negotiation, quality control, and relationship management for retail and e-commerce businesses.
 
+## Quick Product Sourcing Prompt
+Develop sourcing strategy for [COMPANY_TYPE] with [SKU_COUNT] products and [REVENUE] revenue. Identify [SUPPLIER_COUNT] potential suppliers via [SOURCING_PLATFORMS] (Alibaba/Global Sources/ThomasNet). Evaluate on: price, MOQ, lead time, quality, certifications. Request samples from top [SAMPLE_COUNT] suppliers. Negotiate terms: [DEPOSIT]% deposit, [PAYMENT_TERMS] payment. Establish quality control with [QC_PROCESS] inspection. Diversify: <[MAX_DEPENDENCY]% dependency on single supplier. Set [SAFETY_STOCK] weeks safety stock. Target [COST_REDUCTION]% cost reduction and [QUALITY_TARGET]% quality acceptance rate.
+
 ## Quick Start
 
 **For E-commerce Sellers sourcing first products:**

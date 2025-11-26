@@ -29,6 +29,9 @@ slug: game-design-framework
 ## Purpose
 Comprehensive framework for designing and developing video games including concept development, gameplay mechanics, narrative design, level creation, balancing systems, monetization strategies, and player engagement optimization.
 
+## Quick Game Design Framework Prompt
+Design [genre] game for [platform]. Core loop: [30-second player action]. Pillars: [core mechanic], [unique hook], [target audience]. Progression: unlock every [X minutes]. Difficulty: easy entry → mastery at [Y hours]. Monetization: [premium $Z/F2P X% conversion/hybrid]. Metrics: D1 [40%+], D7 [20%+], D30 [10%+] retention. Tutorial: teach [mechanic] every [30-60 sec].
+
 ## Quick Start
 
 **For Game Designers creating first game concept:**

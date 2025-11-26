@@ -30,6 +30,10 @@ slug: research-design-impact
 ## Purpose
 Maximize research impact through strategic dissemination, knowledge translation, methodological innovation, and continuous improvement systems. This prompt guides you through developing comprehensive plans for sharing findings, translating research into practice, integrating emerging technologies, and building sustainable research programs with long-term impact.
 
+## Quick Research Design Impact Prompt
+
+Develop impact strategy for [research project] findings. Disseminate to [audiences: academics/practitioners/policymakers] via [publications in target journals/conferences/workshops]. Translate knowledge through [practice guidelines/training materials/policy briefs] for [end users]. Innovate using [emerging methods/technologies: AI/mobile/open science]. Assess impact via [citation metrics/practice adoption/policy influence]. Build sustainability through [follow-up studies/partnerships/capacity building] and continuous improvement via [stakeholder feedback/outcome evaluation].
+
 ## Quick Start
 
 ### For Researchers Planning Impact and Innovation

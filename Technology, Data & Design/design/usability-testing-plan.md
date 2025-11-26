@@ -27,6 +27,9 @@ slug: usability-testing-plan
 ## Purpose
 Create comprehensive usability testing plans to validate design decisions, identify usability issues, and gather user feedback for iterative improvement of digital products.
 
+## Quick Usability Test Prompt
+Plan usability test for [product name] in [phase: concept/prototype/beta]. Recruit [X] users matching [persona criteria]. Test [3 core tasks] measuring: task completion rate, time-on-task, error rate, satisfaction (SUS score). Method: [moderated/unmoderated, remote/in-person]. Deliver: test script, task scenarios, observation guide, and findings template with severity ratings.
+
 ## Quick Start
 
 **Run Your First Usability Test in 2 Hours**

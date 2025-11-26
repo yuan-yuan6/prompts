@@ -30,6 +30,10 @@ slug: skill-development
 ## Purpose
 Comprehensive framework for rapidly acquiring new skills, developing competencies, and achieving mastery through evidence-based learning methodologies and deliberate practice techniques.
 
+## Quick Skill Development Prompt
+
+Create an accelerated learning plan to master [skill] in [timeframe]. My current level is [beginner/intermediate] and my goal is [specific proficiency level - job-ready/competent/expert]. I can dedicate [hours per week] to practice. Apply the 80/20 principle to identify the critical sub-skills, design deliberate practice exercises, recommend learning resources, and create a weekly schedule with measurable milestones. Include plateau-breaking strategies and methods to test my progress.
+
 ## Quick Start
 
 Master any skill 3x faster using deliberate practice and the 80/20 principle.

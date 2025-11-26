@@ -34,6 +34,10 @@ slug: research-papers
 ## Purpose
 Design comprehensive frameworks for structuring, writing, and revising scientific research papers across disciplines with systematic approaches to argumentation, evidence presentation, and scholarly communication.
 
+## Quick Research Papers Prompt
+
+Write [paper type: original research/review/meta-analysis] manuscript for [target journal] in [field]. Structure as IMRAD with [word limit], sample of [N] using [methodology], report findings with [effect sizes/p-values/confidence intervals], cite [number] references in [citation style: APA/Vancouver/Chicago]. Include [abstract word count]-word abstract, [number] figures/tables, theoretical framework of [theory], and limitations addressing [validity concerns]. Target [audience: specialist/general academic] with contribution of [novelty/significance].
+
 ## Quick Start
 
 ### For Scientists & Academic Authors

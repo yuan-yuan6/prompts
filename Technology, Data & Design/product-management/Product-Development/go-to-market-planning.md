@@ -33,6 +33,9 @@ slug: go-to-market-planning
 ## Purpose
 Develop comprehensive go-to-market strategies that successfully bring products to market, acquire customers efficiently, and achieve business objectives through coordinated execution across product, marketing, sales, and customer success teams.
 
+## Quick GTM Prompt
+Create GTM plan for [product] targeting [segment]. Define: ICP (ideal customer profile), value proposition (unique benefit), positioning vs. [competitors], pricing model, and distribution channels. Plan: launch phases (beta → GA), marketing tactics per channel, sales enablement materials, success metrics (CAC, conversion, revenue targets), and 90-day execution timeline.
+
 ## Quick Start
 
 **Need a GTM plan quickly?** Use this streamlined approach:

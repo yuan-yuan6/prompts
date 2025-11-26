@@ -31,6 +31,9 @@ slug: threat-intelligence
 ## Purpose
 Comprehensive threat intelligence program including collection, analysis, dissemination, and actionable intelligence for proactive threat detection, prevention, and response.
 
+## Quick Threat Intel Prompt
+Build threat intelligence program for [industry] organization. Define PIRs (priority intelligence requirements) aligned with business risks. Sources: OSINT + [commercial feeds: Recorded Future/CrowdStrike] + [ISACs]. Framework: MITRE ATT&CK for TTP mapping. Deliver: IOC feeds integrated with SIEM/EDR, weekly threat reports, threat actor profiles relevant to [industry], and intelligence sharing procedures (TLP classification).
+
 ## Quick Start
 
 **Set Your Foundation:**

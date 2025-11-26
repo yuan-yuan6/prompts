@@ -33,6 +33,9 @@ slug: data-preparation
 ## Purpose
 Comprehensive data preparation for machine learning including feature engineering, data labeling, augmentation, preprocessing, and quality assurance for robust model training.
 
+## Quick Data Prep Prompt
+Prepare ML dataset with [X rows], [Y features] for [model type]. Steps: handle missing values ([strategy]), remove duplicates, fix outliers. Engineer features: encode categoricals ([one-hot/label]), scale numericals ([standard/minmax]), create [domain-specific features]. Split: [70/15/15] train/val/test. Apply augmentation for [imbalanced classes/small dataset]. Validate: no leakage, distribution alignment. Document transformations.
+
 ## Quick Start
 
 **Prepare ML data in 5 steps:**

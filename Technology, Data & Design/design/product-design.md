@@ -31,6 +31,9 @@ slug: product-design
 ## Purpose
 Create comprehensive product design documentation including concepts, specifications, and iterations for physical and digital products throughout the development lifecycle.
 
+## Quick Product Design Prompt
+Design [product type] for [target market]. Phase: [concept/development/refinement]. User problem: [pain point being solved]. Requirements: [materials/dimensions/weight constraints]. Deliver: 3 concept sketches, selected concept with specs, user journey map, prototype plan, and manufacturing considerations. Focus on [key differentiator] vs. competitors.
+
 ## Quick Start
 
 Ready to turn your product vision into reality? Launch your design process here:

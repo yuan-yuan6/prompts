@@ -25,6 +25,9 @@ slug: financial-valuation-recommendations
 ## Purpose
 Conduct comprehensive business valuations and develop evidence-based investment recommendations to support investment decisions, M&A transactions, and strategic initiatives.
 
+## Quick Valuation Prompt
+Value [company] in [industry] for [M&A/investment/fairness opinion]. Financials: revenue $[X], EBITDA $[Y], growth [Z%]. Methods: DCF (WACC [X%], terminal growth [Y%]), trading comps ([peer multiples]), precedent transactions. Output: valuation range (bear/base/bull), [BUY/HOLD/SELL] recommendation, [12-month] price target, investment thesis with catalysts and risks.
+
 ## Quick Start
 
 **For Investment Bankers & Corporate Finance Professionals**: Perform comprehensive company valuations and generate buy/sell/hold recommendations with price targets.

@@ -32,6 +32,9 @@ slug: precision-agriculture-system
 ## Purpose
 Comprehensive framework for implementing precision agriculture systems including IoT sensor deployment, data analytics, crop monitoring, resource optimization, yield prediction, and sustainable farming practices for agricultural productivity enhancement.
 
+## Quick Smart Farming System Prompt
+Deploy smart farming system for [FARM_NAME] covering [ACREAGE] acres with [CROP_VARIETIES] crops. Install [SENSOR_COUNT] IoT sensors for soil moisture, weather, and NDVI monitoring. Set up cloud-based farm management platform with real-time dashboards. Implement drone surveys for crop health assessment. Enable automated irrigation and variable rate applications. Target [YIELD_INCREASE]% yield improvement, [WATER_REDUCTION]% water reduction, [LABOR_SAVINGS]% labor efficiency, and [ROI_TIMELINE] month ROI.
+
 ## Quick Start
 
 **For Smart Farming Initiatives:**

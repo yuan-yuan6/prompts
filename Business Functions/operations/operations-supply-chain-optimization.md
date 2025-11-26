@@ -36,6 +36,9 @@ slug: operations-supply-chain-optimization
 ## Purpose
 Comprehensive framework for optimizing supply chain operations including inventory management, demand forecasting, logistics coordination, vendor management, risk mitigation, and digital transformation for operational excellence and cost efficiency.
 
+## Quick Supply Chain Optimization Prompt
+Optimize supply chain for [COMPANY_NAME] with [SKU_COUNT] SKUs, [SUPPLIER_COUNT] suppliers, and [DC_COUNT] distribution centers. Current performance: [INVENTORY_TURNS] inventory turns, [SERVICE_LEVEL]% service level, [LEAD_TIME] average lead time. Implement improvements in demand forecasting (target [FORECAST_ACCURACY]% accuracy), inventory optimization (reduce [INVENTORY_REDUCTION]%), and logistics coordination. Achieve [COST_SAVINGS]% cost reduction and [DELIVERY_IMPROVEMENT]% on-time delivery.
+
 ## Quick Start
 
 **For Supply Chain Directors & Operations Leaders**: Optimize end-to-end supply chain to reduce costs 15-30%, improve service levels to 95%+, and increase inventory turns.

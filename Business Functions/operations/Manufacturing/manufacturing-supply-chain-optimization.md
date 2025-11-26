@@ -34,6 +34,9 @@ slug: manufacturing-supply-chain-optimization
 ## Purpose
 Comprehensive framework for optimizing manufacturing supply chains including supplier management, inventory optimization, logistics coordination, risk mitigation, and end-to-end visibility strategies.
 
+## Quick Manufacturing Supply Chain Prompt
+Optimize manufacturing supply chain for [COMPANY_NAME] with [SKU_COUNT] SKUs, [SUPPLIER_COUNT] tier-1 suppliers, and [FACILITY_COUNT] production facilities. Current metrics: [INVENTORY_TURNS] turns, [SERVICE_LEVEL]% service level, [CASH_CYCLE] cash-to-cash cycle. Implement ABC inventory segmentation, pull-based replenishment, and supplier collaboration. Reduce supplier lead times by [LEAD_TIME_REDUCTION]%. Target [INVENTORY_REDUCTION]% inventory reduction, [SERVICE_IMPROVEMENT]% service improvement, and [COST_SAVINGS]% supply chain cost reduction.
+
 ## Quick Start
 
 **Get started in 3 steps:**

@@ -33,6 +33,9 @@ slug: game-design
 ## Purpose
 Comprehensive framework for game design, development pipeline management, player experience optimization, monetization strategies, and live operations for video game projects.
 
+## Quick Game Design Prompt
+Design [game title] in [genre] for [platforms]. Team: [X developers], budget: $[Y], timeline: [Z months]. Target: [player count] players, $[revenue] revenue. Core pillars: [mechanics], [narrative], [art style]. Retention: D1 [40-50%], D7 [20-30%], D30 [10-15%]. Monetization: [premium/F2P/hybrid]. Live ops: [X updates/month]. Competitive analysis vs [similar games].
+
 ## Quick Start
 
 Kickstart your game development strategy in 3 steps:

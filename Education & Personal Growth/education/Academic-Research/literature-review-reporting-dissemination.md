@@ -32,6 +32,10 @@ slug: literature-review-reporting-dissemination
 ## Purpose
 Prepare comprehensive literature review reports following international standards, develop targeted dissemination strategies for diverse audiences, create accessible communication products, and plan for knowledge translation and real-world implementation to maximize research impact.
 
+## Quick Literature Review Reporting Dissemination Prompt
+
+Prepare manuscript for [review topic] targeting [journal name] following [PRISMA/ENTREQ/RAMESES] guidelines. Write structured abstract of [word limit], include [PRISMA flow diagram/summary tables/forest plots]. Develop dissemination plan for [audiences: academics/practitioners/policymakers/public] via [channels: publications/conferences/social media/policy briefs]. Create plain language summary of [word count], design infographic on [key findings], and plan stakeholder engagement with [groups] for implementation.
+
 ## Quick Start
 
 ### For Authors & Knowledge Mobilizers

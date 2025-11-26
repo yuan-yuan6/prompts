@@ -34,6 +34,10 @@ slug: life-optimization-framework
 ## Purpose
 Comprehensive framework for personal development and life optimization including goal achievement systems, habit formation, productivity enhancement, mental wellness, financial planning, relationship management, and continuous growth strategies for holistic life improvement.
 
+## Quick Life Optimization Prompt
+
+Create a personalized life optimization plan for me. My priority life domain is [career/health/finances/relationships/personal growth] currently rated [score]/10. I want to achieve [specific goal] within [timeframe]. Suggest one keystone habit to start, design my ideal morning routine with [number] actions, provide a weekly review template, and identify potential obstacles with strategies to overcome them. Include metrics to track progress.
+
 ## Quick Start
 
 Begin optimizing your life in three focused steps:

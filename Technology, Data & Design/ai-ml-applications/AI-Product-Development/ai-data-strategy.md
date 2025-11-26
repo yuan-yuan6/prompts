@@ -32,6 +32,18 @@ slug: ai-data-strategy
 ## Purpose
 Design and implement comprehensive data strategies that support AI/ML initiatives. This framework covers data collection, quality management, feature engineering infrastructure, and governance practices essential for building reliable AI systems.
 
+---
+
+## 🚀 Quick Prompt
+
+**Copy and use this generic prompt to develop any AI data strategy:**
+
+> I'm building a data strategy for **[AI/ML PROJECT]** that requires **[DATA TYPES]** to power **[ML USE CASE]**. Help me design: (1) **Data inventory**—what internal and external data sources are needed, what's available vs. missing, and what's the gap remediation plan? (2) **Architecture**—what's the optimal storage (data lake/warehouse), feature store design (online vs. offline), vector database needs, and pipeline orchestration for this use case? (3) **Quality framework**—what completeness, freshness, accuracy, and consistency thresholds are required, and how will data validation be automated? (4) **Governance**—what access controls, PII handling, lineage tracking, and compliance requirements apply? Provide a prioritized implementation roadmap with timeline estimates.
+
+**Usage:** Fill in the brackets and use as a prompt to an AI assistant or as your data strategy framework.
+
+---
+
 ## Quick Start
 
 ### Minimal Example
@@ -136,10 +148,12 @@ AI DATA STRATEGY FOR: E-commerce Recommendation System
 | Component | Technology | Justification |
 |-----------|------------|---------------|
 | Data Lake | [S3/ADLS/GCS] | [REASON] |
-| Data Warehouse | [Snowflake/BigQuery/Redshift] | [REASON] |
-| Feature Store | [Feast/Tecton/Vertex] | [REASON] |
+| Data Warehouse | [Snowflake/BigQuery/Redshift/Databricks] | [REASON] |
+| Feature Store | [Feast/Tecton/Vertex/Databricks] | [REASON] |
+| Vector Database | [Pinecone/Weaviate/Chroma/Qdrant/Milvus] | [REASON] |
 | Orchestration | [Airflow/Dagster/Prefect] | [REASON] |
 | Streaming | [Kafka/Kinesis/Pub-Sub] | [REASON] |
+| Data Quality | [Great Expectations/dbt/Soda] | [REASON] |
 
 ### Data Flow Design
 ```
@@ -221,7 +235,95 @@ feature_view = FeatureView(
 
 ---
 
-## 6. Data Pipeline Design
+## 6. Vector Database & Embeddings (for RAG/LLM Applications)
+
+### Embedding Strategy
+| Content Type | Embedding Model | Dimensions | Chunking Strategy |
+|--------------|-----------------|------------|-------------------|
+| [DOCUMENTS] | [text-embedding-3-large/voyage/cohere] | [1536/1024/768] | [SIZE_CHARS, OVERLAP] |
+| [CODE] | [codebert/openai-code] | [DIMENSIONS] | [SEMANTIC_CHUNKING] |
+| [IMAGES] | [clip/blip] | [DIMENSIONS] | [N/A] |
+
+### Vector Database Configuration
+```yaml
+vector_store:
+  provider: [PINECONE/WEAVIATE/CHROMA/QDRANT]
+  index_name: [INDEX_NAME]
+  dimensions: [DIMENSIONS]
+  metric: [cosine/euclidean/dotproduct]
+  
+  # Indexing settings
+  index_type: [HNSW/IVF/FLAT]
+  ef_construction: [HNSW_PARAM]
+  m: [HNSW_PARAM]
+  
+  # Namespace strategy (for multi-tenancy)
+  namespace: [TENANT_ID/PROJECT_ID/NONE]
+  
+  # Metadata filters
+  metadata_fields:
+    - field: [FIELD_NAME]
+      type: [string/number/boolean]
+      indexed: [true/false]
+```
+
+### RAG Data Pipeline
+```
+[DOCUMENTS] → [CHUNKING] → [EMBEDDING] → [VECTOR_DB]
+                                              ↓
+[USER_QUERY] → [EMBEDDING] → [SIMILARITY_SEARCH] → [TOP_K_CHUNKS]
+                                                          ↓
+                                              [LLM_CONTEXT_ASSEMBLY]
+```
+
+### Embedding Quality Metrics
+| Metric | Definition | Target | Measurement |
+|--------|------------|--------|-------------|
+| Retrieval Precision@K | Relevant docs in top K | >[X]% | [TEST_SET] |
+| Retrieval Recall@K | % relevant docs found | >[X]% | [TEST_SET] |
+| Semantic Coherence | Intra-chunk similarity | >[X] | [CLUSTERING] |
+| Index Freshness | Time since last update | <[HOURS] | [MONITORING] |
+
+---
+
+## 7. LLM-Specific Data Considerations
+
+### Training & Fine-tuning Data
+| Dataset Purpose | Size | Format | Quality Bar |
+|-----------------|------|--------|-------------|
+| Instruction tuning | [N] examples | [JSONL/Parquet] | [CRITERIA] |
+| Domain adaptation | [N] examples | [FORMAT] | [CRITERIA] |
+| Evaluation set | [N] examples | [FORMAT] | [CRITERIA] |
+| Red team/adversarial | [N] examples | [FORMAT] | [CRITERIA] |
+
+### Synthetic Data Generation
+```python
+# Generate synthetic training data with LLMs
+def generate_synthetic_examples(seed_examples: list, num_to_generate: int):
+    """Use LLM to generate diverse training examples"""
+    prompt = f"""Based on these examples, generate {num_to_generate} diverse, 
+    high-quality examples following the same format:
+    
+    Examples:
+    {format_examples(seed_examples)}
+    
+    Generate new examples that cover edge cases and diverse scenarios."""
+    
+    return llm.generate(prompt)
+```
+
+### Data Labeling Strategy
+| Labeling Method | Use Case | Quality | Cost |
+|-----------------|----------|---------|------|
+| Human annotation | High-stakes, nuanced | Highest | $$$$ |
+| LLM-assisted labeling | First pass, bulk | Medium | $$ |
+| Active learning | Efficient sampling | High | $$$ |
+| Crowd-sourcing | Scale with verification | Medium | $$ |
+| Self-labeling (LLM) | Low-stakes, abundant | Lower | $ |
+
+---
+
+## 8. Data Pipeline Design
 
 ### Ingestion Pipelines
 | Pipeline | Source | Destination | Schedule | SLA |
@@ -254,7 +356,7 @@ GROUP BY [GROUPING]
 
 ---
 
-## 7. Data Versioning and Lineage
+## 9. Data Versioning and Lineage
 
 ### Versioning Strategy
 - **Data versioning tool:** [DVC/LakeFS/Delta Lake]
@@ -286,7 +388,7 @@ GROUP BY [GROUPING]
 
 ---
 
-## 8. Data Governance
+## 10. Data Governance
 
 ### Access Control
 | Data Classification | Access Level | Approval Required |
@@ -308,7 +410,7 @@ GROUP BY [GROUPING]
 
 ---
 
-## 9. Implementation Roadmap
+## 11. Implementation Roadmap
 
 ### Phase 1: Foundation (Weeks 1-4)
 - [ ] Set up data lake/warehouse infrastructure
@@ -478,14 +580,19 @@ DATA QUALITY:
 - [dbt](https://www.getdbt.com/) - Data transformation
 - [Delta Lake](https://delta.io/) - Data versioning and ACID transactions
 - [Apache Kafka](https://kafka.apache.org/) - Event streaming
+- [Pinecone](https://www.pinecone.io/) - Managed vector database
+- [Weaviate](https://weaviate.io/) - Open source vector database
+- [Chroma](https://www.trychroma.com/) - Lightweight embedding database
+- [LangChain](https://langchain.com/) - LLM data integration
 
 **Further Reading:**
 - [Feature Store for ML (Google)](https://cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning)
 - [Data Management for ML (Microsoft)](https://docs.microsoft.com/en-us/azure/machine-learning/concept-data)
+- [RAG Best Practices (LlamaIndex)](https://docs.llamaindex.ai/)
 
 ---
 
-**Last Updated:** 2025-11-22
+**Last Updated:** 2025-11-25
 **Category:** AI/ML Applications > AI-Product-Development
 **Difficulty:** Intermediate
 **Estimated Time:** 2-4 weeks for initial implementation

@@ -33,6 +33,9 @@ slug: quantum-computing-strategy
 ## Purpose
 Comprehensive framework for developing quantum computing strategies including technology assessment, use case identification, implementation roadmaps, talent development, and integration with classical computing systems.
 
+## Quick Quantum Computing Prompt
+Develop quantum strategy for [optimization/ML/simulation/cryptography]. Platform: [IBM Quantum/AWS Braket/Azure Quantum]. Timeline: [X months] pilot. Use cases: [specific problems with quantum advantage]. Team: [physicists/algorithm developers/software engineers]. Approach: cloud access → hybrid quantum-classical → vendor POCs. Investment: $[Y] with [Z%] ROI target. Skills: Qiskit/Cirq training, algorithm development.
+
 ## Quick Start
 
 **Set Your Foundation:**

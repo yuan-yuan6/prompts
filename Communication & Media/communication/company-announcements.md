@@ -37,6 +37,10 @@ slug: company-announcements
 ## Purpose
 Comprehensive framework for creating effective all-hands communications, company updates, organizational changes, and major announcements that inform, engage, and align all stakeholders across the organization.
 
+## Quick Company Announcements Prompt
+
+Draft a company announcement for [announcement type] affecting [audience scope]. Include key message about [primary news/change], impact on [affected groups/processes], timeline for [implementation/rollout], action items for [specific audiences], and Q&A addressing [anticipated questions]. Distribute via [channels] with approval from [stakeholders] by [deadline].
+
 ## Quick Start
 
 Deliver impactful company announcements with this approach:

@@ -34,6 +34,9 @@ slug: pricing-strategy
 ## Purpose
 Comprehensive framework for retail pricing strategy development, dynamic pricing implementation, competitive positioning, margin optimization, promotional planning, and price elasticity analysis.
 
+## Quick Retail Pricing Strategy Prompt
+Develop pricing strategy for [COMPANY_TYPE] with [SKU_COUNT] SKUs and [REVENUE] revenue. Segment products: Hero ([HERO_MARGIN]% margin traffic drivers), Core ([CORE_MARGIN]% profit drivers), Tail ([TAIL_MARGIN]% clearance). Implement competitive monitoring for [COMPETITOR_COUNT] competitors. Set price floors at cost + [MIN_MARGIN]% minimum margin. Test dynamic pricing on top [PILOT_PERCENT]% SKUs with ±[PRICE_CHANGE]% daily limits. Plan [PROMO_COUNT] promotional events annually. Apply psychological pricing ($X.99). Target [REVENUE_LIFT]% revenue lift and [MARGIN_TARGET]% gross margin.
+
 ## Quick Start
 
 **For E-commerce Retailers implementing dynamic pricing:**

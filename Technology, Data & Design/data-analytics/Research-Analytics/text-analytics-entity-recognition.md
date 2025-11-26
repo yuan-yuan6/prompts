@@ -30,6 +30,9 @@ slug: text-analytics-entity-recognition
 ## Purpose
 Extract, classify, and analyze named entities from text using state-of-the-art NER models including spaCy, BERT, and RoBERTa. Perform entity linking to knowledge bases, extract entity relationships, and analyze co-occurrence patterns to discover connections and insights in unstructured text data.
 
+## Quick Entity Prompt
+Extract named entities from [X] documents using spaCy and RoBERTa. Identify Person, Organization, Location, Date, Money, and Product entities. Link organizations to knowledge base, extract entity relationships (person-company, company-acquisition), analyze co-occurrence patterns, and track entity mentions over time. Provide entity frequency tables and relationship network visualization.
+
 ## Quick Start
 
 **Example: Extract Key Entities from News Articles**

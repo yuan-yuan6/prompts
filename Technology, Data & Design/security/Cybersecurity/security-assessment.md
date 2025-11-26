@@ -32,6 +32,9 @@ slug: security-assessment
 ## Purpose
 Comprehensive security assessment including vulnerability scanning, penetration testing, security audits, risk analysis, and remediation planning for enterprise systems and applications.
 
+## Quick Security Assessment Prompt
+Conduct security assessment for [system/application] covering [scope: infrastructure/web app/API/cloud]. Methodology: [NIST/OWASP/CIS]. Perform: asset inventory, threat modeling, vulnerability scanning (Nessus/Qualys), penetration testing (OWASP Top 10), control review. Prioritize findings by CVSS + business impact. Deliver: executive summary, detailed findings, and remediation roadmap with timeline.
+
 ## Quick Start
 
 **Basic Usage:**

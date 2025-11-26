@@ -28,6 +28,10 @@ slug: research-design-analysis-quality
 ## Purpose
 Develop rigorous analytical strategies and comprehensive quality assurance frameworks that ensure methodological soundness and credible findings. This prompt guides you through quantitative and qualitative analysis planning, validity and reliability enhancement, and integrated quality control systems.
 
+## Quick Research Design Analysis Quality Prompt
+
+Develop analysis plan for [study design] examining [variables/phenomena]. Conduct [descriptive statistics] and [inferential tests: t-test/ANOVA/regression/chi-square] at α=[significance level], or [qualitative analysis: thematic/content/narrative]. Address assumptions of [normality/linearity/homoscedasticity], handle missing data via [listwise/imputation]. Enhance validity through [triangulation/member checking/peer debriefing], ensure reliability via [inter-rater agreement/test-retest]. Document decisions in [audit trail] using [software].
+
 ## Quick Start
 
 ### For Researchers Planning Analysis and Quality Assurance

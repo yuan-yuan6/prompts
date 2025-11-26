@@ -35,6 +35,9 @@ slug: employee-relations
 ## Purpose
 Create comprehensive employee relations strategies covering communication, culture development, and engagement initiatives to build positive workplace relationships and organizational effectiveness.
 
+## Quick Employee Relations Prompt
+Address [issue: low engagement/conflict/communication breakdown] in [department] with [X employees]. Current state: [engagement %], [key issues]. Quick wins in [X days]: [town halls/recognition/manager coaching]. Interventions: [communication plan/conflict resolution/culture initiatives]. Track: engagement survey, turnover, manager feedback. Goal: [X%] improvement in [Y weeks].
+
 ## Quick Start
 
 **Need to improve employee relations quickly?** Use this minimal example:

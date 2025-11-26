@@ -27,6 +27,10 @@ slug: travel-planning
 ## Purpose
 Create comprehensive travel plans including itineraries, research, and budgets to ensure memorable, well-organized, and cost-effective travel experiences.
 
+## Quick Travel Planning Prompt
+
+Plan a [duration] trip to [destination] for [number] travelers with a budget of [amount]. Our travel style is [adventure/relaxation/cultural/family-friendly] and must-see priorities include [interests - food/history/nature/nightlife]. Create a day-by-day itinerary with accommodations, transportation, activities, and restaurant recommendations. Include a packing list, budget breakdown, booking timeline, and tips for [first-time visitors/off-the-beaten-path experiences/traveling with kids].
+
 ## Quick Start
 
 Planning your next trip? Get organized in 30 minutes with this streamlined approach:

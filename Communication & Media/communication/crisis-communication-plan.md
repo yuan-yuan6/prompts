@@ -35,6 +35,10 @@ slug: crisis-communication-plan
 ## Purpose
 Comprehensive crisis communication framework covering risk assessment, stakeholder mapping, message development, channel strategy, response protocols, reputation management, and post-crisis analysis across all communication touchpoints and stakeholder groups.
 
+## Quick Crisis Communication Plan Prompt
+
+Create a crisis communication plan for [organization] preparing for [crisis type] scenarios. Define crisis team roles including [key positions], develop holding statements for [scenario types], establish notification protocols for [stakeholder groups], create media response guidelines for [spokesperson], and design recovery communication strategy targeting [reputation goals]. Include first-hour response checklist and stakeholder communication sequence.
+
 ## Quick Start
 
 Prepare for crisis communication before crisis hits:

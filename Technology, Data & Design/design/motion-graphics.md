@@ -29,6 +29,9 @@ slug: motion-graphics
 ## Purpose
 Create comprehensive motion graphics projects including animations, effects, and transitions for digital media, broadcast, and interactive applications.
 
+## Quick Animation Prompt
+Animate [project type: explainer/logo/intro/social ad] for [brand/client]. Duration: [X sec]. Format: [resolution, fps]. Style: [smooth/snappy/dynamic]. Elements: [text/icons/characters/shapes]. Transitions: [type]. Deliver: storyboard, animatic, final render in [MP4/MOV], and source project file. Sync to [music BPM/voiceover timing] if applicable.
+
 ## Quick Start
 
 To use this template effectively:

@@ -32,6 +32,10 @@ slug: interactive-media
 ## Purpose
 Create immersive interactive media experiences including AR/VR applications, interactive installations, and digital experiences that engage users through innovative technology and compelling content.
 
+## Quick Interactive Media Prompt
+
+Create [interactive type: AR/VR/installation] experience for [project name] using [technology platform: Unity/Unreal/WebXR]. Design [duration] experience for [audience] with core interaction of [user action], emotional journey from [start state] to [end state], hardware requirements of [devices/sensors], accessibility features for [needs], and success metrics of [engagement/completion rates]. Include [narrative elements] and test for [technical constraints].
+
 ## Quick Start
 
 **For a 30-Minute Setup:**

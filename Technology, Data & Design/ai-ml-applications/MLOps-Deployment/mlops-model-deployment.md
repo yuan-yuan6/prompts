@@ -32,6 +32,14 @@ slug: mlops-model-deployment
 ## Purpose
 Deploy ML models to production reliably and safely. This framework covers deployment strategies, CI/CD pipelines, model serving infrastructure, and rollback procedures for production ML systems.
 
+## 🚀 Quick Deployment Prompt
+
+> Plan a **model deployment** for **[MODEL_NAME v.X.X]** to **[ENVIRONMENT]** with **[TRAFFIC VOLUME]** requests/day. Guide me through: (1) **Pre-deployment validation**—what quality gates (accuracy, latency, A/B results) must pass? What's the checklist? (2) **Deployment strategy**—should I use canary, blue-green, or rolling? What's the rollout percentage and timeline? (3) **Monitoring setup**—what metrics to watch during deployment? What are the automatic rollback triggers? (4) **Rollback procedure**—what's the instant rollback command and verification checklist? Provide deployment configuration, traffic routing rules, monitoring dashboard requirements, and a step-by-step runbook.
+
+**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for rapid deployment planning.
+
+---
+
 ## Quick Start
 
 ### Minimal Example

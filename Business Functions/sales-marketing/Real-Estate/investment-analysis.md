@@ -31,6 +31,9 @@ slug: investment-analysis
 ## Purpose
 Comprehensive framework for analyzing real estate investment opportunities including financial modeling, market assessment, risk evaluation, portfolio optimization, and investment strategy development.
 
+## Quick Real Estate Investment Prompt
+Analyze [PROPERTY_TYPE] investment at [LOCATION] with [PURCHASE_PRICE] acquisition price and [PROPERTY_SIZE] sq ft. Evaluate market fundamentals: supply/demand, rent growth, cap rate trends. Model cash flows with [HOLDING_PERIOD] year hold, [FINANCING_TERMS] financing, and [EXIT_STRATEGY] exit. Calculate returns: [IRR_TARGET]% IRR target, [CASH_ON_CASH]% cash-on-cash, [EQUITY_MULTIPLE]x equity multiple. Assess risks: [RISK_FACTORS]. Value-add opportunities: [VALUE_ADD_STRATEGY]. Investment recommendation with sensitivity analysis.
+
 ## Quick Start
 
 **Real Estate Scenario**: You're evaluating a commercial real estate acquisition opportunity and need to perform comprehensive financial analysis, market assessment, risk evaluation, and determine if it meets your investment criteria.

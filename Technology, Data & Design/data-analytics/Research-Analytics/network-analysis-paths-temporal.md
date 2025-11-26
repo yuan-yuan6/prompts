@@ -27,6 +27,9 @@ slug: network-analysis-paths-temporal
 ## Purpose
 Analyze network connectivity, path structures, robustness, and temporal evolution. This module provides comprehensive tools for path analysis, connectivity measurement, robustness testing, and tracking how networks change over time.
 
+## Quick Path Analysis Prompt
+Analyze connectivity in [network] with [X nodes, Y edges]. Calculate average path length, diameter, radius, and identify center nodes. Measure network efficiency and clustering coefficient. Test robustness by simulating node/edge removal (random + targeted attacks). Track temporal evolution across [time snapshots] showing changes in connectivity and community structure.
+
 ## Quick Start
 
 **Example: Analyze Network Connectivity and Robustness**

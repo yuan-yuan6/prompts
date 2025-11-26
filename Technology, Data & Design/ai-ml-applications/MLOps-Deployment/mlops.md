@@ -33,6 +33,14 @@ slug: mlops
 ## Purpose
 Implement comprehensive MLOps practices including CI/CD pipelines, model monitoring, versioning, automated testing, and governance for scalable and reliable machine learning systems.
 
+## 🚀 Quick Pipeline Prompt
+
+> Design an **MLOps pipeline** for **[ML USE CASE]** at **[ORGANIZATION SIZE/MATURITY]** using **[TECH STACK: cloud provider, ML framework]**. Guide me through: (1) **CI/CD setup**—what's the pipeline from code commit to production? What quality gates (tests, validations) at each stage? (2) **Model lifecycle**—how to handle experiment tracking, model registry, versioning, and promotion? (3) **Monitoring & retraining**—what drift detection triggers retraining? How to automate the feedback loop? (4) **Governance**—what approval workflows, audit trails, and compliance checks? Provide pipeline configuration (GitHub Actions/Kubeflow), infrastructure-as-code templates, and a maturity roadmap.
+
+**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for rapid MLOps implementation.
+
+---
+
 ## Quick Start
 
 **Implement MLOps in 5 steps:**

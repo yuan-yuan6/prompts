@@ -33,6 +33,9 @@ slug: product-metrics-kpis
 ## Purpose
 Define comprehensive product metrics and KPIs that measure product success, guide decision-making, align teams on goals, and provide visibility into product health and business impact.
 
+## Quick Metrics Prompt
+Define metrics framework for [product] with [business model: SaaS/marketplace/e-commerce]. North Star metric: [primary value indicator]. Map AARRR metrics: Acquisition (source), Activation (aha moment), Retention (D1/D7/D30), Revenue (LTV, ARPU), Referral (viral coefficient). Set targets for each with rationale. Include: leading vs. lagging indicators, metric hierarchy, dashboard design, and weekly/monthly review cadence.
+
 ## Quick Start
 
 **Need metrics quickly?** Use this streamlined approach:

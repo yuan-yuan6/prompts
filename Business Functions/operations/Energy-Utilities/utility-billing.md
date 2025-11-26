@@ -35,6 +35,9 @@ slug: utility-billing
 ## Purpose
 Comprehensive framework for utility billing operations, customer service management, rate design, and revenue optimization across electricity, gas, water, and multi-utility services.
 
+## Quick Utility Billing Prompt
+Optimize utility billing for [UTILITY_NAME] serving [CUSTOMER_COUNT] customers with [SERVICE_TYPES] (electric/gas/water) services. Implement billing system supporting [RATE_STRUCTURES] (TOU/tiered/demand). Integrate AMI for interval data billing. Deploy customer portal with [PORTAL_FEATURES] (usage analytics/payment/alerts). Reduce billing exceptions to [EXCEPTION_TARGET]%. Target [BILLING_ACCURACY]% billing accuracy, [COLLECTION_RATE]% collection rate, [CALL_CENTER_REDUCTION]% call volume reduction, and [CUSTOMER_SATISFACTION]% customer satisfaction.
+
 ## Quick Start
 
 **Energy & Utilities Scenario**: You're implementing or upgrading a utility billing system to handle complex rate structures, improve billing accuracy, enhance customer experience, and streamline revenue collection.

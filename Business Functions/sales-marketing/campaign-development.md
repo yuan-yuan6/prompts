@@ -35,6 +35,9 @@ slug: campaign-development
 ## Purpose
 Create comprehensive marketing campaign strategies covering creative development, audience targeting, channel selection, and campaign execution to maximize marketing effectiveness and ROI.
 
+## Quick Campaign Development Prompt
+Design marketing campaign for [COMPANY_NAME] launching [CAMPAIGN_OBJECTIVE] (awareness/lead gen/product launch). Target [AUDIENCE_DESCRIPTION] with [BUDGET] budget over [TIMELINE]. Select channels: [CHANNEL_MIX] (paid/organic/email/events). Develop creative theme and key messages around [VALUE_PROPOSITION]. Set KPIs: [MQL_TARGET] MQLs, [SQL_TARGET] SQLs, [CONVERSION_TARGET] conversions. Achieve [ROAS_TARGET]x ROAS and [CPL_TARGET] cost per lead.
+
 ## Quick Start
 
 **Need to launch a marketing campaign quickly?** Use this minimal example:

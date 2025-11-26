@@ -29,6 +29,9 @@ slug: zero-trust-architecture
 ## Purpose
 Comprehensive framework for implementing zero trust security model, eliminating implicit trust, enforcing least privilege access, verifying every access request, and securing modern distributed environments with identity-centric controls.
 
+## Quick Zero Trust Prompt
+Design zero trust architecture for [enterprise] with [X employees], [Y applications], [hybrid/cloud infrastructure]. Implement pillars: identity verification (MFA, SSO, conditional access), device trust (MDM, health checks), network micro-segmentation, application access (ZTNA replacing VPN), data protection. Follow NIST 800-207. Phased rollout: identity → device → network → workload. Deliver: architecture, policy framework, and 6-month implementation plan.
+
 ## Quick Start
 
 **Need to implement zero trust security?** Use this minimal example:

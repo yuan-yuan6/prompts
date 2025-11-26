@@ -31,6 +31,10 @@ slug: curriculum-development
 ## Purpose
 Create comprehensive curriculum development frameworks, instructional design strategies, learning pathway architectures, and educational program blueprints that align with learning objectives, industry standards, and student outcomes while incorporating modern pedagogical approaches and assessment methodologies.
 
+## Quick Curriculum Development Prompt
+
+Design a [curriculum type] for [educational institution/context] serving [learner population characteristics]. Define [number] core competencies and learning outcomes aligned with [industry standards/accreditation requirements]. Structure program architecture with [foundation → core → specialization → capstone] sequencing over [duration/credits]. Incorporate [pedagogical approach] with [technology integration] and [assessment methods]. Include stakeholder needs analysis, faculty requirements, and quality assurance processes.
+
 ## Quick Start
 
 **For curriculum designers who need**: A comprehensive framework for developing educational programs

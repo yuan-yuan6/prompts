@@ -32,6 +32,9 @@ slug: renewable-energy
 ## Purpose
 Comprehensive renewable energy planning, deployment, and optimization framework for solar, wind, hydro, and emerging renewable technologies.
 
+## Quick Renewable Energy Optimization Prompt
+Optimize renewable energy project [PROJECT_NAME] at [LOCATION] with [CAPACITY_MW] MW capacity and [BUDGET] budget. Conduct [RESOURCE_TYPE] (solar/wind) resource assessment over [ASSESSMENT_PERIOD] months. Select optimal technology: [EQUIPMENT_SPECS]. Design layout for maximum energy capture. Model production with [CAPACITY_FACTOR]% target capacity factor. Plan construction and commissioning. Target [ANNUAL_GENERATION] GWh annual generation, [LCOE] $/MWh LCOE, [PROJECT_IRR]% IRR, and [COD] commercial operation date.
+
 ## Quick Start
 
 ### For Power Plant Operators & Project Developers

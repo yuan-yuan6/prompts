@@ -32,6 +32,9 @@ slug: warehouse-management-system
 ## Purpose
 Comprehensive framework for managing warehouse operations including inventory control, order fulfillment, picking/packing processes, automation integration, labor management, and distribution center optimization for maximum throughput and accuracy.
 
+## Quick Warehouse Management Prompt
+Optimize warehouse operations for [WAREHOUSE_SIZE] sq ft facility with [SKU_COUNT] SKUs and [ORDER_VOLUME] daily orders. Current performance: [PICKS_PER_HOUR] picks/hour, [ACCURACY_RATE]% accuracy, [INVENTORY_VALUE] inventory value. Implement WMS with [PICKING_METHOD] (wave/batch/zone) picking strategy. Deploy automation: [AUTOMATION_TYPE] (conveyors/AS-RS/robotics). Optimize slotting and labor scheduling. Target [THROUGHPUT_TARGET]% throughput improvement, [ACCURACY_TARGET]% accuracy, [COST_PER_ORDER] cost per order, and [INVENTORY_ACCURACY]% inventory accuracy.
+
 ## Quick Start
 
 **Transportation & Logistics Scenario**: You're managing a distribution center or warehouse that needs to improve accuracy, throughput, inventory control, and order fulfillment speed while reducing operational costs.

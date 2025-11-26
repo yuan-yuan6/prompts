@@ -28,6 +28,9 @@ slug: defi-protocols
 ## Purpose
 Advanced framework for designing, developing, and launching decentralized finance protocols including lending, DEXs, yield optimization, derivatives, and innovative DeFi primitives.
 
+## Quick DeFi Prompt
+Design DeFi protocol for [lending/DEX/yield aggregator/derivatives]. Platform: [Ethereum/L2/alt-L1]. TVL target: $[X]. Tokenomics: [supply], [distribution], [governance]. Core mechanics: [interest rate model/AMM formula/vault strategy]. Security: [90%+] test coverage, [2-3] audits, timelocks, emergency pause. Oracles: Chainlink for price feeds. Launch: testnet → bug bounty → capped mainnet → full launch.
+
 ## Quick Start
 
 **Set Your Foundation:**

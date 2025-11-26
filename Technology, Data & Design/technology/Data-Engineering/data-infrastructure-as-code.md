@@ -33,6 +33,9 @@ slug: data-infrastructure-as-code
 ## Purpose
 Design and implement Infrastructure as Code solutions using Terraform, Ansible, Kubernetes, and other IaC tools to automate provisioning, configuration, deployment, and management of cloud and on-premises infrastructure.
 
+## Quick Data IaC Prompt
+Provision data infrastructure for [cloud: AWS/GCP/Azure] using [Terraform/Pulumi]. Components: data lake ([S3/GCS/ADLS]), warehouse ([Snowflake/BigQuery/Redshift]), streaming ([Kafka/Kinesis]), compute ([Spark/Databricks]). Requirements: [X TB storage], [Y compute nodes], [regions]. Include: networking (VPC, subnets), IAM roles, encryption, cost tags. CI/CD: validate → plan → apply with state management.
+
 ---
 
 ## Quick Start

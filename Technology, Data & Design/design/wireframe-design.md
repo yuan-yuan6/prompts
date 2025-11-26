@@ -26,6 +26,9 @@ slug: wireframe-design
 ## Purpose
 Create comprehensive wireframe designs and information architecture for digital products, establishing the structural foundation for user interfaces and navigation systems.
 
+## Quick Wireframe Prompt
+Create [fidelity: low/mid] wireframes for [product name] ([platform: web/mobile/both]). Target users: [persona]. Key screens: [list 5-7 screens]. Include: site map, navigation hierarchy, content blocks with annotations, responsive breakpoints, and user flow diagram. Focus on [primary task/conversion goal]. Deliver: annotated wireframes in [Figma/Sketch/PDF].
+
 ## Quick Start
 
 **Need to create wireframes quickly?** Use this minimal example:

@@ -30,6 +30,9 @@ slug: container-orchestration-framework
 ## Purpose
 Comprehensive framework for implementing container orchestration platforms including Kubernetes deployment, service mesh configuration, operator development, Helm chart management, and cloud-native application orchestration at scale.
 
+## Quick Container Orchestration Prompt
+Deploy Kubernetes cluster [EKS/GKE/AKS/self-managed] with [X nodes], [Y namespaces], running [Z pods]. Configure: RBAC, network policies, HPA/VPA auto-scaling, ingress controller ([nginx/istio]), secrets management, and monitoring (Prometheus/Grafana). Implement: CI/CD deployment pipeline, rollback strategy, resource quotas. Target: [99.9%] uptime, [X deploys/day], <5 min recovery.
+
 ## Quick Start
 
 **To Deploy Your First Kubernetes Cluster:**

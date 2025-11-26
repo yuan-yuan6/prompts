@@ -23,6 +23,9 @@ slug: predictive-modeling-framework-overview
 ## Purpose
 This comprehensive framework has been split into 3 focused sub-prompts for easier navigation and use.
 
+## Quick Navigation Prompt
+> I need to build a [classification/regression/forecasting] model for [use case]. Current stage: [data prep/model training/deployment]. Help me navigate: (1) Which part of the framework should I use? (2) What are the key sections for my stage? (3) What outputs should I produce before moving to the next part?
+
 ## Framework Structure
 
 ### Part 1: Data Preparation & Feature Engineering (Lines 1-366)

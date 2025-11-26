@@ -37,6 +37,9 @@ slug: process-automation-framework
 ## Purpose
 Comprehensive process automation framework covering process analysis, automation opportunity assessment, technology selection, implementation planning, and continuous optimization across all business functions and operational workflows.
 
+## Quick Process Automation Prompt
+Design an automation strategy for [ORGANIZATION_TYPE] targeting [PROCESS_COUNT] manual processes consuming [HOURS_WEEKLY] hours/week. Assess candidates using impact/complexity matrix. Select technology stack: [TECH_OPTIONS] (RPA/workflow automation/AI/integration). Prioritize [TOP_PROCESSES] for first wave. Implement with [TIMELINE] timeline, targeting [AUTOMATION_RATE]% automation coverage, [TIME_SAVINGS] hours saved weekly, [ROI_TARGET]% ROI, and [ERROR_REDUCTION]% error reduction.
+
 ## Quick Start
 
 To launch your automation initiative quickly:

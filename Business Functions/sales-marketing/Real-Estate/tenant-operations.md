@@ -32,6 +32,9 @@ slug: tenant-operations
 ## Purpose
 Comprehensive framework for managing residential and commercial properties including tenant relations, maintenance operations, financial management, compliance, and portfolio optimization.
 
+## Quick Tenant Operations Prompt
+Establish property management operations for [UNIT_COUNT] [PROPERTY_TYPE] units across [PROPERTY_COUNT] properties totaling [SQUARE_FOOTAGE] sq ft. Current challenges: [CURRENT_OCCUPANCY]% occupancy, [CURRENT_ISSUES] (maintenance delays/manual collection/turnover). Implement: tenant screening and onboarding, maintenance ticketing with [RESPONSE_TARGET] response time, automated rent collection, and lease administration. Deploy [PM_SOFTWARE] software. Target [OCCUPANCY_TARGET]% occupancy, [COLLECTION_TARGET]% collection, [RETENTION_TARGET]% tenant retention, and [NOI_IMPROVEMENT]% NOI improvement.
+
 ## Quick Start
 
 **Need to establish property management operations quickly?** Use this minimal example:

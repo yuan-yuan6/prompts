@@ -25,6 +25,9 @@ slug: financial-ratio-analysis
 ## Purpose
 Calculate and interpret key financial ratios to evaluate company performance across liquidity, efficiency, leverage, profitability, and market valuation dimensions.
 
+## Quick Financial Ratio Prompt
+Analyze [company] in [industry] for [period]. Calculate: liquidity (current, quick, cash), efficiency (inventory/AR/AP turnover), leverage (debt/equity, interest coverage), profitability (ROE, ROA, margins), market (P/E, EV/EBITDA). Benchmark vs [3-5 peers]. Identify: top 3 strengths, top 3 concerns. Output: scorecard with ratings, trend analysis, recommendations.
+
 ## Quick Start
 
 **For Financial Analysts & CFOs**: Calculate key financial ratios and generate performance benchmarking reports in 30-45 minutes.

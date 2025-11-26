@@ -26,6 +26,9 @@ slug: query-optimization-indexing-strategies
 ## Purpose
 Design and implement comprehensive indexing strategies including effectiveness analysis, advanced index types (B-tree, columnstore, filtered), and automated maintenance procedures to optimize query performance and minimize storage overhead.
 
+## Quick Indexing Prompt
+Analyze [DATABASE_PLATFORM] indexes for [WORKLOAD_TYPE] workload. Identify unused indexes (reads=0), duplicate indexes, and missing indexes with impact >[IMPACT_THRESHOLD]%. Design [B-TREE/COLUMNSTORE/FILTERED] indexes for [QUERY_PATTERNS] with INCLUDE columns [COVERED_COLUMNS]. Set up maintenance at [FRAGMENTATION_THRESHOLD]% fragmentation with MAXDOP [PARALLEL_DEGREE].
+
 ## Quick Start
 
 ### For Index Optimization

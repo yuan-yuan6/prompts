@@ -39,6 +39,9 @@ slug: contract-management-operations
 ## Purpose
 Create comprehensive contract management strategies covering contract lifecycle management, risk assessment, compliance monitoring, vendor relationships, and legal documentation to optimize contractual obligations and minimize organizational risk while maximizing value delivery.
 
+## Quick Contract Management Prompt
+Manage contracts for [company] with [X active contracts], $[Y total value]. Repository: centralized with [metadata fields]. Risk tiers: critical/high/medium/low. Alerts: [90-day] renewal notices. Workflows: <$[X] manager approval, >$[X] legal + executive. Focus: top 20% high-value/high-risk contracts. Track: expiration dates, obligations, compliance status.
+
 ## Quick Start
 
 Launch effective contract management operations in 4 steps:

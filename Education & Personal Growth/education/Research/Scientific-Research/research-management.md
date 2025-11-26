@@ -33,6 +33,10 @@ slug: research-management
 ## Purpose
 Comprehensive framework for scientific research project management, laboratory operations, experimental design, data analysis, publication strategy, and research commercialization.
 
+## Quick Research Management Prompt
+
+Manage research program at [institution] with [number] researchers across [number] active projects. Secure funding of $[amount] from [sources: federal/foundation/industry], target [number] publications in [impact factor] journals and [number] patents. Establish lab operations with [equipment/safety protocols], ensure compliance with [IRB/IACUC/biosafety], implement data management via [system/repository], and develop commercialization pathway for [IP/technology]. Track success via [metrics: citations/h-index/grant success rate].
+
 ## Quick Start
 
 **To Launch Your Research Program:**

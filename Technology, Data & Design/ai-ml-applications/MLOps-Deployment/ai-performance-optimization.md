@@ -32,6 +32,14 @@ slug: ai-performance-optimization
 ## Purpose
 Systematically improve the performance of AI systems in production. This framework covers latency reduction, throughput optimization, resource efficiency, and scaling strategies for ML inference workloads.
 
+## 🚀 Quick Optimization Prompt
+
+> Optimize **[AI SYSTEM]** to achieve **[LATENCY TARGET: P99 < Xms]** and **[THROUGHPUT TARGET: X RPS]** from current **[BASELINE METRICS]**. Guide me through: (1) **Profiling**—where are the bottlenecks (preprocessing, inference, postprocessing, network)? What's the latency breakdown? (2) **Model optimization**—should I use quantization, pruning, or distillation? What's the quality/speed tradeoff? (3) **Inference optimization**—what batching, caching, and parallelization strategies? How to configure for my workload? (4) **Infrastructure tuning**—what instance types, auto-scaling settings, and serving framework optimizations? Provide a prioritized optimization roadmap, expected gains per technique, and validation approach.
+
+**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for rapid performance optimization.
+
+---
+
 ## Quick Start
 
 ### Minimal Example

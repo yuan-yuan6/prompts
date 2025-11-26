@@ -30,6 +30,9 @@ slug: fleet-management-system
 ## Purpose
 Comprehensive framework for managing vehicle fleets including asset tracking, maintenance scheduling, driver management, route optimization, compliance monitoring, and operational efficiency for transportation and logistics operations.
 
+## Quick Fleet Management Prompt
+Implement fleet management for [FLEET_SIZE] vehicles across [LOCATION_COUNT] locations with [DRIVER_COUNT] drivers. Deploy GPS tracking and telematics for real-time visibility. Establish preventive maintenance program targeting [AVAILABILITY_TARGET]% availability. Implement driver safety monitoring and scorecard system. Ensure [COMPLIANCE_STANDARDS] (DOT/FMCSA) compliance. Optimize fuel consumption to [MPG_TARGET] MPG. Target [UTILIZATION_TARGET]% utilization, [MAINTENANCE_COST] cost per mile, [SAFETY_SCORE] safety score, and [FUEL_SAVINGS]% fuel savings.
+
 ## Quick Start
 
 **Transportation & Logistics Scenario**: You're managing a commercial vehicle fleet that needs better visibility, maintenance control, driver performance, fuel efficiency, and regulatory compliance.

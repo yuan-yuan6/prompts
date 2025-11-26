@@ -28,6 +28,9 @@ slug: pipeline-infrastructure
 ## Purpose
 Design and implement scalable infrastructure for data pipelines with performance optimization, infrastructure as code (Terraform), container orchestration (Kubernetes), and auto-scaling strategies. This template covers infrastructure provisioning, deployment automation, performance tuning, and resource management.
 
+## Quick Infrastructure Prompt
+Provision [CLOUD_PROVIDER] infrastructure for a [PIPELINE_TYPE] data pipeline using Terraform. Include [COMPUTE_RESOURCES] with [MEMORY/CPU] specs, [STORAGE_TYPE] configuration, networking with [VPC/SECURITY], and Kubernetes deployment with [REPLICA_COUNT] replicas and HPA scaling to [MAX_REPLICAS] based on [SCALING_METRIC].
+
 ## Quick Start
 
 ### For Data Engineers & DevOps

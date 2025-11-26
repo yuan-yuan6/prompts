@@ -29,6 +29,10 @@ slug: public-speaking
 ## Purpose
 Create compelling speeches, presentations, and pitches that engage audiences, convey messages effectively, and inspire action through structured content delivery and confident presentation techniques.
 
+## Quick Public Speaking Prompt
+
+Help me prepare a [speech type - keynote/presentation/pitch/toast] about [topic] for [audience type] lasting [duration]. My core message is [one key takeaway] and my objective is to [inform/persuade/inspire/entertain]. Create an attention-grabbing opening hook, three main points with supporting examples, smooth transitions, and a memorable closing with clear call to action. Include tips for managing nerves and engaging the audience.
+
 ## Quick Start
 
 Need to prepare a speech quickly? Follow this proven framework:

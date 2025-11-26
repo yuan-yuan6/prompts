@@ -32,6 +32,9 @@ slug: marketplace-management
 ## Purpose
 Create comprehensive marketplace optimization strategies, multi-channel selling frameworks, platform-specific tactics, and performance analytics that maximize sales, visibility, and profitability across digital marketplaces.
 
+## Quick Marketplace Management Prompt
+Optimize marketplace presence for [COMPANY_NAME] selling [SKU_COUNT] SKUs across [PLATFORM_COUNT] platforms: [PLATFORMS] (Amazon/Walmart/eBay/Etsy). Set up FBA/fulfillment for Prime eligibility. Implement automated repricing within [PRICE_VARIANCE]% of Buy Box. Launch sponsored ads at [ACOS_TARGET]% ACoS targeting [KEYWORD_COUNT] keywords. Monitor seller metrics: Order Defect Rate <[ODR_TARGET]%, Late Shipment <[LSR_TARGET]%. Target [REVENUE_TARGET] monthly revenue, [CONVERSION_TARGET]% conversion, and [PROFIT_MARGIN]% profit margin.
+
 ## Quick Start
 
 **For E-commerce Managers launching on Amazon:**

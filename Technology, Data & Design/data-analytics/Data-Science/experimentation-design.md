@@ -34,6 +34,9 @@ slug: experimentation-design
 ## Purpose
 Comprehensive framework for designing and executing controlled experiments including A/B testing, multivariate testing, statistical analysis, power calculations, and decision-making based on experimental results.
 
+## Quick Experiment Prompt
+Design an A/B test for [feature/change] targeting [primary metric]. Calculate sample size needed for [X]% minimum detectable effect at 95% confidence and 80% power. Define control vs. variant groups, randomization unit, test duration, primary and guardrail metrics, and decision criteria. Include risk mitigation for negative impact scenarios.
+
 ## Quick Start
 
 **Need to design an A/B test quickly?** Use this minimal example:

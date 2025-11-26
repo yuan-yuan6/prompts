@@ -24,6 +24,9 @@ slug: query-optimization-query-rewriting
 ## Purpose
 Optimize SQL query performance through strategic rewriting, execution plan improvements, and advanced query patterns including subquery elimination, JOIN optimization, window functions, and query hints.
 
+## Quick Rewriting Prompt
+Rewrite this [DATABASE_PLATFORM] query for better performance. Current issues: [TABLE_SCANS/CORRELATED_SUBQUERIES/EXPENSIVE_SORTS/UNION_WITHOUT_ALL]. Convert [SUBQUERY_PATTERN] to [JOIN/EXISTS/WINDOW_FUNCTION], optimize JOIN order for [TABLE_SIZES], add CTEs for [REPEATED_LOGIC], and apply query hints [HINT_TYPE] only if optimizer fails.
+
 ## Quick Start
 
 ### For Query Optimization

@@ -32,6 +32,10 @@ slug: cultural-institution
 ## Purpose
 Comprehensive framework for museum operations, exhibition planning, collection management, visitor engagement, cultural preservation, educational programming, and institutional sustainability.
 
+## Quick Cultural Institution Prompt
+
+Develop management plan for [institution name] with [collection size] artifacts and [annual visitors] yearly visitors. Plan [number] exhibitions covering [themes], design educational programs for [audience segments], establish collection preservation protocols for [artifact types], create visitor engagement strategies targeting [satisfaction score], and develop revenue streams from [sources: grants/donations/admissions/memberships]. Budget [amount] with sustainability target of [metric].
+
 ## Quick Start
 
 **For a 30-Minute Setup:**

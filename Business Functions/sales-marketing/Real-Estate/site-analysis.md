@@ -33,6 +33,9 @@ slug: site-analysis
 ## Purpose
 Create comprehensive site analysis reports, feasibility studies, development potential assessments, and investment evaluations that inform strategic real estate development decisions and maximize property value.
 
+## Quick Site Analysis Prompt
+Conduct site analysis for [PROPERTY_TYPE] development at [LOCATION] covering [SITE_SIZE] acres for [INTENDED_USE]. Assess physical conditions: topography, soil, drainage, utilities, access. Review zoning: [ZONING_CLASSIFICATION] with [DEVELOPMENT_RESTRICTIONS]. Analyze market: supply/demand, comparable properties, absorption rates. Create development pro forma with [DEVELOPMENT_COSTS] costs and [REVENUE_PROJECTIONS] revenue projections. Evaluate [IRR_TARGET]% IRR feasibility. Identify risks and entitlement requirements. Deliver go/no-go recommendation.
+
 ## Quick Start
 
 To use this template effectively:

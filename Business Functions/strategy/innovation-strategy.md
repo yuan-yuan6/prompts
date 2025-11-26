@@ -34,6 +34,9 @@ slug: innovation-strategy
 ## Purpose
 Comprehensive framework for developing innovation strategies, managing R&D portfolios, evaluating emerging technologies, and fostering organizational innovation capabilities.
 
+## Quick Innovation Strategy Prompt
+Develop innovation strategy for [COMPANY_NAME] with [RD_BUDGET] R&D budget over [TIMELINE] years. Build portfolio across innovation types: incremental ([INCREMENTAL_PERCENT]%), adjacent ([ADJACENT_PERCENT]%), and breakthrough ([BREAKTHROUGH_PERCENT]%). Focus areas: [TECHNOLOGY_FOCUS] (AI/ML/IoT/automation). Establish partnerships with [PARTNER_TYPES] (universities/startups/research institutes). Implement innovation processes: [INNOVATION_PROCESSES] (stage-gate/design thinking/hackathons). Target [REVENUE_FROM_INNOVATION]% revenue from new products, [PATENT_TARGET] patents, and [ROI_TARGET]% innovation ROI.
+
 ## Quick Start
 
 ### Minimal Example

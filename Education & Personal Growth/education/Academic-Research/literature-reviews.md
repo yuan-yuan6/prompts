@@ -35,6 +35,10 @@ slug: literature-reviews
 ## Purpose
 Create comprehensive literature reviews covering systematic reviews, narrative reviews, meta-analyses, scoping reviews, and research syntheses to provide rigorous analysis of existing research, identify knowledge gaps, and establish theoretical foundations for academic inquiry and evidence-based practice.
 
+## Quick Literature Reviews Prompt
+
+Conduct [review type: systematic/narrative/meta-analysis/scoping] review on [research topic] in [field]. Search databases [PubMed/Web of Science/PsycINFO/etc.] using keywords [primary terms] AND [secondary terms]. Include studies from [date range] meeting criteria of [inclusion criteria], exclude [exclusion criteria]. Assess quality using [tool: PRISMA/Cochrane/CASP], synthesize findings on [themes/outcomes], identify gaps in [knowledge areas], and target publication in [journal type].
+
 ## Quick Start
 
 ### For Researchers & Scholars

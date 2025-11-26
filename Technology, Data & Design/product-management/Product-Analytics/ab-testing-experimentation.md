@@ -34,6 +34,9 @@ slug: ab-testing-experimentation
 ## Purpose
 Design rigorous A/B tests and experiments to validate product hypotheses, optimize user experiences, and make data-driven decisions with statistical confidence rather than opinions or assumptions.
 
+## Quick A/B Test Prompt
+Design A/B test for [feature/change]. Hypothesis: [changing X will improve Y because Z]. Primary metric: [conversion/engagement/retention rate]. Baseline: [current %]. MDE: [minimum detectable effect]. Calculate sample size for 80% power, 95% confidence. Define: control vs. variant, targeting criteria, test duration, guardrail metrics, and success/ship criteria. Include rollout plan if winner.
+
 ## Quick Start
 
 **Need to run an A/B test quickly?** Use this streamlined approach:

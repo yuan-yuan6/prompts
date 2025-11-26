@@ -29,6 +29,9 @@ slug: pipeline-ingestion
 ## Purpose
 Design and implement robust data ingestion pipelines for extracting data from various sources using batch processing, real-time streaming, and Change Data Capture (CDC) patterns. This template covers the data extraction layer with comprehensive error handling, validation, and monitoring.
 
+## Quick Ingestion Prompt
+Build a [BATCH/STREAMING/CDC] ingestion pipeline to extract data from [SOURCE_TYPE] into [LANDING_ZONE]. Include connection pooling, [INCREMENTAL/FULL] extraction with [WATERMARK_COLUMN], validation rules for [CRITICAL_COLUMNS], retry logic with exponential backoff, dead letter queue handling, and extraction metadata tracking.
+
 ## Quick Start
 
 ### For Data Engineers

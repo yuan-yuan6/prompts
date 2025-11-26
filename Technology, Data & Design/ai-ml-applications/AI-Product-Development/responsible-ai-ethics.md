@@ -34,6 +34,18 @@ slug: responsible-ai-ethics
 ## Purpose
 Guide teams in building AI systems that are fair, transparent, accountable, and aligned with ethical principles. This framework provides systematic approaches for identifying and mitigating AI risks, ensuring compliance with emerging regulations, and building user trust.
 
+---
+
+## 🚀 Quick Prompt
+
+**Copy and use this generic prompt to assess any AI system:**
+
+> I need to conduct a responsible AI assessment for **[AI SYSTEM]** that **[WHAT IT DOES]** affecting **[STAKEHOLDERS]**. Help me evaluate: (1) **Fairness**—which protected attributes need testing, what fairness metrics apply (demographic parity, equal opportunity, etc.), what thresholds are acceptable, and what bias mitigation strategies should we implement? (2) **Transparency**—what explainability method is appropriate (SHAP, LIME, counterfactuals), what user-facing explanations are needed, and what documentation is required (model card, data sheet)? (3) **Accountability**—who owns this model, what's the governance structure, what audit trails are needed, and what's the human oversight requirement? (4) **Risk & compliance**—what's the impact severity and reversibility, what regulations apply (EU AI Act, GDPR, industry-specific), and what are the key risks and mitigations? Provide a monitoring plan, incident response procedure, and review schedule.
+
+**Usage:** Fill in the brackets and use as a prompt to an AI assistant or as your responsible AI assessment framework.
+
+---
+
 ## Quick Start
 
 ### Minimal Example
@@ -283,12 +295,148 @@ Alert recipients: [TEAM/INDIVIDUALS]
 | GDPR | EU | [REQUIREMENTS] | [STATUS] |
 | Local laws | [JURISDICTION] | [REQUIREMENTS] | [STATUS] |
 
+### EU AI Act Compliance (Detailed)
+```
+Risk Classification:
+- [ ] Unacceptable Risk: Social scoring, real-time biometric ID (prohibited)
+- [ ] High Risk: Hiring, credit, healthcare, law enforcement
+- [ ] Limited Risk: Chatbots, emotion detection (transparency required)
+- [ ] Minimal Risk: Spam filters, games (no specific requirements)
+
+Your System Classification: [RISK_LEVEL]
+
+High-Risk System Requirements (if applicable):
+1. Risk Management System
+   - [ ] Continuous risk identification and mitigation
+   - [ ] Testing and validation procedures
+   - [ ] Post-market monitoring
+
+2. Data Governance
+   - [ ] Training data quality requirements
+   - [ ] Bias examination and mitigation
+   - [ ] Data documentation
+
+3. Technical Documentation
+   - [ ] System description and intended purpose
+   - [ ] Design and development process
+   - [ ] Performance metrics and limitations
+
+4. Record-Keeping
+   - [ ] Automatic logging of events
+   - [ ] Retention period: [DURATION]
+   - [ ] Traceability requirements
+
+5. Transparency
+   - [ ] User notification of AI interaction
+   - [ ] Instructions for use
+   - [ ] Human oversight capabilities
+
+6. Human Oversight
+   - [ ] Ability to understand AI output
+   - [ ] Intervention and stop capabilities
+   - [ ] Override mechanisms
+
+7. Accuracy & Robustness
+   - [ ] Appropriate accuracy levels
+   - [ ] Resilience to errors/attacks
+   - [ ] Consistency of outputs
+
+Transparency-Only Requirements (Limited Risk):
+- [ ] Users informed they're interacting with AI
+- [ ] AI-generated content disclosed (for deepfakes, etc.)
+- [ ] Emotion detection systems disclosed
+```
+
+### Generative AI Specific Compliance
+```
+EU AI Act - GPAI Requirements:
+- [ ] Technical documentation maintained
+- [ ] Information for downstream providers
+- [ ] Copyright law compliance
+- [ ] Training data summary published
+
+Systemic Risk GPAI (if applicable):
+- [ ] Model evaluation performed
+- [ ] Systemic risk assessment
+- [ ] Incident tracking and reporting
+- [ ] Adequate cybersecurity
+
+Copyright and IP Considerations:
+- Training data sources: [DOCUMENTED]
+- Opt-out mechanisms: [IMPLEMENTED/N/A]
+- Output attribution: [APPROACH]
+- Indemnification: [POLICY]
+```
+
 ### Compliance Checklist
 - [ ] Impact assessment completed
 - [ ] Human oversight implemented where required
 - [ ] Transparency obligations met
 - [ ] Data protection measures in place
 - [ ] Documentation requirements fulfilled
+- [ ] CE marking obtained (if applicable)
+- [ ] Conformity assessment completed (if applicable)
+
+---
+
+## 9. LLM-Specific Safety Considerations
+
+### Hallucination Prevention
+| Mitigation | Implementation | Effectiveness |
+|------------|----------------|---------------|
+| RAG grounding | [IMPLEMENTATION] | [MEASURED_RATE] |
+| Confidence thresholds | [THRESHOLD] | [MEASURED_RATE] |
+| Citation requirements | [POLICY] | [MEASURED_RATE] |
+| Fact-checking pipeline | [PROCESS] | [MEASURED_RATE] |
+
+### Prompt Injection Defense
+```
+Attack Vectors Tested:
+- [ ] Direct injection (malicious user input)
+- [ ] Indirect injection (malicious content in retrieved docs)
+- [ ] Jailbreak attempts
+- [ ] Role-play attacks
+
+Defenses Implemented:
+- [ ] Input sanitization: [METHOD]
+- [ ] System prompt protection: [APPROACH]
+- [ ] Output filtering: [RULES]
+- [ ] Monitoring for anomalies: [SYSTEM]
+```
+
+### Red Teaming
+```
+Red Team Scope:
+- Bias and discrimination: [TESTING_APPROACH]
+- Harmful content generation: [TESTING_APPROACH]
+- Privacy/data leakage: [TESTING_APPROACH]
+- Jailbreaking: [TESTING_APPROACH]
+- Factual errors: [TESTING_APPROACH]
+
+Red Team Results:
+| Category | Issues Found | Severity | Status |
+|----------|--------------|----------|--------|
+| [CATEGORY] | [COUNT] | [HIGH/MED/LOW] | [FIXED/MITIGATED/ACCEPTED] |
+
+Red Team Schedule:
+- Pre-launch: [COMPLETED_DATE]
+- Post-launch: [CADENCE]
+- Major updates: [TRIGGER]
+```
+
+### Content Safety
+```
+Content Policies:
+- Prohibited outputs: [CATEGORIES]
+- Warning-required outputs: [CATEGORIES]
+- User age verification: [IF_APPLICABLE]
+
+Safety Mechanisms:
+- Input classifier: [MODEL/RULES]
+- Output classifier: [MODEL/RULES]
+- Human review threshold: [CRITERIA]
+- Automatic blocking: [CRITERIA]
+```
 ```
 
 ---
@@ -423,6 +571,15 @@ RISK MANAGEMENT:
 ❌ **Ignoring Edge Cases** - Testing only on majority populations
 ✅ Instead: Specifically test on minority groups and intersectional identities
 
+❌ **LLM Exceptionalism** - Assuming LLMs don't need bias testing
+✅ Instead: Test generative AI for bias, stereotypes, and harmful outputs
+
+❌ **Neglecting Red Teaming** - Skipping adversarial testing
+✅ Instead: Conduct regular red team exercises for safety vulnerabilities
+
+❌ **Copyright Blindness** - Ignoring training data provenance
+✅ Instead: Document data sources and implement opt-out mechanisms
+
 ---
 
 ## Related Resources
@@ -431,20 +588,23 @@ RISK MANAGEMENT:
 - [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
 - [IEEE Ethically Aligned Design](https://ethicsinaction.ieee.org/)
 - [EU AI Act Requirements](https://artificialintelligenceact.eu/)
+- [ISO/IEC 42001](https://www.iso.org/standard/81230.html) - AI Management System
 
 **Tools:**
 - [AI Fairness 360 (IBM)](https://aif360.mybluemix.net/) - Bias detection and mitigation
 - [Fairlearn (Microsoft)](https://fairlearn.org/) - Fairness assessment toolkit
 - [What-If Tool (Google)](https://pair-code.github.io/what-if-tool/) - Model exploration
 - [SHAP](https://shap.readthedocs.io/) - Explainability library
+- [Anthropic Constitutional AI](https://www.anthropic.com/research) - LLM safety
 
 **Templates:**
 - [Model Cards for Model Reporting](https://arxiv.org/abs/1810.03993)
 - [Datasheets for Datasets](https://arxiv.org/abs/1803.09010)
+- [System Cards (OpenAI)](https://openai.com/research) - Comprehensive AI system documentation
 
 ---
 
-**Last Updated:** 2025-11-22
+**Last Updated:** 2025-11-25
 **Category:** AI/ML Applications > AI-Product-Development
 **Difficulty:** Intermediate to Advanced
 **Estimated Time:** 1-2 weeks for initial assessment, ongoing monitoring

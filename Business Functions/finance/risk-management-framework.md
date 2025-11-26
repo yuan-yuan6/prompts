@@ -33,6 +33,9 @@ slug: risk-management-framework
 ## Purpose
 Create comprehensive risk management strategies covering credit risk, market risk, operational risk, regulatory compliance, stress testing, and BASEL framework implementation to ensure financial stability, regulatory adherence, and strategic risk optimization while protecting stakeholder interests and maximizing risk-adjusted returns.
 
+## Quick Risk Management Framework Prompt
+Design risk framework for [institution type] with $[X] assets. Risk appetite: [conservative/moderate/aggressive]. Focus: credit (NPL <[X%], concentration <[Y%]), market (VaR limit $[Z]), operational (cyber, BCP). Compliance: [BASEL III/CCAR/DFAST]. Stress test: [recession scenario]. Capital: Tier 1 >[X%]. Governance: [3 lines of defense], [risk committee structure].
+
 ## Quick Start
 
 Get started quickly with these common risk management scenarios:

@@ -3,17 +3,15 @@ title: Dashboard Design Patterns - Overview & Navigation
 category: data-analytics
 tags:
 - data-analytics
-- ai-ml
 - design
-- development
-- optimization
-- security
+- operations
 - strategy
 use_cases:
 - Creating comprehensive dashboard design strategies covering KPI visualization, data
   presentation patterns, user experience optimization, self-service analytics, mobile
   responsiveness, and real-time data integration
-last_updated: 2025-11-11
+- Navigating the three-part dashboard design framework
+last_updated: 2025-11-25
 industries:
 - finance
 - government
@@ -29,12 +27,15 @@ slug: dashboard-design-patterns-overview
 # Dashboard Design Patterns - Overview & Navigation
 
 ## Purpose
-This comprehensive dashboard design framework has been split into three focused sub-prompts for easier use and better organization. Each part builds on the previous one to create a complete dashboard solution from strategy through deployment.
+This comprehensive dashboard design framework has been split into three focused parts across different folders for better organization. Each part builds on the previous one to create a complete dashboard solution from strategy through deployment.
+
+## Quick Navigation Prompt
+> I need to design [executive/operational/analytical] dashboards for [industry/use case]. Help me navigate this framework: (1) What part should I start with given my goal is [strategy planning/visual design/deployment]? (2) What are the key sections I need to focus on? (3) What variables should I define first?
 
 ## Navigation Guide
 
-### Part 1: Strategy & Requirements (350-400 lines)
-**File:** `dashboard-design-patterns-01-strategy.md`
+### Part 1: Strategy & Visual Design
+**Location:** `Technology, Data & Design/design/dashboard-design-strategy.md`
 
 **Covers:**
 - Dashboard Strategy Overview
@@ -49,8 +50,8 @@ This comprehensive dashboard design framework has been split into three focused 
 
 ---
 
-### Part 2: UX Design & Technical Implementation (350-400 lines)
-**File:** `dashboard-design-patterns-02-ux-technical.md`
+### Part 2: Data Visualization & Technical Implementation
+**Location:** `Technology, Data & Design/data-analytics/dashboard-design-data-visualization.md`
 
 **Covers:**
 - Data Visualization and Chart Selection
@@ -65,8 +66,8 @@ This comprehensive dashboard design framework has been split into three focused 
 
 ---
 
-### Part 3: Testing, Deployment & Advanced Features (350-400 lines)
-**File:** `dashboard-design-patterns-03-deployment.md`
+### Part 3: Deployment & Operations
+**Location:** `Business Functions/operations/dashboard-design-deployment.md`
 
 **Covers:**
 - Implementation Strategy and Change Management
@@ -81,12 +82,20 @@ This comprehensive dashboard design framework has been split into three focused 
 
 ---
 
+## File Location Summary
+
+| Part | Focus | Folder | Filename |
+|------|-------|--------|----------|
+| 1 | Strategy & Visual Design | `Technology, Data & Design/design/` | `dashboard-design-strategy.md` |
+| 2 | Data Visualization & Technical | `Technology, Data & Design/data-analytics/` | `dashboard-design-data-visualization.md` |
+| 3 | Deployment & Operations | `Business Functions/operations/` | `dashboard-design-deployment.md` |
+
 ## Quick Start Workflow
 
 ### For New Dashboard Projects:
-1. **Start with Part 1** - Define strategy, plan architecture, establish design system
-2. **Move to Part 2** - Design visualizations, implement technical infrastructure
-3. **Complete with Part 3** - Deploy, train users, measure success, enhance
+1. **Start with Part 1** (design/) - Define strategy, plan architecture, establish design system
+2. **Move to Part 2** (data-analytics/) - Design visualizations, implement technical infrastructure
+3. **Complete with Part 3** (operations/) - Deploy, train users, measure success, enhance
 
 ### For Existing Dashboards:
 - **Redesign:** Use Part 1 for strategy refresh
@@ -202,13 +211,6 @@ Create an executive dashboard with: (1) Top row showing 4-5 key metrics as large
 - Customer health scores
 - Sales and marketing dashboards
 - System performance monitoring
-
-## Related Templates
-
-- Data Visualization Best Practices
-- Business Intelligence Strategy
-- Self-Service Analytics Implementation
-- Mobile App Design Patterns
 
 ---
 

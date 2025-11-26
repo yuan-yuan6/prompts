@@ -23,6 +23,9 @@ slug: ux-ui-design-overview
 ## Purpose
 This overview guide helps you navigate the UX/UI design prompt collection and select the appropriate template for your specific design deliverable needs.
 
+## Quick UX Navigation Prompt
+I need to design [product type] for [user group]. Current phase: [discovery/wireframing/prototyping/testing/handoff]. Primary goal: [validate concept/test usability/create design system/build prototype]. Guide me to the right template and provide a 3-step workflow with estimated time. Constraints: [timeline] and [team size].
+
 ## Quick Start
 
 **Want to design user interfaces quickly?** Here's how to choose the right template:

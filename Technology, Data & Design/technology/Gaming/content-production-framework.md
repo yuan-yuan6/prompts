@@ -29,6 +29,9 @@ slug: content-production-framework
 ## Purpose
 Comprehensive framework for producing digital content and media including video production, streaming content, podcast creation, content strategy, audience engagement, distribution planning, and monetization for entertainment platforms.
 
+## Quick Content Production Prompt
+Create content strategy for [YouTube/Twitch/podcast] in [niche]. Format: [X-minute videos/streams], [weekly/daily] schedule. Production: script → shoot → edit workflow. Equipment budget: $[Y]. Calendar: [Z weeks] ahead with [trending topics/evergreen content]. Distribution: [platforms]. Monetization: ads ([X%]), sponsorships ([Y%]), products ([Z%]). Target: [subscriber/follower goal] in [timeline].
+
 ## Quick Start
 
 **For Content Creators launching YouTube channel:**

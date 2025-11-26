@@ -27,6 +27,10 @@ slug: screenwriting
 ## Purpose
 Create compelling screenplays for films, TV series, and web content with professional formatting, engaging dialogue, and strong narrative structure that captivates audiences and drives production interest.
 
+## Quick Screenwriting Prompt
+
+Write [screenplay type: feature/TV pilot/short] screenplay titled [title] in [genre]. Craft logline as [protagonist] must [action] before [stakes]. Structure [runtime] minutes with inciting incident at [page], midpoint at [page], climax at [page]. Develop [protagonist name] pursuing [external goal] while needing [internal need], facing [antagonist]. Set in [location/time], target [budget level], and format for [industry standard]. Include [subgenre elements] and [theme].
+
 ## Quick Start
 
 **Fast Track to Your First Scene**

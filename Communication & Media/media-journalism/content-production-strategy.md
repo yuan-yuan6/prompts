@@ -30,6 +30,10 @@ slug: content-production-strategy
 ## Purpose
 Comprehensive system for developing, executing, and managing content strategies across multiple media channels, including editorial calendars, content workflows, and performance optimization.
 
+## Quick Content Production Strategy Prompt
+
+Develop content strategy for [publication name] producing [volume] pieces monthly across [channels: web/video/social/podcast]. Define content pillars of [topic areas], create editorial calendar with [publishing frequency], assign team roles for [workflow stages], establish quality standards for [content types], and set performance targets of [traffic/engagement/conversion metrics]. Budget [amount] with monetization via [revenue streams] targeting [audience size] in [demographic].
+
 ## Quick Start
 
 **Need to create a content strategy quickly?** Use this minimal example:

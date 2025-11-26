@@ -29,6 +29,10 @@ slug: time-management
 ## Purpose
 Create comprehensive task prioritization frameworks, decision matrices, workload management systems, and priority alignment strategies that maximize impact and efficiency through systematic task evaluation and resource allocation.
 
+## Quick Time Management Prompt
+
+Help me prioritize and manage my tasks effectively. I currently have [number] competing tasks/projects and my key objectives are [main goals]. My biggest challenges are [overwhelm/procrastination/context-switching/meetings]. Create an Eisenhower Matrix for my tasks, design a daily time-blocking schedule, identify tasks to delegate or eliminate, and provide a weekly review template. Include strategies for protecting deep work time and handling interruptions.
+
 ## Quick Start
 
 Transform your overwhelming task list into a clear action plan in under 20 minutes.

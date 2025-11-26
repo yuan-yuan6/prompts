@@ -35,6 +35,9 @@ slug: predictive-modeling-framework
 ## Purpose
 Create comprehensive predictive modeling strategies covering regression analysis, classification algorithms, time series forecasting, ensemble methods, and AutoML implementation to enable data-driven decision making through accurate predictions, pattern recognition, and automated machine learning workflows.
 
+## Quick Modeling Prompt
+> Build a [classification/regression/time series] model for [business objective] using [dataset description]. Target: [what to predict]. Features: [key variables]. Performance target: [accuracy/recall/RMSE goal]. Deployment: [batch/real-time] on [platform]. Include: (1) Data preparation and feature engineering approach, (2) Algorithm selection and justification, (3) Evaluation metrics and validation strategy, (4) Deployment and monitoring plan.
+
 ## Quick Start
 
 Build predictive models in 4 steps:

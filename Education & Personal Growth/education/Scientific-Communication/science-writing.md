@@ -34,6 +34,10 @@ slug: science-writing
 ## Purpose
 Create engaging, accessible science communication that bridges the gap between complex research and public understanding through popular science articles, technical blogs, educational content, and multimedia storytelling.
 
+## Quick Science Writing Prompt
+
+Write [content type: popular article/blog/explainer/social media] about [scientific topic/research finding] for [audience: general public/educated nonexperts/enthusiasts]. Target [word count] words at [Flesch readability score] readability level. Include hook of [surprising fact/question/personal story], explain [number] key concepts using [analogies/examples], translate jargon like [technical terms], add [visual types: infographic/diagram/photo], cite [source types], and conclude with [implications/future questions]. Verify accuracy via [expert review/peer-reviewed sources].
+
 ## Quick Start
 
 **Get started in 3 minutes:**

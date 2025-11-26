@@ -31,6 +31,9 @@ slug: okr-implementation-framework
 ## Purpose
 Comprehensive framework for implementing Objectives and Key Results (OKRs) including goal setting, alignment strategies, tracking mechanisms, performance measurement, and continuous improvement for driving organizational focus and achievement.
 
+## Quick OKR Implementation Prompt
+Implement OKR framework for [COMPANY_NAME] with [EMPLOYEE_COUNT] employees across [TEAM_COUNT] teams. Set [CYCLE_LENGTH] (quarterly/annual) OKR cycles. Define company-level objectives: [COMPANY_OBJECTIVES] with [KR_COUNT] key results each. Cascade to [LEVEL_COUNT] levels (company/department/team/individual). Establish alignment process and [CHECK_IN_FREQUENCY] check-ins. Deploy tracking in [OKR_TOOL]. Target [COMPLETION_RATE]% OKR completion rate (70% = stretch goals), [ALIGNMENT_SCORE]% cross-team alignment, and [ENGAGEMENT_IMPROVEMENT]% employee engagement improvement.
+
 ## Quick Start
 
 **Need to implement OKRs quickly?** Use this minimal example:

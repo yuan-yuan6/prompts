@@ -26,6 +26,9 @@ slug: privileged-access-management
 ## Purpose
 Comprehensive framework for securing privileged accounts, implementing just-in-time access, session monitoring, credential vaulting, and compliance with least privilege principles.
 
+## Quick PAM Prompt
+Implement PAM for [X] privileged accounts across [Windows/Linux/databases/cloud]. Solution: [CyberArk/BeyondTrust/Delinea]. Implement: credential vaulting with auto-rotation, just-in-time access workflows, session recording for audit, break-glass procedures. Cover: admin accounts, service accounts, third-party access. Compliance: [SOX/PCI-DSS/HIPAA]. Deliver: architecture, access policies, and operational procedures.
+
 ## Quick Start
 
 **Need to implement PAM?** Use this minimal example:

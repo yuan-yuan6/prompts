@@ -29,6 +29,9 @@ slug: network-analysis-data-preparation
 ## Purpose
 Load, preprocess, clean, and validate network data from various sources and formats to ensure high-quality network analysis. This module provides comprehensive tools for data loading, quality assessment, network cleaning, and subnetwork extraction.
 
+## Quick Network Data Prompt
+Load network from [source file/format] with [X nodes, Y edges]. Clean by removing self-loops and duplicate edges, filter nodes with degree < [threshold], add node attributes from [attribute source], validate network structure (check for disconnected components, orphan nodes), and output preprocessed network ready for centrality/community analysis. Report data quality metrics.
+
 ## Quick Start
 
 **Example: Load and Clean Social Media Network Data**

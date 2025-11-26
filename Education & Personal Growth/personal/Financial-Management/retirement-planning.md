@@ -32,6 +32,10 @@ slug: retirement-planning
 ## Purpose
 Develop comprehensive retirement strategies including 401k optimization, IRA planning, income projections, and withdrawal strategies to ensure financial security and lifestyle maintenance throughout retirement years.
 
+## Quick Retirement Planning Prompt
+
+Create a retirement plan for me. I'm [current age] wanting to retire at [target age] with [desired annual income] in retirement. Current retirement savings: [amount] in [account types - 401k/IRA/taxable]. Annual income: [salary] with [employer match percentage] 401k match. Calculate my retirement number, monthly savings needed, optimal account contribution strategy, and investment allocation based on my [risk tolerance] risk tolerance and [years to retirement] year timeline.
+
 ## Quick Start
 
 Start your retirement planning in 3 steps:

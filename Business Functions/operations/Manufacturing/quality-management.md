@@ -34,6 +34,9 @@ slug: quality-management
 ## Purpose
 Create comprehensive quality management systems, manufacturing excellence frameworks, supply chain quality assurance strategies, and continuous improvement programs that ensure product quality, regulatory compliance, customer satisfaction, and operational efficiency across global manufacturing and supply networks.
 
+## Quick Quality Management Prompt
+Implement quality management system for [COMPANY_NAME] manufacturing [PRODUCT_TYPE] with [INDUSTRY_STANDARD] (ISO 9001/IATF 16949/AS9100) certification requirements. Current metrics: [PPM_BASELINE] PPM, [FPY_BASELINE]% FPY, [COQ_BASELINE]% cost of quality. Deploy SPC on [CRITICAL_PROCESSES] critical processes. Implement supplier quality management for [SUPPLIER_COUNT] suppliers. Establish CAPA and audit programs. Target [PPM_TARGET] PPM, [FPY_TARGET]% FPY, [COQ_TARGET]% cost of quality, and [CERTIFICATION_DATE] certification.
+
 ## Quick Start
 
 **Get started in 3 steps:**

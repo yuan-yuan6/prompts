@@ -33,6 +33,9 @@ slug: wealth-management-strategy
 ## Purpose
 Create comprehensive wealth management and financial planning strategies covering goal setting, cash flow optimization, retirement planning, tax strategies, estate planning, insurance protection, and education funding to maximize client wealth preservation, growth, and transfer while ensuring financial security and legacy achievement.
 
+## Quick Wealth Management Prompt
+Create wealth plan for [client profile: age, income, net worth]. Goals: [retirement at X with $Y], [home purchase], [education funding]. Risk: [conservative/moderate/aggressive]. Strategy: savings rate [X%], asset allocation [stocks/bonds/alternatives], tax optimization [Roth/401k/HSA]. Estate: [will/trust/beneficiaries]. Insurance: [life/disability/umbrella]. Review: [quarterly/annual].
+
 ## Quick Start
 
 Create an effective wealth management plan in 1-2 hours with these practical examples:

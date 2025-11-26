@@ -35,6 +35,9 @@ slug: database-management
 ## Purpose
 Comprehensive database management including schema design, query optimization, performance tuning, backup/recovery, security, maintenance, and monitoring for enterprise database systems.
 
+## Quick Database Prompt
+Design database for [application] with [X users], [Y transactions/sec]. Type: [PostgreSQL/MySQL/MongoDB/Redis]. Requirements: [consistency/availability priority], [read/write ratio]. Schema: [entities and relationships]. Optimization: indexing strategy, partitioning, connection pooling. Operations: backup schedule, replication ([sync/async]), monitoring (query performance, connections, storage), disaster recovery with [RPO/RTO targets].
+
 ## Quick Start
 
 **Need to set up database management quickly?** Use this minimal example:

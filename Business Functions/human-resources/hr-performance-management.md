@@ -36,6 +36,9 @@ slug: hr-performance-management
 ## Purpose
 Comprehensive framework for designing and implementing performance management systems, employee development programs, succession planning, talent assessment, and career progression strategies.
 
+## Quick Performance Management Prompt
+Design performance system for [company] with [X employees] across [Y departments]. Components: goal setting ([OKRs/SMART]), check-ins ([frequency]), 360 feedback, reviews ([annual/quarterly]). Talent: 9-box assessment, succession pipeline, development plans. Targets: engagement [X%], retention [Y%], performance improvement [Z%]. Include: manager training, calibration process, analytics dashboard.
+
 ## Quick Start
 
 Build a world-class talent management system in three integrated steps:

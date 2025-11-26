@@ -35,6 +35,9 @@ slug: ev-strategy
 ## Purpose
 Comprehensive framework for electric vehicle adoption, charging infrastructure development, fleet electrification, battery management, and sustainable mobility transformation across automotive and transportation sectors.
 
+## Quick EV Strategy Prompt
+Develop EV transition strategy for [ORGANIZATION_NAME] with [FLEET_SIZE] vehicle fleet. Plan [EV_ADOPTION_RATE]% electrification by [TARGET_YEAR]. Install [CHARGING_POINTS] charging stations (Level 2/DC fast). Budget [INVESTMENT_AMOUNT] for vehicles and infrastructure. Address range requirements for [USE_CASES] (delivery/service/commute). Implement battery management and lifecycle planning. Target [TCO_SAVINGS]% TCO reduction, [CARBON_REDUCTION]% emissions reduction, and [UPTIME_TARGET]% fleet uptime.
+
 ## Quick Start
 
 ### For Fleet Operators & Mobility Managers

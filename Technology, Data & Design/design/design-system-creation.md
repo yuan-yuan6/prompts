@@ -25,6 +25,9 @@ slug: design-system-creation
 ## Purpose
 Create comprehensive design systems with reusable components, design tokens, and style guidelines to ensure consistency, scalability, and efficiency across digital products.
 
+## Quick Design System Prompt
+Build design system for [product name] on [platform: web/mobile/cross-platform] using [framework: React/Vue/Native]. Define: color palette (primary/secondary/semantic), typography scale (8 levels), spacing system (4/8px grid), core components (buttons, inputs, cards, navigation). Include: design tokens, component specs with states, accessibility guidelines (WCAG AA), and usage documentation.
+
 ## Quick Start
 
 To use this template effectively:

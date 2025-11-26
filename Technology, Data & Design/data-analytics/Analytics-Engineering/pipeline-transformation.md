@@ -32,6 +32,9 @@ slug: pipeline-transformation
 ## Purpose
 Design and implement comprehensive data transformation pipelines following medallion architecture patterns (Bronze → Silver → Gold). This template covers data cleansing, standardization, enrichment, business logic application, and advanced transformation patterns including slowly changing dimensions and window analytics.
 
+## Quick Transformation Prompt
+Build a [BRONZE_TO_SILVER/SILVER_TO_GOLD] transformation for [DOMAIN_ENTITY] using [PROCESSING_FRAMEWORK]. Apply cleansing rules: [NULL_HANDLING], [DEDUPLICATION_KEY], [TYPE_CONVERSIONS]. Standardize using [REFERENCE_LOOKUPS], enrich with [CALCULATED_FIELDS], implement SCD Type [1/2] for [DIMENSION_COLUMNS], and add validation checks for [QUALITY_RULES].
+
 ## Quick Start
 
 ### For Data Engineers

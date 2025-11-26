@@ -26,6 +26,10 @@ slug: audience-analytics
 ## Purpose
 Advanced framework for analyzing audience behavior, optimizing content engagement, and driving growth across digital publishing platforms through data-driven insights and personalization strategies.
 
+## Quick Audience Analytics Prompt
+
+Analyze audience engagement for [publication name] with [monthly users] MAU and [subscriber count] subscribers. Segment users by [demographic/behavioral criteria], track [key metrics: engagement/retention/conversion], identify top-performing content in [categories], build predictive model for [churn/conversion], and design A/B tests for [headlines/layouts/CTAs]. Target [engagement rate]% engagement and [growth rate]% subscriber growth with personalization strategy for [user segments].
+
 ## Quick Start
 
 **Need to optimize audience engagement quickly?** Use this minimal example:

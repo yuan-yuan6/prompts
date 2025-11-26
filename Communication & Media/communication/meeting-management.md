@@ -34,6 +34,10 @@ slug: meeting-management
 ## Purpose
 Comprehensive framework for planning, conducting, and following up on team meetings with structured agendas, effective facilitation, and actionable outcomes.
 
+## Quick Meeting Management Prompt
+
+Create a meeting plan for [meeting type] with [number] participants lasting [duration]. Include agenda covering [topics], assign roles for [facilitator/timekeeper/note-taker], prepare pre-read on [materials], establish decision process for [items requiring resolution], and design follow-up cadence within [timeframe]. Apply time-boxing for [discussion areas] and capture action items with [owner/deadline format].
+
 ## Quick Start
 
 Get started with effective meeting management in 15 minutes:

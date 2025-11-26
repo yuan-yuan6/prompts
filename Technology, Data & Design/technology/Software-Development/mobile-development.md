@@ -33,6 +33,9 @@ slug: mobile-development
 ## Purpose
 Comprehensive framework for mobile app development including iOS/Android native development, cross-platform strategies, UI/UX design, performance optimization, and app store deployment.
 
+## Quick Mobile Development Prompt
+Develop [app name] for [iOS/Android/both] with [React Native/Flutter/native]. Features: [X core features]. Architecture: [frontend framework], [backend: Firebase/custom API], [database], [auth: OAuth/biometric]. Performance: <[X]s launch, <[Y]MB memory. Target: [Z users], [launch date]. Monetization: [freemium/subscription/ads]. ASO: keywords, screenshots, descriptions.
+
 ## Quick Start
 
 **To Start Your Mobile App Project:**

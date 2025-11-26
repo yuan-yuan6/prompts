@@ -32,6 +32,10 @@ slug: client-relations
 ## Purpose
 Comprehensive framework for managing client relationships, communications, and engagement strategies to maximize satisfaction, retention, and business growth.
 
+## Quick Client Relations Prompt
+
+Create a client relationship management plan for [client type/tier] with [revenue value/strategic importance]. Include onboarding process for [service/product], communication cadence for [touchpoint types], escalation procedures for [issue categories], satisfaction measurement via [feedback methods], and retention strategies targeting [renewal/expansion goals]. Address key relationship risks including [identified concerns].
+
 ## Quick Start
 
 **Need to improve client engagement quickly?** Use this minimal example:

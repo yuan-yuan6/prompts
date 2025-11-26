@@ -7,11 +7,9 @@ related_templates:
 - data-analytics/predictive-modeling-framework.md
 tags:
 - data-analytics
-- framework
-- ai-ml
 - optimization
-- research
-- testing
+- operations-research
+- algorithms
 title: Optimization Algorithms & Operations Research Framework
 use_cases:
 - Creating comprehensive framework for solving optimization problems including linear
@@ -32,6 +30,9 @@ slug: optimization-algorithms
 
 ## Purpose
 Comprehensive framework for solving optimization problems including linear programming, integer programming, constraint optimization, heuristic methods, and real-world application of operations research techniques.
+
+## Quick Optimization Prompt
+> Solve [optimization problem type] for [business objective] with [variable count] decision variables and [constraint count] constraints. Objective: [minimize/maximize what]. Method: [LP/MIP/heuristic]. Target: [optimality gap]% gap in [time limit]. Include: (1) Mathematical formulation, (2) Algorithm selection and configuration, (3) Solution validation approach, (4) Sensitivity analysis plan.
 
 ## Quick Start
 

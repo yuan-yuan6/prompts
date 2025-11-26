@@ -37,6 +37,10 @@ slug: crisis-communication
 ## Purpose
 Comprehensive framework for managing crisis communications, developing rapid response protocols, protecting organizational reputation, coordinating stakeholder messaging, and implementing effective crisis management strategies across all communication channels during challenging situations.
 
+## Quick Crisis Communication Prompt
+
+Manage crisis communication for [crisis situation] affecting [number] stakeholders at [organization]. Provide immediate holding statement for [primary audience], coordinate messaging across [communication channels], notify [regulatory/legal requirements], prepare spokesperson for [media inquiries], and develop recovery messaging to rebuild [trust/reputation]. Timeline: [urgency level] with updates every [frequency].
+
 ## Quick Start
 
 **Need to manage a crisis communication quickly?** Use this minimal example:

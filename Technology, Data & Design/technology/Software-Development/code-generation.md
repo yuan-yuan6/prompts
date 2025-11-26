@@ -31,6 +31,9 @@ slug: code-generation
 ## Purpose
 Generate high-quality code including functions, classes, algorithms, and complete applications with comprehensive documentation and best practices.
 
+## Quick Code Generation Prompt
+Generate [language] [code type: function/class/module/API] that [functionality]. Requirements: [inputs], [outputs], [edge cases]. Include: type hints/annotations, docstrings, error handling, [X] unit tests with [pytest/Jest/etc]. Follow: [coding standard], SOLID principles, clean code practices. Performance: [O(n) target], handle [scale requirements].
+
 ## Quick Start
 
 **Need to generate code quickly?** Use this minimal example:

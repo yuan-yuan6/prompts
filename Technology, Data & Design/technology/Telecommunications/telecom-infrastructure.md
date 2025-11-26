@@ -32,6 +32,9 @@ slug: telecom-infrastructure
 ## Purpose
 Comprehensive framework for telecommunications network planning, operations management, 5G deployment, network optimization, service quality assurance, and digital infrastructure transformation.
 
+## Quick Telecom Infrastructure Prompt
+Manage telecom network for [operator] with [X subscribers], [Y sq km] coverage, [Z sites]. Capacity: [X Gbps]. Targets: [99.X%] availability, <[Y min] incident detection, <[Z hr] resolution. Services: [mobile data/voice/enterprise]. Metrics: ARPU $[X], churn <[Y%], NPS [Z]. Focus: [RAN/core/transmission] optimization. NOC: [24/7 monitoring], [automated alerting], [capacity planning].
+
 ## Quick Start
 
 Launch your telecom network operations framework in 3 steps:

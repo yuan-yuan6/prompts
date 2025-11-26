@@ -33,6 +33,14 @@ slug: rag-systems
 ## Purpose
 Build production-ready RAG systems that combine vector search with LLMs to provide accurate, source-grounded answers from your private knowledge base while minimizing hallucinations.
 
+## 🚀 Quick Architecture Prompt
+
+> Design a **RAG system** for **[KNOWLEDGE DOMAIN]** that enables **[QUERY TYPE: Q&A/search/conversation]** over **[DOCUMENT TYPES]**. Guide me through: (1) **Ingestion pipeline**—what chunking strategy (size, overlap, semantic), embedding model, and vector database? How to handle tables, images, and structured data? (2) **Retrieval strategy**—should I use hybrid search (vector + keyword), reranking, or GraphRAG? How many chunks to retrieve and what similarity threshold? (3) **Generation design**—how to construct the context prompt, cite sources, and handle "no relevant info" cases? (4) **Quality assurance**—how to measure retrieval precision/recall, prevent hallucinations, and evaluate answer quality? Provide architecture diagram, chunking configuration, evaluation metrics, and a deployment checklist.
+
+**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for rapid RAG system design guidance.
+
+---
+
 ## Quick Start
 
 **Need to build a RAG system quickly?** Use this streamlined approach:

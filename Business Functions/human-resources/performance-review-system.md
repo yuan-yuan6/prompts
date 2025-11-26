@@ -33,6 +33,9 @@ slug: performance-review-system
 ## Purpose
 Comprehensive framework for designing and implementing performance review systems including goal setting, continuous feedback, competency assessment, career development planning, and compensation alignment for organizational excellence.
 
+## Quick Performance Review System Prompt
+Design review system for [company] with [X employees]. Cycle: [annual/quarterly/continuous]. Rating: [scale]. Components: goal management ([OKRs/SMART]), feedback ([1-on-1s/360]), competency matrix, development planning, compensation alignment. Calibration: [process]. Targets: performance [X%] improvement, engagement [Y], retention [Z%]. Include: manager training, employee guides, analytics.
+
 ## Quick Start
 
 Launch an effective performance management system in three strategic phases:

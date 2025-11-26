@@ -32,6 +32,9 @@ slug: growth-strategy
 ## Purpose
 Strategic framework for planning and executing business growth initiatives including organic growth, M&A, market expansion, diversification, and scaling operations.
 
+## Quick Growth Strategy Prompt
+Design growth strategy for [COMPANY_NAME] to grow from [CURRENT_REVENUE] to [TARGET_REVENUE] over [TIMELINE] years. Evaluate growth vectors: market penetration ([PENETRATION_OPPORTUNITY]), market development ([NEW_MARKETS]), product development ([NEW_PRODUCTS]), and M&A ([ACQUISITION_TARGETS]). Current metrics: [MARKET_SHARE]% market share, [CUSTOMER_COUNT] customers, [GROWTH_RATE]% growth rate. Investment required: [INVESTMENT_AMOUNT]. Target [REVENUE_CAGR]% revenue CAGR, [MARKET_SHARE_TARGET]% market share, and [PROFITABILITY_TARGET]% profitability.
+
 ## Quick Start
 
 ### Minimal Example

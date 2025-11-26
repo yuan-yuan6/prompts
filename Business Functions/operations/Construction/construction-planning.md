@@ -35,6 +35,9 @@ slug: construction-planning
 ## Purpose
 Comprehensive framework for construction project planning, execution, resource management, safety protocols, quality control, and infrastructure development from conception to completion.
 
+## Quick Construction Planning Prompt
+Develop construction plan for [PROJECT_NAME] with [PROJECT_VALUE] budget and [DURATION] timeline. Manage [SQUARE_FOOTAGE] sq ft [BUILDING_TYPE] project. Create WBS with [PHASE_COUNT] phases and critical path schedule. Allocate [CREW_SIZE] workers and [EQUIPMENT_LIST] equipment. Implement safety program targeting zero incidents. Track costs using earned value (CPI/SPI targets). Coordinate [SUBCONTRACTOR_COUNT] subcontractors. Target [ON_TIME_TARGET]% on-time, [BUDGET_VARIANCE]% budget variance, and [QUALITY_SCORE] quality rating.
+
 ## Quick Start
 
 **Get started in 3 steps:**

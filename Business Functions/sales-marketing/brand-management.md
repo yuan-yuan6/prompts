@@ -36,6 +36,9 @@ slug: brand-management
 ## Purpose
 Create comprehensive brand management strategies covering brand positioning, messaging framework, and identity management to build strong, consistent brand equity and market differentiation.
 
+## Quick Brand Management Prompt
+Develop brand management strategy for [BRAND_NAME] in [INDUSTRY] with current [BRAND_AWARENESS]% awareness. Define brand positioning against [COMPETITOR_COUNT] competitors. Create messaging framework with value proposition, key messages, and proof points. Establish visual identity guidelines and brand governance. Deploy across [CHANNEL_COUNT] channels. Target [AWARENESS_TARGET]% awareness, [PREFERENCE_TARGET]% brand preference, and [CONSISTENCY_SCORE]% brand consistency score.
+
 ## Quick Start
 
 **Need to strengthen your brand quickly?** Use this minimal example:

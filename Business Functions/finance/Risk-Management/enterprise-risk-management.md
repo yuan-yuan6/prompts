@@ -32,6 +32,9 @@ slug: enterprise-risk-management
 ## Purpose
 Comprehensive framework for implementing enterprise risk management including risk identification, assessment, mitigation strategies, regulatory compliance, and governance structures for financial institutions.
 
+## Quick ERM Prompt
+Implement ERM for [institution type] with $[X] assets. Risk appetite: [statement]. Categories: credit (NPL [X%], concentration [Y%]), market (VaR $[Z], EVE shock), operational (cyber, BCP), strategic, reputational. Governance: board oversight, risk committee, 3 lines of defense. Framework: [COSO/ISO 31000]. KRIs: [5-7 per category]. Reporting: [monthly dashboard], [quarterly board report]. Culture: training, incentives.
+
 ## Quick Start
 
 Implement enterprise risk management basics in 1-2 hours with these practical scenarios:

@@ -30,6 +30,9 @@ slug: candidate-assessment-selection
 ## Purpose
 Implement comprehensive assessment methods and structured selection processes to make objective, data-driven hiring decisions that predict job success.
 
+## Quick Candidate Assessment Prompt
+Design assessment for [job title] at [company]. Competencies: [4-6 technical and behavioral]. Methods: [structured interview/skills test/work sample/assessment center]. Evaluation: weighted scorecard with [rating scale]. Reference checks: [8-10 targeted questions]. Decision: [stakeholders], [timeline]. Output: assessment matrix comparing [X] finalists on all criteria.
+
 ## Quick Start
 1. **Define Assessment Criteria** - Identify 4-6 key competencies (technical and behavioral) that predict success in the role
 2. **Select Assessment Methods** - Choose 2-3 evaluation tools: structured interviews, skills tests, work samples, or assessments

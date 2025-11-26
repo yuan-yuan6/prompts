@@ -27,6 +27,9 @@ slug: validity-and-diagnostics
 ## Purpose
 Perform comprehensive validity assessment and diagnostic checks for experimental studies. This prompt helps you verify randomization success, assess covariate balance, analyze attrition and compliance patterns, detect contamination, check temporal effects, evaluate external validity, and verify statistical assumptions to ensure reliable and valid causal inference.
 
+## Quick Validity Check Prompt
+Assess validity of [experiment] with [X] participants. Check randomization balance across key covariates, analyze attrition (differential attrition between groups?), verify compliance rates, test for contamination, assess temporal effects, and verify statistical assumptions. Provide validity score and flag any threats to internal validity with remediation suggestions.
+
 ## Quick Start
 
 **Example: Comprehensive Validity Assessment for Educational Intervention Study**

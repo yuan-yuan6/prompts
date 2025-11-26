@@ -35,6 +35,9 @@ slug: trend-analysis
 ## Purpose
 Develop comprehensive frameworks for pattern identification, forecasting methodologies, and anomaly detection that enable accurate trend analysis, predictive insights, and proactive business decision-making.
 
+## Quick Forecasting Prompt
+Analyze [metric] trends using [time period] of historical data. Identify seasonal patterns, detect anomalies or outliers, and generate a [X-month] forecast with confidence intervals. Recommend the appropriate forecasting method (moving average, exponential smoothing, ARIMA), visualize results, and highlight key assumptions and limitations.
+
 ## Quick Start
 
 **Need to forecast trends quickly?** Use this minimal example:

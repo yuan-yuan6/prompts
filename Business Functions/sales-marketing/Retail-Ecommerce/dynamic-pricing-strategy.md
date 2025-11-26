@@ -30,6 +30,9 @@ slug: dynamic-pricing-strategy
 ## Purpose
 Comprehensive framework for developing and implementing dynamic pricing strategies including competitive analysis, price optimization algorithms, psychological pricing tactics, promotional planning, and revenue management for retail and e-commerce businesses.
 
+## Quick Dynamic Pricing Prompt
+Implement dynamic pricing for [COMPANY_TYPE] with [SKU_COUNT] SKUs and [REVENUE] annual revenue. Select [PILOT_SKUS] high-velocity SKUs for initial testing. Integrate competitive monitoring for [COMPETITOR_COUNT] competitors. Set rules: match within [PRICE_VARIANCE]% of market, maintain [MIN_MARGIN]% minimum margin. Implement [REPRICING_FREQUENCY] (hourly/daily) repricing. Add demand-based adjustments: peak +[PEAK_PREMIUM]%, slow-movers -[MARKDOWN]%/week. Target [REVENUE_LIFT]% revenue lift with <[MARGIN_EROSION]% margin erosion.
+
 ## Quick Start
 
 **For E-commerce Businesses implementing algorithmic pricing:**

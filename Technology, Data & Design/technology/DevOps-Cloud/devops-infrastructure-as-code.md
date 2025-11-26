@@ -33,6 +33,9 @@ slug: devops-infrastructure-as-code
 ## Overview
 This comprehensive template enables organizations to develop, deploy, and manage infrastructure using code-based approaches across multiple cloud providers and platforms. It covers everything from basic resource provisioning to advanced multi-cloud orchestration strategies.
 
+## Quick DevOps IaC Prompt
+Create IaC for [cloud: AWS/Azure/GCP] using [Terraform/CloudFormation/Pulumi]. Resources: [VPC/networking], [compute: EC2/ECS/Lambda], [database: RDS/DynamoDB], [storage: S3]. Requirements: [environments: dev/staging/prod], [regions]. Structure: modular design, remote state with locking, CI/CD integration (plan on PR, apply on merge). Include: tagging strategy, encryption, least-privilege IAM.
+
 ## Quick Start
 
 **Get started with Infrastructure as Code in 5 steps:**

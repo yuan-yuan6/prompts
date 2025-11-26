@@ -34,6 +34,9 @@ slug: logistics-optimization
 ## Purpose
 Comprehensive framework for optimizing logistics operations including route planning, fleet management, warehouse operations, last-mile delivery, multimodal transportation, and supply chain visibility.
 
+## Quick Logistics Optimization Prompt
+Optimize logistics for [COMPANY_NAME] with [SHIPMENT_VOLUME] monthly shipments across [TRANSPORTATION_MODES] modes (truck/rail/air/ocean). Manage [WAREHOUSE_COUNT] warehouses and [FLEET_SIZE] vehicles. Current costs: [LOGISTICS_COST]% of revenue. Design network optimization for [CUSTOMER_SEGMENTS] segments. Implement TMS for visibility and carrier management. Optimize last-mile with [LAST_MILE_STRATEGY]. Target [COST_REDUCTION]% cost reduction, [DELIVERY_TIME]% faster delivery, [ON_TIME_TARGET]% on-time delivery, and [VISIBILITY_TARGET]% shipment visibility.
+
 ## Quick Start
 
 **Transportation & Logistics Scenario**: You're a logistics director managing a complex distribution network with multiple facilities, diverse transportation modes, and varying delivery requirements across different customer segments.

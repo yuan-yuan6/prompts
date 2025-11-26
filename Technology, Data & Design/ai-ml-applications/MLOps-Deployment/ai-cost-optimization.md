@@ -32,6 +32,14 @@ slug: ai-cost-optimization
 ## Purpose
 Systematically reduce AI/ML costs while maintaining quality and performance. This framework covers infrastructure optimization, model efficiency, API cost management, and budget planning strategies specific to AI workloads.
 
+## 🚀 Quick Savings Prompt
+
+> Reduce costs for **[AI SYSTEM/APPLICATION]** currently spending **$[AMOUNT]/month** on **[COST DRIVERS: compute/LLM APIs/storage]**. Guide me through: (1) **Cost analysis**—what's the unit economics (cost per prediction/user/request)? Where is money being wasted? (2) **Quick wins**—what immediate optimizations (right-sizing, spot instances, caching) can cut costs this week? (3) **Model efficiency**—should I use quantization, model routing, or smaller models? What's the quality tradeoff? (4) **LLM optimization**—how to reduce tokens, implement caching, and route to cheaper models? Provide a savings roadmap with effort/impact matrix, projected monthly savings, and quality safeguards.
+
+**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for rapid cost reduction planning.
+
+---
+
 ## Quick Start
 
 ### Minimal Example

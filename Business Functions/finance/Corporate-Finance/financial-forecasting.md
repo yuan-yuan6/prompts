@@ -26,6 +26,9 @@ slug: financial-forecasting
 ## Purpose
 Develop data-driven financial forecasts including revenue projections, expense forecasts, cash flow predictions, and pro forma financial statements to support strategic planning and decision-making.
 
+## Quick Financial Forecasting Prompt
+Forecast [X years] for [company] in [industry]. Historical: revenue $[X] with [Y%] CAGR, gross margin [Z%], operating margin [W%]. Assumptions: revenue growth [X-Y%], margin expansion [+X bps], capex [Y% of revenue]. Scenarios: base/bull/bear with sensitivity on [key drivers]. Output: P&L, cash flow, key metrics. Purpose: [budget/fundraising/M&A/board presentation].
+
 ## Quick Start
 
 **Need to create a financial forecast quickly?** Use this minimal example:

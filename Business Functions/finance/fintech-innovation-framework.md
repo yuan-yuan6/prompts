@@ -30,6 +30,9 @@ slug: fintech-innovation-framework
 ## Purpose
 Comprehensive framework for developing and implementing financial technology solutions including digital payments, blockchain applications, AI-driven services, regulatory technology (RegTech), and customer experience innovation for modern financial services.
 
+## Quick FinTech Innovation Prompt
+Develop fintech solution [product name] for [target market] with [X users], processing $[Y] transactions. Platform: [tech stack]. Features: [payments/lending/wealth/insurance]. Security: [PCI DSS/SOC2/encryption]. Compliance: [state licenses/FCRA/ECOA]. Monetization: [fees/subscription/spread]. Target: [X%] adoption, [Y NPS], $[Z] annual revenue.
+
 ## Quick Start
 
 Get started quickly with these common fintech scenarios:

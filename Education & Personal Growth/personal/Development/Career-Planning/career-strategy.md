@@ -35,6 +35,10 @@ slug: career-strategy
 ## Purpose
 Comprehensive framework for individual career planning, skill development, professional networking, personal branding, and strategic career advancement across industries and career stages.
 
+## Quick Career Strategy Prompt
+
+Develop a career advancement plan for me. I'm currently a [current role] wanting to become [target role] in [industry] within [timeframe]. My key strengths are [strengths] and skill gaps include [gaps]. Create a 90-day action plan covering skill development priorities, networking targets, personal branding improvements (LinkedIn headline, resume bullets), and specific weekly actions to take. Include metrics to measure progress toward my career goal.
+
 ## Quick Start
 
 Kickstart your career development in three actionable steps:

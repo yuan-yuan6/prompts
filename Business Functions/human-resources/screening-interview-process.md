@@ -30,6 +30,9 @@ slug: screening-interview-process
 ## Purpose
 Design structured, consistent screening and interview processes that objectively evaluate candidates while providing an excellent candidate experience.
 
+## Quick Screening Interview Prompt
+Design interview process for [role]. Requirements: [experience], [key skills]. Stages: phone screen ([X min]) → hiring manager ([Y min]) → panel ([Z min]) → final ([executive]). Evaluate: [competencies]. Scorecards: [rating criteria]. Timeline: decision in [X days]. Include: question bank, interviewer training, candidate experience touchpoints.
+
 ## Quick Start
 
 **Need to set up interviews quickly?** Use this minimal example:

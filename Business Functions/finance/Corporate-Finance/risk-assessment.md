@@ -31,6 +31,9 @@ slug: risk-assessment
 ## Overview
 This comprehensive template assists risk management professionals, investment managers, and financial analysts in conducting thorough risk assessments across various domains including market risk, credit risk, operational risk, and regulatory compliance to ensure robust risk management frameworks.
 
+## Quick Risk Assessment Prompt
+Conduct risk assessment for [portfolio/institution] with $[X] AUM/assets. Categories: market (VaR, stress testing, [asset classes]), credit (counterparty ratings, concentration), operational (trading, settlement, cyber), regulatory ([Basel III/Dodd-Frank/MiFID II]). Output: risk identification, quantification (VaR, expected shortfall), heat map, mitigation strategies, KRI dashboard. Tolerance: [risk appetite levels].
+
 ## Quick Start
 
 **For Risk Managers & Investment Professionals**: Conduct comprehensive risk assessments across market, credit, operational, and regulatory domains.

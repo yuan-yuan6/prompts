@@ -33,6 +33,9 @@ slug: product-market-fit
 ## Purpose
 Systematically assess product-market fit, identify gaps preventing PMF achievement, design validation experiments, and create actionable plans to reach strong product-market fit.
 
+## Quick PMF Prompt
+Assess product-market fit for [product]. Measure: Sean Ellis survey (% "very disappointed"), retention curves (D1/D7/D30), NPS score, organic growth rate, engagement metrics. Benchmark against PMF thresholds (>40% Ellis, >20% M1 retention). Identify gaps preventing PMF. Recommend top 3 experiments to improve fit, with hypotheses and success criteria. Timeline to strong PMF: [target].
+
 ## Quick Start
 
 **Need to assess PMF quickly?** Use this streamlined approach:

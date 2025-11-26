@@ -33,6 +33,10 @@ slug: networking
 ## Purpose
 Build effective professional and personal networks through strategic introductions, meaningful follow-ups, and authentic relationship development to create mutually beneficial connections and opportunities.
 
+## Quick Networking Prompt
+
+Create a networking strategy for [context - conference/LinkedIn/industry event/professional association] to connect with [target connections - role/industry]. My professional background is [current role/expertise] and my goal is [networking objective - job opportunities/partnerships/mentorship/knowledge]. Provide conversation starters, my two-sentence introduction, thoughtful questions to ask, and a 24-hour follow-up message template that builds authentic relationships.
+
 ## Quick Start
 
 Nervous about networking? Start with these five approachable steps:

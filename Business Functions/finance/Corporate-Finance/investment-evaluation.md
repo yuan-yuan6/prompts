@@ -37,6 +37,9 @@ slug: investment-evaluation
 ## Purpose
 Create comprehensive investment evaluation strategies covering ROI analysis, NPV calculations, and risk assessment to support informed investment decisions and capital allocation optimization.
 
+## Quick Investment Evaluation Prompt
+Evaluate $[X] investment in [project type] for [company]. Projections: incremental revenue $[Y]/year for [Z years], operating margin [W%]. Analysis: NPV (WACC [X%]), IRR, payback period, ROI. Risks: market, operational, financial, execution. Sensitivity: [key variables ±10%]. Compare to [alternative investments]. Decision criteria: IRR >[X%], payback <[Y years]. Recommendation with go/no-go.
+
 ## Quick Start
 
 ### Minimal Example

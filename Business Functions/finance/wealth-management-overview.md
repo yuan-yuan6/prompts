@@ -28,6 +28,9 @@ slug: wealth-management-overview
 
 This comprehensive wealth management system has been divided into 3 focused parts for easier navigation and implementation. Use this guide to understand the structure and select the right section for your needs.
 
+## Quick Wealth Navigation Prompt
+Navigate wealth strategy for [net worth level: <$500K/mass affluent $500K-$2M/HNW $2M-$10M/UHNW $10M+]. Priority: [foundation/investment/tax/retirement/estate/insurance]. Approach: comprehensive (32 weeks) or targeted (4-12 weeks). Start: Part 1 for foundation → Part 2 for tax/retirement/estate → Part 3 for risk/implementation. Key integration: investment drives tax, retirement informs allocation, estate requires insurance.
+
 ## Quick Start
 
 Navigate the Wealth Management Strategy in 4 steps:

@@ -28,6 +28,9 @@ slug: sustainable-fashion-strategy
 ## Purpose
 Comprehensive framework for implementing sustainable fashion strategies including eco-friendly materials, ethical production, circular business models, supply chain transparency, consumer engagement, and environmental impact measurement for fashion industry transformation.
 
+## Quick Sustainable Fashion Prompt
+Develop sustainability strategy for [brand name] with [X] annual production volume. Goals: [Y]% carbon reduction, [Z]% sustainable materials by [year]. Plan: eco-material transition (organic/recycled/innovative fibers), ethical supplier audit framework, one circular initiative (rental/resale/repair), supply chain transparency roadmap, and impact measurement dashboard. Quick win: design take-back program for immediate customer engagement.
+
 ## Quick Start
 
 **For Fashion Brands Going Sustainable:**

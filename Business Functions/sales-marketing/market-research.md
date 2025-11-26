@@ -32,6 +32,9 @@ slug: market-research
 ## Purpose
 Create comprehensive market research strategies covering surveys, analysis, and insights generation to understand market dynamics, customer behavior, competitive landscape, and business opportunities.
 
+## Quick Market Research Prompt
+Conduct market research for [PRODUCT_SERVICE] targeting [TARGET_MARKET] with [RESEARCH_BUDGET] budget and [TIMELINE] timeline. Research scope: market size and growth trends, customer needs and pain points, competitive analysis of [COMPETITOR_COUNT] key competitors, pricing sensitivity, and channel preferences. Use methods: [RESEARCH_METHODS] (surveys/interviews/focus groups/secondary research). Deliver insights on [KEY_DECISIONS] strategic decisions with [CONFIDENCE_LEVEL]% confidence level.
+
 ## Quick Start
 
 **Need to conduct market research quickly?** Use this minimal example:

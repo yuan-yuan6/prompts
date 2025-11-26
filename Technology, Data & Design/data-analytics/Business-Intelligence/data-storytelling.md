@@ -34,6 +34,9 @@ slug: data-storytelling
 ## Purpose
 Create compelling data narratives that transform complex analytical insights into engaging presentations, drive stakeholder alignment, and inspire data-driven action through effective storytelling techniques and contextual insights.
 
+## Quick Storytelling Prompt
+Transform [analysis/finding] into a compelling data story for [audience]. Structure as: opening hook (headline finding), context (why it matters), evidence (2-3 key visualizations), insight (what the data reveals), and call-to-action (specific recommendations). Limit to 5-7 slides maximum and include speaker notes with anticipated questions.
+
 ## Quick Start
 
 **Need to present data insights quickly?** Use this minimal example:

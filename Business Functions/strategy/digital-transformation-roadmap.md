@@ -31,6 +31,9 @@ slug: digital-transformation-roadmap
 ## Purpose
 Comprehensive framework for orchestrating enterprise-wide digital transformation including technology modernization, business model innovation, cultural change, customer experience enhancement, operational excellence, and data-driven decision making for competitive advantage.
 
+## Quick Digital Transformation Roadmap Prompt
+Create digital transformation roadmap for [COMPANY_NAME] with [EMPLOYEE_COUNT] employees and [REVENUE] revenue. Current state: [CURRENT_TECH_STATE] (legacy systems/manual processes/limited analytics). Goals: [TRANSFORMATION_GOALS] (cloud migration/process automation/data analytics/customer portal). Timeline: [TIMELINE] months. Budget: [BUDGET]. Key challenges: [CHALLENGES] (change resistance/skills gap/integration complexity). Target outcomes: [EFFICIENCY_TARGET]% efficiency improvement, [COST_REDUCTION]% cost reduction, and [ROI_TARGET]% ROI.
+
 ## Quick Start
 
 **Need to create a digital transformation roadmap quickly?** Use this minimal example:

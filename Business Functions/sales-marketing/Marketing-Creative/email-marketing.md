@@ -33,6 +33,9 @@ slug: email-marketing
 ## Purpose
 Create comprehensive email marketing campaigns including newsletters, drip sequences, and promotional emails that drive engagement, conversions, and customer retention.
 
+## Quick Email Marketing Prompt
+Create [EMAIL_TYPE] (welcome series/nurture sequence/promotional/re-engagement) email campaign for [BRAND_NAME] targeting [SUBSCRIBER_SEGMENT] with [EMAIL_OBJECTIVE] goal. Design [EMAIL_COUNT] email sequence over [DURATION] days. Write subject lines with [SUBJECT_APPROACH] (benefit/curiosity/urgency) angles. Structure: headline, [BULLET_COUNT] benefit bullets, single CTA. Personalize by [PERSONALIZATION_CRITERIA]. Test [TEST_ELEMENTS]. Target [OPEN_RATE]% open rate, [CLICK_RATE]% CTR, and [CONVERSION_RATE]% conversion rate.
+
 ## Quick Start
 
 Ready to launch an email campaign that actually converts? Here's your roadmap:

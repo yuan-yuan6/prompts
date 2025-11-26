@@ -28,6 +28,9 @@ slug: network-analysis-overview
 ## Purpose
 Navigate the comprehensive network analysis framework to perform graph analytics, understand relationships, identify communities, analyze social structures, and extract insights from interconnected data using advanced graph theory and network science methods.
 
+## Quick Network Prompt
+Analyze [network type: social/organizational/transactional] network with [X nodes, Y edges]. Identify the most influential nodes (centrality), detect communities (clustering), analyze connectivity patterns, and visualize the network structure. Recommend the appropriate analysis modules and provide actionable insights about key players and network dynamics.
+
 ## Quick Start
 
 **Want to analyze network data quickly?** Here's how to get started:

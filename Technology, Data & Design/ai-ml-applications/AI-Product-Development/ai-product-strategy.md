@@ -34,6 +34,18 @@ slug: ai-product-strategy
 ## Purpose
 Develop comprehensive AI product strategy that aligns with business objectives, identifies the right AI opportunities, and creates a roadmap for building AI-powered products that deliver real value.
 
+---
+
+## 🚀 Quick Prompt
+
+**Copy and use this generic prompt to develop any AI product strategy:**
+
+> I'm developing an AI product strategy for **[PRODUCT NAME]** that uses **[AI CAPABILITIES]** to solve **[CUSTOMER PROBLEM]** for **[TARGET MARKET]**. Help me define: (1) **AI opportunity assessment**—why is this problem well-suited for AI, what's the market size, and what's our unique right to win? (2) **Product vision**—what does success look like in 3 years, what are our core AI product principles, and what's our north star metric? (3) **Build vs. buy**—which AI capabilities are core IP to build vs. commodities to buy (foundation models, infrastructure), and what's our technical architecture? (4) **Competitive strategy**—who are our AI competitors, what's our defensible moat (data, UX, domain expertise), and what are the key risks and mitigations? Provide a 3-year roadmap with quarterly milestones and success metrics.
+
+**Usage:** Fill in the brackets and use as a prompt to an AI assistant or as your strategic planning framework.
+
+---
+
 ## Quick Start
 
 **Need to define AI product strategy quickly?** Use this streamlined approach:
@@ -250,10 +262,39 @@ Example:
 - Decision: BUILD
 - Rationale: This is our core IP and competitive advantage
 
-General Framework:
-- Buy: Commodity AI (foundation models, infrastructure)
-- Build: Differentiation (unique data, domain adaptation, UX)
-- Hybrid: Customize open-source (evaluation, monitoring)
+General Framework (2025):
+- Buy: Foundation models, infrastructure, commodity tooling
+- Build: Unique data flywheel, domain-specific fine-tuning, UX differentiation
+- Hybrid: RAG pipelines (buy embeddings, build retrieval logic)
+- Open Source: Evaluation frameworks, monitoring, observability
+```
+
+### Agent & Agentic AI Strategy
+```
+Agent Readiness Assessment:
+
+Current AI Capability: [COPILOT/ASSISTANT/AGENT]
+  - Copilot: AI suggests, human acts
+  - Assistant: AI acts on explicit request
+  - Agent: AI acts autonomously with oversight
+
+Agent Opportunity Analysis:
+- Task complexity: [LOW/MEDIUM/HIGH]
+- Error tolerance: [LOW/MEDIUM/HIGH]
+- Human oversight need: [ALWAYS/SOMETIMES/RARELY]
+- Data access required: [READ-ONLY/READ-WRITE]
+
+Agentic Features Roadmap:
+- Phase 1: Single-step automation (AI completes one task)
+- Phase 2: Multi-step workflows (AI chains multiple actions)
+- Phase 3: Autonomous agents (AI decides next actions)
+- Phase 4: Multi-agent systems (specialized agents collaborate)
+
+Agent Safety Requirements:
+- Action reversibility: [REQUIRED_FOR_WHICH_ACTIONS]
+- Human approval gates: [WHEN_REQUIRED]
+- Scope limitations: [WHAT_AGENT_CANNOT_DO]
+- Audit trail: [WHAT_TO_LOG]
 ```
 
 Technical Architecture:
@@ -571,6 +612,28 @@ AI Governance:
 - Escalation process: [PROCESS]
 - Public AI principles: [LINK_TO_PRINCIPLES]
 
+### AI Regulatory Strategy (2025)
+```
+EU AI Act Compliance:
+- Risk classification: [MINIMAL/LIMITED/HIGH/UNACCEPTABLE]
+- Documentation requirements: [TECHNICAL_DOCS_NEEDED]
+- Transparency obligations: [DISCLOSURE_REQUIREMENTS]
+- Human oversight: [OVERSIGHT_REQUIREMENTS]
+- Timeline: [COMPLIANCE_DATES]
+
+Other Regulatory Considerations:
+- GDPR: [DATA_PROCESSING_REQUIREMENTS]
+- State laws (CA, CO, etc.): [US_STATE_REQUIREMENTS]
+- Industry-specific: [HEALTHCARE/FINANCE/OTHER]
+- Copyright/IP: [TRAINING_DATA_LICENSING]
+
+Compliance Roadmap:
+- Q1: Risk assessment and classification
+- Q2: Documentation and technical measures
+- Q3: Human oversight implementation
+- Q4: Audit and certification
+```
+
 ### 10. GO-TO-MARKET STRATEGY
 
 AI Product Launch:
@@ -702,10 +765,12 @@ The core problem your AI product solves.
 - AI ethics frameworks
 - AI unit economics calculator
 - AI competitive analysis frameworks
+- [Langfuse](https://langfuse.com/) - LLM analytics and prompt management
+- [Anthropic Console](https://console.anthropic.com/) - Claude API management
 
 ---
 
-**Last Updated:** 2025-11-12
+**Last Updated:** 2025-11-25
 **Category:** AI/ML Applications > AI Product Development
 **Difficulty:** Advanced
 **Estimated Time:** 3-4 weeks for comprehensive AI product strategy

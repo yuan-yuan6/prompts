@@ -32,6 +32,10 @@ slug: learning-projects
 ## Purpose
 Develop structured learning initiatives including language acquisition, skill development, and subject mastery to achieve educational goals through systematic study, practice, and knowledge application for lifelong learning.
 
+## Quick Learning Projects Prompt
+
+Design a learning project for me to master [subject/skill] over [timeframe]. My current level is [beginner/some experience] and my goal is [specific outcome - conversational fluency/job-ready skills/hobby proficiency]. I can dedicate [hours per week] to studying. Create a structured curriculum with recommended resources (free and paid), weekly milestones, practice exercises, and methods to measure progress. Include accountability strategies and ways to apply what I learn.
+
 ## Quick Start
 
 Get started with your learning project in three simple steps:

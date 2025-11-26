@@ -1,31 +1,36 @@
 ---
-title: 'Dashboard Design Patterns - Part 1: Strategy & Requirements'
-category: data-analytics
+title: 'Dashboard Design Patterns - Part 1: Strategy & Visual Design'
+category: design
 tags:
-- data-analytics
 - design
-- development
+- data-analytics
 - strategy
+- ux-ui
 - template
 use_cases:
 - Defining dashboard strategy, planning information architecture, establishing visual
   design systems, and designing responsive multi-device experiences
 - Dashboard strategy development
 - Information architecture planning
+- Visual design system creation
 related_prompts:
-- dashboard-design-patterns-02-ux-technical.md
-- dashboard-design-patterns-03-deployment.md
-last_updated: 2025-11-11
+- Technology, Data & Design/data-analytics/dashboard-design-data-visualization.md
+- Business Functions/operations/dashboard-design-deployment.md
+last_updated: 2025-11-25
 related_templates: []
 type: template
 difficulty: intermediate
-slug: dashboard-design-patterns-01-strategy
+slug: dashboard-design-strategy
 ---
 
-# Dashboard Design Patterns - Part 1: Strategy & Requirements
+# Dashboard Design Patterns - Part 1: Strategy & Visual Design
 
 ## Purpose
 Define comprehensive dashboard strategy, plan information architecture, establish visual design systems, and create responsive design frameworks for effective business intelligence interfaces.
+
+## Quick Dashboard Strategy Prompt
+
+Design a dashboard strategy for [organization type] in [industry] with [number] user personas including [user roles]. Define information architecture with [number] hierarchy levels, establish a visual design system using [brand colors/style], and create responsive layouts for [devices - desktop/tablet/mobile]. Include navigation patterns, content prioritization framework, and accessibility compliance requirements.
 
 ## Quick Start
 
@@ -48,8 +53,10 @@ Get started with your dashboard strategy in three simple steps:
 
 ## What's in Other Parts
 
-→ **Part 2 (UX Design & Technical):** Data visualization, KPI design, real-time data, user experience, technical implementation
-→ **Part 3 (Testing & Deployment):** Implementation strategy, training, adoption, success measurement, advanced features
+→ **Part 2 (Data Visualization & Technical):** Data visualization, KPI design, real-time data, user experience, technical implementation
+  - Location: `Technology, Data & Design/data-analytics/dashboard-design-data-visualization.md`
+→ **Part 3 (Deployment & Operations):** Implementation strategy, training, adoption, success measurement, advanced features
+  - Location: `Business Functions/operations/dashboard-design-deployment.md`
 
 ---
 
@@ -263,7 +270,7 @@ After completing strategy and requirements:
 3. Implement real-time data integration
 4. Develop user experience and interaction patterns
 
-See dashboard-design-patterns-02-ux-technical.md for continuation.
+See Part 2: Technology, Data & Design/data-analytics/dashboard-design-data-visualization.md
 ```
 
 ## Variables
@@ -339,8 +346,14 @@ Create dashboard strategy for:
 - **Hybrid:** Balanced security and accessibility
 - **Embedded:** Integrated into existing applications
 
-## Cross-References
+---
 
-- **Continue to Part 2:** dashboard-design-patterns-02-ux-technical.md
-- **Jump to Part 3:** dashboard-design-patterns-03-deployment.md
-- **See Overview:** dashboard-design-patterns-overview.md
+## Related Parts in This Series
+
+| Part | Focus | Location |
+|------|-------|----------|
+| **Part 1 (This File)** | Strategy & Visual Design | `Technology, Data & Design/design/dashboard-design-strategy.md` |
+| **Part 2** | Data Visualization & Technical | `Technology, Data & Design/data-analytics/dashboard-design-data-visualization.md` |
+| **Part 3** | Deployment & Operations | `Business Functions/operations/dashboard-design-deployment.md` |
+
+**Next:** Continue to Part 2 for data visualization design and technical implementation →

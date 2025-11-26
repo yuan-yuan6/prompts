@@ -36,6 +36,9 @@ slug: corporate-contract-management
 ## Purpose
 Comprehensive framework for enterprise contract lifecycle management, legal risk assessment, compliance monitoring, vendor agreements, and legal operations optimization across all business units.
 
+## Quick Corporate Contract Management Prompt
+Build contract governance for [company] with [X contracts], $[Y value], [Z vendors]. Audit: 30-day inventory of types, values, risks. Templates: [5-7 standard agreements: MSA/NDA/SaaS]. CLM system: [workflows, e-signature, obligation tracking]. KPIs: cycle time, compliance rate, cost per contract. Vendor consolidation target: reduce to [X strategic partners]. Quarterly reporting to [executive leadership].
+
 ## Quick Start
 
 Establish enterprise-wide contract governance in 5 steps:

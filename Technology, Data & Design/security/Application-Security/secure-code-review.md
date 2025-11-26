@@ -31,6 +31,9 @@ slug: secure-code-review
 ## Purpose
 Comprehensive framework for conducting security-focused code reviews, identifying vulnerabilities, implementing secure coding practices, and integrating security checks into development workflows to prevent security issues before deployment.
 
+## Quick Secure Code Review Prompt
+Review [language/framework] code for security vulnerabilities. Focus areas: authentication/session management, input validation, SQL/command injection, XSS, CSRF, cryptography usage, secrets handling, and access control. Check against OWASP Top 10 and CWE Top 25. Provide: findings with severity (Critical/High/Medium/Low), vulnerable code snippets, remediation code examples, and CI/CD security gate recommendations.
+
 ## Quick Start
 
 **Need to review code for security vulnerabilities quickly?** Use this minimal example:

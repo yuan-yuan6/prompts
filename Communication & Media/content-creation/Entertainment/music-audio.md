@@ -27,6 +27,10 @@ slug: music-audio
 ## Purpose
 Create comprehensive music and audio content including lyrics, compositions, and sound design for various media formats and musical applications across genres and styles.
 
+## Quick Music Audio Prompt
+
+Create [audio type: song/score/sound design] for [project name] in [primary genre] with [secondary genre] influences. Compose in [key] at [tempo] BPM, structure as [song form: verse-chorus/through-composed], write lyrics about [theme] with [emotional tone], arrange for [instruments/production style], target [audience] for [platform/use case], and deliver within [timeline]. Include [hook element] and [production notes].
+
 ## Quick Start
 
 **Create Your First Song in 30 Minutes**

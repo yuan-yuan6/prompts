@@ -37,6 +37,9 @@ slug: quality-assurance
 ## Purpose
 Create comprehensive quality assurance programs covering quality standards, testing protocols, and continuous improvement processes to ensure consistent product and service excellence.
 
+## Quick Quality Assurance Prompt
+Establish QA framework for [PRODUCT_SERVICE_TYPE] in [INDUSTRY] with current [DEFECT_RATE]% defect rate and [COMPLIANCE_REQUIREMENTS] compliance needs. Define quality standards per [STANDARD_FRAMEWORK] (ISO 9001/industry-specific). Implement inspection protocols at [CONTROL_POINTS] control points. Deploy testing methods: [TESTING_TYPES] (inspection/sampling/automated). Track KPIs: FPY, DPMO, cost of quality. Target [DEFECT_TARGET]% defect reduction, [CUSTOMER_SATISFACTION]% customer satisfaction, and [COMPLIANCE_RATE]% compliance rate.
+
 ## Quick Start
 
 To establish effective quality assurance quickly:

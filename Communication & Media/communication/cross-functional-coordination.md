@@ -35,6 +35,10 @@ slug: cross-functional-coordination
 ## Purpose
 Comprehensive framework for managing alignment, dependencies, and collaboration across different teams, departments, and functional areas to ensure seamless execution and delivery.
 
+## Quick Cross-Functional Coordination Prompt
+
+Develop a cross-functional coordination plan for [project/initiative] involving [number] teams across [departments]. Map dependencies between [team names], establish liaison roles for [coordination points], create shared roadmap showing [milestone types], schedule sync cadence of [frequency], and design escalation process for [blocker types]. Include RACI matrix for [key deliverables] and communication protocols for [handoff types].
+
 ## Quick Start
 
 Improve cross-functional coordination immediately:

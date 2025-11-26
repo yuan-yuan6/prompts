@@ -29,6 +29,9 @@ slug: query-optimization-resource-concurrency
 ## Purpose
 Optimize database resource utilization including memory/buffer pool management, storage I/O configuration, and concurrency control through lock analysis, deadlock prevention, and transaction isolation optimization to maximize performance and minimize contention.
 
+## Quick Concurrency Prompt
+Analyze [DATABASE_PLATFORM] resource utilization and concurrency. Check buffer hit ratio (target >[HIT_RATIO]%), I/O latency (target <[LATENCY_MS]ms read), and memory waits. Identify blocking chains, deadlock patterns, and isolation level issues. Recommend: [RCSI/SNAPSHOT] isolation, file growth [FIXED_SIZE]MB, and concurrency optimization at [CONSERVATIVE/AGGRESSIVE] level.
+
 ## Quick Start
 
 ### For Resource Optimization

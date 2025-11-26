@@ -33,6 +33,9 @@ slug: product-launch-execution
 ## Purpose
 Execute flawless product launches through detailed planning, cross-functional coordination, risk mitigation, and real-time monitoring to ensure successful releases that meet quality standards, business objectives, and customer expectations.
 
+## Quick Launch Prompt
+Execute launch for [product/feature] on [date]. Create: pre-launch checklist (QA, docs, support training, marketing assets), launch day runbook with owner + timeline, monitoring dashboard (crashes, errors, support tickets, key metrics), rollback criteria and plan, post-launch review template. Coordinate across [engineering/marketing/support/sales]. Success criteria: [specific metrics].
+
 ## Quick Start
 
 **Need to execute a launch quickly?** Use this streamlined approach:

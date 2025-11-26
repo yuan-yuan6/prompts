@@ -37,6 +37,10 @@ slug: knowledge-sharing
 ## Purpose
 Comprehensive framework for facilitating organizational learning, distributing best practices, capturing lessons learned, sharing expertise effectively, and building institutional knowledge that drives continuous improvement and innovation.
 
+## Quick Knowledge Sharing Prompt
+
+Create a knowledge sharing program for [organization/team] of [size] people. Identify subject matter experts in [domain areas], establish sharing formats including [session types], implement after-action review process for [project types], create expert directory on [platform], and design recognition program for [knowledge contribution]. Target [participation rate] with monthly [cadence] and capture lessons learned in [repository system].
+
 ## Quick Start
 
 Create a knowledge sharing culture in 3 practical steps:

@@ -30,6 +30,10 @@ slug: home-management
 ## Purpose
 Develop comprehensive home management strategies including organization systems, maintenance schedules, and household projects to create efficient, comfortable, and well-maintained living spaces that support family life and personal wellbeing.
 
+## Quick Home Management Prompt
+
+Create a home management system for my [home type - apartment/house] with [household size - single/couple/family]. My biggest challenges are [clutter/cleaning/maintenance/organization]. Design a weekly cleaning schedule, seasonal maintenance calendar, room-by-room organization strategy for [problem areas], and daily habits to maintain order. Include a decluttering action plan and systems that work for [lifestyle - busy professional/family with kids/work from home].
+
 ## Quick Start
 
 Feeling overwhelmed by home management? Start with these high-impact habits:

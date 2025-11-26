@@ -30,6 +30,9 @@ slug: recruitment-overview
 ## Purpose
 Navigate the recruitment prompt library and understand how each focused prompt supports different stages of the hiring process.
 
+## Quick Recruitment Navigation Prompt
+Navigate recruitment process for [role type] at [company]. Stage: [define/source/screen/assess/optimize]. Use: job-analysis for descriptions → candidate-sourcing for pipelines → screening-interview for process → candidate-assessment for selection → recruitment-metrics for optimization. Priority: [urgent hire/pipeline building/process improvement]. Output: [deliverable needed].
+
 ## Recruitment Process Overview
 
 The recruitment process consists of five interconnected stages, each with its own specialized prompt:

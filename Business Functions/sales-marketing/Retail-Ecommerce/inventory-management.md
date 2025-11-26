@@ -31,6 +31,9 @@ slug: inventory-management
 ## Purpose
 Comprehensive framework for managing retail inventory across channels, optimizing stock levels, forecasting demand, managing suppliers, and maximizing inventory turnover while minimizing stockouts.
 
+## Quick Retail Inventory Prompt
+Optimize inventory for [COMPANY_TYPE] with [SKU_COUNT] SKUs across [WAREHOUSE_COUNT] locations managing [INVENTORY_VALUE] in inventory. Current metrics: [STOCKOUT_RATE]% stockout rate, [INVENTORY_TURNS]x turnover, [EXCESS_STOCK] excess stock. Implement ABC classification focusing on top [TOP_SKU_PERCENT]% revenue-driving SKUs. Set reorder points and safety stock by category. Deploy demand forecasting with [FORECAST_ACCURACY]% accuracy target. Target [STOCKOUT_TARGET]% stockouts, [TURNS_TARGET]x turnover, and [CARRYING_COST_REDUCTION]% carrying cost reduction.
+
 ## Quick Start
 
 **Need to optimize inventory management quickly?** Use this minimal example:

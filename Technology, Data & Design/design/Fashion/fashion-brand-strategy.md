@@ -30,6 +30,9 @@ slug: fashion-brand-strategy
 ## Purpose
 Comprehensive framework for fashion brand development, collection planning, trend forecasting, sustainable fashion practices, omnichannel retail strategy, and luxury/mass market positioning.
 
+## Quick Fashion Brand Prompt
+Develop fashion strategy for [brand name] in [market segment: luxury/contemporary/mass]. Plan [X] annual collections with [Y] SKUs per season. Price range: [entry-point to hero piece]. Define: brand DNA, target customer avatar, design aesthetic, and 3-year positioning roadmap. Include: collection calendar, category mix (RTW/accessories/footwear %), channel strategy, and initial capsule collection concept (15-20 pieces).
+
 ## Quick Start
 
 **For Fashion Brands & Designers:**

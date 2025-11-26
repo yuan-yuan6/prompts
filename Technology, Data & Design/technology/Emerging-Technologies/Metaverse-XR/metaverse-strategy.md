@@ -34,6 +34,9 @@ slug: metaverse-strategy
 ## Purpose
 Comprehensive framework for developing metaverse and XR strategies including virtual world development, immersive experiences, digital twin integration, virtual economy design, and enterprise XR implementation.
 
+## Quick Metaverse/XR Prompt
+Design [VR/AR/MR] experience for [use case: training/collaboration/commerce/entertainment]. Platform: [Unity/Unreal] with [Quest/HoloLens/Vision Pro]. Capacity: [X concurrent users]. Performance: 90fps minimum, <[Y]ms latency. Features: avatar system, social interactions, [spatial audio/haptics]. Economy: [subscription/NFT/virtual goods]. Infrastructure: [AWS Gamelift/Azure PlayFab] for state management. Analytics: user engagement, session duration, conversion.
+
 ## Quick Start
 
 **Set Your Foundation:**

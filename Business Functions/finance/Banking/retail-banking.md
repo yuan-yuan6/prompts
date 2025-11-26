@@ -32,6 +32,9 @@ slug: retail-banking
 ## Purpose
 Comprehensive framework for managing retail banking operations including account management, lending products, digital banking services, branch operations, and customer experience optimization.
 
+## Quick Retail Banking Prompt
+Process [loan type: personal/auto/mortgage] for applicant with $[X] income, [Y] credit score, [Z%] DTI ratio. Assessment: credit tier, income verification, employment stability. Pricing: base APR [X%], credit adjustment [±Y%], relationship discount [±Z%]. Products: [checking/savings/CD/LOC]. Cross-sell: [credit card/insurance/investment]. Customer segment: [mass market/affluent/small business].
+
 ## Quick Start
 
 Launch retail banking improvements in 1-2 hours with these practical examples:

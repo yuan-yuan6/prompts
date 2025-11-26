@@ -32,6 +32,9 @@ slug: incident-response
 ## Purpose
 Comprehensive incident response planning including detection, analysis, containment, eradication, recovery, and lessons learned for effective cybersecurity incident management.
 
+## Quick IR Planning Prompt
+Develop incident response capability for [organization]. Define: incident classification matrix (severity P1-P4), response team roles (commander, security, IT ops, legal, comms), escalation paths, and communication templates. Create playbooks for: [ransomware, phishing, data breach, DDoS]. Deploy: SIEM detection rules, forensic toolkit, evidence handling procedures. Schedule quarterly tabletop exercises.
+
 ## Quick Start
 
 **Set Your Foundation:**

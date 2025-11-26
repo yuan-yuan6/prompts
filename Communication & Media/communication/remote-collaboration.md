@@ -34,6 +34,10 @@ slug: remote-collaboration
 ## Purpose
 Comprehensive framework for managing remote teams and virtual collaboration including communication protocols, digital tools optimization, asynchronous workflows, team engagement, and productivity management across distributed teams.
 
+## Quick Remote Collaboration Prompt
+
+Design a remote collaboration framework for [team size] members across [time zones]. Establish communication norms for [tool stack], create async workflows for [routine processes], schedule sync meetings at [cadence/overlap times], implement engagement activities for [team connection], and define response expectations for [channel types]. Track productivity via [metrics] and address challenges of [remote work issues]. Include onboarding process for [new remote hires].
+
 ## Quick Start
 
 Enable effective remote collaboration immediately:

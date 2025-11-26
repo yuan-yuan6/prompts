@@ -27,6 +27,9 @@ slug: code-review
 ## Purpose
 Conduct comprehensive code reviews focusing on optimization, security, best practices, maintainability, performance, and adherence to coding standards with constructive feedback and actionable recommendations.
 
+## Quick Code Review Prompt
+Review [module/feature] in [language/framework]. Focus: security ([OWASP Top 10/input validation/auth]), code quality ([readability/maintainability]), performance ([complexity/queries]), tests ([coverage >X%]). Check: [specific concerns]. Deliverable: issues by severity (critical/major/minor), suggested fixes, positive highlights. Time: [30-60 min] for [X lines].
+
 ## Quick Start
 
 **Need to review code quickly?** Use this minimal example:

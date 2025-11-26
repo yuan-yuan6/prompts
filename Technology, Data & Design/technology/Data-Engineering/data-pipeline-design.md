@@ -33,6 +33,9 @@ slug: data-pipeline-design
 ## Purpose
 Create comprehensive data pipeline design documents that define the architecture, flow, and implementation of data processing systems.
 
+## Quick Pipeline Design Prompt
+Design [batch/streaming/hybrid] pipeline for [use case]. Sources: [databases/APIs/files]. Volume: [X GB/day], latency: [minutes/seconds/real-time]. Architecture: ingest → transform → load. Tools: orchestrator ([Airflow/Dagster/Prefect]), processing ([Spark/dbt/Flink]), storage ([data lake/warehouse]). Include: schema evolution, idempotency, backfill support, data quality checks, monitoring (freshness, row counts, anomalies).
+
 ## Quick Start
 
 **Basic Usage:**

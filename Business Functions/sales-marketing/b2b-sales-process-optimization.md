@@ -35,6 +35,9 @@ slug: b2b-sales-process-optimization
 ## Purpose
 Comprehensive B2B sales optimization framework covering sales process design, lead management, opportunity progression, performance analytics, technology stack optimization, and revenue operations across the entire customer acquisition lifecycle.
 
+## Quick B2B Sales Optimization Prompt
+Optimize B2B sales process for [COMPANY_TYPE] with [SALES_TEAM_SIZE] sales reps and [DEAL_SIZE] average deal size. Current metrics: [WIN_RATE]% win rate, [SALES_CYCLE] day sales cycle, [PIPELINE_COVERAGE]x pipeline coverage. Design sales stages with conversion benchmarks, implement lead scoring and qualification criteria, configure [CRM_PLATFORM] workflows. Target [WIN_RATE_TARGET]% win rate, [CYCLE_REDUCTION]% cycle reduction, and [REVENUE_TARGET] quota attainment.
+
 ## Quick Start
 
 **For Sales Leaders & Revenue Operations**: Optimize B2B sales processes to increase win rates, shorten sales cycles, and improve revenue predictability.

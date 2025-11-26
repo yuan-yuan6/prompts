@@ -37,6 +37,9 @@ slug: contract-negotiation
 ## Purpose
 Comprehensive framework for negotiating contracts including preparation strategies, negotiation tactics, concession planning, deal structuring, and closing techniques for optimal contract terms.
 
+## Quick Contract Negotiation Prompt
+Negotiate [contract type] with [counterparty] for $[deal size]. Timeline: [X weeks]. BATNA: [alternative]. Must-haves: [priority terms]. Tradeable: [concession items]. Risk areas: [liability/IP/termination]. Prepare position papers on [contentious clauses] with alternative language. Authority limits: [approval thresholds]. Strategy: [collaborative/competitive]. Success metrics: [target terms achieved].
+
 ## Quick Start
 
 Prepare for successful contract negotiations in 4 steps:

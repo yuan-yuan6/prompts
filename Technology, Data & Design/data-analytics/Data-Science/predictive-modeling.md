@@ -32,6 +32,9 @@ slug: predictive-modeling
 ## Purpose
 Design, develop, and deploy comprehensive predictive modeling solutions using machine learning algorithms for classification, regression, clustering, and advanced analytics across diverse business applications.
 
+## Quick Modeling Prompt
+Build a [classification/regression] model to predict [target variable] using [dataset description]. Split data (train/validation/test), handle missing values and encode features, train baseline model (logistic regression/random forest), tune hyperparameters, evaluate on held-out test set, and package for deployment. Target: achieve [X] AUC/RMSE with <[Y]ms inference latency.
+
 ## Quick Start
 
 **Need to build a predictive model quickly?** Use this minimal example:

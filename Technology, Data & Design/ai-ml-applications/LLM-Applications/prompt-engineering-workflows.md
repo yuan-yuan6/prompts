@@ -33,6 +33,14 @@ slug: prompt-engineering-workflows
 ## Purpose
 Systematically develop, test, and optimize prompts to achieve reliable, high-quality outputs from LLMs through structured engineering processes and evaluation frameworks.
 
+## 🚀 Quick Engineering Prompt
+
+> Design an **optimized prompt** for **[TASK]** that achieves **[QUALITY GOAL]** with **[CONSISTENCY REQUIREMENT]**. Guide me through: (1) **Prompt structure**—what system prompt pattern, role definition, and output format constraints? Should I use XML tags, chain-of-thought, or few-shot examples? (2) **Edge case handling**—how to handle ambiguous inputs, prevent refusals, and ensure graceful degradation? (3) **Optimization workflow**—how to A/B test prompts, measure quality (human eval vs. LLM-as-judge), and version control prompts? (4) **Production patterns**—how to templatize, handle prompt injection, and maintain consistency across updates? Provide prompt templates, evaluation rubrics, testing methodology, and an optimization checklist.
+
+**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for rapid prompt engineering guidance.
+
+---
+
 ## Quick Start
 
 **Need to engineer a prompt quickly?** Use this streamlined approach:

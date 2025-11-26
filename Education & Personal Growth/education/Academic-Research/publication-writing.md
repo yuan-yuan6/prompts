@@ -32,6 +32,10 @@ slug: publication-writing
 ## Purpose
 Create comprehensive academic papers, abstracts, conference presentations, and peer review responses for scholarly publication and dissemination.
 
+## Quick Publication Writing Prompt
+
+Write [publication type: journal article/conference paper/book chapter] titled [title] for [target journal/venue] in [field]. Structure as IMRAD with [word limit], using [citation style: APA/MLA/Chicago]. Summarize study with [N] participants, [methodology], findings of [key results with statistics], and contribution of [theoretical/practical significance]. Include [number] keywords, structured abstract of [word count], and [number] tables/figures. Address reviewers on [revision points] if responding to peer review.
+
 ## Quick Start
 
 ### For Academic Writers & Researchers

@@ -31,6 +31,9 @@ slug: intellectual-property-management
 ## Purpose
 Comprehensive intellectual property management framework covering IP strategy, patent portfolio management, trademark protection, trade secret safeguarding, licensing operations, and IP risk mitigation across all business activities and innovation initiatives.
 
+## Quick IP Management Prompt
+Manage IP portfolio for [company] with [X patents], [Y trademarks], $[Z annual budget] across [W jurisdictions]. Strategy: [offensive/defensive], filing priorities by [technology area]. Protection: trade secret protocols, trademark monitoring, patent maintenance. Licensing: target [X%] revenue from IP. Enforcement: infringement monitoring, litigation readiness. Valuation: annual portfolio assessment.
+
 ## Quick Start
 
 Build a strategic IP management program in three focused steps:

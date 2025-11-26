@@ -1,33 +1,38 @@
 ---
-title: 'Dashboard Design Patterns - Part 3: Testing, Deployment & Advanced Features'
-category: data-analytics
+title: 'Dashboard Design Patterns - Part 3: Deployment & Operations'
+category: operations
 tags:
-- data-analytics
+- operations
 - deployment
-- machine-learning
+- change-management
+- training
 - optimization
 - strategy
-- template
 use_cases:
 - Implementing dashboard deployment strategies, managing organizational change and
   adoption, measuring success and optimization, planning advanced features and future
   evolution
 - Dashboard deployment
 - Change management and adoption
+- Training program development
 related_prompts:
-- dashboard-design-patterns-01-strategy.md
-- dashboard-design-patterns-02-ux-technical.md
-last_updated: 2025-11-11
+- Technology, Data & Design/design/dashboard-design-strategy.md
+- Technology, Data & Design/data-analytics/dashboard-design-data-visualization.md
+last_updated: 2025-11-25
 related_templates: []
 type: template
 difficulty: intermediate
-slug: dashboard-design-patterns-03-deployment
+slug: dashboard-design-deployment
 ---
 
-# Dashboard Design Patterns - Part 3: Testing, Deployment & Advanced Features
+# Dashboard Design Patterns - Part 3: Deployment & Operations
 
 ## Purpose
 Deploy dashboards effectively, drive user adoption through training and change management, measure success and optimize performance, and plan for advanced features and future evolution.
+
+## Quick Dashboard Deployment Prompt
+
+Create a deployment plan for [dashboard name] rolling out to [number] users across [departments/locations]. Design a [phased/pilot/big-bang] rollout strategy over [timeline]. Develop training programs for [user roles], establish success metrics including [adoption rate/business impact/user satisfaction], and create a change management communication plan. Include support systems and continuous improvement processes.
 
 ## Quick Start
 
@@ -51,8 +56,10 @@ Get started with deployment and optimization in three simple steps:
 
 ## What's in Other Parts
 
-← **Part 1 (Strategy & Requirements):** Dashboard strategy, information architecture, visual design system
-← **Part 2 (UX Design & Technical):** Data visualization, KPI design, technical implementation
+← **Part 1 (Strategy & Visual Design):** Dashboard strategy, information architecture, visual design system
+  - Location: `Technology, Data & Design/design/dashboard-design-strategy.md`
+← **Part 2 (Data Visualization & Technical):** Data visualization, KPI design, technical implementation
+  - Location: `Technology, Data & Design/data-analytics/dashboard-design-data-visualization.md`
 
 ---
 
@@ -441,11 +448,17 @@ Create deployment strategy for:
 - **User Satisfaction:** Surveys, NPS scores, feedback
 - **Technical Performance:** Load times, uptime, errors
 
-## Cross-References
+---
 
-- **Back to Part 1:** dashboard-design-patterns-01-strategy.md
-- **Back to Part 2:** dashboard-design-patterns-02-ux-technical.md
-- **See Overview:** dashboard-design-patterns-overview.md
+## Related Parts in This Series
+
+| Part | Focus | Location |
+|------|-------|----------|
+| **Part 1** | Strategy & Visual Design | `Technology, Data & Design/design/dashboard-design-strategy.md` |
+| **Part 2** | Data Visualization & Technical | `Technology, Data & Design/data-analytics/dashboard-design-data-visualization.md` |
+| **Part 3 (This File)** | Deployment & Operations | `Business Functions/operations/dashboard-design-deployment.md` |
+
+← **Previous:** Part 2 for data visualization and technical implementation
 
 ---
 

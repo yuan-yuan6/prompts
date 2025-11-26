@@ -34,6 +34,9 @@ slug: pricing-strategy
 ## Purpose
 Develop comprehensive pricing and packaging strategies that align with customer value perception, competitive positioning, and business objectives to maximize revenue and market penetration.
 
+## Quick Pricing Prompt
+Design pricing for [product] with [business model: SaaS/usage/freemium]. Define value metric (what customers pay for). Create 3 tiers: entry (conversion), core (majority), premium (expansion). Set price points based on: value delivered, competitor benchmarks [list competitors + prices], willingness-to-pay research. Include: feature packaging per tier, free trial/freemium strategy, and target conversion rates.
+
 ## Quick Start
 
 **Need pricing strategy quickly?** Use this streamlined approach:

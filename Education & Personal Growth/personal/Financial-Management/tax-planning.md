@@ -33,6 +33,10 @@ slug: tax-planning
 ## Purpose
 Develop comprehensive tax strategies including deduction optimization, compliance strategies, and long-term tax efficiency planning to minimize tax liability while maintaining legal compliance and financial goals.
 
+## Quick Tax Planning Prompt
+
+Help me optimize my tax strategy. My annual income is [amount] from [employment type - W-2/self-employed/mixed] putting me in the [tax bracket] bracket. I currently take the [standard/itemized] deduction with major deductions including [mortgage interest/charitable giving/state taxes]. Identify tax-saving opportunities, recommend retirement contribution strategies, suggest year-end tax moves, and provide a calendar of key deadlines and quarterly actions.
+
 ## Quick Start
 
 Start optimizing your taxes in three practical steps:

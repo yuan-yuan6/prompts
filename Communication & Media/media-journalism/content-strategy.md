@@ -34,6 +34,10 @@ slug: content-strategy
 ## Purpose
 Create comprehensive content strategy frameworks, editorial planning systems, audience engagement strategies, and multi-platform publishing approaches that drive audience growth, enhance brand authority, optimize content performance, and support sustainable journalism business models in the digital media landscape.
 
+## Quick Content Strategy Prompt
+
+Create content strategy for [media organization] targeting [audience segments]. Define content objectives of [goals: growth/revenue/authority], establish [number] content pillars covering [topic areas], design multi-platform distribution across [channels], create editorial calendar with [frequency/volume], measure success via [KPIs], and plan monetization through [subscription/advertising/sponsored]. Align with brand voice of [tone/style] and competitive positioning against [competitors].
+
 ## Quick Start
 
 **Need to develop a content strategy quickly?** Use this minimal example:

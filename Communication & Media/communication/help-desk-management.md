@@ -34,6 +34,10 @@ slug: help-desk-management
 ## Overview
 This comprehensive template enables organizations to design, implement, and optimize sophisticated help desk and IT service management operations. It covers everything from service desk strategy and process design to advanced automation, customer experience optimization, and continuous improvement frameworks.
 
+## Quick Help Desk Management Prompt
+
+Design a help desk operation for [organization type] serving [user count] users. Define service catalog covering [top service categories], establish SLA tiers for [priority levels], implement ticketing workflow in [platform], create escalation procedures for [issue types], and develop knowledge base for [common issues]. Target first-call resolution of [percentage] and average response time of [duration]. Include self-service options for [high-volume requests].
+
 ## Quick Start
 
 Set up an effective help desk in 3 foundational phases:

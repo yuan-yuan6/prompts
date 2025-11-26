@@ -34,6 +34,10 @@ slug: music-audio-comprehensive
 ## Purpose
 Create comprehensive music and audio solutions covering lyrics composition, music creation, sound design, mixing, podcasting, audiobooks, and audio production across all genres and formats.
 
+## Quick Music Audio Comprehensive Prompt
+
+Produce [audio format: song/album/podcast/score] titled [project title] in [genre] style. Compose in [key signature] at [tempo] BPM with [time signature], develop [song structure/episode format], write lyrics/script about [theme/topic], design sound palette using [instruments/sounds], plan production workflow through [composition/recording/mixing/mastering], and target [distribution platform]. Budget [amount] with [timeline] and target [audience] for [emotional impact/message].
+
 ## Quick Start
 
 **Launch Your Music/Audio Project in 1 Hour**

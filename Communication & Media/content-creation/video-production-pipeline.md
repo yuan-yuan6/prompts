@@ -27,6 +27,10 @@ slug: video-production-pipeline
 ## Purpose
 Comprehensive framework for professional video production including pre-production planning, shooting protocols, post-production workflows, distribution strategies, team coordination, and quality control for creating high-impact video content.
 
+## Quick Video Production Pipeline Prompt
+
+Plan video production for [project name] with [duration] runtime and [budget] budget. Define pre-production deliverables including [script/storyboard/shot list], coordinate [crew size] team, specify equipment for [camera/audio/lighting], schedule [shoot days] at [locations], establish post-production workflow in [editing software], and create distribution plan for [platforms]. Target [view count] views with [engagement rate]% engagement and delivery by [deadline].
+
 ## Quick Start
 
 **For a 30-Minute Setup:**

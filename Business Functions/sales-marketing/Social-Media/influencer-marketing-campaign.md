@@ -35,6 +35,9 @@ slug: influencer-marketing-campaign
 ## Purpose
 Comprehensive framework for designing and executing influencer marketing campaigns including creator identification, campaign strategy, content collaboration, performance tracking, ROI measurement, and long-term partnership development in the creator economy.
 
+## Quick Influencer Marketing Prompt
+Launch influencer campaign for [BRAND_NAME] with [BUDGET] budget targeting [REACH_TARGET] reach. Partner with [CREATOR_COUNT] creators across [CREATOR_TIERS] (mega/macro/micro/nano) tiers on [PLATFORMS]. Define content deliverables: [CONTENT_TYPES] (posts/stories/reels/videos). Set compensation: [COMPENSATION_MODEL] (flat fee/CPM/affiliate/product). Implement tracking: unique codes, UTM links, affiliate tracking. Brief creators on brand guidelines and FTC disclosure. Target [ENGAGEMENT_TARGET]% engagement, [CONVERSION_TARGET] conversions, and [ROI_TARGET]x ROI.
+
 ## Quick Start
 
 **Need to launch an influencer campaign quickly?** Use this minimal example:

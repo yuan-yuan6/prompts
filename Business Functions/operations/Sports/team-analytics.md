@@ -34,6 +34,9 @@ slug: team-analytics
 ## Purpose
 Comprehensive framework for professional sports team analytics, player performance optimization, tactical analysis, injury prevention, scouting systems, and competitive advantage development.
 
+## Quick Team Analytics Prompt
+Develop analytics strategy for [TEAM_NAME] in [SPORT_TYPE] with [ROSTER_SIZE] players and [BUDGET] analytics budget. Establish performance baselines: [WIN_RATE]% current win rate, [OFFENSIVE_RATING] offensive efficiency, [DEFENSIVE_RATING] defensive rating. Profile top players on [KEY_METRICS] metrics. Implement injury prevention with load management for [HIGH_RISK_PLAYERS] high-risk athletes. Deploy scouting analytics for [DRAFT_TARGETS]. Target [WIN_TARGET]% win rate, [PLAYOFF_GOAL] playoff positioning, and [INJURY_REDUCTION]% injury reduction.
+
 ## Quick Start
 
 Build your sports analytics program in 3 steps:

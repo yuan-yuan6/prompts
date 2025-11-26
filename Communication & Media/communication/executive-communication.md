@@ -34,6 +34,10 @@ slug: executive-communication
 ## Purpose
 Comprehensive framework for crafting executive-level communications, briefings, and presentations that deliver strategic insights, drive decision-making, and ensure leadership alignment.
 
+## Quick Executive Communication Prompt
+
+Prepare an executive briefing for [audience/role] on [topic/issue]. Lead with recommendation for [decision needed], support with data showing [key metrics/impact], present options including [alternatives], address risks of [concern areas], and request decision by [deadline]. Format for [time allocation] with backup materials covering [anticipated questions]. Include next steps pending approval.
+
 ## Quick Start
 
 **Need to brief executives quickly?** Use this minimal example:

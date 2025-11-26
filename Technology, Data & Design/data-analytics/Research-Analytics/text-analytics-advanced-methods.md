@@ -31,6 +31,9 @@ slug: text-analytics-advanced-methods
 ## Purpose
 Conduct advanced text analytics including document clustering, similarity analysis, text summarization, readability assessment, and keyword extraction. Generate comprehensive reports with visualizations, statistical analysis, and actionable business intelligence to support decision-making.
 
+## Quick Advanced NLP Prompt
+Perform advanced analysis on [X] documents: cluster into [8-10] thematic groups, calculate text similarity to find duplicates, generate extractive summaries per cluster (3-5 sentences), assess readability levels, extract top 50 keywords/phrases, create word clouds for positive vs. negative content, and identify anomalies. Visualize clusters with t-SNE and provide actionable recommendations.
+
 ## Quick Start
 
 **Example: Comprehensive Customer Feedback Analysis**

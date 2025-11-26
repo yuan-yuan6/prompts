@@ -35,6 +35,10 @@ slug: change-management
 ## Purpose
 Comprehensive framework for managing organizational change initiatives, facilitating adoption strategies, and effectively addressing resistance while ensuring successful transformation and sustained behavioral change across the organization.
 
+## Quick Change Management Prompt
+
+Develop a change management plan for [change initiative] affecting [number] employees in [organization/department]. Address stakeholder concerns about [primary resistance factors], create communication timeline for [implementation phases], identify change champions in [key departments], and establish success metrics including [adoption/engagement targets]. Include training approach for [skill gaps] and support resources for [transition challenges].
+
 ## Quick Start
 
 Launch your change initiative with these essential steps:

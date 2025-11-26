@@ -27,6 +27,9 @@ slug: network-analysis-centrality-community
 ## Purpose
 Identify important nodes and detect community structures in networks using multiple centrality measures and community detection algorithms. This module provides comprehensive tools for centrality analysis, community detection, and structural pattern recognition.
 
+## Quick Centrality Prompt
+Analyze [network name] with [X nodes, Y edges]. Calculate centrality measures (degree, betweenness, closeness, PageRank, eigenvector), identify top 20 influential nodes, detect communities using Louvain algorithm, evaluate community quality (modularity), and characterize each community by size and key members. Visualize network colored by community with node size by centrality.
+
 ## Quick Start
 
 **Example: Identify Influencers and Communities in Social Network**

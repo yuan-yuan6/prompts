@@ -34,6 +34,14 @@ slug: llm-fine-tuning
 ## Purpose
 Systematically fine-tune and customize Large Language Models to achieve better performance on specific tasks, domains, or style requirements beyond what prompt engineering alone can accomplish.
 
+## 🚀 Quick Training Prompt
+
+> Develop a **fine-tuning strategy** for **[DOMAIN/TASK]** to improve **[SPECIFIC CAPABILITY]** beyond prompting. Analyze: (1) **Decision framework**—should I fine-tune vs. use RAG/prompting? What are the data requirements and expected improvement? (2) **Data preparation**—how to collect/synthesize training examples, what format (instruction, chat, completion), and how many examples needed? (3) **Training approach**—should I use full fine-tuning, LoRA, or QLoRA? What hyperparameters and compute requirements? (4) **Evaluation & deployment**—how to measure improvement, prevent catastrophic forgetting, and deploy the custom model? Provide a data collection template, training configuration, evaluation metrics, and cost-benefit analysis.
+
+**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for rapid fine-tuning strategy guidance.
+
+---
+
 ## Quick Start
 
 **Need to evaluate if fine-tuning is right for you?** Use this decision framework:

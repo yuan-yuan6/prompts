@@ -31,6 +31,9 @@ slug: lean-six-sigma-implementation
 ## Purpose
 Comprehensive framework for implementing Lean Six Sigma methodologies including DMAIC process, waste elimination, variation reduction, value stream mapping, and continuous improvement for operational excellence and quality enhancement.
 
+## Quick Lean Six Sigma Prompt
+Implement a Lean Six Sigma project for [PROCESS_NAME] with current [DEFECT_RATE]% defect rate and [CYCLE_TIME] cycle time. Apply DMAIC methodology: Define problem scope and CTQ requirements, Measure baseline metrics, Analyze root causes using [ANALYSIS_TOOLS] (fishbone/Pareto/5 Whys), Improve with targeted solutions, Control with SPC charts. Target [SIGMA_LEVEL] sigma level, [COST_SAVINGS] annual savings, and [EFFICIENCY_GAIN]% efficiency improvement.
+
 ## Quick Start
 
 **Need to start a Lean Six Sigma project quickly?** Use this minimal example:

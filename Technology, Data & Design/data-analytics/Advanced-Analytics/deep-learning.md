@@ -6,13 +6,10 @@ related_templates:
 - data-analytics/data-governance-framework.md
 - data-analytics/predictive-modeling-framework.md
 tags:
-- automation
-- data-analytics
-- design
-- development
-- framework
 - ai-ml
-- strategy
+- data-analytics
+- deep-learning
+- neural-networks
 title: Deep Learning & Neural Network Implementation Framework
 use_cases:
 - Creating comprehensive framework for designing, training, deploying, and optimizing
@@ -32,6 +29,9 @@ slug: deep-learning
 
 ## Purpose
 Comprehensive framework for designing, training, deploying, and optimizing deep learning models including architecture selection, hyperparameter tuning, distributed training, and production deployment.
+
+## Quick Deep Learning Prompt
+> Build a [CNN/RNN/Transformer/GAN] deep learning model for [use case] processing [data type and volume]. Target: [accuracy/performance goal]. Constraints: [latency]ms inference, [deployment environment]. Include: (1) Architecture design with layer configuration, (2) Training pipeline with hyperparameters, (3) Optimization techniques (quantization/pruning), (4) Deployment and monitoring strategy.
 
 ## Quick Start
 

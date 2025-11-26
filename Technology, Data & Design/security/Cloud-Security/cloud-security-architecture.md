@@ -31,6 +31,9 @@ slug: cloud-security-architecture
 ## Purpose
 Comprehensive framework for designing secure cloud infrastructure, implementing security controls across IaaS/PaaS/SaaS, ensuring compliance, and establishing governance for AWS, Azure, GCP, and multi-cloud environments.
 
+## Quick Cloud Security Prompt
+Design secure [AWS/Azure/GCP] architecture for [application type] handling [data classification: PII/PHI/PCI]. Implement: VPC/network segmentation, IAM policies (least privilege), encryption (at-rest + in-transit), logging (CloudTrail/Azure Monitor), and security monitoring. Meet compliance: [SOC2/HIPAA/PCI-DSS/GDPR]. Deliver: architecture diagram, security controls matrix, and implementation checklist.
+
 ## Quick Start
 
 **Need to design secure cloud architecture?** Use this minimal example:

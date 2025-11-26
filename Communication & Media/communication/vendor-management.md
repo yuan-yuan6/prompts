@@ -36,6 +36,10 @@ slug: vendor-management
 ## Purpose
 Comprehensive framework for managing vendor relationships, procurement processes, and supplier performance to optimize value, minimize risk, and ensure operational excellence.
 
+## Quick Vendor Management Prompt
+
+Create a vendor management plan for [vendor type] with [annual spend] budget. Segment vendors by [criticality criteria], establish performance KPIs for [service metrics], design governance with [review cadence], implement scorecards tracking [performance areas], and develop escalation process for [issue types]. Target cost optimization of [percentage], SLA compliance of [target], and relationship improvement in [strategic areas]. Include contract renewal strategy for [upcoming renewals] and risk mitigation for [vendor dependencies].
+
 ## Quick Start
 
 **Need to manage vendor relationships quickly?** Use this minimal example:

@@ -32,6 +32,10 @@ slug: goal-setting
 ## Purpose
 Create comprehensive goal-setting frameworks including objectives, action plans, and progress tracking systems to achieve personal and professional aspirations effectively.
 
+## Quick Goal Setting Prompt
+
+Help me set and achieve [goal type - career/health/financial/personal] goals. My main objective is [specific goal] to be achieved by [deadline]. Current status: [where I am now]. Create SMART goals with specific milestones, break down into weekly action items, identify potential obstacles with solutions, and design a tracking system to measure progress. Include accountability methods and rewards for milestone completion.
+
 ## Quick Start
 
 **Need to set goals quickly?** Use this minimal example:

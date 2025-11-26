@@ -32,6 +32,10 @@ slug: literature-review-analysis-implications
 ## Purpose
 Conduct critical analysis and evaluation of synthesized evidence, assess methodological rigor and evidence quality, develop theoretical and practical implications, formulate evidence-based recommendations, and translate findings into actionable guidance for research, policy, and practice.
 
+## Quick Literature Review Analysis Implications Prompt
+
+Analyze synthesized evidence from [review topic] covering [number] studies. Assess evidence certainty using [GRADE/CERQual] across [outcome domains], evaluate overall quality as [high/moderate/low/very low]. Develop theoretical implications for [theory/framework], formulate practice recommendations for [practitioners/settings], identify policy implications for [stakeholders], and prioritize future research on [gaps]. Create [recommendation strength] recommendations with implementation considerations for [contexts].
+
 ## Quick Start
 
 ### For Researchers & Knowledge Translators

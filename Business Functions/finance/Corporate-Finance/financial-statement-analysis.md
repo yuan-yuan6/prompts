@@ -27,6 +27,9 @@ slug: financial-statement-analysis
 ## Purpose
 Analyze income statements, balance sheets, and cash flow statements to evaluate company financial performance, identify trends, and assess financial health.
 
+## Quick Financial Statement Prompt
+Analyze [company] FY [year] financials: revenue $[X] (vs prior $[Y]), operating income $[Z], net income $[W], total assets $[A], cash $[B], operating cash flow $[C]. Assess: profitability trends, liquidity position, cash generation quality, working capital efficiency. Compare to [industry benchmarks/peers]. Identify: 3 strengths, 3 concerns, action items for management.
+
 ## Quick Start
 
 ### Minimal Example

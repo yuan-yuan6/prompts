@@ -27,6 +27,9 @@ slug: treatment-effect-analysis
 ## Purpose
 Perform comprehensive treatment effect analysis using advanced causal inference methods. This prompt helps you analyze experimental data using intention-to-treat (ITT), per-protocol (PP), instrumental variable (IV), complier average causal effect (CACE), dose-response, and subgroup analysis approaches to quantify treatment impacts and establish causal relationships.
 
+## Quick Treatment Effect Prompt
+Analyze treatment effects from [experiment] with [treatment] vs. [control] groups. Perform ITT analysis (primary), calculate effect size with 95% CI, test statistical significance, conduct subgroup analyses for [key segments], and assess dose-response relationship if applicable. Report treatment effect, NNT/NNH if relevant, and clinical/practical significance.
+
 ## Quick Start
 
 **Example: Comprehensive Treatment Effect Analysis for Clinical Trial**

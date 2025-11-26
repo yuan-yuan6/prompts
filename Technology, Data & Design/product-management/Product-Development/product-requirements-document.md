@@ -33,6 +33,9 @@ slug: product-requirements-document
 ## Purpose
 Create comprehensive product requirements documents that clearly define what to build, why to build it, and how success will be measured, enabling engineering and design teams to execute effectively while maintaining alignment with product strategy and user needs.
 
+## Quick PRD Prompt
+Write PRD for [feature name] solving [problem] for [user type]. Include: problem statement with data, user stories (3-5 key scenarios), success metrics (quantifiable), scope (in/out), functional requirements, UX requirements with user flow, technical considerations, dependencies, timeline estimate, and risks. Format for engineering handoff with clear acceptance criteria.
+
 ## Quick Start
 
 **Need a PRD quickly?** Use this streamlined approach:

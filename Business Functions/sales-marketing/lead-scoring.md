@@ -33,6 +33,9 @@ slug: lead-scoring
 ## Overview
 This comprehensive template assists sales and marketing professionals in developing sophisticated lead scoring systems that prioritize prospects based on behavioral data, demographic information, and engagement patterns to optimize conversion rates and sales efficiency.
 
+## Quick Lead Scoring Prompt
+Build lead scoring model for [COMPANY_TYPE] with [LEAD_VOLUME] monthly leads. Scale: 0-[MAX_SCORE] points. Define thresholds: Hot ([HOT_THRESHOLD]+), Warm ([WARM_RANGE]), Cold (<[COLD_THRESHOLD]). Score demographics: company size, industry fit, job title, geography. Score behaviors: [KEY_BEHAVIORS] (pricing page/demo request/content downloads/email engagement). Set negative scores for [DISQUALIFIERS]. Route hot leads to sales within [SLA_HOURS] hours. Target [CONVERSION_IMPROVEMENT]% conversion improvement and [SALES_EFFICIENCY]% sales efficiency gain.
+
 ## Quick Start
 
 **Need to implement lead scoring quickly?** Use this minimal example:

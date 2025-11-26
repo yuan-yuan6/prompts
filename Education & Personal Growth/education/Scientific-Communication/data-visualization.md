@@ -35,6 +35,10 @@ slug: data-visualization
 ## Purpose
 Create compelling, accurate scientific visualizations including charts, graphs, infographics, and visual abstracts that effectively communicate complex data, enhance understanding, and meet publication standards across diverse research disciplines.
 
+## Quick Data Visualization Prompt
+
+Create [visualization type: bar/scatter/line/heatmap/infographic] for [data type] showing [relationship/comparison/trend/distribution]. Design for [publication/presentation/web] at [resolution] DPI with [colorblind-accessible palette]. Include axis labels with [units], error bars showing [SD/SEM/CI], significance indicators for [p-values], sample sizes of [N], and legend explaining [symbols/colors]. Write caption starting with [key finding] and specifying [statistical test] used.
+
 ## Quick Start
 
 **Get started in 3 minutes:**

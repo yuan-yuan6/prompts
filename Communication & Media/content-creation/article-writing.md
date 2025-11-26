@@ -28,6 +28,10 @@ slug: article-writing
 ## Purpose
 Create compelling articles, blog posts, news stories, and feature pieces with engaging hooks, structured content, and clear calls-to-action for various publications and platforms.
 
+## Quick Article Writing Prompt
+
+Write a [word count]-word [article type] about [topic] for [target audience]. Include an engaging hook addressing [pain point/curiosity], structure with [number] subheadings covering [key points], incorporate [data/examples/quotes], use [tone: conversational/professional/authoritative], and conclude with [call-to-action]. Optimize for [platform/SEO keywords] with readability level of [grade level].
+
 ## Quick Start
 
 **Need to write an article quickly?** Use this minimal example:

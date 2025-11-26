@@ -37,6 +37,10 @@ slug: team-documentation
 ## Purpose
 Comprehensive framework for creating, organizing, and maintaining team documentation that captures knowledge, standardizes processes, and enables effective knowledge transfer.
 
+## Quick Team Documentation Prompt
+
+Build a documentation system for [team name] with [size] members. Create essential documents including [core doc types], establish wiki structure in [platform], implement naming conventions for [content categories], assign document owners for [critical areas], and set review cadence of [frequency]. Include README templates for [project types], onboarding checklist for [new hire needs], and governance for [update/archival process]. Target documentation coverage of [percentage] for critical processes.
+
 ## Quick Start
 
 Build your team documentation system in 30 minutes:

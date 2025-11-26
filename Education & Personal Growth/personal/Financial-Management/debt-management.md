@@ -32,6 +32,10 @@ slug: debt-management
 ## Purpose
 Develop effective debt reduction strategies, consolidation plans, and negotiation approaches to eliminate debt efficiently while minimizing interest costs and improving credit scores for long-term financial health.
 
+## Quick Debt Management Prompt
+
+Help me create a debt elimination plan. My total debt is [amount] across [number] accounts: [list debts with balances and interest rates]. My monthly income is [amount] and I can put [extra amount] toward debt payoff monthly. Recommend whether to use avalanche or snowball method, provide a payoff timeline, suggest creditor negotiation scripts, and identify balance transfer or consolidation opportunities to reduce interest costs.
+
 ## Quick Start
 
 Begin eliminating debt in three focused steps:

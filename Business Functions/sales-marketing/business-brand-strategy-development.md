@@ -36,6 +36,9 @@ slug: business-brand-strategy-development
 ## Purpose
 Comprehensive brand strategy framework covering brand positioning, identity development, messaging architecture, brand experience design, implementation planning, and performance measurement across all customer touchpoints and market segments.
 
+## Quick Brand Strategy Development Prompt
+Develop brand strategy for [BRAND_NAME] targeting [TARGET_MARKET] with [BRAND_BUDGET] budget over [TIMELINE]. Conduct brand audit assessing awareness, equity, and perception. Define positioning statement, value proposition, and [DIFFERENTIATOR_COUNT] key differentiators. Design visual identity system and messaging architecture. Plan phased rollout across [CHANNEL_COUNT] channels and [MARKET_COUNT] markets. Target [BRAND_AWARENESS]% awareness, [BRAND_PREFERENCE]% preference, and [REVENUE_IMPACT] revenue impact.
+
 ## Quick Start
 1. **Conduct Brand Audit** - Assess current brand awareness, equity, differentiation, and customer perception through surveys and competitive analysis
 2. **Define Target Audience** - Create 2-3 detailed customer personas with demographics, behaviors, needs, and brand interaction preferences

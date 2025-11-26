@@ -36,6 +36,10 @@ slug: video-scripts
 ## Purpose
 Create comprehensive video script strategies for YouTube, documentaries, ads, explainers, tutorials, vlogs, and other video content to engage audiences, communicate messages effectively, and achieve content objectives.
 
+## Quick Video Scripts Prompt
+
+Write a [duration] video script for [video type: YouTube/ad/explainer/tutorial] about [topic]. Create attention-grabbing hook in first [seconds], structure with [sections/chapters], include [presenter direction/B-roll notes], write dialogue for [tone: educational/entertaining/persuasive], add call-to-action for [viewer goal], and optimize for [platform algorithm/retention]. Target [audience] with [key message] and [desired action].
+
 ## Quick Start
 
 Ready to bring your vision to screen? Here's your fast-track to compelling video scripts:

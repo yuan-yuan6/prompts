@@ -25,6 +25,9 @@ slug: prototype-development
 ## Purpose
 Create interactive, high-fidelity prototypes that simulate real product behavior for user testing, stakeholder validation, and development handoff.
 
+## Quick Prototype Prompt
+Build [fidelity: low/high] prototype for [product name] targeting [user group]. Focus flows: [2-3 critical user journeys]. Include: [X] key screens, realistic interactions (button states, transitions, form validation), and micro-interactions. Test goal: validate [specific hypothesis]. Tool: [Figma/Sketch/Adobe XD]. Deliver: clickable prototype link and screen inventory with annotations.
+
 ## Quick Start
 
 To use this template effectively:

@@ -33,6 +33,9 @@ slug: pipeline-development-overview
 ## Purpose
 This overview provides comprehensive guidance for data pipeline development, helping you navigate the complete pipeline development lifecycle from data ingestion through infrastructure deployment. Use this as a starting point to understand the pipeline architecture and navigate to specialized sub-prompts for detailed implementation guidance.
 
+## Quick Navigation Prompt
+I need to build a [PIPELINE_TYPE] data pipeline for [USE_CASE]. The data sources are [SOURCE_TYPES] and destination is [TARGET_PLATFORM]. Help me identify which sub-prompt to use: ingestion patterns (batch/streaming/CDC), transformation logic (medallion architecture), orchestration (DAG design), observability (monitoring/alerting), or infrastructure (IaC/Kubernetes).
+
 ## Quick Start
 
 **Want to build a data pipeline?** Here's how to navigate this framework:

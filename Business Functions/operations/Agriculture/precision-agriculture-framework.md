@@ -31,6 +31,9 @@ slug: precision-agriculture-framework
 ## Purpose
 Comprehensive framework for implementing precision agriculture technologies including GPS-guided operations, variable rate applications, crop monitoring, yield mapping, data analytics, and sustainable farming practices for optimized agricultural production.
 
+## Quick Precision Agriculture Prompt
+Implement precision agriculture for [FARM_SIZE] acres of [CROP_TYPES] across [FIELD_COUNT] fields. Deploy RTK GPS guidance for [EQUIPMENT_TYPES] equipment. Install [SENSOR_COUNT] sensors for soil/weather monitoring. Enable variable rate technology for [VRT_APPLICATIONS] (seeding/fertilizer/spraying). Integrate farm management software for data analytics. Target [YIELD_INCREASE]% yield gain, [INPUT_REDUCTION]% input savings, [WATER_SAVINGS]% water efficiency, and [PROFIT_IMPROVEMENT]% profit margin improvement.
+
 ## Quick Start
 
 **For Farm Operators:**

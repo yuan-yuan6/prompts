@@ -36,6 +36,9 @@ slug: compliance-programs
 ## Purpose
 Design comprehensive regulatory compliance frameworks, policy implementation systems, audit protocols, and risk management programs that ensure organizational adherence to laws, regulations, and industry standards while maintaining operational efficiency.
 
+## Quick Compliance Programs Prompt
+Design compliance program for [organization type] in [industry]. Regulations: [SEC/FINRA/HIPAA/GDPR/etc]. Framework: three lines of defense (business ownership, compliance oversight, internal audit). Focus: [high-risk areas: financial reporting/data privacy/AML]. Training: Code of Conduct, [specific topics], [X%] completion target. Monitoring: automated alerts for [transaction types]. Risk-based resource allocation.
+
 ## Quick Start
 
 Build a regulatory compliance program in 4 steps:

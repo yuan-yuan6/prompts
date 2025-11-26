@@ -35,6 +35,9 @@ slug: training-programs
 ## Purpose
 Create comprehensive training program strategies covering onboarding, skills development, and compliance training to enhance employee capabilities and organizational effectiveness.
 
+## Quick Training Program Prompt
+Design training for [team/role] with [X employees]. Goal: [skill development/onboarding/compliance/performance gap]. Current level: [baseline]. Delivery: [in-person/virtual/blended/self-paced]. Timeline: launch in [X weeks]. Budget: $[Y]. Content: [modules], [assessments], [practice activities]. Follow-up: [coaching/reinforcement]. Measure: [knowledge gain/behavior change/business impact]. ROI target: [metric].
+
 ## Quick Start
 
 **Need to design a training program quickly?** Use this minimal example:

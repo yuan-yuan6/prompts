@@ -32,6 +32,9 @@ slug: smart-hotel-operations
 ## Purpose
 Comprehensive framework for implementing smart hotel technologies and operations including IoT integration, personalized guest experiences, revenue optimization, sustainability practices, staff efficiency, and digital transformation strategies for modern hospitality management.
 
+## Quick Smart Hotel Prompt
+Implement smart hotel technology for [PROPERTY_NAME] with [ROOM_COUNT] rooms. Deploy IoT: smart thermostats, lighting controls, and occupancy sensors in [PILOT_ROOMS] pilot rooms. Enable mobile check-in, digital keys, and express checkout. Integrate cloud PMS with [BOOKING_CHANNELS] booking channels. Implement energy management for [ENERGY_SAVINGS]% savings. Launch personalization using guest preference data. Target [GUEST_SATISFACTION]% satisfaction, [REVENUE_INCREASE]% revenue growth, [EFFICIENCY_GAIN]% operational efficiency, and [SUSTAINABILITY_RATING] sustainability rating.
+
 ## Quick Start
 
 **For Hotel Operators:**

@@ -36,6 +36,9 @@ slug: operations-resource-management
 ## Purpose
 Create comprehensive resource management frameworks covering resource allocation, scheduling optimization, and capacity planning to maximize operational efficiency and resource utilization.
 
+## Quick Resource Management Prompt
+Optimize resource allocation for [ORGANIZATION_TYPE] with [RESOURCE_COUNT] [RESOURCE_TYPE] (people/equipment/facilities). Current utilization is [CURRENT_UTILIZATION]% with [BOTTLENECK_AREAS] constraints. Implement capacity planning for [DEMAND_PATTERN] (seasonal/steady/growth) demand. Balance workloads across [TEAM_COUNT] teams, reduce idle time to [IDLE_TARGET]%, and achieve [UTILIZATION_TARGET]% utilization while maintaining [SERVICE_LEVEL]% service level.
+
 ## Quick Start
 
 To optimize resource management immediately:

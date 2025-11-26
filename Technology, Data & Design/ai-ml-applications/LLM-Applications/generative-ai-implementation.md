@@ -1091,6 +1091,16 @@ Special Considerations: Financial regulation compliance, customer privacy, risk 
 - Knowledge Management: Information extraction, analysis automation, insight generation, and decision support
 - Innovation and Research: Hypothesis generation, discovery assistance, creative problem-solving, and breakthrough innovation
 
+---
+
+## 🚀 Quick Evaluation Prompt
+
+**Copy and use this generic prompt to develop this LLM application:**
+
+> I need to build **[LLM APPLICATION]** that **[CORE FUNCTIONALITY]**. Guide me through: (1) **Architecture design**—what LLM should I use, what's the system architecture, and how do I handle context? (2) **Prompt engineering**—what are effective prompt patterns, how do I handle edge cases, and how do I ensure consistency? (3) **Evaluation strategy**—how do I measure quality, prevent hallucinations, and validate outputs? (4) **Production readiness**—what are latency requirements, cost optimization strategies, and monitoring needs? Provide detailed implementation guidance, code examples where helpful, quality thresholds, and a deployment checklist.
+
+**Usage:** Fill in the brackets with your specific details and use this as a prompt to an AI assistant, or as a structured framework for your LLM application development.
+
 ### 5. Deployment Models
 - Cloud-First: Scalable infrastructure, managed services, rapid deployment, and cost optimization
 - Hybrid Approach: Balanced deployment, data sovereignty, security control, and flexibility

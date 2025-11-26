@@ -33,6 +33,9 @@ slug: product-strategy-vision
 ## Purpose
 Develop comprehensive product strategy and compelling vision that aligns with business objectives, addresses market opportunities, and guides product development for 3-5 year horizon.
 
+## Quick Strategy Prompt
+Define product strategy for [product] over [3-5 years]. Craft vision statement (inspiring, 10-word max). Identify: target market segments, customer problems solved, unique differentiation vs. [competitors]. Strategic pillars: [3 key themes]. Success metrics: [revenue/users/retention targets]. Create strategy narrative connecting market opportunity → solution → competitive advantage → business outcomes.
+
 ## Quick Start
 
 **Need to define product strategy quickly?** Use this streamlined approach:

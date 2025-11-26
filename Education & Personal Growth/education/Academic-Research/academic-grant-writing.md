@@ -30,6 +30,10 @@ slug: academic-grant-writing
 ## Purpose
 Create comprehensive grant proposals, funding applications, budget justifications, and impact statements for academic research funding opportunities.
 
+## Quick Grant Writing Prompt
+
+Create a grant proposal for [funding agency: NSF/NIH/foundation] program [program name] requesting [amount] over [duration]. Research title: [project title] in [field/domain]. Address problem of [research gap], propose methodology of [approach], with PI [name/credentials] and team of [co-investigators]. Include budget for [major categories: personnel/equipment/travel], expected outcomes of [deliverables], and broader impacts on [beneficiaries]. Target submission deadline of [date].
+
 ## Quick Start
 
 **For educators and researchers who need**: A complete grant proposal for academic research funding

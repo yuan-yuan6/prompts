@@ -26,6 +26,9 @@ slug: randomization-and-power-analysis
 ## Purpose
 Plan pre-experiment procedures including randomization methods and power analysis. This prompt helps you implement various randomization techniques (simple, block, stratified, cluster, adaptive) and calculate required sample sizes for different statistical tests to ensure your experiment has adequate power to detect meaningful effects.
 
+## Quick Power Analysis Prompt
+Calculate sample size for [experiment type] testing [X]% baseline rate with [Y]% minimum detectable effect at 80% power and 95% confidence. Show power curves, recommend randomization method (simple/stratified/block), define stratification variables if needed, and provide sample size per group. Include sensitivity analysis for different effect sizes.
+
 ## Quick Start
 
 **Example: Power Analysis and Stratified Randomization for Mobile App Pricing Test**

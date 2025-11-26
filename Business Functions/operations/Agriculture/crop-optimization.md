@@ -35,6 +35,9 @@ slug: crop-optimization
 ## Purpose
 Comprehensive framework for implementing precision agriculture technologies, crop yield optimization, resource management, sustainability practices, and data-driven farming decisions.
 
+## Quick Crop Optimization Prompt
+Optimize crop production for [FARM_SIZE] acre [CROP_TYPES] operation with current [YIELD_BASELINE] yield/acre and [INPUT_COSTS] input costs. Implement precision agriculture: soil sampling at [GRID_SIZE] acre grids, variable rate [INPUTS] (fertilizer/seed/irrigation). Deploy sensors for [MONITORING_AREAS] (soil moisture/weather/crop health). Target [YIELD_INCREASE]% yield improvement, [INPUT_REDUCTION]% input reduction, [WATER_SAVINGS]% water savings, and [ROI_TARGET] ROI within [TIMELINE] seasons.
+
 ## Quick Start
 
 Deploy precision agriculture in 3 steps:

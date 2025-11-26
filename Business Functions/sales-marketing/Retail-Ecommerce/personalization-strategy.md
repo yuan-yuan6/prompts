@@ -33,6 +33,9 @@ slug: personalization-strategy
 ## Purpose
 Strategic framework for implementing personalization across the customer journey, optimizing user experience, increasing conversion rates, and building customer loyalty through data-driven customization.
 
+## Quick E-commerce Personalization Prompt
+Design personalization strategy for [COMPANY_TYPE] with [CUSTOMER_COUNT] customers and [MONTHLY_VISITORS] monthly visitors. Current state: [CURRENT_STATE] (generic homepage/basic recommendations). Implement: personalized product recommendations, dynamic homepage content, behavioral email triggers, and segment-specific pricing. Define [SEGMENT_COUNT] customer segments based on [SEGMENTATION_CRITERIA]. Deploy personalization engine with [DATA_SOURCES]. Target [CONVERSION_LIFT]% conversion lift, [AOV_INCREASE]% AOV increase, and [CART_ABANDONMENT_REDUCTION]% cart abandonment reduction.
+
 ## Quick Start
 
 **Need to add personalization to your e-commerce site quickly?** Use this minimal example:

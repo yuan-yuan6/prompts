@@ -35,6 +35,9 @@ slug: feature-engineering
 ## Purpose
 Design and implement comprehensive feature engineering strategies to create, transform, and select optimal features that improve model performance, interpretability, and business value.
 
+## Quick Features Prompt
+Engineer features for [ML task] predicting [target variable] from [dataset description]. Create time-based features (recency, frequency, trends), aggregations (means, counts, ratios), categorical encodings (target, one-hot, frequency), and interaction terms. Apply feature selection using importance scores and correlation filtering. Target: reduce from [X] raw features to [Y] optimized features while improving model performance by [Z]%.
+
 ## Quick Start
 
 **Need to engineer features quickly?** Use this minimal example:

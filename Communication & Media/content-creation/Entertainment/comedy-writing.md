@@ -29,6 +29,10 @@ slug: comedy-writing
 ## Purpose
 Create engaging comedy content including jokes, sketches, and standup material that generates laughter and entertainment across various formats and comedy styles.
 
+## Quick Comedy Writing Prompt
+
+Write [comedy format: standup set/sketch/jokes] for [project name] in [comedy style: observational/satirical/physical/surreal] style. Create [number] jokes about [topic] using setup-punchline structure, target [audience] at [venue type], aim for [duration] with [laugh frequency] beats, and develop [character/persona] voice. Include [callback structure] and test for [ethical guidelines]. Deliver [emotional arc] from opening to closer.
+
 ## Quick Start
 
 **Get Your First Laugh in 10 Minutes**

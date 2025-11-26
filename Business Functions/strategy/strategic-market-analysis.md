@@ -32,6 +32,9 @@ slug: strategic-market-analysis
 ## Purpose
 Create comprehensive market analysis reports covering competitive analysis, SWOT analysis, and market trends to inform strategic decision-making.
 
+## Quick Strategic Market Analysis Prompt
+Conduct market analysis for [COMPANY_NAME] in [INDUSTRY] with [MARKET_POSITION] (leader/challenger/niche) position. Analyze TAM of [TAM_SIZE] growing at [GROWTH_RATE]% CAGR. Profile [COMPETITOR_COUNT] key competitors on positioning, strengths, weaknesses, and market share. Segment customers by [SEGMENTATION_CRITERIA]. Identify [TREND_COUNT] key market trends and disruption risks. Assess opportunities in [TARGET_MARKETS] markets. Deliver strategic recommendations for [STRATEGIC_GOALS] (market share growth/expansion/differentiation).
+
 ## Quick Start
 
 ### Minimal Example

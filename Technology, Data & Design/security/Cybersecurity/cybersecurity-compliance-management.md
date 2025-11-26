@@ -33,6 +33,9 @@ slug: cybersecurity-compliance-management
 ## Purpose
 Comprehensive compliance management for regulatory frameworks including policies, controls, monitoring, reporting, and audit preparation for cybersecurity and data protection requirements.
 
+## Quick Compliance Management Prompt
+Establish compliance program for [GDPR/HIPAA/SOC2/PCI-DSS/ISO27001]. Scope: [systems, data types, jurisdictions]. Create: control mapping matrix, policy framework (information security, data protection, incident response), GRC tool implementation plan, evidence collection automation, audit schedule, and management review process. Assign DPO responsibilities and establish governance committee structure.
+
 ## Quick Start
 
 **Set Your Foundation:**

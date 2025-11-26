@@ -33,6 +33,9 @@ slug: user-research-personas
 ## Purpose
 Conduct comprehensive user research and create evidence-based personas that drive product decisions, align teams around user needs, and ensure products solve real user problems effectively.
 
+## Quick Research Prompt
+Conduct user research for [product] to answer: [key question]. Method: [interviews/surveys/usability tests] with [X] participants matching [criteria]. Deliverables: research plan, interview guide (10 questions), synthesis of findings (patterns, quotes, insights), 2-3 evidence-based personas (goals, pain points, behaviors, jobs-to-be-done), and actionable recommendations for product team.
+
 ## Quick Start
 
 **Need quick user insights?** Use this streamlined approach:

@@ -31,6 +31,9 @@ slug: microservices-architecture-design
 ## Purpose
 Comprehensive framework for designing and implementing microservices architecture including service decomposition, API design, communication patterns, data management, deployment strategies, and operational considerations for scalable distributed systems.
 
+## Quick Microservices Prompt
+Design microservices for [application] with [X services] handling [Y concurrent users], [Z req/sec]. Define: service boundaries (domain-driven), API contracts (REST/gRPC), communication (sync + async via Kafka), database per service, caching (Redis). Infrastructure: Kubernetes, service mesh (Istio), distributed tracing (Jaeger). Target: [99.95%] availability, <[X]ms p99 latency.
+
 ## Quick Start
 
 **Need to design microservices architecture quickly?** Use this minimal example:

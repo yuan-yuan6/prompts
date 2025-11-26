@@ -32,6 +32,9 @@ slug: swot-analysis-template
 ## Purpose
 Comprehensive framework for conducting SWOT analysis including strengths assessment, weaknesses identification, opportunities exploration, threats evaluation, and strategic action planning for competitive positioning and decision-making.
 
+## Quick SWOT Analysis Prompt
+Conduct SWOT analysis for [COMPANY_NAME] in [INDUSTRY] with [MARKET_POSITION] market position. Assess strengths: [STRENGTH_AREAS] (brand/technology/team/financials/operations). Identify weaknesses: [WEAKNESS_AREAS] (gaps/limitations/resource constraints). Explore opportunities: [OPPORTUNITY_AREAS] (market trends/expansion/partnerships/innovation). Evaluate threats: [THREAT_AREAS] (competition/disruption/regulation/economic). Cross-reference for strategic insights (SO/WO/ST/WT strategies). Deliver prioritized [ACTION_COUNT]-year strategic action plan with initiatives, timelines, resources, and success metrics.
+
 ## Quick Start
 
 **Need to conduct a SWOT analysis quickly?** Use this minimal example:

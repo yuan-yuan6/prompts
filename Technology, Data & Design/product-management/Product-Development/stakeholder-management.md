@@ -33,6 +33,9 @@ slug: stakeholder-management
 ## Purpose
 Build effective stakeholder relationships, align diverse groups on product vision and priorities, communicate product decisions clearly, and navigate competing interests to drive successful product outcomes.
 
+## Quick Stakeholder Prompt
+Create stakeholder plan for [initiative/product]. Map stakeholders: [list key people/roles]. For each: identify interests, influence level (high/med/low), potential concerns. Develop: engagement cadence (1:1s, updates), communication plan (what/when/how), conflict resolution approach for competing priorities, RACI matrix for key decisions, and stakeholder update template. Goal: alignment on [specific outcome].
+
 ## Quick Start
 
 **Need stakeholder alignment quickly?** Use this streamlined approach:

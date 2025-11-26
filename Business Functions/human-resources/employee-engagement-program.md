@@ -32,6 +32,9 @@ slug: employee-engagement-program
 ## Purpose
 Comprehensive employee engagement framework covering engagement assessment, program design, culture development, recognition systems, communication strategies, and performance measurement to build a highly engaged and productive workforce.
 
+## Quick Employee Engagement Prompt
+Design engagement program for [company] with [X employees] across [Y locations]. Current score: [X%], target: [Y%]. Budget: $[Z]. Focus: [job satisfaction/manager relationships/career development/recognition/culture]. Programs: [recognition platform/wellness/team building/communication]. Metrics: engagement score, retention [X%], productivity [Y%]. Timeline: [Z months].
+
 ## Quick Start
 
 Transform your workplace culture and boost engagement in three impactful phases:

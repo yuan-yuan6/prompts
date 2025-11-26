@@ -35,6 +35,10 @@ slug: podcast-content
 ## Purpose
 Create comprehensive podcast content strategies for episodes, interviews, shows, scripting, show notes, and promotion to build engaged audiences, deliver valuable content, and establish successful podcasting ventures.
 
+## Quick Podcast Content Prompt
+
+Create a podcast episode plan for [show name] in [niche/topic area]. Design [format: interview/solo/panel] episode lasting [duration] covering [episode topic]. Develop opening hook for [target listener], prepare [number] interview questions for [guest type], write show notes with [key takeaways], create promotional content for [platforms], and include call-to-action for [listener goal]. Target [download/engagement metrics] with release on [schedule].
+
 ## Quick Start
 
 Transform your podcast idea into engaging audio content. Here's how to launch fast:

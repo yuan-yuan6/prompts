@@ -29,6 +29,9 @@ slug: experimental-design-setup
 ## Purpose
 Select and configure the appropriate experimental design structure for your research objectives. This prompt helps you choose from 8 different design types and set up the framework for randomized controlled trials, A/B tests, factorial designs, crossover designs, cluster randomized trials, stepped wedge designs, quasi-experimental designs, and regression discontinuity designs.
 
+## Quick Design Setup Prompt
+Set up experiment for [research question] with [sample size] participants. Choose design type (RCT/A/B test/factorial/cluster), define treatment and control conditions, specify randomization method, identify primary and secondary outcomes, list key covariates to control, and create the allocation scheme. Output a design specification table and implementation checklist.
+
 ## Quick Start
 
 **Example: Setting Up a Cluster Randomized Trial for Educational Intervention**

@@ -30,6 +30,10 @@ slug: curriculum-development-framework
 ## Purpose
 Comprehensive framework for developing educational curricula including learning objectives, instructional design, assessment strategies, technology integration, accessibility considerations, and continuous improvement for maximizing learning outcomes and student success.
 
+## Quick Curriculum Development Framework Prompt
+
+Create a comprehensive educational curriculum framework for [program name] targeting [learner population] with [duration]. Define [number] core competencies aligned with [industry/accreditation standards] using [pedagogical approach]. Design assessment strategies including [formative/summative methods] with [completion rate] and [satisfaction] targets. Integrate technology platform [LMS/tools] with accessibility accommodations for [diverse learner needs]. Include continuous improvement metrics, faculty development needs, and implementation timeline.
+
 ## Quick Start
 
 **To Design Your First Curriculum:**

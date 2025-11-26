@@ -31,6 +31,10 @@ slug: literature-review-extraction-synthesis
 ## Purpose
 Extract comprehensive data systematically from included studies, conduct rigorous quantitative and qualitative synthesis, integrate evidence across methodologies, and develop coherent findings that address research questions through meta-analysis, thematic analysis, and narrative synthesis approaches.
 
+## Quick Literature Review Extraction Synthesis Prompt
+
+Extract data from [number] included studies on [review topic]. Capture [study characteristics: design/setting/sample], [intervention details], [outcome measures], and [effect sizes/findings]. For meta-analysis: calculate [effect metric: OR/RR/SMD] using [fixed/random effects] model, assess heterogeneity via [I²/Q statistic], conduct subgroup analysis by [variables]. For qualitative synthesis: code themes of [thematic areas] using [method: thematic/framework]. Present in [summary tables/forest plots].
+
 ## Quick Start
 
 ### For Data Extractors & Synthesizers

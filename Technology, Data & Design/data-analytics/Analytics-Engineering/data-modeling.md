@@ -35,6 +35,9 @@ slug: data-modeling
 ## Purpose
 Design comprehensive data modeling architectures including dimensional models, normalized structures, denormalized designs, and modern cloud-native architectures for enterprise analytics platforms.
 
+## Quick Modeling Prompt
+Design a [MODELING_METHODOLOGY] data model for [DOMAIN] with [FACT_TABLE_GRAIN] grain. Define the central fact table with measures [MEASURE_LIST], connect to dimensions [DIMENSION_LIST] using SCD Type [SCD_TYPE]. Include partitioning by [PARTITION_COLUMN] and optimize for [QUERY_PATTERN] queries. Specify DDL with appropriate indexes, constraints, and compression settings.
+
 ## Quick Start
 
 ### For Data Engineers

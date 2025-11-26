@@ -30,6 +30,9 @@ slug: regulatory-compliance-framework-overview
 ## Purpose
 This comprehensive regulatory compliance framework has been split into three focused sub-prompts for easier use and better organization. Each part builds on the previous one to create a complete compliance program strategy.
 
+## Quick Regulatory Compliance Navigation Prompt
+Navigate compliance framework for [organization] in [industry]. Use Part 1 (foundation) for: governance structure, policy framework, compliance culture, risk fundamentals. Use Part 2 (risk-monitoring) for: risk assessment, regulatory change management, training programs, audit basics. Use Part 3 (implementation) for: program deployment, technology, metrics, continuous improvement. Start with Part 1 for new programs.
+
 ## Navigation Guide
 
 ### Part 1: Foundation & Compliance Governance (350-400 lines)

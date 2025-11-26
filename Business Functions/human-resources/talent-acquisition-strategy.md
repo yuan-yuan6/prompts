@@ -33,6 +33,9 @@ slug: talent-acquisition-strategy
 ## Purpose
 Comprehensive framework for developing and executing talent acquisition strategies including workforce planning, employer branding, sourcing strategies, candidate experience optimization, and recruitment analytics for building high-performing teams.
 
+## Quick Talent Acquisition Prompt
+Build TA strategy for [company] hiring [X positions] annually. Targets: time-to-fill [X days], quality [Y score], offer acceptance [Z%], diversity [W%], cost-per-hire $[V]. Components: workforce planning, employer brand, sourcing mix ([channels]), candidate experience, selection methods, DEI recruiting. Tech: [ATS/tools]. Analytics: [metrics dashboard]. Include: recruiter enablement, onboarding integration.
+
 ## Quick Start
 
 Build a high-performance recruiting engine in three strategic steps:

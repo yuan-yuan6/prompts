@@ -35,6 +35,9 @@ slug: investment-portfolio-management
 ## Purpose
 Comprehensive framework for professional investment portfolio management including asset allocation, risk analysis, performance measurement, client management, and regulatory compliance for institutional and retail portfolios.
 
+## Quick Investment Portfolio Prompt
+Manage portfolio for [client type] with $[X] AUM, [risk profile], [Y%] return target, [Z-year] horizon. Allocation: equities [X%] (large/mid/small/intl), fixed income [Y%] (govt/corp/muni), alternatives [Z%] (REITs/PE/hedge), cash [W%]. IPS: objectives, constraints, benchmarks. Rebalancing: [±X%] bands, [quarterly] review. Compliance: [regulatory framework]. Reporting: [monthly/quarterly] statements.
+
 ## Quick Start
 
 Get started managing an investment portfolio in under an hour with these practical examples:

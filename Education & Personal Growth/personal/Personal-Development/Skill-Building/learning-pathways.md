@@ -35,6 +35,10 @@ slug: learning-pathways
 ## Overview
 This comprehensive template enables individuals and organizations to design, implement, and optimize sophisticated learning pathway systems that accelerate skill development, career growth, and knowledge acquisition. It covers everything from learning strategy and pathway design to personalized learning experiences, assessment methods, and continuous improvement frameworks.
 
+## Quick Learning Pathways Prompt
+
+Design a personalized learning pathway for me to develop [target competencies] for [career goal - transition/advancement/new skill]. My current level is [beginner/intermediate] with background in [relevant experience]. I can commit [hours per week] over [timeframe] with a budget of [amount]. Create a structured curriculum with phases, recommended resources (courses/books/projects), milestone checkpoints, skill assessments, and a visual roadmap. Include both free and paid options prioritized by ROI.
+
 ## Quick Start
 
 **For a 30-Minute Setup:**

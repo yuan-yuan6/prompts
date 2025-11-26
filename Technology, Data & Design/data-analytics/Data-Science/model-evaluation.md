@@ -36,6 +36,9 @@ slug: model-evaluation
 ## Purpose
 Design and implement comprehensive model evaluation and validation frameworks to assess model performance, reliability, fairness, and business impact across diverse machine learning applications.
 
+## Quick Evaluation Prompt
+Evaluate [model type] for [prediction task]. Calculate performance metrics appropriate for [classification/regression]: accuracy, precision, recall, F1, AUC (classification) or RMSE, MAE, R² (regression). Perform k-fold cross-validation, check for overfitting, assess fairness across [protected groups], and calculate business impact. Provide go/no-go recommendation with confidence level.
+
 ## Quick Start
 
 **Need to evaluate a model quickly?** Use this minimal example:

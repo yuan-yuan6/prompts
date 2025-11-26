@@ -27,6 +27,9 @@ slug: siem-security-monitoring
 ## Purpose
 Comprehensive framework for implementing SIEM platforms, security monitoring, log management, threat detection, incident response, and SOC operations.
 
+## Quick SIEM Prompt
+Implement SIEM for [organization] using [Splunk/Sentinel/Elastic/QRadar]. Log sources: [X endpoints], [Y servers], [firewalls], [cloud: AWS/Azure/GCP], [applications]. Configure: detection use cases (brute force, lateral movement, data exfiltration), correlation rules, alert thresholds, compliance dashboards. SOC operations: triage procedures, escalation matrix, 24x7 coverage model. Target: [X] EPS, [Y] day retention.
+
 ## Quick Start
 
 **Need to implement SIEM?** Use this minimal example:

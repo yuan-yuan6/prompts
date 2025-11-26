@@ -30,6 +30,9 @@ slug: graphic-design
 ## Purpose
 Create comprehensive graphic design solutions including layouts, branding, and visuals for both digital and print media across various applications.
 
+## Quick Visual Design Prompt
+Create [design type: brand identity/print materials/digital assets/packaging] for [project name] targeting [audience]. Brand personality: [3 adjectives]. Color palette: [X colors]. Typography: [font families]. Deliver: [primary deliverables], format specs [print: CMYK 300dpi / digital: RGB 72dpi], and brand usage guidelines for consistent application.
+
 ## Quick Start
 
 Need a design brief that delivers professional results? Here's your fast track:

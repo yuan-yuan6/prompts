@@ -34,6 +34,9 @@ slug: engineering-data-quality
 ## Purpose
 Implement comprehensive data quality frameworks including validation, cleansing, monitoring, profiling, and governance to ensure high-quality, reliable, and trustworthy data across enterprise systems.
 
+## Quick Data Quality Prompt
+Implement data quality for [dataset/pipeline]. Dimensions: completeness, accuracy, consistency, timeliness, uniqueness. Rules: [null checks], [value ranges], [referential integrity], [business logic]. Tools: [Great Expectations/dbt tests/Soda]. Profiling: statistical summaries, distribution analysis. Alerting: threshold breaches → PagerDuty/Slack. Dashboard: quality scores by table, trend analysis. SLA: [X%] quality score, [Y-hour] freshness.
+
 ---
 
 ## Quick Start

@@ -34,6 +34,9 @@ slug: landing-pages
 ## Purpose
 Create high-converting landing pages with compelling copy, optimized structure, and conversion-focused design that drive specific actions and maximize campaign performance.
 
+## Quick Landing Page Prompt
+Design landing page for [BRAND_NAME] with [CONVERSION_GOAL] (free trial/demo request/download/purchase) objective targeting [TARGET_AUDIENCE]. Write headline promising [SPECIFIC_OUTCOME] in 10 words or less. Structure: hero section with headline + subheadline + CTA, problem/solution, [BENEFIT_COUNT] key benefits, [TESTIMONIAL_COUNT] testimonials, objection handling, final CTA. Minimize form to [FIELD_COUNT] fields. Add trust elements: [TRUST_BADGES]. Target [CONVERSION_RATE]% conversion rate. Mobile-first design.
+
 ## Quick Start
 
 Want a landing page that converts at 20%+ instead of 2%? Here's the formula:

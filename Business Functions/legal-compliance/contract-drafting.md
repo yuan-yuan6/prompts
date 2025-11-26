@@ -32,6 +32,9 @@ slug: contract-drafting
 ## Purpose
 Create comprehensive legal contracts, agreements, terms of service, and binding documents with proper structure, protective clauses, and enforceable provisions that protect interests while maintaining clarity and legal validity.
 
+## Quick Contract Drafting Prompt
+Draft [contract type] between [Party A] and [Party B] for [purpose]. Jurisdiction: [governing law]. Term: [duration], effective [date]. Key terms: [price/deliverables/timeline]. Protections: liability cap [amount], indemnification [scope], warranties [type]. IP ownership: [assignment/license]. Termination: [for cause/convenience], [notice period]. Dispute: [arbitration/mediation/litigation].
+
 ## Quick Start
 
 Get started drafting legally sound contracts in 3 steps:

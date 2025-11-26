@@ -35,6 +35,9 @@ slug: digital-transformation
 ## Purpose
 Comprehensive framework for planning and executing enterprise-wide digital transformation initiatives including technology modernization, process digitization, cultural change, and business model innovation.
 
+## Quick Digital Transformation Strategy Prompt
+Lead digital transformation for [COMPANY_NAME] in [INDUSTRY] with [BUDGET] investment over [TIMELINE]. Assess digital maturity across [ASSESSMENT_AREAS] (technology/operations/culture/customer experience). Prioritize initiatives: [TOP_INITIATIVES] (cloud migration/automation/AI implementation/digital products). Define change management approach for [EMPLOYEE_COUNT] employees. Build capabilities in [SKILL_AREAS]. Target [REVENUE_IMPACT]% revenue growth, [EFFICIENCY_GAIN]% operational efficiency, and [ROI_TARGET]% transformation ROI.
+
 ## Quick Start
 
 ### Minimal Example

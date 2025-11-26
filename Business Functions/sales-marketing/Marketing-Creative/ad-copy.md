@@ -31,6 +31,9 @@ slug: ad-copy
 ## Purpose
 Create compelling advertising copy for digital, print, and broadcast media that drives engagement, conversions, and brand awareness across multiple channels and platforms.
 
+## Quick Ad Copy Prompt
+Create [AD_TYPE] (Google/Facebook/LinkedIn/display) ads for [BRAND_NAME] targeting [TARGET_AUDIENCE] with [CAMPAIGN_OBJECTIVE] (awareness/traffic/conversions) goal. Product/service: [PRODUCT_DESCRIPTION]. Key benefit: [PRIMARY_BENEFIT]. Write [VARIATION_COUNT] headline variations (problem-focused, benefit-focused, curiosity-driven). Include [CTA_TYPE] CTAs and [PROOF_ELEMENT] (testimonial/stat/trust badge). Target [CTR_TARGET]% CTR and [CONVERSION_TARGET]% conversion rate. Character limits: [HEADLINE_LIMIT] headline, [DESCRIPTION_LIMIT] description.
+
 ## Quick Start
 
 Need ad copy that stops the scroll and drives clicks? Here's your battle plan:

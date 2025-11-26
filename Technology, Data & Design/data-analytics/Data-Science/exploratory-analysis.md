@@ -35,6 +35,9 @@ slug: exploratory-analysis
 ## Purpose
 Conduct comprehensive exploratory data analysis to understand data characteristics, identify patterns, detect anomalies, and prepare insights for advanced analytics and modeling.
 
+## Quick Analysis Prompt
+Perform EDA on [dataset name] with [X rows, Y columns]. Profile data types and missing values, generate descriptive statistics, create distribution plots for key numeric variables, analyze categorical breakdowns, check correlations, and identify outliers. Produce 5 key findings with visualizations and a data quality summary with recommendations for modeling.
+
 ## Quick Start
 
 **Need to analyze a dataset quickly?** Use this minimal example:

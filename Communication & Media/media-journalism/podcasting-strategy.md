@@ -31,6 +31,10 @@ slug: podcasting-strategy
 ## Purpose
 Comprehensive framework for developing and producing podcasts including content strategy, production workflows, audience growth, monetization models, and distribution strategies for media organizations and content creators.
 
+## Quick Podcasting Strategy Prompt
+
+Launch podcast [name] in [niche/topic] targeting [listener count] audience. Define format as [interview/narrative/news/hybrid] with [duration] episodes at [frequency]. Set up production workflow for [recording/editing/publishing], distribute on [platforms: Apple/Spotify/YouTube], grow audience via [SEO/social/guest leverage], and monetize through [sponsorship/premium/events]. Target [downloads] per episode with [growth rate]% monthly growth and [revenue] revenue within [timeline].
+
 ## Quick Start
 
 **Need to launch a podcast quickly?** Use this minimal example:

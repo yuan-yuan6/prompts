@@ -32,6 +32,10 @@ slug: best-practices
 ## Purpose
 Create comprehensive frameworks for documenting organizational standards, guidelines, procedures, best practices, and operational excellence initiatives across various business functions and industries.
 
+## Quick Best Practices Prompt
+
+Create a best practices framework for [organization type] in [industry sector] covering [business function]. Develop standards hierarchy with [corporate/functional/process] levels, document [number] critical mandatory standards for [key processes], establish governance via [approval workflow/review board], ensure compliance with [regulatory requirements], and create monitoring through [audit frequency/metrics]. Include version control, change management, and training requirements for [staff roles].
+
 ## Quick Start
 
 **Get started in 3 minutes:**

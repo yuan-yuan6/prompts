@@ -31,6 +31,10 @@ slug: social-activities
 ## Purpose
 Develop engaging social activity plans including events, group participation, and relationship building to enhance social connections, community involvement, and personal fulfillment through meaningful social interactions and shared experiences.
 
+## Quick Social Activities Prompt
+
+Help me build my social life and connections. I'm [introvert/extrovert/ambivert] looking to [make new friends/expand professional network/find activity partners/build community]. My interests include [hobbies/activities] and I'm comfortable with [small groups/one-on-one/large events]. Suggest specific groups to join, events to attend, conversation starters, and a 30-day plan to meet [number] new people. Include follow-up strategies to turn acquaintances into meaningful connections.
+
 ## Quick Start
 
 Build your social network in three simple steps:

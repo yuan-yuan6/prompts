@@ -32,6 +32,9 @@ slug: wealth-financial-planning
 ## Purpose
 Create comprehensive financial planning strategies, wealth management frameworks, investment portfolios, and retirement plans that optimize financial outcomes, minimize taxes, and achieve long-term wealth preservation and growth objectives.
 
+## Quick Financial Planning Prompt
+Create plan for [age]-year-old with $[X] income, $[Y] savings, $[Z] retirement accounts. Goals: retire at [age] with $[X], [home/education/other goals]. Risk: [tolerance level]. Strategy: savings rate [X%], allocation [stocks/bonds/cash], tax optimization [401k/Roth/HSA]. Insurance: [life/disability] coverage. Estate: [will/trust/beneficiaries]. Timeline: [90-day actions], [annual review].
+
 ## Quick Start
 
 **Need to create a financial plan quickly?** Use this minimal example:

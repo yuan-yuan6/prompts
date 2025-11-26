@@ -36,6 +36,10 @@ slug: status-updates
 ## Purpose
 Comprehensive framework for creating effective status updates, progress reports, and team communications that inform stakeholders, track progress, and maintain alignment.
 
+## Quick Status Updates Prompt
+
+Create a status report for [project/team] covering [time period]. Use traffic light format showing [overall status color], summarize accomplishments of [completed items], highlight in-progress work on [active tasks with completion %], identify blockers including [issues with owners/resolution dates], and preview upcoming priorities for [next period]. Format for [audience: executive/team/stakeholder] with [detail level] and distribute via [channel] by [deadline].
+
 ## Quick Start
 
 Create your first effective status update in 10 minutes:

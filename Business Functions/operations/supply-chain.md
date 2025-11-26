@@ -37,6 +37,9 @@ slug: supply-chain
 ## Purpose
 Create comprehensive supply chain management strategies covering logistics optimization, inventory management, and procurement processes to enhance operational efficiency and cost-effectiveness.
 
+## Quick Supply Chain Management Prompt
+Develop supply chain strategy for [COMPANY_TYPE] with [ANNUAL_REVENUE] revenue and [PRODUCT_LINES] product lines. Assess current performance: [INVENTORY_TURNS] turns, [OTIF_RATE]% OTIF delivery, [SUPPLY_CHAIN_COSTS]% of revenue. Optimize [SUPPLIER_COUNT] suppliers through strategic sourcing. Implement inventory policies for [INVENTORY_VALUE] inventory. Improve logistics across [DISTRIBUTION_NETWORK] network. Target [COST_REDUCTION]% cost reduction, [INVENTORY_IMPROVEMENT]% inventory efficiency, and [SERVICE_IMPROVEMENT]% service level improvement.
+
 ## Quick Start
 
 To rapidly improve your supply chain performance:

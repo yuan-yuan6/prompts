@@ -31,6 +31,10 @@ slug: conference-presentations
 ## Purpose
 Create compelling academic conference presentations, posters, and talks that effectively communicate research findings, engage audiences, and facilitate scholarly discourse across diverse scientific communities.
 
+## Quick Conference Presentations Prompt
+
+Create [presentation type: oral/poster/keynote/lightning talk] for [conference name] presenting research on [topic]. Design [duration]-minute talk for [audience: specialists/interdisciplinary] with structure of [intro/methods/results/discussion time allocation]. Include [number] slides with [key findings], create visuals at [resolution] DPI, prepare [number] anticipated Q&A responses, and develop [hook type: question/statistic/visual] opening. For poster: [dimensions] layout with [word count] words and 30-second elevator pitch.
+
 ## Quick Start
 
 **Get started in 3 minutes:**

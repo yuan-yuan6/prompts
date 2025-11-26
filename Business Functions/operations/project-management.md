@@ -34,6 +34,9 @@ slug: project-management
 ## Purpose
 Create comprehensive project management frameworks covering project planning, tracking, and reporting to ensure successful project delivery and stakeholder satisfaction.
 
+## Quick Project Management Prompt
+Create a project plan for [PROJECT_NAME] with [BUDGET] budget and [DURATION] timeline. Define scope with [DELIVERABLE_COUNT] key deliverables and [MILESTONE_COUNT] milestones. Allocate [TEAM_SIZE] team members across [WORKSTREAM_COUNT] workstreams. Identify risks: [TOP_RISKS]. Establish governance with [STAKEHOLDER_COUNT] stakeholders. Implement tracking using [METHODOLOGY] (waterfall/agile/hybrid). Target [ON_TIME_TARGET]% on-time delivery, [BUDGET_VARIANCE]% budget variance, and [QUALITY_SCORE] quality metrics.
+
 ## Quick Start
 
 **Need to create a project plan quickly?** Use this minimal example:

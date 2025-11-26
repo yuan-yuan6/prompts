@@ -34,6 +34,9 @@ slug: investment-portfolio-optimization
 ## Purpose
 Comprehensive framework for optimizing investment portfolios including asset allocation, risk management, performance analysis, rebalancing strategies, tax optimization, and alternative investments for maximizing risk-adjusted returns.
 
+## Quick Portfolio Optimization Prompt
+Optimize portfolio for [investor] with $[X] assets, [risk tolerance], [Y-year] horizon, targeting [Z%] return, [W%] volatility, [Sharpe ratio]. Current allocation: [breakdown]. Optimization: [mean-variance/Black-Litterman/factor-based]. Constraints: [concentration limits], [asset class bounds], [liquidity]. Tax: harvest losses, asset location. Rebalancing: [calendar/threshold]. Output: efficient frontier, recommended allocation, implementation plan.
+
 ## Quick Start
 
 **For Portfolio Managers & Investors:**

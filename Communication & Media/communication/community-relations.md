@@ -38,6 +38,10 @@ slug: community-relations
 ## Purpose
 Comprehensive framework for building strong community relationships, planning effective outreach programs, managing stakeholder engagement, organizing community events, and fostering long-term partnerships that benefit both the organization and the communities it serves.
 
+## Quick Community Relations Prompt
+
+Develop a community relations strategy for [organization] operating in [location/region]. Identify key community stakeholders including [groups/organizations], create engagement plan for [initiatives/programs], establish CSR focus areas aligned with [company values/community needs], develop partnership opportunities with [local organizations], and create measurement framework for [community impact metrics]. Address community concerns about [identified issues].
+
 ## Quick Start
 
 **Need to build community relationships quickly?** Use this minimal example:

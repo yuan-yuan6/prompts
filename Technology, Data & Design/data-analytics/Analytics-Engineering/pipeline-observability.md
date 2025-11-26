@@ -30,6 +30,9 @@ slug: pipeline-observability
 ## Purpose
 Design and implement comprehensive monitoring, observability, and error handling systems for data pipelines. This template covers metrics collection, alerting, dashboard creation, error recovery strategies, circuit breakers, and operational resilience patterns.
 
+## Quick Monitoring Prompt
+Design an observability system for [PIPELINE_NAME] using [MONITORING_FRAMEWORK]. Track metrics: [EXECUTION_TIME/THROUGHPUT/ERROR_RATE], set SLA threshold at [SLA_MINUTES] minutes, implement [ERROR_SEVERITY] classification with [RETRY/QUARANTINE/DLQ] recovery strategies. Include circuit breaker with [FAILURE_THRESHOLD] failures triggering [COOLDOWN_SECONDS]s cooldown and alerting via [ALERT_CHANNEL].
+
 ## Quick Start
 
 ### For Data Engineers

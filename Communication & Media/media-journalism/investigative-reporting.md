@@ -33,6 +33,10 @@ slug: investigative-reporting
 ## Purpose
 Comprehensive framework for conducting investigative journalism including source development, document analysis, fact verification, legal considerations, data journalism techniques, and publication strategies.
 
+## Quick Investigative Reporting Prompt
+
+Plan investigative report on [topic/subject] with [scope: local/state/national]. Develop [number] sources including [source types: officials/whistleblowers/experts], analyze [document types: records/financial/data], verify claims through [corroboration methods], assess legal risks for [liability areas], protect sources via [security protocols], and publish across [platforms: print/digital/video/data viz]. Timeline of [months] with budget of [amount] targeting [impact: policy change/accountability/public awareness].
+
 ## Quick Start
 
 **Need to plan an investigative story quickly?** Use this minimal example:

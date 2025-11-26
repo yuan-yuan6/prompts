@@ -32,6 +32,9 @@ slug: graphic-design-comprehensive
 ## Purpose
 Create comprehensive graphic design solutions covering layouts, branding, logos, visuals, infographics, and presentations for both digital and print applications across all design disciplines.
 
+## Quick Graphic Design Prompt
+Design [asset type: logo/brand identity/marketing collateral/infographic] for [client/brand]. Target audience: [demographic]. Style: [modern/classic/minimalist/bold]. Colors: [X primary + Y accent]. Deliverables: primary design, 3 variations, style guide excerpt, and production files (AI/PSD + PDF + PNG). Apply to: [print specs] and [digital specs].
+
 ## Quick Start
 
 **Create Your First Design Asset in 30 Minutes**

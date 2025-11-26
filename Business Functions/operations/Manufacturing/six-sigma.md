@@ -32,6 +32,9 @@ slug: six-sigma
 ## Purpose
 Comprehensive framework for implementing Six Sigma methodologies, quality control systems, defect reduction programs, process improvement initiatives, and continuous quality enhancement in manufacturing environments.
 
+## Quick Six Sigma Prompt
+Implement Six Sigma program for [FACILITY_NAME] manufacturing [PRODUCT_TYPE]. Current sigma level: [CURRENT_SIGMA] ([DPMO_BASELINE] DPMO). Deploy DMAIC project on [TARGET_PROCESS] with [DEFECT_TYPE] defect costing [DEFECT_COST] annually. Train [GREEN_BELT_COUNT] Green Belts and [BLACK_BELT_COUNT] Black Belts. Implement SPC with Cp/Cpk targets of [CAPABILITY_TARGET]. Target [SIGMA_TARGET] sigma level, [DEFECT_REDUCTION]% defect reduction, [COST_SAVINGS] annual savings, and [PROJECT_COUNT] completed projects in Year 1.
+
 ## Quick Start
 
 **Get started in 3 steps:**

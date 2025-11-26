@@ -31,6 +31,10 @@ slug: comedy-writing-comprehensive
 ## Purpose
 Create comprehensive comedy writing solutions covering jokes, sketches, standup routines, satire, memes, roasts, and comedic content across all formats and platforms.
 
+## Quick Comedy Writing Comprehensive Prompt
+
+Create [comedy format: standup/sketch/satire/social] content for [project name] targeting [audience demographic]. Develop [number] jokes/bits using [comedy style: observational/physical/dark/absurd], structure [duration] set/piece with [opening hook] through [callback/tag], address [topic/theme] with [angle: personal/social/political], and ensure [ethical consideration: punching up]. Target [venue/platform] with [performance/posting] timeline and [laugh metric] success criteria.
+
 ## Quick Start
 
 **Write Comedy That Lands in 1 Hour**

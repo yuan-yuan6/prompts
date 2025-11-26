@@ -36,6 +36,9 @@ slug: logistics-supply-chain-optimization
 ## Purpose
 Advanced framework for end-to-end supply chain optimization, network design, inventory management, demand planning, and logistics coordination across global supply networks.
 
+## Quick Supply Chain Network Prompt
+Optimize supply chain network for [COMPANY_NAME] with [SKU_COUNT] SKUs, [SUPPLIER_COUNT] suppliers, [DC_COUNT] distribution centers, and [CUSTOMER_COUNT] key customers. Current volume: [ANNUAL_VOLUME] units annually. Model network design scenarios for facility locations and capacity. Optimize inventory positioning using multi-echelon analysis. Implement demand planning with [FORECAST_ACCURACY]% accuracy target. Target [TOTAL_COST_REDUCTION]% total supply chain cost reduction, [INVENTORY_REDUCTION]% inventory reduction, [SERVICE_LEVEL]% service level, and [LEAD_TIME_REDUCTION]% lead time reduction.
+
 ## Quick Start
 
 ### For Supply Chain Managers & Logistics Directors

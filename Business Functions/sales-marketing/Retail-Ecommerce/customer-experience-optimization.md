@@ -29,6 +29,9 @@ slug: customer-experience-optimization
 ## Purpose
 Create comprehensive customer experience optimization strategies, omnichannel journey enhancement plans, personalization frameworks, and customer-centric transformation initiatives that drive customer satisfaction, loyalty, and lifetime value across all retail and e-commerce touchpoints.
 
+## Quick CX Optimization Prompt
+Optimize customer experience for [RETAIL_FORMAT] (e-commerce/omnichannel/retail) with [CUSTOMER_COUNT] customers. Current metrics: [NPS_SCORE] NPS, [CSAT_SCORE] CSAT, [CONVERSION_RATE]% conversion. Map customer journey across [TOUCHPOINT_COUNT] touchpoints: awareness, consideration, purchase, post-purchase. Identify top [PAIN_POINT_COUNT] friction points. Design personalization for [SEGMENT_COUNT] customer segments. Implement [CX_INITIATIVES] (checkout optimization/recommendations/support). Target [NPS_TARGET] NPS, [CONVERSION_TARGET]% conversion, and [LTV_INCREASE]% LTV increase.
+
 ## Quick Start
 
 To use this template effectively:

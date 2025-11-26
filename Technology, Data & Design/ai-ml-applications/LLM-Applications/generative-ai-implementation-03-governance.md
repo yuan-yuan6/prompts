@@ -466,3 +466,13 @@ Create implementation and governance for:
 ---
 
 **Generative AI Implementation Complete:** This concludes the three-part Generative AI Implementation framework. Review all parts for comprehensive, responsible AI deployment.
+
+---
+
+## 🚀 Quick Evaluation Prompt
+
+**Copy and use this generic prompt to develop this LLM application:**
+
+> I need to build **[LLM APPLICATION]** that **[CORE FUNCTIONALITY]**. Guide me through: (1) **Architecture design**—what LLM should I use, what's the system architecture, and how do I handle context? (2) **Prompt engineering**—what are effective prompt patterns, how do I handle edge cases, and how do I ensure consistency? (3) **Evaluation strategy**—how do I measure quality, prevent hallucinations, and validate outputs? (4) **Production readiness**—what are latency requirements, cost optimization strategies, and monitoring needs? Provide detailed implementation guidance, code examples where helpful, quality thresholds, and a deployment checklist.
+
+**Usage:** Fill in the brackets with your specific details and use this as a prompt to an AI assistant, or as a structured framework for your LLM application development.

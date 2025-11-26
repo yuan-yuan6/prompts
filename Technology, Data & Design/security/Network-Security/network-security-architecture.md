@@ -27,6 +27,9 @@ slug: network-security-architecture
 ## Purpose
 Comprehensive framework for designing secure network architectures including segmentation, defense-in-depth, firewall policies, IDS/IPS, VPNs, and zero trust networking.
 
+## Quick Network Security Prompt
+Design network security for [enterprise] with [X locations], [Y users], [on-prem/cloud/hybrid]. Implement: network segmentation (zones, VLANs), firewall policies (deny-by-default), IDS/IPS deployment, secure remote access (ZTNA/VPN), DNS security, and DDoS protection. Compliance: [PCI-DSS/HIPAA]. Deliver: network architecture diagram, security zone definitions, firewall rule templates, and monitoring strategy.
+
 ## Quick Start
 
 **Need to design network security?** Use this minimal example:

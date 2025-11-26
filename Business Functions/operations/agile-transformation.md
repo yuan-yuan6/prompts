@@ -35,6 +35,9 @@ slug: agile-transformation
 ## Purpose
 Comprehensive framework for implementing agile transformation including methodology adoption, team restructuring, cultural change, process optimization, tool integration, and performance measurement for achieving organizational agility and innovation.
 
+## Quick Agile Transformation Prompt
+Design an agile transformation program for [ORGANIZATION_TYPE] with [TEAM_COUNT] teams and [EMPLOYEE_COUNT] people. Transition from [CURRENT_METHODOLOGY] to [TARGET_METHODOLOGY] (Scrum/SAFe/Kanban) over [TIMELINE] months. Address cultural barriers including [RESISTANCE_FACTORS], implement [SPRINT_LENGTH]-week sprints, define roles (Scrum Masters, Product Owners), and establish metrics targeting [DELIVERY_IMPROVEMENT]% faster delivery and [QUALITY_IMPROVEMENT]% quality improvement.
+
 ## Quick Start
 
 **Need to implement agile transformation quickly?** Use this minimal example:

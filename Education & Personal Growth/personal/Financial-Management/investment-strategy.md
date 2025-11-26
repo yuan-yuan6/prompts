@@ -31,6 +31,10 @@ slug: investment-strategy
 ## Purpose
 Develop comprehensive investment portfolios with proper risk management, diversification strategies, and long-term wealth building approaches tailored to individual financial goals and risk tolerance.
 
+## Quick Investment Strategy Prompt
+
+Develop an investment strategy for me. I'm [age] years old with [risk tolerance - conservative/moderate/aggressive] risk tolerance and [amount] to invest. My primary goal is [retirement/wealth building/specific purchase] with a [timeframe] horizon. Current investments include [existing holdings if any]. Recommend asset allocation percentages, specific low-cost fund options, rebalancing schedule, and tax-efficient account placement strategy.
+
 ## Quick Start
 
 Begin building your investment strategy in 3 steps:

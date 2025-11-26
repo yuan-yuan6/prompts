@@ -29,6 +29,9 @@ slug: loyalty-program
 ## Purpose
 Comprehensive framework for designing, implementing, and optimizing customer loyalty programs including rewards structures, tier systems, engagement strategies, personalization tactics, and ROI measurement.
 
+## Quick Loyalty Program Prompt
+Design loyalty program for [COMPANY_TYPE] with [CUSTOMER_COUNT] customers and [AOV] average order value. Create [TIER_COUNT]-tier system (e.g., Bronze/Silver/Gold) with [POINTS_RATE] points per $1 spent. Define tier thresholds and benefits: [TIER_BENEFITS] (early access/free shipping/birthday rewards/exclusive discounts). Set redemption rate: $1 = [REDEMPTION_RATE] points. Add engagement mechanics: [ENGAGEMENT_FEATURES] (bonus days/challenges/referrals). Target [ENROLLMENT_TARGET]% enrollment, [REPEAT_PURCHASE_LIFT]% repeat purchase lift, and [ROI_TARGET]x program ROI.
+
 ## Quick Start
 
 **For Retailers launching their first loyalty program:**

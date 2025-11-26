@@ -33,6 +33,10 @@ slug: peer-review
 ## Purpose
 Conduct comprehensive, constructive peer reviews that maintain scientific rigor while providing actionable feedback to improve research quality, advance knowledge, and support scholarly communication across disciplines.
 
+## Quick Peer Review Prompt
+
+Conduct [review type: manuscript/grant/abstract] review for [journal/agency] in [field/discipline]. Assess [methodology rigor/statistical validity/literature integration/ethical compliance], identify [number] major strengths and [number] key concerns, provide [number] specific actionable recommendations, and make recommendation of [accept/minor revision/major revision/reject] with justification. Structure as summary assessment, detailed evaluation of [sections: intro/methods/results/discussion], and improvement priorities ranked by [impact/feasibility].
+
 ## Quick Start
 
 **Get started in 3 minutes:**

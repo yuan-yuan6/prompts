@@ -34,6 +34,9 @@ slug: smart-construction-management
 ## Purpose
 Comprehensive framework for implementing smart construction technologies and infrastructure management including BIM integration, IoT monitoring, project automation, safety systems, sustainability practices, and predictive maintenance for modern construction projects.
 
+## Quick Smart Construction Prompt
+Implement smart construction for [PROJECT_NAME] with [PROJECT_VALUE] budget. Deploy BIM at Level [BIM_LEVEL] for 3D/4D coordination and clash detection. Install [SENSOR_COUNT] IoT sensors for equipment tracking, weather, and progress monitoring. Enable drone surveys with AI analysis. Implement digital safety monitoring with [SAFETY_TECH] (wearables/cameras). Target [SCHEDULE_EFFICIENCY]% schedule efficiency, [COST_SAVINGS]% cost savings, [SAFETY_TARGET] safety incidents, and [SUSTAINABILITY_RATING] sustainability score.
+
 ## Quick Start
 
 **For Construction Project Managers:**

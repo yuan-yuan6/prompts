@@ -29,6 +29,9 @@ slug: variables-and-implementation
 ## Purpose
 Complete reference guide for implementing experimental designs with comprehensive variable definitions, output requirements, practical examples, best practices, and customization options. Use this as your implementation handbook for translating experimental design concepts into practice.
 
+## Quick Implementation Prompt
+Implement [experiment type] for [objective]. Configure variables: [DESIGN_TYPE], [N_USERS], [VARIANTS], [PRIMARY_OUTCOME], [BASELINE_VALUE], [MDE], [POWER], [ALPHA]. Set up randomization with [method/seed], define data collection spec, create analysis plan covering ITT and secondary analyses, and document timeline. Validate sample size with power analysis.
+
 ## Quick Start
 
 **Example: Using Variables for A/B Test Implementation**

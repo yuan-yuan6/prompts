@@ -35,6 +35,9 @@ slug: renewable-energy-strategy
 ## Purpose
 Comprehensive framework for developing renewable energy strategies including technology assessment, project development, grid integration, energy storage, sustainability metrics, and economic modeling for utilities and enterprises.
 
+## Quick Renewable Energy Strategy Prompt
+Develop renewable energy strategy for [ORGANIZATION_NAME] targeting [CAPACITY_TARGET] MW capacity and [RENEWABLE_MIX]% renewable portfolio. Assess technologies: solar ([SOLAR_MW] MW), wind ([WIND_MW] MW), storage ([STORAGE_MWH] MWh). Budget [INVESTMENT_BUDGET] capital investment. Model economics with [LCOE_TARGET] $/MWh LCOE target and [ROI_TARGET]% IRR. Plan grid integration and interconnection. Achieve [CARBON_REDUCTION]% carbon reduction, [RELIABILITY_TARGET]% reliability, and [REGULATORY_COMPLIANCE] compliance.
+
 ## Quick Start
 
 ### For Utilities & Energy Companies

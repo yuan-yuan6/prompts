@@ -31,6 +31,10 @@ slug: budget-planning
 ## Purpose
 Create comprehensive budget planning systems including income tracking, expense management, and financial goal achievement to optimize personal financial health and wealth building.
 
+## Quick Budget Planning Prompt
+
+Create a monthly budget for me with [income amount] monthly take-home pay. My financial situation is [single/married/family with dependents] and my top goals are [goals - emergency fund/debt payoff/saving for house]. My fixed expenses include [rent/mortgage, utilities, insurance] totaling approximately [amount]. Suggest expense allocations using the [50/30/20 or zero-based] method, identify areas to reduce spending, and provide a tracking system to monitor progress.
+
 ## Quick Start
 
 Get started with budget planning in 3 steps:

@@ -32,6 +32,9 @@ slug: experimental-design-overview
 
 This framework provides a comprehensive system for designing, implementing, and analyzing controlled experiments to establish causal relationships with statistical rigor. Whether you're conducting randomized controlled trials, A/B tests, or quasi-experimental studies, this suite of prompts guides you through every phase from initial design to final analysis and interpretation.
 
+## Quick Navigation Prompt
+I need to design an experiment to test [hypothesis]. Help me navigate the experimental design framework: recommend the appropriate design type (RCT, A/B test, factorial, quasi-experimental), guide me to the right sub-prompts for power analysis, randomization, implementation, and analysis. Identify key considerations for my use case (sample size, timeline, potential confounds).
+
 ## Framework Components
 
 This experimental design framework is organized into 5 specialized prompts, each focusing on a critical phase of experimental research:

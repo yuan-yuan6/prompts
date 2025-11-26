@@ -35,6 +35,9 @@ slug: audit-compliance
 ## Purpose
 Create comprehensive audit and compliance strategies covering internal controls, external audits, and regulatory requirements to ensure accountability, transparency, and adherence to legal and industry standards.
 
+## Quick Audit Compliance Prompt
+Design audit program for [company] with [X employees], [industry]. Regulations: [SOX/HIPAA/GDPR/PCI-DSS]. Scope: internal controls, [quarterly/annual] testing, external audit coordination. Framework: [COSO/COBIT]. Risk assessment: [high/medium/low] areas. Deliverables: control matrix, testing schedule, issue tracking, board reporting. Resources: [internal audit team size], [co-source/outsource].
+
 ## Quick Start
 
 ### Minimal Example

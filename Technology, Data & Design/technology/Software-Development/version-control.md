@@ -33,6 +33,9 @@ slug: version-control
 ## Purpose
 Comprehensive framework for version control management, Git workflows, branching strategies, code review processes, merge conflict resolution, and collaborative development practices.
 
+## Quick Version Control Prompt
+Set up Git workflow for [team size] developers. Strategy: [Git Flow/GitHub Flow/trunk-based]. Branches: [main/develop/feature/release/hotfix]. Protection: require [X] reviewers, CI checks pass. Commits: [Conventional Commits], issue linking. PR: template, automated tests, security scan. Automation: semantic versioning, changelog, release notes. Tools: [GitHub/GitLab/Bitbucket].
+
 ## Quick Start
 
 **Establish Git workflow in 5 steps:**

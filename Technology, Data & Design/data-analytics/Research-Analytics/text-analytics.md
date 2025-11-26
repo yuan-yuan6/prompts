@@ -34,6 +34,9 @@ slug: text-analytics
 ## Purpose
 Conduct comprehensive text mining and natural language processing analysis to extract insights, patterns, sentiments, topics, and knowledge from unstructured text data using advanced NLP techniques and machine learning methods.
 
+## Quick NLP Prompt
+Analyze [X] text documents from [source]. Preprocess (clean, tokenize, remove stopwords), perform sentiment analysis (positive/negative/neutral distribution), extract main topics using LDA/BERTopic (target: [Y] topics), identify key entities (people, organizations, products), and summarize findings. Provide top themes, sentiment drivers, and actionable insights.
+
 ## Quick Start
 
 **Example: Customer Review Sentiment and Topic Analysis**

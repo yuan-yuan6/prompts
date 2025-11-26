@@ -32,6 +32,9 @@ slug: network-analysis
 ## Purpose
 Perform comprehensive network analysis and graph analytics to understand relationships, identify communities, analyze social structures, and extract insights from interconnected data using advanced graph theory and network science methods.
 
+## Quick Network Analysis Prompt
+Analyze network from [data source] with [X] nodes and [Y] edges. Calculate centrality metrics (degree, betweenness, PageRank) to identify key influencers, detect communities using Louvain algorithm, measure network density and clustering coefficient, and visualize the graph with communities colored. Provide top 10 influential nodes and community summary.
+
 ## Quick Start
 
 **Example: Social Media Influencer Network Analysis**

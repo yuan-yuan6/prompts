@@ -33,6 +33,9 @@ slug: energy-efficiency
 ## Purpose
 Comprehensive framework for designing, implementing, and evaluating energy efficiency programs, demand-side management initiatives, and customer engagement strategies for utilities and energy service companies.
 
+## Quick Energy Efficiency Prompt
+Design energy efficiency program for [UTILITY_NAME] serving [CUSTOMER_COUNT] customers. Target [ENERGY_SAVINGS] GWh annual savings and [DEMAND_REDUCTION] MW peak demand reduction. Implement programs: residential ([RESIDENTIAL_PROGRAMS]), commercial/industrial ([CI_PROGRAMS]), and behavioral initiatives. Set incentive levels and cost-effectiveness targets (TRC [TRC_TARGET]). Launch customer engagement through [CHANNELS]. Achieve [PARTICIPATION_RATE]% participation, [COST_PER_KWH] $/kWh acquisition cost, and [REGULATORY_COMPLIANCE] compliance.
+
 ## Quick Start
 
 **Energy & Utilities Scenario**: You're developing an energy efficiency program portfolio to meet regulatory requirements, reduce system peak demand, lower customer bills, and achieve sustainability goals.

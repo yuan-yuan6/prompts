@@ -29,6 +29,9 @@ slug: risk-management-overview
 
 The Risk Management Framework has been organized into three focused sub-prompts to provide comprehensive coverage while maintaining usability and clarity. Each part builds upon the previous sections to create a complete enterprise risk management system.
 
+## Quick Risk Management Navigation Prompt
+Navigate risk framework for [institution type] with $[X] assets. Immediate priority: [governance/credit/market/operational/compliance/innovation]. Start with: Part 1 (foundation, credit) for community banks, Part 2 (market, operational) for trading firms, Part 3 (compliance, analytics) for regulatory focus. Implementation: [phased 12-48 weeks/parallel workstreams]. Key deliverables: risk appetite statement, policy framework, metrics dashboard.
+
 ## Quick Start
 
 Navigate the Risk Management Framework in 4 steps:

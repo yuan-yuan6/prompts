@@ -34,6 +34,10 @@ slug: knowledge-base
 ## Overview
 This comprehensive template enables organizations to design, build, and maintain sophisticated knowledge management systems that empower employees, customers, and partners with instant access to accurate, relevant, and actionable information. It covers everything from knowledge architecture and content strategy to advanced search capabilities and continuous optimization.
 
+## Quick Knowledge Base Prompt
+
+Build a knowledge base for [organization] serving [audience type]. Structure content in [main categories], create article templates for [content types], implement search and navigation for [platform], establish governance for [content owners], and design feedback mechanism for [quality improvement]. Prioritize top [number] FAQ topics, target [self-service deflection rate], and plan content review cycle of [frequency]. Include multilingual support for [languages] if needed.
+
 ## Quick Start
 
 Build your knowledge base in 3 focused sprints:

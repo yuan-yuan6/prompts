@@ -32,6 +32,9 @@ slug: cloud-architecture
 ## Purpose
 Design comprehensive cloud architecture patterns for AWS, Azure, GCP including multi-cloud, hybrid, and cloud-native solutions with scalability, security, and cost optimization.
 
+## Quick Cloud Architecture Prompt
+Design cloud architecture on [AWS/Azure/GCP] for [application type] with [X users], [Y requests/sec]. Components: compute ([EC2/Lambda/ECS]), database ([RDS/DynamoDB]), cache ([ElastiCache]), storage ([S3]), CDN ([CloudFront]). Requirements: [99.X% uptime], [compliance: SOC2/HIPAA/PCI], budget $[X]/month. Include: VPC design, IAM policies, auto-scaling, disaster recovery (RPO/RTO), cost optimization.
+
 ## Quick Start
 
 **Need to design cloud architecture quickly?** Use this minimal example:

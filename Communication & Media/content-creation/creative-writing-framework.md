@@ -26,6 +26,10 @@ slug: creative-writing-framework
 ## Purpose
 Comprehensive framework for creative writing projects including story development, character creation, worldbuilding, narrative structure, dialogue crafting, and publication strategies for novels, scripts, poetry, and other creative works.
 
+## Quick Creative Writing Framework Prompt
+
+Develop a [genre] [format: novel/screenplay/short story] titled [working title] targeting [word count/page count]. Create protagonist [character name] with [core motivation] facing [central conflict]. Build world setting in [time/place] with [unique elements]. Structure using [story structure: 3-act/hero's journey/nonlinear] with theme of [central theme]. Include [subplot types] and target [audience demographic] for [publication format].
+
 ## Quick Start
 
 **Write Your First Chapter in 3 Hours**

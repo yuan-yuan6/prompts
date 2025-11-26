@@ -29,6 +29,9 @@ slug: candidate-sourcing-branding
 ## Purpose
 Create effective multi-channel sourcing strategies and compelling employer brand messaging to attract top talent and build sustainable talent pipelines.
 
+## Quick Candidate Sourcing Prompt
+Build sourcing strategy for [job title], [X positions], [urgency level]. EVP: [3-4 compelling reasons to join]. Channels: [referrals/LinkedIn/job boards/agencies/campus]. Employer brand: [employee stories], [culture highlights]. Pipeline: start [X months] before need. Track: applications, quality, conversion by source. Target: [X qualified candidates] in [Y weeks].
+
 ## Quick Start
 1. **Define Your EVP** - Articulate 3-4 compelling reasons why candidates should join your organization (mission, growth, culture, compensation)
 2. **Identify Top Sources** - Select 3-5 sourcing channels based on your target role: employee referrals, LinkedIn, job boards, or industry networks

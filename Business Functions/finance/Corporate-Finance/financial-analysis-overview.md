@@ -28,6 +28,9 @@ slug: financial-analysis-overview
 ## Purpose
 Navigate the comprehensive suite of financial analysis templates to select the right tool for your specific analysis needs.
 
+## Quick Financial Analysis Navigation Prompt
+Select analysis for [goal: performance trends/benchmarking/projections/risk assessment/valuation]. Templates: statement analysis (30-45 min) for trends, ratio analysis (20-30 min) for benchmarking, forecasting (1-2 hrs) for projections, risk assessment (45-60 min) for sustainability, valuation (2-3 hrs) for M&A. Data needed: [X years] financials, industry benchmarks, peer comparisons.
+
 ## Quick Start
 
 **Want to analyze a company's financials quickly?** Here's how to choose the right template:

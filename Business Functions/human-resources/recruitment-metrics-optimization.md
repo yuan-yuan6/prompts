@@ -28,6 +28,9 @@ slug: recruitment-metrics-optimization
 ## Purpose
 Establish data-driven recruitment metrics, track performance, measure diversity outcomes, and continuously optimize hiring processes for efficiency and quality.
 
+## Quick Recruitment Metrics Prompt
+Optimize recruiting for [company] hiring [X annually] with [Y recruiters]. Metrics: time-to-fill (current [X] → target [Y] days), cost-per-hire ($[X] → $[Y]), quality of hire, source effectiveness. Diversity: [goals]. Baselines: [X months] data. Tracking: [ATS/dashboard]. Reviews: [monthly]. Identify: bottlenecks, top sources, improvement actions. ROI: [efficiency gains].
+
 ## Quick Start
 1. **Identify Key Metrics** - Start with 3-5 core metrics: time-to-fill, cost-per-hire, quality of hire, and source effectiveness
 2. **Establish Baselines** - Gather 3-6 months of historical data to understand current performance levels

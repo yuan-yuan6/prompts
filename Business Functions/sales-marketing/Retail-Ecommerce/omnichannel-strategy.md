@@ -34,6 +34,9 @@ slug: omnichannel-strategy
 ## Purpose
 Comprehensive framework for developing and implementing omnichannel retail strategies including channel integration, inventory synchronization, customer journey optimization, technology infrastructure, and unified commerce experiences.
 
+## Quick Omnichannel Strategy Prompt
+Develop omnichannel strategy for [COMPANY_TYPE] with [STORE_COUNT] stores, e-commerce site, and [CUSTOMER_COUNT] customers. Current issues: [CURRENT_CHALLENGES] (inventory not synced/no BOPIS/fragmented data). Enable unified inventory visibility across all channels. Launch BOPIS (buy online pickup in-store) within [TIMELINE]. Integrate customer data into single view. Implement [OMNI_CAPABILITIES] (ship from store/endless aisle/unified cart). Target [OMNI_REVENUE_LIFT]% omnichannel customer revenue lift and [CUSTOMER_SATISFACTION]% satisfaction.
+
 ## Quick Start
 
 **Need to launch an omnichannel strategy quickly?** Use this minimal example:

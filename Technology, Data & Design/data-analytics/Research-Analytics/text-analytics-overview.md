@@ -32,6 +32,9 @@ slug: text-analytics-overview
 ## Purpose
 This overview provides a comprehensive guide to the text analytics and NLP template suite. Navigate to specialized sub-templates based on your analysis objectives, understand recommended workflows, and select the right combination of techniques for your text data.
 
+## Quick Text Analytics Prompt
+Analyze text data from [source] containing [X documents/records]. Guide me to the right templates: preprocessing for [data quality issues], sentiment analysis if [opinion mining needed], topic modeling for [theme discovery], or entity extraction for [structured data needs]. Recommend the optimal workflow sequence and expected timeline for my use case.
+
 ## Quick Start
 
 **Want to analyze text data quickly?** Here's how to choose the right template:

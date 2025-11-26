@@ -32,6 +32,9 @@ slug: cicd-pipelines
 ## Purpose
 Design and implement comprehensive CI/CD pipelines for automated build, test, and deployment processes with quality gates, security scanning, and deployment strategies.
 
+## Quick DevOps Pipeline Prompt
+Design CI/CD pipeline for [application type] using [CI tool]. Stack: [language], [framework], [database]. Pipeline: lint → build → test (unit/integration) → security scan → deploy. Environments: dev (auto-deploy) → staging (on PR merge) → production (manual approval). Include: artifact versioning, environment-specific configs, <[X] min total pipeline time.
+
 ## Quick Start
 
 **Need to set up automated deployments quickly?** Use this minimal example:

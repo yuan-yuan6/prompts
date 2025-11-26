@@ -39,6 +39,9 @@ slug: regulatory-compliance-management
 ## Purpose
 Create comprehensive compliance management strategies covering regulatory frameworks, compliance program development, risk assessment, monitoring systems, and governance structures to ensure organizational adherence to legal, regulatory, and industry requirements while minimizing compliance risk.
 
+## Quick Compliance Management Prompt
+Manage compliance for [organization] in [industry]. Regulatory inventory: [federal/state/international] by [functional area]. Risk assessment: top 10 risks by probability × impact. Policy framework: 4-tier hierarchy with [annual] review. GRC technology: [platform] for policy management, risk tracking, incident reporting. KPIs: training [X%], violations, audit findings. Board reporting: [quarterly] executive dashboard.
+
 ## Quick Start
 
 Establish comprehensive compliance management in 5 steps:

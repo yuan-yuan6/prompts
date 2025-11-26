@@ -29,6 +29,10 @@ slug: habit-tracking
 
 # Comprehensive Habit Tracking System Template
 
+## Quick Habit Tracking Prompt
+
+Design a habit tracking system for me to monitor [number] habits: [list habits]. I want to track more than just completion—include quality ratings, mood correlations, and streak counters. My tracking preferences are [app-based/paper/spreadsheet] and I need [daily/weekly] review prompts. Create a tracking template with metrics for each habit, pattern analysis questions for weekly reviews, and accountability triggers when I miss [number] days in a row.
+
 ## Quick Start
 
 Build an unbreakable habit tracking system that turns intentions into automatic behaviors.

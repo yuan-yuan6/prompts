@@ -29,6 +29,9 @@ slug: network-analysis-visualization
 ## Purpose
 Create comprehensive visualizations and reports for network analysis results. This module provides tools for network layouts, centrality visualization, community detection plots, interactive dashboards, and statistical reporting.
 
+## Quick Network Viz Prompt
+Visualize [network] analysis results with [X nodes, Y edges]. Create: (1) spring layout colored by community, node size by centrality; (2) centrality bar charts for top 20 nodes; (3) community composition charts; (4) temporal evolution animation if applicable. Build interactive dashboard with filters and generate summary report with key network statistics and insights.
+
 ## Quick Start
 
 **Example: Create Comprehensive Network Visualization Suite**

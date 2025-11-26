@@ -3,9 +3,9 @@ title: Time Series Analysis & Forecasting Framework
 category: data-analytics
 tags:
 - data-analytics
-- ai-ml
-- framework
-- research
+- forecasting
+- time-series
+- anomaly-detection
 use_cases:
 - Creating comprehensive framework for time series analysis, forecasting, anomaly
   detection, and pattern recognition including statistical methods, machine learning
@@ -31,6 +31,9 @@ slug: time-series-analysis
 
 ## Purpose
 Comprehensive framework for time series analysis, forecasting, anomaly detection, and pattern recognition including statistical methods, machine learning approaches, and real-time streaming analytics.
+
+## Quick Forecasting Prompt
+> Build a time series forecasting solution for [metric/domain] with [frequency] data and [history length] history. Forecast horizon: [days/weeks/months]. Target accuracy: [MAPE %]. Include: (1) Decomposition and stationarity analysis, (2) Model selection (ARIMA/Prophet/LSTM/ensemble), (3) Feature engineering approach, (4) Anomaly detection and monitoring strategy.
 
 ## Quick Start
 

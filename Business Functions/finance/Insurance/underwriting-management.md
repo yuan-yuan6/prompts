@@ -35,6 +35,9 @@ slug: underwriting-management
 ## Purpose
 Comprehensive framework for insurance underwriting operations including risk assessment, pricing, portfolio management, automation strategies, and profitability optimization across multiple lines of business.
 
+## Quick Underwriting Prompt
+Underwrite [line: auto/home/commercial/life] policy. Applicant: [profile details]. Risk factors: [credit score], [loss history], [location risk score]. Pricing: base rate $[X], risk multipliers ([factor] = [multiplier]), final premium. Automation: [straight-through processing] for [risk tier]. Portfolio: concentration limits, combined ratio target [X%]. Decision: [accept/refer/decline] with conditions.
+
 ## Quick Start
 
 Launch effective underwriting operations in 1-2 hours with these practical examples:

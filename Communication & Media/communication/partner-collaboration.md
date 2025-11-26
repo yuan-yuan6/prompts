@@ -37,6 +37,10 @@ slug: partner-collaboration
 ## Purpose
 Comprehensive framework for developing, managing, and optimizing strategic partnerships and alliances to drive mutual value creation, innovation, and market expansion.
 
+## Quick Partner Collaboration Prompt
+
+Develop a partnership strategy for [partner type] collaboration with [company/organization]. Define mutual value proposition targeting [market/customer segment], establish governance with [meeting cadence/decision rights], create joint go-to-market plan for [products/services], set revenue targets of [goals/timeline], and design partner enablement including [training/resources]. Track partnership health via [KPIs] and plan escalation process for [conflict types].
+
 ## Quick Start
 
 **Need to establish a strategic partnership quickly?** Use this minimal example:

@@ -32,6 +32,18 @@ slug: ai-ux-interaction-design
 ## Purpose
 Design intuitive, trustworthy user experiences for AI-powered features that manage user expectations, handle uncertainty gracefully, and build confidence in AI capabilities.
 
+---
+
+## 🚀 Quick Prompt
+
+**Copy and use this generic prompt to design any AI user experience:**
+
+> I'm designing the UX for **[AI FEATURE]** in **[PRODUCT]** for **[TARGET USERS]** who want to **[USER GOAL]**. Help me design: (1) **Interaction pattern**—should this be AI suggestions, automation, collaboration, or conversational, and what level of user control is needed (initiation, approval, editing, override)? (2) **State design**—what are the loading, success, error, and edge case states, with specific UI components, progressive disclosure, and messaging for each? (3) **Trust & transparency**—how do we disclose AI involvement, show confidence levels, provide explanations, and give users control? (4) **Error handling**—how do we gracefully handle AI failures, low confidence, hallucinations, and unexpected outputs with clear recovery paths? Provide wireframe recommendations, a UX writing guide, and an accessibility checklist.
+
+**Usage:** Fill in the brackets and use as a prompt to an AI assistant or as your UX design framework.
+
+---
+
 ## Quick Start
 
 ### Minimal Example
@@ -89,12 +101,15 @@ Pattern Selection:
   - AI Automation: AI performs task autonomously (e.g., auto-tagging, categorization)
   - AI Collaboration: User and AI work together iteratively (e.g., co-writing, design generation)
   - AI Decision Support: AI provides recommendations, user decides (e.g., analytics insights)
+  - AI Conversation: Natural language dialogue for complex tasks (e.g., chatbots, assistants)
+  - AI Agent: AI takes autonomous actions with oversight (e.g., scheduling, purchasing)
 
 User Control Level:
 - Initiation: [USER/SYSTEM/HYBRID] - Who triggers the AI?
 - Approval: [REQUIRED/OPTIONAL/NONE] - Does user review before action?
 - Editing: [FULL/PARTIAL/NONE] - Can user modify AI output?
 - Override: [ALWAYS/CONDITIONAL/NEVER] - Can user reject AI?
+- Undo: [ALWAYS/LIMITED/NONE] - Can user reverse AI actions?
 
 ### 2. STATE DESIGN
 
@@ -105,6 +120,24 @@ Loading State:
 - User messaging: "[LOADING_MESSAGE]"
 - Cancelable: [YES/NO]
 - Background processing option: [YES/NO]
+
+**Streaming/Progressive Output (for LLMs):**
+```
+Streaming State Design:
+- Enable streaming: [YES/NO]
+- Reveal pattern: [CHARACTER/WORD/SENTENCE/PARAGRAPH]
+- Typing indicator: [CURSOR/DOTS/NONE]
+- Partial actions: Can user act on partial output? [YES/NO]
+- Stop generation: [BUTTON_PLACEMENT]
+- Resume/regenerate: [UX_PATTERN]
+
+Example Implementation:
+"Generating response..."
+↓ (streaming begins)
+[Visible text appears progressively]
+↓ (generation complete)
+[Full response with action buttons]
+```
 
 Success State:
 - Output presentation: [HOW_RESULTS_DISPLAYED]
@@ -210,6 +243,79 @@ Perceived Performance:
 - Progressive results: [IF_APPLICABLE]
 - Optimistic UI: [IF_APPLICABLE]
 
+### 8. CONVERSATIONAL AI UX PATTERNS
+
+Chat Interface Design:
+```
+Message Types:
+- User messages: [STYLING]
+- AI responses: [STYLING]
+- System messages: [STYLING]
+- Error messages: [STYLING]
+
+Conversation Features:
+- Message editing: [YES/NO]
+- Response regeneration: [YES/NO]
+- Conversation branching: [YES/NO]
+- History persistence: [DURATION]
+- Export/share: [FORMAT]
+
+Input Features:
+- Suggested prompts: [WHEN_TO_SHOW]
+- Template responses: [IF_APPLICABLE]
+- Voice input: [YES/NO]
+- File attachments: [SUPPORTED_TYPES]
+- Multi-modal input: [IMAGES/FILES/CODE]
+```
+
+Conversation Recovery:
+```
+When AI seems stuck:
+- Message: "Let me try a different approach..."
+- Action: Offer to restart or clarify
+
+When AI misunderstands:
+- Detection: [HOW_TO_DETECT]
+- Response: "I may have misunderstood. Did you mean...?"
+- Options: [CLARIFICATION_BUTTONS]
+
+Long conversations:
+- Context summary: "Here's what we've discussed so far..."
+- Topic reset: "Start new topic" option
+- Reference previous: "As we discussed earlier..."
+```
+
+### 9. MULTI-MODAL AI UX
+
+Image Generation/Editing:
+```
+Input UX:
+- Text prompt: [PROMPT_GUIDELINES]
+- Reference images: [UPLOAD_UX]
+- Style selection: [UI_PATTERN]
+- Aspect ratio: [SELECTION_METHOD]
+
+Output UX:
+- Generation progress: [VISUALIZATION]
+- Multiple options: Grid of [N] variations
+- Refinement: "Make it more [X]" buttons
+- Download/export: [FORMATS]
+```
+
+Document/File Processing:
+```
+Upload UX:
+- Drag-and-drop: [SUPPORTED]
+- File types: [SUPPORTED_TYPES]
+- Size limits: [LIMITS_AND_MESSAGING]
+- Processing indicator: [PROGRESS_TYPE]
+
+Results UX:
+- Inline annotations: [IF_APPLICABLE]
+- Summary view: [LAYOUT]
+- Source citations: [LINK_TO_ORIGINAL]
+```
+
 AI UX OUTPUT:
 Generate comprehensive UX design for [AI_FEATURE_NAME] including:
 1. Interaction flow with all states
@@ -308,6 +414,44 @@ Key UX Decisions:
 - Feedback: Click-through and purchase implicit signals
 ```
 
+### Example 4: AI Chatbot Assistant
+```
+AI_FEATURE_NAME: "Help Assistant"
+PRODUCT_CONTEXT: "SaaS product support"
+TARGET_USERS: "Users needing help with product features"
+AI_CAPABILITY: "RAG-powered conversational AI"
+USER_GOAL: "Get answers without waiting for human support"
+PATTERN_TYPE: "AI Conversation"
+CONFIDENCE_RANGE: "85% accurate for FAQ, 60% for complex issues"
+
+Key UX Decisions:
+- Streaming responses with typing indicator
+- Source citations with "Learn more" links
+- Suggested follow-up questions
+- Easy escalation: "Talk to a human" always visible
+- Conversation history saved for context
+- Feedback: Thumbs up/down per message
+```
+
+### Example 5: AI Code Assistant
+```
+AI_FEATURE_NAME: "Code Copilot"
+PRODUCT_CONTEXT: "IDE/Code editor"
+TARGET_USERS: "Software developers"
+AI_CAPABILITY: "Code generation, completion, explanation"
+USER_GOAL: "Write code faster with fewer errors"
+PATTERN_TYPE: "AI Enhancement + AI Collaboration"
+CONFIDENCE_RANGE: "Variable by complexity"
+
+Key UX Decisions:
+- Ghost text for inline completions (Tab to accept)
+- Chat sidebar for complex requests
+- Diff view for multi-line suggestions
+- Accept/reject with keyboard shortcuts
+- "Explain this code" context menu
+- Streaming for long generations
+```
+
 ---
 
 ## Best Practices
@@ -340,9 +484,15 @@ Key UX Decisions:
 ❌ **Ignoring feedback** - Collecting feedback but never acting on it
 ✅ Instead: Show users how their feedback improves the system
 
+❌ **Ignoring streaming** - Making users wait for complete AI response
+✅ Instead: Stream long responses progressively for better perceived performance
+
+❌ **Modal overload** - Interrupting user flow with AI confirmations
+✅ Instead: Use inline, non-blocking UI patterns where possible
+
 ---
 
-**Last Updated:** 2025-11-12
+**Last Updated:** 2025-11-25
 **Category:** AI/ML Applications > AI Product Development
 **Difficulty:** Intermediate
 **Estimated Time:** 2-3 weeks for complete AI UX design

@@ -31,6 +31,9 @@ slug: generative-ai
 ## Purpose
 Design comprehensive generative AI systems, large language model implementations, prompt engineering frameworks, and AI-powered applications that leverage cutting-edge AI capabilities while ensuring safety, ethics, and business value creation.
 
+## Quick Generative AI Prompt
+Design AI system for [use case] using [GPT-4/Claude/Llama]. Architecture: [prompt-only/RAG/fine-tuned]. Requirements: <[X]s latency, [Y%] accuracy, $[Z]/1K tokens budget. RAG: vector DB ([Pinecone/Weaviate]), chunking strategy, retrieval pipeline. Safety: content filtering, hallucination detection, PII protection. Evaluation: human feedback loop, A/B testing, success metrics ([accuracy/satisfaction/adoption]).
+
 ## Quick Start
 
 **To Design Your AI System:**

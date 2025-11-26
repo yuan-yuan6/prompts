@@ -34,6 +34,9 @@ slug: business-planning
 ## Purpose
 Create comprehensive business plans that cover strategy, roadmaps, and vision statements to guide organizational direction and secure stakeholder alignment.
 
+## Quick Business Planning Prompt
+Create business plan for [COMPANY_NAME] in [INDUSTRY] targeting [TARGET_MARKET]. Stage: [COMPANY_STAGE] (startup/growth/mature). Seeking [FUNDING_AMOUNT] for [FUNDING_PURPOSE]. Revenue model: [REVENUE_MODEL]. Projections: Year 1 [Y1_REVENUE], Year 3 [Y3_REVENUE]. Key differentiators: [DIFFERENTIATORS]. Team size: [TEAM_SIZE]. Milestones: [KEY_MILESTONES]. Include executive summary, market analysis, competitive positioning, go-to-market strategy, financial projections, and funding requirements.
+
 ## Quick Start
 
 **Need to create a business plan quickly?** Use this minimal example:

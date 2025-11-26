@@ -26,6 +26,9 @@ slug: contract-drafting-template-overview
 ## Purpose
 This comprehensive framework has been split into 3 focused sub-prompts for easier navigation and use.
 
+## Quick Contract Drafting Navigation Prompt
+Navigate contract drafting for [contract type]. Use Part 1 (structure-core) for: agreement framework, parties, recitals, definitions, core terms. Use Part 2 (risk-provisions) for: liability caps, indemnification, warranties, IP, termination. Use Part 3 (execution) for: signatures, amendments, schedules, lifecycle management. Start with Part 1 for new contracts, Part 2 for risk review, Part 3 for execution.
+
 ## Framework Structure
 
 ### Part 1: Structure & Core Clauses (Lines 1-340)

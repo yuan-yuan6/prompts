@@ -37,6 +37,9 @@ slug: budget-management
 ## Purpose
 Create comprehensive budget management strategies covering planning, tracking, and variance analysis to ensure effective financial planning, resource allocation, and performance monitoring.
 
+## Quick Budget Management Prompt
+Create [annual/quarterly] budget for [company] with $[X] revenue, [Y employees]. Structure: revenue by [product/region/channel], expenses by [department/cost center]. Process: [bottom-up/top-down/zero-based]. Tracking: monthly variance analysis, [X%] threshold alerts. Forecasting: [rolling 12-month/quarterly reforecast]. Governance: [approval hierarchy], [reallocation rules]. Tools: [Excel/Adaptive/Anaplan].
+
 ## Quick Start
 
 ### Minimal Example

@@ -29,6 +29,9 @@ slug: blockchain-architecture
 ## Purpose
 Comprehensive framework for designing, developing, and deploying blockchain solutions including smart contracts, consensus mechanisms, tokenomics, and decentralized applications (DApps).
 
+## Quick Blockchain Prompt
+Design blockchain solution for [use case: DeFi/NFT/supply chain/identity]. Platform: [Ethereum/Polygon/Solana]. Requirements: [X TPS], [Y finality], $[Z] per tx. Smart contracts: [Solidity/Rust] with [proxy/diamond] upgradeability. Tokenomics: [supply], [distribution], [utility]. Security: OpenZeppelin libraries, [2-3] audits, bug bounty. Frontend: [React + Wagmi/RainbowKit + Ethers.js].
+
 ## Quick Start
 
 **Set Your Foundation:**

@@ -32,6 +32,9 @@ slug: architecture-design
 ## Purpose
 Design comprehensive system architectures including distributed systems, APIs, databases, microservices, and enterprise solutions with scalability, security, and maintainability considerations.
 
+## Quick Architecture Prompt
+Design architecture for [system type] with [X users], [Y requests/sec]. Components: [services/APIs], [database: SQL/NoSQL], [cache: Redis], [queue: Kafka/RabbitMQ], [search: Elasticsearch]. Requirements: [X concurrent users], [99.X% uptime], [<Yms latency]. Patterns: [microservices/monolith/modular], [event-driven/request-response]. Include: scaling strategy, fault tolerance, monitoring, security layers.
+
 ## Quick Start
 
 **Need to design system architecture quickly?** Use this minimal example:

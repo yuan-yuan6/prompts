@@ -33,6 +33,9 @@ slug: product-analytics-framework
 ## Purpose
 Build comprehensive product analytics infrastructure and frameworks that enable data-driven decision-making, ensure data quality and governance, and scale with product growth.
 
+## Quick Analytics Framework Prompt
+Design analytics infrastructure for [product] at [stage: early/growth/scale] with [X users]. Recommend: data collection tool (CDP), product analytics platform, and data warehouse. Define: 15-20 core tracking events, event taxonomy, user properties. Create: tracking plan template, data governance policy, dashboard specs for [acquisition/activation/engagement/retention]. Include implementation timeline and team responsibilities.
+
 ## Quick Start
 
 **Need analytics infrastructure quickly?** Use this streamlined approach:

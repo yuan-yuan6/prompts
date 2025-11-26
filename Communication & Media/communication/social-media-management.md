@@ -39,6 +39,10 @@ slug: social-media-management
 ## Purpose
 Comprehensive framework for developing social media presence, creating engaging content, building communities, managing multi-platform strategies, and driving business results through effective social media management and audience engagement.
 
+## Quick Social Media Management Prompt
+
+Create a social media strategy for [company/brand] targeting [audience type] on [platforms]. Develop content calendar with [post frequency], create content mix of [content types/ratios], establish engagement protocol for [response timing], set KPIs for [metrics: followers/engagement/conversions], and plan paid promotion budget of [amount]. Address brand voice guidelines for [tone/style] and crisis response process for [negative feedback handling].
+
 ## Quick Start
 
 **Need to build social media presence quickly?** Use this minimal example:

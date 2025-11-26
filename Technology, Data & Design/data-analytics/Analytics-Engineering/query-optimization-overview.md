@@ -26,6 +26,9 @@ slug: query-optimization-overview
 ## Purpose
 Navigate the comprehensive query optimization framework by selecting the appropriate sub-prompt based on your performance symptoms, optimization goals, or current phase in the optimization lifecycle.
 
+## Quick Navigation Prompt
+My [DATABASE_PLATFORM] database has [PERFORMANCE_SYMPTOM]: [SLOW_QUERIES/TABLE_SCANS/BLOCKING/MEMORY_ISSUES/DEGRADATION]. Current SLA is [RESPONSE_TIME_TARGET] but actual is [ACTUAL_RESPONSE_TIME]. Help me select the right optimization sub-prompt: baseline analysis, indexing strategies, query rewriting, monitoring & tuning, or resource & concurrency management.
+
 ## Quick Start
 
 **Want to optimize slow database queries?** Here's how to get started:

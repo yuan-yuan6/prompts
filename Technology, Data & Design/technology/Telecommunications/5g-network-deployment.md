@@ -30,6 +30,9 @@ slug: 5g-network-deployment
 ## Purpose
 Comprehensive framework for planning and deploying 5G networks including infrastructure design, spectrum management, edge computing integration, network slicing, performance optimization, and monetization strategies for next-generation telecommunications.
 
+## Quick 5G Deployment Prompt
+Deploy 5G network for [operator] covering [X sq km], [Y subscribers]. Architecture: [SA/NSA]. Spectrum: [low/mid/high-band priority]. Infrastructure: [Z cell sites], [fiber backhaul]. Performance: [X Gbps throughput], <[Y]ms latency, [99.X%] reliability. Slicing: [eMBB/URLLC/mMTC]. Edge: [MEC locations]. ROI target: [Z%] in [timeline]. Initial focus: [urban/suburban/enterprise].
+
 ## Quick Start
 
 **For Telecom Operators:**

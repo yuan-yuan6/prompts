@@ -29,6 +29,9 @@ slug: algorithm-selection
 ## Purpose
 Systematic approach to selecting optimal machine learning algorithms for classification, regression, clustering, and other ML tasks based on data characteristics, business requirements, and performance constraints.
 
+## Quick Algorithm Selection Prompt
+Select ML algorithm for [problem type: classification/regression/clustering] with [X rows], [Y features], [Z% missing data]. Constraints: [interpretability/speed/accuracy priority], [training time limit], [inference latency]. Compare 3-5 candidates using cross-validation. Evaluate: accuracy, F1/RMSE, training time, inference speed. Recommend best model with hyperparameter tuning guidance.
+
 ## Quick Start
 
 **Select ML algorithms in 5 steps:**

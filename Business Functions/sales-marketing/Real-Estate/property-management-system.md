@@ -30,6 +30,9 @@ slug: property-management-system
 ## Purpose
 Comprehensive framework for managing real estate properties including tenant relations, maintenance operations, financial management, lease administration, compliance tracking, and portfolio optimization for residential and commercial properties.
 
+## Quick Property Management Prompt
+Manage property portfolio of [PROPERTY_COUNT] properties with [UNIT_COUNT] units totaling [SQUARE_FOOTAGE] sq ft. Current metrics: [OCCUPANCY_RATE]% occupancy, [COLLECTION_RATE]% rent collection, [NOI_CURRENT] NOI. Implement tenant lifecycle management, maintenance workflows with [RESPONSE_TIME] response targets, and vendor management. Deploy property management software with accounting integration. Target [OCCUPANCY_TARGET]% occupancy, [NOI_TARGET] NOI, [COLLECTION_TARGET]% collection rate, and [TENANT_SATISFACTION] tenant satisfaction score.
+
 ## Quick Start
 
 To use this template effectively:

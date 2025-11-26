@@ -37,6 +37,10 @@ slug: culture-building
 ## Purpose
 Comprehensive framework for strengthening organizational culture, reinforcing values, implementing recognition programs, and driving employee engagement initiatives that create a positive, productive, and aligned workplace environment.
 
+## Quick Culture Building Prompt
+
+Create a culture building program for [organization] with [employee count] employees. Define core values including [value areas], design recognition program for [behavior types], establish team rituals for [engagement goals], develop communication plan for [culture initiatives], and create measurement framework tracking [engagement metrics]. Address current culture challenges including [identified issues] and target [engagement score improvement].
+
 ## Quick Start
 
 Build a stronger culture starting today:

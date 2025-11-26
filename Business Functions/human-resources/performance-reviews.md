@@ -35,6 +35,9 @@ slug: performance-reviews
 ## Purpose
 Create comprehensive performance review systems covering evaluations, feedback delivery, development planning, and performance management to enhance employee development and organizational effectiveness.
 
+## Quick Performance Review Prompt
+Conduct review for [role] with [X years] tenure. Period: [timeframe]. Achievements: [key accomplishments]. Growth areas: [development needs]. Rating: [scale], target [X]. Competencies: [technical/behavioral]. Development goals: [next period objectives]. Career discussion: [progression path]. Compensation: [merit/promotion recommendation]. Meeting: [duration], [preparation needed].
+
 ## Quick Start
 
 **Need to conduct performance reviews quickly?** Use this minimal example:

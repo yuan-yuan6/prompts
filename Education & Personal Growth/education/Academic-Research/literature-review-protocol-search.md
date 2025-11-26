@@ -31,6 +31,10 @@ slug: literature-review-protocol-search
 ## Purpose
 Develop comprehensive review protocols and search strategies for systematic literature reviews, including research context establishment, methodological framework selection, and database search design to ensure rigorous and reproducible evidence synthesis.
 
+## Quick Literature Review Protocol Search Prompt
+
+Develop [review type: systematic/scoping/meta-analysis] protocol for [research topic]. Frame question using [PICO/PEO/SPIDER] with population of [target group], intervention/exposure of [focus], comparator of [comparison], outcomes of [measured outcomes]. Search [databases: PubMed/Scopus/ERIC] using Boolean strategy [keywords AND/OR combinations], include [date range] and [languages], register protocol at [PROSPERO/OSF], and follow [PRISMA/Cochrane] guidelines.
+
 ## Quick Start
 
 ### For Researchers & Protocol Developers

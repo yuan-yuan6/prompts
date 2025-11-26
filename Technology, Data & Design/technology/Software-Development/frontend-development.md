@@ -33,6 +33,9 @@ slug: frontend-development
 ## Purpose
 Comprehensive framework for frontend web development including modern JavaScript frameworks, responsive design, performance optimization, accessibility standards, and progressive web applications.
 
+## Quick Frontend Prompt
+Build [application type] with [React/Vue/Next.js] + TypeScript. Stack: [UI: Tailwind/MUI], [state: Redux/Zustand], [API: React Query/SWR]. Features: [component list]. Performance: Lighthouse >90, code splitting, lazy loading. Accessibility: WCAG AA, keyboard nav, ARIA. Testing: [Jest/Vitest] + [Cypress/Playwright]. Deploy: [Vercel/Netlify/AWS].
+
 ## Quick Start
 
 **Build production-ready frontend in 5 steps:**

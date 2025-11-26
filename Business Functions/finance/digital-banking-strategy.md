@@ -32,6 +32,9 @@ slug: digital-banking-strategy
 ## Purpose
 Create comprehensive digital banking transformation strategies, technology roadmaps, customer experience optimization plans, and financial innovation frameworks that modernize banking operations, enhance customer engagement, and drive competitive advantage in the digital-first financial services landscape.
 
+## Quick Digital Banking Prompt
+Design digital banking strategy for [bank name] with [X customers], [Y% digital adoption]. Goals: mobile app rating [X→Y stars], digital adoption [X→Y%], transaction time [X→Y seconds]. Features: [biometric auth/one-tap payments/AI chatbot/real-time notifications]. Tech stack: [core banking API], [cloud platform]. Timeline: [X months]. ROI: [Y%] cost reduction, [Z%] customer satisfaction increase.
+
 ## Quick Start
 
 Launch your digital banking initiative in 1-2 hours with these practical examples:

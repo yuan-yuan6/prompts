@@ -35,6 +35,9 @@ slug: ux-ui-design-comprehensive
 ## Purpose
 Create comprehensive UX/UI design strategies for wireframes, prototypes, design systems, user research, and testing to deliver exceptional user experiences across digital platforms and drive business success.
 
+## Quick UX Strategy Prompt
+Design UX strategy for [product type: web app/mobile app/SaaS] targeting [primary user group]. Goals: [business objective] + [user need]. Deliver: user personas (2-3), journey map for core flow, information architecture, wireframes for [X key screens], visual design direction (2 concepts), and usability test plan. Timeline: [X weeks]. Platform: [iOS/Android/web/responsive].
+
 ## Quick Start
 
 **Launch Your UX Project in 1 Hour**

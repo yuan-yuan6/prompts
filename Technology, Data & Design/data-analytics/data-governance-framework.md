@@ -33,6 +33,9 @@ slug: data-governance-framework
 ## Purpose
 Comprehensive data governance framework covering data strategy, quality management, privacy compliance, security protocols, lifecycle management, and organizational governance to ensure trusted, compliant, and valuable data assets across the enterprise.
 
+## Quick Governance Prompt
+> Create a data governance framework for [company type] with [data volume] across [number] systems. Key regulations: [GDPR/CCPA/HIPAA/SOX]. Current maturity: [1-5]. Target quality: [%]. Priority areas: [quality/security/privacy/MDM]. Include: (1) Governance organization and roles, (2) Data quality rules and monitoring, (3) Compliance requirements checklist, (4) Implementation timeline and milestones.
+
 ## Quick Start
 
 ### For Data Engineers
