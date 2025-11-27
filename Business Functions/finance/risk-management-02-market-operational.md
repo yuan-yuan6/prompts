@@ -2,13 +2,10 @@
 title: 'Risk Management Framework - Part 2: Market & Operational Risk'
 category: finance
 tags:
-- design
-- finance
-- framework
-- management
-- strategy
 - market-risk
 - operational-risk
+- var-models
+- alm
 use_cases:
 - Creating comprehensive market risk and operational risk management strategies covering
   trading risk controls, asset liability management, process controls, fraud prevention,

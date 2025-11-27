@@ -4,9 +4,9 @@ last_updated: 2025-11-12
 title: Product Roadmapping & Planning
 tags:
 - product-management
+- roadmapping
 - planning
-- roadmap
-- strategy
+- now-next-later
 use_cases:
 - Creating quarterly and annual product roadmaps that align teams
 - Prioritizing initiatives across multiple product areas and stakeholders

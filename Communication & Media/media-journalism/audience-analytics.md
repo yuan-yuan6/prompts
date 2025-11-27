@@ -4,11 +4,10 @@ last_updated: 2025-11-09
 related_templates:
 - media-journalism/content-strategy.md
 tags:
-- ai-ml
-- automation
-- design
-- optimization
-- research
+- audience-analytics
+- engagement-metrics
+- reader-behavior
+- content-personalization
 title: Audience Analytics & Engagement Optimization
 use_cases:
 - Creating advanced framework for analyzing audience behavior, optimizing content

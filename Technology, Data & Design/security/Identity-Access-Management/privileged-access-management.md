@@ -4,8 +4,9 @@ last_updated: 2025-11-23
 title: Privileged Access Management (PAM)
 tags:
 - security
-- compliance
-- access-control
+- pam
+- privileged-access
+- credential-vault
 use_cases:
 - Securing privileged accounts and credentials
 - Implementing just-in-time access

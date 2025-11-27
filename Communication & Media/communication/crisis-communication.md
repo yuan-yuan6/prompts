@@ -5,11 +5,10 @@ related_templates:
 - communication/meeting-management-framework.md
 - communication/crisis-communication-plan.md
 tags:
-- communication
-- ai-ml
-- management
-- research
-- strategy
+- crisis-messaging
+- rapid-response
+- stakeholder-communication
+- crisis-management
 title: Crisis Communication & Response Prompt Template
 use_cases:
 - Creating comprehensive framework for managing crisis communications, developing

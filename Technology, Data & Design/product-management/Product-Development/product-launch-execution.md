@@ -4,9 +4,9 @@ last_updated: 2025-11-12
 title: Product Launch Execution
 tags:
 - product-management
-- launch
-- execution
-- coordination
+- product-launch
+- release-management
+- cross-functional
 use_cases:
 - Executing coordinated product launches across multiple teams
 - Managing launch timelines, dependencies, and deliverables

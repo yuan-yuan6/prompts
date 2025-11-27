@@ -2,12 +2,10 @@
 title: Contract Drafting Template Generator
 category: legal-compliance
 tags:
-- ai-ml
-- management
-- optimization
-- research
-- security
-- strategy
+- contract-drafting
+- msa-agreements
+- legal-clauses
+- dispute-resolution
 use_cases:
 - Creating comprehensive contract drafting strategies covering agreements, terms,
   clauses, warranties, indemnities, and legal provisions to ensure robust and enforceable

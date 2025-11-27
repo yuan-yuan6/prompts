@@ -4,9 +4,9 @@ last_updated: 2025-11-12
 title: Product Strategy & Vision Development
 tags:
 - product-management
-- strategy
-- planning
-- framework
+- product-strategy
+- product-vision
+- strategic-planning
 use_cases:
 - Defining long-term product strategy and vision for new or existing products
 - Aligning product direction with company strategy and market opportunities

@@ -2,12 +2,10 @@
 title: 'Generative AI Implementation - Part 1: Foundation & Use Cases'
 category: ai-ml-applications
 tags:
-- automation
-- design
-- machine-learning
-- strategy
-- technology
-- template
+- generative-ai
+- foundation-models
+- ai-use-cases
+- llm-selection
 use_cases:
 - Defining generative AI strategy, identifying business value and use cases, selecting
   foundation models, establishing technical infrastructure, and implementing governance

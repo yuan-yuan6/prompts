@@ -4,13 +4,10 @@ last_updated: 2025-11-09
 related_templates:
 - media-journalism/content-strategy.md
 tags:
-- ai-ml
-- communication
-- design
-- development
-- documentation
-- framework
-- management
+- investigative-journalism
+- source-development
+- fact-verification
+- data-journalism
 title: Investigative Reporting Framework
 use_cases:
 - Creating comprehensive framework for conducting investigative journalism including

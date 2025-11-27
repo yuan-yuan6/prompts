@@ -2,12 +2,10 @@
 title: Retirement Planning Template
 category: personal
 tags:
-- ai-ml
-- optimization
-- personal
-- research
-- security
-- strategy
+- retirement-planning
+- 401k-optimization
+- income-projection
+- withdrawal-strategy
 use_cases:
 - Creating develop comprehensive retirement strategies including 401k optimization,
   ira planning, income projections, and withdrawal strategies to ensure financial

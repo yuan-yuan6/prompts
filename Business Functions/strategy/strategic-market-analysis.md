@@ -2,9 +2,10 @@
 title: Market Analysis Template Generator
 category: strategy
 tags:
-- ai-ml
-- research
-- strategy
+- market-analysis
+- competitive-intelligence
+- market-trends
+- strategic-insights
 use_cases:
 - Creating comprehensive market analysis reports covering competitive analysis, SWOT
   analysis, and market trends to inform strategic decision-making.

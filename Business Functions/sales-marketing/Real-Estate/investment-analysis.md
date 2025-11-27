@@ -2,12 +2,10 @@
 title: Real Estate Investment Analysis Framework
 category: sales-marketing
 tags:
-- ai-ml
-- development
-- framework
-- management
-- optimization
-- research
+- real-estate-investment
+- financial-modeling
+- portfolio-analysis
+- risk-evaluation
 use_cases:
 - Creating comprehensive framework for analyzing real estate investment opportunities
   including financial modeling, market assessment, risk evaluation, portfolio optimization,

@@ -4,13 +4,10 @@ last_updated: 2025-11-09
 related_templates:
 - operations/Hospitality/smart-hotel-operations.md
 tags:
-- communication
-- ai-ml
-- design
-- framework
-- management
-- optimization
-- research
+- hotel-management
+- guest-services
+- revenue-management
+- hospitality-operations
 title: Hotel Operations & Guest Experience Framework
 use_cases:
 - Creating comprehensive framework for hotel operations management, guest experience

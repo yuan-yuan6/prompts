@@ -6,10 +6,10 @@ related_templates:
 - sales-marketing/campaign-development.md
 - sales-marketing/lead-generation.md
 tags:
-- design
-- ai-ml
-- marketing
-- optimization
+- lead-scoring
+- qualification-criteria
+- sales-readiness
+- conversion-probability
 title: Lead Scoring Template
 use_cases:
 - General application

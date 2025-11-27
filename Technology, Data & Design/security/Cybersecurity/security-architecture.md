@@ -6,11 +6,10 @@ related_templates:
 - technology/site-reliability-engineering.md
 - technology/cloud-migration-strategy.md
 tags:
-- design
-- ai-ml
-- management
 - security
-- strategy
+- security-architecture
+- defense-in-depth
+- enterprise-security
 title: Security Architecture Template
 use_cases:
 - Creating design comprehensive security architecture including security design principles,

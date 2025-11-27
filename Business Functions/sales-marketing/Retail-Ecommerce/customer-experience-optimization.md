@@ -2,10 +2,10 @@
 title: Customer Experience Optimization Template
 category: sales-marketing
 tags:
-- ai-ml
-- design
-- optimization
-- research
+- customer-experience
+- journey-optimization
+- personalization
+- cx-transformation
 use_cases:
 - Creating comprehensive customer experience optimization strategies, omnichannel
   journey enhancement plans, personalization frameworks, and customer-centric transformation

@@ -3,11 +3,10 @@ category: ai-ml-applications
 last_updated: 2025-11-12
 title: AI Agents & Autonomous Systems
 tags:
-- ai-ml
-- llm
-- agents
-- automation
+- ai-agents
+- autonomous-systems
 - multi-agent
+- agentic-workflows
 use_cases:
 - Building AI agents that can plan and execute multi-step tasks autonomously
 - Creating agentic workflows that combine LLMs with tools and APIs

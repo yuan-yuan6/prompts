@@ -5,12 +5,10 @@ related_templates:
 - content-creation/creative-writing-framework.md
 - content-creation/video-production-pipeline.md
 tags:
-- design
-- development
-- framework
-- marketing
-- optimization
-- strategy
+- influencer-marketing
+- creator-partnerships
+- campaign-tracking
+- roi-measurement
 title: Influencer Marketing Campaign & Creator Economy Framework
 use_cases:
 - Creating comprehensive framework for designing and executing influencer marketing

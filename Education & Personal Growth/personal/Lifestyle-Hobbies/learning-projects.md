@@ -2,12 +2,10 @@
 title: Learning Projects Template
 category: personal
 tags:
-- communication
-- design
-- development
-- optimization
-- personal
-- research
+- learning-projects
+- skill-acquisition
+- language-learning
+- lifelong-education
 use_cases:
 - Creating develop structured learning initiatives including language acquisition,
   skill development, and subject mastery to achieve educational goals through systematic

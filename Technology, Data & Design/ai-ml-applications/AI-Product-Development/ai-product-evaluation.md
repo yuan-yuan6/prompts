@@ -3,11 +3,10 @@ category: ai-ml-applications
 last_updated: 2025-11-22
 title: AI Product Evaluation and Quality Measurement
 tags:
-- ai-ml
-- evaluation
-- metrics
-- quality
-- testing
+- ai-evaluation
+- ml-metrics
+- ab-testing-ai
+- model-quality
 use_cases:
 - Evaluating AI model performance before deployment
 - Establishing quality metrics for AI products

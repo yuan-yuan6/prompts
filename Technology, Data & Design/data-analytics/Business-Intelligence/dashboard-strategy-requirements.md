@@ -6,8 +6,10 @@ related_templates:
 - data-analytics/Business-Intelligence/dashboard-data-architecture.md
 - data-analytics/Business-Intelligence/dashboard-design-overview.md
 tags:
-- data-analytics
-- strategy
+- business-intelligence
+- dashboards
+- requirements
+- kpi
 title: Dashboard Strategy & Business Requirements
 use_cases:
 - Defining dashboard business requirements

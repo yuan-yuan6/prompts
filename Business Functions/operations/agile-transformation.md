@@ -2,13 +2,10 @@
 title: Agile Transformation & Organizational Change Framework
 category: operations
 tags:
-- ai-ml
-- design
-- framework
-- optimization
-- management
-- research
-- strategy
+- agile
+- scrum
+- organizational-change
+- team-transformation
 use_cases:
 - Creating comprehensive framework for implementing agile transformation including
   methodology adoption, team restructuring, cultural change, process optimization,

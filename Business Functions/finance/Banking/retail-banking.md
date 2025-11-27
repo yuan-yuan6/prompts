@@ -6,12 +6,10 @@ related_templates:
 - finance/digital-banking-strategy.md
 - finance/risk-management-framework.md
 tags:
-- ai-ml
-- finance
-- framework
-- management
-- optimization
-- research
+- retail-banking
+- lending-products
+- branch-operations
+- deposit-accounts
 title: Retail Banking Operations & Customer Management Framework
 use_cases:
 - Creating comprehensive framework for managing retail banking operations including

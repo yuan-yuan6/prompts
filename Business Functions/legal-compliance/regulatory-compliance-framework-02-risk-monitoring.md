@@ -2,13 +2,10 @@
 title: 'Regulatory Compliance Framework - Part 2: Risk Management & Monitoring'
 category: legal-compliance
 tags:
-- design
-- framework
-- machine-learning
-- management
-- professional-services
-- security
-- template
+- compliance-risk
+- regulatory-change
+- compliance-training
+- surveillance
 use_cases:
 - Building comprehensive risk assessment and monitoring systems, implementing regulatory
   change management, developing training programs, and establishing compliance surveillance

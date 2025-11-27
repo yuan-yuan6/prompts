@@ -5,13 +5,10 @@ related_templates:
 - education/curriculum-development.md
 - education/curriculum-development-framework.md
 tags:
-- communication
-- design
-- development
-- education
-- research
-- strategy
-- testing
+- scientific-visualization
+- research-figures
+- data-graphics
+- visual-abstracts
 title: Data Visualization & Figures Template
 use_cases:
 - Creating compelling, accurate scientific visualizations including charts, graphs,

@@ -6,9 +6,10 @@ related_templates:
 - finance/Corporate-Finance/financial-analysis-overview.md
 - finance/Corporate-Finance/investment-evaluation.md
 tags:
-- design
-- management
-- optimization
+- portfolio-management
+- asset-allocation
+- rebalancing
+- performance-attribution
 title: Portfolio Management Template
 use_cases:
 - General application

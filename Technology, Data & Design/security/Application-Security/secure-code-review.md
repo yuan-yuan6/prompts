@@ -4,9 +4,9 @@ last_updated: 2025-11-11
 title: Secure Code Review Framework
 tags:
 - security
-- development
-- testing
-- automation
+- secure-code-review
+- sast
+- owasp
 use_cases:
 - Conducting security-focused code reviews to identify vulnerabilities
 - Implementing secure coding practices in development workflows

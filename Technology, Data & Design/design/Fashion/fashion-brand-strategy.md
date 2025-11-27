@@ -5,10 +5,9 @@ related_templates:
 - design/Fashion/sustainable-fashion-strategy.md
 tags:
 - design
-- development
-- framework
-- marketing
-- strategy
+- fashion
+- brand-strategy
+- collection-development
 title: Fashion Brand Strategy & Collection Development Framework
 use_cases:
 - Creating comprehensive framework for fashion brand development, collection planning,

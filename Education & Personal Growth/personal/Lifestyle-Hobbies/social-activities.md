@@ -2,9 +2,10 @@
 title: Social Activities Template
 category: personal
 tags:
-- development
-- personal
-- strategy
+- social-activities
+- community-involvement
+- relationship-building
+- event-planning
 use_cases:
 - Creating develop engaging social activity plans including events, group participation,
   and relationship building to enhance social connections, community involvement,

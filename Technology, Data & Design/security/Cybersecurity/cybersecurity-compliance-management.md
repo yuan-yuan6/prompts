@@ -6,11 +6,10 @@ related_templates:
 - technology/site-reliability-engineering.md
 - technology/cloud-migration-strategy.md
 tags:
-- communication
-- design
-- management
 - security
-- testing
+- compliance-management
+- regulatory
+- audit-preparation
 title: Compliance Management Template
 use_cases:
 - Creating comprehensive compliance management for regulatory frameworks including

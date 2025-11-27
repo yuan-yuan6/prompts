@@ -5,11 +5,10 @@ related_templates:
 - communication/meeting-management-framework.md
 - communication/crisis-communication-plan.md
 tags:
-- communication
-- design
-- management
-- optimization
-- strategy
+- change-management
+- adoption-strategy
+- organizational-transformation
+- resistance-management
 title: Change Management & Adoption Prompt Template
 use_cases:
 - Creating comprehensive framework for managing organizational change initiatives,

@@ -4,11 +4,10 @@ last_updated: 2025-11-09
 related_templates:
 - content-creation/Arts-Culture/digital-exhibition-curation.md
 tags:
-- design
-- framework
-- management
-- research
-- strategy
+- museum-management
+- exhibition-planning
+- collection-management
+- cultural-preservation
 title: Museum & Cultural Institution Management Framework
 use_cases:
 - Creating comprehensive framework for museum operations, exhibition planning, collection

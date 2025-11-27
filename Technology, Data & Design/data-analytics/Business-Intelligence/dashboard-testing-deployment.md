@@ -6,8 +6,10 @@ related_templates:
 - data-analytics/Business-Intelligence/dashboard-security-compliance.md
 - data-analytics/Business-Intelligence/dashboard-design-overview.md
 tags:
-- data-analytics
+- business-intelligence
+- dashboards
 - testing
+- deployment
 title: Dashboard Testing, Deployment & Maintenance
 use_cases:
 - Testing strategy development

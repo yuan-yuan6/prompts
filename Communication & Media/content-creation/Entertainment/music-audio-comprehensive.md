@@ -5,10 +5,10 @@ related_templates:
 - content-creation/creative-writing-framework.md
 - content-creation/video-production-pipeline.md
 tags:
-- communication
-- design
-- optimization
-- testing
+- music-audio
+- lyrics-composition
+- sound-design
+- audio-production
 title: Music & Audio Comprehensive Template Generator
 use_cases:
 - Creating comprehensive music and audio solutions covering lyrics composition, music

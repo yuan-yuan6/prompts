@@ -5,10 +5,10 @@ related_templates:
 - operations/Energy-Utilities/plant-operations-management.md
 - operations/Energy-Utilities/smart-grid-implementation.md
 tags:
-- ai-ml
-- optimization
-- research
-- strategy
+- solar-wind-energy
+- renewable-integration
+- energy-storage
+- green-power
 title: Renewable Energy System Optimization
 use_cases:
 - Creating comprehensive renewable energy planning, deployment, and optimization framework

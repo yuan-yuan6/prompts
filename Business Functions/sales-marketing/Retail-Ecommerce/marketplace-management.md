@@ -6,10 +6,10 @@ related_templates:
 - sales-marketing/Retail-Ecommerce/dynamic-pricing-strategy.md
 - sales-marketing/Retail-Ecommerce/product-sourcing-strategy.md
 tags:
-- ai-ml
-- management
-- optimization
-- strategy
+- marketplace-optimization
+- multi-channel-selling
+- platform-strategy
+- seller-performance
 title: Marketplace Management Template
 use_cases:
 - Creating comprehensive marketplace optimization strategies, multi-channel selling

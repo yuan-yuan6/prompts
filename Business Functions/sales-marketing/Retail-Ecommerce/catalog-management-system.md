@@ -2,13 +2,10 @@
 title: Catalog Management & Product Information Framework
 category: sales-marketing
 tags:
-- design
-- framework
-- ai-ml
-- management
-- marketing
-- optimization
-- security
+- catalog-management
+- pim
+- product-content
+- multi-channel-distribution
 use_cases:
 - Creating comprehensive framework for managing product catalogs including product
   information management (pim), content creation, categorization, seo optimization,

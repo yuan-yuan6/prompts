@@ -4,12 +4,10 @@ last_updated: 2025-11-09
 related_templates:
 - sales-marketing/Social-Media/influencer-marketing-campaign.md
 tags:
-- design
-- development
-- framework
-- management
-- marketing
-- optimization
+- content-marketing
+- social-media-strategy
+- community-building
+- digital-engagement
 title: Content Marketing & Social Media Strategy Framework
 use_cases:
 - Creating comprehensive framework for content marketing strategy, social media management,

@@ -2,12 +2,10 @@
 title: FinTech Innovation & Digital Finance Framework
 category: finance
 tags:
-- ai-ml
-- design
-- finance
-- framework
-- management
-- security
+- fintech
+- digital-payments
+- regtech
+- open-banking
 use_cases:
 - Creating comprehensive framework for developing and implementing financial technology
   solutions including digital payments, blockchain applications, ai-driven services,

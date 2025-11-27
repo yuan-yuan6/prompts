@@ -6,10 +6,10 @@ related_templates:
 - strategy/digital-transformation-roadmap.md
 - operations/lean-six-sigma-implementation.md
 tags:
-- design
-- development
-- framework
-- strategy
+- growth-strategy
+- market-expansion
+- business-scaling
+- diversification
 title: Growth Strategy & Market Expansion Framework
 use_cases:
 - Creating strategic framework for planning and executing business growth initiatives

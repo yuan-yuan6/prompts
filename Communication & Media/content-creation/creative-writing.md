@@ -5,10 +5,10 @@ related_templates:
 - content-creation/creative-writing-framework.md
 - content-creation/video-production-pipeline.md
 tags:
-- automation
-- communication
-- design
-- development
+- fiction-writing
+- narrative-craft
+- literary-techniques
+- storytelling
 title: Creative Writing Template
 use_cases:
 - Creating generate compelling creative writing including stories, scripts, poetry,

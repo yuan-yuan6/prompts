@@ -6,9 +6,10 @@ related_templates:
 - sales-marketing/Retail-Ecommerce/dynamic-pricing-strategy.md
 - sales-marketing/Retail-Ecommerce/product-sourcing-strategy.md
 tags:
-- design
-- development
-- framework
+- loyalty-programs
+- rewards-structure
+- tier-systems
+- customer-retention
 title: Customer Loyalty & Rewards Program Framework
 use_cases:
 - Creating comprehensive framework for designing, implementing, and optimizing customer

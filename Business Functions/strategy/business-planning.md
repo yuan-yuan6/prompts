@@ -2,12 +2,10 @@
 title: Business Planning Template Generator
 category: strategy
 tags:
-- ai-ml
-- design
-- documentation
-- optimization
-- research
-- strategy
+- business-planning
+- strategic-roadmap
+- investor-presentation
+- annual-planning
 use_cases:
 - Draft a business plan outline for investor presentation
 - Create strategic roadmap for new product launch

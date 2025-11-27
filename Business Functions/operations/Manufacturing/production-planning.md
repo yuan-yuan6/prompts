@@ -2,12 +2,10 @@
 title: Production Planning & Scheduling Framework
 category: operations
 tags:
-- design
-- framework
-- management
-- optimization
-- strategy
-- testing
+- production-planning
+- capacity-management
+- mrp
+- scheduling-optimization
 use_cases:
 - Creating comprehensive framework for manufacturing production planning including
   capacity management, scheduling optimization, resource allocation, workflow design,

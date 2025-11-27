@@ -5,13 +5,10 @@ related_templates:
 - communication/meeting-management-framework.md
 - communication/crisis-communication-plan.md
 tags:
-- communication
-- design
-- development
-- management
-- optimization
-- security
-- strategy
+- board-reporting
+- governance-communication
+- executive-updates
+- stakeholder-briefings
 title: Board Reporting & Governance Prompt Template
 use_cases:
 - Creating comprehensive framework for creating board-level reports, managing governance

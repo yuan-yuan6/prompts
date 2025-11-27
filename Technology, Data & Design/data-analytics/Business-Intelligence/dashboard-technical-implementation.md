@@ -2,8 +2,10 @@
 title: Dashboard Technical Implementation & Platform
 category: data-analytics
 tags:
-- data-analytics
-- infrastructure
+- business-intelligence
+- dashboards
+- bi-platforms
+- performance-optimization
 use_cases:
 - Select and configure BI platform for organization's dashboard needs
 - Design technical architecture for scalable dashboard infrastructure

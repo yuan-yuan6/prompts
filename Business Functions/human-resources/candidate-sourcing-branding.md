@@ -6,7 +6,10 @@ related_templates:
 - human-resources/screening-interview-process.md
 - human-resources/recruitment-metrics-optimization.md
 tags:
-- human-resources
+- candidate-sourcing
+- employer-branding
+- talent-pipeline
+- evp
 title: Candidate Sourcing & Employer Branding
 use_cases:
 - Build a 90-day sourcing strategy for hard-to-fill roles

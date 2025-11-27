@@ -3,11 +3,10 @@ category: ai-ml-applications
 last_updated: 2025-11-12
 title: RAG (Retrieval Augmented Generation) Systems
 tags:
-- ai-ml
-- llm
 - rag
 - vector-search
-- knowledge-base
+- embeddings
+- knowledge-retrieval
 use_cases:
 - Building AI systems that answer questions from private knowledge bases
 - Creating chatbots with access to company documentation

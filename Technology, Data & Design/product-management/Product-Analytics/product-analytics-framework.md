@@ -4,8 +4,8 @@ last_updated: 2025-11-12
 title: Product Analytics Infrastructure & Framework
 tags:
 - product-management
-- analytics
-- infrastructure
+- product-analytics
+- analytics-infrastructure
 - data-strategy
 use_cases:
 - Building product analytics infrastructure from scratch

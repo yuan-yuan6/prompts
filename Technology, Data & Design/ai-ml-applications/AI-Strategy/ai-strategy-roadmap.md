@@ -4,11 +4,10 @@ category: ai-ml-applications
 last_updated: 2025-11-25
 title: AI Strategy Roadmap
 tags:
-- ai-ml
-- strategy
-- roadmap
-- transformation
-- executive
+- ai-strategy
+- ai-transformation
+- enterprise-ai
+- ai-roadmap
 use_cases:
 - Developing enterprise-wide AI vision and strategy
 - Creating multi-year AI transformation roadmaps

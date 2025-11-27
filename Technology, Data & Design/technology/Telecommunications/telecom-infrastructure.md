@@ -4,13 +4,10 @@ last_updated: 2025-11-09
 related_templates:
 - technology/Telecommunications/5g-network-deployment.md
 tags:
-- communication
-- design
-- framework
-- management
-- optimization
-- strategy
-- testing
+- telecommunications
+- network-operations
+- ran-core
+- noc
 title: Telecommunications Infrastructure & Network Operations Framework
 use_cases:
 - Creating comprehensive framework for telecommunications network planning, operations

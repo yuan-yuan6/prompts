@@ -2,10 +2,10 @@
 title: Network Analysis and Graphs Template
 category: data-analytics
 tags:
-- data-analytics
-- ai-ml
-- design
-- research
+- research-analytics
+- network-analysis
+- graph-theory
+- social-network-analysis
 use_cases:
 - Creating perform comprehensive network analysis and graph analytics to understand
   relationships, identify communities, analyze social structures, and extract insights

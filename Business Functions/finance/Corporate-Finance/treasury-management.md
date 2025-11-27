@@ -6,13 +6,10 @@ related_templates:
 - strategy/digital-transformation-roadmap.md
 - operations/lean-six-sigma-implementation.md
 tags:
-- design
-- development
-- ai-ml
-- management
-- optimization
-- security
-- strategy
+- treasury-management
+- cash-flow
+- liquidity
+- fx-hedging
 title: Treasury Management Template Generator
 use_cases:
 - Creating comprehensive treasury management strategies covering cash flow management,

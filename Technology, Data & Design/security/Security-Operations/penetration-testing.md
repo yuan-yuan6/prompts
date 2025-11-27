@@ -4,8 +4,9 @@ last_updated: 2025-11-11
 title: Penetration Testing Framework
 tags:
 - security
-- testing
-- assessment
+- penetration-testing
+- red-team
+- exploitation
 use_cases:
 - Planning and executing penetration tests
 - Internal and external security assessments

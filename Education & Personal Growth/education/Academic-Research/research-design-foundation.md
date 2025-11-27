@@ -6,9 +6,10 @@ related_templates:
 - education/Academic-Research/research-design-analysis-quality.md
 - education/Academic-Research/research-design-overview.md
 tags:
-- research
-- design
-- framework
+- theoretical-framework
+- research-paradigms
+- conceptual-models
+- epistemology
 title: Research Design Foundation - Theoretical Framework & Design Selection
 use_cases:
 - Developing theoretical frameworks and research foundations for academic studies

@@ -6,8 +6,10 @@ related_templates:
 - finance/Corporate-Finance/financial-risk-assessment.md
 - finance/Corporate-Finance/financial-valuation-recommendations.md
 tags:
-- finance
-- planning
+- financial-forecasting
+- revenue-projections
+- pro-forma
+- scenario-modeling
 title: Financial Forecasting & Projections
 use_cases:
 - Creating revenue and expense forecasts

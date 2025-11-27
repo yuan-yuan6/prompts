@@ -2,11 +2,10 @@
 title: Precision Agriculture & Smart Farming Framework
 category: operations
 tags:
-- ai-ml
-- documentation
-- framework
-- management
-- optimization
+- precision-agriculture
+- iot-sensors
+- variable-rate-application
+- gis-mapping
 use_cases:
 - Creating comprehensive framework for implementing precision agriculture technologies
   including gps-guided operations, variable rate applications, crop monitoring, yield

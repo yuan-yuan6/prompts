@@ -6,8 +6,7 @@ tags:
 - product-management
 - ab-testing
 - experimentation
-- analytics
-- optimization
+- conversion-optimization
 use_cases:
 - Designing and running A/B tests to validate product hypotheses
 - Optimizing conversion funnels and user flows

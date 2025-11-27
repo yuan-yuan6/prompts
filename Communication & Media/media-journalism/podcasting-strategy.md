@@ -4,13 +4,10 @@ last_updated: 2025-11-09
 related_templates:
 - media-journalism/content-strategy.md
 tags:
-- ai-ml
-- design
-- development
-- framework
-- marketing
-- research
-- strategy
+- podcasting-strategy
+- podcast-production
+- audience-growth
+- podcast-monetization
 title: Podcasting Strategy & Production Framework
 use_cases:
 - Creating comprehensive framework for developing and producing podcasts including

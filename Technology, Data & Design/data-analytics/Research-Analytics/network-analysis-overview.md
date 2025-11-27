@@ -2,8 +2,9 @@
 title: Network Analysis - Overview and Navigation
 category: data-analytics
 tags:
-- data-analytics
-- ai-ml
+- research-analytics
+- network-analysis
+- graph-analytics
 use_cases:
 - Understanding network analysis workflow and capabilities
 - Selecting appropriate network analysis modules

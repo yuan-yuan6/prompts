@@ -5,10 +5,10 @@ related_templates:
 - communication/meeting-management-framework.md
 - communication/crisis-communication-plan.md
 tags:
-- automation
-- communication
-- management
-- strategy
+- client-relations
+- client-retention
+- relationship-management
+- client-engagement
 title: Client Relations Management Prompt Template
 use_cases:
 - Creating comprehensive framework for managing client relationships, communications,

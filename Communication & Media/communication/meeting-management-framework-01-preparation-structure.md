@@ -2,14 +2,10 @@
 title: 'Meeting Management Framework - Part 1: Preparation & Structure'
 category: communication
 tags:
-- communication
-- design
-- framework
-- machine-learning
-- management
-- optimization
-- professional-services
-- strategy
+- meeting-preparation
+- agenda-design
+- meeting-structure
+- collaboration-platforms
 series: meeting-management-framework
 part: 1 of 3
 related_parts:

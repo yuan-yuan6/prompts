@@ -2,11 +2,10 @@
 title: Creative Writing & Storytelling Framework
 category: content-creation
 tags:
-- automation
-- communication
-- design
-- development
-- framework
+- creative-writing
+- story-development
+- character-creation
+- worldbuilding
 use_cases:
 - Creating comprehensive framework for creative writing projects including story development,
   character creation, worldbuilding, narrative structure, dialogue crafting, and publication

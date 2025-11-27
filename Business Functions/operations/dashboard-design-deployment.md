@@ -2,12 +2,10 @@
 title: 'Dashboard Design Patterns - Part 3: Deployment & Operations'
 category: operations
 tags:
-- operations
-- deployment
+- dashboard-deployment
 - change-management
-- training
-- optimization
-- strategy
+- adoption-training
+- metrics-optimization
 use_cases:
 - Implementing dashboard deployment strategies, managing organizational change and
   adoption, measuring success and optimization, planning advanced features and future

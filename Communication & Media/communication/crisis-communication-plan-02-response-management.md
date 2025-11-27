@@ -2,14 +2,10 @@
 title: 'Crisis Communication Plan - Part 2: Response & Management'
 category: communication
 tags:
-- communication
-- data-science
-- development
-- framework
-- management
-- professional-services
-- research
-- security
+- crisis-response
+- incident-management
+- media-coordination
+- rapid-communication
 series: crisis-communication-plan
 part: 2 of 3
 related_parts:

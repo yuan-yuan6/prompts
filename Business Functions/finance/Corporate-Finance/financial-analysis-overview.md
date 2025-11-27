@@ -2,7 +2,10 @@
 title: Financial Analysis - Overview & Navigation
 category: finance
 tags:
-- finance
+- financial-analysis
+- ratio-analysis
+- performance-metrics
+- benchmarking
 use_cases:
 - Understanding the financial analysis template suite
 - Selecting the right analysis template

@@ -5,13 +5,10 @@ related_templates:
 - education/curriculum-development.md
 - education/curriculum-development-framework.md
 tags:
-- design
-- documentation
-- education
-- framework
-- ai-ml
-- management
-- strategy
+- wiki-systems
+- knowledge-bases
+- faq-documentation
+- collaborative-platforms
 title: Documentation & Wikis Knowledge Framework Generator
 use_cases:
 - Creating comprehensive frameworks for wikis, knowledge bases, FAQs, documentation

@@ -5,8 +5,10 @@ related_templates:
 - content-creation/creative-writing-framework.md
 - content-creation/video-production-pipeline.md
 tags:
-- communication
-- design
+- screenplay-format
+- dialogue-writing
+- scene-structure
+- script-craft
 title: Screenwriting Template
 use_cases:
 - Creating compelling screenplays for films, TV series, and web content with professional

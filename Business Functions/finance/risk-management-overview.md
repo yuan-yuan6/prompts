@@ -6,10 +6,10 @@ related_templates:
 - finance/risk-management-02-market-operational.md
 - finance/risk-management-03-compliance-innovation.md
 tags:
-- design
-- finance
-- framework
-- management
+- risk-management
+- risk-framework
+- risk-governance
+- financial-institutions
 title: Risk Management Framework - Overview & Navigation Guide
 use_cases:
 - Navigating the comprehensive risk management framework series

@@ -4,9 +4,9 @@ last_updated: 2025-11-12
 title: User Behavior Analysis
 tags:
 - product-management
-- analytics
 - user-behavior
-- data-analysis
+- funnel-analysis
+- cohort-analysis
 use_cases:
 - Analyzing user behavior patterns to inform product decisions
 - Identifying friction points and drop-off in user journeys

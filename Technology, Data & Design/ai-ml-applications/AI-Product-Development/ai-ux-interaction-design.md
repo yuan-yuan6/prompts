@@ -3,11 +3,10 @@ category: ai-ml-applications
 last_updated: 2025-11-12
 title: AI UX & Interaction Design
 tags:
-- ai-ml
-- ux-design
-- interaction-design
-- user-experience
-- product-design
+- ai-ux-design
+- ai-interaction
+- ai-transparency
+- human-ai-interaction
 use_cases:
 - Designing user experiences for AI-powered features
 - Creating interaction patterns for AI systems

@@ -2,10 +2,10 @@
 title: Intellectual Property Management & Protection Framework
 category: legal-compliance
 tags:
-- framework
-- management
-- security
-- strategy
+- intellectual-property
+- patent-portfolio
+- trademark-protection
+- ip-licensing
 use_cases:
 - Creating comprehensive intellectual property management framework covering ip strategy,
   patent portfolio management, trademark protection, trade secret safeguarding, licensing

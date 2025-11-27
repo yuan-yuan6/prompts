@@ -6,8 +6,10 @@ related_templates:
 - strategy/digital-transformation-roadmap.md
 - operations/lean-six-sigma-implementation.md
 tags:
-- ai-ml
-- research
+- market-research
+- competitive-analysis
+- consumer-insights
+- market-segmentation
 title: Market Research Template Generator
 use_cases:
 - Creating comprehensive market research strategies covering surveys, analysis, and

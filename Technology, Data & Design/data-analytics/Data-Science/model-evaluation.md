@@ -6,13 +6,10 @@ related_templates:
 - data-analytics/data-governance-framework.md
 - data-analytics/predictive-modeling-framework.md
 tags:
-- data-analytics
-- ai-ml
-- design
-- framework
-- optimization
-- research
-- security
+- data-science
+- model-evaluation
+- validation
+- ml-metrics
 title: Model Evaluation & Validation Framework Template
 use_cases:
 - Creating design and implement comprehensive model evaluation and validation frameworks

@@ -2,13 +2,10 @@
 title: Crisis Communication Plan & Response Framework
 category: communication
 tags:
-- communication
-- ai-ml
-- development
-- framework
-- management
-- research
-- security
+- crisis-communication
+- reputation-management
+- message-development
+- channel-strategy
 use_cases:
 - Creating comprehensive crisis communication framework covering risk assessment,
   stakeholder mapping, message development, channel strategy, response protocols,

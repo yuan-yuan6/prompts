@@ -3,10 +3,9 @@ category: ai-ml-applications
 last_updated: 2025-11-22
 title: AI Performance Optimization
 tags:
-- ai-ml
-- performance
-- optimization
-- latency
+- inference-optimization
+- ml-latency
+- model-serving
 - throughput
 use_cases:
 - Reducing AI inference latency for real-time applications

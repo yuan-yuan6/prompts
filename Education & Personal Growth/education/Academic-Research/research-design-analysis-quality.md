@@ -2,8 +2,10 @@
 title: Research Design - Analysis Framework & Quality Assurance
 category: education
 tags:
-- research
-- analysis
+- analysis-planning
+- validity-reliability
+- statistical-strategy
+- quality-assurance
 use_cases:
 - Developing comprehensive data analysis plans and statistical strategies
 - Establishing validity and reliability frameworks for quantitative research

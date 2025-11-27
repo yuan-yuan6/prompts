@@ -3,7 +3,9 @@ title: Query Optimization - Indexing Strategies
 category: data-analytics
 tags:
 - data-analytics
-- optimization
+- indexing
+- database-indexes
+- index-maintenance
 use_cases:
 - Designing comprehensive indexing strategies for optimal query performance
 - Analyzing index effectiveness and identifying optimization opportunities

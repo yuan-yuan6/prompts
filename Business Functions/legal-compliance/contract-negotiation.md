@@ -6,13 +6,10 @@ related_templates:
 - legal-compliance/contract-drafting-template.md
 - legal-compliance/intellectual-property-management.md
 tags:
-- ai-ml
-- design
-- framework
-- optimization
-- management
-- research
-- strategy
+- contract-negotiation
+- deal-structuring
+- concession-planning
+- closing-techniques
 title: Contract Negotiation Strategy Framework
 use_cases:
 - Creating comprehensive framework for negotiating contracts including preparation

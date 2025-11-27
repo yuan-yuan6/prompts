@@ -5,9 +5,10 @@ related_templates:
 - content-creation/creative-writing-framework.md
 - content-creation/video-production-pipeline.md
 tags:
-- communication
 - design
-- marketing
+- graphic-design
+- branding
+- visual-identity
 title: Graphic Design Comprehensive Template Generator
 use_cases:
 - Creating comprehensive graphic design solutions covering layouts, branding, logos,

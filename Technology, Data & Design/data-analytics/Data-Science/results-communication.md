@@ -6,12 +6,10 @@ related_templates:
 - data-analytics/data-governance-framework.md
 - data-analytics/predictive-modeling-framework.md
 tags:
-- communication
-- data-analytics
-- ai-ml
-- design
-- research
-- strategy
+- data-science
+- data-storytelling
+- insights
+- stakeholder-communication
 title: Results Communication & Insights Template
 use_cases:
 - Creating design and deliver comprehensive communication strategies to effectively

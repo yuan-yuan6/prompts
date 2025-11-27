@@ -2,12 +2,10 @@
 title: Conflict Resolution Template
 category: personal
 tags:
-- communication
-- ai-ml
-- management
-- personal
-- research
-- strategy
+- conflict-resolution
+- mediation
+- de-escalation
+- dispute-management
 use_cases:
 - Creating develop effective mediation, de-escalation, and solution-finding strategies
   to resolve conflicts constructively, restore relationships, and prevent future disputes

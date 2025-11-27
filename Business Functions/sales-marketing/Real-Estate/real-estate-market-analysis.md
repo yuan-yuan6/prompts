@@ -2,10 +2,10 @@
 title: Real Estate Market Analysis & Investment Evaluation Framework
 category: sales-marketing
 tags:
-- ai-ml
-- framework
-- research
-- strategy
+- real-estate-market
+- investment-evaluation
+- comparable-analysis
+- market-trends
 use_cases:
 - Creating comprehensive framework for analyzing real estate markets, evaluating investment
   opportunities, conducting comparable analysis, and making data-driven property investment

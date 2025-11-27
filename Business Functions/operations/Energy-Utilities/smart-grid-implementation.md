@@ -2,13 +2,10 @@
 title: Smart Grid Implementation Template
 category: operations
 tags:
-- communication
-- ai-ml
-- design
-- management
-- optimization
-- research
-- security
+- smart-grid
+- ami-metering
+- demand-response
+- grid-modernization
 use_cases:
 - Creating comprehensive smart grid implementation strategies, infrastructure modernization
   plans, technology deployment roadmaps, and digital transformation initiatives that

@@ -5,13 +5,10 @@ related_templates:
 - communication/meeting-management-framework.md
 - communication/crisis-communication-plan.md
 tags:
-- communication
-- design
-- development
-- management
-- optimization
-- security
-- strategy
+- status-updates
+- progress-reporting
+- stakeholder-alignment
+- team-communication
 title: Status Updates & Reporting Prompt Template
 use_cases:
 - Creating comprehensive framework for creating effective status updates, progress

@@ -5,10 +5,10 @@ related_templates:
 - operations/Energy-Utilities/plant-operations-management.md
 - operations/Energy-Utilities/smart-grid-implementation.md
 tags:
-- design
-- development
-- management
-- optimization
+- energy-efficiency
+- consumption-reduction
+- building-performance
+- energy-auditing
 title: Energy Efficiency Programs & Demand Side Management
 use_cases:
 - Creating comprehensive framework for designing, implementing, and evaluating energy

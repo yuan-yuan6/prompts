@@ -6,12 +6,10 @@ related_templates:
 - legal-compliance/contract-drafting-template.md
 - legal-compliance/intellectual-property-management.md
 tags:
-- ai-ml
-- framework
-- management
-- optimization
-- research
-- security
+- enterprise-contracts
+- legal-operations
+- legal-risk
+- contract-compliance
 title: Contract Management & Legal Operations Framework
 use_cases:
 - Creating comprehensive framework for enterprise contract lifecycle management, legal

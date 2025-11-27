@@ -3,11 +3,10 @@ category: ai-ml-applications
 last_updated: 2025-11-22
 title: AI Cost Optimization and Budget Management
 tags:
-- ai-ml
-- cost-optimization
-- budget
-- efficiency
-- cloud-costs
+- ai-cost-optimization
+- llm-costs
+- inference-costs
+- gpu-optimization
 use_cases:
 - Reducing AI/ML infrastructure and API costs
 - Optimizing model serving economics

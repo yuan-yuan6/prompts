@@ -6,12 +6,10 @@ related_templates:
 - technology/site-reliability-engineering.md
 - technology/cloud-migration-strategy.md
 tags:
-- communication
-- design
-- ai-ml
-- management
-- optimization
-- strategy
+- llm
+- prompt-engineering
+- langchain
+- ai-agents
 title: Prompt Engineering Template
 use_cases:
 - Creating design and optimize prompts for large language models including prompt

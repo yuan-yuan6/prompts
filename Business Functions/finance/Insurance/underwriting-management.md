@@ -6,13 +6,10 @@ related_templates:
 - finance/digital-banking-strategy.md
 - finance/risk-management-framework.md
 tags:
-- automation
-- communication
-- documentation
-- finance
-- framework
-- management
-- optimization
+- insurance-underwriting
+- risk-pricing
+- loss-ratio
+- actuarial
 title: Insurance Underwriting & Risk Assessment Framework
 use_cases:
 - Creating comprehensive framework for insurance underwriting operations including

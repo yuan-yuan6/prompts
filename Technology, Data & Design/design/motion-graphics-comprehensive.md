@@ -6,8 +6,9 @@ related_templates:
 - content-creation/video-production-pipeline.md
 tags:
 - design
-- marketing
-- testing
+- motion-graphics
+- animation
+- video-production
 title: Motion Graphics Comprehensive Template Generator
 use_cases:
 - Creating comprehensive motion graphics solutions covering animations, effects, transitions,

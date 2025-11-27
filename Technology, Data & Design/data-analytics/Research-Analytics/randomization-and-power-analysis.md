@@ -2,9 +2,10 @@
 title: Randomization and Power Analysis
 category: data-analytics
 tags:
-- automation
-- data-analytics
-- research
+- research-analytics
+- power-analysis
+- sample-size
+- randomization
 use_cases:
 - Plan and execute randomization procedures, calculate sample sizes, and perform comprehensive
   power analyses for experimental studies to ensure adequate statistical power and

@@ -4,8 +4,9 @@ last_updated: 2025-11-11
 title: Security Compliance Framework (SOC 2, ISO 27001, HIPAA, PCI-DSS)
 tags:
 - security
-- compliance
-- framework
+- soc2
+- iso27001
+- compliance-audit
 use_cases:
 - Achieving SOC 2, ISO 27001, HIPAA, or PCI-DSS compliance
 - Building security compliance program from scratch

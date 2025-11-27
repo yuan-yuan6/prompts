@@ -6,10 +6,10 @@ related_templates:
 - strategy/digital-transformation-roadmap.md
 - operations/lean-six-sigma-implementation.md
 tags:
-- development
-- management
-- optimization
-- strategy
+- performance-evaluation
+- feedback-delivery
+- development-planning
+- performance-ratings
 title: Performance Review Template Generator
 use_cases:
 - Creating comprehensive performance review systems covering evaluations, feedback

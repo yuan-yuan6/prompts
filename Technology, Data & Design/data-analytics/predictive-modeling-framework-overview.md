@@ -2,13 +2,9 @@
 title: Predictive Modeling Framework - Overview & Navigation
 category: data-analytics
 tags:
-- automation
-- data-analytics
-- ai-ml
-- design
-- framework
-- optimization
-- research
+- data-science
+- predictive-modeling
+- machine-learning
 parent_prompt: predictive-modeling-framework (split into 3 parts)
 last_updated: 2025-11-11
 industries:

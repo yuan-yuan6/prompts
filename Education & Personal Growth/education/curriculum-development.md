@@ -2,11 +2,10 @@
 title: Curriculum Development Template
 category: education
 tags:
-- ai-ml
-- design
-- development
-- education
-- research
+- curriculum-development
+- program-design
+- learning-pathways
+- competency-mapping
 use_cases:
 - Creating comprehensive curriculum development frameworks, instructional design strategies,
   learning pathway architectures, and educational program blueprints that align with

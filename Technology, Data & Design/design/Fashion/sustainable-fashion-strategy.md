@@ -2,11 +2,10 @@
 title: Sustainable Fashion & Circular Economy Framework
 category: design
 tags:
-- framework
-- ai-ml
-- management
-- marketing
-- strategy
+- design
+- fashion
+- sustainability
+- circular-economy
 use_cases:
 - Creating comprehensive framework for implementing sustainable fashion strategies
   including eco-friendly materials, ethical production, circular business models,

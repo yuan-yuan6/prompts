@@ -5,12 +5,10 @@ related_templates:
 - content-creation/creative-writing-framework.md
 - content-creation/video-production-pipeline.md
 tags:
-- ai-ml
-- automation
-- design
-- marketing
-- strategy
-- testing
+- video-scripts
+- youtube-content
+- explainer-videos
+- tutorial-scripting
 title: Video Scripts Template Generator
 use_cases:
 - Creating comprehensive video script strategies for YouTube, documentaries, ads,

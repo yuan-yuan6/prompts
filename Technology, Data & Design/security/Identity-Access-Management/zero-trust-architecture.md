@@ -4,8 +4,9 @@ last_updated: 2025-11-11
 title: Zero Trust Architecture Implementation
 tags:
 - security
-- infrastructure
-- compliance
+- zero-trust
+- ztna
+- identity-verification
 use_cases:
 - Implementing zero trust security model across enterprise
 - Replacing perimeter-based security with identity-centric controls

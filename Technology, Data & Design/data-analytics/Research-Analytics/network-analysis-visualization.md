@@ -2,8 +2,10 @@
 title: Network Analysis - Visualization and Reporting
 category: data-analytics
 tags:
-- data-analytics
-- ai-ml
+- research-analytics
+- network-analysis
+- graph-visualization
+- reporting
 use_cases:
 - Creating comprehensive network visualizations
 - Building interactive network dashboards

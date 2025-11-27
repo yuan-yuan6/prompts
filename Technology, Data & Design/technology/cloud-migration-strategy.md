@@ -2,12 +2,10 @@
 title: Cloud Migration Strategy & Transformation Framework
 category: technology
 tags:
-- design
-- framework
-- ai-ml
-- optimization
-- security
-- strategy
+- cloud-migration
+- rehost-refactor
+- landing-zone
+- lift-and-shift
 use_cases:
 - Creating comprehensive framework for planning and executing cloud migration initiatives
   including assessment, architecture design, migration patterns, security implementation,

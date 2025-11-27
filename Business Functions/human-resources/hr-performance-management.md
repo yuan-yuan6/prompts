@@ -6,13 +6,10 @@ related_templates:
 - human-resources/employee-engagement-program.md
 - human-resources/talent-acquisition-strategy.md
 tags:
-- design
-- development
-- documentation
-- framework
-- management
-- optimization
-- strategy
+- performance-management
+- employee-development
+- succession-planning
+- talent-assessment
 title: Performance Management & Employee Development Framework
 use_cases:
 - Creating comprehensive framework for designing and implementing performance management

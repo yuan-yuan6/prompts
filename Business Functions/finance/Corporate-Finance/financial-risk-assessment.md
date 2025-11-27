@@ -2,8 +2,10 @@
 title: Financial Risk Assessment & Scenario Analysis
 category: finance
 tags:
-- finance
-- risk-management
+- financial-risk
+- scenario-analysis
+- sensitivity-analysis
+- risk-quantification
 use_cases:
 - Identifying and quantifying financial risks
 - Conducting scenario and sensitivity analysis

@@ -6,11 +6,10 @@ related_templates:
 - education/Academic-Research/literature-review-protocol-search.md
 - education/Academic-Research/literature-reviews-overview.md
 tags:
-- communication
-- education
-- research
-- strategy
-- documentation
+- review-reporting
+- prisma-guidelines
+- knowledge-translation
+- research-dissemination
 title: Literature Review Reporting & Dissemination
 use_cases:
 - Preparing manuscripts for publication following reporting guidelines

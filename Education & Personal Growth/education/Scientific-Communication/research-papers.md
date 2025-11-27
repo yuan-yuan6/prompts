@@ -5,13 +5,10 @@ related_templates:
 - education/curriculum-development.md
 - education/curriculum-development-framework.md
 tags:
-- automation
-- communication
-- ai-ml
-- design
-- development
-- education
-- optimization
+- research-papers
+- manuscript-writing
+- scientific-argumentation
+- evidence-presentation
 title: Research Papers & Manuscripts Template
 use_cases:
 - Creating design comprehensive frameworks for structuring, writing, and revising

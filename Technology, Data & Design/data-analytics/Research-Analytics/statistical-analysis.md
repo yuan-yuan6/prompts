@@ -2,10 +2,10 @@
 title: Statistical Analysis and Inference Template
 category: data-analytics
 tags:
-- data-analytics
-- ai-ml
-- design
-- research
+- research-analytics
+- statistical-analysis
+- hypothesis-testing
+- inference
 use_cases:
 - Creating conduct comprehensive statistical analysis and inference to test hypotheses,
   estimate parameters, make predictions, and draw valid conclusions from data using

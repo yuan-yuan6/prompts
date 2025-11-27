@@ -2,13 +2,10 @@
 title: Career Development & Professional Growth Framework
 category: personal
 tags:
-- communication
-- design
-- development
-- framework
-- marketing
-- personal
-- strategy
+- career-development
+- professional-growth
+- personal-branding
+- career-advancement
 use_cases:
 - Creating comprehensive framework for individual career planning, skill development,
   professional networking, personal branding, and strategic career advancement across

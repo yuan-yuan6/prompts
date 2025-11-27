@@ -6,13 +6,10 @@ related_templates:
 - technology/site-reliability-engineering.md
 - technology/cloud-migration-strategy.md
 tags:
-- communication
-- ai-ml
-- design
-- management
-- optimization
-- research
-- security
+- database-management
+- schema-design
+- query-optimization
+- backup-recovery
 title: Database Management Template
 use_cases:
 - Creating comprehensive database management including schema design, query optimization,

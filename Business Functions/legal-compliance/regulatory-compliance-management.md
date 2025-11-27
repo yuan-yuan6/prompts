@@ -6,13 +6,10 @@ related_templates:
 - legal-compliance/contract-drafting-template.md
 - legal-compliance/intellectual-property-management.md
 tags:
-- design
-- development
-- documentation
-- ai-ml
-- management
-- security
-- strategy
+- compliance-management
+- regulatory-frameworks
+- compliance-governance
+- risk-assessment
 title: Compliance Management Template Generator
 use_cases:
 - Creating comprehensive compliance management strategies covering regulatory frameworks,

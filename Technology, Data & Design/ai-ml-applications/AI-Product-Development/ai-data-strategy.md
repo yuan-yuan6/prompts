@@ -3,11 +3,10 @@ category: ai-ml-applications
 last_updated: 2025-11-22
 title: AI Data Strategy and Management
 tags:
-- ai-ml
-- data-strategy
-- data-management
-- data-quality
+- ai-data-strategy
 - feature-store
+- data-versioning
+- ml-data-management
 use_cases:
 - Designing data architecture for AI/ML systems
 - Establishing data quality frameworks for model training

@@ -2,11 +2,10 @@
 title: Budget Planning Template
 category: personal
 tags:
-- development
-- management
-- optimization
-- personal
-- strategy
+- budget-planning
+- expense-tracking
+- income-management
+- financial-goals
 use_cases:
 - Creating comprehensive budget planning systems including income tracking, expense
   management, and financial goal achievement to optimize personal financial health

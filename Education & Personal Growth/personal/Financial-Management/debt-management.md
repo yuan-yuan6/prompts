@@ -2,11 +2,10 @@
 title: Debt Management Template
 category: personal
 tags:
-- ai-ml
-- management
-- personal
-- research
-- strategy
+- debt-reduction
+- debt-consolidation
+- credit-improvement
+- financial-recovery
 use_cases:
 - Creating develop effective debt reduction strategies, consolidation plans, and negotiation
   approaches to eliminate debt efficiently while minimizing interest costs and improving

@@ -2,13 +2,10 @@
 title: Athlete Performance Optimization & Training Framework
 category: operations
 tags:
-- ai-ml
-- design
-- development
-- framework
-- optimization
-- research
-- strategy
+- athlete-performance
+- training-periodization
+- sports-science
+- injury-prevention
 use_cases:
 - Creating comprehensive framework for optimizing athletic performance including biomechanical
   analysis, training periodization, nutrition planning, recovery protocols, mental

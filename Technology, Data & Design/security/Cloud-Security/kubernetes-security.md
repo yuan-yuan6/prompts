@@ -4,8 +4,9 @@ last_updated: 2025-11-23
 title: Kubernetes Security Framework
 tags:
 - security
-- cloud
-- infrastructure
+- kubernetes-security
+- container-security
+- rbac
 use_cases:
 - Securing Kubernetes clusters and workloads
 - Implementing K8s RBAC and network policies

@@ -6,13 +6,10 @@ related_templates:
 - data-analytics/data-governance-framework.md
 - data-analytics/predictive-modeling-framework.md
 tags:
-- automation
 - data-analytics
-- design
-- development
-- ai-ml
-- security
-- strategy
+- data-pipelines
+- etl
+- workflow-orchestration
 title: Pipeline Development & Orchestration Template
 use_cases:
 - Creating design comprehensive etl/elt pipeline development strategies including

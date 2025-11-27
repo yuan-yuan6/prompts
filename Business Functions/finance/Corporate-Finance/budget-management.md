@@ -6,12 +6,10 @@ related_templates:
 - strategy/digital-transformation-roadmap.md
 - operations/lean-six-sigma-implementation.md
 tags:
-- ai-ml
-- design
-- development
-- management
-- marketing
-- optimization
+- budget-management
+- variance-analysis
+- financial-planning
+- resource-allocation
 title: Budget Management Template Generator
 use_cases:
 - Creating comprehensive budget management strategies covering planning, tracking,

@@ -2,9 +2,10 @@
 title: Public Speaking Template
 category: personal
 tags:
-- design
-- personal
-- strategy
+- public-speaking
+- presentation-skills
+- speech-delivery
+- audience-engagement
 use_cases:
 - Creating compelling speeches, presentations, and pitches that engage audiences,
   convey messages effectively, and inspire action through structured content delivery

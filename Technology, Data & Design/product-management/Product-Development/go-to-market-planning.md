@@ -6,7 +6,7 @@ tags:
 - product-management
 - go-to-market
 - launch-strategy
-- marketing
+- market-entry
 use_cases:
 - Planning comprehensive go-to-market strategy for new products
 - Coordinating product launches across marketing, sales, and product teams

@@ -5,13 +5,10 @@ related_templates:
 - communication/meeting-management-framework.md
 - communication/crisis-communication-plan.md
 tags:
-- communication
-- design
-- development
-- marketing
-- management
-- research
-- strategy
+- press-releases
+- media-relations
+- journalist-outreach
+- media-statements
 title: Press Release & Media Communications Prompt Template
 use_cases:
 - Creating comprehensive framework for creating press releases, media statements,

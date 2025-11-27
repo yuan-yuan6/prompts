@@ -6,13 +6,10 @@ related_templates:
 - strategy/digital-transformation-roadmap.md
 - operations/lean-six-sigma-implementation.md
 tags:
-- communication
-- ai-ml
-- design
-- development
-- framework
-- management
-- marketing
+- brand-strategy
+- brand-architecture
+- messaging-framework
+- brand-experience
 title: Brand Strategy Development & Management Framework
 use_cases:
 - Creating comprehensive brand strategy framework covering brand positioning, identity

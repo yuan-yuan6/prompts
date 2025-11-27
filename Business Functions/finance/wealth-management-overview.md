@@ -2,12 +2,10 @@
 title: Wealth Management Strategy - Complete Overview & Navigation
 category: finance
 tags:
-- design
-- finance
-- management
-- optimization
-- security
-- strategy
+- wealth-management
+- hnw-uhnw
+- financial-planning
+- wealth-preservation
 related_templates:
 - finance/wealth-management-01-foundation-investment.md
 - finance/wealth-management-02-tax-retirement-estate.md

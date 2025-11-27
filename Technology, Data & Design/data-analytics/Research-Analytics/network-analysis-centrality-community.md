@@ -2,8 +2,10 @@
 title: Network Analysis - Centrality and Community Detection
 category: data-analytics
 tags:
-- data-analytics
-- ai-ml
+- research-analytics
+- network-analysis
+- centrality
+- community-detection
 use_cases:
 - Identifying influential nodes using multiple centrality measures
 - Detecting communities and clusters in networks

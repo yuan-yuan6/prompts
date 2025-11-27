@@ -2,13 +2,10 @@
 title: 'Risk Management Framework - Part 1: Foundation & Credit Risk'
 category: finance
 tags:
-- design
-- finance
-- framework
-- management
-- strategy
 - credit-risk
-- governance
+- risk-governance
+- risk-appetite
+- loan-portfolio
 use_cases:
 - Creating comprehensive risk management strategies covering enterprise risk management
   foundation, risk governance, risk appetite framework, and credit risk management

@@ -6,12 +6,10 @@ related_templates:
 - technology/site-reliability-engineering.md
 - technology/cloud-migration-strategy.md
 tags:
-- ai-ml
-- design
-- management
-- optimization
-- security
-- strategy
+- cloud-architecture
+- aws-azure-gcp
+- vpc-design
+- cost-optimization
 title: Cloud Architecture Template
 use_cases:
 - Creating design comprehensive cloud architecture patterns for aws, azure, gcp including

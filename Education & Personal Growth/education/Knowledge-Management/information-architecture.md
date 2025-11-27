@@ -5,13 +5,10 @@ related_templates:
 - education/curriculum-development.md
 - education/curriculum-development-framework.md
 tags:
-- design
-- development
-- education
-- framework
-- ai-ml
-- management
-- security
+- information-architecture
+- taxonomy-design
+- metadata-schemas
+- knowledge-organization
 title: Information Architecture & Taxonomy Design Framework Generator
 use_cases:
 - Creating comprehensive frameworks for designing information architectures, taxonomies,

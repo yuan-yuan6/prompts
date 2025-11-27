@@ -6,13 +6,10 @@ related_templates:
 - finance/digital-banking-strategy.md
 - finance/risk-management-framework.md
 tags:
-- ai-ml
-- finance
-- framework
-- management
-- optimization
-- research
-- security
+- investment-management
+- portfolio-construction
+- risk-analytics
+- fiduciary-duty
 title: Investment Portfolio Management Framework
 use_cases:
 - Build diversified investment portfolio for client based on risk tolerance

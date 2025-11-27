@@ -2,12 +2,10 @@
 title: Site Reliability Engineering & Observability Framework
 category: technology
 tags:
-- design
-- development
-- framework
-- management
-- optimization
-- testing
+- sre
+- observability
+- slo-sli
+- incident-management
 use_cases:
 - Creating comprehensive framework for implementing site reliability engineering practices
   including monitoring systems, alerting strategies, incident management, slo/sli

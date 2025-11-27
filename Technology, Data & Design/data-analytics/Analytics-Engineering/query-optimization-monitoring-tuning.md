@@ -7,7 +7,9 @@ related_templates:
 - data-analytics/Analytics-Engineering/query-optimization-overview.md
 tags:
 - data-analytics
-- automation
+- performance-monitoring
+- auto-tuning
+- alerting
 title: Query Optimization - Performance Monitoring & Tuning
 use_cases:
 - Implementing real-time performance monitoring and alerting systems

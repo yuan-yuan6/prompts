@@ -2,10 +2,10 @@
 title: Fleet Management & Vehicle Operations Framework
 category: operations
 tags:
-- framework
-- management
-- optimization
-- security
+- fleet-management
+- telematics
+- driver-safety
+- vehicle-tracking
 use_cases:
 - Creating comprehensive framework for managing vehicle fleets including asset tracking,
   maintenance scheduling, driver management, route optimization, compliance monitoring,

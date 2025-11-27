@@ -6,11 +6,10 @@ related_templates:
 - strategy/digital-transformation-roadmap.md
 - operations/lean-six-sigma-implementation.md
 tags:
-- management
-- optimization
-- security
-- strategy
-- testing
+- project-planning
+- milestone-tracking
+- resource-coordination
+- deliverable-management
 title: Project Management Template Generator
 use_cases:
 - Creating comprehensive project management frameworks covering project planning,

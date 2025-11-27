@@ -7,8 +7,10 @@ related_templates:
 - data-analytics/Analytics-Engineering/pipeline-orchestration.md
 - data-analytics/Analytics-Engineering/pipeline-infrastructure.md
 tags:
-- automation
 - data-analytics
+- observability
+- monitoring
+- error-handling
 title: Pipeline Observability & Error Handling Template
 use_cases:
 - Implementing comprehensive pipeline monitoring and alerting systems

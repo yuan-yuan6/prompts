@@ -2,12 +2,10 @@
 title: Game Design & Development Framework
 category: technology
 tags:
-- design
-- development
-- framework
-- optimization
-- strategy
-- testing
+- game-design
+- gameplay-mechanics
+- level-design
+- game-balancing
 use_cases:
 - Creating comprehensive framework for designing and developing video games including
   concept development, gameplay mechanics, narrative design, level creation, balancing

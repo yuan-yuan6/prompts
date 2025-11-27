@@ -3,11 +3,10 @@ category: ai-ml-applications
 last_updated: 2025-11-12
 title: AI Product Strategy & Vision
 tags:
-- ai-ml
-- product-strategy
-- planning
-- vision
-- roadmap
+- ai-product-strategy
+- ai-roadmap
+- ai-vision
+- build-vs-buy-ai
 use_cases:
 - Defining strategy and vision for AI-powered products
 - Making build vs buy decisions for AI capabilities

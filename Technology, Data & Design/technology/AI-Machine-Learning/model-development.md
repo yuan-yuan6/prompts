@@ -6,12 +6,10 @@ related_templates:
 - technology/site-reliability-engineering.md
 - technology/cloud-migration-strategy.md
 tags:
-- design
-- development
-- ai-ml
-- optimization
-- strategy
-- testing
+- machine-learning
+- model-development
+- mlops
+- model-deployment
 title: Model Development Template
 use_cases:
 - Creating comprehensive machine learning model development including training, evaluation,

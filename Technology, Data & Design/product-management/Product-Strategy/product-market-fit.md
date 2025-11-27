@@ -5,7 +5,7 @@ title: Product-Market Fit Assessment & Achievement
 tags:
 - product-management
 - product-market-fit
-- strategy
+- pmf
 - validation
 use_cases:
 - Assessing current product-market fit levels

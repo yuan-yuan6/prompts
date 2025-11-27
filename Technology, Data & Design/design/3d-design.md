@@ -5,10 +5,10 @@ related_templates:
 - content-creation/creative-writing-framework.md
 - content-creation/video-production-pipeline.md
 tags:
-- ai-ml
 - design
-- development
-- optimization
+- 3d-modeling
+- rendering
+- visualization
 title: 3D Design Template
 use_cases:
 - Creating comprehensive 3D design projects including models, renders, and environments

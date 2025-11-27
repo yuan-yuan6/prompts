@@ -6,11 +6,10 @@ related_templates:
 - technology/site-reliability-engineering.md
 - technology/cloud-migration-strategy.md
 tags:
-- design
-- management
-- optimization
-- security
-- strategy
+- infrastructure-as-code
+- terraform
+- ansible
+- provisioning
 title: Infrastructure as Code Template
 use_cases:
 - Creating design and implement infrastructure as code solutions using terraform,

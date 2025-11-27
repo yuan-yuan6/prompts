@@ -2,9 +2,10 @@
 title: Research Design - Ethics, Implementation & Project Management
 category: education
 tags:
-- research
-- implementation
-- compliance
+- research-ethics
+- irb-protocols
+- project-management
+- risk-management
 use_cases:
 - Developing comprehensive ethical frameworks and IRB protocols
 - Creating detailed implementation plans and project timelines

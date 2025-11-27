@@ -6,13 +6,10 @@ related_templates:
 - data-analytics/data-governance-framework.md
 - data-analytics/predictive-modeling-framework.md
 tags:
-- data-analytics
-- ai-ml
-- design
-- development
-- framework
-- research
-- strategy
+- data-science
+- ab-testing
+- experimentation
+- statistical-analysis
 title: A/B Testing & Experimentation Design Framework
 use_cases:
 - Creating comprehensive framework for designing and executing controlled experiments

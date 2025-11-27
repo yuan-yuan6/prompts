@@ -6,12 +6,10 @@ related_templates:
 - technology/site-reliability-engineering.md
 - technology/cloud-migration-strategy.md
 tags:
-- automation
-- design
-- documentation
-- optimization
-- security
-- strategy
+- testing
+- qa-automation
+- unit-integration-e2e
+- test-coverage
 title: Testing & QA Template
 use_cases:
 - Creating design comprehensive testing strategies including unit tests, integration

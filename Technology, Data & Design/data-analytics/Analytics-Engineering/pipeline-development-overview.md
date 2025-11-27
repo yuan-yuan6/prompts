@@ -2,10 +2,10 @@
 title: Pipeline Development Overview & Navigation
 category: data-analytics
 tags:
-- automation
 - data-analytics
-- design
-- development
+- data-pipelines
+- etl
+- data-engineering
 use_cases:
 - Understanding the complete data pipeline development lifecycle
 - Navigating to focused sub-prompts for specific pipeline components

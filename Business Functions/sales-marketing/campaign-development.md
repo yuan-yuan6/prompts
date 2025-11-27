@@ -6,11 +6,10 @@ related_templates:
 - strategy/digital-transformation-roadmap.md
 - operations/lean-six-sigma-implementation.md
 tags:
-- development
-- ai-ml
-- marketing
-- optimization
-- strategy
+- campaign-development
+- creative-strategy
+- audience-targeting
+- channel-planning
 title: Campaign Development Template Generator
 use_cases:
 - Creating comprehensive marketing campaign strategies covering creative development,

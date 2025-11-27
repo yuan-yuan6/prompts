@@ -2,11 +2,10 @@
 title: Security Assessment Template
 category: security
 tags:
-- ai-ml
-- design
-- research
 - security
-- strategy
+- security-assessment
+- vulnerability-scanning
+- risk-analysis
 use_cases:
 - Creating comprehensive security assessment including vulnerability scanning, penetration
   testing, security audits, risk analysis, and remediation planning for enterprise

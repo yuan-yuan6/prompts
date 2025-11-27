@@ -2,9 +2,10 @@
 title: Travel Planning Template
 category: personal
 tags:
-- personal
-- research
-- strategy
+- travel-planning
+- itinerary-creation
+- trip-budgeting
+- destination-research
 use_cases:
 - Creating comprehensive travel plans including itineraries, research, and budgets
   to ensure memorable, well-organized, and cost-effective travel experiences.

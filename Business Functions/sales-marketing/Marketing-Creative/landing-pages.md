@@ -5,12 +5,10 @@ related_templates:
 - content-creation/creative-writing-framework.md
 - content-creation/video-production-pipeline.md
 tags:
-- ai-ml
-- design
-- marketing
-- optimization
-- research
-- strategy
+- landing-page-copy
+- conversion-design
+- call-to-action
+- lead-capture
 title: Landing Pages Template
 use_cases:
 - Creating high-converting landing pages with compelling copy, optimized structure,

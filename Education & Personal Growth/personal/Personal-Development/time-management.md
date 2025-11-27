@@ -2,10 +2,10 @@
 title: Task Prioritization Systems Template
 category: personal
 tags:
-- management
-- optimization
-- personal
-- strategy
+- time-management
+- task-prioritization
+- workload-optimization
+- productivity-systems
 use_cases:
 - Creating comprehensive task prioritization frameworks, decision matrices, workload
   management systems, and priority alignment strategies that maximize impact and efficiency

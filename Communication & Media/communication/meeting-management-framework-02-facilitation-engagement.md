@@ -2,14 +2,10 @@
 title: 'Meeting Management Framework - Part 1: Facilitation & Engagement'
 category: communication
 tags:
-- communication
-- design
-- framework
-- machine-learning
-- management
-- optimization
-- professional-services
-- strategy
+- meeting-facilitation
+- participant-engagement
+- discussion-management
+- collaborative-decision-making
 series: meeting-management-framework
 part: 1 of 1
 related_parts:

@@ -5,13 +5,10 @@ related_templates:
 - content-creation/creative-writing-framework.md
 - content-creation/video-production-pipeline.md
 tags:
-- ai-ml
-- automation
-- communication
-- design
-- documentation
-- marketing
-- research
+- ad-copy
+- headline-writing
+- cta-optimization
+- ab-testing
 title: Ad Copy Template
 use_cases:
 - Write A/B test variations for Facebook/Google ads (15-30 min for 3-5 versions)

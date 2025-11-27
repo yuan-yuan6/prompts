@@ -6,7 +6,7 @@ tags:
 - product-management
 - competitive-analysis
 - market-research
-- strategy
+- positioning
 use_cases:
 - Conducting comprehensive competitive analysis for product strategy
 - Understanding market dynamics and competitive positioning

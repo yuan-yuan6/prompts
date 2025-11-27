@@ -2,10 +2,10 @@
 title: Data Analysis Methods Generator
 category: education
 tags:
-- ai-ml
-- design
-- education
-- research
+- research-data-analysis
+- statistical-methods
+- qualitative-analysis
+- mixed-methods
 use_cases:
 - Creating comprehensive data analysis plans covering statistical analysis, qualitative
   analysis, and mixed methods approaches for academic research projects.

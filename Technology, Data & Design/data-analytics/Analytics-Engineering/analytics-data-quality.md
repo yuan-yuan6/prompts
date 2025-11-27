@@ -6,13 +6,10 @@ related_templates:
 - data-analytics/data-governance-framework.md
 - data-analytics/predictive-modeling-framework.md
 tags:
-- automation
 - data-analytics
-- design
-- ai-ml
-- management
-- security
-- strategy
+- data-quality
+- data-validation
+- data-profiling
 title: Data Quality & Validation Template
 use_cases:
 - Creating design comprehensive data quality validation frameworks including data

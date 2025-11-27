@@ -5,13 +5,10 @@ related_templates:
 - operations/Agriculture/precision-agriculture-framework.md
 - operations/Agriculture/precision-agriculture-system.md
 tags:
-- ai-ml
-- design
-- framework
-- management
-- optimization
-- research
-- testing
+- crop-management
+- yield-optimization
+- soil-analysis
+- agricultural-planning
 title: Precision Agriculture & Crop Optimization Framework
 use_cases:
 - Creating comprehensive framework for implementing precision agriculture technologies,

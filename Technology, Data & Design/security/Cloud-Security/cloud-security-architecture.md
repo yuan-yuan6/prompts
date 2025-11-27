@@ -4,9 +4,9 @@ last_updated: 2025-11-22
 title: Cloud Security Architecture Framework
 tags:
 - security
-- cloud
-- infrastructure
-- compliance
+- cloud-security
+- aws-azure-gcp
+- cspm
 use_cases:
 - Designing secure cloud infrastructure and architecture
 - Implementing cloud security controls and best practices

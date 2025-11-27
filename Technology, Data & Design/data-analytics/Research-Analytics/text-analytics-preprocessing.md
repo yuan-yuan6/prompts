@@ -6,9 +6,10 @@ related_templates:
 - data-analytics/Research-Analytics/text-analytics-topic-modeling.md
 - data-analytics/Research-Analytics/text-analytics-overview.md
 tags:
-- automation
-- data-analytics
-- ai-ml
+- research-analytics
+- text-analytics
+- text-preprocessing
+- feature-engineering
 title: Text Analytics - Preprocessing and Feature Engineering
 use_cases:
 - Clean and preprocess raw text data for NLP analysis, including tokenization, normalization,

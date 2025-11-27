@@ -5,13 +5,10 @@ related_templates:
 - communication/meeting-management-framework.md
 - communication/crisis-communication-plan.md
 tags:
-- design
-- development
-- documentation
-- management
-- optimization
-- research
-- strategy
+- knowledge-sharing
+- best-practices
+- lessons-learned
+- institutional-knowledge
 title: Knowledge Sharing & Expertise Prompt Template
 use_cases:
 - Creating comprehensive framework for facilitating organizational learning, distributing

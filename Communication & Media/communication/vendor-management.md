@@ -5,13 +5,10 @@ related_templates:
 - communication/meeting-management-framework.md
 - communication/crisis-communication-plan.md
 tags:
-- automation
-- communication
-- ai-ml
-- management
-- optimization
-- research
-- security
+- vendor-management
+- procurement
+- supplier-performance
+- vendor-relations
 title: Vendor Management & Procurement Prompt Template
 use_cases:
 - Creating comprehensive framework for managing vendor relationships, procurement

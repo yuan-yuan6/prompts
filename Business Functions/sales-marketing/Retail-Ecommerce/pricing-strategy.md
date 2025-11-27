@@ -7,12 +7,10 @@ related_templates:
 - sales-marketing/Retail-Ecommerce/product-sourcing-strategy.md
 - product-management/Product-Strategy/pricing-strategy.md  # Product pricing & packaging
 tags:
-- ai-ml
-- design
-- development
-- framework
-- marketing
-- optimization
+- retail-pricing
+- margin-optimization
+- competitive-pricing
+- price-elasticity
 title: Retail Pricing Strategy & Revenue Optimization Framework
 use_cases:
 - Creating comprehensive framework for retail pricing strategy development, dynamic

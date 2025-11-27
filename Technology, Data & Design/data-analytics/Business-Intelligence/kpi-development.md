@@ -6,13 +6,10 @@ related_templates:
 - data-analytics/data-governance-framework.md
 - data-analytics/predictive-modeling-framework.md
 tags:
-- automation
-- data-analytics
-- design
-- development
-- ai-ml
-- management
-- marketing
+- business-intelligence
+- kpi
+- metrics
+- performance-management
 title: Comprehensive KPI Development & Management Template
 use_cases:
 - General application

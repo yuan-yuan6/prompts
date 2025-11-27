@@ -5,12 +5,10 @@ related_templates:
 - communication/meeting-management-framework.md
 - communication/crisis-communication-plan.md
 tags:
-- communication
-- design
-- development
-- management
-- marketing
-- strategy
+- community-relations
+- outreach-programs
+- stakeholder-engagement
+- community-partnerships
 title: Community Relations & Outreach Prompt Template
 use_cases:
 - Creating comprehensive framework for building strong community relationships, planning

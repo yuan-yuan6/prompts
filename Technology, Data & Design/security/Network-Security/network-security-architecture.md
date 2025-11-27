@@ -4,8 +4,9 @@ last_updated: 2025-11-23
 title: Network Security Architecture Framework
 tags:
 - security
-- infrastructure
-- network
+- network-security
+- firewall
+- segmentation
 use_cases:
 - Designing secure network architectures
 - Implementing defense-in-depth network security

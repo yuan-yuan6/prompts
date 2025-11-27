@@ -6,13 +6,10 @@ related_templates:
 - technology/site-reliability-engineering.md
 - technology/cloud-migration-strategy.md
 tags:
-- ai-ml
-- design
-- development
-- framework
-- management
-- optimization
-- strategy
+- mobile-development
+- ios-android
+- react-native-flutter
+- app-store
 title: Mobile Application Development Framework
 use_cases:
 - Creating comprehensive framework for mobile app development including ios/android

@@ -5,12 +5,10 @@ related_templates:
 - operations/Energy-Utilities/plant-operations-management.md
 - operations/Energy-Utilities/smart-grid-implementation.md
 tags:
-- ai-ml
-- design
-- management
-- optimization
-- research
-- strategy
+- utility-billing
+- meter-data-management
+- rate-structures
+- customer-billing
 title: Utility Billing & Customer Management System
 use_cases:
 - Creating comprehensive framework for utility billing operations, customer service

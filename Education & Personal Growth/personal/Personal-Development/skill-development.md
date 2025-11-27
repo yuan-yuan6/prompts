@@ -2,10 +2,10 @@
 title: Skill Acquisition Strategies Prompt Template
 category: personal
 tags:
-- ai-ml
-- personal
-- research
-- strategy
+- skill-acquisition
+- deliberate-practice
+- competency-building
+- learning-methodologies
 use_cases:
 - Creating comprehensive framework for rapidly acquiring new skills, developing competencies,
   and achieving mastery through evidence-based learning methodologies and deliberate

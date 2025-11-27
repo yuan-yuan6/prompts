@@ -4,8 +4,9 @@ last_updated: 2025-11-11
 title: Threat Modeling Framework
 tags:
 - security
-- design
-- risk-assessment
+- threat-modeling
+- stride
+- attack-surface
 use_cases:
 - Identifying security threats in system design
 - Proactive security risk assessment

@@ -3,11 +3,10 @@ category: ai-ml-applications
 last_updated: 2025-11-22
 title: AI Monitoring and Observability
 tags:
-- ai-ml
-- monitoring
-- observability
-- mlops
-- production
+- ml-monitoring
+- model-drift
+- ai-observability
+- production-ml
 use_cases:
 - Setting up production AI monitoring infrastructure
 - Detecting model drift and performance degradation

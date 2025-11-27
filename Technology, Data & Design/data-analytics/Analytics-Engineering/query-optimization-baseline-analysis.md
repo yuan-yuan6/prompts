@@ -3,7 +3,9 @@ title: Query Optimization - Baseline Analysis & Profiling
 category: data-analytics
 tags:
 - data-analytics
-- analysis
+- query-profiling
+- execution-plans
+- performance-baseline
 use_cases:
 - Establishing performance baselines and identifying bottlenecks in database query
   execution

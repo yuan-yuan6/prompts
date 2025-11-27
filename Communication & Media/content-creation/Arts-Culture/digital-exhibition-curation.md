@@ -5,12 +5,10 @@ related_templates:
 - content-creation/creative-writing-framework.md
 - content-creation/video-production-pipeline.md
 tags:
-- ai-ml
-- design
-- development
-- framework
-- security
-- strategy
+- digital-exhibitions
+- virtual-museums
+- content-digitization
+- interactive-curation
 title: Digital Exhibition & Virtual Museum Curation Framework
 use_cases:
 - Creating comprehensive framework for curating digital exhibitions and virtual museum

@@ -2,13 +2,10 @@
 title: Goal Setting Template
 category: personal
 tags:
-- automation
-- ai-ml
-- development
-- optimization
-- personal
-- research
-- strategy
+- goal-setting
+- objectives-framework
+- progress-tracking
+- action-planning
 use_cases:
 - Creating comprehensive goal-setting frameworks including objectives, action plans,
   and progress tracking systems to achieve personal and professional aspirations effectively.

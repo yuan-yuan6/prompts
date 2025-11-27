@@ -2,13 +2,10 @@
 title: Content Production & Media Creation Framework
 category: technology
 tags:
-- automation
-- communication
-- design
-- development
-- framework
-- marketing
-- strategy
+- content-production
+- video-streaming
+- podcast
+- creator-economy
 use_cases:
 - Creating comprehensive framework for producing digital content and media including
   video production, streaming content, podcast creation, content strategy, audience

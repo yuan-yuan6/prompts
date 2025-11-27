@@ -2,12 +2,10 @@
 title: Comprehensive Competency Assessment & Evaluation Template
 category: personal
 tags:
-- ai-ml
-- design
-- development
-- marketing
-- optimization
-- personal
+- competency-assessment
+- skill-evaluation
+- performance-measurement
+- capability-mapping
 use_cases:
 - General application
 - Professional use

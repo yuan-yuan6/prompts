@@ -4,10 +4,10 @@ last_updated: 2025-11-09
 related_templates:
 - technology/Emerging-Technologies/generative-ai-implementation.md
 tags:
-- design
-- ai-ml
-- optimization
-- security
+- generative-ai
+- llm
+- rag
+- ai-safety
 title: Generative AI Template
 use_cases:
 - Creating design comprehensive generative ai systems, large language model implementations,

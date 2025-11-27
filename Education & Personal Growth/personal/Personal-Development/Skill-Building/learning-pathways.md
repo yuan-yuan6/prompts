@@ -6,12 +6,10 @@ related_templates:
 - personal/Personal-Development/skill-development.md
 - personal/Personal-Development/habit-formation.md
 tags:
-- design
-- development
-- ai-ml
-- optimization
-- personal
-- strategy
+- learning-pathways
+- curriculum-design
+- skill-progression
+- educational-roadmap
 title: Comprehensive Learning Pathways Development Template
 use_cases:
 - General application

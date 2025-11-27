@@ -2,14 +2,10 @@
 title: 'Crisis Communication Plan - Part 3: Recovery & Learning'
 category: communication
 tags:
-- communication
-- data-science
-- development
-- framework
-- management
-- professional-services
-- research
-- security
+- crisis-recovery
+- post-crisis-analysis
+- reputation-restoration
+- lessons-learned
 series: crisis-communication-plan
 part: 3 of 3
 related_parts:

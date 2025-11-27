@@ -5,13 +5,10 @@ related_templates:
 - communication/meeting-management-framework.md
 - communication/crisis-communication-plan.md
 tags:
-- design
-- development
-- documentation
-- management
-- optimization
-- security
-- strategy
+- team-documentation
+- knowledge-management
+- process-standards
+- knowledge-transfer
 title: Team Documentation & Knowledge Management Prompt Template
 use_cases:
 - Creating comprehensive framework for creating, organizing, and maintaining team

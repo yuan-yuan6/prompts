@@ -2,12 +2,10 @@
 title: 'Wealth Management Strategy - Part 1: Foundation & Investment'
 category: finance
 tags:
-- design
-- finance
-- management
-- optimization
-- strategy
-- template
+- wealth-management
+- asset-allocation
+- investment-planning
+- financial-goals
 related_templates:
 - finance/wealth-management-02-tax-retirement-estate.md
 - finance/wealth-management-03-risk-implementation.md

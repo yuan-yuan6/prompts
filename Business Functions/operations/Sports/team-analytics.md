@@ -4,13 +4,10 @@ last_updated: 2025-11-11
 related_templates:
 - operations/Sports/athlete-performance-optimization.md
 tags:
-- operations
-- ai-ml
-- development
-- framework
-- optimization
-- research
-- strategy
+- sports-analytics
+- player-tracking
+- tactical-analysis
+- performance-metrics
 title: Sports Team Analytics & Performance Optimization Framework
 use_cases:
 - Creating comprehensive framework for professional sports team analytics, player

@@ -2,13 +2,10 @@
 title: Crisis Communication Plan - Overview & Navigation
 category: communication
 tags:
-- communication
-- ai-ml
-- development
-- framework
-- management
-- research
-- security
+- crisis-planning
+- communication-framework
+- emergency-protocols
+- crisis-navigation
 parent_prompt: crisis-communication-plan (split into 3 parts)
 last_updated: 2025-11-11
 industries:

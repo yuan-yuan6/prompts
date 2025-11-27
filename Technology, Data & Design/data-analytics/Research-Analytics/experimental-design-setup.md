@@ -7,10 +7,10 @@ related_templates:
 - data-analytics/Research-Analytics/validity-and-diagnostics.md
 - data-analytics/Research-Analytics/variables-and-implementation.md
 tags:
-- automation
-- data-analytics
-- design
-- research
+- research-analytics
+- experimental-design
+- rct
+- ab-testing
 title: Experimental Design Setup
 use_cases:
 - Select and configure appropriate experimental designs including RCTs, A/B tests,

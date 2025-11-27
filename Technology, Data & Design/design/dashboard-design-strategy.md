@@ -3,10 +3,9 @@ title: 'Dashboard Design Patterns - Part 1: Strategy & Visual Design'
 category: design
 tags:
 - design
-- data-analytics
-- strategy
-- ux-ui
-- template
+- dashboards
+- information-architecture
+- visual-design-system
 use_cases:
 - Defining dashboard strategy, planning information architecture, establishing visual
   design systems, and designing responsive multi-device experiences

@@ -2,13 +2,10 @@
 title: Dynamic Pricing & Revenue Optimization Framework
 category: sales-marketing
 tags:
-- ai-ml
-- design
-- framework
-- management
-- marketing
-- optimization
-- research
+- dynamic-pricing
+- price-optimization
+- revenue-management
+- promotional-planning
 use_cases:
 - Creating comprehensive framework for developing and implementing dynamic pricing
   strategies including competitive analysis, price optimization algorithms, psychological

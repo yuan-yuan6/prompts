@@ -2,13 +2,10 @@
 title: Quality Management Template
 category: operations
 tags:
-- ai-ml
-- design
-- documentation
-- management
-- optimization
-- research
-- security
+- quality-management
+- iso-standards
+- continuous-improvement
+- quality-control
 use_cases:
 - Creating comprehensive quality management systems, manufacturing excellence frameworks,
   supply chain quality assurance strategies, and continuous improvement programs that

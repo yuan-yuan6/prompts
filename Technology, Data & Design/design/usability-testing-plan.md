@@ -2,10 +2,10 @@
 title: Usability Testing & Validation Plan
 category: design
 tags:
-- creative
 - design
-- testing
-- research
+- usability-testing
+- user-research
+- ux-validation
 use_cases:
 - Planning and conducting usability testing sessions
 - Validating design decisions with real users

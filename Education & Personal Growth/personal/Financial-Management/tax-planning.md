@@ -2,13 +2,10 @@
 title: Tax Planning Template
 category: personal
 tags:
-- ai-ml
-- management
-- optimization
-- personal
-- research
-- security
-- strategy
+- tax-planning
+- deduction-optimization
+- tax-efficiency
+- compliance-strategy
 use_cases:
 - Creating develop comprehensive tax strategies including deduction optimization,
   compliance strategies, and long-term tax efficiency planning to minimize tax liability

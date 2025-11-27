@@ -3,12 +3,10 @@ category: ai-ml-applications
 last_updated: 2025-11-22
 title: Responsible AI and Ethics Framework
 tags:
-- ai-ml
-- ethics
 - responsible-ai
-- governance
-- fairness
-- transparency
+- ai-ethics
+- ai-fairness
+- ai-governance
 use_cases:
 - Implementing AI ethics governance frameworks
 - Conducting bias audits and fairness assessments

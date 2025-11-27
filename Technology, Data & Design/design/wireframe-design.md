@@ -7,6 +7,9 @@ related_templates:
 - design/ux-ui-design-overview.md
 tags:
 - design
+- wireframing
+- information-architecture
+- ux-design
 title: Wireframe Design & Information Architecture
 use_cases:
 - Create low-fidelity wireframes for user testing

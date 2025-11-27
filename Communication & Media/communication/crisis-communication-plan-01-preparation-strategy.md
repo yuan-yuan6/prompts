@@ -2,14 +2,10 @@
 title: 'Crisis Communication Plan - Part 1: Preparation & Strategy'
 category: communication
 tags:
-- communication
-- data-science
-- development
-- framework
-- management
-- professional-services
-- research
-- security
+- crisis-preparation
+- risk-assessment
+- stakeholder-mapping
+- response-planning
 series: crisis-communication-plan
 part: 1 of 3
 related_parts:

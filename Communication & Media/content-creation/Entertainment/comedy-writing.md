@@ -5,12 +5,10 @@ related_templates:
 - content-creation/creative-writing-framework.md
 - content-creation/video-production-pipeline.md
 tags:
-- ai-ml
-- automation
-- communication
-- design
-- development
-- optimization
+- joke-writing
+- comedic-timing
+- humor-techniques
+- comedy-formats
 title: Comedy Writing Template
 use_cases:
 - Creating engaging comedy content including jokes, sketches, and standup material

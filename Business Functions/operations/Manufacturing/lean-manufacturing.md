@@ -4,11 +4,10 @@ last_updated: 2025-11-09
 related_templates:
 - operations/Manufacturing/quality-management.md
 tags:
-- ai-ml
-- design
-- optimization
-- research
-- testing
+- lean-manufacturing
+- kaizen
+- jit-production
+- waste-reduction
 title: Lean Manufacturing Implementation
 use_cases:
 - Implementing comprehensive lean manufacturing systems and waste elimination strategies

@@ -6,12 +6,10 @@ related_templates:
 - sales-marketing/Retail-Ecommerce/dynamic-pricing-strategy.md
 - sales-marketing/Retail-Ecommerce/product-sourcing-strategy.md
 tags:
-- design
-- framework
-- optimization
-- research
-- strategy
-- testing
+- omnichannel-retail
+- channel-integration
+- unified-commerce
+- inventory-synchronization
 title: Omnichannel Retail Strategy & Integration Framework
 use_cases:
 - Creating comprehensive framework for developing and implementing omnichannel retail

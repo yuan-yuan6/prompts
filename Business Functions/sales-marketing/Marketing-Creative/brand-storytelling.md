@@ -5,10 +5,10 @@ related_templates:
 - content-creation/creative-writing-framework.md
 - content-creation/video-production-pipeline.md
 tags:
-- communication
-- design
-- development
-- marketing
+- storytelling
+- brand-narrative
+- brand-personality
+- audience-engagement
 title: Brand Storytelling Template
 use_cases:
 - Creating compelling brand narratives, voice, and personality that connect emotionally

@@ -2,10 +2,10 @@
 title: Treatment Effect Analysis
 category: data-analytics
 tags:
-- automation
-- ai-ml
-- data-analytics
-- research
+- research-analytics
+- causal-inference
+- treatment-effect
+- itt-analysis
 use_cases:
 - Analyze treatment effects using intention-to-treat, per-protocol, instrumental variable,
   CACE, dose-response, and subgroup analyses to establish causal relationships and

@@ -5,13 +5,10 @@ related_templates:
 - communication/meeting-management-framework.md
 - communication/crisis-communication-plan.md
 tags:
-- automation
-- communication
-- documentation
-- ai-ml
-- optimization
-- management
-- strategy
+- feedback-delivery
+- performance-conversations
+- constructive-feedback
+- coaching-communication
 title: Feedback Delivery & Performance Communication Prompt Template
 use_cases:
 - Creating comprehensive framework for delivering constructive feedback, conducting

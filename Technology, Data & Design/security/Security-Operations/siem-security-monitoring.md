@@ -4,8 +4,9 @@ last_updated: 2025-11-23
 title: SIEM & Security Monitoring Framework
 tags:
 - security
-- monitoring
-- operations
+- siem
+- soc
+- log-analysis
 use_cases:
 - Implementing SIEM for threat detection
 - Security event monitoring and analysis

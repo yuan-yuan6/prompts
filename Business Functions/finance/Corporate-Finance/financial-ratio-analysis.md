@@ -2,7 +2,10 @@
 title: Financial Ratio Analysis
 category: finance
 tags:
-- finance
+- ratio-analysis
+- liquidity-ratios
+- profitability-ratios
+- peer-benchmarking
 use_cases:
 - Analyze a company's financial health using key ratios (30-45 min task)
 - Benchmark company performance against industry peers

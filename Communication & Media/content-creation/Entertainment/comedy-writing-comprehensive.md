@@ -5,11 +5,10 @@ related_templates:
 - content-creation/creative-writing-framework.md
 - content-creation/video-production-pipeline.md
 tags:
-- ai-ml
-- communication
-- design
-- optimization
-- research
+- comedy-writing
+- standup-routines
+- sketch-comedy
+- satirical-content
 title: Comedy Writing Comprehensive Template Generator
 use_cases:
 - Creating comprehensive comedy writing solutions covering jokes, sketches, standup

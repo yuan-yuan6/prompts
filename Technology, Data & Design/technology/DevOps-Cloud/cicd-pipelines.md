@@ -6,12 +6,10 @@ related_templates:
 - technology/site-reliability-engineering.md
 - technology/cloud-migration-strategy.md
 tags:
-- automation
-- design
-- management
-- optimization
-- security
-- strategy
+- devops
+- ci-cd
+- quality-gates
+- continuous-deployment
 title: CI/CD Pipelines Template
 use_cases:
 - Creating design and implement comprehensive ci/cd pipelines for automated build,

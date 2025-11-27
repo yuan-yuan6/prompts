@@ -5,12 +5,10 @@ related_templates:
 - communication/meeting-management-framework.md
 - communication/crisis-communication-plan.md
 tags:
-- communication
-- design
-- marketing
-- management
-- security
-- strategy
+- policy-communication
+- compliance-training
+- policy-rollout
+- awareness-campaigns
 title: Policy Communication & Training Prompt Template
 use_cases:
 - Creating comprehensive framework for effectively communicating policy changes, updates,

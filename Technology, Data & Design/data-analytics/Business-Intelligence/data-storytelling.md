@@ -6,13 +6,10 @@ related_templates:
 - data-analytics/data-governance-framework.md
 - data-analytics/predictive-modeling-framework.md
 tags:
-- automation
-- data-analytics
-- ai-ml
-- design
-- optimization
-- research
-- strategy
+- business-intelligence
+- data-storytelling
+- data-visualization
+- presentations
 title: Data Storytelling Narratives Template
 use_cases:
 - Creating compelling data narratives that transform complex analytical insights into

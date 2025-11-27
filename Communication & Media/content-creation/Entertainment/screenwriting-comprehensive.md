@@ -5,10 +5,10 @@ related_templates:
 - content-creation/creative-writing-framework.md
 - content-creation/video-production-pipeline.md
 tags:
-- automation
-- communication
-- design
-- development
+- screenwriting
+- film-scripts
+- tv-writing
+- pitch-development
 title: Screenwriting Comprehensive Template Generator
 use_cases:
 - Creating comprehensive screenwriting solutions covering films, television, web series,

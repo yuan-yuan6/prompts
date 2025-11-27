@@ -5,12 +5,10 @@ related_templates:
 - content-creation/creative-writing-framework.md
 - content-creation/video-production-pipeline.md
 tags:
-- ai-ml
-- automation
-- communication
-- design
-- marketing
-- optimization
+- landing-pages
+- conversion-optimization
+- cro
+- page-structure
 title: Landing Pages Comprehensive Template Generator
 use_cases:
 - Creating comprehensive landing page solutions covering copy optimization, structure

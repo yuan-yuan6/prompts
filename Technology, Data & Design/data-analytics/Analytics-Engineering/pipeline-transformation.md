@@ -7,10 +7,10 @@ related_templates:
 - data-analytics/Analytics-Engineering/pipeline-observability.md
 - data-analytics/data-governance-framework.md
 tags:
-- automation
 - data-analytics
-- development
-- data-quality
+- data-transformation
+- medallion-architecture
+- dbt
 title: Pipeline Data Transformation Template
 use_cases:
 - Designing medallion architecture transformations (Bronze → Silver → Gold)

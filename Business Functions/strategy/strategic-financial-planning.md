@@ -2,13 +2,10 @@
 title: Financial Planning Template Generator
 category: strategy
 tags:
-- design
-- development
-- documentation
-- ai-ml
-- marketing
-- research
-- strategy
+- financial-planning
+- budgeting
+- investment-strategy
+- resource-allocation
 use_cases:
 - Creating comprehensive financial plans including budgets, forecasts, and investment
   strategies to guide organizational financial strategy and resource allocation.

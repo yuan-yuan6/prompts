@@ -8,9 +8,9 @@ related_templates:
 - data-analytics/Research-Analytics/text-analytics-entity-recognition.md
 - data-analytics/Research-Analytics/text-analytics-advanced-methods.md
 tags:
-- automation
-- data-analytics
-- ai-ml
+- research-analytics
+- text-analytics
+- nlp
 title: Text Analytics and NLP - Overview and Navigation
 use_cases:
 - Navigate the comprehensive text analytics suite to find the right tools for preprocessing,

@@ -2,12 +2,10 @@
 title: 'Dashboard Design Patterns - Part 2: Data Visualization & Technical'
 category: data-analytics
 tags:
-- data-analytics
-- data-science
-- design
-- development
-- optimization
-- technical
+- business-intelligence
+- data-visualization
+- kpi-design
+- dashboards
 use_cases:
 - Designing data visualizations and KPI presentations, implementing real-time data
   integration, optimizing user experience and interaction patterns, building technical

@@ -5,13 +5,10 @@ related_templates:
 - education/curriculum-development.md
 - education/curriculum-development-framework.md
 tags:
-- ai-ml
-- design
-- development
-- education
-- framework
-- management
-- research
+- clinical-trials
+- protocol-development
+- regulatory-compliance
+- patient-recruitment
 title: Clinical Trial Protocol & Study Design Framework
 use_cases:
 - Creating comprehensive framework for designing and implementing clinical trials

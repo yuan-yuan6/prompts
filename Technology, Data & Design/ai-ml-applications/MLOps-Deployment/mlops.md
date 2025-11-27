@@ -6,13 +6,10 @@ related_templates:
 - technology/site-reliability-engineering.md
 - technology/cloud-migration-strategy.md
 tags:
-- automation
-- design
-- development
-- ai-ml
-- management
-- optimization
-- security
+- mlops
+- ml-pipelines
+- model-versioning
+- ml-governance
 title: MLOps Template
 use_cases:
 - Creating implement comprehensive mlops practices including ci/cd pipelines, model

@@ -5,12 +5,10 @@ related_templates:
 - content-creation/creative-writing-framework.md
 - content-creation/video-production-pipeline.md
 tags:
-- ai-ml
-- automation
 - design
-- development
-- documentation
-- research
+- product-design
+- industrial-design
+- prototyping
 title: Product Design Template
 use_cases:
 - Creating comprehensive product design documentation including concepts, specifications,

@@ -6,9 +6,10 @@ related_templates:
 - technology/site-reliability-engineering.md
 - technology/cloud-migration-strategy.md
 tags:
-- design
-- ai-ml
-- strategy
+- kubernetes
+- container-orchestration
+- eks-gke-aks
+- auto-scaling
 title: Container Orchestration Template
 use_cases:
 - Creating design and implement container orchestration strategies using kubernetes,

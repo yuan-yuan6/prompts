@@ -6,12 +6,10 @@ related_templates:
 - strategy/digital-transformation-roadmap.md
 - operations/lean-six-sigma-implementation.md
 tags:
-- ai-ml
-- design
-- framework
-- management
-- optimization
-- research
+- supply-chain
+- inventory-management
+- demand-planning
+- procurement
 title: Supply Chain Optimization & Logistics Management Framework
 use_cases:
 - Creating comprehensive framework for optimizing supply chain operations including

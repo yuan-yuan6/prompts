@@ -2,14 +2,10 @@
 title: 'Contract Drafting Template - Part 2: Risk Provisions'
 category: legal-compliance
 tags:
-- data-science
-- management
-- optimization
-- professional-services
-- research
-- security
-- strategy
-- template
+- liability-caps
+- indemnification
+- warranties
+- termination-clauses
 series: contract-drafting-template
 part: 2 of 3
 related_parts:

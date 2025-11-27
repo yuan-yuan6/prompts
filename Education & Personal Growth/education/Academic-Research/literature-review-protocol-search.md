@@ -6,10 +6,10 @@ related_templates:
 - education/Academic-Research/literature-review-extraction-synthesis.md
 - education/Academic-Research/literature-reviews-overview.md
 tags:
-- communication
-- education
-- research
-- strategy
+- review-protocol
+- search-strategy
+- database-search
+- methodological-framework
 title: Literature Review Protocol & Search Strategy
 use_cases:
 - Developing systematic review protocols with comprehensive search strategies and

@@ -2,12 +2,10 @@
 title: 'Music Audio Comprehensive - Part 2: Production & Recording'
 category: content-creation
 tags:
-- communication
-- comprehensive
-- design
-- optimization
-- template
-- testing
+- music-production
+- recording-techniques
+- studio-workflow
+- sound-engineering
 series: music-audio-comprehensive
 part: 2 of 3
 related_parts:

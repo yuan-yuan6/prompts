@@ -5,13 +5,10 @@ related_templates:
 - communication/meeting-management-framework.md
 - communication/crisis-communication-plan.md
 tags:
-- communication
-- ai-ml
-- development
-- management
-- marketing
-- optimization
-- strategy
+- social-media-management
+- community-building
+- platform-strategy
+- audience-engagement
 title: Social Media Management & Strategy Prompt Template
 use_cases:
 - Creating comprehensive framework for developing social media presence, creating

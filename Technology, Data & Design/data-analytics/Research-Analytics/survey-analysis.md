@@ -2,13 +2,10 @@
 title: Survey Analysis and Design Template
 category: data-analytics
 tags:
-- data-analytics
-- ai-ml
-- design
-- development
-- research
-- strategy
-- testing
+- research-analytics
+- survey-design
+- questionnaire
+- sampling
 use_cases:
 - Creating design, implement, and analyze comprehensive surveys with proper sampling
   methodologies, questionnaire development, response analysis, and statistical validation

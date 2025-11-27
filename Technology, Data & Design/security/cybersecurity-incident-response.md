@@ -2,12 +2,10 @@
 title: Cybersecurity Incident Response & Threat Management Framework
 category: security
 tags:
-- ai-ml
-- design
-- framework
-- management
-- research
 - security
+- incident-response
+- threat-detection
+- forensics
 use_cases:
 - Creating comprehensive framework for cybersecurity incident response including threat
   detection, incident containment, forensic analysis, recovery procedures, threat

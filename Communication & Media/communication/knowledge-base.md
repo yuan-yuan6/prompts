@@ -5,12 +5,10 @@ related_templates:
 - communication/meeting-management-framework.md
 - communication/crisis-communication-plan.md
 tags:
-- design
-- development
-- ai-ml
-- management
-- optimization
-- security
+- knowledge-base
+- content-organization
+- self-service-support
+- documentation-systems
 title: Comprehensive Knowledge Base Development & Management Template
 use_cases:
 - General application

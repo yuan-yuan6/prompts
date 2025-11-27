@@ -6,12 +6,10 @@ related_templates:
 - strategy/digital-transformation-roadmap.md
 - operations/lean-six-sigma-implementation.md
 tags:
-- automation
-- ai-ml
-- design
-- optimization
-- research
-- security
+- process-improvement
+- value-stream-mapping
+- bottleneck-analysis
+- workflow-efficiency
 title: Process Optimization Template Generator
 use_cases:
 - Creating comprehensive process optimization frameworks covering workflows, automation

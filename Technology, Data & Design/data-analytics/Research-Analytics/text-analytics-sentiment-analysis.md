@@ -2,9 +2,10 @@
 title: Text Analytics - Sentiment Analysis
 category: data-analytics
 tags:
-- automation
-- data-analytics
-- ai-ml
+- research-analytics
+- text-analytics
+- sentiment-analysis
+- opinion-mining
 use_cases:
 - Analyze sentiment in customer reviews, social media posts, and feedback using multiple
   models including VADER, TextBlob, and transformer-based approaches.

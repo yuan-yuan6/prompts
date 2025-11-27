@@ -5,12 +5,10 @@ related_templates:
 - content-creation/creative-writing-framework.md
 - content-creation/video-production-pipeline.md
 tags:
-- design
-- documentation
-- management
-- marketing
-- optimization
-- strategy
+- social-media-content
+- post-creation
+- hashtag-strategy
+- platform-optimization
 title: Social Media Content Template
 use_cases:
 - Creating engaging social media content including posts, campaigns, and engagement

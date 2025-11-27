@@ -2,13 +2,10 @@
 title: Plant Operations & Industrial Facility Management Framework
 category: operations
 tags:
-- ai-ml
-- framework
-- management
-- optimization
-- research
-- security
-- testing
+- plant-operations
+- asset-management
+- maintenance-scheduling
+- operational-efficiency
 use_cases:
 - Creating comprehensive framework for managing industrial plant operations including
   production monitoring, maintenance scheduling, safety compliance, efficiency optimization,

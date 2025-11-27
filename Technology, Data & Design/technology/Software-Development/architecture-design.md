@@ -6,9 +6,10 @@ related_templates:
 - technology/site-reliability-engineering.md
 - technology/cloud-migration-strategy.md
 tags:
-- communication
-- design
-- security
+- software-architecture
+- system-design
+- distributed-systems
+- scalability
 title: Architecture Design Template
 use_cases:
 - Creating design comprehensive system architectures including distributed systems,

@@ -5,13 +5,10 @@ related_templates:
 - education/curriculum-development.md
 - education/curriculum-development-framework.md
 tags:
-- automation
-- communication
-- ai-ml
-- development
-- education
-- research
-- strategy
+- science-communication
+- popular-science
+- public-engagement
+- accessible-writing
 title: Science Writing for Popular Audiences Template
 use_cases:
 - Creating engaging, accessible science communication that bridges the gap between

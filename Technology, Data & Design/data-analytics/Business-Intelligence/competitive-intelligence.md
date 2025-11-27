@@ -6,10 +6,10 @@ related_templates:
 - data-analytics/data-governance-framework.md
 - data-analytics/predictive-modeling-framework.md
 tags:
-- data-analytics
-- ai-ml
-- research
-- strategy
+- business-intelligence
+- competitive-analysis
+- market-research
+- benchmarking
 title: Competitive Intelligence Benchmarking Template
 use_cases:
 - Creating develop comprehensive frameworks for market analysis, competitor benchmarking,

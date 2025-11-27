@@ -2,13 +2,10 @@
 title: Curriculum Development & Educational Design Framework
 category: education
 tags:
-- ai-ml
-- design
-- development
-- education
-- framework
-- optimization
-- research
+- curriculum-framework
+- instructional-design
+- learning-outcomes
+- assessment-strategies
 use_cases:
 - Creating comprehensive framework for developing educational curricula including
   learning objectives, instructional design, assessment strategies, technology integration,

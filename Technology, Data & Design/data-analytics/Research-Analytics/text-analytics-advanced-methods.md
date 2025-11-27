@@ -8,9 +8,10 @@ related_templates:
 - data-analytics/Research-Analytics/text-analytics-entity-recognition.md
 - data-analytics/Research-Analytics/text-analytics-overview.md
 tags:
-- automation
-- data-analytics
-- ai-ml
+- research-analytics
+- text-analytics
+- document-clustering
+- text-summarization
 title: Text Analytics - Advanced Methods and Reporting
 use_cases:
 - Perform advanced text analytics including document clustering, similarity analysis,

@@ -4,12 +4,10 @@ last_updated: 2025-11-09
 related_templates:
 - operations/Manufacturing/quality-management.md
 tags:
-- design
-- development
-- framework
-- management
-- optimization
-- strategy
+- manufacturing-supply-chain
+- production-scheduling
+- material-flow
+- supplier-integration
 title: Supply Chain Optimization & Management Framework
 use_cases:
 - Creating comprehensive framework for optimizing manufacturing supply chains including

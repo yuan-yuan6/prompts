@@ -6,12 +6,10 @@ related_templates:
 - technology/site-reliability-engineering.md
 - technology/cloud-migration-strategy.md
 tags:
-- design
-- documentation
-- ai-ml
-- security
-- strategy
-- testing
+- machine-learning
+- data-preparation
+- feature-engineering
+- data-labeling
 title: Data Preparation Template
 use_cases:
 - Creating comprehensive data preparation for machine learning including feature engineering,

@@ -2,13 +2,10 @@
 title: Generative AI Implementation - Overview & Navigation
 category: ai-ml-applications
 tags:
-- automation
-- design
-- development
-- ai-ml
-- optimization
-- security
-- strategy
+- generative-ai
+- llm-implementation
+- ai-strategy
+- enterprise-ai
 use_cases:
 - Creating comprehensive generative AI implementation strategies covering large language
   models, diffusion models, prompting techniques, fine-tuning approaches, retrieval-augmented

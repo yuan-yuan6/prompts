@@ -6,13 +6,10 @@ related_templates:
 - strategy/digital-transformation-roadmap.md
 - operations/lean-six-sigma-implementation.md
 tags:
-- communication
-- design
-- development
-- ai-ml
-- management
-- marketing
-- optimization
+- brand-management
+- brand-positioning
+- brand-identity
+- brand-equity
 title: Brand Management Template Generator
 use_cases:
 - Creating comprehensive brand management strategies covering brand positioning, messaging

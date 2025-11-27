@@ -8,10 +8,10 @@ related_templates:
 - education/Academic-Research/literature-review-analysis-implications.md
 - education/Academic-Research/literature-review-reporting-dissemination.md
 tags:
-- communication
-- education
-- research
-- strategy
+- literature-review-guide
+- systematic-review
+- evidence-synthesis
+- review-navigation
 title: Literature Reviews - Complete Guide & Navigation
 use_cases:
 - Navigating the complete literature review process from protocol to dissemination

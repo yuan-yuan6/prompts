@@ -6,13 +6,10 @@ related_templates:
 - data-analytics/data-governance-framework.md
 - data-analytics/predictive-modeling-framework.md
 tags:
+- business-intelligence
+- reporting
 - automation
-- data-analytics
-- ai-ml
-- documentation
-- optimization
-- research
-- strategy
+- scheduled-reports
 title: Report Generation Automation Template
 use_cases:
 - Creating develop comprehensive strategies for automated report creation, custom

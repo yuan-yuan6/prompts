@@ -6,10 +6,10 @@ related_templates:
 - strategy/digital-transformation-roadmap.md
 - operations/lean-six-sigma-implementation.md
 tags:
-- communication
-- development
-- management
-- strategy
+- employee-relations
+- workplace-culture
+- conflict-resolution
+- labor-relations
 title: Employee Relations Template Generator
 use_cases:
 - Creating comprehensive employee relations strategies covering communication, culture

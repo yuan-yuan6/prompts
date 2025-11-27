@@ -5,10 +5,10 @@ related_templates:
 - communication/meeting-management-framework.md
 - communication/crisis-communication-plan.md
 tags:
-- communication
-- design
-- management
-- strategy
+- executive-communication
+- leadership-briefings
+- strategic-messaging
+- c-suite-presentations
 title: Executive Communication & Briefings Prompt Template
 use_cases:
 - Creating comprehensive framework for crafting executive-level communications, briefings,

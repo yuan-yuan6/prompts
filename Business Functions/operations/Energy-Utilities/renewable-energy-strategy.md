@@ -5,12 +5,10 @@ related_templates:
 - operations/Energy-Utilities/plant-operations-management.md
 - operations/Energy-Utilities/smart-grid-implementation.md
 tags:
-- design
-- development
-- framework
-- ai-ml
-- optimization
-- strategy
+- renewable-strategy
+- clean-energy-transition
+- carbon-reduction
+- sustainability-planning
 title: Renewable Energy Strategy & Implementation Framework
 use_cases:
 - Creating comprehensive framework for developing renewable energy strategies including

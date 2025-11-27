@@ -2,13 +2,10 @@
 title: Employee Engagement Program & Culture Development Framework
 category: human-resources
 tags:
-- communication
-- ai-ml
-- design
-- development
-- framework
-- optimization
-- management
+- employee-engagement
+- culture-development
+- recognition-programs
+- retention
 use_cases:
 - Creating comprehensive employee engagement framework covering engagement assessment,
   program design, culture development, recognition systems, communication strategies,

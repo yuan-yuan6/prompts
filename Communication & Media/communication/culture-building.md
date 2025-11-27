@@ -5,13 +5,10 @@ related_templates:
 - communication/meeting-management-framework.md
 - communication/crisis-communication-plan.md
 tags:
-- communication
-- design
-- development
-- ai-ml
-- optimization
-- management
-- strategy
+- culture-building
+- employee-engagement
+- values-reinforcement
+- recognition-programs
 title: Culture Building & Engagement Prompt Template
 use_cases:
 - Creating comprehensive framework for strengthening organizational culture, reinforcing

@@ -5,11 +5,10 @@ related_templates:
 - content-creation/creative-writing-framework.md
 - content-creation/video-production-pipeline.md
 tags:
-- communication
-- design
-- development
-- marketing
-- strategy
+- brand-storytelling
+- narrative-development
+- brand-voice
+- emotional-connection
 title: Brand Storytelling Comprehensive Template Generator
 use_cases:
 - Creating comprehensive brand storytelling solutions covering narratives, voice development,

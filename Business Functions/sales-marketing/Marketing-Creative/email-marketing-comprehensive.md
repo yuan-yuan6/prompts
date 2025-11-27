@@ -5,13 +5,10 @@ related_templates:
 - content-creation/creative-writing-framework.md
 - content-creation/video-production-pipeline.md
 tags:
-- automation
-- design
-- management
-- marketing
-- optimization
-- security
-- strategy
+- email-marketing
+- drip-campaigns
+- email-automation
+- segmentation-personalization
 title: Email Marketing Comprehensive Template Generator
 use_cases:
 - Creating comprehensive email marketing solutions covering newsletters, drip campaigns,

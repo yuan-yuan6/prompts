@@ -2,12 +2,10 @@
 title: Container Orchestration & Kubernetes Management Framework
 category: technology
 tags:
-- design
-- development
-- framework
-- management
-- optimization
-- security
+- kubernetes
+- container-orchestration
+- helm
+- service-mesh
 use_cases:
 - Creating comprehensive framework for implementing container orchestration platforms
   including kubernetes deployment, service mesh configuration, operator development,

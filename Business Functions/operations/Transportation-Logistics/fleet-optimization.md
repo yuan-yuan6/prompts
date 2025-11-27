@@ -6,11 +6,10 @@ related_templates:
 - operations/Transportation-Logistics/warehouse-management-system.md
 - operations/Transportation-Logistics/fleet-management-system.md
 tags:
-- ai-ml
-- management
-- optimization
-- research
-- strategy
+- fleet-optimization
+- tco-analysis
+- maintenance-scheduling
+- vehicle-utilization
 title: Fleet Optimization & Management System
 use_cases:
 - Creating comprehensive framework for fleet operations management, vehicle optimization,

@@ -2,10 +2,9 @@
 title: Dashboard Design Patterns - Overview & Navigation
 category: data-analytics
 tags:
-- data-analytics
-- design
-- operations
-- strategy
+- business-intelligence
+- dashboards
+- design-patterns
 use_cases:
 - Creating comprehensive dashboard design strategies covering KPI visualization, data
   presentation patterns, user experience optimization, self-service analytics, mobile

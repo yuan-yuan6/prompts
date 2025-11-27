@@ -4,11 +4,10 @@ last_updated: 2025-11-09
 related_templates:
 - operations/Manufacturing/quality-management.md
 tags:
-- ai-ml
-- framework
-- optimization
-- research
-- testing
+- six-sigma
+- dmaic
+- statistical-process-control
+- defect-reduction
 title: Six Sigma & Quality Excellence Framework
 use_cases:
 - Creating comprehensive framework for implementing six sigma methodologies, quality

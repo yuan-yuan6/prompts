@@ -7,11 +7,9 @@ related_templates:
 - data-analytics/predictive-modeling-framework.md
 tags:
 - data-analytics
-- ai-ml
-- design
-- optimization
-- security
-- strategy
+- data-modeling
+- dimensional-modeling
+- data-architecture
 title: Data Modeling & Architecture Template
 use_cases:
 - Creating design comprehensive data modeling architectures including dimensional

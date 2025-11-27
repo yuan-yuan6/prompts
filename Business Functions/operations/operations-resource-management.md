@@ -6,12 +6,10 @@ related_templates:
 - strategy/digital-transformation-roadmap.md
 - operations/lean-six-sigma-implementation.md
 tags:
-- design
-- ai-ml
-- management
-- optimization
-- strategy
-- testing
+- resource-allocation
+- capacity-planning
+- workforce-management
+- utilization-optimization
 title: Resource Management Template Generator
 use_cases:
 - Creating comprehensive resource management frameworks covering resource allocation,

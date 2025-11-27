@@ -6,7 +6,8 @@ related_templates:
 - data-analytics/Business-Intelligence/dashboard-data-architecture.md
 - data-analytics/Business-Intelligence/dashboard-design-overview.md
 tags:
-- data-analytics
+- business-intelligence
+- dashboards
 - security
 - compliance
 title: Dashboard Security, Governance & Compliance

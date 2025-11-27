@@ -3,11 +3,10 @@ category: ai-ml-applications
 last_updated: 2025-11-12
 title: LLM Fine-Tuning & Customization
 tags:
-- ai-ml
-- llm
-- fine-tuning
-- model-training
-- customization
+- llm-fine-tuning
+- model-customization
+- domain-adaptation
+- lora-qlora
 use_cases:
 - Fine-tuning LLMs for domain-specific tasks and terminology
 - Customizing models for consistent brand voice and style

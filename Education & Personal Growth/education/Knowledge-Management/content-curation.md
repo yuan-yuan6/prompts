@@ -5,13 +5,10 @@ related_templates:
 - education/curriculum-development.md
 - education/curriculum-development-framework.md
 tags:
-- ai-ml
-- design
-- development
-- education
-- framework
-- management
-- security
+- content-curation
+- digital-libraries
+- knowledge-repositories
+- resource-organization
 title: Content Curation & Libraries Management Framework Generator
 use_cases:
 - Creating comprehensive frameworks for resource collection, digital library management,

@@ -2,14 +2,10 @@
 title: 'Risk Management Framework - Part 3: Compliance & Innovation'
 category: finance
 tags:
-- design
-- finance
-- framework
-- management
-- strategy
-- compliance
-- innovation
-- machine-learning
+- regulatory-compliance
+- basel-framework
+- stress-testing
+- esg-risk
 use_cases:
 - Creating comprehensive regulatory compliance, model risk management, and advanced
   risk analytics strategies including Basel framework implementation, stress testing,

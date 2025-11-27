@@ -6,10 +6,10 @@ related_templates:
 - technology/site-reliability-engineering.md
 - technology/cloud-migration-strategy.md
 tags:
-- design
-- management
-- optimization
-- strategy
+- infrastructure-management
+- provisioning
+- auto-scaling
+- capacity-planning
 title: Infrastructure Management Template
 use_cases:
 - Creating comprehensive infrastructure management including provisioning, scaling,

@@ -5,12 +5,10 @@ related_templates:
 - communication/meeting-management-framework.md
 - communication/crisis-communication-plan.md
 tags:
-- automation
-- design
-- development
-- ai-ml
-- management
-- optimization
+- help-desk
+- ticket-management
+- support-operations
+- service-desk
 title: Comprehensive Help Desk Management & Operations Template
 use_cases:
 - General application

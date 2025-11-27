@@ -4,9 +4,10 @@ last_updated: 2025-11-09
 related_templates:
 - technology/Emerging-Technologies/generative-ai-implementation.md
 tags:
-- design
-- development
-- framework
+- blockchain
+- smart-contracts
+- web3
+- dapps
 title: Blockchain Architecture & Implementation Framework
 use_cases:
 - Creating comprehensive framework for designing, developing, and deploying blockchain

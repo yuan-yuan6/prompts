@@ -7,9 +7,10 @@ related_templates:
 - data-analytics/Analytics-Engineering/pipeline-orchestration.md
 - data-analytics/Analytics-Engineering/pipeline-observability.md
 tags:
-- automation
 - data-analytics
-- infrastructure
+- infrastructure-as-code
+- kubernetes
+- auto-scaling
 title: Pipeline Infrastructure & Performance Template
 use_cases:
 - Implementing pipeline performance optimization strategies

@@ -5,13 +5,10 @@ related_templates:
 - education/curriculum-development.md
 - education/curriculum-development-framework.md
 tags:
-- ai-ml
-- design
-- development
-- documentation
-- education
-- framework
-- optimization
+- training-materials
+- e-learning-courses
+- workshop-development
+- instructional-content
 title: Training Materials Development Framework Generator
 use_cases:
 - Creating comprehensive frameworks for developing training manuals, tutorials, workshops,

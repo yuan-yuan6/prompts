@@ -6,13 +6,10 @@ related_templates:
 - strategy/digital-transformation-roadmap.md
 - operations/lean-six-sigma-implementation.md
 tags:
-- automation
-- ai-ml
-- framework
-- marketing
-- optimization
-- research
-- strategy
+- process-automation
+- rpa
+- workflow-automation
+- bpm
 title: Process Automation Framework & Implementation Strategy
 use_cases:
 - Creating comprehensive process automation framework covering process analysis, automation

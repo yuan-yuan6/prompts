@@ -4,12 +4,10 @@ last_updated: 2025-11-09
 related_templates:
 - technology/Emerging-Technologies/generative-ai-implementation.md
 tags:
-- design
-- development
-- framework
-- ai-ml
-- optimization
-- strategy
+- quantum-computing
+- qubits
+- quantum-algorithms
+- quantum-advantage
 title: Quantum Computing Strategy & Implementation Framework
 use_cases:
 - Creating comprehensive framework for developing quantum computing strategies including

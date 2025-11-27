@@ -5,12 +5,10 @@ related_templates:
 - communication/meeting-management-framework.md
 - communication/crisis-communication-plan.md
 tags:
-- communication
-- design
-- ai-ml
-- management
-- optimization
-- strategy
+- cross-functional
+- team-alignment
+- dependency-management
+- inter-departmental
 title: Cross-Functional Coordination Prompt Template
 use_cases:
 - Creating comprehensive framework for managing alignment, dependencies, and collaboration

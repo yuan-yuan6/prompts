@@ -2,13 +2,10 @@
 title: Smart Construction & Infrastructure Management Framework
 category: operations
 tags:
-- automation
-- design
-- development
-- framework
-- ai-ml
-- management
-- optimization
+- bim
+- construction-technology
+- iot-monitoring
+- digital-twin
 use_cases:
 - Creating comprehensive framework for implementing smart construction technologies
   and infrastructure management including bim integration, iot monitoring, project

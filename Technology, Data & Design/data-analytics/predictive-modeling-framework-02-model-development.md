@@ -2,14 +2,10 @@
 title: 'Predictive Modeling Framework - Part 2: Model Development & Evaluation'
 category: data-analytics
 tags:
-- automation
-- data-analytics
 - data-science
-- design
-- framework
+- model-development
+- hyperparameter-tuning
 - machine-learning
-- optimization
-- research
 series: predictive-modeling-framework
 part: 2 of 3
 related_parts:

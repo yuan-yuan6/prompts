@@ -5,13 +5,10 @@ related_templates:
 - communication/meeting-management-framework.md
 - communication/crisis-communication-plan.md
 tags:
-- communication
-- design
-- development
-- optimization
-- management
-- security
-- strategy
+- company-announcements
+- all-hands-communication
+- organizational-updates
+- internal-messaging
 title: Company Announcements & Updates Prompt Template
 use_cases:
 - Creating comprehensive framework for creating effective all-hands communications,

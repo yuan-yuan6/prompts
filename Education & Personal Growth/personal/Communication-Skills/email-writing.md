@@ -2,10 +2,10 @@
 title: Email Writing Template
 category: personal
 tags:
-- communication
-- design
-- personal
-- testing
+- email-writing
+- professional-correspondence
+- persuasive-messaging
+- business-communication
 use_cases:
 - Creating effective email communication including professional correspondence, persuasive
   messages, and personal communications that achieve desired outcomes and maintain

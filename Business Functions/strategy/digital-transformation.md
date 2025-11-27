@@ -6,12 +6,10 @@ related_templates:
 - strategy/digital-transformation-roadmap.md
 - operations/lean-six-sigma-implementation.md
 tags:
-- ai-ml
-- design
-- framework
-- optimization
-- research
-- strategy
+- digital-strategy
+- process-digitization
+- technology-modernization
+- business-model-innovation
 title: Digital Transformation Strategy & Implementation Framework
 use_cases:
 - Creating comprehensive framework for planning and executing enterprise-wide digital

@@ -2,11 +2,10 @@
 title: Regulatory Compliance Framework Template Generator
 category: legal-compliance
 tags:
-- design
-- framework
-- ai-ml
-- management
-- security
+- regulatory-compliance
+- compliance-policies
+- compliance-monitoring
+- audit-management
 use_cases:
 - Creating comprehensive compliance program strategies covering policies, procedures,
   training, monitoring, and auditing to ensure regulatory adherence, minimize compliance

@@ -5,12 +5,10 @@ related_templates:
 - content-creation/creative-writing-framework.md
 - content-creation/video-production-pipeline.md
 tags:
-- communication
-- design
-- documentation
-- optimization
-- research
-- strategy
+- article-writing
+- blog-posts
+- feature-writing
+- content-structure
 title: Article Writing Template
 use_cases:
 - Creating compelling articles, blog posts, news stories, and feature pieces with

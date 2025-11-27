@@ -6,12 +6,10 @@ related_templates:
 - strategy/digital-transformation-roadmap.md
 - operations/lean-six-sigma-implementation.md
 tags:
-- automation
-- ai-ml
-- development
-- management
-- optimization
-- research
+- investment-evaluation
+- roi-analysis
+- npv-irr
+- capital-allocation
 title: Investment Evaluation Template Generator
 use_cases:
 - Creating comprehensive investment evaluation strategies covering ROI analysis, NPV

@@ -6,8 +6,10 @@ related_templates:
 - legal-compliance/contract-drafting-template.md
 - legal-compliance/intellectual-property-management.md
 tags:
-- design
-- management
+- contract-drafting
+- legal-agreements
+- terms-of-service
+- governing-law
 title: Contract Drafting Template
 use_cases:
 - Creating comprehensive legal contracts, agreements, terms of service, and binding

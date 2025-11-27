@@ -6,11 +6,10 @@ related_templates:
 - strategy/digital-transformation-roadmap.md
 - operations/lean-six-sigma-implementation.md
 tags:
-- design
-- development
-- optimization
-- security
-- strategy
+- training-programs
+- onboarding
+- skills-development
+- compliance-training
 title: Training Programs Template Generator
 use_cases:
 - Creating comprehensive training program strategies covering onboarding, skills development,

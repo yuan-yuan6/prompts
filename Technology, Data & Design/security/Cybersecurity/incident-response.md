@@ -6,13 +6,10 @@ related_templates:
 - technology/site-reliability-engineering.md
 - technology/cloud-migration-strategy.md
 tags:
-- communication
-- ai-ml
-- design
-- management
-- research
 - security
-- strategy
+- incident-response
+- playbooks
+- containment
 title: Incident Response Template
 use_cases:
 - Creating comprehensive incident response planning including detection, analysis,

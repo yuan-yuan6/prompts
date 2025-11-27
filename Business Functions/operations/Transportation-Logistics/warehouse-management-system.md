@@ -2,13 +2,10 @@
 title: Warehouse Management & Distribution Center Framework
 category: operations
 tags:
-- automation
-- ai-ml
-- design
-- framework
-- management
-- optimization
-- research
+- warehouse-management
+- wms
+- inventory-control
+- order-fulfillment
 use_cases:
 - Creating comprehensive framework for managing warehouse operations including inventory
   control, order fulfillment, picking/packing processes, automation integration, labor

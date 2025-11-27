@@ -6,11 +6,10 @@ related_templates:
 - data-analytics/data-governance-framework.md
 - data-analytics/predictive-modeling-framework.md
 tags:
-- automation
-- data-analytics
-- ai-ml
-- design
-- research
+- research-analytics
+- text-analytics
+- nlp
+- text-mining
 title: Text Analytics and NLP Template
 use_cases:
 - Creating conduct comprehensive text mining and natural language processing analysis

@@ -2,12 +2,10 @@
 title: 5G Network Deployment & Optimization Framework
 category: technology
 tags:
-- communication
-- design
-- framework
-- management
-- optimization
-- strategy
+- 5g
+- network-deployment
+- network-slicing
+- spectrum-management
 use_cases:
 - Creating comprehensive framework for planning and deploying 5g networks including
   infrastructure design, spectrum management, edge computing integration, network

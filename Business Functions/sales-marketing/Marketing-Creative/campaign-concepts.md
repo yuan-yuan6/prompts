@@ -5,12 +5,10 @@ related_templates:
 - content-creation/creative-writing-framework.md
 - content-creation/video-production-pipeline.md
 tags:
-- automation
-- communication
-- design
-- development
-- marketing
-- strategy
+- campaign-themes
+- creative-messaging
+- multi-channel-campaigns
+- brand-engagement
 title: Campaign Concepts Template
 use_cases:
 - Creating develop comprehensive marketing campaign concepts including themes, messaging,

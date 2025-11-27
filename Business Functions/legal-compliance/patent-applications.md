@@ -6,12 +6,10 @@ related_templates:
 - legal-compliance/contract-drafting-template.md
 - legal-compliance/intellectual-property-management.md
 tags:
-- automation
-- ai-ml
-- management
-- research
-- security
-- strategy
+- patent-applications
+- claims-drafting
+- prior-art
+- patent-prosecution
 title: Patent Applications Template
 use_cases:
 - Creating comprehensive patent applications, claims drafting, prior art analysis,

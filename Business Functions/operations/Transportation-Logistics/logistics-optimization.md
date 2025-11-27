@@ -6,11 +6,10 @@ related_templates:
 - operations/Transportation-Logistics/warehouse-management-system.md
 - operations/Transportation-Logistics/fleet-management-system.md
 tags:
-- design
-- framework
-- management
-- optimization
-- strategy
+- logistics-optimization
+- last-mile-delivery
+- multimodal-transport
+- supply-chain-visibility
 title: Logistics Optimization & Supply Chain Transportation Framework
 use_cases:
 - Creating comprehensive framework for optimizing logistics operations including route

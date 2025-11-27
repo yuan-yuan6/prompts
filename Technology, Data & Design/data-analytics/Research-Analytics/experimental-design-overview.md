@@ -8,9 +8,9 @@ related_templates:
 - data-analytics/Research-Analytics/validity-and-diagnostics.md
 - data-analytics/Research-Analytics/variables-and-implementation.md
 tags:
-- ai-ml
-- data-analytics
-- research
+- research-analytics
+- experimental-design
+- causal-inference
 title: Experimental Design and Causal Inference Overview
 use_cases:
 - Navigate the experimental design framework and select appropriate prompts for designing,

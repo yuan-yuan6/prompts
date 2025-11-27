@@ -3,10 +3,10 @@ category: ai-ml-applications
 last_updated: 2025-11-12
 title: AI Feature Development & Integration
 tags:
-- ai-ml
-- product-development
-- feature-design
-- integration
+- ai-feature-development
+- ai-integration
+- ml-product-features
+- ai-ux
 use_cases:
 - Designing and building AI-powered product features
 - Integrating AI capabilities into existing products

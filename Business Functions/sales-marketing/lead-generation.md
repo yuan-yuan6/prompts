@@ -6,12 +6,10 @@ related_templates:
 - strategy/digital-transformation-roadmap.md
 - operations/lean-six-sigma-implementation.md
 tags:
-- automation
-- design
-- ai-ml
-- marketing
-- optimization
-- testing
+- lead-generation
+- prospecting
+- lead-nurturing
+- sales-pipeline
 title: Lead Generation Template Generator
 use_cases:
 - Creating comprehensive lead generation strategies covering prospecting, qualification,

@@ -6,11 +6,10 @@ related_templates:
 - technology/site-reliability-engineering.md
 - technology/cloud-migration-strategy.md
 tags:
-- communication
-- design
-- documentation
-- management
-- strategy
+- sre
+- slo-sli
+- error-budgets
+- incident-management
 title: Site Reliability Engineering Template
 use_cases:
 - Creating implement comprehensive sre practices including slo/sli definition, error

@@ -6,10 +6,10 @@ related_templates:
 - legal-compliance/contract-drafting-template.md
 - legal-compliance/intellectual-property-management.md
 tags:
-- design
-- documentation
-- management
-- strategy
+- m-and-a
+- due-diligence
+- deal-structuring
+- integration-planning
 title: M&A Support Template
 use_cases:
 - Creating comprehensive merger and acquisition documentation, due diligence frameworks,

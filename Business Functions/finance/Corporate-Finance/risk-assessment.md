@@ -2,10 +2,10 @@
 title: Risk Assessment Template
 category: finance
 tags:
-- design
-- management
-- security
-- testing
+- risk-assessment
+- var
+- stress-testing
+- risk-metrics
 use_cases:
 - General application
 - Professional use

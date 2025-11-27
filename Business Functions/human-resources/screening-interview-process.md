@@ -6,8 +6,10 @@ related_templates:
 - human-resources/job-analysis-definition.md
 - human-resources/recruitment-metrics-optimization.md
 tags:
-- evaluation
-- human-resources
+- structured-interviews
+- candidate-screening
+- interview-scorecards
+- hiring-process
 title: Screening & Interview Process
 use_cases:
 - Designing structured interview processes

@@ -5,9 +5,10 @@ related_templates:
 - sales-marketing/Real-Estate/property-management-system.md
 - sales-marketing/Real-Estate/construction-project-planning.md
 tags:
-- automation
-- ai-ml
-- research
+- property-valuation
+- appraisal-methods
+- market-value
+- comparative-analysis
 title: Property Valuation & Appraisal Template
 use_cases:
 - Creating comprehensive property valuation reports, appraisal analyses, market assessments,

@@ -5,11 +5,10 @@ related_templates:
 - sales-marketing/Real-Estate/property-management-system.md
 - sales-marketing/Real-Estate/construction-project-planning.md
 tags:
-- framework
-- management
-- optimization
-- security
-- testing
+- tenant-operations
+- lease-management
+- maintenance-coordination
+- property-compliance
 title: Property Management & Tenant Operations Framework
 use_cases:
 - Creating comprehensive framework for managing residential and commercial properties

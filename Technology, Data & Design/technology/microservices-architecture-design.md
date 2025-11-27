@@ -2,13 +2,10 @@
 title: Microservices Architecture Design Framework
 category: technology
 tags:
-- communication
-- design
-- development
-- framework
-- ai-ml
-- management
-- strategy
+- microservices
+- distributed-systems
+- api-design
+- event-driven
 use_cases:
 - Creating comprehensive framework for designing and implementing microservices architecture
   including service decomposition, api design, communication patterns, data management,

@@ -5,12 +5,10 @@ related_templates:
 - content-creation/creative-writing-framework.md
 - content-creation/video-production-pipeline.md
 tags:
-- ai-ml
-- design
-- management
-- marketing
-- optimization
-- research
+- media-content-strategy
+- audience-growth
+- digital-publishing
+- journalism-business
 title: Content Strategy Template
 use_cases:
 - Creating comprehensive content strategy frameworks, editorial planning systems,

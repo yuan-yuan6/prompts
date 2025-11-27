@@ -6,13 +6,10 @@ related_templates:
 - technology/site-reliability-engineering.md
 - technology/cloud-migration-strategy.md
 tags:
-- automation
-- design
-- development
-- management
-- optimization
-- security
-- strategy
+- devops
+- ci-cd
+- build-automation
+- deployment-pipeline
 title: CI/CD Pipeline Development & Optimization Template
 use_cases:
 - General application

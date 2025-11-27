@@ -6,11 +6,10 @@ related_templates:
 - legal-compliance/contract-drafting-template.md
 - legal-compliance/intellectual-property-management.md
 tags:
-- design
-- ai-ml
-- management
-- optimization
-- security
+- compliance-programs
+- policy-implementation
+- audit-protocols
+- regulatory-adherence
 title: Compliance Programs Template
 use_cases:
 - Creating design comprehensive regulatory compliance frameworks, policy implementation

@@ -2,11 +2,10 @@
 title: Career Planning Template
 category: personal
 tags:
-- ai-ml
-- development
-- personal
-- research
-- strategy
+- career-planning
+- professional-roadmap
+- skill-advancement
+- career-transition
 use_cases:
 - Creating comprehensive career development strategies, professional growth roadmaps,
   skill advancement plans, and strategic career transitions that align personal aspirations

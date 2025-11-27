@@ -5,8 +5,8 @@ title: Pricing Strategy & Packaging
 tags:
 - product-management
 - pricing
-- strategy
 - monetization
+- packaging
 use_cases:
 - Developing pricing strategy for new products or features
 - Optimizing existing pricing and packaging

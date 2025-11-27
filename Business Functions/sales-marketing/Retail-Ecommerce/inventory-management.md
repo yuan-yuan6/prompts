@@ -6,12 +6,10 @@ related_templates:
 - sales-marketing/Retail-Ecommerce/dynamic-pricing-strategy.md
 - sales-marketing/Retail-Ecommerce/product-sourcing-strategy.md
 tags:
-- ai-ml
-- documentation
-- framework
-- management
-- optimization
-- research
+- retail-inventory
+- demand-forecasting
+- stock-optimization
+- inventory-turnover
 title: Inventory Management & Supply Chain Optimization Framework
 use_cases:
 - Creating comprehensive framework for managing retail inventory across channels,

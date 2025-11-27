@@ -6,13 +6,10 @@ related_templates:
 - technology/Gaming/game-development-pipeline.md
 - technology/Gaming/content-production-framework.md
 tags:
-- automation
-- design
-- development
-- framework
-- ai-ml
-- management
-- optimization
+- game-design
+- player-experience
+- monetization
+- live-ops
 title: Game Design & Development Framework
 use_cases:
 - Creating comprehensive framework for game design, development pipeline management,

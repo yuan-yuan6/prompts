@@ -6,13 +6,10 @@ related_templates:
 - technology/site-reliability-engineering.md
 - technology/cloud-migration-strategy.md
 tags:
-- automation
-- design
-- development
-- documentation
-- framework
-- management
-- security
+- platform-engineering
+- developer-experience
+- internal-developer-platform
+- golden-paths
 title: Platform Engineering & Developer Experience Framework
 use_cases:
 - Creating comprehensive framework for building and managing internal developer platforms,

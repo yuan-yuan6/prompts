@@ -2,14 +2,10 @@
 title: 'Predictive Modeling Framework - Part 3: Deployment & Monitoring'
 category: data-analytics
 tags:
-- automation
-- data-analytics
 - data-science
-- design
-- framework
-- machine-learning
-- optimization
-- research
+- mlops
+- model-deployment
+- model-monitoring
 series: predictive-modeling-framework
 part: 3 of 3
 related_parts:

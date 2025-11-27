@@ -2,12 +2,10 @@
 title: 'Music Audio Comprehensive - Part 1: Composition & Arrangement'
 category: content-creation
 tags:
-- communication
-- comprehensive
-- design
-- optimization
-- template
-- testing
+- music-composition
+- arrangement
+- melody-writing
+- harmonic-structure
 series: music-audio-comprehensive
 part: 1 of 3
 related_parts:

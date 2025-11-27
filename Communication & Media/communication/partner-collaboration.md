@@ -5,13 +5,10 @@ related_templates:
 - communication/meeting-management-framework.md
 - communication/crisis-communication-plan.md
 tags:
-- automation
-- communication
-- design
-- development
-- ai-ml
-- management
-- optimization
+- partner-collaboration
+- strategic-alliances
+- partnership-management
+- value-creation
 title: Partner Collaboration & Alliances Prompt Template
 use_cases:
 - Creating comprehensive framework for developing, managing, and optimizing strategic

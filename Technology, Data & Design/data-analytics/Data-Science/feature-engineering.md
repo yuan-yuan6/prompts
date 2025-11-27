@@ -6,12 +6,10 @@ related_templates:
 - data-analytics/data-governance-framework.md
 - data-analytics/predictive-modeling-framework.md
 tags:
-- automation
-- data-analytics
-- ai-ml
-- design
-- optimization
-- research
+- data-science
+- feature-engineering
+- feature-selection
+- machine-learning
 title: Feature Engineering & Selection Template
 use_cases:
 - Creating design and implement comprehensive feature engineering strategies to create,

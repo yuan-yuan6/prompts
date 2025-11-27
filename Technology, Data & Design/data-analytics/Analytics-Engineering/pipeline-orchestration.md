@@ -7,8 +7,10 @@ related_templates:
 - data-analytics/Analytics-Engineering/pipeline-observability.md
 - data-analytics/Analytics-Engineering/pipeline-infrastructure.md
 tags:
-- automation
 - data-analytics
+- workflow-orchestration
+- airflow
+- dag-design
 title: Pipeline Orchestration Template
 use_cases:
 - Designing Apache Airflow DAGs for complex data pipeline workflows

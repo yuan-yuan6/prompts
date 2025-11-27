@@ -5,11 +5,10 @@ related_templates:
 - communication/meeting-management-framework.md
 - communication/crisis-communication-plan.md
 tags:
-- communication
-- design
-- management
-- optimization
-- strategy
+- meeting-planning
+- meeting-facilitation
+- actionable-outcomes
+- structured-agendas
 title: Meeting Management & Agendas Prompt Template
 use_cases:
 - Creating comprehensive framework for planning, conducting, and following up on team

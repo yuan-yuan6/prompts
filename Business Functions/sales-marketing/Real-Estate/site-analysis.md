@@ -2,11 +2,10 @@
 title: Site Analysis Template
 category: sales-marketing
 tags:
-- ai-ml
-- design
-- development
-- research
-- strategy
+- site-analysis
+- feasibility-studies
+- development-potential
+- land-evaluation
 use_cases:
 - Creating comprehensive site analysis reports, feasibility studies, development potential
   assessments, and investment evaluations that inform strategic real estate development

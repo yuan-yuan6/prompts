@@ -6,13 +6,10 @@ related_templates:
 - technology/site-reliability-engineering.md
 - technology/cloud-migration-strategy.md
 tags:
-- automation
-- design
-- development
-- documentation
-- framework
-- ai-ml
-- management
+- git
+- version-control
+- branching-strategy
+- merge-workflow
 title: Version Control & Git Workflow Management Framework
 use_cases:
 - Creating comprehensive framework for version control management, git workflows,

@@ -6,12 +6,10 @@ related_templates:
 - strategy/digital-transformation-roadmap.md
 - operations/lean-six-sigma-implementation.md
 tags:
-- framework
-- ai-ml
-- management
-- optimization
-- security
-- testing
+- quality-assurance
+- testing-standards
+- defect-prevention
+- compliance-verification
 title: Quality Assurance Framework Template Generator
 use_cases:
 - Creating comprehensive quality assurance programs covering quality standards, testing

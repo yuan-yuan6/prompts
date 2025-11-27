@@ -2,9 +2,10 @@
 title: Network Analysis - Data Preparation
 category: data-analytics
 tags:
-- data-analytics
-- ai-ml
-- data-quality
+- research-analytics
+- network-analysis
+- graph-data
+- data-preparation
 use_cases:
 - Loading and preprocessing network data from various formats
 - Cleaning and validating network structure and attributes

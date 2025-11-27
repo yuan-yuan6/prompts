@@ -2,13 +2,10 @@
 title: Networking Template
 category: personal
 tags:
-- automation
-- communication
-- development
-- marketing
-- personal
-- research
-- strategy
+- professional-networking
+- relationship-building
+- strategic-introductions
+- connection-development
 use_cases:
 - Creating build effective professional and personal networks through strategic introductions,
   meaningful follow-ups, and authentic relationship development to create mutually

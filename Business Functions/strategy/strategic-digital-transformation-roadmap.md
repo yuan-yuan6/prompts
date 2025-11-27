@@ -6,10 +6,10 @@ related_templates:
 - strategy/digital-transformation-roadmap.md
 - operations/lean-six-sigma-implementation.md
 tags:
-- framework
-- ai-ml
-- optimization
-- strategy
+- enterprise-transformation
+- digital-roadmap
+- culture-change
+- value-creation
 title: Enterprise Digital Transformation Roadmap & Execution Framework
 use_cases:
 - Creating comprehensive enterprise-wide digital transformation roadmap framework

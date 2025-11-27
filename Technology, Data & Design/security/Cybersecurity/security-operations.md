@@ -4,13 +4,10 @@ last_updated: 2025-11-22
 related_templates:
 - security/cybersecurity-incident-response.md
 tags:
-- ai-ml
-- design
-- framework
-- management
-- marketing
-- research
 - security
+- secops
+- threat-detection
+- vulnerability-management
 title: Cybersecurity Operations & Threat Management Framework
 use_cases:
 - Creating comprehensive framework for cybersecurity operations, threat detection

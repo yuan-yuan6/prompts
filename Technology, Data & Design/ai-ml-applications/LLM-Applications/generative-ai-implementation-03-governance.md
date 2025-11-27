@@ -2,12 +2,10 @@
 title: 'Generative AI Implementation - Part 3: Implementation & Governance'
 category: ai-ml-applications
 tags:
-- automation
-- governance
-- security
-- strategy
-- technology
-- template
+- ai-governance
+- ai-safety
+- ai-compliance
+- ai-deployment
 use_cases:
 - Implementing AI safety and risk mitigation, establishing security frameworks, ensuring
   privacy and compliance, managing deployment and change, driving adoption, and governing

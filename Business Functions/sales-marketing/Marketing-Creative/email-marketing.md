@@ -5,12 +5,10 @@ related_templates:
 - content-creation/creative-writing-framework.md
 - content-creation/video-production-pipeline.md
 tags:
-- ai-ml
-- communication
-- design
-- documentation
-- marketing
-- research
+- email-campaigns
+- newsletter-design
+- email-sequences
+- subscriber-engagement
 title: Email Marketing Template
 use_cases:
 - Creating comprehensive email marketing campaigns including newsletters, drip sequences,

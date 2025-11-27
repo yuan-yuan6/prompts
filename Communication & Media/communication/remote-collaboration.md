@@ -5,11 +5,10 @@ related_templates:
 - communication/meeting-management-framework.md
 - communication/crisis-communication-plan.md
 tags:
-- communication
-- design
-- framework
-- management
-- optimization
+- remote-collaboration
+- virtual-teams
+- distributed-workforce
+- async-workflows
 title: Remote Collaboration & Virtual Team Management Framework
 use_cases:
 - Creating comprehensive framework for managing remote teams and virtual collaboration

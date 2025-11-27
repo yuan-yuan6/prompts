@@ -3,11 +3,10 @@ category: ai-ml-applications
 last_updated: 2025-11-22
 title: MLOps Model Deployment
 tags:
-- ai-ml
-- mlops
-- deployment
-- ci-cd
+- model-deployment
+- ml-cicd
 - model-serving
+- canary-deployment
 use_cases:
 - Deploying ML models to production environments
 - Setting up CI/CD pipelines for model updates

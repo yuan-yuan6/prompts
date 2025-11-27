@@ -6,10 +6,10 @@ related_templates:
 - education/Academic-Research/literature-review-extraction-synthesis.md
 - education/Academic-Research/literature-reviews-overview.md
 tags:
-- communication
-- education
-- research
-- testing
+- study-selection
+- quality-assessment
+- bias-evaluation
+- prisma-screening
 title: Literature Review Selection & Quality Assessment
 use_cases:
 - Conducting systematic study selection and screening processes for literature reviews

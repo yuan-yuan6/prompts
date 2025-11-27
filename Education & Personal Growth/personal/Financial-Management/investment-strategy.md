@@ -2,12 +2,10 @@
 title: Investment Strategy Template
 category: personal
 tags:
-- ai-ml
-- development
-- management
-- personal
-- research
-- strategy
+- investment-portfolio
+- wealth-building
+- risk-management
+- asset-diversification
 use_cases:
 - Creating develop comprehensive investment portfolios with proper risk management,
   diversification strategies, and long-term wealth building approaches tailored to

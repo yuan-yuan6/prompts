@@ -4,11 +4,10 @@ last_updated: 2025-11-09
 related_templates:
 - technology/Emerging-Technologies/generative-ai-implementation.md
 tags:
-- design
-- development
-- framework
-- ai-ml
-- optimization
+- defi
+- smart-contracts
+- tokenomics
+- liquidity-protocols
 title: DeFi Protocol Design & Implementation Framework
 use_cases:
 - Creating advanced framework for designing, developing, and launching decentralized

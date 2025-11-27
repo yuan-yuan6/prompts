@@ -4,8 +4,10 @@ last_updated: 2025-11-23
 related_templates:
 - technology/Software-Development/architecture-design.md
 tags:
-- quality-assurance
-- security
+- code-review
+- pull-request
+- code-quality
+- static-analysis
 title: Comprehensive Code Review
 use_cases:
 - Pull request reviews

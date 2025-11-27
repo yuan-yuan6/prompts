@@ -5,13 +5,10 @@ related_templates:
 - education/curriculum-development.md
 - education/curriculum-development-framework.md
 tags:
-- automation
-- communication
-- design
-- development
-- education
-- ai-ml
-- optimization
+- academic-writing
+- journal-publication
+- peer-review
+- conference-papers
 title: Academic Publication Writing Generator
 use_cases:
 - Creating comprehensive academic papers, abstracts, conference presentations, and

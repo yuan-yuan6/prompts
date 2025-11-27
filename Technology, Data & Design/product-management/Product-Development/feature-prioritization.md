@@ -5,8 +5,8 @@ title: Feature Prioritization Framework
 tags:
 - product-management
 - prioritization
-- decision-making
-- framework
+- rice-framework
+- backlog-management
 use_cases:
 - Prioritizing feature requests from customers, stakeholders, and internal teams
 - Making data-driven decisions on what to build next

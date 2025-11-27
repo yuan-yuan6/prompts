@@ -7,7 +7,9 @@ related_templates:
 - design/usability-testing-plan.md
 tags:
 - design
-- testing
+- prototyping
+- user-testing
+- figma
 title: Interactive Prototype Development
 use_cases:
 - Build clickable prototype for usability testing

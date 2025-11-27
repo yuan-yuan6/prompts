@@ -7,6 +7,9 @@ related_templates:
 - design/ux-ui-design-overview.md
 tags:
 - design
+- design-systems
+- component-library
+- design-tokens
 title: Design System & Component Library
 use_cases:
 - Creating comprehensive design systems and style guides

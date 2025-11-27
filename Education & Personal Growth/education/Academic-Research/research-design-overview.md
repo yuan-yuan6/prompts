@@ -8,8 +8,10 @@ related_templates:
 - education/Academic-Research/research-design-ethics-implementation.md
 - education/Academic-Research/research-design-impact.md
 tags:
-- research
-- design
+- research-design-guide
+- methodology-navigation
+- study-planning
+- design-selection
 title: Research Design Suite - Complete Overview & Navigation
 use_cases:
 - Navigating the comprehensive research design prompt suite

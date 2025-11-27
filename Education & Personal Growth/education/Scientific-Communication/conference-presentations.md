@@ -5,11 +5,10 @@ related_templates:
 - education/curriculum-development.md
 - education/curriculum-development-framework.md
 tags:
-- communication
-- design
-- education
-- research
-- strategy
+- conference-presentations
+- academic-posters
+- research-talks
+- scholarly-communication
 title: Conference Presentations & Posters Template
 use_cases:
 - Creating compelling academic conference presentations, posters, and talks that effectively

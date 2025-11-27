@@ -2,13 +2,10 @@
 title: Autonomous Vehicle & Smart Mobility Systems Framework
 category: operations
 tags:
-- automotive
-- operations
-- automation
-- design
-- framework
-- ai-ml
-- optimization
+- autonomous-vehicles
+- sensor-fusion
+- path-planning
+- vehicle-safety-systems
 use_cases:
 - Creating comprehensive framework for developing and deploying autonomous vehicle
   systems including sensor fusion, ai decision-making, safety protocols, infrastructure

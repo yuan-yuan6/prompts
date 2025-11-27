@@ -5,12 +5,10 @@ related_templates:
 - content-creation/creative-writing-framework.md
 - content-creation/video-production-pipeline.md
 tags:
-- ai-ml
-- automation
-- design
-- development
-- research
-- strategy
+- game-design
+- game-mechanics
+- level-design
+- player-experience
 title: Game Design Template
 use_cases:
 - Creating comprehensive game design documents including narratives, mechanics, and

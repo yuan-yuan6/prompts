@@ -2,11 +2,10 @@
 title: Home Management Template
 category: personal
 tags:
-- design
-- management
-- optimization
-- personal
-- strategy
+- home-organization
+- maintenance-scheduling
+- household-efficiency
+- living-space-optimization
 use_cases:
 - Creating develop comprehensive home management strategies including organization
   systems, maintenance schedules, and household projects to create efficient, comfortable,

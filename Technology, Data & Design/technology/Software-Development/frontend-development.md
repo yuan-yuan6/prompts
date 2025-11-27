@@ -6,13 +6,10 @@ related_templates:
 - technology/site-reliability-engineering.md
 - technology/cloud-migration-strategy.md
 tags:
-- automation
-- design
-- development
-- framework
-- management
-- optimization
-- security
+- frontend-development
+- react-vue-angular
+- responsive-design
+- pwa
 title: Frontend Development & Web Application Framework
 use_cases:
 - Creating comprehensive framework for frontend web development including modern javascript

@@ -2,12 +2,10 @@
 title: Habit Formation Template
 category: personal
 tags:
-- automation
-- ai-ml
-- design
-- optimization
-- personal
-- research
+- habit-formation
+- behavior-change
+- routine-optimization
+- habit-design
 use_cases:
 - Creating comprehensive habit formation systems, behavioral change protocols, routine
   optimization strategies, and sustainable lifestyle transformations through scientific

@@ -6,11 +6,10 @@ related_templates:
 - finance/digital-banking-strategy.md
 - finance/risk-management-framework.md
 tags:
-- design
-- finance
-- framework
-- management
-- security
+- enterprise-risk-management
+- coso-framework
+- three-lines-defense
+- risk-culture
 title: Enterprise Risk Management (ERM) Framework
 use_cases:
 - Creating comprehensive framework for implementing enterprise risk management including

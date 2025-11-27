@@ -2,13 +2,10 @@
 title: Data Governance Framework & Management Strategy
 category: data-analytics
 tags:
-- data-analytics
-- ai-ml
-- design
-- framework
-- management
-- research
-- security
+- data-governance
+- data-quality
+- compliance
+- data-security
 use_cases:
 - Creating comprehensive data governance framework covering data strategy, quality
   management, privacy compliance, security protocols, lifecycle management, and organizational

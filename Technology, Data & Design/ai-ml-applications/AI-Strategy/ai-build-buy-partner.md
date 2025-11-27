@@ -4,11 +4,10 @@ category: ai-ml-applications
 last_updated: 2025-11-25
 title: AI Build vs Buy vs Partner Decision Framework
 tags:
-- ai-ml
-- strategy
-- build-buy
-- vendor-selection
-- partnerships
+- ai-build-vs-buy
+- ai-vendor-selection
+- ai-partnerships
+- ai-sourcing
 use_cases:
 - Deciding whether to build AI solutions in-house or use vendors
 - Evaluating AI vendor and platform options

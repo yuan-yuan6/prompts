@@ -2,11 +2,10 @@
 title: Property Management & Real Estate Operations Framework
 category: sales-marketing
 tags:
-- framework
-- management
-- marketing
-- optimization
-- security
+- property-management
+- tenant-relations
+- lease-administration
+- portfolio-optimization
 use_cases:
 - Creating comprehensive framework for managing real estate properties including tenant
   relations, maintenance operations, financial management, lease administration, compliance

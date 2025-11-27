@@ -2,12 +2,10 @@
 title: SWOT Analysis Strategic Assessment Framework
 category: strategy
 tags:
-- ai-ml
-- framework
-- marketing
-- research
-- strategy
-- testing
+- swot-analysis
+- competitive-positioning
+- strategic-assessment
+- opportunity-evaluation
 use_cases:
 - Creating comprehensive framework for conducting swot analysis including strengths
   assessment, weaknesses identification, opportunities exploration, threats evaluation,

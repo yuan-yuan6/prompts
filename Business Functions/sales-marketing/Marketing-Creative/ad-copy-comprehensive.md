@@ -6,7 +6,10 @@ related_templates:
 - sales-marketing/Marketing-Creative/campaign-concepts-comprehensive.md
 - sales-marketing/Marketing-Creative/landing-pages-comprehensive.md
 tags:
-- marketing
+- ad-copywriting
+- digital-advertising
+- ppc-campaigns
+- conversion-copy
 title: Comprehensive Ad Copy Generator
 use_cases:
 - Digital advertising campaigns

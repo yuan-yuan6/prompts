@@ -2,7 +2,10 @@
 title: Job Analysis & Role Definition
 category: human-resources
 tags:
-- hr
+- job-analysis
+- job-descriptions
+- competency-framework
+- role-definition
 use_cases:
 - Creating comprehensive job descriptions and position requirements
 - Defining role competencies and success metrics

@@ -5,10 +5,10 @@ related_templates:
 - content-creation/creative-writing-framework.md
 - content-creation/video-production-pipeline.md
 tags:
-- design
-- development
-- optimization
-- security
+- interactive-media
+- ar-vr-experiences
+- digital-installations
+- immersive-content
 title: Interactive Media Template
 use_cases:
 - Creating immersive interactive media experiences including AR/VR applications, interactive

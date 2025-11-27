@@ -5,11 +5,10 @@ related_templates:
 - education/curriculum-development.md
 - education/curriculum-development-framework.md
 tags:
-- automation
-- communication
-- design
-- education
-- research
+- grant-writing
+- funding-proposals
+- budget-justification
+- research-funding
 title: Grant Writing & Proposals Generator
 use_cases:
 - Creating comprehensive grant proposals, funding applications, budget justifications,

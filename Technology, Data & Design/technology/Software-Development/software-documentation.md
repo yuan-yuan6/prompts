@@ -6,12 +6,10 @@ related_templates:
 - technology/site-reliability-engineering.md
 - technology/cloud-migration-strategy.md
 tags:
-- automation
-- design
-- development
-- documentation
-- security
-- strategy
+- technical-documentation
+- api-docs
+- developer-guides
+- system-specs
 title: Technical Documentation Template
 use_cases:
 - Creating comprehensive technical documentation including API documentation, system

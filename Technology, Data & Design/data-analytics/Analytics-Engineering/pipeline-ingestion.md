@@ -7,9 +7,10 @@ related_templates:
 - data-analytics/Analytics-Engineering/pipeline-observability.md
 - data-analytics/data-governance-framework.md
 tags:
-- automation
 - data-analytics
-- development
+- data-ingestion
+- streaming
+- cdc
 title: Pipeline Data Ingestion Template
 use_cases:
 - Designing batch data ingestion pipelines with validation and error handling

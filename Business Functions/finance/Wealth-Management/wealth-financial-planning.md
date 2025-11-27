@@ -2,11 +2,10 @@
 title: Financial Planning Template
 category: finance
 tags:
-- ai-ml
-- finance
-- management
-- research
-- strategy
+- financial-planning
+- retirement-planning
+- tax-strategy
+- investment-portfolio
 use_cases:
 - Creating comprehensive financial planning strategies, wealth management frameworks,
   investment portfolios, and retirement plans that optimize financial outcomes, minimize

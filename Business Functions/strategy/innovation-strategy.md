@@ -6,10 +6,10 @@ related_templates:
 - strategy/digital-transformation-roadmap.md
 - operations/lean-six-sigma-implementation.md
 tags:
-- framework
-- ai-ml
-- management
-- strategy
+- innovation-strategy
+- r-and-d-planning
+- emerging-technologies
+- innovation-management
 title: Innovation Strategy & R&D Planning Framework
 use_cases:
 - Creating comprehensive framework for developing innovation strategies, managing

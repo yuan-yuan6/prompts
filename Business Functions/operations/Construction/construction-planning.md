@@ -2,13 +2,10 @@
 title: Construction Project Management & Infrastructure Development Framework
 category: operations
 tags:
-- ai-ml
-- design
-- development
-- framework
-- management
-- research
-- strategy
+- construction-planning
+- project-scheduling
+- resource-allocation
+- site-management
 use_cases:
 - Creating comprehensive framework for construction project planning, execution, resource
   management, safety protocols, quality control, and infrastructure development from

@@ -6,7 +6,7 @@ tags:
 - product-management
 - user-research
 - personas
-- customer-insights
+- customer-discovery
 use_cases:
 - Conducting user research to inform product decisions
 - Creating data-driven user personas for product development

@@ -2,12 +2,10 @@
 title: 'Regulatory Compliance Framework - Part 3: Implementation & Reporting'
 category: legal-compliance
 tags:
-- design
-- framework
-- management
-- professional-services
-- security
-- template
+- compliance-audit
+- corrective-actions
+- regulatory-reporting
+- compliance-metrics
 use_cases:
 - Implementing audit and assurance programs, managing regulatory relationships, measuring
   compliance performance, executing corrective actions, and deploying comprehensive

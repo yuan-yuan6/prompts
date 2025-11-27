@@ -6,13 +6,10 @@ related_templates:
 - finance/digital-banking-strategy.md
 - finance/risk-management-framework.md
 tags:
-- ai-ml
-- design
-- finance
-- framework
-- management
-- optimization
-- research
+- portfolio-optimization
+- modern-portfolio-theory
+- risk-adjusted-returns
+- alternative-investments
 title: Investment Portfolio Optimization & Asset Management Framework
 use_cases:
 - Creating comprehensive framework for optimizing investment portfolios including

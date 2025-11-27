@@ -2,13 +2,10 @@
 title: 'Wealth Management Strategy - Part 3: Risk Management & Implementation'
 category: finance
 tags:
-- design
-- finance
-- management
-- optimization
-- security
-- strategy
-- template
+- insurance-planning
+- wealth-protection
+- implementation-roadmap
+- risk-mitigation
 related_templates:
 - finance/wealth-management-01-foundation-investment.md
 - finance/wealth-management-02-tax-retirement-estate.md

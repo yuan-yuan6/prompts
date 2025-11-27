@@ -6,9 +6,10 @@ related_templates:
 - data-analytics/Research-Analytics/text-analytics-advanced-methods.md
 - data-analytics/Research-Analytics/text-analytics-overview.md
 tags:
-- automation
-- data-analytics
-- ai-ml
+- research-analytics
+- text-analytics
+- ner
+- entity-extraction
 title: Text Analytics - Named Entity Recognition
 use_cases:
 - Extract and classify named entities (people, organizations, locations, dates) from

@@ -2,13 +2,10 @@
 title: CI/CD Pipeline & DevOps Automation Framework
 category: technology
 tags:
-- automation
-- design
-- development
-- framework
-- management
-- security
-- testing
+- devops
+- ci-cd
+- pipeline-automation
+- gitops
 use_cases:
 - Creating comprehensive framework for implementing continuous integration and continuous
   deployment pipelines including build automation, testing strategies, deployment

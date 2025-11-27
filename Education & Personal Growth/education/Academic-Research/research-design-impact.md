@@ -6,8 +6,10 @@ related_templates:
 - education/Academic-Research/research-design-ethics-implementation.md
 - education/Academic-Research/research-design-overview.md
 tags:
-- research
-- evaluation
+- research-impact
+- knowledge-translation
+- innovation-methods
+- continuous-improvement
 title: Research Design - Impact, Innovation & Continuous Improvement
 use_cases:
 - Developing comprehensive dissemination and knowledge translation strategies

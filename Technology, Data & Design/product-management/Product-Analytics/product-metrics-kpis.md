@@ -4,9 +4,9 @@ last_updated: 2025-11-12
 title: Product Metrics & KPIs Framework
 tags:
 - product-management
-- analytics
-- metrics
+- product-metrics
 - kpis
+- north-star-metrics
 use_cases:
 - Defining key product metrics and KPIs for measuring success
 - Building metric frameworks aligned with business objectives

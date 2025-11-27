@@ -6,11 +6,10 @@ related_templates:
 - personal/Personal-Development/skill-development.md
 - personal/Personal-Development/habit-formation.md
 tags:
-- automation
-- ai-ml
-- development
-- personal
-- research
+- habit-tracking
+- behavioral-analytics
+- streak-monitoring
+- progress-measurement
 title: Comprehensive Habit Tracking System Template
 use_cases:
 - General application

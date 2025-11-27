@@ -4,9 +4,9 @@ last_updated: 2025-11-12
 title: Product Requirements Document (PRD)
 tags:
 - product-management
+- prd
 - requirements
-- documentation
-- planning
+- specifications
 use_cases:
 - Writing comprehensive PRDs for new features and products
 - Documenting requirements for engineering and design teams

@@ -6,11 +6,10 @@ related_templates:
 - technology/site-reliability-engineering.md
 - technology/cloud-migration-strategy.md
 tags:
-- design
-- documentation
-- optimization
-- security
-- testing
+- code-generation
+- clean-code
+- best-practices
+- unit-testing
 title: Code Generation Template
 use_cases:
 - Creating generate high-quality code including functions, classes, algorithms, and

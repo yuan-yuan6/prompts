@@ -2,9 +2,10 @@
 title: Experimental Design Variables and Implementation Guide
 category: data-analytics
 tags:
-- data-analytics
+- research-analytics
+- experimental-design
 - implementation
-- research
+- variables
 use_cases:
 - Complete reference guide for experimental design implementation including 400+ variables,
   output requirements, usage examples, best practices, and customization options

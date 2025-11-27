@@ -2,14 +2,10 @@
 title: 'Contract Drafting Template - Part 1: Structure & Core Clauses'
 category: legal-compliance
 tags:
-- data-science
-- management
-- optimization
-- professional-services
-- research
-- security
-- strategy
-- template
+- contract-structure
+- core-clauses
+- definitions
+- recitals
 series: contract-drafting-template
 part: 1 of 3
 related_parts:

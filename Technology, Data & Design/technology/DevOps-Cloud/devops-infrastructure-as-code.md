@@ -6,12 +6,10 @@ related_templates:
 - technology/site-reliability-engineering.md
 - technology/cloud-migration-strategy.md
 tags:
-- design
-- development
-- ai-ml
-- management
-- security
-- strategy
+- devops
+- infrastructure-as-code
+- terraform
+- cloud-provisioning
 title: Infrastructure as Code (IaC) Development Template
 use_cases:
 - General application

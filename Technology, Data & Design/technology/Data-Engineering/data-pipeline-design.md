@@ -6,10 +6,10 @@ related_templates:
 - technology/site-reliability-engineering.md
 - technology/cloud-migration-strategy.md
 tags:
-- automation
-- design
-- optimization
-- testing
+- data-engineering
+- data-pipelines
+- etl
+- batch-streaming
 title: Data Pipeline Design Document Generator
 use_cases:
 - Creating comprehensive data pipeline design documents that define the architecture,

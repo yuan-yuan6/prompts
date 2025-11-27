@@ -6,11 +6,10 @@ related_templates:
 - strategy/digital-transformation-roadmap.md
 - operations/lean-six-sigma-implementation.md
 tags:
-- design
-- ai-ml
-- management
-- optimization
-- strategy
+- supply-chain-management
+- vendor-relations
+- logistics-coordination
+- inventory-control
 title: Supply Chain Management Template Generator
 use_cases:
 - Creating comprehensive supply chain management strategies covering logistics optimization,

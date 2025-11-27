@@ -5,11 +5,10 @@ related_templates:
 - operations/Energy-Utilities/plant-operations-management.md
 - operations/Energy-Utilities/smart-grid-implementation.md
 tags:
-- communication
-- design
-- management
-- optimization
-- security
+- grid-operations
+- load-balancing
+- power-distribution
+- grid-reliability
 title: Smart Grid Management & Optimization
 use_cases:
 - Creating advanced grid management framework for monitoring, control, and optimization

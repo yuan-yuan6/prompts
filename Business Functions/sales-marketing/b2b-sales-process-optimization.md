@@ -6,12 +6,10 @@ related_templates:
 - strategy/digital-transformation-roadmap.md
 - operations/lean-six-sigma-implementation.md
 tags:
-- ai-ml
-- design
-- framework
-- management
-- optimization
-- research
+- b2b-sales
+- revenue-operations
+- sales-pipeline
+- opportunity-management
 title: B2B Sales Process Optimization & Revenue Operations Framework
 use_cases:
 - Creating comprehensive b2b sales optimization framework covering sales process design,

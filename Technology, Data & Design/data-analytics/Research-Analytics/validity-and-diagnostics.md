@@ -6,9 +6,10 @@ related_templates:
 - data-analytics/Research-Analytics/randomization-and-power-analysis.md
 - data-analytics/Research-Analytics/treatment-effect-analysis.md
 tags:
-- data-analytics
-- quality-assurance
-- research
+- research-analytics
+- experimental-validity
+- diagnostics
+- bias-detection
 title: Experimental Validity and Diagnostics
 use_cases:
 - Assess experimental validity through randomization checks, covariate balance, attrition

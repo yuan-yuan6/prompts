@@ -5,9 +5,10 @@ related_templates:
 - content-creation/creative-writing-framework.md
 - content-creation/video-production-pipeline.md
 tags:
-- communication
-- design
-- testing
+- music-creation
+- songwriting
+- audio-content
+- genre-composition
 title: Music & Audio Template
 use_cases:
 - Creating comprehensive music and audio content including lyrics, compositions, and

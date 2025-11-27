@@ -6,7 +6,10 @@ related_templates:
 - data-analytics/Business-Intelligence/dashboard-technical-implementation.md
 - data-analytics/Business-Intelligence/dashboard-design-overview.md
 tags:
-- data-analytics
+- business-intelligence
+- dashboards
+- data-architecture
+- etl
 title: Dashboard Data Architecture & Integration
 use_cases:
 - Design data pipeline for dashboard with multiple source systems

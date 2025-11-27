@@ -2,11 +2,10 @@
 title: Literature Review Analysis & Implications
 category: education
 tags:
-- communication
-- education
-- research
-- strategy
-- analysis
+- critical-analysis
+- evidence-evaluation
+- research-implications
+- policy-recommendations
 use_cases:
 - Conducting critical analysis and evaluation of synthesized evidence
 - Developing theoretical and practical implications from literature reviews

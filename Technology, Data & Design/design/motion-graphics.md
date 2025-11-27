@@ -6,9 +6,9 @@ related_templates:
 - content-creation/video-production-pipeline.md
 tags:
 - design
-- development
-- documentation
-- marketing
+- motion-graphics
+- animation
+- after-effects
 title: Motion Graphics Template
 use_cases:
 - Creating comprehensive motion graphics projects including animations, effects, and

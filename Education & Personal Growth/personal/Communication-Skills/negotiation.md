@@ -2,12 +2,10 @@
 title: Negotiation Template
 category: personal
 tags:
-- communication
-- ai-ml
-- development
-- personal
-- research
-- strategy
+- negotiation-skills
+- deal-making
+- win-win-outcomes
+- persuasion-tactics
 use_cases:
 - Creating develop effective negotiation strategies, tactics, and communication approaches
   to achieve mutually beneficial outcomes in business deals, salary discussions, conflicts,

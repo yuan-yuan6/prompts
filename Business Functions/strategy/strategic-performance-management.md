@@ -6,12 +6,10 @@ related_templates:
 - strategy/digital-transformation-roadmap.md
 - operations/lean-six-sigma-implementation.md
 tags:
-- design
-- development
-- ai-ml
-- management
-- optimization
-- strategy
+- performance-management
+- kpi-tracking
+- strategic-execution
+- dashboard-analytics
 title: Performance Management Template Generator
 use_cases:
 - Creating comprehensive performance management systems including KPIs, OKRs, and

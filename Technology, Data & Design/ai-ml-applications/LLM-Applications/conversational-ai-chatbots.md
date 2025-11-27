@@ -3,11 +3,10 @@ category: ai-ml-applications
 last_updated: 2025-11-22
 title: Conversational AI & Chatbot Development
 tags:
-- ai-ml
-- llm
-- chatbot
+- chatbots
 - conversational-ai
-- customer-service
+- voice-assistants
+- dialog-systems
 use_cases:
 - Building customer service chatbots for websites and apps
 - Creating internal AI assistants for employee support

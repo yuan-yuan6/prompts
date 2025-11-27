@@ -2,14 +2,10 @@
 title: 'Contract Drafting Template - Part 3: Execution & Management'
 category: legal-compliance
 tags:
-- data-science
-- management
-- optimization
-- professional-services
-- research
-- security
-- strategy
-- template
+- contract-execution
+- amendments
+- schedules
+- lifecycle-management
 series: contract-drafting-template
 part: 3 of 3
 related_parts:

@@ -6,9 +6,10 @@ related_templates:
 - data-analytics/Research-Analytics/text-analytics-sentiment-analysis.md
 - data-analytics/Research-Analytics/text-analytics-overview.md
 tags:
-- automation
-- data-analytics
-- ai-ml
+- research-analytics
+- text-analytics
+- topic-modeling
+- lda
 title: Text Analytics - Topic Modeling
 use_cases:
 - Discover latent topics in large document collections using LDA, NMF, HDP, and BERTopic

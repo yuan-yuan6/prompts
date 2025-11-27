@@ -2,12 +2,10 @@
 title: Precision Agriculture & Smart Farming Framework
 category: operations
 tags:
-- ai-ml
-- design
-- framework
-- optimization
-- research
-- strategy
+- smart-farming
+- drone-monitoring
+- automated-irrigation
+- crop-analytics
 use_cases:
 - Creating comprehensive framework for implementing precision agriculture systems
   including iot sensor deployment, data analytics, crop monitoring, resource optimization,

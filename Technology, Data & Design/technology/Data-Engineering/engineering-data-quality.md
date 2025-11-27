@@ -6,12 +6,10 @@ related_templates:
 - technology/site-reliability-engineering.md
 - technology/cloud-migration-strategy.md
 tags:
-- ai-ml
-- design
-- research
-- security
-- strategy
-- testing
+- data-engineering
+- data-quality
+- data-validation
+- data-governance
 title: Data Quality Template
 use_cases:
 - Creating implement comprehensive data quality frameworks including validation, cleansing,

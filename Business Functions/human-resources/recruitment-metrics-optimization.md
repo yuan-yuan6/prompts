@@ -6,7 +6,10 @@ related_templates:
 - human-resources/screening-interview-process.md
 - human-resources/candidate-assessment-selection.md
 tags:
-- human-resources
+- recruitment-metrics
+- time-to-fill
+- cost-per-hire
+- hiring-analytics
 title: Recruitment Metrics & Optimization
 use_cases:
 - Tracking and analyzing recruitment KPIs

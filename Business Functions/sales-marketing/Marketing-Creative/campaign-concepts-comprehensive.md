@@ -5,11 +5,10 @@ related_templates:
 - content-creation/creative-writing-framework.md
 - content-creation/video-production-pipeline.md
 tags:
-- communication
-- design
-- development
-- marketing
-- strategy
+- campaign-concepts
+- creative-briefs
+- integrated-marketing
+- activation-strategies
 title: Campaign Concepts Comprehensive Template Generator
 use_cases:
 - Creating comprehensive campaign concepts covering themes, messaging, creative briefs,

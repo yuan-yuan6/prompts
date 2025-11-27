@@ -2,8 +2,10 @@
 title: Network Analysis - Paths and Temporal Dynamics
 category: data-analytics
 tags:
-- data-analytics
-- ai-ml
+- research-analytics
+- network-analysis
+- path-analysis
+- temporal-networks
 use_cases:
 - Analyzing network connectivity and shortest paths
 - Measuring network diameter, radius, and efficiency

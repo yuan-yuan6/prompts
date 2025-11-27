@@ -2,14 +2,10 @@
 title: 'Predictive Modeling Framework - Part 1: Data Preparation & Feature Engineering'
 category: data-analytics
 tags:
-- automation
-- data-analytics
 - data-science
-- design
-- framework
+- data-preparation
+- feature-engineering
 - machine-learning
-- optimization
-- research
 series: predictive-modeling-framework
 part: 1 of 3
 related_parts:

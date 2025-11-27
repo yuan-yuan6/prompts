@@ -9,7 +9,9 @@ related_templates:
 - data-analytics/Business-Intelligence/dashboard-security-compliance.md
 - data-analytics/Business-Intelligence/dashboard-testing-deployment.md
 tags:
-- data-analytics
+- business-intelligence
+- dashboards
+- project-planning
 title: Dashboard Design Overview & Navigation Guide
 use_cases:
 - Dashboard project planning

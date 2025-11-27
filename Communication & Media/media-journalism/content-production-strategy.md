@@ -4,13 +4,10 @@ last_updated: 2025-11-09
 related_templates:
 - media-journalism/content-strategy.md
 tags:
-- ai-ml
-- design
-- framework
-- management
-- optimization
-- research
-- strategy
+- editorial-planning
+- content-workflows
+- multi-channel-publishing
+- content-calendar
 title: Content Strategy & Editorial Planning Framework
 use_cases:
 - Creating comprehensive system for developing, executing, and managing content strategies

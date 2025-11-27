@@ -8,6 +8,8 @@ related_templates:
 - design/usability-testing-plan.md
 tags:
 - design
+- ux-design
+- ui-design
 title: UX/UI Design - Overview & Navigation
 use_cases:
 - Understanding the UX/UI design prompt collection

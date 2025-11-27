@@ -2,13 +2,10 @@
 title: Product Sourcing & Supplier Management Framework
 category: sales-marketing
 tags:
-- ai-ml
-- design
-- development
-- framework
-- management
-- research
-- strategy
+- product-sourcing
+- supplier-management
+- vendor-evaluation
+- quality-control
 use_cases:
 - Creating comprehensive framework for developing product sourcing strategies including
   supplier identification, evaluation, negotiation, quality control, and relationship

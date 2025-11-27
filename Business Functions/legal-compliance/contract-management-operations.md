@@ -6,13 +6,10 @@ related_templates:
 - legal-compliance/contract-drafting-template.md
 - legal-compliance/intellectual-property-management.md
 tags:
-- design
-- documentation
-- ai-ml
-- management
-- optimization
-- security
-- strategy
+- contract-lifecycle
+- clm
+- vendor-contracts
+- obligation-tracking
 title: Contract Management Template Generator
 use_cases:
 - Creating comprehensive contract management strategies covering contract lifecycle

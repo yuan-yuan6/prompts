@@ -2,13 +2,10 @@
 title: Predictive Modeling Framework Template Generator
 category: data-analytics
 tags:
-- automation
-- data-analytics
-- ai-ml
-- design
-- framework
-- optimization
-- research
+- data-science
+- predictive-modeling
+- machine-learning
+- automl
 use_cases:
 - Creating comprehensive predictive modeling strategies covering regression analysis,
   classification algorithms, time series forecasting, ensemble methods, and AutoML

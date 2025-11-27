@@ -5,12 +5,10 @@ related_templates:
 - education/curriculum-development.md
 - education/curriculum-development-framework.md
 tags:
-- communication
-- ai-ml
-- education
-- research
-- strategy
-- testing
+- literature-reviews
+- meta-analysis
+- scoping-reviews
+- research-synthesis
 title: Literature Reviews Template Generator
 use_cases:
 - Creating comprehensive literature reviews covering systematic reviews, narrative

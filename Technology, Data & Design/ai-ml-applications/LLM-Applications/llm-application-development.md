@@ -3,11 +3,10 @@ category: ai-ml-applications
 last_updated: 2025-11-22
 title: LLM Application Development
 tags:
-- ai-ml
-- llm
-- application-development
-- generative-ai
-- api-integration
+- llm-development
+- llm-integration
+- production-llm
+- llm-api
 use_cases:
 - Building production LLM-powered applications and products
 - Integrating LLM capabilities into existing software systems

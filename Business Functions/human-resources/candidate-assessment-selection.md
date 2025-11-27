@@ -2,7 +2,10 @@
 title: Candidate Assessment & Selection
 category: human-resources
 tags:
-- hr
+- candidate-assessment
+- skills-testing
+- hiring-decisions
+- reference-checks
 use_cases:
 - Implementing comprehensive candidate assessment methods
 - Conducting reference checks and background verification

@@ -6,11 +6,10 @@ related_templates:
 - education/Academic-Research/literature-review-analysis-implications.md
 - education/Academic-Research/literature-reviews-overview.md
 tags:
-- communication
-- ai-ml
-- education
-- research
-- analysis
+- data-extraction
+- meta-analysis
+- thematic-synthesis
+- evidence-integration
 title: Literature Review Data Extraction & Synthesis
 use_cases:
 - Extracting comprehensive data systematically from included studies

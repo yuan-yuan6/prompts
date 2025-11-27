@@ -2,12 +2,10 @@
 title: Exploratory Data Analysis Framework Template
 category: data-analytics
 tags:
-- automation
-- data-analytics
-- ai-ml
-- design
-- framework
-- research
+- data-science
+- eda
+- data-profiling
+- visualization
 use_cases:
 - Creating conduct comprehensive exploratory data analysis to understand data characteristics,
   identify patterns, detect anomalies, and prepare insights for advanced analytics

@@ -5,13 +5,10 @@ related_templates:
 - education/curriculum-development.md
 - education/curriculum-development-framework.md
 tags:
-- design
-- development
-- documentation
-- education
-- framework
-- ai-ml
-- management
+- best-practices
+- standards-documentation
+- operational-guidelines
+- process-excellence
 title: Best Practices & Standards Documentation Framework Generator
 use_cases:
 - Creating comprehensive frameworks for documenting organizational standards, guidelines,

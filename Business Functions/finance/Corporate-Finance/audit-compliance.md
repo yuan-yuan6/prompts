@@ -6,11 +6,10 @@ related_templates:
 - strategy/digital-transformation-roadmap.md
 - operations/lean-six-sigma-implementation.md
 tags:
-- communication
-- design
-- ai-ml
-- management
-- security
+- internal-audit
+- regulatory-compliance
+- internal-controls
+- sox-compliance
 title: Audit & Compliance Template Generator
 use_cases:
 - Creating comprehensive audit and compliance strategies covering internal controls,

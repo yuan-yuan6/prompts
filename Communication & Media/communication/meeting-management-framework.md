@@ -2,13 +2,10 @@
 title: Meeting Management Framework Template Generator
 category: communication
 tags:
-- communication
-- design
-- framework
-- ai-ml
-- management
-- optimization
-- strategy
+- meeting-strategies
+- agenda-planning
+- note-taking-systems
+- asynchronous-collaboration
 use_cases:
 - Creating comprehensive meeting management strategies covering agenda planning, facilitation
   techniques, note-taking systems, action item tracking, follow-up processes, and

@@ -6,12 +6,10 @@ related_templates:
 - operations/Transportation-Logistics/warehouse-management-system.md
 - operations/Transportation-Logistics/fleet-management-system.md
 tags:
-- ai-ml
-- design
-- management
-- optimization
-- research
-- strategy
+- network-design
+- inventory-optimization
+- demand-forecasting
+- logistics-coordination
 title: Supply Chain Optimization & Network Design
 use_cases:
 - Creating advanced framework for end-to-end supply chain optimization, network design,

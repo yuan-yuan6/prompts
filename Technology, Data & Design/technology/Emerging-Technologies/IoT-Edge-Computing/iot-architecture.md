@@ -4,12 +4,10 @@ last_updated: 2025-11-09
 related_templates:
 - technology/Emerging-Technologies/generative-ai-implementation.md
 tags:
-- ai-ml
-- design
-- development
-- framework
-- management
-- security
+- iot
+- edge-computing
+- device-management
+- mqtt
 title: IoT Architecture & Edge Computing Framework
 use_cases:
 - Creating comprehensive framework for designing, implementing, and managing iot systems

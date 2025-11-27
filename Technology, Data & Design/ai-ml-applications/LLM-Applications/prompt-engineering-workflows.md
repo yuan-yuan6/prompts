@@ -3,11 +3,10 @@ category: ai-ml-applications
 last_updated: 2025-11-22
 title: Prompt Engineering & Optimization Workflows
 tags:
-- ai-ml
-- llm
 - prompt-engineering
-- optimization
-- testing
+- prompt-optimization
+- prompt-testing
+- llm-prompts
 use_cases:
 - Systematically developing and optimizing prompts for LLM applications
 - Testing and evaluating prompt variations for quality improvements

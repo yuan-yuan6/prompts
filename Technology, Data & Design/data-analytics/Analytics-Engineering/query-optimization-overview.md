@@ -9,6 +9,8 @@ related_templates:
 - data-analytics/Analytics-Engineering/query-optimization-resource-concurrency.md
 tags:
 - data-analytics
+- query-optimization
+- performance-tuning
 title: Query Optimization - Overview & Navigation
 use_cases:
 - Navigating comprehensive query optimization strategies

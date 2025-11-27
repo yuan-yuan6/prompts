@@ -2,12 +2,10 @@
 title: Trend Analysis Forecasting Template
 category: data-analytics
 tags:
-- data-analytics
-- ai-ml
-- optimization
-- research
-- strategy
-- testing
+- business-intelligence
+- trend-analysis
+- forecasting
+- anomaly-detection
 use_cases:
 - Creating develop comprehensive frameworks for pattern identification, forecasting
   methodologies, and anomaly detection that enable accurate trend analysis, predictive

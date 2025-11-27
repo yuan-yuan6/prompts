@@ -6,11 +6,10 @@ related_templates:
 - technology/site-reliability-engineering.md
 - technology/cloud-migration-strategy.md
 tags:
-- ai-ml
-- design
-- marketing
-- research
-- strategy
+- security
+- threat-intelligence
+- mitre-attack
+- ioc
 title: Threat Intelligence Template
 use_cases:
 - Creating comprehensive threat intelligence program including collection, analysis,

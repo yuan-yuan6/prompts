@@ -4,9 +4,9 @@ last_updated: 2025-11-22
 title: API Security Framework & Testing
 tags:
 - security
-- development
-- testing
-- api
+- api-security
+- oauth
+- owasp-api
 use_cases:
 - Securing REST, GraphQL, and SOAP APIs
 - Implementing API authentication and authorization

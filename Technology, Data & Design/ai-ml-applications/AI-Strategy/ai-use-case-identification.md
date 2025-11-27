@@ -3,11 +3,10 @@ category: ai-ml-applications
 last_updated: 2025-11-22
 title: AI Use Case Identification and Prioritization
 tags:
-- ai-ml
-- strategy
-- use-cases
-- prioritization
-- business-value
+- ai-use-cases
+- ai-prioritization
+- ai-roi
+- ai-opportunity
 use_cases:
 - Identifying high-value AI opportunities across the organization
 - Prioritizing AI initiatives based on feasibility and impact

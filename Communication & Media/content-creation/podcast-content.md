@@ -5,12 +5,10 @@ related_templates:
 - content-creation/creative-writing-framework.md
 - content-creation/video-production-pipeline.md
 tags:
-- automation
-- design
-- development
-- marketing
-- strategy
-- testing
+- podcast-production
+- episode-scripting
+- show-notes
+- audio-content
 title: Podcast Content Template Generator
 use_cases:
 - Creating comprehensive podcast content strategies for episodes, interviews, shows,

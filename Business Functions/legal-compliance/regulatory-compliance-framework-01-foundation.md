@@ -2,12 +2,10 @@
 title: 'Regulatory Compliance Framework - Part 1: Foundation & Governance'
 category: legal-compliance
 tags:
-- design
-- framework
-- management
-- professional-services
-- security
-- template
+- compliance-governance
+- policy-framework
+- three-lines-defense
+- compliance-culture
 use_cases:
 - Establishing compliance governance structures, developing policies and procedures,
   building compliance culture, and defining foundational risk assessment frameworks

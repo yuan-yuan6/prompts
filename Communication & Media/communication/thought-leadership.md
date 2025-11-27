@@ -5,11 +5,10 @@ related_templates:
 - communication/meeting-management-framework.md
 - communication/crisis-communication-plan.md
 tags:
-- development
-- ai-ml
-- marketing
-- management
-- strategy
+- thought-leadership
+- expert-positioning
+- industry-authority
+- speaking-opportunities
 title: Thought Leadership Content Creation Prompt Template
 use_cases:
 - Creating comprehensive framework for developing thought leadership content, establishing

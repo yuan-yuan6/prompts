@@ -6,11 +6,10 @@ related_templates:
 - technology/site-reliability-engineering.md
 - technology/cloud-migration-strategy.md
 tags:
-- design
-- documentation
-- framework
 - security
-- strategy
+- security-audit
+- controls-assessment
+- compliance-testing
 title: Comprehensive Security Audit Framework Template
 use_cases:
 - General application

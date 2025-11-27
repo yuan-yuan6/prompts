@@ -6,12 +6,10 @@ related_templates:
 - data-analytics/data-governance-framework.md
 - data-analytics/predictive-modeling-framework.md
 tags:
-- automation
-- data-analytics
-- ai-ml
-- design
-- research
-- security
+- research-analytics
+- experimental-design
+- ab-testing
+- causal-inference
 title: Experimental Design and Testing Template
 use_cases:
 - Creating design, implement, and analyze controlled experiments including a/b testing,

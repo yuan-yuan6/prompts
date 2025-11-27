@@ -5,11 +5,10 @@ related_templates:
 - education/curriculum-development.md
 - education/curriculum-development-framework.md
 tags:
-- ai-ml
-- design
-- education
-- research
-- strategy
+- research-methodology
+- quantitative-qualitative
+- study-design
+- data-protocols
 title: Research Design Template Generator
 use_cases:
 - Creating comprehensive research design strategies covering quantitative, qualitative,

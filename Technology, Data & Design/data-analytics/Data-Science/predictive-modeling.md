@@ -6,7 +6,10 @@ related_templates:
 - data-analytics/Data-Science/model-evaluation.md
 - data-analytics/Data-Science/exploratory-analysis.md
 tags:
-- ai-ml
+- data-science
+- machine-learning
+- predictive-modeling
+- classification
 title: Predictive Modeling & Machine Learning
 use_cases:
 - Customer churn prediction

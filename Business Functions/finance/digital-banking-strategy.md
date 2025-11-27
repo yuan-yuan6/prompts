@@ -2,13 +2,10 @@
 title: Digital Banking Strategy Template
 category: finance
 tags:
-- ai-ml
-- design
-- finance
-- optimization
-- research
-- security
-- strategy
+- digital-banking
+- mobile-banking
+- banking-transformation
+- customer-experience
 use_cases:
 - Creating comprehensive digital banking transformation strategies, technology roadmaps,
   customer experience optimization plans, and financial innovation frameworks that

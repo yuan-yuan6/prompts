@@ -2,12 +2,10 @@
 title: Smart Hotel Operations & Guest Experience Framework
 category: operations
 tags:
-- automation
-- framework
-- management
-- optimization
-- security
-- strategy
+- smart-hotel
+- iot-hospitality
+- guest-experience-tech
+- automated-services
 use_cases:
 - Creating comprehensive framework for implementing smart hotel technologies and operations
   including iot integration, personalized guest experiences, revenue optimization,

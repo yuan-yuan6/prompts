@@ -6,12 +6,10 @@ related_templates:
 - sales-marketing/Retail-Ecommerce/dynamic-pricing-strategy.md
 - sales-marketing/Retail-Ecommerce/product-sourcing-strategy.md
 tags:
-- design
-- development
-- framework
-- marketing
-- optimization
-- strategy
+- ecommerce-personalization
+- customer-journey
+- conversion-rate
+- data-driven-customization
 title: E-commerce Personalization & Customer Experience Framework
 use_cases:
 - Creating strategic framework for implementing personalization across the customer

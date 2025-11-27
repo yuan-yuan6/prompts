@@ -7,6 +7,9 @@ related_templates:
 - data-analytics/Analytics-Engineering/query-optimization-overview.md
 tags:
 - data-analytics
+- concurrency
+- resource-management
+- locking
 title: Query Optimization - Resource & Concurrency Management
 use_cases:
 - Optimizing memory allocation and buffer pool management

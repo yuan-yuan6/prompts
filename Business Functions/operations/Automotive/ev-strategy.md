@@ -4,13 +4,10 @@ last_updated: 2025-11-11
 related_templates:
 - operations/Automotive/autonomous-vehicle-systems.md
 tags:
-- automotive
-- operations
-- design
-- development
-- framework
-- strategy
-- transportation
+- electric-vehicles
+- fleet-electrification
+- charging-infrastructure
+- ev-transition
 title: Electric Vehicle Strategy & Mobility Transformation Framework
 use_cases:
 - Creating comprehensive framework for electric vehicle adoption, charging infrastructure

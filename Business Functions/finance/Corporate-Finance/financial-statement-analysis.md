@@ -2,8 +2,10 @@
 title: Financial Statement Analysis
 category: finance
 tags:
-- finance
-- analysis
+- financial-statements
+- income-statement
+- balance-sheet
+- cash-flow-analysis
 use_cases:
 - Analyzing income statements, balance sheets, and cash flow statements
 - Evaluating financial performance and trends

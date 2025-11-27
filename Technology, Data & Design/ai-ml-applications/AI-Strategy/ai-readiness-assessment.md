@@ -4,11 +4,10 @@ category: ai-ml-applications
 last_updated: 2025-11-25
 title: AI Readiness Assessment
 tags:
-- ai-ml
-- strategy
-- assessment
-- maturity
-- organizational-readiness
+- ai-readiness
+- ai-maturity
+- capability-assessment
+- ai-adoption
 use_cases:
 - Evaluating organizational readiness for AI adoption
 - Identifying gaps and investment priorities for AI capability building

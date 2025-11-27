@@ -6,13 +6,10 @@ related_templates:
 - data-analytics/data-governance-framework.md
 - data-analytics/predictive-modeling-framework.md
 tags:
-- automation
 - data-analytics
-- design
-- documentation
-- ai-ml
-- management
-- security
+- data-governance
+- data-lineage
+- metadata-management
 title: Documentation, Lineage & Governance Template
 use_cases:
 - Creating design comprehensive data governance frameworks including data lineage

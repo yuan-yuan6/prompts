@@ -6,9 +6,9 @@ related_templates:
 - content-creation/video-production-pipeline.md
 tags:
 - design
-- documentation
-- marketing
-- strategy
+- graphic-design
+- branding
+- print-design
 title: Graphic Design Template
 use_cases:
 - Creating comprehensive graphic design solutions including layouts, branding, and

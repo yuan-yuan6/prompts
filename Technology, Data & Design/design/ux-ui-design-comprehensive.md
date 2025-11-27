@@ -5,12 +5,10 @@ related_templates:
 - content-creation/creative-writing-framework.md
 - content-creation/video-production-pipeline.md
 tags:
-- ai-ml
 - design
-- documentation
-- marketing
-- optimization
-- research
+- ux-design
+- ui-design
+- user-experience
 title: UX/UI Design Template Generator
 use_cases:
 - Creating comprehensive UX/UI design strategies for wireframes, prototypes, design

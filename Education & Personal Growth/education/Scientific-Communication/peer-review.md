@@ -5,13 +5,10 @@ related_templates:
 - education/curriculum-development.md
 - education/curriculum-development-framework.md
 tags:
-- automation
-- communication
-- ai-ml
-- education
-- marketing
-- research
-- security
+- peer-review
+- manuscript-critique
+- scientific-rigor
+- reviewer-feedback
 title: Peer Review & Critiques Template
 use_cases:
 - Creating conduct comprehensive, constructive peer reviews that maintain scientific

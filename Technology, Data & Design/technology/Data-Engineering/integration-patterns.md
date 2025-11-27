@@ -6,12 +6,10 @@ related_templates:
 - technology/site-reliability-engineering.md
 - technology/cloud-migration-strategy.md
 tags:
-- communication
-- design
-- documentation
-- ai-ml
-- optimization
-- security
+- integration-patterns
+- api-integration
+- event-driven
+- messaging
 title: Integration Patterns Template
 use_cases:
 - Creating design comprehensive integration patterns for apis, messaging systems,

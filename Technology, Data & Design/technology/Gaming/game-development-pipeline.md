@@ -2,13 +2,10 @@
 title: Game Development Pipeline & Production Framework
 category: technology
 tags:
-- automation
-- design
-- development
-- framework
-- management
-- optimization
-- strategy
+- game-development
+- asset-pipeline
+- game-production
+- qa-testing
 use_cases:
 - Creating comprehensive framework for managing game development projects including
   pre-production planning, asset creation, programming systems, level design, testing

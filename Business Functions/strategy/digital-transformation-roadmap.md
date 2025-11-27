@@ -6,7 +6,10 @@ related_templates:
 - strategy/innovation-strategy.md
 - strategy/growth-strategy.md
 tags:
-- strategy
+- digital-transformation
+- cloud-migration
+- legacy-modernization
+- technology-roadmap
 title: Digital Transformation Roadmap & Strategy Framework
 use_cases:
 - Enterprise digital transformation

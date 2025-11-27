@@ -6,10 +6,10 @@ related_templates:
 - technology/site-reliability-engineering.md
 - technology/cloud-migration-strategy.md
 tags:
-- ai-ml
-- design
-- optimization
-- research
+- machine-learning
+- algorithm-selection
+- model-evaluation
+- hyperparameter-tuning
 title: Algorithm Selection Template
 use_cases:
 - Creating systematic approach to selecting optimal machine learning algorithms for

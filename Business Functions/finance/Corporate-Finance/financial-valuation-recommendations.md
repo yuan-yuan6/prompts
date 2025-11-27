@@ -6,7 +6,10 @@ related_templates:
 - finance/Corporate-Finance/financial-forecasting.md
 - finance/Corporate-Finance/financial-risk-assessment.md
 tags:
-- finance
+- dcf-valuation
+- comparable-analysis
+- m-and-a
+- investment-thesis
 title: Financial Valuation & Investment Recommendations
 use_cases:
 - Conducting business and equity valuations

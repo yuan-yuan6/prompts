@@ -2,12 +2,10 @@
 title: Wealth Management Strategy Template Generator
 category: finance
 tags:
-- design
-- finance
-- management
-- optimization
-- security
-- strategy
+- wealth-management
+- legacy-planning
+- wealth-transfer
+- client-advisory
 use_cases:
 - Creating comprehensive wealth management and financial planning strategies covering
   goal setting, cash flow optimization, retirement planning, tax strategies, estate

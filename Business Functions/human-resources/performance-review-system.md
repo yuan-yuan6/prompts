@@ -2,13 +2,10 @@
 title: Performance Review & Evaluation System Framework
 category: human-resources
 tags:
-- design
-- development
-- framework
-- ai-ml
-- management
-- optimization
-- strategy
+- performance-reviews
+- goal-setting
+- continuous-feedback
+- competency-assessment
 use_cases:
 - Creating comprehensive framework for designing and implementing performance review
   systems including goal setting, continuous feedback, competency assessment, career
