@@ -1,261 +1,126 @@
 ---
 category: security
-last_updated: 2025-11-23
-title: Network Security Architecture Framework
+title: Network Security Architecture
 tags:
 - security
 - network-security
 - firewall
 - segmentation
 use_cases:
-- Designing secure network architectures
-- Implementing defense-in-depth network security
-- Network segmentation and zero trust
-- Firewall and IDS/IPS configuration
+- Designing secure network architectures with defense-in-depth implementing micro-segmentation, NGFW, and IDS/IPS achieving PCI-DSS/HIPAA compliance
+- Modernizing legacy flat networks to zero trust with software-defined perimeter, SASE, and identity-based access replacing VPN-centric security
+- Implementing network security for hybrid multi-cloud environments with consistent policy enforcement across on-premises, AWS, Azure, and GCP
 related_templates:
 - security/Cloud-Security/cloud-security-architecture.md
 - security/Identity-Access-Management/zero-trust-architecture.md
+- security/Identity-Access-Management/privileged-access-management.md
 industries:
-- government
 - technology
-type: template
+- financial-services
+- healthcare
+- government
+- retail
+type: framework
 difficulty: intermediate
 slug: network-security-architecture
 ---
 
-# Network Security Architecture Framework
+# Network Security Architecture
 
 ## Purpose
-Comprehensive framework for designing secure network architectures including segmentation, defense-in-depth, firewall policies, IDS/IPS, VPNs, and zero trust networking.
+Design and implement secure network architectures with defense-in-depth, micro-segmentation, firewall policies, IDS/IPS, secure remote access, and zero trust networking achieving regulatory compliance and protection against lateral movement.
 
-## Quick Network Security Prompt
-Design network security for [enterprise] with [X locations], [Y users], [on-prem/cloud/hybrid]. Implement: network segmentation (zones, VLANs), firewall policies (deny-by-default), IDS/IPS deployment, secure remote access (ZTNA/VPN), DNS security, and DDoS protection. Compliance: [PCI-DSS/HIPAA]. Deliver: network architecture diagram, security zone definitions, firewall rule templates, and monitoring strategy.
+## 🚀 Quick Network Security Prompt
 
-## Quick Start
-
-**Need to design network security?** Use this minimal example:
-
-```
-Design secure network architecture for enterprise with 50 locations, 5000 users, hybrid cloud (AWS + on-prem). Implement network segmentation, firewalls, IDS/IPS, VPN, and zero trust network access replacing traditional perimeter security.
-```
-
-### When to Use This
-- Designing network security for new data centers or cloud deployments
-- Implementing network segmentation for compliance (PCI-DSS, HIPAA)
-- Migrating from flat networks to zero trust architecture
-- Responding to security incidents requiring network hardening
-- Modernizing legacy perimeter-based security
-
-### Basic 3-Step Workflow
-1. **Segment Network** - Define zones, VLANs, subnets
-2. **Implement Controls** - Firewalls, IDS/IPS, monitoring
-3. **Test & Monitor** - Penetration testing, continuous monitoring
+> Design network security for **[ORGANIZATION]** with **[LOCATIONS]** sites, **[USERS]** users, **[INFRASTRUCTURE]** (on-prem/cloud/hybrid). Segmentation: **[ZONES]** (DMZ, internal, PCI, IoT). Controls: NGFW (**[VENDOR]**), IDS/IPS (**[PLATFORM]**), NAC (**[802.1X/PROFILING]**). Remote access: **[VPN/ZTNA/SASE]**. Monitoring: flow analysis, **[NDR]**, SIEM integration. Compliance: **[PCI-DSS/HIPAA/SOC2]**. Target: zero implicit trust, encrypted everywhere, <1 min detection.
 
 ---
 
 ## Template
 
-```markdown
-I need to design a secure network architecture. Please provide comprehensive network security design guidance.
+Design network security architecture for {ORGANIZATION} with {NETWORK_SIZE} users across {LOCATIONS} achieving {COMPLIANCE_REQUIREMENTS} compliance with {ARCHITECTURE_MODEL} security model.
 
-## NETWORK CONTEXT
+**NETWORK SEGMENTATION**
 
-### Environment
-- Network size: [USERS_DEVICES_SITES]
-- Architecture: [ON_PREM_CLOUD_HYBRID]
-- Connectivity: [MPLS_SD_WAN_INTERNET_VPN]
-- Critical systems: [DATA_CENTERS_CLOUD_REGIONS]
-- Compliance: [PCI_DSS_HIPAA_ISO27001]
+Design zones based on data sensitivity and compliance requirements. Zone architecture: internet-facing DMZ (web servers, reverse proxies, API gateways), internal zones by function (corporate, development, production), high-security zones (PCI cardholder data environment, PHI systems, privileged access), specialized zones (IoT/OT isolated, guest wireless, partner extranet). Micro-segmentation: move beyond VLAN-based to workload-level using software-defined (VMware NSX, Cisco ACI, Illumio), cloud-native (AWS Security Groups, Azure NSGs, GCP Firewall Rules), or host-based firewalls. Segmentation enforcement: default deny between all segments, explicit allow for required flows only, application-aware policies (not just port-based), east-west traffic inspection for lateral movement detection.
 
-## SECURITY ARCHITECTURE
+**FIREWALL ARCHITECTURE**
 
-### 1. Network Segmentation
-- DMZ / perimeter network
-- Internal network zones
-- Management network
-- Guest network
-- PCI/HIPAA compliance zones
-- Development/Test/Production separation
+Deploy defense-in-depth firewall strategy. Perimeter: next-generation firewalls (Palo Alto, Fortinet, Cisco Firepower, Check Point) with application identification, threat prevention, URL filtering, and SSL/TLS inspection. Internal: micro-segmentation firewalls for east-west traffic, software-defined firewalls for cloud workloads, host-based firewalls on endpoints. Web application: WAF for internet-facing applications (F5, Cloudflare, AWS WAF), API gateway protection, bot mitigation, OWASP Top 10 coverage. Rule management: infrastructure-as-code for firewall policies (Terraform, Ansible), change control with approval workflow, quarterly rule audits removing stale entries, automatic rule expiration for temporary access.
 
-### 2. Firewall Architecture
-- Next-generation firewalls (NGFW)
-- Web application firewalls (WAF)
-- Firewall rule management
-- High availability and redundancy
-- Logging and monitoring
+**INTRUSION DETECTION AND PREVENTION**
 
-### 3. Intrusion Detection/Prevention
-- Network-based IDS/IPS
-- Host-based IDS/IPS
-- Signature-based detection
-- Anomaly-based detection
-- Threat intelligence integration
+Implement layered detection capabilities. Network-based IDS/IPS: inline prevention at network chokepoints, signature-based for known threats (Snort, Suricata, commercial solutions), behavioral detection for anomalies, threat intelligence integration for IOC matching. Placement strategy: north-south at perimeter, east-west between security zones, cloud-native (AWS Network Firewall, Azure Firewall Premium) for cloud segments. Tuning: baseline normal traffic patterns during deployment, reduce false positives through exclusions and threshold adjustment, custom signatures for application-specific threats, continuous tuning based on analyst feedback.
 
-### 4. VPN & Remote Access
-- Site-to-site VPN
-- Remote access VPN
-- Zero Trust Network Access (ZTNA)
-- Multi-factor authentication
-- Split tunneling vs full tunneling
+**SECURE REMOTE ACCESS**
 
-### 5. Network Access Control
-- 802.1X authentication
-- NAC policy enforcement
-- Guest network isolation
-- BYOD security
-- IoT device segmentation
+Choose remote access model matching security requirements. Traditional VPN: site-to-site IPsec for branch connectivity, remote access VPN (Cisco AnyConnect, GlobalProtect, Pulse) for legacy applications, always-on VPN for full-tunnel corporate traffic. Zero Trust Network Access: replace VPN with per-application access (Zscaler Private Access, Cloudflare Access, Palo Alto Prisma), verify identity and device posture before every connection, no network-level access—only application-level, continuous verification throughout session. SASE: converged security (SWG, CASB, FWaaS, ZTNA) for distributed workforce, single policy engine across all users and locations, replace MPLS with internet-first connectivity.
 
-### 6. DDoS Protection
-- Volumetric attack mitigation
-- Application layer protection
-- Rate limiting
-- Traffic scrubbing
-- CDN integration
+**NETWORK ACCESS CONTROL**
 
-### 7. DNS Security
-- DNSSEC implementation
-- DNS filtering
-- DNS firewall
-- DGA detection
-- DNS tunneling prevention
+Enforce device authentication and posture. 802.1X: wired and wireless authentication with RADIUS (Cisco ISE, Aruba ClearPass, ForeScout), certificate-based for corporate devices, MAB (MAC Authentication Bypass) for devices without 802.1X capability. Posture assessment: verify device compliance (OS patched, AV running, encryption enabled) before network access, quarantine non-compliant devices with remediation portal. Guest and BYOD: separate network segments for untrusted devices, application-level access only (web portal, limited services), no access to internal resources from guest networks. IoT/OT: device profiling and automatic segmentation, dedicated IoT VLANs with restricted communication paths, east-west isolation between IoT devices.
 
-### 8. Monitoring & Visibility
-- Network traffic analysis
-- Flow monitoring (NetFlow, sFlow)
-- Packet capture and analysis
-- Security event correlation
-- Behavioral analytics
+**DDoS PROTECTION**
 
-## OUTPUT REQUIREMENTS
+Layer DDoS defenses by attack type. Volumetric: upstream scrubbing services (Cloudflare, Akamai, AWS Shield), CDN absorption of traffic spikes, ISP-level blackholing for extreme attacks. Protocol: rate limiting at network edge, SYN flood protection, connection timeouts and limits. Application layer: WAF with rate limiting, bot detection and CAPTCHA challenges, behavioral analysis for low-and-slow attacks. Hybrid: on-premises appliances for instant response, cloud scrubbing for large-scale attacks, automatic failover between on-prem and cloud.
 
-Provide:
-1. Network architecture diagram
-2. Segmentation strategy
-3. Firewall rule sets
-4. IDS/IPS policy
-5. VPN configuration
-6. Monitoring architecture
-7. Incident response procedures
-```
+**DNS SECURITY**
 
-## Variables
+Secure DNS infrastructure against threats. DNSSEC: sign zones to prevent spoofing, validate responses from upstream resolvers. DNS filtering: block known malicious domains (Cisco Umbrella, Zscaler, Infoblox), category-based filtering for policy enforcement, block newly registered domains (high-risk). Threat detection: detect DNS tunneling (exfiltration via DNS queries), identify DGA (domain generation algorithm) patterns, monitor for DNS rebinding attacks. Internal DNS: private DNS zones for internal resources, split-horizon DNS for hybrid environments, DNS firewall for internal resolution security.
 
-### NETWORK_SIZE
-Scale of the network environment.
-- Examples: "5,000 users across 50 sites", "500 employees single campus", "100,000 devices globally", "Hybrid cloud with 3 data centers"
+**MONITORING AND VISIBILITY**
 
-### ARCHITECTURE_TYPE
-Network architecture model.
-- Examples: "On-premises data center", "Hybrid cloud (AWS + on-prem)", "Multi-cloud (AWS, Azure, GCP)", "Full cloud-native", "Edge computing with centralized core"
+Build comprehensive network visibility. Traffic analysis: NetFlow/sFlow/IPFIX collection from all network devices, full packet capture at critical points (SPAN, TAP), encrypted traffic analysis (JA3 fingerprinting, metadata analysis). Network Detection and Response: behavioral analytics for lateral movement detection (Darktrace, Vectra, Corelight), asset discovery and classification, threat hunting with network telemetry. Centralized logging: SIEM integration for correlation (Splunk, Sentinel, Elastic), retention per compliance requirements, real-time alerting on security events. Visualization: network topology maps, traffic flow visualization, attack surface mapping.
 
-### CONNECTIVITY_TYPE
-WAN and site connectivity solutions.
-- Examples: "MPLS with internet backup", "SD-WAN (Cisco Viptela)", "Direct Connect + VPN", "SASE (Zscaler/Palo Alto Prisma)", "Internet-only with ZTNA"
+**IMPLEMENTATION APPROACH**
 
-### FIREWALL_PLATFORM
-Firewall and NGFW solution.
-- Examples: "Palo Alto Networks PA-5200", "Cisco Firepower 4100", "Fortinet FortiGate 600E", "Check Point Quantum", "AWS Network Firewall + Security Groups"
+Phase 1 Foundation (Months 1-2): network discovery and asset inventory, baseline traffic analysis, firewall rule audit and documentation, quick wins (block known-bad, enable logging).
 
-### IDS_IPS_SOLUTION
-Intrusion detection and prevention system.
-- Examples: "Cisco Firepower IPS", "Suricata open-source", "Snort with Talos rules", "Palo Alto Threat Prevention", "AWS GuardDuty + Network Firewall"
+Phase 2 Segmentation (Months 3-4): implement priority segmentation (PCI, PHI, production isolation), deploy east-west inspection, enable micro-segmentation for critical workloads.
 
-### REMOTE_ACCESS_METHOD
-Remote access and VPN solution.
-- Examples: "Cisco AnyConnect VPN", "Zscaler Private Access (ZPA)", "Cloudflare Access", "Palo Alto GlobalProtect", "WireGuard with MFA"
+Phase 3 Advanced Controls (Months 5-6): IDS/IPS tuning and optimization, NAC deployment with phased enforcement, ZTNA pilot for remote users.
+
+Phase 4 Visibility (Ongoing): NDR deployment for behavioral detection, continuous monitoring and alerting, regular penetration testing, quarterly rule reviews.
+
+Deliver network security architecture as:
+
+1. **ARCHITECTURE DESIGN** - Network topology, zone definitions, traffic flows, security control placement
+
+2. **SEGMENTATION PLAN** - Zone design, VLAN/subnet scheme, micro-segmentation approach, migration plan
+
+3. **FIREWALL POLICIES** - Rule templates, management procedures, audit schedule, IaC automation
+
+4. **IDS/IPS CONFIGURATION** - Sensor placement, signature policies, tuning procedures, escalation workflow
+
+5. **REMOTE ACCESS** - VPN/ZTNA design, authentication integration, device posture requirements
+
+6. **NAC POLICIES** - 802.1X configuration, posture assessment, guest/BYOD procedures, IoT segmentation
+
+7. **MONITORING STRATEGY** - Flow analysis, NDR, SIEM integration, alerting thresholds, response playbooks
 
 ---
 
 ## Usage Examples
 
 ### Example 1: Retail Chain PCI-DSS Compliance
-```
-NETWORK_SIZE: 500 retail stores + 2 data centers + AWS
-ARCHITECTURE_TYPE: Hybrid with centralized PCI cardholder data environment
-CONNECTIVITY_TYPE: SD-WAN (Silver Peak) with MPLS backup
-FIREWALL_PLATFORM: Palo Alto PA-3200 at data centers, PA-220 at stores
-IDS_IPS_SOLUTION: Palo Alto Threat Prevention with WildFire
-REMOTE_ACCESS_METHOD: GlobalProtect with MFA for store support
+**Prompt:** Design network security for RetailCorp with 500 stores, 2 data centers, AWS presence achieving PCI-DSS compliance with defense-in-depth protecting cardholder data.
 
-Key Network Security Implementations:
-- Segmentation: PCI CDE isolated in separate VLAN with micro-segmentation
-- Firewall: Application-aware policies blocking non-POS traffic
-- IDS/IPS: Signature + behavioral detection for card skimming patterns
-- Store Networks: Isolated guest WiFi, POS on dedicated VLAN
-- Encryption: TLS 1.3 for all payment data in transit
-- Monitoring: NetFlow to Splunk for anomaly detection
-- Compliance: Quarterly network scans, annual penetration testing
-```
+**Expected Output:** Segmentation: PCI CDE in dedicated VLAN (10.x.100.0/24) isolated from corporate, micro-segmentation via Illumio between POS and payment processors, guest WiFi completely isolated on separate internet circuit. Firewall: Palo Alto PA-5250 at data centers (HA pair), PA-220 at each store, App-ID policies allowing only POS applications to CDE, deny-by-default with explicit rules per PCI requirement. IDS/IPS: Palo Alto Threat Prevention with card skimming signatures, inline blocking mode, WildFire for zero-day malware. Store connectivity: SD-WAN (Silver Peak) replacing MPLS, encrypted overlay for all store traffic, local internet breakout for guest only. Remote access: GlobalProtect with MFA for store support, no direct VPN to CDE (jump host required), session recording for CDE access. Monitoring: NetFlow from all devices to Splunk, 90-day retention for PCI, real-time alerts on CDE traffic anomalies, quarterly penetration testing. Compliance: network scans via Qualys (quarterly), firewall rule review (semi-annually), network diagram updates (annually).
 
 ### Example 2: Healthcare Multi-Site Network
-```
-NETWORK_SIZE: 20 hospitals + 100 clinics + cloud EHR
-ARCHITECTURE_TYPE: Hybrid with Epic EHR in private cloud
-CONNECTIVITY_TYPE: MPLS primary, SD-WAN overlay for cloud access
-FIREWALL_PLATFORM: Cisco Firepower 4100 at hospitals, Meraki MX at clinics
-IDS_IPS_SOLUTION: Cisco Firepower IPS with medical device signatures
-REMOTE_ACCESS_METHOD: Cisco AnyConnect + Duo MFA
+**Prompt:** Design network security for HealthSystem with 20 hospitals, 100 clinics, Epic EHR achieving HIPAA compliance with medical device isolation.
 
-Key Network Security Implementations:
-- Segmentation: Medical devices on isolated IoMT VLANs
-- Firewall: Healthcare-specific application profiles
-- IDS/IPS: Medical device vulnerability detection
-- Clinical Networks: Separate networks for clinical vs admin
-- Guest Access: Patient WiFi isolated from clinical networks
-- Encryption: IPsec tunnels for inter-site HL7/FHIR traffic
-- NAC: 802.1X for all wired devices with profiling
-- Monitoring: Claroty for medical device network visibility
-```
+**Expected Output:** Segmentation: clinical networks (Epic Hyperspace, Citrix) isolated from administrative, medical device VLANs (IoMT) per department with east-west blocking, biomedical equipment on dedicated segments (imaging, infusion pumps, patient monitors). Firewall: Cisco Firepower 4100 at hospital cores, Meraki MX at clinics, application-aware policies for HL7/FHIR traffic, TLS inspection bypass for medical device traffic (compatibility). IDS/IPS: Firepower IPS with medical device vulnerability signatures, behavioral detection for lateral movement, custom rules for Epic traffic patterns. Medical device security: Claroty for OT/IoMT visibility, device profiling and automatic segmentation, vendor remote access via PAM with session recording. NAC: Cisco ISE with 802.1X for all wired, device profiling for medical equipment, automatic VLAN assignment by device type, quarantine for unknown devices. Remote access: Cisco AnyConnect with Duo MFA, clinical remote access to Citrix only (no direct Epic), vendor access via jump host with recording. Compliance: PHI access logging, 7-year log retention, BAA requirements for network vendors.
 
-### Example 3: Financial Services Zero Trust
-```
-NETWORK_SIZE: 10,000 users, 3 data centers, full AWS migration
-ARCHITECTURE_TYPE: Zero trust with software-defined perimeter
-CONNECTIVITY_TYPE: SASE (Zscaler) replacing MPLS
-FIREWALL_PLATFORM: Cloud-native (AWS Network Firewall + Zscaler)
-IDS_IPS_SOLUTION: AWS GuardDuty + Zscaler Cloud IPS
-REMOTE_ACCESS_METHOD: Zscaler Private Access (zero VPN)
+### Example 3: Financial Services Zero Trust Transformation
+**Prompt:** Design network security for FinanceCorp with 10,000 users, 3 data centers migrating to AWS achieving SOC 2 and zero trust architecture replacing legacy perimeter.
 
-Key Network Security Implementations:
-- Zero Trust: Identity-based access, no network trust
-- Micro-segmentation: AWS Security Groups + Illumio
-- Firewall: Zscaler Cloud Firewall for all internet egress
-- DDoS: AWS Shield Advanced + Cloudflare
-- DNS Security: Zscaler DNS filtering + DNSSEC
-- Encryption: mTLS between all services
-- SASE: Single policy engine for all users/locations
-- Monitoring: VPC Flow Logs + Zscaler logs to Splunk
-- No Perimeter: All applications accessed via ZTNA
-```
+**Expected Output:** Zero trust: eliminate network perimeter trust, identity-based access to all applications, continuous verification throughout session, assume breach posture. Architecture: SASE (Zscaler) for all user traffic, retire MPLS in favor of internet-first, AWS Transit Gateway for cloud networking. Segmentation: AWS VPC per application tier, Security Groups with least-privilege, micro-segmentation via Illumio for on-prem, no cross-VPC routing without explicit approval. Remote access: Zscaler Private Access (ZPA) replaces VPN, per-application access with identity and device posture, no network-level access anywhere. Cloud firewall: AWS Network Firewall for centralized inspection, Zscaler Cloud Firewall for all internet egress, no direct internet from VPCs. IDS/IPS: AWS GuardDuty for threat detection, Zscaler Cloud IPS for inline prevention, VPC Flow Logs analysis for anomalies. DDoS: AWS Shield Advanced for all internet-facing resources, Cloudflare in front of public applications. DNS: Zscaler DNS Security for all resolution, internal Route 53 for private zones. Monitoring: VPC Flow Logs and Zscaler logs to Splunk, Darktrace for NDR, real-time correlation across cloud and on-prem. Migration: 6-month phased rollout (pilot 500 users → department by department), parallel VPN operation during transition, VPN decommission after 100% ZPA adoption.
 
 ---
 
-## Best Practices
+## Cross-References
 
-1. **Defense in depth** - Layer multiple security controls; never rely on a single protection mechanism
-2. **Segment by sensitivity** - Create network zones based on data classification and compliance requirements
-3. **Default deny** - Block all traffic by default, explicitly allow only required communications
-4. **Encrypt everywhere** - Use TLS/IPsec for all traffic, even internal communications
-5. **Inspect encrypted traffic** - Deploy TLS inspection for outbound traffic to detect threats
-6. **Monitor east-west traffic** - Internal lateral movement is where attackers live; visibility is critical
-7. **Automate firewall rules** - Use infrastructure-as-code to prevent configuration drift
-8. **Regular rule reviews** - Quarterly audits of firewall rules to remove stale entries
-9. **Test your defenses** - Regular penetration testing and red team exercises
-10. **Plan for failure** - Design redundant paths and test failover scenarios
-
-## Common Pitfalls
-
-❌ **Flat networks** - No segmentation allowing unrestricted lateral movement
-✅ Instead: Implement micro-segmentation with least-privilege access
-
-❌ **Overly permissive rules** - "Any-any" firewall rules for convenience
-✅ Instead: Specific source/destination/port rules with regular audits
-
-❌ **Ignoring internal traffic** - Only monitoring north-south, not east-west
-✅ Instead: Deploy network detection and response (NDR) for internal visibility
-
-❌ **Trusting the VPN** - Full network access once connected to VPN
-✅ Instead: Zero trust network access with per-application policies
-
-❌ **Stale firewall rules** - Rules accumulate without cleanup
-✅ Instead: Automated rule lifecycle management with expiration dates
+- [Zero Trust Architecture](../Identity-Access-Management/zero-trust-architecture.md) - Zero trust principles for network access
+- [Cloud Security Architecture](../Cloud-Security/cloud-security-architecture.md) - Cloud-specific network security patterns
+- [Privileged Access Management](../Identity-Access-Management/privileged-access-management.md) - Securing administrative network access

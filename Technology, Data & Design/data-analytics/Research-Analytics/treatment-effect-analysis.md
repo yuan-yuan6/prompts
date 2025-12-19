@@ -1,620 +1,124 @@
 ---
-title: Treatment Effect Analysis
 category: data-analytics
+description: Analyze treatment effects using ITT, per-protocol, instrumental variable, CACE, dose-response, and subgroup analyses for causal inference
+title: Treatment Effect Analysis
 tags:
-- research-analytics
-- causal-inference
 - treatment-effect
+- causal-inference
 - itt-analysis
+- research-analytics
 use_cases:
-- Analyze treatment effects using intention-to-treat, per-protocol, instrumental variable,
-  CACE, dose-response, and subgroup analyses to establish causal relationships and
-  quantify treatment impacts
+- Analyzing randomized controlled trial outcomes with intention-to-treat and per-protocol approaches
+- Estimating complier average causal effects when treatment compliance varies
+- Conducting dose-response analysis to understand adherence-outcome relationships
+- Performing subgroup analyses to identify differential treatment effects
 related_templates:
-- data-analytics/Research-Analytics/experimental-design-setup.md
+- data-analytics/Research-Analytics/experimental-design-implementation.md
 - data-analytics/Research-Analytics/randomization-and-power-analysis.md
-- data-analytics/Research-Analytics/validity-and-diagnostics.md
-last_updated: 2025-11-10
+- data-analytics/Research-Analytics/statistical-analysis.md
 industries:
+- healthcare
 - technology
-type: template
-difficulty: intermediate
+- finance
+- education
+- government
+type: framework
+difficulty: advanced
 slug: treatment-effect-analysis
 ---
 
 # Treatment Effect Analysis
 
 ## Purpose
-Perform comprehensive treatment effect analysis using advanced causal inference methods. This prompt helps you analyze experimental data using intention-to-treat (ITT), per-protocol (PP), instrumental variable (IV), complier average causal effect (CACE), dose-response, and subgroup analysis approaches to quantify treatment impacts and establish causal relationships.
+Perform comprehensive treatment effect analysis using advanced causal inference methods. This framework covers intention-to-treat (ITT), per-protocol (PP), instrumental variable (IV), complier average causal effect (CACE), dose-response, and subgroup analysis approaches to quantify treatment impacts and establish causal relationships from experimental data.
 
-## Quick Treatment Effect Prompt
-Analyze treatment effects from [experiment] with [treatment] vs. [control] groups. Perform ITT analysis (primary), calculate effect size with 95% CI, test statistical significance, conduct subgroup analyses for [key segments], and assess dose-response relationship if applicable. Report treatment effect, NNT/NNH if relevant, and clinical/practical significance.
+## 🚀 Quick Start Prompt
 
-## Quick Start
+> Analyze **treatment effects** from **[EXPERIMENT]** comparing **[TREATMENT vs CONTROL]**. Cover: (1) **ITT analysis** as primary—compare groups as randomized regardless of compliance; (2) **Per-protocol analysis**—estimate effect among compliant participants; (3) **Effect sizes** with 95% confidence intervals and clinical significance; (4) **Subgroup analyses** for key segments with interaction tests; (5) **Dose-response** if adherence varies. Deliver treatment effect estimates, NNT/NNH if applicable, forest plots for subgroups, and interpretation of practical significance.
 
-**Example: Comprehensive Treatment Effect Analysis for Clinical Trial**
-
-```
-You are a causal inference expert. Analyze treatment effects from a diabetes medication trial using multiple analytical approaches.
-
-STUDY DESIGN:
-- Trial: New diabetes medication vs. placebo (RCT, double-blind)
-- Sample size: 400 participants (200 per group)
-- Primary outcome: HbA1c reduction after 6 months
-- Baseline HbA1c: Mean 8.2% (SD 1.1%)
-- Compliance: 85% in treatment group, 92% in control group
-- Attrition: 12% overall (10% treatment, 14% control)
-
-DATA AVAILABLE:
-- Baseline characteristics: age, gender, BMI, baseline HbA1c, disease duration
-- Treatment assignment (randomized)
-- Treatment received (actual compliance)
-- 6-month HbA1c outcome
-- Dose adherence (% of prescribed doses taken)
-
-ANALYSIS REQUIREMENTS:
-1. Intention-to-treat (ITT) analysis - primary analysis comparing as randomized
-2. Per-protocol (PP) analysis - analysis restricted to compliant participants
-3. Complier average causal effect (CACE) - estimate effect for those who would comply
-4. Dose-response analysis - relationship between adherence and outcome
-5. Subgroup analyses - examine effects by age group, baseline HbA1c, BMI category
-6. Effect size calculations with 95% confidence intervals
-7. Statistical significance testing with appropriate adjustments
-
-DELIVERABLES:
-- Complete treatment effect estimates from all analytical approaches
-- Comparison of ITT vs. PP vs. CACE estimates with interpretation
-- Dose-response curves showing adherence-outcome relationship
-- Subgroup analysis results with interaction tests
-- Forest plots showing effects across subgroups
-- Clinical significance interpretation
-- Recommendations for treatment implementation
-```
+---
 
 ## Template
 
-```
-You are a causal inference expert. Analyze treatment effects for [RESEARCH_OBJECTIVE] from [STUDY_DESIGN] testing [HYPOTHESIS].
-
-STUDY PARAMETERS:
-Design Information:
-- Study design: [STUDY_DESIGN]
-- Sample size: [N_PARTICIPANTS]
-- Treatment groups: [TREATMENT_GROUPS]
-- Primary outcome: [PRIMARY_OUTCOME]
-- Secondary outcomes: [SECONDARY_OUTCOMES]
-- Study duration: [STUDY_DURATION]
-
-Data Structure:
-- Treatment variable: [TREATMENT_VARIABLE]
-- Outcome variable: [OUTCOME_VARIABLE]
-- Compliance indicator: [COMPLIANCE_VARIABLE]
-- Baseline covariates: [BASELINE_COVARIATES]
-- Subgroup variables: [SUBGROUP_VARIABLES]
-- Dose/adherence variable: [DOSE_VARIABLE]
-
-ANALYSIS SPECIFICATIONS:
-Primary Analysis:
-- Analysis type: [ANALYSIS_TYPE]  # ITT, PP, IV, CACE
-- Adjustment variables: [COVARIATES]
-- Statistical model: [STATISTICAL_MODEL]
-- Effect measure: [EFFECT_MEASURE]  # mean difference, risk ratio, odds ratio
-- Confidence level: [CONFIDENCE_LEVEL]
-
-Intention-to-Treat Analysis:
-- Include all randomized participants: [ITT_INCLUDE_ALL]
-- Handle missing data: [MISSING_DATA_METHOD]
-- Covariate adjustment: [ITT_COVARIATES]
-
-Per-Protocol Analysis:
-- Compliance definition: [COMPLIANCE_DEFINITION]
-- Exclusion criteria: [PP_EXCLUSIONS]
-- Sensitivity analysis: [PP_SENSITIVITY]
-
-Instrumental Variable Analysis:
-- Instrument: [INSTRUMENTAL_VARIABLE]
-- First-stage test: [FIRST_STAGE_THRESHOLD]
-- Two-stage method: [IV_METHOD]
-
-Dose-Response Analysis:
-- Dose measurement: [DOSE_MEASURE]
-- Relationship form: [DOSE_RESPONSE_FORM]  # linear, quadratic, spline
-- Confounders: [DOSE_CONFOUNDERS]
-
-Subgroup Analysis:
-- Subgroup variables: [SUBGROUP_VARS]
-- Interaction tests: [TEST_INTERACTIONS]
-- Multiple testing correction: [SUBGROUP_CORRECTION]
-
-EXPECTED DELIVERABLES:
-1. Primary ITT analysis results with effect sizes and confidence intervals
-2. Per-protocol analysis for compliant participants
-3. CACE estimates for treatment compliers
-4. Dose-response relationship analysis
-5. Subgroup effect estimates with interaction tests
-6. Comprehensive treatment effect summary comparing all approaches
-7. Clinical/practical significance interpretation
-8. Recommendations for implementation
-```
-
-## Treatment Effect Analysis Framework
-
-### Advanced Causal Inference Methods
-
-```python
-from sklearn.ensemble import RandomForestRegressor
-from sklearn.linear_model import LogisticRegression, LinearRegression
-from sklearn.preprocessing import StandardScaler
-from scipy.stats import ttest_ind, chi2_contingency
-import pandas as pd
-import numpy as np
-from statsmodels.stats.weightstats import ttest_ind as stats_ttest_ind
-from statsmodels.regression.linear_model import OLS
-from statsmodels.formula.api import ols
-import matplotlib.pyplot as plt
-import seaborn as sns
-
-class TreatmentEffectAnalyzer:
-    def __init__(self, data):
-        self.data = data
-        self.results = {}
-        self.diagnostics = {}
-
-    def intention_to_treat_analysis(self, outcome_var, treatment_var, covariates=None):
-        """Intention-to-treat analysis (ITT)"""
-
-        # Basic ITT comparison
-        treatment_group = self.data[self.data[treatment_var] == 1][outcome_var]
-        control_group = self.data[self.data[treatment_var] == 0][outcome_var]
-
-        # T-test
-        t_stat, p_value = ttest_ind(treatment_group, control_group)
-
-        # Effect size (Cohen's d)
-        pooled_std = np.sqrt(((len(treatment_group)-1)*treatment_group.var() +
-                             (len(control_group)-1)*control_group.var()) /
-                            (len(treatment_group) + len(control_group) - 2))
-        cohens_d = (treatment_group.mean() - control_group.mean()) / pooled_std
-
-        # Confidence interval for difference
-        se_diff = pooled_std * np.sqrt(1/len(treatment_group) + 1/len(control_group))
-        diff = treatment_group.mean() - control_group.mean()
-        ci_lower = diff - 1.96 * se_diff
-        ci_upper = diff + 1.96 * se_diff
-
-        itt_results = {
-            'analysis_type': 'Intention-to-Treat',
-            'treatment_mean': treatment_group.mean(),
-            'control_mean': control_group.mean(),
-            'difference': diff,
-            'effect_size_cohens_d': cohens_d,
-            'ci_95_lower': ci_lower,
-            'ci_95_upper': ci_upper,
-            't_statistic': t_stat,
-            'p_value': p_value,
-            'n_treatment': len(treatment_group),
-            'n_control': len(control_group)
-        }
-
-        # Regression adjustment if covariates provided
-        if covariates:
-            adjusted_results = self._regression_adjusted_itt(outcome_var, treatment_var, covariates)
-            itt_results['adjusted_analysis'] = adjusted_results
-
-        self.results['itt'] = itt_results
-        return itt_results
-
-    def per_protocol_analysis(self, outcome_var, treatment_var, compliance_var):
-        """Per-protocol analysis (PP)"""
-
-        # Filter to compliant participants only
-        compliant_data = self.data[self.data[compliance_var] == 1]
-
-        if len(compliant_data) == 0:
-            return {'error': 'No compliant participants found'}
-
-        treatment_compliant = compliant_data[compliant_data[treatment_var] == 1][outcome_var]
-        control_compliant = compliant_data[compliant_data[treatment_var] == 0][outcome_var]
-
-        if len(treatment_compliant) == 0 or len(control_compliant) == 0:
-            return {'error': 'Insufficient compliant participants in one or both groups'}
-
-        # T-test on compliant participants
-        t_stat, p_value = ttest_ind(treatment_compliant, control_compliant)
-
-        pp_results = {
-            'analysis_type': 'Per-Protocol',
-            'treatment_mean': treatment_compliant.mean(),
-            'control_mean': control_compliant.mean(),
-            'difference': treatment_compliant.mean() - control_compliant.mean(),
-            't_statistic': t_stat,
-            'p_value': p_value,
-            'n_treatment_compliant': len(treatment_compliant),
-            'n_control_compliant': len(control_compliant),
-            'compliance_rate_treatment': len(treatment_compliant) / len(self.data[self.data[treatment_var] == 1]),
-            'compliance_rate_control': len(control_compliant) / len(self.data[self.data[treatment_var] == 0])
-        }
-
-        self.results['per_protocol'] = pp_results
-        return pp_results
-
-    def instrumental_variable_analysis(self, outcome_var, treatment_var, instrument_var):
-        """Instrumental variable analysis for compliance adjustments"""
-
-        try:
-            from statsmodels.sandbox.regression.gmm import IV2SLS
-        except ImportError:
-            return {'error': 'Instrumental variable analysis requires statsmodels'}
-
-        # Two-stage least squares
-        # First stage: predict treatment using instrument
-        first_stage = LinearRegression()
-        X_instrument = self.data[[instrument_var]].values
-        first_stage.fit(X_instrument, self.data[treatment_var])
-        predicted_treatment = first_stage.predict(X_instrument)
-
-        # First stage F-statistic
-        first_stage_f = self._calculate_first_stage_f(instrument_var, treatment_var)
-
-        # Second stage: outcome on predicted treatment
-        second_stage = LinearRegression()
-        second_stage.fit(predicted_treatment.reshape(-1, 1), self.data[outcome_var])
-
-        iv_coefficient = second_stage.coef_[0]
-
-        # Calculate standard errors (simplified)
-        n = len(self.data)
-        residuals = self.data[outcome_var] - second_stage.predict(predicted_treatment.reshape(-1, 1))
-        mse = np.sum(residuals**2) / (n - 2)
-        var_pred_treatment = np.var(predicted_treatment)
-        se_iv = np.sqrt(mse / (n * var_pred_treatment))
-
-        from scipy import stats
-        iv_results = {
-            'analysis_type': 'Instrumental Variable',
-            'iv_estimate': iv_coefficient,
-            'standard_error': se_iv,
-            't_statistic': iv_coefficient / se_iv,
-            'p_value': 2 * (1 - stats.norm.cdf(abs(iv_coefficient / se_iv))),
-            'first_stage_f': first_stage_f,
-            'weak_instrument': first_stage_f < 10
-        }
-
-        self.results['instrumental_variable'] = iv_results
-        return iv_results
-
-    def complier_average_causal_effect(self, outcome_var, treatment_var, instrument_var):
-        """Calculate Complier Average Causal Effect (CACE)"""
-
-        # CACE = ITT_outcome / ITT_treatment
-
-        # ITT for outcome
-        itt_outcome = self._calculate_itt_effect(outcome_var, instrument_var)
-
-        # ITT for treatment (compliance rate difference)
-        itt_treatment = self._calculate_itt_effect(treatment_var, instrument_var)
-
-        if itt_treatment == 0:
-            return {'error': 'No differential compliance - cannot calculate CACE'}
-
-        cace_estimate = itt_outcome / itt_treatment
-
-        # Bootstrap confidence intervals for CACE
-        cace_bootstrap = []
-        n_bootstrap = 1000
-
-        for _ in range(n_bootstrap):
-            boot_sample = self.data.sample(n=len(self.data), replace=True)
-            boot_itt_outcome = self._calculate_itt_effect_data(boot_sample, outcome_var, instrument_var)
-            boot_itt_treatment = self._calculate_itt_effect_data(boot_sample, treatment_var, instrument_var)
-
-            if boot_itt_treatment != 0:
-                cace_bootstrap.append(boot_itt_outcome / boot_itt_treatment)
-
-        cace_ci = np.percentile(cace_bootstrap, [2.5, 97.5])
-
-        cace_results = {
-            'analysis_type': 'Complier Average Causal Effect',
-            'cace_estimate': cace_estimate,
-            'itt_outcome': itt_outcome,
-            'itt_treatment': itt_treatment,
-            'ci_95_lower': cace_ci[0],
-            'ci_95_upper': cace_ci[1],
-            'bootstrap_distribution': cace_bootstrap
-        }
-
-        self.results['cace'] = cace_results
-        return cace_results
-
-    def dose_response_analysis(self, outcome_var, dose_var, covariates=None):
-        """Analyze dose-response relationship"""
-
-        # Linear dose-response
-        if covariates:
-            formula = f'{outcome_var} ~ {dose_var} + ' + ' + '.join(covariates)
-        else:
-            formula = f'{outcome_var} ~ {dose_var}'
-
-        linear_model = ols(formula, data=self.data).fit()
-
-        # Quadratic dose-response
-        self.data['dose_squared'] = self.data[dose_var] ** 2
-        if covariates:
-            quad_formula = f'{outcome_var} ~ {dose_var} + dose_squared + ' + ' + '.join(covariates)
-        else:
-            quad_formula = f'{outcome_var} ~ {dose_var} + dose_squared'
-
-        quadratic_model = ols(quad_formula, data=self.data).fit()
-
-        # Model comparison
-        from scipy.stats import f
-        f_stat = ((quadratic_model.rsquared - linear_model.rsquared) /
-                 (1 - quadratic_model.rsquared)) * (len(self.data) - quadratic_model.df_model - 1)
-        f_p_value = 1 - f.cdf(f_stat, 1, len(self.data) - quadratic_model.df_model - 1)
-
-        dose_response_results = {
-            'linear_model': {
-                'coefficient': linear_model.params[dose_var],
-                'p_value': linear_model.pvalues[dose_var],
-                'r_squared': linear_model.rsquared
-            },
-            'quadratic_model': {
-                'linear_coefficient': quadratic_model.params[dose_var],
-                'quadratic_coefficient': quadratic_model.params['dose_squared'],
-                'linear_p_value': quadratic_model.pvalues[dose_var],
-                'quadratic_p_value': quadratic_model.pvalues['dose_squared'],
-                'r_squared': quadratic_model.rsquared
-            },
-            'model_comparison': {
-                'f_statistic': f_stat,
-                'p_value': f_p_value,
-                'prefer_quadratic': f_p_value < 0.05
-            }
-        }
-
-        self.results['dose_response'] = dose_response_results
-        return dose_response_results
-
-    def subgroup_analysis(self, outcome_var, treatment_var, subgroup_vars):
-        """Analyze treatment effects in subgroups"""
-
-        subgroup_results = {}
-
-        for subgroup_var in subgroup_vars:
-            subgroup_effects = {}
-
-            for subgroup_value in self.data[subgroup_var].unique():
-                subgroup_data = self.data[self.data[subgroup_var] == subgroup_value]
-
-                treatment_sub = subgroup_data[subgroup_data[treatment_var] == 1][outcome_var]
-                control_sub = subgroup_data[subgroup_data[treatment_var] == 0][outcome_var]
-
-                if len(treatment_sub) > 0 and len(control_sub) > 0:
-                    t_stat, p_value = ttest_ind(treatment_sub, control_sub)
-                    effect = treatment_sub.mean() - control_sub.mean()
-
-                    subgroup_effects[subgroup_value] = {
-                        'treatment_mean': treatment_sub.mean(),
-                        'control_mean': control_sub.mean(),
-                        'effect': effect,
-                        't_statistic': t_stat,
-                        'p_value': p_value,
-                        'n_treatment': len(treatment_sub),
-                        'n_control': len(control_sub)
-                    }
-
-            # Test for interaction
-            interaction_p = self._test_subgroup_interaction(outcome_var, treatment_var, subgroup_var)
-
-            subgroup_results[subgroup_var] = {
-                'subgroup_effects': subgroup_effects,
-                'interaction_p_value': interaction_p,
-                'significant_interaction': interaction_p < 0.05
-            }
-
-        self.results['subgroup_analysis'] = subgroup_results
-        return subgroup_results
-
-    def _regression_adjusted_itt(self, outcome_var, treatment_var, covariates):
-        """Regression-adjusted ITT analysis"""
-
-        formula = f'{outcome_var} ~ {treatment_var} + ' + ' + '.join(covariates)
-        model = ols(formula, data=self.data).fit()
-
-        return {
-            'treatment_coefficient': model.params[treatment_var],
-            'p_value': model.pvalues[treatment_var],
-            'ci_95_lower': model.conf_int().loc[treatment_var, 0],
-            'ci_95_upper': model.conf_int().loc[treatment_var, 1],
-            'r_squared': model.rsquared,
-            'adjusted_r_squared': model.rsquared_adj
-        }
-
-    def _calculate_first_stage_f(self, instrument_var, treatment_var):
-        """Calculate first stage F-statistic"""
-
-        formula = f'{treatment_var} ~ {instrument_var}'
-        first_stage_model = ols(formula, data=self.data).fit()
-
-        return first_stage_model.fvalue
-
-    def _calculate_itt_effect(self, outcome_var, treatment_var):
-        """Calculate ITT effect for given variables"""
-
-        return self._calculate_itt_effect_data(self.data, outcome_var, treatment_var)
-
-    def _calculate_itt_effect_data(self, data, outcome_var, treatment_var):
-        """Calculate ITT effect for given data"""
-
-        treatment_mean = data[data[treatment_var] == 1][outcome_var].mean()
-        control_mean = data[data[treatment_var] == 0][outcome_var].mean()
-
-        return treatment_mean - control_mean
-
-    def _test_subgroup_interaction(self, outcome_var, treatment_var, subgroup_var):
-        """Test for treatment by subgroup interaction"""
-
-        formula = f'{outcome_var} ~ {treatment_var} * C({subgroup_var})'
-        model = ols(formula, data=self.data).fit()
-
-        # Find interaction term p-value
-        interaction_terms = [param for param in model.params.index
-                           if treatment_var in param and subgroup_var in param]
-
-        if interaction_terms:
-            return model.pvalues[interaction_terms[0]]
-        else:
-            return 1.0
-
-    def comprehensive_effect_summary(self):
-        """Create comprehensive summary of all treatment effect analyses"""
-
-        summary = {
-            'analyses_performed': list(self.results.keys()),
-            'primary_findings': {},
-            'effect_size_comparison': {},
-            'robustness_checks': {}
-        }
-
-        # Extract primary findings
-        for analysis, results in self.results.items():
-            if 'difference' in results:
-                summary['primary_findings'][analysis] = {
-                    'effect_estimate': results['difference'],
-                    'p_value': results.get('p_value', None),
-                    'ci_95': [results.get('ci_95_lower'), results.get('ci_95_upper')]
-                }
-
-        return summary
-
-# Perform treatment effect analysis
-effect_analyzer = TreatmentEffectAnalyzer(experiment_data)
-
-# Run different analyses
-itt_results = effect_analyzer.intention_to_treat_analysis(
-    outcome_var='[OUTCOME_VARIABLE]',
-    treatment_var='[TREATMENT_VARIABLE]',
-    covariates=['[COVARIATES]'] if '[COVARIATES]' else None
-)
-
-# Additional analyses based on study design
-if '[COMPLIANCE_VARIABLE]':
-    pp_results = effect_analyzer.per_protocol_analysis(
-        outcome_var='[OUTCOME_VARIABLE]',
-        treatment_var='[TREATMENT_VARIABLE]',
-        compliance_var='[COMPLIANCE_VARIABLE]'
-    )
-
-if '[SUBGROUP_VARIABLES]':
-    subgroup_results = effect_analyzer.subgroup_analysis(
-        outcome_var='[OUTCOME_VARIABLE]',
-        treatment_var='[TREATMENT_VARIABLE]',
-        subgroup_vars=['[SUBGROUP_VARIABLES]']
-    )
-```
+Conduct comprehensive treatment effect analysis for {EXPERIMENT_DESCRIPTION}, comparing {TREATMENT_COMPARISON} to inform {DECISION_CONTEXT}.
+
+**1. Analysis Framework and Primary Approach**
+
+Begin by establishing the analysis framework aligned with your study design and objectives. Intention-to-treat (ITT) analysis serves as the primary approach for randomized experiments—analyze all participants according to their randomized assignment regardless of whether they actually received or adhered to treatment. ITT preserves randomization's protection against confounding and provides a conservative estimate of treatment effect under real-world conditions where non-compliance occurs. Define your primary outcome measure, specify the effect metric (mean difference for continuous outcomes, risk ratio or odds ratio for binary outcomes, hazard ratio for time-to-event), and determine covariate adjustment strategy. Pre-specify all analyses before examining outcome data to maintain validity.
+
+**2. Intention-to-Treat Analysis Execution**
+
+Execute the ITT analysis comparing outcomes between randomized groups. Calculate descriptive statistics for each group including means, standard deviations, and sample sizes for continuous outcomes or proportions and counts for binary outcomes. Perform the primary statistical test—t-test or ANCOVA for continuous outcomes, chi-square or logistic regression for binary outcomes, log-rank test or Cox regression for survival outcomes. Calculate the treatment effect estimate with 95% confidence interval. Compute effect size using Cohen's d for continuous outcomes (small=0.2, medium=0.5, large=0.8) or number needed to treat (NNT) for binary outcomes. Handle missing outcome data using appropriate methods—complete case analysis as primary with sensitivity analyses using multiple imputation or worst-case scenarios. Report both statistical significance (p-value) and practical significance (effect size interpretation).
+
+**3. Per-Protocol and Compliance-Adjusted Analyses**
+
+Conduct secondary analyses that account for actual treatment received. Per-protocol analysis restricts to participants who completed treatment as specified—define compliance criteria clearly (e.g., received ≥80% of prescribed doses, attended all sessions). Compare compliant treatment participants to compliant control participants. Recognize that per-protocol analysis breaks randomization and can introduce selection bias—compliers may differ systematically from non-compliers. Use per-protocol results as a sensitivity analysis showing the effect under ideal compliance, not as the primary finding. Calculate compliance rates in each arm and characterize completers versus non-completers on baseline variables to assess potential bias.
+
+**4. Instrumental Variable and CACE Estimation**
+
+Estimate treatment effects for compliers using instrumental variable methods when compliance varies. In randomized trials, random assignment serves as an instrument for actual treatment receipt—it affects the outcome only through its effect on treatment. Calculate the Complier Average Causal Effect (CACE) as the ratio of ITT effect on the outcome to ITT effect on treatment receipt (compliance differential between arms). CACE estimates the effect for participants who would comply when assigned to treatment but not receive treatment when assigned to control. Verify instrument strength—the first-stage F-statistic should exceed 10 to avoid weak instrument bias. Report CACE alongside ITT, interpreting CACE as the efficacy estimate (effect if taken) versus ITT as the effectiveness estimate (effect of offering treatment).
+
+**5. Dose-Response Analysis**
+
+Analyze the relationship between treatment dose or adherence and outcomes. Define the dose measure—percentage of prescribed doses taken, number of sessions attended, treatment duration, or measured biomarker of exposure. Fit linear dose-response models estimating outcome change per unit increase in dose. Test for non-linear relationships by adding quadratic terms or using spline models; compare model fit using F-tests or information criteria. Recognize that dose-response analysis is observational even within a trial—adherence is not randomized, so confounding by indication or healthy adherer bias may affect estimates. Adjust for baseline confounders that predict both adherence and outcomes. Visualize the dose-response curve with confidence bands and identify any threshold effects or saturation points.
+
+**6. Subgroup Analysis and Effect Modification**
+
+Examine whether treatment effects differ across participant subgroups. Pre-specify subgroup variables based on scientific rationale—characteristics that might modify treatment response such as disease severity, demographics, genetic markers, or baseline risk. Estimate treatment effects within each subgroup level, calculating effect size and confidence interval. Critically, test for statistical interaction between treatment and subgroup variable rather than comparing p-values across subgroups—a significant effect in one subgroup and non-significant in another does not demonstrate differential effects. Apply appropriate multiple testing corrections (Bonferroni, Benjamini-Hochberg) given the number of subgroups examined. Present results in forest plots showing point estimates and confidence intervals across subgroups with overall effect and interaction p-value. Interpret subgroup findings cautiously—they are hypothesis-generating unless the study was powered for subgroup differences.
+
+**7. Sensitivity Analyses and Robustness Checks**
+
+Conduct sensitivity analyses to assess robustness of primary findings. Test alternative outcome definitions if ambiguity exists. Compare results with and without covariate adjustment to assess consistency. Perform per-protocol analysis and CACE estimation as described to bound the treatment effect under different assumptions about compliance. Handle missing data through multiple approaches—complete case, multiple imputation, last observation carried forward, worst-case imputation—to assess sensitivity to missing data assumptions. Test for baseline imbalance despite randomization and adjust if substantial differences exist. Assess the impact of outliers by analyzing with and without extreme values. Document all sensitivity analyses and whether conclusions remain consistent across approaches.
+
+**8. Clinical Significance and Practical Interpretation**
+
+Translate statistical findings into clinically or practically meaningful conclusions. Distinguish statistical significance (reliable difference from zero) from clinical significance (difference large enough to matter). Interpret effect sizes using domain-specific benchmarks—what constitutes a meaningful improvement for this outcome in this population? Calculate number needed to treat (NNT) for beneficial outcomes or number needed to harm (NNH) for adverse effects to communicate in absolute terms. Compare treatment effect to minimal clinically important difference (MCID) if established for the outcome. Consider treatment burden, cost, and risk alongside efficacy when drawing conclusions. Frame results in terms of the proportion of patients who would benefit, the expected magnitude of benefit, and the confidence in these estimates. Provide clear recommendations for clinical practice or policy implementation based on the totality of evidence.
+
+Deliver your treatment effect analysis as:
+
+1. **Primary ITT results** with effect estimate, 95% CI, p-value, and effect size interpretation
+2. **Per-protocol results** as sensitivity analysis with compliance rates documented
+3. **CACE estimate** if compliance varies meaningfully between arms
+4. **Dose-response analysis** showing adherence-outcome relationship with visualization
+5. **Subgroup forest plot** with interaction tests and appropriate caveats
+6. **Sensitivity summary** showing consistency of findings across analytical approaches
+7. **Clinical interpretation** with NNT/NNH, comparison to MCID, and practical significance
+8. **Recommendations** for treatment implementation based on findings
+
+---
 
 ## Variables
 
-### Core Analysis Variables
-- [OUTCOME_VARIABLE] - Primary outcome variable name
-- [TREATMENT_VARIABLE] - Treatment assignment variable
-- [COMPLIANCE_VARIABLE] - Variable indicating treatment compliance
-- [INSTRUMENTAL_VARIABLE] - Instrument for IV analysis
-- [DOSE_VARIABLE] - Dose or adherence measure
-- [SUBGROUP_VARIABLES] - List of subgroup defining variables
+| Variable | Description | Example |
+|----------|-------------|---------|
+| `{EXPERIMENT_DESCRIPTION}` | Study design, sample, and outcome | "double-blind RCT of 400 diabetes patients measuring HbA1c reduction at 6 months" |
+| `{TREATMENT_COMPARISON}` | Treatment and control conditions | "new GLP-1 agonist versus placebo with standard care" |
+| `{DECISION_CONTEXT}` | How results will inform decisions | "formulary inclusion decision and prescribing guidelines" |
 
-### Analysis Configuration
-- [ANALYSIS_TYPE] - Type of analysis (ITT, PP, IV, CACE)
-- [COVARIATES] - List of covariates for adjustment
-- [STATISTICAL_MODEL] - Statistical model specification
-- [EFFECT_MEASURE] - Type of effect measure
-- [CONFIDENCE_LEVEL] - Confidence level for intervals
-- [MISSING_DATA_METHOD] - Method for handling missing data
-
-### Subgroup Analysis Variables
-- [SUBGROUP_VARS] - Variables defining subgroups
-- [TEST_INTERACTIONS] - Whether to test interactions
-- [SUBGROUP_CORRECTION] - Multiple testing correction method
+---
 
 ## Usage Examples
 
-### Example 1: Basic ITT Analysis
-```python
-# Load data
-data = pd.read_csv('trial_data.csv')
+### Example 1: Clinical Trial Analysis
+**Prompt:** "Conduct comprehensive treatment effect analysis for {EXPERIMENT_DESCRIPTION: phase 3 RCT of 800 patients with moderate depression randomized to digital CBT app versus waitlist control measuring PHQ-9 at 8 weeks}, comparing {TREATMENT_COMPARISON: app-based cognitive behavioral therapy with coach support versus usual care waitlist}, to inform {DECISION_CONTEXT: health plan coverage decision and clinical pathway integration}."
 
-# Initialize analyzer
-analyzer = TreatmentEffectAnalyzer(data)
+**Expected Output:** ITT analysis showing mean PHQ-9 reduction of 4.2 points greater in treatment arm (95% CI: 3.1-5.3, p<0.001, Cohen's d=0.62). Compliance analysis showing 68% completed ≥6 of 8 modules; per-protocol effect of 5.8 points (compliers only). CACE estimate of 6.2 points representing efficacy among engagers. Dose-response showing linear relationship (0.7 point improvement per module completed, p<0.001). Subgroup analysis finding larger effects in moderate versus mild depression (interaction p=0.03) but similar effects across age groups. NNT of 4 for clinically meaningful response (≥50% PHQ-9 reduction). Recommendation supporting coverage with engagement monitoring.
 
-# Run ITT analysis
-itt_results = analyzer.intention_to_treat_analysis(
-    outcome_var='hba1c_reduction',
-    treatment_var='assigned_treatment',
-    covariates=['baseline_hba1c', 'age', 'bmi']
-)
+### Example 2: A/B Test Treatment Effects
+**Prompt:** "Conduct comprehensive treatment effect analysis for {EXPERIMENT_DESCRIPTION: 50,000-user A/B test of new checkout flow measuring 30-day purchase conversion and average order value}, comparing {TREATMENT_COMPARISON: streamlined 2-step checkout versus existing 4-step checkout}, to inform {DECISION_CONTEXT: product launch decision and expected revenue impact}."
 
-print(f"Treatment effect: {itt_results['difference']:.2f}")
-print(f"95% CI: [{itt_results['ci_95_lower']:.2f}, {itt_results['ci_95_upper']:.2f}]")
-print(f"P-value: {itt_results['p_value']:.4f}")
-```
+**Expected Output:** ITT analysis showing 12.3% relative lift in conversion (8.4% vs 7.5% baseline, 95% CI: 8.9%-15.8%, p<0.001). AOV unchanged ($67.20 vs $66.80, p=0.42). Per-protocol analysis excluding users who abandoned before reaching checkout shows 18.2% lift among engaged shoppers. Subgroup analysis revealing mobile users show 22% lift while desktop shows 6% lift (interaction p<0.001), new users benefit more than returning users. No dose-response applicable. Expected revenue impact of $2.4M annually at current traffic. Recommendation to launch with mobile-first priority and monitoring for desktop segment.
 
-### Example 2: Per-Protocol with ITT Comparison
-```python
-# Run both analyses
-itt_results = analyzer.intention_to_treat_analysis(
-    outcome_var='outcome',
-    treatment_var='assigned'
-)
+### Example 3: Educational Intervention Analysis
+**Prompt:** "Conduct comprehensive treatment effect analysis for {EXPERIMENT_DESCRIPTION: cluster-randomized trial of 120 classrooms (2,400 students) testing math tutoring software measuring standardized test score gains over one semester}, comparing {TREATMENT_COMPARISON: adaptive AI tutoring with 30 min/day usage requirement versus standard curriculum}, to inform {DECISION_CONTEXT: district-wide adoption decision and implementation requirements}."
 
-pp_results = analyzer.per_protocol_analysis(
-    outcome_var='outcome',
-    treatment_var='assigned',
-    compliance_var='compliant'
-)
+**Expected Output:** ITT analysis (cluster-adjusted) showing 0.18 SD improvement in test scores (95% CI: 0.08-0.28, p<0.001). Per-protocol restricting to classrooms achieving ≥80% usage compliance shows 0.31 SD effect. CACE estimated at 0.35 SD for complying classrooms. Dose-response analysis showing diminishing returns above 25 min/day with threshold effect below 15 min/day (minimal benefit). Subgroup analysis finding largest effects for students starting below grade level (0.32 SD) versus at/above grade level (0.11 SD, interaction p=0.02). Cost-effectiveness of $180 per 0.1 SD gain. Recommendations supporting adoption with 20-30 min daily usage targets and priority deployment for struggling students.
 
-print(f"ITT effect: {itt_results['difference']:.2f}")
-print(f"PP effect: {pp_results['difference']:.2f}")
-print(f"Compliance rate: {pp_results['compliance_rate_treatment']:.1%}")
-```
+---
 
-### Example 3: Subgroup Analysis with Interaction Tests
-```python
-subgroup_results = analyzer.subgroup_analysis(
-    outcome_var='outcome',
-    treatment_var='treatment',
-    subgroup_vars=['age_group', 'disease_severity']
-)
+## Cross-References
 
-for subgroup_var, results in subgroup_results.items():
-    print(f"\nSubgroup: {subgroup_var}")
-    print(f"Interaction p-value: {results['interaction_p_value']:.4f}")
-
-    for subgroup_value, effect in results['subgroup_effects'].items():
-        print(f"  {subgroup_value}: Effect = {effect['effect']:.2f}, p = {effect['p_value']:.4f}")
-```
-
-### Example 4: Dose-Response Analysis
-```python
-dose_results = analyzer.dose_response_analysis(
-    outcome_var='outcome',
-    dose_var='adherence_percent',
-    covariates=['age', 'baseline_severity']
-)
-
-print(f"Linear coefficient: {dose_results['linear_model']['coefficient']:.3f}")
-print(f"Linear p-value: {dose_results['linear_model']['p_value']:.4f}")
-print(f"Quadratic better fit: {dose_results['model_comparison']['prefer_quadratic']}")
-```
-
-## Best Practices
-
-1. **ITT as Primary** - Use intention-to-treat as primary analysis for unbiased estimates
-2. **Report Multiple Analyses** - Present ITT, PP, and CACE for comprehensive view
-3. **Pre-specify Subgroups** - Define subgroups before seeing data to avoid fishing
-4. **Test Interactions** - Formally test for subgroup interactions, don't just compare p-values
-5. **Adjust for Multiplicity** - Use multiple testing corrections for subgroup analyses
-6. **Check First Stage** - Verify strong instruments (F > 10) for IV analysis
-7. **Interpret Clinically** - Report both statistical and clinical significance
-8. **Document Deviations** - Record all protocol deviations and their handling
-9. **Sensitivity Analyses** - Test robustness to analytical assumptions
-10. **Report Completely** - Follow CONSORT guidelines for complete reporting
+- [experimental-design-implementation.md](experimental-design-implementation.md) - Designing experiments for causal inference
+- [randomization-and-power-analysis.md](randomization-and-power-analysis.md) - Sample size and randomization methods
+- [statistical-analysis.md](statistical-analysis.md) - Hypothesis testing and inference
+- [validity-and-diagnostics.md](validity-and-diagnostics.md) - Assessing experimental validity

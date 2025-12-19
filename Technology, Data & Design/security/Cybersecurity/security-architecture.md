@@ -1,273 +1,155 @@
 ---
 category: security
-last_updated: 2025-11-22
-related_templates:
-- technology/cloud-architecture-framework.md
-- technology/site-reliability-engineering.md
-- technology/cloud-migration-strategy.md
+title: Security Architecture Framework
 tags:
 - security
 - security-architecture
 - defense-in-depth
 - enterprise-security
-title: Security Architecture Template
 use_cases:
-- Creating design comprehensive security architecture including security design principles,
-  defensive strategies, implementation patterns, and governance frameworks for enterprise
-  security systems.
-- Project planning and execution
-- Strategy development
+- Designing enterprise security architecture with zero trust, defense-in-depth, least privilege achieving secure-by-design systems and compliance
+- Implementing security architecture frameworks (SABSA/TOGAF) with identity-centric model, network segmentation, data protection for cloud/hybrid environments
+- Security architecture governance with policies, standards, procedures achieving consistent security posture and regulatory compliance
+related_templates:
+- security/Cloud-Security/cloud-security-architecture.md
+- security/Cybersecurity/threat-modeling.md
+- security/Cybersecurity/security-operations.md
 industries:
+- financial-services
+- healthcare
 - government
 - technology
-type: template
+type: framework
 difficulty: intermediate
 slug: security-architecture
 ---
 
-# Security Architecture Template
+# Security Architecture Framework
 
 ## Purpose
-Design comprehensive security architecture including security design principles, defensive strategies, implementation patterns, and governance frameworks for enterprise security systems.
+Design comprehensive enterprise security architecture applying zero trust, defense-in-depth, least privilege principles covering identity and access management, network security, application security, data protection, monitoring, and governance achieving business-aligned security posture.
 
-## Quick Security Architecture Prompt
-Design security architecture for [enterprise/application] with [X users], [Y systems]. Apply principles: zero trust, defense-in-depth, least privilege. Define: identity strategy (SSO, MFA, PAM), network segmentation, data protection (encryption, DLP), endpoint security (EDR), and monitoring (SIEM, SOAR). Use [SABSA/TOGAF] framework. Deliver: architecture diagrams, control matrix, and implementation roadmap.
+## 🚀 Quick Security Architecture Prompt
 
-## Quick Start
+> Design security architecture for **[ORGANIZATION]** (**[USERS]** users, **[SYSTEMS]** systems). Principles: **[ZERO_TRUST/DEFENSE_IN_DEPTH/LEAST_PRIVILEGE]**. Identity: **[SSO]** + **[MFA]** + **[PAM]**. Network: **[SEGMENTATION]**, **[ZERO_TRUST_NETWORK]**. Data: **[ENCRYPTION_AT_REST/IN_TRANSIT]**, **[DLP]**. Endpoint: **[EDR]**. Monitoring: **[SIEM]** + **[SOAR]**. Framework: **[SABSA/TOGAF]**. Compliance: **[SOC2/ISO27001/HIPAA]**. Deliverables: architecture diagrams, control matrix, roadmap.
 
-**Set Your Foundation:**
-1. Define security objectives aligned with business goals and risk tolerance
-2. Identify threat landscape: external threats, insider risks, supply chain vulnerabilities
-3. Determine regulatory requirements and compliance mandates
+---
 
-**Configure Key Parameters:**
-4. Select core security principles: zero trust, defense in depth, least privilege
-5. Define identity strategy: SSO, MFA, PAM implementation approach
-6. Choose technology stack: SIEM, EDR, firewall, WAF, DLP solutions
+## Template
 
-**Implement & Deploy (Ongoing):**
-7. Implement network segmentation with micro-segmentation for critical assets
-8. Deploy zero trust architecture with continuous verification and least privilege access
-9. Establish security monitoring with SIEM, SOAR, and threat intelligence integration
-10. Create security governance framework with policies, standards, and procedures
+Design security architecture for {ORGANIZATION} supporting {BUSINESS_CONTEXT} achieving {SECURITY_OBJECTIVES} with {REGULATORY_REQUIREMENTS} compliance using {ARCHITECTURE_FRAMEWORK}.
 
-**Pro Tips:** Use SABSA or TOGAF for architecture framework, implement security by design in SDLC, automate security controls where possible, and maintain architecture documentation with regular updates. Start with identity-centric security model for zero trust.
+**SECURITY ARCHITECTURE PRINCIPLES**
 
-## Template Structure
+Foundation principles guide all design decisions. Zero trust: never trust, always verify (verify every access request regardless of network location, no implicit trust based on network position, continuous verification throughout session, assume breach posture—design for containment not just prevention), identity-centric security (identity is new perimeter, strong authentication required, authorization at every layer, least privilege by default). Defense in depth: layered security controls ensure no single point of failure (7 layers: perimeter security, network security, endpoint security, application security, data security, identity security, physical security), compensating controls where primary controls insufficient, fail-secure design (default to deny access, lock down on anomaly detection, security controls fail closed not open).
 
-### Security Architecture Overview
-- **Architecture Name**: [ARCHITECTURE_NAME]
-- **Security Objectives**: [SECURITY_OBJECTIVES]
-- **Business Context**: [BUSINESS_CONTEXT]
-- **Threat Landscape**: [THREAT_LANDSCAPE]
-- **Regulatory Requirements**: [REGULATORY_REQUIREMENTS]
-- **Risk Profile**: [RISK_PROFILE]
-- **Architecture Scope**: [ARCHITECTURE_SCOPE]
-- **Technology Stack**: [SECURITY_TECHNOLOGY_STACK]
-- **Budget**: [ARCHITECTURE_BUDGET]
-- **Timeline**: [ARCHITECTURE_TIMELINE]
+Least privilege: minimal access required for job function (start with zero access add minimum necessary, role-based access control aligned with business roles, just-in-time privilege elevation for administrative tasks, regular access reviews remove stale permissions quarterly), separation of duties (no single person can complete critical transaction, developer cannot deploy to production without approval, privileged operations require dual authorization). Security by design: security integrated from start not bolted on (threat modeling during architecture phase, security requirements in user stories, security gates in CI/CD pipeline, secure defaults—opt-in for risky features not opt-out).
 
-### Security Principles
-- **Defense in Depth**: [DEFENSE_IN_DEPTH]
-- **Zero Trust**: [ZERO_TRUST]
-- **Least Privilege**: [LEAST_PRIVILEGE]
-- **Fail Secure**: [FAIL_SECURE]
-- **Security by Design**: [SECURITY_BY_DESIGN]
-- **Separation of Duties**: [SEPARATION_OF_DUTIES]
-- **Complete Mediation**: [COMPLETE_MEDIATION]
-- **Open Design**: [OPEN_DESIGN]
-- **Psychological Acceptability**: [PSYCHOLOGICAL_ACCEPTABILITY]
-- **Work Factor**: [WORK_FACTOR]
+Complete mediation: every access checked, no assumptions (authorization verified at every layer—API gateway, application logic, database, cache invalidation doesn't bypass checks, session management prevents replay attacks). Psychological acceptability: security doesn't impede legitimate users excessively (SSO reduces password fatigue, adaptive authentication—MFA when risk elevated not always, self-service password reset with strong verification, usable security increases compliance). Open design: security through proper implementation not obscurity (cryptographic algorithms public and peer-reviewed, security architecture documented and reviewed, assume attacker knows system design, security relies on secrets like keys not hidden algorithms).
 
-### Identity and Access Management
-- **Identity Strategy**: [IDENTITY_STRATEGY]
-- **Authentication Methods**: [AUTHENTICATION_METHODS]
-- **Authorization Model**: [AUTHORIZATION_MODEL]
-- **Identity Providers**: [IDENTITY_PROVIDERS]
-- **Single Sign-On**: [SINGLE_SIGN_ON]
-- **Multi-Factor Authentication**: [MULTI_FACTOR_AUTHENTICATION]
-- **Privileged Access Management**: [PRIVILEGED_ACCESS_MANAGEMENT]
-- **Identity Governance**: [IDENTITY_GOVERNANCE]
-- **Access Reviews**: [ACCESS_REVIEWS]
-- **Identity Federation**: [IDENTITY_FEDERATION]
+**IDENTITY AND ACCESS MANAGEMENT ARCHITECTURE**
 
-### Network Security Architecture
-- **Network Segmentation**: [NETWORK_SEGMENTATION]
-- **Perimeter Defense**: [PERIMETER_DEFENSE]
-- **Internal Network Security**: [INTERNAL_NETWORK_SECURITY]
-- **Remote Access**: [REMOTE_ACCESS]
-- **Wireless Security**: [WIRELESS_SECURITY]
-- **Network Monitoring**: [NETWORK_MONITORING]
-- **Intrusion Detection**: [INTRUSION_DETECTION]
-- **Intrusion Prevention**: [INTRUSION_PREVENTION]
-- **Network Access Control**: [NETWORK_ACCESS_CONTROL]
-- **DDoS Protection**: [DDOS_PROTECTION]
+Identity is foundation of zero trust. Identity strategy: centralized identity management (single source of truth for identities—Okta/Azure AD/Google Workspace, consistent identity across cloud and on-premises, automated provisioning and deprovisioning from HR system, identity lifecycle management from hire to termination), federated identity (SAML 2.0 for enterprise SSO, OAuth 2.0/OIDC for API authorization and modern apps, WS-Federation for legacy applications, cross-domain federation for partners and M&A).
 
-### Application Security Architecture
-- **Secure Development**: [SECURE_DEVELOPMENT]
-- **Application Security Testing**: [APPLICATION_SECURITY_TESTING]
-- **Runtime Protection**: [RUNTIME_PROTECTION]
-- **API Security**: [API_SECURITY]
-- **Web Application Firewall**: [WEB_APPLICATION_FIREWALL]
-- **Code Analysis**: [CODE_ANALYSIS]
-- **Dependency Management**: [DEPENDENCY_MANAGEMENT]
-- **Container Security**: [CONTAINER_SECURITY]
-- **Serverless Security**: [SERVERLESS_SECURITY]
-- **Mobile Application Security**: [MOBILE_APPLICATION_SECURITY]
+Authentication mechanisms: multi-factor authentication mandatory (100% coverage for workforce, phishing-resistant MFA for privileged users—FIDO2/WebAuthn hardware keys, risk-based adaptive authentication—step up to MFA when unusual activity, passwordless where possible—Windows Hello, Touch ID, biometric), strong password policies where passwords required (12+ character minimum, complexity requirements, pwned password checking via Have I Been Pwned API, password managers encouraged), certificate-based authentication (client certificates for high-security systems, mutual TLS for service-to-service, smart cards for government and high-security environments).
 
-### Data Security Architecture
-- **Data Classification**: [DATA_CLASSIFICATION]
-- **Data Protection**: [DATA_PROTECTION]
-- **Encryption Strategy**: [ENCRYPTION_STRATEGY]
-- **Key Management**: [KEY_MANAGEMENT]
-- **Data Loss Prevention**: [DATA_LOSS_PREVENTION]
-- **Database Security**: [DATABASE_SECURITY]
-- **Backup Security**: [BACKUP_SECURITY]
-- **Data Masking**: [DATA_MASKING]
-- **Data Retention**: [DATA_RETENTION]
-- **Data Governance**: [SECURITY_DATA_GOVERNANCE]
+Authorization models: role-based access control (RBAC) for standard access (roles aligned with job functions—engineer, manager, analyst, role hierarchy with inheritance, role assignments audited quarterly), attribute-based access control (ABAC) for dynamic policies (policy combines user attributes—department, clearance, resource attributes—classification, sensitivity, contextual attributes—time of day, location, device posture, fine-grained access decisions), policy-based access control (PBAC) for sensitive data (separate policies per data classification, ownership and approval workflows, temporal access—grant for project duration then auto-revoke).
 
-Please provide detailed architecture diagrams, security controls mapping, implementation guides, and governance frameworks.
+Privileged access management (PAM): credential vaulting (CyberArk, BeyondTrust, HashiCorp Vault for secrets, automatic password rotation 30-90 days, checkout workflow for shared credentials, emergency break-glass procedures with full audit), just-in-time (JIT) access (time-boxed privilege elevation—maximum 4 hour sessions, approval workflow via ServiceNow or PagerDuty, automatic revocation after time expires, business justification required), session monitoring (all privileged sessions recorded, keystroke logging, live monitoring for sensitive operations, searchable session recordings for forensics).
+
+Identity governance and administration (IGA): access certification (quarterly reviews for privileged access, annual reviews for standard users, manager attestation with consequences for non-response, automated revocation for uncertified access), orphaned account cleanup (accounts for terminated employees removed within 24 hours, dormant accounts disabled after 90 days, service account inventory and ownership), segregation of duties enforcement (SOD conflict detection—developer cannot approve own code, compensating controls where conflicts unavoidable, periodic SOD audits).
+
+**NETWORK SECURITY ARCHITECTURE**
+
+Design defense-in-depth network controls. Network segmentation: macro-segmentation (separate VLANs/VPCs for production, development, corporate, guest networks, DMZ for internet-facing services isolated from internal, PCI CDE segregated with strict firewall rules, management network out-of-band), micro-segmentation (software-defined perimeter with VMware NSX or Cisco ACI, workload-level firewalling beyond VLAN isolation, east-west traffic inspection prevents lateral movement, application-aware policies not just port-based).
+
+Perimeter security: next-generation firewalls (Palo Alto, Fortinet, Cisco Firepower with application identification not just port/protocol, threat prevention—IPS, anti-malware, URL filtering, SSL/TLS decryption and inspection with privacy considerations, high availability with automatic failover), web application firewall (WAF) for internet-facing applications (AWS WAF, Cloudflare, F5 with OWASP Core Rule Set, bot detection and mitigation, API protection, rate limiting and DDoS mitigation), DDoS protection (cloud-based scrubbing—Cloudflare, Akamai, AWS Shield, on-premises appliances for instant response, hybrid approach—on-prem for volumetric, cloud for protocol/application).
+
+Zero trust network access (ZTNA): replace VPN with identity-based access (Zscaler Private Access, Cloudflare Access, Palo Alto Prisma Access, no network-level access—only application-level, verify user identity and device posture before every connection, no lateral movement—users connect to apps not network, continuous verification throughout session). Software-defined perimeter (SDP): hide infrastructure from internet (servers not publicly routable, single packet authorization for access, deny-by-default posture, infrastructure invisible to reconnaissance).
+
+Internal network security: network access control (NAC) with 802.1X (Cisco ISE, Aruba ClearPass, ForeScout for wired and wireless authentication, device profiling and automatic VLAN assignment, guest network isolation, quarantine VLAN for non-compliant devices), intrusion detection and prevention (IDS/IPS at network boundaries, behavioral detection for anomalies, threat intelligence integration for IOC blocking, tuning to reduce false positives <20%), network monitoring (NetFlow/sFlow for traffic analysis, network detection and response—Darktrace, Vectra for behavioral analytics, east-west traffic visibility critical for lateral movement detection).
+
+Remote access security: secure remote work (no traditional VPN—ZTNA instead, endpoint device management—MDM for mobile, configuration management for laptops, always-on encryption, conditional access policies based on device compliance), site-to-site connectivity (IPsec VPN for branch offices, SD-WAN for application-aware routing and built-in security, Direct Connect/ExpressRoute for cloud connectivity, encrypted overlays).
+
+**APPLICATION SECURITY ARCHITECTURE**
+
+Secure applications throughout lifecycle. Secure development lifecycle (SDLC): security by design (threat modeling during design phase identifies threats early, security requirements alongside functional requirements, security user stories in backlog, abuse cases document what attackers might do), secure coding practices (OWASP guidelines for common vulnerabilities, framework-specific security features—parameterized queries, CSRF tokens, security training for developers annually, peer code review with security focus).
+
+Application security testing: static analysis (SAST) in CI/CD (Checkmarx, SonarQube, Veracode scanning source code for vulnerabilities, fail build on critical findings, developer-friendly output with fix guidance, incremental scanning—only changed code for speed), dynamic analysis (DAST) on running applications (weekly automated scans with Burp Suite, OWASP ZAP, Acunetix, authenticated scans for deeper coverage, manual penetration testing annually or before major releases), software composition analysis (SCA) for dependencies (Snyk, WhiteSource, GitHub Dependabot scanning third-party libraries, automated PR creation for vulnerability fixes, license compliance checking).
+
+Runtime protection: web application firewall (WAF) as virtual patch (mitigates vulnerabilities while code fix in progress, custom rules for business logic attacks, API schema validation, logging all blocked requests for analysis), runtime application self-protection (RASP) detects attacks from within application (Contrast Security, Imperva monitors application behavior, blocks SQL injection, XSS, deserialization attacks in real-time, low false positives compared to WAF).
+
+API security: API gateway as enforcement point (Kong, Apigee, AWS API Gateway for authentication and authorization, rate limiting per consumer and API, request/response validation against schema, API analytics for anomaly detection), OAuth 2.0/OIDC for API authorization (client credentials flow for service-to-service, authorization code flow for user delegation, JWT tokens with short expiration and refresh rotation, scope-based access control).
+
+Container and cloud-native security: container image security (scan images in CI/CD and registry with Trivy, Snyk, Aqua, minimal base images—distroless, Alpine, scratch, vulnerability SLA—patch critical in 7 days, sign images with Cosign for supply chain security), Kubernetes security (RBAC for least privilege, Pod Security Standards—Restricted for production, network policies deny-by-default, secrets in external vault not in manifests, admission controllers enforce policies—OPA Gatekeeper, Kyverno), serverless security (function-level IAM roles not shared credentials, code scanning for Lambda/Functions, environment variable encryption, VPC integration for private resource access, execution time and memory limits).
+
+**DATA SECURITY ARCHITECTURE**
+
+Protect data at rest and in transit. Data classification: automated classification (4 tiers: Public, Internal, Confidential, Restricted/PII/PHI/PCI, machine learning classifies documents/emails, data labeling in Office 365, Salesforce with sensitivity labels, user education on proper classification), data inventory (comprehensive catalog of data assets, sensitivity levels assigned, data owners identified, data flow mapping—where data moves, cross-border transfers documented).
+
+Encryption strategy: encryption at rest (full disk encryption—BitLocker, FileVault on all endpoints 100% coverage, database encryption—Transparent Data Encryption for SQL Server, Oracle, cloud storage encryption—S3/Azure Storage/GCS with AES-256, encryption key per tenant for multi-tenant SaaS), encryption in transit (TLS 1.3 minimum for all HTTPS, certificate management via ACM, Let's Encrypt with auto-renewal, internal service-to-service encryption with mTLS, VPN encryption for site-to-site traffic).
+
+Key management: centralized key management (AWS KMS, Azure Key Vault, GCP Cloud KMS for cloud, on-premises HSM for regulated industries—FIPS 140-2 Level 3, envelope encryption—data keys encrypted with master keys, key rotation schedules—annual for root keys, automatic for data keys), customer-managed keys (BYOK for control over encryption, separate keys per environment—production, staging, development, key material never leaves HSM, audit all key usage).
+
+Data loss prevention (DLP): endpoint DLP (Microsoft DLP, Symantec, Digital Guardian monitors file operations, blocks copying PII to USB drives, email attachment scanning and blocking, watermarking sensitive documents), network DLP (inspection at network egress points, SSL/TLS decryption for HTTPS inspection with privacy policy, block uploads of confidential data to personal cloud, integration with CASB), cloud DLP (CASB—Netskope, McAfee MVISION for SaaS applications, discover shadow IT and risky cloud services, enforce encryption for data in cloud, anomaly detection—mass download alerts).
+
+Data protection in applications: secure coding for data (parameterized queries prevent SQL injection and data extraction, output encoding prevents XSS and data leaks, least privilege database users, input validation rejects malformed data), data masking and tokenization (mask PII in non-production environments—test and development, tokenization for payment card data—Stripe, Adyen, format-preserving encryption maintains data format for compatibility), privacy by design (data minimization—collect only necessary data, purpose limitation—use data only for stated purpose, user consent management, right to deletion—GDPR Article 17).
+
+**SECURITY MONITORING AND OPERATIONS**
+
+Detect and respond to threats. SIEM architecture: centralized logging (aggregate logs from all sources—endpoints, servers, network devices, cloud, applications, Windows Event Logs, Linux syslog, AWS CloudTrail, Azure Activity Log, retention per compliance—7 years for SOX, 90 days hot tier for investigation), log analysis and correlation (Splunk, Microsoft Sentinel, Elastic Security for real-time correlation, use case library—150+ correlation rules, MITRE ATT&CK mapping for coverage gaps, threat intelligence integration for IOC matching).
+
+Detection capabilities: signature-based detection (known-bad IOCs from threat intelligence, YARA rules for malware, Snort/Suricata signatures for network attacks), behavioral detection (user behavior analytics—impossible travel, unusual data access, network behavior—lateral movement detection, machine learning for anomaly detection), threat hunting (proactive hypothesis-driven searches, weekly hunts based on intelligence, hunting queries in TIP or SIEM, purple team exercises validate detection).
+
+Security orchestration, automation, and response (SOAR): automated response (Palo Alto XSOAR, Splunk SOAR, Microsoft Sentinel Playbooks automate tier-1 tasks, enrichment—query threat intel, lookup user/asset context, containment—isolate endpoint via EDR, disable account via AD/Azure AD, ticketing—auto-create ServiceNow with evidence), playbooks by incident type (ransomware, phishing, data breach, insider threat with step-by-step procedures), automation philosophy (60%+ of tier-1 tasks automated, human-in-the-loop for tier-2, maintain human judgment for complex investigations).
+
+**GOVERNANCE AND COMPLIANCE ARCHITECTURE**
+
+Establish security governance framework. Policy framework: hierarchical policies (information security policy—overarching principles, standards—technical requirements like encryption standards, procedures—step-by-step how-to guides, guidelines—recommendations and best practices), policy lifecycle (annual review minimum, update within 30 days of regulatory changes, version control and change tracking, executive approval for policy changes).
+
+Security standards and controls: control frameworks (NIST Cybersecurity Framework for risk management, CIS Controls v8 for tactical implementation, ISO 27001 for ISMS certification, industry-specific—PCI-DSS for payments, HIPAA for healthcare, FedRAMP for government cloud), control mapping (map technical controls to framework requirements, document control implementation, evidence collection for audits, continuous compliance monitoring).
+
+Compliance management: regulatory requirements (identify applicable regulations—GDPR for EU data, CCPA for California residents, industry regulations—FINRA for finance, NERC CIP for energy, compliance roadmap with milestones), audit readiness (automated evidence collection via GRC tools, control testing on schedule, remediation tracking for findings, maintain audit artifacts).
+
+Security architecture governance: architecture review board (evaluate new systems for security compliance, approve exceptions to standards with compensating controls, review significant architecture changes, quarterly architecture reviews), security architecture artifacts (reference architectures for common patterns—web application, microservices, data warehouse, security architecture diagrams in enterprise repository, runbooks and implementation guides, decision logs—why certain technologies chosen).
+
+Deliver security architecture as:
+
+1. **ARCHITECTURE DOCUMENTATION** - Layered architecture diagrams, network topology, data flows, trust boundaries
+
+2. **REFERENCE ARCHITECTURES** - Secure patterns for web apps, APIs, microservices, data platforms
+
+3. **CONTROL MATRIX** - Security controls mapped to frameworks (NIST CSF, CIS, ISO 27001, compliance requirements)
+
+4. **TECHNOLOGY STACK** - Selected tools with justification, integration architecture, vendor roadmap
+
+5. **IMPLEMENTATION ROADMAP** - Phased approach, dependencies, milestones, quick wins vs long-term projects
+
+6. **GOVERNANCE FRAMEWORK** - Policies, standards, procedures, roles and responsibilities, review cycles
+
+---
 
 ## Usage Examples
 
-### Cloud Security Architecture
-```
-Design comprehensive security architecture for CloudFirst multi-cloud environment supporting zero trust security objectives with hybrid workforce business context.
+### Example 1: Financial Services Zero Trust Architecture
+**Prompt:** Design security architecture for GlobalBank (50K employees, 10K servers, multi-cloud AWS/Azure) achieving zero trust, SOC 2, PCI-DSS compliance.
 
-Security Architecture Overview:
-- Multi-cloud security architecture for AWS, Azure, GCP platforms
-- Implement zero trust, defense in depth security objectives
-- Support remote workforce, cloud migration business context
-- Address APT, ransomware, insider threat landscape
-- Ensure SOC2, ISO27001 regulatory requirements
+**Expected Output:** Principles: Zero trust (never trust always verify, identity-centric security, continuous verification, assume breach), defense-in-depth (7 layers from perimeter to data), least privilege (minimal access, JIT elevation, quarterly reviews). Business context: financial institution, high-value target for cybercrime and nation-state actors, regulatory scrutiny (OCC, Federal Reserve), PCI-DSS Level 1 merchant. Identity architecture: Okta as identity provider (100K identities—employees, contractors, partners), SAML 2.0 SSO for 200+ applications, phishing-resistant MFA (YubiKey for all employees, Duo push for standard access), CyberArk PAM (5K privileged accounts, credential vaulting, session recording, JIT access with 4-hour expiration), quarterly access reviews with manager attestation. Network architecture: macro-segmentation (production VPC, PCI CDE isolated, development/test separate, corporate network), micro-segmentation with VMware NSX (application-level firewalling, zero trust zones, east-west inspection), perimeter (Palo Alto PA-5450 HA pair, SSL inspection 80% of traffic, threat intelligence integration), ZTNA (Zscaler Private Access replacing VPN, no network-level access, application access based on identity + device posture). Application security: SDLC (threat modeling mandatory for new systems, security user stories, SAST with Checkmarx, DAST with Burp Suite, annual penetration testing), API security (Apigee API gateway, OAuth 2.0, rate limiting, schema validation), WAF (AWS WAF + Cloudflare for DDoS, OWASP Core Rule Set, custom rules for banking-specific attacks), container security (Docker images scanned with Snyk, Kubernetes with Restricted PSS, Istio service mesh for mTLS). Data security: classification (4 tiers auto-classified in Office 365, Varonis for file shares), encryption (AES-256 at rest for all data stores, TLS 1.3 in transit, CloudHSM for key storage FIPS 140-2 Level 3), DLP (Microsoft DLP on endpoints, Netskope CASB for cloud, network DLP at egress), database security (Oracle TDE, SQL Server Always Encrypted, least privilege DB users, query logging). Monitoring: SIEM (Splunk Enterprise Security, 10 TB/day ingestion, 200+ use cases, MITRE ATT&CK mapping 85% coverage), EDR (CrowdStrike Falcon on 50K endpoints), NDR (Darktrace for behavioral analytics), SOAR (Splunk SOAR, 65% tier-1 automation). Compliance: SOC 2 Type II (continuous monitoring, quarterly evidence collection), PCI-DSS (QSA audit annual, quarterly ASV scans, CDE scoping exercises), metrics dashboard (MTTD <12 hours, MTTR <2 hours, patch compliance 95%+). Governance: security architecture review board (monthly meetings, new system approvals), policy framework (25 security policies, annual review), control mapping (NIST CSF Tier 3, CIS Controls v8 implementation). Budget: $25M initial implementation (18 months), $8M annual (personnel, tools, services). Outcomes: zero trust maturity model Level 4, SOC 2 certification achieved, PCI-DSS compliant, zero breaches in 3 years.
 
-Zero Trust Implementation:
-- Never trust, always verify zero trust principles
-- Implement continuous verification, least privilege access
-- Use identity-centric security model identity strategy
-- Deploy SAML, OAuth 2.0, certificate authentication methods
-- Apply RBAC, ABAC authorization model with dynamic policies
+### Example 2: Healthcare Cloud-First Architecture (HIPAA)
+**Prompt:** Design security architecture for HealthSystem (8 hospitals, 25K users, Azure cloud, Epic EHR) achieving HIPAA compliance with cloud-first approach.
 
-### Network Security Architecture
-- Implement micro-segmentation network segmentation
-- Deploy cloud WAF, DDoS protection perimeter defense
-- Use VPC flow logs, SIEM network monitoring
-- Implement cloud CASB, SWG for remote access
-- Deploy NIDS/NIPS intrusion detection systems
+**Expected Output:** Principles: Defense-in-depth (layered controls protecting PHI), least privilege (minimal access to patient records), privacy by design (minimize PHI collection and use), security by design (HIPAA from start). Business context: healthcare delivery, patient safety critical, Epic EHR central system, cloud migration (on-premises → Azure), HIPAA Security Rule compliance mandatory. Identity: Azure AD for workforce (25K users, passwordless with Windows Hello, conditional access policies requiring compliant devices), Azure AD B2C for patient portal (MFA via SMS for patients), PIM for privileged access (JIT elevation for Epic admins, approval workflow, 4-hour maximum session), quarterly access reviews (Epic access audited monthly, privileged quarterly). Network: Azure Virtual Network (hub-spoke topology, production spoke for Epic, dev/test spoke, shared services hub), network security groups (deny-by-default, allow only required protocols, no RDP from internet—Azure Bastion instead), Azure Firewall (centralized egress filtering, threat intelligence blocking, FQDN filtering), Application Gateway with WAF (protect patient portal, OWASP rules, bot mitigation), private endpoints for all PaaS (no public internet access to Azure SQL, Storage, Key Vault), ExpressRoute for on-premises connectivity (dedicated 1Gbps, encryption at Layer 2). Application: Epic EHR in Azure (IaaS VMs, SQL Server Always On, Interconnect to Epic datacenter), patient portal (Azure App Service with vNet integration, Epic FHIR API integration), secure coding (OWASP guidelines, SAST with SonarQube, external penetration testing annual), API security (Azure API Management, OAuth 2.0, HL7/FHIR validation). Data: classification (PHI identified and labeled, auto-classification in SharePoint), encryption (SQL TDE with customer-managed keys in Azure Key Vault, Storage encryption with CMK, TLS 1.3 for all connections, application-level encryption for SSN), DLP (Microsoft 365 DLP prevents PHI in email, endpoint DLP blocks USB for PHI, Defender for Cloud Apps for SaaS), backup (Azure Backup with immutable storage, 7-year retention for HIPAA, quarterly restore testing), de-identification (Presidio for NLP de-identification in research data, k-anonymity k≥5). Medical device security: Claroty for visibility (300+ connected devices—infusion pumps, monitors, imaging), network segmentation (medical device VLANs isolated, no internet access, passive monitoring only), vendor coordination (scheduled patching during maintenance windows). Monitoring: Microsoft Sentinel (Azure Activity Logs, Epic audit logs, 500GB/day analytics tier, 90-day hot retention, 2-year archive for HIPAA), Defender for Endpoint (25K endpoints, auto-isolation on critical threats), Defender for Cloud (Azure workload protection, compliance dashboard, secure score trending), Sentinel playbooks (PHI access anomaly → alert compliance officer, ransomware behavior → isolate + notify IR). Compliance: HIPAA Security Rule (administrative safeguards—policies, training 95% completion, technical safeguards—encryption, access control, audit logging, physical safeguards—badge access, CCTV), annual risk analysis (completed Q1 annually), business associate agreements (340 vendors, 100% BAA coverage), breach notification procedures (60-day HHS notification if >500 patients). Governance: HIPAA compliance officer, privacy officer, security committee (quarterly meetings), policy review (annual, 12 policies updated), Epic security configuration (role-based security classes, break-the-glass logging, patient context audits). Budget: $4.5M cloud migration + security ($2.8M Azure infrastructure, $1.2M security tools, $500K professional services), $2.1M annual. Outcomes: HIPAA audit passed with zero findings, Epic uptime 99.95%, zero PHI breaches, Joint Commission survey passed.
 
-### Data Security Architecture
-- Classify data as public, internal, confidential, restricted
-- Encrypt data at rest with AES-256, in transit with TLS 1.3
-- Implement FIPS 140-2 Level 3 HSM key management
-- Deploy cloud DLP data loss prevention across SaaS/IaaS
-- Apply tokenization, format-preserving encryption data masking
-```
+### Example 3: Technology Startup DevSecOps Architecture
+**Prompt:** Design security architecture for CloudApp B2B SaaS startup (500 developers, Kubernetes, AWS multi-account) achieving SOC 2 compliance with DevSecOps.
 
-## Variables
+**Expected Output:** Principles: Security by design (shift-left, security in CI/CD), least privilege (developers no production access, temporary when needed), defense-in-depth (cloud-native controls), automation first (security as code). Business context: B2B SaaS, 1,000 customers, rapid growth (Series B funding), SOC 2 required for enterprise sales, developer velocity critical. Identity: Okta (500 workforce, 1,000 customer admins), SAML SSO for GitHub, AWS, Slack, passwordless (WebAuthn YubiKeys for developers), AWS IAM (separate accounts for prod/staging/dev, IAM roles via Okta federation, no long-lived credentials), 1Password for secrets (developer personal vaults, shared vaults per team). Network: AWS multi-account (6 accounts—production, staging, dev, security, shared services, logging), VPC per environment (production isolated, staging allows internet egress, Transit Gateway for connectivity), security groups (application-aware, micro-segmentation via tags, default deny), AWS Network Firewall (centralized inspection, domain filtering, IDS), CloudFront + AWS WAF (DDoS protection, rate limiting, geo-blocking). Application: microservices on EKS (50+ services, Kubernetes RBAC, Pod Security Standards Restricted, Istio service mesh for mTLS), GitOps (ArgoCD, all infrastructure as code in Git, peer review required), CI/CD security (GitHub Actions, Snyk scans code/containers/IaC, fail build on critical, CodeQL for SAST, Terraform validation), API Gateway (Kong, JWT authentication, rate limiting per customer, schema validation, API analytics). Data: PostgreSQL RDS (encryption with KMS, automated backups, cross-region replicas), S3 (customer data encrypted with CMK, versioning enabled, lifecycle policies, no public buckets—automated blocking), Redis ElastiCache (in-transit encryption, AUTH enabled), secrets (AWS Secrets Manager, automatic rotation 90 days, application retrieval at runtime). Container security: image scanning (Snyk in CI/CD, ECR scanning, fail deploy on critical vulnerabilities, base image updates weekly), runtime security (Falco on EKS, detect suspicious activity—shell in container, privilege escalation—alert to Slack), supply chain (Sigstore for image signing, admit only signed images, SBOM generation). Monitoring: Elastic Security (self-managed on EKS via ECK operator, 1TB/day logs, 30-day hot retention, 90-day warm), AWS GuardDuty (threat detection for AWS accounts, findings to Slack + JIRA), CloudTrail (all regions, log file validation, S3 with encryption), application logs (structured JSON, sanitized—no PII/secrets). DevSecOps culture: security champions (1 per team, 10 total, monthly training), threat modeling (required for new features, ThreatDragon in GitHub), security training (annual for all engineers, OWASP Top 10 focus), blameless post-mortems (incidents viewed as learning opportunities). SOC 2: automated evidence (AWS Config snapshots, CloudTrail logs, deployment logs in GitHub), continuous compliance (daily checks via Prowler, Sentinel alerts on drift), control matrix (CC6 logical access = IAM + Okta, CC7 monitoring = Elastic + GuardDuty, CC8 change management = GitHub + ArgoCD). Governance: security as code (policies in Git—OPA for Kubernetes, Terraform modules for AWS, peer review required), runbooks in Git (incident response, on-call procedures), lightweight process (weekly security sync, monthly metrics review, no formal ARB—architecture decisions in ADRs). Budget: $800K annual ($400K personnel—3 security engineers, $300K tools, $100K training/conferences), lean operation leveraging open source. Outcomes: SOC 2 Type II achieved year 1, security competitive advantage in sales, developer satisfaction (security doesn't block velocity), zero customer-impacting security incidents.
 
-### Core Architecture Variables
+---
 
-| Variable | Description | Example |
-|----------|-------------|----------|
-| `[ARCHITECTURE_NAME]` | Descriptive name for the security architecture | "Enterprise Zero Trust Architecture", "Cloud-First Security Framework" |
-| `[SECURITY_OBJECTIVES]` | Primary goals the architecture aims to achieve | "Protect customer data, achieve SOC 2 compliance, enable secure remote work" |
-| `[BUSINESS_CONTEXT]` | Business drivers and constraints shaping security decisions | "Hybrid workforce, cloud migration, M&A integration, rapid growth" |
-| `[THREAT_LANDSCAPE]` | Key threats the organization faces | "Ransomware, nation-state APT, insider threats, supply chain attacks" |
-| `[REGULATORY_REQUIREMENTS]` | Compliance frameworks that must be addressed | "SOC 2 Type II, GDPR, HIPAA, PCI-DSS, ISO 27001" |
-| `[RISK_PROFILE]` | Organization's risk tolerance and exposure level | "Low tolerance (financial services)", "Medium (tech startup)", "High (research)" |
-| `[ARCHITECTURE_SCOPE]` | What systems and environments are covered | "All production systems, cloud infrastructure, remote endpoints" |
-| `[SECURITY_TECHNOLOGY_STACK]` | Core security tools and platforms | "CrowdStrike EDR, Splunk SIEM, Okta IAM, Palo Alto firewalls" |
-| `[ARCHITECTURE_BUDGET]` | Total investment allocated for implementation | "$2M initial, $500K annual", "$50K for startup" |
-| `[ARCHITECTURE_TIMELINE]` | Implementation schedule | "18 months phased rollout", "6-month MVP" |
+## Cross-References
 
-### Security Principles
-
-| Variable | Description | Example |
-|----------|-------------|----------|
-| `[DEFENSE_IN_DEPTH]` | Layered security controls approach | "7 layers: perimeter, network, endpoint, application, data, identity, physical" |
-| `[ZERO_TRUST]` | Never trust, always verify implementation | "Verify every access request regardless of source, continuous authentication" |
-| `[LEAST_PRIVILEGE]` | Minimum necessary access approach | "Role-based access with just-in-time elevation, 90-day access reviews" |
-| `[FAIL_SECURE]` | Behavior when controls fail | "Default deny on firewall failure, lock accounts on suspicious activity" |
-| `[SECURITY_BY_DESIGN]` | How security is built into systems | "Threat modeling in design phase, security gates in SDLC, secure defaults" |
-| `[SEPARATION_OF_DUTIES]` | Role separation requirements | "No single admin can deploy to production, 4-eyes principle for privileged ops" |
-
-### Identity and Access Management
-
-| Variable | Description | Example |
-|----------|-------------|----------|
-| `[IDENTITY_STRATEGY]` | Overall approach to identity management | "Identity-centric security model, single source of truth in Okta" |
-| `[AUTHENTICATION_METHODS]` | Supported authentication approaches | "SAML 2.0, OAuth 2.0, FIDO2/WebAuthn, certificate-based" |
-| `[AUTHORIZATION_MODEL]` | Access control methodology | "RBAC for standard access, ABAC for dynamic policies, PBAC for sensitive data" |
-| `[IDENTITY_PROVIDERS]` | Systems managing identities | "Okta (workforce), Azure AD B2C (customers), AWS IAM (cloud)" |
-| `[MULTI_FACTOR_AUTHENTICATION]` | MFA implementation details | "Mandatory for all users, hardware keys for admins, push notifications" |
-| `[PRIVILEGED_ACCESS_MANAGEMENT]` | Admin access controls | "CyberArk for credential vaulting, session recording, just-in-time access" |
-
-### Network Security
-
-| Variable | Description | Example |
-|----------|-------------|----------|
-| `[NETWORK_SEGMENTATION]` | How networks are divided | "Micro-segmentation with VMware NSX, separate VLANs for PCI scope" |
-| `[PERIMETER_DEFENSE]` | Edge protection mechanisms | "Next-gen firewall, WAF, DDoS protection, geo-blocking" |
-| `[REMOTE_ACCESS]` | Secure connectivity for remote users | "ZTNA via Zscaler, no traditional VPN, device posture checks" |
-| `[INTRUSION_DETECTION]` | Threat detection capabilities | "Network IDS at all egress points, behavioral analytics, honeypots" |
-| `[DDOS_PROTECTION]` | Volumetric attack mitigation | "Cloudflare for edge protection, rate limiting, traffic scrubbing" |
-
-### Application Security
-
-| Variable | Description | Example |
-|----------|-------------|----------|
-| `[SECURE_DEVELOPMENT]` | Secure coding practices | "OWASP guidelines, security training for devs, peer code review" |
-| `[APPLICATION_SECURITY_TESTING]` | Testing methodologies | "SAST in CI/CD, weekly DAST scans, annual penetration testing" |
-| `[API_SECURITY]` | API protection measures | "API gateway with rate limiting, OAuth 2.0, schema validation" |
-| `[WEB_APPLICATION_FIREWALL]` | Web application protection | "AWS WAF with OWASP Core Rule Set, custom rules for business logic" |
-| `[CONTAINER_SECURITY]` | Container and orchestration security | "Image scanning, runtime protection, network policies in Kubernetes" |
-
-### Data Security
-
-| Variable | Description | Example |
-|----------|-------------|----------|
-| `[DATA_CLASSIFICATION]` | How data is categorized | "4 tiers: Public, Internal, Confidential, Restricted (auto-classification)" |
-| `[ENCRYPTION_STRATEGY]` | Cryptographic approach | "AES-256 at rest, TLS 1.3 in transit, HSM for key storage" |
-| `[KEY_MANAGEMENT]` | Cryptographic key handling | "AWS KMS for cloud, on-prem HSM, annual key rotation" |
-| `[DATA_LOSS_PREVENTION]` | Data exfiltration prevention | "Microsoft DLP for endpoints, network DLP at egress, CASB for cloud" |
-| `[DATA_RETENTION]` | Data lifecycle management | "7-year retention for financial, 90-day logs, GDPR deletion compliance" |
-
-
-
-## Related Resources
-
-### Complementary Templates
-
-Enhance your workflow by combining this template with:
-
-- **[Cloud Architecture Framework](cloud-architecture-framework.md)** - Complementary approaches and methodologies
-- **[Site Reliability Engineering](site-reliability-engineering.md)** - Complementary approaches and methodologies
-- **[Cloud Migration Strategy](cloud-migration-strategy.md)** - Strategic planning and execution frameworks
-
-### Suggested Workflow
-
-**Typical implementation sequence**:
-
-1. Start with this template (Security Architecture Template)
-2. Use [Cloud Architecture Framework](cloud-architecture-framework.md) for deeper analysis
-3. Apply [Site Reliability Engineering](site-reliability-engineering.md) for execution
-4. Iterate and refine based on results
-
-### Explore More in This Category
-
-Browse all **[technology/Cybersecurity](../../technology/Cybersecurity/)** templates for related tools and frameworks.
-
-### Common Use Case Combinations
-
-- **Creating design comprehensive security architecture including security design principles, defensive strategies, implementation patterns, and governance frameworks for enterprise security systems.**: Combine this template with related analytics and strategy frameworks
-- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
-- **Strategy development**: Combine this template with related analytics and strategy frameworks
-
-## Best Practices
-
-1. **Align security architecture with business objectives**
-2. **Apply defense in depth and zero trust principles**
-3. **Design for scalability and adaptability**
-4. **Integrate security controls throughout the architecture**
-5. **Maintain architecture documentation and governance**
+- [Cloud Security Architecture](../Cloud-Security/cloud-security-architecture.md) - Cloud-specific security patterns
+- [Threat Modeling](threat-modeling.md) - Systematic threat identification for architectures
+- [Security Operations](security-operations.md) - Operational implementation of architecture

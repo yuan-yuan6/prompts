@@ -1,383 +1,138 @@
 ---
-title: 'Contract Drafting Template - Part 2: Risk Provisions'
 category: legal-compliance
+title: Contract Drafting Readiness Assessment - Part 2: Risk Provisions
 tags:
 - liability-caps
 - indemnification
 - warranties
 - termination-clauses
-series: contract-drafting-template
+- readiness-assessment
+series: contract-drafting-readiness-assessment
 part: 2 of 3
 related_parts:
-- contract-drafting-template-01.md
-- contract-drafting-template-03.md
+- contract-drafting-template-01-structure-core.md
+- contract-drafting-template-03-execution.md
 - contract-drafting-template-overview.md
-last_updated: 2025-11-11
-use_cases: []
-related_templates: []
-type: template
+use_cases:
+- Assessing readiness to negotiate and draft risk allocation provisions for a contract
+- Identifying gaps in liability, indemnities, warranties, termination, dispute resolution, and insurance
+- Creating a practical redline strategy and fallback positions aligned to a risk appetite
+related_templates:
+- legal-compliance/contract-drafting-template-01-structure-core.md
+- legal-compliance/contract-drafting-template-03-execution.md
+- legal-compliance/contract-negotiation.md
+- legal-compliance/regulatory-compliance-management.md
+industries:
+- finance
+- government
+- healthcare
+- manufacturing
+- retail
+- technology
+type: framework
 difficulty: intermediate
-slug: contract-drafting-template-02-risk-provisions
+slug: contract-drafting-readiness-assessment-02-risk-provisions
 ---
 
-# Contract Drafting Template - Part 2: Risk Provisions
+# Contract Drafting Readiness Assessment - Part 2: Risk Provisions
 
-## Part Overview
+## Purpose
+Assess readiness to draft and negotiate risk provisions that allocate downside exposure clearly and enforceably across six dimensions: Liability Allocation, Indemnities, Warranties & Remedies, Termination & Transition, Dispute Resolution, and Insurance/Compliance. Identify gaps, prioritize decisions, and produce a negotiation-ready positions matrix.
 
-**This is Part 2 of 3** in the Contract Drafting Template series.
+## 🚀 Quick Assessment Prompt
 
-- **Part 1:** Structure & Core Clauses
-- **Part 2:** Risk Provisions
-- **Part 3:** Execution & Management
+> Assess **contract risk-provisions readiness** for **[ORGANIZATION]** negotiating a **[CONTRACT_TYPE]** under **[RISK_APPETITE]**. Evaluate across: (1) **Liability allocation**—are caps, exclusions, and carve-outs coherent and aligned with the deal economics? (2) **Indemnities**—are third-party claims, IP, privacy/security, and employment indemnities defined with clear defense/settlement mechanics? (3) **Warranties & remedies**—are promises realistic, measurable, and paired with workable cure/remedy pathways? (4) **Termination & transition**—are exit rights, fees, and transition assistance defined to reduce operational risk? (5) **Disputes**—is governing law, venue, ADR/escalation, and injunctive relief aligned to leverage and cost? (6) **Insurance & compliance**—are insurance requirements and regulatory obligations realistic and verifiable? Provide a 1–5 scorecard, top gaps, and recommended fallback positions.
 
-## Quick Start
+**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for a rapid contract risk-provisions readiness evaluation.
 
-This part focuses on **Risk Provisions**. For complete workflow, start with Part 1 and progress sequentially.
+---
 
-**Next Steps:** Continue to Part 3
+## Template
 
-## Related Resources
-- **Overview:** Complete framework navigation guide
-- **Part 1:** Structure & Core Clauses
-- **Part 3:** Execution & Management
+Conduct a contract risk-provisions readiness assessment for {ORGANIZATION} negotiating a {CONTRACT_TYPE} aligned to {RISK_APPETITE}.
 
-- Regulatory compliance and auditing
+Assess readiness across six dimensions, scoring each 1–5:
 
-## 3. CONTRACT NEGOTIATION AND DRAFTING STRATEGIES
-### 3.1 Negotiation Preparation
-#### Deal Structure Analysis
-##### Business Objectives Alignment
-- Strategic goals and priorities identification
-- Value creation and capture mechanisms
-- Risk-reward balance optimization
-- Competitive advantage preservation
-- Market positioning and differentiation
-- Relationship building and management
-- Performance optimization and efficiency
-- Innovation and continuous improvement
+**1. LIABILITY ALLOCATION READINESS**
+- Liability structure defined (direct/indirect; categories of loss; time limits)
+- Caps are set and justified (multiple, aggregate, super-cap areas)
+- Exclusions are coherent (consequential, lost profits, data loss) and not self-contradictory
+- Carve-outs aligned to risk (fraud, willful misconduct, confidentiality, IP, privacy/security)
+- Risk-to-economics alignment (fees, insurance, control, ability to prevent)
+- Internal approvals and negotiation guardrails exist
 
-##### Negotiation Strategy Development
-- BATNA and reservation point analysis
-- Concession planning and trade-offs
-- Timeline and milestone management
-- Authority levels and approval processes
-- Communication strategy and messaging
-- Documentation and record-keeping
-- Relationship management and rapport
-- Cultural and behavioral considerations
+**2. INDEMNITIES & THIRD-PARTY CLAIMS READINESS**
+- Indemnity scope defined (what triggers; whose acts; which claims)
+- Defense and control mechanics specified (selection of counsel, consent to settle)
+- Cooperation and notice requirements are workable (avoid forfeiture traps)
+- IP infringement posture defined (scope, exclusions, mitigation options)
+- Privacy/security and regulatory claim handling is addressed where relevant
+- Indemnity vs insurance interplay is understood
 
-#### Position Assessment
-##### Strength and Weakness Analysis
-- Legal position and precedent review
-- Market power and leverage assessment
-- Financial capacity and resources
-- Technical expertise and capabilities
-- Relationship history and trust
-- Alternative options and opportunities
-- Time pressure and urgency factors
-- Regulatory and compliance advantages
+**3. WARRANTIES, DISCLAIMERS & REMEDIES READINESS**
+- Warranties are specific and achievable (performance, compliance, authority)
+- Disclaimers are appropriate (merchantability/fitness) and consistent with obligations
+- Cure periods and remedy pathways are defined (re-perform, replace, credits)
+- SLA/credit structure (if applicable) aligns with liability and termination rights
+- Material breach definition is not vague or easily abused
+- “Sole and exclusive remedy” decisions are intentional and realistic
 
-##### Risk and Opportunity Evaluation
-- Downside risk quantification and mitigation
-- Upside potential identification and capture
-- Scenario planning and contingency preparation
-- Sensitivity analysis and stress testing
-- Due diligence findings integration
-- Market intelligence and benchmarking
-- Competitive analysis and positioning
-- Future option value and flexibility
+**4. TERMINATION, SUSPENSION & TRANSITION READINESS**
+- Termination rights are balanced (for cause, convenience, insolvency, regulatory)
+- Cure and suspension rules are defined (especially for non-payment/security issues)
+- Fees on termination are addressed (true-up, wind-down, early termination)
+- Return/destruction of data and materials is specified (timing, formats, verification)
+- Transition assistance and handover obligations are defined where needed
+- Survival clause is correct (confidentiality, IP, payment, disputes, audit rights)
 
-### 3.2 Drafting Methodology
-#### Language and Terminology
-##### Precision and Clarity Standards
-- Plain language and accessibility
-- Technical term definition and consistency
-- Ambiguity elimination and prevention
-- Cross-reference accuracy and updating
-- Gender-neutral and inclusive language
-- International and cultural sensitivity
-- Legal certainty and enforceability
-- Professional and business-appropriate tone
+**5. DISPUTE RESOLUTION & GOVERNING LAW READINESS**
+- Governing law and venue selected intentionally (predictability, enforceability)
+- Escalation/ADR path defined (exec escalation, mediation, arbitration/litigation)
+- Interim relief and injunction needs covered (IP/confidentiality/security)
+- Attorneys’ fees and cost shifting decisions made intentionally
+- Notice and limitation-of-action provisions are fair and enforceable
+- Evidence preservation and audit rights interplay considered
 
-##### Standardization and Consistency
-- Template library development and maintenance
-- Clause bank creation and organization
-- Version control and change management
-- Style guide adherence and compliance
-- Formatting and presentation standards
-- Cross-document consistency verification
-- Legal review and quality assurance
-- Continuous improvement and updates
+**6. INSURANCE, COMPLIANCE & SPECIAL RISKS READINESS**
+- Insurance requirements are realistic (types, limits, additional insured, certificates)
+- Compliance obligations are specific (standards, audit rights, reporting, cooperation)
+- Subcontractor flow-downs defined (and monitored) where risk requires
+- Data protection/security commitments are aligned to actual controls
+- Sector-specific obligations addressed (export controls, AML, healthcare, accessibility)
+- Risk register for “non-standard” clauses exists (and owners are assigned)
 
-#### Document Assembly Process
-##### Modular Construction Approach
-- Core template selection and customization
-- Variable content identification and insertion
-- Optional provision selection and inclusion
-- Schedule and exhibit preparation
-- Cross-referencing and hyperlinking
-- Version control and change tracking
-- Collaboration and review workflow
-- Final assembly and quality check
+Deliver your assessment as:
 
-##### Review and Approval Workflow
-- Internal review and sign-off procedures
-- Client consultation and feedback integration
-- Legal counsel review and approval
-- Business stakeholder validation
-- Compliance and risk assessment
-- Final negotiation and execution preparation
-- Document execution and filing
-- Implementation and monitoring setup
+1. **EXECUTIVE SUMMARY** - Overall score, maturity level, top 3 risk decisions to make
 
-### 3.3 Advanced Drafting Techniques
-#### Contingency and Option Structures
-##### Conditional Performance Mechanisms
-- Condition precedent and subsequent structures
-- Milestone-based performance triggers
-- Market condition and economic indicators
-- Regulatory approval and compliance requirements
-- Third-party consent and cooperation
-- Performance benchmarks and thresholds
-- Timeline and deadline dependencies
-- Alternative performance pathways
+2. **DIMENSION SCORECARD** - Table with score (X.X/5) and key finding per dimension
 
-##### Option and Election Provisions
-- Renewal and extension options
-- Termination and exit election rights
-- Scope expansion and reduction mechanisms
-- Price adjustment and renegotiation triggers
-- Performance alternative selections
-- Dispute resolution pathway choices
-- Governance and control modifications
-- Strategic partnership evolution options
+3. **POSITIONS MATRIX** - Preferred position, fallback, and walk-away for key clauses
 
-#### Dynamic and Adaptive Clauses
-- Automatic adjustment and escalation
-- Performance-based modifications
-- Market condition responsiveness
-- Regulatory change adaptation
-- Technology evolution accommodation
-- Relationship maturity recognition
-- Continuous improvement integration
-- Innovation and development incentives
+4. **GAP ANALYSIS** - Top 5 gaps ranked by impact and urgency, with recommended fixes
 
-## 4. SPECIALIZED CONTRACT TYPES AND PROVISIONS
-### 4.1 Commercial Agreements
-#### Sales and Purchase Contracts
-##### Goods and Services Contracts
-- Product specification and quality standards
-- Delivery terms and risk of loss allocation
-- Warranty and guarantee provisions
-- Inspection and acceptance procedures
-- Defect remediation and replacement
-- Price protection and adjustment mechanisms
-- Volume commitments and minimum purchases
-- Distribution and resale restrictions
+5. **NEGOTIATION PLAYBOOK** - Redline rationale, acceptable alternatives, approval thresholds
 
-##### International Sale Contracts
-- INCOTERMS application and interpretation
-- Export and import licensing requirements
-- Currency and foreign exchange provisions
-- Letter of credit and payment security
-- Customs and duty allocation
-- International transportation and logistics
-- Force majeure and political risk
-- Dispute resolution and governing law
+6. **SUCCESS METRICS** - Fewer escalations, fewer late-stage surprises, faster close cycle
 
-#### Service Agreements
-##### Professional Services Contracts
-- Scope of professional services
-- Professional standard and care obligations
-- Client cooperation and information provision
-- Intellectual property and work product ownership
-- Professional liability and indemnification
-- Confidentiality and non-disclosure
-- Staff assignment and replacement
-- Performance measurement and reporting
+Use this maturity scale:
+- 1.0-1.9: Initial (inconsistent positions, reactive negotiation)
+- 2.0-2.9: Developing (basic clauses, frequent escalation)
+- 3.0-3.9: Defined (repeatable positions, clear approvals)
+- 4.0-4.9: Managed (risk-aligned positions matrix, efficient playbook use)
+- 5.0: Optimized (fast, consistent negotiation with measured risk outcomes)
 
-##### Technology and Software Agreements
-- Software licensing and usage rights
-- Implementation and integration services
-- Data security and privacy protection
-- System availability and performance standards
-- Support and maintenance obligations
-- Upgrade and enhancement provisions
-- Escrow and source code protection
-- End-user training and documentation
+## Variables
 
-### 4.2 Partnership and Joint Venture Agreements
-#### Strategic Alliance Frameworks
-##### Partnership Structure Design
-- Partnership purpose and objectives
-- Governance and decision-making structure
-- Capital contribution and financing
-- Profit and loss sharing arrangements
-- Management and operational control
-- Performance monitoring and reporting
-- Intellectual property development and sharing
-- Exit and dissolution procedures
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `[ORGANIZATION]` | Contracting organization | "NorthBridge Payments" |
+| `[CONTRACT_TYPE]` | Agreement type | "Professional services agreement" |
+| `[RISK_APPETITE]` | Risk posture and constraints | "Balanced (reasonable cap; strong privacy/security)" |
 
-##### Joint Venture Operations
-- Joint venture entity formation
-- Board composition and voting rights
-- Management structure and authority
-- Financial contribution and funding
-- Technology and IP contribution
-- Market allocation and territory rights
-- Performance targets and milestones
-- Dispute resolution and deadlock breaking
+## Example
 
-#### Collaborative Development Agreements
-- Research and development cooperation
-- Cost sharing and funding arrangements
-- IP creation and ownership allocation
-- Commercialization rights and responsibilities
-- Regulatory and approval cooperation
-- Market exclusivity and competition restrictions
-- Technology transfer and licensing
-- Publication and disclosure coordination
+**FinTech - Professional Services**
 
-### 4.3 Employment and Consulting Agreements
-#### Employment Contract Provisions
-##### Core Employment Terms
-- Position and role definition
-- Compensation and benefit structure
-- Working conditions and arrangements
-- Performance expectations and evaluation
-- Professional development and training
-- Confidentiality and IP assignment
-- Non-compete and non-solicitation
-- Termination and severance provisions
+> Assess contract risk-provisions readiness for **NorthBridge Payments** negotiating a **professional services agreement** under **Balanced (reasonable cap; strong privacy/security)**. (1) Liability—cap is proposed as fees paid, but carve-outs are broad and undefined. (2) Indemnities—IP and privacy are requested; defense/settlement control is unclear. (3) Warranties—vendor promises “industry best” security without measurable standard; remedies are vague. (4) Termination—customer wants convenience termination without wind-down fees; transition assistance is undefined. (5) Disputes—arbitration is proposed but injunctive relief for confidentiality/IP is not preserved. (6) Insurance—cyber coverage is requested but certificate/evidence process is unclear. Provide scorecard, top gaps, and a positions matrix with preferred/fallback/walk-away.
 
-##### Executive and Key Employee Agreements
-- Executive compensation and incentives
-- Stock option and equity participation
-- Change of control and golden parachute
-- Clawback and recoupment provisions
-- Director and officer indemnification
-- Succession planning and transition
-- Board service and outside activities
-- Post-employment obligations and restrictions
-
-#### Independent Contractor Agreements
-- Independent contractor classification
-- Scope of work and deliverable definition
-- Payment terms and expense reimbursement
-- Intellectual property ownership and assignment
-- Confidentiality and non-disclosure
-- Non-compete and non-solicitation restrictions
-- Termination and project completion
-- Indemnification and liability allocation
-
-## 5. CONTRACT RISK MANAGEMENT AND MITIGATION
-### 5.1 Risk Identification and Assessment
-#### Comprehensive Risk Analysis
-##### Legal Risk Categories
-- Contract formation and validity risks
-- Performance and delivery risks
-- Payment and financial risks
-- Intellectual property and confidentiality risks
-- Regulatory and compliance risks
-- Dispute and litigation risks
-- Termination and transition risks
-- Enforcement and collection risks
-
-##### Business Risk Evaluation
-- Market and competitive risks
-- Technology and obsolescence risks
-- Operational and execution risks
-- Financial and credit risks
-- Relationship and reputation risks
-- Strategic and opportunity risks
-- Environmental and sustainability risks
-- Cybersecurity and data protection risks
-
-#### Risk Quantification Methods
-##### Probability and Impact Assessment
-- Risk likelihood estimation and analysis
-- Impact magnitude and severity evaluation
-- Expected value and loss calculation
-- Risk correlation and concentration analysis
-- Scenario modeling and stress testing
-- Monte Carlo simulation and analysis
-- Decision tree and option valuation
-- Risk-adjusted return and pricing
-
-##### Risk Tolerance and Appetite
-- Risk appetite definition and communication
-- Risk tolerance threshold establishment
-- Risk capacity and capability assessment
-- Risk culture and governance alignment
-- Stakeholder risk preference analysis
-- Regulatory and compliance risk limits
-- Board and executive risk oversight
-- Risk reporting and escalation procedures
-
-### 5.2 Risk Mitigation Strategies
-#### Contractual Risk Allocation
-##### Risk Transfer Mechanisms
-- Liability limitation and exclusion clauses
-- Indemnification and hold harmless provisions
-- Insurance requirements and specifications
-- Guarantee and surety arrangements
-- Escrow and security deposit requirements
-- Performance bond and letter of credit
-- Parent company guarantee and support
-- Third-party risk transfer and outsourcing
-
-##### Risk Sharing Arrangements
-- Joint and several liability structures
-- Proportional responsibility allocation
-- Risk pooling and consortium arrangements
-- Mutual indemnification provisions
-- Reciprocal guarantee and support
-- Shared insurance and risk retention
-- Collaborative risk management programs
-- Industry-wide risk mitigation initiatives
-
-#### Operational Risk Controls
-##### Performance Monitoring and Oversight
-- Key performance indicator tracking
-- Regular reporting and review procedures
-- Audit and inspection rights
-- Quality assurance and control systems
-- Compliance monitoring and testing
-- Early warning and alert systems
-- Corrective action and remediation procedures
-- Continuous improvement and optimization
-
-##### Business Continuity and Contingency Planning
-- Business continuity planning and testing
-- Disaster recovery and emergency procedures
-- Alternative supplier and vendor arrangements
-- Supply chain redundancy and diversity
-- Technology backup and failover systems
-- Crisis management and communication plans
-- Force majeure and extraordinary event procedures
-- Insurance and risk financing arrangements
-
-### 5.3 Dispute Prevention and Resolution
-#### Dispute Avoidance Strategies
-##### Relationship Management
-- Clear communication and expectation setting
-- Regular relationship review and maintenance
-- Proactive issue identification and resolution
-- Collaborative problem-solving and innovation
-- Trust building and relationship investment
-- Cultural sensitivity and understanding
-- Stakeholder engagement and alignment
-- Performance feedback and improvement
-
-##### Contract Administration Excellence
-- Contract interpretation and guidance
-- Change management and modification procedures
-- Performance monitoring and measurement
-- Payment processing and reconciliation
-- Compliance verification and reporting
-- Documentation and record-keeping
-- Training and education programs
-- Best practice sharing and development
-
-#### Alternative Dispute Resolution
-##### Mediation and Conciliation

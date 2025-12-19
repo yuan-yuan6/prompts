@@ -1,17 +1,19 @@
 ---
-title: Goal Setting Template
+title: Goal Setting Readiness Assessment
 category: personal
 tags:
 - goal-setting
+- readiness-assessment
 - objectives-framework
 - progress-tracking
 - action-planning
 use_cases:
-- Creating comprehensive goal-setting frameworks including objectives, action plans,
-  and progress tracking systems to achieve personal and professional aspirations effectively.
-- Project planning and execution
-- Strategy development
-last_updated: 2025-11-09
+- Evaluating readiness to set and achieve meaningful personal and professional goals
+- Assessing capability to design effective goal frameworks with accountability systems
+- Identifying gaps in goal-setting processes and tracking mechanisms
+related_templates:
+- personal/Personal-Development/Life-Management/habit-tracking.md
+- personal/Personal-Development/Skill-Building/learning-pathways.md
 industries:
 - education
 - finance
@@ -19,289 +21,318 @@ industries:
 - manufacturing
 - retail
 - technology
-type: template
+type: framework
 difficulty: intermediate
-slug: goal-setting
+slug: goal-setting-readiness-assessment
 ---
 
-# Goal Setting Template
+# Goal Setting Readiness Assessment
 
 ## Purpose
-Create comprehensive goal-setting frameworks including objectives, action plans, and progress tracking systems to achieve personal and professional aspirations effectively.
+Assess readiness to set, pursue, and achieve meaningful personal and professional goals across six dimensions: Goal Clarity & Design, Planning & Structure, Resources & Support, Tracking & Measurement, Motivation & Commitment, and Adaptation & Learning. This framework identifies capability gaps, prioritizes development areas, and creates actionable goal-achievement strategies.
 
-## Quick Goal Setting Prompt
+## 🚀 Quick Assessment Prompt
 
-Help me set and achieve [goal type - career/health/financial/personal] goals. My main objective is [specific goal] to be achieved by [deadline]. Current status: [where I am now]. Create SMART goals with specific milestones, break down into weekly action items, identify potential obstacles with solutions, and design a tracking system to measure progress. Include accountability methods and rewards for milestone completion.
+> Assess **goal-setting readiness** for **{GOAL_CONTEXT}** pursuing **{TARGET_GOALS}**. Evaluate across: (1) **Goal clarity**—are goals SMART (Specific, Measurable, Achievable, Relevant, Time-bound)? Are priorities clear and conflicts resolved? (2) **Planning quality**—are milestones defined, actions broken down, and timelines realistic? (3) **Resources & support**—what time, budget, tools, and accountability systems are available? (4) **Tracking systems**—how will progress be measured? Are KPIs defined and reviews scheduled? (5) **Motivation & commitment**—what drives pursuit? Are obstacles anticipated? What's the resilience level? (6) **Adaptation readiness**—how flexible is the approach? Are feedback loops established? Provide a readiness scorecard (1-5 per dimension), gap analysis, prioritized recommendations, and a 90-day goal-achievement action plan.
 
-## Quick Start
-
-**Need to set goals quickly?** Use this minimal example:
-
-### Minimal Example
-```
-Create a 6-month goal plan to transition into a data science career. Current status: 2 years as software engineer. Goals include: complete 3 online courses, build 2 portfolio projects, network with 10 data scientists, and apply to 20 positions. Track progress monthly with specific metrics.
-```
-
-### When to Use This
-- Setting personal or professional development goals
-- Planning career transitions or skill development
-- Creating New Year's resolutions with accountability
-- Establishing habits and tracking progress
-
-### Basic 3-Step Workflow
-1. **Define SMART goals** - Specific, Measurable, Achievable, Relevant, Time-bound
-2. **Create action plan** - Break down into concrete steps and milestones
-3. **Track progress** - Set up regular check-ins and adjust as needed
-
-**Time to complete**: 30-60 minutes for initial planning, 15 minutes per review
+**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for rapid goal-setting readiness evaluation.
 
 ---
 
 ## Template
 
-```
-You are a personal development coach. Create [GOAL_SETTING_FRAMEWORK] for [GOAL_CATEGORY] in [TIMEFRAME] using [METHODOLOGY] to help achieve [DESIRED_OUTCOMES] with [SUCCESS_METRICS].
+Assess goal-setting readiness for {GOAL_CONTEXT}, focusing on {TARGET_GOALS} using {APPROACH}.
 
-GOAL ASSESSMENT:
-Current Situation Analysis:
-- Current status: [CURRENT_STATUS]
-- Strengths: [PERSONAL_STRENGTHS]
-- Areas for improvement: [IMPROVEMENT_AREAS]
-- Resources available: [AVAILABLE_RESOURCES]
-- Constraints: [LIMITATIONS_CONSTRAINTS]
-- Motivation level: [MOTIVATION_LEVEL]
+Evaluate readiness across six dimensions, scoring each 1-5:
 
-### Life Areas Evaluation
-- Career: [CAREER_SATISFACTION] - Goals: [CAREER_GOALS]
-- Health: [HEALTH_STATUS] - Goals: [HEALTH_GOALS]
-- Relationships: [RELATIONSHIP_STATUS] - Goals: [RELATIONSHIP_GOALS]
-- Finances: [FINANCIAL_STATUS] - Goals: [FINANCIAL_GOALS]
-- Personal Growth: [GROWTH_STATUS] - Goals: [GROWTH_GOALS]
+**1. GOAL CLARITY & DESIGN**
+- SMART criteria compliance (Specific, Measurable, Achievable, Relevant, Time-bound)
+- Goal prioritization and conflict resolution
+- Alignment with values and long-term vision
+- Clarity of success definition and outcomes
 
-### SMART GOAL FRAMEWORK
+**2. PLANNING & STRUCTURE**
+- Milestone definition and sequencing
+- Action breakdown and task granularity
+- Timeline realism and buffer planning
+- Dependency identification and critical path
 
-### Primary Goals
-Goal 1: [PRIMARY_GOAL_1]
-- Specific: [SPECIFIC_DESCRIPTION_1]
-- Measurable: [MEASUREMENT_CRITERIA_1]
-- Achievable: [ACHIEVABILITY_ASSESSMENT_1]
-- Relevant: [RELEVANCE_JUSTIFICATION_1]
-- Time-bound: [DEADLINE_1]
+**3. RESOURCES & SUPPORT**
+- Time availability and allocation
+- Budget and financial resources
+- Tools, systems, and infrastructure
+- Accountability partners and support networks
 
-Goal 2: [PRIMARY_GOAL_2]
-- Specific: [SPECIFIC_DESCRIPTION_2]
-- Measurable: [MEASUREMENT_CRITERIA_2]
-- Achievable: [ACHIEVABILITY_ASSESSMENT_2]
-- Relevant: [RELEVANCE_JUSTIFICATION_2]
-- Time-bound: [DEADLINE_2]
+**4. TRACKING & MEASUREMENT**
+- KPI definition and measurement methods
+- Progress monitoring systems and dashboards
+- Review cadence (daily, weekly, monthly, quarterly)
+- Data collection and analysis capability
 
-Goal 3: [PRIMARY_GOAL_3]
-- Specific: [SPECIFIC_DESCRIPTION_3]
-- Measurable: [MEASUREMENT_CRITERIA_3]
-- Achievable: [ACHIEVABILITY_ASSESSMENT_3]
-- Relevant: [RELEVANCE_JUSTIFICATION_3]
-- Time-bound: [DEADLINE_3]
+**5. MOTIVATION & COMMITMENT**
+- Intrinsic and extrinsic motivation strength
+- Obstacle anticipation and contingency planning
+- Resilience and persistence factors
+- Reward systems and celebration practices
 
-### ACTION PLANNING
-
-### Goal Breakdown
-### Major Milestones
-- Milestone 1: [MILESTONE_1] - Target date: [MILESTONE_DATE_1]
-- Milestone 2: [MILESTONE_2] - Target date: [MILESTONE_DATE_2]
-- Milestone 3: [MILESTONE_3] - Target date: [MILESTONE_DATE_3]
-
-### Weekly Actions
-Week 1-4: [MONTHLY_ACTIONS_1]
-Week 5-8: [MONTHLY_ACTIONS_2]
-Week 9-12: [MONTHLY_ACTIONS_3]
-
-### Daily Habits
-- [DAILY_HABIT_1]: [HABIT_DESCRIPTION_1] - Time: [HABIT_TIME_1]
-- [DAILY_HABIT_2]: [HABIT_DESCRIPTION_2] - Frequency: [HABIT_FREQUENCY_2]
-- [DAILY_HABIT_3]: [HABIT_DESCRIPTION_3] - Duration: [HABIT_DURATION_3]
-
-### PROGRESS TRACKING
-
-### Key Performance Indicators
-- [KPI_1]: Current [CURRENT_VALUE_1] - Target [TARGET_VALUE_1]
-- [KPI_2]: Baseline [BASELINE_VALUE_2] - Goal [GOAL_VALUE_2]
-- [KPI_3]: Starting point [START_VALUE_3] - End goal [END_VALUE_3]
-
-### Review Schedule
-- Daily check-ins: [DAILY_REVIEW_TIME]
-- Weekly reviews: [WEEKLY_REVIEW_DAY] - Duration: [WEEKLY_REVIEW_DURATION]
-- Monthly assessments: [MONTHLY_REVIEW_DATE] - Focus: [MONTHLY_REVIEW_FOCUS]
-- Quarterly evaluations: [QUARTERLY_REVIEW_SCHEDULE]
-
-### Success Metrics
-### Quantitative Measures
-- [QUANTITATIVE_METRIC_1]: [MEASUREMENT_METHOD_1]
-- [QUANTITATIVE_METRIC_2]: [MEASUREMENT_METHOD_2]
-- [QUANTITATIVE_METRIC_3]: [MEASUREMENT_METHOD_3]
-
-### Qualitative Measures
-- [QUALITATIVE_METRIC_1]: [ASSESSMENT_METHOD_1]
-- [QUALITATIVE_METRIC_2]: [ASSESSMENT_METHOD_2]
-- [QUALITATIVE_METRIC_3]: [ASSESSMENT_METHOD_3]
-
-### OBSTACLE MANAGEMENT
-
-### Potential Challenges
-Challenge 1: [CHALLENGE_1]
-- Likelihood: [LIKELIHOOD_1] - Impact: [IMPACT_1]
-- Prevention strategy: [PREVENTION_STRATEGY_1]
-- Response plan: [RESPONSE_PLAN_1]
-
-Challenge 2: [CHALLENGE_2]
-- Likelihood: [LIKELIHOOD_2] - Impact: [IMPACT_2]
-- Prevention strategy: [PREVENTION_STRATEGY_2]
-- Response plan: [RESPONSE_PLAN_2]
-
-### Support Systems
-- Accountability partner: [ACCOUNTABILITY_PARTNER]
-- Mentors: [MENTORS_LIST]
-- Support groups: [SUPPORT_GROUPS]
-- Professional help: [PROFESSIONAL_SUPPORT]
-- Resources needed: [RESOURCE_REQUIREMENTS]
-
-### MOTIVATION MAINTENANCE
-
-### Intrinsic Motivators
-- Personal values alignment: [VALUES_ALIGNMENT]
-- Passion factors: [PASSION_FACTORS]
-- Growth opportunities: [GROWTH_OPPORTUNITIES]
-- Satisfaction sources: [SATISFACTION_SOURCES]
-
-### Extrinsic Motivators
-- Recognition: [RECOGNITION_GOALS]
-- Rewards: [REWARD_SYSTEM]
-- External validation: [VALIDATION_SOURCES]
-- Consequences: [ACCOUNTABILITY_CONSEQUENCES]
-
-### Visualization Techniques
-- Success visualization: [SUCCESS_VISUALIZATION_PRACTICE]
-- Vision board: [VISION_BOARD_ELEMENTS]
-- Affirmations: [DAILY_AFFIRMATIONS]
-- Mental rehearsal: [MENTAL_REHEARSAL_ROUTINE]
-
-Complete goal-setting framework with actionable steps, tracking systems, and success strategies.
-
-### Final Goal Summary
-Primary Focus: [MAIN_GOAL_FOCUS]
-Timeline: [OVERALL_TIMELINE]
-Success Probability: [SUCCESS_PROBABILITY_ASSESSMENT]
-Support Level: [SUPPORT_SYSTEM_STRENGTH]
-
-Goal Achievement Plan: [COMPREHENSIVE_ACHIEVEMENT_PLAN]
+**6. ADAPTATION & LEARNING**
+- Flexibility and pivot readiness
+- Feedback loop design and responsiveness
+- Reflection practices and learning capture
+- Continuous improvement mindset
 
 ---
 
-### Goal Setting Quality Check
-✓ Specific and clear: [CLARITY_STATUS]
-✓ Measurable outcomes: [MEASURABILITY_STATUS]
-✓ Realistic timeline: [TIMELINE_REALISM]
-✓ Action plan detailed: [ACTION_PLAN_COMPLETENESS]
-✓ Progress tracking system: [TRACKING_SYSTEM_STATUS]
-✓ Support systems identified: [SUPPORT_SYSTEMS_STATUS]
+## Required Output Format
 
-Goal framework completeness: [FRAMEWORK_COMPLETENESS_RATING]
-```
+Deliver your assessment as:
+
+**1. EXECUTIVE SUMMARY**
+- Overall readiness score (X.X/5) and maturity level
+- Top 3 strengths supporting goal achievement
+- Top 3 gaps requiring immediate attention
+- Goal achievement probability and timeline confidence
+
+**2. DIMENSION SCORECARD**
+
+| Dimension | Score | Key Finding | Priority Actions |
+|-----------|-------|-------------|------------------|
+| Goal Clarity & Design | X.X/5 | [finding] | [actions] |
+| Planning & Structure | X.X/5 | [finding] | [actions] |
+| Resources & Support | X.X/5 | [finding] | [actions] |
+| Tracking & Measurement | X.X/5 | [finding] | [actions] |
+| Motivation & Commitment | X.X/5 | [finding] | [actions] |
+| Adaptation & Learning | X.X/5 | [finding] | [actions] |
+
+**3. GOAL PORTFOLIO ASSESSMENT**
+For each target goal, evaluate:
+- SMART compliance status (✓/△/✗)
+- Resource sufficiency (✓/△/✗)
+- Tracking readiness (✓/△/✗)
+- Overall feasibility and recommended adjustments
+
+**4. GAP ANALYSIS**
+Top 5 gaps ranked by impact and urgency:
+- Gap description and root cause
+- Impact on goal achievement
+- Recommended actions and quick wins
+- Timeline and resource requirements
+
+**5. 90-DAY ACTION PLAN**
+Quarterly roadmap across dimensions:
+- **Month 1:** Foundation building (goal refinement, system setup, baseline measurement)
+- **Month 2:** Execution ramp-up (milestone pursuit, tracking activation, support engagement)
+- **Month 3:** Optimization (feedback integration, adaptation, celebration of wins)
+
+**6. SUCCESS METRICS**
+Track readiness improvement:
+- Current scores vs 30-day, 60-day, 90-day targets per dimension
+- Goal achievement milestones and completion metrics
+- Habit formation indicators and consistency tracking
+- Adaptation effectiveness and learning velocity
+
+---
+
+## Maturity Scale
+
+Use this scale for dimension scoring:
+
+**1.0-1.9 (Ad hoc):** Goals vague or undefined, no structured planning, reactive approach, minimal tracking
+
+**2.0-2.9 (Emerging):** Basic goals set but lacks SMART criteria, informal planning, inconsistent tracking, limited support systems
+
+**3.0-3.9 (Defined):** Clear SMART goals, structured planning, regular tracking, some support systems in place
+
+**4.0-4.9 (Managed):** Well-designed goals with strong planning, robust tracking systems, effective support networks, proactive adaptation
+
+**5.0 (Optimized):** Exemplary goal-setting with continuous refinement, sophisticated tracking, strong accountability, high achievement rate, systematic learning
+
+---
 
 ## Variables
-[400+ variables covering comprehensive goal setting including assessment, SMART goals, action planning, progress tracking, obstacle management, and motivation strategies]
 
-## Usage Examples
+| Variable | Description | Example |
+|----------|-------------|---------|
+| {GOAL_CONTEXT} | The person, team, or situation setting goals | "Mid-career professional seeking career transition", "Startup founder building new habits", "Student planning academic year" |
+| {TARGET_GOALS} | The specific goals being pursued | "Switch to data science career within 12 months", "Launch MVP in 6 months while maintaining work-life balance", "Achieve 3.8 GPA while leading two student organizations" |
+| {APPROACH} | The goal-setting methodology or framework | "SMART goals with OKR tracking", "Habit stacking with weekly reviews", "Milestone-based planning with accountability partner" |
 
-## Best Practices
+---
 
-1. **Start with clear objectives** - Define what success looks like before beginning
-2. **Use data to inform decisions** - Base choices on evidence and measurable outcomes
-3. **Iterate and improve continuously** - Treat implementation as an ongoing process
-4. **Engage stakeholders early** - Include key participants in planning and execution
-5. **Document thoroughly** - Maintain clear records for reference and knowledge transfer
-6. **Communicate regularly** - Keep all parties informed of progress and changes
-7. **Address challenges proactively** - Identify potential issues before they become problems
-8. **Celebrate milestones** - Recognize achievements to maintain motivation
-9. **Learn from experience** - Reflect on what works and adjust accordingly
-10. **Stay flexible** - Be ready to adapt based on feedback and changing circumstances
+## Example
 
-## Tips for Success
-
-- Break complex tasks into manageable steps with clear milestones
-- Set realistic timelines that account for dependencies and constraints
-- Allocate sufficient resources including time, budget, and personnel
-- Use templates and frameworks to ensure consistency and quality
-- Seek feedback from users and stakeholders throughout the process
-- Build in checkpoints to assess progress and make adjustments
-- Maintain quality standards while remaining practical and efficient
-- Document lessons learned for future reference and improvement
-- Foster collaboration across teams and departments
-- Stay current with industry best practices and emerging trends
-### Example 1: Career Advancement Goals
+### Input
 ```
-GOAL_SETTING_FRAMEWORK: "Professional development plan"
-GOAL_CATEGORY: "Career advancement"
-TIMEFRAME: "12-month period"
-METHODOLOGY: "SMART goals with OKRs"
-DESIRED_OUTCOMES: "Promotion to senior position"
-SUCCESS_METRICS: "Title change, salary increase, expanded responsibilities"
+GOAL_CONTEXT: "Software engineer with 5 years experience seeking career transition"
+TARGET_GOALS: "Transition to product management role at FAANG company within 12 months"
+APPROACH: "SMART goals with monthly milestones and accountability partner"
 ```
 
-### Example 2: Health and Fitness Goals
+### Output
 ```
-GOAL_SETTING_FRAMEWORK: "Wellness transformation plan"
-GOAL_CATEGORY: "Health and fitness"
-TIMEFRAME: "6-month transformation"
-METHODOLOGY: "Progressive habit stacking"
-DESIRED_OUTCOMES: "Improved fitness and energy levels"
-SUCCESS_METRICS: "Weight loss, strength gains, energy ratings"
+EXECUTIVE SUMMARY
+Overall Readiness: 3.2/5 (Defined)
+Maturity Level: Defined - Clear goal with structured approach but gaps in network/resources
+
+Top 3 Strengths:
+1. Strong technical foundation provides credibility and domain expertise
+2. Clear timeline and willingness to invest in structured learning
+3. Commitment to accountability partnership shows seriousness
+
+Top 3 Gaps:
+1. Limited product management network and mentorship access
+2. No defined portfolio of product work or case studies
+3. Insufficient understanding of FAANG PM interview processes
+
+Achievement Probability: 65% | Timeline Confidence: Moderate
+
+---
+
+DIMENSION SCORECARD
+
+| Dimension | Score | Key Finding | Priority Actions |
+|-----------|-------|-------------|------------------|
+| Goal Clarity & Design | 4.0/5 | Goal is SMART with clear target company tier and timeline | Refine definition of "ready" - what skills, portfolio, network needed? |
+| Planning & Structure | 3.5/5 | Monthly milestones logical but lacks specificity on skill development | Break down into weekly sprints with concrete deliverables |
+| Resources & Support | 2.5/5 | Time allocated but limited PM network and no mentor identified | Urgent: Secure PM mentor, join PM communities, allocate budget for courses |
+| Tracking & Measurement | 3.0/5 | Monthly reviews planned but no KPIs defined | Define lead metrics: applications sent, networking meetings, skills acquired |
+| Motivation & Commitment | 4.0/5 | Strong intrinsic motivation and accountability system | Maintain energy through quick wins and milestone celebrations |
+| Adaptation & Learning | 3.0/5 | Open to feedback but no structured reflection process | Implement weekly retrospectives and monthly pivot assessments |
+
+---
+
+GOAL PORTFOLIO ASSESSMENT
+
+**Primary Goal:** FAANG Product Manager Role
+- SMART compliance: ✓ (Specific company tier, 12-month timeline, measurable outcome)
+- Resource sufficiency: △ (Time yes, network no, budget unclear)
+- Tracking readiness: △ (Review cadence yes, KPIs undefined)
+- Feasibility: **Moderate** - Achievable with network building and portfolio development
+
+Recommended Adjustments:
+- Add sub-goal: "Connect with 20 FAANG PMs in first 6 months"
+- Add milestone: "Complete 3 product case studies by month 6"
+- Buffer: Extend timeline to 15 months or broaden target to include high-growth startups
+
+---
+
+GAP ANALYSIS
+
+**Gap 1: Limited Product Management Network** (Impact: High | Urgency: High)
+- Root cause: Engineer networks skew technical; no systematic outreach strategy
+- Impact: Missing referrals, insights into PM role, interview prep support
+- Actions: Join PM communities (Product School, Reforge), attend meetups, 3 coffee chats/month
+- Timeline: Start immediately, build foundation in 90 days
+
+**Gap 2: No Product Portfolio** (Impact: High | Urgency: High)
+- Root cause: Engineer role focused on delivery, not product thinking documentation
+- Impact: Can't demonstrate product judgment in applications/interviews
+- Actions: Document 2 past projects as PM case studies, create side project with user research
+- Timeline: Complete first case study by week 4, all 3 by month 4
+
+**Gap 3: Unclear PM Skill Gaps** (Impact: Medium | Urgency: High)
+- Root cause: Haven't mapped current skills to PM competency model
+- Impact: Inefficient learning, may miss critical competencies
+- Actions: Complete PM skill assessment, identify top 5 gaps, prioritize courses/practice
+- Timeline: Complete by week 2, build learning plan by week 3
+
+**Gap 4: Insufficient Interview Preparation** (Impact: High | Urgency: Medium)
+- Root cause: Unfamiliar with FAANG PM interview formats (product design, strategy, estimation)
+- Impact: May waste opportunities with poor interview performance
+- Actions: Research interview formats, practice with PM peers, do 10 mock interviews
+- Timeline: Start month 4, intensive prep months 6-9
+
+**Gap 5: No Fallback Plan** (Impact: Medium | Urgency: Low)
+- Root cause: Single target (FAANG) creates risk if timeline slips
+- Impact: Potential discouragement if primary path stalls
+- Actions: Identify 2-3 alternative paths (startup PM, internal transition, PM-adjacent roles)
+- Timeline: Define by month 3, keep warm throughout
+
+---
+
+90-DAY ACTION PLAN
+
+**MONTH 1: Foundation Building**
+Goal Clarity:
+- Complete PM competency self-assessment by week 1
+- Define "interview ready" criteria and portfolio requirements by week 2
+- Identify target FAANG teams/products aligned with background by week 3
+
+Resources & Support:
+- Secure accountability partner (weekly check-ins) by week 1
+- Join 2 PM communities (online + local meetup group) by week 2
+- Budget $500 for PM courses and tools by week 2
+- Reach out to 3 PM mentors for informational interviews by week 4
+
+Tracking:
+- Set up tracking dashboard with KPIs: networking meetings, skills learned, applications sent
+- Schedule weekly reviews (Sundays) and monthly retrospectives (last Friday)
+
+**MONTH 2: Execution Ramp-Up**
+Planning & Structure:
+- Complete PM fundamentals course (Product School or similar) by week 6
+- Write first product case study from past engineering project by week 5
+- Attend 3 PM networking events and secure 6 coffee chats by week 8
+
+Tracking & Measurement:
+- Hit networking goal: 10 PM connections added, 6 conversations completed
+- Document learnings from each networking conversation
+- Begin mock interview practice with accountability partner
+
+Motivation:
+- Celebrate first case study completion
+- Share learning progress in PM community for feedback
+- Reward consistency: treat after 8 consecutive weekly reviews
+
+**MONTH 3: Optimization & Adaptation**
+Adaptation & Learning:
+- Conduct mid-quarter retrospective: What's working? What's not?
+- Adjust networking approach based on which connections most valuable
+- Refine case studies based on PM feedback
+
+Planning:
+- Complete second case study by week 10
+- Outline third case study (side project) by week 12
+- Begin informational interviews at target companies
+
+Tracking:
+- Review progress vs 90-day goals
+- Assess readiness scores improvement across all dimensions
+- Plan next 90-day cycle with refined goals and timelines
+
+---
+
+SUCCESS METRICS
+
+**Readiness Score Targets:**
+| Dimension | Current | 30-day | 60-day | 90-day |
+|-----------|---------|--------|--------|--------|
+| Goal Clarity & Design | 4.0/5 | 4.5/5 | 4.5/5 | 4.5/5 |
+| Planning & Structure | 3.5/5 | 4.0/5 | 4.0/5 | 4.5/5 |
+| Resources & Support | 2.5/5 | 3.0/5 | 3.5/5 | 4.0/5 |
+| Tracking & Measurement | 3.0/5 | 3.5/5 | 4.0/5 | 4.0/5 |
+| Motivation & Commitment | 4.0/5 | 4.0/5 | 4.0/5 | 4.5/5 |
+| Adaptation & Learning | 3.0/5 | 3.5/5 | 4.0/5 | 4.0/5 |
+
+**Goal Achievement Milestones:**
+- Month 1: PM network foundation (10+ connections), first case study complete
+- Month 2: PM course complete, 20+ connections, interview prep started
+- Month 3: 3 case studies done, mentor secured, clear application strategy
+- Month 6: Applied to 5+ roles, conducted 10+ mock interviews
+- Month 9: Active interview pipeline at 3+ companies
+- Month 12: Offer received and accepted
+
+**Habit Formation Indicators:**
+- Weekly review completion rate (target: >90%)
+- Networking consistency (target: 2-3 conversations/week)
+- Learning time invested (target: 8+ hours/week)
+- Case study progress (target: 1 completed every 6 weeks)
+
+**Adaptation Effectiveness:**
+- Pivot decisions made based on feedback (track quantity and quality)
+- Course corrections reducing time-to-milestone
+- Learning velocity increasing over time
 ```
 
-### Example 3: Financial Independence Goals
-```
-GOAL_SETTING_FRAMEWORK: "Financial freedom roadmap"
-GOAL_CATEGORY: "Wealth building"
-TIMEFRAME: "5-year financial plan"
-METHODOLOGY: "Milestone-based planning"
-DESIRED_OUTCOMES: "Financial independence"
-SUCCESS_METRICS: "Net worth targets, passive income goals"
-```
+---
 
-## Customization Options
-
-1. **Goal Categories**
-   - Career and professional
-   - Health and wellness
-   - Financial goals
-   - Relationship goals
-   - Education and learning
-   - Creative pursuits
-   - Spiritual growth
-   - Adventure and travel
-
-2. **Timeframes**
-   - Daily objectives
-   - Weekly targets
-   - Monthly goals
-   - Quarterly milestones
-   - Annual achievements
-   - 5-year visions
-   - Lifetime aspirations
-
-3. **Methodologies**
-   - SMART goals
-   - OKRs (Objectives and Key Results)
-   - Backward planning
-   - Habit stacking
-   - 90-day challenges
-   - Vision-based planning
-   - Values-driven goals
-
-4. **Success Metrics**
-   - Quantitative measures
-   - Qualitative assessments
-   - Behavioral indicators
-   - Milestone achievements
-   - Habit consistency
-   - Progress rates
-   - Satisfaction scores

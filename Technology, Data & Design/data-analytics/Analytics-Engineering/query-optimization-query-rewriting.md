@@ -1,23 +1,27 @@
 ---
 category: data-analytics
-last_updated: 2025-11-10
+description: Optimize SQL query performance through strategic rewriting, execution plan improvements, and advanced patterns including subquery elimination, JOIN optimization, and window functions
+title: Query Optimization - Query Rewriting & SQL Optimization
+tags:
+- query-optimization
+- sql-rewriting
+- execution-plans
+- database-performance
+use_cases:
+- Rewriting inefficient SQL queries for improved performance
+- Optimizing execution plans through query restructuring
+- Implementing query hints and advanced SQL patterns
 related_templates:
 - data-analytics/Analytics-Engineering/query-optimization-baseline-analysis.md
 - data-analytics/Analytics-Engineering/query-optimization-indexing-strategies.md
 - data-analytics/Analytics-Engineering/query-optimization-overview.md
-tags:
-- data-analytics
-- sql-optimization
-- query-rewriting
-- execution-plans
-title: Query Optimization - Query Rewriting & SQL Optimization
-use_cases:
-- Rewriting inefficient SQL queries for improved performance
-- Optimizing execution plans through query restructuring
-- Implementing query hints and advanced SQL patterns for performance
 industries:
+- finance
+- healthcare
+- retail
 - technology
-type: template
+- manufacturing
+type: framework
 difficulty: intermediate
 slug: query-optimization-query-rewriting
 ---
@@ -25,380 +29,94 @@ slug: query-optimization-query-rewriting
 # Query Optimization - Query Rewriting & SQL Optimization
 
 ## Purpose
-Optimize SQL query performance through strategic rewriting, execution plan improvements, and advanced query patterns including subquery elimination, JOIN optimization, window functions, and query hints.
+Optimize SQL query performance through strategic rewriting techniques that transform inefficient patterns into performant alternatives. This framework covers subquery elimination, JOIN optimization, window function usage, CTE patterns, and judicious query hint application while preserving query semantics.
 
-## Quick Rewriting Prompt
-Rewrite this [DATABASE_PLATFORM] query for better performance. Current issues: [TABLE_SCANS/CORRELATED_SUBQUERIES/EXPENSIVE_SORTS/UNION_WITHOUT_ALL]. Convert [SUBQUERY_PATTERN] to [JOIN/EXISTS/WINDOW_FUNCTION], optimize JOIN order for [TABLE_SIZES], add CTEs for [REPEATED_LOGIC], and apply query hints [HINT_TYPE] only if optimizer fails.
+## 🚀 Quick Start Prompt
 
-## Quick Start
+> Optimize **SQL query performance** for **[DATABASE PLATFORM]** by rewriting **[QUERY TYPE]**. Analyze: (1) **Subquery patterns**—convert IN to EXISTS or JOINs, eliminate correlated subqueries; (2) **JOIN optimization**—order by selectivity, choose appropriate join types; (3) **Set operations**—use UNION ALL over UNION, optimize DISTINCT placement; (4) **Advanced patterns**—apply window functions, CTEs for readability and performance. Deliver original and optimized queries, execution plan comparisons, performance metrics, and rewriting rationale.
 
-### For Query Optimization
-Optimize SQL queries in 3 steps:
-
-1. **Identify Optimization Opportunities**
-   - Review baseline analysis for queries with table scans, subqueries, or expensive sorts
-   - Look for: IN clauses with subqueries, UNION without ALL, correlated subqueries, SELECT *
-   - Prioritize queries with execution time > SLA or high execution frequency
-
-2. **Apply Rewriting Patterns**
-   - Convert IN subqueries to JOINs or EXISTS (lines 595-632)
-   - Replace correlated subqueries with window functions (lines 646-663)
-   - Use UNION ALL instead of UNION when duplicates are not an issue (lines 635-643)
-   - Implement CTEs for complex analytical queries (lines 685-736)
-   - Add explicit column lists and eliminate SELECT * (lines 667-679)
-
-3. **Test and Validate**
-   - Compare execution plans before and after optimization
-   - Verify query results match original output
-   - Measure performance improvement (execution time, I/O, CPU)
-   - Apply query hints (lines 772-806) only if needed after testing
-
-**Key Outputs**: Optimized queries, execution plan comparisons, performance metrics
-
-**Key Variables**: `DATABASE_PLATFORM`, `OPTIMIZATION_APPROACH`, `QUERY_COMPLEXITY_LEVEL`
+---
 
 ## Template
 
-```
-You are a SQL query optimization specialist for [DATABASE_PLATFORM]. Optimize SQL queries for [ORGANIZATION_NAME] to improve [PERFORMANCE_OBJECTIVES] using [OPTIMIZATION_APPROACH] methodology.
+Optimize SQL queries for {DATABASE_CONTEXT}, addressing {QUERY_CHALLENGES} to achieve {PERFORMANCE_OBJECTIVES}.
 
-QUERY OPTIMIZATION CONTEXT:
-Project Context:
-- Organization: [ORGANIZATION_NAME]
-- Database platform: [DATABASE_PLATFORM]
-- Workload type: [WORKLOAD_TYPE]
-- Query complexity: [QUERY_COMPLEXITY_LEVEL]
-- Performance targets: [PERFORMANCE_TARGETS]
-- Current challenges: [QUERY_PERFORMANCE_CHALLENGES]
+**1. Subquery Pattern Analysis**
 
-### System Configuration
-- Database version: [DATABASE_VERSION]
-- Query timeout settings: [QUERY_TIMEOUT_SETTINGS]
-- Parallelism configuration: [PARALLELISM_CONFIG]
+Begin by identifying subquery patterns that cause performance problems. IN clauses with subqueries force the optimizer to evaluate the subquery for each row in the outer query—convert these to JOINs or EXISTS which allow more efficient execution strategies. Correlated subqueries that reference outer query columns execute once per outer row, creating multiplicative performance impact—replace with JOINs or window functions that process data in a single pass. Scalar subqueries in SELECT lists execute for every row returned—move these to JOINs or pre-aggregate in CTEs. NOT IN with nullable columns produces unexpected results and poor performance—use NOT EXISTS or LEFT JOIN with NULL check instead. Nested subqueries multiple levels deep confuse optimizers—flatten into JOINs or break into CTEs with clear dependencies. Identify subqueries that return large result sets used only for existence checks—EXISTS returns immediately upon finding a match while IN must materialize the entire set.
 
-### QUERY REWRITING AND OPTIMIZATION
+**2. JOIN Optimization Strategies**
 
-### SQL Query Optimization Techniques
-```sql
--- Query rewriting examples for performance optimization
+Optimize JOIN operations that often dominate query execution time. Order tables in JOINs to start with the most selective—the table that filters to the fewest rows should drive the join to minimize intermediate result sizes. Choose appropriate join types based on data characteristics: INNER JOIN when both sides must match, LEFT JOIN when preserving all rows from one side, and avoid CROSS JOIN unless specifically needed for cartesian products. Convert implicit joins (comma-separated tables in FROM with WHERE conditions) to explicit JOIN syntax for clarity and optimizer efficiency. Eliminate unnecessary JOINs when the joined table contributes no columns to the result and doesn't filter rows—these add overhead without value. Use semi-joins (EXISTS or IN) when you need to filter based on related table existence without returning columns from that table. Consider join hints only when optimizer consistently chooses suboptimal join algorithms despite accurate statistics.
 
--- 1. SUBQUERY TO JOIN CONVERSION
--- Original inefficient subquery
-SELECT [COLUMN_LIST]
-FROM [TABLE_A] a
-WHERE a.[KEY_COLUMN] IN (
-    SELECT b.[KEY_COLUMN]
-    FROM [TABLE_B] b
-    WHERE b.[FILTER_CONDITION] = '[FILTER_VALUE]'
-);
+**3. Set Operation Refinement**
 
--- Optimized JOIN version
-SELECT [COLUMN_LIST]
-FROM [TABLE_A] a
-INNER JOIN (
-    SELECT DISTINCT [KEY_COLUMN]
-    FROM [TABLE_B]
-    WHERE [FILTER_CONDITION] = '[FILTER_VALUE]'
-) b ON a.[KEY_COLUMN] = b.[KEY_COLUMN];
+Refine set operations that often contain hidden performance costs. Replace UNION with UNION ALL when duplicate elimination is unnecessary—UNION implies DISTINCT which requires sorting or hashing the entire result set. Apply DISTINCT at the appropriate level—on source queries before UNION ALL if each source is unique internally, or once at the end if deduplication across sources is needed. Convert multiple UNIONs of the same table with different filters into a single query with OR conditions or CASE expressions when possible. Use INTERSECT and EXCEPT judiciously—these set operations may be less efficient than equivalent EXISTS or NOT EXISTS patterns depending on the optimizer. Avoid DISTINCT as a fix for incorrect JOINs that produce duplicates—fix the JOIN logic instead of masking the problem with expensive deduplication.
 
--- 2. EXISTS vs IN optimization
--- Less efficient IN clause
-SELECT [COLUMN_LIST]
-FROM [TABLE_A] a
-WHERE a.[ID] IN (
-    SELECT [FOREIGN_KEY]
-    FROM [TABLE_B]
-    WHERE [STATUS] = '[ACTIVE_STATUS]'
-);
+**4. Window Function Application**
 
--- More efficient EXISTS clause
-SELECT [COLUMN_LIST]
-FROM [TABLE_A] a
-WHERE EXISTS (
-    SELECT 1
-    FROM [TABLE_B] b
-    WHERE b.[FOREIGN_KEY] = a.[ID]
-        AND b.[STATUS] = '[ACTIVE_STATUS]'
-);
+Apply window functions to replace inefficient self-joins and correlated subqueries. Running totals and cumulative aggregates previously requiring self-joins or correlated subqueries execute efficiently with SUM OVER with appropriate frame specification. Ranking and row numbering using ROW_NUMBER, RANK, and DENSE_RANK eliminate the need for self-joins that match rows to count predecessors. Lag and lead analysis accessing previous or next row values replaces correlated subqueries that find adjacent records. Moving averages and sliding window calculations using frame specifications (ROWS BETWEEN or RANGE BETWEEN) replace complex self-join patterns. First and last value within groups using FIRST_VALUE and LAST_VALUE with partitioning replaces subqueries that find boundary records. Partition carefully to match business logic—incorrect partitioning produces wrong results that may not be obvious in testing.
 
--- 3. UNION to UNION ALL optimization
--- Original UNION (with implicit DISTINCT)
-SELECT [COLUMN_1], [COLUMN_2] FROM [TABLE_A] WHERE [CONDITION_A]
-UNION
-SELECT [COLUMN_1], [COLUMN_2] FROM [TABLE_B] WHERE [CONDITION_B];
+**5. CTE and Query Structure**
 
--- Optimized UNION ALL (when duplicates are not an issue)
-SELECT [COLUMN_1], [COLUMN_2] FROM [TABLE_A] WHERE [CONDITION_A]
-UNION ALL
-SELECT [COLUMN_1], [COLUMN_2] FROM [TABLE_B] WHERE [CONDITION_B];
+Structure complex queries using Common Table Expressions for readability and potential performance benefits. Break complex logic into named CTEs with clear purposes—data filtering, aggregation, transformation, and final assembly—making queries self-documenting and easier to optimize. Apply filters as early as possible in CTEs to reduce data volumes flowing through subsequent operations. Avoid materializing CTEs multiple times by referencing each CTE only once when possible, or use temporary tables for results needed multiple times. Use recursive CTEs for hierarchical data traversal replacing cursor-based or iterative approaches—but set recursion limits to prevent runaway queries. Consider whether CTEs or derived tables (inline subqueries) perform better on your platform—some optimizers inline CTEs while others materialize them. Structure CTEs to enable optimizer predicate pushdown—filters in the final SELECT should push into CTEs when possible.
 
--- 4. Window function optimization
--- Original correlated subquery
-SELECT
-    [COLUMN_LIST],
-    (SELECT COUNT(*)
-     FROM [TABLE_A] a2
-     WHERE a2.[PARTITION_COLUMN] = a1.[PARTITION_COLUMN]
-       AND a2.[DATE_COLUMN] <= a1.[DATE_COLUMN]) as running_count
-FROM [TABLE_A] a1;
+**6. Predicate Optimization**
 
--- Optimized window function
-SELECT
-    [COLUMN_LIST],
-    COUNT(*) OVER (
-        PARTITION BY [PARTITION_COLUMN]
-        ORDER BY [DATE_COLUMN]
-        ROWS UNBOUNDED PRECEDING
-    ) as running_count
-FROM [TABLE_A];
+Optimize WHERE clause predicates that determine how much data the query processes. Make predicates sargable (Search ARGument ABLE) so indexes can be used—avoid functions on indexed columns, use range comparisons instead of BETWEEN when beneficial, and avoid implicit type conversions. Order predicates by selectivity when the optimizer doesn't reorder them automatically—most selective predicates first reduce rows for subsequent predicates. Convert OR conditions to UNION ALL when each condition can use different indexes—OR often prevents index usage while UNION ALL allows optimal access for each branch. Use IN lists instead of multiple OR conditions for the same column—optimizers handle IN lists more efficiently up to platform-specific limits. Avoid negative conditions (NOT IN, NOT LIKE, <>) when positive conditions achieve the same result—positive conditions often enable better index utilization. Parameterize queries appropriately—literal values enable better statistics-based optimization while parameters enable plan reuse.
 
--- 5. Selective projection optimization
--- Avoid SELECT *
-SELECT *
-FROM [LARGE_TABLE] l
-JOIN [REFERENCE_TABLE] r ON l.[KEY] = r.[KEY]
-WHERE [FILTER_CONDITION];
+**7. Query Hint Guidelines**
 
--- Use explicit column lists
-SELECT
-    l.[REQUIRED_COLUMN_1],
-    l.[REQUIRED_COLUMN_2],
-    r.[LOOKUP_VALUE]
-FROM [LARGE_TABLE] l
-JOIN [REFERENCE_TABLE] r ON l.[KEY] = r.[KEY]
-WHERE [FILTER_CONDITION];
-```
+Apply query hints strategically when optimizer choices are consistently suboptimal. Use hints as a last resort after verifying statistics are current, indexes are appropriate, and query structure is optimal—hints override optimizer intelligence and may cause problems as data changes. Document every hint with justification explaining why the optimizer fails and what the hint corrects. Common scenarios for hints include forcing index usage when optimizer incorrectly estimates selectivity, controlling parallelism for queries that perform better single-threaded, and addressing parameter sniffing issues with RECOMPILE or OPTIMIZE FOR hints. Test hints with varying data volumes and distributions—a hint that helps today may hurt tomorrow as data evolves. Review hinted queries during regular maintenance to verify hints remain beneficial. Consider query plan guides or plan forcing as alternatives that don't require query modification.
 
-### Advanced Query Patterns
-```sql
--- Complex analytical query optimization
-WITH [CTE_NAME_1] AS (
-    -- Base data with filters applied early
-    SELECT
-        [DIMENSION_COLUMNS],
-        [MEASURE_COLUMNS],
-        [DATE_COLUMN]
-    FROM [FACT_TABLE]
-    WHERE [DATE_COLUMN] >= '[START_DATE]'
-        AND [DATE_COLUMN] < '[END_DATE]'
-        AND [STATUS_FILTER] = '[ACTIVE_STATUS]'
-),
-[CTE_NAME_2] AS (
-    -- Pre-aggregated metrics
-    SELECT
-        [GROUPING_COLUMNS],
-        SUM([MEASURE_1]) as total_measure_1,
-        AVG([MEASURE_2]) as avg_measure_2,
-        COUNT(*) as record_count,
-        MIN([DATE_COLUMN]) as min_date,
-        MAX([DATE_COLUMN]) as max_date
-    FROM [CTE_NAME_1]
-    GROUP BY [GROUPING_COLUMNS]
-),
-[CTE_NAME_3] AS (
-    -- Window functions for rankings and running totals
-    SELECT
-        *,
-        ROW_NUMBER() OVER (
-            PARTITION BY [PARTITION_COLUMNS]
-            ORDER BY total_measure_1 DESC
-        ) as ranking,
-        SUM(total_measure_1) OVER (
-            PARTITION BY [PARTITION_COLUMNS]
-            ORDER BY [DATE_GROUPING]
-            ROWS UNBOUNDED PRECEDING
-        ) as running_total
-    FROM [CTE_NAME_2]
-)
--- Final result set with performance optimizations
-SELECT
-    [FINAL_COLUMN_LIST],
-    ranking,
-    running_total,
-    -- Calculated fields
-    CASE
-        WHEN total_measure_1 > [THRESHOLD_VALUE] THEN '[HIGH_CATEGORY]'
-        WHEN total_measure_1 > [MEDIUM_THRESHOLD] THEN '[MEDIUM_CATEGORY]'
-        ELSE '[LOW_CATEGORY]'
-    END as performance_category
-FROM [CTE_NAME_3]
-WHERE ranking <= [TOP_N_LIMIT]
-ORDER BY [SORT_COLUMNS];
+**8. Validation and Deployment**
 
--- Optimized pivot query for reporting
-SELECT
-    [ROW_IDENTIFIER],
-    [PIVOT_VALUE_1],
-    [PIVOT_VALUE_2],
-    [PIVOT_VALUE_3],
-    [PIVOT_VALUE_4],
-    ([PIVOT_VALUE_1] + [PIVOT_VALUE_2] + [PIVOT_VALUE_3] + [PIVOT_VALUE_4]) as total_value
-FROM (
-    SELECT
-        [ROW_IDENTIFIER],
-        [PIVOT_COLUMN],
-        [VALUE_COLUMN]
-    FROM [SOURCE_TABLE]
-    WHERE [FILTER_CONDITIONS]
-) source_data
-PIVOT (
-    SUM([VALUE_COLUMN])
-    FOR [PIVOT_COLUMN] IN ([PIVOT_VALUE_1], [PIVOT_VALUE_2], [PIVOT_VALUE_3], [PIVOT_VALUE_4])
-) pivoted_data
-ORDER BY total_value DESC;
+Validate optimized queries thoroughly before production deployment. Verify semantic equivalence by comparing results between original and optimized queries on representative data—row counts, aggregates, and sample records should match exactly. Measure performance improvement capturing execution time, logical reads, physical reads, CPU time, and memory grants before and after optimization. Test with production-like data volumes—queries that perform well on small datasets may behave differently at scale. Validate across parameter ranges if queries are parameterized—optimization that helps one parameter value may hurt others. Create rollback procedures preserving original queries for quick reversion if problems emerge. Monitor optimized queries after deployment tracking execution metrics over time to ensure sustained improvement. Document optimization rationale and decisions for future reference and knowledge sharing.
 
--- Efficient pagination with OFFSET/FETCH
-SELECT
-    [COLUMN_LIST]
-FROM [TABLE_NAME]
-WHERE [FILTER_CONDITIONS]
-ORDER BY [SORT_COLUMNS]
-OFFSET [ROWS_TO_SKIP] ROWS
-FETCH NEXT [PAGE_SIZE] ROWS ONLY;
-```
+Deliver your query optimization as:
 
-### Query Hint Optimization
-```sql
--- Strategic use of query hints for performance
-SELECT [COLUMN_LIST]
-FROM [TABLE_A] a WITH (INDEX([SPECIFIC_INDEX_NAME]))
-JOIN [TABLE_B] b WITH (FORCESEEK) ON a.[KEY] = b.[KEY]
-WHERE [FILTER_CONDITIONS]
-OPTION (
-    MAXDOP [SPECIFIC_MAXDOP],           -- Control parallelism
-    USE HINT('[HINT_NAME]'),            -- Specific optimizer hints
-    RECOMPILE,                          -- Force plan recompilation
-    OPTIMIZE FOR (@parameter = '[VALUE]') -- Parameter sniffing optimization
-);
+1. **Subquery analysis** identifying patterns and conversion opportunities
+2. **JOIN optimization** with reordering, type selection, and elimination recommendations
+3. **Set operation refinement** converting UNION to UNION ALL and optimizing DISTINCT
+4. **Window function rewrites** replacing self-joins and correlated subqueries
+5. **CTE structure** organizing complex queries for clarity and performance
+6. **Predicate optimization** ensuring sargability and selectivity ordering
+7. **Query hints** applied judiciously with documented justification
+8. **Validation results** confirming semantic equivalence and performance improvement
 
--- Index hints for specific scenarios
-SELECT [COLUMN_LIST]
-FROM [LARGE_TABLE] WITH (INDEX([COVERING_INDEX_NAME]), NOLOCK)
-WHERE [INDEXED_COLUMN] = '[VALUE]'
-    AND [DATE_COLUMN] BETWEEN '[START_DATE]' AND '[END_DATE]';
-
--- Join hints for complex queries
-SELECT [COLUMN_LIST]
-FROM [TABLE_A] a
-INNER HASH JOIN [TABLE_B] b ON a.[KEY] = b.[KEY]    -- Force hash join
-LEFT MERGE JOIN [TABLE_C] c ON a.[KEY2] = c.[KEY2]  -- Force merge join
-WHERE [CONDITIONS];
-
--- Lock hints for concurrency control
-SELECT [COLUMN_LIST]
-FROM [TABLE_NAME] WITH (READPAST)      -- Skip locked rows
-WHERE [CONDITIONS];
-
--- Statistics hints for cardinality estimation
-SELECT [COLUMN_LIST]
-FROM [TABLE_NAME]
-WHERE [COLUMN] = '[VALUE]'
-OPTION (USE HINT('FORCE_LEGACY_CARDINALITY_ESTIMATION'));
-```
-
-OUTPUT: Deliver optimized SQL queries including:
-1. Rewritten queries with performance improvements
-2. Before/after execution plan comparisons
-3. Performance metrics (execution time, I/O, CPU reduction)
-4. Query optimization rationale and trade-offs
-5. Advanced patterns (CTEs, window functions, efficient joins)
-6. Query hint recommendations with justification
-7. Testing and validation results
-8. Implementation guidelines and rollback plans
-```
+---
 
 ## Variables
-[DATABASE_PLATFORM], [ORGANIZATION_NAME], [PERFORMANCE_OBJECTIVES], [OPTIMIZATION_APPROACH], [WORKLOAD_TYPE], [QUERY_COMPLEXITY_LEVEL], [PERFORMANCE_TARGETS], [QUERY_PERFORMANCE_CHALLENGES], [DATABASE_VERSION], [QUERY_TIMEOUT_SETTINGS], [PARALLELISM_CONFIG], [COLUMN_LIST], [TABLE_A], [TABLE_B], [KEY_COLUMN], [FILTER_CONDITION], [FILTER_VALUE], [ID], [FOREIGN_KEY], [STATUS], [ACTIVE_STATUS], [COLUMN_1], [COLUMN_2], [CONDITION_A], [CONDITION_B], [PARTITION_COLUMN], [DATE_COLUMN], [LARGE_TABLE], [REFERENCE_TABLE], [KEY], [REQUIRED_COLUMN_1], [REQUIRED_COLUMN_2], [LOOKUP_VALUE], [CTE_NAME_1], [DIMENSION_COLUMNS], [MEASURE_COLUMNS], [FACT_TABLE], [START_DATE], [END_DATE], [STATUS_FILTER], [CTE_NAME_2], [GROUPING_COLUMNS], [MEASURE_1], [MEASURE_2], [CTE_NAME_3], [PARTITION_COLUMNS], [DATE_GROUPING], [FINAL_COLUMN_LIST], [THRESHOLD_VALUE], [HIGH_CATEGORY], [MEDIUM_THRESHOLD], [MEDIUM_CATEGORY], [LOW_CATEGORY], [TOP_N_LIMIT], [SORT_COLUMNS], [ROW_IDENTIFIER], [PIVOT_VALUE_1], [PIVOT_VALUE_2], [PIVOT_VALUE_3], [PIVOT_VALUE_4], [PIVOT_COLUMN], [VALUE_COLUMN], [SOURCE_TABLE], [FILTER_CONDITIONS], [TABLE_NAME], [ROWS_TO_SKIP], [PAGE_SIZE], [SPECIFIC_INDEX_NAME], [KEY2], [SPECIFIC_MAXDOP], [HINT_NAME], [VALUE], [COVERING_INDEX_NAME], [INDEXED_COLUMN], [COLUMN], [CONDITIONS]
+
+| Variable | Description | Example |
+|----------|-------------|---------|
+| `{DATABASE_CONTEXT}` | Platform, version, and workload type | "SQL Server 2022 OLTP system with mixed read-write workload" |
+| `{QUERY_CHALLENGES}` | Specific issues to address | "correlated subqueries in reporting queries, expensive ORDER BY operations, parameter sniffing" |
+| `{PERFORMANCE_OBJECTIVES}` | Target improvements | "reduce P95 query latency from 5 seconds to under 500ms, eliminate table scans on Orders table" |
+
+---
 
 ## Usage Examples
 
-### Example 1: OLTP Transaction Optimization
-```
-DATABASE_PLATFORM: "SQL Server 2022"
-ORGANIZATION_NAME: "E-commerce Platform"
-WORKLOAD_TYPE: "OLTP"
-OPTIMIZATION_APPROACH: "Subquery elimination and index hints"
-QUERY_COMPLEXITY_LEVEL: "Medium"
-PERFORMANCE_TARGETS: "< 100ms response time"
-SPECIFIC_MAXDOP: "1"
-```
+### Example 1: E-Commerce Reporting Query Optimization
+**Prompt:** "Optimize SQL queries for {DATABASE_CONTEXT: PostgreSQL 15 supporting e-commerce analytics with 500GB order history}, addressing {QUERY_CHALLENGES: customer lifetime value calculation using correlated subqueries, product ranking queries with self-joins, sales trend reports with multiple UNIONs}, to achieve {PERFORMANCE_OBJECTIVES: dashboard queries under 3 seconds, nightly batch reports completing within 2-hour window}."
 
-### Example 2: OLAP Analytical Query Optimization
-```
-DATABASE_PLATFORM: "PostgreSQL 15"
-ORGANIZATION_NAME: "Analytics Data Warehouse"
-WORKLOAD_TYPE: "OLAP"
-OPTIMIZATION_APPROACH: "CTE and window function optimization"
-QUERY_COMPLEXITY_LEVEL: "High"
-PERFORMANCE_TARGETS: "< 30 seconds for complex analytics"
-TOP_N_LIMIT: "100"
-```
+**Expected Output:** Subquery analysis converting customer LTV correlated subqueries to window functions with SUM OVER partitioned by customer_id. JOIN optimization eliminating self-join for product ranking using ROW_NUMBER window function. Set operation refinement replacing UNION with UNION ALL for sales trend queries after confirming no cross-source duplicates. CTE structure for batch reports with filtered base CTE, aggregation CTE, and final formatting. Predicate optimization ensuring date range filters are sargable using >= and < instead of BETWEEN with timestamps. Validation showing 85% reduction in logical reads for LTV query, 10x improvement in product ranking.
 
-### Example 3: Hybrid Workload Query Tuning
-```
-DATABASE_PLATFORM: "Snowflake"
-ORGANIZATION_NAME: "SaaS Application"
-WORKLOAD_TYPE: "Hybrid"
-OPTIMIZATION_APPROACH: "Comprehensive rewriting with partition pruning"
-QUERY_COMPLEXITY_LEVEL: "Medium-High"
-PARALLELISM_CONFIG: "Auto-scale with query complexity"
-```
+### Example 2: Financial Transaction Query Tuning
+**Prompt:** "Optimize SQL queries for {DATABASE_CONTEXT: SQL Server 2022 processing 10 million daily transactions with strict latency requirements}, addressing {QUERY_CHALLENGES: account balance calculations with scalar subqueries, transaction lookup queries with OR conditions preventing index usage, audit queries with NOT IN patterns}, to achieve {PERFORMANCE_OBJECTIVES: balance inquiry under 50ms, transaction search under 200ms, audit queries under 30 seconds}."
 
+**Expected Output:** Subquery analysis replacing scalar balance subqueries with indexed view or pre-computed column. JOIN optimization converting OR-based transaction lookups to UNION ALL enabling separate index seeks per condition. NOT IN audit patterns converted to NOT EXISTS with explicit NULL handling. Window function application for running balance calculation replacing iterative cursor-based approach. Query hint recommendation for OPTION (RECOMPILE) on transaction search due to parameter sniffing with highly variable date ranges. Validation confirming semantic equivalence with test cases covering edge conditions and performance metrics showing targets achieved.
 
+### Example 3: Healthcare Analytics Query Restructuring
+**Prompt:** "Optimize SQL queries for {DATABASE_CONTEXT: Snowflake data warehouse with 2TB clinical data supporting population health analytics}, addressing {QUERY_CHALLENGES: patient cohort queries with deeply nested subqueries, outcome analysis with multiple self-joins for temporal patterns, quality measure calculations with complex CASE logic}, to achieve {PERFORMANCE_OBJECTIVES: cohort identification under 60 seconds, outcome analysis under 5 minutes, quality dashboard refresh under 10 minutes}."
 
-## Related Resources
+**Expected Output:** Subquery analysis flattening nested cohort criteria into CTEs with explicit join conditions. Self-join elimination for temporal pattern matching using LAG/LEAD window functions to compare visit sequences. CTE structure with layered approach: base population, inclusion criteria, exclusion criteria, measure calculation, final aggregation. Set operation refinement consolidating multiple measure queries into single pass with conditional aggregation. QUALIFY clause usage for Snowflake-specific row filtering after window functions. Cluster key recommendations aligning with common filter patterns. Validation with warehouse utilization metrics showing reduced scan volume and compute time.
 
-### Complementary Templates
+---
 
-Enhance your workflow by combining this template with:
+## Cross-References
 
-- **[Query Optimization Baseline Analysis](query-optimization-baseline-analysis.md)** - Complementary approaches and methodologies
-- **[Query Optimization Indexing Strategies](query-optimization-indexing-strategies.md)** - Complementary approaches and methodologies
-- **[Query Optimization Overview](query-optimization-overview.md)** - Complementary approaches and methodologies
-
-### Suggested Workflow
-
-**Typical implementation sequence**:
-
-1. Start with this template (Query Optimization - Query Rewriting & SQL Optimization)
-2. Use [Query Optimization Baseline Analysis](query-optimization-baseline-analysis.md) for deeper analysis
-3. Apply [Query Optimization Indexing Strategies](query-optimization-indexing-strategies.md) for execution
-4. Iterate and refine based on results
-
-### Explore More in This Category
-
-Browse all **[data-analytics/Analytics Engineering](../../data-analytics/Analytics Engineering/)** templates for related tools and frameworks.
-
-### Common Use Case Combinations
-
-- **Rewriting inefficient SQL queries for improved performance**: Combine this template with related analytics and strategy frameworks
-- **Optimizing execution plans through query restructuring**: Combine this template with related analytics and strategy frameworks
-- **Implementing query hints and advanced SQL patterns for performance**: Combine this template with related analytics and strategy frameworks
-
-## Best Practices
-
-1. **Always test in non-production first** - Validate query changes in staging environment
-2. **Preserve query semantics** - Ensure optimized query returns identical results
-3. **Measure before and after** - Capture execution time, I/O, and CPU metrics
-4. **Use EXISTS over IN for correlated data** - Better performance for large datasets
-5. **Apply filters early in CTEs** - Reduce data volume before complex operations
-6. **Leverage window functions** - Replace correlated subqueries for better performance
-7. **Avoid SELECT *** - Specify only required columns to reduce I/O
-8. **Use UNION ALL when possible** - Skip DISTINCT operation if not needed
-9. **Order JOIN tables by size** - Start with smallest table for better execution plans
-10. **Apply query hints sparingly** - Use only when optimizer makes suboptimal choices
-
-## Tips for Success
-
-- Start with the most expensive queries (highest execution time × frequency)
-- Review actual execution plans, not just estimated plans
-- Convert scalar subqueries to JOINs or window functions
-- Push WHERE clause predicates as close to data source as possible
-- Use CTEs to improve query readability and optimizer efficiency
-- Test with production-like data volumes to validate performance gains
-- Document optimization rationale for future reference
-- Consider query hint alternatives (better indexes, updated statistics) first
-- Use NOLOCK hints carefully - understand dirty read implications
-- Monitor query performance over time to detect regressions
-- Break complex queries into smaller steps if needed for clarity
-- Cache frequently used subquery results in temporary tables for reuse
+- [query-optimization-baseline-analysis.md](query-optimization-baseline-analysis.md) - Identify queries needing optimization
+- [query-optimization-indexing-strategies.md](query-optimization-indexing-strategies.md) - Index design supporting rewritten queries
+- [query-optimization-overview.md](query-optimization-overview.md) - Query optimization module navigation

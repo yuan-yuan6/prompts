@@ -1,259 +1,131 @@
 ---
 category: technology
-last_updated: 2025-11-23
 related_templates:
-- technology/cloud-architecture-framework.md
-- technology/site-reliability-engineering.md
-- technology/cloud-migration-strategy.md
+- technology/AI-Machine-Learning/model-development.md
+- data-analytics/Data-Science/predictive-modeling.md
+- data-analytics/Data-Science/model-evaluation.md
 tags:
 - machine-learning
 - algorithm-selection
 - model-evaluation
 - hyperparameter-tuning
-title: Algorithm Selection Template
+title: Algorithm Selection
 use_cases:
-- Creating systematic approach to selecting optimal machine learning algorithms for
-  classification, regression, clustering, and other ml tasks based on data characteristics,
-  business requirements, and performance constraints.
-- Project planning and execution
-- Strategy development
+- Systematic algorithm selection for classification and regression problems comparing gradient boosting, neural networks, and linear models across accuracy and latency tradeoffs
+- Clustering and unsupervised learning algorithm selection matching data characteristics to appropriate methods for customer segmentation and anomaly detection
+- Production constraint optimization balancing model accuracy against inference latency, memory footprint, and interpretability requirements
 industries:
 - technology
-type: template
+- financial-services
+- healthcare
+- retail
+type: framework
 difficulty: intermediate
 slug: algorithm-selection
 ---
 
-# Algorithm Selection Template
+# Algorithm Selection
 
 ## Purpose
-Systematic approach to selecting optimal machine learning algorithms for classification, regression, clustering, and other ML tasks based on data characteristics, business requirements, and performance constraints.
+Systematic framework for selecting optimal machine learning algorithms based on problem type, data characteristics, performance requirements, and production constraints achieving best accuracy-efficiency tradeoff for specific business objectives.
 
-## Quick Algorithm Selection Prompt
-Select ML algorithm for [problem type: classification/regression/clustering] with [X rows], [Y features], [Z% missing data]. Constraints: [interpretability/speed/accuracy priority], [training time limit], [inference latency]. Compare 3-5 candidates using cross-validation. Evaluate: accuracy, F1/RMSE, training time, inference speed. Recommend best model with hyperparameter tuning guidance.
+## 🚀 Quick Algorithm Selection Prompt
 
-## Quick Start
+> Select algorithm for **[PROBLEM_TYPE]** (classification/regression/clustering/ranking) with **[ROWS]** samples, **[FEATURES]** features, **[MISSING]**% missing data. Priority: **[ACCURACY/LATENCY/INTERPRETABILITY]**. Constraints: training **[HOURS]** hours max, inference **[MS]**ms p99, memory **[GB]**GB. Compare **[3-5]** candidates using **[CV_STRATEGY]**. Metrics: **[PRIMARY_METRIC]**, **[SECONDARY_METRICS]**. Recommend best model with hyperparameter ranges.
 
-**Select ML algorithms in 5 steps:**
+---
 
-1. **Define Problem Type**: Identify if supervised (classification/regression), unsupervised (clustering), or other; determine success metrics
-2. **Analyze Data**: Check dataset size, feature count, missing values, class balance, linearity, and complexity
-3. **Start with Baselines**: Test simple models first - LogisticRegression/RandomForest for classification, LinearRegression/XGBoost for regression
-4. **Compare Algorithms**: Evaluate 3-5 candidates using cross-validation on accuracy, training time, inference speed, interpretability
-5. **Optimize Top Performer**: Tune hyperparameters of best model, validate on holdout set, assess production constraints
+## Template
 
-**Quick Algorithm Selection:**
-```python
-from sklearn.model_selection import cross_val_score
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.linear_model import LogisticRegression
-from sklearn.svm import SVC
+Select optimal algorithm for {PROBLEM_TYPE} on {DATASET_DESCRIPTION} achieving {SUCCESS_METRIC} with {LATENCY_CONSTRAINT} inference latency and {INTERPRETABILITY_LEVEL} interpretability.
 
-# Test multiple algorithms
-algorithms = {
-    'Logistic': LogisticRegression(),
-    'RandomForest': RandomForestClassifier(),
-    'SVM': SVC()
-}
+**PROBLEM TYPE CLASSIFICATION**
 
-results = {}
-for name, model in algorithms.items():
-    scores = cross_val_score(model, X_train, y_train, cv=5, scoring='accuracy')
-    results[name] = {'mean': scores.mean(), 'std': scores.std()}
-    print(f"{name}: {scores.mean():.3f} (+/- {scores.std():.3f})")
+Match algorithm family to problem structure and output requirements. Binary classification (spam/not spam, churn/retain): logistic regression baseline, gradient boosting for tabular, neural networks for unstructured data. Multi-class classification (product categories, intent classification): extend binary methods with one-vs-rest or native multi-class support, consider class hierarchy if present. Multi-label classification (document tagging, product attributes): binary relevance (independent classifiers per label), classifier chains (model label dependencies), or neural networks with sigmoid outputs.
 
-# Select best performer
-best_model = max(results, key=lambda x: results[x]['mean'])
-```
+Regression problems span different loss functions and output distributions. Point prediction (house prices, demand forecasting): linear regression baseline, gradient boosting for complex patterns, neural networks for high-dimensional inputs. Quantile regression (uncertainty estimation, risk assessment): quantile loss variants of gradient boosting, conformalized predictions for valid intervals. Count regression (event counts, customer visits): Poisson regression for rare events, negative binomial for overdispersed counts.
 
-## Template Structure
+Unsupervised problems require different selection criteria. Clustering (customer segmentation, document grouping): K-means for spherical clusters with known k, DBSCAN for arbitrary shapes with density variation, hierarchical for exploring cluster structure. Dimensionality reduction (visualization, feature extraction): PCA for linear relationships preserving variance, t-SNE/UMAP for visualization preserving local structure, autoencoders for nonlinear feature learning. Anomaly detection (fraud detection, system monitoring): Isolation Forest for high-dimensional tabular, autoencoders for sequential/image data, statistical methods (Z-score, IQR) for simple univariate cases.
 
-### Problem Definition
-- **Problem Type**: [PROBLEM_TYPE]
-- **Business Objective**: [BUSINESS_OBJECTIVE]
-- **Success Metrics**: [SUCCESS_METRICS]
-- **Data Characteristics**: [DATA_CHARACTERISTICS]
-- **Performance Requirements**: [PERFORMANCE_REQUIREMENTS]
-- **Resource Constraints**: [RESOURCE_CONSTRAINTS]
-- **Interpretability Requirements**: [INTERPRETABILITY_REQUIREMENTS]
-- **Deployment Constraints**: [DEPLOYMENT_CONSTRAINTS]
-- **Timeline**: [SELECTION_TIMELINE]
-- **Budget**: [SELECTION_BUDGET]
+**DATA CHARACTERISTICS MATCHING**
 
-### Data Analysis
-- **Dataset Size**: [DATASET_SIZE]
-- **Feature Count**: [FEATURE_COUNT]
-- **Data Types**: [DATA_TYPES]
-- **Missing Values**: [MISSING_VALUES]
-- **Noise Level**: [NOISE_LEVEL]
-- **Outliers**: [OUTLIERS]
-- **Class Distribution**: [CLASS_DISTRIBUTION]
-- **Feature Correlation**: [FEATURE_CORRELATION]
-- **Dimensionality**: [DIMENSIONALITY]
-- **Temporal Aspects**: [TEMPORAL_ASPECTS]
+Select algorithms tolerating your data's specific challenges. Small datasets (<10K samples): regularized linear models prevent overfitting, gradient boosting with early stopping, avoid deep learning unless transfer learning applies. Large datasets (>1M samples): gradient boosting scales well with subsampling, neural networks benefit from scale, consider distributed training (Spark ML, Dask-ML). High-dimensional data (features >> samples): L1 regularization for sparsity (Lasso), elastic net combining L1/L2, tree-based feature importance for selection.
 
-### Algorithm Categories
-- **Supervised Learning**: [SUPERVISED_ALGORITHMS]
-- **Unsupervised Learning**: [UNSUPERVISED_ALGORITHMS]
-- **Semi-supervised Learning**: [SEMI_SUPERVISED_ALGORITHMS]
-- **Reinforcement Learning**: [REINFORCEMENT_ALGORITHMS]
-- **Deep Learning**: [DEEP_LEARNING_ALGORITHMS]
-- **Ensemble Methods**: [ENSEMBLE_METHODS]
-- **Online Learning**: [ONLINE_LEARNING_ALGORITHMS]
-- **Transfer Learning**: [TRANSFER_LEARNING]
-- **Few-shot Learning**: [FEW_SHOT_LEARNING]
-- **Meta Learning**: [META_LEARNING]
+Handle missing values appropriately by algorithm choice. Native handling: XGBoost, LightGBM, CatBoost learn optimal missing splits without imputation. Requires imputation: linear models, neural networks, SVM need complete data (median/mode simple, KNN/MICE for sophisticated). Informative missingness: add binary indicators for "was_missing" when missingness pattern contains signal.
 
-### Selection Criteria
-- **Accuracy Requirements**: [ACCURACY_REQUIREMENTS]
-- **Training Time**: [TRAINING_TIME_CONSTRAINTS]
-- **Inference Time**: [INFERENCE_TIME_CONSTRAINTS]
-- **Memory Requirements**: [MEMORY_REQUIREMENTS]
-- **Interpretability**: [INTERPRETABILITY_NEEDS]
-- **Scalability**: [SCALABILITY_REQUIREMENTS]
-- **Robustness**: [ROBUSTNESS_REQUIREMENTS]
-- **Implementation Complexity**: [IMPLEMENTATION_COMPLEXITY]
-- **Maintenance Effort**: [MAINTENANCE_EFFORT]
-- **Cost Constraints**: [COST_CONSTRAINTS]
+Address class imbalance through algorithm and technique selection. Mild imbalance (80:20 to 95:5): class weights in loss function sufficient for most algorithms, stratified sampling maintains ratio in CV. Severe imbalance (>99:1): SMOTE oversampling of minority class, undersampling majority with ensemble (EasyEnsemble), anomaly detection framing when positives are truly anomalous. Metric selection: F1-score or PR-AUC over accuracy, focus on precision/recall tradeoff for business needs.
 
-### Evaluation Framework
-- **Evaluation Metrics**: [EVALUATION_METRICS]
-- **Cross Validation**: [CROSS_VALIDATION_STRATEGY]
-- **Train/Validation/Test Split**: [DATA_SPLIT_STRATEGY]
-- **Baseline Models**: [BASELINE_MODELS]
-- **Statistical Tests**: [STATISTICAL_TESTS]
-- **A/B Testing**: [AB_TESTING_STRATEGY]
-- **Performance Benchmarks**: [PERFORMANCE_BENCHMARKS]
-- **Bias Evaluation**: [BIAS_EVALUATION]
-- **Fairness Metrics**: [FAIRNESS_METRICS]
-- **Robustness Testing**: [ROBUSTNESS_TESTING]
+**ALGORITHM COMPARISON BY CATEGORY**
 
-Please provide detailed comparison matrices, evaluation frameworks, implementation examples, and decision trees for algorithm selection.
+Gradient boosting (XGBoost, LightGBM, CatBoost) dominates structured tabular data. XGBoost: most mature, extensive documentation, slower training than alternatives. LightGBM: fastest training (histogram-based), handles large datasets well, leaf-wise growth can overfit small data. CatBoost: best native categorical handling, ordered boosting reduces overfitting, slowest but often highest accuracy. Choose LightGBM for speed, CatBoost for categorical-heavy data, XGBoost for stability and ecosystem.
+
+Linear models remain competitive for interpretability and speed. Logistic/linear regression: fully interpretable coefficients, fastest training and inference, baseline that must be beaten. Ridge (L2): handles multicollinearity, all features retained with shrinkage. Lasso (L1): automatic feature selection, sparse solutions, handles high-dimensional data. ElasticNet: combines L1/L2 benefits, tune mixing parameter α.
+
+Neural networks for unstructured and complex data. MLPs: universal approximators, require careful architecture tuning, overfit small data easily. CNNs: image and spatial data, transfer learning from ImageNet saves data/compute. Transformers: text and sequential data, pretrained models (BERT, GPT) dominate NLP. When to use: unstructured data (images, text, audio), very large datasets (>1M samples), complex feature interactions where gradient boosting plateaus.
+
+Tree-based alternatives to boosting. Random Forest: robust to hyperparameters, embarrassingly parallel, handles high dimensions well. Extra Trees: faster than RF (no best split search), often comparable accuracy. Decision Tree: fully interpretable but weak alone, use as baseline or in ensembles. When to prefer trees over boosting: need parallel training, want out-of-bag validation, ensemble diversity in stacking.
+
+**HYPERPARAMETER OPTIMIZATION STRATEGY**
+
+Define search spaces by algorithm family. Gradient boosting common ranges: learning_rate [0.01-0.3], n_estimators [100-2000], max_depth [3-10], min_child_weight [1-10], subsample [0.6-1.0], colsample_bytree [0.6-1.0]. Neural networks: learning_rate [1e-5 to 1e-2], batch_size [16-256], hidden_units [64-512], layers [2-6], dropout [0.1-0.5]. Linear models: regularization strength C or alpha [1e-4 to 1e2], penalty type [L1, L2, ElasticNet].
+
+Choose optimization method matching budget. Grid search: exhaustive but expensive, appropriate for <100 combinations. Random search: more efficient than grid for same budget, sample 50-100 configurations. Bayesian optimization (Optuna, Hyperopt): learns from trials, best for expensive evaluations, 30-50 trials often sufficient. Early stopping: terminate poor configurations quickly, critical for neural networks and boosting.
+
+Validate hyperparameter selection rigorously. Nested cross-validation: outer loop evaluates model, inner loop tunes hyperparameters, prevents optimistic bias. Holdout validation: simpler, requires sufficient data, test set never seen during tuning. Time-series: temporal split respecting data ordering, expanding or sliding window CV.
+
+**PRODUCTION CONSTRAINT OPTIMIZATION**
+
+Optimize for inference latency by algorithm and optimization. Fastest (<1ms): linear models, small decision trees, nearest neighbor with approximate search. Medium (1-10ms): gradient boosting with limited trees (100-500), small neural networks. Slower (10-100ms): large ensembles, deep neural networks, require optimization for real-time. Optimization techniques: ONNX runtime (2-5x speedup), model distillation (train small model on large model predictions), quantization (INT8 reduces latency/memory 2-4x with <1% accuracy loss).
+
+Minimize memory footprint for deployment constraints. Model size factors: tree count and depth for boosting, parameter count for neural networks, feature count for linear models. Compression techniques: pruning (remove low-importance trees/neurons), quantization (FP16/INT8), knowledge distillation. Target sizes: mobile/edge <50MB, serverless <250MB, standard deployment <1GB.
+
+Balance interpretability requirements with performance. Fully interpretable: linear models with coefficients, shallow decision trees (<5 depth), rule-based systems. Post-hoc explanations: SHAP for any model (expensive but comprehensive), LIME for local explanations, feature importance from trees. Regulatory requirements: GDPR Article 22 requires explanation capability, finance requires adverse action reasons, healthcare requires clinical validation.
+
+**EVALUATION AND COMPARISON FRAMEWORK**
+
+Design rigorous comparison experiments. Algorithm candidates: select 3-5 diverse algorithms (linear baseline, tree-based, boosting, optionally neural). Consistent preprocessing: same feature engineering, imputation, encoding across all candidates. Same validation: identical CV splits using random seed, stratification for classification. Statistical testing: paired t-test or Wilcoxon signed-rank for significance, multiple comparison correction if >2 algorithms.
+
+Select metrics matching business objectives. Classification: accuracy (balanced classes), F1-score (imbalanced), AUC-ROC (ranking quality), precision@k (top-k selection). Regression: RMSE (penalize large errors), MAE (robust to outliers), MAPE (relative error), R² (explained variance). Ranking: NDCG (graded relevance), MRR (first relevant position), MAP (average precision). Business metrics: revenue impact, cost savings, time saved—ultimate validation.
+
+Document selection rationale for stakeholders. Selection criteria: weighted scoring across accuracy, latency, interpretability, maintenance. Tradeoff analysis: Pareto frontier of accuracy vs latency, identify knee points. Sensitivity analysis: performance variation across CV folds, feature importance stability. Final recommendation: best algorithm with confidence, runner-up for different constraint scenarios.
+
+Deliver algorithm selection as:
+
+1. **PROBLEM ANALYSIS** - Problem type classification, success metric definition, business constraint specification
+
+2. **DATA CHARACTERIZATION** - Dataset size, feature types, missing patterns, class distribution, noise level assessment
+
+3. **CANDIDATE ALGORITHMS** - 3-5 algorithms with selection rationale, expected strengths/weaknesses for this problem
+
+4. **COMPARISON RESULTS** - Cross-validation metrics table, statistical significance tests, training/inference time measurements
+
+5. **HYPERPARAMETER CONFIGURATION** - Optimal parameters for top performer, search space explored, tuning method used
+
+6. **PRODUCTION SPECIFICATION** - Model size, inference latency, memory requirements, interpretability approach, deployment recommendations
+
+---
 
 ## Usage Examples
 
-### E-commerce Recommendation System
-```
-Select optimal algorithm for ProductRecommendation with 1M+ users, 100K+ products to achieve 95% user satisfaction using collaborative filtering approaches.
+### Example 1: Customer Churn Prediction
+**Prompt:** Select algorithm for ChurnPrediction binary classification with 500K customers, 80 features (60 numerical, 20 categorical), 5% missing data, 15% churn rate. Priority: accuracy with interpretability for customer retention team. Constraints: training <4 hours, inference <50ms, explain top factors per customer.
 
-Problem Definition:
-- Recommendation system problem type for personalized product suggestions business objective
-- Track CTR, conversion rate, user engagement success metrics
-- Handle sparse user-item interaction data characteristics
-- Meet <100ms response time performance requirements with scalability for 10K concurrent users
+**Expected Output:** Problem analysis: binary classification with mild imbalance (85:15), business requires both accurate predictions and customer-level explanations. Candidate algorithms: (1) Logistic Regression with L1 (baseline, fully interpretable), (2) LightGBM (fast, handles categorical natively), (3) CatBoost (best categorical handling, ordered boosting), (4) XGBoost (mature ecosystem). Comparison: 5-fold stratified CV, primary metric F1-score, secondary AUC-ROC. Results: CatBoost F1=0.78 (±0.02), LightGBM F1=0.76 (±0.02), XGBoost F1=0.75 (±0.03), LogReg F1=0.68 (±0.02). CatBoost significantly better than XGBoost (p<0.05 paired t-test). Hyperparameters: CatBoost with learning_rate=0.05, depth=6, iterations=800, l2_leaf_reg=3. Production: 150MB model, 25ms inference, SHAP TreeExplainer for customer-level feature importance (top 5 churn drivers per customer). Recommendation: CatBoost with SHAP explanations, retrain monthly on new data.
 
-Data Analysis:
-- Process 10M+ interactions dataset size with 500+ user/product features
-- Handle categorical, numerical, text data types
-- Manage 80% missing values in user profiles
-- Address long-tail class distribution in product popularity
-- Work with high-dimensional sparse feature correlation
+### Example 2: Product Demand Forecasting
+**Prompt:** Select algorithm for DemandForecasting regression with 2M historical sales records across 50K SKUs, 120 features including time-based, promotional, and external data. Priority: accuracy (MAPE <15%) with daily retraining capability. Constraints: training <2 hours on 8-core CPU, batch inference for all SKUs nightly.
 
-### Algorithm Categories
-- Compare collaborative filtering, matrix factorization supervised algorithms
-- Evaluate k-means clustering unsupervised algorithms
-- Consider neural collaborative filtering deep learning algorithms
-- Test random forest, gradient boosting ensemble methods
-- Explore multi-armed bandit reinforcement algorithms
+**Expected Output:** Problem analysis: regression with temporal dependencies, need to forecast multiple SKUs efficiently. Candidate algorithms: (1) Linear Regression with time features (baseline), (2) LightGBM (fast training, handles scale), (3) XGBoost (accurate, slower), (4) Prophet per SKU (interpretable, slow at scale), (5) DeepAR if GPU available. Comparison: time-series CV with 3 expanding windows (train on historical, validate on next month). Results: LightGBM MAPE=12.3%, XGBoost MAPE=11.8%, Linear MAPE=18.5%, Prophet MAPE=14.2% (sampled 1K SKUs due to time). LightGBM within 0.5% of XGBoost at 3x faster training. Hyperparameters: LightGBM with learning_rate=0.03, num_leaves=128, n_estimators=1000, feature_fraction=0.8. Training: 1.5 hours on 8-core, feature engineering pipeline 30 minutes. Production: train daily at 2 AM, batch predict all SKUs by 5 AM, monitor MAPE drift weekly. Recommendation: LightGBM for speed-accuracy balance, ensemble with Prophet for high-value SKUs.
 
-### Selection Criteria
-- Achieve >90% accuracy requirements with <2hr training time constraints
-- Meet <100ms inference time constraints with 16GB memory requirements
-- Balance accuracy vs interpretability needs for business stakeholders
-- Scale to 10M+ users scalability requirements
-- Handle new users/items robustness requirements
-```
+### Example 3: Document Classification
+**Prompt:** Select algorithm for SupportTicketClassification multi-class (12 categories) with 100K labeled tickets, text + 15 metadata features. Priority: accuracy (>90%) with <100ms inference for real-time routing. Constraints: no GPU for inference, training can use GPU.
 
-## Variables
+**Expected Output:** Problem analysis: multi-class text classification with auxiliary tabular features, real-time latency requirement limits model complexity. Candidate algorithms: (1) TF-IDF + LogReg (fast baseline), (2) TF-IDF + LightGBM (stronger on tabular), (3) DistilBERT (best text understanding, GPU-trained), (4) Sentence-BERT embeddings + LightGBM (hybrid approach). Comparison: stratified 5-fold CV, macro F1-score primary, per-class F1 secondary. Results: DistilBERT F1=0.94, SBERT+LightGBM F1=0.92, TF-IDF+LightGBM F1=0.87, TF-IDF+LogReg F1=0.82. Inference latency: LogReg 5ms, LightGBM 15ms, SBERT+LightGBM 45ms (embedding cached), DistilBERT 150ms (CPU). Hybrid approach: cache SBERT embeddings for known ticket patterns (80% cache hit), compute fresh for novel tickets. Hyperparameters: LightGBM with n_estimators=200, max_depth=8, 384-dim SBERT embeddings. Production: 200MB model, 45ms average latency (with caching), ONNX export for inference optimization. Recommendation: SBERT+LightGBM hybrid achieving 92% accuracy within latency budget, DistilBERT for batch reprocessing.
 
-| Variable | Description | Example |
-|----------|-------------|----------|
-| `[PROBLEM_TYPE]` | ML problem category | "Binary classification", "Multi-class classification", "Regression", "Clustering", "Time-series forecasting", "Anomaly detection", "Recommendation" |
-| `[BUSINESS_OBJECTIVE]` | What the model should achieve for business | "Reduce customer churn by 25%", "Predict demand within 10% accuracy", "Detect fraud in real-time with <100ms latency" |
-| `[SUCCESS_METRICS]` | How success will be measured | "F1-score >0.85, Precision >0.90", "RMSE <$500, MAE <$300", "AUC-ROC >0.95" |
-| `[DATA_CHARACTERISTICS]` | Key properties of your dataset | "Tabular with 50 features, 80% categorical", "High-dimensional sparse text data", "Imbalanced classes (95:5 ratio)" |
-| `[PERFORMANCE_REQUIREMENTS]` | Speed and resource constraints | "Inference <50ms p99, Training <4hrs on single GPU", "Real-time predictions at 10K requests/sec" |
-| `[RESOURCE_CONSTRAINTS]` | Available compute and budget | "AWS ml.p3.2xlarge (1 V100 GPU), $5K/month", "CPU-only inference, 4GB memory limit" |
-| `[INTERPRETABILITY_REQUIREMENTS]` | How explainable the model needs to be | "Full feature importance for compliance audit", "SHAP values for customer explanations", "Black-box acceptable" |
-| `[DEPLOYMENT_CONSTRAINTS]` | Production environment limits | "Edge deployment on Raspberry Pi", "Serverless Lambda (250MB, 15min timeout)", "Kubernetes with GPU nodes" |
-| `[SELECTION_TIMELINE]` | Time available for algorithm selection | "2 weeks for POC", "1 sprint (2 weeks)", "3 days for rapid prototype" |
-| `[SELECTION_BUDGET]` | Budget for experimentation | "$10K compute credits", "$50K including labeling", "Open-source only" |
-| `[DATASET_SIZE]` | Number of samples and storage size | "1M rows, 500MB CSV", "10K images (50GB)", "100M+ records in data warehouse" |
-| `[FEATURE_COUNT]` | Number of input features | "25 numerical + 10 categorical", "768-dim embeddings", "10K sparse features (TF-IDF)" |
-| `[DATA_TYPES]` | Types of data in features | "Mixed: 15 numerical, 20 categorical, 5 datetime", "Text + numerical", "Image + tabular metadata" |
-| `[MISSING_VALUES]` | Extent and pattern of missing data | "5% random missing in 3 columns", "30% missing in income field (not at random)", "Complete data, no missing" |
-| `[NOISE_LEVEL]` | Data quality and noise assessment | "Low noise, sensor data with 99% accuracy", "High noise from user input, needs cleaning", "Moderate - OCR extraction errors" |
-| `[OUTLIERS]` | Presence and impact of outliers | "2% extreme values in transaction amounts", "No outliers, bounded 0-100 range", "Outliers are fraudulent cases (important)" |
-| `[CLASS_DISTRIBUTION]` | Balance of target classes | "Balanced 50/50", "Imbalanced 90:8:2 three-class", "Highly imbalanced 99.5:0.5 fraud detection" |
-| `[FEATURE_CORRELATION]` | Relationship between features | "High multicollinearity (VIF>10) in 5 features", "Low correlation, independent features", "Time-lagged correlations in sequences" |
-| `[DIMENSIONALITY]` | Feature space complexity | "Low-dimensional (25 features)", "High-dimensional sparse (50K features)", "Needs reduction from 1000 to 50" |
-| `[TEMPORAL_ASPECTS]` | Time-based patterns in data | "Strong seasonality (weekly, yearly)", "No temporal patterns", "Concept drift every 3 months" |
-| `[SUPERVISED_ALGORITHMS]` | Candidate supervised learning algorithms | "LogisticRegression, RandomForest, XGBoost, LightGBM, CatBoost", "LinearRegression, ElasticNet, GradientBoosting", "SVM, NaiveBayes, kNN" |
-| `[UNSUPERVISED_ALGORITHMS]` | Candidate clustering/dimensionality algorithms | "K-Means, DBSCAN, Hierarchical", "PCA, t-SNE, UMAP", "IsolationForest, LocalOutlierFactor" |
-| `[SEMI_SUPERVISED_ALGORITHMS]` | Algorithms for partially labeled data | "Label Propagation, Self-Training", "MixMatch, FixMatch", "Pseudo-labeling with confidence threshold" |
-| `[REINFORCEMENT_ALGORITHMS]` | RL algorithms if applicable | "DQN, PPO, A2C", "Multi-armed bandits (UCB, Thompson)", "Not applicable" |
-| `[DEEP_LEARNING_ALGORITHMS]` | Neural network architectures | "BERT, RoBERTa for NLP", "ResNet-50, EfficientNet for vision", "LSTM, Transformer for sequences" |
-| `[ENSEMBLE_METHODS]` | Ensemble strategies to consider | "Stacking (XGBoost + LightGBM + CatBoost)", "Bagging with 100 estimators", "Voting classifier (soft voting)" |
-| `[ONLINE_LEARNING_ALGORITHMS]` | Algorithms for streaming data | "SGDClassifier with partial_fit", "Vowpal Wabbit", "River library incremental learners" |
-| `[TRANSFER_LEARNING]` | Pre-trained models to leverage | "ImageNet-pretrained ResNet", "BERT-base fine-tuning", "Domain-adapted embeddings from internal data" |
-| `[FEW_SHOT_LEARNING]` | Approaches for limited labeled data | "Siamese networks", "Prototypical networks", "GPT-4 few-shot prompting" |
-| `[META_LEARNING]` | Meta-learning approaches | "MAML for fast adaptation", "AutoML (Auto-sklearn, H2O)", "Neural Architecture Search" |
-| `[ACCURACY_REQUIREMENTS]` | Minimum acceptable accuracy | "Accuracy >92%", "F1-macro >0.80", "Top-5 accuracy >95%" |
-| `[TRAINING_TIME_CONSTRAINTS]` | Maximum training duration | "<1 hour on 8 GPUs", "<24 hours on single machine", "No limit, accuracy priority" |
-| `[INFERENCE_TIME_CONSTRAINTS]` | Maximum prediction latency | "<10ms p95", "<100ms for batch of 32", "Real-time streaming <5ms" |
-| `[MEMORY_REQUIREMENTS]` | RAM/VRAM limits | "Model <500MB for mobile", "<16GB GPU memory", "Unlimited cloud resources" |
-| `[INTERPRETABILITY_NEEDS]` | Level of explainability required | "Full transparency for regulatory (GDPR Article 22)", "Feature importance sufficient", "No interpretability needed" |
-| `[SCALABILITY_REQUIREMENTS]` | Growth and scaling needs | "Scale to 10x data in 6 months", "Fixed dataset, no scaling", "Horizontal scaling for 1B predictions/day" |
-| `[ROBUSTNESS_REQUIREMENTS]` | Handling of edge cases/drift | "Graceful degradation on OOD inputs", "Detect and flag distribution shift", "Retrain automatically on drift" |
-| `[IMPLEMENTATION_COMPLEXITY]` | Acceptable complexity level | "Simple sklearn only", "Custom PyTorch acceptable", "Production-grade MLOps required" |
-| `[MAINTENANCE_EFFORT]` | Ongoing maintenance capacity | "Monthly retraining by ML team", "Automated retraining pipeline", "Set-and-forget, minimal maintenance" |
-| `[COST_CONSTRAINTS]` | Budget for training and inference | "Training <$1K, Inference <$0.001/prediction", "No cost limit for accuracy", "$50K annual ML infrastructure budget" |
-| `[EVALUATION_METRICS]` | Metrics to compare algorithms | "Accuracy, F1, AUC-ROC, log-loss", "RMSE, MAE, R², MAPE", "Precision@k, nDCG, MRR" |
-| `[CROSS_VALIDATION_STRATEGY]` | Validation approach | "5-fold stratified CV", "Time-series CV with 3 splits", "Leave-one-group-out CV" |
-| `[DATA_SPLIT_STRATEGY]` | Train/val/test split method | "70/15/15 random stratified", "Time-based: train <2023, val 2023, test 2024", "80/20 with holdout per customer" |
-| `[BASELINE_MODELS]` | Simple models to beat | "Random prediction, majority class", "Linear regression, moving average", "Previous production model v2.1" |
-| `[STATISTICAL_TESTS]` | Tests for comparing models | "Paired t-test, McNemar's test", "Wilcoxon signed-rank test", "Friedman test with Nemenyi post-hoc" |
-| `[AB_TESTING_STRATEGY]` | Online evaluation approach | "50/50 traffic split for 2 weeks", "Multi-armed bandit allocation", "Shadow mode comparison" |
-| `[PERFORMANCE_BENCHMARKS]` | External benchmarks to reference | "Kaggle leaderboard top 10%", "Published SOTA on UCI dataset", "Industry benchmark from vendor" |
-| `[BIAS_EVALUATION]` | Fairness assessment approach | "Disparate impact ratio by demographic", "Equalized odds across protected groups", "Calibration by subgroup" |
-| `[FAIRNESS_METRICS]` | Fairness metrics to track | "Demographic parity, Equal opportunity", "Predictive equality, Treatment equality", "Individual fairness distance" |
-| `[ROBUSTNESS_TESTING]` | Testing for robustness | "Adversarial examples (FGSM, PGD)", "Input perturbation sensitivity", "Out-of-distribution detection" |
+---
 
+## Cross-References
 
-
-## Related Resources
-
-### Complementary Templates
-
-Enhance your workflow by combining this template with:
-
-- **[Cloud Architecture Framework](cloud-architecture-framework.md)** - Complementary approaches and methodologies
-- **[Site Reliability Engineering](site-reliability-engineering.md)** - Complementary approaches and methodologies
-- **[Cloud Migration Strategy](cloud-migration-strategy.md)** - Strategic planning and execution frameworks
-
-### Suggested Workflow
-
-**Typical implementation sequence**:
-
-1. Start with this template (Algorithm Selection Template)
-2. Use [Cloud Architecture Framework](cloud-architecture-framework.md) for deeper analysis
-3. Apply [Site Reliability Engineering](site-reliability-engineering.md) for execution
-4. Iterate and refine based on results
-
-### Explore More in This Category
-
-Browse all **[technology/AI & Machine Learning](../../technology/AI & Machine Learning/)** templates for related tools and frameworks.
-
-### Common Use Case Combinations
-
-- **Creating systematic approach to selecting optimal machine learning algorithms for classification, regression, clustering, and other ml tasks based on data characteristics, business requirements, and performance constraints.**: Combine this template with related analytics and strategy frameworks
-- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
-- **Strategy development**: Combine this template with related analytics and strategy frameworks
-
-## Best Practices
-
-1. **Start with simple baselines before complex models**
-2. **Consider business constraints alongside technical metrics**
-3. **Evaluate multiple algorithms systematically**
-4. **Test on representative data with proper validation**
-5. **Factor in deployment and maintenance requirements**
+- [Model Development](model-development.md) - Full ML pipeline from algorithm selection through deployment
+- [Predictive Modeling](../../data-analytics/Data-Science/predictive-modeling.md) - End-to-end predictive modeling framework
+- [Model Evaluation](../../data-analytics/Data-Science/model-evaluation.md) - Comprehensive evaluation metrics and validation strategies

@@ -1,6 +1,5 @@
 ---
 category: ai-ml-applications
-last_updated: 2025-11-22
 title: AI Use Case Identification and Prioritization
 tags:
 - ai-use-cases
@@ -39,273 +38,59 @@ Systematically identify, evaluate, and prioritize AI use cases that deliver mean
 
 ---
 
-## Quick Start
-
-### Minimal Example
-```
-AI USE CASE ASSESSMENT: Customer Service Automation
-
-1. OPPORTUNITY IDENTIFICATION
-   Problem: 500K support tickets/month, 45% are routine inquiries
-   AI Solution: Conversational AI for Tier-1 support
-   Target outcome: Automate 60% of routine inquiries
-
-2. VALUE ASSESSMENT
-   - Cost savings: $2.4M/year (reduced agent handle time)
-   - Revenue impact: $800K/year (faster resolution → higher NPS)
-   - Strategic value: Foundation for broader automation
-
-3. FEASIBILITY ASSESSMENT
-   - Data availability: HIGH (3 years of ticket history)
-   - Technical complexity: MEDIUM (proven chatbot patterns)
-   - Organizational readiness: HIGH (exec sponsor, IT aligned)
-
-4. PRIORITIZATION SCORE
-   Value: 8/10 | Feasibility: 7/10 | Strategic fit: 9/10
-   OVERALL: HIGH PRIORITY - Proceed to pilot
-```
-
-### When to Use This
-- Beginning an AI transformation journey and need to identify starting points
-- Evaluating competing AI project proposals for funding decisions
-- Conducting annual AI strategy planning and roadmap updates
-- Assessing whether a specific problem is suitable for AI solutions
-- Building business cases for AI investments
-
-### Basic 5-Step Workflow
-1. **Discover** - Gather potential AI use cases from across the organization
-2. **Assess** - Evaluate each use case for value and feasibility
-3. **Prioritize** - Rank use cases using structured scoring framework
-4. **Validate** - Test assumptions with stakeholders and technical teams
-5. **Plan** - Create implementation roadmap for prioritized use cases
-
----
 
 ## Template
 
-```markdown
-# AI Use Case Portfolio: [ORGANIZATION_NAME]
+Conduct AI use case identification and prioritization for {ORGANIZATION}, a {INDUSTRY} organization seeking to build an AI portfolio.
 
-## 1. Use Case Discovery
+Perform a comprehensive use case discovery and assessment:
 
-### Discovery Sources
-| Source | Method | Use Cases Identified |
-|--------|--------|---------------------|
-| Executive interviews | 1:1 sessions | [COUNT] |
-| Department workshops | Facilitated sessions | [COUNT] |
-| Pain point analysis | Process mining | [COUNT] |
-| Competitor analysis | Market research | [COUNT] |
-| Technology scanning | Vendor demos | [COUNT] |
+**1. USE CASE DISCOVERY**
+- Gather potential AI use cases from executive interviews, department workshops, pain point analysis, competitor analysis, and technology scanning
+- For each use case, capture: problem statement, current pain points, volume/scale, proposed AI approach (ML type), integration points
 
-### Use Case Inventory
-| ID | Use Case Name | Department | Problem Statement | Proposed AI Solution |
-|----|--------------|------------|-------------------|---------------------|
-| UC-001 | [NAME] | [DEPT] | [PROBLEM] | [SOLUTION] |
-| UC-002 | [NAME] | [DEPT] | [PROBLEM] | [SOLUTION] |
-| UC-003 | [NAME] | [DEPT] | [PROBLEM] | [SOLUTION] |
+**2. VALUE ASSESSMENT** (for each use case)
+- Quantitative benefits: cost reduction, revenue increase, productivity gain, risk reduction (with $ estimates)
+- Qualitative benefits: customer experience, employee satisfaction, decision quality, competitive differentiation
+- Value Score (1-10) with justification
 
----
+**3. FEASIBILITY ASSESSMENT** (for each use case)
+- Data readiness: availability, quality, accessibility, labeling requirements (score 1-5 each)
+- Technical feasibility: algorithm maturity, infrastructure readiness, integration complexity, performance requirements (score 1-5 each)
+- Organizational readiness: executive sponsorship, user acceptance, change management, skills availability (score 1-5 each)
+- Feasibility Score (1-10) with key risks identified
 
-## 2. Individual Use Case Assessment
+**4. RESOURCE ESTIMATION** (for each use case)
+- Development effort (person-months)
+- Infrastructure cost
+- Timeline to pilot and to production
+- Confidence level for each estimate
 
-### Use Case: [USE_CASE_NAME]
+**5. PRIORITIZATION**
+- Score each use case: Value (40%), Feasibility (30%), Strategic Fit (30%)
+- Map to priority matrix: Quick Wins (high value/high feasibility), Strategic (high value/low feasibility), Reconsider, Defer
+- Rank and recommend action: Proceed to pilot, Further analysis, or Defer
 
-#### Problem Definition
-- **Current state:** [CURRENT_PROCESS]
-- **Pain points:** [SPECIFIC_PROBLEMS]
-- **Volume/Scale:** [METRICS]
-- **Current cost:** [COST_BASELINE]
+**6. PORTFOLIO PLANNING**
+- Map use cases to AI strategy pillars
+- Identify dependencies and capability building opportunities
+- Create phased roadmap: Phase 1 (pilot), Phase 2 (scale), Phase 3 (expand)
 
-#### AI Solution Concept
-- **AI approach:** [ML_TYPE - Classification/Prediction/NLP/Computer Vision/etc.]
-- **Solution description:** [HOW_AI_SOLVES_PROBLEM]
-- **Human-AI interaction:** [Fully automated | Human-in-the-loop | Decision support]
-- **Integration points:** [SYSTEMS_AFFECTED]
+Deliver your assessment as:
 
-#### Value Assessment
+1. **EXECUTIVE SUMMARY** - Portfolio overview, top 3 priority use cases, total value potential, recommended immediate actions
 
-**Quantitative Benefits:**
-| Benefit Category | Metric | Current | Target | Annual Value |
-|-----------------|--------|---------|--------|--------------|
-| Cost reduction | [METRIC] | [CURRENT] | [TARGET] | $[VALUE] |
-| Revenue increase | [METRIC] | [CURRENT] | [TARGET] | $[VALUE] |
-| Productivity gain | [METRIC] | [CURRENT] | [TARGET] | $[VALUE] |
-| Risk reduction | [METRIC] | [CURRENT] | [TARGET] | $[VALUE] |
+2. **USE CASE INVENTORY** - Table with ID, name, department, problem statement, AI approach, value score, feasibility score, recommendation
 
-**Qualitative Benefits:**
-- [ ] Improved customer experience
-- [ ] Enhanced employee satisfaction
-- [ ] Better decision quality
-- [ ] Competitive differentiation
-- [ ] Foundation for future AI capabilities
+3. **TOP USE CASE DEEP DIVES** - For top 3-5 use cases: detailed problem definition, AI solution concept, value breakdown, feasibility breakdown, resource requirements
 
-**Value Score:** [1-10]
-**Justification:** [REASONING]
+4. **PRIORITY MATRIX** - Visual 2x2 mapping all use cases by Value vs Feasibility
 
-#### Feasibility Assessment
+5. **DEPENDENCY MAP** - Show foundational use cases and what they enable
 
-**Data Readiness:**
-| Factor | Assessment | Score (1-5) |
-|--------|------------|-------------|
-| Data availability | [DESCRIPTION] | [SCORE] |
-| Data quality | [DESCRIPTION] | [SCORE] |
-| Data accessibility | [DESCRIPTION] | [SCORE] |
-| Labeling requirements | [DESCRIPTION] | [SCORE] |
+6. **IMPLEMENTATION ROADMAP** - Phased approach with resource allocation, milestones, and success criteria per phase
 
-**Technical Feasibility:**
-| Factor | Assessment | Score (1-5) |
-|--------|------------|-------------|
-| Algorithm maturity | [Proven/Emerging/Research] | [SCORE] |
-| Infrastructure readiness | [DESCRIPTION] | [SCORE] |
-| Integration complexity | [DESCRIPTION] | [SCORE] |
-| Performance requirements | [DESCRIPTION] | [SCORE] |
-
-**Organizational Readiness:**
-| Factor | Assessment | Score (1-5) |
-|--------|------------|-------------|
-| Executive sponsorship | [DESCRIPTION] | [SCORE] |
-| User acceptance | [DESCRIPTION] | [SCORE] |
-| Change management | [DESCRIPTION] | [SCORE] |
-| Skills availability | [DESCRIPTION] | [SCORE] |
-
-**Feasibility Score:** [1-10]
-**Key Risks:** [TOP_3_RISKS]
-
-#### Resource Requirements
-| Resource | Estimate | Confidence |
-|----------|----------|------------|
-| Development effort | [PERSON_MONTHS] | [High/Medium/Low] |
-| Infrastructure cost | $[AMOUNT] | [High/Medium/Low] |
-| Data preparation | [EFFORT] | [High/Medium/Low] |
-| Change management | [EFFORT] | [High/Medium/Low] |
-| Timeline to pilot | [WEEKS] | [High/Medium/Low] |
-| Timeline to production | [MONTHS] | [High/Medium/Low] |
-
----
-
-## 3. Prioritization Framework
-
-### Scoring Matrix
-| Use Case | Value (40%) | Feasibility (30%) | Strategic Fit (30%) | Total Score |
-|----------|-------------|-------------------|---------------------|-------------|
-| [UC-001] | [1-10] | [1-10] | [1-10] | [WEIGHTED] |
-| [UC-002] | [1-10] | [1-10] | [1-10] | [WEIGHTED] |
-| [UC-003] | [1-10] | [1-10] | [1-10] | [WEIGHTED] |
-
-### Priority Matrix Visualization
-```
-HIGH VALUE │  Quick Wins    │   Strategic    │
-           │  (Do First)    │   (Plan Now)   │
-           ├────────────────┼────────────────┤
-           │   Reconsider   │   Low Priority │
-LOW VALUE  │   (Maybe)      │   (Defer)      │
-           └────────────────┴────────────────┘
-              HIGH FEASIBILITY  LOW FEASIBILITY
-```
-
-### Prioritized Ranking
-| Priority | Use Case | Score | Recommendation | Timeline |
-|----------|----------|-------|----------------|----------|
-| 1 | [NAME] | [SCORE] | Proceed to pilot | [DATE] |
-| 2 | [NAME] | [SCORE] | Proceed to pilot | [DATE] |
-| 3 | [NAME] | [SCORE] | Further analysis | [DATE] |
-| 4 | [NAME] | [SCORE] | Defer | [DATE] |
-
----
-
-## 4. Strategic Alignment
-
-### AI Strategy Pillars
-| Pillar | Description | Aligned Use Cases |
-|--------|-------------|-------------------|
-| [PILLAR_1] | [DESCRIPTION] | [USE_CASES] |
-| [PILLAR_2] | [DESCRIPTION] | [USE_CASES] |
-| [PILLAR_3] | [DESCRIPTION] | [USE_CASES] |
-
-### Dependency Mapping
-```
-[FOUNDATIONAL_USE_CASE]
-        │
-        ├──► [DEPENDENT_USE_CASE_1]
-        │
-        └──► [DEPENDENT_USE_CASE_2]
-                    │
-                    └──► [ADVANCED_USE_CASE]
-```
-
-### Capability Building
-| Use Case | Capabilities Developed | Reusability |
-|----------|----------------------|-------------|
-| [USE_CASE] | [DATA/MODEL/PLATFORM] | [HIGH/MED/LOW] |
-
----
-
-## 5. Implementation Roadmap
-
-### Phased Approach
-```
-PHASE 1 (Q1-Q2)          PHASE 2 (Q3-Q4)          PHASE 3 (Next Year)
-├── [UC-001] Pilot       ├── [UC-001] Scale       ├── [UC-004]
-├── [UC-002] Discovery   ├── [UC-002] Pilot       ├── [UC-005]
-└── Foundation work      └── [UC-003] Pilot       └── Platform expansion
-```
-
-### Resource Allocation
-| Phase | Headcount | Budget | Key Milestones |
-|-------|-----------|--------|----------------|
-| Phase 1 | [FTE] | $[BUDGET] | [MILESTONES] |
-| Phase 2 | [FTE] | $[BUDGET] | [MILESTONES] |
-| Phase 3 | [FTE] | $[BUDGET] | [MILESTONES] |
-
-### Success Metrics
-| Use Case | Pilot Success Criteria | Production Success Criteria |
-|----------|----------------------|---------------------------|
-| [UC-001] | [PILOT_METRICS] | [PRODUCTION_METRICS] |
-| [UC-002] | [PILOT_METRICS] | [PRODUCTION_METRICS] |
-
----
-
-## 6. Governance and Review
-
-### Decision Authority
-| Decision | Authority | Criteria |
-|----------|-----------|----------|
-| Proceed to pilot | [ROLE] | Score >[X], Budget <$[Y] |
-| Scale to production | [ROLE] | Pilot success + business case |
-| Terminate project | [ROLE] | [CRITERIA] |
-
-### Review Cadence
-| Review Type | Frequency | Participants | Outputs |
-|-------------|-----------|--------------|---------|
-| Use case review | [FREQUENCY] | [ROLES] | Priority updates |
-| Portfolio review | [FREQUENCY] | [ROLES] | Roadmap adjustments |
-| Value realization | [FREQUENCY] | [ROLES] | ROI tracking |
-```
-
----
-
-## Variables
-
-### USE_CASE_NAME
-Descriptive name for the AI opportunity.
-- Examples: "Customer Churn Prediction", "Invoice Processing Automation", "Demand Forecasting", "Quality Inspection"
-
-### ML_TYPE
-The category of machine learning approach.
-- Examples: "Classification", "Regression", "Natural Language Processing", "Computer Vision", "Recommendation Systems", "Anomaly Detection"
-
-### PROBLEM_STATEMENT
-Clear description of the business problem to be solved.
-- Examples: "45% of support tickets are routine inquiries consuming agent time", "Manual invoice processing takes 15 minutes per invoice with 8% error rate"
-
-### VALUE_METRIC
-Measurable benefit the AI solution will deliver.
-- Examples: "Cost per transaction", "Processing time", "Accuracy rate", "Customer satisfaction score", "Revenue per customer"
-
-### FEASIBILITY_FACTOR
-Element affecting implementation difficulty.
-- Examples: "Data availability", "Algorithm maturity", "Integration complexity", "Regulatory constraints", "User adoption risk"
-
+7. **GOVERNANCE RECOMMENDATIONS** - Decision authority, review cadence, go/no-go criteria for pilots
 ---
 
 ## Usage Examples
@@ -405,22 +190,6 @@ PRIORITIZATION OUTPUT:
 | 4 | Yield Optimization | 8 | 5 | Research |
 | 5 | Energy Optimization | 5 | 8 | Quick win Q2 |
 ```
-
----
-
-## Best Practices
-
-1. **Start with Problems, Not Technology** - Identify genuine business pain points before exploring AI solutions. The best use cases solve real problems, not demonstrate technology.
-
-2. **Involve Business Stakeholders Early** - Include process owners and end users in discovery workshops. They understand the nuances that determine success.
-
-3. **Be Realistic About Data** - Many promising use cases fail due to data issues. Conduct data assessments before committing resources.
-
-4. **Consider the Full Cost** - Include change management, integration, ongoing maintenance, and monitoring in feasibility assessments. ML models require continuous care.
-
-5. **Build Foundations First** - Prioritize use cases that create reusable capabilities (data pipelines, feature stores, MLOps) for future projects.
-
-6. **Set Clear Success Criteria** - Define measurable outcomes before starting pilots. Avoid scope creep by knowing what "done" looks like.
 
 ---
 

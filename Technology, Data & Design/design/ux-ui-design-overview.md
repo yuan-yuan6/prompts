@@ -1,521 +1,105 @@
 ---
 category: design
-last_updated: 2025-11-22
+title: UX/UI Design Process - Navigation Guide
+tags:
+- ux-design
+- ui-design
+- design-workflow
+- template-navigation
+use_cases:
+- Selecting appropriate UX/UI design template for current project phase
+- Planning comprehensive design project workflows across multiple deliverables
+- Understanding design process phases and typical sequencing
+- Estimating timelines and resources for design initiatives
 related_templates:
 - design/wireframe-design.md
 - design/prototype-development.md
 - design/design-system-creation.md
 - design/usability-testing-plan.md
-tags:
-- design
-- ux-design
-- ui-design
-title: UX/UI Design - Overview & Navigation
-use_cases:
-- Understanding the UX/UI design prompt collection
-- Choosing the right design deliverable template
-- Planning comprehensive design projects
-type: template
+type: framework
 difficulty: intermediate
 slug: ux-ui-design-overview
 ---
 
-# UX/UI Design - Overview & Navigation
+# UX/UI Design Process - Navigation Guide
 
 ## Purpose
-This overview guide helps you navigate the UX/UI design prompt collection and select the appropriate template for your specific design deliverable needs.
+Guide template selection and workflow planning across UX/UI design phases from wireframing through usability testing, enabling efficient navigation to appropriate templates based on project needs, deliverables, and current phase.
 
-## Quick UX Navigation Prompt
-I need to design [product type] for [user group]. Current phase: [discovery/wireframing/prototyping/testing/handoff]. Primary goal: [validate concept/test usability/create design system/build prototype]. Guide me to the right template and provide a 3-step workflow with estimated time. Constraints: [timeline] and [team size].
+## 🚀 Quick Navigation Prompt
 
-## Quick Start
-
-**Want to design user interfaces quickly?** Here's how to choose the right template:
-
-### When to Use This Overview
-- Starting a new UI/UX design project
-- Need specific design deliverables (wireframes, prototypes, design systems)
-- Planning user testing or validation
-- Building design documentation
-- Unsure which design artifact to create first
-
-### Quick Template Selection
-```
-Your Design Need → Recommended Template:
-
-1. Structure layouts and plan information architecture
-   → wireframe-design.md (Sitemap, wireframes, navigation, 1-2 days)
-
-2. Create interactive prototypes for testing
-   → prototype-development.md (Clickable mockups, animations, 2-3 days)
-
-3. Build scalable design system or component library
-   → design-system-creation.md (Components, tokens, guidelines, 1-2 weeks)
-
-4. Plan and conduct usability testing
-   → usability-testing-plan.md (Test plan, scripts, analysis, 1 week)
-```
-
-### Basic 3-Step Workflow
-1. **Start with wireframes** - Use wireframe-design.md to plan structure and layout
-2. **Build prototype** - Use prototype-development.md to create interactive mockup
-3. **Test with users** - Use usability-testing-plan.md to validate design decisions
-
-**Time to complete**: 1-2 weeks for basic UI design cycle, 3-4 weeks with full design system
-
-**Pro tip**: Go low-fidelity first. Start with simple wireframes to validate structure before investing time in high-fidelity visuals or comprehensive design systems.
+> I need to design **[PRODUCT_TYPE]** for **[USERS]** currently in **[PHASE]**. Primary goal: **[OBJECTIVE]**. Navigate me across: (1) **Current needs**—what deliverables (wireframes, prototypes, design system, test plan) address current objective? (2) **Workflow sequence**—what template order from research through validation? (3) **Timeline estimate**—what duration per phase given team size and complexity? (4) **Integration strategy**—how do deliverables connect across phases? Recommend template sequence with 3-step workflow and time estimates.
 
 ---
 
-## Available Design Templates
+## Template Selection Guide
 
-### 1. Wireframe Design & Information Architecture
-**File:** `wireframe-design.md`
+**Choosing Based on Current Phase and Objective**
 
-**Use this template when you need to:**
-- Create wireframes for web or mobile applications
-- Design information architecture and navigation systems
-- Plan layout systems and responsive breakpoints
-- Structure component hierarchies
-- Map user flows and site structure
+Select template matching immediate deliverable need and project phase. Wireframe design serves early-stage structural planning: information architecture definition, navigation system design, responsive layout planning, content organization taking 1-2 weeks with 1-2 designers producing sitemaps, annotated wireframes, component hierarchies. Prototype development follows validating interactions: building clickable mockups, designing micro-interactions, preparing user testing materials, stakeholder presentations requiring 1-3 weeks with 1-3 designers delivering interactive prototypes, animation specifications, simulated flows.
 
-**Best for:**
-- Early-stage design planning
-- Information architecture documentation
-- Layout structure definition
-- Navigation design
-- Content organization
+Design system creation addresses scalability and consistency: establishing design foundations, building component libraries, creating reusable patterns, documenting standards for development teams demanding 4-12 weeks with 2-5 designers producing comprehensive token documentation, component libraries with states, typography/color systems, accessibility guidelines. Usability testing validates decisions: planning research sessions, collecting user feedback, measuring effectiveness, identifying iteration opportunities spanning 2-4 weeks with 2-4 researchers delivering test plans, recruitment materials, data collection instruments, prioritized findings.
 
-**Key deliverables:**
-- Site maps and user flow diagrams
-- Annotated wireframes for all key screens
-- Responsive layout specifications
-- Component structure definitions
-- Navigation specifications
+Choose wireframe design when starting new products or features, defining information architecture, planning responsive layouts, mapping user flows, working on structural foundation before visual polish. Choose prototype development when ready to test interactions, validating design concepts with users or stakeholders, presenting to decision-makers, designing animations and transitions, preparing for usability testing requiring realistic simulation.
 
----
+Choose design system creation when scaling across products, establishing standards for multiple teams, creating reusable components preventing inconsistency, preparing for development handoff with clear specifications, building long-term design infrastructure supporting growth. Choose usability testing when validating design decisions with real users, testing prototypes or live products, measuring effectiveness through quantitative metrics, identifying usability issues for iteration, planning research studies informing strategy.
 
-### 2. Interactive Prototype Development
-**File:** `prototype-development.md`
+**Typical Project Workflow and Sequencing**
 
-**Use this template when you need to:**
-- Build low or high-fidelity interactive prototypes
-- Design micro-interactions and animations
-- Create clickable mockups for user testing
-- Simulate product behavior and user flows
-- Validate design concepts with stakeholders
+Most comprehensive projects follow progressive refinement sequence starting broad and narrowing to specifics. Wireframe design establishes foundation: create information architecture and navigation structure (weeks 1-2), define layout systems and component hierarchy, establish responsive behavior and breakpoints. Prototype development validates interactions: build interactive prototypes showing realistic flows (weeks 3-5), design micro-interactions and animations, prepare testing materials with realistic data, iterate based on stakeholder feedback.
 
-**Best for:**
-- User testing preparation
-- Stakeholder presentations
-- Interaction design specification
-- Animation and transition planning
-- Concept validation
+Usability testing measures effectiveness: conduct user testing sessions with 5-8 participants per iteration (weeks 6-7), collect feedback and quantitative metrics (task completion, time-on-task, satisfaction), identify issues for iteration prioritizing by severity and frequency, address critical findings before proceeding. Design system creation formalizes patterns: extract reusable components from validated designs (weeks 8-16), create comprehensive token systems and documentation, build developer-ready specifications, establish governance and contribution models.
 
-**Key deliverables:**
-- Interactive prototype with linked screens
-- Interaction and animation specifications
-- Simulated user flows with realistic data
-- Test scenarios and task documentation
-- Multi-device prototype versions
+Phase durations vary by project complexity and team capacity. Simple feature additions complete wireframe-prototype-test cycle in 3-4 weeks. New product launches require 8-12 weeks covering full workflow. Enterprise design systems demand 4-6 months for comprehensive documentation and adoption. MVP projects compress timeline sacrificing comprehensiveness: essential wireframes only (1 week), high-fidelity prototype of core flow (2 weeks), lightweight component library versus full system (2 weeks), guerrilla testing versus formal research.
 
----
+Iterate continuously rather than sequential waterfall. Test wireframes with 5 users revealing navigation issues before prototyping investment (Nielsen research: 5 users find 85% of problems). Prototype critical flows only initially rather than comprehensive screens. Build design system incrementally starting with most-used components (buttons, forms, navigation) expanding based on team adoption and feedback. Conduct lightweight testing throughout (hallway testing, prototype validation) supplemented by formal studies at key milestones.
 
-### 3. Design System & Component Library
-**File:** `design-system-creation.md`
+**Integration Strategies Across Templates**
 
-**Use this template when you need to:**
-- Create comprehensive design systems
-- Build reusable component libraries
-- Establish design tokens and style guidelines
-- Ensure brand consistency across products
-- Document design standards for development teams
+Connect deliverables creating cohesive design narrative. Wireframe annotations specify interaction behaviors informing prototype development: "Clicking product card expands inline details" versus navigating to new page. Prototype realistic data reveals content challenges informing information architecture refinement: extremely long product names require truncation strategies, empty states need guidance, error conditions require recovery paths.
 
-**Best for:**
-- Establishing design foundations
-- Scaling design across product families
-- Developer handoff documentation
-- Brand consistency maintenance
-- Long-term design scalability
+Usability testing findings drive iteration across artifacts. Navigation confusion in testing prompts wireframe restructuring: "7 of 8 participants couldn't locate order history" suggests moving from settings to main navigation. Interaction struggles guide prototype refinement: slow form completion times (average 4 minutes versus 2-minute target) trigger progressive disclosure or field reduction. Accessibility violations caught in testing inform design system standards: insufficient color contrast ratios require palette adjustment, missing focus indicators necessitate component specification updates.
 
-**Key deliverables:**
-- Complete design token documentation
-- Component library with all states
-- Typography and color systems
-- Spacing and layout specifications
-- Accessibility guidelines
-- Implementation documentation
+Design system standards emerge from validated patterns. Extract reusable components after testing confirms usability: successful button designs become system standards, effective form layouts template future features. Document decisions preventing future debates: "Primary CTA uses green background (#00A651) with 4.5:1 contrast ratio meeting WCAG AA" establishes consistency. Create usage guidelines based on testing insights: "Search autocomplete appears after 2-3 characters preventing premature results" codifies effective interaction timing.
 
----
+Maintain single source of truth across deliverables. Figma design files serve as master with wireframes, prototypes, components coexisting enabling version control and reuse. Specifications reference design system tokens: "Use spacing-4 (16px)" versus hard-coded values enabling systematic updates. Testing documents link to specific prototype screens or components: "Task 3 tested using checkout-flow-v2.3" enabling precise result association. Update all artifacts when changes occur: button specification change propagates to wireframes, prototypes, and test materials preventing drift.
 
-### 4. Usability Testing & Validation Plan
-**File:** `usability-testing-plan.md`
+Deliver UX/UI design workflow as:
 
-**Use this template when you need to:**
-- Plan and conduct usability testing sessions
-- Validate design decisions with real users
-- Collect actionable user feedback
-- Measure design effectiveness
-- Identify usability issues for iteration
+1. **PHASE ASSESSMENT** - Current project state, immediate needs, and appropriate template selection
 
-**Best for:**
-- Design validation and iteration
-- User research planning
-- Prototype testing
-- Pre-launch validation
-- Continuous improvement programs
+2. **WORKFLOW ROADMAP** - Template sequence, phase timelines, deliverable dependencies, and milestone planning
 
-**Key deliverables:**
-- Comprehensive test plan and methodology
-- Participant recruitment materials
-- Task scenarios with success criteria
-- Data collection instruments
-- Analysis framework and reporting templates
-- Prioritized findings and recommendations
+3. **INTEGRATION PLAN** - Cross-deliverable connections, version control strategy, and artifact management
 
----
+4. **RESOURCE ALLOCATION** - Team assignments, timeline estimates, and capacity planning per phase
 
-## Typical Design Project Workflow
-
-Most comprehensive UX/UI design projects follow this sequence:
-
-```
-1. WIREFRAME DESIGN
-   └─> Create information architecture and wireframes
-   └─> Define layout systems and navigation
-   └─> Establish component structure
-
-2. PROTOTYPE DEVELOPMENT
-   └─> Build interactive prototypes
-   └─> Design interactions and animations
-   └─> Prepare for user testing
-
-3. USABILITY TESTING
-   └─> Conduct user testing sessions
-   └─> Collect feedback and metrics
-   └─> Identify issues for iteration
-
-4. ITERATE & REFINE
-   └─> Address usability findings
-   └─> Refine designs based on feedback
-   └─> Re-test critical flows if needed
-
-5. DESIGN SYSTEM CREATION
-   └─> Formalize design patterns
-   └─> Create component library
-   └─> Document for development
-```
-
-## Choosing the Right Template
-
-### Choose **Wireframe Design** if you're:
-- Starting a new product or feature
-- Defining information architecture
-- Planning responsive layouts
-- Mapping user flows
-- Working on structural foundation
-
-### Choose **Prototype Development** if you're:
-- Ready to test interactions
-- Validating design concepts
-- Presenting to stakeholders
-- Designing animations and transitions
-- Preparing for user testing
-
-### Choose **Design System Creation** if you're:
-- Scaling design across products
-- Establishing design standards
-- Creating reusable components
-- Preparing for development handoff
-- Building long-term design infrastructure
-
-### Choose **Usability Testing Plan** if you're:
-- Validating design decisions
-- Testing with real users
-- Measuring design effectiveness
-- Identifying usability issues
-- Planning research studies
-
-## Using Multiple Templates Together
-
-For comprehensive design projects, you'll often use multiple templates in sequence:
-
-### Example 1: New Product Launch
-1. Start with **Wireframe Design** to establish structure
-2. Move to **Prototype Development** for interactive mockups
-3. Use **Usability Testing Plan** to validate with users
-4. Create **Design System** for scalable implementation
-
-### Example 2: Feature Enhancement
-1. Use **Wireframe Design** for new feature structure
-2. Build **Prototype** to test the new interaction
-3. Run **Usability Testing** to validate improvements
-4. Update **Design System** with new components
-
-### Example 3: Design System Initiative
-1. Audit existing designs using **Wireframe** concepts
-2. Create **Prototypes** to test pattern consistency
-3. Conduct **Usability Testing** to validate components
-4. Build comprehensive **Design System**
-
-## Quick Reference
-
-| Template | Primary Focus | Timeline | Team Size | Complexity |
-|----------|---------------|----------|-----------|------------|
-| Wireframe Design | Structure & IA | 1-2 weeks | 1-2 designers | Low-Medium |
-| Prototype Development | Interactions | 1-3 weeks | 1-3 designers | Medium-High |
-| Design System | Consistency | 4-12 weeks | 2-5 designers | High |
-| Usability Testing | Validation | 2-4 weeks | 2-4 researchers | Medium |
+5. **SUCCESS CRITERIA** - Phase completion definitions, quality gates, and validation checkpoints
 
 ---
 
 ## Usage Examples
 
-### Example 1: SaaS Product Redesign
+### Example 1: SaaS Product Redesign - 16 Week Timeline
+**Prompt:** Navigate UX redesign for B2B project management SaaS with 2 designers, 1 researcher, 8 engineers across 16 weeks targeting 30% task completion improvement and NPS increase from 15 to 35.
 
-**Context:** B2B SaaS company redesigning their core product with poor usability scores
+**Expected Output:** Phase 1 (weeks 1-4): Wireframe design focusing information architecture audit addressing "navigation confusing" pain point. Conduct card sorting with 15 users discovering natural groupings, tree testing validating findability (target 85%+ success rate for critical tasks). Deliver new navigation structure, annotated wireframes for 15 core screens, responsive specifications (desktop, tablet, mobile). Phase 2 (weeks 5-8): Prototype development creating interactive mockup of core workflows (project creation, task management, team collaboration) with realistic data including edge cases (100+ task lists, long project names). Implement micro-interactions (drag-drop task reordering, inline editing, real-time collaboration indicators). Deliver clickable prototype with 25 connected screens, interaction specifications, test scenarios. Phase 3 (weeks 9-10): Usability testing with 8-10 users split across 2 rounds ($10k budget = $500/participant × 10 participants × 2 rounds = moderate remote testing). Measure task completion (target 85%+), time-on-task (30% reduction versus current), SUS score (target 75+ versus current 61). Identify critical issues for iteration. Phase 4 (weeks 11-16): Design system foundation extracting validated components (navigation patterns, form elements, data tables, status indicators), documenting design tokens (color palette, typography scale, spacing system), creating developer specifications. Gradual rollout strategy using feature flags enabling opt-in beta testing with willing customers, phased by customer segment (small teams first, large enterprise last), monitoring adoption and feedback. Success metrics: 30%+ task completion improvement, NPS 35+ (20-point increase), 50% support ticket reduction, 15%+ mobile usage (from 2%).
 
-**Copy-paste this prompt:**
+### Example 2: Mobile App MVP - 8 Week Sprint
+**Prompt:** Navigate design for fitness tracking mobile app MVP with solo designer across 8 weeks requiring iOS/Android support with zero research budget focusing AI-powered form analysis differentiator.
 
-```
-I'm leading a UX redesign of our B2B project management SaaS product. Users report the interface is
-confusing and they can't find features. NPS is 15 (down from 35 two years ago).
+**Expected Output:** Week 1: Wireframe design for essential screens only (5-7 screens: onboarding, workout logging, progress tracking, video recording for AI analysis). Skip comprehensive sitemap focusing core user flow: sign up → record workout video → receive AI form feedback → view progress. Validate structure with stakeholders defining "premium feel" as: clean layouts, high-quality imagery, smooth animations, gesture-based navigation. Weeks 2-3: Prototype development building high-fidelity mockup of core workout flow with native iOS patterns (tab bar navigation, card-based layouts, SF Pro typography). Design micro-interactions: workout start countdown (3-2-1 animation), video recording progress ring, AI analysis loading state (skeleton screen showing body pose overlay), form feedback cards with visual corrections. Create both light/dark mode supporting iOS standards. Week 4: Guerrilla usability testing at local gym with 5 users (30-minute sessions, $0 budget). Validate workout flow completion (target 90%+), AI feedback comprehension (users understand corrections?), premium feel perception (meets brand expectations?). Collect video clips showing struggles for stakeholder communication. Weeks 5-6: Iteration addressing findings plus mini design system: 10 core components (buttons, input fields, cards, navigation bar, video player, progress indicators), color tokens (brand teal, success green, error red, neutral grays), typography scale (SF Pro Display headlines, SF Pro Text body). Document responsive behavior for tablet support. Weeks 7-8: Polish and developer support creating detailed specifications, preparing App Store assets (screenshots, preview video, icon variations), supporting engineering implementation questions, final QA reviewing built app versus designs. Deliverables: 15 screens high-fidelity prototype, component library with 10 elements, basic design documentation (not comprehensive system), App Store marketing assets. Timeline compressed by limiting scope: essential features only, component library versus full system, guerrilla testing versus formal research, stakeholder alignment replacing extensive research.
 
-CURRENT STATE:
-- Product: Web-based project management for teams (5-50 users per company)
-- Users: Project managers, team leads, individual contributors
-- Pain points: Navigation confusing, too many clicks to complete tasks, mobile unusable
-- Existing design: No design system, inconsistent patterns, 5 years of feature additions
-- Team: 2 product designers, 1 UX researcher, 8 engineers
-- Timeline: 16 weeks to first major release
+### Example 3: Enterprise Design System - 18 Month Rollout
+**Prompt:** Navigate design system for Fortune 500 company standardizing 15 products across 40 designers, 200 engineers requiring adoption earning versus mandating with no dedicated team (50% allocation).
 
-GOALS:
-- Improve task completion time by 30%
-- Increase NPS from 15 to 35
-- Reduce support tickets related to "how do I..." by 50%
-- Make mobile actually usable (currently 2% mobile usage vs. 60% competitor)
-
-CONSTRAINTS:
-- Can't change data model or remove features (users rely on them)
-- Must maintain brand colors and logo
-- Rollout must be gradual (users hate sudden changes)
-- Limited user research budget ($10K for external testing)
-
-QUESTIONS:
-1. Which UX/UI templates should I use and in what order?
-2. How do I balance comprehensive redesign with gradual rollout?
-3. Should I build a design system during this project or after?
-4. How many rounds of usability testing are realistic with $10K budget?
-
-Please provide a phased UX redesign plan with template sequence and timeline.
-```
-
-**Expected Output:**
-- Phase 1 (Weeks 1-4): Wireframe Design - Information architecture audit, new navigation structure
-- Phase 2 (Weeks 5-8): Prototype Development - Interactive prototype of core workflows
-- Phase 3 (Weeks 9-10): Usability Testing - 8-10 users, 2 rounds of testing
-- Phase 4 (Weeks 11-16): Design System foundation + implementation
-- Gradual rollout strategy: Feature flags, opt-in beta, phased by customer segment
+**Expected Output:** Months 1-3: Design system creation foundations starting with comprehensive audit across 15 products identifying common patterns (navigation, forms, tables, modals), documenting variations and inconsistencies. Establish design tokens first (color palette, typography scale, spacing system, elevation shadows) enabling platform-agnostic definitions supporting React, Angular, Vue, native mobile. Create 10-15 core components (buttons, inputs, dropdowns, checkboxes, cards) with comprehensive state specifications (default, hover, active, focus, disabled, error, success) and accessibility guidelines (WCAG AA minimum, keyboard navigation, screen reader support). Use Wireframe design template concepts for pattern auditing, Design system creation for formal documentation. Months 4-6: Pilot with 2-3 willing teams providing early feedback and demonstrating value. Conduct usability testing using product teams as users: "Can teams find and implement components easily?" Testing prototype components in real products validating usability and technical feasibility. Iterate based on implementation challenges: React team needs different spacing approach versus Angular team, mobile teams require platform-specific variants. Document learnings refining contribution model and governance. Months 7-9: Expand to 5-7 teams building comprehensive component library (30-50 components covering 80% of common UI needs). Establish contribution workflow: teams submit proposals for new components, design systems team reviews for consistency, approved components added to library. Create training program (workshops, documentation, office hours) supporting adoption. Months 10-12: Full rollout inviting all 15 teams with adoption incentives (showcase wins in company meetings, reduce design review friction for system users, provide dedicated support). Launch Figma standardization migrating teams from Sketch/XD. Implement usage tracking measuring adoption rates and component utilization. Months 13-18: Maintenance and continuous improvement based on team feedback. Establish quarterly release cycles for new components and updates. Build governance model defining decision-making (design systems team owns core components, product teams propose additions). Create contribution metrics rewarding teams submitting useful components. Adoption strategy avoiding mandates: demonstrate value through pilot wins (2-3 teams ship 40% faster using system), reduce friction (pre-built components faster than custom), provide excellent support, celebrate early adopters. Success metrics: 70%+ team adoption rate by month 18, 40% reduction in design-to-dev handoff time, 90%+ accessibility compliance (from current failures), unified brand experience across products. Usability testing approach: treat product teams as users testing documentation clarity, component findability, implementation ease with task-based scenarios ("Implement a multi-step form using system components").
 
 ---
 
-### Example 2: Mobile App MVP
+## Cross-References
 
-**Context:** Startup building mobile app MVP for consumer fitness tracking
-
-**Copy-paste this prompt:**
-
-```
-I'm the sole designer at a startup building a fitness tracking mobile app. We need to launch MVP in
-8 weeks to hit our seed funding milestone. I've never built a design system before.
-
-PRODUCT:
-- App: iOS and Android fitness tracking (workout logging, progress photos, social features)
-- Target users: Fitness enthusiasts aged 25-40, intermediate to advanced
-- Competition: Strong (MyFitnessPal, Strava, Nike Training Club)
-- Differentiator: AI-powered form analysis from workout videos
-
-TEAM:
-- 1 designer (me), 2 iOS developers, 1 Android developer, 1 backend developer
-- Engineering lead has strong opinions about feasibility
-- CEO wants "premium feel" but hasn't defined what that means
-
-CONSTRAINTS:
-- 8 weeks total (MVP must be in App Store)
-- No budget for user research (will use guerrilla testing at local gym)
-- Must work on both iOS and Android (React Native)
-- Need to support accessibility (client has visual impairment)
-
-QUESTIONS:
-1. With only 8 weeks, which UX templates are essential vs. nice-to-have?
-2. How do I create enough design structure for 2 platforms without a full design system?
-3. What's the minimum viable usability testing I can do with $0 budget?
-4. How do I align the CEO on "premium feel" without delaying the project?
-
-Please provide an 8-week design sprint plan focused on MVP delivery.
-```
-
-**Expected Output:**
-- Week 1: Wireframe Design (core 5-7 screens only) + stakeholder alignment on "premium"
-- Weeks 2-3: Prototype Development (high-fidelity for core workout flow)
-- Week 4: Guerrilla usability testing (5 users at gym, 30-min sessions)
-- Weeks 5-6: Iteration + component library foundation (not full design system)
-- Weeks 7-8: Polish + developer support + App Store assets
-- Mini design system: 10 core components, color tokens, typography scale
-
----
-
-### Example 3: Enterprise Design System
-
-**Context:** Large enterprise standardizing design across 15 product teams
-
-**Copy-paste this prompt:**
-
-```
-I'm the design systems lead at a Fortune 500 company. We have 15 product teams, each with their own
-design patterns. Leadership wants consistency across all products within 18 months.
-
-CURRENT STATE:
-- Products: 15 internal and external applications (web and mobile)
-- Teams: 40 designers, 200 engineers across all products
-- Existing patterns: Each team has informal patterns, no documentation
-- Tools: Mix of Figma, Sketch, Adobe XD (want to standardize on Figma)
-- Tech stack: React (8 products), Angular (4), Vue (2), Native mobile (1)
-
-CHALLENGES:
-- Teams are protective of their designs ("not invented here" syndrome)
-- No dedicated design system team (I'm 50% allocated)
-- Leadership wants "one design" but products have legitimately different needs
-- Engineers frustrated with constant design changes
-
-GOALS:
-- Unified design language across all products (brand consistency)
-- Reduce design-to-dev handoff time by 40%
-- Enable teams to ship faster with pre-built components
-- Improve accessibility compliance (currently failing audits)
-
-CONSTRAINTS:
-- Can't mandate adoption (need to earn trust)
-- Different products have different release schedules
-- Limited budget for design tokens infrastructure
-- Must support multiple frameworks (can't standardize tech stack)
-
-QUESTIONS:
-1. How do I build a design system that accommodates different product needs?
-2. What's the right sequence: documentation, components, tokens, or governance?
-3. How do I drive adoption without mandating it?
-4. How should I structure usability testing for the design system itself?
-
-Please provide an 18-month design system rollout strategy.
-```
-
-**Expected Output:**
-- Months 1-3: Design System Creation foundations - audit, tokens, core components
-- Months 4-6: Pilot with 2-3 willing teams, iterate based on feedback
-- Months 7-9: Expand to 5-7 teams, build comprehensive component library
-- Months 10-12: Full rollout, training program, contribution model
-- Months 13-18: Maintenance, governance, continuous improvement
-- Adoption strategy: Early adopter incentives, showcase wins, reduce friction
-- Usability Testing: Test components with product teams as users
-
----
-
-## Related Resources
-
-### Complementary Templates
-
-Enhance your workflow by combining this template with:
-
-- **[Wireframe Design](wireframe-design.md)** - Complementary approaches and methodologies
-- **[Prototype Development](prototype-development.md)** - Complementary approaches and methodologies
-- **[Design System Creation](design-system-creation.md)** - Complementary approaches and methodologies
-- **[Usability Testing Plan](usability-testing-plan.md)** - Complementary approaches and methodologies
-
-### Suggested Workflow
-
-**Typical implementation sequence**:
-
-1. Start with this template (UX/UI Design - Overview & Navigation)
-2. Use [Wireframe Design](wireframe-design.md) for deeper analysis
-3. Apply [Prototype Development](prototype-development.md) for execution
-4. Iterate and refine based on results
-
-### Explore More in This Category
-
-Browse all **[creative/Design & Visual](../../creative/Design & Visual/)** templates for related tools and frameworks.
-
-### Common Use Case Combinations
-
-- **Understanding the UX/UI design prompt collection**: Combine this template with related analytics and strategy frameworks
-- **Choosing the right design deliverable template**: Combine this template with related analytics and strategy frameworks
-- **Planning comprehensive design projects**: Combine this template with related analytics and strategy frameworks
-
-## Best Practices Across All Templates
-
-1. **Start with clear objectives** - Define success criteria before beginning
-2. **Focus on user needs** - Base decisions on user research and data
-3. **Iterate continuously** - Treat design as an ongoing process
-4. **Document thoroughly** - Maintain clear records for team alignment
-5. **Test early and often** - Validate assumptions with real users
-6. **Maintain consistency** - Use established patterns and components
-7. **Consider accessibility** - Design for all users from the start
-8. **Collaborate actively** - Involve stakeholders and developers early
-9. **Stay flexible** - Adapt based on feedback and constraints
-10. **Measure impact** - Track metrics to validate design decisions
-
-## Getting Started
-
-1. **Identify your current need** - What deliverable do you need right now?
-2. **Select the appropriate template** - Use the guide above to choose
-3. **Customize the variables** - Fill in project-specific details
-4. **Generate your deliverable** - Use the template to create your design
-5. **Iterate and improve** - Refine based on feedback and testing
-
-## Common Design Scenarios
-
-### Scenario: Starting a new mobile app
-**Recommended sequence:**
-1. Wireframe Design (structure)
-2. Prototype Development (interactions)
-3. Usability Testing (validation)
-4. Design System (if scaling to multiple features)
-
-### Scenario: Redesigning an existing website
-**Recommended sequence:**
-1. Wireframe Design (new structure)
-2. Prototype Development (new interactions)
-3. Usability Testing (validate improvements)
-4. Update Design System (new patterns)
-
-### Scenario: Building a design system from scratch
-**Recommended sequence:**
-1. Wireframe Design (audit existing patterns)
-2. Design System Creation (formalize system)
-3. Prototype Development (test components)
-4. Usability Testing (validate usability)
-
-### Scenario: Testing a new feature concept
-**Recommended sequence:**
-1. Wireframe Design (quick structure)
-2. Prototype Development (interactive concept)
-3. Usability Testing (validate with users)
-
-## Additional Resources
-
-- All templates include usage examples and best practices
-- Each template is standalone and can be used independently
-- Templates are designed to work together for comprehensive projects
-- Variables are clearly marked for easy customization
-- All templates follow industry-standard design practices
-
-## Need Help Choosing?
-
-Ask yourself:
-- **What deliverable do I need to produce?** → Choose the matching template
-- **What stage is my project in?** → Earlier stages use Wireframe, later use Prototype/System
-- **Who is my audience?** → Stakeholders (Prototype), Developers (System), Users (Testing)
-- **What's my timeline?** → Quick validation (Testing), Long-term (System)
-
----
-
-**Remember:** These templates are starting points. Customize them to fit your specific project needs, team structure, and organizational requirements. The best design process is one that works for your unique context.
+- [Wireframe Design](wireframe-design.md) - Information architecture and layout planning
+- [Prototype Development](prototype-development.md) - Interactive mockups and testing preparation
+- [Design System Creation](design-system-creation.md) - Component libraries and pattern documentation
+- [Usability Testing Plan](usability-testing-plan.md) - User research and validation methodology

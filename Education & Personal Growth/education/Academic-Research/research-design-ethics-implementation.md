@@ -1,525 +1,136 @@
 ---
-title: Research Design - Ethics, Implementation & Project Management
+title: Research Ethics & Implementation Readiness Assessment
 category: education
 tags:
 - research-ethics
 - irb-protocols
 - project-management
 - risk-management
+- ethics-readiness
+- implementation-planning
 use_cases:
-- Developing comprehensive ethical frameworks and IRB protocols
-- Creating detailed implementation plans and project timelines
-- Establishing risk management and quality monitoring systems
+- Evaluating readiness to submit an IRB/ethics protocol with defensible safeguards
+- Identifying participant protection, privacy, and community engagement gaps
+- Planning a realistic study implementation timeline with resources and contingencies
+- Producing an execution plan suitable for dissertation, grant, or organizational research
 related_templates:
 - education/Academic-Research/research-design-foundation.md
 - education/Academic-Research/research-design-sampling-data.md
 - education/Academic-Research/research-design-overview.md
-last_updated: 2025-11-10
 industries:
 - education
 - government
 - healthcare
 - manufacturing
 - technology
-type: template
+type: framework
 difficulty: intermediate
 slug: research-design-ethics-implementation
 ---
 
-# Research Design - Ethics, Implementation & Project Management
+# Research Ethics & Implementation Readiness Assessment
 
 ## Purpose
-Develop comprehensive ethical frameworks and detailed implementation plans that ensure responsible research conduct and successful project execution. This prompt guides you through IRB protocols, participant protection, cultural sensitivity, project timeline development, resource allocation, risk management, and quality monitoring systems.
+Comprehensively assess readiness to run a responsible, compliant, and executable research study across six dimensions: Ethical Risk & Benefit Clarity, Consent & Participant Protections, Privacy & Data Governance, Cultural/Community Fit, Implementation Plan & Resourcing, and Monitoring, Risk Management & Quality. This framework identifies blockers before you submit to an ethics committee or start fieldwork.
 
-## Quick Research Design Ethics Implementation Prompt
+## 🚀 Quick Assessment Prompt
 
-Develop ethics and implementation plan for [study title]. Submit IRB protocol at [risk level: exempt/expedited/full] addressing [informed consent/confidentiality/vulnerable populations]. Mitigate risks of [potential harms] through [safeguards]. Create timeline with phases: [Phase 1: preparation, Phase 2: data collection, Phase 3: analysis, Phase 4: dissemination] over [duration]. Allocate budget of [amount] for [personnel/materials/incentives]. Identify risks of [threats] with contingencies of [backup plans]. Monitor quality via [checkpoints/indicators].
+> Assess **ethics and implementation readiness** for **{STUDY_CONTEXT}** with expected **{RISK_LEVEL}** and implementation scope **{IMPLEMENTATION_SCOPE}**. Evaluate across: (1) **Ethical risk/benefit clarity**—are risks, burdens, and benefits explicitly identified and minimized? (2) **Consent and protections**—is consent feasible, understandable, voluntary, and tailored to the population (including vulnerable groups)? (3) **Privacy and data governance**—are collection, storage, access, retention, and sharing controls defined and realistic? (4) **Cultural/community fit**—is engagement appropriate, respectful, and accountable, including local norms and power dynamics? (5) **Implementation plan**—are timeline, staffing, recruitment, training, and logistics executable within constraints? (6) **Monitoring and quality**—are adverse events, protocol deviations, and data quality monitored with clear decision rights and contingencies? Provide a 1–5 scorecard, top risks, required safeguards, and a phased execution plan.
 
-## Quick Start
+**Usage:** Replace the curly-brace placeholders with your specifics. Use as a prompt to an AI assistant for rapid ethics and implementation readiness evaluation.
 
-### For Researchers Planning Ethics and Implementation
-
-**Step 1: Establish Ethical Framework**
-- Identify ethical principles guiding your research
-- Develop informed consent procedures and participant protections
-- Plan for cultural sensitivity and community engagement
-
-**Step 2: Create IRB Protocol**
-- Prepare institutional review board submission materials
-- Conduct risk-benefit assessment
-- Plan for adverse event reporting and monitoring
-
-**Step 3: Develop Implementation Timeline**
-- Map project phases with milestones and deliverables
-- Identify critical path activities and dependencies
-- Build in buffer time and contingency plans
-
-**Step 4: Plan Resources and Risk Management**
-- Allocate personnel, budget, and material resources
-- Identify potential risks and mitigation strategies
-- Establish quality monitoring and performance tracking systems
-
-**Step 5: Generate and Execute**
-- Input specifications into template variables
-- Generate comprehensive ethics and implementation plan
-- Create project management tools and tracking systems
-
-**Common Use Cases:**
-- IRB/ethics committee submissions
-- Grant proposal implementation sections
-- Dissertation project management plans
-- Research protocol development
-- Team coordination and resource planning
+---
 
 ## Template
 
-```
-You are an expert research ethicist and project manager specializing in research ethics, regulatory compliance, and research implementation. Create a detailed ethics and implementation plan based on the following information:
+Conduct a comprehensive research ethics and implementation readiness assessment for {STUDY_CONTEXT} at {RISK_LEVEL} risk with {IMPLEMENTATION_SCOPE}.
 
-Research Context:
-- Research Domain: [RESEARCH_FIELD]
-- Study Focus: [STUDY_FOCUS]
-- Research Question: [PRIMARY_RESEARCH_QUESTION]
-- Research Design: [DESIGN_TYPE]
-- Study Population: [TARGET_POPULATION]
-- Study Setting: [RESEARCH_SETTING]
-- Study Duration: [TIME_FRAME]
-- Geographic Scope: [LOCATION_BOUNDARIES]
+Assess readiness across six dimensions, scoring each 1–5:
 
-### Ethical Requirements
-- Ethical Considerations: [ETHICAL_REQUIREMENTS]
-- Vulnerable Populations: [VULNERABLE_GROUPS]
-- Risk Factors: [POTENTIAL_RISKS]
-- Cultural Context: [CULTURAL_CONSIDERATIONS]
+**1. ETHICAL RISK & BENEFIT CLARITY READINESS**
+Evaluate whether the ethical posture of the study is coherent by assessing whether the study’s purpose justifies the participant burden, risks are identified at the level of actual procedures, and the plan uses the least-risk approach that still answers the research question. Examine whether the risk/benefit narrative matches the implementation reality, whether incentives are proportional and non-coercive, and whether inclusion/exclusion decisions are ethically justified rather than merely convenient.
 
-### Implementation Requirements
-- Project Timeline: [PROJECT_DURATION]
-- Budget: [BUDGET_RANGE]
-- Personnel Resources: [HUMAN_RESOURCES]
-- Technology Needs: [TECHNICAL_NEEDS]
-- Access Requirements: [ACCESS_CONSTRAINTS]
-- Stakeholder Expectations: [STAKEHOLDER_NEEDS]
+**2. CONSENT & PARTICIPANT PROTECTIONS READINESS**
+Evaluate whether participants can consent meaningfully by assessing readability, comprehension checks where appropriate, voluntariness, and whether withdrawal is practically possible without penalty. Examine whether protections are tailored to vulnerable populations, whether recruitment channels avoid undue influence, and whether there is a plan for distress, complaints, or safety concerns during participation. If waivers or altered consent are contemplated, assess whether justification and alternative safeguards are explicit and defensible.
 
-Generate a comprehensive ethical framework and implementation strategy that includes:
+**3. PRIVACY, CONFIDENTIALITY & DATA GOVERNANCE READINESS**
+Evaluate whether privacy commitments are operational by assessing what data will be collected, why each element is necessary, where it will be stored, who can access it, and how identifiers are handled across systems. Examine whether encryption, access controls, audit logs, and retention/disposal timelines are specified, whether re-identification risks are considered (including indirect identifiers), and whether data sharing or publication plans align with what can be consented to and securely supported.
 
-## ETHICAL CONSIDERATIONS AND COMPLIANCE
+**4. CULTURAL/COMMUNITY FIT & RELATIONAL ETHICS READINESS**
+Evaluate whether the study is socially and culturally responsible by assessing whether community norms, historical context, language needs, and power dynamics are considered in design and recruitment. Examine whether engagement is authentic (not performative), whether benefits and outputs are meaningful to participants or communities, and whether roles and expectations are negotiated transparently. For community-based or Indigenous contexts, assess whether governance and data ownership expectations are respected and documented.
 
-### 6.1 Research Ethics Framework
-#### Ethical Principle and Foundation
-##### Core Ethical Principle
-- Respect for person and autonomy
-- Beneficence and non-maleficence
-- Justice and fairness
-- Integrity and honesty
-- Transparency and accountability
-- Cultural sensitivity and responsiveness
-- Environmental responsibility and sustainability
-- Social justice and equity
+**5. IMPLEMENTATION PLAN & RESOURCING READINESS**
+Evaluate whether the study can actually be executed by assessing whether the timeline is realistic, the critical path is identified, and staffing and training plans cover the real work (recruitment, scheduling, data collection, follow-up, and documentation). Examine whether tools and access requirements are secured (sites, permissions, devices, software), whether budget assumptions match constraints, and whether recruitment feasibility has evidence (pilot, prior rates, or stakeholder validation) rather than optimism.
 
-##### Ethical Theory and Application
-- Deontological and duty-based ethics
-- Consequentialist and utilitarian ethics
-- Virtue ethics and character-based approach
-- Care ethics and relational approach
-- Feminist and gender-sensitive ethics
-- Indigenous and cultural ethics
-- Environmental and ecological ethics
-- Digital and cyber ethics
+**6. MONITORING, RISK MANAGEMENT & QUALITY READINESS**
+Evaluate whether the study will stay safe and credible under stress by assessing whether monitoring roles and decision rights are explicit, whether adverse event and incident reporting is defined, and whether protocol deviations have triage rules and documentation requirements. Examine whether data quality monitoring exists (completeness, consistency, timeliness), whether there are stop/go gates, and whether contingency plans address predictable failure modes such as low recruitment, staff turnover, site access loss, or policy changes.
 
-#### Regulatory Compliance and Approval
-##### Institutional Review Board Process
-- Protocol development and submission
-- Risk-benefit assessment and evaluation
-- Informed consent and documentation
-- Vulnerable population and protection
-- Continuing review and monitoring
-- Adverse event reporting and management
-- Protocol amendment and modification
-- Final report and study closure
+---
 
-##### Multi-Site and International Approval
-- Central and local IRB coordination
-- Regulatory requirement and compliance
-- Cultural and legal consideration
-- International guideline and standard
-- Data transfer and sharing agreement
-- Publication and dissemination ethics
-- Intellectual property and ownership
-- Capacity building and collaboration
+## Required Output Format
 
-### 6.2 Participant Protection and Rights
-#### Informed Consent and Voluntary Participation
-##### Consent Process and Documentation
-- Information provision and disclosure
-- Comprehension assessment and verification
-- Voluntariness and freedom from coercion
-- Right to withdraw and discontinue
-- Alternative and option presentation
-- Risk and benefit communication
-- Compensation and incentive disclosure
-- Future contact and follow-up permission
+Structure your assessment as:
 
-##### Special Population and Protection
-- Minors and adolescent protection
-- Cognitive impairment and decisional capacity
-- Vulnerable and marginalized population
-- Prisoner and institutional population
-- Pregnant women and fetal protection
-- International and cross-cultural research
-- Community and group consent
-- Capacity building and empowerment
+1. **EXECUTIVE SUMMARY** - Overall readiness score (X.X/5.0), maturity level, IRB/ethics submission recommendation (submit / revise-first), top 3 risks
 
-#### Privacy and Confidentiality Protection
-##### Data Privacy and Security
-- Data collection and storage security
-- Access control and permission management
-- De-identification and anonymization
-- Encryption and protection technology
-- Breach prevention and response plan
-- International transfer and sharing
-- Retention and disposal policy
-- Audit and monitoring system
+2. **DIMENSION SCORECARD** - Table with each dimension, score (X.X/5), key gap, and required safeguard or action
 
-##### Confidentiality and Anonymity Assurance
-- Participant identity protection
-- Data linkage and tracking limitation
-- Reporting and publication safeguard
-- Third-party access and disclosure
-- Legal and regulatory requirement
-- Community and group confidentiality
-- Indirect identification and re-identification
-- Long-term and longitudinal protection
+3. **RISK & SAFEGUARD MATRIX** - Risks mapped to mitigations, owners, and evidence (policy, SOP, training, system control)
 
-### 6.3 Cultural Sensitivity and Community Engagement
-#### Cultural Competency and Responsiveness
-##### Cultural Consideration and Adaptation
-- Cultural value and belief respect
-- Language and communication adaptation
-- Traditional knowledge and wisdom integration
-- Community norm and practice acknowledgment
-- Power relationship and hierarchy recognition
-- Historical trauma and healing consideration
-- Intergenerational and family dynamics
-- Spiritual and religious dimension
+4. **ETHICS SUBMISSION PACKET OUTLINE** - What documents you will submit (protocol, consent, recruitment scripts, data plan, instruments)
 
-##### Community Engagement and Participation
-- Community-based participatory research
-- Stakeholder involvement and partnership
-- Capacity building and skill development
-- Knowledge co-creation and sharing
-- Benefit sharing and reciprocity
-- Long-term relationship and commitment
-- Social change and transformation
-- Sustainability and legacy planning
+5. **IMPLEMENTATION ROADMAP** - Phased plan (prep → pilot → collection → closeout) with milestones, dependencies, and resourcing
 
-#### Indigenous and Decolonizing Methodology
-##### Indigenous Research Principle
-- Indigenous knowledge and epistemology
-- Community ownership and control
-- Cultural protocol and ceremony
-- Relationship and reciprocity
-- Holistic and interconnected worldview
-- Storytelling and narrative tradition
-- Land and place-based knowledge
-- Healing and wellness orientation
+6. **MONITORING PLAN** - What you will monitor, thresholds, incident escalation path, and documentation/audit trail expectations
 
-##### Decolonizing Research Practice
-- Power structure and colonial legacy
-- Western knowledge and methodology critique
-- Indigenous researcher and community leadership
-- Ethical and relational accountability
-- Cultural revitalization and preservation
-- Self-determination and sovereignty
-- Resistance and resilience recognition
-- Future generation and sustainability
+Use this maturity scale:
+- **1.0–1.9: Unprepared** (high ethical/operational risk; missing safeguards; not submission-ready)
+- **2.0–2.9: Developing** (basic plan exists; gaps likely to trigger ethics committee questions or implementation failure)
+- **3.0–3.9: Ready with revisions** (credible plan; targeted fixes needed before submission or launch)
+- **4.0–4.9: Launch-ready** (clear safeguards, realistic plan, monitoring in place)
+- **5.0: Exemplary** (best-in-class protections, governance, and operational discipline)
 
-## IMPLEMENTATION PLANNING AND PROJECT MANAGEMENT
-
-### 7.1 Project Planning and Timeline Development
-#### Phase Planning and Milestone Setting
-##### Project Phase and Stage
-- Preparation and planning phase
-- Pilot testing and refinement stage
-- Data collection and implementation phase
-- Analysis and interpretation stage
-- Dissemination and knowledge translation
-- Follow-up and sustainability phase
-- Evaluation and impact assessment
-- Legacy and long-term planning
-
-##### Timeline Development and Scheduling
-- Activity sequencing and dependency
-- Resource allocation and availability
-- Critical path and bottleneck identification
-- Buffer time and contingency planning
-- Milestone and deliverable scheduling
-- Review point and decision gate
-- Flexibility and adaptation capability
-- Stakeholder coordination and synchronization
-
-#### Resource Planning and Allocation
-##### Human Resource and Staffing
-- Principal investigator and co-investigator
-- Research coordinator and project manager
-- Data collector and field researcher
-- Statistician and data analyst
-- Community liaison and cultural broker
-- Administrative and support staff
-- Consultant and expert advisor
-- Student and trainee involvement
-
-##### Financial and Material Resource
-- Personnel cost and benefit calculation
-- Equipment purchase and rental
-- Software license and subscription
-- Travel and transportation expense
-- Communication and dissemination cost
-- Indirect cost and institutional overhead
-- Contingency and emergency fund
-- In-kind contribution and matching fund
-
-### 7.2 Risk Management and Contingency Planning
-#### Risk Identification and Assessment
-##### Internal Risk and Challenge
-- Personnel availability and retention
-- Technical difficulty and complexity
-- Equipment failure and malfunction
-- Data quality and completeness issue
-- Timeline delay and schedule slippage
-- Budget overrun and cost escalation
-- Ethical concern and compliance issue
-- Team conflict and communication problem
-
-##### External Risk and Uncertainty
-- Regulatory change and approval delay
-- Political instability and social unrest
-- Economic downturn and funding cut
-- Natural disaster and emergency situation
-- Pandemic and public health crisis
-- Technology disruption and obsolescence
-- Community resistance and opposition
-- Competitive activity and duplication
-
-#### Risk Mitigation and Contingency Strategy
-##### Prevention and Preparedness
-- Risk monitoring and early warning system
-- Preventive measure and protective action
-- Alternative plan and backup strategy
-- Insurance and risk transfer mechanism
-- Stakeholder communication and engagement
-- Training and capacity building
-- Technology redundancy and fail-safe
-- Documentation and knowledge preservation
-
-##### Response and Recovery
-- Crisis management and emergency response
-- Damage assessment and impact evaluation
-- Recovery plan and restoration strategy
-- Communication and reputation management
-- Stakeholder support and assistance
-- Learning and improvement opportunity
-- Resilience building and strengthening
-- Future prevention and preparedness
-
-### 7.3 Quality Management and Monitoring
-#### Quality Assurance System
-##### Quality Planning and Standard
-- Quality policy and commitment
-- Quality objective and target
-- Quality standard and specification
-- Quality procedure and protocol
-- Quality role and responsibility
-- Quality training and competency
-- Quality measurement and indicator
-- Quality improvement and innovation
-
-##### Quality Control and Monitoring
-- Process monitoring and control
-- Product inspection and testing
-- Performance measurement and evaluation
-- Deviation detection and correction
-- Non-conformance and corrective action
-- Audit and assessment process
-- Feedback and learning system
-- Continuous improvement and optimization
-
-#### Performance Monitoring and Evaluation
-##### Monitoring Framework and System
-- Logic model and theory of change
-- Input, process, output, and outcome indicator
-- Baseline and target setting
-- Data collection and reporting system
-- Regular review and assessment
-- Adaptive management and learning
-- Stakeholder feedback and input
-- External evaluation and validation
-
-##### Performance Improvement and Learning
-- Performance analysis and interpretation
-- Strength identification and leverage
-- Weakness detection and improvement
-- Lesson learned and best practice
-- Innovation and creative solution
-- Knowledge sharing and dissemination
-- Capacity building and development
-- Impact enhancement and scaling
-
-## IMPLEMENTATION TIMELINE
-
-### Phase 1: Design and Preparation (Weeks 1-8)
-- Research question refinement and theoretical framework development
-- Literature review completion and knowledge synthesis
-- Research design selection and methodological framework establishment
-- Sampling strategy development and recruitment planning
-- Instrument development, validation, and pilot testing
-- Ethical approval and regulatory compliance completion
-- Team formation, training, and capacity building
-- Resource allocation, budget planning, and infrastructure setup
-
-### Phase 2: Pilot and Refinement (Weeks 9-12)
-- Pilot study execution and feasibility assessment
-- Data collection protocol testing and refinement
-- Instrument validation and psychometric evaluation
-- Analysis plan development and software preparation
-- Quality assurance system implementation and testing
-- Risk assessment and contingency planning
-- Stakeholder engagement and community partnership
-- Final protocol approval and documentation
-
-### Phase 3: Implementation and Data Collection (Weeks 13-40)
-- Participant recruitment and enrollment
-- Baseline data collection and measurement
-- Intervention implementation and monitoring
-- Follow-up data collection and tracking
-- Quality control and assurance maintenance
-- Data management and security implementation
-- Progress monitoring and reporting
-- Stakeholder communication and engagement
-
-### Phase 4: Analysis and Dissemination (Weeks 41-52)
-- Data cleaning, preparation, and quality checking
-- Statistical analysis and modeling execution
-- Qualitative analysis and interpretation
-- Result integration and synthesis
-- Manuscript preparation and peer review
-- Conference presentation and academic dissemination
-- Policy brief development and stakeholder engagement
-- Impact assessment and evaluation planning
-
-## APPENDICES
-
-### Research Protocol Components
-- Detailed research protocol and procedures
-- Comprehensive methodology documentation
-- Data collection instruments and materials
-- Training manuals and standard operating procedures
-
-### Ethical Documentation
-- IRB approval letter and protocol
-- Informed consent forms and materials
-- Participant information sheets
-- Ethical compliance certificates
-
-### Data Management Materials
-- Data management and security plan
-- Data sharing and access agreements
-- Codebook and data dictionary
-- Quality assurance procedures
-
-### Project Management Tools
-- Detailed project timeline and Gantt chart
-- Budget and resource allocation framework
-- Risk register and mitigation plans
-- Stakeholder engagement strategy
-
-### Quality Assurance Documentation
-- Quality control checklists and protocols
-- Monitoring and evaluation framework
-- Performance tracking systems
-- Audit trail documentation
-
-### Ensure the ethics and implementation plan is
-- Ethically sound and regulatory compliant
-- Culturally sensitive and community-responsive
-- Comprehensively planned and well-organized
-- Resource-adequate and financially feasible
-- Risk-aware with contingency preparations
-- Quality-assured with monitoring systems
-- Stakeholder-engaged and transparent
-- Sustainable and impact-oriented
-```
+---
 
 ## Variables
 
-### Research Context
-- `[RESEARCH_FIELD]`: Research domain
-- `[STUDY_FOCUS]`: Research focus area
-- `[PRIMARY_RESEARCH_QUESTION]`: Main question
-- `[DESIGN_TYPE]`: Research design
-- `[TARGET_POPULATION]`: Study population
-- `[RESEARCH_SETTING]`: Study setting
-- `[TIME_FRAME]`: Study duration
-- `[LOCATION_BOUNDARIES]`: Geographic scope
+| Variable | Description | Example |
+|----------|-------------|---------|
+| `{STUDY_CONTEXT}` | What study you’re running (design + topic + setting) | "School-based intervention study evaluating a new SEL curriculum in 8 middle schools" |
+| `{RISK_LEVEL}` | Expected ethics review level or risk profile | "exempt" or "expedited" or "full review" |
+| `{IMPLEMENTATION_SCOPE}` | Scale and constraints (sites, duration, populations, systems) | "8 sites, 2 semesters, minors, district IT constraints" |
 
-### Ethical Requirements
-- `[ETHICAL_REQUIREMENTS]`: Ethical considerations
-- `[VULNERABLE_GROUPS]`: Vulnerable populations
-- `[POTENTIAL_RISKS]`: Risk factors
-- `[CULTURAL_CONSIDERATIONS]`: Cultural context
+---
 
-### Implementation Requirements
-- `[PROJECT_DURATION]`: Project timeline
-- `[BUDGET_RANGE]`: Budget available
-- `[HUMAN_RESOURCES]`: Personnel resources
-- `[TECHNICAL_NEEDS]`: Technology requirements
-- `[ACCESS_CONSTRAINTS]`: Access limitations
-- `[STAKEHOLDER_NEEDS]`: Stakeholder expectations
+## Usage Example
 
-## Usage Examples
+**Input:**
+"{STUDY_CONTEXT}: Mixed-methods study interviewing frontline nurses about burnout with optional follow-up survey"
+"{RISK_LEVEL}: expedited"
+"{IMPLEMENTATION_SCOPE}: 2 hospitals, rotating shifts, sensitive topics, union and HR constraints"
 
-### Example 1: Community-Based Participatory Research
-"Develop ethics and implementation plan for CBPR study on diabetes prevention in Indigenous communities. Co-design with tribal leadership, traditional consent processes, benefit-sharing agreements. 18-month timeline with community advisory board oversight. Budget $500K including community researcher training. Cultural protocols for data ownership and use."
+**Output (abridged):**
+- Overall Readiness: **2.6/5.0 (Developing)**
+- Recommendation: **REVISE-FIRST** (submit in ~2–3 weeks after safeguards are strengthened)
+- Top Risks: confidentiality risk in small units, recruitment channel could create perceived coercion, distress protocol missing for sensitive interviews
 
-### Example 2: Clinical Trial Implementation
-"Create comprehensive plan for Phase III drug trial across 20 sites. Full IRB protocol with DSMB oversight, adverse event reporting system. 3-year timeline with quarterly monitoring visits. GCP-compliant procedures, central randomization, blinded outcome assessment. Budget $5M with detailed site-level allocations."
+Dimension Scorecard:
+- Risk/Benefit Clarity: 2.7/5 (tighten procedure-level risk inventory; justify incentives)
+- Consent & Protections: 2.4/5 (revise recruitment to avoid manager-mediated invites; add distress escalation)
+- Privacy & Governance: 2.3/5 (define storage, access control, retention; add de-identification workflow)
+- Cultural/Community Fit: 3.1/5 (add shift-friendly scheduling and language access plan)
+- Implementation Plan: 2.9/5 (secure site approvals and scheduling workflow; confirm recruitment rates)
+- Monitoring & Quality: 2.5/5 (define incident reporting, QA checks, and stop/go gates)
 
-### Example 3: Educational Intervention Study
-"Design implementation for school-based social-emotional learning intervention. District IRB approval, parental consent procedures, student assent. 2-year timeline: Year 1 implementation, Year 2 sustainability. Fidelity monitoring, teacher training protocols. Risk mitigation for teacher turnover and administrative changes."
+Two-week readiness sprint:
+- Week 1: Draft privacy/data plan, de-identification SOP, and revised recruitment scripts; add distress protocol.
+- Week 2: Confirm site approvals, train interviewers, finalize monitoring plan and escalation contacts; run a 2-participant pilot.
 
-## Best Practices
+---
 
-1. **Submit IRB early** - Ethics review takes longer than expected; start the process early
-2. **Engage communities from the beginning** - Build relationships before requesting participation
-3. **Use clear, accessible consent language** - Avoid jargon and ensure comprehension
-4. **Plan for the unexpected** - Build contingency time and budget into all plans
-5. **Communicate regularly with stakeholders** - Keep everyone informed of progress and challenges
-6. **Document everything** - Maintain detailed records of decisions, changes, and issues
-7. **Monitor quality continuously** - Don't wait until the end to check quality
-8. **Respect cultural protocols** - Adapt procedures to cultural norms and values
-9. **Build in flexibility** - Plans will need to change; design systems that can adapt
-10. **Celebrate milestones** - Acknowledge team achievements to maintain motivation
+## Related Resources
 
-## Tips for Success
-
-- Start building community relationships 6-12 months before formal recruitment
-- Create detailed standard operating procedures (SOPs) for all key activities
-- Use project management software to track tasks, timelines, and responsibilities
-- Hold regular team meetings with clear agendas and documented decisions
-- Establish communication protocols for urgent issues and routine updates
-- Create a centralized document repository accessible to all team members
-- Build redundancy into critical roles in case of staff turnover
-- Schedule regular check-ins with IRB liaison to stay ahead of compliance issues
-- Maintain detailed financial tracking to avoid budget surprises
-- Create visual timeline displays (Gantt charts) that team members can reference
-
-## Customization Options
-
-1. **Regulatory Context**: Adapt for different institutional review processes, international ethics requirements, multi-site coordination, or special populations requiring additional oversight and protection measures
-
-2. **Cultural Adaptation**: Customize consent processes, community engagement approaches, and ethical frameworks for diverse cultural contexts, indigenous research partnerships, or international collaborations
-
-3. **Project Scale**: Scale from single-investigator studies to large multi-site trials with appropriate project management complexity, oversight structures, and resource allocation frameworks
-
-4. **Risk Profile**: Adjust risk management depth based on study risk level - from minimal risk observational studies to higher-risk intervention trials requiring extensive monitoring and safety protocols
-
-5. **Implementation Complexity**: Modify for simple single-phase studies versus complex multi-phase, adaptive, or pragmatic trials requiring sophisticated implementation strategies and quality assurance systems
+- **[Research Design - Foundation](research-design-foundation.md)** - Helps refine questions, design choice rationale, and stakeholder alignment
+- **[Research Design - Sampling & Data](research-design-sampling-data.md)** - Supports recruitment feasibility, sampling logic, and data collection constraints
+- **[Research Design - Analysis & Quality Assurance Readiness Assessment](research-design-analysis-quality.md)** - Aligns QA, reproducibility, and analysis planning with implementation realities
+- **[Research Design - Overview](research-design-overview.md)** - Integrates the full research design workflow across modules

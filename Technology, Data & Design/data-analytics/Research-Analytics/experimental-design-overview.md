@@ -1,27 +1,29 @@
 ---
 category: data-analytics
-last_updated: 2025-11-10
+description: Navigate experimental design selection and guide comprehensive experiment planning from design through analysis for RCTs, A/B tests, and causal inference studies
+title: Experimental Design and Causal Inference Overview
+tags:
+- experimental-design
+- causal-inference
+- research-analytics
+- study-design
+use_cases:
+- Selecting the appropriate experimental design for research questions and constraints
+- Planning comprehensive experiments from hypothesis through analysis strategy
+- Navigating between specialized templates for randomization, analysis, and validity
+- Designing A/B tests, RCTs, cluster trials, and quasi-experimental studies
 related_templates:
-- data-analytics/Research-Analytics/experimental-design-setup.md
+- data-analytics/Research-Analytics/experimental-design-implementation.md
 - data-analytics/Research-Analytics/randomization-and-power-analysis.md
 - data-analytics/Research-Analytics/treatment-effect-analysis.md
 - data-analytics/Research-Analytics/validity-and-diagnostics.md
-- data-analytics/Research-Analytics/variables-and-implementation.md
-tags:
-- research-analytics
-- experimental-design
-- causal-inference
-title: Experimental Design and Causal Inference Overview
-use_cases:
-- Navigate the experimental design framework and select appropriate prompts for designing,
-  implementing, and analyzing controlled experiments including RCTs, A/B tests, and
-  causal inference studies
 industries:
-- education
-- government
 - healthcare
 - technology
-type: template
+- education
+- government
+- finance
+type: framework
 difficulty: intermediate
 slug: experimental-design-overview
 ---
@@ -29,514 +31,95 @@ slug: experimental-design-overview
 # Experimental Design and Causal Inference Overview
 
 ## Purpose
+Navigate experimental design selection and create comprehensive experiment plans from initial hypothesis through analysis strategy. This framework guides design type selection (RCT, A/B test, factorial, cluster, quasi-experimental), identifies key planning considerations, and coordinates across specialized templates for randomization, treatment effect analysis, and validity assessment.
 
-This framework provides a comprehensive system for designing, implementing, and analyzing controlled experiments to establish causal relationships with statistical rigor. Whether you're conducting randomized controlled trials, A/B tests, or quasi-experimental studies, this suite of prompts guides you through every phase from initial design to final analysis and interpretation.
+## 🚀 Quick Start Prompt
 
-## Quick Navigation Prompt
-I need to design an experiment to test [hypothesis]. Help me navigate the experimental design framework: recommend the appropriate design type (RCT, A/B test, factorial, quasi-experimental), guide me to the right sub-prompts for power analysis, randomization, implementation, and analysis. Identify key considerations for my use case (sample size, timeline, potential confounds).
-
-## Framework Components
-
-This experimental design framework is organized into 5 specialized prompts, each focusing on a critical phase of experimental research:
-
-### 1. [Experimental Design Setup](experimental-design-setup.md)
-**Purpose:** Select and configure the appropriate experimental design structure
-
-**Use when you need to:**
-- Choose from 8 different design types (RCT, A/B test, factorial, crossover, cluster, stepped wedge, quasi-experimental, regression discontinuity)
-- Configure treatment conditions and allocation schemes
-- Create participant assignment frameworks
-- Generate design matrices and allocation tables
-
-**Key features:**
-- ExperimentalDesigner class with 8 design type implementations
-- Automated allocation table generation
-- Design-specific configuration options
-- Implementation planning templates
-
-**Typical outputs:**
-- Complete design specification document
-- Participant/unit allocation scheme
-- Design matrix or allocation table
-- Implementation timeline
+> Design an **experiment** to test **[HYPOTHESIS]** with **[CONSTRAINTS]**. Recommend: (1) **Design type**—RCT, A/B test, factorial, crossover, cluster, stepped-wedge, or quasi-experimental based on randomization feasibility and unit structure; (2) **Key parameters**—sample size requirements, randomization strategy, primary outcome, analysis approach; (3) **Critical considerations**—potential threats to validity, implementation challenges, timeline; (4) **Template navigation**—which specialized templates to use for each phase. Deliver design recommendation with rationale, planning checklist, and workflow through analysis.
 
 ---
 
-### 2. [Randomization and Power Analysis](randomization-and-power-analysis.md)
-**Purpose:** Plan pre-experiment procedures including randomization and sample size calculations
+## Template
 
-**Use when you need to:**
-- Implement randomization procedures (simple, block, stratified, cluster, adaptive)
-- Calculate required sample sizes for adequate statistical power
-- Perform power analysis for different test types
-- Generate minimum detectable effect (MDE) estimates
+Develop a comprehensive experimental design plan for {RESEARCH_QUESTION}, operating under {STUDY_CONSTRAINTS}, to achieve {DECISION_OBJECTIVES}.
 
-**Key features:**
-- RandomizationManager class with 6 randomization methods
-- PowerAnalyzer class supporting 5 test types
-- Reproducible randomization with seed control
-- Power curves and sensitivity analyses
+**1. Design Type Selection and Rationale**
 
-**Typical outputs:**
-- Power analysis report with sample size recommendations
-- Randomization code with reproducible seed
-- Allocation verification results
-- Power curves and effect size sensitivity plots
+Begin by selecting the appropriate experimental design based on your research context and constraints. For questions where individual-level randomization is feasible and you're testing a single intervention, use a standard randomized controlled trial (RCT)—this provides the strongest causal inference with straightforward analysis. For digital product testing with large user bases, A/B testing (or A/B/n for multiple variants) offers rapid iteration with automated randomization at user or session level. When testing multiple factors simultaneously to understand main effects and interactions, factorial designs (2×2, 2×3, etc.) efficiently explore the intervention space. If participants can serve as their own controls and carryover effects are minimal, crossover designs reduce between-subject variability and require smaller samples. When individual randomization is impossible due to contamination risk or logistical constraints—such as school-based or clinic-based interventions—cluster randomized trials randomize groups while measuring individual outcomes. Stepped-wedge designs suit situations where all clusters will eventually receive treatment and staggered rollout is operationally necessary. When randomization is entirely infeasible but a clear assignment rule exists, regression discontinuity designs exploit cutoff-based assignment for causal inference. Document your design choice with explicit rationale addressing why alternatives were rejected.
 
----
+**2. Sample Size and Power Planning**
 
-### 3. [Treatment Effect Analysis](treatment-effect-analysis.md)
-**Purpose:** Perform comprehensive treatment effect analysis using causal inference methods
+Determine the sample size required to detect meaningful effects with adequate statistical power. Specify your primary outcome measure and the minimum effect size that would be practically meaningful—not just statistically detectable. For continuous outcomes, express this as Cohen's d or raw units; for binary outcomes, use absolute risk difference or relative risk. Set conventional parameters: 80% power (probability of detecting true effect), 5% significance level (Type I error rate), and consider whether one-tailed or two-tailed tests are appropriate. For cluster designs, estimate the intraclass correlation coefficient (ICC) from pilot data or literature—typical ICCs range from 0.01-0.05 for health outcomes to 0.15-0.25 for educational outcomes—and calculate the design effect that inflates required sample size. Account for expected attrition by inflating initial enrollment (typically 10-20% buffer). Run sensitivity analyses showing how required sample size changes across plausible effect sizes and ICC values. Translate sample size into practical terms: recruitment timeline, number of clusters needed, test duration for online experiments.
 
-**Use when you need to:**
-- Analyze treatment effects using multiple analytical approaches
-- Calculate intention-to-treat (ITT) estimates
-- Perform per-protocol (PP) and CACE analyses
-- Conduct dose-response and subgroup analyses
+**3. Randomization Strategy and Implementation**
 
-**Key features:**
-- TreatmentEffectAnalyzer class with 6 analysis methods
-- ITT, per-protocol, instrumental variable, and CACE implementations
-- Dose-response relationship modeling
-- Subgroup analysis with interaction testing
+Design the randomization procedure that will create comparable treatment and control groups. Simple randomization (coin flip equivalent) works for large samples but can create imbalance in smaller studies. Block randomization ensures equal allocation within sequential blocks of participants, maintaining balance throughout enrollment. Stratified randomization first divides participants by key prognostic variables (e.g., disease severity, baseline performance) then randomizes within strata to guarantee balance on these factors. For cluster trials, randomize at the cluster level using stratification by cluster characteristics (size, baseline outcomes, geography). Implement allocation concealment so that those enrolling participants cannot predict upcoming assignments—this prevents selection bias. Specify the randomization mechanism: computer-generated sequences with documented seeds for reproducibility, sealed envelopes for field settings, or real-time algorithmic assignment for digital experiments. Document who generates the allocation sequence, who enrolls participants, and who assigns interventions—ideally different individuals.
 
-**Typical outputs:**
-- Treatment effect estimates with confidence intervals
-- Comparison of ITT vs. PP vs. CACE results
-- Dose-response curves
-- Subgroup effect estimates with forest plots
+**4. Treatment Definition and Control Conditions**
 
----
+Define precisely what constitutes the treatment and control conditions. Specify the intervention components, dosage, duration, delivery mechanism, and who delivers it. For behavioral interventions, create implementation protocols or manuals ensuring consistent delivery across sites and providers. Define the control condition explicitly—placebo, active control, treatment as usual, or waitlist—recognizing that control choice affects both ethical considerations and effect interpretation. Treatment as usual requires documentation of what usual care entails since it may vary. Waitlist controls raise ethical questions about withholding effective treatment but preserve blinding better than no-treatment controls. Consider whether blinding is feasible: double-blind (neither participant nor assessor knows assignment), single-blind (only assessor blinded), or open-label with blinded outcome assessment. Document how blinding will be maintained and how unblinding events will be handled and reported.
 
-### 4. [Validity and Diagnostics](validity-and-diagnostics.md)
-**Purpose:** Assess experimental validity and perform diagnostic checks
+**5. Outcome Measures and Data Collection**
 
-**Use when you need to:**
-- Verify randomization success and covariate balance
-- Analyze attrition and compliance patterns
-- Detect contamination and spillover effects
-- Check statistical assumptions
+Specify primary and secondary outcome measures with measurement timing and methods. The primary outcome should directly address the research question and drive sample size calculations—pre-commit to one primary outcome to avoid multiplicity issues. Secondary outcomes provide supporting evidence and explore mechanisms but require appropriate interpretation given multiple testing. Define how each outcome is measured: validated instruments with citations, objective measures with protocols, or custom measures with psychometric properties documented. Specify measurement timing: baseline (pre-randomization), post-intervention, and follow-up assessments. Plan for assessor blinding where possible—outcome assessors unaware of treatment assignment. Design data collection forms and quality control procedures. Identify potential sources of measurement error and strategies to minimize them. Plan interim data quality checks without unblinding treatment effects.
 
-**Key features:**
-- ExperimentalValidityChecker class with 8 assessment methods
-- Randomization balance verification
-- Attrition and compliance analysis
-- Statistical assumption checking
+**6. Validity Threats and Mitigation Strategies**
 
-**Typical outputs:**
-- Comprehensive validity assessment report
-- Balance tables with standardized differences
-- Attrition analysis results
-- Assumption verification results
-- Threat-to-validity evaluation
+Anticipate threats to internal and external validity and design mitigations. Selection bias is addressed through proper randomization and allocation concealment. Attrition threatens validity when dropout rates differ between arms or correlate with outcomes—plan retention strategies and pre-specify how missing data will be handled (intention-to-treat as primary, sensitivity analyses under different assumptions). Contamination occurs when control participants receive treatment elements—consider cluster randomization or careful isolation of treatment groups. Hawthorne effects (behavior change from observation) and placebo effects affect both arms similarly in double-blind designs. Testing effects from repeated measurement can be assessed with Solomon four-group designs if concerning. History effects (external events affecting outcomes) threaten long studies—concurrent controls address this. Regression to the mean affects studies selecting extreme baseline values—ANCOVA adjusting for baseline mitigates this. Document each anticipated threat, its likelihood, potential impact, and mitigation strategy.
+
+**7. Analysis Strategy and Pre-Registration**
+
+Pre-specify the complete analysis plan before data collection begins. Define the primary analysis: intention-to-treat (ITT) analyzing all randomized participants as assigned regardless of compliance is the standard for unbiased causal inference. Specify the statistical model (t-test, ANCOVA, mixed effects for repeated measures, GEE for clustered data), covariates to adjust for (baseline outcome, stratification variables), and how the treatment effect and confidence interval will be calculated. Pre-specify secondary analyses: per-protocol analysis among compliers, subgroup analyses with formal interaction tests (limit to 3-5 scientifically justified subgroups), and sensitivity analyses for missing data. Define stopping rules if interim analyses are planned. Register the analysis plan publicly (ClinicalTrials.gov, OSF, AsPredicted) before enrollment begins or database lock for retrospective registration. This prevents data-driven analysis choices that inflate false positive rates.
+
+**8. Template Navigation and Workflow Coordination**
+
+Navigate to specialized templates for detailed implementation of each experimental phase. Use the randomization-and-power-analysis template for detailed sample size calculations, power curves, and randomization code generation. Apply the experimental-design-implementation template for protocol development, data collection procedures, and implementation monitoring. After data collection, use the validity-and-diagnostics template to verify randomization balance, assess attrition patterns, check compliance, and verify statistical assumptions before outcome analysis. Conduct treatment effect analysis using the treatment-effect-analysis template for ITT estimation, per-protocol analysis, CACE for non-compliance, and subgroup analyses. Coordinate across templates to ensure consistency: the same outcome definitions, covariate specifications, and analysis decisions should flow through all phases. Maintain a master study protocol document that references all specialized templates used.
+
+Deliver your experimental design plan as:
+
+1. **Design recommendation** with selected type, rationale, and why alternatives were rejected
+2. **Sample size determination** with power analysis parameters, required N, and recruitment timeline
+3. **Randomization protocol** specifying method, stratification, concealment, and implementation
+4. **Intervention specification** detailing treatment and control conditions with delivery protocols
+5. **Outcome measurement plan** with primary/secondary outcomes, timing, and data collection procedures
+6. **Validity assessment** identifying threats, likelihood, impact, and mitigation strategies
+7. **Pre-registered analysis plan** with primary analysis, secondary analyses, and stopping rules
+8. **Template workflow** mapping which specialized templates to use at each phase
 
 ---
 
-### 5. [Variables and Implementation Guide](variables-and-implementation.md)
-**Purpose:** Complete reference guide with 400+ variables and implementation best practices
+## Variables
 
-**Use when you need to:**
-- Look up variable definitions and usage
-- Find implementation examples
-- Review best practices and common pitfalls
-- Understand output requirements
-
-**Key features:**
-- 400+ comprehensive variable definitions
-- Organized by category (design, randomization, analysis, etc.)
-- 5 detailed usage examples across domains
-- Customization options and tips
-
-**Typical outputs:**
-- Variable reference for your specific study
-- Implementation checklist
-- Best practices guide
-- Domain-specific examples
-
-## Experimental Design Workflow
-
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                    EXPERIMENTAL DESIGN WORKFLOW                  │
-└─────────────────────────────────────────────────────────────────┘
-
-Phase 1: DESIGN SELECTION AND SETUP
-┌──────────────────────────────────────────┐
-│  experimental-design-setup.md            │
-│                                          │
-│  • Choose design type                    │
-│  • Configure treatment conditions        │
-│  • Define participant allocation         │
-│  • Create design specification           │
-└──────────────────────────────────────────┘
-                    ↓
-Phase 2: PRE-EXPERIMENT PLANNING
-┌──────────────────────────────────────────┐
-│  randomization-and-power-analysis.md     │
-│                                          │
-│  • Calculate required sample size        │
-│  • Perform power analysis                │
-│  • Implement randomization               │
-│  • Verify allocation balance             │
-└──────────────────────────────────────────┘
-                    ↓
-         DATA COLLECTION PHASE
-         (Outside this framework)
-                    ↓
-Phase 3: VALIDITY ASSESSMENT
-┌──────────────────────────────────────────┐
-│  validity-and-diagnostics.md             │
-│                                          │
-│  • Check randomization success           │
-│  • Assess covariate balance              │
-│  • Analyze attrition patterns            │
-│  • Verify statistical assumptions        │
-└──────────────────────────────────────────┘
-                    ↓
-Phase 4: TREATMENT EFFECT ANALYSIS
-┌──────────────────────────────────────────┐
-│  treatment-effect-analysis.md            │
-│                                          │
-│  • Perform ITT analysis                  │
-│  • Calculate treatment effects           │
-│  • Conduct subgroup analyses             │
-│  • Generate effect estimates             │
-└──────────────────────────────────────────┘
-                    ↓
-Phase 5: IMPLEMENTATION REFERENCE
-┌──────────────────────────────────────────┐
-│  variables-and-implementation.md         │
-│                                          │
-│  • Reference variable definitions        │
-│  • Review best practices                 │
-│  • Check output requirements             │
-│  • Find usage examples                   │
-└──────────────────────────────────────────┘
-```
-
-## Design Type Selection Guide
-
-Use this decision tree to select the appropriate experimental design:
-
-```
-START: What is your research context?
-│
-├─ Can you randomly assign treatment?
-│  │
-│  ├─ YES → Randomized Design
-│  │  │
-│  │  ├─ Individual-level randomization possible?
-│  │  │  │
-│  │  │  ├─ YES → Testing single treatment?
-│  │  │  │  │
-│  │  │  │  ├─ YES → Standard RCT
-│  │  │  │  │        Use: experimental-design-setup.md → setup_rct()
-│  │  │  │  │
-│  │  │  │  └─ NO → Testing multiple factors?
-│  │  │  │     │
-│  │  │  │     ├─ YES → Factorial Design
-│  │  │  │     │        Use: experimental-design-setup.md → setup_factorial_design()
-│  │  │  │     │
-│  │  │  │     └─ NO → Multiple variants (e.g., A/B/C test)?
-│  │  │  │              Use: experimental-design-setup.md → setup_ab_test()
-│  │  │  │
-│  │  │  └─ NO → Each person can receive multiple treatments?
-│  │  │           │
-│  │  │           ├─ YES → Crossover Design
-│  │  │           │        Use: experimental-design-setup.md → setup_crossover_design()
-│  │  │           │
-│  │  │           └─ NO → Must randomize groups/clusters?
-│  │  │                    │
-│  │  │                    ├─ All at once → Cluster RCT
-│  │  │                    │                Use: experimental-design-setup.md → setup_cluster_trial()
-│  │  │                    │
-│  │  │                    └─ Staggered rollout → Stepped Wedge
-│  │  │                                        Use: experimental-design-setup.md → setup_stepped_wedge()
-│  │
-│  └─ NO → Non-randomized Design
-│     │
-│     ├─ Treatment assigned by cutoff rule?
-│     │  │
-│     │  ├─ YES → Sharp cutoff (everyone above/below gets treatment)?
-│     │  │        │
-│     │  │        └─ YES → Regression Discontinuity Design
-│     │  │                 Use: experimental-design-setup.md → setup_regression_discontinuity()
-│     │  │
-│     │  └─ NO → Quasi-Experimental Design
-│     │           Use: experimental-design-setup.md → setup_quasi_experimental()
-│     │
-│     └─ Natural experiment or observational data?
-│              → Consider other causal inference methods
-│                 (propensity scores, difference-in-differences, etc.)
-```
-
-## Quick Start Pathways
-
-### Pathway 1: Digital A/B Test (Fast Track)
-**Timeline: 1-2 hours planning**
-
-1. **Design Setup** (15 min)
-   - Use `experimental-design-setup.md` → `setup_ab_test()`
-   - Configure variants and traffic allocation
-   - Define randomization unit (user/session)
-
-2. **Power Analysis** (20 min)
-   - Use `randomization-and-power-analysis.md` → `proportion_power_analysis()`
-   - Calculate required sample size
-   - Determine test duration
-
-3. **Implementation** (15 min)
-   - Use `variables-and-implementation.md` for variable reference
-   - Implement randomization with seed
-   - Set up tracking
-
-4. **Analysis Ready** (10 min)
-   - Prepare `treatment-effect-analysis.md` → `intention_to_treat_analysis()`
-   - Plan validity checks with `validity-and-diagnostics.md`
+| Variable | Description | Example |
+|----------|-------------|---------|
+| `{RESEARCH_QUESTION}` | Hypothesis or causal question to test | "whether gamified onboarding increases 30-day user retention compared to standard onboarding" |
+| `{STUDY_CONSTRAINTS}` | Practical limitations affecting design | "cannot randomize individual users due to shared household accounts; 10,000 daily signups; 8-week timeline" |
+| `{DECISION_OBJECTIVES}` | How results will inform decisions | "launch decision requiring 95% confidence in ≥5% retention lift to justify development investment" |
 
 ---
 
-### Pathway 2: Clinical Trial (Comprehensive)
-**Timeline: 2-4 weeks planning**
+## Usage Examples
 
-1. **Week 1: Design & Planning**
-   - Use `experimental-design-setup.md` → `setup_rct()`
-   - Define eligibility criteria, treatments, outcomes
-   - Plan stratification variables
+### Example 1: Digital Product A/B Test
+**Prompt:** "Develop a comprehensive experimental design plan for {RESEARCH_QUESTION: whether a simplified checkout flow increases purchase conversion compared to current 4-step checkout}, operating under {STUDY_CONSTRAINTS: 50,000 daily visitors, need results within 3 weeks, engineering capacity for one test variant}, to achieve {DECISION_OBJECTIVES: launch decision requiring statistical significance at p<0.05 with minimum 2% absolute conversion lift}."
 
-2. **Week 1-2: Sample Size & Randomization**
-   - Use `randomization-and-power-analysis.md`
-   - Perform comprehensive power analysis
-   - Design stratified block randomization
-   - Create randomization code with allocation concealment
+**Expected Output:** Design recommendation for standard A/B test with user-level randomization and 50/50 traffic split. Power analysis showing 14 days required to detect 2% lift (7% to 9% conversion) at 80% power with 50,000 daily visitors. Randomization via hashed user ID for consistency across sessions. Primary outcome: purchase completion within session; secondary: cart abandonment rate, time to purchase. Validity considerations: exclude bot traffic, handle users clearing cookies, check for novelty effects with time-based analysis. Pre-registered analysis: chi-square test for conversion rates with Bayesian stopping rule for early termination. Template workflow: use randomization template for traffic splitting logic, validity template for pre-analysis checks, treatment-effect template for final analysis with segmentation.
 
-3. **Week 2-3: Protocol Development**
-   - Use `variables-and-implementation.md` for complete variable list
-   - Document all procedures
-   - Plan data collection and monitoring
+### Example 2: Clinical Trial Design
+**Prompt:** "Develop a comprehensive experimental design plan for {RESEARCH_QUESTION: whether a digital cognitive behavioral therapy app reduces depression symptoms compared to waitlist control}, operating under {STUDY_CONSTRAINTS: recruiting from 5 clinical sites, 18-month timeline, $500K budget limiting sample to ~300 participants, IRB requires waitlist receive treatment after 12 weeks}, to achieve {DECISION_OBJECTIVES: FDA breakthrough device designation requiring clinically meaningful PHQ-9 reduction with acceptable safety profile}."
 
-4. **Week 3-4: Analysis Planning**
-   - Pre-specify analyses with `treatment-effect-analysis.md`
-   - Plan validity checks with `validity-and-diagnostics.md`
-   - Define stopping rules and interim analyses
+**Expected Output:** Design recommendation for multi-site RCT with stratified block randomization by site and baseline severity. Power analysis for 240 completers (300 enrolled assuming 20% attrition) to detect 3-point PHQ-9 difference (Cohen's d=0.4) at 80% power. Stratified randomization ensuring balance on site and baseline PHQ-9 severity (mild/moderate/severe). Treatment: 8-week app-based CBT with weekly coach check-ins; Control: 12-week waitlist then app access. Primary outcome: PHQ-9 change at 8 weeks; secondary: GAD-7, treatment engagement, adverse events. Validity threats: differential attrition (treatment burden), expectancy effects (use blinded outcome assessors), site variability (random effects model). Pre-registered analysis: mixed-effects model with site random intercept, baseline severity covariate, ITT population. Template navigation through all four specialized templates with centralized protocol document.
+
+### Example 3: Educational Cluster Trial
+**Prompt:** "Develop a comprehensive experimental design plan for {RESEARCH_QUESTION: whether a new math curriculum improves standardized test scores compared to existing curriculum}, operating under {STUDY_CONSTRAINTS: district has 60 elementary schools, cannot randomize students within schools due to contamination, teachers need summer training, one-year implementation}, to achieve {DECISION_OBJECTIVES: school board decision on district-wide adoption requiring evidence of ≥0.2 SD improvement to justify $2M curriculum investment}."
+
+**Expected Output:** Design recommendation for cluster RCT randomizing schools (30 treatment, 30 control) with stratification by school size and baseline performance. Power analysis accounting for ICC=0.15, showing 60 schools with 25 students per school provides 82% power for 0.2 SD effect. Randomization stratified by Title I status and prior math proficiency tercile. Treatment: new curriculum with summer teacher training and ongoing coaching; Control: existing curriculum with equivalent professional development time on unrelated topics. Primary outcome: state math assessment at year-end; secondary: curriculum-aligned interim assessments, teacher fidelity measures. Validity threats: implementation fidelity variation (monitor with classroom observations), teacher effects confounded with curriculum (multiple teachers per school), Hawthorne effects (control receives attention placebo). Pre-registered analysis: multilevel model with students nested in schools, school-level treatment effect, baseline covariate adjustment. Template workflow emphasizing cluster-specific power analysis and ICC estimation.
 
 ---
 
-### Pathway 3: Educational Intervention (Cluster Design)
-**Timeline: 1 week planning**
+## Cross-References
 
-1. **Day 1-2: Cluster Design Setup**
-   - Use `experimental-design-setup.md` → `setup_cluster_trial()`
-   - Define clusters (schools/classrooms)
-   - Account for intracluster correlation (ICC)
-
-2. **Day 3: Power Analysis with Design Effect**
-   - Use `randomization-and-power-analysis.md`
-   - Calculate design effect: 1 + (cluster_size - 1) × ICC
-   - Determine required number of clusters
-
-3. **Day 4-5: Randomization & Balance**
-   - Implement cluster randomization
-   - Plan baseline covariate balance checks
-   - Prepare stratification by school characteristics
-
-4. **Day 6-7: Analysis Planning**
-   - Plan multi-level analysis accounting for clustering
-   - Prepare validity assessment protocol
-   - Define implementation fidelity measures
-
-## Common Use Cases
-
-### Research & Academia
-- **Clinical trials** - Medical interventions, drug efficacy
-- **Educational research** - Teaching methods, curriculum changes
-- **Psychological experiments** - Behavioral interventions, cognitive studies
-- **Social science research** - Policy interventions, social programs
-
-### Business & Technology
-- **A/B testing** - Website optimization, feature testing
-- **Product experiments** - New features, pricing strategies
-- **Marketing campaigns** - Ad creative, messaging, channels
-- **User experience** - Design changes, onboarding flows
-
-### Policy & Government
-- **Program evaluation** - Social programs, healthcare initiatives
-- **Policy testing** - Pilot programs, regulatory changes
-- **Public health** - Health interventions, prevention programs
-- **Development economics** - Aid programs, microfinance
-
-## Statistical Concepts Reference
-
-### Key Concepts Covered
-
-**Design Types:**
-- Randomized Controlled Trials (RCT)
-- A/B and multivariate testing
-- Factorial designs (2×2, 3×2, etc.)
-- Crossover/within-subjects designs
-- Cluster randomized trials
-- Stepped wedge designs
-- Quasi-experimental designs
-- Regression discontinuity designs
-
-**Randomization Methods:**
-- Simple randomization
-- Block randomization
-- Stratified randomization
-- Cluster randomization
-- Adaptive randomization
-- Minimization algorithms
-
-**Power Analysis:**
-- Sample size calculations
-- Power curves
-- Minimum detectable effects
-- Effect size estimation
-- Type I and Type II errors
-
-**Treatment Effect Estimation:**
-- Intention-to-treat (ITT)
-- Per-protocol (PP)
-- Complier average causal effect (CACE)
-- Instrumental variable (IV) methods
-- Dose-response relationships
-- Subgroup and heterogeneous effects
-
-**Validity Assessment:**
-- Internal validity
-- External validity
-- Statistical conclusion validity
-- Construct validity
-- Covariate balance
-- Attrition analysis
-- Contamination detection
-
-
-
-## Related Resources
-
-### Complementary Templates
-
-Enhance your workflow by combining this template with:
-
-- **[Experimental Design Setup](experimental-design-setup.md)** - Complementary approaches and methodologies
-- **[Randomization And Power Analysis](randomization-and-power-analysis.md)** - Complementary approaches and methodologies
-- **[Treatment Effect Analysis](treatment-effect-analysis.md)** - Complementary approaches and methodologies
-- **[Validity And Diagnostics](validity-and-diagnostics.md)** - Complementary approaches and methodologies
-- **[Variables And Implementation](variables-and-implementation.md)** - Complementary approaches and methodologies
-
-### Suggested Workflow
-
-**Typical implementation sequence**:
-
-1. Start with this template (Experimental Design and Causal Inference Overview)
-2. Use [Experimental Design Setup](experimental-design-setup.md) for deeper analysis
-3. Apply [Randomization And Power Analysis](randomization-and-power-analysis.md) for execution
-4. Iterate and refine based on results
-
-### Explore More in This Category
-
-Browse all **[data-analytics/Research Analytics](../../data-analytics/Research Analytics/)** templates for related tools and frameworks.
-
-### Common Use Case Combinations
-
-- **Navigate the experimental design framework and select appropriate prompts for designing, implementing, and analyzing controlled experiments including RCTs, A/B tests, and causal inference studies**: Combine this template with related analytics and strategy frameworks
-
-## Best Practices Summary
-
-### Design Phase
-1. Pre-specify all analyses before data collection
-2. Choose design that matches research question and constraints
-3. Calculate adequate sample size with power analysis
-4. Plan for expected attrition (typically add 15-20%)
-5. Consider clustering and adjust sample size accordingly
-
-### Implementation Phase
-6. Use reproducible randomization with documented seed
-7. Maintain allocation concealment to prevent selection bias
-8. Implement blinding when feasible
-9. Monitor data quality continuously
-10. Track protocol deviations systematically
-
-### Analysis Phase
-11. Check randomization balance before outcome analysis
-12. Use ITT as primary analysis
-13. Pre-specify and limit subgroup analyses
-14. Apply multiple testing corrections
-15. Conduct sensitivity analyses
-
-### Reporting Phase
-16. Follow CONSORT guidelines for RCTs
-17. Report all pre-specified outcomes
-18. Include effect sizes and confidence intervals
-19. Discuss clinical/practical significance
-20. Make data and code available when possible
-
-## Getting Help
-
-### When to Use Which Prompt
-
-| **Your Goal** | **Use This Prompt** |
-|---------------|---------------------|
-| Choose experimental design type | experimental-design-setup.md |
-| Calculate sample size | randomization-and-power-analysis.md |
-| Implement randomization | randomization-and-power-analysis.md |
-| Analyze treatment effects | treatment-effect-analysis.md |
-| Check validity and assumptions | validity-and-diagnostics.md |
-| Look up variable definitions | variables-and-implementation.md |
-| Find usage examples | variables-and-implementation.md |
-| Review best practices | variables-and-implementation.md |
-
-### Integration with Other Templates
-
-This experimental design framework integrates well with:
-
-- **[Predictive Modeling Framework](../predictive-modeling-framework.md)** - For outcome prediction models
-- **[Dashboard Design Patterns](../dashboard-design-patterns.md)** - For experiment monitoring dashboards
-- **[Data Governance Framework](../data-governance-framework.md)** - For data quality and compliance
-
-## Additional Resources
-
-### Recommended Reading
-- Clinical trials: CONSORT guidelines
-- A/B testing: "Trustworthy Online Controlled Experiments" by Kohavi et al.
-- Causal inference: "Causal Inference: The Mixtape" by Cunningham
-- Experimental design: "Design and Analysis of Experiments" by Montgomery
-
-### Statistical Software
-- R packages: `pwr`, `randomizr`, `estimatr`, `DeclareDesign`
-- Python packages: `statsmodels`, `scipy.stats`, `scikit-learn`
-- Specialized: G*Power for power analysis, PASS for sample size
-
-### Online Tools
-- Sample size calculators for various test types
-- Randomization sequence generators
-- Power analysis software
-- Effect size converters
-
----
-
-## Quick Reference Card
-
-**Design Selection:** experimental-design-setup.md
-**Power & Randomization:** randomization-and-power-analysis.md
-**Effect Analysis:** treatment-effect-analysis.md
-**Validity Checks:** validity-and-diagnostics.md
-**Variables & Examples:** variables-and-implementation.md
-
-**Key Principles:**
-1. Randomize when possible
-2. Calculate adequate sample size
-3. Pre-specify analyses
-4. Use ITT as primary
-5. Check validity systematically
-6. Report completely and transparently
-
-**Success Checklist:**
-- [ ] Design type selected and configured
-- [ ] Power analysis completed
-- [ ] Randomization implemented and verified
-- [ ] Data collection plan documented
-- [ ] Analysis plan pre-specified
-- [ ] Validity checks planned
-- [ ] Reporting standards identified
+- [experimental-design-implementation.md](experimental-design-implementation.md) - Detailed protocol development and implementation
+- [randomization-and-power-analysis.md](randomization-and-power-analysis.md) - Sample size calculations and randomization procedures
+- [treatment-effect-analysis.md](treatment-effect-analysis.md) - ITT, per-protocol, CACE, and subgroup analyses
+- [validity-and-diagnostics.md](validity-and-diagnostics.md) - Balance checks, attrition analysis, assumption testing

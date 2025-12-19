@@ -1,638 +1,132 @@
 ---
 category: data-analytics
-last_updated: 2025-11-22
+title: Dashboard Design Overview & Navigation
+tags:
+- business-intelligence
+- dashboards
+- project-planning
+- bi-strategy
+use_cases:
+- Planning end-to-end dashboard development projects
+- Selecting appropriate specialized templates for dashboard phases
+- Assessing dashboard project readiness and resource requirements
+- Creating phased implementation roadmaps
 related_templates:
 - data-analytics/Business-Intelligence/dashboard-strategy-requirements.md
 - data-analytics/Business-Intelligence/dashboard-ux-design.md
 - data-analytics/Business-Intelligence/dashboard-data-architecture.md
 - data-analytics/Business-Intelligence/dashboard-technical-implementation.md
-- data-analytics/Business-Intelligence/dashboard-security-compliance.md
-- data-analytics/Business-Intelligence/dashboard-testing-deployment.md
-tags:
-- business-intelligence
-- dashboards
-- project-planning
-title: Dashboard Design Overview & Navigation Guide
-use_cases:
-- Dashboard project planning
-- Prompt selection guidance
-- End-to-end dashboard development
 industries:
-- government
-- healthcare
-- manufacturing
 - technology
-type: template
+- finance
+- healthcare
+- retail
+- manufacturing
+type: framework
 difficulty: intermediate
 slug: dashboard-design-overview
 ---
 
-# Dashboard Design Overview & Navigation Guide
+# Dashboard Design Overview & Navigation
 
-## Overview
-This guide helps you navigate the comprehensive dashboard design framework, directing you to the right specialized prompts for your specific needs. Use this as your starting point for any dashboard initiative.
+## Purpose
+Guide dashboard project planning by assessing readiness, selecting appropriate specialized templates, and creating phased implementation roadmaps. This framework helps navigate the comprehensive dashboard design template suite and ensures projects address all critical dimensions from strategy through deployment.
 
----
+## 🚀 Quick Planning Prompt
 
-## Quick Start
+> Plan a **dashboard initiative** for **[ORGANIZATION]** building **[DASHBOARD SCOPE]**. Assess readiness across: (1) **Requirements clarity**—are business objectives, KPIs, and stakeholder needs defined? (2) **Data readiness**—are source systems identified, data quality understood, and pipelines feasible? (3) **Technical foundation**—is BI platform selected, infrastructure available, and team skilled? (4) **Governance needs**—are security requirements, compliance obligations, and access controls understood? Provide a phase recommendation, template sequence, resource estimate, and implementation timeline.
 
-### New to Dashboard Development?
-Follow this recommended sequence:
-
-1. **Start here:** [dashboard-strategy-requirements.md](#1-dashboard-strategy--requirements) - Define what you need
-2. **Design phase:** [dashboard-ux-design.md](#2-dashboard-ux-design) - Create the user experience
-3. **Data phase:** [dashboard-data-architecture.md](#3-data-architecture--integration) - Build data pipelines
-4. **Build phase:** [dashboard-technical-implementation.md](#4-technical-implementation) - Select platforms and build infrastructure
-5. **Secure phase:** [dashboard-security-compliance.md](#5-security--compliance) - Implement security and governance
-6. **Launch phase:** [dashboard-testing-deployment.md](#6-testing--deployment) - Test, deploy, and maintain
-
-### Working on Specific Aspects?
-Jump directly to the relevant specialized prompt based on your current focus:
-
-- **Business requirements?** → [Strategy & Requirements](#1-dashboard-strategy--requirements)
-- **Visual design?** → [UX Design](#2-dashboard-ux-design)
-- **Data pipelines?** → [Data Architecture](#3-data-architecture--integration)
-- **Platform selection?** → [Technical Implementation](#4-technical-implementation)
-- **Security concerns?** → [Security & Compliance](#5-security--compliance)
-- **Testing or deployment?** → [Testing & Deployment](#6-testing--deployment)
+**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for rapid dashboard project planning.
 
 ---
 
-## Specialized Prompt Guide
+## Template
 
-### 1. Dashboard Strategy & Requirements
-**File:** `dashboard-strategy-requirements.md`
+Plan a comprehensive dashboard initiative for {ORGANIZATION_CONTEXT}, developing {DASHBOARD_SCOPE} to achieve {BUSINESS_OBJECTIVES}.
 
-**Use this prompt when you need to:**
-- Define business objectives for dashboard initiatives
-- Identify and align stakeholder requirements
-- Establish KPIs and success metrics
-- Create strategic dashboard portfolio architecture
-- Plan system integrations
-- Set project scope and budget
+Assess project readiness across six dimensions, scoring each 1-5:
 
-**Key outputs:**
-- Strategic dashboard framework
-- KPI framework with targets
-- Requirements documentation
-- Implementation roadmap
-- Stakeholder analysis
+**1. REQUIREMENTS READINESS**
 
-**Typical users:**
-- Business analysts
-- Project managers
-- Product owners
-- Executive sponsors
+Evaluate clarity of business requirements starting with objective definition determining whether dashboard goals are articulated with measurable success criteria. Assess KPI identification confirming metrics are defined with calculation logic, targets, and data sources. Review stakeholder alignment checking whether decision-makers agree on priorities, scope, and expected outcomes. Examine user understanding evaluating whether personas, workflows, and usage patterns are documented. Consider scope boundaries determining whether inclusions and exclusions are clear and agreed upon. Identify requirement gaps noting areas needing further discovery before design can proceed. If requirements readiness is low, start with the Strategy and Requirements template before other phases.
 
-**Time investment:** 2-4 hours for comprehensive requirements gathering
+**2. DATA READINESS**
 
----
+Assess data foundation for dashboard analytics beginning with source identification confirming all required data systems are known with access paths understood. Evaluate data quality understanding determining whether completeness, accuracy, and timeliness are characterized for each source. Review data integration feasibility assessing whether extraction methods are viable and latency requirements achievable. Check data modeling status determining whether analytical models exist or need creation. Examine historical data availability confirming sufficient history exists for trend analysis and comparisons. Identify data gaps noting missing sources, quality issues, or integration challenges requiring resolution. If data readiness is low, prioritize the Data Architecture template early in the project sequence.
 
-### 2. Dashboard UX Design
-**File:** `dashboard-ux-design.md`
+**3. TECHNICAL READINESS**
 
-**Use this prompt when you need to:**
-- Design user-centered dashboard interfaces
-- Select appropriate data visualizations
-- Create effective visual hierarchy
-- Design navigation and interactions
-- Optimize for usability and engagement
-- Plan responsive and mobile layouts
+Evaluate technical foundation starting with platform status determining whether BI tool is selected, licensed, and configured. Assess infrastructure availability checking whether compute, storage, and network resources are provisioned. Review team capabilities confirming skills exist for data engineering, BI development, and platform administration. Examine integration capabilities assessing whether APIs, connectors, and authentication mechanisms are available. Consider performance requirements understanding query volumes, user concurrency, and response time expectations. Identify technical gaps noting platform decisions, infrastructure needs, or skill gaps requiring attention. If technical readiness is low, engage the Technical Implementation template before build phases.
 
-**Key outputs:**
-- User experience design
-- Visual design system
-- Data visualization guide
-- Navigation and layout design
-- Interactive feature specifications
+**4. DESIGN READINESS**
 
-**Typical users:**
-- UX/UI designers
-- Product designers
-- Data visualization specialists
-- Front-end developers
+Assess user experience foundation beginning with user research status determining whether personas, journeys, and pain points are understood. Evaluate visualization requirements checking whether chart types, layouts, and interaction patterns are identified. Review design system availability confirming whether brand guidelines, component libraries, and style standards exist. Examine accessibility requirements understanding compliance needs for WCAG or organizational standards. Consider device requirements determining desktop, mobile, and embedded access needs. Identify design gaps noting user research, mockup, or prototype work needed. If design readiness is low, schedule the UX Design template before development begins.
 
-**Time investment:** 3-5 hours for detailed UX design
+**5. SECURITY AND COMPLIANCE READINESS**
+
+Evaluate governance requirements starting with security requirements clarity determining whether authentication, authorization, and encryption needs are documented. Assess compliance obligations confirming regulatory requirements like HIPAA, SOX, or GDPR are identified with control mappings. Review access control design checking whether row-level security, role definitions, and permission models are specified. Examine audit requirements understanding logging, retention, and reporting obligations. Consider data sensitivity classification determining whether data categories and handling requirements are defined. Identify governance gaps noting security decisions, compliance assessments, or control implementations needed. If governance readiness is low, engage the Security and Compliance template early, especially for regulated industries.
+
+**6. OPERATIONAL READINESS**
+
+Assess deployment and support foundation beginning with testing strategy determining whether test plans, environments, and acceptance criteria are defined. Evaluate deployment approach checking whether release process, rollback procedures, and communication plans exist. Review support model confirming whether maintenance responsibilities, escalation paths, and SLAs are established. Examine training requirements understanding user enablement needs and documentation requirements. Consider monitoring capabilities determining whether alerting, usage tracking, and health checks are planned. Identify operational gaps noting testing, deployment, or support preparations needed. Schedule the Testing and Deployment template as build phase completes.
+
+Deliver your project plan as:
+
+1. **READINESS SCORECARD** - Score per dimension with key finding and recommended action
+
+2. **TEMPLATE SEQUENCE** - Ordered list of specialized templates to use based on readiness gaps
+
+3. **PHASE PLAN** - Project phases with parallel and sequential workstreams mapped to templates
+
+4. **RESOURCE ESTIMATE** - Team roles, skills, and time investment per phase
+
+5. **TIMELINE** - Week-by-week or month-by-month schedule with milestones and dependencies
+
+6. **RISK ASSESSMENT** - Top risks from readiness gaps with mitigation strategies
+
+Use this readiness scale:
+- 1.0-1.9: Not Started (no work done, significant discovery needed)
+- 2.0-2.9: Early (initial work started, major gaps remain)
+- 3.0-3.9: Progressing (solid progress, some gaps to address)
+- 4.0-4.9: Ready (well-prepared, minor refinements needed)
+- 5.0: Complete (fully ready, proceed to next phase)
 
 ---
 
-### 3. Data Architecture & Integration
-**File:** `dashboard-data-architecture.md`
+## Variables
 
-**Use this prompt when you need to:**
-- Design data integration architecture
-- Develop ETL/ELT pipelines
-- Model data warehouses for analytics
-- Ensure data quality and governance
-- Plan data storage and performance optimization
-
-**Key outputs:**
-- Data architecture design
-- ETL/ELT pipeline specifications
-- Data model design
-- Data quality framework
-- Implementation roadmap
-
-**Typical users:**
-- Data engineers
-- Data architects
-- ETL developers
-- Database administrators
-
-**Time investment:** 4-6 hours for comprehensive data architecture
-
----
-
-### 4. Technical Implementation
-**File:** `dashboard-technical-implementation.md`
-
-**Use this prompt when you need to:**
-- Select BI platforms and technologies
-- Design scalable infrastructure architecture
-- Optimize for performance and reliability
-- Plan multi-device and mobile access
-- Configure cloud infrastructure
-- Set up caching and CDN
-
-**Key outputs:**
-- Platform recommendation
-- Technical architecture design
-- Infrastructure specifications
-- Performance optimization plan
-- Mobile and multi-device strategy
-- Implementation roadmap
-
-**Typical users:**
-- Solution architects
-- DevOps engineers
-- Infrastructure engineers
-- Technical leads
-
-**Time investment:** 3-5 hours for technical architecture design
-
----
-
-### 5. Security & Compliance
-**File:** `dashboard-security-compliance.md`
-
-**Use this prompt when you need to:**
-- Design comprehensive security architecture
-- Implement role-based access controls
-- Ensure regulatory compliance (GDPR, HIPAA, SOX, etc.)
-- Establish data governance framework
-- Configure encryption and network security
-- Set up audit logging and monitoring
-
-**Key outputs:**
-- Security architecture design
-- Access control framework
-- Compliance framework
-- Security policies and procedures
-- Audit and monitoring setup
-- Implementation roadmap
-
-**Typical users:**
-- Security architects
-- Compliance officers
-- Data privacy officers
-- Security engineers
-
-**Time investment:** 3-4 hours for security and compliance framework
-
----
-
-### 6. Testing & Deployment
-**File:** `dashboard-testing-deployment.md`
-
-**Use this prompt when you need to:**
-- Develop comprehensive testing strategies
-- Plan deployment approaches
-- Establish maintenance and support frameworks
-- Create continuous improvement processes
-- Set up monitoring and alerting
-- Define SLAs and support procedures
-
-**Key outputs:**
-- Comprehensive testing plan
-- Data validation framework
-- Deployment strategy
-- Support and maintenance plan
-- Monitoring and alerting setup
-- Continuous improvement framework
-
-**Typical users:**
-- QA engineers
-- DevOps engineers
-- Release managers
-- Support teams
-
-**Time investment:** 3-5 hours for testing and deployment planning
-
----
-
-## Common Use Case Scenarios
-
-### Scenario 1: Building a New Executive Dashboard
-**Recommended sequence:**
-1. **Strategy & Requirements** - Define KPIs and stakeholder needs
-2. **UX Design** - Design executive-friendly interface
-3. **Data Architecture** - Build data pipelines
-4. **Technical Implementation** - Select platform (often commercial BI tool)
-5. **Security & Compliance** - Implement access controls
-6. **Testing & Deployment** - UAT and controlled rollout
-
-**Estimated timeline:** 8-12 weeks
-
----
-
-### Scenario 2: Modernizing Legacy Reporting
-**Recommended sequence:**
-1. **Strategy & Requirements** - Document current state and future vision
-2. **Data Architecture** - Redesign data pipelines for modern architecture
-3. **UX Design** - Transform reports into interactive dashboards
-4. **Technical Implementation** - Migrate to cloud-based platform
-5. **Security & Compliance** - Maintain or improve security posture
-6. **Testing & Deployment** - Parallel run and migration
-
-**Estimated timeline:** 12-16 weeks
-
----
-
-### Scenario 3: Embedding Analytics in SaaS Product
-**Recommended sequence:**
-1. **Strategy & Requirements** - Define customer analytics needs
-2. **Technical Implementation** - Select embeddable platform
-3. **UX Design** - White-label design matching product
-4. **Data Architecture** - Multi-tenant data architecture
-5. **Security & Compliance** - Row-level security for multi-tenancy
-6. **Testing & Deployment** - Performance testing at scale
-
-**Estimated timeline:** 10-14 weeks
-
----
-
-### Scenario 4: Compliance-Driven Healthcare Dashboard
-**Recommended sequence:**
-1. **Security & Compliance** - Start with HIPAA requirements
-2. **Strategy & Requirements** - Define clinical and operational KPIs
-3. **Data Architecture** - Secure PHI handling and encryption
-4. **UX Design** - Role-based views with data masking
-5. **Technical Implementation** - HIPAA-compliant infrastructure
-6. **Testing & Deployment** - Security testing and compliance validation
-
-**Estimated timeline:** 14-18 weeks
-
----
-
-## Decision Trees
-
-### Which prompt should I use first?
-
-```
-Do you have clear business requirements?
-├─ No → Start with Strategy & Requirements
-└─ Yes
-    └─ Do you have a data architecture?
-        ├─ No → Start with Data Architecture
-        └─ Yes
-            └─ Do you have security requirements defined?
-                ├─ No → Start with Security & Compliance
-                └─ Yes
-                    └─ Have you selected a platform?
-                        ├─ No → Start with Technical Implementation
-                        └─ Yes
-                            └─ Do you have UX designs?
-                                ├─ No → Start with UX Design
-                                └─ Yes → Start with Testing & Deployment
-```
-
-### Which platform should I choose?
-
-```
-What's your primary need?
-├─ Self-service for business users → Commercial BI (Power BI/Tableau)
-├─ Embedded in customer app → Embeddable platform (Looker/Sisense) or Custom
-├─ Complex custom visualizations → Custom development (React + D3.js)
-├─ Cost-effectiveness at scale → Open source (Metabase/Superset) or Custom
-└─ Quick time to market → Commercial BI (Power BI/Tableau)
-```
-
----
-
-## Resource Requirements by Phase
-
-| Phase | People Needed | Duration | Key Skills Required |
-|-------|---------------|----------|---------------------|
-| Strategy & Requirements | 2-3 (BA, PM, Stakeholders) | 2-3 weeks | Business analysis, stakeholder management |
-| UX Design | 2-3 (UX designer, Product owner) | 2-4 weeks | UX design, data visualization |
-| Data Architecture | 2-4 (Data engineer, Architect) | 3-5 weeks | ETL, data modeling, SQL |
-| Technical Implementation | 2-4 (Architect, DevOps, Developer) | 3-5 weeks | Cloud, infrastructure, BI platform |
-| Security & Compliance | 1-2 (Security, Compliance) | 2-3 weeks | Security, regulatory knowledge |
-| Testing & Deployment | 2-3 (QA, DevOps, Support) | 2-4 weeks | Testing, deployment, support |
-
-**Total typical project:** 14-24 weeks with parallel workstreams
-
----
-
-## Success Factors
-
-### Critical Success Factors
-1. **Executive sponsorship** - Active champion at executive level
-2. **Clear business objectives** - Well-defined success criteria
-3. **User involvement** - Early and continuous user engagement
-4. **Data quality** - Clean, reliable source data
-5. **Skilled team** - Right mix of business and technical skills
-6. **Iterative approach** - Start small, expand based on feedback
-7. **Change management** - User training and adoption strategy
-8. **Ongoing support** - Dedicated team for maintenance and enhancement
-
-### Common Failure Patterns
-- Starting with technology before understanding requirements
-- Ignoring data quality issues
-- Building everything at once instead of iterating
-- Poor user training and adoption
-- Inadequate ongoing support and maintenance
-- Over-engineering for current needs
-- Insufficient stakeholder alignment
-- Neglecting mobile and accessibility
-
----
-
-## When to Use Multiple Prompts
-
-Most dashboard projects require multiple prompts. Use them in parallel when:
-
-**Parallel workstreams:**
-- **Strategy + UX Design** - Business analysts and designers can work together
-- **Data Architecture + Security** - Both can start once requirements are clear
-- **Technical Implementation + Testing** - QA can prepare while infrastructure is being built
-
-**Sequential dependencies:**
-- **Strategy → UX Design** - Need requirements before designing interface
-- **Data Architecture → Technical Implementation** - Platform choice depends on data needs
-- **All → Testing & Deployment** - Testing requires completed components
-
----
-
-## Quick Reference: Prompt Selection Matrix
-
-| Your Question | Use This Prompt |
-|---------------|-----------------|
-| What dashboards do we need? | Strategy & Requirements |
-| What KPIs should we track? | Strategy & Requirements |
-| How should the dashboard look? | UX Design |
-| What charts should we use? | UX Design |
-| How do we get the data? | Data Architecture |
-| How do we model the data? | Data Architecture |
-| Which BI tool should we use? | Technical Implementation |
-| How do we make it fast? | Technical Implementation |
-| How do we secure it? | Security & Compliance |
-| Are we HIPAA/GDPR compliant? | Security & Compliance |
-| How do we test it? | Testing & Deployment |
-| How do we deploy it? | Testing & Deployment |
-
----
-
-## Getting Help
-
-### Each specialized prompt includes:
-- Clear purpose and use cases
-- Detailed prompt template with variables
-- Example usage scenarios
-- Best practices and common pitfalls
-- Deliverable specifications
-- Quick reference guides
+| Variable | Description | Example |
+|----------|-------------|---------|
+| `{ORGANIZATION_CONTEXT}` | Organization type, size, and current BI maturity | "Series B SaaS startup with no existing BI tool and data in 5 SaaS systems" |
+| `{DASHBOARD_SCOPE}` | Dashboard types and coverage | "executive KPI dashboard plus departmental views for sales, marketing, and finance" |
+| `{BUSINESS_OBJECTIVES}` | Goals and success criteria | "unified metrics visibility with daily refresh enabling data-driven weekly leadership meetings" |
 
 ---
 
 ## Usage Examples
 
-### Example 1: Startup Building First Executive Dashboard
+### Example 1: Startup First Dashboard
+**Prompt:** Plan a comprehensive dashboard initiative for TechStartup Inc, a Series B SaaS company with 80 employees and no existing BI infrastructure, developing executive KPI dashboard tracking MRR, churn, CAC, and LTV with departmental drill-downs to achieve unified metrics visibility replacing manual Excel reporting within 8 weeks.
 
-**Context:** Series B SaaS startup needs its first unified executive dashboard
+**Expected Output:** Readiness scorecard showing low data readiness (data in 5 disconnected SaaS tools) and low technical readiness (no BI platform), template sequence starting with Strategy then Data Architecture then Technical Implementation in parallel with UX Design, 8-week timeline with weeks 1-2 for requirements and platform selection, weeks 3-5 for data pipeline and dashboard build, weeks 6-7 for testing, week 8 for deployment and training.
 
-**Copy-paste this prompt:**
+### Example 2: Enterprise Report Modernization
+**Prompt:** Plan a comprehensive dashboard initiative for Fortune 500 manufacturer with 50+ legacy Crystal Reports serving 500 users, developing modern interactive dashboard suite consolidating operational and analytical reporting to achieve retirement of legacy reporting infrastructure over 18 months while maintaining SOX compliance for financial reports.
 
-```
-I'm a Series B SaaS startup ($15M ARR, 80 employees) building our first executive dashboard.
-We currently have data scattered across Salesforce, Stripe, Mixpanel, and Google Sheets.
+**Expected Output:** Readiness scorecard showing high requirements complexity (50+ reports to inventory), medium data readiness (existing data warehouse), high governance needs (SOX), template sequence starting with Security and Compliance then Strategy for report inventory then Data Architecture for semantic layer, phased 18-month plan prioritizing high-use reports first, parallel run strategy for validation, and change management emphasis for user adoption.
 
-CURRENT STATE:
-- No existing BI tool - reports are manual Excel exports
-- Data sources: Salesforce (CRM), Stripe (payments), Mixpanel (product analytics), HubSpot (marketing)
-- Team: 1 data analyst, no data engineering team yet
-- Budget: $30K-$50K annually for tools and implementation
-- Timeline: Need basic dashboard in 4 weeks, full solution in 8 weeks
+### Example 3: Embedded Analytics Product
+**Prompt:** Plan a comprehensive dashboard initiative for B2B SaaS product company with 200 customers, developing embedded analytics feature within the product offering customer-facing dashboards with self-service capabilities to achieve new revenue stream with analytics add-on priced at $100-200 per customer monthly.
 
-REQUIREMENTS:
-- Primary users: CEO, CFO, VP Sales, VP Product (5 executives)
-- KPIs needed: MRR, ARR, Net Revenue Retention, CAC, LTV, Pipeline, Churn Rate
-- Access: Desktop primary, but CEO wants mobile access for board meetings
-- Data freshness: Daily is acceptable for most metrics, real-time for active sales pipeline
-
-QUESTIONS TO ANSWER:
-1. Which dashboard design prompt should I start with?
-2. Should I use Power BI, Tableau, Looker, or something simpler like Metabase?
-3. Do I need a data warehouse, or can I connect directly to sources?
-4. What's a realistic phased roadmap for our resources?
-
-Please provide a recommendation on which prompts to use, in what order, with estimated time for each phase.
-```
-
-**Expected Output:**
-- Start with Strategy & Requirements (1 week) → Data Architecture (2 weeks) → UX Design + Technical Implementation parallel (2 weeks) → Testing (1 week)
-- Platform recommendation: Metabase or Power BI for simplicity, or Sigma if modern cloud-native preferred
-- Data warehouse recommendation: Start with Fivetran/Census to replicate data to Snowflake or BigQuery
-- MVP scope: 1 executive dashboard with 7-10 core SaaS metrics
+**Expected Output:** Readiness scorecard highlighting critical security needs (multi-tenant data isolation), technical complexity (embedded BI platform selection), and UX requirements (white-label design), template sequence prioritizing Technical Implementation for platform evaluation then Security for multi-tenancy then UX Design for seamless embedding, 12-week timeline with heavy emphasis on architecture decisions in first 4 weeks.
 
 ---
 
-### Example 2: Enterprise Modernizing Legacy Reports
+## Cross-References
 
-**Context:** Large enterprise replacing 50+ legacy Crystal Reports with modern dashboards
-
-**Copy-paste this prompt:**
-
-```
-We're a Fortune 500 manufacturing company modernizing our reporting infrastructure.
-Currently we have 50+ Crystal Reports that need to be converted to modern dashboards.
-
-CURRENT STATE:
-- 50+ Crystal Reports running on Oracle database
-- Reports accessed by 500+ users across 12 departments
-- Mix of operational (daily use) and analytical (monthly) reports
-- Some reports are 15+ years old with undocumented business logic
-- IT team of 20, including 5 BI developers familiar with Cognos and SSRS
-
-CONSTRAINTS:
-- Must maintain SOX compliance for financial reports
-- Global users in US, Europe, and Asia (latency concerns)
-- Budget approved: $2M over 18 months
-- Parallel run required - can't switch off old reports until new ones validated
-- Security: Row-level security by region, department, and cost center
-
-QUESTIONS TO ANSWER:
-1. What's the right sequence of prompts for a migration project?
-2. How should we prioritize which reports to migrate first?
-3. Should we refactor reports or do a 1:1 migration?
-4. What data architecture changes are needed for modern BI?
-
-Please provide a phased migration strategy with governance checkpoints.
-```
-
-**Expected Output:**
-- Start with Strategy & Requirements to inventory and prioritize reports
-- Use Security & Compliance before architecture (SOX requirements)
-- Prioritization framework: High-use reports first, then business-critical, then low-use/candidate for retirement
-- Recommendation: Consolidate 50 reports into 10-15 dashboards (many reports likely overlap)
-- Data architecture: Build semantic layer on top of existing Oracle, migrate to cloud DW in phase 2
-
----
-
-### Example 3: Product Team Embedding Analytics
-
-**Context:** B2B SaaS product team needs to embed analytics into their customer-facing product
-
-**Copy-paste this prompt:**
-
-```
-We're building embedded analytics for our B2B project management SaaS product.
-Our customers have asked for reports and dashboards within our application.
-
-CURRENT STATE:
-- Product: B2B project management tool (React frontend, Node backend, PostgreSQL)
-- Customers: 200 B2B customers, 10-1000 users each
-- Current analytics: Basic reporting with Chart.js, customers want more
-- Team: 8 engineers, 1 data engineer, no dedicated BI team
-- Infrastructure: AWS, already using Redshift for internal analytics
-
-REQUIREMENTS:
-- Must be embedded seamlessly in our app (not a separate tool login)
-- White-label: Customers see our brand, not the BI tool's
-- Multi-tenant: Each customer sees only their data (strict data isolation)
-- Self-service: Customers want to build their own reports (power users)
-- Performance: Must load in <2 seconds (customers expect product speed)
-- Pricing: Need to price analytics as add-on feature ($50-200/customer/month)
-
-TECHNICAL CONSTRAINTS:
-- iFrame embedding acceptable, but prefer JavaScript SDK
-- SSO with our existing auth (JWT-based)
-- API access for customers who want to pull data programmatically
-
-QUESTIONS TO ANSWER:
-1. Which prompts address multi-tenant embedded analytics?
-2. Build vs. buy - should we use embedded BI or build custom?
-3. What's the architecture for multi-tenant data isolation?
-4. How do we ensure customer data never leaks across tenants?
-
-Please provide an architecture recommendation for embedded B2B analytics.
-```
-
-**Expected Output:**
-- Start with Technical Implementation (for embedded platform selection) → Security & Compliance (multi-tenancy) → Data Architecture (tenant isolation) → UX Design (white-label)
-- Platform options: Looker, Sisense, Sigma (embedded-first), or custom with React + Apache Superset
-- Multi-tenancy: Row-level security with tenant_id in all queries, or separate schemas per customer
-- Architecture: Tenant-aware data layer with JWT claims for tenant isolation
-
----
-
-## Related Resources
-
-### Complementary Templates
-
-Enhance your workflow by combining this template with:
-
-- **[Dashboard Strategy Requirements](dashboard-strategy-requirements.md)** - Strategic planning and execution frameworks
-- **[Dashboard Ux Design](dashboard-ux-design.md)** - Complementary approaches and methodologies
-- **[Dashboard Data Architecture](dashboard-data-architecture.md)** - Leverage data analysis to drive informed decisions
-- **[Dashboard Technical Implementation](dashboard-technical-implementation.md)** - Complementary approaches and methodologies
-- **[Dashboard Security Compliance](dashboard-security-compliance.md)** - Complementary approaches and methodologies
-
-### Suggested Workflow
-
-**Typical implementation sequence**:
-
-1. Start with this template (Dashboard Design Overview & Navigation Guide)
-2. Use [Dashboard Strategy Requirements](dashboard-strategy-requirements.md) for deeper analysis
-3. Apply [Dashboard Ux Design](dashboard-ux-design.md) for execution
-4. Iterate and refine based on results
-
-### Explore More in This Category
-
-Browse all **[data-analytics/Business Intelligence](../../data-analytics/Business Intelligence/)** templates for related tools and frameworks.
-
-### Common Use Case Combinations
-
-- **Dashboard project planning**: Combine this template with related analytics and strategy frameworks
-- **Prompt selection guidance**: Combine this template with related analytics and strategy frameworks
-- **End-to-end dashboard development**: Combine this template with related analytics and strategy frameworks
-
-## Tips for using the prompts:
-1. **Read the overview section** - Understand the prompt's purpose
-2. **Review the example** - See how others have filled it out
-3. **Customize variables** - Replace placeholders with your specifics
-4. **Check best practices** - Avoid common mistakes
-5. **Review deliverables** - Know what outputs to expect
-
----
-
-## Project Phases Overview
-
-```
-Phase 1: Discovery & Planning
-├─ Strategy & Requirements
-└─ Initial Security & Compliance review
-
-Phase 2: Design
-├─ UX Design
-├─ Data Architecture
-└─ Technical Architecture
-
-Phase 3: Build
-├─ Data pipeline development
-├─ Dashboard development
-├─ Security implementation
-└─ Integration work
-
-Phase 4: Test & Deploy
-├─ Testing & Validation
-├─ UAT
-├─ Deployment
-└─ Training
-
-Phase 5: Operate & Improve (Ongoing)
-├─ Support & Maintenance
-├─ Monitoring
-├─ Continuous improvement
-└─ Feature enhancements
-```
-
----
-
-## Next Steps
-
-1. **Assess your current stage** - Where are you in the dashboard lifecycle?
-2. **Select the appropriate prompt** - Use the decision trees above
-3. **Gather necessary information** - Review what variables you need
-4. **Use the prompt** - Fill in variables and get guidance
-5. **Iterate and refine** - Dashboard development is iterative
-6. **Return for other phases** - Use additional prompts as needed
-
----
-
-## Additional Resources
-
-### Related Templates
-- **dashboard-design-patterns.md** - Common design patterns and solutions
-- **data-governance-framework.md** - Broader data governance practices
-- **predictive-modeling-framework.md** - Advanced analytics integration
-
-### External Resources
-- Data visualization best practices: Edward Tufte, Stephen Few
-- Dashboard design: Information Dashboard Design by Stephen Few
-- BI platforms: Gartner Magic Quadrant for Analytics and BI
-- Compliance: GDPR, HIPAA, SOX official documentation
-
----
-
-**Remember:** Great dashboards are built iteratively. Start small, get feedback, and expand based on actual usage and needs. Use these prompts as guides, not rigid prescriptions.
+- [Dashboard Strategy Requirements](dashboard-strategy-requirements.md) - Business objectives, KPIs, and stakeholder alignment
+- [Dashboard UX Design](dashboard-ux-design.md) - User experience, visualization, and interaction design
+- [Dashboard Data Architecture](dashboard-data-architecture.md) - Data pipelines, modeling, and quality frameworks
+- [Dashboard Technical Implementation](dashboard-technical-implementation.md) - Platform selection and infrastructure
+- [Dashboard Security Compliance](dashboard-security-compliance.md) - Access controls and regulatory compliance
+- [Dashboard Testing Deployment](dashboard-testing-deployment.md) - Testing strategy and release management

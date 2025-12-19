@@ -1,243 +1,131 @@
 ---
 category: technology
-last_updated: 2025-11-09
 related_templates:
-- technology/cloud-architecture-framework.md
-- technology/site-reliability-engineering.md
-- technology/cloud-migration-strategy.md
+- technology/DevOps-Cloud/cloud-architecture.md
+- technology/DevOps-Cloud/devops-infrastructure-as-code.md
+- technology/DevOps-Cloud/site-reliability-engineering.md
 tags:
 - infrastructure-management
 - provisioning
 - auto-scaling
 - capacity-planning
-title: Infrastructure Management Template
+title: Infrastructure Management
 use_cases:
-- Creating comprehensive infrastructure management including provisioning, scaling,
-  monitoring, maintenance, and optimization for cloud and on-premises environments.
-- Project planning and execution
-- Strategy development
+- Managing cloud and hybrid infrastructure at scale with automated provisioning, configuration management, and self-service capabilities
+- Implementing auto-scaling strategies based on CPU, memory, and custom metrics achieving 70% cost efficiency with <5 minute scale response
+- Establishing maintenance operations including automated patching, backup procedures, and disaster recovery with <1 hour RTO
 industries:
-- retail
 - technology
-type: template
+- financial-services
+- healthcare
+- retail
+type: framework
 difficulty: intermediate
 slug: infrastructure-management
 ---
 
-# Infrastructure Management Template
+# Infrastructure Management
 
 ## Purpose
-Comprehensive infrastructure management including provisioning, scaling, monitoring, maintenance, and optimization for cloud and on-premises environments.
+Comprehensive infrastructure management covering provisioning automation, scaling strategies, monitoring and observability, maintenance operations, and cost optimization for cloud, hybrid, and on-premises environments achieving operational excellence with SLA compliance.
 
-## Quick Infrastructure Management Prompt
-Manage infrastructure for [application] on [cloud/on-prem]. Inventory: [X servers], [Y databases], [Z services]. Automation: IaC ([Terraform/Ansible]), auto-scaling ([min-max] based on [CPU/memory/custom]). Monitoring: resource utilization dashboards, alerting on [thresholds]. Maintenance: automated patching schedule, backup strategy ([frequency], [retention]), disaster recovery (RPO: [X], RTO: [Y]). Cost optimization: right-sizing, reserved instances.
+## 🚀 Quick Infrastructure Management Prompt
 
-## Quick Start
+> Manage infrastructure for **[APPLICATION]** on **[AWS/AZURE/GCP/HYBRID]**. Scale: **[SERVERS]** servers, **[DATABASES]** databases, **[SERVICES]** services. Provisioning: **[TERRAFORM/ANSIBLE/CLOUDFORMATION]**. Scaling: auto-scale **[MIN]-[MAX]** based on **[CPU/MEMORY/CUSTOM]** at **[THRESHOLD]**%. Monitoring: **[CLOUDWATCH/PROMETHEUS/DATADOG]** with **[ALERTING_TOOL]** alerts. Backup: **[FREQUENCY]** with **[RETENTION]** retention. DR: RPO **[MINUTES]**, RTO **[HOURS]**. Cost target: **[BUDGET]**/month.
 
-**Set up infrastructure management in 5 steps:**
+---
 
-1. **Inventory Existing Infrastructure**: Document all resources, their configurations, dependencies, and current utilization metrics
-2. **Implement Infrastructure as Code**: Convert manual infrastructure to Terraform/CloudFormation with version control
-3. **Configure Auto-Scaling**: Set up horizontal and vertical scaling policies based on CPU, memory, and custom metrics
-4. **Deploy Monitoring & Alerting**: Implement CloudWatch/Prometheus with dashboards for resource utilization and health
-5. **Establish Maintenance Windows**: Create automated patching schedules, backup strategies, and disaster recovery procedures
+## Template
 
-**Quick Infrastructure Setup:**
-```bash
-# Deploy infrastructure with auto-scaling
-terraform apply -var="min_instances=2" -var="max_instances=10"
+Manage infrastructure for {APPLICATION_TYPE} on {PLATFORM} supporting {SCALE_REQUIREMENTS} with {AVAILABILITY_TARGET}% availability and {BUDGET} monthly budget.
 
-# Configure monitoring alerts
-aws cloudwatch put-metric-alarm --alarm-name high-cpu \
-  --alarm-actions <sns-topic> --metric-name CPUUtilization \
-  --threshold 80 --comparison-operator GreaterThanThreshold
+**PROVISIONING AND CONFIGURATION**
 
-# Schedule automated backups
-aws backup create-backup-plan --backup-plan file://backup-plan.json
-```
+Implement infrastructure as code for consistent provisioning. Terraform: declarative infrastructure definitions, state management, provider ecosystem for multi-cloud. CloudFormation/ARM: cloud-native options with deep integration, managed state. Ansible: configuration management and application deployment, agentless, idempotent playbooks. Pulumi: general-purpose languages for complex infrastructure logic. Layered approach: Terraform for infrastructure, Ansible for configuration, CI/CD for deployment.
 
-## Template Structure
+Design self-service provisioning for developer productivity. Service catalog: pre-approved infrastructure patterns (web app, database, data pipeline) with guardrails. Portal/CLI: Backstage, ServiceNow, or custom portal for resource requests. Approval workflows: auto-approve non-production, require approval for production or cost thresholds. Quotas and limits: per-team resource quotas preventing runaway provisioning. Cost allocation: automatic tagging with team/project for chargeback visibility.
 
-### Infrastructure Overview
-- **Infrastructure Name**: [INFRASTRUCTURE_NAME]
-- **Infrastructure Type**: [INFRASTRUCTURE_TYPE]
-- **Environment**: [INFRASTRUCTURE_ENVIRONMENT]
-- **Scale**: [INFRASTRUCTURE_SCALE]
-- **Technology Stack**: [INFRASTRUCTURE_TECHNOLOGY_STACK]
-- **Cloud Provider**: [CLOUD_PROVIDER]
-- **Management Approach**: [MANAGEMENT_APPROACH]
-- **Team**: [INFRASTRUCTURE_TEAM]
-- **Budget**: [INFRASTRUCTURE_BUDGET]
-- **SLA Requirements**: [SLA_REQUIREMENTS]
+Manage configuration drift and compliance. Drift detection: scheduled terraform plan comparing actual vs desired state, alert on differences. Configuration baselines: AWS Config rules, Azure Policy, GCP Organization Policy for compliance. Remediation: auto-remediate simple drift, alert for complex changes requiring investigation. Change management: all changes through IaC, no manual console changes in production.
 
-### Provisioning Strategy
-- **Provisioning Method**: [PROVISIONING_METHOD]
-- **Infrastructure as Code**: [INFRASTRUCTURE_AS_CODE]
-- **Template Management**: [TEMPLATE_MANAGEMENT]
-- **Resource Organization**: [RESOURCE_ORGANIZATION]
-- **Configuration Management**: [CONFIGURATION_MANAGEMENT]
-- **Environment Management**: [ENVIRONMENT_MANAGEMENT]
-- **Version Control**: [INFRASTRUCTURE_VERSION_CONTROL]
-- **Change Management**: [INFRASTRUCTURE_CHANGE_MANAGEMENT]
-- **Approval Workflows**: [APPROVAL_WORKFLOWS]
-- **Rollback Procedures**: [INFRASTRUCTURE_ROLLBACK]
+**SCALING STRATEGIES**
 
-### Scaling Management
-- **Scaling Strategy**: [SCALING_STRATEGY]
-- **Auto Scaling**: [AUTO_SCALING]
-- **Horizontal Scaling**: [HORIZONTAL_SCALING]
-- **Vertical Scaling**: [VERTICAL_SCALING]
-- **Scaling Metrics**: [SCALING_METRICS]
-- **Scaling Policies**: [SCALING_POLICIES]
-- **Load Balancing**: [LOAD_BALANCING]
-- **Capacity Planning**: [CAPACITY_PLANNING]
-- **Performance Optimization**: [PERFORMANCE_OPTIMIZATION]
-- **Cost Optimization**: [INFRASTRUCTURE_COST_OPTIMIZATION]
+Implement horizontal scaling for stateless workloads. Auto Scaling Groups (AWS): target tracking (70% CPU), step scaling for rapid response, scheduled scaling for known patterns. Kubernetes HPA: CPU/memory metrics, custom metrics via Prometheus adapter (requests-per-second, queue depth). Scaling parameters: min instances (2 for HA), max instances (cost ceiling), desired (optimal baseline). Cooldown periods: 300 seconds scale-down (prevent thrashing), 60 seconds scale-up (respond quickly).
 
-### Monitoring and Observability
-- **Monitoring Strategy**: [MONITORING_STRATEGY]
-- **Infrastructure Monitoring**: [INFRASTRUCTURE_MONITORING]
-- **Application Monitoring**: [APPLICATION_MONITORING]
-- **Performance Monitoring**: [INFRASTRUCTURE_PERFORMANCE_MONITORING]
-- **Health Checks**: [INFRASTRUCTURE_HEALTH_CHECKS]
-- **Alerting**: [INFRASTRUCTURE_ALERTING]
-- **Dashboards**: [INFRASTRUCTURE_DASHBOARDS]
-- **Logging**: [INFRASTRUCTURE_LOGGING]
-- **Metrics Collection**: [INFRASTRUCTURE_METRICS]
-- **Distributed Tracing**: [INFRASTRUCTURE_TRACING]
+Configure vertical scaling for stateful workloads. Instance right-sizing: Compute Optimizer recommendations, weekly utilization reviews. Database scaling: Aurora auto-scaling for read replicas, RDS instance class upgrades during maintenance. Kubernetes VPA: automatic resource request adjustment, recommendation mode for production safety. Memory scaling: identify memory-bound applications, adjust instance types or add caching.
 
-### Maintenance and Operations
-- **Maintenance Strategy**: [MAINTENANCE_STRATEGY]
-- **Patch Management**: [PATCH_MANAGEMENT]
-- **Update Procedures**: [UPDATE_PROCEDURES]
-- **Backup Strategy**: [INFRASTRUCTURE_BACKUP]
-- **Recovery Procedures**: [INFRASTRUCTURE_RECOVERY]
-- **Security Updates**: [SECURITY_UPDATES]
-- **Performance Tuning**: [PERFORMANCE_TUNING]
-- **Capacity Management**: [CAPACITY_MANAGEMENT]
-- **Incident Response**: [INFRASTRUCTURE_INCIDENT_RESPONSE]
-- **Change Windows**: [CHANGE_WINDOWS]
+Implement predictive and event-driven scaling. Predictive scaling: ML-based capacity forecasting for known patterns (business hours, weekly cycles). Event-driven: scale based on SQS queue depth, Kafka consumer lag, custom business metrics. Pre-scaling: scale up before known events (marketing campaigns, product launches). Reserve capacity: maintain warm pool for rapid scale-out, balance cost vs response time.
 
-Please provide detailed management procedures, automation scripts, monitoring setups, and operational runbooks.
+**MONITORING AND OBSERVABILITY**
+
+Implement comprehensive infrastructure monitoring. Metrics collection: CloudWatch agent, Prometheus node exporter, Datadog agent on all instances. Key metrics: CPU utilization, memory usage, disk I/O, network throughput, load average. Container metrics: pod CPU/memory, container restart counts, pending pods, node capacity. Database metrics: connections, query latency, replication lag, storage consumption, deadlocks.
+
+Configure intelligent alerting with actionable thresholds. Alert tiers: critical (P1, immediate response), warning (P2, business hours), informational (tracked, no page). Threshold tuning: static thresholds for known limits, anomaly detection for variable workloads. Alert fatigue prevention: proper severity classification, alert aggregation, meaningful alert names. Escalation paths: PagerDuty/Opsgenie for on-call, Slack for non-urgent, auto-acknowledge on recovery.
+
+Build operational dashboards for visibility. NOC dashboard: high-level system health, active incidents, deployment status, cost tracking. Service dashboards: per-service metrics (latency, error rate, throughput), SLI/SLO tracking. Infrastructure dashboard: resource utilization, capacity headroom, scaling activity, cost trends. Executive dashboard: availability metrics, incident summary, cost vs budget, capacity projections.
+
+Implement centralized logging for troubleshooting. Log aggregation: CloudWatch Logs, Elasticsearch/OpenSearch, Loki for cost-effective storage. Structured logging: JSON format with consistent fields (timestamp, service, level, trace_id). Log retention: 7 days hot storage (fast search), 30-90 days warm, archive to S3/Glacier for compliance. Log analysis: automated pattern detection, error rate tracking, security event correlation.
+
+**MAINTENANCE OPERATIONS**
+
+Establish automated patch management. Patch cadence: security patches within 48 hours (critical), monthly patch cycles (standard), quarterly for stable systems. AWS Systems Manager: Patch Manager for automated patching, maintenance windows, compliance reporting. Rolling updates: patch instances in batches maintaining availability, health check between batches. Testing pipeline: patch dev first, promote to staging after 24 hours, production after 72 hours validation.
+
+Implement comprehensive backup strategy. Backup types: daily automated snapshots (databases, volumes), continuous replication (critical data), configuration backups (IaC repo). Retention policy: 7 days for rapid recovery, 30 days for month-end, 1 year for compliance, indefinite for legal hold. Cross-region backups: replicate critical backups to DR region, verify restoration capability. Backup verification: monthly restoration tests, automated integrity checks, documented recovery procedures.
+
+Design disaster recovery procedures. DR strategy: pilot light (minimal infrastructure in DR region, scale up on failover), warm standby (reduced capacity running). RTO/RPO targets: critical systems (RTO <1 hour, RPO <15 minutes), standard (RTO <4 hours, RPO <1 hour). Failover automation: Route 53 health checks with automatic DNS failover, database promotion scripts. DR testing: quarterly failover drills, document actual RTO/RPO, update runbooks based on findings.
+
+Manage maintenance windows effectively. Change windows: Tuesday/Thursday 2-6 AM UTC for standard changes, any time with approval for emergencies. Communication: stakeholder notification 48 hours before planned maintenance, status page updates during. Rollback plan: every change has documented rollback procedure, tested before execution. Freeze periods: no changes during peak business periods, Black Friday, end-of-quarter.
+
+**CAPACITY PLANNING**
+
+Forecast capacity requirements proactively. Utilization analysis: weekly/monthly reports on CPU, memory, storage consumption trends. Growth modeling: linear extrapolation for steady growth, event-based modeling for step changes. Lead time planning: 4-week lead time for reserved capacity, 2-week for on-demand expansion. Budget correlation: capacity plans aligned with financial planning cycles.
+
+Optimize resource utilization for cost efficiency. Right-sizing: Compute Optimizer recommendations, target 60-70% average utilization. Reserved capacity: 1-year reservations for baseline (30% savings), 3-year for stable workloads (60% savings). Spot instances: batch processing, CI/CD, non-critical dev workloads (60-90% savings). Idle resource cleanup: automated identification and termination of unused resources.
+
+Plan for growth and peak events. Capacity buffer: maintain 30% headroom for organic growth, additional for planned events. Event scaling: pre-scale infrastructure before known high-traffic events, auto-scale during unknown spikes. Database capacity: plan storage growth, connection pool sizing, read replica scaling. Network capacity: bandwidth planning, CDN for traffic offload, multi-region for geographic distribution.
+
+**COST MANAGEMENT**
+
+Implement FinOps practices for cost visibility. Tagging strategy: mandatory tags (Environment, Owner, CostCenter, Application) enforced by policy. Cost allocation: detailed cost breakdown by team/service/environment, showback/chargeback reports. Budget alerts: 80% warning, 100% alert, 120% escalation to leadership. Anomaly detection: CloudWatch anomaly detection for cost, investigate spikes immediately.
+
+Optimize costs continuously. Reserved capacity: analyze usage patterns, commit to reservations for steady-state workloads. Spot/preemptible: use for fault-tolerant workloads, implement graceful handling of interruptions. Storage tiering: S3 Intelligent-Tiering, lifecycle policies for automatic tier transitions. Cleanup automation: Lambda/scheduled jobs to terminate unused resources, orphaned volumes, old snapshots.
+
+Deliver infrastructure management as:
+
+1. **PROVISIONING AUTOMATION** - IaC templates, self-service catalog, approval workflows, drift detection
+
+2. **SCALING CONFIGURATION** - Auto-scaling policies, scaling metrics, thresholds, cooldown periods
+
+3. **MONITORING SETUP** - Metrics collection, dashboards, alerting rules, escalation paths
+
+4. **MAINTENANCE PROCEDURES** - Patching schedule, backup strategy, DR procedures, change windows
+
+5. **CAPACITY PLAN** - Utilization analysis, growth forecasts, reserved capacity recommendations
+
+6. **COST OPTIMIZATION** - Right-sizing recommendations, reserved instance analysis, cleanup automation
+
+---
 
 ## Usage Examples
 
-### Cloud Infrastructure Management
-```
-Implement infrastructure management for EcommercePlatform cloud infrastructure using Terraform provisioning with AWS cloud provider supporting 99.9% SLA requirements.
+### Example 1: E-commerce Platform Infrastructure
+**Prompt:** Manage infrastructure for EcommercePlatform on AWS supporting 500 EC2 instances, 10 RDS databases, 50 microservices with 99.9% availability and $150K/month budget.
 
-Provisioning Strategy:
-- Use Terraform infrastructure as code with modular template management
-- Organize by environment/service/region resource organization
-- Apply Ansible configuration management with GitOps environment management
-- Control with Git infrastructure version control and PR-based infrastructure change management
-- Implement manager approval workflows with automated infrastructure rollback
+**Expected Output:** Provisioning: Terraform modules for VPC, ECS, RDS, organized by environment (dev/staging/prod), GitHub Actions for CI/CD with plan on PR and apply on merge. Self-service: Backstage portal for new service provisioning, pre-approved templates for ECS services, approval required for RDS creation. Scaling: ECS auto-scaling (target tracking 70% CPU, min 2 max 50 tasks), RDS read replica auto-scaling, KEDA for event-driven scaling on order processing queue. Monitoring: Datadog for unified observability, custom dashboards per service team, PagerDuty integration with 3-tier escalation, SLO tracking (99.9% availability, p99 <500ms). Maintenance: AWS Systems Manager for patching (weekly dev, monthly prod), AWS Backup for daily snapshots (35-day retention), cross-region DR (pilot light in us-west-2). Capacity: monthly utilization reviews, Compute Optimizer for right-sizing, 40% reserved instances for baseline. Cost: $145K/month (compute $80K, database $35K, network $15K, storage $10K, other $5K), 15% savings potential from right-sizing and reservations.
 
-Scaling Management:
-- Apply predictive scaling strategy with CloudWatch auto scaling
-- Scale horizontally with ASG, vertically with instance resizing
-- Monitor CPU, memory, request rate scaling metrics
-- Use target tracking, step scaling policies
-- Balance with ALB, NLB load balancing with CloudWatch capacity planning
+### Example 2: Healthcare Data Platform
+**Prompt:** Manage infrastructure for HealthDataPlatform on Azure supporting 200 VMs, 5 SQL databases, data lake with HIPAA compliance, <1 hour RTO.
 
-### Monitoring Strategy
-- Monitor with CloudWatch, DataDog infrastructure monitoring
-- Track with APM, custom metrics application monitoring
-- Check with ELB health checks, custom health checks infrastructure health checks
-- Alert via PagerDuty, Slack infrastructure alerting
-- Visualize with Grafana dashboards, CloudWatch logs infrastructure logging
-```
+**Expected Output:** Provisioning: Terraform with Azure provider, Azure DevOps pipelines, separate subscriptions per environment, Azure Policy for HIPAA compliance guardrails. Configuration: Ansible for VM configuration, Azure Automation for DSC, Azure Key Vault for secrets. Scaling: VM Scale Sets with custom health probes, Azure SQL elastic pools for database scaling, Azure Data Factory auto-scaling for ETL. Monitoring: Azure Monitor with Log Analytics, custom workbooks for compliance dashboards, Azure Sentinel for security monitoring, ServiceNow integration for incident management. Maintenance: Azure Update Management for patching (security within 48 hours, monthly standard), Azure Backup with GRS (daily, 30-day retention, yearly archives), Azure Site Recovery for VM replication (RPO 15 minutes). Compliance: encryption at rest (customer-managed keys), encryption in transit (TLS 1.2+), audit logging to immutable storage, access reviews quarterly. DR: warm standby in paired region, automated failover for SQL (auto-failover groups), VM recovery within 1 hour via Site Recovery. Cost: $120K/month, reserved instances for 60% of compute, Azure Hybrid Benefit for Windows licensing.
 
-## Variables
+### Example 3: Startup SaaS Platform
+**Prompt:** Manage infrastructure for SaaSSatrup on GCP supporting 50 GKE nodes, Cloud SQL, with rapid scaling requirements and $30K/month budget constraint.
 
-| Variable | Description | Example |
-|----------|-------------|----------|
-| `[INFRASTRUCTURE_NAME]` | Specify the infrastructure name | "John Smith" |
-| `[INFRASTRUCTURE_TYPE]` | Specify the infrastructure type | "Standard" |
-| `[INFRASTRUCTURE_ENVIRONMENT]` | Specify the infrastructure environment | "Production", "Staging", "Development", "DR", "Multi-environment" |
-| `[INFRASTRUCTURE_SCALE]` | Specify the infrastructure scale | "Small (1-10 servers)", "Medium (10-100)", "Large (100-500)", "Enterprise (500+)" |
-| `[INFRASTRUCTURE_TECHNOLOGY_STACK]` | Specify the infrastructure technology stack | "AWS + Kubernetes + Terraform", "Azure + VMs + ARM", "GCP + GKE + Terraform" |
-| `[CLOUD_PROVIDER]` | Specify the cloud provider | "AWS", "Azure", "GCP", "Multi-cloud AWS+Azure", "Hybrid on-prem+cloud" |
-| `[MANAGEMENT_APPROACH]` | Specify the management approach | "GitOps with ArgoCD", "Infrastructure as Code", "Platform engineering", "Self-service portal" |
-| `[INFRASTRUCTURE_TEAM]` | Specify the infrastructure team | "Platform Engineering (5 FTEs)", "SRE Team", "DevOps Center of Excellence", "Cloud Ops" |
-| `[INFRASTRUCTURE_BUDGET]` | Specify the infrastructure budget | "$500,000" |
-| `[SLA_REQUIREMENTS]` | Specify the sla requirements | "99.9% availability", "99.99% for critical", "< 1hr RTO", "< 15min RPO" |
-| `[PROVISIONING_METHOD]` | Specify the provisioning method | "Terraform modules", "CloudFormation stacks", "Pulumi programs", "Self-service portal" |
-| `[INFRASTRUCTURE_AS_CODE]` | Specify the infrastructure as code | "Terraform with remote state", "AWS CDK TypeScript", "Pulumi Python", "Crossplane" |
-| `[TEMPLATE_MANAGEMENT]` | Specify the template management | "Git repository per environment", "Terraform Cloud workspaces", "Module registry" |
-| `[RESOURCE_ORGANIZATION]` | Specify the resource organization | "By environment/region/service", "Separate AWS accounts per env", "Resource groups by team" |
-| `[CONFIGURATION_MANAGEMENT]` | Specify the configuration management | "Ansible playbooks", "AWS Systems Manager", "Chef/Puppet", "Salt" |
-| `[ENVIRONMENT_MANAGEMENT]` | Specify the environment management | "GitOps with ArgoCD", "Terraform workspaces", "Environment branches", "Kustomize overlays" |
-| `[INFRASTRUCTURE_VERSION_CONTROL]` | Specify the infrastructure version control | "Git with GitLab/GitHub", "PR-based workflow", "Semantic versioning", "Change logs" |
-| `[INFRASTRUCTURE_CHANGE_MANAGEMENT]` | Specify the infrastructure change management | "PR reviews required", "Terraform plan in CI", "CAB approval for prod", "Change tickets" |
-| `[APPROVAL_WORKFLOWS]` | Specify the approval workflows | "Auto-approve dev", "Tech lead for staging", "Manager + CAB for prod", "Emergency bypass" |
-| `[INFRASTRUCTURE_ROLLBACK]` | Specify the infrastructure rollback | "Git revert + terraform apply", "Blue-green switch", "Snapshot restore", "Automated rollback on failure" |
-| `[SCALING_STRATEGY]` | Specify the scaling strategy | "Horizontal preferred", "Auto Scaling Groups", "HPA for K8s", "Predictive scaling" |
-| `[AUTO_SCALING]` | Specify the auto scaling | "Target tracking 70% CPU", "Step scaling for traffic spikes", "Scheduled scaling for events" |
-| `[HORIZONTAL_SCALING]` | Specify the horizontal scaling | "ASG min 2 / max 50", "K8s HPA replicas 2-100", "Add nodes to cluster" |
-| `[VERTICAL_SCALING]` | Specify the vertical scaling | "Instance type upgrade", "VPA for containers", "Memory/CPU requests adjustment" |
-| `[SCALING_METRICS]` | Specify the scaling metrics | "CPU utilization", "Memory usage", "Request count", "Queue depth", "Custom business metrics" |
-| `[SCALING_POLICIES]` | Specify the scaling policies | "Scale out at 70% CPU", "Scale in at 30%", "Cooldown 300s", "Step increments 25%" |
-| `[LOAD_BALANCING]` | Specify the load balancing | "ALB for HTTP", "NLB for TCP", "Global Accelerator", "Ingress controller" |
-| `[CAPACITY_PLANNING]` | Specify the capacity planning | "Monthly utilization reviews", "Traffic forecasting", "Reserved capacity analysis", "Compute Optimizer" |
-| `[PERFORMANCE_OPTIMIZATION]` | Specify the performance optimization | "Instance right-sizing", "GP3 storage", "Caching layers", "CDN for static assets" |
-| `[INFRASTRUCTURE_COST_OPTIMIZATION]` | Specify the infrastructure cost optimization | "Reserved Instances 1yr", "Spot for batch", "Unused resource cleanup", "Storage tiering" |
-| `[MONITORING_STRATEGY]` | Specify the monitoring strategy | "Four golden signals", "RED method", "USE method", "Unified observability platform" |
-| `[INFRASTRUCTURE_MONITORING]` | Specify the infrastructure monitoring | "CloudWatch + Prometheus", "Datadog", "Grafana Cloud", "New Relic Infrastructure" |
-| `[APPLICATION_MONITORING]` | Specify the application monitoring | "APM with Datadog/New Relic", "Custom metrics", "Error tracking with Sentry" |
-| `[INFRASTRUCTURE_PERFORMANCE_MONITORING]` | Specify the infrastructure performance monitoring | "CPU, memory, disk, network metrics", "Container metrics", "Database performance" |
-| `[INFRASTRUCTURE_HEALTH_CHECKS]` | Specify the infrastructure health checks | "ELB health checks", "K8s liveness/readiness probes", "Synthetic monitoring", "Deep health endpoints" |
-| `[INFRASTRUCTURE_ALERTING]` | Specify the infrastructure alerting | "PagerDuty integration", "Slack notifications", "Escalation policies", "Alert fatigue management" |
-| `[INFRASTRUCTURE_DASHBOARDS]` | Specify the infrastructure dashboards | "Grafana dashboards per service", "CloudWatch dashboards", "Real-time NOC display" |
-| `[INFRASTRUCTURE_LOGGING]` | Specify the infrastructure logging | "CloudWatch Logs", "ELK/OpenSearch", "Loki", "Splunk", "Structured JSON logs" |
-| `[INFRASTRUCTURE_METRICS]` | Specify the infrastructure metrics | "Prometheus metrics", "CloudWatch metrics", "StatsD", "OpenTelemetry" |
-| `[INFRASTRUCTURE_TRACING]` | Specify the infrastructure tracing | "AWS X-Ray", "Jaeger", "Zipkin", "Datadog APM traces", "OpenTelemetry tracing" |
-| `[MAINTENANCE_STRATEGY]` | Specify the maintenance strategy | "Scheduled maintenance windows", "Rolling updates", "Blue-green for zero downtime" |
-| `[PATCH_MANAGEMENT]` | Specify the patch management | "AWS Systems Manager Patch Manager", "Automated weekly patches", "Security patches within 48hrs" |
-| `[UPDATE_PROCEDURES]` | Specify the update procedures | "2025-01-15" |
-| `[INFRASTRUCTURE_BACKUP]` | Specify the infrastructure backup | "AWS Backup daily snapshots", "35-day retention", "Cross-region copy", "S3 versioning" |
-| `[INFRASTRUCTURE_RECOVERY]` | Specify the infrastructure recovery | "Snapshot restore procedures", "Point-in-time recovery", "Cross-region failover", "DR runbooks" |
-| `[SECURITY_UPDATES]` | Specify the security updates | "2025-01-15" |
-| `[PERFORMANCE_TUNING]` | Specify the performance tuning | "Query optimization", "Connection pooling", "JVM tuning", "Kernel parameter tuning" |
-| `[CAPACITY_MANAGEMENT]` | Specify the capacity management | "Monthly capacity reviews", "Traffic forecasting", "Budget planning", "Growth projections" |
-| `[INFRASTRUCTURE_INCIDENT_RESPONSE]` | Specify the infrastructure incident response | "PagerDuty on-call rotation", "Runbook automation", "Incident commander process", "Postmortems" |
-| `[CHANGE_WINDOWS]` | Specify the change windows | "Tuesday/Thursday 2-6am UTC", "Emergency changes anytime with approval", "Freeze during peak seasons" |
+**Expected Output:** Provisioning: Terraform with GCP provider, GitHub Actions for GitOps, single project with namespace isolation for environments. Self-service: minimal overhead, developers can create namespaces with Helm templates, pre-approved patterns. Scaling: GKE cluster autoscaler (1-50 nodes), HPA for all services (70% CPU target), Cloud SQL automatic storage increase. Monitoring: Google Cloud Monitoring + Prometheus (cost-effective), Grafana dashboards, PagerDuty with Slack integration, minimal alert set (critical only). Maintenance: GKE auto-upgrade for patch versions, manual upgrades for minor versions (staged rollout), Cloud SQL automated backups (7-day retention), weekly disaster recovery to Cloud Storage. Cost optimization: preemptible nodes for 60% of capacity (70% savings), committed use discounts for baseline, spot instances for batch jobs. Capacity: lean approach, scale horizontally first, right-size monthly. DR: regional GKE cluster (survives zone failure), Cloud SQL HA, Cloud Storage multi-region for critical data. Cost: $28K/month (GKE $15K, Cloud SQL $8K, networking $3K, storage $2K), optimized for startup budget with room for 50% growth.
 
+---
 
+## Cross-References
 
-## Related Resources
-
-### Complementary Templates
-
-Enhance your workflow by combining this template with:
-
-- **[Cloud Architecture Framework](cloud-architecture-framework.md)** - Complementary approaches and methodologies
-- **[Site Reliability Engineering](site-reliability-engineering.md)** - Complementary approaches and methodologies
-- **[Cloud Migration Strategy](cloud-migration-strategy.md)** - Strategic planning and execution frameworks
-
-### Suggested Workflow
-
-**Typical implementation sequence**:
-
-1. Start with this template (Infrastructure Management Template)
-2. Use [Cloud Architecture Framework](cloud-architecture-framework.md) for deeper analysis
-3. Apply [Site Reliability Engineering](site-reliability-engineering.md) for execution
-4. Iterate and refine based on results
-
-### Explore More in This Category
-
-Browse all **[technology/DevOps & Cloud](../../technology/DevOps & Cloud/)** templates for related tools and frameworks.
-
-### Common Use Case Combinations
-
-- **Creating comprehensive infrastructure management including provisioning, scaling, monitoring, maintenance, and optimization for cloud and on-premises environments.**: Combine this template with related analytics and strategy frameworks
-- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
-- **Strategy development**: Combine this template with related analytics and strategy frameworks
-
-## Best Practices
-
-1. **Automate infrastructure provisioning and management**
-2. **Use infrastructure as code for consistency and repeatability**
-3. **Implement comprehensive monitoring and alerting**
-4. **Plan for scalability and performance requirements**
-5. **Maintain proper backup and disaster recovery procedures**
+- [Cloud Architecture](cloud-architecture.md) - Cloud infrastructure design patterns
+- [Infrastructure as Code](devops-infrastructure-as-code.md) - IaC implementation with Terraform/Pulumi
+- [Site Reliability Engineering](site-reliability-engineering.md) - SRE practices for reliability

@@ -1,1329 +1,153 @@
 ---
 category: security
-last_updated: 2025-11-22
-related_templates:
-- technology/cloud-architecture-framework.md
-- technology/site-reliability-engineering.md
-- technology/cloud-migration-strategy.md
+title: Comprehensive Security Audit Framework
 tags:
 - security
 - security-audit
 - controls-assessment
 - compliance-testing
-title: Comprehensive Security Audit Framework Template
 use_cases:
-- General application
-- Professional use
-- Project implementation
+- Conducting enterprise security audits covering infrastructure, applications, IAM, data protection with compliance mapping to ISO27001/SOC2/NIST/HIPAA/PCI-DSS
+- Performing risk-based security assessments with technical testing, control reviews, remediation roadmaps achieving regulatory compliance and audit readiness
+- Third-party security audits validating vendor controls, supply chain security, cloud provider compliance for risk management programs
+related_templates:
+- security/Cybersecurity/security-assessment.md
+- security/Security-Operations/vulnerability-management.md
+- security/Cybersecurity/security-operations.md
 industries:
-- finance
-- government
+- financial-services
 - healthcare
+- government
+- technology
 - manufacturing
 - retail
-- technology
-type: template
+type: framework
 difficulty: intermediate
 slug: security-audit
 ---
 
-# Comprehensive Security Audit Framework Template
+# Comprehensive Security Audit Framework
 
-## Overview
-This comprehensive template enables organizations to conduct thorough security audits across all technology domains, from infrastructure and applications to governance and compliance. It provides a structured approach to identifying, assessing, and mitigating security risks while ensuring regulatory compliance and best practice adherence.
+## Purpose
+Conduct enterprise security audits covering infrastructure, applications, identity/access management, data protection, governance, incident response, third-party risk, and security operations achieving compliance validation and risk-based remediation planning.
 
-## Quick Start
+## 🚀 Quick Security Audit Prompt
 
-## Quick Security Audit Prompt
-Conduct security audit for [organization] covering [infrastructure/applications/processes/comprehensive]. Compliance frameworks: [ISO27001/SOC2/NIST/HIPAA]. Team: lead auditor + [specialists]. Perform: network/infra assessment (Nessus, Qualys), application testing (OWASP Top 10), IAM review, policy evaluation. Classify findings by severity, create remediation roadmap with owners and deadlines. Plan quarterly follow-up reviews.
-
-**Set Your Foundation:**
-1. Define audit scope: infrastructure, applications, processes, or comprehensive
-2. Identify compliance requirements: ISO27001, SOC2, NIST, GDPR, HIPAA
-3. Set audit timeline and budget constraints
-
-**Configure Key Parameters:**
-4. Establish audit team structure: lead auditor, technical specialists, compliance experts
-5. Define risk assessment methodology: qualitative, quantitative, or hybrid approach
-6. Select audit standards: ISACA, IIA, NIST frameworks
-
-**Implement & Deploy (Ongoing):**
-7. Begin with network and infrastructure assessment using automated scanners (Nessus, Qualys)
-8. Conduct application security testing with OWASP Top 10 focus
-9. Review IAM policies, privileged access, and access control implementations
-10. Document findings with severity classification and create remediation roadmap
-
-**Pro Tips:** Use NIST Cybersecurity Framework for structure, automate vulnerability scanning, prioritize critical findings for quick wins, and maintain continuous monitoring post-audit. Plan for quarterly reviews minimum.
+> Conduct security audit for **[ORGANIZATION]** covering **[SCOPE]** (infrastructure/applications/comprehensive). Compliance: **[ISO27001/SOC2/NIST/HIPAA/PCI]**. Team: lead auditor **[CISA/CISSP]** + **[SPECIALISTS]**. Perform: network assessment **[NESSUS/QUALYS]**, application testing **[OWASP_TOP_10]**, IAM review, policy evaluation, control testing. Classify findings by **[CVSS + BUSINESS_IMPACT]**. Deliverables: executive summary, detailed findings, remediation roadmap **[TIMELINE_BY_SEVERITY]**, quarterly follow-up.
 
 ---
 
-## Section 1: Audit Scope & Methodology
+## Template
 
-### Audit Framework Definition
-Please develop a comprehensive security audit plan for [ORGANIZATION_NAME] with the following specifications:
+Conduct comprehensive security audit for {ORGANIZATION} in {INDUSTRY} covering {AUDIT_SCOPE} achieving {COMPLIANCE_FRAMEWORKS} compliance with {AUDIT_TIMELINE} engagement.
 
-**Primary Requirements:**
-- Audit scope: [AUDIT_SCOPE] (Infrastructure/Applications/Processes/Governance/Comprehensive)
-- Audit type: [AUDIT_TYPE] (Internal/External/Third-party/Compliance/[CUSTOM_AUDIT])
-- Industry sector: [INDUSTRY_SECTOR] (Financial/Healthcare/Government/Technology/[CUSTOM_INDUSTRY])
-- Compliance frameworks: [COMPLIANCE_FRAMEWORKS] (ISO27001/SOC2/NIST/GDPR/HIPAA/[CUSTOM_FRAMEWORKS])
-- Geographic scope: [GEOGRAPHIC_SCOPE] (Local/National/International/[CUSTOM_GEOGRAPHY])
-- Audit timeline: [AUDIT_TIMELINE]
-- Budget constraints: [AUDIT_BUDGET]
-- Stakeholder involvement: [STAKEHOLDER_INVOLVEMENT]
+**AUDIT PLANNING AND SCOPING**
 
-**Methodology Framework:**
-- Risk assessment approach: [RISK_ASSESSMENT_METHODOLOGY] (Qualitative/Quantitative/Hybrid/[CUSTOM_RISK_METHOD])
-- Audit standards: [AUDIT_STANDARDS] (ISACA/IIA/NIST/[CUSTOM_STANDARDS])
-- Testing methodology: [TESTING_METHODOLOGY] (Black-box/White-box/Grey-box/[CUSTOM_TESTING])
-- Evidence collection: [EVIDENCE_COLLECTION_APPROACH]
-- Sampling strategy: [SAMPLING_STRATEGY]
-- Documentation requirements: [DOCUMENTATION_REQUIREMENTS]
-- Quality assurance: [QUALITY_ASSURANCE_PROCEDURES]
-- Remediation tracking: [REMEDIATION_TRACKING_METHOD]
+Define audit boundaries and methodology. Audit scope: infrastructure assessment (network, servers, endpoints, cloud), application security (web, mobile, APIs, databases), identity and access management (authentication, authorization, privileged access), data protection (classification, encryption, privacy), governance and risk (policies, risk management, compliance), security operations (monitoring, incident response, business continuity), third-party risk (vendors, supply chain, cloud providers). Compliance frameworks: ISO 27001 (information security management system), SOC 2 (trust services criteria), NIST Cybersecurity Framework (identify, protect, detect, respond, recover), HIPAA Security Rule (administrative, physical, technical safeguards), PCI-DSS (cardholder data environment protection), GDPR (data protection and privacy).
 
-### Audit Team Structure
-**Team Configuration:**
-- Lead auditor: [LEAD_AUDITOR_REQUIREMENTS]
-- Technical specialists: [TECHNICAL_SPECIALIST_REQUIREMENTS]
-- Compliance experts: [COMPLIANCE_EXPERT_REQUIREMENTS]
-- External consultants: [EXTERNAL_CONSULTANT_REQUIREMENTS]
-- Internal stakeholders: [INTERNAL_STAKEHOLDER_INVOLVEMENT]
-- Subject matter experts: [SME_INVOLVEMENT]
-- Management liaison: [MANAGEMENT_LIAISON_REQUIREMENTS]
-- Communication coordinator: [COMMUNICATION_COORDINATOR_ROLE]
+Audit methodology: risk assessment approach (qualitative High/Medium/Low, quantitative FAIR, or hybrid CVSS + business impact), testing methodology (black-box no prior knowledge, gray-box limited access, white-box full documentation), evidence collection (automated via GRC tool, manual screenshots and logs, centralized repository), sampling strategy (risk-based sampling of high-value systems, random sampling for controls testing, 100% coverage for critical systems). Audit standards: ISACA COBIT (IT governance framework), IIA Standards (internal audit best practices), NIST SP 800-53 (security controls catalog), OWASP Testing Guide (application security methodology).
 
----
+Audit team structure: lead auditor (CISA/CISSP certified, 10+ years experience, responsible for methodology and reporting), technical specialists (OSCP for penetration testing, cloud certifications for AWS/Azure/GCP, GWAPT for application security), compliance experts (regulatory framework knowledge, control mapping expertise), external consultants (Big 4 firms for independent validation, specialized vendors for niche testing), stakeholder involvement (CISO for strategic alignment, IT management for system access, compliance team for regulatory requirements, legal for breach notification procedures).
 
-## Section 2: Infrastructure Security Assessment
+**INFRASTRUCTURE SECURITY ASSESSMENT**
 
-### Network Security Evaluation
-**Network Architecture Assessment:**
-- Network topology review: [NETWORK_TOPOLOGY_REVIEW_SCOPE]
-- Firewall configuration: [FIREWALL_CONFIG_ASSESSMENT]
-- Network segmentation: [NETWORK_SEGMENTATION_EVALUATION]
-- VPN security: [VPN_SECURITY_ASSESSMENT]
-- Wireless security: [WIRELESS_SECURITY_EVALUATION]
-- Network monitoring: [NETWORK_MONITORING_ASSESSMENT]
-- Intrusion detection: [IDS_IPS_EVALUATION]
-- Network access controls: [NETWORK_ACCESS_CONTROL_REVIEW]
-- DNS security: [DNS_SECURITY_ASSESSMENT]
-- Load balancer security: [LOAD_BALANCER_SECURITY_REVIEW]
+Evaluate network, system, and cloud security controls. Network security: topology review (network diagrams, segmentation architecture, DMZ design), firewall configuration (rule base analysis, change management review, logging verification, deny-by-default validation), network segmentation (VLAN isolation, micro-segmentation effectiveness, PCI CDE separation, zero trust network implementation), VPN security (authentication mechanisms, encryption strength, access logging), wireless security (WPA3 implementation, guest network isolation, rogue AP detection), intrusion detection (IDS/IPS placement, signature effectiveness, tuning procedures, alert response).
 
-### Server & Endpoint Security
-**System Hardening Assessment:**
-- Operating system hardening: [OS_HARDENING_ASSESSMENT]
-- Patch management: [PATCH_MANAGEMENT_EVALUATION]
-- Antivirus/anti-malware: [ANTIVIRUS_ASSESSMENT]
-- Endpoint detection: [ENDPOINT_DETECTION_EVALUATION]
-- System logging: [SYSTEM_LOGGING_ASSESSMENT]
-- File integrity monitoring: [FIM_EVALUATION]
-- System backup security: [BACKUP_SECURITY_ASSESSMENT]
-- Remote access security: [REMOTE_ACCESS_SECURITY_EVALUATION]
-- Mobile device management: [MDM_SECURITY_ASSESSMENT]
-- Virtualization security: [VIRTUALIZATION_SECURITY_REVIEW]
+Server and endpoint security: operating system hardening (CIS benchmark compliance, unnecessary service removal, security baseline adherence), patch management (patch deployment timelines, compliance rates—target 95%+, WSUS/SCCM effectiveness, emergency patching procedures), antivirus and EDR (coverage percentage, detection rates, response capabilities—CrowdStrike/Defender/SentinelOne), system logging (logging enabled on all systems, centralized aggregation, retention compliance—7 years for SOX, 6 years for HIPAA), file integrity monitoring (FIM on critical systems, baseline validation, change alerting), backup security (backup encryption, offsite storage, restoration testing quarterly, immutable backups for ransomware protection).
 
-### Cloud Security Assessment
-**Cloud Infrastructure Security:**
-- Cloud configuration review: [CLOUD_CONFIG_ASSESSMENT]
-- Identity and access management: [CLOUD_IAM_EVALUATION]
-- Data encryption: [CLOUD_ENCRYPTION_ASSESSMENT]
-- Network security groups: [CLOUD_NETWORK_SECURITY_REVIEW]
-- Container security: [CONTAINER_SECURITY_ASSESSMENT]
-- Serverless security: [SERVERLESS_SECURITY_EVALUATION]
-- Multi-cloud security: [MULTI_CLOUD_SECURITY_ASSESSMENT]
-- Cloud monitoring: [CLOUD_MONITORING_EVALUATION]
-- Incident response: [CLOUD_INCIDENT_RESPONSE_ASSESSMENT]
-- Vendor management: [CLOUD_VENDOR_SECURITY_EVALUATION]
+Cloud security assessment: cloud configuration review (AWS Security Hub findings, Azure Security Center alerts, GCP Security Command Center), IAM policies (overprivileged roles identification, least privilege validation, service account review), data encryption (at-rest encryption verification—AES-256, customer-managed keys vs cloud-managed, key rotation schedules), network security groups (security group rules analysis, default deny validation, overly permissive rules—0.0.0.0/0), container security (image scanning in registries, runtime security—Falco/Sysdig, Kubernetes RBAC review), cloud monitoring (CloudTrail/Activity Log/Audit Logs enabled, log retention compliance, SIEM integration), multi-cloud posture (consistent policies across AWS/Azure/GCP, unified visibility, cross-cloud IAM federation).
 
----
+**APPLICATION SECURITY ASSESSMENT**
 
-## Section 3: Application Security Assessment
+Test applications for vulnerabilities and secure coding practices. Web application security: OWASP Top 10 testing (injection vulnerabilities—SQL injection, XSS, command injection), broken authentication (session management, password policies, MFA implementation), sensitive data exposure (encryption in transit TLS 1.3, encryption at rest, credential storage), XML external entities (XXE), broken access control (IDOR, horizontal privilege escalation, vertical privilege escalation), security misconfiguration (default credentials, verbose error messages, unnecessary features enabled), XSS (stored, reflected, DOM-based), insecure deserialization, using components with known vulnerabilities, insufficient logging and monitoring.
 
-### Web Application Security
-**Application Security Testing:**
-- OWASP Top 10 assessment: [OWASP_TOP10_ASSESSMENT]
-- SQL injection testing: [SQL_INJECTION_TESTING]
-- Cross-site scripting: [XSS_TESTING_EVALUATION]
-- Authentication mechanisms: [AUTHENTICATION_SECURITY_ASSESSMENT]
-- Session management: [SESSION_MANAGEMENT_EVALUATION]
-- Input validation: [INPUT_VALIDATION_ASSESSMENT]
-- Error handling: [ERROR_HANDLING_SECURITY_REVIEW]
-- Cryptographic implementation: [CRYPTOGRAPHIC_IMPLEMENTATION_ASSESSMENT]
-- API security: [API_SECURITY_EVALUATION]
-- Third-party components: [THIRD_PARTY_COMPONENT_ASSESSMENT]
+API security evaluation: authentication mechanisms (OAuth 2.0, API keys, JWT validation), authorization controls (API-level access control, resource-based permissions), rate limiting (protection against brute force and DDoS), input validation (schema validation, type checking, length limits), error handling (generic error messages, no stack traces to users), API documentation security (authentication requirements, rate limits disclosed), third-party API integration security. Mobile application security: OWASP MASVS testing for iOS and Android, data storage security (keychain usage, encrypted databases, no hardcoded secrets), communication security (certificate pinning, TLS enforcement), authentication and session management, code obfuscation and runtime protection, device security requirements.
 
-### Mobile Application Security
-**Mobile Security Assessment:**
-- Mobile app security testing: [MOBILE_APP_SECURITY_TESTING]
-- Data storage security: [MOBILE_DATA_STORAGE_ASSESSMENT]
-- Communication security: [MOBILE_COMMUNICATION_SECURITY]
-- Authentication/authorization: [MOBILE_AUTH_ASSESSMENT]
-- Code obfuscation: [MOBILE_CODE_OBFUSCATION_EVALUATION]
-- Runtime protection: [MOBILE_RUNTIME_PROTECTION_ASSESSMENT]
-- Device security: [MOBILE_DEVICE_SECURITY_EVALUATION]
-- App store compliance: [APP_STORE_COMPLIANCE_ASSESSMENT]
-- Privacy controls: [MOBILE_PRIVACY_CONTROL_EVALUATION]
-- Update mechanisms: [MOBILE_UPDATE_SECURITY_ASSESSMENT]
+Database security evaluation: access controls (principle of least privilege, role-based access), data encryption (transparent data encryption—TDE, column-level encryption for sensitive fields), database configuration hardening (default accounts disabled, unnecessary features removed), backup security (backup encryption, secure transmission, access controls), audit logging (query logging, data access logging, privileged user monitoring), vulnerability assessment (database scanner tools, configuration reviews), privilege escalation testing (stored procedure abuse, SQL injection to OS commands).
 
-### Database Security Assessment
-**Database Security Evaluation:**
-- Database access controls: [DATABASE_ACCESS_CONTROL_ASSESSMENT]
-- Data encryption: [DATABASE_ENCRYPTION_EVALUATION]
-- Database configuration: [DATABASE_CONFIG_SECURITY_ASSESSMENT]
-- Backup security: [DATABASE_BACKUP_SECURITY_EVALUATION]
-- Audit logging: [DATABASE_AUDIT_LOGGING_ASSESSMENT]
-- Privilege escalation: [DATABASE_PRIVILEGE_ESCALATION_TESTING]
-- Data leakage prevention: [DATABASE_DLP_ASSESSMENT]
-- Database monitoring: [DATABASE_MONITORING_EVALUATION]
-- Vulnerability assessment: [DATABASE_VULNERABILITY_ASSESSMENT]
-- Compliance validation: [DATABASE_COMPLIANCE_VALIDATION]
+**IDENTITY AND ACCESS MANAGEMENT AUDIT**
 
----
+Review identity infrastructure and access controls. Identity management: identity provider security (authentication mechanisms, federation security—SAML/OIDC), user provisioning (automated provisioning/deprovisioning, approval workflows, least privilege by default), directory services security (Active Directory hardening, LDAP security, privileged group membership), single sign-on (SSO configuration security, session timeouts, MFA integration), multi-factor authentication (MFA coverage—100% for privileged access, hardware tokens for high-risk users, conditional access policies), password policies (12+ character minimum, complexity requirements, breach password monitoring—Have I Been Pwned), account lifecycle management (onboarding/offboarding procedures, dormant account cleanup).
 
-## Section 4: Identity & Access Management Audit
+Access control framework: role-based access control (role definitions aligned with job functions, role assignments audited quarterly, excessive permissions removed), attribute-based access control (policy-based access, context-aware decisions), least privilege implementation (start with zero access add minimal required, regular permission audits), segregation of duties (SOD conflicts identification, compensating controls for unavoidable conflicts), access recertification (quarterly reviews for privileged access, annual reviews for standard access, manager attestation), emergency access procedures (break-glass account management, usage logging and review), service account management (service account inventory, password rotation, minimal permissions), cross-system access review (federated access patterns, trust relationships, cross-domain permissions).
 
-### Identity Management Assessment
-**Identity Infrastructure Evaluation:**
-- Identity provider security: [IDENTITY_PROVIDER_SECURITY_ASSESSMENT]
-- User provisioning: [USER_PROVISIONING_SECURITY_EVALUATION]
-- Directory services: [DIRECTORY_SERVICES_SECURITY_ASSESSMENT]
-- Single sign-on: [SSO_SECURITY_EVALUATION]
-- Multi-factor authentication: [MFA_IMPLEMENTATION_ASSESSMENT]
-- Password policies: [PASSWORD_POLICY_EVALUATION]
-- Account lifecycle: [ACCOUNT_LIFECYCLE_ASSESSMENT]
-- Identity federation: [IDENTITY_FEDERATION_SECURITY_EVALUATION]
-- Privileged account management: [PAM_SECURITY_ASSESSMENT]
-- Identity governance: [IDENTITY_GOVERNANCE_EVALUATION]
+Privileged access management: administrative access controls (PAM solution implementation—CyberArk/BeyondTrust, session recording, credential vaulting), privileged account inventory (comprehensive list of admin accounts, privilege level classification, ownership assignment), just-in-time access (time-boxed privilege elevation, approval workflows, automatic revocation), session monitoring (real-time session recording, keystroke logging, suspicious activity detection), credential management (password rotation 30-90 days, secret storage in vaults, no hardcoded credentials), vendor access management (third-party privileged access controls, temporary access grants, activity monitoring).
 
-### Access Control Evaluation
-**Access Control Framework Assessment:**
-- Role-based access control: [RBAC_IMPLEMENTATION_ASSESSMENT]
-- Attribute-based access control: [ABAC_IMPLEMENTATION_EVALUATION]
-- Least privilege principle: [LEAST_PRIVILEGE_ASSESSMENT]
-- Segregation of duties: [SOD_IMPLEMENTATION_EVALUATION]
-- Access recertification: [ACCESS_RECERTIFICATION_ASSESSMENT]
-- Emergency access: [EMERGENCY_ACCESS_SECURITY_EVALUATION]
-- Service account management: [SERVICE_ACCOUNT_SECURITY_ASSESSMENT]
-- API access controls: [API_ACCESS_CONTROL_EVALUATION]
-- Cross-system access: [CROSS_SYSTEM_ACCESS_ASSESSMENT]
-- Access monitoring: [ACCESS_MONITORING_EVALUATION]
+**DATA PROTECTION AND PRIVACY ASSESSMENT**
 
-### Privileged Access Management
-**Privileged Access Security:**
-- Administrative access controls: [ADMIN_ACCESS_CONTROL_ASSESSMENT]
-- Privileged account inventory: [PRIVILEGED_ACCOUNT_INVENTORY_EVALUATION]
-- Just-in-time access: [JIT_ACCESS_ASSESSMENT]
-- Session monitoring: [PRIVILEGED_SESSION_MONITORING_EVALUATION]
-- Credential management: [CREDENTIAL_MANAGEMENT_ASSESSMENT]
-- Privileged access policies: [PRIVILEGED_ACCESS_POLICY_EVALUATION]
-- Break-glass procedures: [BREAK_GLASS_PROCEDURE_ASSESSMENT]
-- Vendor access management: [VENDOR_ACCESS_MANAGEMENT_EVALUATION]
-- Privileged access analytics: [PRIVILEGED_ACCESS_ANALYTICS_ASSESSMENT]
-- Compliance reporting: [PRIVILEGED_ACCESS_COMPLIANCE_EVALUATION]
+Evaluate data security and privacy controls. Data classification: classification scheme implementation (4-tier typical: Public, Internal, Confidential, Restricted), data inventory (comprehensive catalog of data assets, sensitivity levels assigned, data owners identified), data flow mapping (data movement between systems, cross-border transfers, third-party data sharing), handling procedures (classification-appropriate controls, access restrictions, encryption requirements), retention policies (retention periods by data type—7 years financial, 90 days logs, alignment with legal/regulatory requirements), disposal procedures (secure deletion methods, media sanitization, certificate of destruction), sensitive data identification (PII, PHI, PCI, trade secrets), data labeling (metadata tagging, automated classification tools).
 
----
+Encryption and key management: encryption standards (AES-256 for data at rest, TLS 1.3 for data in transit, FIPS 140-2 compliance for regulated industries), data-at-rest encryption (full disk encryption on endpoints—BitLocker/FileVault, database encryption—TDE, cloud storage encryption), data-in-transit encryption (HTTPS everywhere, VPN for remote access, database connection encryption), key management (KMS implementation—AWS KMS/Azure Key Vault/GCP Cloud KMS, customer-managed vs cloud-managed keys, envelope encryption), certificate management (certificate lifecycle, automated renewal, expiration monitoring), key rotation (rotation schedules—90 days recommended, automated rotation procedures, key escrow for recovery).
 
-## Section 5: Data Protection & Privacy Assessment
+Privacy compliance assessment: GDPR compliance (lawful basis for processing, data subject rights—access, rectification, erasure, portability, consent management, DPIAs for high-risk processing, cross-border transfer mechanisms—SCCs, breach notification 72 hours, privacy by design), CCPA compliance (consumer rights disclosure, opt-out mechanisms, third-party data sharing disclosure), data subject rights procedures (request handling workflows, identity verification, response timelines), privacy by design (privacy considerations in system design, minimize data collection, default privacy settings), data breach procedures (detection and response, notification requirements, documentation and reporting).
 
-### Data Classification & Handling
-**Data Security Framework:**
-- Data classification scheme: [DATA_CLASSIFICATION_ASSESSMENT]
-- Data inventory: [DATA_INVENTORY_EVALUATION]
-- Data flow mapping: [DATA_FLOW_MAPPING_ASSESSMENT]
-- Data handling procedures: [DATA_HANDLING_PROCEDURE_EVALUATION]
-- Data retention policies: [DATA_RETENTION_POLICY_ASSESSMENT]
-- Data disposal procedures: [DATA_DISPOSAL_PROCEDURE_EVALUATION]
-- Sensitive data identification: [SENSITIVE_DATA_IDENTIFICATION_ASSESSMENT]
-- Data labeling: [DATA_LABELING_EVALUATION]
-- Cross-border data transfer: [CROSS_BORDER_DATA_TRANSFER_ASSESSMENT]
-- Data sharing agreements: [DATA_SHARING_AGREEMENT_EVALUATION]
+**SECURITY GOVERNANCE AND RISK MANAGEMENT**
 
-### Encryption & Key Management
-**Encryption Framework Assessment:**
-- Encryption standards: [ENCRYPTION_STANDARDS_ASSESSMENT]
-- Data-at-rest encryption: [DATA_AT_REST_ENCRYPTION_EVALUATION]
-- Data-in-transit encryption: [DATA_IN_TRANSIT_ENCRYPTION_ASSESSMENT]
-- Key management practices: [KEY_MANAGEMENT_EVALUATION]
-- Certificate management: [CERTIFICATE_MANAGEMENT_ASSESSMENT]
-- Hardware security modules: [HSM_SECURITY_EVALUATION]
-- Cryptographic protocols: [CRYPTOGRAPHIC_PROTOCOL_ASSESSMENT]
-- Key rotation procedures: [KEY_ROTATION_EVALUATION]
-- Encryption key escrow: [KEY_ESCROW_ASSESSMENT]
-- Quantum-safe cryptography: [QUANTUM_SAFE_CRYPTO_EVALUATION]
+Review governance framework and risk management practices. Security policy framework: information security policy (overarching security principles, management commitment, policy hierarchy), acceptable use policy (device usage, internet access, email usage, bring your own device), data protection policy (classification, handling, retention, disposal), incident response policy (incident definition, response procedures, notification requirements), business continuity policy (BCP and DR requirements, testing frequency, plan maintenance), vendor management policy (vendor assessment requirements, ongoing monitoring, contract security terms), change management policy (change approval workflows, testing requirements, emergency changes), risk management policy (risk assessment methodology, risk acceptance authority, treatment strategies).
 
-### Privacy Compliance Assessment
-**Privacy Framework Evaluation:**
-- GDPR compliance: [GDPR_COMPLIANCE_ASSESSMENT]
-- CCPA compliance: [CCPA_COMPLIANCE_EVALUATION]
-- Data subject rights: [DATA_SUBJECT_RIGHTS_ASSESSMENT]
-- Consent management: [CONSENT_MANAGEMENT_EVALUATION]
-- Privacy by design: [PRIVACY_BY_DESIGN_ASSESSMENT]
-- Data protection impact assessments: [DPIA_EVALUATION]
-- Privacy notices: [PRIVACY_NOTICE_ASSESSMENT]
-- Third-party data processing: [THIRD_PARTY_DATA_PROCESSING_EVALUATION]
-- Data breach procedures: [DATA_BREACH_PROCEDURE_ASSESSMENT]
-- Privacy officer role: [PRIVACY_OFFICER_EVALUATION]
+Risk management assessment: risk assessment methodology (framework selection—NIST RMF, ISO 27005, FAIR quantitative, methodology documentation, periodic execution—annual minimum), risk identification (comprehensive threat and vulnerability identification, asset-based risk analysis, scenario-based risk modeling), risk analysis (likelihood and impact evaluation, inherent vs residual risk, risk scoring methodology), risk treatment (accept, mitigate, transfer, avoid strategies, control selection and implementation, compensating controls for accepted risks), risk monitoring (KRIs—key risk indicators, risk register maintenance, trend analysis), third-party risk management (vendor risk assessments, continuous monitoring, supply chain risk), operational risk (process failures, human error, technology failures).
 
----
+Compliance management framework: regulatory compliance tracking (applicable regulations identified, requirement mapping to controls, compliance status monitoring), compliance monitoring (continuous compliance validation, automated testing where possible, periodic manual assessments), audit management (audit planning, evidence collection, finding remediation tracking), control testing (control design effectiveness, operating effectiveness, testing frequency—annual minimum), exception management (risk acceptance process, compensating controls, time-bound approvals, regular review), remediation tracking (finding ownership, deadlines by severity, progress monitoring, validation of fixes), compliance reporting (management dashboards, board reporting, regulatory submissions), regulatory change management (monitoring for new requirements, impact assessment, implementation planning).
 
-## Section 6: Security Governance & Risk Management
+**INCIDENT RESPONSE AND BUSINESS CONTINUITY**
 
-### Security Policy Framework
-**Policy Assessment Framework:**
-- Information security policy: [INFO_SECURITY_POLICY_ASSESSMENT]
-- Acceptable use policy: [ACCEPTABLE_USE_POLICY_EVALUATION]
-- Data protection policy: [DATA_PROTECTION_POLICY_ASSESSMENT]
-- Incident response policy: [INCIDENT_RESPONSE_POLICY_EVALUATION]
-- Business continuity policy: [BUSINESS_CONTINUITY_POLICY_ASSESSMENT]
-- Vendor management policy: [VENDOR_MANAGEMENT_POLICY_EVALUATION]
-- Change management policy: [CHANGE_MANAGEMENT_POLICY_ASSESSMENT]
-- Risk management policy: [RISK_MANAGEMENT_POLICY_EVALUATION]
-- Training and awareness policy: [TRAINING_AWARENESS_POLICY_ASSESSMENT]
-- Policy review procedures: [POLICY_REVIEW_PROCEDURE_EVALUATION]
+Assess preparedness for security incidents and disasters. Incident response assessment: incident response plan (plan completeness vs NIST 800-61, roles and responsibilities defined, contact information current), incident classification (severity levels, escalation criteria, notification thresholds), detection capabilities (SIEM coverage, IDS/IPS effectiveness, user reporting mechanisms, threat intelligence integration), response procedures (containment strategies, eradication steps, recovery procedures, evidence preservation), communication protocols (internal notification, external disclosure—customers/regulators, PR coordination), escalation procedures (management notification, board reporting for critical incidents, law enforcement engagement), evidence collection (forensic readiness, chain of custody, legal hold procedures), post-incident analysis (root cause analysis, lessons learned, process improvements).
 
-### Risk Management Assessment
-**Risk Framework Evaluation:**
-- Risk assessment methodology: [RISK_ASSESSMENT_METHODOLOGY_EVALUATION]
-- Risk identification process: [RISK_IDENTIFICATION_PROCESS_ASSESSMENT]
-- Risk analysis procedures: [RISK_ANALYSIS_PROCEDURE_EVALUATION]
-- Risk treatment strategies: [RISK_TREATMENT_STRATEGY_ASSESSMENT]
-- Risk monitoring: [RISK_MONITORING_EVALUATION]
-- Risk appetite definition: [RISK_APPETITE_ASSESSMENT]
-- Risk register maintenance: [RISK_REGISTER_EVALUATION]
-- Third-party risk management: [THIRD_PARTY_RISK_ASSESSMENT]
-- Operational risk management: [OPERATIONAL_RISK_EVALUATION]
-- Strategic risk alignment: [STRATEGIC_RISK_ASSESSMENT]
+Security monitoring and detection: security monitoring (24/7 SOC operations or business hours coverage, monitoring scope—network, endpoints, cloud, alert triage procedures), log management (centralized logging—Splunk/Sentinel/Elastic, log sources coverage—90%+ of systems, retention 12 months minimum for security logs), SIEM implementation (correlation rules effectiveness, false positive rate—target <20%, integration with threat intelligence), threat intelligence (TI feed integration, IOC operationalization, threat actor tracking), vulnerability management (continuous scanning, risk-based prioritization, SLA-driven remediation—Critical 7 days, High 30 days), security analytics (user behavior analytics, anomaly detection, threat hunting), SOC operations (analyst skills, shift coverage, playbooks and runbooks, MTTD/MTTR metrics—MTTD <24h, MTTR <4h).
 
-### Compliance Management
-**Compliance Framework Assessment:**
-- Regulatory compliance tracking: [REGULATORY_COMPLIANCE_TRACKING_ASSESSMENT]
-- Compliance monitoring: [COMPLIANCE_MONITORING_EVALUATION]
-- Audit management: [AUDIT_MANAGEMENT_ASSESSMENT]
-- Control testing: [CONTROL_TESTING_EVALUATION]
-- Exception management: [EXCEPTION_MANAGEMENT_ASSESSMENT]
-- Remediation tracking: [REMEDIATION_TRACKING_EVALUATION]
-- Compliance reporting: [COMPLIANCE_REPORTING_ASSESSMENT]
-- Regulatory change management: [REGULATORY_CHANGE_MANAGEMENT_EVALUATION]
-- Compliance training: [COMPLIANCE_TRAINING_ASSESSMENT]
-- Legal obligation management: [LEGAL_OBLIGATION_EVALUATION]
+Business continuity assessment: business continuity plan (BCP comprehensiveness, business impact analysis completeness, critical function identification), business impact analysis (BIA for all critical systems, maximum tolerable downtime, dependencies mapped), recovery time objectives (RTO defined per system—critical systems 4 hours typical, testing validates achievement), recovery point objectives (RPO defined per system—1 hour typical for databases, backup frequency aligned), disaster recovery plan (DR procedures documented, failover/failback steps, communication plans, vendor contact lists), backup and restore (backup success rate—target 99%+, restoration testing quarterly minimum, offsite/cloud backups, immutable backups), alternative site planning (hot/warm/cold site selection, data replication, regular DR drills), plan testing (annual full DR test, tabletop exercises quarterly, test results documented, gaps addressed).
 
----
+**THIRD-PARTY AND VENDOR RISK ASSESSMENT**
 
-## Section 7: Incident Response & Business Continuity
+Evaluate third-party security and supply chain risk. Vendor security assessment: vendor risk assessment (tiered approach—critical/high/medium/low vendors, security questionnaires, SOC 2 report reviews for critical vendors), due diligence procedures (pre-contract security assessment, financial stability review, reference checks), contract security requirements (security SLAs, right to audit, breach notification timelines, liability and indemnification), ongoing monitoring (periodic reassessments—annual for critical vendors, security incident monitoring, performance reviews), vendor access management (least privilege access, MFA required, access reviews, activity logging), data sharing agreements (data protection terms, cross-border transfer safeguards, data retention and deletion), exit planning (data return/deletion procedures, knowledge transfer, transition support).
 
-### Incident Response Assessment
-**Incident Response Framework:**
-- Incident response plan: [INCIDENT_RESPONSE_PLAN_ASSESSMENT]
-- Incident classification: [INCIDENT_CLASSIFICATION_EVALUATION]
-- Detection capabilities: [INCIDENT_DETECTION_ASSESSMENT]
-- Response procedures: [INCIDENT_RESPONSE_PROCEDURE_EVALUATION]
-- Communication protocols: [INCIDENT_COMMUNICATION_ASSESSMENT]
-- Escalation procedures: [INCIDENT_ESCALATION_EVALUATION]
-- Evidence collection: [INCIDENT_EVIDENCE_COLLECTION_ASSESSMENT]
-- Containment strategies: [INCIDENT_CONTAINMENT_EVALUATION]
-- Recovery procedures: [INCIDENT_RECOVERY_ASSESSMENT]
-- Post-incident analysis: [POST_INCIDENT_ANALYSIS_EVALUATION]
+Supply chain security: supply chain mapping (tier 1/2/3 supplier identification, critical dependencies, single points of failure), supplier risk assessment (geopolitical risk, financial health, security posture), component security (hardware integrity verification, software provenance), software bill of materials (SBOM generation and review, dependency vulnerability tracking, license compliance), open source security (vulnerability scanning—Snyk/Dependabot, update policies, contribution vetting), procurement security (security requirements in RFPs, vendor selection criteria, contract terms), supply chain monitoring (continuous risk monitoring, geopolitical event tracking), incident coordination (supplier breach notification, coordinated response, customer communication).
 
-### Security Monitoring & Detection
-**Security Operations Assessment:**
-- Security monitoring: [SECURITY_MONITORING_ASSESSMENT]
-- Log management: [LOG_MANAGEMENT_EVALUATION]
-- SIEM implementation: [SIEM_IMPLEMENTATION_ASSESSMENT]
-- Threat intelligence: [THREAT_INTELLIGENCE_EVALUATION]
-- Vulnerability management: [VULNERABILITY_MANAGEMENT_ASSESSMENT]
-- Security analytics: [SECURITY_ANALYTICS_EVALUATION]
-- Threat hunting: [THREAT_HUNTING_ASSESSMENT]
-- Indicator management: [INDICATOR_MANAGEMENT_EVALUATION]
-- Alert management: [ALERT_MANAGEMENT_ASSESSMENT]
-- SOC operations: [SOC_OPERATIONS_EVALUATION]
+**AUDIT REPORTING AND REMEDIATION**
 
-### Business Continuity Assessment
-**Business Continuity Framework:**
-- Business continuity plan: [BUSINESS_CONTINUITY_PLAN_ASSESSMENT]
-- Business impact analysis: [BUSINESS_IMPACT_ANALYSIS_EVALUATION]
-- Recovery time objectives: [RTO_ASSESSMENT]
-- Recovery point objectives: [RPO_EVALUATION]
-- Disaster recovery plan: [DISASTER_RECOVERY_PLAN_ASSESSMENT]
-- Backup and restore: [BACKUP_RESTORE_EVALUATION]
-- Alternative site planning: [ALTERNATIVE_SITE_ASSESSMENT]
-- Communication plans: [BUSINESS_CONTINUITY_COMMUNICATION_EVALUATION]
-- Testing procedures: [BUSINESS_CONTINUITY_TESTING_ASSESSMENT]
-- Plan maintenance: [BUSINESS_CONTINUITY_MAINTENANCE_EVALUATION]
+Classify findings and develop remediation roadmap. Finding classification: risk severity (Critical: CVSS 9.0+ or exploitable with high business impact, High: CVSS 7.0-8.9 or significant business impact, Medium: CVSS 4.0-6.9 with moderate impact, Low: CVSS <4.0 minimal impact), impact assessment (data breach potential, system availability impact, regulatory consequences, financial impact quantification), likelihood evaluation (threat actor capability, attack complexity, existing controls), priority ranking (risk = likelihood × impact, compliance-driven priorities, quick wins identification), root cause analysis (identify underlying causes, not just symptoms, systemic issues vs isolated findings), control deficiency (design vs operating effectiveness, control gaps vs weaknesses).
 
----
+Remediation planning: remediation roadmap (prioritized action plan, dependencies identified, resource requirements), remediation timeline by severity (Critical: 24-48 hours for actively exploited, 7 days otherwise, High: 7-14 days with compensating controls if needed, Medium: 30 days standard, Low: 90 days or next maintenance window), risk mitigation strategies (immediate fixes, temporary mitigations—WAF rules/network isolation, long-term solutions), quick wins (high impact low effort fixes prioritized, build momentum), resource allocation (ownership assignment—IT/dev/security teams, budget requirements, external resources if needed), progress tracking (remediation status dashboard, regular status meetings, evidence of completion, revalidation testing).
 
-## Section 8: Third-Party & Vendor Risk Assessment
+Executive reporting: executive summary (1-page risk scorecard, overall security posture—risk score trending, top 5 critical findings, compliance status by framework, recommended immediate actions), risk dashboard (risk heat map by severity and priority, trends over time, remediation velocity), compliance status (% compliance by framework—PCI 92%, SOC 2 88%, gap analysis, time to compliance), trend analysis (year-over-year comparison, improvement areas, emerging risks), benchmarking (peer comparison, industry standards, maturity assessment), ROI justification (risk reduction quantification, avoided breach costs, compliance penalties avoided), board presentation (business language not technical jargon, strategic alignment, investment requirements).
 
-### Vendor Security Assessment
-**Third-Party Risk Framework:**
-- Vendor risk assessment: [VENDOR_RISK_ASSESSMENT_FRAMEWORK]
-- Due diligence procedures: [VENDOR_DUE_DILIGENCE_EVALUATION]
-- Contract security requirements: [VENDOR_CONTRACT_SECURITY_ASSESSMENT]
-- Ongoing monitoring: [VENDOR_ONGOING_MONITORING_EVALUATION]
-- Vendor access management: [VENDOR_ACCESS_MANAGEMENT_ASSESSMENT]
-- Data sharing agreements: [VENDOR_DATA_SHARING_EVALUATION]
-- Service level agreements: [VENDOR_SLA_SECURITY_ASSESSMENT]
-- Vendor performance monitoring: [VENDOR_PERFORMANCE_EVALUATION]
-- Exit planning: [VENDOR_EXIT_PLANNING_ASSESSMENT]
-- Vendor certification validation: [VENDOR_CERTIFICATION_EVALUATION]
+Deliver security audit as:
 
-### Supply Chain Security
-**Supply Chain Risk Assessment:**
-- Supply chain mapping: [SUPPLY_CHAIN_MAPPING_ASSESSMENT]
-- Supplier risk assessment: [SUPPLIER_RISK_EVALUATION]
-- Component security: [COMPONENT_SECURITY_ASSESSMENT]
-- Software bill of materials: [SBOM_EVALUATION]
-- Open source security: [OPEN_SOURCE_SECURITY_ASSESSMENT]
-- Hardware integrity: [HARDWARE_INTEGRITY_EVALUATION]
-- Procurement security: [PROCUREMENT_SECURITY_ASSESSMENT]
-- Supply chain monitoring: [SUPPLY_CHAIN_MONITORING_EVALUATION]
-- Incident coordination: [SUPPLY_CHAIN_INCIDENT_ASSESSMENT]
-- Resilience planning: [SUPPLY_CHAIN_RESILIENCE_EVALUATION]
+1. **EXECUTIVE SUMMARY** - Risk scorecard, top findings, compliance status, strategic recommendations
 
-### Cloud Service Provider Assessment
-**Cloud Provider Security:**
-- Cloud security posture: [CLOUD_SECURITY_POSTURE_ASSESSMENT]
-- Shared responsibility model: [SHARED_RESPONSIBILITY_EVALUATION]
-- Cloud compliance certifications: [CLOUD_COMPLIANCE_ASSESSMENT]
-- Data residency requirements: [CLOUD_DATA_RESIDENCY_EVALUATION]
-- Cloud access controls: [CLOUD_ACCESS_CONTROL_ASSESSMENT]
-- Cloud monitoring capabilities: [CLOUD_MONITORING_EVALUATION]
-- Cloud incident response: [CLOUD_INCIDENT_RESPONSE_ASSESSMENT]
-- Multi-tenancy security: [MULTI_TENANCY_SECURITY_EVALUATION]
-- Cloud exit strategies: [CLOUD_EXIT_STRATEGY_ASSESSMENT]
-- Vendor lock-in risks: [VENDOR_LOCK_IN_EVALUATION]
+2. **DETAILED FINDINGS REPORT** - Finding description with evidence, CVSS + business impact rating, affected systems, root cause, remediation steps with effort estimates, compliance mapping
 
----
+3. **CONTROL ASSESSMENT MATRIX** - Controls tested mapped to frameworks (ISO 27001/SOC 2/PCI), design effectiveness, operating effectiveness, gaps identified
 
-## Section 9: Security Awareness & Training Assessment
+4. **REMEDIATION ROADMAP** - Prioritized action items by severity, ownership and deadlines, dependencies, quick wins vs long-term projects, budget implications
 
-### Security Awareness Program
-**Training Framework Assessment:**
-- Security awareness program: [SECURITY_AWARENESS_PROGRAM_ASSESSMENT]
-- Training content effectiveness: [TRAINING_CONTENT_EVALUATION]
-- Delivery methods: [TRAINING_DELIVERY_ASSESSMENT]
-- Target audience segmentation: [TRAINING_AUDIENCE_EVALUATION]
-- Training frequency: [TRAINING_FREQUENCY_ASSESSMENT]
-- Effectiveness measurement: [TRAINING_EFFECTIVENESS_EVALUATION]
-- Compliance training: [COMPLIANCE_TRAINING_ASSESSMENT]
-- Role-specific training: [ROLE_SPECIFIC_TRAINING_EVALUATION]
-- New employee training: [NEW_EMPLOYEE_TRAINING_ASSESSMENT]
-- Ongoing education: [ONGOING_EDUCATION_EVALUATION]
+5. **COMPLIANCE GAP ANALYSIS** - Framework-specific gaps (PCI-DSS requirements failed, HIPAA safeguards deficient), evidence requirements, path to compliance
 
-### Security Culture Assessment
-**Culture Evaluation Framework:**
-- Security culture maturity: [SECURITY_CULTURE_MATURITY_ASSESSMENT]
-- Leadership engagement: [LEADERSHIP_ENGAGEMENT_EVALUATION]
-- Employee behavior: [EMPLOYEE_BEHAVIOR_ASSESSMENT]
-- Reporting culture: [REPORTING_CULTURE_EVALUATION]
-- Security communication: [SECURITY_COMMUNICATION_ASSESSMENT]
-- Incentive programs: [SECURITY_INCENTIVE_EVALUATION]
-- Performance metrics: [SECURITY_PERFORMANCE_METRICS_ASSESSMENT]
-- Culture change initiatives: [CULTURE_CHANGE_EVALUATION]
-- Peer influence: [PEER_INFLUENCE_ASSESSMENT]
-- Management support: [MANAGEMENT_SUPPORT_EVALUATION]
-
-### Phishing & Social Engineering Testing
-**Human Factor Security Testing:**
-- Phishing simulation program: [PHISHING_SIMULATION_ASSESSMENT]
-- Social engineering testing: [SOCIAL_ENGINEERING_TESTING_EVALUATION]
-- Physical security testing: [PHYSICAL_SECURITY_TESTING_ASSESSMENT]
-- Vishing campaigns: [VISHING_CAMPAIGN_EVALUATION]
-- Pretexting scenarios: [PRETEXTING_SCENARIO_ASSESSMENT]
-- Tailgating testing: [TAILGATING_TESTING_EVALUATION]
-- USB drop testing: [USB_DROP_TESTING_ASSESSMENT]
-- Awareness effectiveness: [AWARENESS_EFFECTIVENESS_EVALUATION]
-- Response procedures: [HUMAN_FACTOR_RESPONSE_ASSESSMENT]
-- Remedial training: [REMEDIAL_TRAINING_EVALUATION]
-
----
-
-## Section 10: Audit Reporting & Remediation
-
-### Audit Finding Classification
-**Finding Framework:**
-- Risk severity classification: [RISK_SEVERITY_CLASSIFICATION]
-- Impact assessment: [IMPACT_ASSESSMENT_METHODOLOGY]
-- Likelihood evaluation: [LIKELIHOOD_EVALUATION_FRAMEWORK]
-- Priority ranking: [PRIORITY_RANKING_SYSTEM]
-- Finding categorization: [FINDING_CATEGORIZATION_SCHEME]
-- Root cause analysis: [ROOT_CAUSE_ANALYSIS_METHODOLOGY]
-- Control deficiency identification: [CONTROL_DEFICIENCY_FRAMEWORK]
-- Compliance gap analysis: [COMPLIANCE_GAP_ANALYSIS]
-- Remediation complexity: [REMEDIATION_COMPLEXITY_ASSESSMENT]
-- Business impact evaluation: [BUSINESS_IMPACT_EVALUATION]
-
-### Remediation Planning
-**Remediation Framework:**
-- Remediation roadmap: [REMEDIATION_ROADMAP_DEVELOPMENT]
-- Priority sequencing: [REMEDIATION_PRIORITY_SEQUENCING]
-- Resource allocation: [REMEDIATION_RESOURCE_ALLOCATION]
-- Timeline development: [REMEDIATION_TIMELINE_FRAMEWORK]
-- Risk mitigation strategies: [RISK_MITIGATION_STRATEGY_DEVELOPMENT]
-- Quick win identification: [QUICK_WIN_IDENTIFICATION]
-- Long-term planning: [LONG_TERM_REMEDIATION_PLANNING]
-- Cost-benefit analysis: [REMEDIATION_COST_BENEFIT_ANALYSIS]
-- Stakeholder alignment: [REMEDIATION_STAKEHOLDER_ALIGNMENT]
-- Progress tracking: [REMEDIATION_PROGRESS_TRACKING]
-
-### Executive Reporting
-**Executive Communication Framework:**
-- Executive summary: [EXECUTIVE_SUMMARY_FRAMEWORK]
-- Risk dashboard: [RISK_DASHBOARD_DEVELOPMENT]
-- Compliance status: [COMPLIANCE_STATUS_REPORTING]
-- Trend analysis: [SECURITY_TREND_ANALYSIS]
-- Benchmarking: [SECURITY_BENCHMARKING_FRAMEWORK]
-- ROI justification: [SECURITY_ROI_JUSTIFICATION]
-- Budget implications: [SECURITY_BUDGET_IMPLICATIONS]
-- Strategic alignment: [STRATEGIC_ALIGNMENT_REPORTING]
-- Board presentation: [BOARD_PRESENTATION_FRAMEWORK]
-- Regulatory reporting: [REGULATORY_REPORTING_REQUIREMENTS]
-
-### Continuous Monitoring
-**Ongoing Assessment Framework:**
-- Continuous monitoring program: [CONTINUOUS_MONITORING_PROGRAM]
-- Key risk indicators: [KEY_RISK_INDICATOR_FRAMEWORK]
-- Performance metrics: [SECURITY_PERFORMANCE_METRICS]
-- Automated controls testing: [AUTOMATED_CONTROLS_TESTING]
-- Exception monitoring: [EXCEPTION_MONITORING_FRAMEWORK]
-- Trend identification: [TREND_IDENTIFICATION_METHODOLOGY]
-- Early warning systems: [EARLY_WARNING_SYSTEM_DEVELOPMENT]
-- Regular assessment scheduling: [REGULAR_ASSESSMENT_SCHEDULING]
-- Maturity progression: [SECURITY_MATURITY_PROGRESSION]
-- Improvement opportunities: [IMPROVEMENT_OPPORTUNITY_IDENTIFICATION]
+6. **TECHNICAL APPENDICES** - Vulnerability scan results, penetration test evidence, configuration reviews, policy gap analysis
 
 ---
 
 ## Usage Examples
 
-### Example 1: SaaS Application Security Audit
+### Example 1: SaaS Company SOC 2 Type II Audit
+**Prompt:** Conduct SOC 2 Type II readiness audit for CustomerHub B2B SaaS (50K users, AWS infrastructure) preparing for first certification achieving Security, Availability, and Confidentiality criteria.
 
-**Company**: B2B project management SaaS, 50k customers, SOC 2 Type II required
+**Expected Output:** Scope: AWS infrastructure (3 accounts), web application (React + Node.js), customer data processing. Trust Services Criteria: CC1-CC9 (Common Criteria) + A1 (Availability) + C1 (Confidentiality). Timeline: 12 weeks readiness + 6 months audit period. Findings: 47 control gaps identified across TSC. Critical (5): no formal change management policy (CC8.1), insufficient access reviews (CC6.2), missing DR testing (A1.2), encryption not enforced (C1.1), no vendor risk program (CC9.1). High (12): weak password policy (6 chars → should be 12+), no MFA for developers, excessive AWS IAM permissions, insufficient logging (CC7.2), missing incident response plan testing (CC7.4). Control assessment: CC6 Logical Access (72% compliant), CC7 System Operations (64% compliant), CC8 Change Management (45% compliant). Remediation roadmap: Phase 1 (0-3 months) implement critical controls ($50K, 320 dev hours), Phase 2 (3-6 months) address high findings, Phase 3 (audit period) continuous monitoring and evidence collection. SOC 2 readiness score: 68% → target 95% before audit starts. Deliverables: control matrix mapping controls to TSC, policy templates (7 policies drafted), evidence collection checklist (200+ evidence items), system description for SOC 2 report. Outcome: audit certification achieved with 3 minor observations, unlocked $12M in enterprise deals requiring SOC 2.
 
-**Audit Scope**: Web application, API, infrastructure, data security
+### Example 2: Financial Services PCI-DSS Compliance Audit
+**Prompt:** Conduct PCI-DSS 4.0 compliance audit for Premier Bank covering cardholder data environment (200 ATMs, online banking, card processing) achieving QSA certification.
 
-**Week 1-2: Information Gathering & Threat Modeling**
+**Expected Output:** Scope: CDE including payment processing servers, ATM network, online banking application, card databases. PCI-DSS 4.0: 12 requirements, 300+ sub-requirements. Findings: 37 requirements failed. Critical (8): weak ATM encryption (DES → must upgrade to AES-256, cost $850K, 6 months), unpatched Windows systems (342 workstations, EternalBlue vulnerability present, emergency patching 72 hours), privileged access management missing (47 domain admins should be 5, implement CyberArk $320K, 4 months), database encryption missing (12M customer records unencrypted, enable TDE 3 months), network segmentation failure (branches can access core banking directly, redesign $1.2M, 8 months). Requirements tested: Req 1 (network segmentation—FAIL, flat network), Req 2 (secure configurations—PARTIAL, 62% compliant), Req 3 (protect stored data—FAIL, no encryption), Req 4 (encrypt transmission—PASS, TLS 1.3), Req 8 (identify users—FAIL, shared passwords), Req 10 (log and monitor—FAIL, insufficient logging), Req 11 (test security—FAIL, no quarterly scans). Penetration testing: red team compromised environment in 37 hours via phishing → VPN access → lateral movement → database access (50K customer records exfiltrated in test). Remediation plan: $4.2M budget, 12-month timeline. Phase 1 (0-3 months): patch systems, enable database encryption, deploy MFA ($850K). Phase 2 (3-6 months): ATM encryption upgrade, network segmentation phase 1, PAM implementation ($1.8M). Phase 3 (6-12 months): complete network redesign, SOC establishment, full compliance ($1.55M). Results: PCI compliance 62% → 89% (on track for certification), risk score 9.1/10 → 4.2/10 (54% reduction), avoided $50M+ potential fraud losses, passed FFIEC exam with zero regulatory findings.
 
-**Findings**:
-- **Application Stack**: React frontend, Node.js API, PostgreSQL, Redis, AWS infrastructure
-- **Attack Surface**: Web app, REST API, mobile API, admin panel, webhooks
-- **Data Classification**: Customer project data (confidential), PII, payment info (Stripe)
-- **Compliance Requirements**: SOC 2, GDPR, CCPA
+### Example 3: Healthcare HIPAA Security Audit
+**Prompt:** Conduct HIPAA Security Rule audit for HealthSystem (8 hospitals, Epic EHR, 500K patients) preparing for HHS OCR audit achieving technical, administrative, and physical safeguards compliance.
 
-**Threat Model**:
-- Data breach through SQL injection
-- Account takeover via weak authentication
-- DDoS attacks on API
-- Insider threats (employee access)
-- Third-party integrations (OAuth apps)
-
-**Week 3-4: Vulnerability Assessment**
-
-**Critical Findings (5)**:
-1. **SQL Injection in search API** [CVSS 9.1]
-   - Impact: Full database access
-   - Location: `/api/v1/search?q=` parameter
-   - Fix: Use parameterized queries, input validation
-   - Timeline: Immediate (patched in 24 hours)
-
-2. **JWT Secret Hardcoded** [CVSS 8.2]
-   - Impact: Authentication bypass
-   - Location: `config/auth.js`
-   - Fix: Move to AWS Secrets Manager, rotate secrets
-   - Timeline: 48 hours
-
-3. **S3 Bucket Misconfiguration** [CVSS 7.5]
-   - Impact: Customer file exposure
-   - Location: `uploads-prod` bucket
-   - Fix: Remove public access, enable versioning
-   - Timeline: Immediate (fixed in 2 hours)
-
-4. **Missing Rate Limiting** [CVSS 7.0]
-   - Impact: Brute force attacks, DDoS
-   - Location: Login, API endpoints
-   - Fix: Implement rate limiting (express-rate-limit)
-   - Timeline: 1 week
-
-5. **Unencrypted Database Backups** [CVSS 6.8]
-   - Impact: Data exposure if backup compromised
-   - Location: RDS snapshots
-   - Fix: Enable snapshot encryption, rotate keys
-   - Timeline: 2 weeks
-
-**High Findings (12)**:
-- Weak password policy (6 chars minimum → should be 12)
-- No MFA enforcement for admin accounts
-- Excessive IAM permissions (developers have production access)
-- Outdated dependencies (83 npm packages with known CVEs)
-- Missing CSRF protection on state-changing requests
-- Insufficient logging (can't detect breach)
-- No security headers (CSP, HSTS)
-- API returns verbose error messages (info disclosure)
-- Session timeout too long (7 days → should be 1 hour)
-- No input validation on file uploads (XSS potential)
-- Sensitive data in logs (passwords, tokens)
-- Missing API authentication on internal endpoints
-
-**Week 5: Penetration Testing**
-
-**Attack Scenarios Tested**:
-1. **External Attacker**: Gained admin access via SQLi → full data exfiltration (FAIL)
-2. **Malicious User**: Privilege escalation by manipulating user_id in cookies (FAIL)
-3. **Supply Chain Attack**: Tested npm package compromises (PASS - SRI implemented)
-4. **DDoS Simulation**: API overwhelmed at 500 req/sec (FAIL - should handle 10k req/sec)
-
-**Week 6: Remediation & Re-test**
-
-**Remediation Results**:
-- Critical: 5/5 fixed (100%)
-- High: 9/12 fixed (75%) - 3 deferred to Q2
-- Medium: 15/28 fixed (54%)
-- Total effort: 320 developer hours over 4 weeks
-
-**Re-test Results**:
-- SQLi: Fixed ✓
-- Auth bypass: Fixed ✓
-- S3 exposure: Fixed ✓
-- Privilege escalation: Fixed ✓
-- DDoS resilience: Improved (now handles 8k req/sec) ⚠️
-
-**Final Report**:
-- Risk score: 8.2/10 → 3.1/10 (62% reduction)
-- SOC 2 readiness: 78% → 94%
-- Audit certification: PASS (with 3 open items)
-
-**Business Impact**:
-- SOC 2 certification achieved → unlocked $12M in enterprise deals
-- Zero security incidents in 12 months post-audit
-- Security became competitive advantage in sales process
-
-### Example 2: Financial Services Infrastructure Audit
-
-**Company**: Regional bank, $5B assets, 50 branches, 2,000 employees
-
-**Audit Scope**: Core banking system, ATM network, online banking, internal networks
-
-**Compliance**: PCI DSS, GLBA, FFIEC, SOX
-
-**Month 1: Asset Inventory & Risk Assessment**
-
-**Infrastructure Map**:
-- Core banking: IBM mainframe (z/OS)
-- Online banking: Java/Oracle stack
-- ATM network: 200 ATMs, NCR hardware
-- Branches: Windows workstations, VPN connections
-- Card processing: Third-party (Fiserv)
-- Mobile app: iOS/Android
-
-**Risk Assessment**:
-- **Crown Jewels**: Customer account database, wire transfer system
-- **High Risk**: ATM network (public access), employee laptops (mobile)
-- **Medium Risk**: Branch networks, third-party integrations
-- **Compliance Gaps**: PCI DSS 4.0 upgrade needed
-
-**Month 2-3: Technical Assessment**
-
-**Critical Findings (8)**:
-
-1. **Unpatched Windows Systems** [CVSS 9.8]
-   - 342 workstations missing critical patches
-   - EternalBlue vulnerability present (exploited in WannaCry)
-   - Fix: Emergency patching, WSUS deployment
-   - Timeline: 72 hours (weekend deployment)
-
-2. **Weak ATM Encryption** [CVSS 9.1]
-   - DES encryption on ATM-to-host communication (deprecated)
-   - Impact: PIN exposure, transaction manipulation
-   - Fix: Upgrade to AES-256, rekey all ATMs
-   - Timeline: 6 months (hardware upgrades needed)
-   - Cost: $850k
-
-3. **Privileged Access Management** [CVSS 8.7]
-   - 47 employees with domain admin rights (should be 5)
-   - Shared administrator passwords
-   - No logging of privileged actions
-   - Fix: Implement PAM solution (CyberArk), MFA for admin
-   - Timeline: 4 months
-   - Cost: $320k
-
-4. **Database Encryption Missing** [CVSS 8.2]
-   - Customer database unencrypted at rest
-   - 12M customer records at risk
-   - Fix: Enable Transparent Data Encryption (TDE)
-   - Timeline: 3 months (testing required)
-
-5. **Network Segmentation Failure** [CVSS 7.8]
-   - Branch networks can access core banking directly
-   - No DMZ for internet-facing systems
-   - ATMs on same VLAN as workstations
-   - Fix: Network redesign, firewall rules
-   - Timeline: 8 months
-   - Cost: $1.2M
-
-**PCI DSS Compliance Findings**:
-- 37 requirements failed (out of 300+)
-- Cardholder data environment not properly scoped
-- No quarterly vulnerability scans
-- Insufficient access controls
-- Missing security awareness training
-
-**Month 4: Penetration Testing**
-
-**Red Team Exercise**:
-- **Scenario**: External attacker attempts to steal customer funds
-
-**Attack Chain**:
-1. Phishing email to employees → 23% click rate → gained VPN access
-2. Moved laterally through network (no segmentation)
-3. Found database server with default credentials
-4. Exfiltrated 50k customer records (SSN, account numbers)
-5. Attempted wire transfer ($100k test) → blocked by manual review
-
-**Time to compromise**: 37 hours from initial phishing
-
-**Month 5-6: Remediation**
-
-**Remediation Plan** ($4.2M budget):
-
-**Immediate (0-3 months)**:
-- Patch all systems (completed)
-- Disable unnecessary admin accounts (completed)
-- Enable database encryption (in progress)
-- Implement MFA for all employees (rollout: 85%)
-- Deploy endpoint detection (CrowdStrike) (completed)
-
-**Short-term (3-6 months)**:
-- ATM encryption upgrade (in progress, 40% done)
-- Network segmentation phase 1 (in progress)
-- PAM implementation (kickoff next month)
-- Security awareness training (all staff)
-- Implement SIEM (Splunk) (in progress)
-
-**Long-term (6-12 months)**:
-- Complete network redesign
-- SOC setup (24/7 monitoring)
-- PCI DSS full compliance
-- Disaster recovery improvements
-
-**Final Results**:
-- Risk score: 9.1/10 → 4.2/10 (54% reduction)
-- PCI DSS compliance: 62% → 89% (on track for certification)
-- Regulatory findings: 0 (FFIEC exam passed)
-- Security incidents: 0 in 12 months post-audit
-
-**Business Impact**:
-- Avoided $50M+ potential fraud losses
-- Passed regulatory exams (no fines)
-- Reduced cyber insurance premium 18%
-- Enhanced customer trust
-
-### Example 3: Healthcare Provider Security Audit (HIPAA)
-
-**Organization**: 8-hospital system, 150 clinics, 15k employees, 500k patients
-
-**Audit Scope**: EHR system (Epic), medical devices, telehealth, cloud services
-
-**Compliance**: HIPAA, HITECH, state privacy laws
-
-**Week 1-3: Risk Analysis**
-
-**Asset Inventory**:
-- **Critical**: EHR database (Epic), PACS (medical imaging), Lab systems
-- **High**: Telehealth platform (Zoom for Healthcare), patient portal
-- **Medium**: Medical devices (300+ connected devices), email
-
-**Threat Assessment**:
-- Ransomware (top threat to healthcare)
-- Insider threats (employee snooping)
-- Medical device vulnerabilities
-- Third-party vendor breaches
-- Phishing attacks
-
-**Week 4-8: Technical & Administrative Controls Assessment**
-
-**Critical Findings (12)**:
-
-1. **Medical Device Vulnerabilities** [CVSS 9.3]
-   - 42 infusion pumps running Windows XP (unsupported)
-   - No network isolation for medical devices
-   - Hardcoded passwords, unpatched firmware
-   - Impact: Patient safety risk, ransomware spread
-   - Fix: Network segmentation, device inventory system
-   - Timeline: 12 months
-   - Cost: $2.8M
-
-2. **EHR Access Controls Insufficient** [CVSS 8.9]
-   - 2,300 employees can access all patient records
-   - No role-based access controls (RBAC)
-   - Break-the-glass access not monitored
-   - 87 employees accessed celebrity patient records (HIPAA violation)
-   - Fix: Implement least privilege, audit all access
-   - Timeline: 6 months
-   - Potential fines: $1.5M per violation
-
-3. **Unencrypted Patient Data** [CVSS 8.5]
-   - Backup tapes unencrypted (12,000 tapes)
-   - Workstation disk encryption: 45% coverage (should be 100%)
-   - Email encryption not enforced for PHI
-   - Fix: Encrypt all backups, deploy BitLocker, email DLP
-   - Timeline: 8 months
-   - Cost: $1.1M
-
-4. **Vendor Risk Management** [CVSS 7.8]
-   - 340 vendors with PHI access
-   - 78 missing BAA (Business Associate Agreement)
-   - No vendor security assessments
-   - Third-party breach could expose 500k records
-   - Fix: Vendor risk program, BAA tracking
-   - Timeline: 4 months
-
-5. **Telehealth Security** [CVSS 7.2]
-   - Zoom meetings not configured for HIPAA
-   - Patient PHI visible in thumbnails/recordings
-   - No end-to-end encryption
-   - Fix: Zoom Healthcare configuration, training
-   - Timeline: Immediate (2 weeks)
-
-**Administrative Findings**:
-- No enterprise-wide risk analysis (HIPAA requirement)
-- Incomplete policies (12 required policies missing)
-- Insufficient security training (only 52% completion)
-- No incident response plan testing
-- Audit logs not reviewed (can't detect breaches)
-- Missing breach notification procedures
-
-**Week 9-10: Penetration Testing**
-
-**Social Engineering Test**:
-- Phishing campaign: 800 employees
-- Click rate: 34% (industry average: 20%)
-- Credentials entered: 8%
-- Result: FAIL - need security awareness training
-
-**External Penetration Test**:
-- Found exposed patient portal with SQLi (critical)
-- Gained access to test patient records
-- Time to compromise: 14 hours
-
-**Internal Test**:
-- Pivoted from workstation to EHR database
-- Accessed 50k patient records
-- Time to compromise: 8 hours
-
-**Week 11-12: Remediation Planning**
-
-**Corrective Action Plan** ($8.5M budget, 18 months):
-
-**Phase 1 (Months 1-6)**: Critical risks
-- Fix patient portal SQLi (DONE in 48 hours)
-- Deploy endpoint encryption (70% complete)
-- Implement RBAC in EHR (kickoff)
-- Telehealth security hardening (DONE)
-- Security training program (all staff)
-- Vendor BAA remediation (85% complete)
-
-**Phase 2 (Months 7-12)**: High risks
-- Medical device network segmentation
-- SIEM deployment for audit log monitoring
-- Incident response plan & tabletop exercises
-- Complete RBAC rollout
-- DLP implementation
-
-**Phase 3 (Months 13-18)**: Long-term
-- Medical device lifecycle management
-- Zero Trust architecture
-- SOC establishment
-- Advanced threat protection
-
-**Results After 12 Months**:
-- Risk score: 8.7/10 → 3.9/10 (55% reduction)
-- HIPAA compliance: 68% → 91%
-- Security training completion: 52% → 97%
-- Phishing click rate: 34% → 11%
-- Vendor BAAs: 78% → 100%
-- Privacy incidents: 24/year → 6/year (-75%)
-
-**Business Impact**:
-- Avoided OCR (HHS) investigation and fines
-- Zero ransomware incidents (industry average: 1 in 3)
-- Reduced malpractice insurance premium 12%
-- Enhanced reputation for patient privacy
-
-
-
-
-## Related Resources
-
-### Complementary Templates
-
-Enhance your workflow by combining this template with:
-
-- **[Cloud Architecture Framework](cloud-architecture-framework.md)** - Complementary approaches and methodologies
-- **[Site Reliability Engineering](site-reliability-engineering.md)** - Complementary approaches and methodologies
-- **[Cloud Migration Strategy](cloud-migration-strategy.md)** - Strategic planning and execution frameworks
-
-### Suggested Workflow
-
-**Typical implementation sequence**:
-
-1. Start with this template (Comprehensive Security Audit Framework Template)
-2. Use [Cloud Architecture Framework](cloud-architecture-framework.md) for deeper analysis
-3. Apply [Site Reliability Engineering](site-reliability-engineering.md) for execution
-4. Iterate and refine based on results
-
-### Explore More in This Category
-
-Browse all **[technology/Cybersecurity](../../technology/Cybersecurity/)** templates for related tools and frameworks.
-
-### Common Use Case Combinations
-
-- **General application**: Combine this template with related analytics and strategy frameworks
-- **Professional use**: Combine this template with related analytics and strategy frameworks
-- **Project implementation**: Combine this template with related analytics and strategy frameworks
-
-## Customization Options
-
-### Option 1: Industry-Specific Customization
-Tailor the template for specific industry requirements:
-- **Financial Services:** Enhanced focus on regulatory compliance, fraud detection
-- **Healthcare:** HIPAA compliance, medical device security, patient privacy
-- **Government:** FedRAMP, FISMA compliance, classified data handling
-- **Manufacturing:** OT security, supply chain risks, industrial IoT
-- **Retail:** PCI-DSS compliance, customer data protection, e-commerce security
-
-### Option 2: Audit Depth Customization
-Adjust the audit depth based on requirements:
-- **High-Level Assessment:** Executive overview, key risk areas
-- **Detailed Technical Audit:** Deep technical analysis, comprehensive testing
-- **Focused Review:** Specific area concentration (e.g., cloud security only)
-- **Continuous Monitoring:** Ongoing assessment framework
-
-### Option 3: Regulatory Framework Adaptation
-Customize for specific regulatory requirements:
-- **ISO 27001:** Information security management system focus
-- **NIST Cybersecurity Framework:** Risk-based approach alignment
-- **COBIT:** IT governance and control framework integration
-- **COSO:** Internal control framework alignment
-
-### Option 4: Organization Size Scaling
-Scale the template based on organizational size:
-- **Small Business:** Essential controls, cost-effective approach
-- **Mid-Market:** Balanced coverage, growth considerations
-- **Enterprise:** Comprehensive framework, advanced controls
-- **Global Corporation:** Multi-jurisdiction, complex architecture
-
-### Option 5: Maturity-Based Customization
-Adapt based on security program maturity:
-- **Initial:** Basic security controls, foundational assessment
-- **Developing:** Process improvement, standardization focus
-- **Mature:** Advanced controls, optimization opportunities
-- **Leading:** Innovation, emerging threat consideration
+**Expected Output:** Scope: EHR system (Epic), medical devices (300+ connected), telehealth, patient portal, cloud services (Azure). HIPAA Security Rule: Administrative Safeguards (§164.308), Physical Safeguards (§164.310), Technical Safeguards (§164.312). Findings: 58 safeguard deficiencies. Critical (12): medical device vulnerabilities (42 infusion pumps Windows XP unpatched, no network isolation, CVSS 9.3, patient safety risk, network segmentation $2.8M, 12 months), EHR access controls insufficient (2,300 employees can access all records, no RBAC, 87 accessed celebrity records = HIPAA violation, implement least privilege 6 months, potential fines $1.5M per violation), unencrypted patient data (12K backup tapes unencrypted, workstation encryption 45% coverage should be 100%, email PHI unencrypted, deploy BitLocker + email DLP $1.1M, 8 months), vendor risk management (340 vendors with PHI access, 78 missing BAAs, no security assessments, 4 months to remediate). Administrative findings: no enterprise risk analysis (HIPAA requirement), incomplete policies (12 required policies missing), insufficient training (52% completion → need 95%+), no incident response testing, audit logs not reviewed (can't detect breaches), missing breach notification procedures. Technical findings: access control (no unique user IDs for some systems, no automatic logoff, emergency access not monitored), audit controls (insufficient logging, no log review), integrity controls (no data validation, transmission security gaps), authentication (MFA only 30% coverage should be 100%). Penetration testing: social engineering 34% phishing click rate (industry 20%), external test found patient portal SQLi (accessed 50K test records, 14 hours to compromise), internal test pivoted to EHR database (8 hours). Corrective action plan: $8.5M budget, 18 months. Phase 1 (months 1-6): fix SQLi (48 hours), deploy endpoint encryption (70% complete), implement RBAC in EHR, telehealth security hardening, security training all staff, vendor BAA remediation. Phase 2 (months 7-12): medical device segmentation, SIEM deployment, incident response plan + tabletop exercises, complete RBAC, DLP implementation. Phase 3 (months 13-18): device lifecycle management, zero trust architecture, SOC establishment. Results after 12 months: risk score 8.7/10 → 3.9/10 (55% reduction), HIPAA compliance 68% → 91%, training completion 52% → 97%, phishing click rate 34% → 11%, privacy incidents 24/year → 6/year (-75%), avoided OCR investigation and multi-million dollar fines.
 
 ---
 
-*This Security Audit template provides a comprehensive framework for conducting thorough security assessments across all organizational domains. Each variable should be carefully configured based on specific industry requirements, regulatory obligations, and organizational risk tolerance levels.*
-
-## Variables
-
-### Core Audit Variables
-
-| Variable | Description | Example |
-|----------|-------------|----------|
-| `[ORGANIZATION_NAME]` | Name of the organization being audited | "Acme Financial Corp", "TechStartup Inc", "Metro Healthcare System" |
-| `[AUDIT_SCOPE]` | Systems and areas included in the audit | "All production systems + cloud infrastructure", "Web applications only", "Comprehensive (infrastructure, apps, governance)" |
-| `[AUDIT_TYPE]` | Category of security audit | "Internal", "External (third-party)", "Compliance (SOC 2/PCI)", "Red Team" |
-| `[INDUSTRY_SECTOR]` | Organization's industry vertical | "Financial Services", "Healthcare", "Technology/SaaS", "Government", "Retail" |
-| `[COMPLIANCE_FRAMEWORKS]` | Regulatory frameworks in scope | "SOC 2 Type II, ISO 27001", "HIPAA, HITECH", "PCI-DSS 4.0, SOX", "GDPR, CCPA" |
-| `[GEOGRAPHIC_SCOPE]` | Geographic coverage of the audit | "US operations only", "North America + EU", "Global (all regions)", "Single data center" |
-| `[AUDIT_TIMELINE]` | Duration of the audit engagement | "4 weeks active testing", "3 months (including remediation)", "Annual (quarterly reviews)" |
-| `[AUDIT_BUDGET]` | Budget allocated for the audit | "$50K (internal)", "$150K (Big 4 audit)", "$500K (comprehensive program)" |
-
-### Team and Methodology Variables
-
-| Variable | Description | Example |
-|----------|-------------|----------|
-| `[RISK_ASSESSMENT_METHODOLOGY]` | Approach to evaluating risks | "NIST RMF", "FAIR quantitative", "ISO 27005", "Qualitative (High/Medium/Low)" |
-| `[AUDIT_STANDARDS]` | Standards guiding the audit | "ISACA COBIT", "IIA Standards", "NIST SP 800-53", "OWASP Testing Guide v4.2" |
-| `[TESTING_METHODOLOGY]` | Technical testing approach | "Black-box (no internal knowledge)", "Gray-box (limited access)", "White-box (full access)" |
-| `[EVIDENCE_COLLECTION_APPROACH]` | How evidence is gathered and stored | "Automated via GRC tool", "Manual screenshots + logs", "Centralized evidence repository" |
-| `[LEAD_AUDITOR_REQUIREMENTS]` | Qualifications for lead auditor | "CISA/CISSP certified, 10+ years experience", "QSA for PCI audits", "Internal audit manager" |
-| `[TECHNICAL_SPECIALIST_REQUIREMENTS]` | Technical team qualifications | "OSCP for pentest, AWS certified for cloud", "Application security (GWAPT)", "Network security (CCNP Security)" |
-
-### Infrastructure Assessment Variables
-
-| Variable | Description | Example |
-|----------|-------------|----------|
-| `[NETWORK_TOPOLOGY_REVIEW_SCOPE]` | Network areas to assess | "All VLANs, DMZ, internal network", "Cloud VPCs + on-prem", "Branch office connectivity" |
-| `[FIREWALL_CONFIG_ASSESSMENT]` | Firewall review focus areas | "Rule base review, change management, logging", "Next-gen firewall policies", "Cloud security groups" |
-| `[NETWORK_SEGMENTATION_EVALUATION]` | Segmentation assessment scope | "Micro-segmentation effectiveness", "PCI CDE isolation", "Zero trust network architecture" |
-| `[CLOUD_CONFIG_ASSESSMENT]` | Cloud security assessment areas | "AWS Security Hub findings, S3 bucket policies", "Azure Security Center, NSG rules", "Multi-cloud posture (AWS + Azure + GCP)" |
-| `[ENDPOINT_DETECTION_EVALUATION]` | EDR/antivirus assessment | "CrowdStrike deployment coverage", "Detection rule effectiveness", "Response time metrics" |
-| `[PATCH_MANAGEMENT_EVALUATION]` | Patch management assessment | "Patch compliance rate (target: 95%)", "Critical patch deployment time", "WSUS/SCCM effectiveness" |
-
-### Application Security Variables
-
-| Variable | Description | Example |
-|----------|-------------|----------|
-| `[OWASP_TOP10_ASSESSMENT]` | Web application security testing | "Full OWASP Top 10 coverage", "Focus on injection + auth", "API-specific testing (OWASP API Top 10)" |
-| `[SQL_INJECTION_TESTING]` | SQL injection testing approach | "Automated (SQLMap) + manual validation", "Parameterized query verification", "Stored procedure review" |
-| `[AUTHENTICATION_SECURITY_ASSESSMENT]` | Authentication mechanism review | "MFA implementation, password policies", "OAuth/OIDC configuration", "Session management" |
-| `[API_SECURITY_EVALUATION]` | API security testing | "REST API auth + rate limiting", "GraphQL introspection, query depth", "API gateway configuration" |
-| `[MOBILE_APP_SECURITY_TESTING]` | Mobile application security | "iOS/Android OWASP MASVS", "Certificate pinning, data storage", "Runtime protection assessment" |
-| `[DATABASE_ENCRYPTION_EVALUATION]` | Database security assessment | "TDE implementation, column-level encryption", "Key management practices", "Backup encryption verification" |
-
-### Identity and Access Management Variables
-
-| Variable | Description | Example |
-|----------|-------------|----------|
-| `[MFA_IMPLEMENTATION_ASSESSMENT]` | Multi-factor authentication review | "MFA coverage (target: 100% for privileged)", "Hardware keys for admins", "Conditional access policies" |
-| `[PASSWORD_POLICY_EVALUATION]` | Password policy assessment | "12+ chars, complexity requirements", "Password manager adoption", "Breach credential monitoring" |
-| `[PAM_SECURITY_ASSESSMENT]` | Privileged access management review | "CyberArk vault configuration", "Session recording coverage", "Just-in-time access implementation" |
-| `[RBAC_IMPLEMENTATION_ASSESSMENT]` | Role-based access control review | "Role definitions and assignments", "Excessive permissions analysis", "Quarterly access certification" |
-| `[SERVICE_ACCOUNT_SECURITY_ASSESSMENT]` | Service account review | "Service account inventory (found: 247)", "Password rotation compliance", "Least privilege verification" |
-
-### Data Protection Variables
-
-| Variable | Description | Example |
-|----------|-------------|----------|
-| `[DATA_CLASSIFICATION_ASSESSMENT]` | Data classification review | "4-tier classification scheme", "Auto-classification tool effectiveness", "Label accuracy sampling" |
-| `[ENCRYPTION_STANDARDS_ASSESSMENT]` | Encryption implementation review | "AES-256 at rest, TLS 1.3 in transit", "FIPS 140-2 compliance", "Key rotation schedule" |
-| `[DATA_RETENTION_POLICY_ASSESSMENT]` | Data retention compliance | "7-year financial records, 90-day logs", "GDPR deletion compliance", "Backup retention alignment" |
-| `[GDPR_COMPLIANCE_ASSESSMENT]` | GDPR-specific controls | "Data subject rights workflow", "DPIA process", "Cross-border transfer mechanisms (SCCs)" |
-| `[DLP_ASSESSMENT]` | Data loss prevention review | "Endpoint DLP coverage", "Email DLP rules effectiveness", "Cloud DLP (CASB) configuration" |
-
-### Security Operations Variables
-
-| Variable | Description | Example |
-|----------|-------------|----------|
-| `[SIEM_IMPLEMENTATION_ASSESSMENT]` | SIEM effectiveness review | "Splunk log coverage (92% of systems)", "Alert tuning (false positive rate: 15%)", "Correlation rule effectiveness" |
-| `[VULNERABILITY_MANAGEMENT_ASSESSMENT]` | Vulnerability program review | "Patch SLA compliance", "Vulnerability aging analysis", "Scanner coverage (Nessus/Qualys)" |
-| `[INCIDENT_RESPONSE_PLAN_ASSESSMENT]` | IR plan review | "Plan completeness vs NIST 800-61", "Tabletop exercise results", "MTTR for past incidents" |
-| `[THREAT_INTELLIGENCE_EVALUATION]` | Threat intel program review | "TI feed integration", "IOC operationalization", "Threat hunting program maturity" |
-| `[SOC_OPERATIONS_EVALUATION]` | SOC effectiveness review | "24/7 coverage model", "Analyst skill levels", "Escalation procedures", "MTTD/MTTR metrics" |
-
-### Business Continuity Variables
-
-| Variable | Description | Example |
-|----------|-------------|----------|
-| `[BUSINESS_CONTINUITY_PLAN_ASSESSMENT]` | BCP review | "BIA completeness", "Recovery procedures documented", "Annual testing evidence" |
-| `[RTO_ASSESSMENT]` | Recovery time objective review | "RTO: 4 hours (critical systems)", "Last DR test achieved: 3.5 hours", "Gap analysis" |
-| `[RPO_EVALUATION]` | Recovery point objective review | "RPO: 1 hour", "Backup frequency alignment", "Replication lag monitoring" |
-| `[DISASTER_RECOVERY_PLAN_ASSESSMENT]` | DR plan review | "Failover procedures documented", "DR site readiness", "Communication plans" |
-| `[BACKUP_RESTORE_EVALUATION]` | Backup effectiveness | "Backup success rate (99.2%)", "Restore testing frequency", "Immutable backup implementation" |
-
-### Vendor and Third-Party Variables
-
-| Variable | Description | Example |
-|----------|-------------|----------|
-| `[VENDOR_RISK_ASSESSMENT_FRAMEWORK]` | Third-party risk program | "Tiered risk assessment (critical/high/medium/low)", "SOC 2 requirement for critical vendors" |
-| `[VENDOR_DUE_DILIGENCE_EVALUATION]` | Vendor assessment process | "Security questionnaire process", "On-site audit rights", "Continuous monitoring" |
-| `[SUPPLY_CHAIN_MAPPING_ASSESSMENT]` | Supply chain security | "Critical supplier identification", "SBOM requirements", "Fourth-party risk visibility" |
-| `[SBOM_EVALUATION]` | Software bill of materials review | "SBOM generation process", "Vulnerability tracking in dependencies", "License compliance" |
-
-### Reporting and Remediation Variables
-
-| Variable | Description | Example |
-|----------|-------------|----------|
-| `[RISK_SEVERITY_CLASSIFICATION]` | Finding severity levels | "Critical/High/Medium/Low based on CVSS + business impact", "P1-P4 priority levels" |
-| `[REMEDIATION_TIMELINE_FRAMEWORK]` | Fix timelines by severity | "Critical: 24-48 hrs, High: 7 days, Medium: 30 days, Low: 90 days" |
-| `[EXECUTIVE_SUMMARY_FRAMEWORK]` | Executive reporting format | "1-page risk scorecard + trends", "Board-ready presentation", "Quarterly metrics dashboard" |
-| `[SECURITY_BUDGET_IMPLICATIONS]` | Budget recommendations | "$500K for critical remediations", "$2M 18-month security program", "ROI analysis included" |
-| `[CONTINUOUS_MONITORING_PROGRAM]` | Ongoing monitoring plan | "Quarterly vulnerability scans", "Annual penetration testing", "Continuous compliance via GRC tool" |
-
-## Usage Examples
-
-### Example 1: Financial Services Comprehensive Audit (SOX + PCI-DSS)
-
-**Context:** Large bank requiring multi-framework compliance audit
-
-**Copy-paste this prompt:**
-
-```
-I need to conduct a comprehensive security audit for Premier Financial Services, a Tier 1 bank with 15,000 employees operating across North America and Europe.
-
-AUDIT CONTEXT:
-- Organization: Premier Financial Services
-- Industry: Financial Services (banking, payment processing)
-- Audit type: Combined internal assessment + external validation
-- Scope: All production systems, cloud infrastructure (AWS + Azure), payment processing environment
-- Compliance frameworks: SOX IT General Controls, PCI-DSS 4.0, Basel III operational risk, GDPR
-- Geographic coverage: US headquarters, EU operations, Canadian branches
-- Timeline: 8-week engagement (Q1 2025)
-- Budget: $350K (internal team + Big 4 validation)
-
-ASSESSMENT FOCUS AREAS:
-
-1. PCI-DSS Cardholder Data Environment:
-   - Network segmentation and CDE isolation
-   - Encryption (TLS 1.3 in transit, AES-256 at rest)
-   - Access controls and authentication (MFA for all CDE access)
-   - Logging and monitoring (12-month log retention)
-   - Vulnerability management (ASV scans, penetration testing)
-
-2. SOX IT General Controls:
-   - Access management (provisioning, reviews, termination)
-   - Change management (approval workflows, segregation of duties)
-   - Computer operations (job scheduling, backup/recovery)
-   - Program development (SDLC controls, code review)
-
-3. Cloud Security (AWS + Azure):
-   - IAM policies and privilege escalation risks
-   - Network security groups and segmentation
-   - Data encryption and key management (HSM-backed)
-   - Logging (CloudTrail, Azure Monitor)
-   - Configuration compliance (CIS benchmarks)
-
-4. Third-Party Risk:
-   - Critical vendor inventory (payment processors, cloud providers)
-   - SOC 2 report reviews for key vendors
-   - Fourth-party risk assessment
-   - Contract security requirements
-
-TESTING METHODOLOGY:
-- Approach: Gray-box (limited internal documentation provided)
-- Network testing: Vulnerability scanning (Nessus) + manual validation
-- Application testing: OWASP Top 10, API security, authentication bypass
-- Social engineering: Phishing simulation (500 employees)
-
-DELIVERABLES REQUIRED:
-1. Executive summary (1-page risk scorecard for board presentation)
-2. Detailed findings report with:
-   - Finding description and evidence
-   - Risk rating (Critical/High/Medium/Low) based on CVSS + business impact
-   - Affected systems and data
-   - Remediation recommendations with effort estimates
-   - Compliance mapping (which control/requirement is impacted)
-3. Control testing matrix mapping to SOX/PCI requirements
-4. Remediation roadmap with prioritization:
-   - Critical: 48 hours
-   - High: 7 days
-   - Medium: 30 days
-   - Low: 90 days
-5. Management action plan template
-
-Please provide a comprehensive audit program including specific test procedures, evidence requirements, and a risk-based approach to sampling.
-```
-
-**Expected Output:**
-- Detailed audit program with 150+ test procedures
-- Control matrix mapping findings to SOX/PCI requirements
-- Risk-rated findings with remediation guidance
-- Board-ready executive summary
-
----
-
-### Example 2: Healthcare HIPAA Compliance Audit
-
-**Context:** Healthcare SaaS company preparing for OCR audit
-
-**Copy-paste this prompt:**
-
-```
-I need to conduct a HIPAA security audit for HealthTech Solutions, a healthcare SaaS company processing PHI for 200+ healthcare provider clients.
-
-AUDIT CONTEXT:
-- Organization: HealthTech Solutions (healthcare SaaS, 500 employees)
-- Industry: Healthcare technology
-- Audit type: Internal HIPAA readiness assessment (preparing for potential OCR audit)
-- Scope: Cloud infrastructure (Azure), web application, mobile apps, APIs, administrative controls
-- Compliance: HIPAA Security Rule, HIPAA Privacy Rule, HITECH, state health privacy laws
-- Data types: PHI (patient records, prescriptions, lab results, billing data)
-- Timeline: 4-week assessment
-- Budget: $75K
-
-HIPAA SECURITY RULE ASSESSMENT:
-
-1. Administrative Safeguards (§164.308):
-   - Security management process (risk analysis, sanctions)
-   - Assigned security responsibility (Security Officer role)
-   - Workforce security (authorization, clearance, termination)
-   - Information access management (access authorization, establishment)
-   - Security awareness training (program effectiveness, phishing results)
-   - Security incident procedures (response plan, breach notification)
-   - Contingency plan (backup, DR, emergency mode operations)
-   - Evaluation (periodic security assessments)
-   - Business associate agreements (inventory, compliance verification)
-
-2. Physical Safeguards (§164.310):
-   - Facility access controls (data center security - Azure compliance)
-   - Workstation use and security policies
-   - Device and media controls (disposal, re-use, encryption)
-
-3. Technical Safeguards (§164.312):
-   - Access control (unique user IDs, emergency access, auto-logoff, encryption)
-   - Audit controls (logging, monitoring, review procedures)
-   - Integrity controls (data validation, transmission security)
-   - Person/entity authentication (MFA implementation)
-   - Transmission security (TLS 1.3, VPN for remote access)
-
-4. Cloud-Specific Assessment (Azure):
-   - Azure HIPAA BAA verification
-   - PHI data residency (US-only regions)
-   - Encryption: Azure Disk Encryption, Azure SQL TDE, customer-managed keys
-   - Network security: NSGs, Azure Firewall, Private Link for PaaS
-   - Identity: Azure AD, Conditional Access, PIM for privileged access
-   - Monitoring: Azure Sentinel, diagnostic logs, 6-year retention
-
-5. Application Security:
-   - Authentication (OAuth 2.0, MFA for all users accessing PHI)
-   - Authorization (RBAC, minimum necessary access)
-   - Encryption (AES-256 for PHI at rest, TLS 1.3 in transit)
-   - Audit logging (all PHI access logged with user, timestamp, action)
-   - Session management (30-min timeout, secure token handling)
-   - API security (rate limiting, input validation, authentication)
-
-6. Business Associate Management:
-   - BAA inventory (all vendors with PHI access)
-   - Subcontractor chain (downstream BAAs)
-   - Annual BAA compliance verification
-
-DELIVERABLES REQUIRED:
-1. HIPAA Security Rule compliance gap analysis
-2. Risk assessment aligned with NIST SP 800-66 / HHS guidance
-3. Findings report with:
-   - HIPAA citation for each finding
-   - Risk level (Critical/High/Medium/Low)
-   - Evidence of non-compliance
-   - Remediation steps with implementation guidance
-4. Policies and procedures gap analysis
-5. OCR audit readiness checklist
-6. Remediation roadmap prioritized by risk
-7. Training recommendations for workforce
-
-Please provide a comprehensive audit program that would prepare us for an OCR HIPAA audit, including specific test procedures and evidence requirements.
-```
-
-**Expected Output:**
-- HIPAA Security Rule control-by-control assessment
-- Gap analysis with specific HIPAA citations
-- OCR audit readiness score
-- Remediation roadmap with policy templates
-
----
-
-### Example 3: SaaS Company SOC 2 Type II Audit
-
-**Context:** B2B SaaS startup preparing for first SOC 2 certification
-
-**Copy-paste this prompt:**
-
-```
-I need to prepare for our first SOC 2 Type II audit for CloudApp Inc, a B2B SaaS company providing project management software.
-
-AUDIT CONTEXT:
-- Organization: CloudApp Inc (B2B SaaS, 150 employees, Series B startup)
-- Industry: Technology / SaaS
-- Audit type: SOC 2 Type II readiness assessment + gap remediation
-- Scope: AWS infrastructure, web application, customer data processing
-- Trust Services Criteria: Security (required), Availability, Confidentiality
-- Audit period: 6 months (targeting Q3-Q4 2025)
-- Timeline: 12-week readiness program
-- Budget: $50K (readiness) + $40K (Big 4 audit)
-
-SOC 2 TRUST SERVICES CRITERIA ASSESSMENT:
-
-1. CC1 - Control Environment:
-   - Organizational structure and reporting
-   - Board oversight and governance
-   - Security policies and standards
-   - Personnel security (background checks, training)
-   - Management philosophy and operating style
-
-2. CC2 - Communication and Information:
-   - Internal communication of security responsibilities
-   - External communication (customer security documentation)
-   - System descriptions and boundaries
-   - Security awareness program
-
-3. CC3 - Risk Assessment:
-   - Risk assessment process and methodology
-   - Risk register and treatment plans
-   - Change risk assessment
-   - Fraud risk consideration
-
-4. CC4 - Monitoring Activities:
-   - Ongoing monitoring (security metrics, dashboards)
-   - Separate evaluations (penetration testing, audits)
-   - Deficiency evaluation and remediation
-
-5. CC5 - Control Activities:
-   - Control selection and development
-   - Technology general controls
-   - Policy deployment and enforcement
-
-6. CC6 - Logical and Physical Access:
-   - User access management (provisioning, reviews, termination)
-   - Authentication (SSO via Okta, MFA required)
-   - Authorization (RBAC, least privilege)
-   - Physical security (AWS data centers - SOC 2 reliance)
-   - Data encryption (AES-256 at rest, TLS 1.3 in transit)
-
-7. CC7 - System Operations:
-   - Change management (Git workflow, PR reviews, deployment pipeline)
-   - Vulnerability management (weekly scans, 30-day patch SLA)
-   - Incident management (PagerDuty, runbooks, post-mortems)
-   - Backup and recovery (daily backups, tested quarterly)
-
-8. CC8 - Change Management:
-   - Change request and approval process
-   - Testing requirements before production
-   - Emergency change procedures
-   - Change documentation
-
-9. CC9 - Risk Mitigation:
-   - Vendor management program
-   - Business continuity planning
-   - Insurance coverage
-
-10. Availability Criteria (A1):
-    - Capacity planning
-    - SLA monitoring (99.9% uptime target)
-    - Disaster recovery (RTO: 4 hours, RPO: 1 hour)
-    - Incident communication
-
-11. Confidentiality Criteria (C1):
-    - Data classification (Public, Internal, Confidential, Restricted)
-    - Confidential data handling procedures
-    - Data retention and disposal
-    - NDA management
-
-AWS INFRASTRUCTURE CONTROLS:
-- Network: VPC with public/private subnets, security groups, WAF
-- Compute: ECS Fargate, auto-scaling, hardened AMIs
-- Database: RDS PostgreSQL with encryption, Multi-AZ
-- Storage: S3 with bucket policies, versioning, encryption
-- Identity: IAM roles (no long-lived credentials), SSO federation
-- Logging: CloudTrail, CloudWatch, centralized to Datadog
-- Secrets: AWS Secrets Manager with rotation
-
-DELIVERABLES REQUIRED:
-1. SOC 2 readiness assessment with gap analysis
-2. Control matrix mapping our controls to Trust Services Criteria
-3. Gap remediation roadmap with:
-   - Critical gaps (must fix before audit)
-   - Recommended improvements
-   - Implementation effort estimates
-4. Policy and procedure templates for gaps:
-   - Information Security Policy
-   - Access Control Policy
-   - Change Management Policy
-   - Incident Response Plan
-   - Vendor Management Policy
-5. Evidence collection checklist for Type II audit
-6. System description draft for SOC 2 report
-7. Auditor selection criteria and RFP template
-
-Please provide a comprehensive readiness program that will prepare us for a successful SOC 2 Type II audit with a Big 4 firm.
-```
-
-**Expected Output:**
-- SOC 2 readiness score by Trust Services Criteria
-- Gap analysis with prioritized remediation
-- Control matrix mapping
-- Policy templates for identified gaps
-- Evidence collection checklist
-
----
-
-## Best Practices
+## Cross-References
+
+- [Security Assessment](security-assessment.md) - Technical security testing methodology
+- [Vulnerability Management](../Security-Operations/vulnerability-management.md) - Ongoing vulnerability program
+- [Security Operations](security-operations.md) - SOC integration with audit findings

@@ -1,425 +1,181 @@
 ---
-title: Home Management Template
+title: Home Management Readiness Assessment
 category: personal
 tags:
 - home-organization
 - maintenance-scheduling
 - household-efficiency
 - living-space-optimization
+- readiness-assessment
 use_cases:
-- Creating develop comprehensive home management strategies including organization
-  systems, maintenance schedules, and household projects to create efficient, comfortable,
-  and well-maintained living spaces that support family life and personal wellbeing.
-- Project planning and execution
-- Strategy development
-last_updated: 2025-11-09
+- Assessing readiness to implement a sustainable home management system
+- Identifying the highest-leverage organization, cleaning, and maintenance gaps
+- Creating a 30-day home reset plan with routines and metrics
 industries:
 - finance
 - healthcare
 - manufacturing
 - retail
 - technology
-type: template
+type: framework
 difficulty: intermediate
-slug: home-management
+slug: home-management-readiness-assessment
 ---
 
-# Home Management Template
+# Home Management Readiness Assessment
 
 ## Purpose
-Develop comprehensive home management strategies including organization systems, maintenance schedules, and household projects to create efficient, comfortable, and well-maintained living spaces that support family life and personal wellbeing.
+Assess readiness to create an efficient, comfortable, well-maintained home across six dimensions: priorities, organization systems, routines, maintenance planning, roles/tools, and sustainability.
 
-## Quick Home Management Prompt
+## 🚀 Quick Assessment Prompt
 
-Create a home management system for my [home type - apartment/house] with [household size - single/couple/family]. My biggest challenges are [clutter/cleaning/maintenance/organization]. Design a weekly cleaning schedule, seasonal maintenance calendar, room-by-room organization strategy for [problem areas], and daily habits to maintain order. Include a decluttering action plan and systems that work for [lifestyle - busy professional/family with kids/work from home].
+> Assess **home management readiness** for **{HOUSEHOLD_PROFILE}** aiming for **{HOME_GOALS}** within **{CONSTRAINTS}**. Score each dimension **1–5**, justify scores, and provide a prioritized 30-day plan (weekly cadence + checklists). Include metrics that make the system self-correcting.
 
-## Quick Start
-
-Feeling overwhelmed by home management? Start with these high-impact habits:
-
-1. Adopt the "one-touch rule": When you pick something up, put it in its proper place immediately (not "somewhere for now")
-2. Set up a 15-minute daily reset: Every evening, spend 15 minutes tidying main living areas—consistency beats perfection
-3. Create a simple maintenance calendar: Set four annual reminders to change HVAC filters (one per season) and test smoke detectors
-4. Establish a donation station: Keep a box in your closet—when it's full, schedule a donation drop-off
-5. Use the "one in, one out" rule: When you buy something new, remove something old to prevent clutter accumulation
-
-Reality check: A perfectly organized home all the time isn't the goal. The goal is creating systems that help your home support your life, not consume it. Start with one room or one habit, master it, then expand.
+---
 
 ## Template
 
-```
-You are a home management expert. Create [HOME_MANAGEMENT_SYSTEM] for [HOUSEHOLD_TYPE] managing [HOME_SIZE] using [ORGANIZATION_APPROACH] to achieve [HOME_GOALS] through [MANAGEMENT_STRATEGIES] over [IMPLEMENTATION_TIMELINE].
+Conduct a home management readiness assessment for {HOUSEHOLD_PROFILE} aiming for {HOME_GOALS} within {CONSTRAINTS}.
 
-HOME MANAGEMENT FRAMEWORK:
-Household Type: [HOUSEHOLD_TYPE]
-Home Size: [HOME_SIZE]
-Family Composition: [FAMILY_COMPOSITION]
-Lifestyle Needs: [LIFESTYLE_REQUIREMENTS]
-Home Goals: [HOME_GOALS]
-Management Approach: [ORGANIZATION_APPROACH]
-Timeline: [IMPLEMENTATION_TIMELINE]
-Budget: [HOME_MANAGEMENT_BUDGET]
+Score each dimension 1–5:
 
-### HOME ORGANIZATION SYSTEMS
-Room-by-Room Organization: [ROOM_ORGANIZATION_STRATEGY]
-Kitchen Organization: [KITCHEN_ORGANIZATION_SYSTEM]
-- Pantry organization: [PANTRY_STORAGE_SYSTEM]
-- Cabinet organization: [KITCHEN_CABINET_ORGANIZATION]
-- Refrigerator organization: [FRIDGE_ORGANIZATION_SYSTEM]
-- Countertop management: [COUNTER_SPACE_OPTIMIZATION]
-- Cooking utensil storage: [UTENSIL_ORGANIZATION]
-- Small appliance storage: [APPLIANCE_STORAGE_SOLUTIONS]
+**1) PRIORITIES & SCOPE CLARITY**
+- Clear definition of “good enough” (what matters vs what can slip)
+- Known pain points and high-friction zones (kitchen, entry, laundry, papers)
+- Constraints acknowledged (time, energy, health, household complexity)
 
-Living Area Organization: [LIVING_SPACE_ORGANIZATION]
-- Furniture arrangement: [FURNITURE_LAYOUT_OPTIMIZATION]
-- Storage solutions: [LIVING_ROOM_STORAGE_SYSTEMS]
-- Entertainment center: [MEDIA_ORGANIZATION]
-- Book and magazine storage: [READING_MATERIAL_ORGANIZATION]
-- Toy organization: [LIVING_ROOM_TOY_STORAGE]
-- Remote control management: [REMOTE_ORGANIZATION_SYSTEM]
+**2) ORGANIZATION SYSTEMS (SPACE + STORAGE)**
+- Logical homes for common items (point-of-use storage)
+- Containers/labels used to reduce decision fatigue
+- Intake control (mail, packages, shopping) to prevent re-cluttering
 
-Bedroom Organization: [BEDROOM_ORGANIZATION_SYSTEMS]
-- Closet organization: [CLOSET_ORGANIZATION_STRATEGY]
-- Dresser organization: [DRESSER_DRAWER_ORGANIZATION]
-- Under-bed storage: [UNDER_BED_STORAGE_SOLUTIONS]
-- Nightstand organization: [BEDSIDE_ORGANIZATION]
-- Seasonal clothing storage: [SEASONAL_CLOTHING_MANAGEMENT]
-- Jewelry and accessories: [ACCESSORY_ORGANIZATION]
+**3) ROUTINES & HABITS (CLEANING + RESET)**
+- Simple daily reset and weekly rhythm (minimal viable version exists)
+- Task chunking (what must happen daily/weekly/monthly)
+- Friction reduction (checklists, timers, “closing duties”)
 
-Bathroom Organization: [BATHROOM_ORGANIZATION_SYSTEM]
-- Medicine cabinet: [MEDICINE_CABINET_ORGANIZATION]
-- Under-sink storage: [BATHROOM_CABINET_ORGANIZATION]
-- Shower/tub organization: [BATH_PRODUCT_ORGANIZATION]
-- Linen closet: [BATHROOM_LINEN_ORGANIZATION]
-- Toiletry organization: [PERSONAL_CARE_ORGANIZATION]
-- Cleaning supply storage: [BATHROOM_CLEANING_STORAGE]
+**4) MAINTENANCE PLANNING**
+- Preventive maintenance calendar (seasonal and annual)
+- Tracking system for warranties, filters, service providers
+- Issue triage (what to fix now vs later)
 
-### DECLUTTERING STRATEGIES
-Decluttering Process: [DECLUTTERING_METHODOLOGY]
-- Assessment phase: [HOME_CLUTTER_ASSESSMENT]
-- Sorting system: [ITEM_SORTING_PROCESS]
-- Decision-making framework: [KEEP_DONATE_DISCARD_SYSTEM]
-- Sentimental item management: [SENTIMENTAL_ITEM_HANDLING]
-- Paper decluttering: [PAPER_MANAGEMENT_SYSTEM]
-- Digital decluttering: [DIGITAL_FILE_ORGANIZATION]
+**5) ROLES, ACCOUNTABILITY & TOOLS**
+- Clear ownership (who does what, when) and fair workload
+- Tools support execution (shared calendar, task list, reminders)
+- Budget alignment (supplies, repairs, outsourcing where needed)
 
-Decluttering Schedule: [DECLUTTERING_TIMELINE]
-- Daily decluttering: [DAILY_DECLUTTERING_HABITS]
-- Weekly decluttering: [WEEKLY_DECLUTTERING_TASKS]
-- Seasonal decluttering: [SEASONAL_DECLUTTERING_SCHEDULE]
-- Annual deep decluttering: [YEARLY_DECLUTTERING_PROJECTS]
-- Room rotation schedule: [ROOM_DECLUTTERING_ROTATION]
-- Maintenance systems: [DECLUTTERING_MAINTENANCE]
-
-Donation and Disposal: [ITEM_REMOVAL_STRATEGY]
-- Donation scheduling: [DONATION_DROP_OFF_SCHEDULE]
-- Charity selection: [DONATION_ORGANIZATION_SELECTION]
-- Recycling protocols: [RECYCLING_MANAGEMENT_SYSTEM]
-- Hazardous waste disposal: [HAZARDOUS_MATERIAL_DISPOSAL]
-- Electronics disposal: [ELECTRONIC_WASTE_MANAGEMENT]
-- Document destruction: [SENSITIVE_DOCUMENT_DISPOSAL]
-
-### HOME MAINTENANCE SCHEDULING
-Preventive Maintenance: [HOME_MAINTENANCE_CALENDAR]
-Monthly Tasks: [MONTHLY_MAINTENANCE_CHECKLIST]
-- HVAC filter replacement: [HVAC_FILTER_SCHEDULE]
-- Smoke detector testing: [SMOKE_DETECTOR_MAINTENANCE]
-- Water softener maintenance: [WATER_SYSTEM_MAINTENANCE]
-- Garbage disposal cleaning: [GARBAGE_DISPOSAL_CARE]
-- Drain maintenance: [DRAIN_CLEANING_SCHEDULE]
-- Appliance cleaning: [APPLIANCE_MAINTENANCE_SCHEDULE]
-
-Seasonal Tasks: [SEASONAL_MAINTENANCE_SCHEDULE]
-Spring Maintenance: [SPRING_HOME_TASKS]
-- Gutter cleaning: [GUTTER_MAINTENANCE_SCHEDULE]
-- Exterior washing: [EXTERIOR_CLEANING_SCHEDULE]
-- Lawn care startup: [SPRING_YARD_PREPARATION]
-- Window cleaning: [WINDOW_CLEANING_SCHEDULE]
-- Deck/patio maintenance: [OUTDOOR_SPACE_MAINTENANCE]
-- Garden preparation: [GARDEN_SEASONAL_PREP]
-
-Summer Maintenance: [SUMMER_HOME_TASKS]
-- Air conditioning maintenance: [AC_SUMMER_MAINTENANCE]
-- Pool maintenance: [POOL_CARE_SCHEDULE]
-- Outdoor equipment care: [OUTDOOR_EQUIPMENT_MAINTENANCE]
-- Pest control: [SUMMER_PEST_MANAGEMENT]
-- Irrigation system check: [SPRINKLER_SYSTEM_MAINTENANCE]
-- Outdoor furniture care: [PATIO_FURNITURE_MAINTENANCE]
-
-Fall Maintenance: [FALL_HOME_TASKS]
-- Heating system preparation: [HEATING_SYSTEM_PREP]
-- Winterization tasks: [HOME_WINTERIZATION_CHECKLIST]
-- Leaf management: [FALL_YARD_CLEANUP]
-- Weather stripping: [INSULATION_MAINTENANCE]
-- Chimney cleaning: [CHIMNEY_MAINTENANCE_SCHEDULE]
-- Winter equipment preparation: [WINTER_EQUIPMENT_PREP]
-
-Winter Maintenance: [WINTER_HOME_TASKS]
-- Snow removal planning: [SNOW_REMOVAL_STRATEGY]
-- Ice dam prevention: [ICE_DAM_PREVENTION]
-- Indoor air quality: [WINTER_AIR_QUALITY_MANAGEMENT]
-- Humidity control: [WINTER_HUMIDITY_MANAGEMENT]
-- Emergency preparedness: [WINTER_EMERGENCY_PREPARATION]
-- Indoor project planning: [WINTER_INDOOR_PROJECTS]
-
-### HOUSEHOLD MANAGEMENT SYSTEMS
-Cleaning Schedules: [HOUSE_CLEANING_SYSTEM]
-Daily Cleaning: [DAILY_CLEANING_ROUTINE]
-- Morning cleaning routine: [MORNING_TIDYING_ROUTINE]
-- Kitchen daily maintenance: [DAILY_KITCHEN_CLEANING]
-- Bathroom daily maintenance: [DAILY_BATHROOM_MAINTENANCE]
-- Living area tidying: [DAILY_LIVING_SPACE_MAINTENANCE]
-- Laundry management: [DAILY_LAUNDRY_ROUTINE]
-- Evening cleaning routine: [EVENING_CLEANING_TASKS]
-
-Weekly Cleaning: [WEEKLY_CLEANING_SCHEDULE]
-- Deep kitchen cleaning: [WEEKLY_KITCHEN_DEEP_CLEAN]
-- Bathroom deep cleaning: [WEEKLY_BATHROOM_DEEP_CLEAN]
-- Bedroom cleaning: [WEEKLY_BEDROOM_CLEANING]
-- Living area deep cleaning: [WEEKLY_LIVING_AREA_CLEANING]
-- Floor care: [WEEKLY_FLOOR_MAINTENANCE]
-- Laundry completion: [WEEKLY_LAUNDRY_COMPLETION]
-
-Monthly Deep Cleaning: [MONTHLY_CLEANING_TASKS]
-- Appliance deep cleaning: [MONTHLY_APPLIANCE_CLEANING]
-- Window cleaning: [MONTHLY_WINDOW_MAINTENANCE]
-- Baseboard and trim: [MONTHLY_DETAIL_CLEANING]
-- Light fixture cleaning: [MONTHLY_FIXTURE_CLEANING]
-- Closet organization: [MONTHLY_CLOSET_MAINTENANCE]
-- Garage/basement cleaning: [MONTHLY_STORAGE_AREA_CLEANING]
-
-### FAMILY COORDINATION
-Household Task Distribution: [FAMILY_CHORE_SYSTEM]
-- Age-appropriate tasks: [AGE_BASED_CHORE_ASSIGNMENTS]
-- Chore rotation system: [CHORE_ROTATION_SCHEDULE]
-- Accountability systems: [CHORE_COMPLETION_TRACKING]
-- Reward systems: [CHORE_INCENTIVE_PROGRAMS]
-- Family meetings: [HOUSEHOLD_FAMILY_MEETINGS]
-- Conflict resolution: [CHORE_DISPUTE_RESOLUTION]
-
-Family Calendar Management: [HOUSEHOLD_SCHEDULING]
-- Master family calendar: [FAMILY_CALENDAR_SYSTEM]
-- Activity coordination: [FAMILY_ACTIVITY_SCHEDULING]
-- Appointment management: [FAMILY_APPOINTMENT_COORDINATION]
-- School schedule integration: [SCHOOL_CALENDAR_INTEGRATION]
-- Work schedule coordination: [WORK_FAMILY_SCHEDULE_BALANCE]
-- Social event planning: [FAMILY_SOCIAL_CALENDAR]
-
-Communication Systems: [FAMILY_COMMUNICATION]
-- Family message center: [HOUSEHOLD_MESSAGE_SYSTEM]
-- Digital communication: [FAMILY_COMMUNICATION_APPS]
-- Emergency information: [FAMILY_EMERGENCY_INFORMATION]
-- Contact information: [FAMILY_CONTACT_MANAGEMENT]
-- Important document location: [FAMILY_DOCUMENT_SYSTEM]
-- Household rules and guidelines: [FAMILY_HOUSEHOLD_RULES]
-
-### STORAGE AND INVENTORY
-Storage Solutions: [HOME_STORAGE_SYSTEMS]
-- Closet storage systems: [CLOSET_STORAGE_OPTIMIZATION]
-- Garage organization: [GARAGE_STORAGE_SOLUTIONS]
-- Basement storage: [BASEMENT_ORGANIZATION_SYSTEM]
-- Attic storage: [ATTIC_STORAGE_MANAGEMENT]
-- Under-stair storage: [UNDER_STAIR_ORGANIZATION]
-- Built-in storage solutions: [CUSTOM_STORAGE_PLANNING]
-
-Inventory Management: [HOUSEHOLD_INVENTORY_SYSTEM]
-- Food inventory: [PANTRY_INVENTORY_TRACKING]
-- Household supply inventory: [CLEANING_SUPPLY_INVENTORY]
-- Emergency supply inventory: [EMERGENCY_SUPPLY_TRACKING]
-- Tool inventory: [TOOL_INVENTORY_MANAGEMENT]
-- Seasonal item inventory: [SEASONAL_ITEM_TRACKING]
-- Important document inventory: [DOCUMENT_INVENTORY_SYSTEM]
-
-Shopping and Procurement: [HOUSEHOLD_PURCHASING]
-- Grocery shopping system: [GROCERY_SHOPPING_OPTIMIZATION]
-- Bulk buying strategies: [BULK_PURCHASE_MANAGEMENT]
-- Household supply management: [SUPPLY_REPLENISHMENT_SYSTEM]
-- Budget management: [HOUSEHOLD_BUDGET_TRACKING]
-- Vendor management: [SERVICE_PROVIDER_MANAGEMENT]
-- Online shopping coordination: [ONLINE_PURCHASE_MANAGEMENT]
-
-### HOME IMPROVEMENT PROJECTS
-Project Planning: [HOME_IMPROVEMENT_PLANNING]
-- Project prioritization: [HOME_PROJECT_PRIORITY_RANKING]
-- Budget allocation: [HOME_IMPROVEMENT_BUDGETING]
-- Timeline development: [PROJECT_TIMELINE_PLANNING]
-- Contractor selection: [CONTRACTOR_SELECTION_PROCESS]
-- Permit management: [BUILDING_PERMIT_MANAGEMENT]
-- Material sourcing: [HOME_IMPROVEMENT_MATERIAL_SOURCING]
-
-DIY Project Management: [DIY_PROJECT_COORDINATION]
-- Skill assessment: [DIY_SKILL_EVALUATION]
-- Tool requirements: [DIY_TOOL_INVENTORY]
-- Safety protocols: [DIY_SAFETY_PROCEDURES]
-- Tutorial resources: [DIY_LEARNING_RESOURCES]
-- Project documentation: [DIY_PROJECT_DOCUMENTATION]
-- Quality control: [DIY_QUALITY_ASSURANCE]
-
-Renovation Coordination: [MAJOR_RENOVATION_MANAGEMENT]
-- Planning phase: [RENOVATION_PLANNING_PROCESS]
-- Living arrangements: [RENOVATION_LIVING_ARRANGEMENTS]
-- Timeline management: [RENOVATION_SCHEDULE_COORDINATION]
-- Budget oversight: [RENOVATION_BUDGET_MANAGEMENT]
-- Quality inspection: [RENOVATION_QUALITY_CONTROL]
-- Final walkthrough: [RENOVATION_COMPLETION_PROCESS]
-
-### ENERGY AND SUSTAINABILITY
-Energy Efficiency: [HOME_ENERGY_OPTIMIZATION]
-- Energy audit: [HOME_ENERGY_ASSESSMENT]
-- Insulation optimization: [HOME_INSULATION_IMPROVEMENT]
-- Window efficiency: [WINDOW_ENERGY_OPTIMIZATION]
-- Appliance efficiency: [ENERGY_EFFICIENT_APPLIANCE_MANAGEMENT]
-- Lighting optimization: [HOME_LIGHTING_EFFICIENCY]
-- HVAC optimization: [HEATING_COOLING_EFFICIENCY]
-
-Sustainability Practices: [HOME_SUSTAINABILITY_PROGRAM]
-- Waste reduction: [HOUSEHOLD_WASTE_MINIMIZATION]
-- Recycling programs: [HOME_RECYCLING_SYSTEM]
-- Water conservation: [WATER_USAGE_OPTIMIZATION]
-- Composting system: [HOME_COMPOSTING_PROGRAM]
-- Green cleaning: [NATURAL_CLEANING_PRODUCT_USE]
-- Sustainable purchasing: [ECO_FRIENDLY_PRODUCT_SELECTION]
-
-### HOME SECURITY AND SAFETY
-Security Systems: [HOME_SECURITY_MANAGEMENT]
-- Alarm system management: [SECURITY_SYSTEM_MAINTENANCE]
-- Lock maintenance: [HOME_LOCK_SECURITY]
-- Lighting for security: [SECURITY_LIGHTING_SYSTEM]
-- Landscape security: [SECURITY_LANDSCAPING]
-- Window security: [WINDOW_SECURITY_MEASURES]
-- Garage security: [GARAGE_SECURITY_SYSTEM]
-
-Safety Protocols: [HOME_SAFETY_SYSTEMS]
-- Fire safety: [FIRE_SAFETY_PROTOCOL]
-- Carbon monoxide safety: [CO_SAFETY_SYSTEM]
-- Emergency preparedness: [HOME_EMERGENCY_PLANNING]
-- Child safety: [CHILD_SAFETY_HOME_MEASURES]
-- Pet safety: [PET_SAFETY_PROTOCOLS]
-- First aid preparedness: [HOME_FIRST_AID_SYSTEM]
-
-### TECHNOLOGY INTEGRATION
-Smart Home Systems: [SMART_HOME_MANAGEMENT]
-- Home automation: [HOME_AUTOMATION_SYSTEM]
-- Smart appliances: [SMART_APPLIANCE_COORDINATION]
-- Security technology: [SMART_SECURITY_SYSTEM]
-- Energy monitoring: [SMART_ENERGY_MONITORING]
-- Climate control: [SMART_THERMOSTAT_MANAGEMENT]
-- Lighting control: [SMART_LIGHTING_SYSTEM]
-
-Digital Home Management: [DIGITAL_HOME_ORGANIZATION]
-- Home management apps: [HOME_MANAGEMENT_APP_INTEGRATION]
-- Digital documentation: [DIGITAL_HOME_DOCUMENT_SYSTEM]
-- Online service coordination: [DIGITAL_SERVICE_MANAGEMENT]
-- Smart shopping lists: [DIGITAL_SHOPPING_LIST_SYSTEM]
-- Home monitoring: [REMOTE_HOME_MONITORING]
-- Energy usage tracking: [DIGITAL_ENERGY_TRACKING]
-
-Complete home management strategy with comprehensive organization, maintenance systems, and efficient household operations for optimal living environment.
-
-Final Home Management Plan: [COMPLETE_HOME_MANAGEMENT_STRATEGY]
+**6) SUSTAINABILITY & WELLBEING**
+- System is realistic with life variability (busy weeks, travel, illness)
+- Boundary setting (standards, visitors, “not now” rules)
+- Recovery built in (avoid perfectionism and burnout)
 
 ---
 
-### Home Management Effectiveness Check
-✓ Organization system efficiency: [ORGANIZATION_SYSTEM_EFFECTIVENESS]
-✓ Maintenance schedule adherence: [MAINTENANCE_SCHEDULE_SUCCESS]
-✓ Family coordination: [HOUSEHOLD_COORDINATION_SUCCESS]
-✓ Cost management: [HOME_BUDGET_MANAGEMENT_SUCCESS]
-✓ Sustainability integration: [SUSTAINABLE_HOME_PRACTICES_SUCCESS]
+## Required Output Format
 
-Home management quality: [HOME_MANAGEMENT_RATING]
-```
+1) **EXECUTIVE SUMMARY**
+- Overall readiness score (average of 6)
+- Maturity level (per scale below)
+- Top 3 priorities for the next 30 days
 
-## Variables
-[400+ variables for home management including organization systems, maintenance schedules, family coordination, project management, and sustainability practices]
+2) **DIMENSION SCORECARD**
+- Table: dimension | score (/5) | key evidence | primary constraint
 
-## Usage Examples
+3) **AREA READINESS (ROOMS / ZONES)**
+- Entry, kitchen, bathroom(s), bedroom(s), laundry, paperwork/admin, storage
+- For each: current friction, quick win, “definition of done”
 
-## Best Practices
+4) **GAP ANALYSIS**
+- Top 5 gaps ranked by impact × urgency
+- Each gap: symptom → likely cause → corrective action
 
-1. **Start with clear objectives** - Define what success looks like before beginning
-2. **Use data to inform decisions** - Base choices on evidence and measurable outcomes
-3. **Iterate and improve continuously** - Treat implementation as an ongoing process
-4. **Engage stakeholders early** - Include key participants in planning and execution
-5. **Document thoroughly** - Maintain clear records for reference and knowledge transfer
-6. **Communicate regularly** - Keep all parties informed of progress and changes
-7. **Address challenges proactively** - Identify potential issues before they become problems
-8. **Celebrate milestones** - Recognize achievements to maintain motivation
-9. **Learn from experience** - Reflect on what works and adjust accordingly
-10. **Stay flexible** - Be ready to adapt based on feedback and changing circumstances
+5) **30-DAY HOME RESET PLAN**
+- Week 1–4 cadence with specific tasks
+- Include: daily reset, weekly routine, maintenance starter calendar
 
-## Tips for Success
+6) **SUCCESS METRICS**
+- Baseline vs 30-day targets for: daily reset completion rate, laundry backlog days, clutter hotspots, maintenance reminders set, time spent per week
 
-- Break complex tasks into manageable steps with clear milestones
-- Set realistic timelines that account for dependencies and constraints
-- Allocate sufficient resources including time, budget, and personnel
-- Use templates and frameworks to ensure consistency and quality
-- Seek feedback from users and stakeholders throughout the process
-- Build in checkpoints to assess progress and make adjustments
-- Maintain quality standards while remaining practical and efficient
-- Document lessons learned for future reference and improvement
-- Foster collaboration across teams and departments
-- Stay current with industry best practices and emerging trends
-### Example 1: Growing Family Home
-```
-HOME_MANAGEMENT_SYSTEM: "Comprehensive family home organization system"
-HOUSEHOLD_TYPE: "Growing family with young children"
-HOME_SIZE: "4-bedroom suburban home with garage and yard"
-ORGANIZATION_APPROACH: "Family-friendly systems with child safety and accessibility"
-HOME_GOALS: "Organized, safe, and functional family living space"
-MANAGEMENT_STRATEGIES: "Room-by-room organization, chore systems, maintenance schedules"
-IMPLEMENTATION_TIMELINE: "6-month systematic implementation with ongoing maintenance"
-```
+---
 
-### Example 2: Busy Professional Household
-```
-HOME_MANAGEMENT_SYSTEM: "Efficient low-maintenance home management"
-HOUSEHOLD_TYPE: "Dual-career professional couple"
-HOME_SIZE: "2-bedroom condo with minimal storage"
-ORGANIZATION_APPROACH: "Minimalist organization with automation and outsourcing"
-HOME_GOALS: "Low-maintenance, highly efficient living space"
-MANAGEMENT_STRATEGIES: "Streamlined systems, smart home integration, service providers"
-IMPLEMENTATION_TIMELINE: "3-month rapid implementation with automated maintenance"
-```
+## Maturity Scale
+- 1.0–1.9: Initial (ad-hoc, reactive)
+- 2.0–2.9: Developing (some routines, significant gaps)
+- 3.0–3.9: Defined (repeatable system, occasional breakdowns)
+- 4.0–4.9: Managed (consistent upkeep, low friction)
+- 5.0: Optimized (self-maintaining home flywheel)
 
-## Customization Options
+---
 
-1. **Home Management Systems**
-   - Family home organization
-   - Minimalist home management
-   - Large home coordination
-   - Small space optimization
-   - Multi-generational homes
-   - Rental property management
-   - Vacation home management
-   - Senior-friendly systems
+## Variables (max 3)
 
-2. **Household Types**
-   - Young families
-   - Empty nesters
-   - Single professionals
-   - Retired couples
-   - Multi-generational families
-   - Roommate households
-   - Single parents
-   - Remote workers
+| Variable | What to provide | Examples |
+|---|---|---|
+| {HOUSEHOLD_PROFILE} | Household + home context | “Couple + toddler in 2BR apartment, both working” |
+| {HOME_GOALS} | Desired outcomes | “Reduce clutter, keep kitchen reset nightly, stay on maintenance” |
+| {CONSTRAINTS} | Limits to respect | “30 min/day weekdays, 2 hrs/weekend, low energy, $50/month supplies” |
 
-3. **Organization Approaches**
-   - Room-by-room systematic
-   - Minimalist organization
-   - Family-centered systems
-   - Professional organizing
-   - DIY organization
-   - Technology-enhanced
-   - Budget-conscious
-   - Eco-friendly systems
+---
 
-4. **Home Goals**
-   - Maximum organization
-   - Low maintenance
-   - Family functionality
-   - Entertainment readiness
-   - Energy efficiency
-   - Space optimization
-   - Safety maximization
-   - Aesthetic enhancement
+## Example (filled)
+
+**Input**
+- {HOUSEHOLD_PROFILE}: Couple + toddler in 2BR apartment; both work full-time; laundry piles up; entryway clutter
+- {HOME_GOALS}: A calm home with a 15-minute nightly reset, weekly cleaning rhythm, and basic maintenance reminders
+- {CONSTRAINTS}: 20–30 min weekdays; 2 hours on Sunday; low tolerance for complex systems
+
+**Output**
+
+1) **EXECUTIVE SUMMARY**
+- Overall readiness score: 3.0/5
+- Maturity level: Defined
+- Top 3 priorities: (1) create “homes” for entry + kitchen, (2) implement nightly reset, (3) set a maintenance reminder calendar
+
+2) **DIMENSION SCORECARD**
+| Dimension | Score | Key evidence | Primary constraint |
+|---|---:|---|---|
+| Priorities & Scope Clarity | 3.5 | Clear goals and pain points | Limited time |
+| Organization Systems | 2.5 | No defined homes for drop zones | Intake clutter |
+| Routines & Habits | 3.0 | Motivation for nightly reset | Inconsistent follow-through |
+| Maintenance Planning | 2.0 | No calendar or tracking | Forgetfulness |
+| Roles & Tools | 3.0 | Cooperative household | No shared task system |
+| Sustainability & Wellbeing | 4.0 | Wants “good enough” | Overwhelm risk |
+
+3) **AREA READINESS (ROOMS / ZONES)**
+- Entry: friction = shoes/mail/bags; quick win = 1 bin + hooks; done = floor clear nightly
+- Kitchen: friction = dishes + counters; quick win = “close the kitchen” checklist; done = sink empty 4/7 nights
+- Laundry: friction = piles; quick win = 2-bin sorting; done = 2 loads/week scheduled
+- Paperwork: friction = unopened mail; quick win = 10-min weekly sort; done = “action” folder under control
+
+4) **GAP ANALYSIS**
+- Gap 1: Drop zones multiply → no point-of-use storage → add one container per hotspot
+- Gap 2: Nightly reset fails → too big → cap to 15 minutes + checklist
+- Gap 3: Laundry backlog → no cadence → schedule fixed days + minimum loads
+- Gap 4: Maintenance forgotten → no reminders → set seasonal calendar now
+- Gap 5: Friction spikes → no fallback → define “minimum viable week” routine
+
+5) **30-DAY HOME RESET PLAN**
+- Week 1: set entry + kitchen homes; start nightly reset (15 min)
+- Week 2: add laundry cadence; create Sunday 2-hour block list
+- Week 3: tackle paperwork/admin (10 min/week); refine checklists
+- Week 4: set seasonal maintenance reminders; prune what isn’t working
+
+6) **SUCCESS METRICS**
+- Nightly reset completion: 0% → 60% (4 nights/week)
+- Kitchen reset: 1/7 → 4/7 nights
+- Laundry backlog: 7+ days → ≤2 days
+- Maintenance reminders set: 0 → 12 (monthly/seasonal)
+- Weekly time spent: unknown → ≤2.5 hours/week average
+
+---
+
+## Best Practices (exactly 8)
+
+1) **Design for the “average bad day”** — systems must work when you’re tired.
+2) **Use point-of-use storage** — store items where you use them, not where they “should” go.
+3) **Protect the entry and kitchen first** — these two zones determine perceived chaos.
+4) **Default to a nightly reset** — small daily effort beats weekend marathons.
+5) **Separate routines from projects** — cleaning cadence is different from decluttering.
+6) **Make ownership explicit** — unclear responsibility is a hidden failure mode.
+7) **Automate reminders** — calendars beat memory for maintenance.
+8) **Review monthly and simplify** — remove steps you consistently skip.

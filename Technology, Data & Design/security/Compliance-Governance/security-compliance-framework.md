@@ -1,6 +1,5 @@
 ---
 category: security
-last_updated: 2025-11-11
 title: Security Compliance Framework (SOC 2, ISO 27001, HIPAA, PCI-DSS)
 tags:
 - security
@@ -8,19 +7,20 @@ tags:
 - iso27001
 - compliance-audit
 use_cases:
-- Achieving SOC 2, ISO 27001, HIPAA, or PCI-DSS compliance
-- Building security compliance program from scratch
-- Preparing for security audits and assessments
-- Maintaining continuous compliance posture
+- Achieving SOC 2 Type II compliance for SaaS platforms with Trust Services Criteria (Security, Availability, Confidentiality), implementing controls, collecting 6-12 month evidence, preparing for auditor assessment
+- Building ISO 27001 ISMS from scratch with risk assessment, Statement of Applicability, 93 Annex A controls, internal audits, achieving certification in 9-15 months
+- Implementing HIPAA administrative/physical/technical safeguards for healthcare organizations, protecting ePHI, establishing BAAs, breach notification procedures
+- Achieving PCI-DSS compliance for payment processors with network segmentation, CDE hardening, quarterly ASV scans, annual pentests, QSA validation
 related_templates:
 - security/Cybersecurity/security-audit.md
 - security/Cloud-Security/cloud-security-architecture.md
+- security/Cybersecurity/cybersecurity-compliance-management.md
 industries:
 - finance
 - government
 - healthcare
 - technology
-type: template
+type: framework
 difficulty: intermediate
 slug: security-compliance-framework
 ---
@@ -28,347 +28,75 @@ slug: security-compliance-framework
 # Security Compliance Framework
 
 ## Purpose
-Comprehensive framework for achieving and maintaining security compliance (SOC 2, ISO 27001, HIPAA, PCI-DSS) including control implementation, evidence collection, audit preparation, and continuous compliance monitoring.
+Comprehensive framework for achieving and maintaining security compliance (SOC 2, ISO 27001, HIPAA, PCI-DSS) including control implementation, evidence collection, audit preparation, and continuous compliance monitoring for organizations seeking certification or customer trust validation.
 
-## Quick Compliance Prompt
-Achieve [SOC 2/ISO 27001/HIPAA/PCI-DSS] compliance for [organization type] with [X employees], [Y systems]. Perform gap analysis against [framework] requirements. Create: control implementation roadmap, policy templates (security, access control, incident response), evidence collection procedures, audit preparation checklist, and continuous compliance monitoring plan. Timeline: [X months] to certification.
+## 🚀 Quick Compliance Prompt
 
-## Quick Start
-
-**Need to achieve compliance quickly?** Use this minimal example:
-
-### Minimal Example
-```
-Guide us through SOC 2 Type II compliance for our SaaS platform, implementing required security controls for Trust Services Criteria (Security, Availability, Confidentiality), establishing evidence collection processes, and preparing for auditor assessment.
-```
-
-### When to Use This
-- Starting compliance journey from zero
-- Preparing for first compliance audit
-- Maintaining ongoing compliance
-- Responding to customer security questionnaires
-- Meeting contractual security requirements
-
-### Basic 3-Step Workflow
-1. **Gap Analysis** - Assess current state against requirements (1-2 weeks)
-2. **Implement Controls** - Deploy required security controls (2-6 months)
-3. **Audit & Certification** - Evidence collection and auditor review (1-3 months)
-
-**Time to complete**: 6-12 months for initial certification, ongoing maintenance
+> Achieve **{SOC_2/ISO_27001/HIPAA/PCI-DSS}** compliance for **{ORGANIZATION_TYPE}** with **{X_EMPLOYEES}**, **{Y_SYSTEMS}**, handling **{DATA_TYPE}**. Gap analysis against **{FRAMEWORK}** requirements. Deliver: control implementation roadmap, policy templates (security, access control, incident response, BCP), evidence collection procedures, audit preparation checklist, continuous monitoring plan. Timeline: **{X_MONTHS}** to certification.
 
 ---
 
 ## Template
 
-```markdown
-I need to achieve security compliance. Please provide comprehensive compliance implementation guidance.
+Achieve {COMPLIANCE_FRAMEWORK} compliance for {INDUSTRY} organization ({EMPLOYEE_COUNT} employees, {CUSTOMER_COUNT} customers, {DATA_TYPES} data) with {BUSINESS_DRIVER} driving compliance within {TIMELINE_MONTHS} months.
 
-## COMPLIANCE CONTEXT
+**FRAMEWORK-SPECIFIC IMPLEMENTATION**
 
-### Target Framework
-- Framework: [SOC2_TYPE_I_TYPE_II_ISO27001_HIPAA_PCI_DSS_NIST_CSF_GDPR]
-- Trust Services Criteria: [SECURITY_AVAILABILITY_PROCESSING_INTEGRITY_CONFIDENTIALITY_PRIVACY]
-- Timeline: [TARGET_COMPLETION_DATE]
-- Business drivers: [CUSTOMER_REQUIREMENT_SALES_ENABLER_RISK_REDUCTION]
+SOC 2 Type II—Common Criteria: CC1 Control Environment (board oversight, ethics, organizational structure, accountability), CC2 Communication (internal/external processes, quality of information), CC3 Risk Assessment (risk identification, fraud assessment, change impact), CC4 Monitoring (ongoing evaluations, deficiency remediation), CC5 Control Activities (control selection, technology controls, policy deployment), CC6 Logical/Physical Access (access controls, removal processes), CC7 System Operations (change management, configuration, incident response, backup/recovery), CC8 Change Management (authorization, infrastructure maintenance), CC9 Risk Mitigation (vendor management, business continuity). Additional Criteria: A1 Availability (uptime monitoring, incident response, disaster recovery, SLAs), C1 Confidentiality (data classification, encryption, retention, secure disposal), P1 Privacy (notice, choice, collection, use, access, disclosure, retention, quality, monitoring). Evidence Requirements: 6-12 month operating history (Type II vs Type I point-in-time), documented policies/procedures, control implementation evidence (screenshots, logs, configurations), testing evidence, management assertions, independent auditor testing (sampling 25-60 items per control). Auditor Selection: AICPA-licensed CPA firm, industry experience (SaaS/healthcare/fintech), report turnaround time (4-8 weeks post-fieldwork), cost ($15K-$75K depending on scope/complexity).
 
-### Organization Profile
-- Industry: [SAAS_HEALTHCARE_FINTECH_ECOMMERCE_ENTERPRISE_SOFTWARE]
-- Company size: [EMPLOYEES_CUSTOMERS_REVENUE]
-- Data handled: [PII_PHI_PCI_FINANCIAL_PROPRIETARY]
-- Geographic scope: [US_EU_GLOBAL]
-- Existing certifications: [NONE_OR_LIST]
+ISO 27001 ISMS—Risk-Based Approach: Establish context (scope, boundaries, interested parties), leadership commitment (ISMS policy, roles/responsibilities, resources), planning (risk assessment methodology, risk treatment plan, objectives), support (competence, awareness, communication, documented information), operation (risk assessment execution, risk treatment implementation, operational planning), performance evaluation (monitoring, measurement, internal audit, management review), improvement (nonconformity correction, continual improvement). Annex A Controls (93 controls, 14 domains): A.5 Organizational (policies, roles, segregation of duties), A.6 People (screening, employment terms, awareness, disciplinary), A.7 Physical (perimeter security, entry controls, equipment protection), A.8 Technological (endpoint security, privileged access, authentication, cryptography, backup, logging, malware protection, network security, secure development, security testing). Statement of Applicability: For each Annex A control, justify inclusion/exclusion, reference risk treatment decision, document implementation status. Certification Process: Stage 1 audit (documentation review, 1-2 days), gap remediation (4-8 weeks), Stage 2 audit (on-site control testing, 2-4 days), surveillance audits (annual year 1 and 2), recertification (year 3). Cost: $25K-$150K total (consultant $50-$200/hour, auditor $15K-$50K, tooling $10K-$30K annual).
 
-### Current State
-- Security maturity: [INITIAL_MANAGED_DEFINED_OPTIMIZED]
-- Existing controls: [DESCRIBE_CURRENT_CONTROLS]
-- Documentation: [POLICIES_PROCEDURES_EVIDENCE]
-- Previous audits: [NONE_OR_RESULTS]
-- Gaps identified: [KNOWN_DEFICIENCIES]
+HIPAA Security Rule—Administrative Safeguards (164.308): Security Management Process (risk analysis, risk management, sanction policy, information system activity review), Assigned Security Responsibility (CISO/security officer), Workforce Security (authorization, supervision, termination procedures, access controls), Information Access Management (isolating healthcare clearinghouse functions, access authorization, access establishment/modification), Security Awareness and Training (security reminders, protection from malicious software, log-in monitoring, password management), Security Incident Procedures (response and reporting), Contingency Plan (data backup, disaster recovery, emergency mode operation, testing/revision, applications and data criticality analysis), Evaluation (periodic technical/non-technical evaluation), Business Associate Contracts (written assurances of safeguards). Physical Safeguards (164.310): Facility Access Controls (contingency operations, facility security plan, access control/validation, maintenance records), Workstation Use/Security (policies on functions, physical attributes, proper use), Device and Media Controls (disposal, media re-use, accountability, data backup/storage). Technical Safeguards (164.312): Access Control (unique user identification, emergency access, automatic logoff, encryption/decryption), Audit Controls (hardware/software/procedural mechanisms recording/examining ePHI access), Integrity (ePHI alteration/destruction protection, electronic signatures), Person or Entity Authentication (verify identity claiming to be), Transmission Security (integrity controls, encryption). Breach Notification: <60 days to HHS if ≥500 individuals affected, individual notification within 60 days, annual notification for <500 individuals, business associate notification to covered entity within 60 days. Penalties: $100-$50K per violation (up to $1.5M annual maximum per violation category), criminal penalties (up to $250K fines, 10 years prison for wrongful disclosure with intent to sell/transfer/use for harm).
 
-## FRAMEWORK-SPECIFIC GUIDANCE
+PCI-DSS v4.0—12 Requirements, 6 Control Objectives: Build/Maintain Secure Network (Req 1: Install/maintain network security controls firewall/IDS/IPS, Req 2: Apply secure configurations to all system components, change vendor defaults), Protect Account Data (Req 3: Protect stored account data with encryption AES-256, tokenization, truncation, Req 4: Protect cardholder data with strong cryptography during transmission TLS 1.2+), Maintain Vulnerability Management (Req 5: Protect all systems from malware with anti-virus, Req 6: Develop/maintain secure systems with SDLC security, patch management), Implement Strong Access Control (Req 7: Restrict access to cardholder data by business need-to-know RBAC, Req 8: Identify users and authenticate access with unique IDs, MFA for CDE, Req 9: Restrict physical access to cardholder data), Regularly Monitor/Test Networks (Req 10: Log and monitor all access to system components and cardholder data, retain 1 year minimum 3 months online, Req 11: Test security of systems and networks regularly with quarterly ASV scans, annual penetration testing, Req 12: Support information security with policies, procedures, awareness). Cardholder Data Environment (CDE): In-scope systems (store/process/transmit cardholder data), connected-to systems (network access to CDE), security controls (impact CDE security). SAQ Types: A (card-not-present ecommerce, fully outsourced, 22 questions), A-EP (ecommerce with redirect, 181 questions), B (imprint machines or standalone dial-out terminals, 41 questions), B-IP (standalone IP terminals, 82 questions), C (payment application systems on merchant network, 160 questions), D (all others, full 329 questions). Validation: Level 1 (>6M transactions annual) requires QSA on-site assessment, Level 2-4 (<6M) self-assessment SAQ, quarterly network scans by ASV (Approved Scanning Vendor), annual penetration testing. Cost: $50K-$300K annual (tokenization/encryption infrastructure, quarterly scans $2K-$5K, annual pentest $15K-$40K, QSA assessment $25K-$100K for Level 1).
 
-### SOC 2 Compliance
+**COMPLIANCE IMPLEMENTATION ROADMAP**
 
-**Trust Services Criteria:**
+Planning/Gap Analysis (4-6 weeks)—Select framework based on business drivers (SOC 2 for SaaS sales, ISO 27001 for global enterprise, HIPAA for healthcare, PCI-DSS for payments), define scope (in-scope systems, data flows, geographic boundaries), conduct gap assessment (current vs required controls, quantify gaps as % of total controls), assign roles (compliance program manager, control owners, auditor liaison), create project plan (Gantt chart, milestones, budget $50K-$500K depending on framework/maturity). Tools: Vanta, Drata, SecureFrame (automated compliance platforms $12K-$48K annual), or manual spreadsheets.
 
-**CC1: Control Environment**
-- Demonstrates commitment to integrity and ethical values
-- Board oversight of risk and compliance
-- Organizational structure and assignment of authority
-- Commitment to competence
-- Accountability mechanisms
+Policy/Procedure Development (6-8 weeks)—Write required policies (information security, access control, incident response, business continuity, acceptable use, data classification, vendor management, change management, backup/recovery, cryptography), develop procedures (onboarding/offboarding, access request, incident handling, change approval, vulnerability management), create templates/forms (access request form, change request, incident report, risk assessment, vendor questionnaire), review/approval process (legal, HR, IT, executive sign-off), communication/training (all-hands announcement, policy portal, acknowledgment tracking). Best practice: Start with templates (SANS, NIST, vendor-provided), customize to organization, avoid generic boilerplate (auditors test whether policies are actually followed).
 
-**CC2: Communication & Information**
-- Internal communication processes
-- External communication processes
-- Quality of information for control activities
+Control Implementation (3-6 months)—Technical controls: Deploy MFA (Okta, Duo, Azure AD conditional access), SIEM/logging (Splunk, Datadog, Elastic), encryption (TLS 1.3 in transit, AES-256 at rest, AWS KMS/Azure Key Vault), EDR/antivirus (CrowdStrike, SentinelOne, Microsoft Defender), vulnerability scanning (Tenable, Qualys, Rapid7), backup/DR (automated daily backups, 3-2-1 rule, quarterly restore testing), network segmentation (separate prod/dev, CDE isolation for PCI). Process controls: Quarterly access reviews (certify users still need access, remove within 24 hours of termination), change management (approval workflow, testing, rollback procedures), incident response (runbooks, tabletop exercises quarterly), vendor risk management (annual assessments, contract reviews, SLA monitoring), security awareness training (phishing simulations monthly, annual compliance training, track completion rates). Organizational controls: Security committee (quarterly meetings, risk reviews, policy updates), background checks (all employees, annual for privileged access), role-based access (least privilege, segregation of duties, approval matrix).
 
-**CC3: Risk Assessment**
-- Risk identification and analysis
-- Assessment of fraud risk
-- Changes that could impact controls
+Evidence Collection (3-12 months for SOC 2 Type II)—Establish evidence repository (Google Drive/SharePoint with access controls, version control, retention policies), automate evidence collection (SIEM log exports, access review reports, training completion reports, vulnerability scan results, backup verification, configuration baselines), document control execution (screenshots with timestamps, ticket references, approver names), maintain audit trail (change logs, approval chains, incident timelines), regular control testing (quarterly internal audits, sampling approach, testing worksheets). Automation: Compliance platforms (Vanta, Drata) auto-collect 60-80% of evidence (AWS/GCP/Azure configurations, GitHub commits, HR system data, endpoint compliance), manual evidence (policy approvals, board minutes, training acknowledgments, vendor assessments) requires process discipline.
 
-**CC4: Monitoring Activities**
-- Ongoing and periodic evaluations
-- Remediation of deficiencies
+Audit Preparation (4-8 weeks)—Internal readiness assessment (self-audit against framework requirements, identify gaps, quantify remediation effort), remediate identified gaps (prioritize critical/high findings, defer low/info to post-audit), organize evidence packages (map evidence to control objectives, label clearly, index document), conduct mock audit (external consultant reviews evidence, provides feedback, estimates likelihood of exceptions), select auditor (RFP process, 3-5 bids, evaluate experience/cost/turnaround, check references). Auditor kickoff: Provide PBC (Prepared By Client) list, set fieldwork dates, identify interviewees, establish communication protocol, agree on report format/timing.
 
-**CC5: Control Activities**
-- Selection and development of controls
-- Technology controls
-- Policies and procedures deployment
+Audit Execution (2-4 weeks)—Opening meeting (scope confirmation, timeline review, logistical details), document review (auditor examines policies, procedures, evidence), control testing (sample selection 25-60 items per control, validate control operating effectiveness, interview control owners), interviews (1-hour sessions with 10-20 personnel, validate understanding and execution of controls), management response (address auditor questions, provide supplemental evidence, explain exceptions), closing meeting (preliminary findings, expected exceptions, timeline for final report). Common exceptions: Incomplete access reviews (missing approvals, untimely execution), insufficient evidence (screenshots lack timestamps, logs don't cover full period), policy gaps (procedures not documented, not approved by management), training gaps (personnel not trained within 30 days of hire, no acknowledgment records).
 
-**CC6: Logical & Physical Access**
-- Logical access controls
-- Physical access controls
-- Access removal process
+Continuous Compliance (Ongoing)—Quarterly control reviews (test sample of controls, validate still operating, update evidence), annual risk assessments (identify new risks from business changes, evaluate control effectiveness, update risk treatment plan), policy updates (annual review cycle, update for regulatory changes, version control), training refreshers (annual compliance training, monthly security awareness, phishing simulations), continuous monitoring (automated alerts for control failures, dashboard with compliance metrics, quarterly executive reporting). Surveillance audits: ISO 27001 annual surveillance (1-day audit, samples subset of controls), SOC 2 Type II annual renewal (3-12 month evidence period), PCI-DSS quarterly scans + annual assessment, HIPAA no formal audit but OCR audits 150-200 organizations annually.
 
-**CC7: System Operations**
-- Change management
-- Configuration management
-- Incident management
-- Backup and recovery
+Deliver compliance program as:
 
-**CC8: Change Management**
-- System changes authorization
-- Infrastructure and software maintenance
+1. **GAP ASSESSMENT REPORT** - Current state vs framework requirements, % coverage, prioritized remediation plan
+2. **CONTROL MATRIX** - All controls mapped to framework requirements, implementation status, control owners, testing frequency
+3. **POLICY/PROCEDURE PACKAGE** - 15-25 policies and 30-50 procedures, approved by management, communicated to workforce
+4. **EVIDENCE COLLECTION PLAN** - What evidence, collection method, frequency, responsible party, storage location
+5. **AUDIT READINESS CHECKLIST** - 50-100 item checklist covering all control objectives, status tracking, remediation notes
 
-**CC9: Risk Mitigation**
-- Risk mitigation activities
-- Vendor management
-- Business continuity
+---
 
-**Additional Criteria:**
+## Usage Examples
 
-**Availability (A1):**
-- System availability monitoring
-- Incident response
-- Disaster recovery
-- Service level agreements
+### Example 1: SaaS Startup SOC 2 Type II (Security, Availability)
+**Prompt:** Achieve SOC 2 Type II (Security, Availability) for SaaS HR platform (85 employees, 1,200 customers, PII data, AWS infrastructure, 12-month timeline, customer sales enabler).
 
-**Confidentiality (C1):**
-- Data classification
-- Encryption
-- Data retention
-- Secure disposal
+**Output:** Scope—AWS production environment (ECS containers, RDS PostgreSQL, S3, CloudFront), application code (React frontend, Node.js API), employee endpoints (managed by Jamf, SSO via Okta), exclude development/staging (not customer-facing). Gap Analysis—CC1 Control Environment: Board oversight missing (add security committee quarterly meetings), ethics policy generic (add security-specific code of conduct). CC2 Communication: Internal communication ad-hoc (formalize security@company email, Slack #security channel), external customer communication unclear (add security bulletin process, trust portal). CC3 Risk Assessment: No formal risk assessment (implement annual risk assessment, document in ISMS), fraud risk not addressed (add fraud risk procedures). CC6 Logical Access: MFA enabled for production (good), but not enforced for all employees (enforce Okta MFA for all apps), access reviews manual (automate quarterly with Okta API). CC7 System Operations: Change management informal (implement Jira change request workflow, require approval for prod changes), incident response plan exists but not tested (conduct quarterly tabletop exercises, document in runbooks), backups automated (RDS snapshots daily, S3 versioning) but not tested (add quarterly restore testing). CC9 Vendor Management: No vendor assessments (implement annual vendor risk reviews for critical vendors, require SOC 2 reports, SLA monitoring). A1 Availability: Uptime monitoring exists (Datadog with PagerDuty alerts, 99.9% SLA), DR plan documented (multi-AZ RDS, S3 cross-region replication) but not tested (conduct annual DR exercise, document RTO/RPO: 4 hours/15 minutes). Implementation Roadmap: Month 1-2 (policies: write 12 required policies, get executive approval, communicate to team), Month 3-5 (controls: enforce MFA, implement change management workflow, conduct access reviews, test backups, vendor assessments), Month 6-12 (evidence collection: screenshots monthly, log exports automated, maintain control testing worksheets), Month 13-14 (audit prep: organize evidence into 40-page PBC list, mock audit by external consultant, remediate gaps), Month 15-16 (audit execution: 2-week fieldwork, auditor testing, management responses, final SOC 2 Type II report issued). Evidence Automation: Vanta integration ($24K annual) auto-collects 70% of evidence (AWS configs, GitHub commits, Okta user list, Jamf endpoint compliance, training completion via BambooHR), manual evidence (board minutes, policy approvals, vendor assessments, DR test results, incident post-mortems). Auditor Selection: RFP to 4 firms (Big 4, regional CPA, specialized SOC 2 firm), select based on SaaS experience + cost ($28K fixed fee) + 6-week turnaround post-fieldwork. Outcome: SOC 2 Type II report issued Month 16, zero exceptions, 40-page report with management assertion and auditor opinion, publish to trust portal, enable enterprise sales pipeline (3 Fortune 500 deals closed within 90 days requiring SOC 2).
 
-**Implementation Requirements:**
-- Documented policies and procedures
-- Control implementation evidence
-- Testing evidence (screenshots, logs, reports)
-- 3-12 month operating history (Type II)
-- Management assertions
-- Auditor testing results
+### Example 2: Healthcare Provider HIPAA Compliance (200-bed hospital)
+**Prompt:** Achieve HIPAA compliance for 200-bed hospital (1,200 employees, Epic EHR, 45K annual patients, ePHI, OCR audit readiness, 18-month timeline).
 
-### ISO 27001 Compliance
+**Output:** Risk Analysis (164.308(a)(1)(ii)(A))—Identify ePHI: Epic EHR database (patient demographics, diagnoses, medications, lab results, clinical notes), PACS imaging, billing system (charges, insurance), patient portal (MyChart), email (clinical correspondence), physical records (paper charts in medical records department). Threats/Vulnerabilities: Unauthorized access (weak passwords, shared accounts, excessive privileges), malware/ransomware (phishing, unpatched systems), insider threats (workforce snooping on VIPs, theft of records), physical theft (mobile devices, paper charts), transmission interception (unencrypted email), improper disposal (dumpster diving). Likelihood/Impact: High likelihood + high impact = critical risks (ransomware, unauthorized access by workforce), document in risk analysis spreadsheet (100+ rows covering all ePHI systems). Risk Management (164.308(a)(1)(ii)(B))—Risk treatment: Implement technical safeguards (MFA for Epic via Imprivata, encryption at rest via NetApp, DLP via Microsoft Purview, EDR via CrowdStrike), administrative safeguards (role-based access Epic security classes, quarterly access reviews, annual training, sanction policy for violations), physical safeguards (badge access to server rooms, workstation auto-lock after 5 min, mobile device encryption). Policies Required—15 HIPAA-specific policies: Information Security, Access Control (unique user IDs, emergency access, automatic logoff, encryption), Workforce Security (authorization, termination procedures, background checks), Audit Controls (log Epic access, retain 6 years, monitor for break-the-glass events), Integrity Controls (ePHI alteration prevention, digital signatures), Transmission Security (TLS 1.2 for Epic web services, VPN for remote access), Incident Response (breach determination within 60 days, notification process, documentation), Contingency Plan (data backup Epic nightly to tape, DR site 50 miles away, RTO 24 hours), Business Associate Agreements (vendors: Epic, Cerner Labs, Radiology PACS, transcription service, cloud storage). BAA Management—130 business associates identified (vendors with ePHI access), BAA template with required language (safeguard ePHI, report breaches within 60 days, make ePHI available to individuals, allow HHS access), annual BAA review (verify still accurate, update if vendor services change), vendor risk assessments (annual for Tier 1, biennial for Tier 2, document in vendor management system). Training (164.308(a)(5))—Annual training (100% completion within 30 days of hire, cover HIPAA basics, patient rights, breach reporting, sanctions), monthly security reminders (phishing simulations, privacy tips via email), role-specific training (nurses: minimum necessary access, IT: technical safeguards, billing: use/disclosure rules), track in LMS (attestations, certificates, reports for OCR audit). Audit Controls (164.312(b))—Epic audit logging (every ePHI access logged with user ID, timestamp, patient ID, action, location), log retention 6 years (compliance with medical record retention laws), monitoring (weekly reports of break-the-glass access, monthly reports of colleague/family access, quarterly access anomaly detection via Protenus), incident investigation (HR investigates inappropriate access within 48 hours, sanctions range from training to termination). Breach Notification—Breach determination process (Security Officer assesses whether incident is breach, 60-day clock starts at discovery), notification: individual notification (written within 60 days, first-class mail or email if opted-in, substitute notice if >10 outdated addresses), HHS notification (electronic within 60 days if ≥500 individuals, annual report if <500 for year), media notification (if >500 individuals in state/jurisdiction, prominent media outlet), business associate notification (BA notifies covered entity within 60 days, provides individual details for notification). Documentation—6-year retention for all HIPAA documentation (policies, procedures, training records, audit logs, incident reports, risk analyses, BAA contracts), organized in SharePoint with access controls (Security Officer + compliance team), annual review (update for regulatory changes, operational changes, new systems). Implementation Cost—$1.2M over 18 months: Consultant ($180/hour × 1,000 hours = $180K gap analysis + implementation support), technical controls (MFA Imprivata $85K, DLP Purview $45K, EDR CrowdStrike $120K, encryption included in NetApp), training (LMS $15K annual, content development $25K), audit/monitoring (Protenus $60K annual), project management (0.5 FTE internal $75K). OCR Audit Readiness—Maintain audit protocol (OCR may request documentation on 10 days notice), evidence organized by HIPAA standard (164.308, 164.310, 164.312), conduct internal audits (annual self-assessment, quarterly deep-dives on high-risk areas), mock OCR audit (external consultant reviews documentation, simulates OCR document request, identifies gaps).
 
-**Annex A Controls (93 controls across 14 domains):**
+### Example 3: E-Commerce Payment Processor PCI-DSS Level 1
+**Prompt:** Achieve PCI-DSS v4.0 Level 1 compliance for payment processor (2,500 employees, 12M annual transactions, CDE on-prem + AWS, QSA validation, 24-month timeline with quarterly milestones).
 
-**A.5: Organizational Controls**
-- Information security policies
-- Roles and responsibilities
-- Segregation of duties
-- Management responsibilities
-- Contact with authorities
+**Output:** CDE Scoping—In-scope: Payment gateway servers (on-prem datacenter, 50 servers processing card data), card database (encrypted vaults with AES-256, tokenization service), web application (payment pages, APIs), networks (payment processing VLAN, DMZ for web servers). Connected-to: Corporate network (separated by firewall, ACLs restrict to management traffic only), development environment (no card data, but network connectivity requires controls), AWS infrastructure (reports/analytics on tokenized data, not CHD/SAD but connected). Out-of-scope: SaaS tools (Salesforce, Slack, no card data), merchant websites (redirect to payment gateway, SAQ A applies to merchants). Network Segmentation—Requirement 1: Firewalls isolate CDE (deny-all inbound except HTTPS 443 from merchant networks, allow only tokenization API outbound to AWS), DMZ for web application (dual firewall DMZ architecture), quarterly firewall rule reviews (remove unused rules, document business justification for all inbound access), annual penetration testing validates segmentation (attempt to pivot from corporate to CDE, verify fails). Requirement 2 Secure Configurations—Change all default passwords (scan with Nessus for defaults, remediate immediately), harden OS (CIS benchmarks for RHEL, Windows Server, disable unnecessary services), secure web servers (disable directory browsing, remove test pages, OWASP Top 10 mitigations), configuration management (Ansible playbooks for server builds, audit quarterly with Tenable.sc compliance checks). Requirement 3 Protect Stored CHD—Minimize storage (delete CHD after authorization, retain only for chargebacks/fraud investigations, purge after 18 months), encryption (AES-256 for card database, separate encryption keys per merchant, AWS KMS for key management), tokenization (replace PAN with token for analytics/reporting, tokens stored in AWS RDS encrypted), no CHD in logs/files (DLP scans for PANs in unencrypted locations, block/alert). Requirement 4 Encrypt Transmission—TLS 1.2+ for all card transmission (disable TLS 1.0/1.1, strong cipher suites only ECDHE-RSA-AES256-GCM-SHA384), certificate management (annual renewal, 2048-bit RSA minimum, certificate pinning for mobile SDKs), POS terminal encryption (P2PE solution shifts encryption to terminal, reduces PCI scope). Requirement 5 Malware Protection—EDR on all CDE systems (CrowdStrike with strict containment policies, quarantine on detection), anti-malware definitions updated daily (automated via CrowdStrike cloud), periodic scans (weekly full scans, real-time scanning enabled), audit trail (malware detection logs sent to SIEM, investigated within 4 hours). Requirement 6 Secure Systems—Patch management (critical within 30 days, high within 90 days, monthly patching cycle, emergency patches within 48 hours), vulnerability scanning (Qualys quarterly external ASV scans, internal scans monthly, remediate critical within 30 days), secure SDLC (OWASP SAMM maturity, SAST with Checkmarx, DAST with Burp Suite, code review for payment code, penetration testing pre-production). Requirement 7/8 Access Control—RBAC (least privilege, 25 roles defined, quarterly access reviews, approval workflow for CDE access), unique IDs (no shared accounts, service accounts rotated quarterly, disabled within 24 hours of termination), MFA (YubiKey for all CDE access, smartcard for admins, no SMS-based MFA for privileged access), password policy (12 characters, complexity, 90-day expiration for privileged, account lockout after 5 failed attempts). Requirement 9 Physical Access—Datacenter access (badge + biometric, man trap, 24/7 video surveillance with 90-day retention), visitor management (escort required, visitor log, badge surrender on exit), media destruction (shred hard drives with certificate of destruction, degauss magnetic media, witnessed by two personnel). Requirement 10 Logging/Monitoring—Log all CDE access (Splunk ingests from all CDE systems, 1 year online + 7 years archive), log review (automated alerts for failures, privilege use, unauthorized access, weekly manual review of access logs, monthly summary to CISO), time synchronization (NTP to stratum 1 source, monthly verification). Requirement 11 Testing—Quarterly external scans (Trustwave ASV, all vulnerabilities remediated before passing scan, quarterly cadence Jan/Apr/Jul/Oct), internal vulnerability scans (Qualys monthly, remediate critical within 30 days), annual penetration testing (external by QSA, internal if segmentation used, application layer testing for payment pages, network layer testing for CDE perimeter), file integrity monitoring (OSSEC on payment application files, alert on unauthorized changes, investigate within 24 hours). Requirement 12 Policies—Information security policy (annual review, board approval, communicated to all personnel), incident response plan (roles, communication, evidence preservation, forensic investigation for suspected breaches, quarterly tabletop exercises), acceptable use policy (no personal use of CDE systems, monitoring notice, sanctions for violations), vendor management (annual PCI attestation for service providers, Appendix A for payment service providers, maintain list of PCI-compliant providers). Validation Process—QSA selection (RFP to 3 QSAs, select based on payment industry experience + cost $180K + 12-week timeline), on-site assessment (2 weeks, 8 QSA consultants, interviews with 30 personnel, testing of 329 PCI requirements), Report on Compliance (ROC) delivered (400-page document, 0 compensating controls required, attestation of compliance AOC signed by executive and QSA), quarterly action plan (QAPs for any gaps, submitted to card brands within 30 days). Cost Breakdown—$2.8M over 24 months: Tokenization infrastructure ($600K CapEx for HSMs, $120K annual license), network segmentation (firewalls $180K, penetration testing $80K annual), EDR/monitoring (CrowdStrike $240K, Splunk $350K annual), ASV scans ($15K annual Trustwave), QSA assessment ($180K annual), internal resources (2 FTE PCI analysts $280K, project manager 0.75 FTE $120K).
 
-**A.6: People Controls**
-- Screening
-- Terms and conditions of employment
-- Information security awareness
-- Disciplinary process
+---
 
-**A.7: Physical Controls**
-- Physical security perimeter
-- Physical entry controls
-- Securing offices and facilities
-- Protecting against threats
-- Equipment security
+## Cross-References
 
-**A.8: Technological Controls**
-- User endpoint devices
-- Privileged access rights
-- Information access restriction
-- Access to source code
-- Secure authentication
-- Capacity management
-- Protection against malware
-- Backup
-- Logging and monitoring
-- Cryptography
-- Secure development
-- Security testing
-- Network security
-
-**Implementation Requirements:**
-- Information Security Management System (ISMS)
-- Risk assessment and treatment
-- Statement of Applicability (SoA)
-- Security objectives and plans
-- Internal audits
-- Management review
-- Continuous improvement
-
-### HIPAA Compliance
-
-**Administrative Safeguards:**
-- Security Management Process
-- Workforce Security
-- Information Access Management
-- Security Awareness and Training
-- Security Incident Procedures
-- Contingency Plan
-- Business Associate Agreements
-
-**Physical Safeguards:**
-- Facility Access Controls
-- Workstation Use and Security
-- Device and Media Controls
-
-**Technical Safeguards:**
-- Access Control
-- Audit Controls
-- Integrity Controls
-- Transmission Security
-
-**Implementation Requirements:**
-- Risk analysis and management
-- Policies and procedures
-- Encryption of ePHI
-- Audit logs
-- Breach notification process
-- Business associate management
-
-### PCI-DSS Compliance
-
-**12 Requirements:**
-
-1. Install and maintain firewall configuration
-2. Do not use vendor-supplied defaults
-3. Protect stored cardholder data
-4. Encrypt transmission of cardholder data
-5. Use and update anti-virus software
-6. Develop and maintain secure systems
-7. Restrict access to cardholder data
-8. Assign unique ID to each person with computer access
-9. Restrict physical access to cardholder data
-10. Track and monitor access to network resources
-11. Regularly test security systems
-12. Maintain information security policy
-
-**Implementation Requirements:**
-- Network segmentation
-- Cardholder Data Environment (CDE) definition
-- Quarterly vulnerability scans (ASV)
-- Annual penetration testing
-- Quarterly compliance reports (AOC)
-- Compensating controls documentation
-
-## COMPLIANCE IMPLEMENTATION ROADMAP
-
-### Phase 1: Planning & Gap Analysis (4-6 weeks)
-- Select framework and scope
-- Conduct gap assessment
-- Define control objectives
-- Assign responsibilities
-- Create project plan
-
-### Phase 2: Policy & Procedure Development (6-8 weeks)
-- Write required policies
-- Develop procedures and standards
-- Create templates and forms
-- Review and approval process
-- Communication and training
-
-### Phase 3: Control Implementation (3-6 months)
-- Deploy technical controls
-- Implement process controls
-- Configure monitoring and logging
-- Establish incident response
-- Vendor management program
-
-### Phase 4: Evidence Collection (3-12 months)
-- Establish evidence repository
-- Automate evidence collection
-- Document control execution
-- Maintain audit trail
-- Regular control testing
-
-### Phase 5: Audit Preparation (4-8 weeks)
-- Internal readiness assessment
-- Remediate identified gaps
-- Organize evidence packages
-- Conduct mock audit
-- Select auditor
-
-### Phase 6: Audit Execution (2-4 weeks)
-- Opening meeting
-- Document review
-- Control testing
-- Interviews
-- Closing meeting
-
-### Phase 7: Continuous Compliance (Ongoing)
-- Quarterly control reviews
-- Annual risk assessments
-- Policy updates
-- Training refreshers
-- Continuous monitoring
-
-## EVIDENCE COLLECTION
-
-### Required Evidence Types:
-
-**Policies & Procedures:**
-- Information security policy
-- Access control policy
-- Incident response plan
-- Business continuity plan
-- Vendor management policy
-- Change management policy
-
-**Technical Evidence:**
-- Configuration screenshots
-- Security tool reports
-- Log samples
-- Vulnerability scan reports
-- Penetration test results
-- Backup verification
-
-**Operational Evidence:**
-- Access reviews
-- Training records
-- Incident tickets
-- Change tickets
-- Vendor assessments
-- Risk assessment documents
-
-**Organizational Evidence:**
-- Organizational charts
-- Role descriptions
-- Board minutes
-- Management approvals
-- Contracts and agreements
-
-## CONTROL MAPPING
-
-Cross-framework control mapping for efficiency:
-
-| Control Area | SOC 2 | ISO 27001 | HIPAA | PCI-DSS |
-|--------------|-------|-----------|-------|---------|
-| Access Control | CC6 | A.9 | 164.312(a) | 7,8 |
-| Encryption | CC6 | A.10 | 164.312(a)(2) | 3,4 |
-| Incident Response | CC7 | A.16 | 164.308(a)(6) | 12.10 |
-| Risk Assessment | CC3 | A.5 | 164.308(a)(1) | 12.2 |
-| Change Management | CC8 | A.14 | 164.308(a)(8) | 6 |
-| Monitoring | CC7 | A.12 | 164.312(b) | 10 |
-
-## OUTPUT REQUIREMENTS
-
-Provide:
-1. **Gap Assessment Report** - Current state vs requirements
-2. **Implementation Roadmap** - Phased approach with timelines
-3. **Control Matrix** - All controls mapped to requirements
-4. **Policy Templates** - All required policies and procedures
-5. **Evidence Collection Plan** - What, when, who, where
-6. **Audit Preparation Checklist** - Readiness assessment
-7. **Training Plan** - Employee awareness and compliance training
-```
+- [Security Audit](../Cybersecurity/security-audit.md) - Comprehensive security assessment
+- [Cloud Security Architecture](../Cloud-Security/cloud-security-architecture.md) - Technical control implementation for cloud environments
+- [Cybersecurity Compliance Management](../Cybersecurity/cybersecurity-compliance-management.md) - Ongoing compliance program management

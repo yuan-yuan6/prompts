@@ -1,299 +1,131 @@
 ---
 category: technology
-last_updated: 2025-11-09
 related_templates:
-- technology/cloud-architecture-framework.md
-- technology/site-reliability-engineering.md
-- technology/cloud-migration-strategy.md
+- technology/DevOps-Cloud/infrastructure-as-code.md
+- technology/DevOps-Cloud/container-orchestration.md
+- technology/DevOps-Cloud/cloud-migration-strategy.md
 tags:
 - cloud-architecture
 - aws-azure-gcp
 - vpc-design
 - cost-optimization
-title: Cloud Architecture Template
+title: Cloud Architecture Design
 use_cases:
-- Creating design comprehensive cloud architecture patterns for aws, azure, gcp including
-  multi-cloud, hybrid, and cloud-native solutions with scalability, security, and
-  cost optimization.
-- Project planning and execution
-- Strategy development
+- Designing multi-tier cloud architectures on AWS/Azure/GCP achieving 99.99% availability with auto-scaling, disaster recovery, and cost optimization
+- Building secure cloud networks with VPC design, security groups, WAF, and compliance controls meeting SOC2/HIPAA/PCI-DSS requirements
+- Implementing hybrid and multi-cloud strategies balancing vendor lock-in avoidance with operational simplicity and cost efficiency
 industries:
-- government
 - technology
-type: template
+- financial-services
+- healthcare
+- retail
+type: framework
 difficulty: intermediate
 slug: cloud-architecture
 ---
 
-# Cloud Architecture Template
+# Cloud Architecture Design
 
 ## Purpose
-Design comprehensive cloud architecture patterns for AWS, Azure, GCP including multi-cloud, hybrid, and cloud-native solutions with scalability, security, and cost optimization.
+Design production-grade cloud architectures on AWS, Azure, or GCP covering compute, storage, networking, security, high availability, and cost optimization achieving 99.9%+ uptime with compliance requirements and budget constraints.
 
-## Quick Cloud Architecture Prompt
-Design cloud architecture on [AWS/Azure/GCP] for [application type] with [X users], [Y requests/sec]. Components: compute ([EC2/Lambda/ECS]), database ([RDS/DynamoDB]), cache ([ElastiCache]), storage ([S3]), CDN ([CloudFront]). Requirements: [99.X% uptime], [compliance: SOC2/HIPAA/PCI], budget $[X]/month. Include: VPC design, IAM policies, auto-scaling, disaster recovery (RPO/RTO), cost optimization.
+## 🚀 Quick Cloud Architecture Prompt
 
-## Quick Start
-
-**Need to design cloud architecture quickly?** Use this minimal example:
-
-### Minimal Example
-```
-Design a cloud architecture for a SaaS application with 50K users on AWS. Requirements: microservices-based, auto-scaling web tier, PostgreSQL database with read replicas, Redis caching, S3 for file storage, CloudFront CDN. Must handle 1000 requests/second, 99.9% uptime, and comply with SOC 2. Budget: $10K/month.
-```
-
-### When to Use This
-- Designing new cloud-based applications or systems
-- Migrating existing applications to the cloud
-- Optimizing cloud infrastructure for performance and cost
-- Creating disaster recovery and high-availability architectures
-
-### Basic 3-Step Workflow
-1. **Define requirements** - Performance, scalability, security, compliance, budget
-2. **Design components** - Choose services, define tiers, plan data flow
-3. **Document architecture** - Create diagrams, document decisions, estimate costs
-
-**Time to complete**: 4-8 hours for initial design, 1-2 days for detailed architecture
+> Design cloud architecture on **[AWS/AZURE/GCP]** for **[APPLICATION_TYPE]** with **[USERS]** users, **[RPS]** requests/sec. Compute: **[EC2/LAMBDA/ECS/GKE]**. Database: **[RDS/DYNAMODB/AURORA]**. Requirements: **[UPTIME]**% availability, **[COMPLIANCE]** compliance, **[BUDGET]**/month budget. Include VPC design (**[AZS]** AZs), auto-scaling (**[MIN]-[MAX]** instances), DR (**[RTO/RPO]**), and cost optimization strategy.
 
 ---
 
-## Template Structure
+## Template
 
-### Architecture Overview
-- **Architecture Name**: [ARCHITECTURE_NAME]
-- **Cloud Provider**: [CLOUD_PROVIDER]
-- **Architecture Type**: [ARCHITECTURE_TYPE]
-- **Deployment Model**: [DEPLOYMENT_MODEL]
-- **Business Objectives**: [BUSINESS_OBJECTIVES]
-- **Technical Requirements**: [TECHNICAL_REQUIREMENTS]
-- **Compliance Requirements**: [CLOUD_COMPLIANCE]
-- **Budget**: [CLOUD_BUDGET]
-- **Timeline**: [ARCHITECTURE_TIMELINE]
-- **Stakeholders**: [CLOUD_STAKEHOLDERS]
+Design cloud architecture on {CLOUD_PROVIDER} for {APPLICATION_TYPE} supporting {SCALE_REQUIREMENTS} with {AVAILABILITY_TARGET}% availability and {BUDGET} monthly budget.
 
-### Cloud Strategy
-- **Cloud Model**: [CLOUD_MODEL]
-- **Service Model**: [SERVICE_MODEL]
-- **Multi-Cloud Strategy**: [MULTI_CLOUD_STRATEGY]
-- **Hybrid Strategy**: [HYBRID_STRATEGY]
-- **Migration Strategy**: [CLOUD_MIGRATION_STRATEGY]
-- **Vendor Strategy**: [VENDOR_STRATEGY]
-- **Exit Strategy**: [EXIT_STRATEGY]
-- **Governance Model**: [CLOUD_GOVERNANCE]
-- **Cost Strategy**: [CLOUD_COST_STRATEGY]
-- **Skills Strategy**: [SKILLS_STRATEGY]
+**COMPUTE ARCHITECTURE**
 
-### Infrastructure Design
-- **Compute Services**: [COMPUTE_SERVICES]
-- **Storage Services**: [STORAGE_SERVICES]
-- **Network Services**: [NETWORK_SERVICES]
-- **Database Services**: [DATABASE_SERVICES]
-- **Integration Services**: [INTEGRATION_SERVICES]
-- **Security Services**: [SECURITY_SERVICES]
-- **Monitoring Services**: [MONITORING_SERVICES]
-- **Management Services**: [MANAGEMENT_SERVICES]
-- **AI/ML Services**: [AIML_SERVICES]
-- **Analytics Services**: [ANALYTICS_SERVICES]
+Select compute model matching workload characteristics and operational preferences. EC2/VMs for persistent workloads: t3/t4g for variable CPU (burstable), m5/m6i for general purpose (balanced), c5/c6i for compute-intensive (high CPU), r5/r6i for memory-intensive (caching, analytics). Container orchestration for microservices: EKS/AKS/GKE managed Kubernetes, ECS Fargate for serverless containers (no node management), simplifies scaling and deployment. Serverless for event-driven: Lambda/Azure Functions/Cloud Functions for request-based pricing, auto-scales to zero, max 15-minute execution for Lambda.
 
-### Network Architecture
-- **Network Design**: [NETWORK_DESIGN]
-- **VPC Configuration**: [VPC_CONFIGURATION]
-- **Subnet Strategy**: [SUBNET_STRATEGY]
-- **Routing Configuration**: [ROUTING_CONFIGURATION]
-- **Security Groups**: [SECURITY_GROUPS]
-- **Load Balancing**: [CLOUD_LOAD_BALANCING]
-- **CDN Configuration**: [CDN_CONFIGURATION]
-- **DNS Strategy**: [DNS_STRATEGY]
-- **VPN Configuration**: [VPN_CONFIGURATION]
-- **Direct Connect**: [DIRECT_CONNECT]
+Configure auto-scaling for cost efficiency and performance. Target tracking: 70% CPU utilization maintains headroom without waste. Step scaling: aggressive scale-out (add 50% capacity when >90% CPU for 2 minutes), conservative scale-in (remove 10% when <40% for 10 minutes). Predictive scaling: enable for predictable patterns (business hours traffic), learns usage patterns. Instance diversity: mix on-demand (baseline capacity 30-40%) with spot/preemptible (variable capacity 60-70%, 60-90% cost savings, handle interruptions gracefully).
 
-### Security Architecture
-- **Security Framework**: [CLOUD_SECURITY_FRAMEWORK]
-- **Identity Management**: [CLOUD_IDENTITY_MANAGEMENT]
-- **Access Control**: [CLOUD_ACCESS_CONTROL]
-- **Data Protection**: [CLOUD_DATA_PROTECTION]
-- **Network Security**: [CLOUD_NETWORK_SECURITY]
-- **Application Security**: [CLOUD_APPLICATION_SECURITY]
-- **Monitoring Security**: [CLOUD_MONITORING_SECURITY]
-- **Compliance Controls**: [COMPLIANCE_CONTROLS]
-- **Key Management**: [CLOUD_KEY_MANAGEMENT]
-- **Threat Detection**: [THREAT_DETECTION]
+Size instances based on actual utilization data. Start with Compute Optimizer/Azure Advisor recommendations, right-size after 2 weeks of production metrics. Graviton/ARM instances: 20-40% better price-performance for compatible workloads (containerized, interpreted languages). Reserved capacity planning: 1-year reserved instances for stable baseline (30% savings), 3-year for committed workloads (60% savings), Savings Plans for flexible compute.
 
-### High Availability
-- **Availability Design**: [AVAILABILITY_DESIGN]
-- **Redundancy Strategy**: [REDUNDANCY_STRATEGY]
-- **Failover Mechanisms**: [FAILOVER_MECHANISMS]
-- **Load Distribution**: [LOAD_DISTRIBUTION]
-- **Geographic Distribution**: [GEOGRAPHIC_DISTRIBUTION]
-- **Backup Strategy**: [CLOUD_BACKUP_STRATEGY]
-- **Disaster Recovery**: [CLOUD_DISASTER_RECOVERY]
-- **Business Continuity**: [CLOUD_BUSINESS_CONTINUITY]
-- **RTO/RPO Targets**: [RTO_RPO_TARGETS]
-- **Testing Strategy**: [AVAILABILITY_TESTING]
+**NETWORK ARCHITECTURE**
 
-### Scalability Design
-- **Scaling Strategy**: [CLOUD_SCALING_STRATEGY]
-- **Auto Scaling**: [CLOUD_AUTO_SCALING]
-- **Performance Optimization**: [CLOUD_PERFORMANCE_OPTIMIZATION]
-- **Capacity Planning**: [CLOUD_CAPACITY_PLANNING]
-- **Resource Management**: [CLOUD_RESOURCE_MANAGEMENT]
-- **Monitoring Strategy**: [CLOUD_MONITORING_STRATEGY]
-- **Alerting Configuration**: [CLOUD_ALERTING]
-- **Performance Testing**: [CLOUD_PERFORMANCE_TESTING]
-- **Optimization Recommendations**: [CLOUD_OPTIMIZATION]
-- **Cost Management**: [CLOUD_COST_MANAGEMENT]
+Design VPC topology for isolation and security. CIDR planning: /16 VPC (65K IPs), /24 subnets (256 IPs each), leave room for growth. Subnet strategy: public subnets for load balancers and bastion hosts, private subnets for application tier, isolated subnets for databases (no internet route). Multi-AZ: minimum 3 AZs for production (survives AZ failure), 2 AZs acceptable for non-production. NAT Gateway: one per AZ for high availability ($32/month + data processing), consider NAT instance for dev environments.
 
-Please provide detailed architecture diagrams, service configurations, best practices, and implementation guides.
+Implement hub-and-spoke for multi-VPC environments. Transit Gateway (AWS): central hub connecting VPCs and on-premises, simplifies routing (single route table vs N×N peering). VPC peering for simple topologies: direct connection between 2 VPCs, no transitive routing, lower latency than Transit Gateway. Private endpoints: VPC endpoints for AWS services (S3, DynamoDB, KMS) avoid NAT costs and improve security.
+
+Configure load balancing for traffic distribution. Application Load Balancer (ALB): HTTP/HTTPS traffic, path-based routing, WebSocket support, integrates with WAF. Network Load Balancer (NLB): TCP/UDP, ultra-low latency (<1ms), static IPs, TLS passthrough. Global Accelerator/Azure Front Door: anycast IPs, global traffic routing, DDoS protection, 60% latency improvement for global users. Health checks: 10-second interval, 2 consecutive failures to mark unhealthy, path-based (/health) not just TCP.
+
+**DATABASE AND STORAGE**
+
+Select database matching access patterns and scale requirements. Relational (RDS Aurora/Cloud SQL): ACID transactions, complex queries, <100K TPS, Aurora scales reads to 15 replicas. NoSQL document (DynamoDB/CosmosDB/Firestore): flexible schema, single-digit millisecond latency, unlimited scale, partition key design critical. NoSQL key-value (ElastiCache Redis): sub-millisecond latency, session storage, caching (cache-aside pattern), pub/sub. Time-series (Timestream/TimescaleDB): metrics and events, optimized for time-range queries, automatic data lifecycle.
+
+Design for high availability and disaster recovery. Multi-AZ deployment: synchronous replication to standby, automatic failover (<30 seconds for Aurora), RPO ~0. Read replicas: async replication for read scaling and regional DR, promote to primary in disaster. Cross-region replication: Aurora Global Database (1-second replication lag), DynamoDB Global Tables (eventual consistency). Backup strategy: automated daily snapshots (35-day retention), point-in-time recovery, cross-region backup copies.
+
+Configure storage tiers for cost optimization. S3/Blob storage tiers: Standard (frequently accessed), Intelligent-Tiering (unknown patterns, auto-moves), Standard-IA (monthly access), Glacier (archival, minutes to hours retrieval). Lifecycle policies: transition to IA after 30 days, Glacier after 90 days, delete after 7 years (compliance). EBS/Managed Disks: gp3 for general purpose (baseline 3K IOPS, scale independently), io2 for high IOPS requirements (64K IOPS), throughput optimized for big data.
+
+**SECURITY ARCHITECTURE**
+
+Implement defense in depth across all layers. Network security: security groups (stateful, instance-level), NACLs (stateless, subnet-level), WAF (OWASP rules, rate limiting, geo-blocking), Shield for DDoS (Standard free, Advanced for enhanced protection). Application security: Secrets Manager for credentials (automatic rotation), Certificate Manager for TLS, Parameter Store for configuration. Data security: KMS encryption for data at rest (AES-256), TLS 1.2+ in transit, field-level encryption for sensitive data.
+
+Configure identity and access management. IAM best practices: least privilege policies, role-based access (no long-lived credentials), permission boundaries for delegated admin. Service roles: EC2 instance profiles, ECS task roles, Lambda execution roles—no embedded credentials. MFA enforcement: required for console access, hardware tokens for privileged users. Cross-account access: AWS Organizations with SCPs (guardrails), assume role for controlled access.
+
+Implement compliance controls and monitoring. Audit logging: CloudTrail (all API calls), VPC Flow Logs (network traffic), S3 access logging. Threat detection: GuardDuty (ML-based threat detection), Security Hub (centralized findings), Inspector (vulnerability scanning). Compliance automation: AWS Config rules (continuous compliance), conformance packs for SOC2/HIPAA/PCI, automated remediation with Lambda. Encryption at rest: default encryption for S3, EBS, RDS—customer-managed KMS keys for compliance.
+
+**HIGH AVAILABILITY AND DISASTER RECOVERY**
+
+Design for target availability tier. 99.9% (8.76 hours downtime/year): multi-AZ deployment, automated failover, standard DR. 99.99% (52 minutes/year): multi-region active-passive, automated failover, tested runbooks. 99.999% (5 minutes/year): multi-region active-active, global load balancing, zero-downtime deployments. Each additional 9 roughly doubles cost—match tier to business requirements.
+
+Implement disaster recovery strategy matching RTO/RPO. Backup and restore (RTO hours, RPO hours): cheapest, restore from backups to new region. Pilot light (RTO minutes, RPO minutes): minimal infrastructure running in DR region, scale up on failover. Warm standby (RTO seconds, RPO seconds): scaled-down production in DR region, promote to full capacity. Active-active (RTO ~0, RPO ~0): full production in multiple regions, global load balancing, most expensive but zero data loss.
+
+Test disaster recovery regularly. Automated DR tests: monthly automated failover to DR region during maintenance window. Game days: quarterly full DR exercise simulating region failure, measure actual RTO/RPO. Chaos engineering: Fault Injection Simulator/Chaos Monkey to test resilience (AZ failure, instance termination, network partition). Runbook validation: verify runbooks produce expected results, update based on findings.
+
+**COST OPTIMIZATION**
+
+Implement FinOps practices for cost visibility and control. Tagging strategy: mandatory tags (environment, owner, cost-center, application) enforced by SCP. Cost allocation: enable cost allocation tags, create per-team/per-application cost reports. Budgets and alerts: 80% threshold warning, 100% alert to FinOps, 120% escalation to leadership. Reserved capacity: analyze Savings Plans recommendations monthly, commit to 1-year minimum for stable workloads.
+
+Optimize compute costs systematically. Right-sizing: Compute Optimizer recommendations, target 60-70% utilization. Spot instances: 60-90% savings, use for fault-tolerant workloads (batch processing, CI/CD, stateless web), Spot Fleet for capacity diversity. Graviton/ARM: 20-40% better price-performance, test compatibility before migration. Turn off unused resources: Lambda to stop/start dev environments nights/weekends, saves 65% on non-production.
+
+Reduce data transfer and storage costs. VPC endpoints: eliminate NAT Gateway data processing charges for AWS service access. CloudFront/CDN: cache at edge, reduce origin load and egress costs. Storage tiering: lifecycle policies move data to cheaper tiers, S3 Intelligent-Tiering for unknown access patterns. Data compression: gzip/brotli for API responses, reduce transfer costs and improve latency.
+
+Deliver cloud architecture as:
+
+1. **ARCHITECTURE DIAGRAM** - Multi-tier architecture showing compute, network, database, and storage components with data flows
+
+2. **NETWORK DESIGN** - VPC/VNET configuration, subnet strategy, security groups, load balancing, and connectivity
+
+3. **COMPUTE SPECIFICATION** - Instance types, auto-scaling configuration, container orchestration, serverless functions
+
+4. **DATA LAYER** - Database selection, replication strategy, caching layer, storage tiers
+
+5. **SECURITY CONTROLS** - IAM design, encryption strategy, network security, compliance controls
+
+6. **DR AND HA** - Availability design, backup strategy, disaster recovery procedures, RTO/RPO targets
+
+7. **COST ESTIMATE** - Monthly cost breakdown, optimization recommendations, reserved capacity plan
+
+---
 
 ## Usage Examples
 
-### AWS Multi-Tier Web Application
-```
-Design cloud architecture for EcommerceApp web application using AWS cloud provider with scalable three-tier architecture type.
+### Example 1: E-commerce Platform on AWS
+**Prompt:** Design cloud architecture on AWS for EcommerceApp supporting 100K concurrent users, 5000 requests/sec with 99.99% availability, PCI-DSS compliance, and $50K/month budget.
 
-Architecture Overview:
-- Multi-tier web application architecture type using IaaS/PaaS service model
-- Support 100K+ users business objectives with <200ms response technical requirements
-- Ensure PCI DSS, SOC2 cloud compliance within $50K/month cloud budget
-- Deploy across 3 availability zones geographic distribution
+**Expected Output:** Compute: ECS Fargate for web tier (auto-scale 10-100 tasks), Lambda for async processing (order processing, notifications). Network: Multi-AZ VPC (3 AZs, /16 CIDR), ALB with WAF (OWASP rules, rate limiting 1000 req/min/IP), CloudFront CDN (100+ edge locations). Database: Aurora PostgreSQL (db.r6g.2xlarge primary, 3 read replicas, Multi-AZ), DynamoDB for sessions (on-demand capacity), ElastiCache Redis (cache.r6g.large, 3-node cluster). Storage: S3 for product images (CloudFront origin), lifecycle to IA after 90 days. Security: KMS encryption for PCI data, Secrets Manager for DB credentials, GuardDuty + Security Hub, AWS Config PCI conformance pack. DR: Aurora Global Database (us-west-2 DR), RTO 15 minutes, RPO <1 minute, monthly failover tests. Cost: $42K/month (compute $18K, database $12K, network $6K, storage $3K, other $3K), optimize with Graviton instances (-25%), Savings Plans for Fargate.
 
-Infrastructure Design:
-- Use EC2, ECS, Lambda compute services with S3, EBS, EFS storage services
-- Deploy VPC, ALB, CloudFront network services with RDS, DynamoDB database services
-- Integrate with API Gateway, EventBridge integration services
-- Secure with IAM, Secrets Manager, WAF security services
+### Example 2: Healthcare Analytics Platform on Azure
+**Prompt:** Design cloud architecture on Azure for HealthAnalytics processing 10TB patient data daily with HIPAA compliance, 99.9% availability, and $30K/month budget.
 
-### Network Architecture
-- Design multi-AZ VPC with public/private subnet strategy
-- Configure route tables, NAT gateways routing configuration
-- Apply security groups for web/app/data tiers security groups
-- Balance with ALB, NLB cloud load balancing with CloudFront CDN
-- Connect with Site-to-Site VPN vpn configuration
+**Expected Output:** Compute: Azure Kubernetes Service (AKS) for data processing pipelines (D4s_v5 nodes, 5-20 node auto-scale), Azure Functions for event-driven ETL. Network: Hub-and-spoke VNETs (hub for shared services, spokes per environment), Azure Firewall for egress filtering, Private Link for all PaaS services. Database: Azure SQL Managed Instance (Business Critical, 8 vCores) for structured data, Azure Cosmos DB for patient events (multi-region writes), Azure Synapse for analytics warehouse. Storage: Data Lake Gen2 (hot/cool/archive tiers), 90-day lifecycle to cool, 1-year to archive. Security: Azure AD with Privileged Identity Management, Customer-managed keys in Key Vault, Microsoft Defender for Cloud, HIPAA blueprint compliance. DR: Geo-redundant storage (RA-GRS), SQL auto-failover groups, RTO 1 hour, RPO 5 minutes. Cost: $28K/month (AKS $10K, databases $9K, storage $5K, networking $2K, security $2K), optimize with Reserved VM instances for baseline nodes.
 
-### Security Architecture
-- Apply AWS Well-Architected cloud security framework
-- Use IAM, Cognito cloud identity management with RBAC cloud access control
-- Protect with KMS encryption, VPC security cloud data protection
-- Monitor with CloudTrail, GuardDuty cloud monitoring security
-- Manage keys with AWS KMS cloud key management and CloudWatch threat detection
+### Example 3: Global SaaS Application Multi-Cloud
+**Prompt:** Design multi-cloud architecture on AWS (primary) and GCP (DR) for GlobalSaaS serving users in NA, EU, APAC with 99.99% availability and vendor lock-in mitigation.
 
-### Scalability Design
-- Apply predictive cloud scaling strategy with ASG, ECS auto scaling
-- Optimize with CloudWatch metrics cloud performance optimization
-- Plan with AWS Trusted Advisor cloud capacity planning
-- Monitor with CloudWatch cloud monitoring strategy with SNS cloud alerting
-```
+**Expected Output:** Compute: Kubernetes on both clouds (EKS us-east-1/eu-west-1, GKE asia-east1), containerized applications with Helm charts portable across providers. Network: AWS Global Accelerator for NA/EU traffic, GCP Cloud CDN for APAC, Cloudflare as cloud-agnostic CDN/WAF layer. Database: CockroachDB multi-region (vendor-neutral distributed SQL), Redis Enterprise for caching (cloud-agnostic). Storage: MinIO-compatible object storage abstraction, actual storage on S3 (AWS) and GCS (GCP) with cross-cloud replication via Rclone. Abstraction layer: Terraform with provider-agnostic modules, Pulumi for complex orchestration, Kong API Gateway for service mesh. Security: HashiCorp Vault for secrets (centralized across clouds), OPA Gatekeeper for policy enforcement. DR: Active-passive (AWS primary, GCP warm standby), DNS failover via Cloudflare, quarterly cross-cloud failover tests. Cost: $75K/month total (AWS $55K primary, GCP $12K DR, Cloudflare $8K), multi-cloud premium ~40% vs single cloud for portability and resilience.
 
-## Variables
+---
 
-| Variable | Description | Example |
-|----------|-------------|----------|
-| `[ARCHITECTURE_NAME]` | Specify the architecture name | "John Smith" |
-| `[CLOUD_PROVIDER]` | Specify the cloud provider | "AWS (EC2, EKS, Lambda)", "Azure (AKS, Functions)", "GCP (GKE, Cloud Run)", "Multi-cloud AWS+Azure" |
-| `[ARCHITECTURE_TYPE]` | Specify the architecture type | "Standard" |
-| `[DEPLOYMENT_MODEL]` | Specify the deployment model | "Multi-AZ high availability", "Multi-region active-active", "Hybrid cloud", "Edge computing" |
-| `[BUSINESS_OBJECTIVES]` | Specify the business objectives | "Increase efficiency by 30%" |
-| `[TECHNICAL_REQUIREMENTS]` | Specify the technical requirements | "99.99% uptime SLA", "<100ms latency", "Auto-scaling 1-100 instances", "Zero-downtime deployments" |
-| `[CLOUD_COMPLIANCE]` | Specify the cloud compliance | "SOC2 Type II", "PCI-DSS", "HIPAA", "GDPR", "FedRAMP" |
-| `[CLOUD_BUDGET]` | Specify the cloud budget | "$500,000" |
-| `[ARCHITECTURE_TIMELINE]` | Specify the architecture timeline | "6 months" |
-| `[CLOUD_STAKEHOLDERS]` | Specify the cloud stakeholders | "CTO, VP Engineering, Platform Team, Security Team, FinOps Team" |
-| `[CLOUD_MODEL]` | Specify the cloud model | "Public cloud", "Private cloud", "Hybrid cloud", "Community cloud" |
-| `[SERVICE_MODEL]` | Specify the service model | "IaaS (EC2, VMs)", "PaaS (App Service, Beanstalk)", "SaaS integration", "FaaS (Lambda)" |
-| `[MULTI_CLOUD_STRATEGY]` | Specify the multi cloud strategy | "Primary AWS + DR on Azure", "Best-of-breed per workload", "Avoid vendor lock-in" |
-| `[HYBRID_STRATEGY]` | Specify the hybrid strategy | "On-prem data center + AWS", "VMware Cloud on AWS", "Azure Arc", "Anthos" |
-| `[CLOUD_MIGRATION_STRATEGY]` | Specify the cloud migration strategy | "Lift and shift", "Replatform to containers", "Refactor to microservices", "6 Rs approach" |
-| `[VENDOR_STRATEGY]` | Specify the vendor strategy | "AWS preferred partner", "Multi-vendor competitive", "Strategic partnership" |
-| `[EXIT_STRATEGY]` | Specify the exit strategy | "Portable containers", "Terraform abstraction", "Data export procedures", "30-day migration plan" |
-| `[CLOUD_GOVERNANCE]` | Specify the cloud governance | "Cloud Center of Excellence", "Tagging policies", "Cost allocation", "Security guardrails" |
-| `[CLOUD_COST_STRATEGY]` | Specify the cloud cost strategy | "FinOps practices", "Reserved capacity 60%", "Spot for batch", "Right-sizing automation" |
-| `[SKILLS_STRATEGY]` | Specify the skills strategy | "AWS certifications program", "Hands-on training labs", "Cloud guild community", "External consultants" |
-| `[COMPUTE_SERVICES]` | Specify the compute services | "EC2 (t3, m5, c5)", "Lambda functions", "ECS Fargate", "Batch processing" |
-| `[STORAGE_SERVICES]` | Specify the storage services | "S3 (Standard, IA, Glacier)", "EBS gp3", "EFS", "FSx for Windows" |
-| `[NETWORK_SERVICES]` | Specify the network services | "VPC", "Transit Gateway", "Direct Connect", "Global Accelerator", "CloudFront" |
-| `[DATABASE_SERVICES]` | Specify the database services | "RDS Aurora PostgreSQL", "DynamoDB", "ElastiCache Redis", "DocumentDB" |
-| `[INTEGRATION_SERVICES]` | Specify the integration services | "API Gateway", "EventBridge", "SQS/SNS", "Step Functions", "AppSync" |
-| `[SECURITY_SERVICES]` | Specify the security services | "IAM", "Secrets Manager", "WAF", "Shield", "GuardDuty", "Security Hub" |
-| `[MONITORING_SERVICES]` | Specify the monitoring services | "CloudWatch", "X-Ray", "CloudTrail", "Config", "Trusted Advisor" |
-| `[MANAGEMENT_SERVICES]` | Specify the management services | "Systems Manager", "Control Tower", "Organizations", "Service Catalog" |
-| `[AIML_SERVICES]` | Specify the aiml services | "SageMaker", "Bedrock", "Rekognition", "Comprehend", "Forecast" |
-| `[ANALYTICS_SERVICES]` | Specify the analytics services | "Athena", "Redshift", "QuickSight", "Kinesis", "Glue" |
-| `[NETWORK_DESIGN]` | Specify the network design | "Hub-and-spoke topology", "Segmented VPCs per environment", "Service mesh overlay" |
-| `[VPC_CONFIGURATION]` | Specify the vpc configuration | "10.0.0.0/16 CIDR", "3 AZs", "Public/private/data subnets", "NAT Gateway per AZ" |
-| `[SUBNET_STRATEGY]` | Specify the subnet strategy | "/24 subnets per tier/AZ", "Public for ALB", "Private for compute", "Isolated for databases" |
-| `[ROUTING_CONFIGURATION]` | Specify the routing configuration | "Route tables per subnet tier", "Transit Gateway attachments", "VPC endpoints for AWS services" |
-| `[SECURITY_GROUPS]` | Specify the security groups | "Least privilege rules", "App-tier to DB-tier only", "No 0.0.0.0/0 ingress", "Tag-based management" |
-| `[CLOUD_LOAD_BALANCING]` | Specify the cloud load balancing | "ALB for HTTP/HTTPS", "NLB for TCP", "Cross-zone enabled", "Target group health checks" |
-| `[CDN_CONFIGURATION]` | Specify the cdn configuration | "CloudFront distributions", "S3 origin with OAC", "Lambda@Edge for auth", "Cache behaviors per path" |
-| `[DNS_STRATEGY]` | Specify the dns strategy | "Route 53 hosted zones", "Alias records to ALB", "Health check failover", "Geolocation routing" |
-| `[VPN_CONFIGURATION]` | Specify the vpn configuration | "Site-to-site VPN", "Client VPN for remote access", "BGP routing", "Redundant tunnels" |
-| `[DIRECT_CONNECT]` | Specify the direct connect | "1Gbps dedicated connection", "LAG for redundancy", "Private VIF to VPC", "Transit VIF to TGW" |
-| `[CLOUD_SECURITY_FRAMEWORK]` | Specify the cloud security framework | "AWS Well-Architected Security", "CIS Benchmarks", "NIST CSF", "Zero Trust principles" |
-| `[CLOUD_IDENTITY_MANAGEMENT]` | Specify the cloud identity management | "IAM Identity Center with Okta", "Role-based access", "MFA enforced", "Permission boundaries" |
-| `[CLOUD_ACCESS_CONTROL]` | Specify the cloud access control | "RBAC with IAM policies", "SCP guardrails", "Resource-based policies", "Attribute-based (ABAC)" |
-| `[CLOUD_DATA_PROTECTION]` | Specify the cloud data protection | "KMS CMK encryption", "S3 bucket policies", "RDS encryption", "Macie for PII discovery" |
-| `[CLOUD_NETWORK_SECURITY]` | Specify the cloud network security | "Security groups", "NACLs", "WAF rules", "Network Firewall", "VPC Flow Logs" |
-| `[CLOUD_APPLICATION_SECURITY]` | Specify the cloud application security | "Secrets Manager", "Parameter Store", "Certificate Manager", "Inspector scanning" |
-| `[CLOUD_MONITORING_SECURITY]` | Specify the cloud monitoring security | "CloudTrail logging", "GuardDuty threat detection", "Security Hub aggregation", "SIEM integration" |
-| `[COMPLIANCE_CONTROLS]` | Specify the compliance controls | "AWS Config rules", "Conformance packs", "Audit Manager", "Automated remediation" |
-| `[CLOUD_KEY_MANAGEMENT]` | Specify the cloud key management | "KMS with automatic rotation", "Customer-managed CMK", "Key policies per service", "CloudHSM for compliance" |
-| `[THREAT_DETECTION]` | Specify the threat detection | "GuardDuty findings", "Security Hub insights", "CloudWatch anomaly detection", "Third-party SIEM" |
-| `[AVAILABILITY_DESIGN]` | Specify the availability design | "Multi-AZ deployment", "99.99% target SLA", "Active-active architecture", "Auto-healing" |
-| `[REDUNDANCY_STRATEGY]` | Specify the redundancy strategy | "3 AZs minimum", "Cross-region read replicas", "S3 cross-region replication", "Global database" |
-| `[FAILOVER_MECHANISMS]` | Specify the failover mechanisms | "Route 53 health check failover", "Aurora automatic failover", "ASG health checks", "ELB cross-zone" |
-| `[LOAD_DISTRIBUTION]` | Specify the load distribution | "Round-robin across AZs", "Least connections", "Weighted routing", "Session affinity when needed" |
-| `[GEOGRAPHIC_DISTRIBUTION]` | Specify the geographic distribution | "Primary us-east-1", "DR eu-west-1", "Edge locations via CloudFront", "Latency-based routing" |
-| `[CLOUD_BACKUP_STRATEGY]` | Specify the cloud backup strategy | "AWS Backup centralized", "Daily automated snapshots", "35-day retention", "Cross-region copy" |
-| `[CLOUD_DISASTER_RECOVERY]` | Specify the cloud disaster recovery | "Pilot light DR region", "Elastic Disaster Recovery", "RTO <1hr", "RPO <15min" |
-| `[CLOUD_BUSINESS_CONTINUITY]` | Specify the cloud business continuity | "Multi-region architecture", "Runbook automation", "Quarterly DR testing", "Communication plan" |
-| `[RTO_RPO_TARGETS]` | Specify the rto rpo targets | "RTO: 1 hour", "RPO: 15 minutes", "Tier-1 critical systems", "Tier-2: 4hr/1hr" |
-| `[AVAILABILITY_TESTING]` | Specify the availability testing | "Chaos engineering with Fault Injection Simulator", "Game days quarterly", "Failover drills monthly" |
-| `[CLOUD_SCALING_STRATEGY]` | Specify the cloud scaling strategy | "Horizontal scaling preferred", "Auto Scaling Groups", "Predictive scaling", "Scheduled scaling" |
-| `[CLOUD_AUTO_SCALING]` | Specify the cloud auto scaling | "Target tracking 70% CPU", "Step scaling for spikes", "Min 2 / Max 50 instances", "Cooldown 300s" |
-| `[CLOUD_PERFORMANCE_OPTIMIZATION]` | Specify the cloud performance optimization | "Instance right-sizing", "GP3 storage", "ElastiCache caching", "CloudFront edge caching" |
-| `[CLOUD_CAPACITY_PLANNING]` | Specify the cloud capacity planning | "Monthly utilization reviews", "Compute Optimizer recommendations", "Reserved capacity planning" |
-| `[CLOUD_RESOURCE_MANAGEMENT]` | Specify the cloud resource management | "Tagging standards", "Resource Groups", "Service Catalog products", "Infrastructure as Code" |
-| `[CLOUD_MONITORING_STRATEGY]` | Specify the cloud monitoring strategy | "CloudWatch unified", "Container Insights", "Custom metrics", "Dashboard per service" |
-| `[CLOUD_ALERTING]` | Specify the cloud alerting | "CloudWatch alarms", "SNS notifications", "PagerDuty integration", "Escalation policies" |
-| `[CLOUD_PERFORMANCE_TESTING]` | Specify the cloud performance testing | "Load testing with k6", "AWS Load Testing service", "Baseline benchmarks", "Canary testing" |
-| `[CLOUD_OPTIMIZATION]` | Specify the cloud optimization | "Trusted Advisor recommendations", "Compute Optimizer", "Cost Explorer analysis", "Graviton migration" |
-| `[CLOUD_COST_MANAGEMENT]` | Specify the cloud cost management | "AWS Cost Explorer", "Budgets with alerts", "Cost allocation tags", "Savings Plans", "Kubecost" |
+## Cross-References
 
-
-
-## Related Resources
-
-### Complementary Templates
-
-Enhance your workflow by combining this template with:
-
-- **[Cloud Architecture Framework](cloud-architecture-framework.md)** - Complementary approaches and methodologies
-- **[Site Reliability Engineering](site-reliability-engineering.md)** - Complementary approaches and methodologies
-- **[Cloud Migration Strategy](cloud-migration-strategy.md)** - Strategic planning and execution frameworks
-
-### Suggested Workflow
-
-**Typical implementation sequence**:
-
-1. Start with this template (Cloud Architecture Template)
-2. Use [Cloud Architecture Framework](cloud-architecture-framework.md) for deeper analysis
-3. Apply [Site Reliability Engineering](site-reliability-engineering.md) for execution
-4. Iterate and refine based on results
-
-### Explore More in This Category
-
-Browse all **[technology/DevOps & Cloud](../../technology/DevOps & Cloud/)** templates for related tools and frameworks.
-
-### Common Use Case Combinations
-
-- **Creating design comprehensive cloud architecture patterns for aws, azure, gcp including multi-cloud, hybrid, and cloud-native solutions with scalability, security, and cost optimization.**: Combine this template with related analytics and strategy frameworks
-- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
-- **Strategy development**: Combine this template with related analytics and strategy frameworks
-
-## Best Practices
-
-1. **Design for cloud-native architectures and services**
-2. **Implement multi-region deployment for high availability**
-3. **Use managed services to reduce operational overhead**
-4. **Apply security best practices and principle of least privilege**
-5. **Optimize costs through right-sizing and reserved capacity**
+- [Infrastructure as Code](infrastructure-as-code.md) - Terraform/CloudFormation patterns for cloud provisioning
+- [Container Orchestration](container-orchestration.md) - Kubernetes architecture on cloud providers
+- [Cloud Migration Strategy](cloud-migration-strategy.md) - Migration patterns and cloud adoption frameworks

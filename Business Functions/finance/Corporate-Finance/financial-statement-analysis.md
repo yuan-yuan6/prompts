@@ -1,256 +1,98 @@
 ---
-title: Financial Statement Analysis
+title: Financial Statement Analysis Readiness Assessment
 category: finance
 tags:
 - financial-statements
 - income-statement
 - balance-sheet
 - cash-flow-analysis
+- readiness-assessment
 use_cases:
-- Analyzing income statements, balance sheets, and cash flow statements
-- Evaluating financial performance and trends
-- Assessing financial health and sustainability
+- Assess readiness to produce consistent, decision-grade analysis of income statements, balance sheets, and cash flows.
+- Standardize normalization adjustments, methods, and review practices across teams.
 related_templates:
 - finance/Corporate-Finance/financial-ratio-analysis.md
 - finance/Corporate-Finance/financial-forecasting.md
 - finance/Corporate-Finance/financial-risk-assessment.md
-last_updated: 2025-11-09
+- finance/Corporate-Finance/financial-valuation-recommendations.md
 industries:
 - finance
 - retail
 - technology
-type: template
+type: framework
 difficulty: intermediate
-slug: financial-statement-analysis
+slug: financial-statement-analysis-readiness-assessment
 ---
 
-# Financial Statement Analysis
+# Financial Statement Analysis Readiness Assessment
 
 ## Purpose
-Analyze income statements, balance sheets, and cash flow statements to evaluate company financial performance, identify trends, and assess financial health.
+Assess how ready your organization is to analyze financial statements in a way that is comparable over time, consistent across analysts, and usable for decisions (credit, investment, board reporting).
 
-## Quick Financial Statement Prompt
-Analyze [company] FY [year] financials: revenue $[X] (vs prior $[Y]), operating income $[Z], net income $[W], total assets $[A], cash $[B], operating cash flow $[C]. Assess: profitability trends, liquidity position, cash generation quality, working capital efficiency. Compare to [industry benchmarks/peers]. Identify: 3 strengths, 3 concerns, action items for management.
+## Quick Assessment Prompt
+Assess statement-analysis readiness for [COMPANY_NAME] for [ANALYSIS_PERIOD] using [STATEMENT_YEARS] years of data. Evaluate data completeness and reconciliation, normalization discipline, core analysis methods, cash flow and working capital rigor, benchmarking context, and governance/storytelling. Score each 1–5 and list the top 3 gaps and next actions.
 
-## Quick Start
+## Readiness Scorecard (1–5 each)
+Rate each dimension from 1 (ad hoc) to 5 (disciplined and repeatable). Total score is the sum across 6 dimensions (max 30).
 
-### Minimal Example
-"Analyze FY 2024 financial statements for RetailCo: Revenue $150M (up from $120M), Operating Income $30M, Net Income $22M, Total Assets $200M, Cash $40M, Operating Cash Flow $35M. Assess profitability trends, liquidity position, and cash generation quality."
+1) Data Coverage & Reconciliation
+- 1: Statements are incomplete; definitions vary; reconciliations are missing.
+- 3: Core statements exist; reconciliation happens for major cycles.
+- 5: Traceable sources, reconciliations, and consistent definitions are standard.
 
-### When to Use
-- Evaluating company financial health before investment decisions
-- Conducting due diligence for mergers or acquisitions
-- Assessing creditworthiness and lending risk
-- Monitoring financial performance of portfolio companies
-- Preparing board presentations or investor reports
+2) Normalization & Adjustments Discipline
+- 1: One-time items and accounting changes are handled inconsistently.
+- 3: Adjustments are noted but not standardized.
+- 5: Adjustment log (rationale/source) is maintained and consistently applied.
 
-### 3-Step Workflow
-1. **Gather Financial Data**: Collect income statements, balance sheets, and cash flow statements for current and prior periods; identify industry benchmarks and peer companies
-2. **Generate Analysis**: Input financial data into the template to receive comprehensive analysis covering profitability, liquidity, efficiency, and cash flow metrics
-3. **Review and Action**: Evaluate the insights, identify key strengths and concerns, compare to industry standards, and develop action items for management attention
+3) Core Methods & KPIs
+- 1: Methods vary by analyst; outputs are inconsistent.
+- 3: Common-size and trend views exist for key cycles.
+- 5: Standard method set (common-size, growth, margins, bridges) is enforced.
 
-## Template
+4) Cash Flow & Working Capital Rigor
+- 1: Cash flow is summarized; working capital drivers are unclear.
+- 3: OCF/FCF tracked; working capital drivers reviewed periodically.
+- 5: Cash conversion drivers (DSO/DIO/DPO) and bridges are standard.
 
-```
-You are a financial analyst specializing in financial statement analysis. Analyze the following financial statements and provide detailed insights:
+5) Benchmarking & Context
+- 1: Results are interpreted without peers or historical context.
+- 3: Benchmarking used for high-stakes decisions.
+- 5: Peer criteria, benchmark sources, and refresh cadence are defined.
 
-Company Information:
-- Company Name: [COMPANY_NAME]
-- Industry: [INDUSTRY_SECTOR]
-- Analysis Period: [ANALYSIS_PERIOD]
-- Fiscal Year End: [FISCAL_YEAR_END]
+6) Governance, Review & Decision Narrative
+- 1: No review checklist; conclusions vary by author.
+- 3: Review occurs for major packages.
+- 5: QA gates, sign-offs, and consistent executive storytelling are standard.
 
-Financial Data:
-- Current Revenue: [CURRENT_REVENUE]
-- Prior Revenue: [PRIOR_REVENUE]
-- Gross Profit: [GROSS_PROFIT]
-- Operating Income: [OPERATING_INCOME]
-- Net Income: [NET_INCOME]
-- Total Assets: [TOTAL_ASSETS]
-- Total Liabilities: [TOTAL_LIABILITIES]
-- Shareholders' Equity: [EQUITY]
-- Cash Position: [CASH]
-- Operating Cash Flow: [OCF]
-- Capital Expenditures: [CAPEX]
+## Deliverables
+- Statement pack (income statement, balance sheet, cash flow) with reconciliation notes
+- Common-size and trend views (multi-year) with key drivers
+- Adjustment log (one-time items, accounting changes, normalization)
+- Working capital and cash conversion commentary (drivers and implications)
+- Key findings and questions list aligned to the decision context
 
-## 1. INCOME STATEMENT ANALYSIS
-
-### Revenue Analysis
-Analyze and provide:
-- Revenue growth rate (current vs. prior period)
-- Revenue quality and sustainability assessment
-- Revenue composition and diversification
-- Seasonal or cyclical patterns identification
-- Key growth drivers and headwinds
-- Market share implications
-- Pricing power indicators
-
-### Profitability Analysis
-
-#### Gross Profit
-- Calculate gross margin: (Gross Profit / Revenue) × 100
-- Evaluate gross margin trends
-- Identify margin drivers (pricing, volume, cost)
-- Compare to industry benchmarks
-- Assess cost of goods sold efficiency
-- Evaluate product mix impact
-- Identify margin improvement opportunities
-
-#### Operating Profit
-- Calculate operating margin: (Operating Income / Revenue) × 100
-- Analyze operating expense efficiency
-- Evaluate SG&A expense trends
-- Assess operating leverage
-- Compare to peer companies
-- Identify cost control effectiveness
-- Determine margin expansion/compression factors
-
-#### Net Income
-- Calculate net margin: (Net Income / Revenue) × 100
-- Analyze interest expense burden
-- Evaluate tax rate efficiency
-- Assess earnings quality
-- Identify non-recurring items
-- Calculate adjusted earnings if needed
-- Determine earnings sustainability
-
-## 2. BALANCE SHEET ANALYSIS
-
-### Asset Analysis
-
-#### Current Assets
-- Evaluate cash adequacy for operations
-- Assess accounts receivable quality
-- Analyze inventory levels and turnover
-- Calculate working capital: Current Assets - Current Liabilities
-- Evaluate liquidity position
-- Identify asset quality issues
-- Assess collection and inventory efficiency
-
-#### Non-Current Assets
-- Analyze PP&E investment levels
-- Evaluate asset utilization efficiency
-- Assess depreciation policies
-- Review intangible assets and goodwill
-- Identify potential impairments
-- Evaluate capital allocation effectiveness
-- Determine future investment needs
-
-### Liability Analysis
-
-#### Current Liabilities
-- Assess accounts payable trends
-- Evaluate short-term debt obligations
-- Calculate current obligations coverage
-- Identify liquidity pressures
-- Analyze working capital management
-- Evaluate payment terms
-- Assess near-term cash requirements
-
-#### Long-Term Liabilities
-- Analyze debt structure and maturity
-- Evaluate interest rate exposure
-- Assess refinancing risks
-- Review pension obligations
-- Examine off-balance-sheet items
-- Evaluate covenant compliance
-- Determine debt capacity
-
-### Equity Analysis
-- Analyze equity structure
-- Evaluate retained earnings growth
-- Assess dividend sustainability
-- Review share buyback activity
-- Calculate book value per share
-- Evaluate shareholder dilution
-- Assess capital structure efficiency
-
-## 3. CASH FLOW STATEMENT ANALYSIS
-
-### Operating Cash Flow
-- Calculate free cash flow: OCF - CapEx
-- Evaluate cash conversion from earnings
-- Analyze working capital impact
-- Assess cash flow quality
-- Calculate cash flow margin: (OCF / Revenue) × 100
-- Compare cash flow to net income
-- Identify cash flow sustainability
-
-### Investing Cash Flow
-- Evaluate capital expenditure adequacy
-- Assess CapEx intensity: CapEx / Revenue
-- Analyze acquisition/divestiture activity
-- Evaluate return on invested capital
-- Identify strategic investments
-- Assess maintenance vs. growth CapEx
-- Determine future investment requirements
-
-### Financing Cash Flow
-- Analyze debt issuance/repayment
-- Evaluate dividend payment trends
-- Assess share buyback activity
-- Review interest payment burden
-- Evaluate financing strategy
-- Assess capital structure changes
-- Identify financing flexibility
-
-## 4. KEY INSIGHTS AND FINDINGS
-
-Provide:
-- Overall financial health assessment (Strong/Adequate/Weak)
-- Top 3 financial strengths
-- Top 3 financial concerns
-- Critical trends requiring attention
-- Comparison to industry standards
-- Working capital efficiency evaluation
-- Cash generation capability assessment
-
-### Action Items
-- Immediate financial priorities
-- Areas requiring management attention
-- Opportunities for improvement
-- Risks to monitor
-```
+## Maturity Scale
+- Level 1: Reactive — inconsistent inputs and interpretations.
+- Level 2: Documented — templates exist but methods vary.
+- Level 3: Repeatable — standard methods used for most decisions.
+- Level 4: Managed — cash flow rigor and governance are consistent.
+- Level 5: Optimizing — continuous improvement from outcomes and feedback.
 
 ## Variables
-- `[COMPANY_NAME]`: Company being analyzed
-- `[INDUSTRY_SECTOR]`: Industry classification
-- `[ANALYSIS_PERIOD]`: Period being analyzed (e.g., "Q4 2024", "FY 2024")
-- `[FISCAL_YEAR_END]`: Fiscal year end date
-- `[CURRENT_REVENUE]`: Current period revenue
-- `[PRIOR_REVENUE]`: Prior period revenue
-- `[GROSS_PROFIT]`: Gross profit amount
-- `[OPERATING_INCOME]`: Operating income amount
-- `[NET_INCOME]`: Net income amount
-- `[TOTAL_ASSETS]`: Total assets
-- `[TOTAL_LIABILITIES]`: Total liabilities
-- `[EQUITY]`: Shareholders' equity
-- `[CASH]`: Cash and cash equivalents
-- `[OCF]`: Operating cash flow
-- `[CAPEX]`: Capital expenditures
+- [COMPANY_NAME]
+- [INDUSTRY_SECTOR]
+- [ANALYSIS_PERIOD]
+- [STATEMENT_YEARS]
+- [ACCOUNTING_POLICY_NOTES]
+- [NORMALIZATION_ADJUSTMENTS]
+- [PEER_SET]
+- [DECISION_CONTEXT] (credit, investment, board reporting)
 
-## Usage Example
+## Example (Condensed)
+Board packet for a mid-market retailer.
+- Inputs: 5 years statements reconciled; lease accounting change documented.
+- Methods: common-size P&L, margin bridge, working capital driver review.
+- Context: peer medians and historical ranges.
+- Output: key findings + questions + implications for liquidity and funding.
 
-**Input:**
-- Company: TechGrow Inc.
-- Industry: Software (SaaS)
-- Period: FY 2024
-- Current Revenue: $150M
-- Prior Revenue: $120M
-- Operating Income: $30M
-- Net Income: $22M
-- Total Assets: $200M
-- Cash: $40M
-- OCF: $35M
-- CapEx: $10M
-
-**Analysis Focus:** Revenue growth sustainability, profitability trends, cash generation quality
-
-## Best Practices
-- Compare to prior periods (3-5 years if available)
-- Benchmark against industry peers
-- Focus on trends, not just point-in-time metrics
-- Identify non-recurring items
-- Assess quality of earnings and cash flows
-- Consider seasonal and cyclical factors
-- Link balance sheet changes to cash flow impacts

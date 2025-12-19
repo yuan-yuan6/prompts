@@ -1,658 +1,155 @@
 ---
 category: technology
-last_updated: 2025-11-09
 related_templates:
-- technology/cloud-architecture-framework.md
-- technology/site-reliability-engineering.md
-- technology/cloud-migration-strategy.md
+- technology/Data-Engineering/data-pipeline-design.md
+- technology/DevOps-Cloud/cloud-architecture.md
+- technology/Software-Development/architecture-design.md
 tags:
 - integration-patterns
 - api-integration
 - event-driven
 - messaging
-title: Integration Patterns Template
+title: Integration Patterns
 use_cases:
-- Creating design comprehensive integration patterns for apis, messaging systems,
-  event-driven architectures, data synchronization, and system interoperability with
-  scalability, reliability, and maintainability considerations.
-- Project planning and execution
-- Strategy development
+- Designing API integration architectures with Kong/AWS API Gateway, OAuth 2.0, rate limiting achieving <100ms latency at 10K TPS
+- Implementing event-driven architectures with Kafka/RabbitMQ for decoupled, scalable microservices with exactly-once processing
+- Building data synchronization patterns using CDC, batch sync, and real-time streaming for multi-system data consistency
 industries:
-- finance
-- government
-- manufacturing
-- retail
 - technology
-type: template
+- financial-services
+- healthcare
+- retail
+type: framework
 difficulty: intermediate
 slug: integration-patterns
 ---
 
-# Integration Patterns Template
+# Integration Patterns
 
 ## Purpose
-Design comprehensive integration patterns for APIs, messaging systems, event-driven architectures, data synchronization, and system interoperability with scalability, reliability, and maintainability considerations.
+Design comprehensive integration architectures covering API patterns, messaging systems, event-driven architecture, and data synchronization achieving scalability, reliability, and maintainability for enterprise system interoperability.
 
-## Quick Integration Prompt
-Integrate [source systems] with [target]. Pattern: [sync API/async messaging/event streaming/CDC]. Volume: [X requests/sec], latency: [requirement]. Components: API Gateway ([Kong/AWS API GW]), message broker ([Kafka/RabbitMQ]), error handling (circuit breaker, retry, DLQ). Security: OAuth 2.0/JWT, rate limiting. Monitoring: throughput, latency p95/p99, error rates, consumer lag.
+## 🚀 Quick Integration Prompt
 
----
-
-## Quick Start
-
-**Integration Architecture (2-3 Days):**
-1. **Choose integration pattern** - Sync request-reply → REST API, Async → message queue (Kafka/RabbitMQ), Real-time → event streaming
-2. **Implement API Gateway** - Deploy Kong/AWS API Gateway, configure authentication (OAuth 2.0/JWT), enable rate limiting (1000 req/min)
-3. **Set up message broker** - Install Kafka/RabbitMQ, create topics/queues, configure retention, enable dead letter queue
-4. **Design error handling** - Implement circuit breaker (fail after 5 errors), retry with exponential backoff (3 attempts), log all failures
-5. **Add monitoring** - Track message throughput, API latency (p95/p99), error rates, consumer lag - alert on anomalies
-
-**Key Decision:** For <1000 TPS use synchronous APIs. For >1000 TPS or decoupling needs, use asynchronous messaging.
+> Integrate **[SOURCE_SYSTEMS]** with **[TARGET_SYSTEMS]**. Pattern: **[SYNC_API/ASYNC_MESSAGING/EVENT_STREAMING/CDC]**. Volume: **[X]** requests/sec, latency: **[Y]**ms. Components: API Gateway (**[KONG/AWS_API_GW]**), message broker (**[KAFKA/RABBITMQ]**). Error handling: circuit breaker, retry **[N]**x, DLQ. Security: **[OAUTH/JWT/MTLS]**, rate limiting **[RATE]**/min. Monitoring: throughput, latency p99, error rates, consumer lag.
 
 ---
 
-## Template Structure
+## Template
 
-### Integration Overview
-- **Integration Name**: [INTEGRATION_NAME]
-- **Integration Type**: [INTEGRATION_TYPE]
-- **Business Purpose**: [BUSINESS_PURPOSE]
-- **Integration Scope**: [INTEGRATION_SCOPE]
-- **Stakeholders**: [STAKEHOLDERS]
-- **Performance Requirements**: [PERFORMANCE_REQUIREMENTS]
-- **Scalability Requirements**: [SCALABILITY_REQUIREMENTS]
-- **Reliability Requirements**: [RELIABILITY_REQUIREMENTS]
-- **Security Requirements**: [SECURITY_REQUIREMENTS]
-- **Compliance Requirements**: [COMPLIANCE_REQUIREMENTS]
+Design integration architecture for {USE_CASE} connecting {SOURCE_SYSTEMS} to {TARGET_SYSTEMS} achieving {THROUGHPUT} throughput with {LATENCY} latency and {RELIABILITY}% reliability.
 
-### System Architecture
-- **Source Systems**: [SOURCE_SYSTEMS]
-- **Target Systems**: [TARGET_SYSTEMS]
-- **Integration Layer**: [INTEGRATION_LAYER]
-- **Middleware Components**: [MIDDLEWARE_COMPONENTS]
-- **Communication Protocols**: [COMMUNICATION_PROTOCOLS]
-- **Data Formats**: [DATA_FORMATS]
-- **Message Patterns**: [MESSAGE_PATTERNS]
-- **Integration Topology**: [INTEGRATION_TOPOLOGY]
-- **Network Architecture**: [NETWORK_ARCHITECTURE]
-- **Security Architecture**: [SECURITY_ARCHITECTURE]
+**INTEGRATION PATTERN SELECTION**
 
-### API Integration Patterns
-- **API Design Style**: [API_DESIGN_STYLE]
-- **API Protocol**: [API_PROTOCOL]
-- **API Gateway**: [API_GATEWAY]
-- **Authentication Method**: [AUTHENTICATION_METHOD]
-- **Authorization Model**: [AUTHORIZATION_MODEL]
-- **Rate Limiting**: [RATE_LIMITING]
-- **API Versioning**: [API_VERSIONING]
-- **Request/Response Format**: [REQUEST_RESPONSE_FORMAT]
-- **Error Handling**: [API_ERROR_HANDLING]
-- **Documentation Standard**: [DOCUMENTATION_STANDARD]
+Choose pattern based on coupling requirements and latency tolerance. Synchronous request-reply: tight coupling, immediate response required, suitable for <1000 TPS, REST/gRPC APIs. Asynchronous messaging: loose coupling, eventual consistency acceptable, suitable for >1000 TPS, queue or topic-based. Event-driven: publish-subscribe, multiple consumers, event sourcing for audit, real-time reactions. Hybrid: synchronous for queries, async for commands, balance responsiveness with scalability.
 
-### Messaging Patterns
-- **Message Broker**: [MESSAGE_BROKER]
-- **Messaging Paradigm**: [MESSAGING_PARADIGM]
-- **Message Routing**: [MESSAGE_ROUTING]
-- **Message Transformation**: [MESSAGE_TRANSFORMATION]
-- **Message Serialization**: [MESSAGE_SERIALIZATION]
-- **Message Ordering**: [MESSAGE_ORDERING]
-- **Message Durability**: [MESSAGE_DURABILITY]
-- **Message Acknowledgment**: [MESSAGE_ACKNOWLEDGMENT]
-- **Dead Letter Handling**: [DEAD_LETTER_HANDLING]
-- **Message Retention**: [MESSAGE_RETENTION]
+Match pattern to data characteristics. Real-time data (<1 second freshness): event streaming with Kafka/Kinesis. Near-real-time (1-15 minutes): CDC with Debezium, micro-batch processing. Batch (hourly/daily): traditional ETL, file-based integration, scheduled jobs. Request-response: API calls for on-demand data retrieval, caching for performance.
 
-### Event-Driven Architecture
-- **Event Streaming Platform**: [EVENT_STREAMING_PLATFORM]
-- **Event Schema**: [EVENT_SCHEMA]
-- **Event Sourcing**: [EVENT_SOURCING]
-- **Event Store**: [EVENT_STORE]
-- **Event Processing**: [EVENT_PROCESSING]
-- **Event Choreography**: [EVENT_CHOREOGRAPHY]
-- **Event Orchestration**: [EVENT_ORCHESTRATION]
-- **Event Replay**: [EVENT_REPLAY]
-- **Event Versioning**: [EVENT_VERSIONING]
-- **Event Governance**: [EVENT_GOVERNANCE]
+Consider operational complexity tradeoffs. Synchronous: simpler debugging, single transaction boundary, cascading failures risk. Asynchronous: complex debugging (distributed tracing required), retry handling, dead letter management. Event-driven: event schema management, consumer lag monitoring, replay capability. Choose simplest pattern that meets requirements.
 
-### Data Synchronization
-- **Synchronization Strategy**: [SYNCHRONIZATION_STRATEGY]
-- **Data Consistency Model**: [DATA_CONSISTENCY_MODEL]
-- **Conflict Resolution**: [CONFLICT_RESOLUTION]
-- **Change Data Capture**: [CHANGE_DATA_CAPTURE]
-- **Replication Method**: [REPLICATION_METHOD]
-- **Sync Frequency**: [SYNC_FREQUENCY]
-- **Data Validation**: [DATA_VALIDATION]
-- **Error Recovery**: [ERROR_RECOVERY]
-- **Monitoring**: [SYNC_MONITORING]
-- **Performance Optimization**: [SYNC_OPTIMIZATION]
+**API INTEGRATION**
 
-### Enterprise Service Bus
-- **ESB Platform**: [ESB_PLATFORM]
-- **Service Registry**: [SERVICE_REGISTRY]
-- **Service Discovery**: [SERVICE_DISCOVERY]
-- **Message Mediation**: [MESSAGE_MEDIATION]
-- **Protocol Translation**: [PROTOCOL_TRANSLATION]
-- **Data Transformation**: [DATA_TRANSFORMATION]
-- **Routing Logic**: [ROUTING_LOGIC]
-- **Service Orchestration**: [SERVICE_ORCHESTRATION]
-- **Quality of Service**: [QUALITY_OF_SERVICE]
-- **Governance Framework**: [GOVERNANCE_FRAMEWORK]
+Design REST APIs following best practices. Resource-oriented design: nouns for resources (/orders, /customers), HTTP verbs for actions. Versioning strategy: URL path (/v1/orders) for breaking changes, header versioning for minor. Response format: JSON with consistent structure, RFC 7807 problem details for errors. HATEOAS: include links for discoverability (optional but useful for complex APIs).
 
-### Microservices Integration
-- **Service Mesh**: [SERVICE_MESH]
-- **Inter-Service Communication**: [INTER_SERVICE_COMMUNICATION]
-- **Service Discovery**: [MICROSERVICE_DISCOVERY]
-- **Load Balancing**: [LOAD_BALANCING]
-- **Circuit Breaker**: [CIRCUIT_BREAKER]
-- **Bulkhead Pattern**: [BULKHEAD_PATTERN]
-- **Saga Pattern**: [SAGA_PATTERN]
-- **CQRS Pattern**: [CQRS_PATTERN]
-- **API Gateway**: [MICROSERVICE_GATEWAY]
-- **Service Monitoring**: [SERVICE_MONITORING]
+Configure API Gateway for cross-cutting concerns. Gateway selection: Kong (open source, flexible), AWS API Gateway (managed, serverless), Apigee (enterprise, analytics). Authentication: OAuth 2.0 + JWT for user context, API keys for service-to-service, mTLS for zero-trust. Rate limiting: per-client limits (1000 req/min), burst handling, graceful degradation on limit. Request transformation: header injection, payload modification, protocol translation.
 
-### Data Integration
-- **ETL/ELT Strategy**: [ETL_ELT_STRATEGY]
-- **Data Pipeline**: [DATA_PIPELINE]
-- **Data Mapping**: [DATA_MAPPING]
-- **Schema Evolution**: [SCHEMA_EVOLUTION]
-- **Data Quality**: [DATA_QUALITY]
-- **Master Data Management**: [MASTER_DATA_MANAGEMENT]
-- **Data Catalog**: [DATA_CATALOG]
-- **Data Lineage**: [DATA_LINEAGE]
-- **Metadata Management**: [METADATA_MANAGEMENT]
-- **Data Governance**: [DATA_GOVERNANCE]
+Implement resilience patterns at API layer. Timeout configuration: connect timeout (1-5s), read timeout (5-30s), fail fast on slow dependencies. Retry logic: exponential backoff with jitter (1s, 2s, 4s), max 3 retries, idempotency keys for safety. Circuit breaker: open after 5 consecutive failures, half-open after 30s, close on success. Bulkhead: separate thread pools per dependency, prevent cascading failures.
 
-### Real-time Integration
-- **Streaming Architecture**: [STREAMING_ARCHITECTURE]
-- **Stream Processing**: [STREAM_PROCESSING]
-- **Real-time Analytics**: [REALTIME_ANALYTICS]
-- **Complex Event Processing**: [COMPLEX_EVENT_PROCESSING]
-- **Time Window Processing**: [TIME_WINDOW_PROCESSING]
-- **State Management**: [STATE_MANAGEMENT]
-- **Backpressure Handling**: [BACKPRESSURE_HANDLING]
-- **Fault Tolerance**: [FAULT_TOLERANCE]
-- **Exactly-Once Processing**: [EXACTLY_ONCE_PROCESSING]
-- **Latency Requirements**: [LATENCY_REQUIREMENTS]
+**MESSAGING ARCHITECTURE**
 
-### Batch Integration
-- **Batch Processing Framework**: [BATCH_FRAMEWORK]
-- **Job Scheduling**: [JOB_SCHEDULING]
-- **Batch Size Optimization**: [BATCH_SIZE_OPTIMIZATION]
-- **Parallel Processing**: [PARALLEL_PROCESSING]
-- **Error Handling**: [BATCH_ERROR_HANDLING]
-- **Recovery Mechanisms**: [RECOVERY_MECHANISMS]
-- **Job Dependencies**: [JOB_DEPENDENCIES]
-- **Resource Management**: [RESOURCE_MANAGEMENT]
-- **Monitoring**: [BATCH_MONITORING]
-- **Performance Tuning**: [BATCH_TUNING]
+Select message broker matching requirements. Apache Kafka: high throughput (millions msg/sec), ordered within partition, replay from offset, strong durability. RabbitMQ: flexible routing, message acknowledgment, lower throughput but simpler operations. AWS SQS/SNS: managed, auto-scaling, integrated with AWS ecosystem, limited features. Azure Service Bus: enterprise features, transactions, sessions, Azure-native.
 
-### File-Based Integration
-- **File Transfer Protocol**: [FILE_TRANSFER_PROTOCOL]
-- **File Formats**: [FILE_FORMATS]
-- **File Processing**: [FILE_PROCESSING]
-- **File Validation**: [FILE_VALIDATION]
-- **File Encryption**: [FILE_ENCRYPTION]
-- **File Archiving**: [FILE_ARCHIVING]
-- **Error Handling**: [FILE_ERROR_HANDLING]
-- **Retry Mechanisms**: [FILE_RETRY_MECHANISMS]
-- **Monitoring**: [FILE_MONITORING]
-- **Cleanup Procedures**: [CLEANUP_PROCEDURES]
+Design topics and queues for scalability. Kafka topics: partition by entity key for ordering, 10-50 partitions for parallelism, replication factor 3. Queue patterns: work queue (competing consumers), pub/sub (fan-out), routing (content-based). Message retention: 7 days default for replay, longer for audit, compacted topics for latest-value semantics. Consumer groups: separate groups per use case, track offset per group.
 
-### Database Integration
-- **Database Connectivity**: [DATABASE_CONNECTIVITY]
-- **Connection Pooling**: [CONNECTION_POOLING]
-- **Transaction Management**: [TRANSACTION_MANAGEMENT]
-- **Data Replication**: [DATA_REPLICATION]
-- **Change Tracking**: [CHANGE_TRACKING]
-- **Stored Procedures**: [STORED_PROCEDURES]
-- **Query Optimization**: [QUERY_OPTIMIZATION]
-- **Error Handling**: [DB_ERROR_HANDLING]
-- **Performance Monitoring**: [DB_PERFORMANCE_MONITORING]
-- **Security**: [DB_SECURITY]
+Configure message delivery guarantees. At-most-once: fire and forget, lowest latency, acceptable data loss. At-least-once: acknowledge after processing, retry on failure, requires idempotent consumers. Exactly-once: transactional processing, deduplication, highest complexity and latency. Choose based on data criticality: financial transactions need exactly-once, logs can be at-most-once.
 
-### Cloud Integration
-- **Cloud Strategy**: [CLOUD_STRATEGY]
-- **Multi-Cloud Integration**: [MULTI_CLOUD_INTEGRATION]
-- **Hybrid Integration**: [HYBRID_INTEGRATION]
-- **Cloud-Native Services**: [CLOUD_NATIVE_SERVICES]
-- **Serverless Integration**: [SERVERLESS_INTEGRATION]
-- **Container Integration**: [CONTAINER_INTEGRATION]
-- **Cloud Security**: [CLOUD_SECURITY]
-- **Cost Optimization**: [CLOUD_COST_OPTIMIZATION]
-- **Performance**: [CLOUD_PERFORMANCE]
-- **Compliance**: [CLOUD_COMPLIANCE]
+Handle message failures systematically. Dead letter queue (DLQ): route failed messages after max retries, preserve for investigation. Poison message handling: detect and quarantine malformed messages, don't block queue. Retry strategies: immediate retry for transient failures, delayed retry for rate limits. Monitoring: consumer lag, DLQ depth, processing latency, error rates by error type.
 
-### Security Integration
-- **Authentication**: [INTEGRATION_AUTHENTICATION]
-- **Authorization**: [INTEGRATION_AUTHORIZATION]
-- **Data Encryption**: [INTEGRATION_ENCRYPTION]
-- **Network Security**: [INTEGRATION_NETWORK_SECURITY]
-- **API Security**: [INTEGRATION_API_SECURITY]
-- **Message Security**: [MESSAGE_SECURITY]
-- **Identity Management**: [IDENTITY_MANAGEMENT]
-- **Key Management**: [KEY_MANAGEMENT]
-- **Audit Logging**: [INTEGRATION_AUDIT_LOGGING]
-- **Compliance Monitoring**: [INTEGRATION_COMPLIANCE_MONITORING]
+**EVENT-DRIVEN ARCHITECTURE**
 
-### Error Handling
-- **Error Classification**: [ERROR_CLASSIFICATION]
-- **Error Propagation**: [ERROR_PROPAGATION]
-- **Error Recovery**: [INTEGRATION_ERROR_RECOVERY]
-- **Compensation Actions**: [COMPENSATION_ACTIONS]
-- **Circuit Breaker**: [INTEGRATION_CIRCUIT_BREAKER]
-- **Retry Strategies**: [RETRY_STRATEGIES]
-- **Dead Letter Queues**: [INTEGRATION_DEAD_LETTER_QUEUES]
-- **Error Logging**: [ERROR_LOGGING]
-- **Alert Management**: [ALERT_MANAGEMENT]
-- **Escalation Procedures**: [ESCALATION_PROCEDURES]
+Design events for loose coupling. Event schema: CloudEvents standard, include type, source, timestamp, correlation ID. Schema registry: Confluent Schema Registry, AWS Glue Schema Registry, version management. Backward compatibility: add fields as optional, don't remove or rename, handle unknown fields. Event granularity: domain events (OrderCreated), not CRUD events (OrderTableRowInserted).
 
-### Monitoring and Observability
-- **Integration Monitoring**: [INTEGRATION_MONITORING]
-- **Performance Metrics**: [PERFORMANCE_METRICS]
-- **Business Metrics**: [BUSINESS_METRICS]
-- **Health Checks**: [HEALTH_CHECKS]
-- **Distributed Tracing**: [DISTRIBUTED_TRACING]
-- **Log Aggregation**: [LOG_AGGREGATION]
-- **Dashboard Design**: [MONITORING_DASHBOARD_DESIGN]
-- **Alerting Strategy**: [ALERTING_STRATEGY]
-- **SLA Monitoring**: [SLA_MONITORING]
-- **Capacity Planning**: [MONITORING_CAPACITY_PLANNING]
+Implement event sourcing for audit and replay. Event store: Kafka (simple), EventStoreDB (specialized), PostgreSQL with append-only table. State reconstruction: replay events to rebuild current state, snapshots for performance. Temporal queries: query state at any point in time, essential for financial and compliance. Event versioning: upcast old events to new schema, maintain backward compatibility.
 
-### Testing Strategy
-- **Integration Testing**: [INTEGRATION_TESTING]
-- **Contract Testing**: [CONTRACT_TESTING]
-- **End-to-End Testing**: [INTEGRATION_E2E_TESTING]
-- **Performance Testing**: [INTEGRATION_PERFORMANCE_TESTING]
-- **Load Testing**: [INTEGRATION_LOAD_TESTING]
-- **Chaos Testing**: [CHAOS_TESTING]
-- **Mock Services**: [MOCK_SERVICES]
-- **Test Data Management**: [INTEGRATION_TEST_DATA]
-- **Test Automation**: [INTEGRATION_TEST_AUTOMATION]
-- **Test Environment**: [TEST_ENVIRONMENT]
+Choose orchestration vs choreography. Choreography: services react to events independently, highly decoupled, harder to understand flow. Orchestration: central coordinator (Temporal, Camunda), explicit workflow, easier to debug. Saga pattern: distributed transactions via compensating actions, combine with either approach. Recommendation: choreography for simple flows, orchestration for complex multi-step processes.
 
-### Deployment and Operations
-- **Deployment Strategy**: [INTEGRATION_DEPLOYMENT_STRATEGY]
-- **CI/CD Pipeline**: [INTEGRATION_CICD_PIPELINE]
-- **Configuration Management**: [INTEGRATION_CONFIG_MANAGEMENT]
-- **Environment Management**: [INTEGRATION_ENVIRONMENT_MANAGEMENT]
-- **Version Control**: [INTEGRATION_VERSION_CONTROL]
-- **Release Management**: [INTEGRATION_RELEASE_MANAGEMENT]
-- **Rollback Procedures**: [INTEGRATION_ROLLBACK_PROCEDURES]
-- **Operational Procedures**: [OPERATIONAL_PROCEDURES]
-- **Support Model**: [SUPPORT_MODEL]
-- **Documentation**: [INTEGRATION_DOCUMENTATION]
+**DATA SYNCHRONIZATION**
 
-## Prompt Template
+Select sync strategy matching consistency requirements. Real-time CDC: Debezium captures database changes, <1 second latency, no application changes. Scheduled batch: periodic full or incremental extracts, simpler but higher latency. Event-driven: application publishes events on change, requires code changes but cleanest. API polling: pull changes via API, suitable for external systems without CDC access.
 
-Design comprehensive integration architecture for [INTEGRATION_NAME] [INTEGRATION_TYPE] supporting [BUSINESS_PURPOSE] across [INTEGRATION_SCOPE]. Meet [PERFORMANCE_REQUIREMENTS] performance, [SCALABILITY_REQUIREMENTS] scalability, and [RELIABILITY_REQUIREMENTS] reliability requirements while ensuring [SECURITY_REQUIREMENTS] security and [COMPLIANCE_REQUIREMENTS] compliance.
+Handle synchronization conflicts. Last-writer-wins: simple, timestamp-based, acceptable for non-critical data. Version vectors: track per-node versions, detect conflicts, require merge logic. Business rules: domain-specific conflict resolution, human review for complex cases. Conflict avoidance: single source of truth per field, partition ownership by region/time.
 
-**System Architecture:**
-- Integrate [SOURCE_SYSTEMS] with [TARGET_SYSTEMS]
-- Use [INTEGRATION_LAYER] with [MIDDLEWARE_COMPONENTS]
-- Implement [COMMUNICATION_PROTOCOLS] and [DATA_FORMATS]
-- Apply [MESSAGE_PATTERNS] in [INTEGRATION_TOPOLOGY]
-- Configure [NETWORK_ARCHITECTURE] with [SECURITY_ARCHITECTURE]
+Implement data consistency patterns. Eventual consistency: changes propagate with delay, suitable for most read-heavy systems. Strong consistency: synchronous replication, higher latency, required for critical operations. Saga pattern: distributed transactions with compensation, maintain consistency across services. Outbox pattern: transactional outbox table, ensure event publish with database change.
 
-**API Integration:**
-- Design [API_DESIGN_STYLE] APIs using [API_PROTOCOL]
-- Deploy [API_GATEWAY] with [AUTHENTICATION_METHOD]
-- Implement [AUTHORIZATION_MODEL] and [RATE_LIMITING]
-- Support [API_VERSIONING] with [REQUEST_RESPONSE_FORMAT]
-- Handle errors with [API_ERROR_HANDLING]
+**CHANGE DATA CAPTURE (CDC)**
 
-**Messaging Architecture:**
-- Use [MESSAGE_BROKER] for [MESSAGING_PARADIGM]
-- Implement [MESSAGE_ROUTING] and [MESSAGE_TRANSFORMATION]
-- Configure [MESSAGE_SERIALIZATION] with [MESSAGE_ORDERING]
-- Ensure [MESSAGE_DURABILITY] and [MESSAGE_ACKNOWLEDGMENT]
-- Handle failures with [DEAD_LETTER_HANDLING]
+Configure CDC for database replication. Debezium: open source, Kafka-native, supports PostgreSQL/MySQL/MongoDB/SQL Server. AWS DMS: managed service, supports heterogeneous replication, Aurora/RDS optimized. Oracle GoldenGate: enterprise, real-time, supports complex transformations. Striim: streaming CDC, built-in transformations, monitoring dashboard.
 
-**Event-Driven Processing:**
-- Deploy [EVENT_STREAMING_PLATFORM] with [EVENT_SCHEMA]
-- Implement [EVENT_SOURCING] using [EVENT_STORE]
-- Configure [EVENT_PROCESSING] with [EVENT_CHOREOGRAPHY]
-- Support [EVENT_REPLAY] and [EVENT_VERSIONING]
-- Govern with [EVENT_GOVERNANCE]
+Design CDC topics and schemas. Topic per table: source.database.schema.table naming convention, enables selective consumption. Schema evolution: Avro with schema registry, handle column additions/renames. Initial snapshot: full table snapshot followed by streaming changes, consistent starting point. Delete handling: tombstone messages for deletes, soft delete vs hard delete considerations.
 
-**Data Synchronization:**
-- Apply [SYNCHRONIZATION_STRATEGY] with [DATA_CONSISTENCY_MODEL]
-- Handle conflicts with [CONFLICT_RESOLUTION]
-- Use [CHANGE_DATA_CAPTURE] for [REPLICATION_METHOD]
-- Schedule [SYNC_FREQUENCY] with [DATA_VALIDATION]
-- Monitor with [SYNC_MONITORING] and optimize [SYNC_OPTIMIZATION]
+Monitor CDC pipeline health. Replication lag: time between source change and Kafka publish, alert on >5 seconds. Slot monitoring: PostgreSQL replication slots, prevent WAL bloat with slot advancement. Schema changes: detect DDL events, pause pipeline for breaking changes, automated handling for additive changes.
 
-**Real-time Processing:**
-- Implement [STREAMING_ARCHITECTURE] for [STREAM_PROCESSING]
-- Enable [REALTIME_ANALYTICS] and [COMPLEX_EVENT_PROCESSING]
-- Configure [TIME_WINDOW_PROCESSING] with [STATE_MANAGEMENT]
-- Handle [BACKPRESSURE_HANDLING] and ensure [FAULT_TOLERANCE]
-- Achieve [EXACTLY_ONCE_PROCESSING] within [LATENCY_REQUIREMENTS]
+**SERVICE MESH AND MICROSERVICES**
 
-**Security Implementation:**
-- Configure [INTEGRATION_AUTHENTICATION] and [INTEGRATION_AUTHORIZATION]
-- Enable [INTEGRATION_ENCRYPTION] and [INTEGRATION_NETWORK_SECURITY]
-- Secure APIs with [INTEGRATION_API_SECURITY] and messages with [MESSAGE_SECURITY]
-- Manage identities with [IDENTITY_MANAGEMENT] and keys with [KEY_MANAGEMENT]
-- Log with [INTEGRATION_AUDIT_LOGGING] and monitor [INTEGRATION_COMPLIANCE_MONITORING]
+Implement service mesh for microservices communication. Mesh selection: Istio (full-featured, complex), Linkerd (lightweight, simpler), Consul Connect (HashiCorp ecosystem). Traffic management: canary deployments, traffic splitting, fault injection for testing. mTLS: automatic encryption between services, certificate rotation, zero-trust security. Observability: automatic distributed tracing, service-to-service metrics, topology visualization.
 
-**Error Handling:**
-- Classify errors with [ERROR_CLASSIFICATION] and propagate with [ERROR_PROPAGATION]
-- Recover with [INTEGRATION_ERROR_RECOVERY] and compensate with [COMPENSATION_ACTIONS]
-- Implement [INTEGRATION_CIRCUIT_BREAKER] with [RETRY_STRATEGIES]
-- Use [INTEGRATION_DEAD_LETTER_QUEUES] and log with [ERROR_LOGGING]
-- Alert with [ALERT_MANAGEMENT] and escalate with [ESCALATION_PROCEDURES]
+Design inter-service communication patterns. Synchronous: REST/gRPC for request-response, use for queries and simple commands. Asynchronous: message queue for commands, event bus for events, use for decoupling. Service discovery: Kubernetes DNS, Consul, AWS Cloud Map for dynamic endpoint resolution. Load balancing: round-robin, least connections, consistent hashing for stateful workloads.
 
-**Monitoring Setup:**
-- Track [PERFORMANCE_METRICS] and [BUSINESS_METRICS]
-- Implement [HEALTH_CHECKS] and [DISTRIBUTED_TRACING]
-- Aggregate logs with [LOG_AGGREGATION] and create [MONITORING_DASHBOARD_DESIGN]
-- Configure [ALERTING_STRATEGY] and monitor [SLA_MONITORING]
-- Plan capacity with [MONITORING_CAPACITY_PLANNING]
+Implement resilience patterns. Circuit breaker: Resilience4j, Istio circuit breaker, fail fast on unhealthy dependencies. Retry with backoff: exponential backoff with jitter, max retries, idempotency required. Bulkhead: separate thread pools, connection limits per dependency. Timeout: explicit timeouts on all calls, propagate deadline through call chain.
 
-Please provide detailed architecture diagrams, implementation specifications, configuration examples, testing strategies, and operational procedures with specific recommendations for the target integration platform.
+**SECURITY AND COMPLIANCE**
+
+Secure integration endpoints. Authentication: OAuth 2.0 for user context, mTLS for service-to-service, API keys for simple cases. Authorization: RBAC for role-based, ABAC for attribute-based, policy engines (OPA) for complex rules. Encryption: TLS 1.3 in transit, AES-256 at rest, end-to-end encryption for sensitive data. Rate limiting: protect against abuse, per-client and global limits, graceful degradation.
+
+Implement audit and compliance. Audit logging: log all integration calls with correlation IDs, who/what/when/where. Data lineage: track data flow through integrations, required for GDPR/CCPA. Retention policies: comply with regulatory requirements, automated deletion. PII handling: mask in logs, encrypt in transit and at rest, access controls.
+
+**MONITORING AND OBSERVABILITY**
+
+Track integration health metrics. Throughput: messages/sec, requests/sec by endpoint, track trends. Latency: p50, p95, p99 latency, separate upstream vs downstream. Error rates: by error type, by endpoint, by client, set alerting thresholds. Availability: uptime percentage, MTBF, MTTR tracking.
+
+Implement distributed tracing. Tracing tools: Jaeger, Zipkin, AWS X-Ray, Datadog APM. Trace propagation: W3C trace context headers, consistent across all services. Span design: meaningful span names, include relevant attributes, sample appropriately (1-10%). Root cause analysis: trace waterfall for debugging, correlate with logs and metrics.
+
+Configure alerting for operational awareness. Critical alerts: integration down, error rate >5%, latency p99 >SLA. Warning alerts: consumer lag increasing, approaching rate limits, certificate expiration. Dashboards: integration health overview, per-integration details, dependency status.
+
+Deliver integration architecture as:
+
+1. **ARCHITECTURE DIAGRAM** - Component diagram showing systems, integration layer, data flows, protocols
+
+2. **API SPECIFICATION** - OpenAPI specs, authentication config, rate limits, versioning strategy
+
+3. **MESSAGING DESIGN** - Topic/queue structure, schemas, delivery guarantees, DLQ handling
+
+4. **EVENT CATALOG** - Event types, schemas, producers, consumers, versioning approach
+
+5. **SYNC CONFIGURATION** - CDC setup, sync schedules, conflict resolution, consistency guarantees
+
+6. **SECURITY CONTROLS** - Auth/authz configuration, encryption, audit logging, compliance mapping
+
+7. **MONITORING SETUP** - Metrics, alerts, dashboards, tracing configuration
+
+---
 
 ## Usage Examples
 
-### E-commerce Order Management Integration
-```
-Design comprehensive integration architecture for OrderProcessingIntegration API and messaging integration supporting order fulfillment across e-commerce platform, inventory, payment, shipping systems. Meet <100ms API response performance, 10K TPS scalability, and 99.9% reliability requirements while ensuring PCI DSS security and SOX compliance.
+### Example 1: E-commerce Order Processing
+**Prompt:** Design integration architecture for OrderProcessing connecting web/mobile apps, payment gateway, inventory system, and shipping carriers achieving 5K orders/hour with <200ms API latency and 99.9% reliability.
 
-System Architecture:
-- Integrate React frontend, Node.js services with PostgreSQL, Redis, Stripe, FedEx systems
-- Use Kong API Gateway integration layer with Kafka, Redis middleware components
-- Implement REST, GraphQL, gRPC communication protocols and JSON, Avro data formats
-- Apply request-reply, publish-subscribe message patterns in hub-and-spoke integration topology
-- Configure microservices network architecture with zero-trust security architecture
+**Expected Output:** Architecture: synchronous API for order placement (immediate confirmation), async messaging for fulfillment (decoupled processing). API layer: Kong Gateway with OAuth 2.0 (customer auth) + API keys (partner auth), rate limiting 100 req/min per customer, JWT validation. Order API: REST with OpenAPI 3.0, /v1/orders POST for creation, GET for status, webhook callbacks for updates. Messaging: Kafka topics (order-created, payment-completed, inventory-reserved, shipment-created), partition by customer_id, 20 partitions per topic. Event schema: Avro with schema registry, CloudEvents envelope, backward-compatible evolution. Payment integration: synchronous API call with 10s timeout, circuit breaker (5 failures → open), retry with idempotency key. Inventory: event-driven reservation on order-created, compensating event on payment failure. Shipping: async API for label generation, webhook for tracking updates. Error handling: DLQ per topic, 3 retries with exponential backoff, manual review queue in admin UI. Monitoring: Grafana dashboard (orders/hour, payment success rate, fulfillment latency), PagerDuty for critical alerts.
 
-API Integration:
-- Design RESTful APIs using HTTP/1.1, HTTP/2 protocol
-- Deploy Kong API Gateway with OAuth 2.0, JWT authentication method
-- Implement RBAC authorization model and 1000 req/min per user rate limiting
-- Support semantic api versioning with JSON request/response format
-- Handle errors with structured error responses, retry logic api error handling
+### Example 2: Financial Market Data
+**Prompt:** Design integration architecture for MarketDataDistribution connecting exchange feeds, trading systems, and risk analytics achieving 100K messages/sec with <10ms latency and exactly-once processing for trade execution.
 
-Event-Driven Processing:
-- Deploy Apache Kafka event streaming platform with Avro event schema
-- Implement event sourcing using MongoDB event store
-- Configure stream processing with Kafka Streams event choreography
-- Support 7-day event replay and backward-compatible event versioning
-- Govern with schema registry, topic naming conventions event governance
+**Expected Output:** Architecture: ultra-low-latency streaming with Kafka for distribution, kernel bypass networking for exchange connectivity. Ingestion: direct market feed adapters (FIX protocol), normalize to internal format, timestamp at ingestion. Kafka configuration: 100 partitions, replication factor 3, acks=all for durability, linger.ms=0 for latency. Topic structure: market-data-raw (all ticks), market-data-aggregated (1-second bars), trade-signals (strategy output). Processing: Kafka Streams for real-time aggregation, Flink for complex event processing (pattern detection). Trade execution: exactly-once semantics with Kafka transactions, idempotent producer, atomic read-process-write. Risk integration: parallel consumer group, <100ms latency requirement, circuit breaker on risk system. Schema: Protobuf for performance (smaller, faster than Avro), schema registry for versioning. Monitoring: consumer lag <100ms alert, end-to-end latency tracking, message rate anomaly detection. DR: cross-region Kafka MirrorMaker, <1 minute failover, data reconciliation post-failover. Compliance: full message capture for regulatory reporting, 7-year retention, timestamp audit trail.
 
-Real-time Processing:
-- Implement Kafka Streams streaming architecture for real-time stream processing
-- Enable real-time inventory, pricing realtime analytics and order state complex event processing
-- Configure 5-minute tumbling time window processing with in-memory state management
-- Handle consumer lag backpressure handling and ensure at-least-once fault tolerance
-- Achieve idempotent exactly once processing within <50ms latency requirements
-```
+### Example 3: Healthcare Data Exchange
+**Prompt:** Design integration architecture for HealthDataExchange connecting EHR systems, labs, pharmacies, and insurance with HL7 FHIR APIs achieving HIPAA compliance and <1 hour data freshness.
 
-## Variables
+**Expected Output:** Architecture: FHIR REST APIs for synchronous queries, event-driven for notifications, batch for bulk data exchange. API Gateway: AWS API Gateway with OAuth 2.0 + SMART on FHIR, mTLS for system-to-system, audit logging enabled. FHIR server: HAPI FHIR, support for Patient, Encounter, Observation, MedicationRequest resources. Interoperability: HL7v2 to FHIR transformation (integration engine), CDA document ingestion. CDC: Debezium on PostgreSQL, replicate clinical data changes to Kafka, <5 minute latency. Event notifications: FHIR Subscriptions for real-time alerts (new lab result, medication change). Batch sync: nightly bulk export for analytics, FHIR $export operation, NDJSON format to S3. Security: encryption at rest (AES-256, customer-managed keys), TLS 1.3 in transit, PHI access logging. Consent management: patient consent records, enforce access restrictions, audit consent checks. Error handling: quarantine PHI violations, mandatory review before reprocessing. Compliance: BAA with all cloud providers, HIPAA audit controls, breach notification workflow. Monitoring: data freshness per source, consent violation alerts, API latency by operation type.
 
-| Variable | Description | Example |
-|----------|-------------|----------|
-| `[INTEGRATION_NAME]` | Name of the integration | "OrderProcessingIntegration", "PaymentGateway", "CustomerSync", "InventoryHub" |
-| `[INTEGRATION_TYPE]` | Integration pattern type | "API integration", "event-driven", "batch", "real-time streaming", "hybrid" |
-| `[BUSINESS_PURPOSE]` | Business objective | "order fulfillment", "payment processing", "customer data sync", "real-time inventory" |
-| `[INTEGRATION_SCOPE]` | Systems in scope | "e-commerce, inventory, payment, shipping", "CRM, ERP, Data Warehouse" |
-| `[STAKEHOLDERS]` | Teams involved | "Engineering, Operations, Business", "Integration team, Security, Compliance" |
-| `[PERFORMANCE_REQUIREMENTS]` | Performance targets | "<100ms API response", "<10ms streaming latency", "1000 TPS", "p99 <200ms" |
-| `[SCALABILITY_REQUIREMENTS]` | Scaling targets | "10K TPS", "100K msg/sec", "horizontal auto-scale", "10x peak capacity" |
-| `[RELIABILITY_REQUIREMENTS]` | Reliability targets | "99.9% uptime", "99.99% availability", "zero message loss" |
-| `[SECURITY_REQUIREMENTS]` | Security standards | "PCI-DSS", "SOC2", "mTLS everywhere", "encryption at rest and in transit" |
-| `[COMPLIANCE_REQUIREMENTS]` | Regulatory requirements | "SOX", "GDPR", "HIPAA", "MiFID II", "Basel III" |
-| `[SOURCE_SYSTEMS]` | Data source systems | "Salesforce CRM", "SAP ERP", "legacy mainframe", "IoT sensors" |
-| `[TARGET_SYSTEMS]` | Destination systems | "Snowflake DW", "MongoDB", "Elasticsearch", "S3 data lake" |
-| `[INTEGRATION_LAYER]` | Integration middleware | "Kong API Gateway", "MuleSoft", "Apache Camel", "AWS EventBridge" |
-| `[MIDDLEWARE_COMPONENTS]` | Middleware stack | "Kafka, Redis, API Gateway", "RabbitMQ, Consul, Envoy" |
-| `[COMMUNICATION_PROTOCOLS]` | Protocols used | "REST, GraphQL, gRPC", "AMQP, MQTT", "HTTP/2, WebSocket" |
-| `[DATA_FORMATS]` | Data serialization | "JSON, Avro, Protobuf", "XML, CSV", "Parquet" |
-| `[MESSAGE_PATTERNS]` | Messaging patterns | "request-reply", "publish-subscribe", "event sourcing", "CQRS" |
-| `[INTEGRATION_TOPOLOGY]` | Architecture pattern | "hub-and-spoke", "point-to-point", "mesh", "event bus" |
-| `[NETWORK_ARCHITECTURE]` | Network design | "microservices VPC", "service mesh", "API gateway fronted" |
-| `[SECURITY_ARCHITECTURE]` | Security design | "zero-trust", "mTLS service mesh", "API security gateway" |
-| `[API_DESIGN_STYLE]` | API design approach | "RESTful", "GraphQL", "gRPC", "OpenAPI 3.0" |
-| `[API_PROTOCOL]` | API communication protocol | "HTTP/1.1", "HTTP/2", "HTTP/3 QUIC", "gRPC over HTTP/2" |
-| `[API_GATEWAY]` | Gateway platform | "Kong", "AWS API Gateway", "Apigee", "Azure API Management" |
-| `[AUTHENTICATION_METHOD]` | Auth mechanism | "OAuth 2.0", "JWT", "API keys", "mTLS", "SAML" |
-| `[AUTHORIZATION_MODEL]` | Authorization approach | "RBAC", "ABAC", "OAuth scopes", "policy-based" |
-| `[RATE_LIMITING]` | Rate limit config | "1000 req/min per user", "10K req/hour per app", "sliding window" |
-| `[API_VERSIONING]` | Versioning strategy | "URL path versioning", "header versioning", "semantic versioning" |
-| `[REQUEST_RESPONSE_FORMAT]` | Payload format | "JSON", "Protocol Buffers", "XML", "MessagePack" |
-| `[API_ERROR_HANDLING]` | Error handling approach | "RFC 7807 problem details", "structured error codes", "retry guidance" |
-| `[DOCUMENTATION_STANDARD]` | API docs standard | "OpenAPI 3.0", "AsyncAPI", "GraphQL SDL", "Swagger" |
-| `[MESSAGE_BROKER]` | Message broker platform | "Apache Kafka", "RabbitMQ", "AWS SQS/SNS", "Azure Service Bus" |
-| `[MESSAGING_PARADIGM]` | Messaging pattern | "publish-subscribe", "point-to-point", "request-reply", "competing consumers" |
-| `[MESSAGE_ROUTING]` | Routing approach | "content-based routing", "topic-based", "header-based", "partition key" |
-| `[MESSAGE_TRANSFORMATION]` | Transformation method | "XSLT", "JSONata", "Apache Camel", "custom transformers" |
-| `[MESSAGE_SERIALIZATION]` | Serialization format | "Avro", "Protobuf", "JSON Schema", "MessagePack" |
-| `[MESSAGE_ORDERING]` | Ordering guarantee | "partition-based ordering", "sequence numbers", "FIFO queues" |
-| `[MESSAGE_DURABILITY]` | Persistence config | "persistent to disk", "replicated 3x", "in-memory for speed" |
-| `[MESSAGE_ACKNOWLEDGMENT]` | Ack strategy | "auto-acknowledge", "manual ack", "at-least-once", "exactly-once" |
-| `[DEAD_LETTER_HANDLING]` | DLQ handling | "DLQ with retry", "dead letter topic", "manual intervention queue" |
-| `[MESSAGE_RETENTION]` | Retention policy | "7 days", "30 days", "infinite retention", "size-based retention" |
-| `[EVENT_STREAMING_PLATFORM]` | Streaming platform | "Apache Kafka", "AWS Kinesis", "Azure Event Hubs", "Confluent Cloud" |
-| `[EVENT_SCHEMA]` | Schema definition | "Avro schema", "JSON Schema", "Protobuf", "CloudEvents" |
-| `[EVENT_SOURCING]` | Event sourcing approach | "full event sourcing", "command sourcing", "event-carried state transfer" |
-| `[EVENT_STORE]` | Event storage | "EventStoreDB", "Apache Kafka", "MongoDB", "PostgreSQL with outbox" |
-| `[EVENT_PROCESSING]` | Processing approach | "Kafka Streams", "Apache Flink", "AWS Lambda", "Spring Cloud Stream" |
-| `[EVENT_CHOREOGRAPHY]` | Choreography pattern | "saga choreography", "event-driven workflows", "reactive streams" |
-| `[EVENT_ORCHESTRATION]` | Orchestration tool | "Temporal", "Camunda", "Apache Airflow", "AWS Step Functions" |
-| `[EVENT_REPLAY]` | Replay capability | "full replay from offset", "time-based replay", "selective replay" |
-| `[EVENT_VERSIONING]` | Schema versioning | "backward compatible", "forward compatible", "full compatibility" |
-| `[EVENT_GOVERNANCE]` | Event governance | "schema registry", "event catalog", "naming conventions" |
-| `[SYNCHRONIZATION_STRATEGY]` | Sync approach | "real-time CDC", "batch sync", "event-driven sync", "bidirectional sync" |
-| `[DATA_CONSISTENCY_MODEL]` | Consistency level | "eventual consistency", "strong consistency", "causal consistency" |
-| `[CONFLICT_RESOLUTION]` | Conflict handling | "last-writer-wins", "version vectors", "custom merge logic" |
-| `[CHANGE_DATA_CAPTURE]` | CDC implementation | "Debezium", "AWS DMS", "Oracle GoldenGate", "Striim" |
-| `[REPLICATION_METHOD]` | Replication approach | "log-based CDC", "trigger-based", "timestamp-based", "snapshot + incremental" |
-| `[SYNC_FREQUENCY]` | Sync interval | "real-time", "near-real-time (5 min)", "hourly batch", "daily" |
-| `[DATA_VALIDATION]` | Validation approach | "schema validation", "business rule checks", "checksum verification" |
-| `[ERROR_RECOVERY]` | Recovery strategy | "automatic retry", "manual intervention", "dead letter processing" |
-| `[SYNC_MONITORING]` | Sync monitoring | "lag monitoring", "throughput metrics", "error rate tracking" |
-| `[SYNC_OPTIMIZATION]` | Optimization techniques | "parallel sync", "partitioning", "compression", "delta sync" |
-| `[ESB_PLATFORM]` | ESB solution | "MuleSoft", "IBM Integration Bus", "TIBCO", "WSO2" |
-| `[SERVICE_REGISTRY]` | Registry platform | "Consul", "Eureka", "etcd", "ZooKeeper" |
-| `[SERVICE_DISCOVERY]` | Discovery mechanism | "DNS-based", "client-side", "server-side", "service mesh" |
-| `[MESSAGE_MEDIATION]` | Mediation approach | "content enrichment", "message filtering", "aggregation" |
-| `[PROTOCOL_TRANSLATION]` | Protocol bridging | "REST to SOAP", "HTTP to AMQP", "gRPC to REST" |
-| `[DATA_TRANSFORMATION]` | Transformation engine | "XSLT", "DataWeave", "Apache Camel", "custom Java/Python" |
-| `[ROUTING_LOGIC]` | Routing rules | "content-based", "header-based", "round-robin", "weighted" |
-| `[SERVICE_ORCHESTRATION]` | Orchestration engine | "BPEL", "Camunda", "Temporal", "Step Functions" |
-| `[QUALITY_OF_SERVICE]` | QoS settings | "guaranteed delivery", "best effort", "exactly-once" |
-| `[GOVERNANCE_FRAMEWORK]` | Governance model | "API governance", "event governance", "data governance" |
-| `[SERVICE_MESH]` | Mesh platform | "Istio", "Linkerd", "Consul Connect", "AWS App Mesh" |
-| `[INTER_SERVICE_COMMUNICATION]` | Service communication | "gRPC", "REST", "async messaging", "GraphQL federation" |
-| `[MICROSERVICE_DISCOVERY]` | Discovery method | "Kubernetes DNS", "Consul", "Eureka", "AWS Cloud Map" |
-| `[LOAD_BALANCING]` | Load balancing approach | "round-robin", "least connections", "weighted", "consistent hashing" |
-| `[CIRCUIT_BREAKER]` | Circuit breaker impl | "Resilience4j", "Hystrix", "Istio", "custom implementation" |
-| `[BULKHEAD_PATTERN]` | Bulkhead isolation | "thread pool isolation", "semaphore isolation", "container isolation" |
-| `[SAGA_PATTERN]` | Saga implementation | "choreography saga", "orchestration saga", "compensation logic" |
-| `[CQRS_PATTERN]` | CQRS implementation | "separate read/write models", "event sourcing + projection" |
-| `[MICROSERVICE_GATEWAY]` | Gateway solution | "Kong", "Envoy", "AWS API Gateway", "Netflix Zuul" |
-| `[SERVICE_MONITORING]` | Service observability | "Prometheus + Grafana", "Datadog", "New Relic", "Jaeger" |
-| `[ETL_ELT_STRATEGY]` | Data movement approach | "ELT with dbt", "ETL with Airflow", "CDC + streaming", "batch ETL" |
-| `[DATA_PIPELINE]` | Pipeline orchestration | "Apache Airflow", "Prefect", "Dagster", "AWS Glue" |
-| `[DATA_MAPPING]` | Mapping approach | "schema mapping", "field-level mapping", "transformation rules" |
-| `[SCHEMA_EVOLUTION]` | Schema change handling | "backward compatible", "schema registry", "blue-green schemas" |
-| `[DATA_QUALITY]` | Quality validation | "Great Expectations", "dbt tests", "Soda Core", "custom checks" |
-| `[MASTER_DATA_MANAGEMENT]` | MDM solution | "Informatica MDM", "Reltio", "custom golden record" |
-| `[DATA_CATALOG]` | Catalog platform | "DataHub", "Atlan", "Alation", "AWS Glue Catalog" |
-| `[DATA_LINEAGE]` | Lineage tracking | "OpenLineage", "dbt lineage", "Apache Atlas" |
-| `[METADATA_MANAGEMENT]` | Metadata handling | "technical + business metadata", "data dictionary" |
-| `[DATA_GOVERNANCE]` | Governance framework | "DAMA DMBOK", "data stewardship", "access policies" |
-| `[STREAMING_ARCHITECTURE]` | Stream architecture | "Kafka Streams", "Apache Flink", "Spark Streaming", "Kinesis" |
-| `[STREAM_PROCESSING]` | Processing engine | "Apache Flink", "Kafka Streams", "Spark Structured Streaming" |
-| `[REALTIME_ANALYTICS]` | Real-time analytics | "ksqlDB", "Apache Druid", "ClickHouse", "Materialize" |
-| `[COMPLEX_EVENT_PROCESSING]` | CEP implementation | "Apache Flink CEP", "Esper", "AWS EventBridge" |
-| `[TIME_WINDOW_PROCESSING]` | Windowing strategy | "tumbling windows", "sliding windows", "session windows" |
-| `[STATE_MANAGEMENT]` | State handling | "RocksDB state store", "in-memory", "external state store" |
-| `[BACKPRESSURE_HANDLING]` | Backpressure strategy | "rate limiting", "buffer overflow handling", "consumer lag alerting" |
-| `[FAULT_TOLERANCE]` | Fault tolerance approach | "checkpointing", "exactly-once", "at-least-once with idempotency" |
-| `[EXACTLY_ONCE_PROCESSING]` | Exactly-once guarantee | "Kafka transactions", "idempotent producers", "deduplication" |
-| `[LATENCY_REQUIREMENTS]` | Latency targets | "<10ms p99", "<100ms end-to-end", "<1 second for batch" |
-| `[BATCH_FRAMEWORK]` | Batch processing platform | "Apache Spark", "AWS Glue", "dbt", "Apache Beam" |
-| `[JOB_SCHEDULING]` | Scheduler platform | "Apache Airflow", "Prefect", "Dagster", "cron + custom" |
-| `[BATCH_SIZE_OPTIMIZATION]` | Batch sizing | "10,000 records per batch", "1GB per partition", "adaptive batching" |
-| `[PARALLEL_PROCESSING]` | Parallelization | "spark partitions", "thread pools", "async processing" |
-| `[BATCH_ERROR_HANDLING]` | Error handling | "skip and log", "fail fast", "quarantine bad records" |
-| `[RECOVERY_MECHANISMS]` | Recovery approach | "checkpoint restart", "idempotent processing", "manual rerun" |
-| `[JOB_DEPENDENCIES]` | Dependency management | "DAG-based dependencies", "sensor triggers", "event-driven" |
-| `[RESOURCE_MANAGEMENT]` | Resource allocation | "dynamic allocation", "resource pools", "spot instances" |
-| `[BATCH_MONITORING]` | Batch observability | "job duration tracking", "SLA monitoring", "failure alerting" |
-| `[BATCH_TUNING]` | Performance tuning | "partition optimization", "caching", "broadcast joins" |
-| `[FILE_TRANSFER_PROTOCOL]` | Transfer protocol | "SFTP", "AWS S3", "Azure Blob", "Google Cloud Storage" |
-| `[FILE_FORMATS]` | File formats | "Parquet", "CSV", "JSON", "Avro", "ORC" |
-| `[FILE_PROCESSING]` | Processing approach | "streaming read", "batch processing", "incremental load" |
-| `[FILE_VALIDATION]` | Validation checks | "schema validation", "checksum verification", "row count validation" |
-| `[FILE_ENCRYPTION]` | Encryption method | "AES-256", "PGP encryption", "client-side encryption" |
-| `[FILE_ARCHIVING]` | Archival strategy | "S3 Glacier", "Azure Archive", "7-year retention" |
-| `[FILE_ERROR_HANDLING]` | Error handling | "quarantine invalid files", "partial processing", "alert on failure" |
-| `[FILE_RETRY_MECHANISMS]` | Retry logic | "exponential backoff", "3 retries max", "dead letter folder" |
-| `[FILE_MONITORING]` | File monitoring | "file arrival SLA", "size validation", "format compliance" |
-| `[CLEANUP_PROCEDURES]` | Cleanup automation | "TTL-based cleanup", "post-processing deletion", "archival workflow" |
-| `[DATABASE_CONNECTIVITY]` | DB connection method | "JDBC", "ODBC", "native drivers", "connection strings" |
-| `[CONNECTION_POOLING]` | Pool configuration | "HikariCP", "c3p0", "PgBouncer", "ProxySQL" |
-| `[TRANSACTION_MANAGEMENT]` | Transaction handling | "distributed transactions", "saga pattern", "eventual consistency" |
-| `[DATA_REPLICATION]` | Replication method | "CDC replication", "logical replication", "snapshot replication" |
-| `[CHANGE_TRACKING]` | Change capture | "Debezium CDC", "trigger-based", "timestamp columns" |
-| `[STORED_PROCEDURES]` | SP usage | "business logic in SPs", "data transformation SPs", "API SPs" |
-| `[QUERY_OPTIMIZATION]` | Query tuning | "index optimization", "query plan analysis", "batch queries" |
-| `[DB_ERROR_HANDLING]` | DB error handling | "retry on deadlock", "connection retry", "failover handling" |
-| `[DB_PERFORMANCE_MONITORING]` | DB monitoring | "query performance", "connection pool metrics", "lock monitoring" |
-| `[DB_SECURITY]` | DB security | "encryption at rest", "row-level security", "audit logging" |
-| `[CLOUD_STRATEGY]` | Cloud approach | "cloud-native", "hybrid cloud", "multi-cloud" |
-| `[MULTI_CLOUD_INTEGRATION]` | Multi-cloud handling | "cloud-agnostic design", "data mesh", "unified API layer" |
-| `[HYBRID_INTEGRATION]` | Hybrid approach | "on-prem to cloud bridge", "edge computing", "hybrid messaging" |
-| `[CLOUD_NATIVE_SERVICES]` | Cloud services used | "AWS Lambda, SQS, S3", "Azure Functions, Service Bus" |
-| `[SERVERLESS_INTEGRATION]` | Serverless approach | "Lambda-based processing", "Azure Functions", "Cloud Run" |
-| `[CONTAINER_INTEGRATION]` | Container platform | "EKS", "AKS", "GKE", "self-managed Kubernetes" |
-| `[CLOUD_SECURITY]` | Cloud security | "IAM policies", "VPC isolation", "encryption", "security groups" |
-| `[CLOUD_COST_OPTIMIZATION]` | Cost optimization | "reserved capacity", "spot instances", "auto-scaling" |
-| `[CLOUD_PERFORMANCE]` | Performance tuning | "CDN caching", "regional deployment", "edge computing" |
-| `[CLOUD_COMPLIANCE]` | Compliance requirements | "SOC2", "HIPAA", "data residency", "audit logging" |
-| `[INTEGRATION_AUTHENTICATION]` | Auth implementation | "OAuth 2.0 + OIDC", "mTLS", "API keys", "JWT" |
-| `[INTEGRATION_AUTHORIZATION]` | Authz implementation | "RBAC", "ABAC", "policy engine", "OAuth scopes" |
-| `[INTEGRATION_ENCRYPTION]` | Encryption standards | "TLS 1.3", "AES-256", "end-to-end encryption" |
-| `[INTEGRATION_NETWORK_SECURITY]` | Network security | "VPC peering", "private endpoints", "firewall rules" |
-| `[INTEGRATION_API_SECURITY]` | API security | "OAuth 2.0", "rate limiting", "WAF", "input validation" |
-| `[MESSAGE_SECURITY]` | Message protection | "message signing", "payload encryption", "mTLS" |
-| `[IDENTITY_MANAGEMENT]` | Identity provider | "Okta", "Azure AD", "AWS IAM", "custom IdP" |
-| `[KEY_MANAGEMENT]` | Key management | "AWS KMS", "HashiCorp Vault", "Azure Key Vault" |
-| `[INTEGRATION_AUDIT_LOGGING]` | Audit trail | "CloudTrail", "Azure Monitor", "custom audit logs" |
-| `[INTEGRATION_COMPLIANCE_MONITORING]` | Compliance tracking | "SIEM integration", "compliance dashboards", "automated alerts" |
-| `[ERROR_CLASSIFICATION]` | Error categorization | "transient/permanent", "business/technical", "severity levels" |
-| `[ERROR_PROPAGATION]` | Error flow handling | "circuit breaker pattern", "error channels", "compensation" |
-| `[INTEGRATION_ERROR_RECOVERY]` | Recovery approach | "automatic retry", "manual intervention", "failover" |
-| `[COMPENSATION_ACTIONS]` | Compensation logic | "saga rollback", "reverse transaction", "compensating events" |
-| `[INTEGRATION_CIRCUIT_BREAKER]` | Circuit breaker config | "Resilience4j", "Istio circuit breaker", "custom implementation" |
-| `[RETRY_STRATEGIES]` | Retry configuration | "exponential backoff", "fixed interval", "jitter", "max retries" |
-| `[INTEGRATION_DEAD_LETTER_QUEUES]` | DLQ setup | "Kafka DLT", "SQS DLQ", "RabbitMQ DLX" |
-| `[ERROR_LOGGING]` | Error logging | "structured logging", "correlation IDs", "ELK stack" |
-| `[ALERT_MANAGEMENT]` | Alerting platform | "PagerDuty", "OpsGenie", "Slack alerts", "custom webhooks" |
-| `[ESCALATION_PROCEDURES]` | Escalation process | "P1: immediate", "P2: 30 min", "tiered support", "on-call rotation" |
-| `[INTEGRATION_MONITORING]` | Monitoring approach | "end-to-end monitoring", "health checks", "SLA tracking" |
-| `[PERFORMANCE_METRICS]` | Performance KPIs | "latency p50/p95/p99", "throughput", "error rate", "availability" |
-| `[BUSINESS_METRICS]` | Business KPIs | "orders processed", "payment success rate", "data freshness" |
-| `[HEALTH_CHECKS]` | Health monitoring | "liveness probes", "readiness probes", "dependency checks" |
-| `[DISTRIBUTED_TRACING]` | Tracing implementation | "Jaeger", "Zipkin", "AWS X-Ray", "Datadog APM" |
-| `[LOG_AGGREGATION]` | Log management | "ELK Stack", "Splunk", "Datadog Logs", "CloudWatch Logs" |
-| `[MONITORING_DASHBOARD_DESIGN]` | Dashboard layout | "Grafana dashboards", "Datadog dashboards", "custom React" |
-| `[ALERTING_STRATEGY]` | Alert configuration | "threshold-based", "anomaly detection", "SLA breach alerts" |
-| `[SLA_MONITORING]` | SLA tracking | "uptime monitoring", "latency SLAs", "throughput SLAs" |
-| `[MONITORING_CAPACITY_PLANNING]` | Capacity planning | "traffic forecasting", "resource planning", "scaling triggers" |
-| `[INTEGRATION_TESTING]` | Integration test approach | "contract testing", "component testing", "end-to-end testing" |
-| `[CONTRACT_TESTING]` | Contract testing tool | "Pact", "Spring Cloud Contract", "OpenAPI validation" |
-| `[INTEGRATION_E2E_TESTING]` | E2E testing | "Cypress", "Playwright", "custom test harness" |
-| `[INTEGRATION_PERFORMANCE_TESTING]` | Performance testing | "Gatling", "JMeter", "Locust", "k6" |
-| `[INTEGRATION_LOAD_TESTING]` | Load testing | "peak load simulation", "stress testing", "soak testing" |
-| `[CHAOS_TESTING]` | Chaos engineering | "Chaos Monkey", "Gremlin", "LitmusChaos", "custom chaos" |
-| `[MOCK_SERVICES]` | Mocking approach | "WireMock", "MockServer", "Mountebank", "contract stubs" |
-| `[INTEGRATION_TEST_DATA]` | Test data management | "synthetic data", "masked production data", "fixtures" |
-| `[INTEGRATION_TEST_AUTOMATION]` | Test automation | "CI/CD integrated", "nightly test runs", "PR validation" |
-| `[TEST_ENVIRONMENT]` | Test env setup | "ephemeral environments", "shared staging", "local Docker" |
-| `[INTEGRATION_DEPLOYMENT_STRATEGY]` | Deployment approach | "blue-green", "canary", "rolling updates", "feature flags" |
-| `[INTEGRATION_CICD_PIPELINE]` | CI/CD platform | "GitHub Actions", "GitLab CI", "Jenkins", "CircleCI" |
-| `[INTEGRATION_CONFIG_MANAGEMENT]` | Config management | "Consul", "AWS Parameter Store", "HashiCorp Vault" |
-| `[INTEGRATION_ENVIRONMENT_MANAGEMENT]` | Environment handling | "Terraform", "Pulumi", "CloudFormation", "Kubernetes" |
-| `[INTEGRATION_VERSION_CONTROL]` | Version control | "Git", "semantic versioning", "GitFlow", "trunk-based" |
-| `[INTEGRATION_RELEASE_MANAGEMENT]` | Release process | "automated releases", "release trains", "manual approval gates" |
-| `[INTEGRATION_ROLLBACK_PROCEDURES]` | Rollback strategy | "automated rollback", "blue-green switch", "database rollback" |
-| `[OPERATIONAL_PROCEDURES]` | Ops runbooks | "incident response", "maintenance procedures", "on-call playbooks" |
-| `[SUPPORT_MODEL]` | Support structure | "L1/L2/L3 support", "24/7 on-call", "follow-the-sun" |
-| `[INTEGRATION_DOCUMENTATION]` | Documentation | "API docs", "architecture diagrams", "runbooks", "ADRs" |
+---
 
-### Financial Data Integration
-```
-Design comprehensive integration architecture for TradingDataIntegration batch and streaming integration supporting trading operations across market data, risk systems, regulatory reporting. Meet <10ms streaming latency performance, 100K msg/sec scalability, and 99.99% reliability requirements while ensuring SOX, MiFID II security and Basel III, CCAR compliance.
+## Cross-References
 
-Messaging Architecture:
-- Use Apache Kafka, IBM MQ message broker for publish-subscribe messaging paradigm
-- Implement content-based message routing and real-time message transformation
-- Configure Avro message serialization with partition-based message ordering
-- Ensure persistent message durability and automatic message acknowledgment
-- Handle failures with retry, dead letter queue dead letter handling
-
-Data Synchronization:
-- Apply real-time synchronization strategy with eventual data consistency model
-- Handle trade breaks with last-writer-wins conflict resolution
-- Use Debezium change data capture for log-based replication method
-- Schedule continuous sync frequency with schema, business rule data validation
-- Monitor with Prometheus sync monitoring and optimize with partitioning, caching sync optimization
-
-### Security Implementation
-- Configure mTLS, SAML integration authentication and attribute-based integration authorization
-- Enable AES-256 integration encryption and network segmentation integration network security
-- Secure APIs with OAuth 2.0, rate limiting integration api security and messages with end-to-end encryption message security
-- Manage identities with Active Directory identity management and keys with HSM key management
-- Log with comprehensive integration audit logging and monitor with SIEM integration compliance monitoring
-
-### Error Handling
-- Classify errors with business, technical, system error classification and propagate with circuit breaker error propagation
-- Recover with automatic retry, manual intervention integration error recovery and compensate with reverse trade compensation actions
-- Implement hystrix integration circuit breaker with exponential backoff retry strategies
-- Use Kafka dead letter topics integration dead letter queues and log with structured error logging
-- Alert with PagerDuty alert management and escalate with tiered support escalation procedures
-```
-
-
-
-## Related Resources
-
-### Complementary Templates
-
-Enhance your workflow by combining this template with:
-
-- **[Cloud Architecture Framework](cloud-architecture-framework.md)** - Complementary approaches and methodologies
-- **[Site Reliability Engineering](site-reliability-engineering.md)** - Complementary approaches and methodologies
-- **[Cloud Migration Strategy](cloud-migration-strategy.md)** - Strategic planning and execution frameworks
-
-### Suggested Workflow
-
-**Typical implementation sequence**:
-
-1. Start with this template (Integration Patterns Template)
-2. Use [Cloud Architecture Framework](cloud-architecture-framework.md) for deeper analysis
-3. Apply [Site Reliability Engineering](site-reliability-engineering.md) for execution
-4. Iterate and refine based on results
-
-### Explore More in This Category
-
-Browse all **[technology/Data Engineering](../../technology/Data Engineering/)** templates for related tools and frameworks.
-
-### Common Use Case Combinations
-
-- **Creating design comprehensive integration patterns for apis, messaging systems, event-driven architectures, data synchronization, and system interoperability with scalability, reliability, and maintainability considerations.**: Combine this template with related analytics and strategy frameworks
-- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
-- **Strategy development**: Combine this template with related analytics and strategy frameworks
-
-## Best Practices
-
-1. **Design for loose coupling and high cohesion**
-2. **Implement comprehensive error handling and recovery**
-3. **Use asynchronous messaging for scalability**
-4. **Apply circuit breaker and bulkhead patterns**
-5. **Implement proper monitoring and observability**
-6. **Design for idempotency and exactly-once processing**
-7. **Use event-driven architecture for real-time requirements**
-8. **Implement proper security and compliance controls**
-9. **Plan for schema evolution and backward compatibility**
-10. **Test integration points thoroughly with realistic data**
+- [Data Pipeline Design](data-pipeline-design.md) - Pipeline patterns for data integration
+- [Cloud Architecture](../DevOps-Cloud/cloud-architecture.md) - Infrastructure supporting integrations
+- [Architecture Design](../Software-Development/architecture-design.md) - System architecture patterns

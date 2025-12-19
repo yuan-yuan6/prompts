@@ -1,22 +1,20 @@
 ---
 category: legal-compliance
-last_updated: 2025-11-09
-related_templates:
-- legal-compliance/regulatory-compliance-framework.md
-- legal-compliance/contract-drafting-template.md
-- legal-compliance/intellectual-property-management.md
+title: Patent Application Readiness Assessment
 tags:
 - patent-applications
 - claims-drafting
 - prior-art
 - patent-prosecution
-title: Patent Applications Template
+- readiness-assessment
 use_cases:
-- Creating comprehensive patent applications, claims drafting, prior art analysis,
-  and intellectual property protection strategies that maximize patent protection
-  while meeting legal requirements for novelty, non-obviousness, and utility.
-- Project planning and execution
-- Strategy development
+- Assessing readiness to draft and file a patent application with a defensible claim strategy
+- Identifying gaps in invention disclosure quality, prior art coverage, and prosecution planning
+- Producing an application plan, claims outline, and filing roadmap with clear owners and timelines
+related_templates:
+- legal-compliance/intellectual-property-management.md
+- legal-compliance/regulatory-compliance-management.md
+- legal-compliance/corporate-contract-management.md
 industries:
 - education
 - finance
@@ -25,423 +23,100 @@ industries:
 - manufacturing
 - retail
 - technology
-type: template
+type: framework
 difficulty: intermediate
-slug: patent-applications
+slug: patent-application-readiness-assessment
 ---
 
-# Patent Applications Template
+# Patent Application Readiness Assessment
 
 ## Purpose
-Create comprehensive patent applications, claims drafting, prior art analysis, and intellectual property protection strategies that maximize patent protection while meeting legal requirements for novelty, non-obviousness, and utility.
+Assess readiness to draft and file a patent application across six dimensions: Invention Disclosure, Prior Art & Patentability, Claim Strategy, Specification & Drawings, Filing & Prosecution Strategy, and Governance & Business Alignment. Identify gaps, prioritize fixes, and produce an application package plan.
 
-## Quick Patent Application Prompt
-Draft [patent type: utility/provisional/design] for [invention name] in [technology field]. Innovation: [problem solved], [novel features], [advantages]. Prior art: [key references], novelty analysis. Claims: [X independent], [Y dependent], [claim strategy]. Jurisdictions: [USPTO/EPO/other]. Include: specification, drawings, prosecution roadmap, competitive landscape, commercialization strategy.
+## 🚀 Quick Assessment Prompt
 
-## Quick Start
+> Assess **patent application readiness** for **[INVENTION]** in **[TECH_FIELD]** targeting **[JURISDICTIONS]** with desired scope **[PROTECTION_GOAL]**. Evaluate across: (1) **Invention disclosure**—is the invention described clearly with alternatives and implementation details? (2) **Prior art & patentability**—is there a reasonable search and novelty/non-obviousness story? (3) **Claim strategy**—are independent and dependent claim themes defined with fallbacks? (4) **Specification & drawings**—is there sufficient written description and enablement, with figure plan tied to claims? (5) **Filing/prosecution**—is there a roadmap (provisional/PCT/national) with timelines and cost constraints? (6) **Governance & alignment**—are inventorship, ownership, and publication timing controlled and aligned to product strategy? Provide a 1–5 scorecard, top gaps, and a filing-ready plan.
 
-Draft professional patent applications efficiently in three essential steps:
+**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for rapid readiness evaluation.
 
-1. **Document Your Invention** - Describe your innovation including technical field, problem solved, novel features, and advantages over current solutions with clear inventor attribution
-2. **Conduct Prior Art Analysis** - Identify relevant references, assess novelty and non-obviousness, and document key differences that establish patentability
-3. **Generate Application Package** - Create complete patent application including detailed specification, strategic claims set (independent and dependent), drawing descriptions, filing strategy, and prosecution roadmap
-
-Applicable to all technology fields from software and AI to medical devices and chemical compositions. Output includes USPTO-ready applications, claims strategies, competitive landscape analysis, and commercialization plans.
+---
 
 ## Template
 
-```
-You are a patent attorney specialist. Draft [PATENT_TYPE] application for [INVENTION_NAME] in [TECHNOLOGY_FIELD] covering [KEY_INNOVATIONS] with [CLAIM_STRATEGY] targeting [JURISDICTIONS] to achieve [IP_OBJECTIVES].
+Conduct a patent application readiness assessment for {INVENTION} in {TECH_FIELD} targeting {JURISDICTIONS} to achieve {PROTECTION_GOAL}.
 
-INVENTION DISCLOSURE:
+Assess readiness across six dimensions, scoring each 1–5:
 
-Technical Overview:
-- Invention title: [INVENTION_TITLE]
-- Technical field: [TECHNICAL_FIELD]
-- Problem solved: [PROBLEM_SOLVED]
-- Current solutions: [CURRENT_SOLUTIONS]
-- Innovation description: [INNOVATION_DESCRIPTION]
-- Technical advantages: [TECHNICAL_ADVANTAGES]
+**1. INVENTION DISCLOSURE READINESS**
+- Problem statement and technical solution are clearly articulated
+- Novel features are enumerated (what is new vs current solutions)
+- Embodiments and alternatives are described (avoid single-point disclosures)
+- Implementation details exist (data flows, components, parameters, constraints)
+- Inventor contributions and dates are documented
 
-### Inventorship
-- Lead inventor: [LEAD_INVENTOR]
-- Co-inventors: [CO_INVENTORS]
-- Contribution details: [CONTRIBUTION_DETAILS]
-- Assignment status: [ASSIGNMENT_STATUS]
-- Employer agreements: [EMPLOYER_AGREEMENTS]
+**2. PRIOR ART & PATENTABILITY READINESS**
+- Prior art search scope is reasonable for the space
+- Key references are summarized with claim-relevant differences
+- Novelty is plausible for the core concepts
+- Non-obviousness theory is articulated (technical effect, unexpected results, teaching away)
+- Potential §101/eligibility risks (if applicable) are identified and mitigations considered
 
-### PRIOR ART ANALYSIS
+**3. CLAIM STRATEGY READINESS**
+- Clear claim themes exist (system/method/CRM as applicable)
+- At least one broad independent claim concept is defined
+- Dependent claim set provides meaningful fallback positions
+- Definitions and terminology are consistent (avoid self-inflicted narrowness)
+- Competitive design-around risks are considered and addressed with variants
 
-```
-PATENTABILITY ASSESSMENT:
+**4. SPECIFICATION & DRAWINGS READINESS**
+- Written description supports the planned claim breadth
+- Enablement is credible (how to make and use; not just high-level concepts)
+- Figure plan exists and maps to claim elements
+- Examples and implementation variants are included (edge cases, optional components)
+- Consistency checks planned (terms, numerals, cross-references)
 
-Prior Art Search:
-Reference        | Publication Date| Relevance       | Key Differences| Citation Type
------------------|-----------------|-----------------|----------------|-------------
-[REFERENCE_1]    | [DATE_1]        | [RELEVANCE_1]   | [DIFF_1]       | [TYPE_1]
-[REFERENCE_2]    | [DATE_2]        | [RELEVANCE_2]   | [DIFF_2]       | [TYPE_2]
-[REFERENCE_3]    | [DATE_3]        | [RELEVANCE_3]   | [DIFF_3]       | [TYPE_3]
-[REFERENCE_4]    | [DATE_4]        | [RELEVANCE_4]   | [DIFF_4]       | [TYPE_4]
-[REFERENCE_5]    | [DATE_5]        | [RELEVANCE_5]   | [DIFF_5]       | [TYPE_5]
+**5. FILING & PROSECUTION STRATEGY READINESS**
+- Filing approach chosen (provisional vs non-provisional vs PCT) with rationale
+- Jurisdiction priorities reflect business needs and budget constraints
+- Publication strategy is aligned (defensive publication vs secrecy)
+- Prosecution plan exists (office action response posture, continuations/divisionals)
+- Freedom-to-operate considerations are scoped (if needed) separately from patentability
 
-### Novelty Analysis
-Element          | Prior Art Status| Novel Features  | Support        | Strength
------------------|-----------------|-----------------|----------------|----------
-[ELEMENT_1]      | [STATUS_1]      | [NOVEL_1]       | [SUPPORT_1]    | [STRENGTH_1]
-[ELEMENT_2]      | [STATUS_2]      | [NOVEL_2]       | [SUPPORT_2]    | [STRENGTH_2]
-[ELEMENT_3]      | [STATUS_3]      | [NOVEL_3]       | [SUPPORT_3]    | [STRENGTH_3]
-[ELEMENT_4]      | [STATUS_4]      | [NOVEL_4]       | [SUPPORT_4]    | [STRENGTH_4]
+**6. GOVERNANCE & BUSINESS ALIGNMENT READINESS**
+- Inventorship and assignment/ownership are clear
+- Confidentiality and disclosure controls exist (publications, demos, customer materials)
+- Counsel handoff is clear (what is provided, timelines, decision points)
+- Portfolio alignment exists (how this filing fits the broader IP strategy)
+- Post-filing maintenance expectations are understood (fees, pruning, continuation strategy)
 
-Non-Obviousness:
-Combination      | Teaching Away   | Unexpected Results| Commercial Success| Long-Felt Need
------------------|-----------------|-------------------|-------------------|---------------
-[COMBO_1]        | [TEACH_1]       | [UNEXPECTED_1]    | [COMMERCIAL_1]    | [NEED_1]
-[COMBO_2]        | [TEACH_2]       | [UNEXPECTED_2]    | [COMMERCIAL_2]    | [NEED_2]
-[COMBO_3]        | [TEACH_3]       | [UNEXPECTED_3]    | [COMMERCIAL_3]    | [NEED_3]
-```
+Deliver your assessment as:
 
-SPECIFICATION DRAFTING:
+1. **EXECUTIVE SUMMARY** - Overall score, maturity level, top 3 gaps
+2. **DIMENSION SCORECARD** - Table with score (X.X/5) and key finding per dimension
+3. **DISCLOSURE CHECKLIST** - Missing inputs needed to draft filing-ready materials
+4. **CLAIM OUTLINE** - Broad claim concept + fallback dependent themes
+5. **FIGURE PLAN** - List of figures mapped to claim elements
+6. **FILING ROADMAP** - Timeline and jurisdiction plan (incl. costs at a high level)
 
-Technical Description:
-```
-### DETAILED SPECIFICATION
-
-### Background Section
-Paragraph        | Content Focus   | Prior Art Discussion| Problem Statement| Objectives
------------------|-----------------|---------------------|------------------|------------
-Background ¶1    | [BG_CONTENT_1]  | [BG_PRIOR_1]        | [BG_PROBLEM_1]   | [BG_OBJ_1]
-Background ¶2    | [BG_CONTENT_2]  | [BG_PRIOR_2]        | [BG_PROBLEM_2]   | [BG_OBJ_2]
-Background ¶3    | [BG_CONTENT_3]  | [BG_PRIOR_3]        | [BG_PROBLEM_3]   | [BG_OBJ_3]
-
-Summary Section:
-Aspect           | Brief Description| Advantages      | Embodiments    | Claims Support
------------------|------------------|-----------------|----------------|---------------
-Primary Aspect   | [PRIM_DESC]      | [PRIM_ADV]      | [PRIM_EMBOD]   | [PRIM_CLAIMS]
-Secondary Aspect | [SEC_DESC]       | [SEC_ADV]       | [SEC_EMBOD]    | [SEC_CLAIMS]
-Additional Aspects| [ADD_DESC]      | [ADD_ADV]       | [ADD_EMBOD]    | [ADD_CLAIMS]
-
-### Detailed Description
-Section          | Technical Detail | Figures Referenced| Examples      | Alternatives
------------------|------------------|-------------------|---------------|-------------
-Overview         | [OVER_DETAIL]    | [OVER_FIGS]       | [OVER_EX]     | [OVER_ALT]
-Component 1      | [COMP1_DETAIL]   | [COMP1_FIGS]      | [COMP1_EX]    | [COMP1_ALT]
-Component 2      | [COMP2_DETAIL]   | [COMP2_FIGS]      | [COMP2_EX]    | [COMP2_ALT]
-System Operation | [SYS_DETAIL]     | [SYS_FIGS]        | [SYS_EX]      | [SYS_ALT]
-Methods          | [METH_DETAIL]    | [METH_FIGS]       | [METH_EX]     | [METH_ALT]
-```
-
-CLAIMS STRATEGY:
-
-Claim Architecture:
-```
-### CLAIMS DRAFTING
-
-### Independent Claims
-Claim #          | Claim Type      | Key Elements    | Scope          | Dependencies
------------------|-----------------|-----------------|----------------|-------------
-Claim 1          | [TYPE_1]        | [ELEMENTS_1]    | [SCOPE_1]      | None
-Claim 10         | [TYPE_10]       | [ELEMENTS_10]   | [SCOPE_10]     | None
-Claim 20         | [TYPE_20]       | [ELEMENTS_20]   | [SCOPE_20]     | None
-
-Dependent Claims:
-Claim #          | Depends From    | Added Limitation| Purpose        | Support
------------------|-----------------|-----------------|----------------|--------
-Claim 2          | Claim 1         | [LIMIT_2]       | [PURPOSE_2]    | [SUPPORT_2]
-Claim 3          | Claim 1         | [LIMIT_3]       | [PURPOSE_3]    | [SUPPORT_3]
-Claim 4          | Claim 2         | [LIMIT_4]       | [PURPOSE_4]    | [SUPPORT_4]
-Claim 11         | Claim 10        | [LIMIT_11]      | [PURPOSE_11]   | [SUPPORT_11]
-
-### Claim Scope Analysis
-Scope Level      | Claims          | Coverage        | Infringement Risk| Validity Risk
------------------|-----------------|-----------------|------------------|-------------
-Broad            | [BROAD_CLAIMS]  | [BROAD_COV]     | [BROAD_INF]      | [BROAD_VAL]
-Medium           | [MED_CLAIMS]    | [MED_COV]       | [MED_INF]        | [MED_VAL]
-Narrow           | [NAR_CLAIMS]    | [NAR_COV]       | [NAR_INF]        | [NAR_VAL]
-Fallback         | [FALL_CLAIMS]   | [FALL_COV]      | [FALL_INF]       | [FALL_VAL]
-```
-
-DRAWING REQUIREMENTS:
-
-Figure Planning:
-```
-### PATENT DRAWINGS
-
-### Figure List
-Figure #         | Description     | View Type       | Key Elements   | Claim Support
------------------|-----------------|-----------------|----------------|-------------
-Fig. 1           | [FIG1_DESC]     | [FIG1_VIEW]     | [FIG1_ELEM]    | [FIG1_CLAIMS]
-Fig. 2           | [FIG2_DESC]     | [FIG2_VIEW]     | [FIG2_ELEM]    | [FIG2_CLAIMS]
-Fig. 3           | [FIG3_DESC]     | [FIG3_VIEW]     | [FIG3_ELEM]    | [FIG3_CLAIMS]
-Fig. 4           | [FIG4_DESC]     | [FIG4_VIEW]     | [FIG4_ELEM]    | [FIG4_CLAIMS]
-Fig. 5           | [FIG5_DESC]     | [FIG5_VIEW]     | [FIG5_ELEM]    | [FIG5_CLAIMS]
-
-### Reference Numerals
-Numeral          | Element Name    | First Introduced| Consistency    | Description
------------------|-----------------|-----------------|----------------|------------
-100              | [ELEM_100]      | [INTRO_100]     | [CONS_100]     | [DESC_100]
-102              | [ELEM_102]      | [INTRO_102]     | [CONS_102]     | [DESC_102]
-104              | [ELEM_104]      | [INTRO_104]     | [CONS_104]     | [DESC_104]
-106              | [ELEM_106]      | [INTRO_106]     | [CONS_106]     | [DESC_106]
-```
-
-FILING STRATEGY:
-
-Application Planning:
-```
-### FILING ROADMAP
-
-### Priority Strategy
-Filing Type      | Jurisdiction    | Filing Date     | Priority Claim | Deadline
------------------|-----------------|-----------------|----------------|----------
-Provisional      | [PROV_JUR]      | [PROV_DATE]     | N/A            | [PROV_DEAD]
-PCT Application  | [PCT_JUR]       | [PCT_DATE]      | [PCT_PRIOR]    | [PCT_DEAD]
-National Phase   | [NAT_JUR]       | [NAT_DATE]      | [NAT_PRIOR]    | [NAT_DEAD]
-Continuation     | [CONT_JUR]      | [CONT_DATE]     | [CONT_PRIOR]   | [CONT_DEAD]
-Divisional       | [DIV_JUR]       | [DIV_DATE]      | [DIV_PRIOR]    | [DIV_DEAD]
-
-### Geographic Coverage
-Country/Region   | Filing Route    | Timeline        | Cost Estimate  | Business Value
------------------|-----------------|-----------------|----------------|---------------
-United States    | [US_ROUTE]      | [US_TIME]       | [US_COST]      | [US_VALUE]
-European Union   | [EU_ROUTE]      | [EU_TIME]       | [EU_COST]      | [EU_VALUE]
-China            | [CN_ROUTE]      | [CN_TIME]       | [CN_COST]      | [CN_VALUE]
-Japan            | [JP_ROUTE]      | [JP_TIME]       | [JP_COST]      | [JP_VALUE]
-Other            | [OTH_ROUTE]     | [OTH_TIME]      | [OTH_COST]     | [OTH_VALUE]
-
-### Prosecution Strategy
-Stage            | Approach        | Response Time   | Fallback Options| Success Rate
------------------|-----------------|-----------------|-----------------|-------------
-Office Action 1  | [OA1_APPROACH]  | [OA1_TIME]      | [OA1_FALLBACK]  | [OA1_RATE]
-Office Action 2  | [OA2_APPROACH]  | [OA2_TIME]      | [OA2_FALLBACK]  | [OA2_RATE]
-Final Action     | [FA_APPROACH]   | [FA_TIME]       | [FA_FALLBACK]   | [FA_RATE]
-Appeal           | [APP_APPROACH]  | [APP_TIME]      | [APP_FALLBACK]  | [APP_RATE]
-```
-
-COMPETITIVE LANDSCAPE:
-
-Patent Landscape:
-```
-### COMPETITIVE ANALYSIS
-
-### Competitor Patents
-Competitor       | Patent Count    | Technology Focus| Litigation History| Licensing
------------------|-----------------|-----------------|-------------------|----------
-[COMPETITOR_1]   | [COUNT_1]       | [TECH_1]        | [LITIG_1]         | [LICENSE_1]
-[COMPETITOR_2]   | [COUNT_2]       | [TECH_2]        | [LITIG_2]         | [LICENSE_2]
-[COMPETITOR_3]   | [COUNT_3]       | [TECH_3]        | [LITIG_3]         | [LICENSE_3]
-[COMPETITOR_4]   | [COUNT_4]       | [TECH_4]        | [LITIG_4]         | [LICENSE_4]
-
-### Freedom to Operate
-Patent           | Owner           | Expiration      | Design Around  | License Option
------------------|-----------------|-----------------|----------------|---------------
-[PATENT_1]       | [OWNER_1]       | [EXPIRE_1]      | [DESIGN_1]     | [LICENSE_1]
-[PATENT_2]       | [OWNER_2]       | [EXPIRE_2]      | [DESIGN_2]     | [LICENSE_2]
-[PATENT_3]       | [OWNER_3]       | [EXPIRE_3]      | [DESIGN_3]     | [LICENSE_3]
-
-### Market Protection
-Product/Service  | Patent Coverage | Trade Secrets   | Trademarks     | Overall Protection
------------------|-----------------|-----------------|----------------|-------------------
-[PRODUCT_1]      | [PAT_COV_1]     | [TRADE_1]       | [MARK_1]       | [OVERALL_1]
-[PRODUCT_2]      | [PAT_COV_2]     | [TRADE_2]       | [MARK_2]       | [OVERALL_2]
-[PRODUCT_3]      | [PAT_COV_3]     | [TRADE_3]       | [MARK_3]       | [OVERALL_3]
-```
-
-COMMERCIALIZATION:
-
-Business Strategy:
-```
-### VALUE CREATION
-
-### Monetization Options
-Strategy         | Revenue Model   | Target Partners | Terms          | Timeline
------------------|-----------------|-----------------|----------------|----------
-Direct Sales     | [DS_MODEL]      | [DS_PARTNERS]   | [DS_TERMS]     | [DS_TIME]
-Licensing        | [LIC_MODEL]     | [LIC_PARTNERS]  | [LIC_TERMS]    | [LIC_TIME]
-Cross-Licensing  | [CL_MODEL]      | [CL_PARTNERS]   | [CL_TERMS]     | [CL_TIME]
-Patent Pool      | [PP_MODEL]      | [PP_PARTNERS]   | [PP_TERMS]     | [PP_TIME]
-Defensive Use    | [DEF_MODEL]     | [DEF_PARTNERS]  | [DEF_TERMS]    | [DEF_TIME]
-
-### Enforcement Strategy
-Action           | Trigger         | Target Profile  | Cost/Benefit   | Risk Assessment
------------------|-----------------|-----------------|----------------|----------------
-Monitoring       | [MON_TRIGGER]   | [MON_TARGET]    | [MON_COST]     | [MON_RISK]
-Notice Letters   | [NOT_TRIGGER]   | [NOT_TARGET]    | [NOT_COST]     | [NOT_RISK]
-Litigation       | [LIT_TRIGGER]   | [LIT_TARGET]    | [LIT_COST]     | [LIT_RISK]
-Settlement       | [SET_TRIGGER]   | [SET_TARGET]    | [SET_COST]     | [SET_RISK]
-```
-
-PATENT APPLICATION OUTPUT:
-[Generate complete patent application]
-
-Application Type: [FINAL_APP_TYPE]
-Technology Field: [FINAL_TECH_FIELD]
-Claim Count: [FINAL_CLAIM_COUNT]
-Filing Strategy: [FINAL_FILING_STRATEGY]
-
-[COMPLETE_PATENT_APPLICATION]
-
----
-
-### Application Summary
-- Innovation scope: [INNOVATION_SUMMARY]
-- Claims strategy: [CLAIMS_SUMMARY]
-- Prior art position: [PRIOR_ART_SUMMARY]
-- Filing timeline: [TIMELINE_SUMMARY]
-- Commercial value: [VALUE_SUMMARY]
-
-OUTPUT: Deliver comprehensive patent application with:
-1. Complete specification
-2. Strategic claims set
-3. Drawing descriptions
-4. Prior art analysis
-5. Filing strategy
-6. Prosecution roadmap
-7. Competitive landscape
-8. Commercialization plan
-```
+Use this maturity scale:
+- 1.0-1.9: Initial (insufficient disclosure; high risk of narrow/invalid claims)
+- 2.0-2.9: Developing (basic disclosure; gaps in prior art, claim fallbacks, enablement)
+- 3.0-3.9: Defined (solid disclosure and strategy; manageable drafting risks)
+- 4.0-4.9: Managed (strong support, clear fallbacks, disciplined filing plan)
+- 5.0: Optimized (high-quality drafting inputs, efficient prosecution posture, portfolio fit)
 
 ## Variables
-[All 250+ variables for comprehensive patent application drafting]
 
-## Usage Examples
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `[INVENTION]` | Invention name | "Adaptive anomaly detection for streaming telemetry" |
+| `[TECH_FIELD]` | Technology field | "ML + observability" |
+| `[JURISDICTIONS]` | Target jurisdictions | "US + PCT" |
+| `[PROTECTION_GOAL]` | Desired protection scope | "Broad coverage of method + system variants" |
 
-## Best Practices
+## Example
 
-1. **Start with clear objectives** - Define what success looks like before beginning
-2. **Use data to inform decisions** - Base choices on evidence and measurable outcomes
-3. **Iterate and improve continuously** - Treat implementation as an ongoing process
-4. **Engage stakeholders early** - Include key participants in planning and execution
-5. **Document thoroughly** - Maintain clear records for reference and knowledge transfer
-6. **Communicate regularly** - Keep all parties informed of progress and changes
-7. **Address challenges proactively** - Identify potential issues before they become problems
-8. **Celebrate milestones** - Recognize achievements to maintain motivation
-9. **Learn from experience** - Reflect on what works and adjust accordingly
-10. **Stay flexible** - Be ready to adapt based on feedback and changing circumstances
+**Software/AI - Utility Filing**
 
-## Tips for Success
+> Assess patent application readiness for **Adaptive anomaly detection for streaming telemetry** in **ML + observability** targeting **US + PCT** to achieve **broad coverage of method + system variants**. Disclosure describes the core method but lacks alternative embodiments and parameter ranges; prior art search is thin for adjacent telemetry/forecasting work; claim themes exist but dependent fallbacks are not planned; specification needs enablement detail for training/inference and edge cases; filing approach is unclear (provisional vs non-provisional first); inventorship and publication timing need confirmation before any marketing launch. Provide scorecard, a disclosure checklist, a claim outline, and a filing roadmap.
 
-- Break complex tasks into manageable steps with clear milestones
-- Set realistic timelines that account for dependencies and constraints
-- Allocate sufficient resources including time, budget, and personnel
-- Use templates and frameworks to ensure consistency and quality
-- Seek feedback from users and stakeholders throughout the process
-- Build in checkpoints to assess progress and make adjustments
-- Maintain quality standards while remaining practical and efficient
-- Document lessons learned for future reference and improvement
-- Foster collaboration across teams and departments
-- Stay current with industry best practices and emerging trends
-### Example 1: Software Patent
-```
-PATENT_TYPE: "Utility patent application"
-INVENTION_NAME: "AI-powered predictive analytics system"
-TECHNOLOGY_FIELD: "Machine learning and data analytics"
-KEY_INNOVATIONS: "Novel algorithm, real-time processing, adaptive learning"
-CLAIM_STRATEGY: "System, method, and computer-readable medium claims"
-JURISDICTIONS: "US, EU, China, Japan"
-IP_OBJECTIVES: "Broad protection for core algorithm and applications"
-```
-
-### Example 2: Medical Device Patent
-```
-PATENT_TYPE: "Utility and design patent applications"
-INVENTION_NAME: "Minimally invasive surgical instrument"
-TECHNOLOGY_FIELD: "Medical devices and surgical tools"
-KEY_INNOVATIONS: "Novel mechanism, ergonomic design, precision control"
-CLAIM_STRATEGY: "Device, method of use, and kit claims"
-JURISDICTIONS: "US, EU, key Asian markets"
-IP_OBJECTIVES: "Protect device and surgical methods"
-```
-
-### Example 3: Chemical Composition Patent
-```
-PATENT_TYPE: "Composition of matter patent"
-INVENTION_NAME: "Novel polymer composite material"
-TECHNOLOGY_FIELD: "Advanced materials and nanotechnology"
-KEY_INNOVATIONS: "Unique composition, synthesis method, properties"
-CLAIM_STRATEGY: "Composition, process, and application claims"
-JURISDICTIONS: "Worldwide via PCT"
-IP_OBJECTIVES: "Comprehensive protection for material and uses"
-```
-
-
-
-## Related Resources
-
-### Complementary Templates
-
-Enhance your workflow by combining this template with:
-
-- **[Regulatory Compliance Framework](regulatory-compliance-framework.md)** - Complementary approaches and methodologies
-- **[Contract Drafting Template](contract-drafting-template.md)** - Complementary approaches and methodologies
-- **[Intellectual Property Management](intellectual-property-management.md)** - Complementary approaches and methodologies
-
-### Suggested Workflow
-
-**Typical implementation sequence**:
-
-1. Start with this template (Patent Applications Template)
-2. Use [Regulatory Compliance Framework](regulatory-compliance-framework.md) for deeper analysis
-3. Apply [Contract Drafting Template](contract-drafting-template.md) for execution
-4. Iterate and refine based on results
-
-### Explore More in This Category
-
-Browse all **[professional-services/legal-compliance/Intellectual Property](../../professional-services/legal-compliance/Intellectual Property/)** templates for related tools and frameworks.
-
-### Common Use Case Combinations
-
-- **Creating comprehensive patent applications, claims drafting, prior art analysis, and intellectual property protection strategies that maximize patent protection while meeting legal requirements for novelty, non-obviousness, and utility.**: Combine this template with related analytics and strategy frameworks
-- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
-- **Strategy development**: Combine this template with related analytics and strategy frameworks
-
-## Customization Options
-
-1. **Patent Types**
-   - Utility patents
-   - Design patents
-   - Plant patents
-   - Provisional applications
-   - PCT applications
-   - Continuation applications
-   - Divisional applications
-   - Reissue patents
-
-2. **Technology Fields**
-   - Software/AI
-   - Biotechnology
-   - Pharmaceuticals
-   - Medical devices
-   - Electronics
-   - Mechanical systems
-   - Chemical compositions
-   - Business methods
-
-3. **Claim Strategies**
-   - Broad to narrow
-   - Picture claims
-   - Means-plus-function
-   - Product-by-process
-   - Markush groups
-   - Jepson claims
-   - Omnibus claims
-   - Use claims
-
-4. **Filing Strategies**
-   - Priority claims
-   - PCT route
-   - Paris Convention
-   - National phase
-   - Continuation practice
-   - Fast track
-   - PPH programs
-   - Regional filings
-
-5. **Commercial Focus**
-   - Licensing focus
-   - Litigation readiness
-   - Defensive portfolio
-   - Standards essential
-   - Trade secret hybrid
-   - Open source compatible
-   - Cross-licensing
-   - Patent pooling

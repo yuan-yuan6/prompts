@@ -1,572 +1,125 @@
 ---
-title: Network Analysis - Overview and Navigation
 category: data-analytics
+description: Navigate the network analysis framework to select appropriate modules for centrality, community detection, path analysis, temporal dynamics, and visualization
+title: Network Analysis Overview and Navigation
 tags:
-- research-analytics
 - network-analysis
 - graph-analytics
+- research-analytics
+- social-networks
 use_cases:
-- Understanding network analysis workflow and capabilities
-- Selecting appropriate network analysis modules
-- Planning comprehensive network analysis projects
-- Navigating network analysis sub-prompts
+- Selecting appropriate network analysis modules for specific research questions
+- Planning comprehensive network analysis projects from data to insights
+- Understanding relationships between network analysis components
+- Navigating specialized templates for centrality, community, paths, and visualization
 related_templates:
 - data-analytics/Research-Analytics/network-analysis-data-preparation.md
 - data-analytics/Research-Analytics/network-analysis-centrality-community.md
 - data-analytics/Research-Analytics/network-analysis-paths-temporal.md
 - data-analytics/Research-Analytics/network-analysis-visualization.md
-last_updated: 2025-11-10
 industries:
-- manufacturing
 - technology
-type: template
+- healthcare
+- finance
+- government
+- research
+type: framework
 difficulty: intermediate
 slug: network-analysis-overview
 ---
 
-# Network Analysis - Overview and Navigation
+# Network Analysis Overview and Navigation
 
 ## Purpose
-Navigate the comprehensive network analysis framework to perform graph analytics, understand relationships, identify communities, analyze social structures, and extract insights from interconnected data using advanced graph theory and network science methods.
+Navigate the comprehensive network analysis framework to perform graph analytics, understand relationships, identify influential nodes, detect communities, and extract insights from interconnected data. This overview guides selection among specialized modules for data preparation, centrality and community analysis, path and temporal analysis, and visualization.
 
-## Quick Network Prompt
-Analyze [network type: social/organizational/transactional] network with [X nodes, Y edges]. Identify the most influential nodes (centrality), detect communities (clustering), analyze connectivity patterns, and visualize the network structure. Recommend the appropriate analysis modules and provide actionable insights about key players and network dynamics.
+## 🚀 Quick Start Prompt
 
-## Quick Start
-
-**Want to analyze network data quickly?** Here's how to get started:
-
-### When to Use This Overview
-- Analyzing social networks, organizational structures, or relationship data
-- Finding influential nodes or key connectors in a network
-- Discovering communities or clusters in connected data
-- Understanding how information flows through networks
-- Tracking how networks evolve over time
-
-### Quick Module Selection
-```
-Your Network Analysis Goal → Recommended Module:
-
-1. Load and explore network data (edge list, adjacency matrix, GraphML)
-   → network-analysis-data-preparation.md (30-60 min)
-
-2. Find most important/influential nodes
-   → network-analysis-centrality-community.md (Centrality section, 1-2 hours)
-
-3. Discover groups or communities in the network
-   → network-analysis-centrality-community.md (Community section, 2-3 hours)
-
-4. Analyze how connected the network is, find shortest paths
-   → network-analysis-paths-temporal.md (Path analysis section, 1-2 hours)
-
-5. Track how the network changes over time
-   → network-analysis-paths-temporal.md (Temporal section, 2-4 hours)
-
-6. Create visualizations and dashboards
-   → network-analysis-visualization.md
-```
-
-### Basic 3-Step Workflow
-1. **Prepare your data** - Start with network-analysis-data-preparation.md to load and clean your network
-2. **Choose analysis type** - Pick centrality (important nodes), community (clusters), or paths (connectivity)
-3. **Visualize results** - Use network-analysis-visualization.md to create graphs and dashboards
-
-**Time to complete**: 1 hour for basic metrics, 1 day for comprehensive network analysis
-
-**Pro tip**: Start with data preparation and basic network statistics (nodes, edges, density), then move to centrality analysis to find key players before diving into advanced features.
+> Analyze a **[NETWORK TYPE]** network with **[SIZE]** to answer **[RESEARCH QUESTION]**. Recommend: (1) **Analysis modules**—which specialized templates to use based on my question; (2) **Workflow sequence**—order of operations from data loading through visualization; (3) **Key metrics**—centrality measures, community algorithms, or path metrics most relevant; (4) **Expected outputs**—deliverables at each stage. Provide module selection rationale, analysis plan, and timeline estimate.
 
 ---
 
-## Network Analysis Capabilities
+## Template
 
-This framework provides a complete toolkit for analyzing networks and graphs across multiple domains:
+Navigate network analysis for {NETWORK_DESCRIPTION}, addressing {ANALYSIS_QUESTIONS} to achieve {RESEARCH_OBJECTIVES}.
 
-### Core Capabilities
-- **Data Management**: Load, clean, validate, and preprocess network data from various formats
-- **Centrality Analysis**: Identify important nodes using multiple centrality measures
-- **Community Detection**: Discover clusters and communities using state-of-the-art algorithms
-- **Path Analysis**: Measure connectivity, shortest paths, and network efficiency
-- **Robustness Testing**: Assess network resilience to failures and attacks
-- **Temporal Dynamics**: Track network evolution and changes over time
-- **Comprehensive Visualization**: Create static and interactive visualizations
-- **Statistical Reporting**: Generate detailed analysis reports and dashboards
+**1. Network Analysis Framework and Module Selection**
 
-### Supported Network Types
-- Social networks (friendship, collaboration, communication)
-- Biological networks (protein interactions, gene regulation, metabolic pathways)
-- Transportation networks (roads, flights, logistics)
-- Information networks (citations, hyperlinks, knowledge graphs)
-- Financial networks (transactions, risk exposure, market relationships)
-- Infrastructure networks (power grids, telecommunications, utilities)
+Begin by understanding your network and selecting appropriate analysis modules. The network analysis framework comprises four specialized modules that work together: data preparation handles loading, cleaning, and validating network data from various formats; centrality and community analysis identifies important nodes and discovers clusters; path and temporal analysis measures connectivity, robustness, and network evolution; visualization creates static and interactive representations for communication. Select modules based on your research questions—finding influencers requires centrality analysis, discovering groups requires community detection, understanding connectivity requires path analysis, and tracking changes requires temporal analysis. Most comprehensive analyses use all four modules in sequence, while focused analyses may use only two or three. Consider your network type (social, biological, transportation, financial, infrastructure) and size (small <1K nodes, medium 1-10K, large >10K) when planning your approach.
 
-## Network Analysis Workflow
+**2. Data Preparation Module Navigation**
 
-The framework follows a systematic 4-stage process:
+Use the data preparation module when starting any network analysis project. This module loads network data from various formats—edge lists (CSV with source/target columns), adjacency matrices, GraphML files, JSON structures, or database exports. It cleans networks by removing self-loops, handling duplicate edges, filtering isolated nodes, and dealing with missing attributes. It validates network structure by checking connectivity, identifying components, and assessing data quality. It creates subnetworks through component extraction (largest connected component), k-core decomposition (nodes with minimum degree k), ego networks (node and its neighbors), or attribute-based filtering (nodes matching criteria). For temporal networks, it creates time-sliced snapshots for evolution analysis. Start here regardless of your ultimate analysis goal—clean, validated data is essential for reliable results.
 
-```
-┌─────────────────────────────────────────────────────────────────────┐
-│                    NETWORK ANALYSIS WORKFLOW                         │
-└─────────────────────────────────────────────────────────────────────┘
+**3. Centrality and Community Module Navigation**
 
-  Stage 1: DATA PREPARATION
-  ┌────────────────────────────────┐
-  │ • Load network data            │
-  │ • Clean and validate           │
-  │ • Create subnetworks           │
-  │ • Add node/edge attributes     │
-  │ • Handle temporal data         │
-  └────────────────┬───────────────┘
-                   │
-                   ▼
-  Stage 2: CENTRALITY & COMMUNITY ANALYSIS
-  ┌────────────────────────────────┐
-  │ • Calculate centralities       │
-  │ • Identify influential nodes   │
-  │ • Detect communities           │
-  │ • Evaluate community quality   │
-  │ • Analyze structure            │
-  └────────────────┬───────────────┘
-                   │
-                   ▼
-  Stage 3: PATH & TEMPORAL ANALYSIS
-  ┌────────────────────────────────┐
-  │ • Analyze connectivity         │
-  │ • Calculate path metrics       │
-  │ • Test robustness              │
-  │ • Track temporal evolution     │
-  │ • Measure stability            │
-  └────────────────┬───────────────┘
-                   │
-                   ▼
-  Stage 4: VISUALIZATION & REPORTING
-  ┌────────────────────────────────┐
-  │ • Create network visualizations│
-  │ • Generate interactive plots   │
-  │ • Build dashboards             │
-  │ • Produce analysis reports     │
-  │ • Extract insights             │
-  └────────────────────────────────┘
-```
+Use the centrality and community module when identifying important nodes or discovering groups. Centrality analysis quantifies node importance through multiple measures: degree centrality (direct connections, local influence), betweenness centrality (bridge positions, information control), closeness centrality (average distance to others, reach efficiency), eigenvector centrality (connections to well-connected nodes, status), and PageRank (iterative importance propagation, web authority). Different centralities capture different importance concepts—choose based on what "important" means in your context. Community detection discovers densely connected subgroups using algorithms like Louvain (fast, modularity optimization), Leiden (improved resolution), label propagation (scalable), or spectral clustering (mathematically principled). Community quality is measured through modularity (internal vs. external density), coverage (edges within communities), and performance (correctly classified node pairs). Use this module when you need to rank nodes, find brokers or bridges, identify clusters, or understand network structure.
 
-## Sub-Prompt Modules
+**4. Path and Temporal Module Navigation**
 
-### 1. Data Preparation Module
-**File**: `network-analysis-data-preparation.md` (450 lines)
+Use the path and temporal module when analyzing connectivity, measuring robustness, or tracking network evolution. Path analysis calculates shortest paths between node pairs, network diameter (longest shortest path), average path length (typical separation), and global/local efficiency (inverse distances). It identifies articulation points (nodes whose removal disconnects the network) and bridges (edges whose removal disconnects the network)—critical infrastructure in any network. Robustness testing simulates node or edge removal under random failure and targeted attack scenarios to assess network resilience. Temporal analysis tracks how networks change over time: node lifecycle (appearance, persistence, disappearance), edge dynamics (formation, dissolution, rewiring), and structural stability (community persistence, centrality consistency). Use this module when you need connectivity metrics, want to find vulnerabilities, or have longitudinal network data.
 
-**When to Use**:
-- Starting a new network analysis project
-- Loading data from various formats (CSV, GraphML, JSON, adjacency matrix)
-- Cleaning and validating network structure
-- Creating filtered subnetworks
-- Preparing temporal network snapshots
+**5. Visualization Module Navigation**
 
-**Key Features**:
-- NetworkPreprocessor class for data loading and cleaning
-- NetworkValidator class for quality assessment
-- Support for multiple data formats
-- Subnetwork extraction (components, k-core, ego networks, attribute-based)
-- Temporal network preprocessing
-- Comprehensive validation reporting
+Use the visualization module to create visual representations and communicate findings. Layout algorithms position nodes spatially: spring layouts (force-directed, shows clustering), circular layouts (clear structure, good for small networks), hierarchical layouts (trees, DAGs), and geographic layouts (embedded in maps). Visualizations encode information through node size (centrality), node color (community membership or attributes), edge width (weight), and edge color (relationship type). Static visualizations suit publications and reports; interactive visualizations enable exploration and presentations. The module generates degree distribution plots, centrality comparisons, community structure diagrams, and network evolution animations. Use this module throughout your analysis for quick validation and at the end for comprehensive reporting.
 
-**Use This When**:
-- ✓ You need to load network data from files
-- ✓ Your network needs cleaning (self-loops, isolated nodes, degree filtering)
-- ✓ You want to validate data quality before analysis
-- ✓ You need to create focused subnetworks
-- ✓ You're working with temporal/dynamic networks
+**6. Common Workflow Patterns**
+
+Follow established workflow patterns for efficient analysis. The comprehensive workflow processes networks sequentially through all four modules: prepare data, calculate centralities, detect communities, analyze paths, assess robustness, and visualize results—appropriate for thorough research projects. The influencer identification workflow uses data preparation, centrality analysis, and visualization to find and rank important nodes—common for social network analysis. The community discovery workflow uses data preparation, community detection with multiple algorithms, quality evaluation, and community visualization—appropriate for finding groups or clusters. The robustness assessment workflow uses data preparation, path analysis, robustness simulation, and critical node visualization—common for infrastructure networks. The temporal evolution workflow uses data preparation with time slicing, temporal analysis across snapshots, and evolution visualization—appropriate for longitudinal network data.
+
+**7. Network Type Considerations**
+
+Adapt your analysis approach to your specific network type. Social networks (followers, friends, communication) typically emphasize centrality for finding influencers, community detection for discovering interest groups, and temporal analysis for tracking relationship dynamics. Biological networks (protein interactions, gene regulation, metabolic pathways) focus on community detection for functional modules, centrality for essential genes/proteins, and path analysis for signaling cascades. Transportation networks (roads, flights, logistics) prioritize path analysis for routing efficiency, robustness testing for infrastructure resilience, and temporal analysis for traffic patterns. Financial networks (transactions, ownership, risk exposure) emphasize community detection for fraud rings, centrality for systemic risk nodes, and temporal analysis for transaction patterns. Choose metrics and algorithms that match domain conventions and research questions.
+
+**8. Analysis Planning and Timeline Estimation**
+
+Plan your analysis with realistic scope and timeline. Basic network profiling (loading, statistics, simple visualization) takes 1-2 hours and provides network size, density, degree distribution, and component structure. Centrality analysis (calculating measures, identifying top nodes, comparing methods) takes 2-4 hours and delivers node rankings by multiple importance criteria. Community detection (running algorithms, evaluating quality, characterizing clusters) takes 3-5 hours and identifies group structure with quality assessment. Path and robustness analysis (connectivity metrics, critical nodes, resilience testing) takes 3-6 hours and provides efficiency measures and vulnerability assessment. Temporal analysis (snapshot creation, evolution tracking, stability metrics) takes 4-8 hours depending on time periods and delivers change patterns and dynamics. Comprehensive visualization and reporting takes 2-4 hours. A full analysis of a medium-sized network typically requires 2-3 days; adjust based on network size, question complexity, and required depth.
+
+Deliver your analysis navigation as:
+
+1. **Module selection** identifying which specialized templates to use and in what order
+2. **Workflow sequence** specifying the analysis stages from data loading to reporting
+3. **Metric selection** recommending specific centrality measures, community algorithms, or path metrics
+4. **Timeline estimate** with hours per stage and total project duration
+5. **Data requirements** specifying input format and preprocessing needs
+6. **Expected outputs** describing deliverables from each analysis module
+7. **Domain considerations** noting network-type-specific adaptations
+8. **Quality checkpoints** identifying validation steps between analysis stages
 
 ---
 
-### 2. Centrality and Community Detection Module
-**File**: `network-analysis-centrality-community.md` (600 lines)
+## Variables
 
-**When to Use**:
-- Identifying influential or important nodes
-- Finding key players in social networks
-- Detecting communities, clusters, or groups
-- Understanding network structure and organization
-- Comparing different community detection methods
-
-**Key Features**:
-- CentralityAnalyzer class with 9+ centrality measures
-- CommunityDetector class with 7+ detection algorithms
-- Centrality correlation analysis
-- Community quality evaluation (modularity, coverage, performance)
-- Hierarchical community detection
-- Method comparison and validation
-
-**Use This When**:
-- ✓ You need to rank nodes by importance
-- ✓ You want to find bridge nodes or brokers
-- ✓ You're identifying communities or clusters
-- ✓ You need to compare centrality measures
-- ✓ You want hierarchical community structure
+| Variable | Description | Example |
+|----------|-------------|---------|
+| `{NETWORK_DESCRIPTION}` | Network type, size, and data source | "Twitter follower network with 50,000 users and 500,000 follow relationships from API export" |
+| `{ANALYSIS_QUESTIONS}` | Specific questions to answer | "who are the top influencers, what communities exist, how has the network grown over 6 months" |
+| `{RESEARCH_OBJECTIVES}` | How results will be used | "identifying partnership targets and content distribution strategy for marketing campaign" |
 
 ---
 
-### 3. Path and Temporal Analysis Module
-**File**: `network-analysis-paths-temporal.md` (650 lines)
+## Usage Examples
 
-**When to Use**:
-- Analyzing network connectivity and reachability
-- Measuring shortest paths and distances
-- Assessing network robustness and vulnerability
-- Tracking how networks change over time
-- Understanding network efficiency
+### Example 1: Social Network Influencer Analysis
+**Prompt:** "Navigate network analysis for {NETWORK_DESCRIPTION: corporate communication network with 2,000 employees and 15,000 email connections extracted from 3 months of metadata}, addressing {ANALYSIS_QUESTIONS: who are the informal leaders and information brokers, what departments cluster together, and are there isolated groups}, to achieve {RESEARCH_OBJECTIVES: organizational network assessment for change management initiative}."
 
-**Key Features**:
-- PathAnalyzer class for connectivity analysis
-- TemporalNetworkAnalyzer class for evolution tracking
-- Shortest path analysis and diameter calculation
-- Robustness testing (random and targeted attacks)
-- Global and local efficiency measures
-- Node/edge lifecycle analysis
-- Network stability metrics
+**Expected Output:** Module selection: data preparation (load email network, filter by communication frequency), centrality-community (calculate betweenness for brokers, PageRank for influence, Louvain for departments), visualization (network plot with department colors, broker highlighting). Workflow: load → clean → centrality → communities → visualize → report. Key metrics: betweenness centrality for brokers, eigenvector for informal leaders, modularity for department alignment. Timeline: 6-8 hours total. Outputs: ranked broker list, community map vs. org chart comparison, isolated group identification, network health assessment.
 
-**Use This When**:
-- ✓ You need to measure network connectivity
-- ✓ You want to find critical nodes or edges
-- ✓ You're assessing network resilience
-- ✓ You have temporal/longitudinal network data
-- ✓ You need to understand network evolution
+### Example 2: Supply Chain Resilience Assessment
+**Prompt:** "Navigate network analysis for {NETWORK_DESCRIPTION: manufacturing supply chain with 500 suppliers, 3 tiers, and 2,000 supply relationships with lead time attributes}, addressing {ANALYSIS_QUESTIONS: which suppliers are single points of failure, how resilient is the network to disruptions, what is the critical path for key products}, to achieve {RESEARCH_OBJECTIVES: supply chain risk assessment and redundancy planning}."
+
+**Expected Output:** Module selection: data preparation (load supplier network with tier and lead time attributes), path-temporal (articulation points, robustness simulation, path analysis for critical products), visualization (tiered layout with criticality highlighting). Workflow: load → validate → path analysis → robustness testing → critical path → visualize. Key metrics: articulation points (single points of failure), robustness under targeted removal, longest weighted path (critical lead time). Timeline: 8-10 hours. Outputs: critical supplier list ranked by network impact, robustness curves under different failure scenarios, critical path visualization with lead times, redundancy recommendations.
+
+### Example 3: Research Collaboration Evolution
+**Prompt:** "Navigate network analysis for {NETWORK_DESCRIPTION: academic co-authorship network with 10,000 researchers and 50,000 collaborations from 10 years of publication data with yearly timestamps}, addressing {ANALYSIS_QUESTIONS: how have collaboration patterns changed, which researchers have become more central, and are new communities emerging}, to achieve {RESEARCH_OBJECTIVES: research program evaluation and emerging collaboration opportunity identification}."
+
+**Expected Output:** Module selection: data preparation (load temporal network, create yearly snapshots), centrality-community (centrality across time periods, community detection per snapshot), path-temporal (evolution metrics, node lifecycle, community stability), visualization (temporal evolution plots, community dynamics). Workflow: load → time slice → per-period analysis → evolution tracking → stability assessment → animate/visualize. Key metrics: centrality trajectories, community membership changes, Jaccard stability of communities across years. Timeline: 12-16 hours for 10 time periods. Outputs: researcher centrality trajectories, community evolution map, emerging cluster identification, collaboration trend analysis.
 
 ---
 
-### 4. Visualization and Reporting Module
-**File**: `network-analysis-visualization.md` (750 lines)
-
-**When to Use**:
-- Creating visual representations of networks
-- Building interactive network dashboards
-- Generating publication-quality figures
-- Producing comprehensive analysis reports
-- Communicating network insights to stakeholders
-
-**Key Features**:
-- NetworkVisualizer class with multiple layouts
-- Static visualizations (matplotlib/seaborn)
-- Interactive plots (Plotly)
-- Centrality and community visualizations
-- Degree distribution plots
-- Statistics dashboards
-- Complete variable reference and examples
-
-**Use This When**:
-- ✓ You need to visualize network structure
-- ✓ You want interactive, explorable network plots
-- ✓ You're creating reports or presentations
-- ✓ You need publication-quality figures
-- ✓ You want to build network dashboards
-
-## Decision Tree: Which Module to Use?
-
-```
-START: What is your primary goal?
-│
-├─ Load and prepare network data?
-│  └─→ Use: network-analysis-data-preparation.md
-│
-├─ Find important nodes or communities?
-│  └─→ Use: network-analysis-centrality-community.md
-│
-├─ Analyze connectivity or track changes over time?
-│  └─→ Use: network-analysis-paths-temporal.md
-│
-└─ Create visualizations or reports?
-   └─→ Use: network-analysis-visualization.md
-
-COMPREHENSIVE ANALYSIS: Use all modules in sequence
-  1. Data Preparation → 2. Centrality & Community → 3. Path & Temporal → 4. Visualization
-```
-
-## Common Use Case Workflows
-
-### Workflow 1: Social Network Influencer Analysis
-```
-Goal: Identify key influencers and communities in a social network
-
-Steps:
-1. Data Preparation (Module 1)
-   - Load follower/following network
-   - Clean self-loops and validate structure
-   - Add user attributes (follower count, engagement rate)
-
-2. Centrality & Community (Module 2)
-   - Calculate degree, betweenness, PageRank
-   - Identify top 20 influencers
-   - Detect communities using Louvain
-   - Evaluate community quality
-
-3. Visualization (Module 4)
-   - Create community-colored network plot
-   - Visualize centrality measures
-   - Generate influencer ranking dashboard
-
-Outputs: Influencer list, community structure, strategic recommendations
-```
-
-### Workflow 2: Transportation Network Robustness
-```
-Goal: Assess vulnerability and robustness of a transportation network
-
-Steps:
-1. Data Preparation (Module 1)
-   - Load road network with travel times
-   - Validate connectivity structure
-   - Create subnetworks by region
-
-2. Path & Temporal (Module 3)
-   - Calculate shortest paths and diameter
-   - Identify articulation points and bridges
-   - Test robustness (random and targeted attacks)
-   - Measure efficiency metrics
-
-3. Visualization (Module 4)
-   - Visualize critical infrastructure
-   - Create robustness comparison charts
-   - Generate vulnerability report
-
-Outputs: Critical nodes/edges, robustness scores, improvement recommendations
-```
-
-### Workflow 3: Temporal Collaboration Network Evolution
-```
-Goal: Track how collaboration patterns evolve over time
-
-Steps:
-1. Data Preparation (Module 1)
-   - Load temporal collaboration data
-   - Create temporal snapshots (yearly)
-   - Validate each time period
-
-2. Centrality & Community (Module 2)
-   - Track centrality changes over time
-   - Detect communities in each snapshot
-   - Identify stable vs. dynamic communities
-
-3. Path & Temporal (Module 3)
-   - Analyze network growth/shrinkage
-   - Track node/edge lifecycle
-   - Measure structural stability
-   - Calculate evolution metrics
-
-4. Visualization (Module 4)
-   - Create temporal evolution plots
-   - Visualize community dynamics
-   - Generate evolution report
-
-Outputs: Evolution timeline, community dynamics, growth patterns
-```
-
-### Workflow 4: Biological Pathway Analysis
-```
-Goal: Identify functional modules in protein interaction network
-
-Steps:
-1. Data Preparation (Module 1)
-   - Load protein-protein interactions
-   - Filter by interaction confidence
-   - Add protein annotations
-
-2. Centrality & Community (Module 2)
-   - Calculate centralities for hub proteins
-   - Detect functional modules (communities)
-   - Validate with known pathways
-   - Identify bridge proteins
-
-3. Path & Temporal (Module 3)
-   - Analyze module connectivity
-   - Find critical interaction paths
-   - Measure pathway efficiency
-
-4. Visualization (Module 4)
-   - Create module-colored network
-   - Visualize hub proteins
-   - Generate pathway report
-
-Outputs: Functional modules, hub proteins, pathway insights
-```
-
-## Integration Patterns
-
-### Sequential Analysis (Most Common)
-Use modules in sequence for comprehensive analysis:
-```
-Data Prep → Centrality & Community → Path & Temporal → Visualization
-```
-
-### Focused Analysis
-Use specific modules for targeted questions:
-```
-- Influencer identification: Modules 1 + 2 + 4
-- Robustness assessment: Modules 1 + 3 + 4
-- Community detection: Modules 1 + 2 + 4
-- Temporal tracking: Modules 1 + 3 + 4
-```
-
-### Iterative Refinement
-Cycle through modules to refine analysis:
-```
-1. Data Prep → Quick visualization (identify issues)
-2. Return to Data Prep → Apply better filtering
-3. Full analysis → Comprehensive reporting
-```
-
-### Parallel Analysis
-Apply multiple modules to different subnetworks:
-```
-Network → Create subnetworks (Module 1)
-       ├→ Subnetwork A → Centrality analysis (Module 2)
-       ├→ Subnetwork B → Path analysis (Module 3)
-       └→ Combine results → Visualization (Module 4)
-```
-
-## Quick Reference: Key Classes
-
-### NetworkPreprocessor (Module 1)
-- `load_network_data()` - Load from various formats
-- `clean_network()` - Remove self-loops, isolated nodes
-- `create_subnetworks()` - Extract focused subnetworks
-- `add_node_attributes()` - Enrich network with attributes
-
-### NetworkValidator (Module 1)
-- `comprehensive_validation()` - Full quality check
-- `generate_validation_report()` - Detailed report
-
-### CentralityAnalyzer (Module 2)
-- `calculate_all_centralities()` - 9+ centrality measures
-- `identify_top_nodes()` - Find most important nodes
-- `analyze_centrality_correlations()` - Compare measures
-
-### CommunityDetector (Module 2)
-- `detect_communities_multiple_methods()` - 7+ algorithms
-- `evaluate_community_quality()` - Quality metrics
-- `compare_community_methods()` - Method comparison
-- `hierarchical_community_detection()` - Hierarchical structure
-
-### PathAnalyzer (Module 3)
-- `comprehensive_path_analysis()` - Full connectivity analysis
-- `k_shortest_paths()` - Multiple paths between nodes
-- `_analyze_network_robustness()` - Resilience testing
-
-### TemporalNetworkAnalyzer (Module 3)
-- `analyze_temporal_evolution()` - Track metrics over time
-- `node_lifecycle_analysis()` - Node appearance/disappearance
-- `edge_dynamics_analysis()` - Edge formation/dissolution
-- `network_stability_analysis()` - Structural stability
-
-### NetworkVisualizer (Module 4)
-- `create_comprehensive_visualization_suite()` - Full suite
-- `create_basic_network_plot()` - Layout visualizations
-- `visualize_centrality_measures()` - Centrality plots
-- `visualize_communities()` - Community structure
-- `create_interactive_network()` - Interactive Plotly plot
-
-## Getting Started
-
-### For First-Time Users
-1. **Start with Module 1** (Data Preparation) to load and validate your network
-2. **Choose your analysis focus**:
-   - Node importance? → Module 2
-   - Connectivity/robustness? → Module 3
-   - Communities? → Module 2
-   - Temporal changes? → Module 3
-3. **Visualize results** with Module 4
-4. **Iterate** based on initial findings
-
-### For Experienced Users
-- Jump directly to the module matching your analysis goal
-- Use the decision tree to select appropriate modules
-- Combine modules for comprehensive analysis
-- Customize code examples for your specific needs
-
-### For Domain-Specific Analysis
-- **Social Networks**: Emphasize Modules 2 (centrality, communities) and 4 (visualization)
-- **Infrastructure**: Focus on Modules 3 (robustness, critical nodes) and 4
-- **Biological**: Use Modules 2 (functional modules) and 3 (pathway analysis)
-- **Temporal**: Prioritize Modules 1 (temporal prep) and 3 (evolution tracking)
-
-## Best Practices for Multi-Module Analysis
-
-1. **Always Start with Data Preparation** - Clean data leads to reliable results
-2. **Validate Before Analyzing** - Use NetworkValidator to catch issues early
-3. **Document Your Workflow** - Track which modules and parameters you use
-4. **Compare Multiple Methods** - Use various algorithms for robust conclusions
-5. **Visualize Throughout** - Create quick plots to verify each analysis stage
-6. **Interpret Contextually** - Combine quantitative results with domain knowledge
-7. **Test Sensitivity** - Vary parameters to ensure robust findings
-8. **Report Limitations** - Be transparent about assumptions and constraints
-9. **Iterate and Refine** - Use initial results to guide deeper analysis
-10. **Archive Results** - Save intermediate outputs for reproducibility
-
-## Additional Resources
-
-### Related Templates
-- `dashboard-design-patterns.md` - For building network dashboards
-- `data-governance-framework.md` - For managing network data quality
-- `predictive-modeling-framework.md` - For network-based predictions
-
-### Key Concepts
-- **Centrality**: Measures of node importance (degree, betweenness, closeness, PageRank)
-- **Community**: Dense subgraph with more internal than external connections
-- **Modularity**: Quality measure for community structure (higher is better, >0.4 is good)
-- **Path Length**: Number of edges in a shortest path between nodes
-- **Diameter**: Longest shortest path in the network
-- **Robustness**: Network's ability to maintain connectivity under failures
-- **Temporal Network**: Network that changes over time
-
-### Network Science Fundamentals
-- **Scale-free networks**: Degree distribution follows power law
-- **Small-world networks**: Short average path length, high clustering
-- **Assortative mixing**: Tendency of similar nodes to connect
-- **Triadic closure**: Tendency of connected nodes' neighbors to connect
-
-## Support and Troubleshooting
-
-### Common Issues
-
-**Issue**: Network too large for exact algorithms
-- **Solution**: Use sampling (Module 3), approximations, or filter to subnetwork (Module 1)
-
-**Issue**: Disconnected network causing errors
-- **Solution**: Analyze largest component separately or use appropriate measures
-
-**Issue**: Community detection gives inconsistent results
-- **Solution**: Compare multiple methods (Module 2), evaluate quality metrics
-
-**Issue**: Temporal snapshots have different node sets
-- **Solution**: Use node lifecycle analysis (Module 3) to track changes
-
-**Issue**: Visualization cluttered for large network
-- **Solution**: Filter to top nodes, use interactive plots, or create multiple views
-
-### Performance Tips
-- Use sampling for networks >10,000 nodes
-- Apply approximation methods for diameter and paths
-- Filter low-degree nodes for visualization
-- Process subnetworks in parallel when possible
-- Cache intermediate results for iterative analysis
-
-## Next Steps
-
-1. **Review your network data** - Understand format, size, and attributes
-2. **Define your questions** - What do you want to learn from the network?
-3. **Select appropriate modules** - Use the decision tree above
-4. **Start with data preparation** - Load and validate your network (Module 1)
-5. **Apply targeted analysis** - Use Modules 2-3 based on your questions
-6. **Create visualizations** - Generate insights with Module 4
-7. **Iterate and refine** - Improve analysis based on initial findings
-8. **Document and share** - Create reports and communicate insights
-
-## Contact and Feedback
-
-This framework is designed to be comprehensive yet flexible. Customize the code examples, combine modules creatively, and adapt to your specific domain and questions.
-
-For best results:
-- Start simple and add complexity incrementally
-- Validate results at each stage
-- Combine quantitative analysis with qualitative interpretation
-- Use visualizations to communicate findings effectively
-- Document your methodology for reproducibility
-
-Happy analyzing! 🔍📊🌐
+## Cross-References
+
+- [network-analysis-data-preparation.md](network-analysis-data-preparation.md) - Loading, cleaning, and validating network data
+- [network-analysis-centrality-community.md](network-analysis-centrality-community.md) - Node importance and cluster detection
+- [network-analysis-paths-temporal.md](network-analysis-paths-temporal.md) - Connectivity, robustness, and evolution
+- [network-analysis-visualization.md](network-analysis-visualization.md) - Static and interactive network plots

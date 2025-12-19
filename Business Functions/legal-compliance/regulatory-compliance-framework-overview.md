@@ -1,174 +1,113 @@
 ---
-title: Regulatory Compliance Framework - Overview & Navigation
 category: legal-compliance
+title: Regulatory Compliance Readiness Assessment - Overview & Navigation
 tags:
 - regulatory-compliance
-- compliance-framework
-- risk-management
 - compliance-program
+- compliance-governance
+- risk-management
+- readiness-assessment
 use_cases:
-- Creating comprehensive compliance program strategies covering policies, procedures,
-  training, monitoring, and auditing to ensure regulatory adherence, minimize compliance
-  risks, and maintain organizational integrity while fostering a culture of compliance
-  excellence.
-last_updated: 2025-11-11
+- Quickly choosing the right compliance readiness assessment (foundation vs monitoring vs implementation)
+- Aligning stakeholders on scope, priorities, and sequencing for a compliance uplift
+- Producing a short plan for which readiness assessments to run and what inputs to gather
+related_templates:
+- legal-compliance/regulatory-compliance-framework.md
+- legal-compliance/regulatory-compliance-framework-01-foundation.md
+- legal-compliance/regulatory-compliance-framework-02-risk-monitoring.md
+- legal-compliance/regulatory-compliance-framework-03-implementation.md
+- legal-compliance/regulatory-compliance-management.md
 industries:
+- education
 - finance
 - government
 - healthcare
 - manufacturing
 - retail
 - technology
-type: template
-difficulty: intermediate
-slug: regulatory-compliance-framework-overview
+type: framework
+difficulty: beginner
+slug: regulatory-compliance-readiness-assessment-overview
 ---
 
-# Regulatory Compliance Framework - Overview & Navigation
+# Regulatory Compliance Readiness Assessment - Overview & Navigation
 
 ## Purpose
-This comprehensive regulatory compliance framework has been split into three focused sub-prompts for easier use and better organization. Each part builds on the previous one to create a complete compliance program strategy.
+Use this overview to pick the right compliance readiness assessment and run them in the right order. The full set is split into three parts:
 
-## Quick Regulatory Compliance Navigation Prompt
-Navigate compliance framework for [organization] in [industry]. Use Part 1 (foundation) for: governance structure, policy framework, compliance culture, risk fundamentals. Use Part 2 (risk-monitoring) for: risk assessment, regulatory change management, training programs, audit basics. Use Part 3 (implementation) for: program deployment, technology, metrics, continuous improvement. Start with Part 1 for new programs.
+- **Part 1: Foundation & Governance** - Oversight, policy lifecycle, roles/resourcing, culture/training, baseline risk register, and evidence basics.
+- **Part 2: Risk Management & Monitoring** - Risk taxonomy, monitoring/surveillance, KRIs/alerts, regulatory change management, training effectiveness, escalation.
+- **Part 3: Implementation & Reporting** - Audits/testing, issues & CAPA, regulator engagement, dashboards/metrics, program delivery governance, continuous improvement.
 
-## Navigation Guide
+## 🚀 Quick Assessment Prompt
 
-### Part 1: Foundation & Compliance Governance (350-400 lines)
-**File:** `regulatory-compliance-framework-01-foundation.md`
+> For **[ORGANIZATION]** in **[INDUSTRY]** operating across **[JURISDICTIONS]** under **[CORE_REGULATIONS]**, choose the best starting assessment: (1) If governance, ownership, policy control, and evidence are unclear, start with **Part 1**. (2) If governance exists but monitoring, investigations, KRIs, and regulatory change handling are inconsistent, start with **Part 2**. (3) If monitoring exists but audit/CAPA discipline, exam readiness, and performance reporting are weak, start with **Part 3**. Provide: the chosen starting part, a sequenced order for the remaining parts, and the minimum inputs needed (org chart/committees, policy inventory, risk register, monitoring coverage, audit/CAPA log).
 
-**Covers:**
-- Executive Summary
-- Compliance Governance and Organization Structure
-- Policy and Procedure Framework
-- Compliance Culture Development
-- Risk Assessment Fundamentals
-
-**Best for:** Establishing governance structures, developing policies, and building compliance culture
-
-**Start here if:** You're setting up a new compliance program or restructuring existing governance
+**Usage:** Replace bracketed placeholders with your specifics.
 
 ---
 
-### Part 2: Risk Management & Monitoring (350-400 lines)
-**File:** `regulatory-compliance-framework-02-risk-monitoring.md`
+## Template
 
-**Covers:**
-- Comprehensive Risk Assessment and Monitoring
-- Regulatory Change Management
-- Training and Awareness Programs
-- Competency Assessment
-- Audit Framework Fundamentals
+Use this decision guide for {ORGANIZATION}:
 
-**Best for:** Building risk monitoring systems, training programs, and change management processes
+**A. Choose the starting point**
 
-**Start here if:** You have governance in place and need operational risk management systems
+- Start with **Part 1** if any of these are true:
+  - No clear three-lines-of-defense model or decision rights for exceptions
+  - Policies/procedures exist but have no controlled lifecycle (review/approval/versioning)
+  - Roles/resourcing are unclear (no SMEs, no control owners, no accountable approvals)
+  - Evidence is scattered (training attestations, approvals, exceptions, control evidence)
 
----
+- Start with **Part 2** if any of these are true:
+  - Risk taxonomy exists, but monitoring coverage and investigations are inconsistent
+  - Alerts are noisy and not tied to playbooks or escalation triggers
+  - Regulatory change is managed ad-hoc (emails/spreadsheets without evidence)
 
-### Part 3: Implementation & Reporting (350-400 lines)
-**File:** `regulatory-compliance-framework-03-implementation.md`
+- Start with **Part 3** if any of these are true:
+  - Audits/testing lack repeatable procedures and evidence standards
+  - CAPA closure is weak (no validation, recurrence tracking, or escalation)
+  - Exam response is slow due to unclear owners and evidence retrieval problems
 
-**Covers:**
-- Audit and Assurance Framework
-- Corrective Action and Remediation
-- Regulatory Relationship Management
-- Performance Measurement and Reporting
-- Implementation Timeline
-- Continuous Improvement
+**B. Define scope**
+- Jurisdictions: {JURISDICTIONS}
+- Core regulations/obligations: {CORE_REGULATIONS}
+- Business processes/products in scope: {IN_SCOPE_PROCESSES}
+- Third parties in scope (if relevant): {IN_SCOPE_THIRD_PARTIES}
 
-**Best for:** Implementing audit programs, managing regulatory relationships, and measuring performance
+**C. Run the assessments**
+- Run the selected part first and capture the scorecard, top gaps, and a 90-day plan.
+- Run the remaining parts in sequence to produce a complete end-to-end roadmap.
 
-**Start here if:** You need to operationalize compliance programs and establish reporting frameworks
+Deliver your navigation output as:
 
----
+1. **STARTING PART** - Which part and why
+2. **SEQUENCE** - Recommended order for the remaining parts
+3. **MINIMUM INPUTS** - Documents/data needed to run the assessments quickly
+4. **STAKEHOLDERS** - Owners needed (compliance, legal, risk, audit, operations, IT)
+5. **OUTPUT PACKAGE** - Scorecards + combined 90-day plan themes
 
-## Quick Start Workflow
+Use this maturity scale:
+- 1.0-1.9: Initial (ad-hoc program, limited accountability, weak evidence)
+- 2.0-2.9: Developing (basic components exist, inconsistent execution)
+- 3.0-3.9: Defined (repeatable governance/monitoring/audit processes)
+- 4.0-4.9: Managed (measured effectiveness, strong evidence discipline)
+- 5.0: Optimized (proactive risk management, continuous improvement)
 
-### For New Compliance Programs:
-1. **Start with Part 1** - Establish governance structure and policies
-2. **Move to Part 2** - Build risk management and training systems
-3. **Complete with Part 3** - Implement auditing and reporting
+## Variables
 
-### For Existing Programs:
-- **Governance Restructure:** Use Part 1
-- **Risk Enhancement:** Use Part 2
-- **Performance Improvement:** Use Part 3
-- **Comprehensive Review:** Use all three parts in sequence
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `[ORGANIZATION]` | Organization name | "B2B Payments Company" |
+| `[INDUSTRY]` | Industry context | "FinTech" |
+| `[JURISDICTIONS]` | Primary jurisdictions | "US + EU" |
+| `[CORE_REGULATIONS]` | Primary obligations | "AML, privacy, consumer protection" |
+| `[IN_SCOPE_PROCESSES]` | Processes/products in scope | "Onboarding, underwriting, payouts" |
+| `[IN_SCOPE_THIRD_PARTIES]` | Vendors/partners in scope | "KYC provider, cloud hosting" |
 
-### For Specific Needs:
-- **Board Reporting:** Parts 1 & 3
-- **Training Program:** Part 2
-- **Audit Preparation:** Parts 2 & 3
-- **Regulatory Examination:** All parts with focus on Part 3
+## Example
 
-## How to Use These Prompts
+**Choosing where to start**
 
-### Individual Use
-Each sub-prompt can be used independently if you have a specific area of focus. Simply provide your organizational context and requirements in the designated fields.
+> For **B2B Payments Company** in **FinTech** across **US + EU** under **AML, privacy, consumer protection**, start with **Part 2** because KRIs exist but thresholds are not tuned, investigations lack audit trails, and regulatory change handling is email-based. Then run **Part 3** to harden CAPA and exam readiness, and finish with **Part 1** to formalize decision rights and evidence standards.
 
-### Sequential Use
-For comprehensive framework development:
-1. Complete Part 1 first to establish foundation
-2. Use Part 1 output as context for Part 2
-3. Integrate Parts 1 & 2 into Part 3 for complete program
-
-### Combined Use
-You can reference multiple parts simultaneously when developing cross-cutting initiatives like:
-- Regulatory change implementation (Parts 2 & 3)
-- Culture transformation (Parts 1 & 2)
-- Performance optimization (All parts)
-
-## Variables Used Across All Parts
-
-These variables are consistent across all three sub-prompts:
-
-**Organizational Context:**
-- `[ORGANIZATION_NAME]` - Organization name
-- `[INDUSTRY_CLASSIFICATION]` - Industry sector
-- `[OPERATIONAL_STRUCTURE]` - Business model
-- `[REGULATORY_JURISDICTIONS]` - Geographic presence
-- `[ENTITY_SCALE]` - Organization size
-- `[OWNERSHIP_STRUCTURE]` - Public/Private status
-- `[COMPLIANCE_RISK_LEVEL]` - Risk profile
-- `[COMPLIANCE_TRACK_RECORD]` - Regulatory history
-
-**Regulatory Environment:**
-- `[CORE_REGULATORY_FRAMEWORKS]` - Primary regulations
-- `[SUPPORTING_COMPLIANCE_REQUIREMENTS]` - Secondary regulations
-- `[OVERSIGHT_AUTHORITIES]` - Regulatory bodies
-- `[REGULATORY_ENFORCEMENT_PATTERNS]` - Enforcement trends
-
-**Program Scope:**
-- `[BUSINESS_FUNCTION_COVERAGE]` - Functional areas
-- `[OPERATIONAL_PROCESS_SCOPE]` - Process coverage
-- `[CURRENT_COMPLIANCE_INFRASTRUCTURE]` - Existing programs
-- `[COMPLIANCE_RESOURCE_DEPLOYMENT]` - Resource allocation
-
-## Best Practices for Using This Framework
-
-1. **Start with clear objectives** - Define what success looks like before beginning
-2. **Use data to inform decisions** - Base choices on evidence and measurable outcomes
-3. **Iterate and improve continuously** - Treat implementation as an ongoing process
-4. **Engage stakeholders early** - Include key participants in planning and execution
-5. **Document thoroughly** - Maintain clear records for reference and knowledge transfer
-
-## Support and Customization
-
-Each sub-prompt includes:
-- Detailed variable definitions
-- Industry-specific customization options
-- Usage examples
-- Implementation guidance
-- Cross-references to related sections
-
-## Related Templates
-
-- Cloud Security Framework
-- Data Privacy Implementation
-- Enterprise Risk Management
-- Internal Audit Planning
-
----
-
-**Note:** These sub-prompts work together to create a comprehensive compliance framework. For best results, review all three parts to understand the complete program scope before beginning implementation.

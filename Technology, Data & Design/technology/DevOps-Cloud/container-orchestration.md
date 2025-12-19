@@ -1,986 +1,139 @@
 ---
 category: technology
-last_updated: 2025-11-09
 related_templates:
-- technology/cloud-architecture-framework.md
-- technology/site-reliability-engineering.md
-- technology/cloud-migration-strategy.md
+- technology/DevOps-Cloud/cloud-architecture.md
+- technology/DevOps-Cloud/ci-cd-pipelines.md
+- technology/DevOps-Cloud/infrastructure-as-code.md
 tags:
 - kubernetes
 - container-orchestration
 - eks-gke-aks
 - auto-scaling
-title: Container Orchestration Template
+title: Container Orchestration
 use_cases:
-- Creating design and implement container orchestration strategies using kubernetes,
-  docker swarm, or other platforms to manage containerized applications at scale.
-- Project planning and execution
-- Strategy development
+- Designing Kubernetes architectures on EKS/GKE/AKS with node pools, auto-scaling, and multi-tenancy for microservices platforms serving 10K+ requests/second
+- Implementing deployment strategies (rolling, blue-green, canary) with service mesh integration achieving zero-downtime releases and automated rollback
+- Building stateful workloads with persistent storage, backup strategies, and disaster recovery achieving 99.99% data durability
 industries:
-- manufacturing
 - technology
-type: template
+- financial-services
+- healthcare
+- retail
+type: framework
 difficulty: intermediate
 slug: container-orchestration
 ---
 
-# Container Orchestration Template
+# Container Orchestration
 
 ## Purpose
-Design and implement container orchestration strategies using Kubernetes, Docker Swarm, or other platforms to manage containerized applications at scale.
+Design and implement Kubernetes-based container orchestration covering cluster architecture, deployment patterns, auto-scaling, service mesh, stateful workloads, and observability achieving production-grade reliability with efficient resource utilization.
 
-## Quick Container Orchestration Prompt
-Deploy [application] on Kubernetes ([EKS/GKE/AKS]). Config: [X replicas], resource limits (CPU: [Y], memory: [Z]), health checks (liveness, readiness). Services: LoadBalancer/Ingress with TLS. Scaling: HPA ([min]-[max] pods, [metric] threshold). Storage: PVC for [stateful data]. Observability: Prometheus metrics, Grafana dashboards, centralized logging.
+## 🚀 Quick Container Orchestration Prompt
 
-## Quick Start
+> Deploy **[APPLICATION]** on **[EKS/GKE/AKS]** with **[REPLICAS]** replicas. Resources: CPU **[REQUEST/LIMIT]**, memory **[REQUEST/LIMIT]**. Scaling: HPA **[MIN]-[MAX]** pods at **[CPU_THRESHOLD]**% CPU. Storage: **[STORAGE_CLASS]** PVC for **[STATEFUL_DATA]**. Networking: **[INGRESS_TYPE]** with TLS, **[SERVICE_MESH]** for traffic management. Observability: Prometheus metrics, **[LOGGING_STACK]**. Deploy strategy: **[ROLLING/CANARY/BLUE_GREEN]**.
 
-**Deploy container orchestration in 5 steps:**
-
-1. **Create Kubernetes Cluster**: Set up EKS/GKE/AKS or local cluster with kubectl configured and cluster-autoscaler enabled
-2. **Containerize Applications**: Write Dockerfiles, build images, push to registry (ECR/GCR/ACR), tag with semantic versions
-3. **Deploy with Manifests**: Create Deployment, Service, and ConfigMap/Secret YAML files with resource limits and health checks
-4. **Configure Auto-Scaling**: Implement HPA (Horizontal Pod Autoscaler) based on CPU/memory/custom metrics
-5. **Set Up Monitoring**: Deploy Prometheus + Grafana for cluster metrics, logging with ELK/Loki, and distributed tracing
-
-**Quick Kubernetes Deployment:**
-```bash
-# Create deployment with 3 replicas
-kubectl create deployment app --image=myapp:v1.0 --replicas=3
-
-# Expose as service
-kubectl expose deployment app --port=80 --target-port=8080 --type=LoadBalancer
-
-# Configure auto-scaling
-kubectl autoscale deployment app --min=3 --max=10 --cpu-percent=70
-
-# Check status
-kubectl get pods,svc,hpa
-```
+---
 
 ## Template
 
-```
-You are a container orchestration expert with deep knowledge of Kubernetes, Docker, and cloud-native architectures. Generate a comprehensive container orchestration strategy based on:
-
-Application Requirements:
-- Application Type: [STATELESS/STATEFUL/BATCH]
-- Number of Services: [SERVICE_COUNT]
-- Traffic Pattern: [STEADY/BURSTY/PERIODIC]
-- Data Requirements: [STORAGE_NEEDS]
-
-Infrastructure:
-- Platform: [KUBERNETES/SWARM/ECS/NOMAD]
-- Environment: [CLOUD_PROVIDER]
-- Cluster Size: [NODE_COUNT]
-- High Availability: [HA_REQUIREMENTS]
-
-Generate a comprehensive container orchestration implementation:
-
-1. ARCHITECTURE OVERVIEW
-
-   ## Container Platform Architecture
-
-   ```yaml
-   cluster_architecture:
-     control_plane:
-       masters:
-         count: 3
-         instance_type: m5.xlarge
-         availability_zones: [us-east-1a, us-east-1b, us-east-1c]
-         components:
-           - kube-apiserver
-           - kube-controller-manager
-           - kube-scheduler
-           - etcd
-
-     data_plane:
-       worker_pools:
-         general:
-           count: 5
-           instance_type: m5.2xlarge
-           autoscaling:
-             min: 3
-             max: 10
-             target_cpu: 70
-
-         compute_intensive:
-           count: 3
-           instance_type: c5.4xlarge
-           taints:
-             - key: workload-type
-               value: compute
-               effect: NoSchedule
-
-         memory_intensive:
-           count: 3
-           instance_type: r5.2xlarge
-           taints:
-             - key: workload-type
-               value: memory
-               effect: NoSchedule
-   ```
-
-   ## Multi-Cluster Strategy
-
-   ```python
-   class MultiClusterOrchestration:
-       def __init__(self):
-           self.clusters = {
-               'production': {
-                   'region': 'us-east-1',
-                   'purpose': 'production_workloads',
-                   'size': 'large',
-                   'ha': True
-               },
-               'staging': {
-                   'region': 'us-east-1',
-                   'purpose': 'pre_production',
-                   'size': 'medium',
-                   'ha': False
-               },
-               'development': {
-                   'region': 'us-west-2',
-                   'purpose': 'development',
-                   'size': 'small',
-                   'ha': False
-               }
-           }
-
-       def setup_cluster_federation(self):
-           federation_config = {
-               'control_plane': 'production',
-               'member_clusters': ['production', 'staging', 'development'],
-               'dns_zone': 'federation.example.com',
-               'cross_cluster_discovery': True,
-               'global_load_balancing': True
-           }
-           return federation_config
-   ```
-
-2. KUBERNETES DEPLOYMENT PATTERNS
-
-   ## Deployment Strategies
-
-   ```yaml
-   apiVersion: apps/v1
-   kind: Deployment
-   metadata:
-     name: api-service
-     namespace: production
-   spec:
-     replicas: 5
-     strategy:
-       type: RollingUpdate
-       rollingUpdate:
-         maxSurge: 2
-         maxUnavailable: 1
-     selector:
-       matchLabels:
-         app: api-service
-     template:
-       metadata:
-         labels:
-           app: api-service
-           version: v2.0.0
-       spec:
-         affinity:
-           podAntiAffinity:
-             requiredDuringSchedulingIgnoredDuringExecution:
-               - labelSelector:
-                   matchExpressions:
-                     - key: app
-                       operator: In
-                       values:
-                         - api-service
-                 topologyKey: kubernetes.io/hostname
-
-         containers:
-         - name: api
-           image: api-service:2.0.0
-           ports:
-           - containerPort: 8080
-
-           resources:
-             requests:
-               memory: "256Mi"
-               cpu: "250m"
-             limits:
-               memory: "512Mi"
-               cpu: "500m"
-
-           livenessProbe:
-             httpGet:
-               path: /health
-               port: 8080
-             initialDelaySeconds: 30
-             periodSeconds: 10
-
-           readinessProbe:
-             httpGet:
-               path: /ready
-               port: 8080
-             initialDelaySeconds: 5
-             periodSeconds: 5
-
-           env:
-           - name: DATABASE_URL
-             valueFrom:
-               secretKeyRef:
-                 name: database-credentials
-                 key: url
-
-           volumeMounts:
-           - name: config
-             mountPath: /etc/config
-             readOnly: true
-
-         volumes:
-         - name: config
-           configMap:
-             name: api-config
-   ```
-
-   ## Blue-Green Deployment
-
-   ```python
-   def blue_green_deployment():
-       deployment_steps = {
-           'step_1': 'Deploy green version alongside blue',
-           'step_2': 'Run smoke tests on green',
-           'step_3': 'Switch service selector to green',
-           'step_4': 'Monitor green deployment',
-           'step_5': 'Keep blue for rollback',
-           'step_6': 'Remove blue after validation'
-       }
-
-       service_update = '''
-       kubectl patch service api-service -p '
-       {
-         "spec": {
-           "selector": {
-             "version": "green"
-           }
-         }
-       }'
-       '''
-
-       rollback_command = '''
-       kubectl patch service api-service -p '
-       {
-         "spec": {
-           "selector": {
-             "version": "blue"
-           }
-         }
-       }'
-       '''
-
-       return deployment_steps, service_update, rollback_command
-   ```
-
-3. SERVICE MESH IMPLEMENTATION
-
-   ## Istio Configuration
-
-   ```yaml
-   # Virtual Service
-   apiVersion: networking.istio.io/v1beta1
-   kind: VirtualService
-   metadata:
-     name: api-service
-   spec:
-     hosts:
-     - api.example.com
-     gateways:
-     - api-gateway
-     http:
-     - match:
-       - headers:
-           x-version:
-             exact: canary
-       route:
-       - destination:
-           host: api-service
-           subset: canary
-         weight: 100
-     - route:
-       - destination:
-           host: api-service
-           subset: stable
-         weight: 90
-       - destination:
-           host: api-service
-           subset: canary
-         weight: 10
-       timeout: 30s
-       retries:
-         attempts: 3
-         perTryTimeout: 10s
-
-   ---
-   # Destination Rule
-   apiVersion: networking.istio.io/v1beta1
-   kind: DestinationRule
-   metadata:
-     name: api-service
-   spec:
-     host: api-service
-     trafficPolicy:
-       connectionPool:
-         tcp:
-           maxConnections: 100
-         http:
-           http1MaxPendingRequests: 50
-           http2MaxRequests: 100
-       loadBalancer:
-         simple: LEAST_REQUEST
-       outlierDetection:
-         consecutive5xxErrors: 5
-         interval: 30s
-         baseEjectionTime: 30s
-     subsets:
-     - name: stable
-       labels:
-         version: stable
-     - name: canary
-       labels:
-         version: canary
-   ```
-
-   ## Circuit Breaker Pattern
-
-   ```python
-   class CircuitBreakerConfig:
-       def __init__(self):
-           self.thresholds = {
-               'consecutive_errors': 5,
-               'error_percentage': 50,
-               'interval': '30s',
-               'base_ejection_time': '30s',
-               'max_ejection_percentage': 50,
-               'min_health_percentage': 30
-           }
-
-       def generate_envoy_config(self):
-           return {
-               'outlier_detection': {
-                   'consecutive_5xx': self.thresholds['consecutive_errors'],
-                   'interval': self.thresholds['interval'],
-                   'base_ejection_time': self.thresholds['base_ejection_time'],
-                   'max_ejection_percent': self.thresholds['max_ejection_percentage'],
-                   'enforcing_consecutive_5xx': 100,
-                   'enforcing_success_rate': 100,
-                   'success_rate_minimum_hosts': 3,
-                   'success_rate_request_volume': 50
-               }
-           }
-   ```
-
-4. STATEFUL WORKLOADS
-
-   ## StatefulSet Configuration
-
-   ```yaml
-   apiVersion: apps/v1
-   kind: StatefulSet
-   metadata:
-     name: postgres-cluster
-   spec:
-     serviceName: postgres-service
-     replicas: 3
-     selector:
-       matchLabels:
-         app: postgres
-     template:
-       metadata:
-         labels:
-           app: postgres
-       spec:
-         initContainers:
-         - name: init-postgres
-           image: postgres:13
-           command:
-           - bash
-           - "-c"
-           - |
-             set -ex
-             [[ `hostname` =~ -([0-9]+)$ ]] || exit 1
-             ordinal=${BASH_REMATCH[1]}
-             if [[ $ordinal -eq 0 ]]; then
-               echo "Primary node initialization"
-             else
-               echo "Replica node initialization"
-               pg_basebackup -h postgres-0.postgres-service -U replicator -D /var/lib/postgresql/data -Fp -Xs -P -R
-             fi
-
-         containers:
-         - name: postgres
-           image: postgres:13
-           ports:
-           - containerPort: 5432
-           env:
-           - name: POSTGRES_DB
-             value: production
-           - name: POSTGRES_USER
-             valueFrom:
-               secretKeyRef:
-                 name: postgres-secret
-                 key: username
-           - name: POSTGRES_PASSWORD
-             valueFrom:
-               secretKeyRef:
-                 name: postgres-secret
-                 key: password
-
-           volumeMounts:
-           - name: postgres-storage
-             mountPath: /var/lib/postgresql/data
-
-           livenessProbe:
-             exec:
-               command:
-                 - /bin/sh
-                 - -c
-                 - pg_isready -U postgres
-             initialDelaySeconds: 30
-             periodSeconds: 10
-
-     volumeClaimTemplates:
-     - metadata:
-         name: postgres-storage
-       spec:
-         accessModes: ["ReadWriteOnce"]
-         storageClassName: fast-ssd
-         resources:
-           requests:
-             storage: 100Gi
-   ```
-
-5. AUTOSCALING STRATEGIES
-
-   ## Horizontal Pod Autoscaler
-
-   ```yaml
-   apiVersion: autoscaling/v2
-   kind: HorizontalPodAutoscaler
-   metadata:
-     name: api-service-hpa
-   spec:
-     scaleTargetRef:
-       apiVersion: apps/v1
-       kind: Deployment
-       name: api-service
-     minReplicas: 3
-     maxReplicas: 50
-     metrics:
-     - type: Resource
-       resource:
-         name: cpu
-         target:
-           type: Utilization
-           averageUtilization: 70
-     - type: Resource
-       resource:
-         name: memory
-         target:
-           type: Utilization
-           averageUtilization: 80
-     - type: Pods
-       pods:
-         metric:
-           name: http_requests_per_second
-         target:
-           type: AverageValue
-           averageValue: "1000"
-     - type: External
-       external:
-         metric:
-           name: queue_messages
-           selector:
-             matchLabels:
-               queue: work-queue
-         target:
-           type: Value
-           value: "30"
-     behavior:
-       scaleDown:
-         stabilizationWindowSeconds: 300
-         policies:
-         - type: Percent
-           value: 50
-           periodSeconds: 60
-       scaleUp:
-         stabilizationWindowSeconds: 0
-         policies:
-         - type: Percent
-           value: 100
-           periodSeconds: 30
-         - type: Pods
-           value: 5
-           periodSeconds: 30
-         selectPolicy: Max
-   ```
-
-   ## Vertical Pod Autoscaler
-
-   ```yaml
-   apiVersion: autoscaling.k8s.io/v1
-   kind: VerticalPodAutoscaler
-   metadata:
-     name: api-service-vpa
-   spec:
-     targetRef:
-       apiVersion: apps/v1
-       kind: Deployment
-       name: api-service
-     updatePolicy:
-       updateMode: "Auto"
-     resourcePolicy:
-       containerPolicies:
-       - containerName: api
-         minAllowed:
-           cpu: 100m
-           memory: 128Mi
-         maxAllowed:
-           cpu: 2
-           memory: 2Gi
-         controlledResources: ["cpu", "memory"]
-   ```
-
-6. NETWORKING & INGRESS
-
-   ## Ingress Configuration
-
-   ```yaml
-   apiVersion: networking.k8s.io/v1
-   kind: Ingress
-   metadata:
-     name: api-ingress
-     annotations:
-       kubernetes.io/ingress.class: nginx
-       cert-manager.io/cluster-issuer: letsencrypt-prod
-       nginx.ingress.kubernetes.io/rate-limit: "100"
-       nginx.ingress.kubernetes.io/ssl-redirect: "true"
-       nginx.ingress.kubernetes.io/websocket-services: "websocket-service"
-   spec:
-     tls:
-     - hosts:
-       - api.example.com
-       secretName: api-tls
-     rules:
-     - host: api.example.com
-       http:
-         paths:
-         - path: /api/v1
-           pathType: Prefix
-           backend:
-             service:
-               name: api-service
-               port:
-                 number: 80
-         - path: /ws
-           pathType: Prefix
-           backend:
-             service:
-               name: websocket-service
-               port:
-                 number: 8080
-   ```
-
-   ## Network Policies
-
-   ```yaml
-   apiVersion: networking.k8s.io/v1
-   kind: NetworkPolicy
-   metadata:
-     name: api-network-policy
-   spec:
-     podSelector:
-       matchLabels:
-         app: api-service
-     policyTypes:
-     - Ingress
-     - Egress
-     ingress:
-     - from:
-       - namespaceSelector:
-           matchLabels:
-             name: ingress-nginx
-       - podSelector:
-           matchLabels:
-             app: frontend
-       ports:
-       - protocol: TCP
-         port: 8080
-     egress:
-     - to:
-       - podSelector:
-           matchLabels:
-             app: database
-       ports:
-       - protocol: TCP
-         port: 5432
-     - to:
-       - podSelector:
-           matchLabels:
-             app: cache
-       ports:
-       - protocol: TCP
-         port: 6379
-     - to:
-       - namespaceSelector: {}
-         podSelector:
-           matchLabels:
-             k8s-app: kube-dns
-       ports:
-       - protocol: UDP
-         port: 53
-   ```
-
-7. STORAGE ORCHESTRATION
-
-   ## Persistent Volume Management
-
-   ```yaml
-   # StorageClass
-   apiVersion: storage.k8s.io/v1
-   kind: StorageClass
-   metadata:
-     name: fast-ssd
-   provisioner: kubernetes.io/aws-ebs
-   parameters:
-     type: gp3
-     iops: "10000"
-     throughput: "250"
-     encrypted: "true"
-     kmsKeyId: arn:aws:kms:us-east-1:123456789:key/abc-123
-   reclaimPolicy: Retain
-   allowVolumeExpansion: true
-   volumeBindingMode: WaitForFirstConsumer
-
-   ---
-   # PersistentVolumeClaim
-   apiVersion: v1
-   kind: PersistentVolumeClaim
-   metadata:
-     name: data-volume
-   spec:
-     accessModes:
-       - ReadWriteOnce
-     storageClassName: fast-ssd
-     resources:
-       requests:
-         storage: 100Gi
-   ```
-
-   ## CSI Driver Configuration
-
-   ```python
-   class StorageOrchestration:
-       def __init__(self):
-           self.csi_drivers = {
-               'aws_ebs': {
-                   'driver': 'ebs.csi.aws.com',
-                   'features': ['resize', 'snapshot', 'clone'],
-                   'volume_types': ['gp3', 'io2', 'st1']
-               },
-               'azure_disk': {
-                   'driver': 'disk.csi.azure.com',
-                   'features': ['resize', 'snapshot'],
-                   'volume_types': ['Premium_LRS', 'Standard_LRS']
-               },
-               'gce_pd': {
-                   'driver': 'pd.csi.storage.gke.io',
-                   'features': ['resize', 'snapshot', 'clone'],
-                   'volume_types': ['pd-ssd', 'pd-standard']
-               }
-           }
-
-       def create_volume_snapshot(self, pvc_name):
-           snapshot_config = f'''
-           apiVersion: snapshot.storage.k8s.io/v1
-           kind: VolumeSnapshot
-           metadata:
-             name: [PVC_NAME]-snapshot
-           spec:
-             volumeSnapshotClassName: csi-snapclass
-             source:
-               persistentVolumeClaimName: [PVC_NAME]
-           '''
-           return snapshot_config
-   ```
-
-8. SECURITY & RBAC
-
-   ## RBAC Configuration
-
-   ```yaml
-   # ServiceAccount
-   apiVersion: v1
-   kind: ServiceAccount
-   metadata:
-     name: api-service-account
-     namespace: production
-
-   ---
-   # Role
-   apiVersion: rbac.authorization.k8s.io/v1
-   kind: Role
-   metadata:
-     name: api-role
-     namespace: production
-   rules:
-   - apiGroups: [""]
-     resources: ["configmaps", "secrets"]
-     verbs: ["get", "list", "watch"]
-   - apiGroups: [""]
-     resources: ["pods"]
-     verbs: ["get", "list"]
-   - apiGroups: ["apps"]
-     resources: ["deployments"]
-     verbs: ["get", "list", "watch"]
-
-   ---
-   # RoleBinding
-   apiVersion: rbac.authorization.k8s.io/v1
-   kind: RoleBinding
-   metadata:
-     name: api-rolebinding
-     namespace: production
-   subjects:
-   - kind: ServiceAccount
-     name: api-service-account
-     namespace: production
-   roleRef:
-     kind: Role
-     name: api-role
-     apiGroup: rbac.authorization.k8s.io
-   ```
-
-   ## Pod Security Policies
-
-   ```yaml
-   apiVersion: policy/v1beta1
-   kind: PodSecurityPolicy
-   metadata:
-     name: restricted
-   spec:
-     privileged: false
-     allowPrivilegeEscalation: false
-     requiredDropCapabilities:
-       - ALL
-     volumes:
-       - 'configMap'
-       - 'emptyDir'
-       - 'projected'
-       - 'secret'
-       - 'downwardAPI'
-       - 'persistentVolumeClaim'
-     hostNetwork: false
-     hostIPC: false
-     hostPID: false
-     runAsUser:
-       rule: 'MustRunAsNonRoot'
-     seLinux:
-       rule: 'RunAsAny'
-     supplementalGroups:
-       rule: 'RunAsAny'
-     fsGroup:
-       rule: 'RunAsAny'
-     readOnlyRootFilesystem: true
-   ```
-
-9. OBSERVABILITY & MONITORING
-
-   ## Prometheus Monitoring
-
-   ```yaml
-   apiVersion: v1
-   kind: Service
-   metadata:
-     name: api-service
-     annotations:
-       prometheus.io/scrape: "true"
-       prometheus.io/port: "8080"
-       prometheus.io/path: "/metrics"
-   spec:
-     selector:
-       app: api-service
-     ports:
-     - port: 80
-       targetPort: 8080
-
-   ---
-   apiVersion: monitoring.coreos.com/v1
-   kind: ServiceMonitor
-   metadata:
-     name: api-service-monitor
-   spec:
-     selector:
-       matchLabels:
-         app: api-service
-     endpoints:
-     - port: metrics
-       interval: 30s
-       path: /metrics
-   ```
-
-10. CI/CD INTEGRATION
-
-    ## GitOps with ArgoCD
-
-    ```yaml
-    apiVersion: argoproj.io/v1alpha1
-    kind: Application
-    metadata:
-      name: api-service
-      namespace: argocd
-    spec:
-      project: default
-      source:
-        repoURL: https://github.com/example/k8s-configs
-        targetRevision: HEAD
-        path: applications/api-service
-      destination:
-        server: https://kubernetes.default.svc
-        namespace: production
-      syncPolicy:
-        automated:
-          prune: true
-          selfHeal: true
-          allowEmpty: false
-        syncOptions:
-        - Validate=true
-        - CreateNamespace=false
-        - PrunePropagationPolicy=foreground
-        retry:
-          limit: 5
-          backoff:
-            duration: 5s
-            factor: 2
-            maxDuration: 3m
-    ```
-
-11. DISASTER RECOVERY
-
-    ## Backup and Restore
-
-    ```python
-    class DisasterRecovery:
-        def __init__(self):
-            self.backup_strategy = {
-                'etcd': self.backup_etcd(),
-                'persistent_volumes': self.backup_volumes(),
-                'configurations': self.backup_configs(),
-                'secrets': self.backup_secrets()
-            }
-
-        def backup_etcd(self):
-            return '''
-            ETCDCTL_API=3 etcdctl snapshot save /backup/etcd-snapshot.db \
-              --endpoints=https://127.0.0.1:2379 \
-              --cacert=/etc/kubernetes/pki/etcd/ca.crt \
-              --cert=/etc/kubernetes/pki/etcd/server.crt \
-              --key=/etc/kubernetes/pki/etcd/server.key
-            '''
-
-        def restore_cluster(self, backup_location):
-            restore_steps = [
-                'Stop kube-apiserver on all masters',
-                'Restore etcd from snapshot',
-                'Restore persistent volumes',
-                'Apply configurations',
-                'Restore secrets',
-                'Verify cluster health',
-                'Redeploy applications'
-            ]
-            return restore_steps
-    ```
-
-12. COST OPTIMIZATION
-
-    ## Resource Optimization
-
-    ```python
-    def optimize_cluster_costs():
-        strategies = {
-            'spot_instances': {
-                'percentage': 70,
-                'on_demand_base': 30,
-                'interruption_handling': 'graceful_shutdown'
-            },
-            'node_auto_scaling': {
-                'enable': True,
-                'min_nodes': 3,
-                'max_nodes': 100,
-                'scale_down_delay': '10m'
-            },
-            'resource_requests': {
-                'cpu_utilization_target': 80,
-                'memory_utilization_target': 85,
-                'overprovisioning': 1.2
-            },
-            'idle_resource_cleanup': {
-                'unused_volumes': 'delete_after_7_days',
-                'orphaned_pods': 'immediate_cleanup',
-                'completed_jobs': 'delete_after_24h'
-            }
-        }
-        return strategies
-    ```
-
-Ensure the container orchestration is:
-- Highly available and resilient
-- Scalable and performant
-- Secure by default
-- Cost-optimized
-- Observable and debuggable
-```
-
-## Variables
-- `[STATELESS/STATEFUL/BATCH]`: Application type
-- `[SERVICE_COUNT]`: Number of services
-- `[STEADY/BURSTY/PERIODIC]`: Traffic patterns
-- `[STORAGE_NEEDS]`: Storage requirements
-- `[KUBERNETES/SWARM/ECS/NOMAD]`: Orchestration platform
-- `[CLOUD_PROVIDER]`: Cloud environment
-- `[NODE_COUNT]`: Cluster size
-- `[HA_REQUIREMENTS]`: High availability needs
-
-## Usage Example
-Use for Kubernetes deployments, container platform design, microservices orchestration, or cloud-native transformations.
-
-## Customization Tips
-- Add specific scheduler configurations
-- Include operator patterns
-- Add multi-tenancy considerations
-- Consider edge deployments
-
-## Related Resources
-
-### Complementary Templates
-
-Enhance your workflow by combining this template with:
-
-- **[Cloud Architecture Framework](cloud-architecture-framework.md)** - Complementary approaches and methodologies
-- **[Site Reliability Engineering](site-reliability-engineering.md)** - Complementary approaches and methodologies
-- **[Cloud Migration Strategy](cloud-migration-strategy.md)** - Strategic planning and execution frameworks
-
-### Suggested Workflow
-
-**Typical implementation sequence**:
-
-1. Start with this template (Container Orchestration Template)
-2. Use [Cloud Architecture Framework](cloud-architecture-framework.md) for deeper analysis
-3. Apply [Site Reliability Engineering](site-reliability-engineering.md) for execution
-4. Iterate and refine based on results
-
-### Explore More in This Category
-
-Browse all **[technology/DevOps & Cloud](../../technology/DevOps & Cloud/)** templates for related tools and frameworks.
-
-### Common Use Case Combinations
-
-- **Creating design and implement container orchestration strategies using kubernetes, docker swarm, or other platforms to manage containerized applications at scale.**: Combine this template with related analytics and strategy frameworks
-- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
-- **Strategy development**: Combine this template with related analytics and strategy frameworks
+Design container orchestration for {APPLICATION_TYPE} on {KUBERNETES_PLATFORM} supporting {SCALE_REQUIREMENTS} with {AVAILABILITY_TARGET}% availability and {RESOURCE_EFFICIENCY}% resource utilization.
+
+**CLUSTER ARCHITECTURE**
+
+Design node pools matching workload characteristics. General-purpose pool: m5.2xlarge/n2-standard-8 for typical workloads (8 vCPU, 32GB RAM), auto-scale 3-20 nodes. Compute-intensive pool: c5.4xlarge/c2-standard-16 for CPU-bound services, taint for dedicated scheduling (workload-type=compute:NoSchedule). Memory-intensive pool: r5.2xlarge/n2-highmem-8 for caching and analytics, taint for dedicated scheduling. Spot/preemptible pool: 60-70% cost savings for fault-tolerant workloads (batch jobs, CI/CD, dev environments), handle interruptions gracefully with PodDisruptionBudgets.
+
+Configure cluster auto-scaling for cost efficiency. Cluster Autoscaler: scale nodes based on pending pods, scale-down delay 10 minutes (avoid thrashing), respect PodDisruptionBudgets during scale-down. Node pool sizing: min 3 nodes per AZ for HA (survives node failure), max based on peak load + 50% headroom. Bin packing: configure pod requests accurately to maximize node utilization (target 70-80%), avoid over-provisioning that wastes resources.
+
+Implement multi-tenancy for shared clusters. Namespace isolation: one namespace per team/application, ResourceQuotas limit CPU/memory/pods per namespace. Network policies: default deny ingress/egress, explicit allow rules between namespaces. RBAC: team-scoped roles (can manage own namespace), cluster-admin for platform team only. Cost allocation: labels for chargeback (team, cost-center), namespace-level resource tracking with Kubecost.
+
+**DEPLOYMENT PATTERNS**
+
+Configure Deployments for stateless workloads. Rolling updates: maxSurge 25% (handle traffic during rollout), maxUnavailable 0 (zero downtime), minReadySeconds 30 (ensure pod stability before continuing). Pod anti-affinity: spread pods across nodes/AZs for resilience (requiredDuringSchedulingIgnoredDuringExecution for critical services). Resource requests and limits: requests for scheduling (guarantee minimum), limits for protection (prevent noisy neighbor), ratio typically 1:2 for burstable workloads.
+
+Implement progressive delivery with canary deployments. Argo Rollouts: define canary steps (5% → 25% → 50% → 100%), analysis template checks metrics between steps. Promotion criteria: error rate <0.5%, p99 latency within 10% of baseline, no new error types in logs. Analysis duration: 5-10 minutes per step (balance confidence vs deployment time). Automated rollback: revert to stable version if analysis fails, alert team on rollback. Flagger alternative: integrates with Istio/Linkerd, similar progressive delivery capabilities.
+
+Configure health checks for reliable traffic routing. Liveness probe: restart pod if unhealthy (deadlock detection), exec/httpGet/tcpSocket, initialDelaySeconds sufficient for startup (30-60s for JVM), periodSeconds 10, failureThreshold 3. Readiness probe: remove from service if not ready (dependency issues), same methods, shorter initialDelaySeconds (5-10s), check downstream dependencies. Startup probe: for slow-starting containers, prevents liveness probe from killing during startup, failureThreshold × periodSeconds > max startup time.
+
+**AUTO-SCALING STRATEGIES**
+
+Configure Horizontal Pod Autoscaler for demand-based scaling. CPU-based: target 70% utilization, scales pods to maintain average across replicas. Memory-based: target 80% utilization, useful for memory-bound services. Custom metrics: requests-per-second from Prometheus, queue depth from CloudWatch/Stackdriver. Multi-metric: HPA uses highest recommendation, combine CPU + custom for comprehensive scaling. Scaling behavior: scaleUp stabilization 0s (respond quickly to load), scaleDown stabilization 300s (avoid thrashing), policies limit change rate (max 100% increase per 30s).
+
+Implement Vertical Pod Autoscaler for right-sizing. Recommendation mode: VPA recommends optimal requests/limits without applying (safe for production). Auto mode: VPA evicts and recreates pods with new resources (use for non-critical or with PDB). Update policy: apply changes during pod restart (recreate), avoid for latency-sensitive services. Resource bounds: set minAllowed/maxAllowed to prevent extreme recommendations, monitor for under/over-provisioning.
+
+Configure KEDA for event-driven scaling. Scale triggers: queue length (SQS, RabbitMQ, Kafka), HTTP requests (Prometheus metrics), cron (scheduled scaling). Scale to zero: cost savings for idle workloads, pollingInterval determines wake-up latency (30s default). Scaled objects: reference Deployment/StatefulSet, define triggers and scaling parameters. Use cases: batch processing, event consumers, scheduled jobs, bursty workloads.
+
+**SERVICE MESH AND NETWORKING**
+
+Implement service mesh for traffic management. Istio: full-featured (traffic management, security, observability), higher resource overhead (~1GB sidecar memory). Linkerd: lightweight (~50MB sidecar), easier operations, fewer features. Traffic splitting: route percentage of traffic to canary versions, header-based routing for testing. Retry policies: automatic retries on transient failures (503, connection reset), exponential backoff, retry budgets prevent cascade. Circuit breakers: eject unhealthy endpoints, outlier detection (5 consecutive 5xx → 30s ejection).
+
+Configure Ingress for external traffic. NGINX Ingress: widely used, path-based routing, rate limiting, SSL termination. ALB Ingress (AWS): native integration, target type IP for direct pod routing, WAF integration. Annotations: rate limiting (nginx.ingress.kubernetes.io/rate-limit: "100"), TLS redirect, proxy timeouts. TLS: cert-manager for automatic Let's Encrypt certificates, cluster-issuer for production, wildcard certs for simplicity.
+
+Implement Network Policies for security. Default deny: start with deny-all ingress/egress, whitelist required traffic. Namespace isolation: allow traffic within namespace, explicit rules for cross-namespace. Egress control: limit outbound to required services (database, cache, external APIs), allow kube-dns (UDP 53). Policy enforcement: Calico, Cilium, or cloud provider CNI with network policy support.
+
+**STATEFUL WORKLOADS**
+
+Configure StatefulSets for stateful applications. Ordered deployment: pods created sequentially (0, 1, 2), ensures leader election and replication setup. Stable network identity: pod-0.service-name, consistent DNS for database connections. Persistent storage: volumeClaimTemplates provision PVC per pod, survive pod restarts and rescheduling. Pod management policy: OrderedReady (default, sequential), Parallel (for stateless-like scaling).
+
+Design storage for reliability and performance. StorageClass selection: gp3/pd-ssd for general purpose (3K baseline IOPS), io2/pd-extreme for high IOPS requirements. Volume expansion: enable allowVolumeExpansion for future growth, resize PVC without data migration. Backup strategy: Velero for cluster-wide backup (PVs, resources), CSI snapshots for point-in-time recovery. Multi-AZ: volumeBindingMode WaitForFirstConsumer ensures PV in same AZ as pod.
+
+Implement operators for complex stateful workloads. Database operators: PostgreSQL (Zalando, CrunchyData), MySQL (Oracle, Percona), Redis (Redis Enterprise), handle replication, failover, backup automatically. Kafka operators: Strimzi manages brokers, topics, users, handles rolling upgrades. Benefits: encapsulate operational knowledge, consistent deployment, automated day-2 operations. Considerations: operator maturity varies, understand failure modes, maintain operator versions.
+
+**OBSERVABILITY AND MONITORING**
+
+Implement metrics collection with Prometheus stack. Prometheus: scrape metrics from pods/services, store time-series, alerting rules. Metrics exposure: application exposes /metrics endpoint, ServiceMonitor defines scrape config. Key metrics: request rate, error rate, latency percentiles (RED method), saturation (CPU, memory, disk). Grafana dashboards: pre-built for Kubernetes (node, pod, namespace), custom for applications.
+
+Configure centralized logging. Fluentd/Fluent Bit: DaemonSet collects container logs, parse and forward to backend. Log backends: Elasticsearch (powerful search, higher cost), Loki (simpler, integrates with Grafana), CloudWatch Logs (managed, AWS-native). Structured logging: JSON format, consistent fields (trace_id, service, level), enables filtering and aggregation. Retention: 7 days hot storage for debugging, 30-90 days archive for compliance.
+
+Implement distributed tracing. OpenTelemetry: vendor-neutral instrumentation, auto-instrumentation for common frameworks. Trace backends: Jaeger (open source), Tempo (Grafana), X-Ray (AWS), Datadog (managed). Trace propagation: W3C trace context headers, consistent trace IDs across service boundaries. Sampling: 1-10% for production (balance observability vs cost), 100% for errors and slow requests.
+
+**SECURITY AND COMPLIANCE**
+
+Implement Pod Security Standards. Restricted profile: no privilege escalation, non-root user, read-only root filesystem, drop all capabilities. Baseline profile: minimal restrictions, blocks known privilege escalations. Enforcement: PodSecurity admission controller (built-in), Kyverno/OPA Gatekeeper for custom policies. Security contexts: runAsNonRoot, readOnlyRootFilesystem, capabilities drop ALL.
+
+Configure RBAC for least privilege access. Service accounts: one per application, avoid default service account, automountServiceAccountToken false unless needed. Roles: namespace-scoped for applications (pods, configmaps, secrets), ClusterRoles for cluster-wide (nodes, PVs). IAM integration: EKS IRSA, GKE Workload Identity, AKS Pod Identity—map service accounts to cloud IAM roles. Audit: enable Kubernetes audit logging, review RBAC periodically, remove unused bindings.
+
+Secure secrets management. Kubernetes Secrets: base64 encoded (not encrypted by default), enable encryption at rest with KMS. External secrets: AWS Secrets Manager, HashiCorp Vault, sync to Kubernetes Secrets via External Secrets Operator. Secret rotation: automate rotation in source, sync updates to cluster, restart pods to pick up new secrets. Avoid: secrets in ConfigMaps, environment variables in pod spec (visible in logs), hardcoded in images.
+
+Deliver container orchestration as:
+
+1. **CLUSTER ARCHITECTURE** - Node pools, auto-scaling configuration, multi-tenancy design, cost optimization
+
+2. **DEPLOYMENT MANIFESTS** - Deployments, StatefulSets, Services, ConfigMaps, Secrets with best practices
+
+3. **SCALING CONFIGURATION** - HPA, VPA, KEDA, cluster autoscaler settings and thresholds
+
+4. **NETWORKING SETUP** - Ingress, Network Policies, Service Mesh configuration, TLS certificates
+
+5. **STORAGE DESIGN** - StorageClasses, PVCs, backup procedures, operator selection for stateful workloads
+
+6. **OBSERVABILITY STACK** - Prometheus, Grafana, logging, tracing configuration and dashboards
+
+7. **SECURITY CONTROLS** - RBAC, Pod Security, secrets management, network policies
+
+---
+
+## Usage Examples
+
+### Example 1: E-commerce Microservices Platform
+**Prompt:** Design container orchestration for EcommercePlatform (25 microservices) on EKS supporting 10K requests/second with 99.95% availability and 75% resource utilization.
+
+**Expected Output:** Cluster architecture: 3 node pools (general m5.2xlarge 5-30 nodes, compute c5.2xlarge 3-10 nodes, spot m5.xlarge for batch jobs), multi-AZ (3 AZs), cluster autoscaler with 10-minute scale-down delay. Deployment patterns: rolling updates (maxSurge 25%, maxUnavailable 0), Argo Rollouts for customer-facing services (5%→25%→100% canary over 30 minutes), PodDisruptionBudgets (minAvailable 2 for critical services). Scaling: HPA on CPU (70%) and requests-per-second (target 1000/pod), min 3 max 50 pods per service, KEDA for order processing queue (scale 1 pod per 100 messages). Networking: AWS ALB Ingress with WAF, Istio service mesh (traffic splitting, circuit breakers, mTLS), Network Policies isolating namespaces. Observability: Prometheus + Grafana (RED dashboards), Fluent Bit → Elasticsearch (7-day retention), Jaeger tracing (10% sampling). Cost: ~$15K/month (60% spot instances for non-critical), Kubecost for per-team allocation.
+
+### Example 2: Healthcare Data Processing Pipeline
+**Prompt:** Design container orchestration for HealthDataPipeline on GKE processing 5TB daily with HIPAA compliance, StatefulSet databases, and 99.99% data durability.
+
+**Expected Output:** Cluster architecture: private GKE cluster (no public endpoints), node pools with confidential computing (N2D) for PHI processing, dedicated pool for PostgreSQL StatefulSets. Stateful workloads: PostgreSQL via CrunchyData operator (3-node HA, automatic failover, continuous backup to GCS), Redis Cluster via Redis operator, Kafka via Strimzi (3 brokers, 3 ZooKeeper). Storage: pd-ssd StorageClass with encryption, Velero daily backups (30-day retention), cross-region backup replication. Security: Pod Security restricted profile, Workload Identity for GCP service account mapping, all secrets in Secret Manager synced via External Secrets, network policies (deny all default, explicit allow). Processing: Apache Spark on Kubernetes (spark-operator), KEDA scaling based on pending jobs, preemptible nodes for batch processing. Compliance: VPC Service Controls, audit logging to BigQuery, encryption in transit (Istio mTLS) and at rest (CMEK). Observability: GKE-native monitoring, custom dashboards for data pipeline metrics, alerting on processing delays.
+
+### Example 3: Global SaaS Multi-Region Deployment
+**Prompt:** Design container orchestration for GlobalSaaS on AKS deployed across 3 regions (US, EU, APAC) with <100ms latency per region and unified GitOps deployment.
+
+**Expected Output:** Cluster architecture: 3 AKS clusters (eastus, westeurope, southeastasia), Azure CNI with Calico network policies, node pools sized for regional traffic patterns. Multi-cluster management: Azure Arc for unified control plane, Flux CD for GitOps (one repo, environment overlays per region). Traffic routing: Azure Front Door for global load balancing, health probes per region, automatic failover on regional outage. Deployment strategy: sequential regional rollout (APAC → EU → US following sun), Flagger canary per region with regional metrics analysis. Service mesh: Linkerd (lightweight, <100MB per sidecar), cross-cluster service discovery via Linkerd multicluster. Data layer: Cosmos DB multi-region (automatic failover), Redis Enterprise geo-replication for session cache. Observability: Azure Monitor Container Insights, centralized Grafana with multi-cluster views, PagerDuty integration for regional alerts. Networking: ExpressRoute to on-premises per region, Private Link for Azure services, regional Ingress with Azure Application Gateway. Cost optimization: reserved instances for baseline (US cluster), spot VMs for EU/APAC variable capacity, ~$25K/month total.
+
+---
+
+## Cross-References
+
+- [Cloud Architecture](cloud-architecture.md) - Cloud infrastructure supporting Kubernetes clusters
+- [CI/CD Pipelines](ci-cd-pipelines.md) - Build and deployment pipelines for containerized applications
+- [Infrastructure as Code](infrastructure-as-code.md) - Terraform/Pulumi for cluster provisioning

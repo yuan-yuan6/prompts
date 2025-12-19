@@ -1,25 +1,27 @@
 ---
-title: Query Optimization - Baseline Analysis & Profiling
 category: data-analytics
+description: Establish comprehensive performance baselines through query profiling, execution plan analysis, and workload pattern identification to prioritize optimization efforts
+title: Query Optimization - Baseline Analysis & Profiling
 tags:
-- data-analytics
-- query-profiling
-- execution-plans
+- query-optimization
 - performance-baseline
+- execution-plans
+- query-profiling
 use_cases:
-- Establishing performance baselines and identifying bottlenecks in database query
-  execution
+- Establishing performance baselines and identifying bottlenecks in database query execution
 - Analyzing query execution patterns, resource consumption, and wait statistics
 - Profiling query execution plans to identify optimization opportunities
 related_templates:
 - data-analytics/Analytics-Engineering/query-optimization-indexing-strategies.md
 - data-analytics/Analytics-Engineering/query-optimization-monitoring-tuning.md
 - data-analytics/Analytics-Engineering/query-optimization-overview.md
-last_updated: 2025-11-10
 industries:
 - finance
+- healthcare
+- retail
 - technology
-type: template
+- manufacturing
+type: framework
 difficulty: intermediate
 slug: query-optimization-baseline-analysis
 ---
@@ -27,360 +29,94 @@ slug: query-optimization-baseline-analysis
 # Query Optimization - Baseline Analysis & Profiling
 
 ## Purpose
-Establish comprehensive performance baselines and diagnostic frameworks for SQL queries, including execution plan analysis, workload pattern identification, and resource consumption profiling to identify optimization opportunities.
+Establish comprehensive performance baselines and diagnostic frameworks for SQL queries through execution plan analysis, workload pattern identification, and resource consumption profiling. This framework provides the foundation for data-driven optimization decisions by quantifying current performance and identifying improvement opportunities.
 
-## Quick Baseline Prompt
-Establish a performance baseline for [DATABASE_PLATFORM] by identifying queries with execution time >[THRESHOLD_SECONDS]s or logical reads >[READ_THRESHOLD]. Analyze top [TOP_N] resource consumers over [ANALYSIS_PERIOD_DAYS] days. Profile execution plans for [TABLE_SCANS/HASH_JOINS/SORTS], document workload patterns by [HOUR/DAY], and generate a prioritized optimization list.
+## 🚀 Quick Start Prompt
 
-## Quick Start
+> Establish a **performance baseline** for **[DATABASE PLATFORM]** to identify **[OPTIMIZATION FOCUS]**. Analyze: (1) **Query performance metrics**—execution time, CPU consumption, logical reads, and execution frequency for top resource consumers; (2) **Execution plan characteristics**—table scans, missing indexes, expensive operators, and plan regressions; (3) **Wait statistics**—where the database spends time waiting and what resources are constrained; (4) **Workload patterns**—temporal distribution, query complexity, and peak load characteristics. Deliver performance baseline report, prioritized optimization list, and improvement targets.
 
-### For Performance Analysis
-Establish your query performance baseline in 3 steps:
-
-1. **Identify Problem Queries**
-   - Run the performance baseline queries (lines 88-177) to identify top resource consumers
-   - Focus on queries with >1s execution time or >10M logical reads
-   - Export results to track metrics: execution time, CPU, I/O, memory usage
-
-2. **Analyze Execution Plans**
-   - Execute the execution plan analysis queries (lines 182-250) on identified problem queries
-   - Look for: table scans, missing indexes, hash joins on large datasets, expensive sorts
-   - Document plan characteristics and estimated costs for comparison
-
-3. **Profile Workload Patterns**
-   - Run temporal query pattern analysis (lines 254-305) to identify peak load times
-   - Analyze query complexity metrics to prioritize optimization efforts
-   - Create baseline report with top 10 queries by performance impact score
-
-**Key Outputs**: Performance baseline report, execution plan analysis, workload patterns, optimization priority list
-
-**Key Variables**: `DATABASE_PLATFORM`, `ANALYSIS_PERIOD_DAYS`, `TOP_N_QUERIES`, `QUERY_PERFORMANCE_VIEW`
+---
 
 ## Template
 
-```
-You are a database performance diagnostics expert specializing in [DATABASE_PLATFORM]. Establish a comprehensive performance baseline for [ORGANIZATION_NAME] to identify query optimization opportunities and performance bottlenecks using [ANALYSIS_METHODOLOGY] approach.
+Establish a performance baseline for {DATABASE_CONTEXT}, analyzing {ANALYSIS_SCOPE} to support {OPTIMIZATION_OBJECTIVES}.
 
-PERFORMANCE BASELINE ASSESSMENT:
-Project Context:
-- Organization: [ORGANIZATION_NAME]
-- Industry sector: [INDUSTRY_SECTOR]
-- Database platform: [DATABASE_PLATFORM]
-- Workload type: [WORKLOAD_TYPE] (OLTP/OLAP/Hybrid/Analytics)
-- Analysis period: [ANALYSIS_PERIOD_DAYS] days
-- Performance objectives: [PERFORMANCE_OBJECTIVES]
-- Current challenges: [CURRENT_PERFORMANCE_CHALLENGES]
+**1. Query Performance Metrics Collection**
 
-### System Architecture
-- Database version: [DATABASE_VERSION]
-- Hardware specifications: [HARDWARE_SPECIFICATIONS]
-- Server configuration: [SERVER_CONFIGURATION]
-- Storage system: [STORAGE_SYSTEM]
-- Memory allocation: [MEMORY_ALLOCATION]
-- CPU configuration: [CPU_CONFIGURATION]
+Begin by identifying the queries consuming the most resources across your database workload. Capture execution metrics for each query including total execution time, average execution time, maximum execution time, CPU time, logical reads (memory), physical reads (disk), and logical writes. Calculate execution frequency to understand which queries run most often—a moderately slow query running thousands of times daily may have more total impact than a very slow query running once. Compute a performance impact score combining execution time, resource consumption, and frequency to objectively prioritize optimization efforts. Focus initial analysis on queries exceeding defined thresholds: execution time greater than one second, logical reads exceeding one million, or CPU time exceeding five hundred milliseconds. Capture query text or query hash for identification, noting that parameterized queries should be grouped by their normalized form. Track metrics over a representative time period—typically seven to thirty days—to capture full business cycle patterns including end-of-month processing, weekly reports, and seasonal variations.
 
-### Performance Requirements
-- Query response time SLA: [QUERY_RESPONSE_TIME_SLA]
-- Throughput requirements: [THROUGHPUT_REQUIREMENTS]
-- Concurrent user capacity: [CONCURRENT_USER_CAPACITY]
-- Data volume current: [CURRENT_DATA_VOLUME]
-- Peak load characteristics: [PEAK_LOAD_CHARACTERISTICS]
+**2. Execution Plan Analysis**
 
-### QUERY ANALYSIS AND PROFILING
+Analyze execution plans for high-impact queries to understand how the database processes each request. Identify problematic operators that indicate optimization opportunities: table scans and clustered index scans reading entire tables when seeks would be more efficient, hash joins on large datasets consuming significant memory, sort operators processing large row counts without supporting indexes, and key lookups requiring additional I/O after index seeks. Extract estimated versus actual row counts to identify cardinality estimation errors where the optimizer misjudges data volumes leading to suboptimal plan choices. Document plan cost estimates for comparison after optimization. Identify parameter-sensitive queries where different parameter values produce dramatically different plans—parameter sniffing issues often cause intermittent performance problems. Track plan changes over time correlating plan modifications with performance changes to identify regressions. Flag queries with multiple plans in cache suggesting optimizer instability or missing statistics.
 
-### Performance Baseline Assessment
-### Current Performance Metrics
-```sql
--- Performance baseline assessment queries
--- Query execution time analysis
-SELECT
-    [QUERY_ID_COLUMN],
-    [QUERY_TEXT_COLUMN],
-    [EXECUTION_COUNT],
-    [TOTAL_EXECUTION_TIME_MS],
-    [AVERAGE_EXECUTION_TIME_MS],
-    [MAX_EXECUTION_TIME_MS],
-    [MIN_EXECUTION_TIME_MS],
-    [TOTAL_CPU_TIME_MS],
-    [TOTAL_LOGICAL_READS],
-    [TOTAL_PHYSICAL_READS],
-    [TOTAL_LOGICAL_WRITES],
-    [COMPILATION_TIME_MS],
-    [LAST_EXECUTION_TIME]
-FROM [QUERY_PERFORMANCE_VIEW]
-WHERE [LAST_EXECUTION_TIME] >= DATEADD(day, -[ANALYSIS_PERIOD_DAYS], GETDATE())
-ORDER BY [TOTAL_EXECUTION_TIME_MS] DESC;
+**3. Wait Statistics Analysis**
 
--- Top resource-consuming queries
-WITH QueryStats AS (
-    SELECT
-        [QUERY_HASH],
-        COUNT(*) as execution_count,
-        AVG([DURATION_MS]) as avg_duration,
-        MAX([DURATION_MS]) as max_duration,
-        AVG([CPU_TIME_MS]) as avg_cpu,
-        AVG([LOGICAL_READS]) as avg_reads,
-        AVG([PHYSICAL_READS]) as avg_physical_reads,
-        SUM([DURATION_MS]) as total_duration,
-        SUM([CPU_TIME_MS]) as total_cpu
-    FROM [QUERY_EXECUTION_LOG]
-    WHERE [EXECUTION_DATE] >= DATEADD(day, -[ANALYSIS_DAYS], GETDATE())
-    GROUP BY [QUERY_HASH]
-)
-SELECT
-    TOP [TOP_N_QUERIES]
-    [QUERY_HASH],
-    execution_count,
-    avg_duration,
-    max_duration,
-    avg_cpu,
-    avg_reads,
-    total_duration,
-    total_cpu,
-    -- Performance score calculation
-    (total_duration * [DURATION_WEIGHT] + total_cpu * [CPU_WEIGHT] +
-     avg_reads * [IO_WEIGHT]) as performance_impact_score
-FROM QueryStats
-ORDER BY performance_impact_score DESC;
+Examine wait statistics to understand where the database spends time waiting for resources rather than executing queries. Categorize waits by type: CPU waits (SOS_SCHEDULER_YIELD, CXPACKET) indicate processor constraints or parallelism issues, I/O waits (PAGEIOLATCH, WRITELOG) indicate storage bottlenecks, lock waits (LCK_M_*) indicate concurrency contention, and memory waits (RESOURCE_SEMAPHORE) indicate memory pressure. Calculate wait percentages to identify dominant wait categories affecting overall performance. Distinguish between signal wait time (time waiting for CPU after resource becomes available) and resource wait time (time waiting for the resource itself)—high signal waits suggest CPU pressure while high resource waits point to the specific constrained resource. Correlate waits with specific queries identifying which queries contribute most to problematic wait categories. Reset wait statistics periodically and capture snapshots to analyze wait patterns during specific time windows like peak load periods.
 
--- Wait statistics analysis
-SELECT
-    [WAIT_TYPE],
-    [WAITING_TASKS_COUNT],
-    [WAIT_TIME_MS],
-    [MAX_WAIT_TIME_MS],
-    [SIGNAL_WAIT_TIME_MS],
-    ([WAIT_TIME_MS] - [SIGNAL_WAIT_TIME_MS]) AS [RESOURCE_WAIT_TIME_MS],
-    CASE
-        WHEN [WAIT_TIME_MS] > 0
-        THEN ([SIGNAL_WAIT_TIME_MS] * 100.0) / [WAIT_TIME_MS]
-        ELSE 0
-    END AS [SIGNAL_WAIT_PERCENTAGE],
-    ROW_NUMBER() OVER(ORDER BY [WAIT_TIME_MS] DESC) AS [WAIT_RANK]
-FROM [WAIT_STATS_VIEW]
-WHERE [WAIT_TYPE] NOT LIKE '%SLEEP%'
-    AND [WAIT_TYPE] NOT LIKE '%IDLE%'
-    AND [WAIT_TYPE] NOT LIKE '%QUEUE%'
-ORDER BY [WAIT_TIME_MS] DESC;
+**4. Index Usage Assessment**
 
--- Index usage statistics
-SELECT
-    OBJECT_SCHEMA_NAME([OBJECT_ID]) AS [schema_name],
-    OBJECT_NAME([OBJECT_ID]) AS [table_name],
-    [INDEX_NAME],
-    [USER_SEEKS],
-    [USER_SCANS],
-    [USER_LOOKUPS],
-    [USER_UPDATES],
-    ([USER_SEEKS] + [USER_SCANS] + [USER_LOOKUPS]) AS [total_reads],
-    [LAST_USER_SEEK],
-    [LAST_USER_SCAN],
-    [LAST_USER_LOOKUP],
-    [LAST_USER_UPDATE]
-FROM [INDEX_USAGE_STATS_VIEW]
-WHERE [DATABASE_ID] = DB_ID('[DATABASE_NAME]')
-ORDER BY [total_reads] DESC;
-```
+Evaluate how effectively existing indexes support the query workload. Capture index usage statistics including seeks (efficient point lookups), scans (reading entire index), lookups (key lookups to retrieve additional columns), and updates (maintenance overhead from data modifications). Calculate read-to-write ratios for each index—indexes with many writes but few reads may be candidates for removal, while heavily-read indexes are high value. Identify unused indexes with zero seeks, scans, and lookups over the analysis period—these consume storage and slow every insert, update, and delete without providing query benefit. Review index scan patterns—high scan counts with low seek counts may indicate missing indexes that would enable seeks instead of scans. Analyze missing index recommendations from the optimizer, capturing equality columns, inequality columns, included columns, and impact estimates. Calculate missing index priority scores combining estimated impact with usage frequency to prioritize index creation efforts.
 
-### Query Execution Plan Analysis
-```sql
--- Execution plan analysis framework
-WITH ExecutionPlanAnalysis AS (
-    SELECT
-        [PLAN_HASH],
-        [QUERY_HASH],
-        [CACHED_TIME],
-        [LAST_EXECUTION_TIME],
-        [EXECUTION_COUNT],
-        [TOTAL_WORKER_TIME] / 1000 as total_cpu_ms,
-        [TOTAL_ELAPSED_TIME] / 1000 as total_elapsed_ms,
-        [TOTAL_LOGICAL_READS],
-        [TOTAL_PHYSICAL_READS],
-        [TOTAL_LOGICAL_WRITES],
-        [QUERY_PLAN],
-        -- Plan efficiency metrics
-        CASE
-            WHEN [TOTAL_LOGICAL_READS] > [HIGH_IO_THRESHOLD] THEN 'HIGH_IO'
-            WHEN [TOTAL_WORKER_TIME] > [HIGH_CPU_THRESHOLD] THEN 'HIGH_CPU'
-            WHEN [TOTAL_ELAPSED_TIME] > [HIGH_DURATION_THRESHOLD] THEN 'HIGH_DURATION'
-            ELSE 'NORMAL'
-        END as performance_category
-    FROM [PLAN_CACHE_VIEW]
-    WHERE [LAST_EXECUTION_TIME] >= DATEADD(hour, -[ANALYSIS_HOURS], GETDATE())
-)
-SELECT
-    [PLAN_HASH],
-    [EXECUTION_COUNT],
-    [total_cpu_ms],
-    [total_elapsed_ms],
-    [TOTAL_LOGICAL_READS],
-    [TOTAL_PHYSICAL_READS],
-    [performance_category],
-    -- Extract key plan elements
-    [QUERY_PLAN].value('(/ShowPlanXML/BatchSequence/Batch/Statements/StmtSimple/@StatementText)[1]', 'NVARCHAR(MAX)') as query_text,
-    [QUERY_PLAN].value('(/ShowPlanXML/BatchSequence/Batch/Statements/StmtSimple/@StatementSubTreeCost)[1]', 'FLOAT') as estimated_cost,
-    -- Identify problematic operators
-    CASE
-        WHEN [QUERY_PLAN].exist('/ShowPlanXML//RelOp[@PhysicalOp="Table Scan"]') = 1 THEN 'TABLE_SCAN'
-        WHEN [QUERY_PLAN].exist('/ShowPlanXML//RelOp[@PhysicalOp="Clustered Index Scan"]') = 1 THEN 'CLUSTERED_SCAN'
-        WHEN [QUERY_PLAN].exist('/ShowPlanXML//RelOp[@PhysicalOp="Sort"]') = 1 THEN 'EXPENSIVE_SORT'
-        WHEN [QUERY_PLAN].exist('/ShowPlanXML//RelOp[@PhysicalOp="Hash Match"]') = 1 THEN 'HASH_JOIN'
-        ELSE 'OPTIMIZED'
-    END as plan_characteristics
-FROM ExecutionPlanAnalysis
-WHERE performance_category != 'NORMAL'
-ORDER BY [total_elapsed_ms] DESC;
+**5. Workload Pattern Identification**
 
--- Missing index analysis
-SELECT
-    [DATABASE_NAME],
-    [SCHEMA_NAME],
-    [TABLE_NAME],
-    [COLUMN_NAME],
-    [COLUMN_USAGE],
-    [USER_SEEKS],
-    [USER_SCANS],
-    [LAST_USER_SEEK],
-    [AVG_TOTAL_USER_COST],
-    [AVG_USER_IMPACT],
-    [SYSTEM_SEEKS],
-    [SYSTEM_SCANS],
-    -- Calculate index priority score
-    ([USER_SEEKS] + [USER_SCANS]) * [AVG_TOTAL_USER_COST] * ([AVG_USER_IMPACT] / 100.0) as index_priority_score
-FROM [MISSING_INDEX_DETAILS_VIEW] mid
-INNER JOIN [MISSING_INDEX_GROUPS_VIEW] mig ON mid.[INDEX_GROUP_HANDLE] = mig.[INDEX_GROUP_HANDLE]
-INNER JOIN [MISSING_INDEX_GROUP_STATS_VIEW] migs ON mig.[INDEX_GROUP_HANDLE] = migs.[GROUP_HANDLE]
-WHERE [DATABASE_NAME] = '[TARGET_DATABASE]'
-ORDER BY index_priority_score DESC;
-```
+Analyze temporal patterns in query workload to understand when performance matters most. Profile query volume and resource consumption by hour of day and day of week identifying peak load periods when optimization has greatest impact. Categorize queries by type—transactional queries requiring low latency, reporting queries tolerating longer execution, batch processes running during maintenance windows, and ad-hoc queries with unpredictable patterns. Measure query complexity using metrics like query text length, join count, subquery depth, aggregation complexity, and sort requirements—complexity scores help predict optimization difficulty and potential improvement. Identify query families sharing similar patterns that might benefit from common optimizations. Track workload growth trends projecting when current capacity will be exceeded based on query volume and data volume growth rates. Document business context for critical queries linking technical metrics to business impact.
 
-### Workload Pattern Analysis
-```sql
--- Temporal query patterns
-WITH HourlyQueryPattern AS (
-    SELECT
-        DATEPART(hour, [EXECUTION_TIME]) as execution_hour,
-        DATEPART(dow, [EXECUTION_TIME]) as day_of_week,
-        COUNT(*) as query_count,
-        AVG([DURATION_MS]) as avg_duration,
-        MAX([DURATION_MS]) as max_duration,
-        SUM([CPU_TIME_MS]) as total_cpu,
-        SUM([LOGICAL_READS]) as total_reads
-    FROM [QUERY_EXECUTION_LOG]
-    WHERE [EXECUTION_TIME] >= DATEADD(day, -[PATTERN_ANALYSIS_DAYS], GETDATE())
-    GROUP BY DATEPART(hour, [EXECUTION_TIME]), DATEPART(dow, [EXECUTION_TIME])
-),
-QueryComplexityAnalysis AS (
-    SELECT
-        [QUERY_HASH],
-        [QUERY_TEXT],
-        -- Complexity metrics
-        LEN([QUERY_TEXT]) as query_length,
-        (LEN([QUERY_TEXT]) - LEN(REPLACE(UPPER([QUERY_TEXT]), 'JOIN', ''))) / 4 as join_count,
-        (LEN([QUERY_TEXT]) - LEN(REPLACE(UPPER([QUERY_TEXT]), 'WHERE', ''))) / 5 as where_clause_count,
-        (LEN([QUERY_TEXT]) - LEN(REPLACE(UPPER([QUERY_TEXT]), 'GROUP BY', ''))) / 8 as group_by_count,
-        (LEN([QUERY_TEXT]) - LEN(REPLACE(UPPER([QUERY_TEXT]), 'ORDER BY', ''))) / 8 as order_by_count,
-        (LEN([QUERY_TEXT]) - LEN(REPLACE(UPPER([QUERY_TEXT]), 'UNION', ''))) / 5 as union_count,
-        -- Performance metrics
-        AVG([DURATION_MS]) as avg_duration,
-        COUNT(*) as execution_frequency
-    FROM [QUERY_EXECUTION_LOG]
-    WHERE [EXECUTION_TIME] >= DATEADD(day, -[COMPLEXITY_ANALYSIS_DAYS], GETDATE())
-    GROUP BY [QUERY_HASH], [QUERY_TEXT]
-)
-SELECT
-    [QUERY_HASH],
-    query_length,
-    join_count,
-    where_clause_count,
-    group_by_count,
-    order_by_count,
-    union_count,
-    avg_duration,
-    execution_frequency,
-    -- Complexity score calculation
-    (query_length * [LENGTH_WEIGHT] +
-     join_count * [JOIN_WEIGHT] +
-     where_clause_count * [WHERE_WEIGHT] +
-     group_by_count * [GROUP_WEIGHT] +
-     order_by_count * [ORDER_WEIGHT] +
-     union_count * [UNION_WEIGHT]) as complexity_score
-FROM QueryComplexityAnalysis
-ORDER BY complexity_score DESC;
-```
+**6. Resource Consumption Profiling**
 
-OUTPUT: Deliver comprehensive performance baseline analysis including:
-1. Query execution time metrics and resource consumption analysis
-2. Wait statistics analysis identifying system bottlenecks
-3. Index usage statistics for optimization opportunities
-4. Execution plan analysis with problematic operators identified
-5. Missing index recommendations with priority scoring
-6. Temporal workload patterns for capacity planning
-7. Query complexity metrics for optimization prioritization
-8. Performance impact scores for focused optimization efforts
-```
+Profile how queries consume system resources to identify capacity constraints. Measure CPU utilization by query identifying queries consuming disproportionate processor time relative to their business value. Track memory consumption including memory grants for sorts, hashes, and other memory-intensive operators—queries requesting large memory grants may cause others to wait. Analyze I/O patterns distinguishing between sequential reads (typically efficient) and random reads (potentially indicating missing indexes). Monitor tempdb usage for queries spilling to disk due to insufficient memory grants or using temporary objects extensively. Calculate resource efficiency ratios comparing resources consumed to rows processed—queries with high resource consumption per row may benefit from query rewriting. Identify resource-intensive queries running during peak periods that might be candidates for rescheduling to off-peak windows.
+
+**7. Performance Baseline Documentation**
+
+Document baseline findings in a format supporting optimization planning and progress tracking. Create a prioritized list of queries ranked by performance impact score with current metrics serving as optimization targets. Document execution plan characteristics for each priority query enabling before-and-after comparison. Record wait statistics baseline for overall system and per-query where available. Capture index effectiveness metrics identifying both high-value indexes to preserve and low-value indexes to evaluate for removal. Summarize workload patterns including peak periods, query type distribution, and growth trends. Define performance targets specifying improvement goals for execution time, resource consumption, and throughput. Establish measurement procedures for validating optimization effectiveness including test scenarios, metric collection methods, and success criteria.
+
+**8. Optimization Opportunity Assessment**
+
+Synthesize baseline findings into actionable optimization opportunities. Rank opportunities by expected impact considering current performance impact, improvement potential, and implementation complexity. Categorize opportunities by type: query rewriting candidates where SQL changes could improve plans, index optimization opportunities for new indexes or existing index modifications, resource configuration changes addressing system-level constraints, and application changes requiring code modifications. Estimate effort for each opportunity distinguishing quick wins achievable in hours from major initiatives requiring weeks. Identify dependencies between opportunities—some optimizations may be prerequisites for others. Create a phased optimization roadmap addressing highest-impact opportunities first while building toward comprehensive performance improvement. Define success metrics for each opportunity enabling objective validation of improvements.
+
+Deliver your performance baseline as:
+
+1. **Query metrics report** listing top resource consumers with performance impact scores
+2. **Execution plan analysis** documenting problematic operators and plan characteristics
+3. **Wait statistics summary** identifying dominant wait categories and resource constraints
+4. **Index assessment** covering usage patterns, unused indexes, and missing index recommendations
+5. **Workload patterns** showing temporal distribution, query categories, and growth trends
+6. **Resource profile** mapping consumption patterns to capacity constraints
+7. **Baseline documentation** establishing measurement foundation for optimization tracking
+8. **Opportunity assessment** prioritizing optimization candidates with expected impact and effort
+
+---
 
 ## Variables
-[DATABASE_PLATFORM], [ORGANIZATION_NAME], [INDUSTRY_SECTOR], [WORKLOAD_TYPE], [ANALYSIS_METHODOLOGY], [ANALYSIS_PERIOD_DAYS], [PERFORMANCE_OBJECTIVES], [CURRENT_PERFORMANCE_CHALLENGES], [DATABASE_VERSION], [HARDWARE_SPECIFICATIONS], [SERVER_CONFIGURATION], [STORAGE_SYSTEM], [MEMORY_ALLOCATION], [CPU_CONFIGURATION], [QUERY_RESPONSE_TIME_SLA], [THROUGHPUT_REQUIREMENTS], [CONCURRENT_USER_CAPACITY], [CURRENT_DATA_VOLUME], [PEAK_LOAD_CHARACTERISTICS], [QUERY_ID_COLUMN], [QUERY_TEXT_COLUMN], [EXECUTION_COUNT], [TOTAL_EXECUTION_TIME_MS], [AVERAGE_EXECUTION_TIME_MS], [MAX_EXECUTION_TIME_MS], [MIN_EXECUTION_TIME_MS], [TOTAL_CPU_TIME_MS], [TOTAL_LOGICAL_READS], [TOTAL_PHYSICAL_READS], [TOTAL_LOGICAL_WRITES], [COMPILATION_TIME_MS], [LAST_EXECUTION_TIME], [QUERY_PERFORMANCE_VIEW], [QUERY_HASH], [DURATION_MS], [CPU_TIME_MS], [LOGICAL_READS], [PHYSICAL_READS], [QUERY_EXECUTION_LOG], [EXECUTION_DATE], [ANALYSIS_DAYS], [TOP_N_QUERIES], [DURATION_WEIGHT], [CPU_WEIGHT], [IO_WEIGHT], [WAIT_TYPE], [WAITING_TASKS_COUNT], [WAIT_TIME_MS], [MAX_WAIT_TIME_MS], [SIGNAL_WAIT_TIME_MS], [WAIT_STATS_VIEW], [OBJECT_ID], [INDEX_NAME], [USER_SEEKS], [USER_SCANS], [USER_LOOKUPS], [USER_UPDATES], [INDEX_USAGE_STATS_VIEW], [DATABASE_NAME], [PLAN_HASH], [CACHED_TIME], [TOTAL_WORKER_TIME], [TOTAL_ELAPSED_TIME], [QUERY_PLAN], [HIGH_IO_THRESHOLD], [HIGH_CPU_THRESHOLD], [HIGH_DURATION_THRESHOLD], [PLAN_CACHE_VIEW], [ANALYSIS_HOURS], [SCHEMA_NAME], [TABLE_NAME], [COLUMN_NAME], [COLUMN_USAGE], [AVG_TOTAL_USER_COST], [AVG_USER_IMPACT], [SYSTEM_SEEKS], [SYSTEM_SCANS], [MISSING_INDEX_DETAILS_VIEW], [INDEX_GROUP_HANDLE], [MISSING_INDEX_GROUPS_VIEW], [GROUP_HANDLE], [MISSING_INDEX_GROUP_STATS_VIEW], [TARGET_DATABASE], [PATTERN_ANALYSIS_DAYS], [EXECUTION_TIME], [COMPLEXITY_ANALYSIS_DAYS], [LENGTH_WEIGHT], [JOIN_WEIGHT], [WHERE_WEIGHT], [GROUP_WEIGHT], [ORDER_WEIGHT], [UNION_WEIGHT]
+
+| Variable | Description | Example |
+|----------|-------------|---------|
+| `{DATABASE_CONTEXT}` | Platform, version, and environment | "SQL Server 2022 with 2TB database, 500 concurrent users, mixed OLTP/reporting workload" |
+| `{ANALYSIS_SCOPE}` | What to analyze and time period | "top 100 queries by resource consumption over 30 days, focusing on month-end reporting" |
+| `{OPTIMIZATION_OBJECTIVES}` | Goals driving the baseline | "reduce P95 query latency by 50%, identify candidates for index optimization, establish monitoring KPIs" |
+
+---
 
 ## Usage Examples
 
-### Example 1: OLAP Data Warehouse Baseline
-```
-DATABASE_PLATFORM: "SQL Server 2022"
-ORGANIZATION_NAME: "DataMart Solutions"
-WORKLOAD_TYPE: "OLAP"
-ANALYSIS_PERIOD_DAYS: "30"
-TOP_N_QUERIES: "50"
-ANALYSIS_METHODOLOGY: "Comprehensive baseline with execution plan analysis"
-PERFORMANCE_OBJECTIVES: "Identify queries >30s execution time for optimization"
-```
+### Example 1: E-Commerce Platform Baseline
+**Prompt:** "Establish a performance baseline for {DATABASE_CONTEXT: PostgreSQL 15 on AWS RDS with 500GB order management database supporting 24/7 e-commerce operations}, analyzing {ANALYSIS_SCOPE: queries with execution time over 500ms or sequential scans on tables over 1M rows, covering two-week period including a promotional sale event}, to support {OPTIMIZATION_OBJECTIVES: ensure checkout path queries complete under 200ms P99, identify indexes needed for new product search features, establish SLOs for database team}."
 
-### Example 2: High-Volume OLTP Baseline
-```
-DATABASE_PLATFORM: "PostgreSQL 15"
-ORGANIZATION_NAME: "E-commerce Platform"
-WORKLOAD_TYPE: "OLTP"
-ANALYSIS_PERIOD_DAYS: "7"
-TOP_N_QUERIES: "100"
-DURATION_WEIGHT: "2.0"
-CPU_WEIGHT: "1.5"
-IO_WEIGHT: "1.0"
-```
+**Expected Output:** Query metrics identifying checkout-related queries, product search queries, and inventory queries with execution statistics and impact scores. Execution plan analysis flagging sequential scans on orders and order_items tables, hash joins in product search, and missing indexes for customer lookup by email. Wait statistics showing lock waits during high-concurrency sale periods and I/O waits on order history queries. Index assessment revealing unused indexes on deprecated columns and missing composite index for customer+date order lookups. Workload patterns showing 3x query volume during sale event with product search dominating. Baseline documentation with P99 latencies by query category and recommended SLOs. Optimization opportunities prioritizing covering index for checkout queries, partial index for active orders, and connection pooling for sale events.
 
-### Example 3: Hybrid Workload Pattern Analysis
-```
-DATABASE_PLATFORM: "Snowflake"
-ORGANIZATION_NAME: "Financial Analytics Corp"
-WORKLOAD_TYPE: "Hybrid"
-PATTERN_ANALYSIS_DAYS: "14"
-COMPLEXITY_ANALYSIS_DAYS: "30"
-HIGH_IO_THRESHOLD: "10000000"
-HIGH_CPU_THRESHOLD: "5000"
-```
+### Example 2: Financial Reporting System Baseline
+**Prompt:** "Establish a performance baseline for {DATABASE_CONTEXT: SQL Server 2022 Enterprise data warehouse with 5TB fact tables supporting regulatory and management reporting}, analyzing {ANALYSIS_SCOPE: all queries executed in month-end close period plus daily dashboard queries, capturing execution plans and tempdb usage}, to support {OPTIMIZATION_OBJECTIVES: complete month-end close reports within 8-hour window, reduce ad-hoc query timeouts by 80%, plan capacity for 2x data growth}."
 
-## Best Practices
+**Expected Output:** Query metrics separating scheduled reports from ad-hoc queries with distinct impact scoring. Execution plan analysis identifying columnstore scan inefficiencies, spills to tempdb from undersized memory grants, and parallelism throttling issues. Wait statistics highlighting tempdb contention during concurrent report execution and memory waits for large analytical queries. Index assessment recommending columnstore index maintenance, nonclustered indexes for dimension lookups, and filtered indexes for current-period queries. Workload patterns showing report execution sequence opportunities and ad-hoc query clustering around business review meetings. Resource profile identifying memory and tempdb as primary constraints. Capacity projection showing tempdb growth requirements for 2x data volume. Optimization roadmap sequencing memory configuration, columnstore maintenance, and query governor implementation.
 
-1. **Establish clear baselines** - Capture metrics before optimization for comparison
-2. **Focus on high-impact queries** - Prioritize queries with highest performance impact score
-3. **Analyze execution plans systematically** - Look for table scans, missing indexes, and expensive operators
-4. **Consider workload patterns** - Identify peak load times and optimize accordingly
-5. **Track wait statistics** - Understand where the database is spending time waiting
-6. **Document findings thoroughly** - Create detailed reports for stakeholder review
-7. **Set realistic thresholds** - Define what constitutes a performance problem for your workload
-8. **Review index usage regularly** - Identify unused indexes and missing index opportunities
-9. **Correlate metrics across dimensions** - Connect execution time with I/O, CPU, and waits
-10. **Update baselines periodically** - Refresh benchmarks as workload evolves
+### Example 3: SaaS Multi-Tenant Application Baseline
+**Prompt:** "Establish a performance baseline for {DATABASE_CONTEXT: Azure SQL Database elastic pool supporting 200 tenant databases with shared schema and row-level security}, analyzing {ANALYSIS_SCOPE: cross-tenant query patterns, per-tenant resource consumption, and noisy neighbor incidents over 60 days}, to support {OPTIMIZATION_OBJECTIVES: ensure fair resource allocation, identify tenants needing dedicated resources, optimize shared indexes for common query patterns}."
 
-## Tips for Success
+**Expected Output:** Query metrics aggregated across tenants identifying common patterns and tenant-specific outliers. Execution plan analysis for canonical queries showing parameter sniffing issues with tenant_id filters and plan cache bloat from tenant-specific plans. Wait statistics showing DTU throttling patterns and resource contention during overlapping tenant peak hours. Index assessment identifying indexes effective across all tenants versus tenant-specific needs. Workload patterns by tenant revealing usage clusters suggesting tiered resource allocation. Resource profile mapping tenant consumption to elastic pool capacity with noisy neighbor timeline. Baseline documentation establishing per-tenant resource quotas and shared performance SLOs. Optimization opportunities including plan guides for tenant_id parameters, tenant scheduling coordination, and graduated tenant isolation for high-consumption accounts.
 
-- Run baseline queries during representative workload periods (not maintenance windows)
-- Capture both average and peak performance metrics for complete picture
-- Use performance impact scores to prioritize optimization efforts objectively
-- Document query complexity metrics to justify optimization investments
-- Archive baseline reports for trend analysis over time
-- Cross-reference wait statistics with execution plan issues
-- Include business context (e.g., report names, user impact) in analysis
-- Set up automated baseline collection for continuous monitoring
-- Share findings with stakeholders using clear, non-technical summaries
-- Create visual dashboards from baseline data for easier consumption
+---
+
+## Cross-References
+
+- [query-optimization-indexing-strategies.md](query-optimization-indexing-strategies.md) - Index design informed by baseline analysis
+- [query-optimization-query-rewriting.md](query-optimization-query-rewriting.md) - Query improvements for identified problem queries
+- [query-optimization-overview.md](query-optimization-overview.md) - Query optimization module navigation

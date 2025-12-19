@@ -1,17 +1,17 @@
 ---
 category: product-management
-last_updated: 2025-11-12
-title: Go-to-Market (GTM) Planning
+title: Go-to-Market Readiness Assessment
 tags:
 - product-management
 - go-to-market
 - launch-strategy
 - market-entry
+- gtm-planning
 use_cases:
-- Planning comprehensive go-to-market strategy for new products
-- Coordinating product launches across marketing, sales, and product teams
-- Entering new markets or launching to new customer segments
-- Repositioning existing products in the market
+- Evaluating GTM capability before major product launches
+- Assessing launch readiness and cross-functional coordination maturity
+- Identifying gaps in market positioning and customer acquisition strategies
+- Building systematic go-to-market foundations for repeatable launch success
 related_templates:
 - product-management/Product-Development/product-launch-execution.md
 - product-management/Product-Strategy/product-strategy-vision.md
@@ -23,841 +23,424 @@ industries:
 - healthcare
 - retail
 - manufacturing
-type: template
+type: framework
 difficulty: intermediate
-slug: go-to-market-planning
+slug: go-to-market-readiness-assessment
 ---
 
-# Go-to-Market (GTM) Planning Template
+# Go-to-Market Readiness Assessment
 
 ## Purpose
-Develop comprehensive go-to-market strategies that successfully bring products to market, acquire customers efficiently, and achieve business objectives through coordinated execution across product, marketing, sales, and customer success teams.
+Comprehensively assess an organization's readiness to execute successful product launches through effective go-to-market strategies, coordinated cross-functional execution, and systematic customer acquisition. This framework evaluates capabilities across Market Understanding, Positioning & Messaging, Channel Strategy, Sales & Marketing Execution, Customer Success, and Launch Operations, identifying gaps that cause failed launches and providing actionable roadmaps for building GTM maturity.
 
-## Quick GTM Prompt
-Create GTM plan for [product] targeting [segment]. Define: ICP (ideal customer profile), value proposition (unique benefit), positioning vs. [competitors], pricing model, and distribution channels. Plan: launch phases (beta → GA), marketing tactics per channel, sales enablement materials, success metrics (CAC, conversion, revenue targets), and 90-day execution timeline.
+## 🚀 Quick Assessment Prompt
 
-## Quick Start
+> Assess **go-to-market readiness** for **{PRODUCT_NAME}** targeting **{TARGET_MARKET}** with **{GTM_MOTION}**. Evaluate across: (1) **Market understanding**—is the ICP clearly defined? Do you understand buyer personas, decision processes, and competitive landscape? What market sizing and opportunity validation exists? (2) **Positioning & messaging**—is there a clear value proposition differentiated from competitors? Are messages tailored by persona? Has messaging been validated with customers? (3) **Channel strategy**—are customer acquisition channels identified and tested? What's the CAC by channel? Is there a coherent multi-channel approach? (4) **Sales & marketing execution**—does the sales team have enablement materials, playbooks, and training? Are marketing campaigns ready with content and budget? (5) **Customer success readiness**—are onboarding processes defined? How will you ensure activation and retention? (6) **Launch operations**—is there a coordinated launch plan across teams? Are metrics defined? What's the contingency planning? Provide a maturity scorecard (1-5 per dimension), critical readiness gaps preventing successful launch, prioritized GTM improvements, and 90-day launch readiness plan.
 
-**Need a GTM plan quickly?** Use this streamlined approach:
-
-### Minimal Example
-```
-Product: AI-powered sales assistant for SMBs
-Target: Small businesses (10-50 employees) with inside sales teams
-Value Prop: Close 30% more deals with AI that handles follow-ups and scheduling
-Channels: Product-led growth (freemium) + content marketing + partnerships
-Pricing: Free tier + $49/user/month Pro
-Launch: Beta (100 users) → Public launch → Expansion
-Success: 1,000 users in 90 days, 20% conversion free→paid
-```
-
-### When to Use This
-- Launching new products or major features
-- Entering new markets or customer segments
-- Product repositioning or rebranding
-- Post-funding scale-up initiatives
-- Competitive response requiring coordinated GTM effort
-
-### Basic 5-Step Workflow
-1. **Market & customer definition** - Who you're targeting and why (1 week)
-2. **Positioning & messaging** - How you'll differentiate and communicate value (1 week)
-3. **Channel & pricing strategy** - How customers will discover and buy (1 week)
-4. **Launch plan & tactics** - Coordinated execution plan across teams (1 week)
-5. **Metrics & optimization** - How you'll measure and improve (ongoing)
+**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for rapid GTM readiness evaluation.
 
 ---
 
 ## Template
 
-```
-You are an experienced go-to-market strategist. Create a comprehensive GTM plan for [PRODUCT_NAME] targeting [TARGET_MARKET] with [VALUE_PROPOSITION] using [GTM_MOTION] to achieve [BUSINESS_GOALS] over [TIMEFRAME].
+Conduct a comprehensive go-to-market readiness assessment for {PRODUCT_NAME}, targeting {TARGET_MARKET} with {GTM_MOTION}.
 
-GTM CONTEXT:
-Product Information:
-- Product name: [PRODUCT_NAME]
-- Product type: [NEW_PRODUCT/NEW_FEATURE/NEW_MARKET]
-- Product category: [CATEGORY]
-- Launch type: [MAJOR_LAUNCH/SOFT_LAUNCH/ROLLING_LAUNCH]
-- Target launch date: [DATE]
+Assess GTM capability across six dimensions, scoring each 1-5:
 
-Company Context:
-- Company stage: [STARTUP/GROWTH/ENTERPRISE]
-- Current customers: [CUSTOMER_COUNT]
-- Current revenue: [ARR/REVENUE]
-- Team size: [HEADCOUNT]
-- Market position: [CHALLENGER/LEADER/NICHE]
+**1. MARKET UNDERSTANDING & CUSTOMER DEFINITION**
+Assess whether the organization has developed deep understanding of target markets and customers by evaluating whether the Ideal Customer Profile (ICP) is precisely defined with specific firmographics for B2B (company size, industry, geography, technology stack, maturity stage) or demographics and psychographics for B2C (age, income, behaviors, values, technology adoption) rather than vague descriptions like "mid-market companies" or "tech-savvy consumers," whether buyer personas are detailed and evidence-based covering economic buyers, technical buyers, and end users with their respective goals, pain points, decision criteria, and common objections rather than superficial demographic sketches, whether the buying process is mapped showing who is involved in decisions, typical sales cycle length, budget cycles, approval workflows, and evaluation criteria enabling sales and marketing to align to actual customer behavior, whether market opportunity is quantified with credible TAM/SAM/SOM analysis showing addressable market size, growth rates, and realistic capture targets grounded in bottoms-up analysis rather than top-down wishful thinking, whether competitive landscape is thoroughly understood including direct competitors' positioning and GTM strategies, indirect alternatives and substitutes, competitive advantages and proof points, and realistic assessment of where you win versus where competitors have advantage, whether market dynamics are analyzed covering trends driving opportunity, technology enablers creating timing advantage, regulatory factors affecting adoption, and economic conditions influencing buying behavior, and whether customer validation has occurred through customer discovery interviews, beta customer commitments, pilot results, or other evidence that target customers actually have the problem you claim and will pay for your solution.
 
-Strategic Context:
-- Business objective: [OBJECTIVE]
-- Revenue target: [TARGET]
-- Customer acquisition target: [TARGET]
-- Market share goal: [TARGET]
-- Strategic priority: [HIGH/MEDIUM/LOW]
+**2. POSITIONING, MESSAGING & VALUE ARTICULATION**
+Evaluate whether the organization can clearly articulate differentiated value by assessing whether positioning is sharp and defensible with a clear positioning statement defining target customer, need addressed, category, key benefit, and primary differentiator that creates meaningful separation from alternatives, whether the value proposition is compelling across functional value (what it does, tangible outcomes, efficiency gains), emotional value (how it makes users feel, status conferred, risk reduced), and economic value (ROI, payback period, quantified benefit) rather than generic claims about being "better" or "easier," whether messaging framework is comprehensive including memorable tagline, concise elevator pitch, simple one-liner for non-technical audiences, and 3-5 key messages with supporting proof points that can be consistently deployed across channels, whether messaging is tailored by audience with customized messages for each buyer persona addressing their specific priorities, pain points, and decision criteria rather than one-size-fits-all communication, whether differentiation is clear and provable explaining specifically what you do differently from competitors and why that matters to customers backed by evidence and customer validation, whether objection handling is prepared with documented common objections and effective responses enabling sales and marketing teams to address concerns confidently, and whether messaging has been validated with target customers through message testing, customer interviews, or beta feedback ensuring messages resonate and aren't just internally compelling.
 
-### 1. MARKET OPPORTUNITY
+**3. CHANNEL STRATEGY & CUSTOMER ACQUISITION**
+Determine whether the organization has identified and validated effective customer acquisition channels by evaluating whether the GTM motion aligns with product economics and customer behavior choosing between sales-led for high ACV complex sales, product-led for low friction self-serve adoption, or hybrid approaches based on segment rather than defaulting to familiar models, whether awareness channels are identified and sized covering where target customers discover solutions including organic search, paid advertising, content marketing, events, partnerships, word-of-mouth, and community with realistic reach and cost estimates per channel, whether acquisition channels have proven conversion paths showing how awareness converts to leads, leads to qualified opportunities, and opportunities to customers with understood conversion rates and CAC by channel, whether channel mix is coherent with appropriate balance between owned channels (content, SEO, community) for sustainable growth, paid channels (SEM, social ads, display) for speed and scale, and partner channels (integrations, resellers, affiliates) for reach and credibility rather than scattering effort across too many unproven channels, whether customer acquisition costs are understood by channel with validated CAC, payback period, and LTV:CAC ratios informing channel investment decisions, whether early channel validation has occurred through small tests or pilots proving that target customers can be reached and acquired through proposed channels at acceptable costs before committing full launch budgets, and whether there's realistic assessment of channel maturity understanding which channels require 3-6 months to mature (SEO, content marketing, community) versus quick results (paid ads, direct sales) informing launch timing and expectations.
 
-Market Definition:
-- Total Addressable Market (TAM): [SIZE]
-- Serviceable Addressable Market (SAM): [SIZE]
-- Serviceable Obtainable Market (SOM): [SIZE]
-- Market growth rate: [GROWTH_RATE]
-- Market maturity: [EMERGING/GROWING/MATURE]
+**4. SALES & MARKETING EXECUTION READINESS**
+Assess whether sales and marketing teams have the capabilities, materials, and processes needed to execute by evaluating whether sales strategy is well-defined including sales model (inside, field, or hybrid), organizational structure, territory design, quota setting, and compensation plans aligned to GTM objectives, whether sales enablement is comprehensive covering pitch decks with compelling storytelling and objection handling, battle cards with competitive intelligence and win strategies, demo environments showcasing key value, ROI calculators quantifying customer value, case studies and proof points, sales process documentation, and training programs ensuring reps can effectively sell, whether marketing campaigns are ready with content calendar planned, creative assets developed, campaign budgets allocated, marketing automation configured, landing pages optimized for conversion, and measurement frameworks in place to track performance, whether demand generation strategy is sound covering content marketing with educational and thought leadership assets, paid advertising with targeting and creative ready, email marketing with segmentation and nurture sequences, events and webinars with speaker and logistics arranged, SEO with keyword strategy and content priorities, and PR with press strategy and media relationships activated, whether go-to-market is appropriately staffed with adequate sales headcount to cover territories and achieve quota, marketing resources across demand gen, content, and product marketing, customer success capacity to onboard and support new customers, and sales development representatives if using outbound motions, whether there's collaboration between sales and marketing with lead handoff processes defined, lead qualification criteria agreed, feedback loops established, and shared accountability for pipeline and revenue targets, and whether pilot or early customer success exists providing proof that sales and marketing motions work before scaling investment.
 
-Market Dynamics:
-- Key trends: [TRENDS_DRIVING_OPPORTUNITY]
-- Technology enablers: [TECH_SHIFTS]
-- Regulatory factors: [COMPLIANCE_CONSIDERATIONS]
-- Economic factors: [MACRO_ENVIRONMENT]
-- Timing: [WHY_NOW]
+**5. CUSTOMER SUCCESS & RETENTION READINESS**
+Evaluate whether the organization can successfully onboard, activate, and retain acquired customers by assessing whether onboarding strategy is designed for rapid time-to-value with clear success criteria defining what "activated" means, structured onboarding timeline with touchpoints and milestones, resources including documentation, videos, templates, and training materials, and success metrics tracking activation rate and time to activation, whether customer success model matches customer segments with high-touch CSMs for enterprise customers with strategic importance, low-touch scaled CS for mid-market using a mix of human and digital, and tech-touch automation for SMB customers with self-serve resources and automated engagement, whether customer health is measurable through health scoring covering product usage, feature adoption, engagement frequency, support interactions, and sentiment enabling proactive intervention before churn risk escalates, whether there are defined expansion plays including upsell paths to higher tiers or modules, cross-sell opportunities for additional products, and triggers indicating readiness for expansion enabling revenue growth beyond initial acquisition, whether retention is prioritized with clear retention targets, churn analysis understanding why customers leave, win-back strategies for at-risk customers, and NPS or satisfaction measurement tracking customer sentiment, whether support readiness exists with documentation covering all major use cases, support team trained on product, ticket triage and escalation processes, and SLAs appropriate to customer segments, and whether success metrics are defined tracking activation rate, feature adoption, usage frequency, retention by cohort, NPS, and expansion revenue providing visibility into post-sale success.
 
-Opportunity Size:
-- Target customers: [NUMBER_OF_COMPANIES/USERS]
-- Average deal size: [ACV_OR_TRANSACTION]
-- Year 1 opportunity: [REVENUE_POTENTIAL]
-- 3-year opportunity: [REVENUE_POTENTIAL]
+**6. LAUNCH OPERATIONS & CROSS-FUNCTIONAL COORDINATION**
+Assess whether the organization can execute coordinated launches by evaluating whether there's a detailed launch plan with pre-launch activities (8-12 weeks before) covering positioning finalization, enablement development, beta customer recruitment, content creation, and team preparation, launch week activities including product go-live, press release distribution, customer communication, campaign activation, and war room monitoring, and post-launch activities (4-12 weeks after) covering metrics analysis, feedback integration, campaign optimization, and launch retrospective, whether cross-functional coordination is strong with clear ownership and accountability across product, marketing, sales, customer success, and support, regular coordination meetings, dependency tracking, and escalation paths when blockers arise, whether launch readiness criteria are defined with go/no-go checklist covering product quality, sales enablement, marketing readiness, support preparedness, analytics instrumentation, and executive approval preventing premature launches, whether success metrics are clearly defined with specific targets for 30-day, 90-day, and 6-month milestones covering acquisition metrics (leads, customers, CAC), activation metrics (onboarding completion, time to value), engagement metrics (usage frequency, feature adoption), revenue metrics (MRR/ARR, ACV, LTV), and retention metrics (churn rate, NRR, NPS) enabling objective evaluation of launch success, whether there's infrastructure for launch monitoring including real-time dashboards, daily stand-ups during launch week, customer feedback collection processes, issue triage and resolution, and rapid iteration capability responding to early signals, whether risk management is thorough with identified risks across product quality, market reception, competitive response, channel effectiveness, and organizational execution with mitigation strategies and contingency plans, and whether there's post-launch learning process including structured retrospectives, documentation of what worked and what didn't, sharing learnings across organization, and incorporation of insights into next launch improving GTM capability over time.
 
-### 2. TARGET CUSTOMER & ICP
+Deliver your assessment as:
 
-Ideal Customer Profile (ICP):
-For B2B:
-- Industry: [VERTICALS]
-- Company size: [EMPLOYEE_COUNT/REVENUE]
-- Geography: [REGIONS]
-- Technology stack: [EXISTING_TOOLS]
-- Maturity: [COMPANY_STAGE]
-- Budget: [BUDGET_RANGE]
+1. **EXECUTIVE SUMMARY** - Overall maturity score (X.X/5.0), maturity stage classification, top 3 critical gaps preventing successful launch, recommended investment level and timeline to achieve launch readiness
 
-For B2C:
-- Demographics: [AGE/GENDER/INCOME/LOCATION]
-- Psychographics: [LIFESTYLE/VALUES/INTERESTS]
-- Behaviors: [USAGE_PATTERNS]
-- Technology adoption: [EARLY_ADOPTER/MAINSTREAM]
+2. **DIMENSION SCORECARD** - Table showing each dimension with score (X.X/5.0), current state characterization, and primary gap or strength
 
-Customer Segmentation:
-Primary Segment: [SEGMENT_NAME]
-- Profile: [DETAILED_DESCRIPTION]
-- Size: [ADDRESSABLE_CUSTOMERS]
-- Why prioritize: [STRATEGIC_RATIONALE]
-- GTM approach: [HOW_TO_REACH]
-- Expected CAC: [CUSTOMER_ACQUISITION_COST]
-- Expected LTV: [LIFETIME_VALUE]
+3. **CRITICAL READINESS GAPS** - Top 5 gaps ranked by launch risk and urgency, with specific manifestations and business consequences
 
-Secondary Segment: [SEGMENT_NAME]
-(Same structure)
+4. **GTM READINESS ROADMAP** - Prioritized plan for building GTM capabilities, enablement, and launch infrastructure over next 90 days
 
-Buyer Personas:
-Economic Buyer: [PERSONA_NAME]
-- Title: [JOB_TITLE]
-- Goals: [WHAT_THEY_CARE_ABOUT]
-- Pain points: [PROBLEMS_THEY_FACE]
-- Decision criteria: [WHAT_INFLUENCES_PURCHASE]
-- Objections: [COMMON_CONCERNS]
+5. **QUICK WINS & LAUNCH PREP** - Immediate actions (0-2 weeks) to reduce launch risk and longer-term investments (4-12 weeks) for sustainable GTM capability
 
-Technical Buyer: [PERSONA_NAME]
-(Same structure)
+6. **SUCCESS METRICS** - Current baseline scores vs 30-day and 90-day target scores per dimension, with leading indicators of improved GTM readiness
 
-End User: [PERSONA_NAME]
-(Same structure)
-
-Buying Process:
-- Buying committee: [WHO_IS_INVOLVED]
-- Decision timeline: [TYPICAL_SALES_CYCLE]
-- Budget cycle: [WHEN_BUDGETS_SET]
-- Approval process: [DECISION_FLOW]
-- Evaluation criteria: [WHAT_THEY_ASSESS]
-
-### 3. COMPETITIVE POSITIONING
-
-Competitive Landscape:
-Direct Competitors:
-- [COMPETITOR_1]:
-  - Positioning: [HOW_THEY_POSITION]
-  - Strengths: [WHAT_THEY_DO_WELL]
-  - Weaknesses: [WHERE_THEY_FALL_SHORT]
-  - Market share: [PERCENTAGE]
-  - GTM approach: [THEIR_STRATEGY]
-
-- [COMPETITOR_2]:
-  (Same structure)
-
-Indirect Competitors:
-- [ALTERNATIVE_SOLUTION_1]: [DESCRIPTION]
-- [ALTERNATIVE_SOLUTION_2]: [DESCRIPTION]
-
-Competitive Advantages:
-- Primary differentiator: [UNIQUE_CAPABILITY]
-- Secondary differentiators: [ADDITIONAL_ADVANTAGES]
-- Proof points: [EVIDENCE/METRICS]
-- Defensibility: [SUSTAINABLE_MOAT]
-
-Competitive Strategy:
-- Head-to-head: [WHERE_WE_COMPETE_DIRECTLY]
-- Blue ocean: [WHERE_WE_CREATE_NEW_SPACE]
-- Response to competitors: [COMPETITIVE_PLAYBOOK]
-
-### 4. VALUE PROPOSITION & MESSAGING
-
-Positioning Statement:
-For [TARGET_CUSTOMER] who [CUSTOMER_NEED], [PRODUCT_NAME] is a [PRODUCT_CATEGORY] that [KEY_BENEFIT]. Unlike [ALTERNATIVES], our product [KEY_DIFFERENTIATOR].
-
-Example:
-"For mid-market sales teams who struggle with manual follow-up, SalesAI is an AI sales assistant that automatically handles follow-ups and scheduling, closing 30% more deals. Unlike generic automation tools, our AI understands sales context and personalizes every interaction."
-
-Value Proposition:
-Functional Value:
-- Core capability: [WHAT_IT_DOES]
-- Key benefits: [TANGIBLE_OUTCOMES]
-- Time savings: [EFFICIENCY_GAIN]
-- Cost savings: [ECONOMIC_BENEFIT]
-
-Emotional Value:
-- How it makes users feel: [EMOTIONAL_BENEFIT]
-- Status/identity: [SOCIAL_BENEFIT]
-- Risk reduction: [PEACE_OF_MIND]
-
-Economic Value:
-- ROI: [RETURN_ON_INVESTMENT]
-- Payback period: [TIME_TO_VALUE]
-- Total value: [QUANTIFIED_BENEFIT]
-
-Messaging Framework:
-Tagline: [MEMORABLE_PHRASE]
-
-Elevator Pitch (30 sec):
-[CONCISE_DESCRIPTION of what you do, who it's for, and why it matters]
-
-One-liner:
-[SIMPLE_DESCRIPTION in plain language]
-
-Key Messages:
-- Message 1: [CORE_MESSAGE]
-  - Supporting points: [PROOF_POINTS]
-
-- Message 2: [CORE_MESSAGE]
-  - Supporting points: [PROOF_POINTS]
-
-- Message 3: [CORE_MESSAGE]
-  - Supporting points: [PROOF_POINTS]
-
-Messaging by Audience:
-For [BUYER_PERSONA_1]: [TAILORED_MESSAGE]
-For [BUYER_PERSONA_2]: [TAILORED_MESSAGE]
-For [END_USER]: [TAILORED_MESSAGE]
-
-Objection Handling:
-- Objection: "[COMMON_OBJECTION]"
-  - Response: [HOW_TO_ADDRESS]
-
-- Objection: "[COMMON_OBJECTION]"
-  - Response: [HOW_TO_ADDRESS]
-
-### 5. PRICING & PACKAGING
-
-Pricing Strategy:
-- Pricing model: [SUBSCRIPTION/USAGE/TRANSACTION/FREEMIUM/ENTERPRISE]
-- Pricing approach: [VALUE_BASED/COMPETITIVE/COST_PLUS]
-- Price points: [SPECIFIC_PRICING]
-- Rationale: [WHY_THIS_PRICING]
-
-Packaging & Tiers:
-Tier 1: [TIER_NAME]
-- Price: [PRICE_POINT]
-- Target: [CUSTOMER_TYPE]
-- Features: [INCLUDED_FEATURES]
-- Limits: [USAGE_CAPS]
-
-Tier 2: [TIER_NAME]
-(Same structure)
-
-Tier 3: [TIER_NAME]
-(Same structure)
-
-Monetization Levers:
-- Primary: [MAIN_MONETIZATION]
-- Secondary: [ADDITIONAL_REVENUE]
-- Expansion: [UPSELL_CROSSSELL]
-
-Discounting Strategy:
-- Standard discount: [PERCENTAGE]
-- Volume discount: [STRUCTURE]
-- Annual prepay discount: [PERCENTAGE]
-- Promotional pricing: [LAUNCH_OFFERS]
-
-Competitive Pricing:
-- vs Competitor 1: [COMPARISON]
-- vs Competitor 2: [COMPARISON]
-- Value narrative: [WHY_WORTH_THE_PRICE]
-
-### 6. GTM MOTION & CHANNELS
-
-GTM Motion:
-Primary Motion: [SALES_LED/PRODUCT_LED/CHANNEL_LED/HYBRID]
-- Rationale: [WHY_THIS_MOTION]
-- Customer journey: [HOW_CUSTOMERS_BUY]
-- Sales cycle: [TIMELINE]
-- Average deal size: [ACV]
-
-Channel Strategy:
-Awareness Channels:
-- [CHANNEL_1]: [DESCRIPTION]
-  - Target reach: [IMPRESSIONS/VISITORS]
-  - Cost: [BUDGET/CAC]
-  - Owner: [TEAM_RESPONSIBLE]
-
-- [CHANNEL_2]: [DESCRIPTION]
-  (Same structure)
-
-Acquisition Channels:
-- [CHANNEL_1]: [DESCRIPTION]
-  - Conversion rate: [TARGET_%]
-  - Volume: [EXPECTED_LEADS/SIGNUPS]
-  - CAC: [COST_PER_ACQUISITION]
-
-- [CHANNEL_2]: [DESCRIPTION]
-  (Same structure)
-
-Channel Mix:
-- Organic: [%_OF_ACQUISITION]
-- Paid: [%_OF_ACQUISITION]
-- Partnerships: [%_OF_ACQUISITION]
-- Sales: [%_OF_ACQUISITION]
-
-Sales Strategy (if sales-led):
-Sales Model:
-- [INSIDE_SALES/FIELD_SALES/HYBRID]
-- Team structure: [SALES_ORG]
-- Territories: [GEOGRAPHIC/VERTICAL]
-- Quota: [QUOTA_PER_REP]
-
-Sales Process:
-- Lead qualification: [CRITERIA]
-- Discovery: [PROCESS]
-- Demo/Proof of concept: [APPROACH]
-- Proposal: [PROCESS]
-- Negotiation: [GUIDELINES]
-- Close: [REQUIREMENTS]
-
-Sales Enablement:
-- Sales deck: [REQUIREMENTS]
-- Battle cards: [COMPETITIVE_INTEL]
-- Demo environment: [SETUP]
-- ROI calculator: [TOOL]
-- Case studies: [EXAMPLES]
-- Training: [PROGRAM]
-
-Product-Led Growth Strategy (if PLG):
-Freemium/Trial:
-- Free tier: [CAPABILITIES]
-- Trial duration: [DAYS]
-- Conversion triggers: [WHAT_DRIVES_UPGRADE]
-
-Activation:
-- Aha moment: [KEY_VALUE_MILESTONE]
-- Time to value: [TARGET_TIMELINE]
-- Activation rate target: [%]
-
-Self-serve Conversion:
-- Upgrade prompts: [IN_PRODUCT_CTA]
-- Pricing page: [CONVERSION_OPTIMIZATION]
-- Purchase flow: [CHECKOUT_PROCESS]
-
-Viral/Referral:
-- Viral loops: [SHARING_MECHANISMS]
-- Referral program: [INCENTIVE_STRUCTURE]
-- Network effects: [HOW_VALUE_INCREASES]
-
-### 7. MARKETING STRATEGY
-
-Marketing Objectives:
-- Awareness: [REACH_TARGET]
-- Consideration: [ENGAGEMENT_TARGET]
-- Conversion: [ACQUISITION_TARGET]
-- Budget: [MARKETING_SPEND]
-
-Content Marketing:
-Content Strategy:
-- Thought leadership: [TOPICS]
-- Educational content: [RESOURCES]
-- Product content: [DOCUMENTATION]
-- Customer stories: [CASE_STUDIES]
-
-Content Plan:
-- Blog: [FREQUENCY], [TOPICS]
-- Whitepapers/eBooks: [ASSETS]
-- Webinars: [FREQUENCY], [TOPICS]
-- Videos: [CONTENT_TYPES]
-- Podcasts: [APPROACH]
-
-SEO Strategy:
-- Target keywords: [KEYWORDS]
-- Content priorities: [TOPICS]
-- Technical SEO: [OPTIMIZATIONS]
-- Link building: [STRATEGY]
-
-Demand Generation:
-Paid Channels:
-- Google Ads: [BUDGET], [KEYWORDS], [TARGET_CAC]
-- LinkedIn Ads: [BUDGET], [TARGETING], [TARGET_CAC]
-- Facebook/Instagram: [BUDGET], [TARGETING], [TARGET_CAC]
-- Display/Retargeting: [BUDGET], [STRATEGY]
-
-Email Marketing:
-- Nurture sequences: [CAMPAIGNS]
-- Newsletter: [FREQUENCY]
-- Segmentation: [SEGMENTS]
-- Personalization: [APPROACH]
-
-Events & Community:
-- Conferences: [EVENTS_TO_ATTEND/SPONSOR]
-- Webinars: [SERIES_PLAN]
-- User community: [COMMUNITY_STRATEGY]
-- Meetups: [LOCAL_EVENTS]
-
-PR & Communications:
-PR Strategy:
-- Launch announcement: [TIMING/OUTLETS]
-- Media targets: [PUBLICATIONS]
-- Analyst relations: [GARTNER/FORRESTER]
-- Spokesperson: [WHO]
-
-Press Kit:
-- Press release: [TEMPLATE]
-- Media assets: [IMAGES/VIDEOS]
-- Executive bios: [SPOKESPEOPLE]
-- Company backgrounder: [BOILERPLATE]
-
-Partnerships:
-Partnership Strategy:
-- Technology partners: [INTEGRATIONS]
-- Channel partners: [RESELLERS/AFFILIATES]
-- Referral partners: [REFERRAL_SOURCES]
-- Co-marketing: [JOINT_INITIATIVES]
-
-Partner Program:
-- Partner benefits: [VALUE_PROP]
-- Commission structure: [INCENTIVES]
-- Enablement: [TRAINING/RESOURCES]
-- Management: [PARTNER_SUCCESS]
-
-### 8. CUSTOMER SUCCESS & RETENTION
-
-Onboarding Strategy:
-- Onboarding goals: [SUCCESS_CRITERIA]
-- Timeline: [ONBOARDING_DURATION]
-- Touchpoints: [INTERACTIONS]
-- Success metrics: [ACTIVATION_RATE]
-
-Onboarding Program:
-- Day 0: [WELCOME_SEQUENCE]
-- Week 1: [KEY_ACTIVITIES]
-- Month 1: [MILESTONES]
-- Ongoing: [CONTINUED_ENGAGEMENT]
-
-Customer Success:
-CS Model:
-- High-touch: [FOR_WHICH_CUSTOMERS]
-- Low-touch: [FOR_WHICH_CUSTOMERS]
-- Tech-touch: [AUTOMATED_ENGAGEMENT]
-
-Success Metrics:
-- Customer health score: [COMPONENTS]
-- Usage metrics: [KEY_INDICATORS]
-- NPS: [TARGET]
-- Retention rate: [TARGET]
-
-Expansion Strategy:
-- Upsell: [UPGRADE_PATH]
-- Cross-sell: [ADDITIONAL_PRODUCTS]
-- Expansion triggers: [WHAT_INDICATES_READY]
-- Expansion playbook: [PROCESS]
-
-### 9. LAUNCH PLAN
-
-Pre-Launch (8-12 weeks before):
-Week -12 to -8:
-- [ ] Finalize positioning and messaging
-- [ ] Complete sales enablement materials
-- [ ] Build demo environment
-- [ ] Recruit beta customers
-- [ ] Create content calendar
-- [ ] Brief analysts and press
-
-Week -8 to -4:
-- [ ] Launch beta program
-- [ ] Develop launch content
-- [ ] Train sales team
-- [ ] Set up marketing campaigns
-- [ ] Create customer success playbooks
-- [ ] Prepare support documentation
-
-Week -4 to -1:
-- [ ] Gather beta feedback and testimonials
-- [ ] Final product QA
-- [ ] Launch campaign staging
-- [ ] Press embargo briefings
-- [ ] Internal team launch prep
-- [ ] Final launch checklist review
-
-Launch Week:
-Day 1 (Launch Day):
-- [ ] Product goes live
-- [ ] Press release distributed
-- [ ] Email to existing customers
-- [ ] Social media blitz
-- [ ] Blog post published
-- [ ] Sales team enabled
-- [ ] War room monitoring
-
-Week 1:
-- [ ] Daily performance monitoring
-- [ ] Customer feedback collection
-- [ ] Media monitoring and response
-- [ ] Sales pipeline review
-- [ ] Support ticket triage
-- [ ] Team retrospective
-
-Post-Launch (4-12 weeks after):
-Month 1:
-- [ ] Analyze launch metrics
-- [ ] Customer interviews
-- [ ] Sales feedback integration
-- [ ] Content performance review
-- [ ] Campaign optimization
-- [ ] Iterate messaging based on learnings
-
-Month 2-3:
-- [ ] Expand marketing efforts
-- [ ] Scale successful channels
-- [ ] Customer success optimization
-- [ ] Product iteration based on feedback
-- [ ] Case study development
-- [ ] Launch retrospective
-
-### 10. METRICS & GOALS
-
-Launch Goals:
-30 days:
-- [METRIC_1]: [TARGET]
-- [METRIC_2]: [TARGET]
-- [METRIC_3]: [TARGET]
-
-90 days:
-- [METRIC_1]: [TARGET]
-- [METRIC_2]: [TARGET]
-- [METRIC_3]: [TARGET]
-
-6 months:
-- [METRIC_1]: [TARGET]
-- [METRIC_2]: [TARGET]
-- [METRIC_3]: [TARGET]
-
-Acquisition Metrics:
-- Traffic: [MONTHLY_VISITORS]
-- Leads: [MONTHLY_LEADS]
-- MQLs: [MARKETING_QUALIFIED_LEADS]
-- SQLs: [SALES_QUALIFIED_LEADS]
-- Customers: [NEW_CUSTOMERS]
-- CAC: [COST_PER_ACQUISITION]
-
-Activation Metrics:
-- Signup → Activation: [%]
-- Time to first value: [DAYS]
-- Activation rate: [%]
-
-Engagement Metrics:
-- DAU/MAU: [RATIO]
-- Feature adoption: [%]
-- Usage frequency: [SESSIONS/WEEK]
-
-Revenue Metrics:
-- MRR/ARR: [REVENUE]
-- ACV: [AVERAGE_CONTRACT_VALUE]
-- LTV: [LIFETIME_VALUE]
-- LTV:CAC ratio: [RATIO]
-
-Retention Metrics:
-- Churn rate: [%]
-- Net revenue retention: [%]
-- Customer satisfaction: [NPS/CSAT]
-
-Channel Performance:
-- [CHANNEL_1]: [COST], [CONVERSIONS], [CAC], [ROI]
-- [CHANNEL_2]: [COST], [CONVERSIONS], [CAC], [ROI]
-- [CHANNEL_3]: [COST], [CONVERSIONS], [CAC], [ROI]
-
-Dashboard & Reporting:
-- Daily: [METRICS_TO_TRACK]
-- Weekly: [METRICS_TO_REVIEW]
-- Monthly: [METRICS_FOR_EXEC_REVIEW]
-- Quarterly: [METRICS_FOR_BOARD]
-
-### 11. TEAM & RESOURCES
-
-GTM Team Structure:
-Product:
-- PM owner: [NAME]
-- Product marketing: [NAME]
-- Product team: [SIZE]
-
-Marketing:
-- Marketing lead: [NAME]
-- Content: [HEADCOUNT]
-- Demand gen: [HEADCOUNT]
-- Growth: [HEADCOUNT]
-
-Sales:
-- Sales lead: [NAME]
-- Sales reps: [HEADCOUNT]
-- Sales engineers: [HEADCOUNT]
-- SDRs: [HEADCOUNT]
-
-Customer Success:
-- CS lead: [NAME]
-- CSMs: [HEADCOUNT]
-- Support: [HEADCOUNT]
-
-Budget Allocation:
-- Marketing: [BUDGET]
-- Sales: [BUDGET]
-- Product: [BUDGET]
-- Customer success: [BUDGET]
-- Total GTM investment: [TOTAL]
-
-External Resources:
-- Agencies: [PARTNERS]
-- Contractors: [ROLES]
-- Tools/Software: [PLATFORMS]
-
-### 12. RISKS & CONTINGENCIES
-
-GTM Risks:
-Risk: [RISK_DESCRIPTION]
-- Probability: [HIGH/MEDIUM/LOW]
-- Impact: [HIGH/MEDIUM/LOW]
-- Mitigation: [PREVENTION_STRATEGY]
-- Contingency: [PLAN_B]
-
-Risk: [RISK_DESCRIPTION]
-(Same structure)
-
-Launch Criteria:
-Go/No-Go Checklist:
-- [ ] Product meets quality bar
-- [ ] Sales team trained and enabled
-- [ ] Support team ready
-- [ ] Marketing campaigns ready to launch
-- [ ] Analytics instrumentation working
-- [ ] Beta feedback addressed
-- [ ] Exec team approval
-```
-
-## Variables
-
-### PRODUCT_NAME
-The product being launched.
-**Examples:**
-- "SalesAI Assistant"
-- "CloudSecure Enterprise"
-- "HealthTrack Patient Portal"
-
-### TARGET_MARKET
-Your target customer segment.
-**Examples:**
-- "SMB sales teams (10-50 reps)"
-- "Enterprise IT security teams at Fortune 1000"
-- "Healthcare providers with 500+ patient beds"
-
-### VALUE_PROPOSITION
-Core value you deliver.
-**Examples:**
-- "Close 30% more deals with AI-powered sales automation"
-- "Prevent security breaches with real-time threat detection"
-- "Improve patient outcomes while reducing administrative burden by 40%"
-
-### GTM_MOTION
-How you go to market.
-**Examples:**
-- "Product-led growth with freemium model"
-- "Enterprise sales-led with channel partners"
-- "Hybrid: Self-serve SMB + sales-assisted enterprise"
-
-### BUSINESS_GOALS
-What you're trying to achieve.
-**Examples:**
-- "$5M ARR, 1,000 customers, 20% market share in SMB segment"
-- "$50M ARR from enterprise, 50 Fortune 500 customers"
-- "100K active users, $10M revenue, category leadership"
-
-### TIMEFRAME
-Launch and ramp timeline.
-**Examples:**
-- "6-month launch plan with 12-month ramp to targets"
-- "3-month beta, public launch Q2, scale in H2"
-- "90-day sprint to market, 6 months to product-market fit"
-
-## Usage Examples
-
-### Example 1: B2B SaaS Product-Led Launch
-```
-Product: Team collaboration platform for remote teams
-Target: Series A-B startups (50-200 employees)
-GTM Motion: Product-led freemium → sales-assisted expansion
-Value Prop: Make distributed teams 2x more productive with async-first collaboration
-Channels: Content marketing + Product Hunt + community building
-Pricing: Free (up to 10 users) → $12/user/month Pro → Enterprise custom
-Launch Plan: Private beta (50 companies) → Public launch → Viral growth
-Goals: 10K users in 90 days, 15% conversion to paid, $50K MRR
-```
-
-### Example 2: Enterprise Sales-Led Launch
-```
-Product: AI-powered compliance platform for financial services
-Target: Mid-market to enterprise banks and insurance companies
-GTM Motion: Enterprise sales-led with thought leadership
-Value Prop: Reduce compliance costs 60% and risk 90% with AI automation
-Channels: Direct sales + industry events + analyst relations
-Pricing: $100K-$500K annually based on transaction volume
-Launch Plan: Pilot with 3 design partners → Industry announcement → Sales ramp
-Goals: $2M pipeline in 90 days, 5 customers in 6 months, $5M ARR year 1
-```
-
-### Example 3: Consumer Mobile App Launch
-```
-Product: AI-powered personal finance coach
-Target: Millennials and Gen Z (ages 22-35) seeking financial guidance
-GTM Motion: Product-led with viral growth loops
-Value Prop: Build wealth faster with personalized AI coaching (like having a CFP in your pocket)
-Channels: App store optimization + influencer marketing + social + referrals
-Pricing: Free basic → $9.99/month Premium → $99/month with human advisor
-Launch Plan: iOS beta (1K users) → App Store launch → Android → Scale
-Goals: 50K downloads in 30 days, 20% activation, 10% paid conversion
-```
-
-### Example 4: Marketplace Launch
-```
-Product: B2B freelance marketplace for specialized skills
-Target: Two-sided: (1) Mid-market companies needing specialized talent (2) Expert freelancers
-GTM Motion: Supply-side first, then demand generation
-Value Prop: Access top 5% specialist talent in 48 hours (companies) / Earn 2x more with quality clients (freelancers)
-Channels: Supply: direct outreach + communities. Demand: content + paid + sales
-Pricing: 20% platform fee on projects
-Launch Plan: Recruit 500 supply → Onboard 50 companies → Prove liquidity → Scale
-Goals: $500K GMV in 90 days, 100 active buyers, 1,000 providers
-```
-
-## Best Practices
-
-### GTM Strategy
-1. **Segment and prioritize** - Don't try to serve everyone at launch
-2. **Align motion with economics** - Sales-led for high ACV, PLG for low
-3. **Focus on early adopters** - Find customers with urgent pain who will champion you
-4. **Build evidence early** - Beta customers, case studies, proof points
-5. **Plan for iteration** - GTM evolves as you learn
-
-### Positioning & Messaging
-1. **Own a category** - Be #1 in something specific
-2. **Lead with value, not features** - Outcomes matter more than capabilities
-3. **Know your differentiator** - What you do differently that matters
-4. **Test messaging** - Validate with customers before launch
-5. **Consistency across channels** - Same story everywhere
-
-### Channel Strategy
-1. **Start focused** - Master 1-2 channels before expanding
-2. **Match channel to customer** - Where your ICP actually spends time
-3. **Test and measure** - Track CAC and payback by channel
-4. **Build owned channels** - Email list, community, content
-5. **Balance short and long-term** - Paid for speed, organic for sustainability
-
-### Launch Execution
-1. **Build momentum pre-launch** - Beta, waitlist, press embargoes
-2. **Coordinate cross-functionally** - Product, marketing, sales, CS aligned
-3. **Have a war room** - Real-time monitoring and response
-4. **Capture feedback immediately** - First customers are most valuable
-5. **Iterate fast** - Don't wait to fix obvious problems
-
-### Metrics & Optimization
-1. **Define success upfront** - Know what good looks like
-2. **Instrument everything** - Can't optimize what you don't measure
-3. **Review frequently** - Weekly reviews in first 90 days
-4. **Focus on leading indicators** - Metrics you can influence
-5. **Be willing to pivot** - If it's not working, change course
-
-## Common Pitfalls
-
-❌ **Build it and they will come** - Launching without clear GTM plan
-✅ Instead: Invest in GTM planning as much as product development
-
-❌ **Broad targeting** - Trying to appeal to everyone at launch
-✅ Instead: Narrow ICP, nail it, then expand
-
-❌ **Wrong GTM motion** - Enterprise sales motion for $50/month product
-✅ Instead: Align GTM motion with unit economics and customer behavior
-
-❌ **Weak differentiation** - "We're better" without proof or specifics
-✅ Instead: Clear, provable differentiation that matters to customers
-
-❌ **Neglecting enablement** - Launching without training sales/CS teams
-✅ Instead: Enablement and tools ready before launch
-
-❌ **One-size-fits-all messaging** - Same message for all audiences
-✅ Instead: Tailored messaging for each buyer persona and use case
-
-❌ **Spray and pray channels** - Trying every channel with small budget
-✅ Instead: Focus budget on 2-3 channels that match your ICP
-
-❌ **Ignoring early feedback** - Sticking to plan despite market signals
-✅ Instead: Listen to customers and iterate quickly
-
-## GTM Checklist
-
-8-12 weeks before launch:
-- [ ] ICP and buyer personas validated
-- [ ] Positioning and messaging finalized
-- [ ] Pricing and packaging set
-- [ ] GTM motion and channels selected
-- [ ] Beta customers recruited
-- [ ] Sales enablement in development
-- [ ] Content calendar created
-- [ ] Budget allocated
-
-4-8 weeks before launch:
-- [ ] Sales team hired and ramping
-- [ ] Marketing campaigns built
-- [ ] Website and collateral ready
-- [ ] Demo environment set up
-- [ ] Customer success playbooks created
-- [ ] Support documentation complete
-- [ ] Analytics instrumented
-- [ ] Partner agreements signed
-
-2-4 weeks before launch:
-- [ ] Beta program running
-- [ ] Sales team trained
-- [ ] Press briefings complete
-- [ ] Marketing campaigns staged
-- [ ] War room scheduled
-- [ ] Launch checklist finalized
-- [ ] Go/no-go criteria defined
-
-Launch week:
-- [ ] Product live
-- [ ] Marketing campaigns running
-- [ ] Sales team selling
-- [ ] War room monitoring
-- [ ] Feedback collection process active
-- [ ] Daily team syncs happening
-
-Post-launch:
-- [ ] Metrics tracking and reporting
-- [ ] Weekly performance reviews
-- [ ] Customer feedback integration
-- [ ] Channel optimization
-- [ ] Messaging iteration
-- [ ] Case study development
+Use this maturity scale:
+- 1.0-1.9: Ad-hoc (no systematic GTM, reactive launches, frequent failures)
+- 2.0-2.9: Developing (basic GTM elements, inconsistent execution, gaps cause issues)
+- 3.0-3.9: Established (solid GTM practice, coordinated launches, predictable results)
+- 4.0-4.9: Optimizing (excellent GTM, data-driven optimization, repeatable success)
+- 5.0: Exemplary (industry-leading GTM, flawless execution, category creation capability)
 
 ---
 
-**Last Updated:** 2025-11-12
-**Category:** Product Management > Product Development
-**Difficulty:** Advanced
-**Estimated Time:** 4-8 weeks for comprehensive GTM planning
+## Variables
+
+| Variable | Description | Examples |
+|----------|-------------|----------|
+| `{PRODUCT_NAME}` | Product being launched | "AI sales assistant", "Enterprise security platform", "Consumer fintech app" |
+| `{TARGET_MARKET}` | Primary customer segment | "SMB sales teams (10-50 reps)", "Fortune 1000 IT security leaders", "Millennials managing finances" |
+| `{GTM_MOTION}` | Go-to-market approach | "Product-led freemium", "Enterprise sales-led", "Hybrid self-serve + sales-assist" |
+
+---
+
+## Usage Example
+
+### B2B SaaS Collaboration Platform - GTM Readiness Assessment
+
+**Context:** DataFlow is a B2B SaaS data collaboration platform targeting mid-market companies (500-2,000 employees) with distributed data teams. The product enables secure data sharing and collaborative analytics across departments. After 18 months of development with design partner customers, the company plans to launch publicly in Q1 2026 transitioning from closed beta to general availability. The team consists of 3 product managers, 25 engineers, 2 marketers, 5 salespeople, and 3 customer success managers. This assessment was commissioned after the executive team realized launch planning had been neglected while focusing on product development.
+
+**Assessment Conducted:** December 2025 (8 weeks before planned launch)  
+**Evaluated By:** CEO, VP Product, VP Sales, VP Marketing  
+**Assessment Duration:** 1 week (team interviews, document review, customer feedback analysis)
+
+#### EXECUTIVE SUMMARY
+
+**Overall Maturity Score: 2.2/5.0** (Developing stage, significant gaps)
+
+DataFlow has focused intensely on product development while neglecting go-to-market preparation, creating serious launch risk. The organization lacks fundamental GTM foundations—ICP is vaguely defined as "data teams" without specificity about company profiles or buyer personas, positioning and messaging have not been crafted beyond generic statements about "secure data collaboration," customer acquisition channels are untested with no validation that target customers can be reached at acceptable CAC, sales enablement materials don't exist forcing reps to create their own decks, and no coordinated launch plan exists across product, marketing, and sales teams. The team plans to "launch and iterate" without clear success metrics or contingency plans. Launching in current state risks embarrassing failure—inability to generate pipeline, confused market reception, sales team frustration, and wasted product investment.
+
+**Top 3 Critical Gaps:**
+1. **Undefined ICP and unvalidated messaging** - Team cannot articulate who specifically they're selling to beyond "companies with data teams." No buyer persona work, no understanding of decision makers or buying process, no validated value proposition. Sales team doesn't know who to call or what to say. Marketing can't target effectively without ICP clarity.
+2. **No customer acquisition strategy or channel validation** - Zero testing of how to reach and acquire customers. Assumptions about "content marketing and outbound sales" without proof these channels work. No budget allocated, no campaigns built, no demand generation engine. Will launch with no pipeline generation capability.
+3. **Missing sales enablement and go-to-market coordination** - Sales team has no pitch deck, no demo script, no pricing guidance, no objection handling, no competitive intelligence. No launch plan coordinating product, marketing, sales, and CS. Each team operating independently without shared timeline or objectives.
+
+**Recommended Investment:** $180-220K over 8-12 weeks including fractional GTM consultant to build foundations ($60K for 8 weeks), messaging and positioning workshop with external facilitator ($25K), marketing budget for channel testing ($40K), sales enablement development ($15K for materials creation), customer research and ICP validation ($20K for 30 customer interviews), and launch coordination tools and agency support ($20-40K)
+
+**Critical Decision:** Launch date must slip 8-12 weeks to build minimum GTM foundation. Launching as planned in 8 weeks risks catastrophic failure. Alternative: soft launch to existing beta customers only while building GTM capability, then public launch when ready.
+
+**Target Outcome:** Achieve 3.4/5.0 maturity in 12 weeks enabling clear ICP and messaging, validated acquisition channel with predictable CAC, equipped sales team with enablement materials, coordinated launch plan with defined metrics, realistic path to $2M ARR in first year
+
+#### DIMENSION SCORECARD
+
+| Dimension | Score | Current State | Primary Gap/Strength |
+|-----------|-------|---------------|---------------------|
+| **Market Understanding** | 2.0/5.0 | Developing | Vague ICP ("data teams"); no buyer personas; no competitive intelligence; market sizing guesses |
+| **Positioning & Messaging** | 1.8/5.0 | Ad-hoc | Generic claims ("secure collaboration"); no differentiation; messaging not validated; no objection handling |
+| **Channel Strategy** | 1.9/5.0 | Ad-hoc | Untested assumptions about channels; no CAC data; no channel validation; no demand gen engine |
+| **Sales & Marketing Execution** | 2.3/5.0 | Developing | STRENGTH: Experienced sales reps hired; GAP: No enablement, no campaigns, no materials |
+| **Customer Success** | 2.9/5.0 | Developing | STRENGTH: Good onboarding from beta; GAP: No scaled CS model, no health scoring, no expansion plays |
+| **Launch Operations** | 1.7/5.0 | Ad-hoc | No launch plan; no cross-functional coordination; no metrics defined; no go/no-go criteria |
+
+**Overall Assessment:** DataFlow exhibits classic product-first company pattern—strong product, weak GTM. The organization assumed "build it and they will come" and is now 8 weeks from launch without GTM foundations. Current state guarantees launch failure unless immediate corrective action taken. The good news: product quality is strong based on beta feedback, creating solid foundation if GTM can be fixed. The bad news: fixing GTM properly requires 8-12 weeks, meaning launch delay is necessary despite external pressure to hit dates.
+
+#### CRITICAL READINESS GAPS
+
+**Gap 1: No Defined ICP or Buyer Personas (Impact: Critical | Urgency: Immediate)**
+
+**Manifestation:** When asked "who is your ideal customer?" team provides vague answers: "companies with data teams," "mid-market," "data-driven organizations." No specifics about company characteristics (industry, size, tech stack, data maturity), decision makers (titles, roles, responsibilities), buying process (who approves, budget cycles, evaluation criteria), or use cases (specific problems solved, workflows enabled). Sales team doesn't know who to target—VP of Data? CTO? Director of Analytics? Marketing can't build targeted campaigns. Product messaging is generic because team doesn't know specific customer pain points.
+
+**Business Consequences:**
+- Sales team will waste months chasing wrong prospects, burning quota time on companies that don't have the problem or can't buy
+- Marketing spend will be inefficient targeting broad audiences instead of precise ICP characteristics yielding high CAC and low conversion
+- Messaging will be generic and undifferentiated failing to resonate with specific buyer motivations and evaluation criteria
+- Competitive losses when unable to articulate why DataFlow versus alternatives for specific buyer situations
+- Extended sales cycles when targeting buyers without urgency or authority
+
+**Root Cause:** Team focused entirely on product development with design partners who were hand-selected friendlies. Never conducted systematic customer discovery or market segmentation. Assumed product would be "obvious" to "data people." No one owns GTM strategy or customer definition.
+
+**Recommended Action:** Immediate 3-week ICP and persona sprint: (1) Interview 30 target customers (mix of prospects, design partners, and churned/rejected) using customer discovery methodology to understand roles, problems, buying process, decision criteria; (2) Analyze customer data from beta to identify patterns in company characteristics, use cases, and engagement; (3) Develop 2-3 detailed buyer personas with goals, pain points, objections, decision criteria; (4) Define narrow ICP for initial launch (e.g., "Series B-C startups with 200-800 employees in SaaS/fintech building data products, with Chief Data Officer or VP Analytics as buyer") enabling focused targeting. Expected outcome: Clear ICP sales can target, personas marketing can message to, focused launch strategy.
+
+**Gap 2: Unvalidated Customer Acquisition Channels (Impact: Critical | Urgency: Immediate)**
+
+**Manifestation:** Team's acquisition "strategy" is assumptions: "We'll do content marketing and outbound sales." Zero testing of whether target customers can be reached through these channels, what messaging resonates, or what CAC will be. No content has been created, no outbound sequences tested, no ads run, no partnerships explored. Marketing budget exists ($120K for launch quarter) but no allocation across channels. No understanding of conversion funnels, lead volume required, or timeline from awareness to closed deal.
+
+**Business Consequences:**
+- Will launch with zero pipeline generation capability; no leads coming in Day 1 despite product being live
+- Marketing will scramble to build campaigns post-launch wasting critical launch momentum window
+- Sales team will have no leads to work, will resort to random cold calling destroying morale
+- Burn rate continues with no revenue pipeline; investors will lose confidence
+- Competitors executing GTM effectively will capture market while DataFlow figures out acquisition
+
+**Root Cause:** Product-first mentality assumed customers would find product organically or through word-of-mouth from beta users. No GTM leader driving acquisition strategy. Marketing team small and overwhelmed. No testing budget or permission to experiment before "official launch."
+
+**Recommended Action:** Immediate channel validation sprint over 4 weeks in parallel with ICP work: (1) Allocate $30K testing budget; (2) Run small paid campaign tests on LinkedIn targeting data leader titles to validate messaging and measure cost-per-lead ($10K); (3) Run outbound sequences to 500 prospects to test email messaging and meeting conversion ($5K for tools/data); (4) Publish 5 pieces of thought leadership content and run traffic campaigns to test engagement ($10K); (5) Test 3 partnership channels (integration partners, data tool communities, influencers) ($5K); (6) Measure and analyze CAC, conversion rates, sales cycle by channel; (7) Double down on 1-2 channels that show promise for launch. Expected outcome: Validated acquisition channel with proven $X CAC, conversion rates, and projected pipeline generation to hit revenue targets.
+
+**Gap 3: No Sales Enablement or Materials (Impact: High | Urgency: Immediate)**
+
+**Manifestation:** Sales team of 5 reps has zero enablement materials. No standard pitch deck (each rep created their own resulting in inconsistent messaging). No demo script or environment (demos are ad-hoc and inconsistent). No pricing guidance (reps quote different prices). No competitive battle cards (reps don't know how to position against competitors). No objection handling (reps individually figuring out responses). No case studies or proof points beyond design partner logos. No ROI calculator. No sales process or methodology. Rep onboarding is "shadow other reps" leading to bad habits proliferating.
+
+**Business Consequences:**
+- Inconsistent customer experience as each rep tells different story creating market confusion and undermining brand
+- Lost deals when reps can't effectively handle objections, differentiate from competitors, or articulate clear ROI
+- Extended sales cycles when reps lack structured process and materials to advance deals through stages
+- Rep frustration and potential turnover when left unsupported and set up to fail
+- Pricing leakage when reps lack guidance and discount heavily to close deals
+
+**Root Cause:** No sales enablement function or ownership. VP Sales focused on hiring team, assumed materials would "come together" before launch. Product team assumed sales team would "figure it out." No collaboration between product and sales on messaging and positioning.
+
+**Recommended Action:** Emergency 3-week sales enablement build: (1) Week 1: Messaging workshop with product, sales, marketing to align on positioning, value prop, key messages, differentiation resulting in master messaging document; (2) Week 2: Build core enablement assets—pitch deck (20 slides: problem, solution, demo, differentiation, pricing, next steps), demo script and demo environment, pricing and packaging guide with discounting authority, objection handling doc with top 10 objections and responses, competitive battle cards for 3 main competitors; (3) Week 3: Sales training on new materials with role-play, deal coaching on live opportunities, feedback and iteration. Hire contract enablement designer for materials ($10K). Expected outcome: Sales team armed with consistent, effective materials; improved win rates and sales cycle velocity.
+
+**Gap 4: Generic Undifferentiated Messaging (Impact: High | Urgency: High)**
+
+**Manifestation:** Current messaging is vague and feature-focused: "DataFlow enables secure data collaboration across teams." Website copy is generic. No clear differentiation from competitors beyond "we're better." Value proposition not quantified—claims about "improving efficiency" without specific metrics. No proof points or customer validation beyond design partner logos. Messaging hasn't been tested with target customers to validate resonance. No tailoring by persona—same message for technical buyers and business buyers.
+
+**Business Consequences:**
+- Market will be confused about what DataFlow does and why it matters; won't cut through noise
+- Competitors with sharper positioning will win deals by articulating clear differentiation
+- Sales cycles will extend as buyers struggle to understand value proposition requiring excessive education
+- Low conversion rates on marketing campaigns when messaging doesn't resonate with specific pain points
+- Difficulty generating PR or analyst attention without clear positioning hook
+
+**Root Cause:** No dedicated product marketing function. Messaging created by product team in isolation without customer validation or competitive analysis. Assumed features would "speak for themselves." No frameworks or process for messaging development.
+
+**Recommended Action:** 2-week positioning and messaging sprint with external facilitator: (1) Competitive positioning workshop analyzing 5 competitors' positioning, identifying white space and differentiation opportunities; (2) Customer value discovery interviewing 10 customers about specific problems solved, outcomes achieved, why they chose DataFlow over alternatives, resulting in quantified value stories; (3) Messaging framework development creating positioning statement, value proposition with quantified benefits, key messages by persona, proof points and validation; (4) Message testing with 5-10 target prospects via interviews to validate resonance and refine; (5) Messaging deployment updating website, pitch materials, campaign copy. External messaging consultant ($25K). Expected outcome: Sharp differentiated positioning validated with customers, enabling more effective sales and marketing.
+
+**Gap 5: No Launch Coordination or Success Metrics (Impact: Medium | Urgency: High)**
+
+**Manifestation:** No formal launch plan exists. Product team has release date in mind. Marketing team has vague ideas about "launch activities." Sales team doesn't know what's happening when. No coordination meetings or shared timeline. No defined success metrics—when asked "what does successful launch look like?" team gives conflicting answers (product: "no major bugs," sales: "10 customers," marketing: "website traffic," CEO: "$1M ARR"). No launch readiness criteria or go/no-go decision process. No contingency planning for what happens if launch doesn't go well.
+
+**Business Consequences:**
+- Uncoordinated launch where product goes live but marketing campaigns aren't ready and sales team isn't trained creating fumbled launch
+- Inability to evaluate launch success objectively leading to debates about whether launch "worked" or resource allocation decisions
+- Missed opportunities when different teams aren't aligned on priorities and messaging
+- Difficulty pivoting or iterating when can't identify what's working versus what's not
+
+**Root Cause:** No launch leader or program manager. Each function operating independently. No cross-functional planning process. Metrics and goals not clearly defined at company level cascading to teams.
+
+**Recommended Action:** Immediate launch coordination actions: (1) Assign launch DRI (Directly Responsible Individual)—likely VP Product or VP Marketing; (2) Create launch timeline with milestones for each team (product, marketing, sales, CS) identifying dependencies; (3) Weekly launch coordination meeting with all stakeholders reviewing progress and blockers; (4) Define launch success metrics with specific 30-day and 90-day targets: pipeline generated (X leads, Y opportunities), customers acquired (Z new customers), revenue ($ MRR), product usage (activation rate, engagement), market awareness (website traffic, PR coverage); (5) Launch readiness checklist covering product quality, sales enablement, marketing readiness, support preparedness, analytics; (6) Go/no-go decision checkpoint 2 weeks before launch with executive review. Expected outcome: Coordinated launch with all teams aligned on timeline and objectives, clear metrics for evaluation.
+
+#### GTM READINESS ROADMAP
+
+**Weeks 1-3: Foundation Building (Immediate Launch Risk Reduction)**
+
+*Critical Decision Point:* Delay launch 8-12 weeks to build GTM foundation OR soft launch to existing beta customers only while building capability for public launch later
+
+*Focus:* Build minimum viable GTM foundation addressing highest-risk gaps
+
+**ICP & Persona Development:**
+- Conduct 30 customer discovery interviews (prospects, beta customers, churned) using jobs-to-be-done methodology (Weeks 1-2)
+- Analyze beta customer data for patterns in company characteristics, use cases, engagement, outcomes (Week 2)
+- Develop 2-3 detailed buyer personas with goals, pain points, buying process, decision criteria, objections (Week 3)
+- Define narrow ICP for initial launch with specific firmographic and behavioral characteristics (Week 3)
+- Validate ICP and personas with sales team and design partner customers (Week 3)
+
+**Channel Validation Sprint:**
+- Allocate $30K testing budget across 4 channels (Weeks 1-3)
+- LinkedIn paid: $10K testing messaging and targeting to data leaders measuring CPL, meeting rate
+- Outbound email: 500 prospect sequences testing messaging and meeting conversion ($5K tools/data)
+- Content + paid traffic: 5 thought leadership pieces with traffic campaigns measuring engagement ($10K)
+- Partnership tests: 3 integration partners, data communities, influencers measuring referrals ($5K)
+- Weekly reviews analyzing CAC, conversion, sales cycle by channel (Weeks 2-3)
+- Channel strategy recommendation identifying 1-2 primary channels for launch (Week 3)
+
+**Positioning & Messaging:**
+- External positioning workshop with competitive analysis and white space identification (Week 2)
+- Customer value interviews with 10 beta customers capturing outcomes and differentiation (Week 2)
+- Messaging framework development: positioning statement, value prop, key messages, proof points (Week 3)
+- Message testing with 5-10 prospects via interviews to validate resonance (Week 3)
+
+**Expected Outcomes:** Clear ICP, validated personas, proven acquisition channel with known CAC, sharp positioning and messaging
+
+**Weeks 4-6: Enablement & Campaign Building**
+
+*Focus:* Arm sales and marketing teams with materials and processes for execution
+
+**Sales Enablement Build:**
+- Master messaging document aligning product, sales, marketing on positioning and value (Week 4)
+- Core enablement materials: pitch deck, demo script and environment, pricing guide, objection handling, competitive battle cards (Week 4-5)
+- Sales process and methodology documentation with stage definitions, exit criteria, activities (Week 5)
+- Sales training workshop on materials with role-play and live deal coaching (Week 6)
+- First 5 case studies/proof points from design partner outcomes (Week 6)
+- Contract sales enablement designer/agency for materials production ($10K)
+
+**Marketing Campaign Development:**
+- Content calendar with thought leadership, product content, customer stories mapped to buyer journey (Week 4)
+- Campaign development for priority channels identified in testing: ad creative, landing pages, email sequences (Week 4-5)
+- Website refresh with new positioning, messaging, customer proof points (Week 5)
+- Marketing automation setup with lead scoring, nurture sequences, reporting (Week 5)
+- PR strategy and analyst relations outreach with positioning and launch angle (Week 6)
+- Marketing budget allocation across channels based on testing results (Week 6)
+
+**Customer Success Preparation:**
+- Onboarding process documentation with timeline, touchpoints, success criteria (Week 5)
+- Customer health scoring model covering usage, engagement, outcomes (Week 5)
+- Expansion playbook for upsells and cross-sells with triggers (Week 6)
+- Support documentation and training for CS and support teams (Week 6)
+
+**Expected Outcomes:** Sales team armed with comprehensive enablement, marketing campaigns ready to launch, CS prepared to onboard new customers at scale
+
+**Weeks 7-9: Launch Preparation & Coordination**
+
+*Focus:* Coordinate cross-functional launch execution and establish launch operations
+
+**Launch Plan Finalization:**
+- Detailed launch timeline with activities by team (product, marketing, sales, CS) and dependencies (Week 7)
+- Launch coordination meetings 3x per week with all stakeholders (Weeks 7-9)
+- Pre-launch checklist covering product quality, sales readiness, marketing preparedness, analytics instrumentation (Week 7)
+- Go/no-go decision framework with launch readiness criteria (Week 8)
+- Launch week war room plan with daily standups and issue triage (Week 8)
+
+**Metrics & Infrastructure:**
+- Launch success metrics defined: 30-day targets (pipeline, customers, MRR) and 90-day targets (Week 7)
+- Analytics instrumentation for tracking acquisition, activation, engagement, conversion (Week 7)
+- Launch dashboard showing real-time metrics for war room monitoring (Week 8)
+- Reporting templates for weekly launch reviews and stakeholder updates (Week 8)
+
+**Risk Management:**
+- Risk assessment covering product, market reception, channel effectiveness, competitive response (Week 8)
+- Mitigation strategies for top 5 risks with owners and timelines (Week 8)
+- Contingency plans: What if low pipeline generation? What if high churn? What if competitive response? (Week 9)
+- Launch escalation process for critical issues requiring executive decision (Week 9)
+
+**Final Preparation:**
+- Sales team launch training and pipeline review (Week 9)
+- Marketing campaign final checks and staging (Week 9)
+- Customer success team rehearsal for onboarding surge (Week 9)
+- Internal launch communication and alignment (Week 9)
+- Design partner customer communication preparing them for public launch (Week 9)
+
+**Expected Outcomes:** Coordinated launch plan with all teams aligned, metrics and monitoring infrastructure ready, contingency planning complete
+
+**Weeks 10-12: Launch Execution & Optimization**
+
+*Focus:* Execute launch, monitor performance, optimize based on early signals
+
+**Launch Week Activities:**
+- Product general availability release (Week 10)
+- Marketing campaigns launched across channels: paid, content, PR, email (Week 10)
+- Sales team actively engaging pipeline with new enablement materials (Week 10)
+- Daily war room standups reviewing metrics, issues, customer feedback (Week 10)
+- Real-time issue triage and resolution for critical blockers (Week 10)
+
+**Early Optimization:**
+- Week 1 metrics review identifying what's working and what's not (Week 10)
+- Quick iteration on messaging, targeting, creative based on early conversion data (Week 11)
+- Sales deal coaching on live opportunities to improve win rate (Week 11)
+- Customer feedback collection from first cohort of new customers (Week 11)
+- Channel performance analysis and budget reallocation to best performers (Week 11)
+
+**Learning & Iteration:**
+- Weekly launch reviews with cross-functional team (Weeks 10-12)
+- Documentation of learnings: what worked, what didn't, why (Week 12)
+- Launch retrospective with all stakeholders (Week 12)
+- GTM playbook documentation capturing successful approaches (Week 12)
+- Planning for next phase: scaling channels, expanding segments, adding products (Week 12)
+
+#### QUICK WINS & LAUNCH PREP
+
+**Immediate Actions (Weeks 1-2):**
+
+*Quick Win 1: ICP Definition Workshop*
+- **Action:** 4-hour facilitated workshop with exec team, product, sales, marketing to define ICP
+- **Investment:** 4 hours (internal team time) + $2K (external facilitator if needed)
+- **Expected Outcome:** Initial ICP definition enabling sales targeting and marketing focus even before full validation
+- **Business Impact:** Sales team can start targeting right prospects immediately; marketing can focus spend
+
+*Quick Win 2: Minimum Viable Pitch Deck*
+- **Action:** Product and sales leadership collaborate on 10-slide pitch deck covering problem, solution, demo, pricing, next steps
+- **Investment:** 8 hours (leadership time) + 4 hours (designer time)
+- **Expected Outcome:** Sales team has consistent messaging tool for near-term opportunities
+- **Business Impact:** Immediate improvement in sales effectiveness and customer experience consistency
+
+*Quick Win 3: Channel Testing Budget Release*
+- **Action:** Authorize $20K immediate spend on LinkedIn ads and outbound testing to validate acquisition
+- **Investment:** $20K marketing spend + 12 hours (marketing time to set up)
+- **Expected Outcome:** First data on CAC and conversion rates within 2 weeks
+- **Business Impact:** Validate or invalidate assumptions about channels before full launch investment
+
+**Capability Building (Weeks 3-12):**
+
+*Foundation 1: ICP & Persona Development ($25K)*
+- Customer discovery research with 30 interviews
+- Data analysis and segmentation
+- Persona development and validation
+- Builds precision targeting replacing vague "data teams" description
+
+*Foundation 2: Positioning & Messaging ($30K)*
+- External messaging consultant and workshop
+- Competitive analysis and differentiation
+- Customer value quantification
+- Message testing and validation
+- Creates sharp differentiated positioning
+
+*Foundation 3: Channel Validation & Strategy ($40K)*
+- Multi-channel testing campaign
+- CAC and conversion measurement by channel
+- Channel strategy and mix recommendation
+- Proves acquisition model before scaling investment
+
+*Foundation 4: Sales Enablement Program ($20K)*
+- Comprehensive sales materials development
+- Training and coaching program
+- Sales process and methodology
+- Equips sales team for effective execution
+
+*Foundation 5: Launch Coordination Infrastructure (Minimal Cost)*
+- Launch DRI assignment and governance
+- Cross-functional planning and timeline
+- Metrics definition and tracking
+- Enables coordinated execution vs independent teams
+
+#### SUCCESS METRICS
+
+**Dimension Score Targets:**
+
+| Dimension | Baseline (Current) | 30-Day Target | 90-Day Target | Leading Indicators |
+|-----------|-------------------|---------------|---------------|-------------------|
+| **Market Understanding** | 2.0/5.0 | 3.2/5.0 | 3.7/5.0 | ICP defined, personas validated, 30 customer interviews complete, buying process mapped |
+| **Positioning & Messaging** | 1.8/5.0 | 3.0/5.0 | 3.6/5.0 | Positioning statement finalized, messaging validated with customers, proof points developed |
+| **Channel Strategy** | 1.9/5.0 | 2.9/5.0 | 3.5/5.0 | 2 channels tested and validated, CAC measured, pipeline generation proven |
+| **Sales & Marketing Execution** | 2.3/5.0 | 3.3/5.0 | 3.8/5.0 | Enablement materials complete, campaigns launched, sales trained, pipeline building |
+| **Customer Success** | 2.9/5.0 | 3.4/5.0 | 3.8/5.0 | Onboarding scaled, health scoring implemented, activation rate >70% |
+| **Launch Operations** | 1.7/5.0 | 3.1/5.0 | 3.6/5.0 | Launch plan executed, metrics tracked, coordination strong, retrospective complete |
+
+**Overall Maturity:** 2.2/5.0 (Baseline) → 3.1/5.0 (30-Day) → 3.6/5.0 (90-Day)
+
+**Launch Success Metrics:**
+
+*30-Day Targets (Month 1 Post-Launch):*
+- Pipeline generated: $1.2M in qualified opportunities
+- New customers: 15 new paying customers beyond beta
+- MRR: $60K monthly recurring revenue
+- Website traffic: 15K visitors with 3% conversion to trial/demo
+- Sales efficiency: $15K CAC, 3-month payback
+
+*90-Day Targets (Month 3 Post-Launch):*
+- Pipeline generated: $4M cumulative opportunities
+- New customers: 45 total new customers (30 added in months 2-3)
+- MRR: $180K monthly recurring revenue
+- Activation rate: 70% of trials activate to core value
+- Retention: 90% MRR retention (minimal early churn)
+
+*GTM Efficiency Metrics:*
+- Customer Acquisition Cost: <$20K target (by 90-day)
+- Sales cycle: <60 days from qualified opp to close
+- Win rate: >25% of qualified opportunities
+- Channel CAC: LinkedIn $18K, Outbound $15K, Partnerships $10K (by 90-day)
+- Pipeline coverage: 3-4x pipeline to quota across sales team
+
+**Validation Checkpoints:**
+- **Week 3:** ICP defined, personas validated, positioning finalized with customer validation
+- **Week 6:** Sales enablement complete, marketing campaigns ready, channel testing shows promising CAC <$25K
+- **Week 9:** Launch plan coordinated, all teams aligned, go/no-go review passed, launch readiness achieved
+- **Week 12 (30-day post-launch):** Pipeline generation meeting targets, first customer cohort activating, early metrics show product-market fit signals
+
+---
+
+## Related Resources
+
+- [Product Launch Execution](product-management/Product-Development/product-launch-execution.md) - Detailed launch playbook and execution
+- [Product Strategy & Vision](product-management/Product-Strategy/product-strategy-vision.md) - Connecting GTM to strategy
+- [Pricing Strategy](product-management/Product-Strategy/pricing-strategy.md) - Pricing and packaging decisions
+- [Market & Competitive Analysis](product-management/Product-Strategy/market-competitive-analysis.md) - Market understanding and positioning
+
+---
+
+**Last Updated:** 2025-12-15  
+**Category:** Product Management > Product Development  
+**Estimated Time:** 1 week for comprehensive assessment; 8-12 weeks for GTM capability building to established maturity

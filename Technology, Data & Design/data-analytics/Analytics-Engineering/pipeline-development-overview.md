@@ -1,11 +1,12 @@
 ---
-title: Pipeline Development Overview & Navigation
 category: data-analytics
+description: Navigate the complete data pipeline development lifecycle from ingestion through infrastructure, selecting appropriate patterns and modules for end-to-end pipeline architecture
+title: Pipeline Development Overview & Navigation
 tags:
-- data-analytics
 - data-pipelines
-- etl
+- etl-elt
 - data-engineering
+- analytics-engineering
 use_cases:
 - Understanding the complete data pipeline development lifecycle
 - Navigating to focused sub-prompts for specific pipeline components
@@ -17,13 +18,13 @@ related_templates:
 - data-analytics/Analytics-Engineering/pipeline-orchestration.md
 - data-analytics/Analytics-Engineering/pipeline-observability.md
 - data-analytics/Analytics-Engineering/pipeline-infrastructure.md
-- data-analytics/data-governance-framework.md
-last_updated: 2025-11-22
 industries:
+- finance
 - healthcare
-- manufacturing
+- retail
 - technology
-type: template
+- manufacturing
+type: framework
 difficulty: intermediate
 slug: pipeline-development-overview
 ---
@@ -31,695 +32,96 @@ slug: pipeline-development-overview
 # Pipeline Development Overview & Navigation
 
 ## Purpose
-This overview provides comprehensive guidance for data pipeline development, helping you navigate the complete pipeline development lifecycle from data ingestion through infrastructure deployment. Use this as a starting point to understand the pipeline architecture and navigate to specialized sub-prompts for detailed implementation guidance.
+Navigate the complete data pipeline development lifecycle from data ingestion through infrastructure deployment. This overview helps you understand pipeline architecture patterns and select the appropriate specialized module for detailed implementation guidance across ingestion, transformation, orchestration, observability, and infrastructure.
 
-## Quick Navigation Prompt
-I need to build a [PIPELINE_TYPE] data pipeline for [USE_CASE]. The data sources are [SOURCE_TYPES] and destination is [TARGET_PLATFORM]. Help me identify which sub-prompt to use: ingestion patterns (batch/streaming/CDC), transformation logic (medallion architecture), orchestration (DAG design), observability (monitoring/alerting), or infrastructure (IaC/Kubernetes).
+## 🚀 Quick Start Prompt
 
-## Quick Start
-
-**Want to build a data pipeline?** Here's how to navigate this framework:
-
-### When to Use This Overview
-- Building a new data pipeline from scratch
-- Modernizing existing ETL processes to ELT or streaming
-- Implementing medallion architecture (Bronze/Silver/Gold layers)
-- Need guidance on which pipeline component to focus on
-- Planning end-to-end data pipeline architecture
-
-### Quick Module Selection
-```
-Your Pipeline Task → Recommended Module:
-
-1. Extract data from databases, APIs, files, or streams
-   → pipeline-ingestion.md (Batch, streaming, CDC patterns, 2-4 hours)
-
-2. Clean, transform, and apply business logic to data
-   → pipeline-transformation.md (Bronze→Silver→Gold, 3-5 hours)
-
-3. Schedule, coordinate, and manage pipeline workflows
-   → pipeline-orchestration.md (Airflow, Prefect, dbt workflows, 2-3 hours)
-
-4. Monitor, alert, and troubleshoot pipeline issues
-   → pipeline-observability.md (Logging, metrics, alerts, 2-3 hours)
-
-5. Deploy and manage pipeline infrastructure
-   → pipeline-infrastructure.md (IaC, CI/CD, scalability, 3-5 hours)
-```
-
-### Basic 3-Step Workflow
-1. **Start with ingestion** - Use pipeline-ingestion.md to extract data from sources
-2. **Add transformation** - Use pipeline-transformation.md to implement Bronze→Silver→Gold layers
-3. **Enable orchestration** - Use pipeline-orchestration.md to schedule and coordinate jobs
-
-**Time to complete**: 1-2 days for basic pipeline, 1-2 weeks for production-ready with all components
-
-**Pro tip**: Build incrementally - start with simple batch ingestion and basic transformations, validate data quality, then add streaming, complex business logic, and advanced monitoring.
+> Design a **data pipeline architecture** for **[USE CASE]** with sources from **[SOURCE TYPES]** to **[TARGET PLATFORM]**. Evaluate: (1) **Pipeline pattern**—batch, streaming, CDC, or hybrid based on latency requirements; (2) **Architecture layers**—medallion (bronze-silver-gold), lambda, or kappa; (3) **Component selection**—ingestion method, transformation approach, orchestration platform, observability stack; (4) **Technology choices**—processing framework, storage format, cloud services. Deliver architecture diagram, component selection rationale, module navigation guide, and implementation phasing.
 
 ---
 
-## Pipeline Development Lifecycle
+## Template
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                   PIPELINE DEVELOPMENT LIFECYCLE                 │
-├─────────────────────────────────────────────────────────────────┤
-│                                                                   │
-│  1. INGESTION → 2. TRANSFORMATION → 3. ORCHESTRATION →          │
-│     4. OBSERVABILITY → 5. INFRASTRUCTURE                         │
-│                                                                   │
-│  ┌──────────────┐    ┌──────────────┐    ┌──────────────┐      │
-│  │  BRONZE      │ →  │   SILVER     │ →  │    GOLD      │      │
-│  │  Raw Data    │    │  Cleansed    │    │  Business    │      │
-│  │              │    │  Validated   │    │  Ready       │      │
-│  └──────────────┘    └──────────────┘    └──────────────┘      │
-│                                                                   │
-└─────────────────────────────────────────────────────────────────┘
-```
+Design a pipeline architecture for {PIPELINE_CONTEXT}, implementing {ARCHITECTURE_REQUIREMENTS} to achieve {DELIVERY_OBJECTIVES}.
 
-## Sub-Prompt Navigation
+**1. Pipeline Pattern Selection**
 
-### 1. Pipeline Ingestion (pipeline-ingestion.md)
-**Focus**: Data extraction layer - getting data into your pipeline
+Begin by selecting the fundamental pipeline pattern based on latency, volume, and complexity requirements. Batch processing suits workloads with daily or hourly freshness requirements, large data volumes processed efficiently in bulk, and well-defined processing windows—most analytics and reporting pipelines start here. Streaming processing fits real-time use cases requiring sub-second to minute latency, continuous event processing, and immediate reaction to data changes—user behavior analytics, fraud detection, and operational monitoring benefit from streaming. Change Data Capture (CDC) provides efficient incremental processing capturing only database changes rather than full extracts—ideal for keeping data warehouses synchronized with operational systems without heavy source system load. Hybrid architectures combine patterns for different data types or use cases—batch for historical analysis with streaming for real-time dashboards, or CDC for transactional data with batch for reference data.
 
-**When to use**:
-- Setting up batch data extraction from databases, APIs, or files
-- Implementing real-time streaming ingestion from Kafka, Kinesis, or event sources
-- Configuring Change Data Capture (CDC) for database synchronization
-- Building resilient extraction with error handling and retries
+**2. Architecture Layer Design**
 
-**Key capabilities**:
-- Batch ingestion with scheduling and incremental loads
-- Streaming ingestion with Kafka/event streams
-- CDC pipelines for real-time database sync
-- Data validation at ingestion point
-- Dead letter queue for failed records
-- Extraction metadata tracking
+Structure your pipeline using proven architectural patterns that separate concerns and enable incremental processing. Medallion architecture (bronze-silver-gold) organizes data by quality level: bronze receives raw data with minimal transformation preserving source fidelity, silver contains cleaned and validated data conforming to enterprise standards, and gold provides business-ready aggregates optimized for specific consumption patterns. Lambda architecture separates batch and streaming paths that merge at the serving layer—batch provides accurate historical views while streaming enables real-time updates, though it requires maintaining two codebases. Kappa architecture treats all data as streams, using replay for reprocessing—simpler to maintain but requires streaming infrastructure capable of handling historical volumes. Choose medallion for most modern data platforms, lambda when you have distinct batch and streaming requirements with different processing logic, and kappa when streaming-first simplicity outweighs reprocessing complexity.
 
-**Line count**: ~550-600 lines
+**3. Ingestion Module Selection**
 
----
+Navigate to the appropriate ingestion approach based on source characteristics and freshness requirements. For database sources, choose between full extracts (simple but inefficient for large tables), incremental extracts using timestamps or sequence numbers (efficient for append-heavy tables), or CDC using database logs (most efficient, captures all changes including deletes). For API sources, implement pagination handling, rate limiting, authentication management, and cursor-based incremental extraction. For file sources, design landing zones with file arrival detection, format handling (CSV, JSON, Parquet, Avro), and archive management. For streaming sources, configure consumer groups, partition assignment, offset management, and exactly-once semantics. The pipeline-ingestion module provides detailed patterns for each source type including error handling, retry logic, and metadata tracking.
 
-### 2. Pipeline Transformation (pipeline-transformation.md)
-**Focus**: Medallion architecture (Bronze → Silver → Gold) and data quality
+**4. Transformation Module Selection**
 
-**When to use**:
-- Implementing medallion/lakehouse architecture
-- Building data cleansing and standardization logic
-- Creating slowly changing dimensions (SCD Type 2)
-- Applying complex business logic and aggregations
-- Enriching data from external sources or ML models
+Select transformation approaches based on processing complexity and target structure. Bronze-to-silver transformations focus on data quality: deduplication, null handling, data type standardization, timestamp normalization, and referential integrity validation. Silver-to-gold transformations implement business logic: calculations, aggregations, dimensional modeling, slowly changing dimension (SCD) handling, and metric derivation. Choose SQL-based transformation (dbt, Spark SQL) for declarative logic that analysts can understand and maintain. Use DataFrame APIs (PySpark, Pandas) for complex procedural logic, ML feature engineering, or integration with Python libraries. Implement data quality gates between layers validating row counts, aggregate consistency, business rule compliance, and freshness requirements. The pipeline-transformation module details medallion layer patterns, SCD implementations, and quality check frameworks.
 
-**Key capabilities**:
-- Bronze → Silver: Cleansing, standardization, validation
-- Silver → Gold: Business logic, aggregations, dimensional modeling
-- Data quality checks between layers
-- SCD Type 2 implementation
-- Window functions and advanced analytics
-- Data deduplication strategies
-- Data lineage tracking
+**5. Orchestration Module Selection**
 
-**Line count**: ~500-550 lines
+Design workflow coordination based on dependency complexity and operational requirements. Simple linear pipelines with few dependencies may use basic scheduling (cron, cloud scheduler) without dedicated orchestration platforms. Complex pipelines with branching logic, cross-pipeline dependencies, and dynamic task generation benefit from dedicated orchestrators like Airflow, Prefect, or Dagster. Consider orchestrator capabilities: dependency management (how complex can dependency graphs be), dynamic workflows (can tasks be generated at runtime), backfill support (how easily can you reprocess historical data), and operational features (alerting, retries, SLAs). Design DAGs with clear task boundaries, appropriate parallelism, sensible timeout and retry configurations, and observable task states. The pipeline-orchestration module provides DAG design patterns, dependency management strategies, and platform-specific guidance.
+
+**6. Observability Module Selection**
+
+Implement monitoring covering pipeline health, data quality, and operational metrics. Pipeline execution monitoring tracks job status, duration, resource consumption, and failure rates—essential for operational awareness and SLA management. Data quality monitoring validates row counts, null rates, value distributions, and business rule compliance at each pipeline stage—catching data issues before they reach consumers. Alerting rules notify appropriate teams of failures, SLA breaches, data quality violations, and anomalies requiring investigation. Dashboards provide operational visibility into pipeline fleet health, individual pipeline status, and data freshness across domains. Error handling frameworks classify failures, implement appropriate retry strategies, route unprocessable records to dead letter queues, and enable manual intervention workflows. The pipeline-observability module details metric collection, alerting strategies, and incident response patterns.
+
+**7. Infrastructure Module Selection**
+
+Plan infrastructure supporting pipeline compute, storage, and deployment requirements. Compute infrastructure ranges from serverless functions for simple transformations, to container-based workers for medium complexity, to dedicated clusters for large-scale processing—choose based on volume, complexity, and cost optimization needs. Storage architecture includes landing zones for incoming data, bronze/silver/gold layers for processed data, and archive tiers for historical retention—configure lifecycle policies and access patterns appropriately. Deployment automation using infrastructure as code (Terraform, CloudFormation) ensures reproducible environments across development, staging, and production. Auto-scaling configurations enable pipelines to handle variable loads efficiently—scale based on queue depth, processing lag, or scheduled capacity increases. The pipeline-infrastructure module covers IaC patterns, Kubernetes deployments, and performance optimization.
+
+**8. Implementation Phasing**
+
+Plan implementation in phases that deliver incremental value while managing complexity. Phase one establishes foundation: implement core ingestion for highest-priority sources, basic bronze layer storage, and simple orchestration proving the architecture works end-to-end. Phase two adds transformation depth: build silver layer quality rules, implement business logic for gold layer, and add data quality monitoring validating transformation correctness. Phase three enhances operations: implement comprehensive observability, optimize performance for production volumes, and harden error handling for production reliability. Phase four expands scope: add remaining data sources, implement advanced patterns (streaming, CDC), and optimize infrastructure costs. Each phase should deliver usable capability—avoid big-bang implementations that delay all value until everything is complete.
+
+Deliver your pipeline architecture as:
+
+1. **Pattern selection** justifying batch, streaming, CDC, or hybrid based on requirements
+2. **Layer architecture** specifying medallion, lambda, or kappa with layer responsibilities
+3. **Ingestion approach** for each source type with module navigation
+4. **Transformation strategy** with quality gates and module navigation
+5. **Orchestration design** specifying platform and DAG patterns
+6. **Observability plan** covering monitoring, alerting, and error handling
+7. **Infrastructure requirements** with compute, storage, and deployment approach
+8. **Implementation roadmap** with phased delivery and success criteria
 
 ---
 
-### 3. Pipeline Orchestration (pipeline-orchestration.md)
-**Focus**: Workflow definition, task dependencies, and scheduling
+## Variables
 
-**When to use**:
-- Designing Apache Airflow DAGs or similar workflows
-- Managing complex task dependencies and parallel execution
-- Implementing dynamic task generation
-- Setting up conditional workflows and branching
-- Configuring retry logic and failure handling
-
-**Key capabilities**:
-- DAG design patterns and best practices
-- Task dependency management
-- Dynamic task generation for multiple sources
-- Conditional branching based on data/quality
-- Resource pool management
-- SLA monitoring and alerting
-- XCom for inter-task communication
-
-**Line count**: ~450-500 lines
-
----
-
-### 4. Pipeline Observability (pipeline-observability.md)
-**Focus**: Monitoring, alerting, error handling, and recovery
-
-**When to use**:
-- Setting up pipeline monitoring and alerting
-- Implementing comprehensive error handling
-- Building operational dashboards
-- Creating incident response procedures
-- Implementing circuit breakers for resilience
-
-**Key capabilities**:
-- Pipeline execution metrics collection
-- SLA compliance monitoring
-- Data quality threshold alerting
-- Real-time streaming pipeline monitors
-- Error classification and recovery strategies
-- Circuit breaker pattern for unreliable dependencies
-- Dead letter queue management
-- Automated incident response
-
-**Line count**: ~650-700 lines
-
----
-
-### 5. Pipeline Infrastructure (pipeline-infrastructure.md)
-**Focus**: Infrastructure provisioning, deployment, and performance optimization
-
-**When to use**:
-- Provisioning infrastructure with Terraform/IaC
-- Deploying containerized pipelines with Kubernetes
-- Optimizing pipeline performance and resource usage
-- Implementing auto-scaling strategies
-- Setting up high availability and disaster recovery
-
-**Key capabilities**:
-- Performance bottleneck identification and optimization
-- Terraform infrastructure as code templates
-- Kubernetes deployment manifests
-- Auto-scaling configuration (HPA)
-- Resource allocation and limits
-- Cost optimization strategies
-- High availability setup
-- CI/CD pipeline integration
-
-**Line count**: ~600-650 lines
-
----
-
-## Decision Tree: Which Sub-Prompt Should I Use?
-
-```
-START: What is your current focus?
-
-├─ "I need to extract data from sources"
-│  └─ → Use pipeline-ingestion.md
-│     ├─ Batch extraction? → See "Batch Ingestion" section
-│     ├─ Real-time streaming? → See "Streaming Ingestion" section
-│     └─ Database CDC? → See "Change Data Capture" section
-│
-├─ "I need to transform and clean data"
-│  └─ → Use pipeline-transformation.md
-│     ├─ Raw to cleansed? → See "Bronze to Silver" section
-│     ├─ Cleansed to business-ready? → See "Silver to Gold" section
-│     ├─ Historical tracking? → See "SCD Type 2" section
-│     └─ Advanced analytics? → See "Window Functions" section
-│
-├─ "I need to orchestrate workflow execution"
-│  └─ → Use pipeline-orchestration.md
-│     ├─ Basic DAG? → See "Workflow Definition" section
-│     ├─ Multiple sources? → See "Dynamic Task Generation" section
-│     └─ Conditional logic? → See "Advanced Patterns" section
-│
-├─ "I need monitoring and error handling"
-│  └─ → Use pipeline-observability.md
-│     ├─ Batch monitoring? → See "Pipeline Monitoring Framework" section
-│     ├─ Streaming monitoring? → See "Streaming Monitor" section
-│     ├─ Error handling? → See "Error Handling Framework" section
-│     └─ Resilience patterns? → See "Circuit Breaker" section
-│
-└─ "I need infrastructure and deployment"
-   └─ → Use pipeline-infrastructure.md
-      ├─ Performance issues? → See "Performance Optimization" section
-      ├─ IaC setup? → See "Infrastructure as Code" section
-      └─ Container deployment? → See "Kubernetes" section
-```
-
-## Integration Patterns
-
-### Pattern 1: Simple Batch ETL Pipeline
-**Use case**: Daily batch processing from database to warehouse
-
-**Components**:
-1. **Ingestion** (pipeline-ingestion.md): Batch extraction from PostgreSQL
-2. **Transformation** (pipeline-transformation.md): Bronze → Silver → Gold
-3. **Orchestration** (pipeline-orchestration.md): Airflow DAG scheduled daily
-4. **Observability** (pipeline-observability.md): Monitor execution time and data quality
-5. **Infrastructure** (pipeline-infrastructure.md): Terraform for RDS and EMR cluster
-
-**Workflow**:
-```
-Daily Schedule (2 AM)
-  ↓
-Extract from PostgreSQL (Batch Ingestion)
-  ↓
-Load to Bronze Layer (Raw)
-  ↓
-Transform to Silver Layer (Cleansed)
-  ↓
-Transform to Gold Layer (Business Ready)
-  ↓
-Data Quality Checks
-  ↓
-Update Dashboards / Send Notifications
-```
-
----
-
-### Pattern 2: Real-time Streaming Pipeline
-**Use case**: Real-time event processing and analytics
-
-**Components**:
-1. **Ingestion** (pipeline-ingestion.md): Kafka streaming ingestion
-2. **Transformation** (pipeline-transformation.md): Streaming transformations with micro-batches
-3. **Orchestration** (pipeline-orchestration.md): Airflow for monitoring, not scheduling
-4. **Observability** (pipeline-observability.md): Real-time latency and throughput monitoring
-5. **Infrastructure** (pipeline-infrastructure.md): Kubernetes with auto-scaling
-
-**Workflow**:
-```
-Continuous Stream
-  ↓
-Kafka Consumer (Streaming Ingestion)
-  ↓
-Real-time Validation & Enrichment
-  ↓
-Micro-batch Aggregation
-  ↓
-Write to Silver/Gold Layers
-  ↓
-Real-time Dashboards & Alerts
-```
-
----
-
-### Pattern 3: Hybrid Batch + CDC Pipeline
-**Use case**: Combine historical batch loads with incremental CDC
-
-**Components**:
-1. **Ingestion** (pipeline-ingestion.md): Initial batch + ongoing CDC
-2. **Transformation** (pipeline-transformation.md): SCD Type 2 for dimension tracking
-3. **Orchestration** (pipeline-orchestration.md): Separate DAGs for batch and CDC
-4. **Observability** (pipeline-observability.md): Monitor both batch and CDC metrics
-5. **Infrastructure** (pipeline-infrastructure.md): Separate compute for batch vs streaming
-
-**Workflow**:
-```
-Initial Load:               Incremental Updates:
-  Batch Extract               CDC Events
-      ↓                           ↓
-  Bronze Layer ← ─ ─ ─ ─ ─ ─ Bronze Layer
-      ↓                           ↓
-  SCD Type 2 Merge ← ─ ─ ─ SCD Type 2 Merge
-      ↓                           ↓
-  Gold Dimensions    →    Gold Dimensions
-```
-
----
-
-### Pattern 4: Multi-Source Data Integration
-**Use case**: Combine data from multiple heterogeneous sources
-
-**Components**:
-1. **Ingestion** (pipeline-ingestion.md): Dynamic ingestion for N sources
-2. **Transformation** (pipeline-transformation.md): Standardization and joining
-3. **Orchestration** (pipeline-orchestration.md): Dynamic task generation
-4. **Observability** (pipeline-observability.md): Per-source monitoring
-5. **Infrastructure** (pipeline-infrastructure.md): Resource pools per source type
-
-**Workflow**:
-```
-Dynamic Task Generation:
-  For each source in [CRM, ERP, Web, Mobile]:
-    ↓
-  Extract in parallel
-    ↓
-  Validate independently
-    ↓
-  Load to Bronze (separate tables)
-    ↓
-  Join on common keys (Silver)
-    ↓
-  Create unified view (Gold)
-```
-
----
-
-## Technology Selection Guide
-
-### Orchestration Platform
-| **Platform** | **Best For** | **See Section** |
-|--------------|-------------|----------------|
-| **Apache Airflow** | Python-centric workflows, complex dependencies | pipeline-orchestration.md |
-| **Prefect** | Modern Python workflows, dynamic pipelines | pipeline-orchestration.md |
-| **Dagster** | Software-defined assets, data-aware orchestration | pipeline-orchestration.md |
-| **Azure Data Factory** | Azure-native, low-code GUI workflows | pipeline-orchestration.md |
-| **AWS Step Functions** | AWS serverless, event-driven workflows | pipeline-orchestration.md |
-
-### Processing Framework
-| **Framework** | **Best For** | **See Section** |
-|--------------|-------------|----------------|
-| **Apache Spark** | Large-scale distributed processing (> 1TB) | pipeline-transformation.md, pipeline-infrastructure.md |
-| **Pandas/Dask** | Medium-scale Python processing (< 100GB) | pipeline-transformation.md |
-| **DBT** | SQL-based transformations in warehouse | pipeline-transformation.md |
-| **Apache Flink** | Real-time streaming with stateful processing | pipeline-ingestion.md |
-| **Kafka Streams** | Lightweight streaming transformations | pipeline-ingestion.md |
-
-### Storage Architecture
-| **Pattern** | **Best For** | **See Section** |
-|------------|-------------|----------------|
-| **Delta Lake** | ACID transactions, time travel, schema evolution | pipeline-transformation.md |
-| **Apache Iceberg** | Large-scale analytics, partition evolution | pipeline-transformation.md |
-| **Parquet** | Columnar storage, read-heavy analytics | pipeline-infrastructure.md |
-| **Avro** | Schema evolution, streaming serialization | pipeline-ingestion.md |
-
-### Cloud Provider
-| **Provider** | **Strengths** | **See Section** |
-|--------------|--------------|----------------|
-| **AWS** | Mature data services (S3, EMR, Glue, Redshift) | pipeline-infrastructure.md |
-| **Azure** | Enterprise integration (Synapse, Data Factory) | pipeline-infrastructure.md |
-| **GCP** | BigQuery, Dataflow, real-time analytics | pipeline-infrastructure.md |
-| **Multi-cloud** | Avoid vendor lock-in, use best-of-breed | All sections |
-
----
-
-## Common Pipeline Patterns
-
-### 1. Medallion Architecture (Bronze → Silver → Gold)
-- **Bronze**: Raw ingested data, minimal transformation
-- **Silver**: Cleansed, validated, standardized data
-- **Gold**: Business-ready, aggregated, optimized for consumption
-- **See**: pipeline-transformation.md
-
-### 2. Lambda Architecture
-- **Batch Layer**: Historical data processing
-- **Speed Layer**: Real-time stream processing
-- **Serving Layer**: Merged view of batch + streaming
-- **See**: pipeline-ingestion.md, pipeline-transformation.md
-
-### 3. Kappa Architecture
-- **Single streaming pipeline**: All data treated as unbounded stream
-- **Reprocessing**: Replay stream from start for recalculation
-- **See**: pipeline-ingestion.md (Streaming section)
-
-### 4. Data Vault
-- **Hubs**: Business entities (Customer, Product)
-- **Links**: Relationships between entities
-- **Satellites**: Temporal and descriptive attributes
-- **See**: pipeline-transformation.md (SCD section)
-
----
-
-## Getting Started Checklist
-
-### Phase 1: Planning (Week 1)
-- [ ] Define business requirements and SLAs
-- [ ] Identify all data sources and targets
-- [ ] Select orchestration platform and processing framework
-- [ ] Design pipeline architecture (batch/streaming/hybrid)
-- [ ] Define data quality requirements
-- [ ] Choose cloud provider and infrastructure approach
-
-### Phase 2: Ingestion (Week 2-3)
-- [ ] Implement source connectors (pipeline-ingestion.md)
-- [ ] Set up extraction scheduling
-- [ ] Configure error handling and retries
-- [ ] Implement data validation at ingestion
-- [ ] Set up extraction metadata tracking
-- [ ] Test with sample data from each source
-
-### Phase 3: Transformation (Week 4-5)
-- [ ] Design medallion architecture (Bronze/Silver/Gold)
-- [ ] Implement cleansing and standardization logic (pipeline-transformation.md)
-- [ ] Build business logic transformations
-- [ ] Add data quality checks between layers
-- [ ] Implement SCD Type 2 if needed
-- [ ] Set up data lineage tracking
-
-### Phase 4: Orchestration (Week 6)
-- [ ] Create DAG with task dependencies (pipeline-orchestration.md)
-- [ ] Configure retry logic and timeouts
-- [ ] Set up resource pools
-- [ ] Implement dynamic task generation if needed
-- [ ] Configure SLA monitoring
-- [ ] Test backfill scenarios
-
-### Phase 5: Observability (Week 7)
-- [ ] Set up metrics collection (pipeline-observability.md)
-- [ ] Create operational dashboards
-- [ ] Configure alerting rules
-- [ ] Implement error handling framework
-- [ ] Set up dead letter queues
-- [ ] Create runbooks for common issues
-
-### Phase 6: Infrastructure (Week 8)
-- [ ] Write Terraform/IaC configurations (pipeline-infrastructure.md)
-- [ ] Set up auto-scaling policies
-- [ ] Configure high availability
-- [ ] Implement backup and disaster recovery
-- [ ] Optimize resource allocation
-- [ ] Set up cost monitoring
-
-### Phase 7: Testing & Deployment (Week 9-10)
-- [ ] Unit test individual transformations
-- [ ] Integration test end-to-end pipeline
-- [ ] Performance test with production-scale data
-- [ ] Security and compliance review
-- [ ] Documentation and knowledge transfer
-- [ ] Production deployment and monitoring
-
----
-
-## Best Practices Summary
-
-### Design Principles
-1. **Idempotency**: Ensure reruns produce same results
-2. **Incremental processing**: Process only new/changed data
-3. **Data quality gates**: Validate at each layer boundary
-4. **Observability first**: Build monitoring from the start
-5. **Fail fast**: Detect issues early in the pipeline
-6. **Graceful degradation**: Continue with partial data when possible
-
-### Operational Excellence
-1. **Version control**: Track all code and infrastructure changes
-2. **Automated testing**: Test transformations and infrastructure
-3. **Clear ownership**: Assign teams to pipeline components
-4. **Documentation**: Maintain architecture diagrams and runbooks
-5. **Incident response**: Define procedures for common failure modes
-6. **Continuous improvement**: Regular performance and cost reviews
-
-### Security & Compliance
-1. **Encryption**: At rest and in transit
-2. **Least privilege**: Minimal permissions for each component
-3. **Audit logging**: Track all data access and modifications
-4. **Data masking**: Protect sensitive data (PII, PHI)
-5. **Compliance**: GDPR, HIPAA, SOC 2 as required
-6. **Secret management**: Use vault services, never hardcode
-
----
-
-## Related Resources
-
-### Internal Templates
-- **data-governance-framework.md**: Data quality rules and governance
-- **dashboard-design-patterns.md**: Consuming pipeline outputs in dashboards
-- **predictive-modeling-framework.md**: ML pipelines and feature engineering
-
-### External Documentation
-- Apache Airflow: https://airflow.apache.org/docs/
-- Terraform: https://developer.hashicorp.com/terraform/docs
-- Kubernetes: https://kubernetes.io/docs/
-- Delta Lake: https://docs.delta.io/
-- Apache Spark: https://spark.apache.org/docs/
+| Variable | Description | Example |
+|----------|-------------|---------|
+| `{PIPELINE_CONTEXT}` | Use case, sources, and targets | "e-commerce analytics pipeline from PostgreSQL, Stripe API, and Segment to Snowflake" |
+| `{ARCHITECTURE_REQUIREMENTS}` | Patterns and constraints | "medallion architecture, daily batch with real-time inventory, SOC 2 compliance" |
+| `{DELIVERY_OBJECTIVES}` | Timeline and success criteria | "MVP in 4 weeks with core sales data, full scope in 12 weeks, data ready by 6am daily" |
 
 ---
 
 ## Usage Examples
 
-### Example 1: E-commerce Daily Sales Pipeline
+### Example 1: E-Commerce Analytics Pipeline
+**Prompt:** "Design a pipeline architecture for {PIPELINE_CONTEXT: e-commerce analytics consolidating PostgreSQL orders, Stripe payments, Shopify products, and Google Analytics events into Snowflake}, implementing {ARCHITECTURE_REQUIREMENTS: medallion architecture with daily batch processing, incremental loads where possible, and dbt for transformations}, to achieve {DELIVERY_OBJECTIVES: marketing and finance dashboards operational in 6 weeks with data freshness by 6am daily}."
 
-**Context:** E-commerce company needs daily batch pipeline from PostgreSQL to Snowflake
+**Expected Output:** Pattern selection choosing batch with incremental extraction for database sources and API pagination for Stripe/Shopify. Medallion architecture with bronze preserving source schemas, silver standardizing to common models (orders, payments, products, sessions), and gold providing marketing attribution and financial reporting aggregates. Ingestion approach using Fivetran or Airbyte for managed connectors with pipeline-ingestion patterns for custom sources. Transformation with dbt models implementing silver cleaning and gold business logic per pipeline-transformation. Orchestration with Airflow running at 2am with source extraction parallel, then sequential layer processing. Observability with row count monitoring, freshness alerts at 5:30am, and Slack notifications. Infrastructure on Snowflake with appropriately sized warehouses per workload. Four-week MVP covering orders and payments, full scope at week six.
 
-**Copy-paste this prompt:**
+### Example 2: Real-Time Fraud Detection Pipeline
+**Prompt:** "Design a pipeline architecture for {PIPELINE_CONTEXT: payment fraud detection processing 10,000 transactions per second from Kafka with enrichment from customer profiles and transaction history}, implementing {ARCHITECTURE_REQUIREMENTS: streaming architecture with sub-second latency for scoring, batch for model training features, and real-time dashboards}, to achieve {DELIVERY_OBJECTIVES: production fraud scoring in 8 weeks with 99.9% availability and P99 latency under 200ms}."
 
-```
-I need to build an end-to-end data pipeline for e-commerce sales analytics.
+**Expected Output:** Pattern selection choosing streaming for transaction scoring with batch for historical feature generation—hybrid architecture. Kappa-style streaming with Kafka Streams or Flink for real-time processing, separate batch pipeline for ML feature store updates. Ingestion from Kafka with exactly-once semantics, consumer group management per pipeline-ingestion streaming patterns. Transformation using Flink for real-time feature computation and scoring, Spark for batch feature engineering per pipeline-transformation. Orchestration minimal for streaming (self-running), Airflow for batch feature jobs per pipeline-orchestration. Observability with consumer lag monitoring, latency percentile tracking, and PagerDuty integration per pipeline-observability. Infrastructure on Kubernetes with auto-scaling based on Kafka lag per pipeline-infrastructure. Phased delivery: basic scoring week four, full enrichment week six, production hardening week eight.
 
-PIPELINE CONTEXT:
-- Source systems: PostgreSQL (orders, customers, products), Stripe API (payments), Google Analytics (web traffic)
-- Target: Snowflake data warehouse for BI dashboards
-- Pipeline type: Daily batch processing with incremental loads
-- Data volume: 5M orders/month, 100GB total, 2GB daily incremental
-- SLA: Data ready by 6 AM for business users
+### Example 3: Healthcare Data Integration Pipeline
+**Prompt:** "Design a pipeline architecture for {PIPELINE_CONTEXT: clinical data warehouse integrating Epic EHR via HL7 FHIR, claims from multiple payers, and lab results from reference labs into Databricks}, implementing {ARCHITECTURE_REQUIREMENTS: medallion lakehouse with HIPAA compliance, full data lineage, and support for both operational reporting and research analytics}, to achieve {DELIVERY_OBJECTIVES: quality measure reporting in 12 weeks, research data mart in 20 weeks, with complete audit trail}."
 
-ARCHITECTURE REQUIREMENTS:
-Medallion Architecture:
-- Bronze: Raw extracts with source metadata (extracted_at, source_system)
-- Silver: Cleaned, deduplicated, validated data with referential integrity
-- Gold: Business metrics (daily sales, customer LTV, product performance)
-
-SPECIFIC PIPELINE COMPONENTS:
-1. Ingestion (pipeline-ingestion.md pattern):
-   - PostgreSQL: Incremental by updated_at timestamp
-   - Stripe: API pagination with cursor-based extraction
-   - GA: BigQuery export to S3
-
-2. Transformation (pipeline-transformation.md pattern):
-   - Bronze to Silver: Remove duplicates, validate order amounts > 0, standardize timestamps to UTC
-   - Silver to Gold: Calculate order_total, apply refund logic, join customer segments
-
-3. Orchestration (pipeline-orchestration.md pattern):
-   - Airflow DAG: extract (parallel) → load_bronze → transform_silver → transform_gold → notify
-   - Schedule: Daily at 2 AM UTC
-   - Dependencies: All extracts complete before bronze load
-
-4. Observability (pipeline-observability.md pattern):
-   - Monitor: Row counts, extract duration, transformation errors
-   - Alert: Data freshness > 30 minutes late, row count variance > 10%
-   - Dashboard: Pipeline health in Grafana
-
-Please provide:
-1. Complete Airflow DAG code with task dependencies
-2. dbt models for Bronze → Silver → Gold transformations
-3. Data quality checks between each layer
-4. Monitoring queries for pipeline health
-```
-
-**Expected Output:**
-- Airflow DAG with 8-10 tasks, parallel extraction, sequential transformation
-- dbt models with incremental materialization strategy
-- Great Expectations or dbt tests for data quality
-- Alerting thresholds and notification channels
+**Expected Output:** Pattern selection choosing batch for claims with CDC for EHR changes and near-real-time for lab results. Medallion lakehouse with bronze on Delta Lake preserving PHI with encryption, silver implementing FHIR-to-common-model transformation with de-identification capability, and gold providing quality measure calculations and de-identified research views. Ingestion using FHIR bulk export for Epic, SFTP for claims files, API polling for labs per pipeline-ingestion. Transformation with patient matching in silver, quality measure logic in gold, Unity Catalog for data lineage per pipeline-transformation. Orchestration with Databricks Workflows and approval gates for research data access per pipeline-orchestration. Observability with PHI access logging, data quality dashboards, and compliance reporting per pipeline-observability. Infrastructure with workspace isolation, VPC peering, and customer-managed keys per pipeline-infrastructure. Phased: EHR integration weeks 1-6, claims weeks 7-12, research mart weeks 13-20.
 
 ---
 
-### Example 2: Real-time Clickstream Pipeline
+## Cross-References
 
-**Context:** Media company needs real-time user behavior analytics for personalization
-
-**Copy-paste this prompt:**
-
-```
-I need to build a real-time streaming pipeline for clickstream analytics.
-
-PIPELINE CONTEXT:
-- Source: Segment.io events via Kafka (page views, clicks, video plays)
-- Target: Pinot for real-time dashboards, S3 + Spark for batch analytics
-- Pipeline type: Real-time streaming with 5-second latency SLA
-- Data volume: 50,000 events/second peak, 2B events/day
-- Use case: Real-time content recommendations, audience segmentation
-
-ARCHITECTURE REQUIREMENTS:
-Streaming Architecture:
-- Ingestion: Kafka with 3-day retention, 48 partitions
-- Processing: Kafka Streams for sessionization, Flink for complex aggregations
-- Serving: Pinot for real-time queries, Delta Lake for historical analysis
-
-SPECIFIC PIPELINE COMPONENTS:
-1. Ingestion (pipeline-ingestion.md streaming pattern):
-   - Kafka consumer with exactly-once semantics
-   - Schema registry for event schema evolution (Avro)
-   - Dead letter queue for malformed events
-
-2. Transformation (pipeline-transformation.md streaming pattern):
-   - Session windowing: 30-minute inactivity timeout
-   - User stitching: Connect anonymous to authenticated events
-   - Real-time aggregations: Page views per minute, trending content
-
-3. Orchestration (pipeline-orchestration.md for monitoring):
-   - No scheduling needed (continuous streaming)
-   - Airflow for daily reconciliation jobs and backfill
-   - Health check DAG every 15 minutes
-
-4. Observability (pipeline-observability.md streaming pattern):
-   - Monitor: Consumer lag, processing latency, throughput
-   - Alert: Lag > 10,000 messages, latency > 5 seconds
-   - Dashboard: Kafka lag, Flink checkpoints, Pinot query latency
-
-Please provide:
-1. Kafka topic design (partitioning strategy, retention, compaction)
-2. Flink job for session windowing and user stitching
-3. Schema evolution strategy for backward compatibility
-4. Consumer lag monitoring and auto-scaling
-```
-
-**Expected Output:**
-- Kafka partition key strategy (user_id for ordering)
-- Flink session window implementation
-- Avro schema with compatibility rules
-- HPA configuration for consumer scaling
-
----
-
-### Example 3: Multi-Source Financial Pipeline
-
-**Context:** Finance team needs consolidated financial data from multiple ERPs post-merger
-
-**Copy-paste this prompt:**
-
-```
-I need to build a data integration pipeline consolidating financial data from two ERP systems.
-
-PIPELINE CONTEXT:
-- Source systems: SAP S/4HANA (legacy company), Oracle EBS (acquired company)
-- Target: Snowflake for unified financial reporting
-- Pipeline type: Daily batch with monthly close support
-- Data volume: 50M GL entries/year combined, 500GB total
-- Compliance: SOX controls, full audit trail required
-
-ARCHITECTURE REQUIREMENTS:
-Integration Architecture:
-- Common data model: Unified chart of accounts, standardized cost centers
-- Data quality: Cross-system reconciliation, balance validation
-- Audit: Full lineage from source to report, change tracking
-
-SPECIFIC PIPELINE COMPONENTS:
-1. Ingestion (pipeline-ingestion.md pattern):
-   - SAP: CDS views extraction via OData, incremental by posting date
-   - Oracle: Direct SQL extraction with read replica, incremental by last_update_date
-   - Both: Full extract monthly for reconciliation
-
-2. Transformation (pipeline-transformation.md pattern):
-   - Bronze: Raw extracts with source system identifier
-   - Silver:
-     - Map SAP account codes to unified chart of accounts
-     - Map Oracle account codes to same unified chart
-     - Standardize dates to fiscal calendar
-     - Convert currencies to USD using daily rates
-   - Gold:
-     - Consolidated trial balance
-     - P&L by business unit (combined)
-     - Balance sheet by entity
-
-3. Orchestration (pipeline-orchestration.md pattern):
-   - Airflow DAG: Parallel extract → transform in sequence → reconcile → approve
-   - Schedule: Daily at midnight, monthly close job on day 3
-   - Human-in-the-loop: Reconciliation variance > $1000 requires approval
-
-4. Observability (pipeline-observability.md pattern):
-   - Monitor: GL balance totals, cross-system variance
-   - Alert: SAP vs Oracle debits don't match, TB out of balance
-   - Audit: Log every record source, transformation, and load timestamp
-
-Please provide:
-1. Unified chart of accounts mapping strategy
-2. Multi-source ETL with common data model
-3. Cross-system reconciliation checks
-4. Monthly close workflow with approval gates
-5. SOX-compliant audit logging
-```
-
-**Expected Output:**
-- Account mapping table design
-- dbt models with source tagging for lineage
-- Reconciliation queries with variance thresholds
-- Airflow sensor for manual approval step
-
----
-
-## Support & Contribution
-
-For questions or improvements to these templates:
-1. Review the specific sub-prompt for detailed implementation guidance
-2. Check the Usage Examples section in each sub-prompt
-3. Consult the Best Practices and Tips for Success sections
-4. Refer to the technology-specific documentation links
-
-**Remember**: Start with the simplest approach that meets your requirements. You can always add complexity later as needs evolve.
+- [pipeline-ingestion.md](pipeline-ingestion.md) - Batch, streaming, and CDC extraction patterns
+- [pipeline-transformation.md](pipeline-transformation.md) - Medallion layers and data quality
+- [pipeline-orchestration.md](pipeline-orchestration.md) - DAG design and workflow coordination
+- [pipeline-observability.md](pipeline-observability.md) - Monitoring, alerting, and error handling
+- [pipeline-infrastructure.md](pipeline-infrastructure.md) - IaC, deployment, and scaling

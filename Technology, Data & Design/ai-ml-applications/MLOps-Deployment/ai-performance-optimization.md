@@ -1,6 +1,5 @@
 ---
 category: ai-ml-applications
-last_updated: 2025-11-22
 title: AI Performance Optimization
 tags:
 - inference-optimization
@@ -31,488 +30,176 @@ slug: ai-performance-optimization
 ## Purpose
 Systematically improve the performance of AI systems in production. This framework covers latency reduction, throughput optimization, resource efficiency, and scaling strategies for ML inference workloads.
 
-## 🚀 Quick Optimization Prompt
+## 🚀 Quick Start Prompt
 
-> Optimize **[AI SYSTEM]** to achieve **[LATENCY TARGET: P99 < Xms]** and **[THROUGHPUT TARGET: X RPS]** from current **[BASELINE METRICS]**. Guide me through: (1) **Profiling**—where are the bottlenecks (preprocessing, inference, postprocessing, network)? What's the latency breakdown? (2) **Model optimization**—should I use quantization, pruning, or distillation? What's the quality/speed tradeoff? (3) **Inference optimization**—what batching, caching, and parallelization strategies? How to configure for my workload? (4) **Infrastructure tuning**—what instance types, auto-scaling settings, and serving framework optimizations? Provide a prioritized optimization roadmap, expected gains per technique, and validation approach.
+> Optimize **[AI SYSTEM]** to achieve **[LATENCY TARGET]** and **[THROUGHPUT TARGET]** from current **[BASELINE METRICS]**. Guide me through: (1) **Profiling**—where are the bottlenecks (preprocessing, inference, postprocessing, network)? What's the latency breakdown? (2) **Model optimization**—should I use quantization, pruning, or distillation? What's the quality/speed tradeoff? (3) **Inference optimization**—what batching, caching, and parallelization strategies? How to configure for my workload? (4) **Infrastructure tuning**—what instance types, auto-scaling settings, and serving framework optimizations? Provide a prioritized optimization roadmap, expected gains per technique, and validation approach.
 
 **Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for rapid performance optimization.
 
 ---
 
-## Quick Start
-
-### Minimal Example
-```
-PERFORMANCE OPTIMIZATION: Real-time Product Recommendations
-
-BASELINE METRICS:
-- P50 latency: 180ms
-- P99 latency: 850ms
-- Throughput: 500 RPS
-- Target: P99 < 200ms, 2000 RPS
-
-OPTIMIZATIONS APPLIED:
-1. Model quantization (FP32→FP16): -40% latency
-2. Request batching (batch=8): +150% throughput
-3. Response caching (30% hit rate): -30% avg latency
-4. Async preprocessing: -25ms per request
-
-RESULTS:
-- P50 latency: 65ms (-64%)
-- P99 latency: 180ms (-79%)
-- Throughput: 2,400 RPS (+380%)
-- Quality: <1% accuracy impact
-```
-
-### When to Use This
-- AI feature latency exceeds user experience requirements
-- Need to scale ML system for increased traffic
-- Inference costs are too high due to over-provisioning
-- Preparing for traffic spikes or product launches
-- Optimizing LLM applications for responsiveness
-
-### Basic 4-Step Workflow
-1. **Profile** - Identify performance bottlenecks with data
-2. **Optimize** - Apply targeted improvements to bottlenecks
-3. **Validate** - Ensure quality is maintained
-4. **Monitor** - Track performance in production
-
----
-
 ## Template
 
-```markdown
-# Performance Optimization Plan: [SYSTEM_NAME]
+Develop a performance optimization plan for {SYSTEM_NAME} to achieve {LATENCY_TARGET} and {THROUGHPUT_TARGET}.
 
-## 1. Current State Assessment
+**1. CURRENT STATE ASSESSMENT**
 
-### Performance Baseline
-| Metric | Current | Target | Gap |
-|--------|---------|--------|-----|
-| P50 latency | [VALUE]ms | <[TARGET]ms | [GAP] |
-| P95 latency | [VALUE]ms | <[TARGET]ms | [GAP] |
-| P99 latency | [VALUE]ms | <[TARGET]ms | [GAP] |
-| Throughput | [VALUE] RPS | >[TARGET] RPS | [GAP] |
-| Error rate | [VALUE]% | <[TARGET]% | [GAP] |
+Understand where you're starting from:
 
-### Latency Breakdown
-```
-Total request latency: [TOTAL]ms
-├── Network: [VALUE]ms ([%]%)
-├── Preprocessing: [VALUE]ms ([%]%)
-├── Model inference: [VALUE]ms ([%]%)
-├── Postprocessing: [VALUE]ms ([%]%)
-└── Response serialization: [VALUE]ms ([%]%)
-```
+Performance baseline: Measure current latency at multiple percentiles—P50 shows typical experience, P95 shows degraded experience, P99 catches worst cases. Measure throughput in requests per second. Document error rates. Calculate the gap between current performance and targets. You need data, not guesses.
 
-### Resource Utilization
-| Resource | Current | Target | Status |
-|----------|---------|--------|--------|
-| CPU | [VALUE]% | <80% | [OK/HIGH/LOW] |
-| Memory | [VALUE]% | <85% | [OK/HIGH/LOW] |
-| GPU | [VALUE]% | >70% | [OK/HIGH/LOW] |
-| Network I/O | [VALUE] | [LIMIT] | [OK/HIGH/LOW] |
+Latency breakdown: Profile end-to-end request handling. Break down latency into network transmission, preprocessing (data loading, feature extraction, tokenization), model inference, postprocessing (decoding, formatting, business logic), and response serialization. Identify which component dominates—that's where optimization effort belongs.
 
----
+Resource utilization: Monitor CPU, memory, GPU, and network utilization. High utilization suggests scaling needs or inefficiency. Low GPU utilization often indicates preprocessing bottlenecks starving the model. Underutilized resources represent optimization opportunity or over-provisioning.
 
-## 2. Model-Level Optimization
+**2. MODEL-LEVEL OPTIMIZATION**
 
-### Model Compression
-| Technique | Before | After | Quality Impact | Latency Impact |
-|-----------|--------|-------|----------------|----------------|
-| Quantization | [SIZE/DTYPE] | [SIZE/DTYPE] | [METRIC_CHANGE] | -[X]% |
-| Pruning | [PARAMS] | [PARAMS] | [METRIC_CHANGE] | -[X]% |
-| Distillation | [LARGE] | [SMALL] | [METRIC_CHANGE] | -[X]% |
+Make the model faster without changing infrastructure:
 
-### Quantization Strategy
-```
-Original model: [DTYPE] ([SIZE] GB)
-Quantization target: [TARGET_DTYPE]
+Quantization: Reduce numerical precision from FP32 to FP16 or INT8. FP16 typically has negligible quality impact and halves memory, often providing 1.5-2x speedup. INT8 provides 2-4x speedup but requires careful validation—some layers are sensitive. Quantize all layers first, then keep sensitive layers at higher precision if needed.
 
-Layers to quantize:
-- [LAYER_TYPE]: [ORIGINAL] → [QUANTIZED]
-- Sensitive layers (skip): [LAYERS]
+Pruning: Remove unnecessary weights or neurons. Unstructured pruning removes individual weights (requires sparse hardware support). Structured pruning removes entire channels or attention heads (works on standard hardware). Start conservative—prune 20-50% and measure quality impact before going further.
 
-Expected impact:
-- Size reduction: [X]%
-- Latency reduction: [X]%
-- Accuracy impact: <[X]%
-```
+Knowledge distillation: Train a smaller "student" model to mimic a larger "teacher." The student can be 2-10x smaller while retaining 90-99% of quality. Distillation takes time but produces models specifically optimized for your task.
 
-### Architecture Optimization
-| Optimization | Description | Impact |
-|--------------|-------------|--------|
-| Early exit | Stop at confident predictions | -[X]% avg latency |
-| Attention pruning | Reduce attention heads | -[X]% compute |
-| Layer fusion | Combine operations | -[X]% latency |
-| KV cache | Cache key-value pairs | -[X]% per token |
+Architecture optimization: Use early exit to stop processing when confidence is high enough. Prune attention heads in transformers. Fuse operations that execute sequentially. For LLMs, KV caching stores key-value pairs to avoid recomputation on each token.
 
----
+**3. INFERENCE OPTIMIZATION**
 
-## 3. Inference Optimization
+Optimize how you run inference:
 
-### Batching Configuration
-```yaml
-batching:
-  strategy: [dynamic | static | adaptive]
-  max_batch_size: [SIZE]
-  max_wait_time_ms: [TIME]
-  padding_strategy: [pad | bucket]
+Batching: Group multiple requests together to amortize fixed costs and maximize hardware utilization. Static batching waits for a fixed batch size. Dynamic batching waits up to a time limit, then processes whatever requests are available. Batching increases throughput but adds latency—find the right trade-off for your use case. Latency-sensitive applications use small batches or batch size 1.
 
-expected_impact:
-  throughput_increase: [X]%
-  latency_increase_p50: [X]ms
-  latency_increase_p99: [X]ms
-```
+Caching: Store and reuse computation results. Request-level caching returns identical responses for identical inputs. Embedding caching stores expensive embedding computations. Feature caching stores preprocessed features. For LLMs, semantic caching returns results for similar (not just identical) queries. Every cache layer reduces compute and latency.
 
-### Caching Strategy
-| Cache Layer | Key | TTL | Expected Hit Rate |
-|-------------|-----|-----|-------------------|
-| Request cache | [KEY_PATTERN] | [TTL] | [X]% |
-| Embedding cache | [KEY_PATTERN] | [TTL] | [X]% |
-| Feature cache | [KEY_PATTERN] | [TTL] | [X]% |
-| Response cache | [KEY_PATTERN] | [TTL] | [X]% |
+Parallelization: Overlap independent operations. Load data while processing previous requests. Preprocess asynchronously while model inference runs. Use multiple worker threads for CPU-bound preprocessing. Pipeline stages that don't depend on each other. Parallelization reduces effective latency without changing individual operation speed.
 
-### Parallelization
-| Component | Current | Optimized | Gain |
-|-----------|---------|-----------|------|
-| Data loading | [WORKERS] | [WORKERS] | [X]% |
-| Preprocessing | Sequential | Parallel | [X]ms |
-| Inference | [CONFIG] | [CONFIG] | [X]% |
-| Postprocessing | Sequential | Async | [X]ms |
+**4. INFRASTRUCTURE OPTIMIZATION**
 
----
+Choose and configure the right infrastructure:
 
-## 4. Infrastructure Optimization
+Hardware selection: Match hardware to workload. Training wants high GPU memory and compute. Latency-sensitive inference wants fast single-request processing—smaller GPUs with lower memory but higher clock speeds. Throughput-focused inference wants maximum parallel capacity. Batch processing can use cost-optimized instances with high total compute.
 
-### Hardware Selection
-| Workload | Current | Recommended | Rationale |
-|----------|---------|-------------|-----------|
-| Training | [INSTANCE] | [INSTANCE] | [REASON] |
-| Inference (latency) | [INSTANCE] | [INSTANCE] | [REASON] |
-| Inference (throughput) | [INSTANCE] | [INSTANCE] | [REASON] |
-| Batch processing | [INSTANCE] | [INSTANCE] | [REASON] |
+Serving framework tuning: Configure worker threads for your concurrency pattern. Size connection pools appropriately. Consider gRPC over REST for reduced serialization overhead. Enable model warmup to eliminate cold start latency. Configure timeout and retry policies based on SLA requirements.
 
-### Serving Framework Optimization
-| Setting | Current | Optimized | Impact |
-|---------|---------|-----------|--------|
-| Worker threads | [COUNT] | [COUNT] | +[X]% throughput |
-| Connection pool | [SIZE] | [SIZE] | -[X]ms latency |
-| gRPC vs REST | [CURRENT] | [RECOMMENDED] | [IMPACT] |
-| Model warmup | [STATUS] | Enabled | -[X]ms cold start |
+Auto-scaling: Scale based on the right metric—CPU, GPU utilization, queue depth, or custom metrics like requests per instance. Set appropriate minimum replicas for baseline load and maximum for peak protection. Configure scale-up aggressively (fast response to load) and scale-down conservatively (avoid thrashing). Test scaling behavior under realistic load patterns.
 
-### Auto-Scaling Configuration
-```yaml
-scaling:
-  metric: [cpu | gpu | custom_metric]
-  target_value: [VALUE]
-  min_replicas: [MIN]
-  max_replicas: [MAX]
-  scale_up_delay: [SECONDS]s
-  scale_down_delay: [SECONDS]s
+**5. LLM-SPECIFIC OPTIMIZATION**
 
-custom_metric:
-  name: [METRIC_NAME]
-  query: [QUERY]
-  target: [VALUE]
-```
+Address unique performance challenges of language models:
 
----
+Token optimization: Reduce input tokens to reduce latency. Compress system prompts—every token adds to time-to-first-token. Limit context window to what's actually needed. Set appropriate max output tokens to enable early stopping. Use efficient tokenizers.
 
-## 5. LLM-Specific Optimization
+Streaming: Return tokens as they're generated rather than waiting for complete response. Streaming dramatically improves perceived latency—users see output in 500ms instead of waiting 5 seconds. Configure chunk size and flush intervals for smooth display.
 
-### Token Optimization
-| Optimization | Current | Optimized | Impact |
-|--------------|---------|-----------|--------|
-| System prompt length | [TOKENS] | [TOKENS] | -[X]ms TTFT |
-| Context window | [TOKENS] | [TOKENS] | -[X]% latency |
-| Max output tokens | [TOKENS] | [TOKENS] | -[X]% avg latency |
-| Stop sequences | [COUNT] | [COUNT] | Early termination |
+KV cache optimization: Cache key-value pairs from attention computation. Prefix caching reuses computation for shared system prompts. Paged attention manages KV cache memory efficiently, enabling longer contexts and higher throughput. Configure cache size based on available memory and context lengths.
 
-### Streaming Configuration
-```yaml
-streaming:
-  enabled: true
-  chunk_size: [TOKENS]
-  flush_interval_ms: [MS]
+Speculative decoding: Generate multiple candidate tokens in parallel, then verify. When predictions are correct, this provides 2-3x speedup. Works best when a fast draft model accurately predicts the larger model's outputs.
 
-user_experience:
-  time_to_first_token: <[TARGET]ms
-  inter_token_latency: <[TARGET]ms
-```
+**6. NETWORK AND I/O OPTIMIZATION**
 
-### KV Cache Optimization
-| Setting | Value | Impact |
-|---------|-------|--------|
-| Cache size | [SIZE] | [IMPACT] |
-| Eviction policy | [POLICY] | [IMPACT] |
-| Prefix caching | [ENABLED] | -[X]% redundant compute |
-| Paged attention | [ENABLED] | +[X]% throughput |
+Reduce time spent outside the model:
 
----
+Network latency: Deploy serving infrastructure close to users—edge deployment or regional instances. Use efficient serialization formats (Protocol Buffers over JSON). Enable compression for large payloads. Maintain persistent connections with HTTP/2 and keep-alive.
 
-## 6. Network and I/O Optimization
+Data loading: Optimize feature fetching from databases or feature stores. Use async fetches for independent features. Cache frequently accessed features locally. Pre-compute features where possible rather than computing at inference time.
 
-### Network Latency Reduction
-| Optimization | Current | Target | Method |
-|--------------|---------|--------|--------|
-| Client-server RTT | [VALUE]ms | <[TARGET]ms | Edge deployment |
-| Serialization | [FORMAT] | [FORMAT] | Protocol change |
-| Compression | [STATUS] | Enabled | gzip/zstd |
-| Connection reuse | [STATUS] | Keep-alive | HTTP/2 |
+Response optimization: Return only what's needed. Compress responses. Use streaming for large responses. Avoid unnecessary serialization round-trips.
 
-### Data Loading Optimization
-| Stage | Current | Optimized | Improvement |
-|-------|---------|-----------|-------------|
-| Feature fetch | [TIME]ms | [TIME]ms | [METHOD] |
-| Data parsing | [TIME]ms | [TIME]ms | [METHOD] |
-| Tensor conversion | [TIME]ms | [TIME]ms | [METHOD] |
+**7. TESTING AND VALIDATION**
 
----
+Ensure optimizations work correctly:
 
-## 7. Testing and Validation
+Load testing: Test at baseline load to establish performance. Test at expected peak load with sustained duration. Stress test beyond expected peak to find breaking points. Run endurance tests over hours to detect memory leaks or degradation.
 
-### Load Testing Plan
-```
-Test scenarios:
-1. Baseline: [X] RPS for [Y] minutes
-2. Peak load: [X] RPS for [Y] minutes
-3. Stress test: Ramp to [X] RPS until failure
-4. Endurance: [X] RPS for [Y] hours
+Quality validation: After each optimization, verify model quality hasn't regressed. Measure accuracy, F1, or task-specific metrics. Compare against baseline on held-out test set. Check for edge cases that optimization might have broken.
 
-Success criteria:
-- P99 latency < [TARGET]ms under [X] RPS
-- Error rate < [TARGET]% under peak load
-- No memory leaks over [X] hours
-```
+Rollout strategy: Deploy optimizations incrementally. Start with canary deployment to 1% of traffic. Expand to 10%, then 50%, then 100%, validating metrics at each stage. Define rollback criteria—what performance or quality regression triggers automatic rollback.
 
-### Quality Validation
-| Metric | Baseline | After Optimization | Tolerance |
-|--------|----------|-------------------|-----------|
-| Accuracy | [VALUE] | [VALUE] | ±[X]% |
-| F1 Score | [VALUE] | [VALUE] | ±[X]% |
-| User acceptance | [VALUE]% | [VALUE]% | ±[X]% |
+**8. IMPLEMENTATION ROADMAP**
 
-### Rollout Strategy
-| Phase | Traffic | Duration | Criteria to Proceed |
-|-------|---------|----------|---------------------|
-| Canary | 1% | [DURATION] | Latency within 10% of target |
-| Limited | 10% | [DURATION] | No quality regression |
-| Broad | 50% | [DURATION] | All metrics stable |
-| Full | 100% | - | Complete |
+Execute systematically:
 
----
+Quick wins (Days): Implement low-risk, high-impact changes first. Enabling caching, fixing obvious inefficiencies, right-sizing batch parameters. These often deliver 20-50% improvement with minimal effort or risk.
 
-## 8. Implementation Roadmap
+Medium-term (Weeks): Apply model compression techniques—quantization, pruning. Implement comprehensive caching strategy. Optimize auto-scaling configuration. These require more effort but deliver substantial ongoing gains.
 
-### Quick Wins (Days)
-| Optimization | Effort | Expected Gain | Risk |
-|--------------|--------|---------------|------|
-| [OPT_1] | [HOURS] | -[X]% latency | Low |
-| [OPT_2] | [HOURS] | +[X]% throughput | Low |
+Long-term (Months): Consider architecture changes—model distillation, serving framework migration, edge deployment. These have highest potential impact but require significant investment and carry risk.
 
-### Medium-Term (Weeks)
-| Optimization | Effort | Expected Gain | Risk |
-|--------------|--------|---------------|------|
-| [OPT_3] | [DAYS] | -[X]% latency | Medium |
-| [OPT_4] | [DAYS] | +[X]% throughput | Medium |
+Deliver your optimization plan as:
 
-### Long-Term (Months)
-| Optimization | Effort | Expected Gain | Risk |
-|--------------|--------|---------------|------|
-| [OPT_5] | [WEEKS] | -[X]% latency | High |
+1. **BASELINE ASSESSMENT** - Current metrics, latency breakdown, utilization analysis, gap to targets
 
-### Projected Results
-| Metric | Current | After Quick Wins | Final Target |
-|--------|---------|------------------|--------------|
-| P99 latency | [VALUE]ms | [VALUE]ms | <[TARGET]ms |
-| Throughput | [VALUE] RPS | [VALUE] RPS | >[TARGET] RPS |
-```
+2. **MODEL OPTIMIZATIONS** - Quantization, pruning, architecture changes with expected impact
+
+3. **INFERENCE OPTIMIZATIONS** - Batching, caching, parallelization configuration
+
+4. **INFRASTRUCTURE PLAN** - Hardware selection, serving configuration, auto-scaling
+
+5. **LLM-SPECIFIC** (if applicable) - Token optimization, streaming, KV cache strategy
+
+6. **VALIDATION APPROACH** - Load testing plan, quality checks, rollout strategy
+
+7. **ROADMAP** - Prioritized optimizations with expected gains and timeline
 
 ---
 
 ## Variables
 
-### SYSTEM_NAME
-Name of the AI system being optimized.
-- Examples: "Search Ranking Service", "Chatbot API", "Fraud Scoring Engine"
-
-### LATENCY_TARGET
-Maximum acceptable response time.
-- Examples: "P99 < 100ms", "P50 < 50ms", "TTFT < 500ms"
-
-### OPTIMIZATION_TECHNIQUE
-Method used to improve performance.
-- Examples: "Model quantization", "Request batching", "KV caching", "Async preprocessing"
-
-### THROUGHPUT_TARGET
-Required requests per second capacity.
-- Examples: "1000 RPS", "10K QPS", "100 concurrent users"
-
----
+| Variable | Description | Example |
+|----------|-------------|---------|
+| `{SYSTEM_NAME}` | AI system being optimized | "Search Ranking Service", "Chatbot API", "Fraud Detection" |
+| `{LATENCY_TARGET}` | Maximum acceptable response time | "P99 < 100ms", "TTFT < 500ms", "P50 < 50ms" |
+| `{THROUGHPUT_TARGET}` | Required capacity | "2000 RPS", "10K QPS", "500 concurrent users" |
 
 ## Usage Examples
 
 ### Example 1: Real-time Recommendation System
+
 ```
-SYSTEM: Product Recommendations API
-
-BASELINE:
-- P99 latency: 450ms (target: <100ms)
-- Throughput: 200 RPS (target: 2000 RPS)
-- GPU utilization: 25%
-
-OPTIMIZATIONS:
-1. Model Optimization:
-   - Quantization INT8: -50% inference time
-   - Pruned embedding layer: -30% memory
-   - Result: P99 180ms → 90ms
-
-2. Batching:
-   - Dynamic batching (max=32, wait=10ms)
-   - Result: Throughput 200 → 1200 RPS
-
-3. Caching:
-   - User embedding cache (Redis, 5min TTL)
-   - Product embedding precomputation
-   - Result: Cache hit 40%, -60% avg latency
-
-4. Infrastructure:
-   - Upgraded to inference-optimized instances
-   - Auto-scaling 2-10 replicas
-   - Result: Throughput 1200 → 2500 RPS
-
-FINAL RESULTS:
-- P99 latency: 75ms (-83%)
-- Throughput: 2500 RPS (+1150%)
-- GPU utilization: 72%
+Develop a performance optimization plan for Product Recommendations API 
+to achieve P99 latency under 100ms and throughput above 2000 RPS.
 ```
 
-### Example 2: LLM Chatbot Optimization
+**Expected Output:**
+- Baseline: P99 450ms, 200 RPS, 25% GPU utilization (preprocessing bottleneck)
+- Model: INT8 quantization (-50% inference), pruned embeddings (-30% memory)
+- Inference: Dynamic batching (batch=32, wait=10ms), embedding cache (40% hit rate)
+- Infrastructure: Inference-optimized GPU instances, auto-scale 2-10 replicas
+- Result: P99 75ms (-83%), 2500 RPS (+1150%), GPU utilization 72%
+
+### Example 2: LLM Customer Service Chatbot
+
 ```
-SYSTEM: Customer Service Chatbot (GPT-4 based)
-
-BASELINE:
-- Time to first token: 2.1s
-- Total response time: 8.5s (avg 150 tokens)
-- Cost: $0.08/conversation
-
-OPTIMIZATIONS:
-1. Prompt Optimization:
-   - System prompt: 800 → 200 tokens
-   - Few-shot examples: 5 → 2
-   - Result: TTFT 2.1s → 1.2s
-
-2. Streaming:
-   - Enabled token streaming
-   - User sees response in 1.2s vs 8.5s
-   - Result: Perceived latency -86%
-
-3. Caching:
-   - Semantic cache for common questions
-   - 35% cache hit rate
-   - Result: Avg latency -35%
-
-4. Model Routing:
-   - Simple queries → GPT-3.5 (70%)
-   - Complex queries → GPT-4 (30%)
-   - Result: Cost -55%, quality maintained
-
-FINAL RESULTS:
-- TTFT: 800ms (-62%)
-- Perceived latency: 800ms vs 8.5s
-- Cost: $0.035/conversation (-56%)
+Develop a performance optimization plan for Customer Service Chatbot 
+to achieve time-to-first-token under 800ms and cost under $0.04/conversation.
 ```
+
+**Expected Output:**
+- Baseline: TTFT 2.1s, total response 8.5s, cost $0.08/conversation
+- Token optimization: System prompt 800→200 tokens, few-shot 5→2 examples
+- Streaming: Enabled with 50ms flush interval, perceived latency 800ms vs 8.5s
+- Caching: Semantic cache for common queries (35% hit rate)
+- Model routing: Simple queries to smaller model (70% of traffic)
+- Result: TTFT 800ms (-62%), cost $0.035 (-56%), quality maintained
 
 ### Example 3: Computer Vision Pipeline
+
 ```
-SYSTEM: Real-time Object Detection
-
-BASELINE:
-- Inference time: 120ms/frame
-- Throughput: 8 FPS
-- Target: 30 FPS for real-time video
-
-OPTIMIZATIONS:
-1. Model Compression:
-   - TensorRT optimization: -40% latency
-   - FP16 quantization: -25% additional
-   - Result: 120ms → 54ms
-
-2. Pipeline Parallelism:
-   - Async preprocessing (decode, resize)
-   - Batch inference (batch=4)
-   - Async postprocessing (NMS, drawing)
-   - Result: 54ms → 28ms effective
-
-3. Hardware Optimization:
-   - CUDA streams for overlap
-   - Pinned memory for transfers
-   - Result: 28ms → 24ms
-
-4. Architecture:
-   - Switched to YOLOv8-S from YOLOv8-L
-   - Acceptable accuracy trade-off (-2% mAP)
-   - Result: 24ms → 18ms
-
-FINAL RESULTS:
-- Inference time: 18ms/frame
-- Throughput: 55 FPS (+588%)
-- Accuracy: 45.2 mAP (-2%)
+Develop a performance optimization plan for Real-time Object Detection 
+to achieve 30 FPS throughput for live video processing.
 ```
 
----
+**Expected Output:**
+- Baseline: 8 FPS (120ms/frame), inference dominates latency
+- Model: TensorRT optimization (-40%), FP16 quantization (-25% additional)
+- Pipeline: Async preprocessing, batch inference, CUDA stream overlap
+- Architecture: YOLOv8-S instead of YOLOv8-L (-2% mAP, -50% latency acceptable)
+- Result: 55 FPS (+588%), 18ms/frame, accuracy 45.2 mAP
 
-## Best Practices
+## Cross-References
 
-1. **Profile Before Optimizing** - Use profiling tools to identify actual bottlenecks. Intuition about performance is often wrong.
-
-2. **Optimize the Critical Path** - Focus on the components that dominate latency. A 50% improvement in a 10ms step matters less than 10% in a 200ms step.
-
-3. **Test Quality at Each Step** - Validate model accuracy after each optimization. Some techniques have hidden quality costs.
-
-4. **Consider Tail Latency** - P99 matters more than P50 for user experience. Optimize for worst-case, not average.
-
-5. **Batch When Throughput Matters** - Batching trades latency for throughput. Use it for batch processing, carefully for real-time.
-
-6. **Cache Aggressively** - Computation is expensive, storage is cheap. Cache at every layer where it makes sense.
-
----
-
-## Common Pitfalls
-
-❌ **Optimizing Prematurely** - Spending time on performance before validating the model works
-✅ Instead: Get the model working correctly first, then optimize
-
-❌ **Ignoring Quality Impact** - Aggressive optimization that degrades user experience
-✅ Instead: Set quality guardrails and validate after each change
-
-❌ **Over-Batching** - Large batch sizes that increase latency unacceptably
-✅ Instead: Find the optimal batch size for your latency/throughput trade-off
-
-❌ **Forgetting Warmup** - Cold start latency issues in production
-✅ Instead: Implement model warmup and keep-alive strategies
-
-❌ **Optimizing Locally** - Testing on different hardware than production
-✅ Instead: Profile and optimize on production-equivalent infrastructure
-
----
-
-## Related Resources
-
-**Tools:**
-- [TensorRT](https://developer.nvidia.com/tensorrt) - NVIDIA inference optimizer
-- [ONNX Runtime](https://onnxruntime.ai/) - Cross-platform inference
-- [vLLM](https://github.com/vllm-project/vllm) - Fast LLM inference
-- [Triton Inference Server](https://developer.nvidia.com/triton-inference-server) - Model serving
-
-**Further Reading:**
-- [Efficient Deep Learning (MIT)](https://efficientml.ai/)
-- [LLM Inference Optimization (Hugging Face)](https://huggingface.co/docs/transformers/perf_infer_gpu_one)
-
----
-
-**Last Updated:** 2025-11-22
-**Category:** AI/ML Applications > MLOps-Deployment
-**Difficulty:** Intermediate to Advanced
-**Estimated Time:** 2-4 weeks for comprehensive optimization
+- **Cost Optimization:** ai-cost-optimization.md - Balance performance with costs
+- **Monitoring:** ai-monitoring-observability.md - Track performance in production
+- **MLOps:** mlops.md - End-to-end ML pipeline including serving
+- **LLM Development:** llm-application-development.md - LLM-specific optimization context

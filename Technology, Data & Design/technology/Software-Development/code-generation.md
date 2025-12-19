@@ -1,555 +1,127 @@
 ---
 category: technology
-last_updated: 2025-11-09
-related_templates:
-- technology/cloud-architecture-framework.md
-- technology/site-reliability-engineering.md
-- technology/cloud-migration-strategy.md
+title: Code Generation Strategy
 tags:
 - code-generation
 - clean-code
 - best-practices
 - unit-testing
-title: Code Generation Template
 use_cases:
-- Creating generate high-quality code including functions, classes, algorithms, and
-  complete applications with comprehensive documentation and best practices.
-- Project planning and execution
-- Strategy development
+- Generating production-ready functions and classes with comprehensive error handling, type safety, and unit tests
+- Creating API endpoints with authentication, validation, and documentation following OpenAPI specifications
+- Building data processing pipelines with performance optimization and comprehensive test coverage
+related_templates:
+- technology/architecture-design.md
+- technology/testing-qa.md
+- technology/version-control.md
 industries:
 - government
 - manufacturing
 - technology
-type: template
-difficulty: intermediate
+type: framework
+difficulty: comprehensive
 slug: code-generation
 ---
 
-# Code Generation Template
+# Code Generation Strategy
 
 ## Purpose
-Generate high-quality code including functions, classes, algorithms, and complete applications with comprehensive documentation and best practices.
+Generate production-quality code including functions, classes, APIs, and algorithms with comprehensive documentation, error handling, security controls, and test coverage following language-specific best practices and clean code principles.
 
-## Quick Code Generation Prompt
-Generate [language] [code type: function/class/module/API] that [functionality]. Requirements: [inputs], [outputs], [edge cases]. Include: type hints/annotations, docstrings, error handling, [X] unit tests with [pytest/Jest/etc]. Follow: [coding standard], SOLID principles, clean code practices. Performance: [O(n) target], handle [scale requirements].
+## 🚀 Quick Code Generation Prompt
 
-## Quick Start
-
-**Need to generate code quickly?** Use this minimal example:
-
-### Minimal Example
-```
-Generate a Python function that validates email addresses using regex. The function should:
-- Accept an email string as input
-- Return True if valid, False if invalid
-- Handle edge cases (empty strings, special characters)
-- Include docstring documentation and 3 unit tests with pytest
-```
-
-### When to Use This
-- Creating new functions, classes, or modules from scratch
-- Need production-ready code with tests and documentation
-- Want to follow best practices and coding standards
-- Building APIs, algorithms, or data processing pipelines
-
-### Basic 3-Step Workflow
-1. **Specify requirements** - Define what the code should do and constraints
-2. **Add context** - Mention language, framework, and key dependencies
-3. **Request quality features** - Ask for tests, docs, and error handling
-
-**Time to complete**: 5-15 minutes for functions, 30-60 minutes for complex classes
+> Generate **[LANGUAGE]** **[CODE_TYPE]** (function/class/API/algorithm) implementing **[FUNCTIONALITY]** with **[COMPLEXITY_TARGET]** performance. Requirements: (1) **Interface**—what inputs (parameters/types), outputs (return type/structure), edge cases (null/empty/boundary values)? (2) **Quality**—what code standards (PEP8/Airbnb/Google), type annotations, docstrings, error handling (exceptions/results)? (3) **Testing**—what test framework (pytest/Jest/JUnit), coverage target (80%+), test cases (happy path/errors/edge cases)? (4) **Security**—what input validation, SQL injection prevention, XSS protection, authentication integration? (5) **Performance**—what optimization strategy (caching/async/batching), data structures, memory constraints? Deliver implementation code, comprehensive unit tests, API documentation, usage examples.
 
 ---
 
-## Template Structure
+## Template
 
-### Project Context
-- **Programming Language**: [PROGRAMMING_LANGUAGE]
-- **Framework/Library**: [FRAMEWORK]
-- **Version**: [VERSION]
-- **Target Platform**: [TARGET_PLATFORM]
-- **Architecture Pattern**: [ARCHITECTURE_PATTERN]
-- **Code Style Guide**: [STYLE_GUIDE]
-- **Testing Framework**: [TESTING_FRAMEWORK]
-- **Documentation Standard**: [DOCUMENTATION_STANDARD]
+Generate {LANGUAGE} code for {FUNCTIONALITY} using {FRAMEWORK} targeting {PERFORMANCE_REQUIREMENTS} performance with {SECURITY_REQUIREMENTS} security controls and {CODE_COVERAGE}% test coverage following {STYLE_GUIDE} standards.
 
-### Requirements Specification
-- **Primary Functionality**: [PRIMARY_FUNCTIONALITY]
-- **Business Logic**: [BUSINESS_LOGIC]
-- **Performance Requirements**: [PERFORMANCE_REQUIREMENTS]
-- **Security Requirements**: [SECURITY_REQUIREMENTS]
-- **Scalability Requirements**: [SCALABILITY_REQUIREMENTS]
-- **Integration Requirements**: [INTEGRATION_REQUIREMENTS]
-- **Compliance Requirements**: [COMPLIANCE_REQUIREMENTS]
-- **Accessibility Requirements**: [ACCESSIBILITY_REQUIREMENTS]
+**CODE STRUCTURE AND DESIGN PATTERNS**
 
-### Function/Method Generation
-- **Function Name**: [FUNCTION_NAME]
-- **Purpose**: [FUNCTION_PURPOSE]
-- **Input Parameters**: [INPUT_PARAMETERS]
-- **Parameter Types**: [PARAMETER_TYPES]
-- **Parameter Validation**: [PARAMETER_VALIDATION]
-- **Return Type**: [RETURN_TYPE]
-- **Return Value**: [RETURN_VALUE]
-- **Exception Handling**: [EXCEPTION_HANDLING]
-- **Error Messages**: [ERROR_MESSAGES]
-- **Logging Level**: [LOGGING_LEVEL]
-- **Performance Considerations**: [PERFORMANCE_CONSIDERATIONS]
+Design functions following single responsibility principle: each function performs one well-defined task (validate_email checks format only, not database existence), accepts parameters explicitly (avoid global state), returns consistent types (Result[T, Error] or exceptions, not mixed), limits to 50 lines maximum (extract helper functions for complex logic), maintains cyclomatic complexity <10 (nested conditionals indicate need for decomposition). Functions handling user input validate early: check_not_null(user_id), validate_email_format(email), sanitize_sql_input(query_text) preventing injection attacks at entry point. Pure functions preferred for testability: same inputs always produce same outputs (hash_password(password, salt) deterministic), no side effects (database writes, file I/O, API calls separated into distinct functions), easier to test (no mocking required), cacheable results.
 
-### Class/Object Generation
-- **Class Name**: [CLASS_NAME]
-- **Class Purpose**: [CLASS_PURPOSE]
-- **Inheritance**: [INHERITANCE]
-- **Interfaces/Protocols**: [INTERFACES]
-- **Properties**: [PROPERTIES]
-- **Property Types**: [PROPERTY_TYPES]
-- **Constructor Parameters**: [CONSTRUCTOR_PARAMETERS]
-- **Methods**: [METHODS]
-- **Static Methods**: [STATIC_METHODS]
-- **Private Methods**: [PRIVATE_METHODS]
-- **Abstract Methods**: [ABSTRACT_METHODS]
-- **Method Visibility**: [METHOD_VISIBILITY]
+Structure classes using SOLID principles balancing flexibility with simplicity. Single Responsibility: UserService handles user business logic only (not authentication, not email sending), separate Repository for data access, separate Validator for input validation. Open/Closed: extend behavior through inheritance or composition (PaymentProcessor interface with StripePaymentProcessor, PayPalPaymentProcessor implementations), avoid modifying core classes for new features. Liskov Substitution: subclasses must work wherever parent class expected (Rectangle and Square antipattern violates this), prefer composition over inheritance when substitution unclear. Interface Segregation: many small specific interfaces over one large interface (IReadable, IWritable, IDeletable separate versus single ICrudRepository), clients depend only on methods they use. Dependency Inversion: depend on abstractions (interfaces) not concrete implementations (constructor accepts IEmailService not SmtpEmailService), enables testing with mocks, supports multiple implementations (email via SMTP, SendGrid, SES swappable).
 
-### Algorithm Implementation
-- **Algorithm Type**: [ALGORITHM_TYPE]
-- **Complexity Requirements**: [COMPLEXITY_REQUIREMENTS]
-- **Time Complexity**: [TIME_COMPLEXITY]
-- **Space Complexity**: [SPACE_COMPLEXITY]
-- **Input Size**: [INPUT_SIZE]
-- **Data Structures**: [DATA_STRUCTURES]
-- **Optimization Strategy**: [OPTIMIZATION_STRATEGY]
-- **Edge Cases**: [EDGE_CASES]
-- **Mathematical Formulas**: [MATHEMATICAL_FORMULAS]
-- **Pseudocode**: [PSEUDOCODE]
+Implement error handling providing clear failure information without exposing internals. Type-safe languages use Result types or exceptions: Rust Result<T, Error> forces error handling at compile time (cannot ignore errors), Go error return values checked explicitly (if err != nil pattern), Java checked exceptions require try/catch or throws declaration, Python raises specific exception types (ValueError for invalid input, KeyError for missing keys, custom ValidationError for domain errors). Return meaningful error messages including context: "Invalid email format: {email}" versus generic "Invalid input", "User not found with ID: {user_id}" enabling debugging, "Database connection failed: timeout after 30s" suggesting retry. Validate inputs exhaustively: reject null/empty when required, check string lengths (max 255 characters for email), validate formats using regex (email, phone, UUID patterns), verify numeric ranges (age 0-120, price >0), sanitize before database/API operations preventing injection.
 
-### Code Quality Standards
-- **Naming Conventions**: [NAMING_CONVENTIONS]
-- **Code Formatting**: [CODE_FORMATTING]
-- **Comment Style**: [COMMENT_STYLE]
-- **Documentation Strings**: [DOCUMENTATION_STRINGS]
-- **Type Hints**: [TYPE_HINTS]
-- **Code Coverage**: [CODE_COVERAGE]
-- **Static Analysis**: [STATIC_ANALYSIS]
-- **Linting Rules**: [LINTING_RULES]
-- **Code Metrics**: [CODE_METRICS]
-- **Technical Debt**: [TECHNICAL_DEBT]
+Apply defensive programming anticipating misuse. Check preconditions at function entry: assert parameters not null, verify types match expectations (isinstance checks in Python, type guards in TypeScript), validate business rules (order total >0, quantity available >= requested), fail fast with clear error versus partial execution. Handle edge cases explicitly: empty collections (return empty result, not error), boundary values (0, max integer, empty string), Unicode characters (emoji in names, RTL text), concurrent access (optimistic locking with version field, pessimistic locking for critical sections). Document assumptions in docstrings: "Assumes user_id exists in database", "Requires email already validated", "Not thread-safe, use with lock" preventing misuse.
 
-### Testing Specifications
-- **Unit Test Requirements**: [UNIT_TEST_REQUIREMENTS]
-- **Test Cases**: [TEST_CASES]
-- **Mock Objects**: [MOCK_OBJECTS]
-- **Test Data**: [TEST_DATA]
-- **Assertion Types**: [ASSERTION_TYPES]
-- **Edge Case Tests**: [EDGE_CASE_TESTS]
-- **Performance Tests**: [PERFORMANCE_TESTS]
-- **Integration Tests**: [INTEGRATION_TESTS]
-- **Regression Tests**: [REGRESSION_TESTS]
-- **Coverage Targets**: [COVERAGE_TARGETS]
+**TYPE SAFETY AND DOCUMENTATION**
 
-### Documentation Requirements
-- **API Documentation**: [API_DOCUMENTATION]
-- **Code Comments**: [CODE_COMMENTS]
-- **Usage Examples**: [USAGE_EXAMPLES]
-- **Installation Guide**: [INSTALLATION_GUIDE]
-- **Configuration Guide**: [CONFIGURATION_GUIDE]
-- **Troubleshooting Guide**: [TROUBLESHOOTING_GUIDE]
-- **Change Log**: [CHANGE_LOG]
-- **License Information**: [LICENSE_INFORMATION]
-- **Contributing Guidelines**: [CONTRIBUTING_GUIDELINES]
-- **Code Examples**: [CODE_EXAMPLES]
+Leverage type systems preventing runtime errors. Python type hints with mypy validation: function signatures def calculate_tax(amount: Decimal, rate: float) -> Decimal, generic types List[User], Dict[str, int], Optional[str] for nullable values, Protocol for structural typing (duck typing with verification), dataclasses for immutable value objects (@dataclass(frozen=True)). TypeScript strict mode enabling comprehensive checking: no implicit any, strict null checks (string versus string | null | undefined distinct), excess property checks on object literals, no implicit returns (function must explicitly return or return nothing), index signatures for dynamic objects. Java generics with type erasure: List<User> not List, bounded type parameters <T extends Comparable<T>>, wildcards for variance (? extends T for covariance), primitive types versus boxed types (int versus Integer performance difference).
 
-### Database Integration
-- **Database Type**: [DATABASE_TYPE]
-- **Connection String**: [CONNECTION_STRING]
-- **Query Language**: [QUERY_LANGUAGE]
-- **ORM Framework**: [ORM_FRAMEWORK]
-- **Database Schema**: [DATABASE_SCHEMA]
-- **Table Names**: [TABLE_NAMES]
-- **Column Names**: [COLUMN_NAMES]
-- **Relationships**: [RELATIONSHIPS]
-- **Indexes**: [INDEXES]
-- **Transactions**: [TRANSACTIONS]
+Write comprehensive documentation explaining purpose and usage. Google-style docstrings for Python including summary, detailed description, parameters with types and descriptions, return value description, raises section listing exception types, usage examples for complex APIs. JSDoc for JavaScript/TypeScript with @param, @returns, @throws annotations, @example blocks showing usage, @deprecated for legacy APIs with migration guidance, generates HTML documentation via TypeDoc. Javadoc following Oracle conventions: class-level documentation explaining purpose and responsibility, method documentation with @param, @return, @throws tags, @since version introduction, @deprecated with alternatives. Document non-obvious decisions inline: "Using binary search instead of hash for small N because overhead", "Thread-safe through immutability not locks", "Workaround for Library v2.3 bug, remove after upgrading".
 
-### API Integration
-- **API Type**: [API_TYPE]
-- **API Version**: [API_VERSION]
-- **Authentication Method**: [AUTHENTICATION_METHOD]
-- **API Key**: [API_KEY]
-- **Endpoints**: [ENDPOINTS]
-- **HTTP Methods**: [HTTP_METHODS]
-- **Request Headers**: [REQUEST_HEADERS]
-- **Request Body**: [REQUEST_BODY]
-- **Response Format**: [RESPONSE_FORMAT]
-- **Error Handling**: [API_ERROR_HANDLING]
+Generate API documentation automatically from code. OpenAPI 3.0 specifications from annotations: FastAPI automatically generates schemas from Pydantic models, Swagger decorators in Java Spring describing endpoints/parameters/responses, tRPC inferring types from TypeScript functions. Include request/response examples: curl commands showing authentication, sample JSON payloads with all fields, error response formats for 400/401/403/500 status codes, pagination parameters and link headers. Document authentication requirements: "Requires Bearer token in Authorization header", "API key via X-API-Key header", "OAuth 2.0 scopes: users.read, users.write", rate limiting behavior and headers (X-RateLimit-Remaining, Retry-After).
 
-### User Interface Components
-- **UI Framework**: [UI_FRAMEWORK]
-- **Component Type**: [COMPONENT_TYPE]
-- **Component Properties**: [COMPONENT_PROPERTIES]
-- **Event Handlers**: [EVENT_HANDLERS]
-- **State Management**: [STATE_MANAGEMENT]
-- **Styling Approach**: [STYLING_APPROACH]
-- **Responsive Design**: [RESPONSIVE_DESIGN]
-- **Accessibility Features**: [ACCESSIBILITY_FEATURES]
-- **Browser Support**: [BROWSER_SUPPORT]
-- **Mobile Support**: [MOBILE_SUPPORT]
+**TESTING STRATEGY AND COVERAGE**
 
-### Configuration Management
-- **Configuration Files**: [CONFIGURATION_FILES]
-- **Environment Variables**: [ENVIRONMENT_VARIABLES]
-- **Default Values**: [DEFAULT_VALUES]
-- **Configuration Validation**: [CONFIGURATION_VALIDATION]
-- **Runtime Configuration**: [RUNTIME_CONFIGURATION]
-- **Feature Flags**: [FEATURE_FLAGS]
-- **Logging Configuration**: [LOGGING_CONFIGURATION]
-- **Security Configuration**: [SECURITY_CONFIGURATION]
-- **Performance Configuration**: [PERFORMANCE_CONFIGURATION]
-- **Debug Settings**: [DEBUG_SETTINGS]
+Write unit tests verifying individual components in isolation. Test structure: Arrange inputs and mocks, Act by calling function, Assert expected outputs and side effects, verify mock interactions. Happy path tests confirm expected behavior: valid inputs produce correct outputs, successful database operations return expected objects, API calls return 200 status with valid payload. Error path tests verify failure handling: invalid inputs raise appropriate exceptions, database errors propagate correctly, API failures trigger retry/fallback logic. Edge case tests cover boundaries: empty lists return empty results (not errors), null inputs rejected with validation error, maximum values handled without overflow, Unicode characters processed correctly.
 
-### Security Implementation
-- **Authentication**: [AUTHENTICATION]
-- **Authorization**: [AUTHORIZATION]
-- **Input Validation**: [INPUT_VALIDATION]
-- **Output Encoding**: [OUTPUT_ENCODING]
-- **SQL Injection Prevention**: [SQL_INJECTION_PREVENTION]
-- **XSS Prevention**: [XSS_PREVENTION]
-- **CSRF Protection**: [CSRF_PROTECTION]
-- **Encryption Methods**: [ENCRYPTION_METHODS]
-- **Secure Communications**: [SECURE_COMMUNICATIONS]
-- **Audit Logging**: [AUDIT_LOGGING]
+Achieve comprehensive test coverage targeting critical paths. Line coverage minimum 80%: every line executed at least once, generated code excluded from coverage requirements, UI presentation logic lower priority than business logic. Branch coverage 75%+: every if/else path tested, switch statement cases including default, exception handlers verified, early returns and guard clauses covered. Mutation testing validates test quality: PIT for Java, mutmut for Python, Stryker for JavaScript introducing mutations (change operators, negate conditions, remove returns) requiring tests to fail detecting bugs.
 
-### Performance Optimization
-- **Caching Strategy**: [CACHING_STRATEGY]
-- **Memory Management**: [MEMORY_MANAGEMENT]
-- **CPU Optimization**: [CPU_OPTIMIZATION]
-- **I/O Optimization**: [IO_OPTIMIZATION]
-- **Database Optimization**: [DATABASE_OPTIMIZATION]
-- **Network Optimization**: [NETWORK_OPTIMIZATION]
-- **Lazy Loading**: [LAZY_LOADING]
-- **Parallel Processing**: [PARALLEL_PROCESSING]
-- **Asynchronous Processing**: [ASYNCHRONOUS_PROCESSING]
-- **Resource Pooling**: [RESOURCE_POOLING]
+Structure integration tests validating component interactions. Database integration using Testcontainers: spin up PostgreSQL/MongoDB/Redis in Docker containers per test run, populate with test data via fixtures, verify queries return expected results, test transactions rollback correctly, measure query performance against benchmarks. API integration with WireMock or VCR: stub external services recording real responses, replay for deterministic tests, verify request payloads sent correctly, test error responses (timeout, 500 error, invalid JSON), validate retry logic exponential backoff.
 
-### Deployment Configuration
-- **Deployment Environment**: [DEPLOYMENT_ENVIRONMENT]
-- **Build Process**: [BUILD_PROCESS]
-- **Package Management**: [PACKAGE_MANAGEMENT]
-- **Dependency Management**: [DEPENDENCY_MANAGEMENT]
-- **Version Control**: [VERSION_CONTROL]
-- **CI/CD Pipeline**: [CICD_PIPELINE]
-- **Container Configuration**: [CONTAINER_CONFIGURATION]
-- **Load Balancing**: [LOAD_BALANCING]
-- **Monitoring Setup**: [MONITORING_SETUP]
-- **Backup Strategy**: [BACKUP_STRATEGY]
+Mock external dependencies enabling fast isolated tests. Python unittest.mock creating stubs: patch('requests.get') mocking HTTP calls, MagicMock for object behavior, side_effect for exceptions or sequences, assert_called_with verifying interactions. Jest mocks for JavaScript: jest.fn() for function spies, jest.mock('module') replacing imports, mock implementations returning test data, .mockReturnValue() and .mockResolvedValue() for sync/async. Test doubles hierarchy: dummy objects (pass but never use), stubs (return hardcoded data), spies (record calls), mocks (verify interactions), fakes (working implementations).
 
-### Maintenance and Support
-- **Code Maintainability**: [CODE_MAINTAINABILITY]
-- **Refactoring Guidelines**: [REFACTORING_GUIDELINES]
-- **Bug Tracking**: [BUG_TRACKING]
-- **Issue Resolution**: [ISSUE_RESOLUTION]
-- **Code Reviews**: [CODE_REVIEWS]
-- **Knowledge Transfer**: [KNOWLEDGE_TRANSFER]
-- **Support Documentation**: [SUPPORT_DOCUMENTATION]
-- **Training Materials**: [TRAINING_MATERIALS]
-- **User Feedback**: [USER_FEEDBACK]
-- **Continuous Improvement**: [CONTINUOUS_IMPROVEMENT]
+**SECURITY AND INPUT VALIDATION**
 
-## Prompt Template
+Validate inputs preventing injection and manipulation attacks. SQL injection prevention through parameterization: use placeholders in queries (? or $1) binding parameters separately, never concatenate user input into SQL strings, ORM query builders (SQLAlchemy, Prisma, JOOQ) parameterize automatically, stored procedures with parameters isolating user input from SQL structure. XSS prevention via output encoding: HTML entity encoding for display context (&lt; for <, &amp; for &), JavaScript encoding for script context, URL encoding for href attributes, Content Security Policy headers restricting inline scripts, React/Vue/Angular auto-escaping templates by default.
 
-Generate [PROGRAMMING_LANGUAGE] code for [PRIMARY_FUNCTIONALITY] using [FRAMEWORK] framework. The code should implement [ALGORITHM_TYPE] with [TIME_COMPLEXITY] time complexity and include:
+Implement authentication and authorization securing access. JWT tokens for stateless auth: access tokens short-lived (15 minutes) reducing compromise window, refresh tokens rotating on use with one-time validity, RS256 asymmetric signing (public key verifies, private key signs) preventing forgery, include claims (user_id, roles, expiration) in payload. OAuth 2.0 for third-party integration: authorization code flow for web apps (exchange code for token server-side), PKCE for mobile/SPA preventing interception, scopes defining permission granularity (users.read, orders.write), token introspection validating active tokens. Role-based access control checking permissions: decorator/middleware verifying roles (@require_role('admin'), route.use(requireRole(['admin', 'manager']))), permission checks before operations (user.can('delete', resource)), hierarchical roles (admin inherits manager inherits user).
 
-**Core Implementation:**
-- [FUNCTION_NAME] function that [FUNCTION_PURPOSE]
-- Input parameters: [INPUT_PARAMETERS] of types [PARAMETER_TYPES]
-- Return type: [RETURN_TYPE] with [RETURN_VALUE]
-- Handle [EDGE_CASES] and implement [EXCEPTION_HANDLING]
+Encrypt sensitive data protecting confidentiality. At-rest encryption using AES-256: encrypt PII before database storage (SSN, credit cards, health records), customer-managed encryption keys (AWS KMS, Azure Key Vault, HashiCorp Vault) rotated quarterly, key derivation from passwords using Argon2 or PBKDF2 (not MD5/SHA1), initialization vectors unique per encryption operation preventing pattern analysis. In-transit encryption mandating TLS: HTTPS for all external APIs enforcing TLS 1.3, certificate validation preventing MITM attacks, mTLS for service-to-service authentication, database connections encrypted (PostgreSQL requireSSL, MongoDB tls parameter). Password hashing with bcrypt or Argon2: bcrypt work factor 12+ (computationally expensive slowing brute force), salts unique per password (stored with hash), timing-safe comparison preventing timing attacks, password policies (minimum 12 characters, complexity requirements, breach database checks via HaveIBeenPwned).
 
-**Class Structure:** (if applicable)
-- [CLASS_NAME] class inheriting from [INHERITANCE]
-- Properties: [PROPERTIES] with types [PROPERTY_TYPES]
-- Methods: [METHODS] with [METHOD_VISIBILITY]
-- Constructor accepting [CONSTRUCTOR_PARAMETERS]
+**PERFORMANCE OPTIMIZATION AND SCALABILITY**
 
-**Quality Requirements:**
-- Follow [STYLE_GUIDE] coding standards
-- Include [DOCUMENTATION_STRINGS] documentation
-- Add [CODE_COMMENTS] for complex logic
-- Implement [UNIT_TEST_REQUIREMENTS] unit tests
-- Achieve [CODE_COVERAGE]% test coverage
+Optimize algorithms selecting appropriate complexity. Choose data structures matching access patterns: HashMap/dict for O(1) lookup by key, TreeMap/sorted dict for O(log n) ordered iteration, List/array for O(1) indexed access, Set for O(1) membership testing, PriorityQueue/heap for O(log n) min/max operations. Implement efficient algorithms: binary search O(log n) on sorted data versus linear scan O(n), quicksort O(n log n) average case for general sorting, radix sort O(nk) for fixed-length keys, trie for O(m) prefix matching (m = key length independent of data size). Avoid premature optimization: profile before optimizing, measure actual performance versus assumptions, optimize hot paths (functions consuming >10% execution time), accept simple O(n) algorithms for small N (<1000 items).
 
-**Integration Requirements:**
-- Connect to [DATABASE_TYPE] database using [ORM_FRAMEWORK]
-- Integrate with [API_TYPE] API using [AUTHENTICATION_METHOD]
-- Handle [REQUEST_HEADERS] and [RESPONSE_FORMAT]
-- Implement [CACHING_STRATEGY] for performance
+Implement caching reducing redundant computation and I/O. In-memory caching with TTL: Python @lru_cache decorator for pure functions, JavaScript Map with setTimeout for expiration, Java Caffeine cache with configurable eviction, cache warming on startup for frequently accessed data. Distributed caching with Redis: cache database query results (5-minute TTL for product details, 1-hour for category metadata), cache API responses avoiding external calls, session storage (user preferences, shopping cart, authentication state), cache invalidation on writes (update/delete triggers cache clear). Memoization for recursive algorithms: store previously computed results (Fibonacci, dynamic programming subproblems), trade memory for time, automatic via decorators/wrappers.
 
-**Security Implementation:**
-- Add [INPUT_VALIDATION] for all inputs
-- Implement [AUTHENTICATION] and [AUTHORIZATION]
-- Prevent [SQL_INJECTION_PREVENTION] and [XSS_PREVENTION]
-- Use [ENCRYPTION_METHODS] for sensitive data
+Design asynchronous processing for I/O-bound operations. Python async/await with asyncio: concurrent HTTP requests with aiohttp, non-blocking database queries with asyncpg/motor, async file I/O, gather multiple coroutines running concurrently. JavaScript Promises and async functions: fetch API for HTTP calls, Promise.all for parallel operations, async/await simplifying callback chains, streams for large file processing. Java CompletableFuture for async composition: supplyAsync running on thread pool, thenCompose chaining dependent operations, thenCombine merging independent results, exceptionally handling errors. Go goroutines and channels: lightweight threads (thousands per process), channels for communication, select for multiplexing, context for cancellation and timeout.
 
-**Performance Optimization:**
-- Implement [OPTIMIZATION_STRATEGY] for efficiency
-- Use [PARALLEL_PROCESSING] where appropriate
-- Add [MEMORY_MANAGEMENT] for resource efficiency
-- Include [LOGGING_LEVEL] logging with [AUDIT_LOGGING]
+Batch operations reducing overhead. Database batch inserts: executemany in Python DB-API (insert 1000 rows in single round-trip versus 1000 queries), JDBC batch updates, bulk insert via COPY command in PostgreSQL, MongoDB insertMany batching documents. API pagination for large result sets: cursor-based pagination (opaque cursor, no page skipping but consistent results), offset-based pagination (page=2&limit=50, risk of duplicates if data changes), range-based (created_after timestamp), include total_count and next_page_url in responses. Stream processing for large data: read CSV line-by-line versus loading entirely to memory, database cursor iterating results, generator expressions yielding values lazily.
 
-**Documentation:**
-- Generate [API_DOCUMENTATION] with examples
-- Include [USAGE_EXAMPLES] and [INSTALLATION_GUIDE]
-- Add [TROUBLESHOOTING_GUIDE] for common issues
-- Create [CONFIGURATION_GUIDE] for setup
+Deliver code generation as:
 
-Please ensure the code is production-ready, follows [COMPLIANCE_REQUIREMENTS], supports [TARGET_PLATFORM], and includes comprehensive error handling with meaningful [ERROR_MESSAGES]. The implementation should be scalable to handle [SCALABILITY_REQUIREMENTS] and maintain [PERFORMANCE_REQUIREMENTS].
+1. **IMPLEMENTATION CODE** - Production-ready source code with type annotations, error handling, input validation, security controls
+
+2. **COMPREHENSIVE TESTS** - Unit tests achieving 80%+ coverage, integration tests for external dependencies, edge case and error path tests
+
+3. **API DOCUMENTATION** - OpenAPI specifications, request/response schemas, authentication requirements, usage examples with curl
+
+4. **CONFIGURATION** - Environment variables with defaults, configuration validation, feature flags, logging setup
+
+5. **DEPLOYMENT ARTIFACTS** - Dockerfile with multi-stage build, requirements/dependencies lock file, CI/CD pipeline configuration, health check endpoints
+
+6. **USAGE GUIDE** - Quick start example, common patterns, troubleshooting FAQ, migration guide for breaking changes
+
+---
 
 ## Usage Examples
 
-### Basic Function Generation
-```
-Generate Python code for data validation using pandas framework. The code should implement input_sanitizer algorithm with O(n) time complexity and include:
+### Example 1: Python API Endpoint with Authentication
+**Prompt:** Generate Python FastAPI endpoint for user registration requiring email validation, password hashing, duplicate detection with 95% test coverage using pytest.
 
-Core Implementation:
-- validate_user_input function that sanitizes and validates user form data
-- Input parameters: raw_data (dict), validation_rules (list) of types dict and list
-- Return type: dict with cleaned and validated data
-- Handle empty fields, invalid formats and implement ValueError exceptions
+**Expected Output:** Implementation (app/api/auth.py 120 lines): FastAPI router defining POST /api/v1/auth/register endpoint accepting RegisterRequest Pydantic model (email: EmailStr validating format, password: str min 12 characters matching complexity regex, name: str max 100 characters), returns RegisterResponse with user_id and JWT token or HTTPException 400/409. Dependencies injected: UserRepository (SQLAlchemy database access), PasswordHasher (bcrypt wrapper), TokenService (JWT generation). Function validate_new_user checks email unique (SELECT exists query), password meets requirements (uppercase/lowercase/digit/special character), raises ValidationError with specific messages. Password hashed using bcrypt work factor 12: hashed = bcrypt.hashpw(password.encode('utf-8'), bcrypt.gensalt(rounds=12)), stored in database with user record. JWT token generated with 15-minute expiration: payload includes user_id, email, issued_at, expires_at, signed with RS256 using private key from environment variable JWT_PRIVATE_KEY. Security: input validation via Pydantic (email format, string lengths, required fields), SQL injection prevented through SQLAlchemy ORM parameterization, rate limiting 5 requests/minute per IP via SlowAPI decorator, CORS configured allowing specific origins, password hashed never logged. Error handling: duplicate email returns 409 Conflict with "Email already registered", validation failures return 400 Bad Request with field-specific errors, database errors caught returning 500 Internal Server Error (details logged but not exposed). Tests (tests/api/test_auth.py 280 lines, 96% coverage): test_register_valid_user verifies 201 status, user created in database, password hashed, token valid, test_register_duplicate_email returns 409, test_register_invalid_email format returns 422 (Pydantic validation), test_register_weak_password rejected, test_database_error returns 500, test_rate_limiting blocks 6th request, integration tests with Testcontainers PostgreSQL, fixtures providing test database and mock TokenService, parametrized tests for password validation rules. Documentation (openapi.json auto-generated): POST /api/v1/auth/register documented with request schema (email, password, name), response schemas 201 (RegisterResponse), 400 (ValidationError), 409 (ConflictError), security requirement none (public endpoint), example curl command with valid payload, rate limit headers documented. Configuration: environment variables JWT_PRIVATE_KEY (required), JWT_ALGORITHM=RS256, JWT_EXPIRATION_MINUTES=15, PASSWORD_MIN_LENGTH=12, BCRYPT_ROUNDS=12, validated at startup with Pydantic Settings raising error if missing. Deployment: Dockerfile with Python 3.11 slim base, multi-stage build (poetry install in builder, copy artifacts to runtime image), non-root user, health check endpoint GET /health returning 200 if database connected. Dependencies: poetry lock file specifying fastapi==0.104.1, pydantic==2.5.0, bcrypt==4.1.1, sqlalchemy==2.0.23, pytest==7.4.3, pytest-cov for coverage, httpx for test client. Performance: endpoint responds <50ms p95 for 1000 concurrent users (load tested with Locust), bcrypt hashing adds ~100ms per request (acceptable for authentication), database connection pool 5-20 connections via SQLAlchemy.
 
-Quality Requirements:
-- Follow PEP8 coding standards
-- Include docstring documentation
-- Add inline comments for regex patterns
-- Implement pytest unit tests
-- Achieve 95% test coverage
-```
+### Example 2: TypeScript Data Processing Class with Async Operations
+**Prompt:** Generate TypeScript class for CSV processing supporting streaming, validation, error recovery with 90% test coverage using Jest and type-safe interfaces.
 
-## Variables
+**Expected Output:** Implementation (src/processors/CsvProcessor.ts 180 lines): Generic class CsvProcessor<T> accepting type parameter for row schema, constructor receives config: CsvConfig (filePath, delimiter, hasHeader, encoding, chunkSize), implements stream-based processing avoiding memory exhaustion for large files. Method processFile() returns Promise<ProcessingResult> containing successCount, errorCount, errors: ValidationError[], uses fs.createReadStream with highWaterMark for backpressure, parses CSV with csv-parser library, validates each row against Zod schema (inferred from T type parameter), collects errors without halting processing, emits progress events via EventEmitter. Validation: Zod schema defines field types, formats (email, URL, date), required/optional fields, custom refinements (age >0 <120, price >0), validation errors include row number, field name, error message enabling correction. Error recovery: validation failures logged and counted but processing continues, malformed CSV rows skipped with warning, file system errors (permission denied, disk full) propagate as exceptions, partial results returned if interruption (allows resume from last processed row). Interface definitions: Row type generic T extends Record<string, unknown>, CsvConfig specifying processing options, ProcessingResult with statistics and errors, ValidationError with row/field/message. Security: path traversal prevention (resolve filePath against whitelist base directory), file size limits (default 100MB, configurable), resource cleanup (streams properly closed in finally block), no eval or code execution on CSV content. Performance: streaming processes 1M row file in 12 seconds using 50MB memory (versus 2GB loading entirely), chunk size 1000 rows balancing memory and I/O efficiency, parallel validation via worker threads (optional config, 4x speedup on 8-core machine), progress reporting every 10K rows enabling cancellation. Tests (src/processors/CsvProcessor.test.ts 320 lines, 92% coverage): test_process_valid_csv verifies all rows parsed correctly, test_process_with_validation_errors continues processing collecting errors, test_malformed_csv_row skips invalid lines, test_streaming_large_file confirms memory stays <100MB for 10M row file (monitored with process.memoryUsage), test_file_not_found throws appropriate error, test_concurrent_processing thread-safe, mock filesystem using jest.mock('fs') for deterministic tests, fixtures with sample CSV files (valid, malformed, empty, large). Type safety: strict TypeScript mode enabled (noImplicitAny, strictNullChecks, strictFunctionTypes), Zod schema provides runtime validation matching compile-time types, generic constraints ensure type consistency, no any types except narrow escapes with assertions. Documentation: TSDoc comments on class and public methods, @example showing usage with UserRecord type, @throws documenting exception types, README with performance characteristics and memory requirements. Configuration: supports .env files via dotenv, config validation with Zod ensuring types correct, defaults for all optional parameters, builder pattern for fluent configuration (new CsvProcessor().withChunkSize(5000).withSchema(schema)). Deployment: published to npm as @company/csv-processor, package.json with type: "module" for ESM, exports both CJS and ESM builds (dual package), includes TypeScript declarations, peer dependencies csv-parser and zod, CI workflow runs tests and type checking before publish. Dependencies: package-lock.json with csv-parser@3.0.0, zod@3.22.4, @types/node@20.10.0, jest@29.7.0, ts-jest for TypeScript support, @typescript-eslint for linting, prettier for formatting. Performance benchmarks: processes 100MB CSV (1M rows) in 8.2 seconds on M1 Mac, memory usage peaks at 47MB, validation overhead <5% without custom refinements, parallel mode 4.1 seconds using 4 workers.
 
-| Variable | Description | Example |
-|----------|-------------|----------|
-| `[PROGRAMMING_LANGUAGE]` | Specify the programming language | "Python 3.11", "TypeScript 5.x", "Java 17", "Go 1.21", "Rust 1.70" |
-| `[FRAMEWORK]` | Specify the framework | "FastAPI", "Express.js", "Spring Boot 3.x", "Django 4.x", "NestJS" |
-| `[VERSION]` | Specify the version | "3.11.0", "18.2.0", "17.0.2", "1.21.0", "5.2.0" |
-| `[TARGET_PLATFORM]` | Specify the target platform | "Linux (Ubuntu 22.04)", "AWS Lambda", "Kubernetes", "Docker containers", "Serverless" |
-| `[ARCHITECTURE_PATTERN]` | Specify the architecture pattern | "Clean Architecture", "Hexagonal (Ports & Adapters)", "MVC", "CQRS", "Event-driven" |
-| `[STYLE_GUIDE]` | Specify the style guide | "PEP 8 for Python", "Airbnb JavaScript Style Guide", "Google Java Style", "Effective Go", "Rust API Guidelines" |
-| `[TESTING_FRAMEWORK]` | Specify the testing framework | "pytest with pytest-cov", "Jest with Testing Library", "JUnit 5 with Mockito", "Go testing package", "Vitest" |
-| `[DOCUMENTATION_STANDARD]` | Specify the documentation standard | "Google docstrings", "JSDoc with TypeDoc", "Javadoc", "GoDoc", "rustdoc" |
-| `[PRIMARY_FUNCTIONALITY]` | Specify the primary functionality | "RESTful API for user management", "Payment processing service", "Data validation pipeline", "Authentication middleware", "File upload handler" |
-| `[BUSINESS_LOGIC]` | Specify the business logic | "Order total calculation with discounts and taxes", "Inventory stock management with reservations", "User role-based access control", "Subscription billing cycles" |
-| `[PERFORMANCE_REQUIREMENTS]` | Specify the performance requirements | "< 100ms response time for 95th percentile", "Handle 1000 concurrent requests", "Process 10K records/second", "Memory footprint < 512MB" |
-| `[SECURITY_REQUIREMENTS]` | Specify the security requirements | "Input validation and sanitization", "SQL injection prevention with parameterized queries", "XSS protection", "CSRF tokens", "Rate limiting" |
-| `[SCALABILITY_REQUIREMENTS]` | Specify the scalability requirements | "Horizontal scaling with stateless design", "Support 10x traffic growth", "Connection pooling for database", "Async processing for heavy operations" |
-| `[INTEGRATION_REQUIREMENTS]` | Specify the integration requirements | "REST API with OpenAPI 3.0 spec", "GraphQL endpoint", "Webhook callbacks", "Message queue (RabbitMQ/Kafka)", "gRPC for internal services" |
-| `[COMPLIANCE_REQUIREMENTS]` | Specify the compliance requirements | "GDPR data handling", "PCI DSS for payment data", "HIPAA for health information", "SOC 2 audit logging", "WCAG 2.1 AA accessibility" |
-| `[ACCESSIBILITY_REQUIREMENTS]` | Specify the accessibility requirements | "ARIA labels for screen readers", "Keyboard navigation support", "Color contrast ratio 4.5:1", "Focus indicators", "Alt text for images" |
-| `[FUNCTION_NAME]` | Specify the function name | "validate_user_input", "calculate_order_total", "process_payment", "generate_auth_token", "fetch_user_data" |
-| `[FUNCTION_PURPOSE]` | Specify the function purpose | "Validates and sanitizes user form data", "Calculates order total with discounts and taxes", "Processes payment transactions via Stripe API", "Generates JWT tokens for authentication" |
-| `[INPUT_PARAMETERS]` | Specify the input parameters | "user_data: dict, validation_rules: list", "items: List[OrderItem], coupon_code: Optional[str]", "request: PaymentRequest, api_key: str" |
-| `[PARAMETER_TYPES]` | Specify the parameter types | "dict, list, Optional[str]", "int, float, bool, List[T]", "str, bytes, datetime", "Union[str, int], Callable[[T], R]" |
-| `[PARAMETER_VALIDATION]` | Specify the parameter validation | "Pydantic model validation", "Type hints with runtime checking", "JSON Schema validation", "Custom validator decorators", "assert statements for preconditions" |
-| `[RETURN_TYPE]` | Specify the return type | "dict", "Optional[User]", "Result[T, Error]", "List[ValidationError]", "Tuple[bool, str]", "AsyncIterator[Event]" |
-| `[RETURN_VALUE]` | Specify the return value | "Cleaned and validated data dictionary", "User object if found, None otherwise", "Success/failure result with error details", "List of validation errors (empty if valid)" |
-| `[EXCEPTION_HANDLING]` | Specify the exception handling | "try/except with specific exception types", "Custom exceptions (ValidationError, NotFoundError)", "Context managers for resource cleanup", "Error boundaries with fallback values" |
-| `[ERROR_MESSAGES]` | Specify the error messages | "Invalid email format: {email}", "User not found with ID: {user_id}", "Payment failed: {reason}", "Rate limit exceeded. Retry after {seconds}s" |
-| `[LOGGING_LEVEL]` | Specify the logging level | "DEBUG for development", "INFO for request/response", "WARNING for recoverable errors", "ERROR for exceptions", "CRITICAL for system failures" |
-| `[PERFORMANCE_CONSIDERATIONS]` | Specify the performance considerations | "Lazy loading for large datasets", "Connection pooling for database access", "Caching frequently accessed data", "Async I/O for external API calls", "Batch processing for bulk operations" |
-| `[CLASS_NAME]` | Specify the class name | "UserService", "PaymentProcessor", "OrderRepository", "AuthenticationManager", "DataValidator" |
-| `[CLASS_PURPOSE]` | Specify the class purpose | "Handles all user-related business logic", "Processes payment transactions with multiple providers", "Data access layer for order persistence", "Manages authentication and session handling" |
-| `[INHERITANCE]` | Specify the inheritance | "BaseService", "ABC (Abstract Base Class)", "Generic[T]", "Protocol", "Mixin classes for shared functionality" |
-| `[INTERFACES]` | Specify the interfaces | "IRepository[T]", "IPaymentGateway", "IAuthProvider", "IEventHandler", "ISerializer" |
-| `[PROPERTIES]` | Specify the properties | "id: int, email: str, created_at: datetime", "status: OrderStatus, items: List[Item]", "is_active: bool, role: UserRole" |
-| `[PROPERTY_TYPES]` | Specify the property types | "int, str, float, bool, datetime", "List[T], Dict[K, V], Optional[T]", "Enum, dataclass, TypedDict", "UUID, Decimal, Path" |
-| `[CONSTRUCTOR_PARAMETERS]` | Specify the constructor parameters | "db_session: Session, config: Config", "repository: IRepository, logger: Logger", "api_key: str, timeout: int = 30" |
-| `[METHODS]` | Specify the methods | "create(), update(), delete(), find_by_id()", "validate(), process(), rollback()", "serialize(), deserialize()", "authenticate(), authorize()" |
-| `[STATIC_METHODS]` | Specify the static methods | "from_dict(data: dict)", "parse_config(path: str)", "generate_id()", "validate_format(value: str)" |
-| `[PRIVATE_METHODS]` | Specify the private methods | "_validate_input()", "_calculate_hash()", "_send_notification()", "_refresh_cache()", "_sanitize_output()" |
-| `[ABSTRACT_METHODS]` | Specify the abstract methods | "process(data: T) -> R", "validate(input: Input) -> bool", "serialize() -> dict", "handle_event(event: Event) -> None" |
-| `[METHOD_VISIBILITY]` | Specify the method visibility | "public for API methods", "protected for subclass access", "private for internal implementation", "package-private for module-level access" |
-| `[ALGORITHM_TYPE]` | Specify the algorithm type | "Binary search for sorted data", "Hash-based lookup", "Graph traversal (BFS/DFS)", "Dynamic programming", "Divide and conquer" |
-| `[COMPLEXITY_REQUIREMENTS]` | Specify the complexity requirements | "Time: O(n log n) or better", "Space: O(n) maximum", "Worst case must be bounded", "Average case optimization preferred" |
-| `[TIME_COMPLEXITY]` | Specify the time complexity | "O(1) constant", "O(log n) logarithmic", "O(n) linear", "O(n log n) linearithmic", "O(n²) quadratic (avoid if possible)" |
-| `[SPACE_COMPLEXITY]` | Specify the space complexity | "O(1) in-place", "O(n) proportional to input", "O(log n) for recursive stack", "Trade space for time with memoization" |
-| `[INPUT_SIZE]` | Specify the input size | "Up to 10K items for real-time processing", "1M+ records for batch jobs", "Streaming for unbounded data", "Paginated for large result sets" |
-| `[DATA_STRUCTURES]` | Specify the data structures | "HashMap for O(1) lookup", "PriorityQueue for scheduling", "Trie for prefix matching", "B-tree for database indexes", "Graph for relationships" |
-| `[OPTIMIZATION_STRATEGY]` | Specify the optimization strategy | "Memoization for repeated computations", "Early termination when possible", "Lazy evaluation for large datasets", "Parallel processing for CPU-bound tasks" |
-| `[EDGE_CASES]` | Specify the edge cases | "Empty input, null values, boundary values", "Unicode characters, special symbols", "Max/min integer values, floating point precision", "Concurrent access, race conditions" |
-| `[MATHEMATICAL_FORMULAS]` | Specify the mathematical formulas | "Compound interest: A = P(1 + r/n)^(nt)", "Haversine distance formula", "Percentile calculation", "Statistical mean/median/mode" |
-| `[PSEUDOCODE]` | Specify the pseudocode | "FOR each item IN collection: process(item)", "IF condition THEN action ELSE fallback", "WHILE not_done: iterate()", "TRY operation CATCH handle_error" |
-| `[NAMING_CONVENTIONS]` | Specify the naming conventions | "snake_case for functions/variables (Python)", "camelCase for JavaScript", "PascalCase for classes", "UPPER_SNAKE_CASE for constants" |
-| `[CODE_FORMATTING]` | Specify the code formatting | "Black formatter for Python", "Prettier for JavaScript/TypeScript", "google-java-format", "gofmt for Go", "rustfmt for Rust" |
-| `[COMMENT_STYLE]` | Specify the comment style | "Docstrings for public APIs", "Inline comments for complex logic", "TODO/FIXME with ticket numbers", "No obvious comments" |
-| `[DOCUMENTATION_STRINGS]` | Specify the documentation strings | "Google-style docstrings with Args/Returns/Raises", "NumPy-style for scientific code", "JSDoc with @param and @returns", "Markdown in rustdoc" |
-| `[TYPE_HINTS]` | Specify the type hints | "Full type annotations (Python 3.10+)", "TypeScript strict mode", "Generic types for reusable code", "Optional and Union for nullable values" |
-| `[CODE_COVERAGE]` | Specify the code coverage | "Minimum 80% line coverage", "90% branch coverage for critical paths", "100% coverage for public APIs", "Exclude generated code from coverage" |
-| `[STATIC_ANALYSIS]` | Specify the static analysis | "SonarQube for quality gates", "mypy for Python type checking", "ESLint with TypeScript parser", "Clippy for Rust lints" |
-| `[LINTING_RULES]` | Specify the linting rules | "flake8 + pylint for Python", "ESLint Airbnb config", "Checkstyle for Java", "golangci-lint with multiple linters", "cargo clippy --all-targets" |
-| `[CODE_METRICS]` | Specify the code metrics | "Cyclomatic complexity < 10", "Max function length 50 lines", "Max file length 500 lines", "Maintainability index > 70", "Cognitive complexity < 15" |
-| `[TECHNICAL_DEBT]` | Specify the technical debt | "Track with TODO comments and Jira tickets", "SonarQube debt ratio < 5%", "Refactoring sprints quarterly", "Deprecation warnings before removal" |
-| `[UNIT_TEST_REQUIREMENTS]` | Specify the unit test requirements | "One test class per source class", "Test happy path and error cases", "Isolated tests with mocks", "Fast execution (< 100ms per test)" |
-| `[TEST_CASES]` | Specify the test cases | "test_valid_input_returns_expected_output", "test_invalid_email_raises_validation_error", "test_empty_list_returns_empty_result", "test_concurrent_access_is_thread_safe" |
-| `[MOCK_OBJECTS]` | Specify the mock objects | "Mock database connections with unittest.mock", "Stub external API responses", "Fake implementations for interfaces", "Spy objects for verification" |
-| `[TEST_DATA]` | Specify the test data | "Factory Boy for model fixtures", "Faker for realistic test data", "JSON fixtures for API responses", "Parameterized tests for multiple inputs" |
-| `[ASSERTION_TYPES]` | Specify the assertion types | "assertEqual, assertTrue, assertRaises", "expect().toBe(), toEqual(), toThrow()", "Assert.assertEquals, assertThrows", "assert!, assert_eq!, should_panic" |
-| `[EDGE_CASE_TESTS]` | Specify the edge case tests | "test_empty_input", "test_null_parameter", "test_max_integer_value", "test_unicode_characters", "test_concurrent_modification" |
-| `[PERFORMANCE_TESTS]` | Specify the performance tests | "pytest-benchmark for function timing", "Load testing with k6 or Locust", "Memory profiling with memory_profiler", "Benchmark comparisons with baseline" |
-| `[INTEGRATION_TESTS]` | Specify the integration tests | "Testcontainers for database integration", "WireMock for external service simulation", "End-to-end API testing with Postman/Newman", "Contract testing with Pact" |
-| `[REGRESSION_TESTS]` | Specify the regression tests | "Automated test suite in CI pipeline", "Snapshot testing for UI components", "Golden file tests for output validation", "Mutation testing for test quality" |
-| `[COVERAGE_TARGETS]` | Specify the coverage targets | "80% overall, 90% for business logic", "100% for security-critical code", "Branch coverage > 75%", "Path coverage for complex algorithms" |
-| `[API_DOCUMENTATION]` | Specify the api documentation | "OpenAPI 3.0 spec with Swagger UI", "Postman collection with examples", "README with quick start guide", "Auto-generated from docstrings (pdoc, typedoc)" |
-| `[CODE_COMMENTS]` | Specify the code comments | "Explain why, not what", "Document non-obvious business rules", "Reference ticket numbers for workarounds", "Mark technical debt with TODO tags" |
-| `[USAGE_EXAMPLES]` | Specify the usage examples | "Quick start code snippet in README", "Jupyter notebook tutorials", "CLI help with --help flag", "Interactive REPL examples" |
-| `[INSTALLATION_GUIDE]` | Specify the installation guide | "pip install package_name", "npm install --save dependency", "Docker Compose for local development", "Homebrew for CLI tools" |
-| `[CONFIGURATION_GUIDE]` | Specify the configuration guide | "Environment variables with .env.example", "YAML/JSON config file templates", "CLI flags with defaults", "Config validation on startup" |
-| `[TROUBLESHOOTING_GUIDE]` | Specify the troubleshooting guide | "Common error messages and solutions", "Debug logging instructions", "Health check endpoints", "FAQ section for known issues" |
-| `[CHANGE_LOG]` | Specify the change log | "Keep a Changelog format", "Semantic versioning (MAJOR.MINOR.PATCH)", "Breaking changes highlighted", "Migration guides for major versions" |
-| `[LICENSE_INFORMATION]` | Specify the license information | "MIT License for open source", "Apache 2.0 with patent grant", "Proprietary with EULA", "GPL v3 for copyleft" |
-| `[CONTRIBUTING_GUIDELINES]` | Specify the contributing guidelines | "CONTRIBUTING.md with PR process", "Code of conduct", "Issue templates", "Development setup instructions" |
-| `[CODE_EXAMPLES]` | Specify the code examples | "Runnable examples in /examples directory", "Copy-paste ready snippets", "Progressive complexity (basic to advanced)", "Real-world use case demonstrations" |
-| `[DATABASE_TYPE]` | Specify the database type | "PostgreSQL 15 for relational data", "MongoDB 7 for documents", "Redis 7 for caching", "Elasticsearch 8 for search", "SQLite for embedded" |
-| `[CONNECTION_STRING]` | Specify the connection string | "postgresql://user:pass@localhost:5432/dbname", "mongodb://localhost:27017/database", "redis://localhost:6379/0", "mysql://root@localhost/app" |
-| `[QUERY_LANGUAGE]` | Specify the query language | "SQL with parameterized queries", "MongoDB query operators", "GraphQL queries/mutations", "Elasticsearch Query DSL", "Cypher for Neo4j" |
-| `[ORM_FRAMEWORK]` | Specify the orm framework | "SQLAlchemy 2.0 with async support", "Prisma for TypeScript", "Hibernate/JPA for Java", "GORM for Go", "Diesel for Rust" |
-| `[DATABASE_SCHEMA]` | Specify the database schema | "Normalized 3NF for OLTP", "Star schema for analytics", "Document schema with embedded objects", "Versioned migrations with Alembic/Flyway" |
-| `[TABLE_NAMES]` | Specify the table names | "users, orders, products, payments", "audit_logs, sessions, permissions", "customers, invoices, line_items" |
-| `[COLUMN_NAMES]` | Specify the column names | "id, created_at, updated_at", "email, password_hash, is_active", "status, amount, currency", "user_id (foreign key)" |
-| `[RELATIONSHIPS]` | Specify the relationships | "One-to-many: User has many Orders", "Many-to-many: Users and Roles through user_roles", "One-to-one: User has one Profile", "Self-referential: Employee has manager" |
-| `[INDEXES]` | Specify the indexes | "Primary key on id", "Unique index on email", "Composite index on (user_id, created_at)", "Full-text index for search", "Partial index for active records" |
-| `[TRANSACTIONS]` | Specify the transactions | "ACID transactions for financial operations", "Optimistic locking with version column", "Savepoints for partial rollback", "Read committed isolation level" |
-| `[API_TYPE]` | Specify the api type | "REST with JSON", "GraphQL", "gRPC with Protocol Buffers", "WebSocket for real-time", "Server-Sent Events" |
-| `[API_VERSION]` | Specify the api version | "v1, v2 (URL path versioning)", "Accept-Version header", "api-version query parameter", "Semantic versioning for breaking changes" |
-| `[AUTHENTICATION_METHOD]` | Specify the authentication method | "JWT Bearer tokens", "OAuth 2.0 with refresh tokens", "API key in header", "Basic auth over HTTPS", "mTLS for service-to-service" |
-| `[API_KEY]` | Specify the api key | "X-API-Key header", "Authorization: ApiKey {key}", "Query parameter ?api_key=", "Environment variable for server-side" |
-| `[ENDPOINTS]` | Specify the endpoints | "GET /users, POST /users, GET /users/{id}", "PUT /orders/{id}/status", "DELETE /sessions/{token}", "POST /auth/login, POST /auth/refresh" |
-| `[HTTP_METHODS]` | Specify the http methods | "GET for read operations", "POST for create", "PUT/PATCH for update", "DELETE for removal", "OPTIONS for CORS preflight" |
-| `[REQUEST_HEADERS]` | Specify the request headers | "Authorization: Bearer {token}", "Content-Type: application/json", "Accept: application/json", "X-Request-ID for tracing", "Accept-Language for i18n" |
-| `[REQUEST_BODY]` | Specify the request body | "JSON object with required fields", "Multipart form for file uploads", "URL-encoded for simple forms", "Binary for file content" |
-| `[RESPONSE_FORMAT]` | Specify the response format | "JSON with consistent envelope", "Pagination with links", "Error response with code and message", "HATEOAS links for discoverability" |
-| `[API_ERROR_HANDLING]` | Specify the api error handling | "RFC 7807 Problem Details", "HTTP status codes (4xx client, 5xx server)", "Error code enum for programmatic handling", "Retry-After header for rate limits" |
-| `[UI_FRAMEWORK]` | Specify the ui framework | "React 18 with Next.js", "Vue 3 with Composition API", "Angular 17", "Svelte/SvelteKit", "Solid.js" |
-| `[COMPONENT_TYPE]` | Specify the component type | "Functional component with hooks", "Class component (legacy)", "Server component (Next.js)", "Presentational vs Container", "Higher-order component (HOC)" |
-| `[COMPONENT_PROPERTIES]` | Specify the component properties | "children: ReactNode, onClick: () => void", "disabled: boolean, variant: 'primary' | 'secondary'", "data: T[], renderItem: (item: T) => JSX.Element" |
-| `[EVENT_HANDLERS]` | Specify the event handlers | "onClick, onChange, onSubmit", "onMouseEnter, onMouseLeave", "onKeyDown, onKeyUp", "onFocus, onBlur", "custom events with emit" |
-| `[STATE_MANAGEMENT]` | Specify the state management | "useState/useReducer for local state", "Redux Toolkit for global state", "Zustand for lightweight state", "React Query for server state", "Context API for prop drilling" |
-| `[STYLING_APPROACH]` | Specify the styling approach | "Tailwind CSS utility classes", "CSS Modules for scoped styles", "styled-components CSS-in-JS", "Sass/SCSS with BEM methodology", "CSS custom properties (variables)" |
-| `[RESPONSIVE_DESIGN]` | Specify the responsive design | "Mobile-first with breakpoints", "CSS Grid and Flexbox", "Container queries for components", "Fluid typography with clamp()", "Responsive images with srcset" |
-| `[ACCESSIBILITY_FEATURES]` | Specify the accessibility features | "ARIA labels and roles", "Keyboard navigation (Tab, Enter, Escape)", "Focus management and skip links", "Screen reader announcements", "Reduced motion support" |
-| `[BROWSER_SUPPORT]` | Specify the browser support | "Last 2 versions of major browsers", "Chrome 90+, Firefox 88+, Safari 14+", "IE11 not supported", "Polyfills via core-js", "Browserslist configuration" |
-| `[MOBILE_SUPPORT]` | Specify the mobile support | "Touch events and gestures", "Viewport meta tag", "Safe area insets for notch", "PWA with service worker", "Responsive touch targets (44x44px)" |
-| `[CONFIGURATION_FILES]` | Specify the configuration files | "config.yaml, settings.json", ".env files for environment-specific", "tsconfig.json, package.json", "docker-compose.yml", "Dockerfile" |
-| `[ENVIRONMENT_VARIABLES]` | Specify the environment variables | "DATABASE_URL, API_KEY, SECRET_KEY", "NODE_ENV, DEBUG, LOG_LEVEL", "AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY", "REDIS_URL, ELASTICSEARCH_URL" |
-| `[DEFAULT_VALUES]` | Specify the default values | "PORT=3000, TIMEOUT=30000", "LOG_LEVEL=INFO, DEBUG=false", "MAX_CONNECTIONS=100, POOL_SIZE=10", "CACHE_TTL=3600, RETRY_COUNT=3" |
-| `[CONFIGURATION_VALIDATION]` | Specify the configuration validation | "Pydantic Settings for Python", "Joi/Yup schema validation", "JSON Schema validation", "Type-safe config with TypeScript", "Fail fast on startup if invalid" |
-| `[RUNTIME_CONFIGURATION]` | Specify the runtime configuration | "Feature flags from remote config", "Hot reload for development", "Environment-based config selection", "Consul/etcd for distributed config", "AWS Parameter Store/Secrets Manager" |
-| `[FEATURE_FLAGS]` | Specify the feature flags | "LaunchDarkly for feature management", "Split.io for A/B testing", "Environment variable toggles", "Database-backed feature flags", "Percentage rollout support" |
-| `[LOGGING_CONFIGURATION]` | Specify the logging configuration | "Structured JSON logging", "Log levels: DEBUG, INFO, WARNING, ERROR", "Correlation ID in all logs", "Log rotation and retention", "ELK Stack or CloudWatch integration" |
-| `[SECURITY_CONFIGURATION]` | Specify the security configuration | "CORS allowed origins", "Rate limiting thresholds", "JWT secret and expiration", "HTTPS enforcement", "Content Security Policy headers" |
-| `[PERFORMANCE_CONFIGURATION]` | Specify the performance configuration | "Connection pool sizes", "Cache TTL settings", "Timeout values for external calls", "Batch sizes for bulk operations", "Worker thread counts" |
-| `[DEBUG_SETTINGS]` | Specify the debug settings | "DEBUG=true for verbose logging", "Source maps enabled", "Hot module replacement", "Profiler enabled", "Debug endpoints exposed (dev only)" |
-| `[AUTHENTICATION]` | Specify the authentication | "JWT with RS256 signing", "OAuth 2.0 authorization code flow", "Session-based with secure cookies", "API key authentication", "SAML for enterprise SSO" |
-| `[AUTHORIZATION]` | Specify the authorization | "Role-based access control (RBAC)", "Attribute-based access control (ABAC)", "Permission-based with scopes", "Resource-level ACLs", "Policy engine (OPA, Casbin)" |
-| `[INPUT_VALIDATION]` | Specify the input validation | "Whitelist validation for allowed characters", "Length and format constraints", "Type coercion with strict checking", "Sanitize HTML with DOMPurify", "Validate against JSON Schema" |
-| `[OUTPUT_ENCODING]` | Specify the output encoding | "HTML entity encoding for display", "JSON encoding for API responses", "URL encoding for query parameters", "Base64 for binary data", "UTF-8 throughout" |
-| `[SQL_INJECTION_PREVENTION]` | Specify the sql injection prevention | "Parameterized queries exclusively", "ORM with query builder", "Stored procedures with parameters", "Input validation before queries", "Principle of least privilege for DB users" |
-| `[XSS_PREVENTION]` | Specify the xss prevention | "Content Security Policy headers", "Output encoding by context", "HttpOnly and Secure cookie flags", "Sanitize user-generated HTML", "React auto-escapes by default" |
-| `[CSRF_PROTECTION]` | Specify the csrf protection | "CSRF tokens in forms", "SameSite cookie attribute", "Double submit cookie pattern", "Custom request headers for APIs", "Referer validation" |
-| `[ENCRYPTION_METHODS]` | Specify the encryption methods | "AES-256-GCM for symmetric encryption", "RSA-2048 for asymmetric", "bcrypt/Argon2 for password hashing", "PBKDF2 for key derivation", "TLS 1.3 for transport" |
-| `[SECURE_COMMUNICATIONS]` | Specify the secure communications | "HTTPS only (HSTS enabled)", "Certificate pinning for mobile", "mTLS for service-to-service", "Encrypted message queues", "VPN for sensitive networks" |
-| `[AUDIT_LOGGING]` | Specify the audit logging | "Log all authentication events", "Record data access and modifications", "Include user ID, timestamp, action, resource", "Tamper-proof log storage", "SIEM integration for analysis" |
-| `[CACHING_STRATEGY]` | Specify the caching strategy | "Redis for distributed caching", "In-memory cache with TTL", "Cache-aside pattern", "Write-through for consistency", "CDN for static assets" |
-| `[MEMORY_MANAGEMENT]` | Specify the memory management | "Object pooling for frequent allocations", "Streaming for large files", "Garbage collection tuning", "Memory limits with OOM handling", "Weak references for caches" |
-| `[CPU_OPTIMIZATION]` | Specify the cpu optimization | "Avoid unnecessary computations", "Use efficient algorithms (O(n log n) vs O(n²))", "Compile-time optimizations", "SIMD for data parallelism", "Profile and optimize hot paths" |
-| `[IO_OPTIMIZATION]` | Specify the io optimization | "Async I/O with event loop", "Buffered reads/writes", "Connection pooling", "Batch database operations", "Compress large payloads" |
-| `[DATABASE_OPTIMIZATION]` | Specify the database optimization | "Proper indexing strategy", "Query plan analysis (EXPLAIN)", "Connection pooling (PgBouncer)", "Read replicas for scaling", "Denormalization for read performance" |
-| `[NETWORK_OPTIMIZATION]` | Specify the network optimization | "HTTP/2 multiplexing", "Gzip/Brotli compression", "Connection keep-alive", "DNS prefetching", "CDN for static content" |
-| `[LAZY_LOADING]` | Specify the lazy loading | "Lazy load images below fold", "Dynamic imports for code splitting", "Virtual scrolling for long lists", "Pagination for large datasets", "On-demand data fetching" |
-| `[PARALLEL_PROCESSING]` | Specify the parallel processing | "Thread pool for CPU-bound tasks", "Process pool for isolation", "Map-reduce for distributed processing", "Parallel streams in Java", "Rayon for Rust parallelism" |
-| `[ASYNCHRONOUS_PROCESSING]` | Specify the asynchronous processing | "async/await for I/O operations", "Message queues for background jobs", "Event-driven architecture", "Promises/Futures for non-blocking", "Worker threads for CPU tasks" |
-| `[RESOURCE_POOLING]` | Specify the resource pooling | "Database connection pools", "HTTP client pools", "Thread pools with configurable size", "Object pools for expensive objects", "Graceful pool exhaustion handling" |
-| `[DEPLOYMENT_ENVIRONMENT]` | Specify the deployment environment | "AWS EKS Kubernetes cluster", "Heroku for simple deployments", "Vercel for frontend", "AWS Lambda for serverless", "On-premises Docker Swarm" |
-| `[BUILD_PROCESS]` | Specify the build process | "npm run build with Webpack/Vite", "Maven package for Java", "go build with CGO disabled", "Docker multi-stage builds", "CI/CD automated builds" |
-| `[PACKAGE_MANAGEMENT]` | Specify the package management | "npm/yarn/pnpm for JavaScript", "pip/poetry for Python", "Maven/Gradle for Java", "go mod for Go", "Cargo for Rust" |
-| `[DEPENDENCY_MANAGEMENT]` | Specify the dependency management | "Lock files for reproducible builds", "Semantic versioning constraints", "Dependabot for updates", "Security scanning with Snyk", "Private registry for internal packages" |
-| `[VERSION_CONTROL]` | Specify the version control | "Git with GitHub/GitLab", "Trunk-based development", "Feature branches with PRs", "Conventional commits", "Git tags for releases" |
-| `[CICD_PIPELINE]` | Specify the cicd pipeline | "GitHub Actions workflow", "GitLab CI/CD", "Jenkins declarative pipeline", "CircleCI orbs", "ArgoCD for GitOps" |
-| `[CONTAINER_CONFIGURATION]` | Specify the container configuration | "Dockerfile with multi-stage build", "docker-compose for local dev", "Kubernetes manifests/Helm charts", "Resource limits and health checks", "Non-root user for security" |
-| `[LOAD_BALANCING]` | Specify the load balancing | "AWS ALB for HTTP traffic", "NGINX as reverse proxy", "HAProxy for TCP/HTTP", "Kubernetes Ingress", "CloudFlare for CDN and DDoS" |
-| `[MONITORING_SETUP]` | Specify the monitoring setup | "Prometheus + Grafana stack", "Datadog APM", "New Relic", "AWS CloudWatch", "ELK Stack for logs" |
-| `[BACKUP_STRATEGY]` | Specify the backup strategy | "Daily automated database backups", "Point-in-time recovery enabled", "Cross-region replication", "30-day retention policy", "Regular restore testing" |
-| `[CODE_MAINTAINABILITY]` | Specify the code maintainability | "Single responsibility principle", "Small, focused functions (<50 lines)", "Meaningful names", "DRY - Don't Repeat Yourself", "YAGNI - You Aren't Gonna Need It" |
-| `[REFACTORING_GUIDELINES]` | Specify the refactoring guidelines | "Red-green-refactor cycle", "Extract method for duplication", "Rename for clarity", "Move to appropriate module", "Test coverage before refactoring" |
-| `[BUG_TRACKING]` | Specify the bug tracking | "Jira for enterprise", "GitHub Issues for open source", "Linear for startups", "Sentry for error tracking", "Bug templates with reproduction steps" |
-| `[ISSUE_RESOLUTION]` | Specify the issue resolution | "Triage by severity and priority", "Root cause analysis for critical bugs", "Post-mortems for incidents", "Hotfix process for production issues", "SLA-based response times" |
-| `[CODE_REVIEWS]` | Specify the code reviews | "Pull request required for main branch", "At least one approval needed", "Automated checks must pass", "Review checklist for consistency", "Constructive feedback culture" |
-| `[KNOWLEDGE_TRANSFER]` | Specify the knowledge transfer | "Pair programming sessions", "Technical documentation in wiki", "Architecture Decision Records (ADRs)", "Onboarding documentation", "Regular tech talks/demos" |
-| `[SUPPORT_DOCUMENTATION]` | Specify the support documentation | "Runbooks for common issues", "FAQ for support team", "Escalation procedures", "SLA definitions", "Contact information" |
-| `[TRAINING_MATERIALS]` | Specify the training materials | "Video tutorials for setup", "Interactive coding exercises", "Best practices guide", "Code examples repository", "Office hours for Q&A" |
-| `[USER_FEEDBACK]` | Specify the user feedback | "In-app feedback widget", "User surveys quarterly", "Feature request voting", "Beta testing program", "Customer interviews" |
-| `[CONTINUOUS_IMPROVEMENT]` | Specify the continuous improvement | "Sprint retrospectives", "Tech debt backlog", "Performance monitoring dashboards", "A/B testing for features", "Regular dependency updates" |
+### Example 3: Java Microservice with Database Integration
+**Prompt:** Generate Java Spring Boot microservice for order management with PostgreSQL, REST APIs, circuit breakers, comprehensive logging, 85% test coverage using JUnit 5 and Testcontainers.
 
-### Complex Class Generation
-```
-Generate Java code for user authentication using Spring Boot framework. The code should implement JWT token authentication with O(1) time complexity and include:
+**Expected Output:** Implementation (OrderService.java 150 lines, OrderController.java 100 lines, OrderRepository.java 40 lines): Spring Boot application with @RestController defining RESTful endpoints (GET /api/v1/orders, POST /api/v1/orders, GET /api/v1/orders/{id}, PUT /api/v1/orders/{id}/status), @Service layer containing business logic, @Repository interface extending JpaRepository for data access. OrderController methods accept @Valid @RequestBody CreateOrderRequest validating input via Bean Validation annotations (@NotNull, @Min, @Size, @Email), inject OrderService via constructor dependency injection, return ResponseEntity with appropriate HTTP status codes (201 Created, 200 OK, 404 Not Found, 400 Bad Request). OrderService methods transactional (@Transactional) ensuring ACID properties: createOrder validates inventory, calculates total, saves order, publishes OrderCreatedEvent to message queue (RabbitMQ), rollback if any step fails. OrderRepository interface provides derived queries (findByCustomerId, findByStatusAndCreatedAtAfter) and custom @Query for complex analytics. Domain model: Order entity with @Id @GeneratedValue, @ManyToOne relationship to Customer, @OneToMany cascade to OrderItems, @Enumerated(EnumType.STRING) for OrderStatus (PENDING, CONFIRMED, SHIPPED, DELIVERED, CANCELLED), audit fields @CreatedDate and @LastModifiedDate via Spring Data JPA auditing. Resilience: @CircuitBreaker on external inventory service calls (resilience4j with 50% failure threshold, 30-second open duration, fallback returning cached availability), @Retry for transient failures (3 attempts with exponential backoff 100ms, 200ms, 400ms), @Timeout preventing long-running queries (5-second limit). Security: @PreAuthorize("hasRole('ORDER_MANAGER')") restricting admin endpoints, JWT authentication via Spring Security OAuth2 Resource Server, CORS configuration allowing specific origins, input sanitization preventing SQL injection (JPA parameterized queries), password credentials stored in AWS Secrets Manager. Logging: SLF4J with Logback configuration, structured JSON logging with correlation IDs (MDC.put("requestId", UUID)), log levels DEBUG for SQL queries in dev, INFO for requests/responses, ERROR for exceptions with stack traces, @Slf4j Lombok annotation reducing boilerplate. Error handling: @ControllerAdvice global exception handler mapping exceptions to HTTP responses (EntityNotFoundException → 404, ConstraintViolationException → 400, DataIntegrityViolationException → 409), custom exceptions OrderValidationException with field-level error details, RFC 7807 Problem Details format for error responses. Tests (OrderServiceTest.java 250 lines, OrderControllerTest.java 180 lines, OrderRepositoryTest.java 120 lines, 87% coverage): @SpringBootTest integration tests with Testcontainers PostgreSQL (testImplementation 'org.testcontainers:postgresql:1.19.3'), @MockBean for external services (inventory, payment), @WebMvcTest for controller layer testing MockMvc, @DataJpaTest for repository tests, AssertJ for fluent assertions, Mockito for behavior verification (verify(orderRepository).save(orderArgumentCaptor.capture())), test data builders (OrderTestDataBuilder providing fluent interface for test fixtures), parameterized tests with @MethodSource for multiple scenarios. Documentation: OpenAPI 3.0 via springdoc-openapi-ui, @Operation and @ApiResponse annotations describing endpoints, auto-generated Swagger UI at /swagger-ui.html, @Schema annotations on DTOs documenting field constraints, example values in annotations, Javadoc on public classes and methods. Configuration: application.yml with profiles (dev, test, prod), environment variables for secrets (DATABASE_URL, JWT_SECRET), Hibernate properties (ddl-auto: validate in prod, show-sql: true in dev), connection pooling HikariCP with maximumPoolSize: 20, Jackson JSON configuration (snake_case property naming, ISO-8601 dates). Deployment: Dockerfile multi-stage build (Maven compile in builder image 'maven:3.9-eclipse-temurin-17', copy JAR to runtime 'eclipse-temurin:17-jre-alpine'), Kubernetes manifests with ConfigMap for application.yml, Secret for credentials, Service exposing port 8080, Deployment with readiness/liveness probes (GET /actuator/health), HorizontalPodAutoscaler scaling 2-10 replicas at 70% CPU. Dependencies: pom.xml with spring-boot-starter-web:3.2.0, spring-boot-starter-data-jpa, postgresql:42.7.1, spring-boot-starter-validation, resilience4j-spring-boot3, springdoc-openapi-starter-webmvc-ui, testcontainers-junit-jupiter for testing, lombok, mapstruct for DTO mapping. Performance: API responds <100ms p95 for simple queries, <500ms for complex aggregations, database connection pool tuned for 50 concurrent requests, caching frequently accessed data (product details, customer info) in Redis reducing database load 60%, pagination for large result sets (default page size 20, max 100).
 
-Class Structure:
-- UserAuthService class inheriting from BaseAuthService
-- Properties: tokenManager (JwtTokenManager), userRepository (UserRepository)
-- Methods: authenticate, validateToken, refreshToken with public visibility
-- Constructor accepting TokenManager and UserRepository dependencies
+---
 
-Security Implementation:
-- Add input validation for username/password
-- Implement JWT token authentication and role-based authorization
-- Prevent SQL injection and XSS attacks
-- Use BCrypt encryption for password hashing
+## Cross-References
 
-### Integration Requirements
-- Connect to MySQL database using JPA/Hibernate
-- Integrate with REST API using Bearer token authentication
-- Handle Authorization headers and JSON response format
-- Implement Redis caching for performance
-```
-
-
-
-## Related Resources
-
-### Complementary Templates
-
-Enhance your workflow by combining this template with:
-
-- **[Cloud Architecture Framework](cloud-architecture-framework.md)** - Complementary approaches and methodologies
-- **[Site Reliability Engineering](site-reliability-engineering.md)** - Complementary approaches and methodologies
-- **[Cloud Migration Strategy](cloud-migration-strategy.md)** - Strategic planning and execution frameworks
-
-### Suggested Workflow
-
-**Typical implementation sequence**:
-
-1. Start with this template (Code Generation Template)
-2. Use [Cloud Architecture Framework](cloud-architecture-framework.md) for deeper analysis
-3. Apply [Site Reliability Engineering](site-reliability-engineering.md) for execution
-4. Iterate and refine based on results
-
-### Explore More in This Category
-
-Browse all **[technology/Software Development](../../technology/Software Development/)** templates for related tools and frameworks.
-
-### Common Use Case Combinations
-
-- **Creating generate high-quality code including functions, classes, algorithms, and complete applications with comprehensive documentation and best practices.**: Combine this template with related analytics and strategy frameworks
-- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
-- **Strategy development**: Combine this template with related analytics and strategy frameworks
-
-## Best Practices
-
-1. **Always specify the exact programming language and framework**
-2. **Include comprehensive error handling and validation**
-3. **Specify performance and security requirements**
-4. **Request both implementation and test code**
-5. **Ask for documentation and usage examples**
-6. **Define clear input/output specifications**
-7. **Include deployment and configuration considerations**
-8. **Specify coding standards and style guidelines**
-9. **Request scalability and maintainability features**
-10. **Include integration requirements and dependencies**
+- [Architecture Design](architecture-design.md) - System-level patterns informing code structure, microservices boundaries, API design
+- [Testing and QA Strategy](testing-qa.md) - Comprehensive testing approaches, test pyramid, TDD/BDD methodologies
+- [Version Control](version-control.md) - Git workflow for code reviews, commit standards, branching strategies
+- [Security Best Practices](../Security/security-best-practices.md) - Secure coding standards, OWASP Top 10 mitigations, authentication patterns

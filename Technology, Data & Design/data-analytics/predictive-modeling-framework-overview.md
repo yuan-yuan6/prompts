@@ -1,67 +1,97 @@
 ---
-title: Predictive Modeling Framework - Overview & Navigation
 category: data-analytics
+title: Predictive Modeling Framework - Quick Navigation
 tags:
-- data-science
 - predictive-modeling
 - machine-learning
-parent_prompt: predictive-modeling-framework (split into 3 parts)
-last_updated: 2025-11-11
+- data-science
+use_cases:
+- Quickly navigating to appropriate predictive modeling template
+- Understanding the predictive modeling workflow phases
+related_templates:
+- data-analytics/predictive-modeling-framework.md
+- data-analytics/predictive-modeling-framework-01-data-preparation.md
+- data-analytics/predictive-modeling-framework-02-model-development.md
+- data-analytics/predictive-modeling-framework-03-deployment.md
 industries:
 - technology
-type: template
+- finance
+- healthcare
+- retail
+- manufacturing
+type: framework
 difficulty: intermediate
 slug: predictive-modeling-framework-overview
 ---
 
-# Predictive Modeling Framework - Overview & Navigation
+# Predictive Modeling Framework - Quick Navigation
 
 ## Purpose
-This comprehensive framework has been split into 3 focused sub-prompts for easier navigation and use.
+Quick reference guide routing you to the appropriate template for your current predictive modeling phase.
 
-## Quick Navigation Prompt
-> I need to build a [classification/regression/forecasting] model for [use case]. Current stage: [data prep/model training/deployment]. Help me navigate: (1) Which part of the framework should I use? (2) What are the key sections for my stage? (3) What outputs should I produce before moving to the next part?
+---
 
-## Framework Structure
+## Template Selection Guide
 
-### Part 1: Data Preparation & Feature Engineering (Lines 1-366)
-**File:** `predictive-modeling-framework-01-data-preparation.md`
+### New to Predictive Modeling?
+**Start here:** [Predictive Modeling Framework](predictive-modeling-framework.md)
+- Comprehensive overview of the complete workflow
+- Helps you plan your project from start to finish
+- Guides you through problem definition, timeline estimation, and resource planning
 
-**Use this part when you need to:**
-- Clean and preprocess raw data for modeling
-- Handle missing values, outliers, and data quality issues
-- Engineer features from existing data columns
-- Create training/validation/test splits
-- Address class imbalance and sampling strategies
+### Working on Data Preparation?
+**Go to:** [Data Preparation and Feature Engineering](predictive-modeling-framework-01-data-preparation.md)
+- Handling missing values, outliers, and data quality issues
+- Engineering features from raw data
+- Encoding categorical variables and scaling numeric features
+- Designing train-test splits preventing data leakage
 
-### Part 2: Model Development & Evaluation (Lines 367-626)
-**File:** `predictive-modeling-framework-02-model-development.md`
+### Building and Training Models?
+**Go to:** [Model Development and Evaluation](predictive-modeling-framework-02-model-development.md)
+- Selecting algorithms (regression, classification, time-series)
+- Tuning hyperparameters for optimal performance
+- Building ensemble models for improved accuracy
+- Evaluating models with appropriate metrics
+- Balancing accuracy vs interpretability
 
-**Use this part when you need to:**
-- Select appropriate algorithms for your problem type
-- Train and tune model hyperparameters
-- Evaluate model performance with appropriate metrics
-- Compare multiple models and select the best approach
-- Interpret model results and feature importance
+### Deploying to Production?
+**Go to:** [Model Deployment and Monitoring](predictive-modeling-framework-03-deployment.md)
+- Deploying models via batch, real-time API, or streaming
+- Monitoring model performance and detecting drift
+- Implementing automated retraining pipelines
+- Establishing governance and compliance controls
 
-### Part 3: Deployment & Monitoring (Lines 627-1075)
-**File:** `predictive-modeling-framework-03-deployment.md`
+---
 
-**Use this part when you need to:**
-- Deploy models to production environments
-- Set up model serving infrastructure
-- Implement monitoring for model drift and performance
-- Create retraining pipelines and triggers
-- Establish governance and documentation
+## Typical Workflow
 
-## Quick Navigation
+1. **Plan** → Use [Framework Overview](predictive-modeling-framework.md) to scope project
+2. **Prepare Data** → Use [Data Preparation](predictive-modeling-framework-01-data-preparation.md)
+3. **Build Models** → Use [Model Development](predictive-modeling-framework-02-model-development.md)
+4. **Deploy** → Use [Deployment](predictive-modeling-framework-03-deployment.md)
+5. **Monitor & Iterate** → Return to steps 2-4 as needed
 
-**Complete Workflow:**
-1. Start with Part 1 for data preparation & feature engineering
-2. Start with Part 2 for model development & evaluation
-3. Start with Part 3 for deployment & monitoring
+---
 
-## Related Resources
-- Part 1: Data Preparation & Feature Engineering
-- Part 2: Model Development & Evaluation
-- Part 3: Deployment & Monitoring
+## Quick Decision Tree
+
+**What's your current need?**
+
+- "I need to plan a modeling project" → [Framework Overview](predictive-modeling-framework.md)
+- "I have raw data to clean" → [Data Preparation](predictive-modeling-framework-01-data-preparation.md)
+- "I need to engineer features" → [Data Preparation](predictive-modeling-framework-01-data-preparation.md)
+- "I need to select an algorithm" → [Model Development](predictive-modeling-framework-02-model-development.md)
+- "I need to tune hyperparameters" → [Model Development](predictive-modeling-framework-02-model-development.md)
+- "I need to deploy a model" → [Deployment](predictive-modeling-framework-03-deployment.md)
+- "I need to monitor model performance" → [Deployment](predictive-modeling-framework-03-deployment.md)
+
+---
+
+## All Templates at a Glance
+
+| Template | Focus | Best For | Estimated Time |
+|----------|-------|----------|----------------|
+| [Framework Overview](predictive-modeling-framework.md) | Project planning | First-time users, project scoping | 1-2 hours |
+| [Data Preparation](predictive-modeling-framework-01-data-preparation.md) | Data cleaning & features | Data quality issues, feature engineering | 1-2 weeks |
+| [Model Development](predictive-modeling-framework-02-model-development.md) | Algorithm selection & training | Building and evaluating models | 2-4 weeks |
+| [Deployment](predictive-modeling-framework-03-deployment.md) | Production deployment | Operationalizing models | 1-2 weeks |

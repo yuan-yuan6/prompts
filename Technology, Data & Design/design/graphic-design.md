@@ -1,607 +1,134 @@
 ---
 category: design
-last_updated: 2025-11-09
-related_templates:
-- content-creation/creative-writing-framework.md
-- content-creation/video-production-pipeline.md
+title: Graphic Design Project Planning
 tags:
-- design
 - graphic-design
 - branding
 - print-design
-title: Graphic Design Template
+- visual-communication
 use_cases:
-- Creating comprehensive graphic design solutions including layouts, branding, and
-  visuals for both digital and print media across various applications.
-- Project planning and execution
-- Strategy development
+- Designing brand identities and visual systems for businesses
+- Creating print collateral including brochures, posters, and packaging
+- Developing digital graphics for web, social media, and advertising
+- Planning multi-channel design projects from concept through production
+related_templates:
+- content-creation/creative-writing-framework.md
+- design/brand-identity-design.md
+- design/graphic-design-comprehensive.md
 industries:
-- government
-- healthcare
-- manufacturing
 - retail
-type: template
+- healthcare
+- technology
+- manufacturing
+- government
+type: framework
 difficulty: intermediate
 slug: graphic-design
 ---
 
-# Graphic Design Template
+# Graphic Design Project Planning
 
 ## Purpose
-Create comprehensive graphic design solutions including layouts, branding, and visuals for both digital and print media across various applications.
+Plan and execute graphic design projects covering brand identity, print collateral, digital graphics, and packaging across applications ensuring strategic visual communication aligned with business objectives and brand consistency.
 
-## Quick Visual Design Prompt
-Create [design type: brand identity/print materials/digital assets/packaging] for [project name] targeting [audience]. Brand personality: [3 adjectives]. Color palette: [X colors]. Typography: [font families]. Deliver: [primary deliverables], format specs [print: CMYK 300dpi / digital: RGB 72dpi], and brand usage guidelines for consistent application.
+## 🚀 Quick Graphic Design Prompt
 
-## Quick Start
-
-Need a design brief that delivers professional results? Here's your fast track:
-
-1. **Define your project scope** - Logo redesign? Full brand identity? Event materials? Be specific
-2. **Know your audience** - Who sees this design and what should they feel?
-3. **Establish visual direction** - Pick 2-3 reference designs that capture your vision
-4. **Set constraints** - Colors (3-5 max), fonts (2-3 families), and format specs
-5. **Prioritize deliverables** - Start with the hero asset (logo, main poster, key webpage)
-
-**Try this:** Use the Corporate Rebrand example below to brief your first design project. Fill in the bracketed variables with your specifics, and you'll have a comprehensive creative brief that ensures alignment before a single pixel is pushed. Focus on the essentials first, then expand to secondary applications.
-
-## Template
-
-```
-You are a graphic design expert. Create [DESIGN_TYPE] for [PROJECT_NAME] targeting [TARGET_AUDIENCE] with a focus on [DESIGN_OBJECTIVE].
-
-DESIGN PROJECT BRIEF:
-Project Overview:
-- Project name: [PROJECT_NAME]
-- Client/Brand: [CLIENT_BRAND]
-- Design category: [DESIGN_CATEGORY] (Print/Digital/Branding/Packaging)
-- Project scope: [PROJECT_SCOPE]
-- Timeline: [PROJECT_TIMELINE]
-- Budget range: [BUDGET_RANGE]
-- Team composition: [TEAM_COMPOSITION]
-- Creative direction: [CREATIVE_DIRECTION]
-
-### Brand Requirements
-- Brand identity: [BRAND_IDENTITY]
-- Brand values: [BRAND_VALUES]
-- Brand personality: [BRAND_PERSONALITY]
-- Target demographic: [TARGET_DEMOGRAPHIC]
-- Brand positioning: [BRAND_POSITIONING]
-- Competitive landscape: [COMPETITIVE_LANDSCAPE]
-- Brand guidelines: [BRAND_GUIDELINES]
-- Logo variations: [LOGO_VARIATIONS]
-
-### Design Objectives
-- Primary goal: [PRIMARY_GOAL]
-- Secondary goals: [SECONDARY_GOALS]
-- Success metrics: [SUCCESS_METRICS]
-- Key messages: [KEY_MESSAGES]
-- Call-to-action: [CALL_TO_ACTION]
-- Emotional response: [EMOTIONAL_RESPONSE]
-
-### LAYOUTS & COMPOSITIONS
-
-### Layout Principles
-- Grid system: [GRID_SYSTEM]
-- Layout structure: [LAYOUT_STRUCTURE]
-- Visual hierarchy: [VISUAL_HIERARCHY]
-- Balance type: [BALANCE_TYPE] (Symmetrical/Asymmetrical/Radial)
-- Proportion system: [PROPORTION_SYSTEM]
-- White space strategy: [WHITE_SPACE]
-- Alignment principles: [ALIGNMENT_PRINCIPLES]
-- Focal points: [FOCAL_POINTS]
-
-### Print Layout Specifications
-- Paper size: [PAPER_SIZE] (A4/Letter/Custom)
-- Orientation: [ORIENTATION] (Portrait/Landscape)
-- Margins: [MARGIN_SPECS]
-- Bleed area: [BLEED_SPECS]
-- Safety margins: [SAFETY_MARGINS]
-- Print resolution: [PRINT_RESOLUTION]
-- Color mode: [COLOR_MODE] (CMYK/RGB/Pantone)
-- Fold specifications: [FOLD_SPECS]
-
-### Digital Layout Specifications
-- Canvas dimensions: [CANVAS_DIMENSIONS]
-- Resolution: [DIGITAL_RESOLUTION]
-- Aspect ratio: [ASPECT_RATIO]
-- Device compatibility: [DEVICE_COMPATIBILITY]
-- Screen densities: [SCREEN_DENSITIES]
-- Format requirements: [FORMAT_REQUIREMENTS]
-- Animation specs: [ANIMATION_SPECS]
-- Interactive elements: [INTERACTIVE_ELEMENTS]
-
-Multi-Page Layouts:
-- Master page setup: [MASTER_PAGE]
-- Page numbering: [PAGE_NUMBERING]
-- Header/footer design: [HEADER_FOOTER]
-- Chapter openers: [CHAPTER_OPENERS]
-- Section dividers: [SECTION_DIVIDERS]
-- Table of contents: [TOC_DESIGN]
-- Index design: [INDEX_DESIGN]
-
-### BRANDING ELEMENTS
-
-### Logo Design
-- Logo concept: [LOGO_CONCEPT]
-- Logo style: [LOGO_STYLE] (Wordmark/Symbol/Combination)
-- Symbol meaning: [SYMBOL_MEANING]
-- Typography choice: [LOGO_TYPOGRAPHY]
-- Color rationale: [LOGO_COLOR_RATIONALE]
-- Scalability: [LOGO_SCALABILITY]
-- Variations: [LOGO_VARIATIONS]
-- Usage guidelines: [LOGO_USAGE]
-
-### Brand Identity System
-- Primary logo: [PRIMARY_LOGO]
-- Secondary logos: [SECONDARY_LOGOS]
-- Logomarks: [LOGOMARKS]
-- Monochrome versions: [MONOCHROME_LOGOS]
-- Reversed logos: [REVERSED_LOGOS]
-- Icon system: [ICON_SYSTEM]
-- Brand patterns: [BRAND_PATTERNS]
-- Brand textures: [BRAND_TEXTURES]
-
-### Brand Applications
-- Business cards: [BUSINESS_CARD_DESIGN]
-- Letterhead: [LETTERHEAD_DESIGN]
-- Envelope design: [ENVELOPE_DESIGN]
-- Email signatures: [EMAIL_SIGNATURE]
-- Social media templates: [SOCIAL_TEMPLATES]
-- Website headers: [WEB_HEADERS]
-- Signage design: [SIGNAGE_DESIGN]
-- Vehicle wraps: [VEHICLE_WRAPS]
-
-### Merchandise Design
-- Apparel design: [APPAREL_DESIGN]
-- Promotional items: [PROMO_ITEMS]
-- Packaging design: [PACKAGING_DESIGN]
-- Trade show materials: [TRADESHOW_MATERIALS]
-- Gift items: [GIFT_ITEMS]
-- Corporate gifts: [CORPORATE_GIFTS]
-
-### VISUAL DESIGN ELEMENTS
-
-### Color System
-### Primary Colors
-- Primary color 1: [PRIMARY_COLOR_1] - Hex: [HEX_1] - RGB: [RGB_1] - CMYK: [CMYK_1]
-- Primary color 2: [PRIMARY_COLOR_2] - Hex: [HEX_2] - RGB: [RGB_2] - CMYK: [CMYK_2]
-- Primary color 3: [PRIMARY_COLOR_3] - Hex: [HEX_3] - RGB: [RGB_3] - CMYK: [CMYK_3]
-
-### Secondary Colors
-- Secondary color 1: [SECONDARY_COLOR_1] - Usage: [SECONDARY_USAGE_1]
-- Secondary color 2: [SECONDARY_COLOR_2] - Usage: [SECONDARY_USAGE_2]
-- Secondary color 3: [SECONDARY_COLOR_3] - Usage: [SECONDARY_USAGE_3]
-
-### Accent Colors
-- Accent color 1: [ACCENT_COLOR_1] - Purpose: [ACCENT_PURPOSE_1]
-- Accent color 2: [ACCENT_COLOR_2] - Purpose: [ACCENT_PURPOSE_2]
-- Accent color 3: [ACCENT_COLOR_3] - Purpose: [ACCENT_PURPOSE_3]
-
-### Neutral Colors
-- Dark neutral: [DARK_NEUTRAL] - Usage: [DARK_USAGE]
-- Medium neutral: [MEDIUM_NEUTRAL] - Usage: [MEDIUM_USAGE]
-- Light neutral: [LIGHT_NEUTRAL] - Usage: [LIGHT_USAGE]
-- White/Off-white: [WHITE_VARIANT] - Usage: [WHITE_USAGE]
-
-### Typography System
-### Primary Typeface
-- Font family: [PRIMARY_FONT]
-- Font style: [PRIMARY_STYLE]
-- Font weights: [PRIMARY_WEIGHTS]
-- Character set: [PRIMARY_CHARACTER_SET]
-- License type: [PRIMARY_LICENSE]
-- Usage context: [PRIMARY_USAGE_CONTEXT]
-
-### Secondary Typeface
-- Font family: [SECONDARY_FONT]
-- Font style: [SECONDARY_STYLE]
-- Font weights: [SECONDARY_WEIGHTS]
-- Pairing rationale: [PAIRING_RATIONALE]
-- Usage context: [SECONDARY_USAGE_CONTEXT]
-
-### Display Typeface
-- Font family: [DISPLAY_FONT]
-- Usage: [DISPLAY_USAGE]
-- Size limitations: [SIZE_LIMITATIONS]
-- Special effects: [SPECIAL_EFFECTS]
-
-### Typography Hierarchy
-- H1 Heading: [H1_SPECS] - Size: [H1_SIZE] - Weight: [H1_WEIGHT]
-- H2 Heading: [H2_SPECS] - Size: [H2_SIZE] - Weight: [H2_WEIGHT]
-- H3 Heading: [H3_SPECS] - Size: [H3_SIZE] - Weight: [H3_WEIGHT]
-- Body text: [BODY_SPECS] - Size: [BODY_SIZE] - Leading: [BODY_LEADING]
-- Caption text: [CAPTION_SPECS] - Size: [CAPTION_SIZE] - Usage: [CAPTION_USAGE]
-
-### IMAGERY & GRAPHICS
-
-### Photography Style
-- Photography direction: [PHOTO_DIRECTION]
-- Color treatment: [COLOR_TREATMENT]
-- Lighting style: [LIGHTING_STYLE]
-- Composition style: [COMPOSITION_STYLE]
-- Subject matter: [SUBJECT_MATTER]
-- Mood/atmosphere: [PHOTO_MOOD]
-- Technical specs: [PHOTO_TECH_SPECS]
-- Stock photo guidelines: [STOCK_GUIDELINES]
-
-### Illustration Style
-- Illustration style: [ILLUSTRATION_STYLE]
-- Art direction: [ART_DIRECTION]
-- Color palette: [ILLUSTRATION_COLORS]
-- Line weight: [LINE_WEIGHT]
-- Texture usage: [TEXTURE_USAGE]
-- Stylization level: [STYLIZATION_LEVEL]
-- Subject treatment: [SUBJECT_TREATMENT]
-- Cultural considerations: [CULTURAL_CONSIDERATIONS]
-
-### Icon System
-- Icon style: [ICON_STYLE] (Line/Filled/Outlined)
-- Icon weight: [ICON_WEIGHT]
-- Corner radius: [ICON_CORNERS]
-- Grid system: [ICON_GRID]
-- Size variations: [ICON_SIZES]
-- Icon families: [ICON_FAMILIES]
-- Usage guidelines: [ICON_USAGE]
-- Accessibility specs: [ICON_ACCESSIBILITY]
-
-### Pattern & Texture
-- Pattern style: [PATTERN_STYLE]
-- Pattern scale: [PATTERN_SCALE]
-- Repeat method: [REPEAT_METHOD]
-- Texture application: [TEXTURE_APPLICATION]
-- Background treatments: [BACKGROUND_TREATMENTS]
-- Overlay effects: [OVERLAY_EFFECTS]
-
-### SPECIFIC DESIGN APPLICATIONS
-
-### Print Design
-### Brochure Design
-- Format: [BROCHURE_FORMAT] (Tri-fold/Bi-fold/Z-fold/Custom)
-- Panel layout: [PANEL_LAYOUT]
-- Cover design: [COVER_DESIGN]
-- Inside spread: [INSIDE_SPREAD]
-- Back panel: [BACK_PANEL]
-- Print specifications: [PRINT_SPECS]
-
-### Poster Design
-- Size specification: [POSTER_SIZE]
-- Viewing distance: [VIEWING_DISTANCE]
-- Hierarchy emphasis: [HIERARCHY_EMPHASIS]
-- Visual impact: [VISUAL_IMPACT]
-- Information density: [INFO_DENSITY]
-- Location considerations: [LOCATION_CONSIDERATIONS]
-
-### Magazine Layout
-- Page grid: [MAGAZINE_GRID]
-- Article layout: [ARTICLE_LAYOUT]
-- Feature spreads: [FEATURE_SPREADS]
-- Department pages: [DEPARTMENT_PAGES]
-- Advertising integration: [AD_INTEGRATION]
-- Typography treatment: [TYPOGRAPHY_TREATMENT]
-
-### Business Collateral
-- Business card layout: [BUSINESS_CARD_LAYOUT]
-- Letterhead design: [LETTERHEAD_LAYOUT]
-- Folder design: [FOLDER_DESIGN]
-- Presentation template: [PRESENTATION_TEMPLATE]
-- Report covers: [REPORT_COVERS]
-
-### Digital Design
-### Social Media Graphics
-- Platform specifications: [PLATFORM_SPECS]
-- Content series design: [SERIES_DESIGN]
-- Story templates: [STORY_TEMPLATES]
-- Post templates: [POST_TEMPLATES]
-- Cover/header images: [COVER_IMAGES]
-- Profile image variations: [PROFILE_VARIATIONS]
-
-### Web Graphics
-- Banner designs: [WEB_BANNERS]
-- Hero images: [HERO_IMAGES]
-- Icon sets: [WEB_ICON_SETS]
-- Button designs: [BUTTON_DESIGNS]
-- Background patterns: [BG_PATTERNS]
-- Loading animations: [LOADING_GRAPHICS]
-
-### Email Design
-- Header design: [EMAIL_HEADER]
-- Template layout: [EMAIL_TEMPLATE]
-- Footer design: [EMAIL_FOOTER]
-- Mobile optimization: [MOBILE_EMAIL]
-- CTA button design: [EMAIL_CTA]
-- Newsletter layout: [NEWSLETTER_LAYOUT]
-
-### Digital Advertising
-- Banner ad sizes: [BANNER_SIZES]
-- Animated elements: [ANIMATED_ELEMENTS]
-- Click-through design: [CLICKTHROUGH_DESIGN]
-- A/B test variations: [AB_VARIATIONS]
-- Platform adaptations: [PLATFORM_ADAPTATIONS]
-
-### PACKAGING DESIGN
-
-### Package Structure
-- Package type: [PACKAGE_TYPE]
-- Structural design: [STRUCTURAL_DESIGN]
-- Opening mechanism: [OPENING_MECHANISM]
-- Material specifications: [MATERIAL_SPECS]
-- Size constraints: [SIZE_CONSTRAINTS]
-- Shipping considerations: [SHIPPING_CONSIDERATIONS]
-- Sustainability features: [SUSTAINABILITY_FEATURES]
-
-### Label Design
-- Primary display panel: [PRIMARY_PANEL]
-- Information panel: [INFO_PANEL]
-- Ingredient panel: [INGREDIENT_PANEL]
-- Legal requirements: [LEGAL_REQUIREMENTS]
-- Barcode placement: [BARCODE_PLACEMENT]
-- Nutritional information: [NUTRITIONAL_INFO]
-- Regulatory compliance: [REGULATORY_COMPLIANCE]
-
-### Brand Consistency
-- Brand element integration: [BRAND_INTEGRATION]
-- Color accuracy: [COLOR_ACCURACY]
-- Typography application: [TYPOGRAPHY_APPLICATION]
-- Logo placement: [LOGO_PLACEMENT]
-- Brand pattern usage: [PATTERN_USAGE]
-- Photography integration: [PHOTO_INTEGRATION]
-
-### DESIGN PRODUCTION
-
-### File Preparation
-- Working files: [WORKING_FILES]
-- Final formats: [FINAL_FORMATS]
-- Resolution settings: [RESOLUTION_SETTINGS]
-- Color profiles: [COLOR_PROFILES]
-- Font embedding: [FONT_EMBEDDING]
-- Bleed settings: [BLEED_SETTINGS]
-- Crop marks: [CROP_MARKS]
-- Color bars: [COLOR_BARS]
-
-### Print Production
-- Printing method: [PRINTING_METHOD]
-- Paper selection: [PAPER_SELECTION]
-- Finishing options: [FINISHING_OPTIONS]
-- Binding specifications: [BINDING_SPECS]
-- Special effects: [SPECIAL_EFFECTS]
-- Proofing process: [PROOFING_PROCESS]
-- Quality control: [QUALITY_CONTROL]
-
-### Digital Export
-- Web formats: [WEB_FORMATS]
-- Compression settings: [COMPRESSION_SETTINGS]
-- Optimization: [OPTIMIZATION_SETTINGS]
-- Device variants: [DEVICE_VARIANTS]
-- Platform specifications: [PLATFORM_REQUIREMENTS]
-- Animation exports: [ANIMATION_EXPORTS]
-
-### CREATIVE CONCEPTS
-
-### Concept Development
-- Creative strategy: [CREATIVE_STRATEGY]
-- Visual metaphors: [VISUAL_METAPHORS]
-- Conceptual approach: [CONCEPTUAL_APPROACH]
-- Artistic influences: [ARTISTIC_INFLUENCES]
-- Cultural references: [CULTURAL_REFERENCES]
-- Symbolic elements: [SYMBOLIC_ELEMENTS]
-- Narrative elements: [NARRATIVE_ELEMENTS]
-
-### Style Exploration
-- Style direction 1: [STYLE_DIRECTION_1]
-- Style direction 2: [STYLE_DIRECTION_2]
-- Style direction 3: [STYLE_DIRECTION_3]
-- Style rationale: [STYLE_RATIONALE]
-- Trend incorporation: [TREND_INCORPORATION]
-- Timeless elements: [TIMELESS_ELEMENTS]
-
-### Creative Execution
-- Execution method: [EXECUTION_METHOD]
-- Technical approach: [TECHNICAL_APPROACH]
-- Special techniques: [SPECIAL_TECHNIQUES]
-- Innovation elements: [INNOVATION_ELEMENTS]
-- Craft quality: [CRAFT_QUALITY]
-- Attention to detail: [DETAIL_ATTENTION]
-
-### DESIGN OUTPUT
-[Generate comprehensive graphic design solution with all specified elements]
-
-Project: [FINAL_PROJECT_NAME]
-Design Type: [FINAL_DESIGN_TYPE]
-
-[COMPLETE_DESIGN_SOLUTION]
+> Design **[PROJECT_TYPE]** for **[CLIENT]** targeting **[AUDIENCE]**. Execute across: (1) **Visual concept**—what brand personality (professional/energetic/technical), color palette (primary + accent), typography (2-3 fonts)? (2) **Design approach**—what style (minimalist/bold/classic), layout principles (grid system, hierarchy), imagery direction? (3) **Applications**—what deliverables (logo, business cards, website, packaging) with specs? (4) **Technical requirements**—what formats (print: CMYK 300dpi, bleed 0.125", digital: RGB, device sizes)? (5) **Brand guidelines**—what usage rules, color values (HEX/RGB/CMYK/Pantone), spacing standards? Deliver primary design, 3 variations, style guide, and production-ready files.
 
 ---
 
-### Design Deliverables
-- Layouts created: [LAYOUT_COUNT]
-- Brand elements: [BRAND_ELEMENT_COUNT]
-- Visual assets: [VISUAL_ASSET_COUNT]
-- Applications: [APPLICATION_COUNT]
-- File formats: [FORMAT_COUNT]
-- Print specifications: [PRINT_SPEC_COUNT]
+## Template
 
-OUTPUT: Deliver comprehensive graphic design with:
-1. Strategic layouts and compositions
-2. Complete branding system
-3. Professional visual elements
-4. Print and digital applications
-5. Production-ready files
-6. Brand guidelines documentation
-7. Technical specifications
-```
+Design {PROJECT_TYPE} for {CLIENT} targeting {AUDIENCE} expressing {BRAND_PERSONALITY} across {PLATFORMS}.
 
-## Variables
+**PROJECT SCOPING AND BRAND STRATEGY**
 
-### Core Project Variables
-| Variable | Description | Examples |
-|----------|-------------|----------|
-| `DESIGN_TYPE` | Type of design deliverable | "Brand identity system", "Marketing collateral", "Product packaging" |
-| `PROJECT_NAME` | Name of the design project | "TechVision Rebranding", "Q4 Campaign Materials" |
-| `TARGET_AUDIENCE` | Primary audience for the design | "B2B executives", "Gen Z consumers", "Healthcare professionals" |
-| `DESIGN_OBJECTIVE` | Primary goal of the design | "Increase brand recognition", "Drive conversions", "Modernize image" |
-| `DESIGN_CATEGORY` | Category of design work | "Print", "Digital", "Branding", "Packaging" |
-| `PROJECT_SCOPE` | Deliverables included | "Logo, business cards, website, signage" |
-| `PROJECT_TIMELINE` | Duration of the project | "6 weeks", "Q1 2025" |
-| `BUDGET_RANGE` | Budget constraints | "$5,000-$10,000", "Enterprise budget" |
+Define project scope establishing clear boundaries and deliverables. Logo redesign projects include logo variations (full color, monochrome, reversed), minimum size specifications (0.5" print, 24px digital), clear space guidelines (equal to logo height), file formats (AI, EPS, PNG, SVG). Complete brand identity expands including business card (3.5×2"), letterhead (8.5×11"), presentation template (16:9 PowerPoint), email signature, social media templates (Instagram 1080×1080, LinkedIn 1200×627, Facebook 1200×630). Marketing campaign encompasses specific applications: 3 poster sizes (11×17", 18×24", 24×36"), tri-fold brochure, digital ads (Google Display: 300×250, 728×90, 160×600), social media series (15-20 graphics).
 
-### Brand Variables
-| Variable | Description | Examples |
-|----------|-------------|----------|
-| `BRAND_IDENTITY` | Core brand description | "Innovative tech company", "Luxury lifestyle brand" |
-| `BRAND_VALUES` | Key brand values | "Innovation, Trust, Sustainability" |
-| `BRAND_PERSONALITY` | Brand character traits | "Professional yet approachable", "Bold and disruptive" |
-| `BRAND_POSITIONING` | Market position | "Premium B2B solution", "Affordable alternative" |
+Establish brand personality translating abstract values into visual decisions. Professional trustworthy brands use conservative colors (navy, gray), serif or clean sans-serif fonts, generous whitespace, symmetrical layouts suitable for finance, healthcare, legal services. Energetic friendly brands employ vibrant colors (orange, teal, purple), rounded sans-serifs, dynamic asymmetric layouts, playful illustrations appropriate for consumer products, fitness, children's brands. Technical precise brands feature monochromatic schemes, geometric fonts, grid-based layouts, data visualization aesthetics for software companies, engineering firms.
 
-### Visual Design Variables
-| Variable | Description | Examples |
-|----------|-------------|----------|
-| `PRIMARY_COLOR_1` | Main brand color | "Deep Blue", "Forest Green" |
-| `HEX_1` | Hex color code | "#1A365D", "#2F855A" |
-| `PRIMARY_FONT` | Main typeface | "Inter", "Playfair Display" |
-| `GRID_SYSTEM` | Layout grid structure | "12-column responsive", "8pt baseline grid" |
-| `LOGO_STYLE` | Type of logo design | "Wordmark", "Symbol", "Combination mark" |
+Conduct competitive analysis identifying visual differentiation opportunities. Audit 5-7 direct competitors documenting color palettes, typography, design styles revealing saturation patterns: financial services dominated by blue-gray suggesting warm earth-tone differentiation maintaining professionalism, tech startups crowded with geometric sans-serifs and gradients enabling friendly hand-drawn or bold serif differentiation. Document gaps and whitespace: if competitors use photography, illustration differentiates; if all use minimalism, strategic complexity stands out.
 
-### Production Variables
-| Variable | Description | Examples |
-|----------|-------------|----------|
-| `PAPER_SIZE` | Print dimensions | "A4", "Letter", "11x17" |
-| `COLOR_MODE` | Color specification | "CMYK for print", "RGB for digital" |
-| `PRINT_RESOLUTION` | Output resolution | "300 DPI", "150 DPI for large format" |
-| `FINAL_FORMATS` | Deliverable file types | "AI, PDF, PNG, SVG" |
+Set realistic timelines accounting for revision cycles and approval processes. Simple logo design: 2 weeks (discovery 3 days, concepts 4 days, revisions 4 days, finalization 3 days). Complete brand identity: 6-8 weeks (research 1 week, logo 2 weeks, applications 2-3 weeks, guidelines 1 week, revisions throughout). Complex campaign: 8-12 weeks (strategy 2 weeks, concepting 2 weeks, production 4-6 weeks, revisions 2 weeks). Build 30-40% buffer for client feedback delays, revision requests, technical issues.
+
+**COLOR SYSTEM DEVELOPMENT**
+
+Design primary color with strategic rationale and comprehensive specifications. Document emotional associations and competitive positioning: "Primary navy #1A365D chosen over competitors' light blues (#0066FF) communicating deeper trust and sophistication while maintaining financial sector convention, tested at 14.2:1 contrast on white exceeding WCAG AA." Generate tints and shades: 100 (lightest background tint), 300 (subtle backgrounds), 500 (primary brand use), 700 (hover states), 900 (text on light backgrounds).
+
+Specify complete color values enabling consistent reproduction across media. Primary navy: HEX #1A365D, RGB 26/54/93, CMYK 100/75/25/40, Pantone 289 C (coated stock) / 289 U (uncoated). Secondary copper: HEX #B87333, RGB 184/115/51, CMYK 25/55/75/15, Pantone 7573 C. Document accessibility: navy passes WCAG AA on white (14.2:1) but fails on light gray backgrounds (#F0F0F0 = 2.8:1) requiring darker shade navy-700 (#0F1E36) achieving 7.2:1.
+
+Create semantic color system communicating functional states. Success green (#10B981) indicates positive outcomes (form submission, successful save), warning amber (#F59E0B) signals caution (unsaved changes, approaching limits), error red (#EF4444) communicates problems (validation failures, system errors), info blue (#3B82F6 distinct from primary) presents neutral information. Generate 5-shade scales for each semantic color supporting backgrounds, borders, text, solid fills.
+
+Define usage guidelines preventing color chaos and maintaining hierarchy. Primary color maximum 40% page coverage preventing overwhelming, neutral grays 50-60% creating balance, accent colors 10% maximum providing emphasis. Print specification: Rich black uses C:60 M:40 Y:40 K:100 versus flat K:100 achieving depth, light backgrounds stay below 20% total ink coverage preventing show-through. Digital optimization: Test colors on various displays (bright monitors, dim mobile screens), provide dark mode alternatives for accessibility.
+
+**TYPOGRAPHY SYSTEM AND HIERARCHY**
+
+Select typeface families balancing brand personality with functional requirements. Primary typeface defines brand character: serif fonts (Playfair Display, Lora, Merriweather) convey tradition and sophistication, geometric sans-serifs (Futura, Montserrat, Poppins) communicate modernity and clarity, humanist sans-serifs (Open Sans, Lato, Source Sans) balance professionalism and approachability. Limit to 2-3 typefaces maximum: primary for brand and headlines, secondary for body copy, optional display for special emphasis.
+
+Define type scale using consistent mathematical ratio creating hierarchical clarity. Use 1.25 ratio (major third) for balanced progression: Display 48-60px (hero headlines), H1 38px (page titles), H2 30px (sections), H3 24px (subsections), H4 19px (minor headings), Body 16px (paragraph text), Small 13px (captions, footnotes). Print scales larger: Body 10-12pt, Headlines 24-72pt accounting for reading distance. Specify weights: Regular 400 (body), Medium 500 (subheads), Semi-bold 600 (emphasis), Bold 700 (headlines).
+
+Specify typographic details ensuring readability and polish. Body text line-height 1.5-1.6 preventing cramped appearance: 16px text with 24-26px line-height. Headlines use tighter 1.1-1.3 line-height emphasizing impact. Increase letter-spacing +50 to +100 units on all-caps text improving legibility, decrease -20 to -50 on large display type achieving optical balance. Limit line length 60-80 characters optimal reading: longer causes eye fatigue, shorter feels choppy.
+
+Create comprehensive typography specifications for implementation. Document font files with licensing: "Inter font family (Google Fonts, SIL Open Font License), include weights 400/500/600/700, character sets Latin Extended A+B supporting 100+ languages." Specify fallback stacks: "font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;" ensuring graceful degradation. Define web font loading: "Use font-display: swap preventing invisible text, subset to Latin characters reducing file size 60%, preload critical fonts improving perceived performance."
+
+**LAYOUT SYSTEMS AND COMPOSITION**
+
+Implement grid systems providing structure while enabling flexibility. 12-column grid divides cleanly: full-width (12 columns), two-column (6-6), three-column (4-4-4), sidebar layout (3-9 or 4-8). Define gutters 20-30px desktop, 16px mobile maintaining breathing room. Magazine/publication layouts use baseline grids aligning text across columns: 6pt baseline with 12pt line-height creating vertical rhythm. Modular grids combine column and row systems: 6×4 module grid enables complex page compositions.
+
+Apply composition principles creating visual interest and balance. Rule of thirds positions focal points at grid intersections (1/3 and 2/3 marks) versus static centering. Golden ratio (1:1.618) creates aesthetically pleasing proportions: 800×494px rectangle, 62% content area 38% sidebar. Visual weight balances elements: large light object counterbalances small dark object, busy section balances whitespace area, text block balances large image.
+
+Design information hierarchy guiding viewer attention through size, position, color, contrast. Primary level uses large size (2-3× body text), bold weight, high contrast commanding attention: headlines, main CTAs, hero imagery. Secondary level supports without competing: medium subheadings (1.5× body), standard weight, moderate contrast. Tertiary level provides detail on demand: body text size, light weight, subtle contrast for captions, footnotes, metadata.
+
+Utilize whitespace strategically preventing cluttered appearance while creating emphasis. Micro whitespace between letters (tracking), lines (leading), and interface elements: generous 40-60px padding around cards, 20-30px between paragraphs improving readability and sophistication. Macro whitespace separates major sections: 80-120px vertical spacing between homepage sections, asymmetric layouts leaving 40-50% canvas empty. Luxury brands maximize whitespace (60-70% empty) creating premium perception, value brands minimize (30-40% empty) maximizing information density.
+
+**PRINT PRODUCTION SPECIFICATIONS**
+
+Define technical requirements ensuring quality printed output. Resolution 300 DPI minimum for photographs and raster graphics: 8×10" photo requires 2400×3000 pixels avoiding pixelation. Vector graphics (logos, type, icons) scale infinitely maintaining crispness. Bleed extends design 0.125" (3mm) beyond trim on all edges ensuring color reaches edge after cutting variance. Safe area keeps critical content (text, logos) 0.25" (6mm) inside trim preventing accidental cropping.
+
+Specify color modes and profiles for consistent reproduction. CMYK color mode for offset printing: convert RGB files to CMYK before printing preventing unexpected color shifts (vibrant RGB blues dull in CMYK). Pantone spot colors specify exact ink formulas bypassing CMYK variability: Pantone 289 C reproduces identically across printers. Color profiles (ISO Coated v2, GRACoL) calibrate for specific printing conditions. Request printed proof before full run: verify colors, check alignment, catch typos.
+
+Choose paper stocks balancing aesthetics, function, budget. Text weight 60-100# suitable for flyers, letterhead, inserts providing flexibility at $0.02-0.05/sheet. Cover weight 80-130# for business cards, postcards, brochure covers creating substantial feel at $0.08-0.15/sheet. Coatings affect appearance: matte (sophisticated understated), gloss (vibrant colors), uncoated (organic tactile), aqueous (eco-friendly water-based). Specialty stocks (metallic, textured, recycled) differentiate at 2-5× cost premium.
+
+Prepare production-ready files preventing printing errors and delays. Outline fonts converting text to paths preventing font substitution when printer lacks typeface. Package all linked images confirming graphics included at correct resolution and color mode. Export to PDF/X-1a print standard: embeds fonts and images, includes bleed and crop marks, flattens transparency. Include printer's marks: trim marks (cutting guides), bleed marks (bleed boundary), color bars (color calibration), registration marks (alignment).
+
+Deliver graphic design project as:
+
+1. **PRIMARY DESIGN** - Main deliverable in production-ready format with all specifications met
+
+2. **DESIGN VARIATIONS** - 2-3 alternatives exploring different approaches (color, layout, style)
+
+3. **BRAND STYLE GUIDE** - Color palette (HEX/RGB/CMYK/Pantone), typography specs, logo usage rules, spacing standards
+
+4. **PRODUCTION FILES** - Print PDFs (300dpi CMYK with bleed), web graphics (RGB optimized), editable sources (AI/PSD)
+
+5. **ASSET LIBRARY** - Logo variations (color, mono, reversed), supporting graphics, icon sets, pattern files
+
+6. **APPLICATION TEMPLATES** - Formatted files for common uses (business cards, presentations, social posts)
+
+---
 
 ## Usage Examples
 
-### Example 1: Corporate Rebrand
-```
-DESIGN_TYPE: "Complete brand identity system"
-PROJECT_NAME: "TechVision Rebranding"
-TARGET_AUDIENCE: "B2B technology professionals"
-DESIGN_OBJECTIVE: "Modern, trustworthy tech brand"
-DESIGN_CATEGORY: "Branding"
-PROJECT_SCOPE: "Logo, business cards, website, signage"
-BRAND_VALUES: "Innovation, Reliability, Partnership"
-PRIMARY_COLOR_1: "Electric Blue"
-HEX_1: "#0066FF"
-PRIMARY_FONT: "IBM Plex Sans"
-LOGO_STYLE: "Combination mark with abstract symbol"
-```
+### Example 1: Tech Startup Brand Identity
+**Prompt:** Design complete brand identity for CodeFlow developer tools startup targeting software engineers requiring modern approachable technical aesthetic differentiating from corporate enterprise competitors.
 
-### Example 2: Product Packaging
-```
-DESIGN_TYPE: "Eco-friendly product packaging"
-PROJECT_NAME: "GreenLife Organic Foods"
-TARGET_AUDIENCE: "Health-conscious consumers aged 25-45"
-DESIGN_OBJECTIVE: "Sustainable, premium appeal"
-DESIGN_CATEGORY: "Packaging"
-PROJECT_SCOPE: "Package design, labels, marketing materials"
-BRAND_VALUES: "Sustainability, Health, Transparency"
-PRIMARY_COLOR_1: "Sage Green"
-HEX_1: "#9ACD32"
-COLOR_MODE: "CMYK + Pantone for spot colors"
-```
+**Expected Output:** Brand strategy: Technical-yet-friendly personality balancing developer credibility with approachable accessibility targeting engineers 25-40. Color palette: Primary purple #6B48FF (intelligence, creativity), secondary cyan #00D4FF (technology, clarity), neutral grays 9-value scale #F9FAFB to #111827, semantic colors (success green #10B981, warning amber #F59E0B, error red #EF4444). Typography: JetBrains Mono for brand and code (developer credibility), Inter for UI and body (modern clarity), type scale 1.333 ratio (14px, 19px, 25px, 33px, 44px). Logo: Geometric icon using interlocking code brackets forming "CF" monogram, wordmark "CodeFlow" in JetBrains Mono Medium. Deliverables: Logo package (12 variations: full color horizontal/vertical, monochrome, reversed, icon-only in EPS/AI/PNG/SVG formats), business card (3.5×2" offset print 110# cover matte, purple Pantone spot + black), letterhead (8.5×11" digital print), email signature (HTML optimized), PowerPoint template (16:9 with code syntax highlighting theme), website mockups (1440px desktop, 768px tablet, 375px mobile responsive), developer documentation template (GitHub-style markdown with syntax highlighting). Brand guidelines: 32-page PDF covering logo usage (minimum 24px digital / 0.5" print, clear space equal to "C" height, prohibited modifications), color system (all values plus accessibility notes: purple passes 4.6:1 WCAG AA on white), typography (web font loading, fallback stacks, responsive scaling), grid system (12-column 1440px max-width, 32px gutters, 8px spacing scale), iconography (outlined style, 24×24px grid), code block styling. Applications: GitHub profile README, npm package badges, conference booth backdrop (10×8ft), sticker sheet (laptop stickers 3" die-cut vinyl), t-shirt design (screen print 2-color). Technical specs: Print files PDF/X-1a CMYK with bleed, web graphics SVG with PNG fallbacks, Figma source files organized by application type.
 
-### Example 3: Event Marketing
-```
-DESIGN_TYPE: "Event marketing campaign"
-PROJECT_NAME: "Annual Tech Conference 2024"
-TARGET_AUDIENCE: "Technology professionals and entrepreneurs"
-DESIGN_OBJECTIVE: "Generate excitement and registrations"
-DESIGN_CATEGORY: "Print/Digital"
-PROJECT_SCOPE: "Posters, banners, social media, programs"
-GRID_SYSTEM: "Modular grid for flexible layouts"
-FINAL_FORMATS: "PDF, PNG, JPG, animated GIF"
-```
+### Example 2: Organic Food Product Packaging
+**Prompt:** Design product packaging for GreenHarvest organic granola line targeting health-conscious consumers 30-50 requiring premium sustainable aesthetic communicating quality ingredients and environmental responsibility.
 
-## Best Practices
+**Expected Output:** Brand strategy: Premium-natural personality balancing health consciousness with indulgent appeal avoiding clinical sterility. Color palette: Primary sage green #6B8E6F (nature, health), secondary warm beige #D4C5B9 (organic, approachable), accent terracotta #C1745B (energy, appetite appeal), kraft brown base (sustainable substrate signal). Typography: Freight Text for product name (premium serif sophistication), Brandon Grotesque for information (modern sans clarity), handwritten script for "Organic" callouts (artisan authenticity). Packaging structure: Stand-up pouch 8×12" with resealable zipper, kraft paper laminate with matte finish, compostable liner meeting BPI certification. Design layout: Front panel featuring large product photography (granola with fresh berries, natural lighting), product name top-third (Freight Text 48pt), organic certification badges bottom-third (USDA Organic, Non-GMO), transparent window 3×4" showing actual product. Information panel: Ingredients in 9pt Brandon Grotesque, nutritional facts FDA-compliant layout, brand story emphasizing local sourcing and sustainable practices, preparation suggestions with lifestyle photography. Production specs: Flexographic printing 6-color process (CMYK + Pantone 7750 C sage + Pantone 1545 C terracotta achieving brand-accurate colors on kraft), matte aqueous coating (eco-friendly water-based protecting print while maintaining tactile natural feel), die-cut window with biodegradable film. Deliverables: Print-ready PDFs with dieline template, 3D mockup renders for e-commerce (white background product shots, lifestyle context imagery), POS display design (corrugated cardboard countertop display holding 12 pouches), shelf talker (3×5" highlighting "New! Organic!"), retail presentation deck. Brand system: Pattern library (illustrated ingredients: oats, almonds, berries creating brand texture), photography guidelines (natural daylight, real ingredients, authentic non-staged styling), color reproduction standards (Pantone swatches for printer matching, RGB conversion for web maintaining visual consistency), sustainability messaging framework. Additional applications: Farmer's market tablecloth banner, recipe cards (4×6" coated cardstock), product line expansion templates (3 flavors: Original, Maple Pecan, Dark Chocolate maintaining visual consistency with flavor-specific accent colors).
 
-1. **Start with clear objectives** - Define what success looks like before beginning
-2. **Use data to inform decisions** - Base choices on evidence and measurable outcomes
-3. **Iterate and improve continuously** - Treat implementation as an ongoing process
-4. **Engage stakeholders early** - Include key participants in planning and execution
-5. **Document thoroughly** - Maintain clear records for reference and knowledge transfer
-6. **Communicate regularly** - Keep all parties informed of progress and changes
-7. **Address challenges proactively** - Identify potential issues before they become problems
-8. **Celebrate milestones** - Recognize achievements to maintain motivation
-9. **Learn from experience** - Reflect on what works and adjust accordingly
-10. **Stay flexible** - Be ready to adapt based on feedback and changing circumstances
+### Example 3: Nonprofit Annual Report
+**Prompt:** Design 32-page annual report for Ocean Conservation Alliance communicating 2024 impact to donors and stakeholders requiring professional credible layout with compelling data visualization and photography emphasizing conservation success stories.
 
-## Tips for Success
+**Expected Output:** Layout strategy: Magazine-style editorial design balancing information density with visual engagement using modular grid system. Grid: 6-column layout with 3-column text, 3-column imagery creating flexible compositions, 12pt baseline grid aligning body text across spreads. Typography: Merriweather serif for headlines (authoritative credibility), Lato sans-serif for body copy (approachable readability), type hierarchy: Cover 72pt, Section headlines 36pt, Article headlines 24pt, Body 10.5pt with 15pt leading, Captions 9pt. Color system: Primary ocean blue #006994 (mission alignment), accent coral #FF6B5A (marine life energy), supporting aqua #00B4D8 (clean water aspiration), neutral grays for data visualization, photography uses desaturated tones with vibrant color highlights in conservation success images symbolizing hope. Section organization: Executive letter (2 pages with portrait photo, serif typography, personal tone), Mission overview (4 pages with large-scale ocean photography, infographic showing global impact), Program highlights (16 pages featuring 4 major initiatives, each 4-page feature with photography, data charts, beneficiary stories), Financial transparency (4 pages with clear pie charts showing fund allocation, bar graphs showing year-over-year growth, audited statement summary), Looking ahead (4 pages outlining 2025 goals, supporter call-to-action), Donor recognition (2 pages tiered donor lists). Data visualization: Impact statistics using large numbers (48pt bold) with supporting context, bar charts showing restoration progress (before/after coastal cleanup results), timeline infographic illustrating 10-year organizational growth, map visualization showing 23 active project locations, pie chart displaying program allocation (65% direct conservation, 20% research, 10% education, 5% administration). Photography approach: Full-bleed spreads featuring compelling conservation imagery (restored coral reefs, protected marine wildlife, volunteer beach cleanups), environmental portraiture showing staff and beneficiaries, before/after photo comparisons demonstrating restoration impact, candid documentary style versus staged corporate aesthetic. Production specifications: Saddle-stitch binding (cost-effective for 32 pages), 8.5×11" trim size, cover 100# gloss coated stock (premium feel, vibrant photography reproduction), interior 80# matte coated (reduced glare for reading, professional appearance), 4-color process printing, PDF/X-1a with embedded fonts and 0.125" bleed. Deliverables: Print-ready PDF, digital PDF (reduced file size, web-optimized for email distribution and website download), individual page exports for social media content repurposing, InDesign source file with organized master pages, photography library with usage rights documentation, infographic source files (Illustrator) enabling future data updates. Digital adaptation: Interactive web version with animated data visualizations, embedded video testimonials, social sharing optimizations, mobile-responsive layout reflowing 6-column grid to single-column smartphone view.
 
-- Break complex tasks into manageable steps with clear milestones
-- Set realistic timelines that account for dependencies and constraints
-- Allocate sufficient resources including time, budget, and personnel
-- Use templates and frameworks to ensure consistency and quality
-- Seek feedback from users and stakeholders throughout the process
-- Build in checkpoints to assess progress and make adjustments
-- Maintain quality standards while remaining practical and efficient
-- Document lessons learned for future reference and improvement
-- Foster collaboration across teams and departments
-- Stay current with industry best practices and emerging trends
+---
 
-## Related Resources
+## Cross-References
 
-### Complementary Templates
-
-Enhance your workflow by combining this template with:
-
-- **[Creative Writing Framework](creative-writing-framework.md)** - Complementary approaches and methodologies
-- **[Video Production Pipeline](video-production-pipeline.md)** - Complementary approaches and methodologies
-
-### Suggested Workflow
-
-**Typical implementation sequence**:
-
-1. Start with this template (Graphic Design Template)
-2. Use [Creative Writing Framework](creative-writing-framework.md) for deeper analysis
-3. Apply [Video Production Pipeline](video-production-pipeline.md) for execution
-4. Iterate and refine based on results
-
-### Explore More in This Category
-
-Browse all **[creative/Design & Visual](../../creative/Design & Visual/)** templates for related tools and frameworks.
-
-### Common Use Case Combinations
-
-- **Creating comprehensive graphic design solutions including layouts, branding, and visuals for both digital and print media across various applications.**: Combine this template with related analytics and strategy frameworks
-- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
-- **Strategy development**: Combine this template with related analytics and strategy frameworks
-
-## Customization Options
-
-1. **Design Categories**
-   - Print design
-   - Digital graphics
-   - Brand identity
-   - Packaging design
-   - Environmental graphics
-   - Publication design
-   - Advertising design
-
-2. **Application Types**
-   - Corporate materials
-   - Marketing collateral
-   - Product packaging
-   - Digital assets
-   - Environmental graphics
-   - Publication layouts
-   - Promotional materials
-
-3. **Industry Specialization**
-   - Technology
-   - Healthcare
-   - Finance
-   - Retail/E-commerce
-   - Food & Beverage
-   - Real Estate
-   - Non-profit
-   - Entertainment
-
-4. **Design Styles**
-   - Minimalist/Clean
-   - Bold/Modern
-   - Classic/Traditional
-   - Artistic/Creative
-   - Corporate/Professional
-   - Playful/Fun
-   - Luxury/Premium
+- [Brand Identity Design](brand-identity-design.md) - Comprehensive branding strategy and logo development
+- [Graphic Design Comprehensive](graphic-design-comprehensive.md) - Detailed design system covering all applications
+- [Creative Writing Framework](../content-creation/creative-writing-framework.md) - Copywriting and brand messaging
+- [Design System Creation](design-system-creation.md) - UI component libraries and digital design tokens

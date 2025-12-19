@@ -1,22 +1,23 @@
 ---
 category: legal-compliance
-last_updated: 2025-11-09
-related_templates:
-- legal-compliance/regulatory-compliance-framework.md
-- legal-compliance/contract-drafting-template.md
-- legal-compliance/intellectual-property-management.md
+title: Contract Drafting Readiness Assessment
 tags:
 - contract-drafting
 - legal-agreements
-- terms-of-service
 - governing-law
-title: Contract Drafting Template
+- risk-allocation
+- readiness-assessment
 use_cases:
-- Creating comprehensive legal contracts, agreements, terms of service, and binding
-  documents with proper structure, protective clauses, and enforceable provisions
-  that protect interests while maintaining clarity and legal validity.
-- Project planning and execution
-- Strategy development
+- Assessing readiness to draft an agreement with clear scope, positions, and required inputs
+- Identifying gaps that cause drafting churn, negotiation delays, or unenforceable terms
+- Producing a drafting checklist, decision log, and issue list aligned to risk tolerance
+related_templates:
+- legal-compliance/contract-drafting-template-overview.md
+- legal-compliance/contract-drafting-template-01-structure-core.md
+- legal-compliance/contract-drafting-template-02-risk-provisions.md
+- legal-compliance/contract-drafting-template-03-execution.md
+- legal-compliance/contract-negotiation.md
+- legal-compliance/contract-management-operations.md
 industries:
 - finance
 - government
@@ -24,393 +25,101 @@ industries:
 - manufacturing
 - retail
 - technology
-type: template
+type: framework
 difficulty: intermediate
-slug: contract-drafting
+slug: contract-drafting-readiness-assessment
 ---
 
-# Contract Drafting Template
+# Contract Drafting Readiness Assessment
 
 ## Purpose
-Create comprehensive legal contracts, agreements, terms of service, and binding documents with proper structure, protective clauses, and enforceable provisions that protect interests while maintaining clarity and legal validity.
+Assess readiness to draft a contract across six dimensions: Deal Context & Scope, Parties & Authority, Commercial Terms, Risk Allocation, Compliance & Regulatory, and Execution & Lifecycle. Identify gaps and produce a drafting package that reduces negotiation churn.
 
-## Quick Contract Drafting Prompt
-Draft [contract type] between [Party A] and [Party B] for [purpose]. Jurisdiction: [governing law]. Term: [duration], effective [date]. Key terms: [price/deliverables/timeline]. Protections: liability cap [amount], indemnification [scope], warranties [type]. IP ownership: [assignment/license]. Termination: [for cause/convenience], [notice period]. Dispute: [arbitration/mediation/litigation].
+## 🚀 Quick Assessment Prompt
 
-## Quick Start
+> Assess **contract drafting readiness** for **[CONTRACT_TYPE]** between **[PARTY_A]** and **[PARTY_B]** for **[PURPOSE]** under **[GOVERNING_LAW]**. Score 1–5 across: (1) **Scope**—are deliverables, acceptance criteria, and assumptions clear? (2) **Parties/authority**—are legal entities and signatory authority confirmed? (3) **Commercial terms**—are price, payment, SLAs, and term defined? (4) **Risk allocation**—are liability caps, indemnities, warranties, and IP positions aligned to risk tolerance? (5) **Compliance**—are privacy/security, export, sector rules, and third-party obligations captured? (6) **Execution/lifecycle**—are exhibits, approvals, signatures, change control, and notices defined? Provide a scorecard, top gaps, and a “ready-to-draft” checklist.
 
-Get started drafting legally sound contracts in 3 steps:
+**Usage:** Replace bracketed placeholders with your specifics.
 
-1. **Identify Core Elements**: Define contract type, parties, jurisdiction, and key terms (price, deliverables, timeline)
-2. **Select Risk Protections**: Choose appropriate limitation of liability caps, indemnification scope, and IP ownership structure based on deal complexity
-3. **Generate & Review**: Use the template to create a complete draft, then review protective clauses (termination rights, dispute resolution, warranties) for your specific risk tolerance
-
-**Pro Tip**: Start with standard templates for routine agreements, but customize risk allocation provisions (liability caps, indemnification, force majeure) for high-value or complex transactions.
+---
 
 ## Template
 
-```
-You are a contract law specialist. Draft [CONTRACT_TYPE] between [PARTY_A] and [PARTY_B] for [PURPOSE] including [KEY_TERMS] with [JURISDICTION] governing law to achieve [OBJECTIVES] while protecting [INTERESTS].
+Conduct a contract drafting readiness assessment for {CONTRACT_TYPE} between {PARTY_A} and {PARTY_B} under {GOVERNING_LAW}.
 
-CONTRACT OVERVIEW:
+Assess readiness across six dimensions, scoring each 1–5:
 
-Agreement Context:
-- Contract type: [CONTRACT_TYPE]
-- Primary purpose: [PRIMARY_PURPOSE]
-- Parties involved: [PARTIES_INVOLVED]
-- Effective date: [EFFECTIVE_DATE]
-- Term duration: [CONTRACT_DURATION]
-- Governing law: [GOVERNING_LAW]
+**1. DEAL CONTEXT & SCOPE READINESS**
+- Purpose and business outcomes are defined
+- Scope/deliverables and acceptance criteria are clear
+- Assumptions, dependencies, and exclusions are explicit
+- Timeline and milestones are realistic
+- Success metrics and service levels are defined (if applicable)
 
-### Party Information
-- Party A details: [PARTY_A_INFO]
-- Party B details: [PARTY_B_INFO]
-- Additional parties: [OTHER_PARTIES]
-- Representative authority: [SIGNATORY_AUTHORITY]
-- Contact information: [CONTACT_DETAILS]
+**2. PARTIES & AUTHORITY READINESS**
+- Correct legal entities are identified (including affiliates)
+- Signatory authority is confirmed
+- Notices/contact details are defined
+- Use of subcontractors/third parties is clarified
+- Required approvals are known (procurement, security, privacy)
 
-### CONTRACT STRUCTURE
+**3. COMMERCIAL TERMS READINESS**
+- Pricing model is defined (fixed, usage, milestones)
+- Payment terms are defined (timing, invoicing, taxes)
+- Term and renewal structure is defined
+- Service credits/penalties are defined (if relevant)
+- Change orders and rate cards are defined (if relevant)
 
-```
-AGREEMENT FRAMEWORK:
+**4. RISK ALLOCATION READINESS**
+- Limitation of liability approach is defined and consistent
+- Indemnities are aligned (IP, third-party claims, data incidents)
+- Warranties and disclaimers match the product/service reality
+- Insurance requirements are practical and verifiable
+- IP ownership/licensing and confidentiality positions are clear
 
-Recitals & Background:
-Section          | Content         | Purpose         | Legal Effect
------------------|-----------------|-----------------|-------------
-Whereas Clauses  | [WHEREAS]       | [PURPOSE]       | [EFFECT]
-Background       | [BACKGROUND]    | [CONTEXT]       | [BINDING]
-Definitions      | [DEFINITIONS]   | [CLARITY]       | [INTERPRETATION]
-Scope           | [SCOPE]         | [BOUNDARIES]    | [LIMITATIONS]
+**5. COMPLIANCE & REGULATORY READINESS**
+- Privacy/security requirements are captured (data types, processing, controls)
+- Sector-specific requirements are identified (e.g., healthcare, finance)
+- Export/sanctions and anti-corruption expectations are captured where relevant
+- Recordkeeping/audit rights are clarified
+- Third-party/vendor obligations and flow-down clauses are defined
 
-### Core Provisions
-Provision        | Terms           | Obligations     | Rights         | Remedies
------------------|-----------------|-----------------|----------------|----------
-[PROVISION_1]    | [TERMS_1]       | [OBLIG_1]       | [RIGHTS_1]     | [REMEDY_1]
-[PROVISION_2]    | [TERMS_2]       | [OBLIG_2]       | [RIGHTS_2]     | [REMEDY_2]
-[PROVISION_3]    | [TERMS_3]       | [OBLIG_3]       | [RIGHTS_3]     | [REMEDY_3]
-[PROVISION_4]    | [TERMS_4]       | [OBLIG_4]       | [RIGHTS_4]     | [REMEDY_4]
+**6. EXECUTION & LIFECYCLE READINESS**
+- Required exhibits/schedules are identified (SOW, DPA, security addendum)
+- Execution method is defined (wet/e-sign, counterparts)
+- Amendment/change control process is defined
+- Termination rights and transition obligations are workable
+- Contract ownership for ongoing management is defined
 
-### Payment Terms
-Element          | Details         | Timeline        | Conditions     | Penalties
------------------|-----------------|-----------------|----------------|----------
-Amount           | [AMOUNT]        | [DUE_DATE]      | [CONDITIONS]   | [LATE_FEE]
-Payment Method   | [METHOD]        | [SCHEDULE]      | [REQUIREMENTS] | [DEFAULT]
-Invoicing        | [INVOICE]       | [FREQUENCY]     | [FORMAT]       | [DISPUTES]
-Adjustments      | [ADJUSTMENTS]   | [TRIGGERS]      | [CALCULATION]  | [LIMITS]
-```
+Deliver your assessment as:
 
-PROTECTIVE CLAUSES:
+1. **EXECUTIVE SUMMARY** - Overall score, maturity level, top 3 drafting blockers
+2. **DIMENSION SCORECARD** - Table with score (X.X/5) and key finding per dimension
+3. **DRAFTING CHECKLIST** - Inputs required before first full draft
+4. **OPEN ISSUES LIST** - Issues, owners, and required decisions
+5. **FALLBACK POSITIONS** - Negotiation fallbacks aligned to risk tolerance
+6. **SIGNATURE PACKAGE** - Execution steps, approvals, and final exhibits list
 
-Risk Allocation:
-```
-### LIABILITY & INDEMNIFICATION
-
-### Limitation of Liability
-Party            | Cap Amount      | Exclusions      | Carve-outs     | Duration
------------------|-----------------|-----------------|----------------|----------
-[PARTY_A]        | [CAP_A]         | [EXCLUDE_A]     | [CARVE_A]      | [DUR_A]
-[PARTY_B]        | [CAP_B]         | [EXCLUDE_B]     | [CARVE_B]      | [DUR_B]
-
-Indemnification:
-Indemnitor       | Scope           | Exclusions      | Process        | Limits
------------------|-----------------|-----------------|----------------|--------
-[PARTY_1]        | [SCOPE_1]       | [EXCLUDE_1]     | [PROCESS_1]    | [LIMIT_1]
-[PARTY_2]        | [SCOPE_2]       | [EXCLUDE_2]     | [PROCESS_2]    | [LIMIT_2]
-
-### Insurance Requirements
-Coverage Type    | Minimum Amount  | Provider Rating | Certificate    | Additional
------------------|-----------------|-----------------|----------------|------------
-General Liability| [GL_AMOUNT]     | [GL_RATING]     | [GL_CERT]      | [GL_ADD]
-Professional     | [PROF_AMOUNT]   | [PROF_RATING]   | [PROF_CERT]    | [PROF_ADD]
-Cyber           | [CYBER_AMOUNT]  | [CYBER_RATING]  | [CYBER_CERT]   | [CYBER_ADD]
-```
-
-INTELLECTUAL PROPERTY:
-
-IP Provisions:
-```
-### INTELLECTUAL PROPERTY RIGHTS
-
-### Ownership Structure
-IP Type          | Owner           | License Grant   | Restrictions   | Duration
------------------|-----------------|-----------------|----------------|----------
-Pre-existing     | [PRE_OWNER]     | [PRE_LICENSE]   | [PRE_RESTRICT] | [PRE_DUR]
-Developed        | [DEV_OWNER]     | [DEV_LICENSE]   | [DEV_RESTRICT] | [DEV_DUR]
-Joint           | [JOINT_OWNER]   | [JOINT_LICENSE] | [JOINT_RESTRICT]| [JOINT_DUR]
-
-Confidentiality:
-Information Type | Protection Level| Use Restrictions| Disclosure     | Return
------------------|-----------------|-----------------|----------------|--------
-Trade Secrets    | [TS_PROTECT]    | [TS_USE]        | [TS_DISCLOSE]  | [TS_RETURN]
-Proprietary      | [PROP_PROTECT]  | [PROP_USE]      | [PROP_DISCLOSE]| [PROP_RETURN]
-Business Info    | [BUS_PROTECT]   | [BUS_USE]       | [BUS_DISCLOSE] | [BUS_RETURN]
-```
-
-PERFORMANCE STANDARDS:
-
-Deliverables & Milestones:
-```
-### PERFORMANCE REQUIREMENTS
-
-### Deliverable Schedule
-Milestone        | Description     | Due Date        | Acceptance     | Payment
------------------|-----------------|-----------------|----------------|--------
-[MILESTONE_1]    | [DESC_1]        | [DATE_1]        | [ACCEPT_1]     | [PAY_1]
-[MILESTONE_2]    | [DESC_2]        | [DATE_2]        | [ACCEPT_2]     | [PAY_2]
-[MILESTONE_3]    | [DESC_3]        | [DATE_3]        | [ACCEPT_3]     | [PAY_3]
-
-Quality Standards:
-Standard         | Specification   | Testing         | Remediation    | Warranty
------------------|-----------------|-----------------|----------------|----------
-[STANDARD_1]     | [SPEC_1]        | [TEST_1]        | [REMEDY_1]     | [WARRANT_1]
-[STANDARD_2]     | [SPEC_2]        | [TEST_2]        | [REMEDY_2]     | [WARRANT_2]
-
-### Service Levels
-Metric           | Target          | Measurement     | Credits        | Remedies
------------------|-----------------|-----------------|----------------|----------
-Availability     | [AVAIL_TARGET]  | [AVAIL_MEASURE] | [AVAIL_CREDIT] | [AVAIL_REM]
-Response Time    | [RESP_TARGET]   | [RESP_MEASURE]  | [RESP_CREDIT]  | [RESP_REM]
-Resolution       | [RES_TARGET]    | [RES_MEASURE]   | [RES_CREDIT]   | [RES_REM]
-```
-
-TERMINATION PROVISIONS:
-
-Exit Management:
-```
-### TERMINATION & TRANSITION
-
-### Termination Rights
-Trigger          | Notice Period   | Cure Period     | Effects        | Survival
------------------|-----------------|-----------------|----------------|----------
-For Cause        | [CAUSE_NOTICE]  | [CAUSE_CURE]    | [CAUSE_EFFECT] | [CAUSE_SURV]
-Convenience      | [CONV_NOTICE]   | N/A             | [CONV_EFFECT]  | [CONV_SURV]
-Breach          | [BREACH_NOTICE] | [BREACH_CURE]   | [BREACH_EFFECT]| [BREACH_SURV]
-Insolvency      | [INSOL_NOTICE]  | N/A             | [INSOL_EFFECT] | [INSOL_SURV]
-
-### Transition Services
-Service          | Duration        | Cost            | Scope          | Support
------------------|-----------------|-----------------|----------------|--------
-Knowledge Transfer| [KT_DURATION]  | [KT_COST]       | [KT_SCOPE]     | [KT_SUPPORT]
-Data Migration   | [DM_DURATION]   | [DM_COST]       | [DM_SCOPE]     | [DM_SUPPORT]
-Parallel Run     | [PR_DURATION]   | [PR_COST]       | [PR_SCOPE]     | [PR_SUPPORT]
-```
-
-DISPUTE RESOLUTION:
-
-Resolution Framework:
-```
-### DISPUTE MANAGEMENT
-
-### Escalation Process
-Level            | Forum           | Timeline        | Decision Maker | Binding
------------------|-----------------|-----------------|----------------|--------
-Negotiation      | [NEG_FORUM]     | [NEG_TIME]      | [NEG_DECIDE]   | No
-Mediation        | [MED_FORUM]     | [MED_TIME]      | [MED_DECIDE]   | No
-Arbitration      | [ARB_FORUM]     | [ARB_TIME]      | [ARB_DECIDE]   | Yes
-Litigation       | [LIT_FORUM]     | [LIT_TIME]      | [LIT_DECIDE]   | Yes
-
-### Governing Provisions
-Provision        | Jurisdiction    | Venue           | Law            | Language
------------------|-----------------|-----------------|----------------|----------
-Choice of Law    | [CHOICE_JUR]    | [CHOICE_VENUE]  | [CHOICE_LAW]   | [LANGUAGE]
-Forum Selection  | [FORUM_JUR]     | [FORUM_VENUE]   | [FORUM_LAW]    | [FORUM_LANG]
-Fee Shifting     | [FEE_JUR]       | [FEE_VENUE]     | [FEE_LAW]      | [FEE_LANG]
-```
-
-GENERAL PROVISIONS:
-
-Standard Clauses:
-```
-### BOILERPLATE PROVISIONS
-
-### Administrative Terms
-Clause           | Provision       | Effect          | Exceptions     | Notes
------------------|-----------------|-----------------|----------------|-------
-Entire Agreement | [ENTIRE]        | [ENTIRE_EFF]    | [ENTIRE_EXC]   | [ENTIRE_NOTE]
-Amendments       | [AMEND]         | [AMEND_EFF]     | [AMEND_EXC]    | [AMEND_NOTE]
-Waiver          | [WAIVER]        | [WAIVER_EFF]    | [WAIVER_EXC]   | [WAIVER_NOTE]
-Severability    | [SEVER]         | [SEVER_EFF]     | [SEVER_EXC]    | [SEVER_NOTE]
-Assignment      | [ASSIGN]        | [ASSIGN_EFF]    | [ASSIGN_EXC]   | [ASSIGN_NOTE]
-Force Majeure   | [FORCE]         | [FORCE_EFF]     | [FORCE_EXC]    | [FORCE_NOTE]
-Notices         | [NOTICE]        | [NOTICE_EFF]    | [NOTICE_EXC]   | [NOTICE_NOTE]
-Counterparts    | [COUNTER]       | [COUNTER_EFF]   | [COUNTER_EXC]  | [COUNTER_NOTE]
-```
-
-CONTRACT OUTPUT:
-[Generate complete contract document]
-
-Contract Type: [FINAL_CONTRACT_TYPE]
-Parties: [FINAL_PARTIES]
-Key Terms: [FINAL_KEY_TERMS]
-Risk Allocation: [FINAL_RISK_ALLOCATION]
-
-[COMPLETE_CONTRACT_DOCUMENT]
-
----
-
-### Contract Summary
-- Agreement type: [AGREEMENT_SUMMARY]
-- Key obligations: [OBLIGATIONS_SUMMARY]
-- Payment terms: [PAYMENT_SUMMARY]
-- Term and termination: [TERM_SUMMARY]
-- Risk allocation: [RISK_SUMMARY]
-
-OUTPUT: Deliver comprehensive contract with:
-1. Clear party identification
-2. Detailed scope and obligations
-3. Payment and performance terms
-4. Risk allocation provisions
-5. IP and confidentiality clauses
-6. Termination and transition
-7. Dispute resolution mechanisms
-8. Standard legal provisions
-```
+Use this maturity scale:
+- 1.0-1.9: Initial (missing basics; high risk of churn)
+- 2.0-2.9: Developing (some inputs exist; key positions unclear)
+- 3.0-3.9: Defined (most inputs/positions clear; manageable negotiation)
+- 4.0-4.9: Managed (repeatable playbooks and fast approvals)
+- 5.0: Optimized (standardized terms with predictable cycle time)
 
 ## Variables
-[All 250+ variables for comprehensive contract drafting]
 
-## Usage Examples
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `[CONTRACT_TYPE]` | Agreement type | "SaaS MSA + DPA" |
+| `[PARTY_A]` | Party A | "Customer" |
+| `[PARTY_B]` | Party B | "Vendor" |
+| `[PURPOSE]` | Business purpose | "Customer support platform" |
+| `[GOVERNING_LAW]` | Governing law | "Delaware" |
 
-## Best Practices
+## Example
 
-1. **Start with clear objectives** - Define what success looks like before beginning
-2. **Use data to inform decisions** - Base choices on evidence and measurable outcomes
-3. **Iterate and improve continuously** - Treat implementation as an ongoing process
-4. **Engage stakeholders early** - Include key participants in planning and execution
-5. **Document thoroughly** - Maintain clear records for reference and knowledge transfer
-6. **Communicate regularly** - Keep all parties informed of progress and changes
-7. **Address challenges proactively** - Identify potential issues before they become problems
-8. **Celebrate milestones** - Recognize achievements to maintain motivation
-9. **Learn from experience** - Reflect on what works and adjust accordingly
-10. **Stay flexible** - Be ready to adapt based on feedback and changing circumstances
+**SaaS Contract - Drafting Readiness**
 
-## Tips for Success
+> Assess contract drafting readiness for **SaaS MSA + DPA** between **Customer** and **Vendor** for **customer support platform** under **Delaware** law. Scope is mostly clear but acceptance criteria and data processing details are incomplete; signatory authority and affiliate coverage are unclear; commercial terms are agreed but renewal and change-order mechanics are missing; liability cap and IP indemnity positions are not aligned; privacy/security requirements need a DPA and security exhibit; execution requires procurement and security approvals. Provide a scorecard and a drafting checklist with owners for open issues.
 
-- Break complex tasks into manageable steps with clear milestones
-- Set realistic timelines that account for dependencies and constraints
-- Allocate sufficient resources including time, budget, and personnel
-- Use templates and frameworks to ensure consistency and quality
-- Seek feedback from users and stakeholders throughout the process
-- Build in checkpoints to assess progress and make adjustments
-- Maintain quality standards while remaining practical and efficient
-- Document lessons learned for future reference and improvement
-- Foster collaboration across teams and departments
-- Stay current with industry best practices and emerging trends
-### Example 1: Software Development Agreement
-```
-CONTRACT_TYPE: "Software Development Agreement"
-PARTY_A: "Tech Company LLC (Client)"
-PARTY_B: "Developer Inc (Vendor)"
-PURPOSE: "Custom CRM system development"
-KEY_TERMS: "Fixed price, milestone payments, IP ownership transfer"
-JURISDICTION: "Delaware, USA"
-OBJECTIVES: "Deliver functional CRM within 6 months"
-INTERESTS: "IP protection, quality assurance, timely delivery"
-```
-
-### Example 2: Service Level Agreement
-```
-CONTRACT_TYPE: "Master Service Agreement with SLA"
-PARTY_A: "Enterprise Corp (Customer)"
-PARTY_B: "Cloud Provider Inc (Service Provider)"
-PURPOSE: "Cloud hosting and managed services"
-KEY_TERMS: "99.9% uptime, 24/7 support, data security"
-JURISDICTION: "New York, USA"
-OBJECTIVES: "Reliable cloud infrastructure services"
-INTERESTS: "Service availability, data protection, cost control"
-```
-
-### Example 3: Partnership Agreement
-```
-CONTRACT_TYPE: "Strategic Partnership Agreement"
-PARTY_A: "Manufacturer Co (Partner A)"
-PARTY_B: "Distributor LLC (Partner B)"
-PURPOSE: "Exclusive distribution partnership"
-KEY_TERMS: "Territory rights, minimum purchases, marketing obligations"
-JURISDICTION: "California, USA"
-OBJECTIVES: "Market expansion through distribution"
-INTERESTS: "Territory protection, brand control, revenue sharing"
-```
-
-
-
-## Related Resources
-
-### Complementary Templates
-
-Enhance your workflow by combining this template with:
-
-- **[Regulatory Compliance Framework](regulatory-compliance-framework.md)** - Complementary approaches and methodologies
-- **[Contract Drafting Template](contract-drafting-template.md)** - Complementary approaches and methodologies
-- **[Intellectual Property Management](intellectual-property-management.md)** - Complementary approaches and methodologies
-
-### Suggested Workflow
-
-**Typical implementation sequence**:
-
-1. Start with this template (Contract Drafting Template)
-2. Use [Regulatory Compliance Framework](regulatory-compliance-framework.md) for deeper analysis
-3. Apply [Contract Drafting Template](contract-drafting-template.md) for execution
-4. Iterate and refine based on results
-
-### Explore More in This Category
-
-Browse all **[professional-services/legal-compliance/Contract Management](../../professional-services/legal-compliance/Contract Management/)** templates for related tools and frameworks.
-
-### Common Use Case Combinations
-
-- **Creating comprehensive legal contracts, agreements, terms of service, and binding documents with proper structure, protective clauses, and enforceable provisions that protect interests while maintaining clarity and legal validity.**: Combine this template with related analytics and strategy frameworks
-- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
-- **Strategy development**: Combine this template with related analytics and strategy frameworks
-
-## Customization Options
-
-1. **Contract Types**
-   - Purchase agreements
-   - Service agreements
-   - Employment contracts
-   - Licensing agreements
-   - Partnership agreements
-   - NDAs and confidentiality
-   - Lease agreements
-   - Joint venture agreements
-
-2. **Industry Specific**
-   - Technology contracts
-   - Healthcare agreements
-   - Real estate contracts
-   - Manufacturing agreements
-   - Financial services
-   - Entertainment contracts
-   - Government contracts
-   - International trade
-
-3. **Complexity Levels**
-   - Simple agreements
-   - Standard commercial
-   - Complex transactions
-   - Multi-party agreements
-   - International contracts
-   - M&A documents
-   - Regulatory compliance
-   - High-risk contracts
-
-4. **Jurisdictions**
-   - Common law systems
-   - Civil law systems
-   - International contracts
-   - Multi-jurisdictional
-   - Federal regulations
-   - State specific
-   - Industry regulations
-   - Cross-border provisions
-
-5. **Risk Profiles**
-   - Low risk routine
-   - Moderate commercial
-   - High value transactions
-   - Regulated industries
-   - Intellectual property
-   - International trade
-   - Startup ventures
-   - Distressed situations

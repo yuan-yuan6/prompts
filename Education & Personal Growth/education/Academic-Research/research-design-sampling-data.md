@@ -1,6 +1,5 @@
 ---
 category: education
-last_updated: 2025-11-10
 related_templates:
 - education/Academic-Research/research-design-foundation.md
 - education/Academic-Research/research-design-analysis-quality.md
@@ -10,431 +9,122 @@ tags:
 - data-collection
 - recruitment-planning
 - instrumentation
-title: Research Design - Sampling Strategy & Data Collection
+- sampling-readiness
+- data-collection-readiness
+title: Research Sampling & Data Collection Readiness Assessment
 use_cases:
-- Developing comprehensive sampling strategies and recruitment plans
-- Designing data collection protocols and instrumentation
-- Planning multi-source data integration and technology-enhanced collection
+- Evaluating readiness to recruit participants and collect high-quality data
+- Identifying sampling, instrument, and fieldwork risks before launch
+- Designing feasible data collection protocols with quality control
+- Producing sampling and data collection plans suitable for IRB, grants, or theses
 industries:
 - education
 - government
 - healthcare
 - nonprofit
-type: template
+type: framework
 difficulty: intermediate
 slug: research-design-sampling-data
 ---
 
-# Research Design - Sampling Strategy & Data Collection
+# Research Sampling & Data Collection Readiness Assessment
 
 ## Purpose
-Develop rigorous sampling strategies and comprehensive data collection protocols that ensure high-quality data aligned with your research questions. This prompt guides you through participant selection, sample size determination, recruitment procedures, instrument development, and multi-modal data collection planning.
+Comprehensively assess readiness to recruit participants and collect defensible data across six dimensions: Population & Eligibility Clarity, Sampling Strategy & Adequacy, Recruitment & Retention Feasibility, Instrument & Measurement Fit, Data Collection Operations & Quality Control, and Data Management & Security. This framework helps you reduce avoidable bias, improve data quality, and prevent fieldwork failures.
 
-## Quick Research Design Sampling Data Prompt
+## 🚀 Quick Assessment Prompt
 
-Design sampling and data collection for [study type] on [topic]. Target population of [description] with inclusion criteria [criteria] and exclusion criteria [criteria]. Sample [N] using [probability/purposive/snowball] method with power analysis at [effect size/alpha/power]. Recruit via [channels], offer [incentives]. Collect data using [instruments: validated scales/interview protocols/observation forms], administer via [mode: online/in-person/phone], with [frequency/duration]. Ensure [reliability/validity] through [pilot testing/expert review].
+> Assess **sampling and data collection readiness** for **{STUDY_CONTEXT}** using **{SAMPLING_APPROACH}** and collecting data via **{DATA_COLLECTION_PLAN}**. Evaluate across: (1) **Population & eligibility**—are inclusion/exclusion rules and the sampling frame explicit and testable? (2) **Sampling adequacy**—is the sample size (power/saturation) defensible and aligned to the inference goal? (3) **Recruitment feasibility**—are channels, incentives, and timeline realistic, with retention strategies? (4) **Measurement fit**—are instruments valid/reliable and feasible for the setting and population? (5) **Operations & QC**—are SOPs, training, pilots, and quality checks defined? (6) **Data management**—are privacy, storage, access control, backups, and versioning operational? Provide 1–5 scores, top risks, and a launch checklist.
 
-## Quick Start
+**Usage:** Replace the curly-brace placeholders with your specifics. Use as a prompt to an AI assistant for rapid readiness evaluation.
 
-### For Researchers Planning Sampling and Data Collection
-
-**Step 1: Define Your Population and Sampling Approach**
-- Specify your target population with clear inclusion/exclusion criteria
-- Choose between probability or non-probability sampling methods
-- Determine sample size using power analysis (quantitative) or saturation criteria (qualitative)
-
-**Step 2: Plan Your Recruitment Strategy**
-- Identify recruitment channels and methods
-- Design recruitment materials and procedures
-- Plan incentive structure and participation requirements
-
-**Step 3: Design Your Data Collection Protocol**
-- Select or develop appropriate measurement instruments
-- Plan data collection procedures and quality control measures
-- Determine technology integration and data management systems
-
-**Step 4: Generate and Implement**
-- Input your specifications into the template variables
-- Generate comprehensive sampling and data collection plan
-- Pilot test procedures and refine based on feedback
-
-**Common Use Cases:**
-- Grant proposal methods sections on sampling and data collection
-- Dissertation methodology chapters
-- IRB protocol submissions
-- Research team training materials
-- Data collection standard operating procedures (SOPs)
+---
 
 ## Template
 
-```
-You are an expert research methodologist specializing in sampling design, recruitment strategies, and data collection protocols. Create a detailed sampling and data collection plan based on the following information:
+Conduct a comprehensive sampling and data collection readiness assessment for {STUDY_CONTEXT} using {SAMPLING_APPROACH} and executing {DATA_COLLECTION_PLAN}.
 
-Research Context:
-- Research Domain: [RESEARCH_FIELD]
-- Study Focus: [STUDY_FOCUS]
-- Research Question: [PRIMARY_RESEARCH_QUESTION]
-- Research Approach: [METHODOLOGICAL_APPROACH]
-- Study Population: [TARGET_POPULATION]
-- Study Setting: [RESEARCH_SETTING]
-- Study Duration: [TIME_FRAME]
-- Geographic Scope: [LOCATION_BOUNDARIES]
+Assess readiness across six dimensions, scoring each 1–5:
 
-### Sampling Requirements
-- Sample Characteristics: [SAMPLE_PROFILE]
-- Sampling Strategy: [SAMPLING_METHOD]
-- Sample Size Target: [SAMPLE_SIZE_TARGET]
-- Recruitment Timeline: [RECRUITMENT_DURATION]
+**1. POPULATION & ELIGIBILITY CLARITY READINESS**
+Evaluate whether “who counts” is unambiguous by assessing whether the target population is defined with clear boundaries, inclusion/exclusion criteria can be applied consistently, and the sampling frame or access pathway is specified. Examine whether the definition prevents scope creep, supports equity and representation goals where relevant, and anticipates practical constraints such as language access, schedules, gatekeepers, and documentation needed to verify eligibility.
 
-### Data Collection Requirements
-- Data Requirements: [DATA_NEEDS]
-- Data Types: [QUANTITATIVE_QUALITATIVE_BOTH]
-- Collection Setting: [DATA_COLLECTION_SETTING]
-- Technology Requirements: [TECHNICAL_NEEDS]
+**2. SAMPLING STRATEGY & ADEQUACY READINESS**
+Evaluate whether the sampling plan supports the inference goal by assessing whether the sampling method matches the design (probability vs non-probability, stratification, clustering, purposive criteria), whether sample size logic is defensible (power analysis for quantitative work, information power/saturation logic for qualitative work), and whether design effects, attrition, and subgroup analyses are considered. Examine whether the plan is robust to recruitment variability and whether stopping rules and reporting commitments are defined.
 
-### Resource Context
-- Budget Constraints: [FINANCIAL_LIMITATIONS]
-- Personnel Resources: [HUMAN_RESOURCES]
-- Access Limitations: [ACCESS_CONSTRAINTS]
-- Ethical Requirements: [ETHICAL_REQUIREMENTS]
+**3. RECRUITMENT & RETENTION FEASIBILITY READINESS**
+Evaluate whether recruitment can actually happen by assessing whether recruitment channels are feasible and ethical, whether incentives are proportional and non-coercive, and whether the timeline matches expected response rates. Examine whether you have a plan for tracking outreach, screening, scheduling, follow-up, and no-shows, whether barriers (transport, childcare, technology) are addressed, and whether retention strategies exist for longitudinal or multi-touch designs.
 
-Generate a comprehensive sampling and data collection strategy that includes:
+**4. INSTRUMENT & MEASUREMENT FIT READINESS**
+Evaluate whether measurement will be credible by assessing whether instruments are valid for the population and context, whether reliability expectations are realistic, and whether the operationalization of constructs matches the research questions. Examine whether instruments are appropriately translated/adapted, whether administration burden is acceptable, whether measurement timing aligns to outcomes, and whether you have a plan for piloting, cognitive testing, or expert review where needed.
 
-## SAMPLING STRATEGY AND RECRUITMENT PLAN
+**5. DATA COLLECTION OPERATIONS & QUALITY CONTROL READINESS**
+Evaluate whether fieldwork will produce consistent data by assessing whether procedures are standardized via SOPs, data collectors are trained and calibrated, and pilots are planned to test the hardest parts of execution. Examine whether quality controls exist (completeness checks, protocol adherence, inter-rater reliability for observations/coding, device checks), whether incident handling and escalation paths are defined, and whether documentation supports auditability.
 
-### 2.3 Sampling Strategy and Recruitment Plan
-#### Population Definition and Target Group
-##### Target Population Specification
-- Population boundary and inclusion criteria
-- Geographic and temporal scope
-- Demographic and characteristic profile
-- Accessibility and reachability assessment
-- Size estimation and enumeration
-- Diversity and heterogeneity consideration
-- Vulnerable group and protection need
-- Stakeholder group and representation
+**6. DATA MANAGEMENT, PRIVACY & SECURITY READINESS**
+Evaluate whether data will be protected and usable by assessing how data move from collection to storage to analysis, what identifiers are collected, and how de-identification and access control are enforced. Examine whether storage locations, backups, retention, and disposal are specified, whether versioning prevents accidental overwrites, whether permissions match team roles, and whether sharing plans (repositories, supplements) are consistent with consent and institutional requirements.
 
-##### Sampling Frame Development
-- Population list and database compilation
-- Coverage and completeness evaluation
-- Accuracy and currency verification
-- Accessibility and permission requirement
-- Sampling unit and cluster identification
-- Stratification and grouping strategy
-- Exclusion and ineligibility criteria
-- Update and maintenance procedure
+---
 
-#### Sampling Method and Technique
-##### Probability Sampling Approach
-- Simple random and systematic sampling
-- Stratified and proportional sampling
-- Cluster and multi-stage sampling
-- Probability proportional to size
-- Complex and multi-frame sampling
-- Adaptive and responsive sampling
-- Sequential and stopping rule
-- Replication and variance estimation
+## Required Output Format
 
-##### Non-Probability Sampling Strategy
-- Convenience and availability sampling
-- Purposive and criterion-based selection
-- Theoretical and maximum variation sampling
-- Snowball and network sampling
-- Quota and proportional representation
-- Expert and key informant selection
-- Volunteer and self-selected participation
-- Mixed and hybrid sampling approach
+Structure your assessment as:
 
-#### Sample Size and Power Analysis
-##### Statistical Power Calculation
-- Effect size and practical significance
-- Alpha level and Type I error control
-- Beta level and Type II error control
-- Power analysis and sample size determination
-- Multiple comparison and adjustment
-- Clustering and design effect
-- Attrition and dropout consideration
-- Sensitivity and scenario analysis
+1. **EXECUTIVE SUMMARY** - Overall readiness score (X.X/5.0), maturity level, launch recommendation (go / revise-first), top 3 risks
 
-##### Qualitative Sampling Adequacy
-- Theoretical saturation and redundancy
-- Information power and richness
-- Diversity and maximum variation
-- Depth and intensity consideration
-- Feasibility and resource constraint
-- Quality and credibility requirement
-- Transferability and applicability
-- Ethical and practical consideration
+2. **DIMENSION SCORECARD** - Table with each dimension, score (X.X/5), key gap, and the single highest-impact fix
 
-#### Recruitment Procedures and Strategy
-##### Recruitment Planning and Implementation
-- Recruitment channel identification and selection
-- Recruitment material development and testing
-- Screening and eligibility verification
-- Informed consent and enrollment process
-- Incentive structure and compensation
-- Tracking and documentation system
-- Timeline and milestone monitoring
-- Challenge identification and problem-solving
+3. **SAMPLING PLAN SUMMARY** - Population definition, eligibility rules, sampling method, sample size rationale (power/saturation), attrition assumptions
 
-##### Engagement and Retention Strategy
-- Initial contact and relationship building
-- Clear communication and expectation setting
-- Ongoing engagement and connection maintenance
-- Retention incentive and motivation
-- Barrier identification and removal
-- Flexible scheduling and accommodation
-- Cultural sensitivity and responsiveness
-- Long-term relationship and follow-up
+4. **RECRUITMENT & RETENTION PLAN** - Channels, scripts, incentives, tracking, retention tactics, timeline and volume targets
 
-## DATA COLLECTION STRATEGY AND INSTRUMENTATION
+5. **DATA COLLECTION SOP OUTLINE** - Step-by-step procedure, training plan, pilot plan, QC checks and thresholds
 
-### 3.1 Data Collection Framework and Protocol
-#### Data Collection Planning and Design
-##### Data Requirement Analysis
-- Primary and secondary data needs
-- Quantitative and qualitative data balance
-- Objective and subjective measurement
-- Individual and aggregate level data
-- Cross-sectional and longitudinal data
-- Baseline and follow-up measurement
-- Process and outcome data collection
-- Context and environmental data capture
+6. **DATA FLOW & SECURITY PLAN** - Data flow diagram narrative, storage locations, permissions, de-identification, retention/disposal
 
-##### Data Collection Protocol Development
-- Standardized procedure and instruction
-- Data collector training and certification
-- Quality control and assurance measure
-- Pilot testing and refinement process
-- Technology integration and support
-- Safety and security protocol
-- Cultural sensitivity and adaptation
-- Ethical compliance and protection
+Use this maturity scale:
+- **1.0–1.9: Ad hoc** (unclear population/sampling; high risk of bias and unusable data)
+- **2.0–2.9: Developing** (basic plan exists; major execution, measurement, or privacy gaps)
+- **3.0–3.9: Defined** (credible plan; targeted improvements needed before launch)
+- **4.0–4.9: Managed** (strong SOPs, QC, and governance; likely to execute reliably)
+- **5.0: Exemplary** (best-in-class rigor, equity, and operational discipline)
 
-#### Multi-Source Data Integration
-##### Primary Data Collection
-- Original data generation and capture
-- Firsthand information and observation
-- Direct measurement and assessment
-- Real-time and contemporary data
-- Customized and purpose-specific collection
-- High validity and reliability potential
-- Resource intensive and time-consuming
-- Control and quality assurance advantage
-
-##### Secondary Data Utilization
-- Existing data source and repository
-- Administrative and registry data
-- Survey and census data reuse
-- Literature and publication data
-- Digital and social media data
-- Cost-effective and efficient collection
-- Large sample and historical coverage
-- Limited control and customization
-
-### 3.2 Measurement Instrument Development and Selection
-#### Instrument Design and Construction
-##### Quantitative Measurement Tool
-- Survey questionnaire and scale development
-- Psychometric property and validation
-- Item construction and cognitive testing
-- Response format and scaling method
-- Translation and cultural adaptation
-- Technology-enhanced and digital format
-- Automated and sensor-based measurement
-- Standardized and norm-referenced assessment
-
-##### Qualitative Data Collection Tool
-- Interview guide and protocol development
-- Focus group and discussion framework
-- Observation checklist and field note
-- Document analysis and content framework
-- Visual and multimedia data collection
-- Participatory and creative method
-- Technology-mediated and virtual tool
-- Cultural and context-appropriate approach
-
-#### Instrument Validation and Quality Assurance
-##### Psychometric Property Assessment
-- Reliability and internal consistency
-- Validity and accuracy verification
-- Factor structure and dimensionality
-- Item performance and discrimination
-- Differential item functioning and bias
-- Cross-cultural and linguistic equivalence
-- Sensitivity and responsiveness
-- Norms and reference group establishment
-
-##### Qualitative Tool Trustworthiness
-- Credibility and authenticity
-- Transferability and applicability
-- Dependability and consistency
-- Confirmability and neutrality
-- Member checking and validation
-- Peer debriefing and review
-- Audit trail and documentation
-- Reflexivity and positionality
-
-### 3.3 Technology Integration and Digital Methods
-#### Digital Data Collection Platform
-##### Technology-Enhanced Collection
-- Web-based and mobile survey
-- Computer-assisted interviewing
-- Digital recording and transcription
-- Video and multimedia capture
-- Sensor and wearable technology
-- Social media and digital ethnography
-- Virtual reality and simulation
-- Artificial intelligence and automation
-
-##### Data Management and Security
-- Cloud-based and secure storage
-- Encryption and protection protocol
-- Access control and permission management
-- Backup and disaster recovery
-- Version control and audit trail
-- Integration and interoperability
-- Real-time monitoring and quality check
-- Compliance and regulatory adherence
-
-#### Innovation and Emerging Method
-##### Computational and Big Data
-- Machine learning and pattern recognition
-- Natural language processing and text mining
-- Network analysis and social media mining
-- Geospatial and location-based data
-- Internet of things and sensor network
-- Blockchain and distributed data
-- Crowdsourcing and citizen science
-- Digital biomarker and health monitoring
-
-##### Virtual and Remote Method
-- Online and virtual research environment
-- Remote and contactless data collection
-- Digital consent and e-signature
-- Virtual focus group and interview
-- Online observation and ethnography
-- Digital diary and ecological momentary
-- Gamification and engagement strategy
-- Accessibility and inclusion technology
-
-### Ensure the sampling and data collection strategy is
-- Methodologically rigorous and scientifically sound
-- Appropriate for research questions and design
-- Feasible within resource and time constraints
-- Ethically conducted and participant-centered
-- Culturally sensitive and contextually appropriate
-- Technology-enhanced where beneficial
-- Quality-assured with multiple checks
-- Clearly documented and reproducible
-```
+---
 
 ## Variables
 
-### Research Context
-- `[RESEARCH_FIELD]`: Research domain and academic field
-- `[STUDY_FOCUS]`: Specific research focus and area
-- `[PRIMARY_RESEARCH_QUESTION]`: Main research question
-- `[METHODOLOGICAL_APPROACH]`: Quantitative, qualitative, or mixed-methods
-- `[TARGET_POPULATION]`: Study population characteristics
-- `[RESEARCH_SETTING]`: Study setting and context
-- `[TIME_FRAME]`: Study duration and timeline
-- `[LOCATION_BOUNDARIES]`: Geographic scope
+| Variable | Description | Example |
+|----------|-------------|---------|
+| `{STUDY_CONTEXT}` | What study you’re running (topic + design + setting) | "Cluster trial of a literacy intervention across 20 classrooms" |
+| `{SAMPLING_APPROACH}` | How you will select participants or units | "Cluster sampling with stratification by school; target n=600 students" |
+| `{DATA_COLLECTION_PLAN}` | What data you will collect and how | "Pre/post assessments + teacher observations + weekly attendance pulls" |
 
-### Sampling Requirements
-- `[SAMPLE_PROFILE]`: Detailed sample characteristics
-- `[SAMPLING_METHOD]`: Probability or non-probability approach
-- `[SAMPLE_SIZE_TARGET]`: Desired sample size
-- `[RECRUITMENT_DURATION]`: Timeline for recruitment
+---
 
-### Data Collection Requirements
-- `[DATA_NEEDS]`: Types of data required
-- `[QUANTITATIVE_QUALITATIVE_BOTH]`: Nature of data
-- `[DATA_COLLECTION_SETTING]`: Where data will be collected
-- `[TECHNICAL_NEEDS]`: Technology and equipment requirements
+## Usage Example
 
-### Resource Context
-- `[FINANCIAL_LIMITATIONS]`: Budget constraints
-- `[HUMAN_RESOURCES]`: Personnel available
-- `[ACCESS_CONSTRAINTS]`: Access limitations
-- `[ETHICAL_REQUIREMENTS]`: Ethical considerations
+**Input:**
+"{STUDY_CONTEXT}: Qualitative study of patient experiences with telehealth follow-ups"
+"{SAMPLING_APPROACH}: Purposive maximum-variation sampling; target 25–35 interviews until saturation"
+"{DATA_COLLECTION_PLAN}: Semi-structured interviews (45 min) via video; optional short survey"
 
-## Usage Examples
+**Output (abridged):**
+- Overall Readiness: **2.8/5.0 (Developing)**
+- Recommendation: **REVISE-FIRST** (launch after a 1–2 week pilot and governance tightening)
+- Top Risks: eligibility rules too vague (who qualifies as “telehealth follow-up”), interview guide not piloted for comprehension, data storage and de-identification workflow unspecified
 
-### Example 1: Mixed-Methods Community Health Study
-"Design sampling and data collection for a study examining health behaviors in rural communities. Stratified random sample of 500 adults from 10 communities for surveys. Purposive sample of 40 participants for in-depth interviews. Multi-mode data collection including mobile surveys, wearable activity trackers, and face-to-face interviews."
+Dimension Scorecard:
+- Population & Eligibility: 2.5/5 (write testable eligibility checklist + screening script)
+- Sampling Adequacy: 3.0/5 (define stopping rule + saturation reporting plan)
+- Recruitment Feasibility: 2.7/5 (secure clinic recruitment workflow; reduce scheduling friction)
+- Measurement Fit: 2.9/5 (pilot interview guide; add language access plan)
+- Operations & QC: 2.6/5 (train interviewers; add interview QA checklist and audit trail)
+- Data Management: 3.0/5 (define storage, access control, and de-identification SOP)
 
-### Example 2: Educational Intervention Study
-"Develop recruitment and data collection plan for classroom-based literacy intervention. Cluster random sampling of 30 classrooms (600 students). Pre-post standardized assessments, teacher observation protocols, student work samples, and implementation fidelity checklists. Digital data collection using tablets."
-
-### Example 3: Qualitative Organizational Research
-"Create sampling strategy for phenomenological study of leadership transitions. Purposive sampling of 20-30 executives across diverse industries until saturation. Semi-structured interviews via video conferencing, document analysis of organizational materials, reflexive journaling by researcher."
-
-## Best Practices
-
-1. **Define inclusion/exclusion criteria precisely** - Clear criteria prevent sampling errors and improve study validity
-2. **Calculate sample size with conservative assumptions** - Account for attrition, missing data, and design effects
-3. **Pilot test all instruments** - Identify problems before full-scale data collection begins
-4. **Train data collectors thoroughly** - Standardization requires comprehensive training and ongoing supervision
-5. **Build rapport with participants** - Strong relationships improve response rates and data quality
-6. **Use multiple recruitment channels** - Diversify approaches to reach target population effectively
-7. **Monitor recruitment progress continuously** - Track against milestones and adjust strategies as needed
-8. **Implement quality control throughout** - Regular checks prevent problems from accumulating
-9. **Protect participant privacy rigorously** - Security measures must be built into all procedures
-10. **Document everything systematically** - Detailed documentation enables reproducibility and troubleshooting
-
-## Tips for Success
-
-- Start recruitment earlier than you think necessary - it almost always takes longer than expected
-- Build strong relationships with gatekeepers and community partners for access
-- Offer flexible participation options to accommodate diverse schedules and preferences
-- Create user-friendly instruments that respect participant time and cognitive load
-- Use technology strategically where it improves quality or efficiency, not just for novelty
-- Maintain detailed tracking systems for recruitment, consent, and data collection progress
-- Prepare backup plans for equipment failure, participant dropout, and access issues
-- Consider participant burden when designing multi-wave or intensive data collection
-- Compensate participants fairly for their time and contribution
-- Build in quality checks at multiple stages rather than waiting until analysis
-
-
+---
 
 ## Related Resources
 
-### Complementary Templates
-
-Enhance your workflow by combining this template with:
-
-- **[Research Design Foundation](research-design-foundation.md)** - Complementary approaches and methodologies
-- **[Research Design Analysis Quality](research-design-analysis-quality.md)** - Complementary approaches and methodologies
-- **[Research Design Overview](research-design-overview.md)** - Complementary approaches and methodologies
-
-### Suggested Workflow
-
-**Typical implementation sequence**:
-
-1. Start with this template (Research Design - Sampling Strategy & Data Collection)
-2. Use [Research Design Foundation](research-design-foundation.md) for deeper analysis
-3. Apply [Research Design Analysis Quality](research-design-analysis-quality.md) for execution
-4. Iterate and refine based on results
-
-### Explore More in This Category
-
-Browse all **[education/Academic Research](../../education/Academic Research/)** templates for related tools and frameworks.
-
-### Common Use Case Combinations
-
-- **Developing comprehensive sampling strategies and recruitment plans**: Combine this template with related analytics and strategy frameworks
-- **Designing data collection protocols and instrumentation**: Combine this template with related analytics and strategy frameworks
-- **Planning multi-source data integration and technology-enhanced collection**: Combine this template with related analytics and strategy frameworks
-
-## Customization Options
-
-1. **Population Specificity**: Adapt sampling strategies for hard-to-reach populations, vulnerable groups, elite participants, or international samples with appropriate recruitment and engagement approaches
-
-2. **Data Modality Emphasis**: Customize for primarily quantitative (surveys, tests, physiological measures), qualitative (interviews, observations, documents), or integrated mixed-methods data collection
-
-3. **Technology Integration Level**: Scale from traditional paper-and-pencil methods to fully digital platforms, mobile apps, wearable sensors, or AI-enhanced data collection depending on resources and participant characteristics
-
-4. **Setting Adaptation**: Modify protocols for laboratory-based, field-based, clinical, educational, organizational, or virtual/remote research settings with appropriate procedures
-
-5. **Cultural Contextualization**: Adapt recruitment materials, informed consent processes, and data collection procedures for diverse cultural contexts, languages, and community norms with appropriate sensitivity and responsiveness
+- **[Research Design Foundation Readiness Assessment](research-design-foundation.md)** - Aligns theory, questions, and design choices before sampling decisions
+- **[Research Analysis & Quality Assurance Readiness Assessment](research-design-analysis-quality.md)** - Aligns QA, reproducibility, and analysis plans with collected data
+- **[Research Design - Overview](research-design-overview.md)** - Navigates the full research design readiness suite

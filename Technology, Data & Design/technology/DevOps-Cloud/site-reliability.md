@@ -1,294 +1,121 @@
 ---
 category: technology
-last_updated: 2025-11-09
 related_templates:
-- technology/cloud-architecture-framework.md
-- technology/site-reliability-engineering.md
-- technology/cloud-migration-strategy.md
+- technology/DevOps-Cloud/infrastructure-management.md
+- technology/DevOps-Cloud/cloud-architecture.md
+- technology/DevOps-Cloud/ci-cd-pipelines.md
 tags:
 - sre
 - slo-sli
 - error-budgets
 - incident-management
-title: Site Reliability Engineering Template
+title: Site Reliability Engineering
 use_cases:
-- Creating implement comprehensive sre practices including slo/sli definition, error
-  budgets, incident management, monitoring, alerting, and reliability engineering
-  for production systems.
-- Project planning and execution
-- Strategy development
+- Implementing SLO/SLI frameworks with error budgets balancing reliability targets (99.9%) against feature velocity for production services
+- Building incident management practices with on-call rotations, runbooks, and blameless postmortems achieving <15 minute MTTR for critical incidents
+- Designing observability strategies with multi-window burn rate alerting reducing alert fatigue while catching real issues
 industries:
 - technology
-type: template
+- financial-services
+- healthcare
+- retail
+type: framework
 difficulty: intermediate
 slug: site-reliability
 ---
 
-# Site Reliability Engineering Template
+# Site Reliability Engineering
 
 ## Purpose
-Implement comprehensive SRE practices including SLO/SLI definition, error budgets, incident management, monitoring, alerting, and reliability engineering for production systems.
+Implement comprehensive SRE practices covering SLO/SLI definition, error budget management, incident response, observability, and reliability engineering achieving sustainable reliability targets while enabling feature velocity.
 
-## Quick SRE Prompt
-Implement SRE for [service] targeting [X users]. Define SLIs: availability, latency (p50/p95/p99), error rate, throughput. Set SLOs: [99.X%] availability, <[Y]ms latency. Calculate error budget ([Z] min/month downtime). Deploy: [Prometheus/DataDog] monitoring, PagerDuty alerting on burn rate. Create: on-call rotation, incident runbooks, postmortem template. Track: MTTR, incident frequency, error budget consumption.
+## 🚀 Quick SRE Prompt
 
-## Quick Start
+> Implement SRE for **[SERVICE]** serving **[USERS]** users. SLIs: availability (**[GOOD_REQUESTS/TOTAL]**), latency (**[P50/P95/P99]**ms), error rate (**[X]**%). SLOs: **[99.X]**% availability, p95 <**[Y]**ms. Error budget: **[Z]** minutes/month downtime. Monitoring: **[PROMETHEUS/DATADOG]** with **[PAGERDUTY/OPSGENIE]** alerting. Burn rate thresholds: 2x (page), 6x (ticket). On-call: **[ROTATION]** shifts. Track: MTTR **[TARGET]**, incident frequency, budget consumption.
 
-**Implement SRE practices in 5 steps:**
+---
 
-1. **Define Service Level Indicators (SLIs)**: Identify key metrics that matter to users - availability, latency, error rate, throughput
-2. **Set Service Level Objectives (SLOs)**: Establish realistic targets (e.g., 99.9% availability, <200ms p95 latency) with measurement windows
-3. **Calculate Error Budgets**: Define acceptable downtime (e.g., 0.1% = 43.2 min/month) and burn rate thresholds
-4. **Deploy Monitoring Stack**: Set up Prometheus/Grafana or DataDog with dashboards showing SLI compliance and error budget burn
-5. **Create Incident Runbooks**: Document response procedures, escalation paths, and postmortem templates
+## Template
 
-**Quick SLO Example:**
-```yaml
-service: api-gateway
-slo:
-  availability: 99.9%  # 43.2 min downtime/month
-  latency_p95: 200ms
-  error_rate: <1%
-  measurement_window: 30_days
+Implement SRE practices for {SERVICE_NAME} with {CRITICALITY} criticality serving {USER_BASE} achieving {AVAILABILITY_TARGET}% availability and {LATENCY_TARGET} p95 latency.
 
-error_budget:
-  total: 0.1%
-  alert_on_burn_rate: 2x  # Alert if burning budget 2x faster than planned
-```
+**SERVICE LEVEL OBJECTIVES**
 
-## Template Structure
+Define SLIs measuring what users actually experience. Availability SLI: successful requests / total requests (exclude health checks, internal traffic). Latency SLI: requests completing within threshold (p50 <50ms, p95 <200ms, p99 <500ms are common targets). Error SLI: 5xx errors / total requests (distinguish client errors 4xx from server errors). Throughput SLI: requests per second capacity, critical for batch systems. Freshness SLI: data age for async systems (pipeline freshness, cache staleness).
 
-### SRE Overview
-- **Service Name**: [SERVICE_NAME]
-- **Service Type**: [SERVICE_TYPE]
-- **Business Criticality**: [BUSINESS_CRITICALITY]
-- **User Base**: [USER_BASE]
-- **Traffic Pattern**: [TRAFFIC_PATTERN]
-- **Reliability Requirements**: [RELIABILITY_REQUIREMENTS]
-- **Team Structure**: [SRE_TEAM_STRUCTURE]
-- **Responsibilities**: [SRE_RESPONSIBILITIES]
-- **Tools and Technologies**: [SRE_TOOLS]
-- **Budget**: [SRE_BUDGET]
+Set SLOs based on user expectations and business requirements. Availability tiers: 99% (3.65 days downtime/year, acceptable for internal tools), 99.9% (8.76 hours, standard for most production services), 99.99% (52 minutes, premium/critical services), 99.999% (5 minutes, extremely high cost). Latency targets: measure at user-facing edge, not internal services. Composite SLOs: combine multiple SLIs (availability AND latency within target). Measurement window: 30-day rolling window most common, weekly for fast-moving services.
 
-### Service Level Objectives
-- **SLI Definitions**: [SLI_DEFINITIONS]
-- **SLO Targets**: [SLO_TARGETS]
-- **Measurement Methods**: [MEASUREMENT_METHODS]
-- **Data Sources**: [DATA_SOURCES]
-- **Calculation Logic**: [CALCULATION_LOGIC]
-- **Reporting Period**: [REPORTING_PERIOD]
-- **SLO Review Process**: [SLO_REVIEW_PROCESS]
-- **Stakeholder Agreement**: [STAKEHOLDER_AGREEMENT]
-- **SLO Documentation**: [SLO_DOCUMENTATION]
-- **Communication Plan**: [SLO_COMMUNICATION]
+Calculate error budgets enabling reliability-velocity tradeoff. Budget calculation: 100% - SLO target = error budget (99.9% SLO = 0.1% budget = 43.2 min/month). Burn rate: how fast you're consuming budget (1x = sustainable, 2x = concerning, 10x = critical). Multi-window alerts: 1-hour window for fast burns (10x), 6-hour for moderate (2x), catch both acute and slow degradation. Budget policy: >50% remaining = ship features freely, 25-50% = ship with caution, <25% = reliability focus only, <10% = freeze releases.
 
-### Error Budget Management
-- **Error Budget Definition**: [ERROR_BUDGET_DEFINITION]
-- **Budget Calculation**: [BUDGET_CALCULATION]
-- **Burn Rate**: [BURN_RATE]
-- **Budget Tracking**: [BUDGET_TRACKING]
-- **Budget Alerts**: [BUDGET_ALERTS]
-- **Budget Policies**: [BUDGET_POLICIES]
-- **Escalation Triggers**: [ESCALATION_TRIGGERS]
-- **Feature Release Gates**: [RELEASE_GATES]
-- **Budget Reporting**: [BUDGET_REPORTING]
-- **Recovery Actions**: [RECOVERY_ACTIONS]
+**MONITORING AND OBSERVABILITY**
 
-### Monitoring and Observability
-- **Monitoring Strategy**: [SRE_MONITORING_STRATEGY]
-- **Metrics Collection**: [SRE_METRICS_COLLECTION]
-- **Log Management**: [SRE_LOG_MANAGEMENT]
-- **Distributed Tracing**: [SRE_DISTRIBUTED_TRACING]
-- **Dashboard Design**: [SRE_DASHBOARD_DESIGN]
-- **Alerting Strategy**: [SRE_ALERTING_STRATEGY]
-- **On-Call Management**: [ONCALL_MANAGEMENT]
-- **Runbook Creation**: [RUNBOOK_CREATION]
-- **Playbook Development**: [PLAYBOOK_DEVELOPMENT]
-- **Tool Integration**: [SRE_TOOL_INTEGRATION]
+Implement the four golden signals for service health. Latency: response time distribution (p50/p95/p99), separate success vs error latency. Traffic: requests per second, concurrent users, message queue depth. Errors: error rate by type (4xx, 5xx, timeout), error budget burn. Saturation: CPU/memory utilization, connection pool usage, queue depth. Dashboard hierarchy: NOC view (all services), service view (single service health), debug view (detailed metrics).
 
-### Incident Management
-- **Incident Classification**: [INCIDENT_CLASSIFICATION]
-- **Response Procedures**: [RESPONSE_PROCEDURES]
-- **Escalation Matrix**: [ESCALATION_MATRIX]
-- **Communication Plan**: [INCIDENT_COMMUNICATION]
-- **Status Page Management**: [STATUS_PAGE]
-- **Postmortem Process**: [POSTMORTEM_PROCESS]
-- **Action Item Tracking**: [ACTION_ITEM_TRACKING]
-- **Lessons Learned**: [LESSONS_LEARNED]
-- **Process Improvement**: [INCIDENT_PROCESS_IMPROVEMENT]
-- **Training Requirements**: [INCIDENT_TRAINING]
+Configure intelligent alerting minimizing noise while catching real issues. Symptom-based alerts: alert on user impact (error rate, latency), not causes (CPU high). Multi-window burn rate: short window (1hr) high threshold (14x) + long window (6hr) lower threshold (2x) = catch fast burns and slow bleeds. Alert severity: critical (page immediately, customer impact), warning (investigate next business day), info (tracked, no notification). Routing: PagerDuty/Opsgenie with escalation policies, acknowledge SLA, auto-escalate if not acknowledged.
 
-### Capacity Planning
-- **Capacity Modeling**: [CAPACITY_MODELING]
-- **Growth Projections**: [GROWTH_PROJECTIONS]
-- **Resource Planning**: [RESOURCE_PLANNING]
-- **Performance Testing**: [SRE_PERFORMANCE_TESTING]
-- **Load Testing**: [SRE_LOAD_TESTING]
-- **Stress Testing**: [SRE_STRESS_TESTING]
-- **Capacity Monitoring**: [CAPACITY_MONITORING]
-- **Scaling Policies**: [SRE_SCALING_POLICIES]
-- **Cost Optimization**: [SRE_COST_OPTIMIZATION]
-- **Procurement Planning**: [PROCUREMENT_PLANNING]
+Build debugging capability through observability. Metrics: Prometheus for collection, Grafana for visualization, 15-second scrape interval, 15-day retention (downsample for longer). Logs: structured JSON, correlation IDs, centralized aggregation (Loki, Elasticsearch), 7-day hot storage. Traces: OpenTelemetry instrumentation, distributed trace backends (Jaeger, Tempo), sampling 1-10% for cost control. Correlation: link traces to logs to metrics, enable drill-down from dashboard to specific request.
 
-### Reliability Engineering
-- **Reliability Principles**: [RELIABILITY_PRINCIPLES]
-- **Fault Tolerance**: [FAULT_TOLERANCE]
-- **Circuit Breakers**: [SRE_CIRCUIT_BREAKERS]
-- **Retry Logic**: [SRE_RETRY_LOGIC]
-- **Graceful Degradation**: [GRACEFUL_DEGRADATION]
-- **Chaos Engineering**: [CHAOS_ENGINEERING]
-- **Disaster Recovery**: [SRE_DISASTER_RECOVERY]
-- **Backup Strategy**: [SRE_BACKUP_STRATEGY]
-- **Testing Strategy**: [SRE_TESTING_STRATEGY]
-- **Release Engineering**: [RELEASE_ENGINEERING]
+**INCIDENT MANAGEMENT**
 
-Please provide detailed SLO definitions, monitoring setups, incident procedures, and reliability practices.
+Establish incident classification and response procedures. Severity levels: SEV1 (full outage, customer facing, all-hands), SEV2 (degraded service, significant impact), SEV3 (minor impact, single customer or feature), SEV4 (no current impact, potential issue). Response times: SEV1 acknowledge <5 min, assemble team <15 min, status updates every 30 min. Roles: Incident Commander (coordinates), Tech Lead (drives resolution), Communications Lead (updates stakeholders).
+
+Implement effective on-call practices. Rotation structure: 1-week shifts, 2-person rotation (primary + secondary), handoff meetings. Compensation: on-call pay, time off after incidents, respect work-life balance. Escalation: primary has 5 min to acknowledge, then secondary, then manager. On-call load: target <2 pages per shift, investigate if consistently higher. Shadow program: new engineers shadow 2 weeks before joining rotation.
+
+Create runbooks enabling consistent incident response. Runbook content: symptoms (what alert fires), diagnosis steps (how to investigate), remediation actions (how to fix), escalation criteria (when to escalate). Runbook format: concise, step-by-step, tested regularly, linked from alerts. Common runbooks: service restart, database failover, traffic reroute, dependency failure, capacity scaling. Automation: link runbooks to automated remediation where safe (restart pod, scale out).
+
+Conduct blameless postmortems driving improvement. Postmortem timing: within 48 hours for SEV1/SEV2, within 1 week for SEV3. Format: timeline, impact, root cause (5 Whys), contributing factors, action items. Blameless culture: focus on systems and processes, not individuals, "how did the system allow this to happen?" Action items: specific, owned, due-dated, tracked to completion, reviewed in team meetings. Pattern analysis: quarterly review of incidents, identify themes, prioritize systemic fixes.
+
+**RELIABILITY ENGINEERING**
+
+Design systems for failure tolerance. Redundancy: N+1 for critical components, multi-AZ deployment, active-active when possible. Timeouts: explicit timeouts on all network calls (connect timeout + read timeout), fail fast. Retries: exponential backoff with jitter, max 3 retries, idempotent operations only. Circuit breakers: fail-open for non-critical dependencies, configurable thresholds (5 failures in 10 seconds). Bulkheads: isolate failure domains, separate thread pools for different dependencies.
+
+Implement graceful degradation maintaining core functionality. Feature tiers: identify must-have (checkout) vs nice-to-have (recommendations) features. Degraded modes: serve cached data when backend slow, show partial results, disable expensive features. Load shedding: reject new requests when overloaded, prioritize existing users. Backpressure: slow down producers when consumers overwhelmed, queue depth limits. Feature flags: runtime control to disable problematic features without deployment.
+
+Practice chaos engineering validating resilience. Chaos experiments: kill instances, inject latency, simulate AZ failure, exhaust resources. Game days: scheduled chaos experiments with team assembled, practice incident response. Steady state hypothesis: define normal behavior, verify system returns to normal after experiment. Blast radius: start small (single instance), expand gradually (AZ, region). Tools: Chaos Monkey, Gremlin, LitmusChaos, AWS Fault Injection Simulator.
+
+**CAPACITY PLANNING**
+
+Forecast capacity requirements proactively. Utilization monitoring: track CPU, memory, disk, network trends weekly. Growth modeling: linear extrapolation for steady growth, event-based modeling for launches. Headroom targets: 30% headroom for organic growth, additional buffer for peak events. Lead time: 4-week lead time for reserved capacity, plan quarterly. Performance testing: validate capacity model with load tests, identify bottlenecks before production.
+
+Plan for peak events and disasters. Peak planning: 3x baseline capacity for known events (Black Friday, launches), pre-scaling 24 hours before. Disaster recovery: RPO (data loss tolerance) and RTO (downtime tolerance) targets, tested quarterly. Failover capacity: ensure DR region can handle production load, regular failover drills. Cost optimization: balance always-on capacity (expensive, instant) vs scale-on-demand (cheaper, delay).
+
+Deliver SRE implementation as:
+
+1. **SLO SPECIFICATION** - SLI definitions, SLO targets, measurement methods, error budget calculation
+
+2. **MONITORING SETUP** - Metrics collection, dashboards (NOC/service/debug), alert rules with burn rates
+
+3. **ALERTING CONFIGURATION** - Severity classification, routing rules, escalation policies, on-call schedule
+
+4. **INCIDENT PROCEDURES** - Classification criteria, response runbooks, communication templates, postmortem process
+
+5. **RELIABILITY PATTERNS** - Timeout/retry/circuit breaker configuration, degradation modes, chaos experiment plan
+
+6. **CAPACITY PLAN** - Utilization analysis, growth forecast, peak planning, DR requirements
+
+---
 
 ## Usage Examples
 
-### E-commerce Platform SRE
-```
-Implement SRE practices for ShoppingPlatform web service with critical business criticality supporting 1M+ user base with peak traffic pattern.
+### Example 1: E-commerce Payment Service
+**Prompt:** Implement SRE for PaymentService serving 5M transactions/day with 99.99% availability requirement and <100ms p99 latency for checkout flow.
 
-Service Level Objectives:
-- Define availability, latency, throughput SLI definitions
-- Target 99.9% availability, <200ms p95 latency SLO targets
-- Measure with load balancer logs, APM data sources
-- Calculate monthly rolling window reporting period
-- Review quarterly SLO targets with engineering/product stakeholder agreement
+**Expected Output:** SLIs: availability (successful payment API calls / total calls, excluding retries), latency (payment completion time p50/p95/p99), error rate (payment failures / total attempts, categorized by error type). SLOs: 99.99% availability (52 minutes downtime/year), p95 <50ms, p99 <100ms, error rate <0.01%. Error budget: 4.32 minutes/month, burn rate alerts at 2x (warning, ticket), 6x (page primary), 14x (page all). Monitoring: Prometheus with custom payment metrics, Grafana dashboards (payment volume, success rate, latency percentiles, error breakdown by type), PagerDuty with 3-tier escalation (on-call → team lead → engineering manager). Incident classification: SEV1 (all payments failing), SEV2 (>10% failure rate or >200ms p99), SEV3 (single payment provider degraded). Reliability: circuit breaker per payment provider (5 failures → open for 30 seconds), fallback to secondary provider, graceful degradation shows "payment processing" and retries. Runbooks: provider failover, database connection pool exhaustion, rate limiting activation. Postmortem SLA: within 24 hours for any payment outage.
 
-Error Budget Management:
-- Define 0.1% monthly downtime error budget definition
-- Calculate based on successful requests budget calculation
-- Track 1%/5%/10% burn rate thresholds with Prometheus budget tracking
-- Alert on 2x burn rate budget alerts with escalation to engineering manager
-- Gate releases when budget <10% release gates
+### Example 2: API Platform for B2B SaaS
+**Prompt:** Implement SRE for APIPlatform serving 500 enterprise customers with tiered SLAs (99.9% standard, 99.95% premium) and per-tenant rate limiting.
 
-### Monitoring Strategy
-- Use four golden signals sre monitoring strategy
-- Collect RED/USE metrics sre metrics collection
-- Aggregate with ELK stack sre log management
-- Trace with Jaeger sre distributed tracing
-- Create Grafana dashboards showing SLIs/SLOs sre dashboard design
+**Expected Output:** SLIs: availability per tenant (requests within rate limit that succeed), latency (p95 response time by endpoint), throughput (requests per second vs contractual limit), error rate (5xx excluding rate limits). SLOs: standard tier 99.9% (8.76 hours/year), premium 99.95% (4.38 hours/year), p95 <200ms all endpoints, p99 <500ms. Error budget: separate tracking per tier, budget dashboard per customer. Monitoring: multi-tenant Prometheus with tenant labels, per-customer SLO dashboards (embedded in customer portal), DataDog for APM tracing. Alerting: tenant-specific alerts for premium customers (direct PagerDuty integration), aggregate alerts for standard tier, burn rate with tenant breakdown. On-call: follow-the-sun rotation (US → EU → APAC), premium customer escalation path to account team. Incident communication: status page per customer tier, direct Slack integration for enterprise customers. Reliability: tenant isolation (separate rate limit buckets, noisy neighbor protection), graceful degradation (429 with retry-after header), queue-based rate limiting for burst tolerance. Capacity: per-tenant capacity allocation, auto-scaling with tenant-aware bin-packing.
 
-### Incident Management
-- Classify SEV1/2/3/4 based on user impact incident classification
-- Follow ITIL-based response procedures with 15min/1hr/4hr escalation matrix
-- Communicate via Slack, email, status page incident communication
-- Conduct blameless postmortem process within 48 hours
-- Track with Jira action item tracking and quarterly lessons learned reviews
-```
+### Example 3: Data Pipeline Platform
+**Prompt:** Implement SRE for DataPlatform processing 10TB daily with freshness SLO (data available within 1 hour of event time) and 99.9% job success rate.
 
-## Variables
+**Expected Output:** SLIs: freshness (time from event to queryable, measured at destination), completeness (records processed / records expected), job success (successful job runs / total scheduled runs), throughput (GB processed per hour). SLOs: freshness 99% of data within 1 hour, 99.9% within 4 hours, job success rate 99.9%, throughput meets business SLA. Error budget: 43 minutes of >4 hour freshness per month, track by pipeline and data source. Monitoring: custom pipeline metrics (records in/out, processing time, queue depth), Airflow task metrics, data quality checks (row counts, schema validation). Dashboards: pipeline health (DAG status, freshness heatmap), data quality (anomaly detection), capacity (processing rate vs backlog). Alerting: freshness breach approaching (warning at 45 min, critical at 55 min), job failure with retry exhausted, data quality anomaly. Incident response: data pipeline playbooks (upstream delay, schema change, infrastructure failure), data correction procedures, stakeholder communication for delayed reports. Reliability: idempotent processing (safe to retry), checkpoint/restart capability, dead letter queues for failed records, backfill automation. Chaos: simulate upstream delays, inject corrupt records, fail individual pipeline stages.
 
-| Variable | Description | Example |
-|----------|-------------|----------|
-| `[SERVICE_NAME]` | Specify the service name | "John Smith" |
-| `[SERVICE_TYPE]` | Specify the service type | "Standard" |
-| `[BUSINESS_CRITICALITY]` | Specify the business criticality | "Tier 1 - Revenue Critical", "Tier 2 - Business Essential", "Tier 3 - Internal Support" |
-| `[USER_BASE]` | Specify the user base | "1M+ monthly active users", "10K enterprise customers", "Internal 5K employees" |
-| `[TRAFFIC_PATTERN]` | Specify the traffic pattern | "Steady weekday traffic", "Seasonal peaks (Black Friday)", "Bursty event-driven" |
-| `[RELIABILITY_REQUIREMENTS]` | Specify the reliability requirements | "99.9% availability (8.76hr downtime/year)", "99.99% for critical services" |
-| `[SRE_TEAM_STRUCTURE]` | Specify the sre team structure | "Embedded SRE per product team", "Central SRE platform team", "Hybrid model" |
-| `[SRE_RESPONSIBILITIES]` | Specify the sre responsibilities | "SLO definition", "Incident response", "Capacity planning", "Reliability reviews" |
-| `[SRE_TOOLS]` | Specify the sre tools | "Prometheus + Grafana", "PagerDuty", "Datadog", "Jaeger", "Terraform"
-| `[SRE_BUDGET]` | Specify the sre budget | "$500,000" |
-| `[SLI_DEFINITIONS]` | Specify the sli definitions | "Availability: successful requests / total requests", "Latency: p95 response time", "Error rate: 5xx / total" |
-| `[SLO_TARGETS]` | Specify the slo targets | "99.9% availability", "p95 latency < 200ms", "Error rate < 0.1%" |
-| `[MEASUREMENT_METHODS]` | Specify the measurement methods | "Prometheus metrics", "Load balancer logs", "Synthetic monitoring", "Real user monitoring" |
-| `[DATA_SOURCES]` | Specify the data sources | "CloudWatch metrics", "Application logs", "APM traces", "CDN analytics" |
-| `[CALCULATION_LOGIC]` | Specify the calculation logic | "30-day rolling window", "Excluding planned maintenance", "Weighted by request volume" |
-| `[REPORTING_PERIOD]` | Specify the reporting period | "30-day rolling", "Weekly reports", "Monthly review", "Quarterly business review" |
-| `[SLO_REVIEW_PROCESS]` | Specify the slo review process | "Quarterly SLO review meeting", "Annual target adjustment", "Post-incident SLO analysis" |
-| `[STAKEHOLDER_AGREEMENT]` | Specify the stakeholder agreement | "Engineering + Product alignment", "Executive sponsor sign-off", "Customer communication" |
-| `[SLO_DOCUMENTATION]` | Specify the slo documentation | "Confluence SLO page", "Runbook links", "Dashboard URLs", "Contact information" |
-| `[SLO_COMMUNICATION]` | Specify the slo communication | "Weekly Slack report", "Monthly email summary", "Real-time dashboard", "Status page"
-| `[ERROR_BUDGET_DEFINITION]` | Specify the error budget definition | "$500,000" |
-| `[BUDGET_CALCULATION]` | Specify the budget calculation | "$500,000" |
-| `[BURN_RATE]` | Specify the burn rate | "1x (sustainable)", "2x (alert threshold)", "10x (critical - page immediately)"
-| `[BUDGET_TRACKING]` | Specify the budget tracking | "$500,000" |
-| `[BUDGET_ALERTS]` | Specify the budget alerts | "$500,000" |
-| `[BUDGET_POLICIES]` | Specify the budget policies | "$500,000" |
-| `[ESCALATION_TRIGGERS]` | Specify the escalation triggers | "50% budget consumed in 1 week", "10x burn rate for 5 minutes", "SLO breach imminent" |
-| `[RELEASE_GATES]` | Specify the release gates | "Block releases when budget < 10%", "Require approval when < 25%", "Auto-approve when > 50%"
-| `[BUDGET_REPORTING]` | Specify the budget reporting | "$500,000" |
-| `[RECOVERY_ACTIONS]` | Specify the recovery actions | "Freeze deployments", "Enable feature flags", "Scale up resources", "Rollback last change" |
-| `[SRE_MONITORING_STRATEGY]` | Specify the sre monitoring strategy | "Four Golden Signals (latency, traffic, errors, saturation)", "RED method", "USE method" |
-| `[SRE_METRICS_COLLECTION]` | Specify the sre metrics collection | "Prometheus + exporters", "StatsD", "OpenTelemetry", "CloudWatch agent" |
-| `[SRE_LOG_MANAGEMENT]` | Specify the sre log management | "ELK Stack (Elasticsearch, Logstash, Kibana)", "Loki + Grafana", "Splunk", "CloudWatch Logs" |
-| `[SRE_DISTRIBUTED_TRACING]` | Specify the sre distributed tracing | "Jaeger", "Zipkin", "AWS X-Ray", "Datadog APM", "OpenTelemetry" |
-| `[SRE_DASHBOARD_DESIGN]` | Specify the sre dashboard design | "SLO status overview", "Service health grid", "Error budget burn", "On-call summary" |
-| `[SRE_ALERTING_STRATEGY]` | Specify the sre alerting strategy | "Symptom-based alerts", "Multi-window burn rate", "Alert routing by severity" |
-| `[ONCALL_MANAGEMENT]` | Specify the oncall management | "PagerDuty rotation", "1-week shifts", "Follow-the-sun", "Secondary on-call backup" |
-| `[RUNBOOK_CREATION]` | Specify the runbook creation | "Templated runbooks in Confluence", "Automated runbook links in alerts", "Version controlled" |
-| `[PLAYBOOK_DEVELOPMENT]` | Specify the playbook development | "Incident response playbooks", "Disaster recovery procedures", "Escalation guides" |
-| `[SRE_TOOL_INTEGRATION]` | Specify the sre tool integration | "Slack + PagerDuty", "Jira for tickets", "GitHub for code", "Terraform for infra" |
-| `[INCIDENT_CLASSIFICATION]` | Specify the incident classification | "SEV1: Revenue impact, all-hands", "SEV2: Degraded, team response", "SEV3: Minor, async fix" |
-| `[RESPONSE_PROCEDURES]` | Specify the response procedures | "Acknowledge < 5min", "Assemble team < 15min", "Status update every 30min" |
-| `[ESCALATION_MATRIX]` | Specify the escalation matrix | "L1: On-call engineer", "L2: Team lead", "L3: Engineering manager", "L4: VP Engineering" |
-| `[INCIDENT_COMMUNICATION]` | Specify the incident communication | "Slack #incidents channel", "Status page updates", "Customer email for SEV1"
-| `[STATUS_PAGE]` | Specify the status page | "In Progress" |
-| `[POSTMORTEM_PROCESS]` | Specify the postmortem process | "Blameless postmortem within 48hrs", "5 Whys analysis", "Timeline reconstruction" |
-| `[ACTION_ITEM_TRACKING]` | Specify the action item tracking | "Jira epic per incident", "Owner assigned", "Due dates enforced", "Weekly review" |
-| `[LESSONS_LEARNED]` | Specify the lessons learned | "Quarterly review meeting", "Shared knowledge base", "Pattern identification" |
-| `[INCIDENT_PROCESS_IMPROVEMENT]` | Specify the incident process improvement | "Retrospective after each SEV1", "Tool improvements", "Runbook updates" |
-| `[INCIDENT_TRAINING]` | Specify the incident training | "Quarterly incident response drills", "New hire on-call shadowing", "Game days" |
-| `[CAPACITY_MODELING]` | Specify the capacity modeling | "Load testing extrapolation", "Historical growth trends", "Business forecast alignment" |
-| `[GROWTH_PROJECTIONS]` | Specify the growth projections | "20% YoY traffic growth", "Seasonal peak 3x baseline", "New feature impact estimates" |
-| `[RESOURCE_PLANNING]` | Specify the resource planning | "Quarterly capacity reviews", "Reserved instance planning", "Headroom buffers (20%)" |
-| `[SRE_PERFORMANCE_TESTING]` | Specify the sre performance testing | "k6 load tests", "Gatling scenarios", "Production traffic replay" |
-| `[SRE_LOAD_TESTING]` | Specify the sre load testing | "Weekly load tests", "Pre-release validation", "Peak traffic simulation" |
-| `[SRE_STRESS_TESTING]` | Specify the sre stress testing | "Breaking point identification", "Failure mode analysis", "Recovery time measurement" |
-| `[CAPACITY_MONITORING]` | Specify the capacity monitoring | "CPU/memory utilization trends", "Storage growth rates", "Connection pool usage" |
-| `[SRE_SCALING_POLICIES]` | Specify the sre scaling policies | "HPA at 70% CPU", "Scale out before scale up", "Predictive scaling for known events" |
-| `[SRE_COST_OPTIMIZATION]` | Specify the sre cost optimization | "Right-sizing recommendations", "Spot instances for batch", "Reserved capacity for baseline" |
-| `[PROCUREMENT_PLANNING]` | Specify the procurement planning | "6-month hardware lead time", "Annual reserved instance commits", "Vendor negotiations" |
-| `[RELIABILITY_PRINCIPLES]` | Specify the reliability principles | "Design for failure", "Automate recovery", "Prefer simplicity", "Monitor everything" |
-| `[FAULT_TOLERANCE]` | Specify the fault tolerance | "Multi-AZ deployment", "Active-active regions", "N+1 redundancy", "Graceful failover" |
-| `[SRE_CIRCUIT_BREAKERS]` | Specify the sre circuit breakers | "Resilience4j", "Hystrix (legacy)", "Envoy circuit breaking", "Custom implementations" |
-| `[SRE_RETRY_LOGIC]` | Specify the sre retry logic | "Exponential backoff", "Jitter added", "Max 3 retries", "Idempotency required" |
-| `[GRACEFUL_DEGRADATION]` | Specify the graceful degradation | "Feature flags for non-critical", "Cached fallbacks", "Static error pages", "Queue backpressure" |
-| `[CHAOS_ENGINEERING]` | Specify the chaos engineering | "Chaos Monkey", "Gremlin", "LitmusChaos", "Monthly game days" |
-| `[SRE_DISASTER_RECOVERY]` | Specify the sre disaster recovery | "RPO < 1hr", "RTO < 4hr", "Cross-region failover", "Annual DR drills" |
-| `[SRE_BACKUP_STRATEGY]` | Specify the sre backup strategy | "Daily snapshots", "Cross-region replication", "Point-in-time recovery", "Backup testing" |
-| `[SRE_TESTING_STRATEGY]` | Specify the sre testing strategy | "Canary deployments", "Blue-green releases", "Feature flag rollouts", "Synthetic testing" |
-| `[RELEASE_ENGINEERING]` | Specify the release engineering | "GitOps with ArgoCD", "Automated rollbacks", "Progressive delivery", "Release trains"
+---
 
+## Cross-References
 
-
-## Related Resources
-
-### Complementary Templates
-
-Enhance your workflow by combining this template with:
-
-- **[Cloud Architecture Framework](cloud-architecture-framework.md)** - Complementary approaches and methodologies
-- **[Site Reliability Engineering](site-reliability-engineering.md)** - Complementary approaches and methodologies
-- **[Cloud Migration Strategy](cloud-migration-strategy.md)** - Strategic planning and execution frameworks
-
-### Suggested Workflow
-
-**Typical implementation sequence**:
-
-1. Start with this template (Site Reliability Engineering Template)
-2. Use [Cloud Architecture Framework](cloud-architecture-framework.md) for deeper analysis
-3. Apply [Site Reliability Engineering](site-reliability-engineering.md) for execution
-4. Iterate and refine based on results
-
-### Explore More in This Category
-
-Browse all **[technology/DevOps & Cloud](../../technology/DevOps & Cloud/)** templates for related tools and frameworks.
-
-### Common Use Case Combinations
-
-- **Creating implement comprehensive sre practices including slo/sli definition, error budgets, incident management, monitoring, alerting, and reliability engineering for production systems.**: Combine this template with related analytics and strategy frameworks
-- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
-- **Strategy development**: Combine this template with related analytics and strategy frameworks
-
-## Best Practices
-
-1. **Define meaningful SLIs that reflect user experience**
-2. **Set realistic SLOs based on business requirements**
-3. **Use error budgets to balance reliability and velocity**
-4. **Implement comprehensive monitoring and alerting**
-5. **Conduct blameless postmortems and act on learnings**
+- [Infrastructure Management](infrastructure-management.md) - Infrastructure operations supporting reliability
+- [Cloud Architecture](cloud-architecture.md) - Architectural patterns for high availability
+- [CI/CD Pipelines](ci-cd-pipelines.md) - Deployment practices affecting reliability

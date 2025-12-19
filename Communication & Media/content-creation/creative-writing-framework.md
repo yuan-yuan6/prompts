@@ -7,15 +7,15 @@ tags:
 - character-creation
 - worldbuilding
 use_cases:
-- Creating comprehensive framework for creative writing projects including story development,
-  character creation, worldbuilding, narrative structure, dialogue crafting, and publication
-  strategies for novels, scripts, poetry, and other creative works.
-- Project planning and execution
-- Strategy development
-last_updated: 2025-11-09
+- Writing novels/novellas (50K-120K words) with three-act structure, character arcs, theme development, worldbuilding completing first draft in 6-12 months at 500-1000 words/day pace
+- Developing screenplays (90-120 pages) using Save the Cat/Hero's Journey beats, visual storytelling, dialogue-driven narrative, spec script or commissioned project timelines 3-8 months
+- Creating short stories (2K-15K words) with focused premise, single POV, compressed timeline, literary magazine submission or anthology inclusion targeting
+- Crafting character-driven narratives with psychological depth, believable motivations, transformative arcs, supporting cast dynamics, authentic dialogue voice distinguishing each character
 industries:
-- manufacturing
-type: template
+- education
+- entertainment
+- publishing
+type: framework
 difficulty: intermediate
 slug: creative-writing-framework
 ---
@@ -23,663 +23,104 @@ slug: creative-writing-framework
 # Creative Writing & Storytelling Framework
 
 ## Purpose
-Comprehensive framework for creative writing projects including story development, character creation, worldbuilding, narrative structure, dialogue crafting, and publication strategies for novels, scripts, poetry, and other creative works.
+Comprehensive framework for creative writing projects including story development, character creation, worldbuilding, narrative structure, dialogue crafting, and publication strategies for novels, screenplays, short stories, and other creative works with actionable techniques for completing projects and reaching publication.
 
-## Quick Creative Writing Framework Prompt
+## 🚀 Quick Creative Writing Prompt
 
-Develop a [genre] [format: novel/screenplay/short story] titled [working title] targeting [word count/page count]. Create protagonist [character name] with [core motivation] facing [central conflict]. Build world setting in [time/place] with [unique elements]. Structure using [story structure: 3-act/hero's journey/nonlinear] with theme of [central theme]. Include [subplot types] and target [audience demographic] for [publication format].
+> Develop **{GENRE}** **{FORMAT}** (novel/screenplay/short story) titled **{WORKING_TITLE}** targeting **{WORD_COUNT}**. Protagonist **{CHARACTER_NAME}** wants **{CORE_MOTIVATION}** but faces **{CENTRAL_CONFLICT}**. Set in **{TIME/PLACE}** with **{UNIQUE_ELEMENTS}**. Structure: **{3-ACT/HERO'S_JOURNEY/NONLINEAR}**. Theme: **{CENTRAL_THEME}**. Audience: **{DEMOGRAPHIC}** for **{PUBLICATION_FORMAT}**.
 
-## Quick Start
-
-**Write Your First Chapter in 3 Hours**
-
-1. **The Spark** (15 min): What's the ONE scene/moment that excites you most? Write it raw.
-2. **Who's There?** (20 min): Name your main character. What do they want? What stops them?
-3. **Write Fast**: Set a timer. Don't edit. Just write forward. Get 1,000-2,000 words down.
-4. **One Question** (5 min): "What happens next?" - Write that answer in one sentence.
-
-**Genre Fast-Tracks**:
-- **Novel**: Start with Character Development → Write opening scene → Build backwards
-- **Screenplay**: Jump to Narrative Structure → Block out your three acts in bullet points
-- **Short Story**: Begin with Story Development → Focus on one moment of change
-
-**Writer's Truth**: Your first draft is supposed to be messy. Perfectionism kills creativity.
-
-**Daily Habit**: Write for 15 minutes every day. That's 91 hours a year - enough for a novel!
+---
 
 ## Template
 
-Develop creative writing project [PROJECT_TITLE] in [GENRE] genre, targeting [WORD_COUNT] words/pages, [AUDIENCE_DEMOGRAPHIC] audience, [PUBLICATION_FORMAT] format, with [COMPLETION_TIMELINE] timeline, aiming for [MARKET_POSITIONING] positioning and [REVENUE_TARGET] revenue potential.
+Develop {GENRE} {FORMAT} titled {PROJECT_TITLE} targeting {WORD_COUNT} words for {AUDIENCE_DEMOGRAPHIC} completing in {TIMELINE_MONTHS} months via {PUBLICATION_PATH} (traditional/self/hybrid) with {THEME} theme and {MARKET_POSITIONING} positioning.
 
-### 1. Story Development & Structure
+**STORY DEVELOPMENT**
 
-| **Story Element** | **Core Components** | **Development Method** | **Narrative Function** | **Revision Notes** | **Final Version** |
-|-----------------|------------------|---------------------|---------------------|------------------|-----------------|
-| Premise | [PREMISE_CORE] | [PREMISE_METHOD] | [PREMISE_FUNCTION] | [PREMISE_REVISION] | [PREMISE_FINAL] |
-| Theme | [THEME_CORE] | [THEME_METHOD] | [THEME_FUNCTION] | [THEME_REVISION] | [THEME_FINAL] |
-| Plot Structure | [PLOT_CORE] | [PLOT_METHOD] | [PLOT_FUNCTION] | [PLOT_REVISION] | [PLOT_FINAL] |
-| Conflict | [CONFLICT_CORE] | [CONFLICT_METHOD] | [CONFLICT_FUNCTION] | [CONFLICT_REVISION] | [CONFLICT_FINAL] |
-| Resolution | [RESOLUTION_CORE] | [RESOLUTION_METHOD] | [RESOLUTION_FUNCTION] | [RESOLUTION_REVISION] | [RESOLUTION_FINAL] |
-| Subplots | [SUBPLOT_CORE] | [SUBPLOT_METHOD] | [SUBPLOT_FUNCTION] | [SUBPLOT_REVISION] | [SUBPLOT_FINAL] |
+Premise Foundation—High-Concept Premise: One-sentence logline capturing protagonist + goal + obstacle + stakes (example: "A grieving mother must confront her daughter's killer in a virtual reality afterlife to prevent him from escaping into the real world"), test with "What if...?" question hooks curiosity, ensure visual/emotional resonance, differentiate from similar stories in market. Theme Integration: Core question story explores (What does it mean to forgive? Can technology replace human connection?), thematic statements woven through plot not preached, character decisions reflect theme exploration, subplot mirrors/contrasts main theme, resolution provides thematic answer without moralizing. Conflict Layers: External conflict (protagonist vs antagonist/nature/society tangible obstacle), internal conflict (psychological struggle fear/desire opposing each other), interpersonal conflict (relationships strained by external pressures), philosophical conflict (worldview challenged by events), escalating tension each layer compounds others not isolated.
 
-### 2. Character Development Matrix
+Plot Architecture—Three-Act Structure (most common): Act 1 Setup (25% of story, introduce ordinary world, establish character want/need, inciting incident disrupts status quo at 10-12%, first plot point commits protagonist at 25% no turning back), Act 2 Confrontation (50% of story, rising complications and failures, midpoint at 50% shifts from reaction to action or raises stakes dramatically, "dark night of soul" at 75% all seems lost, second plot point at 75-80% final piece of puzzle), Act 3 Resolution (25% of story, final confrontation climax all conflicts converge, resolution wraps plot threads, denouement shows new normal transformed, closing image mirrors opening with change). Alternative Structures: Hero's Journey (monomyth 12 stages Campbell, fantasy/adventure fits naturally, call→refusal→mentor→threshold→trials→ordeal→reward→return), Save the Cat (Blake Snyder 15 beats, spec screenplay structure, precise page counts, opening/closing image bracketing, fun and games delivers premise promise), Kishotenketsu (Asian 4-part structure no conflict, introduction→development→twist→reconciliation, literary/philosophical stories), In Medias Res (start mid-action then flashback context, thriller/mystery hooks immediately, risk reader confusion without grounding).
 
-**Character Creation Framework:**
-```
-Protagonist Development:
-Physical Attributes:
-- Appearance: [PROTAG_APPEARANCE]
-- Age/Demographics: [PROTAG_DEMOGRAPHICS]
-- Distinctive Features: [PROTAG_FEATURES]
-- Body Language: [PROTAG_BODY_LANGUAGE]
-- Voice/Speech: [PROTAG_SPEECH]
-- Style/Presentation: [PROTAG_STYLE]
+Pacing and Tension—Scene vs Sequel: Scene (goal→conflict→disaster, action-oriented, advances plot directly, dialogue-heavy, fast pacing), Sequel (reaction→dilemma→decision, introspection-oriented, character processes events, internal monologue, slower pacing for breathing room), alternate scene/sequel rhythm not monotone. Tension Escalation: Each scene raises stakes higher than previous (not just different obstacles but worse consequences), temporary victories lead to larger setbacks compound complications, ticking clock compresses time for decisions, reader should ask "how can it get worse?" and you answer. Chapter Endings: Cliffhangers (interrupt mid-action or revelation), unanswered questions (pose new mystery), reversals (invert expectation just established), emotional beats (devastating realization), promise of conflict ahead (foreshadow next disaster), avoid resolution at chapter end or reader puts book down.
 
-Psychological Profile:
-- Core Personality: [PROTAG_PERSONALITY]
-- Motivations: [PROTAG_MOTIVATIONS]
-- Fears/Weaknesses: [PROTAG_FEARS]
-- Strengths/Skills: [PROTAG_STRENGTHS]
-- Internal Conflicts: [PROTAG_INTERNAL]
-- Growth Arc: [PROTAG_ARC]
+**CHARACTER DEVELOPMENT**
 
-### Backstory Elements
-- Family History: [PROTAG_FAMILY]
-- Formative Events: [PROTAG_FORMATIVE]
-- Education/Training: [PROTAG_EDUCATION]
-- Relationships: [PROTAG_RELATIONSHIPS]
-- Secrets/Mysteries: [PROTAG_SECRETS]
-- Cultural Context: [PROTAG_CULTURE]
+Protagonist Design—Want vs Need Framework: Surface Want (external goal protagonist consciously pursues: find the treasure, win the love, solve the crime), Hidden Need (internal flaw/fear must overcome to be whole: learn to trust, conquer pride, forgive past), story forces protagonist to choose need over want by climax (want often becomes hollow or impossible revealing need was true goal). Character Arc Types: Positive Change (protagonist grows overcomes flaw, most common satisfying arc, hero's journey archetype), Negative Change (protagonist devolves corruption or tragedy, Breaking Bad/Macbeth, requires skillful execution audience stays engaged despite unlikeable), Flat Arc (protagonist correct worldview changes world around them, Captain America/Atticus Finch, world/supporting cast changes not hero). Psychological Depth: Contradictions (brave but reckless, kind but judgmental, ambition vs morality, creates complexity prevents cardboard), Fears and Secrets (vulnerability reader relates to, reveals gradually through story not exposition, drives behavior seemingly irrational), Strengths and Flaws (skills from backstory, weaknesses create obstacles, flaw directly related to internal conflict, neither all-powerful nor helpless).
 
-### Antagonist Development
-- Opposition Type: [ANTAG_TYPE]
-- Motivation Structure: [ANTAG_MOTIVATION]
-- Power/Resources: [ANTAG_POWER]
-- Vulnerabilities: [ANTAG_VULNERABLE]
-- Relationship to Hero: [ANTAG_RELATIONSHIP]
-- Resolution Path: [ANTAG_RESOLUTION]
+Physical Characterization—Distinctive Details: Avoid generic descriptions (tall/short/blonde meaningless without specificity), unique features reader remembers (scar origin, unconscious habit, clothing choice reflects personality), sensory beyond visual (voice tone/cadence, smell coffee/cigarettes, tactile rough hands calloused), less is more (2-3 vivid details > paragraph of bland description). Body Language and Behavior: Physical manifestation of emotion (clenched jaw anger, fidgeting anxiety, eye contact confidence), consistency with personality (introvert avoids eye contact, trauma survivor hypervigilant), change signals transformation (confident stance after arc completion, slumped defeat before growth). Speech Patterns: Vocabulary reflects education/background, sentence structure (long complex intellectual vs short clipped military), verbal tics and catchphrases sparingly, dialect suggestion not phonetic spelling (occasional word order/vocabulary > "Ah'm a-gonna"), subtext what's unsaid matters more than dialogue, conflict dialogue people talk past each other not collaborative.
 
-### Supporting Cast
-- Mentor Figure: [MENTOR_CHARACTER]
-- Love Interest: [LOVE_CHARACTER]
-- Sidekick/Ally: [SIDEKICK_CHARACTER]
-- Comic Relief: [COMIC_CHARACTER]
-- Threshold Guardian: [GUARDIAN_CHARACTER]
-- Shapeshifter: [SHAPESHIFTER_CHARACTER]
-```
+Antagonist Construction—Motivation Not Evil: Villain believes they're hero of own story (ideology justifies actions), understandable goal pursued through wrong methods (save world via genocide, protect family via crime), personal stakes not abstract (revenge for personal loss not "rule world"), reader should think "I might make similar choice in their position" complexity. Power and Threat: Resources protagonist lacks (money/influence/knowledge), skills challenge hero's strengths (physically stronger or intellectually superior), relationship to protagonist (former ally/mentor/lover more personal), escalating threat adapts to hero's tactics not static. Redemption or Destruction: Redeemable antagonist (flaw correctable, misunderstood motivation, common ground with hero, sacrifice possible), irredeemable antagonist (core belief fundamentally opposed, line crossed no return, destruction only resolution), ambiguity (reader debates whether redeemable, morally gray area).
 
-## Variables
+Supporting Cast—Functional Archetypes: Mentor (wisdom and training, dies/leaves forcing hero independence, Obi-Wan/Dumbledore), Ally/Sidekick (emotional support and comic relief, competent not incompetent, own subplot and arc not just orbiting hero), Love Interest (romantic tension and stakes, three-dimensional character own goals not prize, relationship develops organically through shared conflict), Threshold Guardian (tests hero's commitment, mid-level obstacle before main conflict, may become ally if hero proves worthy), Shapeshifter (loyalty unclear, betrayal or revelation, creates uncertainty and paranoia). Ensemble Dynamics: Each character wants different thing from situation creates natural conflict, power dynamics shift through story alliances form/break, diverse skillsets and perspectives (not redundant characters), limited POV count (2-3 for novel, 1 for most short stories, 8-10 max epic fantasy).
 
-| Variable | Description | Example |
-|----------|-------------|----------|
-| `[PROJECT_TITLE]` | Specify the project title | "[specify value]" |
-| `[GENRE]` | Specify the genre | "[specify value]" |
-| `[WORD_COUNT]` | Specify the word count | "10" |
-| `[AUDIENCE_DEMOGRAPHIC]` | Specify the audience demographic | "[specify value]" |
-| `[PUBLICATION_FORMAT]` | Specify the publication format | "[specify value]" |
-| `[COMPLETION_TIMELINE]` | Timeline or schedule for completion | "6 months" |
-| `[MARKET_POSITIONING]` | Specify the market positioning | "[specify value]" |
-| `[REVENUE_TARGET]` | Target or intended revenue | "[specify value]" |
-| `[PREMISE_CORE]` | Specify the premise core | "[specify value]" |
-| `[PREMISE_METHOD]` | Specify the premise method | "[specify value]" |
-| `[PREMISE_FUNCTION]` | Specify the premise function | "[specify value]" |
-| `[PREMISE_REVISION]` | Specify the premise revision | "[specify value]" |
-| `[PREMISE_FINAL]` | Specify the premise final | "[specify value]" |
-| `[THEME_CORE]` | Specify the theme core | "[specify value]" |
-| `[THEME_METHOD]` | Specify the theme method | "[specify value]" |
-| `[THEME_FUNCTION]` | Specify the theme function | "[specify value]" |
-| `[THEME_REVISION]` | Specify the theme revision | "[specify value]" |
-| `[THEME_FINAL]` | Specify the theme final | "[specify value]" |
-| `[PLOT_CORE]` | Specify the plot core | "[specify value]" |
-| `[PLOT_METHOD]` | Specify the plot method | "[specify value]" |
-| `[PLOT_FUNCTION]` | Specify the plot function | "[specify value]" |
-| `[PLOT_REVISION]` | Specify the plot revision | "[specify value]" |
-| `[PLOT_FINAL]` | Specify the plot final | "[specify value]" |
-| `[CONFLICT_CORE]` | Specify the conflict core | "[specify value]" |
-| `[CONFLICT_METHOD]` | Specify the conflict method | "[specify value]" |
-| `[CONFLICT_FUNCTION]` | Specify the conflict function | "[specify value]" |
-| `[CONFLICT_REVISION]` | Specify the conflict revision | "[specify value]" |
-| `[CONFLICT_FINAL]` | Specify the conflict final | "[specify value]" |
-| `[RESOLUTION_CORE]` | Specify the resolution core | "[specify value]" |
-| `[RESOLUTION_METHOD]` | Specify the resolution method | "[specify value]" |
-| `[RESOLUTION_FUNCTION]` | Specify the resolution function | "[specify value]" |
-| `[RESOLUTION_REVISION]` | Specify the resolution revision | "[specify value]" |
-| `[RESOLUTION_FINAL]` | Specify the resolution final | "[specify value]" |
-| `[SUBPLOT_CORE]` | Specify the subplot core | "[specify value]" |
-| `[SUBPLOT_METHOD]` | Specify the subplot method | "[specify value]" |
-| `[SUBPLOT_FUNCTION]` | Specify the subplot function | "[specify value]" |
-| `[SUBPLOT_REVISION]` | Specify the subplot revision | "[specify value]" |
-| `[SUBPLOT_FINAL]` | Specify the subplot final | "[specify value]" |
-| `[PROTAG_APPEARANCE]` | Specify the protag appearance | "[specify value]" |
-| `[PROTAG_DEMOGRAPHICS]` | Specify the protag demographics | "[specify value]" |
-| `[PROTAG_FEATURES]` | Specify the protag features | "[specify value]" |
-| `[PROTAG_BODY_LANGUAGE]` | Specify the protag body language | "[specify value]" |
-| `[PROTAG_SPEECH]` | Specify the protag speech | "[specify value]" |
-| `[PROTAG_STYLE]` | Specify the protag style | "[specify value]" |
-| `[PROTAG_PERSONALITY]` | Specify the protag personality | "[specify value]" |
-| `[PROTAG_MOTIVATIONS]` | Specify the protag motivations | "[specify value]" |
-| `[PROTAG_FEARS]` | Specify the protag fears | "[specify value]" |
-| `[PROTAG_STRENGTHS]` | Specify the protag strengths | "[specify value]" |
-| `[PROTAG_INTERNAL]` | Specify the protag internal | "[specify value]" |
-| `[PROTAG_ARC]` | Specify the protag arc | "[specify value]" |
-| `[PROTAG_FAMILY]` | Specify the protag family | "[specify value]" |
-| `[PROTAG_FORMATIVE]` | Specify the protag formative | "[specify value]" |
-| `[PROTAG_EDUCATION]` | Specify the protag education | "[specify value]" |
-| `[PROTAG_RELATIONSHIPS]` | Specify the protag relationships | "[specify value]" |
-| `[PROTAG_SECRETS]` | Specify the protag secrets | "[specify value]" |
-| `[PROTAG_CULTURE]` | Specify the protag culture | "[specify value]" |
-| `[ANTAG_TYPE]` | Type or category of antag | "Standard" |
-| `[ANTAG_MOTIVATION]` | Specify the antag motivation | "[specify value]" |
-| `[ANTAG_POWER]` | Specify the antag power | "[specify value]" |
-| `[ANTAG_VULNERABLE]` | Specify the antag vulnerable | "[specify value]" |
-| `[ANTAG_RELATIONSHIP]` | Specify the antag relationship | "[specify value]" |
-| `[ANTAG_RESOLUTION]` | Specify the antag resolution | "[specify value]" |
-| `[MENTOR_CHARACTER]` | Specify the mentor character | "[specify value]" |
-| `[LOVE_CHARACTER]` | Specify the love character | "[specify value]" |
-| `[SIDEKICK_CHARACTER]` | Specify the sidekick character | "[specify value]" |
-| `[COMIC_CHARACTER]` | Specify the comic character | "[specify value]" |
-| `[GUARDIAN_CHARACTER]` | Specify the guardian character | "[specify value]" |
-| `[SHAPESHIFTER_CHARACTER]` | Specify the shapeshifter character | "[specify value]" |
-| `[PRIMARY_PHYSICAL]` | Specify the primary physical | "[specify value]" |
-| `[PRIMARY_CULTURAL]` | Specify the primary cultural | "[specify value]" |
-| `[PRIMARY_HISTORICAL]` | Specify the primary historical | "[specify value]" |
-| `[PRIMARY_RULES]` | Specify the primary rules | "[specify value]" |
-| `[PRIMARY_SENSORY]` | Specify the primary sensory | "[specify value]" |
-| `[SECONDARY_PHYSICAL]` | Specify the secondary physical | "[specify value]" |
-| `[SECONDARY_CULTURAL]` | Specify the secondary cultural | "[specify value]" |
-| `[SECONDARY_HISTORICAL]` | Specify the secondary historical | "[specify value]" |
-| `[SECONDARY_RULES]` | Specify the secondary rules | "[specify value]" |
-| `[SECONDARY_SENSORY]` | Specify the secondary sensory | "[specify value]" |
-| `[TIME_PHYSICAL]` | Specify the time physical | "[specify value]" |
-| `[TIME_CULTURAL]` | Specify the time cultural | "[specify value]" |
-| `[TIME_HISTORICAL]` | Specify the time historical | "[specify value]" |
-| `[TIME_RULES]` | Specify the time rules | "[specify value]" |
-| `[TIME_SENSORY]` | Specify the time sensory | "[specify value]" |
-| `[SOCIAL_PHYSICAL]` | Specify the social physical | "[specify value]" |
-| `[SOCIAL_CULTURAL]` | Specify the social cultural | "[specify value]" |
-| `[SOCIAL_HISTORICAL]` | Specify the social historical | "[specify value]" |
-| `[SOCIAL_RULES]` | Specify the social rules | "[specify value]" |
-| `[SOCIAL_SENSORY]` | Specify the social sensory | "[specify value]" |
-| `[TECH_PHYSICAL]` | Specify the tech physical | "[specify value]" |
-| `[TECH_CULTURAL]` | Specify the tech cultural | "[specify value]" |
-| `[TECH_HISTORICAL]` | Specify the tech historical | "[specify value]" |
-| `[TECH_RULES]` | Specify the tech rules | "[specify value]" |
-| `[TECH_SENSORY]` | Specify the tech sensory | "[specify value]" |
-| `[ECON_PHYSICAL]` | Specify the econ physical | "[specify value]" |
-| `[ECON_CULTURAL]` | Specify the econ cultural | "[specify value]" |
-| `[ECON_HISTORICAL]` | Specify the econ historical | "[specify value]" |
-| `[ECON_RULES]` | Specify the econ rules | "[specify value]" |
-| `[ECON_SENSORY]` | Specify the econ sensory | "[specify value]" |
-| `[ACT1_HOOK]` | Specify the act1 hook | "[specify value]" |
-| `[ACT1_WORLD]` | Specify the act1 world | "[specify value]" |
-| `[ACT1_CHARACTERS]` | Specify the act1 characters | "[specify value]" |
-| `[ACT1_INCIDENT]` | Specify the act1 incident | "[specify value]" |
-| `[ACT1_PLOT_POINT]` | Specify the act1 plot point | "[specify value]" |
-| `[ACT1_STAKES]` | Specify the act1 stakes | "[specify value]" |
-| `[ACT2_RISING]` | Specify the act2 rising | "[specify value]" |
-| `[ACT2_SUBPLOT]` | Specify the act2 subplot | "[specify value]" |
-| `[ACT2_MIDPOINT]` | Specify the act2 midpoint | "[specify value]" |
-| `[ACT2_COMPLICATIONS]` | Specify the act2 complications | "[specify value]" |
-| `[ACT2_DARK_NIGHT]` | Specify the act2 dark night | "[specify value]" |
-| `[ACT2_PLOT_POINT]` | Specify the act2 plot point | "[specify value]" |
-| `[ACT3_BUILD]` | Specify the act3 build | "[specify value]" |
-| `[ACT3_CONFRONTATION]` | Specify the act3 confrontation | "[specify value]" |
-| `[ACT3_RESOLUTION]` | Specify the act3 resolution | "[specify value]" |
-| `[ACT3_DENOUEMENT]` | Specify the act3 denouement | "[specify value]" |
-| `[ACT3_GROWTH]` | Specify the act3 growth | "[specify value]" |
-| `[ACT3_CLOSING]` | Specify the act3 closing | "[specify value]" |
-| `[HERO_JOURNEY]` | Specify the hero journey | "[specify value]" |
-| `[SAVE_CAT]` | Specify the save cat | "[specify value]" |
-| `[SEVEN_POINT]` | Specify the seven point | "[specify value]" |
-| `[FREYTAG]` | Specify the freytag | "[specify value]" |
-| `[KISHOTENKETSU]` | Specify the kishotenketsu | "[specify value]" |
-| `[IN_MEDIAS_RES]` | Specify the in medias res | "[specify value]" |
-| `[VOICE_TECHNIQUE]` | Specify the voice technique | "[specify value]" |
-| `[VOICE_CHARACTER]` | Specify the voice character | "[specify value]" |
-| `[VOICE_SUBTEXT]` | Specify the voice subtext | "[specify value]" |
-| `[VOICE_REVISION]` | Specify the voice revision | "[specify value]" |
-| `[VOICE_POLISH]` | Specify the voice polish | "[specify value]" |
-| `[DIALECT_TECHNIQUE]` | Specify the dialect technique | "[specify value]" |
-| `[DIALECT_CHARACTER]` | Specify the dialect character | "[specify value]" |
-| `[DIALECT_SUBTEXT]` | Specify the dialect subtext | "[specify value]" |
-| `[DIALECT_REVISION]` | Specify the dialect revision | "[specify value]" |
-| `[DIALECT_POLISH]` | Specify the dialect polish | "[specify value]" |
-| `[EXPO_TECHNIQUE]` | Specify the expo technique | "[specify value]" |
-| `[EXPO_CHARACTER]` | Specify the expo character | "[specify value]" |
-| `[EXPO_SUBTEXT]` | Specify the expo subtext | "[specify value]" |
-| `[EXPO_REVISION]` | Specify the expo revision | "[specify value]" |
-| `[EXPO_POLISH]` | Specify the expo polish | "[specify value]" |
-| `[CONFLICT_TECHNIQUE]` | Specify the conflict technique | "[specify value]" |
-| `[CONFLICT_CHARACTER]` | Specify the conflict character | "[specify value]" |
-| `[CONFLICT_SUBTEXT]` | Specify the conflict subtext | "[specify value]" |
-| `[CONFLICT_POLISH]` | Specify the conflict polish | "[specify value]" |
-| `[INTERNAL_TECHNIQUE]` | Specify the internal technique | "[specify value]" |
-| `[INTERNAL_CHARACTER]` | Specify the internal character | "[specify value]" |
-| `[INTERNAL_SUBTEXT]` | Specify the internal subtext | "[specify value]" |
-| `[INTERNAL_REVISION]` | Specify the internal revision | "[specify value]" |
-| `[INTERNAL_POLISH]` | Specify the internal polish | "[specify value]" |
-| `[HUMOR_TECHNIQUE]` | Specify the humor technique | "[specify value]" |
-| `[HUMOR_CHARACTER]` | Specify the humor character | "[specify value]" |
-| `[HUMOR_SUBTEXT]` | Specify the humor subtext | "[specify value]" |
-| `[HUMOR_REVISION]` | Specify the humor revision | "[specify value]" |
-| `[HUMOR_POLISH]` | Specify the humor polish | "[specify value]" |
-| `[PROSE_CURRENT]` | Specify the prose current | "[specify value]" |
-| `[PROSE_TARGET]` | Target or intended prose | "[specify value]" |
-| `[PROSE_TECHNIQUE]` | Specify the prose technique | "[specify value]" |
-| `[PROSE_IMPACT]` | Specify the prose impact | "[specify value]" |
-| `[PROSE_REFINE]` | Specify the prose refine | "[specify value]" |
-| `[POV_CURRENT]` | Specify the pov current | "[specify value]" |
-| `[POV_TARGET]` | Target or intended pov | "[specify value]" |
-| `[POV_TECHNIQUE]` | Specify the pov technique | "[specify value]" |
-| `[POV_IMPACT]` | Specify the pov impact | "[specify value]" |
-| `[POV_REFINE]` | Specify the pov refine | "[specify value]" |
-| `[TENSE_CURRENT]` | Specify the tense current | "[specify value]" |
-| `[TENSE_TARGET]` | Target or intended tense | "[specify value]" |
-| `[TENSE_TECHNIQUE]` | Specify the tense technique | "[specify value]" |
-| `[TENSE_IMPACT]` | Specify the tense impact | "[specify value]" |
-| `[TENSE_REFINE]` | Specify the tense refine | "[specify value]" |
-| `[IMAGERY_CURRENT]` | Specify the imagery current | "[specify value]" |
-| `[IMAGERY_TARGET]` | Target or intended imagery | "[specify value]" |
-| `[IMAGERY_TECHNIQUE]` | Specify the imagery technique | "[specify value]" |
-| `[IMAGERY_IMPACT]` | Specify the imagery impact | "[specify value]" |
-| `[IMAGERY_REFINE]` | Specify the imagery refine | "[specify value]" |
-| `[RHYTHM_CURRENT]` | Specify the rhythm current | "[specify value]" |
-| `[RHYTHM_TARGET]` | Target or intended rhythm | "[specify value]" |
-| `[RHYTHM_TECHNIQUE]` | Specify the rhythm technique | "[specify value]" |
-| `[RHYTHM_IMPACT]` | Specify the rhythm impact | "[specify value]" |
-| `[RHYTHM_REFINE]` | Specify the rhythm refine | "[specify value]" |
-| `[TONE_CURRENT]` | Specify the tone current | "[specify value]" |
-| `[TONE_TARGET]` | Target or intended tone | "[specify value]" |
-| `[TONE_TECHNIQUE]` | Specify the tone technique | "[specify value]" |
-| `[TONE_IMPACT]` | Specify the tone impact | "[specify value]" |
-| `[TONE_REFINE]` | Specify the tone refine | "[specify value]" |
-| `[MYSTERY_RED_HERRINGS]` | Specify the mystery red herrings | "[specify value]" |
-| `[MYSTERY_CLUES]` | Specify the mystery clues | "[specify value]" |
-| `[MYSTERY_REVEAL]` | Specify the mystery reveal | "[specify value]" |
-| `[MYSTERY_SUSPENSE]` | Specify the mystery suspense | "[specify value]" |
-| `[MYSTERY_TWISTS]` | Specify the mystery twists | "[specify value]" |
-| `[MYSTERY_RESOLUTION]` | Specify the mystery resolution | "[specify value]" |
-| `[ROMANCE_MEET]` | Specify the romance meet | "[specify value]" |
-| `[ROMANCE_ARC]` | Specify the romance arc | "[specify value]" |
-| `[ROMANCE_CONFLICT]` | Specify the romance conflict | "[specify value]" |
-| `[ROMANCE_EMOTIONAL]` | Specify the romance emotional | "[specify value]" |
-| `[ROMANCE_INTIMACY]` | Specify the romance intimacy | "[specify value]" |
-| `[ROMANCE_ENDING]` | Specify the romance ending | "[specify value]" |
-| `[SCIFI_RULES]` | Specify the scifi rules | "[specify value]" |
-| `[SCIFI_SYSTEM]` | Specify the scifi system | "[specify value]" |
-| `[SCIFI_SPECIES]` | Specify the scifi species | "[specify value]" |
-| `[SCIFI_SCIENCE]` | Specify the scifi science | "[specify value]" |
-| `[SCIFI_QUEST]` | Specify the scifi quest | "[specify value]" |
-| `[SCIFI_PROPHECY]` | Specify the scifi prophecy | "[specify value]" |
-| `[HORROR_FEAR]` | Specify the horror fear | "[specify value]" |
-| `[HORROR_THREAT]` | Specify the horror threat | "[specify value]" |
-| `[HORROR_ATMOSPHERE]` | Specify the horror atmosphere | "[specify value]" |
-| `[HORROR_GORE]` | Specify the horror gore | "[specify value]" |
-| `[HORROR_PSYCHOLOGICAL]` | Specify the horror psychological | "[specify value]" |
-| `[HORROR_SURVIVAL]` | Specify the horror survival | "[specify value]" |
-| `[LIT_THEMES]` | Specify the lit themes | "[specify value]" |
-| `[LIT_CHARACTER]` | Specify the lit character | "[specify value]" |
-| `[LIT_SOCIAL]` | Specify the lit social | "[specify value]" |
-| `[LIT_EXPERIMENTAL]` | Specify the lit experimental | "[specify value]" |
-| `[LIT_SYMBOLISM]` | Specify the lit symbolism | "[specify value]" |
-| `[LIT_AMBIGUITY]` | Specify the lit ambiguity | "[specify value]" |
-| `[DEV_FOCUS]` | Specify the dev focus | "[specify value]" |
-| `[DEV_TECHNIQUE]` | Specify the dev technique | "[specify value]" |
-| `[DEV_TIMELINE]` | Timeline or schedule for dev | "6 months" |
-| `[DEV_BETA]` | Specify the dev beta | "[specify value]" |
-| `[DEV_PROFESSIONAL]` | Specify the dev professional | "[specify value]" |
-| `[STRUCT_FOCUS]` | Specify the struct focus | "[specify value]" |
-| `[STRUCT_TECHNIQUE]` | Specify the struct technique | "[specify value]" |
-| `[STRUCT_TIMELINE]` | Timeline or schedule for struct | "6 months" |
-| `[STRUCT_BETA]` | Specify the struct beta | "[specify value]" |
-| `[STRUCT_PROFESSIONAL]` | Specify the struct professional | "[specify value]" |
-| `[LINE_FOCUS]` | Specify the line focus | "[specify value]" |
-| `[LINE_TECHNIQUE]` | Specify the line technique | "[specify value]" |
-| `[LINE_TIMELINE]` | Timeline or schedule for line | "6 months" |
-| `[LINE_BETA]` | Specify the line beta | "[specify value]" |
-| `[LINE_PROFESSIONAL]` | Specify the line professional | "[specify value]" |
-| `[COPY_FOCUS]` | Specify the copy focus | "[specify value]" |
-| `[COPY_TECHNIQUE]` | Specify the copy technique | "[specify value]" |
-| `[COPY_TIMELINE]` | Timeline or schedule for copy | "6 months" |
-| `[COPY_BETA]` | Specify the copy beta | "[specify value]" |
-| `[COPY_PROFESSIONAL]` | Specify the copy professional | "[specify value]" |
-| `[PROOF_FOCUS]` | Specify the proof focus | "[specify value]" |
-| `[PROOF_TECHNIQUE]` | Specify the proof technique | "[specify value]" |
-| `[PROOF_TIMELINE]` | Timeline or schedule for proof | "6 months" |
-| `[PROOF_BETA]` | Specify the proof beta | "[specify value]" |
-| `[PROOF_PROFESSIONAL]` | Specify the proof professional | "[specify value]" |
-| `[POLISH_FOCUS]` | Specify the polish focus | "[specify value]" |
-| `[POLISH_TECHNIQUE]` | Specify the polish technique | "[specify value]" |
-| `[POLISH_TIMELINE]` | Timeline or schedule for polish | "6 months" |
-| `[POLISH_BETA]` | Specify the polish beta | "[specify value]" |
-| `[POLISH_PROFESSIONAL]` | Specify the polish professional | "[specify value]" |
-| `[TRAD_REQUIREMENTS]` | Specify the trad requirements | "[specify value]" |
-| `[TRAD_TIMELINE]` | Timeline or schedule for trad | "6 months" |
-| `[TRAD_INVESTMENT]` | Specify the trad investment | "[specify value]" |
-| `[TRAD_MARKETING]` | Specify the trad marketing | "[specify value]" |
-| `[TRAD_REVENUE]` | Specify the trad revenue | "[specify value]" |
-| `[SELF_REQUIREMENTS]` | Specify the self requirements | "[specify value]" |
-| `[SELF_TIMELINE]` | Timeline or schedule for self | "6 months" |
-| `[SELF_INVESTMENT]` | Specify the self investment | "[specify value]" |
-| `[SELF_MARKETING]` | Specify the self marketing | "[specify value]" |
-| `[SELF_REVENUE]` | Specify the self revenue | "[specify value]" |
-| `[HYBRID_REQUIREMENTS]` | Specify the hybrid requirements | "[specify value]" |
-| `[HYBRID_TIMELINE]` | Timeline or schedule for hybrid | "6 months" |
-| `[HYBRID_INVESTMENT]` | Specify the hybrid investment | "[specify value]" |
-| `[HYBRID_MARKETING]` | Specify the hybrid marketing | "[specify value]" |
-| `[HYBRID_REVENUE]` | Specify the hybrid revenue | "[specify value]" |
-| `[DIGITAL_REQUIREMENTS]` | Specify the digital requirements | "[specify value]" |
-| `[DIGITAL_TIMELINE]` | Timeline or schedule for digital | "6 months" |
-| `[DIGITAL_INVESTMENT]` | Specify the digital investment | "[specify value]" |
-| `[DIGITAL_MARKETING]` | Specify the digital marketing | "[specify value]" |
-| `[DIGITAL_REVENUE]` | Specify the digital revenue | "[specify value]" |
-| `[SERIAL_REQUIREMENTS]` | Specify the serial requirements | "[specify value]" |
-| `[SERIAL_TIMELINE]` | Timeline or schedule for serial | "6 months" |
-| `[SERIAL_INVESTMENT]` | Specify the serial investment | "[specify value]" |
-| `[SERIAL_MARKETING]` | Specify the serial marketing | "[specify value]" |
-| `[SERIAL_REVENUE]` | Specify the serial revenue | "[specify value]" |
-| `[RIGHTS_REQUIREMENTS]` | Specify the rights requirements | "[specify value]" |
-| `[RIGHTS_TIMELINE]` | Timeline or schedule for rights | "6 months" |
-| `[RIGHTS_INVESTMENT]` | Specify the rights investment | "[specify value]" |
-| `[RIGHTS_MARKETING]` | Specify the rights marketing | "[specify value]" |
-| `[RIGHTS_REVENUE]` | Specify the rights revenue | "[specify value]" |
-| `[DAILY_SCHEDULE]` | Specify the daily schedule | "[specify value]" |
-| `[DAILY_WORDS]` | Specify the daily words | "[specify value]" |
-| `[DAILY_ENVIRONMENT]` | Specify the daily environment | "[specify value]" |
-| `[DAILY_RITUAL]` | Specify the daily ritual | "[specify value]" |
-| `[DAILY_TOOLS]` | Specify the daily tools | "[specify value]" |
-| `[DAILY_TRACKING]` | Specify the daily tracking | "[specify value]" |
-| `[CREATIVE_INSPIRATION]` | Specify the creative inspiration | "[specify value]" |
-| `[CREATIVE_BRAINSTORM]` | Specify the creative brainstorm | "[specify value]" |
-| `[CREATIVE_RESEARCH]` | Specify the creative research | "[specify value]" |
-| `[CREATIVE_OUTLINE]` | Specify the creative outline | "[specify value]" |
-| `[CREATIVE_DRAFT]` | Specify the creative draft | "[specify value]" |
-| `[CREATIVE_REVISION]` | Specify the creative revision | "[specify value]" |
-| `[WRITER_SKILLS]` | Specify the writer skills | "[specify value]" |
-| `[WRITER_READING]` | Specify the writer reading | "[specify value]" |
-| `[WRITER_WORKSHOP]` | Specify the writer workshop | "[specify value]" |
-| `[WRITER_CRITIQUE]` | Specify the writer critique | "[specify value]" |
-| `[WRITER_EDUCATION]` | Specify the writer education | "[specify value]" |
-| `[WRITER_NETWORK]` | Specify the writer network | "[specify value]" |
-| `[PROJECT_TIMELINE]` | Timeline or schedule for project | "6 months" |
-| `[PROJECT_MILESTONES]` | Specify the project milestones | "[specify value]" |
-| `[PROJECT_DEADLINES]` | Specify the project deadlines | "[specify value]" |
-| `[PROJECT_MULTIPLE]` | Specify the project multiple | "[specify value]" |
-| `[PROJECT_BACKUP]` | Specify the project backup | "[specify value]" |
-| `[PROJECT_VERSIONS]` | Specify the project versions | "[specify value]" |
+**WORLDBUILDING**
 
-### 3. Worldbuilding & Setting
+Physical Environment—Sensory Immersion: Visual details (architecture style, color palette, lighting quality, weather patterns), auditory landscape (urban noise/rural silence, music style, languages spoken, animal sounds), olfactory cues (food smells, pollution, flowers, bodies), tactile sensations (humidity/dryness, temperature, textures surfaces), taste when relevant (cuisine culture, water quality, hunger). Geographic Logic: Climate and ecosystem consistency (desert near mountains creates rain shadow, river placement makes sense), travel time realistic (horses 20-30 miles/day, walking 15-20 miles, impact pacing and plot), resource distribution (water/food/minerals where would they be, drives economy and conflict), map sketching for continuity even if not published.
 
-| **World Element** | **Physical Details** | **Cultural Aspects** | **Historical Context** | **Rules/Laws** | **Sensory Description** |
-|-----------------|-------------------|-------------------|---------------------|---------------|----------------------|
-| Primary Location | [PRIMARY_PHYSICAL] | [PRIMARY_CULTURAL] | [PRIMARY_HISTORICAL] | [PRIMARY_RULES] | [PRIMARY_SENSORY] |
-| Secondary Locations | [SECONDARY_PHYSICAL] | [SECONDARY_CULTURAL] | [SECONDARY_HISTORICAL] | [SECONDARY_RULES] | [SECONDARY_SENSORY] |
-| Time Period | [TIME_PHYSICAL] | [TIME_CULTURAL] | [TIME_HISTORICAL] | [TIME_RULES] | [TIME_SENSORY] |
-| Social Structure | [SOCIAL_PHYSICAL] | [SOCIAL_CULTURAL] | [SOCIAL_HISTORICAL] | [SOCIAL_RULES] | [SOCIAL_SENSORY] |
-| Technology/Magic | [TECH_PHYSICAL] | [TECH_CULTURAL] | [TECH_HISTORICAL] | [TECH_RULES] | [TECH_SENSORY] |
-| Economy/Politics | [ECON_PHYSICAL] | [ECON_CULTURAL] | [ECON_HISTORICAL] | [ECON_RULES] | [ECON_SENSORY] |
+Cultural Systems—Social Structure: Class/caste hierarchy (how rigid or fluid, based on what: birth/wealth/merit/magic), gender roles and family structure (nuclear/extended/chosen family, patriarchal/matriarchal/egalitarian, impacts character options), education and knowledge distribution (literacy rates, formal schooling or apprenticeship, who has access), religion and spirituality (monotheism/polytheism/atheism, organized or personal, influence on daily life and law). Political Organization: Government type (monarchy/democracy/theocracy/anarchy, centralized or local power), law and justice system (trial by jury/combat/ordeal, punishment types, enforcement), international relations (trade/war/alliance, historical grievances, power balance), succession and leadership change (hereditary/elected/conquered, stability or turmoil). Economy and Technology: Currency and trade (barter/coins/credit, market systems, guilds/corporations), technology level (medieval/steampunk/modern/futuristic, consistency not arbitrary, magic impact on technology development), communication speed (messenger/telegraph/internet equivalent, information travel affects plot pacing), transportation modes (walking/horses/trains/teleportation, range and accessibility).
 
-### 4. Narrative Structure & Pacing
+Magic/Science Systems—Hard vs Soft Magic: Hard Magic (detailed rules and limitations, cost/energy source/training required, predictable outcomes reader can anticipate solutions, Sanderson's Laws: limitations more interesting than powers), Soft Magic (mysterious and wonder-preserving, mood and theme over mechanics, Tolkien/Le Guin approach, dangerous if used for plot solutions feels deus ex machina unless established), spectrum not binary (harder for POV characters softer for background/antagonist maintains mystery). Consistency and Consequences: If magic solves X problem why not Y (anticipate reader questions), physical/mental/social cost to use (exhaustion/corruption/stigma prevents overuse), training and accessibility (innate talent or learned skill, how many have access, social position of magic users), integration with daily life (plumbing via magic, healing impacts medicine and war, teleportation eliminates distance). Technology Impact: How invention changes society (printing press literacy, internet information access, genetic engineering ethics), uneven distribution creates inequality and conflict (haves vs have-nots), unintended consequences (pollution, addiction, surveillance), resistance from tradition or vested interests (Luddites, religious objections, economic disruption).
 
-```
-Three-Act Structure:
-Act I - Setup (25%):
-- Opening Hook: [ACT1_HOOK]
-- World Introduction: [ACT1_WORLD]
-- Character Introduction: [ACT1_CHARACTERS]
-- Inciting Incident: [ACT1_INCIDENT]
-- First Plot Point: [ACT1_PLOT_POINT]
-- Stakes Establishment: [ACT1_STAKES]
+**NARRATIVE TECHNIQUE**
 
-Act II - Confrontation (50%):
-- Rising Action: [ACT2_RISING]
-- Subplot Development: [ACT2_SUBPLOT]
-- Midpoint Twist: [ACT2_MIDPOINT]
-- Complications: [ACT2_COMPLICATIONS]
-- Dark Night of Soul: [ACT2_DARK_NIGHT]
-- Second Plot Point: [ACT2_PLOT_POINT]
+Point of View—POV Selection: First Person (intimate voice, limited perspective, unreliable narrator potential, "I walked to the door"), Second Person (rare experimental, immersive when done well, "You walk to the door"), Third Person Limited (follows one character's thoughts, most popular flexibility, "She walked to the door, heart pounding"), Third Person Omniscient (narrator knows all, can jump between heads, old-fashioned feel if not careful, "She walked to the door, unaware he watched from the shadows"), choose based on intimacy vs breadth needed. POV Discipline: Single POV (entire story one character, simplest reader orientation, short story default), Multiple POV (switch chapters or scenes with clear breaks, limit to 2-4 main POVs novel, mark transitions with chapter heading or line break, each POV needs distinct voice and arc), head-hopping (switching POV mid-scene without break, confusing and amateurish avoid unless intentional omniscient), filter words (saw/heard/felt/thought distance reader remove in close POV: "She felt sad" → "Sadness washed over her").
 
-Act III - Resolution (25%):
-- Climax Build: [ACT3_BUILD]
-- Final Confrontation: [ACT3_CONFRONTATION]
-- Resolution: [ACT3_RESOLUTION]
-- Denouement: [ACT3_DENOUEMENT]
-- Character Growth: [ACT3_GROWTH]
-- Closing Image: [ACT3_CLOSING]
+Prose Style—Sentence Variety: Short sentences (tension and impact, fast pacing action, simple declarative "He ran. The door slammed."), long sentences (lush description, introspection, complex subordinate clauses "Running through the rain-slicked streets, his lungs burning with each desperate breath, he wondered if escape was even possible"), rhythm alternation (short after long and vice versa, paragraph-level music, read aloud to feel cadence). Imagery and Metaphor: Concrete specific details (not "tree" but "gnarled oak", not "walked" but "shuffled/strode/crept"), fresh metaphor (avoid clichéd "cold as ice" find unique comparison from character's world), extended metaphor (single comparison developed through scene or chapter, theme reinforcement), sensory not just visual (sound/smell/touch/taste bring scene alive). Voice and Tone: Narrative voice consistency (formal/casual, humorous/serious, lyrical/sparse matches genre and character), tone shifts signal change (light comedy to dark tragedy, tonal whiplash if not carefully transitioned), author's voice (unique style that makes prose recognizably yours, develops over time and practice, authenticity not imitation of favorites).
 
-### Alternative Structures
-- Hero's Journey: [HERO_JOURNEY]
-- Save the Cat: [SAVE_CAT]
-- Seven-Point Story: [SEVEN_POINT]
-- Freytag's Pyramid: [FREYTAG]
-- Kishōtenketsu: [KISHOTENKETSU]
-- In Medias Res: [IN_MEDIAS_RES]
-```
+Dialogue Function—Reveal Character: Speech patterns (vocabulary, sentence length, verbal tics, regional dialect hints), subtext (what character really means vs what they say, tension between words and body language), conflict dialogue (characters want different things argue at cross-purposes, avoid agreement or exposition), personality voice (gruff/verbose/cryptic/direct, each character sounds distinct if you remove tags). Advance Plot: Information revelation (clue planting, backstory delivery, world rules explanation through conversation not monologue), decisions and commitments (dialogue marks turning points "I'll help you", "We're leaving", creates accountability), misunderstandings and lies (complications from miscommunication, secrets withheld, promise broken). Dialogue Mechanics: Attribution (said/asked default invisible, adverbs rarely needed strong dialogue conveys tone, action beats instead of tags "He slammed the door. 'I'm leaving.'"), formatting (new paragraph each speaker, single quotes UK double quotes US, em-dash interruption "I thought—" or "I thought-"), dialect (minimal phonetic spelling, word choice and syntax suggest accent, consistency without caricature), silence (what's not said beats and pauses tension).
 
-### 5. Dialogue & Voice Development
+**REVISION PROCESS**
 
-| **Dialogue Aspect** | **Technique** | **Character Voice** | **Subtext Layer** | **Revision Focus** | **Final Polish** |
-|-------------------|-------------|-------------------|------------------|------------------|----------------|
-| Character Voice | [VOICE_TECHNIQUE] | [VOICE_CHARACTER] | [VOICE_SUBTEXT] | [VOICE_REVISION] | [VOICE_POLISH] |
-| Dialect/Accent | [DIALECT_TECHNIQUE] | [DIALECT_CHARACTER] | [DIALECT_SUBTEXT] | [DIALECT_REVISION] | [DIALECT_POLISH] |
-| Exposition | [EXPO_TECHNIQUE] | [EXPO_CHARACTER] | [EXPO_SUBTEXT] | [EXPO_REVISION] | [EXPO_POLISH] |
-| Conflict Dialogue | [CONFLICT_TECHNIQUE] | [CONFLICT_CHARACTER] | [CONFLICT_SUBTEXT] | [CONFLICT_REVISION] | [CONFLICT_POLISH] |
-| Internal Monologue | [INTERNAL_TECHNIQUE] | [INTERNAL_CHARACTER] | [INTERNAL_SUBTEXT] | [INTERNAL_REVISION] | [INTERNAL_POLISH] |
-| Humor/Wit | [HUMOR_TECHNIQUE] | [HUMOR_CHARACTER] | [HUMOR_SUBTEXT] | [HUMOR_REVISION] | [HUMOR_POLISH] |
+Developmental Revision—Story-Level Issues: Plot holes and logic gaps (motivations unclear, coincidence too convenient, foreshadowing missing, timeline inconsistencies), pacing problems (saggy middle, rushed ending, scenes don't escalate tension), character arc completion (protagonist transformation earned not sudden, supporting cast resolved or intentionally left open), theme clarity (message muddled, preachy or absent, show don't tell thematic elements), structural integrity (act breaks at right places, midpoint shifts momentum, climax pays off setup). Manuscript Assessment: Alpha readers (trusted writer friends, focus on big picture, do they care about characters and finish book, confusion points), developmental editor ($0.02-$0.04 per word, 2-4 weeks turnaround, editorial letter + manuscript notes, expensive but worth it for debut or stuck manuscripts), self-editing checklist (print manuscript read fresh eyes, scene cuts that don't advance plot or character, chapters could reorder and test flow, reverse outline existing draft identify gaps).
 
-### 6. Style & Language Techniques
+Line Editing—Sentence-Level Craft: Showing vs telling (internal emotion rendered physically: not "she was angry" but "her jaw clenched, nails digging into palms"), active voice (subject performs action not receives: "he opened the door" vs "the door was opened", passive okay when agent unknown or de-emphasize), strong verbs (walked → strode/shuffled/crept, eliminate adverbs "ran quickly" → "sprinted"), filter words (saw/heard/felt/thought/noticed/realized distance reader, cut in close POV: "he heard a sound" → "a sound echoed"), purple prose (overly ornate writing draws attention to itself, too many adjectives, "the cerulean orb ascended majestically" → "the sun rose"). Tightening and Clarity: Redundancy (repeated information, summary then scene show once, "shrug of his shoulders" → "shrug"), echoes (same word repeated in close proximity unless intentional effect, use Find function scan for overuse), clarity (antecedent clear for pronouns, modifier placement correct, complex sentences maintain subject), paragraph breaks (white space aids readability, new idea/speaker/time/POV switch, vary length visual rhythm).
 
-**Writing Style Framework:**
-| **Style Element** | **Current Approach** | **Target Effect** | **Technique Application** | **Reader Impact** | **Refinement Notes** |
-|-----------------|-------------------|-----------------|------------------------|-----------------|-------------------|
-| Prose Style | [PROSE_CURRENT] | [PROSE_TARGET] | [PROSE_TECHNIQUE] | [PROSE_IMPACT] | [PROSE_REFINE] |
-| Point of View | [POV_CURRENT] | [POV_TARGET] | [POV_TECHNIQUE] | [POV_IMPACT] | [POV_REFINE] |
-| Tense Choice | [TENSE_CURRENT] | [TENSE_TARGET] | [TENSE_TECHNIQUE] | [TENSE_IMPACT] | [TENSE_REFINE] |
-| Imagery/Metaphor | [IMAGERY_CURRENT] | [IMAGERY_TARGET] | [IMAGERY_TECHNIQUE] | [IMAGERY_IMPACT] | [IMAGERY_REFINE] |
-| Rhythm/Flow | [RHYTHM_CURRENT] | [RHYTHM_TARGET] | [RHYTHM_TECHNIQUE] | [RHYTHM_IMPACT] | [RHYTHM_REFINE] |
-| Tone/Mood | [TONE_CURRENT] | [TONE_TARGET] | [TONE_TECHNIQUE] | [TONE_IMPACT] | [TONE_REFINE] |
+Copy Editing and Proofreading—Technical Correctness: Grammar and mechanics (subject-verb agreement, comma usage, apostrophes possession/contraction, sentence fragments intentional not careless), punctuation style (Oxford comma preference, em-dash vs en-dash, ellipsis format, dialogue comma rules), spelling and typos (read backwards sentence by sentence, spell check misses wrong word correctly spelled "form" vs "from", fresh eyes catch more), consistency (character name spelling Isabella/Isabelle, chapter numbering, timeline and ages, eye color mentioned twice matches). Professional Standards: Manuscript format (12pt Times New Roman or Courier, double-spaced, 1-inch margins, header with title/author/page number, chapter breaks page break), acceptable formatting (italics for internal thought, no underline, no extra spaces between paragraphs, indent first line 0.5" except after breaks), submission requirements (query letter genre matches manuscript, comp titles accurate and recent 2-5 years, word count rounded nearest 1000), professional presentation (error-free first pages, compelling opening, stakes clear early, voice strong from line one).
 
-### 7. Genre-Specific Elements
+**PUBLICATION PATHWAYS**
 
-```
-Genre Conventions:
-Mystery/Thriller:
-- Red Herrings: [MYSTERY_RED_HERRINGS]
-- Clue Placement: [MYSTERY_CLUES]
-- Reveal Timing: [MYSTERY_REVEAL]
-- Suspense Building: [MYSTERY_SUSPENSE]
-- Plot Twists: [MYSTERY_TWISTS]
-- Resolution Logic: [MYSTERY_RESOLUTION]
+Traditional Publishing—Query Process: Literary agent research (QueryTracker/Manuscript Wishlist match genre, personalization required not form letter, follow submission guidelines exactly), query letter components (hook paragraph logline + stakes, brief synopsis 1-2 paragraphs, comparable titles 2-3 recent 2-5 years same genre, author bio relevant credentials only, closing with word count + genre + standalone or series), query strategy (send in batches 5-10, adjust based on response, full request means query works, rejections on pages means opening weak, ghosted is still no move on). Submission Package: Synopsis (1-2 pages single-spaced, present tense, every major plot point including ending, character names CAPS first mention, paragraph per act or chapter), sample pages (first 5/10/50 pages as requested, must be polished perfect no errors, compelling opening hook, voice clear), full manuscript request (respond promptly within 24-48 hours, professional email, manuscript attached .doc format, then wait 8-12 weeks before follow-up). Publishing Contract: Advance (payment upon signing: small press $1K-5K, mid-size $10K-50K, Big 5 $50K-$500K for debut literary, genre lower, 50% on signing 50% on publication), royalties (10-15% hardcover, 7.5% paperback, 25% ebook, earn out advance before additional royalty payments), rights (publisher wants print/ebook/audio, retain film/TV/foreign if possible, reversion clause if out of print), timeline (publication 12-24 months post-acceptance editing/design/marketing, frustrating wait).
 
-Romance:
-- Meet Cute: [ROMANCE_MEET]
-- Relationship Arc: [ROMANCE_ARC]
-- Conflict Sources: [ROMANCE_CONFLICT]
-- Emotional Beats: [ROMANCE_EMOTIONAL]
-- Intimacy Levels: [ROMANCE_INTIMACY]
-- HEA/HFN Ending: [ROMANCE_ENDING]
+Self-Publishing—Investment Requirements: Professional editing ($1K-5K developmental + copy edit, non-negotiable for quality), cover design ($300-2K pre-made template vs custom illustration, genre-appropriate signals quality, comparison shop Reedsy/99Designs), formatting ($50-200 or learn Vellum/Atticus software, ebook + print, clean professional appearance), ISBN ($125 from Bowker if selling beyond Amazon KDP, 10-pack $295 discount if series planned). Platform Building: Author website ($100-500 setup + $15/month hosting, email list embedded OptinMonster/ConvertKit, blog optional if consistent otherwise skip), social media (pick 1-2 platforms audience hangs out: Instagram readers/TikTok YA/Facebook older demo, consistency and authenticity > posting frequency, engage don't just promo), email list (newsletter with exclusive content, new release announcements, 20-30% open rate goal, ConvertKit/MailChimp $0-30/month under 1K subscribers), advance reader team (ARC readers for reviews, 50-100 people, recruit via social/ads/existing readers if have previous books). Marketing Execution: Pre-launch (3-6 months before release, cover reveal, Goodreads listing, ARC distribution, blog tour scheduling, ads testing), launch week (new release price $0.99-2.99 first 7 days, promotional stack BookBub Featured Deal if accepted + Facebook ads $10-50/day, email blast to list, all-hands social push), post-launch (raise to full price $3.99-5.99 ebook, Amazon ads $5-20/day ongoing, Facebook ads retargeting, book 2 planning series is key to self-pub success). Revenue Expectations: First book realistic ($500-5K first year unless breakout, wide distribution vs KDP Select decision, series builds readership book 2-3 earn more than book 1), costs recoup (plan to reinvest earnings into book 2, treat as business not get-rich-quick, 5-10 book backlist passive income possible), long tail (ebook never out of print, compound earnings over years, occasional promo spikes then stable baseline).
 
-Science Fiction/Fantasy:
-- World Rules: [SCIFI_RULES]
-- Technology/Magic System: [SCIFI_SYSTEM]
-- Species/Cultures: [SCIFI_SPECIES]
-- Scientific Basis: [SCIFI_SCIENCE]
-- Quest Structure: [SCIFI_QUEST]
-- Prophecy/Destiny: [SCIFI_PROPHECY]
+Hybrid Approach—Best of Both: Initial self-pub (build readership and prove sales, agent/editor notice 10K+ sales, retain rights if trad deal fails materialize), traditional for select projects (debut novel self, series trad for advance and distribution, literary aspirations trad for legitimacy), imprint publishing (small press for print + retail, retain ebook self for higher royalty split, co-publishing arrangement), format splits (ebook/print self, audio trad via Audible ACX or Findaway Voices, foreign rights agent sells internationally). Rights Management: Reversion clauses (trad contract get rights back if out of print, ebook never officially "out of print" watchdog sales, revert and self-pub if under 500 copies/year), subsidiary rights (audio, foreign translation, graphic novel, film/TV separate negotiations, retain if possible or split 50/50 with agent/publisher), series planning (book 1 trad, negotiate option on book 2 not auto-accept terms, renegotiate advance up if book 1 sells well, or walk and self-pub if lowball offer).
 
-### Horror
-- Fear Building: [HORROR_FEAR]
-- Monster/Threat: [HORROR_THREAT]
-- Atmosphere: [HORROR_ATMOSPHERE]
-- Gore/Violence Level: [HORROR_GORE]
-- Psychological Elements: [HORROR_PSYCHOLOGICAL]
-- Survival Stakes: [HORROR_SURVIVAL]
+**WRITING PRODUCTIVITY**
 
-### Literary Fiction
-- Thematic Depth: [LIT_THEMES]
-- Character Study: [LIT_CHARACTER]
-- Social Commentary: [LIT_SOCIAL]
-- Experimental Form: [LIT_EXPERIMENTAL]
-- Symbolism: [LIT_SYMBOLISM]
-- Ambiguity: [LIT_AMBIGUITY]
-```
+Daily Practice—Word Count Goals: Realistic targets (500-1000 words/day sustainable, 1500-2000 words/day prolific, 85K novel = 3-6 months first draft at 500-1000/day), consistency over binge (daily habit builds momentum, weekend warrior hard to maintain flow, missing days compounds guilt unproductive), quality vs quantity (fast draft permission to write badly fix later, some writers need slow perfection first time, know yourself and don't force wrong method). Writing Environment: Physical space (dedicated desk or writing café, minimize distractions phone airplane mode, comfort without sleepiness ergonomic chair, music/silence based on focus needs), temporal consistency (morning writing fresh brain for many, night owls exist too, protect writing time sacred appointment self), tools (Scrivener $50 one-time full-featured, Google Docs free collaborative, Atticus $147 one-time formatting included, Word default reliable, distraction-free FocusWriter/WriteMonkey free).
 
-### 8. Revision & Editing Process
+Creative Process—Plotting vs Pantsing: Outliner/Plotter (detailed outline before draft, scene cards or spreadsheet, know ending from start, revisions focused and efficient, risk formulaic or stale if too rigid), Discovery/Pantser (write into the dark explore character and story, exciting and fresh, risk major revisions or abandoned manuscripts if plot dead ends, messy middle common), Hybrid/Plantser (general direction and major beats, discovery within scenes, flexibility with structure, most published authors this model, outline deepens through drafts). Research Integration: Before drafting (worldbuilding/historical research, avoid research rabbit hole procrastination trap, "just enough" research start writing), during drafting (placeholder [RESEARCH X] and move on, don't break flow for fact-checking), after drafting (sensitivity readers for cultures not your own, expert consultants technical fields, fact-check and revise). Overcoming Blocks: Lower standards (write garbage draft permission to be bad, editing phase fixes quality, blank page worse than bad page), change scene (skip stuck scene write later one interests you, forward momentum matters, out of order okay if track continuity), free write (dump inner critic on page address fears, timed writing no stopping 10 minutes, morning pages Julia Cameron), accountability (writing partner check-ins, public goal NaNoWriMo, writing sprint groups online).
 
-| **Revision Stage** | **Focus Areas** | **Technique** | **Timeline** | **Beta Reader Input** | **Professional Edit** |
-|------------------|---------------|-------------|------------|-------------------|-------------------|
-| Developmental Edit | [DEV_FOCUS] | [DEV_TECHNIQUE] | [DEV_TIMELINE] | [DEV_BETA] | [DEV_PROFESSIONAL] |
-| Structural Edit | [STRUCT_FOCUS] | [STRUCT_TECHNIQUE] | [STRUCT_TIMELINE] | [STRUCT_BETA] | [STRUCT_PROFESSIONAL] |
-| Line Edit | [LINE_FOCUS] | [LINE_TECHNIQUE] | [LINE_TIMELINE] | [LINE_BETA] | [LINE_PROFESSIONAL] |
-| Copy Edit | [COPY_FOCUS] | [COPY_TECHNIQUE] | [COPY_TIMELINE] | [COPY_BETA] | [COPY_PROFESSIONAL] |
-| Proofreading | [PROOF_FOCUS] | [PROOF_TECHNIQUE] | [PROOF_TIMELINE] | [PROOF_BETA] | [PROOF_PROFESSIONAL] |
-| Final Polish | [POLISH_FOCUS] | [POLISH_TECHNIQUE] | [POLISH_TIMELINE] | [POLISH_BETA] | [POLISH_PROFESSIONAL] |
+Deliver creative writing as:
 
-### 9. Publishing & Marketing Strategy
+1. **STORY OUTLINE** - Act structure, plot beats, character arcs, theme integration, scene list with POV/function
+2. **CHARACTER PROFILES** - Protagonist/antagonist/supporting cast with motivations, arcs, relationships, distinctive traits
+3. **WORLDBUILDING NOTES** - Setting details, cultural systems, magic/tech rules, maps/timelines, sensory descriptions
+4. **SAMPLE CHAPTERS** - Opening hook, middle complication, climax scene with prose style, dialogue, pacing demonstrated
+5. **REVISION CHECKLIST** - Developmental issues, line edits, consistency catches, professional formatting, submission readiness
 
-**Publication Pathway:**
-| **Publishing Route** | **Requirements** | **Timeline** | **Investment** | **Marketing Plan** | **Revenue Model** |
-|-------------------|---------------|------------|--------------|------------------|-----------------|
-| Traditional Publishing | [TRAD_REQUIREMENTS] | [TRAD_TIMELINE] | [TRAD_INVESTMENT] | [TRAD_MARKETING] | [TRAD_REVENUE] |
-| Self-Publishing | [SELF_REQUIREMENTS] | [SELF_TIMELINE] | [SELF_INVESTMENT] | [SELF_MARKETING] | [SELF_REVENUE] |
-| Hybrid Publishing | [HYBRID_REQUIREMENTS] | [HYBRID_TIMELINE] | [HYBRID_INVESTMENT] | [HYBRID_MARKETING] | [HYBRID_REVENUE] |
-| Digital First | [DIGITAL_REQUIREMENTS] | [DIGITAL_TIMELINE] | [DIGITAL_INVESTMENT] | [DIGITAL_MARKETING] | [DIGITAL_REVENUE] |
-| Serial Publishing | [SERIAL_REQUIREMENTS] | [SERIAL_TIMELINE] | [SERIAL_INVESTMENT] | [SERIAL_MARKETING] | [SERIAL_REVENUE] |
-| Rights Sales | [RIGHTS_REQUIREMENTS] | [RIGHTS_TIMELINE] | [RIGHTS_INVESTMENT] | [RIGHTS_MARKETING] | [RIGHTS_REVENUE] |
-
-### 10. Writing Process & Productivity
-
-```
-Writing Workflow:
-Daily Practice:
-- Writing Schedule: [DAILY_SCHEDULE]
-- Word Count Goals: [DAILY_WORDS]
-- Writing Environment: [DAILY_ENVIRONMENT]
-- Ritual/Routine: [DAILY_RITUAL]
-- Productivity Tools: [DAILY_TOOLS]
-- Progress Tracking: [DAILY_TRACKING]
-
-Creative Process:
-- Inspiration Sources: [CREATIVE_INSPIRATION]
-- Brainstorming Methods: [CREATIVE_BRAINSTORM]
-- Research Process: [CREATIVE_RESEARCH]
-- Outlining Approach: [CREATIVE_OUTLINE]
-- First Draft Strategy: [CREATIVE_DRAFT]
-- Revision Cycles: [CREATIVE_REVISION]
-
-### Writer Development
-- Skill Building: [WRITER_SKILLS]
-- Reading Program: [WRITER_READING]
-- Workshop Participation: [WRITER_WORKSHOP]
-- Critique Groups: [WRITER_CRITIQUE]
-- Continuing Education: [WRITER_EDUCATION]
-- Professional Network: [WRITER_NETWORK]
-
-### Project Management
-- Timeline Planning: [PROJECT_TIMELINE]
-- Milestone Setting: [PROJECT_MILESTONES]
-- Deadline Management: [PROJECT_DEADLINES]
-- Multiple Projects: [PROJECT_MULTIPLE]
-- Backup Systems: [PROJECT_BACKUP]
-- Version Control: [PROJECT_VERSIONS]
-```
+---
 
 ## Usage Examples
 
-## Best Practices
+### Example 1: Literary Novel Development (18-Month Process)
+**Prompt:** Develop contemporary literary fiction 85,000 words exploring identity and belonging for adult readers, close third-person lyrical prose, traditional publishing via agent, 18-month completion timeline.
 
-1. **Start with clear objectives** - Define what success looks like before beginning
-2. **Use data to inform decisions** - Base choices on evidence and measurable outcomes
-3. **Iterate and improve continuously** - Treat implementation as an ongoing process
-4. **Engage stakeholders early** - Include key participants in planning and execution
-5. **Document thoroughly** - Maintain clear records for reference and knowledge transfer
-6. **Communicate regularly** - Keep all parties informed of progress and changes
-7. **Address challenges proactively** - Identify potential issues before they become problems
-8. **Celebrate milestones** - Recognize achievements to maintain motivation
-9. **Learn from experience** - Reflect on what works and adjust accordingly
-10. **Stay flexible** - Be ready to adapt based on feedback and changing circumstances
+**Output:** Story Concept—Premise: "A Korean-American adoptee returns to Seoul after her adoptive mother's death, seeking birth family but discovers uncomfortable truths about her adoption that challenge her sense of identity." Theme: What defines family - blood or choice? Can you belong to two cultures or are you forever between? Want vs Need: Wants to find birth mother (external), needs to accept herself without external validation (internal). Conflict: Birth mother doesn't want contact (external), protagonist's anger at adoptive mother's secrets (interpersonal), protagonist's internalized racism against own heritage (internal). Resolution: Birth mother's rejection forces protagonist to grieve what never was, reconcile with adoptive mother's flawed love, embrace hyphenated identity as strength not deficiency. Character Development—Protagonist Maya Chen (32, graphic designer NYC, Type-A perfectionist masks insecurity, secret fear she's unlovable because birth mother "gave her away", outwardly successful inwardly fragmenting): Physical (5'4", dyed blonde hair rebellion against Asian appearance, professional wardrobe armor, bitten nails anxiety), Arc (begins blaming others for incompleteness, journey confronts own complicity in self-rejection, ends accepting ambiguity and complexity, writes letter to unborn daughter about dual heritage gift). Antagonist (not villain but opposing force): Birth mother Mi-sook (53, remarried with two children Maya doesn't know exist, shame about unwed pregnancy + coercion into adoption, contact threatens current family stability), represents Maya's fear of rejection, ultimately sympathetic both women trapped by circumstances. Supporting Cast: Adoptive father Robert (widowed, well-meaning but emotionally distant, guilt over wife's secret-keeping, his own arc learning to express love), Seoul translator Jin (26, Korean-American heritage tour guide, romantic possibility, represents integration Maya seeks, challenges her assumptions about authenticity), adoptive sister Lauren (biological daughter, complicated relationship, feels Maya's grief dismisses Lauren's own mother loss). Worldbuilding—Seoul Setting: Gangnam district modernity (glass high-rises, plastic surgery billboards, K-pop everywhere, Western capitalism on steroids) vs traditional neighborhoods (hanok houses, Buddhist temples incense, elderly women in markets, layered history), sensory overload (soju smell street food, kimchi everywhere, humid summer heat, Korean language washing over Maya comprehending nothing). Adoption System: 1980s Korea unwed mothers stigmatized, infant adoption to West "better life" narrative, murky ethics money changed hands, records sealed or falsified, adult adoptees returning growing trend, birth family search success rate low, Korean government now supports reconnection but decades of secrecy complicate. Cultural Duality: Maya's American upbringing (white suburban Minnesota, only Asian in school, model minority pressure, fetishization and othering), return to "homeland" (not home, tourists treat her as Western, Koreans treat her as lost child, neither fully claims her), language barrier (can't speak Korean, disconnection from culture beyond surface aesthetics, adoptee community shared displacement). Writing Process—Month 1-3 Development: Read 15 books by Korean adoptee authors + literary craft, character sketches 10K words backstory never appears in book, outline 40-chapter arc 3-act structure, research adoption law/history/birth mother interviews, Seoul location research Google Maps virtual + YouTube walk-throughs. Month 4-9 First Draft: Write 1000 words/day Tuesday-Saturday (500 words/day some weeks when stuck), 90K first draft messy exploratory, complete 6 months ahead of plan, overwritten many scenes need tightening, thematic clarity emerging but not yet sharp. Month 10-12 Developmental Revision: Alpha reader feedback (4 writer friends, consensus: pacing slow middle, adoptive father underdeveloped, ending rushed, love interest feels obligatory), major restructure (cut 15K words saggy middle, add 5K adoptive father POV flashbacks 3 chapters, rewrite ending expand 2 chapters → 4 chapters, cut romance subplot entirely focus on family/self), thematic revision pass (every scene now explicitly reflects identity question). Month 13-15 Line Editing: Sentence-level tighten (cut 10K words adverbs/filter words/redundancy, vary sentence structure paragraph music, metaphor consistency check imagery patterns), dialogue pass (each character distinctive voice, subtext layer conflict, Korean language sprinkled authentically), prose style polish (lyrical but not purple, close third POV discipline, fresh imagery from character's design background metaphors). Month 16-18 Professional Polish: Hire copyeditor ($1200 for 85K words, 2 weeks turnaround, catches 300+ errors embarrassing miss), proofreading pass (read backwards, print manuscript annotate, final typo hunt), format (standard manuscript format Shunn, header with Chen/SEOUL SEARCHING/page number), submission prep. Query Process—Agent Research: Query Tracker filter (literary fiction, Korean/Asian-American, women's fiction, debut authors, actively seeking), personalize (mention their client's book comp title, why Maya's story fits their list, MSWL match), 15 agents identified. Query Letter: Hook ("After her adoptive mother's death, Maya Chen travels to Seoul seeking her birth family, but the woman who gave her up doesn't want to be found—and Maya must decide if blood defines belonging or if she's been whole all along."), brief synopsis (3 paragraphs: setup/complication/resolution), comp titles (PACHINKO meets SEARCHING FOR SYLVIE LEE, upmarket women's fiction exploring immigrant identity), author bio (Iowa Writers Workshop MFA, publications in literary magazines, Korean-American adoptee own-voices), stats (85,000 words, standalone with series potential, adult literary fiction). Results—Query Stats: 15 queries sent in batches of 5, 3 form rejections (fast 2 weeks not a fit), 8 no response after 10 weeks (ghosted standard), 4 full manuscript requests (26% request rate excellent), 1 offer of representation (3 months after query, agent with Asian-American specialty, 15% commission standard, editorial revision letter before submission to editors). Traditional Publishing: 6-week revision with agent (tighten first 50 pages, nail opening hook, ending resonance stronger), submit to 12 editors Big 5 + indies, auction between 3 editors, 2-book deal $85K advance ($42,500 per book, 50% on signing 50% on publication), publication 18 months post-acceptance, book club pick + NPR interview, 15K hardcover first print run sells through, paperback + international sales, $85K advance earns out year 2 additional royalties $12K annually ongoing, critical acclaim but not bestseller literary award finalist. Total Timeline: 18 months writing + 3 months querying + 4 months submission + 18 months publication = 43 months idea to shelf, advance minus agent commission + copyeditor = $70K net income, averaging $19K/year over writing period.
 
-## Tips for Success
+### Example 2: Fantasy Trilogy (Epic Worldbuilding)
+**Prompt:** Develop epic fantasy trilogy 120,000 words per book, complex magic system, ensemble cast 5 POV characters, young adult to adult crossover audience, hybrid publishing model digital-first.
 
-- Break complex tasks into manageable steps with clear milestones
-- Set realistic timelines that account for dependencies and constraints
-- Allocate sufficient resources including time, budget, and personnel
-- Use templates and frameworks to ensure consistency and quality
-- Seek feedback from users and stakeholders throughout the process
-- Build in checkpoints to assess progress and make adjustments
-- Maintain quality standards while remaining practical and efficient
-- Document lessons learned for future reference and improvement
-- Foster collaboration across teams and departments
-- Stay current with industry best practices and emerging trends
-### Example 1: Literary Novel
-```
-Project: Contemporary literary fiction
-Length: 85,000 words
-Timeline: 18 months to completion
-Style: Close third-person, lyrical prose
-Theme: Identity and belonging
-Market: Adult literary readers
-Publishing: Traditional route via agent
-Result: Award consideration, 15K first print run
-```
+**Output:** Series Concept—High-Concept: "Five strangers bonded by blood magic must prevent an ancient god's resurrection, but completing the ritual requires one of them to die—and none know who." World: Continent Aethara with 5 kingdoms each representing classic element (fire desert warrior culture, water island maritime traders, earth mountain mining clans, air plateau scholarly monks, void central wasteland forbidden), magic system Binding (pact with elemental spirit grants power, cost is piece of your humanity emotion/memory/lifespan, overuse becomes monstrous Forsaken, hard magic with clear rules). Ensemble Cast: Kael fire-binder (soldier prince, wants to prove himself warrior, needs to value life over glory, arc learns compassion), Mira water-binder (pirate captain, wants freedom from past, needs to trust others, arc builds found family), Thorne earth-binder (escaped mine slave, wants vengeance on oppressors, needs to choose justice over revenge, arc becomes leader), Aria air-binder (scholar, wants knowledge, needs to act not just observe, arc courage), Nox void-binder (mysterious past, wants to atone for unknown sin, needs to forgive self, arc redemption). Three-Book Arc—Book 1 The Binding War (setup, 5 strangers meet, bonded by desperate ritual, learn to work together, stop god cult's first summoning, cliffhanger one of them is prophesied sacrifice), Book 2 The Forsaken Crown (complications, external threats and internal betrayal, romantic subplots develop, halfway reveal: Nox is reincarnated god trying to prevent own resurrection, midpoint twist shatters trust), Book 3 The God's End (resolution, race to final summoning site, character deaths sacrifice play, power of choice vs fate, climax Nox chooses death breaking cycle, bittersweet ending world saved but cost high, epilogue 10 years later survivors honor dead, new generation trained to prevent return). Magic System—Binding Mechanics: Initial Pact (elemental spirit offers power exchange for something precious, spirit type determines power scope, contract terms negotiated desperate person accepts worse deal), Power Tiers (Novice single element minor manipulation, Adept multiple forms of element, Master create from nothing, Legendary reshape landscape, progression requires practice + cost), Cost and Corruption (each use takes from binder: emotion numbness, memory gaps, physical aging, lifespan shortened years, overuse transforms Forsaken lose humanity become elemental construct, point of no return after 1000 bindings approximation), Social Impact (binders rare 1 in 10,000, military assets conscripted, feared and revered, binder academies train and control, unregistered binders hunted as rogue, political power dynamic kingdoms with more binders dominate). Worldbuilding—Five Kingdoms: Pyrathi (fire, desert capital Scorchstone, warrior culture might-makes-right, gladiator entertainment, monarchy by combat trial, slavery of conquered peoples, exports weapons and mercenaries), Aquidis (water, island archipelago capital Tidehome, maritime trade network, council of captains governance, pirate havens and legitimate navy, exports fish and dyes, naval power), Terrakos (earth, mountain holds capital Ironhome, clan-based society, mining and craftsmanship, isolationist xenophobia, exports metals and gems, deep underground cities), Aetheris (air, plateau spires capital Skyreach, monastic scholar society, knowledge hoarding and magical research, theocracy governed by Enlightened Ones, exports books and binder training, detached from worldly concerns), The Void (wasteland center continent, no government ruins of fallen empire, Forsaken roam hunting humans, gods imprisoned here, forbidden zone explorers die, where final battle occurs). Historical Context: Old Empire (1000 years ago united continent, overuse of binding, summoned gods for power, gods turned on masters, empire fell overnight, void created ground zero, modern kingdoms rose from scattered survivors), Memory Taboo (history lost, Old Empire records destroyed, warnings forgotten, cult rediscovered summoning ritual ancient texts, cycle repeats). Writing Process—Book 1 Timeline: Month 1-2 planning (outline 60 chapters 5 POVs rotate, character arcs track spreadsheet each growth beat, magic system rules document, map and timeline, research cultures inspiration), Month 3-9 draft 1 (write 2000 words/day 6 days/week, 120K draft in 6 months, POV balance track each character equal page count +/- 10%), Month 10-12 revision (beta readers + developmental edit, cut 10K words tighten, add 5K words world clarification, restructure midpoint move up chapter for pacing). Month 13-14 polish (line edit, copyedit, proofread, professional cover commission $1500, formatting Atticus for ebook + print). Hybrid Publication Strategy—Digital First: Month 15 ebook launch (Amazon KDP + wide distribution Draft2Digital Apple/Kobo/Google, $4.99 price point genre standard, KU enrollment for visibility first 90 days test then go wide), pre-launch ARC team (150 readers recruited, Goodreads reviews launch week target 50 reviews), marketing (Facebook ads $20/day urban fantasy fans, BookBub Featured Deal $200 if accepted, newsletter swap with similar authors). Month 16-18 print + audio (Ingram Spark print-on-demand $49 setup + $12 per title, B&N shelf placement unlikely but libraries order via Ingram, Audible ACX narration $3000 for 12-hour audiobook or royalty share 50/50 split). Traditional Outreach: Query agents with Book 1 success metrics (10K copies sold self, $15K revenue net 3 months, 4.5-star average 200+ reviews, TikTok buzz #BookTok 2M views), pitch as trilogy in progress Book 2 drafted, agent interest for wider distribution + advance for Book 2-3, negotiate retain ebook rights if possible or 50% ebook royalty, print/audio trad for distribution advantage. Series Building—Book 2-3 Strategy: Write ahead (book 2 release 9 months after book 1, maintain momentum, book 3 release 9 months after book 2, 18-month trilogy completion total), box set strategy (trilogy complete, bundle all three $9.99, new reader entry point + existing fans gift, sell alongside individual titles), spinoff potential (prequel Old Empire fall, sequel next generation 50 years later, side character novella free reader magnet email list). Revenue Projection—Book 1 Self-Pub: Sales (10K ebook first year $4.99 × 70% royalty = $35K, 2K print $14.99 × $3 profit = $6K, 3K KU borrows $0.005/page × 400 pages = $6K, total $47K gross), costs (editing $3K, cover $1.5K, formatting $150, marketing $5K, ISBN $30, audiobook $3K, total $12.7K), net $34.3K year 1 book 1. Book 2-3 growth (book 1 backlist sales continue $10K/year, book 2 launch similar $30K net year 2, book 3 launch + trilogy complete $40K net year 3), 3-year trilogy total $115K net income solo author, reinvest in book 4 new series or traditional deal book 2-3 if agent interest.
 
-### Example 2: Fantasy Series
-```
-Project: Epic fantasy trilogy
-Worldbuilding: Complex magic system, 5 kingdoms
-Characters: Ensemble cast of 12 POV characters
-Structure: Multiple timeline narrative
-Length: 120,000 words per book
-Audience: Young adult to adult crossover
-Publishing: Hybrid model with digital first
-Success: 100K+ sales, optioned for TV
-```
+### Example 3: Screenplay Thriller (Save the Cat Structure)
+**Prompt:** Develop sci-fi thriller feature screenplay 110 pages, protagonist neuroscientist, memory-theft technology, streaming platform target, 8-month development 6 drafts.
 
-### Example 3: Screenplay Development
-```
-Format: Feature film screenplay
-Genre: Sci-fi thriller
-Length: 110 pages
-Structure: Save the Cat beat sheet
-Development: 6 drafts over 8 months
-Market: Streaming platforms
-Budget: Mid-range ($20-40M)
-Outcome: Optioned by production company
-```
+**Output:** Logline— "When a neuroscientist's memory-extraction technology is stolen and weaponized, she must race against former collaborator-turned-terrorist to prevent him from erasing the memories of an entire city." Genre: Sci-fi thriller meets tech noir. Comp: INCEPTION meets MINORITY REPORT. Format: Feature film 110 pages. Target: Netflix/Amazon streaming original budget $20-40M mid-range. Theme: Are we defined by our memories, or do we have agency beyond past trauma? Save the Cat Beats—Opening Image (Page 1): Dr. Elena Voss in sleek lab, extracting memory from willing patient (Alzheimer's cure trial), clean precise sterile, represents her ordered controlled world about to shatter. Theme Stated (Page 5): Mentor colleague says "Memories make us who we are, Elena. Take them away, and what's left?" Elena dismisses (focuses on eliminating trauma not identity), ironic given ending she learns memories painful and joyful together comprise self. Catalyst (Page 12): Lab break-in, memory technology prototype stolen, Elena's former partner Dr. Marcus Lin missing, security footage shows Marcus leading theft, personal betrayal ignites pursuit. Debate (Page 12-25): Elena reports theft to FBI, they're slow bureaucratic, or pursue herself using backdoor access to prototype tracking, police won't believe her conspiracy claims, debates trust authority or vigilante, choice is made when FBI agent reveals Marcus declared Elena unstable (gaslight set-up). Break Into Two (Page 25): Elena goes rogue, partners with hacker ex-boyfriend Rafe (comic relief + tech skills), montage tracking Marcus's signal patterns, enter world of underground memory trade black market. B-Story (Page 30): Elena and Rafe reconnect, romantic tension unresolved past (she broke up to focus career), his emotional intelligence vs her logical suppression, B-story teaches her vulnerability and connection value. Fun and Games (Page 30-55): "Promise of the premise" memory heist sequences, infiltrate black market clinic witness addicts erasing regrets becoming empty, chase scene through neon-lit Hong Kong, discover Marcus's plan (trauma bomb erase collective memory terrorism), visual style shifts darker each revelation. Midpoint (Page 55): Elena confronts Marcus, he reveals his daughter died and memory haunts him, technology can "cure" grief by erasing pain, twist: Elena's research used to develop weapon, she's complicit, stakes raised personal guilt + city-wide threat, false victory (thinks she's convinced him to stop but he tricks her). Bad Guys Close In (Page 55-75): Marcus accelerates timeline, Elena and Rafe hunted by Marcus's mercenaries, internal conflict (Elena debates using technology on self to erase guilt), team-up with FBI agent reluctantly, external pressure compounds internal doubt, B-story conflict (Rafe wants to stay and help, Elena pushes him away protect him repeats old pattern). All Is Lost (Page 75): Marcus captures Elena, threatens to erase Rafe's memories as demonstration, Elena's "whiff of death" watches Rafe lose memory of them together, dark night soul, lowest point personal and professional failure. Dark Night of the Soul (Page 75-85): Elena imprisoned, forced to witness Marcus's broadcast (threatens city-wide memory erasure unless world leaders accede demands), Elena remembers mentor's theme statement, breakthrough realization (erasing pain erases growth, memories connect us, she must embrace her own painful memories to have courage to stop Marcus, character arc completes). Break Into Three (Page 85): Elena escapes using her own memory expertise (implants false memory in guard), reunites with Rafe (helps him recover memories through their shared experiences, power of love/connection), FBI agent provides resources (Elena earns trust), team assembles for final assault. Finale (Page 85-105): Storming the tower trope, Marcus's lab in skyscraper countdown to device activation, action sequence split team (Rafe and FBI handle mercenaries, Elena confronts Marcus), battle of ideologies (Marcus wants to save people from pain, Elena argues pain is human), physical fight intercut with memory flashes (both characters' traumas visualized), Elena destroys device but can't save Marcus (his death tragic he's victim of own technology corrupted him), pyrrhic victory. Final Image (Page 110): Elena and Rafe sit together watching sunrise, mirror opening but now human connection not sterile lab, Elena voice-over (accepts her painful memories, they made her who she is, closes laptop on new memory research project balances help and harm), credits roll on hopeful note growth and healing possible. Screenplay Development—Draft 1 (Month 1-2): Vomit draft following Save the Cat beats, 115 pages (5 pages over target), rough dialogue placeholder scenes, focus on structure not polish, complete in 8 weeks writing 2 pages/day (1 minute screen time per page). Draft 2 (Month 3): Structure revision (move midpoint from page 60 to 55, expand finale from 15 to 20 pages, tighten act 1 from 30 to 25 pages), character arcs clarify (Elena's internal fear of vulnerability, Marcus's grief motivation, Rafe's arc supporting not rescuing), theme weave through dialogue (remove on-the-nose statements, character actions demonstrate theme). Draft 3 (Month 4): Visual storytelling pass (reduce dialogue, add action lines, describe what camera sees, screenplay is blueprint for visuals not radio play), scene efficiency (combine three exposition scenes into one, cut two scenes that don't advance plot, every scene does double duty plot + character), world-building (future tech integrated naturally, neural interface visual design, memory extraction sequences dream-like 5-page set pieces visual highlights). Draft 4 (Month 5): Dialogue polish (each character distinctive voice, subtext layer, remove exposition where visual communicates, Rafe's humor naturalistic not forced one-liners, Elena's emotional restraint breaks late act 3 payoff), pacing (vary scene length, short scenes in action sequences, longer in emotional beats, page turn every scene ends on turn or question). Draft 5 (Month 6): Professional feedback (screenplay coverage service $200, notes on marketability and execution, strengths: high concept + strong protagonist, weaknesses: B-story feels obligatory + villain motivation unclear early, revise weaknesses), format check (Final Draft software industry standard, proper margins/fonts/spacing, NO camera direction unless critical to story, act breaks invisible but present structure page counts). Draft 6 (Month 7-8): Final polish (typos + formatting consistency, character names consistent, slug lines accurate, spell out numbers ten and under, double-check every technical detail), read-aloud pass (dialogue flows naturally, action lines read quickly, pacing feels tight 110 pages × 1 minute = 110 minutes screen time reasonable), title page (MEMORY THIEF by Elena Rodriguez, contact info, WGA registration number if registered). Submission Strategy—Screenplay Contests: Nicholl Fellowship (Academy Oscars prestigious, $35K prize + industry attention, deadline May, submit Draft 6 final), Austin Film Festival (screenplay competition + conference, deadline May, $50 entry), PAGE Awards (multiple categories, deadline varies, $50 entry), manager/agent query if place as semifinalist or better (validates quality). Query Process: Managers (more open to unsolicited, query letter + logline + 2-sentence bio, 20 managers identified, personalize based on client list), agents (harder to query unsolicited, referrals from manager if sign first, coverage letter + festival placement leverage), production companies (query coordinators, specifically target streaming development shingles, long shot but costs only time). Networking: Virtual pitchfests (Stage 32, ISA, $30-50 per executive pitch), screenwriting Twitter/Film Twitter community engagement (share loglines, retweet execs, build relationships over time), local filmmaker collaborations (offer to write for director's short film, build portfolio). Outcome—Contest Results: Nicholl quarterfinalist (top 10%, validation but not winner, leverage in query), Austin semifinalist (top 5%, industry notice, invitation to conference), manager interest (3 query responses from contest placement), sign with manager (no upfront cost, 10% commission if/when sell, manager pitches to production companies). Option Deal: Streaming platform interest (Amazon Studios, 18-month option $10K against $75K purchase price if produced, writer attached for first rewrite, no guarantee of production but foot in door), rewrites with development exec (4 more drafts incorporate notes, expand climax, simplify memory tech rules, strengthen Rafe character arc), outcome TBD (most options don't result in production, but credit + payment + relationships for future projects, even unproduced spec shows writing ability for assignment work).
 
-## Customization Options
+---
 
-### 1. Writing Format
-- Novel/Novella
-- Short Story
-- Screenplay
-- Stage Play
-- Poetry Collection
+## Cross-References
 
-### 2. Genre Focus
-- Literary Fiction
-- Genre Fiction
-- Young Adult
-- Children's
-- Non-Fiction Narrative
-
-### 3. Writing Stage
-- Concept Development
-- First Draft
-- Revision Phase
-- Final Polish
-- Publication Ready
-
-### 4. Author Experience
-- Beginner Writer
-- Emerging Author
-- Mid-Career
-- Established Author
-- Bestselling Author
-
-### 5. Publishing Goals
-- Commercial Success
-- Literary Recognition
-- Self-Expression
-- Platform Building
-- Media Adaptation
+- [Podcast Content](podcast-content.md) - Audio storytelling and narrative structure techniques
+- [Social Media Content](social-media-content.md) - Platform-specific content creation and audience engagement

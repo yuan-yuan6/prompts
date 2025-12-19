@@ -1,20 +1,18 @@
 ---
 category: operations
-last_updated: 2025-11-11
-related_templates:
-- operations/Automotive/autonomous-vehicle-systems.md
+title: Electric Vehicle Transition & Fleet Electrification Readiness Assessment
 tags:
 - electric-vehicles
 - fleet-electrification
 - charging-infrastructure
 - ev-transition
-title: Electric Vehicle Strategy & Mobility Transformation Framework
+- readiness-assessment
 use_cases:
-- Creating comprehensive framework for electric vehicle adoption, charging infrastructure
-  development, fleet electrification, battery management, and sustainable mobility
-  transformation across automotive and transportation sectors.
-- Project planning and execution
-- Strategy development
+- Assessing readiness to electrify fleet and transition to EVs
+- Identifying gaps in charging infrastructure, TCO analysis, and operational readiness
+- Improving EV adoption rates, cost savings, and sustainability outcomes
+related_templates:
+- operations/Automotive/autonomous-vehicle-systems.md
 industries:
 - finance
 - government
@@ -22,600 +20,239 @@ industries:
 - manufacturing
 - retail
 - technology
-type: template
+type: framework
 difficulty: intermediate
-slug: ev-strategy
+slug: ev-transition-readiness-assessment
 ---
 
-# Electric Vehicle Strategy & Mobility Transformation Framework
+# Electric Vehicle Transition & Fleet Electrification Readiness Assessment
 
 ## Purpose
-Comprehensive framework for electric vehicle adoption, charging infrastructure development, fleet electrification, battery management, and sustainable mobility transformation across automotive and transportation sectors.
+Assess readiness to **transition fleet to electric vehicles** and deploy charging infrastructure that delivers cost savings, operational efficiency, and sustainability goals. Use this to diagnose gaps in TCO analysis, charging strategy, vehicle selection, and change management.
 
-## Quick EV Strategy Prompt
-Develop EV transition strategy for [ORGANIZATION_NAME] with [FLEET_SIZE] vehicle fleet. Plan [EV_ADOPTION_RATE]% electrification by [TARGET_YEAR]. Install [CHARGING_POINTS] charging stations (Level 2/DC fast). Budget [INVESTMENT_AMOUNT] for vehicles and infrastructure. Address range requirements for [USE_CASES] (delivery/service/commute). Implement battery management and lifecycle planning. Target [TCO_SAVINGS]% TCO reduction, [CARBON_REDUCTION]% emissions reduction, and [UPTIME_TARGET]% fleet uptime.
+## 🚀 Quick Assessment Prompt
 
-## Quick Start
+> Assess **EV transition readiness** for {EV_CONTEXT}. The electrification objectives are {OBJECTIVES}. Account for {CONSTRAINTS}. Score 1–5 across the six dimensions below and produce the required output (six deliverables).
 
-### For Fleet Operators & Mobility Managers
-Start with an EV transition pilot program:
-1. Set `[ORGANIZATION_NAME]` to your company
-2. Define `[FLEET_SIZE]` = total current vehicle count
-3. Target `[EV_ADOPTION]` = 10-20% for Year 1 pilot
-4. Set `[TARGET_YEAR]` = 2026 for initial phase completion
-5. Plan `[CHARGING_POINTS]` = 2-3 chargers per EV initially
-6. Budget `[INVESTMENT_BUDGET]` = $150-200K per vehicle + infrastructure
-7. Target `[CARBON_REDUCTION]` = 30-40% for EV portion
-
-### Example Starting Configuration
-```
-Organization: Corporate Services Fleet
-Fleet Size: 200 vehicles
-EV Adoption Target: 20% (40 vehicles) by 2026
-Target Year: 2026
-Charging Points: 80 Level 2 + 10 DC fast chargers
-Investment: $6M over 2 years
-Carbon Reduction: 35% for electrified segment
-Vehicle Types: Start with light-duty pool vehicles
-Daily Range Needed: 80-120 miles
-```
-
-### Key First Steps
-- Analyze daily route patterns and mileage for all vehicles
-- Identify 20-30 best EV candidates (predictable routes, <150 mi/day)
-- Assess parking/depot locations for charging infrastructure
-- Calculate current TCO for candidate vehicles (fuel, maintenance, etc.)
-- Run TCO comparison: ICE vs BEV over 5 years
-- Evaluate electrical capacity at charging locations
-- Research available incentives: federal tax credits, state rebates, utility programs
-- Select 3-5 EV models for pilot evaluation
-- Engage with 2-3 charging network providers for quotes
+---
 
 ## Template
 
-Develop EV strategy for [ORGANIZATION_NAME] managing [FLEET_SIZE] vehicles, targeting [EV_ADOPTION]% electrification by [TARGET_YEAR], with [CHARGING_POINTS] charging stations, $[INVESTMENT_BUDGET] investment, and [CARBON_REDUCTION]% emissions reduction.
+Conduct an electric vehicle transition & fleet electrification readiness assessment for {EV_CONTEXT}.
 
-### 1. Fleet Electrification Assessment
+Score each dimension **1–5** (1 = ad hoc, 5 = optimized). Ground findings in observable signals (EV adoption %, TCO savings, charging uptime, emissions reduction, driver satisfaction).
 
-| **Vehicle Category** | **Current Fleet** | **EV Candidates** | **TCO Comparison** | **CO2 Reduction** | **Transition Timeline** |
-|--------------------|------------------|------------------|-------------------|------------------|----------------------|
-| Passenger Cars | [PASS_CURRENT] | [PASS_EV] | $[PASS_TCO] | [PASS_CO2] tons | [PASS_TIMELINE] |
-| Light Commercial | [LIGHT_CURRENT] | [LIGHT_EV] | $[LIGHT_TCO] | [LIGHT_CO2] tons | [LIGHT_TIMELINE] |
-| Heavy Trucks | [HEAVY_CURRENT] | [HEAVY_EV] | $[HEAVY_TCO] | [HEAVY_CO2] tons | [HEAVY_TIMELINE] |
-| Buses/Shuttles | [BUS_CURRENT] | [BUS_EV] | $[BUS_TCO] | [BUS_CO2] tons | [BUS_TIMELINE] |
-| Special Purpose | [SPECIAL_CURRENT] | [SPECIAL_EV] | $[SPECIAL_TCO] | [SPECIAL_CO2] tons | [SPECIAL_TIMELINE] |
-| Two-Wheelers | [TWO_CURRENT] | [TWO_EV] | $[TWO_TCO] | [TWO_CO2] tons | [TWO_TIMELINE] |
+**1) FLEET SUITABILITY & USE CASE ANALYSIS**
+- Fleet composition and duty cycles are analyzed (mileage, routes, dwell time)
+- EV-suitable vehicles are identified (predictable routes, <200 mi/day, depot charging)
+- Total cost of ownership (TCO) is modeled accurately (purchase, fuel, maintenance, resale)
+- Pilot candidates are selected based on high ROI and low operational risk
 
-### 2. Charging Infrastructure Planning
+**2) CHARGING INFRASTRUCTURE STRATEGY**
+- Charging needs are quantified (vehicle count, daily kWh, charge time windows)
+- Infrastructure plan covers depot, public, and home charging as needed
+- Electrical capacity is assessed and upgrade path defined (service, panels, conduit)
+- Charging technology is right-sized (Level 2 for overnight, DC fast for rapid turnaround)
 
-**Charging Network Design:**
-```
-Charging Station Types:
-Level 2 AC Charging:
-- Locations: [L2_LOCATIONS]
-- Units Planned: [L2_UNITS]
-- Power Output: [L2_POWER] kW
-- Installation Cost: $[L2_COST]
-- Usage Forecast: [L2_USAGE] kWh/month
+**3) VEHICLE SELECTION & PROCUREMENT**
+- EV models are evaluated for suitability (range, payload, TCO, availability)
+- Incentives are maximized (federal tax credits, state rebates, utility programs)
+- Procurement strategy balances cost, timing, and risk (phased rollout vs. bulk buy)
+- Supplier relationships and delivery timelines are secured
 
-DC Fast Charging:
-- Locations: [DC_LOCATIONS]
-- Units Planned: [DC_UNITS]
-- Power Output: [DC_POWER] kW
-- Installation Cost: $[DC_COST]
-- Usage Forecast: [DC_USAGE] kWh/month
+**4) OPERATIONAL READINESS & CHANGE MANAGEMENT**
+- Drivers and fleet managers are trained on EV operation and charging
+- Maintenance teams are skilled on EV service (no engine, brakes, fluids = different needs)
+- Route planning incorporates charging logistics (range, charge time, network access)
+- Change management addresses range anxiety and operational disruptions
 
-Ultra-Fast Charging:
-- Locations: [ULTRA_LOCATIONS]
-- Units Planned: [ULTRA_UNITS]
-- Power Output: [ULTRA_POWER] kW
-- Installation Cost: $[ULTRA_COST]
-- Usage Forecast: [ULTRA_USAGE] kWh/month
+**5) CHARGING OPERATIONS & ENERGY MANAGEMENT**
+- Charging scheduling optimizes cost (off-peak rates, demand charge management)
+- Uptime and reliability are monitored (charger health, utilization, downtime)
+- Energy management integrates renewables and load balancing where applicable
+- Payment, access control, and user experience are streamlined
 
-Home/Workplace Charging:
-- Home Installations: [HOME_UNITS]
-- Workplace Points: [WORK_UNITS]
-- Incentive Program: $[CHARGE_INCENTIVE]
-- Smart Charging: [SMART_PERCENT]%
-- Load Management: [LOAD_MANAGE]
-```
+**6) PERFORMANCE TRACKING & CONTINUOUS IMPROVEMENT**
+- TCO savings are measured vs. baseline (fuel, maintenance, incentives)
+- Emissions reduction is quantified and reported (Scope 1, well-to-wheel)
+- Charging utilization and vehicle uptime are tracked
+- Lessons learned inform expansion decisions (scale what works, fix what doesn't)
 
-## Variables
+---
 
-| Variable | Description | Example |
-|----------|-------------|----------|
-| `[ORGANIZATION_NAME]` | Name of the organization | "John Smith" |
-| `[FLEET_SIZE]` | Specify the fleet size | "[specify value]" |
-| `[EV_ADOPTION]` | Specify the ev adoption | "[specify value]" |
-| `[TARGET_YEAR]` | Target or intended year | "[specify value]" |
-| `[CHARGING_POINTS]` | Specify the charging points | "[specify value]" |
-| `[INVESTMENT_BUDGET]` | Budget allocation for investment | "$500,000" |
-| `[CARBON_REDUCTION]` | Specify the carbon reduction | "[specify value]" |
-| `[PASS_CURRENT]` | Specify the pass current | "[specify value]" |
-| `[PASS_EV]` | Specify the pass ev | "[specify value]" |
-| `[PASS_TCO]` | Specify the pass tco | "[specify value]" |
-| `[PASS_CO2]` | Specify the pass co2 | "[specify value]" |
-| `[PASS_TIMELINE]` | Timeline or schedule for pass | "6 months" |
-| `[LIGHT_CURRENT]` | Specify the light current | "[specify value]" |
-| `[LIGHT_EV]` | Specify the light ev | "[specify value]" |
-| `[LIGHT_TCO]` | Specify the light tco | "[specify value]" |
-| `[LIGHT_CO2]` | Specify the light co2 | "[specify value]" |
-| `[LIGHT_TIMELINE]` | Timeline or schedule for light | "6 months" |
-| `[HEAVY_CURRENT]` | Specify the heavy current | "[specify value]" |
-| `[HEAVY_EV]` | Specify the heavy ev | "[specify value]" |
-| `[HEAVY_TCO]` | Specify the heavy tco | "[specify value]" |
-| `[HEAVY_CO2]` | Specify the heavy co2 | "[specify value]" |
-| `[HEAVY_TIMELINE]` | Timeline or schedule for heavy | "6 months" |
-| `[BUS_CURRENT]` | Specify the bus current | "[specify value]" |
-| `[BUS_EV]` | Specify the bus ev | "[specify value]" |
-| `[BUS_TCO]` | Specify the bus tco | "[specify value]" |
-| `[BUS_CO2]` | Specify the bus co2 | "[specify value]" |
-| `[BUS_TIMELINE]` | Timeline or schedule for bus | "6 months" |
-| `[SPECIAL_CURRENT]` | Specify the special current | "[specify value]" |
-| `[SPECIAL_EV]` | Specify the special ev | "[specify value]" |
-| `[SPECIAL_TCO]` | Specify the special tco | "[specify value]" |
-| `[SPECIAL_CO2]` | Specify the special co2 | "[specify value]" |
-| `[SPECIAL_TIMELINE]` | Timeline or schedule for special | "6 months" |
-| `[TWO_CURRENT]` | Specify the two current | "[specify value]" |
-| `[TWO_EV]` | Specify the two ev | "[specify value]" |
-| `[TWO_TCO]` | Specify the two tco | "[specify value]" |
-| `[TWO_CO2]` | Specify the two co2 | "[specify value]" |
-| `[TWO_TIMELINE]` | Timeline or schedule for two | "6 months" |
-| `[L2_LOCATIONS]` | Specify the l2 locations | "North America" |
-| `[L2_UNITS]` | Specify the l2 units | "[specify value]" |
-| `[L2_POWER]` | Specify the l2 power | "[specify value]" |
-| `[L2_COST]` | Specify the l2 cost | "[specify value]" |
-| `[L2_USAGE]` | Specify the l2 usage | "[specify value]" |
-| `[DC_LOCATIONS]` | Specify the dc locations | "North America" |
-| `[DC_UNITS]` | Specify the dc units | "[specify value]" |
-| `[DC_POWER]` | Specify the dc power | "[specify value]" |
-| `[DC_COST]` | Specify the dc cost | "[specify value]" |
-| `[DC_USAGE]` | Specify the dc usage | "[specify value]" |
-| `[ULTRA_LOCATIONS]` | Specify the ultra locations | "North America" |
-| `[ULTRA_UNITS]` | Specify the ultra units | "[specify value]" |
-| `[ULTRA_POWER]` | Specify the ultra power | "[specify value]" |
-| `[ULTRA_COST]` | Specify the ultra cost | "[specify value]" |
-| `[ULTRA_USAGE]` | Specify the ultra usage | "[specify value]" |
-| `[HOME_UNITS]` | Specify the home units | "[specify value]" |
-| `[WORK_UNITS]` | Specify the work units | "[specify value]" |
-| `[CHARGE_INCENTIVE]` | Specify the charge incentive | "[specify value]" |
-| `[SMART_PERCENT]` | Specify the smart percent | "25%" |
-| `[LOAD_MANAGE]` | Specify the load manage | "[specify value]" |
-| `[DENSITY_CURRENT]` | Specify the density current | "[specify value]" |
-| `[DENSITY_TARGET]` | Target or intended density | "[specify value]" |
-| `[DENSITY_GAIN]` | Specify the density gain | "[specify value]" |
-| `[DENSITY_COST]` | Specify the density cost | "[specify value]" |
-| `[DENSITY_TIMELINE]` | Timeline or schedule for density | "6 months" |
-| `[CHARGE_CURRENT]` | Specify the charge current | "[specify value]" |
-| `[CHARGE_TARGET]` | Target or intended charge | "[specify value]" |
-| `[CHARGE_GAIN]` | Specify the charge gain | "[specify value]" |
-| `[CHARGE_COST]` | Specify the charge cost | "[specify value]" |
-| `[CHARGE_TIMELINE]` | Timeline or schedule for charge | "6 months" |
-| `[CYCLE_CURRENT]` | Specify the cycle current | "[specify value]" |
-| `[CYCLE_TARGET]` | Target or intended cycle | "[specify value]" |
-| `[CYCLE_GAIN]` | Specify the cycle gain | "[specify value]" |
-| `[CYCLE_COST]` | Specify the cycle cost | "[specify value]" |
-| `[CYCLE_TIMELINE]` | Timeline or schedule for cycle | "6 months" |
-| `[TEMP_CURRENT]` | Specify the temp current | "[specify value]" |
-| `[TEMP_TARGET]` | Target or intended temp | "[specify value]" |
-| `[TEMP_GAIN]` | Specify the temp gain | "[specify value]" |
-| `[TEMP_COST]` | Specify the temp cost | "[specify value]" |
-| `[TEMP_TIMELINE]` | Timeline or schedule for temp | "6 months" |
-| `[BATTERY_CURRENT]` | Specify the battery current | "[specify value]" |
-| `[BATTERY_TARGET]` | Target or intended battery | "[specify value]" |
-| `[BATTERY_GAIN]` | Specify the battery gain | "[specify value]" |
-| `[BATTERY_TREND]` | Specify the battery trend | "[specify value]" |
-| `[BATTERY_TIMELINE]` | Timeline or schedule for battery | "6 months" |
-| `[ICE_PURCHASE]` | Specify the ice purchase | "[specify value]" |
-| `[HYB_PURCHASE]` | Specify the hyb purchase | "[specify value]" |
-| `[BEV_PURCHASE]` | Specify the bev purchase | "[specify value]" |
-| `[H2_PURCHASE]` | Specify the h2 purchase | "[specify value]" |
-| `[PURCHASE_SAVE]` | Specify the purchase save | "[specify value]" |
-| `[ICE_FUEL]` | Specify the ice fuel | "[specify value]" |
-| `[HYB_FUEL]` | Specify the hyb fuel | "[specify value]" |
-| `[BEV_ENERGY]` | Specify the bev energy | "[specify value]" |
-| `[H2_FUEL]` | Specify the h2 fuel | "[specify value]" |
-| `[FUEL_SAVE]` | Specify the fuel save | "[specify value]" |
-| `[ICE_MAINT]` | Specify the ice maint | "[specify value]" |
-| `[HYB_MAINT]` | Specify the hyb maint | "[specify value]" |
-| `[BEV_MAINT]` | Specify the bev maint | "[specify value]" |
-| `[H2_MAINT]` | Specify the h2 maint | "[specify value]" |
-| `[MAINT_SAVE]` | Specify the maint save | "[specify value]" |
-| `[ICE_INSURE]` | Specify the ice insure | "[specify value]" |
-| `[HYB_INSURE]` | Specify the hyb insure | "[specify value]" |
-| `[BEV_INSURE]` | Specify the bev insure | "[specify value]" |
-| `[H2_INSURE]` | Specify the h2 insure | "[specify value]" |
-| `[INSURE_SAVE]` | Specify the insure save | "[specify value]" |
-| `[ICE_RESIDUAL]` | Specify the ice residual | "[specify value]" |
-| `[HYB_RESIDUAL]` | Specify the hyb residual | "[specify value]" |
-| `[BEV_RESIDUAL]` | Specify the bev residual | "[specify value]" |
-| `[H2_RESIDUAL]` | Specify the h2 residual | "[specify value]" |
-| `[RESIDUAL_DIFF]` | Specify the residual diff | "[specify value]" |
-| `[ICE_TCO]` | Specify the ice tco | "[specify value]" |
-| `[HYB_TCO]` | Specify the hyb tco | "[specify value]" |
-| `[BEV_TCO]` | Specify the bev tco | "[specify value]" |
-| `[H2_TCO]` | Specify the h2 tco | "[specify value]" |
-| `[TOTAL_SAVE]` | Specify the total save | "[specify value]" |
-| `[V2G_VEHICLES]` | Specify the v2g vehicles | "[specify value]" |
-| `[V2G_CHARGERS]` | Specify the v2g chargers | "[specify value]" |
-| `[PEAK_CAPACITY]` | Specify the peak capacity | "[specify value]" |
-| `[V2G_REVENUE]` | Specify the v2g revenue | "[specify value]" |
-| `[GRID_SERVICES]` | Specify the grid services | "[specify value]" |
-| `[RENEWABLE]` | Specify the renewable | "[specify value]" |
-| `[SOLAR_CAP]` | Specify the solar cap | "[specify value]" |
-| `[STORAGE_CAP]` | Specify the storage cap | "[specify value]" |
-| `[PEAK_REDUCE]` | Specify the peak reduce | "[specify value]" |
-| `[ENERGY_SAVE]` | Specify the energy save | "[specify value]" |
-| `[SMART_ALGO]` | Specify the smart algo | "[specify value]" |
-| `[DEMAND_RESPONSE]` | Specify the demand response | "[specify value]" |
-| `[TOU_OPTIMIZE]` | Specify the tou optimize | "[specify value]" |
-| `[GRID_IMPACT]` | Specify the grid impact | "[specify value]" |
-| `[CARBON_INTENSITY]` | Specify the carbon intensity | "[specify value]" |
-| `[EMISSION_CURRENT]` | Specify the emission current | "[specify value]" |
-| `[EMISSION_FUTURE]` | Specify the emission future | "[specify value]" |
-| `[EMISSION_STATUS]` | Specify the emission status | "In Progress" |
-| `[EMISSION_INVEST]` | Specify the emission invest | "[specify value]" |
-| `[EMISSION_TIME]` | Specify the emission time | "[specify value]" |
-| `[ZEV_CURRENT]` | Specify the zev current | "[specify value]" |
-| `[ZEV_FUTURE]` | Specify the zev future | "[specify value]" |
-| `[ZEV_STATUS]` | Specify the zev status | "In Progress" |
-| `[ZEV_INVEST]` | Specify the zev invest | "[specify value]" |
-| `[ZEV_TIME]` | Specify the zev time | "[specify value]" |
-| `[SAFETY_CURRENT]` | Specify the safety current | "[specify value]" |
-| `[SAFETY_FUTURE]` | Specify the safety future | "[specify value]" |
-| `[SAFETY_STATUS]` | Specify the safety status | "In Progress" |
-| `[SAFETY_INVEST]` | Specify the safety invest | "[specify value]" |
-| `[SAFETY_TIME]` | Specify the safety time | "[specify value]" |
-| `[CHARGE_STANDARD]` | Specify the charge standard | "[specify value]" |
-| `[CHARGE_FUTURE]` | Specify the charge future | "[specify value]" |
-| `[CHARGE_STATUS]` | Specify the charge status | "In Progress" |
-| `[CHARGE_INVEST]` | Specify the charge invest | "[specify value]" |
-| `[CHARGE_TIME]` | Specify the charge time | "[specify value]" |
-| `[INCENTIVE_CURRENT]` | Specify the incentive current | "[specify value]" |
-| `[INCENTIVE_FUTURE]` | Specify the incentive future | "[specify value]" |
-| `[INCENTIVE_STATUS]` | Specify the incentive status | "In Progress" |
-| `[INCENTIVE_VALUE]` | Specify the incentive value | "[specify value]" |
-| `[INCENTIVE_TIME]` | Specify the incentive time | "[specify value]" |
-| `[SELECT_CURRENT]` | Specify the select current | "[specify value]" |
-| `[SELECT_PAIN]` | Specify the select pain | "[specify value]" |
-| `[SELECT_IMPROVE]` | Specify the select improve | "[specify value]" |
-| `[SELECT_TECH]` | Specify the select tech | "[specify value]" |
-| `[SELECT_SAT]` | Specify the select sat | "[specify value]" |
-| `[PURCHASE_CURRENT]` | Specify the purchase current | "[specify value]" |
-| `[PURCHASE_PAIN]` | Specify the purchase pain | "[specify value]" |
-| `[PURCHASE_IMPROVE]` | Specify the purchase improve | "[specify value]" |
-| `[PURCHASE_TECH]` | Specify the purchase tech | "[specify value]" |
-| `[PURCHASE_SAT]` | Specify the purchase sat | "[specify value]" |
-| `[CHARGING_CURRENT]` | Specify the charging current | "[specify value]" |
-| `[CHARGING_PAIN]` | Specify the charging pain | "[specify value]" |
-| `[CHARGING_IMPROVE]` | Specify the charging improve | "[specify value]" |
-| `[CHARGING_TECH]` | Specify the charging tech | "[specify value]" |
-| `[CHARGING_SAT]` | Specify the charging sat | "[specify value]" |
-| `[TRIP_CURRENT]` | Specify the trip current | "[specify value]" |
-| `[TRIP_PAIN]` | Specify the trip pain | "[specify value]" |
-| `[TRIP_IMPROVE]` | Specify the trip improve | "[specify value]" |
-| `[TRIP_TECH]` | Specify the trip tech | "[specify value]" |
-| `[TRIP_SAT]` | Specify the trip sat | "[specify value]" |
-| `[SERVICE_CURRENT]` | Specify the service current | "[specify value]" |
-| `[SERVICE_PAIN]` | Specify the service pain | "[specify value]" |
-| `[SERVICE_IMPROVE]` | Specify the service improve | "[specify value]" |
-| `[SERVICE_TECH]` | Specify the service tech | "[specify value]" |
-| `[SERVICE_SAT]` | Specify the service sat | "[specify value]" |
-| `[CELL_SOURCE]` | Specify the cell source | "[specify value]" |
-| `[CELL_SUPPLIER]` | Specify the cell supplier | "[specify value]" |
-| `[CELL_CAPACITY]` | Specify the cell capacity | "[specify value]" |
-| `[CELL_COST]` | Specify the cell cost | "[specify value]" |
-| `[MOTOR_SOURCE]` | Specify the motor source | "[specify value]" |
-| `[MOTOR_TECH]` | Specify the motor tech | "[specify value]" |
-| `[MOTOR_EFF]` | Specify the motor eff | "[specify value]" |
-| `[MOTOR_COST]` | Specify the motor cost | "[specify value]" |
-| `[POWER_SOURCE]` | Specify the power source | "[specify value]" |
-| `[POWER_COMP]` | Specify the power comp | "[specify value]" |
-| `[POWER_INTEGRATE]` | Specify the power integrate | "[specify value]" |
-| `[POWER_COST]` | Specify the power cost | "[specify value]" |
-| `[CURRENT_PROD]` | Specify the current prod | "[specify value]" |
-| `[TARGET_PROD]` | Target or intended prod | "[specify value]" |
-| `[PROD_INVEST]` | Specify the prod invest | "[specify value]" |
-| `[AUTO_LEVEL]` | Specify the auto level | "[specify value]" |
-| `[TIME_MARKET]` | Specify the time market | "[specify value]" |
-| `[OEM_PARTNERS]` | Specify the oem partners | "[specify value]" |
-| `[OEM_VALUE]` | Specify the oem value | "[specify value]" |
-| `[OEM_INTEGRATE]` | Specify the oem integrate | "[specify value]" |
-| `[OEM_INVEST]` | Specify the oem invest | "[specify value]" |
-| `[OEM_REVENUE]` | Specify the oem revenue | "[specify value]" |
-| `[CHARGE_PARTNERS]` | Specify the charge partners | "[specify value]" |
-| `[CHARGE_VALUE]` | Specify the charge value | "[specify value]" |
-| `[CHARGE_INTEGRATE]` | Specify the charge integrate | "[specify value]" |
-| `[CHARGE_REVENUE]` | Specify the charge revenue | "[specify value]" |
-| `[ENERGY_PARTNERS]` | Specify the energy partners | "[specify value]" |
-| `[ENERGY_VALUE]` | Specify the energy value | "[specify value]" |
-| `[ENERGY_INTEGRATE]` | Specify the energy integrate | "[specify value]" |
-| `[ENERGY_INVEST]` | Specify the energy invest | "[specify value]" |
-| `[ENERGY_REVENUE]` | Specify the energy revenue | "[specify value]" |
-| `[TECH_PARTNERS]` | Specify the tech partners | "[specify value]" |
-| `[TECH_VALUE]` | Specify the tech value | "[specify value]" |
-| `[TECH_INTEGRATE]` | Specify the tech integrate | "[specify value]" |
-| `[TECH_INVEST]` | Specify the tech invest | "[specify value]" |
-| `[TECH_REVENUE]` | Specify the tech revenue | "[specify value]" |
-| `[GOV_PARTNERS]` | Specify the gov partners | "[specify value]" |
-| `[GOV_VALUE]` | Specify the gov value | "[specify value]" |
-| `[GOV_INTEGRATE]` | Specify the gov integrate | "[specify value]" |
-| `[GOV_INVEST]` | Specify the gov invest | "[specify value]" |
-| `[GOV_REVENUE]` | Specify the gov revenue | "[specify value]" |
-| `[CO2_BASE]` | Specify the co2 base | "[specify value]" |
-| `[CO2_CURRENT]` | Specify the co2 current | "[specify value]" |
-| `[CO2_2025]` | Specify the co2 2025 | "[specify value]" |
-| `[CO2_2030]` | Specify the co2 2030 | "[specify value]" |
-| `[CO2_STRATEGY]` | Strategy or approach for co2 | "[specify value]" |
-| `[ENERGY_BASE]` | Specify the energy base | "[specify value]" |
-| `[ENERGY_CURRENT]` | Specify the energy current | "[specify value]" |
-| `[ENERGY_2025]` | Specify the energy 2025 | "[specify value]" |
-| `[ENERGY_2030]` | Specify the energy 2030 | "[specify value]" |
-| `[ENERGY_STRATEGY]` | Strategy or approach for energy | "[specify value]" |
-| `[NOX_BASE]` | Specify the nox base | "[specify value]" |
-| `[NOX_CURRENT]` | Specify the nox current | "[specify value]" |
-| `[NOX_2025]` | Specify the nox 2025 | "[specify value]" |
-| `[NOX_2030]` | Specify the nox 2030 | "[specify value]" |
-| `[NOX_STRATEGY]` | Strategy or approach for nox | "[specify value]" |
-| `[NOISE_BASE]` | Specify the noise base | "[specify value]" |
-| `[NOISE_CURRENT]` | Specify the noise current | "[specify value]" |
-| `[NOISE_2025]` | Specify the noise 2025 | "[specify value]" |
-| `[NOISE_2030]` | Specify the noise 2030 | "[specify value]" |
-| `[NOISE_STRATEGY]` | Strategy or approach for noise | "[specify value]" |
-| `[RESOURCE_BASE]` | Specify the resource base | "[specify value]" |
-| `[RESOURCE_CURRENT]` | Specify the resource current | "[specify value]" |
-| `[RESOURCE_2025]` | Specify the resource 2025 | "[specify value]" |
-| `[RESOURCE_2030]` | Specify the resource 2030 | "[specify value]" |
-| `[RESOURCE_STRATEGY]` | Strategy or approach for resource | "[specify value]" |
-| `[CIRCULAR_BASE]` | Specify the circular base | "[specify value]" |
-| `[CIRCULAR_CURRENT]` | Specify the circular current | "[specify value]" |
-| `[CIRCULAR_2025]` | Specify the circular 2025 | "[specify value]" |
-| `[CIRCULAR_2030]` | Specify the circular 2030 | "[specify value]" |
-| `[CIRCULAR_STRATEGY]` | Strategy or approach for circular | "[specify value]" |
+## Required Output Format (6 Deliverables)
 
-### 3. Battery Technology & Management
+1) **EXECUTIVE SUMMARY**
+- Overall maturity level, electrification risks, and key improvement priorities
 
-| **Battery Metric** | **Current Technology** | **Next-Gen Target** | **Performance Gain** | **Cost Trajectory** | **Implementation** |
-|-------------------|----------------------|--------------------|--------------------|-------------------|-------------------|
-| Energy Density | [DENSITY_CURRENT] Wh/kg | [DENSITY_TARGET] Wh/kg | [DENSITY_GAIN]% | [DENSITY_COST] | [DENSITY_TIMELINE] |
-| Charging Speed | [CHARGE_CURRENT] min | [CHARGE_TARGET] min | [CHARGE_GAIN]% | [CHARGE_COST] | [CHARGE_TIMELINE] |
-| Cycle Life | [CYCLE_CURRENT] cycles | [CYCLE_TARGET] cycles | [CYCLE_GAIN]% | [CYCLE_COST] | [CYCLE_TIMELINE] |
-| Temperature Range | [TEMP_CURRENT]°C | [TEMP_TARGET]°C | [TEMP_GAIN]% | [TEMP_COST] | [TEMP_TIMELINE] |
-| Battery Cost | $[BATTERY_CURRENT]/kWh | $[BATTERY_TARGET]/kWh | [BATTERY_GAIN]% | [BATTERY_TREND] | [BATTERY_TIMELINE] |
+2) **DIMENSION SCORECARD**
+- Table with score (1–5) + 1–2 findings per dimension
 
-### 4. Total Cost of Ownership Analysis
+3) **FLEET SUITABILITY & TCO ANALYSIS**
+- EV-suitable vehicle count, use cases, and TCO comparison (ICE vs. EV)
+- Pilot candidates and expected ROI
 
-**TCO Comparison Matrix:**
-| **Cost Component** | **ICE Vehicle** | **Hybrid** | **BEV** | **Hydrogen** | **5-Year Savings** |
-|-------------------|----------------|-----------|---------|-------------|-------------------|
-| Purchase Price | $[ICE_PURCHASE] | $[HYB_PURCHASE] | $[BEV_PURCHASE] | $[H2_PURCHASE] | [PURCHASE_SAVE] |
-| Fuel/Energy | $[ICE_FUEL]/year | $[HYB_FUEL]/year | $[BEV_ENERGY]/year | $[H2_FUEL]/year | $[FUEL_SAVE] |
-| Maintenance | $[ICE_MAINT]/year | $[HYB_MAINT]/year | $[BEV_MAINT]/year | $[H2_MAINT]/year | $[MAINT_SAVE] |
-| Insurance | $[ICE_INSURE]/year | $[HYB_INSURE]/year | $[BEV_INSURE]/year | $[H2_INSURE]/year | $[INSURE_SAVE] |
-| Residual Value | [ICE_RESIDUAL]% | [HYB_RESIDUAL]% | [BEV_RESIDUAL]% | [H2_RESIDUAL]% | $[RESIDUAL_DIFF] |
-| Total 5-Year TCO | $[ICE_TCO] | $[HYB_TCO] | $[BEV_TCO] | $[H2_TCO] | $[TOTAL_SAVE] |
+4) **CHARGING INFRASTRUCTURE PLAN**
+- Charging station count/type, installation costs, electrical upgrades needed
+- Timeline and phasing strategy
 
-### 5. Grid Integration & Energy Management
+5) **OPERATIONAL & FINANCIAL PROFILE**
+- EV adoption roadmap, training needs, procurement strategy
+- Incentives captured, energy costs, and TCO savings projection
 
-```
-Smart Grid Integration:
-Vehicle-to-Grid (V2G):
-- V2G Capable Vehicles: [V2G_VEHICLES]
-- Bidirectional Chargers: [V2G_CHARGERS]
-- Peak Shaving Capacity: [PEAK_CAPACITY] MW
-- Revenue Potential: $[V2G_REVENUE]/year
-- Grid Services: [GRID_SERVICES]
+6) **30/60/90-DAY ELECTRIFICATION ACCELERATION PLAN**
+- Actions to improve fleet analysis, charging deployment, and operational readiness
+- Metrics (EV adoption %, TCO savings, charging uptime, emissions reduction, driver satisfaction)
 
-Energy Management:
-- Renewable Integration: [RENEWABLE]%
-- Solar Capacity: [SOLAR_CAP] MW
-- Battery Storage: [STORAGE_CAP] MWh
-- Peak Demand Reduction: [PEAK_REDUCE]%
-- Energy Cost Savings: $[ENERGY_SAVE]/year
+---
 
-### Load Balancing
-- Smart Charging Algorithm: [SMART_ALGO]
-- Demand Response: [DEMAND_RESPONSE]
-- Time-of-Use Optimization: [TOU_OPTIMIZE]
-- Grid Stability Impact: [GRID_IMPACT]
-- Carbon Intensity: [CARBON_INTENSITY] g/kWh
-```
+## Maturity Scale (Use for Overall + Per-Dimension Scoring)
+- 1.0–1.9: Initial (no EVs, exploratory, ad hoc analysis)
+- 2.0–2.9: Developing (pilot EVs, basic charging, limited TCO analysis)
+- 3.0–3.9: Defined (growing EV fleet, solid charging infrastructure, proven savings)
+- 4.0–4.9: Managed (high adoption, optimized operations, measurable ROI, scaled deployment)
+- 5.0: Optimized (fully electrified, best-in-class TCO, seamless operations, sustainability leadership)
 
-### 6. Policy & Regulatory Compliance
+---
 
-| **Regulatory Area** | **Current Requirements** | **Future Standards** | **Compliance Status** | **Investment Needed** | **Timeline** |
-|--------------------|------------------------|--------------------|--------------------|---------------------|-------------|
-| Emissions Standards | [EMISSION_CURRENT] | [EMISSION_FUTURE] | [EMISSION_STATUS]% | $[EMISSION_INVEST] | [EMISSION_TIME] |
-| ZEV Mandates | [ZEV_CURRENT]% | [ZEV_FUTURE]% | [ZEV_STATUS]% | $[ZEV_INVEST] | [ZEV_TIME] |
-| Safety Standards | [SAFETY_CURRENT] | [SAFETY_FUTURE] | [SAFETY_STATUS]% | $[SAFETY_INVEST] | [SAFETY_TIME] |
-| Charging Standards | [CHARGE_STANDARD] | [CHARGE_FUTURE] | [CHARGE_STATUS]% | $[CHARGE_INVEST] | [CHARGE_TIME] |
-| Incentive Programs | [INCENTIVE_CURRENT] | [INCENTIVE_FUTURE] | [INCENTIVE_STATUS] | $[INCENTIVE_VALUE] | [INCENTIVE_TIME] |
+## Variables (≤3)
+- {EV_CONTEXT}: Fleet size, vehicle types, current EV adoption, geographic footprint
+- {OBJECTIVES}: EV adoption %, TCO savings, emissions reduction, and charging uptime goals
+- {CONSTRAINTS}: Budget, electrical capacity, vehicle availability, driver acceptance, charging access
 
-### 7. User Experience & Adoption
+---
 
-**EV User Journey Optimization:**
-| **Journey Stage** | **Current Experience** | **Pain Points** | **Improvements** | **Technology** | **Satisfaction** |
-|------------------|----------------------|----------------|-----------------|---------------|-----------------|
-| Vehicle Selection | [SELECT_CURRENT] | [SELECT_PAIN] | [SELECT_IMPROVE] | [SELECT_TECH] | [SELECT_SAT]/10 |
-| Purchase Process | [PURCHASE_CURRENT] | [PURCHASE_PAIN] | [PURCHASE_IMPROVE] | [PURCHASE_TECH] | [PURCHASE_SAT]/10 |
-| Charging Experience | [CHARGING_CURRENT] | [CHARGING_PAIN] | [CHARGING_IMPROVE] | [CHARGING_TECH] | [CHARGING_SAT]/10 |
-| Trip Planning | [TRIP_CURRENT] | [TRIP_PAIN] | [TRIP_IMPROVE] | [TRIP_TECH] | [TRIP_SAT]/10 |
-| Service & Support | [SERVICE_CURRENT] | [SERVICE_PAIN] | [SERVICE_IMPROVE] | [SERVICE_TECH] | [SERVICE_SAT]/10 |
+## Example (Filled)
 
-### 8. Supply Chain & Manufacturing
+**Input**
+- {EV_CONTEXT}: Municipal government fleet (300 vehicles: 150 sedans, 100 light-duty trucks, 50 service vehicles). Current EV adoption: 5 vehicles (2% pilot). Vehicles operate within city limits (avg 60 mi/day). 3 depots with parking/electrical access. Goal: electrify 50% by 2027. Current fuel cost: $450K/year. Maintenance: $300K/year.
+- {OBJECTIVES}: Electrify 50% of fleet (150 vehicles) by 2027, achieve 30% TCO savings vs. ICE baseline, reduce fleet emissions by 40%, deploy 200 charging points (180 L2, 20 DC fast), maintain 95% vehicle uptime.
+- {CONSTRAINTS}: $8M capital budget over 3 years; aging electrical infrastructure at 2 depots (upgrade needed); union concerns (job impacts on mechanics); limited EV model availability for light-duty trucks; public charging network sparse.
 
-```
-EV Production Strategy:
-Component Sourcing:
-- Battery Cells: [CELL_SOURCE]
-  Supplier: [CELL_SUPPLIER]
-  Capacity: [CELL_CAPACITY] GWh
-  Cost: $[CELL_COST]/kWh
+**1) EXECUTIVE SUMMARY**
+- Overall maturity: 2.8 (Developing)
+- Key risks: electrical upgrades at 2 depots expensive ($500K); light-duty truck EV availability limited (delays transition); union resistance to EV maintenance training
+- Top improvements: (1) conduct comprehensive TCO analysis and fleet suitability mapping, (2) secure electrical upgrades and charging vendor, (3) launch driver/mechanic training and change management program
 
-- Electric Motors: [MOTOR_SOURCE]
-  Technology: [MOTOR_TECH]
-  Efficiency: [MOTOR_EFF]%
-  Cost: $[MOTOR_COST]
+**2) DIMENSION SCORECARD**
+- Fleet Suitability & Use Case Analysis: 3/5 — basic mileage data collected; no formal TCO model; pilot vehicles selected intuitively (not data-driven)
+- Charging Infrastructure Strategy: 2/5 — depot locations identified; electrical capacity unknown; no charging vendor selected; timeline undefined
+- Vehicle Selection & Procurement: 3/5 — sedan EVs available and proven; light-duty truck options limited; incentives researched but not maximized
+- Operational Readiness & Change: 2/5 — drivers untrained on EV operation; mechanics anxious about job security; no change management plan
+- Charging Operations & Energy: 2/5 — no energy management strategy; off-peak charging not implemented; charger uptime not monitored
+- Performance Tracking & Improvement: 2/5 — pilot TCO not measured rigorously; emissions reduction not quantified; no continuous improvement process
 
-- Power Electronics: [POWER_SOURCE]
-  Components: [POWER_COMP]
-  Integration: [POWER_INTEGRATE]
-  Cost: $[POWER_COST]
+**3) FLEET SUITABILITY & TCO ANALYSIS**
+- Fleet composition (300 vehicles):
+  - Sedans (150): pool cars, inspectors, admin — avg 50 mi/day, predictable routes, EV-ready
+  - Light-duty trucks (100): maintenance, public works — avg 70 mi/day, towing/payload needs, EV availability limited
+  - Service vehicles (50): specialized equipment (bucket trucks, snowplows) — EV options minimal/nonexistent
+- EV-suitable vehicle count: 200 vehicles (150 sedans + 50 light-duty trucks with available EV models)
+  - High suitability (150): sedans, daily mileage <80 mi, overnight depot charging, no payload constraints
+  - Medium suitability (50): light-duty trucks, daily mileage <100 mi, some payload needs, EV models emerging (Ford F-150 Lightning, Rivian, Chevy Silverado EV)
+  - Low suitability (50): service vehicles—bucket trucks, snowplows, heavy equipment (no EV alternatives yet)
+- Use cases:
+  - Admin/pool sedans: replace on normal refresh cycle (5-7 years), high confidence
+  - Inspector sedans: same as admin, add L2 home charging reimbursement for employee-owned vehicles
+  - Maintenance trucks: pilot 10 units, monitor payload/range performance before scaling
+  - Public works trucks: wait for proven heavy-duty EV models (2026-2028 likely availability)
+- TCO comparison (per vehicle, 7-year ownership):
+  - **Sedan (Honda Accord vs. Tesla Model 3):**
+    - Purchase: ICE $28K, EV $42K (net $35K after $7K federal credit) = +$7K EV
+    - Fuel/Energy: ICE $1,750/yr ($3.50/gal, 30 mpg, 15K mi/yr) = $12.3K total; EV $525/yr ($0.12/kWh, 3.5 mi/kWh) = $3.7K total → **EV saves $8.6K**
+    - Maintenance: ICE $900/yr (oil, brakes, transmission) = $6.3K total; EV $400/yr (tires, cabin filter, brake fluid) = $2.8K total → **EV saves $3.5K**
+    - Insurance: ICE $1,200/yr, EV $1,350/yr = +$1K EV
+    - Resale: ICE $8K, EV $12K = +$4K EV
+    - **7-year TCO: ICE $40.8K, EV $38.3K → EV saves $2.5K (6%)**
+  - **Light-duty truck (Ford F-150 vs. F-150 Lightning):**
+    - Purchase: ICE $45K, EV $60K (net $53K after credit) = +$8K EV
+    - Fuel/Energy: ICE $2,625/yr ($3.50/gal, 20 mpg, 15K mi/yr) = $18.4K; EV $750/yr ($0.12/kWh, 2 mi/kWh) = $5.3K → **EV saves $13.1K**
+    - Maintenance: ICE $1,200/yr = $8.4K; EV $600/yr = $4.2K → **EV saves $4.2K**
+    - Insurance: ICE $1,500/yr, EV $1,700/yr = +$1.4K EV
+    - Resale: ICE $12K, EV $18K = +$6K EV
+    - **7-year TCO: ICE $69.3K, EV $62.6K → EV saves $6.7K (10%)**
+- Pilot candidates (Year 1, 20 vehicles):
+  - 15 sedans (high ROI, low risk, proven models)
+  - 5 light-duty trucks (test payload/range, inform scale decision)
+  - Expected ROI: $50K savings over 7 years (15 sedans × $2.5K + 5 trucks × $6.7K = $37.5K + $33.5K = $71K minus $21K incremental capital = **$50K net savings**, 15% IRR)
 
-### Manufacturing Capacity
-- Current Production: [CURRENT_PROD] units/year
-- Target Capacity: [TARGET_PROD] units/year
-- Investment Required: $[PROD_INVEST]
-- Automation Level: [AUTO_LEVEL]%
-- Time to Market: [TIME_MARKET] months
-```
+**4) CHARGING INFRASTRUCTURE PLAN**
+- Charging station count/type (for 150 vehicles by 2027):
+  - **Level 2 AC chargers (180 units):** depot overnight charging (6-8 hours, 7-19 kW)
+    - Depot A (80 vehicles): 90 L2 chargers (1.1:1 ratio for flexibility)
+    - Depot B (50 vehicles): 60 L2 chargers
+    - Depot C (20 vehicles): 30 L2 chargers
+    - Cost: $3,000/unit installed (equipment + labor + conduit) = $540K
+  - **DC fast chargers (20 units):** rapid turnaround for high-utilization vehicles (20-30 min, 50-150 kW)
+    - Depot A: 10 DCFC (high-utilization trucks)
+    - Depot B: 7 DCFC
+    - Depot C: 3 DCFC
+    - Cost: $60,000/unit installed (equipment + electrical + infrastructure) = $1.2M
+  - **Public charging access:** integrate city with regional charging network (10 ChargePoint/EVgo stations within 5 mi of operations) for backup/emergency
+- Installation costs:
+  - Equipment: $540K (L2) + $1.2M (DCFC) = $1.74M
+  - Electrical upgrades:
+    - Depot A: adequate capacity (200A service, modern panel) = $0
+    - Depot B: service upgrade needed (400A → 800A) + panel upgrades = $300K
+    - Depot C: service upgrade (200A → 600A) + trenching for charger locations = $200K
+    - Total electrical: $500K
+  - Network connectivity, software, payment systems: $100K
+  - **Total charging infrastructure: $2.34M**
+- Electrical capacity assessment:
+  - Depot A: 800A service, 300A headroom → supports 90 L2 + 10 DCFC (peak demand ~400A) ✓
+  - Depot B: 400A service, 100A headroom → requires upgrade to 800A for 60 L2 + 7 DCFC ✗
+  - Depot C: 200A service, 50A headroom → requires upgrade to 600A for 30 L2 + 3 DCFC ✗
+- Timeline and phasing:
+  - **Year 1 (2025):** Pilot phase—install 25 L2 at Depot A (no electrical upgrade needed), order 20 EVs (15 sedans, 5 trucks), train 50 drivers + 10 mechanics = $1M (vehicles $700K, chargers $75K, training $25K)
+  - **Year 2 (2026):** Expansion—complete Depot B electrical upgrade, install 60 L2 + 7 DCFC, order 60 EVs = $3.5M (vehicles $2.1M, infrastructure $1.2M, contingency $200K)
+  - **Year 3 (2027):** Scale—complete Depot C electrical upgrade, install remaining 95 L2 + 13 DCFC, order 70 EVs = $3.5M (vehicles $2.5M, infrastructure $800K, operations $200K)
 
-### 9. Partnership & Ecosystem Development
+**5) OPERATIONAL & FINANCIAL PROFILE**
+- EV adoption roadmap:
+  - 2024: 5 EVs (2%)
+  - 2025: 25 EVs (8%) — pilot complete
+  - 2026: 85 EVs (28%) — expansion phase
+  - 2027: 155 EVs (52%) — scale phase, goal achieved
+  - 2030: 225 EVs (75%) — mature deployment
+- Training needs:
+  - Drivers (300 total, phased): EV operation, charging protocols, range management (2-hour session) = $30K (trainer + materials)
+  - Mechanics (20 total): EV maintenance certification, high-voltage safety, battery diagnostics (40-hour course) = $50K (training + tools)
+  - Fleet managers (5): charging ops, energy management, vendor relations (1-day workshop) = $5K
+- Procurement strategy:
+  - Sedans: leverage state contract pricing (Tesla Model 3, Chevy Bolt EUV) — $35K net/unit
+  - Trucks: competitive bid for F-150 Lightning/Rivian R1T — $53K net/unit (limited availability = risk)
+  - Delivery timeline: 6-12 months (sedans), 12-18 months (trucks due to demand)
+  - Phasing: order Year 1 units in Q1 2025, Year 2 in Q3 2025, Year 3 in Q3 2026
+- Incentives captured:
+  - Federal: $7,500/vehicle tax credit (150 vehicles) = $1.125M
+  - State: $2,000/vehicle rebate (program exists, first-come) = $300K (assuming 150 captured)
+  - Utility: $500/L2 charger, $5,000/DCFC (pilot program) = $190K (180 × $500 + 20 × $5K)
+  - **Total incentives: $1.615M**
+- Energy costs:
+  - Current fuel: $450K/year (300 ICE vehicles)
+  - Projected energy (150 EVs): $80K/year (assumes $0.12/kWh blended rate, off-peak optimization)
+  - Projected fuel (150 ICE remaining): $225K/year
+  - **Total energy/fuel: $305K/year = $145K annual savings (32%)**
+- TCO savings projection (150 EVs over 7 years):
+  - Purchase premium (net of incentives): $1.05M (150 × $7K avg)
+  - Fuel/energy savings: $1.015M (7 years × $145K/yr)
+  - Maintenance savings: $525K (150 vehicles × $500/yr × 7 yrs)
+  - **Net TCO savings: $490K over 7 years (9% reduction vs. ICE baseline)**
 
-| **Partner Type** | **Current Partners** | **Strategic Value** | **Integration Level** | **Investment** | **Revenue Share** |
-|-----------------|---------------------|-------------------|---------------------|---------------|------------------|
-| OEMs | [OEM_PARTNERS] | [OEM_VALUE] | [OEM_INTEGRATE]% | $[OEM_INVEST] | [OEM_REVENUE]% |
-| Charging Networks | [CHARGE_PARTNERS] | [CHARGE_VALUE] | [CHARGE_INTEGRATE]% | $[CHARGE_INVEST] | [CHARGE_REVENUE]% |
-| Energy Providers | [ENERGY_PARTNERS] | [ENERGY_VALUE] | [ENERGY_INTEGRATE]% | $[ENERGY_INVEST] | [ENERGY_REVENUE]% |
-| Technology | [TECH_PARTNERS] | [TECH_VALUE] | [TECH_INTEGRATE]% | $[TECH_INVEST] | [TECH_REVENUE]% |
-| Government | [GOV_PARTNERS] | [GOV_VALUE] | [GOV_INTEGRATE]% | $[GOV_INVEST] | [GOV_REVENUE]% |
+**6) 30/60/90-DAY ELECTRIFICATION ACCELERATION PLAN**
+- 30 days: complete detailed TCO model for all 300 vehicles (mileage, duty cycle, replacement timing); map electrical capacity at 3 depots (site surveys, utility coordination); select charging vendor (RFP for 200 chargers + 3-year service); order pilot vehicles (15 sedans, 5 trucks for Q3 delivery)
+- 60 days: secure electrical upgrade permits for Depot B and C ($500K approved in budget); launch driver training pilot (25 drivers, EV operation + charging + range mgmt); develop maintenance training plan (partner with EV OEM for mechanic certification); negotiate incentive stacking (confirm federal/state/utility programs)
+- 90 days: install 25 L2 chargers at Depot A; receive and deploy 20 pilot EVs; measure pilot performance (uptime, driver satisfaction, charging utilization, early TCO data); finalize Year 2 procurement (60 vehicles, RFP issued); present pilot results to city council (secure Phase 2 funding approval)
+- Metrics: pilot EVs deployed (goal 20), charging uptime (goal 98%), driver satisfaction (goal 80% positive), early TCO savings (goal 10%), electrical permits secured (goal Depot B + C), Year 2 funding approved (goal $3.5M)
 
-### 10. Sustainability & Environmental Impact
+---
 
-**Environmental Performance Metrics:**
-| **Impact Category** | **Baseline** | **Current** | **2025 Target** | **2030 Target** | **Reduction Strategy** |
-|-------------------|-------------|------------|----------------|----------------|---------------------|
-| CO2 Emissions | [CO2_BASE] tons | [CO2_CURRENT] tons | [CO2_2025] tons | [CO2_2030] tons | [CO2_STRATEGY] |
-| Energy Consumption | [ENERGY_BASE] MWh | [ENERGY_CURRENT] MWh | [ENERGY_2025] MWh | [ENERGY_2030] MWh | [ENERGY_STRATEGY] |
-| Air Quality (NOx) | [NOX_BASE] kg | [NOX_CURRENT] kg | [NOX_2025] kg | [NOX_2030] kg | [NOX_STRATEGY] |
-| Noise Pollution | [NOISE_BASE] dB | [NOISE_CURRENT] dB | [NOISE_2025] dB | [NOISE_2030] dB | [NOISE_STRATEGY] |
-| Resource Efficiency | [RESOURCE_BASE]% | [RESOURCE_CURRENT]% | [RESOURCE_2025]% | [RESOURCE_2030]% | [RESOURCE_STRATEGY] |
-| Circular Economy | [CIRCULAR_BASE]% | [CIRCULAR_CURRENT]% | [CIRCULAR_2025]% | [CIRCULAR_2030]% | [CIRCULAR_STRATEGY] |
-
-## Usage Examples
-
-## Best Practices
-
-1. **Start with clear objectives** - Define what success looks like before beginning
-2. **Use data to inform decisions** - Base choices on evidence and measurable outcomes
-3. **Iterate and improve continuously** - Treat implementation as an ongoing process
-4. **Engage stakeholders early** - Include key participants in planning and execution
-5. **Document thoroughly** - Maintain clear records for reference and knowledge transfer
-6. **Communicate regularly** - Keep all parties informed of progress and changes
-7. **Address challenges proactively** - Identify potential issues before they become problems
-8. **Celebrate milestones** - Recognize achievements to maintain motivation
-9. **Learn from experience** - Reflect on what works and adjust accordingly
-10. **Stay flexible** - Be ready to adapt based on feedback and changing circumstances
-
-## Tips for Success
-
-- Break complex tasks into manageable steps with clear milestones
-- Set realistic timelines that account for dependencies and constraints
-- Allocate sufficient resources including time, budget, and personnel
-- Use templates and frameworks to ensure consistency and quality
-- Seek feedback from users and stakeholders throughout the process
-- Build in checkpoints to assess progress and make adjustments
-- Maintain quality standards while remaining practical and efficient
-- Document lessons learned for future reference and improvement
-- Foster collaboration across teams and departments
-- Stay current with industry best practices and emerging trends
-### Example 1: Corporate Fleet Electrification
-```
-Organization: Fortune 500 Company
-Fleet Size: 5,000 vehicles
-EV Target: 50% by 2025, 100% by 2030
-Investment: $50M over 5 years
-Charging: 500 workplace chargers
-Focus: Sales fleet and delivery vans
-Savings: $15M annual operating costs
-Carbon Reduction: 25,000 tons CO2/year
-```
-
-### Example 2: Municipal Transit System
-```
-City: Major Metropolitan Area
-Bus Fleet: 1,000 buses
-Electrification: 300 e-buses by 2025
-Infrastructure: 10 depot charging hubs
-Investment: $200M
-Grid Integration: V2G capability
-Range: 250 miles per charge
-Maintenance Savings: 40% reduction
-```
-
-### Example 3: Ride-Sharing Platform
-```
-Platform: Urban Mobility Service
-Vehicles: 10,000 active drivers
-EV Incentive: $5,000 bonus program
-Charging Network: Partnership with 3 providers
-Fast Charging: 200 DC fast chargers
-Driver Support: 24/7 charging assistance
-Revenue Model: Charging commission share
-Target: 75% EV trips by 2024
-```
-
-
-
-## Related Resources
-
-### Complementary Templates
-
-Enhance your workflow by combining this template with:
-
-- **[Autonomous Vehicle Systems](autonomous-vehicle-systems.md)** - Complementary approaches and methodologies
-
-### Suggested Workflow
-
-**Typical implementation sequence**:
-
-1. Start with this template (Electric Vehicle Strategy & Mobility Transformation Framework)
-2. Use [Autonomous Vehicle Systems](autonomous-vehicle-systems.md) for deeper analysis
-4. Iterate and refine based on results
-
-### Explore More in This Category
-
-Browse all **[industry/automotive/Electric Vehicles](../../industry/automotive/Electric Vehicles/)** templates for related tools and frameworks.
-
-### Common Use Case Combinations
-
-- **Creating comprehensive framework for electric vehicle adoption, charging infrastructure development, fleet electrification, battery management, and sustainable mobility transformation across automotive and transportation sectors.**: Combine this template with related analytics and strategy frameworks
-- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
-- **Strategy development**: Combine this template with related analytics and strategy frameworks
-
-## Customization Options
-
-### 1. Organization Type
-- Corporate fleet
-- Public transit
-- Logistics/Delivery
-- Ride-sharing/Taxi
-- Personal mobility
-
-### 2. Scale
-- Small fleet (<100 vehicles)
-- Medium (100-1,000)
-- Large (1,000-10,000)
-- Enterprise (10,000+)
-- City-wide deployment
-
-### 3. Vehicle Types
-- Passenger cars
-- Commercial vans
-- Heavy trucks
-- Buses
-- Specialty vehicles
-
-### 4. Geographic Focus
-- Urban deployment
-- Suburban
-- Rural/Regional
-- Highway corridors
-- International
-
-### 5. Technology Priority
-- Battery electric (BEV)
-- Plug-in hybrid (PHEV)
-- Hydrogen fuel cell
-- Autonomous EV
-- Shared mobility
+## Best Practices (Exactly 8)
+1) Start with TCO analysis, not environmental goals: savings sell electrification better than sustainability alone.
+2) Pilot with high-suitability vehicles first: sedans with predictable routes and depot charging = low risk, proven ROI.
+3) Right-size charging infrastructure: Level 2 for overnight (cheaper, adequate for most), DC fast for high-utilization only.
+4) Assess electrical capacity early: service upgrades are expensive and time-consuming—factor into budget and timeline.
+5) Stack incentives aggressively: federal tax credits + state rebates + utility programs can offset 30-40% of costs.
+6) Train mechanics on EV maintenance: different skills needed (no oil changes, but battery diagnostics, high-voltage safety critical).
+7) Address range anxiety proactively: driver training, route planning tools, and backup charging access build confidence.
+8) Measure and communicate wins: track TCO savings, emissions reduction, uptime—data builds momentum for expansion.

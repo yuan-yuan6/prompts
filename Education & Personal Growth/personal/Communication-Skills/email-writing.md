@@ -1,180 +1,189 @@
 ---
-title: Email Writing Template
 category: personal
+related_templates:
+- personal/Communication-Skills/public-speaking.md
+- personal/Communication-Skills/persuasive-communication.md
 tags:
 - email-writing
 - professional-correspondence
 - persuasive-messaging
 - business-communication
+- readiness-assessment
+title: Email Writing Readiness Assessment
 use_cases:
-- Creating effective email communication including professional correspondence, persuasive
-  messages, and personal communications that achieve desired outcomes and maintain
-  strong relationships.
-- Project planning and execution
-- Strategy development
-last_updated: 2025-11-09
+- Assessing readiness to write clear, effective professional emails
+- Diagnosing gaps in structure, tone, persuasion, and call-to-action design
+- Creating an improvement plan for higher response rates and lower back-and-forth
 industries:
-- finance
-- healthcare
-- manufacturing
-- retail
+- all-industries
+- business
 - technology
-type: template
+- professional-services
+type: framework
 difficulty: intermediate
-slug: email-writing
+slug: email-writing-readiness-assessment
 ---
 
-# Email Writing Template
+# Email Writing Readiness Assessment
 
 ## Purpose
-Create effective email communication including professional correspondence, persuasive messages, and personal communications that achieve desired outcomes and maintain strong relationships.
+Assess readiness to write effective professional emails across six dimensions: goal clarity, structure, tone, persuasion, calls-to-action, and quality/process. This produces a scorecard and a practical improvement plan.
 
-## Quick Email Writing Prompt
+## 🚀 Quick Assessment Prompt
 
-Write a [email type - professional/persuasive/follow-up/request] email to [recipient role/relationship] regarding [subject/purpose]. The tone should be [formal/friendly/urgent/diplomatic] and my goal is to [desired action/response]. Include a compelling subject line, clear context, [number] key points, and a specific call to action with [deadline if applicable]. Keep it concise and scannable.
+> Assess **email writing readiness** for **{EMAIL_CONTEXT}** to **{RECIPIENT_CONTEXT}** within **{CONSTRAINTS}**. Score each dimension **1–5**, explain why, and provide a rewrite strategy (subject line options, structure, CTA, follow-up). Include success metrics.
 
-## Quick Start
-
-Want to write a better email right now? Try this simple approach:
-
-1. Start with your goal: What do you want the recipient to do after reading your email?
-2. Craft a clear subject line that tells them exactly what the email is about
-3. Open with context: Remind them who you are (if needed) and why you're writing
-4. Keep your main message to 3 sentences or less
-5. End with a specific call to action: "Could you respond by Friday?" or "Please review the attached document"
-
-Example: Instead of "Following up on our conversation," try "Decision needed: Marketing budget for Q2 campaign (by Friday)." Your recipient will thank you for the clarity.
+---
 
 ## Template
 
-```
-You are an email communication expert. Create [EMAIL_TYPE] for [RECIPIENT_TYPE] regarding [EMAIL_PURPOSE] using [COMMUNICATION_TONE] to achieve [DESIRED_OUTCOME] with [EMAIL_STRUCTURE].
+Conduct an email writing readiness assessment for {EMAIL_CONTEXT} to {RECIPIENT_CONTEXT} within {CONSTRAINTS}.
 
-EMAIL FRAMEWORK:
-Subject Line: [EMAIL_SUBJECT]
-Recipient: [RECIPIENT_NAME]
-Purpose: [EMAIL_PURPOSE]
-Tone: [COMMUNICATION_TONE]
-Priority: [EMAIL_PRIORITY]
-Expected Response: [RESPONSE_EXPECTATION]
+Score each dimension 1–5:
 
-### EMAIL STRUCTURE
-Subject: [COMPELLING_SUBJECT_LINE]
+**1) GOAL & AUDIENCE CLARITY**
+- One explicit desired action (approve/decide/reply/schedule)
+- Recipient context understood (role, incentives, constraints, relationship)
+- Right level of detail for the recipient (what they need to say “yes”)
 
-Dear [RECIPIENT_NAME],
+**2) STRUCTURE & BREVITY**
+- Strong subject line (specific, searchable, aligned to request)
+- Opening that orients quickly (why now + why them)
+- Scannable body (short paragraphs, bullets, headings)
 
-Opening: [EMAIL_OPENING]
-- Context establishment
-- Relationship acknowledgment
-- Purpose statement
+**3) TONE & RELATIONSHIP MANAGEMENT**
+- Tone matches context (formal, friendly, diplomatic, urgent)
+- Respectful framing (no guilt, no ambiguity, no passive aggression)
+- Trust signals (competence, ownership, empathy)
 
-Body: [EMAIL_BODY]
-- Main message
-- Supporting details
-- Call to action
+**4) PERSUASION & EVIDENCE**
+- Rationale is credible (data, tradeoffs, risks, alternatives)
+- Objections anticipated (cost, time, priority, precedent)
+- Clear recommendation with options (when helpful)
 
-Closing: [EMAIL_CLOSING]
-- Summary
-- Next steps
-- Professional sign-off
+**5) CTA & FOLLOW-UP DESIGN**
+- CTA is single, specific, time-bounded
+- Low-friction next step (links, attachments, proposed times)
+- Follow-up plan and escalation path are appropriate
 
-Best regards,
-[SENDER_NAME]
-
-Complete email communication with clear messaging, appropriate tone, and effective structure for maximum impact.
-
-Final Email: [COMPLETE_EMAIL_MESSAGE]
+**6) QUALITY & PROCESS**
+- Proofreading and clarity check performed
+- Sensitive content handled carefully (confidentiality, legal, HR)
+- Sending habits support outcomes (timing, threading, version control)
 
 ---
 
-### Email Effectiveness Check
-✓ Clear subject line: [SUBJECT_CLARITY]
-✓ Appropriate tone: [TONE_APPROPRIATENESS]
-✓ Concise message: [MESSAGE_CONCISENESS]
-✓ Clear call to action: [CTA_CLARITY]
-✓ Professional format: [FORMAT_PROFESSIONALISM]
+## Required Output Format
 
-Email quality: [EMAIL_QUALITY_RATING]
-```
+1) **EXECUTIVE SUMMARY**
+- Overall readiness score (average of 6)
+- Maturity level (per scale below)
+- Top 3 improvements to implement immediately
 
-## Variables
-[400+ variables for email writing including structure, tone, purpose, audience, and effectiveness measures]
+2) **DIMENSION SCORECARD**
+- Table: dimension | score (/5) | key evidence | primary fix
 
-## Usage Examples
+3) **SCENARIO READINESS**
+- Evaluate readiness for 4 common scenarios: request, follow-up, update, difficult message
+- For each: main risk, recommended structure, sample CTA
 
-## Best Practices
+4) **GAP ANALYSIS**
+- Top 5 gaps ranked by impact × urgency
+- Each gap: symptom → likely cause → corrective action
 
-1. **Start with clear objectives** - Define what success looks like before beginning
-2. **Use data to inform decisions** - Base choices on evidence and measurable outcomes
-3. **Iterate and improve continuously** - Treat implementation as an ongoing process
-4. **Engage stakeholders early** - Include key participants in planning and execution
-5. **Document thoroughly** - Maintain clear records for reference and knowledge transfer
-6. **Communicate regularly** - Keep all parties informed of progress and changes
-7. **Address challenges proactively** - Identify potential issues before they become problems
-8. **Celebrate milestones** - Recognize achievements to maintain motivation
-9. **Learn from experience** - Reflect on what works and adjust accordingly
-10. **Stay flexible** - Be ready to adapt based on feedback and changing circumstances
+5) **IMPROVEMENT ROADMAP**
+- A 2-week plan with repeatable patterns (subject formulas, templates, checklists)
+- Include a “default email skeleton” and a follow-up cadence rule
 
-## Tips for Success
+6) **SUCCESS METRICS**
+- Baseline vs targets for: response rate, time-to-response, back-and-forth count, decision clarity
 
-- Break complex tasks into manageable steps with clear milestones
-- Set realistic timelines that account for dependencies and constraints
-- Allocate sufficient resources including time, budget, and personnel
-- Use templates and frameworks to ensure consistency and quality
-- Seek feedback from users and stakeholders throughout the process
-- Build in checkpoints to assess progress and make adjustments
-- Maintain quality standards while remaining practical and efficient
-- Document lessons learned for future reference and improvement
-- Foster collaboration across teams and departments
-- Stay current with industry best practices and emerging trends
-### Example 1: Professional Request
-```
-EMAIL_TYPE: "Professional request email"
-RECIPIENT_TYPE: "Senior colleague"
-EMAIL_PURPOSE: "Request for meeting and project collaboration"
-COMMUNICATION_TONE: "Professional and respectful"
-DESIRED_OUTCOME: "Scheduled meeting and agreement to collaborate"
-EMAIL_STRUCTURE: "Formal business email format"
-```
+---
 
-### Example 2: Customer Service
-```
-EMAIL_TYPE: "Customer service response"
-RECIPIENT_TYPE: "Dissatisfied customer"
-EMAIL_PURPOSE: "Address complaint and provide solution"
-COMMUNICATION_TONE: "Empathetic and solution-focused"
-DESIRED_OUTCOME: "Customer satisfaction and relationship repair"
-EMAIL_STRUCTURE: "Service recovery email format"
-```
+## Maturity Scale
+- 1.0–1.9: Initial (unclear, high back-and-forth)
+- 2.0–2.9: Developing (some structure, inconsistent outcomes)
+- 3.0–3.9: Defined (repeatable approach, good clarity)
+- 4.0–4.9: Managed (high response quality, persuasive and efficient)
+- 5.0: Optimized (excellent outcomes, minimal friction, strong relationships)
 
-## Customization Options
+---
 
-1. **Email Types**
-   - Professional requests
-   - Sales communications
-   - Customer service
-   - Personal correspondence
-   - Follow-up messages
-   - Thank you notes
-   - Apology letters
-   - Networking emails
+## Variables (max 3)
 
-2. **Communication Tones**
-   - Formal professional
-   - Friendly professional
-   - Casual personal
-   - Urgent/important
-   - Persuasive
-   - Apologetic
-   - Congratulatory
-   - Informational
+| Variable | What to provide | Examples |
+|---|---|---|
+| {EMAIL_CONTEXT} | Email purpose + topic | “Request approval for Q2 research budget increase” |
+| {RECIPIENT_CONTEXT} | Who it’s going to + relationship | “VP Product; supportive but busy; prefers bullets” |
+| {CONSTRAINTS} | Limits to respect | “150 words, decision needed by Friday EOD” |
 
-3. **Recipient Types**
-   - Supervisors/managers
-   - Colleagues/peers
-   - Clients/customers
-   - Vendors/suppliers
-   - Friends/family
-   - New contacts
-   - Team members
-   - External stakeholders
+---
+
+## Example (filled)
+
+**Input**
+- {EMAIL_CONTEXT}: Request approval for a $10k Q2 user research budget increase
+- {RECIPIENT_CONTEXT}: VP Product; supportive but time-constrained; wants clear tradeoffs
+- {CONSTRAINTS}: 150 words; decision needed by Friday EOD; include alternatives
+
+**Output**
+
+1) **EXECUTIVE SUMMARY**
+- Overall readiness score: 3.7/5
+- Maturity level: Defined
+- Top 3 improvements: (1) make CTA binary + time-bounded, (2) quantify ROI, (3) add one clear alternative
+
+2) **DIMENSION SCORECARD**
+| Dimension | Score | Key evidence | Primary fix |
+|---|---:|---|---|
+| Goal & Audience Clarity | 4.0 | Clear approval request tailored to VP | Add explicit decision options |
+| Structure & Brevity | 3.5 | Bullets help scanning | Tighten opening to 1 sentence |
+| Tone & Relationship | 4.0 | Respectful and direct | Avoid hedging language |
+| Persuasion & Evidence | 3.0 | Mentions value but light on numbers | Add ROI and risk of not doing |
+| CTA & Follow-up | 3.5 | Deadline present | Make the action single and explicit |
+| Quality & Process | 4.0 | Clean, low risk | Add subject that’s searchable |
+
+3) **SCENARIO READINESS**
+- Request: risk = too vague; structure = context → bullets → CTA; CTA = “Approve $10k by Fri EOD?”
+- Follow-up: risk = sounding pushy; structure = recap + frictionless choice; CTA = “Is it a yes/no, or should I adjust scope?”
+- Update: risk = long status; structure = headline + 3 bullets + ask; CTA = “Anything you want changed?”
+- Difficult message: risk = defensiveness; structure = empathy + facts + next steps; CTA = “Confirm you received and agree to X.”
+
+4) **GAP ANALYSIS**
+- Gap 1: Unclear decision → missing options → present “approve / approve smaller / not now”
+- Gap 2: Weak evidence → no numbers → include ROI estimate and downside risk
+- Gap 3: Overlong context → opening bloats → cap to 1–2 sentences
+- Gap 4: CTA not frictionless → unclear next step → propose exact action + deadline
+- Gap 5: Follow-up ambiguity → inconsistent nudges → define a 48-hour follow-up rule
+
+5) **IMPROVEMENT ROADMAP**
+- Week 1: adopt a default skeleton (Subject → Why now → 3 bullets → CTA → Thanks)
+- Week 2: build 3 templates (request, follow-up, update) and a subject-line mini-library
+
+Default skeleton:
+- Subject: action + topic + deadline
+- Opening: 1 sentence context
+- Body: 3 bullets (benefit, cost, risk)
+- CTA: one specific action + deadline
+
+Follow-up rule:
+- Follow up once at 48–72 hours; then escalate with a short “choice” email or async alternative.
+
+6) **SUCCESS METRICS**
+- Response rate: 60% → 80%
+- Time-to-response: 3.5 days → 2 days
+- Back-and-forth: 4 threads → ≤2
+- Decision clarity: “maybe” → explicit yes/no/next steps
+
+---
+
+## Best Practices (exactly 8)
+
+1) **Write the CTA first** — everything else supports one action.
+2) **Use a searchable subject** — topic + action beats cleverness.
+3) **Keep openings short** — orient fast, then get to the ask.
+4) **Make it scannable** — bullets, whitespace, and headings reduce cognitive load.
+5) **Quantify when persuading** — ROI, risk, and tradeoffs beat adjectives.
+6) **Offer a low-friction option** — proposed times, links, or binary choices.
+7) **Follow up with a “choice”** — yes/no/adjust scope reduces stalls.
+8) **Protect tone under stress** — clarity without sharpness preserves relationships.

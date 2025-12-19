@@ -1,278 +1,125 @@
 ---
 category: security
-last_updated: 2025-11-22
-related_templates:
-- technology/cloud-architecture-framework.md
-- technology/site-reliability-engineering.md
-- technology/cloud-migration-strategy.md
+title: Incident Response Framework
 tags:
 - security
 - incident-response
 - playbooks
 - containment
-title: Incident Response Template
 use_cases:
-- Creating comprehensive incident response planning including detection, analysis,
-  containment, eradication, recovery, and lessons learned for effective cybersecurity
-  incident management.
-- Project planning and execution
-- Strategy development
+- Building incident response capability with NIST 800-61 framework covering preparation, detection, containment, eradication, recovery, post-incident achieving MTTD <1h, MTTR <4h
+- Creating incident playbooks for ransomware, data breach, phishing, DDoS with response procedures, escalation paths, communication templates
+- Conducting incident response exercises (tabletop, red team, purple team) validating detection, response, recovery capabilities quarterly
+related_templates:
+- security/Cybersecurity/security-operations.md
+- security/Security-Operations/siem-security-monitoring.md
+- security/Cybersecurity/threat-intelligence.md
 industries:
 - technology
-type: template
+- financial-services
+- healthcare
+- government
+type: framework
 difficulty: intermediate
 slug: incident-response
 ---
 
-# Incident Response Template
+# Incident Response Framework
 
 ## Purpose
-Comprehensive incident response planning including detection, analysis, containment, eradication, recovery, and lessons learned for effective cybersecurity incident management.
+Build comprehensive incident response capability covering preparation, detection and analysis, containment, eradication, recovery, and post-incident activities achieving rapid response (MTTD <1 hour, MTTR <4 hours) and regulatory compliance (GDPR 72-hour notification, HIPAA breach notification).
 
-## Quick IR Planning Prompt
-Develop incident response capability for [organization]. Define: incident classification matrix (severity P1-P4), response team roles (commander, security, IT ops, legal, comms), escalation paths, and communication templates. Create playbooks for: [ransomware, phishing, data breach, DDoS]. Deploy: SIEM detection rules, forensic toolkit, evidence handling procedures. Schedule quarterly tabletop exercises.
+## 🚀 Quick Incident Response Prompt
 
-## Quick Start
+> Build incident response for **[ORGANIZATION]**. Team: **[COMMANDER]**, **[SECURITY]**, **[IT_OPS]**, **[LEGAL]**, **[COMMS]**. Classification: **[P1_CRITICAL/P2_HIGH/P3_MEDIUM/P4_LOW]**. Playbooks: **[RANSOMWARE/DATA_BREACH/PHISHING/DDOS/INSIDER]**. Tools: **[SIEM]** + **[EDR]** + forensics **[TOOLKIT]**. Exercises: quarterly tabletop, annual red team. Compliance: **[GDPR/HIPAA/PCI]** notification. Deliver: IR plan, playbooks, runbooks, communication templates.
 
-**Set Your Foundation:**
-1. Define incident types and severity levels: critical, high, medium, low
-2. Establish incident response team: commander, security, IT ops, legal, communications
-3. Set up incident communication channels and contact lists
+---
 
-**Configure Key Parameters:**
-4. Create incident classification matrix based on impact and scope
-5. Define escalation paths and authority levels for decision-making
-6. Establish evidence collection and chain of custody procedures
+## Template
 
-**Implement & Deploy (Ongoing):**
-7. Deploy SIEM for detection and correlation (Splunk, Elastic, or QRadar)
-8. Create incident response playbooks for common scenarios (ransomware, phishing, DDoS)
-9. Set up forensic toolkit with memory capture, disk imaging, and analysis tools
-10. Conduct tabletop exercises quarterly to test response procedures
+Build incident response capability for {ORGANIZATION} handling {INCIDENT_TYPES} achieving {RESPONSE_SLAS} with {COMPLIANCE_REQUIREMENTS} regulatory compliance.
 
-**Pro Tips:** Follow NIST SP 800-61 framework, maintain offline incident response kit, document everything during incidents, use MITRE ATT&CK for attack mapping, and conduct post-incident reviews within 72 hours for lessons learned.
+**INCIDENT RESPONSE PREPARATION**
 
-## Template Structure
+Establish IR capability before incidents occur. IR team structure: incident commander (CISO or Security Manager leads response, authority to make critical decisions—isolate systems, engage external IR firm, coordinate with stakeholders, on-call rotation with backup), security analysts (tier 1 triage alerts and initial investigation, tier 2 deep-dive analysis and containment, tier 3 forensics and malware analysis), IT operations (system admins for containment and recovery, network team for isolation and segmentation, database admins for data recovery, cloud ops for cloud incidents), legal counsel (breach notification requirements, regulatory reporting, law enforcement coordination, litigation hold procedures), communications (internal comms to employees, external to customers/partners/media, PR for reputation management, executive briefings), external resources (IR retainer with CrowdStrike/Mandiant/Kroll, cyber insurance with IR coverage, FBI cyber liaison, forensics lab for evidence analysis).
 
-### Incident Overview
-- **Incident ID**: [INCIDENT_ID]
-- **Incident Type**: [INCIDENT_TYPE]
-- **Severity Level**: [SEVERITY_LEVEL]
-- **Affected Systems**: [AFFECTED_SYSTEMS]
-- **Discovery Method**: [DISCOVERY_METHOD]
-- **Discovery Time**: [DISCOVERY_TIME]
-- **Reporting Time**: [REPORTING_TIME]
-- **Initial Reporter**: [INITIAL_REPORTER]
-- **Business Impact**: [BUSINESS_IMPACT]
-- **Estimated Loss**: [ESTIMATED_LOSS]
+IR tools and technology: SIEM for detection (Splunk, Sentinel, Elastic aggregates logs from all sources, correlation rules detect attack patterns, real-time alerting on critical threats, threat intelligence integration), EDR for endpoint visibility (CrowdStrike, Defender, SentinelOne provides visibility into endpoint activity, remote isolation capability critical, memory and disk forensics built-in, automated response actions), forensic toolkit (forensic workstation with write-blockers, FTK Imager for disk imaging, Volatility for memory analysis, Wireshark for network packet analysis, SIFT Workstation or REMnux for malware analysis), communication platform (dedicated Slack/Teams channel for IR coordination, conference bridge for war room calls, secure file sharing for evidence and reports, status page for customer communication), documentation (incident tracking in JIRA/ServiceNow, runbooks in Confluence/SharePoint, evidence repository with chain of custody, timeline documentation tool).
 
-### Response Team
-- **Incident Commander**: [INCIDENT_COMMANDER]
-- **Security Team**: [SECURITY_TEAM]
-- **IT Operations**: [IT_OPERATIONS]
-- **Legal Team**: [LEGAL_TEAM]
-- **Communications**: [COMMUNICATIONS_TEAM]
-- **External Resources**: [EXTERNAL_RESOURCES]
-- **Escalation Path**: [ESCALATION_PATH]
-- **Contact Information**: [CONTACT_INFORMATION]
-- **Roles and Responsibilities**: [ROLES_RESPONSIBILITIES]
-- **Authority Levels**: [AUTHORITY_LEVELS]
+IR procedures and playbooks: incident classification (P1 Critical—active data breach, ransomware, production outage, <15 min response, executive notification immediate, P2 High—confirmed malware, privilege escalation, <1 hour response, CISO notification, P3 Medium—suspicious activity, policy violation, <4 hour response, manager notification, P4 Low—informational, false positive, best effort response), incident playbooks by type (ransomware: isolate, collect ransom note and IOCs, assess backup viability, engage legal/insurance, restore from clean backups, data breach: scope determination, regulatory notification timelines—GDPR 72 hours, evidence preservation, customer notification, phishing: user education, credential reset, block sender/URL, hunt for lateral movement, DDoS: traffic scrubbing via ISP/CDN, rate limiting, communication to customers, insider threat: HR coordination, discrete monitoring, preserve evidence, legal considerations), escalation procedures (when to escalate: incident severity increases, containment unsuccessful after 2 hours, regulatory notification threshold reached, media inquiry, executive involvement required, escalation path: analyst → team lead → SOC manager → CISO → CEO → board).
 
-### Detection and Analysis
-- **Detection Sources**: [DETECTION_SOURCES]
-- **Alert Correlation**: [ALERT_CORRELATION]
-- **Evidence Collection**: [EVIDENCE_COLLECTION]
-- **Forensic Analysis**: [FORENSIC_ANALYSIS]
-- **IOC Identification**: [IOC_IDENTIFICATION]
-- **Attack Timeline**: [ATTACK_TIMELINE]
-- **Attribution Analysis**: [ATTRIBUTION_ANALYSIS]
-- **Scope Assessment**: [SCOPE_ASSESSMENT]
-- **Impact Analysis**: [IMPACT_ANALYSIS]
-- **Root Cause Analysis**: [ROOT_CAUSE_ANALYSIS]
+**DETECTION AND ANALYSIS**
 
-### Containment Strategy
-- **Short-term Containment**: [SHORT_TERM_CONTAINMENT]
-- **Long-term Containment**: [LONG_TERM_CONTAINMENT]
-- **System Isolation**: [SYSTEM_ISOLATION]
-- **Network Segmentation**: [NETWORK_SEGMENTATION]
-- **Access Restrictions**: [ACCESS_RESTRICTIONS]
-- **Service Disruption**: [SERVICE_DISRUPTION]
-- **Business Continuity**: [BUSINESS_CONTINUITY]
-- **Communication Plan**: [CONTAINMENT_COMMUNICATION]
-- **Monitoring Enhancement**: [MONITORING_ENHANCEMENT]
-- **Evidence Preservation**: [EVIDENCE_PRESERVATION]
+Identify and scope security incidents. Detection sources: automated detection (SIEM correlation rules fire on attack patterns—brute force, data exfiltration, lateral movement, EDR behavioral detection—malware, ransomware, privilege escalation, IDS/IPS signatures for network-based attacks, DLP for sensitive data movement, threat intelligence IOC matching), manual detection (user reports of suspicious activity, security analyst threat hunting, vendor notifications of compromise, law enforcement alert), third-party notification (customer reports unauthorized access, external researcher responsible disclosure, threat intelligence firm warning). Initial triage: alert validation (is this true positive or false positive?, correlation with other alerts and logs, threat intel lookup on IOCs, user context—is behavior anomalous for this user?), severity assessment (what systems affected?, what data at risk?, business impact—revenue, operations, reputation, compliance implications—breach notification required?), evidence collection (preserve volatile data first—memory, running processes, collect logs before retention expiration, screenshot everything, maintain chain of custody).
 
-### Eradication and Recovery
-- **Threat Elimination**: [THREAT_ELIMINATION]
-- **System Hardening**: [SYSTEM_HARDENING]
-- **Patch Management**: [PATCH_MANAGEMENT]
-- **Configuration Changes**: [CONFIGURATION_CHANGES]
-- **Recovery Planning**: [RECOVERY_PLANNING]
-- **Data Restoration**: [DATA_RESTORATION]
-- **Service Restoration**: [SERVICE_RESTORATION]
-- **Monitoring Restoration**: [MONITORING_RESTORATION]
-- **Validation Testing**: [VALIDATION_TESTING]
-- **Return to Operations**: [RETURN_TO_OPERATIONS]
+Forensic investigation: forensic principles (order of volatility—memory first then disk, avoid modifying evidence, hash everything for integrity, maintain detailed notes with timestamps, use forensically sound tools—write-blockers for disk access), memory forensics (capture memory with FTK Imager or DumpIt, analyze with Volatility for malware artifacts, running processes, network connections, extract passwords, encryption keys, malware from memory), disk forensics (create forensic image with write-blocker, mount read-only for analysis, file timeline analysis—when were files created/modified/accessed, file carving for deleted files, registry analysis for persistence mechanisms, browser history and artifacts), network forensics (full packet capture if available—PCAP analysis, NetFlow/sFlow for traffic analysis, DNS logs for C2 communication, proxy logs for data exfiltration, timeline correlation across network and endpoint), malware analysis (static analysis—strings, PE headers, packing detection, dynamic analysis in sandbox—Cuckoo, ANY.RUN, behavioral analysis—network, file, registry activity, YARA rules for detection, reverse engineering if needed).
 
-### Communication and Reporting
-- **Internal Communications**: [INTERNAL_COMMUNICATIONS]
-- **External Communications**: [EXTERNAL_COMMUNICATIONS]
-- **Regulatory Reporting**: [REGULATORY_REPORTING]
-- **Customer Notifications**: [CUSTOMER_NOTIFICATIONS]
-- **Media Relations**: [MEDIA_RELATIONS]
-- **Legal Notifications**: [LEGAL_NOTIFICATIONS]
-- **Stakeholder Updates**: [STAKEHOLDER_UPDATES]
-- **Status Reports**: [STATUS_REPORTS]
-- **Final Report**: [FINAL_REPORT]
-- **Documentation**: [INCIDENT_DOCUMENTATION]
+Attack timeline and scope: timeline reconstruction (establish initial access time—when did attacker first compromise?, document lateral movement—what systems were accessed and when?, identify data exfiltration—what was stolen and when?, create visual timeline for executive communication), scope assessment (how many systems compromised?, identify patient zero—first infected system, map attacker movement through environment, assess data access—what sensitive data could attacker have accessed?, cloud scope—any cloud resources affected?), attribution analysis (identify adversary TTPs—map to MITRE ATT&CK, infrastructure analysis—C2 domains and IPs, malware analysis for attribution indicators, compare to known threat actor TTPs, confidence level—low/medium/high), root cause analysis (how did attacker gain initial access?—phishing, vulnerability exploitation, stolen credentials, what allowed lateral movement?—flat network, weak passwords, privileged accounts, what enabled data access?—overly permissive access controls, unencrypted data).
 
-Please provide detailed response procedures, communication templates, forensic workflows, and recovery plans.
+**CONTAINMENT STRATEGY**
+
+Limit incident impact while preserving evidence. Short-term containment: immediate actions to prevent spread (isolate affected systems via EDR network containment, block malicious IPs/domains at firewall and DNS, disable compromised user accounts, revoke access tokens and API keys, increase monitoring on critical systems, snapshot systems before changes for forensics), containment decisions (balance business continuity vs security—can we keep production running while containing?, preserve evidence—don't destroy logs or artifacts, communication—notify stakeholders of service disruptions, legal considerations—consult legal before taking systems offline that may have evidence). Long-term containment: sustained measures while preparing recovery (rebuild compromised systems from known-good images, reset all credentials—passwords, API keys, certificates, secrets, patch vulnerabilities exploited in attack, implement additional monitoring for re-infection, network segmentation to prevent future lateral movement, enhanced logging on critical systems).
+
+Containment by incident type: ransomware containment (immediate isolation of infected systems—pull network cables if needed to stop spread, identify and protect clean backups—ensure no access from compromised accounts, block C2 communication at firewall/DNS, disable user access to prevent re-infection via phishing, assess decryption vs restore from backup—consult with IR firm and legal, do not pay ransom without legal and executive approval), data breach containment (identify data exfiltration path and block, revoke access for compromised accounts/credentials, implement enhanced monitoring on sensitive data stores, preserve evidence of unauthorized access—don't purge logs, notify legal for regulatory breach notification assessment, customer communication planning), DDoS containment (activate DDoS mitigation—CDN, scrubbing service, rate limiting at application and infrastructure layers, geo-blocking if attack from specific regions, communication to customers via status page—avoid email which may also be impacted).
+
+Evidence preservation during containment: forensic best practices (document state before changes—screenshots, photos, video, preserve memory before system shutdown if possible, maintain chain of custody for all evidence, hash all collected evidence for integrity verification, store evidence securely—encrypted, access-controlled, maintain forensic notes—who did what when and why), legal hold (implement litigation hold if lawsuit anticipated, preserve all relevant evidence—don't auto-delete logs, notify all custodians of hold requirements, coordinate with legal on scope and duration).
+
+**ERADICATION AND RECOVERY**
+
+Remove threats and restore operations. Eradication: threat removal (malware removal—AV scan after isolation, manual removal for persistent threats, remove persistence mechanisms—scheduled tasks, registry keys, WMI subscriptions, services, patch vulnerabilities exploited by attacker, close security gaps that enabled attack, reset credentials for all potentially compromised accounts—not just known compromised), validation (verify threat completely removed—EDR and SIEM monitoring for 72 hours post-eradication, re-scan systems for IOCs, monitor for re-infection signs, independent validation by forensics team).
+
+Recovery planning: prioritize recovery order (1: authentication systems—AD, SSO without these nothing else works, 2: communication—email, collaboration tools, 3: revenue-critical systems—e-commerce, payment processing, 4: business operations—CRM, ERP, 5: user workstations—as needed), recovery timeline (estimate RTO for each system tier, coordinate with business on acceptable downtime, communicate timeline to stakeholders, parallel recovery where possible to reduce total time), recovery from clean backups (verify backups unaffected by incident—restore point before initial compromise, test restore in isolated environment first, validate data integrity after restore, incremental restore approach—core systems first, monitor for issues during restoration).
+
+System restoration: rebuild vs restore (rebuild from gold image—stronger assurance of clean state, longer timeline, restore from backup—faster but risk of restoring compromised state, decision factors—confidence in backup integrity, business urgency, compliance requirements), hardening before restoration (apply all security patches before bringing online, change default passwords and keys, disable unnecessary services and ports, implement compensating controls for residual risks, enhanced monitoring for restored systems), service validation (functionality testing before production, performance testing under load, security testing—vulnerability scan, pentesting if time allows, user acceptance testing, phased rollout to limit impact if issues).
+
+Return to normal operations: declare incident closed (all affected systems recovered, threat eradicated and validated, monitoring shows no re-infection, normal business operations resumed), enhanced monitoring post-incident (continue elevated monitoring for 30 days, watch for IOCs associated with incident, monitor for attacker return—persistence mechanisms missed, threat hunting based on incident TTPs), process improvement (update detection rules based on incident, patch additional systems proactively, implement security controls to prevent recurrence).
+
+**POST-INCIDENT ACTIVITIES**
+
+Learn and improve from incidents. Post-incident review: timeline (conduct review within 72 hours while details fresh, separate from recovery activities, all stakeholders present, blameless culture—focus on process not individuals), review structure (what happened—incident timeline and scope, what worked well—successful detections and responses, what could improve—gaps and failures, action items—specific improvements with owners and due dates), documentation (incident report—executive summary, technical details, timeline, impact assessment, lessons learned, share findings with broader team, maintain incident archive for future reference).
+
+Metrics and reporting: incident metrics (MTTD—mean time to detect, target <1 hour for critical, MTTR—mean time to respond and recover, target <4 hours for critical, incident count and trend over time, incident by type and severity, false positive rate—target <20%, automation effectiveness—% of tier-1 tasks automated), executive reporting (monthly incident summary to executive team, quarterly metrics review with board, annual program assessment, major incident post-mortem to leadership), regulatory reporting (GDPR breach notification to supervisory authority within 72 hours, HIPAA breach notification to HHS—annual or immediate if >500 records, PCI-DSS incident reporting to acquiring bank and card brands, SEC 8-K if material impact to publicly traded company).
+
+Continuous improvement: detective control tuning (update SIEM correlation rules based on incident TTPs, create new detection for attacker techniques, reduce false positives from lessons learned, integrate incident IOCs into threat intelligence), preventive control enhancement (patch additional systems proactively, implement security controls to prevent similar attacks, update security policies and standards, enhance security training based on gaps—phishing if successful social engineering), procedure updates (update IR playbooks with lessons learned, revise escalation procedures if gaps, improve communication templates, update contact lists and on-call rotation), tabletop exercises (quarterly IR tabletop exercises, scenarios based on actual incidents and threat landscape, test updates to procedures, measure improvement in response time and coordination).
+
+Deliver incident response program as:
+
+1. **IR PLAN** - Comprehensive plan aligned to NIST 800-61, team structure, escalation procedures, regulatory requirements
+
+2. **INCIDENT PLAYBOOKS** - Playbooks per incident type (ransomware, data breach, phishing, DDoS, insider threat, malware) with step-by-step procedures
+
+3. **RUNBOOKS** - Technical runbooks for containment, evidence collection, forensics, recovery
+
+4. **COMMUNICATION TEMPLATES** - Templates for internal, external, regulatory, customer, media communications
+
+5. **FORENSIC PROCEDURES** - Evidence handling, chain of custody, forensic analysis workflows
+
+6. **TRAINING MATERIALS** - IR team training, tabletop exercise scenarios, user awareness
+
+7. **METRICS FRAMEWORK** - KPI definitions, dashboard, reporting templates
+
+---
 
 ## Usage Examples
 
-### Ransomware Incident Response
-```
-Execute incident response for CryptoLocker ransomware affecting 500+ workstations with critical severity level using NIST framework.
+### Example 1: SaaS Company Ransomware Response
+**Prompt:** Execute ransomware incident response for CloudApp (500K customers, AWS infrastructure, REvil ransomware, $2M ransom demand) achieving 24-hour recovery.
 
-Incident Overview:
-- Ransomware attack incident type with critical severity level
-- Affect Windows workstations, file servers affected systems
-- Discover via EDR alerts discovery method at 2AM discovery time
-- Impact payroll, customer service business functions
-- Estimate $500K operational impact estimated loss
+**Expected Output:** Detection: CrowdStrike EDR alerted on ransomware behavior 3:47 AM (file encryption, volume shadow copy deletion, ransom note creation), SIEM correlated across 12 infected servers, MTTD 18 minutes from initial encryption to SOC escalation. Classification: P1 Critical—active ransomware, production database servers affected, customer service impacted immediately. Team activation: Incident commander (CISO) paged 4:05 AM, war room established on Zoom + dedicated Slack channel #inc-ransomware-2025-01, team assembled—5 security analysts, 3 cloud ops, 2 DBAs, legal counsel, CEO notified. Containment (4:05-5:30 AM): Isolated 12 infected servers via AWS security groups (network isolation), identified clean backups from 2 hours prior—before initial infection, blocked REvil C2 domains at Route53 DNS, disabled compromised service account, snapshot infected instances for forensics before termination. Analysis (parallel to containment): Forensics collected memory dumps and disk images, malware analysis identified REvil variant targeting AWS, initial access via phishing 3 days prior—developer clicked malicious link, installed info-stealer, credentials exfiltrated, attacker used stolen AWS access key for lateral movement. Ransom demand: $2M Bitcoin, 48-hour deadline, decision matrix—restore from backup vs pay, legal counsel advises against payment (illegal in some jurisdictions, no guarantee of decryption, funds terrorism), insurance contacted but doesn't cover ransom, executive decision: restore from backups. Recovery (5:30 AM - 2:00 PM): Eradication—terminated infected instances, rotated all AWS credentials and keys, patched vulnerability used for lateral movement, rebuilt 12 database servers from AMIs, restored data from RDS automated backups (2 hours data loss acceptable to business), parallel recovery of application servers, phased restoration—internal testing → beta customers → full production. Validation: Security scan shows no remaining IOCs, monitoring for 48 hours shows no re-infection, functionality testing confirms all services operational, data integrity validation sampling 10K transactions. Communication: Internal—all-hands email explaining incident and 2-hour data loss, customer notification—email to all 500K customers within 8 hours (transparency builds trust), regulatory—GDPR notification not required (no data breach, just encryption), media—proactive PR statement emphasizing rapid recovery and no data loss. Post-incident: Total downtime 10 hours 15 minutes (better than 24-hour RTO), total data loss 2 hours (better than 4-hour RPO), cost $180K (staff overtime + AWS compute for recovery + forensics), ransom NOT paid saving $2M, post-mortem identified 3 major gaps—MFA not enforced on AWS console (fixed within 24 hours), insufficient phishing training (quarterly training implemented), backup testing not regular (monthly restore drills instituted). Lessons learned: Detection worked (18 min MTTD excellent), backups saved incident (could have been $2M+ ransom + unknown recovery time), communication was effective (customer feedback positive on transparency), improvements—MFA everywhere, better training, regular backup testing. Outcome: Avoided ransom payment, limited customer impact, strengthened security posture, used incident for security awareness training showing real impact.
 
-Detection and Analysis:
-- Correlate EDR, SIEM, network monitoring detection sources
-- Collect memory dumps, disk images, network logs evidence collection
-- Analyze malware samples, encryption methods forensic analysis
-- Identify C2 domains, file extensions IOC identification
-- Map attack progression over 48hrs attack timeline
+### Example 2: Healthcare Data Breach (HIPAA)
+**Prompt:** Execute data breach response for HealthSystem (8 hospitals, Epic EHR, unauthorized PHI access, 50K patient records, HIPAA breach notification) achieving 60-day notification.
 
-### Containment Strategy
-- Isolate infected systems system isolation within 30 minutes
-- Segment network to prevent spread network segmentation
-- Disable file sharing, remote access access restrictions
-- Maintain critical services with backup systems business continuity
-- Deploy additional monitoring on network boundaries monitoring enhancement
+**Expected Output:** Detection: Epic audit log review flagged unusual pattern—terminated employee's credentials accessed 47 patient records over 3 days, SIEM rule detected access from unusual geolocation (employee in California, access from Florida). Classification: P2 High—confirmed unauthorized PHI access, not ransomware or active attack, but regulatory implications significant, HIPAA breach assessment required. Team: Privacy Officer leads (HIPAA role), Security Manager (forensics), Legal Counsel (breach determination and notification), Epic team (audit log analysis), Communications (patient notification). Investigation: Complete Epic audit log analysis—account accessed 2,847 patients over 2 weeks (much larger than initial 47), geolocation analysis shows access from 3 Florida IPs (employee moved but kept credentials), data accessed: names, DOB, diagnoses, medications, treatment notes (full PHI), no evidence of data exfiltration—viewing only not downloading (but cannot rule out screenshots), timeline: employee terminated Jan 1, unauthorized access Jan 5-19 (2 weeks before detection), access method: VPN credentials not revoked at termination (process gap). Breach determination: Legal counsel assessment using HIPAA "low probability" standard—unauthorized access to 2,847 patient PHI records, risk to individuals medium (terminated employee, unclear motive, no evidence of identity theft), exceeds 500 individual threshold → breach notification REQUIRED (not just incident). Containment: Revoke VPN credentials immediately (should have been done at termination), force password reset for all Epic accounts as precaution, enhanced monitoring on Epic access logs (real-time alerting for anomalies), review termination process—103 other terminated employees still had active credentials (systemic issue). Regulatory notification: HHS OCR notification submitted within 60 days via web portal (required for >500 individuals), state Attorney General notification per state law, annual breach report to HHS if had been <500 individuals. Individual notification: 2,847 patients notified by first-class mail within 60 days (HIPAA requirement), notification includes: what happened, what PHI was involved, what we're doing to prevent recurrence, resources for patients—1 year free credit monitoring and identity theft protection ($85K cost), dedicated call center for patient questions. Media notification: Not required (only if >500 individuals in same state/jurisdiction, this was multi-state so under threshold per jurisdiction). Remediation: Process improvements—automated VPN/system access revocation integrated with HR termination workflow (implemented within 30 days), Epic access certification monthly for high-privilege accounts, quarterly access reviews for all users, employee training on access logging and monitoring. Post-incident: Total cost $425K (notification mailings $127K, credit monitoring $85K, legal counsel $95K, enhanced audit logging $68K, process improvements $50K), OCR audit risk—breach increases scrutiny, but solid response and remediation reduces risk, reputation impact—minimal due to transparent communication and comprehensive patient protection (credit monitoring), process improvements prevent future similar incidents, lessons learned—termination process critically important, automated provisioning/deprovisioning needed, access monitoring detected incident (but should have prevented it).
 
-### Communication and Reporting
-- Brief executive team, board internal communications
-- Notify cyber insurance, legal counsel external communications
-- File FBI IC3, state AG regulatory reporting
-- Send customer data breach notifications customer notifications
-- Prepare holding statements for media inquiries media relations
-```
+### Example 3: Financial Services DDoS Attack
+**Prompt:** Execute DDoS incident response for TradingBank (online banking, 2M customers, 450 Gbps volumetric attack, revenue $50K/hour) achieving <1 hour mitigation.
 
-## Variables
+**Expected Output:** Detection: Network monitoring alerted on traffic spike 10:15 AM, 450 Gbps inbound (normal baseline 5 Gbps), firewall CPU at 100%, online banking intermittently unavailable, customer complaints flooding support, MTTD <5 minutes. Classification: P1 Critical—customer-facing service down, active attack, revenue impact $50K/hour. Team: Network operations lead (incident commander for DDoS), security team (analyze attack and coordinate mitigation), communications (customer status page updates), executive team notified (CEO, CFO aware). Attack analysis: Volumetric DDoS—UDP amplification attack using NTP/DNS reflection, source IPs distributed globally (botnet), targeting online banking domain and mobile app API, no application-layer component (pure network flood). Immediate containment (10:15-10:35 AM): Activated Cloudflare DDoS protection (already in place but not traffic routed through it normally for cost reasons), BGP routing changes to direct all traffic through Cloudflare scrubbing centers, Cloudflare absorbed 98% of attack traffic, online banking restored 10:35 AM (20 minutes downtime). Sustained mitigation: Cloudflare continued scrubbing for 6 hours until attack subsided, rate limiting on API endpoints to protect backend even if attack shifts, geo-blocking for countries with no customers (reduced attack surface). Attack attribution: No ransom demand (not financially motivated DDoS), no activist group claimed responsibility, timing suggests competitor or disgruntled customer, IP reputation analysis shows known DDoS botnet, law enforcement notified (FBI IC3 report filed). Communication: Customer notification—status page updated every 15 minutes during incident, apologetic email after restoration offering waived fees for affected customers ($12K goodwill gesture), social media monitoring for customer sentiment, media statement—brief acknowledgment, no details on attack vector (avoid giving attackers feedback). Financial impact: Revenue loss $17K (20 minutes × $50K/hour), Cloudflare DDoS mitigation cost $8K (emergency activation premium), customer goodwill gestures $12K, total cost $37K (vs potential $300K+ if 6-hour outage), reputational impact minimal due to rapid mitigation and transparent communication. Post-incident improvements: Architecture changes—route all traffic through Cloudflare always not just during attacks (eliminates BGP change delay), cost analysis shows $15K/month always-on DDoS protection vs $37K one-time incident (ROI positive), Web Application Firewall (WAF) rules enhanced for application-layer DDoS resilience, Incident playbook updated—DDoS response now automated (BGP changes scripted, can execute in 2 minutes vs 20). Compliance: No regulatory notification required (no data breach, service disruption only), documented incident for SOC 2 audit (demonstrated incident response capability), lessons learned—preparedness paid off (pre-existing Cloudflare relationship enabled rapid response), architecture improvement prevents future impact, cost of prevention far less than cost of incidents.
 
-### Incident Identification
+---
 
-| Variable | Description | Example |
-|----------|-------------|----------|
-| `[INCIDENT_ID]` | Unique identifier for tracking | "INC-2025-0142", "SEC-20250122-001" |
-| `[INCIDENT_TYPE]` | Category of security incident | "Ransomware", "Data Breach", "Phishing", "DDoS", "Insider Threat", "Malware" |
-| `[SEVERITY_LEVEL]` | Impact severity classification | "Critical (P1)", "High (P2)", "Medium (P3)", "Low (P4)" |
-| `[AFFECTED_SYSTEMS]` | Systems impacted by the incident | "500 Windows workstations, 3 file servers", "Customer database, payment system" |
-| `[DISCOVERY_METHOD]` | How the incident was detected | "EDR alert", "SIEM correlation", "User report", "External notification" |
-| `[DISCOVERY_TIME]` | When incident was first detected | "2025-01-22 02:15 UTC", "Monday 2AM during overnight monitoring" |
-| `[REPORTING_TIME]` | When incident was formally reported | "15 minutes after discovery", "2025-01-22 02:30 UTC" |
-| `[INITIAL_REPORTER]` | Person/system that reported | "SOC Analyst John Smith", "CrowdStrike automated alert", "Help desk ticket #4521" |
-| `[BUSINESS_IMPACT]` | Business functions affected | "Customer service down, payroll processing delayed, e-commerce unavailable" |
-| `[ESTIMATED_LOSS]` | Projected financial impact | "$500K operational loss", "$2M potential regulatory fines", "$50K/hour downtime" |
+## Cross-References
 
-### Response Team
-
-| Variable | Description | Example |
-|----------|-------------|----------|
-| `[INCIDENT_COMMANDER]` | Lead person directing response | "CISO Jane Doe", "Security Operations Manager", "On-call incident commander" |
-| `[SECURITY_TEAM]` | Security personnel assigned | "3 SOC analysts, 2 threat hunters, 1 forensics specialist" |
-| `[IT_OPERATIONS]` | IT ops support team | "Network admin, 2 system administrators, DBA on standby" |
-| `[LEGAL_TEAM]` | Legal counsel involvement | "General Counsel + outside cybersecurity counsel (firm on retainer)" |
-| `[COMMUNICATIONS_TEAM]` | PR/comms personnel | "VP Communications, Social media manager, Customer success lead" |
-| `[EXTERNAL_RESOURCES]` | Third-party support | "CrowdStrike IR services, Kroll forensics, FBI cyber liaison" |
-| `[ESCALATION_PATH]` | Chain of escalation | "Analyst → Team Lead → SOC Manager → CISO → CEO (for critical)" |
-| `[AUTHORITY_LEVELS]` | Decision-making authority | "CISO can approve system shutdown, CEO required for ransom decisions" |
-
-### Detection and Analysis
-
-| Variable | Description | Example |
-|----------|-------------|----------|
-| `[DETECTION_SOURCES]` | Systems that detected activity | "CrowdStrike EDR, Splunk SIEM, Darktrace NDR, firewall logs" |
-| `[ALERT_CORRELATION]` | How alerts were correlated | "MITRE ATT&CK mapping, timeline correlation, IOC enrichment" |
-| `[EVIDENCE_COLLECTION]` | Evidence gathered | "Memory dumps, disk images, network PCAPs, log exports, screenshots" |
-| `[FORENSIC_ANALYSIS]` | Forensic investigation approach | "Volatile data first, disk imaging with FTK, malware analysis sandbox" |
-| `[IOC_IDENTIFICATION]` | Indicators of compromise found | "C2 domains, malicious IP addresses, file hashes, registry keys" |
-| `[ATTACK_TIMELINE]` | Chronological attack progression | "Initial access 01/15, lateral movement 01/18, data exfil 01/20-01/22" |
-| `[ROOT_CAUSE_ANALYSIS]` | Underlying cause determination | "Phishing email with weaponized attachment, unpatched VPN vulnerability" |
-
-### Containment Strategy
-
-| Variable | Description | Example |
-|----------|-------------|----------|
-| `[SHORT_TERM_CONTAINMENT]` | Immediate containment actions | "Isolate affected hosts via EDR, block C2 IPs at firewall" |
-| `[LONG_TERM_CONTAINMENT]` | Sustained containment measures | "Segment network, rebuild compromised systems, reset all credentials" |
-| `[SYSTEM_ISOLATION]` | How systems are isolated | "EDR network isolation, VLAN quarantine, physical disconnect for critical" |
-| `[NETWORK_SEGMENTATION]` | Network isolation approach | "Block lateral movement paths, isolate affected VLAN, ACL restrictions" |
-| `[ACCESS_RESTRICTIONS]` | Access control changes | "Disable compromised accounts, force MFA reset, revoke VPN access" |
-| `[EVIDENCE_PRESERVATION]` | Evidence protection measures | "Hash all collected evidence, maintain chain of custody, secure storage" |
-
-### Eradication and Recovery
-
-| Variable | Description | Example |
-|----------|-------------|----------|
-| `[THREAT_ELIMINATION]` | Threat removal approach | "AV scan all systems, remove persistence mechanisms, clean registry" |
-| `[SYSTEM_HARDENING]` | Post-incident hardening | "Patch vulnerabilities, disable unnecessary services, update firewall rules" |
-| `[PATCH_MANAGEMENT]` | Patching activities | "Emergency patch for exploited CVE, update all endpoints within 24 hours" |
-| `[DATA_RESTORATION]` | Data recovery process | "Restore from verified clean backup, validate data integrity" |
-| `[SERVICE_RESTORATION]` | Service recovery order | "1: Auth systems, 2: Email, 3: Core apps, 4: User workstations" |
-| `[VALIDATION_TESTING]` | Post-recovery validation | "Vulnerability scan, penetration test, functionality testing, user acceptance" |
-
-### Communication
-
-| Variable | Description | Example |
-|----------|-------------|----------|
-| `[INTERNAL_COMMUNICATIONS]` | Employee communication plan | "All-hands email, manager briefings, intranet updates every 4 hours" |
-| `[EXTERNAL_COMMUNICATIONS]` | External stakeholder comms | "Customer notification email, vendor alerts, partner briefings" |
-| `[REGULATORY_REPORTING]` | Required regulatory notices | "72-hour GDPR notification, state AG breach notification, SEC 8-K if material" |
-| `[CUSTOMER_NOTIFICATIONS]` | Customer notification approach | "Direct email to affected, status page updates, support hotline" |
-| `[MEDIA_RELATIONS]` | Press/media handling | "Prepared statement only, no interviews during active incident" |
-| `[FINAL_REPORT]` | Post-incident documentation | "Executive summary, technical details, lessons learned, remediation status" |
-
-
-
-## Related Resources
-
-### Complementary Templates
-
-Enhance your workflow by combining this template with:
-
-- **[Cloud Architecture Framework](cloud-architecture-framework.md)** - Complementary approaches and methodologies
-- **[Site Reliability Engineering](site-reliability-engineering.md)** - Complementary approaches and methodologies
-- **[Cloud Migration Strategy](cloud-migration-strategy.md)** - Strategic planning and execution frameworks
-
-### Suggested Workflow
-
-**Typical implementation sequence**:
-
-1. Start with this template (Incident Response Template)
-2. Use [Cloud Architecture Framework](cloud-architecture-framework.md) for deeper analysis
-3. Apply [Site Reliability Engineering](site-reliability-engineering.md) for execution
-4. Iterate and refine based on results
-
-### Explore More in This Category
-
-Browse all **[technology/Cybersecurity](../../technology/Cybersecurity/)** templates for related tools and frameworks.
-
-### Common Use Case Combinations
-
-- **Creating comprehensive incident response planning including detection, analysis, containment, eradication, recovery, and lessons learned for effective cybersecurity incident management.**: Combine this template with related analytics and strategy frameworks
-- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
-- **Strategy development**: Combine this template with related analytics and strategy frameworks
-
-## Best Practices
-
-1. **Prepare and practice response procedures regularly**
-2. **Maintain updated contact lists and escalation paths**
-3. **Document everything during incident response**
-4. **Preserve evidence while containing threats**
-5. **Conduct thorough post-incident reviews**
+- [Security Operations](security-operations.md) - SOC operations and threat detection integration
+- [SIEM & Security Monitoring](../Security-Operations/siem-security-monitoring.md) - Detection and alerting for IR
+- [Threat Intelligence](threat-intelligence.md) - Threat intel integration in IR workflow

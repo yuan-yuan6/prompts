@@ -1,641 +1,288 @@
 ---
 category: content-creation
-last_updated: 2025-11-09
-related_templates:
-- content-creation/creative-writing-framework.md
-- content-creation/video-production-pipeline.md
+title: Interactive Media Readiness Assessment
 tags:
 - interactive-media
 - ar-vr-experiences
 - digital-installations
 - immersive-content
-title: Interactive Media Template
+- xr-development
 use_cases:
-- Creating immersive interactive media experiences including AR/VR applications, interactive
-  installations, and digital experiences that engage users through innovative technology
-  and compelling content.
-- Project planning and execution
-- Strategy development
+- Evaluating interactive media project readiness across AR/VR, installations, and digital experiences
+- Identifying technical and creative gaps before development begins
+- Assessing team capability to deliver immersive experiences
+- Creating production roadmaps for interactive technology projects
+related_templates:
+- content-creation/creative-writing-framework.md
+- content-creation/video-production-pipeline.md
 industries:
+- entertainment
 - education
-- government
 - healthcare
-- manufacturing
+- retail
 - technology
-type: template
+type: framework
 difficulty: intermediate
 slug: interactive-media
 ---
 
-# Interactive Media Template
+# Interactive Media Readiness Assessment
 
 ## Purpose
-Create immersive interactive media experiences including AR/VR applications, interactive installations, and digital experiences that engage users through innovative technology and compelling content.
+Comprehensively assess an interactive media project's readiness for production across six dimensions: Creative Concept & Experience Design, Technical Platform & Infrastructure, Interaction Design & User Experience, Content Production & Assets, Implementation & Performance, and Deployment & Measurement. This framework identifies gaps, validates technical feasibility, and ensures production-ready specifications before development investment.
 
-## Quick Interactive Media Prompt
+## 🚀 Quick Assessment Prompt
 
-Create [interactive type: AR/VR/installation] experience for [project name] using [technology platform: Unity/Unreal/WebXR]. Design [duration] experience for [audience] with core interaction of [user action], emotional journey from [start state] to [end state], hardware requirements of [devices/sensors], accessibility features for [needs], and success metrics of [engagement/completion rates]. Include [narrative elements] and test for [technical constraints].
+> Assess **interactive media readiness** for **[PROJECT_NAME]**, a **[INTERACTIVE_TYPE]** targeting **[TARGET_PLATFORM]**. Evaluate across: (1) **Creative concept**—is the core experience compelling, the emotional journey clear, the unique value defensible? Does it leverage the medium's strengths? (2) **Technical platform**—what hardware/software requirements exist? Is performance achievable? What are integration challenges? (3) **Interaction design**—are input methods intuitive, feedback loops satisfying, accessibility comprehensive? How's the onboarding? (4) **Content production**—what's the asset pipeline maturity (3D models, audio, animations)? Are production estimates realistic? (5) **Implementation readiness**—is the technical architecture sound? What's the team capability gap? How mature is QA strategy? (6) **Deployment & measurement**—what's the distribution plan, success metrics definition, analytics integration, and iteration strategy? Provide a maturity scorecard (1-5 per dimension), critical blockers, prioritized recommendations, and a production timeline with risk mitigation.
 
-## Quick Start
-
-**For a 30-Minute Setup:**
-1. Define interactive type and project name (e.g., AR museum tour, VR training simulation)
-2. Specify technology platform (Unity/Unreal, WebXR, mobile AR, VR headset)
-3. Identify target audience and experience duration (e.g., general public, 10-minute experience)
-4. Outline core concept and emotional journey you want users to experience
-5. List hardware requirements and technical constraints (devices, sensors, connectivity)
-
-**For Quick Results:**
-Start with the Creative Vision section to establish your concept and unique value proposition, then move to Technical Specifications to define platform requirements. This ensures your creative vision aligns with technical feasibility.
-
-**Common Use Cases:**
-- Developing AR applications for retail and marketing experiences
-- Creating VR training simulations and educational content
-- Designing interactive museum installations and exhibitions
-- Building immersive storytelling experiences and games
-- Prototyping next-generation user interfaces and experiences
-
-## Template
-
-```
-You are an interactive media expert. Create [INTERACTIVE_TYPE] for [PROJECT_NAME] using [TECHNOLOGY_PLATFORM] with a focus on [USER_EXPERIENCE_GOAL].
-
-INTERACTIVE MEDIA BRIEF:
-Project Overview:
-- Project name: [PROJECT_NAME]
-- Interactive type: [INTERACTIVE_TYPE] (AR App/VR Experience/Installation/Web Interactive)
-- Technology platform: [TECHNOLOGY_PLATFORM]
-- User experience goal: [USER_EXPERIENCE_GOAL]
-- Target audience: [TARGET_AUDIENCE]
-- Context/Environment: [CONTEXT_ENVIRONMENT]
-- Duration: [EXPERIENCE_DURATION]
-- Team size: [TEAM_SIZE]
-- Budget level: [BUDGET_LEVEL]
-
-### Creative Vision
-- Concept overview: [CONCEPT_OVERVIEW]
-- Core message: [CORE_MESSAGE]
-- Emotional journey: [EMOTIONAL_JOURNEY]
-- Unique value proposition: [UNIQUE_VALUE_PROPOSITION]
-- Artistic style: [ARTISTIC_STYLE]
-- Narrative approach: [NARRATIVE_APPROACH]
-- Innovation elements: [INNOVATION_ELEMENTS]
-- Success metrics: [SUCCESS_METRICS]
-
-### Technical Specifications
-- Primary platform: [PRIMARY_PLATFORM]
-- Hardware requirements: [HARDWARE_REQUIREMENTS]
-- Software framework: [SOFTWARE_FRAMEWORK]
-- Performance targets: [PERFORMANCE_TARGETS]
-- Device compatibility: [DEVICE_COMPATIBILITY]
-- Network requirements: [NETWORK_REQUIREMENTS]
-- Accessibility standards: [ACCESSIBILITY_STANDARDS]
-- Security considerations: [SECURITY_CONSIDERATIONS]
-
-AR/VR EXPERIENCES:
-
-### Virtual Reality Design
-### VR Experience Framework
-### Environment Design
-- Virtual world concept: [VIRTUAL_WORLD_CONCEPT]
-- Environmental scale: [ENVIRONMENTAL_SCALE] (Room/Building/City/Planet/Universe)
-- Visual style: [VR_VISUAL_STYLE]
-- Lighting design: [VR_LIGHTING_DESIGN]
-- Atmospheric elements: [VR_ATMOSPHERIC_ELEMENTS]
-- Interactive objects: [VR_INTERACTIVE_OBJECTS]
-- Navigation system: [VR_NAVIGATION_SYSTEM]
-- Spatial audio design: [VR_SPATIAL_AUDIO]
-
-### User Interaction
-- Input methods: [VR_INPUT_METHODS] (Controllers/Hand tracking/Eye tracking/Voice)
-- Movement mechanics: [VR_MOVEMENT_MECHANICS]
-- Object manipulation: [VR_OBJECT_MANIPULATION]
-- Menu systems: [VR_MENU_SYSTEMS]
-- Gesture controls: [VR_GESTURE_CONTROLS]
-- Haptic feedback: [VR_HAPTIC_FEEDBACK]
-- Comfort settings: [VR_COMFORT_SETTINGS]
-- Accessibility options: [VR_ACCESSIBILITY_OPTIONS]
-
-### Narrative Structure
-### VR Storytelling
-- Story delivery method: [VR_STORY_DELIVERY]
-- Character interactions: [VR_CHARACTER_INTERACTIONS]
-- Branching narratives: [VR_BRANCHING_NARRATIVES]
-- Player agency: [VR_PLAYER_AGENCY]
-- Emotional beats: [VR_EMOTIONAL_BEATS]
-- Pacing control: [VR_PACING_CONTROL]
-- Environmental storytelling: [VR_ENVIRONMENTAL_STORYTELLING]
-- Immersive elements: [VR_IMMERSIVE_ELEMENTS]
-
-### Augmented Reality Design
-### AR Application Framework
-Real-World Integration:
-- AR anchor system: [AR_ANCHOR_SYSTEM]
-- Tracking methods: [AR_TRACKING_METHODS]
-- Occlusion handling: [AR_OCCLUSION_HANDLING]
-- Lighting estimation: [AR_LIGHTING_ESTIMATION]
-- Shadow integration: [AR_SHADOW_INTEGRATION]
-- Physics simulation: [AR_PHYSICS_SIMULATION]
-- Real-world collision: [AR_COLLISION_DETECTION]
-- Environmental understanding: [AR_ENVIRONMENTAL_UNDERSTANDING]
-
-### Digital Content Overlay
-- 3D model placement: [AR_3D_MODEL_PLACEMENT]
-- UI overlay design: [AR_UI_OVERLAY]
-- Information display: [AR_INFORMATION_DISPLAY]
-- Animation systems: [AR_ANIMATION_SYSTEMS]
-- Interactive elements: [AR_INTERACTIVE_ELEMENTS]
-- Multi-user support: [AR_MULTIUSER_SUPPORT]
-- Content persistence: [AR_CONTENT_PERSISTENCE]
-- Performance optimization: [AR_PERFORMANCE_OPTIMIZATION]
-
-### User Interface Design
-### AR Interface Elements
-- Spatial UI design: [AR_SPATIAL_UI]
-- Gesture recognition: [AR_GESTURE_RECOGNITION]
-- Voice commands: [AR_VOICE_COMMANDS]
-- Touch interactions: [AR_TOUCH_INTERACTIONS]
-- Eye tracking integration: [AR_EYE_TRACKING]
-- Hand tracking: [AR_HAND_TRACKING]
-- Object selection: [AR_OBJECT_SELECTION]
-- Feedback systems: [AR_FEEDBACK_SYSTEMS]
-
-### INTERACTIVE INSTALLATIONS
-
-### Physical Installation Design
-### Installation Framework
-### Space Design
-- Physical footprint: [INSTALLATION_FOOTPRINT]
-- Visitor capacity: [VISITOR_CAPACITY]
-- Traffic flow: [INSTALLATION_TRAFFIC_FLOW]
-- Safety considerations: [INSTALLATION_SAFETY]
-- Accessibility features: [INSTALLATION_ACCESSIBILITY]
-- Environmental factors: [INSTALLATION_ENVIRONMENTAL]
-- Lighting requirements: [INSTALLATION_LIGHTING]
-- Power requirements: [INSTALLATION_POWER]
-
-### Sensor Integration
-- Motion sensors: [MOTION_SENSORS]
-- Proximity detection: [PROXIMITY_DETECTION]
-- Computer vision: [COMPUTER_VISION]
-- Audio input: [AUDIO_INPUT_SENSORS]
-- Touch sensors: [TOUCH_SENSORS]
-- Biometric sensors: [BIOMETRIC_SENSORS]
-- Environmental sensors: [ENVIRONMENTAL_SENSORS]
-- Custom sensors: [CUSTOM_SENSORS]
-
-### Interactive Elements
-### User Participation
-- Individual interactions: [INDIVIDUAL_INTERACTIONS]
-- Group interactions: [GROUP_INTERACTIONS]
-- Collaborative elements: [COLLABORATIVE_ELEMENTS]
-- Competitive elements: [COMPETITIVE_ELEMENTS]
-- Learning objectives: [LEARNING_OBJECTIVES]
-- Discovery mechanisms: [DISCOVERY_MECHANISMS]
-- Personalization features: [PERSONALIZATION_FEATURES]
-- Memory/persistence: [MEMORY_PERSISTENCE]
-
-### Response Systems
-- Visual responses: [VISUAL_RESPONSES]
-- Audio responses: [AUDIO_RESPONSES]
-- Kinetic responses: [KINETIC_RESPONSES]
-- Haptic responses: [HAPTIC_RESPONSES]
-- Environmental changes: [ENVIRONMENTAL_CHANGES]
-- Projection mapping: [PROJECTION_MAPPING]
-- LED integration: [LED_INTEGRATION]
-- Mechanical elements: [MECHANICAL_ELEMENTS]
-
-### Technology Integration
-### Hardware Components
-- Computing hardware: [COMPUTING_HARDWARE]
-- Display systems: [DISPLAY_SYSTEMS]
-- Audio systems: [AUDIO_SYSTEMS]
-- Projection equipment: [PROJECTION_EQUIPMENT]
-- Sensor arrays: [SENSOR_ARRAYS]
-- Networking equipment: [NETWORKING_EQUIPMENT]
-- Power distribution: [POWER_DISTRIBUTION]
-- Backup systems: [BACKUP_SYSTEMS]
-
-### Software Architecture
-- Real-time processing: [REALTIME_PROCESSING]
-- Multi-user handling: [MULTIUSER_HANDLING]
-- Data collection: [DATA_COLLECTION]
-- Analytics integration: [ANALYTICS_INTEGRATION]
-- Content management: [CONTENT_MANAGEMENT]
-- Remote monitoring: [REMOTE_MONITORING]
-- Update mechanisms: [UPDATE_MECHANISMS]
-- Error handling: [ERROR_HANDLING]
-
-### DIGITAL EXPERIENCES
-
-Web-Based Interactivity:
-### Interactive Web Design
-### User Interface Design
-- Navigation structure: [WEB_NAVIGATION_STRUCTURE]
-- Responsive design: [WEB_RESPONSIVE_DESIGN]
-- Accessibility compliance: [WEB_ACCESSIBILITY_COMPLIANCE]
-- Performance optimization: [WEB_PERFORMANCE_OPTIMIZATION]
-- Cross-browser compatibility: [WEB_CROSS_BROWSER]
-- Mobile optimization: [WEB_MOBILE_OPTIMIZATION]
-- Loading strategies: [WEB_LOADING_STRATEGIES]
-- SEO considerations: [WEB_SEO_CONSIDERATIONS]
-
-### Interactive Features
-- Scroll-triggered animations: [SCROLL_ANIMATIONS]
-- Mouse/touch interactions: [MOUSE_TOUCH_INTERACTIONS]
-- Drag and drop: [DRAG_DROP_FUNCTIONALITY]
-- Real-time updates: [REALTIME_UPDATES]
-- User-generated content: [USER_GENERATED_CONTENT]
-- Social sharing: [SOCIAL_SHARING]
-- Gamification elements: [GAMIFICATION_ELEMENTS]
-- Personalization: [WEB_PERSONALIZATION]
-
-### Data Visualization
-### Interactive Data
-- Chart types: [CHART_TYPES]
-- Animation transitions: [DATA_ANIMATION_TRANSITIONS]
-- Filtering mechanisms: [DATA_FILTERING]
-- Drill-down capabilities: [DATA_DRILLDOWN]
-- Real-time data: [REALTIME_DATA]
-- User customization: [DATA_USER_CUSTOMIZATION]
-- Export features: [DATA_EXPORT_FEATURES]
-- Collaboration tools: [DATA_COLLABORATION]
-
-### Storytelling Integration
-- Narrative data presentation: [NARRATIVE_DATA]
-- Progressive disclosure: [PROGRESSIVE_DISCLOSURE]
-- Interactive timelines: [INTERACTIVE_TIMELINES]
-- Comparative visualizations: [COMPARATIVE_VISUALIZATIONS]
-- Contextual information: [CONTEXTUAL_INFORMATION]
-- User journey mapping: [USER_JOURNEY_MAPPING]
-- Insight highlighting: [INSIGHT_HIGHLIGHTING]
-- Action triggers: [ACTION_TRIGGERS]
-
-### Mobile Applications
-### Interactive Mobile Design
-### Touch Interface Design
-- Gesture library: [GESTURE_LIBRARY]
-- Touch targets: [TOUCH_TARGETS]
-- Swipe interactions: [SWIPE_INTERACTIONS]
-- Multi-touch support: [MULTITOUCH_SUPPORT]
-- Force touch integration: [FORCE_TOUCH]
-- Haptic feedback: [MOBILE_HAPTIC_FEEDBACK]
-- Accessibility gestures: [ACCESSIBILITY_GESTURES]
-- Ergonomic considerations: [MOBILE_ERGONOMICS]
-
-### Platform Integration
-- Camera integration: [CAMERA_INTEGRATION]
-- GPS functionality: [GPS_FUNCTIONALITY]
-- Accelerometer usage: [ACCELEROMETER_USAGE]
-- Gyroscope integration: [GYROSCOPE_INTEGRATION]
-- Push notifications: [PUSH_NOTIFICATIONS]
-- Social media integration: [SOCIAL_MEDIA_INTEGRATION]
-- Cloud synchronization: [CLOUD_SYNCHRONIZATION]
-- Offline functionality: [OFFLINE_FUNCTIONALITY]
-
-### USER EXPERIENCE DESIGN
-
-### UX Framework
-### User Journey Mapping
-### Entry Point
-- Discovery method: [DISCOVERY_METHOD]
-- Initial impression: [INITIAL_IMPRESSION]
-- Onboarding process: [ONBOARDING_PROCESS]
-- Learning curve: [LEARNING_CURVE]
-- First interaction: [FIRST_INTERACTION]
-- Engagement hooks: [ENGAGEMENT_HOOKS]
-- Barrier removal: [BARRIER_REMOVAL]
-- Motivation establishment: [MOTIVATION_ESTABLISHMENT]
-
-### Core Experience
-- Primary activities: [PRIMARY_ACTIVITIES]
-- Progression mechanics: [PROGRESSION_MECHANICS]
-- Feedback loops: [FEEDBACK_LOOPS]
-- Challenge scaling: [CHALLENGE_SCALING]
-- Achievement systems: [ACHIEVEMENT_SYSTEMS]
-- Social features: [SOCIAL_FEATURES]
-- Customization options: [CUSTOMIZATION_OPTIONS]
-- Content variety: [CONTENT_VARIETY]
-
-Exit/Completion:
-- Completion indicators: [COMPLETION_INDICATORS]
-- Reflection moments: [REFLECTION_MOMENTS]
-- Sharing mechanisms: [SHARING_MECHANISMS]
-- Return incentives: [RETURN_INCENTIVES]
-- Data preservation: [DATA_PRESERVATION]
-- Follow-up actions: [FOLLOWUP_ACTIONS]
-- Lasting impact: [LASTING_IMPACT]
-- Community building: [COMMUNITY_BUILDING]
-
-### Interaction Design
-### Interface Elements
-- Input methods: [INPUT_METHODS]
-- Feedback mechanisms: [FEEDBACK_MECHANISMS]
-- Visual hierarchy: [VISUAL_HIERARCHY]
-- Information architecture: [INFORMATION_ARCHITECTURE]
-- Error prevention: [ERROR_PREVENTION]
-- Help systems: [HELP_SYSTEMS]
-- Tutorial integration: [TUTORIAL_INTEGRATION]
-- Accessibility features: [ACCESSIBILITY_FEATURES]
-
-### Behavioral Psychology
-- Motivation triggers: [MOTIVATION_TRIGGERS]
-- Flow state design: [FLOW_STATE_DESIGN]
-- Cognitive load management: [COGNITIVE_LOAD]
-- Attention management: [ATTENTION_MANAGEMENT]
-- Emotional engagement: [EMOTIONAL_ENGAGEMENT]
-- Habit formation: [HABIT_FORMATION]
-- Social proof integration: [SOCIAL_PROOF]
-- Gamification psychology: [GAMIFICATION_PSYCHOLOGY]
-
-### CONTENT CREATION
-
-### Interactive Content
-### Media Assets
-### Visual Content
-- 3D models: [3D_MODELS]
-- Textures/materials: [TEXTURES_MATERIALS]
-- Animations: [INTERACTIVE_ANIMATIONS]
-- Video content: [INTERACTIVE_VIDEO_CONTENT]
-- Image galleries: [INTERACTIVE_IMAGE_GALLERIES]
-- Graphic elements: [INTERACTIVE_GRAPHIC_ELEMENTS]
-- UI components: [UI_COMPONENTS]
-- Icon libraries: [ICON_LIBRARIES]
-
-### Audio Content
-- Sound effects: [INTERACTIVE_SOUND_EFFECTS]
-- Background music: [INTERACTIVE_BACKGROUND_MUSIC]
-- Voice narration: [INTERACTIVE_VOICE_NARRATION]
-- Spatial audio: [INTERACTIVE_SPATIAL_AUDIO]
-- Interactive soundscapes: [INTERACTIVE_SOUNDSCAPES]
-- Musical interactions: [MUSICAL_INTERACTIONS]
-- Audio feedback: [INTERACTIVE_AUDIO_FEEDBACK]
-- Procedural audio: [PROCEDURAL_AUDIO]
-
-### Dynamic Content
-### Procedural Generation
-- Content algorithms: [CONTENT_ALGORITHMS]
-- Randomization systems: [RANDOMIZATION_SYSTEMS]
-- Rule-based generation: [RULE_BASED_GENERATION]
-- User-influenced generation: [USER_INFLUENCED_GENERATION]
-- Adaptive content: [ADAPTIVE_CONTENT]
-- Real-time updates: [REALTIME_CONTENT_UPDATES]
-- Seasonal variations: [SEASONAL_VARIATIONS]
-- Community-driven content: [COMMUNITY_DRIVEN_CONTENT]
-
-### Personalization
-- User preference tracking: [USER_PREFERENCE_TRACKING]
-- Behavior analysis: [BEHAVIOR_ANALYSIS]
-- Content recommendations: [CONTENT_RECOMMENDATIONS]
-- Adaptive interfaces: [ADAPTIVE_INTERFACES]
-- Learning algorithms: [LEARNING_ALGORITHMS]
-- Profile customization: [PROFILE_CUSTOMIZATION]
-- Historical data usage: [HISTORICAL_DATA_USAGE]
-- Predictive features: [PREDICTIVE_FEATURES]
-
-### TECHNICAL IMPLEMENTATION
-
-### Development Framework
-### Technical Architecture
-- System architecture: [SYSTEM_ARCHITECTURE]
-- Scalability planning: [SCALABILITY_PLANNING]
-- Performance optimization: [TECHNICAL_PERFORMANCE_OPTIMIZATION]
-- Memory management: [MEMORY_MANAGEMENT]
-- Network optimization: [NETWORK_OPTIMIZATION]
-- Security implementation: [SECURITY_IMPLEMENTATION]
-- Data handling: [DATA_HANDLING]
-- Version control: [VERSION_CONTROL]
-
-### Platform Integration
-- API integrations: [API_INTEGRATIONS]
-- Third-party services: [THIRD_PARTY_SERVICES]
-- Cloud services: [CLOUD_SERVICES]
-- Database systems: [DATABASE_SYSTEMS]
-- Analytics platforms: [ANALYTICS_PLATFORMS]
-- Content delivery networks: [CONTENT_DELIVERY_NETWORKS]
-- Backup systems: [TECHNICAL_BACKUP_SYSTEMS]
-- Monitoring tools: [MONITORING_TOOLS]
-
-### Quality Assurance
-### Testing Protocols
-- Functionality testing: [FUNCTIONALITY_TESTING]
-- Performance testing: [PERFORMANCE_TESTING]
-- User testing: [USER_TESTING]
-- Accessibility testing: [ACCESSIBILITY_TESTING]
-- Security testing: [SECURITY_TESTING]
-- Compatibility testing: [COMPATIBILITY_TESTING]
-- Load testing: [LOAD_TESTING]
-- Regression testing: [REGRESSION_TESTING]
-
-### Deployment Strategy
-- Staging environments: [STAGING_ENVIRONMENTS]
-- Production deployment: [PRODUCTION_DEPLOYMENT]
-- Rollback procedures: [ROLLBACK_PROCEDURES]
-- Update mechanisms: [UPDATE_MECHANISMS]
-- Maintenance schedules: [MAINTENANCE_SCHEDULES]
-- Support systems: [SUPPORT_SYSTEMS]
-- Documentation: [TECHNICAL_DOCUMENTATION]
-- Training materials: [TRAINING_MATERIALS]
-
-### MEASUREMENT & ANALYTICS
-
-### Success Metrics
-### Engagement Metrics
-- User engagement time: [USER_ENGAGEMENT_TIME]
-- Interaction frequency: [INTERACTION_FREQUENCY]
-- Completion rates: [COMPLETION_RATES]
-- Return visitor rate: [RETURN_VISITOR_RATE]
-- Feature utilization: [FEATURE_UTILIZATION]
-- User progression: [USER_PROGRESSION]
-- Social sharing: [SOCIAL_SHARING_METRICS]
-- Feedback scores: [FEEDBACK_SCORES]
-
-### Technical Metrics
-- Performance metrics: [PERFORMANCE_METRICS]
-- Load times: [LOAD_TIMES]
-- Error rates: [ERROR_RATES]
-- System uptime: [SYSTEM_UPTIME]
-- Resource utilization: [RESOURCE_UTILIZATION]
-- Network performance: [NETWORK_PERFORMANCE]
-- Device compatibility: [DEVICE_COMPATIBILITY_METRICS]
-- Accessibility compliance: [ACCESSIBILITY_COMPLIANCE_METRICS]
-
-### User Feedback
-### Feedback Collection
-- User surveys: [USER_SURVEYS]
-- Usage analytics: [USAGE_ANALYTICS]
-- Heat mapping: [HEAT_MAPPING]
-- A/B testing: [AB_TESTING_INTERACTIVE]
-- Focus groups: [FOCUS_GROUPS]
-- Expert reviews: [EXPERT_REVIEWS]
-- Peer feedback: [PEER_FEEDBACK]
-- Community input: [COMMUNITY_INPUT]
-
-### Iteration Planning
-- Feedback analysis: [FEEDBACK_ANALYSIS]
-- Priority setting: [PRIORITY_SETTING]
-- Update planning: [UPDATE_PLANNING]
-- Feature roadmap: [FEATURE_ROADMAP]
-- Bug fixing: [BUG_FIXING]
-- Performance improvements: [PERFORMANCE_IMPROVEMENTS]
-- Content updates: [CONTENT_UPDATES]
-- Platform expansions: [PLATFORM_EXPANSIONS]
-
-### DESIGN OUTPUT
-[Generate comprehensive interactive media experience with all specified elements]
-
-Project: [FINAL_PROJECT_NAME]
-Interactive Type: [FINAL_INTERACTIVE_TYPE]
-
-[COMPLETE_INTERACTIVE_MEDIA_SOLUTION]
+**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for rapid interactive media evaluation.
 
 ---
 
-### Interactive Media Deliverables
-- Interactive elements: [INTERACTIVE_ELEMENT_COUNT]
-- Media assets: [MEDIA_ASSET_COUNT]
-- User flows: [USER_FLOW_COUNT]
-- Technical components: [TECHNICAL_COMPONENT_COUNT]
-- Testing scenarios: [TESTING_SCENARIO_COUNT]
-- Performance metrics: [PERFORMANCE_METRIC_COUNT]
+## Template
 
-OUTPUT: Deliver comprehensive interactive media with:
-1. Immersive AR/VR experiences
-2. Engaging interactive installations
-3. Dynamic digital content
-4. Intuitive user experience design
-5. Technical implementation framework
-6. Performance measurement system
-7. Iterative improvement strategy
-```
+Conduct a comprehensive interactive media readiness assessment for {PROJECT_NAME}, a {INTERACTIVE_TYPE} targeting {TARGET_PLATFORM}.
+
+Assess readiness across six dimensions, scoring each 1-5:
+
+**1. Creative Concept & Experience Design Readiness** — Evaluating whether the core interactive concept demonstrates clear purpose through a well-defined experience goal articulating what users will do, feel, and take away from the interaction, examining whether the emotional journey is intentionally designed with defined entry emotional state, transformation arc during experience, and desired exit emotional state that creates lasting impact, determining whether the unique value proposition leverages the interactive medium's specific strengths (immersion for VR, spatial context for AR, public participation for installations, accessibility for web) rather than forcing content into inappropriate formats, assessing whether the creative vision aligns with target audience expectations through appropriate complexity levels, content themes, interaction paradigms familiar to or learnable by intended users, and duration matching context (brief for public installations, extended for dedicated VR experiences, flexible for web interactions), verifying whether the narrative or thematic approach serves the interaction goals through environmental storytelling embedding context in spatial design, procedural narratives emerging from user choices, guided experiences balancing agency with direction, or abstract explorations prioritizing sensation over story depending on project intent, examining whether innovation elements push medium boundaries without sacrificing usability by introducing novel interaction paradigms with clear affordances, combining technologies in meaningful ways, or reimagining familiar experiences through new lenses, determining whether success metrics align with creative intent by defining appropriate measures (engagement duration, completion rates, emotional response, learning outcomes, behavior change, social sharing, return visits) rather than generic metrics mismatched to goals, and assessing whether the artistic style and aesthetic choices communicate intended mood through visual design language, audio design philosophy, spatial atmosphere, color palettes, typography, animation styles, and overall sensory cohesion that reinforces rather than contradicts experience goals.
+
+**2. Technical Platform & Infrastructure Readiness** — Assessing whether platform selection appropriately matches project requirements through consideration of target device capabilities (mobile AR needing broad device support vs high-end VR requiring dedicated hardware), distribution channel expectations (app stores, web browsers, physical installation venues, enterprise deployments), and audience access patterns (personal devices, shared equipment, public installations), examining whether hardware requirements are realistic and accessible for intended audiences including device specifications (processor, GPU, RAM, storage), peripheral requirements (VR headsets, controllers, sensors, haptic devices), environmental needs (physical space, lighting conditions, network connectivity, power infrastructure), and cost barriers potentially excluding target users, determining whether software framework choices enable efficient development through appropriate selection of game engines (Unity, Unreal Engine, custom solutions), web technologies (WebXR, Three.js, Babylon.js), platform SDKs (ARKit, ARCore, Oculus, HoloLens), middleware integration, and development tool familiarity within team capabilities, evaluating whether performance targets are achievable given visual ambition and platform constraints through realistic frame rate expectations (90fps for VR comfort, 60fps for smooth mobile AR, 30fps acceptable for installations), loading time limits maintaining engagement, polygon budgets for 3D assets, texture resolution optimization, particle effect constraints, and physics simulation scope, verifying whether device compatibility strategy balances reach and quality through minimum supported hardware decisions, graceful degradation approaches for lower-capability devices, progressive enhancement for cutting-edge hardware, cross-platform considerations (iOS vs Android AR differences, PC VR vs standalone headset capabilities), and browser compatibility for web experiences, examining whether network requirements align with deployment contexts through bandwidth needs (low for offline experiences, moderate for asset streaming, high for real-time multiplayer), latency sensitivity (critical for multiplayer interactions, moderate for cloud processing, negligible for local experiences), offline functionality preservation, and content delivery network strategies, determining whether security and privacy considerations protect user data through appropriate data collection transparency, local vs cloud processing decisions for sensitive information, permission requesting justification (camera, microphone, location, biometrics), COPPA compliance for children's experiences, GDPR adherence for European audiences, and responsible use of tracking technologies, and assessing whether accessibility standards extend to technical implementation through support for assistive technologies, alternative input methods accommodating physical limitations, adjustable difficulty and complexity settings, visual accessibility features (colorblind modes, contrast options, text size adjustment), and audio accessibility features (subtitles, haptic alternatives, visual sound indicators).
+
+**3. Interaction Design & User Experience Readiness** — Evaluating whether input methods leverage platform affordances naturally through appropriate use of touch gestures on mobile (taps, swipes, pinches, long presses with clear feedback), controller schemes for VR (button mapping matching mental models, trigger usage for primary actions, grip buttons for secondary functions, thumbstick navigation), hand tracking for natural interfaces (gesture recognition with clear visual vocabulary, fingertip precision interactions, palm orientation detection, gesture confirmation feedback), voice commands for hands-free control (natural language understanding, command discoverability, error recovery, noise handling), gaze-based selection for accessibility (dwell timers, blink detection, eye-tracking precision, comfort considerations), and environmental interaction for installations (motion sensors, proximity detection, touch surfaces, gesture recognition cameras, biometric inputs), examining whether feedback loops provide satisfying confirmation of user actions through immediate visual responses (object highlighting on selection, animation follow-through on manipulation, state changes reflecting action completion), audio cues reinforcing interactions (distinct sounds for different action types, spatial audio indicating interaction location, satisfying sonic textures matching interaction feel), haptic feedback where available (controller vibration patterns, force feedback resistance, tactile confirmation), and system state communication preventing confusion about whether inputs registered or what consequences occurred, determining whether onboarding introduces interaction paradigms effectively through integrated tutorials teaching through doing rather than text walls, contextual help appearing when relevant interactions become available, progressive complexity introducing advanced features after basic mastery, demonstration spaces allowing risk-free experimentation, clear visual affordances communicating interactivity before user attempts, forgiving design allowing mistakes without catastrophic consequences, and optional skip for experienced users familiar with paradigms, assessing whether navigation systems enable efficient spatial traversal through teleportation for VR comfort (targeting system, rotation options, boundary visualization), smooth locomotion for experienced users (speed control, acceleration curves, turning options, comfort settings), physical walking within tracked spaces (boundary warnings, guardian systems, furniture detection), waypoint-based movement for guided experiences, map interfaces for large spaces, and architectural design guiding flow through spatial affordances, verifying whether user interface architecture maintains immersion while providing necessary information through diegetic interfaces integrated into virtual environments (information displays as in-world objects, holographic panels emerging from devices, environmental text naturally embedded), spatial UI positioned in 3D space around users (following head movement, world-locked for reference, comfort-optimized distances and angles), minimalist HUDs displaying only critical information with contextual appearance, gesture-based menus avoiding screen clutter, and voice-driven interfaces for hands-free information access, examining whether comfort and safety considerations prevent physical and psychological harm through VR motion sickness mitigation (stable horizons, gradual acceleration, teleportation options, vignetting during movement, framerate maintenance), physical safety boundaries (guardian systems, collision warnings, furniture detection, play space setup), content warnings for potentially disturbing experiences (intense imagery, flashing lights, dark themes, claustrophobic scenarios, heights), age-appropriate content rating, session length recommendations preventing fatigue, and rest encouragement for extended experiences, determining whether error prevention and recovery protect user investment through save systems preventing progress loss, undo capabilities for destructive actions, confirmation prompts for major decisions, clear action consequence preview, recovery from failed interactions without punishment, graceful degradation when features unavailable, and helpful error messaging when systems fail, and assessing whether accessibility features accommodate diverse user needs through control remapping for physical limitations, seated vs standing mode options, one-handed play support, colorblind mode with redundant visual coding, subtitle customization (size, contrast, background, speaker labels), visual alternatives for audio cues, audio alternatives for visual information, and adjustable difficulty/complexity settings.
+
+**4. Content Production & Assets Readiness** — Assessing whether 3D asset pipeline is production-ready through defined modeling standards (polygon budgets per asset type, LOD level requirements, naming conventions, scale consistency), texturing workflows (PBR material standards, resolution guidelines, atlas optimization, color space management), rigging specifications for animated characters (joint hierarchies, skinning quality, deformation testing, blend shape libraries), animation production (frame rates, clip organization, state machine design, procedural animation integration), and optimization processes (mesh decimation, normal map baking, occlusion culling setup, batching strategies) with realistic time estimates validated through test asset production, examining whether audio asset production is comprehensive and integrated through sound effect design (Foley recording, synthesis workflows, spatial audio formatting, layering strategies, variation systems preventing repetition), music composition (adaptive music systems responding to user actions or emotional beats, looping strategies, stems for dynamic mixing, implementation specifications), voice recording (casting approach, script preparation, recording quality standards, dialogue editing, localization recording for target languages, lip sync data preparation), and implementation documentation (audio middleware usage like Wwise or FMOD, trigger specifications, parameter exposure, testing protocols), determining whether visual content beyond 3D assets supports experience goals through UI graphic design (icon libraries with consistent style, button states, information hierarchy, typography selection, color palette definition, responsive layout specifications), video content integration (codec selection, resolution targets, streaming vs embedded decisions, interactivity overlays, playback control specifications), image libraries (concept art, texture references, UI backgrounds, marketing materials), and particle effects systems (texture atlases, shader specifications, performance budgets, visual effect variety), evaluating whether content quantity estimates are realistic through validated production times (hours per 3D model by complexity, hours per animation second, hours per audio minute, hours per environment space), team velocity measurement (actual vs estimated completion rates on test assets), outsourcing strategy for capacity gaps (vendor selection, art direction documentation, quality control processes, integration workflows), and content reuse strategies maximizing asset value (modular design enabling recombination, procedural variation systems, parametric asset generation, kit-bashing approaches), verifying whether content management systems enable efficient collaboration through version control for binary assets (Git LFS, Perforce, Plastic SCM), asset database organization (tagging systems, search functionality, preview generation, dependency tracking), cloud collaboration tools (shared asset libraries, review and approval workflows, annotation systems, access permissions), and build automation (asset processing pipelines, platform-specific optimization, incremental builds, continuous integration), examining whether localization strategy accommodates target markets through text externalization (string tables, character encoding, text length expansion accommodation, context annotations for translators), audio localization (voice recording in target languages, subtitle file formats, right-to-left language support, cultural content adaptation), visual localization (text in textures replaced with symbols or managed separately, color meaning cultural differences, imagery cultural appropriateness), and testing protocols ensuring quality across all languages, determining whether procedural and dynamic content generation extends asset value through rule-based generation systems (level layouts, environmental details, encounter variations), algorithm-driven personalization (user behavior adaptation, difficulty scaling, content recommendations), real-time synthesis (procedural textures, generative audio, particle systems, vegetation distribution), and user-generated content integration if applicable (creation tools, moderation systems, sharing infrastructure, curation approaches), and assessing whether content protection and rights management are secured through source asset organization (originals separate from processed, backup strategies, archival formats), licensing documentation (stock asset licenses, music rights, voice talent agreements, software tool compliance), intellectual property considerations (original creation verification, trademark clearance, copyright compliance, patent awareness), and export format selection preserving quality while enabling platform deployment.
+
+**5. Implementation & Performance Readiness** — Evaluating whether technical architecture is sound and scalable through appropriate system design patterns (entity-component systems for flexibility, model-view-controller separation for maintainability, service-oriented architecture for modularity, event-driven systems for loose coupling), code organization enabling team collaboration (clear folder structure, naming conventions, coding standards, documentation requirements, API design principles), platform-specific optimizations leveraging hardware capabilities, and future extensibility considerations allowing feature additions without architectural rewrites, examining whether real-time performance optimization meets target frame rates through profiling-driven optimization identifying actual bottlenecks rather than premature optimization, draw call reduction via batching and instancing, overdraw minimization through occlusion culling and LOD systems, physics optimization using simplified collision meshes and sleeping states, script optimization avoiding per-frame allocations and expensive operations, memory management preventing leaks and fragmentation, threading utilization for parallel processing opportunities, and GPU compute offloading where beneficial, determining whether multiplayer and networking implementation (if applicable) provides responsive synchronized experiences through appropriate networking architecture (client-server for authoritative control, peer-to-peer for lower latency, hybrid approaches), latency compensation techniques (client-side prediction, lag compensation, interpolation), state synchronization strategies (delta compression, interest management, priority systems), matchmaking and lobby systems, voice chat integration, anti-cheat measures for competitive experiences, and graceful degradation when network conditions poor, assessing whether data persistence and cloud integration serve user needs through save system design (local saves, cloud backups, cross-device sync, save corruption prevention), user profile management (account systems, progress tracking, preference storage, social connections), analytics data collection (event tracking, session recording, funnel analysis, A/B test infrastructure), leaderboard and achievement systems if applicable, and backend service integration (authentication, database access, content delivery, push notifications), verifying whether quality assurance strategy ensures polish through comprehensive testing coverage (functionality testing across all features, performance testing on target hardware range, compatibility testing across device types and OS versions, accessibility testing with assistive technologies, localization testing for all supported languages, edge case testing for unusual user behaviors), bug tracking and prioritization systems (severity classification, reproduction steps documentation, regression prevention, release blocker criteria), playtesting protocols with representative users (recruitment strategies, structured feedback collection, observation methods, iteration based on findings), and certification preparation for platform requirements (console certification processes, app store review guidelines, age rating acquisition, privacy policy compliance), examining whether development team capability matches project complexity through required skill sets inventory (engine specialists, graphics programmers, gameplay programmers, technical artists, tools developers, DevOps engineers, QA engineers), current team assessment against requirements, hiring or training plans for capability gaps, external contractor or partner strategies for specialized needs (VR comfort optimization, shader development, networking architecture, procedural generation systems), knowledge transfer documentation preventing single points of failure, and mentorship structures developing junior team members, determining whether development tools and pipeline efficiency enable productivity through custom tool development for repetitive tasks, editor extensions improving workflow, automated testing infrastructure catching regressions early, build pipeline optimization reducing iteration time, debugging tools for rapid issue identification, profiling integration for performance monitoring, and documentation systems (technical wikis, API documentation, workflow guides, troubleshooting resources), and assessing whether risk mitigation strategies address known technical challenges through prototyping high-risk features early to validate feasibility, alternative implementation approaches when primary approach fails, performance budgets with buffer for unknowns, third-party dependency evaluation (library maturity, support availability, license compatibility, abandonment risk), platform limitation awareness (hardware capability ceilings, API restrictions, submission review unpredictability), and contingency plans for critical path failures.
+
+**6. Deployment & Measurement Readiness** — Assessing whether distribution strategy aligns with target audience access patterns through appropriate channel selection (app stores for consumer mobile AR, SteamVR or Oculus Store for VR experiences, web hosting for browser-based interactions, enterprise deployment for business solutions, physical installation management for location-based experiences), platform-specific requirements understanding (Apple App Store review guidelines, Google Play Store policies, Meta Quest store submission process, console certification requirements, web hosting infrastructure, museum exhibition logistics), pricing or monetization model decisions (premium purchase, freemium with IAP, subscription access, ad-supported, sponsored experiences, institutional licensing), and launch timing optimization considering competitive landscape and seasonal factors, examining whether pre-launch marketing and visibility strategies build awareness through early access or beta programs generating word-of-mouth and feedback, press kit preparation with compelling visual assets and messaging, influencer partnerships for audience reach, social media campaigns building anticipation, demo versions or trailers showcasing experience, community building via Discord or forums, platform featuring opportunities (app store featuring, VR storefront promotion, festival submissions, award program entries), and launch event planning coordinating announcements, verifying whether success metrics definition enables performance evaluation through clear KPI identification appropriate to experience type (engagement metrics like session duration, return rate, completion percentage for narrative experiences; learning metrics like knowledge retention, skill improvement, behavior change for educational experiences; social metrics like sharing rate, multiplayer participation, community activity for social experiences; business metrics like conversion rate, ARPU, LTV for commercial experiences; technical metrics like crash rate, load time, frame rate for quality monitoring), baseline establishment before launch for comparison, target setting based on research or comparable experiences, and stakeholder alignment on what constitutes success to prevent post-launch disagreements, determining whether analytics integration provides actionable insights through comprehensive event tracking capturing user journey (entry points, feature usage, progression through content, abandonment points, conversion moments, error encounters), session recording or heat mapping revealing spatial behavior patterns in VR/AR or interaction patterns in web experiences, funnel analysis identifying drop-off points in onboarding or key flows, cohort analysis comparing user segments, A/B testing infrastructure for optimization experiments, privacy-respecting data collection (anonymization, aggregation, consent management, minimal necessary data), and real-time dashboard monitoring enabling rapid response to issues, assessing whether post-launch support strategy maintains experience quality through update and patch deployment processes (staged rollout, rollback procedures, testing before release, user communication about changes), bug fixing prioritization based on severity and impact, performance optimization addressing identified bottlenecks, content updates adding value for return users if applicable, community management responding to feedback and questions, customer support systems handling technical issues, and user feedback collection channels (in-app surveys, review monitoring, community forums, direct support tickets) with integration into development roadmap, examining whether iteration strategy enables continuous improvement through data-driven feature prioritization based on usage analytics, user feedback integration weighing qualitative insights with quantitative data, competitive analysis monitoring market evolution, technical debt management preventing architecture decay, platform update adaptation as SDKs and devices evolve, seasonal content or events maintaining engagement for live experiences, experimentation culture testing hypotheses through A/B tests or limited releases, and documented learnings capturing insights for future projects or current optimization, determining whether scaling strategy accommodates growth or expansion through technical infrastructure scalability (server capacity, bandwidth allocation, database performance, CDN efficiency), content production pipeline scalability (repeatable asset creation, outsourcing relationships, procedural generation, modular design), team scaling considerations (hiring plans, onboarding processes, tool and documentation enabling ramp-up, organizational structure evolution), platform expansion strategy (additional devices, new markets, alternative distribution channels, enterprise versions), and partnership or licensing opportunities extending reach, and assessing whether long-term viability considerations ensure sustainable operation through maintenance cost planning (hosting fees, platform developer fees, payment processing, customer support, ongoing development), technology obsolescence risk (device sunset handling, OS version support strategy, third-party dependency updates, hardware advancement adaptation), business model sustainability (revenue vs cost analysis, user retention economics, pricing adjustment strategies, additional revenue streams), competitive differentiation maintenance (unique feature development, quality leadership, community loyalty, brand building), and sunset planning if applicable (user data migration, experience preservation, graceful shutdown communication, knowledge archival for future projects).
+
+Deliver your assessment as:
+
+1. **EXECUTIVE SUMMARY** — Overall readiness score, production go/no-go recommendation, top 3 critical gaps, estimated development timeline and budget
+
+2. **DIMENSION SCORECARD** — Table with score (X.X/5), maturity level, and key finding for each dimension
+
+3. **TECHNICAL FEASIBILITY ANALYSIS** — Platform-specific risks, performance concerns, integration challenges, and mitigation strategies
+
+4. **CRITICAL BLOCKER ANALYSIS** — Top 5 issues preventing production start, ranked by impact and urgency, with specific resolution actions
+
+5. **TEAM CAPABILITY ASSESSMENT** — Current skills vs requirements, hiring/training needs, contractor dependencies, knowledge gaps
+
+6. **PRODUCTION ROADMAP** — Phased timeline: (Phase 1) Prototyping & validation, (Phase 2) Content production, (Phase 3) Integration & polish, (Phase 4) Testing & certification, (Phase 5) Launch & support, with milestones and dependencies
+
+7. **SUCCESS CRITERIA** — Current scores vs production-ready targets (typically 3.5+ per dimension), launch readiness checklist, post-launch KPIs
+
+Use this maturity scale:
+- 1.0-1.9: Concept Stage (high-level ideas, major gaps, significant unknowns)
+- 2.0-2.9: Design Development (foundational elements defined, prototyping needed)
+- 3.0-3.9: Production-Ready (validated approach, detailed specifications, minor gaps)
+- 4.0-4.9: Polished Design (comprehensive documentation, risk mitigation, optimization focus)
+- 5.0: Industry-Leading (innovative, thoroughly validated, reference-quality execution)
+
+---
 
 ## Variables
-[All 400+ variables for comprehensive interactive media including AR/VR, experiences, and installations]
+
+| Variable | Description | Example |
+|----------|-------------|---------|
+| `{PROJECT_NAME}` | The project title and medium type being assessed | "Ocean Depths Explorer - VR Educational Experience" |
+| `{INTERACTIVE_TYPE}` | The interactive media type and core mechanics | "room-scale VR experience with hand-tracked interactions, spatial audio, and haptic feedback for marine biology education" |
+| `{TARGET_PLATFORM}` | The target platform(s) and technical specifications | "Meta Quest 3 standalone VR headset, supporting hand tracking and controller input, targeting 72fps on mobile XR2 Gen 2 processor" |
+
+---
 
 ## Usage Examples
 
-## Best Practices
+### Example 1: Museum AR Installation — Dinosaur Discovery Experience
 
-1. **Start with clear objectives** - Define what success looks like before beginning
-2. **Use data to inform decisions** - Base choices on evidence and measurable outcomes
-3. **Iterate and improve continuously** - Treat implementation as an ongoing process
-4. **Engage stakeholders early** - Include key participants in planning and execution
-5. **Document thoroughly** - Maintain clear records for reference and knowledge transfer
-6. **Communicate regularly** - Keep all parties informed of progress and changes
-7. **Address challenges proactively** - Identify potential issues before they become problems
-8. **Celebrate milestones** - Recognize achievements to maintain motivation
-9. **Learn from experience** - Reflect on what works and adjust accordingly
-10. **Stay flexible** - Be ready to adapt based on feedback and changing circumstances
+**Context:** A natural history museum commissioned assessment of "Dino AR" — an augmented reality installation where visitors use museum-provided tablets to see life-size animated dinosaurs in the fossil exhibit hall. 12-month development timeline, $180K budget, targeting 200K annual visitors (families with children 6-14). Development team is small AR studio (8 people) with Unity/ARKit experience but no museum installation background.
 
-## Tips for Success
+**Assessment Highlights:**
+- **Current Overall Score: 2.8/5.0** (Design Development stage)
+- **Creative Concept & Experience Design: 3.4/5.0** — Strong foundation. Experience goal clear (educational entertainment bringing fossils to life), emotional journey well-defined (wonder at seeing dinosaur scale → curiosity about behaviors → connection through interactive feeding/sounds → learning retention through AR photo souvenirs). Unique value proposition solid (leveraging physical fossil context for AR overlay creating "ghosts" of ancient creatures in authentic museum setting vs generic AR apps). Target audience alignment good (age-appropriate complexity, 8-12 minute session matching museum dwell time research). Weakness: success metrics vague (defined as "visitor satisfaction" without specific measurement approach), and artistic style not yet decided between photorealistic (scientifically accurate but potentially uncanny valley) vs stylized (engaging but less educational authenticity).
 
-- Break complex tasks into manageable steps with clear milestones
-- Set realistic timelines that account for dependencies and constraints
-- Allocate sufficient resources including time, budget, and personnel
-- Use templates and frameworks to ensure consistency and quality
-- Seek feedback from users and stakeholders throughout the process
-- Build in checkpoints to assess progress and make adjustments
-- Maintain quality standards while remaining practical and efficient
-- Document lessons learned for future reference and improvement
-- Foster collaboration across teams and departments
-- Stay current with industry best practices and emerging trends
-### Example 1: AR Mobile App
-```
-INTERACTIVE_TYPE: "Augmented Reality mobile application"
-PROJECT_NAME: "CityGuide AR Explorer"
-TECHNOLOGY_PLATFORM: "ARKit/ARCore for iOS and Android"
-USER_EXPERIENCE_GOAL: "Enhance urban exploration through location-based AR"
-TARGET_AUDIENCE: "Tourists and local explorers 18-55"
-CONTEXT_ENVIRONMENT: "Urban outdoor environments"
-EXPERIENCE_DURATION: "15-45 minutes per session"
-```
+- **Technical Platform & Infrastructure: 2.6/5.0** — Significant concerns. Platform selection (museum-provided iPads running ARKit) appropriate for controlled environment but hardware age problematic (museum budget planning 2-year-old iPad models saving $40K, but ARKit performance on older hardware not validated through testing). Markerless AR tracking in museum lighting conditions (dim exhibit hall with dramatic spotlighting) not prototyped — risk of tracking loss. Network requirements underestimated (50+ simultaneous users sharing museum WiFi originally unplanned for AR bandwidth, IT infrastructure upgrade not budgeted). Device management strategy undefined (charging stations, sanitation between users, damage/theft prevention, software updates across 60 tablets). Accessibility minimal (no plan for vision-impaired visitors, audio descriptions missing, no seated visitor accommodation).
 
-### Example 2: VR Installation
-```
-INTERACTIVE_TYPE: "Virtual Reality experience installation"
-PROJECT_NAME: "Ocean Depths VR Journey"
-TECHNOLOGY_PLATFORM: "Oculus Rift/Quest with custom tracking"
-USER_EXPERIENCE_GOAL: "Educational marine conservation experience"
-TARGET_AUDIENCE: "Museum visitors, all ages"
-CONTEXT_ENVIRONMENT: "Dedicated VR room in museum"
-EXPERIENCE_DURATION: "8-12 minutes"
-```
+- **Interaction Design & User Experience: 3.1/5.0** — Decent but incomplete. Touch-based AR interaction appropriate for all-ages audience (tapping to trigger animations, pinch-to-zoom for details, swipe to switch dinosaurs). Feedback loops designed (dinosaurs respond to touch with animations and sounds, visual highlights on interactive hotspots, progress indicators showing experience completion). Onboarding flow defined (60-second visual tutorial when app launches, staff demo during tablet handout). Weakness: navigation in physical space not addressed (visitors unsure which fossils have AR content without scanning everything, no wayfinding helping visitors find all 8 stations, no indication when standing in optimal AR viewing position), and accessibility interactions absent (no voice control option, no haptic feedback for deaf visitors, no alternative for visitors unable to hold tablets).
 
-### Example 3: Interactive Web Experience
-```
-INTERACTIVE_TYPE: "Interactive web experience"
-PROJECT_NAME: "Climate Change Data Story"
-TECHNOLOGY_PLATFORM: "Web browser with WebGL and D3.js"
-USER_EXPERIENCE_GOAL: "Educate users about climate change through data"
-TARGET_AUDIENCE: "Educators and students 16-65"
-CONTEXT_ENVIRONMENT: "Online platform, desktop and mobile"
-EXPERIENCE_DURATION: "20-30 minutes"
-```
+- **Content Production & Assets: 2.4/5.0** — Major gap. 3D asset requirements extensive (8 dinosaur species at film-quality rigor, each needing 5-8 animations, scientifically accurate models validated by paleontologists, mobile-optimized geometry at 50K polygons budget per dinosaur). Current status: 1 dinosaur modeled in high-res but not optimized, animations not started. Production time estimates (2 weeks per dinosaur) not validated through completing one full asset from concept to in-engine optimization. Audio content designed (paleontologist-narrated facts, dinosaur vocalizations, ambient prehistoric soundscapes) but not recorded. Localization strategy undefined despite museum's 15% international visitors. Content management for updates not considered (when paleontology research updates dinosaur appearance, how to push updates to 60 tablets?). Scientific accuracy review process not established.
 
+- **Implementation & Performance: 2.7/5.0** — Moderate concerns. Unity/ARKit stack appropriate and team experienced, but performance not validated on target hardware (testing only on developer's newest iPad Pro, not 2-year-old models museum will purchase). Museum WiFi integration untested (app design assumes internet connectivity for analytics, but network reliability in large stone building unknown). Multiplayer considerations missing (multiple visitors viewing same fossil — do they see each other's AR content? How to prevent experience spoiling?). QA strategy basic (developer testing only, no museum environment testing planned, no visitor playtesting before launch). Device management backend not designed (how staff know which tablets need charging, how to remotely troubleshoot visitor issues, how to collect usage analytics).
 
+- **Deployment & Measurement: 2.1/5.0** — Weak area. Distribution straightforward (museum-managed devices) but device setup process undefined (initial configuration, app installation, kiosk mode lockdown preventing visitor access to other apps, auto-launch on wake). Launch training for museum staff not planned (they need to explain AR concept to visitors, troubleshoot technical issues, encourage proper usage, clean devices). Success metrics finally defined after questioning: engagement time (target: 80% of visitors use >5 minutes), educational impact (target: +30% fossil knowledge retention vs non-AR visitors), operational efficiency (target: <5% staff intervention rate), satisfaction (target: 4.2/5 exit survey rating). But measurement implementation undefined (analytics not integrated, pre/post knowledge surveys not designed, staff intervention tracking system missing). Post-launch support strategy absent (who fixes bugs after developer contract ends? What happens when iOS updates break compatibility? How often content refreshes?).
+
+**Critical Blockers Identified:**
+
+1. **Hardware Performance Not Validated** (Impact: CRITICAL, Urgency: CRITICAL) — Entire experience designed for developer's iPad Pro performance, but museum will deploy on 2-year-old iPad Air models saving $40K budget. Performance gap could be catastrophic (target 60fps may drop to 20fps, tracking quality may degrade, battery life may be inadequate, app may crash). Museum already allocated budget and ordered devices. **Action Required:** Immediately acquire or borrow target hardware for 2-week performance validation sprint. If validation fails, either (A) convince museum to upgrade to newer iPads (+$40K, requiring fundraising), (B) drastically reduce visual quality (potentially harming educational impact), or (C) reduce dinosaur count from 8 to 4-5 to maintain quality. Must resolve before proceeding with asset production.
+
+2. **Museum Environment Tracking Untested** (Impact: HIGH, Urgency: CRITICAL) — ARKit markerless tracking performance in dim museum lighting with dramatic spotlights, reflective fossil cases, and visitor movement creating occlusion never tested in actual environment. Tracking loss would render experience unusable. Museum space available for testing only during closed hours (early mornings), and installation in 11 months. **Action Required:** Negotiate 3 morning testing sessions within next 4 weeks. Build tracking test application. If tracking fails, pivot to marker-based AR using QR codes or image targets placed near each fossil (cheaper hardware requirements, more reliable tracking, but less "magical" experience). Decision impacts entire technical approach and must happen immediately.
+
+3. **Content Production Timeline Unrealistic** (Impact: HIGH, Urgency: HIGH) — Estimated 2 weeks per dinosaur × 8 dinosaurs = 16 weeks production time, but estimate not validated by completing one full asset. Team's only 3D artist would consume 4 months solo. Historical data shows team's previous AR projects underestimated asset production by 2.5× on average. Real timeline likely 40+ weeks, extending past museum launch deadline. **Action Required:** Complete one full dinosaur (model through in-engine optimization including all animations) within 3 weeks to validate real production time. If validation shows 3-4 weeks reality, either (A) reduce dinosaur count from 8 to 4-5 most popular species, (B) contract additional 3D artist for $45K (requires budget increase), or (C) reduce animation complexity (5-8 animations per dinosaur down to 2-3 core behaviors). Cannot commit to 8 dinosaurs without validation data.
+
+4. **Museum IT Infrastructure Inadequate** (Impact: MEDIUM, Urgency: HIGH) — Current museum WiFi designed for staff access and basic visitor needs, not 50+ simultaneous AR experiences streaming analytics data and downloading content updates. Network assessment shows capacity for ~20 concurrent AR sessions before degradation. Museum IT lacks budget to upgrade infrastructure. **Action Required:** Redesign application to function fully offline after initial installation (moves analytics to local storage with periodic sync, embeds all content in app vs streaming, eliminates real-time features). Reduces analytics granularity and prevents dynamic content updates but enables installation to function. Alternative: reduce tablet quantity from 60 to 30 accepting lower visitor capacity (may require timed entry system). Decision needed within 6 weeks before detailed app architecture defined.
+
+5. **Post-Launch Support Unplanned** (Impact: MEDIUM, Urgency: MEDIUM) — Developer contract ends at installation launch. No budget for ongoing maintenance. Museum staff untrained on technical troubleshooting. iOS updates 2-3× per year may break ARKit compatibility. Hardware failures inevitable with 200K annual users. Experience could degrade or fail within months of launch with no remediation plan. **Action Required:** Either (A) negotiate annual support retainer with developer ($18K/year, requires museum to identify funding), (B) train museum IT staff on Unity/ARKit troubleshooting with comprehensive documentation (feasible for minor issues, not major iOS breaks), or (C) accept degradation risk with plan to discontinue experience when unsupported (poor visitor experience and ROI). Requires museum director decision on long-term commitment.
+
+**Recommended Action Plan** (11-Month Timeline):
+
+*Months 1-2: Validation & Risk Mitigation*
+- Week 1-2: Acquire target hardware (iPad Air 2-year-old models), performance validation sprint
+- Week 3-5: Museum environment tracking testing (3 morning sessions), marker vs markerless decision
+- Week 6-8: Complete one full dinosaur asset (model, texture, rig, animate, optimize, integrate) to validate production timeline
+- Week 7-8: Museum IT infrastructure assessment, offline-first architecture decision
+- Week 8: If validations fail expectations, adjust scope (dinosaur count reduction, visual quality adjustment, hardware upgrade justification)
+
+*Months 3-6: Content Production*
+- 3D asset production for 5-6 dinosaurs (reduced scope based on validation) with scientific review checkpoints
+- Audio recording (narration, sounds, ambience) with paleontologist script review
+- UI design and implementation (wayfinding, onboarding, progress tracking)
+- Device management backend development (analytics, remote monitoring, tablet health)
+
+*Months 7-9: Integration & Testing*
+- App integration of all dinosaurs, audio, UI at target performance
+- QA across all target devices in dev environment
+- Museum environment testing (3 full-day sessions during closed days)
+- Staff training curriculum development
+- Visitor playtesting with 50 volunteers (families with children target age)
+
+*Months 10-11: Polish & Deployment*
+- Bug fixes and optimization based on playtesting feedback
+- Final museum environment installation and testing
+- Staff training delivery (museum educators, visitor services, IT staff)
+- Soft launch with controlled visitor groups, monitoring for issues
+- Grand opening and press event
+
+*Month 12+: Post-Launch*
+- Analytics monitoring and monthly reporting to museum stakeholders
+- Quarterly content updates (seasonal dinosaur facts, new animations)
+- iOS update compatibility maintenance (via support retainer if funded)
+
+**Success Metrics:**
+- Creative Concept & Experience Design: 3.4 → 4.0 (finalize artistic style through scientific + engagement testing, define specific success metrics)
+- Technical Platform & Infrastructure: 2.6 → 3.6 (validate hardware performance, resolve tracking approach, offline architecture, device management)
+- Interaction Design & User Experience: 3.1 → 3.8 (add physical space navigation, improve accessibility, refine based on playtesting)
+- Content Production & Assets: 2.4 → 3.7 (complete validated asset pipeline, produce 5-6 high-quality dinosaurs, record all audio)
+- Implementation & Performance: 2.7 → 3.8 (validate performance on target hardware, museum environment testing, robust QA, device management backend)
+- Deployment & Measurement: 2.1 → 3.5 (comprehensive launch plan, staff training, analytics implementation, support strategy)
+- **Target Overall: 2.8 → 3.7** (production-ready with validated approach and risk mitigation)
+
+---
+
+### Example 2: Enterprise VR Training — Surgical Procedure Simulation
+
+**Context:** Medical device manufacturer developing VR surgical training for new laparoscopic instrument, targeting 500 surgeons globally for certification. "SurgiSim VR" using Meta Quest Pro with hand tracking and haptic controllers, 45-minute training module with assessment. $850K budget, 18-month timeline. Development team is VR studio (22 people) with gaming background but first medical project, partnered with surgical education consultants. Regulatory compliance required (FDA medical device software determination needed).
+
+**Assessment Highlights:**
+- **Current Overall Score: 3.3/5.0** (Production-Ready with caveats)
+- **Creative Concept & Experience Design: 4.0/5.0** — Strong medical education design. Experience goal precisely defined (hands-on instrument technique mastery without patient risk, procedural knowledge retention, confidence building before operating room). Emotional journey appropriate (initial discomfort with VR → engaged learning → competence achievement → confidence for real surgery). Unique value proposition defensible (combining accurate surgical environment simulation, force feedback from instruments, mistake consequences demonstration, unlimited repetition, and objective performance assessment impossible with other training methods). Innovation elements sophisticated (real-time tissue deformation physics, procedural mistake visualization showing potential patient outcomes, AI-driven feedback analyzing technique errors). Success metrics rigorous (technique accuracy scores, procedure completion time, knowledge retention at 30/90 days, real-world surgical performance correlation, certification pass rates). Minor weakness: artistic style balancing realism (needed for transfer to real OR environment) vs performance optimization (Quest Pro mobile GPU limitations) requires visual fidelity testing with surgeons validating "realism sufficient for training effectiveness."
+
+- **Technical Platform & Infrastructure: 3.8/5.0** — Solid choices with caveats. Meta Quest Pro appropriate (standalone eliminates IT infrastructure barriers for global deployment, hand tracking enables natural surgical instrument grip, high resolution adequate for anatomical detail, passthrough AR potential for hybrid training). Performance targets achievable (72fps validated through early prototyping, latency <20ms critical for instrument responsiveness measured at 12-15ms, haptic fidelity tested with surgeons rating "acceptable but not perfect"). Device compatibility strategy defined (Quest Pro exclusive for hand tracking and resolution, not supporting Quest 2 to maintain quality standards). Network requirements minimal (fully offline after download, optional cloud sync for progress tracking, analytics batch upload). **Concerns:** (1) Force feedback limitations — Quest Pro controllers provide basic vibration but not realistic tissue resistance (exploring third-party haptic glove integration adding $40K and supply chain risk), (2) Hygiene protocols for shared headsets in medical environments not defined (hospital infection control requirements, cleanable face interface solutions, UV sterilization procedures), (3) Medical device software regulatory classification unclear (FDA determination pending on whether SurgiSim is "device" requiring 510(k) clearance vs "educational tool" exempt — drastically different timelines and costs).
+
+- **Interaction Design & User Experience: 3.9/5.0** — Sophisticated surgical interaction design. Hand tracking primary input (natural instrument grip, thumb/finger precision positioning, bimanual coordination practice), controller fallback for tracking loss or user preference. Haptic feedback simulates tissue contact, instrument click confirmation, error warnings (excessive force vibration patterns). Onboarding comprehensive (VR comfort acclimatization, hand tracking calibration, controller tutorial, non-surgical practice scenario building familiarity before procedure). Navigation within surgical environment realistic (fixed OR table perspective maintaining spatial reference, menu access via wrist-mounted interface mimicking surgical team communication). Accessibility strong (seated-only experience accommodating most users, left/right hand dominance settings, colorblind-friendly visual coding, adjustable instrument scaling for hand size differences, difficulty progression from guided to independent). Weakness: surgeon feedback on realism mixed during early prototype testing — 80% rate interaction "realistic enough for training," but 20% expert surgeons identify nuances missing (instrument pivot point feel, tissue texture variation, depth perception cues in laparoscopic video feed).
+
+- **Content Production & Assets: 3.2/5.0** — Moderate concerns despite medical consultant partnership. 3D anatomical models sourced from medical imaging databases (high accuracy), surgical environment modeled to OR standards (lighting, table, equipment placement validated by surgeons). Animation production for tissue deformation computationally expensive (soft body physics simulation requiring optimization for Quest Pro). Procedural variations designed (6 patient scenarios with anatomical differences, 3 complication scenarios teaching error recovery). Audio content comprehensive (surgeon consultant narration, ambient OR sounds, mistake audio cues). **Gaps:** (1) Validation process for anatomical accuracy and surgical realism more extensive than anticipated (iterative surgeon review cycles, professional medical illustration standards, peer review by 5+ surgeons per body system consuming 3 months vs 1 month estimated), (2) Content updates when surgical techniques evolve not planned (new instrument iterations, procedural guideline changes, device manufacturer feedback integration), (3) Localization strategy ambitious (8 languages × 45 minutes narration = substantial voice recording and subtitle coordination, medical terminology translation requiring specialized translators).
+
+- **Implementation & Performance: 3.5/5.0** — Good technical execution with unknowns. Unity engine with VR optimization appropriate, soft body physics using GPU compute validated at acceptable performance (65-72fps maintained). Assessment algorithm measuring surgical technique (instrument angle precision, motion economy, tissue handling gentleness, procedural sequence adherence) developed with consultant input. Data persistence saves progress and scores locally, syncs to cloud analytics dashboard for training administrators. Security implements HIPAA-compliant data handling (surgeon identity encrypted, performance data de-identified for analytics, PHI exclusion). **Concerns:** (1) Assessment algorithm validation against real surgical performance not yet conducted (need prospective study: train surgeons in VR, measure real surgery outcomes, demonstrate correlation proving training effectiveness — required for marketing claims but 12-month study timeline extends beyond product launch), (2) Haptic glove integration (if pursued) requires hardware SDK unfamiliar to team (3-month learning curve, testing burden on critical path, supply chain dependency for device manufacturer), (3) QA complexity for medical accuracy extensive (not just bug testing but clinical validation requiring surgeon time, IRB approval for human subjects research if formal study conducted, regulatory documentation).
+
+- **Deployment & Measurement: 2.9/5.0** — Weakest dimension despite enterprise context. Distribution strategy defined (direct sales to hospitals and medical education centers, headset bundles sold with software license, cloud management portal for multi-user organizations). Pricing model set ($5K per license + $1,200 annual support, or $8K perpetual license, with headset hardware separate). Launch targeting medical education conference demo. **Critical gaps:** (1) Regulatory pathway undefined — FDA medical device software determination submitted but not answered (if "device," requires 510(k) clearance adding 6-12 months and $200K, if "educational tool," can launch immediately but marketing claims restricted), launch timeline completely dependent on regulatory outcome, (2) Success metrics measurement plan insufficient (engagement analytics implemented, but training effectiveness validation requires prospective clinical study not yet IRB-approved or funded), (3) Post-launch support for medical software more extensive than gaming studio familiar with (24/7 support expectations, HIPAA-compliant data handling training for support staff, medical device adverse event reporting obligations if FDA classifies as device, software updates requiring regression testing and validation documentation).
+
+**Critical Blockers:**
+
+1. **FDA Regulatory Classification Undetermined** (Impact: CRITICAL — Launch Blocker, Urgency: CRITICAL) — Submitted FDA 513(g) Request for Information 4 months ago seeking classification determination, no response yet. If classified as medical device software requiring 510(k) premarket clearance, adds 6-12 months timeline and $200K+ costs. If exempt as educational tool, can launch immediately but marketing claims restricted ("surgical training simulator" allowed, "improves surgical outcomes" requires clinical evidence). Cannot finalize launch timeline or budget without determination. **Action Required:** (A) Escalate FDA inquiry through regulatory consultant to expedite response, (B) Develop parallel paths: Plan A assuming educational tool classification (launch in 12 months), Plan B assuming device classification (launch in 20+ months with clinical study and 510(k) submission), (C) Legal review of marketing language for both scenarios. Decision expected within 8 weeks per consultant estimate.
+
+2. **Training Effectiveness Not Clinically Validated** (Impact: HIGH, Urgency: HIGH) — Assessment algorithm and training effectiveness based on consultant expert opinion, not clinical evidence. To make marketing claims of "improves surgical performance," need prospective study: train surgeons in VR, compare real surgery outcomes vs control group. Study requires IRB approval (3 months process), 20+ surgeon participants (recruitment challenge), 6-12 month data collection, statistical analysis (2 months), peer review publication submission (6-12 months peer review). Study timeline extends beyond product launch, limiting marketing claims. **Action Required:** (Option A) Launch product with conservative claims ("surgical technique practice" not "improves outcomes"), conduct study post-launch to enable stronger claims in year 2 marketing, (Option B) Delay launch 18+ months conducting study first (revenue delay, competitive risk), (Option C) Partner with academic medical center providing study infrastructure and surgeon pool in exchange for co-authorship and licensing revenue share. Recommend Option A or C.
+
+3. **Haptic Fidelity Insufficient Per Surgeon Feedback** (Impact: MEDIUM, Urgency: HIGH) — 20% of prototype testing surgeons (n=15) rate instrument feel "not realistic enough for effective training," citing lack of tissue resistance force feedback. Quest Pro controllers provide vibration only. Third-party haptic gloves (HaptX, SenseGlove) could improve realism but introduce risks: +$40K BOM cost per unit (vs $1,200 Quest Pro), supply chain dependency (single vendor, limited production), SDK integration complexity (3-month development), hygiene challenges (glove sanitation between users), and hand size variability (multiple sizes needed). **Action Required:** Conduct expanded surgeon testing (n=50) to quantify realism adequacy (if 80%+ rate "sufficient for training," proceed without gloves emphasizing value proposition is repetition not perfect realism; if <70%, haptic gloves may be necessary differentiator). If gloves required, impacts pricing ($8K → $12K+ with hardware), timeline (+3 months), and supply chain (pre-orders needed 6 months before launch).
+
+4. **Medical Content Validation Process Underestimated** (Impact: MEDIUM, Urgency: MEDIUM) — Initial estimate: 1 month for surgeon consultant review. Reality after first body system: 3+ months for iterative surgeon review (5 surgeons × 3 review rounds each, conflicting feedback requiring consensus building, professional medical illustration standards, peer review paralleling FDA submission rigor). At this pace, validating all content extends timeline 4-6 months. **Action Required:** (A) Formalize validation process with clear acceptance criteria reducing iterative rounds (surgeon consultant writes detailed specification upfront, art team implements once, single review), (B) Expand validation team to parallel review multiple systems simultaneously (currently sequential), (C) Reduce procedural complexity to scope manageable within timeline (6 patient scenarios → 3-4 core scenarios, eliminate some complication variations). Recommend A+B if budget allows, otherwise C.
+
+5. **Post-Launch Medical Support Infrastructure Missing** (Impact: MEDIUM, Urgency: LOW) — Gaming studio support model inadequate for medical enterprise software. Hospitals expect 24/7 support (surgeons training at night before morning surgery), HIPAA-compliant data handling (current support staff not trained), medical device adverse event reporting (required if FDA classifies as device — staff unfamiliar with MedWatch), software update validation documentation (vs gaming "patch and iterate" approach). **Action Required:** (A) Partner with medical software support provider (outsource specialized support for $80K/year per consultant estimate), (B) Hire dedicated medical support specialist with device industry background ($120K salary + benefits), (C) Train existing staff on medical requirements (HIPAA certification, FDA QSR if device, medical terminology — 3 months training per person, 2 staff minimum for coverage). Recommend A for launch, transition to B if sales volume justifies. Must decide before launch (month 12).
+
+**Production Recommendation: CONDITIONAL PROCEED**
+
+Proceed with production on following conditions resolved within 8 weeks:
+1. FDA classification determination received informing regulatory pathway
+2. Expanded surgeon testing (n=50) validates haptic realism adequacy or justifies glove integration
+3. Content validation process formalized with clear workflow and timeline
+4. Post-launch support partnership established for medical compliance
+
+**Revised Timeline:**
+- Current: Month 8 of 18-month plan
+- Remaining: 10 months if FDA classification favorable, 18+ months if device classification requiring 510(k)
+- **Recommended: 14-month completion** assuming educational tool classification, formalized validation, and scope protection
+
+**Success Metrics Targets:**
+- Creative Concept & Experience Design: 4.0 → 4.3 (validate realism sufficiency with expanded surgeon testing)
+- Technical Platform & Infrastructure: 3.8 → 4.0 (resolve haptic approach, define hygiene protocols, clarify regulatory classification)
+- Interaction Design & User Experience: 3.9 → 4.2 (refine based on expanded surgeon testing, optimize for identified realism gaps within technical constraints)
+- Content Production & Assets: 3.2 → 3.8 (formalize validation workflow, complete all anatomical content with surgeon sign-off, finalize localizations)
+- Implementation & Performance: 3.5 → 4.0 (complete assessment algorithm validation, integrate analytics robustly, ensure HIPAA compliance, finish QA with medical rigor)
+- Deployment & Measurement: 2.9 → 3.7 (finalize regulatory pathway, establish medical support infrastructure, define evidence-based marketing claims, implement effectiveness measurement)
+- **Target Overall: 3.3 → 4.0** (medical-grade VR training ready for enterprise deployment)
+
+---
+
+### Example 3: Web Interactive Experience — Climate Data Storytelling
+
+**Context:** Environmental non-profit "Climate Now" commissioned web-based interactive data storytelling experience presenting 150 years of climate data to educate public and influence policy. "Our Changing Planet" uses WebGL visualizations, scroll-driven narratives, and participatory scenario modeling. Targeting 1M visitors first year (general public, educators, policymakers). $120K budget, 9-month timeline. Development team is digital agency (6 people: designer, 2 developers, data scientist, project manager, copywriter) with interactive web portfolio but no climate science background, partnering with climate research institute for data and scientific review.
+
+**Assessment Highlights:**
+- **Current Overall Score: 3.6/5.0** (Production-Ready)
+- **Creative Concept & Experience Design: 4.2/5.0** — Excellent narrative-driven approach. Experience goal clearly articulated (transform abstract climate data into emotionally resonant understanding, empower action through scenario exploration, challenge climate skepticism with transparent data sources). Emotional journey intentionally designed (initial curiosity → growing concern as data revealed → empowerment through scenario modeling showing solutions → motivation for personal/policy action). Unique value proposition strong (combining 150-year historical data visualization, real-time current conditions, and participatory future scenario modeling in one comprehensive narrative vs fragmented climate resources). Target audience strategy sophisticated (three entry points: "Quick Story" for general public 15-minute experience, "Deep Dive" for educators with classroom integration materials, "Policy Explorer" for decision-makers with economic modeling). Innovation elements well-conceived (scroll-driven 3D globe visualization showing temperature change over time, participatory carbon budget calculator demonstrating policy trade-offs, social sharing generating personalized climate impact cards). Success metrics comprehensive (engagement depth, educational impact via pre/post quiz, sharing virality, policy action conversion via petition/donation, educator adoption via curriculum download). Weakness: tone balancing hope and urgency challenging (testing with target audiences shows some find too alarmist, others too optimistic — need further calibration).
+
+- **Technical Platform & Infrastructure: 3.9/5.0** — Strong web technology choices. WebGL for 3D globe visualization using Three.js (performant, widely supported, graceful degradation to 2D on older devices). Responsive design supporting desktop, tablet, mobile (adaptive layout complexity, touch vs mouse interaction differences). Browser compatibility targeting 95% market share (Chrome, Safari, Firefox, Edge modern versions — IE11 excluded saving development cost). Performance optimization sophisticated (lazy loading data as user scrolls, progressive asset loading, worker thread computation offloading, CDN delivery, compression). Accessibility strong (WCAG 2.1 AA compliance, keyboard navigation, screen reader optimization, reduced motion option, high contrast mode). Network requirements reasonable (3MB initial load, 8MB total for full experience — acceptable on 3G+). Security standard (HTTPS, no user data collection beyond anonymous analytics, no cookies, privacy-respecting). Minor concerns: (1) WebGL performance on low-end mobile devices not tested (may need simpler visualization fallback), (2) Data loading from climate research APIs has latency (10-15 second delays for scenario modeling — need loading state UX refinement), (3) Social sharing preview metadata not implemented yet.
+
+- **Interaction Design & User Experience: 4.0/5.0** — Sophisticated scroll-driven narrative. Input methods appropriate (scroll for story progression, touch/drag for globe manipulation, form inputs for scenario modeling, click for layer toggles). Feedback loops satisfying (smooth animated transitions between data states, data value tooltips on hover, scenario impact visualization immediate, progress indicator showing story completion). Onboarding elegant (animated intro sequence teaching interaction paradigm, scrollable visual hints, progressive disclosure introducing complexity gradually). Navigation thoughtful (chapter menu for quick access, back/forward browser integration, bookmark-able sections for sharing specific data stories). Accessibility comprehensive (keyboard shortcuts, ARIA labels, color independence through patterns, captions for narration audio, transcript alternative). Weakness: initial testing (n=20) shows 25% users confused by scroll-triggered globe animation vs manual manipulation (expecting full control but animation overrides — need clearer interaction mode communication).
+
+- **Content Production & Assets: 3.5/5.0** — Data-rich content with production challenges. Climate data sourced from authoritative repositories (NOAA, NASA, IPCC), cleaned and validated by climate research partner. 3D globe model and geospatial data processing using GIS tools. Visual design sophisticated (custom D3.js charts, animated iconography, color palettes colorblind-accessible and semantically meaningful). Copywriting compelling (science writer translating technical data into accessible narrative, emotionally engaging without sensationalism, facts cited transparently). Scientific review rigorous (climate partner reviewing all claims, data visualizations, scenario assumptions for accuracy). **Gaps:** (1) Localization not planned but high demand expected (40% of traffic anticipated from non-English markets based on similar projects — Spanish, Mandarin, Hindi translations would expand reach but add $25K+ cost), (2) Content update strategy undefined (climate data updates monthly/annually, how to refresh experience? Who maintains? What's ongoing cost?), (3) Scenario modeling simplifications necessary for web performance raise scientific accuracy questions (climate models running on user devices vs research supercomputers — consultant validating acceptability).
+
+- **Implementation & Performance: 3.7/5.0** — Solid web development. Architecture clean (React components, Redux state management, modular code enabling team collaboration). Performance optimization includes aggressive caching, asset minification, lazy loading, requestAnimationFrame for smooth animations, Web Workers for computation. Browser testing across 10 device/OS combinations. Analytics integration using privacy-respecting tool (Plausible, no cookies). Source control via Git with CI/CD pipeline (automated testing, staging deployment, production rollout). Security headers, HTTPS, input sanitization. **Concerns:** (1) Performance budget maintenance challenging as features added (currently 2.8MB vs 3MB target — risk of scope creep bloating experience), (2) Scenario modeling computation intensive (5-10 seconds for complex scenarios — exploring server-side computation offload vs client-side compromise), (3) Testing infrastructure minimal (manual testing only, no automated integration tests — risk of regression as complexity grows, no load testing for anticipated viral traffic spikes).
+
+- **Deployment & Measurement: 3.4/5.0** — Reasonable launch planning. Hosting on Netlify (CDN, automatic scaling, edge caching, affordable). Domain and branding finalized. Launch timing aligned with UN Climate Summit (media attention opportunity, partnership with environmental organizations for shared promotion). Marketing strategy includes influencer partnerships (environmental educators and communicators), social media campaign, press outreach, embedding on partner organization websites. Success metrics instrumentation ready (Google Analytics 4 for engagement, custom events for educational milestones, heatmapping for interaction patterns, conversion tracking for actions). Post-launch support plan basic (agency 30-day bug fix warranty, client staff trained on content updates, monitoring dashboard). **Gaps:** (1) Viral readiness uncertain (anticipated traffic 10K/day average but 100K+ spikes possible during news events — load testing not conducted, CDN scaling behavior unknown), (2) Educator adoption strategy incomplete (curriculum integration materials designed but distribution plan vague, teacher outreach limited, feedback collection from educators not planned), (3) Long-term maintenance funding uncertain (agency contract ends at launch, annual hosting $500 acceptable, but climate data updates require developer time — who pays ongoing? At what frequency?).
+
+**Critical Gaps (Minor — No Blockers):**
+
+1. **Scroll vs Manual Interaction Confusion** (Impact: MEDIUM, Urgency: MEDIUM) — 25% of initial testers confused by globe interaction paradigm (scroll triggers automatic animation, but users expect full manual control — interaction modes conflict). Reduces engagement and educational effectiveness if users frustrated. **Action Required:** Redesign interaction model with clear mode indication (scroll-driven "Story Mode" vs free-exploration "Explore Mode" with toggle button), add animated tutorial showing scroll triggers narrative progression, include "take control" prompt when user attempts to drag globe during automatic animation. Implement and retest with 30 additional users validating confusion reduced to <10%. Timeline: 3 weeks.
+
+2. **Scenario Modeling Computation Latency** (Impact: MEDIUM, Urgency: MEDIUM) — Complex climate scenarios take 5-10 seconds to compute on client devices (testing on mid-range laptops), creating engagement drop-off during waiting. Server-side computation would be instant but adds infrastructure cost and complexity. **Action Required:** Implement hybrid approach: (A) Pre-compute common scenarios (10 most likely combinations) for instant results, (B) Client-side computation for custom scenarios with improved loading state UX (animated visualization showing computation progress, educational tidbits during wait, estimated time remaining), (C) Simplify model further sacrificing some nuance for 2-3 second target. Validate with climate partner that simplifications preserve educational accuracy. Timeline: 4 weeks.
+
+3. **Localization ROI Uncertain** (Impact: LOW, Urgency: LOW) — 40% anticipated international traffic but $25K+ translation cost (Spanish, Mandarin, Hindi × 8,000 words + UI + testing) not budgeted. Limits global impact and educational reach. **Action Required:** Launch English-only, instrument analytics tracking international visitor bounce rates and engagement. If data shows high international interest (>30% traffic, >60% bounce rate), build business case for translation funding via foundation grants or international partner sponsorship. Phase 2 localization 6 months post-launch if validated. Recommend Spanish prioritization (largest second-language climate-concerned population).
+
+4. **Automated Testing Infrastructure Missing** (Impact: LOW, Urgency: MEDIUM) — Manual testing only increases regression risk as features added, slows development velocity with QA bottleneck, and provides no load testing for viral traffic spikes. **Action Required:** Implement automated testing suite: (A) Unit tests for data processing and computation functions (Jest), (B) Integration tests for key user flows (Cypress), (C) Visual regression tests preventing UI breaks (Percy), (D) Load testing using LoadImpact simulating 50K concurrent users validating CDN scaling behavior. Timeline: 2 weeks for critical coverage (not comprehensive but addresses highest risks). Technical debt acceptable at current stage but should be priority immediately post-launch before adding features.
+
+5. **Long-Term Content Maintenance Unfunded** (Impact: LOW, Urgency: LOW) — Climate data updates monthly/annually but post-launch developer time unfunded. Stale data reduces educational authority and credibility over time. Hosting costs ($500/year) covered but updates not budgeted. **Action Required:** Define maintenance model: (A) Client Climate Now staff trained to update text content via CMS (implement simple WordPress or Contentful backend allowing non-technical updates — add 2 weeks development), (B) Annual developer retainer for data updates and minor enhancements ($8K/year covering ~40 hours), (C) Seek foundation grant for ongoing maintenance as part of educational program funding. Recommend A+B approach ensuring sustainability.
+
+**Production Recommendation: PROCEED WITH MINOR REFINEMENTS**
+
+Project is production-ready with only minor gaps easily addressed within existing timeline and budget. High confidence in successful launch and impact.
+
+**Refined Timeline:**
+- Months 1-2: Complete globe interaction UX refinement, automated testing implementation, scenario modeling optimization
+- Months 3-6: Final content production, scientific review, accessibility testing, performance optimization
+- Months 7-8: Beta testing with 200 target audience members, iteration based on feedback, load testing
+- Month 9: Launch coordination with UN Climate Summit, press campaign, partner promotion, monitoring
+
+**Success Metrics Targets:**
+- Creative Concept & Experience Design: 4.2 → 4.5 (refine tone calibration through expanded testing, validate emotional impact measurement)
+- Technical Platform & Infrastructure: 3.9 → 4.2 (validate low-end mobile performance, optimize API latency, complete social sharing)
+- Interaction Design & User Experience: 4.0 → 4.4 (resolve scroll/manual interaction confusion, validate with expanded testing)
+- Content Production & Assets: 3.5 → 3.8 (complete all content with scientific review, document update process, evaluate localization post-launch)
+- Implementation & Performance: 3.7 → 4.0 (implement automated testing, optimize scenario computation, load test viral traffic scenarios)
+- Deployment & Measurement: 3.4 → 3.8 (validate CDN scaling, strengthen educator adoption plan, secure ongoing maintenance funding)
+- **Target Overall: 3.6 → 4.1** (polished, impactful climate education experience)
+
+**Post-Launch KPIs:**
+- Engagement: Average session 12+ minutes (vs 3-5 minute typical for data viz sites)
+- Educational Impact: 70%+ improvement on post-experience climate literacy quiz
+- Viral Sharing: 15%+ social sharing rate (150K shares if 1M visitors achieved)
+- Action Conversion: 5%+ click-through to policy action (petitions, donations, voting pledges)
+- Educator Adoption: 2,000+ curriculum downloads first year
+- Technical Quality: <1% error rate, 3 second load time p95, 99%+ uptime
+
+---
 
 ## Related Resources
 
-### Complementary Templates
-
-Enhance your workflow by combining this template with:
-
-- **[Creative Writing Framework](creative-writing-framework.md)** - Complementary approaches and methodologies
-- **[Video Production Pipeline](video-production-pipeline.md)** - Complementary approaches and methodologies
-
-### Suggested Workflow
-
-**Typical implementation sequence**:
-
-1. Start with this template (Interactive Media Template)
-2. Use [Creative Writing Framework](creative-writing-framework.md) for deeper analysis
-3. Apply [Video Production Pipeline](video-production-pipeline.md) for execution
-4. Iterate and refine based on results
-
-### Explore More in This Category
-
-Browse all **[creative/Entertainment](../../creative/Entertainment/)** templates for related tools and frameworks.
-
-### Common Use Case Combinations
-
-- **Creating immersive interactive media experiences including AR/VR applications, interactive installations, and digital experiences that engage users through innovative technology and compelling content.**: Combine this template with related analytics and strategy frameworks
-- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
-- **Strategy development**: Combine this template with related analytics and strategy frameworks
-
-## Customization Options
-
-1. **Interactive Types**
-   - AR/VR applications
-   - Interactive installations
-   - Web experiences
-   - Mobile applications
-   - Touch screen kiosks
-   - Projection mapping
-   - Mixed reality experiences
-
-2. **Technology Platforms**
-   - Mobile AR (ARKit/ARCore)
-   - VR headsets (Oculus/HTC/PSVR)
-   - Web technologies (WebGL/WebXR)
-   - Interactive displays
-   - Motion sensors
-   - Computer vision
-   - IoT integration
-
-3. **Application Domains**
-   - Education/Training
-   - Entertainment/Gaming
-   - Museums/Exhibitions
-   - Marketing/Advertising
-   - Healthcare/Therapy
-   - Architecture/Design
-   - Social experiences
-
-4. **Interaction Modalities**
-   - Touch/Gesture control
-   - Voice commands
-   - Eye tracking
-   - Hand tracking
-   - Body movement
-   - Biometric sensors
-   - Environmental triggers
+- **[Creative Writing Framework](creative-writing-framework.md)** — Narrative structure techniques applicable to interactive storytelling and experience design
+- **[Video Production Pipeline](video-production-pipeline.md)** — Production planning and asset management approaches transferable to interactive media development

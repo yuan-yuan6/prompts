@@ -1,255 +1,123 @@
 ---
 category: technology
-last_updated: 2025-11-23
 related_templates:
-- technology/cloud-architecture-framework.md
-- technology/site-reliability-engineering.md
-- technology/cloud-migration-strategy.md
+- data-analytics/Data-Science/feature-engineering.md
+- data-analytics/Data-Science/exploratory-analysis.md
+- ai-ml-applications/MLOps-Deployment/mlops.md
 tags:
 - machine-learning
 - data-preparation
 - feature-engineering
 - data-labeling
-title: Data Preparation Template
+title: ML Data Preparation Strategy
 use_cases:
-- Creating comprehensive data preparation for machine learning including feature engineering,
-  data labeling, augmentation, preprocessing, and quality assurance for robust model
-  training.
-- Project planning and execution
-- Strategy development
+- Preparing tabular, image, text, and time-series data for machine learning with appropriate cleaning, encoding, and transformation strategies
+- Implementing feature engineering pipelines creating domain-specific features, handling categorical encoding, and scaling numerical variables
+- Managing data labeling workflows with quality assurance, inter-annotator agreement metrics, and active learning prioritization
 industries:
+- finance
+- healthcare
 - manufacturing
 - retail
 - technology
-type: template
+type: framework
 difficulty: intermediate
 slug: data-preparation
 ---
 
-# Data Preparation Template
+# ML Data Preparation Strategy
 
 ## Purpose
-Comprehensive data preparation for machine learning including feature engineering, data labeling, augmentation, preprocessing, and quality assurance for robust model training.
+Prepare production-quality datasets for machine learning covering data cleaning (missing values, outliers, duplicates), feature engineering (encoding, scaling, creation), data labeling (annotation workflows, quality assurance), and augmentation (class balancing, synthetic data) achieving robust model training with no data leakage.
 
-## Quick Data Prep Prompt
-Prepare ML dataset with [X rows], [Y features] for [model type]. Steps: handle missing values ([strategy]), remove duplicates, fix outliers. Engineer features: encode categoricals ([one-hot/label]), scale numericals ([standard/minmax]), create [domain-specific features]. Split: [70/15/15] train/val/test. Apply augmentation for [imbalanced classes/small dataset]. Validate: no leakage, distribution alignment. Document transformations.
+## 🚀 Quick Data Preparation Prompt
 
-## Quick Start
+> Prepare **[DATA_TYPE]** dataset with **[ROWS]** rows and **[FEATURES]** features for **[MODEL_TYPE]** (classification/regression/NLP/vision). Pipeline: (1) **Cleaning**—what missing value strategy (drop/impute mean/median/KNN), outlier handling (IQR/z-score/winsorize), duplicate removal? (2) **Feature engineering**—what categorical encoding (one-hot <10 cardinality/target encoding high cardinality), numerical scaling (StandardScaler/MinMaxScaler/RobustScaler for outliers), new features (ratios, lags, interactions)? (3) **Splitting**—what train/val/test ratio (70/15/15), stratification for imbalanced classes, temporal split for time-series? (4) **Augmentation**—what class balancing (SMOTE/undersampling/class weights), data augmentation (rotation/flip for images, back-translation for text)? (5) **Validation**—what leakage checks (no future data, no target encoding on test), distribution verification, documentation? Deliver preprocessing pipeline, feature transformations, validation report.
 
-**Prepare ML data in 5 steps:**
+---
 
-1. **Collect & Clean Data**: Gather raw data from sources, handle missing values, remove duplicates, fix data types and outliers
-2. **Perform EDA**: Analyze distributions, correlations, class balance; visualize patterns; identify data quality issues
-3. **Engineer Features**: Create new features, encode categoricals (one-hot/label), scale numericals (standard/min-max), select top features
-4. **Split & Augment**: Create train/val/test splits (70/15/15), apply augmentation to training data (rotation, noise, SMOTE)
-5. **Validate Quality**: Check for data leakage, verify distributions match, ensure no test contamination, document transformations
+## Template
 
-**Quick Data Preparation Pipeline:**
-```python
-import pandas as pd
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import StandardScaler
+Prepare {DATASET_NAME} with {DATA_SIZE} for {MODEL_TYPE} achieving {QUALITY_TARGET} data quality with {FEATURE_COUNT} engineered features and {SPLIT_RATIO} train/val/test split.
 
-# Load and clean
-df = pd.read_csv('data.csv')
-df = df.dropna().drop_duplicates()
+**DATA CLEANING AND QUALITY ASSURANCE**
 
-# Feature engineering
-df['new_feature'] = df['col1'] / df['col2']
-df = pd.get_dummies(df, columns=['category'])
+Handle missing values with strategy matching data characteristics and missingness pattern. Missing completely at random (MCAR) allows simple approaches: drop rows if <5% missing and dataset large (100K+ rows), impute with mean for numerical features (fast, preserves distribution center), impute with mode for categorical (most common value, maintains category distribution). Missing at random (MAR) requires smarter imputation: KNN imputation uses similar rows (k=5 neighbors, effective for clustered data, computationally expensive), iterative imputation (MICE algorithm) models each feature from others (handles complex relationships, risk of overfitting), domain-specific rules (missing income → unemployed category, missing transaction → no activity). Missing not at random (MNAR) indicates systematic patterns: create binary "is_missing" indicator feature (missingness itself predictive), investigate data collection issues (sensor failures, optional fields), consider separate models for missing versus non-missing segments.
 
-# Split data
-X_train, X_test, y_train, y_test = train_test_split(
-    df.drop('target', axis=1), df['target'], test_size=0.2, random_state=42
-)
+Detect and handle outliers preserving valid extreme values. Statistical detection methods: IQR method (values outside Q1-1.5×IQR to Q3+1.5×IQR flagged, 95% of normal distribution retained, robust to non-normal data), z-score method (values >3 standard deviations flagged, assumes normal distribution, sensitive to existing outliers), modified z-score using MAD (median absolute deviation, more robust than standard z-score). Outlier treatment strategies: winsorization caps at percentiles (1st and 99th percentile common, preserves ranking while limiting extremes), log transformation compresses range (effective for right-skewed financial data, requires positive values), robust scaling uses median and IQR (StandardScaler alternatives for outlier-heavy data), remove only if confirmed data errors (not genuine extreme cases, document removal criteria).
 
-# Scale features
-scaler = StandardScaler()
-X_train_scaled = scaler.fit_transform(X_train)
-X_test_scaled = scaler.transform(X_test)
-```
+Remove duplicates and validate data integrity. Exact duplicates: identify using all columns or subset of key columns (customer_id + timestamp uniquely identifies transactions), keep first or last occurrence based on business logic, log removal counts for audit trail. Near-duplicates require fuzzy matching: text similarity (Levenshtein distance, cosine similarity on embeddings), record linkage for entity resolution (probabilistic matching on name, address, phone), deduplicate within acceptable threshold documenting decisions. Data type validation: enforce schemas (string fields not containing numbers, dates in ISO format, categorical values in allowed set), range validation (age 0-120, percentages 0-100, future dates invalid for historical data), referential integrity (foreign keys exist, hierarchies consistent).
 
-## Template Structure
+**FEATURE ENGINEERING STRATEGIES**
 
-### Data Overview
-- **Dataset Name**: [DATASET_NAME]
-- **Data Source**: [DATA_SOURCE]
-- **Data Type**: [DATA_TYPE]
-- **Data Size**: [DATA_SIZE]
-- **Domain**: [DATA_DOMAIN]
-- **Quality Level**: [QUALITY_LEVEL]
-- **Collection Method**: [COLLECTION_METHOD]
-- **Update Frequency**: [UPDATE_FREQUENCY]
-- **Privacy Level**: [PRIVACY_LEVEL]
-- **Compliance Requirements**: [COMPLIANCE_REQUIREMENTS]
+Encode categorical variables matching cardinality and model type. Low cardinality (<10 unique values): one-hot encoding creates binary columns per category (simple, interpretable, increases dimensionality), works for linear models and tree-based equally, handle unknown categories at inference (ignore or separate "other" column). Medium cardinality (10-100 values): target encoding replaces category with target mean (powerful for tree models, requires regularization to prevent leakage, calculate on training fold only with smoothing toward global mean), label encoding for ordinal categories (small → medium → large preserves order, integer 0/1/2 encoding), frequency encoding (replace with count, captures popularity without target leakage). High cardinality (100+ values): entity embeddings learned during training (neural networks learn dense representations, transfer from larger models), hash encoding limits dimensionality (feature hashing into fixed buckets, some collision acceptable), aggregated features (mean target per category calculated historically, not on current dataset).
 
-### Data Collection
-- **Collection Strategy**: [COLLECTION_STRATEGY]
-- **Data Sources**: [DATA_SOURCES]
-- **Acquisition Methods**: [ACQUISITION_METHODS]
-- **Sampling Strategy**: [SAMPLING_STRATEGY]
-- **Collection Tools**: [COLLECTION_TOOLS]
-- **Quality Control**: [COLLECTION_QUALITY_CONTROL]
-- **Validation Rules**: [VALIDATION_RULES]
-- **Error Handling**: [COLLECTION_ERROR_HANDLING]
-- **Storage Format**: [STORAGE_FORMAT]
-- **Metadata Capture**: [METADATA_CAPTURE]
+Scale numerical features matching model requirements. StandardScaler (z-score normalization) for linear models: transforms to zero mean, unit variance (required for SVM, logistic regression, neural networks, ridge/lasso), fit on training data only (apply same transformation to validation/test preventing leakage), stores mean and std for inference pipeline. MinMaxScaler for bounded algorithms: transforms to [0,1] range (suitable for neural networks with sigmoid activation, image pixels), sensitive to outliers (single extreme value compresses all others), useful when features have known bounds. RobustScaler for outlier-heavy data: uses median and IQR instead of mean/std (outliers don't affect scaling parameters), better for skewed distributions, preserves outlier information without dominating. Tree-based models don't require scaling: XGBoost, Random Forest, LightGBM handle raw values (split-based, invariant to monotonic transformations), scaling may slightly help gradient boosting convergence but not required.
 
-### Feature Engineering
-- **Feature Types**: [FEATURE_TYPES]
-- **Feature Creation**: [FEATURE_CREATION]
-- **Feature Selection**: [FEATURE_SELECTION]
-- **Feature Transformation**: [FEATURE_TRANSFORMATION]
-- **Encoding Methods**: [ENCODING_METHODS]
-- **Scaling Techniques**: [SCALING_TECHNIQUES]
-- **Dimensionality Reduction**: [DIMENSIONALITY_REDUCTION]
-- **Feature Interaction**: [FEATURE_INTERACTION]
-- **Temporal Features**: [TEMPORAL_FEATURES]
-- **Domain Features**: [DOMAIN_FEATURES]
+Create domain-specific features capturing business knowledge. Temporal features for time-series: lag features (value 1/7/30 days ago capturing recency effects), rolling statistics (7-day mean, 30-day max capturing trends), time decomposition (hour of day, day of week, month, is_weekend, is_holiday), differences and growth rates (day-over-day change, week-over-week percent change). Interaction features: ratios capturing relationships (revenue per customer, cost per unit, conversion rate), products for combined effects (age × income for purchasing power), polynomial features for nonlinearity (squared terms, cross products for linear models). Aggregation features: customer-level rollups (total purchases, average order value, recency of last order—RFM), entity statistics (mean rating per product, category-level metrics), window functions (rank within group, percentile position).
 
-### Data Labeling
-- **Labeling Strategy**: [LABELING_STRATEGY]
-- **Annotation Guidelines**: [ANNOTATION_GUIDELINES]
-- **Labeling Tools**: [LABELING_TOOLS]
-- **Quality Assurance**: [LABELING_QA]
-- **Inter-annotator Agreement**: [INTER_ANNOTATOR_AGREEMENT]
-- **Active Learning**: [ACTIVE_LEARNING]
-- **Semi-supervised Learning**: [SEMI_SUPERVISED_LEARNING]
-- **Weak Supervision**: [WEAK_SUPERVISION]
-- **Label Noise Handling**: [LABEL_NOISE_HANDLING]
-- **Version Control**: [LABEL_VERSION_CONTROL]
+**DATA LABELING AND ANNOTATION**
 
-### Data Augmentation
-- **Augmentation Strategy**: [AUGMENTATION_STRATEGY]
-- **Augmentation Techniques**: [AUGMENTATION_TECHNIQUES]
-- **Synthetic Data Generation**: [SYNTHETIC_DATA_GENERATION]
-- **Balance Strategy**: [BALANCE_STRATEGY]
-- **Augmentation Pipeline**: [AUGMENTATION_PIPELINE]
-- **Quality Control**: [AUGMENTATION_QUALITY]
-- **Performance Impact**: [AUGMENTATION_IMPACT]
-- **Domain Constraints**: [AUGMENTATION_CONSTRAINTS]
-- **Evaluation Methods**: [AUGMENTATION_EVALUATION]
-- **Tool Integration**: [AUGMENTATION_TOOLS]
+Design labeling workflow balancing quality and cost. In-house labeling for sensitive or complex domains: domain experts label (higher accuracy, expensive, limited scale), build detailed annotation guidelines (10+ page document with examples, edge cases, decision trees), training and calibration sessions (align annotators before production labeling). Outsourced labeling for scale: platforms like Scale AI, Labelbox, Amazon MTurk (cost-effective at volume, quality varies), require extensive guidelines and quality checks, start with small pilot batch (100-500 samples) validating quality before scaling. Programmatic labeling reduces manual effort: labeling functions encoding heuristics (keyword rules, regex patterns, known relationships), Snorkel-style weak supervision (combine multiple noisy labelers probabilistically), distant supervision from knowledge bases (entity linking, relationship extraction from existing data).
 
-Please provide detailed preprocessing pipelines, feature engineering code, labeling workflows, and quality metrics.
+Implement quality assurance preventing label noise. Inter-annotator agreement measures consistency: Cohen's Kappa for two annotators (>0.8 substantial agreement, >0.6 moderate, <0.4 poor requiring guideline revision), Fleiss' Kappa for multiple annotators, task-specific metrics (IoU for bounding boxes, BLEU for text). Multi-annotation strategy: double-label 10-20% of data (consensus required for disagreements, identifies ambiguous cases), gold standard set for annotator evaluation (known correct labels, measure individual accuracy), adjudication by expert for disagreements (tie-breaking, guideline clarification). Active learning prioritizes uncertain samples: uncertainty sampling (label samples where model is least confident first, efficient use of annotation budget), query-by-committee (label samples where ensemble models disagree), expected model change (label samples that would most change model parameters).
+
+Handle label noise and maintain label versions. Confident learning identifies mislabels: cleanlab library finds label errors (compares model predictions to given labels, flags likely mistakes), prioritizes high-confidence disagreements for review, iterative cleaning improves dataset quality. Label smoothing regularizes against noise: soft labels (0.9/0.1 instead of 1.0/0.0 for binary), reduces overconfidence on noisy labels, particularly effective for neural networks. Version control labels systematically: semantic versioning for label schema changes (v1.0 → v2.0 for category changes), track label lineage (which annotator, when, which guidelines version), enable rollback and comparison (measure model performance across label versions).
+
+**DATA SPLITTING AND AUGMENTATION**
+
+Split data preventing leakage and ensuring representativeness. Standard random split: 70% train / 15% validation / 15% test (common for medium datasets), 80/10/10 for larger datasets where test sufficient at 10%, stratified split for classification (maintain class proportions in each split, critical for imbalanced classes). Temporal split for time-series: train on historical, validate on next period, test on most recent (simulates production deployment, no future information leakage), expanding window for multiple evaluation periods (train 1-6, val 7, test 8; then train 1-7, val 8, test 9). Group split for clustered data: keep all records of same entity in same split (all transactions from customer X in train or test, not split), prevents data leakage from entity-level patterns, use GroupKFold for cross-validation with groups.
+
+Apply augmentation for imbalanced or small datasets. Class imbalance techniques: SMOTE oversampling (synthetic minority oversampling, creates interpolated samples, effective for tabular data), random undersampling majority class (faster training, may lose information, combine with ensemble methods), class weights in loss function (cost-sensitive learning, no data modification needed, works with any model), focal loss for extreme imbalance (down-weights easy examples, focuses on hard minority cases). Image augmentation: geometric transforms (rotation ±15°, horizontal flip, random crop 90%, scale 0.8-1.2), color augmentation (brightness ±20%, contrast, saturation, hue shifts), advanced techniques (mixup blending images, cutout masking regions, AutoAugment learned policies). Text augmentation: back-translation (translate to German then back to English, paraphrasing), synonym replacement (WordNet synonyms, EDA easy data augmentation), contextual augmentation (BERT-based word replacement maintaining meaning).
+
+Generate synthetic data when real data insufficient. Tabular synthetic data: CTGAN (conditional tabular GAN, learns joint distribution of features, generates realistic synthetic rows), SMOTE variants (SMOTE-ENN, Borderline-SMOTE for refined synthetic samples), copula-based methods (preserve feature correlations, faster than GANs). Image synthetic data: GANs for realistic images (StyleGAN, Stable Diffusion controlled generation), 3D rendering for labeled data (synthetic scenes with ground truth labels, useful for autonomous driving, robotics), domain randomization (vary textures, lighting, backgrounds for sim-to-real transfer). Privacy-preserving synthetic data: differential privacy guarantees (synthetic data doesn't leak individual records), useful for sharing data externally, validate utility (synthetic should enable similar model performance as real).
+
+**VALIDATION AND DOCUMENTATION**
+
+Detect and prevent data leakage corrupting model evaluation. Target leakage from features: features containing target information (future data, derived from target, proxy variables), detect via suspiciously high feature importance (near-perfect predictors are red flags), careful temporal ordering (no features calculated from future events). Train-test contamination: fit preprocessing only on train (scaler, encoder, imputer fit on train, transform all), no test data in feature selection (cross-validate feature selection within train only), isolated test set until final evaluation (no peeking, no hyperparameter tuning on test). Leakage from data collection: same entity across splits (customer appears in both train and test, model memorizes patterns), data augmentation applied after split (augment only train, never test), temporal leakage (using data from future for training).
+
+Validate data quality before model training. Distribution checks: compare train/validation/test distributions (Kolmogorov-Smirnov test, chi-square for categorical, visual histogram comparison), detect drift from training data (production distribution shift, retrain trigger), verify augmentation preserves distribution (augmented data should match original characteristics). Schema validation: Great Expectations for automated checks (column types, ranges, uniqueness, completeness), data contracts between pipelines (producer guarantees schema, consumer validates), alerting on validation failures (block training on corrupted data).
+
+Document transformations enabling reproducibility. Transformation pipeline as code: scikit-learn Pipeline or ColumnTransformer (reproducible, applies same transforms at inference), feature store for reusable features (Feast, Tecton storing computed features, version controlled), MLflow or DVC tracking data versions (hash of datasets, link to model versions). Data card documentation: dataset description (source, size, time range, sampling), intended use and limitations (what models trained on this, what not suitable for), preprocessing applied (list all transformations with parameters), known issues (quality problems, biases, coverage gaps), ethical considerations (PII handling, potential for harm, fairness implications).
+
+Deliver data preparation as:
+
+1. **CLEANED DATASET** - Missing values handled, outliers treated, duplicates removed, data types validated, quality metrics (completeness >95%, no duplicates, valid ranges)
+
+2. **FEATURE ENGINEERING PIPELINE** - Encoding transformations (categorical strategy per feature), scaling approach (scaler selection rationale), created features (domain features, interactions, temporal), feature selection results
+
+3. **LABELED DATA** - Annotation guidelines document, quality metrics (inter-annotator agreement >0.8), labeling workflow, version-controlled labels, active learning queue
+
+4. **TRAIN/VAL/TEST SPLITS** - Split strategy (random/temporal/group), stratification verification, no leakage validation, size and distribution verification per split
+
+5. **AUGMENTATION PIPELINE** - Class balance strategy (SMOTE parameters, class weights), augmentation transforms (techniques, parameters), synthetic data if used, before/after distribution comparison
+
+6. **DOCUMENTATION** - Data card with provenance, transformation pipeline code, validation report (Great Expectations results), reproducibility instructions, known limitations
+
+---
 
 ## Usage Examples
 
-### Image Data Preparation
-```
-Prepare image dataset for ProductClassification with 100K images to achieve 95% model accuracy using computer vision techniques.
+### Example 1: Tabular Classification (Customer Churn)
+**Prompt:** Prepare customer churn dataset with 500K rows, 45 features for XGBoost classification achieving <1% missing values and no leakage.
 
-Data Collection:
-- Collect from e-commerce catalogs, web scraping using Scrapy, BeautifulSoup tools
-- Apply stratified sampling ensuring balanced product categories
-- Implement duplicate detection and quality filtering validation rules
-- Store in hierarchical folder storage format with JSON metadata capture
+**Expected Output:** Data cleaning: Missing values (3 features >10% missing: last_contact_date 15% → impute with median days, support_tickets 12% → impute with 0 indicating no tickets, income 8% → KNN imputation k=5 using correlated features age and tenure), outliers (monthly_charges: IQR method identifies 2% outliers, winsorize at 1st/99th percentile preserving extreme but valid high spenders, account_age: cap negative values at 0 indicating data error), duplicates (customer_id should be unique, found 234 duplicates, keep most recent record per customer). Feature engineering: Categorical encoding (contract_type 3 values → one-hot encoding, payment_method 4 values → one-hot, product_category 47 values → target encoding with smoothing m=10, calculating mean churn rate per category on training fold only), numerical scaling (not required for XGBoost, but StandardScaler applied for interpretability of SHAP values), temporal features (days_since_last_login, months_as_customer, is_contract_renewal_month binary), domain features (revenue_per_month = total_revenue / tenure_months, support_tickets_per_month, engagement_score combining login frequency + feature usage + support interactions), interaction features (tenure × contract_type indicating loyalty by contract). Splitting: 70/15/15 stratified split (churn rate 18% maintained across splits), group split by household_id (family members kept together preventing leakage), temporal validation (train on 2022-2023, validate Jan-Mar 2024, test Apr-Jun 2024 simulating production). Class imbalance: SMOTE oversampling minority class in training only (18% → 35% churn in augmented train set), class_weight='balanced' as alternative for comparison, focal loss gamma=2 for XGBoost boosting. Validation: Leakage check (removed cancellation_reason feature—only populated after churn event, removed last_bill_date for churned—contains target information), distribution verification (KS test p>0.05 for all features across splits), feature importance sanity check (no single feature >50% importance indicating leakage). Documentation: Data card documenting 500K customers from CRM export Jan 2022-Jun 2024, preprocessing pipeline in scikit-learn Pipeline saved as joblib, Great Expectations suite validating 45 expectations, known limitation (customers <3 months tenure underrepresented, model may underperform for new customers).
 
-Feature Engineering:
-- Extract RGB, HSV, texture features using OpenCV
-- Apply histogram equalization, edge detection feature transformation
-- Use one-hot encoding for categorical attributes
-- Scale pixel values to [0,1] range using min-max scaling techniques
-- Reduce dimensions with PCA for visualization
+### Example 2: Image Classification (Product Defects)
+**Prompt:** Prepare manufacturing defect detection dataset with 50K images, 5 defect classes for CNN achieving balanced classes and robust augmentation.
 
-### Data Augmentation
-- Apply rotation, flip, crop, brightness augmentation techniques
-- Generate synthetic images using GANs synthetic data generation
-- Balance classes using oversampling balance strategy
-- Create Albumentations augmentation pipeline
-- Maintain 90% accuracy quality control threshold
-```
+**Expected Output:** Data collection: 50K images from production line cameras (4K resolution, downsampled to 224×224 for model input), class distribution severely imbalanced (normal 80%, scratch 8%, dent 6%, discoloration 4%, crack 2%), storage in hierarchical folders by class with JSON metadata (timestamp, camera_id, product_batch). Data cleaning: Duplicate detection using perceptual hashing (pHash, 312 near-duplicates removed keeping highest quality), quality filtering (blur detection using Laplacian variance, 856 blurry images removed, exposure filtering removing 234 over/underexposed), corrupted file check (23 unreadable files removed). Image preprocessing: Resize to 224×224 maintaining aspect ratio with padding, normalize to ImageNet statistics (mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225] for transfer learning), color space validation (convert any grayscale to RGB). Splitting: Stratified 70/15/15 split maintaining class proportions, temporal split by production_date (train Jan-Oct, val Nov, test Dec ensuring no future leakage), product_batch grouping (all images from same batch in same split preventing part-level memorization). Class balancing strategy: Training augmentation with class-specific intensity (normal: light augmentation 2x, rare defects: heavy augmentation 10-20x achieving balanced training batches), class weights in loss function as backup (weight inversely proportional to class frequency), focal loss with gamma=2 focusing on hard examples. Augmentation pipeline (Albumentations): Geometric transforms (rotation ±30°, horizontal/vertical flip, affine transforms scale 0.8-1.2, translate ±10%), color augmentation (brightness/contrast ±20%, hue/saturation shifts, random shadows), defect-preserving transforms (no transforms that could hide defects: careful with blur, no extreme crops that remove defect regions), test-time augmentation (TTA: 5 augmented versions averaged for inference robustness). Synthetic data generation: Defect overlay technique (real defect patches from labeled regions overlaid on normal products at random positions, physically plausible defect placement), GAN-generated defect images using StyleGAN2 (1K synthetic images per defect class, validated by domain experts, 85% judged realistic), 3D rendering fallback (CAD models with procedural defect generation for crack and dent simulation). Labeling QA: Original labels from quality inspectors (production line decisions), validation labeling by ML team (500 samples double-labeled, 94% agreement, 47 corrections made), active learning queue (model uncertainty sampling flagged 1.2K ambiguous images for expert review, edge cases between scratch and normal refined). Documentation: Dataset card with camera specifications, preprocessing pipeline as PyTorch transforms, augmentation policy saved as Albumentations config YAML, known limitations (lighting variation between cameras, model may require camera-specific calibration).
 
-## Variables
+### Example 3: NLP Text Classification (Support Tickets)
+**Prompt:** Prepare customer support ticket dataset with 200K tickets, 12 categories for BERT classification with text cleaning and augmentation.
 
-| Variable | Description | Example |
-|----------|-------------|----------|
-| `[DATASET_NAME]` | Unique identifier for the dataset | "CustomerChurn_v3", "ProductImages_2024Q1", "TransactionFraud_cleaned" |
-| `[DATA_SOURCE]` | Where data originates from | "PostgreSQL production database", "AWS S3 bucket (s3://data-lake/raw/)", "Snowflake analytics warehouse", "Kaggle competition dataset" |
-| `[DATA_TYPE]` | Primary data modality | "Tabular (CSV/Parquet)", "Images (JPEG/PNG)", "Text (JSON documents)", "Time-series", "Audio (WAV)", "Mixed multimodal" |
-| `[DATA_SIZE]` | Volume of data | "5M rows, 2.3GB Parquet", "100K images (250GB)", "10TB across 3 years", "500K documents (50GB)" |
-| `[DATA_DOMAIN]` | Business domain of data | "E-commerce transactions", "Healthcare patient records", "Financial fraud detection", "Manufacturing IoT sensors" |
-| `[QUALITY_LEVEL]` | Data quality assessment | "High: 98% complete, validated", "Medium: 85% complete, some noise", "Low: significant cleaning needed" |
-| `[COLLECTION_METHOD]` | How data is collected | "Real-time API ingestion", "Daily batch ETL", "Manual upload", "Web scraping", "Sensor streaming" |
-| `[UPDATE_FREQUENCY]` | How often data refreshes | "Real-time streaming", "Daily at 2am UTC", "Weekly batch", "Monthly snapshots", "One-time historical" |
-| `[PRIVACY_LEVEL]` | Data sensitivity classification | "Public", "Internal only", "Confidential (PII)", "Highly restricted (PHI/PCI)" |
-| `[COMPLIANCE_REQUIREMENTS]` | Regulatory compliance needs | "GDPR (EU data subjects)", "HIPAA (healthcare)", "PCI-DSS (payment data)", "SOC2", "None" |
-| `[COLLECTION_STRATEGY]` | Overall collection approach | "Full historical backfill + incremental daily", "Streaming with 7-day retention", "Sample 10% of production traffic" |
-| `[DATA_SOURCES]` | All source systems | "PostgreSQL, MongoDB, Salesforce API, Google Analytics, S3 logs", "Single source: data warehouse" |
-| `[ACQUISITION_METHODS]` | Technical collection methods | "JDBC connector, REST API polling, Kafka consumer, File drop monitoring", "AWS Glue crawlers" |
-| `[SAMPLING_STRATEGY]` | Sampling approach if applicable | "Stratified sampling (maintain class ratio)", "Random 10% sample", "Time-based (last 2 years)", "Full population" |
-| `[COLLECTION_TOOLS]` | Tools used for collection | "Apache Airflow, Fivetran, AWS Glue, custom Python scripts", "dbt + Snowflake" |
-| `[COLLECTION_QUALITY_CONTROL]` | QC during collection | "Schema validation, null checks, deduplication, freshness alerts", "Great Expectations suite" |
-| `[VALIDATION_RULES]` | Data validation criteria | "email must match regex, age 0-120, timestamp not future, amount > 0", "Custom business rules in dbt tests" |
-| `[COLLECTION_ERROR_HANDLING]` | Error handling approach | "Dead letter queue for failed records, alert on >1% failure rate, manual review queue" |
-| `[STORAGE_FORMAT]` | Data storage format | "Parquet (columnar, compressed)", "Delta Lake", "CSV", "JSON Lines", "TFRecord" |
-| `[METADATA_CAPTURE]` | Metadata tracked | "Source timestamp, ingestion timestamp, schema version, row count, file hash" |
-| `[FEATURE_TYPES]` | Types of features in dataset | "Numerical (25), Categorical (15), DateTime (3), Text (2), Boolean (5)" |
-| `[FEATURE_CREATION]` | New features to create | "Lag features (7/14/30 day), rolling averages, ratios, interaction terms, text embeddings" |
-| `[FEATURE_SELECTION]` | Feature selection method | "Correlation filter (>0.9 removed), RFE with XGBoost, SHAP importance top 50" |
-| `[FEATURE_TRANSFORMATION]` | Transformations applied | "Log transform skewed features, Box-Cox normalization, binning age into groups" |
-| `[ENCODING_METHODS]` | Categorical encoding | "One-hot for low cardinality (<10), Target encoding for high cardinality, Label encoding for ordinal" |
-| `[SCALING_TECHNIQUES]` | Numerical scaling | "StandardScaler (zero mean, unit variance)", "MinMaxScaler (0-1 range)", "RobustScaler for outliers" |
-| `[DIMENSIONALITY_REDUCTION]` | Dimension reduction method | "PCA (95% variance retained)", "UMAP for visualization", "Autoencoder bottleneck", "None needed" |
-| `[FEATURE_INTERACTION]` | Interaction features | "Polynomial features (degree=2)", "Manual interactions: price_per_unit = price/quantity", "None" |
-| `[TEMPORAL_FEATURES]` | Time-based features | "Hour of day, day of week, month, is_weekend, days_since_last_purchase, seasonal decomposition" |
-| `[DOMAIN_FEATURES]` | Domain-specific features | "RFM scores (Recency, Frequency, Monetary)", "Customer lifetime value", "Product category embeddings" |
-| `[LABELING_STRATEGY]` | Labeling approach | "In-house annotation team", "Outsourced to Scale AI", "Crowdsourcing via MTurk", "Programmatic labeling" |
-| `[ANNOTATION_GUIDELINES]` | Labeling instructions | "Detailed 10-page guideline with examples, edge cases, and decision trees", "Simple binary yes/no criteria" |
-| `[LABELING_TOOLS]` | Annotation platform | "Label Studio", "Labelbox", "Amazon SageMaker Ground Truth", "Prodigy", "Custom internal tool" |
-| `[LABELING_QA]` | Quality assurance process | "10% double-annotation, consensus review, expert spot-checks, automated consistency checks" |
-| `[INTER_ANNOTATOR_AGREEMENT]` | Agreement metric | "Cohen's Kappa >0.8 required", "Fleiss' Kappa for multi-annotator", "95% agreement threshold" |
-| `[ACTIVE_LEARNING]` | Active learning approach | "Uncertainty sampling for edge cases", "Query-by-committee", "Not using active learning" |
-| `[SEMI_SUPERVISED_LEARNING]` | Semi-supervised approach | "Self-training with high-confidence pseudo-labels", "MixMatch", "Label propagation", "Not applicable" |
-| `[WEAK_SUPERVISION]` | Weak supervision methods | "Snorkel labeling functions", "Keyword rules + heuristics", "Distant supervision from knowledge base" |
-| `[LABEL_NOISE_HANDLING]` | Handling noisy labels | "Confident learning to identify mislabels", "Label smoothing", "Robust loss functions", "Manual review" |
-| `[LABEL_VERSION_CONTROL]` | Label versioning | "Git tags for label schema changes", "DVC for label files", "Label Studio project versions" |
-| `[AUGMENTATION_STRATEGY]` | Overall augmentation approach | "Online augmentation during training", "Offline pre-augmented dataset", "Both" |
-| `[AUGMENTATION_TECHNIQUES]` | Specific augmentation methods | "Images: rotation, flip, crop, color jitter, mixup. Text: back-translation, synonym replacement. Tabular: SMOTE" |
-| `[SYNTHETIC_DATA_GENERATION]` | Synthetic data approach | "CTGAN for tabular", "Stable Diffusion for images", "GPT-4 for text generation", "Not using synthetic data" |
-| `[BALANCE_STRATEGY]` | Class balancing method | "SMOTE oversampling minority", "Random undersampling majority", "Class weights in loss function", "Focal loss" |
-| `[AUGMENTATION_PIPELINE]` | Augmentation implementation | "Albumentations pipeline", "torchvision transforms", "nlpaug library", "Custom augmentation class" |
-| `[AUGMENTATION_QUALITY]` | Quality validation | "Visual inspection of samples", "Model performance on augmented vs original", "Distribution comparison" |
-| `[AUGMENTATION_IMPACT]` | Expected improvement | "+5% accuracy from augmentation", "Reduces overfitting by 20%", "Improves minority class recall by 15%" |
-| `[AUGMENTATION_CONSTRAINTS]` | Constraints to respect | "Preserve label semantics", "Don't augment test set", "Medical images: no geometric distortion" |
-| `[AUGMENTATION_EVALUATION]` | Evaluation methodology | "A/B test with/without augmentation", "Learning curve analysis", "Cross-validation comparison" |
-| `[AUGMENTATION_TOOLS]` | Tools and libraries | "Albumentations, imgaug, nlpaug, audiomentations, imblearn", "Custom augmentation module" |
+**Expected Output:** Data collection: 200K support tickets from Zendesk export (ticket_id, subject, body, category, created_date, customer_id), text fields combined (subject + "\n\n" + body for full context), category distribution (billing 25%, technical 20%, shipping 18%, returns 15%, account 10%, other categories <5% each). Text cleaning: HTML removal (BeautifulSoup stripping tags from rich-text tickets), encoding normalization (UTF-8 with unidecode for special characters), PII redaction (regex patterns for email, phone, credit card replaced with [EMAIL], [PHONE], [CARD] tokens), boilerplate removal (signature blocks, auto-replies, forwarded message headers identified and stripped), language filtering (langdetect removing 3% non-English tickets, separate model needed for Spanish 2%). Text preprocessing for BERT: Minimal preprocessing (BERT handles raw text well, preserve punctuation and casing), tokenization using bert-base-uncased tokenizer (WordPiece subword tokenization, max 512 tokens with truncation, 98% of tickets under 256 tokens), special tokens ([CLS] for classification, [SEP] between subject and body). Splitting: Stratified 70/15/15 split by category, customer_id grouping (same customer's tickets in same split preventing customer-specific pattern leakage), temporal consideration (train 2022-2023, val Jan-Jun 2024, test Jul-Dec 2024 for realistic evaluation). Text augmentation: Back-translation (English → German → English, English → French → English creating paraphrases, applied to minority classes only), synonym replacement (WordNet synonyms for 15% of non-stopwords, EDA library), contextual augmentation (BERT-based word replacement maintaining semantic meaning, more sophisticated than random synonyms). Class balancing: Oversampling minority classes with augmentation (target equal representation in training batches), class weights for categories <5% (focal loss alternative), category grouping consideration (merge similar small categories if semantically close: "subscription" + "billing" → "payment_issues"). Labeling quality: Original labels from support agents (assigned at ticket creation), QA audit (1K randomly sampled, 89% agreement with auditor, common confusion between technical/account categories), label correction (312 tickets relabeled after audit, confusion matrix analysis revealing systematic miscategorization), multi-label consideration (15% of tickets arguably belong to multiple categories, primary category used, multi-label model as future improvement). Feature engineering beyond text: Metadata features (ticket_length_words, has_attachment, customer_tenure_days, previous_tickets_count, time_since_last_ticket), customer history (aggregated category distribution of past tickets), temporal features (day_of_week, is_weekend, month). Documentation: Data card with Zendesk export timeframe and filters, preprocessing pipeline as HuggingFace datasets map function, tokenizer saved with model, known limitations (category taxonomy changed in 2023—historical tickets relabeled but may have inconsistencies, new product line tickets may need new category).
 
+---
 
+## Cross-References
 
-## Related Resources
-
-### Complementary Templates
-
-Enhance your workflow by combining this template with:
-
-- **[Cloud Architecture Framework](cloud-architecture-framework.md)** - Complementary approaches and methodologies
-- **[Site Reliability Engineering](site-reliability-engineering.md)** - Complementary approaches and methodologies
-- **[Cloud Migration Strategy](cloud-migration-strategy.md)** - Strategic planning and execution frameworks
-
-### Suggested Workflow
-
-**Typical implementation sequence**:
-
-1. Start with this template (Data Preparation Template)
-2. Use [Cloud Architecture Framework](cloud-architecture-framework.md) for deeper analysis
-3. Apply [Site Reliability Engineering](site-reliability-engineering.md) for execution
-4. Iterate and refine based on results
-
-### Explore More in This Category
-
-Browse all **[technology/AI & Machine Learning](../../technology/AI & Machine Learning/)** templates for related tools and frameworks.
-
-### Common Use Case Combinations
-
-- **Creating comprehensive data preparation for machine learning including feature engineering, data labeling, augmentation, preprocessing, and quality assurance for robust model training.**: Combine this template with related analytics and strategy frameworks
-- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
-- **Strategy development**: Combine this template with related analytics and strategy frameworks
-
-## Best Practices
-
-1. **Understand data thoroughly before processing**
-2. **Implement comprehensive quality checks**
-3. **Version control all data and transformations**
-4. **Document all preprocessing steps**
-5. **Validate augmentation maintains data integrity**
+- [Feature Engineering](../../data-analytics/Data-Science/feature-engineering.md) - Advanced feature creation strategies and selection methods
+- [Exploratory Data Analysis](../../data-analytics/Data-Science/exploratory-analysis.md) - EDA techniques informing data preparation decisions
+- [MLOps and Model Deployment](../../ai-ml-applications/MLOps-Deployment/mlops.md) - Production data pipelines and feature stores
+- [Predictive Modeling Framework](../../data-analytics/predictive-modeling-framework.md) - End-to-end modeling workflow incorporating data preparation

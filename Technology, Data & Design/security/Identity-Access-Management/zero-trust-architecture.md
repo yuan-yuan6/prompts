@@ -1,6 +1,5 @@
 ---
 category: security
-last_updated: 2025-11-11
 title: Zero Trust Architecture Implementation
 tags:
 - security
@@ -8,19 +7,19 @@ tags:
 - ztna
 - identity-verification
 use_cases:
-- Implementing zero trust security model across enterprise
-- Replacing perimeter-based security with identity-centric controls
-- Securing remote workforce and cloud applications
-- Reducing attack surface and lateral movement
+- Implementing zero trust security replacing perimeter-based VPN with identity-centric ZTNA achieving verify-explicit and least-privilege access
+- Designing continuous verification architecture with device trust, micro-segmentation, and behavioral analytics for hybrid workforce
+- Phased zero trust transformation following NIST 800-207 principles achieving 100% MFA coverage and network micro-segmentation
 related_templates:
 - security/Cloud-Security/cloud-security-architecture.md
 - security/Cybersecurity/security-architecture.md
 - security/Identity-Access-Management/privileged-access-management.md
 industries:
-- government
-- healthcare
 - technology
-type: template
+- financial-services
+- healthcare
+- government
+type: framework
 difficulty: intermediate
 slug: zero-trust-architecture
 ---
@@ -28,454 +27,125 @@ slug: zero-trust-architecture
 # Zero Trust Architecture Implementation
 
 ## Purpose
-Comprehensive framework for implementing zero trust security model, eliminating implicit trust, enforcing least privilege access, verifying every access request, and securing modern distributed environments with identity-centric controls.
+Design and implement zero trust security architecture eliminating implicit trust, enforcing continuous verification, least privilege access, and micro-segmentation to secure modern distributed environments against lateral movement and insider threats.
 
-## Quick Zero Trust Prompt
-Design zero trust architecture for [enterprise] with [X employees], [Y applications], [hybrid/cloud infrastructure]. Implement pillars: identity verification (MFA, SSO, conditional access), device trust (MDM, health checks), network micro-segmentation, application access (ZTNA replacing VPN), data protection. Follow NIST 800-207. Phased rollout: identity → device → network → workload. Deliver: architecture, policy framework, and 6-month implementation plan.
+## 🚀 Quick Zero Trust Prompt
 
-## Quick Start
-
-**Need to implement zero trust security?** Use this minimal example:
-
-### Minimal Example
-```
-Design zero trust architecture for our enterprise with 5000 employees, 200 cloud applications, hybrid infrastructure (AWS + on-prem), implementing identity verification, device trust, micro-segmentation, and continuous monitoring to replace VPN-based perimeter security.
-```
-
-### When to Use This
-- Replacing traditional perimeter-based security
-- Securing remote/hybrid workforce
-- Implementing cloud-first security strategy
-- Reducing breach impact and lateral movement
-- Meeting compliance requirements (NIST 800-207)
-
-### Basic 3-Step Workflow
-1. **Assess Current State** - Map users, devices, applications, data flows (2-4 hours)
-2. **Design Zero Trust Controls** - Identity verification, device trust, network segmentation (4-8 hours)
-3. **Implement & Monitor** - Deploy controls incrementally, monitor effectiveness (ongoing)
-
-**Time to complete**: 3-6 months for full implementation, start seeing benefits in weeks
+> Design zero trust for **[ORGANIZATION]** with **[EMPLOYEES]** employees, **[APPLICATIONS]** applications, **[INFRASTRUCTURE]** (cloud/hybrid). Pillars: identity (**[IDP]** + MFA), device trust (**[MDM/EDR]**), network (**[SEGMENTATION]**), application (**[ZTNA_PLATFORM]**), data (**[DLP]**). Replace VPN with **[ZTNA_SOLUTION]**. Follow **[NIST_800-207/CISA]**. Timeline: **[MONTHS]** months phased. Target: 100% MFA, zero standing network access, continuous monitoring.
 
 ---
 
 ## Template
 
-```markdown
-I need to implement a zero trust architecture. Please provide comprehensive zero trust design and implementation guidance.
-
-## ENVIRONMENT CONTEXT
-
-### Organization Profile
-- Organization size: [EMPLOYEES_USERS_DEVICES]
-- Industry: [TECHNOLOGY_FINANCE_HEALTHCARE_MANUFACTURING_GOVERNMENT]
-- Workforce model: [ON_SITE_REMOTE_HYBRID]
-- Geographic distribution: [SINGLE_LOCATION_MULTI_SITE_GLOBAL]
-- Compliance requirements: [NIST_800_207_PCI_DSS_HIPAA_SOC2_CMMC]
-
-### Current Security Posture
-- Current model: [PERIMETER_BASED_VPN_PARTIAL_ZERO_TRUST]
-- Identity provider: [ACTIVE_DIRECTORY_AZURE_AD_OKTA_PING_GOOGLE]
-- Access controls: [VPN_PROXY_CONDITIONAL_ACCESS_NAC]
-- Network architecture: [FLAT_SEGMENTED_MICROSEGMENTED]
-- Endpoint management: [MDM_EDR_NONE_PARTIAL]
-- Security monitoring: [SIEM_BASIC_ADVANCED_NONE]
-
-### Technology Landscape
-- Cloud platforms: [AWS_AZURE_GCP_MULTI_CLOUD_HYBRID]
-- Applications: [NUMBER_AND_TYPES]
-- Critical systems: [LIST_CRITICAL_ASSETS]
-- Data stores: [DATABASES_FILE_SHARES_OBJECT_STORAGE]
-- Network infrastructure: [ON_PREM_CLOUD_HYBRID_SD_WAN]
-- Device types: [CORPORATE_BYOD_CONTRACTORS_IOT]
-
-## ZERO TRUST PRINCIPLES
-
-Design architecture based on core principles:
-
-1. **Verify Explicitly**
-   - Always authenticate and authorize based on all available data points
-   - User identity, device health, location, application, data classification
-   - Continuous verification, not one-time authentication
-
-2. **Use Least Privilege Access**
-   - Just-in-time and just-enough-access (JIT/JEA)
-   - Risk-based adaptive policies
-   - Time-bound and scoped permissions
-   - Explicit deny by default
-
-3. **Assume Breach**
-   - Minimize blast radius and segment access
-   - Verify end-to-end encryption
-   - Use analytics to detect threats and improve defenses
-   - Continuous monitoring and response
-
-## ZERO TRUST ARCHITECTURE COMPONENTS
-
-### 1. Identity & Access Management
-Design identity-centric security:
-
-**Strong Authentication:**
-- Multi-factor authentication (MFA) for all users
-- Passwordless authentication (FIDO2, biometrics, certificates)
-- Risk-based adaptive authentication
-- Continuous authentication and session validation
-
-**Identity Governance:**
-- Centralized identity provider (IdP)
-- Single sign-on (SSO) for all applications
-- Identity lifecycle management
-- Access reviews and recertification
-- Privilege management
-
-**User & Entity Behavior Analytics (UEBA):**
-- Baseline normal behavior
-- Detect anomalies and risky activities
-- Risk scoring and adaptive policies
-- Automated response to threats
-
-Provide:
-- Identity architecture diagram
-- MFA implementation strategy
-- SSO integration approach
-- UEBA use cases
-
-### 2. Device Trust & Endpoint Security
-Ensure device compliance and security:
-
-**Device Registration & Management:**
-- Device inventory and registration
-- Mobile Device Management (MDM)
-- Endpoint Detection & Response (EDR)
-- Configuration management
-- Patch management
-
-**Device Health Verification:**
-- Compliance checks (OS version, patches, encryption)
-- Antivirus/EDR status
-- Certificate validation
-- Jailbreak/root detection
-- Hardware attestation (TPM)
-
-**Conditional Access:**
-- Device-based access policies
-- Compliant device requirements
-- BYOD vs corporate device policies
-- Quarantine for non-compliant devices
-
-Provide:
-- Device trust framework
-- Compliance policy definitions
-- Conditional access rules
-- BYOD security strategy
-
-### 3. Network Micro-Segmentation
-Eliminate lateral movement:
-
-**Segmentation Strategy:**
-- Application-level segmentation
-- User-based microsegmentation
-- Workload isolation
-- East-west traffic control
-- Software-defined perimeter (SDP)
-
-**Implementation Approaches:**
-- Network-based: VLANs, subnets, firewalls
-- Host-based: Host firewalls, security groups
-- Identity-based: Identity-aware proxies
-- Application-based: Service mesh, API gateways
-
-**Policy Enforcement:**
-- Least privilege network access
-- Application-to-application policies
-- Dynamic policy updates
-- Traffic inspection and filtering
-
-Provide:
-- Segmentation architecture
-- Policy enforcement points
-- Traffic flow diagrams
-- Implementation roadmap
-
-### 4. Application Security & Access Control
-Secure application access:
-
-**Application Discovery & Classification:**
-- Inventory all applications (SaaS, on-prem, custom)
-- Classify by criticality and data sensitivity
-- Map data flows and dependencies
-- Identify shadow IT
-
-**Secure Access Methods:**
-- Identity-aware proxy (IAP)
-- Cloud Access Security Broker (CASB)
-- Secure Web Gateway (SWG)
-- VPN replacement strategies
-- Private application access
-
-**Application-Level Controls:**
-- Fine-grained authorization (RBAC, ABAC)
-- API security and authentication
-- Session management
-- Activity logging and monitoring
-
-Provide:
-- Application inventory and classification
-- Access method selection guide
-- IAP/CASB architecture
-- Application security policies
-
-### 5. Data Protection & Classification
-Protect data everywhere:
-
-**Data Classification:**
-- Identify and classify sensitive data
-- Data discovery and mapping
-- Tagging and labeling strategy
-- Data lineage tracking
-
-**Data Security Controls:**
-- Encryption at rest and in transit
-- Data Loss Prevention (DLP)
-- Rights management (IRM/DRM)
-- Database activity monitoring
-- Tokenization and masking
-
-**Data Access Policies:**
-- Data-centric access controls
-- Context-aware policies
-- Geographic restrictions
-- Time-based access
-
-Provide:
-- Data classification scheme
-- DLP policy framework
-- Encryption strategy
-- Data access control matrix
-
-### 6. Visibility & Analytics
-Continuous monitoring and analysis:
-
-**Centralized Logging:**
-- Collect logs from all sources
-- Identity logs (authentication, authorization)
-- Network flows and connections
-- Application access and usage
-- Security events and alerts
-
-**Security Analytics:**
-- Behavioral analytics and baselining
-- Anomaly detection
-- Threat intelligence integration
-- Risk scoring and prioritization
-- Automated investigation
-
-**Security Orchestration:**
-- Automated response playbooks
-- Integration with SIEM/SOAR
-- Incident response workflows
-- Threat hunting capabilities
-
-Provide:
-- Logging and monitoring architecture
-- Analytics use cases
-- SIEM integration approach
-- Response automation examples
-
-### 7. Policy Engine & Decision Point
-Centralized policy management:
-
-**Policy Engine Design:**
-- Centralized policy repository
-- Policy evaluation and decision
-- Dynamic policy updates
-- Policy versioning and audit
-
-**Policy Types:**
-- Identity policies (authentication, authorization)
-- Device policies (compliance, health)
-- Network policies (segmentation, access)
-- Application policies (access, usage)
-- Data policies (classification, DLP)
-
-**Decision Enforcement:**
-- Policy Decision Point (PDP)
-- Policy Enforcement Point (PEP)
-- Real-time policy evaluation
-- Logging and auditing
-
-Provide:
-- Policy engine architecture
-- Policy definition examples
-- Decision flow diagrams
-- Enforcement mechanisms
-
-## IMPLEMENTATION APPROACH
-
-### Phase 1: Foundation (Months 1-2)
-**Objectives:**
-- Establish identity foundation
-- Deploy MFA universally
-- Implement SSO for key applications
-- Deploy endpoint security
-
-**Deliverables:**
-- Identity provider configuration
-- MFA rollout completion
-- SSO integration (top 20 apps)
-- EDR deployment
-
-### Phase 2: Network & Access (Months 3-4)
-**Objectives:**
-- Implement network segmentation
-- Deploy identity-aware proxy
-- Replace VPN with zero trust access
-- Enhance monitoring
-
-**Deliverables:**
-- Microsegmentation policies
-- IAP/ZTNA deployment
-- VPN migration plan
-- Enhanced SIEM integration
-
-### Phase 3: Applications & Data (Months 5-6)
-**Objectives:**
-- Secure all applications
-- Implement data classification
-- Deploy DLP controls
-- Enable advanced analytics
-
-**Deliverables:**
-- Complete application inventory
-- Data classification completion
-- DLP policy enforcement
-- UEBA deployment
-
-### Phase 4: Optimization (Ongoing)
-**Objectives:**
-- Continuous policy refinement
-- Advanced threat detection
-- Automation and orchestration
-- Compliance validation
-
-**Deliverables:**
-- Optimized policies
-- Automated response playbooks
-- Compliance reporting
-- Regular security assessments
-
-## TECHNOLOGY STACK RECOMMENDATIONS
-
-### Identity & Access
-- Identity Provider: Azure AD, Okta, Ping Identity
-- MFA: Duo, Azure MFA, Okta Verify
-- Privileged Access: CyberArk, BeyondTrust, Delinea
-
-### Network Security
-- Microsegmentation: VMware NSX, Cisco ACI, Illumio
-- Zero Trust Network Access: Zscaler, Palo Alto Prisma Access, Cloudflare Access
-- SD-WAN: VMware VeloCloud, Cisco Meraki, Fortinet
-
-### Endpoint Security
-- EDR: CrowdStrike, Microsoft Defender, SentinelOne
-- MDM: Microsoft Intune, VMware Workspace ONE, Jamf
-- Device Trust: Microsoft Endpoint Manager, Google BeyondCorp
-
-### Data Protection
-- DLP: Microsoft Purview, Symantec DLP, Forcepoint
-- CASB: Microsoft Defender for Cloud Apps, Netskope, Zscaler
-- Encryption: BitLocker, Azure Information Protection
-
-### Analytics & Monitoring
-- SIEM: Splunk, Microsoft Sentinel, Elastic Security
-- UEBA: Microsoft Sentinel, Exabeam, Securonix
-- SOAR: Palo Alto Cortex XSOAR, Splunk SOAR
-
-## SUCCESS METRICS
-
-Define and track:
-
-1. **Security Metrics:**
-   - Reduction in security incidents
-   - Mean time to detect (MTTD)
-   - Mean time to respond (MTTR)
-   - Lateral movement prevention
-   - Privileged access compliance
-
-2. **Access Metrics:**
-   - MFA adoption rate (target: 100%)
-   - SSO coverage (target: 95%+)
-   - Policy violation incidents
-   - Failed access attempts
-   - Access request fulfillment time
-
-3. **Compliance Metrics:**
-   - Compliance framework adherence
-   - Audit finding reduction
-   - Policy compliance rate
-   - Access review completion
-   - Certificate/credential hygiene
-
-4. **User Experience Metrics:**
-   - User satisfaction scores
-   - Authentication time
-   - Application access time
-   - Support ticket volume
-   - Friction points identified
-
-## OUTPUT REQUIREMENTS
-
-Please provide:
-
-1. **Architecture Design**
-   - Zero trust architecture diagram
-   - Component integration flows
-   - Network topology
-   - Policy enforcement points
-
-2. **Implementation Roadmap**
-   - Phased implementation plan
-   - Milestones and timelines
-   - Resource requirements
-   - Risk mitigation strategies
-
-3. **Technical Specifications**
-   - Identity provider configuration
-   - MFA implementation guide
-   - Network segmentation policies
-   - Application access controls
-
-4. **Policies & Procedures**
-   - Access policies by role
-   - Device compliance policies
-   - Incident response procedures
-   - Change management process
-
-5. **Monitoring & Metrics**
-   - KPI dashboard design
-   - Monitoring requirements
-   - Alert definitions
-   - Reporting templates
-```
+Implement zero trust architecture for {ORGANIZATION} with {EMPLOYEE_COUNT} employees across {APPLICATIONS} applications achieving {COMPLIANCE_FRAMEWORK} compliance with {IMPLEMENTATION_TIMELINE} phased rollout.
+
+**ZERO TRUST PRINCIPLES**
+
+Design architecture around three core principles from NIST 800-207. Verify explicitly: authenticate and authorize based on all available data points (user identity, device health, location, application sensitivity, data classification), never trust based on network location alone. Least privilege access: grant just-in-time and just-enough-access for specific tasks, time-bound permissions, explicit deny by default. Assume breach: minimize blast radius through segmentation, verify end-to-end encryption, use analytics for threat detection, monitor continuously.
+
+Eliminate implicit trust from traditional security models. Network trust: remove assumption that internal network is safe, treat all networks as hostile. Device trust: don't assume corporate devices are secure, verify health continuously. User trust: don't trust based on successful authentication alone, monitor behavior throughout session. Application trust: validate application identity, enforce service-to-service authentication.
+
+**IDENTITY VERIFICATION**
+
+Implement strong authentication as foundation. MFA everywhere: no exceptions for any user, any application, any access method—100% coverage required. MFA methods: push notifications (Duo, Okta Verify, Microsoft Authenticator), FIDO2 hardware keys (YubiKey for privileged users), biometrics (Windows Hello, Touch ID). Passwordless: eliminate passwords where possible with FIDO2, certificate-based, or push-to-approve. Phishing-resistant MFA: FIDO2 keys prevent credential theft, phishing attacks cannot succeed.
+
+Configure identity provider as central authority. SSO for all applications: single authentication grants access to permitted applications, reduces password sprawl. SAML/OIDC integration: standardized protocols for consistent authentication experience. Conditional access: policies based on user, device, location, application sensitivity—dynamic risk evaluation. Session management: continuous session validation, re-authentication on risk change, timeout for inactive sessions.
+
+Implement behavioral analytics for continuous verification. Baseline normal behavior: typical access times, devices, locations, applications per user. Detect anomalies: unusual access patterns (new device, impossible travel, off-hours), risky activities. Risk-based response: step-up authentication for elevated risk, block access for high risk, alert security for investigation. Integration: identity provider + SIEM + UEBA for comprehensive view.
+
+**DEVICE TRUST**
+
+Establish device identity and management. Device registration: all devices must be registered before accessing resources, unique device identity. Corporate devices: MDM enrollment (Intune, Workspace ONE, Jamf), full management capabilities. BYOD: limited enrollment, app-level management (MAM), separate work profile (Android Enterprise, iOS managed apps). Contractor devices: application-level access only, no device trust, additional authentication required.
+
+Verify device health before granting access. Compliance checks: OS version current, patches applied, disk encryption enabled, screen lock configured. Security posture: EDR installed and running, no malware detected, firewall enabled. Certificate validation: device certificate present and valid, ties access to specific device. Hardware attestation: TPM-based health attestation (Windows), Secure Enclave (Apple), verifies boot integrity.
+
+Enforce device-based conditional access. Compliant device required: access to sensitive applications only from compliant managed devices. Remediation flow: non-compliant device gets blocked → user sees remediation steps → compliance achieved → access granted. Device risk: integrate EDR signals (CrowdStrike ZTA, Defender for Endpoint) into access decisions. Quarantine: high-risk devices blocked from all access until remediated.
+
+**NETWORK MICRO-SEGMENTATION**
+
+Eliminate flat network and lateral movement. Default deny: all traffic blocked unless explicitly permitted, opposite of traditional allow-by-default. Application-centric: segment based on application, not network location, applications isolated from each other. User-based: access determined by user identity, not network connection. Workload isolation: production separated from development, sensitive data in restricted segments.
+
+Implement segmentation at multiple layers. Network-based: VLANs, subnets, next-gen firewalls with application awareness, east-west traffic inspection. Host-based: host firewalls (Windows Firewall, iptables), security groups (AWS, Azure), pod network policies (Kubernetes). Identity-based: identity-aware proxy routes traffic based on user identity, not IP address. Software-defined: NSX, Illumio, Cisco ACI for dynamic policy enforcement, micro-segmentation without network changes.
+
+Replace VPN with Zero Trust Network Access. ZTNA benefits: per-application access (not full network), no exposed VPN concentrator, device posture verification. ZTNA architecture: user authenticates → device posture checked → access granted to specific application only. Platform options: Zscaler Private Access (cloud-delivered), Palo Alto Prisma Access (integrated SASE), Cloudflare Access (simple deployment), Microsoft Entra Private Access (Azure-native). Migration: parallel operation during transition, migrate by application criticality, decommission VPN after complete migration.
+
+**APPLICATION ACCESS**
+
+Inventory and classify all applications. Discovery: identify all applications (SaaS, on-premises, custom), including shadow IT. Classification: public (low sensitivity), internal (business data), confidential (sensitive data), restricted (regulated data). Criticality: tier 1 (revenue-impacting), tier 2 (important operations), tier 3 (departmental). Data mapping: which applications access sensitive data, data flows between applications.
+
+Implement identity-aware application access. Identity-aware proxy: users authenticate, IAP verifies identity and device, then proxies connection to application. CASB for SaaS: Cloud Access Security Broker provides visibility and control over SaaS applications. Private application access: ZTNA connector in data center/cloud, no inbound firewall rules, outbound-only connections. API security: OAuth 2.0 for API authentication, API gateway with rate limiting, service mesh for service-to-service.
+
+Enforce fine-grained authorization. RBAC: role-based access control for standard permissions, roles mapped to job functions. ABAC: attribute-based for complex policies (user department + data classification + time of day). Just-in-time: elevated access for specific tasks, automatic expiration, approval workflow. Session controls: browser isolation for risky applications, watermarking, copy/paste restrictions, download prevention.
+
+**DATA PROTECTION**
+
+Classify and discover sensitive data. Classification scheme: public, internal, confidential, restricted—aligned with regulatory requirements. Automated discovery: scan repositories for sensitive data (PII, PHI, PCI), Microsoft Purview, Amazon Macie. Labeling: persistent labels on files, inheritance through workflows, user-applied and automatic. Data mapping: where sensitive data resides, how it flows, who accesses it.
+
+Implement data-centric security controls. Encryption: at rest (AES-256, disk encryption, database TDE), in transit (TLS 1.3, mutual TLS). Data Loss Prevention: detect and prevent sensitive data exfiltration, cloud DLP (Purview, Symantec, Forcepoint). Rights management: persistent protection on documents, access revocation capability. Tokenization: substitute sensitive data with tokens, de-tokenization only with authorization.
+
+Enforce data access policies. Context-aware: access decision based on user, device, location, application, data sensitivity. Geographic restrictions: restrict access to data based on location, data residency requirements. Time-based: access only during business hours, emergency access with enhanced logging. Download restrictions: view in browser only for sensitive data, no local copies on unmanaged devices.
+
+**VISIBILITY AND ANALYTICS**
+
+Centralize logging for complete visibility. Log sources: identity events (authentication, authorization), network flows (allow, deny, connections), application access (logins, actions, data access), endpoint events (process execution, file access). Collection: forward all logs to central SIEM (Splunk, Sentinel, Elastic), retention per compliance (1 year minimum). Correlation: link events across sources with user identity, device identity, session identifiers.
+
+Implement security analytics and threat detection. Behavioral baselines: ML-based learning of normal patterns per user, device, application. Anomaly detection: deviations from baseline trigger alerts (unusual access time, new application, bulk data access). Threat intelligence: integrate IOCs, correlate with observed activity. Risk scoring: combine signals into unified risk score per user, per session, per device.
+
+Automate response to threats. Playbooks: automated response to common threats (account compromise, malware detection, data exfiltration). Containment: automatic session termination, account lockout, device quarantine. Orchestration: SOAR integration for complex multi-step responses (Cortex XSOAR, Splunk SOAR). Investigation: automated evidence collection, timeline reconstruction, analyst workflow integration.
+
+**POLICY ENGINE**
+
+Centralize policy management and enforcement. Policy Decision Point (PDP): central component that evaluates access requests against policies. Policy Enforcement Point (PEP): distributed enforcement at each access point (IAP, firewall, application). Policy Administration: single console for policy creation, testing, deployment, versioning. Real-time evaluation: every access request evaluated, no cached decisions, dynamic policy updates.
+
+Design policies for zero trust access. Identity policies: authentication requirements (MFA method by risk), session duration, re-authentication triggers. Device policies: minimum compliance requirements, device type restrictions, platform-specific rules. Network policies: application access rules, traffic flow controls, encryption requirements. Data policies: access based on classification, DLP rules, retention requirements. Composite policies: combine identity + device + network + data for access decision.
+
+**IMPLEMENTATION ROADMAP**
+
+Phase 1 Foundation (Months 1-2): establish identity and visibility. Identity: deploy MFA for all users (100% coverage in 8 weeks), integrate SSO for top 20 applications, configure conditional access baseline. Endpoints: deploy EDR to all managed devices, enable device compliance policies, configure health attestation. Visibility: onboard identity and endpoint logs to SIEM, create baseline dashboards, establish alerting. Quick wins: block legacy authentication, enable sign-in risk policies, quarantine non-compliant devices.
+
+Phase 2 Network and Access (Months 3-4): replace perimeter with zero trust. ZTNA: deploy zero trust network access platform, migrate 50% of VPN users to ZTNA. Segmentation: implement network micro-segmentation for critical applications, east-west traffic inspection. Application: deploy identity-aware proxy for internal applications, integrate CASB for SaaS. Monitoring: network flow analysis, application access logging, anomaly detection activation.
+
+Phase 3 Applications and Data (Months 5-6): complete zero trust transformation. Applications: extend ZTNA to all applications, complete VPN decommissioning, SSO integration 95%+ coverage. Data: deploy data classification for sensitive repositories, enable DLP policies, rights management for confidential data. Analytics: UEBA deployment, automated investigation playbooks, threat hunting program. Optimization: policy tuning based on data, user experience improvements, performance optimization.
+
+Deliver zero trust architecture as:
+
+1. **ARCHITECTURE DESIGN** - Component diagram, integration flows, policy enforcement points, network topology
+
+2. **IDENTITY STRATEGY** - IdP configuration, MFA rollout, SSO integration plan, conditional access policies
+
+3. **DEVICE TRUST FRAMEWORK** - Compliance policies, health verification, BYOD vs corporate device strategy
+
+4. **NETWORK SEGMENTATION** - Micro-segmentation design, ZTNA deployment, VPN migration plan
+
+5. **APPLICATION ACCESS** - Application inventory, ZTNA/IAP configuration, authorization model
+
+6. **DATA PROTECTION** - Classification scheme, DLP policies, encryption strategy
+
+7. **MONITORING SETUP** - Log sources, analytics use cases, response playbooks, KPI dashboard
 
 ---
 
-## Best Practices
+## Usage Examples
 
-1. **Start with Identity** - Strong identity foundation is critical
-2. **Implement MFA Everywhere** - No exceptions for any user
-3. **Adopt Incrementally** - Phase implementation to manage risk and complexity
-4. **Monitor Continuously** - Visibility is essential for zero trust
-5. **Educate Users** - Change management and training are key to success
-6. **Automate Policy Enforcement** - Manual processes don't scale
-7. **Test Regularly** - Validate controls through testing and exercises
-8. **Measure Success** - Track metrics and iterate based on results
+### Example 1: Enterprise Hybrid Workforce
+**Prompt:** Design zero trust for GlobalCorp with 10,000 employees, 200 applications (50% SaaS, 50% on-prem), hybrid infrastructure (Azure + on-prem data centers), replacing VPN-based access.
+
+**Expected Output:** Identity: Azure AD as IdP, MFA via Authenticator (push) for standard users + FIDO2 keys for privileged, conditional access policies (compliant device + MFA + location), SSO for all 200 applications via SAML/OIDC. Device trust: Intune for Windows/macOS, compliance policies (encryption, OS current, Defender enabled), device compliance required for internal apps, MAM-only for BYOD. Network: Zscaler Private Access for ZTNA (replace GlobalProtect VPN), Zscaler Internet Access for SWG, micro-segmentation via Azure NSGs + on-prem Illumio. Applications: Zscaler app connectors in each data center, CASB (Defender for Cloud Apps) for SaaS, identity-aware proxy for legacy apps. Data: Microsoft Purview for classification and DLP, sensitivity labels on M365 content, Azure Information Protection for encryption. Monitoring: Microsoft Sentinel as SIEM, UEBA with Sentinel analytics, Defender XDR for threat detection, automated playbooks for account compromise. Timeline: Phase 1 (MFA + Intune) 2 months, Phase 2 (ZTNA pilot 20%) 2 months, Phase 3 (full ZTNA + VPN decommission) 2 months.
+
+### Example 2: Healthcare HIPAA Environment
+**Prompt:** Design zero trust for HealthSystem with 5,000 clinical and administrative staff, Epic EHR, medical devices, achieving HIPAA compliance with PHI protection.
+
+**Expected Output:** Identity: Okta as IdP with Epic integration, MFA via Okta Verify (clinical staff use badge tap + PIN at shared workstations), conditional access (role-based + device + location), session timeout 15 minutes for PHI systems. Device trust: Jamf for clinical Macs, Intune for Windows, medical device network isolation, clinical workstations certificate-authenticated. Network: Palo Alto Prisma Access for ZTNA, medical device VLAN isolation, micro-segmentation between clinical departments, no cross-department lateral movement. Epic access: ZTNA connector for Hyperspace, web access via IAP, context-aware access (clinical role + patient assignment + location), session recording for audit. Data: Epic data stays in Epic (no export without approval), DLP blocks PHI in email/cloud storage, automatic classification of PHI, encryption at rest with customer-managed keys. Medical devices: network isolation, certificate-based device authentication, monitored network access, vendor access via privileged access management. Monitoring: SIEM with healthcare-specific use cases (PHI access anomalies, after-hours access, bulk record access), HIPAA audit reports, 7-year log retention. Compliance: audit logging for all PHI access, access recertification quarterly, BAA with all vendors.
+
+### Example 3: Federal Government FedRAMP
+**Prompt:** Design zero trust for FedAgency following CISA Zero Trust Maturity Model and OMB M-22-09 requirements achieving FedRAMP High compliance.
+
+**Expected Output:** Identity: agency-wide identity solution (Login.gov or agency IdP), phishing-resistant MFA (PIV/CAC primary, FIDO2 alternate), Azure Government AD as cloud IdP, continuous authentication throughout session. Device trust: CDM integration for device visibility, endpoint compliance (STIG-compliant configuration, CrowdStrike EDR), hardware attestation required, no BYOD for sensitive systems. Network: software-defined perimeter per NIST 800-207, application-level micro-segmentation, encrypted DNS, TIC 3.0 compliance. Application: agency-wide ZTNA (CISA-approved vendors), application-specific access policies, service-to-service zero trust (mTLS, SPIFFE/SPIRE). Data: CUI protection per NIST 800-171, data classification (CUI, SBU, PII), DLP for email and endpoints, encryption with FIPS 140-2 validated modules. Monitoring: agency-wide SIEM with CISA integration, automated IOC sharing, continuous monitoring per FISMA, CDM data feeds. Maturity progression: CISA ZTM target levels (Identity: Advanced, Device: Advanced, Network: Traditional→Advanced, Application: Advanced, Data: Optimal). Compliance: FedRAMP High controls mapped to zero trust capabilities, continuous ATO, monthly POA&M reviews.
 
 ---
 
-## Related Resources
+## Cross-References
 
-- [NIST SP 800-207: Zero Trust Architecture](https://csrc.nist.gov/publications/detail/sp/800-207/final)
-- [CISA Zero Trust Maturity Model](https://www.cisa.gov/zero-trust-maturity-model)
-- security/Cloud-Security/cloud-security-architecture.md
-- security/Identity-Access-Management/privileged-access-management.md
-- security/Cybersecurity/security-architecture.md
+- [Privileged Access Management](privileged-access-management.md) - PAM controls for privileged users in zero trust
+- [Cloud Security Architecture](../Cloud-Security/cloud-security-architecture.md) - Cloud-specific zero trust patterns
+- [Security Architecture](../Cybersecurity/security-architecture.md) - Enterprise security architecture context

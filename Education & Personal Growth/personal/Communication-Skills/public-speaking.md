@@ -1,18 +1,19 @@
 ---
-title: Public Speaking Template
+title: Public Speaking Readiness Assessment
 category: personal
 tags:
 - public-speaking
 - presentation-skills
+- readiness-assessment
 - speech-delivery
 - audience-engagement
 use_cases:
-- Creating compelling speeches, presentations, and pitches that engage audiences,
-  convey messages effectively, and inspire action through structured content delivery
-  and confident presentation techniques.
-- Project planning and execution
-- Strategy development
-last_updated: 2025-11-09
+- Evaluating readiness to deliver compelling speeches and presentations
+- Assessing preparation before keynotes, pitches, or important talks
+- Identifying gaps in speech content, delivery skills, and confidence management
+related_templates:
+- personal/Communication-Skills/networking.md
+- personal/Communication-Skills/negotiation.md
 industries:
 - education
 - finance
@@ -20,266 +21,314 @@ industries:
 - manufacturing
 - retail
 - technology
-type: template
+type: framework
 difficulty: intermediate
-slug: public-speaking
+slug: public-speaking-readiness-assessment
 ---
 
-# Public Speaking Template
+# Public Speaking Readiness Assessment
 
 ## Purpose
-Create compelling speeches, presentations, and pitches that engage audiences, convey messages effectively, and inspire action through structured content delivery and confident presentation techniques.
+Assess readiness to deliver effective public speeches and presentations across six dimensions: Content Quality, Audience Understanding, Delivery Skills, Confidence Management, Visual/Technical Preparation, and Engagement Strategy. This framework identifies preparation gaps, strengthens presentation impact, and builds speaker confidence.
 
-## Quick Public Speaking Prompt
+## 🚀 Quick Assessment Prompt
 
-Help me prepare a [speech type - keynote/presentation/pitch/toast] about [topic] for [audience type] lasting [duration]. My core message is [one key takeaway] and my objective is to [inform/persuade/inspire/entertain]. Create an attention-grabbing opening hook, three main points with supporting examples, smooth transitions, and a memorable closing with clear call to action. Include tips for managing nerves and engaging the audience.
+> Assess **public speaking readiness** for **{SPEECH_TYPE}** to **{AUDIENCE}** about **{TOPIC}** (duration: **{DURATION}**). Evaluate across: (1) **Content quality**—is message clear? Structure logical? Evidence compelling? Opening hook strong? (2) **Audience understanding**—do I know their knowledge level, interests, pain points? Is content tailored? (3) **Delivery skills**—voice projection, pacing, body language, eye contact? Rehearsal level? (4) **Confidence management**—are nerves under control? Backup plans for mistakes? Mental preparation? (5) **Visual/technical prep**—are slides clear? Tech tested? Backups ready? (6) **Engagement strategy**—how will I maintain attention? Handle Q&A? Create memorable moments? Provide a readiness scorecard (1-5 per dimension), delivery strategy, rehearsal plan, and success tactics.
 
-## Quick Start
+**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for rapid public speaking readiness evaluation.
 
-Need to prepare a speech quickly? Follow this proven framework:
-
-1. Write your core message in one sentence: What's the ONE thing your audience should remember?
-2. Find your hook: Start with a surprising statistic, personal story, or provocative question
-3. Structure with the Rule of Three: Organize your content into exactly three main points (our brains love patterns)
-4. Practice out loud at least three times: You'll discover awkward phrases and get comfortable with your material
-5. Prepare for nerves: Take three deep breaths before speaking and focus on one friendly face in the audience
-
-Remember: Your audience wants you to succeed. They're rooting for you, not looking for mistakes. Start small, perhaps with a toast at dinner, and build your confidence from there.
+---
 
 ## Template
 
-```
-You are a public speaking expert. Create [SPEECH_TYPE] for [TARGET_AUDIENCE] about [SPEECH_TOPIC] using [PRESENTATION_STYLE] to achieve [SPEECH_OBJECTIVE] with [DELIVERY_METHOD].
+Assess public speaking readiness for {SPEECH_TYPE} to {AUDIENCE} about {TOPIC} with duration of {DURATION}.
 
-SPEECH FRAMEWORK:
-Topic: [SPEECH_TOPIC]
-Audience: [TARGET_AUDIENCE]
-Duration: [SPEECH_DURATION]
-Objective: [SPEECH_OBJECTIVE]
-Style: [PRESENTATION_STYLE]
-Setting: [SPEAKING_VENUE]
-Delivery: [DELIVERY_METHOD]
+Evaluate readiness across six dimensions, scoring each 1-5:
 
-### SPEECH STRUCTURE
-Opening: [SPEECH_OPENING]
-- Attention grabber: [ATTENTION_GRABBER]
-- Credibility establishment: [CREDIBILITY_STATEMENT]
-- Preview: [SPEECH_PREVIEW]
-- Hook: [OPENING_HOOK]
+**1. CONTENT QUALITY**
+- Core message clarity and memorability
+- Logical structure and flow
+- Evidence strength and credibility
+- Opening hook and closing call-to-action effectiveness
 
-Main Body: [SPEECH_BODY]
-Point 1: [MAIN_POINT_ONE]
-- Evidence: [SUPPORTING_EVIDENCE_ONE]
-- Story: [STORY_EXAMPLE_ONE]
-- Transition: [TRANSITION_ONE]
+**2. AUDIENCE UNDERSTANDING**
+- Audience knowledge level and expertise
+- Interest areas and pain points
+- Cultural context and sensitivities
+- Content tailoring and relevance
 
-Point 2: [MAIN_POINT_TWO]
-- Evidence: [SUPPORTING_EVIDENCE_TWO]
-- Story: [STORY_EXAMPLE_TWO]
-- Transition: [TRANSITION_TWO]
+**3. DELIVERY SKILLS**
+- Voice projection, pace, and clarity
+- Body language and stage presence
+- Eye contact and audience connection
+- Rehearsal completeness and comfort level
 
-Point 3: [MAIN_POINT_THREE]
-- Evidence: [SUPPORTING_EVIDENCE_THREE]
-- Story: [STORY_EXAMPLE_THREE]
-- Transition: [TRANSITION_THREE]
+**4. CONFIDENCE MANAGEMENT**
+- Nervousness level and control strategies
+- Recovery plans for mistakes or technical issues
+- Mental preparation and visualization
+- Energy and enthusiasm sustainability
 
-Conclusion: [SPEECH_CONCLUSION]
-- Summary: [KEY_POINTS_SUMMARY]
-- Call to action: [CALL_TO_ACTION]
-- Memorable closing: [MEMORABLE_ENDING]
+**5. VISUAL/TECHNICAL PREPARATION**
+- Slide clarity and design effectiveness
+- Technical setup testing and backups
+- Venue familiarity and logistics
+- Materials and equipment readiness
 
-### DELIVERY TECHNIQUES
-Voice Control: [VOICE_TECHNIQUE]
-- Pace: [SPEECH_PACE]
-- Volume: [VOICE_VOLUME]
-- Tone: [VOICE_TONE]
-- Inflection: [VOICE_INFLECTION]
-- Pauses: [STRATEGIC_PAUSES]
-
-Body Language: [BODY_LANGUAGE]
-- Posture: [SPEAKER_POSTURE]
-- Gestures: [HAND_GESTURES]
-- Eye contact: [EYE_CONTACT_PATTERN]
-- Movement: [STAGE_MOVEMENT]
-- Facial expressions: [FACIAL_EXPRESSIONS]
-
-Visual Aids: [VISUAL_SUPPORT]
-- Slides: [SLIDE_CONTENT]
-- Props: [PRESENTATION_PROPS]
-- Handouts: [AUDIENCE_HANDOUTS]
-- Technology: [TECH_REQUIREMENTS]
-
-### AUDIENCE ENGAGEMENT
-Interaction: [AUDIENCE_INTERACTION]
-- Questions: [QUESTION_STRATEGY]
-- Polls: [AUDIENCE_POLLS]
-- Activities: [ENGAGEMENT_ACTIVITIES]
-- Participation: [PARTICIPATION_METHODS]
-
-Response Management: [RESPONSE_HANDLING]
-- Q&A preparation: [QA_PREPARATION]
-- Difficult questions: [DIFFICULT_QUESTION_HANDLING]
-- Heckler management: [DISRUPTION_MANAGEMENT]
-- Follow-up: [POST_SPEECH_FOLLOW_UP]
-
-### PREPARATION CHECKLIST
-Content: [CONTENT_PREPARATION]
-- Research: [TOPIC_RESEARCH]
-- Sources: [INFORMATION_SOURCES]
-- Facts: [SUPPORTING_FACTS]
-- Statistics: [RELEVANT_STATISTICS]
-- Quotes: [MEMORABLE_QUOTES]
-
-Practice: [REHEARSAL_PLAN]
-- Script review: [SCRIPT_FAMILIARITY]
-- Timing: [SPEECH_TIMING]
-- Recording: [PRACTICE_RECORDING]
-- Feedback: [REHEARSAL_FEEDBACK]
-- Revisions: [CONTENT_REVISIONS]
-
-Logistics: [VENUE_PREPARATION]
-- Equipment: [EQUIPMENT_CHECK]
-- Setup: [ROOM_SETUP]
-- Backup plans: [CONTINGENCY_PLANS]
-- Materials: [PRESENTATION_MATERIALS]
-- Arrival time: [ARRIVAL_SCHEDULE]
-
-### SPEECH TYPES
-Informative: [INFORMATIVE_CONTENT]
-- Educational: [EDUCATIONAL_APPROACH]
-- Explanatory: [EXPLANATION_METHOD]
-- Demonstrative: [DEMONSTRATION_TECHNIQUE]
-- Descriptive: [DESCRIPTION_STYLE]
-
-Persuasive: [PERSUASIVE_CONTENT]
-- Argumentative: [ARGUMENT_STRUCTURE]
-- Motivational: [MOTIVATION_TECHNIQUE]
-- Sales: [SALES_APPROACH]
-- Advocacy: [ADVOCACY_METHOD]
-
-Entertainment: [ENTERTAINMENT_CONTENT]
-- Humorous: [HUMOR_INTEGRATION]
-- Storytelling: [NARRATIVE_TECHNIQUE]
-- Inspirational: [INSPIRATION_METHOD]
-- Ceremonial: [CEREMONIAL_APPROACH]
-
-### ANXIETY MANAGEMENT
-Pre-Speech: [ANXIETY_PREPARATION]
-- Visualization: [SUCCESS_VISUALIZATION]
-- Breathing: [BREATHING_EXERCISES]
-- Positive self-talk: [CONFIDENCE_BUILDING]
-- Physical preparation: [PHYSICAL_READINESS]
-
-During Speech: [IN_MOMENT_TECHNIQUES]
-- Grounding: [GROUNDING_METHODS]
-- Focus: [ATTENTION_FOCUS]
-- Recovery: [MISTAKE_RECOVERY]
-- Adaptability: [SITUATION_ADAPTATION]
-
-Complete speech with engaging content, confident delivery, and effective audience connection for maximum impact.
-
-Final Speech: [COMPLETE_SPEECH_TEXT]
+**6. ENGAGEMENT STRATEGY**
+- Attention maintenance tactics
+- Interactive elements and audience participation
+- Q&A preparation and handling strategy
+- Memorable moments and storytelling
 
 ---
 
-### Speech Effectiveness Check
-✓ Clear message: [MESSAGE_CLARITY]
-✓ Audience engagement: [ENGAGEMENT_LEVEL]
-✓ Confident delivery: [DELIVERY_CONFIDENCE]
-✓ Memorable content: [CONTENT_MEMORABILITY]
-✓ Objective achievement: [OBJECTIVE_SUCCESS]
+## Required Output Format
 
-Speech quality: [SPEECH_QUALITY_RATING]
-```
+Deliver your assessment as:
+
+**1. EXECUTIVE SUMMARY**
+- Overall readiness score (X.X/5) and delivery confidence level
+- Top 3 strengths supporting successful presentation
+- Top 3 gaps requiring immediate attention
+- Recommended additional preparation (rehearsal hours, content edits, coaching)
+
+**2. DIMENSION SCORECARD**
+
+| Dimension | Score | Key Finding | Priority Actions |
+|-----------|-------|-------------|------------------|
+| Content Quality | X.X/5 | [finding] | [actions] |
+| Audience Understanding | X.X/5 | [finding] | [actions] |
+| Delivery Skills | X.X/5 | [finding] | [actions] |
+| Confidence Management | X.X/5 | [finding] | [actions] |
+| Visual/Technical Prep | X.X/5 | [finding] | [actions] |
+| Engagement Strategy | X.X/5 | [finding] | [actions] |
+
+**3. PRESENTATION STRATEGY**
+Based on readiness assessment:
+- **Opening approach:** Story / Shocking statistic / Question / Bold statement
+- **Content structure:** Rule of Three / Problem-Solution / Chronological / Comparison
+- **Delivery style:** Conversational / Authoritative / Inspirational / Educational
+- **Risk mitigation:** Backup plans for top 3 potential issues
+
+**4. SPEECH FRAMEWORK**
+Provide structure with timing:
+- **Opening (X min):** Hook + credibility + preview
+- **Point 1 (X min):** Main idea + evidence + story/example + transition
+- **Point 2 (X min):** Main idea + evidence + story/example + transition
+- **Point 3 (X min):** Main idea + evidence + story/example + transition
+- **Closing (X min):** Summary + call-to-action + memorable closer
+
+**5. REHEARSAL PLAN**
+- **Rehearsal 1:** Content walkthrough (focus on flow and transitions)
+- **Rehearsal 2:** Full delivery practice (focus on timing and pacing)
+- **Rehearsal 3:** Performance simulation (full tech, standing, audience simulation)
+- **Pre-speech:** Final run-through of opening and closing (confidence boost)
+
+**6. SUCCESS METRICS**
+Define successful presentation:
+- **Content impact:** Audience remembers core message, asks engaged questions
+- **Delivery quality:** Clear voice, confident body language, minimal filler words
+- **Audience response:** Attention maintained, positive feedback, desired action taken
+- **Personal performance:** Managed nerves, recovered from mistakes, felt authentic
+
+---
+
+## Maturity Scale
+
+Use this scale for dimension scoring:
+
+**1.0-1.9 (Unprepared):** Unclear message, no audience research, minimal rehearsal, high anxiety, no tech prep
+
+**2.0-2.9 (Basic):** Message exists but unfocused, generic content, limited practice, nervous, basic slides
+
+**3.0-3.9 (Prepared):** Clear message, audience-appropriate content, multiple rehearsals, managed nerves, solid visuals
+
+**4.0-4.9 (Polished):** Compelling message, deeply tailored content, extensive practice, confident delivery, professional visuals, engagement strategies
+
+**5.0 (Masterful):** Unforgettable message, perfectly calibrated content, effortless delivery, commanding presence, stunning visuals, audience captivated
+
+---
 
 ## Variables
-[400+ variables for public speaking including speech structure, delivery techniques, audience engagement, preparation methods, anxiety management, and effectiveness measures]
 
-## Usage Examples
+| Variable | Description | Example |
+|----------|-------------|---------|
+| {SPEECH_TYPE} | The format and nature of presentation | "Conference keynote", "Sales pitch to executive team", "Technical deep-dive for engineers", "Wedding toast", "TED-style talk" |
+| {AUDIENCE} | Who will be listening | "500 marketing professionals at industry conference", "5 C-level executives deciding on purchase", "30 senior engineers in team meeting", "100 wedding guests", "2000 live + virtual attendees" |
+| {TOPIC} | The subject of the speech | "The future of AI in marketing", "ROI of our platform", "Microservices migration strategy", "The couple's love story", "How failure led to my greatest success" |
+| {DURATION} | Length of presentation | "20-minute keynote", "45-minute technical presentation", "3-minute toast", "5-minute pitch", "60-minute workshop" |
 
-## Best Practices
+---
 
-1. **Start with clear objectives** - Define what success looks like before beginning
-2. **Use data to inform decisions** - Base choices on evidence and measurable outcomes
-3. **Iterate and improve continuously** - Treat implementation as an ongoing process
-4. **Engage stakeholders early** - Include key participants in planning and execution
-5. **Document thoroughly** - Maintain clear records for reference and knowledge transfer
-6. **Communicate regularly** - Keep all parties informed of progress and changes
-7. **Address challenges proactively** - Identify potential issues before they become problems
-8. **Celebrate milestones** - Recognize achievements to maintain motivation
-9. **Learn from experience** - Reflect on what works and adjust accordingly
-10. **Stay flexible** - Be ready to adapt based on feedback and changing circumstances
+## Example
 
-## Tips for Success
-
-- Break complex tasks into manageable steps with clear milestones
-- Set realistic timelines that account for dependencies and constraints
-- Allocate sufficient resources including time, budget, and personnel
-- Use templates and frameworks to ensure consistency and quality
-- Seek feedback from users and stakeholders throughout the process
-- Build in checkpoints to assess progress and make adjustments
-- Maintain quality standards while remaining practical and efficient
-- Document lessons learned for future reference and improvement
-- Foster collaboration across teams and departments
-- Stay current with industry best practices and emerging trends
-### Example 1: Business Presentation
+### Input
 ```
-SPEECH_TYPE: "Business proposal presentation"
-TARGET_AUDIENCE: "Executive board members"
-SPEECH_TOPIC: "Digital transformation initiative"
-PRESENTATION_STYLE: "Professional and data-driven"
-SPEECH_OBJECTIVE: "Secure funding and approval"
-DELIVERY_METHOD: "In-person with slides"
+SPEECH_TYPE: "Conference keynote presentation"
+AUDIENCE: "350 product managers at annual PM Summit (mix of junior to senior, B2B/B2C)"
+TOPIC: "Building AI products that users actually trust"
+DURATION: "25 minutes including Q&A"
 ```
 
-### Example 2: Motivational Speech
+### Output
 ```
-SPEECH_TYPE: "Motivational keynote"
-TARGET_AUDIENCE: "Sales team"
-SPEECH_TOPIC: "Overcoming challenges and achieving goals"
-PRESENTATION_STYLE: "Inspirational and energetic"
-SPEECH_OBJECTIVE: "Boost morale and performance"
-DELIVERY_METHOD: "Live presentation with audience interaction"
+EXECUTIVE SUMMARY
+Overall Readiness: 3.3/5 (Prepared)
+Delivery Confidence: Moderate—solid content but delivery needs polish
+
+Top 3 Strengths:
+1. Highly relevant topic for audience (AI trust is top concern for PMs)
+2. Strong personal credibility (3 years leading AI product at recognized company)
+3. Clear core message ("Trust isn't a feature, it's a product design philosophy")
+
+Top 3 Gaps:
+1. Opening hook is weak (generic stat instead of compelling story)
+2. Minimal rehearsal (only 1 walkthrough, no full dress rehearsal)
+3. No engagement strategy beyond standard Q&A (risk of audience attention drift)
+
+Recommended Preparation: Add 6 hours (3 full rehearsals, opening rewrite, add one interactive element)
+
+---
+
+DIMENSION SCORECARD
+
+| Dimension | Score | Key Finding | Priority Actions |
+|-----------|-------|-------------|------------------|
+| Content Quality | 4.0/5 | Strong structure and evidence but opening/closing need punch | Rewrite opening with customer story; add powerful closing quote |
+| Audience Understanding | 3.5/5 | Good grasp of PM concerns but mixed seniority levels not fully addressed | Add "beginner/advanced" signposting for technical sections |
+| Delivery Skills | 2.5/5 | Only 1 rehearsal completed; nervous about timing and tech transitions | Complete 3 full rehearsals; practice slide transitions 10x |
+| Confidence Management | 3.0/5 | Moderate nerves; worried about live demo failure | Create demo backup (video recording); practice recovery phrases |
+| Visual/Technical Prep | 3.5/5 | Slides clean but not tested in venue; live demo risky | Test setup in actual room 1 day before; simplify demo or cut |
+| Engagement Strategy | 2.5/5 | Relying on passive listening + Q&A; no interactive elements | Add 1 poll or quick audience question; prepare Q&A prompts |
+
+---
+
+PRESENTATION STRATEGY
+
+**Opening Approach:** Customer Story (High Impact)
+- Replace generic "80% of users don't trust AI" stat with specific customer story
+- Example: "Last month, a user emailed our support: 'Your AI is scary good. How do I know it's not manipulating me?' That question haunted me..."
+- Why: Personal, relatable, sets up emotional connection before diving into frameworks
+
+**Content Structure:** Problem-Solution with Rule of Three
+- Problem: Users don't trust AI products (illustrated with customer stories and data)
+- Solution Framework (Three Pillars):
+  1. Explainability: Show your AI's reasoning
+  2. Control: Give users override power
+  3. Consistency: Behave predictably, acknowledge limitations
+- Evidence: Case studies from your products + competitor examples
+
+**Delivery Style:** Conversational Expert
+- Tone: Approachable but authoritative ("I've been in your shoes...")
+- Pace: Moderate with strategic pauses for emphasis
+- Movement: Use stage to signal transitions (center for main points, move for stories)
+- Energy: Start high energy (hook), vary throughout, end inspirational
+
+**Risk Mitigation:**
+1. **Live demo fails:** Have video backup queued on separate device; say "Let me show you the recording so we don't lose time troubleshooting"
+2. **Run over time:** Mark "flex content" on notes (3 optional examples you can skip if running late)
+3. **No Q&A questions:** Prep 3 "audience questions" to seed: "A question I often get is..."
+
+---
+
+SPEECH FRAMEWORK (25 minutes total)
+
+**OPENING (3 minutes):**
+- **Hook (1 min):** Customer story about AI trust concerns
+- **Credibility (30 sec):** "I've spent 3 years building AI products at [Company], and this question comes up more than any other..."
+- **Preview (1 min):** "Today I'll share three principles for designing AI products users trust, backed by research and real product examples"
+- **Engagement (30 sec):** "Quick show of hands—how many have had a user express concern about your AI's trustworthiness?" [Builds connection]
+
+**POINT 1: Explainability (6 minutes):**
+- **Main idea (1 min):** Users trust what they understand—show your AI's reasoning
+- **Evidence (2 min):** MIT study on explainable AI + trust metrics
+- **Story/Example (2 min):** How adding "Why this recommendation?" feature increased engagement 40% at your company
+- **Visual:** Before/after screenshots of UI with explanations
+- **Transition (1 min):** "Explainability builds understanding, but trust also requires..."
+
+**POINT 2: Control (6 minutes):**
+- **Main idea (1 min):** Trust grows when users can override AI decisions
+- **Evidence (2 min):** Behavioral economics research on autonomy + control
+- **Story/Example (2 min):** Customer case where override feature prevented churn
+- **Visual:** Demo of control toggle in your product (or backup video)
+- **Transition (1 min):** "Understanding plus control is powerful, but there's one more pillar..."
+
+**POINT 3: Consistency (6 minutes):**
+- **Main idea (1 min):** Predictable behavior and honest limitation acknowledgment build trust
+- **Evidence (2 min):** Psychology of trust formation + AI hallucination concerns
+- **Story/Example (2 min):** How adding "I'm not confident" signals improved user trust scores
+- **Visual:** Comparison of confident-wrong vs. uncertain-honest AI responses
+- **Transition (30 sec):** "So, how do you apply this?"
+
+**CLOSING (4 minutes):**
+- **Summary (1 min):** "Remember: Explainability, Control, Consistency—trust isn't a feature, it's a design philosophy"
+- **Call-to-action (1 min):** "This week, pick one AI feature. Ask: Can users understand it? Override it? Rely on it?"
+- **Memorable closer (1 min):** "That user who emailed about our 'scary good' AI? Six months later, she wrote again: 'I trust your AI because it trusts me to make my own decisions.' That's the standard we should build to."
+- **Q&A setup (1 min):** "I'd love to hear your questions—what trust challenges are you facing?"
+
+---
+
+REHEARSAL PLAN
+
+**REHEARSAL 1 (Tonight, 60 min): Content Walkthrough**
+- Focus: Flow and transitions
+- Method: Talk through slides at desk, focus on logic and story arc
+- Check: Do ideas connect? Are transitions smooth? Is timing roughly right?
+- Adjust: Cut/move content if over time, strengthen weak transitions
+
+**REHEARSAL 2 (Tomorrow, 90 min): Full Delivery Practice**
+- Focus: Timing and pacing
+- Method: Stand, present to empty room (or record video), use actual slides
+- Check: Is pacing comfortable? Where do I rush? Where do I drag? Filler word count?
+- Adjust: Mark timing on notes, identify sections to slow down or speed up
+
+**REHEARSAL 3 (Day Before, 90 min): Performance Simulation**
+- Focus: Tech and full performance
+- Method: Present in actual venue if possible, or simulate environment (standing, clicker, audience chairs)
+- Check: Tech transitions smooth? Energy level right? Body language confident?
+- Adjust: Fix tech issues, practice opening 5x for confidence, run Q&A scenarios
+
+**PRE-SPEECH (Day Of, 15 min): Confidence Boost**
+- Focus: Mental readiness
+- Method: Final run of opening (3x) and closing (3x) in private space
+- Check: Know first 2 minutes cold (reduces anxiety), feel grounded
+- Ritual: Vocal warmup, power pose 2 minutes, deep breathing
+
+---
+
+SUCCESS METRICS
+
+**CONTENT IMPACT:**
+- ✓ Audience can repeat core message: "Trust = Explainability + Control + Consistency"
+- ✓ Q&A questions show engagement: "How did you measure trust?" vs. silence
+- ✓ Specific examples remembered: Someone references your customer story in hallway conversations
+- ✓ Actionable takeaway: Attendees tweet/post about applying your framework
+
+**DELIVERY QUALITY:**
+- ✓ Voice: Clear projection to back of room, varied pace, minimal filler words (<10 "um"s)
+- ✓ Body language: Open posture, natural gestures, moved purposefully (not pacing nervously)
+- ✓ Eye contact: Connected with all sections of room, held individual eye contact 3-5 seconds
+- ✓ Timing: Finished within 20 minutes (leaving 5 for Q&A), didn't rush
+
+**AUDIENCE RESPONSE:**
+- ✓ Attention: Minimal phone checking, leaning forward during key points
+- ✓ Engagement: Hands raised for participation prompt, nodding during stories
+- ✓ Q&A: 5+ thoughtful questions (not just clarifications)
+- ✓ Feedback: >80% positive ratings on conference eval, LinkedIn messages post-talk
+
+**PERSONAL PERFORMANCE:**
+- ✓ Nerves managed: Used breathing techniques, focused on friendly faces when anxious
+- ✓ Recovery: Handled demo glitch smoothly without flustering
+- ✓ Authenticity: Felt like "me" on stage, not performing a character
+- ✓ Energy: Maintained enthusiasm throughout, finished strong (not exhausted)
+
+**POST-PRESENTATION INDICATORS (Success beyond the room):**
+- Conference organizer invites you to speak at next year's event
+- 10+ LinkedIn connection requests from attendees
+- 3+ follow-up conversations about implementing your framework
+- Video recording exceeds 1000 views in first month (if published)
 ```
 
-## Customization Options
+---
 
-1. **Speech Types**
-   - Informative presentations
-   - Persuasive speeches
-   - Motivational talks
-   - Business pitches
-   - Wedding toasts
-   - Eulogy speeches
-   - Conference keynotes
-   - Training sessions
-
-2. **Audience Types**
-   - Business executives
-   - Colleagues/peers
-   - General public
-   - Students
-   - Industry professionals
-   - Community groups
-   - Family/friends
-   - International audiences
-
-3. **Delivery Styles**
-   - Formal presentation
-   - Conversational style
-   - Interactive workshop
-   - Panel discussion
-   - Virtual presentation
-   - Impromptu speaking
-   - Storytelling format
-   - Educational lecture
-
-4. **Venues**
-   - Corporate boardrooms
-   - Conference centers
-   - Auditoriums
-   - Virtual platforms
-   - Outdoor events
-   - Small meeting rooms
-   - Large arenas
-   - Informal settings

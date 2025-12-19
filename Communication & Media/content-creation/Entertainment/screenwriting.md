@@ -1,647 +1,165 @@
 ---
 category: content-creation
-last_updated: 2025-11-09
-related_templates:
-- content-creation/creative-writing-framework.md
-- content-creation/video-production-pipeline.md
+title: Screenwriting Readiness Assessment
 tags:
-- screenplay-format
+- screenplay-craft
+- narrative-structure
 - dialogue-writing
-- scene-structure
-- script-craft
-title: Screenwriting Template
+- professional-screenwriting
 use_cases:
-- Creating compelling screenplays for films, TV series, and web content with professional
-  formatting, engaging dialogue, and strong narrative structure that captivates audiences
-  and drives production interest.
-- Project planning and execution
-- Strategy development
+- Assessing capability to write professional, producible screenplays
+- Evaluating screenwriting craft maturity across narrative and technical dimensions
+- Identifying development areas for screenplay quality improvement
+- Building professional screenwriting skills for film and television
+related_templates:
+- content-creation/creative-writing.md
+- content-creation/video-production-pipeline.md
+- content-creation/video-scripts.md
 industries:
-- healthcare
-- manufacturing
-type: template
+- entertainment
+- media
+- film-production
+type: framework
 difficulty: intermediate
-slug: screenwriting
+slug: screenwriting-readiness
 ---
 
-# Screenwriting Template
+# Screenwriting Readiness Assessment
 
 ## Purpose
-Create compelling screenplays for films, TV series, and web content with professional formatting, engaging dialogue, and strong narrative structure that captivates audiences and drives production interest.
+Comprehensively assess screenwriting capability to create professional, producible screenplays for film, television, and streaming content across six dimensions: Story Structure & Craft, Character Development, Dialogue & Scene Writing, Genre & Format Mastery, Visual Storytelling, and Professional & Market Readiness. This framework evaluates screenplay quality and identifies areas for craft development.
 
-## Quick Screenwriting Prompt
+## 🚀 Quick Assessment Prompt
 
-Write [screenplay type: feature/TV pilot/short] screenplay titled [title] in [genre]. Craft logline as [protagonist] must [action] before [stakes]. Structure [runtime] minutes with inciting incident at [page], midpoint at [page], climax at [page]. Develop [protagonist name] pursuing [external goal] while needing [internal need], facing [antagonist]. Set in [location/time], target [budget level], and format for [industry standard]. Include [subgenre elements] and [theme].
+> Assess **screenwriting readiness** for **[PROJECT_CONTEXT]** developing **[SCREENPLAY_SCOPE]** to achieve **[WRITING_OBJECTIVES]**. Evaluate across: (1) **Story structure & craft**—how solid is the three-act structure with proper inciting incident, midpoint, and climax placement? Are plot points driving narrative momentum? (2) **Character development**—how compelling are protagonist and antagonist with clear wants, needs, and transformative arcs? Is character voice distinct and authentic? (3) **Dialogue & scene writing**—how natural and purposeful is dialogue revealing character while advancing plot? Does each scene have clear conflict and outcome? (4) **Genre & format mastery**—how well does the screenplay execute genre conventions and industry-standard formatting? Is page count appropriate for the medium? (5) **Visual storytelling**—how effectively does the screenplay show rather than tell with cinematic action lines? Is the visual narrative compelling? (6) **Professional & market readiness**—how strong is the logline, treatment, and commercial positioning? Does the screenplay meet production and market standards? Provide maturity scores (1-5 per dimension), craft gaps, prioritized recommendations, and a 3-month development plan.
 
-## Quick Start
+**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for comprehensive screenwriting capability assessment.
 
-**Fast Track to Your First Scene**
-
-1. **60-Second Setup**: Choose your format (feature/TV/web), genre, and main character
-2. **Start Writing**: Jump directly to the opening scene - write 2 pages of dialogue
-3. **Test the Template**: Fill in `[PROJECT_TITLE]`, `[GENRE]`, `[PROTAGONIST_NAME]`, and `[INCITING_INCIDENT]`
-4. **Get Feedback**: Read your scene aloud or share with a writing partner within 24 hours
-5. **Expand**: Use the complete template to build out your full screenplay structure
-
-**Example Starter**: "INT. COFFEE SHOP - DAY. SARAH (30s, determined) discovers a mysterious note..."
+---
 
 ## Template
 
-```
-You are a professional screenwriter. Create [SCREENPLAY_TYPE] for [PROJECT_TITLE] in the [GENRE] genre with a focus on [STORY_THEME].
+Conduct a comprehensive screenwriting readiness assessment for {PROJECT_CONTEXT} working on {SCREENPLAY_SCOPE} to achieve {WRITING_OBJECTIVES}.
 
-SCREENPLAY BRIEF:
-Project Overview:
-- Title: [PROJECT_TITLE]
-- Screenplay type: [SCREENPLAY_TYPE] (Feature/TV Pilot/Series Episode/Short/Web Series)
-- Genre: [GENRE]
-- Subgenre: [SUBGENRE]
-- Story theme: [STORY_THEME]
-- Target audience: [TARGET_AUDIENCE]
-- Runtime: [TARGET_RUNTIME]
-- Budget level: [BUDGET_LEVEL] (Low/Medium/High/Ultra-high)
-- Production timeline: [PRODUCTION_TIMELINE]
+Assess readiness across six dimensions, scoring each 1-5 for craft maturity:
 
-### Creative Vision
-- Logline: [LOGLINE]
-- Premise: [PREMISE]
-- Central conflict: [CENTRAL_CONFLICT]
-- Tone: [TONE]
-- Visual style: [VISUAL_STYLE]
-- Thematic elements: [THEMATIC_ELEMENTS]
-- Unique selling point: [UNIQUE_SELLING_POINT]
-- Comparable works: [COMPARABLE_WORKS]
+**1. Story Structure & Craft Readiness**
+Evaluate the foundational narrative architecture by examining whether three-act structure follows classic paradigm with Act I establishing world and stakes through pages 1-25 of a feature, Act II escalating conflict and raising obstacles through pages 25-90, and Act III delivering climax and resolution through pages 90-110, determining whether inciting incident occurs at the right moment around page 10-15 to disrupt protagonist's ordinary world and launch the story engine, assessing whether plot point one around page 25-30 propels protagonist into Act II with clear point of no return, examining whether midpoint around page 55-60 raises stakes significantly with revelation or reversal that changes the game, determining whether plot point two around page 85-90 delivers the "all is lost" moment forcing protagonist to dig deep for final confrontation, assessing whether pacing maintains momentum with appropriate balance between action and reflection avoiding sagging middle syndrome, examining whether subplots interweave with main plot providing thematic resonance and character development opportunities, and determining whether setup and payoff create satisfying story architecture with proper foreshadowing that rewards attentive viewers without telegraphing twists.
 
-### Target Market
-- Primary demographic: [PRIMARY_DEMOGRAPHIC]
-- Secondary demographic: [SECONDARY_DEMOGRAPHIC]
-- Rating target: [RATING_TARGET] (G/PG/PG-13/R/TV-14/TV-MA)
-- Distribution platform: [DISTRIBUTION_PLATFORM]
-- International appeal: [INTERNATIONAL_APPEAL]
-- Franchise potential: [FRANCHISE_POTENTIAL]
-- Merchandising potential: [MERCHANDISING_POTENTIAL]
+**2. Character Development Readiness**
+Evaluate the depth and authenticity of character creation by examining whether protagonist demonstrates clear external want driving plot actions that audience can follow and root for, determining whether protagonist's internal need represents deeper psychological or emotional transformation required for true growth, assessing whether character flaw creates meaningful obstacles stemming from protagonist's own psychology rather than mere external circumstances, examining whether character arc traces believable transformation from flawed beginning state through challenges to evolved ending state, determining whether antagonist possesses compelling motivation beyond mere evil with understandable goals that happen to conflict with protagonist, assessing whether supporting characters serve clear dramatic functions as mentor, ally, skeptic, or love interest rather than existing merely for plot convenience, examining whether character voice distinguishes each person through unique speech patterns, vocabulary, worldview, and emotional expression, and determining whether backstory informs character behavior without excessive exposition through actions and choices that reveal history organically.
 
-### STORY STRUCTURE
+**3. Dialogue & Scene Writing Readiness**
+Evaluate the quality of spoken word and scene construction by examining whether dialogue reveals character through subtext, evasion, and emotional undertones rather than on-the-nose exposition of feelings and plot information, determining whether each line serves multiple purposes advancing plot while revealing character and creating conflict avoiding redundant or obvious statements, assessing whether dialogue sounds authentic to character's background, education, and emotional state with natural rhythms avoiding theatrical or writerly affectation, examining whether scenes open late and end early entering at the last possible moment and exiting before natural conclusion to maintain pace, determining whether each scene contains clear conflict with characters pursuing incompatible goals creating dramatic tension even in quiet moments, assessing whether scene outcomes change the story situation moving plot forward or deepening character understanding rather than spinning wheels, examining whether action lines describe only what camera can see avoiding internal thoughts, interpretations, or unfilmable directions, and determining whether parentheticals are used sparingly for essential performance guidance not substituting for good dialogue that inherently conveys emotion.
 
-Three-Act Structure:
-Act I - Setup (Pages [ACT_1_PAGE_RANGE]):
-- Inciting incident: [INCITING_INCIDENT] (Page [INCITING_INCIDENT_PAGE])
-- Plot point 1: [PLOT_POINT_1] (Page [PLOT_POINT_1_PAGE])
-- Character introductions: [CHARACTER_INTRODUCTIONS]
-- World establishment: [WORLD_ESTABLISHMENT]
-- Stakes setup: [STAKES_SETUP]
-- Hook sequence: [HOOK_SEQUENCE]
-- Tone establishment: [TONE_ESTABLISHMENT]
-- Theme introduction: [THEME_INTRODUCTION]
+**4. Genre & Format Mastery Readiness**
+Evaluate understanding of genre conventions and technical standards by examining whether genre expectations are met for thriller pacing, horror scares, comedy laughs, or drama emotional depth while finding fresh approaches to familiar territory, determining whether format adheres to industry standards with proper scene headings in INT./EXT. LOCATION - TIME format, character names centered and capitalized, and Courier 12pt font, assessing whether page count matches medium with features at 90-120 pages, hour TV dramas at 55-65 pages, half-hour comedies at 25-35 pages, examining whether tone remains consistent throughout with tonal shifts executed intentionally for dramatic effect not accidental inconsistency confusing the audience, determining whether budget consciousness shapes story choices writing to available resources rather than requiring impossible production demands for the budget level, assessing whether act breaks for television place cliffhangers at commercial breaks maintaining viewer engagement through interruptions, examining whether world-building establishes rules and logic for the fictional universe maintaining internal consistency without contradictions, and determining whether marketability considerations balance artistic vision with commercial viability for the target audience and distribution platform.
 
-Act II - Confrontation (Pages [ACT_2_PAGE_RANGE]):
-- Midpoint: [MIDPOINT] (Page [MIDPOINT_PAGE])
-- Plot point 2: [PLOT_POINT_2] (Page [PLOT_POINT_2_PAGE])
-- Rising action: [RISING_ACTION]
-- Character development: [CHARACTER_DEVELOPMENT]
-- Obstacle escalation: [OBSTACLE_ESCALATION]
-- Subplot development: [SUBPLOT_DEVELOPMENT]
-- Relationship dynamics: [RELATIONSHIP_DYNAMICS]
-- Internal conflict: [INTERNAL_CONFLICT]
+**5. Visual Storytelling Readiness**
+Evaluate the cinematic quality of narrative presentation by examining whether action lines show observable behavior and visual details rather than telling internal states using evocative verbs and specific images, determining whether visual sequences convey story information without dialogue through montages, visual parallels, or symbolic imagery that communicate meaning cinematically, assessing whether scene descriptions create atmosphere and mood through sensory details, lighting implications, and environmental specifics that guide production design, examining whether character introductions provide clear physical descriptions and defining characteristics in first appearance without excessive detail that constrains casting, determining whether transitions between scenes use visual or thematic links creating smooth flow rather than relying on "CUT TO" for every change, assessing whether action sequences are choreographed clearly on the page describing geography, character positions, and movement flow enabling director and stunt coordinator to visualize execution, examining whether camera directions are avoided except when absolutely essential to story understanding letting director make visual choices, and determining whether white space and paragraph breaks create visual rhythm on the page with short punchy paragraphs for action and longer blocks for atmosphere.
 
-Act III - Resolution (Pages [ACT_3_PAGE_RANGE]):
-- Climax: [CLIMAX] (Page [CLIMAX_PAGE])
-- Resolution: [RESOLUTION]
-- Character arcs completion: [CHARACTER_ARCS_COMPLETION]
-- Theme resolution: [THEME_RESOLUTION]
-- Subplot resolution: [SUBPLOT_RESOLUTION]
-- Emotional payoff: [EMOTIONAL_PAYOFF]
-- Final image: [FINAL_IMAGE]
-- Sequel setup: [SEQUEL_SETUP]
+**6. Professional & Market Readiness**
+Evaluate the commercial viability and industry polish by examining whether logline captures protagonist, goal, obstacle, and stakes in one compelling sentence that makes producers want to read more, determining whether treatment provides clear story overview in 2-5 pages covering main plot points, character arcs, and thematic elements for pitch meetings, assessing whether comparable films position the screenplay in the marketplace identifying similar successful projects that validate commercial potential, examining whether target audience is clearly defined with specific demographic and psychographic understanding for marketing and distribution strategy, determining whether budget positioning matches story scope with realistic assessment of production requirements avoiding impossible demands, assessing whether franchise potential exists for sequels, series, or expanded universe if the initial project succeeds commercially, examining whether marketing hooks provide clear selling points that differentiate this screenplay from similar projects in the marketplace, and determining whether industry connections include potential producers, directors, or actors who might be interested or accessible for packaging the project.
 
-### Alternative Structures
-Five-Act Structure (TV):
-Act I: [TV_ACT_1] (Pages [TV_ACT_1_PAGES])
-Act II: [TV_ACT_2] (Pages [TV_ACT_2_PAGES])
-Act III: [TV_ACT_3] (Pages [TV_ACT_3_PAGES])
-Act IV: [TV_ACT_4] (Pages [TV_ACT_4_PAGES])
-Act V: [TV_ACT_5] (Pages [TV_ACT_5_PAGES])
+Deliver your assessment as:
 
-Teaser: [TEASER_CONTENT]
-Tag: [TAG_CONTENT]
-Commercial breaks: [COMMERCIAL_BREAK_PLACEMENT]
+1. **EXECUTIVE SUMMARY** - Overall readiness score, craft maturity level, top 3 development priorities, recommended writing focus areas
 
-### CHARACTER DEVELOPMENT
+2. **DIMENSION SCORECARD** - Table with score (X.X/5) and key strength or weakness per dimension
 
-### Protagonist
-### Character Profile
-- Name: [PROTAGONIST_NAME]
-- Age: [PROTAGONIST_AGE]
-- Occupation: [PROTAGONIST_OCCUPATION]
-- Background: [PROTAGONIST_BACKGROUND]
-- Personality traits: [PROTAGONIST_TRAITS]
-- Fatal flaw: [PROTAGONIST_FLAW]
-- Greatest strength: [PROTAGONIST_STRENGTH]
-- Deepest fear: [PROTAGONIST_FEAR]
+3. **CRAFT ANALYSIS** - For each dimension, detail current capability, specific gaps, and impact on screenplay quality
 
-### Character Arc
-- Starting point: [PROTAGONIST_START]
-- Character want: [PROTAGONIST_WANT]
-- Character need: [PROTAGONIST_NEED]
-- Internal journey: [PROTAGONIST_INTERNAL_JOURNEY]
-- External journey: [PROTAGONIST_EXTERNAL_JOURNEY]
-- Transformation: [PROTAGONIST_TRANSFORMATION]
-- Ending point: [PROTAGONIST_END]
-- Lesson learned: [PROTAGONIST_LESSON]
+4. **DEVELOPMENT PRIORITIZATION** - Rank top 5 craft gaps by impact on screenplay marketability and skill-building feasibility with recommended actions
 
-### Dialogue Style
-- Voice characteristics: [PROTAGONIST_VOICE]
-- Speech patterns: [PROTAGONIST_SPEECH_PATTERNS]
-- Vocabulary level: [PROTAGONIST_VOCABULARY]
-- Emotional expression: [PROTAGONIST_EMOTIONAL_EXPRESSION]
-- Humor style: [PROTAGONIST_HUMOR]
-- Distinctive phrases: [PROTAGONIST_PHRASES]
-- Regional accent: [PROTAGONIST_ACCENT]
-- Education level: [PROTAGONIST_EDUCATION_LEVEL]
+5. **WRITING IMPROVEMENT PLAN** - 3-month development roadmap with weekly milestones across Craft, Technique, Format, and Market
 
-### Antagonist
-### Character Profile
-- Name: [ANTAGONIST_NAME]
-- Age: [ANTAGONIST_AGE]
-- Occupation: [ANTAGONIST_OCCUPATION]
-- Background: [ANTAGONIST_BACKGROUND]
-- Motivation: [ANTAGONIST_MOTIVATION]
-- Methods: [ANTAGONIST_METHODS]
-- Strengths: [ANTAGONIST_STRENGTHS]
-- Weaknesses: [ANTAGONIST_WEAKNESSES]
+6. **SUCCESS METRICS** - Current capability baselines vs 4-week, 8-week, and 12-week targets
 
-### Opposition Strategy
-- Core conflict: [CORE_CONFLICT]
-- Opposition type: [OPPOSITION_TYPE] (Person/Society/Nature/Self)
-- Escalation pattern: [ESCALATION_PATTERN]
-- Moral complexity: [MORAL_COMPLEXITY]
-- Sympathetic qualities: [SYMPATHETIC_QUALITIES]
-- Relationship to protagonist: [ANTAGONIST_RELATIONSHIP]
-- Resolution method: [ANTAGONIST_RESOLUTION]
-
-### Supporting Characters
-Character 1: [SUPPORTING_CHARACTER_1]
-- Role: [SUPPORT_1_ROLE]
-- Relationship to protagonist: [SUPPORT_1_RELATIONSHIP]
-- Character function: [SUPPORT_1_FUNCTION]
-- Arc: [SUPPORT_1_ARC]
-- Distinctive traits: [SUPPORT_1_TRAITS]
-- Dialogue style: [SUPPORT_1_DIALOGUE]
-
-Character 2: [SUPPORTING_CHARACTER_2]
-- Role: [SUPPORT_2_ROLE]
-- Relationship to protagonist: [SUPPORT_2_RELATIONSHIP]
-- Character function: [SUPPORT_2_FUNCTION]
-- Arc: [SUPPORT_2_ARC]
-- Distinctive traits: [SUPPORT_2_TRAITS]
-- Dialogue style: [SUPPORT_2_DIALOGUE]
-
-Character 3: [SUPPORTING_CHARACTER_3]
-- Role: [SUPPORT_3_ROLE]
-- Relationship to protagonist: [SUPPORT_3_RELATIONSHIP]
-- Character function: [SUPPORT_3_FUNCTION]
-- Arc: [SUPPORT_3_ARC]
-- Distinctive traits: [SUPPORT_3_TRAITS]
-- Dialogue style: [SUPPORT_3_DIALOGUE]
-
-### DIALOGUE WRITING
-
-### Dialogue Principles
-### Character Voice
-- Unique speech patterns: [UNIQUE_SPEECH_PATTERNS]
-- Vocabulary choices: [VOCABULARY_CHOICES]
-- Rhythm and cadence: [RHYTHM_CADENCE]
-- Subtext layers: [SUBTEXT_LAYERS]
-- Emotional undertones: [EMOTIONAL_UNDERTONES]
-- Cultural influences: [CULTURAL_INFLUENCES]
-- Educational background: [EDUCATIONAL_BACKGROUND]
-- Regional influences: [REGIONAL_INFLUENCES]
-
-### Dialogue Functions
-- Character revelation: [CHARACTER_REVELATION]
-- Plot advancement: [PLOT_ADVANCEMENT]
-- Conflict creation: [CONFLICT_CREATION]
-- Information delivery: [INFORMATION_DELIVERY]
-- Emotional expression: [EMOTIONAL_EXPRESSION]
-- Humor insertion: [HUMOR_INSERTION]
-- Theme exploration: [THEME_EXPLORATION]
-- Relationship dynamics: [RELATIONSHIP_DYNAMICS]
-
-### Dialogue Techniques
-- Subtext usage: [SUBTEXT_USAGE]
-- Interruptions: [INTERRUPTIONS]
-- Overlapping speech: [OVERLAPPING_SPEECH]
-- Silence utilization: [SILENCE_UTILIZATION]
-- Repetition for effect: [REPETITION_EFFECT]
-- Callback references: [CALLBACK_REFERENCES]
-- Verbal tics: [VERBAL_TICS]
-- Power dynamics: [POWER_DYNAMICS]
-
-Scene-Specific Dialogue:
-### Confrontation Scene
-- Conflict escalation: [CONFRONTATION_ESCALATION]
-- Emotional intensity: [CONFRONTATION_INTENSITY]
-- Power shifts: [CONFRONTATION_POWER_SHIFTS]
-- Truth revelations: [CONFRONTATION_REVELATIONS]
-- Physical tension: [CONFRONTATION_PHYSICAL]
-- Verbal weapons: [CONFRONTATION_WEAPONS]
-- Breaking points: [CONFRONTATION_BREAKING_POINTS]
-
-### Romantic Scene
-- Intimacy building: [ROMANTIC_INTIMACY]
-- Vulnerability expression: [ROMANTIC_VULNERABILITY]
-- Chemistry demonstration: [ROMANTIC_CHEMISTRY]
-- Emotional barriers: [ROMANTIC_BARRIERS]
-- Romantic tension: [ROMANTIC_TENSION]
-- Heart-to-heart moments: [ROMANTIC_HEART_TO_HEART]
-- Declaration scenes: [ROMANTIC_DECLARATION]
-
-### Comedy Scene
-- Timing precision: [COMEDY_TIMING]
-- Setup and payoff: [COMEDY_SETUP_PAYOFF]
-- Character-based humor: [COMEDY_CHARACTER_BASED]
-- Situation comedy: [COMEDY_SITUATIONAL]
-- Wordplay: [COMEDY_WORDPLAY]
-- Physical comedy: [COMEDY_PHYSICAL]
-- Callback humor: [COMEDY_CALLBACKS]
-
-### SCENE CONSTRUCTION
-
-### Scene Elements
-### Scene Structure
-- Scene purpose: [SCENE_PURPOSE]
-- Character goals: [SCENE_CHARACTER_GOALS]
-- Obstacles: [SCENE_OBSTACLES]
-- Conflict: [SCENE_CONFLICT]
-- Outcome: [SCENE_OUTCOME]
-- Emotional arc: [SCENE_EMOTIONAL_ARC]
-- Plot advancement: [SCENE_PLOT_ADVANCEMENT]
-- Character development: [SCENE_CHARACTER_DEVELOPMENT]
-
-### Action Lines
-- Visual description: [VISUAL_DESCRIPTION]
-- Character actions: [CHARACTER_ACTIONS]
-- Setting details: [SETTING_DETAILS]
-- Pacing control: [PACING_CONTROL]
-- Mood establishment: [MOOD_ESTABLISHMENT]
-- Sensory details: [SENSORY_DETAILS]
-- Technical elements: [TECHNICAL_ELEMENTS]
-- Cinematic language: [CINEMATIC_LANGUAGE]
-
-### Scene Types
-### Opening Scene
-- Hook establishment: [OPENING_HOOK]
-- Character introduction: [OPENING_CHARACTER_INTRO]
-- World establishment: [OPENING_WORLD_SETUP]
-- Tone setting: [OPENING_TONE]
-- Genre establishment: [OPENING_GENRE]
-- Visual impact: [OPENING_VISUAL_IMPACT]
-- Audience engagement: [OPENING_ENGAGEMENT]
-
-### Transition Scenes
-- Bridge function: [TRANSITION_BRIDGE]
-- Pacing adjustment: [TRANSITION_PACING]
-- Information relay: [TRANSITION_INFORMATION]
-- Character movement: [TRANSITION_MOVEMENT]
-- Time passage: [TRANSITION_TIME]
-- Location change: [TRANSITION_LOCATION]
-- Mood shift: [TRANSITION_MOOD]
-
-### Climax Scene
-- Maximum tension: [CLIMAX_TENSION]
-- Culmination of conflict: [CLIMAX_CONFLICT_CULMINATION]
-- Character choice: [CLIMAX_CHARACTER_CHOICE]
-- Skill demonstration: [CLIMAX_SKILL_DEMO]
-- Emotional peak: [CLIMAX_EMOTIONAL_PEAK]
-- Visual spectacle: [CLIMAX_VISUAL_SPECTACLE]
-- Resolution setup: [CLIMAX_RESOLUTION_SETUP]
-
-GENRE-SPECIFIC ELEMENTS:
-
-Action/Adventure:
-### Action Sequences
-- Set pieces: [ACTION_SET_PIECES]
-- Choreography: [ACTION_CHOREOGRAPHY]
-- Escalation: [ACTION_ESCALATION]
-- Geography: [ACTION_GEOGRAPHY]
-- Character agency: [ACTION_CHARACTER_AGENCY]
-- Practical feasibility: [ACTION_PRACTICAL_FEASIBILITY]
-- Emotional stakes: [ACTION_EMOTIONAL_STAKES]
-- Consequences: [ACTION_CONSEQUENCES]
-
-### Chase Sequences
-- Location variety: [CHASE_LOCATIONS]
-- Obstacle progression: [CHASE_OBSTACLES]
-- Character motivation: [CHASE_MOTIVATION]
-- Pacing rhythm: [CHASE_PACING]
-- Geography logic: [CHASE_GEOGRAPHY]
-- Technology integration: [CHASE_TECHNOLOGY]
-- Resolution method: [CHASE_RESOLUTION]
-
-### Horror
-### Fear Elements
-- Scare tactics: [SCARE_TACTICS]
-- Suspense building: [SUSPENSE_BUILDING]
-- Atmospheric tension: [ATMOSPHERIC_TENSION]
-- Jump scares: [JUMP_SCARES]
-- Psychological horror: [PSYCHOLOGICAL_HORROR]
-- Gore level: [GORE_LEVEL]
-- Supernatural elements: [SUPERNATURAL_ELEMENTS]
-- Fear escalation: [FEAR_ESCALATION]
-
-### Thriller Elements
-- Paranoia creation: [PARANOIA_CREATION]
-- Trust issues: [TRUST_ISSUES]
-- Time pressure: [TIME_PRESSURE]
-- Information control: [INFORMATION_CONTROL]
-- Plot twists: [PLOT_TWISTS]
-- Red herrings: [RED_HERRINGS]
-- Revelation timing: [REVELATION_TIMING]
-
-### Comedy
-### Humor Techniques
-- Observational humor: [OBSERVATIONAL_HUMOR]
-- Character-based comedy: [CHARACTER_COMEDY]
-- Situational comedy: [SITUATIONAL_COMEDY]
-- Verbal humor: [VERBAL_HUMOR]
-- Physical comedy: [PHYSICAL_COMEDY]
-- Timing precision: [COMEDY_TIMING_PRECISION]
-- Callback structure: [CALLBACK_STRUCTURE]
-- Running gags: [RUNNING_GAGS]
-
-### Drama
-### Emotional Depth
-- Character psychology: [CHARACTER_PSYCHOLOGY]
-- Relationship complexity: [RELATIONSHIP_COMPLEXITY]
-- Moral dilemmas: [MORAL_DILEMMAS]
-- Internal conflict: [INTERNAL_CONFLICT]
-- Emotional honesty: [EMOTIONAL_HONESTY]
-- Life consequences: [LIFE_CONSEQUENCES]
-- Character growth: [CHARACTER_GROWTH]
-- Theme exploration: [THEME_EXPLORATION]
-
-### FORMATTING & TECHNICAL
-
-### Screenplay Format
-### Technical Standards
-- Page formatting: [PAGE_FORMATTING]
-- Font specifications: [FONT_SPECIFICATIONS] (Courier 12pt)
-- Margin settings: [MARGIN_SETTINGS]
-- Line spacing: [LINE_SPACING]
-- Scene headings: [SCENE_HEADINGS] (INT./EXT. LOCATION - TIME)
-- Character names: [CHARACTER_NAME_FORMAT]
-- Dialogue formatting: [DIALOGUE_FORMATTING]
-- Action line formatting: [ACTION_LINE_FORMATTING]
-
-### Professional Elements
-- Title page: [TITLE_PAGE]
-- Scene numbering: [SCENE_NUMBERING]
-- Page numbering: [PAGE_NUMBERING]
-- Transition usage: [TRANSITION_USAGE]
-- Parentheticals: [PARENTHETICALS]
-- Camera directions: [CAMERA_DIRECTIONS]
-- Sound cues: [SOUND_CUES]
-- Special formatting: [SPECIAL_FORMATTING]
-
-### Industry Standards
-- Page count guidelines: [PAGE_COUNT_GUIDELINES]
-- Scene length: [SCENE_LENGTH]
-- Dialogue balance: [DIALOGUE_BALANCE]
-- Action description: [ACTION_DESCRIPTION]
-- White space usage: [WHITE_SPACE_USAGE]
-- Reading flow: [READING_FLOW]
-- Visual storytelling: [VISUAL_STORYTELLING]
-- Budget consciousness: [BUDGET_CONSCIOUSNESS]
-
-### TELEVISION SPECIFIC
-
-### Series Development
-### Show Bible
-- Series premise: [SERIES_PREMISE]
-- Character breakdowns: [CHARACTER_BREAKDOWNS]
-- Season arc: [SEASON_ARC]
-- Episode structure: [EPISODE_STRUCTURE]
-- Mythology: [SERIES_MYTHOLOGY]
-- Tone consistency: [TONE_CONSISTENCY]
-- Format specifications: [FORMAT_SPECIFICATIONS]
-- Budget considerations: [TV_BUDGET_CONSIDERATIONS]
-
-### Episode Structure
-### Cold Open
-- Hook element: [COLD_OPEN_HOOK]
-- Tone establishment: [COLD_OPEN_TONE]
-- Character introduction: [COLD_OPEN_CHARACTER]
-- Plot setup: [COLD_OPEN_PLOT]
-- Audience grab: [COLD_OPEN_GRAB]
-- Length: [COLD_OPEN_LENGTH]
-
-### Act Structure
-- Act breaks: [ACT_BREAKS]
-- Cliffhangers: [CLIFFHANGERS]
-- Commercial considerations: [COMMERCIAL_CONSIDERATIONS]
-- Pacing rhythm: [TV_PACING_RHYTHM]
-- Character development: [TV_CHARACTER_DEVELOPMENT]
-- Plot advancement: [TV_PLOT_ADVANCEMENT]
-- Emotional beats: [TV_EMOTIONAL_BEATS]
-
-### Series Continuity
-- Character consistency: [CHARACTER_CONSISTENCY]
-- World building: [WORLD_BUILDING]
-- Mythology tracking: [MYTHOLOGY_TRACKING]
-- Timeline maintenance: [TIMELINE_MAINTENANCE]
-- Relationship evolution: [RELATIONSHIP_EVOLUTION]
-- Story arc progression: [STORY_ARC_PROGRESSION]
-- Theme development: [THEME_DEVELOPMENT]
-
-### MARKETING & PITCH
-
-### Pitch Elements
-### Logline Development
-- Protagonist identification: [PROTAGONIST_ID]
-- Goal statement: [GOAL_STATEMENT]
-- Obstacle description: [OBSTACLE_DESCRIPTION]
-- Stakes clarification: [STAKES_CLARIFICATION]
-- Unique angle: [UNIQUE_ANGLE]
-- Genre indication: [GENRE_INDICATION]
-- Emotional hook: [EMOTIONAL_HOOK]
-- Commercial appeal: [COMMERCIAL_APPEAL]
-
-### Treatment Writing
-- Story summary: [STORY_SUMMARY]
-- Character descriptions: [CHARACTER_DESCRIPTIONS]
-- Major plot points: [MAJOR_PLOT_POINTS]
-- Theme statement: [THEME_STATEMENT]
-- Visual style: [VISUAL_STYLE_DESCRIPTION]
-- Target audience: [TARGET_AUDIENCE_DESCRIPTION]
-- Comparable films: [COMPARABLE_FILMS]
-- Budget implications: [BUDGET_IMPLICATIONS]
-
-### Industry Positioning
-- Market analysis: [MARKET_ANALYSIS]
-- Target demographic: [TARGET_DEMOGRAPHIC_ANALYSIS]
-- Distribution strategy: [DISTRIBUTION_STRATEGY]
-- Franchise potential: [FRANCHISE_POTENTIAL_ANALYSIS]
-- Star vehicle potential: [STAR_VEHICLE_POTENTIAL]
-- Awards potential: [AWARDS_POTENTIAL]
-- International appeal: [INTERNATIONAL_APPEAL_ANALYSIS]
-- Remake/sequel potential: [REMAKE_SEQUEL_POTENTIAL]
-
-### DESIGN OUTPUT
-[Generate comprehensive screenplay with all specified elements]
-
-Project: [FINAL_PROJECT_TITLE]
-Screenplay Type: [FINAL_SCREENPLAY_TYPE]
-
-[COMPLETE_SCREENPLAY_SOLUTION]
+Use this maturity scale:
+- 1.0-1.9: Novice (learning fundamentals, significant craft gaps)
+- 2.0-2.9: Developing (basic competency, inconsistent execution)
+- 3.0-3.9: Proficient (solid craft, ready for feedback and revision)
+- 4.0-4.9: Advanced (professional quality, competition-ready)
+- 5.0: Mastery (exceptional craft, industry-leading)
 
 ---
 
-### Screenplay Deliverables
-- Total pages: [TOTAL_PAGES]
-- Scene count: [SCENE_COUNT]
-- Character count: [CHARACTER_COUNT]
-- Dialogue scenes: [DIALOGUE_SCENE_COUNT]
-- Action sequences: [ACTION_SEQUENCE_COUNT]
-- Plot points: [PLOT_POINT_COUNT]
-
-OUTPUT: Deliver professional screenplay with:
-1. Industry-standard formatting
-2. Compelling character development
-3. Engaging dialogue and action
-4. Strong three-act structure
-5. Genre-appropriate elements
-6. Visual storytelling approach
-7. Commercial viability consideration
-```
-
 ## Variables
-[All 400+ variables for comprehensive screenwriting including films, TV, and web series]
+
+| Variable | Description | Example |
+|----------|-------------|---------|
+| `{PROJECT_CONTEXT}` | The writer and current writing experience level | "emerging screenwriter with 2 completed shorts, working on first feature, enrolled in screenwriting workshops" |
+| `{SCREENPLAY_SCOPE}` | The specific screenplay project being developed | "sci-fi thriller feature screenplay 'Neural Echo' about AI consciousness, 110 pages, medium budget positioning" |
+| `{WRITING_OBJECTIVES}` | The goals for screenwriting capability development | "complete competition-ready feature draft, place in top tier festivals, secure representation, develop professional portfolio" |
+
+---
 
 ## Usage Examples
 
-## Best Practices
+### Example 1: First Feature Screenplay Development
 
-1. **Start with clear objectives** - Define what success looks like before beginning
-2. **Use data to inform decisions** - Base choices on evidence and measurable outcomes
-3. **Iterate and improve continuously** - Treat implementation as an ongoing process
-4. **Engage stakeholders early** - Include key participants in planning and execution
-5. **Document thoroughly** - Maintain clear records for reference and knowledge transfer
-6. **Communicate regularly** - Keep all parties informed of progress and changes
-7. **Address challenges proactively** - Identify potential issues before they become problems
-8. **Celebrate milestones** - Recognize achievements to maintain motivation
-9. **Learn from experience** - Reflect on what works and adjust accordingly
-10. **Stay flexible** - Be ready to adapt based on feedback and changing circumstances
+**Context:** Emerging writer with strong short film background attempting first feature-length screenplay, struggling with middle act pacing and maintaining tension across 110 pages.
 
-## Tips for Success
+**Assessment Highlights:**
+- **Overall Score: 2.8/5 (Developing)** - Solid fundamentals from short work but struggling with feature-length narrative demands
+- **Dimension Scores:** Story Structure 2.5 (strong setup, sagging middle), Character Development 3.2 (compelling protagonist), Dialogue & Scene Writing 3.0 (natural dialogue, unfocused scenes), Genre & Format Mastery 3.5 (good format knowledge), Visual Storytelling 2.8 (telling not showing), Professional & Market Readiness 2.0 (weak positioning materials)
 
-- Break complex tasks into manageable steps with clear milestones
-- Set realistic timelines that account for dependencies and constraints
-- Allocate sufficient resources including time, budget, and personnel
-- Use templates and frameworks to ensure consistency and quality
-- Seek feedback from users and stakeholders throughout the process
-- Build in checkpoints to assess progress and make adjustments
-- Maintain quality standards while remaining practical and efficient
-- Document lessons learned for future reference and improvement
-- Foster collaboration across teams and departments
-- Stay current with industry best practices and emerging trends
-### Example 1: Feature Film Thriller
-```
-SCREENPLAY_TYPE: "Feature film screenplay"
-PROJECT_TITLE: "Digital Shadows"
-GENRE: "Techno-thriller"
-STORY_THEME: "Privacy vs security in digital age"
-TARGET_AUDIENCE: "Adults 25-54, tech-savvy"
-TARGET_RUNTIME: "110 minutes"
-BUDGET_LEVEL: "Medium budget"
-```
+**Key Gaps:**
+1. **Act II structure weakness** - Second act sags from pages 40-75 with repetitive conflicts and insufficient escalation, lacking midpoint revelation to raise stakes and propel story into second half, scenes feel meandering without clear progression toward plot point two, reader loses momentum and engagement
+2. **Visual storytelling deficiency** - Relies heavily on dialogue to convey information and emotion rather than using visual storytelling, action lines often tell internal states like "Sarah feels conflicted" rather than showing observable behavior, missing opportunities for powerful wordless sequences
+3. **Weak logline and positioning** - Logline is vague and generic failing to capture unique hook of the story, no clear comparable films identified for market positioning, treatment reads like extended summary rather than compelling sales document
 
-### Example 2: TV Drama Pilot
-```
-SCREENPLAY_TYPE: "Television pilot"
-PROJECT_TITLE: "City General"
-GENRE: "Medical drama"
-STORY_THEME: "Healthcare heroes facing personal and professional challenges"
-TARGET_AUDIENCE: "Adults 35-65, mainstream appeal"
-TARGET_RUNTIME: "44 minutes (hour-long)"
-BUDGET_LEVEL: "High budget"
-```
+**Recommendations:**
+- **Immediate (Week 1-2):** Analyze midpoint structures in successful thrillers like "Gone Girl" or "The Fugitive" to understand how strong midpoints shift dynamics, rewrite pages 55-60 creating revelation that fundamentally changes protagonist's understanding and raises stakes significantly, map out Act II beat sheet ensuring each sequence escalates conflict and moves toward climax
+- **Short-term (Week 3-6):** Identify 5-7 key emotional moments that should be conveyed visually without dialogue, rewrite these as pure visual sequences showing character state through behavior and environment, study action-heavy screenplays like "Mad Max: Fury Road" to learn economy of action line writing, eliminate 80% of parentheticals and let dialogue stand alone
+- **Medium-term (Week 7-12):** Craft compelling one-sentence logline testing it on 10 non-writer friends to see if it hooks them, research and identify 3-5 comparable successful films positioning this screenplay in the marketplace, write 3-page treatment that reads like exciting story summary not mechanical plot outline, prepare elevator pitch that can be delivered in 60 seconds
 
-### Example 3: Comedy Short Film
-```
-SCREENPLAY_TYPE: "Short film screenplay"
-PROJECT_TITLE: "The Interview"
-GENRE: "Comedy"
-STORY_THEME: "Workplace absurdity and miscommunication"
-TARGET_AUDIENCE: "Adults 22-45, comedy fans"
-TARGET_RUNTIME: "15 minutes"
-BUDGET_LEVEL: "Low budget"
-```
+**Expected Outcomes:** Reach 3.8/5 overall within 3 months with particular improvement in Story Structure (2.5→4.0) through midpoint strengthening and pacing refinement, Visual Storytelling (2.8→3.5) through visual sequence development, creating festival-ready draft eligible for top-tier screenplay competitions like Nicholl or Austin Film Festival.
 
+### Example 2: TV Pilot Spec for Breaking into Television
 
+**Context:** Feature film writer transitioning to television needing to master episodic structure, act breaks, and ongoing series architecture for spec pilot as writing sample.
 
-## Related Resources
+**Assessment Highlights:**
+- **Overall Score: 3.2/5 (Proficient)** - Strong narrative fundamentals but learning TV-specific demands
+- **Dimension Scores:** Story Structure 2.8 (feature thinking not episodic), Character Development 3.8 (excellent character work), Dialogue & Scene Writing 3.5 (sharp dialogue), Genre & Format Mastery 2.5 (weak on TV formatting), Visual Storytelling 3.5 (cinematic skill), Professional & Market Readiness 3.0 (needs TV positioning)
 
-### Complementary Templates
+**Key Gaps:**
+1. **Episodic structure misunderstanding** - Pilot reads like first 60 minutes of a movie with self-contained story rather than launching ongoing series engine, lacking proper series setup that establishes recurring conflicts, character dynamics, and world that can generate 100 episodes, missing cold open hook and act break cliffhangers essential for TV format
+2. **Act break weakness** - Five acts for hour drama but breaks don't create cliffhangers compelling viewers to stay through commercials, acts are roughly equal length rather than strategically paced, missing the rising tension curve that TV requires for sustained viewer engagement across interruptions
+3. **Series bible absence** - No clear vision for seasons 2-5 demonstrating series longevity potential, character arcs seem to resolve in pilot rather than launching ongoing journeys, missing the world-building and mythology that makes series sustainable beyond initial premise
 
-Enhance your workflow by combining this template with:
+**Recommendations:**
+- **Immediate (Week 1-2):** Study pilot episodes of successful series in target genre analyzing cold open hooks, act break cliffhangers, and season finale setups, identify the "series engine" - the repeatable conflict generator that sustains the show, rewrite pilot ending to launch ongoing series rather than resolve everything
+- **Short-term (Week 3-6):** Rewrite all four act breaks to end on cliffhangers or revelations that create suspense, analyze commercial break timing ensuring maximum viewer retention, develop cold open (teaser) that hooks audience in first 3-5 pages before title card, study TV formatting standards including act designations and page counts
+- **Medium-term (Week 7-12):** Write 10-page series bible covering premise, character breakdowns for 6-8 series regulars, season one arc with all episode loglines, thematic spine of series, create "leave-behinds" showing 3-season vision demonstrating long-term storytelling potential, research current showrunners and production companies for this genre identifying potential targets
 
-- **[Creative Writing Framework](creative-writing-framework.md)** - Complementary approaches and methodologies
-- **[Video Production Pipeline](video-production-pipeline.md)** - Complementary approaches and methodologies
+**Expected Outcomes:** Reach 4.0/5 overall within 3 months mastering TV-specific craft, with Story Structure improving (2.8→4.2) through episodic thinking, Genre & Format Mastery advancing (2.5→3.8) through TV standards, creating spec pilot that functions as effective writing sample for staffing season securing meetings with showrunners and potentially landing on tracking boards.
 
-### Suggested Workflow
+### Example 3: Competition Entry Optimization for Professional Breakthrough
 
-**Typical implementation sequence**:
+**Context:** Experienced writer with multiple completed screenplays but no festival placements or industry traction, needs assessment of why scripts aren't advancing and what specific improvements would make competition-ready.
 
-1. Start with this template (Screenwriting Template)
-2. Use [Creative Writing Framework](creative-writing-framework.md) for deeper analysis
-3. Apply [Video Production Pipeline](video-production-pipeline.md) for execution
-4. Iterate and refine based on results
+**Assessment Highlights:**
+- **Overall Score: 3.4/5 (Proficient)** - Professional execution but missing competitive edge
+- **Dimension Scores:** Story Structure 3.5 (solid but safe), Character Development 3.2 (functional but not memorable), Dialogue & Scene Writing 3.8 (very strong), Genre & Format Mastery 4.0 (excellent technical execution), Visual Storytelling 3.0 (competent), Professional & Market Readiness 3.0 (generic positioning)
 
-### Explore More in This Category
+**Key Gaps:**
+1. **Premise originality deficiency** - Story follows familiar beats of the genre without fresh perspective, logline sounds like dozens of similar scripts in the competition pile, missing the unique hook or unexpected angle that makes readers take notice, plays it safe rather than taking creative risks that distinguish exceptional scripts
+2. **Character depth limitations** - Protagonist follows archetypal hero's journey without distinctive personality, backstory, or perspective, supporting characters feel like stock types serving plot functions, missing the idiosyncratic details and contradictions that make characters feel like real people rather than narrative constructs
+3. **Emotional impact gap** - Technically proficient but not emotionally resonant, scenes execute properly but don't create powerful feelings, missing those "holy shit" moments that make readers excited to champion a script, plays out predictably without surprising the audience emotionally or intellectually
 
-Browse all **[creative/Entertainment](../../creative/Entertainment/)** templates for related tools and frameworks.
+**Recommendations:**
+- **Immediate (Week 1-2):** Conduct premise originality test by pitching logline to 20 people and noting if anyone says "oh, like [other movie]" more than once, if so, find the unique twist that differentiates this story, analyze competition winners from past 3 years identifying common factors of winning scripts (often originality, voice, emotional impact), commit to taking bigger creative risks
+- **Short-term (Week 3-6):** Rewrite protagonist with 3-5 highly specific details that make them unforgettable - unusual occupation, distinctive speech pattern, contradictory trait combination, add vulnerability moments that create deep audience connection, elevate supporting characters beyond types giving each their own distinct voice and agenda, ensure every character wants something in every scene
+- **Medium-term (Week 7-12):** Identify the 5-6 most important emotional beats in the screenplay, rewrite each as unforgettable sequence that will stick with reader days later, add one unexpected plot turn that subverts genre expectations in meaningful way, polish opening 10 pages to absolute perfection as these determine if script advances, submit strategically to 3-5 top-tier competitions (Nicholl, Austin, PAGE, Sundance Lab)
 
-### Common Use Case Combinations
+**Expected Outcomes:** Reach 4.3/5 overall within 3 months breaking through to competition success, with particular improvement in Character Development (3.2→4.5) through distinctive character creation, Story Structure (3.5→4.2) through bold creative choices, achieving quarterfinal or higher placements in major competitions leading to manager/agent interest and paid writing assignments.
 
-- **Creating compelling screenplays for films, TV series, and web content with professional formatting, engaging dialogue, and strong narrative structure that captivates audiences and drives production interest.**: Combine this template with related analytics and strategy frameworks
-- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
-- **Strategy development**: Combine this template with related analytics and strategy frameworks
+---
 
-## Customization Options
+## Cross-References
 
-1. **Screenplay Types**
-   - Feature films
-   - TV pilots
-   - TV episodes
-   - Short films
-   - Web series
-   - Documentaries
-   - Animation scripts
-
-2. **Genres**
-   - Drama
-   - Comedy
-   - Action/Adventure
-   - Thriller/Suspense
-   - Horror
-   - Science Fiction
-   - Romance
-   - Historical
-
-3. **Format Specifications**
-   - Theatrical release
-   - Streaming platform
-   - Television broadcast
-   - Film festival
-   - Online content
-   - Mobile content
-   - International distribution
-
-4. **Budget Considerations**
-   - Micro-budget
-   - Low budget
-   - Medium budget
-   - High budget
-   - Studio tentpole
-   - Independent film
-   - Television production
+- [Creative Writing](../../creative-writing.md) - For foundational storytelling principles
+- [Video Scripts](../../video-scripts.md) - For visual content scriptwriting
+- [Video Production Pipeline](../../video-production-pipeline.md) - For understanding production process

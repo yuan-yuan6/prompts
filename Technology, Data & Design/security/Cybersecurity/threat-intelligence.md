@@ -1,297 +1,148 @@
 ---
 category: security
-last_updated: 2025-11-23
-related_templates:
-- technology/cloud-architecture-framework.md
-- technology/site-reliability-engineering.md
-- technology/cloud-migration-strategy.md
+title: Threat Intelligence Program Framework
 tags:
 - security
 - threat-intelligence
 - mitre-attack
 - ioc
-title: Threat Intelligence Template
 use_cases:
-- Creating comprehensive threat intelligence program including collection, analysis,
-  dissemination, and actionable intelligence for proactive threat detection, prevention,
-  and response.
-- Project planning and execution
-- Strategy development
+- Building threat intelligence program with strategic/tactical/operational intel achieving proactive threat detection, PIR-driven collection, MITRE ATT&CK mapping
+- Implementing threat intelligence platform (MISP/ThreatConnect) with IOC feeds integrated to SIEM/EDR/firewalls for automated threat blocking
+- Establishing intelligence sharing with ISACs, peers using TLP classification achieving collaborative defense and early warning
+related_templates:
+- security/Cybersecurity/security-operations.md
+- security/Security-Operations/siem-security-monitoring.md
+- security/Cybersecurity/incident-response.md
 industries:
-- finance
+- financial-services
+- healthcare
+- government
 - technology
-type: template
+- energy
+type: framework
 difficulty: intermediate
 slug: threat-intelligence
 ---
 
-# Threat Intelligence Template
+# Threat Intelligence Program Framework
 
 ## Purpose
-Comprehensive threat intelligence program including collection, analysis, dissemination, and actionable intelligence for proactive threat detection, prevention, and response.
+Build comprehensive threat intelligence program covering priority intelligence requirements, collection from OSINT/commercial/government sources, analysis using MITRE ATT&CK/Diamond Model, intelligence products (strategic/tactical/operational), and sharing via TLP achieving proactive threat detection and response.
 
-## Quick Threat Intel Prompt
-Build threat intelligence program for [industry] organization. Define PIRs (priority intelligence requirements) aligned with business risks. Sources: OSINT + [commercial feeds: Recorded Future/CrowdStrike] + [ISACs]. Framework: MITRE ATT&CK for TTP mapping. Deliver: IOC feeds integrated with SIEM/EDR, weekly threat reports, threat actor profiles relevant to [industry], and intelligence sharing procedures (TLP classification).
+## 🚀 Quick Threat Intel Prompt
 
-## Quick Start
+> Build threat intelligence for **[INDUSTRY]** organization. PIRs: **[THREAT_ACTORS]** targeting **[ASSETS]**. Collection: OSINT + **[COMMERCIAL_FEEDS]** (Recorded Future/CrowdStrike/Mandiant) + **[ISAC]** + internal telemetry. Analysis: **[MITRE_ATT&CK]** mapping, confidence assessment **[ADMIRALTY_SCALE]**. Products: strategic **[REPORTS]**, tactical **[IOC_FEEDS]**, operational **[PLAYBOOKS]**. Integration: **[SIEM/EDR/FIREWALL]**. Sharing: **[TLP]** classification, **[ISAC]** participation.
 
-**Set Your Foundation:**
-1. Define intelligence objectives: threat actors, attack vectors, industry-specific threats
-2. Identify priority intelligence requirements (PIRs) aligned with business risk
-3. Set geographic and industry scope for threat monitoring
+---
 
-**Configure Key Parameters:**
-4. Select collection sources: OSINT (free), commercial feeds (Recorded Future, CrowdStrike), government (FBI, CISA)
-5. Choose analysis framework: Diamond Model, Cyber Kill Chain, or MITRE ATT&CK
-6. Define intelligence products: strategic reports, tactical IOCs, operational playbooks
+## Template
 
-**Implement & Deploy (Ongoing):**
-7. Deploy SIEM and threat intelligence platform (TIP) like MISP or ThreatConnect
-8. Integrate IOC feeds into security tools (EDR, firewall, IDS/IPS)
-9. Establish intelligence sharing with ISACs and sector-specific groups
-10. Create daily/weekly intelligence reports and distribute to stakeholders
+Build threat intelligence program for {ORGANIZATION} in {INDUSTRY} tracking {THREAT_ACTORS} achieving {INTELLIGENCE_OBJECTIVES} with {TIME_HORIZON} strategic planning.
 
-**Pro Tips:** Start with MITRE ATT&CK framework for standardization, use TLP (Traffic Light Protocol) for sharing classification, focus on actionable intelligence over volume, and maintain feedback loop with SOC teams for validation.
+**INTELLIGENCE REQUIREMENTS DEFINITION**
 
-## Template Structure
+Establish what intelligence is needed and why. Priority intelligence requirements (PIRs): specific questions that intelligence must answer to support decision-making (What ransomware gangs are targeting healthcare? What TTPs are nation-state actors using against financial institutions? What zero-days are being exploited in our technology stack?). PIR development: align with business risk (crown jewel assets, compliance requirements, board concerns), involve stakeholders (CISO for strategic direction, SOC for tactical needs, IR team for operational playbooks), prioritize by impact and urgency (PIR matrix: high impact + high urgency = priority 1), review quarterly (threat landscape evolves, adjust PIRs accordingly).
 
-### Intelligence Requirements
-- **Intelligence Objectives**: [INTELLIGENCE_OBJECTIVES]
-- **Priority Intelligence Requirements**: [PIR]
-- **Threat Actors**: [THREAT_ACTORS]
-- **Attack Vectors**: [ATTACK_VECTORS]
-- **Industry Focus**: [INDUSTRY_FOCUS]
-- **Geographic Scope**: [GEOGRAPHIC_SCOPE]
-- **Time Horizon**: [TIME_HORIZON]
-- **Intelligence Consumers**: [INTELLIGENCE_CONSUMERS]
-- **Decision Support**: [DECISION_SUPPORT]
-- **Success Metrics**: [INTELLIGENCE_SUCCESS_METRICS]
+Intelligence objectives by level: strategic intelligence (12-18 month horizon, threat landscape trends, emerging threat actors, geopolitical impact on cyber threats, inform executive decisions and long-term investments), tactical intelligence (30-90 day horizon, active campaigns, adversary TTPs, IOCs for current threats, inform SOC detection and hunting), operational intelligence (real-time to 30 days, immediate threat warnings, incident-specific intelligence, response playbooks, inform active incident response).
 
-### Collection Framework
-- **Collection Sources**: [COLLECTION_SOURCES]
-- **Collection Methods**: [COLLECTION_METHODS]
-- **OSINT Sources**: [OSINT_SOURCES]
-- **Commercial Feeds**: [COMMERCIAL_FEEDS]
-- **Government Sources**: [GOVERNMENT_SOURCES]
-- **Industry Sharing**: [INDUSTRY_SHARING]
-- **Internal Sources**: [INTERNAL_SOURCES]
-- **Technical Collection**: [TECHNICAL_COLLECTION]
-- **Human Intelligence**: [HUMAN_INTELLIGENCE]
-- **Collection Planning**: [COLLECTION_PLANNING]
+Threat actor prioritization: nation-state APTs (groups targeting your sector—APT28/29 for government/defense, APT41 for healthcare/tech, Lazarus for financial, long-term persistent threats with sophisticated TTPs), cybercrime groups (financially motivated—ransomware gangs like LockBit/BlackCat, banking trojans like Emotet/TrickBot, shorter attack timelines but higher volume), hacktivists (ideologically motivated, DDoS and defacement, episodic based on current events), insider threats (malicious or negligent employees, hardest to detect via external intelligence, rely on internal indicators).
 
-### Analysis and Processing
-- **Analysis Framework**: [ANALYSIS_FRAMEWORK]
-- **Analytical Methods**: [ANALYTICAL_METHODS]
-- **Threat Modeling**: [THREAT_MODELING]
-- **Attribution Analysis**: [ATTRIBUTION_ANALYSIS]
-- **Indicator Analysis**: [INDICATOR_ANALYSIS]
-- **Campaign Tracking**: [CAMPAIGN_TRACKING]
-- **Trend Analysis**: [TREND_ANALYSIS]
-- **Predictive Analysis**: [PREDICTIVE_ANALYSIS]
-- **Confidence Assessment**: [CONFIDENCE_ASSESSMENT]
-- **Quality Control**: [ANALYSIS_QUALITY_CONTROL]
+Intelligence consumers and use cases: SOC analysts (tactical IOCs, detection rules, hunting queries), incident responders (adversary playbooks, TTPs, infrastructure for attribution), vulnerability management (exploited CVEs, weaponized vulnerabilities, prioritization beyond CVSS), risk management (strategic threat assessments, quantitative risk modeling, board reporting), executive leadership (threat landscape briefings, peer breach analysis, investment justification).
 
-### Intelligence Products
-- **Strategic Intelligence**: [STRATEGIC_INTELLIGENCE]
-- **Tactical Intelligence**: [TACTICAL_INTELLIGENCE]
-- **Operational Intelligence**: [OPERATIONAL_INTELLIGENCE]
-- **Technical Intelligence**: [TECHNICAL_INTELLIGENCE]
-- **IOC Feeds**: [IOC_FEEDS]
-- **Threat Reports**: [THREAT_REPORTS]
-- **Briefings**: [INTELLIGENCE_BRIEFINGS]
-- **Alerts**: [INTELLIGENCE_ALERTS]
-- **Hunting Guidance**: [HUNTING_GUIDANCE]
-- **Risk Assessments**: [INTELLIGENCE_RISK_ASSESSMENTS]
+**COLLECTION MANAGEMENT**
 
-### Dissemination and Sharing
-- **Distribution Lists**: [DISTRIBUTION_LISTS]
-- **Classification Levels**: [CLASSIFICATION_LEVELS]
-- **Sharing Protocols**: [SHARING_PROTOCOLS]
-- **TLP Handling**: [TLP_HANDLING]
-- **Automation**: [DISSEMINATION_AUTOMATION]
-- **Integration**: [INTELLIGENCE_INTEGRATION]
-- **Feedback Mechanisms**: [FEEDBACK_MECHANISMS]
-- **Metrics and Reporting**: [DISSEMINATION_METRICS]
-- **External Sharing**: [EXTERNAL_SHARING]
-- **Legal Considerations**: [LEGAL_CONSIDERATIONS]
+Gather intelligence from diverse sources. Open source intelligence (OSINT): free and publicly available (VirusTotal for malware samples, Shodan for exposed infrastructure, Twitter/X for real-time threat discussion, security blogs for research, GitHub for leaked credentials and tooling, AlienVault OTX for community IOCs, MISP communities for sharing). Collection approach: automated scrapers for high-volume sources, manual monitoring for specialized forums, keyword alerts for breaking news, attribution via pseudonymous accounts for dark web.
 
-Please provide detailed collection plans, analysis workflows, intelligence products, and sharing frameworks.
+Commercial threat intelligence feeds: vendor selection criteria (coverage of your threat landscape, feed quality and false positive rate, integration with your security stack, analyst support and custom research, pricing model—subscription vs consumption). Leading vendors: Recorded Future (comprehensive coverage, real-time alerts, integration platform), Mandiant Threat Intelligence (APT focus, incident-driven, deep adversary analysis), CrowdStrike Falcon Intelligence (endpoint-focused, malware analysis, adversary tracking), Intel 471 (cybercrime underground, ransomware, carding forums), Flashpoint (physical security convergence, illicit communities). Feed types: structured IOCs (IPs, domains, file hashes, YARA rules), TTPs mapped to MITRE ATT&CK, threat actor profiles and campaigns, vulnerability intelligence, dark web monitoring.
+
+Government and industry sources: government agencies (CISA alerts and advisories, FBI IC3 for cybercrime, NSA/CSS cybersecurity guidance, sector-specific—FinCEN for finance, HHS for healthcare), Information Sharing and Analysis Centers (ISACs) by industry (FS-ISAC for financial services, H-ISAC for healthcare, E-ISAC for energy, IT-ISAC for technology, membership-based, peer sharing, early warning), international agencies (Europol EC3, ENISA for Europe, NCSC for UK, CERT/CC for vulnerabilities).
+
+Internal intelligence sources: own telemetry is most relevant (SIEM logs for attack patterns, EDR telemetry for malware samples, email gateway for phishing campaigns, firewall logs for reconnaissance, DNS logs for C2 communication, honeypots for attacker TTPs, incident post-mortems for lessons learned). Enrichment: correlate internal observations with external intelligence, validate external IOCs against your environment, feedback loop improves collection priorities.
+
+**ANALYSIS AND PROCESSING**
+
+Transform raw data into actionable intelligence. Analysis frameworks: MITRE ATT&CK (TTP categorization, adversary behavior mapping, coverage gap analysis, 14 tactics × 100+ techniques, standard language for sharing), Diamond Model (adversary, capability, infrastructure, victim analysis, pivoting for attribution and expansion), Cyber Kill Chain (reconnaissance → weaponization → delivery → exploitation → installation → C2 → actions on objectives, identify defensive opportunities at each stage), F3EAD (find, fix, finish, exploit, analyze, disseminate—iterative cycle for continuous intelligence operations).
+
+Analytical tradecraft: structured analytic techniques (Analysis of Competing Hypotheses for attribution, Key Assumptions Check to challenge biases, Red Team Analysis to test conclusions, Scenario Development for predictive intelligence), link analysis (connect IOCs to infrastructure to adversaries, visualize relationships with Maltego/i2 Analyst Notebook, identify pivot points for expansion), behavioral analysis (identify adversary patterns beyond IOCs—operational tempo, tooling preferences, target selection, TTP evolution), temporal analysis (timeline of attack activity, identify preparation phases, predict future activity windows).
+
+Confidence assessment methodology: Admiralty Scale for source reliability and information credibility (A = completely reliable source, B = usually reliable, C = fairly reliable... F = reliability cannot be judged; 1 = confirmed by other sources, 2 = probably true, 3 = possibly true... 6 = truth cannot be judged), confidence levels in intelligence products (High confidence >80%: corroborated by multiple independent sources, Medium confidence 50-80%: single credible source or multiple sources with some conflict, Low confidence <50%: uncorroborated, contradictory sources), analytic caveats (state assumptions, identify information gaps, acknowledge alternative explanations).
+
+Indicator analysis and enrichment: IOC validation (verify before dissemination, check false positive history, validate against benign infrastructure), IOC contextualization (who uses this? when was it active? what does it indicate? associated campaigns?), IOC aging (recent IOCs more valuable, implement decay scoring, expire stale indicators), YARA rule development (signature-based detection for malware families, balance specificity vs generality, test against benign corpus).
+
+Campaign and adversary tracking: campaign definition (related activities with shared objective, TTPs, infrastructure, timeframe), adversary profiling (motivations, capabilities, targeting patterns, TTP preferences, infrastructure reuse), campaign evolution tracking (how TTPs change over time, tool adoption, defensive countermeasure adaptation), threat actor attribution (technical attribution via infrastructure/malware, behavioral attribution via TTPs/targeting, confidence levels for attribution claims).
+
+**INTELLIGENCE PRODUCTS AND DELIVERABLES**
+
+Produce intelligence in consumable formats. Strategic intelligence products: quarterly/annual threat landscape reports (macro trends, emerging threats, geopolitical analysis, threat actor evolution, for executive audience), industry-specific threat assessments (peer breach analysis, sector targeting trends, regulatory implications, competitive intelligence on security maturity), risk quantification reports (use FAIR methodology, potential loss estimates, threat probability assessment, ROI for security investments), board-level briefings (business language not technical jargon, risk to business objectives, strategic recommendations, 10-15 minute presentations).
+
+Tactical intelligence products: daily/weekly IOC feeds (machine-readable formats—STIX/TAXII, CSV, JSON, integration with SIEM/EDR/firewalls, automated blocking or alerting), detection rules (SIEM correlation rules, EDR behavioral detections, Snort/Suricata signatures, YARA rules for malware), threat hunting queries (KQL for Sentinel, SPL for Splunk, Lucene for Elastic, hypothesis-driven based on intelligence), adversary infrastructure maps (C2 domains and IPs, malware distribution sites, phishing infrastructure, blocklist candidates).
+
+Operational intelligence products: incident response playbooks (playbook per threat type—ransomware, BEC, DDoS, supply chain, includes TTPs to look for, containment steps, eradication guidance, recovery procedures), adversary emulation plans (purple team exercises, red team scenarios based on real adversary TTPs, test detection coverage), vulnerability intelligence (exploited CVEs in wild, vulnerability-exploit timeline, patch prioritization beyond CVSS, PoC availability), situational awareness alerts (breaking threats, zero-day disclosures, major breaches in sector, immediate action required).
+
+Technical intelligence products: malware analysis reports (static and dynamic analysis, YARA signatures, IOCs, TTPs used, attribution indicators), campaign deep-dives (comprehensive analysis of specific campaign, timeline, infrastructure, victims, adversary profile), indicator packages (curated IOC collections for specific campaigns, context and confidence included, distribution via MISP/ThreatConnect).
+
+**INTELLIGENCE DISSEMINATION AND SHARING**
+
+Distribute intelligence to right stakeholders at right time. Internal distribution strategy: distribution lists by intelligence type and role (strategic to executives monthly, tactical to SOC daily, operational to IR as-needed), delivery mechanisms (email for reports, TIP portal for self-service, SIEM integration for automated IOCs, Slack/Teams for urgent alerts, executive dashboards for metrics), timeliness requirements (strategic can be scheduled, tactical within 24 hours, urgent alerts within 15 minutes).
+
+Traffic Light Protocol (TLP) classification: TLP:CLEAR (public disclosure authorized, can share widely including internet), TLP:GREEN (community sharing, can share with peers and partners, not public internet), TLP:AMBER (limited distribution, recipients only, no further sharing without permission), TLP:AMBER+STRICT (organization only, cannot share externally), TLP:RED (personal only, cannot share with anyone). Usage: mark all intelligence products with appropriate TLP, respect TLP markings on received intelligence, sanitize before elevating TLP (remove attribution/sources to upgrade RED→AMBER).
+
+External intelligence sharing: ISAC participation (active member not passive consumer, contribute intelligence not just consume, attend working groups and conferences, reciprocal sharing builds community), peer sharing arrangements (bilateral agreements with similar organizations, focus on tactical IOCs and campaigns, establish trust before sharing sensitive intelligence), vendor reporting (report novel threats to security vendors, helps entire community, may get free analysis in return), law enforcement coordination (FBI InfraGard program, IC3 reporting for incidents, build relationship before you need them).
+
+Automated intelligence integration: STIX/TAXII for structured sharing (STIX = Structured Threat Information eXpression, TAXII = Trusted Automated eXchange of Indicator Information, standard formats for machine-to-machine sharing), threat intelligence platform (MISP open-source, ThreatConnect commercial, centralized intelligence repository, correlation and enrichment, API for integration), automated IOC import to security tools (SIEM for alerting/correlation, EDR for blocking/detection, firewalls for network blocking, email gateway for phishing prevention, DNS for malicious domain blocking), automated response actions (auto-block known-bad IOCs, auto-isolate on critical alerts, create tickets for investigation).
+
+**INTELLIGENCE PROGRAM OPERATIONS**
+
+Manage ongoing intelligence operations. Intelligence team structure: small org (1-2 analysts, generalist skillset, heavy automation and vendor reliance), medium org (4-6 analysts, specialized by collection/analysis/dissemination, tier 2 threat hunters, manager), large org (10+ analysts, strategic/tactical/operational teams, malware reverse engineers, threat hunters, intelligence developers, director-level leadership). Analyst skills: understanding of adversary tactics, technical skills (networking, OS internals, malware analysis), analytical thinking (structured analysis, critical thinking, hypothesis testing), communication (translate technical to business, written reports, verbal briefings), tools (SIEM, Python for automation, intel platforms, analysis tools).
+
+Collection planning and tasking: collection requirements management (PIRs drive collection priorities, gap analysis identifies missing sources, new requirements from stakeholders), source evaluation (reliability assessment, coverage evaluation, cost-benefit analysis, contract renewals), collection automation (scrapers for OSINT, API integration for feeds, scheduled collection jobs, alerting for high-priority intelligence).
+
+Analysis workflow and quality assurance: standardized analysis process (intake → enrichment → analysis → peer review → dissemination), peer review requirements (second analyst validates high-confidence assessments, manager approval for strategic products, red team review for critical intelligence), quality metrics (timeliness—days from collection to dissemination, accuracy—false positive rate on IOCs, relevance—stakeholder satisfaction surveys, completeness—coverage of PIRs).
+
+Intelligence metrics and program evaluation: effectiveness metrics (threats detected via intelligence before incident, MTTD improvement attributed to intelligence, blocked attacks using IOCs, influenced security decisions), efficiency metrics (intelligence products produced, timeliness by product type, cost per intelligence product, analyst productivity), stakeholder satisfaction (consumer surveys, actionability rating, utilization of products), program maturity (CMM model—initial, repeatable, defined, managed, optimizing, annual assessment and improvement).
+
+Feedback and continuous improvement: consumer feedback loop (post-incident reviews with IR team, SOC feedback on IOC quality, executive feedback on strategic products, adjust priorities and methods), lessons learned process (quarterly review of intelligence successes and failures, what did we miss? what was waste? process improvements documented), threat landscape monitoring (how is threat environment changing? new adversaries? new TTPs? adjust PIRs and collection accordingly), competitive intelligence (what are peers doing for threat intelligence? industry benchmarking, adopt best practices).
+
+Deliver threat intelligence program as:
+
+1. **INTELLIGENCE REQUIREMENTS** - PIRs by stakeholder, threat actor priorities, intelligence consumer matrix
+
+2. **COLLECTION PLAN** - Source inventory (OSINT/commercial/government/internal), collection automation, gap analysis
+
+3. **ANALYSIS FRAMEWORK** - MITRE ATT&CK mapping procedures, analytical methods, confidence assessment methodology
+
+4. **INTELLIGENCE PRODUCTS** - Product catalog (strategic/tactical/operational), templates, production schedule
+
+5. **DISSEMINATION STRATEGY** - Distribution lists, TLP classification guide, automation integration, ISAC participation
+
+6. **TIP IMPLEMENTATION** - Platform selection (MISP/ThreatConnect), data model, API integrations, user access
+
+7. **METRICS FRAMEWORK** - Effectiveness measures, efficiency tracking, stakeholder satisfaction, maturity assessment
+
+---
 
 ## Usage Examples
 
-### Financial Services Threat Intelligence
-```
-Implement comprehensive threat intelligence program for FinancialBank targeting banking trojan campaigns with financial sector industry focus.
+### Example 1: Financial Services Threat Intelligence
+**Prompt:** Build threat intelligence for GlobalBank tracking banking trojans, nation-state threats achieving proactive fraud prevention and PCI compliance support.
 
-Intelligence Requirements:
-- Counter banking trojans, ATM malware intelligence objectives
-- Focus on Emotet, TrickBot, Zeus priority intelligence requirements
-- Track organized cybercrime, nation-state threat actors
-- Monitor phishing, malware, social engineering attack vectors
-- Cover North America, Europe geographic scope
+**Expected Output:** Scope: global financial institution, crown jewels (core banking, SWIFT, customer account databases, ATM network), high-value target for cybercrime and espionage. PIRs: What banking trojans are actively targeting our sector? (Emotet, TrickBot, Zeus variants), What nation-state APTs are conducting financial espionage? (Lazarus, FIN7 evolved to APT), What ATM malware is in circulation? (ATMJackpot, Ploutus, GreenDispenser), What phishing campaigns are impersonating our brand?, What vulnerabilities are being exploited in financial software? (core banking platforms, payment processing). Collection: FS-ISAC membership (threat sharing with 7,000+ financial institutions, daily bulletins, flash alerts for immediate threats), commercial feeds (Recorded Future $250K/year for comprehensive coverage, CrowdStrike $150K for malware intelligence, Intel 471 $100K for cybercrime underground), government (FBI financial crimes division, Secret Service, FinCEN advisories), OSINT (dark web monitoring for card dumps, ransomware leak sites, security researcher blogs), internal (fraud detection system alerts, EDR telemetry from 50K endpoints, SWIFT transaction anomalies). Analysis framework: Diamond Model for adversary attribution (link malware to infrastructure to threat actors), MITRE ATT&CK for technique mapping (T1566 phishing, T1078 valid accounts, T1021 lateral movement), Kill Chain for defensive planning (block at delivery with email security, detect at installation with EDR, respond at C2 with SIEM). Intelligence products: strategic (quarterly board briefing on financial sector threat landscape, peer breach analysis, fraud trends, geopolitical risks to operations), tactical (daily IOC feed with 500-1,000 indicators, SIEM correlation rules for banking trojans, hunting queries for credential theft, phishing domain blocklist), operational (ransomware response playbook tested quarterly, wire fraud incident procedures, insider threat investigation guide, APT response with FBI coordination). Integration: MISP (on-prem for sensitive threat sharing), SIEM integration (Splunk ingests IOCs, auto-creates alerts), EDR blocking (CrowdStrike auto-blocks known-bad hashes), email gateway (Proofpoint blocks phishing domains within 5 minutes of intelligence), fraud system (correlates fraud alerts with threat intelligence on active campaigns). Metrics: 45% of fraud prevented via intelligence (early warning from FS-ISAC), MTTD improved from 30 days to 12 hours (tactical intelligence feeding SOC), 2,000 malicious IPs blocked before attack (proactive blocking). Team: 6 analysts (2 strategic, 3 tactical, 1 malware reverse engineer), $850K annual budget (personnel + commercial feeds + platform).
 
-Collection Framework:
-- Collect from FS-ISAC, FBI, DHS government sources
-- Use FireEye, CrowdStrike, Recorded Future commercial feeds
-- Monitor dark web, social media OSINT sources
-- Share via FS-ISAC, regional banking groups industry sharing
-- Analyze internal incident data, logs internal sources
+### Example 2: Healthcare Threat Intelligence
+**Prompt:** Build threat intelligence for HealthSystem (8 hospitals, Epic EHR) tracking ransomware gangs, protecting PHI achieving HIPAA compliance and business continuity.
 
-### Analysis and Processing
-- Apply Diamond Model, Kill Chain analysis framework
-- Use structured analytic techniques analytical methods
-- Track campaigns by TTPs, infrastructure campaign tracking
-- Assess low/medium/high confidence levels confidence assessment
-- Validate IOCs, correlate with threat hunting analysis quality control
+**Expected Output:** Scope: healthcare delivery organization, critical for patient safety (Epic EHR downtime = patient care impact), ransomware primary threat (Ryuk, Conti, BlackCat targeting healthcare 300% increase), PHI valuable on dark web ($250/record vs $1 for credit card). PIRs: Which ransomware gangs are actively targeting healthcare? (BlackCat/ALPHV, LockBit 3.0, Royal, Hive before disruption), What TTPs do they use? (initial access via phishing, privilege escalation via PrintNightmare, lateral movement via RDP, backup deletion before encryption), What vulnerabilities are they exploiting in healthcare environments? (unpatched Windows servers, vulnerable VPN appliances—FortiGate/Pulse Secure, medical device vulnerabilities), What is the ransom demand trend? ($1M-$5M for hospitals, data leak threat if unpaid), How long is typical recovery? (2-4 weeks for full EHR restoration). Collection: H-ISAC membership ($25K annual, healthcare-specific threat sharing, 1,500+ members, ransomware early warnings), commercial (Mandiant $180K for incident-driven intelligence and adversary tracking, Flashpoint $90K for ransomware gang monitoring and leak site tracking), government (HHS 405(d) alerts, FBI healthcare alerts, CISA advisories), OSINT (ransomware leak sites—monitor for healthcare victims and TTPs, medical device vendor advisories, healthcare security forums), internal (Claroty for medical device monitoring—300+ connected devices, EDR logs—25K endpoints, email gateway—phishing attempts 500/day, Epic access logs—unusual PHI access patterns). Analysis: MITRE ATT&CK for Healthcare (ransomware attack chain—T1566.001 spearphishing attachment → T1204.002 user execution → T1486 data encrypted for impact), threat modeling (what if Epic down? manual charting procedures, patient safety risks, financial impact $1M/day), campaign tracking (BlackCat evolution—double extortion, intermittent encryption, VMware ESXi targeting). Intelligence products: strategic (monthly executive briefing—ransomware trends, peer breach lessons learned, cyber insurance implications, board presentation quarterly with business continuity impact), tactical (daily IOC feed—ransomware infrastructure, Snort rules for ransomware C2 protocols, YARA rules for ransomware families, phishing domain blocklist), operational (ransomware playbook—isolate infected systems, activate Epic downtime procedures, notify HHS within 60 days if PHI breach, FBI notification, forensic investigation, backup restoration from immutable storage, lessons learned). Dissemination: TLP:AMBER internal distribution (cannot share PHI context externally), TLP:GREEN for H-ISAC (sanitized IOCs and TTPs), ransomware alerts within 15 minutes to all IT staff, monthly newsletter to clinical leadership (patient safety focus). Integration: Microsoft Sentinel ($400K annual, HIPAA-compliant log retention), Defender for Endpoint (auto-quarantine on ransomware behavior), Veeam immutable backups (ransomware cannot encrypt), network segmentation (medical device VLANs isolated, cannot spread to business network). Outcomes: zero successful ransomware incidents (3 attempts detected and blocked via intelligence), PHI breach prevention ($1.5M+ potential OCR fines avoided), 75% reduction in phishing click rate (intelligence-driven training on active campaigns). Team: 3 analysts (1 strategic, 1 tactical, 1 split with IR), $450K budget (lean operation, heavy MSSP reliance).
 
-### Intelligence Products
-- Produce weekly executive briefings strategic intelligence
-- Generate daily IOC feeds, hunting queries tactical intelligence
-- Create incident response playbooks operational intelligence
-- Develop malware analysis reports technical intelligence
-- Distribute real-time alerts for active campaigns intelligence alerts
-```
+### Example 3: Critical Infrastructure (Energy)
+**Prompt:** Build threat intelligence for PowerGrid Utility tracking nation-state OT attacks, protecting SCADA/ICS achieving NERC CIP compliance and grid resilience.
 
-### Healthcare Threat Intelligence Program
-```
-Implement threat intelligence program for HealthCare Systems protecting PHI data across 50 hospital locations.
+**Expected Output:** Scope: power generation and distribution, 15 substations + control center SCADA, nation-state threat (Sandworm/ELECTRUM responsible for Ukraine grid attacks, CHERNOVITE targeting US grid, Volt Typhoon pre-positioning for disruption), regulatory (NERC CIP-008 incident reporting, CIP-013 supply chain risk management). PIRs: What nation-state actors are targeting North American energy sector? (Russia—Sandworm persistent, China—Volt Typhoon living-off-the-land, Iran—increasing capability), What ICS-specific malware exists? (Industroyer/CrashOverride for substation protocols, TRITON for safety systems, Pipedream modular ICS attack framework, COSMICENERGY circuit breaker manipulation), What are the TTPs for OT intrusion? (IT-to-OT pivot via poorly segmented networks, engineering workstation compromise, supply chain—vendor remote access, living-off-the-land to evade detection), What supply chain risks exist? (compromised firmware updates, malicious field devices, vendor access credentials), What geopolitical events correlate with attacks? (Ukraine conflict, Middle East tensions, US-China relations). Collection: E-ISAC (Electricity ISAC, 1,000+ utilities, threat sharing, tabletop exercises, government liaisons), Dragos ($200K annual, ICS threat intelligence leader, WorldView platform, vulnerability research), CISA ICS-CERT (free advisories, ICS-focused CVEs, incident response support), DOE (energy sector alerts, classified briefings for threats), OSINT (ICS security research, vendor advisories—Siemens/Schneider/ABB, academic papers on ICS attacks), internal (SCADA historian data, OT network traffic via Nozomi, IT/OT boundary monitoring, supply chain vendor assessments). Analysis: MITRE ATT&CK for ICS (12 tactics specific to OT—initial access via engineering workstation, execution via scripting in HMI, persistence via system firmware, lateral movement via OT protocols), OT threat modeling (attack impact—generation capacity loss, transmission disruption, physical damage to equipment, cascading failures, public safety), ICS kill chain adapted (reconnaissance of ICS, intrusion into enterprise, pivot to OT, discovery of control systems, development of attack, deployment and execution, physical impact). Intelligence products: strategic (quarterly threat landscape for executive and board—geopolitical analysis, nation-state capability assessment, risk to grid operations, NERC CIP alignment, investment requirements for OT security), tactical (IOC feeds for IT/OT boundary—Snort/Suricata rules for ICS protocols, YARA for ICS malware, malicious IP blocklist, domain reputation), operational (ICS incident response plan—OT-specific forensics, grid stability during response, vendor coordination, physical security integration, DOE/NERC notification, public communications). Integration: challenges (air-gapped OT networks, cannot install agents on legacy SCADA, passive monitoring only), solution (Nozomi for network visibility $180K, unidirectional gateways IT→OT data flow only, threat intelligence consumed at IT/OT boundary, manual processes for high-side OT network). Sharing: E-ISAC TLP:AMBER (sensitive infrastructure information, limited to energy sector), classified briefings with DOE/FBI (nation-state attribution, government response coordination), regional grid operator sharing (mutual aid during incidents). Compliance: NERC CIP-008 incident reporting (within 1 hour for critical, threat intelligence supports detection), CIP-013 supply chain plan (vendor risk assessments using threat intelligence on compromised vendors). Outcomes: detected Chinese APT reconnaissance (Volt Typhoon, removed before OT access), prevented vendor remote access compromise (intelligence on credential theft campaign), passed NERC audit with zero findings. Team: 2 analysts (1 strategic covering geopolitical, 1 tactical covering IOCs), plus OT engineers with security training, $350K budget (lean, government sources supplement commercial).
 
-Intelligence Requirements:
-- Counter healthcare-specific ransomware, data theft intelligence objectives
-- Focus on Ryuk, Conti, BlackCat targeting healthcare priority intelligence requirements
-- Track ransomware gangs, hacktivists, insider threats threat actors
-- Monitor ransomware, supply chain, credential theft attack vectors
-- Cover United States, India (offshore operations) geographic scope
+---
 
-Collection Framework:
-- Collect from H-ISAC, HHS, FBI government sources
-- Use Mandiant, Intel 471, Flashpoint commercial feeds
-- Monitor ransomware leak sites, medical forums OSINT sources
-- Share via H-ISAC, regional healthcare consortiums industry sharing
-- Analyze EHR access logs, medical device telemetry internal sources
+## Cross-References
 
-Analysis and Processing:
-- Apply MITRE ATT&CK for Healthcare analytical framework
-- Use TTP correlation, behavioral analysis analytical methods
-- Track ransomware evolution, new variants campaign tracking
-- Map threats to HIPAA security controls confidence assessment
-- Validate with clinical operations, medical device teams quality control
-
-Intelligence Products:
-- Produce monthly board-level risk assessments strategic intelligence
-- Generate IOC feeds for medical device networks tactical intelligence
-- Create ransomware response playbooks operational intelligence
-- Develop medical device vulnerability reports technical intelligence
-- Distribute ransomware alerts within 15 minutes intelligence alerts
-```
-
-### Critical Infrastructure (Energy Sector)
-```
-Implement threat intelligence for PowerGrid Utility protecting SCADA/ICS systems across power generation and distribution.
-
-Intelligence Requirements:
-- Counter nation-state OT attacks, destructive malware intelligence objectives
-- Focus on Industroyer, TRITON, Pipedream priority intelligence requirements
-- Track APT28, Sandworm, Volt Typhoon threat actors
-- Monitor ICS exploits, supply chain, living-off-the-land attack vectors
-- Cover North America, Eastern Europe (threat origins) geographic scope
-
-Collection Framework:
-- Collect from E-ISAC, CISA ICS-CERT, DOE government sources
-- Use Dragos, Claroty, Nozomi commercial feeds
-- Monitor ICS-focused forums, vendor advisories OSINT sources
-- Share via E-ISAC, regional grid operators industry sharing
-- Analyze SCADA logs, historian data, network flows internal sources
-
-Analysis and Processing:
-- Apply MITRE ATT&CK for ICS analytical framework
-- Use OT-specific threat modeling analytical methods
-- Track ICS malware variants, nation-state campaigns campaign tracking
-- Correlate with NERC CIP compliance requirements confidence assessment
-- Validate with OT engineers, control room operators quality control
-
-Intelligence Products:
-- Produce quarterly executive threat landscape strategic intelligence
-- Generate Snort/YARA rules for ICS protocols tactical intelligence
-- Create ICS incident response procedures operational intelligence
-- Develop malware analysis for OT-specific threats technical intelligence
-- Distribute grid emergency alerts via secure channels intelligence alerts
-```
-
-## Variables
-
-### Intelligence Program Variables
-| Variable | Description | Example |
-|----------|-------------|----------|
-| `[INTELLIGENCE_OBJECTIVES]` | Primary goals for the threat intelligence program | "Reduce mean time to detect by 50%, Proactive threat hunting" |
-| `[PIR]` | Priority Intelligence Requirements | "APT activity targeting financial sector, Ransomware trends, Zero-day exploits" |
-| `[THREAT_ACTORS]` | Key threat actors to monitor | "APT29, FIN7, Lazarus Group, LockBit ransomware operators" |
-| `[ATTACK_VECTORS]` | Primary attack methods to track | "Phishing, Supply chain, Zero-day exploits, Credential stuffing" |
-| `[INDUSTRY_FOCUS]` | Target industry vertical | "Financial Services", "Healthcare", "Critical Infrastructure" |
-| `[GEOGRAPHIC_SCOPE]` | Geographic coverage area | "North America, Europe, Asia-Pacific", "Global" |
-| `[TIME_HORIZON]` | Intelligence planning timeframe | "Strategic: 12-18 months, Tactical: 30-90 days, Operational: Real-time" |
-
-### Collection Variables
-| Variable | Description | Example |
-|----------|-------------|----------|
-| `[INTELLIGENCE_CONSUMERS]` | Recipients of intelligence products | "SOC team, IR team, CISO, Risk committee, IT operations" |
-| `[COLLECTION_SOURCES]` | Intelligence data sources | "OSINT, Commercial feeds, ISAC, Internal telemetry, Dark web" |
-| `[OSINT_SOURCES]` | Open source intelligence sources | "VirusTotal, Shodan, Twitter/X, Security blogs, GitHub" |
-| `[COMMERCIAL_FEEDS]` | Paid threat intelligence feeds | "Recorded Future, Mandiant, CrowdStrike, ThreatConnect" |
-| `[GOVERNMENT_SOURCES]` | Government intelligence sources | "CISA, FBI IC3, NCSC, ENISA, sector-specific ISACs" |
-| `[INTERNAL_SOURCES]` | Internal data sources | "SIEM logs, EDR telemetry, Firewall data, Email gateway" |
-
-### Analysis Variables
-| Variable | Description | Example |
-|----------|-------------|----------|
-| `[ANALYSIS_FRAMEWORK]` | Framework for analyzing threats | "Diamond Model, Kill Chain, MITRE ATT&CK, F3EAD" |
-| `[ANALYTICAL_METHODS]` | Analysis techniques used | "Link analysis, Pattern analysis, Behavioral analysis" |
-| `[THREAT_MODELING]` | Threat modeling approach | "STRIDE, PASTA, Attack trees, Threat scenarios" |
-| `[CONFIDENCE_ASSESSMENT]` | Confidence rating methodology | "Admiralty Scale (A1-F6), Percentage (High >80%, Medium 50-80%, Low <50%)" |
-
-### Dissemination Variables
-| Variable | Description | Example |
-|----------|-------------|----------|
-| `[TLP_HANDLING]` | Traffic Light Protocol classification | "TLP:RED (restricted), TLP:AMBER (limited), TLP:GREEN (community), TLP:CLEAR (public)" |
-| `[CLASSIFICATION_LEVELS]` | Information classification levels | "Confidential, Internal, Public" |
-| `[DISTRIBUTION_LISTS]` | Recipients for different intel types | "Strategic: Executive team, Tactical: Security ops, Technical: SOC analysts" |
-| `[INTELLIGENCE_INTEGRATION]` | Systems for intel integration | "SIEM, SOAR, EDR, Firewall, Email gateway" |
-
-
-
-## Related Resources
-
-### Complementary Templates
-
-Enhance your workflow by combining this template with:
-
-- **[Cloud Architecture Framework](cloud-architecture-framework.md)** - Complementary approaches and methodologies
-- **[Site Reliability Engineering](site-reliability-engineering.md)** - Complementary approaches and methodologies
-- **[Cloud Migration Strategy](cloud-migration-strategy.md)** - Strategic planning and execution frameworks
-
-### Suggested Workflow
-
-**Typical implementation sequence**:
-
-1. Start with this template (Threat Intelligence Template)
-2. Use [Cloud Architecture Framework](cloud-architecture-framework.md) for deeper analysis
-3. Apply [Site Reliability Engineering](site-reliability-engineering.md) for execution
-4. Iterate and refine based on results
-
-### Explore More in This Category
-
-Browse all **[technology/Cybersecurity](../../technology/Cybersecurity/)** templates for related tools and frameworks.
-
-### Common Use Case Combinations
-
-- **Creating comprehensive threat intelligence program including collection, analysis, dissemination, and actionable intelligence for proactive threat detection, prevention, and response.**: Combine this template with related analytics and strategy frameworks
-- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
-- **Strategy development**: Combine this template with related analytics and strategy frameworks
-
-## Best Practices
-
-1. **Align intelligence requirements with business risk**
-2. **Use multiple sources and validate information**
-3. **Focus on actionable intelligence over volume**
-4. **Integrate intelligence into security operations**
-5. **Measure effectiveness and adjust continuously**
+- [Security Operations](security-operations.md) - SOC integration with threat intelligence
+- [SIEM & Security Monitoring](../Security-Operations/siem-security-monitoring.md) - IOC integration and correlation
+- [Incident Response](incident-response.md) - Intelligence-driven incident response

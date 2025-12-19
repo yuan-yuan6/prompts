@@ -1,24 +1,29 @@
 ---
 category: data-analytics
-last_updated: 2025-11-10
+description: Discover latent topics in document collections using LDA, BERTopic, NMF, and hierarchical methods with evaluation and temporal tracking
+title: Text Analytics - Topic Modeling
+tags:
+- topic-modeling
+- lda
+- bertopic
+- text-analytics
+use_cases:
+- Discovering themes and topics in large document collections
+- Tracking topic evolution over time in dynamic datasets
+- Organizing unstructured content libraries into coherent categories
+- Identifying emerging trends and declining themes in text corpora
 related_templates:
 - data-analytics/Research-Analytics/text-analytics-preprocessing.md
 - data-analytics/Research-Analytics/text-analytics-sentiment-analysis.md
+- data-analytics/Research-Analytics/text-analytics-entity-recognition.md
 - data-analytics/Research-Analytics/text-analytics-overview.md
-tags:
-- research-analytics
-- text-analytics
-- topic-modeling
-- lda
-title: Text Analytics - Topic Modeling
-use_cases:
-- Discover latent topics in large document collections using LDA, NMF, HDP, and BERTopic
-  algorithms.
-- Track topic evolution over time to understand how themes change in dynamic datasets.
-- Evaluate and compare topic models to select the optimal number of topics for interpretability.
 industries:
 - technology
-type: template
+- healthcare
+- finance
+- media
+- research
+type: framework
 difficulty: intermediate
 slug: text-analytics-topic-modeling
 ---
@@ -26,603 +31,95 @@ slug: text-analytics-topic-modeling
 # Text Analytics - Topic Modeling
 
 ## Purpose
-Discover and analyze latent topics in document collections using state-of-the-art topic modeling algorithms including LDA, BERTopic, NMF, and Hierarchical Dirichlet Process. Extract interpretable topics, track topic evolution over time, evaluate model quality, and generate interactive visualizations for topic exploration.
+Discover and analyze latent topics in document collections using state-of-the-art topic modeling algorithms including LDA, BERTopic, NMF, and Hierarchical Dirichlet Process. Extract interpretable topics, track topic evolution over time, evaluate model quality, and generate visualizations for topic exploration.
 
-## Quick Topic Modeling Prompt
-Discover [target: 8-12] topics in [X] documents from [source] using LDA and BERTopic. Evaluate model coherence (target >0.4), extract top 20 keywords per topic, identify representative documents, track topic evolution over [time period], and visualize topic distribution. Label each topic and identify emerging vs. declining themes.
+## 🚀 Quick Start Prompt
 
-## Quick Start
+> Discover **topics** in **[DOCUMENT CORPUS]** to understand **[ANALYSIS GOALS]**. Cover: (1) **Topic extraction**—identify 8-15 coherent topics using LDA and/or BERTopic; (2) **Evaluation**—measure coherence scores (target >0.4), assess topic distinctiveness; (3) **Interpretation**—extract top keywords, representative documents, and assign meaningful labels; (4) **Temporal analysis**—track topic evolution if timestamps available. Deliver topic descriptions with keywords, coherence metrics, document assignments, and visualizations.
 
-**Example: Discover Research Themes in Academic Papers**
-
-```
-You are a topic modeling expert. Analyze 2,000 research paper abstracts to identify main research themes and their evolution over 5 years.
-
-TEXT DATA:
-- Source: PubMed abstracts (biomedical research)
-- Volume: 2,000 abstracts (2019-2024)
-- Average length: 250 words per abstract
-- Domain: Cancer immunotherapy research
-- Format: CSV with fields (pmid, title, abstract, year, journal)
-
-TOPIC MODELING REQUIREMENTS:
-1. Use LDA to extract 10-12 interpretable topics
-2. Apply BERTopic for comparison and validation
-3. Evaluate topic coherence (target: >0.4)
-4. Track topic evolution across the 5-year period
-5. Identify emerging vs declining research themes
-6. Extract representative papers for each topic
-
-EVALUATION CRITERIA:
-- Topic coherence score > 0.4
-- Distinct and interpretable topic labels
-- Minimal topic overlap
-- Good coverage of document collection
-
-EXPECTED OUTPUT:
-- 10-12 topics with top 20 keywords each
-- Topic coherence scores and perplexity metrics
-- Representative abstracts for each topic (5 examples)
-- Topic evolution heatmap showing trends
-- Interactive pyLDAvis visualization
-- Topic labels based on content analysis
-- Research recommendations for emerging themes
-```
+---
 
 ## Template
 
-```
-You are a topic modeling expert. Discover topics in [TEXT_DATA_SOURCE] containing [TEXT_VOLUME] to understand [ANALYSIS_OBJECTIVE] using [TOPIC_MODELING_METHODS].
-
-TEXT DATA:
-- Data source: [DATA_SOURCE_TYPE]
-- Volume: [NUMBER_DOCUMENTS] documents
-- Domain: [DOMAIN_AREA]
-- Time period: [TIME_PERIOD]
-
-TOPIC MODELING:
-
-### Advanced Topic Discovery
-```python
-from gensim import corpora, models
-from gensim.models import LdaModel, LdaMulticore, HdpModel
-from sklearn.decomposition import LatentDirichletAllocation, NMF
-from sklearn.feature_extraction.text import CountVectorizer
-import pyLDAvis
-import pyLDAvis.gensim_models as gensimvis
-from bertopic import BERTopic
-from sentence_transformers import SentenceTransformer
-import matplotlib.pyplot as plt
-import seaborn as sns
-import pandas as pd
-import numpy as np
-
-class TopicModeler:
-    def __init__(self):
-        self.models = {}
-        self.dictionaries = {}
-        self.corpora = {}
-
-    def prepare_corpus(self, texts, min_df=2, max_df=0.95):
-        """Prepare corpus for topic modeling"""
-        from gensim.corpora import Dictionary
-
-        # Create dictionary
-        dictionary = Dictionary(texts)
-
-        # Filter extremes
-        dictionary.filter_extremes(no_below=min_df, no_above=max_df)
-
-        # Create corpus
-        corpus = [dictionary.doc2bow(text) for text in texts]
-
-        self.dictionaries['main'] = dictionary
-        self.corpora['main'] = corpus
-
-        return corpus, dictionary
-
-    def lda_topic_modeling(self, texts, num_topics=10, passes=20, alpha='auto', eta='auto'):
-        """Perform LDA topic modeling with Gensim"""
-        corpus, dictionary = self.prepare_corpus(texts)
-
-        # Train LDA model
-        lda_model = LdaMulticore(
-            corpus=corpus,
-            id2word=dictionary,
-            num_topics=num_topics,
-            random_state=42,
-            chunksize=100,
-            passes=passes,
-            alpha=alpha,
-            eta=eta,
-            per_word_topics=True,
-            workers=4
-        )
-
-        self.models['lda'] = lda_model
-
-        # Get topics
-        topics = []
-        for i in range(num_topics):
-            topic_words = lda_model.show_topic(i, topn=20)
-            topics.append({
-                'topic_id': i,
-                'words': topic_words,
-                'top_words': [word for word, prob in topic_words[:10]]
-            })
-
-        # Document topic distributions
-        doc_topic_dists = []
-        for i, doc in enumerate(corpus):
-            topic_dist = lda_model.get_document_topics(doc, minimum_probability=0.01)
-            doc_topic_dists.append(topic_dist)
-
-        # Model evaluation
-        coherence_model = models.CoherenceModel(
-            model=lda_model, texts=texts, dictionary=dictionary, coherence='c_v'
-        )
-        coherence_score = coherence_model.get_coherence()
-
-        perplexity = lda_model.log_perplexity(corpus)
-
-        return {
-            'model': lda_model,
-            'topics': topics,
-            'doc_topic_distributions': doc_topic_dists,
-            'coherence_score': coherence_score,
-            'perplexity': perplexity,
-            'num_topics': num_topics
-        }
-
-    def bert_topic_modeling(self, texts, nr_topics='auto', min_topic_size=10):
-        """Perform topic modeling using BERTopic"""
-        # Initialize sentence transformer
-        sentence_model = SentenceTransformer('[SENTENCE_MODEL]')
-
-        # Initialize BERTopic
-        topic_model = BERTopic(
-            nr_topics=nr_topics,
-            min_topic_size=min_topic_size,
-            embedding_model=sentence_model,
-            verbose=True
-        )
-
-        # Fit model
-        topics, probabilities = topic_model.fit_transform(texts)
-
-        self.models['bertopic'] = topic_model
-
-        # Get topic information
-        topic_info = topic_model.get_topic_info()
-
-        # Get representative documents
-        representative_docs = {}
-        for topic_id in topic_info['Topic'].unique():
-            if topic_id != -1:  # Exclude outlier topic
-                docs = topic_model.get_representative_docs(topic_id)
-                representative_docs[topic_id] = docs
-
-        return {
-            'model': topic_model,
-            'topics': topics,
-            'probabilities': probabilities,
-            'topic_info': topic_info,
-            'representative_docs': representative_docs,
-            'num_topics': len(topic_info) - 1  # Exclude outlier topic
-        }
-
-    def hierarchical_topic_modeling(self, texts):
-        """Perform hierarchical topic modeling"""
-        corpus, dictionary = self.prepare_corpus(texts)
-
-        # Hierarchical Dirichlet Process
-        hdp_model = HdpModel(
-            corpus=corpus,
-            id2word=dictionary,
-            random_state=42
-        )
-
-        self.models['hdp'] = hdp_model
-
-        # Get topics (HDP automatically determines number of topics)
-        topics = hdp_model.show_topics(num_topics=50, formatted=False)
-
-        # Filter significant topics
-        significant_topics = []
-        for topic_id, topic_words in topics:
-            # Calculate topic weight
-            topic_weight = sum([prob for word, prob in topic_words])
-            if topic_weight > 0.01:  # Threshold for significance
-                significant_topics.append({
-                    'topic_id': topic_id,
-                    'words': topic_words,
-                    'weight': topic_weight,
-                    'top_words': [word for word, prob in topic_words[:10]]
-                })
-
-        return {
-            'model': hdp_model,
-            'all_topics': topics,
-            'significant_topics': significant_topics,
-            'num_significant_topics': len(significant_topics)
-        }
-
-    def nmf_topic_modeling(self, texts, num_topics=10):
-        """Non-negative Matrix Factorization for topic modeling"""
-        # Vectorize texts
-        vectorizer = CountVectorizer(
-            max_features=1000,
-            ngram_range=(1, 2),
-            stop_words='english',
-            min_df=2,
-            max_df=0.95
-        )
-
-        doc_term_matrix = vectorizer.fit_transform(texts)
-
-        # Fit NMF model
-        nmf_model = NMF(
-            n_components=num_topics,
-            random_state=42,
-            max_iter=100,
-            alpha=0.1,
-            l1_ratio=0.5
-        )
-
-        doc_topic_matrix = nmf_model.fit_transform(doc_term_matrix)
-        topic_word_matrix = nmf_model.components_
-
-        # Get feature names
-        feature_names = vectorizer.get_feature_names_out()
-
-        # Extract topics
-        topics = []
-        for topic_idx in range(num_topics):
-            top_word_indices = topic_word_matrix[topic_idx].argsort()[-20:][::-1]
-            top_words = [feature_names[i] for i in top_word_indices]
-            word_weights = [topic_word_matrix[topic_idx][i] for i in top_word_indices]
-
-            topics.append({
-                'topic_id': topic_idx,
-                'top_words': top_words,
-                'word_weights': word_weights
-            })
-
-        self.models['nmf'] = nmf_model
-
-        return {
-            'model': nmf_model,
-            'vectorizer': vectorizer,
-            'topics': topics,
-            'doc_topic_matrix': doc_topic_matrix,
-            'topic_word_matrix': topic_word_matrix,
-            'num_topics': num_topics
-        }
-
-    def dynamic_topic_modeling(self, texts, timestamps, time_slices):
-        """Dynamic topic modeling to track topic evolution over time"""
-        corpus, dictionary = self.prepare_corpus(texts)
-
-        # Group documents by time slices
-        time_slice_counts = []
-        sorted_indices = np.argsort(timestamps)
-
-        current_slice = 0
-        current_count = 0
-
-        for i, idx in enumerate(sorted_indices):
-            if timestamps[idx] <= time_slices[current_slice]:
-                current_count += 1
-            else:
-                time_slice_counts.append(current_count)
-                current_slice += 1
-                current_count = 1
-
-        time_slice_counts.append(current_count)
-
-        # Dynamic Topic Model
-        from gensim.models import LdaSeqModel
-
-        try:
-            dtm_model = LdaSeqModel(
-                corpus=corpus,
-                id2word=dictionary,
-                time_slice=time_slice_counts,
-                num_topics=[NUM_TOPICS],
-                chunksize=1,
-                passes=20,
-                random_state=42
-            )
-
-            self.models['dtm'] = dtm_model
-
-            # Extract topic evolution
-            topic_evolution = []
-            for time_point in range(len(time_slices)):
-                time_topics = []
-                for topic_id in range([NUM_TOPICS]):
-                    topic_words = dtm_model.show_topic(
-                        topicid=topic_id,
-                        time=time_point,
-                        topn=10
-                    )
-                    time_topics.append({
-                        'topic_id': topic_id,
-                        'time_slice': time_point,
-                        'words': topic_words
-                    })
-                topic_evolution.append(time_topics)
-
-            return {
-                'model': dtm_model,
-                'topic_evolution': topic_evolution,
-                'time_slices': time_slices,
-                'time_slice_counts': time_slice_counts
-            }
-
-        except Exception as e:
-            print(f"Dynamic topic modeling failed: {e}")
-            return None
-
-    def evaluate_topic_models(self, texts, topic_ranges=range(2, 21)):
-        """Evaluate topic models across different numbers of topics"""
-        corpus, dictionary = self.prepare_corpus(texts)
-
-        evaluation_results = []
-
-        for num_topics in topic_ranges:
-            print(f"Evaluating {num_topics} topics...")
-
-            # Train LDA model
-            lda_model = LdaModel(
-                corpus=corpus,
-                id2word=dictionary,
-                num_topics=num_topics,
-                random_state=42,
-                passes=10
-            )
-
-            # Calculate coherence
-            coherence_model = models.CoherenceModel(
-                model=lda_model, texts=texts, dictionary=dictionary, coherence='c_v'
-            )
-            coherence_score = coherence_model.get_coherence()
-
-            # Calculate perplexity
-            perplexity = lda_model.log_perplexity(corpus)
-
-            evaluation_results.append({
-                'num_topics': num_topics,
-                'coherence': coherence_score,
-                'perplexity': perplexity
-            })
-
-        return pd.DataFrame(evaluation_results)
-
-    def visualize_topics(self, model_type='lda'):
-        """Create interactive topic visualizations"""
-        if model_type == 'lda' and 'lda' in self.models:
-            # pyLDAvis for LDA
-            vis = gensimvis.prepare(
-                self.models['lda'],
-                self.corpora['main'],
-                self.dictionaries['main']
-            )
-            return vis
-
-        elif model_type == 'bertopic' and 'bertopic' in self.models:
-            # BERTopic visualizations
-            model = self.models['bertopic']
-
-            # Topic visualization
-            fig1 = model.visualize_topics()
-
-            # Topic hierarchy
-            fig2 = model.visualize_hierarchy()
-
-            # Topic heatmap
-            fig3 = model.visualize_heatmap()
-
-            return {
-                'topics': fig1,
-                'hierarchy': fig2,
-                'heatmap': fig3
-            }
-
-        return None
-
-# Initialize topic modeler
-topic_modeler = TopicModeler()
-
-# Perform different types of topic modeling
-lda_results = topic_modeler.lda_topic_modeling([PROCESSED_TEXTS], num_topics=[NUM_TOPICS])
-bert_results = topic_modeler.bert_topic_modeling([TEXT_DATA])
-hdp_results = topic_modeler.hierarchical_topic_modeling([PROCESSED_TEXTS])
-nmf_results = topic_modeler.nmf_topic_modeling([TEXT_DATA], num_topics=[NUM_TOPICS])
-
-# Evaluate optimal number of topics
-evaluation_results = topic_modeler.evaluate_topic_models([PROCESSED_TEXTS])
-
-# Create visualizations
-lda_visualization = topic_modeler.visualize_topics('lda')
-```
-```
+Conduct topic modeling analysis on {DOCUMENT_CORPUS}, aiming to {ANALYSIS_OBJECTIVES} in support of {BUSINESS_CONTEXT}.
+
+**1. Corpus Preparation and Method Selection**
+
+Prepare your document collection for topic modeling by ensuring consistent preprocessing. Remove noise while preserving semantically meaningful terms—aggressive preprocessing removes signal needed for topic discovery. Filter vocabulary to remove very rare terms (appearing in fewer than 2-3 documents) and very common terms (appearing in more than 90-95% of documents) that don't discriminate between topics. Select the appropriate algorithm based on your data: LDA works well for longer documents and established domains with interpretable probabilistic topics; BERTopic leverages transformer embeddings for superior performance on short texts and diverse domains; NMF provides fast, sparse topics good for interpretability; HDP (Hierarchical Dirichlet Process) automatically determines the number of topics when you don't have a target.
+
+**2. Model Training and Parameter Tuning**
+
+Train topic models with appropriate parameters for your corpus size and complexity. For LDA, start with 10-15 topics and adjust based on coherence evaluation, use alpha='auto' and eta='auto' to let the model learn document-topic and topic-word distributions, and run sufficient passes (20-50) for convergence. For BERTopic, choose a sentence transformer model appropriate to your domain (general-purpose like 'all-MiniLM-L6-v2' or domain-specific), set minimum topic size based on your corpus (larger corpora can support smaller minimum sizes), and consider whether to merge similar topics. For NMF, regularization parameters control topic sparsity. Run multiple models with different random seeds to assess stability—topics that appear consistently across runs are more reliable.
+
+**3. Model Evaluation and Selection**
+
+Evaluate topic quality using multiple metrics to select the optimal model. Calculate coherence scores using C_v coherence (target above 0.4 for interpretable topics) which measures how frequently top words co-occur in the corpus. Compute topic diversity measuring the percentage of unique words across topics—low diversity indicates redundant topics. Assess perplexity as a measure of how well the model predicts held-out documents, though coherence often better predicts human interpretability. Test different numbers of topics plotting coherence against topic count to find the elbow where additional topics provide diminishing returns. Examine topic overlap—if top words repeat across multiple topics, reduce the topic count or adjust parameters.
+
+**4. Topic Interpretation and Labeling**
+
+Transform model outputs into meaningful topic descriptions. Extract the top 15-20 keywords per topic ranked by their probability or weight within that topic. Review keywords for coherence—do they tell a consistent story about a theme? If not, the topic may be too broad or mixing unrelated concepts. Retrieve representative documents for each topic—the 5-10 documents with highest probability assignment to that topic. Read representative documents to validate that keywords accurately capture the theme. Assign human-readable topic labels based on keyword review and representative document examination. Identify any "junk" topics that capture noise, boilerplate, or mixed content rather than coherent themes—these are common and can be excluded from analysis.
+
+**5. Document-Topic Assignment**
+
+Analyze how topics distribute across your document corpus. Assign each document to topics based on probability distributions—documents may belong strongly to one topic or span multiple topics. Calculate dominant topic for each document as the highest-probability topic assignment. Analyze topic proportions across the corpus—which topics are most prevalent and which are niche? Examine documents with high uncertainty (no dominant topic) to understand whether they represent transitional content or model confusion. Cross-tabulate topic assignments with document metadata (source, author, category, date) to identify patterns. Calculate topic co-occurrence to understand which themes frequently appear together in documents.
+
+**6. Temporal Topic Analysis**
+
+Track how topics evolve over time when documents have timestamps. Aggregate topic proportions by time period (daily, weekly, monthly, quarterly) to visualize trends. Identify emerging topics showing increasing prevalence over time and declining topics losing share. Detect topic shifts where the composition of a topic (its characteristic words) changes between time periods. Use dynamic topic models for formal temporal analysis that models how topic word distributions evolve. Correlate topic trends with external events—product launches, news events, seasonal patterns—to understand what drives topic salience. Create topic timeline visualizations showing the rise and fall of different themes.
+
+**7. Visualization and Exploration**
+
+Create visualizations that enable topic exploration and communication. Use pyLDAvis for LDA models to create interactive visualizations showing topic positions, sizes, and word distributions with adjustable relevance metrics. Generate word clouds for each topic with word size proportional to topic weight. Create topic similarity heatmaps showing which topics have overlapping vocabulary. Plot document embeddings in 2D space (t-SNE or UMAP) colored by dominant topic to visualize document clustering. Build topic distribution bar charts showing corpus-wide topic prevalence. Create stacked area charts for temporal topic trends. Design interactive dashboards allowing drill-down from topic overview to representative documents.
+
+**8. Actionable Insights and Applications**
+
+Transform topic analysis into practical value. Identify content themes by mapping discovered topics to business-relevant categories—what are customers talking about, what research themes dominate, what news topics trend? Use topic assignments for document organization, building category taxonomies from bottom-up topic discovery. Enable topic-based document retrieval by finding documents similar to a query based on topic profiles. Inform content strategy by identifying topic gaps (underrepresented themes) and saturated areas (overcrowded topics). Track topic trends for early detection of emerging issues or opportunities. Combine topic analysis with sentiment to understand not just what people discuss but how they feel about each theme.
+
+Deliver your topic modeling analysis as:
+
+1. **Model selection summary** explaining algorithm choice and parameter settings
+2. **Evaluation metrics** including coherence scores, perplexity, and topic diversity
+3. **Topic catalog** with ID, label, top keywords, and representative document excerpts
+4. **Corpus statistics** showing topic distribution and document assignment patterns
+5. **Temporal trends** if applicable, with emerging and declining topic identification
+6. **Visualizations** including interactive topic explorer, word clouds, and distribution charts
+7. **Quality assessment** noting coherent versus problematic topics
+8. **Recommendations** for content strategy, organization, or further analysis based on findings
+
+---
 
 ## Variables
 
-### Topic Modeling Configuration
-- [NUM_TOPICS] - Number of topics to extract (default: 10)
-- [TOPIC_MODEL_TYPE] - Type of topic model (lda/bertopic/nmf/hdp)
-- [TOPIC_MODELING_METHODS] - List of methods to apply
-- [MIN_TOPIC_SIZE] - Minimum documents per topic for BERTopic (default: 10)
-- [AUTO_TOPIC_SELECTION] - Automatically determine optimal number of topics (True/False)
-- [HIERARCHICAL_TOPICS] - Enable hierarchical topic modeling (True/False)
+| Variable | Description | Example |
+|----------|-------------|---------|
+| `{DOCUMENT_CORPUS}` | Collection size, source, and characteristics | "5,000 customer support tickets from Q3-Q4 2024" |
+| `{ANALYSIS_OBJECTIVES}` | What you want to learn from topic discovery | "identify main support issue categories and track emerging problems" |
+| `{BUSINESS_CONTEXT}` | How topic insights will be applied | "support workflow optimization and agent training curriculum design" |
 
-### LDA Parameters
-- [ALPHA_PARAMETER] - Alpha parameter for LDA (document-topic density, default: 'auto')
-- [BETA_PARAMETER] - Beta/eta parameter for LDA (topic-word density, default: 'auto')
-- [PASSES] - Number of passes through corpus (default: 20)
-- [ITERATIONS] - Number of iterations for training (default: 400)
-- [CHUNKSIZE] - Number of documents in each batch (default: 100)
-- [UPDATE_EVERY] - Update model every N chunks (default: 1)
-
-### Evaluation Metrics
-- [COHERENCE_MEASURE] - Coherence measure type (c_v/u_mass/c_uci/c_npmi)
-- [TOPIC_COHERENCE_THRESHOLD] - Minimum acceptable coherence (default: 0.4)
-- [PERPLEXITY_CALCULATION] - Calculate perplexity score (True/False)
-- [TOPIC_DIVERSITY] - Measure topic diversity (True/False)
-- [TOPIC_OVERLAP_THRESHOLD] - Maximum acceptable topic overlap (default: 0.3)
-
-### BERTopic Configuration
-- [SENTENCE_MODEL] - Sentence transformer model (default: 'all-MiniLM-L6-v2')
-- [UMAP_NEIGHBORS] - Number of neighbors for UMAP (default: 15)
-- [UMAP_COMPONENTS] - Number of UMAP components (default: 5)
-- [HDBSCAN_MIN_CLUSTER_SIZE] - Minimum cluster size for HDBSCAN (default: 10)
-- [VECTORIZER_MODEL] - Vectorizer for BERTopic (CountVectorizer/TfidfVectorizer)
-
-### Corpus Preparation
-- [MIN_DOCUMENT_FREQUENCY] - Minimum documents containing term (default: 2)
-- [MAX_DOCUMENT_FREQUENCY] - Maximum proportion of documents (default: 0.95)
-- [MAX_VOCABULARY_SIZE] - Maximum vocabulary size (default: no limit)
-- [NGRAM_RANGE] - N-gram range for topic words (default: (1, 2))
-- [FILTER_EXTREMES] - Filter very common/rare words (True/False)
-
-### Temporal Analysis
-- [TIMESTAMPS] - Document timestamps for temporal analysis
-- [TIME_SLICES] - Time periods for dynamic topic modeling
-- [TEMPORAL_ANALYSIS] - Enable temporal topic tracking (True/False)
-- [TOPIC_EVOLUTION_TRACKING] - Track how topics evolve (True/False)
-- [TREND_DETECTION] - Detect emerging and declining topics (True/False)
-
-### Input Data Variables
-- [TEXT_DATA] - Raw text data for topic modeling
-- [PROCESSED_TEXTS] - Preprocessed and tokenized texts
-- [TEXT_DATA_SOURCE] - Source of text documents
-- [NUMBER_DOCUMENTS] - Total number of documents
-- [DOMAIN_AREA] - Subject domain of documents
-- [TIME_PERIOD] - Time period covered by documents
-
-### Output Variables
-- [TOPICS] - Discovered topics with keywords
-- [TOPIC_LABELS] - Human-readable topic labels
-- [DOCUMENT_TOPICS] - Topic assignments for documents
-- [TOPIC_COHERENCE] - Coherence scores for topics
-- [TOPIC_PERPLEXITY] - Model perplexity score
-- [REPRESENTATIVE_DOCUMENTS] - Example documents per topic
-- [TOPIC_DISTRIBUTION] - Distribution of topics in corpus
-- [TOPIC_KEYWORDS] - Top keywords for each topic
+---
 
 ## Usage Examples
 
-### Example 1: Academic Literature Analysis
-```
-TEXT_DATA_SOURCE: "Research paper abstracts from PubMed"
-TOPIC_MODEL_TYPE: "lda"
-NUM_TOPICS: 15
-COHERENCE_MEASURE: "c_v"
-TOPIC_COHERENCE_THRESHOLD: 0.45
-PASSES: 30
-ALPHA_PARAMETER: "auto"
-MIN_DOCUMENT_FREQUENCY: 5
-```
+### Example 1: Customer Feedback Theme Discovery
+**Prompt:** "Conduct topic modeling analysis on {DOCUMENT_CORPUS: 20,000 product reviews across 50 product SKUs from e-commerce platform}, aiming to {ANALYSIS_OBJECTIVES: discover main feedback themes, identify product-specific issues, and understand category-level patterns}, in support of {BUSINESS_CONTEXT: product development roadmap prioritization and quality assurance focus areas}."
 
-### Example 2: Customer Feedback Topic Discovery
-```
-TEXT_DATA_SOURCE: "Customer support tickets"
-TOPIC_MODEL_TYPE: "bertopic"
-MIN_TOPIC_SIZE: 15
-AUTO_TOPIC_SELECTION: True
-SENTENCE_MODEL: "all-MiniLM-L6-v2"
-HDBSCAN_MIN_CLUSTER_SIZE: 20
-```
+**Expected Output:** 12 coherent topics identified (shipping/delivery, product quality, value/pricing, customer service, packaging, ease of use, durability, appearance, sizing/fit, features, comparison to alternatives, gift experience) with coherence scores 0.42-0.58. Topic distribution showing quality (18%), shipping (15%), and value (14%) as dominant themes. Product-category cross-tabulation revealing electronics skewed toward features topics while apparel concentrated in sizing. Temporal analysis showing packaging complaints increased 40% post-holiday. Recommendations prioritizing shipping carrier review and size guide improvements.
 
-### Example 3: News Article Clustering
-```
-TEXT_DATA_SOURCE: "News articles"
-TOPIC_MODEL_TYPE: "lda"
-NUM_TOPICS: 20
-TEMPORAL_ANALYSIS: True
-TIME_SLICES: ["2024-01", "2024-02", "2024-03", "2024-04", "2024-05", "2024-06"]
-TOPIC_EVOLUTION_TRACKING: True
-```
+### Example 2: Research Literature Mapping
+**Prompt:** "Conduct topic modeling analysis on {DOCUMENT_CORPUS: 3,000 academic paper abstracts on machine learning applications in healthcare from 2020-2024}, aiming to {ANALYSIS_OBJECTIVES: map the research landscape, identify major research streams, and track emerging subfields}, in support of {BUSINESS_CONTEXT: systematic literature review and research grant proposal development}."
 
-### Example 4: Social Media Theme Analysis
-```
-TEXT_DATA_SOURCE: "Twitter posts about brand"
-TOPIC_MODEL_TYPE: "nmf"
-NUM_TOPICS: 12
-NGRAM_RANGE: (1, 2)
-MIN_DOCUMENT_FREQUENCY: 10
-MAX_DOCUMENT_FREQUENCY: 0.8
-```
+**Expected Output:** 15 topics covering diagnostic imaging, clinical NLP, drug discovery, patient outcome prediction, wearable sensors, genomics, mental health, radiology AI, EHR mining, federated learning, fairness/ethics, clinical trials, surgical robotics, telemedicine, and COVID-19 applications. Coherence scores averaging 0.51. Temporal analysis showing federated learning and fairness/ethics as fastest-growing topics (3x increase 2022-2024), COVID-19 declining from 2023. Citation network overlay identifying seminal papers per topic. Gap analysis revealing limited work on pediatric applications and long-term outcome prediction.
 
-### Example 5: Legal Document Classification
-```
-TEXT_DATA_SOURCE: "Legal case documents"
-TOPIC_MODEL_TYPE: "hdp"
-HIERARCHICAL_TOPICS: True
-MIN_DOCUMENT_FREQUENCY: 3
-COHERENCE_MEASURE: "c_v"
-AUTO_TOPIC_SELECTION: True
-```
+### Example 3: News Media Topic Tracking
+**Prompt:** "Conduct topic modeling analysis on {DOCUMENT_CORPUS: 50,000 news articles from 10 major outlets covering technology sector over 12 months}, aiming to {ANALYSIS_OBJECTIVES: identify dominant narratives, track topic trends weekly, and detect emerging stories early}, in support of {BUSINESS_CONTEXT: competitive intelligence and PR strategy development}."
 
+**Expected Output:** 20 topics including AI/LLM developments, big tech regulation, startup funding, cybersecurity incidents, semiconductor supply chain, social media platforms, streaming wars, electric vehicles, fintech, cryptocurrency, remote work, tech layoffs, privacy concerns, antitrust actions, M&A activity, product launches, earnings reports, executive changes, ESG initiatives, and international tech policy. Weekly trend dashboard showing topic velocity and acceleration. Early warning alerts for rapidly rising topics. Outlet comparison showing coverage emphasis differences. Narrative framing analysis for key topics.
 
+---
 
-## Related Resources
+## Cross-References
 
-### Complementary Templates
-
-Enhance your workflow by combining this template with:
-
-- **[Text Analytics Preprocessing](text-analytics-preprocessing.md)** - Leverage data analysis to drive informed decisions
-- **[Text Analytics Sentiment Analysis](text-analytics-sentiment-analysis.md)** - Leverage data analysis to drive informed decisions
-- **[Text Analytics Overview](text-analytics-overview.md)** - Leverage data analysis to drive informed decisions
-
-### Suggested Workflow
-
-**Typical implementation sequence**:
-
-1. Start with this template (Text Analytics - Topic Modeling)
-2. Use [Text Analytics Preprocessing](text-analytics-preprocessing.md) for deeper analysis
-3. Apply [Text Analytics Sentiment Analysis](text-analytics-sentiment-analysis.md) for execution
-4. Iterate and refine based on results
-
-### Explore More in This Category
-
-Browse all **[data-analytics/Research Analytics](../../data-analytics/Research Analytics/)** templates for related tools and frameworks.
-
-### Common Use Case Combinations
-
-- **Discover latent topics in large document collections using LDA, NMF, HDP, and BERTopic algorithms.**: Combine this template with related analytics and strategy frameworks
-- **Track topic evolution over time to understand how themes change in dynamic datasets.**: Combine this template with related analytics and strategy frameworks
-- **Evaluate and compare topic models to select the optimal number of topics for interpretability.**: Combine this template with related analytics and strategy frameworks
-
-## Best Practices
-
-1. **Preprocess text appropriately** - Remove noise but keep domain-relevant terms
-2. **Start with model evaluation** - Test different numbers of topics before committing
-3. **Use coherence scores** - Aim for coherence > 0.4 for interpretable topics
-4. **Examine representative documents** - Validate topics with actual document examples
-5. **Compare multiple algorithms** - LDA, NMF, and BERTopic have different strengths
-6. **Filter extreme terms** - Remove very common and very rare words
-7. **Tune hyperparameters** - Adjust alpha, beta, and passes for optimal results
-8. **Label topics meaningfully** - Create human-readable labels based on top words
-9. **Consider topic hierarchy** - Use HDP for unknown number of topics
-10. **Visualize results** - Use pyLDAvis and interactive plots for exploration
-
-## Tips for Success
-
-- Start with 5-15 topics for initial exploration
-- Use BERTopic for short texts and diverse domains
-- Use LDA for longer documents and established domains
-- Increase passes and iterations for more stable topics
-- Filter stopwords and domain-specific common terms
-- Use bigrams and trigrams to capture multi-word concepts
-- Validate topics with domain experts
-- Monitor coherence and perplexity during training
-- Save models for reproducibility and future use
-- Create topic labels by examining top words and documents
-- Track topic distribution across document subsets
-- Use dynamic topic modeling for temporal datasets
-- Consider computational resources (BERTopic is slower but more accurate)
-- Iterate and refine based on interpretability
+- [text-analytics-preprocessing.md](text-analytics-preprocessing.md) - Text preparation for topic modeling
+- [text-analytics-sentiment-analysis.md](text-analytics-sentiment-analysis.md) - Combine topics with sentiment for richer insights
+- [text-analytics-entity-recognition.md](text-analytics-entity-recognition.md) - Extract entities mentioned within topics
+- [text-analytics-overview.md](text-analytics-overview.md) - Guide to text analytics technique selection

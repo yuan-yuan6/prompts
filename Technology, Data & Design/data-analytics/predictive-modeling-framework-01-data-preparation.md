@@ -1,409 +1,130 @@
 ---
-title: 'Predictive Modeling Framework - Part 1: Data Preparation & Feature Engineering'
 category: data-analytics
+title: Data Preparation and Feature Engineering for Predictive Models
 tags:
-- data-science
 - data-preparation
 - feature-engineering
+- data-quality
 - machine-learning
-series: predictive-modeling-framework
-part: 1 of 3
-related_parts:
-- predictive-modeling-framework-02.md
-- predictive-modeling-framework-03.md
-- predictive-modeling-framework-overview.md
-last_updated: 2025-11-11
-use_cases: []
-related_templates: []
-type: template
+use_cases:
+- Preparing raw data for machine learning model development
+- Engineering predictive features from domain knowledge and data
+- Handling missing values, outliers, and data quality issues
+- Preventing data leakage and ensuring valid train-test splits
+related_templates:
+- data-analytics/Data-Science/predictive-modeling.md
+- data-analytics/Analytics-Engineering/pipeline-transformation.md
+- data-analytics/Analytics-Engineering/analytics-data-quality.md
+industries:
+- technology
+- finance
+- healthcare
+- retail
+- manufacturing
+type: framework
 difficulty: intermediate
 slug: predictive-modeling-framework-01-data-preparation
 ---
 
-# Predictive Modeling Framework - Part 1: Data Preparation & Feature Engineering
-
-## Part Overview
-
-**This is Part 1 of 3** in the Predictive Modeling Framework series.
-
-- **Part 1:** Data Preparation & Feature Engineering
-- **Part 2:** Model Development & Evaluation
-- **Part 3:** Deployment & Monitoring
-
-## Quick Start
-
-This part focuses on **Data Preparation & Feature Engineering**. For complete workflow, start with Part 1 and progress sequentially.
-
-**Next Steps:** Continue to Part 2
-
-## Related Resources
-- **Overview:** Complete framework navigation guide
-- **Part 2:** Model Development & Evaluation
-- **Part 3:** Deployment & Monitoring
-
----
-title: Predictive Modeling Framework Template Generator
-category: data-analytics
-tags: [automation, data-analytics, data-science, design, framework, machine-learning, optimization, research]
-use_cases:
-  - Creating comprehensive predictive modeling strategies covering regression analysis, classification algorithms, time series forecasting, ensemble methods, and AutoML implementation to enable data-driven decision making through accurate predictions, pattern recognition, and automated machine learning workflows.
-  - Project planning and execution
-  - Strategy development
-last_updated: 2025-11-09
----
-
-# Predictive Modeling Framework Template Generator
+# Data Preparation and Feature Engineering for Predictive Models
 
 ## Purpose
-Create comprehensive predictive modeling strategies covering regression analysis, classification algorithms, time series forecasting, ensemble methods, and AutoML implementation to enable data-driven decision making through accurate predictions, pattern recognition, and automated machine learning workflows.
+Design comprehensive data preparation and feature engineering strategies for predictive modeling projects. This framework covers data quality assessment, missing value treatment, feature creation, encoding strategies, and validation approaches to transform raw data into model-ready datasets while preventing leakage and maintaining reproducibility.
 
-## Quick Start
+## 🚀 Quick Preparation Prompt
 
-Build predictive models in 4 steps:
+> Design data preparation pipeline for **[PREDICTION_PROBLEM]** using **[DATA_SOURCES]**. Evaluate across: (1) **Data quality**—what's the completeness, accuracy, and consistency? How should missing values and outliers be handled? (2) **Feature engineering**—what domain-specific features, temporal patterns, and interactions should be created? (3) **Encoding strategy**—how should categorical variables, text fields, and dates be transformed? (4) **Validation approach**—what train-test split prevents leakage for **[TIME_SERIES/CROSS_SECTIONAL]** data? (5) **Preprocessing steps**—what scaling, normalization, and transformations are required? Provide data pipeline design, feature catalog, and validation strategy.
 
-1. **Define Business Problem**: Specify your use case (e.g., "customer churn prediction for e-commerce with 10M customers, binary classification, 100+ features, daily updates, cloud deployment, 85% recall target").
-
-2. **Prepare Data Pipeline**: Collect data from sources, assess quality (completeness, accuracy), handle missing values (imputation), encode categorical variables (one-hot, target encoding), engineer features (lags, interactions, aggregations), and split data (time-based or stratified).
-
-3. **Select and Train Models**: Choose algorithms - Linear/Logistic Regression (interpretable), Random Forest/XGBoost (accurate), Neural Networks (complex patterns), or AutoML (automated). Configure hyperparameters, train with cross-validation, evaluate metrics (accuracy, precision, recall, F1, AUC-ROC).
-
-4. **Deploy and Monitor**: Build API endpoints, integrate with production systems, implement A/B testing, monitor performance metrics, detect data drift, set up retraining triggers, and track business impact (ROI, cost savings).
+---
 
 ## Template
 
-```
-You are a data science and machine learning specialist with expertise in predictive modeling, statistical analysis, algorithm selection, and model deployment. Create a detailed predictive modeling framework based on the following information:
+Design data preparation and feature engineering for {PREDICTION_OBJECTIVE} using {DATA_CHARACTERISTICS} with target of {MODEL_REQUIREMENTS}.
 
-Business Context:
-- Organization Name: [ORGANIZATION_NAME]
-- Industry Sector: [INDUSTRY_DOMAIN]
-- Business Problem: [PREDICTIVE_MODELING_OBJECTIVE]
-- Use Case Type: [PREDICTION_APPLICATION_CATEGORY]
-- Data Availability: [DATASET_CHARACTERISTICS]
-- Timeline Constraints: [PROJECT_DELIVERY_SCHEDULE]
-- Resource Allocation: [TEAM_BUDGET_INFRASTRUCTURE]
-- Success Criteria: [MODEL_PERFORMANCE_EXPECTATIONS]
+**DATA QUALITY ASSESSMENT AND REMEDIATION**
 
-### Predictive Modeling Scope
-- Problem Type: [SUPERVISED_UNSUPERVISED_CLASSIFICATION]
-- Target Variable: [PREDICTION_TARGET_DEFINITION]
-- Input Features: [PREDICTOR_VARIABLE_CATEGORIES]
-- Prediction Horizon: [FORECASTING_TIME_FRAME]
-- Update Frequency: [MODEL_REFRESH_SCHEDULE]
-- Deployment Environment: [PRODUCTION_SYSTEM_REQUIREMENTS]
-- Stakeholder Audience: [END_USER_DECISION_MAKERS]
-- Regulatory Requirements: [COMPLIANCE_GOVERNANCE_NEEDS]
+Evaluate data completeness analyzing missing value patterns to distinguish between missing completely at random where absence is independent of any variables, missing at random where missingness depends on observed data, and missing not at random where absence relates to the unobserved value itself. For MCAR scenarios, consider simple deletion if missingness is below five percent, otherwise implement mean or median imputation for numeric variables. For MAR patterns, use conditional imputation based on observed features or model-based approaches like KNN imputation. For MNAR situations, consider creating missing indicator features that may themselves be predictive rather than attempting to impute values.
 
-### Data Environment
-- Data Sources: [INTERNAL_EXTERNAL_DATA_SYSTEMS]
-- Data Volume: [DATASET_SIZE_COMPLEXITY]
-- Data Quality: [COMPLETENESS_ACCURACY_CONSISTENCY]
-- Feature Types: [NUMERIC_CATEGORICAL_TEXT_TEMPORAL]
-- Historical Depth: [TRAINING_DATA_TIME_COVERAGE]
-- Real-Time Availability: [STREAMING_BATCH_DATA_ACCESS]
-- Storage Infrastructure: [DATABASE_WAREHOUSE_LAKE_SYSTEMS]
-- Processing Capabilities: [COMPUTE_MEMORY_PARALLELIZATION]
+Identify outliers through statistical methods including z-score analysis flagging values beyond three standard deviations, interquartile range detection identifying points below Q1 minus 1.5 IQR or above Q3 plus 1.5 IQR, and domain-specific thresholds based on business logic. Determine outlier treatment based on whether extreme values represent data errors requiring correction or removal, rare but legitimate observations requiring special handling, or influential points needing robust modeling techniques. Consider winsorization capping values at percentile thresholds rather than removal when preserving sample size is critical.
 
-### Technical Requirements
-- Modeling Platform: [ML_FRAMEWORK_TECHNOLOGY_STACK]
-- Algorithm Preferences: [MODEL_TYPE_METHODOLOGY_FOCUS]
-- Performance Requirements: [ACCURACY_SPEED_SCALABILITY_NEEDS]
-- Interpretability Needs: [EXPLAINABILITY_TRANSPARENCY_REQUIREMENTS]
-- Integration Requirements: [API_SYSTEM_WORKFLOW_INTEGRATION]
-- Monitoring Needs: [MODEL_PERFORMANCE_DRIFT_TRACKING]
-- Security Requirements: [DATA_PRIVACY_ACCESS_CONTROL]
-- Scalability Expectations: [GROWTH_VOLUME_USER_SCALING]
+Assess data accuracy by validating against known constraints including range checks for bounded variables, referential integrity for related records, and business rule compliance. Implement automated quality checks flagging records with impossible combinations, temporal inconsistencies, or statistical anomalies. Document data quality issues systematically tracking prevalence, impact on target variable distribution, and remediation decisions for reproducibility and audit trails.
 
-### Model Performance Goals
-- Accuracy Targets: [PRECISION_RECALL_F1_REQUIREMENTS]
-- Business Impact: [REVENUE_COST_EFFICIENCY_BENEFITS]
-- Risk Tolerance: [FALSE_POSITIVE_NEGATIVE_ACCEPTANCE]
-- Latency Requirements: [PREDICTION_RESPONSE_TIME_LIMITS]
-- Robustness Needs: [MODEL_STABILITY_RELIABILITY_STANDARDS]
-- Fairness Considerations: [BIAS_EQUITY_ETHICAL_REQUIREMENTS]
-- Interpretability Balance: [TRANSPARENCY_PERFORMANCE_TRADEOFFS]
-- Maintenance Expectations: [UPDATE_RETRAIN_LIFECYCLE_MANAGEMENT]
+**FEATURE ENGINEERING STRATEGIES**
 
-Generate a comprehensive predictive modeling framework that includes:
+Create temporal features for time-series or dated data extracting components including year, quarter, month, week, day of week, day of month, hour, and minute enabling models to capture seasonality and cyclical patterns. Construct lag features shifting target and predictor variables by relevant time periods based on domain knowledge of influence timing. Calculate rolling statistics including moving averages, exponential smoothing, and rolling standard deviations over windows matching business cycles. Decompose time series into trend, seasonal, and residual components treating each as separate features.
 
-## EXECUTIVE SUMMARY
-### Predictive Analytics Strategy
-- Machine learning driven decision support approach
-- Data-driven insight generation and automation methodology
-- Statistical modeling and algorithmic prediction framework
-- Model lifecycle management and continuous improvement process
-- Business value creation and ROI optimization strategy
-- Risk management and ethical AI implementation approach
-- Technology platform and infrastructure optimization plan
-- Stakeholder engagement and knowledge transfer framework
+Design interaction features multiplying or dividing related variables to capture synergistic effects the model might not learn independently. For example, create price-per-unit from total price and quantity, or credit-utilization from balance and limit. Construct ratio and proportion features encoding relationships more meaningfully than raw values. Engineer polynomial features cautiously as they increase dimensionality rapidly and risk overfitting without careful regularization.
 
-### Key Framework Components
-- Data preparation and feature engineering pipeline
-- Algorithm selection and model development process
-- Model evaluation and validation methodology
-- Deployment and production integration system
-- Performance monitoring and drift detection framework
-- Continuous learning and model improvement process
-- Interpretability and explainability tools
-- Governance and compliance management system
+Generate domain-specific features applying business knowledge to create predictive signals. For customer analytics, calculate RFM scores from recency, frequency, and monetary values. For credit modeling, derive debt-to-income ratios and payment-to-balance trends. For operational metrics, compute efficiency ratios and capacity utilization rates. Collaborate with domain experts to identify leading indicators and causal relationships not obvious from statistical analysis alone.
 
-## 1. PREDICTIVE MODELING FOUNDATION AND STRATEGY
-### 1.1 Problem Definition and Scoping
-#### Business Problem Formulation
-##### Use Case Classification and Definition
-- Supervised learning and target variable prediction
-- Unsupervised learning and pattern discovery
-- Reinforcement learning and decision optimization
-- Semi-supervised learning and limited label scenarios
-- Multi-task learning and related problem solving
-- Transfer learning and domain adaptation
-- Online learning and real-time adaptation
-- Federated learning and distributed training
+Implement automated feature generation techniques for exploratory analysis including polynomial combinations up to degree two or three, mathematical transformations like logarithmic and square root, and statistical aggregations across grouping variables. Use feature selection methods afterward to identify valuable derived features while discarding noise. Consider genetic algorithms or reinforcement learning approaches for complex feature spaces where manual engineering is intractable.
 
-##### Success Metrics and KPI Definition
-- Business impact measurement and ROI calculation
-- Statistical performance metric and accuracy target
-- Operational efficiency and process improvement
-- Customer satisfaction and experience enhancement
-- Risk reduction and compliance achievement
-- Cost savings and revenue generation
-- Time-to-value and decision speed improvement
-- Competitive advantage and market positioning
+**ENCODING AND TRANSFORMATION**
 
-#### Predictive Analytics Taxonomy
-##### Regression Analysis Applications
-- Sales forecasting and revenue prediction
-- Demand planning and capacity optimization
-- Price optimization and elasticity modeling
-- Customer lifetime value and churn prediction
-- Risk assessment and credit scoring
-- Quality control and defect rate prediction
-- Resource utilization and efficiency optimization
-- Performance benchmarking and target setting
+Encode categorical variables selecting methods based on cardinality and relationship to target. For low-cardinality nominal categories with five to ten distinct values, use one-hot encoding creating binary indicator columns. For ordinal categories with inherent ordering like satisfaction ratings, use label encoding preserving ordinality. For high-cardinality categories exceeding twenty values, consider target encoding replacing categories with the mean target value for that category calculated on training data only to prevent leakage, or frequency encoding representing categories by their occurrence counts.
 
-##### Classification Problem Categories
-- Customer segmentation and behavior prediction
-- Fraud detection and anomaly identification
-- Medical diagnosis and treatment recommendation
-- Marketing response and conversion prediction
-- Quality classification and defect detection
-- Sentiment analysis and opinion mining
-- Image recognition and computer vision
-- Natural language processing and text classification
+Handle rare categories consolidating infrequent values appearing in less than one percent of records into an "Other" category, preventing overfitting to noise and reducing dimensionality. For tree-based models that handle categories natively, consider leaving raw categories for the algorithm to optimize splits. For neural networks or distance-based algorithms requiring numeric inputs, use embedding layers learning distributed representations for high-cardinality categorical features.
 
-### 1.2 Data Strategy and Architecture
-#### Data Collection and Integration
-##### Internal Data Source Utilization
-- Transactional system and operational database
-- Customer relationship management and sales system
-- Enterprise resource planning and financial data
-- Web analytics and digital interaction tracking
-- IoT sensor and equipment monitoring data
-- Survey response and feedback collection
-- Historical archive and legacy system data
-- Real-time streaming and event data
+Transform skewed numeric distributions to approximate normality when using algorithms sensitive to feature scales like linear models, neural networks, or distance-based methods. Apply log transformation for right-skewed distributions common in counts and monetary values. Use Box-Cox or Yeo-Johnson power transformations automatically optimizing the transformation parameter. Implement quantile transformation mapping features to uniform or normal distributions especially useful for features with outliers or multimodal distributions.
 
-##### External Data Enhancement
-- Third-party data provider and marketplace
-- Public dataset and government data source
-- Industry benchmark and competitive intelligence
-- Economic indicator and market data
-- Weather and environmental data integration
-- Social media and sentiment data collection
-- Geospatial and location-based information
-- News and media content analysis
+Scale numeric features using standardization subtracting mean and dividing by standard deviation when features have different units or vastly different scales. Use min-max normalization scaling to zero-one range when preserving zero values and bounded ranges matters. Apply robust scaling using median and interquartile range when data contains outliers that would distort mean and standard deviation. Note tree-based algorithms like random forests and gradient boosting are scale-invariant and do not require feature scaling.
 
-#### Data Quality and Governance
-##### Data Quality Assessment Framework
-- Completeness evaluation and missing value analysis
-- Accuracy verification and error detection
-- Consistency checking and duplicate identification
-- Timeliness assessment and freshness monitoring
-- Validity testing and constraint verification
-- Uniqueness analysis and deduplication
-- Integrity checking and relationship validation
-- Relevance evaluation and feature importance
+**VALIDATION STRATEGY AND LEAKAGE PREVENTION**
 
-##### Data Governance and Compliance
-- Data privacy protection and anonymization
-- Regulatory compliance and audit trail
-- Access control and permission management
-- Data lineage tracking and documentation
-- Version control and change management
-- Quality assurance and validation process
-- Metadata management and cataloging
-- Retention policy and lifecycle management
+Design train-test splits based on data structure and prediction scenario. For time-series forecasting, use temporal splits training on historical data and validating on future periods respecting temporal ordering and preventing look-ahead bias. Leave gaps between train and test sets matching the prediction horizon ensuring models are evaluated on realistic future data unavailability. For cross-sectional data without temporal dependencies, use stratified random sampling ensuring train and test sets have similar target variable distributions especially critical for imbalanced classification.
 
-### 1.3 Technology Stack and Infrastructure
-#### Machine Learning Platform Selection
-##### Cloud-Based ML Services
-- Amazon Web Services SageMaker and ML suite
-- Google Cloud AI Platform and AutoML
-- Microsoft Azure Machine Learning Studio
-- IBM Watson Studio and Cloud Pak for Data
-- Databricks Unified Analytics Platform
-- Palantir Foundry and analytical platform
-- H2O.ai and open source machine learning
-- DataRobot automated machine learning platform
+Implement cross-validation appropriate to data characteristics using k-fold with stratification for standard classification, time-series cross-validation with expanding or rolling windows for temporal data, and group-based cross-validation ensuring related records like multiple purchases by the same customer are not split across folds preventing information leakage through group patterns.
 
-##### On-Premises and Hybrid Solutions
-- Apache Spark and distributed computing
-- Hadoop ecosystem and big data processing
-- Kubernetes and containerized deployment
-- Docker and microservices architecture
-- TensorFlow and deep learning framework
-- PyTorch and research-oriented development
-- Scikit-learn and traditional machine learning
-- R and statistical computing environment
+Prevent temporal leakage by ensuring all feature engineering, imputation, and scaling parameters are calculated on training data only and applied to validation and test sets. Create preprocessing pipelines that fit on train data and transform test data using those fitted parameters. Avoid features containing future information not available at prediction time including calculations requiring future data, aggregations computed on full datasets instead of point-in-time snapshots, and targets or target-derived features inadvertently included as predictors.
 
-#### Infrastructure and Scalability Planning
-##### Compute and Storage Resources
-- CPU and GPU processing capability allocation
-- Memory and RAM requirement optimization
-- Storage capacity and performance planning
-- Network bandwidth and latency optimization
-- Load balancing and traffic distribution
-- Auto-scaling and elastic resource management
-- Disaster recovery and backup strategy
-- Cost optimization and resource efficiency
+Detect leakage by monitoring for suspiciously perfect predictors showing near-zero training error and unrealistic validation performance, features with correlation to target above 0.95 unless causally justified, and validation performance significantly exceeding realistic expectations based on domain knowledge. Conduct out-of-time validation testing models on data from time periods not used in development to verify temporal generalization.
 
-##### Development and Production Environment
-- Development sandbox and experimentation platform
-- Testing and validation environment setup
-- Staging and pre-production deployment
-- Production environment and live system
-- Continuous integration and deployment pipeline
-- Monitoring and alerting system integration
-- Security hardening and access control
-- Performance tuning and optimization
+**DOCUMENTATION AND REPRODUCIBILITY**
 
-## 2. DATA PREPARATION AND FEATURE ENGINEERING
-### 2.1 Data Preprocessing and Cleaning
-#### Data Quality Enhancement
-##### Missing Value Treatment
-- Missing data pattern analysis and understanding
-- Missing completely at random assessment
-- Missing at random and not at random identification
-- Listwise and pairwise deletion strategies
-- Mean, median, and mode imputation techniques
-- Forward fill and backward fill for time series
-- Advanced imputation with machine learning
-- Multiple imputation and uncertainty quantification
+Document feature definitions providing clear descriptions of calculation logic, data sources, assumptions, and business justification for each engineered feature. Maintain data dictionaries cataloging all variables with types, valid ranges, and example values. Record preprocessing decisions including imputation methods, outlier treatments, encoding strategies, and transformations applied.
 
-##### Outlier Detection and Treatment
-- Statistical outlier identification methods
-- Interquartile range and z-score analysis
-- Isolation forest and anomaly detection
-- Local outlier factor and density-based detection
-- Robust statistical measure and winsorization
-- Domain knowledge and business rule application
-- Outlier removal versus transformation decision
-- Impact assessment and sensitivity analysis
+Implement version control for feature engineering code ensuring reproducibility as data sources and business logic evolve. Use configuration files or feature stores to manage feature definitions centrally enabling consistent feature generation across training, validation, and production. Track data snapshots and processing timestamps preventing train-test contamination from different extraction times.
 
-#### Data Transformation and Normalization
-##### Feature Scaling and Standardization
-- Min-max normalization and range scaling
-- Z-score standardization and unit variance
-- Robust scaling and median absolute deviation
-- Quantile transformation and uniform distribution
-- Power transformation and log normalization
-- Box-Cox and Yeo-Johnson transformation
-- Feature-wise and sample-wise normalization
-- Time series specific scaling techniques
+Establish data lineage tracking feature derivation from raw sources through transformations to model inputs. Document dependencies between features enabling impact analysis when source data changes. Maintain audit trails for data quality remediation decisions supporting model governance and regulatory compliance.
 
-##### Categorical Variable Encoding
-- One-hot encoding and dummy variable creation
-- Label encoding and ordinal representation
-- Binary encoding and bit representation
-- Target encoding and mean encoding
-- Frequency encoding and count representation
-- Embedding and distributed representation
-- Hashing trick and dimensionality management
-- Rare category grouping and consolidation
+Deliver preparation design as:
 
-### 2.2 Feature Engineering and Selection
-#### Feature Creation and Enhancement
-##### Domain-Specific Feature Engineering
-- Time-based feature extraction and calendar variables
-- Interaction term and polynomial feature creation
-- Ratio and proportion calculation
-- Moving average and rolling statistics
-- Lag feature and temporal pattern capture
-- Seasonality and trend decomposition
-- Aggregation and summary statistics
-- Text mining and natural language processing
+1. **DATA QUALITY REPORT** - Completeness, accuracy, outlier summary, and remediation plan
 
-##### Automated Feature Generation
-- Feature synthesis and combination exploration
-- Polynomial feature and interaction discovery
-- Mathematical transformation and function application
-- Statistical aggregation and grouping operation
-- Time window and sliding window analysis
-- Frequency domain and spectral analysis
-- Principal component analysis and dimensionality reduction
-- Genetic algorithm and evolutionary feature creation
+2. **FEATURE CATALOG** - All engineered features with definitions, rationale, and example calculations
 
-#### Feature Selection and Importance
-##### Statistical Feature Selection Methods
-- Correlation analysis and multicollinearity detection
-- Univariate statistical test and p-value filtering
-- Mutual information and information gain
-- Chi-square test for categorical variables
-- ANOVA F-test for continuous variables
-- Recursive feature elimination and backward selection
-- Forward selection and stepwise regression
-- Regularization and penalty-based selection
+3. **ENCODING SPECIFICATION** - Categorical and numeric transformation methods with parameters
 
-##### Machine Learning Based Selection
-- Tree-based feature importance and gain calculation
-- Permutation importance and model-agnostic evaluation
-- SHAP value and additive feature attribution
-- LIME and local interpretable explanation
-- Boruta algorithm and all-relevant feature selection
-- Stability selection and bootstrap-based method
-- Embedded method and regularization penalty
-- Filter, wrapper, and hybrid selection approach
+4. **VALIDATION STRATEGY** - Train-test split approach, cross-validation method, and leakage prevention controls
 
-### 2.3 Data Splitting and Validation Strategy
-#### Training and Testing Data Division
-##### Temporal Data Splitting
-- Time-based split and chronological ordering
-- Walk-forward validation and expanding window
-- Sliding window and fixed-size training
-- Seasonal splitting and periodic consideration
-- Gap introduction and prediction horizon alignment
-- Cold start and warm start scenario handling
-- Concept drift and distribution shift preparation
-- Real-time validation and online learning setup
+5. **PREPROCESSING PIPELINE** - Ordered transformation steps with code or pseudocode
 
-##### Cross-Validation Strategy Design
-- K-fold cross-validation and stratified sampling
-- Leave-one-out and leave-p-out validation
-- Time series specific cross-validation
-- Group-wise and cluster-based validation
-- Nested cross-validation and hyperparameter optimization
-- Bootstrap sampling and confidence interval
-- Hold-out validation and final model evaluation
-- Monte Carlo cross-validation and random sampling
+6. **DATA DICTIONARY** - Complete variable catalog with types, distributions, and business definitions
 
-#### Data Leakage Prevention
-##### Temporal Leakage Identification
-- Future information and look-ahead bias prevention
-- Data preprocessing and feature engineering timing
-- Target variable construction and calculation timing
-- External data integration and availability timing
-- Feature selection and model training separation
-- Validation set contamination and independence
-- Information flow and causality verification
-- Real-world deployment and offline evaluation alignment
+---
 
-##### Statistical Leakage Detection
-- Perfect predictor and unrealistic feature identification
-- Correlation analysis and redundant information
-- Feature importance and model interpretation
-- Domain knowledge and business logic validation
-- Out-of-time validation and temporal consistency
-- Cross-validation performance and train-test gap
-- Model complexity and overfitting assessment
-- Generalization performance and robustness testing
+## Usage Examples
 
+### Example 1: Customer Churn Prediction
+**Prompt:** Design data preparation pipeline for customer churn prediction using transaction history, account details, and support interactions with target of binary classification model achieving 80% recall on monthly churn.
+
+**Expected Output:** Data quality report identifying 12% missing last-interaction dates imputed via forward-fill, outlier analysis capping account ages at 99th percentile. Feature catalog including RFM scores from transaction recency/frequency/monetary, support ticket velocity as tickets per month, engagement trend as three-month interaction change rate. One-hot encoding for product category, target encoding for high-cardinality customer segment. Temporal split using 18 months for training, most recent 3 months for validation with stratification on churn rate. Standardization for numeric features, no scaling for tree-based models.
+
+### Example 2: Demand Forecasting
+**Prompt:** Design data preparation pipeline for retail demand forecasting using sales history, promotions, weather, and holidays with target of daily SKU-store level predictions with MAPE under 15%.
+
+**Expected Output:** Time-series feature engineering including 7-day and 28-day lag sales, rolling 7-day mean and standard deviation, day-of-week and month indicators, holiday flags with lead/lag for before-after effects. Weather integration as temperature bands and precipitation binary. Promotion encoding as discount percentage and promotion type one-hot. Log transformation for right-skewed sales distributions. Time-series cross-validation with expanding window training on cumulative history, validating on next 30 days, 10 folds. Min-max scaling for LSTM input, no scaling for XGBoost baseline.
+
+### Example 3: Credit Risk Scoring
+**Prompt:** Design data preparation pipeline for consumer credit risk prediction using credit bureau data, application information, and bank account history with target of default probability estimation meeting fair lending requirements.
+
+**Expected Output:** Feature engineering including debt-to-income ratio, credit utilization across accounts, payment delinquency trends over 12 months, account age diversity, and inquiry rate. Missing income values imputed via regression on credit limits and payment patterns. Outlier capping for extreme debt values at 99th percentile. Target encoding for occupation with smoothing, one-hot for property ownership. Polynomial features for credit score interactions with utilization. Stratified split maintaining default rate distribution. Robust scaling resistant to outliers. Fairness assessment ensuring no protected class leakage, disparate impact testing across demographic groups.
+
+---
+
+## Cross-References
+
+- [Predictive Modeling](../Data-Science/predictive-modeling.md) - Complete modeling workflow and algorithm selection
+- [Pipeline Transformation](../Analytics-Engineering/pipeline-transformation.md) - Data transformation patterns and architectures
+- [Analytics Data Quality](../Analytics-Engineering/analytics-data-quality.md) - Data quality frameworks and validation rules
+- [Exploratory Analysis](../Data-Science/exploratory-analysis.md) - Understanding data distributions before feature engineering

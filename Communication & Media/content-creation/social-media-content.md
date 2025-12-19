@@ -1,6 +1,5 @@
 ---
 category: content-creation
-last_updated: 2025-11-09
 related_templates:
 - content-creation/creative-writing-framework.md
 - content-creation/video-production-pipeline.md
@@ -9,218 +8,103 @@ tags:
 - post-creation
 - hashtag-strategy
 - platform-optimization
-title: Social Media Content Template
+title: Social Media Content Creation Framework
 use_cases:
-- Creating engaging social media content including posts, campaigns, and engagement
-  strategies across platforms with optimized formatting, hashtags, and audience targeting.
-- Project planning and execution
-- Strategy development
-type: template
+- Creating platform-optimized social media content (Instagram Reels, LinkedIn carousels, TikTok videos, Twitter threads) with hooks, value props, CTAs, 3-5 strategic hashtags, optimal posting times
+- Developing multi-platform campaigns with 60/30/10 content mix (educational/entertaining/promotional), cross-platform adaptation, consistent brand voice, engagement rate >3% target
+- Building social media content calendars with 3-5 posts/week cadence, content pillars (education/inspiration/community/product), batched creation workflow, analytics-driven iteration
+- Implementing engagement strategies with response times <2 hours, UGC campaigns, influencer partnerships, community management, comment moderation policies
+related_templates:
+- content-creation/creative-writing-framework.md
+- content-creation/video-production-pipeline.md
+type: framework
 difficulty: intermediate
 slug: social-media-content
 ---
 
-# Social Media Content Template
+# Social Media Content Creation Framework
 
 ## Purpose
-Create engaging social media content including posts, campaigns, and engagement strategies across platforms with optimized formatting, hashtags, and audience targeting.
+Create engaging, platform-optimized social media content across Instagram, TikTok, LinkedIn, Twitter/X with data-driven strategies for hooks, formatting, hashtags, posting schedules, and engagement tactics that drive measurable business outcomes.
 
-## Quick Social Media Content Prompt
+## 🚀 Quick Social Media Content Prompt
 
-Create [content type: post/carousel/reel/story] for [platform] targeting [audience demographic]. Promote [product/message/brand] with [tone/voice]. Include hook in first [characters/seconds], value proposition of [benefit], call-to-action for [desired action], and [number] strategic hashtags. Optimize for [time/day] posting, design for [engagement metric: shares/saves/comments], and align with [campaign/content pillar]. Include visual direction for [image/video style].
+> Create **{CONTENT_TYPE}** (post/carousel/reel/story/thread) for **{PLATFORM}** targeting **{AUDIENCE_DEMOGRAPHIC}**. Promote **{PRODUCT/MESSAGE}** with **{TONE}** voice. Hook: first **{3-5_WORDS/SECONDS}** grab attention. Value prop: **{CORE_BENEFIT}**. CTA: **{DESIRED_ACTION}**. Include **{3-5_HASHTAGS}** (1 branded, 2-3 niche, 1 trending). Post at **{OPTIMAL_TIME}**. Design for **{ENGAGEMENT_METRIC}** (saves/shares/comments). Visual style: **{IMAGE/VIDEO_DIRECTION}**.
 
-## Quick Start
+---
 
-Want to create a killer Instagram post in minutes? Here's how:
+## Template
 
-1. **Pick your platform and goal** - Start with where your audience lives (Instagram, LinkedIn, TikTok?)
-2. **Define your message** - What's the one thing you want them to remember?
-3. **Choose your format** - Carousel for storytelling, Reel for entertainment, single image for impact
-4. **Craft your copy** - Hook in first 5 words, value in the middle, call-to-action at the end
-5. **Optimize for engagement** - Add 3-5 strategic hashtags, tag collaborators, post at peak times
+Create {CONTENT_TYPE} for {PLATFORM} targeting {AUDIENCE_SEGMENT} ({AGE_RANGE}, {INTERESTS}, {BEHAVIORS}) promoting {PRODUCT/CAMPAIGN} with {BRAND_VOICE} achieving {OBJECTIVE} ({ENGAGEMENT_RATE}% engagement, {CONVERSION_GOAL}).
 
-**Try this:** Copy the Instagram Brand Post example below, swap in your brand voice and product details, and you'll have platform-optimized content ready to post. Start with one platform, master it, then expand.
+**PLATFORM OPTIMIZATION**
 
-## Template Structure
+Instagram—Content Formats: Feed posts (1080×1080 carousel 3-10 slides storytelling, single image high-impact visual, text-heavy infographic), Reels (9:16 vertical 15-90 seconds, trending audio first 3 seconds, hook in first frame, text overlays for sound-off viewing, captions for accessibility), Stories (24-hour ephemeral, polls/questions/quizzes for engagement, swipe-up links if 10K+ followers or verified), Lives (authentic Q&A, product launches, behind-the-scenes). Algorithm Priorities: Engagement rate (likes + comments + saves + shares / reach, saves weighted highest signal of value), watch time for Reels (completion rate >50% ideal, loop videos to boost), original content (not reposted from TikTok watermark penalty). Optimal Posting: Tuesday-Friday 10am-3pm, avoid Monday mornings and late nights, 3-5 posts/week minimum for feed, daily Stories for top-of-mind, 3-5 Reels/week for discovery. Caption Strategy: Hook in first 125 characters (before "more" cutoff), line breaks for readability (use . or • on separate line to force break), 3-5 hashtags in caption or first comment (micro hashtags 10K-500K posts perform better than mega 1M+), tag collaborators/location for reach boost, emoji for visual breaks not overuse. Content Pillars: 60% educational (how-tos, tips, industry insights), 30% entertaining (memes, behind-scenes, relatable content), 10% promotional (product launches, sales, CTAs), Stories can be 80% behind-scenes/casual.
 
-### Content Overview
-- **Platform**: [PLATFORM]
-- **Content Type**: [CONTENT_TYPE]
-- **Campaign**: [CAMPAIGN_NAME]
-- **Objective**: [CONTENT_OBJECTIVE]
-- **Target Audience**: [SOCIAL_TARGET_AUDIENCE]
-- **Brand Voice**: [BRAND_VOICE]
-- **Content Pillars**: [CONTENT_PILLARS]
-- **Posting Schedule**: [POSTING_SCHEDULE]
-- **Budget**: [SOCIAL_BUDGET]
-- **KPIs**: [SOCIAL_KPIS]
+TikTok—Content Formula: Hook (0-3 seconds must stop scroll, bold text overlay, surprising visual, question/problem), value delivery (3-30 seconds core content, fast pacing 2-3 second clips, text overlays key points), CTA (last 3-5 seconds like/follow/comment question), loop back to start (encourage rewatches). Trending Audio: Use TikTok-native trending sounds (not Instagram reposted, check "Top 50" in sounds library), add audio within 24-48 hours of trending (window closes fast), original audio can go viral if unique hook, music 70% volume voice 100% for balance. Algorithm Mechanics: For You Page (FYP) driven by watch time (completion rate king, aim 50%+ average), engagement velocity (likes/comments/shares in first hour critical), video information (captions, sounds, hashtags train algorithm), user interactions (watch history, liked content, followed accounts). Optimal Strategy: Post 1-3x daily (more frequency = more chances at viral), first 1-3 hours determine video fate (engage with comments, respond to boost), batch create 7-10 videos when inspired (trends move fast), duets/stitches leverage other creators' audiences. Caption Best Practices: First line hook question or bold statement (shows before "see more"), 3-5 hashtags (1-2 niche like #BookTok #CleanTok, 1 broad like #FYP, 1 trending challenge), encourage comments ("tell me in the comments"), text overlays reduce need for long caption. Avoid: Reposted content from Instagram/YouTube (watermarks penalized), asking for likes/follows directly (violates spam policy), overly salesy (educational-first wins).
 
-### Content Strategy
-- **Content Theme**: [CONTENT_THEME]
-- **Key Message**: [KEY_MESSAGE]
-- **Value Proposition**: [VALUE_PROPOSITION]
-- **Content Format**: [CONTENT_FORMAT]
-- **Visual Style**: [VISUAL_STYLE]
-- **Hashtag Strategy**: [HASHTAG_STRATEGY]
-- **Engagement Tactics**: [ENGAGEMENT_TACTICS]
-- **Call-to-Action**: [SOCIAL_CTA]
-- **Cross-Platform Strategy**: [CROSS_PLATFORM_STRATEGY]
-- **Content Series**: [CONTENT_SERIES]
+LinkedIn—Professional Content: Text posts (1300 character sweet spot, longer posts collapsed reduce readability, line breaks for scanability, personal stories > corporate speak), carousels (PDF upload 10-15 slides, swipe-through format, professional design Canva templates, educational frameworks/how-tos), videos (native upload not YouTube links, 1-3 minutes, captions mandatory 85% watch muted, talking head + B-roll), articles (long-form 1000+ words, thought leadership, SEO-optimized, linked from profile), polls (4 options max, professional topics, drives engagement, comments weighted high). Algorithm Priorities: Dwell time (how long users stay on post, longer = broader distribution), engagement velocity (first 60 minutes critical, seed with team engagement), connection engagement (comments from connections weighted higher), professional relevance (LinkedIn scores content for professionalism, memes don't perform). Optimal Posting: Tuesday-Thursday 8-10am, 12pm, 5-6pm (workday scrolling), avoid weekends (50% less engagement), 3-5x weekly for individuals, daily for company pages. Voice/Tone: Professional but human (ditch corporate jargon, personal stories resonate), vulnerable storytelling (challenges/failures/lessons get 3x engagement vs wins-only), contrarian takes (respectful hot takes spark conversation), actionable insights (frameworks/templates/how-tos get saved/shared). Hashtags: 3-5 professional hashtags (mix of niche #ProductManagement #B2BSaaS and broad #Leadership), first comment vs caption (test both, no consensus), branded hashtag for campaigns. Engagement Strategy: Comment on others' posts first (LinkedIn rewards active members, 10 comments before posting primes algorithm), respond to every comment first hour (boosts velocity signal), tag relevant people in posts (mention thought leaders, collaborators, clients with permission), reshare others' content (visibility to your network, builds relationships).
 
-### Platform Optimization
-- **Character Limits**: [CHARACTER_LIMITS]
-- **Image Specifications**: [IMAGE_SPECS]
-- **Video Requirements**: [VIDEO_REQUIREMENTS]
-- **Posting Times**: [OPTIMAL_POSTING_TIMES]
-- **Platform Features**: [PLATFORM_FEATURES]
-- **Algorithm Considerations**: [ALGORITHM_CONSIDERATIONS]
-- **Trending Topics**: [TRENDING_TOPICS]
-- **Platform-Specific Language**: [PLATFORM_LANGUAGE]
-- **Community Guidelines**: [COMMUNITY_GUIDELINES]
-- **Accessibility Features**: [ACCESSIBILITY_FEATURES]
+Twitter/X—Thread Strategy: Hook tweet (must perform standalone, ends with "🧵" or "Thread:" to indicate more), 5-15 tweets optimal (longer loses readers, shorter lacks depth), one idea per tweet (scannable, retweetable individually), visual break every 3-4 tweets (image, GIF, video, quote card), CTA in last tweet (follow, check DMs, link to newsletter/product), numbered tweets optional (1/12 format vs unnumbered test both). Tweet Best Practices: First 280 characters hook (no "read more" cutoff on timeline), line breaks for readability (hit return twice, use bullet points •), questions drive replies (algorithm loves engagement), hot takes spark conversation (respectful disagreement acceptable), no hashtags in tweet body (looks spammy, use 1-2 in replies if needed), tag people @ for attention (credit sources, mention collaborators, tag larger accounts for reach). Algorithm Mechanics: Engagement rate (replies > retweets > likes weighted), recency (tweets decay fast, 18-minute half-life, post frequently), author authority (blue check, follower count, engagement history matters), media attachments (images/videos boost engagement 35% but can reduce retweets, test with/without). Optimal Posting: Weekdays 9am-3pm peak (mornings for US East, afternoons for West), evenings 6-9pm secondary peak (entertainment browsing), 3-10 tweets daily acceptable (more = more chances, but quality > quantity), threads 2-3x weekly for depth. Content Mix: 60% value (insights, tips, frameworks, original thoughts), 30% engagement (questions, polls, replies to others, community building), 10% promotional (product mentions, CTAs, links), retweet sparingly (your own content with commentary fine, others' content 20% max). Avoid: Clickbait headlines without substance (algorithm downranks), excessive hashtags (looks spammy, 1-2 max), begging for engagement ("please RT" violates spam), cross-posting identical content from other platforms (write native tweets).
 
-### Engagement Strategy
-- **Engagement Goals**: [ENGAGEMENT_GOALS]
-- **Community Management**: [COMMUNITY_MANAGEMENT]
-- **Response Strategy**: [RESPONSE_STRATEGY]
-- **User-Generated Content**: [USER_GENERATED_CONTENT]
-- **Influencer Collaboration**: [INFLUENCER_COLLABORATION]
-- **Contest Strategy**: [CONTEST_STRATEGY]
-- **Polling Strategy**: [POLLING_STRATEGY]
-- **Live Content**: [LIVE_CONTENT]
-- **Story Strategy**: [STORY_STRATEGY]
-- **Comment Moderation**: [COMMENT_MODERATION]
+**CONTENT CREATION FRAMEWORK**
 
-## Prompt Template
+Hook Formula—First 3 Seconds/5 Words: Pattern interrupt (surprising stat, contrarian take, bold claim), curiosity gap (unanswered question, incomplete story), relatability ("You know that feeling when...", pain point acknowledgment), visual surprise (unexpected visual, quick cut, dynamic movement), emotional trigger (FOMO, desire, frustration, inspiration). Examples: "I wasted $10K before learning this" (curiosity + relatability), "Everyone tells you X. They're wrong." (contrarian), "This 30-second habit changed my life" (curiosity + benefit), "POV: You just discovered..." (immersive + intrigue). Testing: 80% of success determined by hook, A/B test 3-5 hooks per concept, analyze first 3-second retention in analytics, iterate winning patterns.
 
-Create [CONTENT_TYPE] for [PLATFORM] targeting [SOCIAL_TARGET_AUDIENCE] with [CONTENT_OBJECTIVE] goal. Use [BRAND_VOICE] voice and focus on [CONTENT_THEME] theme with [KEY_MESSAGE] message.
+Value Delivery—Middle Content: Educational (how-to steps, frameworks, tips), entertaining (humor, storytelling, relatability, surprise), inspirational (transformation stories, behind-scenes journey, vulnerability), informational (news, trends, data, insights). Structure: Problem → Solution (identify pain, offer fix), Before → After (transformation, results, testimonial), Listicle (3-7 items, odd numbers perform better, scannable), Story Arc (challenge, struggle, resolution, lesson). Pacing: Fast cuts 2-3 seconds per clip (TikTok/Reels), longer holds 5-10 seconds if visually interesting (Instagram feed), text overlays for key points (80% watch muted), visual variety (mix of shots, graphics, b-roll) maintains attention.
 
-**Content Requirements:**
-- Format for [PLATFORM] with [CHARACTER_LIMITS] and [IMAGE_SPECS]
-- Include [HASHTAG_STRATEGY] and optimize for [OPTIMAL_POSTING_TIMES]
-- Use [CONTENT_FORMAT] format with [VISUAL_STYLE] aesthetic
-- Incorporate [PLATFORM_FEATURES] and consider [ALGORITHM_CONSIDERATIONS]
-- Add compelling [SOCIAL_CTA] that drives action
+CTA Strategy—Call-to-Action: Low friction (like, comment, save, share, "thoughts?"), medium friction (follow, tag a friend, answer question in comments), high friction (click link, sign up, purchase, "DM me WORD for X"). Timing: Instagram/TikTok (CTA at end after value delivered, "Save this for later"), LinkedIn (CTA mid-post or end, "What's your experience? Comment below"), Twitter (CTA in thread last tweet, "Follow for more on [topic]"). Phrasing: Specific action ("Save this to try later" > "Let me know what you think"), benefit-driven ("Follow for daily marketing tips" > "Follow me"), urgency when appropriate ("Link in bio for 48 hours" for launches).
 
-**Engagement Strategy:**
-- Apply [ENGAGEMENT_TACTICS] to boost interaction
-- Encourage [USER_GENERATED_CONTENT] participation
-- Use [POLLING_STRATEGY] and [CONTEST_STRATEGY] when appropriate
-- Plan [RESPONSE_STRATEGY] for community management
-- Cross-promote with [CROSS_PLATFORM_STRATEGY]
+Visual Design—Photography: High-quality iPhone photos acceptable (natural lighting, rule of thirds, clear subject), lifestyle over stock (authentic > polished, behind-scenes > staged), faces perform better (human connection, eyes toward CTA if present), consistent filters/presets (brand cohesion, recognizable aesthetic). Video: Vertical 9:16 for Reels/TikTok/Stories (full-screen mobile), square 1:1 for Instagram feed (versatile), horizontal 16:9 for LinkedIn/YouTube, captions always (accessibility + sound-off viewing), dynamic not static (movement, cuts, zooms maintain attention), text overlays (key points, captions, CTAs) white with black outline for readability. Graphics: On-brand colors (2-3 color palette consistent), readable fonts (sans-serif, 60pt+ mobile legible), white space (not cluttered, one idea per frame), templates for efficiency (Canva Brand Kit, batch create), memes/trends (jump on quickly but brand-appropriate).
 
-**Performance Optimization:**
-- Target [SOCIAL_KPIS] metrics
-- Leverage [TRENDING_TOPICS] and current events
-- Ensure [ACCESSIBILITY_FEATURES] compliance
-- Follow [COMMUNITY_GUIDELINES] requirements
-- Plan [CONTENT_SERIES] for sustained engagement
+Hashtag Strategy—Research: Hashtag size analysis (10K-500K "micro" hashtags highest engagement rate, 500K-1M "medium" discoverable, 1M+ "mega" low chance of visibility), competitor research (what hashtags do similar accounts use successfully), platform tools (Instagram Explore search, TikTok Discover trending), audience hashtags (what does target audience follow/search). Selection: 1 branded hashtag (own campaign/product, #YourBrandName), 2-3 niche hashtags (industry-specific, target audience uses, #B2BMarketing #ContentStrategy), 1 trending/broad hashtag (zeitgeist connection, #MarketingTips), rotate per post (avoid spam penalty, fresh reach each post). Placement: Instagram (caption or first comment test both, 3-5 hashtags optimal vs old 30-hashtag strategy), TikTok (caption 3-5 hashtags, trending sounds more important), LinkedIn (3-5 professional hashtags in caption), Twitter (avoid in main tweet, 1-2 in replies if necessary). Tracking: Branded hashtag UGC (monitor for user content, reshare with credit), hashtag performance (Insights shows reach per hashtag, double down on winners), trending hijacking (jump on trends quickly but relevant, not forced).
+
+**CONTENT PLANNING**
+
+Content Calendar—Cadence: Instagram (3-5 feed posts/week, daily Stories, 3-5 Reels/week for growth), TikTok (1-3 videos/day for algorithm favor, minimum 3-5/week), LinkedIn (3-5 posts/week for individuals, daily for companies), Twitter (3-10 tweets/day, 2-3 threads/week). Content Pillars: 4-5 themes (education, inspiration, entertainment, community, product), 60/30/10 rule (60% educational, 30% engaging/entertaining, 10% promotional), theme days (Monday motivation, Wednesday tips, Friday behind-scenes), seasonal content (holidays, industry events, cultural moments). Batching: Block 4-8 hours for creation (batch shoot 10-20 photos, record 7-10 videos one session), batch write captions (30-minute sprint for week's captions), batch schedule (use Later, Buffer, Hootsuite for week ahead, maintain 20% flexibility for real-time). Planning Tools: Notion/Airtable content database (ideas, status, publish dates, performance), Trello kanban (ideas → script → shoot → edit → schedule), spreadsheet simple (date, platform, topic, status, link, metrics).
+
+Analytics Review—Key Metrics: Reach (unique accounts, measures discovery vs followers), Engagement Rate (likes + comments + saves + shares / reach, >3% good, >5% excellent), Saves (highest value signal, content worth revisiting), Shares (virality indicator, exponential reach), Profile Visits (brand awareness, traffic to bio link), Follower Growth (net new, >1% monthly sustainable). Content Performance: Best performers (what topics, formats, hooks worked, double down), worst performers (what flopped, why, avoid or iterate), posting time analysis (when does audience engage, adjust schedule), hashtag performance (which hashtags drove reach, rotate winners). Audience Insights: Demographics (age, gender, location align with target), active times (when followers online, schedule posts accordingly), interests (what content they engage with beyond yours, content inspiration), competitor benchmarking (compare engagement rates, follower growth, learn from successful).
+
+Testing & Iteration—A/B Testing: Hook variations (test 3-5 different first lines/frames, measure retention), format experiments (carousel vs single image vs Reel, video vs image), caption length (short punchy vs long storytelling), CTA differences (question vs action vs no CTA), hashtag sets (niche vs broad vs trending mixes). Hypothesis-Driven: "If we post Reels at 7pm instead of 12pm, engagement will increase 20%" (test 2 weeks, measure), "If we add polls to Stories daily, profile visits will increase 30%" (test 1 month, compare to baseline), "If we use micro hashtags vs mega, reach will improve 50%" (split test across posts). Learning Velocity: Weekly analytics review (quick check on week's performance, spot trends), monthly deep dive (full metrics analysis, strategy adjustments, content pivot decisions), quarterly strategy overhaul (assess what's working, kill what's not, double down on winners, try new platforms/formats).
+
+**ENGAGEMENT & COMMUNITY**
+
+Response Strategy—Timing: Golden hour (first 60 minutes after posting critical for algorithm, respond to all comments), within 2 hours ideal (shows active community management, boosts engagement signals), same-day minimum (respecting followers' time, maintaining conversation momentum). Response Types: Value-add (answer questions thoroughly, provide additional tips/resources), relationship-building (ask follow-up questions, show genuine interest, use commenter's name), gratitude (thank for shares/saves, acknowledge thoughtful comments), conflict resolution (address concerns professionally, take heated discussions to DMs). Automation Boundaries: Don't auto-respond (generic replies obvious, reduces authenticity), use templates sparingly (common questions can have base response personalized with commenter's context), moderate with care (remove spam/hate, enforce community guidelines, explain removals when appropriate).
+
+User-Generated Content (UGC)—Campaign Design: Branded hashtag (unique, memorable, incentivized with reshares/features), contest/giveaway (entry via UGC post, tag brand, follow account, prize relevant to brand), challenge (creative prompt, trend participation, examples provided), testimonial requests (share your story, customer spotlights, before/after transformations). Permissions: Explicit permission (ask before reposting, "Can we share this?"), credit always (tag original creator, maintain their caption or add attribution), legal compliance (contest rules, privacy policies, rights to use content), compensation consideration (pay for high-value UGC, free product, commission, exposure for micro-influencers). Amplification: Reshare to feed/Stories (spotlight community, build loyalty, encourage more UGC), create UGC highlight reel (compilation video of customer content, social proof), website/email integration (feature UGC in marketing beyond social, omnichannel presence).
+
+Influencer Collaboration—Tier Selection: Mega (1M+ followers, brand awareness, expensive $10K-$100K+, low engagement rate 1-3%), Macro (100K-1M followers, reach + credibility, $1K-$10K, moderate engagement 3-5%), Micro (10K-100K followers, niche authority, $100-$1K, high engagement 5-10%), Nano (<10K followers, authentic community, free product or $50-$200, highest engagement 10%+). Partnership Types: Sponsored post (one-time content, fee + product, clear deliverables), brand ambassador (ongoing relationship, monthly content, exclusive partnership), affiliate (commission-based, trackable links, performance-driven), gifting (free product, no guaranteed post, authentic endorsement if they love it), content collaboration (co-create content, both accounts benefit, cross-promotion). Brief Essentials: Campaign objective (brand awareness, product launch, sales conversion), content guidelines (key messages, hashtags, @tags, disclosure requirements), creative freedom (give examples not scripts, authenticity > control), timeline (review process, posting dates, reshare permissions), compensation (fee, product value, affiliate terms, payment schedule). Measurement: Engagement rate (likes + comments / followers, benchmark against influencer's average), reach (impressions, stories views), conversions (affiliate clicks, promo code usage, trackable link traffic), sentiment (comment tone, brand association), ROI (revenue vs investment, long-term brand lift).
+
+Deliver social media content as:
+
+1. **PLATFORM-OPTIMIZED POSTS** - Ready-to-publish copy with hooks, value, CTAs, 3-5 hashtags, image/video specs
+2. **CONTENT CALENDAR** - 4-week plan with posting schedule, content pillars, 60/30/10 mix, batching workflow
+3. **ENGAGEMENT PLAYBOOK** - Response templates, UGC campaign design, influencer brief, community guidelines
+4. **ANALYTICS DASHBOARD** - KPI tracking (engagement rate, reach, saves, profile visits), A/B test results, optimization recommendations
+5. **VISUAL ASSETS** - Image/video files, Canva templates, brand style guide for consistent aesthetic
+
+---
 
 ## Usage Examples
 
-### Instagram Brand Post
-```
-Create photo post for Instagram targeting millennials with brand awareness goal. Use friendly, authentic brand voice and focus on sustainability theme with "small changes, big impact" key message.
+### Example 1: B2B SaaS LinkedIn Content Strategy
+**Prompt:** Create LinkedIn content strategy for project management SaaS targeting product managers at mid-market tech companies, educational brand voice, 3 posts/week, 5% engagement rate target.
 
-Content Requirements:
-- Format for Instagram with 2,200 character limits and 1080x1080 image specs
-- Include eco-lifestyle, sustainable living hashtag strategy and optimize for 11am, 1pm, 5pm optimal posting times
-- Use carousel content format with bright, natural visual style aesthetic
-- Incorporate Instagram Reels, Stories platform features and consider engagement rate algorithm considerations
-- Add compelling "Shop sustainable products" social cta that drives action
+**Output:** Content Pillars—Pillar 1 Product Management Frameworks (40% of content, Monday posts, carousel format, examples: "5-step roadmap prioritization", "OKR template for product teams", "How to run effective sprint planning"), Pillar 2 Industry Insights (30%, Wednesday posts, text posts with data, examples: "State of product management 2024 survey results", "Why 60% of product launches fail", "Remote product team best practices"), Pillar 3 Customer Stories (20%, Friday posts, video testimonials/case studies, examples: "How Acme reduced planning time 50%", "Product team of 3 scaled to 30", customer quotes + metrics), Pillar 4 Company Culture (10%, misc, behind-scenes photos/videos, examples: "Our product team's offsite", "Meet our new PM Sarah", "How we dogfood our own tool"). Posting Schedule—Monday 9am (Frameworks carousel, 10-15 slides Canva template, professional design blue/white brand colors, starts with problem statement "Struggling to prioritize your roadmap?", slides walk through framework step-by-step, last slide CTA "Download full template" with link, 3 hashtags #ProductManagement #Roadmap #ProductStrategy), Wednesday 12pm (Insights text post, 800 characters, personal story opening "I've talked to 100+ product managers this year. Here's what I learned:", 5 key insights with line breaks, each insight 2-3 sentences, ends with question "What's your biggest product challenge? Comment below.", 3 hashtags #ProductLeadership #TechLeadership #B2BSaaS), Friday 5pm (Customer Story video, 60-second native upload, customer testimonial format, text overlays with metrics "50% faster planning, 10 hours saved weekly, team of 12", CTA at end "See how [Company] can help you" with link, 3 hashtags #CustomerSuccess #ProductManagement #CaseStudy). Caption Formula—Hook (first 125 characters), problem statement ("Most product teams waste 10+ hours weekly on planning"), framework/insight (body of post, 500-800 characters, line breaks every 2-3 lines, bullet points •), social proof (customer quotes, data, metrics), CTA (question for comments, link in post or first comment, "Thoughts? Drop a comment"). Engagement Strategy—Pre-Post Seeding (tag 5-10 connections in first comment "curious your thoughts @Name1 @Name2", ask team to engage first 10 minutes, prime algorithm), Response Velocity (respond to every comment within first hour, ask follow-up questions, turn comments into relationships), Amplification (employees reshare with personal commentary, founder comments and reshares adding perspective, engage on others' posts 10x before posting own content). Metrics Tracking—Week 1 Baseline (Monday carousel 3,200 impressions, 4.2% engagement rate 135 reactions, 12 comments, 8 shares, Wednesday text post 2,800 impressions, 5.8% engagement 162 reactions, 22 comments "best insights" signals performing, Friday video 1,900 impressions, 3.1% engagement testimonial format underperformed), Week 4 Results (Monday carousel 4,500 impressions up 41%, 6.1% engagement optimized hook "Stop wasting hours on roadmaps", Wednesday text post 5,200 impressions up 86% controversial take "most roadmaps are useless", Friday testimonial 2,400 impressions up 26% but still weak format, pivot to product demo videos Q2). Iteration Plan—Double down on Wednesday insight posts (highest engagement, move to 2x weekly Tuesday/Thursday), convert Friday testimonials to product demo micro-tutorials (how-to format aligns with educational pillar, customer quotes in captions), test thread format for frameworks (single long post vs carousel, measure engagement + saves), add monthly LinkedIn Live Q&A (30-minute session, promote week prior, drive profile visits + follower growth).
 
-Engagement Strategy:
-- Apply question stickers, polls engagement tactics to boost interaction
-- Encourage sustainability tips user generated content participation
-- Use "This or that" polling strategy and eco-challenge contest strategy when appropriate
-- Plan respond within 2 hours response strategy for community management
-- Cross-promote with TikTok videos, LinkedIn articles cross platform strategy
-```
+### Example 2: E-Commerce Instagram Reels Strategy
+**Prompt:** Create Instagram Reels strategy for sustainable fashion brand targeting Gen Z/Millennials (18-35), authentic/playful brand voice, 5 Reels/week, drive product page visits + 10% sales conversion from social.
 
-## Variables
+**Output:** Reel Formula—Hook (0-3 seconds, bold text overlay + surprising visual, examples: "POV: You found the perfect jeans" with quick outfit reveal, "Everyone's obsessed with fast fashion. Here's why we're not." with contrarian statement, "This $40 dress gets me compliments daily" with social proof), Value (3-25 seconds, style tips/outfit inspiration/sustainability facts, fast-paced 2-second clips, text overlays for sound-off viewing, trending audio underlying at 70% volume), CTA (last 3 seconds, "Link in bio to shop" with product tag, "Save this for your next shopping trip" for top-of-funnel, "Follow for daily sustainable style" for audience building). Content Themes—Theme 1 Styling Tips (30% of Reels, Monday/Thursday, "3 ways to style this blazer", "Capsule wardrobe essentials", "Petite styling hacks", focuses on product versatility, tags 2-3 products per Reel, CTA "Shop these pieces"), Theme 2 Sustainability Education (25%, Tuesday, "The truth about fast fashion", "How our jeans are made", "Why organic cotton matters", builds brand mission alignment, behind-factory tours, material closeups, CTA "Follow for more sustainability content"), Theme 3 Customer Spotlights (20%, Wednesday, UGC-style customer wearing products, testimonial voiceover "I've been looking for jeans that fit right for years", before/after outfit transformation, CTA "Tag us #SustainableStyle for feature"), Theme 4 Trends + Duets (15%, Friday, trending audio/challenges adapted to brand, duet with fashion influencers, viral sounds first 48 hours, CTA "Follow for sustainable fashion content"), Theme 5 Behind-Scenes (10%, misc, packing orders, design process, team intros, authentic/casual, builds brand connection, CTA varies). Trending Audio Strategy—Discovery (check TikTok/Instagram "Trending" tab daily, scroll Explore page for repeated audio, use CapCut to find trending sounds), Speed (use within 24-48 hours of identifying trend, window closes fast as sound saturates), Adaptation (sustainable fashion angle on trend, not forced, authentic fit with brand, skip if doesn't align), Original Audio (create brand audio for campaign "sustainable is sexy", encourage UGC with branded sound, potential viral compound effect). Visual Strategy—Filming (iPhone 13+ quality acceptable, natural lighting golden hour/bright overcast, mix of studio shots product focus + lifestyle customer wearing, avoid overly polished stock feel Gen Z sees through), Editing (CapCat app for captions + trending effects, InShot for transitions, 2-3 second clips maintain pace, zoom-ins on product details, text overlays key points white text black outline), Aesthetic (consistent warm filter slight grain, on-brand earth tones beige/olive/rust, white backgrounds for product, lifestyle backgrounds natural outdoor/home, recognizable brand look). Hashtag Mix—Branded #SustainableStyle (own campaign, 5K posts, encourage UGC, feature best posts weekly), Niche #SlowFashion #SustainableWardrobe #EthicalFashion (50K-200K posts, engaged audience cares about sustainability, high relevance), Product #SustainableDenim #OrganicCotton (10K-100K posts, product-specific, shopping intent), Trending #OOTD #FashionInspo (rotate trending fashion hashtags, broader reach, lower engagement rate). Posting Schedule—Monday 6pm (Styling Tips Reel, "5 ways to wear the perfect white tee", trending audio "original sound - [current trend]", filmed in bedroom mirror relatable, 15 seconds, product tags white tee + jeans + blazer, caption "The white tee is having a moment 🤍 Which look is your fave? 1-5 in comments", 5 hashtags, 5.2% engagement rate average), Thursday 7pm (Styling Tips Reel, "How to style oversized blazers 3 ways", trending audio, filmed in home/outdoor lifestyle, 22 seconds, product tags blazer + 2 outfits, caption "Oversized blazers are everywhere rn and here's why 👀 Save this for fall outfit inspo", 5 hashtags, 6.1% engagement rate blazer best seller), Tuesday 12pm (Sustainability Education, "The true cost of a $5 t-shirt", original voiceover, fast factory footage + textile closeups, 18 seconds, no product tags educational focus, caption "Fast fashion seems cheap but the real cost is huge 🌍 Follow for more sustainable fashion truth bombs", 5 hashtags, 4.8% engagement rate educate + inspire not sell). Metrics Tracking—Engagement Rate (avg 5.4% across Reels up from 3.1% static posts, Reels 3x reach, saves up 120% "save this for later" CTA working), Completion Rate (avg 52% watch through to end, 15-20 second sweet spot, hooks tested 3 versions per concept keeps best), Product Page Traffic (Instagram Insights shows 2,800 profile visits weekly, 840 link clicks 30% conversion profile → link, product tags drive 1,200 visits directly from Reels), Sales Attribution (UTM tracking /?utm_source=instagram&utm_medium=reel shows 8% of online sales from Reels, 12% conversion rate Reel traffic vs 6% overall site avg qualified audience). Iteration—Styling Tips performing best (double down 40% → 50% content mix), sustainability education strong engagement but lower sales (keep for brand building, adjust expectation not direct sales driver), customer spotlights need more UGC volume (launch monthly contest $200 gift card for best #SustainableStyle post, feature winner in Reel), test longer 60-second Reels for storytelling (currently 15-25 seconds, YouTube Shorts 60 second performing, test transformation stories).
 
-| Variable | Description | Example |
-|----------|-------------|----------|
-| `[PLATFORM]` | Specify the platform | "[specify value]" |
-| `[CONTENT_TYPE]` | Specify the content type | "Standard" |
-| `[CAMPAIGN_NAME]` | Specify the campaign name | "John Smith" |
-| `[CONTENT_OBJECTIVE]` | Specify the content objective | "Increase efficiency by 30%" |
-| `[SOCIAL_TARGET_AUDIENCE]` | Specify the social target audience | "[specify value]" |
-| `[BRAND_VOICE]` | Specify the brand voice | "[specify value]" |
-| `[CONTENT_PILLARS]` | Specify the content pillars | "[specify value]" |
-| `[POSTING_SCHEDULE]` | Specify the posting schedule | "[specify value]" |
-| `[SOCIAL_BUDGET]` | Specify the social budget | "$500,000" |
-| `[SOCIAL_KPIS]` | Specify the social kpis | "[specify value]" |
-| `[CONTENT_THEME]` | Specify the content theme | "[specify value]" |
-| `[KEY_MESSAGE]` | Specify the key message | "[specify value]" |
-| `[VALUE_PROPOSITION]` | Specify the value proposition | "[specify value]" |
-| `[CONTENT_FORMAT]` | Specify the content format | "[specify value]" |
-| `[VISUAL_STYLE]` | Specify the visual style | "[specify value]" |
-| `[HASHTAG_STRATEGY]` | Specify the hashtag strategy | "[specify value]" |
-| `[ENGAGEMENT_TACTICS]` | Specify the engagement tactics | "[specify value]" |
-| `[SOCIAL_CTA]` | Specify the social cta | "[specify value]" |
-| `[CROSS_PLATFORM_STRATEGY]` | Specify the cross platform strategy | "[specify value]" |
-| `[CONTENT_SERIES]` | Specify the content series | "[specify value]" |
-| `[CHARACTER_LIMITS]` | Specify the character limits | "[specify value]" |
-| `[IMAGE_SPECS]` | Specify the image specs | "[specify value]" |
-| `[VIDEO_REQUIREMENTS]` | Specify the video requirements | "[specify value]" |
-| `[OPTIMAL_POSTING_TIMES]` | Specify the optimal posting times | "[specify value]" |
-| `[PLATFORM_FEATURES]` | Specify the platform features | "[specify value]" |
-| `[ALGORITHM_CONSIDERATIONS]` | Specify the algorithm considerations | "[specify value]" |
-| `[TRENDING_TOPICS]` | Specify the trending topics | "[specify value]" |
-| `[PLATFORM_LANGUAGE]` | Specify the platform language | "[specify value]" |
-| `[COMMUNITY_GUIDELINES]` | Specify the community guidelines | "[specify value]" |
-| `[ACCESSIBILITY_FEATURES]` | Specify the accessibility features | "[specify value]" |
-| `[ENGAGEMENT_GOALS]` | Specify the engagement goals | "Increase efficiency by 30%" |
-| `[COMMUNITY_MANAGEMENT]` | Specify the community management | "[specify value]" |
-| `[RESPONSE_STRATEGY]` | Specify the response strategy | "[specify value]" |
-| `[USER_GENERATED_CONTENT]` | Specify the user generated content | "[specify value]" |
-| `[INFLUENCER_COLLABORATION]` | Specify the influencer collaboration | "[specify value]" |
-| `[CONTEST_STRATEGY]` | Specify the contest strategy | "[specify value]" |
-| `[POLLING_STRATEGY]` | Specify the polling strategy | "[specify value]" |
-| `[LIVE_CONTENT]` | Specify the live content | "[specify value]" |
-| `[STORY_STRATEGY]` | Specify the story strategy | "[specify value]" |
-| `[COMMENT_MODERATION]` | Specify the comment moderation | "[specify value]" |
+### Example 3: SaaS Founder Twitter/X Thought Leadership
+**Prompt:** Create Twitter strategy for B2B SaaS founder (project management tool) building personal brand, sharing startup journey + product insights, 5-10 tweets/day, 2 threads/week, grow from 2K to 20K followers in 6 months.
 
+**Output:** Content Pillars—Pillar 1 Product Building Lessons (40% of tweets, founder's unique POV on product decisions, examples: "We almost built the wrong feature. Here's how customer interviews saved us $50K.", "Why we chose to NOT integrate with Slack (unpopular opinion)", "3 product metrics we obsess over (and 5 we ignore)"), Pillar 2 Startup Journey (30%, vulnerable storytelling, relatable struggles, examples: "Went from $0 to $10K MRR. Here's every mistake we made.", "The day we almost shut down the company", "How I balance founder life with 2 kids under 5"), Pillar 3 Industry Commentary (20%, hot takes on product management/SaaS, examples: "Most product roadmaps are performative theater. Change my mind.", "Why AI won't replace product managers (but it will replace bad ones)", "The SaaS pricing model is broken. Here's what's next."), Pillar 4 Engagement/Community (10%, replies to others, questions to audience, polls, examples: "What's your #1 product management challenge? I'll help in the replies.", "Poll: Do you use roadmaps? Yes/No/It's complicated/What's a roadmap", retweets of community posts with commentary). Tweet Formulas—Insight + Proof (share lesson + data/story, "We 10x'd our signup conversion. The change? We removed 3 fields from the form. Sometimes less is literally more."), Contrarian Take + Rationale (disagree with common wisdom, "Hot take: Your customers don't want more features. They want the features you have to actually work."), Listicle Thread (5-10 quick tips, "10 things I learned building a SaaS to $1M ARR: 1. Your first idea is probably wrong 2. Charge more than you think 3. [etc]"), Story Arc (beginning/middle/end, "Thread: How we went from idea to $10K MRR in 6 months 🧵"), Question + Engagement ("Product managers: What's the hardest part of your job? I'm building something to help and want to understand your pain."). Thread Strategy—Monday Thread (Product Building Lessons, 8-12 tweets, example "How we choose what to build next: Our 3-step prioritization framework 🧵" Tweet 1 hook standalone, Tweet 2-3 context/problem, Tweets 4-9 framework walkthrough, Tweet 10 example, Tweet 11 common mistakes, Tweet 12 CTA "Building a product? Hope this helps. Follow me for weekly product insights."), Thursday Thread (Startup Journey, 6-10 tweets, vulnerable storytelling, "The worst day of my founder journey. What I learned. 🧵" personal story arc, challenge → low point → lesson → transformation, inspires engagement "been there" replies). Daily Tweet Cadence—7am Tweet (Insight from yesterday's work, "Shipped a feature yesterday that 0 people asked for. Guess what? It's our most-used feature today. Listen to customers but don't outsource your product vision."), 10am Reply Thread (engage with 10 product management posts, thoughtful replies not generic, build relationships with other founders/PMs/VCs, algorithm rewards active members), 12pm Thread or Mega-Tweet (Monday/Thursday threads, otherwise long-form tweet 280 chars, screenshot of Notion doc or thread rolled into single tweet via Typefully), 3pm Community Engagement (poll, question, or reply to mentions/comments from morning, "Thanks for all the replies on this morning's tweet. Loved hearing your perspectives on [topic]."), 6pm Casual/Personal Tweet (behind-scenes, non-product, humanizes founder, "Just closed my laptop after a 10-hour day. Startup life is wild. Also my kid just asked why I work on the computer all day. Still working on a good answer."). Growth Strategy—Engagement Before Posting (spend 30 min engaging on others' posts BEFORE tweeting own content, reply to 10-20 tweets from target audience product managers/founders/VCs, algorithm rewards active members with better distribution of own tweets), Tag Strategically (tag 1-2 relevant accounts in threads when appropriate, credit sources, mention people whose ideas inspired tweet, don't overdo or looks like attention grab), Viral Mechanics (write 50 tweets to get 5 good ones to get 1 viral, viral tweets grow followers 100-500+, double down on topic when tweet takes off reply to top comments, quote tweet own thread with additional thoughts extends viral window), Cross-Promotion (add Twitter to email signature, LinkedIn bio, newsletter, convert LinkedIn posts to Twitter threads different format same content). Metrics—Follower Growth (Week 1-4: +120 followers from 2,000 to 2,120 slow start, Month 2: +380 followers consistent tweeting establishing presence, Month 3: +940 followers first viral thread hit 100K impressions, Month 4-6: +1,200/month momentum compounding engagement up + several micro-viral posts, End Month 6: 9,260 followers short of 20K goal but 5x growth), Engagement Rate (avg 2.8% engagement rate early on, grew to 4.2% by month 3 as ratio improved followers engaged vs passive, threads 8-12% engagement rate significantly higher format for depth), Profile Visits (grew from 50/week to 800/week, CTA in threads working "Follow for weekly product insights", bio optimized "Building [Product]. Sharing lessons from $0 to $1M MRR. PM tips weekly."), Link Clicks (newsletter signup link in bio, 8% of profile visitors click, 12% of clickers convert to subscribers, Twitter now #2 newsletter source after LinkedIn). Iteration—Thread format winning (2x weekly → 3x weekly more threads less standalone tweets), vulnerable storytelling outperforms tactical how-tos (tactical gets saves, vulnerable gets replies/shares adjust mix), reply game matters more than thought (30 min daily engagement critical, skip day and next tweet flops), use Typefully for thread writing (draft/schedule/analytics better than native Twitter, analyze best-performing tweets double down on topics/formats).
 
+---
 
-## Related Resources
+## Cross-References
 
-### Complementary Templates
-
-Enhance your workflow by combining this template with:
-
-- **[Creative Writing Framework](creative-writing-framework.md)** - Complementary approaches and methodologies
-- **[Video Production Pipeline](video-production-pipeline.md)** - Complementary approaches and methodologies
-
-### Suggested Workflow
-
-**Typical implementation sequence**:
-
-1. Start with this template (Social Media Content Template)
-2. Use [Creative Writing Framework](creative-writing-framework.md) for deeper analysis
-3. Apply [Video Production Pipeline](video-production-pipeline.md) for execution
-4. Iterate and refine based on results
-
-### Explore More in This Category
-
-Browse all **[creative/Content Creation](../../creative/Content Creation/)** templates for related tools and frameworks.
-
-### Common Use Case Combinations
-
-- **Creating engaging social media content including posts, campaigns, and engagement strategies across platforms with optimized formatting, hashtags, and audience targeting.**: Combine this template with related analytics and strategy frameworks
-- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
-- **Strategy development**: Combine this template with related analytics and strategy frameworks
-
-## Best Practices
-
-1. **Know each platform's unique audience and features**
-2. **Create platform-native content, don't just repost**
-3. **Use compelling visuals and engaging captions**
-4. **Post consistently and at optimal times**
-5. **Engage authentically with your community**
-6. **Use relevant hashtags and trending topics**
-7. **Include clear calls-to-action**
-8. **Monitor performance and adjust strategy**
-9. **Stay current with platform updates**
-10. **Maintain consistent brand voice across platforms**
+- [Creative Writing Framework](creative-writing-framework.md) - Storytelling and copywriting techniques for social captions
+- [Video Production Pipeline](video-production-pipeline.md) - Video creation workflow for Reels/TikTok/YouTube Shorts

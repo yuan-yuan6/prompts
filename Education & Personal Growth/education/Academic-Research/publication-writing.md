@@ -1,6 +1,5 @@
 ---
 category: education
-last_updated: 2025-11-09
 related_templates:
 - education/curriculum-development.md
 - education/curriculum-development-framework.md
@@ -9,1185 +8,131 @@ tags:
 - journal-publication
 - peer-review
 - conference-papers
-title: Academic Publication Writing Generator
+- publication-readiness
+- manuscript-maturity
+title: Academic Publication Writing Readiness Assessment
 use_cases:
-- Creating comprehensive academic papers, abstracts, conference presentations, and
-  peer review responses for scholarly publication and dissemination.
-- Project planning and execution
-- Strategy development
+- Evaluating readiness to write and submit an academic manuscript
+- Identifying gaps in argument, methods reporting, and journal fit
+- Planning an efficient writing workflow with coauthor roles and checkpoints
+- Preparing a revision and peer review response strategy
 industries:
 - education
 - government
 - healthcare
-type: template
+type: framework
 difficulty: intermediate
 slug: publication-writing
 ---
 
-# Academic Publication Writing Generator
+# Academic Publication Writing Readiness Assessment
 
 ## Purpose
-Create comprehensive academic papers, abstracts, conference presentations, and peer review responses for scholarly publication and dissemination.
+Comprehensively assess readiness to draft, submit, and revise an academic publication across six dimensions: Contribution & Positioning, Evidence & Method Reporting, Argument Structure & Clarity, Compliance & Research Integrity, Presentation & Supporting Materials, and Submission & Revision Workflow. This framework helps you identify blockers, reduce desk-reject risk, and produce a realistic writing and submission plan.
 
-## Quick Publication Writing Prompt
+## 🚀 Quick Assessment Prompt
 
-Write [publication type: journal article/conference paper/book chapter] titled [title] for [target journal/venue] in [field]. Structure as IMRAD with [word limit], using [citation style: APA/MLA/Chicago]. Summarize study with [N] participants, [methodology], findings of [key results with statistics], and contribution of [theoretical/practical significance]. Include [number] keywords, structured abstract of [word count], and [number] tables/figures. Address reviewers on [revision points] if responding to peer review.
+> Assess **publication writing readiness** for **{MANUSCRIPT_CONTEXT}** targeting **{TARGET_VENUE}** as a **{PUBLICATION_TYPE}**. Evaluate across: (1) **Contribution & positioning**—is the novelty clear and aligned to the venue’s scope and audience? (2) **Evidence & method reporting**—are methods, data, and analysis described with sufficient rigor and reproducibility for the venue and discipline? (3) **Argument structure & clarity**—does the narrative flow (IMRAD or alternative) make claims that are supported and bounded? (4) **Compliance & integrity**—are ethics, consent, approvals, conflicts, and citation practices complete and consistent? (5) **Presentation & materials**—are figures/tables, supplementary materials, and reporting checklists ready? (6) **Submission & revision workflow**—are coauthor roles, timeline, and response-to-review strategy defined? Provide a 1–5 scorecard, key risks, prioritized fixes, and a time-boxed plan.
 
-## Quick Start
+**Usage:** Replace the curly-brace placeholders with your specifics. Use as a prompt to an AI assistant for rapid readiness evaluation.
 
-### For Academic Writers & Researchers
-
-**Step 1: Define Your Publication Context**
-- Specify publication type: Journal article, conference paper, book chapter, or review article
-- Identify target journal/venue and citation style (APA, MLA, Chicago, etc.)
-- Define your research area, target audience, and word count limits
-- Clarify your study title, research questions, and key findings
-
-**Step 2: Outline Your Research Content**
-- Summarize your study methodology and theoretical framework
-- List your sample/participants and main research questions
-- Identify primary and secondary findings with statistical results
-- Determine your core message and contribution type (empirical, theoretical, methodological)
-
-**Step 3: Generate Your Publication Framework**
-- Input your information into the template variables
-- Generate comprehensive manuscript structure including:
-  - Title options and structured abstract (with word allocations)
-  - Complete IMRAD sections (Introduction, Methods, Results, Discussion)
-  - Literature integration framework
-  - Statistical reporting standards
-  - Reference management guidelines
-
-**Step 4: Write and Refine (Ongoing)**
-- Follow the generated structure to draft each section systematically
-- Use provided examples and templates for consistency
-- Apply quality checklists for self-review before submission
-- Adapt conference presentation materials from manuscript framework
-
-**Common Use Cases:**
-- Original research articles for peer-reviewed journals
-- Conference abstracts and presentations
-- Dissertation and thesis manuscripts
-- Review articles and meta-analyses
-- Peer review response letters
+---
 
 ## Template
 
-```
-You are an expert academic writer with extensive experience in scholarly publishing, peer review, and conference presentations across multiple disciplines. Create a comprehensive academic publication based on:
+Conduct a comprehensive academic publication writing readiness assessment for {MANUSCRIPT_CONTEXT} targeting {TARGET_VENUE} as a {PUBLICATION_TYPE}.
 
-Publication Context:
-- Publication Type: [JOURNAL_ARTICLE/CONFERENCE_PAPER/BOOK_CHAPTER/REVIEW_ARTICLE]
-- Target Journal/Venue: [TARGET_PUBLICATION]
-- Research Area: [RESEARCH_FIELD]
-- Audience: [TARGET_AUDIENCE]
-- Word Count Limit: [WORD_LIMIT]
-- Citation Style: [APA/MLA/CHICAGO/VANCOUVER/DISCIPLINE_SPECIFIC]
+Assess readiness across six dimensions, scoring each 1–5:
 
-### Research Content
-- Study Title: [STUDY_TITLE]
-- Research Questions: [RESEARCH_QUESTIONS]
-- Methodology: [STUDY_METHODOLOGY]
-- Key Findings: [MAIN_FINDINGS]
-- Theoretical Framework: [THEORETICAL_BASIS]
-- Sample/Participants: [STUDY_SAMPLE]
+**1. CONTRIBUTION & POSITIONING READINESS**
+Evaluate whether the manuscript’s core contribution is explicit by assessing whether the research question and motivation are crisp, the gap in prior work is convincingly established, and the paper’s novelty is stated as specific, defensible claims that match the venue’s aims and readership. Examine whether related work is selective but sufficient, whether the framing differentiates your contribution from adjacent approaches, and whether limitations and scope boundaries are stated in a way that strengthens credibility rather than weakening impact.
 
-### Publication Goals
-- Primary Message: [CORE_MESSAGE]
-- Contribution Type: [EMPIRICAL/THEORETICAL/METHODOLOGICAL/REVIEW]
-- Innovation Level: [NOVEL_ASPECTS]
-- Impact Objectives: [INTENDED_IMPACT]
-- Career Goals: [CAREER_OBJECTIVES]
+**2. EVIDENCE & METHOD REPORTING READINESS**
+Evaluate whether the manuscript can survive methodological scrutiny by assessing whether design choices are justified, measures and instruments are described precisely, sampling and recruitment are transparent, and analysis steps can be reproduced or reasonably audited. Examine whether assumptions, robustness checks, error sources, and sensitivity analyses are addressed at the depth expected in the target venue, and whether results are reported with appropriate uncertainty, effect sizes, and interpretive restraint.
 
-### Generate a comprehensive academic publication
+**3. ARGUMENT STRUCTURE & CLARITY READINESS**
+Evaluate whether the paper tells a coherent story by assessing whether the structure fits the publication type, each section does one job well, and claims are consistently linked to evidence without overreach. Examine whether the abstract and introduction set up the paper’s promise and deliver on it, whether tables and figures are referenced with clear takeaways, and whether the discussion distinguishes findings, interpretation, implications, and speculation in a way that readers and reviewers can follow.
 
-1. TITLE & ABSTRACT
+**4. COMPLIANCE & RESEARCH INTEGRITY READINESS**
+Evaluate whether the manuscript meets ethical and integrity expectations by assessing whether approvals (IRB/ethics), consent language, data privacy considerations, conflicts of interest, funding statements, authorship roles, and citation practices are complete and consistent. Examine whether plagiarism risk is mitigated, whether reuse of text/figures is appropriately attributed, whether reporting standards relevant to your design are followed, and whether data/code availability statements match what you can actually provide.
 
-### Title Development
-   Working Title: [STUDY_TITLE]
+**5. PRESENTATION & SUPPORTING MATERIALS READINESS**
+Evaluate whether presentation quality supports acceptance by assessing whether figures and tables are readable, labeled, and truthful to the analysis, and whether the manuscript’s formatting aligns with venue requirements. Examine whether supplementary materials exist where expected (protocols, appendices, extra analyses, codebooks), whether references are clean and consistent in the required style, and whether the paper includes the right reporting checklist or structured elements (for example, PRISMA-style sections for reviews or CONSORT-like elements where applicable).
 
-### Title Options
-   • [TITLE_OPTION_1]: [Descriptive and specific]
-   • [TITLE_OPTION_2]: [Concise and impactful]
-   • [TITLE_OPTION_3]: [Keywords optimized]
+**6. SUBMISSION & REVISION WORKFLOW READINESS**
+Evaluate whether the project can be executed efficiently by assessing whether coauthor responsibilities are defined, decision rights are clear for disputed edits, and deadlines and checkpoints are realistic for the team’s availability. Examine whether there is an explicit plan for pre-submission review, internal quality checks, submission logistics, and a response-to-review workflow that can produce high-quality revisions quickly, including a strategy for handling major methodological requests, additional experiments, or reframing.
 
-### Final Title Selection Criteria
-   • [TITLE_CLARITY]: Clear research focus
-   • [TITLE_KEYWORDS]: SEO and database optimization
-   • [TITLE_LENGTH]: Journal requirements ([WORD_COUNT] words)
-   • [TITLE_IMPACT]: Attention-grabbing potential
+---
 
-   Structured Abstract ([ABSTRACT_WORD_LIMIT] words):
+## Required Output Format
 
-   Background/Introduction ([BACKGROUND_WORDS] words):
-   [Research context and problem statement]
-   • [RESEARCH_CONTEXT]: Current state of knowledge
-   • [KNOWLEDGE_GAP]: Gap being addressed
-   • [STUDY_RATIONALE]: Why this study is needed
+Structure your assessment as:
 
-   Objective/Purpose ([OBJECTIVE_WORDS] words):
-   [Primary research objective and specific aims]
-   • [PRIMARY_AIM]: Main research question
-   • [SECONDARY_AIMS]: Additional objectives
-   • [HYPOTHESIS]: Testable hypotheses (if applicable)
+1. **EXECUTIVE SUMMARY** - Overall readiness score (X.X/5.0), maturity level, submission recommendation (submit / revise-first), top 3 risks, estimated time-to-submit (weeks)
 
-   Methods ([METHODS_WORDS] words):
-   [Study design, participants, and procedures]
-   • [STUDY_DESIGN]: Research design type
-   • [PARTICIPANTS]: Sample description ([N] = [SAMPLE_SIZE])
-   • [DATA_COLLECTION]: Data collection methods
-   • [ANALYSIS_METHOD]: Analysis approach
+2. **DIMENSION SCORECARD** - Table with score (X.X/5) and the single most important fix per dimension
 
-   Results ([RESULTS_WORDS] words):
-   [Key findings and statistical results]
-   • [PRIMARY_FINDING_1]: Main result with statistics
-   • [PRIMARY_FINDING_2]: Secondary result with effect size
-   • [STATISTICAL_SIGNIFICANCE]: P-values and confidence intervals
+3. **DESK-REJECT RISK CHECK** - 5–7 common rejection drivers for the target venue and whether each is “covered / partial / missing”
 
-   Conclusions ([CONCLUSION_WORDS] words):
-   [Implications and significance]
-   • [MAIN_CONCLUSION]: Primary conclusion
-   • [IMPLICATIONS]: Practical/theoretical implications
-   • [FUTURE_RESEARCH]: Future research directions
+4. **PRIORITIZED FIX LIST** - Top 8 actions ranked by impact and effort, including “definition of done” for each
 
-   Keywords: [KEYWORD_1], [KEYWORD_2], [KEYWORD_3], [KEYWORD_4], [KEYWORD_5], [KEYWORD_6]
+5. **WRITING & REVISION PLAN** - A time-boxed plan (e.g., 2–8 weeks) with section-level milestones and review checkpoints
 
-2. INTRODUCTION
+6. **SUBMISSION CHECKLIST** - Venue requirements, compliance items, and final QA steps before clicking submit
 
-### Opening Hook
-   [Compelling opening statement that captures attention]
-   • [OPENING_STATISTIC]: Striking statistic or fact
-   • [OPENING_SCENARIO]: Illustrative example or case
-   • [OPENING_QUESTION]: Thought-provoking question
+Use this maturity scale:
+- **1.0–1.9: Unprepared** (fragmented draft, unclear claims, major compliance or methods gaps)
+- **2.0–2.9: Developing** (draft exists, but reviewers will find substantive gaps)
+- **3.0–3.9: Ready with revisions** (solid paper; targeted improvements needed before submission)
+- **4.0–4.9: Submission-ready** (polished, compliant, and well-positioned)
+- **5.0: Exemplary** (field-leading clarity, rigor, and presentation; strong fit and impact)
 
-### Research Context & Background
-
-### Broad Context
-   • [FIELD_OVERVIEW]: Overview of the research field
-   • [CURRENT_STATE]: Current understanding and practice
-   • [SOCIETAL_RELEVANCE]: Broader societal importance
-   • [HISTORICAL_DEVELOPMENT]: Brief historical perspective
-
-### Specific Problem Area
-   • [PROBLEM_DEFINITION]: Clear problem definition
-   • [PROBLEM_SCOPE]: Scope and boundaries of problem
-   • [AFFECTED_POPULATIONS]: Who is affected
-   • [PROBLEM_CONSEQUENCES]: Consequences of not addressing
-
-### Literature Foundation
-
-### Theoretical Foundation
-   • [THEORY_1]: [Primary theoretical framework and key studies]
-   • [THEORY_2]: [Supporting or competing theories]
-   • [THEORETICAL_GAPS]: [Limitations in current theory]
-
-### Empirical Evidence
-   Recent Research ([RECENT_TIMEFRAME]):
-   • [EMPIRICAL_STUDY_1]: [Key finding and methodology]
-   • [EMPIRICAL_STUDY_2]: [Conflicting or supporting evidence]
-   • [EMPIRICAL_STUDY_3]: [Methodological innovations]
-
-### Systematic Evidence
-   • [SYSTEMATIC_REVIEW_1]: [Meta-analysis findings]
-   • [SYSTEMATIC_REVIEW_2]: [Quality of evidence assessment]
-
-### Knowledge Gaps & Research Needs
-
-### Identified Gaps
-   • [EMPIRICAL_GAP_1]: [What is unknown or understudied]
-   • [EMPIRICAL_GAP_2]: [Conflicting findings needing resolution]
-   • [METHODOLOGICAL_GAP]: [Limitations in research methods]
-   • [POPULATION_GAP]: [Understudied populations]
-   • [CONTEXTUAL_GAP]: [Missing contexts or settings]
-
-### Study Rationale
-   • [RATIONALE_THEORETICAL]: [Theoretical contribution]
-   • [RATIONALE_EMPIRICAL]: [Empirical contribution]
-   • [RATIONALE_METHODOLOGICAL]: [Methodological advancement]
-   • [RATIONALE_PRACTICAL]: [Practical significance]
-
-### Research Objectives & Hypotheses
-
-### Primary Research Question
-   [PRIMARY_RESEARCH_QUESTION]
-
-### Secondary Research Questions
-   • [SECONDARY_QUESTION_1]
-   • [SECONDARY_QUESTION_2]
-   • [SECONDARY_QUESTION_3]
-
-   Hypotheses (if applicable):
-### Primary Hypothesis
-   • H₁: [PRIMARY_HYPOTHESIS_STATEMENT]
-   • H₀: [NULL_HYPOTHESIS_STATEMENT]
-
-### Secondary Hypotheses
-   • H₂: [SECONDARY_HYPOTHESIS_1]
-   • H₃: [SECONDARY_HYPOTHESIS_2]
-
-### Study Overview
-   [Brief overview of study design and approach, leading into methods]
-
-3. LITERATURE REVIEW (if standalone section)
-
-### Review Strategy
-   • [SEARCH_STRATEGY]: Database and search terms used
-   • [INCLUSION_CRITERIA]: Criteria for including studies
-   • [TIME_FRAME]: Publication time frame reviewed
-   • [STUDY_SELECTION]: Number of studies reviewed
-
-### Thematic Organization
-
-   Theme 1: [LITERATURE_THEME_1]
-
-### Key Studies
-   • [KEY_STUDY_1_1]: [Author, year] - [Main finding and relevance]
-   • [KEY_STUDY_1_2]: [Author, year] - [Methodology and contribution]
-   • [KEY_STUDY_1_3]: [Author, year] - [Limitations and implications]
-
-### Synthesis
-   • [THEME_1_SYNTHESIS]: [Convergent findings and patterns]
-   • [THEME_1_GAPS]: [Remaining questions and inconsistencies]
-
-   Theme 2: [LITERATURE_THEME_2]
-
-### Key Studies
-   • [KEY_STUDY_2_1]: [Author, year] - [Main finding and relevance]
-   • [KEY_STUDY_2_2]: [Author, year] - [Methodology and contribution]
-   • [KEY_STUDY_2_3]: [Author, year] - [Limitations and implications]
-
-### Synthesis
-   • [THEME_2_SYNTHESIS]: [Convergent findings and patterns]
-   • [THEME_2_GAPS]: [Remaining questions and inconsistencies]
-
-   Theme 3: [LITERATURE_THEME_3]
-
-### Key Studies
-   • [KEY_STUDY_3_1]: [Author, year] - [Main finding and relevance]
-   • [KEY_STUDY_3_2]: [Author, year] - [Methodology and contribution]
-   • [KEY_STUDY_3_3]: [Author, year] - [Limitations and implications]
-
-### Synthesis
-   • [THEME_3_SYNTHESIS]: [Convergent findings and patterns]
-   • [THEME_3_GAPS]: [Remaining questions and inconsistencies]
-
-### Critical Analysis
-   • [METHODOLOGICAL_CRITIQUE]: [Quality assessment of existing research]
-   • [THEORETICAL_CRITIQUE]: [Theoretical limitations and advances needed]
-   • [PRACTICAL_CRITIQUE]: [Translation and application challenges]
-
-### Literature Summary
-   • [LITERATURE_CONCLUSIONS]: [Overall conclusions from review]
-   • [RESEARCH_JUSTIFICATION]: [How current study addresses gaps]
-
-4. THEORETICAL FRAMEWORK (if applicable)
-
-### Framework Overview
-   [Overview of theoretical approach and rationale]
-
-   Primary Theory: [MAIN_THEORETICAL_FRAMEWORK]
-
-### Theory Description
-   • [THEORY_ORIGINS]: [Historical development and key contributors]
-   • [CORE_PRINCIPLES]: [Fundamental principles and assumptions]
-   • [KEY_CONCEPTS]: [Central concepts and definitions]
-   • [THEORETICAL_RELATIONSHIPS]: [Proposed relationships between concepts]
-
-### Theory Application
-   • [APPLICATION_RATIONALE]: [Why this theory is appropriate]
-   • [APPLICATION_CONTEXT]: [How theory applies to current research]
-   • [THEORETICAL_PREDICTIONS]: [Predictions derived from theory]
-
-### Supporting Theories
-
-   Theory 2: [SUPPORTING_THEORY_1]
-   • [INTEGRATION_RATIONALE]: [How it complements main theory]
-   • [UNIQUE_CONTRIBUTION]: [What it adds to understanding]
-
-   Theory 3: [SUPPORTING_THEORY_2]
-   • [INTEGRATION_RATIONALE]: [How it complements main theory]
-   • [UNIQUE_CONTRIBUTION]: [What it adds to understanding]
-
-### Conceptual Model
-   [Description of conceptual or theoretical model]
-
-### Model Components
-   • [COMPONENT_1]: [Independent variables and constructs]
-   • [COMPONENT_2]: [Dependent variables and outcomes]
-   • [COMPONENT_3]: [Mediating or moderating factors]
-   • [COMPONENT_4]: [Contextual or environmental factors]
-
-### Model Relationships
-   • [RELATIONSHIP_1]: [Direct effects and pathways]
-   • [RELATIONSHIP_2]: [Indirect or mediated effects]
-   • [RELATIONSHIP_3]: [Interaction or moderated effects]
-
-### Theoretical Contribution
-   • [THEORETICAL_ADVANCEMENT]: [How study advances theory]
-   • [THEORY_TESTING]: [Aspects of theory being tested]
-   • [THEORY_EXTENSION]: [Extensions or modifications proposed]
-
-5. METHODOLOGY
-
-### Research Design
-
-### Overall Approach
-   • [RESEARCH_PARADIGM]: [Positivist/Interpretivist/Pragmatic approach]
-   • [RESEARCH_DESIGN]: [Experimental/Quasi-experimental/Observational/Qualitative]
-   • [DESIGN_RATIONALE]: [Justification for design choice]
-   • [DESIGN_STRENGTHS]: [Advantages of chosen design]
-
-### Study Setting
-   • [SETTING_DESCRIPTION]: [Where study was conducted]
-   • [SETTING_RATIONALE]: [Why this setting was chosen]
-   • [SETTING_ACCESS]: [How access was obtained]
-   • [SETTING_CHARACTERISTICS]: [Relevant features of setting]
-
-   Participants/Sample:
-
-### Target Population
-   • [POPULATION_DEFINITION]: [Clear definition of target population]
-   • [POPULATION_SIZE]: [Estimated size of population]
-   • [POPULATION_CHARACTERISTICS]: [Key demographic features]
-
-### Sample Selection
-   • [SAMPLING_METHOD]: [Probability/Non-probability sampling strategy]
-   • [SAMPLING_RATIONALE]: [Justification for sampling approach]
-   • [INCLUSION_CRITERIA]: [Who was eligible to participate]
-   • [EXCLUSION_CRITERIA]: [Who was excluded and why]
-
-### Sample Size
-   • [SAMPLE_SIZE_CALCULATION]: [How sample size was determined]
-   • [POWER_ANALYSIS]: [Statistical power considerations]
-   • [EFFECT_SIZE_EXPECTED]: [Expected effect size]
-   • [FINAL_SAMPLE_SIZE]: [Actual sample achieved]
-   • [ATTRITION_RATE]: [Dropout rate and reasons]
-
-### Sample Characteristics
-   • [DEMOGRAPHIC_PROFILE]: [Age, gender, ethnicity, etc.]
-   • [RELEVANT_CHARACTERISTICS]: [Education, experience, etc.]
-   • [SAMPLE_REPRESENTATIVENESS]: [How representative of population]
-
-### Data Collection
-
-   Instruments/Measures:
-
-   Instrument 1: [INSTRUMENT_NAME_1]
-   • [INSTRUMENT_TYPE]: [Survey/Interview/Observation/Test]
-   • [INSTRUMENT_DESCRIPTION]: [What it measures and how]
-   • [PSYCHOMETRIC_PROPERTIES]: [Validity and reliability evidence]
-   • [ADMINISTRATION]: [How it was administered]
-   • [SCORING]: [How responses were scored]
-
-   Instrument 2: [INSTRUMENT_NAME_2]
-   • [INSTRUMENT_TYPE]: [Survey/Interview/Observation/Test]
-   • [INSTRUMENT_DESCRIPTION]: [What it measures and how]
-   • [PSYCHOMETRIC_PROPERTIES]: [Validity and reliability evidence]
-   • [ADMINISTRATION]: [How it was administered]
-   • [SCORING]: [How responses were scored]
-
-### Data Collection Procedures
-   • [PROCEDURE_TIMELINE]: [When data were collected]
-   • [PROCEDURE_STEPS]: [Step-by-step data collection process]
-   • [QUALITY_CONTROL]: [Measures to ensure data quality]
-   • [DATA_COLLECTOR_TRAINING]: [Training provided to data collectors]
-
-### Ethical Considerations
-   • [IRB_APPROVAL]: [Institutional review board approval]
-   • [INFORMED_CONSENT]: [Consent procedures]
-   • [CONFIDENTIALITY]: [Privacy protection measures]
-   • [RISK_MITIGATION]: [How risks were minimized]
-
-### Data Analysis
-
-### Analysis Plan Overview
-   • [ANALYSIS_SOFTWARE]: [Statistical software used]
-   • [ANALYSIS_APPROACH]: [Overall analytical strategy]
-   • [ANALYSIS_TEAM]: [Who conducted analyses]
-
-### Quantitative Analysis
-
-### Descriptive Analysis
-   • [DESCRIPTIVE_STATISTICS]: [Measures of central tendency and dispersion]
-   • [SAMPLE_DESCRIPTION]: [Demographic and baseline characteristics]
-   • [VARIABLE_DISTRIBUTIONS]: [Distribution shapes and normality]
-
-### Inferential Analysis
-### Primary Analysis
-   • [PRIMARY_STATISTICAL_TEST]: [Main statistical test used]
-   • [TEST_ASSUMPTIONS]: [Assumptions checked and met]
-   • [SIGNIFICANCE_LEVEL]: [Alpha level used]
-   • [EFFECT_SIZE_CALCULATION]: [Effect size measures calculated]
-
-### Secondary Analysis
-   • [SECONDARY_ANALYSES]: [Additional analyses conducted]
-   • [EXPLORATORY_ANALYSES]: [Post-hoc or exploratory tests]
-   • [SUBGROUP_ANALYSES]: [Analysis of subgroups]
-
-   Qualitative Analysis (if applicable):
-
-   Analysis Approach: [THEMATIC/CONTENT/NARRATIVE/GROUNDED_THEORY]
-   • [ANALYSIS_PHILOSOPHY]: [Inductive/Deductive approach]
-   • [CODING_PROCEDURES]: [How data were coded]
-   • [THEME_DEVELOPMENT]: [How themes were identified]
-   • [TRUSTWORTHINESS]: [Credibility and dependability measures]
-
-   Mixed Methods Integration (if applicable):
-   • [INTEGRATION_STRATEGY]: [How quantitative and qualitative data were combined]
-   • [INTEGRATION_TIMING]: [When integration occurred]
-   • [JOINT_INTERPRETATION]: [How findings were interpreted together]
-
-6. RESULTS
-
-### Results Overview
-   [Brief overview of main findings and organization]
-
-### Sample Characteristics
-
-### Participant Flow
-   • [INITIAL_SAMPLE]: [Number initially recruited]
-   • [FINAL_SAMPLE]: [Number completing study]
-   • [ATTRITION_DETAILS]: [Reasons for dropout]
-
-### Demographic Profile
-   • [AGE_STATISTICS]: Mean age = [MEAN_AGE] (SD = [AGE_SD], range [AGE_RANGE])
-   • [GENDER_DISTRIBUTION]: [N_MALE] males ([MALE_PERCENT]%), [N_FEMALE] females ([FEMALE_PERCENT]%)
-   • [ETHNICITY_BREAKDOWN]: [Ethnic/racial composition]
-   • [OTHER_DEMOGRAPHICS]: [Additional relevant characteristics]
-
-### Baseline Characteristics
-   • [BASELINE_VARIABLE_1]: [Statistics and distribution]
-   • [BASELINE_VARIABLE_2]: [Statistics and distribution]
-   • [GROUP_COMPARISONS]: [Baseline group equivalence]
-
-### Primary Findings
-
-   Primary Research Question: [PRIMARY_RESEARCH_QUESTION]
-
-### Main Result
-   [PRIMARY_FINDING_STATEMENT]
-
-### Statistical Results
-   • [PRIMARY_STATISTICAL_RESULT]: [Test statistic, degrees of freedom, p-value]
-   • [EFFECT_SIZE_PRIMARY]: [Effect size measure and magnitude]
-   • [CONFIDENCE_INTERVAL_PRIMARY]: [95% CI for main effect]
-
-### Supporting Evidence
-   • [SUPPORTING_STATISTIC_1]: [Additional statistical support]
-   • [SUPPORTING_STATISTIC_2]: [Descriptive statistics]
-   • [PRACTICAL_SIGNIFICANCE]: [Clinical or practical significance]
-
-### Secondary Findings
-
-   Secondary Question 1: [SECONDARY_QUESTION_1]
-
-### Result
-   [SECONDARY_FINDING_1]
-   • [SECONDARY_STATISTIC_1]: [Statistical test and results]
-   • [SECONDARY_EFFECT_SIZE_1]: [Effect size and interpretation]
-
-   Secondary Question 2: [SECONDARY_QUESTION_2]
-
-### Result
-   [SECONDARY_FINDING_2]
-   • [SECONDARY_STATISTIC_2]: [Statistical test and results]
-   • [SECONDARY_EFFECT_SIZE_2]: [Effect size and interpretation]
-
-### Exploratory Findings
-
-   Unexpected Finding 1: [EXPLORATORY_FINDING_1]
-   • [EXPLORATORY_STATISTIC_1]: [Statistical details]
-   • [EXPLORATORY_INTERPRETATION_1]: [Tentative interpretation]
-
-   Unexpected Finding 2: [EXPLORATORY_FINDING_2]
-   • [EXPLORATORY_STATISTIC_2]: [Statistical details]
-   • [EXPLORATORY_INTERPRETATION_2]: [Tentative interpretation]
-
-### Subgroup Analysis
-
-   Subgroup 1: [SUBGROUP_1_DEFINITION]
-   • [SUBGROUP_1_FINDING]: [Key finding for this subgroup]
-   • [SUBGROUP_1_STATISTICS]: [Statistical results]
-
-   Subgroup 2: [SUBGROUP_2_DEFINITION]
-   • [SUBGROUP_2_FINDING]: [Key finding for this subgroup]
-   • [SUBGROUP_2_STATISTICS]: [Statistical results]
-
-   Qualitative Results (if applicable):
-
-   Theme 1: [QUALITATIVE_THEME_1]
-   [Theme description and supporting evidence]
-   • [THEME_1_QUOTE_1]: "[Representative participant quote]" (Participant [P_ID_1])
-   • [THEME_1_QUOTE_2]: "[Additional supporting quote]" (Participant [P_ID_2])
-   • [THEME_1_FREQUENCY]: [How common this theme was]
-
-   Theme 2: [QUALITATIVE_THEME_2]
-   [Theme description and supporting evidence]
-   • [THEME_2_QUOTE_1]: "[Representative participant quote]" (Participant [P_ID_3])
-   • [THEME_2_QUOTE_2]: "[Additional supporting quote]" (Participant [P_ID_4])
-   • [THEME_2_FREQUENCY]: [How common this theme was]
-
-   Mixed Methods Integration (if applicable):
-   • [CONVERGENT_FINDINGS]: [Where quantitative and qualitative findings agree]
-   • [DIVERGENT_FINDINGS]: [Where findings differ or add complexity]
-   • [ENHANCED_UNDERSTANDING]: [How integration enhances interpretation]
-
-7. DISCUSSION
-
-### Summary of Key Findings
-   [Concise summary of main results in relation to research questions]
-
-### Primary Finding Interpretation
-   [PRIMARY_FINDING_INTERPRETATION]
-   • [FINDING_SIGNIFICANCE]: [Why this finding is important]
-   • [FINDING_NOVELTY]: [How this advances knowledge]
-   • [FINDING_CONSISTENCY]: [How it fits with prior research]
-
-### Integration with Existing Literature
-
-### Consistent Findings
-   • [CONSISTENT_STUDY_1]: [How findings align with this prior work]
-   • [CONSISTENT_STUDY_2]: [Replication or extension of prior findings]
-   • [CONSISTENT_PATTERN]: [Broader pattern of consistent evidence]
-
-### Contrasting Findings
-   • [CONTRASTING_STUDY_1]: [How findings differ and possible reasons]
-   • [CONTRASTING_STUDY_2]: [Alternative explanations for differences]
-   • [RECONCILIATION_ATTEMPT]: [Potential reconciliation of differences]
-
-### Novel Contributions
-   • [NOVEL_CONTRIBUTION_1]: [First to demonstrate X]
-   • [NOVEL_CONTRIBUTION_2]: [Extension to new population/context]
-   • [NOVEL_CONTRIBUTION_3]: [Methodological or theoretical advance]
-
-### Theoretical Implications
-
-### Theory Support
-   • [THEORY_SUPPORT_1]: [How findings support main theory]
-   • [THEORY_SUPPORT_2]: [Specific theoretical predictions confirmed]
-   • [THEORY_EXTENSION]: [How findings extend theoretical understanding]
-
-### Theory Challenges
-   • [THEORY_CHALLENGE_1]: [Aspects not fully supported by theory]
-   • [THEORY_CHALLENGE_2]: [Need for theoretical modification]
-   • [THEORY_REFINEMENT]: [Suggested theoretical refinements]
-
-### Practical Implications
-
-   Clinical/Professional Practice:
-   • [PRACTICE_IMPLICATION_1]: [Direct application to practice]
-   • [PRACTICE_IMPLICATION_2]: [Changes in intervention or assessment]
-   • [PRACTICE_IMPLICATION_3]: [Training or education implications]
-
-### Policy Implications
-   • [POLICY_IMPLICATION_1]: [Implications for policy development]
-   • [POLICY_IMPLICATION_2]: [Regulatory or guideline changes]
-   • [POLICY_IMPLICATION_3]: [Resource allocation implications]
-
-   Public Health/Social Implications:
-   • [PUBLIC_HEALTH_IMPLICATION_1]: [Population-level implications]
-   • [PUBLIC_HEALTH_IMPLICATION_2]: [Prevention or intervention strategies]
-   • [SOCIAL_IMPLICATION]: [Broader social implications]
-
-### Strengths and Limitations
-
-### Study Strengths
-   • [STRENGTH_1]: [Methodological strength and importance]
-   • [STRENGTH_2]: [Sample or design strength]
-   • [STRENGTH_3]: [Analytical or measurement strength]
-   • [STRENGTH_4]: [Practical or theoretical strength]
-
-### Study Limitations
-   • [LIMITATION_1]: [First limitation and its implications]
-   • [LIMITATION_2]: [Second limitation and mitigation attempts]
-   • [LIMITATION_3]: [Third limitation and impact on conclusions]
-   • [LIMITATION_4]: [Fourth limitation and future research needs]
-
-### Generalizability
-   • [GENERALIZABILITY_POPULATION]: [To whom findings can be generalized]
-   • [GENERALIZABILITY_SETTING]: [To what settings/contexts]
-   • [GENERALIZABILITY_TIME]: [Temporal generalizability]
-   • [GENERALIZABILITY_LIMITATIONS]: [Limits to generalization]
-
-### Future Research Directions
-
-### Immediate Next Steps
-   • [FUTURE_RESEARCH_1]: [Replication needs and extensions]
-   • [FUTURE_RESEARCH_2]: [Testing in different populations]
-   • [FUTURE_RESEARCH_3]: [Methodological improvements needed]
-
-   Long-term Research Agenda:
-   • [LONG_TERM_RESEARCH_1]: [Longitudinal or developmental studies]
-   • [LONG_TERM_RESEARCH_2]: [Intervention or prevention trials]
-   • [LONG_TERM_RESEARCH_3]: [Mechanistic or process research]
-
-### Methodological Recommendations
-   • [METHOD_RECOMMENDATION_1]: [Improved measurement approaches]
-   • [METHOD_RECOMMENDATION_2]: [Enhanced study designs]
-   • [METHOD_RECOMMENDATION_3]: [Novel analytical approaches]
-
-8. CONCLUSION
-
-### Study Summary
-   [Concise summary of study purpose, methods, and key findings]
-
-### Key Takeaway Messages
-   • [TAKEAWAY_1]: [Most important finding or implication]
-   • [TAKEAWAY_2]: [Second key message]
-   • [TAKEAWAY_3]: [Third key message]
-
-### Significance Statement
-   [SIGNIFICANCE_STATEMENT]: [Why this research matters and its broader impact]
-
-   Call to Action (if appropriate):
-   [CALL_TO_ACTION]: [What should happen next based on these findings]
-
-### Closing Statement
-   [Compelling closing that reinforces importance and impact]
-
-9. REFERENCES
-
-### Reference Management
-   • [REFERENCE_STYLE]: [Citation style used]
-   • [REFERENCE_COUNT]: [Total number of references]
-   • [REFERENCE_CURRENCY]: [Recency of references]
-   • [REFERENCE_DIVERSITY]: [Breadth of sources]
-
-### Reference Categories
-   • [FOUNDATIONAL_REFS]: [Classic or foundational works cited]
-   • [RECENT_REFS]: [Recent studies within last 5 years]
-   • [METHODOLOGICAL_REFS]: [Method and measurement sources]
-   • [THEORETICAL_REFS]: [Theoretical framework sources]
-
-   [Format according to journal requirements]
-
-10. APPENDICES (if applicable)
-
-    Appendix A: Additional Statistical Results
-    • [SUPPLEMENTARY_ANALYSES]
-    • [DETAILED_STATISTICS]
-    • [SENSITIVITY_ANALYSES]
-
-    Appendix B: Measurement Instruments
-    • [SURVEY_INSTRUMENTS]
-    • [INTERVIEW_GUIDES]
-    • [CODING_SCHEMES]
-
-    Appendix C: Additional Participant Information
-    • [DETAILED_DEMOGRAPHICS]
-    • [RECRUITMENT_MATERIALS]
-    • [CONSENT_FORMS]
-
-11. FIGURES AND TABLES
-
-### Table Planning
-
-    Table 1: [TABLE_1_TITLE]
-    • Content: [TABLE_1_CONTENT]
-    • Purpose: [TABLE_1_PURPOSE]
-
-    Table 2: [TABLE_2_TITLE]
-    • Content: [TABLE_2_CONTENT]
-    • Purpose: [TABLE_2_PURPOSE]
-
-### Figure Planning
-
-    Figure 1: [FIGURE_1_TITLE]
-    • Type: [FIGURE_1_TYPE]
-    • Content: [FIGURE_1_CONTENT]
-    • Purpose: [FIGURE_1_PURPOSE]
-
-    Figure 2: [FIGURE_2_TITLE]
-    • Type: [FIGURE_2_TYPE]
-    • Content: [FIGURE_2_CONTENT]
-    • Purpose: [FIGURE_2_PURPOSE]
-
-12. CONFERENCE PRESENTATION ADAPTATION
-
-    Presentation Format: [ORAL/POSTER/SYMPOSIUM]
-
-### Abstract for Conference
-    [Adapted abstract following conference requirements]
-
-### Oral Presentation Structure
-
-### Introduction Slide
-    • [HOOK_SLIDE]: [Attention-grabbing opening]
-    • [PROBLEM_SLIDE]: [Problem statement and significance]
-    • [OBJECTIVE_SLIDE]: [Study objectives and hypotheses]
-
-### Methods Slide
-    • [DESIGN_SLIDE]: [Study design overview]
-    • [SAMPLE_SLIDE]: [Participant characteristics]
-    • [MEASURES_SLIDE]: [Key measures and procedures]
-
-### Results Slides
-    • [MAIN_RESULTS_SLIDE]: [Primary findings]
-    • [SECONDARY_RESULTS_SLIDE]: [Secondary findings]
-    • [VISUAL_RESULTS_SLIDE]: [Key figure or table]
-
-### Discussion Slide
-    • [IMPLICATIONS_SLIDE]: [Key implications]
-    • [LIMITATIONS_SLIDE]: [Limitations and future directions]
-    • [CONCLUSIONS_SLIDE]: [Take-home messages]
-
-### Poster Layout
-    • [POSTER_SECTIONS]: [Organization of poster sections]
-    • [VISUAL_DESIGN]: [Design and layout considerations]
-    • [KEY_VISUALS]: [Most important figures/tables for poster]
-
-### Ensure the academic publication is
-- Rigorously written and well-structured
-- Appropriate for target audience and venue
-- Methodologically sound and transparent
-- Contributing meaningful knowledge to the field
-- Properly cited and referenced
-- Engaging and impactful
-- Meeting publication standards and requirements
-```
+---
 
 ## Variables
 
-### Publication Context
-- `[JOURNAL_ARTICLE/CONFERENCE_PAPER/BOOK_CHAPTER/REVIEW_ARTICLE]`: Type of academic publication
-- `[TARGET_PUBLICATION]`: Specific journal or conference venue
-- `[RESEARCH_FIELD]`: Academic discipline or research area
-- `[TARGET_AUDIENCE]`: Intended readership or audience
-- `[WORD_LIMIT]`: Maximum word count for publication
-- `[APA/MLA/CHICAGO/VANCOUVER/DISCIPLINE_SPECIFIC]`: Citation style required
-- `[STUDY_TITLE]`: Title of the research study
-- `[RESEARCH_QUESTIONS]`: Primary and secondary research questions
-- `[STUDY_METHODOLOGY]`: Research methodology employed
-- `[MAIN_FINDINGS]`: Key research findings
-- `[THEORETICAL_BASIS]`: Theoretical framework used
-- `[STUDY_SAMPLE]`: Sample or participants in the study
+| Variable | Description | Example |
+|----------|-------------|---------|
+| `{MANUSCRIPT_CONTEXT}` | What you’re writing and what study/material it’s based on | "Mixed-methods study on remote onboarding for nurses in community hospitals" |
+| `{TARGET_VENUE}` | The specific journal, conference, or publisher (or a precise category if undecided) | "Journal of Medical Internet Research" or "CHI Late-Breaking Work" |
+| `{PUBLICATION_TYPE}` | The deliverable format | "journal article (IMRAD)" or "conference paper" or "registered report" |
 
-### Publication Goals
-- `[CORE_MESSAGE]`: Primary message or contribution
-- `[EMPIRICAL/THEORETICAL/METHODOLOGICAL/REVIEW]`: Type of contribution
-- `[NOVEL_ASPECTS]`: Novel or innovative aspects
-- `[INTENDED_IMPACT]`: Intended impact of publication
-- `[CAREER_OBJECTIVES]`: Career goals served by publication
-
-### Title and Abstract
-- `[TITLE_OPTION_1]`: First title option
-- `[TITLE_OPTION_2]`: Second title option
-- `[TITLE_OPTION_3]`: Third title option
-- `[TITLE_CLARITY]`: Clarity of research focus in title
-- `[TITLE_KEYWORDS]`: SEO and keyword optimization
-- `[TITLE_LENGTH]`: Title length considerations
-- `[WORD_COUNT]`: Specific word count
-- `[TITLE_IMPACT]`: Impact potential of title
-- `[ABSTRACT_WORD_LIMIT]`: Word limit for abstract
-- `[BACKGROUND_WORDS]`: Word allocation for background section
-- `[OBJECTIVE_WORDS]`: Word allocation for objectives section
-- `[METHODS_WORDS]`: Word allocation for methods section
-- `[RESULTS_WORDS]`: Word allocation for results section
-- `[CONCLUSION_WORDS]`: Word allocation for conclusions section
-- `[RESEARCH_CONTEXT]`: Context of the research
-- `[KNOWLEDGE_GAP]`: Gap in knowledge being addressed
-- `[STUDY_RATIONALE]`: Rationale for conducting study
-- `[PRIMARY_AIM]`: Primary research aim
-- `[SECONDARY_AIMS]`: Secondary research aims
-- `[HYPOTHESIS]`: Research hypotheses
-
-### Methods and Analysis
-- `[STUDY_DESIGN]`: Research design description
-- `[SAMPLE_SIZE]`: Sample size (N)
-- `[DATA_COLLECTION]`: Data collection methods
-- `[ANALYSIS_METHOD]`: Data analysis approach
-- `[PRIMARY_FINDING_1]`: First primary finding
-- `[PRIMARY_FINDING_2]`: Second primary finding
-- `[STATISTICAL_SIGNIFICANCE]`: Statistical significance results
-- `[MAIN_CONCLUSION]`: Main study conclusion
-- `[IMPLICATIONS]`: Study implications
-- `[FUTURE_RESEARCH]`: Future research directions
-- `[KEYWORD_1]` through `[KEYWORD_6]`: Keywords for the article
-
-### Introduction Elements
-- `[OPENING_STATISTIC]`: Opening statistical hook
-- `[OPENING_SCENARIO]`: Opening scenario or example
-- `[OPENING_QUESTION]`: Opening research question
-- `[FIELD_OVERVIEW]`: Overview of research field
-- `[CURRENT_STATE]`: Current state of knowledge
-- `[SOCIETAL_RELEVANCE]`: Societal relevance of research
-- `[HISTORICAL_DEVELOPMENT]`: Historical perspective
-- `[PROBLEM_DEFINITION]`: Definition of research problem
-- `[PROBLEM_SCOPE]`: Scope of the problem
-- `[AFFECTED_POPULATIONS]`: Populations affected by problem
-- `[PROBLEM_CONSEQUENCES]`: Consequences of not addressing problem
-
-### Theoretical Framework
-- `[THEORY_1]`: Primary theoretical framework
-- `[THEORY_2]`: Supporting or competing theories
-- `[THEORETICAL_GAPS]`: Gaps in current theory
-- `[EMPIRICAL_STUDY_1]`: First empirical study cited
-- `[EMPIRICAL_STUDY_2]`: Second empirical study cited
-- `[EMPIRICAL_STUDY_3]`: Third empirical study cited
-- `[SYSTEMATIC_REVIEW_1]`: First systematic review cited
-- `[SYSTEMATIC_REVIEW_2]`: Second systematic review cited
-- `[RECENT_TIMEFRAME]`: Timeframe for recent research
-
-### Knowledge Gaps
-- `[EMPIRICAL_GAP_1]`: First empirical gap identified
-- `[EMPIRICAL_GAP_2]`: Second empirical gap identified
-- `[METHODOLOGICAL_GAP]`: Methodological gap identified
-- `[POPULATION_GAP]`: Population gap in research
-- `[CONTEXTUAL_GAP]`: Contextual gap in research
-- `[RATIONALE_THEORETICAL]`: Theoretical rationale for study
-- `[RATIONALE_EMPIRICAL]`: Empirical rationale for study
-- `[RATIONALE_METHODOLOGICAL]`: Methodological rationale
-- `[RATIONALE_PRACTICAL]`: Practical significance rationale
-
-### Research Questions and Hypotheses
-- `[PRIMARY_RESEARCH_QUESTION]`: Primary research question
-- `[SECONDARY_QUESTION_1]`: First secondary question
-- `[SECONDARY_QUESTION_2]`: Second secondary question
-- `[SECONDARY_QUESTION_3]`: Third secondary question
-- `[PRIMARY_HYPOTHESIS_STATEMENT]`: Primary hypothesis statement
-- `[NULL_HYPOTHESIS_STATEMENT]`: Null hypothesis statement
-- `[SECONDARY_HYPOTHESIS_1]`: First secondary hypothesis
-- `[SECONDARY_HYPOTHESIS_2]`: Second secondary hypothesis
-
-### Literature Review
-- `[SEARCH_STRATEGY]`: Literature search strategy
-- `[INCLUSION_CRITERIA]`: Inclusion criteria for literature
-- `[TIME_FRAME]`: Time frame for literature review
-- `[STUDY_SELECTION]`: Study selection process
-- `[LITERATURE_THEME_1]`: First literature theme
-- `[LITERATURE_THEME_2]`: Second literature theme
-- `[LITERATURE_THEME_3]`: Third literature theme
-- `[KEY_STUDY_1_1]`: First key study under theme 1
-- `[KEY_STUDY_1_2]`: Second key study under theme 1
-- `[KEY_STUDY_1_3]`: Third key study under theme 1
-- `[KEY_STUDY_2_1]`: First key study under theme 2
-- `[KEY_STUDY_2_2]`: Second key study under theme 2
-- `[KEY_STUDY_2_3]`: Third key study under theme 2
-- `[KEY_STUDY_3_1]`: First key study under theme 3
-- `[KEY_STUDY_3_2]`: Second key study under theme 3
-- `[KEY_STUDY_3_3]`: Third key study under theme 3
-- `[THEME_1_SYNTHESIS]`: Synthesis of theme 1
-- `[THEME_1_GAPS]`: Gaps identified in theme 1
-- `[THEME_2_SYNTHESIS]`: Synthesis of theme 2
-- `[THEME_2_GAPS]`: Gaps identified in theme 2
-- `[THEME_3_SYNTHESIS]`: Synthesis of theme 3
-- `[THEME_3_GAPS]`: Gaps identified in theme 3
-- `[METHODOLOGICAL_CRITIQUE]`: Methodological critique
-- `[THEORETICAL_CRITIQUE]`: Theoretical critique
-- `[PRACTICAL_CRITIQUE]`: Practical critique
-- `[LITERATURE_CONCLUSIONS]`: Overall literature conclusions
-- `[RESEARCH_JUSTIFICATION]`: Justification for current research
-
-### Theoretical Framework Detail
-- `[MAIN_THEORETICAL_FRAMEWORK]`: Main theoretical framework
-- `[THEORY_ORIGINS]`: Origins of the theory
-- `[CORE_PRINCIPLES]`: Core theoretical principles
-- `[KEY_CONCEPTS]`: Key theoretical concepts
-- `[THEORETICAL_RELATIONSHIPS]`: Relationships between concepts
-- `[APPLICATION_RATIONALE]`: Rationale for theory application
-- `[APPLICATION_CONTEXT]`: Context of theory application
-- `[THEORETICAL_PREDICTIONS]`: Predictions from theory
-- `[SUPPORTING_THEORY_1]`: First supporting theory
-- `[SUPPORTING_THEORY_2]`: Second supporting theory
-- `[INTEGRATION_RATIONALE]`: Rationale for theory integration
-- `[UNIQUE_CONTRIBUTION]`: Unique contribution of supporting theory
-- `[COMPONENT_1]`: First component of conceptual model
-- `[COMPONENT_2]`: Second component of conceptual model
-- `[COMPONENT_3]`: Third component of conceptual model
-- `[COMPONENT_4]`: Fourth component of conceptual model
-- `[RELATIONSHIP_1]`: First relationship in model
-- `[RELATIONSHIP_2]`: Second relationship in model
-- `[RELATIONSHIP_3]`: Third relationship in model
-- `[THEORETICAL_ADVANCEMENT]`: How study advances theory
-- `[THEORY_TESTING]`: Aspects of theory being tested
-- `[THEORY_EXTENSION]`: Extensions to theory proposed
-
-### Methodology Details
-- `[RESEARCH_PARADIGM]`: Research paradigm adopted
-- `[RESEARCH_DESIGN]`: Specific research design
-- `[DESIGN_RATIONALE]`: Rationale for design choice
-- `[DESIGN_STRENGTHS]`: Strengths of chosen design
-- `[SETTING_DESCRIPTION]`: Description of study setting
-- `[SETTING_RATIONALE]`: Rationale for setting choice
-- `[SETTING_ACCESS]`: How access was obtained
-- `[SETTING_CHARACTERISTICS]`: Characteristics of setting
-- `[POPULATION_DEFINITION]`: Definition of target population
-- `[POPULATION_SIZE]`: Size of target population
-- `[POPULATION_CHARACTERISTICS]`: Characteristics of population
-- `[SAMPLING_METHOD]`: Sampling method used
-- `[SAMPLING_RATIONALE]`: Rationale for sampling approach
-- `[INCLUSION_CRITERIA]`: Participant inclusion criteria
-- `[EXCLUSION_CRITERIA]`: Participant exclusion criteria
-
-### Sample and Data Collection
-- `[SAMPLE_SIZE_CALCULATION]`: Sample size calculation
-- `[POWER_ANALYSIS]`: Statistical power analysis
-- `[EFFECT_SIZE_EXPECTED]`: Expected effect size
-- `[FINAL_SAMPLE_SIZE]`: Final achieved sample size
-- `[ATTRITION_RATE]`: Participant attrition rate
-- `[DEMOGRAPHIC_PROFILE]`: Demographic profile of sample
-- `[RELEVANT_CHARACTERISTICS]`: Other relevant characteristics
-- `[SAMPLE_REPRESENTATIVENESS]`: Sample representativeness
-- `[INSTRUMENT_NAME_1]`: Name of first instrument
-- `[INSTRUMENT_NAME_2]`: Name of second instrument
-- `[INSTRUMENT_TYPE]`: Type of data collection instrument
-- `[INSTRUMENT_DESCRIPTION]`: Description of instrument
-- `[PSYCHOMETRIC_PROPERTIES]`: Psychometric properties
-- `[ADMINISTRATION]`: How instrument was administered
-- `[SCORING]`: How responses were scored
-- `[PROCEDURE_TIMELINE]`: Timeline for data collection
-- `[PROCEDURE_STEPS]`: Steps in data collection process
-- `[QUALITY_CONTROL]`: Quality control measures
-- `[DATA_COLLECTOR_TRAINING]`: Training for data collectors
-
-### Ethics and Analysis
-- `[IRB_APPROVAL]`: IRB approval information
-- `[INFORMED_CONSENT]`: Informed consent procedures
-- `[CONFIDENTIALITY]`: Confidentiality measures
-- `[RISK_MITIGATION]`: Risk mitigation strategies
-- `[ANALYSIS_SOFTWARE]`: Analysis software used
-- `[ANALYSIS_APPROACH]`: Overall analysis approach
-- `[ANALYSIS_TEAM]`: Analysis team composition
-- `[DESCRIPTIVE_STATISTICS]`: Descriptive statistics calculated
-- `[SAMPLE_DESCRIPTION]`: Sample description approach
-- `[VARIABLE_DISTRIBUTIONS]`: Variable distribution assessment
-- `[PRIMARY_STATISTICAL_TEST]`: Primary statistical test
-- `[TEST_ASSUMPTIONS]`: Statistical test assumptions
-- `[SIGNIFICANCE_LEVEL]`: Statistical significance level
-- `[EFFECT_SIZE_CALCULATION]`: Effect size calculations
-- `[SECONDARY_ANALYSES]`: Secondary analyses conducted
-- `[EXPLORATORY_ANALYSES]`: Exploratory analyses conducted
-- `[SUBGROUP_ANALYSES]`: Subgroup analyses conducted
-
-### Qualitative and Mixed Methods
-- `[THEMATIC/CONTENT/NARRATIVE/GROUNDED_THEORY]`: Qualitative analysis approach
-- `[ANALYSIS_PHILOSOPHY]`: Philosophy of analysis
-- `[CODING_PROCEDURES]`: Coding procedures used
-- `[THEME_DEVELOPMENT]`: Theme development process
-- `[TRUSTWORTHINESS]`: Trustworthiness measures
-- `[INTEGRATION_STRATEGY]`: Mixed methods integration strategy
-- `[INTEGRATION_TIMING]`: Timing of integration
-- `[JOINT_INTERPRETATION]`: Joint interpretation approach
-
-### Results - Sample and Demographics
-- `[INITIAL_SAMPLE]`: Initial sample size recruited
-- `[FINAL_SAMPLE]`: Final sample completing study
-- `[ATTRITION_DETAILS]`: Details about participant attrition
-- `[MEAN_AGE]`: Mean age of participants
-- `[AGE_SD]`: Standard deviation of age
-- `[AGE_RANGE]`: Age range of participants
-- `[N_MALE]`: Number of male participants
-- `[MALE_PERCENT]`: Percentage of male participants
-- `[N_FEMALE]`: Number of female participants
-- `[FEMALE_PERCENT]`: Percentage of female participants
-- `[ETHNICITY_BREAKDOWN]`: Ethnic/racial composition
-- `[OTHER_DEMOGRAPHICS]`: Other demographic characteristics
-- `[BASELINE_VARIABLE_1]`: First baseline variable
-- `[BASELINE_VARIABLE_2]`: Second baseline variable
-- `[GROUP_COMPARISONS]`: Baseline group comparisons
-
-### Primary and Secondary Results
-- `[PRIMARY_FINDING_STATEMENT]`: Statement of primary finding
-- `[PRIMARY_STATISTICAL_RESULT]`: Primary statistical result
-- `[EFFECT_SIZE_PRIMARY]`: Primary effect size
-- `[CONFIDENCE_INTERVAL_PRIMARY]`: Primary confidence interval
-- `[SUPPORTING_STATISTIC_1]`: First supporting statistic
-- `[SUPPORTING_STATISTIC_2]`: Second supporting statistic
-- `[PRACTICAL_SIGNIFICANCE]`: Practical significance assessment
-- `[SECONDARY_QUESTION_1]`: First secondary question
-- `[SECONDARY_FINDING_1]`: First secondary finding
-- `[SECONDARY_STATISTIC_1]`: First secondary statistic
-- `[SECONDARY_EFFECT_SIZE_1]`: First secondary effect size
-- `[SECONDARY_QUESTION_2]`: Second secondary question
-- `[SECONDARY_FINDING_2]`: Second secondary finding
-- `[SECONDARY_STATISTIC_2]`: Second secondary statistic
-- `[SECONDARY_EFFECT_SIZE_2]`: Second secondary effect size
-
-### Exploratory and Subgroup Results
-- `[EXPLORATORY_FINDING_1]`: First exploratory finding
-- `[EXPLORATORY_STATISTIC_1]`: First exploratory statistic
-- `[EXPLORATORY_INTERPRETATION_1]`: First exploratory interpretation
-- `[EXPLORATORY_FINDING_2]`: Second exploratory finding
-- `[EXPLORATORY_STATISTIC_2]`: Second exploratory statistic
-- `[EXPLORATORY_INTERPRETATION_2]`: Second exploratory interpretation
-- `[SUBGROUP_1_DEFINITION]`: Definition of first subgroup
-- `[SUBGROUP_1_FINDING]`: Finding for first subgroup
-- `[SUBGROUP_1_STATISTICS]`: Statistics for first subgroup
-- `[SUBGROUP_2_DEFINITION]`: Definition of second subgroup
-- `[SUBGROUP_2_FINDING]`: Finding for second subgroup
-- `[SUBGROUP_2_STATISTICS]`: Statistics for second subgroup
-
-### Qualitative Results
-- `[QUALITATIVE_THEME_1]`: First qualitative theme
-- `[QUALITATIVE_THEME_2]`: Second qualitative theme
-- `[THEME_1_QUOTE_1]`: First quote supporting theme 1
-- `[THEME_1_QUOTE_2]`: Second quote supporting theme 1
-- `[P_ID_1]`: First participant ID
-- `[P_ID_2]`: Second participant ID
-- `[THEME_1_FREQUENCY]`: Frequency of theme 1
-- `[THEME_2_QUOTE_1]`: First quote supporting theme 2
-- `[THEME_2_QUOTE_2]`: Second quote supporting theme 2
-- `[P_ID_3]`: Third participant ID
-- `[P_ID_4]`: Fourth participant ID
-- `[THEME_2_FREQUENCY]`: Frequency of theme 2
-- `[CONVERGENT_FINDINGS]`: Convergent mixed methods findings
-- `[DIVERGENT_FINDINGS]`: Divergent mixed methods findings
-- `[ENHANCED_UNDERSTANDING]`: Enhanced understanding from integration
-
-### Discussion Elements
-- `[PRIMARY_FINDING_INTERPRETATION]`: Interpretation of primary finding
-- `[FINDING_SIGNIFICANCE]`: Significance of finding
-- `[FINDING_NOVELTY]`: Novelty of finding
-- `[FINDING_CONSISTENCY]`: Consistency with prior research
-- `[CONSISTENT_STUDY_1]`: First study with consistent findings
-- `[CONSISTENT_STUDY_2]`: Second study with consistent findings
-- `[CONSISTENT_PATTERN]`: Pattern of consistent evidence
-- `[CONTRASTING_STUDY_1]`: First study with contrasting findings
-- `[CONTRASTING_STUDY_2]`: Second study with contrasting findings
-- `[RECONCILIATION_ATTEMPT]`: Attempt to reconcile differences
-- `[NOVEL_CONTRIBUTION_1]`: First novel contribution
-- `[NOVEL_CONTRIBUTION_2]`: Second novel contribution
-- `[NOVEL_CONTRIBUTION_3]`: Third novel contribution
-
-### Theoretical and Practical Implications
-- `[THEORY_SUPPORT_1]`: First way findings support theory
-- `[THEORY_SUPPORT_2]`: Second way findings support theory
-- `[THEORY_EXTENSION]`: How findings extend theory
-- `[THEORY_CHALLENGE_1]`: First theoretical challenge
-- `[THEORY_CHALLENGE_2]`: Second theoretical challenge
-- `[THEORY_REFINEMENT]`: Suggested theoretical refinements
-- `[PRACTICE_IMPLICATION_1]`: First practice implication
-- `[PRACTICE_IMPLICATION_2]`: Second practice implication
-- `[PRACTICE_IMPLICATION_3]`: Third practice implication
-- `[POLICY_IMPLICATION_1]`: First policy implication
-- `[POLICY_IMPLICATION_2]`: Second policy implication
-- `[POLICY_IMPLICATION_3]`: Third policy implication
-- `[PUBLIC_HEALTH_IMPLICATION_1]`: First public health implication
-- `[PUBLIC_HEALTH_IMPLICATION_2]`: Second public health implication
-- `[SOCIAL_IMPLICATION]`: Social implications
-
-### Strengths and Limitations
-- `[STRENGTH_1]`: First study strength
-- `[STRENGTH_2]`: Second study strength
-- `[STRENGTH_3]`: Third study strength
-- `[STRENGTH_4]`: Fourth study strength
-- `[LIMITATION_1]`: First study limitation
-- `[LIMITATION_2]`: Second study limitation
-- `[LIMITATION_3]`: Third study limitation
-- `[LIMITATION_4]`: Fourth study limitation
-- `[GENERALIZABILITY_POPULATION]`: Population generalizability
-- `[GENERALIZABILITY_SETTING]`: Setting generalizability
-- `[GENERALIZABILITY_TIME]`: Temporal generalizability
-- `[GENERALIZABILITY_LIMITATIONS]`: Generalizability limitations
-
-### Future Research
-- `[FUTURE_RESEARCH_1]`: First future research direction
-- `[FUTURE_RESEARCH_2]`: Second future research direction
-- `[FUTURE_RESEARCH_3]`: Third future research direction
-- `[LONG_TERM_RESEARCH_1]`: First long-term research need
-- `[LONG_TERM_RESEARCH_2]`: Second long-term research need
-- `[LONG_TERM_RESEARCH_3]`: Third long-term research need
-- `[METHOD_RECOMMENDATION_1]`: First methodological recommendation
-- `[METHOD_RECOMMENDATION_2]`: Second methodological recommendation
-- `[METHOD_RECOMMENDATION_3]`: Third methodological recommendation
-
-### Conclusion Elements
-- `[TAKEAWAY_1]`: First key takeaway message
-- `[TAKEAWAY_2]`: Second key takeaway message
-- `[TAKEAWAY_3]`: Third key takeaway message
-- `[SIGNIFICANCE_STATEMENT]`: Statement of study significance
-- `[CALL_TO_ACTION]`: Call to action based on findings
-
-### References and Supplementary
-- `[REFERENCE_STYLE]`: Reference citation style
-- `[REFERENCE_COUNT]`: Total number of references
-- `[REFERENCE_CURRENCY]`: Currency of references
-- `[REFERENCE_DIVERSITY]`: Diversity of reference sources
-- `[FOUNDATIONAL_REFS]`: Foundational references cited
-- `[RECENT_REFS]`: Recent references cited
-- `[METHODOLOGICAL_REFS]`: Methodological references
-- `[THEORETICAL_REFS]`: Theoretical references
-- `[SUPPLEMENTARY_ANALYSES]`: Supplementary analyses included
-- `[DETAILED_STATISTICS]`: Detailed statistical results
-- `[SENSITIVITY_ANALYSES]`: Sensitivity analyses conducted
-- `[SURVEY_INSTRUMENTS]`: Survey instruments used
-- `[INTERVIEW_GUIDES]`: Interview guides used
-- `[CODING_SCHEMES]`: Coding schemes developed
-- `[DETAILED_DEMOGRAPHICS]`: Detailed demographic information
-- `[RECRUITMENT_MATERIALS]`: Materials used for recruitment
-- `[CONSENT_FORMS]`: Consent forms used
-
-### Figures and Tables
-- `[TABLE_1_TITLE]`: Title of first table
-- `[TABLE_1_CONTENT]`: Content of first table
-- `[TABLE_1_PURPOSE]`: Purpose of first table
-- `[TABLE_2_TITLE]`: Title of second table
-- `[TABLE_2_CONTENT]`: Content of second table
-- `[TABLE_2_PURPOSE]`: Purpose of second table
-- `[FIGURE_1_TITLE]`: Title of first figure
-- `[FIGURE_1_TYPE]`: Type of first figure
-- `[FIGURE_1_CONTENT]`: Content of first figure
-- `[FIGURE_1_PURPOSE]`: Purpose of first figure
-- `[FIGURE_2_TITLE]`: Title of second figure
-- `[FIGURE_2_TYPE]`: Type of second figure
-- `[FIGURE_2_CONTENT]`: Content of second figure
-- `[FIGURE_2_PURPOSE]`: Purpose of second figure
-
-### Conference Presentation
-- `[ORAL/POSTER/SYMPOSIUM]`: Type of conference presentation
-- `[HOOK_SLIDE]`: Attention-grabbing opening slide
-- `[PROBLEM_SLIDE]`: Problem statement slide
-- `[OBJECTIVE_SLIDE]`: Objectives slide
-- `[DESIGN_SLIDE]`: Study design slide
-- `[SAMPLE_SLIDE]`: Sample characteristics slide
-- `[MEASURES_SLIDE]`: Measures and procedures slide
-- `[MAIN_RESULTS_SLIDE]`: Main results slide
-- `[SECONDARY_RESULTS_SLIDE]`: Secondary results slide
-- `[VISUAL_RESULTS_SLIDE]`: Visual results slide
-- `[IMPLICATIONS_SLIDE]`: Implications slide
-- `[LIMITATIONS_SLIDE]`: Limitations slide
-- `[CONCLUSIONS_SLIDE]`: Conclusions slide
-- `[POSTER_SECTIONS]`: Poster section organization
-- `[VISUAL_DESIGN]`: Visual design considerations
-- `[KEY_VISUALS]`: Key visuals for poster
+---
 
 ## Usage Example
-Use for journal article writing, conference presentations, thesis chapters, book chapters, review articles, or grant application publications sections.
 
-## Customization Tips
-- Adapt structure to specific journal requirements
-- Include discipline-specific terminology and conventions
-- Add field-specific statistical or analytical approaches
-- Consider target audience sophistication level
-- Include open science and reproducibility elements
-- Add diversity, equity, and inclusion considerations
-- Consider global and cross-cultural perspectives
-- Include sustainability and environmental considerations
+**Input:**
+"{MANUSCRIPT_CONTEXT}: Quantitative evaluation of a new tutoring intervention in first-year calculus (n=312)"
+"{TARGET_VENUE}: An education research journal with methods-focused reviewers"
+"{PUBLICATION_TYPE}: Journal article (IMRAD)"
+
+**Output (abridged):**
+- Overall Readiness: **2.8/5.0 (Developing)**
+- Recommendation: **REVISE-FIRST** (submit in ~5–7 weeks)
+- Top Risks: unclear contribution vs prior interventions, incomplete reporting of attrition/handling missing data, figures not aligned to claims
+
+Dimension Scorecard:
+- Contribution & Positioning: 2.7/5 (tighten novelty statement; add 6–8 anchor citations that define the baseline)
+- Evidence & Method Reporting: 2.5/5 (add CONSORT-style flow details, missing-data strategy, and robustness checks)
+- Argument Structure & Clarity: 3.0/5 (abstract and discussion need better claim discipline)
+- Compliance & Integrity: 3.5/5 (add data availability and COI/funding statements; verify citation consistency)
+- Presentation & Materials: 2.6/5 (revise Figure 2–3 for readability; add appendix for instruments)
+- Submission & Workflow: 3.2/5 (define coauthor review schedule; set a final QA checklist)
+
+Prioritized Fix List (top 4):
+1) Rewrite contribution paragraph + abstract “claim map” so every claim has evidence. 2) Add missing-data plan, attrition reporting, and robustness checks. 3) Redesign key figures for one-take readability and correct labeling. 4) Add limitations that bound generalizability without undermining the main result.
+
+Writing & Revision Plan:
+- Week 1: Contribution rewrite + related work anchors; methods completeness pass.
+- Week 2: Robustness checks + updated results; regenerate figures.
+- Week 3: Discussion rewrite + limitations; compliance items.
+- Week 4–5: Internal review cycle + final formatting + submission.
+
+---
 
 ## Related Resources
 
-### Complementary Templates
-
-Enhance your workflow by combining this template with:
-
-- **[Curriculum Development](curriculum-development.md)** - Complementary approaches and methodologies
-- **[Curriculum Development Framework](curriculum-development-framework.md)** - Complementary approaches and methodologies
-
-### Suggested Workflow
-
-**Typical implementation sequence**:
-
-1. Start with this template (Academic Publication Writing Generator)
-2. Use [Curriculum Development](curriculum-development.md) for deeper analysis
-3. Apply [Curriculum Development Framework](curriculum-development-framework.md) for execution
-4. Iterate and refine based on results
-
-### Explore More in This Category
-
-Browse all **[education/Academic Research](../../education/Academic Research/)** templates for related tools and frameworks.
-
-### Common Use Case Combinations
-
-- **Creating comprehensive academic papers, abstracts, conference presentations, and peer review responses for scholarly publication and dissemination.**: Combine this template with related analytics and strategy frameworks
-- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
-- **Strategy development**: Combine this template with related analytics and strategy frameworks
+- **[Curriculum Development](../curriculum-development.md)** - Helpful for structuring educational materials and learning outcomes when writing education-focused studies
+- **[Curriculum Development Framework](../curriculum-development-framework.md)** - Useful for clarifying intervention logic, implementation details, and evaluation alignment
+- **[Research Design - Analysis Framework & Quality Assurance](research-design-analysis-quality.md)** - Supports analysis reporting, assumptions, robustness checks, and validity arguments
+- **[Research Design - Ethics, Implementation & Project Management](research-design-ethics-implementation.md)** - Supports ethics/compliance sections, risk management, and execution planning

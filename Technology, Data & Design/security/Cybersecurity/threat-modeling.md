@@ -1,6 +1,5 @@
 ---
 category: security
-last_updated: 2025-11-11
 title: Threat Modeling Framework
 tags:
 - security
@@ -8,19 +7,19 @@ tags:
 - stride
 - attack-surface
 use_cases:
-- Identifying security threats in system design
-- Proactive security risk assessment
-- Security architecture review
-- DevSecOps threat analysis
+- Performing threat modeling for applications/systems using STRIDE/PASTA/LINDDUN identifying threats by component with attack scenarios and mitigations
+- Security architecture reviews mapping threats to MITRE ATT&CK, prioritizing by risk (likelihood × impact), validating countermeasures
+- DevSecOps integration with threat modeling in design phase achieving shift-left security and reduced vulnerability remediation costs
 related_templates:
 - security/Cybersecurity/security-architecture.md
 - security/Application-Security/secure-code-review.md
 - technology/Software-Development/architecture-design.md
 industries:
-- finance
+- financial-services
+- healthcare
 - government
 - technology
-type: template
+type: framework
 difficulty: intermediate
 slug: threat-modeling
 ---
@@ -28,134 +27,101 @@ slug: threat-modeling
 # Threat Modeling Framework
 
 ## Purpose
-Systematic framework for identifying, analyzing, and mitigating security threats in system design using STRIDE, PASTA, or LINDDUN methodologies for applications, infrastructure, and data flows.
+Systematically identify, analyze, and mitigate security threats in system design using STRIDE, PASTA, LINDDUN, or DREAD methodologies covering architecture decomposition, data flow analysis, threat identification, risk prioritization, and countermeasure design.
 
-## Quick Threat Model Prompt
-Perform threat modeling for [system/application] using [STRIDE/PASTA/LINDDUN]. Create: architecture diagram with trust boundaries, data flow diagram (DFD), asset inventory. Identify threats per component using [methodology]. For each threat: describe attack scenario, assess likelihood/impact, propose mitigations, map to MITRE ATT&CK. Prioritize by risk score and deliver remediation recommendations.
+## 🚀 Quick Threat Model Prompt
 
-## Quick Start
-
-**Need to model threats quickly?** Use this minimal example:
-
-### Minimal Example
-```
-Perform threat modeling for our new cloud-based payment processing system using STRIDE methodology. Identify threats to authentication, data flow between web app, API gateway, payment processor, and database. Provide threat scenarios and mitigation strategies.
-```
-
-### When to Use This
-- Designing new systems or features
-- Security architecture review
-- Pre-production security validation
-- Incident root cause analysis
-- Compliance requirements
-
-### Basic 3-Step Workflow
-1. **Model the System** - Create architecture diagrams, data flows (1-2 hours)
-2. **Identify Threats** - Apply STRIDE or other methodology (2-4 hours)
-3. **Mitigate & Validate** - Design countermeasures, validate (2-4 hours)
-
-**Time to complete**: 1-2 days for comprehensive threat model
+> Perform threat modeling for **[SYSTEM]** using **[STRIDE/PASTA/LINDDUN]** methodology. Create: architecture diagram with **[TRUST_BOUNDARIES]**, data flow diagram, asset inventory. Identify threats: **[SPOOFING/TAMPERING/REPUDIATION/INFO_DISCLOSURE/DOS/ELEVATION]**. For each threat: attack scenario, likelihood **[L/M/H]**, impact **[L/M/H]**, risk score, mitigations. Map to **[MITRE_ATT&CK]**. Prioritize by risk, deliver remediation roadmap.
 
 ---
 
 ## Template
 
-```markdown
-I need to perform threat modeling for my system. Please provide comprehensive threat identification and mitigation guidance.
+Perform threat modeling for {SYSTEM_NAME} ({ARCHITECTURE_TYPE}) processing {DATA_CLASSIFICATION} data using {METHODOLOGY} achieving {SECURITY_OBJECTIVES}.
 
-## SYSTEM CONTEXT
+**SYSTEM DECOMPOSITION AND MODELING**
 
-### System Overview
-- System name and purpose: [DESCRIPTION]
-- System type: [WEB_APP_MOBILE_API_CLOUD_SERVICE_IOT_INFRASTRUCTURE]
-- Architecture: [MONOLITH_MICROSERVICES_SERVERLESS_HYBRID]
-- Users: [INTERNAL_EXTERNAL_AUTHENTICATED_ANONYMOUS]
-- Data sensitivity: [PUBLIC_INTERNAL_CONFIDENTIAL_PII_PHI_PCI]
-- Deployment: [CLOUD_ON_PREM_HYBRID]
+Understand what you're protecting before identifying threats. Architecture documentation: system boundaries (what's in scope vs out of scope, where does responsibility end), trust boundaries (transitions between trust levels—internet to DMZ, DMZ to internal, user context to admin context, process boundaries), entry points (user interfaces, APIs, file uploads, webhooks, admin consoles), assets (data stores, credentials, encryption keys, PII/PHI/PCI data, intellectual property, configuration files). Component inventory: frontend (web application, mobile app, desktop client, SPA frameworks, authentication UI), backend services (application servers, API gateways, microservices, message queues, caching layers), data stores (SQL databases, NoSQL stores, object storage, file systems, logs), external dependencies (third-party APIs, payment processors, identity providers, cloud services, CDNs), infrastructure (load balancers, firewalls, WAFs, reverse proxies, container orchestration).
 
-### Components
-- Frontend: [WEB_MOBILE_DESKTOP]
-- Backend: [LANGUAGES_FRAMEWORKS]
-- APIs: [REST_GRAPHQL_GRPC]
-- Databases: [TYPES_PRODUCTS]
-- External services: [THIRD_PARTY_INTEGRATIONS]
-- Infrastructure: [CLOUD_PROVIDER_SERVICES]
+Data flow diagrams (DFD): level 0 context diagram (system as single process, external entities, data flows in/out), level 1 process diagram (major components and data flows between them), level 2 detailed diagram (drill down into complex components). DFD elements: processes (rectangles—components that transform data), data stores (parallel lines—databases, files, caches), external entities (squares—users, external systems), data flows (arrows—labeled with data transmitted). Trust boundaries on DFD: draw lines between trust zones, highlight where data crosses boundaries (user input, network boundaries, privilege changes), focus threat analysis on boundary crossings.
 
-### Data Flows
-- User authentication flow
-- Data input and processing
-- Data storage and retrieval
-- External API calls
-- Admin operations
-- Background jobs
+Deployment architecture: cloud topology (VPCs, subnets, security groups, availability zones), network segmentation (DMZ for internet-facing, internal for application tier, data tier isolated, management networks separate), access patterns (how users connect, how services communicate, administrative access paths), security controls already in place (existing firewalls, WAF, IDS/IPS, encryption, authentication).
 
-## THREAT MODELING METHODOLOGY
+**THREAT IDENTIFICATION METHODOLOGIES**
 
-### STRIDE Analysis
+Apply structured approach to find threats. STRIDE methodology: developed by Microsoft, maps threats to security properties, easy to apply systematically. Spoofing (identity)—attacker impersonates legitimate user or system (weak authentication, missing MFA, session hijacking, credential stuffing, token theft). Tampering (integrity)—unauthorized modification of data or code (SQL injection, parameter manipulation, man-in-the-middle, code injection, configuration tampering). Repudiation (non-repudiation)—user denies action with no way to prove otherwise (insufficient logging, no audit trail, unsigned transactions, missing timestamps). Information Disclosure (confidentiality)—exposure of sensitive data to unauthorized parties (data leaks in logs, unencrypted storage, verbose error messages, insecure APIs, IDOR vulnerabilities). Denial of Service (availability)—making system unavailable to legitimate users (resource exhaustion, amplification attacks, algorithmic complexity attacks, missing rate limiting). Elevation of Privilege (authorization)—gaining unauthorized access or permissions (broken access control, privilege escalation, IDOR, insecure direct references, missing authorization checks).
 
-For each component, identify:
+PASTA methodology: Process for Attack Simulation and Threat Analysis, risk-centric, business-focused. Stage 1: Define business objectives (what are we protecting? compliance requirements? business impact of breach?). Stage 2: Define technical scope (architecture, technologies, data flows). Stage 3: Application decomposition (components, dependencies, entry points). Stage 4: Threat analysis (identify threats relevant to application). Stage 5: Vulnerability analysis (known vulnerabilities, weakness patterns). Stage 6: Attack modeling (model attack scenarios, kill chains). Stage 7: Risk and impact analysis (likelihood × impact, business risk quantification).
 
-**Spoofing (Authentication):**
-- Can attacker impersonate legitimate user?
-- Weak authentication mechanisms
-- Missing MFA
-- Session hijacking vulnerabilities
+LINDDUN methodology: privacy threat modeling, focuses on data protection. Linkability—linking data to same user across contexts. Identifiability—identifying user from data. Non-repudiation—inability to deny data processing. Detectability—detecting that data exists or is processed. Disclosure of information—unauthorized data disclosure. Unawareness—user unaware of data collection/processing. Non-compliance—violation of privacy regulations (GDPR, CCPA).
 
-**Tampering (Integrity):**
-- Can data be modified unauthorized?
-- Man-in-the-middle attacks
-- Database injection
-- API parameter manipulation
+DREAD methodology: risk rating system (now deprecated by Microsoft but still useful). Damage—how bad if exploited (1-10 scale). Reproducibility—how easy to reproduce (1-10). Exploitability—how much effort to exploit (1-10). Affected users—how many impacted (1-10). Discoverability—how easy to discover (1-10). Risk score = (D + R + E + A + D) / 5.
 
-**Repudiation (Non-repudiation):**
-- Can users deny actions?
-- Insufficient logging
-- Missing audit trails
-- Weak transaction tracking
+Attack trees: graphical representation of attack paths, root node is attacker goal (compromise database, steal credentials, deny service), branches are attack methods (AND nodes—all required, OR nodes—any sufficient), leaves are specific attack steps, helps identify choke points where defenses most effective.
 
-**Information Disclosure (Confidentiality):**
-- Can sensitive data be exposed?
-- Data leaks in logs or errors
-- Insecure storage
-- Unencrypted transmission
+**THREAT ANALYSIS AND RISK ASSESSMENT**
 
-**Denial of Service (Availability):**
-- Can system be made unavailable?
-- Resource exhaustion
-- Amplification attacks
-- Missing rate limiting
+Evaluate threats systematically. Threat enumeration by component: for each component in architecture, apply methodology (STRIDE per element—process, data store, data flow, external entity), document threats discovered (threat ID, title, description, affected component, attack scenario). Attack scenario development: describe how attack would unfold (attacker profile—skill level, motivation, resources, attack vector—entry point and method, attack steps—sequence from initial access to objective, success criteria—what does successful attack achieve), provide concrete examples (not just "SQL injection possible" but "attacker submits ' OR 1=1-- in login form, bypasses authentication, accesses all customer records").
 
-**Elevation of Privilege (Authorization):**
-- Can user gain unauthorized access?
-- Broken access controls
-- Privilege escalation
-- Insecure direct object references
+Likelihood assessment: technical likelihood (ease of exploit—is vulnerability remotely exploitable? authentication required? user interaction needed?, exploit availability—public exploits? automated tools?), threat actor likelihood (attacker motivation—is this valuable target?, attacker capability—does threat actor have required skills?, threat prevalence—common attack or rare?). Rating scale: High likelihood (trivial to exploit, no authentication required, automated tools available, common attack vector). Medium likelihood (moderate skill required, authentication helps but bypassable, some attacker effort needed). Low likelihood (high skill required, multiple barriers, uncommon attack, limited attacker motivation).
 
-### Threat Prioritization
+Impact assessment: confidentiality impact (what data exposed? how sensitive? how many records?), integrity impact (can data be modified? does it affect business logic? financial impact?), availability impact (can system be taken offline? for how long? business disruption cost?), compliance impact (regulatory violations? GDPR fines? PCI-DSS penalties? HIPAA breach notification?). Rating scale: High impact (large-scale data breach, system compromise, significant financial loss >$1M, major regulatory penalties, reputational damage). Medium impact (limited data exposure, partial system compromise, moderate financial loss $100K-$1M, compliance issues). Low impact (minimal data exposure, no system compromise, small financial impact <$100K).
 
-For each threat, rate:
-- **Likelihood:** Low / Medium / High
-- **Impact:** Low / Medium / High
-- **Risk:** Likelihood × Impact
-- **Priority:** Critical / High / Medium / Low
+Risk prioritization: risk matrix (likelihood × impact), risk score calculation (Critical: High likelihood + High impact, High: High likelihood + Medium impact OR Medium likelihood + High impact, Medium: combinations of Medium + Low, Low: Low likelihood + Low impact), business context (risks to critical business functions elevated, compliance-related risks elevated, customer-facing risks elevated), resource constraints (focus on high/critical risks first, quick wins—low effort high impact, deprioritize low risks unless quick fix).
 
-## MITIGATION STRATEGIES
+**MITIGATION STRATEGY DEVELOPMENT**
 
-For each identified threat, provide:
-1. Threat description
-2. Attack scenarios
-3. Existing controls
-4. Recommended mitigations
-5. Residual risk
-6. Validation methods
+Design countermeasures for identified threats. Mitigation options: eliminate threat (remove vulnerable component, change design to avoid threat—best option if feasible), mitigate threat (reduce likelihood—add authentication, input validation, rate limiting—or reduce impact—encrypt data, limit blast radius), transfer risk (cyber insurance for residual risk, third-party managed service shifts operational risk), accept risk (business decision for low-risk items, document acceptance with executive sign-off, monitor for changes that increase risk).
 
-## OUTPUT REQUIREMENTS
+Defense-in-depth approach: preventive controls (authentication and authorization, input validation, encryption, network segmentation, principle of least privilege), detective controls (logging and monitoring, intrusion detection, anomaly detection, security scanning), corrective controls (incident response procedures, automated remediation, backup and recovery, failover mechanisms). Multiple layers ensure single point of failure doesn't compromise security.
 
-Provide:
-1. System architecture diagram with trust boundaries
-2. Data flow diagrams
-3. Threat matrix (all threats identified)
-4. Risk-prioritized threat list
-5. Mitigation recommendations
-6. Implementation roadmap
-```
+Countermeasure selection by STRIDE: Spoofing mitigations (strong authentication—MFA, certificate-based, passwordless, SSO integration, session management—secure tokens, timeout, regeneration, anti-CSRF tokens), Tampering mitigations (input validation—whitelist allowed input, sanitize before processing, parameterized queries prevent injection, digital signatures for data integrity, encryption in transit—TLS 1.3 minimum), Repudiation mitigations (comprehensive logging—who, what, when, where, why, centralized log management, tamper-proof logs—WORM storage, log signing, audit trails for sensitive operations), Information Disclosure mitigations (encryption at rest—AES-256 for data, TDE for databases, minimize data collection—privacy by design, secrets management—vault for credentials, no hardcoded secrets, error handling—generic errors to users, detailed logs separate), Denial of Service mitigations (rate limiting—per IP, per user, per endpoint, resource quotas—CPU, memory, connection limits, auto-scaling for elasticity, DDoS protection—cloud-based scrubbing, CDN), Elevation of Privilege mitigations (least privilege—minimal permissions by default, access control—RBAC or ABAC, authorization checks—verify at every layer, privilege separation—don't run as root/admin).
+
+Mitigation validation: security testing validates countermeasures work (penetration testing to verify mitigations effective, security code review for implementation correctness, automated scanning—SAST/DAST in CI/CD, threat modeling review after implementation—did mitigations address threats?). Continuous validation: threat model is living document, update when architecture changes (new features, new dependencies, deployment model changes), re-evaluate periodically (annual review minimum, quarterly for high-risk systems), incorporate lessons from incidents (did threat model miss anything? update to prevent recurrence).
+
+**THREAT MODELING INTEGRATION**
+
+Embed threat modeling in development lifecycle. Design phase (ideal time)—threat model during architecture design, cheapest to fix issues in design, influences security architecture decisions, estimated cost: 8-16 hours for comprehensive model. Development phase—validate threat model assumptions, update as implementation details emerge, security stories in backlog driven by threats. Pre-production—verify mitigations implemented correctly, penetration testing validates threat model, security sign-off before production. Production—monitor for threats becoming real attacks, incident response informed by threat model, continuous threat hunting based on modeled attacks.
+
+Team collaboration: involve diverse perspectives (developers understand implementation details, security architects understand threat landscape and defenses, DevOps/SRE understand operational risks, product owners understand business impact and priorities), facilitated sessions work best (whiteboard exercises, collaborative tools—draw.io/Lucidchart for diagrams, JIRA/Azure DevOps for threat tracking), document for future reference (architecture diagrams version controlled, threat register tracks all threats and mitigations, decisions documented—why certain risks accepted).
+
+Tools and automation: threat modeling tools (Microsoft Threat Modeling Tool—STRIDE focused, free, IriusRisk—enterprise, integrates with ALM tools, OWASP Threat Dragon—open source, web-based, ThreatModeler—automated threat generation), diagram tools (draw.io/Lucidchart for DFDs and architecture, PlantUML for code-as-diagram), integration (export threats to JIRA/Azure DevOps as security stories, link threats to mitigations in codebase, automated validation—security tests linked to threats).
+
+Deliver threat model as:
+
+1. **ARCHITECTURE DOCUMENTATION** - System diagrams with trust boundaries, component inventory, data flow diagrams
+
+2. **THREAT REGISTER** - All identified threats with ID, description, attack scenario, likelihood, impact, risk score
+
+3. **RISK MATRIX** - Threats prioritized by risk, mapped to components, color-coded by severity
+
+4. **MITIGATION PLAN** - Countermeasures for each threat, implementation effort, responsible team, timeline
+
+5. **VALIDATION STRATEGY** - Security testing approach, acceptance criteria, verification methods
+
+---
+
+## Usage Examples
+
+### Example 1: Cloud-Native E-Commerce Platform
+**Prompt:** Perform threat modeling for ShopApp cloud e-commerce platform (React SPA, Node.js API, PostgreSQL, AWS) processing PCI data using STRIDE methodology.
+
+**Expected Output:** Architecture: React SPA (CloudFront CDN) → API Gateway → Lambda functions → RDS PostgreSQL + S3 for images, Stripe for payment processing, Cognito for authentication. Trust boundaries: Internet → CloudFront (TLS termination), API Gateway → Lambda (API auth via JWT), Lambda → RDS (VPC isolation, IAM auth), Stripe integration (PCI boundary—tokenization, no card data stored). Components: Frontend (React SPA, client-side validation), API Gateway (rate limiting, request validation, WAF), Lambda functions (business logic, data access), RDS PostgreSQL (customer data, order history), S3 (product images, user uploads), Stripe (payment processing), Cognito (user authentication). STRIDE analysis: **Spoofing**—Threat: Attacker bypasses authentication using stolen JWT tokens. Scenario: Phishing attack obtains user JWT, attacker makes unauthorized purchases. Likelihood: Medium (phishing common), Impact: High (fraud, account takeover). Mitigations: JWT expiration 15 minutes, refresh token rotation, device fingerprinting, unusual activity detection. **Tampering**—Threat: SQL injection in product search. Scenario: Attacker submits `'; DROP TABLE orders--` in search, potentially deletes data. Likelihood: Low (parameterized queries used), Impact: High (data loss). Mitigations: Parameterized queries (already implemented), input validation, least privilege DB user. **Tampering**—Threat: Price manipulation in order submission. Scenario: Attacker modifies price in client-side cart, submits $1 for $100 item. Likelihood: Medium (client-side state), Impact: High (revenue loss). Mitigations: Server-side price verification, digital signatures on cart, rate limiting on order creation. **Information Disclosure**—Threat: S3 bucket with customer data publicly accessible. Scenario: Misconfigured bucket exposes PII, competitors or attackers download. Likelihood: Low (bucket policies restrict), Impact: Critical (GDPR breach, 10M customer records). Mitigations: S3 block public access enabled, bucket policies enforce encryption and authentication, automated compliance scanning. **Denial of Service**—Threat: API rate limit bypass via distributed requests. Scenario: Attacker uses 1,000 IPs to overwhelm API Gateway, legitimate users cannot checkout. Likelihood: Medium (DDoS common), Impact: High (revenue loss during attack). Mitigations: AWS Shield Standard + Advanced, CloudFront geo-blocking, API Gateway throttling per IP and user, auto-scaling Lambda. **Elevation of Privilege**—Threat: IDOR in order history API. Scenario: Attacker changes order_id parameter from 1001 to 1002, views other customer orders. Likelihood: High (common vulnerability), Impact: High (privacy violation, GDPR). Mitigations: Authorization checks verify user owns order, UUIDs instead of sequential IDs, API response filtering. Risk prioritization: Critical (1): S3 public bucket (High impact + Medium likelihood), High (3): Price manipulation, IDOR vulnerability, DDoS, Medium (2): JWT token theft, SQL injection (already mitigated). Mitigation roadmap: Week 1—Fix IDOR (add authorization checks, deploy), Week 2—Implement server-side price validation, Week 3—AWS Shield Advanced + WAF rules, Month 2—Device fingerprinting + anomaly detection. Validation: Penetration testing validates IDOR fix, automated DAST scans check SQL injection regression, load testing confirms DDoS resilience.
+
+### Example 2: Healthcare Patient Portal (HIPAA)
+**Prompt:** Perform threat modeling for HealthPortal patient access to Epic EHR records using LINDDUN privacy methodology achieving HIPAA compliance.
+
+**Expected Output:** Architecture: Patient web portal (HTTPS) → Azure App Service → Epic FHIR API → Epic EHR database, Azure AD B2C for patient authentication, Azure Key Vault for secrets. Trust boundaries: Internet → Azure Front Door (DDoS protection), App Service → Epic API (mTLS authentication), Epic integration behind VPN (no internet exposure). PHI data flows: Patient login → retrieve medical records (diagnoses, medications, lab results, visit notes), appointment scheduling, secure messaging with providers, prescription refills. LINDDUN analysis: **Linkability**—Threat: Patient activity across sessions linked revealing health patterns. Scenario: Analytics service tracks patient visiting cancer treatment pages, links to user profile, sells to data brokers. Likelihood: Medium (third-party scripts), Impact: High (HIPAA violation, privacy harm). Mitigations: No third-party analytics in patient portal, audit all outbound connections, CSP headers prevent unauthorized scripts. **Identifiability**—Threat: Patient re-identified from anonymized research data. Scenario: Hospital shares "de-identified" data for research, patient re-identified via ZIP + birthdate + diagnosis. Likelihood: Medium (k-anonymity not enforced), Impact: Critical (HIPAA violation, $1.5M+ fines). Mitigations: k-anonymity k≥5 for any data export, differential privacy for aggregates, IRB review for research data. **Disclosure of Information**—Threat: PHI visible in browser cache or logs. Scenario: Shared computer in hospital, next patient views previous patient's records from cache. Likelihood: High (default browser caching), Impact: Critical (unauthorized PHI access). Mitigations: Cache-Control: no-store headers, auto-logout after 15 min inactivity, session storage (not localStorage), HTTPS only (no mixed content). **Disclosure**—Threat: PHI in application logs. Scenario: Error logs contain full patient records, stored in Azure Monitor, accessible to developers without BAA. Likelihood: High (verbose logging), Impact: Critical (HIPAA violation). Mitigations: Sanitize PHI before logging (log patient_id only, not names/DOB), encrypt logs at rest, RBAC limits log access to authorized personnel, BAA with Microsoft Azure. **Unawareness**—Threat: Patient unaware of data access by portal. Scenario: Patient doesn't know providers viewing records, no transparency into who accessed. Likelihood: Medium (common privacy gap), Impact: Medium (patient trust, HIPAA access logging requirement). Mitigations: Access audit log visible to patient (who viewed records, when), email notification on record access, annual privacy notice. **Non-compliance**—Threat: Missing HIPAA breach notification. Scenario: PHI breach discovered, not reported to HHS within 60 days, OCR penalty. Likelihood: Low (procedures exist), Impact: Critical (penalties, breach notification costs). Mitigations: Incident response plan with breach assessment workflow, legal review for breach determination, HHS notification template ready, annual tabletop exercises. Privacy enhancements: Data minimization (only display PHI needed for specific action, hide SSN/full DOB unless required), patient consent (granular consent for data sharing—patient controls what providers see), right to deletion (HIPAA right of access + deletion where legally permissible), privacy-preserving features (proxy email for patient-provider messaging, secure PDF download for records). Risk assessment: Critical (3): PHI in cache/logs, re-identification risk, High (2): Unawareness, third-party linkability, Medium (1): Breach notification. Compliance validation: HIPAA Security Rule mapping (§164.312(a)(1) access control—role-based access to PHI, §164.312(b) audit controls—comprehensive logging, §164.312(e)(1) transmission security—TLS 1.3), annual risk analysis per §164.308(a)(1)(ii)(A), penetration testing for technical safeguards validation.
+
+### Example 3: Financial Trading Platform
+**Prompt:** Perform threat modeling for TradeApp algorithmic trading platform (low-latency, FIX protocol, AWS) using PASTA methodology achieving SOC 2 compliance.
+
+**Expected Output:** Business objectives (PASTA Stage 1): protect customer trading algorithms (trade secrets worth millions), ensure trade execution integrity (tampering could manipulate markets), maintain system availability (downtime = revenue loss, regulatory penalties), regulatory compliance (SEC, FINRA, SOC 2 Type II). Technical scope (Stage 2): Trading UI (React), Order Management System (Java, low-latency), FIX gateway (QuickFIX/J), Market data feeds (real-time), Risk management engine (pre-trade checks), AWS infrastructure (EC2, Direct Connect to exchanges). Application decomposition (Stage 3): Components—Trading UI (TLS to OMS), OMS (business logic, order routing), FIX gateway (exchange connectivity), Market data (quotes, trades), Risk engine (position limits, margin checks), Database (PostgreSQL for audit, Redis for low-latency state). Entry points—Trading UI login, FIX session authentication, API for algorithmic trading, Admin console. Assets—Trading algorithms, customer positions, order history, API keys, exchange credentials. Threat analysis (Stage 4): Competitor espionage (steal trading algorithms), insider trading (unauthorized front-running), market manipulation (order spoofing, layering), DDoS (take platform offline during volatility). Vulnerability analysis (Stage 5): Weak FIX session authentication (shared secrets, no certificate-based), API rate limiting insufficient (algorithmic traders could overwhelm), audit logging gaps (cannot reconstruct order flow for disputes), AWS security group allowing SSH from 0.0.0.0/0 (legacy configuration). Attack modeling (Stage 6): Attack 1—Competitor insider exfiltrates trading algorithms. Entry: compromised developer laptop (phishing), Actions: pivot to code repository, download proprietary algo code, exfiltrate via personal cloud, Impact: $10M trade secret loss, competitive disadvantage. Attack 2—Market manipulation via order spoofing. Entry: compromised API key (credential stuffing), Actions: submit thousands of fake orders to move market, cancel before execution, profit on opposite position, Impact: regulatory investigation, fines, reputational damage. Attack 3—DDoS during market open. Entry: volumetric DDoS from botnet, Actions: saturate network, OMS unavailable, customers cannot trade, Impact: $500K revenue loss (per hour of downtime), customer churn, SLA penalties. Risk analysis (Stage 7): Critical risks—Algorithm theft (High likelihood—insider access, Critical impact—$10M+), Market manipulation (Medium likelihood—API key compromise possible, High impact—regulatory action), DDoS (High likelihood—motivated attackers, High impact—revenue + reputation). Mitigations: Algorithm protection (DLP on endpoints, code repository access logging, watermarking proprietary code, employment contracts with non-compete), FIX security (mutual TLS authentication, session-level encryption, FIX message signing, IP whitelisting per counterparty), API security (API key rotation 90 days, rate limiting per customer and API, behavioral anomaly detection for unusual order patterns), DDoS mitigation (AWS Shield Advanced, Direct Connect for exchange traffic bypasses internet, traffic scrubbing via AWS Global Accelerator, auto-scaling OMS horizontally). Compliance (SOC 2): CC6.6 encryption of sensitive data (algorithm at rest encrypted, FIX traffic encrypted), CC7.2 system monitoring (comprehensive logging, real-time alerting on anomalies), CC6.1 logical access (MFA for all access, privileged access management for admin console). Risk register: 12 threats identified, 4 critical, 5 high, 3 medium.
+
+---
+
+## Cross-References
+
+- [Security Architecture](security-architecture.md) - Broader security architecture principles
+- [Secure Code Review](../Application-Security/secure-code-review.md) - Code-level security analysis
+- [Architecture Design](../../technology/Software-Development/architecture-design.md) - System design fundamentals

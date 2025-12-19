@@ -1,6 +1,5 @@
 ---
 category: education
-last_updated: 2025-11-10
 related_templates:
 - education/Academic-Research/literature-review-protocol-search.md
 - education/Academic-Research/literature-review-selection-quality.md
@@ -8,555 +7,234 @@ related_templates:
 - education/Academic-Research/literature-review-analysis-implications.md
 - education/Academic-Research/literature-review-reporting-dissemination.md
 tags:
-- literature-review-guide
-- systematic-review
-- evidence-synthesis
-- review-navigation
-title: Literature Reviews - Complete Guide & Navigation
+- literature-review-readiness
+- systematic-review-assessment
+- evidence-synthesis-planning
+- review-project-evaluation
+title: Literature Review Project Readiness Assessment
 use_cases:
-- Navigating the complete literature review process from protocol to dissemination
-- Selecting appropriate literature review modules for specific needs
-- Understanding different review types and their applications
-- Planning comprehensive systematic reviews and evidence syntheses
+- Evaluating readiness to conduct a systematic review or evidence synthesis project
+- Identifying capability gaps before committing to a literature review
+- Assessing team capacity and resource requirements for review projects
+- Planning literature review timelines and milestones with risk mitigation
 industries:
 - education
 - government
 - healthcare
 - technology
-type: template
+type: framework
 difficulty: intermediate
 slug: literature-reviews-overview
 ---
 
-# Literature Reviews - Complete Guide & Navigation
+# Literature Review Project Readiness Assessment
 
-## Overview
+## Purpose
+Comprehensively assess your readiness to conduct a rigorous systematic review, meta-analysis, or evidence synthesis project across six critical dimensions: Methodological Expertise, Search & Selection Capability, Synthesis & Analysis Readiness, Infrastructure & Tools, Team & Resources, and Reporting & Dissemination Capacity. This framework identifies gaps, estimates timelines, and creates a project execution plan before committing to a multi-month review.
 
-This comprehensive literature review suite provides specialized templates for conducting rigorous systematic reviews, meta-analyses, scoping reviews, and evidence syntheses. The suite is divided into five focused modules that guide you through the complete review process from protocol development to dissemination.
+## 🚀 Quick Assessment Prompt
 
-## When to Use This Suite
+> Assess **literature review project readiness** for **{REVIEW_CONTEXT}** planning to conduct **{REVIEW_TYPE}**. Evaluate across: (1) **Methodological expertise**—what systematic review training exists? Experience with PRISMA, protocol registration, quality assessment tools? (2) **Search capability**—can the team design comprehensive searches across databases? Access to information specialists? (3) **Synthesis capacity**—what statistical and qualitative synthesis skills exist? Software proficiency (RevMan, R, NVivo)? (4) **Infrastructure**—what screening tools, reference management, and collaboration platforms are available? (5) **Team resources**—what time commitment, dual-reviewer capacity, and content expertise exists? (6) **Dissemination readiness**—what publication targets, stakeholder engagement plans, and knowledge translation capacity exists? Provide a maturity scorecard (1-5 per dimension), risk analysis, resource requirements, and a phased project plan with realistic timeline.
 
-### Primary Use Cases
-- **Systematic Reviews**: Comprehensive, unbiased assessment of all available evidence on a specific question
-- **Meta-Analyses**: Statistical synthesis of quantitative results from multiple studies
-- **Scoping Reviews**: Mapping the breadth and nature of evidence in an emerging field
-- **Narrative Reviews**: Critical analysis and interpretation of literature with thematic organization
-- **Evidence Syntheses**: Integration of quantitative and qualitative evidence for decision-making
-
-### Ideal Users
-- Graduate students conducting dissertation literature reviews
-- Academic researchers preparing systematic reviews for publication
-- Healthcare professionals developing clinical practice guidelines
-- Policymakers seeking evidence-based policy recommendations
-- Research teams conducting evidence syntheses for stakeholders
-
-## Module Navigation
-
-### Module 1: Protocol & Search Strategy
-**[literature-review-protocol-search.md](literature-review-protocol-search.md)**
-
-**Purpose**: Develop comprehensive review protocols and search strategies
-
-**Use this module when you need to:**
-- Define your research question and review objectives
-- Design a systematic search strategy across databases
-- Select appropriate methodological frameworks
-- Register your protocol for transparency
-- Establish theoretical foundations
-
-**Key outputs:**
-- Registered protocol (PROSPERO, OSF)
-- Comprehensive search strings for each database
-- PICO framework and eligibility criteria
-- Conceptual framework and rationale
-
-**Time estimate**: 2-4 weeks for protocol development
+**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for rapid literature review project readiness evaluation.
 
 ---
 
-### Module 2: Selection & Quality Assessment
-**[literature-review-selection-quality.md](literature-review-selection-quality.md)**
+## Template
 
-**Purpose**: Execute systematic study selection and quality assessment
+Conduct a comprehensive literature review project readiness assessment for {REVIEW_CONTEXT}, a {REVIEW_TYPE} targeting {TARGET_OUTCOMES}.
 
-**Use this module when you need to:**
-- Screen titles, abstracts, and full texts systematically
-- Apply inclusion/exclusion criteria consistently
-- Assess study quality and risk of bias
-- Create PRISMA flow diagrams
-- Document selection decisions transparently
+Assess readiness across six dimensions, scoring each 1-5:
 
-**Key outputs:**
-- PRISMA flow diagram with all stages
-- List of included studies with characteristics
-- Risk of bias assessment for each study
-- Excluded studies table with reasons
-- Inter-rater reliability statistics
+**1. METHODOLOGICAL EXPERTISE & TRAINING READINESS**
+Evaluate whether the team possesses foundational systematic review methodology knowledge by assessing formal training in evidence synthesis methods, familiarity with reporting guidelines such as PRISMA or JBI standards, understanding of protocol development and registration processes through platforms like PROSPERO or OSF, experience with quality assessment frameworks including Cochrane Risk of Bias tools or Newcastle-Ottawa Scale, knowledge of different review types and their methodological requirements such as distinguishing systematic reviews from scoping reviews or realist syntheses, and awareness of ethical considerations including conflict of interest management and transparent reporting practices that ensure methodological rigor throughout the review lifecycle.
 
-**Time estimate**: 4-12 weeks depending on volume
+**2. SEARCH STRATEGY & SELECTION CAPABILITY READINESS**
+Evaluate whether the team can design and execute comprehensive literature searches by assessing ability to formulate answerable questions using PICO or similar frameworks, capacity to design multi-database search strategies with appropriate Boolean operators and controlled vocabulary, access to information specialists or librarians with systematic review expertise, familiarity with grey literature sources and supplementary search methods including hand-searching and citation chasing, proficiency with reference management systems such as EndNote or Zotero for deduplication and organization, experience with dual independent screening workflows and inter-rater reliability calculation, and capacity to document search decisions and create PRISMA flow diagrams that demonstrate transparent study selection processes.
 
----
+**3. SYNTHESIS & ANALYSIS CAPABILITY READINESS**
+Evaluate whether the team can conduct defensible evidence synthesis by assessing statistical expertise for meta-analysis including effect size calculation and heterogeneity assessment, proficiency with meta-analysis software such as RevMan, R metafor package, or Stata, qualitative synthesis skills including thematic analysis and framework synthesis methods, experience with data extraction form design and dual extraction with verification processes, capacity to assess publication bias through funnel plots or statistical tests, ability to conduct subgroup analyses and meta-regression when appropriate, mixed-methods integration capability for reviews combining quantitative and qualitative evidence, and understanding of when narrative synthesis is more appropriate than statistical pooling based on heterogeneity and data characteristics.
 
-### Module 3: Extraction & Synthesis
-**[literature-review-extraction-synthesis.md](literature-review-extraction-synthesis.md)**
+**4. INFRASTRUCTURE, TOOLS & WORKFLOW READINESS**
+Evaluate whether adequate tools and systems support efficient review execution by assessing access to screening management platforms such as Covidence, Rayyan, or DistillerSR, availability of statistical software for quantitative synthesis and analysis, access to qualitative analysis software like NVivo or MAXQDA if needed, secure data storage and version control systems compliant with research data management requirements, collaboration platforms for team communication and task coordination such as Slack or Microsoft Teams, institutional database subscriptions and access to full-text articles, capacity for protocol registration and data sharing through repositories, and established workflows for quality control including audit trails and discrepancy resolution processes that ensure reproducibility and transparency.
 
-**Purpose**: Extract data and synthesize evidence systematically
+**5. TEAM COMPOSITION, TIME & RESOURCE READINESS**
+Evaluate whether the project has sufficient human and financial resources by assessing core team size with minimum two independent reviewers for screening and quality assessment, content expertise alignment with the review question domain, realistic time commitment estimation with typical systematic reviews requiring 300-1000+ person-hours depending on scope, availability throughout the project timeline spanning 6-18 months for complete reviews, budget allocation for database access, software licenses, publication fees and potential professional editing, access to methodological consultation or mentorship for complex synthesis decisions, stakeholder engagement capacity for co-production models when developing practice or policy guidance, and contingency planning for personnel changes or scope adjustments that may arise during long-duration projects.
 
-**Use this module when you need to:**
-- Extract study characteristics and findings systematically
-- Conduct meta-analysis or thematic synthesis
-- Assess heterogeneity and subgroup effects
-- Integrate quantitative and qualitative evidence
-- Evaluate publication bias
-
-**Key outputs:**
-- Comprehensive data extraction tables
-- Meta-analysis results (forest plots, effect estimates)
-- Thematic synthesis with themes and subthemes
-- Heterogeneity assessment and exploration
-- Publication bias analysis
-
-**Time estimate**: 4-8 weeks for analysis
+**6. REPORTING, DISSEMINATION & IMPACT READINESS**
+Evaluate whether the project can effectively communicate findings to target audiences by assessing publication strategy alignment with journal scope and impact including pre-identification of target journals, stakeholder identification and engagement planning for knowledge translation, capacity to produce multiple dissemination products including manuscripts, policy briefs, and plain language summaries tailored to diverse audiences, experience with reporting guideline compliance such as completing PRISMA checklists and providing supplementary materials, open science commitment including data sharing and protocol transparency, knowledge translation planning for implementation support beyond passive dissemination, impact measurement framework for tracking uptake and influence, and sustainability planning for review updates or living systematic reviews that maintain currency as new evidence emerges.
 
 ---
 
-### Module 4: Analysis & Implications
-**[literature-review-analysis-implications.md](literature-review-analysis-implications.md)**
+## Required Output Format
 
-**Purpose**: Critically analyze evidence and develop actionable implications
+Structure your assessment as:
 
-**Use this module when you need to:**
-- Apply GRADE or similar evidence quality frameworks
-- Develop theoretical implications and contributions
-- Formulate practice and policy recommendations
-- Identify research gaps and priorities
-- Create evidence-based guidance
+1. **EXECUTIVE SUMMARY** - Overall readiness score (X.X/5.0), maturity level, go/no-go recommendation, top 3 risks, estimated timeline (X months)
 
-**Key outputs:**
-- GRADE evidence profiles and certainty ratings
-- Theoretical framework integration
-- Evidence-based recommendations (strong, conditional)
-- Practice and policy implications
-- Future research agenda
+2. **DIMENSION SCORECARD** - Table with dimension name, score (X.X/5), key strength, key gap, priority action
 
-**Time estimate**: 2-4 weeks for interpretation
+3. **FEASIBILITY ANALYSIS** - For the proposed {REVIEW_TYPE}, assess: scope appropriateness (too broad/narrow?), volume estimate (expected studies to screen/include), timeline realism (based on team capacity), resource sufficiency (gaps in access, tools, expertise)
 
----
+4. **RISK REGISTER** - Top 5 project risks ranked by likelihood and impact, with mitigation strategies and contingency plans
 
-### Module 5: Reporting & Dissemination
-**[literature-review-reporting-dissemination.md](literature-review-reporting-dissemination.md)**
+5. **CAPABILITY BUILDING PLAN** - Prioritized actions to address gaps: training needs (courses, workshops, mentorship), tool acquisition (software, database access, collaboration platforms), team expansion (additional reviewers, specialists, consultants), process development (workflows, templates, quality control procedures)
 
-**Purpose**: Prepare manuscripts and disseminate findings effectively
+6. **PROJECT ROADMAP** - Phased timeline with: Protocol Development (weeks X-Y), Search & Screening (weeks Y-Z), Data Extraction (weeks Z-A), Synthesis & Analysis (weeks A-B), Manuscript Preparation (weeks B-C), milestones and decision points
 
-**Use this module when you need to:**
-- Prepare manuscripts following PRISMA guidelines
-- Develop dissemination strategies for multiple audiences
-- Create plain language summaries and policy briefs
-- Plan knowledge translation and implementation
-- Assess impact and sustainability
-
-**Key outputs:**
-- Journal manuscript with complete reporting
-- Dissemination plan across multiple channels
-- Stakeholder-specific communication products
-- Implementation toolkit and guidance
-- Impact evaluation framework
-
-**Time estimate**: 4-8 weeks for writing and dissemination
+Use this maturity scale:
+- **1.0-1.9 (Exploratory)**: Minimal systematic review experience, significant training gaps, limited tools, feasibility uncertain
+- **2.0-2.9 (Developing)**: Some methodology knowledge, basic tools available, team gaps exist, supervision recommended
+- **3.0-3.9 (Capable)**: Solid systematic review foundation, adequate tools and team, can execute with quality assurance
+- **4.0-4.9 (Proficient)**: Extensive review experience, comprehensive infrastructure, efficient workflows, mentorship-ready
+- **5.0 (Expert)**: Leading systematic review expertise, advanced methods, optimized systems, field contribution capacity
 
 ---
 
-## Decision Tree: Which Module Do I Need?
+## Variables
 
+| Variable | Description | Example |
+|----------|-------------|---------|
+| `{REVIEW_CONTEXT}` | The organization, research team, or individual conducting the review and domain area | "Graduate student health sciences program investigating telemedicine effectiveness" |
+| `{REVIEW_TYPE}` | The specific type of literature review or evidence synthesis method planned | "systematic review with meta-analysis" or "scoping review" or "qualitative evidence synthesis" |
+| `{TARGET_OUTCOMES}` | The primary questions, outcomes, or objectives the review aims to address | "clinical effectiveness and cost-effectiveness of remote patient monitoring for chronic disease management" |
+
+---
+
+## Usage Example
+
+**Input:**
 ```
-START: What stage are you at in your literature review?
-
-├─ Planning and Design
-│  └─ → Use Module 1: Protocol & Search Strategy
-│     - Define research question
-│     - Design search strategy
-│     - Register protocol
-│
-├─ Searching and Screening Complete, Need to Select Studies
-│  └─ → Use Module 2: Selection & Quality Assessment
-│     - Screen studies systematically
-│     - Assess quality and bias
-│     - Document decisions
-│
-├─ Studies Selected, Need to Extract Data and Synthesize
-│  └─ → Use Module 3: Extraction & Synthesis
-│     - Extract data systematically
-│     - Conduct meta-analysis or thematic synthesis
-│     - Assess heterogeneity
-│
-├─ Synthesis Complete, Need to Interpret and Apply
-│  └─ → Use Module 4: Analysis & Implications
-│     - Grade evidence quality
-│     - Develop recommendations
-│     - Identify research priorities
-│
-├─ Analysis Complete, Need to Write and Disseminate
-│  └─ → Use Module 5: Reporting & Dissemination
-│     - Write manuscript
-│     - Create communication products
-│     - Plan dissemination
-│
-└─ Starting from Scratch
-   └─ → Use All Modules Sequentially (1 → 2 → 3 → 4 → 5)
-      - Complete end-to-end systematic review
+REVIEW_CONTEXT: Doctoral candidate in educational psychology with dissertation committee, investigating digital learning interventions
+REVIEW_TYPE: Systematic review with meta-analysis of randomized controlled trials
+TARGET_OUTCOMES: Effect of gamification on student engagement and learning outcomes in higher education
 ```
 
-## Review Type Comparison
+**Output:**
+```
+EXECUTIVE SUMMARY
+Overall Readiness: 2.4/5.0 (Developing)
+Maturity Level: Developing - Project feasible with structured support
+Recommendation: CONDITIONAL GO - Proceed with enhanced supervision and capability building
+Top 3 Risks: (1) No information specialist access - search quality risk, (2) Limited meta-analysis experience - synthesis capacity gap, (3) Single researcher model - screening efficiency and bias concerns
+Estimated Timeline: 10-14 months with current capacity
 
-| Review Type | Purpose | When to Use | Key Module Focus | Typical Timeline |
-|-------------|---------|-------------|------------------|------------------|
-| **Systematic Review** | Comprehensive, unbiased synthesis of all available evidence | Answering specific clinical or policy questions | All modules, emphasis on Modules 2-3 | 6-18 months |
-| **Meta-Analysis** | Statistical pooling of quantitative results | Quantifying treatment effects across multiple RCTs | Strong focus on Module 3 (quantitative synthesis) | 6-12 months |
-| **Scoping Review** | Mapping breadth and nature of evidence | Emerging fields or broad questions | Modules 1-2, lighter quality assessment | 4-9 months |
-| **Narrative Review** | Critical analysis with thematic organization | Expert synthesis without exhaustive search | Modules 1, 3-4, flexible methods | 3-6 months |
-| **Rapid Review** | Abbreviated systematic review for timely decisions | Urgent policy or practice questions | Streamlined Modules 1-4, time-limited | 2-4 months |
-| **Umbrella Review** | Review of systematic reviews | High-level evidence synthesis | All modules applied to existing reviews | 4-8 months |
-| **Realist Review** | Theory-driven synthesis of complex interventions | Understanding context-mechanism-outcome | Strong focus on Modules 3-4 | 6-12 months |
-| **Qualitative Evidence Synthesis** | Integration of qualitative studies | Understanding experiences and perspectives | Module 3 (qualitative methods) emphasis | 4-8 months |
+DIMENSION SCORECARD
+| Dimension | Score | Strength | Gap | Priority Action |
+|-----------|-------|----------|-----|-----------------|
+| Methodological Expertise | 2.5/5.0 | Completed Cochrane training module | No hands-on review experience | Engage systematic review mentor |
+| Search Capability | 2.0/5.0 | Database access via university | No information specialist collaboration | Schedule librarian consultation |
+| Synthesis Capability | 2.3/5.0 | Strong quantitative background (stats coursework) | No RevMan or R meta-analysis experience | Complete R metafor tutorial, practice dataset |
+| Infrastructure & Tools | 3.0/5.0 | University Covidence license available | No qualitative software if needed | Adequate for quantitative review |
+| Team & Resources | 1.8/5.0 | Dissertation committee oversight | Single primary reviewer (no dual screening) | Recruit second reviewer (peer or RA) |
+| Dissemination Readiness | 2.5/5.0 | Clear publication target (dissertation + journal) | No stakeholder engagement plan | Define practitioner dissemination strategy |
 
-## Integration Guidance
+FEASIBILITY ANALYSIS
+- Scope: Appropriate for dissertation systematic review, question well-bounded by intervention type (gamification) and population (higher education)
+- Volume Estimate: Expect 2,000-4,000 titles/abstracts to screen → 200-400 full texts → 20-40 included RCTs based on preliminary scoping
+- Timeline Realism: 10-14 months realistic IF second reviewer secured and meta-analysis mentorship available; single-reviewer model would extend to 16-20 months with quality risks
+- Resource Sufficiency: Database access adequate; Covidence license secures screening workflow; gap in meta-analysis software (need R or RevMan training); no budget identified for potential publication fees (~$2,000-3,000 open access)
 
-### Sequential Workflow (Complete Review)
+RISK REGISTER
+1. **Search Quality Risk** (Likelihood: High, Impact: High) - No information specialist collaboration risks incomplete database coverage and suboptimal search strings → Mitigation: Schedule consultation with education/health sciences librarian, pilot search with feedback, document search peer review
+2. **Single-Reviewer Bias** (Likelihood: High, Impact: Medium) - Solo screening/extraction increases selection bias and error rate → Mitigation: Recruit second reviewer (fellow doctoral student reciprocal arrangement), implement 20% dual extraction for quality check, use Covidence conflict resolution features
+3. **Meta-Analysis Skill Gap** (Likelihood: Medium, Impact: High) - Limited hands-on experience risks methodological errors in pooling and heterogeneity assessment → Mitigation: Complete R meta-analysis course (Coursera/Cochrane), work through practice dataset with mentor feedback before actual analysis, consider statistician consultation for complex scenarios
+4. **Timeline Pressure** (Likelihood: Medium, Impact: Medium) - Dissertation deadlines may compress quality assurance → Mitigation: Build 2-month buffer into timeline, define minimum viable scope (could reduce to narrative synthesis if meta-analysis timeline threatens graduation), monthly milestone check-ins with committee
+5. **Scope Creep** (Likelihood: Medium, Impact: Medium) - Broad gamification definition could expand included studies unmanageably → Mitigation: Finalize operational definition in protocol, pilot eligibility criteria on 50 abstracts with committee review, register protocol to commit to scope boundaries
 
-**Phase 1: Foundation (Module 1)** → 2-4 weeks
-1. Develop research question using PICO framework
-2. Design comprehensive search strategy
-3. Select databases and grey literature sources
-4. Register protocol for transparency
-5. Establish review team roles and timeline
+CAPABILITY BUILDING PLAN (Pre-Launch, 6-8 weeks)
+Training Priorities:
+- Week 1-2: Complete Cochrane Interactive Learning Module 1-4 (systematic review basics)
+- Week 3-4: R meta-analysis tutorial (metafor package, effect size calculation, forest plots)
+- Week 5: Covidence training webinar and practice dataset
+- Ongoing: Join Cochrane/Campbell methods webinar series
 
-**Phase 2: Study Identification (Module 2)** → 4-12 weeks
-1. Execute searches across all databases
-2. Remove duplicates and screen titles/abstracts
-3. Review full texts against eligibility criteria
-4. Assess quality and risk of bias
-5. Create PRISMA flow diagram
+Tool Acquisition:
+- Week 1: Activate Covidence license through university library
+- Week 2: Install R/RStudio with metafor and meta packages
+- Week 3: Set up Zotero or EndNote for reference management
+- Week 4: Establish shared Google Drive folder structure for team collaboration
 
-**Phase 3: Evidence Synthesis (Module 3)** → 4-8 weeks
-1. Extract data using standardized forms
-2. Conduct quantitative meta-analysis if appropriate
-3. Perform thematic synthesis for qualitative studies
-4. Assess heterogeneity and conduct subgroup analyses
-5. Evaluate publication bias
+Team Expansion:
+- Week 2-3: Recruit second reviewer (post on doctoral student listserv, propose reciprocal review arrangement)
+- Week 4: Engage education librarian for search strategy consultation (2-3 sessions)
+- Week 6: Identify statistician mentor for meta-analysis consultation (committee member or methodologist)
 
-**Phase 4: Interpretation (Module 4)** → 2-4 weeks
-1. Grade evidence quality using GRADE
-2. Develop theoretical implications
-3. Formulate practice and policy recommendations
-4. Identify future research priorities
-5. Create evidence-to-decision frameworks
+Process Development:
+- Week 5: Develop screening and extraction forms with committee input
+- Week 6: Create quality assessment workflow (RoB 2.0 training, reliability pilot)
+- Week 7: Establish discrepancy resolution protocol and documentation standards
+- Week 8: Finalize protocol and register on PROSPERO before search execution
 
-**Phase 5: Communication (Module 5)** → 4-8 weeks
-1. Write manuscript following PRISMA guidelines
-2. Develop dissemination plan for stakeholders
-3. Create plain language summaries
-4. Prepare presentations and policy briefs
-5. Monitor and evaluate impact
+PROJECT ROADMAP (48-week dissertation timeline)
+Phase 1: Protocol Development (Weeks 1-8)
+- Capability building activities (training, recruitment, tool setup)
+- PICO refinement and search strategy with librarian
+- Protocol drafting with committee feedback (2 revision cycles)
+- PROSPERO registration and ethics review if needed
+Milestone: Approved registered protocol
 
-### Modular Workflow (Specific Needs)
+Phase 2: Search & Screening (Weeks 9-22, 14 weeks)
+- Database searches and deduplication (weeks 9-10)
+- Title/abstract screening with second reviewer (weeks 11-16, ~300 abstracts/week)
+- Full-text review and eligibility assessment (weeks 17-21, ~30 texts/week)
+- Contact authors for missing data if needed (week 22)
+Milestone: Final included study set with PRISMA diagram
 
-**Need: Update an Existing Review**
-- Use Module 1 to design update search strategy
-- Use Module 2 for screening new studies
-- Use Module 3 to integrate new data into synthesis
-- Use Module 5 to communicate updates
+Phase 3: Data Extraction & Quality Assessment (Weeks 23-32, 10 weeks)
+- Extraction form pilot and refinement (week 23)
+- Dual extraction with verification (weeks 24-30, ~5 studies/week)
+- Risk of bias assessment (weeks 28-32, parallel with extraction)
+- Data synthesis preparation and cleaning (week 32)
+Milestone: Complete extraction database and quality ratings
 
-**Need: Develop Clinical Guidelines**
-- Use Module 2 to ensure quality studies included
-- Use Module 3 for comprehensive synthesis
-- Use Module 4 for GRADE and recommendations
-- Use Module 5 for guideline dissemination
+Phase 4: Synthesis & Analysis (Weeks 33-40, 8 weeks)
+- Meta-analysis conduct in R (effect size pooling, heterogeneity assessment) (weeks 33-36)
+- Subgroup and sensitivity analyses (weeks 37-38)
+- Publication bias assessment and GRADE ratings (week 39)
+- Results interpretation with mentor review (week 40)
+Milestone: Complete analysis with figures and tables
 
-**Need: Create Policy Brief**
-- Review Module 3 synthesis results
-- Use Module 4 for evidence quality and implications
-- Use Module 5 for policy brief development
-- Focus on plain language and actionable recommendations
+Phase 5: Manuscript Preparation (Weeks 41-48, 8 weeks)
+- Dissertation chapter drafting (weeks 41-44)
+- Committee review and revision (weeks 45-46)
+- PRISMA checklist completion and supplementary materials (week 47)
+- Final dissertation submission and journal article adaptation (week 48)
+Milestone: Dissertation chapter accepted and journal manuscript submitted
 
-**Need: Dissertation Literature Review**
-- Use Module 1 for theoretical framework
-- Use Modules 2-3 for systematic evidence synthesis
-- Use Module 4 for gap analysis and implications
-- Adapt Module 5 for academic dissertation format
+SUCCESS METRICS
+- Protocol registered on PROSPERO by Week 8 (transparency)
+- Inter-rater reliability κ > 0.80 for screening (quality control)
+- 100% dual extraction with <5% discrepancy rate (accuracy)
+- Meta-analysis heterogeneity I² documented and explored (rigor)
+- PRISMA checklist 100% complete (reporting quality)
+- Dissertation defense passed (primary outcome)
+- Journal manuscript submitted within 6 months post-defense (dissemination)
+```
 
-## Methodological Resources
-
-### Reporting Guidelines by Review Type
-- **Systematic Reviews**: PRISMA 2020 Statement
-- **Meta-Analyses**: PRISMA with meta-analysis extensions
-- **Scoping Reviews**: PRISMA-ScR Extension
-- **Qualitative Syntheses**: ENTREQ Guidelines
-- **Mixed Methods**: MMSR Reporting Standards
-- **Network Meta-Analyses**: PRISMA-NMA Extension
-- **Individual Participant Data**: PRISMA-IPD Statement
-- **Diagnostic Test Accuracy**: PRISMA-DTA
-
-### Quality Assessment Tools
-- **RCTs**: Cochrane Risk of Bias Tool (RoB 2.0)
-- **Observational Studies**: Newcastle-Ottawa Scale (NOS), ROBINS-I
-- **Qualitative Studies**: CASP Qualitative Checklist, COREQ
-- **Mixed Methods**: Mixed Methods Appraisal Tool (MMAT)
-- **Diagnostic Studies**: QUADAS-2
-- **Economic Evaluations**: CHEERS Checklist
-- **Systematic Reviews**: AMSTAR-2
-
-### Synthesis Software and Tools
-- **Meta-Analysis**: RevMan, R (meta/metafor packages), Stata, Comprehensive Meta-Analysis
-- **Screening Management**: Covidence, Rayyan, DistillerSR, EPPI-Reviewer
-- **Qualitative Synthesis**: NVivo, MAXQDA, Dedoose, ATLAS.ti
-- **Reference Management**: EndNote, Mendeley, Zotero
-- **Data Extraction**: REDCap, Excel, Google Sheets
-- **Visualization**: R ggplot2, GraphPad Prism, Tableau
-
-### Registration Platforms
-- **PROSPERO**: International prospective register of systematic reviews
-- **Open Science Framework (OSF)**: Open-access research protocol repository
-- **Cochrane Library**: Protocol publication for Cochrane reviews
-- **Campbell Collaboration**: Social science systematic review protocols
-- **Clinical Trials.gov**: Adaptation for intervention reviews
-
-## Collaborative Review Management
-
-### Team Roles and Responsibilities
-
-**Principal Investigator / Lead Reviewer**
-- Overall project leadership and coordination
-- Research question formulation and refinement
-- Protocol development and registration
-- Final decisions on inclusion/exclusion
-- Manuscript preparation and submission
-- **Primary Modules**: All, especially 1, 4, 5
-
-**Co-Investigators / Content Experts**
-- Subject matter expertise and clinical input
-- Search term development and validation
-- Quality assessment and interpretation
-- Implications and recommendations development
-- Stakeholder engagement and dissemination
-- **Primary Modules**: 1, 4, 5
-
-**Information Specialist / Librarian**
-- Search strategy design and optimization
-- Database selection and coverage
-- Search execution and documentation
-- Grey literature identification
-- Citation management and deduplication
-- **Primary Modules**: 1, 2
-
-**Methodologist / Statistician**
-- Protocol methodology design
-- Quality assessment tool selection
-- Meta-analysis planning and execution
-- Statistical analysis and interpretation
-- Sensitivity analysis and bias assessment
-- **Primary Modules**: 1, 3, 4
-
-**Research Assistants / Reviewers**
-- Title/abstract screening
-- Full-text review and assessment
-- Data extraction and entry
-- Quality assessment rating
-- Reference management and organization
-- **Primary Modules**: 2, 3
-
-**Knowledge Translation Specialist**
-- Dissemination strategy development
-- Plain language summary creation
-- Stakeholder engagement planning
-- Communication product development
-- Impact assessment and monitoring
-- **Primary Modules**: 5
-
-### Collaboration Tools and Platforms
-- **Communication**: Slack, Microsoft Teams, Zoom
-- **Project Management**: Asana, Trello, Monday.com
-- **Document Collaboration**: Google Workspace, Microsoft 365, Overleaf (LaTeX)
-- **Version Control**: Git, GitHub, OSF
-- **Data Management**: REDCap, Qualtrics, secure shared drives
-- **Meeting Scheduling**: Doodle, Calendly, When2meet
-
-## Quality Assurance Checklist
-
-### Protocol Stage (Module 1)
-- [ ] Research question clearly defined using PICO or similar
-- [ ] Comprehensive search strategy developed and tested
-- [ ] Multiple databases selected with rationale
-- [ ] Inclusion/exclusion criteria specified in detail
-- [ ] Quality assessment approach predetermined
-- [ ] Protocol registered on appropriate platform
-- [ ] Team roles and timeline established
-- [ ] Conflicts of interest disclosed
-
-### Selection Stage (Module 2)
-- [ ] Dual independent screening conducted
-- [ ] Inter-rater reliability calculated and acceptable
-- [ ] Disagreements resolved through consensus
-- [ ] Excluded studies documented with reasons
-- [ ] PRISMA flow diagram completed
-- [ ] Quality assessment completed for all included studies
-- [ ] Risk of bias summary created
-- [ ] Missing data or information sought from authors
-
-### Synthesis Stage (Module 3)
-- [ ] Standardized data extraction forms used
-- [ ] Dual extraction conducted with verification
-- [ ] Appropriate effect size metric selected
-- [ ] Heterogeneity assessed and explored
-- [ ] Subgroup analyses pre-specified and justified
-- [ ] Sensitivity analyses conducted
-- [ ] Publication bias assessed
-- [ ] Synthesis method appropriate for data type
-
-### Analysis Stage (Module 4)
-- [ ] Evidence quality graded using systematic approach
-- [ ] Certainty of evidence justified for each outcome
-- [ ] Recommendations linked to evidence quality
-- [ ] Theoretical implications clearly articulated
-- [ ] Practical implications address stakeholder needs
-- [ ] Limitations acknowledged transparently
-- [ ] Future research priorities identified
-- [ ] Conflicts of interest considered in interpretation
-
-### Reporting Stage (Module 5)
-- [ ] PRISMA or relevant checklist completed
-- [ ] Manuscript follows reporting guideline structure
-- [ ] Supplementary materials comprehensive
-- [ ] Plain language summary created
-- [ ] Dissemination plan developed and resourced
-- [ ] Stakeholder communication products prepared
-- [ ] Data sharing statement included
-- [ ] Author contributions specified (CRediT)
-
-## Frequently Asked Questions
-
-**Q: How long does a systematic review take?**
-A: Typically 6-18 months for a complete systematic review, depending on scope, team size, and literature volume. Rapid reviews can be completed in 2-4 months with streamlined methods.
-
-**Q: Do I need to use all five modules?**
-A: Not necessarily. Use modules based on your specific needs. For example, if updating an existing review, you may only need Modules 1-2 (search and selection) and Module 5 (reporting).
-
-**Q: What's the difference between a systematic review and a meta-analysis?**
-A: A systematic review is a comprehensive synthesis of all available evidence using transparent methods. A meta-analysis is a statistical technique that may be used within a systematic review to pool quantitative results.
-
-**Q: How many databases should I search?**
-A: Minimum 2-3 major databases for most fields. More comprehensive reviews search 5+ databases plus grey literature. See Module 1 for database selection guidance.
-
-**Q: Is protocol registration required?**
-A: Not always required, but strongly recommended for transparency. PROSPERO is standard for health-related reviews. Required by many journals and funders.
-
-**Q: How many reviewers do I need?**
-A: Minimum 2 independent reviewers for screening and quality assessment. Some processes (data extraction) can be single-reviewer with verification.
-
-**Q: Should I include grey literature?**
-A: Yes, to minimize publication bias, but assess quality carefully. See Module 1 for grey literature sources and Module 2 for quality assessment.
-
-**Q: When should I conduct subgroup analyses?**
-A: Pre-specify in protocol based on theoretical or clinical rationale. Conduct only if sufficient studies (typically 10+). See Module 3 for detailed guidance.
-
-**Q: How do I handle missing data?**
-A: Contact study authors, use imputation methods if appropriate, conduct sensitivity analyses with/without studies with missing data. See Module 3.
-
-**Q: What if studies are too heterogeneous to pool?**
-A: Consider narrative synthesis, subgroup analyses, or meta-regression to explore heterogeneity. May choose not to pool if inappropriate. See Module 3.
-
-## Additional Resources
-
-### Educational Resources
-- **Cochrane Training**: Free online systematic review training
-- **JBI Manual for Evidence Synthesis**: Comprehensive methodology guide
-- **EQUATOR Network**: Reporting guideline library
-- **Campbell Collaboration**: Social science systematic review resources
-- **AHRQ Evidence-based Practice Centers**: Methodology guides
-
-### Online Communities
-- **Cochrane Methods Groups**: Methodology discussion forums
-- **PRISMA Statement Website**: Reporting guidance and resources
-- **ResearchGate Systematic Review Group**: Peer support and discussion
-- **Twitter #SysRev Community**: Real-time methodology discussion
-- **Evidence Synthesis Hackathon**: Annual collaborative event
-
-### Key Publications
-- *Systematic Reviews in Health Research* (Sutton, Glenny, & Abrams)
-- *Introduction to Meta-Analysis* (Borenstein et al.)
-- *Cochrane Handbook for Systematic Reviews* (Higgins et al.)
-- *Conducting Research Literature Reviews* (Fink)
-- *Systematic Approaches to a Successful Literature Review* (Booth, Papaioannou, & Sutton)
-
-## Getting Started
-
-### Quick Start for Complete Review
-1. Read this overview page fully
-2. Start with **Module 1** to develop your protocol
-3. Proceed sequentially through **Modules 2-5**
-4. Refer back to this overview for navigation and integration
-5. Use the quality assurance checklist at each stage
-
-### Quick Start for Specific Needs
-1. Use the decision tree above to identify relevant modules
-2. Review the module descriptions for your selected modules
-3. Jump directly to the modules you need
-4. Consult this overview for integration guidance
-5. Adapt approaches to your specific context
-
-### Support and Consultation
-For complex reviews, consider consulting:
-- University or institutional librarians for search strategy
-- Statisticians or methodologists for analysis planning
-- Subject matter experts for clinical or theoretical input
-- Knowledge translation specialists for dissemination
-- Systematic review experts for methodology guidance
+**Key Findings:** Doctoral candidate has foundational knowledge but critical gaps in dual-reviewer capacity and hands-on meta-analysis experience. Project is feasible with structured capability building (8-week pre-launch phase) and enhanced supervision. Conditional recommendation emphasizes recruiting second reviewer (highest priority) and securing meta-analysis mentorship before launch. Timeline of 48 weeks is realistic with these supports in place. Search strategy consultation with librarian is essential to avoid critical coverage gaps.
 
 ---
-
-## Module Links
-
-- **[Module 1: Protocol & Search Strategy](literature-review-protocol-search.md)**
-- **[Module 2: Selection & Quality Assessment](literature-review-selection-quality.md)**
-- **[Module 3: Extraction & Synthesis](literature-review-extraction-synthesis.md)**
-- **[Module 4: Analysis & Implications](literature-review-analysis-implications.md)**
-- **[Module 5: Reporting & Dissemination](literature-review-reporting-dissemination.md)**
-
----
-
-**Last Updated**: 2025-11-10
-
-**Citation**: When citing this resource, please reference all relevant modules used in your review.
-
-**Contact**: For questions or suggestions about these templates, please reach out through your institutional research support services or systematic review methodology experts.
-
 
 ## Related Resources
 
-### Complementary Templates
+### Specialized Module Templates
 
-Enhance your workflow by combining this template with:
+This overview assessment identifies overall project readiness. For detailed phase-specific assessments, use:
 
-- **[Literature Review Protocol Search](literature-review-protocol-search.md)** - Complementary approaches and methodologies
-- **[Literature Review Selection Quality](literature-review-selection-quality.md)** - Complementary approaches and methodologies
-- **[Literature Review Extraction Synthesis](literature-review-extraction-synthesis.md)** - Complementary approaches and methodologies
-- **[Literature Review Analysis Implications](literature-review-analysis-implications.md)** - Complementary approaches and methodologies
-- **[Literature Review Reporting Dissemination](literature-review-reporting-dissemination.md)** - Complementary approaches and methodologies
+- **[Literature Review Protocol & Search Strategy Readiness Assessment](literature-review-protocol-search.md)** - Deep assessment of protocol development, research question formulation, search strategy design, and registration readiness
+- **[Literature Review Selection & Quality Assessment Readiness Assessment](literature-review-selection-quality.md)** - Detailed evaluation of screening workflow, eligibility operationalization, dual review processes, and quality assessment tool application
+- **[Literature Review Data Extraction & Synthesis Readiness Assessment](literature-review-extraction-synthesis.md)** - Comprehensive assessment of extraction capability, quantitative meta-analysis readiness, qualitative synthesis skills, and mixed-methods integration
+- **[Literature Review Analysis & Implications Readiness Assessment](literature-review-analysis-implications.md)** - Evaluation of evidence grading frameworks, theoretical contribution capability, practice/policy recommendation development, and research gap identification
+- **[Literature Review Reporting & Dissemination Readiness Assessment](literature-review-reporting-dissemination.md)** - Assessment of manuscript preparation, reporting standard compliance, stakeholder communication planning, and knowledge translation capacity
 
-### Suggested Workflow
+### Workflow Sequence
 
-**Typical implementation sequence**:
-
-1. Start with this template (Literature Reviews - Complete Guide & Navigation)
-2. Use [Literature Review Protocol Search](literature-review-protocol-search.md) for deeper analysis
-3. Apply [Literature Review Selection Quality](literature-review-selection-quality.md) for execution
-4. Iterate and refine based on results
+1. **Start here** with this overview assessment to evaluate overall project feasibility
+2. If overall readiness score ≥ 2.5/5.0, proceed to **Module 1 (Protocol & Search)** for detailed planning
+3. Progress sequentially through **Modules 2-5** as review execution advances
+4. Return to module-specific assessments when capability gaps emerge during execution
 
 ### Explore More in This Category
 
-Browse all **[education/Academic Research](../../education/Academic Research/)** templates for related tools and frameworks.
-
-### Common Use Case Combinations
-
-- **Navigating the complete literature review process from protocol to dissemination**: Combine this template with related analytics and strategy frameworks
-- **Selecting appropriate literature review modules for specific needs**: Combine this template with related analytics and strategy frameworks
-- **Understanding different review types and their applications**: Combine this template with related analytics and strategy frameworks
+Browse all **[education/Academic Research](../Academic-Research/)** templates for related research methodology tools and frameworks.

@@ -1,692 +1,169 @@
 ---
 category: product-management
-last_updated: 2025-11-12
-title: A/B Testing & Experimentation
+title: A/B Testing & Experimentation Readiness Assessment
 tags:
 - product-management
 - ab-testing
 - experimentation
-- conversion-optimization
+- statistical-rigor
 use_cases:
-- Designing and running A/B tests to validate product hypotheses
-- Optimizing conversion funnels and user flows
-- Making data-driven product decisions through experimentation
-- Building experimentation culture and frameworks
+- Assessing organizational capability to run rigorous experiments
+- Evaluating experimentation maturity and statistical rigor
+- Identifying gaps in testing infrastructure and methodology
+- Building data-driven decision culture through experimentation
 related_templates:
 - product-management/Product-Analytics/product-metrics-kpis.md
 - product-management/Product-Analytics/user-behavior-analysis.md
 - product-management/Product-Analytics/product-analytics-framework.md
-- product-management/Product-Development/product-requirements-document.md
 industries:
 - technology
 - finance
 - healthcare
 - retail
-- manufacturing
-type: template
+type: framework
 difficulty: intermediate
-slug: ab-testing-experimentation
+slug: ab-testing-experimentation-readiness
 ---
 
-# A/B Testing & Experimentation Template
+# A/B Testing & Experimentation Readiness Assessment
 
 ## Purpose
-Design rigorous A/B tests and experiments to validate product hypotheses, optimize user experiences, and make data-driven decisions with statistical confidence rather than opinions or assumptions.
+Comprehensively assess an organization's capability to design, execute, and learn from rigorous A/B tests and experiments across six dimensions: Hypothesis & Design Quality, Statistical Capability, Technical Infrastructure, Execution Discipline, Analysis Rigor, and Organizational Maturity. This framework evaluates experimentation sophistication and identifies barriers to building an evidence-based product culture.
 
-## Quick A/B Test Prompt
-Design A/B test for [feature/change]. Hypothesis: [changing X will improve Y because Z]. Primary metric: [conversion/engagement/retention rate]. Baseline: [current %]. MDE: [minimum detectable effect]. Calculate sample size for 80% power, 95% confidence. Define: control vs. variant, targeting criteria, test duration, guardrail metrics, and success/ship criteria. Include rollout plan if winner.
+## 🚀 Quick Assessment Prompt
 
-## Quick Start
+> Assess **experimentation readiness** for **[PRODUCT_CONTEXT]** planning **[EXPERIMENTATION_SCOPE]** to achieve **[TESTING_OBJECTIVES]**. Evaluate across: (1) **Hypothesis & design quality**—how well-formed are hypotheses with clear predictions? Is experimental design rigorous with appropriate controls and variants? (2) **Statistical capability**—what's the proficiency in sample size calculation, power analysis, and significance testing? Are teams avoiding common statistical pitfalls? (3) **Technical infrastructure**—what experimentation platforms exist for randomization, tracking, and analysis? Can experiments be launched quickly and reliably? (4) **Execution discipline**—how well do teams follow through on experiments without early stopping or peeking? What's the quality of monitoring during tests? (5) **Analysis rigor**—how thorough is statistical analysis with proper interpretation and segment analysis? Are results validated before shipping? (6) **Organizational maturity**—what's the experimentation velocity and culture? How widely are experiments used to inform decisions? Provide maturity scores (1-5 per dimension), capability gaps, prioritized recommendations, and a 6-month improvement roadmap.
 
-**Need to run an A/B test quickly?** Use this streamlined approach:
-
-### Minimal Example
-```
-Hypothesis: Changing CTA from "Sign Up" to "Start Free Trial" increases conversions
-Metric: Signup conversion rate
-Baseline: 12% conversion
-Sample: 10,000 users (5,000 per variant)
-Duration: 2 weeks
-Success criteria: >15% increase (>13.8% conversion), 95% confidence
-Result: 14.5% conversion, +2.5pp, 98% confidence → SHIP IT
-```
-
-### When to Use This
-- Testing new features before full rollout
-- Optimizing conversion funnels
-- Validating design or copy changes
-- Deciding between product alternatives
-- Building evidence for stakeholder decisions
-
-### Basic 5-Step Workflow
-1. **Hypothesis formation** - What you believe and why (1 day)
-2. **Experiment design** - Define variants, metrics, sample size (2 days)
-3. **Implementation** - Build variants and instrumentation (1 week)
-4. **Run experiment** - Collect data to statistical significance (2-4 weeks)
-5. **Analysis & decision** - Interpret results and ship or kill (2 days)
+**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for comprehensive experimentation capability assessment.
 
 ---
 
 ## Template
 
-```
-You are an experienced experimentation scientist and product manager. Design and analyze an A/B test for [PRODUCT_NAME] testing [HYPOTHESIS] with [TARGET_USERS] measuring [PRIMARY_METRIC] to inform [DECISION] with [STATISTICAL_RIGOR].
+Conduct a comprehensive A/B testing and experimentation readiness assessment for {PRODUCT_CONTEXT}, focusing on {EXPERIMENTATION_SCOPE} to achieve {TESTING_OBJECTIVES}.
 
-EXPERIMENT CONTEXT:
-Product Information:
-- Product name: [PRODUCT_NAME]
-- Product area: [FEATURE/PAGE/FLOW]
-- Current state: [BASELINE_BEHAVIOR]
-- Traffic: [DAILY/MONTHLY_USERS]
-- Test environment: [WEB/MOBILE/API]
+Assess readiness across six dimensions, scoring each 1-5 for maturity:
 
-Experiment Objective:
-- Decision to make: [WHAT_YOU'RE_DECIDING]
-- Hypothesis: [WHAT_YOU_BELIEVE]
-- Expected impact: [PREDICTED_OUTCOME]
-- Why now: [RATIONALE_FOR_TESTING]
+**1. Hypothesis & Design Quality Readiness**
+Evaluate the rigor of experimental design by examining whether hypotheses are well-formed with clear if-then-because statements predicting specific outcomes rather than vague expectations, determining whether problem framing establishes the current state with supporting evidence before proposing solutions, assessing whether experimental design choices are appropriate for the question with consideration of A/B versus multivariate versus sequential testing approaches, examining whether control and variant definitions are unambiguous with clear specification of what changes and what stays constant, determining whether success criteria are established upfront with primary metrics and minimum detectable effects defined before launch, assessing whether guardrail metrics protect critical user experience and business outcomes from unintended harm, and examining whether alternative hypotheses are considered to avoid testing in isolation without exploring competing explanations.
 
-### 1. HYPOTHESIS DEVELOPMENT
+**2. Statistical Capability Readiness**
+Evaluate the sophistication of statistical methods by examining whether sample size calculations are performed correctly using appropriate formulas for the test type with consideration of baseline rates and minimum detectable effects, determining whether power analysis ensures adequate sensitivity to detect meaningful effects with typical standards of 80% power and 95% confidence applied appropriately, assessing whether significance testing uses correct statistical tests for the data type with understanding of when to use t-tests versus chi-square versus non-parametric alternatives, examining whether multiple comparison corrections are applied when testing many metrics to avoid false discovery from repeated testing, determining whether confidence intervals are calculated and interpreted correctly to understand the range of plausible effect sizes beyond binary significant or not, assessing whether statistical assumptions are validated including independence, normality where required, and appropriate sample sizes for asymptotic tests, and examining whether common pitfalls are avoided including early stopping bias, sample ratio mismatch detection, novelty effects, and simpson's paradox in segmentation.
 
-Problem Statement:
-Current state: [WHAT'S_HAPPENING_NOW]
-- Data/evidence: [SUPPORTING_EVIDENCE]
-- User feedback: [QUALITATIVE_INSIGHTS]
-- Business impact: [COST_OF_PROBLEM]
+**3. Technical Infrastructure Readiness**
+Evaluate the quality and accessibility of experimentation tools by examining whether experimentation platforms provide reliable randomization with consistent user assignment and minimal bias, determining whether feature flag systems enable rapid experiment launch and flexible traffic allocation with gradual rollout capabilities, assessing whether event tracking infrastructure captures all necessary actions and outcomes with low latency and high completeness, examining whether data pipelines provide timely access to experiment results with appropriate aggregation and statistical calculations built-in, determining whether analysis dashboards visualize key metrics with statistical significance indicators and segment breakdowns readily accessible, assessing whether integration capabilities connect experiments to product analytics, data warehouses, and decision-making workflows, and examining whether platform reliability ensures experiments run without technical failures that compromise validity.
 
-Hypothesis:
-If we [CHANGE_DESCRIPTION],
-Then we will see [EXPECTED_OUTCOME],
-Because [UNDERLYING_REASONING].
+**4. Execution Discipline Readiness**
+Evaluate adherence to experimental protocols by examining whether pre-registration practices document hypotheses, metrics, and analysis plans before launch to prevent post-hoc rationalization, determining whether launch processes include thorough QA of variant implementations, tracking verification, and randomization testing before exposing users, assessing whether monitoring during experiments catches technical issues early with daily checks on sample ratio, metric trends, and error rates, examining whether early stopping discipline prevents premature conclusions with commitment to planned sample sizes and durations despite temptation to peek, determining whether incident response procedures handle experiment-related issues with clear escalation paths and rollback capabilities, assessing whether experiment completion rates are high with few abandoned tests that waste resources and generate no learning, and examining whether documentation standards capture experimental design, results, and learnings systematically for institutional memory.
 
-Example:
-"If we change the signup button from 'Sign Up' to 'Start Free Trial',
-Then we will see a 15% increase in signup conversion rate,
-Because users will better understand there's no upfront commitment required."
+**5. Analysis Rigor Readiness**
+Evaluate the thoroughness of results interpretation by examining whether primary metric analysis applies correct statistical tests with appropriate significance levels and proper interpretation of p-values beyond binary thinking, determining whether effect size calculation quantifies practical significance with confidence intervals to understand magnitude of impact not just statistical detectability, assessing whether secondary metric analysis examines supporting and guardrail metrics systematically to understand holistic impact on user experience, examining whether segment analysis investigates heterogeneous treatment effects to identify which user types benefit most or are harmed by changes, determining whether sensitivity analysis tests robustness of conclusions to methodological choices like outlier treatment and time windows, assessing whether causal interpretation avoids over-claiming causality from experiments with proper understanding of what can and cannot be concluded, and examining whether validation practices verify tracking accuracy and result reproducibility before making shipping decisions.
 
-Alternative Hypotheses:
-- Hypothesis A: [VARIATION_1]
-- Hypothesis B: [VARIATION_2]
-- Hypothesis C: [VARIATION_3]
+**6. Organizational Maturity Readiness**
+Evaluate how deeply experimentation is embedded in culture by examining whether experimentation velocity measures the rate of tests launched and completed with healthy throughput matching product development pace, determining whether decision-making norms require experimental validation for product changes with resistance to shipping based on opinions or authority, assessing whether experimentation literacy extends beyond data teams to product managers, designers, and engineers who understand basic principles, examining whether failure tolerance creates psychological safety to run experiments that may show no effect or negative results without penalty, determining whether learning dissemination shares experimental results broadly through regular reviews, documentation repositories, and cross-team communication, assessing whether capacity planning ensures adequate bandwidth for experimentation without bottlenecking on data teams or infrastructure, and examining whether executive engagement demonstrates leadership commitment to evidence-based decisions with metrics visibility and experimental rigor valued at highest levels.
 
-Rationale for chosen hypothesis: [WHY_THIS_ONE]
+Deliver your assessment as:
 
-### 2. EXPERIMENT DESIGN
+1. **EXECUTIVE SUMMARY** - Overall readiness score, maturity level, top 3 capability gaps, recommended focus areas
 
-Test Type:
-- Type: [A/B/A/B/n/MULTIVARIATE/BANDIT]
-- Why this type: [RATIONALE]
+2. **DIMENSION SCORECARD** - Table with score (X.X/5) and key strength or gap per dimension
 
-Variants:
-Control (A):
-- Description: [CURRENT_EXPERIENCE]
-- Screenshot/mockup: [VISUAL]
-- Implementation: [WHAT_TO_BUILD]
+3. **CAPABILITY ANALYSIS** - For each dimension, detail current state, specific gaps, and impact on decision quality
 
-Variant B:
-- Description: [CHANGED_EXPERIENCE]
-- Changes: [WHAT'S_DIFFERENT]
-- Screenshot/mockup: [VISUAL]
-- Implementation: [WHAT_TO_BUILD]
+4. **GAP PRIORITIZATION** - Rank top 5 gaps by impact on experimentation effectiveness and implementation feasibility with recommended actions
 
-Variant C (if applicable):
-- Description: [ALTERNATIVE_EXPERIENCE]
-- Changes: [WHAT'S_DIFFERENT]
+5. **IMPROVEMENT ROADMAP** - 6-month plan with quarterly milestones across Methods, Infrastructure, Process, and Culture
 
-Target Audience:
-- Who: [USER_SEGMENT]
-- Inclusion criteria: [WHO_GETS_INCLUDED]
-- Exclusion criteria: [WHO_GETS_EXCLUDED]
-- Geographic: [REGIONS]
-- Platform: [WEB/MOBILE/BOTH]
+6. **SUCCESS METRICS** - Current capability baselines vs 3-month and 6-month targets
 
-Traffic Allocation:
-- Control: [PERCENTAGE]
-- Variant B: [PERCENTAGE]
-- Variant C: [PERCENTAGE] (if applicable)
-- Holdout: [PERCENTAGE] (if applicable)
-
-Rationale: [WHY_THIS_SPLIT]
-
-### 3. SUCCESS METRICS
-
-Primary Metric:
-Metric: [METRIC_NAME]
-- Definition: [EXACT_CALCULATION]
-- Current baseline: [VALUE]
-- Minimum Detectable Effect (MDE): [PERCENTAGE_OR_ABSOLUTE]
-- Significance level: [95%_OR_99%]
-- Statistical power: [80%_OR_90%]
-
-Why this metric: [RATIONALE]
-
-Example:
-"Signup conversion rate"
-- Definition: (Users who completed signup / Users who viewed signup page) × 100
-- Baseline: 12%
-- MDE: 15% relative increase (absolute: 1.8pp to 13.8%)
-- Significance: 95% confidence
-- Power: 80%
-
-Secondary Metrics:
-Metric 1: [METRIC_NAME]
-- Definition: [CALCULATION]
-- Baseline: [VALUE]
-- Expected direction: [INCREASE/DECREASE/NO_CHANGE]
-- Why tracking: [RATIONALE]
-
-Metric 2: [METRIC_NAME]
-(Same structure)
-
-Metric 3: [METRIC_NAME]
-(Same structure)
-
-Guardrail Metrics:
-Metric 1: [METRIC_NAME]
-- Definition: [CALCULATION]
-- Acceptable range: [MIN_TO_MAX]
-- Why critical: [WHAT_YOU'RE_PROTECTING]
-
-Example:
-"Page load time"
-- Definition: Time from request to fully loaded
-- Acceptable: <3 seconds (no degradation from baseline)
-- Critical: Performance impacts all conversion
-
-Metric 2: [METRIC_NAME]
-(Same structure)
-
-### 4. SAMPLE SIZE CALCULATION
-
-Power Analysis:
-- Baseline conversion rate: [%]
-- Minimum Detectable Effect: [%]
-- Significance level (alpha): [0.05]
-- Power (1-beta): [0.80]
-- One-tailed or two-tailed: [TEST_TYPE]
-
-Required Sample Size:
-- Per variant: [N]
-- Total: [N × NUMBER_OF_VARIANTS]
-
-Current Traffic:
-- Daily users: [COUNT]
-- Days to reach sample: [DURATION]
-
-Timeline:
-- Start date: [DATE]
-- Minimum duration: [DAYS]
-- Expected end date: [DATE]
-- Maximum duration: [DAYS] (if inconclusive)
-
-Sample Size Formula:
-n = 2 × (Z_alpha + Z_beta)² × p × (1-p) / (MDE)²
-
-Where:
-- Z_alpha = 1.96 (for 95% confidence)
-- Z_beta = 0.84 (for 80% power)
-- p = baseline conversion rate
-- MDE = minimum detectable effect
-
-### 5. RANDOMIZATION STRATEGY
-
-Randomization Unit:
-- Unit: [USER/SESSION/PAGE_VIEW/ACCOUNT]
-- Why this unit: [RATIONALE]
-- Consistency: [HOW_TO_ENSURE_SAME_EXPERIENCE]
-
-Randomization Method:
-- Method: [HASH/RANDOM_NUMBER/WEIGHTED]
-- Implementation: [TECHNICAL_APPROACH]
-- Cookie/ID used: [IDENTIFIER]
-- Persistence: [DURATION]
-
-Avoiding Bias:
-- Time-based bias: [HOW_ADDRESSED]
-- Selection bias: [HOW_AVOIDED]
-- Novelty effect: [HOW_MANAGED]
-- Primacy effect: [HOW_HANDLED]
-
-### 6. IMPLEMENTATION PLAN
-
-Technical Implementation:
-Experimentation Platform:
-- Platform: [OPTIMIZELY/GOOGLE_OPTIMIZE/CUSTOM]
-- Feature flags: [SYSTEM]
-- A/B testing framework: [TOOL]
-
-Code Changes:
-- Frontend: [CHANGES_NEEDED]
-- Backend: [CHANGES_NEEDED]
-- Mobile: [CHANGES_NEEDED]
-
-Event Tracking:
-Event 1: [EVENT_NAME]
-- Trigger: [WHEN_IT_FIRES]
-- Properties: [DATA_CAPTURED]
-- Used for: [WHICH_METRICS]
-
-Event 2: [EVENT_NAME]
-(Same structure)
-
-QA Checklist:
-- [ ] Variants render correctly
-- [ ] Tracking fires correctly
-- [ ] Randomization works as expected
-- [ ] Users assigned consistently
-- [ ] No performance degradation
-- [ ] Mobile responsive
-- [ ] Accessible
-- [ ] Edge cases handled
-
-### 7. EXPERIMENT EXECUTION
-
-Pre-Flight Checklist:
-- [ ] Hypothesis documented
-- [ ] Metrics defined and instrumented
-- [ ] Sample size calculated
-- [ ] Variants built and QA'd
-- [ ] Randomization tested
-- [ ] Stakeholder alignment
-- [ ] Analytics dashboard ready
-- [ ] Experiment plan reviewed
-- [ ] Go/no-go decision made
-
-Launch:
-- Launch date: [DATE]
-- Launch time: [TIME]
-- Traffic ramp: [IMMEDIATE/GRADUAL]
-  - If gradual: [RAMP_SCHEDULE]
-- Monitoring plan: [FREQUENCY]
-
-Monitoring During Experiment:
-Daily:
-- Sample size progress: [% TO TARGET]
-- Metric trends: [DIRECTION]
-- Technical issues: [ERRORS/BUGS]
-- Guardrail metrics: [WITHIN_BOUNDS]
-
-Weekly:
-- Interim analysis: [TRENDS_EMERGING]
-- Segment analysis: [ANY_DIFFERENCES]
-- Feedback collection: [QUALITATIVE_INSIGHTS]
-
-Early Stopping Criteria:
-Stop for success:
-- Primary metric shows [X]% improvement
-- Statistical significance reached
-- Guardrails all green
-- Business case compelling
-
-Stop for harm:
-- Guardrail metric breached
-- Primary metric shows [X]% degradation
-- Critical bug discovered
-- Business reason to stop
-
-### 8. ANALYSIS FRAMEWORK
-
-Statistical Analysis:
-Primary Metric Analysis:
-- Control: [MEAN], [STANDARD_DEVIATION], [CONFIDENCE_INTERVAL]
-- Variant: [MEAN], [STANDARD_DEVIATION], [CONFIDENCE_INTERVAL]
-- Difference: [ABSOLUTE_DIFFERENCE], [RELATIVE_DIFFERENCE]
-- P-value: [VALUE]
-- Statistical significance: [YES/NO]
-- Confidence interval: [LOWER_BOUND to UPPER_BOUND]
-
-Statistical Test:
-- Test used: [T-TEST/CHI-SQUARE/Z-TEST]
-- Assumptions met: [NORMALITY/INDEPENDENCE]
-- Why this test: [RATIONALE]
-
-Secondary Metrics:
-- [METRIC_1]: Control [VALUE] vs Variant [VALUE], p=[P-VALUE]
-- [METRIC_2]: Control [VALUE] vs Variant [VALUE], p=[P-VALUE]
-- [METRIC_3]: Control [VALUE] vs Variant [VALUE], p=[P-VALUE]
-
-Guardrail Metrics:
-- [METRIC_1]: [STATUS] - [VALUE]
-- [METRIC_2]: [STATUS] - [VALUE]
-
-Segmentation Analysis:
-Segment 1: [SEGMENT_NAME]
-- Primary metric: [RESULT]
-- Statistical significance: [YES/NO]
-- Sample size: [N]
-
-Segment 2: [SEGMENT_NAME]
-(Same structure)
-
-Segment 3: [SEGMENT_NAME]
-(Same structure)
-
-Insights:
-- Which segments benefited most: [ANALYSIS]
-- Which segments showed no effect: [ANALYSIS]
-- Surprising findings: [OBSERVATIONS]
-
-### 9. RESULTS INTERPRETATION
-
-Results Summary:
-Outcome: [SUCCESS/FAILURE/INCONCLUSIVE]
-
-Primary Metric:
-- Hypothesis: [CONFIRMED/REJECTED]
-- Result: [QUANTITATIVE_OUTCOME]
-- Statistical significance: [YES/NO at CONFIDENCE_LEVEL]
-- Practical significance: [IS_EFFECT_SIZE_MEANINGFUL]
-
-Example:
-"SUCCESS: Variant increased signup conversion from 12% to 14.5% (+2.5pp, +21% relative), p<0.01, 99% confidence. Effect size is both statistically and practically significant."
-
-Secondary Metrics Summary:
-- [METRIC_1]: [RESULT_AND_INTERPRETATION]
-- [METRIC_2]: [RESULT_AND_INTERPRETATION]
-- [METRIC_3]: [RESULT_AND_INTERPRETATION]
-
-Guardrails:
-- All within acceptable bounds: [YES/NO]
-- Concerns: [ANY_ISSUES]
-
-Unexpected Findings:
-- [FINDING_1]: [DESCRIPTION_AND_IMPLICATION]
-- [FINDING_2]: [DESCRIPTION_AND_IMPLICATION]
-
-### 10. BUSINESS IMPACT ASSESSMENT
-
-Impact Projection:
-If we ship this to 100% of users:
-- Primary metric improvement: [EXPECTED_IMPACT]
-- Affected users: [COUNT]
-- Business value: [REVENUE/COST/OTHER]
-
-Example:
-"If we ship to all 1M monthly users:
-- Conversion rate: 12% → 14.5%
-- Additional conversions: 25,000/month
-- Additional revenue: $250K/month ($3M annually)
-- ROI: 50:1 (development cost: $60K)"
-
-Cost-Benefit Analysis:
-Benefits:
-- Quantitative: [REVENUE/CONVERSIONS/TIME_SAVED]
-- Qualitative: [USER_EXPERIENCE/BRAND]
-
-Costs:
-- Development: [COST_AND_TIME]
-- Maintenance: [ONGOING_COST]
-- Opportunity cost: [WHAT_WE'RE_NOT_DOING]
-
-ROI: [RETURN_ON_INVESTMENT]
-
-### 11. DECISION & RECOMMENDATIONS
-
-Recommendation: [SHIP/KILL/ITERATE]
-
-Rationale:
-- Evidence: [WHAT_DATA_SHOWS]
-- Confidence: [HIGH/MEDIUM/LOW]
-- Business case: [WHY_THIS_DECISION]
-- Risks: [WHAT_COULD_GO_WRONG]
-
-If SHIP:
-- Rollout plan: [PHASED/IMMEDIATE]
-- Timeline: [SCHEDULE]
-- Monitoring plan: [WHAT_TO_WATCH]
-- Success criteria: [POST-ROLLOUT_VALIDATION]
-
-If KILL:
-- Why: [RATIONALE]
-- Learnings: [WHAT_WE_LEARNED]
-- Next steps: [ALTERNATIVE_APPROACH]
-
-If ITERATE:
-- What to change: [MODIFICATIONS]
-- Next experiment: [FOLLOW_UP_TEST]
-- Timeline: [WHEN_TO_RETEST]
-
-### 12. LEARNINGS & DOCUMENTATION
-
-Key Learnings:
-1. [LEARNING_1]
-   - What we learned: [INSIGHT]
-   - Why it matters: [IMPLICATION]
-   - Future application: [HOW_TO_USE]
-
-2. [LEARNING_2]
-   (Same structure)
-
-3. [LEARNING_3]
-   (Same structure)
-
-Methodology Learnings:
-- What worked well: [PROCESS_WINS]
-- What to improve: [PROCESS_GAPS]
-- Tools/techniques to reuse: [BEST_PRACTICES]
-
-Audience Insights:
-- User behavior patterns: [OBSERVATIONS]
-- Segment differences: [VARIATIONS]
-- Surprising reactions: [UNEXPECTED_FINDINGS]
-
-Knowledge Share:
-- Documentation: [WHERE_STORED]
-- Presentation: [TO_WHOM/WHEN]
-- Playbook updates: [PROCESS_CHANGES]
-- Team retrospective: [SCHEDULED]
-
-### 13. COMMON PITFALLS TO AVOID
-
-Statistical Pitfalls:
-- [ ] Not running long enough to reach significance
-- [ ] Peeking at results and stopping early
-- [ ] Confusing statistical and practical significance
-- [ ] Multiple comparison problem (testing many metrics)
-- [ ] Sample ratio mismatch (uneven split)
-- [ ] Novelty/primacy effects
-- [ ] Ignoring external factors (seasonality, campaigns)
-
-Technical Pitfalls:
-- [ ] Inconsistent randomization
-- [ ] Tracking errors or missing data
-- [ ] Performance issues biasing results
-- [ ] Cache or cookie issues
-- [ ] Mobile vs desktop inconsistencies
-
-Business Pitfalls:
-- [ ] Testing too small a change (MDE too small)
-- [ ] Testing without clear hypothesis
-- [ ] Optimizing local max (wrong metric)
-- [ ] Ignoring long-term effects
-- [ ] Not considering segment differences
-```
-
-## Variables
-
-### PRODUCT_NAME
-Your product or feature.
-**Examples:**
-- "E-commerce checkout flow"
-- "Mobile app onboarding"
-- "Pricing page"
-
-### HYPOTHESIS
-What you believe will happen.
-**Examples:**
-- "Showing social proof will increase signups by 20%"
-- "Simplifying the form from 10 to 5 fields will improve completion rate"
-- "Adding urgency messaging will increase conversion"
-
-### TARGET_USERS
-Who you're testing with.
-**Examples:**
-- "All new visitors to signup page"
-- "Mobile users in US market"
-- "Free tier users considering upgrade"
-
-### PRIMARY_METRIC
-Key success measure.
-**Examples:**
-- "Signup conversion rate"
-- "Time to complete onboarding"
-- "Purchase conversion rate"
-
-### DECISION
-What you'll decide based on results.
-**Examples:**
-- "Whether to ship new checkout design to all users"
-- "Which of 3 headline variations to use"
-- "Whether to invest in feature development"
-
-### STATISTICAL_RIGOR
-Confidence requirements.
-**Examples:**
-- "95% confidence, 80% power, 10% MDE"
-- "99% confidence for high-risk change"
-- "Two-week minimum test duration"
-
-## Usage Examples
-
-### Example 1: Checkout Flow Optimization
-```
-Hypothesis: Removing optional fields reduces cart abandonment
-Test: One-page checkout (control) vs streamlined 3-field checkout (variant)
-Primary Metric: Purchase completion rate
-Baseline: 45% complete purchase
-Sample: 20,000 users (10,000 each)
-Duration: 3 weeks
-Result: 52% completion (+7pp, +16%), p<0.01
-Decision: SHIP - projected $500K additional annual revenue
-```
-
-### Example 2: Mobile App Onboarding
-```
-Hypothesis: Video tutorial increases feature adoption
-Test: Text-based onboarding vs 60-second video
-Primary Metric: % users who use core feature in first week
-Baseline: 35% activation
-Sample: 15,000 new users
-Duration: 2 weeks
-Result: 33% activation (-2pp, -6%), p=0.04
-Decision: KILL - video actually hurt activation, likely too long
-Learning: Test shorter 15-second version next
-```
-
-### Example 3: Pricing Page Test
-```
-Hypothesis: Showing annual savings increases annual plan adoption
-Test: Control (monthly and annual side-by-side) vs variant (annual with "Save $XX/year" badge)
-Primary Metric: % choosing annual plan
-Baseline: 30% choose annual
-Sample: 8,000 visitors
-Duration: 10 days
-Result: 37% annual (+7pp, +23%), p<0.001
-Decision: SHIP - higher LTV, better economics
-```
-
-### Example 4: Email Campaign A/B Test
-```
-Hypothesis: Personalized subject lines increase open rates
-Test: Generic subject vs name + personalized content
-Primary Metric: Email open rate
-Baseline: 22% open rate
-Sample: 100,000 emails (50K each)
-Duration: 1 day (email campaign)
-Result: 26% open rate (+4pp, +18%), p<0.001
-Secondary: Click rate 12% → 15% (+3pp, +25%)
-Decision: SHIP - use personalization in all campaigns
-```
-
-## Best Practices
-
-### Experiment Design
-1. **One variable at a time** - Isolate what you're testing
-2. **Start with hypothesis** - Not "let's test this" but "we believe X because Y"
-3. **Right sample size** - Calculate upfront, don't guess
-4. **Run to completion** - No peeking and early stopping
-5. **Test what matters** - Primary metric aligned to business goal
-
-### Statistical Rigor
-1. **Pre-register** - Document hypothesis and analysis plan before running
-2. **Appropriate significance** - 95% for most, 99% for critical changes
-3. **Sufficient power** - 80% minimum to detect true effects
-4. **Account for multiple tests** - Bonferroni correction if testing many metrics
-5. **Check assumptions** - Ensure statistical test requirements met
-
-### Practical Considerations
-1. **Balance speed and rigor** - Don't over-index on either
-2. **Segment analysis** - Always check if effects vary by segment
-3. **Qualitative + quantitative** - Combine numbers with user feedback
-4. **Long-term effects** - Consider if short-term gains sustainable
-5. **Opportunity cost** - Is this the best use of experiment capacity?
-
-### Organizational
-1. **Build experimentation culture** - Everyone can run tests
-2. **Shared infrastructure** - Common tools and frameworks
-3. **Transparent results** - Share wins and failures
-4. **Systematic learnings** - Document and share insights
-5. **Continuous testing** - Always be experimenting
-
-## Common Pitfalls
-
-❌ **Testing without hypothesis** - Just trying things randomly
-✅ Instead: Clear hypothesis grounded in data or user research
-
-❌ **Sample size too small** - Underpowered tests that can't detect effects
-✅ Instead: Calculate required sample size upfront
-
-❌ **Stopping early** - Peeking at results and stopping when significant
-✅ Instead: Run to planned sample size or duration
-
-❌ **Ignoring guardrails** - Improving primary metric but hurting quality
-✅ Instead: Always monitor guardrail metrics
-
-❌ **Testing too many things** - Multivariate tests without enough traffic
-✅ Instead: Simple A/B tests, one variable at a time
-
-❌ **Confusing correlation and causation** - Observational analysis vs true experiment
-✅ Instead: Proper randomization and control
-
-❌ **Local optimization** - Optimizing wrong metric
-✅ Instead: Ensure primary metric ladders to business goal
-
-❌ **Not documenting learnings** - Same experiments run repeatedly
-✅ Instead: Central repository of all experiments and learnings
-
-## Experiment Checklist
-
-Before Launch:
-- [ ] Hypothesis clearly stated
-- [ ] Primary and secondary metrics defined
-- [ ] Sample size calculated
-- [ ] Variants built and QA tested
-- [ ] Tracking implemented and verified
-- [ ] Randomization tested
-- [ ] Dashboard created
-- [ ] Stakeholder alignment
-- [ ] Timeline established
-
-During Experiment:
-- [ ] Monitor daily for technical issues
-- [ ] Check sample ratio match
-- [ ] Verify tracking accuracy
-- [ ] Monitor guardrail metrics
-- [ ] No early peeking at results
-- [ ] Document any incidents
-
-Post-Experiment:
-- [ ] Statistical analysis complete
-- [ ] Segment analysis complete
-- [ ] Business impact calculated
-- [ ] Results documented
-- [ ] Decision made and communicated
-- [ ] Learnings captured
-- [ ] Next steps identified
+Use this maturity scale:
+- 1.0-1.9: Initial (ad-hoc testing, significant methodology gaps)
+- 2.0-2.9: Developing (basic A/B testing, inconsistent rigor)
+- 3.0-3.9: Defined (solid testing capability, scaling challenges)
+- 4.0-4.9: Managed (mature experimentation culture, optimization focus)
+- 5.0: Optimized (industry-leading, continuous innovation)
 
 ---
 
-**Last Updated:** 2025-11-12
-**Category:** Product Management > Product Analytics
-**Difficulty:** Intermediate to Advanced
-**Estimated Time:** 3-6 weeks per experiment (design to decision)
+## Variables
+
+| Variable | Description | Example |
+|----------|-------------|---------|
+| `{PRODUCT_CONTEXT}` | The product and organizational context for experimentation assessment | "B2B SaaS platform with 100K users, Series B stage, product team of 25 running ~5 experiments per quarter" |
+| `{EXPERIMENTATION_SCOPE}` | The specific areas or types of experiments being evaluated | "conversion optimization experiments, feature launch tests, and pricing experiments across web and mobile" |
+| `{TESTING_OBJECTIVES}` | The goals you aim to achieve through better experimentation | "increase experimentation velocity to 20+ tests per quarter, improve statistical rigor to reduce false positives, build experimentation culture where all major changes are validated" |
+
+---
+
+## Usage Examples
+
+### Example 1: B2B SaaS Experimentation Maturity Building
+
+**Context:** Series B SaaS company currently running basic A/B tests inconsistently, wanting to build mature experimentation capability to accelerate product development with confidence.
+
+**Assessment Highlights:**
+- **Overall Score: 2.3/5 (Developing)** - Basic testing capability exists but lacks rigor, velocity, and organizational adoption
+- **Dimension Scores:** Hypothesis & Design 2.5 (some good hypotheses, many vague), Statistical Capability 1.8 (weak sample size calculations, common pitfalls), Technical Infrastructure 2.8 (Optimizely installed but underutilized), Execution Discipline 2.0 (frequent early stopping), Analysis Rigor 2.2 (descriptive stats only), Organizational Maturity 2.0 (product team only, low velocity)
+
+**Key Gaps:**
+1. **Statistical rigor gaps** - Team rarely calculates sample sizes upfront, stops experiments when results look promising without reaching planned duration, doesn't understand statistical power leading to underpowered tests that miss true effects, no correction for multiple comparisons when testing many metrics simultaneously
+2. **Low experimentation velocity** - Only 5-8 experiments per quarter despite 25-person product team, bottlenecked on data analyst to design and analyze every test, slow launch process taking 2-3 weeks from idea to live experiment
+3. **Limited organizational adoption** - Only product managers request experiments while designers and engineers ship changes without validation, executive team doesn't review experimental results or prioritize based on evidence, marketing and sales teams don't use experimentation at all
+
+**Recommendations:**
+- **Immediate (Month 1-2):** Conduct statistical methods training for product team covering sample size calculation, significance testing, and common pitfalls, create experiment design template requiring pre-registration of hypothesis, metrics, and sample size, implement monitoring dashboards showing experiment progress and early warning for technical issues
+- **Short-term (Month 3-4):** Hire experimentation scientist to elevate statistical rigor and train team, build self-service experiment launch capability reducing data team bottleneck, establish experimentation review in weekly product sync to increase visibility and learning
+- **Medium-term (Month 5-6):** Expand experimentation to design team for UI/UX tests and marketing team for messaging tests, implement automatic sample size calculator integrated into experiment launch workflow, create experimentation playbook documenting standards and best practices
+
+**Expected Outcomes:** Reach 3.5/5 overall within 6 months with particular improvement in Statistical Capability (1.8→3.5) and Organizational Maturity (2.0→3.8), achieving 20+ experiments per quarter with higher-quality designs and rigorous analysis preventing false positives.
+
+### Example 2: Consumer Mobile App Testing at Scale
+
+**Context:** Consumer mobile app with strong growth and good technical infrastructure but inconsistent experimental rigor leading to shipped changes that hurt metrics, wanting to improve quality while maintaining velocity.
+
+**Assessment Highlights:**
+- **Overall Score: 3.1/5 (Defined)** - High velocity and good infrastructure but analysis rigor gaps causing bad decisions
+- **Dimension Scores:** Hypothesis & Design 2.8 (testing frequently but hypotheses weak), Statistical Capability 3.0 (basic methods solid, advanced gaps), Technical Infrastructure 4.2 (excellent platform), Execution Discipline 3.5 (good monitoring), Analysis Rigor 2.5 (surface-level analysis), Organizational Maturity 3.2 (good velocity, limited depth)
+
+**Key Gaps:**
+1. **Shallow analysis leading to misinterpretation** - Primary metric analysis only without examining secondary or guardrail metrics, missing cases where feature improves conversion but hurts retention, no segment analysis to understand which users benefit versus are harmed, shipping experiments based on directional improvement without statistical significance
+2. **Hypothesis quality inconsistent** - Many experiments are "let's try this" without clear theory of why change should work, missing opportunity to build systematic understanding of what works, can't generalize learnings when hypothesis unclear
+3. **No long-term effect measurement** - Experiments run for 1-2 weeks and ship winners, but don't track if improvements sustain over months, novelty effects mistaken for genuine improvements
+
+**Recommendations:**
+- **Immediate (Week 1-2):** Implement mandatory analysis checklist requiring primary metric with significance test, all secondary metrics, guardrail metrics, and top 3 segment breakdowns before shipping, create experiment decision framework with thresholds for statistical significance and practical significance
+- **Short-term (Month 1-2):** Establish hypothesis quality standards with required if-then-because format and supporting evidence, train team on common analysis pitfalls through case studies of past misinterpretations, implement automated guardrail metric monitoring that flags experiments with concerning secondary effects
+- **Medium-term (Month 3-4):** Build long-term tracking dashboard monitoring metrics 30, 60, 90 days post-ship to catch degradation, conduct "experiment of experiments" meta-analysis to understand what types of changes work, establish senior scientist review for high-impact experiments
+- **Ongoing:** Create monthly learning reviews where team analyzes experiment patterns and builds shared mental models, document experimental learnings in searchable repository to prevent retesting same hypotheses
+
+**Expected Outcomes:** Reduce false positive rate from ~40% to <10% through rigorous analysis, build systematic understanding of what drives user behavior through better hypotheses, achieve 4.0/5 Analysis Rigor within 4 months while maintaining 30+ experiments per quarter velocity.
+
+### Example 3: Enterprise Platform Experimentation Infrastructure Build
+
+**Context:** Enterprise platform with limited experimentation capability beyond ad-hoc testing, strong data team but weak infrastructure and organizational adoption, wanting to build foundation for scaled experimentation.
+
+**Assessment Highlights:**
+- **Overall Score: 2.0/5 (Developing)** - Strong technical talent but lacking tools and processes to experiment systematically
+- **Dimension Scores:** Hypothesis & Design 2.5 (data team knows how, others don't), Statistical Capability 3.8 (data scientists very strong), Technical Infrastructure 1.2 (no experimentation platform), Execution Discipline 1.5 (manual processes error-prone), Analysis Rigor 3.5 (when experiments happen, analysis good), Organizational Maturity 1.8 (rare experiments, no culture)
+
+**Key Gaps:**
+1. **Infrastructure preventing velocity** - No feature flag system or experimentation platform, engineers must hard-code variants and randomization for each test taking weeks, tracking requires manual event instrumentation for each experiment, no shared dashboards forcing custom analysis each time
+2. **Organizational capability gaps** - Only 2 data scientists understand experimentation while 15 PMs can't design or launch tests independently, product team doesn't think experimentally defaulting to shipping based on customer feedback and intuition, no experimentation budget or prioritization in roadmap planning
+3. **Process barriers** - No standardized workflow from hypothesis to decision taking 4-8 weeks per experiment, legal and security review required for each test adding weeks of delay, no documented best practices leading to repeated mistakes
+
+**Recommendations:**
+- **Immediate (Month 1):** Evaluate and select experimentation platform (LaunchDarkly, Optimizely, Statsig, or build on existing feature flag system), create business case for infrastructure investment showing ROI from faster decisions, design standard experimentation workflow with clear owners and SLAs
+- **Short-term (Month 2-3):** Implement experimentation platform starting with pilot on one product area, train 5 PMs on experimental design and platform usage to build champions, establish legal and security pre-approval for standard experiment types to reduce friction
+- **Medium-term (Month 4-6):** Roll out platform across all product teams with training and support, hire experimentation PM to drive adoption and maintain standards, create self-service experiment launch for simple tests with data scientist review for complex designs, build shared dashboard templates for common experiment types
+- **Long-term (Month 6-12):** Establish experimentation OKRs for product teams measuring velocity and quality, create center of excellence for experimentation methodology and best practices, integrate experiments into quarterly planning as required validation for major bets
+
+**Expected Outcomes:** Increase from 2-3 experiments per quarter to 25+ within 6 months as infrastructure removes friction, improve Technical Infrastructure from 1.2 to 4.0 through platform implementation, achieve 3.2/5 overall enabling evidence-based product development at scale.
+
+---
+
+## Cross-References
+
+- [Product Metrics & KPIs](product-metrics-kpis.md) - For defining metrics to test
+- [User Behavior Analysis](user-behavior-analysis.md) - For generating hypotheses to test
+- [Product Analytics Framework](product-analytics-framework.md) - For comprehensive analytics approach
+- [Product Requirements Document](../Product-Development/product-requirements-document.md) - For incorporating experiments into product specs

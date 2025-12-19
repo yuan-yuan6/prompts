@@ -1,728 +1,169 @@
 ---
 category: product-management
-last_updated: 2025-11-12
-title: User Behavior Analysis
+title: User Behavior Analysis Readiness Assessment
 tags:
 - product-management
 - user-behavior
-- funnel-analysis
-- cohort-analysis
+- behavioral-analytics
+- product-analytics
 use_cases:
-- Analyzing user behavior patterns to inform product decisions
-- Identifying friction points and drop-off in user journeys
-- Segmenting users based on behavior for targeted improvements
-- Understanding feature adoption and usage patterns
+- Assessing capability to extract actionable insights from user behavior data
+- Evaluating analytical maturity for behavior-driven product decisions
+- Identifying gaps in behavioral analytics infrastructure and processes
+- Building data-informed product culture
 related_templates:
 - product-management/Product-Analytics/product-metrics-kpis.md
 - product-management/Product-Analytics/ab-testing-experimentation.md
 - product-management/Product-Development/user-research-personas.md
-- product-management/Product-Analytics/product-analytics-framework.md
 industries:
 - technology
 - finance
 - healthcare
 - retail
-- manufacturing
-type: template
+type: framework
 difficulty: intermediate
-slug: user-behavior-analysis
+slug: user-behavior-analysis-readiness
 ---
 
-# User Behavior Analysis Template
+# User Behavior Analysis Readiness Assessment
 
 ## Purpose
-Systematically analyze user behavior to uncover insights about how users interact with your product, identify opportunities for improvement, understand what drives engagement and retention, and make data-informed product decisions.
+Comprehensively assess an organization's capability to analyze user behavior, extract actionable insights, and translate behavioral data into product improvements across six dimensions: Data Foundation, Analytical Capability, Insight Generation, Action Translation, Measurement Rigor, and Organizational Integration. This framework evaluates maturity in behavior-driven decision-making and identifies capability gaps.
 
-## Quick Behavior Analysis Prompt
-Analyze user behavior for [product] to answer: [specific question, e.g., why users churn/abandon/don't activate]. Data sources: [event logs/surveys/session recordings]. Perform: funnel analysis for [key flow], cohort analysis by [signup date/source/plan], segment comparison ([power users vs. churned]). Identify: top 3 friction points, behavioral predictors of [success/churn], and actionable recommendations with expected impact.
+## 🚀 Quick Assessment Prompt
 
-## Quick Start
+> Assess **user behavior analysis readiness** for **[PRODUCT_CONTEXT]** focusing on **[ANALYSIS_FOCUS]** to achieve **[BEHAVIORAL_OBJECTIVES]**. Evaluate across: (1) **Data foundation**—what's the quality of event tracking, data completeness, instrumentation coverage, and behavioral data infrastructure? Are tracking gaps preventing analysis? (2) **Analytical capability**—what methods are used for funnel analysis, cohort analysis, segmentation, and journey mapping? What's the statistical rigor and tool proficiency? (3) **Insight generation depth**—how effectively are behavioral patterns identified, friction points diagnosed, and user segments understood? Is analysis descriptive or predictive? (4) **Action translation**—how well are insights prioritized and converted to product decisions? What's the speed from insight to implementation? (5) **Measurement & validation**—how are hypothesis tested through A/B experiments? What's the rigor in impact measurement? (6) **Organizational integration**—how widely is behavioral data used across teams? What's the data literacy level and decision-making culture? Provide maturity scores (1-5 per dimension), capability gaps, prioritized recommendations, and a 6-month improvement roadmap.
 
-**Need quick behavioral insights?** Use this streamlined approach:
-
-### Minimal Example
-```
-Question: Why do users abandon checkout?
-Analysis: Funnel analysis of checkout flow
-Finding: 45% drop-off at shipping page (when costs revealed)
-Segments: Price-sensitive users drop at 2x rate vs others
-Action: Show shipping costs earlier + offer free shipping threshold
-Impact: 15% improvement in checkout completion
-```
-
-### When to Use This
-- Investigating product usage drop-offs or churn
-- Understanding feature adoption patterns
-- Identifying power user behaviors to replicate
-- Optimizing conversion funnels
-- Validating product hypotheses with data
-
-### Basic 4-Step Workflow
-1. **Define question** - What you want to understand about user behavior (1 day)
-2. **Collect & analyze data** - Gather behavioral data and identify patterns (3-5 days)
-3. **Segment analysis** - Break down by user types to find differences (2-3 days)
-4. **Insights & actions** - Translate findings into product improvements (2 days)
+**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for comprehensive behavior analysis capability assessment.
 
 ---
 
 ## Template
 
-```
-You are an experienced product data analyst. Conduct comprehensive user behavior analysis for [PRODUCT_NAME] to answer [RESEARCH_QUESTION] using [DATA_SOURCES] to inform [PRODUCT_DECISIONS] and improve [TARGET_METRICS].
+Conduct a comprehensive user behavior analysis readiness assessment for {PRODUCT_CONTEXT}, focusing on {ANALYSIS_FOCUS} to achieve {BEHAVIORAL_OBJECTIVES}.
 
-ANALYSIS CONTEXT:
-Product Information:
-- Product name: [PRODUCT_NAME]
-- Analysis focus: [FEATURE/FLOW/OVERALL_PRODUCT]
-- Time period: [DATE_RANGE]
-- User base size: [TOTAL_USERS]
+Assess readiness across six dimensions, scoring each 1-5 for maturity:
 
-Research Objective:
-- Primary question: [WHAT_YOU_WANT_TO_UNDERSTAND]
-- Why it matters: [BUSINESS_IMPACT]
-- Decision to inform: [WHAT_THIS_WILL_ENABLE]
-- Success criteria: [WHAT_GOOD_ANALYSIS_LOOKS_LIKE]
+**1. Data Foundation Readiness**
+Evaluate the instrumentation coverage and quality by examining whether all critical user actions are tracked with sufficient context, including whether events capture not just what users do but the state and properties needed to understand why, determining whether data completeness is sufficient for the analyses needed with minimal gaps in user journeys or missing segments, assessing whether tracking implementation is reliable with low error rates and consistent event firing across platforms, examining whether behavioral data infrastructure provides the necessary performance with appropriate retention policies and query capabilities, determining whether data governance establishes clear definitions for events and properties with documentation enabling cross-functional understanding, and assessing whether historical data depth provides sufficient longitudinal view for cohort and trend analysis.
 
-### 1. ANALYSIS FRAMEWORK
+**2. Analytical Capability Readiness**
+Evaluate the methodological sophistication by examining whether funnel analysis capability exists to diagnose conversion drop-offs with clear visibility into step-by-step user progression, determining whether cohort analysis is used to understand retention patterns and segment behavior over time with appropriate cohort definitions, assessing whether path analysis and journey mapping reveal how users actually navigate through the product versus intended flows, examining whether segmentation approaches go beyond basic demographics to behavioral clustering with meaningful distinction between user types, determining whether statistical rigor is applied to distinguish signal from noise including appropriate sample sizes and significance testing, assessing whether analytical tools are effectively utilized with proficiency in platforms like Mixpanel, Amplitude, or analytics databases, and examining whether advanced techniques like predictive modeling, churn prediction, or propensity scoring are applied where appropriate.
 
-Research Questions:
-Primary Question: [MAIN_QUESTION]
-- Why we're asking: [RATIONALE]
-- Expected insights: [WHAT_WE_HOPE_TO_LEARN]
+**3. Insight Generation Depth Readiness**
+Evaluate the quality and depth of insights by examining whether behavioral pattern identification goes beyond surface metrics to uncover meaningful trends in engagement, adoption, and usage intensity, determining whether friction point diagnosis effectively pinpoints where users struggle with evidence from multiple data sources including session recordings and support tickets, assessing whether power user behavior analysis identifies what differentiates successful users to inform activation and retention strategies, examining whether churn signals are well understood with early warning indicators and root cause clarity, determining whether feature adoption analysis explains not just usage rates but the why behind adoption or rejection, assessing whether segment-specific insights reveal how different user types experience the product differently with tailored understanding, and examining whether insights are explanatory rather than merely descriptive with hypotheses about causality informing analysis.
 
-Supporting Questions:
-1. [QUESTION_1]
-2. [QUESTION_2]
-3. [QUESTION_3]
+**4. Action Translation Readiness**
+Evaluate how effectively insights drive decisions by examining whether insight prioritization frameworks exist to focus on high-impact opportunities with clear criteria for what matters most, determining whether product decision integration ensures behavioral data directly informs roadmap priorities and feature decisions rather than being consulted after decisions are made, assessing whether recommendation quality translates findings into specific actionable product changes with clear expected outcomes, examining whether cross-functional alignment ensures insights are understood and acted upon by design, engineering, and marketing teams, determining whether speed from insight to implementation is sufficient with streamlined processes avoiding lengthy deliberation, and assessing whether feedback loops exist to track whether implemented changes delivered expected behavioral improvements.
 
-Hypotheses:
-- Hypothesis 1: [WHAT_YOU_BELIEVE]
-  - Evidence for: [SUPPORTING_DATA]
-  - How to validate: [ANALYSIS_METHOD]
+**5. Measurement & Validation Readiness**
+Evaluate the rigor in testing and measurement by examining whether hypothesis formation is explicit before analysis with clear testable predictions about user behavior, determining whether A/B testing discipline validates insights through controlled experiments before large-scale rollout, assessing whether experimentation infrastructure supports rapid testing with proper randomization, statistical power, and guardrail metrics, examining whether impact measurement rigorously quantifies the effect of product changes on target behaviors with appropriate attribution, determining whether metric selection ensures focus on leading indicators and outcome metrics rather than vanity metrics, assessing whether longitudinal tracking monitors behavioral changes over time to catch delayed effects or degradation, and examining whether learning documentation captures validated insights to build institutional knowledge.
 
-- Hypothesis 2: [WHAT_YOU_BELIEVE]
-  (Same structure)
+**6. Organizational Integration Readiness**
+Evaluate how broadly behavioral analysis capabilities are embedded by examining whether cross-functional usage of behavioral data extends beyond product teams to marketing, sales, support, and executive decision-making, determining whether data literacy levels enable non-analysts to interpret behavioral metrics and understand basic analytical concepts, assessing whether self-service analytics capabilities allow teams to answer their own questions without bottlenecking on data teams, examining whether decision-making culture routinely demands behavioral evidence for product decisions with resistance to opinion-based choices, determining whether behavioral insight rituals establish regular reviews of user behavior trends in team meetings and planning sessions, assessing whether analyst bandwidth is sufficient to support analysis needs across the organization without becoming a constraint, and examining whether executive engagement demonstrates leadership commitment to behavior-driven product development with metrics visibility at the highest levels.
 
-Analysis Types:
-- [ ] Funnel analysis
-- [ ] Cohort analysis
-- [ ] Path analysis
-- [ ] Retention analysis
-- [ ] Feature usage analysis
-- [ ] Segmentation analysis
-- [ ] Time-based patterns
-- [ ] Correlation analysis
+Deliver your assessment as:
 
-### 2. DATA SOURCES & COLLECTION
+1. **EXECUTIVE SUMMARY** - Overall readiness score, maturity level, top 3 capability gaps, recommended focus areas
 
-Data Sources:
-Product Analytics:
-- Platform: [MIXPANEL/AMPLITUDE/GOOGLE_ANALYTICS]
-- Events tracked: [KEY_EVENTS]
-- Properties captured: [USER_PROPERTIES]
-- Completeness: [DATA_QUALITY_LEVEL]
+2. **DIMENSION SCORECARD** - Table with score (X.X/5) and key strength or gap per dimension
 
-Database Queries:
-- Tables: [RELEVANT_TABLES]
-- Metrics: [CALCULATED_METRICS]
-- Joins required: [DATA_RELATIONSHIPS]
+3. **CAPABILITY ANALYSIS** - For each dimension, detail current state, specific gaps, and impact on product effectiveness
 
-Third-Party Data:
-- CRM data: [SALESFORCE/HUBSPOT]
-- Support tickets: [ZENDESK/INTERCOM]
-- Survey data: [USER_FEEDBACK]
+4. **GAP PRIORITIZATION** - Rank top 5 gaps by impact on product outcomes and implementation feasibility with recommended actions
 
-Data Quality Check:
-- Sample size: [N]
-- Coverage: [% OF USERS WITH DATA]
-- Accuracy: [VALIDATION_CHECKS]
-- Completeness: [MISSING_DATA_ASSESSMENT]
+5. **IMPROVEMENT ROADMAP** - 6-month plan with quarterly milestones across Data, Analytics, Process, and Culture
 
-### 3. FUNNEL ANALYSIS
+6. **SUCCESS METRICS** - Current capability baselines vs 3-month and 6-month targets
 
-Funnel Definition:
-Funnel: [FUNNEL_NAME]
-Purpose: [WHAT_THIS_FUNNEL_REPRESENTS]
-
-Steps:
-Step 1: [ACTION]
-- Users: [COUNT]
-- % of total: [100%]
-
-Step 2: [ACTION]
-- Users: [COUNT]
-- % of previous: [CONVERSION_%]
-- % of total: [OVERALL_%]
-- Drop-off: [% WHO LEFT]
-
-Step 3: [ACTION]
-- Users: [COUNT]
-- % of previous: [CONVERSION_%]
-- % of total: [OVERALL_%]
-- Drop-off: [% WHO LEFT]
-
-Step 4: [ACTION]
-- Users: [COUNT]
-- % of previous: [CONVERSION_%]
-- % of total: [OVERALL_%]
-
-Step 5: [ACTION]
-- Users: [COUNT]
-- % of previous: [CONVERSION_%]
-- Overall conversion: [END_TO_END_%]
-
-Example:
-"Signup Funnel"
-- Step 1: Landing page view - 10,000 users (100%)
-- Step 2: Click signup - 3,000 users (30%), drop: 70%
-- Step 3: Enter email - 2,400 users (80% of prev), drop: 20%
-- Step 4: Enter password - 2,100 users (88% of prev), drop: 12%
-- Step 5: Complete signup - 1,800 users (86% of prev), overall: 18%
-
-Drop-off Analysis:
-Largest drop-off: [STEP]
-- Drop-off rate: [%]
-- Users affected: [COUNT]
-- Why users drop: [HYPOTHESIS]
-- Evidence: [QUALITATIVE/QUANTITATIVE]
-
-Second largest drop-off: [STEP]
-(Same structure)
-
-Time Analysis:
-- Median time to complete: [DURATION]
-- Time by step:
-  - Step 1→2: [DURATION]
-  - Step 2→3: [DURATION]
-  - Step 3→4: [DURATION]
-
-Segment Comparison:
-- [SEGMENT_A]: [OVERALL_CONVERSION_%]
-- [SEGMENT_B]: [OVERALL_CONVERSION_%]
-- Difference: [DELTA] - [INSIGHT]
-
-### 4. COHORT ANALYSIS
-
-Cohort Definition:
-- Cohort basis: [SIGNUP_DATE/FIRST_PURCHASE/FEATURE_ADOPTION]
-- Cohort period: [WEEKLY/MONTHLY]
-- Time range: [DATE_RANGE]
-- Number of cohorts: [COUNT]
-
-Retention Cohorts:
-Cohort: [MONTH/WEEK]
-- Size: [USERS]
-- Day 1: [RETENTION_%]
-- Day 7: [RETENTION_%]
-- Day 30: [RETENTION_%]
-- Day 60: [RETENTION_%]
-- Day 90: [RETENTION_%]
-
-Cohort Comparison:
-- Best performing cohort: [WHICH] - [WHY_BETTER]
-- Worst performing cohort: [WHICH] - [WHY_WORSE]
-- Trend over time: [IMPROVING/DECLINING/STABLE]
-- External factors: [WHAT_INFLUENCED_COHORTS]
-
-Revenue Cohorts:
-Cohort: [MONTH]
-- Month 1 revenue: [AMOUNT]
-- Month 2 revenue: [AMOUNT]
-- Month 3 revenue: [AMOUNT]
-- LTV projection: [ESTIMATED_VALUE]
-
-Insights:
-- Retention pattern: [WHAT_CURVE_SHOWS]
-- Inflection points: [WHEN_USERS_STICK_OR_LEAVE]
-- Cohort differences: [VARIATIONS_EXPLAINED]
-
-### 5. USER JOURNEY ANALYSIS
-
-Path Analysis:
-Most Common Paths:
-Path 1: [SEQUENCE_OF_ACTIONS]
-- Users: [COUNT]
-- % of total: [%]
-- Outcome: [WHERE_THEY_END_UP]
-
-Path 2: [SEQUENCE]
-(Same structure)
-
-Path 3: [SEQUENCE]
-(Same structure)
-
-Unexpected Paths:
-- Path: [SURPRISING_SEQUENCE]
-- Why interesting: [INSIGHT]
-- Frequency: [HOW_COMMON]
-
-Dead Ends:
-- Page/feature: [WHERE_USERS_GET_STUCK]
-- % who exit: [%]
-- Next steps taken: [WHAT_THEY_DO_INSTEAD]
-
-Journey Maps:
-Entry Points:
-- [ENTRY_1]: [% OF USERS] - [TYPICAL_PATH_FROM_HERE]
-- [ENTRY_2]: [% OF USERS] - [TYPICAL_PATH_FROM_HERE]
-
-Critical Moments:
-- Moment 1: [ACTION/PAGE]
-  - Importance: [WHY_CRITICAL]
-  - Success rate: [%]
-  - Failure impact: [CONSEQUENCE]
-
-Exit Points:
-- [EXIT_1]: [% WHO LEAVE] - [WHY_THEY_LEAVE]
-- [EXIT_2]: [% WHO LEAVE] - [WHY_THEY_LEAVE]
-
-### 6. FEATURE USAGE ANALYSIS
-
-Feature Adoption:
-Feature: [FEATURE_NAME]
-- Users exposed: [COUNT]
-- Users who tried: [COUNT] ([ADOPTION_%])
-- Active users: [COUNT] ([ACTIVE_%])
-- Power users: [COUNT] ([HEAVY_USAGE_%])
-
-Usage Patterns:
-- Frequency: [DAILY/WEEKLY/MONTHLY]
-- Sessions per user: [AVERAGE]
-- Actions per session: [AVERAGE]
-- Time spent: [AVERAGE_DURATION]
-
-Adoption Curve:
-- Week 1: [ADOPTION_%]
-- Week 2: [ADOPTION_%]
-- Week 4: [ADOPTION_%]
-- Month 3: [ADOPTION_%]
-- Plateau: [EVENTUAL_%]
-
-Feature Correlation:
-- Users of Feature A who also use Feature B: [%]
-- Feature combos that predict retention: [COMBINATIONS]
-- Feature usage vs churn: [CORRELATION]
-
-Abandonment:
-- Users who stopped using: [COUNT]
-- When they stopped: [TIME_PERIOD]
-- Why they stopped: [HYPOTHESIS_FROM_DATA]
-- Reactivation rate: [%]
-
-### 7. SEGMENTATION ANALYSIS
-
-Behavioral Segments:
-Segment 1: [SEGMENT_NAME]
-- Definition: [BEHAVIORAL_CRITERIA]
-- Size: [COUNT/_%]
-- Characteristics:
-  - Usage frequency: [PATTERN]
-  - Features used: [PREFERENCES]
-  - Engagement level: [SCORE]
-  - Retention: [%]
-  - Value: [LTV/REVENUE]
-
-Example:
-"Power Users"
-- Definition: Use product 5+ days/week, use 3+ features, tenure >3 months
-- Size: 15% of users (1,500 users)
-- Characteristics:
-  - Usage: Daily, avg 45 min/session
-  - Features: Use advanced features + core
-  - Engagement: 90% DAU/MAU
-  - Retention: 95% month-over-month
-  - Value: 3x ARPU, 5x LTV
-
-Segment 2: [SEGMENT_NAME]
-(Same structure)
-
-Segment 3: [SEGMENT_NAME]
-(Same structure)
-
-Segment Comparison:
-Metric: [METRIC_NAME]
-- Segment A: [VALUE]
-- Segment B: [VALUE]
-- Segment C: [VALUE]
-- Key differences: [INSIGHTS]
-
-### 8. ENGAGEMENT PATTERNS
-
-Activity Patterns:
-Time-based Patterns:
-- Peak usage hours: [TIME_OF_DAY]
-- Peak usage days: [DAYS_OF_WEEK]
-- Seasonal patterns: [MONTHLY/QUARTERLY]
-
-Session Analysis:
-- Average session length: [DURATION]
-- Sessions per user: [FREQUENCY]
-- Pages per session: [DEPTH]
-- Bounce rate: [%]
-
-Engagement Levels:
-High Engagement:
-- Definition: [CRITERIA]
-- % of users: [%]
-- Retention: [%]
-- Value: [REVENUE_CONTRIBUTION]
-
-Medium Engagement:
-- Definition: [CRITERIA]
-- % of users: [%]
-- Retention: [%]
-
-Low Engagement:
-- Definition: [CRITERIA]
-- % of users: [%]
-- Retention: [%]
-- At-risk: [% LIKELY TO CHURN]
-
-Engagement Drivers:
-- Action 1: [ACTION] - Increases engagement by [%]
-- Action 2: [ACTION] - Increases engagement by [%]
-- Action 3: [ACTION] - Increases engagement by [%]
-
-### 9. CHURN & RETENTION ANALYSIS
-
-Churn Analysis:
-Overall Churn:
-- Churn rate: [%_PER_MONTH]
-- Churned users: [COUNT]
-- Trend: [INCREASING/DECREASING/STABLE]
-
-Churn Segments:
-- [SEGMENT_1]: [CHURN_%]
-- [SEGMENT_2]: [CHURN_%]
-- [SEGMENT_3]: [CHURN_%]
-- Highest risk: [WHICH_SEGMENT]
-
-Early Warning Signals:
-Signal 1: [BEHAVIOR]
-- Churn probability: [%]
-- Detection window: [HOW_EARLY]
-- Prevalence: [% OF USERS SHOW THIS]
-
-Signal 2: [BEHAVIOR]
-(Same structure)
-
-Signal 3: [BEHAVIOR]
-(Same structure)
-
-Retention Drivers:
-Positive Drivers:
-- [BEHAVIOR_1]: Associated with [%] higher retention
-- [BEHAVIOR_2]: Associated with [%] higher retention
-
-Negative Drivers:
-- [BEHAVIOR_1]: Associated with [%] higher churn
-- [BEHAVIOR_2]: Associated with [%] higher churn
-
-Resurrection Analysis:
-- Churned users who returned: [%]
-- What brought them back: [TRIGGERS]
-- Retention after return: [%]
-
-### 10. POWER USER ANALYSIS
-
-Power User Definition:
-Criteria: [WHAT_MAKES_SOMEONE_A_POWER_USER]
-- Size: [% OF USER BASE]
-- Value: [REVENUE_CONTRIBUTION_%]
-
-Power User Behaviors:
-- Frequency: [USAGE_PATTERN]
-- Features: [WHICH_FEATURES_THEY_USE]
-- Depth: [HOW_DEEPLY_THEY_USE]
-- Tenure: [HOW_LONG_THEY_STAY]
-
-Path to Power User:
-Activation Actions:
-- Action 1: [ACTION]
-  - % of power users who did this: [%]
-  - Timing: [WHEN_IN_JOURNEY]
-  - Impact: [CORRELATION_TO_RETENTION]
-
-- Action 2: [ACTION]
-  (Same structure)
-
-Time to Power User:
-- Median time: [DURATION]
-- What happens in that time: [KEY_MILESTONES]
-
-Replicating Power Users:
-- Behaviors to encourage: [ACTIONS]
-- Interventions to test: [PRODUCT_CHANGES]
-- Expected impact: [PROJECTED_OUTCOME]
-
-### 11. FRICTION POINTS
-
-Friction Identification:
-Friction Point 1: [LOCATION/FEATURE]
-- Issue: [WHAT'S_WRONG]
-- Evidence: [DATA_SHOWING_FRICTION]
-  - Drop-off rate: [%]
-  - Time spent: [LONGER_THAN_EXPECTED]
-  - Error rate: [%]
-  - User feedback: [QUOTES/COMPLAINTS]
-- Impact: [USERS_AFFECTED/REVENUE_LOST]
-- Severity: [HIGH/MEDIUM/LOW]
-
-Friction Point 2: [LOCATION/FEATURE]
-(Same structure)
-
-Friction Point 3: [LOCATION/FEATURE]
-(Same structure)
-
-Root Cause Analysis:
-- What: [OBSERVABLE_PROBLEM]
-- Why 1: [SURFACE_REASON]
-- Why 2: [DEEPER_REASON]
-- Why 3: [ROOT_CAUSE]
-- Solution: [HOW_TO_FIX]
-
-### 12. INSIGHTS & RECOMMENDATIONS
-
-Key Insights:
-Insight 1: [FINDING]
-- Evidence: [DATA_SUPPORTING]
-- Impact: [WHO_AFFECTED/HOW_MUCH]
-- Confidence: [HIGH/MEDIUM/LOW]
-- Implications: [WHAT_THIS_MEANS]
-
-Example:
-"Users who complete onboarding in <5 minutes have 3x higher retention"
-- Evidence: Cohort analysis shows 60% D30 retention vs 20% for slower onboarding
-- Impact: 8,000 users/month, 40% take >5 minutes
-- Confidence: High (n=50,000, p<0.001)
-- Implications: Optimize onboarding for speed, target <5 minutes
-
-Insight 2: [FINDING]
-(Same structure)
-
-Insight 3: [FINDING]
-(Same structure)
-
-Recommendations:
-Priority 1 (High Impact, High Confidence):
-- Recommendation: [WHAT_TO_DO]
-- Rationale: [WHY]
-- Expected impact: [QUANTIFIED_BENEFIT]
-- Effort: [DEVELOPMENT_TIME]
-- Owner: [TEAM_RESPONSIBLE]
-
-Priority 2 (High Impact, Medium Confidence):
-- Recommendation: [WHAT_TO_DO]
-- Test first: [VALIDATION_NEEDED]
-- Expected impact: [RANGE]
-
-Priority 3 (Quick Wins):
-- Recommendation: [WHAT_TO_DO]
-- Low effort, moderate impact
-
-Follow-up Analysis:
-- [ ] [NEXT_QUESTION_TO_ANSWER]
-- [ ] [ADDITIONAL_SEGMENTATION]
-- [ ] [DEEPER_DIVE_NEEDED]
-
-### 13. TRACKING & MEASUREMENT
-
-Success Metrics:
-If we implement recommendations:
-- Metric 1: [METRIC] should move from [BASELINE] to [TARGET]
-- Metric 2: [METRIC] should move from [BASELINE] to [TARGET]
-- Timeline: [WHEN_TO_EXPECT_IMPACT]
-
-Measurement Plan:
-- Dashboard: [WHERE_TO_TRACK]
-- Review cadence: [FREQUENCY]
-- Owner: [WHO_MONITORS]
-- Adjustments: [WHEN_TO_ITERATE]
-
-A/B Tests to Run:
-- Test 1: [HYPOTHESIS_TO_VALIDATE]
-- Test 2: [HYPOTHESIS_TO_VALIDATE]
-```
-
-## Variables
-
-### PRODUCT_NAME
-Your product.
-**Examples:**
-- "Mobile fitness app"
-- "B2B SaaS platform"
-- "E-commerce website"
-
-### RESEARCH_QUESTION
-What you want to understand.
-**Examples:**
-- "Why do users abandon onboarding?"
-- "What behaviors predict long-term retention?"
-- "Why isn't Feature X being adopted?"
-
-### DATA_SOURCES
-Where your data comes from.
-**Examples:**
-- "Mixpanel events + Postgres database + support tickets"
-- "Google Analytics + Stripe + user surveys"
-- "Amplitude + Salesforce + NPS surveys"
-
-### PRODUCT_DECISIONS
-What this analysis will inform.
-**Examples:**
-- "Whether to redesign onboarding flow"
-- "Which segments to target with new feature"
-- "Where to focus product improvements"
-
-### TARGET_METRICS
-What you're trying to improve.
-**Examples:**
-- "7-day retention rate"
-- "Feature adoption rate"
-- "Conversion to paid"
-
-## Usage Examples
-
-### Example 1: Onboarding Drop-off Analysis
-```
-Question: Why do 60% of users abandon onboarding?
-Funnel Analysis:
-- Step 1 (Welcome): 10,000 users
-- Step 2 (Profile): 7,000 (-30%)
-- Step 3 (Connect accounts): 4,500 (-36%) ← Largest drop
-- Step 4 (First action): 4,000 (-11%)
-Finding: OAuth connection step is major friction
-Segment: Mobile users drop at 2x rate (45% vs 20%)
-Action: Simplify connection flow, make skippable
-```
-
-### Example 2: Feature Adoption Analysis
-```
-Feature: Advanced reporting dashboard
-Adoption: Only 12% of eligible users
-Analysis:
-- Discovery: 80% of users don't know it exists
-- Activation: Of those aware, 60% try it
-- Retention: Of those who try, 50% use regularly
-Issue: Discovery problem, not value problem
-Action: Add in-product prompts, highlight in emails
-Expected: 30% adoption (2.5x improvement)
-```
-
-### Example 3: Churn Prediction
-```
-Question: Can we predict churn before it happens?
-Analysis: Logistic regression on 6 months of data
-Warning Signals:
-- No login in 7 days: 3x churn risk
-- <50% feature usage vs first month: 4x risk
-- Support ticket in last 30 days: 2x risk
-Predictive: Model accuracy 78%, 14-day lead time
-Action: Automated health scores, proactive outreach
-```
-
-### Example 4: Power User Analysis
-```
-Power Users: Top 10% by engagement
-Behaviors:
-- Invite 3+ team members (vs 0 for others)
-- Use mobile + desktop (vs desktop only)
-- Complete profile within 24 hours
-- Use 4+ features (vs 2 average)
-Value: 5x LTV, 95% retention vs 60%
-Action: Optimize for these behaviors in onboarding
-Expected: 25% more users reach power user status
-```
-
-## Best Practices
-
-### Analysis Approach
-1. **Start with questions** - Not "let's look at the data" but "what do we need to know?"
-2. **Hypothesize first** - Form beliefs to test, not just explore
-3. **Multiple methods** - Combine funnel, cohort, segment analysis
-4. **Quantitative + qualitative** - Numbers + user feedback
-5. **Action-oriented** - Every insight should inform a decision
-
-### Data Quality
-1. **Validate data** - Check sample sizes, completeness, accuracy
-2. **Understand bias** - What's missing or skewed in your data?
-3. **Segment appropriately** - Aggregates hide important variation
-4. **Time windows** - Choose analysis periods carefully
-5. **Statistical significance** - Know when sample sizes matter
-
-### Insights
-1. **So what?** - Every finding should have a clear implication
-2. **Prioritize** - Not all insights are equally actionable
-3. **Confidence levels** - Be honest about certainty
-4. **Context** - External factors, seasonality, experiments running
-5. **Tell a story** - Connect findings into coherent narrative
-
-### Communication
-1. **Visual** - Charts and graphs over tables
-2. **Simple** - Accessible to non-technical stakeholders
-3. **Action-focused** - Recommendations, not just observations
-4. **Transparent** - Show methodology and limitations
-5. **Iterative** - Share early, incorporate feedback
-
-## Common Pitfalls
-
-❌ **Analysis paralysis** - Endless analysis without action
-✅ Instead: Time-box analysis, make decision with available data
-
-❌ **Confirmation bias** - Only looking for data that supports your hypothesis
-✅ Instead: Actively seek disconfirming evidence
-
-❌ **Spurious correlations** - Confusing correlation with causation
-✅ Instead: Test causal hypotheses with experiments
-
-❌ **Ignoring segments** - Looking only at aggregate metrics
-✅ Instead: Always segment by user type, cohort, behavior
-
-❌ **Cherry-picking** - Selecting favorable time periods or metrics
-✅ Instead: Consistent methodology across analyses
-
-❌ **Missing the forest** - Getting lost in details, missing big picture
-✅ Instead: Start with high-level patterns, drill into details
-
-❌ **Not validating findings** - Acting on analysis without testing
-✅ Instead: Use A/B tests to validate insights before major changes
-
-❌ **Stale analysis** - Using outdated data or not refreshing
-✅ Instead: Regular updates, especially for key metrics
-
-## Analysis Checklist
-
-Planning:
-- [ ] Research questions clearly defined
-- [ ] Hypotheses documented
-- [ ] Success criteria established
-- [ ] Data sources identified
-- [ ] Analysis timeline set
-
-Execution:
-- [ ] Data quality validated
-- [ ] Sample sizes sufficient
-- [ ] Multiple analysis methods used
-- [ ] Segmentation applied
-- [ ] Statistical significance checked
-
-Insights:
-- [ ] Key findings documented
-- [ ] Confidence levels assigned
-- [ ] Implications explained
-- [ ] Recommendations prioritized
-- [ ] Follow-up questions identified
-
-Communication:
-- [ ] Results visualized clearly
-- [ ] Stakeholders briefed
-- [ ] Decisions made
-- [ ] Actions assigned
-- [ ] Tracking plan established
+Use this maturity scale:
+- 1.0-1.9: Initial (ad-hoc analysis, significant capability gaps)
+- 2.0-2.9: Developing (basic capabilities, inconsistent application)
+- 3.0-3.9: Defined (solid foundation, scaling challenges)
+- 4.0-4.9: Managed (mature capabilities, optimization focus)
+- 5.0: Optimized (industry-leading, continuous innovation)
 
 ---
 
-**Last Updated:** 2025-11-12
-**Category:** Product Management > Product Analytics
-**Difficulty:** Intermediate to Advanced
-**Estimated Time:** 1-2 weeks per major analysis
+## Variables
+
+| Variable | Description | Example |
+|----------|-------------|---------|
+| `{PRODUCT_CONTEXT}` | The product and organizational context for assessment | "B2B SaaS collaboration platform with 50K MAU, Series B stage, product-analytics team of 3" |
+| `{ANALYSIS_FOCUS}` | The specific behavioral analysis areas or questions of interest | "onboarding conversion, feature adoption patterns, and churn prediction for enterprise segment" |
+| `{BEHAVIORAL_OBJECTIVES}` | The goals you aim to achieve through better behavioral analysis | "increase D7 retention from 40% to 55%, improve enterprise feature adoption by 30%, reduce time-to-value" |
+
+---
+
+## Usage Examples
+
+### Example 1: B2B SaaS Product Analytics Maturity
+
+**Context:** Series B SaaS company with growing analytics needs, currently using basic GA4, wanting to mature behavioral analysis capabilities.
+
+**Assessment Highlights:**
+- **Overall Score: 2.4/5 (Developing)** - Basic tracking in place but significant gaps in analytical sophistication and action translation
+- **Dimension Scores:** Data Foundation 3.2 (solid event tracking implemented last year), Analytical Capability 2.1 (mostly descriptive dashboards), Insight Generation 2.0 (surface-level pattern identification), Action Translation 2.2 (insights rarely drive decisions), Measurement Rigor 1.8 (minimal A/B testing), Organizational Integration 2.5 (product team uses data, others don't)
+
+**Key Gaps:**
+1. **Analytical sophistication** - Team can show metrics but struggles with cohort analysis, segmentation, and causal inference. Most analysis is "what happened" not "why happened" or "what will happen"
+2. **Experimentation culture** - No systematic A/B testing framework, product changes shipped without validation, relying on post-launch monitoring that misses many effects
+3. **Cross-functional adoption** - Sales, marketing, and support teams don't leverage behavioral data, creating disconnected customer understanding across organization
+
+**Recommendations:**
+- **Immediate (Month 1-2):** Migrate from GA4 to Amplitude or Mixpanel for product analytics depth, implement core funnels and retention cohorts for weekly review, train product team on cohort analysis and segmentation techniques
+- **Short-term (Month 3-4):** Build experimentation infrastructure with proper randomization and statistical rigor, establish behavioral insight review in sprint planning, create self-service dashboards for key user journeys
+- **Medium-term (Month 5-6):** Develop churn prediction model to identify at-risk accounts early, extend behavioral data access to customer success and marketing teams, hire senior product analyst to elevate sophistication
+
+**Expected Outcomes:** Reach 3.5/5 overall within 6 months, with particular improvement in Analytical Capability (2.1→3.8) and Measurement Rigor (1.8→3.5), enabling data-informed product decisions to become the norm rather than exception.
+
+### Example 2: Consumer Mobile App Retention Optimization
+
+**Context:** Consumer mobile fitness app with strong growth but concerning retention, limited understanding of why users churn, wanting behavioral insights to guide retention improvements.
+
+**Assessment Highlights:**
+- **Overall Score: 2.8/5 (Developing)** - Good mobile analytics implementation but struggling to translate data into retention improvements
+- **Dimension Scores:** Data Foundation 3.5 (Firebase + custom events well instrumented), Analytical Capability 2.8 (can analyze but not deeply), Insight Generation 2.2 (don't understand retention drivers), Action Translation 3.0 (when insights exist, they're acted on), Measurement Rigor 3.2 (A/B testing culture exists), Organizational Integration 2.1 (analyst bottleneck)
+
+**Key Gaps:**
+1. **Retention understanding** - Can measure retention curves but can't explain why different cohorts perform differently, unclear what behaviors predict long-term retention versus quick churn
+2. **Power user analysis** - Don't know what makes their most engaged users successful, missing opportunity to optimize onboarding and activation toward power user behaviors
+3. **Predictive capability** - Analysis is purely retrospective, no early warning system for users likely to churn, interventions happen too late
+
+**Recommendations:**
+- **Immediate (Week 1-2):** Conduct deep-dive cohort retention analysis comparing high vs low retention cohorts, analyze first-week behaviors of users who become highly engaged vs those who churn early
+- **Short-term (Month 1-2):** Build power user behavioral profile identifying 5-7 key actions that differentiate retention, implement leading indicator dashboard showing real-time activation metrics
+- **Medium-term (Month 3-4):** Develop predictive churn model scoring users on likelihood to churn in next 30 days, design and test intervention strategy (push notifications, email, in-app messages) for at-risk users
+- **Ongoing:** Establish weekly retention review examining cohort trends and segment-specific retention drivers, train PM team on identifying behavioral patterns in user journeys
+
+**Expected Outcomes:** Increase D30 retention from 18% to 25% through activation optimization, implement early churn intervention reducing preventable churn by 20%, achieve 3.8/5 Insight Generation score within 4 months.
+
+### Example 3: Enterprise Platform Feature Adoption Analysis
+
+**Context:** Enterprise software platform adding new AI-powered features but seeing disappointing adoption rates, need behavioral analysis to understand barriers and optimize adoption.
+
+**Assessment Highlights:**
+- **Overall Score: 3.2/5 (Defined)** - Mature analytics infrastructure but not optimized for feature adoption insights
+- **Dimension Scores:** Data Foundation 3.8 (comprehensive tracking), Analytical Capability 3.5 (sophisticated methods available), Insight Generation 2.8 (not focused on adoption), Action Translation 3.0 (follows insights), Measurement Rigor 3.6 (strong testing culture), Organizational Integration 2.5 (siloed)
+
+**Key Gaps:**
+1. **Feature discovery understanding** - Track feature usage but not how users discover features, unclear whether low adoption is awareness problem vs value problem vs UX problem
+2. **Adoption journey mapping** - Missing visibility into the path from first exposure to active usage, don't know where drop-offs occur in the adoption funnel
+3. **Segment-specific barriers** - Aggregate adoption metrics hide that some customer segments adopt readily while others don't, need segment-specific adoption strategies
+
+**Recommendations:**
+- **Immediate (Week 1-2):** Map complete feature adoption funnel from first exposure through active usage with drop-off quantification at each stage, conduct segment analysis comparing enterprise vs SMB and industry-specific adoption patterns
+- **Short-term (Month 1-2):** Implement feature discovery tracking (how users learn about feature), analyze correlation between discovery method and eventual adoption, identify friction points through session replay analysis of users who tried but didn't adopt
+- **Medium-term (Month 2-4):** Design and test interventions addressing top adoption barriers (improved onboarding flows, contextual help, proactive outreach), build adoption prediction model to identify high-potential users for targeted enablement
+- **Cross-functional (Ongoing):** Share feature adoption insights with product marketing for messaging optimization and sales for better customer conversations, establish feature performance scorecards reviewed monthly with leadership
+
+**Expected Outcomes:** Increase new feature adoption from 12% to 35% within 6 months, reduce time-to-adoption from 60 days to 20 days for engaged users, elevate Insight Generation to 4.0/5 through focused adoption analytics.
+
+---
+
+## Cross-References
+
+- [Product Metrics & KPIs](product-metrics-kpis.md) - For defining metrics to track
+- [A/B Testing & Experimentation](ab-testing-experimentation.md) - For validating behavioral insights
+- [User Research & Personas](../Product-Development/user-research-personas.md) - For qualitative behavioral understanding
+- [Product Analytics Framework](product-analytics-framework.md) - For comprehensive analytics approach

@@ -1,6 +1,5 @@
 ---
 category: education
-last_updated: 2025-11-10
 related_templates:
 - education/Academic-Research/research-design-sampling-data.md
 - education/Academic-Research/research-design-analysis-quality.md
@@ -10,465 +9,125 @@ tags:
 - research-paradigms
 - conceptual-models
 - epistemology
-title: Research Design Foundation - Theoretical Framework & Design Selection
+- design-readiness
+- research-foundation
+title: Research Design Foundation Readiness Assessment
 use_cases:
-- Developing theoretical frameworks and research foundations for academic studies
-- Selecting appropriate research paradigms and design methodologies
-- Building conceptual models and establishing epistemological foundations
+- Evaluating readiness to finalize a theoretical foundation and study design
+- Identifying gaps in paradigm alignment, conceptual clarity, and design justification
+- Reducing rework before proposals, IRB submission, or preregistration
+- Producing a defensible rationale that reviewers can follow
 industries:
 - education
 - healthcare
-type: template
+type: framework
 difficulty: intermediate
 slug: research-design-foundation
 ---
 
-# Research Design Foundation - Theoretical Framework & Design Selection
+# Research Design Foundation Readiness Assessment
 
 ## Purpose
-Establish the conceptual backbone of your research by developing rigorous theoretical frameworks, selecting appropriate research paradigms, and justifying methodological design choices. This prompt guides you through the foundational elements that ground your research in theory and establish the philosophical and methodological basis for your study.
+Comprehensively assess readiness to lock the foundational decisions for a research study across six dimensions: Problem & Contribution Clarity, Theory & Conceptual Model Fit, Paradigm & Assumptions Coherence, Question & Construct Precision, Design & Method Fit, and Feasibility & Alignment. This framework helps you prevent “design drift,” strengthen justification, and produce a foundation that holds up under committee or peer review.
 
-## Quick Research Design Foundation Prompt
+## 🚀 Quick Assessment Prompt
 
-Establish theoretical foundation for [research topic] study. Ground in [theoretical framework/theory] from [discipline/field], adopt [paradigm: positivist/interpretivist/pragmatic/critical] epistemology with [ontological stance]. Formulate research questions: RQ1 [primary question], RQ2 [secondary question]. Select [design: experimental/correlational/phenomenological/grounded theory] approach with [quantitative/qualitative/mixed] methodology. Justify design choice based on [alignment with questions/practical constraints/disciplinary norms].
+> Assess **research design foundation readiness** for **{STUDY_CONTEXT}** pursuing **{RESEARCH_GOALS}** under **{CONSTRAINTS}**. Evaluate across: (1) **Problem & contribution**—is the gap specific and the intended contribution defensible? (2) **Theory & conceptual model**—does the framework explain mechanisms and define constructs clearly? (3) **Paradigm & assumptions**—are epistemology/ontology/value assumptions explicit and consistent with methods? (4) **Questions & constructs**—are research questions precise, measurable/observable, and scoped? (5) **Design & method fit**—does the chosen design credibly answer the questions with minimal bias? (6) **Feasibility & alignment**—is the plan realistic given time, access, ethics, and resources? Provide a 1–5 scorecard, key risks, and a foundation “locking plan” (what to finalize next, in what order).
 
-## Quick Start
+**Usage:** Replace the curly-brace placeholders with your specifics. Use as a prompt to an AI assistant for rapid foundation readiness evaluation.
 
-### For Researchers Building Study Foundations
-
-**Step 1: Define Your Research Foundation**
-- Articulate your research problem and its significance
-- Identify the theoretical framework that will guide your study
-- Clarify your research questions and objectives
-
-**Step 2: Select Your Philosophical Paradigm**
-- Choose your epistemological stance (positivist, interpretivist, pragmatic, critical)
-- Define your ontological position and axiological considerations
-- Determine how your worldview shapes your methodological choices
-
-**Step 3: Select Your Research Design**
-- Choose between experimental, quasi-experimental, or observational designs
-- Select quantitative, qualitative, or mixed-methods approach
-- Justify design selection based on research questions and constraints
-
-**Step 4: Generate and Refine**
-- Input your specifications into the template variables
-- Generate comprehensive theoretical framework and design rationale
-- Review for coherence, rigor, and alignment with research objectives
-
-**Common Use Cases:**
-- Dissertation proposal chapters on theoretical frameworks
-- Grant proposals requiring methodological justification
-- Research protocol theoretical foundations
-- Methodology course assignments
-- IRB submissions requiring design rationale
+---
 
 ## Template
 
-```
-You are an expert research methodologist and study design specialist with extensive experience in theoretical framework development, philosophical foundations, and research design selection. Create a detailed research design foundation based on the following information:
+Conduct a comprehensive research design foundation readiness assessment for {STUDY_CONTEXT} pursuing {RESEARCH_GOALS} under {CONSTRAINTS}.
 
-Research Context:
-- Research Domain: [RESEARCH_FIELD]
-- Research Focus: [STUDY_FOCUS]
-- Research Problem: [PROBLEM_STATEMENT]
-- Research Question: [PRIMARY_RESEARCH_QUESTION]
-- Research Objectives: [STUDY_OBJECTIVES]
-- Research Significance: [SIGNIFICANCE_RATIONALE]
-- Theoretical Framework: [THEORETICAL_FOUNDATION]
-- Conceptual Model: [CONCEPTUAL_FRAMEWORK]
+Assess readiness across six dimensions, scoring each 1–5:
 
-### Study Specifications
-- Research Design: [DESIGN_TYPE]
-- Research Approach: [METHODOLOGICAL_APPROACH]
-- Research Strategy: [RESEARCH_STRATEGY]
-- Study Population: [TARGET_POPULATION]
-- Study Setting: [RESEARCH_SETTING]
-- Study Duration: [TIME_FRAME]
-- Geographic Scope: [LOCATION_BOUNDARIES]
+**1. PROBLEM & CONTRIBUTION CLARITY READINESS**
+Evaluate whether the study has a compelling reason to exist by assessing whether the problem is scoped to a specific context and audience, whether the literature gap is concrete rather than vague, and whether the contribution is stated as precise claims about what new knowledge will be produced. Examine whether the study avoids overpromising, differentiates novelty from mere new data, and identifies what the work will change in theory, practice, or decision-making if it succeeds.
 
-### Methodological Requirements
-- Paradigmatic Foundation: [PHILOSOPHICAL_PARADIGM]
-- Epistemological Stance: [KNOWLEDGE_PERSPECTIVE]
-- Ontological Position: [REALITY_PERSPECTIVE]
-- Axiological Considerations: [VALUE_ASSUMPTIONS]
+**2. THEORY & CONCEPTUAL MODEL FIT READINESS**
+Evaluate whether the theoretical foundation is doing real explanatory work by assessing whether the chosen theory fits the phenomenon, defines constructs with discipline-appropriate precision, and offers testable or traceable mechanisms. Examine whether the conceptual model clarifies relationships, boundary conditions, and alternative explanations, and whether the framework is parsimonious enough to guide design decisions without turning into an exhaustive literature summary.
 
-### Resource Context
-- Budget Constraints: [FINANCIAL_LIMITATIONS]
-- Time Constraints: [TEMPORAL_LIMITATIONS]
-- Personnel Resources: [HUMAN_RESOURCES]
-- Access Limitations: [ACCESS_CONSTRAINTS]
+**3. PARADIGM & ASSUMPTIONS COHERENCE READINESS**
+Evaluate whether the philosophical stance is coherent by assessing whether epistemological assumptions match the type of claims you intend to make and whether ontological assumptions align with how you treat constructs as measurable, interpretive, or mixed. Examine whether values and positionality are acknowledged where relevant, whether quality criteria match the paradigm (e.g., validity vs trustworthiness), and whether the paradigm choice informs method selection rather than appearing as a decorative paragraph.
 
-Generate a comprehensive research design foundation that includes:
+**4. QUESTION & CONSTRUCT PRECISION READINESS**
+Evaluate whether questions can be answered cleanly by assessing whether primary and secondary research questions are unambiguous, whether constructs are operationalized (or interpretable) with clear inclusion/exclusion boundaries, and whether hypotheses or propositions are stated with appropriate conditionality. Examine whether outcomes, mechanisms, contexts, and comparisons (where relevant) are specified, and whether the scope is narrow enough to be feasible while still significant.
 
-## EXECUTIVE SUMMARY
-### Research Design Overview
-- Comprehensive methodological framework development
-- Theory-driven and evidence-based approach
-- Rigorous design selection and justification
-- Philosophical grounding and paradigmatic coherence
-- Integration of theoretical and practical considerations
-- Alignment with disciplinary standards and best practices
-- Feasibility assessment and constraint management
-- Innovation and methodological advancement opportunities
+**5. DESIGN & METHOD FIT READINESS**
+Evaluate whether the design can credibly support the intended inference by assessing whether the design type (experimental, quasi-experimental, observational, case study, phenomenological, grounded theory, mixed methods) matches the question and constraints. Examine whether bias threats are anticipated, whether the sampling logic makes sense for the inference goal, whether measurement choices are justified, and whether the chosen approach can distinguish signal from noise in a way reviewers will accept.
 
-### Key Foundation Components
-- Clear problem statement and significance articulation
-- Comprehensive literature review and knowledge synthesis
-- Robust theoretical framework and conceptual model
-- Well-defined research questions and objectives
-- Appropriate paradigmatic foundation and philosophical stance
-- Justified research design and methodology selection
-- Coherent integration of theory, design, and methods
-- Strategic planning for rigorous implementation
+**6. FEASIBILITY & ALIGNMENT READINESS**
+Evaluate whether the foundation translates into an executable plan by assessing access to participants/sites/data, timeline realism, required skills and tooling, and alignment with ethics and institutional constraints. Examine whether the plan has a minimum viable path if access or recruitment underperforms, whether dependencies are identified (permissions, training, instruments), and whether the study’s ambition is calibrated to resources without sacrificing rigor.
 
-## 1. RESEARCH FOUNDATION AND THEORETICAL FRAMEWORK
-### 1.1 Research Problem and Significance
-#### Problem Statement and Context
-##### Issue Identification and Definition
-- Research problem scope and boundaries
-- Problem complexity and multidimensional nature
-- Current state of knowledge and understanding
-- Gaps in existing research and evidence
-- Theoretical controversy and unresolved questions
-- Practical challenges and real-world implications
-- Policy relevance and decision-making needs
-- Social, economic, and environmental significance
+---
 
-##### Problem Magnitude and Impact
-- Affected population size and characteristics
-- Geographic distribution and regional variation
-- Temporal trends and historical patterns
-- Cost and resource implications
-- Quality of life and well-being impact
-- Equity and social justice considerations
-- Environmental and sustainability implications
-- Future projections and scenario planning
+## Required Output Format
 
-#### Research Significance and Justification
-##### Theoretical Contribution and Advancement
-- Knowledge gap filling and theory development
-- Conceptual framework refinement and expansion
-- Methodological innovation and advancement
-- Paradigm shift and perspective transformation
-- Cross-disciplinary integration and synthesis
-- Cultural and contextual theory adaptation
-- Historical and evolutionary understanding
-- Future theory building and prediction
+Structure your assessment as:
 
-##### Practical Relevance and Application
-- Evidence-based practice improvement
-- Policy development and implementation support
-- Program design and evaluation enhancement
-- Decision-making tool and resource development
-- Cost-effectiveness and resource optimization
-- Quality improvement and outcome enhancement
-- Risk reduction and prevention strategies
-- Innovation and transformation catalysis
+1. **EXECUTIVE SUMMARY** - Overall readiness score (X.X/5.0), maturity level, “ready to lock” recommendation, top 3 foundation risks
 
-### 1.2 Literature Review and Knowledge Foundation
-#### Comprehensive Literature Analysis
-##### Systematic Evidence Review
-- Comprehensive database search and screening
-- Quality assessment and bias evaluation
-- Evidence synthesis and meta-analysis
-- Pattern identification and trend analysis
-- Consensus and controversy mapping
-- Knowledge gap and limitation identification
-- Future research direction and priority
-- Theoretical model and framework development
+2. **DIMENSION SCORECARD** - Table with dimension, score (X.X/5), key gap, and the single most important improvement
 
-##### Knowledge Integration and Synthesis
-- Multi-disciplinary perspective integration
-- Cross-cultural and international evidence
-- Historical and evolutionary analysis
-- Contemporary and emerging knowledge
-- Theoretical and empirical evidence balance
-- Quantitative and qualitative finding synthesis
-- Primary and secondary source integration
-- Grey literature and unpublished evidence
+3. **FOUNDATION STATEMENT (1 PAGE)** - Problem, contribution, theory, questions, and design in a tight narrative that could go into a proposal
 
-#### Theoretical Framework Development
-##### Core Theory and Concept Integration
-- Foundational theory identification and application
-- Conceptual model construction and refinement
-- Variable relationship and pathway mapping
-- Mechanism and process explanation
-- Moderator and mediator identification
-- Contextual factor and boundary condition
-- Cultural adaptation and local relevance
-- Innovation and creative extension
+4. **CONCEPTUAL MODEL NOTES** - Construct definitions, hypothesized relationships/mechanisms, boundary conditions, and key alternative explanations
 
-##### Conceptual Model and Hypothesis Formation
-- Theoretical prediction and expectation
-- Empirical hypothesis and testable proposition
-- Variable definition and operationalization
-- Relationship specification and direction
-- Effect size and magnitude estimation
-- Boundary condition and scope limitation
-- Alternative explanation and competing hypothesis
-- Null hypothesis and significance testing
+5. **DESIGN JUSTIFICATION OUTLINE** - Why this paradigm and design are the best fit given {CONSTRAINTS}, including bias threats and mitigations
 
-### 1.3 Research Questions and Objectives
-#### Research Question Formulation
-##### Primary Research Question Development
-- Central inquiry and main investigation focus
-- Specificity and clarity in question formulation
-- Feasibility and answerability assessment
-- Theoretical grounding and empirical testability
-- Policy relevance and practical significance
-- Innovation and originality consideration
-- Ethical appropriateness and acceptability
-- Resource requirement and constraint alignment
+6. **NEXT STEPS (2–4 WEEKS)** - A short plan to finalize what’s missing before proposal/IRB/preregistration
 
-##### Secondary Question and Sub-Question Development
-- Supporting inquiry and complementary investigation
-- Mechanistic question and process exploration
-- Comparative question and difference examination
-- Contextual question and situational analysis
-- Temporal question and longitudinal inquiry
-- Methodological question and approach evaluation
-- Implementation question and practical application
-- Future direction and extension possibility
+Use this maturity scale:
+- **1.0–1.9: Fragmented** (unclear problem/theory/questions; design decisions unstable)
+- **2.0–2.9: Emerging** (basic foundation exists; significant alignment and feasibility gaps)
+- **3.0–3.9: Coherent** (solid foundation; targeted refinements needed to lock)
+- **4.0–4.9: Proposal-ready** (well-justified, aligned, and feasible foundation)
+- **5.0: Exemplary** (field-leading clarity and coherence; minimal reviewer friction)
 
-#### Research Objective and Goal Setting
-##### SMART Objective Framework
-- Specific and clearly defined targets
-- Measurable and quantifiable outcomes
-- Achievable and realistic expectations
-- Relevant and aligned priorities
-- Time-bound and scheduled milestones
-- Evidence-based and data-driven goals
-- Stakeholder-informed and participatory
-- Impact-oriented and outcome-focused
-
-##### Objective Hierarchy and Priority
-- Primary objective and main outcome
-- Secondary objective and supporting outcome
-- Exploratory objective and discovery goal
-- Methodological objective and process goal
-- Knowledge objective and understanding goal
-- Application objective and implementation goal
-- Dissemination objective and communication goal
-- Impact objective and transformation goal
-
-## 2. RESEARCH DESIGN AND METHODOLOGY SELECTION
-### 2.1 Philosophical Foundation and Paradigmatic Approach
-#### Research Paradigm and Worldview
-##### Epistemological Foundation
-- Positivist and post-positivist approach
-- Constructivist and interpretivist perspective
-- Critical theory and transformative paradigm
-- Pragmatic and mixed-methods worldview
-- Indigenous and decolonizing methodology
-- Feminist and gender-sensitive approach
-- Participatory and community-based perspective
-- Digital and computational paradigm
-
-##### Ontological and Axiological Considerations
-- Reality conceptualization and assumption
-- Value system and ethical commitment
-- Cultural sensitivity and responsiveness
-- Power relationship and social justice
-- Knowledge creation and validation process
-- Truth claim and evidence standard
-- Objectivity and subjectivity balance
-- Researcher positionality and reflexivity
-
-#### Methodological Framework Selection
-##### Quantitative Research Approach
-- Experimental and quasi-experimental design
-- Cross-sectional and longitudinal survey
-- Correlational and regression analysis
-- Causal-comparative and ex post facto
-- Meta-analysis and systematic review
-- Big data and computational analysis
-- Randomized controlled trial and clinical study
-- Psychometric and measurement research
-
-##### Qualitative Research Strategy
-- Phenomenological and hermeneutic inquiry
-- Grounded theory and constant comparison
-- Ethnographic and anthropological study
-- Case study and in-depth investigation
-- Narrative and biographical research
-- Action research and participatory inquiry
-- Critical and emancipatory research
-- Digital and virtual ethnography
-
-##### Mixed-Methods Integration
-- Convergent parallel and triangulation
-- Explanatory sequential and exploration
-- Exploratory sequential and development
-- Embedded and concurrent transformation
-- Multiphase and complex design
-- Community-based participatory integration
-- Implementation and evaluation research
-- Pragmatic and problem-solving approach
-
-### 2.2 Research Design Classification and Selection
-#### Design Typology and Characteristics
-##### Experimental Design Framework
-- True experimental and randomized design
-- Quasi-experimental and natural experiment
-- Single-case and multiple-baseline design
-- Factorial and split-plot design
-- Crossover and within-subject design
-- Cluster randomized and stepped-wedge
-- Adaptive and sequential design
-- Pragmatic and effectiveness trial
-
-##### Observational Design Strategy
-- Cross-sectional and snapshot study
-- Longitudinal and cohort design
-- Case-control and retrospective study
-- Ecological and aggregate analysis
-- Time series and interrupted design
-- Panel and repeated cross-section
-- Natural history and descriptive study
-- Comparative and cross-national research
-
-#### Design Selection and Justification
-##### Design Appropriateness and Fit
-- Research question and design alignment
-- Resource constraint and feasibility
-- Ethical consideration and acceptability
-- Validity threat and bias minimization
-- Generalizability and external validity
-- Practical relevance and utility
-- Innovation and methodological advancement
-- Stakeholder preference and acceptance
-
-##### Design Strength and Limitation
-- Internal validity and causal inference
-- External validity and generalizability
-- Construct validity and measurement
-- Statistical conclusion and power
-- Practical significance and effect size
-- Cost-effectiveness and efficiency
-- Timeline and implementation feasibility
-- Risk and uncertainty management
-
-### Ensure the research design foundation is
-- Theoretically grounded and conceptually clear
-- Methodologically rigorous and scientifically sound
-- Philosophically coherent and paradigmatically aligned
-- Practically relevant and feasible
-- Ethically appropriate and culturally sensitive
-- Stakeholder-informed and community-responsive
-- Innovation-oriented and methodologically advancing
-- Clearly articulated and well-justified
-```
+---
 
 ## Variables
 
-### Research Framework
-- `[RESEARCH_FIELD]`: Research domain and academic field
-- `[STUDY_FOCUS]`: Specific research focus and area of investigation
-- `[PROBLEM_STATEMENT]`: Research problem and issue identification
-- `[PRIMARY_RESEARCH_QUESTION]`: Main research question and inquiry
-- `[STUDY_OBJECTIVES]`: Research objectives and goals
-- `[SIGNIFICANCE_RATIONALE]`: Research significance and justification
-- `[THEORETICAL_FOUNDATION]`: Theoretical framework and foundation
-- `[CONCEPTUAL_FRAMEWORK]`: Conceptual model and structure
+| Variable | Description | Example |
+|----------|-------------|---------|
+| `{STUDY_CONTEXT}` | What study you’re designing (topic + population + setting) | "Phenomenological study of nurse burnout in rural community hospitals" |
+| `{RESEARCH_GOALS}` | The main aims and claims the study intends to support | "Explain drivers and lived experience of burnout; propose actionable mechanisms" |
+| `{CONSTRAINTS}` | The key feasibility and institutional constraints | "12-month timeline, limited site access, ethics sensitivity, small budget" |
 
-### Study Specifications
-- `[DESIGN_TYPE]`: Research design and methodology type
-- `[METHODOLOGICAL_APPROACH]`: Research approach and strategy
-- `[RESEARCH_STRATEGY]`: Specific research strategy and method
-- `[TARGET_POPULATION]`: Study population and participants
-- `[RESEARCH_SETTING]`: Study setting and context
-- `[TIME_FRAME]`: Study duration and timeline
-- `[LOCATION_BOUNDARIES]`: Geographic scope and boundaries
+---
 
-### Methodological Requirements
-- `[PHILOSOPHICAL_PARADIGM]`: Research paradigm and worldview
-- `[KNOWLEDGE_PERSPECTIVE]`: Epistemological stance and approach
-- `[REALITY_PERSPECTIVE]`: Ontological position and assumption
-- `[VALUE_ASSUMPTIONS]`: Axiological considerations and values
+## Usage Example
 
-### Resource Context
-- `[FINANCIAL_LIMITATIONS]`: Budget constraints and financial limits
-- `[TEMPORAL_LIMITATIONS]`: Time constraints and schedule limits
-- `[HUMAN_RESOURCES]`: Personnel resources and staffing
-- `[ACCESS_CONSTRAINTS]`: Access limitations and restrictions
+**Input:**
+"{STUDY_CONTEXT}: Quasi-experimental evaluation of a new tutoring program in first-year calculus"
+"{RESEARCH_GOALS}: Estimate impact on pass rates and understand who benefits most"
+"{CONSTRAINTS}: No randomization permitted; administrative data only; 9-month timeline"
 
-## Usage Examples
+**Output (abridged):**
+- Overall Readiness: **2.9/5.0 (Emerging)**
+- Recommendation: **READY WITH REVISIONS** (lock foundation after clarifying estimand, comparators, and mechanism story)
+- Top Risks: contribution not clearly differentiated from prior interventions, conceptual model missing boundary conditions, design threats (selection bias) not fully mitigated
 
-### Example 1: Education Research Foundation
-"Develop a theoretical framework for studying the impact of growth mindset interventions on student resilience in underserved communities. Use social cognitive theory and ecological systems theory as primary frameworks. Pragmatic paradigm with mixed-methods design. Focus on middle school students in urban settings."
+Dimension Scorecard:
+- Problem & Contribution: 2.8/5 (state novelty vs existing tutoring studies; clarify what “impact” means)
+- Theory & Model: 2.6/5 (define mechanism hypotheses: time-on-task, self-efficacy; add boundary conditions)
+- Paradigm & Assumptions: 3.2/5 (post-positivist stance fits; specify what counts as causal evidence)
+- Questions & Constructs: 3.0/5 (define primary estimand and subgroup rules)
+- Design & Method Fit: 2.7/5 (specify matching strategy + sensitivity checks)
+- Feasibility & Alignment: 3.1/5 (data access confirmed; timeline feasible if scope bounded)
 
-### Example 2: Healthcare Research Foundation
-"Create a research foundation for investigating nurse burnout using phenomenological methodology. Ground in Maslach's burnout theory and conservation of resources theory. Interpretivist paradigm with qualitative approach. Explore lived experiences across multiple hospital settings."
+Next 3 weeks:
+- Week 1: Write 1-page foundation statement + conceptual model diagram.
+- Week 2: Specify estimand, inclusion/exclusion, comparison group strategy, and bias mitigations.
+- Week 3: Align measures and available administrative variables; finalize proposal-ready narrative.
 
-### Example 3: Social Science Research Foundation
-"Establish theoretical framework for large-scale study of social media's effect on political polarization. Use social identity theory and selective exposure theory. Post-positivist paradigm with quantitative longitudinal design. Target national representative sample."
-
-## Best Practices
-
-1. **Start with a clear problem statement** - Articulate the research problem before selecting theories
-2. **Select theories that fit the problem** - Choose theoretical frameworks that genuinely illuminate your question
-3. **Be explicit about paradigmatic assumptions** - Clearly state your epistemological and ontological positions
-4. **Justify design choices** - Explain why your chosen design is most appropriate for your questions
-5. **Ensure coherence** - Maintain alignment between paradigm, theory, questions, and design
-6. **Consider practical constraints** - Balance methodological ideals with real-world feasibility
-7. **Review literature thoroughly** - Ground your framework in comprehensive knowledge of the field
-8. **Be innovative yet rigorous** - Balance methodological advancement with scientific soundness
-9. **Document your reasoning** - Provide clear rationale for all major methodological decisions
-10. **Seek expert feedback** - Have methodologists and content experts review your foundation
-
-## Tips for Success
-
-- Begin with extensive reading in your theoretical area before committing to frameworks
-- Map out relationships between variables before finalizing your conceptual model
-- Consider multiple paradigmatic approaches before selecting the most appropriate one
-- Draft multiple versions of research questions to refine specificity and clarity
-- Create visual diagrams of your theoretical framework to check for coherence
-- Test the feasibility of your design through pilot work or expert consultation
-- Ensure your theoretical framework has sufficient depth and novelty
-- Balance comprehensiveness with focus - avoid trying to incorporate too many theories
-- Consider cultural and contextual factors in theory selection and adaptation
-- Document all major decisions and the reasoning behind them for future reference
-
-
+---
 
 ## Related Resources
 
-### Complementary Templates
-
-Enhance your workflow by combining this template with:
-
-- **[Research Design Sampling Data](research-design-sampling-data.md)** - Leverage data analysis to drive informed decisions
-- **[Research Design Analysis Quality](research-design-analysis-quality.md)** - Complementary approaches and methodologies
-- **[Research Design Overview](research-design-overview.md)** - Complementary approaches and methodologies
-
-### Suggested Workflow
-
-**Typical implementation sequence**:
-
-1. Start with this template (Research Design Foundation - Theoretical Framework & Design Selection)
-2. Use [Research Design Sampling Data](research-design-sampling-data.md) for deeper analysis
-3. Apply [Research Design Analysis Quality](research-design-analysis-quality.md) for execution
-4. Iterate and refine based on results
-
-### Explore More in This Category
-
-Browse all **[education/Academic Research](../../education/Academic Research/)** templates for related tools and frameworks.
-
-### Common Use Case Combinations
-
-- **Developing theoretical frameworks and research foundations for academic studies**: Combine this template with related analytics and strategy frameworks
-- **Selecting appropriate research paradigms and design methodologies**: Combine this template with related analytics and strategy frameworks
-- **Building conceptual models and establishing epistemological foundations**: Combine this template with related analytics and strategy frameworks
-
-## Customization Options
-
-1. **Discipline-Specific Adaptation**: Tailor theoretical frameworks and design approaches to education, healthcare, psychology, sociology, or other fields with relevant theories and conventions
-
-2. **Paradigmatic Emphasis**: Adjust depth of philosophical discussion based on discipline expectations - some fields require extensive paradigmatic justification while others focus more on practical design
-
-3. **Theory Complexity Level**: Scale from single-theory frameworks for focused studies to complex multi-theory integration for interdisciplinary research
-
-4. **Design Innovation Level**: Range from traditional well-established designs to cutting-edge methodological innovations depending on research goals and risk tolerance
-
-5. **Cultural Contextualization**: Adapt theoretical frameworks and paradigmatic approaches for cross-cultural research, indigenous methodologies, or decolonizing research practices
+- **[Research Design - Sampling & Data](research-design-sampling-data.md)** - Converts foundation decisions into sampling, recruitment, and measurement plans
+- **[Research Analysis & Quality Assurance Readiness Assessment](research-design-analysis-quality.md)** - Aligns analysis rigor, QA thresholds, and reproducibility expectations
+- **[Research Design - Overview](research-design-overview.md)** - Integrates the full research design workflow across modules

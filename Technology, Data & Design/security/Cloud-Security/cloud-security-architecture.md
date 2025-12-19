@@ -1,6 +1,5 @@
 ---
 category: security
-last_updated: 2025-11-22
 title: Cloud Security Architecture Framework
 tags:
 - security
@@ -8,20 +7,19 @@ tags:
 - aws-azure-gcp
 - cspm
 use_cases:
-- Designing secure cloud infrastructure and architecture
-- Implementing cloud security controls and best practices
-- Multi-cloud security strategy development
-- Cloud compliance and governance frameworks
+- Designing secure cloud infrastructure with network segmentation, IAM least-privilege, encryption at-rest/in-transit achieving SOC2/HIPAA/PCI-DSS compliance
+- Implementing cloud security controls across AWS/Azure/GCP with centralized logging, threat detection (GuardDuty/Defender/SCC), CSPM for multi-cloud
+- Cloud migration security strategy with zero-trust networking, secrets management, disaster recovery achieving FedRAMP/GDPR compliance
 related_templates:
 - security/Cybersecurity/security-architecture.md
 - technology/DevOps-Cloud/cloud-architecture.md
 - security/Cloud-Security/kubernetes-security.md
 industries:
-- finance
-- government
-- healthcare
 - technology
-type: template
+- financial-services
+- healthcare
+- government
+type: framework
 difficulty: intermediate
 slug: cloud-security-architecture
 ---
@@ -29,512 +27,107 @@ slug: cloud-security-architecture
 # Cloud Security Architecture Framework
 
 ## Purpose
-Comprehensive framework for designing secure cloud infrastructure, implementing security controls across IaaS/PaaS/SaaS, ensuring compliance, and establishing governance for AWS, Azure, GCP, and multi-cloud environments.
+Design secure cloud infrastructure covering network architecture, IAM, data protection, logging/monitoring, compute/container/serverless security, compliance, and disaster recovery for AWS, Azure, GCP, and multi-cloud environments.
 
-## Quick Cloud Security Prompt
-Design secure [AWS/Azure/GCP] architecture for [application type] handling [data classification: PII/PHI/PCI]. Implement: VPC/network segmentation, IAM policies (least privilege), encryption (at-rest + in-transit), logging (CloudTrail/Azure Monitor), and security monitoring. Meet compliance: [SOC2/HIPAA/PCI-DSS/GDPR]. Deliver: architecture diagram, security controls matrix, and implementation checklist.
+## 🚀 Quick Cloud Security Prompt
 
-## Quick Start
-
-**Need to design secure cloud architecture?** Use this minimal example:
-
-### Minimal Example
-\`\`\`
-Design secure AWS architecture for a web application handling customer PII, including VPC design, IAM policies, encryption strategy, logging/monitoring, and compliance controls for SOC2 and GDPR requirements.
-\`\`\`
-
-### When to Use This
-- Designing new cloud infrastructure from scratch
-- Migrating applications to cloud with security requirements
-- Implementing security controls in existing cloud environments
-- Multi-cloud security strategy development
-
-### Basic 3-Step Workflow
-1. **Define Security Requirements** - Identify data classification, compliance needs, threat model (30-45 min)
-2. **Design Security Controls** - Network segmentation, IAM, encryption, monitoring (1-2 hours)
-3. **Implement & Validate** - Deploy controls, test security posture, document architecture (2-4 hours)
-
-**Time to complete**: 4-6 hours for initial architecture, ongoing refinement
+> Design secure **[CLOUD_PROVIDER]** (AWS/Azure/GCP) architecture for **[WORKLOAD]** handling **[DATA_CLASSIFICATION]** (PII/PHI/PCI). Implement: network segmentation **[VPC/VNET]**, IAM least-privilege, encryption **[AT_REST/IN_TRANSIT]**, logging **[CLOUDTRAIL/MONITOR/AUDIT]**, threat detection **[GUARDDUTY/DEFENDER/SCC]**. Compliance: **[SOC2/HIPAA/PCI/FEDRAMP]**. Deliver: architecture diagram, security controls matrix.
 
 ---
 
 ## Template
 
-\`\`\`markdown
-I need to design a secure cloud security architecture. Please provide comprehensive cloud security design and implementation guidance.
+Design secure cloud architecture for {WORKLOAD} on {CLOUD_PROVIDER} processing {DATA_CLASSIFICATION} data achieving {COMPLIANCE_REQUIREMENTS} compliance with {HA_DR_REQUIREMENTS}.
 
-## CLOUD ENVIRONMENT CONTEXT
+**NETWORK SECURITY ARCHITECTURE**
 
-### Infrastructure Details
-- Cloud provider: [AWS_AZURE_GCP_MULTI_CLOUD_HYBRID]
-- Deployment model: [PUBLIC_PRIVATE_HYBRID_COMMUNITY]
-- Services used: [COMPUTE_STORAGE_DATABASE_SERVERLESS_CONTAINERS_PAAS]
-- Workload type: [WEB_APP_DATA_ANALYTICS_ML_IOT_MICROSERVICES]
-- Geographic regions: [REGIONS_AND_AVAILABILITY_ZONES]
-- High availability needs: [YES_NO_PARTIAL]
-- Disaster recovery RPO/RTO: [SPECIFY_REQUIREMENTS]
+Design defense-in-depth network controls. Network segmentation: 3-tier architecture (public subnet for internet-facing load balancers, private subnet for application tier, data subnet for databases with no internet access), dedicated subnets per availability zone for high availability, separate VPC/VNet for production vs non-production, network isolation for compliance zones (PCI CDE, PHI systems). CIDR planning: avoid overlapping ranges for VPC peering/VNet peering, plan for growth (start with /16 VPC, use /24 subnets), reserve space for future regions.
 
-### Data & Compliance
-- Data types: [PUBLIC_INTERNAL_CONFIDENTIAL_PII_PHI_PCI]
-- Data residency requirements: [REGIONS_OR_COUNTRIES]
-- Compliance frameworks: [SOC2_ISO27001_HIPAA_PCI_DSS_GDPR_CCPA_FedRAMP]
-- Audit requirements: [FREQUENCY_AND_SCOPE]
-- Data retention policies: [DURATION_AND_REQUIREMENTS]
-- Encryption requirements: [AT_REST_IN_TRANSIT_IN_USE]
+Traffic control: security groups as stateful firewalls (instance-level, allow-list approach), network ACLs as stateless subnet-level controls (backup layer), default deny with explicit allows, separate security groups per tier (web-sg, app-sg, db-sg). Web application firewall: AWS WAF/Azure WAF/Cloud Armor with OWASP Core Rule Set, bot detection and mitigation, rate limiting per IP/session, geo-blocking for non-operating regions, custom rules for application-specific threats.
 
-### Security Requirements
-- Network isolation: [PUBLIC_PRIVATE_FULLY_ISOLATED]
-- Identity management: [SSO_MFA_FEDERATION_DIRECTORY_INTEGRATION]
-- Privileged access: [BASTION_VPN_PAM_JUST_IN_TIME]
-- Threat detection: [IDS_IPS_SIEM_CLOUDNATIVE_THIRD_PARTY]
-- Incident response: [AUTOMATED_MANUAL_HYBRID]
-- Security monitoring: [24x7_BUSINESS_HOURS_AUTOMATED]
+Cloud connectivity: site-to-site VPN for hybrid connectivity (AWS VPN, Azure VPN Gateway, Cloud VPN), Direct Connect/ExpressRoute/Cloud Interconnect for dedicated bandwidth, private endpoints/Private Link for PaaS services (eliminates public internet exposure), PrivateLink for cross-account access, service endpoints for regional services. Zero trust networking: assume breach posture, verify every request (identity, device, location), micro-segmentation between workloads, encrypt all traffic end-to-end.
 
-## CLOUD SECURITY ARCHITECTURE DESIGN
+**IDENTITY AND ACCESS MANAGEMENT**
 
-### 1. Network Security Architecture
-Design secure network architecture including:
+Implement least-privilege access control. Authentication: federate with corporate identity (SAML/OIDC with Okta/Azure AD/Google Workspace), enforce MFA for all human access, service accounts for application-to-cloud authentication (AWS IAM roles, Azure managed identities, GCP service accounts), short-lived credentials preferred (STS temporary credentials, federated tokens). Root/admin account protection: hardware MFA on root account, separate billing-only root account (no operational use), admin access requires approval workflow, audit all root account usage.
 
-**VPC/VNet Design:**
-- Network segmentation strategy (public, private, data subnets)
-- CIDR block allocation
-- Availability zone distribution
-- Peering and connectivity requirements
+Authorization: role-based access control with least privilege (start with zero, add minimally required permissions), avoid wildcard permissions (no Resource:"*" or Action:"*"), policy boundaries prevent privilege escalation, resource tagging for attribute-based access control (ABAC), cross-account access via assume role (not access keys). Cloud-native patterns: AWS IAM roles for EC2/Lambda/ECS, Azure managed identities for VMs/App Service/Functions, GCP service accounts with Workload Identity, temporary credentials only (no long-lived access keys).
 
-**Traffic Control:**
-- Security groups / Network ACLs configuration
-- Web Application Firewall (WAF) rules
-- DDoS protection (AWS Shield, Azure DDoS, Cloud Armor)
-- Load balancer security
-- API Gateway security
+Privileged access management: just-in-time access (time-boxed privilege elevation), break-glass procedures for emergency access, session recording for privileged actions (CloudTrail data events, Azure Monitor), bastion host alternatives (AWS Systems Manager Session Manager, Azure Bastion, IAP for GCP), require approval for production access. Regular access reviews: quarterly review of IAM permissions, automated detection of unused permissions (Access Advisor, Azure AD access reviews), revoke stale credentials, principle of least privilege enforced through automation.
 
-**Connectivity:**
-- VPN connectivity (site-to-site, client VPN)
-- Direct Connect / ExpressRoute / Cloud Interconnect
-- Service endpoints / Private Link
-- DNS security (Route53, Azure DNS, Cloud DNS)
+**DATA PROTECTION AND ENCRYPTION**
 
-Provide:
-- Network architecture diagram
-- Security group/ACL rules
-- Traffic flow documentation
-- Zero-trust network principles
+Protect data at rest and in transit. Encryption at rest: enable default encryption for all storage (S3, EBS, Azure Storage, GCS with AES-256), database encryption (RDS, DynamoDB, Cosmos DB, Cloud SQL with transparent data encryption), application-layer encryption for sensitive fields (PII, PHI, PCI). Key management: cloud-managed keys for default encryption (easy, automatic rotation), customer-managed keys for compliance (bring your own key, control rotation), envelope encryption (data keys encrypted with master keys), HSM-backed keys for PCI/HIPAA (AWS CloudHSM, Azure Dedicated HSM, Cloud HSM).
 
-### 2. Identity & Access Management (IAM)
-Design comprehensive IAM strategy:
+Encryption in transit: TLS 1.3 for all HTTPS traffic, certificate management via cloud services (AWS Certificate Manager, Azure Key Vault, Google-managed certificates), automated certificate renewal, internal service-to-service encryption (private CA, mTLS), database connection encryption mandatory. Secrets management: centralized secrets (AWS Secrets Manager, Azure Key Vault, GCP Secret Manager), no secrets in code or environment variables, automatic rotation (30-90 days), application retrieval at runtime (not build time), audit all secret access.
 
-**Authentication:**
-- User authentication mechanisms
-- MFA requirements and implementation
-- Service account management
-- API key and token management
-- Federation with corporate directory (SAML, OIDC)
+Data classification and protection: tag resources by data sensitivity (public, internal, confidential, restricted), enforce encryption based on tags, data loss prevention (DLP) policies (AWS Macie, Azure Information Protection, Cloud DLP), monitor for sensitive data in logs, secure deletion procedures (crypto-shredding, multi-pass overwrites for compliance).
 
-**Authorization:**
-- Least privilege access policies
-- Role-based access control (RBAC) design
-- Resource-based policies
-- Permission boundaries
-- Cross-account access patterns
-- Temporary credentials (STS, managed identities)
+**LOGGING, MONITORING, AND THREAT DETECTION**
 
-**Privileged Access:**
-- Root/admin account protection
-- Privileged access management (PAM)
-- Just-in-time (JIT) access
-- Bastion hosts / jump servers
-- Session recording and auditing
+Build comprehensive security visibility. Centralized logging: enable cloud-native audit logs (AWS CloudTrail all regions, Azure Activity Log, GCP Cloud Audit Logs), VPC/VNet flow logs (network traffic metadata for forensics), application/system logs aggregated centrally, S3/Azure Storage/GCS for log archive (WORM for compliance), retention per requirements (7 years for SOX, 6 years for HIPAA). Log analysis: ship logs to SIEM (Splunk, Sentinel, Chronicle), correlation with threat intelligence, automated alerting on suspicious activity, baseline normal behavior then detect deviations.
 
-Provide:
-- IAM policy examples
-- Role hierarchy and assignments
-- Service account strategy
-- Privileged access workflow
+Cloud-native threat detection: AWS GuardDuty (ML-based threat detection for AWS accounts), Azure Defender/Sentinel (integrated threat protection), GCP Security Command Center (asset discovery and threat detection), enable all detectors (malware, crypto-mining, unusual API calls, credential access). Configuration compliance: AWS Config/Azure Policy/GCP Security Health Analytics for continuous compliance, CIS benchmark assessments (automated with Cloud Custodian, Prowler, ScoutSuite), detect configuration drift, auto-remediate common issues.
 
-### 3. Data Protection & Encryption
-Design comprehensive data protection:
+Vulnerability management: container image scanning (ECR scanning, ACR scanning, Artifact Registry scanning), serverless code scanning (Lambda, Azure Functions, Cloud Functions), infrastructure vulnerability scanning (AWS Inspector, Azure Defender for Servers, Security Command Center). Incident response: automated response playbooks (isolate compromised instance, rotate credentials, block IP), alert integration (PagerDuty, Slack, ServiceNow), forensics readiness (EBS snapshots, disk imaging, memory capture).
 
-**Encryption at Rest:**
-- Storage encryption (EBS, S3, Azure Storage, GCS)
-- Database encryption (RDS, DynamoDB, Cosmos DB, Cloud SQL)
-- Key management strategy (KMS, Key Vault, Cloud KMS)
-- Customer-managed keys vs cloud-managed keys
-- Encryption key rotation policies
+**COMPUTE AND WORKLOAD SECURITY**
 
-**Encryption in Transit:**
-- TLS/SSL certificate management
-- API encryption requirements
-- Database connection encryption
-- Inter-service communication security
-- Certificate lifecycle management
+Secure compute resources across deployment models. Virtual machines: hardened base images (CIS-benchmarked AMIs, Azure Marketplace hardened images, GCP hardened images), automated patching (AWS Systems Manager Patch Manager, Azure Update Management, GCP OS Patch Management), endpoint protection (AWS GuardDuty Runtime, Azure Defender for Servers, GCP Security Command Center), host-based firewalls enabled, disable SSH/RDP from internet (use Session Manager, Bastion, IAP).
 
-**Data Loss Prevention:**
-- Data classification and tagging
-- Access logging and monitoring
-- Data exfiltration prevention
-- Backup encryption and security
-- Secure data deletion procedures
+Containers: image scanning in CI/CD (Trivy, Snyk, Aqua), private registries only (ECR, ACR, Artifact Registry), runtime security (Falco, Sysdig, Aqua), Kubernetes security (see kubernetes-security template for details), secrets via external stores (not in images or ConfigMaps). Serverless: function-level IAM roles (minimal permissions per function), code and dependency scanning, environment variable encryption, VPC integration for private resource access, execution time limits, concurrency limits prevent resource exhaustion.
 
-Provide:
-- Encryption architecture diagram
-- Key management workflow
-- Certificate management strategy
-- Data classification scheme
+**COMPLIANCE AND GOVERNANCE**
 
-### 4. Logging, Monitoring & Threat Detection
-Design security visibility architecture:
+Map security controls to regulatory requirements. Compliance frameworks: SOC 2 (access controls, encryption, monitoring, change management), HIPAA (PHI encryption, audit logs, access controls, BAA with cloud provider), PCI-DSS (network segmentation for CDE, encryption, logging, quarterly scans), FedRAMP (FIPS 140-2 encryption, continuous monitoring, configuration management), GDPR (data residency, encryption, right to deletion, breach notification). Evidence automation: infrastructure-as-code for repeatable deployments, policy-as-code for compliance checks (AWS Config rules, Azure Policy, GCP Organization Policies), automated evidence collection (screenshots, logs, configuration exports).
 
-**Centralized Logging:**
-- CloudTrail / Activity Log / Cloud Audit Logs configuration
-- VPC Flow Logs / NSG Flow Logs
-- Application and system logs
-- Log aggregation strategy (CloudWatch, Monitor, Logging)
-- Log retention and compliance
-- SIEM integration
+Governance: resource tagging strategy (owner, environment, cost-center, data-classification, compliance-scope), enforce tagging via policy, cost allocation by tag, automated cleanup of untagged resources. Policy enforcement: service control policies (SCPs) for AWS Organizations, Azure Policy for subscription-level enforcement, GCP Organization Policies for folder/project constraints, deny public access by default, require encryption, enforce regions for data residency.
 
-**Security Monitoring:**
-- GuardDuty / Defender / Security Command Center
-- Config / Policy / Security Health Analytics
-- Inspector / Defender for Cloud / Security Scanner
-- Anomaly detection and alerting
-- Security metrics and dashboards
+**DISASTER RECOVERY AND HIGH AVAILABILITY**
 
-**Incident Response:**
-- Automated response playbooks
-- Alert escalation procedures
-- Forensics and investigation tools
-- Backup and recovery procedures
-- Communication and reporting workflows
+Design for resilience. High availability: multi-AZ deployments for production (distribute across 3 AZs), auto-scaling for elasticity (scale out on demand, scale in to save cost), load balancing (ALB, Azure Load Balancer, Cloud Load Balancing), health checks and automatic failover, database replication (RDS Multi-AZ, Cosmos DB multi-region, Cloud SQL HA).
 
-Provide:
-- Monitoring architecture
-- Alert configuration examples
-- Incident response runbooks
-- Log analysis queries
+Backup strategy: automated backups with retention (daily backups, 30-day retention, extend for compliance), cross-region replication for geographic redundancy, backup encryption and access control (separate IAM permissions for restore), regular restore testing (quarterly DR drills), immutable backups for ransomware protection (S3 Object Lock, Azure Immutable Blob Storage). Disaster recovery: define RTO/RPO (Recovery Time Objective, Recovery Point Objective), pilot light (minimal infrastructure always on, scale up on DR), warm standby (scaled-down environment ready to scale), multi-region active-active for critical workloads, automated failover with health checks, DR runbooks with step-by-step procedures.
 
-### 5. Compute Security
-Secure compute resources:
+Deliver cloud security architecture as:
 
-**VM/Instance Security:**
-- Hardened AMI / VM images
-- Patch management strategy
-- Antivirus / endpoint protection
-- Host-based firewalls
-- Configuration management
-- Vulnerability scanning
+1. **NETWORK ARCHITECTURE** - VPC/VNet design, subnet layout, security groups/NSGs, connectivity diagram
 
-**Container Security:**
-- Container image scanning
-- Runtime security (Falco, Aqua)
-- Kubernetes security (pod security, RBAC, network policies)
-- Registry security and access control
-- Secrets management for containers
+2. **IAM STRATEGY** - Role hierarchy, policy examples, federation design, privileged access workflow
 
-**Serverless Security:**
-- Function IAM roles and permissions
-- Code and dependency scanning
-- Environment variable security
-- API Gateway security
-- Function timeout and resource limits
+3. **ENCRYPTION DESIGN** - At-rest/in-transit encryption, key management, certificate lifecycle
 
-Provide:
-- Baseline hardening configurations
-- Patch management workflow
-- Container security policies
-- Serverless security checklist
+4. **LOGGING AND MONITORING** - Log collection, SIEM integration, alert configuration, threat detection
 
-### 6. Application Security
-Secure applications in cloud:
+5. **COMPLIANCE CONTROLS** - Control mapping to frameworks, policy-as-code, evidence automation
 
-**Application Layer:**
-- Web application firewall (WAF) rules
-- DDoS protection
-- Bot management
-- Rate limiting and throttling
-- Content delivery network (CDN) security
+6. **DR/HA ARCHITECTURE** - Backup strategy, multi-region design, failover procedures, RTO/RPO achievement
 
-**API Security:**
-- API authentication and authorization
-- API Gateway configuration
-- Rate limiting and quota management
-- API versioning and deprecation
-- Request/response validation
-
-**Secrets Management:**
-- Secrets Manager / Key Vault / Secret Manager
-- Application credential rotation
-- Database connection security
-- API key management
-- Certificate storage and retrieval
-
-Provide:
-- WAF rule configurations
-- API security policies
-- Secrets management architecture
-- Application security controls
-
-### 7. Compliance & Governance
-Implement compliance controls:
-
-**Compliance Frameworks:**
-- Control mapping (SOC2, ISO 27001, HIPAA, PCI-DSS)
-- Evidence collection automation
-- Compliance reporting
-- Audit trail maintenance
-
-**Governance:**
-- Resource tagging strategy
-- Cost allocation and monitoring
-- Policy enforcement (SCP, Azure Policy, Organization Policies)
-- Automated compliance checking
-- Configuration drift detection
-
-**Security Standards:**
-- CIS Benchmarks implementation
-- Cloud security best practices
-- Security baseline documentation
-- Regular security assessments
-
-Provide:
-- Compliance control matrix
-- Policy-as-code examples
-- Tagging strategy
-- Compliance automation approach
-
-### 8. Disaster Recovery & Business Continuity
-Design resilience and recovery:
-
-**Backup Strategy:**
-- Automated backup configuration
-- Cross-region backup replication
-- Backup encryption and access control
-- Backup testing procedures
-- Retention policies
-
-**High Availability:**
-- Multi-AZ/multi-region architecture
-- Auto-scaling configuration
-- Load balancing strategy
-- Database replication
-- Failover procedures
-
-**Disaster Recovery:**
-- DR site configuration
-- RTO/RPO achievement strategy
-- Failover and failback procedures
-- DR testing schedule
-- Communication plan
-
-Provide:
-- Backup and recovery architecture
-- HA configuration examples
-- DR runbooks
-- Testing schedule and procedures
-
-## CLOUD-SPECIFIC SECURITY
-
-### AWS Security
-- IAM best practices and policies
-- VPC security configuration
-- GuardDuty, Config, Inspector setup
-- S3 bucket security
-- RDS/DynamoDB security
-- Lambda security
-- CloudTrail logging
-
-### Azure Security
-- Azure AD and conditional access
-- Network Security Groups and ASGs
-- Azure Security Center / Defender
-- Storage account security
-- Cosmos DB / SQL Database security
-- Azure Functions security
-- Activity Log and diagnostics
-
-### GCP Security
-- Cloud IAM and service accounts
-- VPC Service Controls
-- Security Command Center
-- Cloud Storage security
-- Cloud SQL security
-- Cloud Functions security
-- Cloud Audit Logs
-
-### Multi-Cloud Considerations
-- Unified identity management
-- Cross-cloud networking
-- Centralized security monitoring
-- Consistent policy enforcement
-- Multi-cloud SIEM integration
-
-## SECURITY VALIDATION
-
-Provide validation approach:
-
-1. **Security Testing**
-   - Penetration testing procedures
-   - Vulnerability scanning schedule
-   - Configuration auditing
-   - Compliance validation
-
-2. **Continuous Monitoring**
-   - Real-time threat detection
-   - Configuration drift monitoring
-   - Compliance status tracking
-   - Security posture scoring
-
-3. **Regular Reviews**
-   - Architecture review schedule
-   - Access review procedures
-   - Policy update process
-   - Incident post-mortems
-
-## OUTPUT REQUIREMENTS
-
-Please provide:
-
-1. **Architecture Diagrams**
-   - Network topology
-   - Data flow diagrams
-   - Security zones and boundaries
-   - Integration points
-
-2. **Implementation Guides**
-   - Step-by-step deployment
-   - Configuration templates
-   - Infrastructure-as-code examples
-   - Validation procedures
-
-3. **Security Policies**
-   - IAM policies
-   - Network security rules
-   - Encryption policies
-   - Monitoring configurations
-
-4. **Operational Runbooks**
-   - Incident response procedures
-   - Backup and recovery steps
-   - Patching procedures
-   - Access provisioning/deprovisioning
-
-5. **Compliance Documentation**
-   - Control mapping
-   - Evidence requirements
-   - Audit procedures
-   - Reporting templates
-\`\`\`
+7. **IMPLEMENTATION GUIDE** - Infrastructure-as-code templates (Terraform, CloudFormation, ARM, Deployment Manager)
 
 ---
 
 ## Usage Examples
 
-### Example 1: Startup SaaS Application (AWS)
+### Example 1: SaaS Startup on AWS (SOC 2)
+**Prompt:** Design secure AWS architecture for CustomerHub B2B SaaS processing customer PII with SOC 2 Type II compliance, 99.9% uptime SLA.
 
-**Context:** B2B SaaS platform processing customer PII, 50 employees, SOC 2 compliance required
+**Expected Output:** Network: VPC in us-east-1 (primary) + us-west-2 (DR), 3-tier architecture (public subnet for ALB only, private for ECS Fargate, data subnet for RDS PostgreSQL), VPC Flow Logs enabled, no public database access. IAM: Okta SSO with SAML federation, AWS SSO for console access with MFA, IAM roles for ECS tasks (no access keys), service control policies (SCPs) deny public S3 buckets. Encryption: S3 default encryption (SSE-S3), RDS encryption with customer-managed KMS keys, TLS 1.3 for all APIs (ACM certificates), secrets in AWS Secrets Manager with automatic 30-day rotation. Logging: CloudTrail all regions → S3 (7-year retention) → Splunk, VPC Flow Logs for network forensics, ECS container logs → CloudWatch, GuardDuty enabled (malware detection, crypto-mining alerts). Monitoring: CloudWatch dashboards (latency, errors, throughput), GuardDuty findings → SNS → PagerDuty, AWS Config rules for CIS benchmark (90% compliance target), Security Hub aggregates findings. Compliance: SOC 2 control mapping (CC6.1 logical access = IAM policies, CC6.6 encryption = KMS), automated evidence (Config snapshots, CloudTrail logs), quarterly penetration testing. HA/DR: RDS Multi-AZ, ECS tasks across 3 AZs, Route53 health checks with failover to us-west-2 (RTO 4h, RPO 1h), automated RDS snapshots cross-region. Cost: ~$5K/month (ECS, RDS, data transfer, GuardDuty).
 
-\`\`\`
-Design secure AWS architecture for CustomerHub SaaS application handling customer PII
-with SOC 2 Type II compliance requirements and hybrid workforce.
+### Example 2: Financial Services Multi-Cloud (PCI-DSS)
+**Prompt:** Design secure multi-cloud architecture for PaymentCorp processing payment card data across AWS (primary) and Azure (DR) achieving PCI-DSS 4.0 compliance.
 
-CLOUD ENVIRONMENT CONTEXT:
-- Cloud provider: AWS
-- Services: EC2, RDS PostgreSQL, S3, Lambda, ECS
-- Workload: Multi-tenant SaaS with REST APIs
-- Regions: us-east-1 (primary), us-west-2 (DR)
-- HA needs: Yes (99.9% uptime SLA)
-- DR RPO/RTO: 1 hour / 4 hours
+**Expected Output:** Network: AWS VPC dedicated to PCI CDE (cardholder data environment), network segmentation (CDE isolated from corporate), AWS Transit Gateway for hub-and-spoke, Azure VNet in West US 2 for DR, site-to-site VPN AWS-Azure (IPsec encrypted). CDE security: dedicated VPC (10.1.0.0/16) with no internet gateway, private subnet only, VPC endpoints for AWS services (S3, DynamoDB no internet), security groups deny all except required ports (HTTPS 443, database 5432), network ACLs as second layer, flow logs to S3 for PCI audit. IAM: centralized through Okta, CyberArk PAM for privileged access (no direct SSH/RDP), JIT access with 4-hour expiration, audit all CDE access in CloudTrail data events. Encryption: RDS encryption with CloudHSM for PCI compliance (FIPS 140-2 Level 3), TLS 1.3 for all connections, encryption at application layer for PAN (primary account number), tokenization for stored card data. Logging: CloudTrail + Azure Activity Log → Splunk (SIEM), 7-year retention for SOX, alert on CDE access, quarterly log reviews for PCI. Compliance: PCI-DSS 4.0 control mapping (Requirement 1 = network segmentation, Requirement 3 = encryption, Requirement 10 = logging), quarterly external ASV scans, annual penetration test by QSA, AWS Config rules for PCI controls. DR: Azure as warm standby (RTO 1h, RPO 15min), RDS cross-region replication to Azure Cosmos DB, automated failover via Route53 + Azure Traffic Manager, quarterly DR test. Multi-cloud orchestration: Terraform for both AWS and Azure, unified monitoring in Splunk, federated identity via Okta.
 
-Data & Compliance:
-- Data types: Customer PII (names, emails, company data)
-- Compliance: SOC 2 Type II, GDPR (EU customers)
-- Encryption: AES-256 at rest, TLS 1.3 in transit
+### Example 3: Healthcare Platform on Azure (HIPAA)
+**Prompt:** Design secure Azure architecture for HealthConnect telehealth platform integrating with Epic EHR, processing PHI with HIPAA compliance.
 
-Security Requirements:
-- Network: Private subnets for data tier, public for ALB only
-- Identity: Okta SSO with SAML, MFA enforced
-- Privileged access: AWS SSM Session Manager (no bastion)
-- Monitoring: 24/7 automated with PagerDuty integration
-\`\`\`
+**Expected Output:** Network: Azure VNet in East US 2 + West US 2 (zone-redundant), private endpoints for all PaaS services (App Service, Cosmos DB, Functions, Storage—no public internet access), Azure Firewall for egress filtering, no NSG allowing internet inbound except WAF. IAM: Azure AD B2C for patient authentication (MFA via SMS/email), Azure AD for clinician access (conditional access policies requiring compliant devices), managed identities for applications (no service principal secrets), PIM (Privileged Identity Management) for admin access with approval. Encryption: customer-managed keys in Azure Key Vault (FIPS 140-2 for HIPAA), Cosmos DB encryption at rest, TLS 1.3 for all connections, PHI encrypted at application layer (AES-256), Storage Account encryption with CMK. Logging: Azure Activity Log (10-year retention for HIPAA), NSG Flow Logs, App Service diagnostic logs → Log Analytics → Sentinel, Azure Monitor alerts for suspicious PHI access. Compliance: HIPAA BAA with Microsoft, PHI access logging (who accessed which patient record), encrypt PHI at rest and in transit, audit logs for breach notification, Azure Policy enforces encryption and private endpoints. Sentinel: healthcare threat detection rules (mass PHI download, after-hours access anomalies, geolocation anomalies), automated response (disable user account, alert compliance officer), integration with Epic audit logs via API. HA: zone-redundant App Service (99.95% SLA), Cosmos DB multi-region write (active-active), Azure Front Door for global load balancing, automatic failover between regions. DR: geo-redundant storage for backups, quarterly DR drill (failover to West US 2), RTO 2h/RPO 15min.
 
-**Expected Output:**
-- VPC with 3-tier architecture (public/private/data subnets)
-- IAM roles with least privilege, no long-lived credentials
-- RDS encryption, S3 bucket policies blocking public access
-- GuardDuty, Config, CloudTrail enabled
-- WAF with OWASP Core Rule Set
+---
 
-### Example 2: Financial Services Multi-Cloud (AWS + Azure)
+## Cross-References
 
-**Context:** Mid-size financial company, PCI-DSS and SOX compliance, multi-cloud for resilience
-
-\`\`\`
-Design secure multi-cloud architecture for PaymentCorp spanning AWS (primary) and
-Azure (DR/burst), processing payment card data with PCI-DSS 4.0 compliance.
-
-CLOUD ENVIRONMENT CONTEXT:
-- Cloud providers: AWS (primary), Azure (DR + burst capacity)
-- Services: EKS, RDS, Lambda (AWS); AKS, Cosmos DB (Azure)
-- Workload: Payment processing microservices
-- HA: Active-passive failover, 99.99% uptime
-- DR RPO/RTO: 15 minutes / 1 hour
-
-Data & Compliance:
-- Data types: PCI (card data), PII, financial transactions
-- Compliance: PCI-DSS 4.0, SOX, GLBA
-- Data residency: US only
-
-Security Requirements:
-- Network segmentation: CDE isolated, micro-segmentation
-- Identity: Centralized IAM (Okta), cross-cloud federation
-- Privileged access: CyberArk PAM, JIT access
-- Monitoring: Splunk SIEM (cloud-agnostic), 24/7 SOC
-\`\`\`
-
-**Expected Output:**
-- CDE network isolation with dedicated VPC/VNet
-- Cross-cloud identity federation through Okta
-- HSM-backed key management for encryption keys
-- Centralized logging to Splunk across both clouds
-- PCI-DSS control mapping with evidence automation
-
-### Example 3: Healthcare Platform (Azure)
-
-**Context:** Digital health startup with telehealth and EHR integration, HIPAA compliance
-
-\`\`\`
-Design secure Azure architecture for HealthConnect telehealth platform integrating
-with Epic EHR systems, processing PHI with HIPAA compliance requirements.
-
-CLOUD ENVIRONMENT CONTEXT:
-- Cloud provider: Azure (HIPAA BAA in place)
-- Services: Azure App Service, Cosmos DB, Azure Functions, API Management
-- Workload: Telehealth video + patient portal + EHR integration
-- Regions: East US 2 (primary), West US 2 (DR)
-- HA: Zone-redundant, 99.95% uptime
-
-Data & Compliance:
-- Data types: PHI (patient records, prescriptions), video recordings
-- Compliance: HIPAA, HITECH, state privacy laws
-- Data residency: US only (ITAR-like restrictions)
-
-Security Requirements:
-- Network: Private endpoints for all PaaS services
-- Identity: Azure AD B2C (patients), Azure AD (staff)
-- Access: Conditional access policies, device compliance
-- Monitoring: Microsoft Sentinel, anomaly detection
-\`\`\`
-
-**Expected Output:**
-- Private endpoints eliminating public PaaS exposure
-- Azure AD Conditional Access with device compliance
-- PHI encryption with customer-managed keys
-- Sentinel with healthcare-specific detection rules
-- HIPAA control mapping and BAA documentation
-
-## Best Practices
-
-1. **Start with threat modeling** - Understand what you're protecting before designing controls
-2. **Implement least privilege everywhere** - IAM, network, and application layers
-3. **Encrypt by default** - All data at rest and in transit
-4. **Monitor continuously** - Real-time threat detection and alerting
-5. **Automate security controls** - Infrastructure-as-code with security policies embedded
+- [Kubernetes Security](kubernetes-security.md) - Container-specific security controls
+- [Security Architecture](../Cybersecurity/security-architecture.md) - Enterprise security architecture principles
+- [Cloud Architecture](../../technology/DevOps-Cloud/cloud-architecture.md) - Cloud infrastructure patterns

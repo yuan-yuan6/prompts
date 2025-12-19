@@ -1,753 +1,123 @@
 ---
 category: data-analytics
-last_updated: 2025-11-10
-related_templates:
-- data-analytics/Analytics-Engineering/pipeline-ingestion.md
-- data-analytics/Analytics-Engineering/pipeline-transformation.md
-- data-analytics/Analytics-Engineering/pipeline-orchestration.md
-- data-analytics/Analytics-Engineering/pipeline-observability.md
+title: Pipeline Infrastructure & Performance
 tags:
-- data-analytics
 - infrastructure-as-code
 - kubernetes
 - auto-scaling
-title: Pipeline Infrastructure & Performance Template
+- performance-optimization
 use_cases:
-- Implementing pipeline performance optimization strategies
-- Designing infrastructure as code with Terraform for data platforms
+- Designing scalable infrastructure for data pipelines
+- Implementing performance optimization and auto-scaling strategies
 - Deploying containerized pipelines with Kubernetes orchestration
-- Building auto-scaling and resource management systems
+- Building infrastructure as code with Terraform or Pulumi
+related_templates:
+- data-analytics/Analytics-Engineering/pipeline-development.md
+- data-analytics/Analytics-Engineering/pipeline-observability.md
+- data-analytics/Analytics-Engineering/query-optimization-resource-concurrency.md
 industries:
 - technology
-type: template
+- finance
+- healthcare
+- retail
+type: framework
 difficulty: intermediate
 slug: pipeline-infrastructure
 ---
 
-# Pipeline Infrastructure & Performance Template
+# Pipeline Infrastructure & Performance
 
 ## Purpose
-Design and implement scalable infrastructure for data pipelines with performance optimization, infrastructure as code (Terraform), container orchestration (Kubernetes), and auto-scaling strategies. This template covers infrastructure provisioning, deployment automation, performance tuning, and resource management.
+Design and implement scalable infrastructure for data pipelines with performance optimization, infrastructure as code, container orchestration, and auto-scaling strategies. This framework covers infrastructure provisioning, deployment automation, performance tuning, resource management, and cost optimization for production data platforms.
 
-## Quick Infrastructure Prompt
-Provision [CLOUD_PROVIDER] infrastructure for a [PIPELINE_TYPE] data pipeline using Terraform. Include [COMPUTE_RESOURCES] with [MEMORY/CPU] specs, [STORAGE_TYPE] configuration, networking with [VPC/SECURITY], and Kubernetes deployment with [REPLICA_COUNT] replicas and HPA scaling to [MAX_REPLICAS] based on [SCALING_METRIC].
+## 🚀 Quick Infrastructure Prompt
 
-## Quick Start
+> Design **pipeline infrastructure** for **[INFRASTRUCTURE CONTEXT]** addressing: (1) **Performance optimization**—what are the bottlenecks (CPU, memory, I/O, network)? What tuning strategies for batch sizes, parallelism, and caching? (2) **Infrastructure as code**—what Terraform/Pulumi modules for compute, storage, networking, and databases? (3) **Container orchestration**—what Kubernetes deployments, resource limits, health checks, and HPA scaling policies? (4) **Cost optimization**—what strategies for right-sizing, spot instances, lifecycle policies, and reserved capacity? Provide architecture design, IaC templates, and operational guidance.
 
-### For Data Engineers & DevOps
-Get started with pipeline infrastructure in 3 steps:
+**Usage:** Replace bracketed placeholder with your specifics. Use as a prompt to an AI assistant for rapid infrastructure design.
 
-1. **Optimize Pipeline Performance**
-   - **Analyze Bottlenecks**: Identify CPU, memory, I/O, or network constraints
-   - **Tune Parameters**: Optimize batch sizes, parallelism, memory allocation
-   - **Implement Caching**: Reduce redundant computations and I/O
-   - Example: `BOTTLENECK: "High memory usage", OPTIMIZATION: "Reduce batch size from 100K to 50K rows"`
-
-2. **Provision Infrastructure with IaC**
-   - **Terraform**: Define compute clusters, storage, databases, networking
-   - **Modular Design**: Create reusable modules for common components
-   - **Environment Management**: Separate configs for dev/staging/prod
-   - Start with Terraform templates (lines 300-456)
-
-3. **Deploy with Kubernetes**
-   - **Containerization**: Package pipeline code in Docker containers
-   - **Deployments**: Define replica counts, resource limits, health checks
-   - **Auto-scaling**: Configure HPA for dynamic scaling based on metrics
-   - Use Kubernetes configs (lines 458-612)
-
-**Key Sections**: Performance Optimization (lines 77-298), Infrastructure as Code (300-456), Container Orchestration (458-612)
+---
 
 ## Template
 
-```
-You are a data platform infrastructure architect specializing in [INFRASTRUCTURE_APPROACH]. Design a comprehensive infrastructure and performance optimization solution for [ORGANIZATION_NAME] to support [PIPELINE_SCOPE] using [IAC_TOOL] and [CONTAINER_PLATFORM].
+Design a comprehensive infrastructure and performance optimization solution for {INFRASTRUCTURE_CONTEXT}, addressing {PERFORMANCE_REQUIREMENTS} to achieve {SCALABILITY_OBJECTIVES}.
 
-INFRASTRUCTURE ARCHITECTURE OVERVIEW:
-Project Specifications:
-- Organization: [ORGANIZATION_NAME]
-- Industry sector: [INDUSTRY_SECTOR]
-- Pipeline scope: [PIPELINE_SCOPE]
-- Performance objectives: [PERFORMANCE_OBJECTIVES]
-- Scale requirements: [SCALE_REQUIREMENTS]
-- Budget constraints: [BUDGET_CONSTRAINTS]
+**1. PERFORMANCE ANALYSIS AND OPTIMIZATION**
 
-### Architecture Principles
-- Infrastructure approach: [INFRASTRUCTURE_APPROACH] (Cloud-native/Hybrid/On-premise)
-- IaC strategy: [IAC_STRATEGY]
-- Container orchestration: [ORCHESTRATION_STRATEGY]
-- Auto-scaling policy: [AUTOSCALING_POLICY]
-- Cost optimization: [COST_OPTIMIZATION_STRATEGY]
-- High availability: [HA_STRATEGY]
-- Disaster recovery: [DR_STRATEGY]
+Begin with systematic performance analysis to identify bottlenecks and optimization opportunities. Collect baseline metrics including execution duration distributions, throughput rates, resource utilization patterns, and error frequencies over representative time periods. Analyze CPU utilization looking for compute-bound operations that might benefit from parallelization or algorithm optimization. Examine memory patterns identifying peak usage, garbage collection overhead, and potential memory leaks. Profile I/O operations measuring disk throughput, network latency, and shuffle volumes in distributed processing. Map bottlenecks to optimization strategies such as increasing parallelism for CPU-bound tasks, streaming processing for memory-bound workloads, partition tuning for I/O-bound operations, and caching for redundant computations.
 
-### Technical Stack
-- Cloud provider: [CLOUD_PROVIDER] (AWS/Azure/GCP)
-- IaC tool: [IAC_TOOL] (Terraform/CloudFormation/Pulumi)
-- Container platform: [CONTAINER_PLATFORM] (Kubernetes/ECS/Cloud Run)
-- Container registry: [CONTAINER_REGISTRY]
-- Compute platform: [COMPUTE_PLATFORM]
-- Storage systems: [STORAGE_SYSTEMS]
-- Networking: [NETWORKING_ARCHITECTURE]
+**2. BATCH SIZE AND PARALLELISM TUNING**
 
-### Performance Requirements
-- Throughput target: [THROUGHPUT_TARGET]
-- Latency requirements: [LATENCY_REQUIREMENTS]
-- Concurrency level: [CONCURRENCY_LEVEL]
-- Resource efficiency: [RESOURCE_EFFICIENCY_TARGET]
-- Scalability range: [SCALABILITY_RANGE]
+Optimize batch processing parameters for throughput and resource efficiency. Calculate optimal batch sizes balancing memory constraints against processing overhead where smaller batches reduce memory pressure while larger batches amortize fixed costs. Tune parallelism levels matching available CPU cores and considering diminishing returns from context switching. Configure partition counts for distributed frameworks ensuring adequate parallelism without excessive coordination overhead. Implement adaptive processing that adjusts batch sizes based on data characteristics, available resources, and processing latency. Design backpressure mechanisms that throttle upstream producers when downstream consumers fall behind. Test configurations across representative workloads measuring throughput, latency percentiles, and resource utilization to find optimal operating points.
 
-### PERFORMANCE OPTIMIZATION
+**3. INFRASTRUCTURE AS CODE DESIGN**
 
-### Pipeline Performance Tuning
-```python
-# Performance optimization framework
-class PipelinePerformanceOptimizer:
-    def __init__(self, config: dict):
-        self.config = config
-        self.performance_metrics = [PERFORMANCE_METRICS_COLLECTOR]()
-        self.optimization_strategies = self.load_optimization_strategies()
+Structure infrastructure provisioning using declarative configuration management. Design Terraform or Pulumi modules for compute resources including processing clusters, serverless functions, and container platforms with appropriate instance types, auto-scaling groups, and spot instance configurations. Define storage infrastructure covering object storage with lifecycle policies, databases with backup configurations, and data warehouses with appropriate scaling. Configure networking with VPCs, subnets, security groups, and private endpoints ensuring secure communication between components. Implement secrets management integrating with cloud provider key management services. Organize modules for reusability across environments with variable parameterization for environment-specific settings. Establish remote state management with locking to prevent concurrent modifications and enable team collaboration.
 
-    def optimize_pipeline_performance(self, pipeline_config: dict) -> dict:
-        """
-        Analyze and optimize pipeline performance
+**4. KUBERNETES DEPLOYMENT ARCHITECTURE**
 
-        Args:
-            pipeline_config: Pipeline configuration details
+Design container orchestration for pipeline workloads. Structure deployments with appropriate replica counts, rolling update strategies, and pod disruption budgets for availability. Configure resource requests and limits based on profiled workload characteristics ensuring schedulability while preventing resource contention. Implement health checks with liveness probes detecting hung processes and readiness probes controlling traffic routing during startup and deployment. Design persistent storage using storage classes appropriate for workload patterns whether high-throughput SSDs or cost-effective magnetic storage. Configure networking with services, ingress controllers, and network policies controlling pod-to-pod communication. Implement pod topology spreading and anti-affinity rules distributing workloads across failure domains for resilience.
 
-        Returns:
-            Optimization recommendations and results
-        """
-        # Analyze current performance
-        performance_analysis = self.analyze_current_performance(pipeline_config)
+**5. AUTO-SCALING STRATEGIES**
 
-        # Identify bottlenecks
-        bottlenecks = self.identify_bottlenecks(performance_analysis)
+Build dynamic scaling responding to workload demands. Configure horizontal pod autoscaling based on CPU utilization, memory usage, or custom metrics like queue depth and processing lag. Design cluster autoscaling adding and removing nodes based on pending pod demands and resource utilization. Implement vertical pod autoscaling recommending or automatically adjusting resource requests based on observed usage patterns. Define scaling thresholds with appropriate cooldown periods preventing thrashing from rapid scale-up and scale-down cycles. Integrate event-driven autoscaling using KEDA for scaling based on external metrics like message queue length or scheduled events. Design scaling policies differentiating between gradual scaling for predictable load increases and rapid scaling for spike handling.
 
-        # Generate optimization recommendations
-        recommendations = self.generate_optimization_recommendations(bottlenecks)
+**6. HIGH AVAILABILITY AND DISASTER RECOVERY**
 
-        # Apply optimizations
-        optimization_results = self.apply_optimizations(
-            pipeline_config,
-            recommendations
-        )
+Architect for resilience and business continuity. Design multi-availability-zone deployments distributing workloads across independent failure domains. Implement database high availability with synchronous replication, automatic failover, and read replicas for query distribution. Configure object storage replication across regions for critical data with appropriate consistency guarantees. Design backup strategies with retention policies, point-in-time recovery capabilities, and regular restoration testing. Define RTO and RPO targets driving architecture decisions around replication lag tolerances and backup frequencies. Implement chaos engineering practices validating failure handling through controlled fault injection. Document disaster recovery procedures with runbooks for common failure scenarios and escalation paths.
 
-        return {
-            'performance_analysis': performance_analysis,
-            'bottlenecks': bottlenecks,
-            'recommendations': recommendations,
-            'optimization_results': optimization_results
-        }
+**7. COST OPTIMIZATION STRATEGIES**
 
-    def analyze_current_performance(self, pipeline_config: dict) -> dict:
-        """
-        Analyze current pipeline performance metrics
-        """
-        pipeline_id = pipeline_config['pipeline_id']
+Optimize infrastructure costs while maintaining performance requirements. Implement right-sizing analyzing resource utilization and adjusting instance types to match actual needs. Leverage spot instances for fault-tolerant batch workloads accepting interruption risk for significant cost savings. Configure storage lifecycle policies transitioning infrequently accessed data to cheaper storage tiers and expiring obsolete data. Use reserved capacity for predictable baseline workloads combining with on-demand for variable portions. Implement resource scheduling shutting down non-production environments outside business hours. Tag all resources enabling cost attribution and identifying optimization opportunities by team, project, or environment. Monitor cost anomalies alerting on unexpected spending increases before they accumulate.
 
-        # Collect historical performance data
-        performance_data = self.performance_metrics.get_pipeline_metrics(
-            pipeline_id=pipeline_id,
-            time_range='[ANALYSIS_TIME_RANGE]',
-            metrics=[
-                'execution_duration',
-                'throughput',
-                'resource_utilization',
-                'error_rate',
-                'data_volume'
-            ]
-        )
+**8. SECURITY AND COMPLIANCE**
 
-        # Calculate performance statistics
-        analysis = {
-            'avg_execution_duration': [AVG_DURATION_CALCULATION],
-            'p95_execution_duration': [P95_DURATION_CALCULATION],
-            'avg_throughput': [AVG_THROUGHPUT_CALCULATION],
-            'peak_cpu_usage': [PEAK_CPU_CALCULATION],
-            'peak_memory_usage': [PEAK_MEMORY_CALCULATION],
-            'avg_error_rate': [AVG_ERROR_RATE_CALCULATION],
-            'data_volume_trend': [DATA_VOLUME_TREND_CALCULATION],
-            'seasonal_patterns': self.identify_seasonal_patterns(performance_data),
-            'resource_efficiency': self.calculate_resource_efficiency(performance_data)
-        }
+Embed security throughout infrastructure design. Implement encryption at rest using cloud provider key management with customer-managed keys for sensitive workloads. Configure encryption in transit with TLS for all network communication between components. Design IAM policies following least privilege principles with role-based access control and service accounts for automation. Implement network segmentation isolating workloads with security groups and network policies. Configure audit logging capturing infrastructure changes, access attempts, and data operations. Design compliance controls meeting regulatory requirements whether HIPAA, SOC 2, PCI-DSS, or GDPR with appropriate documentation and evidence collection. Implement vulnerability scanning for container images and infrastructure configurations with remediation workflows.
 
-        return analysis
+Deliver your infrastructure solution as:
 
-    def identify_bottlenecks(self, performance_analysis: dict) -> list:
-        """
-        Identify performance bottlenecks in the pipeline
-        """
-        bottlenecks = []
-        thresholds = self.config['bottleneck_thresholds']
-
-        # Duration bottlenecks
-        if performance_analysis['p95_execution_duration'] > thresholds['max_duration']:
-            bottlenecks.append({
-                'type': 'DURATION_BOTTLENECK',
-                'severity': 'HIGH',
-                'current_value': performance_analysis['p95_execution_duration'],
-                'threshold': thresholds['max_duration'],
-                'description': 'Pipeline execution duration exceeds acceptable limits'
-            })
-
-        # Throughput bottlenecks
-        if performance_analysis['avg_throughput'] < thresholds['min_throughput']:
-            bottlenecks.append({
-                'type': 'THROUGHPUT_BOTTLENECK',
-                'severity': 'MEDIUM',
-                'current_value': performance_analysis['avg_throughput'],
-                'threshold': thresholds['min_throughput'],
-                'description': 'Pipeline throughput below expected levels'
-            })
-
-        # Resource bottlenecks
-        if performance_analysis['peak_cpu_usage'] > thresholds['max_cpu_usage']:
-            bottlenecks.append({
-                'type': 'CPU_BOTTLENECK',
-                'severity': 'HIGH',
-                'current_value': performance_analysis['peak_cpu_usage'],
-                'threshold': thresholds['max_cpu_usage'],
-                'description': 'CPU usage consistently high'
-            })
-
-        if performance_analysis['peak_memory_usage'] > thresholds['max_memory_usage']:
-            bottlenecks.append({
-                'type': 'MEMORY_BOTTLENECK',
-                'severity': 'HIGH',
-                'current_value': performance_analysis['peak_memory_usage'],
-                'threshold': thresholds['max_memory_usage'],
-                'description': 'Memory usage approaching limits'
-            })
-
-        # Error rate bottlenecks
-        if performance_analysis['avg_error_rate'] > thresholds['max_error_rate']:
-            bottlenecks.append({
-                'type': 'ERROR_RATE_BOTTLENECK',
-                'severity': 'CRITICAL',
-                'current_value': performance_analysis['avg_error_rate'],
-                'threshold': thresholds['max_error_rate'],
-                'description': 'Error rate exceeds acceptable levels'
-            })
-
-        return bottlenecks
-
-    def generate_optimization_recommendations(self, bottlenecks: list) -> list:
-        """
-        Generate optimization recommendations based on identified bottlenecks
-        """
-        recommendations = []
-
-        for bottleneck in bottlenecks:
-            if bottleneck['type'] == 'DURATION_BOTTLENECK':
-                recommendations.extend([
-                    {
-                        'optimization': 'PARALLEL_PROCESSING',
-                        'description': 'Increase parallelization of tasks',
-                        'implementation': self.increase_parallelization,
-                        'expected_improvement': '[PARALLELIZATION_IMPROVEMENT_ESTIMATE]',
-                        'implementation_effort': 'MEDIUM'
-                    },
-                    {
-                        'optimization': 'BATCH_SIZE_OPTIMIZATION',
-                        'description': 'Optimize batch sizes for better throughput',
-                        'implementation': self.optimize_batch_sizes,
-                        'expected_improvement': '[BATCH_SIZE_IMPROVEMENT_ESTIMATE]',
-                        'implementation_effort': 'LOW'
-                    }
-                ])
-
-            elif bottleneck['type'] == 'THROUGHPUT_BOTTLENECK':
-                recommendations.extend([
-                    {
-                        'optimization': 'RESOURCE_SCALING',
-                        'description': 'Scale up compute resources',
-                        'implementation': self.scale_compute_resources,
-                        'expected_improvement': '[SCALING_IMPROVEMENT_ESTIMATE]',
-                        'implementation_effort': 'LOW'
-                    },
-                    {
-                        'optimization': 'CACHING_STRATEGY',
-                        'description': 'Implement intelligent caching',
-                        'implementation': self.implement_caching,
-                        'expected_improvement': '[CACHING_IMPROVEMENT_ESTIMATE]',
-                        'implementation_effort': 'HIGH'
-                    }
-                ])
-
-            elif bottleneck['type'] == 'MEMORY_BOTTLENECK':
-                recommendations.extend([
-                    {
-                        'optimization': 'MEMORY_OPTIMIZATION',
-                        'description': 'Optimize memory usage patterns',
-                        'implementation': self.optimize_memory_usage,
-                        'expected_improvement': '[MEMORY_IMPROVEMENT_ESTIMATE]',
-                        'implementation_effort': 'MEDIUM'
-                    },
-                    {
-                        'optimization': 'STREAMING_PROCESSING',
-                        'description': 'Convert to streaming processing',
-                        'implementation': self.convert_to_streaming,
-                        'expected_improvement': '[STREAMING_IMPROVEMENT_ESTIMATE]',
-                        'implementation_effort': 'HIGH'
-                    }
-                ])
-
-        # Sort by expected improvement and implementation effort
-        recommendations.sort(
-            key=lambda x: ([IMPROVEMENT_WEIGHT] * float(x['expected_improvement'][:-1]) -
-                          [EFFORT_WEIGHT] * {'LOW': 1, 'MEDIUM': 2, 'HIGH': 3}[x['implementation_effort']]),
-            reverse=True
-        )
-
-        return recommendations
-
-# Batch size optimization algorithm
-def optimize_batch_size(current_metrics: dict, target_metrics: dict) -> int:
-    """
-    Calculate optimal batch size based on performance metrics
-    """
-    current_batch_size = current_metrics['batch_size']
-    current_throughput = current_metrics['throughput']
-    current_memory_usage = current_metrics['memory_usage']
-
-    target_throughput = target_metrics['target_throughput']
-    max_memory_usage = target_metrics['max_memory_usage']
-
-    # Calculate throughput efficiency
-    throughput_ratio = target_throughput / current_throughput
-
-    # Calculate memory constraint
-    memory_ratio = max_memory_usage / current_memory_usage
-
-    # Determine optimal batch size
-    size_multiplier = min(throughput_ratio, memory_ratio, [MAX_BATCH_SIZE_MULTIPLIER])
-
-    optimal_batch_size = int(current_batch_size * size_multiplier)
-
-    # Apply constraints
-    optimal_batch_size = max(optimal_batch_size, [MIN_BATCH_SIZE])
-    optimal_batch_size = min(optimal_batch_size, [MAX_BATCH_SIZE])
-
-    return optimal_batch_size
-
-# Resource auto-scaling configuration
-AUTOSCALING_CONFIG = {
-    'cpu_scale_up_threshold': [CPU_SCALE_UP_THRESHOLD],
-    'cpu_scale_down_threshold': [CPU_SCALE_DOWN_THRESHOLD],
-    'memory_scale_up_threshold': [MEMORY_SCALE_UP_THRESHOLD],
-    'memory_scale_down_threshold': [MEMORY_SCALE_DOWN_THRESHOLD],
-    'min_instances': [MIN_INSTANCES],
-    'max_instances': [MAX_INSTANCES],
-    'scale_up_cooldown': '[SCALE_UP_COOLDOWN]',
-    'scale_down_cooldown': '[SCALE_DOWN_COOLDOWN]'
-}
-```
-
-### DEPLOYMENT AND INFRASTRUCTURE
-
-### Infrastructure as Code (Terraform)
-```yaml
-# Terraform configuration for pipeline infrastructure
-provider "[CLOUD_PROVIDER]" {
-  region = "[DEPLOYMENT_REGION]"
-}
-
-# Data processing cluster
-resource "[CLOUD_PROVIDER]_[COMPUTE_RESOURCE]" "[CLUSTER_NAME]" {
-  name               = "[CLUSTER_NAME]"
-  [CLUSTER_VERSION]  = "[VERSION]"
-  node_count         = [NODE_COUNT]
-  node_type          = "[NODE_TYPE]"
-  disk_size          = [DISK_SIZE]
-
-  # Auto-scaling configuration
-  autoscaling {
-    min_size         = [MIN_NODES]
-    max_size         = [MAX_NODES]
-    target_cpu       = [TARGET_CPU_UTILIZATION]
-    target_memory    = [TARGET_MEMORY_UTILIZATION]
-  }
-
-  # Network configuration
-  vpc_id             = [VPC_ID]
-  subnet_ids         = [SUBNET_IDS]
-  security_group_ids = [SECURITY_GROUP_IDS]
-
-  tags = {
-    Environment = "[ENVIRONMENT]"
-    Project     = "[PROJECT_NAME]"
-    Owner       = "[TEAM_OWNER]"
-  }
-}
-
-# Orchestration platform deployment
-resource "[CLOUD_PROVIDER]_[ORCHESTRATION_SERVICE]" "[ORCHESTRATION_INSTANCE]" {
-  name                = "[ORCHESTRATION_INSTANCE_NAME]"
-  service_version     = "[ORCHESTRATION_VERSION]"
-  instance_type       = "[ORCHESTRATION_INSTANCE_TYPE]"
-
-  # High availability configuration
-  availability_zones  = [AVAILABILITY_ZONES]
-  replica_count       = [REPLICA_COUNT]
-
-  # Storage configuration
-  storage {
-    size              = [STORAGE_SIZE]
-    type              = "[STORAGE_TYPE]"
-    encryption        = true
-  }
-
-  # Networking
-  vpc_configuration {
-    vpc_id            = [VPC_ID]
-    subnet_ids        = [PRIVATE_SUBNET_IDS]
-    security_group_id = [ORCHESTRATION_SECURITY_GROUP_ID]
-  }
-
-  # Monitoring and logging
-  monitoring {
-    enabled           = true
-    log_level         = "[LOG_LEVEL]"
-    metrics_enabled   = true
-  }
-}
-
-# Data storage resources
-resource "[CLOUD_PROVIDER]_[STORAGE_SERVICE]" "[DATA_LAKE_STORAGE]" {
-  bucket_name         = "[DATA_LAKE_BUCKET_NAME]"
-  storage_class       = "[STORAGE_CLASS]"
-  versioning          = true
-
-  # Lifecycle management
-  lifecycle_rule {
-    name              = "data_archival"
-    enabled           = true
-
-    transition {
-      days            = [TRANSITION_TO_IA_DAYS]
-      storage_class   = "[INFREQUENT_ACCESS_CLASS]"
-    }
-
-    transition {
-      days            = [TRANSITION_TO_GLACIER_DAYS]
-      storage_class   = "[ARCHIVE_CLASS]"
-    }
-
-    expiration {
-      days            = [EXPIRATION_DAYS]
-    }
-  }
-
-  # Encryption
-  server_side_encryption_configuration {
-    rule {
-      apply_server_side_encryption_by_default {
-        sse_algorithm = "[ENCRYPTION_ALGORITHM]"
-        kms_master_key_id = [KMS_KEY_ID]
-      }
-    }
-  }
-}
-
-# Database resources
-resource "[CLOUD_PROVIDER]_[DATABASE_SERVICE]" "[DATA_WAREHOUSE]" {
-  identifier          = "[DATA_WAREHOUSE_IDENTIFIER]"
-  engine              = "[DATABASE_ENGINE]"
-  engine_version      = "[DATABASE_VERSION]"
-  instance_class      = "[DATABASE_INSTANCE_CLASS]"
-  allocated_storage   = [DATABASE_STORAGE_SIZE]
-
-  # High availability
-  multi_az            = [MULTI_AZ_ENABLED]
-  backup_retention_period = [BACKUP_RETENTION_DAYS]
-  backup_window       = "[BACKUP_WINDOW]"
-  maintenance_window  = "[MAINTENANCE_WINDOW]"
-
-  # Security
-  vpc_security_group_ids = [DATABASE_SECURITY_GROUP_IDS]
-  subnet_group_name   = [DATABASE_SUBNET_GROUP]
-  encrypted           = true
-  kms_key_id          = [DATABASE_KMS_KEY_ID]
-
-  # Performance
-  performance_insights_enabled = true
-  monitoring_interval = [MONITORING_INTERVAL]
-}
-```
-
-### Container Orchestration (Kubernetes)
-```yaml
-# Kubernetes deployment for pipeline components
-apiVersion: apps/v1
-kind: Deployment
-metadata:
-  name: [PIPELINE_SERVICE_NAME]
-  namespace: [NAMESPACE]
-  labels:
-    app: [PIPELINE_SERVICE_NAME]
-    version: [SERVICE_VERSION]
-spec:
-  replicas: [REPLICA_COUNT]
-  selector:
-    matchLabels:
-      app: [PIPELINE_SERVICE_NAME]
-  template:
-    metadata:
-      labels:
-        app: [PIPELINE_SERVICE_NAME]
-        version: [SERVICE_VERSION]
-    spec:
-      containers:
-      - name: [CONTAINER_NAME]
-        image: [CONTAINER_IMAGE]:[IMAGE_TAG]
-        ports:
-        - containerPort: [CONTAINER_PORT]
-        env:
-        - name: [ENV_VAR_1]
-          value: "[ENV_VALUE_1]"
-        - name: [ENV_VAR_2]
-          valueFrom:
-            secretKeyRef:
-              name: [SECRET_NAME]
-              key: [SECRET_KEY]
-        resources:
-          requests:
-            memory: "[MEMORY_REQUEST]"
-            cpu: "[CPU_REQUEST]"
-          limits:
-            memory: "[MEMORY_LIMIT]"
-            cpu: "[CPU_LIMIT]"
-        volumeMounts:
-        - name: [VOLUME_NAME]
-          mountPath: [MOUNT_PATH]
-        livenessProbe:
-          httpGet:
-            path: [HEALTH_CHECK_PATH]
-            port: [HEALTH_CHECK_PORT]
-          initialDelaySeconds: [LIVENESS_INITIAL_DELAY]
-          periodSeconds: [LIVENESS_PERIOD]
-        readinessProbe:
-          httpGet:
-            path: [READINESS_CHECK_PATH]
-            port: [READINESS_CHECK_PORT]
-          initialDelaySeconds: [READINESS_INITIAL_DELAY]
-          periodSeconds: [READINESS_PERIOD]
-      volumes:
-      - name: [VOLUME_NAME]
-        persistentVolumeClaim:
-          claimName: [PVC_NAME]
+1. **Performance Analysis** - Bottleneck identification, optimization recommendations, and expected improvements
+2. **Infrastructure Modules** - Terraform/Pulumi code structure for compute, storage, networking, and databases
+3. **Kubernetes Manifests** - Deployments, services, HPAs, and supporting configurations
+4. **Scaling Policies** - Auto-scaling configurations with thresholds, cooldowns, and custom metrics
+5. **HA/DR Architecture** - Multi-AZ design, backup strategies, and recovery procedures
+6. **Cost Optimization Plan** - Right-sizing recommendations, spot strategies, and lifecycle policies
+7. **Security Controls** - Encryption, IAM, network policies, and compliance mappings
+8. **Operational Runbooks** - Deployment procedures, scaling operations, and incident response
 
 ---
-apiVersion: v1
-kind: Service
-metadata:
-  name: [SERVICE_NAME]
-  namespace: [NAMESPACE]
-spec:
-  selector:
-    app: [PIPELINE_SERVICE_NAME]
-  ports:
-  - port: [SERVICE_PORT]
-    targetPort: [CONTAINER_PORT]
-  type: [SERVICE_TYPE]
-
----
-apiVersion: autoscaling/v2
-kind: HorizontalPodAutoscaler
-metadata:
-  name: [HPA_NAME]
-  namespace: [NAMESPACE]
-spec:
-  scaleTargetRef:
-    apiVersion: apps/v1
-    kind: Deployment
-    name: [PIPELINE_SERVICE_NAME]
-  minReplicas: [MIN_REPLICAS]
-  maxReplicas: [MAX_REPLICAS]
-  metrics:
-  - type: Resource
-    resource:
-      name: cpu
-      target:
-        type: Utilization
-        averageUtilization: [CPU_TARGET_UTILIZATION]
-  - type: Resource
-    resource:
-      name: memory
-      target:
-        type: Utilization
-        averageUtilization: [MEMORY_TARGET_UTILIZATION]
-```
-
-OUTPUT: Deliver comprehensive infrastructure and performance solution including:
-1. Performance analysis and bottleneck identification
-2. Optimization recommendations with implementation guidance
-3. Batch size and parallelism tuning strategies
-4. Auto-scaling configuration for dynamic resource allocation
-5. Complete Terraform infrastructure as code templates
-6. Kubernetes deployment manifests with best practices
-7. Resource allocation and limits configuration
-8. High availability and disaster recovery setup
-9. Cost optimization through lifecycle policies
-10. Monitoring and observability integration
-11. Security configurations (encryption, IAM, network policies)
-12. CI/CD pipeline integration for infrastructure deployment
-```
 
 ## Variables
 
-### Core Configuration
-[INFRASTRUCTURE_APPROACH], [ORGANIZATION_NAME], [PIPELINE_SCOPE], [PERFORMANCE_OBJECTIVES], [SCALE_REQUIREMENTS], [BUDGET_CONSTRAINTS]
+| Variable | Description | Example |
+|----------|-------------|---------|
+| `{INFRASTRUCTURE_CONTEXT}` | Organization, cloud provider, and platform scope | "RetailCorp's Spark processing cluster on AWS EKS" |
+| `{PERFORMANCE_REQUIREMENTS}` | Throughput, latency, and resource constraints | "100K records/sec throughput with 2-hour batch SLA and $5K/month budget" |
+| `{SCALABILITY_OBJECTIVES}` | Growth targets and scaling needs | "handle 3x data growth with auto-scaling from 5 to 50 nodes based on queue depth" |
 
-### Architecture Settings
-[IAC_STRATEGY], [ORCHESTRATION_STRATEGY], [AUTOSCALING_POLICY], [COST_OPTIMIZATION_STRATEGY], [HA_STRATEGY], [DR_STRATEGY]
-
-### Technical Stack
-[CLOUD_PROVIDER], [IAC_TOOL], [CONTAINER_PLATFORM], [CONTAINER_REGISTRY], [COMPUTE_PLATFORM], [STORAGE_SYSTEMS], [NETWORKING_ARCHITECTURE]
-
-### Performance Requirements
-[THROUGHPUT_TARGET], [LATENCY_REQUIREMENTS], [CONCURRENCY_LEVEL], [RESOURCE_EFFICIENCY_TARGET], [SCALABILITY_RANGE]
-
-### Performance Optimization
-[PERFORMANCE_METRICS_COLLECTOR], [ANALYSIS_TIME_RANGE], [AVG_DURATION_CALCULATION], [P95_DURATION_CALCULATION], [AVG_THROUGHPUT_CALCULATION], [PEAK_CPU_CALCULATION], [PEAK_MEMORY_CALCULATION], [AVG_ERROR_RATE_CALCULATION], [DATA_VOLUME_TREND_CALCULATION]
-
-### Optimization Parameters
-[PARALLELIZATION_IMPROVEMENT_ESTIMATE], [BATCH_SIZE_IMPROVEMENT_ESTIMATE], [SCALING_IMPROVEMENT_ESTIMATE], [CACHING_IMPROVEMENT_ESTIMATE], [MEMORY_IMPROVEMENT_ESTIMATE], [STREAMING_IMPROVEMENT_ESTIMATE], [IMPROVEMENT_WEIGHT], [EFFORT_WEIGHT]
-
-### Batch Optimization
-[MAX_BATCH_SIZE_MULTIPLIER], [MIN_BATCH_SIZE], [MAX_BATCH_SIZE]
-
-### Auto-scaling
-[CPU_SCALE_UP_THRESHOLD], [CPU_SCALE_DOWN_THRESHOLD], [MEMORY_SCALE_UP_THRESHOLD], [MEMORY_SCALE_DOWN_THRESHOLD], [MIN_INSTANCES], [MAX_INSTANCES], [SCALE_UP_COOLDOWN], [SCALE_DOWN_COOLDOWN]
-
-### Terraform Configuration
-[DEPLOYMENT_REGION], [COMPUTE_RESOURCE], [CLUSTER_NAME], [VERSION], [NODE_COUNT], [NODE_TYPE], [DISK_SIZE], [MIN_NODES], [MAX_NODES], [TARGET_CPU_UTILIZATION], [TARGET_MEMORY_UTILIZATION], [VPC_ID], [SUBNET_IDS], [SECURITY_GROUP_IDS], [ENVIRONMENT], [PROJECT_NAME], [TEAM_OWNER]
-
-### Orchestration Infrastructure
-[ORCHESTRATION_SERVICE], [ORCHESTRATION_INSTANCE], [ORCHESTRATION_INSTANCE_NAME], [ORCHESTRATION_VERSION], [ORCHESTRATION_INSTANCE_TYPE], [AVAILABILITY_ZONES], [REPLICA_COUNT], [STORAGE_SIZE], [STORAGE_TYPE], [PRIVATE_SUBNET_IDS], [ORCHESTRATION_SECURITY_GROUP_ID], [LOG_LEVEL]
-
-### Storage Configuration
-[STORAGE_SERVICE], [DATA_LAKE_STORAGE], [DATA_LAKE_BUCKET_NAME], [STORAGE_CLASS], [TRANSITION_TO_IA_DAYS], [INFREQUENT_ACCESS_CLASS], [TRANSITION_TO_GLACIER_DAYS], [ARCHIVE_CLASS], [EXPIRATION_DAYS], [ENCRYPTION_ALGORITHM], [KMS_KEY_ID]
-
-### Database Configuration
-[DATABASE_SERVICE], [DATA_WAREHOUSE], [DATA_WAREHOUSE_IDENTIFIER], [DATABASE_ENGINE], [DATABASE_VERSION], [DATABASE_INSTANCE_CLASS], [DATABASE_STORAGE_SIZE], [MULTI_AZ_ENABLED], [BACKUP_RETENTION_DAYS], [BACKUP_WINDOW], [MAINTENANCE_WINDOW], [DATABASE_SECURITY_GROUP_IDS], [DATABASE_SUBNET_GROUP], [DATABASE_KMS_KEY_ID], [MONITORING_INTERVAL]
-
-### Kubernetes Configuration
-[PIPELINE_SERVICE_NAME], [NAMESPACE], [SERVICE_VERSION], [CONTAINER_NAME], [CONTAINER_IMAGE], [IMAGE_TAG], [CONTAINER_PORT], [ENV_VAR_1], [ENV_VALUE_1], [ENV_VAR_2], [SECRET_NAME], [SECRET_KEY], [MEMORY_REQUEST], [CPU_REQUEST], [MEMORY_LIMIT], [CPU_LIMIT], [VOLUME_NAME], [MOUNT_PATH], [HEALTH_CHECK_PATH], [HEALTH_CHECK_PORT], [LIVENESS_INITIAL_DELAY], [LIVENESS_PERIOD], [READINESS_CHECK_PATH], [READINESS_CHECK_PORT], [READINESS_INITIAL_DELAY], [READINESS_PERIOD], [PVC_NAME], [SERVICE_NAME], [SERVICE_PORT], [SERVICE_TYPE], [HPA_NAME], [MIN_REPLICAS], [MAX_REPLICAS], [CPU_TARGET_UTILIZATION], [MEMORY_TARGET_UTILIZATION]
+---
 
 ## Usage Examples
 
 ### Example 1: AWS Data Lake Infrastructure
-```
-CLOUD_PROVIDER: "AWS"
-IAC_TOOL: "Terraform"
-INFRASTRUCTURE:
-  - EMR cluster (5 m5.2xlarge spot instances, auto-scale 3-10 nodes)
-  - S3 data lake (Bronze/Silver/Gold layers with lifecycle policies)
-  - RDS PostgreSQL (db.r5.large, Multi-AZ, automated backups)
-  - Managed Airflow (MWAA, medium environment)
-COST_OPTIMIZATION:
-  - Use spot instances for transient workloads (60% cost savings)
-  - S3 Intelligent-Tiering for automatic cost optimization
-  - RDS reserved instances for predictable workloads
-PERFORMANCE: Target 100K records/sec throughput, < 2 hour batch processing
-```
+**Prompt:** Design a comprehensive infrastructure and performance optimization solution for DataCorp's Spark-based ETL platform on AWS using Terraform and EKS, addressing 500GB daily processing volume with 4-hour batch windows and current 85% memory utilization causing occasional OOM failures to achieve elastic scaling from 5 to 20 nodes based on pending task queue with 40% cost reduction through spot instances.
 
-### Example 2: Kubernetes-based Pipeline Platform
-```
-CONTAINER_PLATFORM: "Kubernetes (EKS)"
-DEPLOYMENT_STRATEGY: "Blue-green deployments with canary testing"
-PIPELINE_SERVICES:
-  - Spark jobs: 3-20 replicas (HPA based on queue depth)
-  - Airflow workers: 5-15 replicas (HPA based on pending tasks)
-  - API services: 2-10 replicas (HPA based on CPU/memory)
-RESOURCE_LIMITS:
-  - Spark: 4 CPU, 16GB memory per pod
-  - Airflow: 2 CPU, 8GB memory per pod
-AUTO_SCALING: Scale up when CPU > 70%, scale down when CPU < 30%
-HEALTH_CHECKS: Liveness probe every 30s, readiness probe every 10s
-```
+**Expected Output:** Terraform modules for EMR on EKS with spot instance pools, S3 data lake with intelligent tiering, performance tuning reducing memory from 85% to 60% through partition optimization, HPA configuration scaling on custom Spark metrics, and FinOps dashboard for cost tracking.
 
-### Example 3: Performance Optimization for Large-scale ETL
-```
-BOTTLENECK: "5-hour nightly ETL exceeding 4-hour SLA"
-ANALYSIS_RESULTS:
-  - CPU: 45% avg (not bottleneck)
-  - Memory: 85% peak (potential bottleneck)
-  - I/O: High shuffle write (major bottleneck)
-OPTIMIZATIONS_APPLIED:
-  1. Increased Spark partitions from 200 to 800 (reduced shuffle)
-  2. Enabled adaptive query execution (AQE)
-  3. Tuned batch size from 100K to 50K rows (reduced memory)
-  4. Implemented broadcast joins for small dimension tables
-  5. Added caching for repeatedly-accessed intermediate tables
-RESULTS: ETL duration reduced from 5h to 2.5h (50% improvement)
-```
+### Example 2: Kubernetes Pipeline Platform
+**Prompt:** Design a comprehensive infrastructure and performance optimization solution for FinTech's real-time streaming platform on GKE using Pulumi and Kafka, addressing sub-100ms processing latency requirements with 50K events/second throughput and strict compliance requirements to achieve zero-downtime deployments with automatic failover across three availability zones and PCI-DSS compliance certification.
 
+**Expected Output:** GKE cluster with node auto-provisioning, Kafka cluster with rack awareness, pod topology spreading across zones, network policies for PCI segmentation, Vault integration for secrets, and chaos engineering tests validating failover.
 
+### Example 3: Performance Optimization Project
+**Prompt:** Design a comprehensive infrastructure and performance optimization solution for HealthCare Analytics' overnight batch processing on Azure Databricks, addressing 8-hour ETL job exceeding 6-hour SLA with high shuffle I/O and underutilized GPU nodes to achieve 4-hour completion time with 30% infrastructure cost reduction while maintaining HIPAA compliance.
 
-## Related Resources
+**Expected Output:** Spark tuning recommendations for partition counts and broadcast joins, right-sized cluster configuration removing unused GPUs, Delta Lake optimization with Z-ordering, ADF orchestration improvements, and HIPAA-compliant logging and encryption.
 
-### Complementary Templates
+---
 
-Enhance your workflow by combining this template with:
+## Cross-References
 
-- **[Pipeline Ingestion](pipeline-ingestion.md)** - Complementary approaches and methodologies
-- **[Pipeline Transformation](pipeline-transformation.md)** - Strategic framework for organizational change initiatives
-- **[Pipeline Orchestration](pipeline-orchestration.md)** - Complementary approaches and methodologies
-- **[Pipeline Observability](pipeline-observability.md)** - Complementary approaches and methodologies
-
-### Suggested Workflow
-
-**Typical implementation sequence**:
-
-1. Start with this template (Pipeline Infrastructure & Performance Template)
-2. Use [Pipeline Ingestion](pipeline-ingestion.md) for deeper analysis
-3. Apply [Pipeline Transformation](pipeline-transformation.md) for execution
-4. Iterate and refine based on results
-
-### Explore More in This Category
-
-Browse all **[data-analytics/Analytics Engineering](../../data-analytics/Analytics Engineering/)** templates for related tools and frameworks.
-
-### Common Use Case Combinations
-
-- **Implementing pipeline performance optimization strategies**: Combine this template with related analytics and strategy frameworks
-- **Designing infrastructure as code with Terraform for data platforms**: Combine this template with related analytics and strategy frameworks
-- **Deploying containerized pipelines with Kubernetes orchestration**: Combine this template with related analytics and strategy frameworks
-
-## Best Practices
-
-1. **Infrastructure as Code** - Version control all infrastructure configurations
-2. **Immutable infrastructure** - Replace rather than update infrastructure
-3. **Environment parity** - Keep dev/staging/prod environments consistent
-4. **Right-sizing** - Monitor and adjust resource allocations regularly
-5. **Cost tagging** - Tag all resources for cost attribution and optimization
-6. **Security by default** - Enable encryption, least privilege access, network isolation
-7. **Automated testing** - Test infrastructure changes before production deployment
-8. **Disaster recovery** - Regular backups, multi-region deployments for critical systems
-9. **Observability integration** - Build monitoring into infrastructure from the start
-10. **Documentation** - Maintain architecture diagrams and runbooks
-
-## Tips for Success
-
-- Use Terraform modules for reusable infrastructure components
-- Implement remote state storage with locking (S3 + DynamoDB)
-- Use separate Terraform workspaces for different environments
-- Enable Terraform state versioning for rollback capability
-- Implement pre-commit hooks to validate Terraform syntax
-- Use cost estimation tools (Infracost) before applying changes
-- Implement policy-as-code (OPA, Sentinel) for governance
-- Use container image scanning for security vulnerabilities
-- Implement resource quotas in Kubernetes namespaces
-- Use Pod Disruption Budgets (PDB) for high availability
-- Implement network policies for pod-to-pod communication control
-- Use secrets management (AWS Secrets Manager, HashiCorp Vault)
-- Configure pod anti-affinity for spreading replicas across nodes
-- Use node selectors/taints for workload-specific node pools
-- Implement graceful shutdown handlers in containerized applications
-- Monitor infrastructure drift with tools like Driftctl
-- Use GitOps (ArgoCD, Flux) for Kubernetes deployment automation
-- Implement automated scaling based on custom metrics (KEDA)
-- Use spot instances for fault-tolerant batch workloads
-- Regularly review and optimize cloud costs with FinOps practices
+- [Pipeline Development](pipeline-development.md) - End-to-end pipeline architecture and orchestration
+- [Pipeline Observability](pipeline-observability.md) - Monitoring, alerting, and operational visibility
+- [Query Optimization Resource Concurrency](query-optimization-resource-concurrency.md) - Memory and I/O tuning strategies

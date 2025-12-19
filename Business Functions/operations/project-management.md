@@ -1,21 +1,21 @@
 ---
 category: operations
-last_updated: 2025-11-09
-related_templates:
-- strategy/okr-implementation-framework.md
-- strategy/digital-transformation-roadmap.md
-- operations/lean-six-sigma-implementation.md
+title: Project Management Readiness Assessment
 tags:
 - project-planning
 - milestone-tracking
 - resource-coordination
 - deliverable-management
-title: Project Management Template Generator
+- readiness-assessment
 use_cases:
-- Creating comprehensive project management frameworks covering project planning,
-  tracking, and reporting to ensure successful project delivery and stakeholder satisfaction.
-- Project planning and execution
-- Strategy development
+- Assessing readiness to deliver a complex initiative on time and on budget with clear governance
+- Diagnosing delivery gaps (scope, estimation, dependencies, risk, change control, reporting)
+- Creating a practical delivery roadmap and operating cadence for execution
+related_templates:
+- operations/operations-resource-management.md
+- strategy/okr-implementation-framework.md
+- strategy/digital-transformation-roadmap.md
+- operations/dashboard-design-deployment.md
 industries:
 - finance
 - government
@@ -23,659 +23,110 @@ industries:
 - manufacturing
 - retail
 - technology
-type: template
+type: framework
 difficulty: intermediate
-slug: project-management
+slug: project-management-readiness-assessment
 ---
 
-# Project Management Template Generator
+# Project Management Readiness Assessment
 
 ## Purpose
-Create comprehensive project management frameworks covering project planning, tracking, and reporting to ensure successful project delivery and stakeholder satisfaction.
+Assess an organization's readiness to plan, govern, and execute projects effectively across six dimensions: Outcomes & Scope, Planning & Estimation, Governance & Decision Rights, Delivery Operating Model, Risk/Dependency & Change Control, and Reporting & Benefits Realization. Identify gaps, prioritize fixes, and build a delivery plan with measurable targets.
 
-## Quick Project Management Prompt
-Create a project plan for [PROJECT_NAME] with [BUDGET] budget and [DURATION] timeline. Define scope with [DELIVERABLE_COUNT] key deliverables and [MILESTONE_COUNT] milestones. Allocate [TEAM_SIZE] team members across [WORKSTREAM_COUNT] workstreams. Identify risks: [TOP_RISKS]. Establish governance with [STAKEHOLDER_COUNT] stakeholders. Implement tracking using [METHODOLOGY] (waterfall/agile/hybrid). Target [ON_TIME_TARGET]% on-time delivery, [BUDGET_VARIANCE]% budget variance, and [QUALITY_SCORE] quality metrics.
+## 🚀 Quick Assessment Prompt
 
-## Quick Start
+> Assess **project management readiness** for **[ORGANIZATION]** delivering **[INITIATIVE]** using **[DELIVERY_MODEL]**. Evaluate across: (1) **Outcomes & scope**—are goals, success metrics, and boundaries clear (and agreed)? (2) **Planning & estimation**—is the plan credible (schedule, budget, milestones, resourcing) and based on evidence? (3) **Governance**—are decision rights, approvals, and escalation paths clear and fast enough? (4) **Delivery operating model**—do teams have a workable cadence (agile/waterfall/hybrid), roles, and tooling to execute? (5) **Risk, dependencies & change control**—are risks owned, dependencies actively managed, and changes controlled without stalling progress? (6) **Reporting & benefits**—is status accurate, leading indicators tracked, and benefits measured post-delivery? Provide a 1–5 maturity scorecard, gap analysis, prioritized recommendations, and a 12-week stabilization roadmap.
 
-**Need to create a project plan quickly?** Use this minimal example:
-
-### Minimal Example
-```
-Create a project plan for migrating customer data to a new CRM system. Timeline is 4 months, budget is $150K, team of 5 people. Key deliverables: data mapping, migration scripts, testing, and training. Main risks: data quality issues and user adoption.
-```
-
-### When to Use This
-- Planning new projects from scratch
-- Structuring complex initiatives with multiple workstreams
-- Managing software, infrastructure, or business transformation projects
-- Ensuring stakeholder alignment and tracking progress
-
-### Basic 3-Step Workflow
-1. **Define scope and objectives** - What will be delivered and why
-2. **Plan timeline and resources** - Schedule, budget, and team needs
-3. **Identify risks and dependencies** - What could go wrong and how to mitigate
-
-**Time to complete**: 2-4 hours for project plan, ongoing for execution tracking
+**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for rapid project delivery readiness evaluation.
 
 ---
 
 ## Template
 
-```
-You are a project management expert specializing in project planning, execution, monitoring, and reporting. Create a detailed project management plan based on the following information:
+Conduct a comprehensive project management readiness assessment for {ORGANIZATION}, a {INDUSTRY} organization planning to deliver {INITIATIVE}.
 
-Project Information:
-- Project Name: [PROJECT_NAME]
-- Project Type: [PROJECT_TYPE]
-- Project Manager: [PROJECT_MANAGER]
-- Project Sponsor: [PROJECT_SPONSOR]
-- Organization: [ORGANIZATION_NAME]
-- Department: [DEPARTMENT]
-- Project Priority: [PROJECT_PRIORITY]
-- Project Classification: [PROJECT_CLASSIFICATION]
+Assess readiness across six dimensions, scoring each 1–5:
 
-### Project Context
-- Business Case: [BUSINESS_JUSTIFICATION]
-- Strategic Alignment: [STRATEGIC_ALIGNMENT]
-- Problem Statement: [PROBLEM_STATEMENT]
-- Solution Overview: [SOLUTION_APPROACH]
-- Success Criteria: [SUCCESS_DEFINITION]
-- Key Assumptions: [PROJECT_ASSUMPTIONS]
-- Major Constraints: [PROJECT_CONSTRAINTS]
-- Risk Profile: [RISK_ASSESSMENT]
+**1. OUTCOMES & SCOPE READINESS**
+- Clear problem statement, desired outcomes, and measurable success criteria
+- Defined scope boundaries (in/out), assumptions, constraints, and acceptance criteria
+- Stakeholder alignment (what “done” means; tradeoffs and priorities)
+- Requirements clarity appropriate to the delivery model (epics/stories vs specs)
+- Benefit hypothesis (how value is realized; who owns adoption)
+- Non-functional requirements and guardrails (security, privacy, compliance, reliability)
 
-### Project Scope
-- Project Objectives: [PROJECT_OBJECTIVES]
-- Deliverables: [KEY_DELIVERABLES]
-- Scope Inclusions: [SCOPE_INCLUDED]
-- Scope Exclusions: [SCOPE_EXCLUDED]
-- Acceptance Criteria: [ACCEPTANCE_CRITERIA]
-- Quality Standards: [QUALITY_REQUIREMENTS]
-- Performance Requirements: [PERFORMANCE_CRITERIA]
-- Compliance Requirements: [COMPLIANCE_NEEDS]
+**2. PLANNING & ESTIMATION READINESS**
+- Work decomposition (WBS/backlog) with ownership and realistic sequencing
+- Evidence-based estimates (historical velocity, benchmarks, reference classes)
+- Resource plan (roles, availability, constraints, backfill, vendor capacity)
+- Schedule quality (critical path, milestones, dependency mapping)
+- Budget plan (run vs change, contingency, procurement lead times)
+- Baseline and change management (what’s tracked vs what’s flexible)
 
-### Project Parameters
-- Start Date: [PROJECT_START_DATE]
-- End Date: [PROJECT_END_DATE]
-- Budget: [PROJECT_BUDGET]
-- Team Size: [TEAM_SIZE]
-- Key Stakeholders: [STAKEHOLDER_LIST]
-- Technology Platform: [TECHNOLOGY_STACK]
-- Geographic Scope: [GEOGRAPHIC_COVERAGE]
-- Methodology: [PROJECT_METHODOLOGY]
+**3. GOVERNANCE & DECISION RIGHTS READINESS**
+- Clear decision rights (RACI/DACI) and fast escalation for blockers
+- Steering cadence (frequency, agenda, decision log) matched to risk
+- Approval gates that protect risk without becoming bottlenecks
+- Vendor/partner governance (SLAs, deliverables, acceptance, change orders)
+- Compliance and audit involvement integrated early (not end-loaded)
+- Single accountable owner (sponsor) and empowered PM/Delivery Lead
 
-Generate a comprehensive project management plan that includes:
+**4. DELIVERY OPERATING MODEL READINESS**
+- Delivery model fit (agile, waterfall, hybrid) for the work type and constraints
+- Defined roles (PM, Product Owner, Tech Lead, QA, Ops/Support) and handoffs
+- Working agreements (Definition of Ready/Done, branching/release strategy if software)
+- Quality practices (test strategy, reviews, acceptance testing, sign-off)
+- Collaboration tooling (tracking, docs, comms) with disciplined usage
+- Team health and capacity practices (WIP limits, focus time, dependency buffers)
 
-## EXECUTIVE SUMMARY
-### Project Overview
-- Project purpose and business justification
-- Key objectives and success criteria
-- Major deliverables and milestones
-- Resource requirements and budget
-- Timeline and critical dependencies
-- Risk assessment and mitigation approach
+**5. RISK, DEPENDENCY & CHANGE CONTROL READINESS**
+- Risk register with owners, mitigations, triggers, and review cadence
+- Dependency mapping (internal/external) with accountable owners and dates
+- Change control mechanism proportional to risk (lightweight CRs, impact assessment)
+- Issue management flow (triage, priority, SLA, escalation)
+- Cutover readiness (go-live criteria, rollback plan, runbooks)
+- Stakeholder change management (training, comms, adoption measurement)
 
-### Project Value Proposition
-- Business benefits and ROI
-- Strategic alignment and impact
-- Success metrics and KPIs
-- Stakeholder value delivery
-- Risk mitigation and compliance
-- Quality assurance approach
+**6. REPORTING & BENEFITS REALIZATION READINESS**
+- Accurate status reporting (progress vs plan; what changed; what’s at risk)
+- Leading indicators (burn-up, throughput, milestone readiness, defect trends)
+- Decision-quality dashboards (simple, consistent, role-based)
+- Benefits tracking plan (baseline vs realized; post-launch measurement)
+- Operational handover readiness (support model, SLAs, ownership)
+- Lessons learned loop (retrospectives; playbooks; reusable standards)
 
-## 1. PROJECT CHARTER
-### 1.1 Project Definition
-#### Project Purpose
-- Business need and opportunity
-- Problem statement and context
-- Solution approach and rationale
-- Strategic alignment and benefits
-- Success criteria and metrics
-- Stakeholder value proposition
+Deliver your assessment as:
 
-#### Project Scope Statement
-- Project objectives and goals
-- Key deliverables and outcomes
-- Scope boundaries and limitations
-- Acceptance criteria definition
-- Quality standards and requirements
-- Performance expectations
+1. **EXECUTIVE SUMMARY** - Overall score, maturity level, top 3 priorities, main delivery risks
 
-### 1.2 Project Authority and Governance
-#### Project Roles and Responsibilities
-- Project sponsor authority and accountability
-- Project manager responsibilities and authority
-- Steering committee composition and role
-- Key stakeholder roles and expectations
-- Team member responsibilities
-- Escalation paths and procedures
+2. **DIMENSION SCORECARD** - Table with score (X.X/5) and key finding per dimension
 
-#### Governance Framework
-- Decision-making authority matrix
-- Approval processes and criteria
-- Change control procedures
-- Risk management governance
-- Quality assurance oversight
-- Communications protocols
+3. **INITIATIVE READINESS** - Readiness by workstream (✓/△/✗) and top dependency risks
 
-### 1.3 Project Constraints and Assumptions
-#### Project Constraints
-- Time constraints and deadlines
-- Budget limitations and restrictions
-- Resource availability and skills
-- Technology constraints and dependencies
-- Regulatory and compliance requirements
-- External dependencies and factors
+4. **GAP ANALYSIS** - Top 5 gaps ranked by impact and urgency, with recommended actions
 
-#### Project Assumptions
-- Resource availability assumptions
-- Technology capability assumptions
-- Stakeholder engagement assumptions
-- External factor assumptions
-- Market condition assumptions
-- Organizational support assumptions
+5. **12-WEEK STABILIZATION ROADMAP** - Weeks 1–4 / 5–8 / 9–12 actions across planning, governance, delivery, and reporting
 
-## 2. PROJECT PLANNING
-### 2.1 Work Breakdown Structure (WBS)
-#### Major Work Packages
-Level 1: Project Phases
-- Initiation phase deliverables
-- Planning phase deliverables
-- Execution phase deliverables
-- Monitoring and control deliverables
-- Closure phase deliverables
+6. **SUCCESS METRICS** - Baseline vs 6-week and 12-week targets (on-time delivery %, forecast accuracy, change fail %, stakeholder CSAT)
 
-Level 2: Work Package Decomposition
-### For each major work package
-- Sub-deliverables identification
-- Task and activity breakdown
-- Resource requirement specification
-- Duration estimation
-- Dependency identification
-- Risk and assumption documentation
-
-Level 3: Detailed Activity Planning
-- Task-level activity definition
-- Resource assignment and allocation
-- Effort estimation and duration
-- Predecessor and successor relationships
-- Quality criteria and standards
-- Acceptance criteria specification
-
-### 2.2 Schedule Development
-#### Schedule Planning
-- Activity sequencing and dependencies
-- Resource availability and allocation
-- Duration estimation techniques
-- Schedule optimization strategies
-- Critical path identification
-- Schedule risk assessment
-
-#### Milestone Planning
-- Key milestone identification
-- Milestone criteria and deliverables
-- Stakeholder review and approval points
-- Go/no-go decision criteria
-- Milestone achievement metrics
-- Communication and reporting requirements
-
-#### Schedule Management
-- Baseline schedule establishment
-- Schedule monitoring procedures
-- Progress tracking methodologies
-- Schedule variance analysis
-- Schedule compression techniques
-- Change control procedures
-
-### 2.3 Resource Planning
-#### Human Resource Planning
-- Role and skill requirements
-- Team structure and organization
-- Resource acquisition strategies
-- Team development planning
-- Performance management approach
-- Communication and collaboration planning
-
-#### Material Resource Planning
-- Equipment and tool requirements
-- Facility and space requirements
-- Technology and software needs
-- Consumable resource planning
-- Procurement and acquisition strategies
-- Resource allocation optimization
-
-#### Budget and Cost Planning
-- Cost estimation methodologies
-- Budget development and allocation
-- Cost baseline establishment
-- Cost control procedures
-- Financial reporting requirements
-- Contingency planning
-
-## 3. PROJECT EXECUTION FRAMEWORK
-### 3.1 Project Management Methodology
-#### Methodology Selection
-- Traditional/Waterfall approach considerations
-- Agile/Scrum methodology application
-- Hybrid methodology development
-- Industry-specific methodology adoption
-- Organizational methodology alignment
-- Methodology customization requirements
-
-#### Process Framework
-- Project phase gate procedures
-- Quality assurance processes
-- Change management procedures
-- Risk management processes
-- Communication protocols
-- Documentation standards
-
-### 3.2 Team Management
-#### Team Organization
-- Team structure and hierarchy
-- Role definitions and responsibilities
-- Authority and accountability matrix
-- Team communication protocols
-- Collaboration tools and platforms
-- Team performance metrics
-
-#### Team Development
-- Team formation and orientation
-- Skill development and training
-- Team building activities
-- Performance coaching and mentoring
-- Recognition and reward systems
-- Conflict resolution procedures
-
-### 3.3 Stakeholder Management
-#### Stakeholder Identification and Analysis
-- Stakeholder mapping and categorization
-- Influence and interest assessment
-- Communication needs analysis
-- Engagement strategy development
-- Expectation management planning
-- Relationship building approaches
-
-#### Stakeholder Engagement
-- Communication planning and execution
-- Regular update and reporting
-- Feedback collection and response
-- Issue escalation and resolution
-- Change communication and adoption
-- Success celebration and recognition
-
-## 4. PROJECT MONITORING AND CONTROL
-### 4.1 Performance Monitoring
-#### Performance Measurement Framework
-- Key Performance Indicators (KPIs)
-- Earned Value Management (EVM)
-- Schedule performance monitoring
-- Cost performance tracking
-- Quality metrics and indicators
-- Risk indicator monitoring
-
-#### Progress Tracking Systems
-- Work completion tracking
-- Milestone achievement monitoring
-- Resource utilization tracking
-- Budget consumption monitoring
-- Quality deliverable tracking
-- Issue and risk tracking
-
-### 4.2 Quality Management
-#### Quality Planning
-- Quality standards definition
-- Quality control procedures
-- Quality assurance processes
-- Testing and validation protocols
-- Review and approval procedures
-- Continuous improvement processes
-
-#### Quality Control
-- Deliverable inspection procedures
-- Quality metric monitoring
-- Defect identification and resolution
-- Process improvement implementation
-- Quality reporting and communication
-- Lessons learned capture
-
-### 4.3 Risk Management
-#### Risk Identification and Assessment
-- Risk identification techniques
-- Risk probability and impact assessment
-- Risk prioritization and categorization
-- Risk response strategy development
-- Risk monitoring and review
-- Risk communication and reporting
-
-#### Risk Response Implementation
-- Risk mitigation action execution
-- Risk contingency plan activation
-- Risk transfer and sharing implementation
-- Risk acceptance and monitoring
-- Risk response effectiveness evaluation
-- Risk register maintenance
-
-## 5. COMMUNICATION MANAGEMENT
-### 5.1 Communication Planning
-#### Communication Strategy
-- Communication objectives and goals
-- Stakeholder communication needs
-- Communication channels and methods
-- Communication frequency and timing
-- Communication content and format
-- Communication feedback mechanisms
-
-#### Communication Matrix
-- Stakeholder-specific communication plans
-- Information distribution responsibilities
-- Communication channel assignments
-- Escalation communication procedures
-- Crisis communication protocols
-- Decision communication processes
-
-### 5.2 Information Management
-#### Documentation Management
-- Document creation standards
-- Version control procedures
-- Document storage and retrieval
-- Access control and security
-- Document review and approval
-- Archive and retention policies
-
-#### Knowledge Management
-- Knowledge capture processes
-- Best practice documentation
-- Lessons learned collection
-- Knowledge sharing platforms
-- Expertise location systems
-- Continuous learning promotion
-
-### 5.3 Reporting Framework
-#### Status Reporting
-- Project dashboard development
-- Weekly status reports
-- Monthly executive summaries
-- Milestone achievement reports
-- Exception and variance reports
-- Stakeholder-specific reporting
-
-#### Performance Reporting
-- Schedule performance analysis
-- Cost performance evaluation
-- Quality performance assessment
-- Risk and issue status reporting
-- Resource utilization reporting
-- Benefits realization tracking
-
-## 6. CHANGE MANAGEMENT
-### 6.1 Change Control Process
-#### Change Identification
-- Change request procedures
-- Change impact assessment
-- Change evaluation criteria
-- Change approval authorities
-- Change communication requirements
-- Change implementation planning
-
-#### Change Implementation
-- Change execution procedures
-- Impact mitigation strategies
-- Stakeholder communication
-- Training and support provision
-- Performance monitoring
-- Change effectiveness evaluation
-
-### 6.2 Configuration Management
-#### Configuration Control
-- Configuration item identification
-- Version control procedures
-- Change control integration
-- Configuration audit procedures
-- Configuration status reporting
-- Baseline management
-
-### 6.3 Issue Management
-#### Issue Resolution Process
-- Issue identification and logging
-- Issue impact assessment
-- Issue escalation procedures
-- Resolution strategy development
-- Implementation and monitoring
-- Closure and lessons learned
-
-## 7. RISK MANAGEMENT
-### 7.1 Risk Management Planning
-#### Risk Management Strategy
-- Risk management approach
-- Risk categories and taxonomy
-- Risk assessment methodologies
-- Risk response strategies
-- Risk monitoring procedures
-- Risk communication protocols
-
-#### Risk Assessment Framework
-- Risk identification techniques
-- Qualitative risk analysis
-- Quantitative risk analysis
-- Risk prioritization methods
-- Risk impact assessment
-- Risk probability evaluation
-
-### 7.2 Risk Response Planning
-#### Risk Response Strategies
-- Risk avoidance strategies
-- Risk mitigation approaches
-- Risk transfer mechanisms
-- Risk acceptance criteria
-- Contingency planning
-- Risk response implementation
-
-#### Risk Monitoring and Control
-- Risk indicator tracking
-- Risk reassessment procedures
-- Risk response effectiveness evaluation
-- Secondary risk identification
-- Risk register updates
-- Risk reporting requirements
-
-## 8. PROCUREMENT MANAGEMENT
-### 8.1 Procurement Planning
-#### Procurement Strategy
-- Make-or-buy decisions
-- Procurement approach selection
-- Vendor selection criteria
-- Contract type determination
-- Procurement schedule development
-- Risk assessment and mitigation
-
-#### Vendor Management
-- Vendor identification and qualification
-- Request for proposal development
-- Vendor evaluation and selection
-- Contract negotiation and execution
-- Vendor performance monitoring
-- Relationship management
-
-### 8.2 Contract Management
-#### Contract Administration
-- Contract compliance monitoring
-- Performance measurement and reporting
-- Change order management
-- Payment processing and approval
-- Dispute resolution procedures
-- Contract closeout procedures
-
-## 9. PROJECT CLOSURE
-### 9.1 Project Completion
-#### Deliverable Acceptance
-- Deliverable verification procedures
-- Quality validation and testing
-- Stakeholder acceptance criteria
-- Sign-off and approval processes
-- Documentation completion
-- Knowledge transfer activities
-
-#### Administrative Closure
-- Contract closure procedures
-- Final reporting and documentation
-- Resource release and reassignment
-- Budget reconciliation and closure
-- Procurement closure activities
-- Stakeholder notification and communication
-
-### 9.2 Post-Project Activities
-#### Lessons Learned
-- Project evaluation and assessment
-- Success factor identification
-- Challenge and issue analysis
-- Process improvement recommendations
-- Best practice documentation
-- Knowledge sharing and dissemination
-
-#### Benefits Realization
-- Benefits measurement and tracking
-- Value delivery assessment
-- ROI calculation and reporting
-- Stakeholder satisfaction evaluation
-- Long-term impact monitoring
-- Success story documentation
-
-## 10. PROJECT GOVERNANCE
-### 10.1 Governance Structure
-#### Steering Committee
-- Steering committee composition
-- Roles and responsibilities
-- Meeting schedules and agendas
-- Decision-making authority
-- Escalation procedures
-- Performance oversight
-
-#### Project Management Office (PMO)
-- PMO support and services
-- Standards and methodology compliance
-- Portfolio alignment and integration
-- Resource coordination and optimization
-- Best practice sharing
-- Performance measurement and reporting
-
-### 10.2 Compliance and Audit
-#### Compliance Management
-- Regulatory compliance requirements
-- Organizational policy compliance
-- Industry standard adherence
-- Audit preparation and support
-- Compliance monitoring and reporting
-- Corrective action implementation
-
-## TEMPLATES AND TOOLS
-### Project Management Templates
-- Project charter template
-- Work breakdown structure template
-- Project schedule template
-- Risk register template
-- Status report template
-- Change request template
-
-### Project Management Tools
-- Project scheduling software
-- Collaboration platforms
-- Document management systems
-- Risk management tools
-- Budget tracking systems
-- Performance dashboard tools
-
-## APPENDICES
-- Project charter documentation
-- Detailed work breakdown structure
-- Project schedule and timeline
-- Resource allocation plans
-- Risk register and mitigation plans
-- Communication matrix and plans
-- Quality assurance procedures
-- Change control procedures
-
-### Ensure the project management plan is
-- Comprehensive and practical
-- Stakeholder-focused and collaborative
-- Risk-aware and adaptive
-- Quality-focused and measurable
-- Communication-rich and transparent
-- Methodology-aligned and consistent
-- Scalable and reusable
-```
+Use this maturity scale:
+- 1.0-1.9: Initial (ad-hoc planning, unclear ownership, reactive delivery)
+- 2.0-2.9: Developing (basic plans, inconsistent governance, frequent surprises)
+- 3.0-3.9: Defined (repeatable methods, clear roles, managed risks)
+- 4.0-4.9: Managed (predictable execution, strong controls, continuous optimization)
+- 5.0: Optimized (high-velocity, high-quality delivery system with learning loops)
 
 ## Variables
-- `[PROJECT_NAME]`: Name of the project
-- `[PROJECT_TYPE]`: Type/category of project
-- `[PROJECT_MANAGER]`: Project manager name
-- `[PROJECT_SPONSOR]`: Executive sponsor
-- `[ORGANIZATION_NAME]`: Organization name
-- `[DEPARTMENT]`: Responsible department
-- `[PROJECT_PRIORITY]`: Priority level
-- `[PROJECT_CLASSIFICATION]`: Project classification
-- `[BUSINESS_JUSTIFICATION]`: Business case
-- `[STRATEGIC_ALIGNMENT]`: Strategic alignment
-- `[PROBLEM_STATEMENT]`: Problem being solved
-- `[SOLUTION_APPROACH]`: Solution overview
-- `[SUCCESS_DEFINITION]`: Success criteria
-- `[PROJECT_ASSUMPTIONS]`: Key assumptions
-- `[PROJECT_CONSTRAINTS]`: Major constraints
-- `[RISK_ASSESSMENT]`: Risk profile
-- `[PROJECT_OBJECTIVES]`: Project objectives
-- `[KEY_DELIVERABLES]`: Major deliverables
-- `[SCOPE_INCLUDED]`: Included scope
-- `[SCOPE_EXCLUDED]`: Excluded scope
-- `[ACCEPTANCE_CRITERIA]`: Acceptance criteria
-- `[QUALITY_REQUIREMENTS]`: Quality standards
-- `[PERFORMANCE_CRITERIA]`: Performance requirements
-- `[COMPLIANCE_NEEDS]`: Compliance requirements
-- `[PROJECT_START_DATE]`: Project start date
-- `[PROJECT_END_DATE]`: Project end date
-- `[PROJECT_BUDGET]`: Total project budget
-- `[TEAM_SIZE]`: Team size estimate
-- `[STAKEHOLDER_LIST]`: Key stakeholders
-- `[TECHNOLOGY_STACK]`: Technology platform
-- `[GEOGRAPHIC_COVERAGE]`: Geographic scope
-- `[PROJECT_METHODOLOGY]`: Methodology to use
 
-## Usage Example
-Use for project initiation, project planning, project execution oversight, stakeholder communication, project governance, or project management training.
+| Variable | Description | Example |
+|----------|-------------|----------|
+| `[ORGANIZATION]` | Name of the organization | "Apex Manufacturing" |
+| `[INITIATIVE]` | Initiative/project being delivered | "ERP migration + warehouse scanning rollout" |
+| `[DELIVERY_MODEL]` | Delivery approach | "Hybrid (waterfall milestones + agile sprints)" |
 
-## Customization Tips
-- Adapt to specific project methodology (Agile, Waterfall, Hybrid)
-- Include industry-specific requirements and standards
-- Scale complexity based on project size and risk
-- Add organizational templates and tools
-- Include relevant compliance and regulatory requirements
-- Consider cultural and geographic factors
+## Example
 
-## Related Resources
+**Manufacturing - ERP Migration and Warehouse Rollout**
 
-### Complementary Templates
+> Assess project management readiness for **Apex Manufacturing** delivering **ERP migration + warehouse scanning rollout** using **Hybrid (waterfall milestones + agile sprints)**. (1) Outcomes & scope—objectives are clear but acceptance criteria for warehouse workflows are ambiguous; non-functional requirements for uptime and cutover are not agreed. (2) Planning—schedule exists but critical path and procurement lead times are missing; resourcing assumes 80% availability for SMEs who are at capacity. (3) Governance—steering committee exists but decision rights are unclear; vendor change orders are handled ad-hoc. (4) Delivery model—teams run sprints but backlog is not prioritized against milestones; testing is late-stage. (5) Risk/deps—top risks (data quality, cutover downtime, training) are known but not owned with triggers; dependencies on IT infra upgrades are not tracked. (6) Reporting—status is “green” but leading indicators (defects, readiness) show rising risk; benefits tracking is undefined. Provide scorecard, top gaps, and a 12-week stabilization roadmap.
 
-Enhance your workflow by combining this template with:
-
-- **[Okr Implementation Framework](okr-implementation-framework.md)** - Set measurable objectives and key results to track progress
-- **[Digital Transformation Roadmap](digital-transformation-roadmap.md)** - Strategic framework for organizational change initiatives
-- **[Lean Six Sigma Implementation](lean-six-sigma-implementation.md)** - Complementary approaches and methodologies
-
-### Suggested Workflow
-
-**Typical implementation sequence**:
-
-1. Start with this template (Project Management Template Generator)
-2. Use [Okr Implementation Framework](okr-implementation-framework.md) for deeper analysis
-3. Apply [Digital Transformation Roadmap](digital-transformation-roadmap.md) for execution
-4. Iterate and refine based on results
-
-### Explore More in This Category
-
-Browse all **[business/Operations & Processes](../../business/Operations & Processes/)** templates for related tools and frameworks.
-
-### Common Use Case Combinations
-
-- **Creating comprehensive project management frameworks covering project planning, tracking, and reporting to ensure successful project delivery and stakeholder satisfaction.**: Combine this template with related analytics and strategy frameworks
-- **Project planning and execution**: Combine this template with related analytics and strategy frameworks
-- **Strategy development**: Combine this template with related analytics and strategy frameworks

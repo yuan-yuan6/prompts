@@ -1,635 +1,130 @@
 ---
 category: technology
-last_updated: 2025-11-23
-related_templates:
-- technology/Software-Development/architecture-design.md
+title: Code Review Strategy
 tags:
 - code-review
 - pull-request
 - code-quality
 - static-analysis
-title: Comprehensive Code Review
 use_cases:
-- Pull request reviews
-- Code quality assessment
-- Security audits
-- Performance optimization
-- Technical debt analysis
-- Onboarding code reviews
+- Conducting pull request reviews focusing on security vulnerabilities, performance bottlenecks, and code maintainability
+- Performing security audits validating authentication, authorization, input validation, and OWASP Top 10 compliance
+- Reviewing API implementations for REST compliance, error handling, versioning, and documentation completeness
+related_templates:
+- technology/architecture-design.md
+- technology/testing-qa.md
+- technology/code-generation.md
 industries:
 - manufacturing
 - technology
-type: template
-difficulty: intermediate
+type: framework
+difficulty: comprehensive
 slug: code-review
 ---
 
-# Code Review Template
+# Code Review Strategy
 
 ## Purpose
-Conduct comprehensive code reviews focusing on optimization, security, best practices, maintainability, performance, and adherence to coding standards with constructive feedback and actionable recommendations.
+Conduct comprehensive code reviews evaluating security, performance, maintainability, test coverage, and adherence to standards providing constructive feedback prioritized by severity with actionable recommendations and positive reinforcement.
 
-## Quick Code Review Prompt
-Review [module/feature] in [language/framework]. Focus: security ([OWASP Top 10/input validation/auth]), code quality ([readability/maintainability]), performance ([complexity/queries]), tests ([coverage >X%]). Check: [specific concerns]. Deliverable: issues by severity (critical/major/minor), suggested fixes, positive highlights. Time: [30-60 min] for [X lines].
+## 🚀 Quick Code Review Prompt
 
-## Quick Start
-
-**Need to review code quickly?** Use this minimal example:
-
-### Minimal Example
-```
-Review the UserAuthentication module in our CustomerAPI (Node.js/Express). Focus on security vulnerabilities (OWASP Top 10), input validation, JWT implementation, and error handling. Check for SQL injection, XSS, and authentication bypass risks. Code coverage should be >80%.
-```
-
-### When to Use This
-- Pull request reviews before merging to main
-- Security audits for authentication/authorization code
-- Pre-deployment quality checks
-- Onboarding reviews for new team members
-
-### Basic 3-Step Workflow
-1. **Scan for critical issues** - Security vulnerabilities, logic errors, breaking changes
-2. **Review code quality** - Readability, maintainability, test coverage, standards compliance
-3. **Provide feedback** - Document issues with severity, suggest fixes, highlight strengths
-
-**Time to complete**: 30-60 minutes for typical feature (200-400 lines)
+> Review **[MODULE/FEATURE]** in **[LANGUAGE/FRAMEWORK]** targeting **[REVIEW_FOCUS]** (security/performance/quality). Priorities: (1) **Security**—what OWASP Top 10 risks (SQL injection/XSS/auth bypass), input validation, encryption, sensitive data handling? (2) **Code quality**—what readability issues, complexity >10, duplication >5%, SOLID violations, test coverage <80%? (3) **Performance**—what algorithm complexity, N+1 queries, memory leaks, synchronous blocking calls? (4) **Standards**—what linting errors, type safety issues, documentation gaps, commit message quality? (5) **Testing**—what missing edge cases, integration test gaps, mock usage, flaky tests? Deliver issues by severity (critical/major/minor), specific code examples, suggested fixes, positive highlights.
 
 ---
 
-## Template Structure
+## Template
 
-### Review Context
-- **Review Type**: [REVIEW_TYPE]
-- **Code Author**: [CODE_AUTHOR]
-- **Reviewer**: [REVIEWER]
-- **Review Date**: [REVIEW_DATE]
-- **Programming Language**: [PROGRAMMING_LANGUAGE]
-- **Framework**: [FRAMEWORK]
-- **Project**: [PROJECT_NAME]
-- **Feature/Module**: [FEATURE_MODULE]
-- **Priority**: [REVIEW_PRIORITY]
-- **Deadline**: [REVIEW_DEADLINE]
+Review {MODULE} in {PROJECT} written in {LANGUAGE} using {FRAMEWORK} focusing on {REVIEW_PRIORITY} concerns targeting {TEST_COVERAGE}% coverage with {APPROVAL_CRITERIA} quality gates.
 
-### Code Quality Assessment
-- **Code Readability**: [CODE_READABILITY]
-- **Code Maintainability**: [CODE_MAINTAINABILITY]
-- **Code Complexity**: [CODE_COMPLEXITY]
-- **Naming Conventions**: [NAMING_CONVENTIONS]
-- **Code Organization**: [CODE_ORGANIZATION]
-- **Documentation Quality**: [DOCUMENTATION_QUALITY]
-- **Comment Quality**: [COMMENT_QUALITY]
-- **Code Duplication**: [CODE_DUPLICATION]
-- **Technical Debt**: [TECHNICAL_DEBT]
-- **Refactoring Opportunities**: [REFACTORING_OPPORTUNITIES]
+**SECURITY VULNERABILITY ASSESSMENT**
 
-### Architecture and Design
-- **Design Patterns**: [DESIGN_PATTERNS]
-- **Architecture Compliance**: [ARCHITECTURE_COMPLIANCE]
-- **SOLID Principles**: [SOLID_PRINCIPLES]
-- **Separation of Concerns**: [SEPARATION_OF_CONCERNS]
-- **Dependency Management**: [DEPENDENCY_MANAGEMENT]
-- **Interface Design**: [INTERFACE_DESIGN]
-- **Abstraction Level**: [ABSTRACTION_LEVEL]
-- **Coupling**: [COUPLING]
-- **Cohesion**: [COHESION]
-- **Scalability**: [SCALABILITY_CONSIDERATIONS]
+Validate input sanitization preventing injection attacks at every boundary. SQL injection prevention requires parameterized queries exclusively: prepared statements binding user input as parameters (PreparedStatement in Java, $1 placeholders in PostgreSQL, ? in SQLite), ORM query builders (SQLAlchemy filter(), Prisma where(), TypeORM QueryBuilder) parameterize automatically, never concatenate user input into SQL strings (dangerous: "SELECT * FROM users WHERE id = " + userId, safe: "SELECT * FROM users WHERE id = ?" with [userId] parameter). Check all database operations: dynamic filters, search queries, sorting parameters, pagination offsets. XSS prevention through context-appropriate encoding: HTML entity encoding for display (<script> becomes &lt;script&gt;), JavaScript encoding for script contexts (escaping quotes and special characters), URL encoding for href attributes, Content Security Policy headers blocking inline scripts, framework auto-escaping (React JSX, Vue templates, Angular templates default safe). Review user-generated content rendering: comments, profile data, markdown rendering, rich text editors.
 
-### Performance Review
-- **Algorithm Efficiency**: [ALGORITHM_EFFICIENCY]
-- **Time Complexity**: [TIME_COMPLEXITY]
-- **Space Complexity**: [SPACE_COMPLEXITY]
-- **Memory Usage**: [MEMORY_USAGE]
-- **Resource Management**: [RESOURCE_MANAGEMENT]
-- **Caching Strategy**: [CACHING_STRATEGY]
-- **Database Operations**: [DATABASE_OPERATIONS]
-- **I/O Operations**: [IO_OPERATIONS]
-- **Concurrency Handling**: [CONCURRENCY_HANDLING]
-- **Performance Bottlenecks**: [PERFORMANCE_BOTTLENECKS]
+Verify authentication and authorization implementation security. JWT token security requires proper configuration: RS256 asymmetric signing (public key verifies, private key signs preventing forgery), short-lived access tokens (15 minutes reducing compromise window), rotating refresh tokens (one-time use, new token issued on refresh), payload claims validated (expiration, issuer, audience), secret keys stored in environment variables or vault (never hardcoded). Check token handling: transmitted via Authorization: Bearer header (not query parameters exposing in logs), httpOnly secure cookies for browser clients preventing XSS theft, token invalidation on logout, expired token rejection with 401 Unauthorized. Authorization enforcement at multiple layers: API gateway validates permissions, service layer checks resource ownership, database row-level security policies, frontend hides UI but never trusts client-side checks. Review RBAC implementation: roles assigned to users, permissions checked before operations, hierarchical roles (admin inherits manager permissions), attribute-based policies for complex rules (OPA evaluating user department, resource sensitivity, time-of-day).
 
-### Security Review
-- **Input Validation**: [INPUT_VALIDATION]
-- **Output Encoding**: [OUTPUT_ENCODING]
-- **Authentication Implementation**: [AUTHENTICATION_IMPLEMENTATION]
-- **Authorization Checks**: [AUTHORIZATION_CHECKS]
-- **Data Encryption**: [DATA_ENCRYPTION]
-- **Secure Communication**: [SECURE_COMMUNICATION]
-- **Error Handling**: [ERROR_HANDLING_SECURITY]
-- **Logging Security**: [LOGGING_SECURITY]
-- **Sensitive Data Handling**: [SENSITIVE_DATA_HANDLING]
-- **Vulnerability Assessment**: [VULNERABILITY_ASSESSMENT]
+Assess sensitive data handling preventing exposure. Encryption at rest using AES-256: PII encrypted before database storage (SSN, credit cards, health records), customer-managed keys rotated quarterly (AWS KMS, Azure Key Vault, HashiCorp Vault), initialization vectors unique per operation, key derivation functions for password-based encryption (Argon2, PBKDF2 not MD5). Password hashing with bcrypt or Argon2: bcrypt work factor 12+ (100ms computation slowing brute force), unique salts per password (generated automatically, stored with hash), timing-safe comparison preventing timing attacks (compare_digest in Python, crypto.timingSafeEqual in Node.js). Check secret management: API keys in environment variables or vault, no secrets in version control (git-secrets preventing commits), secrets rotated on exposure, minimal scope for service accounts. Review logging security: passwords never logged, PII masked or excluded, error messages generic to users (detailed logs internal only), stack traces not exposed in API responses.
 
-### Testing Review
-- **Test Coverage**: [TEST_COVERAGE]
-- **Test Quality**: [TEST_QUALITY]
-- **Test Cases**: [TEST_CASES]
-- **Edge Cases**: [EDGE_CASES]
-- **Mock Usage**: [MOCK_USAGE]
-- **Test Maintainability**: [TEST_MAINTAINABILITY]
-- **Integration Tests**: [INTEGRATION_TESTS]
-- **Performance Tests**: [PERFORMANCE_TESTS]
-- **Security Tests**: [SECURITY_TESTS]
-- **Test Documentation**: [TEST_DOCUMENTATION]
+Identify OWASP Top 10 vulnerabilities requiring immediate remediation. Broken access control: vertical privilege escalation (regular user accessing admin functions), horizontal privilege escalation (user A accessing user B resources), insecure direct object references (expose internal IDs, use UUIDs or check ownership), missing function-level access control (API endpoints lack authorization). Cryptographic failures: weak algorithms (MD5, SHA1 deprecated), insufficient key length (RSA <2048 bits), hardcoded secrets, unencrypted sensitive data transmission. Injection flaws: SQL injection, NoSQL injection (MongoDB $where operator misuse), OS command injection (shell=True with user input), LDAP injection. Security misconfiguration: default credentials unchanged, unnecessary features enabled, verbose error messages, missing security headers (HSTS, X-Content-Type-Options, X-Frame-Options). Vulnerable components: outdated dependencies (npm audit, Snyk finding CVEs), unpatched frameworks, end-of-life libraries.
 
-### Error Handling Review
-- **Exception Management**: [EXCEPTION_MANAGEMENT]
-- **Error Messages**: [ERROR_MESSAGES]
-- **Graceful Degradation**: [GRACEFUL_DEGRADATION]
-- **Recovery Mechanisms**: [RECOVERY_MECHANISMS]
-- **Logging Strategy**: [LOGGING_STRATEGY]
-- **Monitoring Integration**: [MONITORING_INTEGRATION]
-- **Alerting**: [ALERTING]
-- **Timeout Handling**: [TIMEOUT_HANDLING]
-- **Circuit Breaker**: [CIRCUIT_BREAKER]
-- **Retry Logic**: [RETRY_LOGIC]
+**CODE QUALITY AND MAINTAINABILITY REVIEW**
 
-### Code Standards Compliance
-- **Coding Standards**: [CODING_STANDARDS]
-- **Style Guide**: [STYLE_GUIDE]
-- **Formatting**: [FORMATTING]
-- **Linting Results**: [LINTING_RESULTS]
-- **Static Analysis**: [STATIC_ANALYSIS]
-- **Type Safety**: [TYPE_SAFETY]
-- **Documentation Standards**: [DOCUMENTATION_STANDARDS]
-- **Commit Message Quality**: [COMMIT_MESSAGE_QUALITY]
-- **Branch Strategy**: [BRANCH_STRATEGY]
-- **Version Control**: [VERSION_CONTROL]
+Evaluate code complexity identifying refactoring opportunities. Cyclomatic complexity measures decision points: <10 acceptable (simple logic), 10-20 concerning (consider decomposition), >20 critical (extract methods, simplify conditionals). Calculate complexity: count if/else branches, case statements, loops, logical operators (&&, ||), ternary operators, early returns. Address high complexity through extraction: long functions split into smaller focused functions (<50 lines each), nested conditionals flattened (early returns, guard clauses), switch statements replaced with polymorphism or strategy pattern (payment method selection via PaymentProcessor interface instead of switch). Cognitive complexity assesses understandability: nested conditions increase complexity non-linearly, breaks in control flow (exceptions, recursion) add complexity, similar-looking code blocks decrease it. Target cognitive complexity <15 for maintainability.
 
-### Database Review
-- **Query Optimization**: [QUERY_OPTIMIZATION]
-- **Index Usage**: [INDEX_USAGE]
-- **Transaction Management**: [TRANSACTION_MANAGEMENT]
-- **Connection Management**: [CONNECTION_MANAGEMENT]
-- **Data Integrity**: [DATA_INTEGRITY]
-- **Schema Design**: [SCHEMA_DESIGN]
-- **Migration Scripts**: [MIGRATION_SCRIPTS]
-- **Backup Considerations**: [BACKUP_CONSIDERATIONS]
-- **Performance Impact**: [DB_PERFORMANCE_IMPACT]
-- **Concurrency Control**: [CONCURRENCY_CONTROL]
+Check SOLID principles adherence ensuring extensible design. Single Responsibility: each class one reason to change (UserService handles business logic only, UserRepository data access only, UserValidator input validation only), large classes indicate multiple responsibilities requiring decomposition, methods within class relate to single concern. Open/Closed: extend behavior without modification (new payment methods add PaymentProcessor implementations not modify switch statement), dependency injection enables swapping implementations (IEmailService interface with SmtpEmailService, SendGridEmailService implementations), decorators add functionality without changing core (CachedUserRepository wrapping DatabaseUserRepository). Liskov Substitution: subclasses work wherever parent expected (Square inheriting Rectangle violates substitution if setWidth/setHeight behave differently), prefer composition over inheritance when substitution unclear, interface contracts must hold for all implementations. Interface Segregation: many small interfaces over monolithic interface (IReadable, IWritable, IDeletable separate versus single ICrudRepository), clients depend only on methods used, role interfaces per consumer. Dependency Inversion: depend on abstractions not concrete classes (constructor accepts IRepository not PostgresRepository), high-level modules independent of low-level implementation details, enables testing with mocks.
 
-### API Review
-- **API Design**: [API_DESIGN]
-- **REST Compliance**: [REST_COMPLIANCE]
-- **Request/Response Format**: [REQUEST_RESPONSE_FORMAT]
-- **Status Codes**: [STATUS_CODES]
-- **Error Responses**: [ERROR_RESPONSES]
-- **Versioning Strategy**: [VERSIONING_STRATEGY]
-- **Documentation**: [API_DOCUMENTATION]
-- **Rate Limiting**: [RATE_LIMITING]
-- **Caching Headers**: [CACHING_HEADERS]
-- **CORS Implementation**: [CORS_IMPLEMENTATION]
+Assess code duplication identifying shared abstractions. Duplication ratio target <5%: SonarQube detecting identical code blocks, similar structure with different values (extract parametrize), copy-paste code in multiple locations. Legitimate duplication acceptable when: simple one-liners (null checks, logging statements), coupling worse than duplication (unrelated modules sharing trivial logic), intentional forking (third-party library modification maintaining separate copy). Extract duplication strategies: utility functions for repeated operations (validation rules, formatting logic), base classes for shared behavior (preserve Liskov Substitution), mixins or traits for cross-cutting concerns, configuration driving behavior variation (strategy pattern parameterized). Review DRY violations: business rules duplicated across layers (extract to domain service), validation logic repeated in multiple controllers (middleware or decorator), database queries with similar structure (query builder or repository methods).
 
-### Frontend Review
-- **UI/UX Implementation**: [UI_UX_IMPLEMENTATION]
-- **Responsive Design**: [RESPONSIVE_DESIGN]
-- **Accessibility**: [ACCESSIBILITY]
-- **Performance Optimization**: [FRONTEND_PERFORMANCE]
-- **Browser Compatibility**: [BROWSER_COMPATIBILITY]
-- **JavaScript Quality**: [JAVASCRIPT_QUALITY]
-- **CSS Organization**: [CSS_ORGANIZATION]
-- **Asset Optimization**: [ASSET_OPTIMIZATION]
-- **SEO Considerations**: [SEO_CONSIDERATIONS]
-- **Progressive Enhancement**: [PROGRESSIVE_ENHANCEMENT]
+Evaluate naming conventions and code organization. Naming clarity: variables describe content (totalPrice not tp, userEmail not ue), functions describe action (calculateDiscount not calculate, validateEmail not check), classes describe entity or service (OrderProcessor, UserRepository), booleans start with is/has/can (isActive, hasPermission, canDelete). Naming consistency: camelCase for variables/functions in JavaScript/Java/C#, snake_case in Python/Ruby, PascalCase for classes universally, UPPER_SNAKE_CASE for constants. Avoid abbreviations unless universally known (url acceptable, usr confusing), domain-specific terms preferred over generic (discount over amount when specific). Code organization: feature-based folders over type-based (user/controller.ts, user/service.ts, user/repository.ts versus controllers/user.ts, services/user.ts), related files colocated, clear module boundaries, single file per class (except small related types).
 
-### DevOps and Deployment
-- **Containerization**: [CONTAINERIZATION]
-- **Configuration Management**: [CONFIGURATION_MANAGEMENT]
-- **Environment Variables**: [ENVIRONMENT_VARIABLES]
-- **Deployment Scripts**: [DEPLOYMENT_SCRIPTS]
-- **CI/CD Integration**: [CICD_INTEGRATION]
-- **Monitoring Setup**: [MONITORING_SETUP]
-- **Logging Configuration**: [LOGGING_CONFIGURATION]
-- **Health Checks**: [HEALTH_CHECKS]
-- **Scaling Configuration**: [SCALING_CONFIGURATION]
-- **Security Configuration**: [SECURITY_CONFIGURATION]
+**PERFORMANCE OPTIMIZATION OPPORTUNITIES**
 
-### Documentation Review
-- **Code Comments**: [CODE_COMMENTS]
-- **API Documentation**: [API_DOCUMENTATION_REVIEW]
-- **README Files**: [README_FILES]
-- **Architecture Documentation**: [ARCHITECTURE_DOCUMENTATION]
-- **Deployment Instructions**: [DEPLOYMENT_INSTRUCTIONS]
-- **Troubleshooting Guides**: [TROUBLESHOOTING_GUIDES]
-- **Change Logs**: [CHANGE_LOGS]
-- **User Guides**: [USER_GUIDES]
-- **Developer Guides**: [DEVELOPER_GUIDES]
-- **Knowledge Transfer**: [KNOWLEDGE_TRANSFER]
+Analyze algorithm complexity identifying inefficiencies. Review time complexity: O(1) constant time preferred (hash map lookups, array access by index), O(log n) acceptable for sorted data (binary search, balanced trees), O(n) linear acceptable for single passes (array iteration, streaming), O(n log n) acceptable for sorting (quicksort, mergesort), O(n²) quadratic avoid in hot paths (nested loops over same dataset). Identify inefficient patterns: nested iterations creating O(n²) (flatten with hash map O(n)), repeated searches in unsorted data (sort once O(n log n) then binary search O(log n) multiple times), unnecessary sorting (partial sort if only top k needed), recursive algorithms without memoization (Fibonacci, dynamic programming).
 
-### Business Logic Review
-- **Requirements Compliance**: [REQUIREMENTS_COMPLIANCE]
-- **Business Rules**: [BUSINESS_RULES]
-- **Data Validation**: [DATA_VALIDATION]
-- **Workflow Implementation**: [WORKFLOW_IMPLEMENTATION]
-- **Edge Case Handling**: [BUSINESS_EDGE_CASES]
-- **Integration Points**: [INTEGRATION_POINTS]
-- **External Dependencies**: [EXTERNAL_DEPENDENCIES]
-- **Backward Compatibility**: [BACKWARD_COMPATIBILITY]
-- **Migration Strategy**: [MIGRATION_STRATEGY]
-- **Rollback Plans**: [ROLLBACK_PLANS]
+Detect database performance issues requiring optimization. N+1 query problem: loading parent entities then iterating to load children (loading 100 users then 100 separate queries for each user's orders), solve with eager loading (JOIN query, ORM includes/joins), batch loading (DataLoader in GraphQL), or denormalization. Missing indexes causing full table scans: WHERE clause columns need indexes (user_id for WHERE user_id = X), JOIN columns need indexes (foreign keys), ORDER BY columns in covering indexes, composite indexes for multi-column filters (user_id, created_at for WHERE user_id = X ORDER BY created_at). Inefficient queries: SELECT * retrieving unused columns (select specific columns), unnecessary JOINs (remove if not filtering/selecting from joined table), unfiltered queries returning entire table (add pagination, limits). Review query execution plans: EXPLAIN ANALYZE showing sequential scans (add index), nested loop joins (check cardinality estimates), high cost estimates (>1000 cost units concerning).
 
-### Code Metrics
-- **Cyclomatic Complexity**: [CYCLOMATIC_COMPLEXITY]
-- **Lines of Code**: [LINES_OF_CODE]
-- **Code Coverage**: [CODE_COVERAGE_METRICS]
-- **Technical Debt Ratio**: [TECHNICAL_DEBT_RATIO]
-- **Duplication Ratio**: [DUPLICATION_RATIO]
-- **Maintainability Index**: [MAINTAINABILITY_INDEX]
-- **Coupling Metrics**: [COUPLING_METRICS]
-- **Cohesion Metrics**: [COHESION_METRICS]
-- **Defect Density**: [DEFECT_DENSITY]
-- **Code Quality Score**: [CODE_QUALITY_SCORE]
+Identify memory management issues and resource leaks. Memory leaks in long-running processes: event listeners not removed (addEventListener without removeEventListener), timers not cleared (setInterval without clearInterval), circular references preventing garbage collection (clear references in cleanup), closures capturing large contexts (minimize closure scope). Excessive memory usage: loading entire dataset into memory (stream instead), unbounded caches without eviction (LRU cache with size limit, TTL expiration), large objects held in memory (release after use, weak references for caches). Resource cleanup: database connections returned to pool (use finally block or context managers), file handles closed (try-with-resources in Java, with statement in Python), HTTP connections closed (connection pooling with timeout). Review streaming opportunities: large file processing line-by-line (avoid readFileSync loading entirely), API pagination (cursor-based for consistency), database cursors for result sets.
 
-### Review Feedback
-- **Strengths**: [STRENGTHS]
-- **Areas for Improvement**: [AREAS_FOR_IMPROVEMENT]
-- **Critical Issues**: [CRITICAL_ISSUES]
-- **Major Issues**: [MAJOR_ISSUES]
-- **Minor Issues**: [MINOR_ISSUES]
-- **Suggestions**: [SUGGESTIONS]
-- **Best Practices**: [BEST_PRACTICES_FEEDBACK]
-- **Learning Opportunities**: [LEARNING_OPPORTUNITIES]
-- **Action Items**: [ACTION_ITEMS]
-- **Follow-up Required**: [FOLLOW_UP_REQUIRED]
+Assess caching strategy effectiveness. Cache hit ratio targets >80%: measure hits versus misses, low ratio indicates poor key selection or short TTL, cache warming on startup for frequently accessed data. Cache invalidation correctness: write-through updating cache on write, write-behind async updating for performance, cache-aside reading from cache, fetching on miss, updating cache, time-based expiration for eventually consistent data. Multi-layer caching: CDN for static assets (CloudFront, Cloudflare caching images/CSS/JavaScript at edge, 200+ global POPs reducing latency 50-100ms), application cache for computed results (Redis caching API responses 5-minute TTL, session data 30-minute TTL), database query cache (result caching for expensive queries, invalidate on table updates). Review cache sizing: memory limits preventing exhaustion, eviction policies (LRU removing least recently used, LFU removing least frequently used, TTL expiring after time).
 
-### Approval Criteria
-- **Code Quality Gate**: [CODE_QUALITY_GATE]
-- **Security Gate**: [SECURITY_GATE]
-- **Performance Gate**: [PERFORMANCE_GATE]
-- **Test Coverage Gate**: [TEST_COVERAGE_GATE]
-- **Documentation Gate**: [DOCUMENTATION_GATE]
-- **Standards Compliance**: [STANDARDS_COMPLIANCE]
-- **Business Requirements**: [BUSINESS_REQUIREMENTS_GATE]
-- **Deployment Readiness**: [DEPLOYMENT_READINESS]
-- **Risk Assessment**: [RISK_ASSESSMENT]
-- **Approval Status**: [APPROVAL_STATUS]
+**TESTING COVERAGE AND QUALITY VERIFICATION**
 
-### Improvement Recommendations
-- **Immediate Fixes**: [IMMEDIATE_FIXES]
-- **Short-term Improvements**: [SHORT_TERM_IMPROVEMENTS]
-- **Long-term Refactoring**: [LONG_TERM_REFACTORING]
-- **Performance Optimizations**: [PERFORMANCE_OPTIMIZATIONS]
-- **Security Enhancements**: [SECURITY_ENHANCEMENTS]
-- **Code Quality Improvements**: [CODE_QUALITY_IMPROVEMENTS]
-- **Documentation Updates**: [DOCUMENTATION_UPDATES]
-- **Testing Enhancements**: [TESTING_ENHANCEMENTS]
-- **Architecture Changes**: [ARCHITECTURE_CHANGES]
-- **Tool Recommendations**: [TOOL_RECOMMENDATIONS]
+Evaluate test coverage completeness identifying gaps. Line coverage minimum 80%: every line executed at least once by tests, critical paths require 95%+ coverage (payment processing, authentication, data mutations), low-risk areas acceptable at 70% (UI presentation, logging, configuration parsing). Branch coverage target 75%+: every if/else branch executed, switch cases including default covered, exception handlers tested (happy path and error path), early returns and guard clauses verified. Mutation testing validates test quality: PIT for Java, Stryker for JavaScript, mutmut for Python introducing mutations (flip operators + to -, negate conditions, remove statements) requiring tests to fail. High mutation score (>80%) indicates strong tests catching defects, low score (<60%) indicates weak assertions or missing test cases.
 
-### Collaboration and Communication
-- **Review Discussion**: [REVIEW_DISCUSSION]
-- **Clarifications Needed**: [CLARIFICATIONS_NEEDED]
-- **Knowledge Sharing**: [KNOWLEDGE_SHARING]
-- **Mentoring Opportunities**: [MENTORING_OPPORTUNITIES]
-- **Team Learning**: [TEAM_LEARNING]
-- **Process Improvements**: [PROCESS_IMPROVEMENTS]
-- **Tool Usage**: [TOOL_USAGE]
-- **Communication Style**: [COMMUNICATION_STYLE]
-- **Feedback Quality**: [FEEDBACK_QUALITY]
-- **Resolution Tracking**: [RESOLUTION_TRACKING]
+Review test isolation and independence preventing flaky tests. Test interdependence antipatterns: shared mutable state between tests (use beforeEach/setUp resetting state), tests depending on execution order (randomize test order verification), global singletons leaking state (dependency injection with test doubles). Proper test isolation: each test creates own fixtures (factory functions, test builders), external services mocked (API calls stubbed, database in-memory or containerized), time deterministic (inject clock, freeze time in tests), random data seeded (faker with fixed seed). Flaky test causes: race conditions (async operations without proper waiting), timing dependencies (sleeps instead of awaits), external service calls (network flakiness, API rate limits), test pollution (global state not cleaned up). Address flakiness: retry mechanism indicates test problem not code problem, quarantine flaky tests temporarily (skip in CI, investigate separately), fix root cause versus masking with retries.
 
-## Prompt Template
+Assess test quality and maintainability. Meaningful assertions: specific assertions testing precise behavior (assertEqual(result.status, 'active') versus assertTrue(result)), assertion messages explaining expected behavior ("User should be active after email verification" when assertion fails), avoid generic assertTrue(x == y) use framework-specific assertEqual(x, y). Test naming clarity: test_calculate_total_applies_discount_for_premium_users descriptive versus test1 meaningless, BDD-style naming (should_apply_discount_when_user_is_premium), test name documents expected behavior. Test organization: AAA pattern (Arrange setup, Act execution, Assert verification), single logical assertion per test (multiple related assertions acceptable like response status and body), test data builders for complex fixtures (UserBuilder().withEmail('test@example.com').premium().build()).
 
-Conduct a comprehensive code review for [FEATURE_MODULE] in [PROJECT_NAME] written in [PROGRAMMING_LANGUAGE] using [FRAMEWORK]. Focus on [REVIEW_PRIORITY] aspects and provide detailed feedback on code quality, security, performance, and best practices.
+Review integration and E2E test coverage. Integration tests validate component interactions: API endpoint tests (request/response validation, authentication enforcement, error handling), database integration (transactions, constraints, query results), external service contracts (API client mocking real responses, webhook handling). Use Testcontainers for realistic integration: PostgreSQL container per test run (isolated database state), Redis for caching tests, message queue for async flow verification, cleanup automatic via container disposal. E2E tests cover critical user flows: authentication (login/logout, password reset, session expiration), checkout (add to cart, apply discount, complete payment, order confirmation), admin operations (user management, reporting). E2E test maintenance: page object pattern (encapsulate selectors, expose methods), separate test data management (factories, database seeders), screenshot on failure for debugging, parallel execution for speed.
 
-**Review Scope:**
-- Analyze [CODE_COMPLEXITY] and [CODE_MAINTAINABILITY]
-- Evaluate [NAMING_CONVENTIONS] and [CODE_ORGANIZATION]
-- Assess [DESIGN_PATTERNS] and [ARCHITECTURE_COMPLIANCE]
-- Check [SOLID_PRINCIPLES] and [SEPARATION_OF_CONCERNS]
-- Review [DEPENDENCY_MANAGEMENT] and [INTERFACE_DESIGN]
+**STANDARDS COMPLIANCE AND DOCUMENTATION REVIEW**
 
-**Performance Analysis:**
-- Evaluate [ALGORITHM_EFFICIENCY] and [TIME_COMPLEXITY]
-- Check [MEMORY_USAGE] and [RESOURCE_MANAGEMENT]
-- Review [DATABASE_OPERATIONS] and [CACHING_STRATEGY]
-- Assess [CONCURRENCY_HANDLING] and identify [PERFORMANCE_BOTTLENECKS]
-- Analyze [IO_OPERATIONS] efficiency
+Verify coding standards adherence through automated tooling. Linting enforcement: ESLint for JavaScript/TypeScript (Airbnb config popular, configurable rules), Pylint/Flake8 for Python (PEP 8 compliance, configurable line length), Checkstyle for Java (Google Java Style common), golangci-lint for Go (aggregates multiple linters), Clippy for Rust (compiler lints plus additional checks). Linting configuration in CI: zero tolerance for errors (build fails on linting errors), warnings allowed temporarily (track in dashboard, require fix schedule), auto-fix in pre-commit hooks (prettier, black, gofmt formatting automatically), exceptions documented (eslint-disable comments with justification, narrow scope, ticket reference).
 
-**Security Review:**
-- Validate [INPUT_VALIDATION] and [OUTPUT_ENCODING]
-- Check [AUTHENTICATION_IMPLEMENTATION] and [AUTHORIZATION_CHECKS]
-- Review [DATA_ENCRYPTION] and [SECURE_COMMUNICATION]
-- Assess [SENSITIVE_DATA_HANDLING] and [VULNERABILITY_ASSESSMENT]
-- Evaluate [ERROR_HANDLING_SECURITY] and [LOGGING_SECURITY]
+Validate type safety preventing runtime errors. TypeScript strict mode: noImplicitAny (all variables explicitly typed), strictNullChecks (null and undefined handled explicitly, string versus string | null distinct types), strictFunctionTypes (function parameter contravariance checked), strictPropertyInitialization (class properties initialized in constructor or marked optional). Python type hints with mypy: gradual typing (add types incrementally), generic types (List[User], Dict[str, int]), Protocol for structural typing, strict mode rejecting untyped code. Generics usage: avoid raw types in Java (List<String> not List), bounded type parameters (T extends Comparable<T>), wildcards for flexibility (? extends T covariance). Review any/object usage: acceptable at system boundaries (JSON parsing, external API responses), require validation after any (parse JSON, validate schema, convert to typed object), internal code should avoid any completely.
 
-**Testing Assessment:**
-- Review [TEST_COVERAGE] and [TEST_QUALITY]
-- Evaluate [TEST_CASES] including [EDGE_CASES]
-- Check [MOCK_USAGE] and [TEST_MAINTAINABILITY]
-- Assess [INTEGRATION_TESTS] and [PERFORMANCE_TESTS]
-- Review [SECURITY_TESTS] and [TEST_DOCUMENTATION]
+Assess documentation completeness and accuracy. API documentation requirements: OpenAPI 3.0 specification for REST APIs (auto-generated from annotations: FastAPI, Springdoc, tRPC), request/response schemas with examples, authentication requirements (OAuth scopes, API key header), error responses by status code (400/401/403/404/500 with example bodies), rate limiting documented (requests per minute, Retry-After header). Code-level documentation: docstrings on public functions/classes (Google style for Python, JSDoc for JavaScript, Javadoc for Java), parameter descriptions with types, return value descriptions, raises/throws documenting exceptions, examples for complex APIs. Architecture documentation current: README with setup instructions, architecture decision records (ADRs) for significant choices, system diagrams showing component interactions, data flow diagrams, deployment architecture.
 
-**Code Standards:**
-- Verify [CODING_STANDARDS] and [STYLE_GUIDE] compliance
-- Check [FORMATTING] and [LINTING_RESULTS]
-- Review [STATIC_ANALYSIS] results and [TYPE_SAFETY]
-- Evaluate [DOCUMENTATION_STANDARDS] and [COMMIT_MESSAGE_QUALITY]
-- Assess [VERSION_CONTROL] practices
+Review commit and branch quality. Commit message standards: Conventional Commits format (feat:, fix:, docs:, refactor:, test:, chore: prefixes), descriptive summary (<50 characters), detailed body explaining why not what (what evident from diff), issue references (Closes #123, Refs JIRA-456), breaking changes flagged (BREAKING CHANGE: footer). Atomic commits: each commit single logical change (not multiple unrelated features), builds successfully (squash fixup commits before merge), revertable independently. Branch strategy compliance: feature branches from main (feature/JIRA-123-description naming), short-lived branches (<1 week, merge frequently), squash merge to main (clean history), delete after merge, protected main branch (no direct pushes).
 
-**Quality Gates:**
-- Check [CODE_QUALITY_GATE] and [SECURITY_GATE]
-- Verify [PERFORMANCE_GATE] and [TEST_COVERAGE_GATE]
-- Review [DOCUMENTATION_GATE] and [STANDARDS_COMPLIANCE]
-- Assess [BUSINESS_REQUIREMENTS_GATE] and [DEPLOYMENT_READINESS]
-- Conduct [RISK_ASSESSMENT]
+Deliver code review as:
 
-**Feedback Structure:**
-- Identify [STRENGTHS] and [AREAS_FOR_IMPROVEMENT]
-- List [CRITICAL_ISSUES], [MAJOR_ISSUES], and [MINOR_ISSUES]
-- Provide [SUGGESTIONS] and [BEST_PRACTICES_FEEDBACK]
-- Highlight [LEARNING_OPPORTUNITIES] and [ACTION_ITEMS]
-- Specify [FOLLOW_UP_REQUIRED]
+1. **SECURITY FINDINGS** - Critical vulnerabilities requiring immediate fix (SQL injection, auth bypass), major security gaps (missing validation, weak encryption), minor improvements (security headers, logging enhancements)
 
-**Recommendations:**
-- Suggest [IMMEDIATE_FIXES] and [SHORT_TERM_IMPROVEMENTS]
-- Recommend [PERFORMANCE_OPTIMIZATIONS] and [SECURITY_ENHANCEMENTS]
-- Propose [CODE_QUALITY_IMPROVEMENTS] and [TESTING_ENHANCEMENTS]
-- Identify [LONG_TERM_REFACTORING] opportunities
-- Suggest [TOOL_RECOMMENDATIONS]
+2. **PERFORMANCE ISSUES** - Critical bottlenecks (N+1 queries, memory leaks, O(n²) algorithms), optimization opportunities (caching, indexing, async processing), load test results
 
-Please provide specific, actionable feedback with code examples, explain the reasoning behind recommendations, and prioritize issues by severity. Include positive feedback to reinforce good practices and create a collaborative review environment.
+3. **CODE QUALITY ASSESSMENT** - Complexity metrics (cyclomatic, cognitive, duplication ratio), SOLID violations, refactoring recommendations, positive highlights (clean code, good patterns)
+
+4. **TEST COVERAGE ANALYSIS** - Coverage metrics by type (line, branch, mutation), missing test cases (edge cases, error paths), flaky test identification, integration/E2E gaps
+
+5. **STANDARDS COMPLIANCE** - Linting results, type safety issues, documentation gaps, commit message quality, approval status (approved/changes requested/blocked)
+
+6. **ACTIONABLE RECOMMENDATIONS** - Immediate fixes blocking merge (P0), short-term improvements next sprint (P1), long-term refactoring (P2), tool recommendations, learning resources
+
+---
 
 ## Usage Examples
 
-### API Endpoint Review
-```
-Conduct a comprehensive code review for user authentication endpoint in CustomerAPI written in Node.js using Express framework. Focus on high priority security aspects and provide detailed feedback on code quality, security, performance, and best practices.
+### Example 1: Authentication API Security Review
+**Prompt:** Review UserAuthService module in CustomerAPI (Node.js/Express) focusing on security vulnerabilities, JWT implementation, input validation, OWASP Top 10 compliance requiring 90% test coverage.
 
-Review Scope:
-- Analyze medium code complexity and good code maintainability
-- Evaluate camelCase naming conventions and modular code organization
-- Assess MVC design patterns and RESTful architecture compliance
-- Check Single Responsibility, Open/Closed SOLID principles and proper separation of concerns
-- Review npm dependency management and clean interface design
+**Expected Output:** Security findings (3 critical, 2 major, 4 minor issues): CRITICAL-1: SQL injection in login endpoint (line 47, dangerous: `SELECT * FROM users WHERE email = '${req.body.email}'`, fix: use parameterized query `SELECT * FROM users WHERE email = ?` with [req.body.email]), recommend: migrate to ORM (Prisma, TypeORM) preventing injection by default. CRITICAL-2: Password stored in plaintext (line 89, user.password = req.body.password directly saved), fix: hash with bcrypt work factor 12 (`const hash = await bcrypt.hash(password, 12)`, store hash not password), check all password handling paths. CRITICAL-3: JWT signed with HS256 using weak secret (line 112, jwt.sign(payload, 'secret123'), secret hardcoded and guessable), fix: use RS256 asymmetric signing (generate key pair, store private key in AWS Secrets Manager, use process.env.JWT_PRIVATE_KEY), rotate keys quarterly. MAJOR-1: Missing rate limiting (endpoint allows unlimited requests, enables brute force attacks), fix: implement express-rate-limit middleware (5 requests per minute per IP, exponential backoff on failures, CAPTCHA after 10 failed attempts), protect all authentication endpoints. MAJOR-2: Insufficient input validation (email format not checked, password length unrestricted), fix: add Joi validation schema (email: Joi.string().email(), password: Joi.string().min(12).pattern(complexity regex for uppercase/lowercase/digit/special)), validate before processing. MINOR-1: Error messages leak information (line 156, "Invalid password for user@example.com" confirming email exists), fix: generic message "Invalid credentials" for both email and password failures, detailed logs server-side only. MINOR-2: No session timeout (JWT never expires, access_token: jwt.sign(payload) without exp claim), fix: set 15-minute expiration, implement refresh token rotation, require re-authentication for sensitive operations. MINOR-3: CORS misconfiguration (Access-Control-Allow-Origin: * allows any domain), fix: whitelist specific origins in environment config, credentials mode requires explicit origin. MINOR-4: Missing security headers (no helmet.js usage), add: Content-Security-Policy, X-Content-Type-Options, X-Frame-Options, Strict-Transport-Security. Performance issues: Synchronous bcrypt blocking event loop (line 124, bcrypt.hashSync()), fix: use async bcrypt.hash() maintaining responsiveness under load. Database connection per request (line 38, new Client() in route handler), fix: connection pool with pg-pool (pool size 10-50, connection reuse, timeout 30s). Code quality: Function complexity 23 (authenticateUser has nested conditionals, try/catch blocks, multiple return paths), refactor: extract validation (validateCredentials()), password verification (verifyPassword()), token generation (generateTokens()), each function <10 complexity. SOLID violation: UserAuthService handles HTTP requests, business logic, database access, violates Single Responsibility, refactor: AuthController (HTTP layer), AuthService (business logic), UserRepository (data access), separate concerns. Duplication: Password validation repeated in registration and password reset (lines 203, 387), extract: passwordValidator utility function. Test coverage: 62% line coverage (below 90% target), missing: error path tests (database errors, invalid tokens, expired tokens), edge cases (empty email, SQL injection attempts, rate limit exceeded), integration tests (end-to-end auth flow). Recommendations: IMMEDIATE (P0, blocking merge): Fix SQL injection, hash passwords, use strong JWT secret, add rate limiting (security critical, estimated 4 hours). SHORT-TERM (P1, next sprint): Add comprehensive input validation, improve test coverage to 90% (add security tests, integration tests), implement session timeout and refresh tokens (estimated 8 hours). LONG-TERM (P2, backlog): Migrate to OAuth 2.0 + OIDC (external identity providers, enterprise SSO support), implement MFA (TOTP, hardware keys), add security monitoring (failed login alerts, anomaly detection). Tools: Add Snyk dependency scanning (check for CVEs in express, jsonwebtoken), OWASP ZAP automated security testing, SonarQube quality gate (security hotspots, code smells). Positive highlights: Good error handling structure (try/catch blocks present), logging implemented (winston logger with correlation IDs), environment-based configuration (separate dev/prod configs). Approval status: CHANGES REQUESTED - Critical security issues must be resolved before merge, security review required after fixes.
 
-Security Review:
-- Validate Joi input validation and helmet.js output encoding
-- Check JWT authentication implementation and role-based authorization checks
-- Review bcrypt data encryption and HTTPS secure communication
-- Assess password hashing sensitive data handling and OWASP vulnerability assessment
-- Evaluate structured error handling security and winston logging security
+### Example 2: React Component Performance Review
+**Prompt:** Review ProductList component in EcommerceFrontend (TypeScript/React/Next.js) focusing on performance optimization, rendering efficiency, accessibility compliance, 85% test coverage target.
 
-### Quality Gates
-- Check 85% code quality gate and OWASP security gate
-- Verify <200ms performance gate and 90% test coverage gate
-- Review complete documentation gate and ESLint standards compliance
-- Assess functional requirements gate and containerization deployment readiness
-- Conduct security, performance risk assessment
-```
+**Expected Output:** Performance issues (2 critical, 3 major optimization opportunities): CRITICAL-1: Unnecessary re-renders (line 34, component re-renders on every parent state change, missing React.memo wrapping), fix: `export default React.memo(ProductList, (prevProps, nextProps) => prevProps.products === nextProps.products && prevProps.filters === nextProps.filters)` preventing re-render when props unchanged, add displayName for debugging. CRITICAL-2: Expensive computation in render (line 56, products.filter().sort().map() running on every render 100ms for 1000 products), fix: memoize with useMemo (`const sortedProducts = useMemo(() => products.filter(matchesFilters).sort(byPrice), [products, filters])`) caching result until dependencies change, measured 95ms improvement. MAJOR-1: N+1 image requests (ProductCard components each fetch product image separately, 50 products = 50 sequential requests), fix: batch image fetching in parent component (Promise.all for parallel requests), use Next.js Image component with priority prop for above-fold images, lazy load below fold. MAJOR-2: Large bundle size (component imports entire lodash library, line 8, import _ from 'lodash' adds 70KB), fix: import specific functions (`import debounce from 'lodash/debounce'` reduces to 2KB), use tree-shaking compatible imports, consider lodash-es for ESM. MAJOR-3: Synchronous state updates causing jank (line 78, onFilterChange handler updates multiple state variables sequentially triggering 3 re-renders), fix: batch updates with single state object (`const [filterState, setFilterState] = useState({ category, priceRange, inStock })` single update triggers one render) or use useReducer for complex state. Code quality: Function component 180 lines (exceeds 150 line guideline), refactor: extract ProductFilters component (lines 45-98), ProductGrid component (lines 99-145), ProductPagination (lines 146-170), improving readability and reusability. Complexity: nested conditionals rendering loading/error/empty/results states (complexity 18), simplify: early returns for loading/error (`if (isLoading) return <Spinner />`, `if (error) return <ErrorMessage />`), extract rendering logic to separate components. Accessibility issues: WCAG 2.1 violations (4 issues): Keyboard navigation incomplete (product cards not focusable, line 112, div elements need role="button" tabIndex={0} onKeyPress), add: accessible click handlers for Enter/Space keys. Missing ARIA labels (filter controls unlabeled, line 67, `<select>` without aria-label), fix: add descriptive labels (`<select aria-label="Filter by category">` announcing purpose to screen readers). Color contrast insufficient (price text #888 on white background 3.2:1 ratio, WCAG AA requires 4.5:1), fix: darken to #666 achieving 5.5:1 ratio, verify with contrast checker. Images missing alt text (line 123, `<img src={product.image} />` no alt prop), fix: descriptive alt text (`alt={product.name}` or `alt={`${product.name} - ${product.description}`}` providing context). Test coverage: 71% line coverage (below 85% target), missing: filter interaction tests (user selects category, applies price range), pagination tests (navigate pages, items per page), error state rendering (API failure, empty results), keyboard navigation tests (tab through products, activate with keyboard). No integration tests (component tested in isolation not with real API), add: MSW mocking API responses, test loading/success/error flows, verify query parameter updates. Recommendations: IMMEDIATE (P0): Fix critical re-render issues (add React.memo, useMemo for expensive computations), improve accessibility (keyboard navigation, ARIA labels, color contrast), estimated 6 hours. SHORT-TERM (P1): Optimize bundle size (tree-shake lodash), add integration tests (API mocking, user flows), implement virtual scrolling for large lists (react-window rendering only visible items, 50ms improvement for 1000+ products), estimated 12 hours. LONG-TERM (P2): Server-side rendering for SEO (Next.js getServerSideProps pre-rendering product data), implement infinite scroll (replace pagination, better mobile UX), add performance monitoring (Core Web Vitals tracking, LCP target <2.5s, FID <100ms), estimated 20 hours. Tools: Lighthouse performance audit (current score 68, target >90), React DevTools Profiler (identify slow renders), axe-dev-tools (automated accessibility scanning), vitest for testing (faster than Jest for Vite projects). Positive highlights: Proper TypeScript usage (strict mode, no any types, comprehensive interfaces), good component composition (ProductCard reusable across app), loading states implemented (skeleton screens providing visual feedback), error boundaries catching render errors. Approval status: APPROVED WITH CHANGES - Performance and accessibility improvements required, can merge after P0 fixes applied, follow-up review for integration tests.
 
-## Variables
+### Example 3: Database Migration Review
+**Prompt:** Review AddUserRolesTable migration in CustomerAPI (Python/Django/PostgreSQL) focusing on data integrity, performance impact, rollback safety, zero-downtime deployment compatibility.
 
-| Variable | Description | Example |
-|----------|-------------|----------|
-| `[REVIEW_TYPE]` | Type of code review being conducted | "Pull Request Review, Security Audit, Architecture Review" |
-| `[CODE_AUTHOR]` | Developer who wrote the code under review | "Sarah Chen, Senior Backend Developer" |
-| `[REVIEWER]` | Person conducting the code review | "Marcus Johnson, Tech Lead" |
-| `[REVIEW_DATE]` | Date when review is conducted | "2025-01-15" |
-| `[PROGRAMMING_LANGUAGE]` | Primary programming language used | "Python 3.11, TypeScript 5.3, Go 1.21" |
-| `[FRAMEWORK]` | Framework or libraries in use | "Django 4.2, FastAPI 0.104, React 18.2, Next.js 14" |
-| `[PROJECT_NAME]` | Name of the project being reviewed | "CustomerAPI, PaymentGateway, EcommercePortal" |
-| `[FEATURE_MODULE]` | Specific feature or module under review | "UserAuthentication/jwt-handler, OrderService/checkout-flow" |
-| `[REVIEW_PRIORITY]` | Priority level for the review | "Critical - blocking release, High - security-related, Medium - feature enhancement" |
-| `[REVIEW_DEADLINE]` | Deadline for completing the review | "2025-01-20 EOD, before v2.3 release, within 24 hours" |
-| `[CODE_READABILITY]` | Assessment of code clarity and understandability | "Clear variable names, consistent formatting, self-documenting functions" |
-| `[CODE_MAINTAINABILITY]` | Ease of future modifications | "Modular design, low coupling, comprehensive unit tests, documented APIs" |
-| `[CODE_COMPLEXITY]` | Measure of code complexity | "Cyclomatic complexity <10 per function, max nesting depth 3, no god classes" |
-| `[NAMING_CONVENTIONS]` | Variable and function naming standards | "camelCase for functions, PascalCase for classes, UPPER_SNAKE for constants, descriptive names" |
-| `[CODE_ORGANIZATION]` | Structure and organization of code | "Feature-based folder structure, separation of concerns, logical file grouping" |
-| `[DOCUMENTATION_QUALITY]` | Quality of inline and external documentation | "JSDoc comments on public APIs, README with setup instructions, architecture decision records" |
-| `[COMMENT_QUALITY]` | Quality and usefulness of code comments | "Explains 'why' not 'what', updated with code changes, no commented-out code blocks" |
-| `[CODE_DUPLICATION]` | Amount of duplicated code | "DRY principle followed, <5% duplication ratio, shared utilities extracted" |
-| `[TECHNICAL_DEBT]` | Accumulated technical debt assessment | "2 TODO items, 1 deprecated API usage, legacy auth system needs migration" |
-| `[REFACTORING_OPPORTUNITIES]` | Areas that could benefit from refactoring | "Extract PaymentProcessor class, consolidate validation logic, simplify nested conditionals" |
-| `[DESIGN_PATTERNS]` | Design patterns used or recommended | "Repository pattern for data access, Factory for object creation, Strategy for payment methods" |
-| `[ARCHITECTURE_COMPLIANCE]` | Adherence to architectural standards | "Follows hexagonal architecture, respects layer boundaries, uses defined interfaces" |
-| `[SOLID_PRINCIPLES]` | Adherence to SOLID principles | "SRP: Each class has single purpose, OCP: Extensible via interfaces, DIP: Dependencies injected" |
-| `[SEPARATION_OF_CONCERNS]` | Proper separation between layers | "Business logic isolated from presentation, data access abstracted, cross-cutting concerns centralized" |
-| `[DEPENDENCY_MANAGEMENT]` | How dependencies are handled | "npm/pip packages pinned, no circular dependencies, minimal external dependencies" |
-| `[INTERFACE_DESIGN]` | Quality of interface definitions | "Clear contracts, typed parameters, documented return values, versioned APIs" |
-| `[ABSTRACTION_LEVEL]` | Appropriateness of abstraction | "Right level of abstraction, no leaky abstractions, appropriate use of generics" |
-| `[COUPLING]` | Degree of interdependence between modules | "Loose coupling via interfaces, event-driven communication, dependency injection used" |
-| `[COHESION]` | How well module elements belong together | "High cohesion, related functionality grouped, focused modules with clear purpose" |
-| `[SCALABILITY_CONSIDERATIONS]` | Design for scale | "Stateless services, horizontal scaling ready, database sharding supported, caching layer" |
-| `[ALGORITHM_EFFICIENCY]` | Efficiency of algorithms used | "Optimal sorting algorithm, efficient search using hash maps, streaming for large datasets" |
-| `[TIME_COMPLEXITY]` | Time complexity analysis | "O(n log n) for sorting, O(1) for lookups, O(n) for list processing, no O(n^2) in hot paths" |
-| `[SPACE_COMPLEXITY]` | Space complexity analysis | "O(n) memory usage, streaming processing for large files, no memory leaks detected" |
-| `[MEMORY_USAGE]` | Memory consumption patterns | "Peak memory <512MB, proper cleanup of resources, no unbounded growth, weak references for caches" |
-| `[RESOURCE_MANAGEMENT]` | Handling of system resources | "Connection pooling, file handles closed in finally blocks, context managers used" |
-| `[CACHING_STRATEGY]` | Caching implementation approach | "Redis for session data, in-memory LRU for hot data, cache invalidation on updates, TTL: 1 hour" |
-| `[DATABASE_OPERATIONS]` | Database interaction patterns | "Parameterized queries, batch operations for bulk updates, read replicas for queries" |
-| `[IO_OPERATIONS]` | Input/output handling | "Async I/O for network calls, buffered file reading, streaming for large responses" |
-| `[CONCURRENCY_HANDLING]` | Multi-threading and async handling | "Thread-safe collections, async/await patterns, no race conditions, proper lock usage" |
-| `[PERFORMANCE_BOTTLENECKS]` | Identified performance issues | "N+1 query in user listing, synchronous external API call, unoptimized image processing" |
-| `[INPUT_VALIDATION]` | Input validation implementation | "Joi/Zod schema validation, sanitization of HTML, length limits enforced, type checking" |
-| `[OUTPUT_ENCODING]` | Output encoding for security | "HTML entity encoding, JSON serialization escaping, Content-Type headers set correctly" |
-| `[AUTHENTICATION_IMPLEMENTATION]` | Authentication mechanism details | "JWT with RS256, refresh token rotation, session timeout 30min, MFA support" |
-| `[AUTHORIZATION_CHECKS]` | Authorization control implementation | "RBAC with permission checks, resource-level access control, principle of least privilege" |
-| `[DATA_ENCRYPTION]` | Encryption implementation | "AES-256 for data at rest, bcrypt cost factor 12 for passwords, TLS 1.3 in transit" |
-| `[SECURE_COMMUNICATION]` | Secure communication protocols | "HTTPS enforced, certificate pinning for mobile, HSTS enabled, secure WebSocket" |
-| `[ERROR_HANDLING_SECURITY]` | Security of error handling | "Generic error messages to users, detailed logs internally, no stack traces exposed" |
-| `[LOGGING_SECURITY]` | Security considerations in logging | "PII masked in logs, no passwords logged, structured logging, log injection prevented" |
-| `[SENSITIVE_DATA_HANDLING]` | Handling of sensitive information | "PII encrypted, credit cards tokenized, secrets in vault, data classification followed" |
-| `[VULNERABILITY_ASSESSMENT]` | Security vulnerability analysis | "OWASP Top 10 checked, Snyk scan passed, no known CVEs in dependencies" |
-| `[TEST_COVERAGE]` | Test coverage metrics | "Unit: 85%, Integration: 70%, E2E: 50% critical paths, branch coverage: 80%" |
-| `[TEST_QUALITY]` | Quality of test implementations | "Meaningful assertions, isolated tests, no flaky tests, fast execution (<5min)" |
-| `[TEST_CASES]` | Test case coverage | "Happy path, error cases, boundary conditions, null/empty inputs covered" |
-| `[EDGE_CASES]` | Edge case handling | "Empty arrays, null values, max integer, unicode characters, concurrent access" |
-| `[MOCK_USAGE]` | Use of mocks and stubs | "External services mocked, database stubbed for unit tests, realistic fixtures" |
-| `[TEST_MAINTAINABILITY]` | Maintainability of tests | "Page Object pattern, shared fixtures, no test interdependence, clear naming" |
-| `[INTEGRATION_TESTS]` | Integration test coverage | "API endpoint tests, database integration, third-party service contracts verified" |
-| `[PERFORMANCE_TESTS]` | Performance test implementation | "Load tests with k6, p95 latency <200ms, 1000 concurrent users baseline" |
-| `[SECURITY_TESTS]` | Security testing implementation | "OWASP ZAP scan passed, SQL injection tests, XSS prevention verified, auth bypass tests" |
-| `[TEST_DOCUMENTATION]` | Documentation of test approach | "Test plan documented, coverage reports generated, test data management guide" |
-| `[EXCEPTION_MANAGEMENT]` | Exception handling approach | "Custom exception hierarchy, specific catch blocks, no silent failures, proper propagation" |
-| `[ERROR_MESSAGES]` | Error message quality | "User-friendly messages, error codes for support, actionable guidance, i18n ready" |
-| `[GRACEFUL_DEGRADATION]` | Fallback behavior implementation | "Fallback to cache, degraded mode for non-critical features, partial results returned" |
-| `[RECOVERY_MECHANISMS]` | Recovery from failures | "Automatic retry with backoff, dead letter queue for failed messages, self-healing" |
-| `[LOGGING_STRATEGY]` | Logging implementation approach | "Structured JSON logs, correlation IDs, log levels appropriate, ELK stack integration" |
-| `[MONITORING_INTEGRATION]` | Monitoring system integration | "Prometheus metrics, custom dashboards, business KPI tracking, distributed tracing" |
-| `[ALERTING]` | Alert configuration | "PagerDuty integration, severity-based routing, runbook links, alert fatigue prevention" |
-| `[TIMEOUT_HANDLING]` | Timeout configuration and handling | "30s API timeout, 5s database timeout, timeout exceptions handled, user notification" |
-| `[CIRCUIT_BREAKER]` | Circuit breaker implementation | "Hystrix/Resilience4j pattern, 50% failure threshold, 30s open state, half-open testing" |
-| `[RETRY_LOGIC]` | Retry mechanism implementation | "Exponential backoff, max 3 retries, jitter added, idempotency ensured, non-retriable errors excluded" |
-| `[CODING_STANDARDS]` | Coding standard adherence | "Google Style Guide, team conventions documented, consistent across codebase" |
-| `[STYLE_GUIDE]` | Style guide followed | "Airbnb JavaScript, PEP 8 for Python, team-specific extensions documented" |
-| `[FORMATTING]` | Code formatting approach | "Prettier configured, consistent indentation (2 spaces), max line length 100, auto-format on save" |
-| `[LINTING_RESULTS]` | Linting tool results | "ESLint: 0 errors, 3 warnings, Pylint: 9.5/10 score, all rules enforced in CI" |
-| `[STATIC_ANALYSIS]` | Static analysis results | "SonarQube: A rating, 0 critical issues, 2 minor code smells, no security hotspots" |
-| `[TYPE_SAFETY]` | Type safety implementation | "TypeScript strict mode, no any types, runtime validation at boundaries, generics used appropriately" |
-| `[DOCUMENTATION_STANDARDS]` | Documentation requirements | "JSDoc for public APIs, README per module, architecture diagrams updated, changelog maintained" |
-| `[COMMIT_MESSAGE_QUALITY]` | Commit message standards | "Conventional commits, descriptive messages, issue references, atomic commits" |
-| `[BRANCH_STRATEGY]` | Branch naming and management | "GitFlow, feature/JIRA-123-description format, squash merge to main" |
-| `[VERSION_CONTROL]` | Version control practices | "Semantic versioning, tagged releases, protected main branch, required reviews" |
-| `[QUERY_OPTIMIZATION]` | Database query optimization | "EXPLAIN ANALYZE run, indexes used, no full table scans, query time <100ms" |
-| `[INDEX_USAGE]` | Database index utilization | "Composite indexes for common queries, covering indexes used, no redundant indexes" |
-| `[TRANSACTION_MANAGEMENT]` | Transaction handling | "ACID compliance, appropriate isolation levels, short transactions, deadlock prevention" |
-| `[CONNECTION_MANAGEMENT]` | Database connection handling | "Connection pooling (HikariCP), pool size: 10-50, connection timeout: 30s, leak detection" |
-| `[DATA_INTEGRITY]` | Data integrity measures | "Foreign key constraints, unique constraints, check constraints, referential integrity" |
-| `[SCHEMA_DESIGN]` | Database schema quality | "Normalized to 3NF, appropriate denormalization for read performance, clear naming" |
-| `[MIGRATION_SCRIPTS]` | Database migration approach | "Flyway/Liquibase migrations, reversible scripts, version controlled, tested in staging" |
-| `[BACKUP_CONSIDERATIONS]` | Data backup approach | "Daily automated backups, point-in-time recovery, cross-region replication, tested restore" |
-| `[DB_PERFORMANCE_IMPACT]` | Database performance effects | "New queries analyzed, index impact assessed, no table locks, minimal load increase" |
-| `[CONCURRENCY_CONTROL]` | Database concurrency handling | "Optimistic locking with version field, row-level locks, conflict resolution strategy" |
-| `[API_DESIGN]` | API design quality | "RESTful principles, OpenAPI 3.0 documented, versioned /v1/, consistent naming" |
-| `[REST_COMPLIANCE]` | REST standards adherence | "Proper HTTP methods, HATEOAS links, stateless, resource-oriented URLs" |
-| `[REQUEST_RESPONSE_FORMAT]` | API data format | "JSON with camelCase, consistent pagination format, envelope pattern for lists" |
-| `[STATUS_CODES]` | HTTP status code usage | "200/201/204 for success, 400/401/403/404 for client errors, 500/503 for server errors" |
-| `[ERROR_RESPONSES]` | API error response format | "RFC 7807 Problem Details, error codes, helpful messages, documentation links" |
-| `[VERSIONING_STRATEGY]` | API versioning approach | "URL path versioning /v1/, backward compatible changes, deprecation notices, migration guides" |
-| `[API_DOCUMENTATION]` | API documentation quality | "OpenAPI/Swagger spec, interactive docs, request/response examples, authentication guide" |
-| `[RATE_LIMITING]` | Rate limiting implementation | "100 requests/minute per user, 429 responses with Retry-After, token bucket algorithm" |
-| `[CACHING_HEADERS]` | HTTP caching headers | "ETag for conditional requests, Cache-Control: max-age=3600, Vary headers set" |
-| `[CORS_IMPLEMENTATION]` | CORS configuration | "Allowed origins whitelist, credentials support, preflight caching, restricted methods" |
-| `[UI_UX_IMPLEMENTATION]` | UI/UX implementation quality | "Design system components, consistent spacing, loading states, error boundaries" |
-| `[RESPONSIVE_DESIGN]` | Responsive design implementation | "Mobile-first approach, breakpoints at 768px/1024px/1440px, fluid typography" |
-| `[ACCESSIBILITY]` | Accessibility compliance | "WCAG 2.1 AA compliant, keyboard navigation, screen reader tested, color contrast 4.5:1" |
-| `[FRONTEND_PERFORMANCE]` | Frontend performance metrics | "LCP <2.5s, FID <100ms, CLS <0.1, bundle size <200KB gzipped, code splitting" |
-| `[BROWSER_COMPATIBILITY]` | Browser support | "Chrome 90+, Firefox 88+, Safari 14+, Edge 90+, graceful degradation for IE11" |
-| `[JAVASCRIPT_QUALITY]` | JavaScript code quality | "ES2020+ features, no var usage, proper async handling, no memory leaks, TypeScript strict" |
-| `[CSS_ORGANIZATION]` | CSS architecture | "CSS Modules/Tailwind, BEM naming, no !important, design tokens, theme support" |
-| `[ASSET_OPTIMIZATION]` | Asset optimization approach | "Images: WebP with fallback, lazy loading, responsive images, SVG for icons, CDN delivery" |
-| `[SEO_CONSIDERATIONS]` | SEO implementation | "Meta tags, semantic HTML, structured data, sitemap, canonical URLs, SSR/SSG" |
-| `[PROGRESSIVE_ENHANCEMENT]` | Progressive enhancement approach | "Core functionality without JS, service worker for offline, lazy loading enhancements" |
-| `[CONTAINERIZATION]` | Container implementation | "Multi-stage Dockerfile, Alpine base image, non-root user, health checks, <100MB image" |
-| `[CONFIGURATION_MANAGEMENT]` | Configuration handling | "12-factor app config, environment-based settings, secrets management, feature flags" |
-| `[ENVIRONMENT_VARIABLES]` | Environment variable usage | "Validated at startup, documented in .env.example, no defaults for secrets, type-safe" |
-| `[DEPLOYMENT_SCRIPTS]` | Deployment automation | "Helm charts, Terraform modules, idempotent scripts, rollback capability, blue-green ready" |
-| `[CICD_INTEGRATION]` | CI/CD pipeline integration | "GitHub Actions/GitLab CI, automated tests, security scans, staging deployment, approval gates" |
-| `[MONITORING_SETUP]` | Production monitoring | "Datadog/New Relic APM, custom metrics, distributed tracing, log aggregation, dashboards" |
-| `[LOGGING_CONFIGURATION]` | Logging setup | "JSON structured logs, log levels configurable, rotation configured, centralized collection" |
-| `[HEALTH_CHECKS]` | Health check implementation | "/health endpoint, liveness/readiness probes, dependency checks, detailed status response" |
-| `[SCALING_CONFIGURATION]` | Auto-scaling setup | "HPA configured, CPU/memory thresholds 70%, min 2 replicas, max 10, scale-down delay 5min" |
-| `[SECURITY_CONFIGURATION]` | Security settings | "Network policies, secrets in Kubernetes secrets/Vault, RBAC, pod security policies" |
-| `[CODE_COMMENTS]` | In-code comment quality | "Complex logic explained, TODO with ticket references, no outdated comments, API documented" |
-| `[API_DOCUMENTATION_REVIEW]` | API docs completeness | "All endpoints documented, request/response examples, error codes listed, changelog current" |
-| `[README_FILES]` | README file quality | "Setup instructions, prerequisites, development workflow, deployment guide, troubleshooting" |
-| `[ARCHITECTURE_DOCUMENTATION]` | Architecture docs status | "System diagrams current, ADRs for decisions, component interactions documented, data flow charts" |
-| `[DEPLOYMENT_INSTRUCTIONS]` | Deployment documentation | "Step-by-step guide, environment requirements, rollback procedures, verification steps" |
-| `[TROUBLESHOOTING_GUIDES]` | Troubleshooting documentation | "Common issues documented, debug procedures, log analysis guide, escalation path" |
-| `[CHANGE_LOGS]` | Changelog maintenance | "CHANGELOG.md updated, semantic versioning, breaking changes highlighted, migration notes" |
-| `[USER_GUIDES]` | End-user documentation | "Feature documentation, screenshots, video tutorials, FAQ section, searchable help center" |
-| `[DEVELOPER_GUIDES]` | Developer documentation | "Onboarding guide, coding standards, architecture overview, local setup, contribution guide" |
-| `[KNOWLEDGE_TRANSFER]` | Knowledge sharing approach | "Documentation reviewed, pair programming session, recorded demo, Q&A completed" |
-| `[REQUIREMENTS_COMPLIANCE]` | Requirements fulfillment | "All acceptance criteria met, edge cases handled, non-functional requirements verified" |
-| `[BUSINESS_RULES]` | Business rule implementation | "Discount calculation accurate, tax rules applied correctly, regulatory compliance met" |
-| `[DATA_VALIDATION]` | Business data validation | "Email format validated, phone number normalized, date ranges enforced, currency precision" |
-| `[WORKFLOW_IMPLEMENTATION]` | Workflow logic correctness | "State machine transitions correct, approval flows implemented, notifications triggered" |
-| `[BUSINESS_EDGE_CASES]` | Business edge case handling | "Zero quantity orders, expired promotions, concurrent bookings, timezone boundaries" |
-| `[INTEGRATION_POINTS]` | External integration design | "Stripe payment, SendGrid email, Twilio SMS, documented contracts, error handling" |
-| `[EXTERNAL_DEPENDENCIES]` | Third-party dependency assessment | "Vendor reliability, SLA compliance, fallback options, version compatibility" |
-| `[BACKWARD_COMPATIBILITY]` | Backward compatibility maintenance | "API v1 still supported, database migrations non-breaking, feature flags for gradual rollout" |
-| `[MIGRATION_STRATEGY]` | Data migration approach | "Incremental migration, dual-write period, data validation, rollback plan, zero downtime" |
-| `[ROLLBACK_PLANS]` | Rollback procedures | "Database rollback scripts tested, feature flags for instant disable, previous version tagged" |
-| `[CYCLOMATIC_COMPLEXITY]` | Complexity metric values | "Average: 5, Max: 15, functions >10 flagged, simplified with extract method refactoring" |
-| `[LINES_OF_CODE]` | Lines of code metrics | "Feature: 450 LOC, tests: 320 LOC, no file >300 lines, functions <50 lines average" |
-| `[CODE_COVERAGE_METRICS]` | Detailed coverage metrics | "Line: 87%, Branch: 82%, Function: 91%, critical paths: 95%, new code: 90%" |
-| `[TECHNICAL_DEBT_RATIO]` | Technical debt measurement | "SonarQube: 3.2% ratio, 4 hours estimated remediation, prioritized in backlog" |
-| `[DUPLICATION_RATIO]` | Code duplication metrics | "3.1% duplication, 2 blocks identified, extraction planned for next sprint" |
-| `[MAINTAINABILITY_INDEX]` | Maintainability score | "SonarQube: A rating, 85/100 maintainability index, no critical maintainability issues" |
-| `[COUPLING_METRICS]` | Module coupling measurements | "Afferent coupling: 3, Efferent coupling: 5, instability: 0.63, within acceptable range" |
-| `[COHESION_METRICS]` | Module cohesion measurements | "LCOM4: 1 (ideal), no god classes, single responsibility verified" |
-| `[DEFECT_DENSITY]` | Defect density metric | "0.5 defects per KLOC, below team target of 1.0, trending downward" |
-| `[CODE_QUALITY_SCORE]` | Overall quality score | "SonarQube: A rating, 0 critical issues, 2 major issues, 5 minor code smells" |
-| `[STRENGTHS]` | Code strengths identified | "Clean separation of concerns, comprehensive error handling, excellent test coverage" |
-| `[AREAS_FOR_IMPROVEMENT]` | Improvement areas identified | "Add more integration tests, improve logging consistency, document edge cases better" |
-| `[CRITICAL_ISSUES]` | Critical issues found | "SQL injection vulnerability in search, missing authentication on admin endpoint" |
-| `[MAJOR_ISSUES]` | Major issues found | "N+1 query in user list, missing input validation on file upload, no rate limiting" |
-| `[MINOR_ISSUES]` | Minor issues found | "Inconsistent error message format, TODO comment without ticket, unused import statements" |
-| `[SUGGESTIONS]` | Improvement suggestions | "Consider caching for repeated queries, extract validation logic to middleware, add OpenTelemetry" |
-| `[BEST_PRACTICES_FEEDBACK]` | Best practices adherence | "Excellent use of dependency injection, good logging practices, clean commit history" |
-| `[LEARNING_OPPORTUNITIES]` | Learning recommendations | "Review circuit breaker patterns, explore property-based testing, study CQRS pattern" |
-| `[ACTION_ITEMS]` | Required action items | "Fix SQL injection (P0), add rate limiting (P1), improve test coverage to 85% (P2)" |
-| `[FOLLOW_UP_REQUIRED]` | Follow-up requirements | "Security review after SQL fix, performance test after caching, architecture review for v2" |
-| `[CODE_QUALITY_GATE]` | Quality gate criteria | "SonarQube A rating, 0 critical issues, <5% duplication, 80% coverage minimum" |
-| `[SECURITY_GATE]` | Security gate criteria | "OWASP ZAP scan passed, no high/critical findings, dependency scan clean" |
-| `[PERFORMANCE_GATE]` | Performance gate criteria | "API response <200ms p95, throughput >500 RPS, no memory leaks under load" |
-| `[TEST_COVERAGE_GATE]` | Coverage gate criteria | "80% line coverage minimum, 100% critical path coverage, no decrease from baseline" |
-| `[DOCUMENTATION_GATE]` | Documentation requirements | "All public APIs documented, README updated, changelog entry added, architecture current" |
-| `[STANDARDS_COMPLIANCE]` | Standards compliance verification | "ESLint/Prettier passed, type checking passed, security scan passed, all CI checks green" |
-| `[BUSINESS_REQUIREMENTS_GATE]` | Business requirements verification | "All acceptance criteria verified, PO sign-off obtained, demo completed, UAT passed" |
-| `[DEPLOYMENT_READINESS]` | Deployment readiness assessment | "Staging tested, monitoring configured, runbook updated, rollback verified, team notified" |
-| `[RISK_ASSESSMENT]` | Risk level assessment | "Low risk: isolated feature, Medium risk: affects payment flow, High risk: database migration" |
-| `[APPROVAL_STATUS]` | Review approval decision | "Approved, Approved with minor changes, Changes requested, Blocked pending security fix" |
-| `[IMMEDIATE_FIXES]` | Fixes required before merge | "Fix SQL injection vulnerability, add missing null check, correct error status code" |
-| `[SHORT_TERM_IMPROVEMENTS]` | Improvements for next sprint | "Add integration tests for payment flow, implement request validation, optimize database queries" |
-| `[LONG_TERM_REFACTORING]` | Future refactoring plans | "Migrate to event-driven architecture, extract payment service, implement CQRS pattern" |
-| `[PERFORMANCE_OPTIMIZATIONS]` | Performance improvement recommendations | "Add Redis caching for user sessions, implement database connection pooling, optimize image loading" |
-| `[SECURITY_ENHANCEMENTS]` | Security improvement recommendations | "Implement rate limiting, add CSRF protection, enable security headers, audit logging" |
-| `[CODE_QUALITY_IMPROVEMENTS]` | Code quality recommendations | "Extract common validation logic, reduce function complexity, add integration test coverage" |
-| `[DOCUMENTATION_UPDATES]` | Documentation update requirements | "Update API docs with new endpoints, add architecture diagram, update deployment guide" |
-| `[TESTING_ENHANCEMENTS]` | Testing improvement recommendations | "Add contract tests for external APIs, implement mutation testing, increase edge case coverage" |
-| `[ARCHITECTURE_CHANGES]` | Architecture change recommendations | "Consider message queue for async processing, evaluate microservice extraction, implement API gateway" |
-| `[TOOL_RECOMMENDATIONS]` | Tool and library suggestions | "Adopt SonarQube for quality gates, implement Sentry for error tracking, use k6 for load testing" |
-| `[REVIEW_DISCUSSION]` | Discussion points from review | "Discussed caching strategy, agreed on error handling approach, clarified business requirements" |
-| `[CLARIFICATIONS_NEEDED]` | Items requiring clarification | "Confirm expected behavior for edge case X, verify security requirements with team, check API contract" |
-| `[KNOWLEDGE_SHARING]` | Knowledge transfer notes | "Explained new authentication flow, shared best practices for error handling, documented design decisions" |
-| `[MENTORING_OPPORTUNITIES]` | Mentoring suggestions | "Pair on TDD approach, review design patterns together, walk through architecture decisions" |
-| `[TEAM_LEARNING]` | Team learning opportunities | "Share findings on performance optimization, present security best practices, document lessons learned" |
-| `[PROCESS_IMPROVEMENTS]` | Process improvement suggestions | "Add automated security scanning, implement code review checklist, define quality gates in CI" |
-| `[TOOL_USAGE]` | Tool usage observations | "Leverage IDE refactoring tools, use pre-commit hooks, adopt code coverage reporting" |
-| `[COMMUNICATION_STYLE]` | Feedback communication approach | "Constructive and specific, focused on code not author, includes positive reinforcement" |
-| `[FEEDBACK_QUALITY]` | Quality of review feedback | "Actionable suggestions with examples, prioritized by impact, includes references and resources" |
-| `[RESOLUTION_TRACKING]` | Issue resolution tracking | "GitHub issue #123 created, Jira ticket PROJ-456 linked, follow-up review scheduled for Friday" |
+**Expected Output:** Migration safety assessment (1 critical, 2 major concerns): CRITICAL-1: Non-reversible migration (line 23, operations include RunSQL with no reverse_sql parameter, migration cannot be rolled back), fix: add reverse operation (`migrations.RunSQL('CREATE TABLE...', reverse_sql='DROP TABLE user_roles;')` enabling down migration), test rollback before production deployment. MAJOR-1: Missing index on foreign key (line 15, user_id foreign key to users table lacks index, queries filtering by user_id will full table scan), fix: add explicit index `migrations.AddIndex(model_name='userrole', index=models.Index(fields=['user_id'], name='idx_userrole_userid'))` improving query performance 100x for joins, analyze query patterns. MAJOR-2: Unsafe schema change (line 28, ALTER TABLE users ADD COLUMN role_id with NOT NULL constraint, existing users will fail constraint), fix: multi-step migration (step 1: add nullable column, step 2: populate default values, step 3: add NOT NULL constraint after data migration), enables zero-downtime deployment. Performance impact: Table lock duration (migration acquires exclusive lock on users table during schema change, blocks reads/writes 5-10 seconds for 10M row table), mitigation: use CONCURRENTLY for index creation (PostgreSQL 12+, `CREATE INDEX CONCURRENTLY idx_name ON table(column)` allowing concurrent access), split into multiple migrations deployed sequentially, schedule during low-traffic window. Data integrity: Foreign key constraint correctness (line 19, ON DELETE CASCADE will delete user_role records when user deleted, verify intended behavior), consider: ON DELETE SET NULL if preserving audit trail, add soft delete flag instead of hard delete, document cascading behavior. Missing unique constraint (users can have duplicate role assignments, no uniqueness on user_id + role_id pair), add: `constraints=[models.UniqueConstraint(fields=['user_id', 'role_id'], name='unique_user_role')]` preventing duplicate assignments. Transaction handling: Migration wrapped in transaction (Django default, PostgreSQL supports transactional DDL), verify: rollback behavior on failure, test with intentional error ensuring no partial application. Rollback plan: Migration reversibility (migrations.RunPython operations need reverse function, data migrations may be irreversible if data deleted), document: manual rollback procedures for irreversible operations, database backup before production deployment, point-in-time recovery window (PostgreSQL supports 7-day PITR with WAL archiving). Test coverage: No migration tests (verify migration applies successfully, check rollback works, validate data integrity post-migration), add: pytest test applying migration to test database, asserting expected schema changes, testing reverse migration, verifying data consistency. Recommendations: IMMEDIATE (P0, blocking deployment): Fix rollback safety (add reverse operations), change NOT NULL constraint approach (multi-step migration), add missing index (performance critical), estimated 3 hours. SHORT-TERM (P1): Add unique constraint (prevent duplicate roles), write migration tests (verify forward/backward migrations), document rollback procedures (runbook for production issues), estimated 4 hours. LONG-TERM (P2): Implement zero-downtime migration strategy (feature flags, backward-compatible schema changes, gradual rollout), add migration monitoring (track duration, lock acquisition, failure alerts), estimated 8 hours. Tools: pgBadger analyzing slow queries post-migration, pg_stat_statements monitoring query performance, Flyway alternative (version-controlled SQL migrations, checksum validation), Liquibase (XML-based migrations, preconditions support). Positive highlights: Clear migration naming (0042_add_user_roles_table indicates sequence and purpose), dependency declarations (depends_on specifying prerequisite migrations), documentation comments explaining business logic. Approval status: CHANGES REQUESTED - Rollback safety and performance issues must be addressed, database review required before production deployment, staging deployment mandatory for validation.
 
-### React Component Review
-```
-Conduct a comprehensive code review for UserProfile component in EcommerceFrontend written in TypeScript using React/Next.js framework. Focus on high priority performance aspects and provide detailed feedback on code quality, accessibility, performance, and best practices.
+---
 
-Performance Analysis:
-- Evaluate React.memo algorithm efficiency and O(1) time complexity
-- Check useState memory usage and useCallback resource management
-- Review API calls database operations and localStorage caching strategy
-- Assess useEffect concurrency handling and identify re-rendering performance bottlenecks
-- Analyze image loading io operations efficiency
+## Cross-References
 
-Frontend Review:
-- Check responsive UI/UX implementation and mobile-first responsive design
-- Verify WCAG 2.1 accessibility and lazy loading frontend performance
-- Review Chrome, Firefox, Safari browser compatibility and ES6+ JavaScript quality
-- Assess CSS modules organization and image optimization asset optimization
-- Check meta tags SEO considerations and polyfills progressive enhancement
-```
-
-
-
-## Related Resources
-
-### Complementary Templates
-
-Enhance your workflow by combining this template with:
-
-- **[Api Design](api-design.md)** - Complementary approaches and methodologies
-- **[Architecture Design](architecture-design.md)** - Complementary approaches and methodologies
-- **[Testing Strategy](testing-strategy.md)** - Strategic planning and execution frameworks
-
-### Suggested Workflow
-
-**Typical implementation sequence**:
-
-1. Start with this template (Comprehensive Code Review)
-2. Use [Api Design](api-design.md) for deeper analysis
-3. Apply [Architecture Design](architecture-design.md) for execution
-4. Iterate and refine based on results
-
-### Explore More in This Category
-
-Browse all **[technology/software-development](../../technology/software-development/)** templates for related tools and frameworks.
-
-### Common Use Case Combinations
-
-- **Pull request reviews**: Combine this template with related analytics and strategy frameworks
-- **Code quality assessment**: Combine this template with related analytics and strategy frameworks
-- **Security audits**: Combine this template with related analytics and strategy frameworks
-
-## Best Practices
-
-1. **Be constructive and specific in feedback**
-2. **Focus on the code, not the person**
-3. **Provide examples and alternatives for suggested changes**
-4. **Balance criticism with positive reinforcement**
-5. **Prioritize issues by severity and impact**
-6. **Use automated tools to catch basic issues**
-7. **Review in manageable chunks (< 400 lines)**
-8. **Include security and performance considerations**
-9. **Verify business requirements are met**
-10. **Document decisions and rationale for future reference**
+- [Architecture Design](architecture-design.md) - System patterns informing code structure, SOLID principles, dependency management
+- [Testing and QA Strategy](testing-qa.md) - Test coverage standards, testing pyramid, integration testing approaches
+- [Code Generation](code-generation.md) - Coding standards, documentation requirements, security best practices
+- [Version Control](version-control.md) - Commit standards, branch strategies, code review workflows in Git

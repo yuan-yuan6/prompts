@@ -1,31 +1,27 @@
-```markdown
 ---
-title: Statistical Experimentation & A/B Testing Framework
 category: data-analytics
+title: Statistical Experimentation & A/B Testing Framework
 tags:
-- data-analytics
 - ab-testing
 - experimentation
 - statistics
+- causal-inference
 use_cases:
-- Creating comprehensive experimentation framework covering A/B testing, multivariate
-  testing, causal inference, and statistical analysis to drive data-driven decision
-  making with rigorous methodology.
-- Product feature experimentation
-- Marketing campaign optimization
-- Pricing and conversion optimization
+- Designing and analyzing A/B tests for product features
+- Running multivariate tests for optimization
+- Applying causal inference methods when randomization isn't possible
+- Building organizational experimentation capabilities
 related_templates:
-- data-analytics/dashboard-design-patterns.md
-- data-analytics/predictive-modeling-framework.md
+- data-analytics/Advanced-Analytics/predictive-modeling-framework.md
 - data-analytics/Advanced-Analytics/time-series-analysis.md
-last_updated: 2025-11-25
+- data-analytics/dashboard-design-patterns.md
 industries:
+- technology
 - e-commerce
 - finance
 - healthcare
 - retail
-- technology
-type: template
+type: framework
 difficulty: intermediate
 slug: statistical-experimentation
 ---
@@ -33,379 +29,225 @@ slug: statistical-experimentation
 # Statistical Experimentation & A/B Testing Framework
 
 ## Purpose
-Comprehensive experimentation framework covering A/B testing, multivariate testing, causal inference, and statistical analysis to drive data-driven decision making with rigorous methodology and reliable results.
+Design and analyze experiments that drive data-driven decisions with statistical rigor. This framework covers A/B testing, multivariate testing, sample size calculation, randomization strategies, analysis methods, causal inference, and building organizational experimentation culture.
 
-## Quick Experimentation Prompt
-> Design an A/B test for [feature/change] measuring [primary metric]. Users: [sample size]. Duration: [timeline]. Include: (1) Hypothesis and success criteria, (2) Sample size calculation with MDE, (3) Randomization and segmentation strategy, (4) Analysis plan with statistical tests and guardrail metrics.
+## 🚀 Quick Start Prompt
 
-## Quick Start
+> Design an **A/B test** for **[FEATURE/CHANGE]** measuring **[PRIMARY METRIC]**. Users: **[SAMPLE SIZE]**. Duration: **[TIMELINE]**. Guide me through: (1) **Hypothesis and success criteria**—what's the expected effect and how will you decide? (2) **Sample size calculation**—what MDE is detectable with your traffic? (3) **Randomization strategy**—user-level, session-level, or cluster? How to handle edge cases? (4) **Analysis plan**—what statistical tests, how to handle multiple comparisons, what guardrail metrics? Provide the experiment design, power analysis, implementation checklist, and analysis framework.
 
-Run experiments in 4 steps:
+**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for rapid experiment design.
 
-1. **Define Hypothesis**: Formulate clear hypothesis (e.g., "Adding product reviews will increase conversion rate by 5%"), define primary metric, secondary metrics, and guardrail metrics (metrics that should not degrade).
-
-2. **Calculate Sample Size**: Determine minimum detectable effect (MDE), set significance level (α = 0.05) and power (1-β = 0.80), calculate required sample size, and estimate experiment duration.
-
-3. **Design & Implement**: Set up randomization (user-level, session-level), define control and treatment groups, implement tracking, run A/A test to validate setup, then launch experiment.
-
-4. **Analyze & Decide**: Check for sample ratio mismatch, calculate test statistics and confidence intervals, assess practical significance (not just statistical), document learnings, and make go/no-go decision.
+---
 
 ## Template
 
-Design experiment for [EXPERIMENT_NAME] testing [HYPOTHESIS] with [SAMPLE_SIZE] users over [DURATION], targeting [MDE]% minimum detectable effect on [PRIMARY_METRIC] with [CONFIDENCE]% confidence.
+Design an experiment for {EXPERIMENT_NAME} to test {HYPOTHESIS} measuring {SUCCESS_METRIC}.
 
-### 1. Experiment Definition
+**1. EXPERIMENT DEFINITION**
 
-| **Component** | **Specification** | **Details** | **Rationale** |
-|--------------|------------------|-------------|--------------|
-| Experiment Name | [EXPERIMENT_NAME] | [EXP_DESCRIPTION] | [EXP_RATIONALE] |
-| Hypothesis | [HYPOTHESIS] | [HYPOTHESIS_DETAILS] | [HYPOTHESIS_BASIS] |
-| Primary Metric | [PRIMARY_METRIC] | [PRIMARY_DEFINITION] | [PRIMARY_RATIONALE] |
-| Secondary Metrics | [SECONDARY_METRICS] | [SECONDARY_DEFINITIONS] | [SECONDARY_RATIONALE] |
-| Guardrail Metrics | [GUARDRAIL_METRICS] | [GUARDRAIL_DEFINITIONS] | [GUARDRAIL_RATIONALE] |
-| Success Criteria | [SUCCESS_CRITERIA] | [CRITERIA_DETAILS] | [CRITERIA_RATIONALE] |
+Frame the experiment clearly:
 
-### 2. Statistical Design
+Hypothesis formulation: State a clear, falsifiable hypothesis. "Adding social proof will increase conversion rate" is vague. "Showing purchase count on product pages will increase add-to-cart rate by at least 5%" is testable. Include expected direction and magnitude of effect.
 
-**Power Analysis & Sample Size:**
-```
-Parameters:
-- Baseline Conversion Rate: [BASELINE_RATE]%
-- Minimum Detectable Effect (MDE): [MDE]%
-- Significance Level (α): [ALPHA] (typically 0.05)
-- Statistical Power (1-β): [POWER] (typically 0.80)
-- Test Type: [TEST_TYPE] (one-tailed, two-tailed)
-- Multiple Comparisons: [COMPARISONS]
+Primary metric selection: Choose one primary metric that directly measures your hypothesis. Conversion rate, revenue per user, engagement time, retention—pick the metric most aligned with the business decision you'll make. Secondary metrics provide context but shouldn't drive the decision.
 
-Sample Size Calculation:
-- Per Variant: [SAMPLE_PER_VARIANT]
-- Total Sample: [TOTAL_SAMPLE]
-- Daily Traffic: [DAILY_TRAFFIC]
-- Required Duration: [DURATION_DAYS] days
+Guardrail metrics: Define metrics that should not degrade even if the primary metric improves. Page load time, error rate, customer complaints, revenue per user (if optimizing clicks). Guardrails prevent winning on one metric while harming the business elsewhere.
 
-Sensitivity Analysis:
-- At 80% power: [SAMPLE_80] users
-- At 90% power: [SAMPLE_90] users
-- At 95% power: [SAMPLE_95] users
-```
+Success criteria: Define upfront what constitutes success. "Statistically significant positive lift" is incomplete. Specify the minimum practically significant effect—a 0.1% lift might be statistically significant but not worth the engineering investment.
 
-| **Scenario** | **MDE** | **Sample Size** | **Duration** | **Power** | **Trade-off** |
-|-------------|--------|----------------|-------------|----------|--------------|
-| Aggressive | [AGG_MDE]% | [AGG_SAMPLE] | [AGG_DURATION] | [AGG_POWER] | [AGG_TRADE] |
-| Balanced | [BAL_MDE]% | [BAL_SAMPLE] | [BAL_DURATION] | [BAL_POWER] | [BAL_TRADE] |
-| Conservative | [CON_MDE]% | [CON_SAMPLE] | [CON_DURATION] | [CON_POWER] | [CON_TRADE] |
+**2. STATISTICAL DESIGN**
 
-### 3. Randomization Strategy
+Calculate the experiment parameters:
 
-**Assignment Method:**
-```
-Randomization Unit:
-- Unit Type: [RAND_UNIT] (user, session, device, cookie)
-- Identifier: [RAND_ID]
-- Consistency: [CONSISTENCY] (sticky assignment)
-- Hash Function: [HASH_FUNCTION]
+Baseline and minimum detectable effect: What's the current metric value? What's the smallest improvement worth detecting? Smaller MDE requires larger samples. Balance business value of detecting small effects against cost of longer experiments.
 
-Traffic Allocation:
-- Control: [CONTROL_PERCENT]%
-- Treatment(s): [TREATMENT_PERCENT]%
-- Holdout: [HOLDOUT_PERCENT]%
-- Ramp-up Schedule: [RAMP_SCHEDULE]
+Sample size calculation: Use power analysis to determine required sample size. Inputs: baseline rate, MDE, significance level (α, typically 0.05), power (1-β, typically 0.80), one-tailed vs two-tailed test. Online calculators or statsmodels in Python work well. Under-powered experiments waste time—you'll likely see inconclusive results.
 
-Segmentation:
-- Stratification Variables: [STRAT_VARS]
-- Blocking: [BLOCKING]
-- Pre-assignment Covariates: [COVARIATES]
+Duration estimation: Divide required sample size by daily traffic. Run for at least one full week to capture day-of-week effects. Two weeks is safer. For major launches, capture full business cycles (monthly patterns, payroll cycles).
 
-Quality Checks:
-- A/A Test: [AA_TEST]
-- Sample Ratio Mismatch (SRM): [SRM_CHECK]
-- Covariate Balance: [COV_BALANCE]
-```
+Sensitivity analysis: Calculate sample sizes at different power levels (80%, 90%, 95%) and different MDEs. This helps stakeholders understand trade-offs. "We can detect 5% lift in 2 weeks or 3% lift in 6 weeks."
 
-### 4. Experiment Variants
+**3. RANDOMIZATION STRATEGY**
 
-| **Variant** | **Name** | **Description** | **Traffic** | **Implementation** | **Status** |
-|------------|---------|-----------------|------------|-------------------|-----------|
-| Control | [CTRL_NAME] | [CTRL_DESC] | [CTRL_TRAFFIC]% | [CTRL_IMPL] | [CTRL_STATUS] |
-| Treatment A | [TREAT_A_NAME] | [TREAT_A_DESC] | [TREAT_A_TRAFFIC]% | [TREAT_A_IMPL] | [TREAT_A_STATUS] |
-| Treatment B | [TREAT_B_NAME] | [TREAT_B_DESC] | [TREAT_B_TRAFFIC]% | [TREAT_B_IMPL] | [TREAT_B_STATUS] |
-| Treatment C | [TREAT_C_NAME] | [TREAT_C_DESC] | [TREAT_C_TRAFFIC]% | [TREAT_C_IMPL] | [TREAT_C_STATUS] |
+Assign users to variants correctly:
 
-### 5. Metric Definitions
+Randomization unit: User-level randomization is standard—each user sees one variant consistently. Session-level creates inconsistent experiences. Device-level has cross-device issues. Cookie-based has deletion and cross-browser issues. Choose user ID when possible.
 
-**Primary Metric:**
-```
-Metric: [PRIMARY_METRIC]
-Definition: [PRIMARY_DEFINITION]
-Formula: [PRIMARY_FORMULA]
-Data Source: [PRIMARY_SOURCE]
-Aggregation: [PRIMARY_AGG] (user-level, session-level)
-Attribution Window: [ATTRIBUTION_WINDOW]
-Expected Direction: [EXPECTED_DIRECTION]
-Practical Significance: [PRACTICAL_SIG]
-```
+Assignment mechanism: Hash the user ID with a salt unique to each experiment. This ensures consistent assignment and independent experiments. Don't use modulo on user ID—it creates correlated assignments across experiments.
 
-**Secondary & Guardrail Metrics:**
-| **Metric** | **Type** | **Definition** | **Formula** | **Threshold** | **Direction** |
-|-----------|---------|---------------|------------|--------------|--------------|
-| [METRIC_1] | [TYPE_1] | [DEF_1] | [FORMULA_1] | [THRESH_1] | [DIR_1] |
-| [METRIC_2] | [TYPE_2] | [DEF_2] | [FORMULA_2] | [THRESH_2] | [DIR_2] |
-| [METRIC_3] | [TYPE_3] | [DEF_3] | [FORMULA_3] | [THRESH_3] | [DIR_3] |
-| [METRIC_4] | [TYPE_4] | [DEF_4] | [FORMULA_4] | [THRESH_4] | [DIR_4] |
-| [METRIC_5] | [TYPE_5] | [DEF_5] | [FORMULA_5] | [THRESH_5] | [DIR_5] |
+Traffic allocation: Start with 50/50 split for maximum power. For risky changes, start smaller (5-10% treatment) and ramp up. Keep a holdout group (1-5%) for long-term measurement. Document allocation clearly.
 
-### 6. Statistical Analysis Plan
+Stratification: For small samples or high-variance metrics, stratify randomization by key covariates (country, platform, user tenure). This ensures balanced groups and reduces variance. Analyze within strata and combine.
 
-**Analysis Methods:**
-```
-Primary Analysis:
-- Test: [PRIMARY_TEST] (t-test, chi-square, Mann-Whitney)
-- Confidence Level: [CONFIDENCE]%
-- Effect Size: [EFFECT_SIZE] (Cohen's d, odds ratio)
-- Confidence Interval: [CI_METHOD]
+**4. PRE-EXPERIMENT VALIDATION**
 
-Multiple Testing Correction:
-- Method: [CORRECTION_METHOD] (Bonferroni, Holm, FDR)
-- Family-wise Error Rate: [FWER]
-- Adjusted Alpha: [ADJ_ALPHA]
+Verify the experiment before analyzing results:
 
-Variance Reduction:
-- CUPED: [CUPED] (Controlled Using Pre-Experiment Data)
-- Stratification: [STRATIFICATION]
-- Regression Adjustment: [REGRESSION_ADJ]
-- Expected Variance Reduction: [VAR_REDUCTION]%
+A/A test: Run an A/A test (identical variants) before major experiments. This validates instrumentation, randomization, and analysis code. A/A tests should show no significant difference—if they do, something is wrong.
 
-Sequential Analysis:
-- Method: [SEQ_METHOD] (optional)
-- Alpha Spending: [ALPHA_SPENDING]
-- Interim Looks: [INTERIM_LOOKS]
-- Stopping Rules: [STOPPING_RULES]
-```
+Sample ratio mismatch (SRM): Check that the ratio of users in each variant matches the intended allocation. 50/50 allocation should yield approximately 50/50 users. Significant deviation indicates bugs in assignment or logging. Stop the experiment and investigate.
 
-### 7. Pre-Experiment Validation
+Covariate balance: Verify that pre-experiment characteristics (country distribution, platform mix, historical behavior) are balanced across variants. Imbalance suggests randomization problems or selection bias.
 
-| **Validation Step** | **Method** | **Criteria** | **Result** | **Action if Failed** |
-|--------------------|-----------|-------------|-----------|---------------------|
-| A/A Test | [AA_METHOD] | [AA_CRITERIA] | [AA_RESULT] | [AA_ACTION] |
-| Instrumentation | [INST_METHOD] | [INST_CRITERIA] | [INST_RESULT] | [INST_ACTION] |
-| Covariate Balance | [COV_METHOD] | [COV_CRITERIA] | [COV_RESULT] | [COV_ACTION] |
-| Sample Ratio | [SRM_METHOD] | [SRM_CRITERIA] | [SRM_RESULT] | [SRM_ACTION] |
-| Metric Logging | [LOG_METHOD] | [LOG_CRITERIA] | [LOG_RESULT] | [LOG_ACTION] |
+Instrumentation check: Verify that all metrics are logging correctly. Check for null values, unexpected distributions, and reasonable baseline levels before the experiment starts.
 
-### 8. Results Analysis
+**5. ANALYSIS METHODS**
 
-**Summary Statistics:**
-| **Metric** | **Control** | **Treatment** | **Absolute Diff** | **Relative Diff** | **95% CI** | **P-Value** | **Significant** |
-|-----------|------------|--------------|------------------|------------------|-----------|------------|-----------------|
-| [PRIMARY_METRIC] | [CTRL_PRIMARY] | [TREAT_PRIMARY] | [ABS_PRIMARY] | [REL_PRIMARY]% | [CI_PRIMARY] | [P_PRIMARY] | [SIG_PRIMARY] |
-| [METRIC_1] | [CTRL_M1] | [TREAT_M1] | [ABS_M1] | [REL_M1]% | [CI_M1] | [P_M1] | [SIG_M1] |
-| [METRIC_2] | [CTRL_M2] | [TREAT_M2] | [ABS_M2] | [REL_M2]% | [CI_M2] | [P_M2] | [SIG_M2] |
-| [METRIC_3] | [CTRL_M3] | [TREAT_M3] | [ABS_M3] | [REL_M3]% | [CI_M3] | [P_M3] | [SIG_M3] |
+Analyze results with appropriate statistics:
 
-**Segment Analysis:**
-| **Segment** | **N (Control)** | **N (Treatment)** | **Control Rate** | **Treatment Rate** | **Lift** | **P-Value** |
-|------------|----------------|------------------|-----------------|-------------------|---------|------------|
-| [SEG_1] | [N_CTRL_1] | [N_TREAT_1] | [RATE_CTRL_1] | [RATE_TREAT_1] | [LIFT_1]% | [P_1] |
-| [SEG_2] | [N_CTRL_2] | [N_TREAT_2] | [RATE_CTRL_2] | [RATE_TREAT_2] | [LIFT_2]% | [P_2] |
-| [SEG_3] | [N_CTRL_3] | [N_TREAT_3] | [RATE_CTRL_3] | [RATE_TREAT_3] | [LIFT_3]% | [P_3] |
-| [SEG_4] | [N_CTRL_4] | [N_TREAT_4] | [RATE_CTRL_4] | [RATE_TREAT_4] | [LIFT_4]% | [P_4] |
+Primary test selection: For proportions (conversion rate), use chi-square or z-test for proportions. For continuous metrics (revenue per user), use t-test or Mann-Whitney if non-normal. For count data, use Poisson or negative binomial regression. Match the test to your metric type.
 
-### 9. Causal Inference Extensions
+Confidence intervals: Report confidence intervals, not just p-values. A 95% CI of [2%, 8%] lift tells you much more than p=0.01. Confidence intervals communicate both significance and precision of the effect estimate.
 
-**Beyond A/B Testing:**
-```
-Difference-in-Differences:
-- Use Case: [DID_USECASE]
-- Parallel Trends: [PARALLEL_TRENDS]
-- Pre-Period: [PRE_PERIOD]
-- Post-Period: [POST_PERIOD]
-- Estimated Effect: [DID_EFFECT]
+Multiple comparison correction: Testing multiple metrics inflates false positive rate. Use Bonferroni (conservative) or Benjamini-Hochberg FDR (less conservative) correction. Better yet, pre-specify one primary metric and treat others as exploratory.
 
-Regression Discontinuity:
-- Running Variable: [RUNNING_VAR]
-- Cutoff: [CUTOFF]
-- Bandwidth: [BANDWIDTH]
-- Local Effect: [RD_EFFECT]
+Variance reduction: CUPED (Controlled-experiment Using Pre-Experiment Data) uses pre-experiment behavior to reduce variance, often by 30-50%. This means faster experiments or smaller MDEs with same sample size. Implement if you have historical user data.
 
-Instrumental Variables:
-- Instrument: [INSTRUMENT]
-- Relevance: [RELEVANCE]
-- Exclusion: [EXCLUSION]
-- IV Estimate: [IV_ESTIMATE]
+Sequential analysis: If you need to peek at results early, use sequential testing methods (alpha spending functions, always-valid p-values). Standard tests assume one look at the data—early peeking inflates false positives.
 
-Propensity Score Matching:
-- Covariates: [PS_COVARIATES]
-- Matching Method: [MATCHING_METHOD]
-- Balance Check: [BALANCE_CHECK]
-- ATT Estimate: [ATT_ESTIMATE]
+**6. SEGMENT ANALYSIS**
 
-Synthetic Control:
-- Donor Pool: [DONOR_POOL]
-- Pre-Treatment Fit: [PRETREAT_FIT]
-- Synthetic Unit: [SYNTHETIC_UNIT]
-- Effect Estimate: [SC_EFFECT]
-```
+Understand heterogeneous effects:
 
-### 10. Decision Framework
+Pre-defined segments: Analyze effects across key segments—new vs returning users, mobile vs desktop, country, user tenure, subscription tier. Pre-specify segments before looking at results to avoid cherry-picking.
 
-**Experiment Outcome:**
-```
-Decision Matrix:
-- Statistical Significance: [STAT_SIG] (Yes/No)
-- Practical Significance: [PRAC_SIG] (Yes/No)
-- Guardrails Passed: [GUARDRAILS] (Yes/No)
-- Segment Consistency: [SEGMENT_CONSIST] (Yes/No)
+Interaction effects: Treatment might help one segment while hurting another. Overall neutral results can mask important heterogeneous effects. Segment analysis reveals who benefits and who's harmed.
 
-Recommendation:
-- Decision: [DECISION] (Ship, Iterate, Kill)
-- Confidence: [DECISION_CONF]
-- Rationale: [DECISION_RATIONALE]
-- Next Steps: [NEXT_STEPS]
+Simpson's paradox: Watch for cases where segment-level and overall results disagree. A treatment can improve outcomes in every segment but hurt overall (or vice versa) due to different segment sizes. Always check segment-level results.
 
-Rollout Plan:
-- Rollout Strategy: [ROLLOUT_STRATEGY]
-- Ramp Schedule: [RAMP_SCHEDULE]
-- Monitoring: [ROLLOUT_MONITORING]
-- Rollback Criteria: [ROLLBACK_CRITERIA]
+Caution on segments: Many segments mean many comparisons. Most segment results will be underpowered. Use segment analysis for hypothesis generation, not confirmation. Follow up interesting segments with dedicated experiments.
 
-Documentation:
-- Experiment Report: [REPORT_LINK]
-- Code/Config: [CODE_LINK]
-- Data: [DATA_LINK]
-- Learnings: [LEARNINGS]
-```
+**7. CAUSAL INFERENCE EXTENSIONS**
 
-### 11. Common Pitfalls & Mitigations
+When randomization isn't possible:
 
-| **Pitfall** | **Description** | **Detection** | **Mitigation** | **Prevention** |
-|------------|-----------------|--------------|---------------|---------------|
-| Peeking | [PEEK_DESC] | [PEEK_DETECT] | [PEEK_MITIGATE] | [PEEK_PREVENT] |
-| SRM | [SRM_DESC] | [SRM_DETECT] | [SRM_MITIGATE] | [SRM_PREVENT] |
-| Novelty Effect | [NOV_DESC] | [NOV_DETECT] | [NOV_MITIGATE] | [NOV_PREVENT] |
-| Interference | [INT_DESC] | [INT_DETECT] | [INT_MITIGATE] | [INT_PREVENT] |
-| Selection Bias | [SEL_DESC] | [SEL_DETECT] | [SEL_MITIGATE] | [SEL_PREVENT] |
-| Simpson's Paradox | [SIMP_DESC] | [SIMP_DETECT] | [SIMP_MITIGATE] | [SIMP_PREVENT] |
+Difference-in-differences: Compare treatment and control groups before and after intervention. Requires parallel trends assumption—groups would have evolved similarly without treatment. Good for policy changes or feature rollouts to specific markets.
 
-### 12. Experimentation Maturity
+Regression discontinuity: When treatment assignment depends on a threshold (credit score, sign-up date), compare users just above and just below the cutoff. Provides causal estimates at the cutoff with weaker assumptions than DiD.
 
-**Organizational Capabilities:**
-```
-Platform:
-- Experiment Platform: [PLATFORM]
-- Randomization Engine: [RAND_ENGINE]
-- Metric Pipeline: [METRIC_PIPELINE]
-- Analysis Tools: [ANALYSIS_TOOLS]
-- Automation Level: [AUTOMATION]
+Instrumental variables: Find a variable that affects treatment assignment but not outcomes directly. Classic example: distance to hospital affects hospital choice but not health directly. Requires careful validation of instrument validity.
 
-Process:
-- Experiment Review: [REVIEW_PROCESS]
-- Launch Checklist: [CHECKLIST]
-- Documentation Standards: [DOC_STANDARDS]
-- Knowledge Repository: [KNOWLEDGE_REPO]
+Propensity score matching: Match treated and untreated users on probability of treatment. Removes selection bias on observed covariates but cannot address unobserved confounders. Weaker than randomization but useful when experiments aren't possible.
 
-Culture:
-- Experiment Velocity: [VELOCITY] experiments/quarter
-- Win Rate: [WIN_RATE]%
-- Decision Time: [DECISION_TIME]
-- Learning Culture: [LEARNING_CULTURE]
-```
+Synthetic control: For single treated unit (one market, one product), construct a synthetic comparison from weighted combination of untreated units. Popular for geographic or policy interventions.
+
+**8. DECISION FRAMEWORK**
+
+Make good decisions from experiment results:
+
+Statistical vs practical significance: A statistically significant 0.5% lift might not justify the engineering cost. A non-significant 3% lift might warrant a larger experiment. Consider effect size, confidence interval width, and business impact.
+
+Decision matrix: Map outcomes to decisions. Significant positive: ship. Significant negative: kill. Non-significant with wide CI: run longer or accept uncertainty. Non-significant with narrow CI around zero: no meaningful effect, decide based on other factors.
+
+Guardrail violations: If guardrails degrade significantly, investigate before shipping. Understand the trade-off. Sometimes degradation is acceptable (slightly slower page load for much higher conversion). Document the decision rationale.
+
+Documentation: Record hypothesis, design, results, decision, and learnings. Future experiments build on past learnings. Failed experiments teach as much as successes. Create searchable knowledge repository.
+
+**9. COMMON PITFALLS**
+
+Avoid these mistakes:
+
+Peeking: Checking results daily and stopping when significant inflates false positive rate. Either pre-commit to fixed duration or use sequential testing methods. P-values assume one look at the data.
+
+Insufficient runtime: Short experiments miss weekly cycles and user return behavior. Two-week minimum for most experiments. Longer for low-frequency behaviors (purchases, subscriptions).
+
+Novelty and primacy effects: New features get extra attention initially (novelty) or users resist change (primacy). Effects often normalize after 1-2 weeks. Run long enough to reach steady state.
+
+Network effects: When users interact, treating one user affects others. Marketplace experiments (buyers/sellers), social features, and pricing experiments suffer from interference. Use cluster randomization or switchback designs.
+
+Selection bias: If treatment affects who continues in the experiment (e.g., more engaged users stay), comparison becomes biased. Use intent-to-treat analysis—analyze based on assignment, not engagement.
+
+**10. ORGANIZATIONAL MATURITY**
+
+Build experimentation capabilities:
+
+Experimentation platform: Invest in tooling as volume grows. Feature flagging, randomization, metric computation, analysis dashboards, experiment repository. Build vs buy depends on scale and customization needs.
+
+Process and governance: Define experiment review process—who approves, what documentation required, ethical review for sensitive experiments. Checklist prevents common mistakes.
+
+Culture: Make experimentation the default for product decisions. Celebrate learning from failed experiments. Track experiments per team as a health metric. Share results broadly.
+
+Velocity metrics: Measure experiments run per quarter, time from idea to result, win rate, decision time. Faster experimentation means faster learning and better products.
+
+Deliver your experiment design as:
+
+1. **EXPERIMENT SUMMARY** - Hypothesis, primary metric, success criteria, expected impact
+
+2. **STATISTICAL DESIGN** - Sample size, MDE, duration, power, allocation
+
+3. **IMPLEMENTATION SPEC** - Randomization unit, assignment mechanism, variants, tracking
+
+4. **ANALYSIS PLAN** - Statistical tests, multiple comparison handling, segments, guardrails
+
+5. **DECISION FRAMEWORK** - Ship/iterate/kill criteria, guardrail thresholds, rollout plan
+
+6. **DOCUMENTATION** - Pre-registration, results template, learning repository
+
+---
 
 ## Variables
 
 | Variable | Description | Example |
 |----------|-------------|---------|
-| `[EXPERIMENT_NAME]` | Name of experiment | "Checkout Flow Redesign", "Homepage Hero Test" |
-| `[HYPOTHESIS]` | Clear hypothesis statement | "Adding trust badges will increase conversion by 3%" |
-| `[PRIMARY_METRIC]` | Main success metric | "Conversion rate", "Revenue per user", "Engagement time" |
-| `[BASELINE_RATE]` | Current metric value | "2.5%", "4.0%", "$12.50" |
-| `[MDE]` | Minimum detectable effect | "5%", "10%", "3%" |
-| `[ALPHA]` | Significance level | "0.05", "0.01", "0.10" |
-| `[POWER]` | Statistical power | "0.80", "0.90", "0.95" |
-| `[DURATION_DAYS]` | Experiment length | "14", "21", "28" |
-| `[SAMPLE_PER_VARIANT]` | Users per variant | "10,000", "50,000", "100,000" |
-| `[CORRECTION_METHOD]` | Multiple testing correction | "Bonferroni", "Holm-Bonferroni", "Benjamini-Hochberg" |
+| `{EXPERIMENT_NAME}` | Descriptive name for the experiment | "Checkout Flow Simplification", "Homepage Hero Personalization" |
+| `{HYPOTHESIS}` | Clear testable hypothesis | "Reducing checkout steps from 5 to 3 will increase completion rate by 5%" |
+| `{SUCCESS_METRIC}` | Primary metric and target | "Checkout completion rate with 3% minimum detectable effect" |
 
 ## Usage Examples
 
 ### Example 1: E-commerce Checkout Optimization
+
 ```
-Experiment: Simplified checkout flow
-Hypothesis: Reducing steps from 5 to 3 increases conversion
-Primary Metric: Checkout completion rate
-Baseline: 65% completion
-MDE: 3% relative lift
-Sample Size: 50,000 per variant
-Duration: 14 days
-Result: +4.2% lift (p=0.003), shipped
+Design an experiment for Checkout Simplification to test that reducing 
+checkout steps from 5 to 3 increases completion rate measuring checkout 
+completion rate with 3% MDE.
 ```
 
-### Example 2: Feature Rollout Test
+**Expected Output:**
+- Hypothesis: Simplified checkout increases completion by 3%+ (two-tailed test)
+- Sample size: 50,000 users per variant (100,000 total)
+- Duration: 14 days at 7,000 daily checkout attempts
+- Guardrails: Error rate, average order value, payment failures
+- Analysis: Chi-square test, Bonferroni for 3 secondary metrics
+- Result: +4.2% lift (95% CI: [2.1%, 6.3%]), p=0.003, shipped
+
+### Example 2: Recommendation Algorithm Test
+
 ```
-Experiment: New recommendation algorithm
-Hypothesis: ML-based recs increase engagement
-Primary Metric: Items viewed per session
-Guardrails: Page load time, error rate
-Segments: New vs returning users
-A/A Validation: 7-day pre-test
-Sequential Testing: 3 interim analyses
-Result: +8% engagement, no guardrail violations
+Design an experiment for New Recommendation Model to test that ML-based 
+recommendations increase engagement measuring items viewed per session 
+with 5% MDE.
 ```
+
+**Expected Output:**
+- Hypothesis: ML recommendations increase items viewed by 5%+
+- Baseline: 4.2 items per session
+- Sample size: 30,000 users per variant
+- Duration: 21 days (capture full user return cycle)
+- Variance reduction: CUPED using 30-day pre-experiment views (40% variance reduction)
+- Guardrails: Page load time (<200ms increase), diversity (items from 3+ categories)
+- Result: +8.1% engagement, no guardrail violations, shipped with monitoring
 
 ### Example 3: Pricing Experiment
+
 ```
-Experiment: Dynamic pricing test
-Hypothesis: Personalized pricing increases revenue
-Primary Metric: Revenue per visitor
-Secondary: Conversion rate, average order value
-Ethical Review: Fairness assessment completed
-Sample: 100,000 users (stratified by segment)
-Duration: 21 days (full business cycle)
-Result: +12% revenue, fairness metrics stable
+Design an experiment for Dynamic Pricing to test that personalized pricing 
+increases revenue measuring revenue per visitor with $0.50 MDE requiring 
+fairness assessment.
 ```
 
-## Best Practices
+**Expected Output:**
+- Hypothesis: Personalized pricing increases revenue per visitor by $0.50+
+- Ethical review: Fairness assessment across demographic segments
+- Sample size: 100,000 users per variant (stratified by segment)
+- Duration: 21 days (full business cycle)
+- Segments: New/returning, geography, device (pre-specified)
+- Guardrails: Conversion rate, customer complaints, fairness metrics
+- Result: +$0.72 RPV, fairness metrics within bounds, phased rollout
 
-1. **Pre-register hypotheses** - Define success criteria before looking at data
-2. **Calculate sample size upfront** - Don't stop early based on results
-3. **Run A/A tests** - Validate instrumentation before every major experiment
-4. **Check for SRM** - Sample ratio mismatch indicates implementation bugs
-5. **Use guardrail metrics** - Protect core business metrics from degradation
-6. **Account for multiple comparisons** - Adjust for testing multiple hypotheses
-7. **Consider practical significance** - Statistical significance ≠ business impact
-8. **Document everything** - Future you will thank present you
-9. **Share learnings widely** - Failed experiments teach as much as successes
-10. **Build experimentation culture** - Make data-driven decisions the norm
+## Cross-References
 
-## Related Resources
-
-- **[Dashboard Design Patterns](../dashboard-design-patterns.md)** - Visualize experiment results
-- **[Predictive Modeling Framework](../predictive-modeling-framework.md)** - ML for experiment analysis
-- **[Time Series Analysis](time-series-analysis.md)** - Temporal effects in experiments
-
-## Customization Options
-
-### 1. Experiment Type
-- A/B Test (two variants)
-- A/B/n Test (multiple variants)
-- Multivariate Test (MVT)
-- Bandit Optimization
-- Quasi-experiment
-
-### 2. Analysis Approach
-- Frequentist
-- Bayesian
-- Sequential
-- Causal Inference
-
-### 3. Traffic Level
-- Low traffic (< 10K/day)
-- Medium traffic (10K-100K/day)
-- High traffic (100K-1M/day)
-- Very high traffic (> 1M/day)
-
-### 4. Risk Level
-- Low risk (UI changes)
-- Medium risk (feature changes)
-- High risk (pricing, core flows)
-- Critical (revenue-impacting)
-```
+- **Predictive Modeling:** predictive-modeling-framework.md - ML for causal inference methods
+- **Time Series:** time-series-analysis.md - Handling temporal effects in experiments
+- **Dashboard Design:** dashboard-design-patterns.md - Visualizing experiment results
+- **Recommender Systems:** recommender-systems.md - A/B testing for recommendations
