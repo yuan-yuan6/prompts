@@ -4,7 +4,7 @@ UX/UI design, product design, visual design, prototyping, and design system temp
 
 ## 📊 Overview
 
-- **Total Templates**: 14
+- **Total Templates**: 15
 - **Subcategories**: 1
 - **Category**: `design/`
 

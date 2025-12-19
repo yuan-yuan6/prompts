@@ -4,7 +4,7 @@ Strategic planning, market analysis, growth strategy, innovation, and organizati
 
 ## 📊 Overview
 
-- **Total Templates**: 12
+- **Total Templates**: 11
 - **Category**: `strategy/`
 
 ## 📁 Templates

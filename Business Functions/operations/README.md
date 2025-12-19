@@ -4,7 +4,7 @@ Process management, quality assurance, project management, and industry-specific
 
 ## 📊 Overview
 
-- **Total Templates**: 33
+- **Total Templates**: 40
 - **Subcategories**: 8
 - **Category**: `operations/`
 

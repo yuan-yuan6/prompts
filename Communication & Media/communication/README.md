@@ -4,7 +4,7 @@ Internal, external, stakeholder, and crisis communication templates for effectiv
 
 ## 📊 Overview
 
-- **Total Templates**: 33
+- **Total Templates**: 23
 - **Category**: `communication/`
 
 ## 📁 Templates

@@ -4,72 +4,67 @@ Academic research, curriculum development, teaching methodologies, and knowledge
 
 ## 📊 Overview
 
-- **Total Templates**: 29
+- **Total Templates**: 30
 - **Subcategories**: 7
 - **Category**: `education/`
 
 ## 📁 Subcategories
-
 ### Academic Research
-**5 templates**
+**17 templates**
 
-- [Academic Grant Writing](Academic Research/academic-grant-writing.md)
-- [Data Analysis](Academic Research/data-analysis.md)
-- [Literature Reviews](Academic Research/literature-reviews.md)
-- [Publication Writing](Academic Research/publication-writing.md)
-- [Research Design](Academic Research/research-design.md)
-
-### Higher Education
-**1 templates**
-
-- [Enrollment Management](Higher Education/enrollment-management.md)
-
-### K-12 Education
-**2 templates**
-
-- [Classroom Management](K-12 Education/classroom-management.md)
-- [Special Education](K-12 Education/special-education.md)
+- [Academic Grant Writing](Academic-Research/academic-grant-writing.md)
+- [Data Analysis](Academic-Research/data-analysis.md)
+- [Literature Review Analysis Implications](Academic-Research/literature-review-analysis-implications.md)
+- [Literature Review Extraction Synthesis](Academic-Research/literature-review-extraction-synthesis.md)
+- [Literature Review Protocol Search](Academic-Research/literature-review-protocol-search.md)
+- [Literature Review Reporting Dissemination](Academic-Research/literature-review-reporting-dissemination.md)
+- [Literature Review Selection Quality](Academic-Research/literature-review-selection-quality.md)
+- [Literature Reviews Overview](Academic-Research/literature-reviews-overview.md)
+- [Literature Reviews](Academic-Research/literature-reviews.md)
+- [Publication Writing](Academic-Research/publication-writing.md)
+- [Research Design Analysis Quality](Academic-Research/research-design-analysis-quality.md)
+- [Research Design Ethics Implementation](Academic-Research/research-design-ethics-implementation.md)
+- [Research Design Foundation](Academic-Research/research-design-foundation.md)
+- [Research Design Impact](Academic-Research/research-design-impact.md)
+- [Research Design Overview](Academic-Research/research-design-overview.md)
+- [Research Design Sampling Data](Academic-Research/research-design-sampling-data.md)
+- [Research Design](Academic-Research/research-design.md)
 
 ### Knowledge Management
 **5 templates**
 
-- [Best Practices](Knowledge Management/best-practices.md)
-- [Content Curation](Knowledge Management/content-curation.md)
-- [Information Architecture](Knowledge Management/information-architecture.md)
-- [Knowledge Documentation](Knowledge Management/knowledge-documentation.md)
-- [Training Materials](Knowledge Management/training-materials.md)
+- [Best Practices](Knowledge-Management/best-practices.md)
+- [Content Curation](Knowledge-Management/content-curation.md)
+- [Information Architecture](Knowledge-Management/information-architecture.md)
+- [Knowledge Documentation](Knowledge-Management/knowledge-documentation.md)
+- [Training Materials](Knowledge-Management/training-materials.md)
+
+### Research
+**1 templates**
+
+- [Clinical Trial Protocol](Research/clinical-trial-protocol.md)
 
 ### Scientific Communication
 **5 templates**
 
-- [Conference Presentations](Scientific Communication/conference-presentations.md)
-- [Data Visualization](Scientific Communication/data-visualization.md)
-- [Peer Review](Scientific Communication/peer-review.md)
-- [Research Papers](Scientific Communication/research-papers.md)
-- [Science Writing](Scientific Communication/science-writing.md)
-
-### Teaching & Instruction
-**7 templates**
-
-- [Assessment Design](Teaching & Instruction/assessment-design.md)
-- [Course Design](Teaching & Instruction/course-design.md)
-- [Educational Content](Teaching & Instruction/educational-content.md)
-- [Lesson Planning](Teaching & Instruction/lesson-planning.md)
-- [Online Learning](Teaching & Instruction/online-learning.md)
-- [Student Assessment](Teaching & Instruction/student-assessment.md)
-- [Teaching Curriculum Development](Teaching & Instruction/teaching-curriculum-development.md)
-
-### research
-**2 templates**
-
-- [Research Management](research/Scientific Research/research-management.md)
-- [Clinical Trial Protocol](research/clinical-trial-protocol.md)
+- [Conference Presentations](Scientific-Communication/conference-presentations.md)
+- [Data Visualization](Scientific-Communication/data-visualization.md)
+- [Peer Review](Scientific-Communication/peer-review.md)
+- [Research Papers](Scientific-Communication/research-papers.md)
+- [Science Writing](Scientific-Communication/science-writing.md)
 
 ### General Templates
 
 - [Curriculum Development Framework](curriculum-development-framework.md)
 - [Curriculum Development](curriculum-development.md)
 
+**5 templates**
+**1 templates**
+**2 templates**
+**5 templates**
+**5 templates**
+**7 templates**
+**2 templates**
 ## 🚀 Getting Started
 
 ### Choosing a Template

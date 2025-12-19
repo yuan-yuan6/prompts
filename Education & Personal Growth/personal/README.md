@@ -4,66 +4,61 @@ Productivity, career planning, skill building, health, and lifestyle templates f
 
 ## 📊 Overview
 
-- **Total Templates**: 30
+- **Total Templates**: 21
 - **Subcategories**: 6
 - **Category**: `personal/`
 
 ## 📁 Subcategories
-
 ### Communication Skills
 **5 templates**
 
-- [Conflict Resolution](Communication Skills/conflict-resolution.md)
-- [Email Writing](Communication Skills/email-writing.md)
-- [Negotiation](Communication Skills/negotiation.md)
-- [Networking](Communication Skills/networking.md)
-- [Public Speaking](Communication Skills/public-speaking.md)
+- [Conflict Resolution](Communication-Skills/conflict-resolution.md)
+- [Email Writing](Communication-Skills/email-writing.md)
+- [Negotiation](Communication-Skills/negotiation.md)
+- [Networking](Communication-Skills/networking.md)
+- [Public Speaking](Communication-Skills/public-speaking.md)
+
+### Development
+**1 templates**
+
+- [Life Optimization Framework](Development/life-optimization-framework.md)
 
 ### Financial Management
 **5 templates**
 
-- [Budget Planning](Financial Management/budget-planning.md)
-- [Debt Management](Financial Management/debt-management.md)
-- [Investment Strategy](Financial Management/investment-strategy.md)
-- [Retirement Planning](Financial Management/retirement-planning.md)
-- [Tax Planning](Financial Management/tax-planning.md)
+- [Budget Planning](Financial-Management/budget-planning.md)
+- [Debt Management](Financial-Management/debt-management.md)
+- [Investment Strategy](Financial-Management/investment-strategy.md)
+- [Retirement Planning](Financial-Management/retirement-planning.md)
+- [Tax Planning](Financial-Management/tax-planning.md)
 
-### Health & Wellness
+### Lifestyle Hobbies
 **5 templates**
 
-- [Fitness Planning](Health & Wellness/fitness-planning.md)
-- [Medical Management](Health & Wellness/medical-management.md)
-- [Mental Health](Health & Wellness/mental-health.md)
-- [Nutrition Management](Health & Wellness/nutrition-management.md)
-- [Sleep Optimization](Health & Wellness/sleep-optimization.md)
-
-### Lifestyle & Hobbies
-**5 templates**
-
-- [Creative Hobbies](Lifestyle & Hobbies/creative-hobbies.md)
-- [Home Management](Lifestyle & Hobbies/home-management.md)
-- [Learning Projects](Lifestyle & Hobbies/learning-projects.md)
-- [Social Activities](Lifestyle & Hobbies/social-activities.md)
-- [Travel Planning](Lifestyle & Hobbies/travel-planning.md)
+- [Creative Hobbies](Lifestyle-Hobbies/creative-hobbies.md)
+- [Home Management](Lifestyle-Hobbies/home-management.md)
+- [Learning Projects](Lifestyle-Hobbies/learning-projects.md)
+- [Social Activities](Lifestyle-Hobbies/social-activities.md)
+- [Travel Planning](Lifestyle-Hobbies/travel-planning.md)
 
 ### Personal Development
+**5 templates**
+
+- [Career Planning](Personal-Development/career-planning.md)
+- [Goal Setting](Personal-Development/goal-setting.md)
+- [Habit Formation](Personal-Development/habit-formation.md)
+- [Skill Development](Personal-Development/skill-development.md)
+- [Time Management](Personal-Development/time-management.md)
+
+### General Templates
+
+
+**5 templates**
+**5 templates**
+**5 templates**
+**5 templates**
 **8 templates**
-
-- [Habit Tracking](Personal Development/Life Management/habit-tracking.md)
-- [Competency Assessment](Personal Development/Skill Building/competency-assessment.md)
-- [Learning Pathways](Personal Development/Skill Building/learning-pathways.md)
-- [Career Planning](Personal Development/career-planning.md)
-- [Goal Setting](Personal Development/goal-setting.md)
-- [Habit Formation](Personal Development/habit-formation.md)
-- [Skill Development](Personal Development/skill-development.md)
-- [Time Management](Personal Development/time-management.md)
-
-### development
 **2 templates**
-
-- [Career Strategy](development/Career Planning/career-strategy.md)
-- [Life Optimization Framework](development/life-optimization-framework.md)
-
 ## 🚀 Getting Started
 
 ### Choosing a Template

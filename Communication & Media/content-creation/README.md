@@ -4,7 +4,7 @@ Articles, videos, audio, multimedia content, and creative writing templates.
 
 ## 📊 Overview
 
-- **Total Templates**: 25
+- **Total Templates**: 20
 - **Subcategories**: 3
 - **Category**: `content-creation/`
 
