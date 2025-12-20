@@ -32,12 +32,6 @@ slug: analytics-documentation
 ## Purpose
 Design comprehensive data governance frameworks covering data lineage tracking, metadata management, data dictionaries, schema documentation automation, and governance workflows. This framework ensures data assets are discoverable, understood, trusted, and compliant across enterprise data platforms.
 
-## 🚀 Quick Start Prompt
-
-> Design a **data governance framework** for **[DATA PLATFORM]** covering **[SCOPE]** data assets. Implement: (1) **Metadata catalog**—technical and business metadata for all tables, columns, and pipelines; (2) **Data lineage**—source-to-target tracking at column level with transformation documentation; (3) **Data dictionary**—business glossary with terms, definitions, and ownership; (4) **Governance workflows**—access requests, quality stewardship, and change management. Deliver catalog structure, lineage visualization approach, dictionary template, and governance process designs.
-
----
-
 ## Template
 
 Design a comprehensive governance framework for {DATA_PLATFORM_CONTEXT}, documenting {ASSET_SCOPE} to achieve {GOVERNANCE_OBJECTIVES}.

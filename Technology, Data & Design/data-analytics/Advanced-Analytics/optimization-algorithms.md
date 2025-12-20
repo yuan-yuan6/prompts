@@ -31,14 +31,6 @@ slug: optimization-algorithms
 ## Purpose
 Solve optimization problems systematically using operations research techniques. This framework covers problem formulation, algorithm selection, solver configuration, solution validation, and production deployment for linear programming, integer programming, constraint optimization, and heuristic methods.
 
-## 🚀 Quick Start Prompt
-
-> Solve an **optimization problem** for **[BUSINESS OBJECTIVE]** with **[SCALE: variables/constraints]** using **[METHOD: LP/MIP/heuristic]**. Guide me through: (1) **Problem formulation**—what's the objective function, decision variables, and constraints? How to mathematically model the business problem? (2) **Algorithm selection**—should I use exact methods (simplex, branch-and-cut) or heuristics (genetic algorithms, simulated annealing)? What's the trade-off? (3) **Solver configuration**—which solver, what parameters, what optimality gap is acceptable? (4) **Validation**—how to verify feasibility, test sensitivity, and validate business impact? Provide the mathematical formulation, solver configuration, validation approach, and deployment plan.
-
-**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for rapid optimization problem solving.
-
----
-
 ## Template
 
 Develop an optimization solution for {PROBLEM_NAME} to {OBJECTIVE} with {SCALE_CONSTRAINTS}.

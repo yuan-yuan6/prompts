@@ -27,12 +27,6 @@ slug: mobile-development
 ## Purpose
 Develop production-ready mobile applications for iOS/Android with optimal performance (<2s launch, 60fps), comprehensive testing (80%+ coverage), security compliance (encryption, biometrics), and App Store Optimization achieving high organic download rates.
 
-## 🚀 Quick Mobile Development Prompt
-
-> Develop **[APP_TYPE]** for **[PLATFORMS]** (iOS/Android/both) using **[APPROACH]** (native/React Native/Flutter) serving **[USER_COUNT]** users. Stack: (1) **Frontend**—what framework (SwiftUI/Compose/RN), navigation pattern (tabs/stack), state management (Redux/Riverpod)? (2) **Backend**—what services (Firebase/custom API), database (SQLite/Realm), authentication (biometric/OAuth)? (3) **Performance**—what targets (cold start <2s, memory <150MB, battery <5%/hour), optimization strategies (lazy loading, caching)? (4) **Features**—what core capabilities (offline mode, push notifications, camera, payments), third-party SDKs? (5) **Distribution**—what ASO strategy (keywords, screenshots), monetization model (freemium/subscription), analytics tracking? Deliver native apps, store listings, monitoring setup, release pipeline.
-
----
-
 ## Template
 
 Develop {APP_TYPE} for {PLATFORMS} using {FRAMEWORK} serving {USER_COUNT} users with {PERFORMANCE_TARGET} performance targeting {LAUNCH_DATE} launch and {REVENUE_MODEL} monetization.

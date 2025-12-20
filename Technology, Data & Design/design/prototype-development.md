@@ -31,12 +31,6 @@ slug: prototype-development
 ## Purpose
 Create interactive prototypes simulating real product behavior enabling user testing, stakeholder validation, and development handoff through appropriate fidelity levels, realistic interactions, and structured testing scenarios.
 
-## 🚀 Quick Prototype Prompt
-
-> Build **[FIDELITY]** prototype for **[PRODUCT]** targeting **[USERS]** testing **[HYPOTHESIS]**. Focus flows: (1) **[PRIMARY_FLOW]**—what entry point, key steps, and success state? (2) **[SECONDARY_FLOW]**—what alternative path or edge case? (3) **Interactions**—what button states, transitions, form validation, and micro-interactions? (4) **Data simulation**—what realistic content, edge cases, and empty states? (5) **Testing scenarios**—what specific tasks will users complete to validate hypothesis? Deliver clickable prototype link, screen inventory with annotations, and test scenario guide.
-
----
-
 ## Template
 
 Build prototype for {PRODUCT} testing {HYPOTHESIS} with {USER_GROUP} across {KEY_FLOWS}.

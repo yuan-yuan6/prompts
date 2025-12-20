@@ -30,12 +30,6 @@ slug: wireframe-design
 ## Purpose
 Create wireframe designs and information architecture establishing structural foundation for digital products through navigation hierarchy, content organization, responsive layouts, and user flow documentation enabling validation before visual design investment.
 
-## 🚀 Quick Wireframe Prompt
-
-> Create **[FIDELITY]** wireframes for **[PRODUCT]** on **[PLATFORM]** targeting **[USERS]**. Design across: (1) **Information architecture**—what sitemap structure, navigation hierarchy, and content taxonomy? (2) **Layout system**—what grid (12-column?), breakpoints (mobile/tablet/desktop), and spacing patterns? (3) **Key screens**—what 5-7 screens covering primary user flows? (4) **Component structure**—what headers, forms, cards, modals defining patterns? (5) **Responsive behavior**—what content stacking, navigation adaptation, and touch targets for mobile? Deliver sitemap, annotated wireframes, user flows, and responsive specifications.
-
----
-
 ## Template
 
 Create wireframes for {PRODUCT} serving {USERS} accomplishing {PRIMARY_TASKS} across {PLATFORMS}.

@@ -29,12 +29,6 @@ slug: cybersecurity-compliance-management
 ## Purpose
 Establish comprehensive compliance program covering regulatory framework mapping, policy management, control implementation, risk assessment, evidence collection, audit preparation, and continuous monitoring achieving GDPR, HIPAA, SOC 2, PCI-DSS, ISO 27001, or multi-framework compliance.
 
-## 🚀 Quick Compliance Management Prompt
-
-> Build compliance program for **[FRAMEWORK]** (GDPR/HIPAA/SOC2/PCI-DSS/ISO27001). Scope: **[SYSTEMS]**, **[DATA_TYPES]**, **[JURISDICTIONS]**. Create: control mapping matrix to **[FRAMEWORK_REQUIREMENTS]**, policy framework (**[CATEGORIES]**), GRC tool **[PLATFORM]**, evidence automation, audit schedule **[FREQUENCY]**, governance **[COMMITTEE_STRUCTURE]**. Assign DPO/compliance officer. Timeline: **[MONTHS]** to certification/compliance. Budget: **[AMOUNT]**.
-
----
-
 ## Template
 
 Establish compliance program for {REGULATORY_FRAMEWORK} covering {COMPLIANCE_SCOPE} achieving {COMPLIANCE_OBJECTIVES} with {TIMELINE} timeline and {BUDGET} budget.

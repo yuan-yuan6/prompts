@@ -31,14 +31,6 @@ slug: statistical-experimentation
 ## Purpose
 Design and analyze experiments that drive data-driven decisions with statistical rigor. This framework covers A/B testing, multivariate testing, sample size calculation, randomization strategies, analysis methods, causal inference, and building organizational experimentation culture.
 
-## 🚀 Quick Start Prompt
-
-> Design an **A/B test** for **[FEATURE/CHANGE]** measuring **[PRIMARY METRIC]**. Users: **[SAMPLE SIZE]**. Duration: **[TIMELINE]**. Guide me through: (1) **Hypothesis and success criteria**—what's the expected effect and how will you decide? (2) **Sample size calculation**—what MDE is detectable with your traffic? (3) **Randomization strategy**—user-level, session-level, or cluster? How to handle edge cases? (4) **Analysis plan**—what statistical tests, how to handle multiple comparisons, what guardrail metrics? Provide the experiment design, power analysis, implementation checklist, and analysis framework.
-
-**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for rapid experiment design.
-
----
-
 ## Template
 
 Design an experiment for {EXPERIMENT_NAME} to test {HYPOTHESIS} measuring {SUCCESS_METRIC}.

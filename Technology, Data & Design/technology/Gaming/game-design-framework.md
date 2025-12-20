@@ -26,12 +26,6 @@ related_templates:
 ## Purpose
 Design complete video games from concept through post-launch support including core gameplay loop, progression systems, narrative design, level creation, economy balancing, monetization strategy, and live operations achieving target retention (D1 40%+, D7 20%+, D30 10%+) and revenue goals.
 
-## 🚀 Quick Game Design Prompt
-
-> Design **[GENRE]** game for **[PLATFORM]** (PC/console/mobile) targeting **[AUDIENCE]** (casual/core/competitive). Core loop: **[30-SECOND_ACTION]** repeated every session. Pillars: (1) **Core mechanic**—what primary player action (shoot/match/build), unique hook differentiating from competitors? (2) **Progression**—what unlock cadence (new feature every 30-60 minutes), XP curve (level up every 30 mins early, 1 hour endgame), difficulty ramp (easy entry, mastery at 10-20 hours)? (3) **Monetization**—what model (premium $20-60/F2P with 2-5% conversion/subscription $4.99/month), ARPU target ($5-50), ethical guidelines (no pay-to-win)? (4) **Retention**—what daily loops (login rewards, daily quests, events), social features (guilds, co-op, PvP), content cadence (updates every 2-4 weeks)? (5) **Metrics**—what KPIs (D1 retention 40%+, session length 15min+, tutorial completion 60%+, Metacritic 80+)? Deliver GDD, playable prototype, balance spreadsheet, monetization model, live ops roadmap.
-
----
-
 ## Template
 
 Design {GAME_TITLE} in {GENRE} for {PLATFORM} targeting {AUDIENCE} with {TEAM_SIZE} developers, {BUDGET} budget, {TIMELINE} development, achieving {RETENTION}% D7 retention and {REVENUE_TARGET} first year revenue.

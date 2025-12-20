@@ -32,12 +32,6 @@ slug: agile-transformation-readiness-assessment
 ## Purpose
 Assess organizational readiness to adopt agile methodologies (Scrum, Kanban, SAFe) across teams, evaluating maturity in practices, team structure, technical excellence, culture, leadership commitment, and governance—enabling effective transformation sequencing and risk mitigation.
 
-## 🚀 Quick Assessment Prompt
-
-> Assess **agile transformation readiness** for **[ORGANIZATION]** with **[TEAM_COUNT]** teams and **[EMPLOYEE_COUNT]** people planning to transition to **[TARGET_FRAMEWORK]**. Score maturity (1–5) across: (1) **Practice readiness** (current methodology, ceremony discipline, backlog management, sprint/Kanban execution), (2) **Team readiness** (structure, cross-functionality, co-location/collaboration, role clarity, empowerment), (3) **Technical readiness** (CI/CD maturity, test automation, code quality, deployment frequency, technical debt), (4) **Cultural readiness** (leadership commitment, psychological safety, fail-fast/learn culture, transparency, feedback loops), (5) **Talent readiness** (Scrum Masters/coaches, Product Owners, developer/eng skills, training investment), (6) **Governance readiness** (decision rights, portfolio alignment, scaling model, metrics framework). Provide a scorecard, top gaps, prioritized actions, and a 12–18 month transformation roadmap.
-
----
-
 ## Template
 
 Conduct an agile transformation readiness assessment for {ORGANIZATION} with {TEAM_COUNT} teams and approximately {EMPLOYEE_COUNT} employees, planning to adopt {TARGET_FRAMEWORK}.

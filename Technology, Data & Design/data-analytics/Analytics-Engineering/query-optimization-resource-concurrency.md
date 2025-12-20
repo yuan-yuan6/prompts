@@ -32,12 +32,6 @@ slug: query-optimization-resource-concurrency
 ## Purpose
 Optimize database resource utilization including memory and buffer pool management, storage I/O configuration, and concurrency control through lock analysis, deadlock prevention, and transaction isolation optimization. This framework maximizes throughput while minimizing contention in high-concurrency database environments.
 
-## 🚀 Quick Start Prompt
-
-> Optimize **resource utilization and concurrency** for **[DATABASE PLATFORM]** supporting **[WORKLOAD TYPE]**. Analyze: (1) **Memory management**—buffer pool hit ratios, memory pressure waits, cache efficiency; (2) **Storage I/O**—read/write latency, throughput bottlenecks, file configuration; (3) **Lock contention**—blocking chains, wait times, hot objects; (4) **Transaction isolation**—isolation level appropriateness, reader-writer conflicts. Deliver resource utilization baseline, blocking analysis, concurrency recommendations, and optimization implementation plan.
-
----
-
 ## Template
 
 Optimize database resources and concurrency for {DATABASE_CONTEXT}, supporting {WORKLOAD_REQUIREMENTS} to achieve {PERFORMANCE_OBJECTIVES}.

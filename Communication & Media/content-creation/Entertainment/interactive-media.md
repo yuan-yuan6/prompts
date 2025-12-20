@@ -31,14 +31,6 @@ slug: interactive-media
 ## Purpose
 Comprehensively assess an interactive media project's readiness for production across six dimensions: Creative Concept & Experience Design, Technical Platform & Infrastructure, Interaction Design & User Experience, Content Production & Assets, Implementation & Performance, and Deployment & Measurement. This framework identifies gaps, validates technical feasibility, and ensures production-ready specifications before development investment.
 
-## 🚀 Quick Assessment Prompt
-
-> Assess **interactive media readiness** for **[PROJECT_NAME]**, a **[INTERACTIVE_TYPE]** targeting **[TARGET_PLATFORM]**. Evaluate across: (1) **Creative concept**—is the core experience compelling, the emotional journey clear, the unique value defensible? Does it leverage the medium's strengths? (2) **Technical platform**—what hardware/software requirements exist? Is performance achievable? What are integration challenges? (3) **Interaction design**—are input methods intuitive, feedback loops satisfying, accessibility comprehensive? How's the onboarding? (4) **Content production**—what's the asset pipeline maturity (3D models, audio, animations)? Are production estimates realistic? (5) **Implementation readiness**—is the technical architecture sound? What's the team capability gap? How mature is QA strategy? (6) **Deployment & measurement**—what's the distribution plan, success metrics definition, analytics integration, and iteration strategy? Provide a maturity scorecard (1-5 per dimension), critical blockers, prioritized recommendations, and a production timeline with risk mitigation.
-
-**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for rapid interactive media evaluation.
-
----
-
 ## Template
 
 Conduct a comprehensive interactive media readiness assessment for {PROJECT_NAME}, a {INTERACTIVE_TYPE} targeting {TARGET_PLATFORM}.

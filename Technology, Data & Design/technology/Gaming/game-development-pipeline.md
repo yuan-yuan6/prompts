@@ -25,12 +25,6 @@ related_templates:
 ## Purpose
 Structure game development production from concept through post-launch support including milestone planning (prototype → vertical slice → alpha → beta → gold), asset creation pipelines, QA testing protocols, platform certification, and live operations achieving on-time delivery with quality targets.
 
-## 🚀 Quick Pipeline Prompt
-
-> Manage **[GAME_TITLE]** development with **[TEAM_SIZE]** team over **[TIMELINE]** months. Phases: pre-production **[30%]** → production **[50%]** → polish **[20%]**. Pipeline: (1) **Tools**—what version control (Git/Perforce), project management (Jira/Trello), CI/CD (Jenkins/TeamCity)? (2) **Milestones**—what prototype (core loop playable), vertical slice (15-30 min polished), alpha (60% content), beta (90% content), gold (ship)? (3) **Asset pipeline**—what modeling (Maya/Blender), texturing (Substance), audio (Wwise/FMOD), integration workflow? (4) **QA**—what daily smoke tests, weekly regression, monthly full passes, bug triage process? (5) **Certification**—what platform requirements (Sony TRC, Xbox XR, Nintendo Lotcheck), submission timeline? Deliver production schedule, asset standards, QA plan, certification checklist, post-launch roadmap.
-
----
-
 ## Template
 
 Manage {GAME_TITLE} development for {PLATFORM} with {TEAM_SIZE} team, {BUDGET} budget, {TIMELINE} timeline targeting {QUALITY_TARGET} review score and {LAUNCH_DATE} release.

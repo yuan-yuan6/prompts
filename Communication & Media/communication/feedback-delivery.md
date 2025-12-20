@@ -32,12 +32,6 @@ slug: feedback-delivery-readiness-assessment
 ## Purpose
 Assess readiness to deliver **timely, constructive, and growth-oriented feedback** that builds trust, improves performance, and accelerates development. Use this to diagnose gaps in feedback skills, culture, and systems.
 
-## 🚀 Quick Assessment Prompt
-
-> Assess **feedback delivery readiness** for {FEEDBACK_CONTEXT}. The feedback objectives are {OBJECTIVES}. Account for {CONSTRAINTS}. Score 1–5 across the six dimensions below and produce the required output (six deliverables).
-
----
-
 ## Template
 
 Conduct a feedback delivery & performance conversations readiness assessment for {FEEDBACK_CONTEXT}.

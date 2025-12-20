@@ -30,14 +30,6 @@ slug: underwriting-management-readiness-assessment
 ## Purpose
 Assess readiness to underwrite and price insurance profitably and consistently across six dimensions: Risk Appetite & Product Strategy, Data & Enrichment, Models & Pricing, Workflow & Automation, Portfolio Management & Controls, and Governance & Compliance. Identify gaps and produce an actionable underwriting improvement plan.
 
-## 🚀 Quick Assessment Prompt
-
-> Assess **underwriting readiness** for **[COMPANY]** underwriting **[PRODUCT_LINES]** with target **combined ratio [CR_TARGET]%**. Score 1–5 across: (1) **Risk appetite**—is the appetite defined (segments, hazards, limits) and translated into guidelines? (2) **Data**—do we have reliable internal/external data, enrichment, and quality controls? (3) **Models/pricing**—are rating models calibrated, monitored, and explainable (including overrides)? (4) **Workflow/automation**—is straight-through processing feasible with clear referral rules and authority levels? (5) **Portfolio controls**—are concentration limits, CAT exposure, reinsurance, and stress tests measured and enforced? (6) **Governance/compliance**—are filings, fairness/regulatory, and audit evidence managed? Provide a scorecard, top gaps, and a 90-day improvement checklist.
-
-**Usage:** Replace bracketed placeholders with your specifics.
-
----
-
 ## Template
 
 Conduct an underwriting readiness assessment for {COMPANY} underwriting {PRODUCT_LINES} targeting {CR_TARGET}% combined ratio.

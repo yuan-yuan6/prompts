@@ -32,12 +32,6 @@ slug: knowledge-base-readiness-assessment
 ## Purpose
 Assess readiness to deliver a **high-quality, searchable, and self-service knowledge base** that reduces support costs, accelerates onboarding, and empowers users. Use this to diagnose gaps in content, architecture, governance, and adoption.
 
-## 🚀 Quick Assessment Prompt
-
-> Assess **knowledge base readiness** for {KB_CONTEXT}. The intended outcomes are {OUTCOMES}. Account for {CONSTRAINTS}. Score 1–5 across the six dimensions below and produce the required output (six deliverables).
-
----
-
 ## Template
 
 Conduct a knowledge base readiness assessment for {KB_CONTEXT}.

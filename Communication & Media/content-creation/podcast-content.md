@@ -31,12 +31,6 @@ slug: podcast-content
 ## Purpose
 Create comprehensive podcast content strategies for interview, solo, and panel shows including episode scripting, guest management, audio production, show notes, audience building, and monetization to establish successful podcasting ventures with engaged listener communities.
 
-## 🚀 Quick Podcast Content Prompt
-
-> Create **{FORMAT}** (interview/solo/panel) podcast episode for **{SHOW_NAME}** in **{NICHE}**. Duration: **{30-90_MIN}**. Topic: **{EPISODE_TOPIC}**. Design opening hook (<30 sec grab), **{8-15_QUESTIONS}** for **{GUEST_TYPE}**, show notes with **{KEY_TAKEAWAYS}**, promotional clips for **{PLATFORMS}**, CTA for **{LISTENER_ACTION}**. Target: **{DOWNLOADS}** downloads, release **{SCHEDULE}**.
-
----
-
 ## Template
 
 Create {FORMAT_TYPE} podcast ({EPISODE_LENGTH} minutes) for {PODCAST_NAME} targeting {TARGET_AUDIENCE} ({AGE_RANGE}, {INTERESTS}, {LISTENING_HABITS}) achieving {DOWNLOAD_TARGET} downloads/episode, {ENGAGEMENT_RATE}% community engagement, {MONETIZATION_GOAL} monthly revenue.

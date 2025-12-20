@@ -33,14 +33,6 @@ slug: route-optimization-readiness-assessment
 ## Purpose
 Assess organizational readiness to implement advanced route optimization and vehicle routing problem (VRP) solutions across six dimensions: Data, Technology, Operations, Talent, Culture, and Governance. Identify capability gaps, prioritize investments, and create implementation roadmaps for delivery optimization.
 
-## 🚀 Quick Assessment Prompt
-
-> Assess **route optimization readiness** for **[ORGANIZATION]** planning to optimize **[DAILY_VOLUME]** daily deliveries across **[SERVICE_AREA]**. Evaluate across: (1) **Data readiness**—historical route data quality, stop-level granularity, time-stamped delivery records, traffic pattern data availability, customer time window data, and geocoding accuracy? (2) **Technology infrastructure**—routing software capabilities, GPS/telematics integration, real-time tracking systems, API connectivity, mobile driver apps, and cloud computing resources? (3) **Operational maturity**—current routing methodology (manual vs algorithmic), constraint handling sophistication, dynamic re-routing capabilities, exception management processes, and KPI tracking systems? (4) **Talent & skills**—operations research expertise, logistics analysts, algorithm configuration capabilities, and data science support? (5) **Organizational readiness**—operations team buy-in, driver adoption willingness, change management capability, and continuous improvement culture? (6) **Governance**—routing policy framework, service level agreements, compliance requirements, and performance accountability? Provide maturity scorecard (1-5 per dimension), gap analysis, prioritized recommendations, and 12-month implementation roadmap with expected ROI.
-
-**Usage:** Replace bracketed placeholders with specifics. Use as prompt to AI assistant for rapid route optimization readiness evaluation.
-
----
-
 ## Template
 
 Conduct comprehensive route optimization readiness assessment for {ORGANIZATION}, a {INDUSTRY} organization planning to optimize {DAILY_VOLUME} deliveries, {VEHICLE_COUNT} vehicles, {DRIVER_COUNT} drivers, across {SERVICE_AREA}.

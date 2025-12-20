@@ -31,14 +31,6 @@ slug: ai-data-strategy
 ## Purpose
 Design and implement comprehensive data strategies that support AI/ML initiatives—covering data collection, quality management, feature engineering infrastructure, and governance practices essential for building reliable AI systems.
 
-## 🚀 Quick Start Prompt
-
-> Design a **data strategy** for **[AI/ML PROJECT]** that requires **[DATA TYPES]** to power **[ML USE CASE]**. Guide me through: (1) **Data inventory**—what internal and external sources are needed, what's available vs missing, and how do we close gaps? (2) **Architecture**—what storage (lake/warehouse), feature store design (online vs offline), vector database needs, and pipeline orchestration? (3) **Quality framework**—what completeness, freshness, accuracy thresholds, and how to automate validation? (4) **Governance**—what access controls, PII handling, lineage tracking, and compliance requirements? Provide data architecture diagram, quality SLAs, and prioritized implementation roadmap.
-
-**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for AI data strategy guidance.
-
----
-
 ## Template
 
 Design a data strategy for {PROJECT_NAME} that powers {ML_USE_CASE} using {DATA_TYPES}.

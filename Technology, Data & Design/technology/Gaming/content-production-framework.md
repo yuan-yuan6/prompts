@@ -25,12 +25,6 @@ related_templates:
 ## Purpose
 Structure digital content production for creators and studios covering workflow optimization (script → shoot → edit → publish), platform-specific strategies (YouTube, Twitch, podcasts, TikTok), audience development (community building, engagement tactics), and monetization (ads, sponsorships, memberships, merchandise) achieving sustainable creator businesses.
 
-## 🚀 Quick Content Production Prompt
-
-> Create content strategy for **[PLATFORM]** (YouTube/Twitch/podcast) in **[NICHE]** targeting **[AUDIENCE_SIZE]** subscribers/followers. Production: (1) **Format**—what content type (tutorials/vlogs/streams/interviews), episode length (10-20 min optimal YouTube), release cadence (weekly consistency)? (2) **Workflow**—what production pipeline (script Mon, shoot Tue-Wed, edit Thu-Fri, publish Sat), equipment budget ($500 starter to $5K pro)? (3) **Distribution**—what primary platform, repurposing strategy (clips to Shorts/TikTok/Reels), cross-promotion? (4) **Monetization**—what revenue mix (ads 40%, sponsorships 40%, products 20%), CPM targets ($5-25), sponsorship rates ($50-500 per 1K views)? (5) **Growth**—what subscriber milestones (1K→4K watch hours→monetization), engagement targets (5-10% CTR, 50%+ retention)? Deliver content calendar, production SOPs, monetization roadmap, growth strategy.
-
----
-
 ## Template
 
 Produce {CONTENT_SERIES} in {FORMAT} for {PLATFORM} targeting {AUDIENCE_SIZE} audience with {PRODUCTION_BUDGET} budget, {RELEASE_CADENCE} schedule achieving {ENGAGEMENT_RATE}% engagement and {REVENUE_TARGET} monthly revenue.

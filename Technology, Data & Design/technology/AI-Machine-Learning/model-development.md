@@ -29,12 +29,6 @@ slug: model-development
 ## Purpose
 End-to-end machine learning model development framework covering architecture selection, training strategies, evaluation methods, deployment patterns, and MLOps practices achieving production-grade reliability with sub-100ms latency and continuous improvement capabilities.
 
-## 🚀 Quick Model Development Prompt
-
-> Develop **[MODEL_TYPE]** for **[USE_CASE]** targeting **[METRIC]** (accuracy 95%+/F1 0.85+/RMSE <X). Framework: **[PYTORCH/TENSORFLOW/SKLEARN]**. Data: **[VOLUME]** samples, **[FEATURES]** features. Training: **[INFRA]** (GPU/CPU), **[CV_STRATEGY]** validation. MLOps: **[TRACKING_TOOL]** experiments, **[REGISTRY]** model registry, **[CICD]** deployment. Monitoring: **[DRIFT_DETECTION]**, **[ALERTING]**. Latency: **[P99_MS]**ms p99. Timeline: **[WEEKS]** weeks POC to production.
-
----
-
 ## Template
 
 Develop {MODEL_TYPE} for {USE_CASE} achieving {SUCCESS_METRIC} with {LATENCY_REQUIREMENT} latency using {FRAMEWORK} on {INFRASTRUCTURE}.

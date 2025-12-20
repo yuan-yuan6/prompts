@@ -33,12 +33,6 @@ slug: text-analytics-advanced-methods
 ## Purpose
 Conduct advanced text analytics including document clustering, similarity analysis, text summarization, readability assessment, and keyword extraction. Generate comprehensive reports with visualizations, statistical analysis, and actionable insights to support decision-making.
 
-## 🚀 Quick Start Prompt
-
-> Perform **advanced text analytics** on **[DOCUMENT CORPUS]** to deliver **[ANALYSIS GOALS]**. Cover: (1) **Clustering**—group documents into thematic clusters, identify cluster characteristics, extract representative samples; (2) **Similarity**—detect duplicates and near-duplicates, build similarity networks; (3) **Summarization**—generate extractive summaries per cluster; (4) **Readability**—assess complexity and reading levels; (5) **Keywords**—extract top terms and phrases. Visualize with t-SNE/UMAP scatter plots, word clouds, and heatmaps. Deliver insights dashboard with actionable recommendations.
-
----
-
 ## Template
 
 Conduct advanced text analytics on {TEXT_CORPUS}, focusing on {ANALYSIS_OBJECTIVES} to support {BUSINESS_CONTEXT}.

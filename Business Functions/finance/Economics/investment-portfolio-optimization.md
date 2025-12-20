@@ -29,14 +29,6 @@ slug: investment-portfolio-optimization-readiness-assessment
 ## Purpose
 Assess readiness to optimize an investment portfolio across six dimensions: Objectives & Constraints, Investable Universe & Data, Portfolio Construction Model, Risk Management & Stress Testing, Implementation & Trading, and Monitoring & Governance. Identify gaps and produce an actionable optimization package.
 
-## 🚀 Quick Assessment Prompt
-
-> Assess **portfolio optimization readiness** for **[INVESTOR/ORGANIZATION]** managing **$[PORTFOLIO_VALUE]** with **[TIME_HORIZON]** and **[RISK_TOLERANCE]**. Score 1–5 across: (1) **Objectives/constraints**—are return goals, drawdown limits, liquidity needs, and constraints explicit and consistent? (2) **Universe/data**—is the investable universe defined and do we have reliable prices, returns, factor data, and benchmarks? (3) **Model**—is the optimization method chosen (mean-variance/Black–Litterman/factor/risk parity) with assumptions validated? (4) **Risk/stress**—are scenario tests, concentration limits, and tail risk controls defined and measured? (5) **Implementation**—are transaction costs, taxes, trading capacity, and rebalancing rules practical? (6) **Governance/monitoring**—are decision rights, cadence, and performance attribution in place? Provide a scorecard, top gaps, and a “ready-to-optimize” checklist.
-
-**Usage:** Replace bracketed placeholders with your specifics.
-
----
-
 ## Template
 
 Conduct a portfolio optimization readiness assessment for {INVESTOR_OR_ORGANIZATION} managing {PORTFOLIO_VALUE} over {TIME_HORIZON}.

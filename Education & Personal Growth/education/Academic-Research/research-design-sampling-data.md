@@ -32,14 +32,6 @@ slug: research-design-sampling-data
 ## Purpose
 Comprehensively assess readiness to recruit participants and collect defensible data across six dimensions: Population & Eligibility Clarity, Sampling Strategy & Adequacy, Recruitment & Retention Feasibility, Instrument & Measurement Fit, Data Collection Operations & Quality Control, and Data Management & Security. This framework helps you reduce avoidable bias, improve data quality, and prevent fieldwork failures.
 
-## 🚀 Quick Assessment Prompt
-
-> Assess **sampling and data collection readiness** for **{STUDY_CONTEXT}** using **{SAMPLING_APPROACH}** and collecting data via **{DATA_COLLECTION_PLAN}**. Evaluate across: (1) **Population & eligibility**—are inclusion/exclusion rules and the sampling frame explicit and testable? (2) **Sampling adequacy**—is the sample size (power/saturation) defensible and aligned to the inference goal? (3) **Recruitment feasibility**—are channels, incentives, and timeline realistic, with retention strategies? (4) **Measurement fit**—are instruments valid/reliable and feasible for the setting and population? (5) **Operations & QC**—are SOPs, training, pilots, and quality checks defined? (6) **Data management**—are privacy, storage, access control, backups, and versioning operational? Provide 1–5 scores, top risks, and a launch checklist.
-
-**Usage:** Replace the curly-brace placeholders with your specifics. Use as a prompt to an AI assistant for rapid readiness evaluation.
-
----
-
 ## Template
 
 Conduct a comprehensive sampling and data collection readiness assessment for {STUDY_CONTEXT} using {SAMPLING_APPROACH} and executing {DATA_COLLECTION_PLAN}.

@@ -39,14 +39,6 @@ slug: contract-drafting-readiness-assessment-01-structure-core
 ## Purpose
 Assess readiness to produce a clear, enforceable contract foundation (structure and core clauses) across six dimensions: Deal Context & Intent, Parties & Authority, Definitions & Interpretation, Core Commercial Terms, Core IP/Confidentiality/Data Terms, and Document Architecture. Identify gaps, prioritize fixes, and produce a drafting checklist and workflow.
 
-## 🚀 Quick Assessment Prompt
-
-> Assess **contract drafting readiness (structure & core clauses)** for **[ORGANIZATION]** drafting a **[CONTRACT_TYPE]** under **[JURISDICTION]**. Evaluate across: (1) **Deal context**—are objectives, scope boundaries, and success criteria clear enough to draft precisely? (2) **Parties & authority**—are legal entities, signatories, and affiliates correctly identified and authorized? (3) **Definitions & interpretation**—are key terms unambiguous and consistently used across schedules/SOWs? (4) **Core commercial terms**—are scope, deliverables, fees, payment, and acceptance clear and testable? (5) **Core IP/confidentiality/data**—are baseline confidentiality and IP allocations clear enough to avoid rework later? (6) **Document architecture**—are schedules/exhibits referenced correctly, prioritized, and version-controlled? Provide a 1–5 scorecard, top gaps, and a drafting workflow/checklist.
-
-**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for rapid contract-structure readiness evaluation.
-
----
-
 ## Template
 
 Conduct a contract drafting readiness assessment for {ORGANIZATION} drafting a {CONTRACT_TYPE} under {JURISDICTION}.

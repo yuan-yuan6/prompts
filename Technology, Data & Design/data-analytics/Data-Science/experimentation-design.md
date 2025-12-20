@@ -30,14 +30,6 @@ slug: experimentation-design
 ## Purpose
 Design and execute rigorous controlled experiments to make data-driven decisions. This framework covers hypothesis formulation, statistical design, sample size calculation, experiment execution, analysis, and decision-making for A/B tests, multivariate tests, and other controlled experiments.
 
-## 🚀 Quick Start Prompt
-
-> Design an **A/B test** for **[FEATURE/CHANGE]** targeting **[PRIMARY METRIC]**. Calculate sample size for **[X]% minimum detectable effect** at **95% confidence** and **80% power**. Define: (1) **Hypothesis**—what change, expected impact, and success criteria? (2) **Design**—control vs variant, randomization unit, test duration? (3) **Metrics**—primary, secondary, and guardrails? (4) **Analysis plan**—statistical tests, segmentation, decision rules? Provide the experiment design document, sample size calculation, and launch checklist.
-
-**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for rapid experiment design.
-
----
-
 ## Template
 
 Design an A/B test for {CHANGE_DESCRIPTION} measuring impact on {PRIMARY_METRIC} with {MINIMUM_DETECTABLE_EFFECT} sensitivity.

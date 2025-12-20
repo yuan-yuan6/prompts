@@ -31,14 +31,6 @@ slug: conflict-resolution-readiness-assessment
 ## Purpose
 Assess readiness to resolve conflicts constructively across six dimensions: Emotional Readiness, Understanding & Empathy, Communication Skills, Problem-Solving Approach, Relationship Context, and Process Management. This framework identifies preparation gaps, prioritizes skill development, and creates effective conflict resolution strategies.
 
-## 🚀 Quick Assessment Prompt
-
-> Assess **conflict resolution readiness** for **{CONFLICT_CONTEXT}** involving **{PARTIES}** around **{ISSUE}**. Evaluate across: (1) **Emotional readiness**—am I calm enough? Are emotions managed? What's my emotional trigger level? (2) **Understanding**—do I grasp the other perspective? Have I checked assumptions? What are their underlying needs? (3) **Communication skills**—can I use "I" statements effectively? Active listening capability? De-escalation techniques? (4) **Problem-solving**—am I seeking solutions vs being right? Can I generate win-win options? (5) **Relationship context**—what's the relationship history? What's at stake? What's the power dynamic? (6) **Process management**—is timing right? Do I have a conversation plan? How will follow-up work? Provide a readiness scorecard (1-5 per dimension), approach recommendations, conversation script, and success strategies.
-
-**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for rapid conflict resolution readiness evaluation.
-
----
-
 ## Template
 
 Assess conflict resolution readiness for {CONFLICT_CONTEXT} involving {PARTIES} addressing {ISSUE}.

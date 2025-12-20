@@ -33,12 +33,6 @@ slug: text-analytics-sentiment-analysis
 ## Purpose
 Conduct comprehensive sentiment analysis using multiple methods including rule-based (VADER, TextBlob), machine learning, and transformer-based deep learning models. Analyze overall sentiment, aspect-level opinions, emotions, and sentiment trends over time to extract actionable insights from text data.
 
-## 🚀 Quick Start Prompt
-
-> Analyze **sentiment** in **[TEXT DATA]** to understand **[ANALYSIS GOALS]**. Cover: (1) **Overall sentiment**—classify as positive/neutral/negative using multiple models (VADER for speed, transformers for accuracy); (2) **Aspect-based sentiment**—analyze opinions about specific attributes like quality, price, service; (3) **Emotion detection**—identify emotions beyond polarity (joy, anger, frustration, surprise); (4) **Temporal trends**—track sentiment changes over time. Deliver sentiment distribution, aspect scores with example quotes, emotion breakdown, trend visualization, and actionable recommendations.
-
----
-
 ## Template
 
 Conduct comprehensive sentiment analysis on {TEXT_DATA_DESCRIPTION}, focusing on {ANALYSIS_OBJECTIVES} to support {BUSINESS_CONTEXT}.

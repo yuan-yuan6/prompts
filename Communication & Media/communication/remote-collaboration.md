@@ -31,12 +31,6 @@ slug: remote-collaboration-readiness-assessment
 ## Purpose
 Assess readiness to enable **effective remote collaboration** that maintains productivity, fosters connection, and manages complexity across distance and time zones. Use this to diagnose gaps in tools, workflows, communication norms, and team culture.
 
-## 🚀 Quick Assessment Prompt
-
-> Assess **remote collaboration readiness** for {REMOTE_CONTEXT}. The remote work objectives are {OBJECTIVES}. Account for {CONSTRAINTS}. Score 1–5 across the six dimensions below and produce the required output (six deliverables).
-
----
-
 ## Template
 
 Conduct a remote collaboration & distributed team readiness assessment for {REMOTE_CONTEXT}.

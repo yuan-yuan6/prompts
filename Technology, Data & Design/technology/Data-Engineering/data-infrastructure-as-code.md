@@ -29,12 +29,6 @@ slug: data-infrastructure-as-code
 ## Purpose
 Design and implement infrastructure as code for data platforms covering data lakes, warehouses, streaming infrastructure, and compute clusters achieving reproducible, compliant, cost-optimized data infrastructure with self-service capabilities.
 
-## 🚀 Quick Data IaC Prompt
-
-> Provision data infrastructure on **[AWS/GCP/AZURE]** using **[TERRAFORM/PULUMI]**. Data lake: **[S3/GCS/ADLS]** with **[ZONES]** zones. Warehouse: **[SNOWFLAKE/BIGQUERY/REDSHIFT]** at **[SIZE]** scale. Streaming: **[KAFKA/KINESIS]** for **[THROUGHPUT]** events/sec. Compute: **[SPARK/DATABRICKS]** with **[NODES]** nodes. Networking: VPC with **[CONNECTIVITY]**. Security: **[ENCRYPTION/IAM/COMPLIANCE]**. CI/CD: validate → plan → apply with **[STATE_BACKEND]**.
-
----
-
 ## Template
 
 Provision data platform infrastructure on {CLOUD_PROVIDER} using {IAC_TOOL} supporting {DATA_VOLUME} daily data with {COMPLIANCE_REQUIREMENTS} compliance and {BUDGET} monthly budget.

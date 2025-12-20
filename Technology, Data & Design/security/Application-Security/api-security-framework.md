@@ -27,12 +27,6 @@ slug: api-security-framework
 ## Purpose
 Secure APIs (REST, GraphQL, gRPC, SOAP) implementing authentication/authorization (OAuth 2.0, JWT, mTLS), rate limiting, input validation, encryption preventing OWASP API Top 10 vulnerabilities achieving secure-by-design APIs.
 
-## 🚀 Quick API Security Prompt
-
-> Secure **[API_TYPE]** (REST/GraphQL/gRPC) with **[ENDPOINTS]** endpoints. Auth: **[OAUTH2/JWT/MTLS]**, rate limiting **[LIMIT]**, input validation, TLS 1.3. Protect OWASP API Top 10: BOLA, broken auth, excessive data exposure, injection. Gateway: **[KONG/APIGEE/AWS]**. Testing: **[OWASP_ZAP/BURP]**. Compliance: **[PCI/HIPAA/GDPR]**.
-
----
-
 ## Template
 
 Secure {API_TYPE} API with {ENDPOINT_COUNT} endpoints handling {DATA_SENSITIVITY} data achieving {COMPLIANCE_REQUIREMENTS} compliance with {TRAFFIC_VOLUME} request load.

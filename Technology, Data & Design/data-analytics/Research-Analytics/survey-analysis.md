@@ -32,12 +32,6 @@ slug: survey-analysis
 ## Purpose
 Design, implement, and analyze comprehensive surveys with proper sampling methodologies, questionnaire development, response analysis, and statistical validation to ensure reliable and valid research findings.
 
-## 🚀 Quick Start Prompt
-
-> Design and analyze a **survey** for **[RESEARCH PURPOSE]** targeting **[POPULATION]**. Cover: (1) **Sampling**—calculate sample size for desired margin of error and confidence level, select appropriate sampling method; (2) **Questionnaire**—develop validated scales, optimize question order, plan skip logic; (3) **Data collection**—choose survey mode, plan response rate optimization, implement quality controls; (4) **Analysis**—clean data, calculate weights, test hypotheses, assess reliability. Deliver sample size justification, response rate analysis, descriptive statistics, and actionable insights.
-
----
-
 ## Template
 
 Conduct a comprehensive survey analysis for {SURVEY_DESCRIPTION}, investigating {RESEARCH_QUESTIONS} with the goal of informing {DECISION_CONTEXT}.

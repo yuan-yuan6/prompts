@@ -29,12 +29,6 @@ slug: algorithm-selection
 ## Purpose
 Systematic framework for selecting optimal machine learning algorithms based on problem type, data characteristics, performance requirements, and production constraints achieving best accuracy-efficiency tradeoff for specific business objectives.
 
-## 🚀 Quick Algorithm Selection Prompt
-
-> Select algorithm for **[PROBLEM_TYPE]** (classification/regression/clustering/ranking) with **[ROWS]** samples, **[FEATURES]** features, **[MISSING]**% missing data. Priority: **[ACCURACY/LATENCY/INTERPRETABILITY]**. Constraints: training **[HOURS]** hours max, inference **[MS]**ms p99, memory **[GB]**GB. Compare **[3-5]** candidates using **[CV_STRATEGY]**. Metrics: **[PRIMARY_METRIC]**, **[SECONDARY_METRICS]**. Recommend best model with hyperparameter ranges.
-
----
-
 ## Template
 
 Select optimal algorithm for {PROBLEM_TYPE} on {DATASET_DESCRIPTION} achieving {SUCCESS_METRIC} with {LATENCY_CONSTRAINT} inference latency and {INTERPRETABILITY_LEVEL} interpretability.

@@ -30,14 +30,6 @@ slug: trend-analysis
 ## Purpose
 Comprehensively assess trend analysis and forecasting capabilities across six dimensions: Data Foundation, Pattern Recognition, Forecasting Methods, Anomaly Detection, Model Validation, and Business Integration. This framework identifies methodology gaps, evaluates predictive accuracy, and creates roadmaps for analytics maturity.
 
-## 🚀 Quick Assessment Prompt
-
-> Assess **forecasting readiness** for **[ORGANIZATION]** analyzing **[METRICS/KPIs]** over **[TIME HORIZON]**. Evaluate across: (1) **Data foundation**—is historical data complete, clean, and sufficient for pattern detection? What's the data quality and refresh frequency? (2) **Pattern recognition**—can you identify trends, seasonality, and cycles? Are structural breaks detected? (3) **Forecasting methods**—what techniques are used (moving averages, exponential smoothing, ARIMA, ML)? Are they appropriate for data characteristics? (4) **Anomaly detection**—can you identify outliers, level shifts, and unexpected patterns? Are alerts configured? (5) **Model validation**—how is forecast accuracy measured? What error metrics and backtesting exist? Provide a maturity scorecard (1-5 per dimension), gap analysis, method recommendations, and 90-day capability roadmap.
-
-**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for rapid forecasting capability evaluation.
-
----
-
 ## Template
 
 Conduct a comprehensive trend analysis and forecasting assessment for {ORGANIZATION_CONTEXT}, analyzing {FORECASTING_SCOPE} to support {BUSINESS_DECISIONS}.

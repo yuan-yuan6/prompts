@@ -30,15 +30,6 @@ slug: ai-use-case-identification
 ## Purpose
 Systematically identify, evaluate, and prioritize AI use cases that deliver meaningful business value. This framework helps organizations move from "AI for AI's sake" to strategic AI investments with clear ROI and feasibility assessments.
 
-## 🚀 Quick Discovery Prompt
-
-> Identify and prioritize **AI use cases** for **[ORGANIZATION/DEPARTMENT]** in **[INDUSTRY]**. Analyze: (1) **Discovery**—what are the top pain points and processes with high volume, repetitive tasks, or decision complexity? Where is data already being collected? (2) **Value assessment**—for each use case, what's the quantifiable cost savings, revenue impact, and strategic value? What's the realistic ROI timeline? (3) **Feasibility scoring**—what's the data readiness, technical complexity, and organizational appetite? Are there proven AI patterns for this problem? (4) **Prioritization**—using a value vs. feasibility matrix, which use cases are quick wins, strategic bets, or deferrals? Provide a ranked portfolio with scoring rationale, resource estimates, and a phased implementation roadmap.
-
-**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for rapid AI opportunity assessment.
-
----
-
-
 ## Template
 
 Conduct AI use case identification and prioritization for {ORGANIZATION}, a {INDUSTRY} organization seeking to build an AI portfolio.

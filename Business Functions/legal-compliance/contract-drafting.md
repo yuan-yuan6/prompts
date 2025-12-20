@@ -35,14 +35,6 @@ slug: contract-drafting-readiness-assessment
 ## Purpose
 Assess readiness to draft a contract across six dimensions: Deal Context & Scope, Parties & Authority, Commercial Terms, Risk Allocation, Compliance & Regulatory, and Execution & Lifecycle. Identify gaps and produce a drafting package that reduces negotiation churn.
 
-## 🚀 Quick Assessment Prompt
-
-> Assess **contract drafting readiness** for **[CONTRACT_TYPE]** between **[PARTY_A]** and **[PARTY_B]** for **[PURPOSE]** under **[GOVERNING_LAW]**. Score 1–5 across: (1) **Scope**—are deliverables, acceptance criteria, and assumptions clear? (2) **Parties/authority**—are legal entities and signatory authority confirmed? (3) **Commercial terms**—are price, payment, SLAs, and term defined? (4) **Risk allocation**—are liability caps, indemnities, warranties, and IP positions aligned to risk tolerance? (5) **Compliance**—are privacy/security, export, sector rules, and third-party obligations captured? (6) **Execution/lifecycle**—are exhibits, approvals, signatures, change control, and notices defined? Provide a scorecard, top gaps, and a “ready-to-draft” checklist.
-
-**Usage:** Replace bracketed placeholders with your specifics.
-
----
-
 ## Template
 
 Conduct a contract drafting readiness assessment for {CONTRACT_TYPE} between {PARTY_A} and {PARTY_B} under {GOVERNING_LAW}.

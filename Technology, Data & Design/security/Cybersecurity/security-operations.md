@@ -29,12 +29,6 @@ slug: security-operations
 ## Purpose
 Design comprehensive cybersecurity operations covering SOC capabilities, threat detection and response, vulnerability management, identity and access management, incident handling, security governance, and organizational cyber resilience achieving compliance and risk reduction.
 
-## 🚀 Quick SecOps Prompt
-
-> Design security operations for **[ORGANIZATION]** protecting **[ENDPOINTS]** endpoints, **[SERVERS]** servers, **[CLOUD]** workloads. Build: SOC **[24X7/BUSINESS_HOURS]** with **[SIEM]** + **[EDR]** + **[SOAR]**, threat detection **[USE_CASES]**, vulnerability management **[SLAS]**, incident response **[PLAYBOOKS]**. Target: MTTD **[<24H]**, MTTR **[<4H]**. Compliance: **[ISO27001/SOC2/PCI/HIPAA]**. Deliverables: architecture, tool stack, runbooks, metrics.
-
----
-
 ## Template
 
 Design cybersecurity operations for {ORGANIZATION} protecting {ASSET_COUNT} assets and {USER_COUNT} users achieving {MATURITY_TARGET} maturity level with {COMPLIANCE_REQUIREMENTS} compliance.

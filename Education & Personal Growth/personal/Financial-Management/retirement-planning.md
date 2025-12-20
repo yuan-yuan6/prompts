@@ -23,12 +23,6 @@ slug: retirement-planning-readiness-assessment
 ## Purpose
 Assess readiness to plan for retirement across six dimensions: goal clarity, savings/cashflow, account strategy, risk/investments, assumptions/estimates, and review discipline.
 
-## 🚀 Quick Assessment Prompt
-
-> Assess **retirement planning readiness** for **{PROFILE}** with goals **{RETIREMENT_GOALS}** and constraints **{CONSTRAINTS}**. Score each dimension **1–5**, justify, and produce a roadmap with next actions, a contribution strategy, and success metrics.
-
----
-
 ## Template
 
 Conduct a retirement planning readiness assessment for {PROFILE} with goals {RETIREMENT_GOALS} and constraints {CONSTRAINTS}.

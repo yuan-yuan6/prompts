@@ -32,14 +32,6 @@ slug: ai-strategy-roadmap
 ## Purpose
 Develop a comprehensive AI strategy that articulates the vision, strategic pillars, investment priorities, and multi-year roadmap for AI adoption across the organization—translating AI potential into business value.
 
-## 🚀 Quick Strategy Prompt
-
-> Develop an **AI strategy roadmap** for **[ORGANIZATION]** in **[INDUSTRY]** with **[REVENUE/SIZE]** and **[CURRENT AI MATURITY: nascent/developing/advanced]**. Analyze: (1) **Vision & objectives**—what's the 3-5 year AI vision aligned with business strategy? What are the primary value drivers (efficiency, growth, innovation, risk)? (2) **Strategic pillars**—what are 3-5 focus areas (customer experience, operations, products, decision-making)? How do these map to competitive advantage? (3) **Capability requirements**—what investments in data infrastructure, talent, platforms, and governance are needed? (4) **Roadmap & investment**—what's the phased approach across horizons (foundation, scale, transform)? What's the budget envelope and expected ROI? Provide an executive-ready strategy document with vision statement, pillar definitions, capability roadmap, and investment framework.
-
-**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for strategic AI planning guidance.
-
----
-
 ## Quick Start
 
 ### Minimal Example

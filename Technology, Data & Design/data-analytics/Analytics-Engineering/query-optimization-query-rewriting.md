@@ -31,12 +31,6 @@ slug: query-optimization-query-rewriting
 ## Purpose
 Optimize SQL query performance through strategic rewriting techniques that transform inefficient patterns into performant alternatives. This framework covers subquery elimination, JOIN optimization, window function usage, CTE patterns, and judicious query hint application while preserving query semantics.
 
-## 🚀 Quick Start Prompt
-
-> Optimize **SQL query performance** for **[DATABASE PLATFORM]** by rewriting **[QUERY TYPE]**. Analyze: (1) **Subquery patterns**—convert IN to EXISTS or JOINs, eliminate correlated subqueries; (2) **JOIN optimization**—order by selectivity, choose appropriate join types; (3) **Set operations**—use UNION ALL over UNION, optimize DISTINCT placement; (4) **Advanced patterns**—apply window functions, CTEs for readability and performance. Deliver original and optimized queries, execution plan comparisons, performance metrics, and rewriting rationale.
-
----
-
 ## Template
 
 Optimize SQL queries for {DATABASE_CONTEXT}, addressing {QUERY_CHALLENGES} to achieve {PERFORMANCE_OBJECTIVES}.

@@ -33,14 +33,6 @@ slug: thought-leadership-readiness-assessment
 ## Purpose
 Assess readiness to build credible thought leadership across six dimensions: positioning, audience clarity, content system, proof/credibility, distribution, and sustainability. This framework identifies gaps and produces a 90-day execution plan.
 
-## 🚀 Quick Assessment Prompt
-
-> Assess **thought leadership readiness** for **{EXPERT_PROFILE}** aiming to achieve **{OUTCOMES}** within **{CONSTRAINTS}**. Score each dimension **1–5**, justify scores, and provide a 90-day plan that includes content pillars, distribution channels, credibility-building moves, and success metrics.
-
-**Usage:** Replace the variables and run as a single prompt.
-
----
-
 ## Template
 
 Conduct a thought leadership readiness assessment for {EXPERT_PROFILE} aiming to achieve {OUTCOMES} within {CONSTRAINTS}.

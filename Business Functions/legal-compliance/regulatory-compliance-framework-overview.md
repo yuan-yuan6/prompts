@@ -39,14 +39,6 @@ Use this overview to pick the right compliance readiness assessment and run them
 - **Part 2: Risk Management & Monitoring** - Risk taxonomy, monitoring/surveillance, KRIs/alerts, regulatory change management, training effectiveness, escalation.
 - **Part 3: Implementation & Reporting** - Audits/testing, issues & CAPA, regulator engagement, dashboards/metrics, program delivery governance, continuous improvement.
 
-## 🚀 Quick Assessment Prompt
-
-> For **[ORGANIZATION]** in **[INDUSTRY]** operating across **[JURISDICTIONS]** under **[CORE_REGULATIONS]**, choose the best starting assessment: (1) If governance, ownership, policy control, and evidence are unclear, start with **Part 1**. (2) If governance exists but monitoring, investigations, KRIs, and regulatory change handling are inconsistent, start with **Part 2**. (3) If monitoring exists but audit/CAPA discipline, exam readiness, and performance reporting are weak, start with **Part 3**. Provide: the chosen starting part, a sequenced order for the remaining parts, and the minimum inputs needed (org chart/committees, policy inventory, risk register, monitoring coverage, audit/CAPA log).
-
-**Usage:** Replace bracketed placeholders with your specifics.
-
----
-
 ## Template
 
 Use this decision guide for {ORGANIZATION}:

@@ -30,12 +30,6 @@ slug: literature-review-extraction-synthesis
 ## Purpose
 Assess whether a literature review team is ready to perform high-quality data extraction and defensible evidence synthesis (quantitative, qualitative, or mixed-methods). This framework helps you ensure that what you extract is consistent, what you synthesize is methodologically appropriate, and what you report is reproducible and decision-useful.
 
-## 🚀 Quick Assessment Prompt
-
-> Assess **extraction & synthesis readiness** for **{REVIEW_CONTEXT}** using **{STUDY_SET}** and a planned approach of **{SYNTHESIS_APPROACH}**. Evaluate: (1) extraction scope and variable definitions, (2) quality control and discrepancy handling, (3) quantitative synthesis readiness (effect sizes, heterogeneity, sensitivity), (4) qualitative synthesis readiness (coding method, rigor), (5) mixed-method integration and presentation readiness, and (6) tooling, documentation, and reproducibility readiness. Provide a scorecard (1–5), top risks, a minimum viable extraction form, and a step-by-step plan from pilot extraction to final synthesis artifacts.
-
----
-
 ## Template
 
 Conduct a data extraction and synthesis readiness assessment for {REVIEW_CONTEXT} using {STUDY_SET} and {SYNTHESIS_APPROACH}.

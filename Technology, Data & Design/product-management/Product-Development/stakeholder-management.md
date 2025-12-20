@@ -32,14 +32,6 @@ slug: stakeholder-management-readiness-assessment
 ## Purpose
 Comprehensively assess a product team's capability to build effective stakeholder relationships, align diverse groups on product direction, communicate decisions clearly, navigate conflicts constructively, and drive successful product outcomes through cross-functional influence. This framework evaluates maturity across Stakeholder Mapping & Understanding, Communication & Transparency, Influence & Persuasion, Conflict Resolution, Trust & Credibility, and Organizational Alignment, identifying gaps that undermine product success and providing actionable roadmaps for building stakeholder management excellence.
 
-## 🚀 Quick Assessment Prompt
-
-> Assess **stakeholder management readiness** for **{PRODUCT_TEAM}** managing **{STAKEHOLDER_LANDSCAPE}** facing **{KEY_CHALLENGES}**. Evaluate across: (1) **Stakeholder understanding**—do you know who your stakeholders are, their interests, influence levels, and concerns? Is there a systematic stakeholder map? (2) **Communication effectiveness**—how do you keep stakeholders informed? Is communication proactive or reactive? Do stakeholders feel heard? (3) **Influence & persuasion**—can you get buy-in for product decisions? Do you use data and frameworks? How do you navigate executive dynamics? (4) **Conflict resolution**—how do you handle competing priorities or stakeholder disagreements? Do conflicts escalate or get resolved constructively? (5) **Trust & credibility**—do stakeholders trust the product team? Do you deliver on commitments? Are you transparent about tradeoffs? (6) **Organizational alignment**—are stakeholders aligned on product vision and roadmap? How smooth are approvals and decisions? Provide a maturity scorecard (1-5 per dimension), critical relationship gaps, prioritized improvements, and stakeholder engagement plan.
-
-**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for rapid stakeholder management evaluation.
-
----
-
 ## Template
 
 Conduct a comprehensive stakeholder management readiness assessment for {PRODUCT_TEAM}, managing {STAKEHOLDER_LANDSCAPE} and facing {KEY_CHALLENGES}.

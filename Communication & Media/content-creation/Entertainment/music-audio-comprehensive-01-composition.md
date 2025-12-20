@@ -33,14 +33,6 @@ Comprehensively assess a music composition project's readiness for production ac
 
 **Note:** This is Part 1 of a 3-part music production series. Part 2 covers Production & Recording, Part 3 covers Mixing & Mastering.
 
-## 🚀 Quick Assessment Prompt
-
-> Assess **composition readiness** for **[PROJECT_TITLE]**, a **[GENRE_STYLE]** project targeting **[TARGET_AUDIENCE]**. Evaluate across: (1) **Creative vision**—is the artistic concept clear, emotional goals defined, unique sonic identity defensible? What's the message or story? (2) **Musical foundation**—how developed are harmonic progressions, melodic motifs, rhythmic foundations? Is music theory applied effectively? (3) **Arrangement & instrumentation**—what's the texture density, instrument selection rationale, dynamic range planning? Are transitions smooth? (4) **Lyrical content & vocals**—how strong is thematic coherence, lyrical craft, vocal range suitability, performance expression planning? (5) **Production planning**—what's the recording strategy, budget realism, timeline feasibility, collaboration coordination? (6) **Professional standards**—does it meet genre conventions, commercial viability, sync licensing potential, competitive quality? Provide a maturity scorecard (1-5 per dimension), critical weaknesses, prioritized improvements, and a pre-production action plan.
-
-**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for rapid composition evaluation.
-
----
-
 ## Template
 
 Conduct a comprehensive composition readiness assessment for {PROJECT_TITLE}, a {GENRE_STYLE} music project targeting {TARGET_AUDIENCE}.

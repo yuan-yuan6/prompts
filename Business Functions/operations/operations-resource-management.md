@@ -32,14 +32,6 @@ slug: resource-management-readiness-assessment
 ## Purpose
 Assess an organization's readiness to implement effective resource management and capacity planning across six dimensions: Planning & Forecasting, Allocation & Scheduling, Data & Systems, Workforce Capabilities, Process Maturity, and Governance. Identify gaps, prioritize investments, and create a roadmap for operational efficiency.
 
-## 🚀 Quick Assessment Prompt
-
-> Assess **resource management readiness** for **[ORGANIZATION]** managing **[RESOURCE_TYPES]** with current **[UTILIZATION_RATE]**% utilization and **[CAPACITY_CONSTRAINTS]**. Evaluate across: (1) **Planning & forecasting**—can you predict demand, model capacity scenarios, and plan resource requirements? What forecasting accuracy exists? (2) **Allocation & scheduling**—how are resources assigned to work? Manual vs. automated? Real-time visibility into conflicts and bottlenecks? (3) **Data & systems**—do you track utilization, availability, costs, and performance in real-time? Integration across tools? (4) **Workforce capabilities**—what planning, scheduling, and optimization skills exist? Familiarity with capacity modeling? (5) **Process maturity**—are allocation decisions standardized? Escalation paths for conflicts? Review cadence? (6) **Governance**—clear ownership, KPIs tracked, regular optimization reviews? Provide a maturity scorecard (1-5 per dimension), gap analysis, quick-win recommendations, and a 12-month optimization roadmap.
-
-**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for rapid resource management readiness evaluation.
-
----
-
 ## Template
 
 Conduct a comprehensive resource management readiness assessment for {ORGANIZATION}, a {INDUSTRY} organization managing {RESOURCE_SCOPE} with {DEMAND_PROFILE}.

@@ -30,14 +30,6 @@ slug: research-design-foundation
 ## Purpose
 Comprehensively assess readiness to lock the foundational decisions for a research study across six dimensions: Problem & Contribution Clarity, Theory & Conceptual Model Fit, Paradigm & Assumptions Coherence, Question & Construct Precision, Design & Method Fit, and Feasibility & Alignment. This framework helps you prevent “design drift,” strengthen justification, and produce a foundation that holds up under committee or peer review.
 
-## 🚀 Quick Assessment Prompt
-
-> Assess **research design foundation readiness** for **{STUDY_CONTEXT}** pursuing **{RESEARCH_GOALS}** under **{CONSTRAINTS}**. Evaluate across: (1) **Problem & contribution**—is the gap specific and the intended contribution defensible? (2) **Theory & conceptual model**—does the framework explain mechanisms and define constructs clearly? (3) **Paradigm & assumptions**—are epistemology/ontology/value assumptions explicit and consistent with methods? (4) **Questions & constructs**—are research questions precise, measurable/observable, and scoped? (5) **Design & method fit**—does the chosen design credibly answer the questions with minimal bias? (6) **Feasibility & alignment**—is the plan realistic given time, access, ethics, and resources? Provide a 1–5 scorecard, key risks, and a foundation “locking plan” (what to finalize next, in what order).
-
-**Usage:** Replace the curly-brace placeholders with your specifics. Use as a prompt to an AI assistant for rapid foundation readiness evaluation.
-
----
-
 ## Template
 
 Conduct a comprehensive research design foundation readiness assessment for {STUDY_CONTEXT} pursuing {RESEARCH_GOALS} under {CONSTRAINTS}.

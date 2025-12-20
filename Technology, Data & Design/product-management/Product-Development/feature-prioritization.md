@@ -32,14 +32,6 @@ slug: feature-prioritization-readiness-assessment
 ## Purpose
 Comprehensively assess an organization's capability to make systematic, defensible feature prioritization decisions that maximize value, align with strategy, and enable efficient resource allocation. This framework evaluates maturity across Prioritization Methodology, Data & Evidence Quality, Strategic Alignment, Stakeholder Management, Decision Governance, and Continuous Learning, identifying gaps that cause poor product decisions and providing actionable roadmaps for building prioritization excellence.
 
-## 🚀 Quick Assessment Prompt
-
-> Assess **feature prioritization readiness** for **{PRODUCT_TEAM}** managing **{BACKLOG_SIZE}** using **{CURRENT_APPROACH}**. Evaluate across: (1) **Methodology maturity**—do you use systematic frameworks like RICE, weighted scoring, or value vs effort? Are decisions data-driven or opinion-based? Is there a consistent process? (2) **Data & evidence quality**—how do you measure reach, impact, effort? What customer research informs decisions? How accurate are estimates? (3) **Strategic alignment**—are prioritization decisions connected to product strategy and OKRs? Do you understand business impact? (4) **Stakeholder management**—how do you handle competing requests from sales, customers, executives? Is there transparent communication? (5) **Decision governance**—who has final authority? What's the approval process? How do you handle disagreements? (6) **Learning & iteration**—do you track if prioritized features delivered expected value? Do you refine prioritization based on outcomes? Provide a maturity scorecard (1-5 per dimension), critical prioritization gaps, prioritized capability improvements, and roadmap for building prioritization discipline.
-
-**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for rapid prioritization readiness evaluation.
-
----
-
 ## Template
 
 Conduct a comprehensive feature prioritization readiness assessment for {PRODUCT_TEAM}, managing {BACKLOG_SIZE} with {CURRENT_APPROACH}.

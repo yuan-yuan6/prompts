@@ -29,14 +29,6 @@ slug: comedy-writing-readiness
 ## Purpose
 Comprehensively assess comedy writing capability to create consistently funny, professionally executable content across standup, sketch, satire, and digital formats spanning six dimensions: Joke Construction & Mechanics, Comedic Voice & Perspective, Timing & Rhythm, Audience Understanding, Format & Platform Mastery, and Professional & Ethical Standards. This framework evaluates comedic craft quality and identifies skill development priorities.
 
-## 🚀 Quick Assessment Prompt
-
-> Assess **comedy writing readiness** for **[COMEDY_CONTEXT]** creating **[CONTENT_SCOPE]** to achieve **[COMEDIC_OBJECTIVES]**. Evaluate across: (1) **Joke construction & mechanics**—how solid is setup-punchline structure with clear premise, misdirection, and surprise? Are tags and callbacks maximizing humor extraction? (2) **Comedic voice & perspective**—how distinctive is the comedic persona with unique angle on observations? Is vulnerability balanced with authority? (3) **Timing & rhythm**—how well-developed is comedic timing with beat placement, pauses, and pacing control? Does rhythm create momentum and anticipation? (4) **Audience understanding**—how deeply does the comedy connect with target demographics through shared references and values? Is material punching up not down? (5) **Format & platform mastery**—how well does content execute format conventions for standup sets, sketches, or social media? Is platform optimization maximizing engagement? (6) **Professional & ethical standards**—how strong are the boundaries avoiding harmful stereotypes while maintaining edge? Is the material original and legally compliant? Provide maturity scores (1-5 per dimension), craft gaps, prioritized recommendations, and a 3-month development plan.
-
-**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for comprehensive comedy writing capability assessment.
-
----
-
 ## Template
 
 Conduct a comprehensive comedy writing readiness assessment for {COMEDY_CONTEXT} working on {CONTENT_SCOPE} to achieve {COMEDIC_OBJECTIVES}.

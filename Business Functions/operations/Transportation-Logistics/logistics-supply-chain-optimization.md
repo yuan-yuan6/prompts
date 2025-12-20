@@ -33,14 +33,6 @@ slug: supply-chain-optimization-readiness-assessment
 ## Purpose
 Assess organizational readiness to implement advanced supply chain optimization, network design, multi-echelon inventory planning, and demand forecasting across six dimensions: Data, Technology, Planning Processes, Talent, Collaboration, and Governance. Identify capability gaps, prioritize investments, and create transformation roadmaps.
 
-## 🚀 Quick Assessment Prompt
-
-> Assess **supply chain optimization readiness** for **[ORGANIZATION]** with **[SKU_COUNT]** SKUs, **[SUPPLIER_COUNT]** suppliers, **[DC_COUNT]** distribution centers, **[ANNUAL_VOLUME]** annual volume. Evaluate across: (1) **Data readiness**—demand history quality and granularity, master data accuracy (SKU/location/BOM), cost data availability (transportation/warehousing/inventory carrying), network flow visibility, and system data integration? (2) **Technology infrastructure**—ERP maturity, planning system capabilities (S&OP, demand planning, inventory optimization), TMS/WMS integration, analytics platforms, and modeling tools (network optimization, simulation)? (3) **Planning process maturity**—demand planning methodology, inventory policy sophistication (multi-echelon, safety stock optimization), S&OP rigor, network design capability, and scenario planning processes? (4) **Talent & skills**—supply chain planners, demand forecasters, operations research/analytics expertise, and cross-functional collaboration? (5) **Organizational readiness**—executive alignment on supply chain strategy, functional collaboration (sales/ops/finance), change management capability, and data-driven decision culture? (6) **Governance**—supply chain KPI framework, service level definition and monitoring, cost-to-serve management, risk management, and continuous improvement processes? Provide maturity scorecard (1-5 per dimension), gap analysis, prioritized recommendations, and 18-month transformation roadmap with expected benefits.
-
-**Usage:** Replace bracketed placeholders with specifics. Use as prompt to AI assistant for rapid supply chain optimization readiness evaluation.
-
----
-
 ## Template
 
 Conduct comprehensive supply chain optimization readiness assessment for {ORGANIZATION}, a {INDUSTRY} organization managing {SKU_COUNT} SKUs, {SUPPLIER_COUNT} suppliers, {DC_COUNT} distribution centers, {ANNUAL_VOLUME} units annually, serving {CUSTOMER_COUNT} customers across {GEOGRAPHIC_SCOPE}.

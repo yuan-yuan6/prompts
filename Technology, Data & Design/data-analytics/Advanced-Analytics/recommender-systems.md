@@ -31,14 +31,6 @@ slug: recommender-systems
 ## Purpose
 Build recommendation engines that drive engagement, conversion, and customer satisfaction. This framework covers collaborative filtering, content-based methods, hybrid approaches, deep learning recommenders, cold-start handling, and production serving architectures for personalization at scale.
 
-## 🚀 Quick Start Prompt
-
-> Build a **recommender system** for **[PRODUCT/CONTENT TYPE]** with **[USER COUNT]** users and **[ITEM COUNT]** items. Goal: **[CTR/CONVERSION TARGET]**. Data: **[IMPLICIT/EXPLICIT FEEDBACK]**. Requirements: **[REAL-TIME/BATCH]**, **[COLD-START HANDLING]**. Guide me through: (1) **Algorithm selection**—should I use collaborative filtering, content-based, matrix factorization, or deep learning? What's the trade-off? (2) **Feature engineering**—what user, item, and interaction features should I build? (3) **Evaluation**—what offline metrics predict online success? How to design A/B tests? (4) **Serving architecture**—how to achieve low-latency recommendations at scale? Provide the algorithm choice, feature set, evaluation plan, and production architecture.
-
-**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for rapid recommendation system design.
-
----
-
 ## Template
 
 Build a recommender system for {DOMAIN} with {SCALE} to achieve {BUSINESS_OBJECTIVE}.

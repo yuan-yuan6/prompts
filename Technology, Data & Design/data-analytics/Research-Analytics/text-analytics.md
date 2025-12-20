@@ -34,12 +34,6 @@ slug: text-analytics
 ## Purpose
 Conduct comprehensive text mining and natural language processing analysis to extract insights, patterns, sentiments, topics, and knowledge from unstructured text data. This unified template combines preprocessing, sentiment analysis, topic modeling, entity recognition, and advanced analytics into an end-to-end pipeline.
 
-## 🚀 Quick Start Prompt
-
-> Analyze **[TEXT CORPUS]** to extract **[ANALYSIS GOALS]**. Cover: (1) **Preprocessing**—clean, tokenize, normalize text; (2) **Sentiment**—classify opinions and emotions with aspect-level analysis; (3) **Topics**—discover themes using LDA/BERTopic; (4) **Entities**—extract people, organizations, locations; (5) **Insights**—synthesize findings into actionable recommendations. Deliver sentiment distribution, topic catalog with keywords, entity summary, and prioritized insights with supporting evidence.
-
----
-
 ## Template
 
 Conduct comprehensive text analytics on {TEXT_DATA_DESCRIPTION}, focusing on {ANALYSIS_OBJECTIVES} to deliver {BUSINESS_OUTCOMES}.

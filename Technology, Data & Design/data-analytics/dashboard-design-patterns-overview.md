@@ -31,12 +31,6 @@ slug: dashboard-design-patterns-overview
 ## Purpose
 Navigate dashboard design projects from initial strategy through production deployment. This overview guides dashboard type selection, design approach, technical architecture, and adoption strategy to deliver effective business intelligence solutions.
 
-## 🚀 Quick Planning Prompt
-
-> Plan dashboard design for **[BUSINESS_OBJECTIVE]** serving **[USER_PERSONAS]**. Evaluate across: (1) **Dashboard type**—is this executive summary, operational monitoring, or analytical exploration? (2) **Design complexity**—do we need simple KPI scorecards or complex multi-view analytics? (3) **Technical requirements**—what data refresh frequency, user concurrency, and integration needs? (4) **User capability**—are users executives viewing summaries, analysts exploring data, or operators monitoring real-time? (5) **Timeline**—do we need quick MVP or comprehensive solution? Recommend dashboard architecture, phased approach, and success metrics.
-
----
-
 ## Dashboard Type Selection
 
 ### Executive Dashboards

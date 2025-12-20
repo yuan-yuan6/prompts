@@ -31,12 +31,6 @@ slug: dashboard-design-strategy
 ## Purpose
 Define dashboard strategy, information architecture, and visual design systems enabling effective business intelligence interfaces. This framework guides user-centered design, brand integration, responsive layouts, and navigation patterns from concept through implementation.
 
-## 🚀 Quick Strategy Prompt
-
-> Design dashboard strategy for **[ORGANIZATION]** in **[INDUSTRY]** serving **[USER_ROLES]**. Evaluate across: (1) **Information architecture**—what hierarchy (executive summary, departmental views, detailed analysis) and navigation patterns? (2) **Visual design**—what brand integration, color systems, typography, and layouts? (3) **Responsive design**—what layouts for desktop, tablet, mobile? (4) **Personalization**—what customization for different user roles and preferences? (5) **Accessibility**—what WCAG compliance level and inclusive design features? Provide design system specifications, layout templates, and style guide.
-
----
-
 ## Template
 
 Design dashboard strategy and visual system for {ORGANIZATION} supporting {USE_CASES} with {USER_PERSONAS} and {DEVICE_REQUIREMENTS}.

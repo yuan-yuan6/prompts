@@ -31,14 +31,6 @@ slug: deep-learning
 ## Purpose
 Design, train, and deploy deep learning models effectively. This framework covers architecture selection, data pipeline design, training optimization, hyperparameter tuning, model compression, distributed training, and production deployment for CNNs, RNNs, transformers, and other neural architectures.
 
-## 🚀 Quick Start Prompt
-
-> Build a **deep learning model** for **[USE CASE]** processing **[DATA TYPE AND VOLUME]** with **[ARCHITECTURE: CNN/RNN/Transformer]**. Target: **[ACCURACY/PERFORMANCE GOAL]**. Constraints: **[LATENCY]ms inference**, **[DEPLOYMENT ENVIRONMENT]**. Guide me through: (1) **Architecture design**—what layers, dimensions, and connections? (2) **Training pipeline**—what preprocessing, augmentation, and hyperparameters? (3) **Optimization**—how to reduce model size and inference time? (4) **Deployment**—how to serve predictions at scale? Provide the architecture design, training configuration, optimization strategy, and deployment plan.
-
-**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for rapid deep learning solution design.
-
----
-
 ## Template
 
 Design a deep learning solution for {USE_CASE} processing {DATA_DESCRIPTION} to achieve {PERFORMANCE_TARGET}.

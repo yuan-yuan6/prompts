@@ -31,14 +31,6 @@ slug: product-strategy-vision
 ## Purpose
 Comprehensively assess product strategy quality and vision clarity across six dimensions: Market Understanding, Vision & Positioning, Strategic Choices, Value Delivery, Execution Planning, and Organizational Alignment. This framework identifies strategy gaps, strengthens strategic thinking, and creates development roadmaps for compelling product direction that inspires teams and guides multi-year execution.
 
-## 🚀 Quick Strategy Assessment Prompt
-
-> Assess **product strategy readiness** for **[PRODUCT/COMPANY]** targeting **[MARKET]** over **[TIMEFRAME]**. Evaluate across: (1) **Market understanding**—is opportunity sized bottoms-up? Customer problems validated? Competitive dynamics understood? (2) **Vision & positioning**—is vision inspiring and specific? Positioning differentiated? Value proposition clear? (3) **Strategic choices**—is target segment narrowly defined? Are strategic pillars differentiated versus table stakes? Explicit choices about what NOT to do? (4) **Value delivery**—is business model proven? Unit economics healthy? Growth model defined? (5) **Execution planning**—are strategic pillars translated to initiatives? Resources allocated? Success metrics defined? (6) **Organizational alignment**—does team understand and believe in strategy? Cross-functional alignment achieved? Provide a maturity scorecard (1-5 per dimension), strategy gaps, positioning recommendations, and strategic planning improvements.
-
-**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for rapid strategy evaluation.
-
----
-
 ## Template
 
 Conduct a comprehensive product strategy readiness assessment for {PRODUCT_CONTEXT}, targeting {MARKET_OPPORTUNITY} to achieve {STRATEGIC_OBJECTIVES}.

@@ -32,14 +32,6 @@ slug: dashboard-design-overview
 ## Purpose
 Guide dashboard project planning by assessing readiness, selecting appropriate specialized templates, and creating phased implementation roadmaps. This framework helps navigate the comprehensive dashboard design template suite and ensures projects address all critical dimensions from strategy through deployment.
 
-## 🚀 Quick Planning Prompt
-
-> Plan a **dashboard initiative** for **[ORGANIZATION]** building **[DASHBOARD SCOPE]**. Assess readiness across: (1) **Requirements clarity**—are business objectives, KPIs, and stakeholder needs defined? (2) **Data readiness**—are source systems identified, data quality understood, and pipelines feasible? (3) **Technical foundation**—is BI platform selected, infrastructure available, and team skilled? (4) **Governance needs**—are security requirements, compliance obligations, and access controls understood? Provide a phase recommendation, template sequence, resource estimate, and implementation timeline.
-
-**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for rapid dashboard project planning.
-
----
-
 ## Template
 
 Plan a comprehensive dashboard initiative for {ORGANIZATION_CONTEXT}, developing {DASHBOARD_SCOPE} to achieve {BUSINESS_OBJECTIVES}.

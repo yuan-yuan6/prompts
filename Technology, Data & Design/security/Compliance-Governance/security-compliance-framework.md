@@ -30,12 +30,6 @@ slug: security-compliance-framework
 ## Purpose
 Comprehensive framework for achieving and maintaining security compliance (SOC 2, ISO 27001, HIPAA, PCI-DSS) including control implementation, evidence collection, audit preparation, and continuous compliance monitoring for organizations seeking certification or customer trust validation.
 
-## 🚀 Quick Compliance Prompt
-
-> Achieve **{SOC_2/ISO_27001/HIPAA/PCI-DSS}** compliance for **{ORGANIZATION_TYPE}** with **{X_EMPLOYEES}**, **{Y_SYSTEMS}**, handling **{DATA_TYPE}**. Gap analysis against **{FRAMEWORK}** requirements. Deliver: control implementation roadmap, policy templates (security, access control, incident response, BCP), evidence collection procedures, audit preparation checklist, continuous monitoring plan. Timeline: **{X_MONTHS}** to certification.
-
----
-
 ## Template
 
 Achieve {COMPLIANCE_FRAMEWORK} compliance for {INDUSTRY} organization ({EMPLOYEE_COUNT} employees, {CUSTOMER_COUNT} customers, {DATA_TYPES} data) with {BUSINESS_DRIVER} driving compliance within {TIMELINE_MONTHS} months.

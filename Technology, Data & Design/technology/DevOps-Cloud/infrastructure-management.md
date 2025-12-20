@@ -29,12 +29,6 @@ slug: infrastructure-management
 ## Purpose
 Comprehensive infrastructure management covering provisioning automation, scaling strategies, monitoring and observability, maintenance operations, and cost optimization for cloud, hybrid, and on-premises environments achieving operational excellence with SLA compliance.
 
-## 🚀 Quick Infrastructure Management Prompt
-
-> Manage infrastructure for **[APPLICATION]** on **[AWS/AZURE/GCP/HYBRID]**. Scale: **[SERVERS]** servers, **[DATABASES]** databases, **[SERVICES]** services. Provisioning: **[TERRAFORM/ANSIBLE/CLOUDFORMATION]**. Scaling: auto-scale **[MIN]-[MAX]** based on **[CPU/MEMORY/CUSTOM]** at **[THRESHOLD]**%. Monitoring: **[CLOUDWATCH/PROMETHEUS/DATADOG]** with **[ALERTING_TOOL]** alerts. Backup: **[FREQUENCY]** with **[RETENTION]** retention. DR: RPO **[MINUTES]**, RTO **[HOURS]**. Cost target: **[BUDGET]**/month.
-
----
-
 ## Template
 
 Manage infrastructure for {APPLICATION_TYPE} on {PLATFORM} supporting {SCALE_REQUIREMENTS} with {AVAILABILITY_TARGET}% availability and {BUDGET} monthly budget.

@@ -27,12 +27,6 @@ slug: fashion-brand-strategy
 ## Purpose
 Design comprehensive fashion brand strategies covering brand identity, collection planning, sustainable practices, manufacturing approaches, and omnichannel distribution. This framework guides positioning, product development, and go-to-market execution for luxury, contemporary, and accessible fashion brands.
 
-## 🚀 Quick Brand Prompt
-
-> Design fashion brand strategy for **[BRAND_CONCEPT]** targeting **[MARKET_SEGMENT]** with **[PRICE_POSITIONING]**. Evaluate across: (1) **Brand DNA**—what design aesthetic, values, and customer profile differentiate us? (2) **Collection approach**—how many seasonal drops, piece counts, and category mix (RTW/accessories/footwear)? (3) **Sustainability**—what ethical sourcing, production, and circularity commitments? (4) **Manufacturing**—should we use in-house, contract, artisan, or hybrid production? (5) **Distribution**—what balance of owned retail, wholesale, e-commerce, and marketplaces? Provide brand positioning, first collection plan, and three-year roadmap.
-
----
-
 ## Template
 
 Design fashion brand strategy for {BRAND_CONCEPT} positioning in {MARKET_SEGMENT} with {COLLECTION_FREQUENCY} and {SUSTAINABILITY_APPROACH}.

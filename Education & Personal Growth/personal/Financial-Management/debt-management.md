@@ -23,12 +23,6 @@ slug: debt-management-readiness-assessment
 ## Purpose
 Assess readiness to pay down debt across six dimensions: debt clarity, cashflow control, strategy selection, creditor optimization, behavior safeguards, and tracking/support.
 
-## 🚀 Quick Assessment Prompt
-
-> Assess **debt management readiness** for **{DEBT_SNAPSHOT}** with goals **{PAYOFF_GOALS}** and constraints **{CONSTRAINTS}**. Score each dimension **1–5**, explain why, and provide a prioritized 90-day plan (first-week actions + monthly targets) and success metrics.
-
----
-
 ## Template
 
 Conduct a debt management readiness assessment for {DEBT_SNAPSHOT} with goals {PAYOFF_GOALS} and constraints {CONSTRAINTS}.

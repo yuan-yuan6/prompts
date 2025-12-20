@@ -31,12 +31,6 @@ slug: logistics-optimization-readiness-assessment
 ## Purpose
 Assess readiness to optimize transportation and logistics operations across network design, multimodal planning, last-mile execution, visibility, and cost management.
 
-## 🚀 Quick Assessment Prompt
-
-> Assess **logistics optimization readiness** for **{LOGISTICS_CONTEXT}**. Score maturity (1–5) across: (1) **Network design & flows**, (2) **Multimodal transportation & carrier strategy**, (3) **Last-mile delivery execution**, (4) **Technology & visibility**, (5) **Warehouse/fulfillment interfaces**, (6) **Cost governance & continuous improvement**. Provide a scorecard, top gaps, prioritized recommendations, and a 12‑month roadmap.
-
----
-
 ## Template
 
 Conduct a logistics optimization readiness assessment for {LOGISTICS_CONTEXT}.

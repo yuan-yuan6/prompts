@@ -32,12 +32,6 @@ slug: fleet-optimization-readiness-assessment
 ## Purpose
 Assess readiness to systematically optimize fleet size, mix, routes, and lifecycle decisions to reduce total cost of ownership (TCO) while maintaining or improving service.
 
-## 🚀 Quick Assessment Prompt
-
-> Assess **fleet optimization readiness** for **{FLEET_CONTEXT}**. Score maturity (1–5) across: (1) **Utilization & right-sizing**, (2) **Routing & dispatch optimization**, (3) **TCO analytics & lifecycle planning**, (4) **Maintenance optimization**, (5) **Fuel & sustainability optimization**, (6) **Program governance & continuous improvement**. Provide a scorecard, quantified opportunities, top gaps, and a 12‑month roadmap.
-
----
-
 ## Template
 
 Conduct a fleet optimization readiness assessment for {FLEET_CONTEXT}.

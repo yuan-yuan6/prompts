@@ -31,12 +31,6 @@ slug: predictive-modeling-framework-02-model-development
 ## Purpose
 Design comprehensive model development and evaluation strategies for predictive analytics projects. This framework guides algorithm selection, hyperparameter optimization, training approaches, ensemble techniques, and evaluation metrics to build accurate, robust, and production-ready predictive models.
 
-## 🚀 Quick Development Prompt
-
-> Design model development strategy for **[PREDICTION_PROBLEM]** with **[DATA_CHARACTERISTICS]**. Evaluate across: (1) **Algorithm selection**—should we use linear models for interpretability, tree-based for accuracy, or neural networks for complex patterns? What are the trade-offs? (2) **Hyperparameter tuning**—what search strategy balances thoroughness and computational cost for **[PARAMETER_SPACE]**? (3) **Training approach**—what regularization, early stopping, and convergence criteria prevent overfitting? (4) **Ensemble strategy**—can combining models improve performance beyond single best model? (5) **Evaluation metrics**—what metrics align with **[BUSINESS_OBJECTIVE]** for **[CLASSIFICATION/REGRESSION]** problem? Provide algorithm recommendations, tuning strategy, and evaluation plan.
-
----
-
 ## Template
 
 Design model development and evaluation for {PREDICTION_PROBLEM} with {PERFORMANCE_TARGETS} using {AVAILABLE_DATA} and {COMPUTATIONAL_RESOURCES}.

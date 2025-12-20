@@ -31,14 +31,6 @@ slug: networking-readiness-assessment
 ## Purpose
 Assess readiness to build and maintain effective professional networks across six dimensions: Goal Clarity & Targeting, Value Proposition, Approach & Authenticity, Communication Skills, Follow-Up Systems, and Relationship Nurturing. This framework identifies networking capability gaps, strengthens connection strategies, and creates sustainable relationship-building practices.
 
-## 🚀 Quick Assessment Prompt
-
-> Assess **networking readiness** for **{NETWORKING_CONTEXT}** targeting **{TARGET_CONNECTIONS}** to achieve **{GOALS}**. Evaluate across: (1) **Goal clarity**—what specific outcomes do I seek? Are targets well-defined? (2) **Value proposition**—what do I offer? Why would people want to connect? How can I help them? (3) **Approach & authenticity**—is my outreach genuine vs transactional? Do I have conversation starters? (4) **Communication skills**—can I introduce myself compellingly? Active listening strength? Asking meaningful questions? (5) **Follow-up systems**—how will I track connections? What's my follow-up cadence? CRM or manual? (6) **Relationship nurturing**—how will I provide ongoing value? Stay visible without being pushy? Provide a readiness scorecard (1-5 per dimension), outreach strategy, conversation scripts, and relationship cultivation plan.
-
-**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for rapid networking readiness evaluation.
-
----
-
 ## Template
 
 Assess networking readiness for {NETWORKING_CONTEXT} targeting {TARGET_CONNECTIONS} to achieve {GOALS}.

@@ -34,14 +34,6 @@ slug: quality-assurance-readiness-assessment
 ## Purpose
 Assess an organization's readiness to prevent defects, verify compliance, and sustain quality across six dimensions: Standards & Acceptance Criteria, Test Strategy & Coverage, Controls & Execution, Defect Management & CAPA, Tooling & Automation, and Governance & Continuous Improvement. Identify gaps, prioritize actions, and produce a roadmap tied to measurable outcomes.
 
-## 🚀 Quick Assessment Prompt
-
-> Assess **quality assurance readiness** for **[ORGANIZATION]** delivering **[PRODUCT_OR_SERVICE]** with **[COMPLIANCE_REQUIREMENTS]**. Evaluate across: (1) **Standards & acceptance**—are requirements clear, measurable, and traceable to tests? (2) **Test strategy & coverage**—do we test the right things at the right stages (risk-based), including edge cases and non-functional requirements? (3) **Controls & execution**—are quality gates, sampling/inspection, and release criteria consistently followed? (4) **Defect management & CAPA**—are defects triaged, root-caused, and prevented from recurring? (5) **Tooling & automation**—are test environments, data, and automation reliable and maintainable? (6) **Governance & CI**—are decision rights, audit trails, and continuous improvement cadence in place? Provide a 1–5 scorecard, top gaps, prioritized recommendations, and a 90-day roadmap.
-
-**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for a rapid QA readiness evaluation.
-
----
-
 ## Template
 
 Conduct a comprehensive quality assurance readiness assessment for {ORGANIZATION}, a {INDUSTRY} organization delivering {PRODUCT_OR_SERVICE} under {COMPLIANCE_REQUIREMENTS}.

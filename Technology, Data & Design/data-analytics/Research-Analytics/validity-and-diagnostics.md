@@ -32,12 +32,6 @@ slug: validity-and-diagnostics
 ## Purpose
 Perform comprehensive validity assessment and diagnostic checks for experimental studies. This framework covers randomization verification, covariate balance assessment, attrition analysis, compliance evaluation, contamination detection, temporal effects, statistical assumption testing, and external validity assessment to ensure reliable causal inference from experimental data.
 
-## 🚀 Quick Start Prompt
-
-> Assess **experimental validity** for **[EXPERIMENT]** with **[N]** participants. Check: (1) **Randomization success**—balance tests on key covariates with standardized differences; (2) **Attrition analysis**—overall rate and differential attrition between arms; (3) **Compliance assessment**—treatment receipt rates, never-takers, always-takers; (4) **Contamination check**—evidence of spillover or control group exposure; (5) **Statistical assumptions**—normality, variance homogeneity, independence. Deliver validity scorecard, threat assessment, and recommendations for analysis adjustments.
-
----
-
 ## Template
 
 Conduct comprehensive validity assessment for {EXPERIMENT_DESCRIPTION}, evaluating {VALIDITY_CONCERNS} to ensure {ANALYSIS_OBJECTIVES}.

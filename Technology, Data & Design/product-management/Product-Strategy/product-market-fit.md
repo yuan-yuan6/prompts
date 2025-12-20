@@ -31,14 +31,6 @@ slug: product-market-fit
 ## Purpose
 Comprehensively assess product-market fit across six dimensions: Customer Love, Retention Quality, Growth Dynamics, Value Delivery, Market Positioning, and Business Viability. This framework identifies gaps preventing PMF achievement, validates product-market alignment through quantitative and qualitative signals, and creates actionable roadmaps to reach strong product-market fit.
 
-## 🚀 Quick PMF Assessment Prompt
-
-> Assess **product-market fit** for **[PRODUCT/COMPANY]** serving **[TARGET MARKET]** at **[STAGE]**. Evaluate across: (1) **Customer love**—what's Sean Ellis PMF score (% "very disappointed")? Do customers actively refer? Are testimonials passionate? (2) **Retention quality**—do cohort curves flatten or decline? What's Month 1 and Month 3 retention? (3) **Growth dynamics**—what % of signups are organic? Is viral coefficient >1? Word-of-mouth attribution? (4) **Value delivery**—do customers achieve core outcomes? Time-to-value acceptable? Clear "aha moment"? (5) **Market positioning**—is ICP validated? Differentiation clear? Win rate strong? (6) **Business viability**—is LTV:CAC ratio >3? Payback period <12 months? Provide a maturity scorecard (1-5 per dimension), PMF gaps, segment analysis, and 90-day action plan to achieve strong PMF.
-
-**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for rapid PMF evaluation.
-
----
-
 ## Template
 
 Conduct a comprehensive product-market fit assessment for {PRODUCT_CONTEXT}, serving {TARGET_MARKET} to achieve {PMF_OBJECTIVES}.

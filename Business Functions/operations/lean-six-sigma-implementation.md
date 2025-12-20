@@ -31,14 +31,6 @@ slug: lean-six-sigma-readiness-assessment
 ## Purpose
 Assess an organization's readiness to successfully implement Lean Six Sigma methodologies across six dimensions: Process Maturity, Data Capability, Methodology Expertise, Culture, Leadership, and Resources. Identify gaps, prioritize capability building, and create a roadmap for achieving operational excellence.
 
-## 🚀 Quick Assessment Prompt
-
-> Assess **Lean Six Sigma readiness** for **[ORGANIZATION]** targeting **[TARGET_PROCESSES]** with current **[DEFECT_RATE]** defect rate and **[SIGMA_LEVEL]** sigma level. Evaluate across: (1) **Process maturity**—are processes documented, standardized, measured? What's the baseline capability? (2) **Data capability**—can you collect reliable process data, calculate defect rates, track variation? Do measurement systems exist? (3) **Methodology expertise**—what DMAIC, statistical analysis, root cause, and waste elimination skills exist? Belt certification levels? (4) **Culture**—is there continuous improvement mindset, data-driven decision making, cross-functional collaboration, and tolerance for experimentation? (5) **Leadership**—do executives sponsor projects, allocate resources, and remove barriers? (6) **Resources**—what tools, training budget, and dedicated improvement capacity exists? Provide a maturity scorecard (1-5 per dimension), gap analysis, project pipeline recommendations, and a 12-month implementation roadmap.
-
-**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for rapid Lean Six Sigma readiness evaluation.
-
----
-
 ## Template
 
 Conduct a comprehensive Lean Six Sigma readiness assessment for {ORGANIZATION}, a {INDUSTRY} organization planning to implement {IMPROVEMENT_SCOPE} targeting {TARGET_METRICS}.

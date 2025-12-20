@@ -34,14 +34,6 @@ slug: research-design-impact
 ## Purpose
 Comprehensively assess readiness to deliver real-world impact from a research project across six dimensions: Stakeholder & Outcome Alignment, Dissemination Strategy Fit, Knowledge Translation & Implementation Pathways, Innovation & Method/Tech Fit, Impact Measurement & Evaluation, and Sustainability & Continuous Improvement. This framework helps you avoid “publish and pray” dissemination and build an executable impact plan.
 
-## 🚀 Quick Assessment Prompt
-
-> Assess **research impact readiness** for **{RESEARCH_CONTEXT}** targeting **{TARGET_AUDIENCES}** to achieve **{IMPACT_GOALS}**. Evaluate across: (1) **Stakeholder alignment**—are users, decision makers, and beneficiaries explicit, with outcomes they care about? (2) **Dissemination fit**—are channels and products matched to audiences (papers, briefs, workshops, tools)? (3) **Translation pathways**—is there a credible route from findings to practice/policy/product change? (4) **Innovation fit**—do proposed methods/technology improve outcomes without increasing risk or complexity beyond capacity? (5) **Impact measurement**—are metrics, baselines, and attribution expectations defined? (6) **Sustainability & improvement**—is there a plan for maintenance, updates, partnerships, and learning loops? Provide a 1–5 scorecard, top risks, and a 90-day impact plan.
-
-**Usage:** Replace the curly-brace placeholders with your specifics. Use as a prompt to an AI assistant for rapid impact readiness evaluation.
-
----
-
 ## Template
 
 Conduct a comprehensive research impact, innovation, and improvement readiness assessment for {RESEARCH_CONTEXT} targeting {TARGET_AUDIENCES} to achieve {IMPACT_GOALS}.

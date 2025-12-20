@@ -29,12 +29,6 @@ slug: 3d-design
 ## Purpose
 Design comprehensive 3D projects covering modeling, texturing, lighting, rendering, and optimization for product visualization, architectural presentation, game development, and animation enabling photorealistic or stylized outputs across applications.
 
-## 🚀 Quick 3D Project Prompt
-
-> Create **[PROJECT_TYPE]** for **[APPLICATION]** using **[SOFTWARE]** with **[RENDER_ENGINE]**. Design across: (1) **Modeling approach**—what polygon budget, topology strategy, and detail levels for target platform? (2) **Materials/textures**—what PBR workflow, texture resolution (2K/4K/8K), and material types (organic/synthetic)? (3) **Lighting setup**—what key/fill/rim configuration, HDRI environment, and mood (dramatic/soft)? (4) **Rendering specs**—what resolution (4K/8K), sampling quality, and post-processing effects? (5) **Optimization**—what LOD systems, memory budgets, and platform compatibility? Deliver hero render, alternate angles, and production-ready source files.
-
----
-
 ## Template
 
 Create 3D project for {APPLICATION} using {SOFTWARE} targeting {OUTPUT_SPECS} with {VISUAL_STYLE}.

@@ -27,12 +27,6 @@ slug: iot-edge-readiness-assessment
 ## Purpose
 Assess whether an organization is ready to design, deploy, and operate an IoT or edge computing system with the right connectivity, edge processing, security, and operational discipline. This framework evaluates readiness across six dimensions—Use Case & Justification, Connectivity & Network Design, Edge Processing & Architecture, Device & Fleet Management, Security & Risk Management, and Operations & Measurement—so you can reduce avoidable complexity, right-size the architecture, and produce an executable plan.
 
-## 🚀 Quick Assessment Prompt
-
-> Assess **IoT/edge architecture readiness** for **{DEPLOYMENT_CONTEXT}** deploying **{IOT_SCOPE}** across **{DEPLOYMENT_SCALE}**. Evaluate: (1) **Value & necessity**—is IoT/edge solving a real problem or is a simpler centralized architecture sufficient? (2) **Connectivity**—are network choices (WiFi, LoRaWAN, cellular, etc.) matched to coverage, power, cost, and latency needs? (3) **Edge processing**—is the edge/cloud boundary intentional with clear rationale for what runs where? (4) **Device/fleet management**—can you provision, configure, monitor, and update devices at scale? (5) **Security**—are devices, network, and data protected against realistic threats with a response plan? (6) **Operations**—can you run the system (support, incident response, cost management, measurement)? Provide a scorecard (1–5), top risks, a 90-day pilot plan, and a 12-month roadmap.
-
----
-
 ## Template
 
 Conduct a comprehensive IoT/edge readiness assessment for {DEPLOYMENT_CONTEXT} deploying {IOT_SCOPE} across {DEPLOYMENT_SCALE}.

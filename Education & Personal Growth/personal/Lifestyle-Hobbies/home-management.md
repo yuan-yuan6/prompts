@@ -27,12 +27,6 @@ slug: home-management-readiness-assessment
 ## Purpose
 Assess readiness to create an efficient, comfortable, well-maintained home across six dimensions: priorities, organization systems, routines, maintenance planning, roles/tools, and sustainability.
 
-## 🚀 Quick Assessment Prompt
-
-> Assess **home management readiness** for **{HOUSEHOLD_PROFILE}** aiming for **{HOME_GOALS}** within **{CONSTRAINTS}**. Score each dimension **1–5**, justify scores, and provide a prioritized 30-day plan (weekly cadence + checklists). Include metrics that make the system self-correcting.
-
----
-
 ## Template
 
 Conduct a home management readiness assessment for {HOUSEHOLD_PROFILE} aiming for {HOME_GOALS} within {CONSTRAINTS}.

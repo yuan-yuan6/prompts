@@ -32,12 +32,6 @@ slug: fleet-management-readiness-assessment
 ## Purpose
 Assess readiness to run safe, compliant, cost-efficient fleet operations with reliable vehicles, effective driver programs, and real-time visibility.
 
-## 🚀 Quick Assessment Prompt
-
-> Assess **fleet management readiness** for **{FLEET_CONTEXT}**. Score maturity (1–5) across: (1) **Telematics & visibility** (coverage, data quality, integrations), (2) **Maintenance & reliability** (PM discipline, downtime control), (3) **Driver safety & compliance** (HOS, qualification, coaching), (4) **Fuel & cost control** (cost/mile drivers, idle, fuel fraud controls), (5) **Operations & dispatch execution** (work assignment, exceptions, communication), (6) **Analytics & governance** (KPIs, accountability, continuous improvement). Deliver a scorecard, top gaps, prioritized actions, and a 12‑month roadmap.
-
----
-
 ## Template
 
 Conduct a fleet management readiness assessment for {FLEET_CONTEXT}.

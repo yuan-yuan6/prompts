@@ -29,14 +29,6 @@ slug: training-materials
 ## Purpose
 Assess whether you are ready to design and ship effective training materials by scoring six dimensions: Audience & Outcomes, Instructional Design, Content & Practice, Delivery & Accessibility, Assessment & Evaluation, and Operations & Maintenance. Use this as a **go / revise-first** gate before building slides, manuals, or e-learning modules.
 
-## 🚀 Quick Assessment Prompt
-
-> Assess **training materials readiness** for **{TRAINING_CONTEXT}** teaching **{SKILLS_AND_OUTCOMES}** under **{DELIVERY_CONSTRAINTS}**. Score each dimension 1–5 with brief evidence: (1) audience & outcomes, (2) instructional design, (3) content & practice, (4) delivery & accessibility, (5) assessment & evaluation, (6) operations & maintenance. Provide an overall maturity level, a go/revise-first recommendation, and a prioritized build plan.
-
-**Usage:** Replace the curly-brace placeholders with your specifics.
-
----
-
 ## Template
 
 Conduct a training materials readiness assessment for {TRAINING_CONTEXT} teaching {SKILLS_AND_OUTCOMES} under {DELIVERY_CONSTRAINTS}.

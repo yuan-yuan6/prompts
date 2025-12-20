@@ -32,14 +32,6 @@ slug: peer-review
 ## Purpose
 Assess whether you’re ready to provide a high-quality peer review by scoring six dimensions: Role & Scope Fit, Rigor & Methods, Contribution & Context, Clarity & Presentation, Ethics & Integrity, and Feedback Actionability. Use this as a gate before accepting a review request (or before submitting your review).
 
-## 🚀 Quick Assessment Prompt
-
-> Assess **peer review readiness** for reviewing **{SUBMISSION_CONTEXT}** with **{REVIEW_ROLE}** under **{TIME_CONSTRAINTS}**. Score each dimension 1–5 with brief evidence: (1) role & scope fit, (2) rigor & methods, (3) contribution & context, (4) clarity & presentation, (5) ethics & integrity, (6) feedback actionability. Provide an overall maturity level, a recommendation on whether to accept/decline (if pre-review), and a structured review outline.
-
-**Usage:** Replace the curly-brace placeholders with your specifics.
-
----
-
 ## Template
 
 Conduct a peer review readiness assessment for {SUBMISSION_CONTEXT} with {REVIEW_ROLE} under {TIME_CONSTRAINTS}.

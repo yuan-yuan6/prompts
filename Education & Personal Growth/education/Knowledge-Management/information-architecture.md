@@ -27,14 +27,6 @@ slug: information-architecture
 ## Purpose
 Assess whether you’re ready to design (or redesign) an information architecture and taxonomy by scoring six dimensions: Goals & Users, Content Inventory & Model, Taxonomy & Vocabulary, Metadata & Schemas, Navigation & Search, and Governance & Evolution. Use this as a **go / revise-first** gate before reorganizing content or rebuilding navigation.
 
-## 🚀 Quick Assessment Prompt
-
-> Assess **information architecture readiness** for **{IA_CONTEXT}** supporting **{PRIMARY_USER_JOURNEYS}** under **{SYSTEM_CONSTRAINTS}**. Score each dimension 1–5 with brief evidence: (1) goals & users, (2) content inventory & model, (3) taxonomy & vocabulary, (4) metadata & schemas, (5) navigation & search, (6) governance & evolution. Provide an overall maturity level, go/revise-first, top risks, and a prioritized 30–60 day IA plan.
-
-**Usage:** Replace the curly-brace placeholders with your specifics.
-
----
-
 ## Template
 
 Conduct an information architecture & taxonomy readiness assessment for {IA_CONTEXT} supporting {PRIMARY_USER_JOURNEYS} under {SYSTEM_CONSTRAINTS}.

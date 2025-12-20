@@ -30,12 +30,6 @@ slug: usability-testing-plan
 ## Purpose
 Design comprehensive usability testing strategies validating design decisions, identifying usability issues, and collecting actionable user feedback through appropriate methodologies, participant recruitment, task design, and structured analysis enabling data-driven iteration.
 
-## 🚀 Quick Usability Test Prompt
-
-> Plan usability test for **[PRODUCT]** in **[PHASE]** recruiting **[N]** participants matching **[CRITERIA]**. Test across: (1) **Objectives**—what specific questions (task completion, findability, satisfaction)? (2) **Methodology**—moderated or unmoderated, remote or in-person? (3) **Tasks**—what 3-5 realistic scenarios testing core flows? (4) **Metrics**—what success rate, time-on-task, error rate, and satisfaction targets? (5) **Analysis**—what severity ratings and prioritization framework for findings? Deliver test script, task scenarios, observation guide, and findings template with recommendations.
-
----
-
 ## Template
 
 Plan usability test for {PRODUCT} in {PHASE} testing {HYPOTHESIS} with {PARTICIPANT_PROFILE}.

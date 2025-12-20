@@ -31,12 +31,6 @@ slug: report-generation
 ## Purpose
 Design comprehensive report automation systems that transform manual reporting processes into reliable, scheduled delivery of business insights. This framework covers data pipeline design, template management, scheduling and orchestration, quality assurance, and distribution management for enterprise reporting needs.
 
-## 🚀 Quick Automation Prompt
-
-> Design report automation for **[REPORT_NAME]** currently requiring **[MANUAL_EFFORT]** to produce. Evaluate across: (1) **Data pipeline**—what sources feed this report, how should data be extracted, validated, and transformed? (2) **Template design**—what standard format, visualizations, and narrative elements should be automated? (3) **Scheduling**—what frequency, timing, and triggers should control generation? (4) **Quality assurance**—what validation checks ensure accuracy before distribution? (5) **Distribution**—who receives the report, through what channels, with what access controls? Provide automation architecture, implementation plan, and success metrics.
-
----
-
 ## Template
 
 Design report automation system for {ORGANIZATION} automating {REPORT_PORTFOLIO} with objectives of {AUTOMATION_OBJECTIVES}.

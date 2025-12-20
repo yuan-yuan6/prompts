@@ -31,14 +31,6 @@ slug: feature-engineering
 ## Purpose
 Design and implement feature engineering strategies that transform raw data into predictive signals. This framework covers feature creation, transformation, encoding, selection, and validation to improve model performance while maintaining interpretability and avoiding data leakage.
 
-## 🚀 Quick Start Prompt
-
-> Engineer features for **[ML TASK]** predicting **[TARGET]** from **[DATASET DESCRIPTION]**. Create: (1) **Transformations**—what numeric scaling, binning, or mathematical transforms? (2) **Encodings**—how to handle categoricals (target, one-hot, embedding) and dates (cyclical, lag, rolling)? (3) **Interactions**—what ratios, products, or domain-specific combinations? (4) **Selection**—which features to keep based on importance, correlation, and stability? Deliver: feature engineering pipeline, selected feature set with importance scores, and validation results.
-
-**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for rapid feature engineering.
-
----
-
 ## Template
 
 Design a feature engineering pipeline for {ML_TASK} predicting {TARGET_VARIABLE} from {RAW_DATA_DESCRIPTION}.

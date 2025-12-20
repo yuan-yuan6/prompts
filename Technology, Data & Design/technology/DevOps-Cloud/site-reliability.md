@@ -29,12 +29,6 @@ slug: site-reliability
 ## Purpose
 Implement comprehensive SRE practices covering SLO/SLI definition, error budget management, incident response, observability, and reliability engineering achieving sustainable reliability targets while enabling feature velocity.
 
-## 🚀 Quick SRE Prompt
-
-> Implement SRE for **[SERVICE]** serving **[USERS]** users. SLIs: availability (**[GOOD_REQUESTS/TOTAL]**), latency (**[P50/P95/P99]**ms), error rate (**[X]**%). SLOs: **[99.X]**% availability, p95 <**[Y]**ms. Error budget: **[Z]** minutes/month downtime. Monitoring: **[PROMETHEUS/DATADOG]** with **[PAGERDUTY/OPSGENIE]** alerting. Burn rate thresholds: 2x (page), 6x (ticket). On-call: **[ROTATION]** shifts. Track: MTTR **[TARGET]**, incident frequency, budget consumption.
-
----
-
 ## Template
 
 Implement SRE practices for {SERVICE_NAME} with {CRITICALITY} criticality serving {USER_BASE} achieving {AVAILABILITY_TARGET}% availability and {LATENCY_TARGET} p95 latency.

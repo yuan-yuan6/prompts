@@ -29,12 +29,6 @@ slug: incident-response
 ## Purpose
 Build comprehensive incident response capability covering preparation, detection and analysis, containment, eradication, recovery, and post-incident activities achieving rapid response (MTTD <1 hour, MTTR <4 hours) and regulatory compliance (GDPR 72-hour notification, HIPAA breach notification).
 
-## 🚀 Quick Incident Response Prompt
-
-> Build incident response for **[ORGANIZATION]**. Team: **[COMMANDER]**, **[SECURITY]**, **[IT_OPS]**, **[LEGAL]**, **[COMMS]**. Classification: **[P1_CRITICAL/P2_HIGH/P3_MEDIUM/P4_LOW]**. Playbooks: **[RANSOMWARE/DATA_BREACH/PHISHING/DDOS/INSIDER]**. Tools: **[SIEM]** + **[EDR]** + forensics **[TOOLKIT]**. Exercises: quarterly tabletop, annual red team. Compliance: **[GDPR/HIPAA/PCI]** notification. Deliver: IR plan, playbooks, runbooks, communication templates.
-
----
-
 ## Template
 
 Build incident response capability for {ORGANIZATION} handling {INCIDENT_TYPES} achieving {RESPONSE_SLAS} with {COMPLIANCE_REQUIREMENTS} regulatory compliance.

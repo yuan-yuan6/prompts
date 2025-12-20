@@ -30,12 +30,6 @@ slug: security-assessment
 ## Purpose
 Conduct comprehensive security assessments covering threat modeling, vulnerability scanning, penetration testing, security control review, and risk analysis achieving prioritized remediation roadmaps aligned with business impact and compliance requirements.
 
-## 🚀 Quick Security Assessment Prompt
-
-> Conduct security assessment for **[SYSTEM]** covering **[SCOPE]** (infrastructure/web app/API/cloud). Methodology: **[NIST/OWASP/PTES]**. Activities: asset inventory, threat modeling, vulnerability scanning **[TOOLS]**, penetration testing **[OWASP_TOP_10/MITRE_ATT&CK]**, control review **[FRAMEWORK]**. Prioritize by **[CVSS + BUSINESS_IMPACT]**. Compliance: **[PCI/HIPAA/SOC2]**. Deliverables: executive summary, detailed findings with POCs, remediation roadmap.
-
----
-
 ## Template
 
 Conduct security assessment for {TARGET_SYSTEM} covering {ASSESSMENT_SCOPE} using {METHODOLOGY} achieving {COMPLIANCE_REQUIREMENTS} validation with {TIMELINE} schedule.

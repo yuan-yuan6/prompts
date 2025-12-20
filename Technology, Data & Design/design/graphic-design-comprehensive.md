@@ -31,12 +31,6 @@ slug: graphic-design-comprehensive
 ## Purpose
 Create comprehensive graphic design solutions covering brand identity, layout design, typography, color systems, logo development, infographics, presentations, and multi-platform optimization enabling consistent visual communication across print and digital channels.
 
-## 🚀 Quick Graphic Design Prompt
-
-> Design **[ASSET_TYPE]** for **[CLIENT]** in **[INDUSTRY]** targeting **[AUDIENCE]**. Execute across: (1) **Visual concept**—what design style (modern/classic/minimalist), color palette (X primary + Y accent), typography approach? (2) **Brand alignment**—what personality traits, values, and differentiation versus competitors? (3) **Layout system**—what grid structure, hierarchy, composition principles? (4) **Deliverables**—what file formats (AI/PSD/PDF/PNG), sizes, print/digital specs? (5) **Style guide**—what usage guidelines, color codes (CMYK/RGB/Pantone), spacing rules? Deliver primary design, 3 variations, brand guide excerpt, and production-ready files.
-
----
-
 ## Template
 
 Design {ASSET_TYPE} for {CLIENT} serving {AUDIENCE} expressing {BRAND_PERSONALITY} across {PLATFORMS}.

@@ -31,14 +31,6 @@ slug: natural-language-processing
 ## Purpose
 Build NLP solutions that extract insights and automate language-based workflows. This framework covers text classification, sentiment analysis, named entity recognition, text generation, question answering, and document understanding using both traditional ML and modern transformer architectures.
 
-## 🚀 Quick Start Prompt
-
-> Build an **NLP solution** for **[TASK: classification/sentiment/NER/QA/generation]** processing **[DOCUMENT TYPE]** in **[LANGUAGE(S)]**. Dataset: **[SIZE AND DESCRIPTION]**. Target: **[ACCURACY/F1 GOAL]**. Deployment: **[BATCH/REAL-TIME]**. Guide me through: (1) **Text preprocessing**—what tokenization, normalization, and cleaning is needed? (2) **Model selection**—should I use traditional ML (TF-IDF), transformers (BERT), or LLMs (GPT)? What's the trade-off? (3) **Training strategy**—how to fine-tune, handle class imbalance, and evaluate? (4) **Production deployment**—how to optimize latency and monitor drift? Provide the preprocessing pipeline, model recommendation, training plan, and deployment architecture.
-
-**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for rapid NLP solution design.
-
----
-
 ## Template
 
 Build an NLP solution for {TASK_TYPE} processing {DOCUMENT_TYPE} to achieve {PERFORMANCE_OBJECTIVE}.

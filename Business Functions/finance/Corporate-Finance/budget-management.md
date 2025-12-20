@@ -33,14 +33,6 @@ slug: budget-management-readiness-assessment
 ## Purpose
 Assess readiness to run budget management across six dimensions: Budget Scope & Structure, Assumptions & Drivers, Planning Process & Calendar, Tracking & Variance Analysis, Forecasting & Reforecasting, and Governance & Decision Rights. Identify gaps and produce an executable budget cadence.
 
-## 🚀 Quick Assessment Prompt
-
-> Assess **budget management readiness** for **[ORGANIZATION]** planning a **[ANNUAL/QUARTERLY]** budget for **[FISCAL_YEAR]**. Score 1–5 across: (1) **Scope/structure**—are cost centers, revenue streams, and account mappings defined consistently? (2) **Assumptions/drivers**—are headcount, pricing, volume, and cost drivers explicit and versioned? (3) **Process/calendar**—is the planning workflow repeatable with clear owners and deadlines? (4) **Tracking/variance**—are actuals timely, reconciled, and analyzed with thresholds and root cause? (5) **Forecasting**—is there a rolling forecast or reforecast cadence with bias tracking? (6) **Governance**—are approvals, reallocations, and exceptions governed? Provide a scorecard, top gaps, and a 90-day improvement checklist.
-
-**Usage:** Replace bracketed placeholders with your specifics.
-
----
-
 ## Template
 
 Conduct a budget management readiness assessment for {ORGANIZATION} for fiscal period {FISCAL_YEAR}.

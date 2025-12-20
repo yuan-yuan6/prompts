@@ -30,14 +30,6 @@ slug: user-behavior-analysis-readiness
 ## Purpose
 Comprehensively assess an organization's capability to analyze user behavior, extract actionable insights, and translate behavioral data into product improvements across six dimensions: Data Foundation, Analytical Capability, Insight Generation, Action Translation, Measurement Rigor, and Organizational Integration. This framework evaluates maturity in behavior-driven decision-making and identifies capability gaps.
 
-## 🚀 Quick Assessment Prompt
-
-> Assess **user behavior analysis readiness** for **[PRODUCT_CONTEXT]** focusing on **[ANALYSIS_FOCUS]** to achieve **[BEHAVIORAL_OBJECTIVES]**. Evaluate across: (1) **Data foundation**—what's the quality of event tracking, data completeness, instrumentation coverage, and behavioral data infrastructure? Are tracking gaps preventing analysis? (2) **Analytical capability**—what methods are used for funnel analysis, cohort analysis, segmentation, and journey mapping? What's the statistical rigor and tool proficiency? (3) **Insight generation depth**—how effectively are behavioral patterns identified, friction points diagnosed, and user segments understood? Is analysis descriptive or predictive? (4) **Action translation**—how well are insights prioritized and converted to product decisions? What's the speed from insight to implementation? (5) **Measurement & validation**—how are hypothesis tested through A/B experiments? What's the rigor in impact measurement? (6) **Organizational integration**—how widely is behavioral data used across teams? What's the data literacy level and decision-making culture? Provide maturity scores (1-5 per dimension), capability gaps, prioritized recommendations, and a 6-month improvement roadmap.
-
-**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for comprehensive behavior analysis capability assessment.
-
----
-
 ## Template
 
 Conduct a comprehensive user behavior analysis readiness assessment for {PRODUCT_CONTEXT}, focusing on {ANALYSIS_FOCUS} to achieve {BEHAVIORAL_OBJECTIVES}.

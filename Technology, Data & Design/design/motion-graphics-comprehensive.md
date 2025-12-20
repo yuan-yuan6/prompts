@@ -30,12 +30,6 @@ slug: motion-graphics-comprehensive
 ## Purpose
 Design comprehensive motion graphics strategies covering creative concept, animation principles, production workflow, typography animation, audio integration, and platform optimization enabling effective visual storytelling across digital channels.
 
-## 🚀 Quick Motion Design Prompt
-
-> Design motion graphics strategy for **[PROJECT_TYPE]** targeting **[AUDIENCE]** with **[DURATION]** runtime. Evaluate across: (1) **Creative concept**—what storytelling approach, visual metaphors, and emotional arc? (2) **Animation style**—what motion personality (fluid/mechanical/organic), timing philosophy, and brand expression? (3) **Production workflow**—what phases (storyboard, asset creation, animation, post-production) with what timeline? (4) **Typography approach**—what kinetic text techniques for message emphasis and readability? (5) **Platform optimization**—what technical specs (resolution, aspect ratio, compression) for which channels (social/web/broadcast)? Provide creative brief, production timeline, style frames, and delivery specifications.
-
----
-
 ## Template
 
 Design motion graphics strategy for {PROJECT_TYPE} serving {AUDIENCE} with {DURATION} across {DISTRIBUTION_CHANNELS}.

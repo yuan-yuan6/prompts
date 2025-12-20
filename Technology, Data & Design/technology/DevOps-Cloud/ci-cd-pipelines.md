@@ -29,12 +29,6 @@ slug: ci-cd-pipelines
 ## Purpose
 Design and implement CI/CD pipelines automating build, test, security scan, and deployment stages achieving <10 minute feedback loops, 99%+ deployment success rates, and compliance with security and regulatory requirements.
 
-## 🚀 Quick CI/CD Pipeline Prompt
-
-> Create CI/CD pipeline for **[LANGUAGE/FRAMEWORK]** **[APP_TYPE]** using **[PLATFORM]** (GitHub Actions/GitLab CI/Jenkins). Stages: build (**[MINUTES]** min target), test (**[COVERAGE]**% threshold), security (**[SAST/DAST/SCA]**), deploy to **[ENVIRONMENTS]**. Infrastructure: **[CONTAINER/SERVERLESS/VM]** on **[CLOUD]**. Strategy: **[BLUE_GREEN/CANARY/ROLLING]**. Gates: **[APPROVALS]**, rollback on **[ERROR_THRESHOLD]**%. Notifications: **[CHANNELS]**.
-
----
-
 ## Template
 
 Create CI/CD pipeline for {APPLICATION_TYPE} using {PLATFORM} deploying to {INFRASTRUCTURE} with {DEPLOYMENT_STRATEGY} achieving {BUILD_TIME} build time and {SUCCESS_RATE}% deployment success.

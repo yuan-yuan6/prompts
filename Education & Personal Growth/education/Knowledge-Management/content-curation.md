@@ -28,14 +28,6 @@ slug: content-curation
 ## Purpose
 Assess whether you’re ready to curate and operate a digital library/resource collection by scoring six dimensions: Strategy & Users, Collection Policy, Selection & Acquisition, Metadata & Organization, Discovery & Access, and Operations & Sustainability. Use this as a **go / revise-first** gate before scaling acquisitions or importing large catalogs.
 
-## 🚀 Quick Assessment Prompt
-
-> Assess **content curation/library readiness** for **{LIBRARY_CONTEXT}** curating **{COLLECTION_SCOPE}** under **{PLATFORM_AND_CONSTRAINTS}**. Score each dimension 1–5 with brief evidence: (1) strategy & users, (2) collection policy, (3) selection & acquisition, (4) metadata & organization, (5) discovery & access, (6) operations & sustainability. Provide an overall maturity level, go/revise-first, top risks, and a prioritized 30–60 day launch plan.
-
-**Usage:** Replace the curly-brace placeholders with your specifics.
-
----
-
 ## Template
 
 Conduct a content curation & libraries readiness assessment for {LIBRARY_CONTEXT} curating {COLLECTION_SCOPE} under {PLATFORM_AND_CONSTRAINTS}.

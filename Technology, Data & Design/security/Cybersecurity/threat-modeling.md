@@ -29,12 +29,6 @@ slug: threat-modeling
 ## Purpose
 Systematically identify, analyze, and mitigate security threats in system design using STRIDE, PASTA, LINDDUN, or DREAD methodologies covering architecture decomposition, data flow analysis, threat identification, risk prioritization, and countermeasure design.
 
-## 🚀 Quick Threat Model Prompt
-
-> Perform threat modeling for **[SYSTEM]** using **[STRIDE/PASTA/LINDDUN]** methodology. Create: architecture diagram with **[TRUST_BOUNDARIES]**, data flow diagram, asset inventory. Identify threats: **[SPOOFING/TAMPERING/REPUDIATION/INFO_DISCLOSURE/DOS/ELEVATION]**. For each threat: attack scenario, likelihood **[L/M/H]**, impact **[L/M/H]**, risk score, mitigations. Map to **[MITRE_ATT&CK]**. Prioritize by risk, deliver remediation roadmap.
-
----
-
 ## Template
 
 Perform threat modeling for {SYSTEM_NAME} ({ARCHITECTURE_TYPE}) processing {DATA_CLASSIFICATION} data using {METHODOLOGY} achieving {SECURITY_OBJECTIVES}.

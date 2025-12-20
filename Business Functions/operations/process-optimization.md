@@ -34,14 +34,6 @@ slug: process-optimization-readiness-assessment
 ## Purpose
 Assess an organization's readiness to improve an end-to-end process across six dimensions: Process Visibility, Diagnosis, Standard Work & Controls, Data & Systems Enablement, People & Change, and Governance & Continuous Improvement. Identify gaps, prioritize interventions, and produce a roadmap tied to measurable outcomes.
 
-## 🚀 Quick Assessment Prompt
-
-> Assess **process optimization readiness** for **[ORGANIZATION]** improving **[TARGET_PROCESS]** to achieve **[OPTIMIZATION_GOALS]**. Evaluate across: (1) **Process visibility**—do we have an accurate map, baseline metrics (touch time vs wait time), and clear “start/end” boundaries? (2) **Diagnosis**—can we reliably identify the constraint, top waste categories, and root causes (not symptoms)? (3) **Standard work & controls**—are steps, handoffs, and exceptions standardized with quality controls to prevent rework? (4) **Data & systems enablement**—are systems, data definitions, and tooling sufficient to measure and sustain improvements (and to automate safely where appropriate)? (5) **People & change**—do owners, SMEs, and front line have capacity, skills, and incentives to change the work? (6) **Governance & CI**—are there decision rights, cadence, and KPI ownership to sustain gains? Provide a 1–5 scorecard, top gaps, prioritized recommendations, and a 90-day roadmap.
-
-**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for a rapid process-optimization readiness evaluation.
-
----
-
 ## Template
 
 Conduct a comprehensive process optimization readiness assessment for {ORGANIZATION}, a {INDUSTRY} organization seeking to improve {TARGET_PROCESS}.

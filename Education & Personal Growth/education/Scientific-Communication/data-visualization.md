@@ -34,14 +34,6 @@ slug: data-visualization
 ## Purpose
 Assess whether your charts, figures, infographics, or visual abstracts are ready to publish or present by scoring six dimensions: Message & Audience Fit, Data & Encoding Fit, Design & Accessibility, Statistical Integrity, Reproducibility & Tooling, and Delivery Constraints. Use this to decide **ready / revise-first** and to generate a focused revision plan.
 
-## 🚀 Quick Assessment Prompt
-
-> Assess **data visualization readiness** for **{VIS_CONTEXT}** communicating **{KEY_CLAIM}** using **{DATA_CONSTRAINTS}**. Score each dimension 1–5 with brief evidence: (1) message & audience fit, (2) data & encoding fit, (3) design & accessibility, (4) statistical integrity, (5) reproducibility & tooling, (6) delivery constraints (journal/conference/medium). Provide an overall maturity level, a revise-first checklist, and a prioritized improvement plan.
-
-**Usage:** Replace the curly-brace placeholders with your specifics.
-
----
-
 ## Template
 
 Conduct a data visualization readiness assessment for {VIS_CONTEXT} communicating {KEY_CLAIM} using {DATA_CONSTRAINTS}.

@@ -27,12 +27,6 @@ slug: version-control
 ## Purpose
 Establish comprehensive Git workflow including branching strategy, commit conventions, code review processes, merge conflict resolution, CI/CD integration, and release management for collaborative software development teams.
 
-## 🚀 Quick Git Workflow Prompt
-
-> Establish Git workflow for **[TEAM_SIZE]** developers using **[BRANCHING_MODEL]** (Git Flow/GitHub Flow/trunk-based) with **[PLATFORM]** (GitHub/GitLab/Bitbucket). Configure: (1) **Branch protection**—what main/develop protection rules, required approvals, status checks? (2) **Commit standards**—what Conventional Commits format (feat/fix/docs), issue linking, sign-off requirements? (3) **PR process**—what review SLAs, automated checks (tests/lint/security), merge strategy (squash/rebase/merge commit)? (4) **CI/CD integration**—what pipeline triggers, quality gates, deployment automation? (5) **Release management**—what semantic versioning, changelog generation, tag protection? Deliver repository setup, workflow documentation, team training materials.
-
----
-
 ## Template
 
 Establish version control strategy for {TEAM_SIZE} developers using {BRANCHING_MODEL} branching approach on {PLATFORM} targeting {RELEASE_CYCLE} release frequency with {QUALITY_GATES} quality requirements.

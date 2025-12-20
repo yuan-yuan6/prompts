@@ -33,12 +33,6 @@ slug: network-analysis-overview
 ## Purpose
 Navigate the comprehensive network analysis framework to perform graph analytics, understand relationships, identify influential nodes, detect communities, and extract insights from interconnected data. This overview guides selection among specialized modules for data preparation, centrality and community analysis, path and temporal analysis, and visualization.
 
-## 🚀 Quick Start Prompt
-
-> Analyze a **[NETWORK TYPE]** network with **[SIZE]** to answer **[RESEARCH QUESTION]**. Recommend: (1) **Analysis modules**—which specialized templates to use based on my question; (2) **Workflow sequence**—order of operations from data loading through visualization; (3) **Key metrics**—centrality measures, community algorithms, or path metrics most relevant; (4) **Expected outputs**—deliverables at each stage. Provide module selection rationale, analysis plan, and timeline estimate.
-
----
-
 ## Template
 
 Navigate network analysis for {NETWORK_DESCRIPTION}, addressing {ANALYSIS_QUESTIONS} to achieve {RESEARCH_OBJECTIVES}.

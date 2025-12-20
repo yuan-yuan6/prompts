@@ -32,12 +32,6 @@ slug: partner-collaboration-readiness-assessment
 ## Purpose
 Assess readiness to build **successful strategic partnerships** that drive mutual value, innovation, and market expansion. Use this to diagnose gaps in partner strategy, enablement, governance, and performance management.
 
-## 🚀 Quick Assessment Prompt
-
-> Assess **partner collaboration readiness** for {PARTNER_CONTEXT}. The partnership objectives are {OBJECTIVES}. Account for {CONSTRAINTS}. Score 1–5 across the six dimensions below and produce the required output (six deliverables).
-
----
-
 ## Template
 
 Conduct a partner collaboration & strategic alliances readiness assessment for {PARTNER_CONTEXT}.

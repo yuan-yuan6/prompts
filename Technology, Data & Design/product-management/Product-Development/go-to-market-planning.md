@@ -33,14 +33,6 @@ slug: go-to-market-readiness-assessment
 ## Purpose
 Comprehensively assess an organization's readiness to execute successful product launches through effective go-to-market strategies, coordinated cross-functional execution, and systematic customer acquisition. This framework evaluates capabilities across Market Understanding, Positioning & Messaging, Channel Strategy, Sales & Marketing Execution, Customer Success, and Launch Operations, identifying gaps that cause failed launches and providing actionable roadmaps for building GTM maturity.
 
-## 🚀 Quick Assessment Prompt
-
-> Assess **go-to-market readiness** for **{PRODUCT_NAME}** targeting **{TARGET_MARKET}** with **{GTM_MOTION}**. Evaluate across: (1) **Market understanding**—is the ICP clearly defined? Do you understand buyer personas, decision processes, and competitive landscape? What market sizing and opportunity validation exists? (2) **Positioning & messaging**—is there a clear value proposition differentiated from competitors? Are messages tailored by persona? Has messaging been validated with customers? (3) **Channel strategy**—are customer acquisition channels identified and tested? What's the CAC by channel? Is there a coherent multi-channel approach? (4) **Sales & marketing execution**—does the sales team have enablement materials, playbooks, and training? Are marketing campaigns ready with content and budget? (5) **Customer success readiness**—are onboarding processes defined? How will you ensure activation and retention? (6) **Launch operations**—is there a coordinated launch plan across teams? Are metrics defined? What's the contingency planning? Provide a maturity scorecard (1-5 per dimension), critical readiness gaps preventing successful launch, prioritized GTM improvements, and 90-day launch readiness plan.
-
-**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for rapid GTM readiness evaluation.
-
----
-
 ## Template
 
 Conduct a comprehensive go-to-market readiness assessment for {PRODUCT_NAME}, targeting {TARGET_MARKET} with {GTM_MOTION}.

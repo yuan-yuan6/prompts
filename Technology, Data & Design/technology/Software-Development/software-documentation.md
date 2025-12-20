@@ -30,12 +30,6 @@ slug: software-documentation
 ## Purpose
 Create production-quality technical documentation including API references (OpenAPI/Swagger), developer guides, system architecture, operations manuals, and user documentation achieving clarity, accuracy, and maintainability for diverse technical audiences.
 
-## 🚀 Quick Documentation Prompt
-
-> Create **[DOC_TYPE]** (API/developer guide/architecture/operations) for **[PROJECT_NAME]** targeting **[AUDIENCE]** (developers/ops/users). Coverage: (1) **API**—what endpoints (REST/GraphQL/gRPC), authentication (OAuth/API keys), request/response schemas (OpenAPI 3.0), rate limits (1000/min), error codes (400/401/403/500)? (2) **Architecture**—what system overview (microservices/monolith), component diagrams (C4 model), data flow, security design, deployment topology? (3) **Developer guide**—what setup (prerequisites, installation), code standards (ESLint/Prettier), testing (Jest/Pytest), contribution workflow (PR process)? (4) **Operations**—what monitoring (Prometheus/Grafana), backup procedures, scaling playbooks, troubleshooting guides, incident response? (5) **Distribution**—what format (Markdown/Swagger UI/Confluence), versioning strategy, review process, update frequency? Deliver complete documentation, code examples, diagrams, searchable structure.
-
----
-
 ## Template
 
 Create {DOCUMENTATION_TYPE} for {PROJECT_NAME} v{VERSION} targeting {TARGET_AUDIENCE} using {DOC_PLATFORM} with {REVIEW_FREQUENCY} update cycle achieving {QUALITY_STANDARD} quality.

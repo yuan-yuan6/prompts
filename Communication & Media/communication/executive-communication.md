@@ -32,12 +32,6 @@ slug: executive-communication-readiness-assessment
 ## Purpose
 Assess readiness to deliver **executive-grade communication**—concise, decision-oriented, evidence-backed, and contextually aware. Use this to diagnose gaps in message discipline, briefing structure, and stakeholder alignment.
 
-## 🚀 Quick Assessment Prompt
-
-> Assess **executive communication readiness** for {EXEC_CONTEXT}. The communication objectives are {OBJECTIVES}. Account for {CONSTRAINTS}. Score 1–5 across the six dimensions below and produce the required output (six deliverables).
-
----
-
 ## Template
 
 Conduct an executive communication & leadership briefings readiness assessment for {EXEC_CONTEXT}.

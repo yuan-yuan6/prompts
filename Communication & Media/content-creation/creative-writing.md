@@ -29,14 +29,6 @@ slug: creative-writing
 ## Purpose
 Comprehensively assess creative writing project readiness across six dimensions: Story Foundation, Character Development, Narrative Architecture, Writing Craft, Creative Vision, and Execution Planning. This framework identifies creative gaps, strengthens narrative elements, and creates development roadmaps for compelling fiction, scripts, poetry, and literary works.
 
-## 🚀 Quick Writing Assessment Prompt
-
-> Assess **creative writing readiness** for **[WRITER/TEAM]** developing **[WORK TYPE]** in **[GENRE]** targeting **[AUDIENCE]**. Evaluate across: (1) **Story foundation**—is the premise compelling with clear stakes? Do theme and setting support the narrative? (2) **Character development**—are protagonists multi-dimensional with authentic motivations? Do supporting characters serve the story? (3) **Narrative architecture**—is the plot structured with rising tension and satisfying resolution? Are pacing and scene progression effective? (4) **Writing craft**—is the prose style appropriate for genre and audience? Does dialogue reveal character? (5) **Creative vision**—is the voice distinctive? Does the work offer fresh perspective within genre conventions? Provide a readiness scorecard (1-5 per dimension), creative gaps, development priorities, and a writing plan with milestones.
-
-**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for rapid creative project evaluation.
-
----
-
 ## Template
 
 Conduct a comprehensive creative writing readiness assessment for {PROJECT_CONTEXT}, developing {CREATIVE_WORK_SCOPE} to achieve {ARTISTIC_OBJECTIVES}.

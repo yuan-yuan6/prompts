@@ -30,14 +30,6 @@ slug: pipeline-infrastructure
 ## Purpose
 Design and implement scalable infrastructure for data pipelines with performance optimization, infrastructure as code, container orchestration, and auto-scaling strategies. This framework covers infrastructure provisioning, deployment automation, performance tuning, resource management, and cost optimization for production data platforms.
 
-## 🚀 Quick Infrastructure Prompt
-
-> Design **pipeline infrastructure** for **[INFRASTRUCTURE CONTEXT]** addressing: (1) **Performance optimization**—what are the bottlenecks (CPU, memory, I/O, network)? What tuning strategies for batch sizes, parallelism, and caching? (2) **Infrastructure as code**—what Terraform/Pulumi modules for compute, storage, networking, and databases? (3) **Container orchestration**—what Kubernetes deployments, resource limits, health checks, and HPA scaling policies? (4) **Cost optimization**—what strategies for right-sizing, spot instances, lifecycle policies, and reserved capacity? Provide architecture design, IaC templates, and operational guidance.
-
-**Usage:** Replace bracketed placeholder with your specifics. Use as a prompt to an AI assistant for rapid infrastructure design.
-
----
-
 ## Template
 
 Design a comprehensive infrastructure and performance optimization solution for {INFRASTRUCTURE_CONTEXT}, addressing {PERFORMANCE_REQUIREMENTS} to achieve {SCALABILITY_OBJECTIVES}.

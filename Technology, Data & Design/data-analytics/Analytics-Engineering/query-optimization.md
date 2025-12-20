@@ -33,14 +33,6 @@ slug: query-optimization
 ## Purpose
 Comprehensively assess database query performance health across five dimensions: Query Efficiency, Indexing Strategy, Resource Utilization, Concurrency Management, and Monitoring Maturity. This framework identifies bottlenecks, prioritizes optimizations, and creates a performance improvement roadmap.
 
-## 🚀 Quick Assessment Prompt
-
-> Assess **query performance health** for **[DATABASE_PLATFORM]** database supporting **[WORKLOAD_TYPE]** workloads. Evaluate across: (1) **Query efficiency**—what's the average response time, % of queries meeting SLA, and execution plan quality? Are there table scans, missing indexes, or inefficient joins? (2) **Indexing strategy**—what's the index hit ratio, fragmentation level, and unused index count? (3) **Resource utilization**—what's the CPU, memory, and I/O profile? Are there wait statistics indicating bottlenecks? (4) **Concurrency health**—what's the blocking frequency, deadlock rate, and lock wait time? (5) **Monitoring maturity**—are baselines established, alerts configured, and maintenance automated? Provide a maturity scorecard (1-5 per dimension), gap analysis with top 5 priorities, and a 90-day optimization roadmap.
-
-**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for rapid query performance evaluation.
-
----
-
 ## Template
 
 Conduct a comprehensive query performance assessment for {DATABASE_CONTEXT} database serving {APPLICATION_WORKLOAD} with performance targets of {PERFORMANCE_REQUIREMENTS}.

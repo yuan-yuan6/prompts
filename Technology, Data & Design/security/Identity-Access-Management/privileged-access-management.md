@@ -28,12 +28,6 @@ slug: privileged-access-management
 ## Purpose
 Secure privileged accounts across enterprise environments with credential vaulting, just-in-time access, session monitoring, automated rotation, and compliance reporting achieving zero standing privileges and audit-ready access controls.
 
-## 🚀 Quick PAM Prompt
-
-> Implement PAM for **[ACCOUNT_COUNT]** privileged accounts across **[WINDOWS/LINUX/DATABASES/CLOUD]**. Solution: **[CYBERARK/BEYONDTRUST/HASHICORP_VAULT]**. Capabilities: credential vaulting (auto-rotation **[FREQUENCY]**), JIT access (**[APPROVAL_WORKFLOW]**), session recording (**[SCOPE]**), break-glass (**[DUAL_CONTROL]**). Compliance: **[SOX/PCI-DSS/HIPAA]**. Integration: **[SIEM/TICKETING/MFA]**. Target: zero standing privileges, 100% session audit trail.
-
----
-
 ## Template
 
 Implement PAM for {ORGANIZATION} securing {ACCOUNT_COUNT} privileged accounts across {TARGET_SYSTEMS} achieving {COMPLIANCE_REQUIREMENTS} compliance with {ACCESS_MODEL} access model.

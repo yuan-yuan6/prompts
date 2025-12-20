@@ -31,14 +31,6 @@ slug: learning-projects-readiness-assessment
 ## Purpose
 Assess readiness to successfully design and complete learning projects across six dimensions: Goal Clarity & Motivation, Learning Strategy, Resources & Support, Time Management, Progress Tracking, and Application & Transfer. This framework identifies learning readiness gaps, strengthens project design, and creates sustainable learning practices.
 
-## 🚀 Quick Assessment Prompt
-
-> Assess **learning project readiness** for **{LEARNING_GOAL}** in **{SUBJECT}** over **{TIMEFRAME}**. Evaluate across: (1) **Goal clarity**—is the learning objective specific and measurable? What's the "done" definition? Why pursue this now? (2) **Learning strategy**—what methods will be used? Are resources identified? Is the curriculum structured? (3) **Resources & support**—what time, budget, materials are available? Any mentors or learning communities? (4) **Time management**—how many hours per week? Is schedule realistic? How to handle conflicts? (5) **Progress tracking**—how will progress be measured? What milestones exist? When to assess? (6) **Application & transfer**—how will knowledge be applied? What real-world practice opportunities exist? How to maintain skills long-term? Provide a readiness scorecard (1-5 per dimension), learning plan recommendations, resource suggestions, and success strategies.
-
-**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for rapid learning project readiness evaluation.
-
----
-
 ## Template
 
 Assess learning project readiness for {LEARNING_GOAL} focusing on {SUBJECT} over {TIMEFRAME}.

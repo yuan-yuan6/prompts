@@ -33,12 +33,6 @@ slug: experimental-design-setup
 ## Purpose
 Configure the appropriate experimental design structure for your research objectives. This framework guides setup for eight design types—randomized controlled trials, A/B tests, factorial designs, crossover designs, cluster randomized trials, stepped-wedge designs, quasi-experimental designs, and regression discontinuity designs—with complete specifications for randomization, allocation, and implementation.
 
-## 🚀 Quick Start Prompt
-
-> Set up an **experiment** to test **[HYPOTHESIS]** with **[SAMPLE]** participants/units. Configure: (1) **Design type**—RCT, A/B test, factorial, crossover, cluster, stepped-wedge, quasi-experimental, or RDD based on research context; (2) **Treatment conditions**—intervention details, control specification, allocation ratio; (3) **Randomization scheme**—method, stratification variables, allocation concealment; (4) **Design parameters**—factors/levels for factorial, periods for crossover, clusters and ICC for cluster trials. Deliver complete design specification with allocation table and implementation checklist.
-
----
-
 ## Template
 
 Configure a complete experimental design for {RESEARCH_OBJECTIVE}, testing {TREATMENT_INTERVENTION} with {STUDY_PARAMETERS}.

@@ -34,12 +34,6 @@ slug: data-governance-framework
 ## Purpose
 Design comprehensive data governance programs covering quality management, regulatory compliance, security controls, master data management, and organizational structures. This framework enables trusted, compliant, and valuable data assets supporting business operations and decision-making.
 
-## 🚀 Quick Governance Prompt
-
-> Design data governance program for **[ORGANIZATION]** managing **[DATA_VOLUME]** across **[SYSTEM_COUNT]** systems. Evaluate across: (1) **Quality management**—what data quality dimensions, monitoring, and remediation processes are needed? (2) **Compliance**—what regulations apply (**[GDPR/CCPA/HIPAA/SOX]**) and what controls are required? (3) **Security**—what classification, access controls, and audit mechanisms protect sensitive data? (4) **Master data**—what entities need golden records and stewardship? (5) **Organization**—what roles, responsibilities, and decision rights govern data? Provide governance operating model, implementation roadmap, and success metrics.
-
----
-
 ## Template
 
 Design data governance framework for {ORGANIZATION} managing {DATA_LANDSCAPE} with regulatory requirements of {COMPLIANCE_NEEDS} and maturity goals of {TARGET_MATURITY}.

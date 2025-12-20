@@ -35,14 +35,6 @@ slug: literature-reviews
 ## Purpose
 Assess whether you’re ready to execute a rigorous literature review by scoring six dimensions: Scope & Questions, Search Strategy, Screening & Selection, Extraction & Data Management, Synthesis & Interpretation, and Reporting & Transparency. Use this as a **go / revise-first / stop** gate before investing heavy execution effort.
 
-## 🚀 Quick Assessment Prompt
-
-> Assess **literature review readiness** for **{REVIEW_CONTEXT}** using **{REVIEW_TYPE}** under **{CONSTRAINTS}**. Score each dimension 1–5 with brief evidence: (1) scope & questions, (2) search strategy, (3) screening & selection, (4) extraction & data management, (5) synthesis & interpretation, (6) reporting & transparency. Provide an overall maturity level, a go/revise-first recommendation, and a prioritized action plan.
-
-**Usage:** Replace the curly-brace placeholders with your specifics.
-
----
-
 ## Template
 
 Conduct a literature review readiness assessment for {REVIEW_CONTEXT} using {REVIEW_TYPE} under {CONSTRAINTS}.

@@ -32,12 +32,6 @@ slug: policy-communication-readiness-assessment
 ## Purpose
 Assess readiness to **communicate policy changes clearly, train employees effectively, and achieve compliance** without confusion or resistance. Use this to diagnose gaps in policy clarity, training quality, and adoption support.
 
-## 🚀 Quick Assessment Prompt
-
-> Assess **policy communication readiness** for {POLICY_CONTEXT}. The policy objectives are {OBJECTIVES}. Account for {CONSTRAINTS}. Score 1–5 across the six dimensions below and produce the required output (six deliverables).
-
----
-
 ## Template
 
 Conduct a policy communication & compliance rollout readiness assessment for {POLICY_CONTEXT}.

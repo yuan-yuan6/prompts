@@ -34,12 +34,6 @@ slug: pipeline-development-overview
 ## Purpose
 Navigate the complete data pipeline development lifecycle from data ingestion through infrastructure deployment. This overview helps you understand pipeline architecture patterns and select the appropriate specialized module for detailed implementation guidance across ingestion, transformation, orchestration, observability, and infrastructure.
 
-## 🚀 Quick Start Prompt
-
-> Design a **data pipeline architecture** for **[USE CASE]** with sources from **[SOURCE TYPES]** to **[TARGET PLATFORM]**. Evaluate: (1) **Pipeline pattern**—batch, streaming, CDC, or hybrid based on latency requirements; (2) **Architecture layers**—medallion (bronze-silver-gold), lambda, or kappa; (3) **Component selection**—ingestion method, transformation approach, orchestration platform, observability stack; (4) **Technology choices**—processing framework, storage format, cloud services. Deliver architecture diagram, component selection rationale, module navigation guide, and implementation phasing.
-
----
-
 ## Template
 
 Design a pipeline architecture for {PIPELINE_CONTEXT}, implementing {ARCHITECTURE_REQUIREMENTS} to achieve {DELIVERY_OBJECTIVES}.

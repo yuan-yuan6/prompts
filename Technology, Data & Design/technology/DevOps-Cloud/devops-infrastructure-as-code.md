@@ -29,12 +29,6 @@ slug: devops-infrastructure-as-code
 ## Purpose
 Design and implement infrastructure as code using Terraform, Pulumi, or CloudFormation covering module architecture, state management, CI/CD integration, security scanning, and policy enforcement achieving reproducible, auditable infrastructure deployments across environments.
 
-## 🚀 Quick IaC Prompt
-
-> Create IaC for **[CLOUD]** using **[TERRAFORM/PULUMI/CDK]**. Resources: **[VPC/COMPUTE/DATABASE/STORAGE]**. Environments: **[DEV/STAGING/PROD]** in **[REGIONS]**. State: **[S3/AZURE_BLOB/GCS]** with **[DYNAMODB/CONSUL]** locking. Structure: **[MONOREPO/MULTI_REPO]** with **[MODULE_STRATEGY]**. CI/CD: plan on PR, apply on merge to **[BRANCH]**. Security: **[TFSEC/CHECKOV/SNYK]**, policy **[OPA/SENTINEL]**. Include tagging strategy and cost estimation.
-
----
-
 ## Template
 
 Create infrastructure as code for {CLOUD_PROVIDER} using {IAC_TOOL} managing {INFRASTRUCTURE_SCOPE} across {ENVIRONMENTS} with {STATE_BACKEND} backend and {CICD_PLATFORM} integration.

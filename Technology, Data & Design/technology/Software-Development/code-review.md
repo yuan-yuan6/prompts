@@ -27,12 +27,6 @@ slug: code-review
 ## Purpose
 Conduct comprehensive code reviews evaluating security, performance, maintainability, test coverage, and adherence to standards providing constructive feedback prioritized by severity with actionable recommendations and positive reinforcement.
 
-## 🚀 Quick Code Review Prompt
-
-> Review **[MODULE/FEATURE]** in **[LANGUAGE/FRAMEWORK]** targeting **[REVIEW_FOCUS]** (security/performance/quality). Priorities: (1) **Security**—what OWASP Top 10 risks (SQL injection/XSS/auth bypass), input validation, encryption, sensitive data handling? (2) **Code quality**—what readability issues, complexity >10, duplication >5%, SOLID violations, test coverage <80%? (3) **Performance**—what algorithm complexity, N+1 queries, memory leaks, synchronous blocking calls? (4) **Standards**—what linting errors, type safety issues, documentation gaps, commit message quality? (5) **Testing**—what missing edge cases, integration test gaps, mock usage, flaky tests? Deliver issues by severity (critical/major/minor), specific code examples, suggested fixes, positive highlights.
-
----
-
 ## Template
 
 Review {MODULE} in {PROJECT} written in {LANGUAGE} using {FRAMEWORK} focusing on {REVIEW_PRIORITY} concerns targeting {TEST_COVERAGE}% coverage with {APPROVAL_CRITERIA} quality gates.

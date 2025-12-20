@@ -30,14 +30,6 @@ slug: ab-testing-experimentation-readiness
 ## Purpose
 Comprehensively assess an organization's capability to design, execute, and learn from rigorous A/B tests and experiments across six dimensions: Hypothesis & Design Quality, Statistical Capability, Technical Infrastructure, Execution Discipline, Analysis Rigor, and Organizational Maturity. This framework evaluates experimentation sophistication and identifies barriers to building an evidence-based product culture.
 
-## 🚀 Quick Assessment Prompt
-
-> Assess **experimentation readiness** for **[PRODUCT_CONTEXT]** planning **[EXPERIMENTATION_SCOPE]** to achieve **[TESTING_OBJECTIVES]**. Evaluate across: (1) **Hypothesis & design quality**—how well-formed are hypotheses with clear predictions? Is experimental design rigorous with appropriate controls and variants? (2) **Statistical capability**—what's the proficiency in sample size calculation, power analysis, and significance testing? Are teams avoiding common statistical pitfalls? (3) **Technical infrastructure**—what experimentation platforms exist for randomization, tracking, and analysis? Can experiments be launched quickly and reliably? (4) **Execution discipline**—how well do teams follow through on experiments without early stopping or peeking? What's the quality of monitoring during tests? (5) **Analysis rigor**—how thorough is statistical analysis with proper interpretation and segment analysis? Are results validated before shipping? (6) **Organizational maturity**—what's the experimentation velocity and culture? How widely are experiments used to inform decisions? Provide maturity scores (1-5 per dimension), capability gaps, prioritized recommendations, and a 6-month improvement roadmap.
-
-**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for comprehensive experimentation capability assessment.
-
----
-
 ## Template
 
 Conduct a comprehensive A/B testing and experimentation readiness assessment for {PRODUCT_CONTEXT}, focusing on {EXPERIMENTATION_SCOPE} to achieve {TESTING_OBJECTIVES}.

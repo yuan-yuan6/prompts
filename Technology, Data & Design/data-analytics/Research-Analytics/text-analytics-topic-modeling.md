@@ -33,12 +33,6 @@ slug: text-analytics-topic-modeling
 ## Purpose
 Discover and analyze latent topics in document collections using state-of-the-art topic modeling algorithms including LDA, BERTopic, NMF, and Hierarchical Dirichlet Process. Extract interpretable topics, track topic evolution over time, evaluate model quality, and generate visualizations for topic exploration.
 
-## 🚀 Quick Start Prompt
-
-> Discover **topics** in **[DOCUMENT CORPUS]** to understand **[ANALYSIS GOALS]**. Cover: (1) **Topic extraction**—identify 8-15 coherent topics using LDA and/or BERTopic; (2) **Evaluation**—measure coherence scores (target >0.4), assess topic distinctiveness; (3) **Interpretation**—extract top keywords, representative documents, and assign meaningful labels; (4) **Temporal analysis**—track topic evolution if timestamps available. Deliver topic descriptions with keywords, coherence metrics, document assignments, and visualizations.
-
----
-
 ## Template
 
 Conduct topic modeling analysis on {DOCUMENT_CORPUS}, aiming to {ANALYSIS_OBJECTIVES} in support of {BUSINESS_CONTEXT}.

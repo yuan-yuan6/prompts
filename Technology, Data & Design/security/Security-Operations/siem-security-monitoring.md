@@ -29,12 +29,6 @@ slug: siem-security-monitoring
 ## Purpose
 Implement SIEM platform covering log collection, normalization, threat detection, correlation, SOC operations, incident response integration, and compliance reporting achieving comprehensive security visibility and rapid threat detection.
 
-## 🚀 Quick SIEM Prompt
-
-> Implement SIEM using **[PLATFORM]** (Splunk/Sentinel/Elastic/QRadar) for **[ORGANIZATION]**. Log sources: **[ENDPOINTS]** endpoints, **[SERVERS]** servers, **[NETWORK]** devices, **[CLOUD]** (AWS/Azure/GCP), **[APPS]**. Volume: **[X_TB/day]** or **[Y_EPS]**. Retention: **[HOT/WARM/COLD]** tiers. Use cases: **[MITRE_ATT&CK_COVERAGE]**. SOC: **[24x7/BUSINESS_HOURS]**, **[TIERS]**. SOAR: **[PLATFORM]** for automation. Compliance: **[PCI/HIPAA/SOC2]**.
-
----
-
 ## Template
 
 Implement SIEM solution for {ORGANIZATION} with {LOG_VOLUME} ingestion from {LOG_SOURCES} achieving {COMPLIANCE_REQUIREMENTS} compliance with {SOC_MODEL} operations.

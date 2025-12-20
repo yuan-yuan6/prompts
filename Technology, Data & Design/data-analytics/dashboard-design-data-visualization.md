@@ -31,12 +31,6 @@ slug: dashboard-design-data-visualization
 ## Purpose
 Design effective data visualizations, KPI presentations, and technical architecture for enterprise dashboards. This framework guides visualization selection, interaction design, real-time data integration, and performance optimization to deliver actionable insights through well-designed user experiences.
 
-## 🚀 Quick Design Prompt
-
-> Design dashboard visualizations and technical architecture for **[DASHBOARD_TYPE]** serving **[USER_PERSONAS]**. Evaluate across: (1) **Visualization selection**—what chart types best communicate **[KEY_METRICS]** considering time-series trends, categorical comparisons, and geographic distributions? (2) **KPI design**—how should scorecards display current values, trends, targets, and alerts for at-a-glance status? (3) **Interaction patterns**—what filtering, drill-down, and self-service capabilities enable exploration? (4) **Data architecture**—how should **[DATA_SOURCES]** be integrated with what refresh frequency and caching strategy? (5) **Performance requirements**—what load times are acceptable for **[USER_COUNT]** concurrent users? Provide visualization specifications, interaction design, and technical architecture.
-
----
-
 ## Template
 
 Design dashboard visualization and technical implementation for {DASHBOARD_PURPOSE} serving {USER_ROLES} with data from {DATA_SOURCES} and performance requirements of {RESPONSE_TIME_TARGETS}.

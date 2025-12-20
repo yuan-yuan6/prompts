@@ -33,12 +33,6 @@ slug: experimental-design-overview
 ## Purpose
 Navigate experimental design selection and create comprehensive experiment plans from initial hypothesis through analysis strategy. This framework guides design type selection (RCT, A/B test, factorial, cluster, quasi-experimental), identifies key planning considerations, and coordinates across specialized templates for randomization, treatment effect analysis, and validity assessment.
 
-## 🚀 Quick Start Prompt
-
-> Design an **experiment** to test **[HYPOTHESIS]** with **[CONSTRAINTS]**. Recommend: (1) **Design type**—RCT, A/B test, factorial, crossover, cluster, stepped-wedge, or quasi-experimental based on randomization feasibility and unit structure; (2) **Key parameters**—sample size requirements, randomization strategy, primary outcome, analysis approach; (3) **Critical considerations**—potential threats to validity, implementation challenges, timeline; (4) **Template navigation**—which specialized templates to use for each phase. Deliver design recommendation with rationale, planning checklist, and workflow through analysis.
-
----
-
 ## Template
 
 Develop a comprehensive experimental design plan for {RESEARCH_QUESTION}, operating under {STUDY_CONSTRAINTS}, to achieve {DECISION_OBJECTIVES}.

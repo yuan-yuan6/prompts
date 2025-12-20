@@ -32,12 +32,6 @@ slug: treatment-effect-analysis
 ## Purpose
 Perform comprehensive treatment effect analysis using advanced causal inference methods. This framework covers intention-to-treat (ITT), per-protocol (PP), instrumental variable (IV), complier average causal effect (CACE), dose-response, and subgroup analysis approaches to quantify treatment impacts and establish causal relationships from experimental data.
 
-## 🚀 Quick Start Prompt
-
-> Analyze **treatment effects** from **[EXPERIMENT]** comparing **[TREATMENT vs CONTROL]**. Cover: (1) **ITT analysis** as primary—compare groups as randomized regardless of compliance; (2) **Per-protocol analysis**—estimate effect among compliant participants; (3) **Effect sizes** with 95% confidence intervals and clinical significance; (4) **Subgroup analyses** for key segments with interaction tests; (5) **Dose-response** if adherence varies. Deliver treatment effect estimates, NNT/NNH if applicable, forest plots for subgroups, and interpretation of practical significance.
-
----
-
 ## Template
 
 Conduct comprehensive treatment effect analysis for {EXPERIMENT_DESCRIPTION}, comparing {TREATMENT_COMPARISON} to inform {DECISION_CONTEXT}.
