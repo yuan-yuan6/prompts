@@ -32,31 +32,6 @@ Framework for developing and producing podcasts including content strategy, tech
 
 Launch podcast **{NAME}** in **{NICHE/TOPIC}** targeting **{LISTENER_COUNT}** audience. Define format as **{FORMAT: interview/narrative/news/educational/hybrid}** with **{DURATION}** episodes at **{FREQUENCY: daily/2x-weekly/weekly/biweekly}**. Set up production workflow for **{WORKFLOW: recording/editing/post-production/publishing}** using **{EQUIPMENT: USB-mic-solo/pro-studio/remote-setup}**, distribute on **{PLATFORMS: Apple/Spotify/YouTube/Google/RSS}**, grow audience via **{GROWTH: SEO/social/guest-leverage/paid-ads/PR}**, and monetize through **{REVENUE: sponsorship/premium/events/merch/crowdfunding}**. Target **{DOWNLOADS}** per episode with **{GROWTH_RATE}**% monthly growth and **{REVENUE_TARGET}** revenue within **{TIMELINE}**.
 
-## Quick Start
-
-**Need to launch a podcast?** Use this minimal example:
-
-### Minimal Example
-```
-Launch podcast TechTalks in B2B SaaS space targeting 50K monthly listeners, with 1 episode per week interview format (45 minutes), achieving 10K downloads per episode, $8K monthly revenue through sponsorships, and 15% monthly growth over 12 months.
-```
-
-### When to Use This
-- Starting new podcast with specific niche positioning, target audience demographics, and competitive differentiation strategy
-- Building professional production workflows from pre-production planning through recording, editing, and multi-platform publishing
-- Growing listenership through SEO optimization, social media engagement, guest audience cross-promotion, and paid advertising
-- Monetizing through diverse revenue streams including sponsorships, premium content, live events, merchandise, and community support
-
-### Basic 6-Step Workflow
-1. **Develop Podcast Concept** - Define format, niche positioning, episode structure, release schedule, and competitive differentiation
-2. **Set Up Production System** - Acquire equipment, configure software, establish editing workflow, create production templates
-3. **Record & Edit Content** - Conduct interviews, record audio, edit for quality, add music/sound design, export for distribution
-4. **Distribute Across Platforms** - Publish to Apple Podcasts, Spotify, YouTube, Google Podcasts, RSS feed, optimize metadata
-5. **Grow Audience** - Implement SEO strategy, promote on social media, leverage guest audiences, run paid campaigns, build community
-6. **Monetize & Scale** - Secure sponsorships, launch premium tier, sell merchandise, host live events, expand to podcast network
-
-**Time to complete**: 2-4 weeks for basic podcast launch with 3-5 buffer episodes, 2-3 months for professional production with equipment setup and monetization partnerships, 6-12 months to reach 10K+ downloads per episode with established sponsor relationships
-
 ---
 
 ## Template

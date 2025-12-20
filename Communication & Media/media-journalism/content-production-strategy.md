@@ -33,31 +33,6 @@ Framework for developing and managing content strategies across multiple channel
 
 Develop content strategy for **{PUBLICATION}** producing **{VOLUME}** pieces monthly across **{CHANNELS: web/video/social/podcast/newsletter}**. Define content pillars of **{TOPICS: news/analysis/features/tutorials}**, create editorial calendar with **{FREQUENCY: daily/weekly/monthly}** publishing, assign team roles for **{WORKFLOW: ideation/research/creation/editing/publishing}**, establish quality standards for **{CONTENT_TYPES: articles/video/audio/interactive}**, and set performance targets of **{METRICS: traffic/engagement/conversion}**. Budget **{AMOUNT}** with monetization via **{REVENUE: ads/subscriptions/sponsored/events}** targeting **{AUDIENCE_SIZE}** in **{DEMOGRAPHIC: age/location/interests}**.
 
-## Quick Start
-
-**Need to create a content strategy?** Use this minimal example:
-
-### Minimal Example
-```
-Develop content strategy for TechDaily producing 200 pieces monthly across 5 channels (web, YouTube, LinkedIn, newsletter, podcast), targeting 1M monthly audience with $150K budget, focusing on tech news and analysis with 60% advertising revenue and 40% subscriptions.
-```
-
-### When to Use This
-- Building editorial calendars with content mix across long-form articles, breaking news, video, podcasts, and social media
-- Establishing production workflows with clear roles, timelines, quality checks, and approval processes for editorial teams
-- Optimizing discoverability through SEO strategies, keyword targeting, featured snippets, and technical performance
-- Monetizing through advertising (display, programmatic, sponsored), subscriptions (paywalls, memberships), events, and licensing
-
-### Basic 6-Step Workflow
-1. **Define Content Ecosystem** - Map content types, identify personas, establish pillars, allocate channel resources
-2. **Build Editorial Calendar** - Plan content mix (tentpole/evergreen/trending), set publishing schedule, plan seasonal themes
-3. **Create Production Workflow** - Assign roles (writers, editors, producers), define timelines, establish quality standards
-4. **Optimize for SEO** - Target keywords, optimize technical performance, build backlinks, capture featured snippets
-5. **Distribute Multi-Channel** - Adapt content for web/email/social/app, optimize each platform, track engagement
-6. **Measure & Monetize** - Track traffic/engagement/conversions, analyze content performance, optimize revenue streams
-
-**Time to complete**: 1-2 weeks for basic single-channel strategy, 4-6 weeks for comprehensive multi-channel strategy with full team workflows and monetization planning
-
 ---
 
 ## Template
