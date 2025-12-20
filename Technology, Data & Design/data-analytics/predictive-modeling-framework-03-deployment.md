@@ -31,6 +31,12 @@ slug: predictive-modeling-framework-03-deployment
 ## Purpose
 Design comprehensive deployment and monitoring strategies for production machine learning systems. This framework guides deployment architecture selection, API design, performance monitoring, drift detection, retraining automation, and governance to operationalize predictive models reliably at scale.
 
+## 🚀 Quick Deployment Prompt
+
+> Design deployment and monitoring for **[MODEL_TYPE]** predicting **[TARGET_VARIABLE]** with **[PREDICTION_VOLUME]** daily predictions. Evaluate across: (1) **Serving architecture**—should we use batch, real-time API, or stream processing for **[LATENCY_REQUIREMENTS]**? (2) **Infrastructure**—what compute resources, scaling strategy, and deployment pattern (containers, serverless, edge)? (3) **Monitoring strategy**—what metrics track prediction quality, data drift, and system health? (4) **Retraining approach**—what triggers model updates and how frequently? (5) **Governance**—what approval workflows, audit trails, and compliance controls? Provide deployment architecture, monitoring plan, and operational runbook.
+
+---
+
 ## Template
 
 Design deployment and monitoring for {MODEL_DESCRIPTION} serving {PREDICTION_WORKLOAD} with operational requirements of {SLA_TARGETS}.

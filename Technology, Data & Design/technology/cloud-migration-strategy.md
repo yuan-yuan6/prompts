@@ -30,6 +30,12 @@ slug: cloud-migration-strategy
 ## Purpose
 Plan and execute cloud migration initiatives covering assessment, migration patterns (7Rs), landing zone setup, wave-based execution, security implementation, and operational transformation achieving cost reduction, improved agility, and compliance requirements.
 
+## 🚀 Quick Cloud Migration Prompt
+
+> Plan migration of **[APP_COUNT]** applications, **[DATA_VOLUME]** data to **[AWS/AZURE/GCP]** over **[MONTHS]** months. Pattern mix: **[X%]** rehost, **[Y%]** replatform, **[Z%]** refactor. Build landing zone: VPC, IAM, security baseline, monitoring. Execute: pilot (**[2-3]** apps) → waves (**[20-30]** apps each). Target: **[X%]** cost reduction, **[Y%]** availability. Include: rollback plan, success criteria, decommissioning.
+
+---
+
 ## Template
 
 Execute cloud migration for {ORGANIZATION} migrating {APPLICATION_COUNT} applications, {DATA_VOLUME} data to {CLOUD_PROVIDER} achieving {COST_TARGET}% cost reduction, {AVAILABILITY_TARGET}% availability over {TIMELINE} timeline.

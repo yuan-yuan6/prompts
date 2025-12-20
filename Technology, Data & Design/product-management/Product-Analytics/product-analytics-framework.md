@@ -30,6 +30,14 @@ slug: product-analytics-infrastructure-readiness
 ## Purpose
 Comprehensively assess an organization's product analytics infrastructure maturity across six dimensions: Data Collection Quality, Tool Stack Architecture, Data Governance & Quality, Analytics Accessibility, Insight Generation Capability, and Organizational Enablement. This framework evaluates the foundation for data-driven product development and identifies infrastructure investments needed for scale.
 
+## 🚀 Quick Assessment Prompt
+
+> Assess **product analytics infrastructure readiness** for **[PRODUCT_CONTEXT]** at **[COMPANY_STAGE]** to support **[ANALYTICS_OBJECTIVES]**. Evaluate across: (1) **Data collection quality**—what's the event tracking coverage, instrumentation reliability, and tracking plan completeness? Are critical user journeys fully instrumented? (2) **Tool stack architecture**—what analytics platforms, data warehouses, and BI tools exist? Is the stack scalable and integrated? (3) **Data governance & quality**—what's the data accuracy, schema consistency, and quality monitoring? Are there clear taxonomies and validation processes? (4) **Analytics accessibility**—how easily can teams access data and create dashboards? What's the self-service capability versus analyst bottlenecks? (5) **Insight generation capability**—what analytical methods are available for funnels, cohorts, and segmentation? Can the infrastructure support advanced analytics? (6) **Organizational enablement**—what's the team's analytics literacy and adoption? How well is analytics integrated into product workflows? Provide maturity scores (1-5 per dimension), infrastructure gaps, prioritized recommendations, and a 6-month implementation roadmap.
+
+**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for comprehensive analytics infrastructure assessment.
+
+---
+
 ## Template
 
 Conduct a comprehensive product analytics infrastructure readiness assessment for {PRODUCT_CONTEXT} at {COMPANY_STAGE} to achieve {ANALYTICS_OBJECTIVES}.

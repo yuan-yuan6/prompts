@@ -29,6 +29,12 @@ slug: cloud-architecture
 ## Purpose
 Design production-grade cloud architectures on AWS, Azure, or GCP covering compute, storage, networking, security, high availability, and cost optimization achieving 99.9%+ uptime with compliance requirements and budget constraints.
 
+## 🚀 Quick Cloud Architecture Prompt
+
+> Design cloud architecture on **[AWS/AZURE/GCP]** for **[APPLICATION_TYPE]** with **[USERS]** users, **[RPS]** requests/sec. Compute: **[EC2/LAMBDA/ECS/GKE]**. Database: **[RDS/DYNAMODB/AURORA]**. Requirements: **[UPTIME]**% availability, **[COMPLIANCE]** compliance, **[BUDGET]**/month budget. Include VPC design (**[AZS]** AZs), auto-scaling (**[MIN]-[MAX]** instances), DR (**[RTO/RPO]**), and cost optimization strategy.
+
+---
+
 ## Template
 
 Design cloud architecture on {CLOUD_PROVIDER} for {APPLICATION_TYPE} supporting {SCALE_REQUIREMENTS} with {AVAILABILITY_TARGET}% availability and {BUDGET} monthly budget.

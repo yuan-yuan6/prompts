@@ -31,6 +31,12 @@ slug: client-relations-readiness-assessment
 ## Purpose
 Assess readiness to build **lasting, value-driven client relationships** that maximize retention, expansion, and advocacy. Use this to diagnose gaps in account strategy, engagement, issue resolution, and growth execution.
 
+## 🚀 Quick Assessment Prompt
+
+> Assess **client relations readiness** for {CLIENT_CONTEXT}. The relationship objectives are {OBJECTIVES}. Account for {CONSTRAINTS}. Score 1–5 across the six dimensions below and produce the required output (six deliverables).
+
+---
+
 ## Template
 
 Conduct a client relations & account management readiness assessment for {CLIENT_CONTEXT}.

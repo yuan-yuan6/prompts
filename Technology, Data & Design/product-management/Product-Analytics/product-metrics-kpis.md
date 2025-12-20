@@ -33,6 +33,14 @@ slug: product-metrics-readiness-assessment
 ## Purpose
 Comprehensively assess a product organization's readiness to measure, track, and optimize product performance through effective metrics frameworks, analytics infrastructure, and data-driven decision processes. This framework evaluates capabilities across Metrics Strategy, Instrumentation & Infrastructure, Analysis & Insights, Team Capability, Operational Excellence, and Governance, identifying gaps that prevent data-driven product management and providing actionable roadmaps for building measurement maturity.
 
+## 🚀 Quick Assessment Prompt
+
+> Assess **product metrics readiness** for **{PRODUCT_NAME}** serving **{TARGET_USERS}** with **{BUSINESS_MODEL}**. Evaluate across: (1) **Metrics Strategy**—is there a clear North Star metric aligned to value delivery? Are AARRR funnel metrics defined with targets? How well does the metrics hierarchy connect daily actions to business outcomes? (2) **Instrumentation**—what's the analytics platform maturity? Is event tracking comprehensive and accurate? What's the data quality and completeness? (3) **Analysis capability**—can the team perform cohort analysis, funnel optimization, and segmentation? What tools and skills exist for insight generation? (4) **Team & culture**—is there product analytics expertise? Do PMs, designers, and engineers use data in decisions? What's the data literacy level? (5) **Operational excellence**—are there regular metric reviews, dashboards for different audiences, and experimentation processes? (6) **Governance**—are metric definitions documented? Is there data quality monitoring and metric ownership? Provide a maturity scorecard (1-5 per dimension), critical gaps, prioritized instrumentation plan, and 6-month capability building roadmap.
+
+**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for rapid product metrics readiness evaluation.
+
+---
+
 ## Template
 
 Conduct a comprehensive product metrics readiness assessment for {PRODUCT_NAME}, serving {TARGET_USERS} with {BUSINESS_MODEL}.

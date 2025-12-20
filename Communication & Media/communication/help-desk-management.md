@@ -32,6 +32,12 @@ slug: help-desk-readiness-assessment
 ## Purpose
 Assess readiness to deliver **effective help desk operations** that meet SLAs, optimize costs, and improve user satisfaction. Use this to diagnose gaps in service design, process efficiency, tools, and team capability.
 
+## 🚀 Quick Assessment Prompt
+
+> Assess **help desk readiness** for {HELP_DESK_CONTEXT}. The service objectives are {OBJECTIVES}. Account for {CONSTRAINTS}. Score 1–5 across the six dimensions below and produce the required output (six deliverables).
+
+---
+
 ## Template
 
 Conduct a help desk & service operations readiness assessment for {HELP_DESK_CONTEXT}.

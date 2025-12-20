@@ -32,6 +32,14 @@ slug: dashboard-strategy-requirements
 ## Purpose
 Comprehensively assess dashboard strategy and requirements readiness across six dimensions: Business Alignment, Stakeholder Needs, KPI Framework, Data Availability, Technical Feasibility, and Adoption Readiness. This framework identifies priorities, aligns stakeholders, and creates a phased implementation roadmap.
 
+## 🚀 Quick Assessment Prompt
+
+> Assess **dashboard strategy readiness** for **[ORGANIZATION]** planning to implement **[DASHBOARD SCOPE]**. Evaluate across: (1) **Business alignment**—what strategic objectives will dashboards support? What decisions need data visibility? (2) **Stakeholder needs**—who are primary users, what's their technical level, what decisions do they make? (3) **KPI clarity**—are critical metrics defined with owners, targets, and measurement methodology? (4) **Data availability**—do required data sources exist, are they accessible, what's the quality? (5) **Adoption readiness**—is there executive sponsorship, change appetite, and training capacity? Provide a maturity scorecard (1-5 per dimension), gap analysis, prioritized KPI list, and 90-day implementation roadmap.
+
+**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for rapid dashboard strategy evaluation.
+
+---
+
 ## Template
 
 Conduct a comprehensive dashboard strategy and requirements assessment for {ORGANIZATION_CONTEXT}, planning to implement dashboards for {DASHBOARD_SCOPE} to achieve {BUSINESS_OBJECTIVES}.

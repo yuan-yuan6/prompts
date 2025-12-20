@@ -31,6 +31,12 @@ slug: literature-review-protocol-search
 ## Purpose
 Assess whether a review team is ready to launch a literature review with a protocol and search strategy that are rigorous, reproducible, and aligned to the research question. This framework helps you avoid common failure modes (vague scope, untestable questions, unreplicable searches, and inconsistent selection decisions) and produce a protocol that can be registered and executed.
 
+## 🚀 Quick Assessment Prompt
+
+> Assess **protocol & search readiness** for **{REVIEW_CONTEXT}** using **{REVIEW_METHOD}** with a planned search scope of **{SEARCH_SCOPE}**. Evaluate: (1) question clarity and protocol scope, (2) eligibility criteria and decision rules, (3) search strategy design and database coverage, (4) screening workflow and quality controls, (5) governance, documentation, and reproducibility, and (6) feasibility (timeline, resources, stakeholder needs). Provide a scorecard (1–5), top risks, a minimum viable protocol outline, and a step-by-step plan to register and execute the search.
+
+---
+
 ## Template
 
 Conduct a protocol and search strategy readiness assessment for {REVIEW_CONTEXT} using {REVIEW_METHOD} with {SEARCH_SCOPE}.

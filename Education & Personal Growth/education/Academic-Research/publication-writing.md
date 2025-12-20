@@ -30,6 +30,14 @@ slug: publication-writing
 ## Purpose
 Comprehensively assess readiness to draft, submit, and revise an academic publication across six dimensions: Contribution & Positioning, Evidence & Method Reporting, Argument Structure & Clarity, Compliance & Research Integrity, Presentation & Supporting Materials, and Submission & Revision Workflow. This framework helps you identify blockers, reduce desk-reject risk, and produce a realistic writing and submission plan.
 
+## 🚀 Quick Assessment Prompt
+
+> Assess **publication writing readiness** for **{MANUSCRIPT_CONTEXT}** targeting **{TARGET_VENUE}** as a **{PUBLICATION_TYPE}**. Evaluate across: (1) **Contribution & positioning**—is the novelty clear and aligned to the venue’s scope and audience? (2) **Evidence & method reporting**—are methods, data, and analysis described with sufficient rigor and reproducibility for the venue and discipline? (3) **Argument structure & clarity**—does the narrative flow (IMRAD or alternative) make claims that are supported and bounded? (4) **Compliance & integrity**—are ethics, consent, approvals, conflicts, and citation practices complete and consistent? (5) **Presentation & materials**—are figures/tables, supplementary materials, and reporting checklists ready? (6) **Submission & revision workflow**—are coauthor roles, timeline, and response-to-review strategy defined? Provide a 1–5 scorecard, key risks, prioritized fixes, and a time-boxed plan.
+
+**Usage:** Replace the curly-brace placeholders with your specifics. Use as a prompt to an AI assistant for rapid readiness evaluation.
+
+---
+
 ## Template
 
 Conduct a comprehensive academic publication writing readiness assessment for {MANUSCRIPT_CONTEXT} targeting {TARGET_VENUE} as a {PUBLICATION_TYPE}.

@@ -29,6 +29,14 @@ slug: enterprise-risk-management-readiness-assessment
 ## Purpose
 Assess readiness to operate enterprise risk management across six dimensions: Governance & Accountability, Risk Appetite & Limits, Risk Identification & Taxonomy, Risk Measurement & Stress Testing, Controls & Assurance, and Reporting & Risk Culture. Identify gaps and produce an actionable ERM plan.
 
+## 🚀 Quick Assessment Prompt
+
+> Assess **ERM readiness** for **[INSTITUTION]** operating under **[REGULATORY_REGIME]**. Score 1–5 across: (1) **Governance**—are board/management roles, three-lines-of-defense, and decision rights clear? (2) **Appetite/limits**—is risk appetite translated into measurable limits with escalation and actions? (3) **Identification**—do we have a consistent taxonomy, RCSA process, and top-risk view? (4) **Measurement**—are KRIs, stress tests, and scenario analyses defined and used for decisions? (5) **Controls/assurance**—are controls designed, tested, and tracked with issues management? (6) **Reporting/culture**—are dashboards timely, actionable, and supported by training and accountability? Provide a scorecard, top gaps, and a 12-month roadmap.
+
+**Usage:** Replace bracketed placeholders with your specifics.
+
+---
+
 ## Template
 
 Conduct an ERM readiness assessment for {INSTITUTION} under {REGULATORY_REGIME}.

@@ -24,6 +24,12 @@ slug: article-writing
 ## Purpose
 Create compelling articles, blog posts, news stories, and feature pieces with engaging hooks, structured content, SEO optimization, and clear calls-to-action for digital publications, corporate blogs, magazines, and content marketing campaigns achieving reader engagement and measurable outcomes.
 
+## 🚀 Quick Article Writing Prompt
+
+> Write **{WORD_COUNT}**-word **{ARTICLE_TYPE}** (blog/feature/news/listicle/how-to) about **{TOPIC}** for **{TARGET_AUDIENCE}**. Hook: **{PAIN_POINT/CURIOSITY}**. Structure: **{NUMBER}** subheadings covering **{KEY_POINTS}**. Include **{DATA/EXAMPLES/QUOTES}**. Tone: **{CONVERSATIONAL/PROFESSIONAL/AUTHORITATIVE}**. CTA: **{DESIRED_ACTION}**. Optimize for **{SEO_KEYWORDS}** with **{GRADE_LEVEL}** readability.
+
+---
+
 ## Template
 
 Write {WORD_COUNT}-word {ARTICLE_TYPE} about {TOPIC} for {TARGET_AUDIENCE} ({AGE_RANGE}, {INTERESTS}, {READING_HABITS}) targeting {PUBLICATION} achieving {PAGEVIEWS_GOAL} pageviews, {TIME_ON_PAGE_MINUTES} minutes time-on-page, {ENGAGEMENT_RATE}% engagement rate.

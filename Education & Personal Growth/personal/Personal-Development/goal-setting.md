@@ -31,6 +31,14 @@ slug: goal-setting-readiness-assessment
 ## Purpose
 Assess readiness to set, pursue, and achieve meaningful personal and professional goals across six dimensions: Goal Clarity & Design, Planning & Structure, Resources & Support, Tracking & Measurement, Motivation & Commitment, and Adaptation & Learning. This framework identifies capability gaps, prioritizes development areas, and creates actionable goal-achievement strategies.
 
+## 🚀 Quick Assessment Prompt
+
+> Assess **goal-setting readiness** for **{GOAL_CONTEXT}** pursuing **{TARGET_GOALS}**. Evaluate across: (1) **Goal clarity**—are goals SMART (Specific, Measurable, Achievable, Relevant, Time-bound)? Are priorities clear and conflicts resolved? (2) **Planning quality**—are milestones defined, actions broken down, and timelines realistic? (3) **Resources & support**—what time, budget, tools, and accountability systems are available? (4) **Tracking systems**—how will progress be measured? Are KPIs defined and reviews scheduled? (5) **Motivation & commitment**—what drives pursuit? Are obstacles anticipated? What's the resilience level? (6) **Adaptation readiness**—how flexible is the approach? Are feedback loops established? Provide a readiness scorecard (1-5 per dimension), gap analysis, prioritized recommendations, and a 90-day goal-achievement action plan.
+
+**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for rapid goal-setting readiness evaluation.
+
+---
+
 ## Template
 
 Assess goal-setting readiness for {GOAL_CONTEXT}, focusing on {TARGET_GOALS} using {APPROACH}.

@@ -30,6 +30,12 @@ slug: quantum-computing-readiness-assessment
 ## Purpose
 Assess whether an organization is positioned to pursue quantum computing in a way that is strategically justified, technically realistic for the current quantum era, and operationally disciplined enough to generate credible evidence. This framework evaluates readiness across six dimensions—Use Case & Value, Quantum Feasibility & Advantage Hypothesis, Platform & Architecture, Talent & Partnerships, Governance & Risk, and Delivery & Measurement—so you can decide what to do next (wait, learn, pilot, or invest) and how to do it without over-committing to uncertain timelines.
 
+## 🚀 Quick Assessment Prompt
+
+> Assess **quantum computing readiness** for **{ORGANIZATION}** exploring **{QUANTUM_USE_CASES}** over **{TIME_HORIZON}**. Evaluate: (1) **Value clarity**—is there a real business problem and measurable value if solved? (2) **Feasibility**—is there a plausible quantum/hybrid approach and an advantage hypothesis, or is the use case premature? (3) **Platform/architecture**—can you run experiments reliably, manage costs, integrate with classical systems, and reproduce results? (4) **Talent/partners**—do you have the right mix of domain experts, algorithm capability, and engineering to build and validate? (5) **Governance/risk**—do you have decision rights, vendor strategy, IP posture, and realistic communications to avoid hype? (6) **Delivery/measurement**—can you run a disciplined program with evidence gates, benchmarks, and go/no-go decisions? Provide a scorecard (1–5), top risks, an 8–12 week pilot plan, and a 12–24 month capability roadmap.
+
+---
+
 ## Template
 
 Conduct a comprehensive quantum computing readiness assessment for {ORGANIZATION} exploring {QUANTUM_USE_CASES} over {TIME_HORIZON}.

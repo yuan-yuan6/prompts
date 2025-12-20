@@ -29,6 +29,14 @@ slug: video-scripts
 ## Purpose
 Comprehensively assess video script readiness across six dimensions: Narrative Structure, Audience Engagement, Visual Storytelling, Dialogue Quality, Platform Optimization, and Production Feasibility. This framework identifies script weaknesses, strengthens storytelling elements, and creates revision roadmaps for compelling video content across YouTube, documentaries, commercials, tutorials, and social media.
 
+## 🚀 Quick Script Assessment Prompt
+
+> Assess **video script readiness** for **[PROJECT/CREATOR]** developing **[VIDEO TYPE]** with **[RUNTIME]** targeting **[PLATFORM/AUDIENCE]**. Evaluate across: (1) **Narrative structure**—does the hook capture attention in first 15 seconds? Is the story arc clear with rising action and satisfying resolution? (2) **Audience engagement**—does pacing maintain retention? Are emotional beats authentic? (3) **Visual storytelling**—do scene descriptions support visual narrative? Are camera directions clear? (4) **Dialogue quality**—is character voice authentic? Does dialogue advance plot without exposition dumps? (5) **Platform optimization**—is format appropriate for YouTube/TikTok/social media algorithms? Are retention tactics employed? Provide a readiness scorecard (1-5 per dimension), script weaknesses, revision priorities, and rewrite roadmap.
+
+**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for rapid script evaluation.
+
+---
+
 ## Template
 
 Conduct a comprehensive video script readiness assessment for {PROJECT_CONTEXT}, developing {SCRIPT_SCOPE} to achieve {CONTENT_OBJECTIVES}.

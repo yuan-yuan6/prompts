@@ -34,6 +34,12 @@ slug: experimental-design
 ## Purpose
 Design, implement, and analyze controlled experiments to establish causal relationships with statistical rigor. This comprehensive framework covers the complete experimental lifecycle from hypothesis formulation through design selection, power analysis, randomization, data collection, treatment effect estimation, and validity assessment for A/B tests, randomized controlled trials, and causal inference studies.
 
+## 🚀 Quick Start Prompt
+
+> Design an **experiment** to test **[HYPOTHESIS]** with **[SAMPLE]** measuring **[PRIMARY OUTCOME]**. Cover: (1) **Design selection**—RCT, A/B test, factorial, cluster based on constraints; (2) **Power analysis**—sample size for target effect with 80% power; (3) **Randomization**—method, stratification, allocation concealment; (4) **Analysis plan**—ITT primary, secondary analyses, subgroups; (5) **Validity assessment**—threats and mitigations. Deliver complete protocol with design specification, sample size justification, randomization procedure, pre-registered analysis plan, and implementation timeline.
+
+---
+
 ## Template
 
 Design and analyze a controlled experiment for {EXPERIMENT_DESCRIPTION}, testing {TREATMENT_HYPOTHESIS} to inform {DECISION_CONTEXT}.

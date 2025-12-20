@@ -29,6 +29,12 @@ slug: cloud-security-architecture
 ## Purpose
 Design secure cloud infrastructure covering network architecture, IAM, data protection, logging/monitoring, compute/container/serverless security, compliance, and disaster recovery for AWS, Azure, GCP, and multi-cloud environments.
 
+## 🚀 Quick Cloud Security Prompt
+
+> Design secure **[CLOUD_PROVIDER]** (AWS/Azure/GCP) architecture for **[WORKLOAD]** handling **[DATA_CLASSIFICATION]** (PII/PHI/PCI). Implement: network segmentation **[VPC/VNET]**, IAM least-privilege, encryption **[AT_REST/IN_TRANSIT]**, logging **[CLOUDTRAIL/MONITOR/AUDIT]**, threat detection **[GUARDDUTY/DEFENDER/SCC]**. Compliance: **[SOC2/HIPAA/PCI/FEDRAMP]**. Deliver: architecture diagram, security controls matrix.
+
+---
+
 ## Template
 
 Design secure cloud architecture for {WORKLOAD} on {CLOUD_PROVIDER} processing {DATA_CLASSIFICATION} data achieving {COMPLIANCE_REQUIREMENTS} compliance with {HA_DR_REQUIREMENTS}.

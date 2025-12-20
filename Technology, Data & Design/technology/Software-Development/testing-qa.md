@@ -31,6 +31,12 @@ slug: testing-qa
 ## Purpose
 Design comprehensive testing and quality assurance strategies covering unit testing, integration testing, end-to-end testing, performance testing, security testing, and automated CI/CD pipelines ensuring software quality, reliability, and compliance with quality standards.
 
+## 🚀 Quick Testing Strategy Prompt
+
+> Create testing strategy for **[APPLICATION]** with **[SCALE]** users. Execute across: (1) **Unit testing**—what framework (Jest/pytest/JUnit), coverage target (80%+), mocking approach? (2) **Integration testing**—what API testing (Postman/Supertest), database testing, external service mocking? (3) **E2E testing**—what framework (Cypress/Playwright), browser coverage, critical user journeys? (4) **Performance testing**—what tool (k6/JMeter), load targets (X concurrent users, Y response time), stress scenarios? (5) **CI/CD integration**—what pipeline triggers (commit/PR), quality gates (coverage %, 0 critical bugs), test execution strategy? Deliver test plan, automation suite, quality metrics, and reporting dashboard.
+
+---
+
 ## Template
 
 Create testing strategy for {APPLICATION} at {SCALE} testing {CRITICAL_FLOWS} with {QUALITY_STANDARDS}.

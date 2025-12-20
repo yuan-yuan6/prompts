@@ -29,6 +29,12 @@ slug: data-pipeline-design
 ## Purpose
 Design comprehensive data pipelines covering ingestion patterns, transformation logic, quality frameworks, and operational concerns achieving reliable data flow from sources to analytics with defined latency SLAs and quality guarantees.
 
+## 🚀 Quick Pipeline Design Prompt
+
+> Design **[BATCH/STREAMING/HYBRID]** pipeline for **[USE_CASE]**. Sources: **[DATABASES/APIS/EVENTS]** at **[VOLUME]** daily. Latency: **[REAL_TIME/HOURLY/DAILY]**. Architecture: ingest → **[BRONZE/SILVER/GOLD]**. Stack: **[AIRFLOW/DAGSTER]** orchestrator, **[SPARK/DBT/FLINK]** processing, **[WAREHOUSE/LAKE]** storage. Include: schema evolution, idempotency, backfill support, **[QUALITY_CHECKS]**, monitoring (freshness, row counts, anomalies). SLA: **[REQUIREMENTS]**.
+
+---
+
 ## Template
 
 Design data pipeline for {USE_CASE} processing {DATA_VOLUME} from {SOURCE_SYSTEMS} with {LATENCY_SLA} latency achieving {QUALITY_TARGET}% data quality.

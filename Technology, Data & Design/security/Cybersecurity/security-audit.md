@@ -31,6 +31,12 @@ slug: security-audit
 ## Purpose
 Conduct enterprise security audits covering infrastructure, applications, identity/access management, data protection, governance, incident response, third-party risk, and security operations achieving compliance validation and risk-based remediation planning.
 
+## 🚀 Quick Security Audit Prompt
+
+> Conduct security audit for **[ORGANIZATION]** covering **[SCOPE]** (infrastructure/applications/comprehensive). Compliance: **[ISO27001/SOC2/NIST/HIPAA/PCI]**. Team: lead auditor **[CISA/CISSP]** + **[SPECIALISTS]**. Perform: network assessment **[NESSUS/QUALYS]**, application testing **[OWASP_TOP_10]**, IAM review, policy evaluation, control testing. Classify findings by **[CVSS + BUSINESS_IMPACT]**. Deliverables: executive summary, detailed findings, remediation roadmap **[TIMELINE_BY_SEVERITY]**, quarterly follow-up.
+
+---
+
 ## Template
 
 Conduct comprehensive security audit for {ORGANIZATION} in {INDUSTRY} covering {AUDIT_SCOPE} achieving {COMPLIANCE_FRAMEWORKS} compliance with {AUDIT_TIMELINE} engagement.

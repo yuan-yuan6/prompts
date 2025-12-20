@@ -34,6 +34,12 @@ slug: text-analytics-overview
 ## Purpose
 Guide selection of appropriate text analytics and NLP techniques based on analysis objectives, data characteristics, and business requirements. This overview helps navigate the specialized sub-templates for preprocessing, sentiment analysis, topic modeling, entity recognition, and advanced methods.
 
+## 🚀 Quick Start Prompt
+
+> Help me plan a **text analytics project** for **[TEXT DATA SOURCE]** to achieve **[ANALYSIS GOALS]**. Guide me through: (1) **Template selection**—which NLP techniques match my objectives? (2) **Workflow design**—what sequence of preprocessing, sentiment, topics, or entities? (3) **Resource planning**—what data volume considerations and computational requirements? (4) **Expected outputs**—what deliverables and insights should I expect? Recommend the optimal workflow sequence and specialized templates to use.
+
+---
+
 ## Template
 
 Plan a comprehensive text analytics project for {TEXT_DATA_DESCRIPTION}, aiming to achieve {ANALYSIS_GOALS} in support of {BUSINESS_CONTEXT}.

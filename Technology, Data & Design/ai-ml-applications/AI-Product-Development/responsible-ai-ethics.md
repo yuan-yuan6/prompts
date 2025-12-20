@@ -31,6 +31,14 @@ slug: responsible-ai-ethics
 ## Purpose
 Guide teams in building AI systems that are fair, transparent, accountable, and aligned with ethical principles. This framework provides systematic approaches for identifying and mitigating AI risks, ensuring regulatory compliance, and building user trust through responsible practices.
 
+## 🚀 Quick Start Prompt
+
+> Conduct a **responsible AI assessment** for **[AI SYSTEM]** that **[WHAT IT DOES]** affecting **[STAKEHOLDERS]**. Evaluate: (1) **Fairness**—which protected attributes need testing, what fairness metrics apply, what thresholds are acceptable, and what bias mitigation strategies should we implement? (2) **Transparency**—what explainability method is appropriate, what user-facing explanations are needed, and what documentation is required? (3) **Accountability**—who owns this model, what's the governance structure, and what audit trails are needed? (4) **Risk & compliance**—what's the impact severity, what regulations apply (EU AI Act, GDPR, industry-specific), and what are key risks and mitigations? Provide risk classification, monitoring plan, incident response procedure, and review schedule.
+
+**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for responsible AI assessment guidance.
+
+---
+
 ## Template
 
 Conduct a responsible AI assessment for {SYSTEM_NAME} that {SYSTEM_PURPOSE} affecting {STAKEHOLDERS}.

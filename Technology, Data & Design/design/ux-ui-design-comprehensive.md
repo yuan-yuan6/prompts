@@ -32,6 +32,12 @@ slug: ux-ui-design-comprehensive
 ## Purpose
 Design comprehensive UX/UI strategies covering user research, information architecture, wireframing, visual design systems, interaction design, accessibility, usability testing, and implementation handoff enabling user-centered digital products from discovery through launch.
 
+## 🚀 Quick UX Strategy Prompt
+
+> Design UX strategy for **[PRODUCT_TYPE]** targeting **[USERS]** solving **[PROBLEM]**. Execute across: (1) **Research**—what user interviews, personas, journey maps reveal pain points and opportunities? (2) **Architecture**—what navigation structure, content organization, and task flows support goals? (3) **Design system**—what visual components, patterns, and guidelines ensure consistency? (4) **Prototyping**—what fidelity levels validate concepts, interactions, and visual direction? (5) **Testing**—what usability metrics (completion rate, satisfaction, accessibility) validate success? Deliver research synthesis, wireframes, high-fidelity prototypes, design system, and test results.
+
+---
+
 ## Template
 
 Design UX/UI for {PRODUCT} serving {USERS} solving {PROBLEM} across {PLATFORMS}.

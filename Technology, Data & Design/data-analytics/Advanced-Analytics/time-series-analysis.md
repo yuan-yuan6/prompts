@@ -31,6 +31,14 @@ slug: time-series-analysis
 ## Purpose
 Build comprehensive time series solutions for forecasting, anomaly detection, and pattern recognition. This framework covers data characterization, statistical analysis, model selection, feature engineering, validation strategies, and production deployment for both batch and real-time streaming applications.
 
+## 🚀 Quick Start Prompt
+
+> Build a **time series forecasting** solution for **[METRIC/DOMAIN]** with **[DATA FREQUENCY]** data and **[HISTORY LENGTH]** history. Forecast horizon: **[DAYS/WEEKS/MONTHS]**. Target accuracy: **[MAPE %]**. Guide me through: (1) **Data characterization**—what's the trend, seasonality, stationarity? Are there structural breaks or anomalies? (2) **Model selection**—should I use ARIMA, Prophet, LSTM, XGBoost, or ensemble? What's the trade-off? (3) **Feature engineering**—what lag features, rolling statistics, and external variables should I include? (4) **Validation**—how to properly backtest time series models? Provide the analysis approach, model recommendation, feature set, and deployment strategy.
+
+**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for rapid time series solution design.
+
+---
+
 ## Template
 
 Develop a time series analysis solution for {METRIC_NAME} with {DATA_CHARACTERISTICS} to achieve {FORECAST_OBJECTIVE}.

@@ -29,6 +29,14 @@ slug: comedy-writing-readiness
 ## Purpose
 Comprehensively assess comedy writing capability to create reliably funny content across standup, sketch, and digital formats spanning six dimensions: Joke Mechanics & Structure, Comedic Voice Development, Timing & Performance, Audience Connection, Format Versatility, and Professional Standards. This framework evaluates comedy craft quality and identifies skill development pathways.
 
+## 🚀 Quick Assessment Prompt
+
+> Assess **comedy writing readiness** for **[COMEDIAN_CONTEXT]** creating **[COMEDY_SCOPE]** to achieve **[PERFORMANCE_OBJECTIVES]**. Evaluate across: (1) **Joke mechanics & structure**—how well-constructed are setups with clear premises, effective misdirection, and surprise punchlines? Are tags maximizing humor per premise? (2) **Comedic voice development**—how distinctive is the persona with authentic perspective and consistent character? Does vulnerability balance with confidence? (3) **Timing & performance**—how developed is beat control, pause utilization, and rhythm variation? Can delivery adapt to audience response? (4) **Audience connection**—how deeply does material resonate with target demographics through shared experiences? Is comedy punching up responsibly? (5) **Format versatility**—how well does content execute across standup sets, sketches, and social media? Is platform optimization effective? (6) **Professional standards**—how strong are ethical boundaries avoiding harmful stereotypes? Is originality maintained with legal compliance? Provide maturity scores (1-5 per dimension), craft gaps, prioritized recommendations, and a 12-week development plan.
+
+**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for comprehensive comedy writing capability assessment.
+
+---
+
 ## Template
 
 Conduct a comprehensive comedy writing readiness assessment for {COMEDIAN_CONTEXT} creating {COMEDY_SCOPE} to achieve {PERFORMANCE_OBJECTIVES}.

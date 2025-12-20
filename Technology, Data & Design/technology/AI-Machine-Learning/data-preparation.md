@@ -30,6 +30,12 @@ slug: data-preparation
 ## Purpose
 Prepare production-quality datasets for machine learning covering data cleaning (missing values, outliers, duplicates), feature engineering (encoding, scaling, creation), data labeling (annotation workflows, quality assurance), and augmentation (class balancing, synthetic data) achieving robust model training with no data leakage.
 
+## 🚀 Quick Data Preparation Prompt
+
+> Prepare **[DATA_TYPE]** dataset with **[ROWS]** rows and **[FEATURES]** features for **[MODEL_TYPE]** (classification/regression/NLP/vision). Pipeline: (1) **Cleaning**—what missing value strategy (drop/impute mean/median/KNN), outlier handling (IQR/z-score/winsorize), duplicate removal? (2) **Feature engineering**—what categorical encoding (one-hot <10 cardinality/target encoding high cardinality), numerical scaling (StandardScaler/MinMaxScaler/RobustScaler for outliers), new features (ratios, lags, interactions)? (3) **Splitting**—what train/val/test ratio (70/15/15), stratification for imbalanced classes, temporal split for time-series? (4) **Augmentation**—what class balancing (SMOTE/undersampling/class weights), data augmentation (rotation/flip for images, back-translation for text)? (5) **Validation**—what leakage checks (no future data, no target encoding on test), distribution verification, documentation? Deliver preprocessing pipeline, feature transformations, validation report.
+
+---
+
 ## Template
 
 Prepare {DATASET_NAME} with {DATA_SIZE} for {MODEL_TYPE} achieving {QUALITY_TARGET} data quality with {FEATURE_COUNT} engineered features and {SPLIT_RATIO} train/val/test split.

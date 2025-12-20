@@ -31,6 +31,14 @@ slug: conference-presentations
 ## Purpose
 Assess whether your conference talk or poster is ready by scoring six dimensions: Audience & Goal Fit, Story & Claims, Visual Design, Evidence & Figures, Delivery & Q&A, and Logistics & Assets. Use this to decide **ready / revise-first** and to produce a focused improvement plan.
 
+## 🚀 Quick Assessment Prompt
+
+> Assess **conference presentation readiness** for **{PRESENTATION_CONTEXT}** communicating **{KEY_MESSAGE}** to **{AUDIENCE}**. Score each dimension 1–5 with brief evidence: (1) audience & goal fit, (2) story & claims, (3) visual design, (4) evidence & figures, (5) delivery & Q&A, (6) logistics & assets. Provide an overall maturity level, a revise-first checklist, and a run-of-show.
+
+**Usage:** Replace the curly-brace placeholders with your specifics.
+
+---
+
 ## Template
 
 Conduct a conference presentation readiness assessment for {PRESENTATION_CONTEXT} communicating {KEY_MESSAGE} to {AUDIENCE}.

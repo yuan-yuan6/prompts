@@ -30,6 +30,14 @@ slug: ai-product-evaluation
 ## Purpose
 Establish comprehensive evaluation frameworks for AI products that measure technical performance, user experience, and business impact. This template guides teams in setting quality thresholds, designing evaluation experiments, and making data-driven deployment decisions.
 
+## 🚀 Quick Start Prompt
+
+> Evaluate **[AI PRODUCT/FEATURE]** before **[DEPLOYMENT DECISION]**. Assess: (1) **Technical quality**—does it meet accuracy, latency, and robustness requirements including edge cases and failure modes? (2) **User experience**—are users adopting it, finding it useful, and satisfied? (3) **Business impact**—what's the ROI, and is the impact on key metrics statistically significant? (4) **Safety and fairness**—are there harmful outputs, bias across user groups, or compliance gaps? For each dimension, define pass/fail thresholds, analyze results by user segment, and provide final recommendation (APPROVE/CONDITIONAL/REJECT) with evidence and next steps.
+
+**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for AI product evaluation guidance.
+
+---
+
 ## Template
 
 Evaluate {PRODUCT_NAME} for {EVALUATION_PURPOSE} against {SUCCESS_CRITERIA}.

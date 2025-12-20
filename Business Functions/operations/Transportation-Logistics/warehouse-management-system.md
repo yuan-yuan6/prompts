@@ -31,6 +31,12 @@ slug: warehouse-management-readiness-assessment
 ## Purpose
 Assess readiness to operate a high-throughput, high-accuracy distribution center with strong inventory integrity, reliable execution workflows (receive → store → pick → pack → ship → returns), and the technology and governance required to sustain performance.
 
+## 🚀 Quick Assessment Prompt
+
+> Assess **warehouse management readiness** for **[ORGANIZATION]** operating **[FACILITY_CONTEXT]** with **[ORDER_VOLUME]** daily orders. Score maturity (1–5) across: (1) **Data readiness** (inventory accuracy, item/location master data, scan compliance, visibility), (2) **Technology readiness** (WMS capabilities, integrations, RF/mobile/automation interfaces, reporting), (3) **Process readiness** (receiving/putaway/pick/pack/ship/returns, exception handling, standard work), (4) **Talent readiness** (supervision, engineering/CI, training, staffing model), (5) **Culture readiness** (safety, quality ownership, adoption of standard work, continuous improvement), (6) **Governance readiness** (KPIs, service levels, change control, vendor/partner SLAs). Provide a scorecard, top gaps, prioritized actions, and a 12‑month roadmap.
+
+---
+
 ## Template
 
 Conduct a warehouse management readiness assessment for {ORGANIZATION} operating {FACILITY_CONTEXT} and processing approximately {ORDER_VOLUME} orders/day.

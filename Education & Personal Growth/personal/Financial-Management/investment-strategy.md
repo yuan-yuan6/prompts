@@ -23,6 +23,12 @@ slug: investment-strategy-readiness-assessment
 ## Purpose
 Assess readiness to build an investing approach across six dimensions: goals/horizon, risk capacity, portfolio design, account/tax fit, contribution system, and behavioral discipline.
 
+## 🚀 Quick Assessment Prompt
+
+> Assess **investment strategy readiness** for **{INVESTOR_PROFILE}** pursuing **{INVESTING_GOALS}** within **{CONSTRAINTS}**. Score each dimension **1–5**, explain why, and provide a 12-month plan: portfolio approach, contribution cadence, and review metrics.
+
+---
+
 ## Template
 
 Conduct an investment strategy readiness assessment for {INVESTOR_PROFILE} pursuing {INVESTING_GOALS} within {CONSTRAINTS}.

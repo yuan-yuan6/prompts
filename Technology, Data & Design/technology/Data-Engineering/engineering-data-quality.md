@@ -29,6 +29,12 @@ slug: engineering-data-quality
 ## Purpose
 Implement comprehensive data quality frameworks covering validation rules, profiling, monitoring, and remediation achieving measurable quality SLAs with automated detection and alerting for production data systems.
 
+## 🚀 Quick Data Quality Prompt
+
+> Implement data quality for **[DATASET/PIPELINE]**. Dimensions: completeness (**[X]**%), accuracy (**[Y]**%), timeliness (**[Z]** freshness). Rules: **[VALIDATION_TYPES]** (nulls, ranges, formats, referential integrity). Tools: **[GREAT_EXPECTATIONS/DBT/SODA]**. Alerting: threshold breaches → **[PAGERDUTY/SLACK]**. Dashboard: quality scores by table, trend analysis. SLA: **[QUALITY_SCORE]**% minimum, **[FRESHNESS_HOURS]** hour freshness.
+
+---
+
 ## Template
 
 Implement data quality framework for {DATA_DOMAIN} achieving {QUALITY_TARGETS} with {MONITORING_APPROACH} monitoring and {SLA_REQUIREMENTS} SLAs.

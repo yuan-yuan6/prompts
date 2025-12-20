@@ -30,6 +30,14 @@ slug: pipeline-development
 ## Purpose
 Design comprehensive data pipeline solutions covering ingestion patterns, transformation logic, orchestration workflows, monitoring systems, and error handling frameworks. This template guides architects through building production-ready ETL/ELT pipelines with proper governance and operational excellence.
 
+## 🚀 Quick Pipeline Prompt
+
+> Design a **data pipeline** for **[PIPELINE CONTEXT]** addressing: (1) **Ingestion layer**—what source systems, extraction patterns (batch/streaming/CDC), connectors, and validation rules? (2) **Transformation layer**—what bronze/silver/gold processing, cleansing rules, business logic, and data quality checks? (3) **Orchestration**—what DAG structure, task dependencies, retry logic, and scheduling? (4) **Operations**—what monitoring, alerting, error handling, and recovery procedures? Provide architecture design, component specifications, and implementation guidance.
+
+**Usage:** Replace bracketed placeholder with your specifics. Use as a prompt to an AI assistant for rapid pipeline design.
+
+---
+
 ## Template
 
 Design a comprehensive pipeline development and orchestration solution for {PIPELINE_CONTEXT}, addressing {DATA_REQUIREMENTS} to achieve {DELIVERY_OBJECTIVES}.

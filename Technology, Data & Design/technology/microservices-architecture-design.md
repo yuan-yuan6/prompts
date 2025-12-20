@@ -29,6 +29,12 @@ slug: microservices-architecture-design
 ## Purpose
 Design and implement microservices architectures covering service decomposition, API design, communication patterns, data management, resilience patterns, and operational concerns achieving scalable, maintainable distributed systems.
 
+## 🚀 Quick Microservices Prompt
+
+> Design microservices for **[APPLICATION]** with **[SERVICE_COUNT]** services handling **[USERS]** concurrent users, **[TPS]** TPS. Decomposition: **[DDD/BUSINESS_FUNCTION]**. APIs: **[REST/GRPC]** with **[AUTH_METHOD]**. Async: **[KAFKA/RABBITMQ]** for events. Data: database per service (**[POSTGRES/MONGO]**). Orchestration: **[KUBERNETES]** with **[SERVICE_MESH]**. Resilience: circuit breakers, retry, timeout. Target: **[AVAILABILITY]**% availability, **[LATENCY]**ms p99.
+
+---
+
 ## Template
 
 Design microservices architecture for {APPLICATION} with {SERVICE_COUNT} services supporting {USER_LOAD} users achieving {AVAILABILITY_TARGET}% availability and {LATENCY_TARGET}ms p99 latency.

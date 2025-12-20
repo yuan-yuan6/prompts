@@ -33,6 +33,14 @@ slug: user-research-readiness-assessment
 ## Purpose
 Comprehensively assess a product organization's readiness to conduct effective user research, develop evidence-based personas, and build systematic user understanding that drives product decisions. This framework evaluates capabilities across Research Operations, Methodological Sophistication, Insight Synthesis, Persona Development, Organizational Integration, and Continuous Learning, identifying gaps that prevent customer-driven product development and providing actionable roadmaps for building user research maturity.
 
+## 🚀 Quick Assessment Prompt
+
+> Assess **user research readiness** for **{PRODUCT_NAME}** targeting **{TARGET_USERS}** facing **{KEY_RESEARCH_QUESTIONS}**. Evaluate across: (1) **Research operations**—what research infrastructure exists? Can the team recruit participants, conduct studies, and manage research logistics efficiently? What's the research cadence and budget? (2) **Methodological capability**—what research methods does the team master? Can they conduct interviews, usability tests, surveys, and ethnographic studies? Do they choose appropriate methods for questions? (3) **Synthesis & insight generation**—how effectively does the team extract actionable insights from data? Can they identify patterns, create journey maps, and connect findings to product decisions? (4) **Persona development**—are personas evidence-based and behavior-focused? Do they reflect real user segments with goals, pain points, and contexts? (5) **Organizational integration**—do product decisions reference user research? Are personas used in planning and design? What's the cross-functional research literacy? (6) **Continuous learning**—is there ongoing research vs one-time studies? How frequently are insights refreshed? Provide a maturity scorecard (1-5 per dimension), critical capability gaps, prioritized research roadmap, and 6-month capability building plan.
+
+**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for rapid user research readiness evaluation.
+
+---
+
 ## Template
 
 Conduct a comprehensive user research readiness assessment for {PRODUCT_NAME}, targeting {TARGET_USERS} to answer {KEY_RESEARCH_QUESTIONS}.

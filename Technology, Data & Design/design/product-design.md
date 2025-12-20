@@ -29,6 +29,12 @@ slug: product-design
 ## Purpose
 Design comprehensive product development strategies covering concept generation, specification definition, iterative prototyping, validation testing, and manufacturing preparation enabling user-centered physical products from initial ideation through production readiness.
 
+## 🚀 Quick Product Design Prompt
+
+> Design product strategy for **[PRODUCT_TYPE]** targeting **[USER_SEGMENT]** solving **[PROBLEM]**. Evaluate across: (1) **Concept approach**—what form factor, key features, and differentiation versus competitors? (2) **Specifications**—what dimensions, materials, performance targets, and regulatory requirements? (3) **Iteration plan**—what prototyping phases (low/medium/high fidelity) with what validation methods? (4) **Manufacturing strategy**—what production methods, material sourcing, and cost targets? (5) **Sustainability**—what material lifecycle, repairability, and end-of-life considerations? Provide concept sketches, technical specifications, prototype roadmap, and bill of materials.
+
+---
+
 ## Template
 
 Design product for {PRODUCT_TYPE} serving {USER_SEGMENT} solving {PROBLEM} with {MANUFACTURING_CONSTRAINTS}.

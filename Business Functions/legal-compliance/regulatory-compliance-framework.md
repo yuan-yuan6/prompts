@@ -35,6 +35,14 @@ slug: regulatory-compliance-readiness-assessment-program
 ## Purpose
 Assess readiness of an end-to-end regulatory compliance program across six dimensions: Regulatory Scope & Obligations, Governance & Policy Control, Risk Assessment & Control Mapping, Monitoring & Regulatory Change, Assurance & Issue Management, and Reporting & Evidence. Use the results to prioritize investments and produce a time-bound roadmap.
 
+## 🚀 Quick Assessment Prompt
+
+> Assess **regulatory compliance program readiness** for **[ORGANIZATION]** in **[INDUSTRY]** across **[JURISDICTIONS]** under **[CORE_REGULATIONS]**. Score 1–5 across: (1) **Scope/obligations**—do we know what applies and who owns it? (2) **Governance/policy control**—are decision rights, exceptions, and policy lifecycle controlled? (3) **Risk/control mapping**—is there a usable risk taxonomy and control mapping with owners? (4) **Monitoring/change**—is monitoring effective and regulatory change handled with evidence? (5) **Assurance/issues**—do audits/testing and CAPA prevent recurrence? (6) **Reporting/evidence**—are metrics trusted and exam evidence retrievable? Provide a scorecard, top gaps, and a 90-day program uplift plan.
+
+**Usage:** Replace bracketed placeholders with your specifics.
+
+---
+
 ## Template
 
 Conduct a program-level regulatory compliance readiness assessment for {ORGANIZATION}, a {INDUSTRY} organization operating across {JURISDICTIONS} under {CORE_REGULATIONS}.

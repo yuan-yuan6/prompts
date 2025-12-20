@@ -30,6 +30,14 @@ slug: negotiation-readiness-assessment
 ## Purpose
 Assess readiness to negotiate effectively across six dimensions: Preparation & Research, Goal Clarity & BATNA, Value Proposition, Communication Strategy, Emotional Intelligence, and Tactical Execution. This framework identifies preparation gaps, strengthens negotiation position, and creates win-win strategies.
 
+## 🚀 Quick Assessment Prompt
+
+> Assess **negotiation readiness** for **{NEGOTIATION_TYPE}** with **{COUNTERPART}** regarding **{SUBJECT}**. Evaluate across: (1) **Preparation**—have I researched market rates, counterpart's position, and alternatives? What's my information advantage? (2) **Goal clarity**—what's my ideal, acceptable, and walk-away outcome? Is my BATNA (Best Alternative to Negotiated Agreement) strong? (3) **Value proposition**—what unique value do I bring? What do they need that I can provide? (4) **Communication strategy**—what's my opening position? How will I handle objections? What concessions can I trade? (5) **Emotional intelligence**—can I read their signals? Manage my reactions? Build rapport? (6) **Tactical execution**—what's my timing? What anchoring strategy? When do I walk away? Provide a readiness scorecard (1-5 per dimension), negotiation strategy, conversation script, and success tactics.
+
+**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for rapid negotiation readiness evaluation.
+
+---
+
 ## Template
 
 Assess negotiation readiness for {NEGOTIATION_TYPE} with {COUNTERPART} regarding {SUBJECT}.

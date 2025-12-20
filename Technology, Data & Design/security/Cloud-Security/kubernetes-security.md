@@ -28,6 +28,12 @@ slug: kubernetes-security
 ## Purpose
 Secure Kubernetes clusters covering control plane hardening, RBAC, network policies, Pod Security Standards, secrets management, admission control, runtime security, and compliance achieving defense-in-depth for containerized workloads.
 
+## 🚀 Quick Kubernetes Security Prompt
+
+> Secure **[K8S_DISTRIBUTION]** (EKS/GKE/AKS/self-managed) with **[WORKLOADS]** workloads. Implement: RBAC least-privilege, network policies deny-by-default, Pod Security **[BASELINE/RESTRICTED]**, secrets via **[VAULT/CSI]**, admission control **[OPA/KYVERNO]**, image scanning **[TRIVY/SNYK]**, runtime monitoring **[FALCO/SYSDIG]**. Compliance: **[CIS_BENCHMARK/PCI/HIPAA]**. Deliverables: security policies, manifests, monitoring.
+
+---
+
 ## Template
 
 Secure Kubernetes cluster {K8S_DISTRIBUTION} running {WORKLOAD_COUNT} workloads achieving {COMPLIANCE_REQUIREMENTS} compliance with {SECURITY_POSTURE} stance.

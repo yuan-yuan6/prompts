@@ -33,6 +33,14 @@ slug: research-papers
 ## Purpose
 Assess whether your research paper is ready to draft or submit by scoring six dimensions: Journal & Audience Fit, Core Story & Contribution, Methods & Reporting Completeness, Results & Evidence Presentation, Discussion & Limitations, and Submission & Revision Workflow. Use the output to decide **go / revise-first** and to produce a tight manuscript plan.
 
+## 🚀 Quick Assessment Prompt
+
+> Assess **research paper readiness** for **{MANUSCRIPT_CONTEXT}** targeting **{TARGET_VENUE}** with **{CONSTRAINTS}**. Score each dimension 1–5 with brief evidence: (1) journal & audience fit, (2) story & contribution, (3) methods & reporting completeness, (4) results & evidence, (5) discussion & limitations, (6) submission & revision workflow. Provide an overall maturity level, a go/revise-first recommendation, and a prioritized revision plan.
+
+**Usage:** Replace the curly-brace placeholders with your specifics.
+
+---
+
 ## Template
 
 Conduct a research paper readiness assessment for {MANUSCRIPT_CONTEXT} targeting {TARGET_VENUE} with {CONSTRAINTS}.

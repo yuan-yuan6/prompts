@@ -26,6 +26,14 @@ slug: video-production-pipeline
 ## Purpose
 Comprehensively assess video production project readiness across six dimensions: Pre-Production Planning, Production Resources, Technical Execution, Post-Production Workflow, Distribution Strategy, and Project Management. This framework identifies production gaps, strengthens creative and technical foundations, and creates execution roadmaps for high-quality video content.
 
+## 🚀 Quick Production Assessment Prompt
+
+> Assess **video production readiness** for **[PROJECT/ORGANIZATION]** creating **[VIDEO TYPE]** with **[RUNTIME/BUDGET]** targeting **[PLATFORM/AUDIENCE]**. Evaluate across: (1) **Pre-production planning**—is the creative vision clear with approved script and storyboard? Are locations scouted and talent confirmed? (2) **Production resources**—is equipment adequate for technical requirements? Is crew experienced and sized appropriately? (3) **Technical execution**—are cinematography, lighting, and audio approaches defined? Is data management planned? (4) **Post-production workflow**—are editing, color, VFX, and audio pipelines established? Is software and talent available? (5) **Distribution strategy**—are platforms identified with format optimization? Is marketing planned? Provide a readiness scorecard (1-5 per dimension), risk assessment, resource recommendations, and production timeline with milestones.
+
+**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for rapid production readiness evaluation.
+
+---
+
 ## Template
 
 Conduct a comprehensive video production readiness assessment for {PROJECT_CONTEXT}, creating {VIDEO_SCOPE} to achieve {PRODUCTION_OBJECTIVES}.

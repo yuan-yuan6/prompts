@@ -35,6 +35,14 @@ slug: supply-chain-readiness-assessment
 ## Purpose
 Assess an organization's readiness to run and improve an end-to-end supply chain across six dimensions: Visibility & Data, Planning & Forecasting, Procurement & Supplier Management, Inventory & Fulfillment, Logistics Execution, and Risk & Performance Governance. Identify gaps, prioritize interventions, and produce a roadmap tied to measurable outcomes.
 
+## 🚀 Quick Assessment Prompt
+
+> Assess **supply chain readiness** for **[ORGANIZATION]** across **[SUPPLY_CHAIN_SCOPE]** to achieve **[PERFORMANCE_GOALS]**. Evaluate across: (1) **Visibility & data**—do we have reliable data, master data discipline, and end-to-end flow visibility? (2) **Planning & forecasting**—is planning credible (demand, supply, S&OP) with measurable accuracy and bias control? (3) **Procurement & suppliers**—are sourcing, contracts, and supplier performance managed proactively? (4) **Inventory & fulfillment**—are policies, safety stock, and allocation rules right for service and working capital? (5) **Logistics execution**—are transportation and warehouse processes stable, measurable, and scalable? (6) **Risk & governance**—are resilience, decision rights, and KPI cadence strong enough to sustain performance? Provide a 1–5 scorecard, gap analysis, prioritized recommendations, and a 90-day roadmap.
+
+**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for rapid supply chain readiness evaluation.
+
+---
+
 ## Template
 
 Conduct a comprehensive supply chain readiness assessment for {ORGANIZATION}, a {INDUSTRY} organization operating across {SUPPLY_CHAIN_SCOPE}.

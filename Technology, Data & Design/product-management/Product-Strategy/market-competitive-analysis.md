@@ -32,6 +32,12 @@ slug: market-competitive-analysis
 ## Purpose
 Conduct comprehensive market and competitive analysis to inform product strategy, identify opportunities and threats, understand competitive positioning, and develop sustainable competitive advantages through systematic research, competitor intelligence, and strategic recommendations.
 
+## 🚀 Quick Competitive Analysis Prompt
+
+> Analyze **{MARKET/INDUSTRY}** for **{PRODUCT}**. Size market (TAM/SAM/SOM), identify growth rate and trends. Map **{3-5_COMPETITORS}**: positioning, pricing, strengths/weaknesses, recent moves. Create competitive matrix on **{KEY_DIMENSIONS}**. Identify: market gaps, differentiation opportunities, competitive threats. Recommend positioning strategy and 3 actions to build competitive advantage.
+
+---
+
 ## Template
 
 Conduct market and competitive analysis for {PRODUCT_NAME} in {MARKET_CATEGORY} ({TAM_SIZE} TAM, {GROWTH_RATE}% CAGR) targeting {TARGET_SEGMENTS} to inform {STRATEGIC_DECISIONS} and develop {COMPETITIVE_STRATEGY}.

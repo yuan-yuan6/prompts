@@ -31,6 +31,14 @@ slug: public-speaking-readiness-assessment
 ## Purpose
 Assess readiness to deliver effective public speeches and presentations across six dimensions: Content Quality, Audience Understanding, Delivery Skills, Confidence Management, Visual/Technical Preparation, and Engagement Strategy. This framework identifies preparation gaps, strengthens presentation impact, and builds speaker confidence.
 
+## 🚀 Quick Assessment Prompt
+
+> Assess **public speaking readiness** for **{SPEECH_TYPE}** to **{AUDIENCE}** about **{TOPIC}** (duration: **{DURATION}**). Evaluate across: (1) **Content quality**—is message clear? Structure logical? Evidence compelling? Opening hook strong? (2) **Audience understanding**—do I know their knowledge level, interests, pain points? Is content tailored? (3) **Delivery skills**—voice projection, pacing, body language, eye contact? Rehearsal level? (4) **Confidence management**—are nerves under control? Backup plans for mistakes? Mental preparation? (5) **Visual/technical prep**—are slides clear? Tech tested? Backups ready? (6) **Engagement strategy**—how will I maintain attention? Handle Q&A? Create memorable moments? Provide a readiness scorecard (1-5 per dimension), delivery strategy, rehearsal plan, and success tactics.
+
+**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for rapid public speaking readiness evaluation.
+
+---
+
 ## Template
 
 Assess public speaking readiness for {SPEECH_TYPE} to {AUDIENCE} about {TOPIC} with duration of {DURATION}.

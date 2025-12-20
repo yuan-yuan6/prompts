@@ -32,6 +32,12 @@ slug: data-modeling
 ## Purpose
 Design comprehensive data modeling architectures that transform raw data into analytics-ready structures. This framework covers dimensional modeling (Kimball), normalized approaches (Inmon), Data Vault 2.0, and modern lakehouse patterns, enabling informed architecture decisions based on business requirements, query patterns, and scalability needs.
 
+## 🚀 Quick Start Prompt
+
+> Design a **data model** for **[BUSINESS DOMAIN]** on **[TARGET PLATFORM]**. Define: (1) **Modeling approach**—dimensional (star/snowflake), normalized (3NF), Data Vault, or lakehouse based on requirements; (2) **Core structures**—fact tables with grain and measures, dimensions with SCD types, hubs/links/satellites for Data Vault; (3) **Optimization**—partitioning strategy, clustering keys, indexing, and compression; (4) **Implementation**—DDL patterns, naming conventions, and deployment approach. Deliver conceptual model, physical design, optimization recommendations, and implementation roadmap.
+
+---
+
 ## Template
 
 Design a data modeling architecture for {BUSINESS_CONTEXT}, implementing {MODELING_REQUIREMENTS} to achieve {ARCHITECTURE_OBJECTIVES}.

@@ -26,6 +26,12 @@ slug: ux-ui-design-overview
 ## Purpose
 Guide template selection and workflow planning across UX/UI design phases from wireframing through usability testing, enabling efficient navigation to appropriate templates based on project needs, deliverables, and current phase.
 
+## 🚀 Quick Navigation Prompt
+
+> I need to design **[PRODUCT_TYPE]** for **[USERS]** currently in **[PHASE]**. Primary goal: **[OBJECTIVE]**. Navigate me across: (1) **Current needs**—what deliverables (wireframes, prototypes, design system, test plan) address current objective? (2) **Workflow sequence**—what template order from research through validation? (3) **Timeline estimate**—what duration per phase given team size and complexity? (4) **Integration strategy**—how do deliverables connect across phases? Recommend template sequence with 3-step workflow and time estimates.
+
+---
+
 ## Template Selection Guide
 
 **Choosing Based on Current Phase and Objective**

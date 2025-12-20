@@ -29,6 +29,14 @@ slug: music-audio-comprehensive
 ## Purpose
 Comprehensively assess readiness for complex multi-format audio projects across six dimensions: Creative Vision & Portfolio Development, Technical Infrastructure & Multi-Format Capability, Production Workflow & Project Management, Professional Network & Collaboration, Distribution & Market Presence, and Career Sustainability & Growth. This framework evaluates capability to execute diverse audio projects—albums, podcasts, film scores, audiobooks, live performances—and build sustainable creative careers in the music and audio industry.
 
+## 🚀 Quick Assessment Prompt
+
+> Assess **comprehensive audio production readiness** for **[CREATOR_NAME]**, creating **[PROJECT_SCOPE]** targeting **[TARGET_MARKETS]**. Evaluate across: (1) **Creative vision**—is the artistic identity clear across formats, portfolio demonstrating range and quality, creative process mature, signature sound distinctive? What's the output consistency? (2) **Technical capability**—what's the multi-format production infrastructure (recording, mixing, mastering), equipment and software ecosystem, technical skill depth across composition/production/engineering? (3) **Production workflow**—is project management systematic, timeline planning realistic, quality control rigorous, collaboration efficient? What's the capacity for simultaneous projects? (4) **Professional network**—what industry connections exist (producers, engineers, artists, labels, media), collaboration history and reputation, representation and support systems? (5) **Distribution presence**—what's the platform strategy (streaming, broadcast, sync licensing, physical), audience size and engagement, marketing capability, monetization diversity? (6) **Career sustainability**—what's the financial stability, skill development trajectory, workload balance, long-term strategy, reputation and legacy building? Provide a maturity scorecard (1-5 per dimension), critical capability gaps, prioritized development actions, and a 12-18 month career advancement roadmap.
+
+**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for comprehensive audio career and project readiness evaluation.
+
+---
+
 ## Template
 
 Conduct a comprehensive audio production and career readiness assessment for {CREATOR_NAME}, creating {PROJECT_SCOPE} targeting {TARGET_MARKETS}.

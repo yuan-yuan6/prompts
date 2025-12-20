@@ -32,6 +32,14 @@ slug: audit-compliance-readiness-assessment
 ## Purpose
 Assess readiness to operate an audit and compliance program across six dimensions: Governance & Independence, Scope & Regulatory Mapping, Risk Assessment & Planning, Controls & Testing, Issues & Remediation, and Reporting & Continuous Monitoring. Identify gaps and produce a practical operating plan.
 
+## 🚀 Quick Assessment Prompt
+
+> Assess **audit & compliance readiness** for **[ORGANIZATION]** in **[INDUSTRY]** subject to **[REGULATIONS/FRAMEWORKS]** (e.g., SOX, HIPAA, GDPR, PCI-DSS). Score 1–5 across: (1) **Governance**—are audit committee oversight, independence, and three-lines-of-defense roles clear? (2) **Scope**—is the regulatory inventory mapped to processes, systems, and controls? (3) **Risk planning**—is there a risk-based audit plan with coverage and cadence? (4) **Controls/testing**—are key controls designed, documented, tested, and evidenced consistently? (5) **Issues/remediation**—are findings tracked to closure with root cause and re-testing? (6) **Reporting/monitoring**—are dashboards actionable, timely, and supported by continuous monitoring? Provide a scorecard, top gaps, and a 90-day stabilization checklist.
+
+**Usage:** Replace bracketed placeholders with your specifics.
+
+---
+
 ## Template
 
 Conduct an audit & compliance readiness assessment for {ORGANIZATION} operating under {REGULATIONS_AND_FRAMEWORKS}.

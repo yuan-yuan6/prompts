@@ -31,6 +31,12 @@ slug: press-releases-readiness-assessment
 ## Purpose
 Assess readiness to **generate earned media coverage, manage journalist relationships, and control narrative** through effective press releases, media outreach, and spokesperson performance. Use this to diagnose gaps in news judgment, media targeting, and message discipline.
 
+## 🚀 Quick Assessment Prompt
+
+> Assess **press release & media relations readiness** for {MEDIA_CONTEXT}. The media objectives are {OBJECTIVES}. Account for {CONSTRAINTS}. Score 1–5 across the six dimensions below and produce the required output (six deliverables).
+
+---
+
 ## Template
 
 Conduct a press release & media relations readiness assessment for {MEDIA_CONTEXT}.

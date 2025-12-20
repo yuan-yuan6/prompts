@@ -28,6 +28,12 @@ slug: code-generation
 ## Purpose
 Generate production-quality code including functions, classes, APIs, and algorithms with comprehensive documentation, error handling, security controls, and test coverage following language-specific best practices and clean code principles.
 
+## 🚀 Quick Code Generation Prompt
+
+> Generate **[LANGUAGE]** **[CODE_TYPE]** (function/class/API/algorithm) implementing **[FUNCTIONALITY]** with **[COMPLEXITY_TARGET]** performance. Requirements: (1) **Interface**—what inputs (parameters/types), outputs (return type/structure), edge cases (null/empty/boundary values)? (2) **Quality**—what code standards (PEP8/Airbnb/Google), type annotations, docstrings, error handling (exceptions/results)? (3) **Testing**—what test framework (pytest/Jest/JUnit), coverage target (80%+), test cases (happy path/errors/edge cases)? (4) **Security**—what input validation, SQL injection prevention, XSS protection, authentication integration? (5) **Performance**—what optimization strategy (caching/async/batching), data structures, memory constraints? Deliver implementation code, comprehensive unit tests, API documentation, usage examples.
+
+---
+
 ## Template
 
 Generate {LANGUAGE} code for {FUNCTIONALITY} using {FRAMEWORK} targeting {PERFORMANCE_REQUIREMENTS} performance with {SECURITY_REQUIREMENTS} security controls and {CODE_COVERAGE}% test coverage following {STYLE_GUIDE} standards.

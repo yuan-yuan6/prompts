@@ -33,6 +33,14 @@ slug: m-and-a-readiness-assessment
 ## Purpose
 Assess readiness to execute an M&A transaction across six dimensions: Deal Thesis & Scope, Due Diligence Readiness, Deal Structure & Terms, Regulatory & Approvals, Integration Readiness, and Governance & Execution. Identify gaps, reduce avoidable risk, and produce an actionable plan.
 
+## 🚀 Quick Assessment Prompt
+
+> Assess **M&A readiness** for **[ACQUIRER]** pursuing **[TRANSACTION_TYPE]** of **[TARGET]** for **[DEAL_VALUE]** with **[DEAL_STRUCTURE]** over **[TIMELINE]**. Evaluate across: (1) **Deal thesis & scope**—is the value-creation logic clear and testable? (2) **Due diligence readiness**—are workstreams staffed with clear asks, a data room plan, and red-flag criteria? (3) **Structure & terms**—are key term positions and fallbacks defined (price mechanics, reps/warranties, indemnities, MAC, escrow)? (4) **Regulatory & approvals**—are antitrust/sector approvals, privacy, export controls, and governance approvals mapped? (5) **Integration readiness**—is Day 1/100-day planning realistic with owners? (6) **Governance & execution**—is there a decision cadence, issue log, and risk register? Provide a 1–5 scorecard, top gaps, prioritized recommendations, and a transaction plan.
+
+**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for rapid readiness evaluation.
+
+---
+
 ## Template
 
 Conduct an M&A readiness assessment for {ACQUIRER} pursuing a {TRANSACTION_TYPE} of {TARGET} for {DEAL_VALUE} using {DEAL_STRUCTURE} over {TIMELINE}.

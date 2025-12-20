@@ -31,6 +31,12 @@ slug: query-optimization-monitoring-tuning
 ## Purpose
 Implement comprehensive real-time performance monitoring, automated alerting systems, and self-tuning procedures to continuously optimize database query performance. This framework enables proactive issue detection, rapid incident response, and systematic performance improvement through automation.
 
+## 🚀 Quick Start Prompt
+
+> Design **performance monitoring and automated tuning** for **[DATABASE PLATFORM]** supporting **[WORKLOAD TYPE]**. Implement: (1) **Real-time monitoring**—track active queries, resource consumption, wait statistics, and blocking chains; (2) **Alert system**—thresholds for long-running queries, high CPU, blocking, and deadlocks with escalation; (3) **Automated tuning**—statistics updates, index maintenance, and missing index creation; (4) **Continuous optimization**—trend analysis, baseline comparison, and improvement tracking. Deliver monitoring dashboard design, alert configuration, tuning automation, and operational runbooks.
+
+---
+
 ## Template
 
 Design a performance monitoring and automated tuning system for {DATABASE_CONTEXT}, supporting {WORKLOAD_CHARACTERISTICS} to maintain {PERFORMANCE_TARGETS}.

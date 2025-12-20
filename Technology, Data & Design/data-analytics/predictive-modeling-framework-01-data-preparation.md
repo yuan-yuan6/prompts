@@ -31,6 +31,12 @@ slug: predictive-modeling-framework-01-data-preparation
 ## Purpose
 Design comprehensive data preparation and feature engineering strategies for predictive modeling projects. This framework covers data quality assessment, missing value treatment, feature creation, encoding strategies, and validation approaches to transform raw data into model-ready datasets while preventing leakage and maintaining reproducibility.
 
+## 🚀 Quick Preparation Prompt
+
+> Design data preparation pipeline for **[PREDICTION_PROBLEM]** using **[DATA_SOURCES]**. Evaluate across: (1) **Data quality**—what's the completeness, accuracy, and consistency? How should missing values and outliers be handled? (2) **Feature engineering**—what domain-specific features, temporal patterns, and interactions should be created? (3) **Encoding strategy**—how should categorical variables, text fields, and dates be transformed? (4) **Validation approach**—what train-test split prevents leakage for **[TIME_SERIES/CROSS_SECTIONAL]** data? (5) **Preprocessing steps**—what scaling, normalization, and transformations are required? Provide data pipeline design, feature catalog, and validation strategy.
+
+---
+
 ## Template
 
 Design data preparation and feature engineering for {PREDICTION_OBJECTIVE} using {DATA_CHARACTERISTICS} with target of {MODEL_REQUIREMENTS}.

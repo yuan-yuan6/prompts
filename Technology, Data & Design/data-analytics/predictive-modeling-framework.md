@@ -32,6 +32,12 @@ slug: predictive-modeling-framework
 ## Purpose
 Navigate the complete predictive modeling lifecycle from business problem definition through production deployment. This overview guides project planning, phase selection, and framework navigation for regression, classification, time-series forecasting, and ensemble modeling initiatives.
 
+## 🚀 Quick Project Prompt
+
+> Plan predictive modeling project for **[BUSINESS_OBJECTIVE]** using **[DATA_DESCRIPTION]**. Scope across: (1) **Problem type**—is this regression, classification, time-series forecasting, or clustering? (2) **Data readiness**—do we have labeled historical data, sufficient volume, and data quality? (3) **Complexity**—does problem require simple interpretable models or complex ensembles? (4) **Deployment**—are predictions needed in batch, real-time, or on edge devices? (5) **Resources**—what timeline, team skills, and infrastructure are available? Recommend project phases, specialized templates to use, and realistic success criteria.
+
+---
+
 ## Framework Navigation
 
 ### When to Use Each Specialized Template

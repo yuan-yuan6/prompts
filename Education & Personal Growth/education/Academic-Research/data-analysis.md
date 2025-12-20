@@ -32,6 +32,14 @@ slug: data-analysis
 ## Purpose
 Assess whether you are ready to run and defend your analysis by scoring six dimensions: Question→Method Fit, Data Readiness, Modeling & Assumptions, Robustness & Validity Checks, Reproducibility & QA, and Reporting & Interpretation. Use this to produce a clear **analysis blueprint** and a **revise-first** checklist.
 
+## 🚀 Quick Assessment Prompt
+
+> Assess **data analysis readiness** for **{STUDY_CONTEXT}** using **{DATA_TYPE}** to achieve **{ANALYSIS_GOALS}**. Score each dimension 1–5 with brief evidence: (1) question→method fit, (2) data readiness, (3) modeling & assumptions, (4) robustness & validity checks, (5) reproducibility & QA, (6) reporting & interpretation. Provide an overall maturity level, a go/revise-first recommendation, and a prioritized action plan.
+
+**Usage:** Replace the curly-brace placeholders with your specifics.
+
+---
+
 ## Template
 
 Conduct a data analysis readiness assessment for {STUDY_CONTEXT} using {DATA_TYPE} to achieve {ANALYSIS_GOALS}.

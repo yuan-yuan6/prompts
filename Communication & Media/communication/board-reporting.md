@@ -33,6 +33,12 @@ slug: board-reporting-readiness-assessment
 ## Purpose
 Assess readiness to produce **board-ready reporting** that is decision-oriented, evidence-backed, risk-aware, and packaged for efficient governance. Use this to diagnose gaps, prioritize improvements, and standardize board communications.
 
+## 🚀 Quick Assessment Prompt
+
+> Assess **board reporting readiness** for {BOARD_CONTEXT}. The goal is {OUTCOMES}. Account for {CONSTRAINTS}. Score maturity (1–5) across the six dimensions below, then produce the required output (six deliverables).
+
+---
+
 ## Template
 
 Conduct a board reporting & governance readiness assessment for {BOARD_CONTEXT}.

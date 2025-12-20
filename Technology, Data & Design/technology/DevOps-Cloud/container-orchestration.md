@@ -29,6 +29,12 @@ slug: container-orchestration
 ## Purpose
 Design and implement Kubernetes-based container orchestration covering cluster architecture, deployment patterns, auto-scaling, service mesh, stateful workloads, and observability achieving production-grade reliability with efficient resource utilization.
 
+## 🚀 Quick Container Orchestration Prompt
+
+> Deploy **[APPLICATION]** on **[EKS/GKE/AKS]** with **[REPLICAS]** replicas. Resources: CPU **[REQUEST/LIMIT]**, memory **[REQUEST/LIMIT]**. Scaling: HPA **[MIN]-[MAX]** pods at **[CPU_THRESHOLD]**% CPU. Storage: **[STORAGE_CLASS]** PVC for **[STATEFUL_DATA]**. Networking: **[INGRESS_TYPE]** with TLS, **[SERVICE_MESH]** for traffic management. Observability: Prometheus metrics, **[LOGGING_STACK]**. Deploy strategy: **[ROLLING/CANARY/BLUE_GREEN]**.
+
+---
+
 ## Template
 
 Design container orchestration for {APPLICATION_TYPE} on {KUBERNETES_PLATFORM} supporting {SCALE_REQUIREMENTS} with {AVAILABILITY_TARGET}% availability and {RESOURCE_EFFICIENCY}% resource utilization.

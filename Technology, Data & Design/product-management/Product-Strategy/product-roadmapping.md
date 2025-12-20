@@ -31,6 +31,14 @@ slug: product-roadmapping
 ## Purpose
 Comprehensively assess product roadmap quality and planning maturity across six dimensions: Strategic Alignment, Prioritization Rigor, Stakeholder Communication, Execution Planning, Flexibility & Adaptation, and Team Enablement. This framework identifies roadmapping gaps, strengthens planning processes, and creates improvement roadmaps for effective product direction communication and execution.
 
+## 🚀 Quick Roadmap Assessment Prompt
+
+> Assess **product roadmap readiness** for **[PRODUCT/ORGANIZATION]** planning **[TIMEFRAME]** with **[TEAM SIZE]**. Evaluate across: (1) **Strategic alignment**—does roadmap connect to company strategy and OKRs? Are initiatives outcome-focused versus feature lists? (2) **Prioritization rigor**—is framework used consistently (RICE, value/effort)? Are tradeoffs documented? Customer impact weighted? (3) **Stakeholder communication**—are multiple roadmap views created for different audiences? Is "why" behind priorities explained? (4) **Execution planning**—are resources allocated realistically? Dependencies mapped? Milestones defined? (5) **Flexibility**—is Now-Next-Later format used? Review cadence established? Change management process clear? (6) **Team enablement**—do teams have clarity on priorities? Ownership assigned? Success metrics defined? Provide a maturity scorecard (1-5 per dimension), roadmap gaps, communication improvements, and planning process recommendations.
+
+**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for rapid roadmap evaluation.
+
+---
+
 ## Template
 
 Conduct a comprehensive product roadmap readiness assessment for {PRODUCT_CONTEXT}, planning {ROADMAP_SCOPE} to achieve {PLANNING_OBJECTIVES}.

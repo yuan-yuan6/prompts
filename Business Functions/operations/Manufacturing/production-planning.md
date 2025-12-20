@@ -30,6 +30,12 @@ slug: production-planning-readiness-assessment
 ## Purpose
 Assess readiness to **implement world-class production planning and scheduling** that balances customer demand, capacity constraints, and operational efficiency. Use this to diagnose gaps in demand-supply alignment, scheduling discipline, capacity management, and execution responsiveness.
 
+## 🚀 Quick Assessment Prompt
+
+> Assess **production planning & scheduling readiness** for {PLANNING_CONTEXT}. The planning objectives are {OBJECTIVES}. Account for {CONSTRAINTS}. Score 1–5 across the six dimensions below and produce the required output (six deliverables).
+
+---
+
 ## Template
 
 Conduct a production planning & scheduling excellence readiness assessment for {PLANNING_CONTEXT}.

@@ -33,6 +33,14 @@ slug: contract-negotiation-readiness-assessment
 ## Purpose
 Assess an organization's readiness to negotiate contracts effectively across six dimensions: Objectives & BATNA, Positions & Fallbacks, Stakeholders & Authority, Process & Hygiene, Risk/Compliance Alignment, and Closing & Handover. Identify gaps, prioritize fixes, and produce a negotiation plan and positions matrix.
 
+## 🚀 Quick Assessment Prompt
+
+> Assess **contract negotiation readiness** for **[ORGANIZATION]** negotiating **[CONTRACT_TYPE]** with **[COUNTERPARTY]**. Evaluate across: (1) **Objectives & BATNA**—are must-haves, walk-away points, and alternatives clear? (2) **Positions & fallbacks**—do we have preferred language, fallback options, and approval thresholds for key clauses? (3) **Stakeholders & authority**—is the negotiation team staffed and empowered; is escalation defined? (4) **Process & hygiene**—is version control, issue tracking, and cadence disciplined to avoid churn? (5) **Risk/compliance alignment**—are risk appetite and regulatory requirements translated into clear negotiating guardrails? (6) **Closing & handover**—is closing disciplined (final package, approvals, handoff to contract ops)? Provide a 1–5 scorecard, top gaps, prioritized recommendations, and a negotiation playbook.
+
+**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for rapid negotiation readiness evaluation.
+
+---
+
 ## Template
 
 Conduct a contract negotiation readiness assessment for {ORGANIZATION} negotiating a {CONTRACT_TYPE} with {COUNTERPARTY}.

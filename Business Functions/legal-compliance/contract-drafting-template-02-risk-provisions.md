@@ -39,6 +39,14 @@ slug: contract-drafting-readiness-assessment-02-risk-provisions
 ## Purpose
 Assess readiness to draft and negotiate risk provisions that allocate downside exposure clearly and enforceably across six dimensions: Liability Allocation, Indemnities, Warranties & Remedies, Termination & Transition, Dispute Resolution, and Insurance/Compliance. Identify gaps, prioritize decisions, and produce a negotiation-ready positions matrix.
 
+## 🚀 Quick Assessment Prompt
+
+> Assess **contract risk-provisions readiness** for **[ORGANIZATION]** negotiating a **[CONTRACT_TYPE]** under **[RISK_APPETITE]**. Evaluate across: (1) **Liability allocation**—are caps, exclusions, and carve-outs coherent and aligned with the deal economics? (2) **Indemnities**—are third-party claims, IP, privacy/security, and employment indemnities defined with clear defense/settlement mechanics? (3) **Warranties & remedies**—are promises realistic, measurable, and paired with workable cure/remedy pathways? (4) **Termination & transition**—are exit rights, fees, and transition assistance defined to reduce operational risk? (5) **Disputes**—is governing law, venue, ADR/escalation, and injunctive relief aligned to leverage and cost? (6) **Insurance & compliance**—are insurance requirements and regulatory obligations realistic and verifiable? Provide a 1–5 scorecard, top gaps, and recommended fallback positions.
+
+**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for a rapid contract risk-provisions readiness evaluation.
+
+---
+
 ## Template
 
 Conduct a contract risk-provisions readiness assessment for {ORGANIZATION} negotiating a {CONTRACT_TYPE} aligned to {RISK_APPETITE}.

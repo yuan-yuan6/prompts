@@ -30,6 +30,12 @@ slug: lean-manufacturing-readiness-assessment
 ## Purpose
 Assess readiness to **implement lean manufacturing systems** that eliminate waste, standardize processes, enable flow, and build continuous improvement culture. Use this to diagnose gaps in 5S, value stream management, pull systems, TPM, and kaizen capability.
 
+## 🚀 Quick Assessment Prompt
+
+> Assess **lean manufacturing readiness** for {FACILITY_CONTEXT}. The operational excellence objectives are {OBJECTIVES}. Account for {CONSTRAINTS}. Score 1–5 across the six dimensions below and produce the required output (six deliverables).
+
+---
+
 ## Template
 
 Conduct a lean manufacturing & operational excellence readiness assessment for {FACILITY_CONTEXT}.

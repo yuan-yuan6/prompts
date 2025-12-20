@@ -27,6 +27,12 @@ slug: social-media-content
 ## Purpose
 Create engaging, platform-optimized social media content across Instagram, TikTok, LinkedIn, Twitter/X with data-driven strategies for hooks, formatting, hashtags, posting schedules, and engagement tactics that drive measurable business outcomes.
 
+## 🚀 Quick Social Media Content Prompt
+
+> Create **{CONTENT_TYPE}** (post/carousel/reel/story/thread) for **{PLATFORM}** targeting **{AUDIENCE_DEMOGRAPHIC}**. Promote **{PRODUCT/MESSAGE}** with **{TONE}** voice. Hook: first **{3-5_WORDS/SECONDS}** grab attention. Value prop: **{CORE_BENEFIT}**. CTA: **{DESIRED_ACTION}**. Include **{3-5_HASHTAGS}** (1 branded, 2-3 niche, 1 trending). Post at **{OPTIMAL_TIME}**. Design for **{ENGAGEMENT_METRIC}** (saves/shares/comments). Visual style: **{IMAGE/VIDEO_DIRECTION}**.
+
+---
+
 ## Template
 
 Create {CONTENT_TYPE} for {PLATFORM} targeting {AUDIENCE_SEGMENT} ({AGE_RANGE}, {INTERESTS}, {BEHAVIORS}) promoting {PRODUCT/CAMPAIGN} with {BRAND_VOICE} achieving {OBJECTIVE} ({ENGAGEMENT_RATE}% engagement, {CONVERSION_GOAL}).

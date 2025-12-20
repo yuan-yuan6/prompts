@@ -29,6 +29,12 @@ slug: platform-engineering
 ## Purpose
 Design and implement internal developer platforms providing self-service infrastructure, golden paths, observability, and developer tools achieving elite DORA metrics (multiple deploys/day, <1 hour lead time, <1 hour MTTR, <5% change failure rate) while maximizing developer productivity and satisfaction.
 
+## 🚀 Quick Platform Engineering Prompt
+
+> Design IDP for **[DEVELOPER_COUNT]** developers across **[TEAM_COUNT]** teams. Golden paths: **[SERVICE_TYPES]** templates. Self-service: **[INFRASTRUCTURE]** provisioning in **[MINUTES]** minutes. Portal: **[BACKSTAGE/PORT]** with service catalog, docs, APIs. CI/CD: **[PLATFORM]** with **[DEPLOY_TIME]** minute pipelines. Observability: **[STACK]** auto-instrumented. Target: **[DEPLOYS/DAY]** deploys/day, **[LEAD_TIME]** lead time, **[MTTR]** MTTR. Developer NPS: **[TARGET]**+.
+
+---
+
 ## Template
 
 Design internal developer platform for {ORGANIZATION} supporting {DEVELOPER_COUNT} developers across {TEAM_COUNT} teams achieving {DORA_TARGETS} DORA metrics with {SATISFACTION_TARGET} developer NPS.

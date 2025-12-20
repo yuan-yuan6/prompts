@@ -29,6 +29,14 @@ slug: financial-planning-readiness-assessment
 ## Purpose
 Assess readiness to create an actionable financial plan across six dimensions: Goals & Priorities, Data & Baseline, Cash Flow & Savings Capacity, Investment Strategy, Tax/Insurance/Estate, and Implementation & Monitoring. Identify gaps and produce a “ready-to-plan” package.
 
+## 🚀 Quick Assessment Prompt
+
+> Assess **financial planning readiness** for **[CLIENT_PROFILE]** with **$[INCOME]** income and **$[NET_WORTH]** net worth targeting **[GOALS]** over **[TIME_HORIZON]**. Score 1–5 across: (1) **Goals**—are priorities, timelines, and trade-offs explicit? (2) **Baseline**—are assets, liabilities, accounts, and benefits captured accurately? (3) **Cash flow**—are expenses, savings rate, and buffers realistic and sustainable? (4) **Investments**—is risk tolerance, allocation approach, and rebalancing discipline defined? (5) **Tax/insurance/estate**—are tax posture, coverage, and estate documents understood with known gaps? (6) **Execution**—are action owners, cadence, and tracking in place? Provide a scorecard, top gaps, and a 90-day action plan.
+
+**Usage:** Replace bracketed placeholders with your specifics.
+
+---
+
 ## Template
 
 Conduct a financial planning readiness assessment for {CLIENT_PROFILE} over {TIME_HORIZON}.

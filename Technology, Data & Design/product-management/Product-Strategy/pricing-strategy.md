@@ -32,6 +32,14 @@ slug: pricing-strategy
 ## Purpose
 Comprehensively assess pricing and packaging strategy readiness across six dimensions: Value Foundation, Model Selection, Packaging Architecture, Price Point Optimization, Go-to-Market Execution, and Continuous Optimization. This framework identifies monetization gaps, strengthens pricing strategy, and creates optimization roadmaps that align price with value, competitive position, and revenue objectives.
 
+## 🚀 Quick Pricing Assessment Prompt
+
+> Assess **pricing strategy readiness** for **[PRODUCT/COMPANY]** offering **[PRODUCT TYPE]** to **[TARGET MARKET]** with **[BUSINESS MODEL]**. Evaluate across: (1) **Value foundation**—is customer value quantified? What's willingness-to-pay research showing? Is pricing tied to measurable ROI? (2) **Model selection**—does pricing model align with value delivery? Is value metric clear and scalable? (3) **Packaging architecture**—do tiers serve different segments? Is feature allocation logical? (4) **Price points**—are prices psychologically optimized? Tested with customers? Competitive position clear? (5) **Go-to-market execution**—is sales team enabled? Discounting governed? (6) **Optimization**—are conversion metrics tracked? Testing roadmap defined? Provide a maturity scorecard (1-5 per dimension), monetization gaps, pricing recommendations, and optimization roadmap.
+
+**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for rapid pricing strategy evaluation.
+
+---
+
 ## Template
 
 Conduct a comprehensive pricing strategy readiness assessment for {PRODUCT_CONTEXT}, offering {PRODUCT_SCOPE} to achieve {REVENUE_OBJECTIVES}.

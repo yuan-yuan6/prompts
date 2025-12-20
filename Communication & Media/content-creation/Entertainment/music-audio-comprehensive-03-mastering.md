@@ -33,6 +33,14 @@ Comprehensively assess a music project's readiness for mixing and mastering acro
 
 **Note:** This is Part 3 of a 3-part music production series. Part 1 covers Composition & Arrangement, Part 2 covers Production & Recording (prerequisites).
 
+## 🚀 Quick Assessment Prompt
+
+> Assess **mixing and mastering readiness** for **[PROJECT_TITLE]**, a **[GENRE_STYLE]** project targeting **[RELEASE_PLATFORM]**. Evaluate across: (1) **Mix preparation**—are tracks organized, labeled, edited for timing/tuning issues, gain-staged properly? What's the rough mix quality and reference track alignment? (2) **Sonic balance**—how's the frequency distribution (bass, mids, highs), instrument separation and clarity, tonal character consistency? (3) **Dynamics and space**—what's the compression strategy, reverb and depth approach, stereo width and imaging, automation and movement? (4) **Creative enhancement**—are effects and processing serving the song, mix decisions supporting emotional impact, sonic identity distinctive? (5) **Mastering preparation**—what's the headroom and dynamic range, tonal balance and translation, technical quality and artifacts, delivery specifications? (6) **Distribution optimization**—how's the loudness for streaming platforms, format preparation (WAV, MP3, etc.), metadata and quality assurance? Provide a maturity scorecard (1-5 per dimension), critical technical issues, prioritized mixing/mastering actions, and a final delivery timeline.
+
+**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for rapid post-production evaluation.
+
+---
+
 ## Template
 
 Conduct a comprehensive mixing and mastering readiness assessment for {PROJECT_TITLE}, a {GENRE_STYLE} project targeting {RELEASE_PLATFORM}.

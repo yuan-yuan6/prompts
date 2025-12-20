@@ -31,6 +31,12 @@ slug: autonomous-vehicle-readiness-assessment
 ## Purpose
 Assess readiness to **develop, test, and deploy autonomous vehicle systems** that are safe, reliable, and commercially viable. Use this to diagnose gaps in sensor fusion, AI/ML capabilities, safety validation, infrastructure integration, and regulatory compliance.
 
+## 🚀 Quick Assessment Prompt
+
+> Assess **autonomous vehicle readiness** for {AV_CONTEXT}. The AV objectives are {OBJECTIVES}. Account for {CONSTRAINTS}. Score 1–5 across the six dimensions below and produce the required output (six deliverables).
+
+---
+
 ## Template
 
 Conduct an autonomous vehicle development & deployment readiness assessment for {AV_CONTEXT}.

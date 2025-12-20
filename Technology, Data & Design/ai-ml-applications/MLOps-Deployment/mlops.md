@@ -31,6 +31,14 @@ slug: mlops
 ## Purpose
 Implement comprehensive MLOps practices for scalable and reliable machine learning systems. This framework covers the full ML lifecycle from experimentation through production, including CI/CD pipelines, model versioning, monitoring, automated retraining, and governance.
 
+## 🚀 Quick Start Prompt
+
+> Design an **MLOps pipeline** for **[ML USE CASE]** at **[ORGANIZATION SIZE/MATURITY]** using **[TECH STACK]**. Guide me through: (1) **CI/CD setup**—what's the pipeline from code commit to production? What quality gates at each stage? (2) **Model lifecycle**—how to handle experiment tracking, model registry, versioning, and promotion? (3) **Monitoring & retraining**—what drift detection triggers retraining? How to automate feedback loops? (4) **Governance**—what approval workflows, audit trails, and compliance checks? Provide pipeline configuration, architecture diagram, and implementation roadmap.
+
+**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for rapid MLOps implementation.
+
+---
+
 ## Template
 
 Design an MLOps pipeline for {USE_CASE} at {ORGANIZATION_CONTEXT} using {TECH_STACK}.

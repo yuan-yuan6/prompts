@@ -25,6 +25,12 @@ slug: creative-writing-framework
 ## Purpose
 Comprehensive framework for creative writing projects including story development, character creation, worldbuilding, narrative structure, dialogue crafting, and publication strategies for novels, screenplays, short stories, and other creative works with actionable techniques for completing projects and reaching publication.
 
+## 🚀 Quick Creative Writing Prompt
+
+> Develop **{GENRE}** **{FORMAT}** (novel/screenplay/short story) titled **{WORKING_TITLE}** targeting **{WORD_COUNT}**. Protagonist **{CHARACTER_NAME}** wants **{CORE_MOTIVATION}** but faces **{CENTRAL_CONFLICT}**. Set in **{TIME/PLACE}** with **{UNIQUE_ELEMENTS}**. Structure: **{3-ACT/HERO'S_JOURNEY/NONLINEAR}**. Theme: **{CENTRAL_THEME}**. Audience: **{DEMOGRAPHIC}** for **{PUBLICATION_FORMAT}**.
+
+---
+
 ## Template
 
 Develop {GENRE} {FORMAT} titled {PROJECT_TITLE} targeting {WORD_COUNT} words for {AUDIENCE_DEMOGRAPHIC} completing in {TIMELINE_MONTHS} months via {PUBLICATION_PATH} (traditional/self/hybrid) with {THEME} theme and {MARKET_POSITIONING} positioning.

@@ -30,6 +30,14 @@ slug: social-activities-readiness-assessment
 ## Purpose
 Assess readiness to build and sustain a healthier social life across six dimensions: intent, opportunity discovery, logistics, social confidence, follow-up, and boundaries. This framework identifies gaps and produces a practical 30-day plan.
 
+## 🚀 Quick Assessment Prompt
+
+> Assess **social activities readiness** for **{PROFILE}** pursuing **{SOCIAL_GOALS}** within **{CONSTRAINTS}**. Score each dimension **1–5**, explain why, and provide a prioritized plan. Include a 30-day plan with specific activities, outreach/follow-up scripts, and success metrics.
+
+**Usage:** Replace the variables and run as a single prompt.
+
+---
+
 ## Template
 
 Conduct a social activities readiness assessment for {PROFILE} pursuing {SOCIAL_GOALS} within {CONSTRAINTS}.

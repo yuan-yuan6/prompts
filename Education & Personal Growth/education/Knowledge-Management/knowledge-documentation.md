@@ -28,6 +28,14 @@ slug: knowledge-documentation
 ## Purpose
 Assess whether you’re ready to implement or improve a documentation/wiki system by scoring six dimensions: Strategy & Audience, Information Architecture, Content Standards, Workflow & Governance, Platform & UX, and Operations & Measurement. Use this as a **go / revise-first** gate before building large volumes of pages.
 
+## 🚀 Quick Assessment Prompt
+
+> Assess **documentation/wiki readiness** for **{DOC_CONTEXT}** serving **{PRIMARY_USERS}** on **{PLATFORM_AND_CONSTRAINTS}**. Score each dimension 1–5 with brief evidence: (1) strategy & audience, (2) information architecture, (3) content standards & templates, (4) workflow & governance, (5) platform & UX/search, (6) operations & measurement. Provide an overall maturity level, a go/revise-first recommendation, top risks, and a prioritized 30–60 day rollout plan.
+
+**Usage:** Replace the curly-brace placeholders with your specifics.
+
+---
+
 ## Template
 
 Conduct a documentation & wikis readiness assessment for {DOC_CONTEXT} serving {PRIMARY_USERS} on {PLATFORM_AND_CONSTRAINTS}.

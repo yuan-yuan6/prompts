@@ -31,6 +31,12 @@ slug: motion-graphics
 ## Purpose
 Design motion graphics projects covering concept development, animation techniques, visual effects, audio synchronization, and technical delivery enabling professional animations for explainer videos, brand content, and digital media.
 
+## 🚀 Quick Animation Prompt
+
+> Design motion graphics for **[PROJECT_TYPE]** targeting **[AUDIENCE]** with **[DURATION]** runtime. Evaluate across: (1) **Visual concept**—what style (2D flat/3D/mixed media), color palette, and animation aesthetic? (2) **Animation approach**—what movement style (fluid/snappy/organic), timing rhythm, and transition techniques? (3) **Scene structure**—what key moments, durations, and visual progression? (4) **Audio integration**—what music style, sound effects, and sync approach? (5) **Technical specs**—what resolution, frame rate, platform requirements, and export formats? Provide storyboard, animatic, technical specifications, and delivery timeline.
+
+---
+
 ## Template
 
 Design motion graphics project for {PROJECT_TYPE} serving {AUDIENCE} with {DURATION} across {PLATFORMS}.

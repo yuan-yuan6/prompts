@@ -32,6 +32,12 @@ slug: company-announcements-readiness-assessment
 ## Purpose
 Assess readiness to deliver **clear, credible, and aligned company-wide announcements** that inform, inspire, and drive action. Use this to diagnose gaps in message discipline, cascade execution, and feedback integration.
 
+## 🚀 Quick Assessment Prompt
+
+> Assess **company announcement readiness** for {ANNOUNCEMENT_CONTEXT}. The communication objectives are {OBJECTIVES}. Account for {CONSTRAINTS}. Score 1–5 across the six dimensions below and produce the required output (six deliverables).
+
+---
+
 ## Template
 
 Conduct a company announcements & all-hands readiness assessment for {ANNOUNCEMENT_CONTEXT}.

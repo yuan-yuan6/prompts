@@ -30,6 +30,12 @@ slug: threat-intelligence
 ## Purpose
 Build comprehensive threat intelligence program covering priority intelligence requirements, collection from OSINT/commercial/government sources, analysis using MITRE ATT&CK/Diamond Model, intelligence products (strategic/tactical/operational), and sharing via TLP achieving proactive threat detection and response.
 
+## 🚀 Quick Threat Intel Prompt
+
+> Build threat intelligence for **[INDUSTRY]** organization. PIRs: **[THREAT_ACTORS]** targeting **[ASSETS]**. Collection: OSINT + **[COMMERCIAL_FEEDS]** (Recorded Future/CrowdStrike/Mandiant) + **[ISAC]** + internal telemetry. Analysis: **[MITRE_ATT&CK]** mapping, confidence assessment **[ADMIRALTY_SCALE]**. Products: strategic **[REPORTS]**, tactical **[IOC_FEEDS]**, operational **[PLAYBOOKS]**. Integration: **[SIEM/EDR/FIREWALL]**. Sharing: **[TLP]** classification, **[ISAC]** participation.
+
+---
+
 ## Template
 
 Build threat intelligence program for {ORGANIZATION} in {INDUSTRY} tracking {THREAT_ACTORS} achieving {INTELLIGENCE_OBJECTIVES} with {TIME_HORIZON} strategic planning.

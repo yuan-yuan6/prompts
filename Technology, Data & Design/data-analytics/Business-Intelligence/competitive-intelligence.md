@@ -31,6 +31,12 @@ slug: competitive-intelligence
 ## Purpose
 Develop comprehensive competitive intelligence capabilities covering competitor analysis, market benchmarking, and strategic insight generation. This framework enables data-driven competitive positioning, market opportunity identification, and strategic advantage creation through systematic intelligence gathering and analysis.
 
+## 🚀 Quick Intelligence Prompt
+
+> Analyze the **competitive landscape** for **[ORGANIZATION]** in the **[MARKET_SECTOR]** market. Evaluate across: (1) **Competitor positioning**—who are the top 3-5 direct competitors, what are their market positions, and what strategic moves have they made recently? (2) **Financial benchmarking**—how do revenue, growth rates, and profitability compare across competitors? (3) **Product and capability comparison**—what are the key differentiators in features, pricing, and service quality? (4) **Market dynamics**—what is the competitive intensity, and what threats exist from new entrants, substitutes, or disruptors? (5) **Strategic implications**—where are the gaps we can exploit, and what threats require defensive action? Provide a competitive positioning matrix, SWOT analysis for top competitors, and prioritized strategic recommendations.
+
+---
+
 ## Template
 
 Develop competitive intelligence analysis for {ORGANIZATION} competing in {MARKET_SECTOR} with strategic objectives of {COMPETITIVE_OBJECTIVES}.

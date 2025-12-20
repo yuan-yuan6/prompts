@@ -32,6 +32,14 @@ slug: academic-grant-writing
 ## Purpose
 Assess whether you’re ready to pursue and submit a competitive grant proposal by scoring six dimensions: Opportunity Fit, Project Clarity, Methods & Feasibility, Budget & Resources, Compliance & Risk, and Submission Workflow. Use the output to decide **go / revise-first / no-go**, and to generate a focused writing plan.
 
+## 🚀 Quick Assessment Prompt
+
+> Assess **grant proposal readiness** for **{FUNDING_CONTEXT}** supporting **{PROJECT_SUMMARY}** under **{SPONSOR_REQUIREMENTS}**. Score each dimension 1–5 with brief evidence: (1) opportunity fit, (2) project clarity and significance, (3) methods & feasibility, (4) budget & resources, (5) compliance & risk, (6) submission workflow. Provide an overall maturity level, a go/revise-first recommendation, and a prioritized plan for getting to submission-ready.
+
+**Usage:** Replace the curly-brace placeholders with your specifics.
+
+---
+
 ## Template
 
 Conduct a grant writing readiness assessment for {FUNDING_CONTEXT} supporting {PROJECT_SUMMARY} under {SPONSOR_REQUIREMENTS}.

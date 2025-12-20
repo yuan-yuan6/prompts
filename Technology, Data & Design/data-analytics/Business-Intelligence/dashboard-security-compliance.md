@@ -31,6 +31,14 @@ slug: dashboard-security-compliance
 ## Purpose
 Comprehensively assess dashboard security and compliance readiness across six dimensions: Authentication, Data Protection, Access Control, Audit & Monitoring, Regulatory Compliance, and Governance. This framework identifies gaps, prioritizes security investments, and creates implementation roadmaps aligned with organizational risk tolerance and regulatory requirements.
 
+## 🚀 Quick Assessment Prompt
+
+> Assess **security and compliance readiness** for **[DASHBOARD PROJECT]** in **[ORGANIZATION]** subject to **[REGULATIONS]**. Evaluate across: (1) **Authentication**—what SSO, MFA, session management, and identity provider integration exists? (2) **Data protection**—what encryption (at-rest, in-transit), key management, and data masking capabilities are in place? (3) **Access control**—what RBAC, row-level security, and column-level security exists? Are permissions aligned with least privilege? (4) **Audit readiness**—what logging, monitoring, and alerting exists for sensitive data access? (5) **Compliance posture**—how well do current controls map to regulatory requirements? What gaps exist? Provide a maturity scorecard (1-5 per dimension), gap analysis, prioritized remediation plan, and 90-day security hardening roadmap.
+
+**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for rapid security and compliance evaluation.
+
+---
+
 ## Template
 
 Conduct a comprehensive security and compliance assessment for {ORGANIZATION_CONTEXT}, implementing dashboard solutions that will handle {DATA_SENSITIVITY} and must comply with {COMPLIANCE_REQUIREMENTS}.

@@ -29,6 +29,12 @@ slug: cybersecurity-incident-response
 ## Purpose
 Comprehensive framework for cybersecurity incident response including threat detection, incident containment, forensic analysis, recovery procedures, threat hunting, security orchestration, and organizational resilience based on NIST 800-61 for protecting digital assets and infrastructure.
 
+## 🚀 Quick Incident Response Prompt
+
+> Create incident response plan for **{ORGANIZATION_TYPE}** ({X_EMPLOYEES} employees, {Y_SYSTEMS} systems, ${Z_ASSETS} protected). Define: detection capabilities (SIEM alerts, EDR), severity classification (P1-P4), response playbooks for **{RANSOMWARE/DATA_BREACH/DDOS/PHISHING}**, escalation matrix, communication templates, recovery procedures. Target: detect in **{X_MIN}**, contain in **{Y_HOURS}**, recover in **{Z_HOURS}**.
+
+---
+
 ## Template
 
 Implement incident response for {ORGANIZATION_NAME} protecting ${ASSET_VALUE} in digital assets, {USER_COUNT} users, {SYSTEM_COUNT} systems, achieving {MTTD_MIN} minute MTTD, {MTTC_HOURS} hour MTTR, {DETECTION_RATE}% threat detection, {RECOVERY_RTO} RTO, and {SECURITY_MATURITY} maturity level.

@@ -31,6 +31,12 @@ slug: literature-review-selection-quality
 ## Purpose
 Assess whether a review team is ready to screen, select, and quality-assess studies in a way that is consistent, auditable, and defensible under peer review. This framework helps you avoid the common failure mode where screening decisions cannot be reproduced, quality assessments are inconsistent, and PRISMA flow diagrams cannot be constructed from available tracking data.
 
+## 🚀 Quick Assessment Prompt
+
+> Assess **selection & quality readiness** for **{REVIEW_CONTEXT}** screening **{STUDY_VOLUME}** using **{SELECTION_TOOLS}**. Evaluate: (1) eligibility criteria operationalization and testability, (2) screening workflow and dual-review quality control, (3) bias/quality assessment tool fit and reliability, (4) documentation and PRISMA compliance, (5) discrepancy resolution and arbitration processes, and (6) feasibility (timeline, reviewer training, tracking infrastructure). Provide a scorecard (1–5), top risks, a minimum viable screening checklist, and a step-by-step plan from deduplication → screening → quality assessment → final study set handoff.
+
+---
+
 ## Template
 
 Conduct a selection and quality assessment readiness assessment for {REVIEW_CONTEXT} screening {STUDY_VOLUME} using {SELECTION_TOOLS}.

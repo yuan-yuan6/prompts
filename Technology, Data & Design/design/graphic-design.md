@@ -31,6 +31,12 @@ slug: graphic-design
 ## Purpose
 Plan and execute graphic design projects covering brand identity, print collateral, digital graphics, and packaging across applications ensuring strategic visual communication aligned with business objectives and brand consistency.
 
+## 🚀 Quick Graphic Design Prompt
+
+> Design **[PROJECT_TYPE]** for **[CLIENT]** targeting **[AUDIENCE]**. Execute across: (1) **Visual concept**—what brand personality (professional/energetic/technical), color palette (primary + accent), typography (2-3 fonts)? (2) **Design approach**—what style (minimalist/bold/classic), layout principles (grid system, hierarchy), imagery direction? (3) **Applications**—what deliverables (logo, business cards, website, packaging) with specs? (4) **Technical requirements**—what formats (print: CMYK 300dpi, bleed 0.125", digital: RGB, device sizes)? (5) **Brand guidelines**—what usage rules, color values (HEX/RGB/CMYK/Pantone), spacing standards? Deliver primary design, 3 variations, style guide, and production-ready files.
+
+---
+
 ## Template
 
 Design {PROJECT_TYPE} for {CLIENT} targeting {AUDIENCE} expressing {BRAND_PERSONALITY} across {PLATFORMS}.

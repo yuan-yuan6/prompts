@@ -29,6 +29,12 @@ slug: integration-patterns
 ## Purpose
 Design comprehensive integration architectures covering API patterns, messaging systems, event-driven architecture, and data synchronization achieving scalability, reliability, and maintainability for enterprise system interoperability.
 
+## 🚀 Quick Integration Prompt
+
+> Integrate **[SOURCE_SYSTEMS]** with **[TARGET_SYSTEMS]**. Pattern: **[SYNC_API/ASYNC_MESSAGING/EVENT_STREAMING/CDC]**. Volume: **[X]** requests/sec, latency: **[Y]**ms. Components: API Gateway (**[KONG/AWS_API_GW]**), message broker (**[KAFKA/RABBITMQ]**). Error handling: circuit breaker, retry **[N]**x, DLQ. Security: **[OAUTH/JWT/MTLS]**, rate limiting **[RATE]**/min. Monitoring: throughput, latency p99, error rates, consumer lag.
+
+---
+
 ## Template
 
 Design integration architecture for {USE_CASE} connecting {SOURCE_SYSTEMS} to {TARGET_SYSTEMS} achieving {THROUGHPUT} throughput with {LATENCY} latency and {RELIABILITY}% reliability.

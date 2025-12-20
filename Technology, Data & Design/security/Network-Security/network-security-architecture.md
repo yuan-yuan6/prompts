@@ -30,6 +30,12 @@ slug: network-security-architecture
 ## Purpose
 Design and implement secure network architectures with defense-in-depth, micro-segmentation, firewall policies, IDS/IPS, secure remote access, and zero trust networking achieving regulatory compliance and protection against lateral movement.
 
+## 🚀 Quick Network Security Prompt
+
+> Design network security for **[ORGANIZATION]** with **[LOCATIONS]** sites, **[USERS]** users, **[INFRASTRUCTURE]** (on-prem/cloud/hybrid). Segmentation: **[ZONES]** (DMZ, internal, PCI, IoT). Controls: NGFW (**[VENDOR]**), IDS/IPS (**[PLATFORM]**), NAC (**[802.1X/PROFILING]**). Remote access: **[VPN/ZTNA/SASE]**. Monitoring: flow analysis, **[NDR]**, SIEM integration. Compliance: **[PCI-DSS/HIPAA/SOC2]**. Target: zero implicit trust, encrypted everywhere, <1 min detection.
+
+---
+
 ## Template
 
 Design network security architecture for {ORGANIZATION} with {NETWORK_SIZE} users across {LOCATIONS} achieving {COMPLIANCE_REQUIREMENTS} compliance with {ARCHITECTURE_MODEL} security model.

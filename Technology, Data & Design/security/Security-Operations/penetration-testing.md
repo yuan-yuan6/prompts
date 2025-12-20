@@ -29,6 +29,12 @@ slug: penetration-testing
 ## Purpose
 Plan and execute penetration tests covering scope definition, reconnaissance, vulnerability discovery, exploitation, post-exploitation, and reporting with actionable remediation guidance achieving security validation and compliance requirements.
 
+## 🚀 Quick Penetration Testing Prompt
+
+> Plan penetration test for **[ORGANIZATION]** targeting **[SCOPE]** (web apps/infrastructure/APIs/cloud). Type: **[BLACK-BOX/GRAY-BOX/WHITE-BOX]**. Focus: **[OWASP_TOP_10/NETWORK/CLOUD]**. Window: **[DATES]**. Methodology: **[PTES/OWASP_TG]**. Deliverables: executive summary, technical findings with POCs, CVSS scores, remediation priority. Compliance: **[PCI-DSS/HIPAA/SOC2]**.
+
+---
+
 ## Template
 
 Execute penetration test for {ORGANIZATION} targeting {SCOPE} using {TEST_TYPE} methodology achieving {COMPLIANCE_REQUIREMENTS} validation with {TIMELINE} timeline.

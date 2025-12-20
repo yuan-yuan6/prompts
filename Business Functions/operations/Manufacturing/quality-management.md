@@ -31,6 +31,12 @@ slug: quality-management-readiness-assessment
 ## Purpose
 Assess readiness to **implement world-class quality management system** that ensures product quality, regulatory compliance, customer satisfaction, and continuous improvement. Use this to diagnose gaps in quality processes, statistical control, supplier quality, and quality culture.
 
+## 🚀 Quick Assessment Prompt
+
+> Assess **quality management system readiness** for {QUALITY_CONTEXT}. The quality objectives are {OBJECTIVES}. Account for {CONSTRAINTS}. Score 1–5 across the six dimensions below and produce the required output (six deliverables).
+
+---
+
 ## Template
 
 Conduct a quality management system readiness assessment for {QUALITY_CONTEXT}.

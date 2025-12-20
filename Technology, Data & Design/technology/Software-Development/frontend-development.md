@@ -27,6 +27,12 @@ slug: frontend-development
 ## Purpose
 Design and implement modern frontend web applications with component-based frameworks, responsive design, performance optimization (Lighthouse >90), accessibility compliance (WCAG AA), and comprehensive testing achieving production-ready quality.
 
+## 🚀 Quick Frontend Development Prompt
+
+> Build **[APPLICATION_TYPE]** using **[FRAMEWORK]** (React/Vue/Angular) with TypeScript targeting **[LIGHTHOUSE_SCORE]** Lighthouse score. Stack: (1) **UI**—what component library (Material-UI/Tailwind/Chakra), design system (atomic design), theme support (dark mode)? (2) **State**—what management (Redux/Zustand/Pinia), API client (React Query/SWR), caching strategy (stale-while-revalidate)? (3) **Performance**—what Core Web Vitals targets (LCP <2.5s, FID <100ms), optimization strategies (code splitting, lazy loading, image optimization)? (4) **Accessibility**—what compliance level (WCAG AA/AAA), keyboard navigation, screen reader support, color contrast (4.5:1)? (5) **Testing**—what coverage (80% unit, E2E critical paths), tools (Vitest/Playwright), CI integration? Deliver component library, responsive layouts, deployment configuration, monitoring setup.
+
+---
+
 ## Template
 
 Develop {APPLICATION_TYPE} using {FRAMEWORK} targeting {USER_BASE} users with {PERFORMANCE_SCORE} Lighthouse score achieving {ACCESSIBILITY_LEVEL} compliance deployed to {HOSTING_PLATFORM}.

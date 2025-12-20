@@ -32,6 +32,14 @@ slug: regulatory-compliance-readiness-assessment-02-risk-monitoring
 ## Purpose
 Assess readiness to operate compliance risk management and monitoring across six dimensions: Risk Taxonomy & Methodology, Monitoring & Surveillance, KRIs & Alerting, Regulatory Change Management, Training & Competency, and Reporting & Escalation. Identify gaps and produce an operational plan.
 
+## 🚀 Quick Assessment Prompt
+
+> Assess **compliance risk management readiness** for **[ORGANIZATION]** under **[CORE_REGULATIONS]** across **[JURISDICTIONS]**. Evaluate across: (1) **Risk methodology**—do we have a usable risk taxonomy, scoring, and control mapping? (2) **Monitoring/surveillance**—do we have effective monitoring coverage and investigation workflows? (3) **KRIs/alerting**—are indicators measurable, tuned, and tied to actions? (4) **Reg change**—do we detect, assess, implement, and evidence regulatory changes? (5) **Training/competency**—is training role-based with testing and effectiveness measurement? (6) **Reporting/escalation**—are issues escalated with clear severity, ownership, and closure criteria? Provide a 1–5 scorecard, top gaps, and a 90-day operational uplift plan.
+
+**Usage:** Replace bracketed placeholders with your specifics.
+
+---
+
 ## Template
 
 Conduct a compliance risk management and monitoring readiness assessment for {ORGANIZATION} under {CORE_REGULATIONS} across {JURISDICTIONS}.

@@ -32,6 +32,14 @@ slug: ai-build-buy-partner
 ## Purpose
 Systematically evaluate whether to build AI capabilities in-house, buy from vendors, or partner with specialized providers. This framework helps organizations optimize AI investments by matching the right approach to each use case based on strategic value, capability requirements, and total cost of ownership.
 
+## 🚀 Quick Decision Prompt
+
+> Evaluate **build vs buy vs partner** options for **[AI USE CASE]** at **[ORGANIZATION]**. Analyze: (1) **Strategic fit**—is this AI capability core to competitive advantage or a commodity? How differentiated does it need to be? (2) **Capability assessment**—do we have the data, talent, and infrastructure to build? What's the realistic timeline and cost to build vs buy? (3) **Vendor landscape**—what vendors/solutions exist? How mature are they? What are licensing, integration, and lock-in considerations? (4) **Total cost comparison**—what's the 3-year TCO for build (team, infra, maintenance) vs buy (licenses, integration, customization) vs partner (fees, IP sharing)? Provide a decision matrix, vendor shortlist if applicable, and recommended approach with risk mitigation.
+
+**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for rapid build/buy/partner evaluation.
+
+---
+
 ## Quick Start
 
 ### Minimal Example

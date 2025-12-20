@@ -31,6 +31,12 @@ slug: manufacturing-supply-chain-optimization-readiness-assessment
 ## Purpose
 Assess readiness to **optimize end-to-end manufacturing supply chain** from suppliers through production to customers. Use this to diagnose gaps in supplier performance, inventory management, demand planning, logistics execution, and supply chain visibility.
 
+## 🚀 Quick Assessment Prompt
+
+> Assess **manufacturing supply chain optimization readiness** for {SUPPLY_CHAIN_CONTEXT}. The supply chain objectives are {OBJECTIVES}. Account for {CONSTRAINTS}. Score 1–5 across the six dimensions below and produce the required output (six deliverables).
+
+---
+
 ## Template
 
 Conduct a manufacturing supply chain optimization readiness assessment for {SUPPLY_CHAIN_CONTEXT}.

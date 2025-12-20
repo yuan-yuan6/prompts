@@ -30,6 +30,12 @@ slug: architecture-design
 ## Purpose
 Design comprehensive system architectures balancing scalability, security, performance, and maintainability including component selection, technology stack decisions, deployment strategies, and quality attribute tradeoffs.
 
+## 🚀 Quick Architecture Design Prompt
+
+> Design architecture for **[SYSTEM_TYPE]** handling **[EXPECTED_LOAD]** (concurrent users/requests per second) with **[UPTIME_TARGET]** availability. Components: (1) **Frontend**—what framework (React/Angular/Vue), rendering strategy (SPA/SSR), state management? (2) **Backend**—what pattern (microservices/monolith/modular), services breakdown, communication (REST/gRPC/events)? (3) **Data layer**—what databases (SQL/NoSQL/polyglot), caching strategy (Redis/Memcached), search engine (Elasticsearch)? (4) **Infrastructure**—what cloud provider, container orchestration (Kubernetes/ECS), service mesh, API gateway? (5) **Quality attributes**—what scalability approach, security patterns, observability stack, deployment strategy? Deliver architecture diagrams, technology decisions with tradeoff analysis, deployment plan, scaling strategy.
+
+---
+
 ## Template
 
 Design architecture for {SYSTEM_TYPE} serving {TARGET_USERS} with {EXPECTED_LOAD} load requirements using {ARCHITECTURE_STYLE} pattern on {CLOUD_PROVIDER} platform targeting {AVAILABILITY}% uptime with {PERFORMANCE_TARGETS} latency.

@@ -32,6 +32,14 @@ slug: process-automation-readiness-assessment
 ## Purpose
 Assess an organization's readiness to successfully deliver, operate, and scale process automation across six dimensions: Process Discovery & Prioritization, Data & Integration, Platform & Architecture, Delivery Operating Model, Governance & Risk, and Adoption & Operations. Identify gaps, prioritize investments, and build a 12-month roadmap.
 
+## 🚀 Quick Assessment Prompt
+
+> Assess **process automation readiness** for **[ORGANIZATION]** targeting **[PROCESS_SCOPE]** to achieve **[AUTOMATION_TARGET]**. Evaluate across: (1) **Process discovery**—do you have a repeatable way to identify and size automation opportunities? (2) **Data & integration**—are inputs structured, systems accessible (APIs/EDI), and exception paths understood? (3) **Platform & architecture**—what automation tools exist (RPA/workflow/iPaaS/AI) and how are they secured and governed? (4) **Delivery model**—do you have product ownership, standards, testing, and release management for automations? (5) **Governance & risk**—how do you handle controls, auditability, privacy, and change approvals? (6) **Adoption & operations**—monitoring, incident response, bot runbooks, and continuous improvement. Provide a maturity scorecard (1-5), gap analysis, prioritized recommendations, and a 12-month rollout plan.
+
+**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for rapid automation readiness evaluation.
+
+---
+
 ## Template
 
 Conduct a comprehensive process automation readiness assessment for {ORGANIZATION}, a {INDUSTRY} organization planning to automate {PROCESS_SCOPE}.

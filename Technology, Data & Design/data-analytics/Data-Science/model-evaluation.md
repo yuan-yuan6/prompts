@@ -31,6 +31,14 @@ slug: model-evaluation
 ## Purpose
 Comprehensively evaluate and validate machine learning models before deployment. This framework covers performance metrics, cross-validation, threshold optimization, calibration, fairness assessment, robustness testing, and business validation to ensure models work reliably in production.
 
+## 🚀 Quick Start Prompt
+
+> Evaluate **[MODEL TYPE]** for **[PREDICTION TASK]**. Assess: (1) **Performance**—what metrics (accuracy, AUC, RMSE) on holdout data? How does it compare to baselines? (2) **Validation**—what cross-validation strategy? Is there overfitting? (3) **Fairness**—does performance vary across protected groups? (4) **Business impact**—what's the expected ROI? Does it meet business requirements? Provide: metric summary, go/no-go recommendation, deployment considerations, and monitoring plan.
+
+**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for rapid model validation.
+
+---
+
 ## Template
 
 Evaluate {MODEL_DESCRIPTION} predicting {TARGET_VARIABLE} for {BUSINESS_CONTEXT}.

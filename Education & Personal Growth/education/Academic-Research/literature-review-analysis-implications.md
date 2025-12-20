@@ -31,6 +31,12 @@ slug: literature-review-analysis-implications
 ## Purpose
 Assess whether a completed evidence synthesis is ready to support credible analysis, implications, and recommendations for research, practice, and policy. This framework helps you translate findings into actionable guidance while being transparent about evidence certainty, applicability, trade-offs, and uncertainty.
 
+## 🚀 Quick Assessment Prompt
+
+> Assess **analysis & implications readiness** for **{REVIEW_CONTEXT}** based on a synthesis of **{EVIDENCE_BASE}** intended for **{DECISION_AUDIENCE}**. Evaluate: (1) evidence certainty and bias risk, (2) synthesis coherence and robustness, (3) applicability and transferability to real contexts, (4) theoretical contribution and mechanism clarity, (5) practice/policy implications and recommendation strength, and (6) future research priorities and knowledge translation plan. Provide a scorecard (1–5), top limitations, evidence-graded recommendations, and a short roadmap for dissemination and next research steps.
+
+---
+
 ## Template
 
 Conduct a literature review analysis and implications readiness assessment for {REVIEW_CONTEXT} based on {EVIDENCE_BASE} intended for {DECISION_AUDIENCE}.

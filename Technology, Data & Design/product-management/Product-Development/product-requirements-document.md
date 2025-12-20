@@ -33,6 +33,14 @@ slug: product-requirements-readiness-assessment
 ## Purpose
 Comprehensively assess a product organization's readiness to write effective Product Requirements Documents (PRDs) that enable clear engineering execution, maintain strategic alignment, and deliver user value consistently. This framework evaluates capabilities across Requirements Discipline, Documentation Quality, Problem Definition, Technical Collaboration, Stakeholder Alignment, and Process Integration, identifying gaps that cause development inefficiency and providing actionable roadmaps for building requirements maturity.
 
+## 🚀 Quick Assessment Prompt
+
+> Assess **PRD readiness** for **{PRODUCT_TEAM}** building **{PRODUCT_TYPE}** with **{TEAM_STRUCTURE}**. Evaluate across: (1) **Requirements discipline**—do PRDs exist for all features? Are they written before development starts? What's the consistency and completeness? (2) **Problem definition quality**—do PRDs start with validated user problems backed by evidence? Are success metrics clear and measurable? (3) **Documentation quality**—are functional requirements specific and testable? Do PRDs include user flows, acceptance criteria, and edge cases? (4) **Technical collaboration**—do engineers review PRDs before commitment? Are technical feasibility and architecture considerations addressed? (5) **Stakeholder alignment**—do PRDs achieve cross-functional sign-off? Are scope boundaries clear with in/out lists? (6) **Process integration**—do PRDs connect to strategy and roadmaps? Are they living documents updated during development? Provide a maturity scorecard (1-5 per dimension), critical gaps causing development friction, prioritized improvements, and 3-month capability building plan.
+
+**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for rapid PRD readiness evaluation.
+
+---
+
 ## Template
 
 Conduct a comprehensive PRD readiness assessment for {PRODUCT_TEAM}, building {PRODUCT_TYPE} with {TEAM_STRUCTURE}.

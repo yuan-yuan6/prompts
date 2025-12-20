@@ -34,6 +34,14 @@ slug: corporate-contract-management-readiness-assessment
 ## Purpose
 Assess an organization's readiness to run enterprise contract management and legal operations across six dimensions: Governance & Policy, Intake & Triage, Templates & Playbooks, Tooling & Data, Risk/Compliance Controls, and Performance & Continuous Improvement. Identify gaps, prioritize fixes, and produce an actionable roadmap.
 
+## 🚀 Quick Assessment Prompt
+
+> Assess **contract management + legal ops readiness** for **[ORGANIZATION]** managing **[CONTRACT_PORTFOLIO]** across **[JURISDICTIONS]** using **[CLM_TOOLING]**. Evaluate across: (1) **Governance & policy**—do we have clear ownership, decision rights, and standards? (2) **Intake & triage**—is work prioritized with SLAs and the right intake data? (3) **Templates & playbooks**—are positions, fallbacks, and clause libraries standardized and actually used? (4) **Tooling & data**—is there a reliable repository with searchable metadata and audit trails? (5) **Risk/compliance controls**—are risk tiers, approvals, and evidence consistently managed? (6) **Performance & improvement**—are cycle time, exceptions, and outcomes measured and used to improve? Provide a 1–5 scorecard, top gaps, prioritized recommendations, and a 90-day plan.
+
+**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for rapid readiness evaluation.
+
+---
+
 ## Template
 
 Conduct a corporate contract management and legal ops readiness assessment for {ORGANIZATION} managing {CONTRACT_PORTFOLIO} across {JURISDICTIONS} using {CLM_TOOLING}.

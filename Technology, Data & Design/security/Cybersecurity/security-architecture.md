@@ -29,6 +29,12 @@ slug: security-architecture
 ## Purpose
 Design comprehensive enterprise security architecture applying zero trust, defense-in-depth, least privilege principles covering identity and access management, network security, application security, data protection, monitoring, and governance achieving business-aligned security posture.
 
+## 🚀 Quick Security Architecture Prompt
+
+> Design security architecture for **[ORGANIZATION]** (**[USERS]** users, **[SYSTEMS]** systems). Principles: **[ZERO_TRUST/DEFENSE_IN_DEPTH/LEAST_PRIVILEGE]**. Identity: **[SSO]** + **[MFA]** + **[PAM]**. Network: **[SEGMENTATION]**, **[ZERO_TRUST_NETWORK]**. Data: **[ENCRYPTION_AT_REST/IN_TRANSIT]**, **[DLP]**. Endpoint: **[EDR]**. Monitoring: **[SIEM]** + **[SOAR]**. Framework: **[SABSA/TOGAF]**. Compliance: **[SOC2/ISO27001/HIPAA]**. Deliverables: architecture diagrams, control matrix, roadmap.
+
+---
+
 ## Template
 
 Design security architecture for {ORGANIZATION} supporting {BUSINESS_CONTEXT} achieving {SECURITY_OBJECTIVES} with {REGULATORY_REQUIREMENTS} compliance using {ARCHITECTURE_FRAMEWORK}.

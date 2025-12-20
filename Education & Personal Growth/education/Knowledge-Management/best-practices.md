@@ -27,6 +27,14 @@ slug: best-practices
 ## Purpose
 Assess whether you’re ready to create and sustain a standards/best-practices program by scoring six dimensions: Scope & Outcomes, Standards Taxonomy, Evidence & Validation, Governance & Compliance, Authoring & Quality, and Rollout & Improvement. Use this as a **go / revise-first** gate before publishing a large standards library.
 
+## 🚀 Quick Assessment Prompt
+
+> Assess **standards & best practices documentation readiness** for **{STANDARDS_CONTEXT}** covering **{FUNCTION_AND_SCOPE}** under **{REGULATORY_AND_CONSTRAINTS}**. Score each dimension 1–5 with brief evidence: (1) scope & outcomes, (2) standards taxonomy, (3) evidence & validation, (4) governance & compliance, (5) authoring & quality, (6) rollout & continuous improvement. Provide an overall maturity level, a go/revise-first recommendation, top risks, and a prioritized 30–60 day implementation plan.
+
+**Usage:** Replace the curly-brace placeholders with your specifics.
+
+---
+
 ## Template
 
 Conduct a best practices & standards documentation readiness assessment for {STANDARDS_CONTEXT} covering {FUNCTION_AND_SCOPE} under {REGULATORY_AND_CONSTRAINTS}.

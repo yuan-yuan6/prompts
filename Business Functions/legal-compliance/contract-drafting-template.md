@@ -34,6 +34,14 @@ slug: contract-drafting-readiness-assessment
 ## Purpose
 Assess an organization's readiness to draft and negotiate enforceable contracts efficiently across six dimensions: Intake & Deal Context, Drafting Standards & Structure, Risk Allocation, Compliance & Data Protection, Negotiation & Approvals, and Execution & Lifecycle Management. Identify gaps, prioritize fixes, and produce a roadmap tied to measurable cycle time and risk outcomes.
 
+## 🚀 Quick Assessment Prompt
+
+> Assess **contract drafting readiness** for **[ORGANIZATION]** handling **[CONTRACT_PORTFOLIO]** under **[JURISDICTION_AND_REGULATORY_CONTEXT]**. Evaluate across: (1) **Intake & deal context**—are objectives, scope, parties, and inputs captured reliably before drafting? (2) **Drafting standards**—do we have clear templates, definitions, and document architecture that prevent ambiguity? (3) **Risk allocation**—are clause positions, fallback options, and approval thresholds aligned to risk appetite? (4) **Compliance & data**—are privacy/security/regulatory requirements captured and flowed into contracts consistently? (5) **Negotiation & approvals**—is negotiation disciplined, with clear escalation and fast approvals? (6) **Execution & lifecycle**—are signatures, storage, obligation tracking, and renewals managed with owners and evidence? Provide a maturity scorecard (1–5), top gaps, prioritized recommendations, and a 12-month capability plan.
+
+**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for rapid contract drafting capability evaluation.
+
+---
+
 ## Template
 
 Conduct a comprehensive contract drafting readiness assessment for {ORGANIZATION} handling {CONTRACT_PORTFOLIO} under {JURISDICTION_AND_REGULATORY_CONTEXT}.

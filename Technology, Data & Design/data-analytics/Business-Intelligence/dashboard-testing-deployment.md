@@ -31,6 +31,14 @@ slug: dashboard-testing-deployment
 ## Purpose
 Comprehensively assess dashboard release readiness across six dimensions: Data Validation, Functional Testing, Performance Testing, Deployment Process, Support Readiness, and Continuous Improvement. This framework identifies quality gaps, reduces deployment risk, and establishes sustainable operational practices.
 
+## 🚀 Quick Assessment Prompt
+
+> Assess **testing and deployment readiness** for **[DASHBOARD PROJECT]** preparing to release to **[USER COUNT]** users with **[QUALITY REQUIREMENTS]**. Evaluate across: (1) **Data validation**—are accuracy checks in place? Can you reconcile with source systems? (2) **Functional testing**—are all interactions, filters, and calculations verified? Is UAT complete with sign-off? (3) **Performance testing**—has load testing validated concurrent user capacity and response times? (4) **Deployment process**—is there a documented runbook, rollback plan, and communication strategy? (5) **Support readiness**—are SLAs defined, monitoring in place, and support team trained? Provide a maturity scorecard (1-5 per dimension), gap analysis, risk assessment, and pre-launch checklist.
+
+**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for rapid release readiness evaluation.
+
+---
+
 ## Template
 
 Conduct a comprehensive testing and deployment readiness assessment for {ORGANIZATION_CONTEXT}, preparing to deploy dashboards with {RELEASE_SCOPE} and {QUALITY_STANDARDS}.

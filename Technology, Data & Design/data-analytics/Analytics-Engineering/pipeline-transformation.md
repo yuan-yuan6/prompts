@@ -32,6 +32,12 @@ slug: pipeline-transformation
 ## Purpose
 Design comprehensive data transformation pipelines following medallion architecture patterns. This framework guides transformation strategy across Bronze, Silver, and Gold layers including data cleansing, standardization, enrichment, business logic application, and advanced patterns like slowly changing dimensions.
 
+## 🚀 Quick Transformation Prompt
+
+> Design a **[MEDALLION_LAYER]** transformation pipeline for **[DATA_DOMAIN]** using **[PROCESSING_FRAMEWORK]**. Evaluate across: (1) **Cleansing strategy**—how should nulls, duplicates, invalid formats, and outliers be handled? What are the business rules for data validity? (2) **Standardization approach**—what reference data lookups, code mappings, and format normalizations are required? (3) **Enrichment requirements**—what calculated fields, external data joins, or derived attributes are needed? (4) **Quality gates**—what validation rules must pass before data advances to the next layer? (5) **Performance design**—what partitioning, caching, and optimization strategies apply? Provide transformation specifications, data quality rules, and implementation guidance.
+
+---
+
 ## Template
 
 Design data transformation pipeline for {DATA_DOMAIN} implementing {TRANSFORMATION_ARCHITECTURE} architecture using {PROCESSING_FRAMEWORK} with business objectives of {BUSINESS_REQUIREMENTS}.

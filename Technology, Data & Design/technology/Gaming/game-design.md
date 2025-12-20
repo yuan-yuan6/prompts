@@ -24,6 +24,12 @@ slug: game-design
 ## Purpose
 Streamlined game design framework for rapid planning covering core gameplay loop, retention targets (D1 40-50%, D7 20-30%, D30 10-15%), monetization model (premium/F2P/hybrid), and live operations cadence achieving player engagement and revenue goals.
 
+## 🚀 Quick Game Design Prompt
+
+> Design **[GAME_TITLE]** in **[GENRE]** for **[PLATFORM]** (mobile/PC/console) with **[TEAM_SIZE]** developers, **[BUDGET]** budget, **[TIMELINE]** months. Core loop: **[30-SECOND_ACTION]** players repeat. Retention: D1 **[40-50%]**, D7 **[20-30%]**, D30 **[10-15%]**. Monetization: **[PREMIUM/F2P/HYBRID]** targeting **[ARPU]** ARPU. Live ops: **[X_UPDATES]** content updates monthly, **[EVENT_FREQ]** events, seasonal **[BATTLE_PASS]**. Success: **[PLAYER_COUNT]** players, **[REVENUE]** Year 1. Competitive edge versus **[COMPETITORS]**: **[UNIQUE_HOOK]**.
+
+---
+
 ## Template
 
 Design {GAME_TITLE} in {GENRE} for {PLATFORM} with {TEAM_SIZE} team, {BUDGET} budget, {TIMELINE} timeline achieving {RETENTION_D7}% D7 retention and {REVENUE_TARGET} revenue.

@@ -32,6 +32,14 @@ slug: science-writing
 ## Purpose
 Assess whether your science writing is ready for a popular audience by scoring six dimensions: Audience & Goal Fit, Accuracy & Sourcing, Story & Structure, Jargon Translation & Clarity, Ethics & Framing, and Publishing & Distribution. Use this to decide **ready / revise-first** and to produce an actionable improvement plan.
 
+## 🚀 Quick Assessment Prompt
+
+> Assess **popular science writing readiness** for **{CONTENT_CONTEXT}** explaining **{KEY_MESSAGE}** to **{TARGET_AUDIENCE}**. Score each dimension 1–5 with brief evidence: (1) audience & goal fit, (2) accuracy & sourcing, (3) story & structure, (4) jargon translation & clarity, (5) ethics & framing, (6) publishing & distribution. Provide an overall maturity level, a revise-first checklist, and a publish-ready outline.
+
+**Usage:** Replace the curly-brace placeholders with your specifics.
+
+---
+
 ## Template
 
 Conduct a popular science writing readiness assessment for {CONTENT_CONTEXT} explaining {KEY_MESSAGE} to {TARGET_AUDIENCE}.

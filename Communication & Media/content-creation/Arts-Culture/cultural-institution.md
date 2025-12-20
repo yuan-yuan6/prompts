@@ -30,6 +30,14 @@ slug: cultural-institution
 ## Purpose
 Comprehensively assess a museum or cultural institution's operational readiness and strategic positioning across six dimensions: Collection Management & Preservation, Exhibition & Programming, Visitor Experience & Engagement, Organizational Capacity & Governance, Financial Sustainability & Development, and Community Impact & Relevance. This framework identifies institutional gaps, validates resource sufficiency, and ensures mission fulfillment before major expansions, initiatives, or strategic shifts.
 
+## 🚀 Quick Assessment Prompt
+
+> Assess **institutional readiness** for **{INSTITUTION_NAME}** managing **{COLLECTION_TYPE}** collections serving **{TARGET_AUDIENCE}**. Evaluate across: (1) **Collection management**—what's the preservation infrastructure, cataloging systems, conservation expertise, storage capacity, acquisition strategy, and legal/ethical compliance? Are collections accessible and properly documented? (2) **Programming quality**—what's the exhibition caliber, educational offering depth, cultural programming relevance, scholarly contribution, and innovation in presentation? How well do programs serve mission? (3) **Visitor experience**—what's the audience diversity, satisfaction levels, accessibility provisions, engagement metrics, facility quality, and digital presence? Are visitor needs met comprehensively? (4) **Organizational capacity**—what's the governance structure, staff expertise, operational systems, technology infrastructure, and strategic planning maturity? Can the institution execute its mission effectively? (5) **Financial sustainability**—what's the revenue diversification, fundraising capability, endowment health, cost management, and long-term financial planning? Can operations be sustained? (6) **Community impact**—what's the cultural relevance, social equity commitment, partnership ecosystem, educational contribution, and public value demonstration? Does the institution matter to its community? Provide a maturity scorecard (1-5 per dimension), critical capability gaps, prioritized investments, and a multi-year institutional development plan.
+
+**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for rapid institutional readiness evaluation.
+
+---
+
 ## Template
 
 Conduct a comprehensive institutional readiness assessment for {INSTITUTION_NAME}, a cultural institution managing {COLLECTION_TYPE} collections and serving {TARGET_AUDIENCE}.

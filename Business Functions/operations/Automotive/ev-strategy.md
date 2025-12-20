@@ -30,6 +30,12 @@ slug: ev-transition-readiness-assessment
 ## Purpose
 Assess readiness to **transition fleet to electric vehicles** and deploy charging infrastructure that delivers cost savings, operational efficiency, and sustainability goals. Use this to diagnose gaps in TCO analysis, charging strategy, vehicle selection, and change management.
 
+## 🚀 Quick Assessment Prompt
+
+> Assess **EV transition readiness** for {EV_CONTEXT}. The electrification objectives are {OBJECTIVES}. Account for {CONSTRAINTS}. Score 1–5 across the six dimensions below and produce the required output (six deliverables).
+
+---
+
 ## Template
 
 Conduct an electric vehicle transition & fleet electrification readiness assessment for {EV_CONTEXT}.

@@ -30,6 +30,12 @@ slug: design-system-creation
 ## Purpose
 Create comprehensive design systems covering foundational tokens, component libraries, usage guidelines, and accessibility standards enabling consistent scalable digital products across platforms through reusable patterns and documented best practices.
 
+## 🚀 Quick Design System Prompt
+
+> Build design system for **[PRODUCT]** on **[PLATFORM]** using **[FRAMEWORK]**. Define across: (1) **Foundation**—what color palette (primary/secondary/semantic with 9 shades), typography scale (8 levels, line-heights, weights), spacing system (4/8px grid)? (2) **Components**—what core elements (buttons, inputs, cards, navigation) with all states (default, hover, active, focus, disabled)? (3) **Design tokens**—what abstracted values enabling theming and platform adaptation? (4) **Accessibility**—what WCAG level (AA/AAA), contrast ratios (4.5:1 text), touch targets (44×44px minimum)? (5) **Documentation**—what anatomy diagrams, usage guidelines, and code examples? Deliver token specifications, component library, style guide, and implementation examples.
+
+---
+
 ## Template
 
 Create design system for {PRODUCT} on {PLATFORMS} supporting {FRAMEWORK} targeting {SCALE}.

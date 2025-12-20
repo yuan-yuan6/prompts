@@ -29,6 +29,12 @@ slug: database-management
 ## Purpose
 Comprehensive database management covering schema design, query optimization, high availability, backup/recovery, security, and operational excellence achieving production-grade reliability for enterprise database systems.
 
+## 🚀 Quick Database Management Prompt
+
+> Design database for **[APPLICATION]** with **[USERS]** concurrent users, **[TPS]** transactions/sec. Type: **[POSTGRESQL/MYSQL/MONGODB]**. Data: **[VOLUME]** with **[GROWTH]**% monthly growth. Schema: **[ENTITIES]** with **[RELATIONSHIPS]**. Performance: **[LATENCY]**ms p99. HA: **[REPLICATION_TYPE]** with **[FAILOVER_TYPE]** failover, **[AVAILABILITY]**% target. Backup: **[SCHEDULE]** to **[STORAGE]**, RPO **[MINUTES]**. Include: connection pooling, monitoring, security hardening.
+
+---
+
 ## Template
 
 Design database management for {DATABASE_TYPE} supporting {APPLICATION_TYPE} with {SCALE_REQUIREMENTS} achieving {PERFORMANCE_TARGET} latency and {AVAILABILITY_TARGET}% availability.
