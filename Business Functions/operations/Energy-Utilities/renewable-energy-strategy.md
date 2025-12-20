@@ -33,7 +33,7 @@ slug: renewable-energy-strategy
 ## Purpose
 Assess readiness to define and execute a renewable energy strategy across portfolio planning, financing, operations, and risk.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess renewable strategy readiness for organization [ORG]. Score readiness (1–5) across: (1) Goals & policy context, (2) Portfolio & site selection, (3) Financing & contracting, (4) Grid integration & operations, (5) Risk & compliance, (6) Governance & execution. Provide a scorecard and roadmap.
 

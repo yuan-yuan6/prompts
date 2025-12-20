@@ -27,7 +27,7 @@ slug: generative-ai-implementation-02-technical
 ## Purpose
 Assess readiness for the technical implementation of generative AI, including architecture, integrations, evaluation, reliability, and cost/latency controls.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess GenAI technical readiness for [USE_CASE] with target latency [LATENCY_TARGET] and monthly budget [BUDGET]. Score readiness (1–5) across: (1) Architecture & integration, (2) Data & retrieval, (3) Evaluation & testing, (4) Observability & reliability, (5) Cost & performance, (6) Release & operations. Provide a scorecard and a technical execution plan.
 

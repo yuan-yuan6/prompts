@@ -34,11 +34,17 @@ slug: data-visualization
 ## Purpose
 Assess whether your charts, figures, infographics, or visual abstracts are ready to publish or present by scoring six dimensions: Message & Audience Fit, Data & Encoding Fit, Design & Accessibility, Statistical Integrity, Reproducibility & Tooling, and Delivery Constraints. Use this to decide **ready / revise-first** and to generate a focused revision plan.
 
-## 🚀 Quick Assessment Prompt
+## 🚀 Quick Prompt
 
-> Assess **data visualization readiness** for **{VIS_CONTEXT}** communicating **{KEY_CLAIM}** using **{DATA_CONSTRAINTS}**. Score each dimension 1–5 with brief evidence: (1) message & audience fit, (2) data & encoding fit, (3) design & accessibility, (4) statistical integrity, (5) reproducibility & tooling, (6) delivery constraints (journal/conference/medium). Provide an overall maturity level, a revise-first checklist, and a prioritized improvement plan.
-
-**Usage:** Replace the curly-brace placeholders with your specifics.
+> Assess **data visualization readiness** for **{VIS_CONTEXT}** communicating **{KEY_CLAIM}** using **{DATA_CONSTRAINTS}**.
+>
+> First, list any **missing information/questions** that would materially change the assessment (state assumptions only if necessary).
+>
+> Then score each dimension **1–5** with 1–2 sentences of evidence: (1) message & audience fit, (2) data & encoding fit, (3) design & accessibility, (4) statistical integrity, (5) reproducibility & tooling, (6) delivery constraints (journal/conference/medium).
+>
+> Compute the overall score (average), assign a maturity level (1–5), and recommend **ready / revise-first** (justify based on the biggest risks for misinterpretation, statistical integrity, and delivery constraints).
+>
+> Finally, present the response using the **Required Output Format (sections 1–5)** exactly.
 
 ---
 
@@ -117,19 +123,6 @@ Evaluate whether the figure meets real constraints: journal specs (size, font, c
 - Executive summary: 3.3/5 (Defined), **revise-first**
 - Biggest gaps: uncertainty not shown; chart choice obscures baseline; caption lacks sample sizes
 - Next edits: switch to before/after with site faceting; add CI band or bootstrap interval; add n per time window; annotate rollout date; export as PDF + PNG
-
----
-
-## Best Practices (8)
-
-1. Write the takeaway first; design the figure to make it obvious.
-2. Match chart type to the comparison you want readers to make.
-3. Label everything needed to interpret without narration.
-4. Use color as an accent, not as the only encoding.
-5. Always show uncertainty or explain why you can’t.
-6. Avoid misleading axes, truncations, or over-aggregation.
-7. Make figures reproducible (code + versioned data extract).
-8. Test readability at the real size and medium.
 
 ---
 

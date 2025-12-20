@@ -33,7 +33,7 @@ Comprehensively assess a music production project's readiness for recording acro
 
 **Note:** This is Part 2 of a 3-part music production series. Part 1 covers Composition & Arrangement (prerequisite), Part 3 covers Mixing & Mastering (next step).
 
-## 🚀 Quick Assessment Prompt
+## 🚀 Quick Prompt
 
 > Assess **production readiness** for **[PROJECT_TITLE]**, a **[RECORDING_TYPE]** project at **[STUDIO_TYPE]**. Evaluate across: (1) **Recording strategy**—is the tracking approach defined (live vs overdubs), session schedule realistic, pre-production quality sufficient? What's the budget allocation? (2) **Technical infrastructure**—what's the studio capability (room acoustics, equipment quality, digital audio workstation), microphone inventory, signal flow planning? (3) **Performance capture**—how prepared are performers, is click/guide track strategy clear, are recording techniques validated? (4) **Sound design**—what's the sonic palette (instruments, synthesis, processing), effect chains planned, production aesthetic defined? (5) **Production workflow**—who owns creative decisions, is collaboration structure clear, are file organization and backup systems ready? (6) **Quality control**—what are the listening standards, technical deliverable specs, revision process, handoff to mixing? Provide a maturity scorecard (1-5 per dimension), critical blockers, prioritized actions, and a session-by-session recording plan.
 

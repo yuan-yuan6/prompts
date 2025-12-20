@@ -25,7 +25,7 @@ slug: marketing-brand-strategy-development
 ## Purpose
 Assess readiness to develop and implement a brand strategy and identity system: positioning, messaging architecture, visual identity, activation, and governance.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess brand strategy readiness for [BRAND_NAME] targeting [TARGET_SEGMENTS] with goals [BRAND_AWARENESS]% awareness and [MARKET_SHARE]% share. Score readiness (1–5) across: (1) Strategic clarity & positioning, (2) Customer/audience insight, (3) Identity & messaging system, (4) Activation & channel implementation, (5) Governance & enablement, (6) Measurement & iteration. Provide a scorecard, top gaps, and a 90-day plan.
 

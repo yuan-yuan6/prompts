@@ -32,7 +32,7 @@ slug: regulatory-compliance-readiness-assessment-03-implementation
 ## Purpose
 Assess readiness to implement and sustain a compliance program across six dimensions: Audit & Testing, Issues & CAPA, Regulatory Engagement, Reporting & Dashboards, Program Delivery, and Continuous Improvement. Identify gaps and produce an execution plan that stands up to exams.
 
-## 🚀 Quick Assessment Prompt
+## 🚀 Quick Prompt
 
 > Assess **compliance implementation readiness** for **[ORGANIZATION]** preparing for **[EXAMS_OR_AUDITS]** under **[CORE_REGULATIONS]**. Evaluate across: (1) **Audit/testing**—do we test controls and document results consistently? (2) **Issues/CAPA**—do we triage, remediate, validate, and prevent recurrence? (3) **Regulator engagement**—are exams, inquiries, and reporting managed with owners and evidence? (4) **Dashboards**—are KPIs/KRIs defined, trusted, and used? (5) **Program delivery**—is implementation run as a governed program with milestones and change management? (6) **Continuous improvement**—do findings drive durable fixes and updates to policies/monitoring/training? Provide a 1–5 scorecard, top gaps, and a 90-day execution plan.
 

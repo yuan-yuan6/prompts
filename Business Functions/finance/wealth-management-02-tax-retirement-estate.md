@@ -26,7 +26,7 @@ slug: wealth-management-tax-retirement-estate-readiness-assessment
 ## Purpose
 Assess how ready you are to deliver tax-aware wealth planning, retirement income strategy, and estate/legacy planning with reliable inputs, documented assumptions, and decision-linked recommendations.
 
-## Quick Assessment Prompt
+## Quick Prompt
 Assess tax, retirement, and estate readiness for [CLIENT_FAMILY_NAME] in [RESIDENCE_TAX_JURISDICTION]. Evaluate tax profile and planning data, account structure and asset location, retirement income needs and timing, distribution sequencing and Roth strategy, estate documents and beneficiary alignment, and ongoing governance (cadence, evidence, advisors). Score each 1–5 and list the top gaps and next actions.
 
 ## Readiness Scorecard (1–5 each)

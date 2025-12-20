@@ -34,7 +34,7 @@ slug: training-programs
 ## Purpose
 Assess readiness to design and deliver training programs that build skills effectively with clear objectives, content systems, delivery operations, and measurable outcomes.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess training program readiness for [ORGANIZATION] targeting skills [SKILL_AREAS]. Score readiness (1–5) across: (1) Needs analysis & objectives, (2) Curriculum design, (3) Content development & quality, (4) Delivery & facilitation, (5) Enablement & operations, (6) Measurement & improvement. Provide a scorecard, top gaps, and a 90-day plan.
 

@@ -31,7 +31,7 @@ slug: growth-strategy
 ## Purpose
 Assess whether an organization can define and execute a credible growth strategy, including market expansion, product growth, partnerships, and acquisitions, while maintaining operational stability and financial discipline.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess growth strategy readiness for [ORGANIZATION] targeting growth from [CURRENT_REVENUE] to [TARGET_REVENUE] over [TIME_HORIZON]. Score readiness (1–5) across: (1) Growth thesis & target markets, (2) Customer/product fit & differentiation, (3) Go-to-market & distribution, (4) Economics & investment model, (5) Execution capacity & scaling operations, (6) Governance & risk management. Provide a scorecard, top gaps, prioritized recommendations, and a 90-day plan.
 

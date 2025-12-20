@@ -34,7 +34,7 @@ slug: network-analysis
 ## Purpose
 Assess readiness to perform network analysis with correct graph modeling, data preparation, methods, and interpretation.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess network analysis readiness for problem [PROBLEM] using entities [NODES] and relationships [EDGES]. Score readiness (1–5) across: (1) Graph model & scope, (2) Data preparation, (3) Method selection, (4) Computation & scalability, (5) Visualization & interpretation, (6) Governance & reproducibility. Provide a scorecard and analysis plan.
 

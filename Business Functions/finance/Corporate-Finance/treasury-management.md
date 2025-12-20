@@ -32,7 +32,7 @@ slug: treasury-management-readiness-assessment
 ## Purpose
 Assess how ready your organization is to manage treasury in a way that provides reliable cash visibility, adequate liquidity buffers, controlled financial risk (FX/IR), and consistent governance.
 
-## Quick Assessment Prompt
+## Quick Prompt
 Assess treasury readiness for [COMPANY_NAME] operating in [GLOBAL_OPERATIONS] with [REVENUE_SIZE] revenue. Evaluate cash visibility and forecasting, liquidity and funding plan, banking operations and controls, FX/interest rate risk management, investment policy for excess cash, and governance/reporting cadence. Score each 1–5 and list the top 3 gaps and next actions.
 
 ## Readiness Scorecard (1–5 each)

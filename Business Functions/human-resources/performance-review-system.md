@@ -30,7 +30,7 @@ slug: performance-review-system
 ## Purpose
 Assess readiness to implement and operate a performance review system with clear workflows, governance, and data that supports fair outcomes and development.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess performance review system readiness for [ORGANIZATION] with cadence [REVIEW_CADENCE]. Score readiness (1–5) across: (1) Review design & objectives, (2) Workflow & tooling, (3) Manager enablement, (4) Calibration & governance, (5) Communications & change management, (6) Measurement & improvement. Provide a scorecard, top gaps, and a rollout plan.
 

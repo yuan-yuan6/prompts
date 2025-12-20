@@ -31,7 +31,7 @@ slug: ai-readiness-assessment
 ## Purpose
 Comprehensively assess an organization's readiness to adopt and scale AI across six dimensions: Data, Technology, Talent, Process, Culture, and Governance. This framework identifies gaps, prioritizes investments, and creates a capability development roadmap.
 
-## 🚀 Quick Assessment Prompt
+## 🚀 Quick Prompt
 
 > Assess **AI readiness** for **[ORGANIZATION]** planning to implement **[AI USE CASES]**. Evaluate across: (1) **Data readiness**—what's the data quality, availability, accessibility, and governance maturity? Are there data silos or integration challenges? (2) **Technical infrastructure**—what compute, ML platforms, and MLOps capabilities exist? Cloud vs on-premise? (3) **Talent & skills**—what AI/ML expertise exists? What gaps in data science, ML engineering, and AI product management? (4) **Organizational readiness**—is there executive sponsorship, change appetite, and cross-functional collaboration? What's the AI literacy level? Provide a maturity scorecard (1-5 per dimension), gap analysis, prioritized recommendations, and a 12-month capability building plan.
 

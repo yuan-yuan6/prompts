@@ -29,7 +29,7 @@ slug: team-analytics-readiness-assessment
 ## Purpose
 Assess readiness to leverage **data and analytics for competitive advantage** in professional sports—player performance, tactical optimization, injury prevention, scouting, and business outcomes. Use this to diagnose gaps in data infrastructure, analytical talent, and decision-making integration.
 
-## 🚀 Quick Assessment Prompt
+## 🚀 Quick Prompt
 
 > Assess **sports analytics readiness** for {TEAM_CONTEXT}. The analytics objectives are {OBJECTIVES}. Account for {CONSTRAINTS}. Score 1–5 across the six dimensions below and produce the required output (six deliverables).
 

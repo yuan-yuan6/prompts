@@ -29,7 +29,7 @@ slug: financial-statement-analysis-readiness-assessment
 ## Purpose
 Assess how ready your organization is to analyze financial statements in a way that is comparable over time, consistent across analysts, and usable for decisions (credit, investment, board reporting).
 
-## Quick Assessment Prompt
+## Quick Prompt
 Assess statement-analysis readiness for [COMPANY_NAME] for [ANALYSIS_PERIOD] using [STATEMENT_YEARS] years of data. Evaluate data completeness and reconciliation, normalization discipline, core analysis methods, cash flow and working capital rigor, benchmarking context, and governance/storytelling. Score each 1–5 and list the top 3 gaps and next actions.
 
 ## Readiness Scorecard (1–5 each)

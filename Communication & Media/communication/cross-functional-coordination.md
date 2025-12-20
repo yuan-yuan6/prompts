@@ -31,7 +31,7 @@ slug: cross-functional-coordination-readiness-assessment
 ## Purpose
 Assess readiness to **coordinate seamlessly across teams, functions, and departments** to deliver complex initiatives on time with minimal friction. Use this to diagnose gaps in alignment, dependency management, and collaboration mechanisms.
 
-## 🚀 Quick Assessment Prompt
+## 🚀 Quick Prompt
 
 > Assess **cross-functional coordination readiness** for {COORDINATION_CONTEXT}. The coordination objectives are {OBJECTIVES}. Account for {CONSTRAINTS}. Score 1–5 across the six dimensions below and produce the required output (six deliverables).
 

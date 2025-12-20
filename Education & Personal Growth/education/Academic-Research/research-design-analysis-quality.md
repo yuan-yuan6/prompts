@@ -32,7 +32,7 @@ slug: research-design-analysis-quality
 ## Purpose
 Comprehensively assess readiness to run a defensible analysis and quality assurance workflow across six dimensions: Question-to-Estimand Fit, Data & Measurement Readiness, Method & Assumption Fit, Validity/Reliability/Trustworthiness, Reproducibility & Auditability, and Interpretation & Reporting. This framework helps you prevent avoidable analysis errors, reduce rework, and produce outputs that withstand peer review.
 
-## 🚀 Quick Assessment Prompt
+## 🚀 Quick Prompt
 
 > Assess **analysis and quality assurance readiness** for **{STUDY_CONTEXT}** using **{DATA_TYPE}** to answer **{ANALYSIS_GOALS}**. Evaluate across: (1) **Question-to-estimand fit**—are primary and secondary questions and decision rules explicit, including what would count as evidence? (2) **Data & measurement readiness**—are variables, instruments, coding rules, and missingness understood and documented? (3) **Method fit**—are statistical/qualitative methods appropriate, with assumptions and sensitivity checks planned? (4) **Validity/reliability/trustworthiness**—are threats identified with mitigation (e.g., bias, confounding, inter-rater reliability, member checking)? (5) **Reproducibility**—is the workflow scripted, versioned, and auditable with an analysis log and pre-specified outputs? (6) **Interpretation & reporting**—are claims bounded, effect sizes/uncertainty planned, and reporting standards identified? Provide a 1–5 scorecard, top risks, prioritized fixes, and a time-boxed execution plan.
 

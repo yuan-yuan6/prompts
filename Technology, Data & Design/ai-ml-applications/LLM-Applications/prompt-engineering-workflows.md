@@ -32,7 +32,7 @@ slug: prompt-engineering-workflows
 ## Purpose
 Assess readiness to develop, evaluate, and maintain prompts and system instructions with versioning, testing, and collaboration workflows.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess prompt engineering workflow readiness for [TEAM] building prompts for [USE_CASES]. Score readiness (1–5) across: (1) Standards & guidelines, (2) Versioning & change control, (3) Evaluation & testing, (4) Collaboration & review, (5) Tooling & automation, (6) Monitoring & iteration. Provide a scorecard and a 60-day workflow rollout plan.
 

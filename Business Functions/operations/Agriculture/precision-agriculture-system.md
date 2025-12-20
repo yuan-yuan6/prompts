@@ -30,7 +30,7 @@ slug: precision-agriculture-system
 ## Purpose
 Assess readiness to build or deploy a precision agriculture system that integrates sensing, recommendations, and variable-rate execution.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess readiness to deploy precision ag system [SYSTEM] for use cases [USE_CASES]. Score readiness (1–5) across: (1) Requirements & users, (2) Data integration, (3) Recommendation logic, (4) Field execution, (5) Reliability & monitoring, (6) Governance & lifecycle. Provide a scorecard and implementation plan.
 

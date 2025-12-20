@@ -32,11 +32,18 @@ slug: science-writing
 ## Purpose
 Assess whether your science writing is ready for a popular audience by scoring six dimensions: Audience & Goal Fit, Accuracy & Sourcing, Story & Structure, Jargon Translation & Clarity, Ethics & Framing, and Publishing & Distribution. Use this to decide **ready / revise-first** and to produce an actionable improvement plan.
 
-## 🚀 Quick Assessment Prompt
+## 🚀 Quick Prompt
 
-> Assess **popular science writing readiness** for **{CONTENT_CONTEXT}** explaining **{KEY_MESSAGE}** to **{TARGET_AUDIENCE}**. Score each dimension 1–5 with brief evidence: (1) audience & goal fit, (2) accuracy & sourcing, (3) story & structure, (4) jargon translation & clarity, (5) ethics & framing, (6) publishing & distribution. Provide an overall maturity level, a revise-first checklist, and a publish-ready outline.
+> Assess **popular science writing readiness** for **{CONTENT_CONTEXT}** explaining **{KEY_MESSAGE}** to **{TARGET_AUDIENCE}**.
+>
+> First, list any **missing information/questions** that would materially change the assessment (state assumptions only if necessary).
+>
+> Then score each dimension **1–5** with 1–2 sentences of evidence: (1) audience & goal fit, (2) accuracy & sourcing, (3) story & structure, (4) jargon translation & clarity, (5) ethics & framing, (6) publishing & distribution.
+>
+> Compute the overall score (average), assign a maturity level (1–5), and recommend **ready / revise-first** (justify based on the highest-risk issues for accuracy, comprehension, and harm).
+>
+> Finally, present the response using the **Required Output Format (sections 1–5)** exactly.
 
-**Usage:** Replace the curly-brace placeholders with your specifics.
 
 ---
 
@@ -117,19 +124,6 @@ Evaluate whether the piece is ready to ship: headline/deck, visuals, captions/al
 - Executive summary: 3.5/5 (Defined), **revise-first**
 - Biggest gaps: overstated certainty; missing limitations; hook doesn’t connect to action
 - Next edits: adjust claims with uncertainty language; add 3 limitations and when advice changes; add one concrete scenario; add one figure with caption and alt text
-
----
-
-## Best Practices (8)
-
-1. Write for a specific reader, not “the public.”
-2. Keep one primary takeaway and repeat it in different forms.
-3. Link claims to evidence; avoid “studies show” without specifics.
-4. Use uncertainty language deliberately.
-5. Translate jargon with examples, not just definitions.
-6. Avoid sensational framing; don’t trade accuracy for clicks.
-7. Add visuals that clarify, not decorate.
-8. Maintain a correction path: update notes, timestamps, and sources.
 
 ---
 

@@ -32,7 +32,7 @@ slug: brand-management
 ## Purpose
 Assess readiness to manage a brand as a system: positioning, identity, messaging, governance, and continuous measurement across touchpoints.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess brand management readiness for [BRAND_NAME] in [INDUSTRY] with current awareness [BRAND_AWARENESS]%. Score readiness (1–5) across: (1) Positioning & architecture, (2) Identity & messaging system, (3) Governance & enablement, (4) Touchpoint consistency, (5) Brand health measurement, (6) Iteration & evolution. Provide a scorecard, top gaps, and a 90-day plan.
 

@@ -30,7 +30,7 @@ slug: real-estate-market-analysis
 ## Purpose
 Assess readiness to analyze real estate markets with reliable data, sound methods, and actionable outputs for investment or development decisions.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess real estate market analysis readiness for [MARKET] and asset type [ASSET_TYPE]. Score readiness (1–5) across: (1) Scope & decision clarity, (2) Data sources & quality, (3) Supply/demand modeling, (4) Competitive & comps analysis, (5) Risk & scenario planning, (6) Reporting & actionability. Provide a scorecard, top gaps, and a 60–90 day plan.
 

@@ -26,7 +26,7 @@ slug: catalog-management-system
 ## Purpose
 Assess readiness to manage product catalog data and workflows (PIM-like capabilities): data model, governance, quality, and integrations across channels.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess catalog management readiness for [BUSINESS] with [SKU_COUNT] SKUs selling on [CHANNELS]. Score readiness (1–5) across: (1) Product data model, (2) Workflow & approvals, (3) Data quality & enrichment, (4) Integrations & syndication, (5) Governance & roles, (6) Measurement & improvement. Provide a scorecard, top gaps, and a 90-day plan.
 

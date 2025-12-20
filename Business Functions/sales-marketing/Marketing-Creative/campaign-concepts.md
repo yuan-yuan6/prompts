@@ -29,7 +29,7 @@ slug: campaign-concepts
 ## Purpose
 Assess readiness to create campaign concepts that are strategically aligned, insight-driven, executable across channels, and measurable.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess campaign concept readiness for [BRAND_NAME] running a [CAMPAIGN_TYPE] for [TARGET_MARKET] over [CAMPAIGN_DURATION]. Score readiness (1–5) across: (1) Objective & strategy fit, (2) Audience insight & tension, (3) Big idea & message architecture, (4) Channel activation & content plan, (5) Creative production & partnering, (6) Measurement & optimization. Provide a scorecard, top gaps, and a 60-day plan.
 

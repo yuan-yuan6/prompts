@@ -26,7 +26,7 @@ slug: wealth-management-risk-implementation-readiness-assessment
 ## Purpose
 Assess how ready you are to protect wealth (insurance, liability, operational risks) and execute an implementation plan that is trackable, time-bound, and resilient to real-world change.
 
-## Quick Assessment Prompt
+## Quick Prompt
 Assess risk and implementation readiness for [CLIENT_FAMILY_NAME]. Evaluate coverage adequacy (life/disability/health/property/liability), liability and asset protection, cyber/identity risks and controls, implementation plan quality (owners, dates, dependencies), monitoring and review cadence, and incident/claims readiness. Score each 1–5 and list the top gaps and next actions.
 
 ## Readiness Scorecard (1–5 each)

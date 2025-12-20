@@ -32,7 +32,7 @@ slug: candidate-sourcing-branding
 ## Purpose
 Assess readiness to source candidates consistently and strengthen employer branding through clear ICP/personas, channel strategy, messaging, and measurable pipeline outcomes.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess sourcing and employer branding readiness for [ROLE_FAMILY] with target [PIPELINE_TARGET] qualified candidates/month. Score readiness (1–5) across: (1) Talent personas & targeting, (2) Channel strategy, (3) Outreach messaging & content, (4) Sourcing operations & tooling, (5) Employer brand consistency, (6) Measurement & optimization. Provide a scorecard, top gaps, and a 90-day plan.
 

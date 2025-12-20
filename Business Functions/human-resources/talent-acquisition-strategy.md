@@ -30,7 +30,7 @@ slug: talent-acquisition-strategy
 ## Purpose
 Assess readiness to define and run a talent acquisition strategy aligned to business growth, with strong operating model, sourcing, and measurable outcomes.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess TA strategy readiness for [ORGANIZATION] hiring [HEADCOUNT] roles/year across [ROLE_FAMILIES]. Score readiness (1–5) across: (1) Workforce planning alignment, (2) Sourcing strategy, (3) Process & operating model, (4) Tooling & data, (5) Stakeholder governance, (6) Measurement & improvement. Provide a scorecard, top gaps, and a 90-day plan.
 

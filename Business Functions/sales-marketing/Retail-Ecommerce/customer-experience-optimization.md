@@ -29,7 +29,7 @@ slug: customer-experience-optimization
 ## Purpose
 Assess readiness to improve customer experience systematically through journey insights, experimentation, operational changes, and measurable outcomes.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess CX optimization readiness for [BUSINESS] with current [NPS_BASELINE] NPS and goal [NPS_TARGET]. Score readiness (1–5) across: (1) Journey visibility & feedback, (2) Root-cause analysis, (3) Experimentation & iteration, (4) Operational execution, (5) Cross-functional governance, (6) Measurement & outcomes. Provide a scorecard, top gaps, and a 90-day plan.
 

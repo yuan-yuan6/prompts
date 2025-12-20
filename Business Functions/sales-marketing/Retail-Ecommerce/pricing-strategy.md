@@ -32,7 +32,7 @@ slug: pricing-strategy
 ## Purpose
 Assess readiness to define and govern pricing strategy across products, channels, and segments with clear objectives, data, and measurable outcomes.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess pricing strategy readiness for [BUSINESS] with [PRODUCT_LINES] and channels [CHANNELS]. Score readiness (1–5) across: (1) Pricing objectives & positioning, (2) Segmentation & willingness-to-pay, (3) Data & competitive intelligence, (4) Pricing architecture & rules, (5) Governance & change management, (6) Measurement & optimization. Provide a scorecard, top gaps, and a 90-day plan.
 

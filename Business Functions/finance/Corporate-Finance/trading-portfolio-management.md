@@ -30,7 +30,7 @@ slug: portfolio-management-readiness-assessment
 ## Purpose
 Assess how ready your organization is to manage portfolios with repeatable processes for objective setting, allocation, risk control, execution, and performance measurement.
 
-## Quick Assessment Prompt
+## Quick Prompt
 Assess portfolio-management readiness for [CLIENT_TYPE/PORTFOLIO] with [AUM] AUM and [TIME_HORIZON]. Evaluate objectives and constraints, asset allocation and IPS discipline, risk management and limits, implementation and rebalancing, performance and attribution, and governance/reporting. Score each 1–5 and list the top 3 gaps and next actions.
 
 ## Readiness Scorecard (1–5 each)

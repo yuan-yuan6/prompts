@@ -33,7 +33,7 @@ slug: community-relations-readiness-assessment
 ## Purpose
 Assess readiness to build **strong, authentic community relationships** that create social license to operate, foster trust, and generate mutual value. Use this to diagnose gaps in stakeholder understanding, engagement strategy, and partnership effectiveness.
 
-## 🚀 Quick Assessment Prompt
+## 🚀 Quick Prompt
 
 > Assess **community relations readiness** for {COMMUNITY_CONTEXT}. The community objectives are {OBJECTIVES}. Account for {CONSTRAINTS}. Score 1–5 across the six dimensions below and produce the required output (six deliverables).
 

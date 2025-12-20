@@ -29,7 +29,7 @@ slug: content-marketing
 ## Purpose
 Assess readiness to plan, produce, distribute, and measure content marketing that reliably drives awareness, demand, and customer trust.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess content marketing readiness for [ORGANIZATION] targeting [AUDIENCE] with goals [TRAFFIC_TARGET] visits/month and [PIPELINE_TARGET] pipeline/month. Score readiness (1–5) across: (1) Strategy & audience insight, (2) Editorial planning, (3) Content production system, (4) Distribution & amplification, (5) Measurement & governance, (6) Optimization & iteration. Provide a scorecard, top gaps, and a 90-day plan.
 

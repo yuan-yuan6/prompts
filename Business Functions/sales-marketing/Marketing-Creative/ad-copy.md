@@ -28,7 +28,7 @@ slug: ad-copy
 ## Purpose
 Assess how ready a team is to create effective ad copy that matches the offer, fits channel constraints, and supports measurable testing and iteration.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess ad copy readiness for [BRAND_NAME] promoting [OFFER] to [TARGET_AUDIENCE] on [PRIMARY_PLATFORM] with objective [CAMPAIGN_OBJECTIVE]. Score readiness (1–5) across: (1) Offer & positioning, (2) Audience & insights, (3) Message architecture & creative system, (4) Channel fit & format constraints, (5) Production workflow & quality, (6) Measurement, testing & compliance. Provide a scorecard with evidence, top gaps, prioritized recommendations, and a 30-day improvement plan.
 

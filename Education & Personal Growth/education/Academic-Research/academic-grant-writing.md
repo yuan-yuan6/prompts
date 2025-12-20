@@ -32,11 +32,10 @@ slug: academic-grant-writing
 ## Purpose
 Assess whether you’re ready to pursue and submit a competitive grant proposal by scoring six dimensions: Opportunity Fit, Project Clarity, Methods & Feasibility, Budget & Resources, Compliance & Risk, and Submission Workflow. Use the output to decide **go / revise-first / no-go**, and to generate a focused writing plan.
 
-## 🚀 Quick Assessment Prompt
+## 🚀 Quick Prompt
 
 > Assess **grant proposal readiness** for **{FUNDING_CONTEXT}** supporting **{PROJECT_SUMMARY}** under **{SPONSOR_REQUIREMENTS}**. Score each dimension 1–5 with brief evidence: (1) opportunity fit, (2) project clarity and significance, (3) methods & feasibility, (4) budget & resources, (5) compliance & risk, (6) submission workflow. Provide an overall maturity level, a go/revise-first recommendation, and a prioritized plan for getting to submission-ready.
 
-**Usage:** Replace the curly-brace placeholders with your specifics.
 
 ---
 
@@ -118,19 +117,6 @@ Evaluate whether you can ship on time: roles (PI, co-Is, grants office), timelin
 - Executive summary: 3.1/5 (Defined), **revise-first**
 - Top risks: (1) IRB + data use agreement timeline, (2) insufficient preliminary evidence, (3) unclear clinical workflow integration
 - Highest-impact fixes (next 10 days): finalize data access path + governance; add pilot analysis + effect size expectations; align aims to R21 innovation framing; draft budget with 2 tiers
-
----
-
-## Best Practices (8)
-
-1. Write to the sponsor’s scoring criteria (mirror headings and language).
-2. Make the “so what” explicit in the first page and in every aim.
-3. Keep aims testable and independent enough to survive partial failure.
-4. Justify feasibility with concrete evidence (pilot results, access letters, timelines).
-5. Tie budget line items to specific work packages and deliverables.
-6. Surface compliance early; treat it as a schedule constraint, not an afterthought.
-7. Use ruthless revision cycles: clarity pass, logic pass, compliance pass, polish pass.
-8. Pre-empt reviewer objections (limitations + mitigations) without undermining confidence.
 
 ---
 

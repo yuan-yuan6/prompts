@@ -33,7 +33,7 @@ slug: strategic-digital-transformation-roadmap
 ## Purpose
 Assess how ready an organization is to run an enterprise digital transformation program spanning multiple business units, including governance, value tracking, culture change, and delivery execution.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess enterprise digital transformation readiness for [ORGANIZATION] spanning [BUSINESS_UNIT_COUNT] units with investment [TOTAL_INVESTMENT] over [TIME_HORIZON]. Score readiness (1–5) across: (1) Enterprise alignment & vision, (2) Portfolio management & value tracking, (3) Operating model & PMO, (4) Technology/data/security foundations, (5) Process redesign & customer experience, (6) Change, talent & culture. Provide a scorecard, top gaps, and a 90-day program setup plan.
 

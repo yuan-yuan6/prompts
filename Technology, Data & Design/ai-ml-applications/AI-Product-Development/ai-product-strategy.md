@@ -32,7 +32,7 @@ slug: ai-product-strategy
 ## Purpose
 Assess readiness to define and execute an AI product strategy, including value hypotheses, data/model constraints, governance, and go-to-market alignment.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess AI product strategy readiness for [PRODUCT] targeting [USE_CASES] and [CUSTOMERS]. Score readiness (1–5) across: (1) Problem/value clarity, (2) Data and feasibility, (3) Differentiation and positioning, (4) Governance and risk, (5) Delivery and operating model, (6) Measurement and iteration. Provide a scorecard and a 90-day strategy execution plan.
 

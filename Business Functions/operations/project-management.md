@@ -33,7 +33,7 @@ slug: project-management-readiness-assessment
 ## Purpose
 Assess an organization's readiness to plan, govern, and execute projects effectively across six dimensions: Outcomes & Scope, Planning & Estimation, Governance & Decision Rights, Delivery Operating Model, Risk/Dependency & Change Control, and Reporting & Benefits Realization. Identify gaps, prioritize fixes, and build a delivery plan with measurable targets.
 
-## 🚀 Quick Assessment Prompt
+## 🚀 Quick Prompt
 
 > Assess **project management readiness** for **[ORGANIZATION]** delivering **[INITIATIVE]** using **[DELIVERY_MODEL]**. Evaluate across: (1) **Outcomes & scope**—are goals, success metrics, and boundaries clear (and agreed)? (2) **Planning & estimation**—is the plan credible (schedule, budget, milestones, resourcing) and based on evidence? (3) **Governance**—are decision rights, approvals, and escalation paths clear and fast enough? (4) **Delivery operating model**—do teams have a workable cadence (agile/waterfall/hybrid), roles, and tooling to execute? (5) **Risk, dependencies & change control**—are risks owned, dependencies actively managed, and changes controlled without stalling progress? (6) **Reporting & benefits**—is status accurate, leading indicators tracked, and benefits measured post-delivery? Provide a 1–5 maturity scorecard, gap analysis, prioritized recommendations, and a 12-week stabilization roadmap.
 

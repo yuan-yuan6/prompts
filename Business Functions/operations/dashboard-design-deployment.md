@@ -24,7 +24,7 @@ slug: dashboard-deployment-readiness-assessment
 ## Purpose
 Assess readiness to deploy dashboards at scale with strong adoption, reliable data, sustainable support, and measurable business impact.
 
-## 🚀 Quick Assessment Prompt
+## 🚀 Quick Prompt
 
 > Assess **dashboard deployment readiness** for **[ORGANIZATION]** rolling out **[DASHBOARD_SCOPE]** to **[USER_COUNT]** users across **[AUDIENCE_SCOPE]**. Score maturity (1–5) across: (1) **Data readiness** (definition consistency, instrumentation, refresh reliability, data quality), (2) **Technology readiness** (BI platform performance, access patterns, SSO/RBAC, monitoring), (3) **Process readiness** (rollout plan, training, support, feedback loops), (4) **Talent readiness** (product ownership, analytics engineering, enablement), (5) **Culture readiness** (data literacy, trust, decision habits), (6) **Governance readiness** (ownership, standards, change control, KPI definitions). Provide a scorecard, top gaps, prioritized actions, and a 12‑month roadmap.
 

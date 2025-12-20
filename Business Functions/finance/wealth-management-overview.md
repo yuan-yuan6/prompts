@@ -27,7 +27,7 @@ slug: wealth-management-program-readiness-assessment
 ## Purpose
 Assess how ready you are to deliver a coherent wealth management program across client discovery, investment management, tax/retirement/estate planning, and protection/implementation.
 
-## Quick Assessment Prompt
+## Quick Prompt
 Assess wealth management program readiness for [CLIENT_FAMILY_NAME]. Score readiness across foundation and investment execution, tax and retirement planning, estate and legacy readiness, risk and insurance coverage, implementation discipline, and governance/review cadence. Provide scores (1–5), key gaps, and the next 3 improvements.
 
 ## Readiness Scorecard (1–5 each)

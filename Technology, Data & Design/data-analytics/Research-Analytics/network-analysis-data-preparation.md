@@ -32,7 +32,7 @@ slug: network-analysis-data-preparation
 ## Purpose
 Assess readiness to prepare graph data for network analysis, including identity resolution, edge construction, and quality validation.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess graph data prep readiness for [GRAPH] built from sources [SOURCES]. Score readiness (1–5) across: (1) Source quality, (2) Entity resolution, (3) Edge construction rules, (4) Validation & QA, (5) Versioning & lineage, (6) Automation & operations. Provide a scorecard and a prep pipeline plan.
 

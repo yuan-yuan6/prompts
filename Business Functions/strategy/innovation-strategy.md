@@ -32,7 +32,7 @@ slug: innovation-strategy
 ## Purpose
 Assess how ready an organization is to run a repeatable innovation strategy capability: defining focus areas, funding a balanced portfolio, executing experiments, and scaling validated initiatives into products, services, or process improvements.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess innovation strategy readiness for [ORGANIZATION] with an R&D/innovation budget of [INNOVATION_BUDGET] over [TIME_HORIZON]. Score readiness (1–5) across: (1) Innovation thesis & focus areas, (2) Portfolio & funding model, (3) Pipeline process & experimentation, (4) Talent & ecosystem partnerships, (5) IP, risk & compliance, (6) Metrics & governance. Provide a scorecard with evidence, the top gaps, prioritized recommendations, and a 90-day plan.
 

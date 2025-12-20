@@ -31,7 +31,7 @@ slug: habit-tracking
 ## Purpose
 Assess readiness to design and sustain a habit-tracking system that drives behavior change across six dimensions. Use this to identify gaps, optimize your approach, and build a tracking routine that sticks.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess habit-tracking readiness for **{HABIT_CONTEXT}** to establish **{TARGET_HABITS}** with **{TRACKING_APPROACH}**.
 >

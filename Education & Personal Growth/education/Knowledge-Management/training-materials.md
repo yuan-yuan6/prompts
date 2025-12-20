@@ -29,11 +29,10 @@ slug: training-materials
 ## Purpose
 Assess whether you are ready to design and ship effective training materials by scoring six dimensions: Audience & Outcomes, Instructional Design, Content & Practice, Delivery & Accessibility, Assessment & Evaluation, and Operations & Maintenance. Use this as a **go / revise-first** gate before building slides, manuals, or e-learning modules.
 
-## 🚀 Quick Assessment Prompt
+## 🚀 Quick Prompt
 
 > Assess **training materials readiness** for **{TRAINING_CONTEXT}** teaching **{SKILLS_AND_OUTCOMES}** under **{DELIVERY_CONSTRAINTS}**. Score each dimension 1–5 with brief evidence: (1) audience & outcomes, (2) instructional design, (3) content & practice, (4) delivery & accessibility, (5) assessment & evaluation, (6) operations & maintenance. Provide an overall maturity level, a go/revise-first recommendation, and a prioritized build plan.
 
-**Usage:** Replace the curly-brace placeholders with your specifics.
 
 ---
 
@@ -115,19 +114,6 @@ Evaluate whether the program can be sustained: versioning, ownership, update cad
 - Executive summary: 3.2/5 (Defined), **revise-first**
 - Biggest gaps: outcomes not measurable; exercises too generic; no rubric for report quality
 - Next actions: rewrite outcomes as observable behaviors; create 3 realistic inspection scenarios with exemplar answers; define scoring rubric; add accessibility checks and pilot with 5 learners
-
----
-
-## Best Practices (8)
-
-1. Start from job tasks and failure modes, not from “topics.”
-2. Make outcomes measurable and map every assessment to an outcome.
-3. Use practice-first design: examples → guided practice → independent practice.
-4. Keep modules small and cohesive; one skill cluster per module.
-5. Design for constraints (time, devices, language) early.
-6. Build accessibility in from day one (captions, contrast, alt text, keyboard support).
-7. Pilot with a small group and fix the top friction points.
-8. Treat training as a product: version, measure, iterate.
 
 ---
 

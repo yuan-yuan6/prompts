@@ -32,11 +32,18 @@ slug: peer-review
 ## Purpose
 Assess whether you’re ready to provide a high-quality peer review by scoring six dimensions: Role & Scope Fit, Rigor & Methods, Contribution & Context, Clarity & Presentation, Ethics & Integrity, and Feedback Actionability. Use this as a gate before accepting a review request (or before submitting your review).
 
-## 🚀 Quick Assessment Prompt
+## 🚀 Quick Prompt
 
-> Assess **peer review readiness** for reviewing **{SUBMISSION_CONTEXT}** with **{REVIEW_ROLE}** under **{TIME_CONSTRAINTS}**. Score each dimension 1–5 with brief evidence: (1) role & scope fit, (2) rigor & methods, (3) contribution & context, (4) clarity & presentation, (5) ethics & integrity, (6) feedback actionability. Provide an overall maturity level, a recommendation on whether to accept/decline (if pre-review), and a structured review outline.
+> Assess **peer review readiness** for **{SUBMISSION_CONTEXT}** as **{REVIEW_ROLE}** under **{TIME_CONSTRAINTS}**.
+>
+> First, list any **conflicts of interest (COI), confidentiality constraints, or ethics red flags** that would block the review, plus any **missing information/questions** needed to judge fairly (state assumptions only if necessary).
+>
+> Then score each dimension **1–5** with 1–2 sentences of evidence: (1) role & scope fit, (2) rigor & methods, (3) contribution & context, (4) clarity & presentation, (5) ethics & integrity, (6) feedback actionability.
+>
+> Compute the overall score (average), assign a maturity level (1–5), and recommend **decline / accept / accept with narrower scope** (justify based on expertise fit, risk, and time).
+>
+> Finally, present the response using the **Required Output Format (sections 1–5)** exactly.
 
-**Usage:** Replace the curly-brace placeholders with your specifics.
 
 ---
 
@@ -115,19 +122,6 @@ Evaluate whether your feedback will be useful: tone is professional, recommendat
 - Executive summary: 2.6/5 (Developing), **accept with narrow scope**
 - Biggest risks: cannot verify statistical claims; limited time; novelty hard to judge
 - Review focus: clarity of claim, evidence proportionality, obvious methodological red flags, and what info is missing to support acceptance
-
----
-
-## Best Practices (8)
-
-1. Decline early if you can’t meet time, scope, or COI requirements.
-2. Separate fatal flaws from fixable issues.
-3. Tie every major concern to its impact on the main claim.
-4. Ask for missing information that changes interpretation, not “nice to have” extras.
-5. Be specific: what to change, where, and how success is judged.
-6. Keep tone professional; critique the work, not the authors.
-7. Calibrate to venue standards (journal vs conference vs grant).
-8. Save editors time: make your recommendation and reasoning explicit.
 
 ---
 

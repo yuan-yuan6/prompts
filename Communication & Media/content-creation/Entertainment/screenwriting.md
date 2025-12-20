@@ -29,7 +29,7 @@ slug: screenwriting-readiness
 ## Purpose
 Comprehensively assess screenwriting capability to create professional, producible screenplays for film, television, and streaming content across six dimensions: Story Structure & Craft, Character Development, Dialogue & Scene Writing, Genre & Format Mastery, Visual Storytelling, and Professional & Market Readiness. This framework evaluates screenplay quality and identifies areas for craft development.
 
-## 🚀 Quick Assessment Prompt
+## 🚀 Quick Prompt
 
 > Assess **screenwriting readiness** for **[PROJECT_CONTEXT]** developing **[SCREENPLAY_SCOPE]** to achieve **[WRITING_OBJECTIVES]**. Evaluate across: (1) **Story structure & craft**—how solid is the three-act structure with proper inciting incident, midpoint, and climax placement? Are plot points driving narrative momentum? (2) **Character development**—how compelling are protagonist and antagonist with clear wants, needs, and transformative arcs? Is character voice distinct and authentic? (3) **Dialogue & scene writing**—how natural and purposeful is dialogue revealing character while advancing plot? Does each scene have clear conflict and outcome? (4) **Genre & format mastery**—how well does the screenplay execute genre conventions and industry-standard formatting? Is page count appropriate for the medium? (5) **Visual storytelling**—how effectively does the screenplay show rather than tell with cinematic action lines? Is the visual narrative compelling? (6) **Professional & market readiness**—how strong is the logline, treatment, and commercial positioning? Does the screenplay meet production and market standards? Provide maturity scores (1-5 per dimension), craft gaps, prioritized recommendations, and a 3-month development plan.
 

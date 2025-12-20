@@ -33,7 +33,7 @@ slug: strategic-financial-planning
 ## Purpose
 Assess how ready an organization is to produce decision-grade budgets, forecasts, and investment plans reliably and repeatably. Use this assessment to prioritize improvements in data, modeling, cadence, governance, and decision support.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess financial planning readiness for [ORGANIZATION] in [INDUSTRY] over a [PLANNING_HORIZON] horizon. Score readiness (1–5) across: (1) Data & assumptions, (2) Modeling & tooling, (3) Planning process & cadence, (4) Governance & decision rights, (5) Talent & operating model, (6) Performance management & communication. Provide a scorecard with brief evidence, the top gaps, prioritized recommendations, and a 90-day improvement plan.
 

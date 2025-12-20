@@ -31,7 +31,7 @@ slug: property-valuation-appraisal
 ## Purpose
 Assess readiness to value properties consistently using appropriate methods, reliable comps, defensible assumptions, and compliant documentation.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess valuation readiness for [PROPERTY] (asset type [ASSET_TYPE]) in [MARKET]. Score readiness (1–5) across: (1) Valuation scope & standards, (2) Data & comps quality, (3) Method selection & adjustments, (4) Assumptions & documentation, (5) Review & compliance, (6) Reporting & auditability. Provide a scorecard, top gaps, and a 60-day improvement plan.
 

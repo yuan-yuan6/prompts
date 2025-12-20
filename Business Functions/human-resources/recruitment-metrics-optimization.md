@@ -31,7 +31,7 @@ slug: recruitment-metrics-optimization
 ## Purpose
 Assess readiness to measure and optimize recruiting performance using consistent definitions, dashboards, and an improvement loop tied to hiring outcomes.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess recruiting analytics readiness for [ORGANIZATION] hiring [HEADCOUNT] roles/quarter. Score readiness (1–5) across: (1) KPI definitions, (2) Data quality & instrumentation, (3) Funnel analytics, (4) Reporting & cadence, (5) Experimentation & optimization, (6) Governance & decisioning. Provide a scorecard, top gaps, and a 60–90 day plan.
 

@@ -33,7 +33,7 @@ slug: social-media-readiness-assessment
 ## Purpose
 Assess readiness to deliver a **strategic, engaging, and measurable social media presence** that builds community, drives business outcomes, and protects brand reputation. Use this to diagnose gaps in strategy, content, engagement, and performance.
 
-## 🚀 Quick Assessment Prompt
+## 🚀 Quick Prompt
 
 > Assess **social media readiness** for {SOCIAL_CONTEXT}. The social media objectives are {OBJECTIVES}. Account for {CONSTRAINTS}. Score 1–5 across the six dimensions below and produce the required output (six deliverables).
 

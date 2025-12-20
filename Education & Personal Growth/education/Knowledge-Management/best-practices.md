@@ -27,11 +27,10 @@ slug: best-practices
 ## Purpose
 Assess whether you’re ready to create and sustain a standards/best-practices program by scoring six dimensions: Scope & Outcomes, Standards Taxonomy, Evidence & Validation, Governance & Compliance, Authoring & Quality, and Rollout & Improvement. Use this as a **go / revise-first** gate before publishing a large standards library.
 
-## 🚀 Quick Assessment Prompt
+## 🚀 Quick Prompt
 
 > Assess **standards & best practices documentation readiness** for **{STANDARDS_CONTEXT}** covering **{FUNCTION_AND_SCOPE}** under **{REGULATORY_AND_CONSTRAINTS}**. Score each dimension 1–5 with brief evidence: (1) scope & outcomes, (2) standards taxonomy, (3) evidence & validation, (4) governance & compliance, (5) authoring & quality, (6) rollout & continuous improvement. Provide an overall maturity level, a go/revise-first recommendation, top risks, and a prioritized 30–60 day implementation plan.
 
-**Usage:** Replace the curly-brace placeholders with your specifics.
 
 ---
 
@@ -113,19 +112,6 @@ Evaluate whether standards will be adopted and improved: rollout plan, training/
 - Executive summary: 2.8/5 (Developing), **revise-first**
 - Biggest gaps: no taxonomy; approvals unclear; monitoring is informal
 - Next actions (30 days): define hierarchy + naming; pick 5 critical standards (triage, escalation, access control, comms, documentation); create template with required sections; appoint owner + review cadence; pilot for 2 weeks; add simple audit checklist and KPI dashboard
-
----
-
-## Best Practices (8)
-
-1. Start with the highest-risk, highest-frequency processes first.
-2. Keep taxonomy simple and consistent across teams.
-3. Require evidence (incidents, audits, benchmarks) for each standard.
-4. Define ownership, approvals, and exception handling up front.
-5. Use templates with required sections and examples to reduce ambiguity.
-6. Pilot before scaling; capture friction and edge cases.
-7. Measure adoption and outcomes; don’t rely on “published = implemented.”
-8. Review and retire standards regularly to prevent documentation debt.
 
 ---
 

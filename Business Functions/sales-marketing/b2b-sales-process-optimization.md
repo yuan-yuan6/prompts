@@ -32,7 +32,7 @@ slug: b2b-sales-process-optimization
 ## Purpose
 Assess readiness to optimize a B2B sales process end-to-end, including qualification, opportunity progression, forecasting, tech stack, and RevOps governance.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess B2B sales process readiness for [COMPANY_TYPE] with [SALES_TEAM_SIZE] reps, avg deal size [DEAL_SIZE], and sales cycle [SALES_CYCLE] days. Score readiness (1–5) across: (1) ICP & qualification, (2) Process stages & enablement, (3) Pipeline management & forecasting, (4) Tech stack & data, (5) RevOps operating model, (6) Measurement & continuous improvement. Provide a scorecard, top gaps, and a 90-day plan.
 

@@ -34,7 +34,7 @@ slug: contract-management-readiness-assessment
 ## Purpose
 Assess an organization's readiness to operate contract lifecycle management across six dimensions: Repository & Inventory, Metadata & Searchability, Obligations & Performance, Workflows & Approvals, Risk/Compliance & Audit, and Renewal/Value Governance. Identify gaps, prioritize fixes, and produce a roadmap tied to cycle time, risk reduction, and value realization.
 
-## 🚀 Quick Assessment Prompt
+## 🚀 Quick Prompt
 
 > Assess **contract management readiness** for **[ORGANIZATION]** managing **[CONTRACT_PORTFOLIO]** using **[CLM_TOOLING]**. Evaluate across: (1) **Repository & inventory**—are contracts centralized, complete, and accessible with the right permissions? (2) **Metadata & searchability**—are key fields consistent (parties, term, renewal, value, risk tier) and searchable? (3) **Obligations & performance**—are SLAs, reporting, notices, and deliverables extracted, owned, and tracked? (4) **Workflows & approvals**—are intake, review, exception handling, and approvals defined with SLAs? (5) **Risk/compliance & audit**—are risk tiers, controls, evidence, and regulatory requirements consistently managed? (6) **Renewal & value governance**—are renewals, renegotiations, and exits proactive and measured? Provide a 1–5 scorecard, top gaps, prioritized recommendations, and a 90-day roadmap.
 

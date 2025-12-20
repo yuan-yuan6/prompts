@@ -32,7 +32,7 @@ slug: pipeline-ingestion
 ## Purpose
 Assess readiness to ingest data reliably into an analytics platform, including source contracts, quality controls, security, and operational monitoring.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess ingestion readiness for sources [SOURCES] into [PLATFORM]. Score readiness (1–5) across: (1) Source contracts & access, (2) Data modeling & schemas, (3) Quality & validation, (4) Reliability & failure handling, (5) Security & compliance, (6) Monitoring & operations. Provide a scorecard and a 60–90 day ingestion hardening plan.
 

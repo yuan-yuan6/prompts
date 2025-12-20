@@ -28,7 +28,7 @@ slug: research-management
 ## Purpose
 Assess readiness to manage research work effectively: planning, collaboration, documentation, quality assurance, and delivery of credible outputs.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess research management readiness for project [PROJECT]. Score readiness (1–5) across: (1) Goals & scope, (2) Planning & resourcing, (3) Collaboration & communication, (4) Data/code management, (5) Quality & review, (6) Delivery & dissemination. Provide a scorecard and operating plan.
 

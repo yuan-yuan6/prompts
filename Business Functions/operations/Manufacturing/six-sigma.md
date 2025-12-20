@@ -30,7 +30,7 @@ slug: six-sigma-readiness-assessment
 ## Purpose
 Assess readiness to **implement Six Sigma methodology** and achieve statistical quality excellence through systematic defect reduction, process capability improvement, and data-driven problem-solving. Use this to diagnose gaps in DMAIC execution, SPC deployment, belt capability, and quality culture.
 
-## 🚀 Quick Assessment Prompt
+## 🚀 Quick Prompt
 
 > Assess **Six Sigma readiness** for {SIX_SIGMA_CONTEXT}. The Six Sigma objectives are {OBJECTIVES}. Account for {CONSTRAINTS}. Score 1–5 across the six dimensions below and produce the required output (six deliverables).
 

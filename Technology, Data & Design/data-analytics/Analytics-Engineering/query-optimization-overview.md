@@ -32,7 +32,7 @@ slug: query-optimization-overview
 ## Purpose
 Assess readiness to optimize analytical queries and workloads through profiling, indexing/partitioning, governance, and performance monitoring.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess query optimization readiness for workload [WORKLOAD] on platform [PLATFORM]. Score readiness (1–5) across: (1) Workload understanding, (2) Data modeling & partitioning, (3) Query patterns & standards, (4) Performance monitoring, (5) Cost governance, (6) Continuous optimization process. Provide a scorecard and a 60-day optimization plan.
 

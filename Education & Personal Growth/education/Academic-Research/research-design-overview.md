@@ -35,7 +35,7 @@ slug: research-design-overview
 ## Purpose
 Assess readiness to design a research study with clear questions, appropriate methods, ethical safeguards, and a credible analysis plan.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess readiness to design study [STUDY] addressing question [QUESTION]. Score readiness (1–5) across: (1) Question & hypotheses, (2) Methodology & feasibility, (3) Sampling & measurement, (4) Ethics & approvals, (5) Analysis plan & rigor, (6) Execution & documentation. Provide a scorecard and a study design checklist.
 

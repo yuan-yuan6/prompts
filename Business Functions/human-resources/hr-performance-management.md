@@ -33,7 +33,7 @@ slug: hr-performance-management
 ## Purpose
 Assess readiness to manage employee performance with clear expectations, coaching, fair evaluations, and measurable development outcomes.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess performance management readiness for [ORGANIZATION] with [EMPLOYEE_COUNT] employees. Score readiness (1–5) across: (1) Goal setting & expectations, (2) Coaching & feedback, (3) Evaluation & calibration, (4) Development planning, (5) Systems & governance, (6) Measurement & continuous improvement. Provide a scorecard, top gaps, and a 90-day plan.
 

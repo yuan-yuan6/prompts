@@ -32,7 +32,7 @@ slug: llm-fine-tuning
 ## Purpose
 Assess readiness to fine-tune an LLM responsibly, including dataset quality, evaluation, safety, cost, and deployment operations.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess fine-tuning readiness for [USE_CASE] using dataset [DATASET] on model [BASE_MODEL]. Score readiness (1–5) across: (1) Problem fit, (2) Dataset quality, (3) Evaluation & benchmarks, (4) Safety & compliance, (5) Training & infra, (6) Deployment & monitoring. Provide a scorecard and a fine-tuning plan.
 

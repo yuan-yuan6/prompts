@@ -33,7 +33,7 @@ slug: campaign-development
 ## Purpose
 Assess readiness to plan and execute marketing campaigns with clear objectives, audience insight, strong creative, disciplined channel execution, and measurable performance improvement.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess campaign development readiness for [COMPANY_NAME] running [CAMPAIGN_OBJECTIVE] to reach [AUDIENCE_DESCRIPTION] with budget [BUDGET] over [TIMELINE]. Score readiness (1–5) across: (1) Objective & strategy fit, (2) Audience insight & targeting, (3) Creative & message system, (4) Channel plan & budget, (5) Execution & operations, (6) Measurement & optimization. Provide a scorecard, top gaps, and a 90-day plan.
 

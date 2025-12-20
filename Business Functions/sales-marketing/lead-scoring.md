@@ -34,7 +34,7 @@ slug: lead-scoring
 ## Purpose
 Assess readiness to design, implement, and govern a lead scoring system that improves conversion and sales efficiency through reliable signals, clear thresholds, and measurable outcomes.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess lead scoring readiness for [COMPANY_TYPE] with [LEAD_VOLUME] leads/month and CRM [CRM_PLATFORM]. Score readiness (1–5) across: (1) ICP & qualification definition, (2) Signal design (fit + intent), (3) Data quality & tracking, (4) Model governance & calibration, (5) Routing & workflow, (6) Monitoring & continuous improvement. Provide a scorecard, top gaps, and a 60-day implementation plan.
 

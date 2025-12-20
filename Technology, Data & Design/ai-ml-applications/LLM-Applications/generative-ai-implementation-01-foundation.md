@@ -28,7 +28,7 @@ slug: generative-ai-implementation-01-foundation
 ## Purpose
 Assess readiness for the foundational capabilities required to deliver generative AI safely and reliably, including scope, data access, evaluation, and operating model.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess GenAI foundation readiness for [ORGANIZATION] targeting [USE_CASE]. Score readiness (1–5) across: (1) Use case & constraints, (2) Data access & permissions, (3) Evaluation baseline, (4) Architecture foundation, (5) Governance & risk, (6) Operating model. Provide a scorecard and a 90-day foundation plan.
 

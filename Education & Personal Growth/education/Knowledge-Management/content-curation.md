@@ -28,11 +28,10 @@ slug: content-curation
 ## Purpose
 Assess whether you’re ready to curate and operate a digital library/resource collection by scoring six dimensions: Strategy & Users, Collection Policy, Selection & Acquisition, Metadata & Organization, Discovery & Access, and Operations & Sustainability. Use this as a **go / revise-first** gate before scaling acquisitions or importing large catalogs.
 
-## 🚀 Quick Assessment Prompt
+## 🚀 Quick Prompt
 
 > Assess **content curation/library readiness** for **{LIBRARY_CONTEXT}** curating **{COLLECTION_SCOPE}** under **{PLATFORM_AND_CONSTRAINTS}**. Score each dimension 1–5 with brief evidence: (1) strategy & users, (2) collection policy, (3) selection & acquisition, (4) metadata & organization, (5) discovery & access, (6) operations & sustainability. Provide an overall maturity level, go/revise-first, top risks, and a prioritized 30–60 day launch plan.
 
-**Usage:** Replace the curly-brace placeholders with your specifics.
 
 ---
 
@@ -114,19 +113,6 @@ Evaluate ownership, maintenance, and lifecycle. Confirm who updates metadata, wh
 - Executive summary: 3.0/5 (Defined), **go with a pilot**
 - Biggest gaps: inconsistent tagging; unclear intake approvals; no weeding plan
 - Next actions (30 days): define scope + selection rubric; adopt a minimal metadata schema; create 6 facets (topic, format, level, audience, updated date, rights); seed 50 high-value items; pilot with 10 users; add monthly review and a request form tied to backlog
-
----
-
-## Best Practices (8)
-
-1. Start with user journeys and “top 20” needs.
-2. Keep scope explicit; say “no” to protect quality.
-3. Use a selection rubric; avoid “link dumps.”
-4. Standardize minimal metadata first; expand later.
-5. Make discovery usable: search + browse + facets.
-6. Treat rights and accessibility as non-negotiable.
-7. Seed with high-quality content before inviting broad contributions.
-8. Operate a lifecycle: add, improve, retire—continuously.
 
 ---
 

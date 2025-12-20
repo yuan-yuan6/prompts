@@ -30,7 +30,7 @@ slug: data-storytelling
 ## Purpose
 Comprehensively assess data storytelling effectiveness across six dimensions: Audience Understanding, Narrative Structure, Visualization Strategy, Evidence Quality, Delivery Design, and Impact Measurement. This framework identifies communication gaps, strengthens data narratives, and creates presentations that drive stakeholder action.
 
-## 🚀 Quick Assessment Prompt
+## 🚀 Quick Prompt
 
 > Assess **data storytelling readiness** for **[PRESENTATION/ANALYSIS]** targeting **[AUDIENCE]** to achieve **[DESIRED OUTCOME]**. Evaluate across: (1) **Audience understanding**—do you know their priorities, technical level, and decision-making context? What questions will they ask? (2) **Narrative structure**—is there a clear opening hook, logical flow from problem to insight to recommendation? (3) **Visualization strategy**—do charts support the message? Are they clear, accurate, and appropriately complex for the audience? (4) **Evidence quality**—is the analysis sound, sources credible, and limitations acknowledged? (5) **Call to action**—are recommendations specific, actionable, and tied to business impact? Provide a maturity scorecard (1-5 per dimension), gap analysis, narrative improvements, and presentation optimization roadmap.
 

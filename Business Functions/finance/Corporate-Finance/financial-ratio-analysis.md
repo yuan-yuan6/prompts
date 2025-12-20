@@ -29,7 +29,7 @@ slug: financial-ratio-analysis-readiness-assessment
 ## Purpose
 Assess how ready your organization is to produce ratio analysis that is consistent, comparable, and decision-grade (credit review, board reporting, investment memos).
 
-## Quick Assessment Prompt
+## Quick Prompt
 Assess ratio analysis readiness for [COMPANY_NAME] in [INDUSTRY_SECTOR] for [ANALYSIS_PERIOD]. Evaluate data completeness and reconciliation, ratio definition standards, peer benchmarking discipline, interpretation and narrative quality, tooling/auditability, and review governance. Score each 1–5 and list the top 3 gaps and next actions.
 
 ## Readiness Scorecard (1–5 each)

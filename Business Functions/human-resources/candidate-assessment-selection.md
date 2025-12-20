@@ -33,7 +33,7 @@ slug: candidate-assessment-selection
 ## Purpose
 Assess readiness to evaluate and select candidates consistently using structured criteria, fair processes, calibrated interviewers, and measurable hiring outcomes.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess candidate assessment readiness for [ROLE_FAMILY] hiring [HEADCOUNT] roles/quarter. Score readiness (1–5) across: (1) Role requirements & success profile, (2) Assessment design, (3) Interviewer training & calibration, (4) Fairness & compliance, (5) Decision process & documentation, (6) Measurement & continuous improvement. Provide a scorecard, top gaps, and a 60–90 day plan.
 

@@ -32,7 +32,7 @@ slug: meeting-management-readiness-assessment
 ## Purpose
 Assess readiness to run **high-value, well-facilitated meetings** that produce clear decisions, actionable outcomes, and engaged participants. Use this to diagnose gaps in agenda discipline, facilitation skills, and meeting culture.
 
-## 🚀 Quick Assessment Prompt
+## 🚀 Quick Prompt
 
 > Assess **meeting management readiness** for {MEETING_CONTEXT}. The meeting objectives are {OBJECTIVES}. Account for {CONSTRAINTS}. Score 1–5 across the six dimensions below and produce the required output (six deliverables).
 

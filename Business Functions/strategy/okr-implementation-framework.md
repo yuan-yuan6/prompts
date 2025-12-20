@@ -27,7 +27,7 @@ slug: okr-implementation-framework
 ## Purpose
 Assess whether an organization is ready to implement OKRs in a way that improves focus, alignment, and execution rather than creating reporting overhead.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess OKR readiness for [ORGANIZATION] across [TEAM_COUNT] teams on a [CYCLE_LENGTH] cycle. Score readiness (1–5) across: (1) Objective quality & focus, (2) Key result measurement & data, (3) Alignment & dependency management, (4) Cadence and rituals, (5) Tooling & transparency, (6) Leadership & culture. Provide a scorecard with evidence, top gaps, and a 60–90 day rollout plan.
 

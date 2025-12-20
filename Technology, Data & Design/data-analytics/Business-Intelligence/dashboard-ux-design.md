@@ -31,7 +31,7 @@ slug: dashboard-ux-design
 ## Purpose
 Comprehensively assess dashboard user experience readiness across six dimensions: User Understanding, Visual Design, Data Visualization, Navigation & Interaction, Responsive Design, and Accessibility. This framework identifies design gaps, aligns solutions with user needs, and creates intuitive, effective dashboard experiences.
 
-## 🚀 Quick Assessment Prompt
+## 🚀 Quick Prompt
 
 > Assess **UX design readiness** for **[DASHBOARD PROJECT]** serving **[USER PERSONAS]** with **[PRIMARY USE CASES]**. Evaluate across: (1) **User understanding**—are personas defined? Do you know their questions, technical level, and device preferences? (2) **Visual design**—is there a consistent design system with appropriate color palette, typography, and spacing? (3) **Data visualization**—are chart types matched to data questions? Are visualizations clear and accurate? (4) **Navigation**—is information hierarchy clear? Can users find insights quickly? (5) **Accessibility**—does design meet WCAG standards for color contrast, screen readers, and keyboard navigation? Provide a maturity scorecard (1-5 per dimension), gap analysis, design recommendations, and UX improvement roadmap.
 

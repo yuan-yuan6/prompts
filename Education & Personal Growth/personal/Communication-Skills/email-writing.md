@@ -29,7 +29,7 @@ slug: email-writing-readiness-assessment
 ## Purpose
 Assess readiness to write effective professional emails across six dimensions: goal clarity, structure, tone, persuasion, calls-to-action, and quality/process. This produces a scorecard and a practical improvement plan.
 
-## 🚀 Quick Assessment Prompt
+## 🚀 Quick Prompt
 
 > Assess **email writing readiness** for **{EMAIL_CONTEXT}** to **{RECIPIENT_CONTEXT}** within **{CONSTRAINTS}**. Score each dimension **1–5**, explain why, and provide a rewrite strategy (subject line options, structure, CTA, follow-up). Include success metrics.
 

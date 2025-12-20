@@ -32,7 +32,7 @@ slug: omnichannel-strategy
 ## Purpose
 Assess readiness to deliver a consistent omnichannel experience across marketing, commerce, fulfillment, and service with aligned operations and measurement.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess omnichannel readiness for [BUSINESS] across [CHANNELS] with goal [NPS_TARGET] NPS and [NRR_TARGET] retention. Score readiness (1–5) across: (1) Journey & experience design, (2) Channel consistency, (3) Inventory/fulfillment orchestration, (4) Data & systems, (5) Operating model & governance, (6) Measurement & optimization. Provide a scorecard, top gaps, and a 90-day plan.
 

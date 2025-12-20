@@ -32,7 +32,7 @@ slug: renewable-energy
 ## Purpose
 Assess readiness to implement renewable energy projects with consistent delivery, commissioning, and operational performance.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess project implementation readiness for renewable project [PROJECT]. Score readiness (1–5) across: (1) Scope & permitting, (2) Engineering & design, (3) Procurement & supply chain, (4) Construction & commissioning, (5) Operations & monitoring, (6) Governance & risk. Provide a scorecard and delivery plan.
 

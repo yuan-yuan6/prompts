@@ -28,7 +28,7 @@ slug: music-audio
 ## Purpose
 Comprehensively assess a music or audio project's readiness for production across six dimensions: Creative Concept & Content, Musical & Sonic Foundation, Production Resources & Infrastructure, Talent & Team Capabilities, Production Workflow & Timeline, and Distribution & Market Strategy. This framework identifies creative gaps, validates resource availability, and ensures successful project execution before committing time and budget.
 
-## 🚀 Quick Assessment Prompt
+## 🚀 Quick Prompt
 
 > Assess **production readiness** for **[PROJECT_TITLE]**, a **[AUDIO_TYPE]** project targeting **[TARGET_PLATFORM]**. Evaluate across: (1) **Creative concept**—is the artistic vision clear, content outline defined, emotional goals established, genre conventions understood? What's the narrative or thematic coherence? (2) **Musical foundation**—are song structures solid, melodies memorable, harmonic progressions effective, lyrics compelling? What's the sonic aesthetic? (3) **Production resources**—what's the studio access, equipment quality, software/tools, budget allocation? Are recording environments adequate? (4) **Talent and team**—who are the performers, producers, engineers, songwriters? What's their experience level and availability? (5) **Workflow and timeline**—is the production schedule realistic, milestone planning clear, revision process defined, deadline pressure manageable? (6) **Distribution strategy**—what's the release platform, audience targeting, marketing plan, monetization approach? Provide a maturity scorecard (1-5 per dimension), critical blockers, prioritized actions, and a phase-by-phase production roadmap.
 

@@ -33,7 +33,7 @@ slug: influencer-marketing-campaign
 ## Purpose
 Assess readiness to design, contract, execute, and measure influencer campaigns with compliant operations and reliable ROI.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess influencer marketing readiness for [BRAND] targeting [AUDIENCE] with budget [BUDGET] and goal [CONVERSIONS_TARGET] conversions. Score readiness (1–5) across: (1) Objective & audience fit, (2) Creator selection & vetting, (3) Briefing & content approvals, (4) Contracting & compliance, (5) Tracking & measurement, (6) Optimization & scaling. Provide a scorecard, top gaps, and a 60–90 day plan.
 

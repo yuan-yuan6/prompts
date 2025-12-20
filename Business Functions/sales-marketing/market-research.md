@@ -33,7 +33,7 @@ slug: market-research
 ## Purpose
 Assess readiness to run market research that produces decision-grade insights—clear objectives, sound methods, reliable data, and actionable recommendations.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess market research readiness for [PRODUCT_SERVICE] targeting [TARGET_MARKET] with budget [RESEARCH_BUDGET] over [TIMELINE]. Score readiness (1–5) across: (1) Decision clarity & scope, (2) Methodology & sampling, (3) Data collection & quality, (4) Analysis & synthesis, (5) Stakeholder alignment & operations, (6) Actionability & measurement. Provide a scorecard, top gaps, and a research execution plan.
 

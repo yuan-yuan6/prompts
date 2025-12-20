@@ -28,7 +28,7 @@ slug: entertainment-game-design
 ## Purpose
 Comprehensively assess a game design's readiness for production across six dimensions: Core Design Vision, Narrative & World-Building, Mechanics & Systems, Level & Environment Design, User Experience & Interface, and Production & Market. This framework identifies design gaps, validates player experience goals, and ensures production-ready documentation before development begins.
 
-## 🚀 Quick Assessment Prompt
+## 🚀 Quick Prompt
 
 > Assess **game design readiness** for **[GAME_TITLE]**, a **[GAME_TYPE]** targeting **[TARGET_PLATFORM]**. Evaluate across: (1) **Core Design Vision**—is the gameplay loop compelling, the player fantasy clear, the unique selling proposition defensible? What's the emotional core? (2) **Narrative & World-Building**—how deep is the story structure, character development, world lore, and environmental storytelling? (3) **Mechanics & Systems**—are core mechanics fun and balanced? How complete are progression systems, resource management, and player feedback loops? (4) **Level & Environment Design**—does spatial design support pacing, exploration rewards, and challenge curves? How mature is environmental storytelling? (5) **User Experience & Interface**—is UI philosophy clear, HUD design intuitive, accessibility comprehensive? (6) **Production & Market Readiness**—what's the technical feasibility, team capability gaps, monetization model clarity, and competitive positioning? Provide a maturity scorecard (1-5 per dimension), critical design gaps, prioritized recommendations, and a production-readiness action plan with timeline to greenlight.
 

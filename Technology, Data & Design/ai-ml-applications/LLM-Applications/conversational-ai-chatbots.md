@@ -33,7 +33,7 @@ slug: conversational-ai-chatbots
 ## Purpose
 Assess readiness to build and operate conversational AI systems with strong UX, safe behaviors, integration, and measurable outcomes.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess chatbot readiness for [USE_CASE] across channels [CHANNELS]. Score readiness (1–5) across: (1) User journeys & intents, (2) Knowledge & integrations, (3) Conversation design & UX, (4) Safety & compliance, (5) Operations & monitoring, (6) Measurement & optimization. Provide a scorecard and a 90-day plan.
 

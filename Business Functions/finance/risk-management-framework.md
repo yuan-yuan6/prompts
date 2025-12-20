@@ -32,7 +32,7 @@ slug: risk-management-readiness-assessment
 ## Purpose
 Assess an organization's readiness to manage financial and enterprise risk across six dimensions: Governance & Risk Appetite, Risk Identification & Taxonomy, Measurement & Stress Testing, Controls & Mitigation, Monitoring & Reporting, and Culture & Compliance. Identify gaps, prioritize actions, and produce a roadmap tied to measurable outcomes.
 
-## 🚀 Quick Assessment Prompt
+## 🚀 Quick Prompt
 
 > Assess **risk management readiness** for **[ORGANIZATION]** managing **[RISK_SCOPE]** under **[REGULATORY_CONTEXT]**. Evaluate across: (1) **Governance & appetite**—are risk appetite, decision rights, and escalation clear and practiced? (2) **Identification & taxonomy**—is there a consistent risk inventory, taxonomy, and ownership across lines of business? (3) **Measurement & stress testing**—are exposures quantified with fit-for-purpose models, scenarios, and data quality controls? (4) **Controls & mitigation**—are key controls designed, tested, and improved; are mitigations cost-effective and tracked? (5) **Monitoring & reporting**—are KRIs/KPIs timely, decision-grade, and linked to actions; is limit management effective? (6) **Culture & compliance**—do teams understand and follow policies; is compliance integrated early; are issues learned from? Provide a 1–5 scorecard, top gaps, prioritized recommendations, and a 12-month capability plan.
 

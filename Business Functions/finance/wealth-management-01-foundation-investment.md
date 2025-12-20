@@ -26,7 +26,7 @@ slug: wealth-management-foundation-investment-readiness-assessment
 ## Purpose
 Assess how ready you are to deliver the “foundation + investment” portion of a wealth management plan with clear goals, consistent data, an appropriate allocation, and a repeatable review cadence.
 
-## Quick Assessment Prompt
+## Quick Prompt
 Assess foundation and investment readiness for [CLIENT_FAMILY_NAME]. Evaluate goal clarity and prioritization, cash flow and balance sheet accuracy, risk tolerance and time horizon, investment policy and asset allocation, implementation and rebalancing discipline, and reporting/review cadence. Score each 1–5 and list the top gaps and next actions.
 
 ## Readiness Scorecard (1–5 each)

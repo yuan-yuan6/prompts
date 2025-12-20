@@ -32,7 +32,7 @@ slug: product-launch-readiness-assessment
 ## Purpose
 Comprehensively assess an organization's capability to execute successful product launches through coordinated preparation, cross-functional alignment, proactive risk management, and systematic execution discipline. This framework evaluates readiness across Product Quality, Go-to-Market Preparation, Cross-Functional Coordination, Technical Operations, Launch Execution, and Post-Launch Optimization, identifying gaps that cause failed launches and providing actionable roadmaps for building launch excellence.
 
-## 🚀 Quick Assessment Prompt
+## 🚀 Quick Prompt
 
 > Assess **launch readiness** for **{PRODUCT_NAME}** releasing on **{LAUNCH_DATE}** coordinating **{TEAMS_INVOLVED}**. Evaluate across: (1) **Product quality readiness**—is QA complete? Are known issues documented and prioritized? Has performance testing validated scalability? Is the product truly ready for customers? (2) **GTM preparation**—are marketing materials ready? Is sales team trained and enabled? Are support and customer success prepared? (3) **Cross-functional coordination**—do all teams understand timeline and dependencies? Is there a single launch owner? Are handoffs clear? (4) **Technical operations**—is infrastructure ready? Are monitoring and alerts configured? Is the rollback plan tested? (5) **Launch execution capability**—is there a war room plan? Are success metrics defined? What's the issue triage process? (6) **Post-launch optimization**—how will you monitor performance? What's the rapid iteration plan? How will you capture learnings? Provide a maturity scorecard (1-5 per dimension), critical launch blockers, prioritized readiness improvements, and launch execution plan.
 

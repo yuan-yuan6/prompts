@@ -29,7 +29,7 @@ slug: property-management-system
 ## Purpose
 Assess readiness to select and implement a property management system (PMS) with clear requirements, data migration, integrations, adoption, and measurable outcomes.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess PMS implementation readiness for [PORTFOLIO] with [UNIT_COUNT] units and current tools [CURRENT_SYSTEMS]. Score readiness (1–5) across: (1) Requirements & scope, (2) Data migration readiness, (3) Integrations & workflows, (4) Security & compliance, (5) Change management & adoption, (6) Measurement & stabilization. Provide a scorecard, top gaps, and an implementation plan.
 

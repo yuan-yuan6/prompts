@@ -28,7 +28,7 @@ slug: defi-protocol-readiness-assessment
 ## Purpose
 Assess whether a team is ready to design, build, launch, and operate a DeFi protocol with the security discipline, economic rigor, governance controls, and operational readiness required for adversarial, high-stakes environments. This framework evaluates readiness across six dimensions—Use Case & Market Fit, Mechanism & Economic Soundness, Architecture & Dependencies, Security & Risk Management, Governance & Launch Controls, and Operations & Growth Measurement—to identify the most likely failure modes and produce a concrete plan to reduce them.
 
-## 🚀 Quick Assessment Prompt
+## 🚀 Quick Prompt
 
 > Assess **DeFi protocol readiness** for **{PROTOCOL_CONTEXT}** building **{PROTOCOL_TYPE}** targeting **{DEPLOYMENT_SCOPE}**. Evaluate: (1) **Value and differentiation**—is the protocol solving a real problem with a defensible edge and realistic adoption path? (2) **Mechanism design**—are incentives, parameters, and failure modes understood and testable (including stress scenarios)? (3) **Architecture/dependencies**—is on-chain scope minimal and are oracles/bridges/third-party integrations safe and justified? (4) **Security**—is there a threat model, testing depth, audits, monitoring, and incident response? (5) **Governance/controls**—are admin powers constrained with timelocks/multisig and is launch sequencing designed to limit blast radius? (6) **Operations/measurement**—can you run the protocol (risk monitoring, support, upgrades) and measure health beyond TVL? Provide a 1–5 scorecard, top risks, a 90-day launch plan with evidence gates, and a 12-month roadmap.
 

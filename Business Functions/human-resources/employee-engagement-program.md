@@ -29,7 +29,7 @@ slug: employee-engagement-program
 ## Purpose
 Assess readiness to design and run employee engagement programs that improve retention, performance, and culture through measurable interventions.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess employee engagement readiness for [ORGANIZATION] with baseline engagement [ENGAGEMENT_SCORE]. Score readiness (1–5) across: (1) Engagement strategy & drivers, (2) Listening & feedback system, (3) Program design & interventions, (4) Manager enablement, (5) Operating model & governance, (6) Measurement & iteration. Provide a scorecard, top gaps, and a 90-day plan.
 

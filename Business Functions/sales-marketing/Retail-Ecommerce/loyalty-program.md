@@ -30,7 +30,7 @@ slug: loyalty-program
 ## Purpose
 Assess readiness to design and operate a loyalty program that drives retention and lifetime value with clear economics, reliable data, and measurable impact.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess loyalty program readiness for [BUSINESS] with current retention [RETENTION_RATE]% and goal [LTV_TARGET]. Score readiness (1–5) across: (1) Value proposition & economics, (2) Program design & mechanics, (3) Data & identity, (4) Operations & fulfillment, (5) Governance & compliance, (6) Measurement & optimization. Provide a scorecard, top gaps, and a 90-day plan.
 

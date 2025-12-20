@@ -31,7 +31,7 @@ slug: smart-grid-implementation
 ## Purpose
 Assess readiness to implement smart grid capabilities including AMI, distribution automation, DER integration, and operational processes.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess smart grid implementation readiness for program [PROGRAM]. Score readiness (1–5) across: (1) Use cases & value, (2) Architecture & integration, (3) Data/telemetry & cybersecurity, (4) Operations & change management, (5) Vendor delivery & rollout, (6) Governance & compliance. Provide a scorecard and rollout roadmap.
 

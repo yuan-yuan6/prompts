@@ -34,7 +34,7 @@ slug: compliance-management-readiness-assessment
 ## Purpose
 Assess readiness to run a compliance management system (CMS) across six dimensions: Regulatory Inventory, Governance & Accountability, Policy/Procedure Control, Monitoring & Investigations, Issue Management & CAPA, and Reporting & Continuous Improvement. Identify gaps and produce a 90-day operational uplift plan.
 
-## 🚀 Quick Assessment Prompt
+## 🚀 Quick Prompt
 
 > Assess **compliance management readiness** for **[ORGANIZATION]** in **[INDUSTRY]** across **[JURISDICTIONS]** under **[CORE_REGULATIONS]**. Score 1–5 across: (1) **Reg inventory**—do we maintain a current obligations inventory mapped to processes/owners? (2) **Governance**—are decision rights, escalation, and three lines of defense defined? (3) **Policy control**—are policies/procedures versioned, reviewed, and attested? (4) **Monitoring/investigations**—do we detect issues, investigate with audit trail, and measure effectiveness? (5) **CAPA**—do we remediate, validate, and prevent recurrence? (6) **Reporting/CI**—are KPIs trusted and used to drive improvements? Provide a scorecard, top gaps, and a 90-day plan.
 

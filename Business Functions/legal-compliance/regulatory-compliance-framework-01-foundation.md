@@ -32,7 +32,7 @@ slug: regulatory-compliance-readiness-assessment-01-foundation
 ## Purpose
 Assess readiness to build the foundation of a regulatory compliance program across six dimensions: Governance & Decision Rights, Policies & Procedures, Roles & Resourcing, Culture & Training, Risk Assessment Baseline, and Documentation & Evidence. Identify gaps and produce a concrete foundation roadmap.
 
-## 🚀 Quick Assessment Prompt
+## 🚀 Quick Prompt
 
 > Assess **regulatory compliance foundation readiness** for **[ORGANIZATION]** in **[INDUSTRY]** operating across **[JURISDICTIONS]** under **[CORE_REGULATIONS]**. Evaluate across: (1) **Governance**—are oversight, decision rights, and three lines of defense defined? (2) **Policies/procedures**—is there a controlled policy lifecycle and minimum standards? (3) **Roles/resources**—are ownership, SMEs, and capacity adequate? (4) **Culture/training**—is leadership commitment visible and training role-based? (5) **Baseline risk assessment**—is there a workable risk taxonomy and initial risk register? (6) **Evidence**—is documentation/audit trail defined (approvals, training, controls)? Provide a 1–5 scorecard, top gaps, and a 90-day foundation plan.
 

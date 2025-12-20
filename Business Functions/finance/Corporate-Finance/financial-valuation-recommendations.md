@@ -28,7 +28,7 @@ slug: financial-valuation-readiness-assessment
 ## Purpose
 Assess how ready your organization is to produce valuation work that is transparent, defensible, and decision-grade (DCF, comps, transactions) and to translate it into clear recommendations.
 
-## Quick Assessment Prompt
+## Quick Prompt
 Assess valuation readiness for [COMPANY_NAME] for [VALUATION_PURPOSE] as of [VALUATION_DATE]. Evaluate inputs and normalization, forecast and drivers, method selection discipline, cost of capital/capital structure rigor, scenario/sensitivity coverage, and governance/recommendation narrative. Score each 1–5 and list the top 3 gaps and next actions.
 
 ## Readiness Scorecard (1–5 each)

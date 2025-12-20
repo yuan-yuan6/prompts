@@ -33,7 +33,7 @@ slug: ai-agents-autonomous-systems
 ## Purpose
 Assess readiness to build AI agents that plan and execute tasks using tools safely, with strong evaluation, guardrails, and operational controls.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess agent readiness for [USE_CASE] where the agent can take actions via [TOOLS]. Score readiness (1–5) across: (1) Task scope & constraints, (2) Tooling & permissions, (3) Planning & reliability, (4) Evaluation & safety, (5) Monitoring & incident response, (6) Human oversight & adoption. Provide a scorecard and a 90-day plan.
 

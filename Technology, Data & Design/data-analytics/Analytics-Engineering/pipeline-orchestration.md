@@ -32,7 +32,7 @@ slug: pipeline-orchestration
 ## Purpose
 Assess readiness to orchestrate data pipelines with reliable scheduling, dependency management, recovery, and operational controls.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess orchestration readiness for [PIPELINES] using orchestrator [ORCHESTRATOR]. Score readiness (1–5) across: (1) DAG design & dependencies, (2) Scheduling & SLAs, (3) Error handling & retries, (4) Environments & deployment, (5) Observability & ops, (6) Governance & change management. Provide a scorecard and a 60–90 day hardening plan.
 

@@ -30,7 +30,7 @@ slug: plant-operations-management
 ## Purpose
 Assess readiness to manage plant operations with safety, reliability, predictive maintenance, and performance optimization.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess plant operations readiness for plant [PLANT]. Score readiness (1–5) across: (1) Safety & compliance, (2) Asset monitoring, (3) Maintenance strategy, (4) Process control & optimization, (5) Workforce & SOPs, (6) Governance & continuous improvement. Provide a scorecard and a 90-day plan.
 

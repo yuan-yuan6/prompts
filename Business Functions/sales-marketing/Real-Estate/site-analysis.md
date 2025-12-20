@@ -32,7 +32,7 @@ slug: site-analysis
 ## Purpose
 Assess readiness to evaluate a site for development or acquisition with disciplined due diligence, risk assessment, and decision-grade outputs.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess site analysis readiness for [SITE] intended for [PROJECT_TYPE]. Score readiness (1–5) across: (1) Scope & criteria, (2) Zoning/permitting, (3) Environmental/physical due diligence, (4) Financial feasibility, (5) Risk & stakeholder management, (6) Reporting & decision process. Provide a scorecard, top gaps, and a due diligence plan.
 

@@ -31,7 +31,7 @@ slug: ai-ux-interaction-design
 ## Purpose
 Assess readiness to design AI-driven user experiences that are trustworthy, transparent, and aligned to real workflows, including safety and feedback loops.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess AI UX readiness for [PRODUCT] feature [FEATURE]. Score readiness (1–5) across: (1) Workflow understanding, (2) Interaction patterns, (3) Trust & transparency, (4) Error handling & escalation, (5) Safety & content policy, (6) Measurement & iteration. Provide a scorecard and a 60-day design plan.
 

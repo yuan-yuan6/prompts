@@ -31,7 +31,7 @@ slug: email-marketing-comprehensive
 ## Purpose
 Assess readiness to run a full email marketing program spanning lifecycle strategy, segmentation, deliverability, governance, and performance optimization.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess comprehensive email marketing readiness for [BRAND_ORGANIZATION] targeting [TARGET_AUDIENCE] with objectives [CAMPAIGN_OBJECTIVES]. Score readiness (1–5) across: (1) Lifecycle strategy & segmentation, (2) Content system & personalization, (3) Deliverability & list health, (4) Automation & integrations, (5) Measurement & experimentation, (6) Governance, compliance & operations. Provide a scorecard, top gaps, and a 90-day plan.
 

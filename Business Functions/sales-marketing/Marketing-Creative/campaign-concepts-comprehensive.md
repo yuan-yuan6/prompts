@@ -30,7 +30,7 @@ slug: campaign-concepts-comprehensive
 ## Purpose
 Assess readiness to develop integrated campaign concepts that scale across channels, maintain creative coherence, and support measurable performance optimization.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess comprehensive campaign concept readiness for [CAMPAIGN_NAME] for [BRAND_CLIENT] targeting [TARGET_MARKET] with objective [CAMPAIGN_OBJECTIVE] over [CAMPAIGN_DURATION]. Score readiness (1–5) across: (1) Strategy & objectives, (2) Audience insight & cultural context, (3) Big idea & message architecture, (4) Integrated activation & content plan, (5) Production operating model & governance, (6) Measurement & optimization. Provide a scorecard, top gaps, and a 90-day plan.
 

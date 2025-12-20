@@ -26,7 +26,7 @@ slug: fintech-innovation-readiness-assessment
 ## Purpose
 Assess how ready your organization is to develop and operate fintech products (payments, lending, wealth, regtech, open banking) with the controls, compliance, and platform discipline needed to scale.
 
-## Quick Assessment Prompt
+## Quick Prompt
 Assess fintech innovation readiness for [SOLUTION_NAME] targeting [TARGET_MARKET] with [USER_BASE] users and [TRANSACTION_VOLUME] volume. Evaluate product and use-case definition, platform and integration design, security and fraud controls, regulatory and compliance readiness, operational execution (support, disputes, risk), and measurement and iteration cadence. Score each 1–5 and list the top gaps and next actions.
 
 ## Readiness Scorecard (1–5 each)

@@ -30,7 +30,7 @@ slug: blockchain-architecture-readiness-assessment
 ## Purpose
 Assess whether an organization is ready to design, build, deploy, and operate a blockchain-based solution with appropriate security, governance, and operational discipline. This framework evaluates readiness across six dimensions—Use Case & Value, On-Chain Scope & Architecture Fit, Protocol & Smart Contract Design, Security & Risk Management, Governance/Compliance & Controls, and Delivery/Operations & Observability—so you can reduce avoidable technical and organizational failures and produce an executable roadmap.
 
-## 🚀 Quick Assessment Prompt
+## 🚀 Quick Prompt
 
 > Assess **blockchain architecture readiness** for **{ORGANIZATION}** building **{BLOCKCHAIN_USE_CASES}** with **{DEPLOYMENT_SCOPE}**. Evaluate: (1) **Value and necessity**—does blockchain uniquely solve a trust/coordination problem or is a conventional architecture better? (2) **Scope and architecture**—what must be on-chain vs off-chain, and how will identity, keys, and data flow work? (3) **Contract/protocol design**—are interfaces, upgrade strategy, and dependencies well-defined? (4) **Security**—are threats, audits, monitoring, and incident response planned? (5) **Governance/compliance**—are decision rights, controls, and compliance constraints understood? (6) **Delivery/ops**—can you ship safely and run the system (monitoring, support, upgrades, cost management)? Provide a scorecard (1–5), top risks, a 90-day plan, and a 12-month roadmap.
 

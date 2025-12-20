@@ -33,7 +33,7 @@ slug: grid-management
 ## Purpose
 Assess readiness to manage grid operations reliably, including forecasting, dispatch, reliability, and incident response.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess grid management readiness for system [GRID]. Score readiness (1–5) across: (1) Observability & telemetry, (2) Forecasting & planning, (3) Dispatch & control, (4) Reliability & resilience, (5) Cyber/physical security, (6) Governance & compliance. Provide a scorecard and operational improvement plan.
 

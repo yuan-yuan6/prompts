@@ -30,7 +30,7 @@ slug: brand-storytelling-comprehensive
 ## Purpose
 Assess readiness to develop and scale a comprehensive brand storytelling system across touchpoints: narrative architecture, voice, asset library, governance, and measurement.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess comprehensive brand storytelling readiness for [BRAND_NAME] ([ORGANIZATION_TYPE]) targeting [PRIMARY_AUDIENCE]. Score readiness (1–5) across: (1) Purpose & differentiation, (2) Audience/community insight, (3) Narrative architecture & story library, (4) Voice/tone system & channel adaptation, (5) Operating model & governance, (6) Measurement & evolution. Provide a scorecard, top gaps, and a 90-day plan.
 

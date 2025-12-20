@@ -33,7 +33,7 @@ slug: crisis-communication-readiness-assessment
 ## Purpose
 Assess readiness to **respond to crises swiftly, transparently, and credibly**—protecting reputation, maintaining stakeholder trust, and enabling rapid recovery. Use this to diagnose gaps in preparedness, response protocols, and post-crisis learning.
 
-## 🚀 Quick Assessment Prompt
+## 🚀 Quick Prompt
 
 > Assess **crisis communication readiness** for {CRISIS_CONTEXT}. The response objectives are {OBJECTIVES}. Account for {CONSTRAINTS}. Score 1–5 across the six dimensions below and produce the required output (six deliverables).
 

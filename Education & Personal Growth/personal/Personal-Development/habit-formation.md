@@ -28,7 +28,7 @@ slug: habit-formation
 ## Purpose
 Assess readiness to build a sustainable habit by clarifying motivation, designing cues and routines, and creating a feedback system that supports consistency.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess readiness to build habit [HABIT] with frequency [FREQUENCY]. Score readiness (1–5) across: (1) Goal clarity, (2) Cue/routine design, (3) Environment & friction, (4) Tracking & feedback, (5) Resilience & relapse plan, (6) Support & accountability. Provide a scorecard and a 30-day plan.
 

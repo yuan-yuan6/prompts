@@ -33,7 +33,7 @@ slug: recruitment-overview
 ## Purpose
 Assess readiness to run an end-to-end recruitment process with clear roles, predictable throughput, fair candidate experience, and measurable outcomes.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess recruitment readiness for [ORGANIZATION] hiring [HEADCOUNT] roles/quarter. Score readiness (1–5) across: (1) Workforce planning & intake, (2) Sourcing & pipeline, (3) Screening & assessment, (4) Process operations & tooling, (5) Stakeholder alignment, (6) Measurement & improvement. Provide a scorecard, top gaps, and a 90-day plan.
 

@@ -27,7 +27,7 @@ slug: dynamic-pricing-strategy
 ## Purpose
 Assess readiness to implement dynamic pricing with reliable signals, guardrails, systems integration, and monitoring to improve margin and conversion safely.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess dynamic pricing readiness for [BUSINESS] with [SKU_COUNT] SKUs and channels [CHANNELS]. Score readiness (1–5) across: (1) Use-case clarity & guardrails, (2) Signals & data quality, (3) Model/rules design, (4) Systems integration, (5) Governance & risk controls, (6) Monitoring & optimization. Provide a scorecard, top gaps, and a 90-day plan.
 

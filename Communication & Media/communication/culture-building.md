@@ -32,7 +32,7 @@ slug: culture-building-readiness-assessment
 ## Purpose
 Assess readiness to build a **strong, aligned, and engaging organizational culture** that attracts talent, drives performance, and retains employees. Use this to diagnose gaps in values clarity, recognition practices, and engagement mechanisms.
 
-## 🚀 Quick Assessment Prompt
+## 🚀 Quick Prompt
 
 > Assess **culture building readiness** for {CULTURE_CONTEXT}. The culture objectives are {OBJECTIVES}. Account for {CONSTRAINTS}. Score 1–5 across the six dimensions below and produce the required output (six deliverables).
 

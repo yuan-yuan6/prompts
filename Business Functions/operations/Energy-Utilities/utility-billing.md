@@ -33,7 +33,7 @@ slug: utility-billing
 ## Purpose
 Assess readiness to run or modernize utility billing with accurate meter data, rate plans, customer communications, and compliance.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess utility billing readiness for billing system [SYSTEM]. Score readiness (1–5) across: (1) Meter data quality, (2) Rate plan configuration, (3) Billing operations, (4) Customer experience & disputes, (5) Compliance & auditability, (6) Reliability & change management. Provide a scorecard and modernization plan.
 

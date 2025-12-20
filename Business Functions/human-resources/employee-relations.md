@@ -35,7 +35,7 @@ slug: employee-relations
 ## Purpose
 Assess readiness to manage employee relations issues consistently with fair processes, compliant documentation, and effective resolution outcomes.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess employee relations readiness for [ORGANIZATION] with [EMPLOYEE_COUNT] employees. Score readiness (1–5) across: (1) Policies & standards, (2) Intake & triage, (3) Investigation & documentation, (4) Resolution & remediation, (5) Manager enablement & communications, (6) Measurement & continuous improvement. Provide a scorecard, top gaps, and a 90-day plan.
 

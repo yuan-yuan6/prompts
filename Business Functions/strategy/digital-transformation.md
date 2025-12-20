@@ -31,7 +31,7 @@ slug: digital-transformation
 ## Purpose
 Assess how ready an organization is to deliver a digital transformation that improves customer outcomes, modernizes technology, digitizes processes, and builds durable capabilities for continuous improvement.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess digital transformation readiness for [ORGANIZATION] in [INDUSTRY] with an investment of [BUDGET] over [TIME_HORIZON]. Score readiness (1–5) across: (1) Vision & value case, (2) Customer and process redesign, (3) Technology architecture & delivery, (4) Data & analytics foundations, (5) Change management & culture, (6) Governance, risk & security. Provide a scorecard, top gaps, prioritized recommendations, and a 90-day plan.
 

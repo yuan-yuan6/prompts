@@ -35,7 +35,7 @@ slug: compensation-benefits
 ## Purpose
 Assess readiness to design and operate compensation and benefits programs that are competitive, fair, compliant, and aligned to business strategy.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess compensation and benefits readiness for [ORGANIZATION] across [COUNTRIES] with pay philosophy [PAY_PHILOSOPHY]. Score readiness (1–5) across: (1) Philosophy & strategy, (2) Benchmarking & market data, (3) Job architecture & leveling, (4) Program design & administration, (5) Governance & compliance, (6) Measurement & iteration. Provide a scorecard, top gaps, and a 90-day plan.
 

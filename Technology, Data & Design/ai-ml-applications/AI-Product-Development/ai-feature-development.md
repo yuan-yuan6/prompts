@@ -32,7 +32,7 @@ slug: ai-feature-development
 ## Purpose
 Assess readiness to build AI features end-to-end, including requirements, evaluation, data/model integration, reliability, and rollout.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess AI feature development readiness for feature [FEATURE] within [PRODUCT]. Score readiness (1–5) across: (1) Requirements & UX, (2) Data & grounding, (3) Evaluation & testing, (4) Engineering & reliability, (5) Safety & compliance, (6) Release & adoption. Provide a scorecard and a 60–90 day delivery plan.
 

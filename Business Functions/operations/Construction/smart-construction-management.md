@@ -31,7 +31,7 @@ slug: smart-construction-management
 ## Purpose
 Assess readiness to use digital tools (BIM, field capture, analytics) to improve construction execution, quality, and safety.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess smart construction readiness for program [PROGRAM]. Score readiness (1–5) across: (1) Use cases & value, (2) Data capture & BIM, (3) Tooling & integrations, (4) Field adoption, (5) Quality & safety controls, (6) Governance & scaling. Provide a scorecard and rollout roadmap.
 

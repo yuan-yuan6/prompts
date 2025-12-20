@@ -31,7 +31,7 @@ slug: dashboard-technical-implementation
 ## Purpose
 Comprehensively assess technical readiness for dashboard implementation across six dimensions: Platform Selection, Infrastructure Capacity, Performance Optimization, Multi-Device Support, Integration Architecture, and Operational Readiness. This framework guides technology decisions, identifies gaps, and creates implementation roadmaps.
 
-## 🚀 Quick Assessment Prompt
+## 🚀 Quick Prompt
 
 > Assess **technical implementation readiness** for **[DASHBOARD PROJECT]** supporting **[USER COUNT]** users with **[DATA VOLUME]** data. Evaluate across: (1) **Platform fit**—does the proposed BI platform match user skills, budget, and feature requirements? What alternatives should be considered? (2) **Infrastructure**—is compute, storage, and network capacity sufficient for concurrent users and query complexity? (3) **Performance**—what caching, pre-aggregation, and query optimization strategies are needed for target load times? (4) **Multi-device**—are mobile, tablet, and desktop experiences properly designed? (5) **Integration**—are SSO, embedding, and API requirements addressed? Provide a maturity scorecard (1-5 per dimension), gap analysis, architecture recommendations, and 90-day implementation roadmap.
 

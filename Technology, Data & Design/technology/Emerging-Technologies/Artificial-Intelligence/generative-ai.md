@@ -30,7 +30,7 @@ slug: generative-ai
 ## Purpose
 Assess whether an organization is ready to design, deploy, and operate generative AI systems (LLM-powered copilots, assistants, and workflows) in a way that is safe, measurable, and operationally sustainable. This assessment focuses on the decisions that most often drive success or failure—use case fit, knowledge and data readiness, model/architecture choices, safety and trust controls, delivery and operations, and organizational adoption.
 
-## 🚀 Quick Assessment Prompt
+## 🚀 Quick Prompt
 
 > Assess **generative AI readiness** for **{ORGANIZATION}** planning to implement **{GENAI_USE_CASES}** in **{DEPLOYMENT_CONTEXT}**. Evaluate: (1) value and workflow fit, (2) knowledge/data and grounding readiness, (3) model and architecture choices (prompt-only vs RAG vs fine-tune), (4) safety, privacy, and compliance controls, (5) delivery, evaluation, and operations (LLMOps), and (6) people/process readiness and change adoption. Provide a scorecard (1–5 per dimension), top risks, recommended architecture approach per use case, a 90-day pilot plan with evidence gates, and a 12-month roadmap.
 

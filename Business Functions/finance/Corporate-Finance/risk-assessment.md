@@ -30,7 +30,7 @@ slug: enterprise-risk-readiness-assessment
 ## Purpose
 Assess how ready your organization is to run repeatable, decision-grade risk assessments across market, credit, operational, and regulatory domains and to convert findings into monitored mitigation actions.
 
-## Quick Assessment Prompt
+## Quick Prompt
 Assess enterprise risk readiness for [ORGANIZATION] covering [RISK_CATEGORIES] over [ASSESSMENT_TIMEFRAME]. Evaluate risk taxonomy and inventory, data/measurement capability (including stress testing/VaR where relevant), scenario discipline, governance and controls, reporting and KRIs, and mitigation execution. Score each 1–5 and list the top 3 gaps and next actions.
 
 ## Readiness Scorecard (1–5 each)

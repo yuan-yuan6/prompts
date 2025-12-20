@@ -23,7 +23,7 @@ slug: tax-planning-readiness-assessment
 ## Purpose
 Assess readiness for year-round tax planning across six dimensions: income complexity, documentation, withholding/estimates, deductions/credits awareness, compliance/workflow, and review discipline.
 
-## 🚀 Quick Assessment Prompt
+## 🚀 Quick Prompt
 
 > Assess **tax planning readiness** for **{TAX_PROFILE}** pursuing **{GOALS}** within **{CONSTRAINTS}**. Score each dimension **1–5**, explain why, and produce a quarterly readiness plan (checklist + calendar) and success metrics.
 

@@ -27,7 +27,7 @@ slug: financial-forecasting-readiness-assessment
 ## Purpose
 Assess how ready your organization is to produce forecasting outputs that are consistent, decision-grade, and repeatable (budgets, board packs, fundraising models, M&A cases).
 
-## Quick Assessment Prompt
+## Quick Prompt
 Assess forecasting readiness for [COMPANY_NAME] over [FORECAST_PERIOD]. Score the current forecasting process across: inputs/data, assumptions discipline, model design, scenario/sensitivity rigor, review/controls, and cadence/communication. Provide scores (1–5), key gaps, and the next 3 improvements.
 
 ## Readiness Scorecard (1–5 each)

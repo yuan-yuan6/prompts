@@ -33,7 +33,7 @@ slug: statistical-analysis
 ## Purpose
 Assess readiness to run statistical analyses with correct assumptions, reproducible workflows, and results that support reliable decisions.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess statistical analysis readiness for question [QUESTION] using dataset [DATASET]. Score readiness (1–5) across: (1) Problem framing & hypotheses, (2) Data readiness, (3) Method selection & assumptions, (4) Reproducibility, (5) Interpretation & communication, (6) Governance & review. Provide a scorecard and an analysis plan.
 

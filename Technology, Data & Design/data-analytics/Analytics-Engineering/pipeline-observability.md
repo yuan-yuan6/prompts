@@ -32,7 +32,7 @@ slug: pipeline-observability
 ## Purpose
 Assess readiness to observe and operate data pipelines with clear SLIs/SLOs, alerts, lineage, and incident response.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess pipeline observability readiness for [PLATFORM] and pipelines [PIPELINES]. Score readiness (1–5) across: (1) Metrics & SLIs, (2) Alerting & response, (3) Lineage & impact analysis, (4) Data quality monitoring, (5) Cost & performance visibility, (6) Continuous improvement. Provide a scorecard and an observability rollout plan.
 

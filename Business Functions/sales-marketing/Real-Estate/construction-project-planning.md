@@ -28,7 +28,7 @@ slug: construction-project-planning
 ## Purpose
 Assess readiness to plan construction projects with clear scope, schedule, budget, procurement, risk controls, and governance for predictable delivery.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess construction planning readiness for [PROJECT] with budget [BUDGET] and timeline [TIMELINE]. Score readiness (1–5) across: (1) Scope & requirements, (2) Schedule & milestones, (3) Budget & cost controls, (4) Procurement & contractors, (5) Risk & safety management, (6) Governance & reporting. Provide a scorecard, top gaps, and a project planning plan.
 

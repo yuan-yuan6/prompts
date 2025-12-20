@@ -31,7 +31,7 @@ slug: tenant-operations
 ## Purpose
 Assess readiness to run tenant operations (leasing, communications, maintenance coordination, billing, and renewals) with reliable processes and measurable outcomes.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess tenant operations readiness for [PORTFOLIO] with [UNIT_COUNT] units and goal [RENEWAL_TARGET]% renewals. Score readiness (1–5) across: (1) Tenant lifecycle processes, (2) Communication & service standards, (3) Maintenance coordination, (4) Billing & collections, (5) Systems & data, (6) Measurement & improvement. Provide a scorecard, top gaps, and a 90-day plan.
 

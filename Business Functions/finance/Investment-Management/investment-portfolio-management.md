@@ -28,7 +28,7 @@ slug: investment-portfolio-management-readiness-assessment
 ## Purpose
 Assess readiness to manage an investment portfolio across six dimensions: Mandate & IPS Clarity, Portfolio Construction & Allocation, Risk Management, Rebalancing & Implementation, Performance Measurement & Reporting, and Compliance & Governance. Identify gaps and produce a practical management checklist.
 
-## 🚀 Quick Assessment Prompt
+## 🚀 Quick Prompt
 
 > Assess **portfolio management readiness** for **[CLIENT/ORGANIZATION]** managing **$[AUM]** under **[MANDATE]** and **[REGULATORY_CONTEXT]**. Score 1–5 across: (1) **Mandate/IPS**—are objectives, constraints, benchmarks, and decision rights explicit? (2) **Construction**—is the target allocation and investable universe defined and consistent with the mandate? (3) **Risk**—are limits, stress tests, and concentration controls defined and monitored? (4) **Implementation**—are rebalancing rules, transaction costs, and (if relevant) taxes operationalized? (5) **Measurement**—are attribution and client reporting timely, accurate, and explainable? (6) **Governance**—are approvals, exceptions, documentation, and reviews disciplined? Provide a scorecard, top gaps, and a “ready-to-manage” checklist.
 

@@ -31,7 +31,7 @@ slug: literature-review-reporting-dissemination
 ## Purpose
 Assess whether a completed literature review is ready to be reported and disseminated in a way that is compliant with reporting standards, credible to peer review, and useful to stakeholders. This framework helps ensure that methods are transparent, findings are communicated with appropriate uncertainty, and dissemination products match the needs of real audiences.
 
-## 🚀 Quick Assessment Prompt
+## 🚀 Quick Prompt
 
 > Assess **reporting & dissemination readiness** for **{REVIEW_CONTEXT}** with intended outputs for **{TARGET_AUDIENCES}** delivered as **{DELIVERABLE_SET}**. Evaluate: (1) reporting standard alignment (PRISMA/ENTREQ/RAMESES), (2) results clarity and uncertainty communication, (3) transparency and reproducibility artifacts, (4) stakeholder tailoring and message discipline, (5) dissemination plan and channel fit, and (6) impact measurement and maintenance (updates, living review considerations). Provide a scorecard (1–5), top risks, a minimum viable manuscript outline, and a practical dissemination plan with owners and timelines.
 

@@ -32,7 +32,7 @@ slug: screening-interview-process
 ## Purpose
 Assess readiness to run a screening and interview process that is structured, fair, efficient, and predictive of on-the-job success.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess interview process readiness for [ROLE_FAMILY] across [INTERVIEW_STAGES] stages. Score readiness (1–5) across: (1) Role criteria & rubrics, (2) Interview design & questions, (3) Interviewer capability & calibration, (4) Candidate experience & logistics, (5) Decisioning & documentation, (6) Measurement & iteration. Provide a scorecard, top gaps, and a 60-day plan.
 

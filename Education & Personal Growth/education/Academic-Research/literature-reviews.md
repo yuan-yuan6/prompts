@@ -35,11 +35,10 @@ slug: literature-reviews
 ## Purpose
 Assess whether you’re ready to execute a rigorous literature review by scoring six dimensions: Scope & Questions, Search Strategy, Screening & Selection, Extraction & Data Management, Synthesis & Interpretation, and Reporting & Transparency. Use this as a **go / revise-first / stop** gate before investing heavy execution effort.
 
-## 🚀 Quick Assessment Prompt
+## 🚀 Quick Prompt
 
 > Assess **literature review readiness** for **{REVIEW_CONTEXT}** using **{REVIEW_TYPE}** under **{CONSTRAINTS}**. Score each dimension 1–5 with brief evidence: (1) scope & questions, (2) search strategy, (3) screening & selection, (4) extraction & data management, (5) synthesis & interpretation, (6) reporting & transparency. Provide an overall maturity level, a go/revise-first recommendation, and a prioritized action plan.
 
-**Usage:** Replace the curly-brace placeholders with your specifics.
 
 ---
 
@@ -119,19 +118,6 @@ Evaluate whether outputs will be publication-ready and transparent by assessing 
 - Executive summary: 2.8/5 (Developing), **revise-first**
 - Biggest gaps: unclear eligibility criteria; search strings not drafted; no calibration plan
 - Next actions: finalize PICO/eligibility; draft and pilot search strings; set screening calibration (50 records) + disagreement rule; define extraction fields + QA spot-check
-
----
-
-## Best Practices (8)
-
-1. Write your eligibility criteria so two people apply them the same way.
-2. Pilot the search and screening on a small set before committing.
-3. Document search strings, dates, filters, and all sources for reproducibility.
-4. Separate “what the evidence shows” from “what you think it implies.”
-5. Predefine how you will handle heterogeneity and low-quality studies.
-6. Use an audit trail: versions, decisions, and reasons-for-exclusion.
-7. Treat scope control as a success metric; avoid “infinite review” expansion.
-8. Report limitations and bias risks explicitly; don’t bury them.
 
 ---
 

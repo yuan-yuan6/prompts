@@ -23,7 +23,7 @@ slug: budget-planning-readiness-assessment
 ## Purpose
 Assess readiness to build a sustainable budget across six dimensions: goals, cashflow clarity, budgeting method, spending controls, tools/automation, and review habits.
 
-## 🚀 Quick Assessment Prompt
+## 🚀 Quick Prompt
 
 > Assess **budget readiness** for **{HOUSEHOLD_CONTEXT}** pursuing **{FINANCIAL_GOALS}** within **{CONSTRAINTS}**. Score each dimension **1–5**, explain why, and provide a 30-day setup plan (weekly steps), plus success metrics.
 

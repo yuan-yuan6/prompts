@@ -29,7 +29,7 @@ slug: brand-storytelling
 ## Purpose
 Assess readiness to create a coherent brand story system—narrative, voice, and reusable story assets—that teams can deploy consistently across channels.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess brand storytelling readiness for [BRAND_NAME] targeting [TARGET_AUDIENCE] with objective [STORYTELLING_OBJECTIVE]. Score readiness (1–5) across: (1) Purpose & differentiation, (2) Audience, community & culture, (3) Narrative architecture & story assets, (4) Voice, tone & identity system, (5) Governance & internal enablement, (6) Measurement & evolution. Provide a scorecard with evidence, top gaps, and a 60-day plan.
 

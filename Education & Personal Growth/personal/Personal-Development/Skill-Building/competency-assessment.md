@@ -33,7 +33,7 @@ slug: competency-assessment
 ## Purpose
 Assess whether you’re ready to design and operate a competency assessment that supports consistent decisions (hiring, development, promotion, certification) and produces actionable guidance—without over-claiming predictiveness.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess readiness to implement a competency assessment for **{ASSESSMENT_CONTEXT}** evaluating **{TARGET_ROLE}** to support **{DECISION_USE}**.
 >

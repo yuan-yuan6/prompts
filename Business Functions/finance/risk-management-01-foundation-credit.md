@@ -27,7 +27,7 @@ slug: risk-management-foundation-credit-readiness-assessment
 ## Purpose
 Assess how ready your organization is to run core risk governance and credit risk management with clear decision rights, consistent policies, reliable measurement, and repeatable review cadence.
 
-## Quick Assessment Prompt
+## Quick Prompt
 Assess readiness for [FINANCIAL_INSTITUTION_NAME] to implement ERM foundation and credit risk management. Evaluate governance and risk appetite, credit policy and underwriting, portfolio monitoring and early warning, credit loss measurement and stress testing, data and systems, and culture/accountability. Score each 1–5 and list the top gaps and next actions.
 
 ## Readiness Scorecard (1–5 each)

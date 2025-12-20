@@ -33,7 +33,7 @@ slug: energy-efficiency
 ## Purpose
 Assess readiness to plan and execute energy efficiency initiatives with reliable measurement, controls, and governance.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess energy efficiency readiness for portfolio [PORTFOLIO]. Score readiness (1–5) across: (1) Baselines & metering, (2) Initiative pipeline, (3) Controls & operations, (4) Measurement & verification, (5) Stakeholder alignment, (6) Governance & scaling. Provide a scorecard and 90-day plan.
 

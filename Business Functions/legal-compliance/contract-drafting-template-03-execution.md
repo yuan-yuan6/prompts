@@ -38,7 +38,7 @@ slug: contract-drafting-readiness-assessment-03-execution-management
 ## Purpose
 Assess readiness to execute, govern, and manage contracts post-signature across six dimensions: Execution Mechanics, Records & Evidence, Obligations Tracking, Change Control & Amendments, Renewal/Exit Lifecycle, and Governance & Continuous Improvement. Identify gaps, prioritize fixes, and produce a contract-ops roadmap.
 
-## 🚀 Quick Assessment Prompt
+## 🚀 Quick Prompt
 
 > Assess **contract execution & management readiness** for **[ORGANIZATION]** implementing a **[CONTRACT_TYPE]** with **[COUNTERPARTY]**. Evaluate across: (1) **Execution mechanics**—are signatories, approvals, and signature method (wet/e-sign) correct and repeatable? (2) **Records & evidence**—is the final agreement package complete, searchable, and audit-ready? (3) **Obligations tracking**—are deliverables, SLAs, reporting, and notice obligations owned and monitored? (4) **Change control**—is there a clean process for amendments, SOW changes, and approvals? (5) **Renewal/exit**—are renewals, terminations, and transition requirements tracked early enough to act? (6) **Governance & CI**—is there a cadence, KPI ownership, and learning loop to improve contract ops? Provide a 1–5 scorecard, top gaps, and a 90-day stabilization roadmap.
 

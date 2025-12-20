@@ -31,11 +31,18 @@ slug: conference-presentations
 ## Purpose
 Assess whether your conference talk or poster is ready by scoring six dimensions: Audience & Goal Fit, Story & Claims, Visual Design, Evidence & Figures, Delivery & Q&A, and Logistics & Assets. Use this to decide **ready / revise-first** and to produce a focused improvement plan.
 
-## 🚀 Quick Assessment Prompt
+## 🚀 Quick Prompt
 
-> Assess **conference presentation readiness** for **{PRESENTATION_CONTEXT}** communicating **{KEY_MESSAGE}** to **{AUDIENCE}**. Score each dimension 1–5 with brief evidence: (1) audience & goal fit, (2) story & claims, (3) visual design, (4) evidence & figures, (5) delivery & Q&A, (6) logistics & assets. Provide an overall maturity level, a revise-first checklist, and a run-of-show.
+> Assess **conference presentation readiness** for **{PRESENTATION_CONTEXT}** communicating **{KEY_MESSAGE}** to **{AUDIENCE}**.
+>
+> First, list any **missing information/questions** that would materially change the assessment (state assumptions only if necessary).
+>
+> Then score each dimension **1–5** with 1–2 sentences of evidence: (1) audience & goal fit, (2) story & claims, (3) visual design, (4) evidence & figures, (5) delivery & Q&A, (6) logistics & assets.
+>
+> Compute the overall score (average), assign a maturity level (1–5), and recommend **ready / revise-first** (justify based on the highest-risk gaps and the time/format constraints).
+>
+> Finally, present the response using the **Required Output Format (sections 1–5)** exactly.
 
-**Usage:** Replace the curly-brace placeholders with your specifics.
 
 ---
 
@@ -115,19 +122,6 @@ Evaluate whether you can actually show up and run: file formats, backups, fonts,
 - Executive summary: 3.2/5 (Defined), **revise-first**
 - Biggest gaps: poster scanning path unclear; outcome metric not contextualized; Q&A missing on confounders
 - Next edits: add 3-step flow diagram; headline effect size with baseline; add limitations box + rollout plan QR
-
----
-
-## Best Practices (8)
-
-1. Design for the back row (or 30-second poster skim).
-2. Lead with the takeaway, then earn it with evidence.
-3. Keep claims proportional to method strength and sample size.
-4. Use figures to do the heavy lifting; annotate them for your narrative.
-5. Rehearse with a timer and cut until it fits cleanly.
-6. Prep Q&A on limitations, generalizability, and alternative explanations.
-7. Build a backup plan (PDF export, offline video, redundant adapters).
-8. Make follow-up effortless (QR, link, and one clear ask).
 
 ---
 

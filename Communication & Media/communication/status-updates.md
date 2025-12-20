@@ -31,7 +31,7 @@ slug: status-updates-readiness-assessment
 ## Purpose
 Assess readiness to deliver **clear, timely, and actionable status updates** that keep stakeholders informed, aligned, and able to make decisions. Use this to diagnose gaps in format, cadence, and issue escalation.
 
-## 🚀 Quick Assessment Prompt
+## 🚀 Quick Prompt
 
 > Assess **status reporting readiness** for {REPORTING_CONTEXT}. The communication objectives are {OBJECTIVES}. Account for {CONSTRAINTS}. Score 1–5 across the six dimensions below and produce the required output (six deliverables).
 

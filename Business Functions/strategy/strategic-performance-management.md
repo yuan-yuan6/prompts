@@ -31,7 +31,7 @@ slug: strategic-performance-management
 ## Purpose
 Assess whether your organization can define, measure, and act on performance metrics consistently. This emphasizes strategy alignment, data quality, review rituals, and accountability.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess performance management readiness for [ORGANIZATION] in [INDUSTRY]. Score readiness (1–5) across: (1) Strategy-to-metric alignment, (2) Metric definitions & data quality, (3) Target setting & thresholds, (4) Review cadence & accountability, (5) Tooling & reporting, (6) Incentives & culture. Provide a scorecard with evidence, top gaps, and a 60–90 day plan.
 

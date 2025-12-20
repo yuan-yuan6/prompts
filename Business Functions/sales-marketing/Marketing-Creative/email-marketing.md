@@ -30,7 +30,7 @@ slug: email-marketing
 ## Purpose
 Assess readiness to run effective email marketing programs across lifecycle stages, including strategy, segmentation, deliverability, automation, and continuous optimization.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess email marketing readiness for [BRAND_NAME] targeting [SUBSCRIBER_SEGMENT] for [EMAIL_OBJECTIVE]. Score readiness (1–5) across: (1) Lifecycle strategy & segmentation, (2) Content & copy system, (3) Deliverability & list health, (4) Automation & tooling, (5) Measurement & experimentation, (6) Governance, compliance & operations. Provide a scorecard with evidence, top gaps, and a 60-day improvement plan.
 

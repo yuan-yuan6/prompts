@@ -30,7 +30,7 @@ slug: landing-pages
 ## Purpose
 Assess readiness to design and optimize landing pages that deliver message-match, reduce friction, and improve conversion outcomes through disciplined testing.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess landing page readiness for [CAMPAIGN_NAME] promoting [OFFER] to [TARGET_AUDIENCE] from [TRAFFIC_SOURCE] with conversion goal [CONVERSION_GOAL]. Score readiness (1–5) across: (1) Offer clarity & message-match, (2) Information architecture & UX, (3) Copy, proof & objection handling, (4) Technical performance & tracking, (5) Experimentation & optimization, (6) Compliance, accessibility & governance. Provide a scorecard, top gaps, and a 60-day plan.
 

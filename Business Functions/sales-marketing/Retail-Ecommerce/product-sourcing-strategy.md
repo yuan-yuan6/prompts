@@ -29,7 +29,7 @@ slug: product-sourcing-strategy
 ## Purpose
 Assess readiness to source products reliably with the right supplier strategy, cost structure, quality controls, risk management, and measurable outcomes.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess sourcing strategy readiness for [BUSINESS] sourcing [PRODUCT_CATEGORIES] from [REGIONS]. Score readiness (1–5) across: (1) Category strategy & requirements, (2) Supplier selection & negotiation, (3) Costing & margins, (4) Quality & compliance, (5) Supply risk & resilience, (6) Measurement & improvement. Provide a scorecard, top gaps, and a 90-day plan.
 

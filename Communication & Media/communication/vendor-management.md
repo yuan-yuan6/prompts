@@ -31,7 +31,7 @@ slug: vendor-management-readiness-assessment
 ## Purpose
 Assess readiness to manage **vendor relationships and procurement** strategically—optimizing value, mitigating risk, and ensuring performance at scale. Use this to diagnose capability gaps and build a roadmap for operational excellence.
 
-## 🚀 Quick Assessment Prompt
+## 🚀 Quick Prompt
 
 > Assess **vendor management readiness** for {VENDOR_PORTFOLIO}. The procurement objectives are {OBJECTIVES}. Account for {CONSTRAINTS}. Score 1–5 across the six dimensions below and produce the required output (six deliverables).
 

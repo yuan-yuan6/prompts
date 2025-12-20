@@ -32,7 +32,7 @@ slug: randomization-and-power-analysis
 ## Purpose
 Assess readiness to design experiments with valid randomization, adequate statistical power, and operational execution that supports credible inference.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess experiment design readiness for [EXPERIMENT] with outcome [PRIMARY_METRIC]. Score readiness (1–5) across: (1) Hypothesis & metrics, (2) Randomization/unit assignment, (3) Power & sample sizing, (4) Data quality & instrumentation, (5) Execution & monitoring, (6) Analysis plan & governance. Provide a scorecard and a launch checklist.
 

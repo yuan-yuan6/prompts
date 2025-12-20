@@ -29,7 +29,7 @@ slug: inventory-management
 ## Purpose
 Assess readiness to manage inventory accurately across channels, reduce stockouts/overstock, and improve fulfillment performance with reliable data and operating cadences.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess inventory management readiness for [BUSINESS] with [SKU_COUNT] SKUs and [CHANNELS]. Score readiness (1–5) across: (1) Demand forecasting, (2) Replenishment & planning, (3) Inventory visibility, (4) Fulfillment & allocation, (5) Systems & integrations, (6) Measurement & improvement. Provide a scorecard, top gaps, and a 90-day plan.
 

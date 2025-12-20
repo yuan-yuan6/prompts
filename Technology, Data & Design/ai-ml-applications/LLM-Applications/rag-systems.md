@@ -32,7 +32,7 @@ slug: rag-systems
 ## Purpose
 Assess readiness to build retrieval-augmented generation (RAG) systems with high-quality indexing, permissions, evaluation, and operational reliability.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess RAG readiness for [USE_CASE] using sources [DATA_SOURCES]. Score readiness (1–5) across: (1) Knowledge source quality, (2) Indexing & retrieval, (3) Permissions & security, (4) Evaluation & relevance, (5) Operations & monitoring, (6) Product integration & adoption. Provide a scorecard and a 90-day plan.
 

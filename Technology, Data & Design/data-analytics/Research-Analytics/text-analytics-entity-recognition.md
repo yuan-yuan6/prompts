@@ -32,7 +32,7 @@ slug: text-analytics-entity-recognition
 ## Purpose
 Assess readiness to extract entities from text reliably, including taxonomy design, labeling, evaluation, deployment, and monitoring.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess entity recognition readiness for domain [DOMAIN] extracting entities [ENTITY_TYPES]. Score readiness (1–5) across: (1) Taxonomy & definitions, (2) Data collection & labeling, (3) Model approach & baselines, (4) Evaluation & error analysis, (5) Deployment & monitoring, (6) Governance & iteration. Provide a scorecard and a 90-day plan.
 

@@ -27,7 +27,7 @@ slug: risk-management-program-readiness-assessment
 ## Purpose
 Assess how ready your organization is to run a coherent risk management program across governance, core risk domains, compliance obligations, and emerging-risk capabilities.
 
-## Quick Assessment Prompt
+## Quick Prompt
 Assess risk management program readiness for [FINANCIAL_INSTITUTION_NAME] with [TOTAL_ASSETS] assets. Score readiness across governance, core risk domain coverage, measurement and reporting, controls and remediation, compliance/exam readiness, and innovation/emerging risks. Provide scores (1–5), key gaps, and the next 3 improvements.
 
 ## Readiness Scorecard (1–5 each)

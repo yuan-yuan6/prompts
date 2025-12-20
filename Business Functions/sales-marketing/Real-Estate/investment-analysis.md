@@ -29,7 +29,7 @@ slug: investment-analysis
 ## Purpose
 Assess readiness to underwrite and evaluate real estate investments with consistent assumptions, risk controls, and decision-grade outputs.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess investment analysis readiness for [DEAL_NAME] in [MARKET] with target IRR [IRR_TARGET]%. Score readiness (1–5) across: (1) Deal thesis & assumptions, (2) Financial modeling, (3) Financing & capital structure, (4) Risk & scenario analysis, (5) Process & governance, (6) Reporting & decision support. Provide a scorecard, top gaps, and a 60–90 day plan.
 

@@ -32,7 +32,7 @@ slug: knowledge-sharing-readiness-assessment
 ## Purpose
 Assess readiness to build a **thriving knowledge sharing culture** that captures expertise, accelerates learning, reduces knowledge silos, and drives continuous improvement. Use this to diagnose gaps in knowledge accessibility, expert visibility, and learning systems.
 
-## 🚀 Quick Assessment Prompt
+## 🚀 Quick Prompt
 
 > Assess **knowledge sharing readiness** for {KNOWLEDGE_CONTEXT}. The knowledge objectives are {OBJECTIVES}. Account for {CONSTRAINTS}. Score 1–5 across the six dimensions below and produce the required output (six deliverables).
 

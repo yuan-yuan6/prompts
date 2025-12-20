@@ -27,7 +27,7 @@ slug: curriculum-development-framework
 ## Purpose
 Assess readiness to design, deliver, and continuously improve a curriculum across six dimensions. Use this to identify gaps, prioritize actions, and produce a realistic implementation roadmap.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess curriculum-development readiness for **{PROGRAM_CONTEXT}** serving **{LEARNER_PROFILE}** with **{DELIVERY_MODE}** delivery.
 >

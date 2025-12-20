@@ -35,7 +35,7 @@ slug: performance-reviews
 ## Purpose
 Assess readiness to run performance reviews that are fair, efficient, and useful for development, compensation decisions, and organizational alignment.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess performance review readiness for [ORGANIZATION] for cycle [REVIEW_CYCLE]. Score readiness (1–5) across: (1) Goals & expectations, (2) Evidence & feedback quality, (3) Review workflow execution, (4) Calibration & fairness, (5) Employee development actions, (6) Measurement & improvement. Provide a scorecard, top gaps, and a cycle improvement plan.
 

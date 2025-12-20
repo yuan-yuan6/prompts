@@ -31,7 +31,7 @@ slug: kpi-development
 ## Purpose
 Comprehensively assess KPI framework maturity across six dimensions: Strategic Alignment, Metric Design, Data Foundation, Governance & Ownership, Reporting & Visualization, and Continuous Improvement. This framework identifies measurement gaps, strengthens metric quality, and creates performance management systems that drive decisions and accountability.
 
-## 🚀 Quick Assessment Prompt
+## 🚀 Quick Prompt
 
 > Assess **KPI framework readiness** for **[ORGANIZATION/DEPARTMENT]** measuring **[BUSINESS AREA]** to support **[STRATEGIC OBJECTIVES]**. Evaluate across: (1) **Strategic alignment**—are KPIs linked to business strategy? Do they cascade from organizational to team to individual goals? (2) **Metric design**—are definitions clear, calculations documented, and targets SMART? Is there a balance of leading and lagging indicators? (3) **Data foundation**—is data available, accurate, and timely for each KPI? Are sources documented? (4) **Ownership**—does each KPI have a clear owner accountable for performance? (5) **Actionability**—do KPIs drive decisions and behavior change? Provide a maturity scorecard (1-5 per dimension), gap analysis, metric recommendations, and 90-day improvement roadmap.
 

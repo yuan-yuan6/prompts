@@ -31,7 +31,7 @@ slug: hotel-operations
 ## Purpose
 Assess readiness to run hotel operations effectively across staffing, guest experience, housekeeping, maintenance, and performance management.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess hotel operations readiness for property [PROPERTY]. Score readiness (1–5) across: (1) Guest journey & service standards, (2) Staffing & scheduling, (3) Housekeeping & maintenance, (4) Systems & data, (5) Revenue/ops coordination, (6) Governance & continuous improvement. Provide a scorecard and 90-day plan.
 

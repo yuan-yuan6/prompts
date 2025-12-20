@@ -32,7 +32,7 @@ slug: customer-engagement
 ## Purpose
 Assess how ready an organization is to run a customer engagement program that improves retention, reduces churn, and increases lifetime value through consistent journey touchpoints, data-driven interventions, and measurable outcomes.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess customer engagement readiness for [ORGANIZATION] with [CUSTOMER_COUNT] customers and current [RETENTION_RATE]% retention / [CHURN_RATE]% churn. Score readiness (1–5) across: (1) Engagement strategy & segmentation, (2) Journey mapping & touchpoints, (3) Programs & interventions, (4) Data & tooling, (5) Operating model & governance, (6) Measurement & continuous improvement. Provide a scorecard with evidence, top gaps, and a 90-day improvement plan.
 

@@ -27,7 +27,7 @@ slug: generative-ai-implementation-03-governance
 ## Purpose
 Assess readiness for governance and risk controls needed to deploy generative AI safely, including policies, reviews, and operational accountability.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess GenAI governance readiness for [ORGANIZATION] deploying [USE_CASES]. Score readiness (1–5) across: (1) Risk taxonomy & policy, (2) Data privacy & security, (3) Model/vendor risk, (4) Review & approvals, (5) Monitoring & incident response, (6) Training & accountability. Provide a scorecard and a governance rollout plan.
 

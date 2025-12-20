@@ -30,7 +30,7 @@ slug: financial-analysis-readiness-assessment
 ## Purpose
 Assess how ready your organization is to run consistent, decision-grade financial analysis (performance review, benchmarking, forecasting, risk assessment, valuation) across teams and time.
 
-## Quick Assessment Prompt
+## Quick Prompt
 Assess financial analysis readiness for [ORGANIZATION] producing a decision package for [DECISION_TYPE] on [COMPANY/PORTFOLIO]. Evaluate: data availability/quality, methodology standards, benchmarking discipline, scenario/risk rigor, tooling/reproducibility, and governance/storytelling. Score each dimension 1–5 and list the top gaps and next actions.
 
 ## Readiness Scorecard (1–5 each)

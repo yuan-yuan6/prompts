@@ -31,7 +31,7 @@ slug: personalization-strategy
 ## Purpose
 Assess readiness to deliver personalization that improves conversion and retention through reliable data, decisioning, content, experimentation, and governance.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess personalization readiness for [BUSINESS] across [CHANNELS] with goal [CONVERSION_LIFT]% conversion lift. Score readiness (1–5) across: (1) Use-case selection & strategy, (2) Data & identity, (3) Decisioning & rules/models, (4) Content/creative system, (5) Experimentation & measurement, (6) Governance & operations. Provide a scorecard, top gaps, and a 90-day plan.
 

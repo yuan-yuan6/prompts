@@ -32,7 +32,7 @@ slug: marketplace-management
 ## Purpose
 Assess readiness to manage marketplace channels (Amazon, etc.) across listings, operations, pricing, fulfillment, compliance, and performance optimization.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess marketplace management readiness for [BUSINESS] selling on [MARKETPLACES] with goal [REVENUE_TARGET]. Score readiness (1–5) across: (1) Channel strategy & assortment, (2) Listings & content quality, (3) Pricing & promotions, (4) Fulfillment & operations, (5) Compliance & risk, (6) Measurement & optimization. Provide a scorecard, top gaps, and a 90-day plan.
 

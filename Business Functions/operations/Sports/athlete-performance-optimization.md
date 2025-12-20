@@ -29,7 +29,7 @@ slug: athlete-performance-readiness-assessment
 ## Purpose
 Assess readiness to **optimize athletic performance** through evidence-based training, recovery protocols, injury prevention, and performance monitoring. Use this to diagnose gaps in periodization, load management, and athlete support systems.
 
-## 🚀 Quick Assessment Prompt
+## 🚀 Quick Prompt
 
 > Assess **athlete performance readiness** for {ATHLETE_CONTEXT}. The performance objectives are {OBJECTIVES}. Account for {CONSTRAINTS}. Score 1–5 across the six dimensions below and produce the required output (six deliverables).
 

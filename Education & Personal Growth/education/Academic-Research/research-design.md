@@ -37,11 +37,10 @@ slug: research-design
 ## Purpose
 Assess whether your study is ready to proceed by evaluating six core dimensions of research design: Framing & Contribution, Design & Inference Fit, Sampling & Data Collection, Analysis & Quality Assurance, Ethics & Implementation, and Reporting & Impact. Use this as an end-to-end “go/no-go” gate and as a router into the Research Design suite modules.
 
-## 🚀 Quick Assessment Prompt
+## 🚀 Quick Prompt
 
 > Assess **research design readiness** for **{STUDY_CONTEXT}** addressing **{PRIMARY_RESEARCH_QUESTIONS}** under **{CONSTRAINTS}**. Score each dimension 1–5 with brief evidence: (1) **Framing & contribution**, (2) **Design & inference fit**, (3) **Sampling & data collection**, (4) **Analysis & quality assurance**, (5) **Ethics & implementation**, (6) **Reporting & impact**. Provide an overall maturity level, a go/revise-first recommendation, and a prioritized action plan mapped to the appropriate Research Design suite module(s).
 
-**Usage:** Replace the curly-brace placeholders with your specifics.
 
 ---
 

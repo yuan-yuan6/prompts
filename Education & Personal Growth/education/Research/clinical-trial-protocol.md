@@ -29,7 +29,7 @@ slug: clinical-trial-protocol
 ## Purpose
 Assess readiness to draft and execute a clinical trial protocol with clear endpoints, operational feasibility, participant safety, and regulatory compliance.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess clinical trial protocol readiness for trial [TRIAL]. Score readiness (1–5) across: (1) Objectives & endpoints, (2) Study design & eligibility, (3) Operational feasibility, (4) Safety monitoring, (5) Data management & analysis plan, (6) Regulatory & governance. Provide a scorecard and protocol checklist.
 

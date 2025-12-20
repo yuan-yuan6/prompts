@@ -30,7 +30,7 @@ slug: landing-pages-comprehensive
 ## Purpose
 Assess readiness to build and optimize landing pages at scale, including copy/UX, performance, tracking, governance, and experimentation.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess comprehensive landing page readiness for [BRAND_COMPANY] launching [CAMPAIGN_NAME] from [TRAFFIC_SOURCE] with goal [PRIMARY_OBJECTIVE] and target [TARGET_CONVERSION]. Score readiness (1–5) across: (1) Offer clarity & message-match, (2) UX & information architecture, (3) Proof/objections & persuasion system, (4) Performance & analytics instrumentation, (5) Experimentation & optimization program, (6) Compliance, accessibility & governance. Provide a scorecard, top gaps, and a 90-day plan.
 

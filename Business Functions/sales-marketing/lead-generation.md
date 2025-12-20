@@ -31,7 +31,7 @@ slug: lead-generation
 ## Purpose
 Assess readiness to generate qualified leads consistently through clear ICP targeting, channel strategy, offer design, nurture workflows, and measurable pipeline outcomes.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess lead generation readiness for [COMPANY_TYPE] targeting [TARGET_MARKET] with budget [BUDGET] and goal [LEAD_TARGET] qualified leads/month. Score readiness (1–5) across: (1) ICP & targeting, (2) Offers & messaging, (3) Channel strategy & execution, (4) Funnel ops & nurture, (5) Sales–marketing alignment, (6) Measurement & optimization. Provide a scorecard, top gaps, and a 90-day plan.
 

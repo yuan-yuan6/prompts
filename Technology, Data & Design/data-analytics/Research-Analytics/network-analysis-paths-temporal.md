@@ -32,7 +32,7 @@ slug: network-analysis-paths-temporal
 ## Purpose
 Assess readiness to analyze paths and temporal dynamics in networks, including time modeling, path algorithms, scalability, and interpretation.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess temporal/path analysis readiness for [GRAPH] with time window [TIME_WINDOW]. Score readiness (1–5) across: (1) Time modeling, (2) Path definitions, (3) Algorithm selection & validation, (4) Scalability & computation, (5) Interpretation & visualization, (6) Reproducibility & governance. Provide a scorecard and analysis plan.
 

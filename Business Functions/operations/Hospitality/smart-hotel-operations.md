@@ -30,7 +30,7 @@ slug: smart-hotel-operations
 ## Purpose
 Assess readiness to adopt smart hotel operations capabilities (IoT, automation, analytics) to improve guest experience and efficiency.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess smart hotel ops readiness for property/program [PROGRAM]. Score readiness (1–5) across: (1) Use cases & value, (2) IoT/systems integration, (3) Data & privacy/security, (4) Operations & change management, (5) Guest experience design, (6) Governance & scaling. Provide a scorecard and rollout roadmap.
 

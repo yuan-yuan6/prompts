@@ -27,7 +27,7 @@ slug: travel-planning-readiness-assessment
 ## Purpose
 Assess readiness to plan a trip effectively across six dimensions: clarity, budget/booking, research/risk, itinerary design, logistics/tools, and flexibility/wellbeing. This produces a plan and timeline that reduces surprises.
 
-## 🚀 Quick Assessment Prompt
+## 🚀 Quick Prompt
 
 > Assess **travel planning readiness** for **{TRIP}** with priorities **{PRIORITIES}** and constraints **{CONSTRAINTS}**. Score each dimension **1–5**, explain why, and provide a planning roadmap (now → departure), a “good-enough” itinerary structure, and success metrics.
 

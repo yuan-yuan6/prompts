@@ -28,7 +28,7 @@ slug: swot-analysis-template
 ## Purpose
 Assess whether your organization can run a SWOT analysis that is evidence-based, unbiased, and actionable. This focuses on inputs, facilitation, synthesis, and follow-through.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess SWOT readiness for [ORGANIZATION] in [INDUSTRY] evaluating [SCOPE] over [TIME_HORIZON]. Score readiness (1–5) across: (1) Evidence quality, (2) Stakeholder participation & facilitation, (3) Analytical rigor (SO/WO/ST/WT), (4) Prioritization & actionability, (5) Governance & integration into planning, (6) Communication & follow-through. Provide a scorecard, top gaps, and a 30–60 day plan to improve the next SWOT cycle.
 

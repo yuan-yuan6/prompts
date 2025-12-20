@@ -33,7 +33,7 @@ slug: investment-evaluation-readiness-assessment
 ## Purpose
 Assess how ready your organization is to evaluate investments (capex, M&A, product/R&D, technology) with consistent financial modeling, risk analysis, governance, and post-investment accountability.
 
-## Quick Assessment Prompt
+## Quick Prompt
 Score your current investment evaluation process for a typical $[INVESTMENT_AMOUNT] initiative with a $[CASH_FLOW_IMPACT]/year impact over [HORIZON_YEARS] years. Include: governance, model standards, data quality, risk/sensitivity, decision criteria, and post-investment review.
 
 ## Readiness Scorecard (1–5 each)

@@ -32,7 +32,7 @@ slug: strategic-market-analysis
 ## Purpose
 Assess how ready an organization is to run a repeatable market analysis capability that produces trusted insights for strategy, investment decisions, and go-to-market choices.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess market analysis readiness for [ORGANIZATION] competing in [MARKET] within [INDUSTRY] and [GEOGRAPHY]. Score readiness (1–5) across: (1) Market data & sources, (2) Research methods & rigor, (3) Competitive intelligence & monitoring, (4) Insights-to-action process, (5) Talent & tooling, (6) Governance, ethics & compliance. Provide a scorecard with evidence, top gaps, prioritized recommendations, and a 60–90 day plan to improve output quality and decision impact.
 

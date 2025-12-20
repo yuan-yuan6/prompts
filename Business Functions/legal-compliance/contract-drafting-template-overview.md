@@ -38,7 +38,7 @@ Use this overview to pick the right contract drafting readiness assessment and r
 - **Part 2: Risk Provisions** - Liability caps, indemnities, warranties, IP, confidentiality, termination, compliance.
 - **Part 3: Execution & Management** - Signatures, exhibits, amendments, notices, contract lifecycle, recordkeeping.
 
-## 🚀 Quick Assessment Prompt
+## 🚀 Quick Prompt
 
 > For **[CONTRACT_TYPE]** between **[PARTY_A]** and **[PARTY_B]** under **[GOVERNING_LAW]**, choose the best starting part: (1) If scope, parties, commercial terms, or definitions are unclear, start with **Part 1**. (2) If the business terms are agreed but risk allocation is contentious or high-stakes, start with **Part 2**. (3) If terms are negotiated but execution, schedules, and lifecycle handling are unclear, start with **Part 3**. Provide: the starting part, the sequence for remaining parts, and the minimum inputs required (term sheet, scope, data/security requirements, risk tolerance, required clauses).
 

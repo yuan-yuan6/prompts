@@ -32,7 +32,7 @@ slug: team-documentation-readiness-assessment
 ## Purpose
 Assess readiness to build and maintain effective team documentation systems across six dimensions: Content Coverage, Information Architecture, Documentation Quality, Maintenance Processes, Accessibility & Discoverability, and Knowledge Transfer Effectiveness. This framework identifies documentation capability gaps, strengthens knowledge management, and creates sustainable documentation practices.
 
-## 🚀 Quick Assessment Prompt
+## 🚀 Quick Prompt
 
 > Assess **team documentation readiness** for **{TEAM_CONTEXT}** to support **{DOCUMENTATION_GOALS}**. Evaluate across: (1) **Content coverage**—what's documented vs missing? Are critical processes, systems, and decisions captured? What's the documentation gap risk? (2) **Information architecture**—is content organized logically? Can people find what they need? Are naming conventions clear? (3) **Documentation quality**—is content accurate, up-to-date, clear, and complete? What's the review process? (4) **Maintenance processes**—who owns updates? What's the review cadence? How are outdated docs handled? (5) **Accessibility**—can everyone access what they need? Are tools intuitive? Is search effective? (6) **Knowledge transfer**—do onboarding docs exist? Can new members get up to speed? Are tribal knowledge and expertise captured? Provide a readiness scorecard (1-5 per dimension), gap analysis, prioritized recommendations, and a documentation system improvement plan.
 

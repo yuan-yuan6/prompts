@@ -33,7 +33,7 @@ slug: intellectual-property-readiness-assessment
 ## Purpose
 Assess an organization's readiness to manage and protect intellectual property across six dimensions: Strategy & Portfolio, Protection & Maintenance, Trade Secrets & Confidentiality, Licensing & Monetization, Enforcement & Disputes, and Governance & Operations. Identify gaps, prioritize fixes, and produce an actionable capability plan.
 
-## 🚀 Quick Assessment Prompt
+## 🚀 Quick Prompt
 
 > Assess **IP management readiness** for **[ORGANIZATION]** in **[INDUSTRY]** operating across **[JURISDICTIONS]** with **[IP_PORTFOLIO]** and **[IP_BUDGET]**. Evaluate across: (1) **Strategy & portfolio**—is there a clear offensive/defensive posture and filing priority model? (2) **Protection & maintenance**—are filings, renewals, and docketing controlled with quality and timelines? (3) **Trade secrets & confidentiality**—are secrets identified, classified, and access-controlled? (4) **Licensing & monetization**—is there discipline in deal selection, economics, and compliance with license obligations? (5) **Enforcement & disputes**—is monitoring, escalation, and outside counsel strategy defined? (6) **Governance & operations**—are roles, tooling, KPIs, and decision rights clear? Provide a 1–5 scorecard, top gaps, prioritized recommendations, and a 12-month roadmap.
 

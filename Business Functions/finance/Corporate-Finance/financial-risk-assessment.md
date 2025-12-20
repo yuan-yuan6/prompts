@@ -28,7 +28,7 @@ slug: financial-risk-readiness-assessment
 ## Purpose
 Assess how ready your organization is to identify, quantify, and communicate financial risks using scenarios, sensitivities, and a monitoring loop that supports timely mitigation.
 
-## Quick Assessment Prompt
+## Quick Prompt
 Assess financial risk readiness for [COMPANY_NAME] with [REVENUE] revenue and [TOTAL_DEBT] debt. Evaluate coverage of risk types (liquidity, credit, market, operating), scenario design discipline, quantification and thresholds, mitigation actionability, monitoring/KRIs, and governance/communication. Score each 1–5 and list the top 3 gaps and next actions.
 
 ## Readiness Scorecard (1–5 each)

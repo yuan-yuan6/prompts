@@ -28,7 +28,7 @@ slug: creative-hobbies-readiness-assessment
 ## Purpose
 Assess readiness to build a sustainable creative hobby practice across six dimensions: medium fit, practice system, resources, learning feedback loops, project execution, and long-term motivation.
 
-## 🚀 Quick Assessment Prompt
+## 🚀 Quick Prompt
 
 > Assess **creative hobby readiness** for **{PROFILE}** pursuing **{CREATIVE_GOALS}** within **{CONSTRAINTS}**. Score each dimension **1–5**, justify the score, and provide a 90-day plan with weekly practice blocks, starter projects, a feedback loop, and success metrics.
 

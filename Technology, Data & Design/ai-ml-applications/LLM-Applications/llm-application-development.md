@@ -33,7 +33,7 @@ slug: llm-application-development
 ## Purpose
 Assess readiness to build LLM-powered applications with sound product requirements, evaluation, architecture, and operational reliability.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess LLM app development readiness for [USE_CASE] with target users [USERS]. Score readiness (1–5) across: (1) Product requirements, (2) Data & grounding, (3) Evaluation & testing, (4) Architecture & integrations, (5) Safety/security, (6) Operations & iteration. Provide a scorecard, top gaps, and a 90-day plan.
 

@@ -26,7 +26,7 @@ slug: generative-ai-implementation-overview
 ## Purpose
 Assess readiness to implement generative AI across an organization, covering strategy, technology, governance, and operational adoption.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess GenAI implementation readiness for [ORGANIZATION] targeting [USE_CASES]. Score readiness (1–5) across: (1) Use case & value, (2) Data & knowledge, (3) Model & prompt strategy, (4) Engineering & reliability, (5) Security/privacy/governance, (6) Adoption & operations. Provide a scorecard, top risks, and a 90-day implementation roadmap.
 

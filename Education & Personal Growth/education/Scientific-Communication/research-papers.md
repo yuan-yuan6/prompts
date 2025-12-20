@@ -33,11 +33,17 @@ slug: research-papers
 ## Purpose
 Assess whether your research paper is ready to draft or submit by scoring six dimensions: Journal & Audience Fit, Core Story & Contribution, Methods & Reporting Completeness, Results & Evidence Presentation, Discussion & Limitations, and Submission & Revision Workflow. Use the output to decide **go / revise-first** and to produce a tight manuscript plan.
 
-## 🚀 Quick Assessment Prompt
+## 🚀 Quick Prompt
 
-> Assess **research paper readiness** for **{MANUSCRIPT_CONTEXT}** targeting **{TARGET_VENUE}** with **{CONSTRAINTS}**. Score each dimension 1–5 with brief evidence: (1) journal & audience fit, (2) story & contribution, (3) methods & reporting completeness, (4) results & evidence, (5) discussion & limitations, (6) submission & revision workflow. Provide an overall maturity level, a go/revise-first recommendation, and a prioritized revision plan.
-
-**Usage:** Replace the curly-brace placeholders with your specifics.
+> Assess **research paper readiness** for **{MANUSCRIPT_CONTEXT}** targeting **{TARGET_VENUE}** with **{CONSTRAINTS}**.
+>
+> First, list any **missing information/questions** that would materially change the assessment (state assumptions only if necessary).
+>
+> Then score each dimension **1–5** with 1–2 sentences of evidence: (1) journal & audience fit, (2) story & contribution, (3) methods & reporting completeness, (4) results & evidence, (5) discussion & limitations, (6) submission & revision workflow.
+>
+> Compute the overall score (average), assign a maturity level (1–5), and recommend **go / revise-first** (justify based on the highest-risk gaps and timeline constraints).
+>
+> Finally, present the response using the **Required Output Format (sections 1–5)** exactly, including a prioritized revision plan.
 
 ---
 
@@ -114,19 +120,6 @@ Evaluate whether you can ship: authorship order, roles, internal deadlines, jour
 - Executive summary: 3.0/5 (Defined), **revise-first**
 - Biggest gaps: unclear primary outcome; figures not tied to claims; discussion overstates causality
 - Next edits: specify primary outcome and estimand; rebuild results section around 2–3 core figures; add limitations and implementation boundary conditions; align title/abstract to venue framing
-
----
-
-## Best Practices (8)
-
-1. Make one primary claim and design the paper around proving it.
-2. Keep methods complete enough for audit/reproducibility.
-3. Label exploratory analyses clearly; don’t blend them with confirmatory results.
-4. Use figures/tables to support specific claims (one claim per figure).
-5. Report uncertainty and limitations without weakening the main point.
-6. Match the venue’s norms for contribution and tone.
-7. Treat compliance items as schedule constraints.
-8. Use structured revision cycles: logic → evidence → clarity → formatting.
 
 ---
 

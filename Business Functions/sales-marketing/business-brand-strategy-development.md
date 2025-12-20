@@ -31,7 +31,7 @@ slug: business-brand-strategy-development
 ## Purpose
 Assess readiness to develop and implement a comprehensive brand strategy covering positioning, identity, messaging, brand experience, rollout planning, and measurement.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess brand strategy development readiness for [BRAND_NAME] targeting [TARGET_MARKET] with budget [BRAND_BUDGET] over [TIMELINE]. Score readiness (1–5) across: (1) Strategic clarity & positioning, (2) Audience insight & competitive context, (3) Identity/messaging system, (4) Experience & touchpoint design, (5) Implementation & governance, (6) Measurement & iteration. Provide a scorecard, top gaps, and a 90-day plan.
 

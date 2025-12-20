@@ -31,7 +31,7 @@ slug: digital-transformation-roadmap
 ## Purpose
 Assess whether an organization can create and execute a credible digital transformation roadmap, with clear sequencing, dependencies, resourcing, and adoption planning.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess digital transformation roadmap readiness for [ORGANIZATION] with [EMPLOYEE_COUNT] employees and [BUDGET] budget over [TIME_HORIZON]. Score readiness (1–5) across: (1) Current state assessment & baseline, (2) Prioritization & sequencing, (3) Resourcing & funding, (4) Delivery execution & adoption, (5) Architecture & data foundations, (6) Governance & metrics. Provide a scorecard, top gaps, and a 90-day plan.
 

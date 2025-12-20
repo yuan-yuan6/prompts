@@ -25,7 +25,7 @@ slug: digital-banking-readiness-assessment
 ## Purpose
 Assess how ready your institution is to modernize digital channels and deliver measurable improvements in adoption, customer experience, reliability, and cost-to-serve.
 
-## Quick Assessment Prompt
+## Quick Prompt
 Assess digital banking readiness for [INSTITUTION_NAME] serving [CUSTOMER_BASE] with [CURRENT_DIGITAL_ADOPTION]. Evaluate customer experience and journey performance, platform and integration capabilities, data/analytics and AI enablement, security and fraud controls, delivery operating model and governance, and measurement and continuous improvement. Score each 1–5 and list the top gaps and next actions.
 
 ## Readiness Scorecard (1–5 each)

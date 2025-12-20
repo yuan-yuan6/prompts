@@ -32,7 +32,7 @@ slug: change-management-readiness-assessment
 ## Purpose
 Assess readiness to execute an organizational change with strong adoption and sustained behavior change. This framework scores maturity across six dimensions, pinpoints adoption risks, and produces a practical 30/60/90-day plan.
 
-## 🚀 Quick Assessment Prompt
+## 🚀 Quick Prompt
 
 > Assess **change management readiness** for {CHANGE_CONTEXT}. The desired outcomes are {TARGET_OUTCOMES}. Account for {CONSTRAINTS}. Score 1–5 across the six dimensions below and produce the required output (six deliverables).
 

@@ -32,7 +32,7 @@ slug: dashboard-data-architecture
 ## Purpose
 Assess readiness to build a dashboard data architecture that is reliable, governed, performant, and aligned to business decision-making.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess readiness to deliver dashboard [DASHBOARD] for stakeholders [AUDIENCE]. Score readiness (1–5) across: (1) KPI definitions, (2) Source data & lineage, (3) Modeling layer, (4) Data quality & governance, (5) Performance & cost, (6) Delivery & maintenance. Provide a scorecard and a recommended architecture.
 

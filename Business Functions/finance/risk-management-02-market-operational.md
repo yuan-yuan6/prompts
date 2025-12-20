@@ -27,7 +27,7 @@ slug: risk-management-market-operational-readiness-assessment
 ## Purpose
 Assess how ready your organization is to measure and control market and operational risk with consistent limits, validated metrics, resilient operations, and repeatable governance.
 
-## Quick Assessment Prompt
+## Quick Prompt
 Assess market and operational risk readiness for [FINANCIAL_INSTITUTION_NAME]. Evaluate market risk measurement and limits (VaR/sensitivities), ALM and interest rate risk governance, liquidity risk monitoring, operational risk taxonomy and controls, technology/cyber resilience, and incident response and reporting cadence. Score each 1–5 and list the top gaps and next actions.
 
 ## Readiness Scorecard (1–5 each)

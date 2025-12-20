@@ -32,7 +32,7 @@ slug: job-analysis-definition
 ## Purpose
 Assess readiness to define roles clearly using job analysis that supports hiring, performance management, compensation, and workforce planning.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess job analysis readiness for [ROLE_FAMILY] across [ROLE_COUNT] roles. Score readiness (1–5) across: (1) Role purpose & outcomes, (2) Competencies & skills, (3) Responsibilities & scope, (4) Leveling & career paths, (5) Documentation & governance, (6) Adoption & maintenance. Provide a scorecard, top gaps, and a 60-day plan.
 

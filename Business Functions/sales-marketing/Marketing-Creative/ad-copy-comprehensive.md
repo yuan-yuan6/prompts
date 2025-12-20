@@ -36,7 +36,7 @@ slug: ad-copy-comprehensive
 ## Purpose
 Assess readiness to plan, produce, test, and scale ad copy across multiple platforms and formats while maintaining message consistency, compliance, and measurable performance improvement.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess comprehensive ad copy readiness for [BRAND] promoting [OFFER] to [PRIMARY_AUDIENCE] across [PRIMARY_PLATFORM] plus [SECONDARY_PLATFORMS]. Score readiness (1–5) across: (1) Offer & positioning, (2) Audience & insight system, (3) Creative/message architecture, (4) Channel adaptation & operations, (5) Production workflow & governance, (6) Measurement, experimentation & compliance. Provide a scorecard, top gaps, and a 90-day plan to improve copy quality and conversion outcomes.
 

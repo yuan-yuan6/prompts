@@ -31,7 +31,7 @@ slug: metaverse-xr-readiness-assessment
 ## Purpose
 Assess whether an organization is ready to design, build, launch, and scale an XR or metaverse initiative in a way that is strategically coherent, technically feasible, safe and compliant, and operationally sustainable. This framework evaluates readiness across six dimensions—Use Case & Value, Audience & Adoption, Experience & Content, Technology & Platform, Trust/Safety & Governance, and Delivery & Operations—so you can identify the highest-leverage gaps, avoid predictable failure modes, and create an executable roadmap.
 
-## 🚀 Quick Assessment Prompt
+## 🚀 Quick Prompt
 
 > Assess **XR/metaverse readiness** for **{ORGANIZATION}** pursuing **{XR_USE_CASES}** with **{PLATFORM_SCOPE}**. Evaluate: (1) **Value clarity**—is there a credible, measurable value hypothesis and a realistic adoption path? (2) **Audience & adoption**—who will use it, why, and what barriers (hardware friction, comfort, workflow change) exist? (3) **Experience & content**—is the experience designed for the constraints of XR and does the organization have content creation capability? (4) **Technology & platform**—is the stack viable (device targets, engines, backend, networking, performance, identity)? (5) **Trust/safety/governance**—are privacy, moderation, safety, and compliance addressed upfront? (6) **Delivery & operations**—can you ship, run live operations, measure outcomes, and iterate? Provide a scorecard (1–5 per dimension), top risks, a 90-day plan, and a 12-month capability roadmap.
 

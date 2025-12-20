@@ -32,7 +32,7 @@ slug: network-analysis-visualization
 ## Purpose
 Assess readiness to visualize and communicate network analysis results accurately and clearly, avoiding misleading representations.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess network visualization readiness for [GRAPH] and audience [AUDIENCE]. Score readiness (1–5) across: (1) Audience & questions, (2) Visual design choices, (3) Data reduction & summarization, (4) Interaction & tooling, (5) Interpretation & narrative, (6) Governance & reproducibility. Provide a scorecard and a visualization plan.
 

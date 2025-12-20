@@ -33,7 +33,7 @@ slug: patent-application-readiness-assessment
 ## Purpose
 Assess readiness to draft and file a patent application across six dimensions: Invention Disclosure, Prior Art & Patentability, Claim Strategy, Specification & Drawings, Filing & Prosecution Strategy, and Governance & Business Alignment. Identify gaps, prioritize fixes, and produce an application package plan.
 
-## 🚀 Quick Assessment Prompt
+## 🚀 Quick Prompt
 
 > Assess **patent application readiness** for **[INVENTION]** in **[TECH_FIELD]** targeting **[JURISDICTIONS]** with desired scope **[PROTECTION_GOAL]**. Evaluate across: (1) **Invention disclosure**—is the invention described clearly with alternatives and implementation details? (2) **Prior art & patentability**—is there a reasonable search and novelty/non-obviousness story? (3) **Claim strategy**—are independent and dependent claim themes defined with fallbacks? (4) **Specification & drawings**—is there sufficient written description and enablement, with figure plan tied to claims? (5) **Filing/prosecution**—is there a roadmap (provisional/PCT/national) with timelines and cost constraints? (6) **Governance & alignment**—are inventorship, ownership, and publication timing controlled and aligned to product strategy? Provide a 1–5 scorecard, top gaps, and a filing-ready plan.
 

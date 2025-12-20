@@ -32,7 +32,7 @@ slug: crop-optimization
 ## Purpose
 Assess readiness to optimize crop yield and input efficiency using agronomic practices, data, and (optionally) predictive analytics.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess readiness to optimize crop outcomes for [CROP] in region [REGION]. Score readiness (1–5) across: (1) Goals & constraints, (2) Data & sensing, (3) Agronomy practices, (4) Modeling/analytics, (5) Execution & operations, (6) Measurement & continuous improvement. Provide a scorecard and a seasonal plan.
 

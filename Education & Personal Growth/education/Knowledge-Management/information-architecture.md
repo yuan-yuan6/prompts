@@ -27,11 +27,10 @@ slug: information-architecture
 ## Purpose
 Assess whether you’re ready to design (or redesign) an information architecture and taxonomy by scoring six dimensions: Goals & Users, Content Inventory & Model, Taxonomy & Vocabulary, Metadata & Schemas, Navigation & Search, and Governance & Evolution. Use this as a **go / revise-first** gate before reorganizing content or rebuilding navigation.
 
-## 🚀 Quick Assessment Prompt
+## 🚀 Quick Prompt
 
 > Assess **information architecture readiness** for **{IA_CONTEXT}** supporting **{PRIMARY_USER_JOURNEYS}** under **{SYSTEM_CONSTRAINTS}**. Score each dimension 1–5 with brief evidence: (1) goals & users, (2) content inventory & model, (3) taxonomy & vocabulary, (4) metadata & schemas, (5) navigation & search, (6) governance & evolution. Provide an overall maturity level, go/revise-first, top risks, and a prioritized 30–60 day IA plan.
 
-**Usage:** Replace the curly-brace placeholders with your specifics.
 
 ---
 
@@ -112,19 +111,6 @@ Evaluate whether IA can be maintained. Confirm ownership, review cadence, change
 - Executive summary: 2.9/5 (Developing), **revise-first**
 - Biggest gaps: no content inventory; taxonomy duplicates; metadata not maintained
 - Next actions (30 days): inventory top 200 pages; define 5 top categories + facets (product area, issue type, audience, plan tier, last updated); add required fields (owner, last reviewed); run tree testing on proposed IA; adjust based on search logs; publish governance rules and rollout checklist
-
----
-
-## Best Practices (8)
-
-1. Anchor IA decisions to real tasks and query logs.
-2. Keep top-level categories few; use facets for detail.
-3. Use controlled vocabulary and synonyms to reduce ambiguity.
-4. Make metadata ownership explicit; automate reminders where possible.
-5. Prototype and test with users (tree tests, first-click).
-6. Preserve URLs and add redirects to protect findability.
-7. Document taxonomy rules (add/merge/deprecate terms).
-8. Iterate: measure, adjust, and repeat.
 
 ---
 

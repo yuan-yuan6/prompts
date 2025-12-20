@@ -30,7 +30,7 @@ slug: curriculum-development
 ## Purpose
 Assess readiness to create or redesign a curriculum (program, course sequence, training plan) and turn it into an actionable build-and-launch plan.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess curriculum-development readiness for **{CURRICULUM_SCOPE}** for **{LEARNER_AUDIENCE}** with constraints **{CONSTRAINTS}**.
 >

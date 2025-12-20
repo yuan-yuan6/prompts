@@ -30,7 +30,7 @@ slug: screenwriting-comprehensive
 ## Purpose
 Assess whether a screenplay or TV pilot project is ready to move from idea to a draft that can survive feedback, revision, and pitching. This framework evaluates readiness across six dimensions—Concept & Market Positioning, Structure & Story Engine, Character & Theme, Scene Craft & Dialogue, Format & Production Constraints, and Process & Pitch Readiness—so you can identify what to clarify before investing time in pages.
 
-## 🚀 Quick Assessment Prompt
+## 🚀 Quick Prompt
 
 > Assess **screenwriting readiness** for **{PROJECT_CONTEXT}** in **{FORMAT}** targeting **{TARGET_AUDIENCE}**. Evaluate: (1) premise clarity and market positioning, (2) structural engine and escalation, (3) character drive and emotional arc, (4) scene-level craft (visual storytelling and dialogue), (5) format and production constraints (page targets, budget reality, deliverables), and (6) development process and pitch readiness (feedback loops, revision plan, packaging). Provide a scorecard (1–5), top story risks, a 30/60/90-day writing plan, and a pitch package outline.
 

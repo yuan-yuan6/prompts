@@ -33,7 +33,7 @@ slug: research-design-ethics-implementation
 ## Purpose
 Comprehensively assess readiness to run a responsible, compliant, and executable research study across six dimensions: Ethical Risk & Benefit Clarity, Consent & Participant Protections, Privacy & Data Governance, Cultural/Community Fit, Implementation Plan & Resourcing, and Monitoring, Risk Management & Quality. This framework identifies blockers before you submit to an ethics committee or start fieldwork.
 
-## 🚀 Quick Assessment Prompt
+## 🚀 Quick Prompt
 
 > Assess **ethics and implementation readiness** for **{STUDY_CONTEXT}** with expected **{RISK_LEVEL}** and implementation scope **{IMPLEMENTATION_SCOPE}**. Evaluate across: (1) **Ethical risk/benefit clarity**—are risks, burdens, and benefits explicitly identified and minimized? (2) **Consent and protections**—is consent feasible, understandable, voluntary, and tailored to the population (including vulnerable groups)? (3) **Privacy and data governance**—are collection, storage, access, retention, and sharing controls defined and realistic? (4) **Cultural/community fit**—is engagement appropriate, respectful, and accountable, including local norms and power dynamics? (5) **Implementation plan**—are timeline, staffing, recruitment, training, and logistics executable within constraints? (6) **Monitoring and quality**—are adverse events, protocol deviations, and data quality monitored with clear decision rights and contingencies? Provide a 1–5 scorecard, top risks, required safeguards, and a phased execution plan.
 

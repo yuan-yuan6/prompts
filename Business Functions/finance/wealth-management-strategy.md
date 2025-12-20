@@ -27,7 +27,7 @@ slug: wealth-management-strategy-readiness-assessment
 ## Purpose
 Assess how ready you are to deliver a comprehensive wealth management strategy across goal setting, investment management, tax/retirement/estate planning, risk protection, and implementation governance with consistent inputs, documented decisions, and client-ready deliverables.
 
-## Quick Assessment Prompt
+## Quick Prompt
 Assess wealth strategy readiness for [CLIENT_FAMILY_NAME] at [NET_WORTH_LEVEL]. Evaluate discovery and goal clarity, investment policy and execution, tax and retirement planning capability, estate and legacy readiness, insurance and protection coverage, and implementation/review governance. Score each 1–5 and list the top gaps and next actions.
 
 ## Readiness Scorecard (1–5 each)

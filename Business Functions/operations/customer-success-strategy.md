@@ -29,7 +29,7 @@ slug: customer-success-readiness-assessment
 ## Purpose
 Assess readiness to run a proactive customer success program that improves onboarding, adoption, renewals, and expansion through health visibility, playbooks, and consistent cross-functional execution.
 
-## 🚀 Quick Assessment Prompt
+## 🚀 Quick Prompt
 
 > Assess **customer success readiness** for **[ORGANIZATION]** managing **[CUSTOMER_COUNT]** accounts and **[ARR_VALUE]** ARR. Score maturity (1–5) across: (1) **Data readiness** (usage telemetry, CRM hygiene, renewals view, health scoring), (2) **Technology readiness** (CRM/CS platform, automation, analytics), (3) **Process readiness** (onboarding, engagement cadence, renewals, escalation playbooks), (4) **Talent readiness** (CSM skills, coverage model, enablement), (5) **Culture readiness** (customer outcomes mindset, cross-functional alignment), (6) **Governance readiness** (CS strategy, KPIs, accountability, ROI). Provide a scorecard, top gaps, prioritized actions, and a 12‑month roadmap.
 

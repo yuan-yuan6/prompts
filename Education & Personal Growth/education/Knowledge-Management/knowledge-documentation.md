@@ -28,11 +28,10 @@ slug: knowledge-documentation
 ## Purpose
 Assess whether you’re ready to implement or improve a documentation/wiki system by scoring six dimensions: Strategy & Audience, Information Architecture, Content Standards, Workflow & Governance, Platform & UX, and Operations & Measurement. Use this as a **go / revise-first** gate before building large volumes of pages.
 
-## 🚀 Quick Assessment Prompt
+## 🚀 Quick Prompt
 
 > Assess **documentation/wiki readiness** for **{DOC_CONTEXT}** serving **{PRIMARY_USERS}** on **{PLATFORM_AND_CONSTRAINTS}**. Score each dimension 1–5 with brief evidence: (1) strategy & audience, (2) information architecture, (3) content standards & templates, (4) workflow & governance, (5) platform & UX/search, (6) operations & measurement. Provide an overall maturity level, a go/revise-first recommendation, top risks, and a prioritized 30–60 day rollout plan.
 
-**Usage:** Replace the curly-brace placeholders with your specifics.
 
 ---
 
@@ -114,19 +113,6 @@ Evaluate whether the system is sustainable: ownership, content lifecycle (create
 - Executive summary: 3.1/5 (Defined), **go with a pilot**
 - Biggest gaps: inconsistent page types; unclear review ownership; no content lifecycle
 - Next actions (30 days): define 5 top categories + tag set; publish 4 templates (SOP, how-to, reference, FAQ); assign reviewer per category; seed 20 “golden path” pages; add monthly stale-content review and feedback intake
-
----
-
-## Best Practices (8)
-
-1. Design for user journeys (onboarding, troubleshooting), not departments.
-2. Keep page types few and consistent; use templates and required sections.
-3. Make findability a first-class feature: titles, tags, and cross-links.
-4. Establish ownership and review SLAs to avoid staleness.
-5. Start with seed content that covers top questions and pain points.
-6. Build accessibility in (alt text, headings, readable structure).
-7. Use analytics and feedback to drive the backlog.
-8. Treat docs as a product: version, measure, iterate.
 
 ---
 

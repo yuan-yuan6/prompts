@@ -35,7 +35,7 @@ slug: compliance-program-readiness-assessment
 ## Purpose
 Assess readiness to design and operate a regulatory compliance program across six dimensions: Regulatory Scope & Prioritization, Governance & Accountability, Policies & Procedures, Training & Culture, Monitoring & Investigations, and Assurance & Remediation. Identify gaps and produce a short, evidence-driven uplift plan.
 
-## 🚀 Quick Assessment Prompt
+## 🚀 Quick Prompt
 
 > Assess **compliance program readiness** for **[ORGANIZATION]** in **[INDUSTRY]** across **[JURISDICTIONS]** under **[CORE_REGULATIONS]**. Score 1–5 across: (1) **Scope/prioritization**—do we know what applies and what matters most? (2) **Governance**—are decision rights, escalation, and three lines of defense working in practice? (3) **Policies/procedures**—are requirements translated into controlled, usable documents with evidence standards? (4) **Training/culture**—is training role-based and reinforced by leadership expectations? (5) **Monitoring/investigations**—do we detect, triage, investigate, and evidence outcomes consistently? (6) **Assurance/remediation**—do audits/testing and CAPA prevent recurrence? Provide a scorecard, top gaps, and a 90-day plan.
 

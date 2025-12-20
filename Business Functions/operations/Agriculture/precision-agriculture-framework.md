@@ -30,7 +30,7 @@ slug: precision-agriculture-framework
 ## Purpose
 Assess readiness to implement precision agriculture capabilities: sensing, variable-rate application, decision support, and operational governance.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess precision agriculture readiness for farm/operation [OPERATION]. Score readiness (1–5) across: (1) Strategy & ROI, (2) Data & sensing, (3) Equipment & interoperability, (4) Decision workflows, (5) Operations & training, (6) Governance & scaling. Provide a scorecard and a rollout roadmap.
 

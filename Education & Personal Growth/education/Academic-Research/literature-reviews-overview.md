@@ -32,7 +32,7 @@ slug: literature-reviews-overview
 ## Purpose
 Comprehensively assess your readiness to conduct a rigorous systematic review, meta-analysis, or evidence synthesis project across six critical dimensions: Methodological Expertise, Search & Selection Capability, Synthesis & Analysis Readiness, Infrastructure & Tools, Team & Resources, and Reporting & Dissemination Capacity. This framework identifies gaps, estimates timelines, and creates a project execution plan before committing to a multi-month review.
 
-## 🚀 Quick Assessment Prompt
+## 🚀 Quick Prompt
 
 > Assess **literature review project readiness** for **{REVIEW_CONTEXT}** planning to conduct **{REVIEW_TYPE}**. Evaluate across: (1) **Methodological expertise**—what systematic review training exists? Experience with PRISMA, protocol registration, quality assessment tools? (2) **Search capability**—can the team design comprehensive searches across databases? Access to information specialists? (3) **Synthesis capacity**—what statistical and qualitative synthesis skills exist? Software proficiency (RevMan, R, NVivo)? (4) **Infrastructure**—what screening tools, reference management, and collaboration platforms are available? (5) **Team resources**—what time commitment, dual-reviewer capacity, and content expertise exists? (6) **Dissemination readiness**—what publication targets, stakeholder engagement plans, and knowledge translation capacity exists? Provide a maturity scorecard (1-5 per dimension), risk analysis, resource requirements, and a phased project plan with realistic timeline.
 

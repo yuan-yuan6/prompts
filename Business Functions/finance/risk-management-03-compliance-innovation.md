@@ -27,7 +27,7 @@ slug: risk-management-compliance-innovation-readiness-assessment
 ## Purpose
 Assess how ready your organization is to meet regulatory expectations, govern model risk, run stress testing, and safely adopt advanced analytics and emerging-risk capabilities.
 
-## Quick Assessment Prompt
+## Quick Prompt
 Assess compliance and innovation readiness for [FINANCIAL_INSTITUTION_NAME] under [REGULATORY_FRAMEWORKS]. Evaluate regulatory mapping and change management, examination readiness and reporting, model inventory and validation, stress testing and capital planning, emerging risks (climate/ESG/digital), and AI/ML governance and controls. Score each 1–5 and list the top gaps and next actions.
 
 ## Readiness Scorecard (1–5 each)

@@ -32,7 +32,7 @@ slug: business-planning
 ## Purpose
 Assess whether an organization is ready to produce a coherent business plan that is credible, internally aligned, and actionable. This focuses on evidence quality, financial realism, and the operating plan required to execute.
 
-## Quick Assessment Prompt
+## Quick Prompt
 
 > Assess business planning readiness for [ORGANIZATION] pursuing [STRATEGIC_GOAL] in [INDUSTRY] and [TARGET_MARKET]. Score readiness (1–5) across: (1) Strategic narrative & differentiation, (2) Market and customer evidence, (3) Operating plan & execution readiness, (4) Financial model & unit economics, (5) Risks & assumptions management, (6) Governance & stakeholder alignment. Provide a scorecard, key gaps, and a 60–90 day plan to strengthen the plan.
 
