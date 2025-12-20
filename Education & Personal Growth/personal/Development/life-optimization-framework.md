@@ -30,23 +30,6 @@ industries:
 ## Purpose
 Create comprehensive life systems integrating six core domains (career, health, finance, relationships, learning, purpose) achieving 10-20% improvement across all areas through keystone habits, sustainable routines, and systematic reviews, typically within 90 days of implementation.
 
-## Quick Start
-
-**Quick Prompt**: "Create life optimization system prioritizing {PRIMARY_DOMAIN} currently {CURRENT_SCORE}/10 targeting {GOAL} in {TIMEFRAME} with {HOURS_WEEKLY} available using keystone habit {HABIT} and {REVIEW_FREQUENCY} reviews"
-
-**When to Use This**:
-- Feeling unbalanced (excelling at work but neglecting health/relationships, or vice versa)
-- Major life transition (new job, moved cities, new parent, post-breakup) requiring system rebuild
-- Burnout recovery needing structured approach to rebuilding sustainable routines
-- Plateau across multiple domains seeking breakthrough through integrated approach
-- Desire for holistic excellence not just career/financial success
-
-**Basic 4-Phase Workflow**:
-1. **Assess All Domains** → Rate 1-10: career, health, finance, relationships, learning, purpose—identify weakest domain as starting point
-2. **Install Keystone Habit** → ONE habit creating positive ripple effects (morning routine, weekly review, daily exercise), track 30 days for momentum
-3. **Build Routine Stack** → Layer habits onto keystone: morning (wake/exercise/plan), peak hours (deep work blocks), evening (wind-down/reflection)
-4. **Review & Iterate** → Daily 5-min reflection, weekly 30-min review, monthly domain assessment, quarterly goal adjustment
-
 ## Template
 
 Design life optimization framework for {INDIVIDUAL} targeting {LIFE_VISION} with {PRIMARY_GOALS} across {PRIORITY_DOMAINS}. Current state {DOMAIN_SCORES}, available time {TIME_INVESTMENT}, energy level {ENERGY_STATE}. Keystone habit {CORE_HABIT}, morning routine {MORNING_ACTIONS}, evening routine {EVENING_ACTIONS}. Weekly review {REVIEW_STRUCTURE}, support system {SUPPORT_NETWORK}, potential obstacles {CHALLENGES}, success metrics {KPI_TRACKING}.

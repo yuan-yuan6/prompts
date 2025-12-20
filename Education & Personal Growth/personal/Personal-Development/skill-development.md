@@ -27,23 +27,6 @@ industries:
 ## Purpose
 Accelerate skill acquisition from beginner to competent using evidence-based learning methodologies, deliberate practice techniques, and the 80/20 principle to achieve mastery 2-3× faster than traditional approaches.
 
-## Quick Start
-
-**Quick Prompt**: "Create accelerated learning plan to master {SKILL} in {TIMEFRAME} from {CURRENT_LEVEL} to {TARGET_LEVEL} with {HOURS_WEEKLY} available using 80/20 principle and deliberate practice"
-
-**When to Use This**:
-- Acquiring new career-critical skill quickly (programming, data analysis, public speaking)
-- Stuck on learning plateau needing breakthrough strategies
-- Self-teaching without formal structure or accountability
-- Optimizing limited practice time for maximum skill development
-- Transitioning careers requiring rapid competency building
-
-**Basic 4-Phase Workflow**:
-1. **Deconstruct Skill** → Break into sub-components, identify critical 20%, assess current level, define success metrics
-2. **Design Practice System** → Create deliberate practice exercises, schedule sessions, establish feedback loops, set milestones
-3. **Execute & Track** → Follow daily routines, measure progress quantitatively, adjust based on data, celebrate wins
-4. **Breakthrough Plateaus** → Recognize stagnation, diagnose causes, vary methods, escalate difficulty, seek expert input
-
 ## Template
 
 Create comprehensive skill acquisition strategy for {SKILL} targeting {PROFICIENCY_LEVEL} in {TIMELINE}. Current competence {CURRENT_LEVEL}, can dedicate {PRACTICE_TIME} daily/weekly. Apply 80/20 principle identifying critical sub-skills delivering 80% of results. Design deliberate practice exercises with immediate feedback, create weekly schedule with measurable milestones, include plateau-breaking strategies and progress testing methods. Learning style {STYLE_PREFERENCES}, available resources {BUDGET_TOOLS_MENTORS}, application context {USAGE_ENVIRONMENT}. Address common obstacles {LEARNING_CHALLENGES}, optimize for {MOTIVATION_TYPE}, incorporate {MEMORY_STRATEGIES}.

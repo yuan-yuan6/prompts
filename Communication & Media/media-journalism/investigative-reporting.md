@@ -33,31 +33,6 @@ Framework for conducting investigative journalism including source development, 
 
 Plan investigative report on **{TOPIC}** with **{SCOPE: local/state/national/international}** coverage. Develop **{SOURCE_COUNT}** sources including **{SOURCE_TYPES: whistleblowers/officials/experts/insiders}**, analyze **{DOCUMENT_COUNT}** documents through **{DOC_TYPES: FOIA/financial/internal/digital}**, verify claims with **{VERIFICATION_STANDARD: 3-source/document-backed/expert-validated}**, assess **{LEGAL_RISKS: defamation/privacy/source-protection/injunction}**, protect sources via **{SECURITY_PROTOCOLS: encrypted-comms/anonymous-channels/secure-meetings}**, and publish across **{PLATFORMS: print/digital/video/data-viz/podcast}**. Timeline of **{DURATION}** with budget of **{BUDGET}** targeting **{IMPACT_GOAL: policy-change/accountability/prosecution/reform}**.
 
-## Quick Start
-
-**Need to plan an investigative story?** Use this minimal example:
-
-### Minimal Example
-```
-Develop investigative report on municipal contract fraud with citywide scope, 25 sources including 8 whistleblowers and 12 current officials, 300 documents via FOIA, 6-month investigation targeting public accountability and criminal prosecution through multi-platform publication.
-```
-
-### When to Use This
-- Exposing government corruption through whistleblower testimony, FOIA document analysis, and financial data journalism
-- Investigating corporate malfeasance with internal documents, employee sources, and regulatory filings analysis
-- Uncovering environmental violations using scientific testing, geospatial analysis, and community health data
-- Documenting systemic injustices through data analysis, victim interviews, and policy pattern recognition
-
-### Basic 6-Step Workflow
-1. **Develop Investigation Plan** - Define story hypothesis, map potential sources, assess legal risks, establish timeline and budget
-2. **Cultivate Sources** - Build whistleblower trust, protect identities, use encrypted communications, establish verification protocols
-3. **Gather Documents** - File FOIA requests, analyze financial records, authenticate leaked materials, maintain chain of custody
-4. **Perform Data Analysis** - Query databases, identify statistical patterns, create visualizations, validate anomalies
-5. **Verify All Claims** - Corroborate with multiple sources, document evidence trails, conduct expert review, test confidence levels
-6. **Publish & Track Impact** - Coordinate legal review, execute multi-platform launch, measure policy response, follow up on outcomes
-
-**Time to complete**: 3-6 months for local investigations with 10-20 sources, 6-12 months for state investigations with 50+ documents, 12-24 months for multi-jurisdictional consortium investigations with extensive data analysis
-
 ---
 
 ## Template

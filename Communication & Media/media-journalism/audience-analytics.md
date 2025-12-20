@@ -32,31 +32,6 @@ Framework for analyzing audience behavior, optimizing content engagement, and dr
 
 Analyze audience engagement for **{PUBLICATION}** with **{MONTHLY_USERS}** MAU and **{SUBSCRIBERS}** subscribers. Segment users by **{CRITERIA: demographics/behavior/psychographics}**, track **{METRICS: engagement/retention/conversion/revenue}**, identify top-performing content in **{CATEGORIES: news/features/video/podcast}**, build predictive model for **{PREDICTIONS: churn/LTV/content-performance}**, and design A/B tests for **{TESTS: headlines/layouts/CTAs/paywalls}**. Target **{ENGAGEMENT_RATE}**% engagement and **{GROWTH_RATE}**% subscriber growth with personalization strategy for **{SEGMENTS: personas/lifecycle-stages}**.
 
-## Quick Start
-
-**Need to optimize audience engagement?** Use this minimal example:
-
-### Minimal Example
-```
-Analyze engagement for MetroNews with 2M monthly users and 75K subscribers, segment by demographics and reading behavior, track engagement/retention/conversion metrics, build churn prediction model, A/B test headlines and paywall messaging, targeting 8% engagement rate and 15% subscriber growth.
-```
-
-### When to Use This
-- Understanding audience demographics, behavior patterns, content preferences through cohort analysis and segmentation
-- Optimizing content strategy using A/B testing, personalization engines, recommendation algorithms, and performance data
-- Growing subscriber base through conversion funnel optimization, onboarding improvements, and retention interventions
-- Maximizing revenue through attribution analysis, ARPU optimization, and monetization experiments across channels
-
-### Basic 6-Step Workflow
-1. **Set Up Analytics Infrastructure** - Implement tracking (GA4, Chartable, custom events), define KPIs, establish baselines
-2. **Segment Audience** - Create demographic/behavioral/psychographic segments, map user journeys, identify high-value cohorts
-3. **Analyze Content Performance** - Track engagement by category, identify top performers, analyze drop-off patterns
-4. **Build Predictive Models** - Develop churn prediction, LTV forecasting, content success scoring using ML
-5. **Run Optimization Experiments** - A/B test headlines, layouts, CTAs, paywalls; implement winners at scale
-6. **Deploy Personalization** - Launch recommendation engines, dynamic content, targeted campaigns based on segments
-
-**Time to complete**: 2-3 weeks for basic analytics setup and initial insights, 2-3 months for comprehensive personalization, predictive modeling, and optimization programs
-
 ---
 
 ## Template

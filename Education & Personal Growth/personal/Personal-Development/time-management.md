@@ -28,23 +28,6 @@ industries:
 ## Purpose
 Transform overwhelming task lists into clear action plans using systematic prioritization frameworks (Eisenhower Matrix, RICE scoring, Impact-Effort analysis) that maximize high-impact work while eliminating time-wasters, typically increasing productive output 30-50%.
 
-## Quick Start
-
-**Quick Prompt**: "Prioritize {TASK_COUNT} tasks supporting {KEY_OBJECTIVES} using {PRIORITIZATION_METHOD} within {TIME_CONSTRAINTS} addressing {CHALLENGES}"
-
-**When to Use This**:
-- Drowning in 15+ competing priorities without clear starting point
-- Daily reactive work consuming time meant for strategic projects
-- Multiple stakeholders creating conflicting demands on your time
-- Decision fatigue slowing productivity (spending more time deciding than doing)
-- Gap between important long-term goals and urgent daily firefighting
-
-**Basic 4-Phase Workflow**:
-1. **Capture & Categorize** → Brain dump all tasks, group by type (strategic, operational, reactive), estimate time/impact
-2. **Score & Rank** → Apply prioritization framework (Eisenhower, RICE, Impact-Effort), calculate scores, identify top priorities
-3. **Schedule & Protect** → Time-block calendar for high-priority work, batch similar tasks, set boundaries
-4. **Review & Adjust** → Weekly review of completed vs planned, adjust priorities based on outcomes, eliminate low-value work
-
 ## Template
 
 Create comprehensive prioritization system for {TASK_VOLUME} tasks achieving {KEY_OBJECTIVES}. Current challenges {OVERWHELM_FACTORS} with {TIME_AVAILABLE} and {RESOURCE_CONSTRAINTS}. Apply {PRIORITIZATION_METHOD} considering {STAKEHOLDER_PRIORITIES}, design {SCHEDULING_APPROACH} with {ENERGY_ALIGNMENT}, include delegation strategy for {TEAM_CAPACITY}, create review cadence {REVIEW_FREQUENCY}. Address competing priorities {CONFLICT_RESOLUTION}, batch similar work {BATCHING_STRATEGY}, protect deep work time {FOCUS_PROTECTION}.

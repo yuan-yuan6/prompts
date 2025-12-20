@@ -36,37 +36,6 @@ Develop a comprehensive AI strategy that articulates the vision, strategic pilla
 
 > Develop an **AI strategy roadmap** for **[ORGANIZATION]** in **[INDUSTRY]** with **[REVENUE/SIZE]** and **[CURRENT AI MATURITY: nascent/developing/advanced]**. Analyze: (1) **Vision & objectives**—what's the 3-5 year AI vision aligned with business strategy? What are the primary value drivers (efficiency, growth, innovation, risk)? (2) **Strategic pillars**—what are 3-5 focus areas (customer experience, operations, products, decision-making)? How do these map to competitive advantage? (3) **Capability requirements**—what investments in data infrastructure, talent, platforms, and governance are needed? (4) **Roadmap & investment**—what's the phased approach across horizons (foundation, scale, transform)? What's the budget envelope and expected ROI? Provide an executive-ready strategy document with vision statement, pillar definitions, capability roadmap, and investment framework.
 
-**Usage:** Replace bracketed placeholders with your specifics. Use as a prompt to an AI assistant for strategic AI planning guidance.
-
----
-
-## Quick Start
-
-### Minimal Example
-```
-AI STRATEGY: Regional Healthcare Network
-
-VISION (3-Year):
-"Leverage AI to deliver personalized, proactive care while reducing 
-administrative burden—improving outcomes by 25% and efficiency by 40%."
-
-STRATEGIC PILLARS:
-1. Clinical Decision Support - AI-assisted diagnosis and treatment
-2. Operational Excellence - Scheduling, capacity, and resource optimization
-3. Patient Experience - Personalized engagement and navigation
-4. Administrative Automation - Revenue cycle and documentation
-
-INVESTMENT FRAMEWORK:
-- Year 1: $5M (Foundation) - Data platform, governance, 2 pilots
-- Year 2: $12M (Scale) - Production deployment, COE expansion
-- Year 3: $18M (Transform) - Advanced AI, enterprise-wide adoption
-
-EXPECTED VALUE:
-- $45M annual savings by Year 3
-- 20% reduction in readmissions
-- 30% improvement in patient satisfaction
-```
-
 ---
 
 ## Template

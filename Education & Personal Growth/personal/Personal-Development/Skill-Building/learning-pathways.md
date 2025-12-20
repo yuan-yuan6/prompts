@@ -33,31 +33,6 @@ Framework for designing structured learning pathways covering curriculum archite
 
 Design learning pathway for **{LEARNER}** to develop **{TARGET_SKILLS}** for **{GOAL: career-transition/advancement/new-skill}**. Current level **{PROFICIENCY: beginner/intermediate/advanced}** with background in **{EXISTING_SKILLS}**. Time commitment **{HOURS_PER_WEEK}** over **{DURATION}** with budget **{AMOUNT}**. Create structured curriculum with **{PHASES: foundation/specialization/integration}**, recommended resources **{TYPES: courses/books/projects}**, milestone checkpoints every **{FREQUENCY}**, skill assessments, and portfolio projects. Include free and paid options prioritized by ROI.
 
-## Quick Start
-
-**Need to create a learning plan?** Use this minimal example:
-
-### Minimal Example
-```
-Design 12-month learning pathway for software engineer transitioning to ML engineering, developing skills in Python ML libraries, deep learning, and MLOps, 10-15 hours per week, $3,000 budget, with quarterly project milestones and TensorFlow certification.
-```
-
-### When to Use This
-- Planning career transitions with structured skill acquisition across 12-24 month timelines
-- Designing corporate training programs with competency tiers, progressive difficulty, and certification validation
-- Creating self-directed learning with resource curation, milestone tracking, and portfolio development
-- Building educational curricula with prerequisite mapping, adaptive pacing, and multi-modal content delivery
-
-### Basic 6-Step Workflow
-1. **Define Learning Objectives** - Identify target skills, proficiency levels, career goals, timeline constraints
-2. **Map Competencies** - Break skills into progressive tiers (foundation, intermediate, advanced, expert)
-3. **Design Curriculum** - Structure modules with prerequisites, time estimates, difficulty scaling
-4. **Allocate Resources** - Budget time/money across courses, books, tools, certifications strategically
-5. **Build Assessment System** - Create milestone checkpoints, project demonstrations, skill validations
-6. **Implement & Iterate** - Execute plan, track progress, adjust pacing based on performance feedback
-
-**Time to complete**: 1-2 days for basic personal learning plan, 1-2 weeks for comprehensive organizational curriculum with multiple pathways and certification tracks
-
 ---
 
 ## Template

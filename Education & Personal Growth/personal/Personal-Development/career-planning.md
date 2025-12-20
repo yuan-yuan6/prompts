@@ -33,32 +33,6 @@ Framework for creating comprehensive career development strategies covering traj
 
 Create career development roadmap for **{CURRENT_ROLE}** with **{EXPERIENCE_YEARS}** experience in **{INDUSTRY}**, targeting **{CAREER_GOAL: promotion/transition/new-field}** within **{TIMEFRAME}**. Strengths in **{KEY_SKILLS}**, gaps include **{DEVELOPMENT_AREAS}**. Design strategic plan with **{MILESTONE_FREQUENCY: quarterly/annual}** milestones, skill development priorities ranked by **{CRITERIA: ROI/urgency/difficulty}**, networking targets **{NETWORK_GOALS: contacts/events/communities}**, and **{ACTION_COUNT}** specific actions for this month. Include alternative career paths and risk mitigation strategies.
 
-## Quick Start
-
-**Need a career roadmap?** Use this minimal example:
-
-### Minimal Example
-```
-Create 3-year career roadmap for mid-level software engineer targeting senior engineering manager role, developing leadership skills and system design expertise, with quarterly skill assessments, networking 10 industry leaders, and building team management experience through 2-3 stretch projects.
-```
-
-### When to Use This
-- Feeling stuck in current role with no clear advancement path or stagnant skill development
-- Considering career transition but uncertain about feasibility, timeline, or required preparation
-- Preparing for promotion to leadership requiring new skills (management, strategy, executive presence)
-- Industry disruption threatening current role requiring future-proofing through adjacent skills
-- Aligning daily work with long-term aspirations through intentional career architecture
-
-### Basic 6-Step Workflow
-1. **Assess Current State** - Document role, skills, achievements, network, gaps in competencies/experience
-2. **Define Career Vision** - Clarify 1-3-5 year goals, ideal roles, impact objectives, success metrics
-3. **Map Career Paths** - Identify 3-5 viable trajectories with requirements, timelines, probabilities
-4. **Build Development Plan** - Prioritize skill acquisition, certifications, projects, leadership opportunities
-5. **Grow Strategic Network** - Target mentors, sponsors, industry contacts through communities and events
-6. **Track & Iterate** - Quarterly reviews adjust pace, pivot based on feedback, celebrate milestones
-
-**Time to complete**: 1 day for initial career plan, 1 week for comprehensive 5-year roadmap with detailed skill matrices and networking strategy, ongoing quarterly reviews and annual recalibration
-
 ---
 
 ## Template

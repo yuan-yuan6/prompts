@@ -40,44 +40,6 @@ Systematically evaluate whether to build AI capabilities in-house, buy from vend
 
 ---
 
-## Quick Start
-
-### Minimal Example
-```
-BUILD VS BUY ANALYSIS: Customer Churn Prediction
-
-USE CASE: Predict which customers will churn in next 90 days
-
-DECISION MATRIX:
-┌─────────────────────┬───────┬────────┬─────────┐
-│ Factor              │ Build │  Buy   │ Partner │
-├─────────────────────┼───────┼────────┼─────────┤
-│ Strategic Value     │  ★★★  │   ★★   │   ★★    │
-│ Data Requirements   │  ★★★  │   ★    │   ★★    │
-│ Customization Need  │  ★★★  │   ★★   │   ★★★   │
-│ Time to Value       │   ★   │  ★★★   │   ★★    │
-│ Internal Capability │  ★★   │   ★★★  │   ★★    │
-│ Long-term Cost      │  ★★   │   ★★   │   ★★    │
-└─────────────────────┴───────┴────────┴─────────┘
-
-3-YEAR TCO:
-- BUILD: $850K (Team + infra + maintenance)
-- BUY: $720K (CDP vendor with ML module)
-- PARTNER: $950K (Consulting + ongoing support)
-
-RECOMMENDATION: HYBRID
-- Buy CDP platform for data foundation
-- Build custom churn models on top (core IP)
-- Reason: Churn prediction is competitive differentiator, 
-  but data infrastructure is commodity
-```
-
-### When to Use This
-- Evaluating AI vendor proposals against internal development
-- Deciding resource allocation between build and buy
-- Assessing partnership opportunities with AI providers
----
-
 ## Template
 
 Evaluate build vs buy vs partner options for {USE_CASE} at {ORGANIZATION}, a {INDUSTRY} company.

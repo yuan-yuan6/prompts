@@ -28,23 +28,6 @@ industries:
 ## Purpose
 Accelerate career progression through strategic skill development, professional networking, personal branding, and compensation optimization, typically advancing roles 12-18 months faster than passive career management while increasing compensation 20-40%.
 
-## Quick Start
-
-**Quick Prompt**: "Create career advancement plan from {CURRENT_ROLE} to {TARGET_ROLE} in {TIMEFRAME} addressing skill gaps {GAPS} through {DEVELOPMENT_METHODS} and building network {NETWORKING_STRATEGY}"
-
-**When to Use This**:
-- Stuck at current level 2+ years seeking promotion or advancement
-- Planning career transition to new industry, function, or company type
-- Compensation below market rate (20%+ gap) needing negotiation strategy
-- Weak professional network limiting opportunities and visibility
-- Unclear career direction needing structured planning and goal-setting
-
-**Basic 4-Phase Workflow**:
-1. **Assess Current State** → Evaluate skills vs target role requirements, benchmark compensation, audit professional brand (LinkedIn, resume), map existing network
-2. **Define 12-Month Target** → Specific role/level/compensation goals, identify 3-5 critical skill gaps, set networking targets (conferences, connections, mentors)
-3. **Create 90-Day Sprints** → Q1: foundational skills + LinkedIn optimization, Q2: advanced skills + strategic networking, Q3: visibility projects + internal positioning, Q4: applications/interviews or promotion push
-4. **Execute & Iterate** → Weekly actions (courses, networking events, visibility opportunities), monthly progress review, quarterly goal adjustment
-
 ## Template
 
 Create career advancement strategy for {YOUR_NAME} currently {CURRENT_ROLE} with {YEARS_EXPERIENCE} years targeting {TARGET_ROLE} within {TARGET_TIMELINE}. Current compensation {CURRENT_COMP}, target {TARGET_COMP}, salary increase {INCREASE_PERCENT}%. Skill gaps {SKILL_GAPS}, development methods {LEARNING_APPROACH}, available time {TIME_INVESTMENT}. Network size {CURRENT_NETWORK}, target {TARGET_NETWORK}, key connections {KEY_RELATIONSHIPS}. Personal brand status {BRAND_CURRENT}, enhancement strategy {BRAND_IMPROVEMENTS}. Job search approach {SEARCH_STRATEGY} with {APPLICATION_VOLUME} and {SUCCESS_METRICS}.
